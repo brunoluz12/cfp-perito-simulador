@@ -22,7 +22,8 @@ const views = {
     dashboard: document.getElementById('dashboard-view'),
     quiz: document.getElementById('quiz-view'),
     result: document.getElementById('result-view'),
-    'control-view': document.getElementById('control-view')
+    'control-view': document.getElementById('control-view'),
+    'material-view': document.getElementById('material-view')
 };
 
 // VARIÁVEIS DE NUVEM
@@ -971,14 +972,94 @@ function atualizarProgressoGeral() {
 function switchMainTab(tabName) {
     const tabSimulador = document.getElementById('tab-simulador');
     const tabControle = document.getElementById('tab-controle');
+    const tabMaterial = document.getElementById('tab-material');
+    
+    if (tabSimulador) tabSimulador.classList.remove('active');
+    if (tabControle) tabControle.classList.remove('active');
+    if (tabMaterial) tabMaterial.classList.remove('active');
     
     if (tabName === 'simulador') {
-        tabSimulador.classList.add('active');
-        tabControle.classList.remove('active');
+        if (tabSimulador) tabSimulador.classList.add('active');
         showView('dashboard');
     } else if (tabName === 'controle') {
-        tabControle.classList.add('active');
-        tabSimulador.classList.remove('active');
+        if (tabControle) tabControle.classList.add('active');
         showView('control-view');
+    } else if (tabName === 'material') {
+        if (tabMaterial) tabMaterial.classList.add('active');
+        showView('material-view');
     }
 }
+
+// ==========================================
+// CONTROLE DE MATERIAIS
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    const matDisc = document.getElementById('material-disciplina-select');
+    const matCap = document.getElementById('material-capitulo-select');
+    const iframeContainer = document.querySelector('.material-reader-container');
+    const iframe = document.getElementById('material-iframe');
+    const statusMsg = document.getElementById('material-loading-status');
+    
+    const materialData = {
+        'criminalistica': { path: 'CRIMINALISTICA', maxCaps: 17 },
+        'ipo': { path: 'IPO', maxCaps: 9 }
+    };
+    
+    if(matDisc) {
+        matDisc.addEventListener('change', () => {
+            const disc = materialData[matDisc.value];
+            matCap.innerHTML = '<option value="" disabled selected>Selecione o capítulo</option>';
+            
+            if(disc) {
+                for(let i = 1; i <= disc.maxCaps; i++) {
+                    const num = i.toString().padStart(2, '0');
+                    const opt = document.createElement('option');
+                    opt.value = `Capitulo_${num}.html`;
+                    opt.textContent = `Capítulo ${i}`;
+                    matCap.appendChild(opt);
+                }
+                matCap.disabled = false;
+            }
+        });
+        
+        matCap.addEventListener('change', () => {
+            if(!matDisc.value || !matCap.value) return;
+            const folder = materialData[matDisc.value].path;
+            const fileName = matCap.value;
+            const url = `materiais/${folder}/HTML/${fileName}`;
+            
+            iframeContainer.style.display = 'block';
+            statusMsg.style.display = 'inline-block';
+            iframe.style.opacity = '0.4';
+            
+            // Força o iframe a ficar pequeno para não herdar a altura gigante do capítulo anterior
+            iframe.style.height = '200px';
+            // Reseta a referência do último tamanho conhecido
+            iframe.dataset.lastHeight = '0';
+            
+            iframe.onload = () => {
+                statusMsg.style.display = 'none';
+                iframe.style.opacity = '1';
+            };
+            
+            iframe.src = url;
+        });
+    }
+
+    // Ouve mensagens dos HTMLs carregados para ajustar a altura dinamicamente sem barra de rolagem
+    window.addEventListener('message', (event) => {
+        if (event.data && event.data.type === 'resize-iframe') {
+            if (iframeContainer.style.display !== 'none') {
+                const newHeight = event.data.height;
+                const lastHeight = parseInt(iframe.dataset.lastHeight || '0');
+                
+                // Previne o loop infinito de crescimento:
+                // Só ajusta a altura do iframe se a diferença de tamanho for significativa (> 30px)
+                if (Math.abs(newHeight - lastHeight) > 30) {
+                    iframe.dataset.lastHeight = newHeight.toString();
+                    iframe.style.height = (newHeight + 20) + 'px';
+                }
+            }
+        }
+    });
+});

@@ -33,6 +33,8 @@
                 <i class="ph ph-shield-check"></i>
                 <h1 id="tab-simulador" class="tab-link active" onclick="switchMainTab('simulador')">Simulador</h1>
                 <span class="tab-divider">|</span>
+                <h1 id="tab-material" class="tab-link" onclick="switchMainTab('material')">Materiais</h1>
+                <span class="tab-divider">|</span>
                 <h1 id="tab-controle" class="tab-link" onclick="switchMainTab('controle')">Controle</h1>
             </div>
             <div class="user-stats">
@@ -275,6 +277,33 @@
                 <div id="disciplines-grid" class="disciplines-grid">
                     <!-- Gerado dinamicamente via JS -->
                 </div>
+            </div>
+        </main>
+
+        <!-- TELA DE MATERIAL -->
+        <main id="material-view" class="view">
+            <div class="glass-panel material-config-panel">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="material-disciplina-select"><i class="ph ph-book-open"></i> Disciplina</label>
+                        <select id="material-disciplina-select">
+                            <option value="" disabled selected>Selecione a disciplina</option>
+                            <option value="criminalistica">Criminalística</option>
+                            <option value="ipo">Investigação Policial (IPO)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="material-capitulo-select"><i class="ph ph-list-bullets"></i> Capítulo</label>
+                        <select id="material-capitulo-select" disabled>
+                            <option value="" disabled selected>Selecione o capítulo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-4 material-reader-container" style="display: none; width: 100%;">
+                <span id="material-loading-status" style="display: none; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; font-weight: 500;"><i class="ph ph-spinner ph-spin"></i> Carregando caderno...</span>
+                <iframe id="material-iframe" src="" style="width: 100%; height: calc(100vh - 180px); border: none; border-radius: var(--radius-lg); background: white; box-shadow: var(--shadow-glow);"></iframe>
             </div>
         </main>
     </div>

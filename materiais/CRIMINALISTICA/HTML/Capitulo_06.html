@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 6 - Teoria dos Vestígios</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        :root {
+            --primary: #1e293b;
+            --secondary: #3b82f6;
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+            --border-color: #e2e8f0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin: 0 0 0.5rem 0;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #64748b;
+            margin-bottom: 1rem;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--secondary);
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .toc {
+            background: #f1f5f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        .toc h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        .toc ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .toc li {
+            margin-bottom: 0.5rem;
+        }
+        .toc a {
+            text-decoration: none;
+            color: var(--secondary);
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+        .section {
+            margin-bottom: 2.5rem;
+        }
+        .section h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .section h3 {
+            color: #475569;
+            margin-bottom: 1rem;
+        }
+        /* Boxes */
+        .box {
+            padding: 1.2rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+        .box-title {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .box p:last-child {
+            margin-bottom: 0;
+        }
+        .box-green { background: #f0fdf4; border-color: #22c55e; color: #166534; }
+        .box-orange { background: #fff7ed; border-color: #f97316; color: #9a3412; }
+        .box-blue { background: #eff6ff; border-color: #3b82f6; color: #1e40af; }
+        .box-purple { background: #faf5ff; border-color: #a855f7; color: #6b21a8; }
+        .box-red { background: #fef2f2; border-color: #ef4444; color: #991b1b; }
+
+        /* Mnemonic */
+        .mnemonic {
+            background: #475569;
+            color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 1.5rem 0;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        .mnemonic-title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+            color: #f8fafc;
+        }
+
+        /* Diagram */
+        .diagram {
+            display: flex;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+        }
+        .diagram-item {
+            flex: 1;
+            min-width: 200px;
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.2rem;
+            text-align: center;
+        }
+        .diagram-item-title {
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Images */
+        .image-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        .caption {
+            font-size: 0.85rem;
+            color: #64748b;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 0.8rem;
+            text-align: left;
+        }
+        th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Capítulo 6 - Teoria dos Vestígios</h1>
+            <div class="subtitle">Criminalística</div>
+            <div class="badge">PCPR - Criminalística</div>
+        </div>
+
+        <div class="toc">
+            <h3>Índice</h3>
+            <ul>
+                <li><a href="#conceito">1. Conceito e Definições de Vestígio</a></li>
+                <li><a href="#relacao-fatos">2. Relação dos Vestígios com os Fatos (6.1)</a></li>
+                <li><a href="#origem">3. Origem dos Vestígios (6.2)</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="conceito">
+            <h2>1. Conceito e Definições de Vestígio</h2>
+            <p><strong>Vestígios</strong>, em sentido amplo, são marcas, rastros, sinais, manchas, entre outros.</p>
+
+            <div class="box box-blue">
+                <div class="box-title">Doutrina (Borges da Rosa / Demercian e Maluly)</div>
+                <p>São sinais, dados materiais, resquícios percebíveis pelos sentidos, manifestações físicas que se ligam a um ato ou fato ocorrido ou cometido, isto é, à infração penal. A apreciação pelos sentidos desses dados materiais é que constitui o <strong>exame de corpo de delito</strong>.</p>
+            </div>
+
+            <div class="box box-red">
+                <div class="box-title">Definição Legal: Código de Processo Penal (Art. 158-A)</div>
+                <p><em>"Vestígio é todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal."</em></p>
+            </div>
+
+            <p>Para a <strong>Criminalística</strong>, vestígios são elementos materiais que se relacionam com o crime (ou fato em apuração) e que servem como <strong>matéria-prima na produção da prova material</strong>.</p>
+
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800&h=400" alt="Ilustração de Local de Crime">
+                <div class="caption">Vestígios servem como matéria-prima para a perícia criminal na produção de prova material.</div>
+            </div>
+        </div>
+
+        <div class="section" id="relacao-fatos">
+            <h2>2. Relação dos Vestígios com os Fatos</h2>
+            <p>Nos locais de crime, há sempre muitas evidências e detalhes que atraem a atenção dos investigadores. Um grande desafio da perícia criminal é a <strong>identificação dos vestígios que realmente têm relação</strong> com os fatos em apuração.</p>
+            
+            <div class="box box-orange">
+                <div class="box-title">Alerta de Investigação</div>
+                <p>É muito comum a investigação seguir pistas falsas que parecem verdadeiras no início. Perde-se tempo e, às vezes, os trabalhos são inviabilizados porque <strong>nem sempre os vestígios encontrados têm relação com os fatos</strong>.</p>
+            </div>
+
+            <h3>Classificação quanto à Relação com o Fato</h3>
+
+            <div class="diagram">
+                <div class="diagram-item">
+                    <div class="diagram-item-title">Ilusórios</div>
+                    <p>Estavam no local naturalmente, por acaso. Apesar de receberem atenção inicial da equipe de investigação, no final <strong>não apresentam relação</strong> com o crime.</p>
+                </div>
+                <div class="diagram-item">
+                    <div class="diagram-item-title">Forjados</div>
+                    <p>Evidências "plantadas" intencionalmente pelo autor para <strong>desviar a atenção</strong> ou mudar a direção da investigação.</p>
+                </div>
+                <div class="diagram-item">
+                    <div class="diagram-item-title">Verdadeiros</div>
+                    <p>Têm relação direta com os fatos, resultado de ação ou omissão do autor. A correta interpretação leva à <strong>elucidação do crime</strong>.</p>
+                </div>
+            </div>
+
+            <div class="mnemonic">
+                <div class="mnemonic-title">Mnemônico: FIV</div>
+                <p>Para lembrar os tipos de vestígios quanto à relação: <br>
+                <strong>F</strong> orjado (plantado para desviar o foco)<br>
+                <strong>I</strong> lusório (encontrado por acaso no local)<br>
+                <strong>V</strong> erdadeiro (relacionado à ação do autor)</p>
+            </div>
+
+            <div class="box box-green">
+                <div class="box-title">Importante!</div>
+                <p>É quase sempre muito difícil diferenciar, no início dos trabalhos, os vestígios verdadeiros dos ilusórios e forjados. <strong>Nenhum detalhe pode ser desprezado!</strong> Até mesmo o vestígio forjado deve ser analisado e investigado, pois pode evidenciar alguma pista deixada pelo verdadeiro autor.</p>
+            </div>
+        </div>
+
+        <div class="section" id="origem">
+            <h2>3. Origem dos Vestígios</h2>
+            <p>Antes de se falar da relação dos vestígios com a sua origem, é preciso esclarecer que o <strong>agente de vestígios</strong> (ou origem) nem sempre é o ser humano. Tecnicamente, chamam-se agentes de vestígios os homens, animais, objetos e instrumentos que, natural ou artificialmente, provocam vestígios materiais.</p>
+
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1555848962-6e79363ec58f?auto=format&fit=crop&q=80&w=800&h=400" alt="Ilustração de Origem de Vestígios">
+                <div class="caption">A origem de um vestígio não é apenas humana, podendo ser derivada de instrumentos, armas ou animais.</div>
+            </div>
+
+            <h3>Classificação quanto à Origem</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Classificação</th>
+                        <th>Definição</th>
+                        <th>Exemplos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Absolutos</strong></td>
+                        <td>Permitem estabelecer <strong>relação direta e absoluta</strong> com a sua origem ou fonte. Um pedaço identificável foi deixado pelo agente.</td>
+                        <td>- Impressões digitais<br>- Manchas de sangue, esperma, saliva, etc.<br>- Ponta de faca quebrada (e a faca de origem)<br>- Estojo ou cápsula de munição (e a arma)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Relativos</strong></td>
+                        <td>Não guardam relação absoluta e identificável de pronto. A relação só pode ser estabelecida de <strong>forma indireta</strong>.</td>
+                        <td>- Caneta genérica encontrada no local do furto (sem gravação de nome do proprietário)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="mnemonic">
+                <div class="mnemonic-title">Mnemônico: AR</div>
+                <p>Para lembrar os tipos de vestígios quanto à origem: <br>
+                <strong>A</strong> bsoluto (Relação Direta/Absoluta)<br>
+                <strong>R</strong> elativo (Relação Indireta)</p>
+            </div>
+            
+            <div class="box box-purple">
+                <div class="box-title">Fique Atento: Suporte de Vestígios</div>
+                <p>Um vestígio relativo (como a caneta genérica sem identificação) deve ser recolhido e receber atenção durante a perícia, pois pode servir de <strong>suporte para outro vestígio</strong> de natureza absoluta, como uma impressão digital deixada sobre a sua superfície.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>

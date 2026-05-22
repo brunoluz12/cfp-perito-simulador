@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 03 - Teoria da Investigação</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        /* Estilos inline de fallback caso o css externo falhe na renderização rápida */
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; text-align: center; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        .image-container { text-align: center; margin: 30px 0; }
+        .image-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.85em; color: #718096; margin-top: 10px; font-style: italic; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .diagram { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+        .diagram-item { background: #e6fffa; padding: 15px; border-radius: 5px; border: 1px solid #319795; }
+        .diagram-item-title { font-weight: bold; color: #234e52; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="badge">PCPR - Investigação Policial (IPO)</span>
+        <h1>Capítulo 3: Teoria da Investigação</h1>
+        <div class="subtitle">Fundamentos Científicos da Investigação Policial</div>
+    </div>
+
+    <div class="toc">
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#intro">Introdução à Teoria da Investigação</a></li>
+            <li><a href="#popper">3.1 Teoria de Karl Popper</a></li>
+            <li><a href="#senso-ciencia">3.2 Investigação do Senso Comum x Científica</a></li>
+            <li><a href="#logica-dewey">3.3 Lógica na Teoria de Investigação de Dewey</a></li>
+            <li><a href="#padrao-dewey">3.4 Padrão de Investigação de Dewey</a></li>
+        </ul>
+    </div>
+
+    <!-- INTRODUÇÃO -->
+    <div id="intro" class="section">
+        <h2>Introdução à Teoria da Investigação</h2>
+        <p>Para compreender adequadamente a <strong>investigação policial</strong>, é indispensável, antes de tudo, entender o que significa a investigação em seu sentido científico. A Polícia Federal (e por extensão, a moderna Polícia Judiciária), ao estruturar sua doutrina institucional sobre investigação, não o fez de maneira intuitiva ou pragmática, mas buscou uma sólida fundamentação na <strong>filosofia da ciência</strong> e na <strong>teoria da investigação</strong>.</p>
+        
+        <div class="box-blue">
+            <strong>Conceito Chave:</strong> A investigação policial, apesar de possuir um objeto próprio e um regime jurídico específico, não opera em um vazio metodológico. Ela se inspira nos padrões racionais de produção de conhecimento da investigação científica.
+        </div>
+
+        <p>Os principais referenciais teóricos adotados dialogam, especialmente, com as obras e pensamentos de <strong>Karl Popper</strong> e <strong>John Dewey</strong>. Esses autores oferecem modelos explicativos fundamentais sobre:</p>
+        <ul>
+            <li>A estrutura lógica da investigação;</li>
+            <li>A formulação de problemas;</li>
+            <li>A construção de hipóteses;</li>
+            <li>A testagem crítica das soluções propostas.</li>
+        </ul>
+
+        <div class="image-container">
+            <img src="https://source.unsplash.com/800x400/?science,investigation" alt="Ciência e Investigação">
+            <div class="caption">A investigação policial moderna bebe diretamente das fontes da investigação científica.</div>
+        </div>
+    </div>
+
+    <!-- 3.1 TEORIA DE KARL POPPER -->
+    <div id="popper" class="section">
+        <h2>3.1 Teoria de Karl Popper</h2>
+        <p>Para <strong>Karl Popper</strong>, o conhecimento é resultado de uma <strong>postura crítica</strong> do investigador perante o saber que já existe. A ciência não tem início na mera observação, mas sim na dúvida e no questionamento.</p>
+        
+        <div class="box-green">
+            <strong>O Ponto de Partida da Ciência:</strong> A ciência começa quando uma teoria existente é questionada por apresentar inconsistências, por conflitar com outras explicações, ou por falhar em explicar determinados fatos. Da dúvida nasce a investigação científica: identificam-se problemas e formulam-se <strong>hipóteses provisórias</strong> para explicá-los.
+        </div>
+
+        <div class="box-purple">
+            <em>"(...) sugeri que toda discussão científica partisse de um problema, ao qual se oferecesse uma espécie de solução provisória, uma teoria-tentativa, passando-se depois a criticar a solução, com vistas à eliminação do erro..." (Karl Popper)</em>
+        </div>
+
+        <h3>A Observação e o Problema</h3>
+        <p>O pesquisador não observa a realidade de forma neutra ou desprovida de ideias prévias; ele a analisa sob a ótica de um conhecimento pré-existente (repertório teórico). O fato isolado não possui relevância científica; ele se torna significativo apenas quando ligado a uma pergunta, a uma dúvida que exige explicação.</p>
+
+        <h3>Hipóteses e o Critério de Falseabilidade</h3>
+        <p>Após a identificação do problema, inicia-se a <strong>conjectura</strong>. O investigador formula soluções possíveis (hipóteses provisórias). A qualidade dessas hipóteses depende do domínio teórico e da criatividade do pesquisador.</p>
+
+        <p>Popper introduz o <strong>critério da falseabilidade</strong>: as hipóteses devem ser ousadas e passíveis de ser expostas a testes rigorosos (testes cruciais) para que se crie o ambiente mais severo possível para a identificação de erros.</p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: Co-Fa-T-E (A Ciência de Popper)</span>
+            <ul>
+                <li><strong>Co</strong>rroboração: Uma hipótese que resiste aos testes não é "verdadeira", mas sim corroborada provisoriamente.</li>
+                <li><strong>Fa</strong>lseabilidade: Critério que separa ciência de não-ciência. Teorias científicas devem poder ser falseadas (refutadas).</li>
+                <li><strong>T</strong>entativa e</li>
+                <li><strong>E</strong>rro: Método crítico e autocorretivo pelo qual a ciência progride.</li>
+            </ul>
+        </div>
+
+        <h3>Modus Tollendo Tollens</h3>
+        <p>Para testar uma hipótese, aplicam-se consequências lógicas testáveis no mundo empírico, buscando falseá-las através da inferência dedutiva do <em>modus tollendo tollens</em>:</p>
+        <div class="box-orange">
+            <p><strong>Se A é verdadeiro, então B também o é.</strong></p>
+            <p><strong>B não é verdadeiro.</strong></p>
+            <p><strong>Logo, A não é verdadeiro.</strong></p>
+            <br>
+            <strong>Consequência Prática:</strong> O pesquisador NÃO busca casos positivos para confirmar sua teoria, mas procura ativamente por evidências que possam refutá-la!
+        </div>
+
+        <h3>Conclusões sobre a Investigação Científica (Segundo a visão Popperiana)</h3>
+        <table>
+            <tr>
+                <th>Característica</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Finalidade</strong></td>
+                <td>Busca a resolução de problemas através de uma <em>verdade formal aproximada e corrigível</em>, afastando-se da antiga noção de "verdade real/absoluta".</td>
+            </tr>
+            <tr>
+                <td><strong>Problema Preciso</strong></td>
+                <td>É essencial que os problemas sejam formulados de forma objetiva; a investigação não prospera no vazio metodológico.</td>
+            </tr>
+            <tr>
+                <td><strong>Pragmatismo das Regras</strong></td>
+                <td>As regras metodológicas têm justificação pragmática (não teórica) e não podem ser previstas dissociadas do caso concreto.</td>
+            </tr>
+        </table>
+        
+        <p>A ciência popperiana é uma investigação em <strong>contínua reconstrução</strong>, com progresso ininterrupto via eliminação de erros e corroboração de hipóteses ousadas.</p>
+    </div>
+
+    <!-- 3.2 JOHN DEWEY: SENSO COMUM x CIÊNCIA -->
+    <div id="senso-ciencia" class="section">
+        <h2>3.2 Investigação do Senso Comum x Investigação Científica</h2>
+        <p>A abordagem de <strong>John Dewey</strong> tem viés <em>pragmatista</em>. Ele foca na estrutura lógica e nos aspectos operacionais do ato de investigar. Dewey parte da premissa de que toda investigação surge da necessidade de enfrentar uma <strong>situação indeterminada</strong> (um cenário com incertezas ou tensões).</p>
+
+        <p>Dewey estabelece que a investigação científica é um aperfeiçoamento sistêmico da investigação do senso comum; não há ruptura total, mas uma evolução contínua.</p>
+
+        <table>
+            <tr>
+                <th>Investigação do Senso Comum</th>
+                <th>Investigação Científica</th>
+            </tr>
+            <tr>
+                <td>Caráter prático, imediato e situacional.</td>
+                <td>Busca sistemática e controlada da verdade teórica.</td>
+            </tr>
+            <tr>
+                <td>Visa resolver problemas imediatos de sobrevivência/bem-estar.</td>
+                <td>Busca abstrair, quantificar e universalizar os fenômenos.</td>
+            </tr>
+            <tr>
+                <td>Guiada por hábitos, tradições, costumes e experiência empírica isolada.</td>
+                <td>Processo consciente, metódico e autocorretivo, passível de replicação.</td>
+            </tr>
+            <tr>
+                <td>Acontece de maneira espontânea e intuitiva.</td>
+                <td>Fases explicitadas, com rigor metodológico e controle crítico.</td>
+            </tr>
+        </table>
+
+        <h3>Etapas Comuns a Ambos os Tipos de Investigação</h3>
+        <p>Apesar das diferenças de rigor, ambas compartilham a mesma estrutura lógica fundamental de passagem de um problema à sua solução.</p>
+        
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: SI-LO-SU-EN-SO</span>
+            <p>As 5 etapas fundamentais de toda investigação para Dewey:</p>
+            <ol>
+                <li><strong>SI</strong>tuação indeterminada (problemática)</li>
+                <li><strong>LO</strong>calização do problema</li>
+                <li><strong>SU</strong>gestão de solução</li>
+                <li><strong>EN</strong>saio ou experimentação</li>
+                <li><strong>SO</strong>lução (satisfação / determinação da situação)</li>
+            </ol>
+        </div>
+
+        <div class="image-container">
+            <img src="https://source.unsplash.com/800x400/?logic,study" alt="Estrutura Lógica">
+            <div class="caption">A investigação converte o caos (indeterminação) em ordem (solução).</div>
+        </div>
+    </div>
+
+    <!-- 3.3 LÓGICA DE DEWEY -->
+    <div id="logica-dewey" class="section">
+        <h2>3.3 Lógica na Teoria de Investigação de Dewey</h2>
+        <p>Para Dewey, a lógica não é um conjunto imutável e abstrato de regras. Pelo contrário, ela é o <strong>estudo das operações efetivas</strong> que compõem o processo de investigar. A lógica emerge da prática investigativa bem-sucedida (sistematização de hábitos e procedimentos eficazes).</p>
+
+        <div class="box-blue">
+            <strong>Características da Lógica em Dewey:</strong>
+            <ul>
+                <li><strong>Instrumental e Pragmática:</strong> Meio para orientar a reflexão e a ação. O valor do raciocínio está na eficácia prática.</li>
+                <li><strong>Importância da Linguagem:</strong> A linguagem permite ensaiar mentalmente as ações, antecipar resultados e formular hipóteses sem precisar agir de pronto.</li>
+                <li><strong>Caráter Social e Experimental:</strong> A lógica envolve compartilhamento cultural de símbolos; toda hipótese só ganha valor ao ser testada na prática. É progressiva e autocorretiva.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 3.4 PADRÃO DE INVESTIGAÇÃO DE DEWEY -->
+    <div id="padrao-dewey" class="section">
+        <h2>3.4 Padrão de Investigação de Dewey</h2>
+        <p>Dewey propõe um padrão geral estrutural presente em qualquer investigação. Em suas palavras, investigar é a <em>"transformação dirigida ou controlada de uma situação indeterminada em uma situação [...] que converta os elementos originais num todo unificado"</em>.</p>
+
+        <div class="box-red">
+            <strong>Atenção: O Problema precisa ser "Instituído"</strong>
+            <p>A mera "indeterminação" não é o problema em si. O problema surge quando a situação é delimitada como objeto de estudo. A forma como o problema é formulado condicionará todo o restante da investigação (quais dados serão relevantes, quais hipóteses serão aceitas, etc).</p>
+        </div>
+
+        <div class="box-green">
+            <em>"Um problema bem colocado está semirresolvido."</em> - John Dewey
+        </div>
+
+        <h3>Os 6 Estágios do Padrão de Investigação</h3>
+        <p>O percurso racional que transforma a confusão em um quadro organizado ocorre de forma flexível e adaptativa (não estritamente linear), muitas vezes exigindo retornos a fases anteriores:</p>
+
+        <div class="diagram">
+            <div class="diagram-item">
+                <div class="diagram-item-title">1. Reconhecimento</div>
+                Reconhecimento de uma situação indeterminada.
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">2. Delimitação</div>
+                Delimitação precisa do problema (instituição do problema).
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">3. Formulação</div>
+                Formulação de hipóteses explicativas.
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">4. Análise</div>
+                Análise das consequências lógicas dessas hipóteses.
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">5. Verificação</div>
+                Verificação experimental ou prática.
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">6. Conclusão</div>
+                Conclusão, convertendo a situação inicial em um quadro estável e inteligível.
+            </div>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: Re-De-For-A-Ve-C</span>
+            <p><strong>Re</strong>conhecimento, <strong>De</strong>limitação, <strong>For</strong>mulação, <strong>A</strong>nálise, <strong>Ve</strong>rificação e <strong>C</strong>onclusão.</p>
+        </div>
+
+        <h3>Conclusão: Aplicação na Investigação Policial</h3>
+        <p>O padrão de Dewey tem implicações diretas para a investigação policial. Ao lidar com situações criminais complexas e confusas, o delegado de polícia e os agentes investigadores alcançam maior objetividade ao estruturar o percurso desde a dúvida inicial até a conclusão fundamentada. O conhecimento gerado, assim como na ciência, não é a verdade absoluta, mas uma "confiança racional" na resposta, sendo funcional e aberto à revisão em face de novas evidências.</p>
+    </div>
+
+</div>
+
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>

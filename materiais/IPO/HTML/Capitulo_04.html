@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Capítulo 04 - Investigação Policial</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <style>
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; font-family: 'Inter', sans-serif; line-height: 1.6; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; padding: 5px 15px; background-color: #004d40; color: white; border-radius: 20px; font-weight: bold; margin-bottom: 10px; }
+        h1 { color: #2c3e50; font-size: 2.5em; margin: 10px 0; }
+        .subtitle { font-size: 1.2em; color: #7f8c8d; }
+        .toc { background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc h2 { margin-top: 0; }
+        .toc ul { list-style-type: none; padding-left: 20px; }
+        .toc a { text-decoration: none; color: #34495e; }
+        .toc a:hover { text-decoration: underline; color: #004d40; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #004d40; border-bottom: 2px solid #004d40; padding-bottom: 5px; margin-top: 30px; }
+        h3 { color: #2c3e50; margin-top: 25px; }
+        p { text-align: justify; margin-bottom: 15px; }
+        .mnemonic { background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic-title { font-weight: bold; color: #856404; margin-bottom: 10px; }
+        .box-green { background-color: #d4edda; border-left: 5px solid #28a745; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background-color: #ffe8cc; border-left: 5px solid #fd7e14; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-blue { background-color: #cce5ff; border-left: 5px solid #007bff; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background-color: #e2d9f3; border-left: 5px solid #6f42c1; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background-color: #f8d7da; border-left: 5px solid #dc3545; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: bold; margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #dee2e6; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; }
+        .image-container { text-align: center; margin: 30px 0; }
+        .image-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.9em; color: #6c757d; margin-top: 10px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="badge">PCPR - IPO</div>
+            <h1>Capítulo 04</h1>
+            <div class="subtitle">Investigação Policial</div>
+        </div>
+        
+        <div class="toc">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#intro">4.1 Introdução</a></li>
+                <li><a href="#principios">4.2 Princípios</a>
+                    <ul>
+                        <li><a href="#legalidade">4.2.1 Legalidade</a></li>
+                        <li><a href="#economicidade">4.2.2 Economicidade</a></li>
+                        <li><a href="#objetividade">4.2.3 Objetividade</a></li>
+                        <li><a href="#unidade">4.2.4 Unidade</a></li>
+                        <li><a href="#exclusividade">4.2.5 Exclusividade</a></li>
+                        <li><a href="#disciplina">4.2.6 Disciplina</a></li>
+                        <li><a href="#proporcionalidade">4.2.7 Proporcionalidade e necessidade</a></li>
+                        <li><a href="#impessoalidade">4.2.8 Impessoalidade ou isenção institucional</a></li>
+                    </ul>
+                </li>
+                <li><a href="#caracteristicas">4.3 Características</a></li>
+                <li><a href="#objetivos">4.4 Objetivos</a>
+                    <ul>
+                        <li><a href="#recuperacao">4.4.1 A Recuperação de ativos como objetivo da investigação policial</a></li>
+                    </ul>
+                </li>
+                <li><a href="#trinomio">4.5 Trinômio da investigação policial e limites</a></li>
+                <li><a href="#diferenca">4.6 Diferença entre investigação policial e inteligência policial</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="intro">
+            <h2>4.1 Introdução</h2>
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80" alt="Justiça e Investigação">
+                <div class="caption">Ilustração representativa: Justiça e Investigação Histórica</div>
+            </div>
+            <p>Assim como ocorre em outras áreas do conhecimento científico, a investigação policial é fruto de um processo histórico de desenvolvimento e aprimoramento institucional. Desde os tempos mais remotos já existiam mecanismos voltados à persecução de infratores, como se verifica no Código de Hamurabi (séc. XVIII a.C.).</p>
+            <p>Contudo, a investigação policial, tal como hoje concebida, estruturada, especializada e vinculada a métodos próprios, somente se consolidou nos séculos XVIII e XIX. Nesse período, surgiram na França e na Inglaterra os primeiros corpos organizados de investigadores.</p>
+            
+            <div class="box-green">
+                <div class="box-title">Evolução Histórica e Figuras Importantes</div>
+                <p><b>Joseph Fouché (1758–1820):</b> Ministro da polícia de Napoleão, pioneiro ao estruturar a Gendarmerie francesa, catalogação de criminosos e vigilância.</p>
+                <p><b>Eugène-François Vidocq (1775–1857):</b> Dirigiu a Sûreté em 1812 (França). Introduziu agentes infiltrados, informantes e dados sobre suspeitos. Fundador do primeiro órgão de polícia investigativa moderna.</p>
+                <p><b>Inglaterra (1829):</b> Criação da Polícia Metropolitana de Londres.</p>
+                <p><b>Hans Gross (1847–1915):</b> Pai da Ciência da Investigação Criminal, sistematizou conhecimentos técnicos e metodológicos.</p>
+                <p><b>Charles Sanders Peirce:</b> Desenvolveu o método abdutivo de inferência (base do raciocínio policial).</p>
+            </div>
+
+            <p>No Brasil, Tornaghi (1977) destaca que em seus primórdios não havia distinção nítida entre as funções do juiz e as da polícia judiciária. Com o tempo, houve a separação, consolidando a polícia judiciária como estrutura distinta do Poder Judiciário.</p>
+            
+            <div class="box-orange">
+                <div class="box-title">A Investigação Policial no Brasil</div>
+                <p>O <b>CPP de 1941</b> consolidou o inquérito policial (cujo primeiro surgimento foi em 1871) sob a responsabilidade da polícia judiciária. O modelo brasileiro aproxima-se do <i>common law</i> inglês no sentido de que a apuração das infrações penais é responsabilidade dos órgãos policiais. A Constituição de 1988 introduziu novas garantias, e a investigação passa por contínua filtragem constitucional.</p>
+            </div>
+
+            <p>Embora autores usem "investigação criminal" e "investigação policial" como sinônimos, a doutrina da Polícia Federal as diferencia: <b>Investigação Criminal</b> é mais ampla (pode ser feita por MP), enquanto <b>Investigação Policial</b> é restrita e técnica, de atribuição da polícia judiciária.</p>
+            <p>A investigação policial busca uma <i>verdade de natureza formal, aproximada e passível de revisão</i>. Ela atua como "filtro processual" para evitar acusações infundadas.</p>
+        </div>
+
+        <div class="section" id="principios">
+            <h2>4.2 Princípios</h2>
+            <div class="mnemonic">
+                <div class="mnemonic-title">Mnemônico: POUDE L EI (Princípios)</div>
+                <p>
+                    <b>P</b>roporcionalidade e Necessidade<br>
+                    <b>O</b>bjetividade<br>
+                    <b>U</b>nidade<br>
+                    <b>D</b>isciplina<br>
+                    <b>E</b>xclusividade<br>
+                    <b>L</b>egalidade<br>
+                    <b>E</b>conomicidade<br>
+                    <b>I</b>mpessoalidade (Isenção Institucional)
+                </p>
+            </div>
+
+            <h3 id="legalidade">4.2.1 Legalidade</h3>
+            <p>O agente público somente pode agir nos estritos limites do que a lei permite. Toda diligência ou medida cautelar deve possuir fundamento jurídico válido.</p>
+
+            <h3 id="economicidade">4.2.2 Economicidade</h3>
+            <p>Relaciona-se à boa gestão de recursos públicos (pessoal, equipamentos). Inclui a condução das investigações num prazo razoável, buscando os melhores resultados com o menor dispêndio possível.</p>
+
+            <h3 id="objetividade">4.2.3 Objetividade</h3>
+            <p>Concentrar esforços naquilo que efetivamente guarda pertinência com os fatos, evitando dispersões. Racionaliza os recursos e preserva a qualidade da prova, focando em alvos relevantes.</p>
+
+            <h3 id="unidade">4.2.4 Unidade</h3>
+            <p>A investigação é um processo único e integrado. As diligências convergem para a elucidação do fato como um todo, garantindo coerência lógica no raciocínio probatório.</p>
+
+            <h3 id="exclusividade">4.2.5 Exclusividade</h3>
+            <p>Função típica do Estado exercida com exclusividade pelas polícias judiciárias (Polícia Federal e Polícias Civis). Não pode ser delegada a entidades privadas ou órgãos sem atribuição legal.</p>
+
+            <h3 id="disciplina">4.2.6 Disciplina</h3>
+            <p>Respeito à organização hierárquica. O delegado conduz a investigação, e a equipe deve cumprir ordens e rotinas estabelecidas para garantir o sucesso das diligências e a segurança de todos.</p>
+
+            <h3 id="proporcionalidade">4.2.7 Proporcionalidade e necessidade</h3>
+            <p>A <b>proporcionalidade</b> exige adequação (apta a atingir o fim), necessidade (não há meio menos gravoso) e proporcionalidade em sentido estrito (benefícios superam os ônus). A <b>necessidade</b> impõe o uso do meio menos invasivo possível. Atua como filtro contra excessos do Estado.</p>
+
+            <h3 id="impessoalidade">4.2.8 Impessoalidade ou isenção institucional</h3>
+            <p>A polícia atua com absoluta isenção, sem interesses pessoais. Não é órgão de acusação nem de defesa. Deve apurar com imparcialidade tanto fatos que incriminam quanto os que favorecem o investigado.</p>
+        </div>
+
+        <div class="section" id="caracteristicas">
+            <h2>4.3 Características</h2>
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1555848962-6e79363ec58f?auto=format&fit=crop&w=800&q=80" alt="Análise Forense">
+                <div class="caption">Trabalho técnico e sistemático de investigação</div>
+            </div>
+
+            <div class="box-blue">
+                <div class="box-title">Características Estruturantes</div>
+                <ul>
+                    <li><b>Adaptabilidade:</b> É dinâmica, ajusta-se aos novos dados e reorienta estratégias conforme as circunstâncias fáticas evoluem (ex: furto simples vira receptação de quadrilha).</li>
+                    <li><b>Sigilo e Transparência:</b> Sigilo durante o desenvolvimento para não alertar suspeitos ou destruir provas (Súmula Vinculante 14 STF: advogado tem acesso ao que já está documentado). Transparência nos resultados ao final, garantindo contraditório.</li>
+                    <li><b>Controle e Fiscalização:</b> Múltiplos controles internos (Corregedoria) e externos (MP, TCU, CGU, Sociedade).</li>
+                    <li><b>Separação de Funções:</b> Polícia investiga, MP acusa, defesa protege e juiz julga. Evita concentração de poder e mantém imparcialidade.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="objetivos">
+            <h2>4.4 Objetivos</h2>
+            <p>A investigação policial não é um fim em si mesma. Serve para apurar, de forma lícita, a verdade possível acerca da autoria, materialidade e circunstâncias do delito (Art. 2º, § 1º, da Lei nº 12.830/2013).</p>
+            <p>O foco é a construção de uma <b>verdade judicializável</b>. Não visa confirmar a qualquer custo uma acusação ou buscar condenação a todo preço. A denúncia é função do MP, mas a investigação projeta efeitos penais (pena) e extrapenais (indenização, perda de bens).</p>
+
+            <h3 id="recuperacao">4.4.1 A Recuperação de ativos como objetivo da investigação policial</h3>
+            <div class="box-purple">
+                <div class="box-title">Recuperação de Ativos: Descapitalização do Crime</div>
+                <p>Nos crimes de repercussão econômica, a Instrução Normativa nº 255/2023-DG/PF elevou a recuperação de ativos a objetivo tático-operacional da investigação (descapitalização). Não basta prender; é preciso asfixiar financeiramente as organizações criminosas e recuperar o que foi obtido ilegalmente.</p>
+                <p><b>Ciclo da Recuperação de Ativos (5 Etapas - RECUPERA):</b> Identificar, apreender, administrar, alienar e destinar.</p>
+            </div>
+            <p>Instrumentos modernos como o confisco alargado (art. 91-A do CP) permitem alcançar o patrimônio incongruente com a renda lícita, exigindo investigação patrimonial paralela de alta qualidade.</p>
+        </div>
+
+        <div class="section" id="trinomio">
+            <h2>4.5 Trinômio da investigação policial e limites</h2>
+            <div class="mnemonic">
+                <div class="mnemonic-title">Mnemônico do Trinômio: QAR</div>
+                <p><b>Q</b>ualidade da Prova | <b>A</b>utonomia | <b>R</b>esponsabilidade</p>
+            </div>
+            <ul>
+                <li><b>Qualidade da prova:</b> Produção lícita, consistente e com cadeia de custódia preservada.</li>
+                <li><b>Autonomia:</b> Independência técnico-operacional. Sem influências alheias (políticas/econômicas).</li>
+                <li><b>Responsabilidade:</b> Agir com zelo, proporção e respeito aos direitos fundamentais, evitando abusos.</li>
+            </ul>
+
+            <div class="box-red">
+                <div class="box-title">Limites da Investigação</div>
+                <ul>
+                    <li><b>Normativos:</b> Constitucionais (inviolabilidade de domicílio, sigilos), legais (limites para interceptação telefônica) e infralegais (protocolos). Sua quebra gera nulidades.</li>
+                    <li><b>Operacionais:</b> Disponibilidade de recursos técnicos, humanos, viaturas e ferramentas de TI. O Delegado deve avaliar se os meios são suficientes.</li>
+                    <li><b>Morais:</b> Decorrem do Código de Ética e da cultura organizacional. A violação gera sanções e afeta a credibilidade institucional.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="diferenca">
+            <h2>4.6 Diferença entre investigação policial e inteligência policial</h2>
+            <p>São atividades distintas, autônomas, mas que atuam de forma complementar.</p>
+            <p><b>Investigação:</b> Apura autoria, materialidade, com regras rigorosas para instruir processos judiciais (reativo).</p>
+            <p><b>Inteligência:</b> Produz conhecimento estratégico/informações para subsidiar tomadas de decisões dos gestores (preventivo/prospectivo). Relatórios de inteligência são sigilosos e, <i>por regra (Portaria 5.299/2015-DG/PF), não são juntados diretamente em inquéritos</i>.</p>
+            <p>Há integração: a investigação gera dados para a inteligência, e a inteligência subsidia investigações de forma mais eficaz.</p>
+
+            <table aria-label="Diferenças entre Inteligência Policial e Polícia Judiciária">
+                <tr>
+                    <th>Característica</th>
+                    <th>Inteligência policial</th>
+                    <th>Polícia judiciária (Investigação)</th>
+                </tr>
+                <tr>
+                    <td><b>Pressuposto</b></td>
+                    <td>Demanda informacional</td>
+                    <td>Infração penal</td>
+                </tr>
+                <tr>
+                    <td><b>Meios</b></td>
+                    <td>Ciclo de produção do conhecimento</td>
+                    <td>Diligências policiais</td>
+                </tr>
+                <tr>
+                    <td><b>Finalidade</b></td>
+                    <td>Obter/produzir informações p/ auxiliar o gestor na tomada de decisões</td>
+                    <td>Produção de prova (materialidade, autoria e circunstância)</td>
+                </tr>
+                <tr>
+                    <td><b>Verdade</b></td>
+                    <td>Conforme estado da mente</td>
+                    <td>De acordo com os meios em Direito admitidos</td>
+                </tr>
+                <tr>
+                    <td><b>Caráter</b></td>
+                    <td>Processo decisório / Prospectivo / Preventivo</td>
+                    <td>Eminentemente reativo / Retrospectivo</td>
+                </tr>
+                <tr>
+                    <td><b>Destino</b></td>
+                    <td>Processo decisório</td>
+                    <td>Processo Penal</td>
+                </tr>
+                <tr>
+                    <td><b>Cadeia de custódia</b></td>
+                    <td>Não há compromisso com a origem da informação</td>
+                    <td>Valor probatório depende da licitude desde a origem</td>
+                </tr>
+                <tr>
+                    <td><b>Controle externo</b></td>
+                    <td>Poder Legislativo (CCAI)</td>
+                    <td>Ministério Público</td>
+                </tr>
+                <tr>
+                    <td><b>Técnicas</b></td>
+                    <td>Medidas sem afastamento de direitos fundamentais (por si só)</td>
+                    <td>Diligências com e sem reserva de jurisdição (podem afastar garantias via ordem judicial)</td>
+                </tr>
+                <tr>
+                    <td><b>Documentos</b></td>
+                    <td>Pedido de Inteligência e Relatório de Inteligência</td>
+                    <td>Informação de Polícia Judiciária (IPJ) e Auto Circunstanciado</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>

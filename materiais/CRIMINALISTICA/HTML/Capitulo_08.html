@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 8 - Exame Pericial</title>
+    <!-- Link para a folha de estilos padrão do diretório superior -->
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <!-- Fallback font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f4f4f9; color: #333; line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 30px; background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-radius: 8px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .badge { display: inline-block; background: #1a237e; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 14px; margin-bottom: 10px; }
+        .subtitle { font-size: 18px; color: #555; text-transform: uppercase; letter-spacing: 1px; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; color: #1a237e; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 8px; margin-top: 40px; }
+        h3 { color: #34495e; margin-top: 25px; }
+        p { margin-bottom: 15px; font-size: 1.05em; }
+        .toc { background: #f8f9fa; border: 1px solid #e0e0e0; padding: 20px; border-radius: 8px; margin-bottom: 40px; }
+        .toc h3 { margin-top: 0; color: #1a237e; }
+        .toc ul { list-style: none; padding-left: 0; margin: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #0275d8; font-weight: 500; transition: color 0.2s; }
+        .toc a:hover { text-decoration: underline; color: #01447e; }
+        .section { margin-bottom: 40px; }
+        
+        /* Box Styles */
+        .box-blue { background-color: #e3f2fd; border-left: 5px solid #2196f3; padding: 15px 20px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background-color: #e8f5e9; border-left: 5px solid #4caf50; padding: 15px 20px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background-color: #fff3e0; border-left: 5px solid #ff9800; padding: 15px 20px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background-color: #ffebee; border-left: 5px solid #f44336; padding: 15px 20px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background-color: #f3e5f5; border-left: 5px solid #9c27b0; padding: 15px 20px; margin: 20px 0; border-radius: 4px; }
+        
+        /* Mnemonic Styles */
+        .mnemonic { background: #fffde7; border: 2px dashed #fbc02d; padding: 20px; border-radius: 8px; margin: 25px 0; text-align: center; }
+        .mnemonic-title { font-weight: bold; color: #f57f17; font-size: 1.2em; margin-bottom: 10px; display: block; text-transform: uppercase; }
+        
+        /* Image Styles */
+        .image-container { text-align: center; margin: 30px 0; }
+        .image-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
+        .caption { font-size: 14px; color: #666; font-style: italic; margin-top: 10px; }
+        
+        /* Tables */
+        table { width: 100%; border-collapse: collapse; margin: 25px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        th, td { border: 1px solid #e0e0e0; padding: 15px; text-align: left; }
+        th { background-color: #1a237e; color: #fff; font-weight: 600; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        
+        /* Lists */
+        ul, ol { margin-bottom: 20px; padding-left: 25px; }
+        li { margin-bottom: 8px; font-size: 1.05em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="badge">PCPR - Criminalística</div>
+            <div class="subtitle">Guia de Estudo Estratégico</div>
+            <h1>Capítulo 8: Exame Pericial</h1>
+        </div>
+
+        <div class="toc">
+            <h3>Índice do Capítulo</h3>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#prazos-horarios">8.1. Prazos e horários</a></li>
+                <li><a href="#ilustracoes-laudos">8.2. Ilustrações de Laudos</a></li>
+                <li><a href="#avaliacao-coisas">8.3. Avaliação de coisas</a></li>
+                <li><a href="#dinamica-fatos">8.4. A dinâmica dos fatos</a></li>
+                <li><a href="#outras-regulamentacoes">8.5. Outras regulamentações (Exames e Padrões)</a></li>
+                <li><a href="#pericia-contraditoria">8.6. Perícia contraditória</a></li>
+                <li><a href="#pericias-locais-crime">8.7. Perícias em locais de crime</a></li>
+                <li><a href="#requisicao-quesitacao">8.8. Requisição e quesitação</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="introducao">
+            <h2>Introdução</h2>
+            <p>O <strong>art. 178 do Código de Processo Penal (CPP)</strong> estabelece: <em>“No caso do art. 159, o exame será requisitado pela autoridade ao diretor da repartição, juntando-se ao processo o laudo assinado pelos peritos.”</em></p>
+            <p>Isso significa que os exames periciais são realizados mediante <strong>requisição da autoridade</strong>, que poderá ser policial ou judiciária. No sistema nacional (que confere duas fases distintas na persecução penal), as perícias são quase sempre realizadas na fase do <strong>inquérito policial</strong>, muitas vezes até mesmo antes de sua instauração.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80" alt="Investigação Criminal e Perícia">
+            <div class="caption">A fase de inquérito policial e a persecução penal dependem diretamente da prova pericial para embasamento técnico e científico.</div>
+        </div>
+
+        <div class="section" id="prazos-horarios">
+            <h2>8.1. Prazos e horários</h2>
+            <p>Em razão do risco de desaparecerem os vestígios, o CPP (art. 161) permite que o exame de corpo de delito seja realizado em <strong>qualquer dia e a qualquer hora</strong>. Isso inclui sábados, domingos, feriados e durante a madrugada. Quanto mais próxima da ocorrência do fato for a perícia, maior a chance de sucesso.</p>
+            
+            <div class="box-green">
+                <strong>Prazo do Laudo Pericial:</strong> O prazo geral para a elaboração do laudo é de <strong>10 (dez) dias</strong>. Pode ser prorrogado em casos excepcionais, a requerimento fundamentado dos peritos (art. 160, parágrafo único, do CPP). Não há limite fixado no CPP para esta prorrogação, embora os peritos não devam retardar o andamento do processo indevidamente.
+            </div>
+
+            <div class="box-red">
+                <strong>Atenção! Cuidado com Prazos:</strong> O descumprimento pode inviabilizar a aplicação da justiça e submeter o responsável a normas disciplinares.
+            </div>
+
+            <h3>Prazo para Autópsia</h3>
+            <p>Segundo o <strong>art. 162 do CPP</strong>, a autópsia será feita <strong>pelo menos 6 (seis) horas depois do óbito</strong>, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes (fato que deve ser declarado no auto).</p>
+            <p>O parágrafo único dispõe que em casos de morte violenta, bastará o <strong>simples exame externo</strong> do cadáver quando não houver infração penal a apurar, ou quando as lesões permitirem precisar a causa da morte sem exame interno (decisão tomada exclusivamente pelo Perito Médico Legista ou Perito Criminal Médico).</p>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Mnemônico de Prazo para Autópsia</span>
+                <strong>S . E . I . S</strong><br><br>
+                <strong>S</strong>empre<br>
+                <strong>E</strong>sperar<br>
+                <strong>I</strong>ntervalo de<br>
+                <strong>S</strong>eis horas<br><br>
+                <em>Exceção:</em> Sinais evidentes de morte (ex: decapitação, putrefação avançada).
+            </div>
+        </div>
+
+        <div class="section" id="ilustracoes-laudos">
+            <h2>8.2. Ilustrações de Laudos</h2>
+            <p>O art. 169 do CPP estabelece que os peritos <strong>poderão</strong> ilustrar seus laudos com fotografias, desenhos ou esquemas elucidativos (prerrogativa do perito). A regra visa tornar os laudos mais objetivos.</p>
+            
+            <div class="box-blue">
+                <strong>Perícias de Laboratório (Art. 170 CPP):</strong>
+                A regra muda levemente. Determina que "sempre que conveniente", os laudos serão ilustrados. Exige também que os peritos <strong>conservem parte do material analisado</strong> para eventual perícia complementar ou contraprova.
+            </div>
+
+            <p><strong>Fotografia de Cadáveres em Local de Crime:</strong></p>
+            <p>O art. 164 do CPP impõe que os cadáveres serão <strong>sempre fotografados na posição em que forem encontrados</strong>, bem como, dentro do possível, todas as lesões externas e vestígios. Trata-se de <strong>imposição legal obrigatória</strong>, não dependendo da vontade do perito ou do delegado.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1614064005118-a6642d207399?auto=format&fit=crop&w=800&q=80" alt="Fotografia Forense e Vestígios">
+            <div class="caption">A documentação fotográfica é imperativa em locais de crime contra a vida (Art. 164 CPP).</div>
+        </div>
+
+        <div class="section" id="avaliacao-coisas">
+            <h2>8.3. Avaliação de coisas</h2>
+            <p>Podem ser alvo de exames periciais: <strong>coisas destruídas, coisas deterioradas e o produto do crime</strong>. Essa avaliação é vital para definir o valor das coisas e o montante do prejuízo, norteando a aplicação da pena ou de crimes privilegiados.</p>
+            <p>De acordo com o art. 172 do CPP, a avaliação será feita de <strong>forma indireta</strong> sempre que não for possível ter acesso aos objetos, utilizando dados dos autos ou diligências. O perito <strong>deve obrigatoriamente relatar o critério</strong> utilizado na avaliação.</p>
+        </div>
+
+        <div class="section" id="dinamica-fatos">
+            <h2>8.4. A dinâmica dos fatos</h2>
+            <p>Nos crimes com destruição/rompimento de obstáculo ou escalada (ex: furto qualificado, crime de dano - art. 163 do CPP), o art. 171 do CPP determina que os peritos descrevam:</p>
+            <ul>
+                <li>Os vestígios deixados;</li>
+                <li>Os instrumentos utilizados;</li>
+                <li>Os meios empregados;</li>
+                <li>A época em que presumem ter sido o fato praticado (recente ou não).</li>
+            </ul>
+
+            <div class="box-orange">
+                <strong>Incêndios (Art. 173 CPP):</strong> Os peritos verificarão:
+                <br>1) A causa e o local em que o incêndio foi iniciado;
+                <br>2) O perigo resultante para a vida ou patrimônio;
+                <br>3) A extensão do dano e seu valor;
+                <br>4) Outras circunstâncias para elucidação.
+            </div>
+        </div>
+
+        <div class="section" id="outras-regulamentacoes">
+            <h2>8.5. Outras regulamentações</h2>
+            <p>Sobre os <strong>instrumentos empregados</strong> na prática do crime, os peritos deverão verificar:</p>
+            <ol>
+                <li><strong>Sua natureza</strong> (qualidade);</li>
+                <li><strong>Sua eficiência</strong> (aptidão para produzir o resultado, bem como o estado de conservação).</li>
+            </ol>
+
+            <h3>Exame Grafotécnico (Reconhecimento de Escritos - Art. 174)</h3>
+            <p>Para confronto, a pessoa será intimada a fornecer de próprio punho o <strong>material gráfico padrão</strong>. O CPP prevê que:</p>
+            <ul>
+                <li>Podem servir documentos reconhecidos pelo autor, validados judicialmente ou sem dúvidas de autenticidade;</li>
+                <li>A autoridade requisitará documentos em arquivos públicos;</li>
+                <li>Não havendo escritos suficientes, a autoridade <strong>mandará a pessoa escrever o que lhe for ditado</strong>.</li>
+            </ul>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Mnemônico: Requisitos do Padrão Gráfico</span>
+                <strong>A . A . C . Q</strong><br><br>
+                <strong>A</strong>utenticidade<br>
+                <strong>A</strong>dequabilidade<br>
+                <strong>C</strong>ontemporaneidade<br>
+                <strong>Q</strong>uantidade
+            </div>
+        </div>
+
+        <div class="section" id="pericia-contraditoria">
+            <h2>8.6. Perícia contraditória</h2>
+            <p>O <strong>art. 180 do CPP</strong> aborda a divergência entre peritos:</p>
+            <ul>
+                <li>Se houver divergência, serão consignadas as respostas no auto, ou redigirão laudos separados;</li>
+                <li>A autoridade nomeará um <strong>terceiro perito</strong>;</li>
+                <li>Se este divergir de ambos, a autoridade poderá mandar realizar um novo exame por outros peritos.</li>
+            </ul>
+
+            <div class="box-purple">
+                <strong>Complementação e Novo Exame (Art. 181 CPP):</strong>
+                Em caso de omissões, obscuridades, contradições ou inobservância de formalidades, a autoridade mandará suprir, complementar ou esclarecer. O Parágrafo único prevê que pode também ordenar <strong>novo exame por outros peritos</strong>.
+            </div>
+        </div>
+
+        <div class="section" id="pericias-locais-crime">
+            <h2>8.7. Perícias em locais de crime</h2>
+            <p>A responsabilidade pela preservação de local de crime é enfatizada:</p>
+            <p><strong>Art. 169 do CPP:</strong> A autoridade providenciará imediatamente para que não se altere o estado das coisas até a chegada dos peritos. O parágrafo único estabelece que os peritos registrarão, no laudo, as <strong>alterações do estado das coisas</strong> e discutirão as consequências dessas alterações na dinâmica dos fatos.</p>
+            <p><strong>Art. 6º, Inciso I do CPP:</strong> É obrigação do delegado de polícia se dirigir ao local para providenciar o <strong>isolamento</strong> até a chegada da perícia.</p>
+        </div>
+
+        <div class="section" id="requisicao-quesitacao">
+            <h2>8.8. Requisição e quesitação</h2>
+            <p>Conforme o art. 178 do CPP, o exame é requisitado ao "diretor da repartição" (no âmbito da PF, o chefe do Setec/Nutec ou INC). A requisição é encaminhada pelas autoridades aos responsáveis pelas unidades periciais.</p>
+            
+            <div class="box-red">
+                <strong>Ato Vinculado (Art. 158 CPP):</strong>
+                A solicitação da perícia <strong>não é discricionária</strong>. Nos crimes que deixam vestígios (<em>delicta facti permanentis</em>), o exame de corpo de delito é indispensável e <strong>não pode ser suprido pela confissão</strong> do acusado. Trata-se de um ato 100% vinculado aos ditames da lei.
+            </div>
+        </div>
+
+    </div>
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>

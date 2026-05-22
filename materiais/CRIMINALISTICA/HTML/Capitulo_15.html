@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 15 - Aula Prática (SISCRIM)</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        /* Base styles */
+        body { font-family: 'Inter', sans-serif; background-color: #f4f7f6; color: #333; line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .header h1 { font-size: 2.5em; color: #1a202c; margin-bottom: 10px; }
+        .subtitle { font-size: 1.2em; color: #4a5568; margin-bottom: 15px; }
+        .badge { display: inline-block; padding: 5px 15px; background: #2b6cb0; color: #fff; border-radius: 20px; font-size: 0.9em; font-weight: 600; }
+        
+        /* TOC */
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 40px; }
+        .toc h3 { margin-top: 0; color: #2d3748; }
+        .toc ul { list-style-type: none; padding-left: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 500; }
+        .toc a:hover { text-decoration: underline; }
+
+        /* Sections */
+        .section { margin-bottom: 40px; }
+        .section h2 { font-size: 1.8em; color: #2c5282; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-bottom: 20px; }
+        .section h3 { font-size: 1.4em; color: #2a4365; margin-top: 30px; margin-bottom: 15px; }
+        .section p { margin-bottom: 15px; text-align: justify; }
+        .section ul { margin-bottom: 15px; padding-left: 20px; }
+        .section li { margin-bottom: 8px; }
+
+        /* Boxes */
+        .box-green, .box-orange, .box-blue, .box-purple, .box-red { padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid; }
+        .box-title { font-weight: 700; margin-bottom: 10px; display: block; }
+        .box-green { background: #f0fff4; border-color: #48bb78; color: #22543d; }
+        .box-orange { background: #fffaf0; border-color: #ed8936; color: #7b341e; }
+        .box-blue { background: #ebf8ff; border-color: #4299e1; color: #2a4365; }
+        .box-purple { background: #faf5ff; border-color: #9f7aea; color: #44337a; }
+        .box-red { background: #fff5f5; border-color: #f56565; color: #742a2a; }
+
+        /* Mnemonic */
+        .mnemonic { background: #ffff0030; padding: 20px; border-radius: 8px; border: 2px dashed #ecc94b; margin: 20px 0; text-align: center; font-size: 1.1em; }
+        .mnemonic-title { font-weight: 800; color: #b7791f; display: block; margin-bottom: 10px; font-size: 1.2em; text-transform: uppercase; }
+
+        /* Tables & Diagrams */
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #cbd5e0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; font-weight: 600; }
+        
+        .diagram { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; background: #f7fafc; padding: 20px; border-radius: 8px; border: 1px solid #e2e8f0; }
+        .diagram-item { background: #fff; padding: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-left: 4px solid #3182ce; }
+        .diagram-item-title { font-weight: 700; color: #2b6cb0; margin-bottom: 5px; display: block; }
+
+        /* Images */
+        .image-container { text-align: center; margin: 30px 0; }
+        .image-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.9em; color: #718096; margin-top: 10px; font-style: italic; }
+
+        /* Footer */
+        .footer { text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #e2e8f0; color: #a0aec0; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Capítulo 15 - Aula Prática</h1>
+            <div class="subtitle">Doutrina, Cadeia de Custódia e o Sistema Nacional de Criminalística</div>
+            <div class="badge">PCPR - Criminalística</div>
+        </div>
+
+        <div class="toc">
+            <h3>Índice</h3>
+            <ul>
+                <li><a href="#siscrim">15.1 Acesso ao SISCRIM</a></li>
+                <li><a href="#emissao-laudo">15.2 Emissão de Laudo (Passo a Passo)</a></li>
+                <li><a href="#metodo-cientifico">Conclusão: A Criminalística à luz do Método Científico</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="siscrim">
+            <h2>15.1 Acesso ao SISCRIM</h2>
+            <p>O <strong>SISCRIM (Sistema de Criminalística)</strong> é a plataforma oficial utilizada pelas polícias científicas e institutos de criminalística para a gestão de perícias, laudos, cadeia de custódia e controle de materiais apreendidos. A familiaridade com este sistema é indispensável para o perito atuar com eficiência, garantindo a rastreabilidade e a legalidade das provas periciais.</p>
+            
+            <div class="image-container">
+                <img src="https://source.unsplash.com/800x400/?computer,security,police" alt="Segurança de Sistemas Periciais">
+                <div class="caption">O SISCRIM exige rigoroso controle de acesso e segurança da informação.</div>
+            </div>
+
+            <h3>1. Modos de Login</h3>
+            <p>O acesso ao sistema é restrito a servidores autorizados e pode ser realizado de duas formas primárias:</p>
+            <ul>
+                <li><strong>Login com Usuário/Senha:</strong> O método tradicional, utilizando as credenciais institucionais do servidor (geralmente CPF ou matrícula e senha cadastrada).</li>
+                <li><strong>Login com Certificado Digital:</strong> Método que garante maior segurança, autenticidade e não repúdio. Utiliza um token ou smartcard (e-CPF) no padrão ICP-Brasil.</li>
+            </ul>
+
+            <div class="box-blue">
+                <span class="box-title">Dica Prática de Acesso</span>
+                <p>Priorize sempre o acesso via <strong>Certificado Digital</strong>, pois além de mais seguro, ele já habilita o perito para as assinaturas digitais necessárias durante a tramitação e emissão dos laudos no sistema.</p>
+            </div>
+
+            <h3>2. Tela Inicial e Widgets (Painel de Controle)</h3>
+            <p>Ao ingressar no SISCRIM, o perito se depara com um <em>Dashboard</em> (Tela Inicial) composto por diversos módulos ou <strong>widgets</strong> projetados para otimizar o fluxo de trabalho diário. Abaixo, os principais componentes organizacionais da interface:</p>
+
+            <table>
+                <tr>
+                    <th>Módulo (Widget)</th>
+                    <th>Descrição e Funcionalidade</th>
+                </tr>
+                <tr>
+                    <td><strong>Pendências</strong></td>
+                    <td>Exibe laudos em elaboração, diligências aguardando atendimento, solicitações de exames não iniciadas e revisões pendentes. É o principal painel de atenção do perito.</td>
+                </tr>
+                <tr>
+                    <td><strong>Produção</strong></td>
+                    <td>Demonstrativo estatístico do que foi realizado pelo servidor em determinado período (laudos emitidos, locais de crime atendidos).</td>
+                </tr>
+                <tr>
+                    <td><strong>Materiais</strong></td>
+                    <td>Gestão da Cadeia de Custódia. Permite rastrear os vestígios sob a responsabilidade do perito naquele momento, status do lacre (rompido, intacto) e movimentações.</td>
+                </tr>
+                <tr>
+                    <td><strong>Dados do Usuário & Contato</strong></td>
+                    <td>Gestão de perfil, atualização de credenciais, cargo, lotação e informações de contato para comunicação intra e interinstitucional.</td>
+                </tr>
+                <tr>
+                    <td><strong>Plantão / Sobreaviso</strong></td>
+                    <td>Painel logístico que mostra a escala de plantões, escalas de sobreaviso e as equipes de atendimento no dia.</td>
+                </tr>
+                <tr>
+                    <td><strong>Avisos & Aniversariantes</strong></td>
+                    <td>Mural de comunicação interna da direção, portarias recentes e quadro de socialização entre os servidores (aniversariantes do mês).</td>
+                </tr>
+            </table>
+
+            <h3>3. Recursos Humanos e Organograma</h3>
+            <p>A seção de Recursos Humanos do SISCRIM permite visualizar e gerenciar a estrutura da corporação científica.</p>
+            <ul>
+                <li><strong>Agenda de Funcionário e Grupos:</strong> Permite consultar o status e a disponibilidade dos colegas peritos, organizando grupos de trabalho por especialidade (ex: Balística, Informática, Local de Crime).</li>
+                <li><strong>Organograma (DITEC e SNC):</strong> Visualização hierárquica e estrutural da Diretoria Técnico-Científica (DITEC) e de como o órgão se integra ao Sistema Nacional de Criminalística (SNC).</li>
+            </ul>
+        </div>
+
+        <div class="section" id="emissao-laudo">
+            <h2>15.2 Emissão de Laudo (Passo a Passo)</h2>
+            <p>O fluxo de elaboração e tramitação de um Laudo Pericial obedece a um rígido passo a passo técnico-legal no sistema, visando preservar a imaculada <strong>Cadeia de Custódia</strong> e assegurar o cumprimento dos prazos processuais.</p>
+            
+            <div class="box-red">
+                <span class="box-title">Atenção Máxima: Cadeia de Custódia!</span>
+                <p>Nenhuma etapa de recebimento, deslacração ou relacração pode ocorrer no mundo físico sem o respectivo registro síncrono no SISCRIM. A omissão desses passos pode gerar a nulidade da prova pericial no processo penal.</p>
+            </div>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Mnemônico de Tramitação Pericial</span>
+                <strong>"S-M-D-C L-A-R-E"</strong><br>
+                (Sistema Manda Deslacrar Cada Laudo Antes de Relacrar e Encaminhar)<br><br>
+                <strong>S</strong>olicitação (Receber) ➔ 
+                <strong>M</strong>ateriais (Receber) ➔ 
+                <strong>D</strong>eslacrar ➔ 
+                <strong>C</strong>adastrar (Objetos) ➔<br>
+                <strong>L</strong>audo (Gerar/Elaborar) ➔ 
+                <strong>A</strong>ssinar (Digital) ➔ 
+                <strong>R</strong>elacrar (Materiais) ➔ 
+                <strong>E</strong>ncaminhar
+            </div>
+
+            <h3>Fluxo Detalhado das Etapas:</h3>
+            <div class="diagram">
+                <div class="diagram-item">
+                    <span class="diagram-item-title">1 - Recebimento de Solicitação de Exames Periciais</span>
+                    <p>O perito acessa a solicitação (geralmente oriunda da autoridade policial) via sistema, analisando o escopo do exame requerido, o quesito e a urgência.</p>
+                </div>
+                <div class="diagram-item">
+                    <span class="diagram-item-title">2 - Recebimento de Materiais (Vestígios)</span>
+                    <p>Fase crítica. O vestígio físico é transferido para a carga do perito. O sistema registra a data, hora e o servidor que assumiu a guarda do material (transferência de custódia).</p>
+                </div>
+                <div class="diagram-item">
+                    <span class="diagram-item-title">3 - Deslacrar Materiais</span>
+                    <p>Rompe-se o lacre original de acondicionamento documentando no sistema. O perito confere se a integridade do lacre anterior condiz com as informações do sistema.</p>
+                </div>
+                <div class="diagram-item">
+                    <span class="diagram-item-title">4 - Cadastrar Objetos de Exame Relacionados</span>
+                    <p>Muitas vezes, um único material apreendido contém múltiplos elementos a serem periciados (ex: um invólucro contendo 3 celulares). O perito individualiza e cadastra cada "Objeto de Exame".</p>
+                </div>
+                <div class="diagram-item">
+                    <span class="diagram-item-title">5, 6 e 7 - Gerar, Importar Modelo e Elaborar o Laudo</span>
+                    <p>Inicia-se a redação do laudo no SISCRIM. O perito pode "Gerar Laudo a partir de Modelo" (templates pré-configurados da instituição para otimizar tempo) e proceder à "Elaboração do Laudo", narrando metodologia, exames e conclusão.</p>
+                </div>
+                <div class="diagram-item">
+                    <span class="diagram-item-title">8 e 9 - Gerar PDF, Assinar Digitalmente e Enviar</span>
+                    <p>Após concluída a edição, o documento é exportado (Gerar PDF), assinado criptograficamente com o Certificado Digital (garantindo autoria e inalterabilidade), e o "Arquivo é Enviado" (consolidado) para o repositório do SISCRIM.</p>
+                </div>
+                <div class="diagram-item">
+                    <span class="diagram-item-title">10 - Relacrar Materiais</span>
+                    <p>Finalizado o exame, os vestígios são reacondicionados. Um <strong>novo lacre</strong> é gerado e seu número registrado no sistema. Mantém-se o histórico do lacre rompido anteriormente.</p>
+                </div>
+                <div class="diagram-item">
+                    <span class="diagram-item-title">11 - Encaminhar Laudo e Materiais para a Chefia/Destino</span>
+                    <p>A etapa final. O perito retira o laudo e os materiais de sua carga pessoal, transferindo a custódia para a seção de guarda de vestígios ou protocolo, finalizando a sua responsabilidade no ciclo sistêmico daquele atendimento.</p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="https://source.unsplash.com/800x400/?forensics,document" alt="Documentação Pericial">
+                <div class="caption">A materialização do trabalho pericial: Laudo concluído e vestígios preservados.</div>
+            </div>
+        </div>
+
+        <div class="section" id="metodo-cientifico">
+            <h2>Conclusão: A Criminalística à luz do Método Científico</h2>
+            <div class="box-green">
+                <span class="box-title">O Fundamento de Tudo</span>
+                <p>Todos os passos práticos realizados no SISCRIM, desde o recebimento cauteloso das provas até a emissão formal do laudo, são balizados pelo <strong>Método Científico</strong>. A Criminalística não trabalha com achismos, mas com observação, formulação de hipóteses, experimentação rigorosa (análises materiais) e conclusões baseadas em leis naturais irrefutáveis. O sistema computacional serve apenas como ferramenta garantidora da idoneidade e da reprodutibilidade metodológica desta ciência.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Gerado para uso como material de estudo base • PCPR - Criminalística
+    </div>
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>

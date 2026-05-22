@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 4 - O Perito</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Fallback CSS if estilo_padrao.css fails */
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .header h1 { color: #1a202c; font-size: 2.5em; }
+        .subtitle { font-size: 1.2em; color: #4a5568; }
+        .badge { display: inline-block; padding: 5px 15px; background: #2b6cb0; color: white; border-radius: 20px; margin-top: 10px; font-weight: bold; }
+        .toc { background: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding-left: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { color: #2b6cb0; text-decoration: none; font-weight: 500; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2d3748; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        h3 { color: #4a5568; margin-top: 20px; }
+        .box { padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 5px solid; }
+        .box-title { font-weight: bold; margin-bottom: 10px; }
+        .box-blue { background: #ebf8ff; border-color: #3182ce; }
+        .box-green { background: #f0fff4; border-color: #38a169; }
+        .box-orange { background: #fffaf0; border-color: #dd6b20; }
+        .box-red { background: #fff5f5; border-color: #e53e3e; }
+        .box-purple { background: #faf5ff; border-color: #805ad5; }
+        .mnemonic { background: #ffff0030; padding: 15px; border: 2px dashed #ecc94b; border-radius: 8px; margin: 20px 0; text-align: center; }
+        .mnemonic-title { font-weight: bold; color: #b7791f; font-size: 1.2em; margin-bottom: 10px; }
+        .image-container { margin: 30px 0; text-align: center; }
+        .image-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.9em; color: #718096; margin-top: 10px; font-style: italic; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; font-weight: bold; }
+        .diagram { display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px 0; gap: 15px; }
+        .diagram-item { background: #fff; border: 1px solid #cbd5e0; padding: 15px; border-radius: 8px; flex: 1; min-width: 200px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .diagram-item-title { font-weight: bold; color: #2b6cb0; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Capítulo 4 - O Perito</h1>
+            <div class="subtitle">Criminalística</div>
+            <div class="badge">PCPR - Criminalística</div>
+        </div>
+
+        <!-- TOC -->
+        <div class="toc">
+            <h3>Índice</h3>
+            <ul>
+                <li><a href="#introducao">Introdução: O Que é o Perito?</a></li>
+                <li><a href="#perito-oficial">4.1 O Perito Oficial</a></li>
+                <li><a href="#perito-nao-oficial">4.2 O Perito Não Oficial (Ad Hoc)</a></li>
+                <li><a href="#perito-civil">4.3 O Perito no Processo Civil</a></li>
+                <li><a href="#perito-federal">4.4 Perito Criminal Federal</a></li>
+                <li><a href="#disciplina-judiciaria">4.5 Disciplina Judiciária</a></li>
+            </ul>
+        </div>
+
+        <!-- Introdução -->
+        <div id="introducao" class="section">
+            <h2>Introdução: O Que é o Perito?</h2>
+            <p>Em sentido amplo, perito é um <strong>sinônimo de especialista</strong>: aquele que se especializou em determinado ramo de atividade ou assunto, possuindo experiência ou habilidade específica (HOUAISS, 2009).</p>
+            
+            <p>Há duas divisões principais no tratamento do perito:</p>
+            <ul>
+                <li><strong>Âmbito Formal e Administrativo:</strong> Profissionais denominados peritos por seu cargo (ex: peritos médicos previdenciários).</li>
+                <li><strong>Âmbito Formal Jurídico:</strong> O perito é a figura responsável pela <strong>prova material</strong>, atuando nas áreas cível, trabalhista e penal.</li>
+            </ul>
+
+            <div class="box box-blue">
+                <div class="box-title">Visão Doutrinária</div>
+                <p><strong>Guilherme de Souza Nucci:</strong> O perito é o especialista encarregado de servir como <strong>auxiliar da justiça</strong>. Esclarece pontos específicos distantes do conhecimento jurídico do magistrado, auxiliando-o a formar sua convicção. Pode ser oficial (funcionário do estado, dispensado de compromisso) ou nomeado pelo juiz (deve prestar compromisso).</p>
+                <p><strong>Mirabete:</strong> É a pessoa encarregada pela autoridade, sob compromisso, de esclarecer, por meio de laudo, uma questão de fato. São auxiliares eventuais da justiça e estão sujeitos à disciplina judiciária.</p>
+            </div>
+            
+            <p>A nomeação do perito também pode ser feita pelo <strong>Delegado de Polícia Federal/Civil</strong> na fase do inquérito policial, na ausência de perito oficial.</p>
+
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800" alt="Balança da Justiça e Ferramentas">
+                <div class="caption">O perito atua como os "olhos técnicos" do magistrado, auxiliando na busca da verdade real.</div>
+            </div>
+        </div>
+
+        <!-- Perito Oficial -->
+        <div id="perito-oficial" class="section">
+            <h2>4.1 O Perito Oficial</h2>
+            <p>O <strong>Código de Processo Penal (Art. 159)</strong> estabelece a regra de ouro: "O exame de corpo de delito e outras perícias serão realizados por <strong>perito oficial</strong>, portador de diploma de curso superior."</p>
+            
+            <div class="box box-green">
+                <div class="box-title">Lei das Perícias Oficiais (Lei nº 12.030/2009)</div>
+                <p>Define claramente quem compõe o rol de peritos oficiais de natureza criminal (Art. 5º):</p>
+                <ul>
+                    <li>Peritos Criminais</li>
+                    <li>Peritos Médico-Legistas</li>
+                    <li>Peritos Odontolegistas</li>
+                </ul>
+            </div>
+
+            <h3>Organização e Subordinação</h3>
+            <p>Na maior parte do Brasil, a perícia é vinculada diretamente às <strong>Secretarias de Segurança Pública</strong>. Em 11 estados, ainda integra a Polícia Civil. (Apenas no Amapá foi detectada vinculação direta ao Governador). O exame é requisitado pela autoridade ao <strong>diretor da repartição</strong> (Art. 178 CPP), que distribuirá o trabalho aos peritos baseando-se na carga de trabalho e área de formação.</p>
+
+            <div class="mnemonic">
+                <div class="mnemonic-title">Mnemônico: CMO (Cargos Médicos e Odontológicos não esquecer os Criminais)</div>
+                <p>Quais são os Peritos Oficiais? <strong>C - M - O</strong></p>
+                <p><strong>C</strong>riminais | <strong>M</strong>édico-Legistas | <strong>O</strong>dontolegistas</p>
+            </div>
+        </div>
+
+        <!-- Perito Não Oficial -->
+        <div id="perito-nao-oficial" class="section">
+            <h2>4.2 O Perito Não Oficial (Ad Hoc)</h2>
+            <p>Excepcionalmente, na <strong>falta de peritos oficiais</strong>, o CPP prevê a atuação de peritos leigos (não oficiais).</p>
+            
+            <div class="box box-orange">
+                <div class="box-title">Regra do Art. 159, § 1º, CPP</div>
+                <p>Na falta de perito oficial, o exame será realizado por <strong>2 (duas) pessoas idôneas</strong>, portadoras de diploma de curso superior, preferencialmente na área específica, entre as que tiverem habilitação técnica relacionada ao exame.</p>
+            </div>
+
+            <ul>
+                <li><strong>Compromisso:</strong> Devem prestar compromisso legal de bem e fielmente desempenhar o encargo (ao contrário do oficial, que já prestou no momento da posse).</li>
+                <li><strong>Quem nomeia:</strong> Exclusivo do Delegado de Polícia ou da Autoridade Judiciária. (Não admite intervenção das partes).</li>
+                <li><strong>Precaução:</strong> É uma medida emergencial. Laudos não oficiais podem não ter a mesma credibilidade e os vestígios correm risco de destruição por inexperiência do perito leigo.</li>
+            </ul>
+
+            <div class="diagram">
+                <div class="diagram-item">
+                    <div class="diagram-item-title">Perito Oficial</div>
+                    <p>Concursado (Estado)</p>
+                    <p>Basta <strong>1</strong> perito</p>
+                    <p>Não precisa prestar compromisso a cada exame (já empossado)</p>
+                </div>
+                <div class="diagram-item">
+                    <div class="diagram-item-title">Perito Ad Hoc (Não Oficial)</div>
+                    <p>Nomeado pela Autoridade</p>
+                    <p>Exige-se <strong>2</strong> pessoas idôneas</p>
+                    <p>Presta compromisso a cada nomeação</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Processo Civil -->
+        <div id="perito-civil" class="section">
+            <h2>4.3 O Perito no Processo Civil</h2>
+            <p>No processo civil, diferentemente da esfera criminal, <strong>não existe órgão oficial de perícia cível</strong> pelo Estado para todos os cidadãos.</p>
+            <ul>
+                <li>O juiz nomeia o perito (profissional de nível universitário, inscrito no conselho de classe) e este faz jus a <strong>honorários periciais</strong>.</li>
+                <li>Atua-se sob compromisso.</li>
+                <li>As partes podem contratar <strong>Assistentes Técnicos</strong>.</li>
+            </ul>
+            
+            <div class="box box-purple">
+                <div class="box-title">Exceções no Civil (Art. 434 CPC)</div>
+                <p>Se o exame envolver <strong>autenticidade/falsidade de documento</strong> ou for de <strong>natureza médico-legal</strong>, o juiz deverá escolher, de preferência, técnicos dos <strong>estabelecimentos oficiais especializados</strong> (ex: IML, Instituto de Criminalística).</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800" alt="Processo Civil e Honorários">
+                <div class="caption">Na esfera civil, a regra é a nomeação de um profissional autônomo remunerado, não existindo "polícia científica cível".</div>
+            </div>
+        </div>
+
+        <!-- Perito Criminal Federal -->
+        <div id="perito-federal" class="section">
+            <h2>4.4 Perito Criminal Federal</h2>
+            <p>Policial encarregado de executar atividades técnico-científicas de nível superior de descoberta, recolhimento, guarda e exame de vestígios em procedimentos pré-processuais e judiciários da União.</p>
+            <p>O <strong>Decreto nº 5.116/2004</strong> estabelece diversas áreas de formação superior aceitas, como Química, Física, Engenharias (várias), Medicina, Farmácia, Ciências Contábeis, Biológicas, Informática, Odontologia e Economia.</p>
+        </div>
+
+        <!-- Disciplina Judiciária -->
+        <div id="disciplina-judiciaria" class="section">
+            <h2>4.5 Disciplina Judiciária</h2>
+            <p>O <strong>Art. 275 do CPP</strong> crava: "o perito, ainda quando não oficial, estará sujeito à disciplina judiciária."</p>
+            <p>Os peritos respondem pelos crimes contra a Administração da Justiça, atuando sob rigoroso código de ética e imparcialidade.</p>
+
+            <h3>4.5.1 Impedimento e Suspeição</h3>
+            <p>Aplicam-se aos peritos, no que couber, as regras de suspeição e impedimento dos juízes (Art. 280 CPP). Eles detêm forte influência na decisão do magistrado e devem atuar com <strong>total imparcialidade</strong>.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Impedimento (Causas Objetivas / Absolutas)</th>
+                        <th>Suspeição (Causas Subjetivas / Relativas)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>O perito <strong>já participou</strong> do processo como testemunha ou já deu opinião anterior.</td>
+                        <td>For amigo íntimo ou inimigo capital de qualquer das partes.</td>
+                    </tr>
+                    <tr>
+                        <td>For <strong>parte</strong> ou membro de administração de empresa envolvida.</td>
+                        <td>Ele ou parente próximo estiver respondendo a processo por fato análogo controverso.</td>
+                    </tr>
+                    <tr>
+                        <td>For <strong>cônjuge ou parente</strong> até 2º grau do advogado, ou 3º grau da parte.</td>
+                        <td>For credor/devedor das partes, ou herdeiro/empregador.</td>
+                    </tr>
+                    <tr>
+                        <td>O periciando for seu paciente.</td>
+                        <td>Tiver recebido presentes, ajudado a custear o processo ou aconselhado uma parte.</td>
+                    </tr>
+                    <tr>
+                        <td>Estiver cumprindo pena impeditiva de função.</td>
+                        <td>Tiver qualquer interesse no julgamento em favor de uma parte.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="mnemonic">
+                <div class="mnemonic-title">Dica para Prova: Impedimento x Suspeição</div>
+                <p><strong>Impedimento:</strong> Vínculos <strong>O</strong>bjetivos (Fatos concretos, família, já atuou antes). A lei "impede" e pronto.</p>
+                <p><strong>Suspeição:</strong> Vínculos <strong>S</strong>ubjetivos e Financeiros (Sentimentos: amizade, inimizade, interesse, presentes, dívidas). Levanta "suspeitas" sobre a imparcialidade.</p>
+            </div>
+
+            <h3>4.5.2 Falsa Perícia</h3>
+            <div class="box box-red">
+                <div class="box-title">Crime de Falso Testemunho ou Falsa Perícia (Art. 342, CP)</div>
+                <p>O perito está sujeito às penas deste crime. Para que ocorra, é necessário o <strong>dolo</strong> (intenção de produzir o erro e fraudar a verdade).</p>
+                <p><strong>Atenção:</strong> Os Assistentes Técnicos (que fornecem pareceres contratados pelas partes) <strong>não</strong> cometem o crime de falsa perícia do art. 342 CP, pois não são peritos e defendem o interesse de quem os contratou.</p>
+            </div>
+        </div>
+
+    </div>
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>

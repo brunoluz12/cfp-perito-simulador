@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 14 - SISCRIM</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <span class="badge">PCPR - Criminalística</span>
+        <span class="subtitle">Criminalística</span>
+        <h1>Capítulo 14 - O Sistema Nacional de Gestão de Atividades de Criminalística – SISCRIM</h1>
+    </div>
+
+    <div class="toc">
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#conceitos">1. Conceitos básicos do Sistema (14.5.1)</a></li>
+            <li><a href="#acesso">2. Acesso ao Sistema (14.1)</a></li>
+            <li><a href="#modulo-documentos">3. Módulo de Documentos (14.2)</a></li>
+            <li><a href="#modulo-materiais">4. Módulo de Materiais (14.3)</a></li>
+            <li><a href="#gestao">5. Gestão de Documentos e Materiais (14.4)</a></li>
+            <li><a href="#fluxo">6. Fluxo típico de entrada, atendimento e saída (14.5)</a></li>
+            <li><a href="#assinatura">7. Assinatura digital de Laudos (14.6)</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="conceitos">
+        <h2>1. Conceitos básicos do Sistema</h2>
+        <p>Para a melhor compreensão do <strong>SISCRIM</strong> (Sistema Nacional de Gestão de Atividades de Criminalística), é fundamental dominar os seguintes termos e conceitos básicos adotados em seu funcionamento cotidiano:</p>
+        
+        <div class="box-blue">
+            <span class="box-title">Definições Essenciais</span>
+            <ul>
+                <li><strong>Procedimento:</strong> Registro que representa o processo, investigação ou processo administrativo ao qual a perícia está vinculada. Serve de referência comum para o controle das requisições de exame, laudos periciais e outros documentos. <em>Ex: IPL, ação penal, sindicância.</em></li>
+                <li><strong>Unidade Organizacional:</strong> Cada unidade que compõe a Polícia Federal. <em>Ex: SETEC/SR/PF/GO, INC, DRE.</em></li>
+                <li><strong>Órgão Externo:</strong> Qualquer órgão que NÃO seja a Polícia Federal. <em>Ex: TRF, STJ, MPF, SRF, Marinha, Ibama.</em></li>
+                <li><strong>Grupo de Funcionários:</strong> Subunidades dentro do SISCRIM, criadas para apoiar a gestão. <em>Ex: GPINF (Informática), GPCONT (Contábil), GPLAB (Laboratório).</em></li>
+                <li><strong>Tarefa:</strong> Nomenclatura dos comandos do sistema <strong>ePol</strong> encaminhados a servidores ou unidades. No SISCRIM, recebem o nome de <strong>"Despacho ePol"</strong>, mantendo a numeração.</li>
+                <li><strong>Bens:</strong> Conceito adotado no sistema ePol que engloba o conceito de <strong>"materiais"</strong> no SISCRIM.</li>
+            </ul>
+        </div>
+
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=800" alt="Conceitos de Gestão e Sistemas">
+            <div class="caption">Representação da gestão de sistemas e integração de dados.</div>
+        </div>
+
+        <h3>Conceitos de Movimentação e Posse</h3>
+
+        <div class="box-purple">
+            <span class="box-title">Carga e Movimentação</span>
+            <p><strong>Movimentação:</strong> É o ato de encaminhar documento e/ou material, alterando sua carga.</p>
+            <p><strong>Carga:</strong> Representa o funcionário, o grupo, a unidade ou o órgão externo para onde o documento ou material foi encaminhado no SISCRIM.</p>
+        </div>
+
+        <div class="box-red">
+            <span class="box-title">⚠️ Atenção à Carga!</span>
+            <p>A "carga" <strong>não indica</strong> que o documento ou material foi efetivamente recebido pelo destinatário. Apenas reflete a alteração sistêmica para quem foi encaminhado.</p>
+        </div>
+
+        <h3>Lotação x Localização</h3>
+        <p>Dois conceitos frequentemente confundidos, mas cruciais para a emissão de documentos:</p>
+        <ul>
+            <li><strong>Lotação:</strong> Corresponde à unidade administrativa com a qual o servidor possui <strong>vínculo administrativo formal</strong> (usada para gestão de pessoal e registros institucionais).</li>
+            <li><strong>Localização:</strong> Indica a unidade de criminalística à qual o servidor está vinculado <strong>para efeitos de movimentação e emissão de documentos</strong> no SISCRIM. Pode divergir da lotação em caso de missões de apoio temporário.</li>
+        </ul>
+
+        <div class="mnemonic">
+            <div class="mnemonic-title">Mnemônico: Lotação vs Localização</div>
+            <p><strong>Lotação:</strong> Lotação = <strong>A</strong>dministração (Vínculo formal e administrativo).</p>
+            <p><strong>Localização:</strong> Locali<strong>Zação</strong> = <strong>Ação</strong> (Onde o perito atua para emissão de docs no sistema).</p>
+        </div>
+    </div>
+
+    <div class="section" id="acesso">
+        <h2>2. Acesso ao Sistema</h2>
+        <p>O SISCRIM é acessível através do ambiente da intranet da Polícia Federal, no endereço padronizado da DITEC (Diretoria Técnico-Científica):</p>
+        <div class="box-green">
+            <span class="box-title">URL de Acesso</span>
+            <p><code>https://www.ditec.pf.gov.br/sistemas/criminalistica/</code></p>
+        </div>
+    </div>
+
+    <div class="section" id="modulo-documentos">
+        <h2>3. Módulo de Documentos</h2>
+        <p>O SISCRIM possui dois grandes grupos de funcionalidades principais: <strong>Documentos</strong> e <strong>Materiais</strong>.</p>
+        
+        <p>Dentro do grupo de Documentos, os de maior relevância são aqueles cuja finalidade é classificada como <strong>"solicitação de exame"</strong>, pois desencadeiam a elaboração de exames e a posterior emissão de Laudos de Perícia Criminal Federal.</p>
+
+        <h3>Finalidades dos Documentos Externos</h3>
+        <ul>
+            <li>Solicitação de exame (Demanda Laudo)</li>
+            <li>Encaminhamento</li>
+            <li>Reiteração</li>
+            <li>Finalidade diversa</li>
+        </ul>
+
+        <div class="box-blue">
+            <span class="box-title">Requisitos da "Solicitação de Exame"</span>
+            <p>Para cada documento com essa finalidade, são obrigatoriamente definidas algumas informações de destaque:</p>
+            <ol>
+                <li><strong>Dados do requisitante.</strong></li>
+                <li><strong>Área de exame:</strong> dividida em classes e subclasses.</li>
+                <li><strong>Criticidade:</strong> (alta, média e baixa), serve como indicador de priorização de atendimento.</li>
+                <li><strong>Publicidade restrita:</strong> (sigilo).</li>
+            </ol>
+        </div>
+
+        <p><strong>Designação:</strong> É o ato administrativo pelo qual o gestor <strong>distribui</strong> uma solicitação de exame ao perito criminal federal, atribuindo-lhe <strong>formalmente a responsabilidade</strong> pelo atendimento, mediante despacho registrado no sistema.</p>
+    </div>
+
+    <div class="section" id="modulo-materiais">
+        <h2>4. Módulo de Materiais</h2>
+        <p>Os materiais no SISCRIM estão <strong>obrigatoriamente vinculados a documentos pré-cadastrados</strong>. Eles correspondem a objetos, amostras, equipamentos e bens apreendidos.</p>
+
+        <p>Assim como os documentos, os materiais também recebem uma <strong>finalidade</strong>. Exemplos:</p>
+        <ul>
+            <li>Exame (vestígios)</li>
+            <li>Apoio ao exame</li>
+            <li>Contraprova</li>
+            <li>Devolução</li>
+            <li>Mídia anexa</li>
+            <li>Mídia para espelhamento</li>
+            <li>Padrão ou Pesquisa</li>
+        </ul>
+
+        <div class="box-orange">
+            <span class="box-title">Cadeia de Custódia (Materiais de "Exame")</span>
+            <p>O sistema armazena informações detalhadas dos materiais com finalidade de <strong>"exame"</strong> para garantir o rastreamento da cadeia de custódia. São de preenchimento exigido: número de itens, descrição, quantidade e identificação de lacres.</p>
+        </div>
+
+        <p><em>Lembre-se:</em> Os "materiais" no SISCRIM são chamados de <strong>"bens"</strong> no sistema ePol.</p>
+    </div>
+
+    <div class="section" id="gestao">
+        <h2>5. Gestão de Documentos e Materiais</h2>
+        <p>Tanto documentos quanto materiais ficam sob a <strong>responsabilidade de um único usuário</strong> ou de um grupo/unidade previamente cadastrado.</p>
+
+        <p>Uma <strong>movimentação</strong> (transferência de carga) inicia-se na origem e <strong>só é concluída com a confirmação de recebimento</strong> no destino.</p>
+
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800" alt="Árvore de Documentos">
+            <div class="caption">A organização hierárquica e encadeada facilita o rastreamento.</div>
+        </div>
+
+        <h3>Árvore de Documentos</h3>
+        <p>Documentos e materiais inter-relacionados podem ser visualizados na forma de "Árvore de Documentos", evidenciando a carga atual de cada item e a hierarquia do relacionamento.</p>
+
+        <h3>Formas de Identificação</h3>
+        <p>O sistema utiliza três metodologias para identificar os elementos:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo de Identificação</th>
+                    <th>Características / Composição</th>
+                    <th>Exemplos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Identificação Única (Documento Próprio)</strong></td>
+                    <td>Tipo, Número, Ano e Unidade Emissora.</td>
+                    <td>Laudo 265/2025-SETEC/SR/MG/PF</td>
+                </tr>
+                <tr>
+                    <td><strong>Número de Registro</strong></td>
+                    <td>Atribuído a documentos recebidos e a materiais. Composto por sequencial + unidade de criminalística.</td>
+                    <td>Registro 412/2026-NUTEC/SP<br>Material 183/2026-SETEC/MS</td>
+                </tr>
+                <tr>
+                    <td><strong>Número Único Sequencial (Código de Barras)</strong></td>
+                    <td>Válido para tudo (docs, materiais, pessoas, unidades). É a forma mais fácil de busca rápida e inequivocamente localiza o item.</td>
+                    <td>(Código de barras gerado pelo sistema)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Acerto Eletrônico</h3>
+        <p>O SISCRIM também atua como um grande repositório de conhecimento (Acerto Eletrônico). Todos os <strong>laudos não sigilosos</strong> estão abertos para leitura e pesquisa textual, com mais de 1 milhão de laudos cadastrados, servindo de fonte de aprendizado contínuo para os peritos.</p>
+    </div>
+
+    <div class="section" id="fluxo">
+        <h2>6. Fluxo típico de entrada, atendimento e saída</h2>
+        <p>O fluxo de uma requisição garante a rastreabilidade dos atos, a integridade da cadeia de custódia e a conformidade normativa.</p>
+
+        <div class="diagram">
+            <div class="diagram-item">
+                <div class="diagram-item-title">1. Entrada</div>
+                <p>Ingresso do documento de requisição (cadastro ou integração), incluindo arquivos anexos (ofícios, decisões).</p>
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">2. Cadastro de Materiais</div>
+                <p>Inserção de dados, conferência de integridade e correspondência dos lacres. Tudo o que envolver a cadeia de custódia passa a vincular-se a este material. Pode haver <em>desmembramento</em> se necessário.</p>
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">3. Designação</div>
+                <p>Distribuição ao Perito Criminal Federal (PCF).</p>
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">4. Análise de Viabilidade (AV)</div>
+                <p>O Perito verifica a viabilidade técnico-operacional, a documentação e autorizações judiciais. Confirma-se a viabilidade do atendimento, cadastrando os objetos de exame.</p>
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">5. Elaboração do Laudo</div>
+                <p>Realização dos exames e geração do laudo (automática em algumas áreas ou via modelos padronizados). O laudo recebe numeração e indicação dos signatários.</p>
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">6. Emissão e Entrega</div>
+                <p>O laudo assinado digitalmente sofre upload, é submetido à chefia e <strong>entregue ao requisitante</strong> (data da entrega é usada para métricas e prazos de metas).</p>
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">7. Arquivamento</div>
+                <p>A requisição é considerada efetivamente atendida <strong>apenas quando arquivada no sistema</strong>, marcando o encerramento do fluxo.</p>
+            </div>
+        </div>
+
+        <div class="box-red">
+            <span class="box-title">Regra de Prazo de Gestão</span>
+            <p>Como boa prática de controle: o prazo entre a numeração do laudo e sua entrega efetiva <strong>não deve ultrapassar 10 dias corridos</strong>.</p>
+        </div>
+        
+        <p><strong>Obs:</strong> O fluxo admite criação de <em>cópias da requisição</em> (tratadas de forma autônoma) quando há atendimento por múltiplos peritos, áreas de exames distintas ou mais de uma Unidade de Criminalística (UC).</p>
+    </div>
+
+    <div class="section" id="assinatura">
+        <h2>7. Assinatura digital de Laudos</h2>
+        <p>O SISCRIM adota a <strong>assinatura digital (padrão ICP-Brasil)</strong> como <strong>obrigatória</strong> para os laudos periciais emitidos.</p>
+        
+        <p>Essa medida garante:</p>
+        <ul>
+            <li>A identificação da <strong>autoria</strong> de um documento eletrônico.</li>
+            <li>A verificação da <strong>integridade</strong> (garante que não sofreu alteração após a assinatura).</li>
+        </ul>
+
+        <p>Para obter o certificado digital necessário para o sistema, o Perito Criminal Federal deve abrir um chamado no <strong>CITSmart – DTI/PF</strong>.</p>
+    </div>
+
+</div>
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>

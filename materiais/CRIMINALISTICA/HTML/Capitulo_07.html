@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 7 - Indícios</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .header { text-align: center; margin-bottom: 40px; border-bottom: 2px solid #e9ecef; padding-bottom: 20px; }
+        h1 { font-weight: 800; font-size: 2.5rem; color: #1a1a1a; margin-bottom: 10px; }
+        .subtitle { font-size: 1.2rem; color: #6c757d; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
+        .badge { display: inline-block; background-color: #0d6efd; color: #fff; padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-top: 15px; }
+        .toc { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #0d6efd; }
+        .toc h3 { margin-top: 0; font-size: 1.1rem; color: #495057; text-transform: uppercase; letter-spacing: 1px;}
+        .toc ul { list-style: none; padding-left: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #0d6efd; font-weight: 500; }
+        .toc a:hover { text-decoration: underline; }
+        .section { margin-bottom: 40px; }
+        h2 { font-size: 1.8rem; color: #212529; border-bottom: 1px solid #dee2e6; padding-bottom: 8px; margin-bottom: 20px; }
+        h3 { font-size: 1.4rem; color: #343a40; margin-top: 25px; margin-bottom: 15px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-green { background-color: #d1e7dd; border-left: 5px solid #0f5132; padding: 15px; margin: 20px 0; border-radius: 4px; color: #0f5132; }
+        .box-orange { background-color: #fff3cd; border-left: 5px solid #856404; padding: 15px; margin: 20px 0; border-radius: 4px; color: #856404; }
+        .box-blue { background-color: #cce5ff; border-left: 5px solid #004085; padding: 15px; margin: 20px 0; border-radius: 4px; color: #004085; }
+        .box-purple { background-color: #e2d9f3; border-left: 5px solid #6610f2; padding: 15px; margin: 20px 0; border-radius: 4px; color: #432874; }
+        .box-red { background-color: #f8d7da; border-left: 5px solid #721c24; padding: 15px; margin: 20px 0; border-radius: 4px; color: #721c24; }
+        .box-title { font-weight: 700; margin-bottom: 5px; display: block; text-transform: uppercase; font-size: 0.95rem; }
+        .mnemonic { background: #1a1a1a; color: #fff; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center; font-weight: 600; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .mnemonic-title { color: #ffc107; font-size: 1.3rem; margin-bottom: 10px; display: block; text-transform: uppercase; letter-spacing: 1px; }
+        .diagram { display: flex; flex-direction: column; gap: 15px; background: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #dee2e6; margin: 20px 0; }
+        .diagram-item { background: #fff; padding: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-left: 4px solid #0d6efd; }
+        .diagram-item-title { font-weight: 700; color: #212529; margin-bottom: 5px; }
+        .image-container { margin: 30px 0; text-align: center; }
+        .image-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: cover; }
+        .caption { font-size: 0.9rem; color: #6c757d; margin-top: 10px; font-style: italic; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        th, td { border: 1px solid #dee2e6; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; color: #495057; font-weight: 600; }
+        .footer { text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Capítulo 7 - Indícios</h1>
+        <div class="subtitle">A Força Probatória na Investigação Criminal</div>
+        <div class="badge">PCPR - Criminalística</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec-conceito">1. Conceito Legal e Diferenciação</a></li>
+            <li><a href="#sec-tipos">2. Tipos de Indícios: Materiais vs. Circunstanciais</a></li>
+            <li><a href="#sec-exemplo">3. Estudo de Caso: O Exemplo da Rixa</a></li>
+            <li><a href="#sec-doutrina">4. A Visão da Doutrina: Rocha e Malatesta</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="sec-conceito">
+        <h2>1. Conceito Legal e Diferenciação</h2>
+        <p>No universo da investigação criminal, é <strong>comum a confusão entre indício e vestígio</strong>. Contudo, do ponto de vista jurídico e pericial, eles possuem distinções fundamentais.</p>
+
+        <p>A palavra <strong>indício</strong> possui uma definição estrita na legislação brasileira, especificamente no Código de Processo Penal (CPP).</p>
+
+        <div class="box-blue">
+            <span class="box-title">O que diz a Lei (Art. 239 do CPP)</span>
+            "Considera-se <strong>indício</strong> a circunstância <strong>conhecida e provada</strong> que, tendo relação com o fato, autorize, por <strong>indução</strong>, concluir-se a existência de outra ou outras circunstâncias."
+        </div>
+
+        <p>Da interpretação direta deste dispositivo legal, deduz-se que o indício é, na prática, uma <strong>suspeita fundamentada</strong>. Essa suspeita é extraída de um raciocínio lógico (indução), e, de forma notável, o indício pode muitas vezes <strong>não ser representado por meio de vestígios materiais</strong>.</p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: C.P.I. do Indício</span>
+            <p>Como lembrar do Art. 239 do CPP?</p>
+            <p style="font-size: 1.2rem; margin-top: 10px;">
+                <strong>C</strong>ircunstância<br>
+                <strong>P</strong>rovada que gera<br>
+                <strong>I</strong>ndução
+            </p>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Termo</th>
+                    <th>Natureza Principal</th>
+                    <th>Característica</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Vestígio</strong></td>
+                    <td>Material (físico, químico, biológico)</td>
+                    <td>É a marca bruta deixada no local do crime, independente de análise processual profunda.</td>
+                </tr>
+                <tr>
+                    <td><strong>Indício</strong></td>
+                    <td>Processual / Lógico / Circunstancial</td>
+                    <td>É uma conclusão lógica. Exige que uma circunstância seja provada para induzir à existência de outra.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800&h=400" alt="Investigação Criminal e Leis">
+        <div class="caption">Ilustração representativa: O indício liga fatos conhecidos à descoberta de fatos desconhecidos por meio da lógica e da lei.</div>
+    </div>
+
+    <div class="section" id="sec-tipos">
+        <h2>2. Tipos de Indícios: Materiais vs. Circunstanciais</h2>
+        <p>A doutrina e a prática policial nos mostram que os indícios de um crime não precisam, obrigatoriamente, ser tangíveis. Eles podem ser divididos em dois grandes grupos representativos:</p>
+
+        <div class="diagram">
+            <div class="diagram-item">
+                <div class="diagram-item-title">Indícios Materiais</div>
+                Baseiam-se em <strong>vestígios materiais</strong> consolidados (ex: uma arma apreendida, um exame de balística positivo, uma digital na cena do crime). Têm forte poder probatório físico.
+            </div>
+            <div class="diagram-item">
+                <div class="diagram-item-title">Indícios Circunstanciais</div>
+                Baseiam-se em <strong>circunstâncias factuais</strong> provadas, comportamentos, motivações ou histórico dos envolvidos (ex: ameaças públicas, brigas recentes, problemas financeiros). Não são palpáveis fisicamente, mas possuem peso processual através da indução lógica.
+            </div>
+        </div>
+
+        <div class="box-red">
+            <span class="box-title">Atenção para Provas</span>
+            Bancas adoram confundir o candidato afirmando que "todo indício deve, obrigatoriamente, ser embasado em um vestígio material". <strong>Isto é FALSO!</strong> As ameaças e intrigas, que são fatos imateriais, podem configurar fortes indícios (circunstanciais).
+        </div>
+    </div>
+
+    <div class="section" id="sec-exemplo">
+        <h2>3. Estudo de Caso: O Exemplo da Rixa</h2>
+        <p>Para materializar essa compreensão, observe o clássico exemplo de aplicação dos indícios numa investigação de homicídio por arma de fogo.</p>
+
+        <ol>
+            <li><strong>O Cenário:</strong> Existe uma rixa histórica entre dois vizinhos, com frequentes ameaças públicas.</li>
+            <li><strong>O Fato:</strong> Um deles é encontrado morto por disparos de arma de fogo nas proximidades da casa do outro.</li>
+            <li><strong>A Circunstância (Indício Circunstancial):</strong> As ameaças públicas e brigas constantes não são vestígios materiais, mas constituem <em>indícios circunstanciais</em> contra o inimigo vivo.</li>
+            <li><strong>A Prova Material Inicial:</strong> Projéteis coletados no corpo da vítima têm o <em>mesmo calibre</em> de uma arma apreendida na casa do suspeito. Isso reforça a hipótese.</li>
+            <li><strong>A Comprovação Pericial:</strong> Exames de balística comprovam que os projéteis <em>saíram daquela arma</em>. Ter-se-á a prova material de que a arma efetuou os disparos.</li>
+        </ol>
+
+        <div class="box-orange">
+            <span class="box-title">O Limite do Indício e da Prova</span>
+            Mesmo com a arma do suspeito sendo a arma do crime, <strong>ainda não se pode provar cabalmente que o suspeito realizou os disparos.</strong> A arma poderia, por exemplo, ter sido furtada de sua casa por um terceiro. 
+            <br><br>
+            Nesse estágio, os <strong>indícios de autoria do crime são fortes, mas ainda não são definitivos</strong>, pois as provas não são plenas. Para condenar, ainda é preciso provar a ação do suspeito.
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1628045610818-f24ce7b54d31?auto=format&fit=crop&q=80&w=800&h=400" alt="Exame de Balística">
+        <div class="caption">O exame de balística é uma prova material, mas, sozinho, pode configurar apenas um forte indício de autoria em relação ao dono da arma.</div>
+    </div>
+
+    <div class="section" id="sec-doutrina">
+        <h2>4. A Visão da Doutrina: Rocha e Malatesta</h2>
+        <p>A doutrina criminalística se aprofunda na valoração do indício dentro do processo penal. O peso de um indício nunca é absoluto e depende de sua relação com o evento.</p>
+
+        <div class="box-green">
+            <span class="box-title">Doutrina: Rocha (1999)</span>
+            "O valor do indício está sempre em razão da <strong>maior ou menor afinidade de relação</strong>, que tem o fato, ou com o crime ou com o seu autor, ou com um e outro, ao mesmo tempo."
+        </div>
+
+        <p>A conexão lógica é o que fortalece o indício. Quanto mais estreito o vínculo causal entre o fato provado e o fato a ser descoberto, mais forte é o indício probatório.</p>
+
+        <div class="box-purple">
+            <span class="box-title">Doutrina: Malatesta (Citado por Rocha, 1999)</span>
+            "Indício é aquele <strong>argumento probatório</strong> que deduz o desconhecido do conhecido por meio da relação de <strong>causalidade</strong>."
+        </div>
+
+        <p>Malatesta faz uma observação magistral sobre como os operadores do direito e peritos devem enxergar os indícios, alertando contra os extremos:</p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Nem Apoteose, Nem Excomunhão</span>
+            <p><strong>"Os indícios não merecem a apoteose, mas também não merecem a excomunhão maior."</strong></p>
+            <p style="font-size: 0.95rem; font-weight: normal; margin-top: 15px;">
+                Isso significa que não se deve idolatrar o indício como uma prova absoluta e irrefutável (apoteose), nem se deve desprezá-lo como algo inútil ou imprestável (excomunhão). Eles são peças de um quebra-cabeça que, quando unidas, podem levar à verdade real.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Material de Estudo Estruturado - Polícia Civil do Paraná (PCPR) | Criminalística</p>
+        <p>Baseado nos manuais e doutrinas oficiais.</p>
+    </div>
+</div>
+
+
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+
+</html>
