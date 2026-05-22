@@ -1,0 +1,24 @@
+{
+  "name": "app_questoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoluz12/cfp-perito-simulador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brunoluz12/cfp-perito-simulador/issues"
+  },
+  "homepage": "https://github.com/brunoluz12/cfp-perito-simulador#readme",
+  "dependencies": {
+    "@upstash/redis": "^1.38.0"
+  }
+}

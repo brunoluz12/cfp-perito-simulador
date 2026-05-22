@@ -25,15 +25,98 @@ const views = {
     'control-view': document.getElementById('control-view')
 };
 
+// VARIÁVEIS DE NUVEM
+let currentUser = null;
+let syncTimeout = null;
+
 // INICIALIZAÇÃO
 document.addEventListener('DOMContentLoaded', () => {
+    const overlay = document.getElementById('login-overlay');
+    const btnLogin = document.getElementById('btn-login');
+    const inputUser = document.getElementById('username-input');
+    
+    // Auto-preencher
+    const savedUser = localStorage.getItem('pcpr_current_user');
+    if (savedUser) inputUser.value = savedUser;
+
+    btnLogin.addEventListener('click', () => tryLogin(inputUser.value));
+    inputUser.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') tryLogin(inputUser.value);
+    });
+});
+
+async function tryLogin(username) {
+    if (!username || username.trim().length < 2) {
+        alert("Digite um nome válido com pelo menos 2 caracteres.");
+        return;
+    }
+    
+    const user = username.trim();
+    const statusMsg = document.getElementById('login-status-msg');
+    const btn = document.getElementById('btn-login');
+    
+    statusMsg.classList.remove('hidden');
+    btn.disabled = true;
+    
+    try {
+        const response = await fetch(`/api/load?username=${encodeURIComponent(user)}`);
+        
+        if (response.ok) {
+            const result = await response.json();
+            if (result.data) {
+                // Sincronizar dados da nuvem para o local
+                if (result.data.stats) localStorage.setItem('pcpr_stats', JSON.stringify(result.data.stats));
+                if (result.data.favoritos) localStorage.setItem('pcpr_favorites', JSON.stringify(result.data.favoritos));
+                if (result.data.comentarios) localStorage.setItem('pcpr_comments', JSON.stringify(result.data.comentarios));
+                if (result.data.historico) localStorage.setItem('pcpr_history', JSON.stringify(result.data.historico));
+                if (result.data.progresso) localStorage.setItem('pcpr_course_progress', JSON.stringify(result.data.progresso));
+            }
+        }
+    } catch (e) {
+        console.error("Erro ao buscar dados na nuvem. Usando dados locais como fallback.", e);
+    }
+    
+    currentUser = user;
+    localStorage.setItem('pcpr_current_user', user);
+    
+    // Ocultar login e mostrar app
+    document.getElementById('login-overlay').classList.add('hidden');
+    document.getElementById('main-app-container').style.display = 'block';
+    
+    // Iniciar fluxo normal do App
     carregarBancoQuestoes();
     carregarDadosPessoais();
     carregarEstatisticas();
     atualizarHeaderStats();
     configurarEventos();
     carregarControleCurso();
-});
+}
+
+function requestCloudSync() {
+    if (!currentUser) return;
+    if (syncTimeout) clearTimeout(syncTimeout);
+    
+    syncTimeout = setTimeout(async () => {
+        const payload = {
+            stats: stats,
+            favoritos: favoritos,
+            comentarios: comentarios,
+            historico: historicoQuestoes,
+            progresso: progressoCurso
+        };
+        
+        try {
+            await fetch('/api/save', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username: currentUser, data: payload })
+            });
+            console.log("Progresso salvo na nuvem!");
+        } catch (e) {
+            console.error("Falha ao salvar na nuvem", e);
+        }
+    }, 2000); // 2 segundos de debounce para não spammar requisições
+}
 
 // CARREGAMENTO DE DADOS
 function carregarBancoQuestoes() {
@@ -94,20 +177,24 @@ function carregarDadosPessoais() {
 
 function salvarFavoritos() {
     localStorage.setItem('pcpr_favorites', JSON.stringify(favoritos));
+    requestCloudSync();
 }
 
 function salvarComentarios() {
     localStorage.setItem('pcpr_comments', JSON.stringify(comentarios));
+    requestCloudSync();
 }
 
 function salvarHistorico() {
     localStorage.setItem('pcpr_history', JSON.stringify(historicoQuestoes));
+    requestCloudSync();
 }
 
 function salvarEstatisticas() {
     localStorage.setItem('pcpr_stats', JSON.stringify(stats));
     atualizarTelaDashboard();
     atualizarHeaderStats();
+    requestCloudSync();
 }
 
 function calcularEstatisticasPorCapitulo() {
@@ -783,6 +870,7 @@ function carregarControleCurso() {
 
 function salvarProgressoCurso() {
     localStorage.setItem('pcpr_course_progress', JSON.stringify(progressoCurso));
+    requestCloudSync();
 }
 
 function renderizarGridControle() {

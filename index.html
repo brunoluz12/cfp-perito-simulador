@@ -12,7 +12,21 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-    <div class="app-container">
+    <!-- OVERLAY DE LOGIN -->
+    <div id="login-overlay" class="login-overlay">
+        <div class="login-box glass-panel">
+            <i class="ph ph-user-circle login-icon"></i>
+            <h2>Bem-vindo!</h2>
+            <p>Por favor, digite seu nome ou apelido para sincronizar seu progresso e anotações.</p>
+            <div class="login-input-group">
+                <input type="text" id="username-input" placeholder="Seu nome..." class="custom-input-text" autocomplete="off" />
+                <button id="btn-login" class="btn-primary">Entrar</button>
+            </div>
+            <p id="login-status-msg" class="login-status hidden">Buscando seus dados na nuvem...</p>
+        </div>
+    </div>
+
+    <div class="app-container" id="main-app-container" style="display: none;">
         <!-- HEADER -->
         <header class="glass-panel main-header">
             <div class="logo">
