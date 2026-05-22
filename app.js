@@ -833,7 +833,7 @@ const planoEducacional = [
     { id: "at", nome: "ARMAMENTO E TIRO (AT)", horas: 90, aulas: 45 },
     { id: "apc", nome: "ATIVIDADE POLICIAL EM CAMPO (APC)", horas: 16, aulas: 8 },
     { id: "bbdf", nome: "BIOMETRIA E BANCOS DE DADOS FORENSES (BBDF)", horas: 20, aulas: 10 },
-    { id: "cri", nome: "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)", horas: 36, aulas: 18 },
+    { id: "cri", nome: "CRIMINALÍSTICA (CRI)", horas: 36, aulas: 18 },
     { id: "dpp", nome: "DEFESA PESSOAL POLICIAL (DPP)", horas: 14, aulas: 14 },
     { id: "do", nome: "DIREÇÃO OPERACIONAL (DO)", horas: 10, aulas: 5 },
     { id: "doc", nome: "DOCUMENTOSCOPIA (DOC)", horas: 30, aulas: 15 },

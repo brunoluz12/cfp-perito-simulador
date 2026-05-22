@@ -3469,7 +3469,7 @@ const questoesDB = [
   },
   {
     "id": "145892",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o art. 144 da Constituição Federal, a segurança pública é caracterizada como:",
@@ -3486,7 +3486,7 @@ const questoesDB = [
   },
   {
     "id": "283741",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a principal função atribuída à Polícia Judiciária no contexto da persecuçção penal?",
@@ -3503,7 +3503,7 @@ const questoesDB = [
   },
   {
     "id": "938274",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da investigaçãoão criminal, o termo 'materialidade' refere-se especificamente a:",
@@ -3520,7 +3520,7 @@ const questoesDB = [
   },
   {
     "id": "472910",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Enquanto a materialidade comprova a existência do crime, a elucidação da 'autoria' busca responder a qual questionamento?",
@@ -3537,7 +3537,7 @@ const questoesDB = [
   },
   {
     "id": "561839",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O inquérito policial desempenha um papel de suma importância na fase pré-processual. Ele pode ser adequadamente definido como:",
@@ -3554,7 +3554,7 @@ const questoesDB = [
   },
   {
     "id": "829471",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo os preceitos da Constituição Federal (art. 144), a Polícia Federal possui funções de destaque, entre as quais inclui-se a competência de:",
@@ -3571,7 +3571,7 @@ const questoesDB = [
   },
   {
     "id": "315482",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito das atribuições investigativas da Polícia Judiciária, qual é o principal objetivo da apuração de um fato considerado, em tese, criminoso?",
@@ -3588,7 +3588,7 @@ const questoesDB = [
   },
   {
     "id": "674019",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca dos conceitos de autoria e materialidade apurados no âmbito da Polícia Judiciária, é correto afirmar:",
@@ -3605,7 +3605,7 @@ const questoesDB = [
   },
   {
     "id": "748392",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O principal embasamento legal primário que define o papel da polícia, as diretrizes gerais da segurança pública no Brasil e a organização das corporações encontra-se consolidado:",
@@ -3622,7 +3622,7 @@ const questoesDB = [
   },
   {
     "id": "192847",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "A inserção da Criminalística no contexto da Polícia Judiciária justifica-se de maneira técnica e científica, atuando principalmente:",
@@ -3639,7 +3639,7 @@ const questoesDB = [
   },
   {
     "id": 105823,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Qual povo foi pioneiro no uso de impressões digitais, utilizando-as já por volta do ano 700?",
@@ -3656,7 +3656,7 @@ const questoesDB = [
   },
   {
     "id": 284910,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Quem é considerado o pai da toxicologia moderna, com destaque para o ano de 1813?",
@@ -3673,7 +3673,7 @@ const questoesDB = [
   },
   {
     "id": 391827,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No ano de 1856, William Herschel implementou qual método voltado à identificação?",
@@ -3690,7 +3690,7 @@ const questoesDB = [
   },
   {
     "id": 402918,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Em 1883, Alphonse Bertillon inovou a identificação criminal. Qual foi o método por ele utilizado?",
@@ -3707,7 +3707,7 @@ const questoesDB = [
   },
   {
     "id": 512398,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A criação do termo 'Criminalística' ocorreu no ano de 1891. Quem foi o autor dessa criação?",
@@ -3724,7 +3724,7 @@ const questoesDB = [
   },
   {
     "id": 692831,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a história da identificação por impressões digitais, assinale a alternativa que associa corretamente o autor à sua contribuição.",
@@ -3741,7 +3741,7 @@ const questoesDB = [
   },
   {
     "id": 738492,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No Brasil, quem foi o pioneiro da Medicina Legal, destacando-se a partir de 1891 em Salvador?",
@@ -3758,7 +3758,7 @@ const questoesDB = [
   },
   {
     "id": 810293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o contexto histórico brasileiro, onde e quando surgiu o conceito moderno de Criminalística no país?",
@@ -3775,7 +3775,7 @@ const questoesDB = [
   },
   {
     "id": 921048,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Como a Criminalística é modernamente conceituada?",
@@ -3792,7 +3792,7 @@ const questoesDB = [
   },
   {
     "id": 958302,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A metodologia da Criminalística exige determinados atributos, que se dividem em atitudinais e técnicos. São exemplos de atributos atitudinais:",
@@ -3809,7 +3809,7 @@ const questoesDB = [
   },
   {
     "id": 982103,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro dos atributos necessários à metodologia da Criminalística, quais representam atributos estritamente técnicos?",
@@ -3826,7 +3826,7 @@ const questoesDB = [
   },
   {
     "id": 994012,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Após o pioneirismo de Raimundo Nina Rodrigues na Medicina Legal em 1891, quais foram os principais nomes responsáveis por expandir a área no Brasil?",
@@ -3843,7 +3843,7 @@ const questoesDB = [
   },
   {
     "id": 149302,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Capítulo 3, como atua o perito criminal federal no contexto da investigaçãoão?",
@@ -3860,7 +3860,7 @@ const questoesDB = [
   },
   {
     "id": 851947,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a função do perito em relação à cadeia de custódia, conforme o texto?",
@@ -3877,7 +3877,7 @@ const questoesDB = [
   },
   {
     "id": 523910,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O perito está sujeito a quais regras dispostas nos artigos 275 a 281 do Código de Processo Penal (CPP)?",
@@ -3894,7 +3894,7 @@ const questoesDB = [
   },
   {
     "id": 782405,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação operacional do perito se dá principalmente em quais situações mencionadas no texto?",
@@ -3911,7 +3911,7 @@ const questoesDB = [
   },
   {
     "id": 395182,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Como o texto descreve a 'integração científica' na atuação pericial?",
@@ -3928,7 +3928,7 @@ const questoesDB = [
   },
   {
     "id": 901573,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O que é apontado como 'viés cognitivo' na atuação do perito?",
@@ -3945,7 +3945,7 @@ const questoesDB = [
   },
   {
     "id": 482016,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os quesitos formulados na investigaçãoão, é correto afirmar que:",
@@ -3962,7 +3962,7 @@ const questoesDB = [
   },
   {
     "id": 617849,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a Portaria 1.192/2022, quais são os elementos textuais obrigatórios de um Laudo Pericial?",
@@ -3979,7 +3979,7 @@ const questoesDB = [
   },
   {
     "id": 259304,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual elemento textual do Laudo Pericial é considerado facultativo, de acordo com o texto base?",
@@ -3996,7 +3996,7 @@ const questoesDB = [
   },
   {
     "id": 310578,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Quais artigos do Código de Processo Penal regulamentam a Cadeia de Custódia, conforme citado no material?",
@@ -4013,7 +4013,7 @@ const questoesDB = [
   },
   {
     "id": 994821,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual documento infralegal foi expressamente citado para definir os elementos textuais do Laudo Pericial?",
@@ -4030,7 +4030,7 @@ const questoesDB = [
   },
   {
     "id": 738129,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é um dos principais efeitos ou finalidades do laudo pericial mencionado ao final do texto?",
@@ -4047,7 +4047,7 @@ const questoesDB = [
   },
   {
     "id": 145923,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo doutrinadores como Nucci e Mirabete, como o perito é definido?",
@@ -4064,7 +4064,7 @@ const questoesDB = [
   },
   {
     "id": 892104,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a lei que, juntamente com o art. 159 do CPP, dispõe sobre os peritos oficiais?",
@@ -4081,7 +4081,7 @@ const questoesDB = [
   },
   {
     "id": 438192,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a Lei 12.030/2009 mencionada no texto, quais profissionais são expressamente considerados peritos oficiais?",
@@ -4098,7 +4098,7 @@ const questoesDB = [
   },
   {
     "id": 710293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Quais são as exigências para a atuação do perito não oficial (ad hoc) descritas no texto?",
@@ -4115,7 +4115,7 @@ const questoesDB = [
   },
   {
     "id": 294815,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o perito no processo civil, assinale a afirmação correta baseada no texto:",
@@ -4132,7 +4132,7 @@ const questoesDB = [
   },
   {
     "id": 651928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O cargo de perito criminal federal exige nível superior em áreas específicas. Qual é a norma que regulamenta esse requisito segundo o texto?",
@@ -4149,7 +4149,7 @@ const questoesDB = [
   },
   {
     "id": 839102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Em qual artigo do Código de Processo Penal (CPP) a disciplina judiciária dos peritos é abordada segundo o texto?",
@@ -4166,7 +4166,7 @@ const questoesDB = [
   },
   {
     "id": 372819,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Como se classificam as provas quanto ao sujeito?",
@@ -4183,7 +4183,7 @@ const questoesDB = [
   },
   {
     "id": 510293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as opções abaixo, qual é considerada uma razão objetiva de impedimento para o perito atuar, de acordo com o texto?",
@@ -4200,7 +4200,7 @@ const questoesDB = [
   },
   {
     "id": 928374,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A expressão latina 'corpus instrumentorum' é citada no resumo estudado. A qual conceito de vital importância pericial ela está diretamente associada no texto?",
@@ -4217,7 +4217,7 @@ const questoesDB = [
   },
   {
     "id": 164829,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "A suspeição do perito baseia-se em razões de que tipo?",
@@ -4234,7 +4234,7 @@ const questoesDB = [
   },
   {
     "id": 283910,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "É um exemplo de razão subjetiva que leva à suspeição do perito, segundo o texto:",
@@ -4251,7 +4251,7 @@ const questoesDB = [
   },
   {
     "id": 748192,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que contém EXCLUSIVAMENTE causas de suspeição (razões subjetivas) listadas no texto:",
@@ -4268,7 +4268,7 @@ const questoesDB = [
   },
   {
     "id": 593817,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Qual artigo do Código Penal (CP) trata do crime de falsa perícia segundo o texto base?",
@@ -4285,7 +4285,7 @@ const questoesDB = [
   },
   {
     "id": 482716,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O que é subjetivamente exigido para a configuração do crime de falsa perícia segundo as notas apresentadas?",
@@ -4302,7 +4302,7 @@ const questoesDB = [
   },
   {
     "id": 142857,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o objetivo principal da prova segundo o texto?",
@@ -4319,7 +4319,7 @@ const questoesDB = [
   },
   {
     "id": 239481,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a confissão como fonte de informação, é correto afirmar:",
@@ -4336,7 +4336,7 @@ const questoesDB = [
   },
   {
     "id": 394815,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, como a fonte de informação testemunhal é classificada?",
@@ -4353,7 +4353,7 @@ const questoesDB = [
   },
   {
     "id": 481529,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 158 do CPP mencionado no texto, o exame de corpo de delito é indispensável para:",
@@ -4370,7 +4370,7 @@ const questoesDB = [
   },
   {
     "id": 519284,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Em crimes que deixam vestígios, a relação entre a confissão do acusado e o exame de corpo de delito é a seguinte:",
@@ -4387,7 +4387,7 @@ const questoesDB = [
   },
   {
     "id": 628491,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O que é definido como 'Corpo de delito' de acordo com o texto?",
@@ -4404,7 +4404,7 @@ const questoesDB = [
   },
   {
     "id": 749182,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O exame de corpo de delito indireto (art. 167 CPP) é cabível quando:",
@@ -4421,7 +4421,7 @@ const questoesDB = [
   },
   {
     "id": 851927,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Através de quais meios o exame de corpo de delito indireto pode ser realizado, segundo o texto?",
@@ -4438,7 +4438,7 @@ const questoesDB = [
   },
   {
     "id": 927481,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Como o texto define o 'objeto da prova'?",
@@ -4455,7 +4455,7 @@ const questoesDB = [
   },
   {
     "id": 194857,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Na classificação das provas quanto ao objeto, como elas se dividem?",
@@ -4472,7 +4472,7 @@ const questoesDB = [
   },
   {
     "id": 281947,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "No texto, o álibi é citado como um exemplo de qual tipo de prova?",
@@ -4489,7 +4489,7 @@ const questoesDB = [
   },
   {
     "id": 372819,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Como se classificam as provas quanto ao sujeito?",
@@ -4506,7 +4506,7 @@ const questoesDB = [
   },
   {
     "id": 419283,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Pegada e sangue são citados no texto como exemplos de:",
@@ -4523,7 +4523,7 @@ const questoesDB = [
   },
   {
     "id": 583921,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Na classificação quanto à forma, quais são os tipos de provas mencionados no texto?",
@@ -4540,7 +4540,7 @@ const questoesDB = [
   },
   {
     "id": 691827,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual é o destino dos vestígios após serem analisados?",
@@ -4557,7 +4557,7 @@ const questoesDB = [
   },
   {
     "id": "184920",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O art. 144 da Constituição Federal determina que a função de polícia judiciária da União seja exercida de que maneira?",
@@ -4574,7 +4574,7 @@ const questoesDB = [
   },
   {
     "id": "372819",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Tendo em vista a finalidade do Inquérito Policial (conforme o art. 5º do CPP), qual é a sua correlação direta com a investigaçãoão criminal?",
@@ -4591,7 +4591,7 @@ const questoesDB = [
   },
   {
     "id": "592018",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a Criminalística atua para atestar cientificamente se uma conduta delituosa de fato ocorreu, ela está contribuindo primariamente para:",
@@ -4608,7 +4608,7 @@ const questoesDB = [
   },
   {
     "id": "713840",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as premissas estabelecidas no Art. 144 da Constituição Federal, a segurança pública no Brasil é fundamentalmente caracterizada como:",
@@ -4625,7 +4625,7 @@ const questoesDB = [
   },
   {
     "id": "629103",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "As polícias de natureza judiciária possuem responsabilidades específicas. Entre suas atribuições centrais, destaca-se:",
@@ -4642,7 +4642,7 @@ const questoesDB = [
   },
   {
     "id": "904721",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro da estrutura legal do processo penal brasileiro e do papel das polícias, a investigaçãoão de infrações penais é documentada num procedimento preparatório denominado:",
@@ -4659,7 +4659,7 @@ const questoesDB = [
   },
   {
     "id": "842109",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando os elementos-chave de uma investigaçãoão policial, a prova da existência real de um crime e a busca de identificar os agentes criminosos correspondem, respectivamente, a:",
@@ -4676,7 +4676,7 @@ const questoesDB = [
   },
   {
     "id": "219485",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "No sistema de segurança pública brasileiro, as polícias responsáveis pela apuração de infrações penais e documentação de Inquéritos Policiais no âmbito dos Estados e da União são, respectivamente:",
@@ -4693,7 +4693,7 @@ const questoesDB = [
   },
   {
     "id": "548392",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à Polícia Federal e sua previsão no artigo 144 da CF/88, assinale a afirmação INCORRETA:",
@@ -4710,7 +4710,7 @@ const questoesDB = [
   },
   {
     "id": "761928",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O Inquérito Policial, peça fundamental na persecuçção penal do Estado, possui natureza essencialmente:",
@@ -4727,7 +4727,7 @@ const questoesDB = [
   },
   {
     "id": "402837",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Por qual razão os elementos de informação colhidos pela Polícia Judiciária (autoria e materialidade) são fundamentais para o sistema de justiça criminal?",
@@ -4744,7 +4744,7 @@ const questoesDB = [
   },
   {
     "id": "691024",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação técnica em um local de crime (perícia), ligada de forma umbilical à Criminalística, atende diretamente a que premissa da Polícia Judiciária?",
@@ -4761,7 +4761,7 @@ const questoesDB = [
   },
   {
     "id": "938210",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o papel estabelecido pela Constituição para as diferentes corporações, investigar crimes e apurar autoria, no âmbito da União, é uma tarefa delegada à:",
@@ -4778,7 +4778,7 @@ const questoesDB = [
   },
   {
     "id": "384729",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Quando investigadores da Polícia Judiciária identificam evidências que comprovam a falsificação de um lote de documentos (prova do fato criminoso), eles estão estabelecendo qual pilar da investigaçãoão?",
@@ -4795,7 +4795,7 @@ const questoesDB = [
   },
   {
     "id": "582914",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Em síntese, para que uma apuração consolidada em Inquérito Policial atinja sua principal finalidade investigativa e embase a futura denúncia, ela deve buscar demonstrar fundamentalmente dois elementos:",
@@ -4812,7 +4812,7 @@ const questoesDB = [
   },
   {
     "id": 110943,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A obra de Mathieu Orfila, destacada historicamente no ano de 1813, foi fundamental para o estabelecimento e desenvolvimento de qual área aplicada às ciências forenses?",
@@ -4829,7 +4829,7 @@ const questoesDB = [
   },
   {
     "id": 154829,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Em 1880, um importante avanço científico foi divulgado internacionalmente por meio de um artigo sobre impressões digitais na prestigiada revista científica Nature. O responsável por essa publicação foi:",
@@ -4846,7 +4846,7 @@ const questoesDB = [
   },
   {
     "id": 209841,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Antes do uso massivo da datiloscopia, um método específico de identificação criminal foi criado por Alphonse Bertillon em 1883. Esse método ficou conhecido como:",
@@ -4863,7 +4863,7 @@ const questoesDB = [
   },
   {
     "id": 257384,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "O termo 'Criminalística' estabeleceu de forma definitiva uma nova disciplina científica. Em que ano Hans Gross criou oficialmente esse termo?",
@@ -4880,7 +4880,7 @@ const questoesDB = [
   },
   {
     "id": 312954,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Em qual país Juan Vucetich desenvolveu o seu reconhecido sistema de classificação de impressões digitais?",
@@ -4897,7 +4897,7 @@ const questoesDB = [
   },
   {
     "id": 368102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A prática de utilizar impressões digitais começou a ganhar traços modernos na segunda metade do século XIX. Em qual ano William Herschel iniciou o uso sistemático de digitais de polegares?",
@@ -4914,7 +4914,7 @@ const questoesDB = [
   },
   {
     "id": 420935,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da formação forense no Brasil, Raimundo Nina Rodrigues iniciou seus trabalhos em 1891, sendo o grande pioneiro da Medicina Legal. Em qual cidade ele realizou esses feitos?",
@@ -4931,7 +4931,7 @@ const questoesDB = [
   },
   {
     "id": 481239,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Após a fundação das bases por Nina Rodrigues, a expansão da Medicina Legal no Brasil foi consolidada por dois outros grandes expoentes. Quais foram eles?",
@@ -4948,7 +4948,7 @@ const questoesDB = [
   },
   {
     "id": 530491,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "O ano de 1947 marcou o surgimento do conceito moderno de Criminalística no Brasil. Esse marco ocorreu durante qual evento?",
@@ -4965,7 +4965,7 @@ const questoesDB = [
   },
   {
     "id": 612847,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Com base na conceituação estrita apresentada pelo I Congresso de 1947, a Criminalística aplica um conjunto de conhecimentos científicos direcionados prioritariamente para três ações básicas. São elas:",
@@ -4982,7 +4982,7 @@ const questoesDB = [
   },
   {
     "id": 673928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A tempestividade é uma premissa fundamental para a validade dos exames periciais. De acordo com a metodologia da Criminalística delineada no texto, a tempestividade enquadra-se como um:",
@@ -4999,7 +4999,7 @@ const questoesDB = [
   },
   {
     "id": 745812,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Para que os laudos periciais tenham a devida credibilidade perante a Justiça, a atuação do perito requer certas posturas comportamentais. Quais dos atributos abaixo são puramente ATITUDINAIS, segundo o conceito metodológico da Criminalística?",
@@ -5016,7 +5016,7 @@ const questoesDB = [
   },
   {
     "id": 810934,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No campo da metodologia, a Criminalística exige a união de atributos comportamentais do perito e da excelência de seu método de trabalho. Assinale a alternativa que apresenta apenas atributos TÉCNICOS exigidos pela disciplina:",
@@ -5033,7 +5033,7 @@ const questoesDB = [
   },
   {
     "id": 894520,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Registros históricos apontam que o uso de impressões digitais é uma prática extremamente antiga, sendo os chineses pioneiros. Em qual ano, aproximadamente, consta o registro desse uso pioneiro pelos chineses?",
@@ -5050,7 +5050,7 @@ const questoesDB = [
   },
   {
     "id": 932481,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Avaliando a evolução temporal da ciência forense exposta na literatura, qual é a ordem cronológica correta dos seguintes eventos: I. Publicação do artigo de Henry Faulds na revista Nature; II. Consolidação da Toxicologia por Mathieu Orfila; III. Criação do termo 'Criminalística' por Hans Gross.",
@@ -5067,7 +5067,7 @@ const questoesDB = [
   },
   {
     "id": 482103,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação operacional do perito criminal federal pode ser dividida em duas modalidades principais citadas no texto. Quais são elas?",
@@ -5084,7 +5084,7 @@ const questoesDB = [
   },
   {
     "id": 718392,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da integração científica, a formulação de hipóteses pelo perito deve ser seguida de qual ação obrigatória, segundo o texto?",
@@ -5101,7 +5101,7 @@ const questoesDB = [
   },
   {
     "id": 930412,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as opções abaixo, baseando-se na Portaria 1.192/2022, assinale a alternativa que apresenta APENAS elementos textuais obrigatórios do laudo pericial:",
@@ -5118,7 +5118,7 @@ const questoesDB = [
   },
   {
     "id": 251948,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o instrumento formal utilizado como forma de comunicação direta entre a investigaçãoão e a perícia?",
@@ -5135,7 +5135,7 @@ const questoesDB = [
   },
   {
     "id": 684209,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O texto classifica o perito criminal federal como um 'auxiliar da justiça'. Qual característica essencial acompanha essa função, garantindo sua independência técnica?",
@@ -5152,7 +5152,7 @@ const questoesDB = [
   },
   {
     "id": 147530,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O viés cognitivo é uma preocupação na atuação pericial. Como esse fenômeno é classificado pelo texto?",
@@ -5169,7 +5169,7 @@ const questoesDB = [
   },
   {
     "id": 593214,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à cadeia de custódia dos vestígios, qual é o papel desempenhado pelo perito, segundo o material?",
@@ -5186,7 +5186,7 @@ const questoesDB = [
   },
   {
     "id": 802371,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Os artigos 275 a 281 do CPP, aos quais o perito criminal federal está sujeito, referem-se a regras que visam garantir a imparcialidade técnica. Estas regras tratam especificamente de:",
@@ -5203,7 +5203,7 @@ const questoesDB = [
   },
   {
     "id": 361905,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Para que a comunicação entre a investigaçãoão e a perícia seja eficiente, o texto determina que os quesitos possuam duas características fundamentais. Quais são elas?",
@@ -5220,7 +5220,7 @@ const questoesDB = [
   },
   {
     "id": 927453,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a parte final do texto, a elaboração rigorosa do laudo pericial desempenha um papel protetivo no âmbito processual. O que o laudo busca prevenir?",
@@ -5237,7 +5237,7 @@ const questoesDB = [
   },
   {
     "id": 508219,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Capítulo 3, a Portaria 1.192/2022 estabelece os elementos textuais do laudo pericial. Qual das alternativas contém um elemento que NÃO é listado como obrigatório?",
@@ -5254,7 +5254,7 @@ const questoesDB = [
   },
   {
     "id": 194837,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O Perito Criminal Federal, no exercício de suas funções na investigaçãoão, deve aplicar seus conhecimentos agindo primariamente como um:",
@@ -5271,7 +5271,7 @@ const questoesDB = [
   },
   {
     "id": 845021,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O arcabouço legal mencionado no texto que fundamenta e normatiza a Cadeia de Custódia está localizado em qual intervalo de artigos?",
@@ -5288,7 +5288,7 @@ const questoesDB = [
   },
   {
     "id": 472190,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "A integração científica na investigaçãoão criminal é descrita no Capítulo 3 como um processo de atuação metódica executado pelo perito. Assinale a alternativa que representa as bases dessa integração:",
@@ -5305,7 +5305,7 @@ const questoesDB = [
   },
   {
     "id": 639824,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O que significa, no contexto das normas do CPP aplicadas ao perito (Arts 275 a 281), a sua sujeição às regras de impedimento e suspeição?",
@@ -5322,7 +5322,7 @@ const questoesDB = [
   },
   {
     "id": 481927,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Na esfera do processo civil, como ocorre a designação do perito e qual a sua forma de remuneração descrita no texto?",
@@ -5339,7 +5339,7 @@ const questoesDB = [
   },
   {
     "id": 938102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a literatura aponta o perito como 'especialista', a quais renomados doutrinadores o texto atribui essa definição específica?",
@@ -5356,7 +5356,7 @@ const questoesDB = [
   },
   {
     "id": 265819,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O art. 159 do Código de Processo Penal (CPP) faz referência direta a qual categoria de peritos segundo as notas?",
@@ -5373,7 +5373,7 @@ const questoesDB = [
   },
   {
     "id": 519283,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto do resumo de criminalística, a expressão 'ad hoc' é utilizada como sinônimo para qual tipo de perito?",
@@ -5390,7 +5390,7 @@ const questoesDB = [
   },
   {
     "id": 748291,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo as disposições do texto, a determinação de que o exame de corpo de delito é indispensável para crimes que deixam vestígios está embasada em qual dispositivo normativo?",
@@ -5407,7 +5407,7 @@ const questoesDB = [
   },
   {
     "id": 192837,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Considere a situação: o perito criminal sorteado para realizar um exame já havia prestado depoimento como testemunha no mesmo processo. Essa situação configura:",
@@ -5424,7 +5424,7 @@ const questoesDB = [
   },
   {
     "id": 837192,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Para a Criminalística, o 'corpo de delito' não é apenas o cadáver da vítima. Conforme o texto, quais são os elementos constitutivos que formam o conjunto do corpo de delito?",
@@ -5441,7 +5441,7 @@ const questoesDB = [
   },
   {
     "id": 618293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O que o texto estabelece de forma categórica a respeito da existência do 'perito cível oficial'?",
@@ -5458,7 +5458,7 @@ const questoesDB = [
   },
   {
     "id": 392810,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Para atuar como perito criminal federal, exige-se nível superior em áreas específicas. Onde tais áreas encontram-se regulamentadas conforme as notas?",
@@ -5475,7 +5475,7 @@ const questoesDB = [
   },
   {
     "id": 410293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a principal linha divisória traçada no texto para distinguir os institutos do impedimento e da suspeição aplicados aos peritos?",
@@ -5492,7 +5492,7 @@ const questoesDB = [
   },
   {
     "id": 759182,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito oficial que é casado com a advogada que patrocina a defesa do acusado fica impossibilitado de atuar. Segundo o texto, isso ocorre por força de:",
@@ -5509,7 +5509,7 @@ const questoesDB = [
   },
   {
     "id": 528193,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Sendo o perito designado herdeiro presuntivo de uma das partes do litígio penal, ele recairá em qual condição descrita?",
@@ -5526,7 +5526,7 @@ const questoesDB = [
   },
   {
     "id": 918273,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "A condição de ser analfabeto ou possuir idade inferior a 21 anos cria qual tipo de óbice processual à atuação como perito?",
@@ -5543,7 +5543,7 @@ const questoesDB = [
   },
   {
     "id": 347182,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da tipificação do delito de falsa perícia (Art. 342 do CP), o material aponta que a conduta exige 'dolo'. O que isso implica penalmente?",
@@ -5560,7 +5560,7 @@ const questoesDB = [
   },
   {
     "id": 182736,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "As profissões que compõem a perícia de natureza oficial, de acordo com as normas da Lei 12.030/2009 trazidas no texto, abarcam:",
@@ -5577,7 +5577,7 @@ const questoesDB = [
   },
   {
     "id": 628394,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que traz um exemplo claro de 'razão subjetiva' que enseja a suspeição do profissional da perícia:",
@@ -5594,7 +5594,7 @@ const questoesDB = [
   },
   {
     "id": 592817,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito manifesta inimizade capital com o réu submetido à avaliação pericial. A legislação impõe seu distanciamento processual com base na:",
@@ -5611,7 +5611,7 @@ const questoesDB = [
   },
   {
     "id": 718293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Caso o perito figure como 'parte' no próprio processo criminal, essa circunstância barra sua atividade técnica de qual forma?",
@@ -5628,7 +5628,7 @@ const questoesDB = [
   },
   {
     "id": 239485,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do controle da conduta e sanções, a 'Disciplina Judiciária' aplicável ao perito fundamenta-se diretamente em qual dispositivo listado?",
@@ -5645,7 +5645,7 @@ const questoesDB = [
   },
   {
     "id": 849102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Entre as exigências listadas para um indivíduo atuar como perito não oficial (ad hoc), qual elemento formal o distingue expressamente em suas obrigações?",
@@ -5662,7 +5662,7 @@ const questoesDB = [
   },
   {
     "id": 105934,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Logo em sua definição inicial, o texto afirma categoricamente que a prova possui a função primária de:",
@@ -5679,7 +5679,7 @@ const questoesDB = [
   },
   {
     "id": 294851,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O princípio 'in dubio pro reo' mencionado no texto está intimamente ligado à avaliação probatória. No contexto jurídico, esse princípio significa fundamentalmente que:",
@@ -5696,7 +5696,7 @@ const questoesDB = [
   },
   {
     "id": 381927,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Ao analisar a confissão como fonte de informação, o texto afirma que ela é 'divisível'. O que isso implica no contexto de valoração das provas?",
@@ -5713,7 +5713,7 @@ const questoesDB = [
   },
   {
     "id": 472819,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Outra característica da confissão destacada no texto é o fato de ser 'retratável'. Isso demonstra que a confissão:",
@@ -5730,7 +5730,7 @@ const questoesDB = [
   },
   {
     "id": 561928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das seguintes fontes de informação processual é caracterizada explicitamente no texto como sendo eminentemente 'subjetiva' e 'precária'?",
@@ -5747,7 +5747,7 @@ const questoesDB = [
   },
   {
     "id": 659182,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A fonte de informação classificada no material didático como 'material' baseia-se primordialmente na constatação e análise de:",
@@ -5764,7 +5764,7 @@ const questoesDB = [
   },
   {
     "id": 748291,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo as disposições do texto, a determinação de que o exame de corpo de delito é indispensável para crimes que deixam vestígios está embasada em qual dispositivo normativo?",
@@ -5781,7 +5781,7 @@ const questoesDB = [
   },
   {
     "id": 837192,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Para a Criminalística, o 'corpo de delito' não é apenas o cadáver da vítima. Conforme o texto, quais são os elementos constitutivos que formam o conjunto do corpo de delito?",
@@ -5798,7 +5798,7 @@ const questoesDB = [
   },
   {
     "id": 928374,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A expressão latina 'corpus instrumentorum' é citada no resumo estudado. A qual conceito de vital importância pericial ela está diretamente associada no texto?",
@@ -5815,7 +5815,7 @@ const questoesDB = [
   },
   {
     "id": 183726,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Em determinadas situações, o exame de corpo de delito não pode ser realizado de forma direta sobre os vestígios físicos. Qual o dispositivo legal citado no texto que autoriza o exame na modalidade indireta?",
@@ -5832,7 +5832,7 @@ const questoesDB = [
   },
   {
     "id": 274839,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Considere o seguinte cenário: Um crime deixou vestígios, mas devido à ação do tempo eles desapareceram antes da chegada dos peritos. Todavia, existem registros fotográficos da cena e prontuários médicos da vítima. Nessa hipótese, segundo o texto, estaremos diante de um:",
@@ -5849,7 +5849,7 @@ const questoesDB = [
   },
   {
     "id": 365948,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A frase conclusiva do texto faz uma correlação direta entre os elementos deixados na cena do crime e o processo legal. Antes de se transformarem legalmente em 'provas materiais', os elementos físicos sob avaliação recebem no texto estritamente qual denominação?",
@@ -5866,7 +5866,7 @@ const questoesDB = [
   },
   {
     "id": 456059,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Se a análise processual de um determinado item evidencia que a prova é 'Testemunhal, Documental ou Material', estamos diante da classificação das provas no que diz respeito:",
@@ -5883,7 +5883,7 @@ const questoesDB = [
   },
   {
     "id": 547160,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A classificação das provas pode se dar 'quanto ao sujeito', subdividindo-se em Pessoais ou Reais. Considerando a explicação textual de que pegada e sangue são exemplos de provas 'Reais', é correto inferir que enquadrar-se-iam no conceito de provas 'Pessoais':",
@@ -5900,7 +5900,7 @@ const questoesDB = [
   },
   {
     "id": 638271,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as ramificações de classificação apresentadas, o álibi (justificativa de estar em outro local no momento do crime) é invocado pelo autor como um modelo clássico e explícito de:",
@@ -5917,7 +5917,7 @@ const questoesDB = [
   },
   {
     "id": 729382,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o objeto da prova e as variadas classificações legais expostas no material, assinale a alternativa que traz uma afirmação INCORRETA baseada no texto:",
@@ -5934,7 +5934,7 @@ const questoesDB = [
   },
   {
     "id": 810493,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O verbo utilizado no trecho 'confissão não supre', na relação com a exigência do exame de corpo de delito em casos onde se deixam vestígios, carrega juridicamente a ideia de que a confissão:",
@@ -5951,7 +5951,7 @@ const questoesDB = [
   },
   {
     "id": 901504,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Imagine que uma vizinha compareça ao tribunal com a finalidade exclusiva de relatar, sob juramento, o que visualizou na noite em que o delito ocorreu. Tendo em conta apenas o enquadramento do texto estudado, esse depoimento é definido essencialmente como:",
@@ -5968,7 +5968,7 @@ const questoesDB = [
   },
   {
     "id": 112615,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A doutrina apontada no texto diferencia a origem fática do elemento trazido aos autos. Quando se intenciona agrupar as provas com enfoque na sua origem emanação ser humana ou de entes inanimados corporais (físicos), utiliza-se qual parâmetro central de classificação expresso no texto?",
@@ -5985,7 +5985,7 @@ const questoesDB = [
   },
   {
     "id": 203726,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A polícia técnica é acionada e, ao ingressar na cena do crime, os peritos criminais realizam o recolhimento minucioso da faca supostamente utilizada no ferimento letal desferido contra a vítima. Diante da nomenclatura apresentada para compor o escopo do corpo de delito direto, esse instrumento cortante é tecnicamente alocado no conceito de:",
@@ -6002,7 +6002,7 @@ const questoesDB = [
   },
   {
     "id": 845102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a definição expressa no Código de Processo Penal (art. 158-A), como é conceituado o vestígio?",
@@ -6019,7 +6019,7 @@ const questoesDB = [
   },
   {
     "id": 394817,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Para a Criminalística, qual é a principal finalidade dos vestígios encontrados em um local de crime?",
@@ -6036,7 +6036,7 @@ const questoesDB = [
   },
   {
     "id": 512938,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a citação de Borges da Rosa no texto base, o que constitui o 'exame de corpo de delito'?",
@@ -6053,7 +6053,7 @@ const questoesDB = [
   },
   {
     "id": 673821,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Ao se analisar a relação dos vestígios com os fatos, um grande problema enfrentado nos locais de crime é:",
@@ -6070,7 +6070,7 @@ const questoesDB = [
   },
   {
     "id": 928475,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da classificação dos vestígios quanto à sua relação com os fatos, aqueles que se apresentam inicialmente como muito importantes, mas que, ao final, constata-se estarem no local por acaso, são chamados de:",
@@ -6087,7 +6087,7 @@ const questoesDB = [
   },
   {
     "id": 149382,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Um criminoso, após cometer um homicídio, deixa intencionalmente no local do crime um objeto pertencente a um desafeto, com a intenção de incriminá-lo. Na Criminalística, esse vestígio é classificado quanto à sua relação com o fato como:",
@@ -6104,7 +6104,7 @@ const questoesDB = [
   },
   {
     "id": 782019,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Vestígios verdadeiros são caracterizados no texto como aqueles que:",
@@ -6121,7 +6121,7 @@ const questoesDB = [
   },
   {
     "id": 481029,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual deve ser a postura do perito diante de evidências 'plantadas' (vestígios forjados) no local do crime?",
@@ -6138,7 +6138,7 @@ const questoesDB = [
   },
   {
     "id": 302918,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "No início dos trabalhos em um local de crime, é correto afirmar sobre a diferenciação entre vestígios verdadeiros, ilusórios e forjados:",
@@ -6155,7 +6155,7 @@ const questoesDB = [
   },
   {
     "id": 591827,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa incorreta sobre os agentes de vestígios (ou origem dos vestígios):",
@@ -6172,7 +6172,7 @@ const questoesDB = [
   },
   {
     "id": 204958,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das seguintes opções apresenta um exemplo exclusivo de vestígios absolutos cuja origem é biológica/humana, conforme os exemplos do texto?",
@@ -6189,7 +6189,7 @@ const questoesDB = [
   },
   {
     "id": 839201,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito criminal encontra uma cápsula de munição de arma de fogo num local de crime. Segundo a classificação por origem apresentada no texto, esse vestígio é considerado:",
@@ -6206,7 +6206,7 @@ const questoesDB = [
   },
   {
     "id": 758392,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os vestígios relativos, assinale a alternativa que melhor os descreve, de acordo com o texto estudado:",
@@ -6223,7 +6223,7 @@ const questoesDB = [
   },
   {
     "id": 482910,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Considere que uma caneta foi achada em um local onde ocorreu um furto, sem o nome do proprietário gravado. Conforme o texto, qual é a conduta correta do perito em relação a esse material?",
@@ -6240,7 +6240,7 @@ const questoesDB = [
   },
   {
     "id": 920183,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Analise a seguinte situação: Uma ponta de faca é encontrada ao lado de uma gaveta arrombada, sendo a mesma faca utilizada no arrombamento. Este elemento é um exemplo claro de:",
@@ -6257,7 +6257,7 @@ const questoesDB = [
   },
   {
     "id": 381920,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Em uma investigaçãoão de local de morte violenta, uma bituca de cigarro é encontrada a metros do corpo. Os peritos dedicam horas analisando a bituca, até descobrirem, por depoimentos, que um transeunte a jogou ali poucas horas antes do isolamento do local, não tendo nada a ver com o crime. Este é o conceito prático de qual tipo de vestígio, segundo sua relação com o fato?",
@@ -6274,7 +6274,7 @@ const questoesDB = [
   },
   {
     "id": 847592,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o conceito de 'vestígios' na doutrina de Borges da Rosa e demais autores citados, marque a afirmação correta.",
@@ -6291,7 +6291,7 @@ const questoesDB = [
   },
   {
     "id": 564738,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "O que justifica o fato de a perícia não dever seguir 'uma pista só' nos trabalhos iniciais de local de crime?",
@@ -6308,7 +6308,7 @@ const questoesDB = [
   },
   {
     "id": 102938,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a literatura da Criminalística menciona 'evidências plantadas no local', ela está referindo-se diretamente à categoria de:",
@@ -6325,7 +6325,7 @@ const questoesDB = [
   },
   {
     "id": 748596,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 158-A do CPP citado no texto, o que é um vestígio latente?",
@@ -6342,7 +6342,7 @@ const questoesDB = [
   },
   {
     "id": 938475,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito constata a existência de uma grande quantidade de elementos num local de crime e concentra-se inicialmente em interpretar todos como resultado exclusivo da ação do criminoso. Esse tipo de raciocínio prévio é inadequado porque:",
@@ -6359,7 +6359,7 @@ const questoesDB = [
   },
   {
     "id": 283746,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da classificação quanto à origem dos vestígios, a relação de causa e efeito imediata e direta é observada nos vestígios:",
@@ -6376,7 +6376,7 @@ const questoesDB = [
   },
   {
     "id": 657483,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, por que o perito precisa investir tempo na análise de 'pistas falsas' intencionais?",
@@ -6393,7 +6393,7 @@ const questoesDB = [
   },
   {
     "id": 843190,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 239 do Código de Processo Penal citado no texto, como é definido o \"indício\"?",
@@ -6410,7 +6410,7 @@ const questoesDB = [
   },
   {
     "id": 129483,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o método de raciocínio lógico mencionado na definição legal de indício (art. 239 do CPP) utilizado para concluir a existência de outras circunstâncias?",
@@ -6427,7 +6427,7 @@ const questoesDB = [
   },
   {
     "id": 561029,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a interpretação do texto sobre o conceito de indício, é correto afirmar que:",
@@ -6444,7 +6444,7 @@ const questoesDB = [
   },
   {
     "id": 789123,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "O texto ensina que os indícios de um crime podem ser representados de duas formas principais. Quais são elas?",
@@ -6461,7 +6461,7 @@ const questoesDB = [
   },
   {
     "id": 412589,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "No exemplo clássico de uma rixa entre dois vizinhos dado pelo texto, as ameaças públicas e as constantes brigas constituem-se em:",
@@ -6478,7 +6478,7 @@ const questoesDB = [
   },
   {
     "id": 304918,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda no exemplo da rixa entre vizinhos, caso sejam coletados projéteis na vítima com calibre equivalente ao de uma arma apreendida na casa do suspeito, isso representa:",
@@ -6495,7 +6495,7 @@ const questoesDB = [
   },
   {
     "id": 501928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Por que, mesmo provando que os projéteis saíram da arma apreendida na casa do suspeito, a autoria dos disparos ainda não está definitivamente provada?",
@@ -6512,7 +6512,7 @@ const questoesDB = [
   },
   {
     "id": 284716,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "No cenário da arma apreendida e do exame positivo de balística, o texto classifica as provas encontradas em relação à autoria do crime como:",
@@ -6529,7 +6529,7 @@ const questoesDB = [
   },
   {
     "id": 673921,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a citação de Rocha (1999) presente no texto, o valor do indício está em razão de qual aspecto?",
@@ -6546,7 +6546,7 @@ const questoesDB = [
   },
   {
     "id": 459102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo Malatesta, citado por Rocha (1999), o indício deduz o desconhecido do conhecido por meio de qual elemento?",
@@ -6563,7 +6563,7 @@ const questoesDB = [
   },
   {
     "id": 891023,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "O texto traz uma frase do autor Malatesta sobre o peso dos indícios: “os indícios não merecem a apoteose, mas também não merecem...”. Como a frase é completada?",
@@ -6580,7 +6580,7 @@ const questoesDB = [
   },
   {
     "id": 139584,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Logo na introdução do capítulo 7, qual é a situação apontada como corriqueira ao lidar com esses conceitos?",
@@ -6597,7 +6597,7 @@ const questoesDB = [
   },
   {
     "id": 674829,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Na visão de Malatesta (citado por Rocha, 1999), o indício é caracterizado em sua essência como:",
@@ -6614,7 +6614,7 @@ const questoesDB = [
   },
   {
     "id": 395810,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "No caso hipotético narrado, mesmo após confirmar que os disparos saíram da arma encontrada na casa do inimigo vivo, o que ainda é preciso provar para se obter uma prova cabal da ação criminosa?",
@@ -6631,7 +6631,7 @@ const questoesDB = [
   },
   {
     "id": 920184,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Na definição legal de indício estabelecida no art. 239 do CPP, qualifica-se a circunstância que embasará a indução. Essa circunstância deve ser inicialmente:",
@@ -6648,7 +6648,7 @@ const questoesDB = [
   },
   {
     "id": 294857,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Para que uma circunstância conhecida e provada seja considerada um indício nos termos do art. 239 do CPP, além de autorizar a indução, qual outra característica ela deve ter obrigatoriamente?",
@@ -6665,7 +6665,7 @@ const questoesDB = [
   },
   {
     "id": 582910,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "A interpretação do artigo 239 do Código de Processo Penal leva o autor do texto a concluir que o indício é, primordialmente:",
@@ -6682,7 +6682,7 @@ const questoesDB = [
   },
   {
     "id": 849201,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Analise o caso dos dois vizinhos e assinale a alternativa correta sobre as brigas constantes entre eles antes do homicídio.",
@@ -6699,7 +6699,7 @@ const questoesDB = [
   },
   {
     "id": 485729,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "A frase de Malatesta \"os indícios não merecem a apoteose, mas também não merecem a excomunhão maior\" demonstra qual posição sobre o uso dos indícios?",
@@ -6716,7 +6716,7 @@ const questoesDB = [
   },
   {
     "id": 105923,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, nos termos do art. 178 do CPP, os exames periciais são realizados mediante requisição de quem?",
@@ -6733,7 +6733,7 @@ const questoesDB = [
   },
   {
     "id": 395827,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o horário e os dias permitidos para a realização do exame de corpo de delito, conforme o art. 161 do CPP e o texto base, assinale a opção correta.",
@@ -6750,7 +6750,7 @@ const questoesDB = [
   },
   {
     "id": 692837,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à prorrogação do prazo para a elaboração do laudo pericial (art. 160 do CPP), é correto afirmar:",
@@ -6767,7 +6767,7 @@ const questoesDB = [
   },
   {
     "id": 781920,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a regra geral disposta no art. 162 do CPP quanto ao prazo mínimo em que a autópsia deve ser realizada após o óbito?",
@@ -6784,7 +6784,7 @@ const questoesDB = [
   },
   {
     "id": 892019,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual é a exceção aplicável ao prazo mínimo para realização da autópsia?",
@@ -6801,7 +6801,7 @@ const questoesDB = [
   },
   {
     "id": 901827,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No caso de morte violenta, em que a lei permite apenas o 'simples exame externo', quem detém competência para tomar a decisão de não realizar a verificação interna?",
@@ -6818,7 +6818,7 @@ const questoesDB = [
   },
   {
     "id": 128374,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Com base no art. 169 do CPP, relativo à inserção de ilustrações em laudos periciais de locais de crime, assinale a correta.",
@@ -6835,7 +6835,7 @@ const questoesDB = [
   },
   {
     "id": 293847,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para as perícias de laboratório (art. 170 do CPP), qual a previsão legal referente às ilustrações?",
@@ -6852,7 +6852,7 @@ const questoesDB = [
   },
   {
     "id": 384756,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual obrigação recai sobre os peritos, de acordo com o art. 170 do CPP, a respeito do material biológico ou químico analisado?",
@@ -6869,7 +6869,7 @@ const questoesDB = [
   },
   {
     "id": 485769,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, a norma que determina a conservação de parte do material analisado possui um aspecto prático problemático. Qual é ele?",
@@ -6886,7 +6886,7 @@ const questoesDB = [
   },
   {
     "id": 596870,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à fotografia de cadáveres em locais de crime, o art. 164 do CPP impõe que:",
@@ -6903,7 +6903,7 @@ const questoesDB = [
   },
   {
     "id": 697881,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Do ponto de vista da eficácia probatória, qual o principal papel do laudo pericial com ilustrações bem produzidas?",
@@ -6920,7 +6920,7 @@ const questoesDB = [
   },
   {
     "id": 708992,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Como se deve proceder quando a avaliação do valor de coisas deterioradas ou produtos de crime precisar ser feita, mas não houver acesso físico direto a elas?",
@@ -6937,7 +6937,7 @@ const questoesDB = [
   },
   {
     "id": 819003,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Ao realizarem a avaliação do valor de bens de forma indireta (art. 172 do CPP), o que os peritos têm o dever essencial de relatar no laudo?",
@@ -6954,7 +6954,7 @@ const questoesDB = [
   },
   {
     "id": 920114,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em crimes praticados com destruição, rompimento de obstáculo ou escalada (art. 171 do CPP), qual é a principal tarefa técnica atribuída aos peritos na interpretação dos vestígios?",
@@ -6971,7 +6971,7 @@ const questoesDB = [
   },
   {
     "id": 131225,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Nos exames periciais que envolvem situações de incêndio (art. 173 do CPP), qual dos itens a seguir NÃO figura como elemento primário a ser verificado pelos peritos no local?",
@@ -6988,7 +6988,7 @@ const questoesDB = [
   },
   {
     "id": 242336,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a doutrina (Mirabete) citada no material, um evento de incêndio sob investigaçãoão pericial pode caracterizar diversos crimes, tais como:",
@@ -7005,7 +7005,7 @@ const questoesDB = [
   },
   {
     "id": 353447,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para avaliar instrumentos empregados na prática criminosa, o perito focará em aferir duas qualidades principais listadas no texto. São elas:",
@@ -7022,7 +7022,7 @@ const questoesDB = [
   },
   {
     "id": 464558,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em exames para o reconhecimento de escritos (exames grafotécnicos), os padrões de confrontação devem atender a quatro requisitos básicos consolidados na Criminalística. Quais são?",
@@ -7039,7 +7039,7 @@ const questoesDB = [
   },
   {
     "id": 575669,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 174 do CPP, o que a autoridade deve providenciar se os documentos fornecidos para comparação em exame de escritos forem considerados insuficientes?",
@@ -7056,7 +7056,7 @@ const questoesDB = [
   },
   {
     "id": 686770,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Caso a pessoa suspeita esteja ausente, mas se saiba o local exato onde se encontra, como poderá ser realizada a diligência do ditado para padrões grafotécnicos?",
@@ -7073,7 +7073,7 @@ const questoesDB = [
   },
   {
     "id": 797881,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando houver franca divergência entre as conclusões de dois peritos encarregados do exame (art. 180 do CPP), qual o desfecho processual inicial?",
@@ -7090,7 +7090,7 @@ const questoesDB = [
   },
   {
     "id": 808992,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Se o terceiro perito, nomeado para desempatar uma divergência prévia entre dois peritos (art. 180 do CPP), também apresentar uma conclusão divergente de ambos:",
@@ -7107,7 +7107,7 @@ const questoesDB = [
   },
   {
     "id": 919003,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Verificada a existência de omissões, obscuridades ou contradiçções no laudo assinado pelos peritos, a autoridade judiciária competente (art. 181 do CPP):",
@@ -7124,7 +7124,7 @@ const questoesDB = [
   },
   {
     "id": 122114,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Nos locais em que for praticada uma infração penal que deixou vestígios, qual é a obrigação imediata da autoridade policial até que os peritos cheguem para realizar o exame? (art. 169 CPP)",
@@ -7141,7 +7141,7 @@ const questoesDB = [
   },
   {
     "id": 233225,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No caso de terem ocorrido alterações inadvertidas no estado original das coisas de um local de crime antes da realização da perícia:",
@@ -7158,7 +7158,7 @@ const questoesDB = [
   },
   {
     "id": 344336,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as diretrizes do Código de Processo Penal e do texto, acerca de crimes que deixam vestígios probatórios materiais:",
@@ -7175,7 +7175,7 @@ const questoesDB = [
   },
   {
     "id": 455447,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o disposto no CPP, a solicitação de exame pericial por parte da autoridade, nos casos que deixam vestígios probatórios materiais, configura juridicamente um ato:",
@@ -7192,7 +7192,7 @@ const questoesDB = [
   },
   {
     "id": 566558,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Na estrutura da Polícia Federal abordada no documento, quem responde pela função de 'diretor da repartição' a quem as perícias são requisitadas nas Delegacias locais (não nas Superintendências)?",
@@ -7209,7 +7209,7 @@ const questoesDB = [
   },
   {
     "id": 677669,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A requisição da autoridade à direção da repartição, conforme consta do art. 178 do CPP, enseja também o que na fase de processamento penal?",
@@ -7226,7 +7226,7 @@ const questoesDB = [
   },
   {
     "id": 788770,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Além de redigir o que lhe for ditado, que outro tipo de material pode servir de padrão para comparar os escritos num exame grafotécnico, nos termos do art. 174, II?",
@@ -7243,7 +7243,7 @@ const questoesDB = [
   },
   {
     "id": 899881,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual dos seguintes fatos é essencial relatar quando o perito médico decidir que um exame externo num caso de morte violenta será o suficiente para elucidar as dúvidas do corpo de delito e não efetuar a necrópsia interna?",
@@ -7260,7 +7260,7 @@ const questoesDB = [
   },
   {
     "id": 284710,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o art. 160 do Código de Processo Penal, o que os peritos devem obrigatoriamente fazer no laudo pericial?",
@@ -7277,7 +7277,7 @@ const questoesDB = [
   },
   {
     "id": 395821,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação ao prazo para a elaboração do laudo pericial, assinale a alternativa que está em conformidade com o parágrafo único do art. 160 do CPP:",
@@ -7294,7 +7294,7 @@ const questoesDB = [
   },
   {
     "id": 481923,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para a maioria dos doutrinadores, quais são as partes mínimas que devem compor a structure de um laudo pericial?",
@@ -7311,7 +7311,7 @@ const questoesDB = [
   },
   {
     "id": 574839,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das informações abaixo NÃO faz parte do preâmbulo do laudo pericial?",
@@ -7328,7 +7328,7 @@ const questoesDB = [
   },
   {
     "id": 612349,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito da Polícia Federal, como ocorre a padronização do trabalho pericial em relação à elaboração dos laudos?",
@@ -7345,7 +7345,7 @@ const questoesDB = [
   },
   {
     "id": 834567,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as regras de numeração dos laudos periciais na Polícia Federal, é correto afirmar que a numeração:",
@@ -7362,7 +7362,7 @@ const questoesDB = [
   },
   {
     "id": 912834,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do momento de geração da numeração de um laudo, quando o número deve ser reservado no Sistema Nacional de Gestão da Criminalística?",
@@ -7379,7 +7379,7 @@ const questoesDB = [
   },
   {
     "id": 348576,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as premissas estabelecidas no texto doutrinário, o laudo pericial tem seu real valor conferido pelo(a):",
@@ -7396,7 +7396,7 @@ const questoesDB = [
   },
   {
     "id": 457689,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da valoração da prova pericial pelo magistrado, a regra do sistema liberatório adotado pelo art. 182 do Código de Processo Penal determina que:",
@@ -7413,7 +7413,7 @@ const questoesDB = [
   },
   {
     "id": 568790,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a doutrina de Tsunoda (2011) citada no texto, até que momento perdura a responsabilidade do perito criminal no processo penal?",
@@ -7430,7 +7430,7 @@ const questoesDB = [
   },
   {
     "id": 679801,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em conformidade com o Mapa Estratégico 2012/2016 citado, qual constitui a missão fundamental da Perícia Criminal Federal?",
@@ -7447,7 +7447,7 @@ const questoesDB = [
   },
   {
     "id": 780912,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o exame de constatação preliminar da natureza de substância, previsto na Lei de Entorpecentes (Lei nº 11.343/2006), é CORRETO afirmar:",
@@ -7464,7 +7464,7 @@ const questoesDB = [
   },
   {
     "id": 902134,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em face da legislação processual penal brasileira, além do exame de constatação preliminar de substâncias entorpecentes, quantos outros exames periciais de natureza estritamente preliminar encontram previsão legal?",
@@ -7481,7 +7481,7 @@ const questoesDB = [
   },
   {
     "id": 113245,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Que tipo de documento pericial expressa a manifestação técnica sobre determinado assunto - como o esclarecimento sobre a conclusão de um laudo por determinação judicial - ou trata de matéria administrativa que não justifique a confecção de um laudo?",
@@ -7498,7 +7498,7 @@ const questoesDB = [
   },
   {
     "id": 224356,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando um parecer técnico é elaborado por expressa determinação judicial visando esclarecer o conteúdo de um laudo pericial anterior, quem tem a competência preferencial para realizá-lo?",
@@ -7515,7 +7515,7 @@ const questoesDB = [
   },
   {
     "id": 335467,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Nas ações cíveis, como é comumente denominado o relatório de exame confeccionado por profissionais técnicos contratados pelas partes para atuar em litígios (assistentes técnicos), sem nomeação oficial do Estado?",
@@ -7532,7 +7532,7 @@ const questoesDB = [
   },
   {
     "id": 446578,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito rotineiro da Polícia Federal, além do esclarecimento direto sobre laudos exarados, em que outras situações ordinárias ocorre a elaboração de pareceres técnicos?",
@@ -7549,7 +7549,7 @@ const questoesDB = [
   },
   {
     "id": 557689,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O que constitui a 'Informação' dentro da estrutura de produção documental típica de um órgão de perícia criminal?",
@@ -7566,7 +7566,7 @@ const questoesDB = [
   },
   {
     "id": 668790,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No que diz respeito à subscrição (assinatura) do documento intitulado 'Informação' elaborado no curso das atividades periciais, é correto inferir da leitura que:",
@@ -7583,7 +7583,7 @@ const questoesDB = [
   },
   {
     "id": 779801,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a real fundamentação técnica subjacente à exigência procedimental de uma descrição fidedigna e bem completa dos materiais e locais examinados, inserida no laudo?",
@@ -7600,7 +7600,7 @@ const questoesDB = [
   },
   {
     "id": 880912,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A elaboração do laudo pericial exige o cumprimento de preceitos formais e estruturais na redação dos capítulos. A etapa designada de conclusão possui como marca essencial ser:",
@@ -7617,7 +7617,7 @@ const questoesDB = [
   },
   {
     "id": 991023,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Frente aos laudos periciais acostados, o juiz que presidirá a causa está amparado legalmente pelo princípio do livre convencimento motivado. Diante disso, segundo o texto, caso julgue conveniente e oportuno, ele NÃO dispõe da prerrogativa processual de:",
@@ -7634,7 +7634,7 @@ const questoesDB = [
   },
   {
     "id": 102134,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação pericial detém impacto social transcendente, conforme demonstrado no texto. Um reflexo marcante de inovações de cunho tecnológico na área forense reside no fenômeno das reaberturas sucessivas de casos transitados. Em regra, a quais tipos de exames específicos o documento correlaciona precipuamente as recentes absolvições postumas de indivíduos flagrantemente condenados que porventura cumpriam severas penas de cerceamento de liberdade injustamente?",
@@ -7651,7 +7651,7 @@ const questoesDB = [
   },
   {
     "id": 213245,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A introdução técnica que encabeça qualquer estrutura de laudo criminal detém a precípua finalidade de orientar administrativamente a vinculação jurídica do procedimento aos sistemas cartorários. Qual dentre os conjuntos de informações a seguir constitui parte expressamente referendada pelo texto basilar como englobada inexoravelmente pelo elemento nominado de preâmbulo?",
@@ -7668,7 +7668,7 @@ const questoesDB = [
   },
   {
     "id": 324356,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o conjunto estrutural do relatório oficial dos exames (laudo) elencado por parte representativa da doutrina forense, depreende-se da análise do capítulo versante à 'exposição e discussão' que este conglomera precipuamente:",
@@ -7685,7 +7685,7 @@ const questoesDB = [
   },
   {
     "id": 149275,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A revisão conceitual e metodológica internacional das ciências forenses nas últimas décadas foi motivada precipuamente pela necessidade de:",
@@ -7702,7 +7702,7 @@ const questoesDB = [
   },
   {
     "id": 927451,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O relatório 'Strengthening Forensic Science in the United States: A Path Forward', publicado em 2009 pelo National Research Council, teve como principal impacto:",
@@ -7719,7 +7719,7 @@ const questoesDB = [
   },
   {
     "id": 381045,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em 2016, o PCAST publicou um relatório focado na validade científica de determinados métodos na perícia. O principal alvo de escrutínio deste relatório foram os:",
@@ -7736,7 +7736,7 @@ const questoesDB = [
   },
   {
     "id": 510398,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a visão introduzida pelo PCAST (2016) e absorvida pelo debate internacional forense, para que um método comparativo seja validado é necessário:",
@@ -7753,7 +7753,7 @@ const questoesDB = [
   },
   {
     "id": 204857,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Atualmente, o principal conjunto normativo internacional especificamente dedicado às ciências forenses, que busca transformar em linguagem normativa os aprendizados acumulados pela revisão crítica da área, é a série:",
@@ -7770,7 +7770,7 @@ const questoesDB = [
   },
   {
     "id": 769182,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Antes da consolidação de um conjunto normativo forense específico, os laboratórios periciais utilizavam amplamente normas gerais de qualidade, com destaque para a norma voltada à competência de laboratórios de ensaio e calibração conhecida como:",
@@ -7787,7 +7787,7 @@ const questoesDB = [
   },
   {
     "id": 618304,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, por qual razão principal a norma ISO/IEC 17025 era considerada insuficiente para as necessidades específicas das ciências forenses?",
@@ -7804,7 +7804,7 @@ const questoesDB = [
   },
   {
     "id": 894512,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O desenvolvimento da norma internacional dedicada às ciências forenses estruturou-se na ISO por meio de um programa internacional próprio no âmbito de qual comitê técnico?",
@@ -7821,7 +7821,7 @@ const questoesDB = [
   },
   {
     "id": 435928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Na organização do fluxo do processo forense apresentado no texto, o 'Processo Pericial' é composto fundamentalmente por duas grandes fases, que são:",
@@ -7838,7 +7838,7 @@ const questoesDB = [
   },
   {
     "id": 158473,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a estrutura normativa apresentada, a fase de 'Exame Pericial' engloba três etapas sequenciais:",
@@ -7855,7 +7855,7 @@ const questoesDB = [
   },
   {
     "id": 273649,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No que tange aos aspectos de acreditação e poder normativo da série ISO 21043 em relação aos ordenamentos jurídicos nacionais, é correto afirmar:",
@@ -7872,7 +7872,7 @@ const questoesDB = [
   },
   {
     "id": 501826,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual parte da série ISO 21043 é responsável por estabelecer a terminologia padronizada para uso em ciências forenses, servindo de base estrutural para as demais?",
@@ -7889,7 +7889,7 @@ const questoesDB = [
   },
   {
     "id": 364917,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No arcabouço normativo internacional, a norma ISO 21043-1 conceitua como o 'lugar ou objeto que requer, ou é sujeito a, exame forense' o termo:",
@@ -7906,7 +7906,7 @@ const questoesDB = [
   },
   {
     "id": 820354,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Na harmonização da ISO 21043-1 com o arcabouço normativo nacional brasileiro, optou-se por substituir a terminologia 'cena' pela expressão consagrada na nossa doutrina e legislação:",
@@ -7923,7 +7923,7 @@ const questoesDB = [
   },
   {
     "id": 689105,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O 'objeto, substância, material ou marca que é coletada, derivada ou amostrada durante o processo forense' recebe, na ISO 21043-1, o nome de:",
@@ -7940,7 +7940,7 @@ const questoesDB = [
   },
   {
     "id": 715493,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A norma ISO 21043-1 distingue três níveis do raciocínio pericial, correspondentes, respectivamente, a: o que é constatado; a atribuição de significado técnico; e a conclusão formulada. Esses três níveis são denominados:",
@@ -7957,7 +7957,7 @@ const questoesDB = [
   },
   {
     "id": 932586,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A Parte 3 da série ISO 21043 define 'análise' como a etapa que visa detectar, medir ou comparar propriedades. Segundo a norma, a escolha do método analítico depende primeiramente de qual fator?",
@@ -7974,7 +7974,7 @@ const questoesDB = [
   },
   {
     "id": 483921,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A norma ISO 21043-3 reconhece subtipos de análise baseados no propósito do exame. A análise que responde à pergunta 'O que é o item?', buscando atribuir o material à classe mais específica possível, é denominada:",
@@ -7991,7 +7991,7 @@ const questoesDB = [
   },
   {
     "id": 591740,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, determinar que um pó branco é um alcaloide (classe mais ampla) e depois determinar que esse alcaloide é especificamente cocaína exemplificam, respectivamente, o subtipo de análise de:",
@@ -8008,7 +8008,7 @@ const questoesDB = [
   },
   {
     "id": 128509,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O exame que afere a quantidade de arquivos de pornografia infanto-juvenil transferidos de um computador enquadra-se no subtipo analítico que responde à pergunta 'Quanto tem do item?'. Esse subtipo é conhecido como:",
@@ -8025,7 +8025,7 @@ const questoesDB = [
   },
   {
     "id": 846201,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Comparar um projétil de arma de fogo com um padrão para determinar se ambos procedem da mesma arma é um exemplo típico de qual subtipo de análise da ISO 21043-3?",
@@ -8042,7 +8042,7 @@ const questoesDB = [
   },
   {
     "id": 418295,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O uso do julgamento profissional, da lógica e de dados relevantes (incluindo modelos estatísticos) para inferir o significado das observações e formular opiniões caracteriza a etapa tratada na ISO 21043-4, denominada:",
@@ -8059,7 +8059,7 @@ const questoesDB = [
   },
   {
     "id": 759023,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a ISO 21043-4, qual o modo de interpretação no qual o perito NÃO parte de proposições formuladas no início do exame, gerando possíveis explicações a partir do que foi observado (como em um incêndio com causa ainda incerta)?",
@@ -8076,7 +8076,7 @@ const questoesDB = [
   },
   {
     "id": 362918,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em contraponto, o modo de interpretação que exige ao menos duas proposições concorrentes e mutuamente excludentes, formuladas de início (ex.: 'O carro estava acima do limite?' vs 'O carro não estava acima do limite?'), é denominado:",
@@ -8093,7 +8093,7 @@ const questoesDB = [
   },
   {
     "id": 921845,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "As opiniões formuladas na interpretação possuem vários tipos. Qual é a forma em que o perito expressa a proporção entre a probabilidade das observações caso a hipótese 1 seja verdadeira, frente à probabilidade caso a hipótese 2 seja verdadeira?",
@@ -8110,7 +8110,7 @@ const questoesDB = [
   },
   {
     "id": 613290,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as Opiniões Categóricas, que são expressas quando o perito julga ser impossível obter as observações caso qualquer outra hipótese fosse verdadeira, a ISO estabelece que elas:",
@@ -8127,7 +8127,7 @@ const questoesDB = [
   },
   {
     "id": 804576,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a norma, durante a interpretação, deve haver o controle dos vieses cognitivos, os quais são definidos como:",
@@ -8144,7 +8144,7 @@ const questoesDB = [
   },
   {
     "id": 178934,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A Parte 5 da série ISO 21043 regula qual aspecto do processo forense?",
@@ -8161,7 +8161,7 @@ const questoesDB = [
   },
   {
     "id": 542198,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Embora a norma internacional (ISO 21043-5) estabeleça categorias distintas para laudos – preliminar, final, complementar, corrigido e obsoletado –, a Criminalística Federal brasileira NÃO adotou essa taxonomia completa, prevendo essencialmente apenas:",
@@ -8178,7 +8178,7 @@ const questoesDB = [
   },
   {
     "id": 731052,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Além da ISO, existem outros referenciais. Qual organização norte-americana foi criada pelo NIST em 2014, substituindo os antigos SWGs, com o objetivo de reunir comitês técnicos para publicar 'standards' e 'guidelines' normativos na área forense?",
@@ -8195,7 +8195,7 @@ const questoesDB = [
   },
   {
     "id": 269814,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A ENFSI (rede europeia) possui forte relevância internacional por produzir 'Best Practice Manuals' e promover o modelo de 'evaluative reporting'. Segundo o texto, esse modelo expressa o valor informativo do vestígio em relação a hipóteses concorrentes através de:",
@@ -8212,7 +8212,7 @@ const questoesDB = [
   },
   {
     "id": 912538,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No campo dos referenciais institucionais, a ILAC (International Laboratory Accreditation Cooperation) possui importância na regulamentação forense global por ser o organismo internacional que:",
@@ -8229,7 +8229,7 @@ const questoesDB = [
   },
   {
     "id": 493067,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O documento normativo ISO/IEC 27037, referenciado expressamente pela ISO 21043-3, estabelece diretrizes internacionais e é focado no tratamento de que tipo de material?",
@@ -8246,7 +8246,7 @@ const questoesDB = [
   },
   {
     "id": 358412,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito conceitual e filosófico recente da ciência forense, qual documento (embora não normativo) firmou-se como marco relevante por enunciar os princípios fundamentais, como a compreensão do vestígio como objeto científico autônomo e a independência em relação ao sistema de justiça?",
@@ -8263,7 +8263,7 @@ const questoesDB = [
   },
   {
     "id": 492013,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a Lei nº 13.964/2019, o que se considera cadeia de custódia?",
@@ -8280,7 +8280,7 @@ const questoesDB = [
   },
   {
     "id": 284719,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o objetivo principal da implementação e consolidação da cadeia de custódia no âmbito da Criminalística por parte do gestor?",
@@ -8297,7 +8297,7 @@ const questoesDB = [
   },
   {
     "id": 753920,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a IN DG/PF nº 297/2024, a cadeia de custódia no âmbito da Polícia Federal é definida como:",
@@ -8314,7 +8314,7 @@ const questoesDB = [
   },
   {
     "id": 921034,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a IN DG/PF nº 297/2024, como o histórico da cadeia de custódia é obtido para fins de inquérito e de controle interno, respectivamente?",
@@ -8331,7 +8331,7 @@ const questoesDB = [
   },
   {
     "id": 103948,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Manual de Boas Práticas de Gestão da Criminalística (MBP), qual é o principal sistema por meio do qual a cadeia de custódia é gerenciada nas unidades da Criminalística?",
@@ -8348,7 +8348,7 @@ const questoesDB = [
   },
   {
     "id": 482105,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Manual de Boas Práticas (MBP), o que deve acompanhar todo documento ou material recebido para exame forense?",
@@ -8365,7 +8365,7 @@ const questoesDB = [
   },
   {
     "id": 619284,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "A cadeia de custódia pode ser dividida em dois momentos que se complementam. Quais são eles?",
@@ -8382,7 +8382,7 @@ const questoesDB = [
   },
   {
     "id": 395018,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o principal benefício técnico e legal proporcionado pela cadeia de custódia externa?",
@@ -8399,7 +8399,7 @@ const questoesDB = [
   },
   {
     "id": 692034,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "A cadeia de custódia interna abrange qual período específico na linha do tempo do vestígio?",
@@ -8416,7 +8416,7 @@ const questoesDB = [
   },
   {
     "id": 113940,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O texto menciona que, de maneira geral, a cadeia de custódia externa se inicia formalmente com qual ato específico em relação aos vestígios?",
@@ -8433,7 +8433,7 @@ const questoesDB = [
   },
   {
     "id": 782012,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Após a preservação e o reconhecimento do vestígio, os procedimentos de cadeia de custódia externa seguem com a:",
@@ -8450,7 +8450,7 @@ const questoesDB = [
   },
   {
     "id": 204591,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o acondicionamento dos vestígios durante a cadeia externa, a que se deve atentar especialmente?",
@@ -8467,7 +8467,7 @@ const questoesDB = [
   },
   {
     "id": 993102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Como deve ser a documentação referente à coleta do vestígio, segundo os preceitos estudados?",
@@ -8484,7 +8484,7 @@ const questoesDB = [
   },
   {
     "id": 348201,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o documento oficialmente adotado pela Polícia Federal (a partir da IN DG/PF nº 297/2024) para formalizar as informações relativas às ações de fixação, coleta, acondicionamento e transporte do vestígio?",
@@ -8501,7 +8501,7 @@ const questoesDB = [
   },
   {
     "id": 502849,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 158-B, inciso V, da Lei nº 13.964/2019, como os vestígios coletados devem ser acondicionados?",
@@ -8518,7 +8518,7 @@ const questoesDB = [
   },
   {
     "id": 785430,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O que deve ocorrer no exato momento da chegada do vestígio à unidade de criminalística (recepção na secretaria)?",
@@ -8535,7 +8535,7 @@ const questoesDB = [
   },
   {
     "id": 204918,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O que a secretaria da unidade de criminalística deve fazer se detectar qualquer inconsistência na primeira conferência do vestígio?",
@@ -8552,7 +8552,7 @@ const questoesDB = [
   },
   {
     "id": 671029,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Após o registro no Siscrim pela secretaria e a designação pelo gestor, quem realiza a segunda conferência na embalagem contendo o vestígio?",
@@ -8569,7 +8569,7 @@ const questoesDB = [
   },
   {
     "id": 558291,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a Instrução Normativa nº 163/2020 – DG/PF, qual mecanismo deve ser anexado ao vestígio após seu ingresso na unidade para registrar o rompimento de lacres?",
@@ -8586,7 +8586,7 @@ const questoesDB = [
   },
   {
     "id": 920193,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a Mensagem Oficial-Circular da DITEC/PF (2020), o que o perito criminal deve fazer com os materiais examinados e o lacre inicial ao fim dos exames?",
@@ -8603,7 +8603,7 @@ const questoesDB = [
   },
   {
     "id": 418293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Para garantir a preservação da cadeia de custódia, como devem ser as instalações dos locais de custódia da criminalística?",
@@ -8620,7 +8620,7 @@ const questoesDB = [
   },
   {
     "id": 662918,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O texto elenca várias vantagens de se ter ambientes próprios instalados para contemplar uma cadeia de custódia robusta. Indique qual das alternativas NÃO é uma vantagem mencionada no texto.",
@@ -8637,7 +8637,7 @@ const questoesDB = [
   },
   {
     "id": 551928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Nos termos do Art. 158-D da Lei nº 13.964/2019, o recipiente para acondicionamento do vestígio será determinado:",
@@ -8654,7 +8654,7 @@ const questoesDB = [
   },
   {
     "id": 319203,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o §1º do Art. 158-D da referida Lei, como os recipientes deverão ser selados?",
@@ -8671,7 +8671,7 @@ const questoesDB = [
   },
   {
     "id": 883921,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a Proposta de alteração da IS nº 07/2011 da DITEC/PF, o que a secretaria deve fazer se um vestígio (não documental) chegar NÃO acondicionado em recipiente selado e individualizado?",
@@ -8688,7 +8688,7 @@ const questoesDB = [
   },
   {
     "id": 992019,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda com base na IS nº 07/2011, que tipo de material encaminhado à perícia, via de regra, NÃO necessita ser acondicionado em recipiente lacrado e com numeração individualizada?",
@@ -8705,7 +8705,7 @@ const questoesDB = [
   },
   {
     "id": 182939,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Com a inserção da figura do assistente técnico no Código de Processo Penal, a parte ré passou a poder:",
@@ -8722,7 +8722,7 @@ const questoesDB = [
   },
   {
     "id": 482012,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Entre as atribuições permitidas ao assistente técnico listadas no texto, qual delas se relaciona DIRETAMENTE com a cadeia de custódia?",
@@ -8739,7 +8739,7 @@ const questoesDB = [
   },
   {
     "id": 857391,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Decreto nº 11.348/2023, qual é o órgão central da perícia responsável por dirigir, planejar, coordenar, controlar, avaliar e executar as atividades de perícia criminal?",
@@ -8756,7 +8756,7 @@ const questoesDB = [
   },
   {
     "id": 142859,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a divisão responsável por assessorar a DITEC/PF nas atividades referentes à gestão da perícia, desde a elaboração de normativos técnicos até a coordenação do desenvolvimento do SISCRIM?",
@@ -8773,7 +8773,7 @@ const questoesDB = [
   },
   {
     "id": 349102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM), assinale a alternativa CORRETA.",
@@ -8790,7 +8790,7 @@ const questoesDB = [
   },
   {
     "id": 918274,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da Polícia Federal, qual a principal relação entre o sistema ePol e o SISCRIM?",
@@ -8807,7 +8807,7 @@ const questoesDB = [
   },
   {
     "id": 273645,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo as Portarias DITEC/PF nº 1377/2024 e nº 1512/2024, as áreas da Criminalística têm como finalidade principal:",
@@ -8824,7 +8824,7 @@ const questoesDB = [
   },
   {
     "id": 839210,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Entre as Áreas da Criminalística listadas no material, qual das alternativas abaixo apresenta SOMENTE áreas corretas segundo o texto?",
@@ -8841,7 +8841,7 @@ const questoesDB = [
   },
   {
     "id": 105832,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "No jargão do SISCRIM, o que caracteriza a cessação da existência de uma 'pendência' após o fluxo regular de atendimento de uma requisição de exame?",
@@ -8858,7 +8858,7 @@ const questoesDB = [
   },
   {
     "id": 739214,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a principal diferença entre os conceitos de 'Estoque de pendências' e 'Demanda de exames periciais' adotados no SNC?",
@@ -8875,7 +8875,7 @@ const questoesDB = [
   },
   {
     "id": 591023,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Quantas situações possíveis existem para um expediente dentro do SISCRIM, e como elas são atribuídas?",
@@ -8892,7 +8892,7 @@ const questoesDB = [
   },
   {
     "id": 903128,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as situações possíveis de um expediente no SISCRIM, qual das alternativas abaixo apresenta UMA das situações que podem ser alimentadas MANUALMENTE pelo usuário?",
@@ -8909,7 +8909,7 @@ const questoesDB = [
   },
   {
     "id": 314857,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual dos cenários abaixo corresponde, de acordo com a Instrução de Serviço nº 08/2011 - DITEC/PF, a uma requisição com indicador de criticidade 'Alta'?",
@@ -8926,7 +8926,7 @@ const questoesDB = [
   },
   {
     "id": 784210,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a situação que justifica classificar a criticidade de uma requisição de exame como 'Média'.",
@@ -8943,7 +8943,7 @@ const questoesDB = [
   },
   {
     "id": 169384,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Se uma requisição de exame não envolve réu preso, não tem materiais com risco de degradação e nem possui demanda urgente de tempo (como buscas e prisões iminentes), qual deve ser a sua criticidade no SISCRIM?",
@@ -8960,7 +8960,7 @@ const questoesDB = [
   },
   {
     "id": 528391,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O que representa o 'indicador de complexidade' de uma requisição de exame no SISCRIM?",
@@ -8977,7 +8977,7 @@ const questoesDB = [
   },
   {
     "id": 839401,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O esforço unitário de 1 ponto da 'pontuação de complexidade' do SISCRIM equivale ao esforço despendido em qual tipo de exame padrão?",
@@ -8994,7 +8994,7 @@ const questoesDB = [
   },
   {
     "id": 618302,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O que ocorre no SISCRIM quando os limites de conformidade para os dados de Objetos de Exame (OE) são excedidos, e o usuário justifica o uso de valores acima dos limites?",
@@ -9011,7 +9011,7 @@ const questoesDB = [
   },
   {
     "id": 783109,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Como são tratados os casos não convencionais para os quais não existem tipos de OE específicos já previstos no SISCRIM?",
@@ -9028,7 +9028,7 @@ const questoesDB = [
   },
   {
     "id": 491028,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a relação conceitual entre 'material' e 'vestígio' de acordo com os parâmetros do SISCRIM?",
@@ -9045,7 +9045,7 @@ const questoesDB = [
   },
   {
     "id": 920145,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O texto fornece exemplos de vestígios que não são registrados no SISCRIM pois não ficam na custódia da perícia. Assinale a alternativa que apresenta APENAS exemplos corretos.",
@@ -9062,7 +9062,7 @@ const questoesDB = [
   },
   {
     "id": 184930,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Ao ser cadastrado no SISCRIM, o 'material' deve ser classificado de acordo com sua finalidade. Dentre as opções a seguir, assinale aquela que representa uma finalidade VÁLIDA para classificação de material no sistema.",
@@ -9079,7 +9079,7 @@ const questoesDB = [
   },
   {
     "id": 209183,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a finalidade do Mecanismo de Equalização de Demandas (MED)?",
@@ -9096,7 +9096,7 @@ const questoesDB = [
   },
   {
     "id": 305928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o limite máximo tolerado pela DITEC para a Meta 1, referente à quantidade de pendências acima do prazo máximo de atendimento em uma Unidade de Criminalística (UC)?",
@@ -9113,7 +9113,7 @@ const questoesDB = [
   },
   {
     "id": 892014,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a meta de produtividade média (Meta 2) estipulada para as UCs pela DITEC?",
@@ -9130,7 +9130,7 @@ const questoesDB = [
   },
   {
     "id": 653920,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O 'fluxo de saneamento' aplica-se a quais tipos de expedientes?",
@@ -9147,7 +9147,7 @@ const questoesDB = [
   },
   {
     "id": 901283,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O que uma unidade deve fazer após ser notificada pelo INC no fluxo de saneamento por possuir pendências vencidas?",
@@ -9164,7 +9164,7 @@ const questoesDB = [
   },
   {
     "id": 238491,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Atualmente, os 'prazos críticos' para apuração de responsabilidades em corregedoria são definidos como:",
@@ -9181,7 +9181,7 @@ const questoesDB = [
   },
   {
     "id": 572019,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Em que situação uma requisição de exame pode ser submetida a 'acompanhamento especial'?",
@@ -9198,7 +9198,7 @@ const questoesDB = [
   },
   {
     "id": 820194,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Como está dividida a composição do ICRIM com relação às três metas da Criminalística?",
@@ -9215,7 +9215,7 @@ const questoesDB = [
   },
   {
     "id": 619283,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que indica CORRETAMENTE os atos normativos internos (Portarias) que definem e alteram a lista de áreas da Criminalística em vigor, segundo o texto apresentado.",
@@ -9232,7 +9232,7 @@ const questoesDB = [
   },
   {
     "id": "100101",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, o que é a Biblioteca Digital da Criminalística (BDCRIM)?",
@@ -9249,7 +9249,7 @@ const questoesDB = [
   },
   {
     "id": "100102",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do acesso à BDCRIM, assinale a alternativa correta de acordo com o texto:",
@@ -9266,7 +9266,7 @@ const questoesDB = [
   },
   {
     "id": "100103",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A quem está atribuída a atualização e manutenção da BDCRIM, conforme a Portaria DITEC/PF nº 1368/2024?",
@@ -9283,7 +9283,7 @@ const questoesDB = [
   },
   {
     "id": "100104",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme consta na ABNT NBR ISO 9001:2015 referida no texto, a adoção de um sistema de gestão da qualidade (SGQ) é considerada:",
@@ -9300,7 +9300,7 @@ const questoesDB = [
   },
   {
     "id": "100105",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as opções abaixo, assinale aquela que NÃO corresponde a um dos potenciais benefícios da implementação do SGQ baseada na norma mencionada no texto:",
@@ -9317,7 +9317,7 @@ const questoesDB = [
   },
   {
     "id": "100106",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os prazos de elaboração do Laudo na perícia criminal da PF, quando eles se iniciam?",
@@ -9334,7 +9334,7 @@ const questoesDB = [
   },
   {
     "id": "100107",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o prazo máximo estabelecido pelo art. 160 do Código de Processo Penal para a elaboração do laudo pericial?",
@@ -9351,7 +9351,7 @@ const questoesDB = [
   },
   {
     "id": "100108",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da prorrogação do laudo pericial criminal federal, segundo a Instrução Normativa DG/PF nº 255/2023 citada no texto, o prazo legal:",
@@ -9368,7 +9368,7 @@ const questoesDB = [
   },
   {
     "id": "100109",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo os dados extraídos do SISCRIM, qual a realidade dos tempos médios de atendimento (excluídos os Laudos Preliminares de Constatação)?",
@@ -9385,7 +9385,7 @@ const questoesDB = [
   },
   {
     "id": "100110",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Diante do atual cenário de volume e complexidade de requisições, por que o sistema ePol foi construído com regras específicas sobre prazos?",
@@ -9402,7 +9402,7 @@ const questoesDB = [
   },
   {
     "id": "100111",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Como o texto recomenda que gestores e peritos designados atuem quanto às requisições com prazo vencido?",
@@ -9419,7 +9419,7 @@ const questoesDB = [
   },
   {
     "id": "100112",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a finalidade do Guia Eletrônico da ENCRIM, conforme o texto?",
@@ -9436,7 +9436,7 @@ const questoesDB = [
   },
   {
     "id": "100113",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a relação entre o guia ENCRIM e as publicações oficiais, é correto afirmar:",
@@ -9453,7 +9453,7 @@ const questoesDB = [
   },
   {
     "id": "100114",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as definições apresentadas no texto, qual normativo é expedido EXCLUSIVAMENTE pelo Diretor-Geral para a execução de leis e decretos?",
@@ -9470,7 +9470,7 @@ const questoesDB = [
   },
   {
     "id": "100115",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A Instrução de Serviço (IS) era um ato expedido por diretores, coordenadores e outros gestores. Segundo o texto, desde que ano não são mais editadas novas IS na Polícia Federal?",
@@ -9487,7 +9487,7 @@ const questoesDB = [
   },
   {
     "id": "100116",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da Instrução Técnica (IT), é correto dizer que:",
@@ -9504,7 +9504,7 @@ const questoesDB = [
   },
   {
     "id": "100117",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O normativo caracterizado no texto como ato de caráter enunciativo, expedido exclusivamente pelo Diretor Técnico-Científico para disciplinar matérias correlatas à perícia criminal, é a:",
@@ -9521,7 +9521,7 @@ const questoesDB = [
   },
   {
     "id": "100118",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito específico da criminalística, conforme o texto, quais autoridades expedem Portarias?",
@@ -9538,7 +9538,7 @@ const questoesDB = [
   },
   {
     "id": "100119",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual foi o impacto do Decreto 12.002/2024 mencionado no texto sobre os tipos de normas editáveis hoje?",
@@ -9555,7 +9555,7 @@ const questoesDB = [
   },
   {
     "id": "100120",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o Decreto 12.002/2024 e as antigas normas (IT, OT e IS), o que o texto afirma?",
@@ -9572,7 +9572,7 @@ const questoesDB = [
   },
   {
     "id": "100121",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O que regulamenta a Instrução Normativa DG/PF Nº 255/2023?",
@@ -9589,7 +9589,7 @@ const questoesDB = [
   },
   {
     "id": "100122",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o art. 55 da IN DG/PF Nº 255/2023, a quem as requisições de exame pericial devem ser dirigidas?",
@@ -9606,7 +9606,7 @@ const questoesDB = [
   },
   {
     "id": "100123",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o art. 55 da IN DG/PF Nº 255/2023, as requisições de exame pericial devem obrigatoriamente ser acompanhadas de:",
@@ -9623,7 +9623,7 @@ const questoesDB = [
   },
   {
     "id": "100124",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em casos de urgência ou flagrantes, se houver impossibilidade técnica de atender prontamente a requisição, qual deve ser a providência do perito criminal federal?",
@@ -9640,7 +9640,7 @@ const questoesDB = [
   },
   {
     "id": "100125",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Na prática diária abordada no texto, ao finalizar o laudo pericial, como ocorre sua inserção no sistema ePol?",
@@ -9657,7 +9657,7 @@ const questoesDB = [
   },
   {
     "id": "100126",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distribuição de requisições periciais segundo a IS nº 7/2011, é correto afirmar:",
@@ -9674,7 +9674,7 @@ const questoesDB = [
   },
   {
     "id": "100127",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda de acordo com a IS nº 7/2011, qual é a situação dos peritos responsáveis pelo Grupo de Funcionários com relação às requisições na carga do grupo?",
@@ -9691,7 +9691,7 @@ const questoesDB = [
   },
   {
     "id": "100128",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual critério NÃO está previsto na IS nº 7/2011 para a metodologia de distribuição da carga de trabalho aos peritos de forma equânime?",
@@ -9708,7 +9708,7 @@ const questoesDB = [
   },
   {
     "id": "100129",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Como a IS nº 7/2011 orienta o gestor na designação do perito quando a requisição de exame for multidisciplinar?",
@@ -9725,7 +9725,7 @@ const questoesDB = [
   },
   {
     "id": "100130",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em casos de exames complexos, não repetíveis, ou que exijam mais de uma área de formação acadêmica específica, o que a IS nº 7/2011 permite ao gestor fazer?",
@@ -9742,7 +9742,7 @@ const questoesDB = [
   },
   {
     "id": "100131",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a IS nº 7/2011, o que ocorre com usuários do Siscrim que mantiverem requisição de exame sem cadastramento de objetos ou sem análise de viabilidade por mais de 10 dias?",
@@ -9759,7 +9759,7 @@ const questoesDB = [
   },
   {
     "id": "100132",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a requisição envolver quantidade significativa de material, que medida de gestão a IS nº 7/2011 autoriza para maior eficiência do atendimento?",
@@ -9776,7 +9776,7 @@ const questoesDB = [
   },
   {
     "id": "100133",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A análise de viabilidade das requisições (a ser feita em até 10 dias) deve contemplar os seguintes passos técnicos, segundo a IS nº 7/2011:",
@@ -9793,7 +9793,7 @@ const questoesDB = [
   },
   {
     "id": "100134",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Se, durante a análise de viabilidade, o perito encontrar inconformidades relativas aos materiais ou aos quesitos, qual o procedimento correto?",
@@ -9810,7 +9810,7 @@ const questoesDB = [
   },
   {
     "id": "100135",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Caso o requisitante seja comunicado de inconformidades para adequar a requisição pericial e não apresente resposta, qual é o prazo estabelecido pela IS nº 7/2011 para que o perito encaminhe a requisição e o material ao gestor para providências?",
@@ -9827,7 +9827,7 @@ const questoesDB = [
   },
   {
     "id": "100136",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 22 da IS nº 07/2011, caso o perito identifique a necessidade de obtenção de meios e estes não sejam disponibilizados ou sua previsão comunicada em 30 dias, o perito deve:",
@@ -9844,7 +9844,7 @@ const questoesDB = [
   },
   {
     "id": "100137",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a IS nº 8/2011, que trata prioritariamente da criticidade da requisição de exame, como a fila de atendimento deve ser gerida pelo chefe da unidade?",
@@ -9861,7 +9861,7 @@ const questoesDB = [
   },
   {
     "id": "100138",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No aspecto da segurança abordado no texto, as unidades que possuem laboratório de química devem observar qual restrição de acesso?",
@@ -9878,7 +9878,7 @@ const questoesDB = [
   },
   {
     "id": "100139",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os equipamentos de proteção individual (EPI) apropriados às tarefas na perícia, o texto estabelece que o seu USO efetivo é:",
@@ -9895,7 +9895,7 @@ const questoesDB = [
   },
   {
     "id": "100140",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em exames de local de crime, qual é a ordem de prioridades apontada no texto frente à necessidade de preservar vestígios?",
@@ -9912,7 +9912,7 @@ const questoesDB = [
   },
   {
     "id": "148293",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto do SISCRIM, o que significa o termo 'Procedimento'?",
@@ -9929,7 +9929,7 @@ const questoesDB = [
   },
   {
     "id": "291038",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das opções abaixo exemplifica adequadamente o que é uma 'Unidade Organizacional' no SISCRIM?",
@@ -9946,7 +9946,7 @@ const questoesDB = [
   },
   {
     "id": "310495",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O conceito de 'Órgão Externo' utilizado no sistema refere-se a:",
@@ -9963,7 +9963,7 @@ const questoesDB = [
   },
   {
     "id": "402918",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os grupos denominados GPINF, GPCONT e GPLAB são exemplos de:",
@@ -9980,7 +9980,7 @@ const questoesDB = [
   },
   {
     "id": "519203",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do termo 'Carga' no SISCRIM, é correto afirmar que:",
@@ -9997,7 +9997,7 @@ const questoesDB = [
   },
   {
     "id": "629104",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "A presença de uma 'Carga' destinada a uma unidade garante que o documento ou material foi recebido fisicamente?",
@@ -10014,7 +10014,7 @@ const questoesDB = [
   },
   {
     "id": "781029",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "No jargão do SISCRIM, como se denomina o ato de encaminhar um documento e/ou material, alterando a sua carga?",
@@ -10031,7 +10031,7 @@ const questoesDB = [
   },
   {
     "id": "810293",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a diferença fundamental entre Lotação e Localização no SISCRIM?",
@@ -10048,7 +10048,7 @@ const questoesDB = [
   },
   {
     "id": "930218",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os comandos do ePol encaminhados a servidores ou unidades chegam ao SISCRIM sob qual nomenclatura?",
@@ -10065,7 +10065,7 @@ const questoesDB = [
   },
   {
     "id": "104829",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "No sistema ePol, o conceito de 'bens' corresponde a qual conceito no SISCRIM?",
@@ -10082,7 +10082,7 @@ const questoesDB = [
   },
   {
     "id": "219384",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Quais são os dois grupos principais de funcionalidades do SISCRIM, conforme citado no manual?",
@@ -10099,7 +10099,7 @@ const questoesDB = [
   },
   {
     "id": "382910",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro do módulo de Documentos, quais são os documentos considerados mais importantes porque demandam elaboração de exames periciais e laudos?",
@@ -10116,7 +10116,7 @@ const questoesDB = [
   },
   {
     "id": "492019",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as classificações de 'finalidade' do documento externo no SISCRIM, encontram-se:",
@@ -10133,7 +10133,7 @@ const questoesDB = [
   },
   {
     "id": "581920",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual atributo é utilizado como um indicador de priorização de atendimento de uma solicitação de exame?",
@@ -10150,7 +10150,7 @@ const questoesDB = [
   },
   {
     "id": "672930",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O ato administrativo pelo qual o gestor distribui uma solicitação de exame ao perito, atribuindo-lhe a responsabilidade, recebe o nome de:",
@@ -10167,7 +10167,7 @@ const questoesDB = [
   },
   {
     "id": "719283",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o módulo de Materiais no SISCRIM, é correto afirmar que os materiais:",
@@ -10184,7 +10184,7 @@ const questoesDB = [
   },
   {
     "id": "802931",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os materiais no SISCRIM podem ter diferentes classificações de finalidade. Uma dessas finalidades exige que o sistema armazene informações detalhadas (número de itens, lacre, etc.) para o devido rastreamento da cadeia de custódia. Qual é essa finalidade?",
@@ -10201,7 +10201,7 @@ const questoesDB = [
   },
   {
     "id": "920193",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à responsabilidade pelos documentos e materiais cadastrados no sistema, o SISCRIM estabelece que eles ficam:",
@@ -10218,7 +10218,7 @@ const questoesDB = [
   },
   {
     "id": "118293",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Uma operação de movimentação (transferência de carga) só é considerada concluída quando ocorre:",
@@ -10235,7 +10235,7 @@ const questoesDB = [
   },
   {
     "id": "281920",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual funcionalidade do SISCRIM permite visualizar a carga atual de cada item e a hierarquia de relacionamento entre documentos e materiais?",
@@ -10252,7 +10252,7 @@ const questoesDB = [
   },
   {
     "id": "392018",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Como é composta a identificação única atribuída a um documento no processo de emissão pelo SISCRIM?",
@@ -10269,7 +10269,7 @@ const questoesDB = [
   },
   {
     "id": "401928",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os documentos recebidos pela perícia (não emitidos por ela) e cadastrados no SISCRIM recebem uma identificação própria. Essa identificação é composta por:",
@@ -10286,7 +10286,7 @@ const questoesDB = [
   },
   {
     "id": "592810",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual recurso oferece a forma mais fácil de encontrar inequivocamente um documento ou material usando a barra de pesquisa rápida do SISCRIM?",
@@ -10303,7 +10303,7 @@ const questoesDB = [
   },
   {
     "id": "610293",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Para qual propósito existe a funcionalidade relacionada ao 'Acerto Eletrônico' e às pesquisas textuais no SISCRIM?",
@@ -10320,7 +10320,7 @@ const questoesDB = [
   },
   {
     "id": "782910",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O fluxo típico de tramitação de uma requisição começa com:",
@@ -10337,7 +10337,7 @@ const questoesDB = [
   },
   {
     "id": "893021",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Durante o cadastramento inicial dos materiais, é correto afirmar que:",
@@ -10354,7 +10354,7 @@ const questoesDB = [
   },
   {
     "id": "902183",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Se for necessário separar os componentes de um mesmo vestígio para viabilizar os exames, o que o sistema permite realizar?",
@@ -10371,7 +10371,7 @@ const questoesDB = [
   },
   {
     "id": "193820",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Em quais situações é recomendada a criação de CÓPIAS da requisição no SISCRIM?",
@@ -10388,7 +10388,7 @@ const questoesDB = [
   },
   {
     "id": "203948",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "A etapa executada pelo perito, após receber a requisição e materiais, que tem o fim de checar se o exame pode ser realizado tecnicamente e se a documentação está adequada, denomina-se:",
@@ -10405,7 +10405,7 @@ const questoesDB = [
   },
   {
     "id": "319204",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Ao confirmar a viabilidade de atendimento de uma solicitação (via AV), que outra ação deve ser feita em paralelo no sistema?",
@@ -10422,7 +10422,7 @@ const questoesDB = [
   },
   {
     "id": "492810",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à elaboração do laudo no SISCRIM, como o sistema lida com o conteúdo dos exames?",
@@ -10439,7 +10439,7 @@ const questoesDB = [
   },
   {
     "id": "581029",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Quando o laudo pericial é de fato considerado ENTREGUE, sendo esta data a base para métricas de gestão e alcance de metas?",
@@ -10456,7 +10456,7 @@ const questoesDB = [
   },
   {
     "id": "672910",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a recomendação de boa prática de gestão e controle em relação ao prazo entre a numeração do laudo e a sua efetiva entrega?",
@@ -10473,7 +10473,7 @@ const questoesDB = [
   },
   {
     "id": "781928",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O momento que marca o encerramento do fluxo típico (entrada, atendimento e saída) no SISCRIM ocorre quando a requisição é:",
@@ -10490,7 +10490,7 @@ const questoesDB = [
   },
   {
     "id": "892018",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a assinatura dos laudos emitidos pelo SISCRIM, qual é a diretriz normativa apresentada no texto?",
@@ -10507,7 +10507,7 @@ const questoesDB = [
   },
   {
     "id": 349182,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o título do Capítulo 15 abordado no documento da Academia Nacional de Polícia, assinale a alternativa correta:",
@@ -10524,7 +10524,7 @@ const questoesDB = [
   },
   {
     "id": 817392,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o documento em análise, qual Portaria classifica o material como 'DOCUMENTO DE ACESSO RESTRITO'?",
@@ -10541,7 +10541,7 @@ const questoesDB = [
   },
   {
     "id": 562910,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "O Capítulo 15 do manual é dividido em duas seções principais identificadas por numeração decimal. Quais são elas?",
@@ -10558,7 +10558,7 @@ const questoesDB = [
   },
   {
     "id": 103847,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a seção 15.1 'Acesso ao SISCRIM', quais são as formas de login listadas?",
@@ -10575,7 +10575,7 @@ const questoesDB = [
   },
   {
     "id": 492816,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro do tópico '3 - TELA INICIAL E WIDGETS' do Capítulo 15, qual das opções abaixo NÃO é listada como um dos widgets ou subitens presentes?",
@@ -10592,7 +10592,7 @@ const questoesDB = [
   },
   {
     "id": 738491,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Na estrutura da 'TELA INICIAL E WIDGETS' no SISCRIM, o subitem 3.4 refere-se a:",
@@ -10609,7 +10609,7 @@ const questoesDB = [
   },
   {
     "id": 918374,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "O tópico '4 - RECURSOS HUMANOS' apresenta subitens relacionados à gestão de pessoal. Qual dos itens abaixo faz parte dessa seção?",
@@ -10626,7 +10626,7 @@ const questoesDB = [
   },
   {
     "id": 657283,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda sobre o tópico '4 - RECURSOS HUMANOS', constam organogramas de duas estruturas. Quais são elas?",
@@ -10643,7 +10643,7 @@ const questoesDB = [
   },
   {
     "id": 829104,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Na seção 15.2 'Emissão de Laudo', o passo '3 - DESLACRAR MATERIAIS' ocorre imediatamente após qual procedimento?",
@@ -10660,7 +10660,7 @@ const questoesDB = [
   },
   {
     "id": 748392,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "No procedimento de 'Emissão de Laudo', a etapa de 'RELACRAR MATERIAIS' corresponde a qual número na sequência?",
@@ -10677,7 +10677,7 @@ const questoesDB = [
   },
   {
     "id": 382910,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o último passo (passo 11) listado na seção 15.2 'Emissão de Laudo'?",
@@ -10694,7 +10694,7 @@ const questoesDB = [
   },
   {
     "id": 139284,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "O título completo da publicação da Academia Nacional de Polícia que serve de base para este índice é:",
@@ -10711,7 +10711,7 @@ const questoesDB = [
   },
   {
     "id": 648392,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Considere os subitens da Tela Inicial e Widgets (seção 15.1, item 3). Qual a alternativa que apresenta APENAS itens corretamente listados no texto?",
@@ -10728,7 +10728,7 @@ const questoesDB = [
   },
   {
     "id": 283940,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "No organograma e organização dos Recursos Humanos (seção 15.1, item 4), há menção a uma 'AGENDA'. Como ela é intitulada especificamente?",
@@ -10745,7 +10745,7 @@ const questoesDB = [
   },
   {
     "id": 593821,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Analisando as etapas 5, 6 e 7 da seção 15.2 (Emissão de Laudo), assinale a sequência cronológica listada no manual:",
@@ -10762,7 +10762,7 @@ const questoesDB = [
   },
   {
     "id": 485029,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "No decorrer das páginas do documento, um aviso de restrição se faz constantemente presente, demonstrando o nível de confidencialidade da norma. Qual a classificação dada ao documento?",
@@ -10779,7 +10779,7 @@ const questoesDB = [
   },
   {
     "id": 958271,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a etapa do processo de Emissão de Laudo que consiste em agregar o laudo, os materiais e a solicitação de exames em um só trâmite documental para a autoridade superior?",
@@ -10796,7 +10796,7 @@ const questoesDB = [
   },
   {
     "id": "104928",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, a aplicação do método científico na prática pericial se caracteriza principalmente por ser:",
@@ -10813,7 +10813,7 @@ const questoesDB = [
   },
   {
     "id": "472918",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A etapa de avaliação dos resultados pode exigir que o perito retorne a etapas anteriores do ciclo. Isso evidencia que:",
@@ -10830,7 +10830,7 @@ const questoesDB = [
   },
   {
     "id": "812045",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para que uma hipótese formulada pelo perito seja classificada como científica, é indispensável que ela seja:",
@@ -10847,7 +10847,7 @@ const questoesDB = [
   },
   {
     "id": "563921",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o princípio da falseabilidade, uma proposição científica:",
@@ -10864,7 +10864,7 @@ const questoesDB = [
   },
   {
     "id": "394812",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No que diz respeito à busca pela certeza na ciência e sua aplicação à perícia, o texto afirma que:",
@@ -10881,7 +10881,7 @@ const questoesDB = [
   },
   {
     "id": "719348",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O raciocínio que parte de observações particulares para formular generalizações mais amplas, produzindo conclusões prováveis, é denominado:",
@@ -10898,7 +10898,7 @@ const questoesDB = [
   },
   {
     "id": "158930",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando o perito parte de princípios gerais validados para chegar a conclusões necessárias sobre casos particulares (ex.: reação química específica indicando presença de uma substância), ele utiliza o raciocínio:",
@@ -10915,7 +10915,7 @@ const questoesDB = [
   },
   {
     "id": "843291",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito das formas de raciocínio aplicadas à perícia criminal, o ciclo científico típico consiste em:",
@@ -10932,7 +10932,7 @@ const questoesDB = [
   },
   {
     "id": "503921",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A tendência do perito de valorizar as evidências que reforçam uma hipótese prévia e ignorar os dados que a contradiçzem é conhecida como viés de:",
@@ -10949,7 +10949,7 @@ const questoesDB = [
   },
   {
     "id": "764910",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando uma primeira informação recebida (como um relato informal) exerce uma influência desproporcional sobre os julgamentos e avaliações subsequentes do perito, verifica-se o viés de:",
@@ -10966,7 +10966,7 @@ const questoesDB = [
   },
   {
     "id": "182937",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O viés de autoridade pode comprometer a análise pericial ao:",
@@ -10983,7 +10983,7 @@ const questoesDB = [
   },
   {
     "id": "934812",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Após descobrir o real andamento de um evento, o perito passa a acreditar que a resolução era 'óbvia' ou altamente previsível durante os exames iniciais. Este comportamento é exemplo de viés:",
@@ -11000,7 +11000,7 @@ const questoesDB = [
   },
   {
     "id": "674192",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para atenuar os efeitos dos vieses cognitivos na perícia criminal, o texto indica a adoção de medidas estruturais. Qual das alternativas abaixo NÃO corresponde a uma dessas medidas recomendadas?",
@@ -11017,7 +11017,7 @@ const questoesDB = [
   },
   {
     "id": "491823",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O princípio da reprodutibilidade é essencial para a prova científica forense e significa que:",
@@ -11034,7 +11034,7 @@ const questoesDB = [
   },
   {
     "id": "283471",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A capacidade de um método analítico produzir resultados consistentes, mesmo diante de pequenas variações inerentes à prática (como pequenas flutuações de temperatura), denomina-se:",
@@ -11051,7 +11051,7 @@ const questoesDB = [
   },
   {
     "id": "819034",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A validação metodológica avalia vários parâmetros de um método. O parâmetro definido como 'proximidade em relação ao valor verdadeiro' é a:",
@@ -11068,7 +11068,7 @@ const questoesDB = [
   },
   {
     "id": "304918",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A diferença principal entre Sensibilidade e Especificidade, conforme abordado na validação metodológica do método pericial, é que:",
@@ -11085,7 +11085,7 @@ const questoesDB = [
   },
   {
     "id": "591028",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A 'cadeia de raciocínio científico' mencionada na prática pericial representa:",
@@ -11102,7 +11102,7 @@ const questoesDB = [
   },
   {
     "id": "209481",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o laudo pericial, é INCORRETO afirmar que:",
@@ -11119,7 +11119,7 @@ const questoesDB = [
   },
   {
     "id": "784192",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A seção do laudo científico responsável por apresentar o contexto da demanda, a solicitação dos fatos e os objetivos do exame é denominada:",
@@ -11136,7 +11136,7 @@ const questoesDB = [
   },
   {
     "id": "439210",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em qual seção do laudo pericial ocorre propriamente o detalhamento dos métodos, técnicas empregadas, parâmetros adotados e os controles de qualidade executados?",
@@ -11153,7 +11153,7 @@ const questoesDB = [
   },
   {
     "id": "194827",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A descrição física, características e a origem dos vestígios materiais encaminhados à análise pericial são apresentadas, predominantemente, em qual seção do laudo?",
@@ -11170,7 +11170,7 @@ const questoesDB = [
   },
   {
     "id": "510934",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a principal função da seção 'Discussão' em um laudo pericial estruturado pelo método científico?",
@@ -11187,7 +11187,7 @@ const questoesDB = [
   },
   {
     "id": "841029",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O ato de o perito responder de forma objetiva aos quesitos formulados, traduzindo as discussões em repostas diretas, constitui a seção de:",
@@ -11204,7 +11204,7 @@ const questoesDB = [
   },
   {
     "id": "392810",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O texto sugere que, na elaboração de um laudo, a comunicação científica requer um equilíbrio entre:",
@@ -11221,7 +11221,7 @@ const questoesDB = [
   },
   {
     "id": "718294",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação às limitações da prova material e à transparência metodológica, qual conduta o perito deve adotar?",
@@ -11238,7 +11238,7 @@ const questoesDB = [
   },
   {
     "id": "219483",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A confiança do sistema de justiça na perícia criminal, conforme o material analisado, assenta-se fundamentalmente na:",
@@ -11255,7 +11255,7 @@ const questoesDB = [
   },
   {
     "id": "548190",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A formulação de uma hipótese de que o crime ocorreu em decorrência de 'interferências sobrenaturais ou forças invisíveis inexplicáveis':",
@@ -11272,7 +11272,7 @@ const questoesDB = [
   },
   {
     "id": "902813",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A 'precisão', no contexto de métodos validados, corresponde a:",
@@ -11289,7 +11289,7 @@ const questoesDB = [
   },
   {
     "id": "673921",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Se a ciência abandona a 'pretensão de certeza' em face do princípio da falseabilidade, como se comporta o perito ao emitir uma conclusão no laudo?",
@@ -11306,7 +11306,7 @@ const questoesDB = [
   },
   {
     "id": "319482",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O papel fundamental do documento técnico denominado laudo pericial para a ciência forense é ser:",
@@ -11323,7 +11323,7 @@ const questoesDB = [
   },
   {
     "id": "847291",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando novos exames apontam em direção oposta a uma conclusão anterior proferida pela perícia em casos reabertos. De acordo com o princípio da falseabilidade, a perícia inicial:",
@@ -11340,7 +11340,7 @@ const questoesDB = [
   },
   {
     "id": "592813",
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o método de trabalho em ciência forense, qual é a principal vantagem de os peritos adotarem protocolos padronizados, validados e amplamente aceitos?",
@@ -11357,7 +11357,7 @@ const questoesDB = [
   },
   {
     "id": 819234,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, no contexto forense, quais termos são utilizados para designar essencialmente a mesma ideia que 'evento' na teoria da probabilidade?",
@@ -11374,7 +11374,7 @@ const questoesDB = [
   },
   {
     "id": 158293,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual é o papel do processo de 'aleatorização' na estatística forense?",
@@ -11391,7 +11391,7 @@ const questoesDB = [
   },
   {
     "id": 294817,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A abordagem da Probabilidade Clássica (Resultados Equiprováveis) define a probabilidade de um evento como:",
@@ -11408,7 +11408,7 @@ const questoesDB = [
   },
   {
     "id": 501284,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a principal limitação da Probabilidade Clássica mencionada no capítulo?",
@@ -11425,7 +11425,7 @@ const questoesDB = [
   },
   {
     "id": 924718,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, por que a abordagem Frequentista não pode ser aplicada à pergunta 'qual a probabilidade de que este suspeito seja o autor do crime?'",
@@ -11442,7 +11442,7 @@ const questoesDB = [
   },
   {
     "id": 348102,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A abordagem Bayesiana, também chamada de Probabilidade Subjetiva, baseia-se na concepção de que a probabilidade é:",
@@ -11459,7 +11459,7 @@ const questoesDB = [
   },
   {
     "id": 617294,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O princípio fundamental de que 'Toda Probabilidade É Condicional' implica que:",
@@ -11476,7 +11476,7 @@ const questoesDB = [
   },
   {
     "id": 839105,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, qual é o motivo frequente para que peritos discordem sobre probabilidades?",
@@ -11493,7 +11493,7 @@ const questoesDB = [
   },
   {
     "id": 210593,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O que estabelece a 'Primeira Lei — Limites da Probabilidade' descrita no texto?",
@@ -11510,7 +11510,7 @@ const questoesDB = [
   },
   {
     "id": 482710,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A 'Segunda Lei — Adição', aplicável a eventos mutuamente exclusivos dado um condicionamento E, afirma que Pr(G ou H | E) é igual a:",
@@ -11527,7 +11527,7 @@ const questoesDB = [
   },
   {
     "id": 693847,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da probabilidade conjunta (Terceira Lei), o que caracteriza o caso especial de 'Independência estatística' entre os eventos J e K?",
@@ -11544,7 +11544,7 @@ const questoesDB = [
   },
   {
     "id": 847291,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Ao utilizar a Lei da Probabilidade Total para eventos mutuamente exclusivos e exaustivos, a representação gráfica frequentemente recomendada é feita por meio de:",
@@ -11561,7 +11561,7 @@ const questoesDB = [
   },
   {
     "id": 105829,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O conceito de 'Odds' (chances), muito utilizado em estatística forense, é definido como:",
@@ -11578,7 +11578,7 @@ const questoesDB = [
   },
   {
     "id": 138294,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O principal resultado da análise pericial, que indica o quanto a evidência observada é mais provável sob uma hipótese do que sob sua alternativa, é chamado de:",
@@ -11595,7 +11595,7 @@ const questoesDB = [
   },
   {
     "id": 394821,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Considere o exemplo do DNA: sob a hipótese de que o suspeito é a fonte, a probabilidade da evidência é 1. Sob a alternativa, é 1 em um milhão. Neste caso, qual é a razão de verossimilhança aproximada?",
@@ -11612,7 +11612,7 @@ const questoesDB = [
   },
   {
     "id": 729104,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a divisão clara de responsabilidades sugerida no texto, qual é a atribuição correta do perito e do julgador (tribunal), respectivamente?",
@@ -11629,7 +11629,7 @@ const questoesDB = [
   },
   {
     "id": 841029,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é apontada no texto como a principal dificuldade na comunicação da evidência pericial?",
@@ -11646,7 +11646,7 @@ const questoesDB = [
   },
   {
     "id": 162938,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da falácia da transposição do condicional exemplificada com o DNA, comunicar que a probabilidade de um perfil aleatório é 1 em 1 milhão pode levar o julgador a erroneamente concluir que:",
@@ -11663,7 +11663,7 @@ const questoesDB = [
   },
   {
     "id": 401928,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Ao utilizar a razão de verossimilhança e evitar expressar a 'probabilidade de culpa', o perito garante que:",
@@ -11680,7 +11680,7 @@ const questoesDB = [
   },
   {
     "id": 592837,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Um laudo pericial eficaz, segundo as diretrizes de comunicação do texto, deve ser compreendido como:",
@@ -11697,7 +11697,7 @@ const questoesDB = [
   },
   {
     "id": 893012,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "No que diz respeito ao nível de generalidade das hipóteses formuladas no laudo, o texto adverte que:",
@@ -11714,7 +11714,7 @@ const questoesDB = [
   },
   {
     "id": 149283,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Por que a noção tradicional de 'individualização' é incompatível com a interpretação probabilística rigorosa?",
@@ -11731,7 +11731,7 @@ const questoesDB = [
   },
   {
     "id": 358192,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A abordagem forense moderna propõe substituir o termo 'individualização' por qual prática?",
@@ -11748,7 +11748,7 @@ const questoesDB = [
   },
   {
     "id": 529384,
-    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
+    "disciplina": "CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O que ocorre, segundo a abordagem bayesiana, quando o perito tenta inferir diretamente a probabilidade de culpa do suspeito em vez da razão de verossimilhança da evidência?",
