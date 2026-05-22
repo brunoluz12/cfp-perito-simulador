@@ -1,8 +1,8 @@
 const questoesDB = [
   {
     "id": 9,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Caderno Didático IPO, os referenciais teóricos adotados institucionalmente pela Polícia Federal dialogam especialmente com as contribuições de:",
     "alternativas": {
@@ -18,8 +18,8 @@ const questoesDB = [
   },
   {
     "id": 10,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Para Karl Popper, o critério que distingue a ciência da não ciência é:",
     "alternativas": {
@@ -35,8 +35,8 @@ const questoesDB = [
   },
   {
     "id": 11,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a teoria de Karl Popper apresentada no Caderno Didático IPO, após sucessivas etapas de testagem empírica, uma hipótese deve ser considerada como:",
     "alternativas": {
@@ -52,8 +52,8 @@ const questoesDB = [
   },
   {
     "id": 12,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com Popper, conforme apresentado no caderno, a inferência dedutiva utilizada para a corroboração da hipótese é o:",
     "alternativas": {
@@ -69,8 +69,8 @@ const questoesDB = [
   },
   {
     "id": 13,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Caderno Didático IPO, para John Dewey, toda investigaçãoão surge da necessidade de enfrentar:",
     "alternativas": {
@@ -86,8 +86,8 @@ const questoesDB = [
   },
   {
     "id": 14,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme Dewey, apresentado no caderno, a investigaçãoão do senso comum se distingue da investigaçãoão científica pelo fato de que a primeira:",
     "alternativas": {
@@ -103,8 +103,8 @@ const questoesDB = [
   },
   {
     "id": 15,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo Dewey, conforme o Caderno Didático IPO, o padrão de investigaçãoão descreve etapas interdependentes. São elas, em sequência:",
     "alternativas": {
@@ -120,8 +120,8 @@ const questoesDB = [
   },
   {
     "id": 16,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, para Dewey, a lógica é concebida como:",
     "alternativas": {
@@ -137,8 +137,8 @@ const questoesDB = [
   },
   {
     "id": 17,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com Dewey, conforme o caderno, a afirmação 'um problema bem colocado está semirresolvido' significa que:",
     "alternativas": {
@@ -154,8 +154,8 @@ const questoesDB = [
   },
   {
     "id": 18,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a ciência contemporânea, conforme Popper, se afastou da concepção aristotélica na qual o conhecimento era tido como científico quando:",
     "alternativas": {
@@ -171,8 +171,8 @@ const questoesDB = [
   },
   {
     "id": 19,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo Dewey, conforme o Caderno Didático IPO, as etapas da investigaçãoão (situação indeterminada, localização do problema, sugestão de solução, experimentação e solução) estão presentes:",
     "alternativas": {
@@ -188,8 +188,8 @@ const questoesDB = [
   },
   {
     "id": 20,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, a investigaçãoão descrita por Dewey é caracterizada como um processo:",
     "alternativas": {
@@ -205,8 +205,8 @@ const questoesDB = [
   },
   {
     "id": 21,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da investigação",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A Polícia Federal, ao estruturar sua doutrina institucional sobre investigaçãoão policial, baseou-se em referenciais consolidados na:",
     "alternativas": {
@@ -222,8 +222,8 @@ const questoesDB = [
   },
   {
     "id": 22,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o material, a investigaçãoão policial:",
     "alternativas": {
@@ -239,8 +239,8 @@ const questoesDB = [
   },
   {
     "id": 23,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Os referenciais teóricos adotados institucionalmente pela Polícia Federal para fundamentar a teoria da investigaçãoão dialogam especialmente com as contribuições de quais autores?",
     "alternativas": {
@@ -256,8 +256,8 @@ const questoesDB = [
   },
   {
     "id": 24,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Na teoria de Karl Popper, o conhecimento é concebido como resultado de:",
     "alternativas": {
@@ -273,8 +273,8 @@ const questoesDB = [
   },
   {
     "id": 25,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a teoria de Popper, a investigaçãoão científica tem seu início quando:",
     "alternativas": {
@@ -290,8 +290,8 @@ const questoesDB = [
   },
   {
     "id": 26,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o pensamento popperiano abordado no texto, o fato isoladamente (fato nu):",
     "alternativas": {
@@ -307,8 +307,8 @@ const questoesDB = [
   },
   {
     "id": 27,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Para Popper, após a identificação de um problema, o investigador passa à formulação de:",
     "alternativas": {
@@ -324,8 +324,8 @@ const questoesDB = [
   },
   {
     "id": 28,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "O critério de falseabilidade, proposto por Karl Popper, consiste em:",
     "alternativas": {
@@ -341,8 +341,8 @@ const questoesDB = [
   },
   {
     "id": 29,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da falseabilidade de Popper, a hipótese que suporta os testes empíricos de confronto sem sucumbir é considerada:",
     "alternativas": {
@@ -358,8 +358,8 @@ const questoesDB = [
   },
   {
     "id": 30,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da investigação",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com Popper, o que distingue a ciência da não ciência?",
     "alternativas": {
@@ -375,8 +375,8 @@ const questoesDB = [
   },
   {
     "id": 31,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A lógica do teste crítico popperiano (modus tollendo tollens) estabelece que:",
     "alternativas": {
@@ -392,8 +392,8 @@ const questoesDB = [
   },
   {
     "id": 32,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Consequência prática da teoria da falseabilidade de Popper para o pesquisador é que ele:",
     "alternativas": {
@@ -409,8 +409,8 @@ const questoesDB = [
   },
   {
     "id": 33,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "O que ocorre quando os falseadores (contra-evidências) de uma hipótese são confirmados pela experiência empírica, segundo o modelo de Popper?",
     "alternativas": {
@@ -426,8 +426,8 @@ const questoesDB = [
   },
   {
     "id": 34,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A concepção contemporânea do que seja ciência, calcada na visão de Karl Popper, afasta-se da concepção aristotélica, pois:",
     "alternativas": {
@@ -443,8 +443,8 @@ const questoesDB = [
   },
   {
     "id": 35,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Caderno Didático, a metodologia da investigaçãoão científica:",
     "alternativas": {
@@ -460,8 +460,8 @@ const questoesDB = [
   },
   {
     "id": 36,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da investigação",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Em suma, para a teoria de Karl Popper, a ciência oferece:",
     "alternativas": {
@@ -477,8 +477,8 @@ const questoesDB = [
   },
   {
     "id": 37,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A teoria pragmatista de John Dewey parte da premissa de que toda investigaçãoão surge da necessidade de:",
     "alternativas": {
@@ -494,8 +494,8 @@ const questoesDB = [
   },
   {
     "id": 38,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com John Dewey, a relação entre a investigaçãoão do senso comum e a investigaçãoão científica é de:",
     "alternativas": {
@@ -511,8 +511,8 @@ const questoesDB = [
   },
   {
     "id": 39,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A investigaçãoão do senso comum, na visão de Dewey, é caracterizada por:",
     "alternativas": {
@@ -528,8 +528,8 @@ const questoesDB = [
   },
   {
     "id": 40,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Enquanto a investigaçãoão do senso comum lida com aspectos qualitativos e situacionais, a investigaçãoão científica se diferencia por:",
     "alternativas": {
@@ -545,8 +545,8 @@ const questoesDB = [
   },
   {
     "id": 41,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo Dewey, as etapas comuns tanto à investigaçãoão do senso comum quanto à científica englobam, EXCETO:",
     "alternativas": {
@@ -562,8 +562,8 @@ const questoesDB = [
   },
   {
     "id": 42,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Na teoria de Dewey, a lógica no contexto da investigaçãoão:",
     "alternativas": {
@@ -579,8 +579,8 @@ const questoesDB = [
   },
   {
     "id": 43,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a visão pragmatista de Dewey, o papel da linguagem na investigaçãoão é:",
     "alternativas": {
@@ -596,8 +596,8 @@ const questoesDB = [
   },
   {
     "id": 44,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda sob a perspectiva de Dewey, a lógica da investigaçãoão:",
     "alternativas": {
@@ -613,8 +613,8 @@ const questoesDB = [
   },
   {
     "id": 45,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "O padrão geral de investigaçãoão proposto por John Dewey pode ser resumido como:",
     "alternativas": {
@@ -630,8 +630,8 @@ const questoesDB = [
   },
   {
     "id": 46,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Para Dewey, a 'situação indeterminada' por si só já se constitui em um 'problema'?",
     "alternativas": {
@@ -647,8 +647,8 @@ const questoesDB = [
   },
   {
     "id": 47,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Quando Dewey afirma que 'um problema bem colocado está semirresolvido', ele se refere ao fato de que:",
     "alternativas": {
@@ -664,8 +664,8 @@ const questoesDB = [
   },
   {
     "id": 48,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Na teoria de Dewey, os 'constituintes' do problema dizem respeito a:",
     "alternativas": {
@@ -681,8 +681,8 @@ const questoesDB = [
   },
   {
     "id": 49,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o padrão de investigaçãoão de Dewey, pode-se afirmar que sua progressão entre as etapas (desde a situação problemática até a conclusão) é um processo rigorosamente:",
     "alternativas": {
@@ -698,8 +698,8 @@ const questoesDB = [
   },
   {
     "id": 50,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a conclusão alcançada pela aplicação do padrão de investigaçãoão de Dewey a situações inicialmente indeterminadas?",
     "alternativas": {
@@ -715,8 +715,8 @@ const questoesDB = [
   },
   {
     "id": 51,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Tanto na teoria de Popper quanto na teoria de Dewey, o conhecimento científico gerado ao final de um ciclo de investigaçãoão possui um traço essencial em comum:",
     "alternativas": {
@@ -732,8 +732,8 @@ const questoesDB = [
   },
   {
     "id": 52,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Analise o trecho do caderno didático: 'A ciência não oferece verdades definitivas, mas explicações provisórias que se mantêm válidas enquanto resistirem à refutação'. Esta afirmação resume precipuamente o modelo teórico de:",
     "alternativas": {
@@ -749,8 +749,8 @@ const questoesDB = [
   },
   {
     "id": 53,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A Polícia Federal utiliza essas bases teóricas epistemológicas para fundamentar sua doutrina institucional de investigaçãoão. O objetivo disso é:",
     "alternativas": {
@@ -766,8 +766,8 @@ const questoesDB = [
   },
   {
     "id": 54,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Quando o policial se depara com um cenário de crime onde impera a dúvida, e formula uma 'linha investigativa' (hipótese), qual o papel dessa hipótese conforme a lógica de Popper adaptada à investigaçãoão?",
     "alternativas": {
@@ -783,8 +783,8 @@ const questoesDB = [
   },
   {
     "id": 55,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Sob o viés de Karl Popper, o investigador não observa a realidade de forma neutra ou vazia. Isso significa que:",
     "alternativas": {
@@ -800,8 +800,8 @@ const questoesDB = [
   },
   {
     "id": 56,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Se a hipótese do investigador policial afirma que 'Mévio esteve no local do crime na hora X', a descoberta de uma filmagem irrefutável mostrando Mévio em outro estado na hora X funciona, na teoria de Popper, como:",
     "alternativas": {
@@ -817,8 +817,8 @@ const questoesDB = [
   },
   {
     "id": 57,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Na transição da investigaçãoão do senso comum para a científica na teoria pragmatista de Dewey, a principal característica adicionada é:",
     "alternativas": {
@@ -834,8 +834,8 @@ const questoesDB = [
   },
   {
     "id": 58,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a 'lógica' para John Dewey, julgue as assertivas a partir das alternativas e marque a correta:",
     "alternativas": {
@@ -851,8 +851,8 @@ const questoesDB = [
   },
   {
     "id": 59,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A etapa da experimentação e do teste na visão de Karl Popper busca:",
     "alternativas": {
@@ -868,8 +868,8 @@ const questoesDB = [
   },
   {
     "id": 60,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Ao se deparar com a falha da hipótese investigativa, o pesquisador/policial age, segundo o fluxo preconizado por Popper e Dewey, da seguinte maneira:",
     "alternativas": {
@@ -885,8 +885,8 @@ const questoesDB = [
   },
   {
     "id": 61,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A teoria da investigaçãoão policial fundamentada no Caderno Didático IPO assemelha-se estruturalmente à ciência porque:",
     "alternativas": {
@@ -902,8 +902,8 @@ const questoesDB = [
   },
   {
     "id": 62,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Quando Dewey aponta que a linguagem permite comparar alternativas antes de agir, evidencia-se a característica da investigaçãoão como um processo:",
     "alternativas": {
@@ -919,8 +919,8 @@ const questoesDB = [
   },
   {
     "id": 63,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a perspectiva de Popper aplicável à investigaçãoão, se uma linha investigativa não possuir nenhum critério observável que permita ser testada e refutada:",
     "alternativas": {
@@ -936,8 +936,8 @@ const questoesDB = [
   },
   {
     "id": 64,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A substituição do conceito de 'verdade real' ou absoluta pelo de 'verdade formal aproximada e corrigível' na investigaçãoão contemporânea significa:",
     "alternativas": {
@@ -953,8 +953,8 @@ const questoesDB = [
   },
   {
     "id": 65,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Consoante o texto base, o fato de as regras que compõem a metodologia não possuírem 'justificação teórica, mas apenas pragmática' indica que:",
     "alternativas": {
@@ -970,8 +970,8 @@ const questoesDB = [
   },
   {
     "id": 66,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A afirmação 'ninguém pode investigar adequadamente a partir do absoluto vazio' remete à ideia, na visão dos autores referenciados, de que:",
     "alternativas": {
@@ -987,8 +987,8 @@ const questoesDB = [
   },
   {
     "id": 67,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "O conceito de 'corroboração' em Karl Popper, aplicado à persecuçção investigativa, deve ser entendido como:",
     "alternativas": {
@@ -1004,8 +1004,8 @@ const questoesDB = [
   },
   {
     "id": 68,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "O agricultor que adapta o plantio ao observar as nuvens e as reações da natureza utiliza-se de métodos característicos da:",
     "alternativas": {
@@ -1021,8 +1021,8 @@ const questoesDB = [
   },
   {
     "id": 69,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A 'Situação Indeterminada', que dá partida ao ciclo da lógica de Dewey, apresenta-se à polícia na forma de:",
     "alternativas": {
@@ -1038,8 +1038,8 @@ const questoesDB = [
   },
   {
     "id": 70,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "A incorporação das concepções de Popper e Dewey na Doutrina Institucional da Polícia Federal visa transmitir ao Policial a percepção de que a investigaçãoão:",
     "alternativas": {
@@ -1055,8 +1055,8 @@ const questoesDB = [
   },
   {
     "id": 71,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, a consolidação da investigaçãoão policial como atividade estruturada e especializada ocorreu nos séculos:",
     "alternativas": {
@@ -1072,8 +1072,8 @@ const questoesDB = [
   },
   {
     "id": 72,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, quem é reconhecido como fundador do primeiro órgão de polícia investigativa moderna?",
     "alternativas": {
@@ -1089,8 +1089,8 @@ const questoesDB = [
   },
   {
     "id": 73,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, Hans Gross (1847-1915) é considerado:",
     "alternativas": {
@@ -1106,8 +1106,8 @@ const questoesDB = [
   },
   {
     "id": 74,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, Charles Sanders Peirce desenvolveu o método de inferência denominado:",
     "alternativas": {
@@ -1123,8 +1123,8 @@ const questoesDB = [
   },
   {
     "id": 75,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, a manutenção do inquérito policial como processo preliminar no CPP de 1941 decorreu de:",
     "alternativas": {
@@ -1140,8 +1140,8 @@ const questoesDB = [
   },
   {
     "id": 76,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, a primeira aparição legislativa do inquérito policial no Brasil ocorreu em:",
     "alternativas": {
@@ -1157,8 +1157,8 @@ const questoesDB = [
   },
   {
     "id": 77,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a doutrina contemporânea da Polícia Federal diferencia investigaçãoão criminal de investigaçãoão policial. A expressão 'investigaçãoão criminal' designa:",
     "alternativas": {
@@ -1174,8 +1174,8 @@ const questoesDB = [
   },
   {
     "id": 78,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, o princípio da legalidade na investigaçãoão policial impõe que:",
     "alternativas": {
@@ -1191,8 +1191,8 @@ const questoesDB = [
   },
   {
     "id": 79,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o princípio da economicidade na investigaçãoão policial traduz-se em:",
     "alternativas": {
@@ -1208,8 +1208,8 @@ const questoesDB = [
   },
   {
     "id": 80,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o princípio da unidade na investigaçãoão policial estabelece que:",
     "alternativas": {
@@ -1225,8 +1225,8 @@ const questoesDB = [
   },
   {
     "id": 81,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o princípio da exclusividade na investigaçãoão policial significa que:",
     "alternativas": {
@@ -1242,8 +1242,8 @@ const questoesDB = [
   },
   {
     "id": 82,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o princípio da proporcionalidade se desdobra em três dimensões. São elas:",
     "alternativas": {
@@ -1259,8 +1259,8 @@ const questoesDB = [
   },
   {
     "id": 83,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, entre as cinco características estruturantes da investigaçãoão policial, destaca-se como a principal:",
     "alternativas": {
@@ -1276,8 +1276,8 @@ const questoesDB = [
   },
   {
     "id": 84,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o acesso do advogado aos atos documentados no inquérito policial é assegurado pela:",
     "alternativas": {
@@ -1293,8 +1293,8 @@ const questoesDB = [
   },
   {
     "id": 85,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a investigaçãoão policial busca a construção de uma verdade que possa ser:",
     "alternativas": {
@@ -1310,8 +1310,8 @@ const questoesDB = [
   },
   {
     "id": 86,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, viabilizar o oferecimento de denúncia pelo Ministério Público:",
     "alternativas": {
@@ -1327,8 +1327,8 @@ const questoesDB = [
   },
   {
     "id": 87,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o trinômio da investigaçãoão policial é composto por:",
     "alternativas": {
@@ -1344,8 +1344,8 @@ const questoesDB = [
   },
   {
     "id": 88,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, os limites da investigaçãoão policial são classificados em:",
     "alternativas": {
@@ -1361,8 +1361,8 @@ const questoesDB = [
   },
   {
     "id": 89,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, os documentos de inteligência policial em relação ao inquérito policial:",
     "alternativas": {
@@ -1378,8 +1378,8 @@ const questoesDB = [
   },
   {
     "id": 90,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a inteligência policial na Polícia Federal é estruturada em três níveis de assessoramento. São eles:",
     "alternativas": {
@@ -1395,8 +1395,8 @@ const questoesDB = [
   },
   {
     "id": 91,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a Recuperação de Ativos na Polícia Federal compreende cinco etapas. São elas:",
     "alternativas": {
@@ -1412,8 +1412,8 @@ const questoesDB = [
   },
   {
     "id": 92,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a Constituição de 1988 foi a primeira Carta Magna brasileira a empregar expressamente a expressão:",
     "alternativas": {
@@ -1429,8 +1429,8 @@ const questoesDB = [
   },
   {
     "id": 93,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o confisco alargado (art. 91-A do CP) incide sobre:",
     "alternativas": {
@@ -1446,8 +1446,8 @@ const questoesDB = [
   },
   {
     "id": 94,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a impessoalidade na investigaçãoão policial manifesta-se como:",
     "alternativas": {
@@ -1463,7 +1463,7 @@ const questoesDB = [
   },
   {
     "id": 95,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, a persecuçção penal no Brasil estrutura-se em duas fases distintas. A primeira fase, que antecede a instauraçção do processo judicial, é denominada:",
@@ -1480,7 +1480,7 @@ const questoesDB = [
   },
   {
     "id": 96,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Caderno Didático IPO, no processo penal, o início da segunda fase da persecuçção penal necessita de:",
@@ -1497,7 +1497,7 @@ const questoesDB = [
   },
   {
     "id": 97,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, a doutrina mais moderna entende que a finalidade material preparatória do inquérito policial é:",
@@ -1514,7 +1514,7 @@ const questoesDB = [
   },
   {
     "id": 98,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, da investigaçãoão policial extraem-se três funções essenciais. São elas:",
@@ -1531,7 +1531,7 @@ const questoesDB = [
   },
   {
     "id": 99,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o principal bem jurídico tutelado pela investigaçãoão policial é:",
@@ -1548,8 +1548,8 @@ const questoesDB = [
   },
   {
     "id": 100,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a Lei Federal n.º 12.830/2013 previu que as funções de polícia judiciária e a apuração de infrações penais possuem natureza jurídica:",
     "alternativas": {
@@ -1565,8 +1565,8 @@ const questoesDB = [
   },
   {
     "id": 101,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, as Comissões Parlamentares de Inquérito (CPIs):",
     "alternativas": {
@@ -1582,7 +1582,7 @@ const questoesDB = [
   },
   {
     "id": 102,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a 'nova doutrina do inquérito' afasta-se da visão clássica que considerava o inquérito como:",
@@ -1599,7 +1599,7 @@ const questoesDB = [
   },
   {
     "id": 103,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a doutrina processual penal contemporânea considera que a expressão 'inquisitório' aplicada ao inquérito policial é:",
@@ -1616,7 +1616,7 @@ const questoesDB = [
   },
   {
     "id": 104,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a notícia anônima, por si só:",
@@ -1633,7 +1633,7 @@ const questoesDB = [
   },
   {
     "id": 105,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a providência adequada diante de uma notícia anônima é:",
@@ -1650,7 +1650,7 @@ const questoesDB = [
   },
   {
     "id": 106,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, conforme Aury Lopes Jr., a finalidade do inquérito policial pode ser compreendida a partir de três dimensões fundamentais. São elas:",
@@ -1667,7 +1667,7 @@ const questoesDB = [
   },
   {
     "id": 107,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o inquérito policial, para a doutrina moderna, quanto à sua indispensabilidade, é considerado:",
@@ -1684,7 +1684,7 @@ const questoesDB = [
   },
   {
     "id": 108,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o inquérito policial é procedimento indisponível para o Delegado de Polícia. Uma vez instauraçdo, o arquivamento cabe:",
@@ -1701,7 +1701,7 @@ const questoesDB = [
   },
   {
     "id": 109,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a Súmula Vinculante nº 14 do STF assegura ao defensor o direito de acesso:",
@@ -1718,7 +1718,7 @@ const questoesDB = [
   },
   {
     "id": 110,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o sigilo do inquérito policial é parcialmente levantado normalmente quando:",
@@ -1735,8 +1735,8 @@ const questoesDB = [
   },
   {
     "id": 111,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a Lei n.º 13.432/2017 (Lei do Detetive Particular) dispõe, em seu art. 2º, que a investigaçãoão particular:",
     "alternativas": {
@@ -1752,7 +1752,7 @@ const questoesDB = [
   },
   {
     "id": 112,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, na hipótese de requisição do Ministério Público para instauraçção de inquérito que o Delegado considere manifestamente ilegal, o procedimento na Polícia Federal prevê:",
@@ -1769,7 +1769,7 @@ const questoesDB = [
   },
   {
     "id": 113,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A persecuçção penal no Brasil estrutura-se em duas fases distintas. Sobre a primeira fase, é correto afirmar que:",
@@ -1786,7 +1786,7 @@ const questoesDB = [
   },
   {
     "id": 114,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "No processo penal brasileiro, a exigência probatória mínima para o início da segunda fase da persecuçção penal (fase judicial) é denominada:",
@@ -1803,7 +1803,7 @@ const questoesDB = [
   },
   {
     "id": 115,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a finalidade do inquérito policial à luz da doutrina processual penal contemporânea (moderna), assinale a alternativa correta:",
@@ -1820,7 +1820,7 @@ const questoesDB = [
   },
   {
     "id": 116,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Das funções essenciais extraídas da investigaçãoão policial, segundo o Caderno Didático IPO, destacam-se:",
@@ -1837,7 +1837,7 @@ const questoesDB = [
   },
   {
     "id": 117,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "O principal bem jurídico tutelado pela investigaçãoão policial, decorrente da soma da imparcialidade, economicidade e eficiência, é:",
@@ -1854,7 +1854,7 @@ const questoesDB = [
   },
   {
     "id": 118,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Nos termos da Lei n.º 12.830/2013, as funções de polícia judiciária e a apuração de infrações penais:",
@@ -1871,8 +1871,8 @@ const questoesDB = [
   },
   {
     "id": 119,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO e a Lei n.º 13.432/2017 (Lei do Detetive Particular), a investigaçãoão particular no Brasil:",
     "alternativas": {
@@ -1888,7 +1888,7 @@ const questoesDB = [
   },
   {
     "id": 120,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o Provimento n.º 188/2018 da OAB, que autorizava a investigaçãoão defensiva por advogados, o material didático aponta que:",
@@ -1905,7 +1905,7 @@ const questoesDB = [
   },
   {
     "id": 121,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a competência das Comissões Parlamentares de Inquérito (CPIs) no que tange à apuração de crimes, consoante o material didático?",
@@ -1922,7 +1922,7 @@ const questoesDB = [
   },
   {
     "id": 122,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à expressão 'procedimento inquisitorial' aplicada ao inquérito policial, a doutrina processual penal contemporânea considera que:",
@@ -1939,7 +1939,7 @@ const questoesDB = [
   },
   {
     "id": 123,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Embora não haja contradiçtório pleno no inquérito policial, o investigado possui garantias defensivas, tais como:",
@@ -1956,7 +1956,7 @@ const questoesDB = [
   },
   {
     "id": 124,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as formas de início do Inquérito Policial em crimes de ação penal pública incondicionada, a autoridade policial deve:",
@@ -1973,7 +1973,7 @@ const questoesDB = [
   },
   {
     "id": 125,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a normatização interna da Polícia Federal (IN nº 255/2023), caso o Delegado discorde, por falta de justa causa, de requisição do Ministério Público para instauraçção de inquérito, ele deverá:",
@@ -1990,7 +1990,7 @@ const questoesDB = [
   },
   {
     "id": 126,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Diante de uma notícia anônima de crime (denúncia apócrifa), a autoridade policial deve:",
@@ -2007,7 +2007,7 @@ const questoesDB = [
   },
   {
     "id": 127,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a dimensão apontada por Aury Lopes Jr., quando o inquérito demonstra que o Estado reage à prática delitiva, contribuindo para a reafirmação da confiança pública nas instituições, ele exerce sua:",
@@ -2024,7 +2024,7 @@ const questoesDB = [
   },
   {
     "id": 128,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito das características do Inquérito Policial e da sua característica 'apuratória', é correto afirmar:",
@@ -2041,7 +2041,7 @@ const questoesDB = [
   },
   {
     "id": 129,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A característica da imprescindibilidade do inquérito policial, na perspectiva da nova doutrina, baseia-se:",
@@ -2058,7 +2058,7 @@ const questoesDB = [
   },
   {
     "id": 130,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do sigilo do inquérito policial e do acesso por advogado aos autos (Súmula Vinculante 14), a autoridade policial pode licitamente:",
@@ -2075,7 +2075,7 @@ const questoesDB = [
   },
   {
     "id": 131,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a característica de que o Inquérito Policial é um procedimento indisponível:",
@@ -2092,7 +2092,7 @@ const questoesDB = [
   },
   {
     "id": 132,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "O inquérito policial possui a característica de ser 'oficial'. Isso significa que:",
@@ -2109,7 +2109,7 @@ const questoesDB = [
   },
   {
     "id": 133,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A obrigatoriedade de instauraçção do inquérito policial diante da notícia de crime deve ser entendida, na atualidade, como:",
@@ -2126,7 +2126,7 @@ const questoesDB = [
   },
   {
     "id": 134,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à característica da transitoriedade do inquérito policial e a aplicação do princípio da duração razoável do processo, é INCORRETO afirmar que:",
@@ -2143,7 +2143,7 @@ const questoesDB = [
   },
   {
     "id": 135,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a contagem de prazos investigativos, quando o investigado se encontra preso, é correto afirmar que:",
@@ -2160,7 +2160,7 @@ const questoesDB = [
   },
   {
     "id": 136,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 1 - Apresentação",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da natureza jurídica do inquérito policial, o Caderno IPO afirma que ele possui natureza híbrida. Sob a perspectiva da autoridade que o preside, e sob a perspectiva da persecuçção penal, ele se classifica, respectivamente, como:",
@@ -2177,7 +2177,7 @@ const questoesDB = [
   },
   {
     "id": 137,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do valor probatório dos elementos colhidos no inquérito policial, assinale a alternativa que reflete o entendimento da doutrina moderna apresentada no material:",
@@ -2194,7 +2194,7 @@ const questoesDB = [
   },
   {
     "id": 138,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "São classificadas como 'provas não repetíveis' no contexto da investigaçãoão preliminar:",
@@ -2211,7 +2211,7 @@ const questoesDB = [
   },
   {
     "id": 139,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A presidência do inquérito policial e a condução dos atos investigativos pelo Delegado de Polícia caracterizam-se pela:",
@@ -2228,7 +2228,7 @@ const questoesDB = [
   },
   {
     "id": 140,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à requisição de diligências pelo Ministério Público, após a conclusão inicial da investigaçãoão policial, o Delegado de Polícia Federal:",
@@ -2245,7 +2245,7 @@ const questoesDB = [
   },
   {
     "id": 141,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do 'Princípio do Delegado Natural', consagrado na doutrina e na legislação institucional, ele estabelece que:",
@@ -2262,7 +2262,7 @@ const questoesDB = [
   },
   {
     "id": 142,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a avocação ou redistribuição de inquérito policial por superior hierárquico, a Lei nº 12.830/2013 impõe que tais medidas:",
@@ -2279,7 +2279,7 @@ const questoesDB = [
   },
   {
     "id": 143,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A inamovibilidade do Delegado de Polícia é classificada, pelo caderno, como:",
@@ -2296,7 +2296,7 @@ const questoesDB = [
   },
   {
     "id": 144,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A 'autonomia técnico-jurídica' garantida ao Delegado de Polícia, segundo o caderno e a doutrina, significa:",
@@ -2313,7 +2313,7 @@ const questoesDB = [
   },
   {
     "id": 145,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Ao representar ao juízo para fins de quebra de sigilo telefônico, decretação de prisão ou busca e apreensão, o Delegado de Polícia exerce o que a doutrina denomina:",
@@ -2330,7 +2330,7 @@ const questoesDB = [
   },
   {
     "id": 146,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o indiciamento no inquérito policial brasileiro, assinale a opção correta baseada no Caderno IPO:",
@@ -2347,7 +2347,7 @@ const questoesDB = [
   },
   {
     "id": 147,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do indiciamento do investigado que não é encontrado, é correto afirmar que:",
@@ -2364,7 +2364,7 @@ const questoesDB = [
   },
   {
     "id": 148,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Se, durante a investigaçãoão policial, surgirem novas provas e o Delegado concluir que houve equívoco técnico ou de autoria no indiciamento pregresso, ele deve:",
@@ -2381,7 +2381,7 @@ const questoesDB = [
   },
   {
     "id": 149,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em face das regras sobre o foro por prerrogativa de função e o inquérito policial, caso surjam indícios robustos do envolvimento criminoso de autoridade detentora de tal foro antes do início do inquérito na Polícia Federal, deve-se:",
@@ -2398,7 +2398,7 @@ const questoesDB = [
   },
   {
     "id": 150,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o entendimento consolidado do STF aplicável aos inquéritos presididos pela PF, a prerrogativa de foro para autoridades aplica-se de forma limitada. O critério fixado na AP 937 estabelece que:",
@@ -2415,7 +2415,7 @@ const questoesDB = [
   },
   {
     "id": 151,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do Inquérito Policial Militar (IPM) disciplinado no material IPO, é correto afirmar:",
@@ -2432,7 +2432,7 @@ const questoesDB = [
   },
   {
     "id": 152,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da investigaçãoão conduzida pela Polícia Federal, o chamado 'registro de fato', disciplinado na IN 255/2023, destina-se a:",
@@ -2449,7 +2449,7 @@ const questoesDB = [
   },
   {
     "id": 153,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação às provas antecipadas produzidas no inquérito policial, é correto inferir, segundo o Caderno Didático, que:",
@@ -2466,7 +2466,7 @@ const questoesDB = [
   },
   {
     "id": 154,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o inquérito policial no contexto das ações penais de iniciativa pública condicionada à representação, pode a autoridade policial instaurá-lo de ofício?",
@@ -2483,7 +2483,7 @@ const questoesDB = [
   },
   {
     "id": 155,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Caso a autoridade policial decida indeferir um requerimento de instauraçção de inquérito feito pela vítima, por considerar atípico o fato narrado, cabe, via de regra, recurso dirigido a qual autoridade?",
@@ -2500,7 +2500,7 @@ const questoesDB = [
   },
   {
     "id": 156,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a presidência de procedimentos na Polícia Judiciária, o Caderno IPO discute o Termo Circunstanciado de Ocorrência (TCO). É correto apontar que:",
@@ -2517,7 +2517,7 @@ const questoesDB = [
   },
   {
     "id": 157,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as premissas estudadas no Caderno Didático IPO, qual é o papel do 'Estado-investigaçãoão' contemporâneo ao presidir inquéritos penais?",
@@ -2534,7 +2534,7 @@ const questoesDB = [
   },
   {
     "id": 158,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno, é possível afirmar sobre os vícios ou nulidades eventualmente ocorridos no curso do Inquérito Policial que:",
@@ -2551,7 +2551,7 @@ const questoesDB = [
   },
   {
     "id": 159,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "O Inquérito da Polícia Legislativa, na estruturação pátria apontada pelo Caderno Didático, investiga:",
@@ -2568,7 +2568,7 @@ const questoesDB = [
   },
   {
     "id": 160,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que descreve a finalidade do inquérito policial pela ótica da 'busca do fato oculto' (Aury Lopes Jr.), conforme o Caderno:",
@@ -2585,7 +2585,7 @@ const questoesDB = [
   },
   {
     "id": 161,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do termo 'justa causa', que justifica a deflagração da persecuçção penal, é correto asseverar, na visão da legislação de processo penal (CPP):",
@@ -2602,7 +2602,7 @@ const questoesDB = [
   },
   {
     "id": 162,
-    "disciplina": "Investigaçãoão Policial (IPO)",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Quando o art. 14 do Código de Processo Penal diz que o investigado tem a faculdade de 'requerer diligências', o Delegado de Polícia, com base no princípio discricionário da investigaçãoão policial, deve:",
@@ -2619,8 +2619,8 @@ const questoesDB = [
   },
   {
     "id": 163,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, o método na investigaçãoão policial é definido como:",
     "alternativas": {
@@ -2636,8 +2636,8 @@ const questoesDB = [
   },
   {
     "id": 164,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o método na investigaçãoão policial protege três elementos. São eles:",
     "alternativas": {
@@ -2653,8 +2653,8 @@ const questoesDB = [
   },
   {
     "id": 165,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias e Ferramentas de Investigação",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, nos termos do §2º do art. 135 da IN nº 255/2023, consideram-se 'elementos de interesse' na investigaçãoão policial:",
     "alternativas": {
@@ -2670,8 +2670,8 @@ const questoesDB = [
   },
   {
     "id": 166,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, entre as fontes de obtenção de material probatório destacam-se os geradores passivos de dados. Estes correspondem a:",
     "alternativas": {
@@ -2687,8 +2687,8 @@ const questoesDB = [
   },
   {
     "id": 167,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o princípio da 'golden hour' (hora de ouro) na investigaçãoão policial indica que:",
     "alternativas": {
@@ -2704,8 +2704,8 @@ const questoesDB = [
   },
   {
     "id": 168,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a investigaçãoão policial é usualmente descrita como um processo:",
     "alternativas": {
@@ -2721,8 +2721,8 @@ const questoesDB = [
   },
   {
     "id": 169,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o viés cognitivo denominado 'visão de túnel' na investigaçãoão policial se caracteriza por:",
     "alternativas": {
@@ -2738,8 +2738,8 @@ const questoesDB = [
   },
   {
     "id": 170,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a hipótese criminal no contexto da Polícia Federal é definida como:",
     "alternativas": {
@@ -2755,8 +2755,8 @@ const questoesDB = [
   },
   {
     "id": 171,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias e Ferramentas de Investigação",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a Instrução Técnica 01/2018-Dicor/PF, conforme o caderno, as características da hipótese criminal são:",
     "alternativas": {
@@ -2772,8 +2772,8 @@ const questoesDB = [
   },
   {
     "id": 172,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, entre os elementos da hipótese criminal, o único cuja ausência inviabiliza a condução de uma investigaçãoão cética, técnica e profissional é:",
     "alternativas": {
@@ -2789,8 +2789,8 @@ const questoesDB = [
   },
   {
     "id": 173,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, 'lacuna' na hipótese criminal NÃO se confunde com a ausência de indícios probatórios. Lacuna é:",
     "alternativas": {
@@ -2806,8 +2806,8 @@ const questoesDB = [
   },
   {
     "id": 174,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, entre as boas práticas para evitar vieses cognitivos na investigaçãoão, destaca-se:",
     "alternativas": {
@@ -2823,8 +2823,8 @@ const questoesDB = [
   },
   {
     "id": 175,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a análise de locais de crime quanto à relevância dos vestígios compete, em regra, a:",
     "alternativas": {
@@ -2840,8 +2840,8 @@ const questoesDB = [
   },
   {
     "id": 176,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, as etapas mínimas que devem compor qualquer método de investigaçãoão policial são:",
     "alternativas": {
@@ -2857,8 +2857,8 @@ const questoesDB = [
   },
   {
     "id": 177,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a principal diferença entre investigaçãoão reativa e investigaçãoão proativa é que:",
     "alternativas": {
@@ -2874,8 +2874,8 @@ const questoesDB = [
   },
   {
     "id": 178,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a investigaçãoão prospectiva se diferencia da investigaçãoão proativa porque:",
     "alternativas": {
@@ -2891,8 +2891,8 @@ const questoesDB = [
   },
   {
     "id": 179,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a expressão 'fishing expedition' (pescaria probatória) refere-se a:",
     "alternativas": {
@@ -2908,8 +2908,8 @@ const questoesDB = [
   },
   {
     "id": 180,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, são exemplos de práticas comuns de pescaria probatória (fishing expedition):",
     "alternativas": {
@@ -2925,8 +2925,8 @@ const questoesDB = [
   },
   {
     "id": 181,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, as fases da investigaçãoão policial são, em ordem:",
     "alternativas": {
@@ -2942,8 +2942,8 @@ const questoesDB = [
   },
   {
     "id": 182,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, na fase de avaliação preliminar da investigaçãoão, deve-se aferir três aspectos das informações. São eles:",
     "alternativas": {
@@ -2959,8 +2959,8 @@ const questoesDB = [
   },
   {
     "id": 183,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, na fase de instauraçção da investigaçãoão, as variáveis que devem ser indagadas (o que sei, o que não sei, o que indica e o que contraindica) são:",
     "alternativas": {
@@ -2976,8 +2976,8 @@ const questoesDB = [
   },
   {
     "id": 184,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o Princípio de Locard estabelece que:",
     "alternativas": {
@@ -2993,8 +2993,8 @@ const questoesDB = [
   },
   {
     "id": 185,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o método F3EAD adaptado consiste na fusão de dois componentes. São eles:",
     "alternativas": {
@@ -3010,8 +3010,8 @@ const questoesDB = [
   },
   {
     "id": 186,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, as etapas do F3EAD são, respectivamente:",
     "alternativas": {
@@ -3027,8 +3027,8 @@ const questoesDB = [
   },
   {
     "id": 187,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a correspondência entre as etapas mínimas do método policial e o F3EAD adaptado coloca a 'hipótese criminal' como equivalente a qual fase do F3EAD?",
     "alternativas": {
@@ -3044,8 +3044,8 @@ const questoesDB = [
   },
   {
     "id": 188,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a lógica do 'follow the money' na investigaçãoão patrimonial tem como objetivo:",
     "alternativas": {
@@ -3061,8 +3061,8 @@ const questoesDB = [
   },
   {
     "id": 189,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, as cinco etapas da recuperação de ativos na Rede RECUPERA são:",
     "alternativas": {
@@ -3078,8 +3078,8 @@ const questoesDB = [
   },
   {
     "id": 190,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação policial",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o confisco alargado (art. 91-A do CP) incide sobre:",
     "alternativas": {
@@ -3095,8 +3095,8 @@ const questoesDB = [
   },
   {
     "id": 191,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o Registro Especial de Recuperação de Ativos (RE-RA) tem como finalidade precípua:",
     "alternativas": {
@@ -3112,8 +3112,8 @@ const questoesDB = [
   },
   {
     "id": 192,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o 'círculo virtuoso da recuperação de ativos' consiste em:",
     "alternativas": {
@@ -3129,8 +3129,8 @@ const questoesDB = [
   },
   {
     "id": 193,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a estratégia de investigaçãoão de 1ª geração da Polícia Federal caracterizava-se por:",
     "alternativas": {
@@ -3146,8 +3146,8 @@ const questoesDB = [
   },
   {
     "id": 194,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, no regime jurídico brasileiro, o cumprimento de mandados de busca e apreensão incumbe exclusivamente:",
     "alternativas": {
@@ -3163,8 +3163,8 @@ const questoesDB = [
   },
   {
     "id": 195,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, os quatro modelos básicos de unidades investigativas da Polícia Federal são:",
     "alternativas": {
@@ -3180,8 +3180,8 @@ const questoesDB = [
   },
   {
     "id": 196,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, nas unidades generalistas da PF, os delegados atuam diretamente com escrivães, enquanto os demais policiais se organizam em:",
     "alternativas": {
@@ -3197,8 +3197,8 @@ const questoesDB = [
   },
   {
     "id": 197,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o Índice de Produtividade Operacional (IPO) da PF é definido como:",
     "alternativas": {
@@ -3214,8 +3214,8 @@ const questoesDB = [
   },
   {
     "id": 198,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o IPO possui dois tipos de indicadores. Seus pesos são, respectivamente:",
     "alternativas": {
@@ -3231,8 +3231,8 @@ const questoesDB = [
   },
   {
     "id": 199,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, as diretrizes da metodologia de cálculo do IPO, previstas na Portaria DG/PF nº 18.900/2023, são:",
     "alternativas": {
@@ -3248,8 +3248,8 @@ const questoesDB = [
   },
   {
     "id": 200,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, uma operação de polícia judiciária por cumprimento de mandados judiciais se caracteriza pelo:",
     "alternativas": {
@@ -3265,8 +3265,8 @@ const questoesDB = [
   },
   {
     "id": 201,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a FICCO (Força Integrada de Combate ao Crime Organizado) integra quais forças?",
     "alternativas": {
@@ -3282,8 +3282,8 @@ const questoesDB = [
   },
   {
     "id": 202,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a gestão bem-sucedida de uma investigaçãoão requer:",
     "alternativas": {
@@ -3299,8 +3299,8 @@ const questoesDB = [
   },
   {
     "id": 203,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a cadeia de custódia é definida como:",
     "alternativas": {
@@ -3316,8 +3316,8 @@ const questoesDB = [
   },
   {
     "id": 204,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, crimes massivos são definidos como:",
     "alternativas": {
@@ -3333,8 +3333,8 @@ const questoesDB = [
   },
   {
     "id": 205,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o Programa Prometheus tem como objetivo:",
     "alternativas": {
@@ -3350,8 +3350,8 @@ const questoesDB = [
   },
   {
     "id": 206,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o fluxo do Prometheus se compõe de três etapas. São elas:",
     "alternativas": {
@@ -3367,8 +3367,8 @@ const questoesDB = [
   },
   {
     "id": 207,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o Projeto TENTÁCULOS centraliza notícias-crime relacionadas a:",
     "alternativas": {
@@ -3384,8 +3384,8 @@ const questoesDB = [
   },
   {
     "id": 208,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o Sistema RAPINA é uma ferramenta tecnológica da PF voltada para:",
     "alternativas": {
@@ -3401,8 +3401,8 @@ const questoesDB = [
   },
   {
     "id": 209,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, as três Diretorias de polícia judiciária da PF no âmbito central são:",
     "alternativas": {
@@ -3418,8 +3418,8 @@ const questoesDB = [
   },
   {
     "id": 210,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a teoria DISC, mencionada como ferramenta de gerenciamento de pessoas, distingue as personalidades em:",
     "alternativas": {
@@ -3435,8 +3435,8 @@ const questoesDB = [
   },
   {
     "id": 211,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o controle da investigaçãoão policial é exercido por múltiplas instâncias. Entre os controles citados estão:",
     "alternativas": {
@@ -3452,8 +3452,8 @@ const questoesDB = [
   },
   {
     "id": 212,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
+    "disciplina": "INVESTIGAÇÃO POLICIAL (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o delegado de polícia federal, ao receber sua carga de inquéritos, deve distinguir entre:",
     "alternativas": {
@@ -3468,2178 +3468,8 @@ const questoesDB = [
     "referencia": "Cap. 8, Seção 8.4.1, p. 145"
   },
   {
-    "id": 258,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação, em sentido amplo, é um processo intelectual de busca do conhecimento sobre algo que se desconhece ou que se conhece de forma insuficiente.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Segundo John Dewey e o texto oficial, toda investigação surge da necessidade de enfrentar uma situação indeterminada, isto é, um contexto em que a realidade apresenta incertezas e exige resposta, sendo a investigação científica um aperfeiçoamento e sistematização da investigação do senso comum voltada à elucidação dos fatos.",
-    "referencia": "(Cap. 3, p. 19)"
-  },
-  {
-    "id": 259,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação científica e a investigação policial são idênticas em seus métodos e finalidades.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O texto afirma que a investigação policial inspira-se em padrões racionais de produção de conhecimento da investigação científica, porém possui objeto próprio (apuração de materialidade e autoria) e está submetida a um regime jurídico específico, não sendo idênticas.",
-    "referencia": "(Cap. 3, p. 15)"
-  },
-  {
-    "id": 260,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo o caderno didático, a investigação policial combina elementos da investigação comum com aspectos da investigação científica, pela exigência de rigor metodológico.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O texto consolida que a investigação policial reúne elementos típicos da investigação científica, como rigor metodológico e coleta sistemática de dados, e características da investigação prática e comum, voltada à solução concreta de fatos determinados.",
-    "referencia": "(Cap. 4, p. 28)"
-  },
-  {
-    "id": 261,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação do senso comum não possui qualquer valor para a investigação policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Segundo o texto, a investigação científica e metódica, que inspira a policial, é uma continuidade evolutiva e um aperfeiçoamento da investigação do senso comum, sendo a experiência acumulada valiosa para solucionar problemas do cotidiano investigativo.",
-    "referencia": "(Cap. 3, p. 19)"
-  },
-  {
-    "id": 262,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial é definida no caderno como uma atividade zetética e pragmática por essência.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Conforme ensina Eliomar da Silva Pereira (2010), referenciado no texto base, a investigação policial é uma atividade pragmática e zetética por essência, consistindo em pesquisas para obter provas da existência de crime e sua autoria.",
-    "referencia": "(Cap. 4, p. 29)"
-  },
-  {
-    "id": 263,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "De acordo com o caderno didático, a atividade de inteligência policial e a investigação policial possuem os mesmos marcos regulatórios e finalidades idênticas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O texto é claro ao ressaltar que inteligência e investigação policial são atividades distintas e autônomas. A investigação busca apurar autoria e materialidade com provas formalmente válidas, enquanto a inteligência visa produzir e coletar informações para subsidiar decisões gerenciais.",
-    "referencia": "(Cap. 4, p. 44)"
-  },
-  {
-    "id": 264,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial volta-se para a resolução pragmática de problemas concretos, buscando apurar autoria, materialidade e circunstâncias de crimes.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O documento oficial relata que a investigação policial visa à apuração isenta da materialidade e da autoria de crimes de forma pragmática, orientada à busca da verdade formal judicializável.",
-    "referencia": "(Cap. 4, p. 29)"
-  },
-  {
-    "id": 265,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial, segundo o caderno, é uma atividade exclusivamente dedutiva, não admitindo raciocínio indutivo.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O texto aponta que o método abdutivo de inferência (baseado na formulação de hipóteses explicativas a partir de indícios) e lógicas pragmáticas e experimentais integram as bases do raciocínio investigativo policial, desmistificando o caráter exclusivamente dedutivo.",
-    "referencia": "(Cap. 4, p. 26)"
-  },
-  {
-    "id": 266,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A coleta sistemática de dados e a preservação da cadeia de custódia são exigências da investigação policial que a aproximam da investigação científica.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O caderno didático expõe expressamente que a investigação policial reúne elementos da investigação científica, como o rigor metodológico, a coleta sistemática de dados e a preservação da cadeia de custódia.",
-    "referencia": "(Cap. 4, p. 28)"
-  },
-  {
-    "id": 267,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial prescinde de metodologia estruturada, bastando a intuição e experiência do investigador.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A apuração não se configura em simples atuação empírica baseada só na experiência ou intuição. A legitimidade da atividade investigativa demanda rigor, método estruturado e cumprimento estrito de normas jurídicas.",
-    "referencia": "(Cap. 4, p. 28)"
-  },
-  {
-    "id": 268,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo o caderno, o método na investigação policial protege as pessoas em torno dos fatos, o investigador e a própria instituição.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A aplicação dos princípios e métodos, em especial a legalidade, responsabilidade e objetividade, atua como um escudo que protege a integridade do trabalho, da instituição e assegura a proteção aos direitos fundamentais de todos os envolvidos.",
-    "referencia": "(Cap. 4, p. 43)"
-  },
-  {
-    "id": 269,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O termo 'método', de origem grega (methodos), refere-se à busca de determinado objetivo por meio de um caminho previamente delineado.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Consoante a teoria da investigação explicitada, método corresponde a uma estrutura lógica e sistematizada de hábitos e caminhos delineados para alcançar conhecimento confiável e resolução de problemas.",
-    "referencia": "(Cap. 3, p. 19)"
-  },
-  {
-    "id": 270,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A metodologia, segundo o caderno, consiste no estudo sistematizado dos caminhos possíveis para orientar a atividade investigativa.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A fundamentação teórica orienta que a investigação moderna atua sob um padrão racional, o que configura a metodologia como uma série lógica de operações e caminhos que conferem legitimidade aos resultados obtidos.",
-    "referencia": "(Cap. 3, p. 19)"
-  },
-  {
-    "id": 271,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A recuperação de ativos é mencionada no caderno como uma das finalidades acessórias da investigação policial em casos com repercussão econômica.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Nos crimes com repercussão econômica, o texto oficial dispõe que a recuperação de ativos (rastreamento, identificação e apreensão de bens e valores) desponta como objetivo contemporâneo e adicional da apuração.",
-    "referencia": "(Cap. 4, p. 38)"
-  },
-  {
-    "id": 272,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A multiplicidade de saberes em uma equipe investigativa é considerada desnecessária pelo caderno didático.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O texto assevera a necessidade de integração, complementariedade de habilidades e conjugação de saberes, pois a sofisticação delitiva exige emprego conjunto de diversas metodologias para a efetividade policial.",
-    "referencia": "(Cap. 4, p. 47)"
-  },
-  {
-    "id": 273,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Constituição Federal de 1988, em seu art. 144, §1º, atribui à Polícia Federal a função de polícia judiciária da União.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A Constituição Federal, através do art. 144, § 1º, atribui à Polícia Federal a apuração de infrações contra bens, serviços e interesses da União, conferindo-lhe atribuição de polícia judiciária da União.",
-    "referencia": "(Cap. 4, p. 28)"
-  },
-  {
-    "id": 274,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Polícia Federal exerce as funções de polícia judiciária da União de forma concorrente com outros órgãos.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O princípio da exclusividade (citado no texto) e a CF garantem que a investigação policial é atribuição estatal exercida com exclusividade pelos órgãos de polícia judiciária e não de forma concorrente ou delegada.",
-    "referencia": "(Cap. 4, p. 33)"
-  },
-  {
-    "id": 275,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Lei nº 12.830/2013 reconhece a natureza técnico-jurídica da atividade exercida pela autoridade policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O diploma legal expressamente transcrito no texto base aponta que compete ao delegado de polícia, na qualidade de autoridade policial, conduzir a investigação sob base e avaliação eminentemente técnico-jurídica para a apuração da materialidade e autoria.",
-    "referencia": "(Cap. 4, p. 37)"
-  },
-  {
-    "id": 276,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial no Brasil sempre foi considerada uma atividade de natureza técnico-jurídica, mesmo antes da Lei nº 12.830/2013.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A evolução histórica abordada por Tornaghi indica que inicialmente nem mesmo havia distinção clara entre quem julgava e investigava. O caráter técnico e institucional da polícia judiciária consolidou-se progressivamente através dos diplomas históricos.",
-    "referencia": "(Cap. 4, p. 26)"
-  },
-  {
-    "id": 277,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial é a modalidade de investigação conduzida exclusivamente pela polícia judiciária, voltada à apuração de infrações penais.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A doutrina diferencia a investigação criminal mais ampla do termo mais restrito \"investigação policial\", que se refere estritamente à atuação conduzida pela polícia judiciária, revestida do princípio da exclusividade.",
-    "referencia": "(Cap. 4, p. 29)"
-  },
-  {
-    "id": 278,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O princípio do delegado natural significa que qualquer delegado pode avocar inquérito de outro delegado livremente.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O princípio da disciplina, a garantia de autonomia da condução investigativa e o respeito à ordem jurídica indicam que a autoridade preside os autos sob proteção contra avocamentos discricionários infundados, coibindo influências externas abusivas.",
-    "referencia": "(Cap. 4, p. 33)"
-  },
-  {
-    "id": 279,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial é centrada em fatos e não em pessoas, segundo o caderno didático.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Em obediência ao princípio da isenção institucional e da impessoalidade, a apuração deve recair sobre fatos previamente delimitados sem o viés pré-concebido de perseguir acusações específicas sem materialidade.",
-    "referencia": "(Cap. 4, p. 34)"
-  },
-  {
-    "id": 280,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação prospectiva é aceita no ordenamento jurídico brasileiro como método legítimo de apuração criminal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "De acordo com o princípio da objetividade e da legalidade abordado no documento, medidas abusivas sem fatos delimitados que se assemelham a \"fishing expeditions\" comprometem a legitimidade da investigação e lesam garantias constitucionais.",
-    "referencia": "(Cap. 4, p. 32)"
-  },
-  {
-    "id": 281,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Lei nº 9.266/1996 reorganizou a Carreira Policial Federal, estabelecendo que exclusivamente cargos de nível superior passaram a compô-la.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A estruturação dos saberes e do aparato de persecução no Brasil consagrou a alta especialização técnica, tornando o nível superior requisito da Carreira Policial Federal para suprir a demanda da moderna apuração estatal.",
-    "referencia": "(Cap. 4, p. 25)"
-  },
-  {
-    "id": 282,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Lei nº 9.266/1996 exige formação específica para todos os cargos da Carreira Policial Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Embora exija nível superior para compor a Carreira Policial Federal, apenas alguns cargos como Delegado (formação em Direito) possuem obrigatoriedade de área específica, permitindo ampla variedade nas demais formações profissionais.",
-    "referencia": "(Cap. 4, p. 25)"
-  },
-  {
-    "id": 283,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O caderno didático destaca que a presidência das investigações policiais reside com exclusividade no rol de atribuições do delegado de polícia.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Consoante ao ordenamento e ao princípio da disciplina, a direção e presidência do inquérito para supervisão legal, bem como a coordenação de toda a equipe para elucidação criminal, incumbem ao delegado de polícia.",
-    "referencia": "(Cap. 4, p. 33)"
-  },
-  {
-    "id": 284,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo o caderno, a atividade investigativa pode florescer adequadamente mesmo quando realizada de forma solitária por um único policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O princípio da unidade e a necessidade de articulação demonstram ser a apuração de inteligência criminal uma prática intrinsecamente coletiva que demanda integração sistêmica e contribuição de múltiplos perfis e técnicas policiais.",
-    "referencia": "(Cap. 4, p. 32)"
-  },
-  {
-    "id": 285,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O superamento do caráter inquisitivo do inquérito policial é um dos novos paradigmas abordados no caderno didático.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O caderno expõe a Súmula Vinculante 14 do STF, evidenciando transparência quanto aos resultados e a oportunidade de análise crítica e contraditório por parte da defesa sobre diligências já finalizadas, rompendo a absolutividade inquisitorial clássica.",
-    "referencia": "(Cap. 4, p. 35)"
-  },
-  {
-    "id": 286,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A competência investigativa da Polícia Federal limita-se aos crimes previstos no Código Penal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "As disposições constitucionais elencam um rol investigativo vasto que não se limita ao Código Penal, mas inclui infrações políticas, sociais, transnacionais, financeiras e demais ilícitos subscritos na legislação penal extravagante com interesse da União.",
-    "referencia": "(Cap. 4, p. 28)"
-  },
-  {
-    "id": 287,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Polícia Federal pode investigar infrações penais com repercussão interestadual ou internacional que exijam repressão uniforme, nos termos da Lei nº 10.446/2002.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Como previsão e ratificação da carta magna de 1988, a citada legislação estabelece que as infrações de grande repercussão territorial ou global que pleiteiem ação coordenada estatal são de atribuição investigativa da Polícia Federal.",
-    "referencia": "(Cap. 4, p. 28)"
-  },
-  {
-    "id": 288,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O caderno didático IPO I reconhece o inquérito policial como o instrumento pelo qual a investigação policial se materializa.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Em consonância com as premissas de garantias processuais e da Lei 12.830/2013, o texto consagra o inquérito policial como o principal meio legal e jurídico hábil a materializar e instruir a busca indiciária pela verdade formal.",
-    "referencia": "(Cap. 4, p. 29)"
-  },
-  {
-    "id": 289,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A autonomia técnico-investigativa do delegado de polícia federal significa que ele não está sujeito a qualquer tipo de controle em suas investigações.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O documento enfatiza a alta incidência de controles sobre os autos investigativos: internos (corregedorias) e externos (Ministério Público, judiciário e a sociedade), configurando o postulado de que autonomia policial deve sempre laborar em harmonia com a responsabilidade.",
-    "referencia": "(Cap. 4, p. 36)"
-  },
-  {
-    "id": 290,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial deve ser isenta e centrada no fato investigado, destinada à busca da verdade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A apuração persegue uma isenção institucional, garantida pelo princípio da impessoalidade e objetividade, a fim de levantar dados autênticos orientados a conhecer as nuances da conduta delitiva real sem preconceitos e tendências infundadas.",
-    "referencia": "(Cap. 4, p. 34)"
-  },
-  {
-    "id": 291,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A apuração de infrações penais pela Polícia Federal pode ter início somente mediante requisição do Ministério Público.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Em respeito ao dever do Estado em apurar e combater atos ilícitos com sua atuação de ofício, a autoridade policial deve deflagrar investigações imediatamente e conduzir apurações proativas sem depender exclusivamente das requisições ministeriais.",
-    "referencia": "(Cap. 4, p. 37)"
-  },
-  {
-    "id": 292,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo o caderno, o rol de crimes estaduais passíveis de investigação pela Polícia Federal vem sendo progressivamente ampliado pela inclusão de novos incisos na Lei nº 10.446/2002.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O aparato do Estado se atualiza concomitantemente às transformações criminais. As alterações legislativas introduzidas sucessivamente têm providenciado suporte normativo contínuo que amplia o leque de ilícitos estaduais passíveis de avocações investigativas federais.",
-    "referencia": "(Cap. 4, p. 28)"
-  },
-  {
-    "id": 293,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O inquérito policial possui natureza processual, sendo considerado fase integrante do processo penal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A investigação preliminar conduzida pela polícia judiciária possui natureza eminentemente administrativa, consubstanciando-se em uma fase pré-processual. Não constitui o inquérito policial um processo no sentido estrito, pois destina-se primordialmente a coligir elementos de informação para subsidiar o titular da ação penal, sem que nele se exerça função jurisdicional.",
-    "referencia": "(Cap. 5, p. 64)"
-  },
-  {
-    "id": 294,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O inquérito policial é um procedimento de natureza administrativa, pré-processual e preparatório da ação penal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O inquérito policial caracteriza-se como um procedimento oficial de natureza administrativa e pré-processual. Seu caráter é preparatório e visa subsidiar o titular da ação penal na formação de sua opinio delicti, reunindo elementos informativos sobre a materialidade e autoria de uma infração penal.",
-    "referencia": "(Cap. 5, p. 64)"
-  },
-  {
-    "id": 295,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O inquérito policial é indispensável para o oferecimento da denúncia pelo Ministério Público.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Embora sua instauração seja a regra na prática, o inquérito policial é formalmente dispensável. Nos termos do art. 39, § 5º, do CPP, se o titular da ação penal já possuir elementos de informação (justa causa) suficientes para fundamentar a acusação, poderá oferecer a denúncia ou queixa sem a prévia investigação policial.",
-    "referencia": "(Cap. 5, p. 65)"
-  },
-  {
-    "id": 296,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O inquérito policial é um procedimento oficial, pois somente pode ser conduzido por órgãos oficiais do Estado.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A oficialidade é uma característica inerente ao inquérito policial. Como instrumento de persecução penal, consubstancia a atuação estatal e somente pode ser presidido por órgãos de polícia judiciária devidamente constituídos, sob a presidência do Delegado de Polícia, rejeitando-se sua condução por particulares.",
-    "referencia": "(Cap. 5, p. 69)"
-  },
-  {
-    "id": 297,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O inquérito policial é prescritível, ou seja, pode ser arquivado pela decadência do direito de investigar.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O direito de investigar inerente à polícia judiciária tem caráter imprescritível. O que sofre os efeitos temporais é tão somente a pretensão punitiva do Estado. Enquanto não ocorrer a prescrição do delito investigado ou outra causa extintiva de punibilidade, persiste a prerrogativa e o dever estatal de elucidação dos fatos.",
-    "referencia": "(Cap. 5, p. 71)"
-  },
-  {
-    "id": 298,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O caráter apuratório do inquérito policial significa que ele se destina a apurar fatos que possam configurar infrações penais.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O inquérito policial possui finalidade estritamente apuratória. Destina-se a colher elementos informativos e probatórios quanto à materialidade e à autoria de determinada infração penal, construindo, assim, o arcabouço da justa causa necessária ao exercício posterior da ação penal.",
-    "referencia": "(Cap. 5, p. 64)"
-  },
-  {
-    "id": 299,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A obrigatoriedade do inquérito policial significa que, diante da notícia de crime de ação penal pública, a autoridade policial está obrigada a instaurá-lo.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Tratando-se de infração penal sujeita a ação penal pública incondicionada, vige o princípio da obrigatoriedade, não havendo espaço para conveniência ou oportunidade: assim que a autoridade policial toma conhecimento idôneo do crime, possui o dever-poder atrelado de formalizar e deflagrar a respectiva investigação.",
-    "referencia": "(Cap. 5, p. 71)"
-  },
-  {
-    "id": 300,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O inquérito policial é um procedimento permanente, que se mantém aberto indefinidamente.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O inquérito policial é transitório, ou seja, tem duração limitada e deve ser encerrado dentro dos prazos legais, sendo remetido ao juiz competente após a conclusão das investigaçãoões.",
-    "referencia": "Cap. 5 - Inquérito Policial, p. 76"
-  },
-  {
-    "id": 301,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O inquérito policial pode ser instaurado de ofício pela autoridade policial, por meio de portaria.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Uma das modalidades legítimas de início do inquérito policial é sua deflagração ex officio pela autoridade policial (via portaria), procedimento imperioso toda vez que houver ciência direta da ocorrência de infração penal revestida de ação penal pública incondicionada.",
-    "referencia": "(Cap. 5, p. 72)"
-  },
-  {
-    "id": 302,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A instauração do inquérito policial em situações flagranciais ocorre por meio de portaria da autoridade policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Nas situações flagranciais, a consolidação da abertura do procedimento investigativo materializa-se diretamente com a lavratura do Auto de Prisão em Flagrante (APF), figurando este como documento inicial deflagrador que dispensa a expedição paralela ou posterior de uma portaria específica.",
-    "referencia": "(Cap. 5, p. 73)"
-  },
-  {
-    "id": 303,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O delegado de polícia pode emitir juízo de valor no relatório conclusivo do inquérito policial, conforme a Lei nº 12.830/2013.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Após a Lei nº 12.830/2013, tornou-se inequívoco que a autoridade policial exerce atividade técnico-jurídica, podendo emitir juízo de valor no relatório, apreciando tipicidade, excludentes, circunstâncias e repercussões patrimoniais.",
-    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 99"
-  },
-  {
-    "id": 304,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A elaboração de relatório meramente remissivo, que se limite a enumerar atos praticados sem análise crítica, é admitida pela IN nº 255/2023-DG/PF.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O art. 85 da IN nº 255/2023-DG/PF expressamente veda a elaboração de relatório meramente remissivo, exigindo verdadeira análise técnico-jurídica da investigaçãoão.",
-    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 99"
-  },
-  {
-    "id": 305,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O relatório final do inquérito policial deve conter, entre outros elementos, a adequação típica, a antijuridicidade, a culpabilidade e a punibilidade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Nos termos diretivos institucionais (como o art. 85 da IN nº 255/2023-DG/PF), o relatório final corporifica a convicção analítica do Delegado de Polícia, devendo apresentar reflexões contundentes a respeito dos fatos e de sua adequação típica, bem como manifestações sobre antijuridicidade, culpabilidade e elementos da punibilidade.",
-    "referencia": "(Cap. 5, p. 119)"
-  },
-  {
-    "id": 306,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O indiciamento é ato discricionário que pode ser realizado por qualquer servidor da Polícia Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O indiciamento está atrelado à autonomia técnico-jurídica e consubstancia ato exclusivo e privativo do delegado de polícia, sendo-lhe exigível decisão e despacho fundamentado lastreado em indícios suficientes da autoria delitiva e em provas da materialidade do ilícito.",
-    "referencia": "(Cap. 5, p. 82)"
-  },
-  {
-    "id": 307,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O indiciamento é ato privativo do delegado de polícia, devendo ser fundamentado em indícios suficientes de autoria e materialidade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O artigo 2º, § 6º, da Lei nº 12.830/2013 estipula irrefutavelmente o indiciamento como prerrogativa afeta de forma exclusiva ao delegado de polícia. Seu preceito exige que a respectiva autoridade fundamente categoricamente seu convencimento na constatação irrefutável da existência do crime (materialidade) amparada por indícios consistentes da sua prática pelo indiciado (autoria).",
-    "referencia": "(Cap. 5, p. 82)"
-  },
-  {
-    "id": 308,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O STF posicionou-se no sentido de que não é necessária autorização judicial prévia para a formalização do indiciamento por autoridade policial, sob a vigência da Lei nº 12.830/2013.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Alinhada à referida Lei (12.830/2013), a sedimentada jurisprudência do Supremo Tribunal Federal enaltece a autonomia que ampara a polícia judiciária na análise investigativa, atestando reiteradamente ser despicienda qualquer forma de chancela ou de anuência prévia exarada pelo Poder Judiciário para perfectibilizar o instituto do indiciamento.",
-    "referencia": "(Cap. 5, p. 82)"
-  },
-  {
-    "id": 309,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Lei Orgânica Nacional do Ministério Público permite o indiciamento de seus membros pela autoridade policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A Lei Orgânica Nacional do Ministério Público, em seu art. 41, inciso II, estabelece expressamente a proibição do indiciamento de seus membros.",
-    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 90"
-  },
-  {
-    "id": 310,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "No caso de investigações envolvendo magistrados sob a LOMAN, a atuação da Polícia Federal ocorre exclusivamente mediante delegação do Relator e limitada às diligências determinadas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Ao tratar da responsabilização penal de magistrados submetidos aos ditames da LOMAN (Lei Complementar nº 35/1979), a atribuição processante desdobra-se como um prolongamento das atribuições intrínsecas ao próprio Tribunal de jurisdição ordinária respectiva, relegando à Polícia Federal restrita atuação sob ordens, requisições diretas e rigorosa delegação firmada exclusivamente por seu Relator.",
-    "referencia": "(Cap. 5, p. 78)"
-  },
-  {
-    "id": 311,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A notícia-crime é a única forma de instauração do inquérito policial prevista na legislação.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A despeito da frequência acentuada da notitia criminis nos balcões de polícias investigativas, trata-se de mero exemplo preambular que induz às investigações. Existem outras variadas modalidades como flagrantes (auto de prisão em flagrante), expedientes diretos promovidos por instâncias judicantes e persecutórias do MP ou requerimentos elaborados legitimamente pelos ofendidos ou eventuais representantes legais.",
-    "referencia": "(Cap. 5, p. 72)"
-  },
-  {
-    "id": 312,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A delatio criminis é a comunicação de ocorrência de infração penal feita por qualquer pessoa do povo à autoridade policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O instituto conceitual traduzido como delatio criminis refere-se exata e precisamente à notificação a respeito de um fato típico realizada de forma espontânea ou provocada por indivíduo não configurado necessariamente como ofendido formal do evento, podendo ser encabeçada por todo e qualquer ente e membro integrante da sociedade (art. 5º, § 3º do CPP).",
-    "referencia": "(Cap. 5, p. 73)"
-  },
-  {
-    "id": 313,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A requisição do Ministério Público para instauração de inquérito policial pode ser recusada pelo delegado de polícia caso entenda que não há justa causa.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Com expressiva conformidade no universo penal da persecução, a requisição expedida e formulada pelo preceptor institucional (Ministério Público) carrega inarredável valor vinculativo determinativo a ser atendido peremptoriamente, limitando eventual recusa formal estrita e apenas e aos casos de ilicitude manifesta ou insuperabilidade fática material provável, sujeitas ao sistema de conflito de entendimentos, não se admitindo a recusa unicamente com base em entendimentos de conveniência de justa causa.",
-    "referencia": "(Cap. 5, p. 74)"
-  },
-  {
-    "id": 314,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A Súmula Vinculante 14 do STF garante ao advogado o acesso aos autos do inquérito policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Ao proferir e erigir a Súmula Vinculante nº 14, o Egrégio Supremo Tribunal Federal almejou propiciar equanimidade processual às instâncias incipientes e precoces da repressão, estatuindo ao advogado atrelado ao mister da defesa pleno e franqueado direito ao levantamento e pesquisa acerca de todos os elementos documentados sem pendências acautelatórias em trâmite no ambiente do órgão policial.",
-    "referencia": "(Cap. 5, p. 67)"
-  },
-  {
-    "id": 315,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O encerramento do inquérito policial pressupõe necessariamente a colheita exitosa de elementos suficientes de autoria e materialidade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A investigação preliminar consubstancia averiguação instrumental sem condicionamento de sucesso probatório. Desse modo, o ocaso investigativo consagra-se não restrito às confirmações, alcançando equitativa importância ao documentar eventual carência de alicerces indicativos da materialidade, demonstrar excludentes evidentes ou impossibilidade inequívoca na definição do infrator, ensejando requerimento de seu arquivamento fundamentado.",
-    "referencia": "(Cap. 5, p. 119)"
-  },
-  {
-    "id": 316,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo a Súmula 524 do STF, arquivado o inquérito policial por despacho do juiz, a requerimento do promotor, não pode a ação penal ser iniciada sem novas provas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Estampado e corporificado na esteira dos preceitos do STF, mais notoriamente consubstanciado no verbete da sua Súmula de nº 524, pontua-se peremptoriamente que o reingresso na seara repressiva a partir de pretérita postulação absolutória manifestada via cota arquivadora referendada impõe mandatoriamente o levantamento contundente e acréscimo robusto oriundos de elementos com viés de material probatório novel àquele anterior.",
-    "referencia": "(Cap. 5, p. 121)"
-  },
-  {
-    "id": 317,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O arquivamento do inquérito policial sempre faz coisa julgada material.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Como regramento preponderante a decisão judicial que defere por ora a paralisação estancadora no procedimento restringe-se a constituir em seu âmago coisa julgada formal limitativa provisória (art. 18 CPP). Excetuam-se contudo hipóteses perante as Cortes estaduais com encerramento gerador de irresolubilidade imutável de efeito erga omnes nos eventuais flagrantes de atipicidade e comprovações de causas extintivas do embate ilícito punível (excludentes de criminalidade material), compondo essas a incidência da preclusão consumativa absoluta (coisa julgada material).",
-    "referencia": "(Cap. 5, p. 122)"
-  },
-  {
-    "id": 318,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O juiz das garantias, introduzido pela Lei nº 13.964/2019 (Pacote Anticrime), atua exclusivamente na fase pré-processual.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Projetado com pilar incondicional na robustez do sistema acusatório a Lei 13.964 aduz à figura procedimental o contorno temporal adstrito estritamente às instâncias investigativas pré-denúncia. Ao referido órgão do poder jurisdicional (o de garantias) perfaz competência balizadora inquirida ao respeito de salvaguarda restrita às balizas constitucionais do segregado, abdicando de eventual extensão e incursão da matéria do mérito perante a lide processual formal consolidada perante o juiz natural da causa de sentença.",
-    "referencia": "(Cap. 5, p. 74)"
-  },
-  {
-    "id": 319,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O STF declarou a inconstitucionalidade do juiz das garantias ao julgar as ADIs 6.298, 6.299, 6.300 e 6.305.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "As referidas Ações Diretas submetidas ao filtro excelso do Pretório Superior lograram o fim contrário de validarem e chancelarem a constitucionalidade irrestrita do instituto (garantias), pavimentando por conseguinte sua execução peremptória no regimento persecutório das unidades e na observância cogente aos entes do pátrio sistema investigativo.",
-    "referencia": "(Cap. 5, p. 75)"
-  },
-  {
-    "id": 320,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O Ministério Público exerce a direção da investigação policial conduzida pelo delegado de polícia.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Consoante disposição arquitetada pelo desenho de poderes a presidência material operacional bem como o norte deliberativo no inquérito permanecem adstritos invariavelmente ao delegado. O parquet não atua alinhado nem hierarquiza os trilhos persecutórios estipulados pela delegacia de polícia, sendo sua intromissão adstrita ao patamar de zelador limitativo por fiscalização à posteriori restrito aos preceitos da ordem legal extrínseca limitadora e nunca à conveniência fática intrínseca operacional (custos legis sem subordinação e sem direção ao policial presidido).",
-    "referencia": "(Cap. 5, p. 77)"
-  },
-  {
-    "id": 321,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A atuação do Ministério Público no inquérito policial se dá primordialmente por meio do controle externo da atividade policial, na condição de fiscal da lei.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Constitucionalmente erigido com tal intento o Ministério Público projeta a totalidade expressiva de seu agir incipiente de forma tangencial abalizando a legalidade perante a esfera pré-judicial. Incumbido do monopólio do controle externo da averiguação do judicatório ele resguarda direitos sensíveis à eventual extrapolação das vias inquisitivas pela postura de fiscal imperativo (custos legis) zelando pela correção e pertinência do agir procedimental que guarnece a delegacia respectiva.",
-    "referencia": "(Cap. 5, p. 77)"
-  },
-  {
-    "id": 322,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O STF reconheceu a legitimidade da investigação criminal conduzida diretamente pelo Ministério Público por meio do Procedimento Investigatório Criminal (PIC).",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Dirimindo discursos doutrinários passados, o Pretório Excelso consignou como plenamente lícita e validada pelo arcabouço normativo máximo a via adjacente ou paralela processante promovida singularmente pelo ente de acusação. Tal prerrogativa, chancelada judicialmente, formaliza o reconhecimento estrito pelo Estado da instrumentalidade do Procedimento Investigatório Criminal (PIC), viabilizando sua aptidão no embasamento preambular apuratório da notitia que lhe é apresentada subsidiariamente.",
-    "referencia": "(Cap. 5, p. 78)"
-  },
-  {
-    "id": 323,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "As diligências sugeridas pelo Ministério Público durante o curso da investigação possuem caráter vinculante para a autoridade policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Notório destacar que exsurge caráter apenas e tipicamente opinativo aos palpites operacionais intercorrentes emanados pelo titular da penal ao transcorrer inicial ou intermediário da seara repressiva. Eventual imperatividade limitadora adquire feição processual estrita condicionando as pretensões (vinculatividade) apenas quando submetidas sobre a fase superveniente delineadora da finalização procedimental remetida (após encerramento via relatório da polícia judiciária), mediante pleitos e exigências capituladas como inadiáveis por imprescindibilidade a oferta fática no teor do art. 16 do respectivo Código instrumental (CPP).",
-    "referencia": "(Cap. 5, p. 79)"
-  },
-  {
-    "id": 324,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O sistema acusatório é fundado na separação entre as funções de investigar, acusar e julgar.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Erige-se a lógica imperiosa do preceito de natureza acusatória por primar inexoravelmente sob o distanciamento segregatório na personificação das distintas instâncias. Assegura a integridade procedimental da separação das atuações relativas aos ritos de perseguir indícios preparatórios da polícia, o juízo perante acusação formulada pelo dominus litis e o monopólio meritório garantista imparcial reservado incólume à instância judiciante.",
-    "referencia": "(Cap. 5, p. 64)"
-  },
-  {
-    "id": 325,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "No inquérito policial, a condução da investigação é compartilhada entre a polícia judiciária e o Ministério Público.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Exsurge patente a concentração e monopólio legal presidenciável sobre os trâmites do apuratório preliminar do inquérito tão somente pelas forças diretivas do ente de polícia. Não subsiste perante a dogmática brasileira cogestão interinstitucional sob a pauta persecutória das ocorrências, sendo defeso e interditada ingerência que macule a prerrogativa isolada autônoma da presidência policial no trato de seus expedientes diretos.",
-    "referencia": "(Cap. 5, p. 77)"
-  },
-  {
-    "id": 326,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O exercício das prerrogativas do advogado no inquérito policial não se confunde com ingerência indevida na atividade investigativa.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Assegurada premente manifestação defensiva na consecução preparatória do caderno repressor (à luz da Súmula Vinculante referenciada em acesso formal deferido), adverte-se cabalmente à impossibilidade fática desta assistência converter em turbação à fluidez procedimental. Defesa exercida legitima garante direito, mas exorbita do preceituado ao perfilar intentos estagnadores obstaculizando, cerceando táticas intercedendo com tumultos em atos ordinários em estrito e pleno andamento da lide de inquérito.",
-    "referencia": "(Cap. 5, p. 67)"
-  },
-  {
-    "id": 327,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "As diligências policiais comuns (ordinárias) estão previstas, em grande medida, no art. 6º do CPP.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Delineada com propósitos inibidores a supressões fáticas perigosas o código adjetivo recheou pontualmente nas alíneas referidas no preceito exposto por seu art. 6º rol robusto e orientativo com as tratativas comumente primárias operacionais a serem seguidas (corpo de delito, perícia, acareação, colheita formal testemunhal oitiva etc), fundamentando-se as chamadas diligências padronizadas (comuns/ordinárias) de trato incipiente obrigatório à Polícia.",
-    "referencia": "(Cap. 5, p. 102)"
-  },
-  {
-    "id": 328,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "As técnicas especiais de investigaçãoão encontram previsão, em regra, no art. 3º da Lei nº 12.850/2013 (Lei de Combate às Organizações Criminosas).",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, as diligências policiais especiais (técnicas especiais de investigaçãoão) encontram previsão, em regra, no art. 3º da Lei nº 12.850/2013, incluindo colaboração premiada, captação ambiental, ação controlada, interceptação, entre outras.",
-    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 91"
-  },
-  {
-    "id": 329,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A interceptação de comunicações telefônicas é classificada como diligência policial comum (ordinária).",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "De longe desvinculando de meros procedimentos de simples colheitas probantes as táticas que maculem bens personalíssimos elevados do indivíduo compõe outro seleto rol distinto investigativo extraordinário (especiais ou não convencionais). Destarte face impositiva invasividade das comunicações sigilosas e à estrita obrigatoriedade da precedência motivadora em ressalva judicante perfaz-se de forma inarredável que tais diligências amoldem-se de modo estanque nas restritas classificações das providências não comuns de excepcionalidade persecutória.",
-    "referencia": "(Cap. 5, p. 125)"
-  },
-  {
-    "id": 330,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A colaboração premiada, a ação controlada e a infiltração de agentes são técnicas especiais de investigação.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Disposições inseridas pontualmente como respostas vigorosas sob os meandros sistêmicos elaborados de redes criminais e consolidadas normativamente pela Lei 12.850 consagram ao aparato institucional repressor faculdades não tradicionais em seu enfrentamento tático. A infiltração perene, bem como deferimentos postergadores de flagrância operacional e arregimentação delatadora subsidiária corporificam de jure os pilares atrelados às concebidas medidas excepcionais nominadas como técnicas extraordinárias (especiais) no rol instrutório.",
-    "referencia": "(Cap. 5, p. 121)"
-  },
-  {
-    "id": 331,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "As atividades relacionadas à cadeia de custódia dos vestígios são de responsabilidade exclusiva do Perito Criminal Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Ao despontar normativas que atrelam rigidez absoluta de preceitos de manutenções invioláveis nos itens componentes perante trâmites, diluiu-se ao invés de restringir competência o mister atinente. Imputa assim de modo generalista e isonômico a devida conservação isenta sobre o arcabouço fático de preservação aos mais variados cargos indistintamente sem prevalência ou exclusão recaindo com obrigatoriedade isonômica sobre o intermédio manuseador de todo e qualquer perito, delegado, escrivão ou mesmo agente nas lides processantes.",
-    "referencia": "(Cap. 5, p. 173)"
-  },
-  {
-    "id": 332,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O exame pericial é prerrogativa do Perito Criminal Federal ou do Papiloscopista Policial Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O caderno estabelece que o exame pericial é prerrogativa do Perito Criminal Federal ou do Papiloscopista Policial Federal, requisitado nos casos previstos em lei.",
-    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 93"
-  },
-  {
-    "id": 333,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A análise de elementos de interesse que não demandem expertise técnico-científica formal pode ser legitimamente conduzida por Escrivães e Agentes.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Consubstanciado o deferimento sobre os tramites da repartição dos expedientes no cerne perante as diretrizes preestabelecidas sobre as atuações do labor processante resguarda legitimidade probante nas avaliações que restem incólumes de chancelas acadêmicas rígidas. Elementos componentes sobre os quais as interpretações ou desdobramentos dispensam com absoluta evidência crivo pericial exato podem ser categoricamente destrinchados no relatório secundário analítico da esfera das funções do corpo de Agentes e de Escrivães federais no interesse estrito instrutório procedimental.",
-    "referencia": "(Cap. 5, p. 172)"
-  },
-  {
-    "id": 334,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "Ao Escrivão de Polícia Federal cabe, entre outras atribuições, zelar pela cadeia de custódia dos bens apreendidos.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Conforme o texto oficial, ao Escrivão de Polícia Federal cabe, dentre outras atribuições, zelar pela cadeia de custódia dos bens apreendidos, bem como pela conservação e guarda dos mesmos.",
-    "referencia": "(Cap. 5, p. 92)"
-  },
-  {
-    "id": 335,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "Ao Papiloscopista Policial Federal compete, entre outras atribuições, realizar exames e emissão de laudos oficiais papiloscópicos e representação facial humana.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O texto estabelece que compete ao Papiloscopista Policial Federal a realização de exames e emissão de laudos oficiais papiloscópicos, representação facial humana e prosopografia, além de outras funções.",
-    "referencia": "(Cap. 5, p. 92)"
-  },
-  {
-    "id": 336,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "O Perito Criminal Federal pode ser designado para investigar atos ou fatos que caracterizem infrações penais, tal como o Agente de Polícia Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A atribuição de investigar atos ou fatos que caracterizem infrações penais compete ao Agente de Polícia Federal. Ao Perito Criminal Federal, cabe realizar exames periciais em locais de infração penal e pesquisas científicas.",
-    "referencia": "(Cap. 5, p. 92)"
-  },
-  {
-    "id": 337,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "Há um ponto em comum entre todos os cargos da PF: a atribuição genérica de 'executar outras tarefas que lhe forem atribuídas'.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O documento destaca que há um ponto em comum entre todos os cargos: a atribuição genérica de 'executar outras tarefas que lhe forem atribuídas', permitindo a designação para atividades que otimizem os recursos humanos.",
-    "referencia": "(Cap. 5, p. 92)"
-  },
-  {
-    "id": 338,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A CINQ é a unidade da PF responsável pela coordenação de investigações envolvendo autoridades com foro em Tribunais Superiores.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Conforme o texto, a Coordenação de Inquéritos nos Tribunais Superiores (CINQ) possui atribuição para atuar perante o STF e STJ, e a unidade descentralizada deve encaminhar o procedimento à CINQ para remessa ao tribunal competente.",
-    "referencia": "(Cap. 5, p. 89)"
-  },
-  {
-    "id": 339,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A Resolução nº 881/2024 do Conselho da Justiça Federal regulamenta a tramitação do inquérito policial no âmbito da Justiça Federal após a implementação do juiz das garantias.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, com a implementação do juiz das garantias, a tramitação passou a observar as diretrizes da Resolução nº 881/2024 do Conselho da Justiça Federal.",
-    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 99"
-  },
-  {
-    "id": 340,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "Após o arquivamento judicial do inquérito, o Delegado pode prosseguir nas investigações livremente, independentemente do surgimento de novas provas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Conforme o texto e o art. 18 do CPP, após o arquivamento judicial do inquérito policial, o delegado não poderá prosseguir nas investigações sem o surgimento de novas provas.",
-    "referencia": "(Cap. 5, p. 81)"
-  },
-  {
-    "id": 341,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
-    "tipo": "certo_errado",
-    "enunciado": "A destinação adequada de bens apreendidos deve ser planejada desde o início do procedimento, com observância da cadeia de custódia.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O texto afirma que a destinação adequada dos bens apreendidos deve ser planejada desde o início do procedimento, com observância da cadeia de custódia e registro nos sistemas oficiais.",
-    "referencia": "(Cap. 5, p. 95)"
-  },
-  {
-    "id": 342,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias e Ferramentas de Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A notícia de fato não flagrancial será cadastrada como 'registro de fato' no sistema oficial de polícia judiciária da PF.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Conforme a IN 255/2023, a notícia de fato não flagrancial será cadastrada como 'registro de fato' no sistema oficial de polícia judiciária, para posterior análise e encaminhamento.",
-    "referencia": "Cap. 7 - Estratégias e Ferramentas de Investigação, p. 150"
-  },
-  {
-    "id": 343,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A construção de hipóteses criminais é uma etapa dispensável na metodologia da investigação policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A construção de hipóteses é etapa fundamental na metodologia investigativa, pois sem ela, a investigação torna-se prospectiva e arrasta tudo e todos em desrespeito aos direitos fundamentais.",
-    "referencia": "(Cap. 6, p. 111)"
-  },
-  {
-    "id": 344,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A hipótese criminal deve ser construída a partir do fato investigado e direcionará as ações do investigador para sua confirmação ou refutação.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Definido o fato, é necessária a construção de hipóteses que levarão o investigador à delimitação do problema e ao direcionamento de suas ações visando a confirmação ou refutação.",
-    "referencia": "(Cap. 6, p. 112)"
-  },
-  {
-    "id": 345,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O viés de confirmação é um problema que pode afetar a investigação policial, levando o investigador a buscar apenas evidências que confirmem sua hipótese inicial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O caderno aborda o viés de confirmação como a tendência do investigador de buscar, interpretar e valorar informações de modo a confirmar hipóteses pré-concebidas, ignorando evidências contrárias.",
-    "referencia": "(Cap. 6, p. 109)"
-  },
-  {
-    "id": 346,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O viés de ancoragem ocorre quando o investigador atribui peso excessivo às informações iniciais obtidas na investigação.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O viés de ancoragem é caracterizado pela tendência de se atribuir peso desproporcional às primeiras informações recebidas, o que pode distorcer o rumo da investigação.",
-    "referencia": "(Cap. 6, p. 110)"
-  },
-  {
-    "id": 347,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A visão em túnel (tunnel vision) é uma prática recomendada na investigação policial para manter o foco.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A visão em túnel não é recomendada, pois é um viés cognitivo que leva o investigador a focar exclusivamente em uma linha de investigação ou suspeito, ignorando evidências alternativas.",
-    "referencia": "(Cap. 6, p. 110)"
-  },
-  {
-    "id": 348,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A checagem é etapa essencial para validar os dados colhidos durante a investigação policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A checagem é uma etapa metodológica essencial para validar os dados colhidos, podendo evitar acusações infundadas ou certificar a inexistência do fato.",
-    "referencia": "(Cap. 6, p. 108)"
-  },
-  {
-    "id": 349,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação policial deve se limitar a confirmar a hipótese inicial do investigador, descartando evidências contraditórias.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A investigação deve buscar tanto a confirmação quanto a refutação da hipótese. Ignorar evidências contrárias configura viés de confirmação.",
-    "referencia": "(Cap. 6, p. 109)"
-  },
-  {
-    "id": 350,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "As etapas mínimas de um método de investigação policial são: fato, hipótese, checagem e conclusão.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Segundo o texto, qualquer método investigativo deve basear-se, no mínimo, em fato, hipótese, checagem e conclusão.",
-    "referencia": "(Cap. 6, p. 102)"
-  },
-  {
-    "id": 351,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "A ausência de um fato certo e minimamente delimitado torna a investigação centrada em pessoas, o que viola os princípios do Estado de Direito.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O texto alerta que investigar pessoas e não fatos minimamente delimitados viola o Estado Democrático de Direito.",
-    "referencia": "(Cap. 6, p. 104)"
-  },
-  {
-    "id": 352,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "certo_errado",
-    "enunciado": "O caderno didático admite que a criatividade e a indução podem ser aplicáveis à investigação policial diante de cenários desconhecidos.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A indução e a criatividade são, em certa medida, admitidas face a cenários desconhecidos e inusitados, embora se privilegie o raciocínio dedutivo.",
-    "referencia": "(Cap. 6, p. 113)"
-  },
-  {
-    "id": 353,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação reativa tem início com a descoberta de um crime já ocorrido e visa trazer os infratores à justiça.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A investigação reativa começa a partir da descoberta de um crime já ocorrido, com o objetivo de identificar os suspeitos e embasar a ação penal.",
-    "referencia": "(Cap. 7, p. 120)"
-  },
-  {
-    "id": 354,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação proativa se dá a partir da detecção de eventos criminosos que já ocorreram no passado.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A investigação proativa foca em eventos criminosos que estão ocorrendo ou ocorrerão em um futuro imediato, diferindo da investigação reativa que foca no passado.",
-    "referencia": "(Cap. 7, p. 120)"
-  },
-  {
-    "id": 355,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação proativa não se confunde com investigação prospectiva, pois também deve se basear na investigação de fatos e não de pessoas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O texto deixa claro que a investigação proativa difere da investigação prospectiva, pois se baseia sempre em fatos delimitados e não em pessoas aleatórias.",
-    "referencia": "(Cap. 7, p. 121)"
-  },
-  {
-    "id": 356,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O fishing expedition (pescaria probatória) é uma técnica investigativa aceita pelo ordenamento jurídico brasileiro.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A pescaria probatória (fishing expedition) é uma prática rejeitada no ordenamento jurídico brasileiro por ferir os princípios do Estado Democrático de Direito.",
-    "referencia": "(Cap. 7, p. 122)"
-  },
-  {
-    "id": 357,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A estratégia baseada na cena do crime é particularmente relevante em investigações de homicídio.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O texto aponta que a cena do crime é ponto de partida fundamental, especialmente em crimes como o homicídio.",
-    "referencia": "(Cap. 7, p. 130)"
-  },
-  {
-    "id": 358,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O princípio de Locard estabelece que é impossível um criminoso agir sem deixar vestígios detectáveis.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O princípio de Edmond Locard estabelece que 'todo contato deixa um rastro', indicando que o autor sempre levará e deixará algo na cena do crime.",
-    "referencia": "(Cap. 7, p. 130)"
-  },
-  {
-    "id": 359,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O princípio da oportunidade na investigação policial prega que o tempo é precioso para alcançar o máximo de informações sobre o crime.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Segundo o princípio da oportunidade ('golden hour'), o tempo é precioso, visto que informações e vestígios tendem a desaparecer e deteriorar ao longo do tempo.",
-    "referencia": "(Cap. 7, p. 106)"
-  },
-  {
-    "id": 360,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A primeira oportunidade de localizar e recolher material pode ser a única oportunidade, devendo os policiais agir com presteza.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Os policiais devem agir rapidamente, pois a primeira oportunidade para coletar evidências na cena ou em testemunhas pode ser a única antes que se deteriorem ou se contaminem.",
-    "referencia": "(Cap. 7, p. 106)"
-  },
-  {
-    "id": 361,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "As fases da investigação policial são: instigação, avaliação preliminar, instauração, instrução probatória e conclusão.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O caderno apresenta como fases da investigação a instigação, a avaliação preliminar, a instauração, a instrução probatória e a conclusão.",
-    "referencia": "(Cap. 7, p. 124)"
-  },
-  {
-    "id": 362,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "Na avaliação preliminar da notícia-crime, devem ser analisados três aspectos: relevância, confiabilidade e admissibilidade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Para a correta avaliação preliminar de uma notícia-crime, deve-se aferir a relevância, a confiabilidade e a admissibilidade das informações obtidas.",
-    "referencia": "(Cap. 7, p. 125)"
-  },
-  {
-    "id": 363,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O F3EAD é um método de investigação originalmente concebido para aplicação na atividade policial.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O F3EAD foi originalmente desenvolvido e concebido para fins militares pelas Forças Armadas americanas, sendo depois adaptado à investigação policial.",
-    "referencia": "(Cap. 7, p. 135)"
-  },
-  {
-    "id": 364,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "No F3EAD adaptado, as siglas correspondem a: Find (localizar), Fix (delimitar), Finish (ação), Exploit (explorar), Analyze (analisar) e Disseminate (difundir).",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A sigla do método F3EAD significa exatamente Find (localizar), Fix (delimitar), Finish (ação), Exploit (explorar), Analyze (analisar) e Disseminate (difundir resultados).",
-    "referencia": "(Cap. 7, p. 135)"
-  },
-  {
-    "id": 365,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O F3EAD adaptado tem sido utilizado pela Polícia Federal com mais intensidade a partir do ano de 2016.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Conforme aponta o caderno oficial, o F3EAD é um método que passou a ser utilizado com mais intensidade pela Polícia Federal notadamente a partir do ano de 2016.",
-    "referencia": "(Cap. 7, p. 136)"
-  },
-  {
-    "id": 366,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A estratégia de investigação denominada 'follow the money' é irrelevante no enfrentamento à macrocriminalidade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A estratégia 'follow the money' (siga o dinheiro) é considerada fundamental no combate à macrocriminalidade, buscando a neutralização financeira das organizações.",
-    "referencia": "(Cap. 7, p. 137)"
-  },
-  {
-    "id": 367,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A investigação patrimonial assume papel estruturante no enfrentamento à macrocriminalidade, visando identificar, rastrear e recuperar ganhos econômicos ilícitos.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "A investigação patrimonial é essencial, voltando-se para identificar, rastrear e promover a recuperação de ganhos econômicos oriundos da criminalidade.",
-    "referencia": "(Cap. 7, p. 137)"
-  },
-  {
-    "id": 368,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação policial",
-    "tipo": "certo_errado",
-    "enunciado": "O confisco alargado (art. 91-A do CP) incide sobre a diferença patrimonial incompatível com a renda lícita do condenado.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O caderno explica que o confisco alargado (art. 91-A do CP) incide sobre a diferença patrimonial incompatível com a renda lícita do condenado, sendo aplicável a crimes com pena máxima superior a seis anos.",
-    "referencia": "Cap. 4 - Investigação policial, p. 42"
-  },
-  {
-    "id": 369,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O pedido de confisco alargado pode ser formulado a qualquer momento do processo penal pelo Ministério Público.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "O Código Penal estabelece que o pedido de perda alargada (confisco alargado) deve ser requerido expressamente pelo MP no momento do oferecimento da denúncia, não se admitindo em momento posterior.",
-    "referencia": "(Cap. 7, p. 139)"
-  },
-  {
-    "id": 370,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O Registro Especial de Recuperação de Ativos (RE-RA) deve ser criado no ePol por despacho do delegado de polícia federal sempre que o crime investigado tiver repercussão econômica.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Segundo o material, o delegado deve promover a criação do Registro Especial de Recuperação de Ativos (RE-RA) no ePol, na primeira oportunidade, sempre que o crime demonstrar repercussão econômica.",
-    "referencia": "(Cap. 7, p. 141)"
-  },
-  {
-    "id": 371,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 1 - Apresentação",
-    "tipo": "certo_errado",
-    "enunciado": "A Rede Nacional de Recuperação de Ativos (RECUPERA) é coordenada pela Polícia Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "A RECUPERA é coordenada pelo Ministério da Justiça e Segurança Pública, com a participação da Polícia Federal, conforme mencionado no caderno.",
-    "referencia": "Cap. 1 - Apresentação, p. 4"
-  },
-  {
-    "id": 372,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "As cinco etapas da recuperação de ativos são: identificação, apreensão, administração, alienação e destinação.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O procedimento de recuperação de ativos é estruturado nas seguintes etapas: identificação, apreensão (ou medidas constritivas), administração, alienação e destinação.",
-    "referencia": "(Cap. 7, p. 142)"
-  },
-  {
-    "id": 373,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A 'referibilidade' é o vínculo entre o patrimônio identificado e o produto/proveito do crime investigado.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. De acordo com o texto, o vínculo entre o patrimônio identificado e o produto/proveito do crime investigado é conhecido na doutrina e jurisprudência como 'referibilidade'. A demonstração dessa referibilidade é essencial para garantir a proporcionalidade e a necessidade das medidas cautelares.",
-    "referencia": "(Cap. 7, p. 146)"
-  },
-  {
-    "id": 374,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O Funapol pode receber até 90% dos valores apreendidos pela Polícia Federal, conforme regulamentação vigente.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O texto oficial cita que a regulamentação atual do Funapol, dada pelo Decreto nº 11.008/2022, admite o retorno de até 90% dos valores apreendidos à instituição, compondo uma política de fortalecimento institucional.",
-    "referencia": "(Cap. 7, p. 140)"
-  },
-  {
-    "id": 375,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A estratégia de investigação de 1ª Geração caracterizava-se pelo uso intensivo de interceptação telefônica e alargamento da fase de análise.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O texto informa que a estratégia de 1ª Geração era muito influenciada pelas doutrinas de inteligência e consistia num intenso emprego de interceptação telefônica e um alargamento da fase de análise, optando por um ciclo prolongado para desencadear a ação.",
-    "referencia": "(Cap. 7, p. 133)"
-  },
-  {
-    "id": 376,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A busca e apreensão é considerada uma das técnicas menos intrusivas permitidas pelo Estado na vida do cidadão.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O material de referência ensina que a busca e apreensão se traduz em uma das técnicas mais intrusivas permitidas pelo Estado na vida do cidadão, visto que o Estado exerce força consentida em um de seus espaços mais caros (a sua casa).",
-    "referencia": "(Cap. 7, p. 133)"
-  },
-  {
-    "id": 377,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "Somente às polícias judiciárias foi dado o poder de cumprimento de mandados de busca e apreensão.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. De acordo com o documento, apenas o delegado de polícia e o representante do Ministério Público podem postular a medida e somente à polícia judiciária incumbe dar-lhe o cumprimento.",
-    "referencia": "(Cap. 7, p. 134)"
-  },
-  {
-    "id": 378,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "Os dois métodos de investigação, proativa e reativa, podem se sobrepor e se complementar durante a mesma investigação.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O texto afirma que ambos os tipos não devem ser vistos como excludentes ou estanques, mas como estratégias que se complementam, podendo ser alternadas ou combinadas no curso do inquérito policial.",
-    "referencia": "(Cap. 7, p. 123)"
-  },
-  {
-    "id": 379,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A prova testemunhal é considerada pelo caderno como prova plena e inquestionável, dispensando validação.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O material didático adverte que a prova testemunhal demanda cautela redobrada e que os relatos podem ser influenciados por emoções, má-fé ou interesses, devendo ser submetida a rigorosos critérios de validação e corroboração.",
-    "referencia": "(Cap. 7, p. 132)"
-  },
-  {
-    "id": 380,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo o caderno, as primeiras horas da investigação são fundamentais para a obtenção de materiais e relatos que podem ajudar significativamente a elucidar crimes.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. As primeiras horas são críticas e fundamentais, de acordo com o texto. Quanto mais o tempo avança, maiores as chances de provas e testemunhos se perderem ou deteriorarem irremediavelmente.",
-    "referencia": "(Cap. 7, p. 126)"
-  },
-  {
-    "id": 381,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A instauração do inquérito policial nas hipóteses não flagranciais formaliza-se por meio de auto de prisão em flagrante.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. Nas hipóteses não flagranciais a instauração do inquérito formaliza-se por meio de portaria, ato privativo do delegado de polícia federal. O auto de prisão em flagrante só se aplica em situações flagranciais.",
-    "referencia": "(Cap. 7, p. 127)"
-  },
-  {
-    "id": 382,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "A fase de instauração/avaliação investigativa deve buscar responder: o que sei, o que não sei, o que indica e o que contraindica.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O caderno orienta que, após a avaliação preliminar, deve-se adotar as seguintes indagações: o que sei, o que não sei, o que indica e o que contraindica, relacionando-as com as variáveis tempo, local, autoria, participação, circunstâncias e verbo.",
-    "referencia": "(Cap. 7, p. 127)"
-  },
-  {
-    "id": 383,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A Polícia Federal opera, como regra, a partir de quatro modelos básicos de unidades investigativas: generalistas, grandes equipes de inquérito, especializadas proativas e forças-tarefa.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. A estrutura organizacional atua, como regra, a partir de quatro modelos descritos no texto: unidades generalistas, grandes equipes de inquérito, unidades especializadas em investigações de caráter proativo e atuação em regime de força-tarefa.",
-    "referencia": "(Cap. 8, p. 149)"
-  },
-  {
-    "id": 384,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "Nas unidades generalistas da PF, os delegados de polícia federal atuam diretamente com todos os cargos de forma integrada em equipes permanentes.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O material explica que, de forma geral, nas unidades generalistas, os delegados atuam diretamente somente com escrivães. Os demais policiais atuam integrando grupos especializados, comumente divididos em Núcleos Operacionais e Núcleos de Análise.",
-    "referencia": "(Cap. 8, p. 151)"
-  },
-  {
-    "id": 385,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O Índice de Produtividade Operacional (IPO) é uma ferramenta de gestão da Polícia Federal para comparar a produtividade entre unidades regionais.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O IPO é instituído com a finalidade de viabilizar a comparação entre as unidades regionais, aferindo as atividades operacionais e cruzando a quantidade de recursos alocados com os resultados obtidos.",
-    "referencia": "(Cap. 8, p. 157)"
-  },
-  {
-    "id": 386,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O IPO possui dois tipos de indicadores: transversais (80%) e setoriais (20%).",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. Conforme a Portaria DG/PF nº 18.900/2023, o IPO abrange dois tipos de indicadores: os transversais, valendo 80% e comuns a todas as unidades, e os setoriais, equivalentes a 20%, levando em conta atuações especializadas de cada diretoria.",
-    "referencia": "(Cap. 8, p. 157)"
-  },
-  {
-    "id": 387,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A FICCO (Força Integrada de Combate ao Crime Organizado) é uma iniciativa exclusiva da Polícia Federal, sem participação de outras forças policiais.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O texto explica que a FICCO integra a Polícia Federal com outras polícias e instituições estaduais e federais (Polícia Civil, Militar, PRF e SENAPPEN) em atuação conjunta estruturada.",
-    "referencia": "(Cap. 8, p. 155)"
-  },
-  {
-    "id": 388,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A FICCO é uma iniciativa do Ministério da Justiça e Segurança Pública destinada a integrar forças de segurança no combate ao crime organizado.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O projeto FICCO tem raiz em iniciativa do MJSP com o intuito claro de integrar forças federais e estaduais para coibir e desarticular associações criminosas nos Estados.",
-    "referencia": "(Cap. 8, p. 155)"
-  },
-  {
-    "id": 389,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "As grandes equipes de inquérito são formações permanentes dentro da estrutura organizacional da Polícia Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. Segundo o material didático, uma das principais características das grandes equipes de inquérito é precisamente seu caráter temporário, sendo desmobilizadas à medida que a apuração é finalizada.",
-    "referencia": "(Cap. 8, p. 153)"
-  },
-  {
-    "id": 390,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "Os Grupos de Investigações Sensíveis (GISE) são unidades especializadas em investigações proativas da Polícia Federal voltadas ao tráfico de drogas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. A Polícia Federal mantém diversas unidades proativas. Entre elas estão os Grupos de Investigações Sensíveis (Gise), que possuem como finalidade precípua e especializada lidar com o tráfico de drogas e atuar de forma proativa na repressão ao crime organizado associado a este.",
-    "referencia": "(Cap. 8, p. 152)"
-  },
-  {
-    "id": 391,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A Polícia Federal se estrutura, no âmbito central, em três diretorias com competências definidas na IN 270/2023-DG/PF.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. Conforme ensina o documento base, a Polícia Federal se estrutura no órgão central tematicamente em três diretorias de polícia judiciária: DICOR, DAMAZ e DCIBER, todas previstas e estabelecidas na IN 270/2023.",
-    "referencia": "(Cap. 8, p. 155)"
-  },
-  {
-    "id": 392,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O Prometheus é um programa que visa ao tratamento especial de casuísticas repetitivas, evitando a instauração pulverizada de inquéritos desconexos.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O Prometheus objetiva desenvolver tratamentos metodológicos para investigar crimes em massa (casuísticas repetitivas), obstando a abertura indiscriminada de inquéritos pulverizados que exaurem as equipes de forma desconexa.",
-    "referencia": "(Cap. 8, p. 177)"
-  },
-  {
-    "id": 393,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O Prometheus foi criado em 2017 como programa e permaneceu nessa condição desde sua origem.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O Prometheus originou-se como um 'Projeto' em 2017 e assim foi tratado até o final de 2024, quando, diante de sua consolidação e perenidade, a instituição promoveu a sua redefinição formal de Projeto para Programa.",
-    "referencia": "(Cap. 8, p. 177)"
-  },
-  {
-    "id": 394,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A inclusão no Prometheus é obrigatória para todas as investigações que se enquadrem nas casuísticas que integram o programa.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. A norma é taxativa ao orientar e ressaltar que a inclusão das investigações no âmbito do programa Prometheus reveste-se de obrigatoriedade caso estas incidam nas casuísticas elencadas no manual.",
-    "referencia": "(Cap. 8, p. 179)"
-  },
-  {
-    "id": 395,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O Prometheus permite a manifestação pelo arquivamento mediante inclusão de dados nas bases do programa, em articulação com o Ministério Público Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. Um dos recursos mais inovadores é a capacidade de arquivar preliminarmente com base no cruzamento das informações, decisão que se lastreia em alinhamento entre a PF e o MPF (Enunciado 103).",
-    "referencia": "(Cap. 8, p. 181)"
-  },
-  {
-    "id": 396,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O tratamento especial de casuísticas pelo Prometheus pode justificar a não realização de uma prisão em flagrante.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O próprio normativo do Prometheus declara textualmente que o tratamento no programa não poderá jamais ser invocado para eximir a autoridade de consumar ou justificar a não realização do flagrante caso haja a detenção do infrator.",
-    "referencia": "(Cap. 8, p. 182)"
-  },
-  {
-    "id": 397,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O Projeto TENTÁCULOS centraliza notícias-crime de fraudes bancárias eletrônicas em uma Base Nacional de Fraudes Bancárias Eletrônicas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O Projeto Tentáculos gerencia as comunicações de delitos advindas inicialmente da CEF e depois da FEBRABAN para reuni-las num acervo conhecido como Base Tentáculos de modo a apurar correlações entre os crimes virtuais em vez de processar registros pontuais desconexos.",
-    "referencia": "(Cap. 8, p. 183)"
-  },
-  {
-    "id": 398,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O Projeto TENTÁCULOS foi idealizado no ano de 2007 e implementado com acordo com a CAIXA em 2009.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O caderno registra que o Projeto TENTÁCULOS foi idealizado em 2007 e implementado com a assinatura do Acordo de Cooperação Técnica com a CAIXA em 10 de fevereiro de 2009.",
-    "referencia": "Cap. 8 - Gerenciamento da Investigação, p. 183"
-  },
-  {
-    "id": 399,
-    "disciplina": "Investigaçãoão Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento da Investigação",
-    "tipo": "certo_errado",
-    "enunciado": "O sistema RAPINA é uma ferramenta da PF para armazenamento, análise e cruzamento de informações sobre abuso sexual infantil.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "O RAPINA é um software desenvolvido pela PF para armazenar, analisar e cruzar informações dos relatórios do NCMEC sobre abuso sexual infantil.",
-    "referencia": "Cap. 8 - Gerenciamento da Investigação, p. 186"
-  },
-  {
-    "id": 400,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O NCMEC é uma organização governamental brasileira que reporta crimes de abuso sexual infantil à Polícia Federal.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O material explica que o NCMEC é, na verdade, uma organização não-governamental (sem fins lucrativos) ligada ao Estado Norte-Americano. Quando relatam suspeitos localizados no Brasil, o NCMEC cede ou compartilha os dados da ocorrência à Polícia Federal.",
-    "referencia": "(Cap. 8, p. 186)"
-  },
-  {
-    "id": 401,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A cadeia de custódia é o conjunto de registros cronológicos escritos capazes de garantir a identidade e integridade de um material.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O texto estabelece explicitamente o conceito de cadeia de custódia como sendo o conjunto metodológico e de registros documentados capaz de zelar tanto pela identidade ininterrupta, quanto pela integridade imutável dos objetos do crime.",
-    "referencia": "(Cap. 8, p. 172)"
-  },
-  {
-    "id": 402,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A responsabilidade pela manutenção da cadeia de custódia é exclusiva do perito que coletou o material.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O caderno frisa que qualquer profissional da segurança ou membro de equipe investigativa que entre em contato e custodie os materiais em alguma fase passa a responder coletivamente com os demais pela manutenção zelosa da cadeia de custódia, e não apenas a perícia.",
-    "referencia": "(Cap. 8, p. 173)"
-  },
-  {
-    "id": 403,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O gerenciamento de riscos na atividade policial está relacionado à diminuição de incertezas.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. Segundo o conteúdo exposto, o gerenciamento de riscos baseia-se diretamente na mitigação das incertezas envolvidas em ações ou no ambiente e na máxima reunião possível de dados para resguardar a própria equipe e a operação.",
-    "referencia": "(Cap. 8, p. 167)"
-  },
-  {
-    "id": 404,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo o caderno, um dos indicadores de efetividade da PF é o índice de casos solucionados em relação ao número de inquéritos instaurados.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O texto menciona que um dos balizadores diretos para certificar a eficiência de dada unidade passa a ser o cruzamento numérico entre o total de investigações formalmente instituídas (inquéritos) e a taxa daqueles efetivamente elucidados.",
-    "referencia": "(Cap. 8, p. 151)"
-  },
-  {
-    "id": 405,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O controle da investigação policial é exercido exclusivamente pelo Ministério Público.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. O controle externo constitui papel basilar do Ministério Público, porém o material lembra expressamente de controles internos (como os desempenhados pela corregedoria) e mesmo as fiscalizações conduzidas por demais instituições do país ou a própria sociedade.",
-    "referencia": "(Cap. 8, p. 170)"
-  },
-  {
-    "id": 406,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "Crimes massivos são ocorrências repetidas de uma prática delitiva cujo grande volume inviabiliza a apuração formal de cada fato individualmente.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O caderno define delitos massivos nos exatos termos em que as repetições avolumadas impõem um esforço material inesgotável caso apurados individualmente de maneira desarticulada com outros fatos de idêntico viés.",
-    "referencia": "(Cap. 8, p. 174)"
-  },
-  {
-    "id": 407,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "Operações de polícia judiciária são caracterizadas exclusivamente pelo cumprimento de mandados judiciais.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. Embora as ações impulsionadas por mandados deflagrem as principais operações de polícia judiciária, a Portaria prevê a existência de 'operações de polícia judiciária por ações de complexidade extraordinária', que prescindem da emissão prévia de autorizações judiciais.",
-    "referencia": "(Cap. 8, p. 157)"
-  },
-  {
-    "id": 408,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O delegado de polícia federal deve classificar seus inquéritos entre processos (rotineiros) e projetos (prioritários) para otimizar recursos.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. A orientação dada pelo material indica que, do amplo leque procedimental sob a sua responsabilidade, o delegado fará o cotejo identificando casos usuais (processos) dos excepcionais de alto apelo e que merecem reforços (projetos).",
-    "referencia": "(Cap. 8, p. 162)"
-  },
-  {
-    "id": 409,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A intimação na Polícia Federal deve ser realizada exclusivamente de forma presencial (in loco).",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Errado",
-    "justificativa": "Errado. Com vista à otimização procedimental na linha recomendada pela IN 255/2023, o ato intimatório é flexível e passível de execução não-presencial por aplicativos ou telefone, desde que efetivo no seu atingimento, prevenindo dispêndios despropositados.",
-    "referencia": "(Cap. 8, p. 161)"
-  },
-  {
-    "id": 410,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "O Sistema Integrado de Gestão e Análise Criminal (Sigacrim) é utilizado para cadastro e gestão de operações de polícia judiciária.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. De acordo com o texto base, \"As operações de polícia judiciária são cadastradas e gerenciadas no Sistema Integrado de Gestão e Análise Criminal – Sigacrim.\"",
-    "referencia": "(Cap. 8, p. 158)"
-  },
-  {
-    "id": 411,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "Segundo o caderno, a diferença entre chefia e liderança está no fato de que o chefe exerce poder pela posição, enquanto o líder influencia pessoas por habilidade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O texto estabelece que \"O chefe é o detentor do poder, que é a faculdade de forçar ou compelir alguém a fazer sua vontade, por causa de sua posição ou força\". Em contrapartida, define liderança como \"a habilidade de influenciar pessoas para trabalharem entusiasticamente visando a atingir os objetivos identificados como sendo para o bem comum\".",
-    "referencia": "(Cap. 8, p. 167)"
-  },
-  {
-    "id": 412,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "certo_errado",
-    "enunciado": "A teoria DISC, mencionada no caderno, distingue personalidades em: dominantes, comunicadores, estabilidade e conformidade.",
-    "alternativas": {
-      "Certo": "Certo",
-      "Errado": "Errado"
-    },
-    "resposta_correta": "Certo",
-    "justificativa": "Correto. O texto menciona explicitamente a teoria DISC como uma ferramenta para a análise de perfis comportamentais, destacando que ela \"distingue as personalidades em: dominantes, comunicadores, estabilidade e conformidade\".",
-    "referencia": "(Cap. 8, p. 166)"
-  },
-  {
     "id": "145892",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o art. 144 da Constituição Federal, a segurança pública é caracterizada como:",
@@ -5656,7 +3486,7 @@ const questoesDB = [
   },
   {
     "id": "283741",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a principal função atribuída à Polícia Judiciária no contexto da persecuçção penal?",
@@ -5673,7 +3503,7 @@ const questoesDB = [
   },
   {
     "id": "938274",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da investigaçãoão criminal, o termo 'materialidade' refere-se especificamente a:",
@@ -5690,7 +3520,7 @@ const questoesDB = [
   },
   {
     "id": "472910",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Enquanto a materialidade comprova a existência do crime, a elucidação da 'autoria' busca responder a qual questionamento?",
@@ -5707,7 +3537,7 @@ const questoesDB = [
   },
   {
     "id": "561839",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O inquérito policial desempenha um papel de suma importância na fase pré-processual. Ele pode ser adequadamente definido como:",
@@ -5724,7 +3554,7 @@ const questoesDB = [
   },
   {
     "id": "829471",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo os preceitos da Constituição Federal (art. 144), a Polícia Federal possui funções de destaque, entre as quais inclui-se a competência de:",
@@ -5741,7 +3571,7 @@ const questoesDB = [
   },
   {
     "id": "315482",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito das atribuições investigativas da Polícia Judiciária, qual é o principal objetivo da apuração de um fato considerado, em tese, criminoso?",
@@ -5758,7 +3588,7 @@ const questoesDB = [
   },
   {
     "id": "674019",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca dos conceitos de autoria e materialidade apurados no âmbito da Polícia Judiciária, é correto afirmar:",
@@ -5775,7 +3605,7 @@ const questoesDB = [
   },
   {
     "id": "748392",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O principal embasamento legal primário que define o papel da polícia, as diretrizes gerais da segurança pública no Brasil e a organização das corporações encontra-se consolidado:",
@@ -5792,7 +3622,7 @@ const questoesDB = [
   },
   {
     "id": "192847",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "A inserção da Criminalística no contexto da Polícia Judiciária justifica-se de maneira técnica e científica, atuando principalmente:",
@@ -5809,7 +3639,7 @@ const questoesDB = [
   },
   {
     "id": 105823,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Qual povo foi pioneiro no uso de impressões digitais, utilizando-as já por volta do ano 700?",
@@ -5826,7 +3656,7 @@ const questoesDB = [
   },
   {
     "id": 284910,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Quem é considerado o pai da toxicologia moderna, com destaque para o ano de 1813?",
@@ -5843,7 +3673,7 @@ const questoesDB = [
   },
   {
     "id": 391827,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No ano de 1856, William Herschel implementou qual método voltado à identificação?",
@@ -5860,7 +3690,7 @@ const questoesDB = [
   },
   {
     "id": 402918,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Em 1883, Alphonse Bertillon inovou a identificação criminal. Qual foi o método por ele utilizado?",
@@ -5877,7 +3707,7 @@ const questoesDB = [
   },
   {
     "id": 512398,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A criação do termo 'Criminalística' ocorreu no ano de 1891. Quem foi o autor dessa criação?",
@@ -5894,7 +3724,7 @@ const questoesDB = [
   },
   {
     "id": 692831,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a história da identificação por impressões digitais, assinale a alternativa que associa corretamente o autor à sua contribuição.",
@@ -5911,7 +3741,7 @@ const questoesDB = [
   },
   {
     "id": 738492,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No Brasil, quem foi o pioneiro da Medicina Legal, destacando-se a partir de 1891 em Salvador?",
@@ -5928,7 +3758,7 @@ const questoesDB = [
   },
   {
     "id": 810293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o contexto histórico brasileiro, onde e quando surgiu o conceito moderno de Criminalística no país?",
@@ -5945,7 +3775,7 @@ const questoesDB = [
   },
   {
     "id": 921048,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Como a Criminalística é modernamente conceituada?",
@@ -5962,7 +3792,7 @@ const questoesDB = [
   },
   {
     "id": 958302,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A metodologia da Criminalística exige determinados atributos, que se dividem em atitudinais e técnicos. São exemplos de atributos atitudinais:",
@@ -5979,7 +3809,7 @@ const questoesDB = [
   },
   {
     "id": 982103,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro dos atributos necessários à metodologia da Criminalística, quais representam atributos estritamente técnicos?",
@@ -5996,7 +3826,7 @@ const questoesDB = [
   },
   {
     "id": 994012,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Após o pioneirismo de Raimundo Nina Rodrigues na Medicina Legal em 1891, quais foram os principais nomes responsáveis por expandir a área no Brasil?",
@@ -6013,7 +3843,7 @@ const questoesDB = [
   },
   {
     "id": 149302,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Capítulo 3, como atua o perito criminal federal no contexto da investigaçãoão?",
@@ -6030,7 +3860,7 @@ const questoesDB = [
   },
   {
     "id": 851947,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a função do perito em relação à cadeia de custódia, conforme o texto?",
@@ -6047,7 +3877,7 @@ const questoesDB = [
   },
   {
     "id": 523910,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O perito está sujeito a quais regras dispostas nos artigos 275 a 281 do Código de Processo Penal (CPP)?",
@@ -6064,7 +3894,7 @@ const questoesDB = [
   },
   {
     "id": 782405,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação operacional do perito se dá principalmente em quais situações mencionadas no texto?",
@@ -6081,7 +3911,7 @@ const questoesDB = [
   },
   {
     "id": 395182,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Como o texto descreve a 'integração científica' na atuação pericial?",
@@ -6098,7 +3928,7 @@ const questoesDB = [
   },
   {
     "id": 901573,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O que é apontado como 'viés cognitivo' na atuação do perito?",
@@ -6115,7 +3945,7 @@ const questoesDB = [
   },
   {
     "id": 482016,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os quesitos formulados na investigaçãoão, é correto afirmar que:",
@@ -6132,7 +3962,7 @@ const questoesDB = [
   },
   {
     "id": 617849,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a Portaria 1.192/2022, quais são os elementos textuais obrigatórios de um Laudo Pericial?",
@@ -6149,7 +3979,7 @@ const questoesDB = [
   },
   {
     "id": 259304,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual elemento textual do Laudo Pericial é considerado facultativo, de acordo com o texto base?",
@@ -6166,7 +3996,7 @@ const questoesDB = [
   },
   {
     "id": 310578,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Quais artigos do Código de Processo Penal regulamentam a Cadeia de Custódia, conforme citado no material?",
@@ -6183,7 +4013,7 @@ const questoesDB = [
   },
   {
     "id": 994821,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual documento infralegal foi expressamente citado para definir os elementos textuais do Laudo Pericial?",
@@ -6200,7 +4030,7 @@ const questoesDB = [
   },
   {
     "id": 738129,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é um dos principais efeitos ou finalidades do laudo pericial mencionado ao final do texto?",
@@ -6217,7 +4047,7 @@ const questoesDB = [
   },
   {
     "id": 145923,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo doutrinadores como Nucci e Mirabete, como o perito é definido?",
@@ -6234,7 +4064,7 @@ const questoesDB = [
   },
   {
     "id": 892104,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a lei que, juntamente com o art. 159 do CPP, dispõe sobre os peritos oficiais?",
@@ -6251,7 +4081,7 @@ const questoesDB = [
   },
   {
     "id": 438192,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a Lei 12.030/2009 mencionada no texto, quais profissionais são expressamente considerados peritos oficiais?",
@@ -6268,7 +4098,7 @@ const questoesDB = [
   },
   {
     "id": 710293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Quais são as exigências para a atuação do perito não oficial (ad hoc) descritas no texto?",
@@ -6285,7 +4115,7 @@ const questoesDB = [
   },
   {
     "id": 294815,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o perito no processo civil, assinale a afirmação correta baseada no texto:",
@@ -6302,7 +4132,7 @@ const questoesDB = [
   },
   {
     "id": 651928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O cargo de perito criminal federal exige nível superior em áreas específicas. Qual é a norma que regulamenta esse requisito segundo o texto?",
@@ -6319,7 +4149,7 @@ const questoesDB = [
   },
   {
     "id": 839102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Em qual artigo do Código de Processo Penal (CPP) a disciplina judiciária dos peritos é abordada segundo o texto?",
@@ -6336,7 +4166,7 @@ const questoesDB = [
   },
   {
     "id": 372819,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Como se classificam as provas quanto ao sujeito?",
@@ -6353,7 +4183,7 @@ const questoesDB = [
   },
   {
     "id": 510293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as opções abaixo, qual é considerada uma razão objetiva de impedimento para o perito atuar, de acordo com o texto?",
@@ -6370,7 +4200,7 @@ const questoesDB = [
   },
   {
     "id": 928374,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A expressão latina 'corpus instrumentorum' é citada no resumo estudado. A qual conceito de vital importância pericial ela está diretamente associada no texto?",
@@ -6387,7 +4217,7 @@ const questoesDB = [
   },
   {
     "id": 164829,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "A suspeição do perito baseia-se em razões de que tipo?",
@@ -6404,7 +4234,7 @@ const questoesDB = [
   },
   {
     "id": 283910,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "É um exemplo de razão subjetiva que leva à suspeição do perito, segundo o texto:",
@@ -6421,7 +4251,7 @@ const questoesDB = [
   },
   {
     "id": 748192,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que contém EXCLUSIVAMENTE causas de suspeição (razões subjetivas) listadas no texto:",
@@ -6438,7 +4268,7 @@ const questoesDB = [
   },
   {
     "id": 593817,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Qual artigo do Código Penal (CP) trata do crime de falsa perícia segundo o texto base?",
@@ -6455,7 +4285,7 @@ const questoesDB = [
   },
   {
     "id": 482716,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O que é subjetivamente exigido para a configuração do crime de falsa perícia segundo as notas apresentadas?",
@@ -6472,7 +4302,7 @@ const questoesDB = [
   },
   {
     "id": 142857,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o objetivo principal da prova segundo o texto?",
@@ -6489,7 +4319,7 @@ const questoesDB = [
   },
   {
     "id": 239481,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a confissão como fonte de informação, é correto afirmar:",
@@ -6506,7 +4336,7 @@ const questoesDB = [
   },
   {
     "id": 394815,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, como a fonte de informação testemunhal é classificada?",
@@ -6523,7 +4353,7 @@ const questoesDB = [
   },
   {
     "id": 481529,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 158 do CPP mencionado no texto, o exame de corpo de delito é indispensável para:",
@@ -6540,7 +4370,7 @@ const questoesDB = [
   },
   {
     "id": 519284,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Em crimes que deixam vestígios, a relação entre a confissão do acusado e o exame de corpo de delito é a seguinte:",
@@ -6557,7 +4387,7 @@ const questoesDB = [
   },
   {
     "id": 628491,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O que é definido como 'Corpo de delito' de acordo com o texto?",
@@ -6574,7 +4404,7 @@ const questoesDB = [
   },
   {
     "id": 749182,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O exame de corpo de delito indireto (art. 167 CPP) é cabível quando:",
@@ -6591,7 +4421,7 @@ const questoesDB = [
   },
   {
     "id": 851927,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Através de quais meios o exame de corpo de delito indireto pode ser realizado, segundo o texto?",
@@ -6608,7 +4438,7 @@ const questoesDB = [
   },
   {
     "id": 927481,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Como o texto define o 'objeto da prova'?",
@@ -6625,7 +4455,7 @@ const questoesDB = [
   },
   {
     "id": 194857,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Na classificação das provas quanto ao objeto, como elas se dividem?",
@@ -6642,7 +4472,7 @@ const questoesDB = [
   },
   {
     "id": 281947,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "No texto, o álibi é citado como um exemplo de qual tipo de prova?",
@@ -6659,7 +4489,7 @@ const questoesDB = [
   },
   {
     "id": 372819,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Como se classificam as provas quanto ao sujeito?",
@@ -6676,7 +4506,7 @@ const questoesDB = [
   },
   {
     "id": 419283,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Pegada e sangue são citados no texto como exemplos de:",
@@ -6693,7 +4523,7 @@ const questoesDB = [
   },
   {
     "id": 583921,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Na classificação quanto à forma, quais são os tipos de provas mencionados no texto?",
@@ -6710,7 +4540,7 @@ const questoesDB = [
   },
   {
     "id": 691827,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual é o destino dos vestígios após serem analisados?",
@@ -6727,7 +4557,7 @@ const questoesDB = [
   },
   {
     "id": "184920",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O art. 144 da Constituição Federal determina que a função de polícia judiciária da União seja exercida de que maneira?",
@@ -6744,7 +4574,7 @@ const questoesDB = [
   },
   {
     "id": "372819",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Tendo em vista a finalidade do Inquérito Policial (conforme o art. 5º do CPP), qual é a sua correlação direta com a investigaçãoão criminal?",
@@ -6761,7 +4591,7 @@ const questoesDB = [
   },
   {
     "id": "592018",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a Criminalística atua para atestar cientificamente se uma conduta delituosa de fato ocorreu, ela está contribuindo primariamente para:",
@@ -6778,7 +4608,7 @@ const questoesDB = [
   },
   {
     "id": "713840",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as premissas estabelecidas no Art. 144 da Constituição Federal, a segurança pública no Brasil é fundamentalmente caracterizada como:",
@@ -6795,7 +4625,7 @@ const questoesDB = [
   },
   {
     "id": "629103",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "As polícias de natureza judiciária possuem responsabilidades específicas. Entre suas atribuições centrais, destaca-se:",
@@ -6812,7 +4642,7 @@ const questoesDB = [
   },
   {
     "id": "904721",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro da estrutura legal do processo penal brasileiro e do papel das polícias, a investigaçãoão de infrações penais é documentada num procedimento preparatório denominado:",
@@ -6829,7 +4659,7 @@ const questoesDB = [
   },
   {
     "id": "842109",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando os elementos-chave de uma investigaçãoão policial, a prova da existência real de um crime e a busca de identificar os agentes criminosos correspondem, respectivamente, a:",
@@ -6846,7 +4676,7 @@ const questoesDB = [
   },
   {
     "id": "219485",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "No sistema de segurança pública brasileiro, as polícias responsáveis pela apuração de infrações penais e documentação de Inquéritos Policiais no âmbito dos Estados e da União são, respectivamente:",
@@ -6863,7 +4693,7 @@ const questoesDB = [
   },
   {
     "id": "548392",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à Polícia Federal e sua previsão no artigo 144 da CF/88, assinale a afirmação INCORRETA:",
@@ -6880,7 +4710,7 @@ const questoesDB = [
   },
   {
     "id": "761928",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "O Inquérito Policial, peça fundamental na persecuçção penal do Estado, possui natureza essencialmente:",
@@ -6897,7 +4727,7 @@ const questoesDB = [
   },
   {
     "id": "402837",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Por qual razão os elementos de informação colhidos pela Polícia Judiciária (autoria e materialidade) são fundamentais para o sistema de justiça criminal?",
@@ -6914,7 +4744,7 @@ const questoesDB = [
   },
   {
     "id": "691024",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação técnica em um local de crime (perícia), ligada de forma umbilical à Criminalística, atende diretamente a que premissa da Polícia Judiciária?",
@@ -6931,7 +4761,7 @@ const questoesDB = [
   },
   {
     "id": "938210",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o papel estabelecido pela Constituição para as diferentes corporações, investigar crimes e apurar autoria, no âmbito da União, é uma tarefa delegada à:",
@@ -6948,7 +4778,7 @@ const questoesDB = [
   },
   {
     "id": "384729",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Quando investigadores da Polícia Judiciária identificam evidências que comprovam a falsificação de um lote de documentos (prova do fato criminoso), eles estão estabelecendo qual pilar da investigaçãoão?",
@@ -6965,7 +4795,7 @@ const questoesDB = [
   },
   {
     "id": "582914",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
     "enunciado": "Em síntese, para que uma apuração consolidada em Inquérito Policial atinja sua principal finalidade investigativa e embase a futura denúncia, ela deve buscar demonstrar fundamentalmente dois elementos:",
@@ -6982,7 +4812,7 @@ const questoesDB = [
   },
   {
     "id": 110943,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A obra de Mathieu Orfila, destacada historicamente no ano de 1813, foi fundamental para o estabelecimento e desenvolvimento de qual área aplicada às ciências forenses?",
@@ -6999,7 +4829,7 @@ const questoesDB = [
   },
   {
     "id": 154829,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Em 1880, um importante avanço científico foi divulgado internacionalmente por meio de um artigo sobre impressões digitais na prestigiada revista científica Nature. O responsável por essa publicação foi:",
@@ -7016,7 +4846,7 @@ const questoesDB = [
   },
   {
     "id": 209841,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Antes do uso massivo da datiloscopia, um método específico de identificação criminal foi criado por Alphonse Bertillon em 1883. Esse método ficou conhecido como:",
@@ -7033,7 +4863,7 @@ const questoesDB = [
   },
   {
     "id": 257384,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "O termo 'Criminalística' estabeleceu de forma definitiva uma nova disciplina científica. Em que ano Hans Gross criou oficialmente esse termo?",
@@ -7050,7 +4880,7 @@ const questoesDB = [
   },
   {
     "id": 312954,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Em qual país Juan Vucetich desenvolveu o seu reconhecido sistema de classificação de impressões digitais?",
@@ -7067,7 +4897,7 @@ const questoesDB = [
   },
   {
     "id": 368102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A prática de utilizar impressões digitais começou a ganhar traços modernos na segunda metade do século XIX. Em qual ano William Herschel iniciou o uso sistemático de digitais de polegares?",
@@ -7084,7 +4914,7 @@ const questoesDB = [
   },
   {
     "id": 420935,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da formação forense no Brasil, Raimundo Nina Rodrigues iniciou seus trabalhos em 1891, sendo o grande pioneiro da Medicina Legal. Em qual cidade ele realizou esses feitos?",
@@ -7101,7 +4931,7 @@ const questoesDB = [
   },
   {
     "id": 481239,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Após a fundação das bases por Nina Rodrigues, a expansão da Medicina Legal no Brasil foi consolidada por dois outros grandes expoentes. Quais foram eles?",
@@ -7118,7 +4948,7 @@ const questoesDB = [
   },
   {
     "id": 530491,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "O ano de 1947 marcou o surgimento do conceito moderno de Criminalística no Brasil. Esse marco ocorreu durante qual evento?",
@@ -7135,7 +4965,7 @@ const questoesDB = [
   },
   {
     "id": 612847,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Com base na conceituação estrita apresentada pelo I Congresso de 1947, a Criminalística aplica um conjunto de conhecimentos científicos direcionados prioritariamente para três ações básicas. São elas:",
@@ -7152,7 +4982,7 @@ const questoesDB = [
   },
   {
     "id": 673928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "A tempestividade é uma premissa fundamental para a validade dos exames periciais. De acordo com a metodologia da Criminalística delineada no texto, a tempestividade enquadra-se como um:",
@@ -7169,7 +4999,7 @@ const questoesDB = [
   },
   {
     "id": 745812,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Para que os laudos periciais tenham a devida credibilidade perante a Justiça, a atuação do perito requer certas posturas comportamentais. Quais dos atributos abaixo são puramente ATITUDINAIS, segundo o conceito metodológico da Criminalística?",
@@ -7186,7 +5016,7 @@ const questoesDB = [
   },
   {
     "id": 810934,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "No campo da metodologia, a Criminalística exige a união de atributos comportamentais do perito e da excelência de seu método de trabalho. Assinale a alternativa que apresenta apenas atributos TÉCNICOS exigidos pela disciplina:",
@@ -7203,7 +5033,7 @@ const questoesDB = [
   },
   {
     "id": 894520,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Registros históricos apontam que o uso de impressões digitais é uma prática extremamente antiga, sendo os chineses pioneiros. Em qual ano, aproximadamente, consta o registro desse uso pioneiro pelos chineses?",
@@ -7220,7 +5050,7 @@ const questoesDB = [
   },
   {
     "id": 932481,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
     "enunciado": "Avaliando a evolução temporal da ciência forense exposta na literatura, qual é a ordem cronológica correta dos seguintes eventos: I. Publicação do artigo de Henry Faulds na revista Nature; II. Consolidação da Toxicologia por Mathieu Orfila; III. Criação do termo 'Criminalística' por Hans Gross.",
@@ -7237,7 +5067,7 @@ const questoesDB = [
   },
   {
     "id": 482103,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação operacional do perito criminal federal pode ser dividida em duas modalidades principais citadas no texto. Quais são elas?",
@@ -7254,7 +5084,7 @@ const questoesDB = [
   },
   {
     "id": 718392,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da integração científica, a formulação de hipóteses pelo perito deve ser seguida de qual ação obrigatória, segundo o texto?",
@@ -7271,7 +5101,7 @@ const questoesDB = [
   },
   {
     "id": 930412,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as opções abaixo, baseando-se na Portaria 1.192/2022, assinale a alternativa que apresenta APENAS elementos textuais obrigatórios do laudo pericial:",
@@ -7288,7 +5118,7 @@ const questoesDB = [
   },
   {
     "id": 251948,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o instrumento formal utilizado como forma de comunicação direta entre a investigaçãoão e a perícia?",
@@ -7305,7 +5135,7 @@ const questoesDB = [
   },
   {
     "id": 684209,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O texto classifica o perito criminal federal como um 'auxiliar da justiça'. Qual característica essencial acompanha essa função, garantindo sua independência técnica?",
@@ -7322,7 +5152,7 @@ const questoesDB = [
   },
   {
     "id": 147530,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O viés cognitivo é uma preocupação na atuação pericial. Como esse fenômeno é classificado pelo texto?",
@@ -7339,7 +5169,7 @@ const questoesDB = [
   },
   {
     "id": 593214,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à cadeia de custódia dos vestígios, qual é o papel desempenhado pelo perito, segundo o material?",
@@ -7356,7 +5186,7 @@ const questoesDB = [
   },
   {
     "id": 802371,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Os artigos 275 a 281 do CPP, aos quais o perito criminal federal está sujeito, referem-se a regras que visam garantir a imparcialidade técnica. Estas regras tratam especificamente de:",
@@ -7373,7 +5203,7 @@ const questoesDB = [
   },
   {
     "id": 361905,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Para que a comunicação entre a investigaçãoão e a perícia seja eficiente, o texto determina que os quesitos possuam duas características fundamentais. Quais são elas?",
@@ -7390,7 +5220,7 @@ const questoesDB = [
   },
   {
     "id": 927453,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a parte final do texto, a elaboração rigorosa do laudo pericial desempenha um papel protetivo no âmbito processual. O que o laudo busca prevenir?",
@@ -7407,7 +5237,7 @@ const questoesDB = [
   },
   {
     "id": 508219,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Capítulo 3, a Portaria 1.192/2022 estabelece os elementos textuais do laudo pericial. Qual das alternativas contém um elemento que NÃO é listado como obrigatório?",
@@ -7424,7 +5254,7 @@ const questoesDB = [
   },
   {
     "id": 194837,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O Perito Criminal Federal, no exercício de suas funções na investigaçãoão, deve aplicar seus conhecimentos agindo primariamente como um:",
@@ -7441,7 +5271,7 @@ const questoesDB = [
   },
   {
     "id": 845021,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O arcabouço legal mencionado no texto que fundamenta e normatiza a Cadeia de Custódia está localizado em qual intervalo de artigos?",
@@ -7458,7 +5288,7 @@ const questoesDB = [
   },
   {
     "id": 472190,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "A integração científica na investigaçãoão criminal é descrita no Capítulo 3 como um processo de atuação metódica executado pelo perito. Assinale a alternativa que representa as bases dessa integração:",
@@ -7475,7 +5305,7 @@ const questoesDB = [
   },
   {
     "id": 639824,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
     "enunciado": "O que significa, no contexto das normas do CPP aplicadas ao perito (Arts 275 a 281), a sua sujeição às regras de impedimento e suspeição?",
@@ -7492,7 +5322,7 @@ const questoesDB = [
   },
   {
     "id": 481927,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Na esfera do processo civil, como ocorre a designação do perito e qual a sua forma de remuneração descrita no texto?",
@@ -7509,7 +5339,7 @@ const questoesDB = [
   },
   {
     "id": 938102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a literatura aponta o perito como 'especialista', a quais renomados doutrinadores o texto atribui essa definição específica?",
@@ -7526,7 +5356,7 @@ const questoesDB = [
   },
   {
     "id": 265819,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O art. 159 do Código de Processo Penal (CPP) faz referência direta a qual categoria de peritos segundo as notas?",
@@ -7543,7 +5373,7 @@ const questoesDB = [
   },
   {
     "id": 519283,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto do resumo de criminalística, a expressão 'ad hoc' é utilizada como sinônimo para qual tipo de perito?",
@@ -7560,7 +5390,7 @@ const questoesDB = [
   },
   {
     "id": 748291,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo as disposições do texto, a determinação de que o exame de corpo de delito é indispensável para crimes que deixam vestígios está embasada em qual dispositivo normativo?",
@@ -7577,7 +5407,7 @@ const questoesDB = [
   },
   {
     "id": 192837,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Considere a situação: o perito criminal sorteado para realizar um exame já havia prestado depoimento como testemunha no mesmo processo. Essa situação configura:",
@@ -7594,7 +5424,7 @@ const questoesDB = [
   },
   {
     "id": 837192,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Para a Criminalística, o 'corpo de delito' não é apenas o cadáver da vítima. Conforme o texto, quais são os elementos constitutivos que formam o conjunto do corpo de delito?",
@@ -7611,7 +5441,7 @@ const questoesDB = [
   },
   {
     "id": 618293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "O que o texto estabelece de forma categórica a respeito da existência do 'perito cível oficial'?",
@@ -7628,7 +5458,7 @@ const questoesDB = [
   },
   {
     "id": 392810,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Para atuar como perito criminal federal, exige-se nível superior em áreas específicas. Onde tais áreas encontram-se regulamentadas conforme as notas?",
@@ -7645,7 +5475,7 @@ const questoesDB = [
   },
   {
     "id": 410293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a principal linha divisória traçada no texto para distinguir os institutos do impedimento e da suspeição aplicados aos peritos?",
@@ -7662,7 +5492,7 @@ const questoesDB = [
   },
   {
     "id": 759182,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito oficial que é casado com a advogada que patrocina a defesa do acusado fica impossibilitado de atuar. Segundo o texto, isso ocorre por força de:",
@@ -7679,7 +5509,7 @@ const questoesDB = [
   },
   {
     "id": 528193,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Sendo o perito designado herdeiro presuntivo de uma das partes do litígio penal, ele recairá em qual condição descrita?",
@@ -7696,7 +5526,7 @@ const questoesDB = [
   },
   {
     "id": 918273,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "A condição de ser analfabeto ou possuir idade inferior a 21 anos cria qual tipo de óbice processual à atuação como perito?",
@@ -7713,7 +5543,7 @@ const questoesDB = [
   },
   {
     "id": 347182,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da tipificação do delito de falsa perícia (Art. 342 do CP), o material aponta que a conduta exige 'dolo'. O que isso implica penalmente?",
@@ -7730,7 +5560,7 @@ const questoesDB = [
   },
   {
     "id": 182736,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "As profissões que compõem a perícia de natureza oficial, de acordo com as normas da Lei 12.030/2009 trazidas no texto, abarcam:",
@@ -7747,7 +5577,7 @@ const questoesDB = [
   },
   {
     "id": 628394,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que traz um exemplo claro de 'razão subjetiva' que enseja a suspeição do profissional da perícia:",
@@ -7764,7 +5594,7 @@ const questoesDB = [
   },
   {
     "id": 592817,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito manifesta inimizade capital com o réu submetido à avaliação pericial. A legislação impõe seu distanciamento processual com base na:",
@@ -7781,7 +5611,7 @@ const questoesDB = [
   },
   {
     "id": 718293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Caso o perito figure como 'parte' no próprio processo criminal, essa circunstância barra sua atividade técnica de qual forma?",
@@ -7798,7 +5628,7 @@ const questoesDB = [
   },
   {
     "id": 239485,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do controle da conduta e sanções, a 'Disciplina Judiciária' aplicável ao perito fundamenta-se diretamente em qual dispositivo listado?",
@@ -7815,7 +5645,7 @@ const questoesDB = [
   },
   {
     "id": 849102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 4 - O Perito",
     "tipo": "multipla_escolha",
     "enunciado": "Entre as exigências listadas para um indivíduo atuar como perito não oficial (ad hoc), qual elemento formal o distingue expressamente em suas obrigações?",
@@ -7832,7 +5662,7 @@ const questoesDB = [
   },
   {
     "id": 105934,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Logo em sua definição inicial, o texto afirma categoricamente que a prova possui a função primária de:",
@@ -7849,7 +5679,7 @@ const questoesDB = [
   },
   {
     "id": 294851,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O princípio 'in dubio pro reo' mencionado no texto está intimamente ligado à avaliação probatória. No contexto jurídico, esse princípio significa fundamentalmente que:",
@@ -7866,7 +5696,7 @@ const questoesDB = [
   },
   {
     "id": 381927,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Ao analisar a confissão como fonte de informação, o texto afirma que ela é 'divisível'. O que isso implica no contexto de valoração das provas?",
@@ -7883,7 +5713,7 @@ const questoesDB = [
   },
   {
     "id": 472819,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Outra característica da confissão destacada no texto é o fato de ser 'retratável'. Isso demonstra que a confissão:",
@@ -7900,7 +5730,7 @@ const questoesDB = [
   },
   {
     "id": 561928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das seguintes fontes de informação processual é caracterizada explicitamente no texto como sendo eminentemente 'subjetiva' e 'precária'?",
@@ -7917,7 +5747,7 @@ const questoesDB = [
   },
   {
     "id": 659182,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A fonte de informação classificada no material didático como 'material' baseia-se primordialmente na constatação e análise de:",
@@ -7934,7 +5764,7 @@ const questoesDB = [
   },
   {
     "id": 748291,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo as disposições do texto, a determinação de que o exame de corpo de delito é indispensável para crimes que deixam vestígios está embasada em qual dispositivo normativo?",
@@ -7951,7 +5781,7 @@ const questoesDB = [
   },
   {
     "id": 837192,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Para a Criminalística, o 'corpo de delito' não é apenas o cadáver da vítima. Conforme o texto, quais são os elementos constitutivos que formam o conjunto do corpo de delito?",
@@ -7968,7 +5798,7 @@ const questoesDB = [
   },
   {
     "id": 928374,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A expressão latina 'corpus instrumentorum' é citada no resumo estudado. A qual conceito de vital importância pericial ela está diretamente associada no texto?",
@@ -7985,7 +5815,7 @@ const questoesDB = [
   },
   {
     "id": 183726,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Em determinadas situações, o exame de corpo de delito não pode ser realizado de forma direta sobre os vestígios físicos. Qual o dispositivo legal citado no texto que autoriza o exame na modalidade indireta?",
@@ -8002,7 +5832,7 @@ const questoesDB = [
   },
   {
     "id": 274839,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Considere o seguinte cenário: Um crime deixou vestígios, mas devido à ação do tempo eles desapareceram antes da chegada dos peritos. Todavia, existem registros fotográficos da cena e prontuários médicos da vítima. Nessa hipótese, segundo o texto, estaremos diante de um:",
@@ -8019,7 +5849,7 @@ const questoesDB = [
   },
   {
     "id": 365948,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A frase conclusiva do texto faz uma correlação direta entre os elementos deixados na cena do crime e o processo legal. Antes de se transformarem legalmente em 'provas materiais', os elementos físicos sob avaliação recebem no texto estritamente qual denominação?",
@@ -8036,7 +5866,7 @@ const questoesDB = [
   },
   {
     "id": 456059,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Se a análise processual de um determinado item evidencia que a prova é 'Testemunhal, Documental ou Material', estamos diante da classificação das provas no que diz respeito:",
@@ -8053,7 +5883,7 @@ const questoesDB = [
   },
   {
     "id": 547160,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A classificação das provas pode se dar 'quanto ao sujeito', subdividindo-se em Pessoais ou Reais. Considerando a explicação textual de que pegada e sangue são exemplos de provas 'Reais', é correto inferir que enquadrar-se-iam no conceito de provas 'Pessoais':",
@@ -8070,7 +5900,7 @@ const questoesDB = [
   },
   {
     "id": 638271,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as ramificações de classificação apresentadas, o álibi (justificativa de estar em outro local no momento do crime) é invocado pelo autor como um modelo clássico e explícito de:",
@@ -8087,7 +5917,7 @@ const questoesDB = [
   },
   {
     "id": 729382,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o objeto da prova e as variadas classificações legais expostas no material, assinale a alternativa que traz uma afirmação INCORRETA baseada no texto:",
@@ -8104,7 +5934,7 @@ const questoesDB = [
   },
   {
     "id": 810493,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "O verbo utilizado no trecho 'confissão não supre', na relação com a exigência do exame de corpo de delito em casos onde se deixam vestígios, carrega juridicamente a ideia de que a confissão:",
@@ -8121,7 +5951,7 @@ const questoesDB = [
   },
   {
     "id": 901504,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "Imagine que uma vizinha compareça ao tribunal com a finalidade exclusiva de relatar, sob juramento, o que visualizou na noite em que o delito ocorreu. Tendo em conta apenas o enquadramento do texto estudado, esse depoimento é definido essencialmente como:",
@@ -8138,7 +5968,7 @@ const questoesDB = [
   },
   {
     "id": 112615,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A doutrina apontada no texto diferencia a origem fática do elemento trazido aos autos. Quando se intenciona agrupar as provas com enfoque na sua origem emanação ser humana ou de entes inanimados corporais (físicos), utiliza-se qual parâmetro central de classificação expresso no texto?",
@@ -8155,7 +5985,7 @@ const questoesDB = [
   },
   {
     "id": 203726,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
     "enunciado": "A polícia técnica é acionada e, ao ingressar na cena do crime, os peritos criminais realizam o recolhimento minucioso da faca supostamente utilizada no ferimento letal desferido contra a vítima. Diante da nomenclatura apresentada para compor o escopo do corpo de delito direto, esse instrumento cortante é tecnicamente alocado no conceito de:",
@@ -8172,7 +6002,7 @@ const questoesDB = [
   },
   {
     "id": 845102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a definição expressa no Código de Processo Penal (art. 158-A), como é conceituado o vestígio?",
@@ -8189,7 +6019,7 @@ const questoesDB = [
   },
   {
     "id": 394817,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Para a Criminalística, qual é a principal finalidade dos vestígios encontrados em um local de crime?",
@@ -8206,7 +6036,7 @@ const questoesDB = [
   },
   {
     "id": 512938,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a citação de Borges da Rosa no texto base, o que constitui o 'exame de corpo de delito'?",
@@ -8223,7 +6053,7 @@ const questoesDB = [
   },
   {
     "id": 673821,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Ao se analisar a relação dos vestígios com os fatos, um grande problema enfrentado nos locais de crime é:",
@@ -8240,7 +6070,7 @@ const questoesDB = [
   },
   {
     "id": 928475,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da classificação dos vestígios quanto à sua relação com os fatos, aqueles que se apresentam inicialmente como muito importantes, mas que, ao final, constata-se estarem no local por acaso, são chamados de:",
@@ -8257,7 +6087,7 @@ const questoesDB = [
   },
   {
     "id": 149382,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Um criminoso, após cometer um homicídio, deixa intencionalmente no local do crime um objeto pertencente a um desafeto, com a intenção de incriminá-lo. Na Criminalística, esse vestígio é classificado quanto à sua relação com o fato como:",
@@ -8274,7 +6104,7 @@ const questoesDB = [
   },
   {
     "id": 782019,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Vestígios verdadeiros são caracterizados no texto como aqueles que:",
@@ -8291,7 +6121,7 @@ const questoesDB = [
   },
   {
     "id": 481029,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual deve ser a postura do perito diante de evidências 'plantadas' (vestígios forjados) no local do crime?",
@@ -8308,7 +6138,7 @@ const questoesDB = [
   },
   {
     "id": 302918,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "No início dos trabalhos em um local de crime, é correto afirmar sobre a diferenciação entre vestígios verdadeiros, ilusórios e forjados:",
@@ -8325,7 +6155,7 @@ const questoesDB = [
   },
   {
     "id": 591827,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa incorreta sobre os agentes de vestígios (ou origem dos vestígios):",
@@ -8342,7 +6172,7 @@ const questoesDB = [
   },
   {
     "id": 204958,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das seguintes opções apresenta um exemplo exclusivo de vestígios absolutos cuja origem é biológica/humana, conforme os exemplos do texto?",
@@ -8359,7 +6189,7 @@ const questoesDB = [
   },
   {
     "id": 839201,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito criminal encontra uma cápsula de munição de arma de fogo num local de crime. Segundo a classificação por origem apresentada no texto, esse vestígio é considerado:",
@@ -8376,7 +6206,7 @@ const questoesDB = [
   },
   {
     "id": 758392,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os vestígios relativos, assinale a alternativa que melhor os descreve, de acordo com o texto estudado:",
@@ -8393,7 +6223,7 @@ const questoesDB = [
   },
   {
     "id": 482910,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Considere que uma caneta foi achada em um local onde ocorreu um furto, sem o nome do proprietário gravado. Conforme o texto, qual é a conduta correta do perito em relação a esse material?",
@@ -8410,7 +6240,7 @@ const questoesDB = [
   },
   {
     "id": 920183,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Analise a seguinte situação: Uma ponta de faca é encontrada ao lado de uma gaveta arrombada, sendo a mesma faca utilizada no arrombamento. Este elemento é um exemplo claro de:",
@@ -8427,7 +6257,7 @@ const questoesDB = [
   },
   {
     "id": 381920,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Em uma investigaçãoão de local de morte violenta, uma bituca de cigarro é encontrada a metros do corpo. Os peritos dedicam horas analisando a bituca, até descobrirem, por depoimentos, que um transeunte a jogou ali poucas horas antes do isolamento do local, não tendo nada a ver com o crime. Este é o conceito prático de qual tipo de vestígio, segundo sua relação com o fato?",
@@ -8444,7 +6274,7 @@ const questoesDB = [
   },
   {
     "id": 847592,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o conceito de 'vestígios' na doutrina de Borges da Rosa e demais autores citados, marque a afirmação correta.",
@@ -8461,7 +6291,7 @@ const questoesDB = [
   },
   {
     "id": 564738,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "O que justifica o fato de a perícia não dever seguir 'uma pista só' nos trabalhos iniciais de local de crime?",
@@ -8478,7 +6308,7 @@ const questoesDB = [
   },
   {
     "id": 102938,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a literatura da Criminalística menciona 'evidências plantadas no local', ela está referindo-se diretamente à categoria de:",
@@ -8495,7 +6325,7 @@ const questoesDB = [
   },
   {
     "id": 748596,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 158-A do CPP citado no texto, o que é um vestígio latente?",
@@ -8512,7 +6342,7 @@ const questoesDB = [
   },
   {
     "id": 938475,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito constata a existência de uma grande quantidade de elementos num local de crime e concentra-se inicialmente em interpretar todos como resultado exclusivo da ação do criminoso. Esse tipo de raciocínio prévio é inadequado porque:",
@@ -8529,7 +6359,7 @@ const questoesDB = [
   },
   {
     "id": 283746,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da classificação quanto à origem dos vestígios, a relação de causa e efeito imediata e direta é observada nos vestígios:",
@@ -8546,7 +6376,7 @@ const questoesDB = [
   },
   {
     "id": 657483,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, por que o perito precisa investir tempo na análise de 'pistas falsas' intencionais?",
@@ -8563,7 +6393,7 @@ const questoesDB = [
   },
   {
     "id": 843190,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 239 do Código de Processo Penal citado no texto, como é definido o \"indício\"?",
@@ -8580,7 +6410,7 @@ const questoesDB = [
   },
   {
     "id": 129483,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o método de raciocínio lógico mencionado na definição legal de indício (art. 239 do CPP) utilizado para concluir a existência de outras circunstâncias?",
@@ -8597,7 +6427,7 @@ const questoesDB = [
   },
   {
     "id": 561029,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a interpretação do texto sobre o conceito de indício, é correto afirmar que:",
@@ -8614,7 +6444,7 @@ const questoesDB = [
   },
   {
     "id": 789123,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "O texto ensina que os indícios de um crime podem ser representados de duas formas principais. Quais são elas?",
@@ -8631,7 +6461,7 @@ const questoesDB = [
   },
   {
     "id": 412589,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "No exemplo clássico de uma rixa entre dois vizinhos dado pelo texto, as ameaças públicas e as constantes brigas constituem-se em:",
@@ -8648,7 +6478,7 @@ const questoesDB = [
   },
   {
     "id": 304918,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda no exemplo da rixa entre vizinhos, caso sejam coletados projéteis na vítima com calibre equivalente ao de uma arma apreendida na casa do suspeito, isso representa:",
@@ -8665,7 +6495,7 @@ const questoesDB = [
   },
   {
     "id": 501928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Por que, mesmo provando que os projéteis saíram da arma apreendida na casa do suspeito, a autoria dos disparos ainda não está definitivamente provada?",
@@ -8682,7 +6512,7 @@ const questoesDB = [
   },
   {
     "id": 284716,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "No cenário da arma apreendida e do exame positivo de balística, o texto classifica as provas encontradas em relação à autoria do crime como:",
@@ -8699,7 +6529,7 @@ const questoesDB = [
   },
   {
     "id": 673921,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a citação de Rocha (1999) presente no texto, o valor do indício está em razão de qual aspecto?",
@@ -8716,7 +6546,7 @@ const questoesDB = [
   },
   {
     "id": 459102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo Malatesta, citado por Rocha (1999), o indício deduz o desconhecido do conhecido por meio de qual elemento?",
@@ -8733,7 +6563,7 @@ const questoesDB = [
   },
   {
     "id": 891023,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "O texto traz uma frase do autor Malatesta sobre o peso dos indícios: “os indícios não merecem a apoteose, mas também não merecem...”. Como a frase é completada?",
@@ -8750,7 +6580,7 @@ const questoesDB = [
   },
   {
     "id": 139584,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Logo na introdução do capítulo 7, qual é a situação apontada como corriqueira ao lidar com esses conceitos?",
@@ -8767,7 +6597,7 @@ const questoesDB = [
   },
   {
     "id": 674829,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Na visão de Malatesta (citado por Rocha, 1999), o indício é caracterizado em sua essência como:",
@@ -8784,7 +6614,7 @@ const questoesDB = [
   },
   {
     "id": 395810,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "No caso hipotético narrado, mesmo após confirmar que os disparos saíram da arma encontrada na casa do inimigo vivo, o que ainda é preciso provar para se obter uma prova cabal da ação criminosa?",
@@ -8801,7 +6631,7 @@ const questoesDB = [
   },
   {
     "id": 920184,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Na definição legal de indício estabelecida no art. 239 do CPP, qualifica-se a circunstância que embasará a indução. Essa circunstância deve ser inicialmente:",
@@ -8818,7 +6648,7 @@ const questoesDB = [
   },
   {
     "id": 294857,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Para que uma circunstância conhecida e provada seja considerada um indício nos termos do art. 239 do CPP, além de autorizar a indução, qual outra característica ela deve ter obrigatoriamente?",
@@ -8835,7 +6665,7 @@ const questoesDB = [
   },
   {
     "id": 582910,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "A interpretação do artigo 239 do Código de Processo Penal leva o autor do texto a concluir que o indício é, primordialmente:",
@@ -8852,7 +6682,7 @@ const questoesDB = [
   },
   {
     "id": 849201,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "Analise o caso dos dois vizinhos e assinale a alternativa correta sobre as brigas constantes entre eles antes do homicídio.",
@@ -8869,7 +6699,7 @@ const questoesDB = [
   },
   {
     "id": 485729,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 7 - Indícios",
     "tipo": "multipla_escolha",
     "enunciado": "A frase de Malatesta \"os indícios não merecem a apoteose, mas também não merecem a excomunhão maior\" demonstra qual posição sobre o uso dos indícios?",
@@ -8886,7 +6716,7 @@ const questoesDB = [
   },
   {
     "id": 105923,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, nos termos do art. 178 do CPP, os exames periciais são realizados mediante requisição de quem?",
@@ -8903,7 +6733,7 @@ const questoesDB = [
   },
   {
     "id": 395827,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o horário e os dias permitidos para a realização do exame de corpo de delito, conforme o art. 161 do CPP e o texto base, assinale a opção correta.",
@@ -8920,7 +6750,7 @@ const questoesDB = [
   },
   {
     "id": 692837,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à prorrogação do prazo para a elaboração do laudo pericial (art. 160 do CPP), é correto afirmar:",
@@ -8937,7 +6767,7 @@ const questoesDB = [
   },
   {
     "id": 781920,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a regra geral disposta no art. 162 do CPP quanto ao prazo mínimo em que a autópsia deve ser realizada após o óbito?",
@@ -8954,7 +6784,7 @@ const questoesDB = [
   },
   {
     "id": 892019,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual é a exceção aplicável ao prazo mínimo para realização da autópsia?",
@@ -8971,7 +6801,7 @@ const questoesDB = [
   },
   {
     "id": 901827,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No caso de morte violenta, em que a lei permite apenas o 'simples exame externo', quem detém competência para tomar a decisão de não realizar a verificação interna?",
@@ -8988,7 +6818,7 @@ const questoesDB = [
   },
   {
     "id": 128374,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Com base no art. 169 do CPP, relativo à inserção de ilustrações em laudos periciais de locais de crime, assinale a correta.",
@@ -9005,7 +6835,7 @@ const questoesDB = [
   },
   {
     "id": 293847,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para as perícias de laboratório (art. 170 do CPP), qual a previsão legal referente às ilustrações?",
@@ -9022,7 +6852,7 @@ const questoesDB = [
   },
   {
     "id": 384756,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual obrigação recai sobre os peritos, de acordo com o art. 170 do CPP, a respeito do material biológico ou químico analisado?",
@@ -9039,7 +6869,7 @@ const questoesDB = [
   },
   {
     "id": 485769,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, a norma que determina a conservação de parte do material analisado possui um aspecto prático problemático. Qual é ele?",
@@ -9056,7 +6886,7 @@ const questoesDB = [
   },
   {
     "id": 596870,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à fotografia de cadáveres em locais de crime, o art. 164 do CPP impõe que:",
@@ -9073,7 +6903,7 @@ const questoesDB = [
   },
   {
     "id": 697881,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Do ponto de vista da eficácia probatória, qual o principal papel do laudo pericial com ilustrações bem produzidas?",
@@ -9090,7 +6920,7 @@ const questoesDB = [
   },
   {
     "id": 708992,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Como se deve proceder quando a avaliação do valor de coisas deterioradas ou produtos de crime precisar ser feita, mas não houver acesso físico direto a elas?",
@@ -9107,7 +6937,7 @@ const questoesDB = [
   },
   {
     "id": 819003,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Ao realizarem a avaliação do valor de bens de forma indireta (art. 172 do CPP), o que os peritos têm o dever essencial de relatar no laudo?",
@@ -9124,7 +6954,7 @@ const questoesDB = [
   },
   {
     "id": 920114,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em crimes praticados com destruição, rompimento de obstáculo ou escalada (art. 171 do CPP), qual é a principal tarefa técnica atribuída aos peritos na interpretação dos vestígios?",
@@ -9141,7 +6971,7 @@ const questoesDB = [
   },
   {
     "id": 131225,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Nos exames periciais que envolvem situações de incêndio (art. 173 do CPP), qual dos itens a seguir NÃO figura como elemento primário a ser verificado pelos peritos no local?",
@@ -9158,7 +6988,7 @@ const questoesDB = [
   },
   {
     "id": 242336,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a doutrina (Mirabete) citada no material, um evento de incêndio sob investigaçãoão pericial pode caracterizar diversos crimes, tais como:",
@@ -9175,7 +7005,7 @@ const questoesDB = [
   },
   {
     "id": 353447,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para avaliar instrumentos empregados na prática criminosa, o perito focará em aferir duas qualidades principais listadas no texto. São elas:",
@@ -9192,7 +7022,7 @@ const questoesDB = [
   },
   {
     "id": 464558,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em exames para o reconhecimento de escritos (exames grafotécnicos), os padrões de confrontação devem atender a quatro requisitos básicos consolidados na Criminalística. Quais são?",
@@ -9209,7 +7039,7 @@ const questoesDB = [
   },
   {
     "id": 575669,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 174 do CPP, o que a autoridade deve providenciar se os documentos fornecidos para comparação em exame de escritos forem considerados insuficientes?",
@@ -9226,7 +7056,7 @@ const questoesDB = [
   },
   {
     "id": 686770,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Caso a pessoa suspeita esteja ausente, mas se saiba o local exato onde se encontra, como poderá ser realizada a diligência do ditado para padrões grafotécnicos?",
@@ -9243,7 +7073,7 @@ const questoesDB = [
   },
   {
     "id": 797881,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando houver franca divergência entre as conclusões de dois peritos encarregados do exame (art. 180 do CPP), qual o desfecho processual inicial?",
@@ -9260,7 +7090,7 @@ const questoesDB = [
   },
   {
     "id": 808992,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Se o terceiro perito, nomeado para desempatar uma divergência prévia entre dois peritos (art. 180 do CPP), também apresentar uma conclusão divergente de ambos:",
@@ -9277,7 +7107,7 @@ const questoesDB = [
   },
   {
     "id": 919003,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Verificada a existência de omissões, obscuridades ou contradiçções no laudo assinado pelos peritos, a autoridade judiciária competente (art. 181 do CPP):",
@@ -9294,7 +7124,7 @@ const questoesDB = [
   },
   {
     "id": 122114,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Nos locais em que for praticada uma infração penal que deixou vestígios, qual é a obrigação imediata da autoridade policial até que os peritos cheguem para realizar o exame? (art. 169 CPP)",
@@ -9311,7 +7141,7 @@ const questoesDB = [
   },
   {
     "id": 233225,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No caso de terem ocorrido alterações inadvertidas no estado original das coisas de um local de crime antes da realização da perícia:",
@@ -9328,7 +7158,7 @@ const questoesDB = [
   },
   {
     "id": 344336,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as diretrizes do Código de Processo Penal e do texto, acerca de crimes que deixam vestígios probatórios materiais:",
@@ -9345,7 +7175,7 @@ const questoesDB = [
   },
   {
     "id": 455447,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o disposto no CPP, a solicitação de exame pericial por parte da autoridade, nos casos que deixam vestígios probatórios materiais, configura juridicamente um ato:",
@@ -9362,7 +7192,7 @@ const questoesDB = [
   },
   {
     "id": 566558,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Na estrutura da Polícia Federal abordada no documento, quem responde pela função de 'diretor da repartição' a quem as perícias são requisitadas nas Delegacias locais (não nas Superintendências)?",
@@ -9379,7 +7209,7 @@ const questoesDB = [
   },
   {
     "id": 677669,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A requisição da autoridade à direção da repartição, conforme consta do art. 178 do CPP, enseja também o que na fase de processamento penal?",
@@ -9396,7 +7226,7 @@ const questoesDB = [
   },
   {
     "id": 788770,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Além de redigir o que lhe for ditado, que outro tipo de material pode servir de padrão para comparar os escritos num exame grafotécnico, nos termos do art. 174, II?",
@@ -9413,7 +7243,7 @@ const questoesDB = [
   },
   {
     "id": 899881,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual dos seguintes fatos é essencial relatar quando o perito médico decidir que um exame externo num caso de morte violenta será o suficiente para elucidar as dúvidas do corpo de delito e não efetuar a necrópsia interna?",
@@ -9430,7 +7260,7 @@ const questoesDB = [
   },
   {
     "id": 284710,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o art. 160 do Código de Processo Penal, o que os peritos devem obrigatoriamente fazer no laudo pericial?",
@@ -9447,7 +7277,7 @@ const questoesDB = [
   },
   {
     "id": 395821,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação ao prazo para a elaboração do laudo pericial, assinale a alternativa que está em conformidade com o parágrafo único do art. 160 do CPP:",
@@ -9464,7 +7294,7 @@ const questoesDB = [
   },
   {
     "id": 481923,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para a maioria dos doutrinadores, quais são as partes mínimas que devem compor a structure de um laudo pericial?",
@@ -9481,7 +7311,7 @@ const questoesDB = [
   },
   {
     "id": 574839,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das informações abaixo NÃO faz parte do preâmbulo do laudo pericial?",
@@ -9498,7 +7328,7 @@ const questoesDB = [
   },
   {
     "id": 612349,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito da Polícia Federal, como ocorre a padronização do trabalho pericial em relação à elaboração dos laudos?",
@@ -9515,7 +7345,7 @@ const questoesDB = [
   },
   {
     "id": 834567,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as regras de numeração dos laudos periciais na Polícia Federal, é correto afirmar que a numeração:",
@@ -9532,7 +7362,7 @@ const questoesDB = [
   },
   {
     "id": 912834,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do momento de geração da numeração de um laudo, quando o número deve ser reservado no Sistema Nacional de Gestão da Criminalística?",
@@ -9549,7 +7379,7 @@ const questoesDB = [
   },
   {
     "id": 348576,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as premissas estabelecidas no texto doutrinário, o laudo pericial tem seu real valor conferido pelo(a):",
@@ -9566,7 +7396,7 @@ const questoesDB = [
   },
   {
     "id": 457689,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da valoração da prova pericial pelo magistrado, a regra do sistema liberatório adotado pelo art. 182 do Código de Processo Penal determina que:",
@@ -9583,7 +7413,7 @@ const questoesDB = [
   },
   {
     "id": 568790,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a doutrina de Tsunoda (2011) citada no texto, até que momento perdura a responsabilidade do perito criminal no processo penal?",
@@ -9600,7 +7430,7 @@ const questoesDB = [
   },
   {
     "id": 679801,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em conformidade com o Mapa Estratégico 2012/2016 citado, qual constitui a missão fundamental da Perícia Criminal Federal?",
@@ -9617,7 +7447,7 @@ const questoesDB = [
   },
   {
     "id": 780912,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o exame de constatação preliminar da natureza de substância, previsto na Lei de Entorpecentes (Lei nº 11.343/2006), é CORRETO afirmar:",
@@ -9634,7 +7464,7 @@ const questoesDB = [
   },
   {
     "id": 902134,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em face da legislação processual penal brasileira, além do exame de constatação preliminar de substâncias entorpecentes, quantos outros exames periciais de natureza estritamente preliminar encontram previsão legal?",
@@ -9651,7 +7481,7 @@ const questoesDB = [
   },
   {
     "id": 113245,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Que tipo de documento pericial expressa a manifestação técnica sobre determinado assunto - como o esclarecimento sobre a conclusão de um laudo por determinação judicial - ou trata de matéria administrativa que não justifique a confecção de um laudo?",
@@ -9668,7 +7498,7 @@ const questoesDB = [
   },
   {
     "id": 224356,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando um parecer técnico é elaborado por expressa determinação judicial visando esclarecer o conteúdo de um laudo pericial anterior, quem tem a competência preferencial para realizá-lo?",
@@ -9685,7 +7515,7 @@ const questoesDB = [
   },
   {
     "id": 335467,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Nas ações cíveis, como é comumente denominado o relatório de exame confeccionado por profissionais técnicos contratados pelas partes para atuar em litígios (assistentes técnicos), sem nomeação oficial do Estado?",
@@ -9702,7 +7532,7 @@ const questoesDB = [
   },
   {
     "id": 446578,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito rotineiro da Polícia Federal, além do esclarecimento direto sobre laudos exarados, em que outras situações ordinárias ocorre a elaboração de pareceres técnicos?",
@@ -9719,7 +7549,7 @@ const questoesDB = [
   },
   {
     "id": 557689,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O que constitui a 'Informação' dentro da estrutura de produção documental típica de um órgão de perícia criminal?",
@@ -9736,7 +7566,7 @@ const questoesDB = [
   },
   {
     "id": 668790,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No que diz respeito à subscrição (assinatura) do documento intitulado 'Informação' elaborado no curso das atividades periciais, é correto inferir da leitura que:",
@@ -9753,7 +7583,7 @@ const questoesDB = [
   },
   {
     "id": 779801,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a real fundamentação técnica subjacente à exigência procedimental de uma descrição fidedigna e bem completa dos materiais e locais examinados, inserida no laudo?",
@@ -9770,7 +7600,7 @@ const questoesDB = [
   },
   {
     "id": 880912,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A elaboração do laudo pericial exige o cumprimento de preceitos formais e estruturais na redação dos capítulos. A etapa designada de conclusão possui como marca essencial ser:",
@@ -9787,7 +7617,7 @@ const questoesDB = [
   },
   {
     "id": 991023,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Frente aos laudos periciais acostados, o juiz que presidirá a causa está amparado legalmente pelo princípio do livre convencimento motivado. Diante disso, segundo o texto, caso julgue conveniente e oportuno, ele NÃO dispõe da prerrogativa processual de:",
@@ -9804,7 +7634,7 @@ const questoesDB = [
   },
   {
     "id": 102134,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A atuação pericial detém impacto social transcendente, conforme demonstrado no texto. Um reflexo marcante de inovações de cunho tecnológico na área forense reside no fenômeno das reaberturas sucessivas de casos transitados. Em regra, a quais tipos de exames específicos o documento correlaciona precipuamente as recentes absolvições postumas de indivíduos flagrantemente condenados que porventura cumpriam severas penas de cerceamento de liberdade injustamente?",
@@ -9821,7 +7651,7 @@ const questoesDB = [
   },
   {
     "id": 213245,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A introdução técnica que encabeça qualquer estrutura de laudo criminal detém a precípua finalidade de orientar administrativamente a vinculação jurídica do procedimento aos sistemas cartorários. Qual dentre os conjuntos de informações a seguir constitui parte expressamente referendada pelo texto basilar como englobada inexoravelmente pelo elemento nominado de preâmbulo?",
@@ -9838,7 +7668,7 @@ const questoesDB = [
   },
   {
     "id": 324356,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 9 - Laudo Pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o conjunto estrutural do relatório oficial dos exames (laudo) elencado por parte representativa da doutrina forense, depreende-se da análise do capítulo versante à 'exposição e discussão' que este conglomera precipuamente:",
@@ -9855,7 +7685,7 @@ const questoesDB = [
   },
   {
     "id": 149275,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A revisão conceitual e metodológica internacional das ciências forenses nas últimas décadas foi motivada precipuamente pela necessidade de:",
@@ -9872,7 +7702,7 @@ const questoesDB = [
   },
   {
     "id": 927451,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O relatório 'Strengthening Forensic Science in the United States: A Path Forward', publicado em 2009 pelo National Research Council, teve como principal impacto:",
@@ -9889,7 +7719,7 @@ const questoesDB = [
   },
   {
     "id": 381045,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em 2016, o PCAST publicou um relatório focado na validade científica de determinados métodos na perícia. O principal alvo de escrutínio deste relatório foram os:",
@@ -9906,7 +7736,7 @@ const questoesDB = [
   },
   {
     "id": 510398,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a visão introduzida pelo PCAST (2016) e absorvida pelo debate internacional forense, para que um método comparativo seja validado é necessário:",
@@ -9923,7 +7753,7 @@ const questoesDB = [
   },
   {
     "id": 204857,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Atualmente, o principal conjunto normativo internacional especificamente dedicado às ciências forenses, que busca transformar em linguagem normativa os aprendizados acumulados pela revisão crítica da área, é a série:",
@@ -9940,7 +7770,7 @@ const questoesDB = [
   },
   {
     "id": 769182,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Antes da consolidação de um conjunto normativo forense específico, os laboratórios periciais utilizavam amplamente normas gerais de qualidade, com destaque para a norma voltada à competência de laboratórios de ensaio e calibração conhecida como:",
@@ -9957,7 +7787,7 @@ const questoesDB = [
   },
   {
     "id": 618304,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, por qual razão principal a norma ISO/IEC 17025 era considerada insuficiente para as necessidades específicas das ciências forenses?",
@@ -9974,7 +7804,7 @@ const questoesDB = [
   },
   {
     "id": 894512,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O desenvolvimento da norma internacional dedicada às ciências forenses estruturou-se na ISO por meio de um programa internacional próprio no âmbito de qual comitê técnico?",
@@ -9991,7 +7821,7 @@ const questoesDB = [
   },
   {
     "id": 435928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Na organização do fluxo do processo forense apresentado no texto, o 'Processo Pericial' é composto fundamentalmente por duas grandes fases, que são:",
@@ -10008,7 +7838,7 @@ const questoesDB = [
   },
   {
     "id": 158473,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a estrutura normativa apresentada, a fase de 'Exame Pericial' engloba três etapas sequenciais:",
@@ -10025,7 +7855,7 @@ const questoesDB = [
   },
   {
     "id": 273649,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No que tange aos aspectos de acreditação e poder normativo da série ISO 21043 em relação aos ordenamentos jurídicos nacionais, é correto afirmar:",
@@ -10042,7 +7872,7 @@ const questoesDB = [
   },
   {
     "id": 501826,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual parte da série ISO 21043 é responsável por estabelecer a terminologia padronizada para uso em ciências forenses, servindo de base estrutural para as demais?",
@@ -10059,7 +7889,7 @@ const questoesDB = [
   },
   {
     "id": 364917,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No arcabouço normativo internacional, a norma ISO 21043-1 conceitua como o 'lugar ou objeto que requer, ou é sujeito a, exame forense' o termo:",
@@ -10076,7 +7906,7 @@ const questoesDB = [
   },
   {
     "id": 820354,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Na harmonização da ISO 21043-1 com o arcabouço normativo nacional brasileiro, optou-se por substituir a terminologia 'cena' pela expressão consagrada na nossa doutrina e legislação:",
@@ -10093,7 +7923,7 @@ const questoesDB = [
   },
   {
     "id": 689105,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O 'objeto, substância, material ou marca que é coletada, derivada ou amostrada durante o processo forense' recebe, na ISO 21043-1, o nome de:",
@@ -10110,7 +7940,7 @@ const questoesDB = [
   },
   {
     "id": 715493,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A norma ISO 21043-1 distingue três níveis do raciocínio pericial, correspondentes, respectivamente, a: o que é constatado; a atribuição de significado técnico; e a conclusão formulada. Esses três níveis são denominados:",
@@ -10127,7 +7957,7 @@ const questoesDB = [
   },
   {
     "id": 932586,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A Parte 3 da série ISO 21043 define 'análise' como a etapa que visa detectar, medir ou comparar propriedades. Segundo a norma, a escolha do método analítico depende primeiramente de qual fator?",
@@ -10144,7 +7974,7 @@ const questoesDB = [
   },
   {
     "id": 483921,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A norma ISO 21043-3 reconhece subtipos de análise baseados no propósito do exame. A análise que responde à pergunta 'O que é o item?', buscando atribuir o material à classe mais específica possível, é denominada:",
@@ -10161,7 +7991,7 @@ const questoesDB = [
   },
   {
     "id": 591740,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, determinar que um pó branco é um alcaloide (classe mais ampla) e depois determinar que esse alcaloide é especificamente cocaína exemplificam, respectivamente, o subtipo de análise de:",
@@ -10178,7 +8008,7 @@ const questoesDB = [
   },
   {
     "id": 128509,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O exame que afere a quantidade de arquivos de pornografia infanto-juvenil transferidos de um computador enquadra-se no subtipo analítico que responde à pergunta 'Quanto tem do item?'. Esse subtipo é conhecido como:",
@@ -10195,7 +8025,7 @@ const questoesDB = [
   },
   {
     "id": 846201,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Comparar um projétil de arma de fogo com um padrão para determinar se ambos procedem da mesma arma é um exemplo típico de qual subtipo de análise da ISO 21043-3?",
@@ -10212,7 +8042,7 @@ const questoesDB = [
   },
   {
     "id": 418295,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O uso do julgamento profissional, da lógica e de dados relevantes (incluindo modelos estatísticos) para inferir o significado das observações e formular opiniões caracteriza a etapa tratada na ISO 21043-4, denominada:",
@@ -10229,7 +8059,7 @@ const questoesDB = [
   },
   {
     "id": 759023,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a ISO 21043-4, qual o modo de interpretação no qual o perito NÃO parte de proposições formuladas no início do exame, gerando possíveis explicações a partir do que foi observado (como em um incêndio com causa ainda incerta)?",
@@ -10246,7 +8076,7 @@ const questoesDB = [
   },
   {
     "id": 362918,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em contraponto, o modo de interpretação que exige ao menos duas proposições concorrentes e mutuamente excludentes, formuladas de início (ex.: 'O carro estava acima do limite?' vs 'O carro não estava acima do limite?'), é denominado:",
@@ -10263,7 +8093,7 @@ const questoesDB = [
   },
   {
     "id": 921845,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "As opiniões formuladas na interpretação possuem vários tipos. Qual é a forma em que o perito expressa a proporção entre a probabilidade das observações caso a hipótese 1 seja verdadeira, frente à probabilidade caso a hipótese 2 seja verdadeira?",
@@ -10280,7 +8110,7 @@ const questoesDB = [
   },
   {
     "id": 613290,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as Opiniões Categóricas, que são expressas quando o perito julga ser impossível obter as observações caso qualquer outra hipótese fosse verdadeira, a ISO estabelece que elas:",
@@ -10297,7 +8127,7 @@ const questoesDB = [
   },
   {
     "id": 804576,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a norma, durante a interpretação, deve haver o controle dos vieses cognitivos, os quais são definidos como:",
@@ -10314,7 +8144,7 @@ const questoesDB = [
   },
   {
     "id": 178934,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A Parte 5 da série ISO 21043 regula qual aspecto do processo forense?",
@@ -10331,7 +8161,7 @@ const questoesDB = [
   },
   {
     "id": 542198,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Embora a norma internacional (ISO 21043-5) estabeleça categorias distintas para laudos – preliminar, final, complementar, corrigido e obsoletado –, a Criminalística Federal brasileira NÃO adotou essa taxonomia completa, prevendo essencialmente apenas:",
@@ -10348,7 +8178,7 @@ const questoesDB = [
   },
   {
     "id": 731052,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Além da ISO, existem outros referenciais. Qual organização norte-americana foi criada pelo NIST em 2014, substituindo os antigos SWGs, com o objetivo de reunir comitês técnicos para publicar 'standards' e 'guidelines' normativos na área forense?",
@@ -10365,7 +8195,7 @@ const questoesDB = [
   },
   {
     "id": 269814,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A ENFSI (rede europeia) possui forte relevância internacional por produzir 'Best Practice Manuals' e promover o modelo de 'evaluative reporting'. Segundo o texto, esse modelo expressa o valor informativo do vestígio em relação a hipóteses concorrentes através de:",
@@ -10382,7 +8212,7 @@ const questoesDB = [
   },
   {
     "id": 912538,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No campo dos referenciais institucionais, a ILAC (International Laboratory Accreditation Cooperation) possui importância na regulamentação forense global por ser o organismo internacional que:",
@@ -10399,7 +8229,7 @@ const questoesDB = [
   },
   {
     "id": 493067,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O documento normativo ISO/IEC 27037, referenciado expressamente pela ISO 21043-3, estabelece diretrizes internacionais e é focado no tratamento de que tipo de material?",
@@ -10416,7 +8246,7 @@ const questoesDB = [
   },
   {
     "id": 358412,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito conceitual e filosófico recente da ciência forense, qual documento (embora não normativo) firmou-se como marco relevante por enunciar os princípios fundamentais, como a compreensão do vestígio como objeto científico autônomo e a independência em relação ao sistema de justiça?",
@@ -10433,7 +8263,7 @@ const questoesDB = [
   },
   {
     "id": 492013,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a Lei nº 13.964/2019, o que se considera cadeia de custódia?",
@@ -10450,7 +8280,7 @@ const questoesDB = [
   },
   {
     "id": 284719,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o objetivo principal da implementação e consolidação da cadeia de custódia no âmbito da Criminalística por parte do gestor?",
@@ -10467,7 +8297,7 @@ const questoesDB = [
   },
   {
     "id": 753920,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a IN DG/PF nº 297/2024, a cadeia de custódia no âmbito da Polícia Federal é definida como:",
@@ -10484,7 +8314,7 @@ const questoesDB = [
   },
   {
     "id": 921034,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a IN DG/PF nº 297/2024, como o histórico da cadeia de custódia é obtido para fins de inquérito e de controle interno, respectivamente?",
@@ -10501,7 +8331,7 @@ const questoesDB = [
   },
   {
     "id": 103948,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Manual de Boas Práticas de Gestão da Criminalística (MBP), qual é o principal sistema por meio do qual a cadeia de custódia é gerenciada nas unidades da Criminalística?",
@@ -10518,7 +8348,7 @@ const questoesDB = [
   },
   {
     "id": 482105,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Manual de Boas Práticas (MBP), o que deve acompanhar todo documento ou material recebido para exame forense?",
@@ -10535,7 +8365,7 @@ const questoesDB = [
   },
   {
     "id": 619284,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "A cadeia de custódia pode ser dividida em dois momentos que se complementam. Quais são eles?",
@@ -10552,7 +8382,7 @@ const questoesDB = [
   },
   {
     "id": 395018,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o principal benefício técnico e legal proporcionado pela cadeia de custódia externa?",
@@ -10569,7 +8399,7 @@ const questoesDB = [
   },
   {
     "id": 692034,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "A cadeia de custódia interna abrange qual período específico na linha do tempo do vestígio?",
@@ -10586,7 +8416,7 @@ const questoesDB = [
   },
   {
     "id": 113940,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O texto menciona que, de maneira geral, a cadeia de custódia externa se inicia formalmente com qual ato específico em relação aos vestígios?",
@@ -10603,7 +8433,7 @@ const questoesDB = [
   },
   {
     "id": 782012,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Após a preservação e o reconhecimento do vestígio, os procedimentos de cadeia de custódia externa seguem com a:",
@@ -10620,7 +8450,7 @@ const questoesDB = [
   },
   {
     "id": 204591,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o acondicionamento dos vestígios durante a cadeia externa, a que se deve atentar especialmente?",
@@ -10637,7 +8467,7 @@ const questoesDB = [
   },
   {
     "id": 993102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Como deve ser a documentação referente à coleta do vestígio, segundo os preceitos estudados?",
@@ -10654,7 +8484,7 @@ const questoesDB = [
   },
   {
     "id": 348201,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o documento oficialmente adotado pela Polícia Federal (a partir da IN DG/PF nº 297/2024) para formalizar as informações relativas às ações de fixação, coleta, acondicionamento e transporte do vestígio?",
@@ -10671,7 +8501,7 @@ const questoesDB = [
   },
   {
     "id": 502849,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 158-B, inciso V, da Lei nº 13.964/2019, como os vestígios coletados devem ser acondicionados?",
@@ -10688,7 +8518,7 @@ const questoesDB = [
   },
   {
     "id": 785430,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O que deve ocorrer no exato momento da chegada do vestígio à unidade de criminalística (recepção na secretaria)?",
@@ -10705,7 +8535,7 @@ const questoesDB = [
   },
   {
     "id": 204918,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O que a secretaria da unidade de criminalística deve fazer se detectar qualquer inconsistência na primeira conferência do vestígio?",
@@ -10722,7 +8552,7 @@ const questoesDB = [
   },
   {
     "id": 671029,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Após o registro no Siscrim pela secretaria e a designação pelo gestor, quem realiza a segunda conferência na embalagem contendo o vestígio?",
@@ -10739,7 +8569,7 @@ const questoesDB = [
   },
   {
     "id": 558291,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a Instrução Normativa nº 163/2020 – DG/PF, qual mecanismo deve ser anexado ao vestígio após seu ingresso na unidade para registrar o rompimento de lacres?",
@@ -10756,7 +8586,7 @@ const questoesDB = [
   },
   {
     "id": 920193,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a Mensagem Oficial-Circular da DITEC/PF (2020), o que o perito criminal deve fazer com os materiais examinados e o lacre inicial ao fim dos exames?",
@@ -10773,7 +8603,7 @@ const questoesDB = [
   },
   {
     "id": 418293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Para garantir a preservação da cadeia de custódia, como devem ser as instalações dos locais de custódia da criminalística?",
@@ -10790,7 +8620,7 @@ const questoesDB = [
   },
   {
     "id": 662918,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "O texto elenca várias vantagens de se ter ambientes próprios instalados para contemplar uma cadeia de custódia robusta. Indique qual das alternativas NÃO é uma vantagem mencionada no texto.",
@@ -10807,7 +8637,7 @@ const questoesDB = [
   },
   {
     "id": 551928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Nos termos do Art. 158-D da Lei nº 13.964/2019, o recipiente para acondicionamento do vestígio será determinado:",
@@ -10824,7 +8654,7 @@ const questoesDB = [
   },
   {
     "id": 319203,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o §1º do Art. 158-D da referida Lei, como os recipientes deverão ser selados?",
@@ -10841,7 +8671,7 @@ const questoesDB = [
   },
   {
     "id": 883921,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a Proposta de alteração da IS nº 07/2011 da DITEC/PF, o que a secretaria deve fazer se um vestígio (não documental) chegar NÃO acondicionado em recipiente selado e individualizado?",
@@ -10858,7 +8688,7 @@ const questoesDB = [
   },
   {
     "id": 992019,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda com base na IS nº 07/2011, que tipo de material encaminhado à perícia, via de regra, NÃO necessita ser acondicionado em recipiente lacrado e com numeração individualizada?",
@@ -10875,7 +8705,7 @@ const questoesDB = [
   },
   {
     "id": 182939,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Com a inserção da figura do assistente técnico no Código de Processo Penal, a parte ré passou a poder:",
@@ -10892,7 +8722,7 @@ const questoesDB = [
   },
   {
     "id": 482012,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "tipo": "multipla_escolha",
     "enunciado": "Entre as atribuições permitidas ao assistente técnico listadas no texto, qual delas se relaciona DIRETAMENTE com a cadeia de custódia?",
@@ -10909,7 +8739,7 @@ const questoesDB = [
   },
   {
     "id": 857391,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Decreto nº 11.348/2023, qual é o órgão central da perícia responsável por dirigir, planejar, coordenar, controlar, avaliar e executar as atividades de perícia criminal?",
@@ -10926,7 +8756,7 @@ const questoesDB = [
   },
   {
     "id": 142859,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a divisão responsável por assessorar a DITEC/PF nas atividades referentes à gestão da perícia, desde a elaboração de normativos técnicos até a coordenação do desenvolvimento do SISCRIM?",
@@ -10943,7 +8773,7 @@ const questoesDB = [
   },
   {
     "id": 349102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM), assinale a alternativa CORRETA.",
@@ -10960,7 +8790,7 @@ const questoesDB = [
   },
   {
     "id": 918274,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da Polícia Federal, qual a principal relação entre o sistema ePol e o SISCRIM?",
@@ -10977,7 +8807,7 @@ const questoesDB = [
   },
   {
     "id": 273645,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo as Portarias DITEC/PF nº 1377/2024 e nº 1512/2024, as áreas da Criminalística têm como finalidade principal:",
@@ -10994,7 +8824,7 @@ const questoesDB = [
   },
   {
     "id": 839210,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Entre as Áreas da Criminalística listadas no material, qual das alternativas abaixo apresenta SOMENTE áreas corretas segundo o texto?",
@@ -11011,7 +8841,7 @@ const questoesDB = [
   },
   {
     "id": 105832,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "No jargão do SISCRIM, o que caracteriza a cessação da existência de uma 'pendência' após o fluxo regular de atendimento de uma requisição de exame?",
@@ -11028,7 +8858,7 @@ const questoesDB = [
   },
   {
     "id": 739214,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a principal diferença entre os conceitos de 'Estoque de pendências' e 'Demanda de exames periciais' adotados no SNC?",
@@ -11045,7 +8875,7 @@ const questoesDB = [
   },
   {
     "id": 591023,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Quantas situações possíveis existem para um expediente dentro do SISCRIM, e como elas são atribuídas?",
@@ -11062,7 +8892,7 @@ const questoesDB = [
   },
   {
     "id": 903128,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as situações possíveis de um expediente no SISCRIM, qual das alternativas abaixo apresenta UMA das situações que podem ser alimentadas MANUALMENTE pelo usuário?",
@@ -11079,7 +8909,7 @@ const questoesDB = [
   },
   {
     "id": 314857,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual dos cenários abaixo corresponde, de acordo com a Instrução de Serviço nº 08/2011 - DITEC/PF, a uma requisição com indicador de criticidade 'Alta'?",
@@ -11096,7 +8926,7 @@ const questoesDB = [
   },
   {
     "id": 784210,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a situação que justifica classificar a criticidade de uma requisição de exame como 'Média'.",
@@ -11113,7 +8943,7 @@ const questoesDB = [
   },
   {
     "id": 169384,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Se uma requisição de exame não envolve réu preso, não tem materiais com risco de degradação e nem possui demanda urgente de tempo (como buscas e prisões iminentes), qual deve ser a sua criticidade no SISCRIM?",
@@ -11130,7 +8960,7 @@ const questoesDB = [
   },
   {
     "id": 528391,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O que representa o 'indicador de complexidade' de uma requisição de exame no SISCRIM?",
@@ -11147,7 +8977,7 @@ const questoesDB = [
   },
   {
     "id": 839401,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O esforço unitário de 1 ponto da 'pontuação de complexidade' do SISCRIM equivale ao esforço despendido em qual tipo de exame padrão?",
@@ -11164,7 +8994,7 @@ const questoesDB = [
   },
   {
     "id": 618302,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O que ocorre no SISCRIM quando os limites de conformidade para os dados de Objetos de Exame (OE) são excedidos, e o usuário justifica o uso de valores acima dos limites?",
@@ -11181,7 +9011,7 @@ const questoesDB = [
   },
   {
     "id": 783109,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Como são tratados os casos não convencionais para os quais não existem tipos de OE específicos já previstos no SISCRIM?",
@@ -11198,7 +9028,7 @@ const questoesDB = [
   },
   {
     "id": 491028,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a relação conceitual entre 'material' e 'vestígio' de acordo com os parâmetros do SISCRIM?",
@@ -11215,7 +9045,7 @@ const questoesDB = [
   },
   {
     "id": 920145,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O texto fornece exemplos de vestígios que não são registrados no SISCRIM pois não ficam na custódia da perícia. Assinale a alternativa que apresenta APENAS exemplos corretos.",
@@ -11232,7 +9062,7 @@ const questoesDB = [
   },
   {
     "id": 184930,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Ao ser cadastrado no SISCRIM, o 'material' deve ser classificado de acordo com sua finalidade. Dentre as opções a seguir, assinale aquela que representa uma finalidade VÁLIDA para classificação de material no sistema.",
@@ -11249,7 +9079,7 @@ const questoesDB = [
   },
   {
     "id": 209183,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a finalidade do Mecanismo de Equalização de Demandas (MED)?",
@@ -11266,7 +9096,7 @@ const questoesDB = [
   },
   {
     "id": 305928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o limite máximo tolerado pela DITEC para a Meta 1, referente à quantidade de pendências acima do prazo máximo de atendimento em uma Unidade de Criminalística (UC)?",
@@ -11283,7 +9113,7 @@ const questoesDB = [
   },
   {
     "id": 892014,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a meta de produtividade média (Meta 2) estipulada para as UCs pela DITEC?",
@@ -11300,7 +9130,7 @@ const questoesDB = [
   },
   {
     "id": 653920,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O 'fluxo de saneamento' aplica-se a quais tipos de expedientes?",
@@ -11317,7 +9147,7 @@ const questoesDB = [
   },
   {
     "id": 901283,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "O que uma unidade deve fazer após ser notificada pelo INC no fluxo de saneamento por possuir pendências vencidas?",
@@ -11334,7 +9164,7 @@ const questoesDB = [
   },
   {
     "id": 238491,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Atualmente, os 'prazos críticos' para apuração de responsabilidades em corregedoria são definidos como:",
@@ -11351,7 +9181,7 @@ const questoesDB = [
   },
   {
     "id": 572019,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Em que situação uma requisição de exame pode ser submetida a 'acompanhamento especial'?",
@@ -11368,7 +9198,7 @@ const questoesDB = [
   },
   {
     "id": 820194,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Como está dividida a composição do ICRIM com relação às três metas da Criminalística?",
@@ -11385,7 +9215,7 @@ const questoesDB = [
   },
   {
     "id": 619283,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 12 - A gestão da Criminalística na PF e seus principais",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que indica CORRETAMENTE os atos normativos internos (Portarias) que definem e alteram a lista de áreas da Criminalística em vigor, segundo o texto apresentado.",
@@ -11402,7 +9232,7 @@ const questoesDB = [
   },
   {
     "id": "100101",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, o que é a Biblioteca Digital da Criminalística (BDCRIM)?",
@@ -11419,7 +9249,7 @@ const questoesDB = [
   },
   {
     "id": "100102",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do acesso à BDCRIM, assinale a alternativa correta de acordo com o texto:",
@@ -11436,7 +9266,7 @@ const questoesDB = [
   },
   {
     "id": "100103",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A quem está atribuída a atualização e manutenção da BDCRIM, conforme a Portaria DITEC/PF nº 1368/2024?",
@@ -11453,7 +9283,7 @@ const questoesDB = [
   },
   {
     "id": "100104",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme consta na ABNT NBR ISO 9001:2015 referida no texto, a adoção de um sistema de gestão da qualidade (SGQ) é considerada:",
@@ -11470,7 +9300,7 @@ const questoesDB = [
   },
   {
     "id": "100105",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as opções abaixo, assinale aquela que NÃO corresponde a um dos potenciais benefícios da implementação do SGQ baseada na norma mencionada no texto:",
@@ -11487,7 +9317,7 @@ const questoesDB = [
   },
   {
     "id": "100106",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os prazos de elaboração do Laudo na perícia criminal da PF, quando eles se iniciam?",
@@ -11504,7 +9334,7 @@ const questoesDB = [
   },
   {
     "id": "100107",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o prazo máximo estabelecido pelo art. 160 do Código de Processo Penal para a elaboração do laudo pericial?",
@@ -11521,7 +9351,7 @@ const questoesDB = [
   },
   {
     "id": "100108",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da prorrogação do laudo pericial criminal federal, segundo a Instrução Normativa DG/PF nº 255/2023 citada no texto, o prazo legal:",
@@ -11538,7 +9368,7 @@ const questoesDB = [
   },
   {
     "id": "100109",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo os dados extraídos do SISCRIM, qual a realidade dos tempos médios de atendimento (excluídos os Laudos Preliminares de Constatação)?",
@@ -11555,7 +9385,7 @@ const questoesDB = [
   },
   {
     "id": "100110",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Diante do atual cenário de volume e complexidade de requisições, por que o sistema ePol foi construído com regras específicas sobre prazos?",
@@ -11572,7 +9402,7 @@ const questoesDB = [
   },
   {
     "id": "100111",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Como o texto recomenda que gestores e peritos designados atuem quanto às requisições com prazo vencido?",
@@ -11589,7 +9419,7 @@ const questoesDB = [
   },
   {
     "id": "100112",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a finalidade do Guia Eletrônico da ENCRIM, conforme o texto?",
@@ -11606,7 +9436,7 @@ const questoesDB = [
   },
   {
     "id": "100113",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a relação entre o guia ENCRIM e as publicações oficiais, é correto afirmar:",
@@ -11623,7 +9453,7 @@ const questoesDB = [
   },
   {
     "id": "100114",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com as definições apresentadas no texto, qual normativo é expedido EXCLUSIVAMENTE pelo Diretor-Geral para a execução de leis e decretos?",
@@ -11640,7 +9470,7 @@ const questoesDB = [
   },
   {
     "id": "100115",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A Instrução de Serviço (IS) era um ato expedido por diretores, coordenadores e outros gestores. Segundo o texto, desde que ano não são mais editadas novas IS na Polícia Federal?",
@@ -11657,7 +9487,7 @@ const questoesDB = [
   },
   {
     "id": "100116",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da Instrução Técnica (IT), é correto dizer que:",
@@ -11674,7 +9504,7 @@ const questoesDB = [
   },
   {
     "id": "100117",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O normativo caracterizado no texto como ato de caráter enunciativo, expedido exclusivamente pelo Diretor Técnico-Científico para disciplinar matérias correlatas à perícia criminal, é a:",
@@ -11691,7 +9521,7 @@ const questoesDB = [
   },
   {
     "id": "100118",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito específico da criminalística, conforme o texto, quais autoridades expedem Portarias?",
@@ -11708,7 +9538,7 @@ const questoesDB = [
   },
   {
     "id": "100119",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual foi o impacto do Decreto 12.002/2024 mencionado no texto sobre os tipos de normas editáveis hoje?",
@@ -11725,7 +9555,7 @@ const questoesDB = [
   },
   {
     "id": "100120",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o Decreto 12.002/2024 e as antigas normas (IT, OT e IS), o que o texto afirma?",
@@ -11742,7 +9572,7 @@ const questoesDB = [
   },
   {
     "id": "100121",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "O que regulamenta a Instrução Normativa DG/PF Nº 255/2023?",
@@ -11759,7 +9589,7 @@ const questoesDB = [
   },
   {
     "id": "100122",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o art. 55 da IN DG/PF Nº 255/2023, a quem as requisições de exame pericial devem ser dirigidas?",
@@ -11776,7 +9606,7 @@ const questoesDB = [
   },
   {
     "id": "100123",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o art. 55 da IN DG/PF Nº 255/2023, as requisições de exame pericial devem obrigatoriamente ser acompanhadas de:",
@@ -11793,7 +9623,7 @@ const questoesDB = [
   },
   {
     "id": "100124",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em casos de urgência ou flagrantes, se houver impossibilidade técnica de atender prontamente a requisição, qual deve ser a providência do perito criminal federal?",
@@ -11810,7 +9640,7 @@ const questoesDB = [
   },
   {
     "id": "100125",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Na prática diária abordada no texto, ao finalizar o laudo pericial, como ocorre sua inserção no sistema ePol?",
@@ -11827,7 +9657,7 @@ const questoesDB = [
   },
   {
     "id": "100126",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distribuição de requisições periciais segundo a IS nº 7/2011, é correto afirmar:",
@@ -11844,7 +9674,7 @@ const questoesDB = [
   },
   {
     "id": "100127",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda de acordo com a IS nº 7/2011, qual é a situação dos peritos responsáveis pelo Grupo de Funcionários com relação às requisições na carga do grupo?",
@@ -11861,7 +9691,7 @@ const questoesDB = [
   },
   {
     "id": "100128",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Qual critério NÃO está previsto na IS nº 7/2011 para a metodologia de distribuição da carga de trabalho aos peritos de forma equânime?",
@@ -11878,7 +9708,7 @@ const questoesDB = [
   },
   {
     "id": "100129",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Como a IS nº 7/2011 orienta o gestor na designação do perito quando a requisição de exame for multidisciplinar?",
@@ -11895,7 +9725,7 @@ const questoesDB = [
   },
   {
     "id": "100130",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em casos de exames complexos, não repetíveis, ou que exijam mais de uma área de formação acadêmica específica, o que a IS nº 7/2011 permite ao gestor fazer?",
@@ -11912,7 +9742,7 @@ const questoesDB = [
   },
   {
     "id": "100131",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a IS nº 7/2011, o que ocorre com usuários do Siscrim que mantiverem requisição de exame sem cadastramento de objetos ou sem análise de viabilidade por mais de 10 dias?",
@@ -11929,7 +9759,7 @@ const questoesDB = [
   },
   {
     "id": "100132",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Quando a requisição envolver quantidade significativa de material, que medida de gestão a IS nº 7/2011 autoriza para maior eficiência do atendimento?",
@@ -11946,7 +9776,7 @@ const questoesDB = [
   },
   {
     "id": "100133",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "A análise de viabilidade das requisições (a ser feita em até 10 dias) deve contemplar os seguintes passos técnicos, segundo a IS nº 7/2011:",
@@ -11963,7 +9793,7 @@ const questoesDB = [
   },
   {
     "id": "100134",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Se, durante a análise de viabilidade, o perito encontrar inconformidades relativas aos materiais ou aos quesitos, qual o procedimento correto?",
@@ -11980,7 +9810,7 @@ const questoesDB = [
   },
   {
     "id": "100135",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Caso o requisitante seja comunicado de inconformidades para adequar a requisição pericial e não apresente resposta, qual é o prazo estabelecido pela IS nº 7/2011 para que o perito encaminhe a requisição e o material ao gestor para providências?",
@@ -11997,7 +9827,7 @@ const questoesDB = [
   },
   {
     "id": "100136",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 22 da IS nº 07/2011, caso o perito identifique a necessidade de obtenção de meios e estes não sejam disponibilizados ou sua previsão comunicada em 30 dias, o perito deve:",
@@ -12014,7 +9844,7 @@ const questoesDB = [
   },
   {
     "id": "100137",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a IS nº 8/2011, que trata prioritariamente da criticidade da requisição de exame, como a fila de atendimento deve ser gerida pelo chefe da unidade?",
@@ -12031,7 +9861,7 @@ const questoesDB = [
   },
   {
     "id": "100138",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "No aspecto da segurança abordado no texto, as unidades que possuem laboratório de química devem observar qual restrição de acesso?",
@@ -12048,7 +9878,7 @@ const questoesDB = [
   },
   {
     "id": "100139",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os equipamentos de proteção individual (EPI) apropriados às tarefas na perícia, o texto estabelece que o seu USO efetivo é:",
@@ -12065,7 +9895,7 @@ const questoesDB = [
   },
   {
     "id": "100140",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
     "enunciado": "Em exames de local de crime, qual é a ordem de prioridades apontada no texto frente à necessidade de preservar vestígios?",
@@ -12082,7 +9912,7 @@ const questoesDB = [
   },
   {
     "id": "148293",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto do SISCRIM, o que significa o termo 'Procedimento'?",
@@ -12099,7 +9929,7 @@ const questoesDB = [
   },
   {
     "id": "291038",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual das opções abaixo exemplifica adequadamente o que é uma 'Unidade Organizacional' no SISCRIM?",
@@ -12116,7 +9946,7 @@ const questoesDB = [
   },
   {
     "id": "310495",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O conceito de 'Órgão Externo' utilizado no sistema refere-se a:",
@@ -12133,7 +9963,7 @@ const questoesDB = [
   },
   {
     "id": "402918",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os grupos denominados GPINF, GPCONT e GPLAB são exemplos de:",
@@ -12150,7 +9980,7 @@ const questoesDB = [
   },
   {
     "id": "519203",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do termo 'Carga' no SISCRIM, é correto afirmar que:",
@@ -12167,7 +9997,7 @@ const questoesDB = [
   },
   {
     "id": "629104",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "A presença de uma 'Carga' destinada a uma unidade garante que o documento ou material foi recebido fisicamente?",
@@ -12184,7 +10014,7 @@ const questoesDB = [
   },
   {
     "id": "781029",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "No jargão do SISCRIM, como se denomina o ato de encaminhar um documento e/ou material, alterando a sua carga?",
@@ -12201,7 +10031,7 @@ const questoesDB = [
   },
   {
     "id": "810293",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a diferença fundamental entre Lotação e Localização no SISCRIM?",
@@ -12218,7 +10048,7 @@ const questoesDB = [
   },
   {
     "id": "930218",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os comandos do ePol encaminhados a servidores ou unidades chegam ao SISCRIM sob qual nomenclatura?",
@@ -12235,7 +10065,7 @@ const questoesDB = [
   },
   {
     "id": "104829",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "No sistema ePol, o conceito de 'bens' corresponde a qual conceito no SISCRIM?",
@@ -12252,7 +10082,7 @@ const questoesDB = [
   },
   {
     "id": "219384",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Quais são os dois grupos principais de funcionalidades do SISCRIM, conforme citado no manual?",
@@ -12269,7 +10099,7 @@ const questoesDB = [
   },
   {
     "id": "382910",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro do módulo de Documentos, quais são os documentos considerados mais importantes porque demandam elaboração de exames periciais e laudos?",
@@ -12286,7 +10116,7 @@ const questoesDB = [
   },
   {
     "id": "492019",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Dentre as classificações de 'finalidade' do documento externo no SISCRIM, encontram-se:",
@@ -12303,7 +10133,7 @@ const questoesDB = [
   },
   {
     "id": "581920",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual atributo é utilizado como um indicador de priorização de atendimento de uma solicitação de exame?",
@@ -12320,7 +10150,7 @@ const questoesDB = [
   },
   {
     "id": "672930",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O ato administrativo pelo qual o gestor distribui uma solicitação de exame ao perito, atribuindo-lhe a responsabilidade, recebe o nome de:",
@@ -12337,7 +10167,7 @@ const questoesDB = [
   },
   {
     "id": "719283",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o módulo de Materiais no SISCRIM, é correto afirmar que os materiais:",
@@ -12354,7 +10184,7 @@ const questoesDB = [
   },
   {
     "id": "802931",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os materiais no SISCRIM podem ter diferentes classificações de finalidade. Uma dessas finalidades exige que o sistema armazene informações detalhadas (número de itens, lacre, etc.) para o devido rastreamento da cadeia de custódia. Qual é essa finalidade?",
@@ -12371,7 +10201,7 @@ const questoesDB = [
   },
   {
     "id": "920193",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à responsabilidade pelos documentos e materiais cadastrados no sistema, o SISCRIM estabelece que eles ficam:",
@@ -12388,7 +10218,7 @@ const questoesDB = [
   },
   {
     "id": "118293",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Uma operação de movimentação (transferência de carga) só é considerada concluída quando ocorre:",
@@ -12405,7 +10235,7 @@ const questoesDB = [
   },
   {
     "id": "281920",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual funcionalidade do SISCRIM permite visualizar a carga atual de cada item e a hierarquia de relacionamento entre documentos e materiais?",
@@ -12422,7 +10252,7 @@ const questoesDB = [
   },
   {
     "id": "392018",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Como é composta a identificação única atribuída a um documento no processo de emissão pelo SISCRIM?",
@@ -12439,7 +10269,7 @@ const questoesDB = [
   },
   {
     "id": "401928",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Os documentos recebidos pela perícia (não emitidos por ela) e cadastrados no SISCRIM recebem uma identificação própria. Essa identificação é composta por:",
@@ -12456,7 +10286,7 @@ const questoesDB = [
   },
   {
     "id": "592810",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual recurso oferece a forma mais fácil de encontrar inequivocamente um documento ou material usando a barra de pesquisa rápida do SISCRIM?",
@@ -12473,7 +10303,7 @@ const questoesDB = [
   },
   {
     "id": "610293",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Para qual propósito existe a funcionalidade relacionada ao 'Acerto Eletrônico' e às pesquisas textuais no SISCRIM?",
@@ -12490,7 +10320,7 @@ const questoesDB = [
   },
   {
     "id": "782910",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O fluxo típico de tramitação de uma requisição começa com:",
@@ -12507,7 +10337,7 @@ const questoesDB = [
   },
   {
     "id": "893021",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Durante o cadastramento inicial dos materiais, é correto afirmar que:",
@@ -12524,7 +10354,7 @@ const questoesDB = [
   },
   {
     "id": "902183",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Se for necessário separar os componentes de um mesmo vestígio para viabilizar os exames, o que o sistema permite realizar?",
@@ -12541,7 +10371,7 @@ const questoesDB = [
   },
   {
     "id": "193820",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Em quais situações é recomendada a criação de CÓPIAS da requisição no SISCRIM?",
@@ -12558,7 +10388,7 @@ const questoesDB = [
   },
   {
     "id": "203948",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "A etapa executada pelo perito, após receber a requisição e materiais, que tem o fim de checar se o exame pode ser realizado tecnicamente e se a documentação está adequada, denomina-se:",
@@ -12575,7 +10405,7 @@ const questoesDB = [
   },
   {
     "id": "319204",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Ao confirmar a viabilidade de atendimento de uma solicitação (via AV), que outra ação deve ser feita em paralelo no sistema?",
@@ -12592,7 +10422,7 @@ const questoesDB = [
   },
   {
     "id": "492810",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à elaboração do laudo no SISCRIM, como o sistema lida com o conteúdo dos exames?",
@@ -12609,7 +10439,7 @@ const questoesDB = [
   },
   {
     "id": "581029",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Quando o laudo pericial é de fato considerado ENTREGUE, sendo esta data a base para métricas de gestão e alcance de metas?",
@@ -12626,7 +10456,7 @@ const questoesDB = [
   },
   {
     "id": "672910",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a recomendação de boa prática de gestão e controle em relação ao prazo entre a numeração do laudo e a sua efetiva entrega?",
@@ -12643,7 +10473,7 @@ const questoesDB = [
   },
   {
     "id": "781928",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "O momento que marca o encerramento do fluxo típico (entrada, atendimento e saída) no SISCRIM ocorre quando a requisição é:",
@@ -12660,7 +10490,7 @@ const questoesDB = [
   },
   {
     "id": "892018",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 14 - O Sistema Nacional de Gestão de Atividades de",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a assinatura dos laudos emitidos pelo SISCRIM, qual é a diretriz normativa apresentada no texto?",
@@ -12677,7 +10507,7 @@ const questoesDB = [
   },
   {
     "id": 349182,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o título do Capítulo 15 abordado no documento da Academia Nacional de Polícia, assinale a alternativa correta:",
@@ -12694,7 +10524,7 @@ const questoesDB = [
   },
   {
     "id": 817392,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o documento em análise, qual Portaria classifica o material como 'DOCUMENTO DE ACESSO RESTRITO'?",
@@ -12711,7 +10541,7 @@ const questoesDB = [
   },
   {
     "id": 562910,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "O Capítulo 15 do manual é dividido em duas seções principais identificadas por numeração decimal. Quais são elas?",
@@ -12728,7 +10558,7 @@ const questoesDB = [
   },
   {
     "id": 103847,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a seção 15.1 'Acesso ao SISCRIM', quais são as formas de login listadas?",
@@ -12745,7 +10575,7 @@ const questoesDB = [
   },
   {
     "id": 492816,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Dentro do tópico '3 - TELA INICIAL E WIDGETS' do Capítulo 15, qual das opções abaixo NÃO é listada como um dos widgets ou subitens presentes?",
@@ -12762,7 +10592,7 @@ const questoesDB = [
   },
   {
     "id": 738491,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Na estrutura da 'TELA INICIAL E WIDGETS' no SISCRIM, o subitem 3.4 refere-se a:",
@@ -12779,7 +10609,7 @@ const questoesDB = [
   },
   {
     "id": 918374,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "O tópico '4 - RECURSOS HUMANOS' apresenta subitens relacionados à gestão de pessoal. Qual dos itens abaixo faz parte dessa seção?",
@@ -12796,7 +10626,7 @@ const questoesDB = [
   },
   {
     "id": 657283,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Ainda sobre o tópico '4 - RECURSOS HUMANOS', constam organogramas de duas estruturas. Quais são elas?",
@@ -12813,7 +10643,7 @@ const questoesDB = [
   },
   {
     "id": 829104,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Na seção 15.2 'Emissão de Laudo', o passo '3 - DESLACRAR MATERIAIS' ocorre imediatamente após qual procedimento?",
@@ -12830,7 +10660,7 @@ const questoesDB = [
   },
   {
     "id": 748392,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "No procedimento de 'Emissão de Laudo', a etapa de 'RELACRAR MATERIAIS' corresponde a qual número na sequência?",
@@ -12847,7 +10677,7 @@ const questoesDB = [
   },
   {
     "id": 382910,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o último passo (passo 11) listado na seção 15.2 'Emissão de Laudo'?",
@@ -12864,7 +10694,7 @@ const questoesDB = [
   },
   {
     "id": 139284,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "O título completo da publicação da Academia Nacional de Polícia que serve de base para este índice é:",
@@ -12881,7 +10711,7 @@ const questoesDB = [
   },
   {
     "id": 648392,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Considere os subitens da Tela Inicial e Widgets (seção 15.1, item 3). Qual a alternativa que apresenta APENAS itens corretamente listados no texto?",
@@ -12898,7 +10728,7 @@ const questoesDB = [
   },
   {
     "id": 283940,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "No organograma e organização dos Recursos Humanos (seção 15.1, item 4), há menção a uma 'AGENDA'. Como ela é intitulada especificamente?",
@@ -12915,7 +10745,7 @@ const questoesDB = [
   },
   {
     "id": 593821,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Analisando as etapas 5, 6 e 7 da seção 15.2 (Emissão de Laudo), assinale a sequência cronológica listada no manual:",
@@ -12932,7 +10762,7 @@ const questoesDB = [
   },
   {
     "id": 485029,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "No decorrer das páginas do documento, um aviso de restrição se faz constantemente presente, demonstrando o nível de confidencialidade da norma. Qual a classificação dada ao documento?",
@@ -12949,7 +10779,7 @@ const questoesDB = [
   },
   {
     "id": 958271,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 15 - Aula prática",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a etapa do processo de Emissão de Laudo que consiste em agregar o laudo, os materiais e a solicitação de exames em um só trâmite documental para a autoridade superior?",
@@ -12966,7 +10796,7 @@ const questoesDB = [
   },
   {
     "id": "104928",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, a aplicação do método científico na prática pericial se caracteriza principalmente por ser:",
@@ -12983,7 +10813,7 @@ const questoesDB = [
   },
   {
     "id": "472918",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A etapa de avaliação dos resultados pode exigir que o perito retorne a etapas anteriores do ciclo. Isso evidencia que:",
@@ -13000,7 +10830,7 @@ const questoesDB = [
   },
   {
     "id": "812045",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para que uma hipótese formulada pelo perito seja classificada como científica, é indispensável que ela seja:",
@@ -13017,7 +10847,7 @@ const questoesDB = [
   },
   {
     "id": "563921",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o princípio da falseabilidade, uma proposição científica:",
@@ -13034,7 +10864,7 @@ const questoesDB = [
   },
   {
     "id": "394812",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "No que diz respeito à busca pela certeza na ciência e sua aplicação à perícia, o texto afirma que:",
@@ -13051,7 +10881,7 @@ const questoesDB = [
   },
   {
     "id": "719348",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O raciocínio que parte de observações particulares para formular generalizações mais amplas, produzindo conclusões prováveis, é denominado:",
@@ -13068,7 +10898,7 @@ const questoesDB = [
   },
   {
     "id": "158930",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando o perito parte de princípios gerais validados para chegar a conclusões necessárias sobre casos particulares (ex.: reação química específica indicando presença de uma substância), ele utiliza o raciocínio:",
@@ -13085,7 +10915,7 @@ const questoesDB = [
   },
   {
     "id": "843291",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito das formas de raciocínio aplicadas à perícia criminal, o ciclo científico típico consiste em:",
@@ -13102,7 +10932,7 @@ const questoesDB = [
   },
   {
     "id": "503921",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A tendência do perito de valorizar as evidências que reforçam uma hipótese prévia e ignorar os dados que a contradiçzem é conhecida como viés de:",
@@ -13119,7 +10949,7 @@ const questoesDB = [
   },
   {
     "id": "764910",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando uma primeira informação recebida (como um relato informal) exerce uma influência desproporcional sobre os julgamentos e avaliações subsequentes do perito, verifica-se o viés de:",
@@ -13136,7 +10966,7 @@ const questoesDB = [
   },
   {
     "id": "182937",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O viés de autoridade pode comprometer a análise pericial ao:",
@@ -13153,7 +10983,7 @@ const questoesDB = [
   },
   {
     "id": "934812",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Após descobrir o real andamento de um evento, o perito passa a acreditar que a resolução era 'óbvia' ou altamente previsível durante os exames iniciais. Este comportamento é exemplo de viés:",
@@ -13170,7 +11000,7 @@ const questoesDB = [
   },
   {
     "id": "674192",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Para atenuar os efeitos dos vieses cognitivos na perícia criminal, o texto indica a adoção de medidas estruturais. Qual das alternativas abaixo NÃO corresponde a uma dessas medidas recomendadas?",
@@ -13187,7 +11017,7 @@ const questoesDB = [
   },
   {
     "id": "491823",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O princípio da reprodutibilidade é essencial para a prova científica forense e significa que:",
@@ -13204,7 +11034,7 @@ const questoesDB = [
   },
   {
     "id": "283471",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A capacidade de um método analítico produzir resultados consistentes, mesmo diante de pequenas variações inerentes à prática (como pequenas flutuações de temperatura), denomina-se:",
@@ -13221,7 +11051,7 @@ const questoesDB = [
   },
   {
     "id": "819034",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A validação metodológica avalia vários parâmetros de um método. O parâmetro definido como 'proximidade em relação ao valor verdadeiro' é a:",
@@ -13238,7 +11068,7 @@ const questoesDB = [
   },
   {
     "id": "304918",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A diferença principal entre Sensibilidade e Especificidade, conforme abordado na validação metodológica do método pericial, é que:",
@@ -13255,7 +11085,7 @@ const questoesDB = [
   },
   {
     "id": "591028",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A 'cadeia de raciocínio científico' mencionada na prática pericial representa:",
@@ -13272,7 +11102,7 @@ const questoesDB = [
   },
   {
     "id": "209481",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o laudo pericial, é INCORRETO afirmar que:",
@@ -13289,7 +11119,7 @@ const questoesDB = [
   },
   {
     "id": "784192",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A seção do laudo científico responsável por apresentar o contexto da demanda, a solicitação dos fatos e os objetivos do exame é denominada:",
@@ -13306,7 +11136,7 @@ const questoesDB = [
   },
   {
     "id": "439210",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em qual seção do laudo pericial ocorre propriamente o detalhamento dos métodos, técnicas empregadas, parâmetros adotados e os controles de qualidade executados?",
@@ -13323,7 +11153,7 @@ const questoesDB = [
   },
   {
     "id": "194827",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A descrição física, características e a origem dos vestígios materiais encaminhados à análise pericial são apresentadas, predominantemente, em qual seção do laudo?",
@@ -13340,7 +11170,7 @@ const questoesDB = [
   },
   {
     "id": "510934",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a principal função da seção 'Discussão' em um laudo pericial estruturado pelo método científico?",
@@ -13357,7 +11187,7 @@ const questoesDB = [
   },
   {
     "id": "841029",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O ato de o perito responder de forma objetiva aos quesitos formulados, traduzindo as discussões em repostas diretas, constitui a seção de:",
@@ -13374,7 +11204,7 @@ const questoesDB = [
   },
   {
     "id": "392810",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O texto sugere que, na elaboração de um laudo, a comunicação científica requer um equilíbrio entre:",
@@ -13391,7 +11221,7 @@ const questoesDB = [
   },
   {
     "id": "718294",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação às limitações da prova material e à transparência metodológica, qual conduta o perito deve adotar?",
@@ -13408,7 +11238,7 @@ const questoesDB = [
   },
   {
     "id": "219483",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A confiança do sistema de justiça na perícia criminal, conforme o material analisado, assenta-se fundamentalmente na:",
@@ -13425,7 +11255,7 @@ const questoesDB = [
   },
   {
     "id": "548190",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A formulação de uma hipótese de que o crime ocorreu em decorrência de 'interferências sobrenaturais ou forças invisíveis inexplicáveis':",
@@ -13442,7 +11272,7 @@ const questoesDB = [
   },
   {
     "id": "902813",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "A 'precisão', no contexto de métodos validados, corresponde a:",
@@ -13459,7 +11289,7 @@ const questoesDB = [
   },
   {
     "id": "673921",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Se a ciência abandona a 'pretensão de certeza' em face do princípio da falseabilidade, como se comporta o perito ao emitir uma conclusão no laudo?",
@@ -13476,7 +11306,7 @@ const questoesDB = [
   },
   {
     "id": "319482",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "O papel fundamental do documento técnico denominado laudo pericial para a ciência forense é ser:",
@@ -13493,7 +11323,7 @@ const questoesDB = [
   },
   {
     "id": "847291",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Quando novos exames apontam em direção oposta a uma conclusão anterior proferida pela perícia em casos reabertos. De acordo com o princípio da falseabilidade, a perícia inicial:",
@@ -13510,7 +11340,7 @@ const questoesDB = [
   },
   {
     "id": "592813",
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o método de trabalho em ciência forense, qual é a principal vantagem de os peritos adotarem protocolos padronizados, validados e amplamente aceitos?",
@@ -13527,7 +11357,7 @@ const questoesDB = [
   },
   {
     "id": 819234,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, no contexto forense, quais termos são utilizados para designar essencialmente a mesma ideia que 'evento' na teoria da probabilidade?",
@@ -13544,7 +11374,7 @@ const questoesDB = [
   },
   {
     "id": 158293,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, qual é o papel do processo de 'aleatorização' na estatística forense?",
@@ -13561,7 +11391,7 @@ const questoesDB = [
   },
   {
     "id": 294817,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A abordagem da Probabilidade Clássica (Resultados Equiprováveis) define a probabilidade de um evento como:",
@@ -13578,7 +11408,7 @@ const questoesDB = [
   },
   {
     "id": 501284,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a principal limitação da Probabilidade Clássica mencionada no capítulo?",
@@ -13595,7 +11425,7 @@ const questoesDB = [
   },
   {
     "id": 924718,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, por que a abordagem Frequentista não pode ser aplicada à pergunta 'qual a probabilidade de que este suspeito seja o autor do crime?'",
@@ -13612,7 +11442,7 @@ const questoesDB = [
   },
   {
     "id": 348102,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A abordagem Bayesiana, também chamada de Probabilidade Subjetiva, baseia-se na concepção de que a probabilidade é:",
@@ -13629,7 +11459,7 @@ const questoesDB = [
   },
   {
     "id": 617294,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O princípio fundamental de que 'Toda Probabilidade É Condicional' implica que:",
@@ -13646,7 +11476,7 @@ const questoesDB = [
   },
   {
     "id": 839105,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, qual é o motivo frequente para que peritos discordem sobre probabilidades?",
@@ -13663,7 +11493,7 @@ const questoesDB = [
   },
   {
     "id": 210593,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O que estabelece a 'Primeira Lei — Limites da Probabilidade' descrita no texto?",
@@ -13680,7 +11510,7 @@ const questoesDB = [
   },
   {
     "id": 482710,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A 'Segunda Lei — Adição', aplicável a eventos mutuamente exclusivos dado um condicionamento E, afirma que Pr(G ou H | E) é igual a:",
@@ -13697,7 +11527,7 @@ const questoesDB = [
   },
   {
     "id": 693847,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da probabilidade conjunta (Terceira Lei), o que caracteriza o caso especial de 'Independência estatística' entre os eventos J e K?",
@@ -13714,7 +11544,7 @@ const questoesDB = [
   },
   {
     "id": 847291,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Ao utilizar a Lei da Probabilidade Total para eventos mutuamente exclusivos e exaustivos, a representação gráfica frequentemente recomendada é feita por meio de:",
@@ -13731,7 +11561,7 @@ const questoesDB = [
   },
   {
     "id": 105829,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O conceito de 'Odds' (chances), muito utilizado em estatística forense, é definido como:",
@@ -13748,7 +11578,7 @@ const questoesDB = [
   },
   {
     "id": 138294,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O principal resultado da análise pericial, que indica o quanto a evidência observada é mais provável sob uma hipótese do que sob sua alternativa, é chamado de:",
@@ -13765,7 +11595,7 @@ const questoesDB = [
   },
   {
     "id": 394821,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Considere o exemplo do DNA: sob a hipótese de que o suspeito é a fonte, a probabilidade da evidência é 1. Sob a alternativa, é 1 em um milhão. Neste caso, qual é a razão de verossimilhança aproximada?",
@@ -13782,7 +11612,7 @@ const questoesDB = [
   },
   {
     "id": 729104,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a divisão clara de responsabilidades sugerida no texto, qual é a atribuição correta do perito e do julgador (tribunal), respectivamente?",
@@ -13799,7 +11629,7 @@ const questoesDB = [
   },
   {
     "id": 841029,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é apontada no texto como a principal dificuldade na comunicação da evidência pericial?",
@@ -13816,7 +11646,7 @@ const questoesDB = [
   },
   {
     "id": 162938,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da falácia da transposição do condicional exemplificada com o DNA, comunicar que a probabilidade de um perfil aleatório é 1 em 1 milhão pode levar o julgador a erroneamente concluir que:",
@@ -13833,7 +11663,7 @@ const questoesDB = [
   },
   {
     "id": 401928,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Ao utilizar a razão de verossimilhança e evitar expressar a 'probabilidade de culpa', o perito garante que:",
@@ -13850,7 +11680,7 @@ const questoesDB = [
   },
   {
     "id": 592837,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Um laudo pericial eficaz, segundo as diretrizes de comunicação do texto, deve ser compreendido como:",
@@ -13867,7 +11697,7 @@ const questoesDB = [
   },
   {
     "id": 893012,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "No que diz respeito ao nível de generalidade das hipóteses formuladas no laudo, o texto adverte que:",
@@ -13884,7 +11714,7 @@ const questoesDB = [
   },
   {
     "id": 149283,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "Por que a noção tradicional de 'individualização' é incompatível com a interpretação probabilística rigorosa?",
@@ -13901,7 +11731,7 @@ const questoesDB = [
   },
   {
     "id": 358192,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "A abordagem forense moderna propõe substituir o termo 'individualização' por qual prática?",
@@ -13918,7 +11748,7 @@ const questoesDB = [
   },
   {
     "id": 529384,
-    "disciplina": "CRIMINALÍSTICA",
+    "disciplina": "CRIMINALÍSTICA: DOUTRINA, CADEIA DE CUSTÓDIA E O SISTEMA NACIONAL DE CRIMINALÍSTICA (CRI)",
     "conteudo": "Cap. 17 - Inferência lógica",
     "tipo": "multipla_escolha",
     "enunciado": "O que ocorre, segundo a abordagem bayesiana, quando o perito tenta inferir diretamente a probabilidade de culpa do suspeito em vez da razão de verossimilhança da evidência?",
