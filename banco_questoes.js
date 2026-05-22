@@ -1,8 +1,8 @@
 const questoesDB = [
   {
     "id": 9,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o Caderno Didático IPO, os referenciais teóricos adotados institucionalmente pela Polícia Federal dialogam especialmente com as contribuições de:",
     "alternativas": {
@@ -18,8 +18,8 @@ const questoesDB = [
   },
   {
     "id": 10,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Para Karl Popper, o critério que distingue a ciência da não ciência é:",
     "alternativas": {
@@ -35,8 +35,8 @@ const questoesDB = [
   },
   {
     "id": 11,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a teoria de Karl Popper apresentada no Caderno Didático IPO, após sucessivas etapas de testagem empírica, uma hipótese deve ser considerada como:",
     "alternativas": {
@@ -52,8 +52,8 @@ const questoesDB = [
   },
   {
     "id": 12,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com Popper, conforme apresentado no caderno, a inferência dedutiva utilizada para a corroboração da hipótese é o:",
     "alternativas": {
@@ -69,10 +69,10 @@ const questoesDB = [
   },
   {
     "id": 13,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático IPO, para John Dewey, toda investigação surge da necessidade de enfrentar:",
+    "enunciado": "Segundo o Caderno Didático IPO, para John Dewey, toda investigaçãoão surge da necessidade de enfrentar:",
     "alternativas": {
       "A": "Uma demanda judicial formal.",
       "B": "Um fato criminoso previamente tipificado.",
@@ -81,15 +81,15 @@ const questoesDB = [
       "E": "Uma denúncia anônima recebida pelas autoridades."
     },
     "resposta_correta": "D",
-    "justificativa": "O texto afirma que 'John Dewey parte da premissa de que toda investigação surge da necessidade de enfrentar uma situação indeterminada, isto é, um contexto em que a realidade apresenta incertezas, tensões ou dificuldades que exigem resposta'.",
+    "justificativa": "O texto afirma que 'John Dewey parte da premissa de que toda investigaçãoão surge da necessidade de enfrentar uma situação indeterminada, isto é, um contexto em que a realidade apresenta incertezas, tensões ou dificuldades que exigem resposta'.",
     "referencia": "Cap. 3, Seção 3.2, p. 22"
   },
   {
     "id": 14,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme Dewey, apresentado no caderno, a investigação do senso comum se distingue da investigação científica pelo fato de que a primeira:",
+    "enunciado": "Conforme Dewey, apresentado no caderno, a investigaçãoão do senso comum se distingue da investigaçãoão científica pelo fato de que a primeira:",
     "alternativas": {
       "A": "Busca formular leis universais sobre os fenômenos.",
       "B": "Segue estritamente o método hipotético-dedutivo.",
@@ -98,17 +98,17 @@ const questoesDB = [
       "E": "Utiliza métodos estatísticos avançados."
     },
     "resposta_correta": "C",
-    "justificativa": "O caderno descreve que 'a investigação do senso comum é caracterizada pelo seu caráter prático e imediato (...) É guiada por hábitos, tradições culturais, costumes sociais e pela experiência acumulada ao longo do tempo'.",
+    "justificativa": "O caderno descreve que 'a investigaçãoão do senso comum é caracterizada pelo seu caráter prático e imediato (...) É guiada por hábitos, tradições culturais, costumes sociais e pela experiência acumulada ao longo do tempo'.",
     "referencia": "Cap. 3, Seção 3.2, p. 22-23"
   },
   {
     "id": 15,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo Dewey, conforme o Caderno Didático IPO, o padrão de investigação descreve etapas interdependentes. São elas, em sequência:",
+    "enunciado": "Segundo Dewey, conforme o Caderno Didático IPO, o padrão de investigaçãoão descreve etapas interdependentes. São elas, em sequência:",
     "alternativas": {
-      "A": "Notícia-crime, instauração do inquérito, oitiva de testemunhas, relatório, encaminhamento ao MP.",
+      "A": "Notícia-crime, instauraçção do inquérito, oitiva de testemunhas, relatório, encaminhamento ao MP.",
       "B": "Reconhecimento da situação indeterminada, delimitação do problema, formulação de hipóteses, análise das consequências lógicas, verificação experimental, conclusão.",
       "C": "Observação, classificação, mensuração, publicação, replicação.",
       "D": "Coleta de provas, interrogatório, denúncia, julgamento, execução.",
@@ -120,8 +120,8 @@ const questoesDB = [
   },
   {
     "id": 16,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, para Dewey, a lógica é concebida como:",
     "alternativas": {
@@ -137,14 +137,14 @@ const questoesDB = [
   },
   {
     "id": 17,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com Dewey, conforme o caderno, a afirmação 'um problema bem colocado está semirresolvido' significa que:",
     "alternativas": {
       "A": "A formulação do problema garante automaticamente sua solução.",
       "B": "A própria delimitação adequada do problema já define seus contornos e condiciona as alternativas de resposta.",
-      "C": "Problemas simples não precisam de investigação.",
+      "C": "Problemas simples não precisam de investigaçãoão.",
       "D": "Problemas bem definidos não precisam de experimentação.",
       "E": "Metade do trabalho investigativo é desnecessário."
     },
@@ -154,8 +154,8 @@ const questoesDB = [
   },
   {
     "id": 18,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a ciência contemporânea, conforme Popper, se afastou da concepção aristotélica na qual o conhecimento era tido como científico quando:",
     "alternativas": {
@@ -171,27 +171,27 @@ const questoesDB = [
   },
   {
     "id": 19,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo Dewey, conforme o Caderno Didático IPO, as etapas da investigação (situação indeterminada, localização do problema, sugestão de solução, experimentação e solução) estão presentes:",
+    "enunciado": "Segundo Dewey, conforme o Caderno Didático IPO, as etapas da investigaçãoão (situação indeterminada, localização do problema, sugestão de solução, experimentação e solução) estão presentes:",
     "alternativas": {
-      "A": "Apenas na investigação científica.",
-      "B": "Em ambos os tipos de investigação (senso comum e científica).",
-      "C": "Apenas na investigação do senso comum.",
-      "D": "Apenas em investigações que envolvem tecnologia avançada.",
-      "E": "Apenas na investigação policial."
+      "A": "Apenas na investigaçãoão científica.",
+      "B": "Em ambos os tipos de investigaçãoão (senso comum e científica).",
+      "C": "Apenas na investigaçãoão do senso comum.",
+      "D": "Apenas em investigaçãoões que envolvem tecnologia avançada.",
+      "E": "Apenas na investigaçãoão policial."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que Dewey 'descreve um conjunto de etapas que estão presentes em ambos os tipos de investigação', tanto no senso comum quanto na científica.",
+    "justificativa": "O caderno afirma que Dewey 'descreve um conjunto de etapas que estão presentes em ambos os tipos de investigaçãoão', tanto no senso comum quanto na científica.",
     "referencia": "Cap. 3, Seção 3.2, p. 23"
   },
   {
     "id": 20,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o Caderno Didático IPO, a investigação descrita por Dewey é caracterizada como um processo:",
+    "enunciado": "Conforme o Caderno Didático IPO, a investigaçãoão descrita por Dewey é caracterizada como um processo:",
     "alternativas": {
       "A": "Linear e sequencial, que não permite retornos a fases anteriores.",
       "B": "Estático e predefinido, com etapas fixas e inalteráveis.",
@@ -200,49 +200,49 @@ const questoesDB = [
       "E": "Exclusivamente teórico, sem aplicação prática."
     },
     "resposta_correta": "D",
-    "justificativa": "O texto afirma que 'embora descrito em etapas, o processo não é linear. (...) A investigação, segundo Dewey, é um movimento flexível e adaptativo, que se ajusta continuamente às descobertas e às dificuldades encontradas'.",
+    "justificativa": "O texto afirma que 'embora descrito em etapas, o processo não é linear. (...) A investigaçãoão, segundo Dewey, é um movimento flexível e adaptativo, que se ajusta continuamente às descobertas e às dificuldades encontradas'.",
     "referencia": "Cap. 3, Seção 3.4, p. 27"
   },
   {
     "id": 21,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da investigação",
     "tipo": "multipla_escolha",
-    "enunciado": "A Polícia Federal, ao estruturar sua doutrina institucional sobre investigação policial, baseou-se em referenciais consolidados na:",
+    "enunciado": "A Polícia Federal, ao estruturar sua doutrina institucional sobre investigaçãoão policial, baseou-se em referenciais consolidados na:",
     "alternativas": {
       "A": "Doutrina administrativa militar.",
-      "B": "Filosofia da ciência e na teoria da investigação.",
+      "B": "Filosofia da ciência e na teoria da investigaçãoão.",
       "C": "Intuição e pragmatismo exclusivo de policiais experientes.",
       "D": "Teoria geral do processo civil.",
-      "E": "Literatura ficcional de investigação criminal."
+      "E": "Literatura ficcional de investigaçãoão criminal."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que a estruturação não se deu de modo intuitivo, mas buscou fundamento em referenciais consolidados na filosofia da ciência e na teoria da investigação.",
-    "referencia": "Cap. 3, p. 30"
+    "justificativa": "O caderno afirma que a estruturação não se deu de modo intuitivo, mas buscou fundamento em referenciais consolidados na filosofia da ciência e na teoria da investigaçãoão.",
+    "referencia": "Cap. 3 - Teoria da investigação, p. 15"
   },
   {
     "id": 22,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o material, a investigação policial:",
+    "enunciado": "Segundo o material, a investigaçãoão policial:",
     "alternativas": {
-      "A": "Inspira-se em padrões racionais de produção de conhecimento como o da investigação científica.",
+      "A": "Inspira-se em padrões racionais de produção de conhecimento como o da investigaçãoão científica.",
       "B": "É desprovida de regime jurídico específico.",
       "C": "Desenvolve-se em um vazio metodológico por ser um procedimento estritamente jurídico.",
-      "D": "Não possui objeto próprio, sendo idêntica à investigação científica.",
+      "D": "Não possui objeto próprio, sendo idêntica à investigaçãoão científica.",
       "E": "Rejeita qualquer analogia com o ato científico de investigar."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno assevera que a investigação policial, embora possua objeto próprio, inspira-se em padrões racionais de produção de conhecimento como o da investigação científica.",
+    "justificativa": "O caderno assevera que a investigaçãoão policial, embora possua objeto próprio, inspira-se em padrões racionais de produção de conhecimento como o da investigaçãoão científica.",
     "referencia": "Cap. 3, p. 30"
   },
   {
     "id": 23,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Os referenciais teóricos adotados institucionalmente pela Polícia Federal para fundamentar a teoria da investigação dialogam especialmente com as contribuições de quais autores?",
+    "enunciado": "Os referenciais teóricos adotados institucionalmente pela Polícia Federal para fundamentar a teoria da investigaçãoão dialogam especialmente com as contribuições de quais autores?",
     "alternativas": {
       "A": "Karl Popper e John Dewey.",
       "B": "Cesare Lombroso e Enrico Ferri.",
@@ -256,8 +256,8 @@ const questoesDB = [
   },
   {
     "id": 24,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Na teoria de Karl Popper, o conhecimento é concebido como resultado de:",
     "alternativas": {
@@ -273,10 +273,10 @@ const questoesDB = [
   },
   {
     "id": 25,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo a teoria de Popper, a investigação científica tem seu início quando:",
+    "enunciado": "Segundo a teoria de Popper, a investigaçãoão científica tem seu início quando:",
     "alternativas": {
       "A": "A comunidade científica aprova por unanimidade uma tese.",
       "B": "O pesquisador observa fatos aleatórios sem qualquer referencial teórico prévio.",
@@ -285,17 +285,17 @@ const questoesDB = [
       "E": "Identifica-se um problema, a partir do questionamento de uma teoria que apresenta inconsistências ou não explica determinados fatos."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno pontua que a ciência começa quando se questiona uma teoria (identificação de um problema) por ela apresentar inconsistências. É da dúvida que nasce a investigação.",
+    "justificativa": "O caderno pontua que a ciência começa quando se questiona uma teoria (identificação de um problema) por ela apresentar inconsistências. É da dúvida que nasce a investigaçãoão.",
     "referencia": "Cap. 3, p. 30-31"
   },
   {
     "id": 26,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o pensamento popperiano abordado no texto, o fato isoladamente (fato nu):",
     "alternativas": {
-      "A": "É a etapa final da investigação.",
+      "A": "É a etapa final da investigaçãoão.",
       "B": "Não possui relevância científica, tornando-se significativo apenas quando relacionado a uma pergunta ou dúvida que demande explicação.",
       "C": "É a fonte exclusiva de todo conhecimento científico.",
       "D": "É suficiente para formar uma teoria definitiva.",
@@ -307,12 +307,12 @@ const questoesDB = [
   },
   {
     "id": 27,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Para Popper, após a identificação de um problema, o investigador passa à formulação de:",
     "alternativas": {
-      "A": "Soluções definitivas que encerram a investigação.",
+      "A": "Soluções definitivas que encerram a investigaçãoão.",
       "B": "Hipóteses provisórias (conjecturas) que serão posteriormente confrontadas com os dados empíricos.",
       "C": "Leis universais incontestáveis.",
       "D": "Apenas críticas sem propostas de solução.",
@@ -324,8 +324,8 @@ const questoesDB = [
   },
   {
     "id": 28,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "O critério de falseabilidade, proposto por Karl Popper, consiste em:",
     "alternativas": {
@@ -341,8 +341,8 @@ const questoesDB = [
   },
   {
     "id": 29,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto da falseabilidade de Popper, a hipótese que suporta os testes empíricos de confronto sem sucumbir é considerada:",
     "alternativas": {
@@ -358,8 +358,8 @@ const questoesDB = [
   },
   {
     "id": 30,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da investigação",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com Popper, o que distingue a ciência da não ciência?",
     "alternativas": {
@@ -371,17 +371,17 @@ const questoesDB = [
     },
     "resposta_correta": "B",
     "justificativa": "O caderno é expresso ao registrar que 'Para Popper, o critério da falseabilidade é o que distingue a ciência da não ciência e confere maior confiabilidade aos resultados obtidos'.",
-    "referencia": "Cap. 3, p. 32"
+    "referencia": "Cap. 3 - Teoria da investigação, p. 17"
   },
   {
     "id": 31,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "A lógica do teste crítico popperiano (modus tollendo tollens) estabelece que:",
     "alternativas": {
       "A": "Toda hipótese verdadeira não pode ser deduzida logicamente.",
-      "B": "Se B é verdadeiro, então A não importa para a investigação.",
+      "B": "Se B é verdadeiro, então A não importa para a investigaçãoão.",
       "C": "Se A é verdadeiro e B é falso, então A é a verdade absoluta.",
       "D": "Se A é verdadeiro, então B também o é. Se B não é verdadeiro, logo A não é verdadeiro.",
       "E": "O pesquisador deve buscar a todo custo confirmações positivas da premissa A."
@@ -392,8 +392,8 @@ const questoesDB = [
   },
   {
     "id": 32,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Consequência prática da teoria da falseabilidade de Popper para o pesquisador é que ele:",
     "alternativas": {
@@ -409,12 +409,12 @@ const questoesDB = [
   },
   {
     "id": 33,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "O que ocorre quando os falseadores (contra-evidências) de uma hipótese são confirmados pela experiência empírica, segundo o modelo de Popper?",
     "alternativas": {
-      "A": "A hipótese é arquivada, e a investigação encerrada em caráter definitivo sem solução.",
+      "A": "A hipótese é arquivada, e a investigaçãoão encerrada em caráter definitivo sem solução.",
       "B": "A hipótese deverá ser rejeitada, e o investigador retorna ao problema inicial para propor novas explicações.",
       "C": "A hipótese é considerada provisoriamente corroborada.",
       "D": "O investigador deve ignorar os falseadores, pois a teoria é mais forte.",
@@ -426,8 +426,8 @@ const questoesDB = [
   },
   {
     "id": 34,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "A concepção contemporânea do que seja ciência, calcada na visão de Karl Popper, afasta-se da concepção aristotélica, pois:",
     "alternativas": {
@@ -435,7 +435,7 @@ const questoesDB = [
       "B": "A ciência atual rejeita o empirismo de forma absoluta.",
       "C": "Baseia-se puramente na intuição, sem método.",
       "D": "Acredita que o conhecimento científico é aquele justificado como definitivamente verdadeiro.",
-      "E": "A ciência é vista como uma investigação constante em contínua reconstrução, e não como um sistema de enunciados certos e inquestionáveis."
+      "E": "A ciência é vista como uma investigaçãoão constante em contínua reconstrução, e não como um sistema de enunciados certos e inquestionáveis."
     },
     "resposta_correta": "E",
     "justificativa": "Popper afasta-se da visão aristotélica (conhecimento justificado como verdadeiro absoluto) ao postular que a ciência é autocorretiva, aberta à refutação e nunca atinge a verdade irrevogável.",
@@ -443,16 +443,16 @@ const questoesDB = [
   },
   {
     "id": 35,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático, a metodologia da investigação científica:",
+    "enunciado": "Segundo o Caderno Didático, a metodologia da investigaçãoão científica:",
     "alternativas": {
       "A": "Impede o surgimento da dúvida ou problematização.",
       "B": "Tem uma justificação teórica absoluta e exaustiva.",
       "C": "Não é autossuficiente, necessitando que os problemas sejam propostos de forma precisa, e suas regras possuem apenas justificação pragmática.",
       "D": "É autossuficiente e pode se desenvolver no completo vazio de conhecimento.",
-      "E": "É desnecessária para a investigação policial, que se baseia na mera observação casual."
+      "E": "É desnecessária para a investigaçãoão policial, que se baseia na mera observação casual."
     },
     "resposta_correta": "C",
     "justificativa": "O texto apresenta três constatações da ciência contemporânea, destacando que ela não é autossuficiente (exige um problema prévio) e que suas regras possuem justificação pragmática (não teórica).",
@@ -460,8 +460,8 @@ const questoesDB = [
   },
   {
     "id": 36,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Em suma, para a teoria de Karl Popper, a ciência oferece:",
     "alternativas": {
@@ -473,14 +473,14 @@ const questoesDB = [
     },
     "resposta_correta": "C",
     "justificativa": "O material conclui sobre Popper que a ciência 'não oferece verdades definitivas, mas explicações provisórias que se mantêm válidas enquanto resistirem à refutação'.",
-    "referencia": "Cap. 3, p. 33"
+    "referencia": "Cap. 3 - Teoria da investigação, p. 18"
   },
   {
     "id": 37,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "A teoria pragmatista de John Dewey parte da premissa de que toda investigação surge da necessidade de:",
+    "enunciado": "A teoria pragmatista de John Dewey parte da premissa de que toda investigaçãoão surge da necessidade de:",
     "alternativas": {
       "A": "Confirmar doutrinas dogmáticas.",
       "B": "Buscar o controle político de determinada situação.",
@@ -489,32 +489,32 @@ const questoesDB = [
       "E": "Enfrentar uma situação indeterminada, em que a realidade apresenta incertezas ou tensões que exigem resposta."
     },
     "resposta_correta": "E",
-    "justificativa": "Dewey prega que a investigação surge sempre da necessidade de enfrentar e resolver uma 'situação indeterminada' ou confusa da realidade.",
+    "justificativa": "Dewey prega que a investigaçãoão surge sempre da necessidade de enfrentar e resolver uma 'situação indeterminada' ou confusa da realidade.",
     "referencia": "Cap. 3, p. 34"
   },
   {
     "id": 38,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com John Dewey, a relação entre a investigação do senso comum e a investigação científica é de:",
+    "enunciado": "De acordo com John Dewey, a relação entre a investigaçãoão do senso comum e a investigaçãoão científica é de:",
     "alternativas": {
       "A": "Subordinação, onde o senso comum comanda as conclusões científicas.",
-      "B": "Continuidade evolutiva, onde a ciência seria o aperfeiçoamento sistemático da investigação comum.",
+      "B": "Continuidade evolutiva, onde a ciência seria o aperfeiçoamento sistemático da investigaçãoão comum.",
       "C": "Oposição absoluta, pois a ciência não lida com problemas práticos.",
       "D": "Irrelevância, pois ambas operam em esferas que não guardam nenhuma semelhança lógica.",
       "E": "Total ruptura, sendo excludentes entre si."
     },
     "resposta_correta": "B",
-    "justificativa": "Dewey defende que a distinção não representa ruptura, mas continuidade evolutiva: a investigação científica é um prolongamento metódico e autocorretivo da investigação do senso comum.",
+    "justificativa": "Dewey defende que a distinção não representa ruptura, mas continuidade evolutiva: a investigaçãoão científica é um prolongamento metódico e autocorretivo da investigaçãoão do senso comum.",
     "referencia": "Cap. 3, p. 34"
   },
   {
     "id": 39,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "A investigação do senso comum, na visão de Dewey, é caracterizada por:",
+    "enunciado": "A investigaçãoão do senso comum, na visão de Dewey, é caracterizada por:",
     "alternativas": {
       "A": "Ser guiada por abstrações teóricas desconectadas da realidade.",
       "B": "Seu caráter prático e imediato, guiada por hábitos, tradições culturais e pela experiência acumulada, visando soluções satisfatórias para necessidades diárias.",
@@ -528,10 +528,10 @@ const questoesDB = [
   },
   {
     "id": 40,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Enquanto a investigação do senso comum lida com aspectos qualitativos e situacionais, a investigação científica se diferencia por:",
+    "enunciado": "Enquanto a investigaçãoão do senso comum lida com aspectos qualitativos e situacionais, a investigaçãoão científica se diferencia por:",
     "alternativas": {
       "A": "Resolver problemas sem necessidade de formulação de problemas.",
       "B": "Ignorar a lógica e apoiar-se apenas na retórica.",
@@ -545,10 +545,10 @@ const questoesDB = [
   },
   {
     "id": 41,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo Dewey, as etapas comuns tanto à investigação do senso comum quanto à científica englobam, EXCETO:",
+    "enunciado": "Segundo Dewey, as etapas comuns tanto à investigaçãoão do senso comum quanto à científica englobam, EXCETO:",
     "alternativas": {
       "A": "O ensaio ou experimentação.",
       "B": "A proclamação de verdades reveladas e absolutas.",
@@ -562,10 +562,10 @@ const questoesDB = [
   },
   {
     "id": 42,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Na teoria de Dewey, a lógica no contexto da investigação:",
+    "enunciado": "Na teoria de Dewey, a lógica no contexto da investigaçãoão:",
     "alternativas": {
       "A": "É um conjunto rígido e abstrato de regras formais prévias à ação.",
       "B": "Corresponde ao estudo das operações efetivas que compõem o próprio processo investigativo, emergindo da prática bem-sucedida (ferramenta instrumental).",
@@ -579,16 +579,16 @@ const questoesDB = [
   },
   {
     "id": 43,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme a visão pragmatista de Dewey, o papel da linguagem na investigação é:",
+    "enunciado": "Conforme a visão pragmatista de Dewey, o papel da linguagem na investigaçãoão é:",
     "alternativas": {
       "A": "Essencial, pois permite ao ser humano ensaiar mentalmente ações, antecipar resultados e formular hipóteses sem precisar agir imediatamente.",
       "B": "Irrelevante, pois a lógica deve prescindir de símbolos.",
       "C": "Responsável por engessar a criatividade do investigador.",
       "D": "Mero obstáculo à visualização da realidade empírica.",
-      "E": "Restrito à divulgação dos resultados finais, sem interferência no curso da investigação."
+      "E": "Restrito à divulgação dos resultados finais, sem interferência no curso da investigaçãoão."
     },
     "resposta_correta": "A",
     "justificativa": "A linguagem possibilita ensaiar ações mentalmente (pensamento) antes de executá-las, ampliando a capacidade investigativa pela comparação de hipóteses e viabilizando o conhecimento coletivo.",
@@ -596,10 +596,10 @@ const questoesDB = [
   },
   {
     "id": 44,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Ainda sob a perspectiva de Dewey, a lógica da investigação:",
+    "enunciado": "Ainda sob a perspectiva de Dewey, a lógica da investigaçãoão:",
     "alternativas": {
       "A": "Rejeita qualquer acúmulo de conhecimento passado.",
       "B": "Opera de maneira inalterável através dos séculos.",
@@ -613,10 +613,10 @@ const questoesDB = [
   },
   {
     "id": 45,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "O padrão geral de investigação proposto por John Dewey pode ser resumido como:",
+    "enunciado": "O padrão geral de investigaçãoão proposto por John Dewey pode ser resumido como:",
     "alternativas": {
       "A": "A formulação de um problema para o qual não há qualquer esperança de solução empírica.",
       "B": "A transformação dirigida ou controlada de uma situação inicialmente indeterminada (confusa) em uma situação determinada, inteligível e unificada.",
@@ -630,25 +630,25 @@ const questoesDB = [
   },
   {
     "id": 46,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Para Dewey, a 'situação indeterminada' por si só já se constitui em um 'problema'?",
     "alternativas": {
       "A": "Não, porque situações indeterminadas não podem ser investigadas nem mesmo pelo senso comum.",
-      "B": "Não, pois o problema precisa ser instituído (delimitado) no curso da própria investigação, ganhando contornos através da seleção de dados e perguntas.",
+      "B": "Não, pois o problema precisa ser instituído (delimitado) no curso da própria investigaçãoão, ganhando contornos através da seleção de dados e perguntas.",
       "C": "Sim, qualquer confusão é automaticamente um problema estruturado.",
       "D": "Sim, pois a indeterminação já traz em si a resposta em abstrato.",
       "E": "Sim, desde que envolva a prática de um crime violento."
     },
     "resposta_correta": "B",
-    "justificativa": "O texto destaca expressamente que 'a simples indeterminação não constitui, por si só, um problema. O problema precisa ser instituído... delimitado como objeto de investigação'.",
+    "justificativa": "O texto destaca expressamente que 'a simples indeterminação não constitui, por si só, um problema. O problema precisa ser instituído... delimitado como objeto de investigaçãoão'.",
     "referencia": "Cap. 3, p. 37"
   },
   {
     "id": 47,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Quando Dewey afirma que 'um problema bem colocado está semirresolvido', ele se refere ao fato de que:",
     "alternativas": {
@@ -656,16 +656,16 @@ const questoesDB = [
       "B": "As hipóteses tornam-se desnecessárias após a formulação do problema.",
       "C": "A mera formulação de uma pergunta dispensa a fase empírica.",
       "D": "A delimitação adequada do problema já define seus contornos, as condições fáticas ('constituintes') e orienta/condiciona as alternativas de solução e hipóteses plausíveis.",
-      "E": "A investigação científica é um processo imediato e intuitivo."
+      "E": "A investigaçãoão científica é um processo imediato e intuitivo."
     },
     "resposta_correta": "D",
-    "justificativa": "Delimitar o problema corretamente estabelece as condições e dados relevantes, funcionando como um filtro ('constituintes definidos') que guia a investigação para as soluções plausíveis, estando assim 'semirresolvido'.",
+    "justificativa": "Delimitar o problema corretamente estabelece as condições e dados relevantes, funcionando como um filtro ('constituintes definidos') que guia a investigaçãoão para as soluções plausíveis, estando assim 'semirresolvido'.",
     "referencia": "Cap. 3, p. 37"
   },
   {
     "id": 48,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Na teoria de Dewey, os 'constituintes' do problema dizem respeito a:",
     "alternativas": {
@@ -681,10 +681,10 @@ const questoesDB = [
   },
   {
     "id": 49,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Sobre o padrão de investigação de Dewey, pode-se afirmar que sua progressão entre as etapas (desde a situação problemática até a conclusão) é um processo rigorosamente:",
+    "enunciado": "Sobre o padrão de investigaçãoão de Dewey, pode-se afirmar que sua progressão entre as etapas (desde a situação problemática até a conclusão) é um processo rigorosamente:",
     "alternativas": {
       "A": "Caótico, sem qualquer organização racional subjacente.",
       "B": "Flexível, não-linear e adaptativo, no qual muitas vezes é necessário retornar para reformular hipóteses ou o próprio problema.",
@@ -698,10 +698,10 @@ const questoesDB = [
   },
   {
     "id": 50,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual é a conclusão alcançada pela aplicação do padrão de investigação de Dewey a situações inicialmente indeterminadas?",
+    "enunciado": "Qual é a conclusão alcançada pela aplicação do padrão de investigaçãoão de Dewey a situações inicialmente indeterminadas?",
     "alternativas": {
       "A": "Chega-se a um conhecimento definitivo, intocável frente a novas descobertas.",
       "B": "Converte-se a situação inicial em um quadro estável e compreensível, atingindo-se um estado de estabilização ou confiança racional na resposta (conhecimento funcional e provisório).",
@@ -710,15 +710,15 @@ const questoesDB = [
       "E": "Alcança-se uma verdade divina e irrefutável."
     },
     "resposta_correta": "B",
-    "justificativa": "Toda investigação inicia num estado de dúvida e alcança um estado de estabilização ou confiança racional. O conhecimento, contudo, permanece provisório e aberto a revisão, caso surjam novas variáveis.",
+    "justificativa": "Toda investigaçãoão inicia num estado de dúvida e alcança um estado de estabilização ou confiança racional. O conhecimento, contudo, permanece provisório e aberto a revisão, caso surjam novas variáveis.",
     "referencia": "Cap. 3, p. 38"
   },
   {
     "id": 51,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Tanto na teoria de Popper quanto na teoria de Dewey, o conhecimento científico gerado ao final de um ciclo de investigação possui um traço essencial em comum:",
+    "enunciado": "Tanto na teoria de Popper quanto na teoria de Dewey, o conhecimento científico gerado ao final de um ciclo de investigaçãoão possui um traço essencial em comum:",
     "alternativas": {
       "A": "Seu caráter definitivo, jamais podendo ser modificado no futuro.",
       "B": "A dependência exclusiva do método dedutivo.",
@@ -732,13 +732,13 @@ const questoesDB = [
   },
   {
     "id": 52,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Analise o trecho do caderno didático: 'A ciência não oferece verdades definitivas, mas explicações provisórias que se mantêm válidas enquanto resistirem à refutação'. Esta afirmação resume precipuamente o modelo teórico de:",
     "alternativas": {
       "A": "Aristóteles (Verdade justificada).",
-      "B": "John Dewey (Investigação do senso comum).",
+      "B": "John Dewey (Investigaçãoão do senso comum).",
       "C": "Immanuel Kant (Imperativo categórico).",
       "D": "René Descartes (Dúvida hiperbólica).",
       "E": "Karl Popper (Critério de falseabilidade)."
@@ -749,31 +749,31 @@ const questoesDB = [
   },
   {
     "id": 53,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "A Polícia Federal utiliza essas bases teóricas epistemológicas para fundamentar sua doutrina institucional de investigação. O objetivo disso é:",
+    "enunciado": "A Polícia Federal utiliza essas bases teóricas epistemológicas para fundamentar sua doutrina institucional de investigaçãoão. O objetivo disso é:",
     "alternativas": {
-      "A": "Demonstrar que a investigação policial é incompatível com a ciência e deve seguir ritos próprios secretos.",
+      "A": "Demonstrar que a investigaçãoão policial é incompatível com a ciência e deve seguir ritos próprios secretos.",
       "B": "Substituir o Código de Processo Penal pelos livros de Popper.",
-      "C": "Transformar delegados de polícia em acadêmicos alheios à persecução penal.",
+      "C": "Transformar delegados de polícia em acadêmicos alheios à persecuçção penal.",
       "D": "Validar mandados judiciais sem o controle do Ministério Público.",
-      "E": "Orientar a investigação policial por um método que traga maior racionalidade, objetividade e controle rigoroso em vez de ser mero empirismo ou intuição."
+      "E": "Orientar a investigaçãoão policial por um método que traga maior racionalidade, objetividade e controle rigoroso em vez de ser mero empirismo ou intuição."
     },
     "resposta_correta": "E",
-    "justificativa": "O material enfatiza que a estruturação não foi intuitiva ou puramente pragmática. A aplicação dos padrões racionais da ciência busca organizar a investigação perante problemas criminais, conferindo-lhe método, rigor e segurança.",
+    "justificativa": "O material enfatiza que a estruturação não foi intuitiva ou puramente pragmática. A aplicação dos padrões racionais da ciência busca organizar a investigaçãoão perante problemas criminais, conferindo-lhe método, rigor e segurança.",
     "referencia": "Cap. 3, p. 30 e 38"
   },
   {
     "id": 54,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Quando o policial se depara com um cenário de crime onde impera a dúvida, e formula uma 'linha investigativa' (hipótese), qual o papel dessa hipótese conforme a lógica de Popper adaptada à investigação?",
+    "enunciado": "Quando o policial se depara com um cenário de crime onde impera a dúvida, e formula uma 'linha investigativa' (hipótese), qual o papel dessa hipótese conforme a lógica de Popper adaptada à investigaçãoão?",
     "alternativas": {
       "A": "Dispensa a etapa judicial, já que a hipótese policial tem peso de lei.",
       "B": "Condena de antemão o principal suspeito, que assume o ônus de provar a inocência.",
-      "C": "Deve ser provada como verdadeira descartando qualquer pista que a contradiga.",
+      "C": "Deve ser provada como verdadeira descartando qualquer pista que a contradiçga.",
       "D": "Serve apenas como palpite, sendo irrelevante para a continuação formal das diligências.",
       "E": "Atua como uma tentativa provisória de solução, a qual deverá ser confrontada severamente com os vestígios (dados empíricos) para verificar se pode ser falseada."
     },
@@ -783,15 +783,15 @@ const questoesDB = [
   },
   {
     "id": 55,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Sob o viés de Karl Popper, o investigador não observa a realidade de forma neutra ou vazia. Isso significa que:",
     "alternativas": {
       "A": "As hipóteses nascem de intuições esotéricas da autoridade policial.",
       "B": "Ele deve ser passivo e aguardar que a prova se materialize espontaneamente.",
       "C": "O investigador examina a realidade já imbuído de um repertório teórico ou conhecimento prévio, o qual lhe permite perceber as lacunas e formular o problema adequadamente.",
-      "D": "A neutralidade exige que a polícia ignore a legislação durante as investigações.",
+      "D": "A neutralidade exige que a polícia ignore a legislação durante as investigaçãoões.",
       "E": "Fatos são evidentes por si mesmos até mesmo para investigadores absolutamente leigos."
     },
     "resposta_correta": "C",
@@ -800,12 +800,12 @@ const questoesDB = [
   },
   {
     "id": 56,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Se a hipótese do investigador policial afirma que 'Mévio esteve no local do crime na hora X', a descoberta de uma filmagem irrefutável mostrando Mévio em outro estado na hora X funciona, na teoria de Popper, como:",
     "alternativas": {
-      "A": "Uma verdade absoluta alheia à investigação.",
+      "A": "Uma verdade absoluta alheia à investigaçãoão.",
       "B": "Corroborador potencial.",
       "C": "Dúvida sistemática paralisante.",
       "D": "Exemplo do método indutivo.",
@@ -817,10 +817,10 @@ const questoesDB = [
   },
   {
     "id": 57,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Na transição da investigação do senso comum para a científica na teoria pragmatista de Dewey, a principal característica adicionada é:",
+    "enunciado": "Na transição da investigaçãoão do senso comum para a científica na teoria pragmatista de Dewey, a principal característica adicionada é:",
     "alternativas": {
       "A": "O uso irrestrito da força estatal.",
       "B": "A eliminação de qualquer finalidade prática na busca pelo conhecimento.",
@@ -834,16 +834,16 @@ const questoesDB = [
   },
   {
     "id": 58,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a 'lógica' para John Dewey, julgue as assertivas a partir das alternativas e marque a correta:",
     "alternativas": {
-      "A": "É dispensável para a investigação policial moderna.",
+      "A": "É dispensável para a investigaçãoão policial moderna.",
       "B": "Opera unicamente por meio de intuições instintivas do agente público.",
-      "C": "A lógica precede a investigação como um molde perfeito em que todos os fatos devem se adequar coercitivamente.",
+      "C": "A lógica precede a investigaçãoão como um molde perfeito em que todos os fatos devem se adequar coercitivamente.",
       "D": "A lógica é o estudo de como as coisas poderiam ser num mundo ideal e abstrato.",
-      "E": "A lógica corresponde ao estudo das operações efetivas do processo de investigação, consistindo na sistematização de procedimentos e hábitos que se revelaram eficazes na resolução de problemas práticos."
+      "E": "A lógica corresponde ao estudo das operações efetivas do processo de investigaçãoão, consistindo na sistematização de procedimentos e hábitos que se revelaram eficazes na resolução de problemas práticos."
     },
     "resposta_correta": "E",
     "justificativa": "Dewey defende uma lógica pragmática emergente da experiência prática; não é um sistema prévio abstrato, mas o conjunto de hábitos organizados que comprovadamente solucionaram problemas passados.",
@@ -851,8 +851,8 @@ const questoesDB = [
   },
   {
     "id": 59,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "A etapa da experimentação e do teste na visão de Karl Popper busca:",
     "alternativas": {
@@ -868,27 +868,27 @@ const questoesDB = [
   },
   {
     "id": 60,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Ao se deparar com a falha da hipótese investigativa, o pesquisador/policial age, segundo o fluxo preconizado por Popper e Dewey, da seguinte maneira:",
     "alternativas": {
-      "A": "Abandona a investigação permanentemente.",
+      "A": "Abandona a investigaçãoão permanentemente.",
       "B": "Retorna ao problema inicial, reavalia os dados disponíveis, e elabora novas hipóteses adaptadas ao cenário em contínuo movimento autocorretivo.",
       "C": "Acusa o suspeito de obstrução do método lógico.",
       "D": "Ignora a falha e redige relatório final mantendo a conclusão inicial.",
       "E": "Usa a força física para adaptar o depoimento de testemunhas."
     },
     "resposta_correta": "B",
-    "justificativa": "Tanto o modelo de Popper (se falseado, retorna para novas explicações) quanto o de Dewey (processo não-linear, adaptativo e autocorretivo) estipulam o recálculo do caminho frente aos obstáculos e contradições.",
+    "justificativa": "Tanto o modelo de Popper (se falseado, retorna para novas explicações) quanto o de Dewey (processo não-linear, adaptativo e autocorretivo) estipulam o recálculo do caminho frente aos obstáculos e contradiçções.",
     "referencia": "Cap. 3, p. 32 e 38"
   },
   {
     "id": 61,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "A teoria da investigação policial fundamentada no Caderno Didático IPO assemelha-se estruturalmente à ciência porque:",
+    "enunciado": "A teoria da investigaçãoão policial fundamentada no Caderno Didático IPO assemelha-se estruturalmente à ciência porque:",
     "alternativas": {
       "A": "Ambas lidam com laboratórios sob condições ambientais absolutamente controladas.",
       "B": "Ambas perpassam por problematização crítica, levantamento de hipóteses e testagens empíricas na busca por um conhecimento estável, abandonando o achismo.",
@@ -902,10 +902,10 @@ const questoesDB = [
   },
   {
     "id": 62,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Quando Dewey aponta que a linguagem permite comparar alternativas antes de agir, evidencia-se a característica da investigação como um processo:",
+    "enunciado": "Quando Dewey aponta que a linguagem permite comparar alternativas antes de agir, evidencia-se a característica da investigaçãoão como um processo:",
     "alternativas": {
       "A": "Exclusivo de inteligência artificial.",
       "B": "Telepático.",
@@ -914,20 +914,20 @@ const questoesDB = [
       "E": "Mental e social, onde a manipulação de símbolos e conjecturas economiza ações precipitadas ou perigosas no mundo real."
     },
     "resposta_correta": "E",
-    "justificativa": "Dewey valoriza a linguagem pois ela viabiliza o ensaio mental de consequências práticas das hipóteses antes da intervenção material. É o caráter representativo e social da investigação.",
+    "justificativa": "Dewey valoriza a linguagem pois ela viabiliza o ensaio mental de consequências práticas das hipóteses antes da intervenção material. É o caráter representativo e social da investigaçãoão.",
     "referencia": "Cap. 3, p. 36"
   },
   {
     "id": 63,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo a perspectiva de Popper aplicável à investigação, se uma linha investigativa não possuir nenhum critério observável que permita ser testada e refutada:",
+    "enunciado": "Segundo a perspectiva de Popper aplicável à investigaçãoão, se uma linha investigativa não possuir nenhum critério observável que permita ser testada e refutada:",
     "alternativas": {
       "A": "É considerada um dogma que deve guiar a portaria do inquérito policial.",
       "B": "Ela é considerada a teoria perfeita.",
       "C": "Gera condenação automática.",
-      "D": "Não tem utilidade metodológica (não é falseável), saindo do escopo de uma investigação pautada pelo viés científico.",
+      "D": "Não tem utilidade metodológica (não é falseável), saindo do escopo de uma investigaçãoão pautada pelo viés científico.",
       "E": "Dispensa totalmente a cadeia de custódia."
     },
     "resposta_correta": "D",
@@ -936,10 +936,10 @@ const questoesDB = [
   },
   {
     "id": 64,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "A substituição do conceito de 'verdade real' ou absoluta pelo de 'verdade formal aproximada e corrigível' na investigação contemporânea significa:",
+    "enunciado": "A substituição do conceito de 'verdade real' ou absoluta pelo de 'verdade formal aproximada e corrigível' na investigaçãoão contemporânea significa:",
     "alternativas": {
       "A": "Que juízes só aceitam fatos matematicamente incontestáveis.",
       "B": "Que a ciência abriu mão de tentar entender os fatos.",
@@ -953,8 +953,8 @@ const questoesDB = [
   },
   {
     "id": 65,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Consoante o texto base, o fato de as regras que compõem a metodologia não possuírem 'justificação teórica, mas apenas pragmática' indica que:",
     "alternativas": {
@@ -970,8 +970,8 @@ const questoesDB = [
   },
   {
     "id": 66,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "A afirmação 'ninguém pode investigar adequadamente a partir do absoluto vazio' remete à ideia, na visão dos autores referenciados, de que:",
     "alternativas": {
@@ -987,14 +987,14 @@ const questoesDB = [
   },
   {
     "id": 67,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "O conceito de 'corroboração' em Karl Popper, aplicado à persecução investigativa, deve ser entendido como:",
+    "enunciado": "O conceito de 'corroboração' em Karl Popper, aplicado à persecuçção investigativa, deve ser entendido como:",
     "alternativas": {
       "A": "A manutenção provisória e o grau de confiabilidade da hipótese investigativa, pelo fato de ter suportado (resistido) satisfatoriamente a testes severos de falseamento até o momento.",
-      "B": "A recusa em aceitar outras provas que contradigam a primeira ideia do Delegado de Polícia.",
-      "C": "A etapa inicial da investigação na qual dados vagos são compilados sem análise.",
+      "B": "A recusa em aceitar outras provas que contradiçgam a primeira ideia do Delegado de Polícia.",
+      "C": "A etapa inicial da investigaçãoão na qual dados vagos são compilados sem análise.",
       "D": "O selo judicial que encerra a fase processual com condenação definitiva.",
       "E": "A confirmação irrefutável e permanente da hipótese do investigador."
     },
@@ -1004,25 +1004,25 @@ const questoesDB = [
   },
   {
     "id": 68,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "O agricultor que adapta o plantio ao observar as nuvens e as reações da natureza utiliza-se de métodos característicos da:",
     "alternativas": {
-      "A": "Investigação dogmática inquisitorial.",
+      "A": "Investigaçãoão dogmática inquisitorial.",
       "B": "Engenharia genética pragmatista.",
-      "C": "Investigação científica sistemática na modalidade popperiana estrita.",
+      "C": "Investigaçãoão científica sistemática na modalidade popperiana estrita.",
       "D": "Pescaria probatória avançada.",
-      "E": "Investigação do senso comum, de natureza prática, guiada por hábitos e busca de soluções imediatas, mas sem formalização rigorosa."
+      "E": "Investigaçãoão do senso comum, de natureza prática, guiada por hábitos e busca de soluções imediatas, mas sem formalização rigorosa."
     },
     "resposta_correta": "E",
-    "justificativa": "É o exemplo utilizado no texto para ilustrar a investigação do senso comum de Dewey: utilitarista, prática e baseada em experiência e observação cotidiana sem sistematização universal.",
+    "justificativa": "É o exemplo utilizado no texto para ilustrar a investigaçãoão do senso comum de Dewey: utilitarista, prática e baseada em experiência e observação cotidiana sem sistematização universal.",
     "referencia": "Cap. 3, p. 34"
   },
   {
     "id": 69,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "A 'Situação Indeterminada', que dá partida ao ciclo da lógica de Dewey, apresenta-se à polícia na forma de:",
     "alternativas": {
@@ -1033,15 +1033,15 @@ const questoesDB = [
       "E": "A rotina administrativa de emissão de passaportes no balcão da Polícia Federal."
     },
     "resposta_correta": "C",
-    "justificativa": "No contexto da investigação policial, a situação indeterminada de Dewey reflete aquele contexto inicial da notitia criminis obscura: há um crime (ou suspeita de), porém a realidade ali apresenta tensões, incertezas e indefinições que a polícia precisará elucidar e unificar.",
+    "justificativa": "No contexto da investigaçãoão policial, a situação indeterminada de Dewey reflete aquele contexto inicial da notitia criminis obscura: há um crime (ou suspeita de), porém a realidade ali apresenta tensões, incertezas e indefinições que a polícia precisará elucidar e unificar.",
     "referencia": "Cap. 3, p. 34-36"
   },
   {
     "id": 70,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "A incorporação das concepções de Popper e Dewey na Doutrina Institucional da Polícia Federal visa transmitir ao Policial a percepção de que a investigação:",
+    "enunciado": "A incorporação das concepções de Popper e Dewey na Doutrina Institucional da Polícia Federal visa transmitir ao Policial a percepção de que a investigaçãoão:",
     "alternativas": {
       "A": "Representa uma atividade que pressupõe questionamento crítico, racionalidade metodológica, hipóteses testáveis e flexibilidade para correção de rumos pautada em dados empíricos.",
       "B": "É desvinculada de qualquer teoria ou reflexão prévia, dependendo unicamente da força repressiva operacional.",
@@ -1055,10 +1055,10 @@ const questoesDB = [
   },
   {
     "id": 71,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático IPO, a consolidação da investigação policial como atividade estruturada e especializada ocorreu nos séculos:",
+    "enunciado": "De acordo com o Caderno Didático IPO, a consolidação da investigaçãoão policial como atividade estruturada e especializada ocorreu nos séculos:",
     "alternativas": {
       "A": "XV e XVI.",
       "B": "XVI e XVII.",
@@ -1067,13 +1067,13 @@ const questoesDB = [
       "E": "XIX e XX."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno afirma que 'a investigação policial, tal como hoje concebida, estruturada, especializada e vinculada a métodos próprios, somente se consolidou nos séculos XVIII e XIX'.",
+    "justificativa": "O caderno afirma que 'a investigaçãoão policial, tal como hoje concebida, estruturada, especializada e vinculada a métodos próprios, somente se consolidou nos séculos XVIII e XIX'.",
     "referencia": "Cap. 4, Seção 4.1, p. 28"
   },
   {
     "id": 72,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, quem é reconhecido como fundador do primeiro órgão de polícia investigativa moderna?",
     "alternativas": {
@@ -1089,25 +1089,25 @@ const questoesDB = [
   },
   {
     "id": 73,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, Hans Gross (1847-1915) é considerado:",
     "alternativas": {
       "A": "O inventor da técnica de impressões digitais.",
       "B": "O criador do primeiro laboratório de perícia criminal.",
       "C": "O fundador da Sûreté francesa.",
-      "D": "O pai da Ciência da Investigação Criminal.",
+      "D": "O pai da Ciência da Investigaçãoão Criminal.",
       "E": "O criador do sistema antropométrico de identificação."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno afirma que Hans Gross é 'considerado o pai da Ciência da Investigação Criminal, que sistematizou conhecimentos técnicos e metodológicos aplicáveis à investigação criminal'.",
+    "justificativa": "O caderno afirma que Hans Gross é 'considerado o pai da Ciência da Investigaçãoão Criminal, que sistematizou conhecimentos técnicos e metodológicos aplicáveis à investigaçãoão criminal'.",
     "referencia": "Cap. 4, Seção 4.1, p. 30"
   },
   {
     "id": 74,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, Charles Sanders Peirce desenvolveu o método de inferência denominado:",
     "alternativas": {
@@ -1119,12 +1119,12 @@ const questoesDB = [
     },
     "resposta_correta": "B",
     "justificativa": "O caderno afirma que 'Charles Sanders Peirce (1839–1914) desenvolveu o método abdutivo de inferência, baseado na formulação de hipóteses explicativas a partir de indícios observados'.",
-    "referencia": "Cap. 4, Seção 4.1, p. 29"
+    "referencia": "Cap. 4 - Investigação policial, p. 26"
   },
   {
     "id": 75,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, a manutenção do inquérito policial como processo preliminar no CPP de 1941 decorreu de:",
     "alternativas": {
@@ -1140,8 +1140,8 @@ const questoesDB = [
   },
   {
     "id": 76,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, a primeira aparição legislativa do inquérito policial no Brasil ocorreu em:",
     "alternativas": {
@@ -1152,15 +1152,15 @@ const questoesDB = [
       "E": "1941."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno afirma que o CPP de 1941 'consolidou o instrumento de investigação denominado inquérito policial, cuja primeira aparição legislativa havia se dado em 1871'.",
+    "justificativa": "O caderno afirma que o CPP de 1941 'consolidou o instrumento de investigaçãoão denominado inquérito policial, cuja primeira aparição legislativa havia se dado em 1871'.",
     "referencia": "Cap. 4, Seção 4.1, p. 31"
   },
   {
     "id": 77,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, a doutrina contemporânea da Polícia Federal diferencia investigação criminal de investigação policial. A expressão 'investigação criminal' designa:",
+    "enunciado": "Segundo o caderno, a doutrina contemporânea da Polícia Federal diferencia investigaçãoão criminal de investigaçãoão policial. A expressão 'investigaçãoão criminal' designa:",
     "alternativas": {
       "A": "Atividade exclusiva da polícia judiciária estadual.",
       "B": "Atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos, como o Ministério Público.",
@@ -1169,18 +1169,18 @@ const questoesDB = [
       "E": "Sinônimo de inteligência policial."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que 'a expressão investigação criminal designa a atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos, como o Ministério Público'.",
+    "justificativa": "O caderno afirma que 'a expressão investigaçãoão criminal designa a atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos, como o Ministério Público'.",
     "referencia": "Cap. 4, Seção 4.1, p. 33"
   },
   {
     "id": 78,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático IPO, o princípio da legalidade na investigação policial impõe que:",
+    "enunciado": "De acordo com o Caderno Didático IPO, o princípio da legalidade na investigaçãoão policial impõe que:",
     "alternativas": {
       "A": "O agente público pode agir em tudo que a lei não proíba.",
-      "B": "O delegado de polícia tem discricionariedade absoluta na investigação.",
+      "B": "O delegado de polícia tem discricionariedade absoluta na investigaçãoão.",
       "C": "A legalidade se resume à existência formal de uma norma autorizativa.",
       "D": "Toda diligência, medida cautelar ou ato investigativo possua fundamento jurídico válido.",
       "E": "A polícia judiciária pode adotar quaisquer medidas desde que eficazes."
@@ -1191,16 +1191,16 @@ const questoesDB = [
   },
   {
     "id": 79,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, o princípio da economicidade na investigação policial traduz-se em:",
+    "enunciado": "Conforme o caderno, o princípio da economicidade na investigaçãoão policial traduz-se em:",
     "alternativas": {
       "A": "Planejar e executar diligências racionalmente, otimizando o emprego de pessoal, equipamentos e meios tecnológicos.",
-      "B": "Reduzir ao máximo o número de policiais envolvidos na investigação.",
-      "C": "Evitar a instauração de inquéritos policiais sempre que possível.",
-      "D": "Destinar verbas exclusivamente para técnicas de investigação tradicionais.",
-      "E": "Privilegiar investigações de menor custo financeiro."
+      "B": "Reduzir ao máximo o número de policiais envolvidos na investigaçãoão.",
+      "C": "Evitar a instauraçção de inquéritos policiais sempre que possível.",
+      "D": "Destinar verbas exclusivamente para técnicas de investigaçãoão tradicionais.",
+      "E": "Privilegiar investigaçãoões de menor custo financeiro."
     },
     "resposta_correta": "A",
     "justificativa": "O caderno afirma que a economicidade 'traduz-se na necessidade de planejar e executar diligências racionalmente, de modo a otimizar o emprego de pessoal, equipamentos, logística e meios tecnológicos'.",
@@ -1208,42 +1208,42 @@ const questoesDB = [
   },
   {
     "id": 80,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, o princípio da unidade na investigação policial estabelece que:",
+    "enunciado": "De acordo com o caderno, o princípio da unidade na investigaçãoão policial estabelece que:",
     "alternativas": {
       "A": "O inquérito policial deve ser concluído em uma única fase.",
-      "B": "Deve haver apenas um delegado por investigação.",
+      "B": "Deve haver apenas um delegado por investigaçãoão.",
       "C": "Todas as polícias brasileiras devem trabalhar em conjunto obrigatoriamente.",
-      "D": "A investigação deve ser compreendida como um processo único e integrado, onde todas as diligências convergem para o mesmo objetivo.",
+      "D": "A investigaçãoão deve ser compreendida como um processo único e integrado, onde todas as diligências convergem para o mesmo objetivo.",
       "E": "Cada diligência deve ser analisada isoladamente."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno afirma que o princípio da unidade 'estabelece que a investigação policial deve ser compreendida como um processo único e integrado, em que todas as diligências convergem para um mesmo objetivo'.",
+    "justificativa": "O caderno afirma que o princípio da unidade 'estabelece que a investigaçãoão policial deve ser compreendida como um processo único e integrado, em que todas as diligências convergem para um mesmo objetivo'.",
     "referencia": "Cap. 4, Seção 4.2.4, p. 36"
   },
   {
     "id": 81,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, o princípio da exclusividade na investigação policial significa que:",
+    "enunciado": "Segundo o caderno, o princípio da exclusividade na investigaçãoão policial significa que:",
     "alternativas": {
       "A": "Cada crime pode ser investigado por apenas uma equipe.",
-      "B": "A investigação é exclusiva do Ministério Público.",
-      "C": "A investigação policial é função típica do Estado, exercida com exclusividade pelos órgãos de polícia judiciária.",
+      "B": "A investigaçãoão é exclusiva do Ministério Público.",
+      "C": "A investigaçãoão policial é função típica do Estado, exercida com exclusividade pelos órgãos de polícia judiciária.",
       "D": "A Polícia Federal é a única força policial do Brasil.",
       "E": "Somente o delegado pode realizar diligências investigativas."
     },
     "resposta_correta": "C",
-    "justificativa": "O caderno afirma que 'a investigação policial constitui função típica do Estado e é exercida, com exclusividade, pelos órgãos de polícia judiciária — Polícia Federal e Polícias Civis'.",
+    "justificativa": "O caderno afirma que 'a investigaçãoão policial constitui função típica do Estado e é exercida, com exclusividade, pelos órgãos de polícia judiciária — Polícia Federal e Polícias Civis'.",
     "referencia": "Cap. 4, Seção 4.2.5, p. 37"
   },
   {
     "id": 82,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o princípio da proporcionalidade se desdobra em três dimensões. São elas:",
     "alternativas": {
@@ -1259,10 +1259,10 @@ const questoesDB = [
   },
   {
     "id": 83,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, entre as cinco características estruturantes da investigação policial, destaca-se como a principal:",
+    "enunciado": "De acordo com o caderno, entre as cinco características estruturantes da investigaçãoão policial, destaca-se como a principal:",
     "alternativas": {
       "A": "A separação de funções.",
       "B": "A adaptabilidade.",
@@ -1271,13 +1271,13 @@ const questoesDB = [
       "E": "O controle externo."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que 'a adaptabilidade destaca-se como a principal característica da investigação policial, na medida em que o procedimento investigativo é dinâmico e sensível às variações do caso concreto'.",
+    "justificativa": "O caderno afirma que 'a adaptabilidade destaca-se como a principal característica da investigaçãoão policial, na medida em que o procedimento investigativo é dinâmico e sensível às variações do caso concreto'.",
     "referencia": "Cap. 4, Seção 4.3, p. 39"
   },
   {
     "id": 84,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o acesso do advogado aos atos documentados no inquérito policial é assegurado pela:",
     "alternativas": {
@@ -1293,10 +1293,10 @@ const questoesDB = [
   },
   {
     "id": 85,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, a investigação policial busca a construção de uma verdade que possa ser:",
+    "enunciado": "Segundo o caderno, a investigaçãoão policial busca a construção de uma verdade que possa ser:",
     "alternativas": {
       "A": "Apta a ser submetida ao crivo judicial (verdade judicializável).",
       "B": "Exclusivamente favorável à acusação.",
@@ -1305,34 +1305,34 @@ const questoesDB = [
       "E": "Política e administrativamente válida."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno afirma que 'busca-se, com a investigação policial, a construção de uma verdade apta a ser submetida ao crivo judicial, isto é, uma verdade judicializável'.",
+    "justificativa": "O caderno afirma que 'busca-se, com a investigaçãoão policial, a construção de uma verdade apta a ser submetida ao crivo judicial, isto é, uma verdade judicializável'.",
     "referencia": "Cap. 4, Seção 4.4, p. 42"
   },
   {
     "id": 86,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, viabilizar o oferecimento de denúncia pelo Ministério Público:",
     "alternativas": {
-      "A": "É a finalidade primária da investigação policial.",
+      "A": "É a finalidade primária da investigaçãoão policial.",
       "B": "É o único objetivo do inquérito policial.",
       "C": "Depende exclusivamente da vontade do delegado.",
-      "D": "Não é finalidade primária da investigação policial.",
+      "D": "Não é finalidade primária da investigaçãoão policial.",
       "E": "É função compartilhada entre polícia e juiz."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno é enfático: 'viabilizar o oferecimento de denúncia pelo Ministério Público não é finalidade primária da investigação policial'. A finalidade é esclarecer os fatos com objetividade e imparcialidade.",
+    "justificativa": "O caderno é enfático: 'viabilizar o oferecimento de denúncia pelo Ministério Público não é finalidade primária da investigaçãoão policial'. A finalidade é esclarecer os fatos com objetividade e imparcialidade.",
     "referencia": "Cap. 4, Seção 4.4, p. 42-43"
   },
   {
     "id": 87,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, o trinômio da investigação policial é composto por:",
+    "enunciado": "Conforme o caderno, o trinômio da investigaçãoão policial é composto por:",
     "alternativas": {
-      "A": "Investigação, acusação e julgamento.",
+      "A": "Investigaçãoão, acusação e julgamento.",
       "B": "Celeridade, sigilo e controle.",
       "C": "Materialidade, autoria e circunstâncias.",
       "D": "Qualidade da prova, responsabilidade e autonomia.",
@@ -1344,10 +1344,10 @@ const questoesDB = [
   },
   {
     "id": 88,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, os limites da investigação policial são classificados em:",
+    "enunciado": "De acordo com o caderno, os limites da investigaçãoão policial são classificados em:",
     "alternativas": {
       "A": "Constitucionais, legais e administrativos.",
       "B": "Internos, externos e judiciais.",
@@ -1356,13 +1356,13 @@ const questoesDB = [
       "E": "Pessoais, institucionais e sociais."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno classifica os limites da investigação policial em 'limites normativos', 'limites operacionais' e 'limites morais'.",
+    "justificativa": "O caderno classifica os limites da investigaçãoão policial em 'limites normativos', 'limites operacionais' e 'limites morais'.",
     "referencia": "Cap. 4, Seção 4.5, p. 46"
   },
   {
     "id": 89,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, os documentos de inteligência policial em relação ao inquérito policial:",
     "alternativas": {
@@ -1374,12 +1374,12 @@ const questoesDB = [
     },
     "resposta_correta": "C",
     "justificativa": "O caderno cita o art. 7º da Portaria n.º 5.299/2015-DG/PF: 'Os documentos de inteligência não deverão, em qualquer hipótese, ser juntados aos autos do Inquérito Policial'.",
-    "referencia": "Cap. 4, Seção 4.6, p. 49"
+    "referencia": "Cap. 4 - Investigação policial, p. 45"
   },
   {
     "id": 90,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a inteligência policial na Polícia Federal é estruturada em três níveis de assessoramento. São eles:",
     "alternativas": {
@@ -1395,8 +1395,8 @@ const questoesDB = [
   },
   {
     "id": 91,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a Recuperação de Ativos na Polícia Federal compreende cinco etapas. São elas:",
     "alternativas": {
@@ -1404,7 +1404,7 @@ const questoesDB = [
       "B": "Busca, apreensão, perícia, relatório e encaminhamento.",
       "C": "Rastreamento, bloqueio, confisco, leilão e distribuição.",
       "D": "Identificação, apreensão, administração, alienação e destinação.",
-      "E": "Investigação, cautelar, sentença, execução e partilha."
+      "E": "Investigaçãoão, cautelar, sentença, execução e partilha."
     },
     "resposta_correta": "D",
     "justificativa": "O caderno afirma que a Polícia Federal colaborou com a definição do procedimento padrão 'constituído por 05 etapas: identificação, apreensão, administração, alienação e destinação de ativos relacionados à prática ou ao financiamento de infração penal'.",
@@ -1412,8 +1412,8 @@ const questoesDB = [
   },
   {
     "id": 92,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a Constituição de 1988 foi a primeira Carta Magna brasileira a empregar expressamente a expressão:",
     "alternativas": {
@@ -1421,7 +1421,7 @@ const questoesDB = [
       "B": "Polícia judiciária.",
       "C": "Inquérito policial.",
       "D": "Persecução penal.",
-      "E": "Investigação criminal."
+      "E": "Investigaçãoão criminal."
     },
     "resposta_correta": "B",
     "justificativa": "O caderno afirma que 'a Constituição de 1988 foi a primeira Carta Magna brasileira a empregar expressamente a expressão polícia judiciária'.",
@@ -1429,61 +1429,61 @@ const questoesDB = [
   },
   {
     "id": 93,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o confisco alargado (art. 91-A do CP) incide sobre:",
     "alternativas": {
       "A": "A diferença patrimonial incompatível com a renda lícita do condenado.",
       "B": "Todo o patrimônio do condenado sem exceção.",
       "C": "Apenas o produto direto da infração penal.",
-      "D": "Apenas bens adquiridos após o início da investigação.",
+      "D": "Apenas bens adquiridos após o início da investigaçãoão.",
       "E": "Apenas os instrumentos do crime."
     },
     "resposta_correta": "A",
     "justificativa": "O caderno afirma que o confisco alargado '(art. 91-A do CP) incide sobre a diferença patrimonial incompatível com a renda lícita do condenado'.",
-    "referencia": "Cap. 4, Seção 4.4.1 / Cap. 7, p. 44-45"
+    "referencia": "Cap. 4 - Investigação policial, p. 42"
   },
   {
     "id": 94,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, a impessoalidade na investigação policial manifesta-se como:",
+    "enunciado": "De acordo com o caderno, a impessoalidade na investigaçãoão policial manifesta-se como:",
     "alternativas": {
       "A": "Sigilo quanto à identidade do delegado presidente.",
       "B": "Proibição de o investigado saber quem o investiga.",
       "C": "Anonimato dos investigadores.",
-      "D": "Obrigação de trocar a equipe de investigação periodicamente.",
+      "D": "Obrigação de trocar a equipe de investigaçãoão periodicamente.",
       "E": "Imparcialidade funcional, investigando tanto circunstâncias contrárias quanto favoráveis ao investigado."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno afirma que 'no âmbito da investigação policial, a impessoalidade manifesta-se como imparcialidade funcional. (...) Isso significa investigar tanto as circunstâncias que possam indicar autoria e materialidade quanto aquelas que eventualmente favoreçam o investigado'.",
+    "justificativa": "O caderno afirma que 'no âmbito da investigaçãoão policial, a impessoalidade manifesta-se como imparcialidade funcional. (...) Isso significa investigar tanto as circunstâncias que possam indicar autoria e materialidade quanto aquelas que eventualmente favoreçam o investigado'.",
     "referencia": "Cap. 4, Seção 4.2.8, p. 39"
   },
   {
     "id": 95,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático IPO, a persecução penal no Brasil estrutura-se em duas fases distintas. A primeira fase, que antecede a instauração do processo judicial, é denominada:",
+    "enunciado": "De acordo com o Caderno Didático IPO, a persecuçção penal no Brasil estrutura-se em duas fases distintas. A primeira fase, que antecede a instauraçção do processo judicial, é denominada:",
     "alternativas": {
-      "A": "Fase contraditória.",
+      "A": "Fase contradiçtória.",
       "B": "Fase acusatória.",
       "C": "Fase de execução penal.",
       "D": "Fase recursal.",
       "E": "Fase extraprocessual (ou pré-processual)."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno afirma que 'a primeira fase possui natureza administrativa e antecede a instauração do processo judicial. É tradicionalmente denominada investigação preliminar, fase pré-processual, fase informativa, fase inquisitorial ou inquisitiva. Parte da doutrina processual penal contemporânea, contudo, tem preferido a expressão fase extraprocessual'.",
+    "justificativa": "O caderno afirma que 'a primeira fase possui natureza administrativa e antecede a instauraçção do processo judicial. É tradicionalmente denominada investigaçãoão preliminar, fase pré-processual, fase informativa, fase inquisitorial ou inquisitiva. Parte da doutrina processual penal contemporânea, contudo, tem preferido a expressão fase extraprocessual'.",
     "referencia": "Cap. 5, p. 52"
   },
   {
     "id": 96,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático IPO, no processo penal, o início da segunda fase da persecução penal necessita de:",
+    "enunciado": "Segundo o Caderno Didático IPO, no processo penal, o início da segunda fase da persecuçção penal necessita de:",
     "alternativas": {
       "A": "A prova da materialidade delitiva e indícios mínimos de autoria (justa causa).",
       "B": "Apenas a denúncia do Ministério Público.",
@@ -1492,12 +1492,12 @@ const questoesDB = [
       "E": "Apenas o inquérito policial concluído."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno é claro: 'no processo penal o início da segunda fase da persecução penal necessita da prova da materialidade delitiva – a prova de que aquela infração penal realmente ocorreu – e de indícios mínimos de autoria, coautoria ou participação. A este mínimo probatório, o legislador brasileiro convencionou denominar de justa causa'.",
+    "justificativa": "O caderno é claro: 'no processo penal o início da segunda fase da persecuçção penal necessita da prova da materialidade delitiva – a prova de que aquela infração penal realmente ocorreu – e de indícios mínimos de autoria, coautoria ou participação. A este mínimo probatório, o legislador brasileiro convencionou denominar de justa causa'.",
     "referencia": "Cap. 5, p. 52"
   },
   {
     "id": 97,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno Didático IPO, a doutrina mais moderna entende que a finalidade material preparatória do inquérito policial é:",
@@ -1509,15 +1509,15 @@ const questoesDB = [
       "E": "Compartilhada igualmente com o Ministério Público."
     },
     "resposta_correta": "C",
-    "justificativa": "O caderno afirma que 'a doutrina mais moderna entende que a finalidade material preparatória do inquérito policial é secundária, haja vista sua função primordialmente preservadora, que é de garantir os direitos fundamentais de todos os atores da investigação'.",
+    "justificativa": "O caderno afirma que 'a doutrina mais moderna entende que a finalidade material preparatória do inquérito policial é secundária, haja vista sua função primordialmente preservadora, que é de garantir os direitos fundamentais de todos os atores da investigaçãoão'.",
     "referencia": "Cap. 5, p. 53"
   },
   {
     "id": 98,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, da investigação policial extraem-se três funções essenciais. São elas:",
+    "enunciado": "Segundo o caderno, da investigaçãoão policial extraem-se três funções essenciais. São elas:",
     "alternativas": {
       "A": "Celeridade, publicidade e oralidade.",
       "B": "Identificar, prender e processar o investigado.",
@@ -1526,15 +1526,15 @@ const questoesDB = [
       "E": "Resguardar a imparcialidade, a economicidade e a eficiência da justiça criminal."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno afirma: 'extraem-se da investigação policial três funções essenciais: resguardar a imparcialidade; a economicidade; e a eficiência da justiça criminal'.",
+    "justificativa": "O caderno afirma: 'extraem-se da investigaçãoão policial três funções essenciais: resguardar a imparcialidade; a economicidade; e a eficiência da justiça criminal'.",
     "referencia": "Cap. 5, p. 53"
   },
   {
     "id": 99,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, o principal bem jurídico tutelado pela investigação policial é:",
+    "enunciado": "De acordo com o caderno, o principal bem jurídico tutelado pela investigaçãoão policial é:",
     "alternativas": {
       "A": "A liberdade individual.",
       "B": "A proteção da vítima.",
@@ -1548,8 +1548,8 @@ const questoesDB = [
   },
   {
     "id": 100,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a Lei Federal n.º 12.830/2013 previu que as funções de polícia judiciária e a apuração de infrações penais possuem natureza jurídica:",
     "alternativas": {
@@ -1561,28 +1561,28 @@ const questoesDB = [
     },
     "resposta_correta": "B",
     "justificativa": "O caderno afirma que 'a Lei Federal n.º 12.830/2013 previu que as funções de polícia judiciária e a apuração de infrações penais deverão ser conduzidas pelo Delegado de Polícia Federal, e possuem natureza jurídica, essenciais e exclusivas de Estado'.",
-    "referencia": "Cap. 5, p. 55"
+    "referencia": "Cap. 5 - Inquérito Policial, p. 51"
   },
   {
     "id": 101,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, as Comissões Parlamentares de Inquérito (CPIs):",
     "alternativas": {
       "A": "Exercem função de polícia judiciária delegada.",
       "B": "Podem apurar ilícitos de natureza penal diretamente.",
       "C": "Podem conduzir inquéritos policiais com autorização do STF.",
-      "D": "Substituem os órgãos de persecução criminal quando necessário.",
+      "D": "Substituem os órgãos de persecuçção criminal quando necessário.",
       "E": "Não possuem atribuição para apurar ilícitos de natureza penal."
     },
     "resposta_correta": "E",
     "justificativa": "O caderno afirma que 'o STF já assentou, no julgamento do MS 34.864-MC, que as CPIs não possuem atribuição para apurar ilícitos de natureza penal'.",
-    "referencia": "Cap. 5, p. 57"
+    "referencia": "Cap. 5 - Inquérito Policial, p. 52"
   },
   {
     "id": 102,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a 'nova doutrina do inquérito' afasta-se da visão clássica que considerava o inquérito como:",
@@ -1590,7 +1590,7 @@ const questoesDB = [
       "A": "Procedimento constitucionalizado e garantidor de direitos.",
       "B": "Instrumento de acusação formal.",
       "C": "Instrumento de controle do Poder Judiciário.",
-      "D": "Fase processual com contraditório pleno.",
+      "D": "Fase processual com contradiçtório pleno.",
       "E": "Mero procedimento administrativo, inquisitivo, sigiloso, discricionário e dispensável."
     },
     "resposta_correta": "E",
@@ -1599,7 +1599,7 @@ const questoesDB = [
   },
   {
     "id": 103,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a doutrina processual penal contemporânea considera que a expressão 'inquisitório' aplicada ao inquérito policial é:",
@@ -1616,24 +1616,24 @@ const questoesDB = [
   },
   {
     "id": 104,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a notícia anônima, por si só:",
     "alternativas": {
-      "A": "É suficiente para instaurar inquérito policial.",
-      "B": "Não é suficiente para instaurar inquérito policial, mas não deve ser descartada.",
+      "A": "É suficiente para instauraçr inquérito policial.",
+      "B": "Não é suficiente para instauraçr inquérito policial, mas não deve ser descartada.",
       "C": "Deve ser automaticamente descartada pela autoridade policial.",
       "D": "Equivale a uma requisição do Ministério Público.",
       "E": "Gera obrigação imediata de indiciamento."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que 'a notícia anônima, por si só, não é suficiente para instaurar inquérito policial, conforme entendimento consolidado no STF e no STJ. Ainda assim, ela não deve ser descartada de plano'.",
+    "justificativa": "O caderno afirma que 'a notícia anônima, por si só, não é suficiente para instauraçr inquérito policial, conforme entendimento consolidado no STF e no STJ. Ainda assim, ela não deve ser descartada de plano'.",
     "referencia": "Cap. 5, Seção 5.3, item d, p. 64"
   },
   {
     "id": 105,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a providência adequada diante de uma notícia anônima é:",
@@ -1645,12 +1645,12 @@ const questoesDB = [
       "E": "Encaminhar diretamente ao Ministério Público."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno afirma que 'a providência adequada é a verificação preliminar da procedência das informações, de modo a buscar indícios mínimos que corroborem o relato antes da formal instauração'.",
+    "justificativa": "O caderno afirma que 'a providência adequada é a verificação preliminar da procedência das informações, de modo a buscar indícios mínimos que corroborem o relato antes da formal instauraçção'.",
     "referencia": "Cap. 5, Seção 5.3, item d, p. 64"
   },
   {
     "id": 106,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, conforme Aury Lopes Jr., a finalidade do inquérito policial pode ser compreendida a partir de três dimensões fundamentais. São elas:",
@@ -1667,7 +1667,7 @@ const questoesDB = [
   },
   {
     "id": 107,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o inquérito policial, para a doutrina moderna, quanto à sua indispensabilidade, é considerado:",
@@ -1684,10 +1684,10 @@ const questoesDB = [
   },
   {
     "id": 108,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, o inquérito policial é procedimento indisponível para o Delegado de Polícia. Uma vez instaurado, o arquivamento cabe:",
+    "enunciado": "De acordo com o caderno, o inquérito policial é procedimento indisponível para o Delegado de Polícia. Uma vez instauraçdo, o arquivamento cabe:",
     "alternativas": {
       "A": "Ao investigado, mediante requerimento.",
       "B": "Ao Ministério Público, titular da ação penal pública.",
@@ -1696,29 +1696,29 @@ const questoesDB = [
       "E": "À Corregedoria de Polícia."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que 'o inquérito policial é procedimento indisponível para o Delegado de Polícia. Uma vez instaurado, não pode ser arquivado por iniciativa da autoridade policial, cabendo essa decisão ao Ministério Público, titular da ação penal pública'.",
+    "justificativa": "O caderno afirma que 'o inquérito policial é procedimento indisponível para o Delegado de Polícia. Uma vez instauraçdo, não pode ser arquivado por iniciativa da autoridade policial, cabendo essa decisão ao Ministério Público, titular da ação penal pública'.",
     "referencia": "Cap. 5, Seção 5.5.4, p. 75"
   },
   {
     "id": 109,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, a Súmula Vinculante nº 14 do STF assegura ao defensor o direito de acesso:",
     "alternativas": {
-      "A": "Aos elementos já documentados na investigação.",
+      "A": "Aos elementos já documentados na investigaçãoão.",
       "B": "Às estratégias investigativas ainda em desenvolvimento.",
       "C": "A todas as diligências em andamento.",
       "D": "Aos dados sigilosos de outros investigados.",
       "E": "Às informações classificadas de inteligência policial."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno afirma que a Súmula Vinculante nº 14 assegura ao defensor 'o direito de acesso aos elementos já documentados na investigação. Tal garantia não elimina o sigilo próprio do inquérito, que permanece essencial para a eficácia de diligências em curso'.",
+    "justificativa": "O caderno afirma que a Súmula Vinculante nº 14 assegura ao defensor 'o direito de acesso aos elementos já documentados na investigaçãoão. Tal garantia não elimina o sigilo próprio do inquérito, que permanece essencial para a eficácia de diligências em curso'.",
     "referencia": "Cap. 5, Seção 5.2.1, p. 61"
   },
   {
     "id": 110,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o sigilo do inquérito policial é parcialmente levantado normalmente quando:",
@@ -1727,38 +1727,38 @@ const questoesDB = [
       "B": "O advogado do investigado solicita.",
       "C": "A imprensa solicita acesso.",
       "D": "O juiz determina de ofício.",
-      "E": "Há deflagração de operação policial ou finalização da investigação."
+      "E": "Há deflagração de operação policial ou finalização da investigaçãoão."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno afirma que 'normalmente, o sigilo é parcialmente levantado quando há deflagração de operação policial ou finalização da investigação'.",
+    "justificativa": "O caderno afirma que 'normalmente, o sigilo é parcialmente levantado quando há deflagração de operação policial ou finalização da investigaçãoão'.",
     "referencia": "Cap. 5, Seção 5.5.3, p. 73"
   },
   {
     "id": 111,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, a Lei n.º 13.432/2017 (Lei do Detetive Particular) dispõe, em seu art. 2º, que a investigação particular:",
+    "enunciado": "De acordo com o caderno, a Lei n.º 13.432/2017 (Lei do Detetive Particular) dispõe, em seu art. 2º, que a investigaçãoão particular:",
     "alternativas": {
-      "A": "Produz provas com valor idêntico ao da investigação policial.",
+      "A": "Produz provas com valor idêntico ao da investigaçãoão policial.",
       "B": "Faz uma coleta de informações de natureza não criminal.",
       "C": "Pode ser conduzida paralelamente ao inquérito sem qualquer restrição.",
       "D": "Pode apurar infrações penais quando autorizado pelo delegado.",
       "E": "Substitui o inquérito policial em casos de menor potencial ofensivo."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que 'a Lei n.º 13.432/2017 (Lei do Detetive Particular) é expressa em seu art. 2º, ao afirmar que a investigação particular faz uma coleta de informações de natureza não criminal'.",
-    "referencia": "Cap. 5, p. 56"
+    "justificativa": "O caderno afirma que 'a Lei n.º 13.432/2017 (Lei do Detetive Particular) é expressa em seu art. 2º, ao afirmar que a investigaçãoão particular faz uma coleta de informações de natureza não criminal'.",
+    "referencia": "Cap. 5 - Inquérito Policial, p. 52"
   },
   {
     "id": 112,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, na hipótese de requisição do Ministério Público para instauração de inquérito que o Delegado considere manifestamente ilegal, o procedimento na Polícia Federal prevê:",
+    "enunciado": "Conforme o caderno, na hipótese de requisição do Ministério Público para instauraçção de inquérito que o Delegado considere manifestamente ilegal, o procedimento na Polícia Federal prevê:",
     "alternativas": {
       "A": "A comunicação direta ao Poder Judiciário.",
-      "B": "A instauração obrigatória e imediata do inquérito.",
+      "B": "A instauraçção obrigatória e imediata do inquérito.",
       "C": "O encaminhamento ao Presidente da República.",
       "D": "A recusa definitiva e arquivamento pelo delegado.",
       "E": "A remessa para nova apreciação do requisitante e, persistindo a requisição, instâncias internas de revisão."
@@ -1769,27 +1769,27 @@ const questoesDB = [
   },
   {
     "id": 113,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "A persecução penal no Brasil estrutura-se em duas fases distintas. Sobre a primeira fase, é correto afirmar que:",
+    "enunciado": "A persecuçção penal no Brasil estrutura-se em duas fases distintas. Sobre a primeira fase, é correto afirmar que:",
     "alternativas": {
       "A": "Possui natureza judicial e inicia com o recebimento da denúncia.",
       "B": "Permite a condenação do investigado sem a necessidade de processo judicial posterior.",
       "C": "É iniciada com o recebimento da peça acusatória pelo Ministério Público.",
-      "D": "Desenvolve o contraditório pleno, sob a condução do juiz natural.",
-      "E": "Possui natureza administrativa, antecede o processo judicial e é tradicionalmente denominada investigação preliminar."
+      "D": "Desenvolve o contradiçtório pleno, sob a condução do juiz natural.",
+      "E": "Possui natureza administrativa, antecede o processo judicial e é tradicionalmente denominada investigaçãoão preliminar."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno afirma que a primeira fase possui natureza administrativa e antecede a instauração do processo judicial, sendo tradicionalmente denominada investigação preliminar, fase pré-processual ou extraprocessual.",
+    "justificativa": "O caderno afirma que a primeira fase possui natureza administrativa e antecede a instauraçção do processo judicial, sendo tradicionalmente denominada investigaçãoão preliminar, fase pré-processual ou extraprocessual.",
     "referencia": "Cap. 5, p. 52"
   },
   {
     "id": 114,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "No processo penal brasileiro, a exigência probatória mínima para o início da segunda fase da persecução penal (fase judicial) é denominada:",
+    "enunciado": "No processo penal brasileiro, a exigência probatória mínima para o início da segunda fase da persecuçção penal (fase judicial) é denominada:",
     "alternativas": {
       "A": "Certeza absoluta de autoria e materialidade.",
       "B": "Provas irrepetíveis.",
@@ -1803,7 +1803,7 @@ const questoesDB = [
   },
   {
     "id": 115,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a finalidade do inquérito policial à luz da doutrina processual penal contemporânea (moderna), assinale a alternativa correta:",
@@ -1820,10 +1820,10 @@ const questoesDB = [
   },
   {
     "id": 116,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Das funções essenciais extraídas da investigação policial, segundo o Caderno Didático IPO, destacam-se:",
+    "enunciado": "Das funções essenciais extraídas da investigaçãoão policial, segundo o Caderno Didático IPO, destacam-se:",
     "alternativas": {
       "A": "Acusação, defesa e julgamento imediato.",
       "B": "Sigilo absoluto, inquisitoriedade e oficiosidade.",
@@ -1832,15 +1832,15 @@ const questoesDB = [
       "E": "Resguardar a imparcialidade, a economicidade e a eficiência da justiça criminal."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno assevera que da investigação policial extraem-se três funções essenciais: resguardar a imparcialidade, a economicidade e a eficiência da justiça criminal.",
+    "justificativa": "O caderno assevera que da investigaçãoão policial extraem-se três funções essenciais: resguardar a imparcialidade, a economicidade e a eficiência da justiça criminal.",
     "referencia": "Cap. 5, p. 53"
   },
   {
     "id": 117,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "O principal bem jurídico tutelado pela investigação policial, decorrente da soma da imparcialidade, economicidade e eficiência, é:",
+    "enunciado": "O principal bem jurídico tutelado pela investigaçãoão policial, decorrente da soma da imparcialidade, economicidade e eficiência, é:",
     "alternativas": {
       "A": "A defesa da ordem jurídica.",
       "B": "A soberania do Ministério Público.",
@@ -1854,7 +1854,7 @@ const questoesDB = [
   },
   {
     "id": 118,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Nos termos da Lei n.º 12.830/2013, as funções de polícia judiciária e a apuração de infrações penais:",
@@ -1871,10 +1871,10 @@ const questoesDB = [
   },
   {
     "id": 119,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático IPO e a Lei n.º 13.432/2017 (Lei do Detetive Particular), a investigação particular no Brasil:",
+    "enunciado": "De acordo com o Caderno Didático IPO e a Lei n.º 13.432/2017 (Lei do Detetive Particular), a investigaçãoão particular no Brasil:",
     "alternativas": {
       "A": "É permitida pela Constituição para apuração de crimes de ação penal privada.",
       "B": "Realiza coleta de informações de natureza não criminal, sendo vedado ao detetive atuar na esfera criminal sem anuência policial.",
@@ -1883,29 +1883,29 @@ const questoesDB = [
       "E": "Substitui o inquérito policial quando contratada pela própria vítima."
     },
     "resposta_correta": "B",
-    "justificativa": "A Lei n.º 13.432/2017 é expressa ao afirmar que a investigação particular faz coleta de informações de natureza não criminal. O detetive particular pode colaborar com a investigação desde que aceito pelo Delegado, sendo vedado realizar diretamente diligências policiais.",
-    "referencia": "Cap. 5, p. 56"
+    "justificativa": "A Lei n.º 13.432/2017 é expressa ao afirmar que a investigaçãoão particular faz coleta de informações de natureza não criminal. O detetive particular pode colaborar com a investigaçãoão desde que aceito pelo Delegado, sendo vedado realizar diretamente diligências policiais.",
+    "referencia": "Cap. 5 - Inquérito Policial, p. 52"
   },
   {
     "id": 120,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Sobre o Provimento n.º 188/2018 da OAB, que autorizava a investigação defensiva por advogados, o material didático aponta que:",
+    "enunciado": "Sobre o Provimento n.º 188/2018 da OAB, que autorizava a investigaçãoão defensiva por advogados, o material didático aponta que:",
     "alternativas": {
       "A": "Foi validado apenas para crimes que não deixam vestígios.",
       "B": "Foi julgado integralmente constitucional pelo STF, sendo o principal instrumento de defesa na atualidade.",
       "C": "Permite ao advogado realizar perícias oficiais e interceptações sem autorização judicial.",
-      "D": "Foi considerado inconstitucional pelo STF, pois no Brasil o sistema de investigação criminal é oficial de Estado.",
-      "E": "Ainda é válido, desde que a investigação defensiva seja registrada em cartório."
+      "D": "Foi considerado inconstitucional pelo STF, pois no Brasil o sistema de investigaçãoão criminal é oficial de Estado.",
+      "E": "Ainda é válido, desde que a investigaçãoão defensiva seja registrada em cartório."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno informa que o entendimento sobre a inconstitucionalidade do Provimento n.º 188/2018 foi expresso pelo STF, pois o sistema de investigação criminal brasileiro é oficial de Estado, não sendo admitida a investigação criminal privada ampla nos moldes do provimento.",
+    "justificativa": "O caderno informa que o entendimento sobre a inconstitucionalidade do Provimento n.º 188/2018 foi expresso pelo STF, pois o sistema de investigaçãoão criminal brasileiro é oficial de Estado, não sendo admitida a investigaçãoão criminal privada ampla nos moldes do provimento.",
     "referencia": "Cap. 5, p. 56"
   },
   {
     "id": 121,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a competência das Comissões Parlamentares de Inquérito (CPIs) no que tange à apuração de crimes, consoante o material didático?",
@@ -1922,14 +1922,14 @@ const questoesDB = [
   },
   {
     "id": 122,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à expressão 'procedimento inquisitorial' aplicada ao inquérito policial, a doutrina processual penal contemporânea considera que:",
     "alternativas": {
       "A": "Sinaliza que apenas o delegado pode inquirir testemunhas, excluindo totalmente a participação de advogados.",
       "B": "A terminologia é exata, pois a polícia não se submete a qualquer controle constitucional.",
-      "C": "Reflete que no Brasil se adota o sistema inquisitivo puro em todas as fases da persecução penal.",
+      "C": "Reflete que no Brasil se adota o sistema inquisitivo puro em todas as fases da persecuçção penal.",
       "D": "É tecnicamente inadequada, pois carrega carga histórica arbitrária e não reflete as garantias asseguradas na Constituição de 1988.",
       "E": "Deve ser mantida para demonstrar que o investigado não possui direitos fundamentais na fase pré-processual."
     },
@@ -1939,10 +1939,10 @@ const questoesDB = [
   },
   {
     "id": 123,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Embora não haja contraditório pleno no inquérito policial, o investigado possui garantias defensivas, tais como:",
+    "enunciado": "Embora não haja contradiçtório pleno no inquérito policial, o investigado possui garantias defensivas, tais como:",
     "alternativas": {
       "A": "O poder de vetar as diligências policiais que considerar incriminatórias.",
       "B": "O direito de acesso, por seu defensor, aos elementos de prova já documentados e o direito de requerer diligências (art. 14 do CPP).",
@@ -1956,33 +1956,33 @@ const questoesDB = [
   },
   {
     "id": 124,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as formas de início do Inquérito Policial em crimes de ação penal pública incondicionada, a autoridade policial deve:",
     "alternativas": {
-      "A": "Aguardar representação da vítima para dar início às investigações.",
+      "A": "Aguardar representação da vítima para dar início às investigaçãoões.",
       "B": "Instaurar o inquérito de ofício assim que tomar conhecimento de fato que configure infração penal, havendo justa causa.",
       "C": "Instaurá-lo exclusivamente por meio de requisição do Ministério Público.",
-      "D": "Obter prévia autorização judicial antes de instaurar a portaria inaugural.",
+      "D": "Obter prévia autorização judicial antes de instauraçr a portaria inaugural.",
       "E": "Instaurá-lo apenas se houver flagrante delito no momento da comunicação do fato."
     },
     "resposta_correta": "B",
-    "justificativa": "Nos casos de ação penal pública incondicionada, impõe-se o dever jurídico de instaurar de ofício assim que o delegado tomar conhecimento do fato com elementos mínimos de plausibilidade (justa causa), nos termos do art. 5º, I, do CPP.",
+    "justificativa": "Nos casos de ação penal pública incondicionada, impõe-se o dever jurídico de instauraçr de ofício assim que o delegado tomar conhecimento do fato com elementos mínimos de plausibilidade (justa causa), nos termos do art. 5º, I, do CPP.",
     "referencia": "Cap. 5, p. 62"
   },
   {
     "id": 125,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a normatização interna da Polícia Federal (IN nº 255/2023), caso o Delegado discorde, por falta de justa causa, de requisição do Ministério Público para instauração de inquérito, ele deverá:",
+    "enunciado": "De acordo com a normatização interna da Polícia Federal (IN nº 255/2023), caso o Delegado discorde, por falta de justa causa, de requisição do Ministério Público para instauraçção de inquérito, ele deverá:",
     "alternativas": {
       "A": "Arquivar imediatamente a requisição, sem comunicar ao Ministério Público.",
       "B": "Representar ao Poder Judiciário requerendo o trancamento do pedido.",
       "C": "Remeter o caso para nova apreciação do requisitante e, persistindo, seguir para instâncias internas de revisão da PF.",
       "D": "Instaurar o inquérito independentemente de sua concordância, já que a requisição é ordem impositiva irrecusável.",
-      "E": "Delegar a investigação para a Polícia Civil, a qual tem autonomia para recusar a requisição."
+      "E": "Delegar a investigaçãoão para a Polícia Civil, a qual tem autonomia para recusar a requisição."
     },
     "resposta_correta": "C",
     "justificativa": "O caderno explica que, em caso de ilegalidade ou falta de justa causa, o caso deve ser remetido para nova apreciação do requisitante. Persistindo a requisição, o procedimento segue para instâncias internas de revisão (chefia, corregedoria), conforme a IN nº 255/2023.",
@@ -1990,24 +1990,24 @@ const questoesDB = [
   },
   {
     "id": 126,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Diante de uma notícia anônima de crime (denúncia apócrifa), a autoridade policial deve:",
     "alternativas": {
-      "A": "Solicitar a interceptação telefônica do número que originou a denúncia como primeiro ato de investigação.",
+      "A": "Solicitar a interceptação telefônica do número que originou a denúncia como primeiro ato de investigaçãoão.",
       "B": "Descartá-la imediatamente, pois o anonimato é vedado pela Constituição e invalida qualquer diligência.",
-      "C": "Realizar uma verificação preliminar da procedência das informações para buscar indícios mínimos, antes de instaurar o inquérito.",
+      "C": "Realizar uma verificação preliminar da procedência das informações para buscar indícios mínimos, antes de instauraçr o inquérito.",
       "D": "Representar pela prisão temporária dos suspeitos indicados, independentemente de outras apurações.",
       "E": "Instaurar inquérito policial de pronto, valendo a denúncia como indício suficiente de autoria."
     },
     "resposta_correta": "C",
-    "justificativa": "Segundo o material, a notícia anônima, por si só, não é suficiente para instauração, mas não deve ser descartada de plano. A providência correta é a verificação preliminar da procedência das informações, podendo ser formalizada como 'Notícia-Crime em Verificação'.",
+    "justificativa": "Segundo o material, a notícia anônima, por si só, não é suficiente para instauraçção, mas não deve ser descartada de plano. A providência correta é a verificação preliminar da procedência das informações, podendo ser formalizada como 'Notícia-Crime em Verificação'.",
     "referencia": "Cap. 5, p. 64"
   },
   {
     "id": 127,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a dimensão apontada por Aury Lopes Jr., quando o inquérito demonstra que o Estado reage à prática delitiva, contribuindo para a reafirmação da confiança pública nas instituições, ele exerce sua:",
@@ -2024,24 +2024,24 @@ const questoesDB = [
   },
   {
     "id": 128,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito das características do Inquérito Policial e da sua característica 'apuratória', é correto afirmar:",
     "alternativas": {
       "A": "Indica que o inquérito deve focar exclusivamente em confirmar a culpa do suspeito.",
       "B": "Autoriza que a polícia assuma o papel de órgão acusador no lugar do Ministério Público.",
-      "C": "Significa que a investigação produz apenas provas definitivas, dispensando repetição em juízo.",
+      "C": "Significa que a investigaçãoão produz apenas provas definitivas, dispensando repetição em juízo.",
       "D": "Demonstra o compromisso exclusivo com as teses elaboradas pela defesa técnica do indiciado.",
       "E": "Revela que o inquérito busca esclarecer o fato criminoso, podendo confirmar tanto a inocência quanto a culpa do investigado, pautado na imparcialidade."
     },
     "resposta_correta": "E",
-    "justificativa": "Sendo apuratório, o inquérito visa esclarecer circunstâncias, materialidade e autoria. A polícia atua com isenção e objetividade, podendo a investigação conduzir tanto à confirmação da inocência quanto à participação nos crimes, guiada pela imparcialidade.",
+    "justificativa": "Sendo apuratório, o inquérito visa esclarecer circunstâncias, materialidade e autoria. A polícia atua com isenção e objetividade, podendo a investigaçãoão conduzir tanto à confirmação da inocência quanto à participação nos crimes, guiada pela imparcialidade.",
     "referencia": "Cap. 5, p. 68-69"
   },
   {
     "id": 129,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A característica da imprescindibilidade do inquérito policial, na perspectiva da nova doutrina, baseia-se:",
@@ -2053,12 +2053,12 @@ const questoesDB = [
       "E": "Em uma regra processual que anula qualquer denúncia recebida que não venha acompanhada do relatório policial conclusivo."
     },
     "resposta_correta": "D",
-    "justificativa": "O material defende que a imprescindibilidade é vista de forma pragmática: suprimida a fase de investigação, resta quase impossível alcançar a justa causa exigida para o processo, sendo que a maioria expressiva das ações se baseia em inquéritos policiais, não devendo a exceção (art. 39, § 5º) virar a regra.",
+    "justificativa": "O material defende que a imprescindibilidade é vista de forma pragmática: suprimida a fase de investigaçãoão, resta quase impossível alcançar a justa causa exigida para o processo, sendo que a maioria expressiva das ações se baseia em inquéritos policiais, não devendo a exceção (art. 39, § 5º) virar a regra.",
     "referencia": "Cap. 5, p. 70"
   },
   {
     "id": 130,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do sigilo do inquérito policial e do acesso por advogado aos autos (Súmula Vinculante 14), a autoridade policial pode licitamente:",
@@ -2075,32 +2075,32 @@ const questoesDB = [
   },
   {
     "id": 131,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a característica de que o Inquérito Policial é um procedimento indisponível:",
     "alternativas": {
       "A": "O inquérito deve ficar indisponível para vistas da defesa técnica até o seu encerramento.",
       "B": "O Delegado de Polícia pode arquivar o inquérito quando concluir, em seu relatório, pela não ocorrência do crime.",
-      "C": "Uma vez instaurado, não pode ser arquivado por iniciativa da autoridade policial, cabendo a decisão ao titular da ação penal, com posterior submissão a instâncias judiciais ou de revisão.",
+      "C": "Uma vez instauraçdo, não pode ser arquivado por iniciativa da autoridade policial, cabendo a decisão ao titular da ação penal, com posterior submissão a instâncias judiciais ou de revisão.",
       "D": "Apenas o ofendido pode autorizar o encerramento do inquérito, em qualquer espécie de infração.",
       "E": "O investigado não pode dispor de seus bens enquanto durar a apuração, configurando bloqueio automático."
     },
     "resposta_correta": "C",
-    "justificativa": "A indisponibilidade impõe que, uma vez instaurado, o inquérito não pode ser arquivado pela autoridade policial. O arquivamento é atribuição do Ministério Público (titular da ação), que deve submeter sua manifestação aos trâmites de homologação previstos na legislação.",
+    "justificativa": "A indisponibilidade impõe que, uma vez instauraçdo, o inquérito não pode ser arquivado pela autoridade policial. O arquivamento é atribuição do Ministério Público (titular da ação), que deve submeter sua manifestação aos trâmites de homologação previstos na legislação.",
     "referencia": "Cap. 5, p. 75"
   },
   {
     "id": 132,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "O inquérito policial possui a característica de ser 'oficial'. Isso significa que:",
     "alternativas": {
       "A": "Todo documento produzido precisa ser autenticado em cartório para ter validade oficial.",
-      "B": "Qualquer cidadão, mediante procuração pública, pode presidir o inquérito e conduzir investigações.",
+      "B": "Qualquer cidadão, mediante procuração pública, pode presidir o inquérito e conduzir investigaçãoões.",
       "C": "Ele tramita exclusivamente nos Tribunais Superiores, caracterizando apuração de crimes de autoridades.",
-      "D": "Constitui o procedimento oficial de investigação preliminar do Estado, conduzido por órgãos de polícia judiciária e sob a presidência do Delegado de Polícia.",
+      "D": "Constitui o procedimento oficial de investigaçãoão preliminar do Estado, conduzido por órgãos de polícia judiciária e sob a presidência do Delegado de Polícia.",
       "E": "Ele é conduzido obrigatoriamente por oficiais da Polícia Militar em todas as suas fases."
     },
     "resposta_correta": "D",
@@ -2109,10 +2109,10 @@ const questoesDB = [
   },
   {
     "id": 133,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "A obrigatoriedade de instauração do inquérito policial diante da notícia de crime deve ser entendida, na atualidade, como:",
+    "enunciado": "A obrigatoriedade de instauraçção do inquérito policial diante da notícia de crime deve ser entendida, na atualidade, como:",
     "alternativas": {
       "A": "Facultativa, ficando a critério exclusivo da conveniência e oportunidade do investigador responsável.",
       "B": "Obrigatória somente quando houver denúncia formal oferecida pelo Ministério Público.",
@@ -2121,20 +2121,20 @@ const questoesDB = [
       "E": "Condicionada sempre à prévia aprovação do juízo criminal do local dos fatos."
     },
     "resposta_correta": "D",
-    "justificativa": "O caderno explica que a obrigatoriedade foi mitigada pela doutrina e jurisprudência, não devendo ser vista como um automatismo. O Delegado deve realizar análise técnica, podendo indeferir instauração se ausente a justa causa (ex: atipicidade manifesta).",
+    "justificativa": "O caderno explica que a obrigatoriedade foi mitigada pela doutrina e jurisprudência, não devendo ser vista como um automatismo. O Delegado deve realizar análise técnica, podendo indeferir instauraçção se ausente a justa causa (ex: atipicidade manifesta).",
     "referencia": "Cap. 5, p. 77"
   },
   {
     "id": 134,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à característica da transitoriedade do inquérito policial e a aplicação do princípio da duração razoável do processo, é INCORRETO afirmar que:",
     "alternativas": {
-      "A": "O abuso de autoridade por prolongamento injustificado e desproporcional da investigação é tipificado criminalmente (Lei nº 13.869).",
-      "B": "A transitoriedade impede o pedido de prorrogação de prazo pelo Delegado quando o investigado estiver solto, devendo a investigação ser arquivada de imediato.",
+      "A": "O abuso de autoridade por prolongamento injustificado e desproporcional da investigaçãoão é tipificado criminalmente (Lei nº 13.869).",
+      "B": "A transitoriedade impede o pedido de prorrogação de prazo pelo Delegado quando o investigado estiver solto, devendo a investigaçãoão ser arquivada de imediato.",
       "C": "Existem prazos legais definidos no CPP, bem como na legislação especial (Justiça Federal, Lei Antidrogas), que ditam o limite de duração.",
-      "D": "O inquérito é um procedimento temporário, não podendo o Estado eternizar a investigação sem prazo.",
+      "D": "O inquérito é um procedimento temporário, não podendo o Estado eternizar a investigaçãoão sem prazo.",
       "E": "As dilações de prazo devem ser fundamentadas pela autoridade policial, considerando a complexidade e a espécie do crime apurado."
     },
     "resposta_correta": "B",
@@ -2143,7 +2143,7 @@ const questoesDB = [
   },
   {
     "id": 135,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a contagem de prazos investigativos, quando o investigado se encontra preso, é correto afirmar que:",
@@ -2160,10 +2160,10 @@ const questoesDB = [
   },
   {
     "id": 136,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 1 - Apresentação",
     "tipo": "multipla_escolha",
-    "enunciado": "A respeito da natureza jurídica do inquérito policial, o Caderno IPO afirma que ele possui natureza híbrida. Sob a perspectiva da autoridade que o preside, e sob a perspectiva da persecução penal, ele se classifica, respectivamente, como:",
+    "enunciado": "A respeito da natureza jurídica do inquérito policial, o Caderno IPO afirma que ele possui natureza híbrida. Sob a perspectiva da autoridade que o preside, e sob a perspectiva da persecuçção penal, ele se classifica, respectivamente, como:",
     "alternativas": {
       "A": "Procedimento administrativo / Procedimento penal.",
       "B": "Processo de conhecimento / Processo de execução.",
@@ -2172,12 +2172,12 @@ const questoesDB = [
       "E": "Procedimento judicial / Processo cautelar."
     },
     "resposta_correta": "A",
-    "justificativa": "Sob a ótica do órgão, possui natureza de procedimento administrativo (Polícia, Poder Executivo). Sob a ótica da legislação e persecução penal, possui natureza de procedimento penal, submetido ao controle jurisdicional (habeas corpus, etc.) e regido pelo CPP.",
-    "referencia": "Cap. 5, p. 81-82"
+    "justificativa": "Sob a ótica do órgão, possui natureza de procedimento administrativo (Polícia, Poder Executivo). Sob a ótica da legislação e persecuçção penal, possui natureza de procedimento penal, submetido ao controle jurisdicional (habeas corpus, etc.) e regido pelo CPP.",
+    "referencia": "Cap. 1 - Apresentação, p. 5"
   },
   {
     "id": 137,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do valor probatório dos elementos colhidos no inquérito policial, assinale a alternativa que reflete o entendimento da doutrina moderna apresentada no material:",
@@ -2194,14 +2194,14 @@ const questoesDB = [
   },
   {
     "id": 138,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "São classificadas como 'provas não repetíveis' no contexto da investigação preliminar:",
+    "enunciado": "São classificadas como 'provas não repetíveis' no contexto da investigaçãoão preliminar:",
     "alternativas": {
       "A": "As oitivas de testemunhas que, em juízo, afirmam ter esquecido os fatos.",
       "B": "As confissões colhidas sem a presença de advogado na delegacia de polícia.",
-      "C": "Aquelas colhidas com observância de contraditório real perante o juiz, antes da ação penal em audiência especial.",
+      "C": "Aquelas colhidas com observância de contradiçtório real perante o juiz, antes da ação penal em audiência especial.",
       "D": "Aquelas que, uma vez produzidas, não podem ser novamente coletadas devido ao desaparecimento do vestígio, como por exemplo, exames periciais no local do crime.",
       "E": "As interceptações telefônicas e quebras de sigilo telemático com ordem judicial prévia."
     },
@@ -2211,7 +2211,7 @@ const questoesDB = [
   },
   {
     "id": 139,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A presidência do inquérito policial e a condução dos atos investigativos pelo Delegado de Polícia caracterizam-se pela:",
@@ -2228,15 +2228,15 @@ const questoesDB = [
   },
   {
     "id": 140,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Em relação à requisição de diligências pelo Ministério Público, após a conclusão inicial da investigação policial, o Delegado de Polícia Federal:",
+    "enunciado": "Em relação à requisição de diligências pelo Ministério Público, após a conclusão inicial da investigaçãoão policial, o Delegado de Polícia Federal:",
     "alternativas": {
       "A": "Deve sempre devolver os autos ao Parquet exigindo que o próprio promotor realize a oitiva solicitada.",
       "B": "Deve cumpri-las, exceto quando houver manifesta impossibilidade fática ou caso se trate de requisição manifestamente ilegal (impossibilidade jurídica).",
       "C": "Está dispensado de cumprir, pois as diligências ministeriais violam a autonomia da Polícia Judiciária.",
-      "D": "Pode recusá-las com base em mera divergência de interpretação tática da investigação.",
+      "D": "Pode recusá-las com base em mera divergência de interpretação tática da investigaçãoão.",
       "E": "Pode cobrar honorários pela realização das perícias requisitadas tardiamente."
     },
     "resposta_correta": "B",
@@ -2245,24 +2245,24 @@ const questoesDB = [
   },
   {
     "id": 141,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do 'Princípio do Delegado Natural', consagrado na doutrina e na legislação institucional, ele estabelece que:",
     "alternativas": {
       "A": "Apenas delegados da Polícia Federal podem investigar crimes ocorridos em território brasileiro.",
-      "B": "O Delegado responsável pela investigação deve ser designado com base em regras e critérios pré-estabelecidos e objetivos, vedando-se afastamentos arbitrários ou casuísticos.",
+      "B": "O Delegado responsável pela investigaçãoão deve ser designado com base em regras e critérios pré-estabelecidos e objetivos, vedando-se afastamentos arbitrários ou casuísticos.",
       "C": "Os inquéritos policiais podem ser distribuídos conforme o interesse particular da vítima, escolhendo ela a autoridade de sua confiança.",
       "D": "A chefia administrativa pode avocar autos livremente, sem necessidade de despacho fundamentado em interesse público.",
       "E": "Qualquer autoridade policial de plantão é naturalmente competente para investigar qualquer caso no país, independente do território."
     },
     "resposta_correta": "B",
-    "justificativa": "Inspirado no juiz/promotor natural, exige critérios prévios, objetivos e impessoais para distribuição, protegendo a investigação contra interferências arbitrárias e preservando a segurança jurídica.",
+    "justificativa": "Inspirado no juiz/promotor natural, exige critérios prévios, objetivos e impessoais para distribuição, protegendo a investigaçãoão contra interferências arbitrárias e preservando a segurança jurídica.",
     "referencia": "Cap. 5, p. 88-89"
   },
   {
     "id": 142,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a avocação ou redistribuição de inquérito policial por superior hierárquico, a Lei nº 12.830/2013 impõe que tais medidas:",
@@ -2270,7 +2270,7 @@ const questoesDB = [
       "A": "Podem ocorrer verbalmente e de maneira imotivada, como reflexo do poder diretivo e discricionário da chefia de polícia.",
       "B": "Apenas serão autorizadas se o delegado presidir o feito por mais de 5 (cinco) anos ininterruptos.",
       "C": "Dependem de referendo do Ministério Público do Estado ou da União.",
-      "D": "Somente poderão ocorrer mediante despacho fundamentado, por motivo de interesse público ou por inobservância de procedimentos em regulamento que prejudiquem a investigação.",
+      "D": "Somente poderão ocorrer mediante despacho fundamentado, por motivo de interesse público ou por inobservância de procedimentos em regulamento que prejudiquem a investigaçãoão.",
       "E": "São terminantemente proibidas em qualquer circunstância legal, prevalecendo a independência total do primeiro delegado sorteado."
     },
     "resposta_correta": "D",
@@ -2279,7 +2279,7 @@ const questoesDB = [
   },
   {
     "id": 143,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A inamovibilidade do Delegado de Polícia é classificada, pelo caderno, como:",
@@ -2296,7 +2296,7 @@ const questoesDB = [
   },
   {
     "id": 144,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A 'autonomia técnico-jurídica' garantida ao Delegado de Polícia, segundo o caderno e a doutrina, significa:",
@@ -2313,7 +2313,7 @@ const questoesDB = [
   },
   {
     "id": 145,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Ao representar ao juízo para fins de quebra de sigilo telefônico, decretação de prisão ou busca e apreensão, o Delegado de Polícia exerce o que a doutrina denomina:",
@@ -2330,7 +2330,7 @@ const questoesDB = [
   },
   {
     "id": 146,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o indiciamento no inquérito policial brasileiro, assinale a opção correta baseada no Caderno IPO:",
@@ -2338,8 +2338,8 @@ const questoesDB = [
       "A": "Caracteriza-se como um ato formal e privativo do Delegado de Polícia, feito mediante despacho fundamentado baseado em materialidade e indícios razoáveis de autoria.",
       "B": "Pode ser realizado por perito criminal no laudo que encerra a cadeia de custódia.",
       "C": "Constitui presunção absoluta de culpa que encerra as possibilidades de defesa prévia.",
-      "D": "Deve ser efetuado de forma verbal para manter o sigilo absoluto das investigações em curso.",
-      "E": "É ato discricionário do promotor de justiça que homologa a investigação."
+      "D": "Deve ser efetuado de forma verbal para manter o sigilo absoluto das investigaçãoões em curso.",
+      "E": "É ato discricionário do promotor de justiça que homologa a investigaçãoão."
     },
     "resposta_correta": "A",
     "justificativa": "Na lição da Lei 12.830 e do material didático, o indiciamento é ato formal e privativo de Delegado de Polícia, através de análise técnico-jurídica, contendo fundamentação baseada em provas de materialidade e indícios de autoria.",
@@ -2347,14 +2347,14 @@ const questoesDB = [
   },
   {
     "id": 147,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do indiciamento do investigado que não é encontrado, é correto afirmar que:",
     "alternativas": {
       "A": "Delega-se o indiciamento à autoridade consular mais próxima de sua residência.",
       "B": "Pode ocorrer o indiciamento indireto, materializado sem ciência imediata do indiciado (que não foi encontrado para interrogatório).",
-      "C": "Nenhum ato de indiciamento poderá ser feito, pois ofende o direito ao contraditório prévio.",
+      "C": "Nenhum ato de indiciamento poderá ser feito, pois ofende o direito ao contradiçtório prévio.",
       "D": "Ele deve ser citado por edital para prestar esclarecimentos e então ser indiciado.",
       "E": "O inquérito deve ser arquivado por ausência de condições da ação penal."
     },
@@ -2364,15 +2364,15 @@ const questoesDB = [
   },
   {
     "id": 148,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Se, durante a investigação policial, surgirem novas provas e o Delegado concluir que houve equívoco técnico ou de autoria no indiciamento pregresso, ele deve:",
+    "enunciado": "Se, durante a investigaçãoão policial, surgirem novas provas e o Delegado concluir que houve equívoco técnico ou de autoria no indiciamento pregresso, ele deve:",
     "alternativas": {
       "A": "Pedir autorização ao STF para desindiciar o indivíduo.",
       "B": "Ignorar as provas, pois o indiciamento causa preclusão no inquérito.",
       "C": "Permitir que o inquérito seja encaminhado ao Judiciário, pois o cancelamento só pode ser efetuado por habeas corpus judicial.",
-      "D": "Lavrar novo auto de prisão em flagrante por embaraço de investigação.",
+      "D": "Lavrar novo auto de prisão em flagrante por embaraço de investigaçãoão.",
       "E": "Proceder ao cancelamento, alteração ou aditamento do ato, comunicando ao setor de identificação criminal."
     },
     "resposta_correta": "E",
@@ -2381,24 +2381,24 @@ const questoesDB = [
   },
   {
     "id": 149,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em face das regras sobre o foro por prerrogativa de função e o inquérito policial, caso surjam indícios robustos do envolvimento criminoso de autoridade detentora de tal foro antes do início do inquérito na Polícia Federal, deve-se:",
     "alternativas": {
       "A": "Encaminhar para uma Delegacia Estadual local a apuração prévia e confidencial dos fatos.",
       "B": "Acionar a Polícia Legislativa para avocar os autos compulsoriamente.",
-      "C": "Encaminhar imediatamente a notícia crime e/ou os documentos ao Judiciário ou Ministério Público para autorização da investigação perante o Tribunal Superior competente (na PF, via CINQ).",
+      "C": "Encaminhar imediatamente a notícia crime e/ou os documentos ao Judiciário ou Ministério Público para autorização da investigaçãoão perante o Tribunal Superior competente (na PF, via CINQ).",
       "D": "Instaurar o inquérito de imediato e, em seguida, ouvir o parlamentar ou magistrado investigado.",
       "E": "Inutilizar a prova e prosseguir com os investigados sem prerrogativa de foro em primeiro grau."
     },
     "resposta_correta": "C",
-    "justificativa": "O caderno orienta que, existindo foro superior, a instauração depende do Tribunal competente, não cabendo à Polícia Federal deflagrar investigação de ofício contra autoridades com prerrogativa sem autorização do juízo (encaminhando os dados ao CINQ/STF/STJ ou MP para deliberação).",
+    "justificativa": "O caderno orienta que, existindo foro superior, a instauraçção depende do Tribunal competente, não cabendo à Polícia Federal deflagrar investigaçãoão de ofício contra autoridades com prerrogativa sem autorização do juízo (encaminhando os dados ao CINQ/STF/STJ ou MP para deliberação).",
     "referencia": "Cap. 5, p. 101-103"
   },
   {
     "id": 150,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o entendimento consolidado do STF aplicável aos inquéritos presididos pela PF, a prerrogativa de foro para autoridades aplica-se de forma limitada. O critério fixado na AP 937 estabelece que:",
@@ -2415,7 +2415,7 @@ const questoesDB = [
   },
   {
     "id": 151,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do Inquérito Policial Militar (IPM) disciplinado no material IPO, é correto afirmar:",
@@ -2432,41 +2432,41 @@ const questoesDB = [
   },
   {
     "id": 152,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "No contexto da investigação conduzida pela Polícia Federal, o chamado 'registro de fato', disciplinado na IN 255/2023, destina-se a:",
+    "enunciado": "No contexto da investigaçãoão conduzida pela Polícia Federal, o chamado 'registro de fato', disciplinado na IN 255/2023, destina-se a:",
     "alternativas": {
       "A": "Formalizar a condenação antecipada de criminosos confessos.",
       "B": "Registrar que a PF não possui competência sobre fatos contra a União.",
       "C": "Funcionar como o indiciamento indireto em crimes cibernéticos.",
       "D": "Substituir, definitivamente, o uso do Inquérito Policial no Brasil.",
-      "E": "Cadastrar fatos não flagranciais para iniciar uma análise preliminar sobre a viabilidade, tipicidade e justa causa antes de instaurar formalmente um inquérito."
+      "E": "Cadastrar fatos não flagranciais para iniciar uma análise preliminar sobre a viabilidade, tipicidade e justa causa antes de instauraçr formalmente um inquérito."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno explica que o 'registro de fato' inicia etapa de análise e triagem (tipicidade, plausibilidade, atribuição) que precede a eventual formalização de notícia-crime e posterior instauração do inquérito policial.",
+    "justificativa": "O caderno explica que o 'registro de fato' inicia etapa de análise e triagem (tipicidade, plausibilidade, atribuição) que precede a eventual formalização de notícia-crime e posterior instauraçção do inquérito policial.",
     "referencia": "Cap. 5, p. 65"
   },
   {
     "id": 153,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação às provas antecipadas produzidas no inquérito policial, é correto inferir, segundo o Caderno Didático, que:",
     "alternativas": {
       "A": "Dão-se sempre de forma diferida, permitindo ao advogado o questionamento apenas no tribunal do júri.",
-      "B": "Exigem observância do contraditório real perante o juiz, ocorrendo em situações de urgência e relevância, garantindo valor probatório para a fase de julgamento.",
+      "B": "Exigem observância do contradiçtório real perante o juiz, ocorrendo em situações de urgência e relevância, garantindo valor probatório para a fase de julgamento.",
       "C": "Ocorrem quando o réu apresenta denúncia espontânea dos seus delitos por carta.",
       "D": "Podem ser realizadas por detetives particulares, cabendo ao Delegado homologá-las posteriormente.",
       "E": "São desprovidas de valor probatório e devem sempre ser descartadas antes do oferecimento da denúncia."
     },
     "resposta_correta": "B",
-    "justificativa": "Diferente das provas cautelares e irrepetíveis, as provas antecipadas, por urgência, são colhidas com a observância de contraditório real sob a condução de autoridade judicial já na fase pré-processual (ex: depoimento ad perpetuam rei memoriam de testemunha terminal).",
+    "justificativa": "Diferente das provas cautelares e irrepetíveis, as provas antecipadas, por urgência, são colhidas com a observância de contradiçtório real sob a condução de autoridade judicial já na fase pré-processual (ex: depoimento ad perpetuam rei memoriam de testemunha terminal).",
     "referencia": "Cap. 5, p. 84-85"
   },
   {
     "id": 154,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o inquérito policial no contexto das ações penais de iniciativa pública condicionada à representação, pode a autoridade policial instaurá-lo de ofício?",
@@ -2478,15 +2478,15 @@ const questoesDB = [
       "E": "Sim, pois todos os crimes admitem inquérito oficiosamente deflagrado, em prol da ordem jurídica."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno e o CPP (art. 5º, § 4º) estipulam que o inquérito em crimes de ação pública condicionada não pode ser instaurado sem a respectiva representação, sendo esta condição procedimental.",
+    "justificativa": "O caderno e o CPP (art. 5º, § 4º) estipulam que o inquérito em crimes de ação pública condicionada não pode ser instauraçdo sem a respectiva representação, sendo esta condição procedimental.",
     "referencia": "Cap. 5, p. 63"
   },
   {
     "id": 155,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Caso a autoridade policial decida indeferir um requerimento de instauração de inquérito feito pela vítima, por considerar atípico o fato narrado, cabe, via de regra, recurso dirigido a qual autoridade?",
+    "enunciado": "Caso a autoridade policial decida indeferir um requerimento de instauraçção de inquérito feito pela vítima, por considerar atípico o fato narrado, cabe, via de regra, recurso dirigido a qual autoridade?",
     "alternativas": {
       "A": "Ao Juiz Corregedor de Plantão da localidade.",
       "B": "Ao Chefe de Polícia (ou instância interna da PF, como Superintendente/Corregedor).",
@@ -2500,7 +2500,7 @@ const questoesDB = [
   },
   {
     "id": 156,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a presidência de procedimentos na Polícia Judiciária, o Caderno IPO discute o Termo Circunstanciado de Ocorrência (TCO). É correto apontar que:",
@@ -2517,10 +2517,10 @@ const questoesDB = [
   },
   {
     "id": 157,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com as premissas estudadas no Caderno Didático IPO, qual é o papel do 'Estado-investigação' contemporâneo ao presidir inquéritos penais?",
+    "enunciado": "De acordo com as premissas estudadas no Caderno Didático IPO, qual é o papel do 'Estado-investigaçãoão' contemporâneo ao presidir inquéritos penais?",
     "alternativas": {
       "A": "Prover a repressão ilimitada, suprimindo o crivo das garantias constitucionais por parte do Judiciário para acelerar o processo.",
       "B": "Agir como um instrumento de punição antecipada e irreversível do sistema prisional.",
@@ -2534,7 +2534,7 @@ const questoesDB = [
   },
   {
     "id": 158,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o Caderno, é possível afirmar sobre os vícios ou nulidades eventualmente ocorridos no curso do Inquérito Policial que:",
@@ -2551,7 +2551,7 @@ const questoesDB = [
   },
   {
     "id": 159,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "O Inquérito da Polícia Legislativa, na estruturação pátria apontada pelo Caderno Didático, investiga:",
@@ -2560,7 +2560,7 @@ const questoesDB = [
       "B": "Desvios tributários decorrentes de emendas parlamentares federais.",
       "C": "Exclusivamente casos de quebra de decoro parlamentar de natureza político-administrativa.",
       "D": "Os crimes comuns de qualquer agente público vinculado ao Executivo, no exercício de controle externo.",
-      "E": "Limita-se à investigação dos crimes praticados nas dependências das casas legislativas, presidido pelas polícias da Câmara ou do Senado."
+      "E": "Limita-se à investigaçãoão dos crimes praticados nas dependências das casas legislativas, presidido pelas polícias da Câmara ou do Senado."
     },
     "resposta_correta": "E",
     "justificativa": "Segundo jurisprudência sumulada do STF retratada no caderno, a Polícia Legislativa preside inquéritos que se limitam aos crimes ocorridos no interior de suas dependências (fatos circunscritos), não abarcando qualquer apuração contra parlamentares fora destas premissas.",
@@ -2568,7 +2568,7 @@ const questoesDB = [
   },
   {
     "id": 160,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa que descreve a finalidade do inquérito policial pela ótica da 'busca do fato oculto' (Aury Lopes Jr.), conforme o Caderno:",
@@ -2585,10 +2585,10 @@ const questoesDB = [
   },
   {
     "id": 161,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "A respeito do termo 'justa causa', que justifica a deflagração da persecução penal, é correto asseverar, na visão da legislação de processo penal (CPP):",
+    "enunciado": "A respeito do termo 'justa causa', que justifica a deflagração da persecuçção penal, é correto asseverar, na visão da legislação de processo penal (CPP):",
     "alternativas": {
       "A": "Sua ausência é considerada coação ou constrangimento ilegal, possibilitando trancamento do processo por via de habeas corpus.",
       "B": "Encerra apenas as provas contábeis apuradas contra gestores em crimes de colarinho branco.",
@@ -2602,14 +2602,14 @@ const questoesDB = [
   },
   {
     "id": 162,
-    "disciplina": "Investigação Policial (IPO)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
     "tipo": "multipla_escolha",
-    "enunciado": "Quando o art. 14 do Código de Processo Penal diz que o investigado tem a faculdade de 'requerer diligências', o Delegado de Polícia, com base no princípio discricionário da investigação policial, deve:",
+    "enunciado": "Quando o art. 14 do Código de Processo Penal diz que o investigado tem a faculdade de 'requerer diligências', o Delegado de Polícia, com base no princípio discricionário da investigaçãoão policial, deve:",
     "alternativas": {
       "A": "Proibir categoricamente que a defesa faça pedidos no curso de procedimento sigiloso.",
       "B": "Avaliar a pertinência dos requerimentos da defesa e determinar a sua produção caso entenda necessárias, pertinentes e cabíveis para o esclarecimento do fato apurado.",
-      "C": "Acatar obrigatoriamente a todos os pedidos, já que o inquérito adotou a fase contraditória total.",
+      "C": "Acatar obrigatoriamente a todos os pedidos, já que o inquérito adotou a fase contradiçtória total.",
       "D": "Delegar ao Ministério Público a análise dos requerimentos da defesa, para não comprometer a isenção.",
       "E": "Deferir as provas unicamente se o advogado arcar com os custos cartorários atrelados."
     },
@@ -2619,10 +2619,10 @@ const questoesDB = [
   },
   {
     "id": 163,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático IPO, o método na investigação policial é definido como:",
+    "enunciado": "De acordo com o Caderno Didático IPO, o método na investigaçãoão policial é definido como:",
     "alternativas": {
       "A": "Uma rotina burocrática para fins de registro.",
       "B": "Um trilho rígido e inflexível de procedimentos.",
@@ -2636,10 +2636,10 @@ const questoesDB = [
   },
   {
     "id": 164,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, o método na investigação policial protege três elementos. São eles:",
+    "enunciado": "Conforme o caderno, o método na investigaçãoão policial protege três elementos. São eles:",
     "alternativas": {
       "A": "O Ministério Público, o juiz e a vítima.",
       "B": "O Estado, a sociedade e o Poder Judiciário.",
@@ -2653,10 +2653,10 @@ const questoesDB = [
   },
   {
     "id": 165,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias e Ferramentas de Investigação",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, nos termos do §2º do art. 135 da IN nº 255/2023, consideram-se 'elementos de interesse' na investigação policial:",
+    "enunciado": "Segundo o caderno, nos termos do §2º do art. 135 da IN nº 255/2023, consideram-se 'elementos de interesse' na investigaçãoão policial:",
     "alternativas": {
       "A": "Bens, vestígios, dados e informações arrecadados, apreendidos, coletados, derivados ou apresentados no curso do inquérito.",
       "B": "Exclusivamente laudos periciais e documentos oficiais.",
@@ -2666,12 +2666,12 @@ const questoesDB = [
     },
     "resposta_correta": "A",
     "justificativa": "O caderno define que 'consideram-se elementos de interesse os bens, vestígios, dados e informações arrecadados, apreendidos, coletados, derivados ou apresentados no curso do inquérito policial'.",
-    "referencia": "Cap. 6, Seção 6.3, p. 80"
+    "referencia": "Cap. 7 - Estratégias e Ferramentas de Investigação, p. 104"
   },
   {
     "id": 166,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, entre as fontes de obtenção de material probatório destacam-se os geradores passivos de dados. Estes correspondem a:",
     "alternativas": {
@@ -2687,16 +2687,16 @@ const questoesDB = [
   },
   {
     "id": 167,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, o princípio da 'golden hour' (hora de ouro) na investigação policial indica que:",
+    "enunciado": "De acordo com o caderno, o princípio da 'golden hour' (hora de ouro) na investigaçãoão policial indica que:",
     "alternativas": {
       "A": "As primeiras medidas adotadas após o fato são decisivas para preservar vestígios e identificar testemunhas.",
       "B": "O interrogatório deve ocorrer dentro da primeira hora após a prisão.",
       "C": "A perícia deve ser realizada em até uma hora após o crime.",
-      "D": "O delegado tem uma hora para instaurar o inquérito.",
-      "E": "A investigação deve ser concluída em até uma hora."
+      "D": "O delegado tem uma hora para instauraçr o inquérito.",
+      "E": "A investigaçãoão deve ser concluída em até uma hora."
     },
     "resposta_correta": "A",
     "justificativa": "O caderno afirma que 'o chamado princípio da golden hour (hora de ouro) indica que as primeiras medidas adotadas após o fato são decisivas para preservar vestígios, identificar testemunhas e evitar a perda de dados'.",
@@ -2704,10 +2704,10 @@ const questoesDB = [
   },
   {
     "id": 168,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, a investigação policial é usualmente descrita como um processo:",
+    "enunciado": "Segundo o caderno, a investigaçãoão policial é usualmente descrita como um processo:",
     "alternativas": {
       "A": "Unidirecional, sem possibilidade de retorno.",
       "B": "Exclusivamente pericial.",
@@ -2716,20 +2716,20 @@ const questoesDB = [
       "E": "Interativo, que envolve ciclos de coleta, avaliação, decisão e nova avaliação (lógica de espiral)."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno afirma que 'uma investigação policial é usualmente um processo interativo que envolve a condução de ações, avaliação, tomada de decisões, execução e nova avaliação. Esse processo pode continuar por vários ciclos, em uma lógica de espiral'.",
+    "justificativa": "O caderno afirma que 'uma investigaçãoão policial é usualmente um processo interativo que envolve a condução de ações, avaliação, tomada de decisões, execução e nova avaliação. Esse processo pode continuar por vários ciclos, em uma lógica de espiral'.",
     "referencia": "Cap. 6, Seção 6.4, p. 84"
   },
   {
     "id": 169,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, o viés cognitivo denominado 'visão de túnel' na investigação policial se caracteriza por:",
+    "enunciado": "Conforme o caderno, o viés cognitivo denominado 'visão de túnel' na investigaçãoão policial se caracteriza por:",
     "alternativas": {
       "A": "Excesso de diligências realizadas sem planejamento.",
       "B": "Delegação excessiva de tarefas a subordinados.",
-      "C": "Falta de recursos para a investigação.",
-      "D": "Utilização de tecnologias obsoletas na investigação.",
+      "C": "Falta de recursos para a investigaçãoão.",
+      "D": "Utilização de tecnologias obsoletas na investigaçãoão.",
       "E": "Concentrar-se somente no material que confirma uma visão antecipada, ignorando linhas alternativas."
     },
     "resposta_correta": "E",
@@ -2738,8 +2738,8 @@ const questoesDB = [
   },
   {
     "id": 170,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a hipótese criminal no contexto da Polícia Federal é definida como:",
     "alternativas": {
@@ -2750,13 +2750,13 @@ const questoesDB = [
       "E": "Uma decisão judicial provisória."
     },
     "resposta_correta": "C",
-    "justificativa": "O caderno define que 'a hipótese criminal é um recurso utilizado no bojo de determinadas investigações policiais que têm como objetivo tentar reconstruir os fatos criminosos investigados de forma mais próxima possível da realidade'.",
+    "justificativa": "O caderno define que 'a hipótese criminal é um recurso utilizado no bojo de determinadas investigaçãoões policiais que têm como objetivo tentar reconstruir os fatos criminosos investigados de forma mais próxima possível da realidade'.",
     "referencia": "Cap. 6, Seção 6.8, p. 89"
   },
   {
     "id": 171,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias e Ferramentas de Investigação",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a Instrução Técnica 01/2018-Dicor/PF, conforme o caderno, as características da hipótese criminal são:",
     "alternativas": {
@@ -2768,14 +2768,14 @@ const questoesDB = [
     },
     "resposta_correta": "A",
     "justificativa": "O caderno afirma que 'de acordo com a Instrução Técnica 01/2018-Dicor/PF, a hipótese criminal tem como características: (i) clareza; (ii) falseabilidade; (iii) provisoriedade'.",
-    "referencia": "Cap. 6, Seção 6.8, p. 90"
+    "referencia": "Cap. 7 - Estratégias e Ferramentas de Investigação, p. 116"
   },
   {
     "id": 172,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, entre os elementos da hipótese criminal, o único cuja ausência inviabiliza a condução de uma investigação cética, técnica e profissional é:",
+    "enunciado": "Conforme o caderno, entre os elementos da hipótese criminal, o único cuja ausência inviabiliza a condução de uma investigaçãoão cética, técnica e profissional é:",
     "alternativas": {
       "A": "O verbo (ação/núcleo verbal).",
       "B": "O local.",
@@ -2784,13 +2784,13 @@ const questoesDB = [
       "E": "A autoria."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno afirma que o verbo 'é o único elemento que quando ausente inviabiliza a condução de uma investigação cética, técnica e profissional, pois nesse caso estaria se investigando pessoa e não fato'.",
+    "justificativa": "O caderno afirma que o verbo 'é o único elemento que quando ausente inviabiliza a condução de uma investigaçãoão cética, técnica e profissional, pois nesse caso estaria se investigando pessoa e não fato'.",
     "referencia": "Cap. 6, Seção 6.8.1, p. 91"
   },
   {
     "id": 173,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, 'lacuna' na hipótese criminal NÃO se confunde com a ausência de indícios probatórios. Lacuna é:",
     "alternativas": {
@@ -2806,15 +2806,15 @@ const questoesDB = [
   },
   {
     "id": 174,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, entre as boas práticas para evitar vieses cognitivos na investigação, destaca-se:",
+    "enunciado": "Segundo o caderno, entre as boas práticas para evitar vieses cognitivos na investigaçãoão, destaca-se:",
     "alternativas": {
       "A": "Trabalhar com múltiplas hipóteses e registrar explicitamente as premissas.",
       "B": "Evitar a consulta a fontes independentes.",
       "C": "Confiar exclusivamente na experiência pessoal do investigador.",
-      "D": "Priorizar a celeridade sobre a qualidade da investigação.",
+      "D": "Priorizar a celeridade sobre a qualidade da investigaçãoão.",
       "E": "Trabalhar com uma única hipótese bem definida desde o início."
     },
     "resposta_correta": "A",
@@ -2823,8 +2823,8 @@ const questoesDB = [
   },
   {
     "id": 175,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigaçãoão Policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a análise de locais de crime quanto à relevância dos vestígios compete, em regra, a:",
     "alternativas": {
@@ -2840,10 +2840,10 @@ const questoesDB = [
   },
   {
     "id": 176,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático IPO, as etapas mínimas que devem compor qualquer método de investigação policial são:",
+    "enunciado": "De acordo com o Caderno Didático IPO, as etapas mínimas que devem compor qualquer método de investigaçãoão policial são:",
     "alternativas": {
       "A": "Denúncia, instrução, sentença e execução.",
       "B": "Fato, hipótese, checagem e conclusão.",
@@ -2852,15 +2852,15 @@ const questoesDB = [
       "E": "Planejamento, execução, controle e avaliação."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno é expresso ao definir quatro etapas mínimas do método: 'a) Fato: toda investigação policial deverá ter origem em um fato; b) Hipótese: definido o fato, é necessária a construção de hipóteses; c) Checagem: é essencial para validar os dados colhidos; d) Conclusão: irá reunir todas as informações e elementos de prova'.",
+    "justificativa": "O caderno é expresso ao definir quatro etapas mínimas do método: 'a) Fato: toda investigaçãoão policial deverá ter origem em um fato; b) Hipótese: definido o fato, é necessária a construção de hipóteses; c) Checagem: é essencial para validar os dados colhidos; d) Conclusão: irá reunir todas as informações e elementos de prova'.",
     "referencia": "Cap. 7, Seção 7.1, p. 96-97"
   },
   {
     "id": 177,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, a principal diferença entre investigação reativa e investigação proativa é que:",
+    "enunciado": "Segundo o caderno, a principal diferença entre investigaçãoão reativa e investigaçãoão proativa é que:",
     "alternativas": {
       "A": "A reativa começa com a descoberta de um crime já ocorrido, enquanto a proativa se dá a partir de eventos criminosos em andamento ou iminentes.",
       "B": "A proativa não pode ser utilizada em crimes de tráfico.",
@@ -2869,47 +2869,47 @@ const questoesDB = [
       "E": "A reativa utiliza apenas interceptação telefônica."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno define: 'o método reativo começa com a descoberta de um crime já ocorrido e visa a trazer infratores à justiça'. Já 'a investigação proativa se dá a partir da detecção de eventos criminosos que estão ocorrendo naquele momento ou que vão ocorrer em um futuro imediato'.",
+    "justificativa": "O caderno define: 'o método reativo começa com a descoberta de um crime já ocorrido e visa a trazer infratores à justiça'. Já 'a investigaçãoão proativa se dá a partir da detecção de eventos criminosos que estão ocorrendo naquele momento ou que vão ocorrer em um futuro imediato'.",
     "referencia": "Cap. 7, Seção 7.1.1, p. 98-99"
   },
   {
     "id": 178,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, a investigação prospectiva se diferencia da investigação proativa porque:",
+    "enunciado": "Conforme o caderno, a investigaçãoão prospectiva se diferencia da investigaçãoão proativa porque:",
     "alternativas": {
       "A": "É autorizada expressamente pelo CPP.",
       "B": "É conduzida exclusivamente por peritos criminais.",
       "C": "É mais eficiente e célere.",
       "D": "Exige autorização do STF para ser iniciada.",
-      "E": "Não há causa provável, e busca-se algo de criminoso que uma pessoa praticou, resultando em persecução subjetiva baseada em pessoas e não em fatos."
+      "E": "Não há causa provável, e busca-se algo de criminoso que uma pessoa praticou, resultando em persecuçção subjetiva baseada em pessoas e não em fatos."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno afirma que 'por investigação prospectiva entende-se aquela em que não há causa provável. Em regra, não há justa causa para se dar início a uma investigação policial baseada em fatos objetivos. Mas, no intuito de se buscar algo de criminoso que uma determinada pessoa praticou, inicia-se uma persecução subjetiva'.",
+    "justificativa": "O caderno afirma que 'por investigaçãoão prospectiva entende-se aquela em que não há causa provável. Em regra, não há justa causa para se dar início a uma investigaçãoão policial baseada em fatos objetivos. Mas, no intuito de se buscar algo de criminoso que uma determinada pessoa praticou, inicia-se uma persecuçção subjetiva'.",
     "referencia": "Cap. 7, Seção 7.1.1, p. 100"
   },
   {
     "id": 179,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a expressão 'fishing expedition' (pescaria probatória) refere-se a:",
     "alternativas": {
       "A": "A interceptação telefônica autorizada judicialmente.",
-      "B": "Investigação prévia ampla e genérica para buscar evidências sobre a prática de futuros crimes ou desconhecidos.",
+      "B": "Investigaçãoão prévia ampla e genérica para buscar evidências sobre a prática de futuros crimes ou desconhecidos.",
       "C": "A coleta de provas em flagrante delito.",
       "D": "O uso de informantes para obter provas.",
-      "E": "Uma técnica legítima de investigação proativa."
+      "E": "Uma técnica legítima de investigaçãoão proativa."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno define que na fishing expedition 'são lançadas as redes da investigação com a esperança de pescar qualquer prova para subsidiar uma futura acusação. Ou seja, é uma investigação prévia, realizada de maneira muito ampla e genérica para buscar evidências sobre a prática de futuros crimes (ou até mesmo desconhecidos)'.",
+    "justificativa": "O caderno define que na fishing expedition 'são lançadas as redes da investigaçãoão com a esperança de pescar qualquer prova para subsidiar uma futura acusação. Ou seja, é uma investigaçãoão prévia, realizada de maneira muito ampla e genérica para buscar evidências sobre a prática de futuros crimes (ou até mesmo desconhecidos)'.",
     "referencia": "Cap. 7, Seção 7.1.1, p. 100-101"
   },
   {
     "id": 180,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, são exemplos de práticas comuns de pescaria probatória (fishing expedition):",
     "alternativas": {
@@ -2925,14 +2925,14 @@ const questoesDB = [
   },
   {
     "id": 181,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, as fases da investigação policial são, em ordem:",
+    "enunciado": "Conforme o caderno, as fases da investigaçãoão policial são, em ordem:",
     "alternativas": {
       "A": "Flagrante, prisão, indiciamento, relatório e denúncia.",
       "B": "Planejamento, execução, monitoramento e encerramento.",
-      "C": "Instigação/incitação, avaliação preliminar, instauração, instrução probatória e conclusão.",
+      "C": "Instigação/incitação, avaliação preliminar, instauraçção, instrução probatória e conclusão.",
       "D": "Notícia-crime, delegação, perícia, interrogatório e sentença.",
       "E": "Denúncia, citação, audiência, sentença e recurso."
     },
@@ -2942,10 +2942,10 @@ const questoesDB = [
   },
   {
     "id": 182,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, na fase de avaliação preliminar da investigação, deve-se aferir três aspectos das informações. São eles:",
+    "enunciado": "De acordo com o caderno, na fase de avaliação preliminar da investigaçãoão, deve-se aferir três aspectos das informações. São eles:",
     "alternativas": {
       "A": "Proporcionalidade, razoabilidade e adequação.",
       "B": "Legalidade, moralidade e publicidade.",
@@ -2959,10 +2959,10 @@ const questoesDB = [
   },
   {
     "id": 183,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, na fase de instauração da investigação, as variáveis que devem ser indagadas (o que sei, o que não sei, o que indica e o que contraindica) são:",
+    "enunciado": "Segundo o caderno, na fase de instauraçção da investigaçãoão, as variáveis que devem ser indagadas (o que sei, o que não sei, o que indica e o que contraindica) são:",
     "alternativas": {
       "A": "Custos, prazos, riscos e benefícios.",
       "B": "Prisão, busca, interrogatório e perícia.",
@@ -2976,8 +2976,8 @@ const questoesDB = [
   },
   {
     "id": 184,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o Princípio de Locard estabelece que:",
     "alternativas": {
@@ -2993,8 +2993,8 @@ const questoesDB = [
   },
   {
     "id": 185,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o método F3EAD adaptado consiste na fusão de dois componentes. São eles:",
     "alternativas": {
@@ -3010,8 +3010,8 @@ const questoesDB = [
   },
   {
     "id": 186,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, as etapas do F3EAD são, respectivamente:",
     "alternativas": {
@@ -3027,8 +3027,8 @@ const questoesDB = [
   },
   {
     "id": 187,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a correspondência entre as etapas mínimas do método policial e o F3EAD adaptado coloca a 'hipótese criminal' como equivalente a qual fase do F3EAD?",
     "alternativas": {
@@ -3044,13 +3044,13 @@ const questoesDB = [
   },
   {
     "id": 188,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o caderno, a lógica do 'follow the money' na investigação patrimonial tem como objetivo:",
+    "enunciado": "De acordo com o caderno, a lógica do 'follow the money' na investigaçãoão patrimonial tem como objetivo:",
     "alternativas": {
       "A": "Garantir o sigilo bancário dos investigados.",
-      "B": "Substituir a investigação criminal tradicional.",
+      "B": "Substituir a investigaçãoão criminal tradicional.",
       "C": "Identificar testemunhas do crime.",
       "D": "Aumentar a arrecadação tributária do Estado.",
       "E": "Neutralizar os fluxos financeiros ilícitos como estratégia de enfraquecimento estrutural das redes criminosas."
@@ -3061,8 +3061,8 @@ const questoesDB = [
   },
   {
     "id": 189,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, as cinco etapas da recuperação de ativos na Rede RECUPERA são:",
     "alternativas": {
@@ -3073,13 +3073,13 @@ const questoesDB = [
       "E": "Rastrear, bloquear, gerenciar, vender e repassar."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno descreve cinco etapas: 'Identificar: corresponde à investigação patrimonial paralela; Apreender: consiste na constrição judicial dos ativos; Administrar: refere-se à gestão técnica dos bens; Alienar: etapa voltada à conversão antecipada de ativos; Destinar: fase final de reversão dos ativos'.",
+    "justificativa": "O caderno descreve cinco etapas: 'Identificar: corresponde à investigaçãoão patrimonial paralela; Apreender: consiste na constrição judicial dos ativos; Administrar: refere-se à gestão técnica dos bens; Alienar: etapa voltada à conversão antecipada de ativos; Destinar: fase final de reversão dos ativos'.",
     "referencia": "Cap. 7, Seção 7.4, p. 120"
   },
   {
     "id": 190,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação policial",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o confisco alargado (art. 91-A do CP) incide sobre:",
     "alternativas": {
@@ -3091,12 +3091,12 @@ const questoesDB = [
     },
     "resposta_correta": "A",
     "justificativa": "O caderno afirma que o confisco alargado 'incide sobre a diferença patrimonial incompatível com a renda lícita do condenado'.",
-    "referencia": "Cap. 7, Seção 7.4, p. 121"
+    "referencia": "Cap. 4 - Investigação policial, p. 42"
   },
   {
     "id": 191,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o Registro Especial de Recuperação de Ativos (RE-RA) tem como finalidade precípua:",
     "alternativas": {
@@ -3104,16 +3104,16 @@ const questoesDB = [
       "B": "A comunicação obrigatória ao Ministério Público.",
       "C": "Substituir o inquérito policial em crimes financeiros.",
       "D": "O arquivamento de processos de menor potencial ofensivo.",
-      "E": "A identificação, individualização e localização de bens, valores e direitos de pessoas de interesse da investigação."
+      "E": "A identificação, individualização e localização de bens, valores e direitos de pessoas de interesse da investigaçãoão."
     },
     "resposta_correta": "E",
-    "justificativa": "O caderno define que o RE-RA 'tem como finalidade precípua a identificação, individualização e localização de bens, valores e direitos de pessoas, físicas ou jurídicas, de interesse da investigação policial ou de interpostas pessoas a elas associadas'.",
+    "justificativa": "O caderno define que o RE-RA 'tem como finalidade precípua a identificação, individualização e localização de bens, valores e direitos de pessoas, físicas ou jurídicas, de interesse da investigaçãoão policial ou de interpostas pessoas a elas associadas'.",
     "referencia": "Cap. 7, Seção 7.4.1, p. 124"
   },
   {
     "id": 192,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o 'círculo virtuoso da recuperação de ativos' consiste em:",
     "alternativas": {
@@ -3129,25 +3129,25 @@ const questoesDB = [
   },
   {
     "id": 193,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
-    "enunciado": "Conforme o caderno, a estratégia de investigação de 1ª geração da Polícia Federal caracterizava-se por:",
+    "enunciado": "Conforme o caderno, a estratégia de investigaçãoão de 1ª geração da Polícia Federal caracterizava-se por:",
     "alternativas": {
       "A": "Prolongamento da fase encoberta com uso intensivo de interceptação telefônica, influenciada por doutrinas de inteligência.",
       "B": "Foco exclusivo em depoimentos de testemunhas.",
-      "C": "Utilização apenas de meios digitais de investigação.",
+      "C": "Utilização apenas de meios digitais de investigaçãoão.",
       "D": "Uso intensivo de mandados de busca e apreensão desde o início.",
-      "E": "Investigação rápida e deflagração imediata de operações."
+      "E": "Investigaçãoão rápida e deflagração imediata de operações."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno afirma que 'essa estratégia de investigação, considerada como de 1ª. Geração, foi muito influenciada pelas doutrinas de inteligência (Ciclo de Produção de Conhecimento) com intensivo emprego de procedimentos de técnicas como interceptação telefônica'.",
+    "justificativa": "O caderno afirma que 'essa estratégia de investigaçãoão, considerada como de 1ª. Geração, foi muito influenciada pelas doutrinas de inteligência (Ciclo de Produção de Conhecimento) com intensivo emprego de procedimentos de técnicas como interceptação telefônica'.",
     "referencia": "Cap. 7, Seção 7.2.3, p. 113"
   },
   {
     "id": 194,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigaçãoão",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, no regime jurídico brasileiro, o cumprimento de mandados de busca e apreensão incumbe exclusivamente:",
     "alternativas": {
@@ -3163,29 +3163,29 @@ const questoesDB = [
   },
   {
     "id": 195,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o Caderno Didático IPO, os quatro modelos básicos de unidades investigativas da Polícia Federal são:",
     "alternativas": {
       "A": "Unidades administrativas, unidades judiciais, unidades legislativas e unidades executivas.",
-      "B": "Unidades generalistas, grandes equipes de inquérito, unidades especializadas em investigações proativas e atuação em regime de força-tarefa.",
+      "B": "Unidades generalistas, grandes equipes de inquérito, unidades especializadas em investigaçãoões proativas e atuação em regime de força-tarefa.",
       "C": "Delegacias distritais, delegacias especializadas, delegacias regionais e delegacias federais.",
       "D": "Divisões temáticas, coordenações gerais, superintendências e diretorias.",
       "E": "Núcleos operacionais, núcleos de análise, núcleos de inteligência e núcleos de perícia."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que 'a estrutura organizacional costuma operar, como regra, a partir de quatro modelos básicos de unidades: i) unidades generalistas; ii) grandes equipes de inquérito; iii) unidades especializadas em investigações de caráter proativo; e iv) atuação em regime de força-tarefa'.",
+    "justificativa": "O caderno afirma que 'a estrutura organizacional costuma operar, como regra, a partir de quatro modelos básicos de unidades: i) unidades generalistas; ii) grandes equipes de inquérito; iii) unidades especializadas em investigaçãoões de caráter proativo; e iv) atuação em regime de força-tarefa'.",
     "referencia": "Cap. 8, Seção 8.1, p. 130"
   },
   {
     "id": 196,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, nas unidades generalistas da PF, os delegados atuam diretamente com escrivães, enquanto os demais policiais se organizam em:",
     "alternativas": {
-      "A": "Grupos de investigação e grupos de perícia.",
+      "A": "Grupos de investigaçãoão e grupos de perícia.",
       "B": "Núcleos Operacionais e Núcleos de Análise.",
       "C": "Equipes de campo e equipes de laboratório.",
       "D": "Comissões permanentes e comissões temporárias.",
@@ -3197,8 +3197,8 @@ const questoesDB = [
   },
   {
     "id": 197,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o Índice de Produtividade Operacional (IPO) da PF é definido como:",
     "alternativas": {
@@ -3214,29 +3214,29 @@ const questoesDB = [
   },
   {
     "id": 198,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o IPO possui dois tipos de indicadores. Seus pesos são, respectivamente:",
     "alternativas": {
-      "A": "Indicadores de entrada (70%) e indicadores de saída (30%).",
-      "B": "Indicadores individuais (50%) e indicadores coletivos (50%).",
-      "C": "Indicadores transversais (80%) e indicadores setoriais (20%).",
-      "D": "Indicadores qualitativos (60%) e indicadores quantitativos (40%).",
-      "E": "Indicadores primários (90%) e indicadores secundários (10%)."
+      "A": "Indicadores de entrada (70É) e indicadores de saída (30É).",
+      "B": "Indicadores individuais (50É) e indicadores coletivos (50É).",
+      "C": "Indicadores transversais (80É) e indicadores setoriais (20É).",
+      "D": "Indicadores qualitativos (60É) e indicadores quantitativos (40É).",
+      "E": "Indicadores primários (90É) e indicadores secundários (10É)."
     },
     "resposta_correta": "C",
-    "justificativa": "O caderno afirma que o IPO 'possui dois tipos de indicadores: (i) os indicadores transversais, os quais correspondem a 80% do índice; (ii) os indicadores setoriais, que representam 20% do índice'.",
+    "justificativa": "O caderno afirma que o IPO 'possui dois tipos de indicadores: (i) os indicadores transversais, os quais correspondem a 80É do índice; (ii) os indicadores setoriais, que representam 20É do índice'.",
     "referencia": "Cap. 8, Seção 8.3, p. 138"
   },
   {
     "id": 199,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, as diretrizes da metodologia de cálculo do IPO, previstas na Portaria DG/PF nº 18.900/2023, são:",
     "alternativas": {
-      "A": "Prevenção, repressão, investigação e inteligência.",
+      "A": "Prevenção, repressão, investigaçãoão e inteligência.",
       "B": "Velocidade, precisão, sigilo e economicidade.",
       "C": "Planejamento, organização, direção e controle.",
       "D": "Simplificar a metodologia, facilitar a compreensão, favorecer a transparência e possibilitar a auditabilidade.",
@@ -3248,8 +3248,8 @@ const questoesDB = [
   },
   {
     "id": 200,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, uma operação de polícia judiciária por cumprimento de mandados judiciais se caracteriza pelo:",
     "alternativas": {
@@ -3265,8 +3265,8 @@ const questoesDB = [
   },
   {
     "id": 201,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a FICCO (Força Integrada de Combate ao Crime Organizado) integra quais forças?",
     "alternativas": {
@@ -3282,10 +3282,10 @@ const questoesDB = [
   },
   {
     "id": 202,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, a gestão bem-sucedida de uma investigação requer:",
+    "enunciado": "Segundo o caderno, a gestão bem-sucedida de uma investigaçãoão requer:",
     "alternativas": {
       "A": "Apenas recursos financeiros abundantes.",
       "B": "Planejamento, organização, controle e motivação.",
@@ -3294,17 +3294,17 @@ const questoesDB = [
       "E": "Autorização prévia do Poder Judiciário para cada ato."
     },
     "resposta_correta": "B",
-    "justificativa": "O caderno afirma que 'a gestão bem-sucedida de uma investigação requer planejamento, organização, controle e motivação'.",
+    "justificativa": "O caderno afirma que 'a gestão bem-sucedida de uma investigaçãoão requer planejamento, organização, controle e motivação'.",
     "referencia": "Cap. 8, Seção 8.4, p. 142"
   },
   {
     "id": 203,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, a cadeia de custódia é definida como:",
     "alternativas": {
-      "A": "O registro de todas as pessoas presas durante a investigação.",
+      "A": "O registro de todas as pessoas presas durante a investigaçãoão.",
       "B": "A lista de testemunhas arroladas no inquérito.",
       "C": "O conjunto de registros cronológicos escritos capazes de garantir a identidade e a integridade de um material.",
       "D": "O histórico de transferências de delegados entre unidades.",
@@ -3316,8 +3316,8 @@ const questoesDB = [
   },
   {
     "id": 204,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, crimes massivos são definidos como:",
     "alternativas": {
@@ -3333,30 +3333,30 @@ const questoesDB = [
   },
   {
     "id": 205,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o Programa Prometheus tem como objetivo:",
     "alternativas": {
-      "A": "Desenvolver metodologias de tratamento especial para casuísticas repetitivas, evitando instauração pulverizada de inquéritos.",
+      "A": "Desenvolver metodologias de tratamento especial para casuísticas repetitivas, evitando instauraçção pulverizada de inquéritos.",
       "B": "Substituir integralmente o inquérito policial.",
       "C": "Realizar interceptações telefônicas em larga escala.",
       "D": "Treinar novos delegados de polícia federal.",
       "E": "Gerenciar a folha de pagamento da PF."
     },
     "resposta_correta": "A",
-    "justificativa": "O caderno define que 'o Prometheus é um programa que visa ao desenvolvimento de metodologias de tratamento especial para casuísticas repetitivas, evitando a instauração pulverizada de grande quantidade de inquéritos desconexos'.",
+    "justificativa": "O caderno define que 'o Prometheus é um programa que visa ao desenvolvimento de metodologias de tratamento especial para casuísticas repetitivas, evitando a instauraçção pulverizada de grande quantidade de inquéritos desconexos'.",
     "referencia": "Cap. 8, Seção 8.9.2, p. 157"
   },
   {
     "id": 206,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o fluxo do Prometheus se compõe de três etapas. São elas:",
     "alternativas": {
       "A": "Vigilância, interceptação e operação.",
-      "B": "Denúncia, investigação e julgamento.",
+      "B": "Denúncia, investigaçãoão e julgamento.",
       "C": "Registro e estruturação de dados, análise de dados e correlacionamento, e tomada de decisão.",
       "D": "Prisão, interrogatório e indiciamento.",
       "E": "Planejamento, execução e relatório."
@@ -3367,8 +3367,8 @@ const questoesDB = [
   },
   {
     "id": 207,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, o Projeto TENTÁCULOS centraliza notícias-crime relacionadas a:",
     "alternativas": {
@@ -3384,8 +3384,8 @@ const questoesDB = [
   },
   {
     "id": 208,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o caderno, o Sistema RAPINA é uma ferramenta tecnológica da PF voltada para:",
     "alternativas": {
@@ -3401,25 +3401,25 @@ const questoesDB = [
   },
   {
     "id": 209,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, as três Diretorias de polícia judiciária da PF no âmbito central são:",
     "alternativas": {
       "A": "Diretoria Executiva, Diretoria Técnica e Diretoria Científica.",
       "B": "Diretoria de Operações, Diretoria de Planejamento e Diretoria de Recursos Humanos.",
-      "C": "Dicor (Investigação e Combate ao Crime Organizado e à Corrupção), Damaz (Amazônia e Meio Ambiente) e Dciber (Combate a Crimes Cibernéticos).",
+      "C": "Dicor (Investigaçãoão e Combate ao Crime Organizado e à Corrupção), Damaz (Amazônia e Meio Ambiente) e Dciber (Combate a Crimes Cibernéticos).",
       "D": "Diretoria de Fronteiras, Diretoria de Imigração e Diretoria de Passaportes.",
       "E": "Diretoria de Inteligência, Diretoria Administrativa e Diretoria de Gestão."
     },
     "resposta_correta": "C",
-    "justificativa": "O caderno descreve as três diretorias: 'Diretoria de Investigação e Combate ao Crime Organizado e à Corrupção (Dicor/PF)', 'Diretoria da Amazônia e Meio Ambiente (DAMAZ/PF)' e 'Diretoria de Combate a Crimes Cibernéticos (DCIBER/PF)'.",
+    "justificativa": "O caderno descreve as três diretorias: 'Diretoria de Investigaçãoão e Combate ao Crime Organizado e à Corrupção (Dicor/PF)', 'Diretoria da Amazônia e Meio Ambiente (DAMAZ/PF)' e 'Diretoria de Combate a Crimes Cibernéticos (DCIBER/PF)'.",
     "referencia": "Cap. 8, Seção 8.2, p. 136-137"
   },
   {
     "id": 210,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o caderno, a teoria DISC, mencionada como ferramenta de gerenciamento de pessoas, distingue as personalidades em:",
     "alternativas": {
@@ -3435,10 +3435,10 @@ const questoesDB = [
   },
   {
     "id": 211,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o caderno, o controle da investigação policial é exercido por múltiplas instâncias. Entre os controles citados estão:",
+    "enunciado": "Segundo o caderno, o controle da investigaçãoão policial é exercido por múltiplas instâncias. Entre os controles citados estão:",
     "alternativas": {
       "A": "Apenas o Ministério Público.",
       "B": "Apenas a Corregedoria-Geral da PF.",
@@ -3452,8 +3452,8 @@ const questoesDB = [
   },
   {
     "id": 212,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigaçãoões",
     "tipo": "multipla_escolha",
     "enunciado": "Conforme o caderno, o delegado de polícia federal, ao receber sua carga de inquéritos, deve distinguir entre:",
     "alternativas": {
@@ -3478,8 +3478,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno didático define investigação, em sentido amplo, como processo intelectual voltado à busca de conhecimento sobre aquilo que é desconhecido ou insuficientemente conhecido, sendo uma atividade humana universal.",
-    "referencia": ""
+    "justificativa": "Segundo John Dewey e o texto oficial, toda investigação surge da necessidade de enfrentar uma situação indeterminada, isto é, um contexto em que a realidade apresenta incertezas e exige resposta, sendo a investigação científica um aperfeiçoamento e sistematização da investigação do senso comum voltada à elucidação dos fatos.",
+    "referencia": "(Cap. 3, p. 19)"
   },
   {
     "id": 259,
@@ -3492,8 +3492,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Embora compartilhem elementos comuns como rigor metodológico e busca pela verdade, a investigação científica e a investigação policial possuem finalidades distintas. A científica busca produzir conhecimento novo; a policial visa apurar autoria, materialidade e circunstâncias de infrações penais.",
-    "referencia": ""
+    "justificativa": "O texto afirma que a investigação policial inspira-se em padrões racionais de produção de conhecimento da investigação científica, porém possui objeto próprio (apuração de materialidade e autoria) e está submetida a um regime jurídico específico, não sendo idênticas.",
+    "referencia": "(Cap. 3, p. 15)"
   },
   {
     "id": 260,
@@ -3506,8 +3506,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que a investigação policial é uma modalidade específica de apuração estatal que combina elementos da investigação comum com aspectos da investigação científica, incluindo rigor metodológico, coleta sistemática de dados e preservação da cadeia de custódia.",
-    "referencia": ""
+    "justificativa": "O texto consolida que a investigação policial reúne elementos típicos da investigação científica, como rigor metodológico e coleta sistemática de dados, e características da investigação prática e comum, voltada à solução concreta de fatos determinados.",
+    "referencia": "(Cap. 4, p. 28)"
   },
   {
     "id": 261,
@@ -3520,8 +3520,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno didático reconhece que a investigação policial pode se valer também de conhecimentos produzidos pela investigação do senso comum, sendo que a variedade de experiências aplicáveis à atividade não pode ser desprezada.",
-    "referencia": ""
+    "justificativa": "Segundo o texto, a investigação científica e metódica, que inspira a policial, é uma continuidade evolutiva e um aperfeiçoamento da investigação do senso comum, sendo a experiência acumulada valiosa para solucionar problemas do cotidiano investigativo.",
+    "referencia": "(Cap. 3, p. 19)"
   },
   {
     "id": 262,
@@ -3534,8 +3534,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno didático, citando Eliomar (2010), classifica a investigação policial como atividade pragmática e zetética por essência, voltada à apuração de autoria, materialidade e circunstâncias da prática criminosa.",
-    "referencia": ""
+    "justificativa": "Conforme ensina Eliomar da Silva Pereira (2010), referenciado no texto base, a investigação policial é uma atividade pragmática e zetética por essência, consistindo em pesquisas para obter provas da existência de crime e sua autoria.",
+    "referencia": "(Cap. 4, p. 29)"
   },
   {
     "id": 263,
@@ -3548,8 +3548,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno diferencia claramente a investigação policial da atividade de inteligência policial. Enquanto a investigação policial visa apurar infrações penais no âmbito do inquérito policial, a inteligência policial possui finalidades, marcos regulatórios e metodologias distintas.",
-    "referencia": ""
+    "justificativa": "O texto é claro ao ressaltar que inteligência e investigação policial são atividades distintas e autônomas. A investigação busca apurar autoria e materialidade com provas formalmente válidas, enquanto a inteligência visa produzir e coletar informações para subsidiar decisões gerenciais.",
+    "referencia": "(Cap. 4, p. 44)"
   },
   {
     "id": 264,
@@ -3562,8 +3562,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno didático, a investigação policial é uma atividade pragmática, voltada à resolução de problemas concretos, com foco na apuração de autoria, materialidade e circunstâncias da prática criminosa.",
-    "referencia": ""
+    "justificativa": "O documento oficial relata que a investigação policial visa à apuração isenta da materialidade e da autoria de crimes de forma pragmática, orientada à busca da verdade formal judicializável.",
+    "referencia": "(Cap. 4, p. 29)"
   },
   {
     "id": 265,
@@ -3576,8 +3576,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno didático reconhece que a investigação policial privilegia o raciocínio lógico-dedutivo, mas admite que indução e criatividade são aplicáveis face a cenários desconhecidos e inusitados.",
-    "referencia": ""
+    "justificativa": "O texto aponta que o método abdutivo de inferência (baseado na formulação de hipóteses explicativas a partir de indícios) e lógicas pragmáticas e experimentais integram as bases do raciocínio investigativo policial, desmistificando o caráter exclusivamente dedutivo.",
+    "referencia": "(Cap. 4, p. 26)"
   },
   {
     "id": 266,
@@ -3590,8 +3590,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno destaca que a investigação policial compartilha com a investigação científica a exigência de rigor metodológico, coleta sistemática de dados e preservação da cadeia de custódia.",
-    "referencia": ""
+    "justificativa": "O caderno didático expõe expressamente que a investigação policial reúne elementos da investigação científica, como o rigor metodológico, a coleta sistemática de dados e a preservação da cadeia de custódia.",
+    "referencia": "(Cap. 4, p. 28)"
   },
   {
     "id": 267,
@@ -3604,8 +3604,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno enfatiza que a investigação policial, para alcançar padrões de profissionalismo e eficiência, deve pautar-se por metodologia estruturada, não se limitando à intuição ou experiência pessoal do investigador.",
-    "referencia": ""
+    "justificativa": "A apuração não se configura em simples atuação empírica baseada só na experiência ou intuição. A legitimidade da atividade investigativa demanda rigor, método estruturado e cumprimento estrito de normas jurídicas.",
+    "referencia": "(Cap. 4, p. 28)"
   },
   {
     "id": 268,
@@ -3618,8 +3618,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma expressamente que o método protege as pessoas em torno dos fatos, o investigador e a própria instituição, reforçando o princípio da impessoalidade na investigação policial.",
-    "referencia": ""
+    "justificativa": "A aplicação dos princípios e métodos, em especial a legalidade, responsabilidade e objetividade, atua como um escudo que protege a integridade do trabalho, da instituição e assegura a proteção aos direitos fundamentais de todos os envolvidos.",
+    "referencia": "(Cap. 4, p. 43)"
   },
   {
     "id": 269,
@@ -3632,8 +3632,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno didático, o termo método, de origem grega (methodos), refere-se à busca de determinado objetivo por meio de um caminho previamente delineado.",
-    "referencia": ""
+    "justificativa": "Consoante a teoria da investigação explicitada, método corresponde a uma estrutura lógica e sistematizada de hábitos e caminhos delineados para alcançar conhecimento confiável e resolução de problemas.",
+    "referencia": "(Cap. 3, p. 19)"
   },
   {
     "id": 270,
@@ -3646,8 +3646,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno define metodologia como o estudo sistematizado dos caminhos possíveis, compreendendo a análise, a estruturação e a aplicação de procedimentos que orientam a atividade investigativa de forma racional, organizada e tecnicamente fundamentada.",
-    "referencia": ""
+    "justificativa": "A fundamentação teórica orienta que a investigação moderna atua sob um padrão racional, o que configura a metodologia como uma série lógica de operações e caminhos que conferem legitimidade aos resultados obtidos.",
+    "referencia": "(Cap. 3, p. 19)"
   },
   {
     "id": 271,
@@ -3660,8 +3660,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona que a investigação policial, além de apurar autoria, materialidade e circunstâncias, também deve promover a recuperação de ativos em casos com repercussão econômica.",
-    "referencia": ""
+    "justificativa": "Nos crimes com repercussão econômica, o texto oficial dispõe que a recuperação de ativos (rastreamento, identificação e apreensão de bens e valores) desponta como objetivo contemporâneo e adicional da apuração.",
+    "referencia": "(Cap. 4, p. 38)"
   },
   {
     "id": 272,
@@ -3674,8 +3674,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno destaca que a multiplicidade de saberes é fundamental na investigação policial, pois a maioria das investigações imprescinde da aplicação de diversas áreas do conhecimento humano.",
-    "referencia": ""
+    "justificativa": "O texto assevera a necessidade de integração, complementariedade de habilidades e conjugação de saberes, pois a sofisticação delitiva exige emprego conjunto de diversas metodologias para a efetividade policial.",
+    "referencia": "(Cap. 4, p. 47)"
   },
   {
     "id": 273,
@@ -3688,8 +3688,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O art. 144, §1º, IV, da CF/88 estabelece que cabe à Polícia Federal exercer, com exclusividade, as funções de polícia judiciária da União.",
-    "referencia": ""
+    "justificativa": "A Constituição Federal, através do art. 144, § 1º, atribui à Polícia Federal a apuração de infrações contra bens, serviços e interesses da União, conferindo-lhe atribuição de polícia judiciária da União.",
+    "referencia": "(Cap. 4, p. 28)"
   },
   {
     "id": 274,
@@ -3702,8 +3702,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A CF/88, art. 144, §1º, IV, estabelece que a Polícia Federal exerce com exclusividade as funções de polícia judiciária da União, não sendo concorrente com outros órgãos.",
-    "referencia": ""
+    "justificativa": "O princípio da exclusividade (citado no texto) e a CF garantem que a investigação policial é atribuição estatal exercida com exclusividade pelos órgãos de polícia judiciária e não de forma concorrente ou delegada.",
+    "referencia": "(Cap. 4, p. 33)"
   },
   {
     "id": 275,
@@ -3716,8 +3716,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A Lei nº 12.830/2013 dispõe sobre a investigação criminal conduzida pelo delegado de polícia, reconhecendo expressamente que este exerce atividade de natureza técnico-jurídica, essencial e exclusiva de Estado.",
-    "referencia": ""
+    "justificativa": "O diploma legal expressamente transcrito no texto base aponta que compete ao delegado de polícia, na qualidade de autoridade policial, conduzir a investigação sob base e avaliação eminentemente técnico-jurídica para a apuração da materialidade e autoria.",
+    "referencia": "(Cap. 4, p. 37)"
   },
   {
     "id": 276,
@@ -3730,8 +3730,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Houve controvérsia doutrinária e jurisprudencial sobre a natureza da atividade policial. Foi com a edição da Lei nº 12.830/2013 que se tornou inequívoco que a autoridade policial exerce atividade de natureza técnico-jurídica.",
-    "referencia": ""
+    "justificativa": "A evolução histórica abordada por Tornaghi indica que inicialmente nem mesmo havia distinção clara entre quem julgava e investigava. O caráter técnico e institucional da polícia judiciária consolidou-se progressivamente através dos diplomas históricos.",
+    "referencia": "(Cap. 4, p. 26)"
   },
   {
     "id": 277,
@@ -3744,8 +3744,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno didático, a investigação policial é uma modalidade específica de apuração estatal conduzida pela polícia judiciária, voltada à resolução pragmática de problemas concretos relacionados a infrações penais.",
-    "referencia": ""
+    "justificativa": "A doutrina diferencia a investigação criminal mais ampla do termo mais restrito \"investigação policial\", que se refere estritamente à atuação conduzida pela polícia judiciária, revestida do princípio da exclusividade.",
+    "referencia": "(Cap. 4, p. 29)"
   },
   {
     "id": 278,
@@ -3758,8 +3758,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O princípio do delegado natural garante ao delegado de polícia a condução da investigação com independência técnica, impedindo a avocação arbitrária de inquéritos. A avocação somente pode ocorrer nos casos expressamente previstos em lei e normas internas.",
-    "referencia": ""
+    "justificativa": "O princípio da disciplina, a garantia de autonomia da condução investigativa e o respeito à ordem jurídica indicam que a autoridade preside os autos sob proteção contra avocamentos discricionários infundados, coibindo influências externas abusivas.",
+    "referencia": "(Cap. 4, p. 33)"
   },
   {
     "id": 279,
@@ -3772,8 +3772,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno enfatiza que uma polícia judiciária profissional, obediente às regras de um Estado de Direito, não pratica investigações centradas em pessoas, mas sim em fatos previamente definidos como crimes.",
-    "referencia": ""
+    "justificativa": "Em obediência ao princípio da isenção institucional e da impessoalidade, a apuração deve recair sobre fatos previamente delimitados sem o viés pré-concebido de perseguir acusações específicas sem materialidade.",
+    "referencia": "(Cap. 4, p. 34)"
   },
   {
     "id": 280,
@@ -3786,8 +3786,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno rejeita a investigação prospectiva (fishing expedition), que consiste em investigar pessoas sem fato determinado, por violar princípios constitucionais, especialmente o princípio da impessoalidade.",
-    "referencia": ""
+    "justificativa": "De acordo com o princípio da objetividade e da legalidade abordado no documento, medidas abusivas sem fatos delimitados que se assemelham a \"fishing expeditions\" comprometem a legitimidade da investigação e lesam garantias constitucionais.",
+    "referencia": "(Cap. 4, p. 32)"
   },
   {
     "id": 281,
@@ -3800,8 +3800,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, a Lei nº 9.266/1996 reorganizou a Carreira Policial Federal, estabelecendo que exclusivamente cargos de nível superior passaram a compô-la.",
-    "referencia": ""
+    "justificativa": "A estruturação dos saberes e do aparato de persecução no Brasil consagrou a alta especialização técnica, tornando o nível superior requisito da Carreira Policial Federal para suprir a demanda da moderna apuração estatal.",
+    "referencia": "(Cap. 4, p. 25)"
   },
   {
     "id": 282,
@@ -3814,8 +3814,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Embora a lei fixe a necessidade de formação específica para Delegado de Polícia Federal e Perito Criminal Federal, essa exigência é inexistente para Agentes, Escrivães e Papiloscopistas Policiais Federais.",
-    "referencia": ""
+    "justificativa": "Embora exija nível superior para compor a Carreira Policial Federal, apenas alguns cargos como Delegado (formação em Direito) possuem obrigatoriedade de área específica, permitindo ampla variedade nas demais formações profissionais.",
+    "referencia": "(Cap. 4, p. 25)"
   },
   {
     "id": 283,
@@ -3828,8 +3828,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que, por força de lei, a presidência das investigações policiais reside com exclusividade no rol de atribuições do delegado de polícia.",
-    "referencia": ""
+    "justificativa": "Consoante ao ordenamento e ao princípio da disciplina, a direção e presidência do inquérito para supervisão legal, bem como a coordenação de toda a equipe para elucidação criminal, incumbem ao delegado de polícia.",
+    "referencia": "(Cap. 4, p. 33)"
   },
   {
     "id": 284,
@@ -3842,8 +3842,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno afirma expressamente que a atividade investigativa não pode florescer adequadamente no trabalho solitário, sendo fundamental a atuação conjunta de todos os atores destacados para a investigação.",
-    "referencia": ""
+    "justificativa": "O princípio da unidade e a necessidade de articulação demonstram ser a apuração de inteligência criminal uma prática intrinsecamente coletiva que demanda integração sistêmica e contribuição de múltiplos perfis e técnicas policiais.",
+    "referencia": "(Cap. 4, p. 32)"
   },
   {
     "id": 285,
@@ -3856,8 +3856,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno didático aborda a evolução doutrinária do inquérito policial, incluindo a superação do caráter meramente inquisitivo em favor de uma abordagem mais alinhada com o sistema acusatório e com as garantias constitucionais.",
-    "referencia": ""
+    "justificativa": "O caderno expõe a Súmula Vinculante 14 do STF, evidenciando transparência quanto aos resultados e a oportunidade de análise crítica e contraditório por parte da defesa sobre diligências já finalizadas, rompendo a absolutividade inquisitorial clássica.",
+    "referencia": "(Cap. 4, p. 35)"
   },
   {
     "id": 286,
@@ -3870,8 +3870,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A competência investigativa da PF abrange diversos crimes previstos tanto no Código Penal quanto em legislação penal extravagante, incluindo tráfico de drogas, crimes financeiros, crimes ambientais, entre outros previstos no art. 144, §1º, da CF.",
-    "referencia": ""
+    "justificativa": "As disposições constitucionais elencam um rol investigativo vasto que não se limita ao Código Penal, mas inclui infrações políticas, sociais, transnacionais, financeiras e demais ilícitos subscritos na legislação penal extravagante com interesse da União.",
+    "referencia": "(Cap. 4, p. 28)"
   },
   {
     "id": 287,
@@ -3884,8 +3884,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A Lei nº 10.446/2002 dispõe que a PF poderá investigar infrações penais com repercussão interestadual ou internacional que exijam repressão uniforme, sem prejuízo da responsabilidade das polícias estaduais.",
-    "referencia": ""
+    "justificativa": "Como previsão e ratificação da carta magna de 1988, a citada legislação estabelece que as infrações de grande repercussão territorial ou global que pleiteiem ação coordenada estatal são de atribuição investigativa da Polícia Federal.",
+    "referencia": "(Cap. 4, p. 28)"
   },
   {
     "id": 288,
@@ -3898,8 +3898,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que o inquérito policial é o instrumento pelo qual a investigação se materializa, sendo o procedimento formal que confere organicidade e controle jurídico à apuração dos fatos.",
-    "referencia": ""
+    "justificativa": "Em consonância com as premissas de garantias processuais e da Lei 12.830/2013, o texto consagra o inquérito policial como o principal meio legal e jurídico hábil a materializar e instruir a busca indiciária pela verdade formal.",
+    "referencia": "(Cap. 4, p. 29)"
   },
   {
     "id": 289,
@@ -3912,8 +3912,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Embora o delegado possua autonomia técnico-investigativa, ele está sujeito a diversos controles: interno (corregedorias), externo (Ministério Público), jurisdicional (Poder Judiciário), além da fiscalização social e de órgãos como TCU e CGU.",
-    "referencia": ""
+    "justificativa": "O documento enfatiza a alta incidência de controles sobre os autos investigativos: internos (corregedorias) e externos (Ministério Público, judiciário e a sociedade), configurando o postulado de que autonomia policial deve sempre laborar em harmonia com a responsabilidade.",
+    "referencia": "(Cap. 4, p. 36)"
   },
   {
     "id": 290,
@@ -3926,8 +3926,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno didático afirma que a investigação de crimes é técnica, isenta, centrada no fato investigado e destinada à busca da verdade, relativa à identificação de autoria, prova da materialidade e circunstâncias de um crime.",
-    "referencia": ""
+    "justificativa": "A apuração persegue uma isenção institucional, garantida pelo princípio da impessoalidade e objetividade, a fim de levantar dados autênticos orientados a conhecer as nuances da conduta delitiva real sem preconceitos e tendências infundadas.",
+    "referencia": "(Cap. 4, p. 34)"
   },
   {
     "id": 291,
@@ -3940,8 +3940,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A investigação policial pode ter início por diversas formas: de ofício pela autoridade policial, por requisição do Ministério Público ou do juiz, por requerimento do ofendido, por auto de prisão em flagrante, entre outras previstas em lei.",
-    "referencia": ""
+    "justificativa": "Em respeito ao dever do Estado em apurar e combater atos ilícitos com sua atuação de ofício, a autoridade policial deve deflagrar investigações imediatamente e conduzir apurações proativas sem depender exclusivamente das requisições ministeriais.",
+    "referencia": "(Cap. 4, p. 37)"
   },
   {
     "id": 292,
@@ -3954,8 +3954,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno registra que o rol de crimes estaduais investigáveis pela PF tem sido ampliado, citando inclusões em 2013, 2015, 2018 e 2024, com a adição de novas modalidades criminosas à Lei nº 10.446/2002.",
-    "referencia": ""
+    "justificativa": "O aparato do Estado se atualiza concomitantemente às transformações criminais. As alterações legislativas introduzidas sucessivamente têm providenciado suporte normativo contínuo que amplia o leque de ilícitos estaduais passíveis de avocações investigativas federais.",
+    "referencia": "(Cap. 4, p. 28)"
   },
   {
     "id": 293,
@@ -3968,8 +3968,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O inquérito policial possui natureza administrativa e pré-processual. Não é fase do processo penal, mas procedimento administrativo destinado a subsidiar a formação da opinio delicti do Ministério Público.",
-    "referencia": ""
+    "justificativa": "A investigação preliminar conduzida pela polícia judiciária possui natureza eminentemente administrativa, consubstanciando-se em uma fase pré-processual. Não constitui o inquérito policial um processo no sentido estrito, pois destina-se primordialmente a coligir elementos de informação para subsidiar o titular da ação penal, sem que nele se exerça função jurisdicional.",
+    "referencia": "(Cap. 5, p. 64)"
   },
   {
     "id": 294,
@@ -3982,8 +3982,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno didático define o inquérito policial como procedimento de natureza administrativa, pré-processual, que visa reunir elementos informativos para subsidiar a decisão do Ministério Público sobre o oferecimento ou não da denúncia.",
-    "referencia": ""
+    "justificativa": "O inquérito policial caracteriza-se como um procedimento oficial de natureza administrativa e pré-processual. Seu caráter é preparatório e visa subsidiar o titular da ação penal na formação de sua opinio delicti, reunindo elementos informativos sobre a materialidade e autoria de uma infração penal.",
+    "referencia": "(Cap. 5, p. 64)"
   },
   {
     "id": 295,
@@ -3996,8 +3996,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O inquérito policial é dispensável para o oferecimento da denúncia. O MP pode oferecer denúncia com base em peças de informação que tragam elementos suficientes de autoria e materialidade, sem necessidade de inquérito prévio.",
-    "referencia": ""
+    "justificativa": "Embora sua instauração seja a regra na prática, o inquérito policial é formalmente dispensável. Nos termos do art. 39, § 5º, do CPP, se o titular da ação penal já possuir elementos de informação (justa causa) suficientes para fundamentar a acusação, poderá oferecer a denúncia ou queixa sem a prévia investigação policial.",
+    "referencia": "(Cap. 5, p. 65)"
   },
   {
     "id": 296,
@@ -4010,8 +4010,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A oficialidade é uma das características do inquérito policial, significando que ele somente pode ser conduzido por órgãos oficiais do Estado, especificamente pela polícia judiciária.",
-    "referencia": ""
+    "justificativa": "A oficialidade é uma característica inerente ao inquérito policial. Como instrumento de persecução penal, consubstancia a atuação estatal e somente pode ser presidido por órgãos de polícia judiciária devidamente constituídos, sob a presidência do Delegado de Polícia, rejeitando-se sua condução por particulares.",
+    "referencia": "(Cap. 5, p. 69)"
   },
   {
     "id": 297,
@@ -4024,8 +4024,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O inquérito policial é imprescritível quanto ao direito de investigar. O que prescreve é a pretensão punitiva estatal. O arquivamento do inquérito pode ocorrer por falta de justa causa, mas não por decadência do direito de investigar em si.",
-    "referencia": ""
+    "justificativa": "O direito de investigar inerente à polícia judiciária tem caráter imprescritível. O que sofre os efeitos temporais é tão somente a pretensão punitiva do Estado. Enquanto não ocorrer a prescrição do delito investigado ou outra causa extintiva de punibilidade, persiste a prerrogativa e o dever estatal de elucidação dos fatos.",
+    "referencia": "(Cap. 5, p. 71)"
   },
   {
     "id": 298,
@@ -4038,8 +4038,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O inquérito policial possui caráter apuratório, pois se destina a investigar e apurar fatos que possam configurar infrações penais, reunindo elementos informativos sobre autoria e materialidade.",
-    "referencia": ""
+    "justificativa": "O inquérito policial possui finalidade estritamente apuratória. Destina-se a colher elementos informativos e probatórios quanto à materialidade e à autoria de determinada infração penal, construindo, assim, o arcabouço da justa causa necessária ao exercício posterior da ação penal.",
+    "referencia": "(Cap. 5, p. 64)"
   },
   {
     "id": 299,
@@ -4052,13 +4052,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A obrigatoriedade é característica do inquérito policial nos crimes de ação penal pública incondicionada, significando que a autoridade policial deve instaurar o inquérito ao tomar conhecimento de fato que configure infração penal.",
-    "referencia": ""
+    "justificativa": "Tratando-se de infração penal sujeita a ação penal pública incondicionada, vige o princípio da obrigatoriedade, não havendo espaço para conveniência ou oportunidade: assim que a autoridade policial toma conhecimento idôneo do crime, possui o dever-poder atrelado de formalizar e deflagrar a respectiva investigação.",
+    "referencia": "(Cap. 5, p. 71)"
   },
   {
     "id": 300,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
     "tipo": "certo_errado",
     "enunciado": "O inquérito policial é um procedimento permanente, que se mantém aberto indefinidamente.",
     "alternativas": {
@@ -4066,8 +4066,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O inquérito policial é transitório, ou seja, tem duração limitada e deve ser encerrado dentro dos prazos legais, sendo remetido ao juiz competente após a conclusão das investigações.",
-    "referencia": ""
+    "justificativa": "O inquérito policial é transitório, ou seja, tem duração limitada e deve ser encerrado dentro dos prazos legais, sendo remetido ao juiz competente após a conclusão das investigaçãoões.",
+    "referencia": "Cap. 5 - Inquérito Policial, p. 76"
   },
   {
     "id": 301,
@@ -4080,8 +4080,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A instauração de ofício, por meio de portaria, é uma das formas legítimas de início do inquérito policial, quando a autoridade policial toma conhecimento de fato que configure infração penal de ação pública.",
-    "referencia": ""
+    "justificativa": "Uma das modalidades legítimas de início do inquérito policial é sua deflagração ex officio pela autoridade policial (via portaria), procedimento imperioso toda vez que houver ciência direta da ocorrência de infração penal revestida de ação penal pública incondicionada.",
+    "referencia": "(Cap. 5, p. 72)"
   },
   {
     "id": 302,
@@ -4094,13 +4094,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Nas situações flagranciais, a instauração do inquérito policial ocorre a partir da lavratura do auto de prisão em flagrante, e não por portaria. A portaria é utilizada nas hipóteses não flagranciais.",
-    "referencia": ""
+    "justificativa": "Nas situações flagranciais, a consolidação da abertura do procedimento investigativo materializa-se diretamente com a lavratura do Auto de Prisão em Flagrante (APF), figurando este como documento inicial deflagrador que dispensa a expedição paralela ou posterior de uma portaria específica.",
+    "referencia": "(Cap. 5, p. 73)"
   },
   {
     "id": 303,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "certo_errado",
     "enunciado": "O delegado de polícia pode emitir juízo de valor no relatório conclusivo do inquérito policial, conforme a Lei nº 12.830/2013.",
     "alternativas": {
@@ -4109,12 +4109,12 @@ const questoesDB = [
     },
     "resposta_correta": "Certo",
     "justificativa": "Após a Lei nº 12.830/2013, tornou-se inequívoco que a autoridade policial exerce atividade técnico-jurídica, podendo emitir juízo de valor no relatório, apreciando tipicidade, excludentes, circunstâncias e repercussões patrimoniais.",
-    "referencia": ""
+    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 99"
   },
   {
     "id": 304,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "certo_errado",
     "enunciado": "A elaboração de relatório meramente remissivo, que se limite a enumerar atos praticados sem análise crítica, é admitida pela IN nº 255/2023-DG/PF.",
     "alternativas": {
@@ -4122,8 +4122,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O art. 85 da IN nº 255/2023-DG/PF expressamente veda a elaboração de relatório meramente remissivo, exigindo verdadeira análise técnico-jurídica da investigação.",
-    "referencia": ""
+    "justificativa": "O art. 85 da IN nº 255/2023-DG/PF expressamente veda a elaboração de relatório meramente remissivo, exigindo verdadeira análise técnico-jurídica da investigaçãoão.",
+    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 99"
   },
   {
     "id": 305,
@@ -4136,8 +4136,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o art. 85 da IN nº 255/2023, o relatório final deve contemplar: fato investigado e circunstâncias; adequação típica, antijuridicidade, culpabilidade e punibilidade; diligências realizadas; materialidade e autoria; reflexos patrimoniais; e conclusões.",
-    "referencia": ""
+    "justificativa": "Nos termos diretivos institucionais (como o art. 85 da IN nº 255/2023-DG/PF), o relatório final corporifica a convicção analítica do Delegado de Polícia, devendo apresentar reflexões contundentes a respeito dos fatos e de sua adequação típica, bem como manifestações sobre antijuridicidade, culpabilidade e elementos da punibilidade.",
+    "referencia": "(Cap. 5, p. 119)"
   },
   {
     "id": 306,
@@ -4150,8 +4150,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O indiciamento é ato privativo do delegado de polícia, que deve ser fundamentado com base em indícios suficientes de autoria e materialidade, conforme a Lei nº 12.830/2013.",
-    "referencia": ""
+    "justificativa": "O indiciamento está atrelado à autonomia técnico-jurídica e consubstancia ato exclusivo e privativo do delegado de polícia, sendo-lhe exigível decisão e despacho fundamentado lastreado em indícios suficientes da autoria delitiva e em provas da materialidade do ilícito.",
+    "referencia": "(Cap. 5, p. 82)"
   },
   {
     "id": 307,
@@ -4164,8 +4164,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme a Lei nº 12.830/2013 e o caderno didático, o indiciamento é ato privativo do delegado de polícia que exige decisão fundamentada acerca da existência de indícios suficientes de autoria e materialidade.",
-    "referencia": ""
+    "justificativa": "O artigo 2º, § 6º, da Lei nº 12.830/2013 estipula irrefutavelmente o indiciamento como prerrogativa afeta de forma exclusiva ao delegado de polícia. Seu preceito exige que a respectiva autoridade fundamente categoricamente seu convencimento na constatação irrefutável da existência do crime (materialidade) amparada por indícios consistentes da sua prática pelo indiciado (autoria).",
+    "referencia": "(Cap. 5, p. 82)"
   },
   {
     "id": 308,
@@ -4178,13 +4178,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona que o STF tem se posicionado, sob a vigência da Lei nº 12.830/2013, no sentido de que não é necessária autorização judicial prévia para a formalização do indiciamento por autoridade policial.",
-    "referencia": ""
+    "justificativa": "Alinhada à referida Lei (12.830/2013), a sedimentada jurisprudência do Supremo Tribunal Federal enaltece a autonomia que ampara a polícia judiciária na análise investigativa, atestando reiteradamente ser despicienda qualquer forma de chancela ou de anuência prévia exarada pelo Poder Judiciário para perfectibilizar o instituto do indiciamento.",
+    "referencia": "(Cap. 5, p. 82)"
   },
   {
     "id": 309,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "certo_errado",
     "enunciado": "A Lei Orgânica Nacional do Ministério Público permite o indiciamento de seus membros pela autoridade policial.",
     "alternativas": {
@@ -4193,7 +4193,7 @@ const questoesDB = [
     },
     "resposta_correta": "Errado",
     "justificativa": "A Lei Orgânica Nacional do Ministério Público, em seu art. 41, inciso II, estabelece expressamente a proibição do indiciamento de seus membros.",
-    "referencia": ""
+    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 90"
   },
   {
     "id": 310,
@@ -4206,8 +4206,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que, nas investigações envolvendo magistrados regidas pela LOMAN, a condução é de competência do Poder Judiciário, e a atuação da PF ocorre exclusivamente mediante delegação do Relator, limitada às diligências determinadas.",
-    "referencia": ""
+    "justificativa": "Ao tratar da responsabilização penal de magistrados submetidos aos ditames da LOMAN (Lei Complementar nº 35/1979), a atribuição processante desdobra-se como um prolongamento das atribuições intrínsecas ao próprio Tribunal de jurisdição ordinária respectiva, relegando à Polícia Federal restrita atuação sob ordens, requisições diretas e rigorosa delegação firmada exclusivamente por seu Relator.",
+    "referencia": "(Cap. 5, p. 78)"
   },
   {
     "id": 311,
@@ -4220,8 +4220,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O inquérito policial pode ser instaurado de diversas formas: de ofício por portaria, por requisição do MP ou do juiz, por requerimento do ofendido, por auto de prisão em flagrante, por notícia-crime, entre outras.",
-    "referencia": ""
+    "justificativa": "A despeito da frequência acentuada da notitia criminis nos balcões de polícias investigativas, trata-se de mero exemplo preambular que induz às investigações. Existem outras variadas modalidades como flagrantes (auto de prisão em flagrante), expedientes diretos promovidos por instâncias judicantes e persecutórias do MP ou requerimentos elaborados legitimamente pelos ofendidos ou eventuais representantes legais.",
+    "referencia": "(Cap. 5, p. 72)"
   },
   {
     "id": 312,
@@ -4234,8 +4234,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A delatio criminis é a comunicação da ocorrência de um crime feita por qualquer do povo à autoridade policial, sendo uma das formas de provocação para instauração do inquérito policial.",
-    "referencia": ""
+    "justificativa": "O instituto conceitual traduzido como delatio criminis refere-se exata e precisamente à notificação a respeito de um fato típico realizada de forma espontânea ou provocada por indivíduo não configurado necessariamente como ofendido formal do evento, podendo ser encabeçada por todo e qualquer ente e membro integrante da sociedade (art. 5º, § 3º do CPP).",
+    "referencia": "(Cap. 5, p. 73)"
   },
   {
     "id": 313,
@@ -4248,8 +4248,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A requisição ministerial tem natureza de determinação, não podendo ser recusada pela autoridade policial. O delegado deve instaurar o inquérito, podendo, contudo, representar contra eventual ilegalidade. Em caso de manifesta ilegalidade, a autoridade policial deve atendê-la, salvo impossibilidade fática ou manifesta ilegalidade.",
-    "referencia": ""
+    "justificativa": "Com expressiva conformidade no universo penal da persecução, a requisição expedida e formulada pelo preceptor institucional (Ministério Público) carrega inarredável valor vinculativo determinativo a ser atendido peremptoriamente, limitando eventual recusa formal estrita e apenas e aos casos de ilicitude manifesta ou insuperabilidade fática material provável, sujeitas ao sistema de conflito de entendimentos, não se admitindo a recusa unicamente com base em entendimentos de conveniência de justa causa.",
+    "referencia": "(Cap. 5, p. 74)"
   },
   {
     "id": 314,
@@ -4262,8 +4262,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A Súmula Vinculante 14 do STF assegura ao defensor o acesso amplo aos elementos de prova já documentados nos autos do inquérito policial, conforme mencionado no caderno didático.",
-    "referencia": ""
+    "justificativa": "Ao proferir e erigir a Súmula Vinculante nº 14, o Egrégio Supremo Tribunal Federal almejou propiciar equanimidade processual às instâncias incipientes e precoces da repressão, estatuindo ao advogado atrelado ao mister da defesa pleno e franqueado direito ao levantamento e pesquisa acerca de todos os elementos documentados sem pendências acautelatórias em trâmite no ambiente do órgão policial.",
+    "referencia": "(Cap. 5, p. 67)"
   },
   {
     "id": 315,
@@ -4276,8 +4276,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno destaca que o encerramento do inquérito não pressupõe necessariamente a colheita exitosa de elementos suficientes. A investigação pode concluir-se sem confirmação da hipótese inicial, por insuficiência probatória ou constatação de atipicidade.",
-    "referencia": ""
+    "justificativa": "A investigação preliminar consubstancia averiguação instrumental sem condicionamento de sucesso probatório. Desse modo, o ocaso investigativo consagra-se não restrito às confirmações, alcançando equitativa importância ao documentar eventual carência de alicerces indicativos da materialidade, demonstrar excludentes evidentes ou impossibilidade inequívoca na definição do infrator, ensejando requerimento de seu arquivamento fundamentado.",
+    "referencia": "(Cap. 5, p. 119)"
   },
   {
     "id": 316,
@@ -4290,8 +4290,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A Súmula 524 do STF estabelece que 'Arquivado o inquérito policial, por despacho do juiz, a requerimento do promotor de justiça, não pode a ação penal ser iniciada sem novas provas.'",
-    "referencia": ""
+    "justificativa": "Estampado e corporificado na esteira dos preceitos do STF, mais notoriamente consubstanciado no verbete da sua Súmula de nº 524, pontua-se peremptoriamente que o reingresso na seara repressiva a partir de pretérita postulação absolutória manifestada via cota arquivadora referendada impõe mandatoriamente o levantamento contundente e acréscimo robusto oriundos de elementos com viés de material probatório novel àquele anterior.",
+    "referencia": "(Cap. 5, p. 121)"
   },
   {
     "id": 317,
@@ -4304,8 +4304,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O arquivamento, como regra, não faz coisa julgada material. Contudo, o STF reconhece coisa julgada material quando o arquivamento estiver fundado na atipicidade da conduta; o STJ amplia essa compreensão também para excludentes de ilicitude.",
-    "referencia": ""
+    "justificativa": "Como regramento preponderante a decisão judicial que defere por ora a paralisação estancadora no procedimento restringe-se a constituir em seu âmago coisa julgada formal limitativa provisória (art. 18 CPP). Excetuam-se contudo hipóteses perante as Cortes estaduais com encerramento gerador de irresolubilidade imutável de efeito erga omnes nos eventuais flagrantes de atipicidade e comprovações de causas extintivas do embate ilícito punível (excludentes de criminalidade material), compondo essas a incidência da preclusão consumativa absoluta (coisa julgada material).",
+    "referencia": "(Cap. 5, p. 122)"
   },
   {
     "id": 318,
@@ -4318,8 +4318,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, o juiz das garantias atua exclusivamente na fase pré-processual, sendo responsável pelo controle da legalidade da investigação e pela tutela dos direitos fundamentais do investigado, sem participar da instrução e julgamento.",
-    "referencia": ""
+    "justificativa": "Projetado com pilar incondicional na robustez do sistema acusatório a Lei 13.964 aduz à figura procedimental o contorno temporal adstrito estritamente às instâncias investigativas pré-denúncia. Ao referido órgão do poder jurisdicional (o de garantias) perfaz competência balizadora inquirida ao respeito de salvaguarda restrita às balizas constitucionais do segregado, abdicando de eventual extensão e incursão da matéria do mérito perante a lide processual formal consolidada perante o juiz natural da causa de sentença.",
+    "referencia": "(Cap. 5, p. 74)"
   },
   {
     "id": 319,
@@ -4332,8 +4332,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O STF, ao julgar as referidas ADIs, declarou a constitucionalidade do instituto do juiz das garantias, conferindo-lhe aplicação obrigatória.",
-    "referencia": ""
+    "justificativa": "As referidas Ações Diretas submetidas ao filtro excelso do Pretório Superior lograram o fim contrário de validarem e chancelarem a constitucionalidade irrestrita do instituto (garantias), pavimentando por conseguinte sua execução peremptória no regimento persecutório das unidades e na observância cogente aos entes do pátrio sistema investigativo.",
+    "referencia": "(Cap. 5, p. 75)"
   },
   {
     "id": 320,
@@ -4346,8 +4346,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno é claro ao afirmar que nem o Poder Judiciário nem o Ministério Público exercem direção sobre os rumos investigativos. O MP atua por meio do controle externo da atividade policial, como fiscal da lei (custos legis).",
-    "referencia": ""
+    "justificativa": "Consoante disposição arquitetada pelo desenho de poderes a presidência material operacional bem como o norte deliberativo no inquérito permanecem adstritos invariavelmente ao delegado. O parquet não atua alinhado nem hierarquiza os trilhos persecutórios estipulados pela delegacia de polícia, sendo sua intromissão adstrita ao patamar de zelador limitativo por fiscalização à posteriori restrito aos preceitos da ordem legal extrínseca limitadora e nunca à conveniência fática intrínseca operacional (custos legis sem subordinação e sem direção ao policial presidido).",
+    "referencia": "(Cap. 5, p. 77)"
   },
   {
     "id": 321,
@@ -4360,8 +4360,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, a atuação do MP no inquérito policial se dá primordialmente por meio do controle externo, na condição de custos legis, verificando a regularidade dos atos e formando sua convicção quanto ao oferecimento da denúncia.",
-    "referencia": ""
+    "justificativa": "Constitucionalmente erigido com tal intento o Ministério Público projeta a totalidade expressiva de seu agir incipiente de forma tangencial abalizando a legalidade perante a esfera pré-judicial. Incumbido do monopólio do controle externo da averiguação do judicatório ele resguarda direitos sensíveis à eventual extrapolação das vias inquisitivas pela postura de fiscal imperativo (custos legis) zelando pela correção e pertinência do agir procedimental que guarnece a delegacia respectiva.",
+    "referencia": "(Cap. 5, p. 77)"
   },
   {
     "id": 322,
@@ -4374,8 +4374,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno confirma que o STF reconheceu a legitimidade da investigação criminal conduzida diretamente pelo órgão ministerial por meio do PIC, embora com consequências institucionais próprias.",
-    "referencia": ""
+    "justificativa": "Dirimindo discursos doutrinários passados, o Pretório Excelso consignou como plenamente lícita e validada pelo arcabouço normativo máximo a via adjacente ou paralela processante promovida singularmente pelo ente de acusação. Tal prerrogativa, chancelada judicialmente, formaliza o reconhecimento estrito pelo Estado da instrumentalidade do Procedimento Investigatório Criminal (PIC), viabilizando sua aptidão no embasamento preambular apuratório da notitia que lhe é apresentada subsidiariamente.",
+    "referencia": "(Cap. 5, p. 78)"
   },
   {
     "id": 323,
@@ -4388,8 +4388,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "As diligências sugeridas pelo MP possuem, em regra, caráter opinativo durante o curso da investigação. A requisição de diligências complementares com caráter vinculante ocorre após o relatório final, quando consideradas imprescindíveis ao oferecimento da denúncia (art. 16 do CPP).",
-    "referencia": ""
+    "justificativa": "Notório destacar que exsurge caráter apenas e tipicamente opinativo aos palpites operacionais intercorrentes emanados pelo titular da penal ao transcorrer inicial ou intermediário da seara repressiva. Eventual imperatividade limitadora adquire feição processual estrita condicionando as pretensões (vinculatividade) apenas quando submetidas sobre a fase superveniente delineadora da finalização procedimental remetida (após encerramento via relatório da polícia judiciária), mediante pleitos e exigências capituladas como inadiáveis por imprescindibilidade a oferta fática no teor do art. 16 do respectivo Código instrumental (CPP).",
+    "referencia": "(Cap. 5, p. 79)"
   },
   {
     "id": 324,
@@ -4402,8 +4402,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que a lógica do sistema acusatório é fundada na separação entre as funções de investigar, acusar e julgar, preservando a imparcialidade dos órgãos envolvidos.",
-    "referencia": ""
+    "justificativa": "Erige-se a lógica imperiosa do preceito de natureza acusatória por primar inexoravelmente sob o distanciamento segregatório na personificação das distintas instâncias. Assegura a integridade procedimental da separação das atuações relativas aos ritos de perseguir indícios preparatórios da polícia, o juízo perante acusação formulada pelo dominus litis e o monopólio meritório garantista imparcial reservado incólume à instância judiciante.",
+    "referencia": "(Cap. 5, p. 64)"
   },
   {
     "id": 325,
@@ -4416,8 +4416,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno afirma que, durante o inquérito policial, a condução da investigação compete exclusivamente à polícia judiciária, sob a presidência do Delegado de Polícia.",
-    "referencia": ""
+    "justificativa": "Exsurge patente a concentração e monopólio legal presidenciável sobre os trâmites do apuratório preliminar do inquérito tão somente pelas forças diretivas do ente de polícia. Não subsiste perante a dogmática brasileira cogestão interinstitucional sob a pauta persecutória das ocorrências, sendo defeso e interditada ingerência que macule a prerrogativa isolada autônoma da presidência policial no trato de seus expedientes diretos.",
+    "referencia": "(Cap. 5, p. 77)"
   },
   {
     "id": 326,
@@ -4430,8 +4430,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno esclarece que a atuação do defensor deve ocorrer dentro dos limites legais, sem obstrução das diligências regularmente determinadas, não se confundindo com ingerência na atividade investigativa.",
-    "referencia": ""
+    "justificativa": "Assegurada premente manifestação defensiva na consecução preparatória do caderno repressor (à luz da Súmula Vinculante referenciada em acesso formal deferido), adverte-se cabalmente à impossibilidade fática desta assistência converter em turbação à fluidez procedimental. Defesa exercida legitima garante direito, mas exorbita do preceituado ao perfilar intentos estagnadores obstaculizando, cerceando táticas intercedendo com tumultos em atos ordinários em estrito e pleno andamento da lide de inquérito.",
+    "referencia": "(Cap. 5, p. 67)"
   },
   {
     "id": 327,
@@ -4444,22 +4444,22 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que as diligências policiais comuns (técnicas ordinárias de investigação) estão, em grande medida, previstas no art. 6º do CPP, incluindo preservação do local, apreensão de objetos, perícias, oitivas, entre outras.",
-    "referencia": ""
+    "justificativa": "Delineada com propósitos inibidores a supressões fáticas perigosas o código adjetivo recheou pontualmente nas alíneas referidas no preceito exposto por seu art. 6º rol robusto e orientativo com as tratativas comumente primárias operacionais a serem seguidas (corpo de delito, perícia, acareação, colheita formal testemunhal oitiva etc), fundamentando-se as chamadas diligências padronizadas (comuns/ordinárias) de trato incipiente obrigatório à Polícia.",
+    "referencia": "(Cap. 5, p. 102)"
   },
   {
     "id": 328,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "certo_errado",
-    "enunciado": "As técnicas especiais de investigação encontram previsão, em regra, no art. 3º da Lei nº 12.850/2013 (Lei de Combate às Organizações Criminosas).",
+    "enunciado": "As técnicas especiais de investigaçãoão encontram previsão, em regra, no art. 3º da Lei nº 12.850/2013 (Lei de Combate às Organizações Criminosas).",
     "alternativas": {
       "Certo": "Certo",
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, as diligências policiais especiais (técnicas especiais de investigação) encontram previsão, em regra, no art. 3º da Lei nº 12.850/2013, incluindo colaboração premiada, captação ambiental, ação controlada, interceptação, entre outras.",
-    "referencia": ""
+    "justificativa": "Conforme o caderno, as diligências policiais especiais (técnicas especiais de investigaçãoão) encontram previsão, em regra, no art. 3º da Lei nº 12.850/2013, incluindo colaboração premiada, captação ambiental, ação controlada, interceptação, entre outras.",
+    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 91"
   },
   {
     "id": 329,
@@ -4472,8 +4472,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A interceptação de comunicações telefônicas e telemáticas é classificada como diligência policial especial (extraordinária), por sua maior complexidade e potencial invasividade.",
-    "referencia": ""
+    "justificativa": "De longe desvinculando de meros procedimentos de simples colheitas probantes as táticas que maculem bens personalíssimos elevados do indivíduo compõe outro seleto rol distinto investigativo extraordinário (especiais ou não convencionais). Destarte face impositiva invasividade das comunicações sigilosas e à estrita obrigatoriedade da precedência motivadora em ressalva judicante perfaz-se de forma inarredável que tais diligências amoldem-se de modo estanque nas restritas classificações das providências não comuns de excepcionalidade persecutória.",
+    "referencia": "(Cap. 5, p. 125)"
   },
   {
     "id": 330,
@@ -4486,8 +4486,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno lista a colaboração premiada, a ação controlada e a infiltração de agentes como técnicas especiais de investigação, previstas na Lei nº 12.850/2013.",
-    "referencia": ""
+    "justificativa": "Disposições inseridas pontualmente como respostas vigorosas sob os meandros sistêmicos elaborados de redes criminais e consolidadas normativamente pela Lei 12.850 consagram ao aparato institucional repressor faculdades não tradicionais em seu enfrentamento tático. A infiltração perene, bem como deferimentos postergadores de flagrância operacional e arregimentação delatadora subsidiária corporificam de jure os pilares atrelados às concebidas medidas excepcionais nominadas como técnicas extraordinárias (especiais) no rol instrutório.",
+    "referencia": "(Cap. 5, p. 121)"
   },
   {
     "id": 331,
@@ -4500,13 +4500,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno afirma que a todos os cargos poderão estar associadas atividades capazes de impactar no correto registro, manuseio e preservação da cadeia de custódia dos vestígios.",
-    "referencia": ""
+    "justificativa": "Ao despontar normativas que atrelam rigidez absoluta de preceitos de manutenções invioláveis nos itens componentes perante trâmites, diluiu-se ao invés de restringir competência o mister atinente. Imputa assim de modo generalista e isonômico a devida conservação isenta sobre o arcabouço fático de preservação aos mais variados cargos indistintamente sem prevalência ou exclusão recaindo com obrigatoriedade isonômica sobre o intermédio manuseador de todo e qualquer perito, delegado, escrivão ou mesmo agente nas lides processantes.",
+    "referencia": "(Cap. 5, p. 173)"
   },
   {
     "id": 332,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "certo_errado",
     "enunciado": "O exame pericial é prerrogativa do Perito Criminal Federal ou do Papiloscopista Policial Federal.",
     "alternativas": {
@@ -4515,7 +4515,7 @@ const questoesDB = [
     },
     "resposta_correta": "Certo",
     "justificativa": "O caderno estabelece que o exame pericial é prerrogativa do Perito Criminal Federal ou do Papiloscopista Policial Federal, requisitado nos casos previstos em lei.",
-    "referencia": ""
+    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 93"
   },
   {
     "id": 333,
@@ -4528,8 +4528,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que a análise de elementos que não demandem expertise técnico-científica formal ou certificação pericial pode ser conduzida por Escrivães e Agentes, nas situações em que a perícia formal não for imperativa.",
-    "referencia": ""
+    "justificativa": "Consubstanciado o deferimento sobre os tramites da repartição dos expedientes no cerne perante as diretrizes preestabelecidas sobre as atuações do labor processante resguarda legitimidade probante nas avaliações que restem incólumes de chancelas acadêmicas rígidas. Elementos componentes sobre os quais as interpretações ou desdobramentos dispensam com absoluta evidência crivo pericial exato podem ser categoricamente destrinchados no relatório secundário analítico da esfera das funções do corpo de Agentes e de Escrivães federais no interesse estrito instrutório procedimental.",
+    "referencia": "(Cap. 5, p. 172)"
   },
   {
     "id": 334,
@@ -4542,8 +4542,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno lista como atribuição do Escrivão de Polícia Federal zelar pela cadeia de custódia dos bens apreendidos, bem como pela conservação e guarda dos mesmos.",
-    "referencia": ""
+    "justificativa": "Conforme o texto oficial, ao Escrivão de Polícia Federal cabe, dentre outras atribuições, zelar pela cadeia de custódia dos bens apreendidos, bem como pela conservação e guarda dos mesmos.",
+    "referencia": "(Cap. 5, p. 92)"
   },
   {
     "id": 335,
@@ -4556,8 +4556,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno estabelece que compete ao Papiloscopista Policial Federal executar procedimentos de reconhecimento, isolamento, fixação, coleta de impressões papilares, realização de exames e emissão de laudos papiloscópicos, representação facial humana e prosopografia.",
-    "referencia": ""
+    "justificativa": "O texto estabelece que compete ao Papiloscopista Policial Federal a realização de exames e emissão de laudos oficiais papiloscópicos, representação facial humana e prosopografia, além de outras funções.",
+    "referencia": "(Cap. 5, p. 92)"
   },
   {
     "id": 336,
@@ -4570,8 +4570,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A atribuição de investigar atos ou fatos que caracterizem infrações penais compete ao Agente de Polícia Federal. Ao Perito Criminal Federal cabe realizar exames periciais, pesquisas científicas e gerenciar bancos de dados periciais.",
-    "referencia": ""
+    "justificativa": "A atribuição de investigar atos ou fatos que caracterizem infrações penais compete ao Agente de Polícia Federal. Ao Perito Criminal Federal, cabe realizar exames periciais em locais de infração penal e pesquisas científicas.",
+    "referencia": "(Cap. 5, p. 92)"
   },
   {
     "id": 337,
@@ -4584,8 +4584,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno destaca que todos os cargos da PF possuem a atribuição genérica de 'executar outras tarefas que lhe forem atribuídas', possibilitando designação para atividades não estritamente previstas para o cargo.",
-    "referencia": ""
+    "justificativa": "O documento destaca que há um ponto em comum entre todos os cargos: a atribuição genérica de 'executar outras tarefas que lhe forem atribuídas', permitindo a designação para atividades que otimizem os recursos humanos.",
+    "referencia": "(Cap. 5, p. 92)"
   },
   {
     "id": 338,
@@ -4598,13 +4598,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, nos casos de notícia-crime envolvendo magistrado ou membro do MP detentor de foro perante Tribunal Superior, a unidade descentralizada deve encaminhar o procedimento à CINQ para realização da remessa ao tribunal competente.",
-    "referencia": ""
+    "justificativa": "Conforme o texto, a Coordenação de Inquéritos nos Tribunais Superiores (CINQ) possui atribuição para atuar perante o STF e STJ, e a unidade descentralizada deve encaminhar o procedimento à CINQ para remessa ao tribunal competente.",
+    "referencia": "(Cap. 5, p. 89)"
   },
   {
     "id": 339,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
     "tipo": "certo_errado",
     "enunciado": "A Resolução nº 881/2024 do Conselho da Justiça Federal regulamenta a tramitação do inquérito policial no âmbito da Justiça Federal após a implementação do juiz das garantias.",
     "alternativas": {
@@ -4613,7 +4613,7 @@ const questoesDB = [
     },
     "resposta_correta": "Certo",
     "justificativa": "Conforme o caderno, com a implementação do juiz das garantias, a tramitação passou a observar as diretrizes da Resolução nº 881/2024 do Conselho da Justiça Federal.",
-    "referencia": ""
+    "referencia": "Cap. 6 - Metodologia da Investigação Policial, p. 99"
   },
   {
     "id": 340,
@@ -4626,8 +4626,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Conforme art. 18 do CPP, após o arquivamento judicial, o Delegado não poderá prosseguir nas investigações sem o surgimento de novas provas.",
-    "referencia": ""
+    "justificativa": "Conforme o texto e o art. 18 do CPP, após o arquivamento judicial do inquérito policial, o delegado não poderá prosseguir nas investigações sem o surgimento de novas provas.",
+    "referencia": "(Cap. 5, p. 81)"
   },
   {
     "id": 341,
@@ -4640,13 +4640,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que a destinação adequada dos bens apreendidos deve ser planejada desde o início do procedimento, com observância da cadeia de custódia e registro nos sistemas oficiais.",
-    "referencia": ""
+    "justificativa": "O texto afirma que a destinação adequada dos bens apreendidos deve ser planejada desde o início do procedimento, com observância da cadeia de custódia e registro nos sistemas oficiais.",
+    "referencia": "(Cap. 5, p. 95)"
   },
   {
     "id": 342,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial (Parte 1)",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias e Ferramentas de Investigação",
     "tipo": "certo_errado",
     "enunciado": "A notícia de fato não flagrancial será cadastrada como 'registro de fato' no sistema oficial de polícia judiciária da PF.",
     "alternativas": {
@@ -4655,7 +4655,7 @@ const questoesDB = [
     },
     "resposta_correta": "Certo",
     "justificativa": "Conforme a IN 255/2023, a notícia de fato não flagrancial será cadastrada como 'registro de fato' no sistema oficial de polícia judiciária, para posterior análise e encaminhamento.",
-    "referencia": ""
+    "referencia": "Cap. 7 - Estratégias e Ferramentas de Investigação, p. 150"
   },
   {
     "id": 343,
@@ -4668,8 +4668,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A construção de hipóteses é etapa fundamental na metodologia investigativa. Sem a formulação de hipótese, a investigação torna-se prospectiva, arrastando tudo e todos em desrespeito aos direitos fundamentais.",
-    "referencia": ""
+    "justificativa": "A construção de hipóteses é etapa fundamental na metodologia investigativa, pois sem ela, a investigação torna-se prospectiva e arrasta tudo e todos em desrespeito aos direitos fundamentais.",
+    "referencia": "(Cap. 6, p. 111)"
   },
   {
     "id": 344,
@@ -4682,8 +4682,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Definido o fato, é necessária a construção de hipóteses que levarão o investigador à delimitação do problema e ao direcionamento de suas ações, visando a confirmação ou refutação daquela hipótese.",
-    "referencia": ""
+    "justificativa": "Definido o fato, é necessária a construção de hipóteses que levarão o investigador à delimitação do problema e ao direcionamento de suas ações visando a confirmação ou refutação.",
+    "referencia": "(Cap. 6, p. 112)"
   },
   {
     "id": 345,
@@ -4696,8 +4696,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno aborda os vieses investigativos, incluindo o viés de confirmação, que é a tendência do investigador de buscar, interpretar e valorar informações de modo a confirmar hipóteses pré-concebidas, ignorando evidências contrárias.",
-    "referencia": ""
+    "justificativa": "O caderno aborda o viés de confirmação como a tendência do investigador de buscar, interpretar e valorar informações de modo a confirmar hipóteses pré-concebidas, ignorando evidências contrárias.",
+    "referencia": "(Cap. 6, p. 109)"
   },
   {
     "id": 346,
@@ -4710,8 +4710,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O viés de ancoragem é abordado no capítulo de metodologia como a tendência de dar peso desproporcional às primeiras informações recebidas, o que pode distorcer o rumo da investigação.",
-    "referencia": ""
+    "justificativa": "O viés de ancoragem é caracterizado pela tendência de se atribuir peso desproporcional às primeiras informações recebidas, o que pode distorcer o rumo da investigação.",
+    "referencia": "(Cap. 6, p. 110)"
   },
   {
     "id": 347,
@@ -4724,8 +4724,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A visão em túnel é um viés cognitivo prejudicial à investigação, pois leva o investigador a focar exclusivamente em uma linha de investigação ou suspeito, ignorando evidências alternativas e comprometendo a objetividade.",
-    "referencia": ""
+    "justificativa": "A visão em túnel não é recomendada, pois é um viés cognitivo que leva o investigador a focar exclusivamente em uma linha de investigação ou suspeito, ignorando evidências alternativas.",
+    "referencia": "(Cap. 6, p. 110)"
   },
   {
     "id": 348,
@@ -4738,8 +4738,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que a checagem é essencial para validar os dados colhidos, podendo levar à conclusão de inexistência do fato ou negação de autoria, evitando acusações infundadas.",
-    "referencia": ""
+    "justificativa": "A checagem é uma etapa metodológica essencial para validar os dados colhidos, podendo evitar acusações infundadas ou certificar a inexistência do fato.",
+    "referencia": "(Cap. 6, p. 108)"
   },
   {
     "id": 349,
@@ -4752,8 +4752,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A investigação policial deve ser objetiva e buscar tanto a confirmação quanto a refutação das hipóteses formuladas. Descartar evidências contraditórias configura viés de confirmação, prática condenada pelo caderno.",
-    "referencia": ""
+    "justificativa": "A investigação deve buscar tanto a confirmação quanto a refutação da hipótese. Ignorar evidências contrárias configura viés de confirmação.",
+    "referencia": "(Cap. 6, p. 109)"
   },
   {
     "id": 350,
@@ -4766,8 +4766,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno estabelece que qualquer método investigativo deve estar fincado em uma base constituída por: a) Fato; b) Hipótese; c) Checagem; d) Conclusão.",
-    "referencia": ""
+    "justificativa": "Segundo o texto, qualquer método investigativo deve basear-se, no mínimo, em fato, hipótese, checagem e conclusão.",
+    "referencia": "(Cap. 6, p. 102)"
   },
   {
     "id": 351,
@@ -4780,8 +4780,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que a ausência de um fato certo e minimamente delimitado torna a investigação centrada em pessoas, violando os princípios do Estado de Direito.",
-    "referencia": ""
+    "justificativa": "O texto alerta que investigar pessoas e não fatos minimamente delimitados viola o Estado Democrático de Direito.",
+    "referencia": "(Cap. 6, p. 104)"
   },
   {
     "id": 352,
@@ -4794,8 +4794,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Embora privilegiando o raciocínio lógico-dedutivo, o caderno admite que indução e criatividade, em certa medida, são aplicáveis face a cenários desconhecidos e inusitados.",
-    "referencia": ""
+    "justificativa": "A indução e a criatividade são, em certa medida, admitidas face a cenários desconhecidos e inusitados, embora se privilegie o raciocínio dedutivo.",
+    "referencia": "(Cap. 6, p. 113)"
   },
   {
     "id": 353,
@@ -4808,8 +4808,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno define a investigação reativa como aquela que começa com a descoberta de um crime já ocorrido, visando identificar suspeitos e fornecer evidências para sustentar uma futura ação penal.",
-    "referencia": ""
+    "justificativa": "A investigação reativa começa a partir da descoberta de um crime já ocorrido, com o objetivo de identificar os suspeitos e embasar a ação penal.",
+    "referencia": "(Cap. 7, p. 120)"
   },
   {
     "id": 354,
@@ -4822,8 +4822,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A investigação proativa se dá a partir da detecção de eventos criminosos que estão ocorrendo naquele momento ou que vão ocorrer em um futuro imediato, diferenciando-se da reativa que trata de crimes já ocorridos.",
-    "referencia": ""
+    "justificativa": "A investigação proativa foca em eventos criminosos que estão ocorrendo ou ocorrerão em um futuro imediato, diferindo da investigação reativa que foca no passado.",
+    "referencia": "(Cap. 7, p. 120)"
   },
   {
     "id": 355,
@@ -4836,8 +4836,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno esclarece que, mesmo na investigação proativa, a PF deve sempre se basear na investigação de fatos e não de pessoas, não se confundindo com investigação prospectiva.",
-    "referencia": ""
+    "justificativa": "O texto deixa claro que a investigação proativa difere da investigação prospectiva, pois se baseia sempre em fatos delimitados e não em pessoas aleatórias.",
+    "referencia": "(Cap. 7, p. 121)"
   },
   {
     "id": 356,
@@ -4850,8 +4850,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno rejeita o fishing expedition como técnica que não pode ser aceita no ordenamento jurídico brasileiro, por ferir as balizas de um processo penal democrático de índole constitucional.",
-    "referencia": ""
+    "justificativa": "A pescaria probatória (fishing expedition) é uma prática rejeitada no ordenamento jurídico brasileiro por ferir os princípios do Estado Democrático de Direito.",
+    "referencia": "(Cap. 7, p. 122)"
   },
   {
     "id": 357,
@@ -4864,8 +4864,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que o crime por excelência que deve ter como ponto de partida a cena do crime é o homicídio.",
-    "referencia": ""
+    "justificativa": "O texto aponta que a cena do crime é ponto de partida fundamental, especialmente em crimes como o homicídio.",
+    "referencia": "(Cap. 7, p. 130)"
   },
   {
     "id": 358,
@@ -4878,8 +4878,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno cita o princípio de Edmond Locard: 'Qualquer um que entra na cena de um crime leva algo da cena consigo e deixa algo de si mesmo para trás', indicando que todo contato humano tem potencial de deixar rastro.",
-    "referencia": ""
+    "justificativa": "O princípio de Edmond Locard estabelece que 'todo contato deixa um rastro', indicando que o autor sempre levará e deixará algo na cena do crime.",
+    "referencia": "(Cap. 7, p. 130)"
   },
   {
     "id": 359,
@@ -4892,8 +4892,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que o princípio da oportunidade prega que o tempo é precioso para alcançar o máximo de informações sobre autoria, materialidade e circunstâncias, pois essas informações irão desaparecendo ao longo do tempo.",
-    "referencia": ""
+    "justificativa": "Segundo o princípio da oportunidade ('golden hour'), o tempo é precioso, visto que informações e vestígios tendem a desaparecer e deteriorar ao longo do tempo.",
+    "referencia": "(Cap. 7, p. 106)"
   },
   {
     "id": 360,
@@ -4906,8 +4906,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno enfatiza que a primeira oportunidade de localizar e recolher material pode ser a única, pois cenas se deterioram, testemunhas contaminam suas lembranças e imagens de CFTV são recicladas.",
-    "referencia": ""
+    "justificativa": "Os policiais devem agir rapidamente, pois a primeira oportunidade para coletar evidências na cena ou em testemunhas pode ser a única antes que se deteriorem ou se contaminem.",
+    "referencia": "(Cap. 7, p. 106)"
   },
   {
     "id": 361,
@@ -4920,8 +4920,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno apresenta as fases da investigação: a) instigação/incitação; b) avaliação preliminar; c) instauração/avaliação investigativa; d) instrução probatória; e) conclusão/encaminhamento ao sistema de justiça criminal.",
-    "referencia": ""
+    "justificativa": "O caderno apresenta como fases da investigação a instigação, a avaliação preliminar, a instauração, a instrução probatória e a conclusão.",
+    "referencia": "(Cap. 7, p. 124)"
   },
   {
     "id": 362,
@@ -4934,8 +4934,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno estabelece que ao tomar ciência de uma notícia-crime, deve-se realizar análise destinada a aferir a relevância, a confiabilidade e a admissibilidade das informações.",
-    "referencia": ""
+    "justificativa": "Para a correta avaliação preliminar de uma notícia-crime, deve-se aferir a relevância, a confiabilidade e a admissibilidade das informações obtidas.",
+    "referencia": "(Cap. 7, p. 125)"
   },
   {
     "id": 363,
@@ -4948,8 +4948,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O F3EAD foi originalmente concebido para aplicação no meio militar, nas Forças Armadas americanas. O F3EAD adaptado é a versão adequada à realidade da investigação policial e ao Estado democrático de direito.",
-    "referencia": ""
+    "justificativa": "O F3EAD foi originalmente desenvolvido e concebido para fins militares pelas Forças Armadas americanas, sendo depois adaptado à investigação policial.",
+    "referencia": "(Cap. 7, p. 135)"
   },
   {
     "id": 364,
@@ -4962,8 +4962,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno explica que o F3EAD consiste em: Find (localizar o alvo), Fix (delimitar área de atuação), Finish (neutralizar/ação), Exploit (explorar dados), Analyze (analisar), Disseminate (difundir resultados).",
-    "referencia": ""
+    "justificativa": "A sigla do método F3EAD significa exatamente Find (localizar), Fix (delimitar), Finish (ação), Exploit (explorar), Analyze (analisar) e Disseminate (difundir resultados).",
+    "referencia": "(Cap. 7, p. 135)"
   },
   {
     "id": 365,
@@ -4976,8 +4976,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme o caderno, o F3EAD é um método que a PF tem usado com mais intensidade notadamente a partir do ano de 2016.",
-    "referencia": ""
+    "justificativa": "Conforme aponta o caderno oficial, o F3EAD é um método que passou a ser utilizado com mais intensidade pela Polícia Federal notadamente a partir do ano de 2016.",
+    "referencia": "(Cap. 7, p. 136)"
   },
   {
     "id": 366,
@@ -4990,8 +4990,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno destaca que a lógica do 'follow the money' é essencial, pois a neutralização dos fluxos financeiros ilícitos constitui estratégia fundamental de enfraquecimento estrutural das redes criminosas.",
-    "referencia": ""
+    "justificativa": "A estratégia 'follow the money' (siga o dinheiro) é considerada fundamental no combate à macrocriminalidade, buscando a neutralização financeira das organizações.",
+    "referencia": "(Cap. 7, p. 137)"
   },
   {
     "id": 367,
@@ -5004,13 +5004,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que a investigação patrimonial assume papel estruturante, voltando-se à identificação, rastreamento e recuperação dos ganhos econômicos obtidos com a prática delitiva.",
-    "referencia": ""
+    "justificativa": "A investigação patrimonial é essencial, voltando-se para identificar, rastrear e promover a recuperação de ganhos econômicos oriundos da criminalidade.",
+    "referencia": "(Cap. 7, p. 137)"
   },
   {
     "id": 368,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação policial",
     "tipo": "certo_errado",
     "enunciado": "O confisco alargado (art. 91-A do CP) incide sobre a diferença patrimonial incompatível com a renda lícita do condenado.",
     "alternativas": {
@@ -5019,7 +5019,7 @@ const questoesDB = [
     },
     "resposta_correta": "Certo",
     "justificativa": "O caderno explica que o confisco alargado (art. 91-A do CP) incide sobre a diferença patrimonial incompatível com a renda lícita do condenado, sendo aplicável a crimes com pena máxima superior a seis anos.",
-    "referencia": ""
+    "referencia": "Cap. 4 - Investigação policial, p. 42"
   },
   {
     "id": 369,
@@ -5032,8 +5032,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O § 3º do art. 91-A do CP determina que a perda deverá ser requerida expressamente pelo MP por ocasião do oferecimento da denúncia, com indicação da diferença patrimonial apurada, não admitindo pedido posterior.",
-    "referencia": ""
+    "justificativa": "O Código Penal estabelece que o pedido de perda alargada (confisco alargado) deve ser requerido expressamente pelo MP no momento do oferecimento da denúncia, não se admitindo em momento posterior.",
+    "referencia": "(Cap. 7, p. 139)"
   },
   {
     "id": 370,
@@ -5046,13 +5046,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que o RE-RA deve ser criado no ePol por despacho do delegado, na primeira oportunidade, sempre que o crime investigado tiver repercussão econômica.",
-    "referencia": ""
+    "justificativa": "Segundo o material, o delegado deve promover a criação do Registro Especial de Recuperação de Ativos (RE-RA) no ePol, na primeira oportunidade, sempre que o crime demonstrar repercussão econômica.",
+    "referencia": "(Cap. 7, p. 141)"
   },
   {
     "id": 371,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 1 - Apresentação",
     "tipo": "certo_errado",
     "enunciado": "A Rede Nacional de Recuperação de Ativos (RECUPERA) é coordenada pela Polícia Federal.",
     "alternativas": {
@@ -5061,7 +5061,7 @@ const questoesDB = [
     },
     "resposta_correta": "Errado",
     "justificativa": "A RECUPERA é coordenada pelo Ministério da Justiça e Segurança Pública, com a participação da Polícia Federal, conforme mencionado no caderno.",
-    "referencia": ""
+    "referencia": "Cap. 1 - Apresentação, p. 4"
   },
   {
     "id": 372,
@@ -5074,8 +5074,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno apresenta o procedimento de recuperação de ativos estruturado em cinco etapas: identificação, apreensão, administração, alienação e destinação.",
-    "referencia": ""
+    "justificativa": "O procedimento de recuperação de ativos é estruturado nas seguintes etapas: identificação, apreensão (ou medidas constritivas), administração, alienação e destinação.",
+    "referencia": "(Cap. 7, p. 142)"
   },
   {
     "id": 373,
@@ -5088,8 +5088,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno define referibilidade como o vínculo entre o patrimônio identificado e o produto/proveito do crime investigado, sendo essencial para garantir a proporcionalidade das medidas cautelares.",
-    "referencia": ""
+    "justificativa": "Correto. De acordo com o texto, o vínculo entre o patrimônio identificado e o produto/proveito do crime investigado é conhecido na doutrina e jurisprudência como 'referibilidade'. A demonstração dessa referibilidade é essencial para garantir a proporcionalidade e a necessidade das medidas cautelares.",
+    "referencia": "(Cap. 7, p. 146)"
   },
   {
     "id": 374,
@@ -5102,8 +5102,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona que o Decreto nº 11.008/2022, que regulamenta o Funapol (Lei Complementar nº 89/1997), admite o retorno de até 90% dos valores apreendidos à instituição.",
-    "referencia": ""
+    "justificativa": "Correto. O texto oficial cita que a regulamentação atual do Funapol, dada pelo Decreto nº 11.008/2022, admite o retorno de até 90% dos valores apreendidos à instituição, compondo uma política de fortalecimento institucional.",
+    "referencia": "(Cap. 7, p. 140)"
   },
   {
     "id": 375,
@@ -5116,8 +5116,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno descreve a estratégia de 1ª Geração como muito influenciada pelas doutrinas de inteligência, com intensivo emprego de interceptação telefônica e alargamento da fase de análise antes da ação.",
-    "referencia": ""
+    "justificativa": "Correto. O texto informa que a estratégia de 1ª Geração era muito influenciada pelas doutrinas de inteligência e consistia num intenso emprego de interceptação telefônica e um alargamento da fase de análise, optando por um ciclo prolongado para desencadear a ação.",
+    "referencia": "(Cap. 7, p. 133)"
   },
   {
     "id": 376,
@@ -5130,8 +5130,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno afirma que o cumprimento de mandados de busca se traduz em uma das técnicas mais intrusivas permitidas pelo Estado na vida do cidadão.",
-    "referencia": ""
+    "justificativa": "Errado. O material de referência ensina que a busca e apreensão se traduz em uma das técnicas mais intrusivas permitidas pelo Estado na vida do cidadão, visto que o Estado exerce força consentida em um de seus espaços mais caros (a sua casa).",
+    "referencia": "(Cap. 7, p. 133)"
   },
   {
     "id": 377,
@@ -5144,8 +5144,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que apenas o delegado de polícia e o representante do MP podem postular a busca e apreensão, e somente à polícia judiciária incumbe dar-lhe o cumprimento.",
-    "referencia": ""
+    "justificativa": "Correto. De acordo com o documento, apenas o delegado de polícia e o representante do Ministério Público podem postular a medida e somente à polícia judiciária incumbe dar-lhe o cumprimento.",
+    "referencia": "(Cap. 7, p. 134)"
   },
   {
     "id": 378,
@@ -5158,8 +5158,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que os dois tipos de investigação não devem ser compreendidos como compartimentos estanques ou categorias excludentes, mas como estratégias que se complementam, podendo haver alternância ou combinação.",
-    "referencia": ""
+    "justificativa": "Correto. O texto afirma que ambos os tipos não devem ser vistos como excludentes ou estanques, mas como estratégias que se complementam, podendo ser alternadas ou combinadas no curso do inquérito policial.",
+    "referencia": "(Cap. 7, p. 123)"
   },
   {
     "id": 379,
@@ -5172,8 +5172,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno alerta que a prova testemunhal exige cautela redobrada, pois relatos podem ser influenciados por interesses pessoais, emoções, percepções subjetivas ou má-fé, devendo ser submetida a critérios rigorosos de validação.",
-    "referencia": ""
+    "justificativa": "Errado. O material didático adverte que a prova testemunhal demanda cautela redobrada e que os relatos podem ser influenciados por emoções, má-fé ou interesses, devendo ser submetida a rigorosos critérios de validação e corroboração.",
+    "referencia": "(Cap. 7, p. 132)"
   },
   {
     "id": 380,
@@ -5186,8 +5186,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno enfatiza que as primeiras horas são fundamentais, pois quanto mais demorada a reação da polícia, maior a possibilidade de perda de material, relatos de testemunhas e outras provas.",
-    "referencia": ""
+    "justificativa": "Correto. As primeiras horas são críticas e fundamentais, de acordo com o texto. Quanto mais o tempo avança, maiores as chances de provas e testemunhos se perderem ou deteriorarem irremediavelmente.",
+    "referencia": "(Cap. 7, p. 126)"
   },
   {
     "id": 381,
@@ -5200,8 +5200,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Nas hipóteses não flagranciais, a instauração formaliza-se por portaria, ato privativo do delegado de polícia federal. O auto de prisão em flagrante é a forma de instauração nas situações flagranciais.",
-    "referencia": ""
+    "justificativa": "Errado. Nas hipóteses não flagranciais a instauração do inquérito formaliza-se por meio de portaria, ato privativo do delegado de polícia federal. O auto de prisão em flagrante só se aplica em situações flagranciais.",
+    "referencia": "(Cap. 7, p. 127)"
   },
   {
     "id": 382,
@@ -5214,8 +5214,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno estabelece que nessa fase deve-se adotar as indagações: o que sei, o que não sei, o que indica e o que contraindica em relação a tempo, local, autoria, participação, circunstâncias e verbo.",
-    "referencia": ""
+    "justificativa": "Correto. O caderno orienta que, após a avaliação preliminar, deve-se adotar as seguintes indagações: o que sei, o que não sei, o que indica e o que contraindica, relacionando-as com as variáveis tempo, local, autoria, participação, circunstâncias e verbo.",
+    "referencia": "(Cap. 7, p. 127)"
   },
   {
     "id": 383,
@@ -5228,8 +5228,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno apresenta quatro modelos: i) unidades generalistas; ii) grandes equipes de inquérito; iii) unidades especializadas em investigações proativas; e iv) atuação em regime de força-tarefa.",
-    "referencia": ""
+    "justificativa": "Correto. A estrutura organizacional atua, como regra, a partir de quatro modelos descritos no texto: unidades generalistas, grandes equipes de inquérito, unidades especializadas em investigações de caráter proativo e atuação em regime de força-tarefa.",
+    "referencia": "(Cap. 8, p. 149)"
   },
   {
     "id": 384,
@@ -5242,8 +5242,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Nas unidades generalistas, os delegados atuam diretamente somente com escrivães, enquanto os demais policiais atuam em grupos especializados como Núcleos Operacionais e Núcleos de Análise.",
-    "referencia": ""
+    "justificativa": "Errado. O material explica que, de forma geral, nas unidades generalistas, os delegados atuam diretamente somente com escrivães. Os demais policiais atuam integrando grupos especializados, comumente divididos em Núcleos Operacionais e Núcleos de Análise.",
+    "referencia": "(Cap. 8, p. 151)"
   },
   {
     "id": 385,
@@ -5256,8 +5256,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O IPO é definido na Portaria DG/PF nº 18.900/2023 como ferramenta de gestão para viabilizar a comparação entre unidades regionais relativamente à execução de atividades operacionais prioritárias.",
-    "referencia": ""
+    "justificativa": "Correto. O IPO é instituído com a finalidade de viabilizar a comparação entre as unidades regionais, aferindo as atividades operacionais e cruzando a quantidade de recursos alocados com os resultados obtidos.",
+    "referencia": "(Cap. 8, p. 157)"
   },
   {
     "id": 386,
@@ -5270,8 +5270,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "Conforme a Portaria DG/PF nº 18.900/2023, o IPO possui indicadores transversais (80% do índice) que refletem aspectos comuns a todas as unidades, e indicadores setoriais (20%) baseados nas particularidades de cada diretoria.",
-    "referencia": ""
+    "justificativa": "Correto. Conforme a Portaria DG/PF nº 18.900/2023, o IPO abrange dois tipos de indicadores: os transversais, valendo 80% e comuns a todas as unidades, e os setoriais, equivalentes a 20%, levando em conta atuações especializadas de cada diretoria.",
+    "referencia": "(Cap. 8, p. 157)"
   },
   {
     "id": 387,
@@ -5284,8 +5284,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A FICCO integra Polícia Federal, Polícia Civil, Polícia Militar, Polícia Rodoviária Federal e Secretaria Nacional de Políticas Penais, funcionando mediante Acordos de Cooperação Técnica.",
-    "referencia": ""
+    "justificativa": "Errado. O texto explica que a FICCO integra a Polícia Federal com outras polícias e instituições estaduais e federais (Polícia Civil, Militar, PRF e SENAPPEN) em atuação conjunta estruturada.",
+    "referencia": "(Cap. 8, p. 155)"
   },
   {
     "id": 388,
@@ -5298,8 +5298,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "A FICCO é iniciativa do Ministério da Justiça e Segurança Pública para integrar forças de segurança públicas federais e estaduais no enfrentamento de organizações criminosas.",
-    "referencia": ""
+    "justificativa": "Correto. O projeto FICCO tem raiz em iniciativa do MJSP com o intuito claro de integrar forças federais e estaduais para coibir e desarticular associações criminosas nos Estados.",
+    "referencia": "(Cap. 8, p. 155)"
   },
   {
     "id": 389,
@@ -5312,8 +5312,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Uma das principais características das grandes equipes de inquérito é o seu caráter temporário, com desmobilização na medida em que as investigações são encerradas.",
-    "referencia": ""
+    "justificativa": "Errado. Segundo o material didático, uma das principais características das grandes equipes de inquérito é precisamente seu caráter temporário, sendo desmobilizadas à medida que a apuração é finalizada.",
+    "referencia": "(Cap. 8, p. 153)"
   },
   {
     "id": 390,
@@ -5326,8 +5326,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona os GISE como unidades que lidam com o problema do tráfico de drogas, sendo um dos modelos de investigação proativa da PF.",
-    "referencia": ""
+    "justificativa": "Correto. A Polícia Federal mantém diversas unidades proativas. Entre elas estão os Grupos de Investigações Sensíveis (Gise), que possuem como finalidade precípua e especializada lidar com o tráfico de drogas e atuar de forma proativa na repressão ao crime organizado associado a este.",
+    "referencia": "(Cap. 8, p. 152)"
   },
   {
     "id": 391,
@@ -5340,8 +5340,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona três diretorias: DICOR (Investigação e Combate ao Crime Organizado e à Corrupção), DAMAZ (Amazônia e Meio Ambiente) e DCIBER (Combate a Crimes Cibernéticos).",
-    "referencia": ""
+    "justificativa": "Correto. Conforme ensina o documento base, a Polícia Federal se estrutura no órgão central tematicamente em três diretorias de polícia judiciária: DICOR, DAMAZ e DCIBER, todas previstas e estabelecidas na IN 270/2023.",
+    "referencia": "(Cap. 8, p. 155)"
   },
   {
     "id": 392,
@@ -5354,8 +5354,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O Prometheus visa desenvolver metodologias de tratamento especial para casuísticas repetitivas, evitando instauração pulverizada de inquéritos e buscando identificar organizações criminosas.",
-    "referencia": ""
+    "justificativa": "Correto. O Prometheus objetiva desenvolver tratamentos metodológicos para investigar crimes em massa (casuísticas repetitivas), obstando a abertura indiscriminada de inquéritos pulverizados que exaurem as equipes de forma desconexa.",
+    "referencia": "(Cap. 8, p. 177)"
   },
   {
     "id": 393,
@@ -5368,8 +5368,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O Prometheus teve origem em 2017 como 'Projeto Prometheus'. Posteriormente, com a Portaria nº 19.022/2024, foi redefinido como programa, dada sua consolidação como metodologia perene.",
-    "referencia": ""
+    "justificativa": "Errado. O Prometheus originou-se como um 'Projeto' em 2017 e assim foi tratado até o final de 2024, quando, diante de sua consolidação e perenidade, a instituição promoveu a sua redefinição formal de Projeto para Programa.",
+    "referencia": "(Cap. 8, p. 177)"
   },
   {
     "id": 394,
@@ -5382,8 +5382,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que é obrigatória a inclusão no Prometheus de todas as investigações que se enquadrem nas casuísticas do programa.",
-    "referencia": ""
+    "justificativa": "Correto. A norma é taxativa ao orientar e ressaltar que a inclusão das investigações no âmbito do programa Prometheus reveste-se de obrigatoriedade caso estas incidam nas casuísticas elencadas no manual.",
+    "referencia": "(Cap. 8, p. 179)"
   },
   {
     "id": 395,
@@ -5396,8 +5396,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O Prometheus prevê a possibilidade de arquivamento mediante inclusão de dados, com cooperação do MPF, que expediu o Enunciado 103 da 2ª Câmara de Coordenação e Revisão orientando sobre essa possibilidade.",
-    "referencia": ""
+    "justificativa": "Correto. Um dos recursos mais inovadores é a capacidade de arquivar preliminarmente com base no cruzamento das informações, decisão que se lastreia em alinhamento entre a PF e o MPF (Enunciado 103).",
+    "referencia": "(Cap. 8, p. 181)"
   },
   {
     "id": 396,
@@ -5410,8 +5410,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "A Portaria expressamente estabelece que 'o tratamento especial de determinada casuística pelo Prometheus não poderá ser utilizado em hipótese alguma para justificar a não realização de uma prisão em flagrante'.",
-    "referencia": ""
+    "justificativa": "Errado. O próprio normativo do Prometheus declara textualmente que o tratamento no programa não poderá jamais ser invocado para eximir a autoridade de consumar ou justificar a não realização do flagrante caso haja a detenção do infrator.",
+    "referencia": "(Cap. 8, p. 182)"
   },
   {
     "id": 397,
@@ -5424,13 +5424,13 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O Projeto TENTÁCULOS centraliza todas as notícias-crime de fraudes bancárias eletrônicas na Base Nacional de Fraudes Bancárias Eletrônicas (Base Tentáculos), para correlacionamento e análise de vínculos.",
-    "referencia": ""
+    "justificativa": "Correto. O Projeto Tentáculos gerencia as comunicações de delitos advindas inicialmente da CEF e depois da FEBRABAN para reuni-las num acervo conhecido como Base Tentáculos de modo a apurar correlações entre os crimes virtuais em vez de processar registros pontuais desconexos.",
+    "referencia": "(Cap. 8, p. 183)"
   },
   {
     "id": 398,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento da Investigação",
     "tipo": "certo_errado",
     "enunciado": "O Projeto TENTÁCULOS foi idealizado no ano de 2007 e implementado com acordo com a CAIXA em 2009.",
     "alternativas": {
@@ -5439,12 +5439,12 @@ const questoesDB = [
     },
     "resposta_correta": "Certo",
     "justificativa": "O caderno registra que o Projeto TENTÁCULOS foi idealizado em 2007 e implementado com a assinatura do Acordo de Cooperação Técnica com a CAIXA em 10 de fevereiro de 2009.",
-    "referencia": ""
+    "referencia": "Cap. 8 - Gerenciamento da Investigação, p. 183"
   },
   {
     "id": 399,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "disciplina": "Investigaçãoão Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento da Investigação",
     "tipo": "certo_errado",
     "enunciado": "O sistema RAPINA é uma ferramenta da PF para armazenamento, análise e cruzamento de informações sobre abuso sexual infantil.",
     "alternativas": {
@@ -5453,7 +5453,7 @@ const questoesDB = [
     },
     "resposta_correta": "Certo",
     "justificativa": "O RAPINA é um software desenvolvido pela PF para armazenar, analisar e cruzar informações dos relatórios do NCMEC sobre abuso sexual infantil.",
-    "referencia": ""
+    "referencia": "Cap. 8 - Gerenciamento da Investigação, p. 186"
   },
   {
     "id": 400,
@@ -5466,8 +5466,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O NCMEC (National Center for Missing and Exploited Children) é uma organização não governamental americana, que recebe reports sobre exploração sexual infantil e compartilha com a PF quando há suspeitos no Brasil.",
-    "referencia": ""
+    "justificativa": "Errado. O material explica que o NCMEC é, na verdade, uma organização não-governamental (sem fins lucrativos) ligada ao Estado Norte-Americano. Quando relatam suspeitos localizados no Brasil, o NCMEC cede ou compartilha os dados da ocorrência à Polícia Federal.",
+    "referencia": "(Cap. 8, p. 186)"
   },
   {
     "id": 401,
@@ -5480,8 +5480,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno define cadeia de custódia como o conjunto de registros cronológicos escritos capazes de garantir a identidade e integridade de um material desde sua identificação em local de interesse.",
-    "referencia": ""
+    "justificativa": "Correto. O texto estabelece explicitamente o conceito de cadeia de custódia como sendo o conjunto metodológico e de registros documentados capaz de zelar tanto pela identidade ininterrupta, quanto pela integridade imutável dos objetos do crime.",
+    "referencia": "(Cap. 8, p. 172)"
   },
   {
     "id": 402,
@@ -5494,8 +5494,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O caderno afirma que a responsabilidade pela manutenção da cadeia de custódia é de todos os policiais que têm algum tipo de contato com o material, não sendo exclusiva de um único profissional.",
-    "referencia": ""
+    "justificativa": "Errado. O caderno frisa que qualquer profissional da segurança ou membro de equipe investigativa que entre em contato e custodie os materiais em alguma fase passa a responder coletivamente com os demais pela manutenção zelosa da cadeia de custódia, e não apenas a perícia.",
+    "referencia": "(Cap. 8, p. 173)"
   },
   {
     "id": 403,
@@ -5508,8 +5508,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno afirma que o gerenciamento de riscos está relacionado à diminuição de incertezas, sendo fundamental que as decisões sejam adotadas com base no máximo de informações alcançáveis.",
-    "referencia": ""
+    "justificativa": "Correto. Segundo o conteúdo exposto, o gerenciamento de riscos baseia-se diretamente na mitigação das incertezas envolvidas em ações ou no ambiente e na máxima reunião possível de dados para resguardar a própria equipe e a operação.",
+    "referencia": "(Cap. 8, p. 167)"
   },
   {
     "id": 404,
@@ -5522,8 +5522,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona que um dos principais indicadores de efetividade da atuação da PF diz respeito ao índice de casos solucionados e sua relação com o número de inquéritos instaurados.",
-    "referencia": ""
+    "justificativa": "Correto. O texto menciona que um dos balizadores diretos para certificar a eficiência de dada unidade passa a ser o cruzamento numérico entre o total de investigações formalmente instituídas (inquéritos) e a taxa daqueles efetivamente elucidados.",
+    "referencia": "(Cap. 8, p. 151)"
   },
   {
     "id": 405,
@@ -5536,8 +5536,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O controle é múltiplo: há controles internos (corregedorias), controle externo (MP), controle jurisdicional (Judiciário), fiscalização da sociedade, do TCU e da CGU.",
-    "referencia": ""
+    "justificativa": "Errado. O controle externo constitui papel basilar do Ministério Público, porém o material lembra expressamente de controles internos (como os desempenhados pela corregedoria) e mesmo as fiscalizações conduzidas por demais instituições do país ou a própria sociedade.",
+    "referencia": "(Cap. 8, p. 170)"
   },
   {
     "id": 406,
@@ -5550,8 +5550,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno define crimes massivos como ocorrências repetidas de prática delitiva em determinada área e período, cujo volume inviabiliza a apuração formal de cada fato individualmente.",
-    "referencia": ""
+    "justificativa": "Correto. O caderno define delitos massivos nos exatos termos em que as repetições avolumadas impõem um esforço material inesgotável caso apurados individualmente de maneira desarticulada com outros fatos de idêntico viés.",
+    "referencia": "(Cap. 8, p. 174)"
   },
   {
     "id": 407,
@@ -5564,8 +5564,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "Há duas possibilidades: operações por cumprimento de mandados judiciais e operações por ações de complexidade extraordinária (como erradicação de plantio ilícito, reintegração de posse, resgate de vítima, etc.).",
-    "referencia": ""
+    "justificativa": "Errado. Embora as ações impulsionadas por mandados deflagrem as principais operações de polícia judiciária, a Portaria prevê a existência de 'operações de polícia judiciária por ações de complexidade extraordinária', que prescindem da emissão prévia de autorizações judiciais.",
+    "referencia": "(Cap. 8, p. 157)"
   },
   {
     "id": 408,
@@ -5578,8 +5578,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno recomenda que o delegado relacione os inquéritos que tramitarão com recursos usuais (processos) e os que serão tratados como prioritários (projetos), com recursos direcionados.",
-    "referencia": ""
+    "justificativa": "Correto. A orientação dada pelo material indica que, do amplo leque procedimental sob a sua responsabilidade, o delegado fará o cotejo identificando casos usuais (processos) dos excepcionais de alto apelo e que merecem reforços (projetos).",
+    "referencia": "(Cap. 8, p. 162)"
   },
   {
     "id": 409,
@@ -5592,8 +5592,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Errado",
-    "justificativa": "O art. 39 da IN 255/2023 estabelece que a intimação pode ser realizada por meio célere e eficaz, como telefone, correio eletrônico ou aplicativos de mensagem instantânea.",
-    "referencia": ""
+    "justificativa": "Errado. Com vista à otimização procedimental na linha recomendada pela IN 255/2023, o ato intimatório é flexível e passível de execução não-presencial por aplicativos ou telefone, desde que efetivo no seu atingimento, prevenindo dispêndios despropositados.",
+    "referencia": "(Cap. 8, p. 161)"
   },
   {
     "id": 410,
@@ -5606,8 +5606,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona que as operações de polícia judiciária são cadastradas e gerenciadas no Sistema Integrado de Gestão e Análise Criminal (Sigacrim).",
-    "referencia": ""
+    "justificativa": "Correto. De acordo com o texto base, \"As operações de polícia judiciária são cadastradas e gerenciadas no Sistema Integrado de Gestão e Análise Criminal – Sigacrim.\"",
+    "referencia": "(Cap. 8, p. 158)"
   },
   {
     "id": 411,
@@ -5620,8 +5620,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno distingue: o chefe é detentor do poder que compele alguém por sua posição ou força; a liderança é a habilidade de influenciar pessoas a trabalharem entusiasticamente para objetivos comuns.",
-    "referencia": ""
+    "justificativa": "Correto. O texto estabelece que \"O chefe é o detentor do poder, que é a faculdade de forçar ou compelir alguém a fazer sua vontade, por causa de sua posição ou força\". Em contrapartida, define liderança como \"a habilidade de influenciar pessoas para trabalharem entusiasticamente visando a atingir os objetivos identificados como sendo para o bem comum\".",
+    "referencia": "(Cap. 8, p. 167)"
   },
   {
     "id": 412,
@@ -5634,8 +5634,8 @@ const questoesDB = [
       "Errado": "Errado"
     },
     "resposta_correta": "Certo",
-    "justificativa": "O caderno menciona a teoria DISC como ferramenta de análise de perfis comportamentais que distingue personalidades em: dominantes, comunicadores, estabilidade e conformidade.",
-    "referencia": ""
+    "justificativa": "Correto. O texto menciona explicitamente a teoria DISC como uma ferramenta para a análise de perfis comportamentais, destacando que ela \"distingue as personalidades em: dominantes, comunicadores, estabilidade e conformidade\".",
+    "referencia": "(Cap. 8, p. 166)"
   },
   {
     "id": "145892",
@@ -5659,7 +5659,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual é a principal função atribuída à Polícia Judiciária no contexto da persecução penal?",
+    "enunciado": "Qual é a principal função atribuída à Polícia Judiciária no contexto da persecuçção penal?",
     "alternativas": {
       "A": "O policiamento ostensivo e a preservação preventiva da ordem pública.",
       "B": "A apuração de infrações penais (materialidade e autoria).",
@@ -5676,7 +5676,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
-    "enunciado": "No contexto da investigação criminal, o termo 'materialidade' refere-se especificamente a:",
+    "enunciado": "No contexto da investigaçãoão criminal, o termo 'materialidade' refere-se especificamente a:",
     "alternativas": {
       "A": "Suspeita de quem foi o responsável por cometer a infração.",
       "B": "Conjunto de bens apreendidos na posse do investigado no momento do flagrante.",
@@ -5685,7 +5685,7 @@ const questoesDB = [
       "E": "Valor monetário estimado dos objetos furtados ou roubados."
     },
     "resposta_correta": "C",
-    "justificativa": "No estudo da investigação, a materialidade consiste na comprovação, muitas vezes por meio de exames periciais, de que o fato criminoso realmente aconteceu.",
+    "justificativa": "No estudo da investigaçãoão, a materialidade consiste na comprovação, muitas vezes por meio de exames periciais, de que o fato criminoso realmente aconteceu.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -5713,13 +5713,13 @@ const questoesDB = [
     "enunciado": "O inquérito policial desempenha um papel de suma importância na fase pré-processual. Ele pode ser adequadamente definido como:",
     "alternativas": {
       "A": "A sentença final emitida pelo juiz de direito para condenar ou absolver o réu.",
-      "B": "A peça escrita que materializa e documenta todas as diligências da investigação policial.",
+      "B": "A peça escrita que materializa e documenta todas as diligências da investigaçãoão policial.",
       "C": "O recurso processual utilizado pela defesa para anular as provas periciais.",
       "D": "O documento que autoriza a prisão em flagrante delito efetuada por qualquer cidadão.",
       "E": "A denúncia ou queixa-crime oferecida direta e obrigatoriamente pelo Ministério Público."
     },
     "resposta_correta": "B",
-    "justificativa": "O inquérito policial é o procedimento administrativo, presidido pelo Delegado de Polícia, que materializa e documenta a investigação, reunindo os elementos de informação de autoria e materialidade.",
+    "justificativa": "O inquérito policial é o procedimento administrativo, presidido pelo Delegado de Polícia, que materializa e documenta a investigaçãoão, reunindo os elementos de informação de autoria e materialidade.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -6016,7 +6016,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Capítulo 3, como atua o perito criminal federal no contexto da investigação?",
+    "enunciado": "Segundo o Capítulo 3, como atua o perito criminal federal no contexto da investigaçãoão?",
     "alternativas": {
       "A": "Como mero investigador de campo subordinado aos agentes.",
       "B": "Como auxiliar da justiça subordinado aos escrivães e delegados.",
@@ -6107,7 +6107,7 @@ const questoesDB = [
       "B": "Um desvio inconsciente.",
       "C": "Uma fraude intencional para beneficiar uma das partes no laudo.",
       "D": "Uma discordância explícita entre peritos sobre o mesmo caso.",
-      "E": "A influência deliberada exercida pela mídia na condução da investigação."
+      "E": "A influência deliberada exercida pela mídia na condução da investigaçãoão."
     },
     "resposta_correta": "B",
     "justificativa": "O texto conceitua o viés cognitivo diretamente como um 'desvio inconsciente'.",
@@ -6118,16 +6118,16 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
-    "enunciado": "Sobre os quesitos formulados na investigação, é correto afirmar que:",
+    "enunciado": "Sobre os quesitos formulados na investigaçãoão, é correto afirmar que:",
     "alternativas": {
       "A": "São dispensáveis caso o perito já saiba do que trata o caso investigado.",
       "B": "Consistem em perguntas retóricas feitas pelo juiz ao perito durante a audiência de instrução.",
-      "C": "São a forma de comunicação entre a investigação e a perícia, devendo ser claros e objetivos.",
+      "C": "São a forma de comunicação entre a investigaçãoão e a perícia, devendo ser claros e objetivos.",
       "D": "Podem ser redigidos de forma ambígua para testar o nível de conhecimento e a atenção do perito.",
       "E": "Representam as conclusões antecipadas elaboradas pela autoridade policial antes da perícia."
     },
     "resposta_correta": "C",
-    "justificativa": "O texto ensina que os quesitos são a forma de comunicação entre a investigação e a perícia, e devem ser claros e objetivos.",
+    "justificativa": "O texto ensina que os quesitos são a forma de comunicação entre a investigaçãoão e a perícia, e devem ser claros e objetivos.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -6208,7 +6208,7 @@ const questoesDB = [
       "A": "Encerrar prematuramente o inquérito policial.",
       "B": "Prevenir arbitrariedades.",
       "C": "Substituir a necessidade de juiz no processo penal.",
-      "D": "Ampliar o escopo das investigações de maneira ilimitada.",
+      "D": "Ampliar o escopo das investigaçãoões de maneira ilimitada.",
       "E": "Transferir a responsabilidade investigativa e de julgamento para o perito."
     },
     "resposta_correta": "B",
@@ -6337,18 +6337,18 @@ const questoesDB = [
   {
     "id": 372819,
     "disciplina": "CRIMINALÍSTICA",
-    "conteudo": "Cap. 4 - O Perito",
+    "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
-    "enunciado": "O impedimento do perito para atuar em um processo baseia-se em razões de qual natureza?",
+    "enunciado": "Como se classificam as provas quanto ao sujeito?",
     "alternativas": {
-      "A": "Razões puramente financeiras.",
-      "B": "Razões subjetivas.",
-      "C": "Razões objetivas.",
-      "D": "Razões políticas.",
-      "E": "Razões éticas não listadas na legislação."
+      "A": "Pessoais ou Reais.",
+      "B": "Direta ou Indireta.",
+      "C": "Testemunhal, Documental ou Material.",
+      "D": "Objetivas ou Subjetivas.",
+      "E": "Físicas ou Lógicas."
     },
-    "resposta_correta": "C",
-    "justificativa": "O texto indica claramente: 'Impedimento: razões objetivas'.",
+    "resposta_correta": "A",
+    "justificativa": "O texto informa a classificação das provas 'Quanto ao sujeito (Pessoais ou Reais)'.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -6371,18 +6371,18 @@ const questoesDB = [
   {
     "id": 928374,
     "disciplina": "CRIMINALÍSTICA",
-    "conteudo": "Cap. 4 - O Perito",
+    "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das seguintes situações configura hipótese de impedimento do perito baseada em características pessoais indicadas no texto?",
+    "enunciado": "A expressão latina 'corpus instrumentorum' é citada no resumo estudado. A qual conceito de vital importância pericial ela está diretamente associada no texto?",
     "alternativas": {
-      "A": "Ser maior de 65 anos.",
-      "B": "Ser analfabeto ou menor de 21 anos.",
-      "C": "Ter apenas graduação incompleta.",
-      "D": "Ser estrangeiro naturalizado.",
-      "E": "Não possuir residência fixa na comarca."
+      "A": "Ao corpo de vítimas que não resistiram às lesões do delito.",
+      "B": "Ao conjunto de instrumentos utilizados exclusivamente pela equipe pericial.",
+      "C": "Aos laudos e relatórios documentais elaborados nas delegacias.",
+      "D": "Ao colegiado formador do corpo de jurados de um tribunal.",
+      "E": "A um dos elementos que integram o conjunto de vestígios formador do corpo de delito."
     },
-    "resposta_correta": "B",
-    "justificativa": "O texto arrola a condição de ser 'analfabeto ou menor de 21 anos' como motivos objetivos de impedimento.",
+    "resposta_correta": "E",
+    "justificativa": "A expressão 'corpus instrumentorum' é citada entre parênteses como parte constituinte do 'conjunto de vestígios' que forma o Corpo de Delito.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -6747,7 +6747,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
-    "enunciado": "Tendo em vista a finalidade do Inquérito Policial (conforme o art. 5º do CPP), qual é a sua correlação direta com a investigação criminal?",
+    "enunciado": "Tendo em vista a finalidade do Inquérito Policial (conforme o art. 5º do CPP), qual é a sua correlação direta com a investigaçãoão criminal?",
     "alternativas": {
       "A": "É a fase processual na qual o juiz profere a sentença e condena o investigado.",
       "B": "É o instrumento estritamente verbal, sem registros formais, utilizado para orientar o policiamento.",
@@ -6756,7 +6756,7 @@ const questoesDB = [
       "E": "É uma fase dispensável que serve apenas para aplicar multas e sanções administrativas imediatas."
     },
     "resposta_correta": "C",
-    "justificativa": "O inquérito policial tem a função de materializar e documentar a investigação preliminar, buscando apurar infrações penais (materialidade) e sua autoria.",
+    "justificativa": "O inquérito policial tem a função de materializar e documentar a investigaçãoão preliminar, buscando apurar infrações penais (materialidade) e sua autoria.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -6815,7 +6815,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
-    "enunciado": "Dentro da estrutura legal do processo penal brasileiro e do papel das polícias, a investigação de infrações penais é documentada num procedimento preparatório denominado:",
+    "enunciado": "Dentro da estrutura legal do processo penal brasileiro e do papel das polícias, a investigaçãoão de infrações penais é documentada num procedimento preparatório denominado:",
     "alternativas": {
       "A": "Mandado de Busca e Apreensão Cautelar.",
       "B": "Ação Penal Pública Incondicionada.",
@@ -6832,7 +6832,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
-    "enunciado": "Considerando os elementos-chave de uma investigação policial, a prova da existência real de um crime e a busca de identificar os agentes criminosos correspondem, respectivamente, a:",
+    "enunciado": "Considerando os elementos-chave de uma investigaçãoão policial, a prova da existência real de um crime e a busca de identificar os agentes criminosos correspondem, respectivamente, a:",
     "alternativas": {
       "A": "Flagrante delito e dolo eventual.",
       "B": "Condenação em primeira instância e tipicidade.",
@@ -6872,7 +6872,7 @@ const questoesDB = [
       "B": "Tem entre suas incumbências a apuração de infrações penais de sua alçada.",
       "C": "Exerce, com exclusividade, as funções de polícia judiciária da União.",
       "D": "Trata-se de instituição subordinada aos prefeitos municipais para atuar ostensivamente.",
-      "E": "Realiza investigações que visam apurar materialidade e autoria delitiva na esfera federal."
+      "E": "Realiza investigaçãoões que visam apurar materialidade e autoria delitiva na esfera federal."
     },
     "resposta_correta": "D",
     "justificativa": "A Polícia Federal é um órgão mantido pela União (âmbito federal) e não possui subordinação a prefeitos, tampouco a sua função primária é o policiamento ostensivo geral urbano das cidades.",
@@ -6883,11 +6883,11 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
-    "enunciado": "O Inquérito Policial, peça fundamental na persecução penal do Estado, possui natureza essencialmente:",
+    "enunciado": "O Inquérito Policial, peça fundamental na persecuçção penal do Estado, possui natureza essencialmente:",
     "alternativas": {
       "A": "Acusatória, sendo dispensável qualquer outra prova na fase judicial.",
       "B": "Pré-processual, funcionando como o meio de documentação e apuração da Polícia Judiciária.",
-      "C": "Sentencial, por meio do qual o juiz estabelece a pena definitiva ao fim da investigação.",
+      "C": "Sentencial, por meio do qual o juiz estabelece a pena definitiva ao fim da investigaçãoão.",
       "D": "Legislativa, formulando normas que tipificam crimes locais.",
       "E": "Exclusivamente militar e regido pelos tribunais de exceção."
     },
@@ -6926,7 +6926,7 @@ const questoesDB = [
       "E": "Expedir multas administrativas ou advertências a contraventores civis."
     },
     "resposta_correta": "C",
-    "justificativa": "A finalidade central do trabalho pericial criminalístico no bojo da investigação policial é demonstrar e provar a materialidade delitiva por intermédio dos vestígios encontrados.",
+    "justificativa": "A finalidade central do trabalho pericial criminalístico no bojo da investigaçãoão policial é demonstrar e provar a materialidade delitiva por intermédio dos vestígios encontrados.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -6943,7 +6943,7 @@ const questoesDB = [
       "E": "Secretaria Especial da Receita Federal."
     },
     "resposta_correta": "A",
-    "justificativa": "Conforme disposto no art. 144, § 1º, inciso IV, da Constituição Federal, a Polícia Federal exerce com exclusividade a função de polícia judiciária da União, cabendo a ela a investigação nesse escopo.",
+    "justificativa": "Conforme disposto no art. 144, § 1º, inciso IV, da Constituição Federal, a Polícia Federal exerce com exclusividade a função de polícia judiciária da União, cabendo a ela a investigaçãoão nesse escopo.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -6951,7 +6951,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 1 - O Contexto de inserção da Criminalística A Polícia",
     "tipo": "multipla_escolha",
-    "enunciado": "Quando investigadores da Polícia Judiciária identificam evidências que comprovam a falsificação de um lote de documentos (prova do fato criminoso), eles estão estabelecendo qual pilar da investigação?",
+    "enunciado": "Quando investigadores da Polícia Judiciária identificam evidências que comprovam a falsificação de um lote de documentos (prova do fato criminoso), eles estão estabelecendo qual pilar da investigaçãoão?",
     "alternativas": {
       "A": "A Autoria indireta do crime.",
       "B": "A Confissão sumária dos criminosos.",
@@ -6977,7 +6977,7 @@ const questoesDB = [
       "E": "A sanção penal máxima e o regime prisional fechado adequado."
     },
     "resposta_correta": "C",
-    "justificativa": "Toda investigação policial tem como fim primordial colher e documentar indícios suficientes de autoria e comprovar a materialidade do fato típico e antijurídico.",
+    "justificativa": "Toda investigaçãoão policial tem como fim primordial colher e documentar indícios suficientes de autoria e comprovar a materialidade do fato típico e antijurídico.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -7143,7 +7143,7 @@ const questoesDB = [
       "A": "Prisão, julgamento e condenação.",
       "B": "Reconhecimento, coleta e exame de vestígios.",
       "C": "Análise de DNA, toxicologia e necropsia.",
-      "D": "Investigação, interrogatório e delação.",
+      "D": "Investigaçãoão, interrogatório e delação.",
       "E": "Preservação, isolamento e perícia contábil."
     },
     "resposta_correta": "B",
@@ -7245,7 +7245,7 @@ const questoesDB = [
       "A": "Análise de laboratório e trabalho de campo.",
       "B": "Regime de expediente interno e diligências.",
       "C": "Sobreaviso e flagrante.",
-      "D": "Investigação preventiva e repressiva.",
+      "D": "Investigaçãoão preventiva e repressiva.",
       "E": "Atuação técnica e atuação tática policial."
     },
     "resposta_correta": "C",
@@ -7291,7 +7291,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual é o instrumento formal utilizado como forma de comunicação direta entre a investigação e a perícia?",
+    "enunciado": "Qual é o instrumento formal utilizado como forma de comunicação direta entre a investigaçãoão e a perícia?",
     "alternativas": {
       "A": "O mandado de busca e apreensão.",
       "B": "O relatório de local de crime.",
@@ -7300,7 +7300,7 @@ const questoesDB = [
       "E": "O histórico descritivo do laudo."
     },
     "resposta_correta": "C",
-    "justificativa": "O texto deixa claro que 'os quesitos são a forma de comunicação entre a investigação e a perícia'.",
+    "justificativa": "O texto deixa claro que 'os quesitos são a forma de comunicação entre a investigaçãoão e a perícia'.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -7376,7 +7376,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
-    "enunciado": "Para que a comunicação entre a investigação e a perícia seja eficiente, o texto determina que os quesitos possuam duas características fundamentais. Quais são elas?",
+    "enunciado": "Para que a comunicação entre a investigaçãoão e a perícia seja eficiente, o texto determina que os quesitos possuam duas características fundamentais. Quais são elas?",
     "alternativas": {
       "A": "Extensos e detalhados.",
       "B": "Altamente técnicos e subjetivos.",
@@ -7396,7 +7396,7 @@ const questoesDB = [
     "enunciado": "De acordo com a parte final do texto, a elaboração rigorosa do laudo pericial desempenha um papel protetivo no âmbito processual. O que o laudo busca prevenir?",
     "alternativas": {
       "A": "O excesso de recursos e apelações judiciais.",
-      "B": "O atraso indesejado nas investigações policiais.",
+      "B": "O atraso indesejado nas investigaçãoões policiais.",
       "C": "Arbitrariedades.",
       "D": "A formulação de quesitos adicionais e complementares pelas partes.",
       "E": "A quebra acidental da cadeia de custódia por agentes externos."
@@ -7427,7 +7427,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
-    "enunciado": "O Perito Criminal Federal, no exercício de suas funções na investigação, deve aplicar seus conhecimentos agindo primariamente como um:",
+    "enunciado": "O Perito Criminal Federal, no exercício de suas funções na investigaçãoão, deve aplicar seus conhecimentos agindo primariamente como um:",
     "alternativas": {
       "A": "Delegado de polícia adjunto em cenas de crime complexas.",
       "B": "Promotor de justiça investigativo em campo.",
@@ -7461,7 +7461,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica",
     "tipo": "multipla_escolha",
-    "enunciado": "A integração científica na investigação criminal é descrita no Capítulo 3 como um processo de atuação metódica executado pelo perito. Assinale a alternativa que representa as bases dessa integração:",
+    "enunciado": "A integração científica na investigaçãoão criminal é descrita no Capítulo 3 como um processo de atuação metódica executado pelo perito. Assinale a alternativa que representa as bases dessa integração:",
     "alternativas": {
       "A": "Isolar totalmente o local de crime e fotografar vestígios aparentes.",
       "B": "Formular hipóteses e testar laboratorialmente.",
@@ -7561,18 +7561,18 @@ const questoesDB = [
   {
     "id": 748291,
     "disciplina": "CRIMINALÍSTICA",
-    "conteudo": "Cap. 4 - O Perito",
+    "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
-    "enunciado": "Um indivíduo foi nomeado como perito não oficial para atuar em uma investigação. Quais são as duas obrigações centrais expressas no texto para que ele atue?",
+    "enunciado": "Segundo as disposições do texto, a determinação de que o exame de corpo de delito é indispensável para crimes que deixam vestígios está embasada em qual dispositivo normativo?",
     "alternativas": {
-      "A": "Ter nível médio e registro no conselho de classe.",
-      "B": "Ter nível superior e prestar compromisso.",
-      "C": "Pagar taxa judicial e ter mais de 30 anos.",
-      "D": "Ter pós-graduação stricto sensu e residência fixa.",
-      "E": "Não ter antecedentes criminais e comprovar renda."
+      "A": "No Artigo 167 do Código Penal (CP).",
+      "B": "No princípio geral do in dubio pro reo.",
+      "C": "No Artigo 158 do Código de Processo Penal (CPP).",
+      "D": "Exclusivamente na jurisprudência dos Tribunais Superiores.",
+      "E": "Em cláusula pétrea da Constituição Federal."
     },
-    "resposta_correta": "B",
-    "justificativa": "Para o perito não oficial atuar, o texto ressalta que ele 'precisa ter nível superior e presta compromisso'.",
+    "resposta_correta": "C",
+    "justificativa": "O texto cita expressamente: 'Exame de corpo de delito (art 158 CPP) é indispensável para crimes que deixam vestígios'.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -7595,18 +7595,18 @@ const questoesDB = [
   {
     "id": 837192,
     "disciplina": "CRIMINALÍSTICA",
-    "conteudo": "Cap. 4 - O Perito",
+    "conteudo": "Cap. 5 - A prova",
     "tipo": "multipla_escolha",
-    "enunciado": "Se for descoberto que o perito nomeado é credor de um dos investigados, qual instituto jurídico o afasta da função segundo o texto?",
+    "enunciado": "Para a Criminalística, o 'corpo de delito' não é apenas o cadáver da vítima. Conforme o texto, quais são os elementos constitutivos que formam o conjunto do corpo de delito?",
     "alternativas": {
-      "A": "Preclusão processual.",
-      "B": "Impedimento (razão objetiva).",
-      "C": "Suspeição (razão subjetiva).",
-      "D": "Indenização compensatória.",
-      "E": "Exceção de incompetência."
+      "A": "A testemunha, a confissão do réu e o laudo médico final.",
+      "B": "Os sinais, o produto e o corpus instrumentorum.",
+      "C": "O álibi plausível, as pegadas no local e a amostra de sangue.",
+      "D": "As provas diretas, indiretas e circunstanciais colhidas.",
+      "E": "A prova do fato, a identificação da autoria e o estabelecimento da materialidade."
     },
-    "resposta_correta": "C",
-    "justificativa": "Ser 'devedor ou credor' de uma das partes enquadra-se expressamente como 'Suspeição: razões subjetivas'.",
+    "resposta_correta": "B",
+    "justificativa": "O texto oferece uma definição exata: 'Corpo de delito é o conjunto de vestígios (sinais, produto, corpus instrumentorum)'.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -7837,7 +7837,7 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Logo em sua definição inicial, o texto afirma categoricamente que a prova possui a função primária de:",
     "alternativas": {
-      "A": "Substituir a investigação policial e o inquérito.",
+      "A": "Substituir a investigaçãoão policial e o inquérito.",
       "B": "Atestar a veracidade.",
       "C": "Garantir a confissão do suspeito a qualquer custo.",
       "D": "Dispensar o trabalho do perito criminal nos locais de crime.",
@@ -8198,7 +8198,7 @@ const questoesDB = [
       "B": "Servir exclusivamente para a elaboração de estatísticas criminais.",
       "C": "Funcionar como matéria-prima na produção da prova material.",
       "D": "Fornecer uma identificação imediata e inquestionável do autor do delito.",
-      "E": "Despistar as investigações quando mal interpretados pelo perito."
+      "E": "Despistar as investigaçãoões quando mal interpretados pelo perito."
     },
     "resposta_correta": "C",
     "justificativa": "O texto afirma que 'Para a Criminalística, vestígios são elementos materiais que se relacionam com o crime... que servem como matéria prima na produção da prova material.'",
@@ -8269,7 +8269,7 @@ const questoesDB = [
       "E": "Forjado."
     },
     "resposta_correta": "E",
-    "justificativa": "Vestígios forjados são aqueles 'que o autor do crime prepara, intencionalmente, com o objetivo de desviar a atenção da investigação'. São as evidências 'plantadas'.",
+    "justificativa": "Vestígios forjados são aqueles 'que o autor do crime prepara, intencionalmente, com o objetivo de desviar a atenção da investigaçãoão'. São as evidências 'plantadas'.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -8281,12 +8281,12 @@ const questoesDB = [
     "alternativas": {
       "A": "O autor do crime introduz de propósito no local para confessar a autoria.",
       "B": "Estão no local de forma natural e por acaso, sem relação com a infração.",
-      "C": "Têm relação com os fatos em investigação por serem resultado da ação ou omissão do autor.",
+      "C": "Têm relação com os fatos em investigaçãoão por serem resultado da ação ou omissão do autor.",
       "D": "Dependem exclusivamente do depoimento da vítima para existirem materialmente.",
       "E": "Não possuem capacidade de levar à elucidação do crime devido à sua natureza microscópica."
     },
     "resposta_correta": "C",
-    "justificativa": "Vestígios verdadeiros são 'aqueles que têm relação com os fatos em investigação, por serem resultado da ação ou omissão do autor e cuja interpretação correta pode levar à elucidação do crime'.",
+    "justificativa": "Vestígios verdadeiros são 'aqueles que têm relação com os fatos em investigaçãoão, por serem resultado da ação ou omissão do autor e cuja interpretação correta pode levar à elucidação do crime'.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -8299,7 +8299,7 @@ const questoesDB = [
       "A": "Descartá-las imediatamente, pois não guardam relação com a autoria.",
       "B": "Ignorá-las, pois não pertencem ao cenário original do crime.",
       "C": "Investigá-las, pois não se deve desprezar nada no local e podem evidenciar alguma pista do verdadeiro autor.",
-      "D": "Destruí-las para não comprometer a investigação principal.",
+      "D": "Destruí-las para não comprometer a investigaçãoão principal.",
       "E": "Focar apenas nos vestígios ilusórios, que têm maior probabilidade de serem úteis."
     },
     "resposta_correta": "C",
@@ -8385,7 +8385,7 @@ const questoesDB = [
       "B": "São vestígios que guardam relação absoluta com o fato, mas não com a origem.",
       "C": "São aqueles que permitem a identificação imediata da sua fonte.",
       "D": "São aqueles que não guardam relação absoluta identificável de pronto com a origem, estabelecendo-se de forma indireta.",
-      "E": "São vestígios encontrados por acaso e que não demandam investigação."
+      "E": "São vestígios encontrados por acaso e que não demandam investigaçãoão."
     },
     "resposta_correta": "D",
     "justificativa": "Vestígios relativos são 'aqueles que não guardam relação absoluta, identificável de pronto com a origem. A relação pode ser estabelecida de forma indireta.'",
@@ -8430,7 +8430,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "tipo": "multipla_escolha",
-    "enunciado": "Em uma investigação de local de morte violenta, uma bituca de cigarro é encontrada a metros do corpo. Os peritos dedicam horas analisando a bituca, até descobrirem, por depoimentos, que um transeunte a jogou ali poucas horas antes do isolamento do local, não tendo nada a ver com o crime. Este é o conceito prático de qual tipo de vestígio, segundo sua relação com o fato?",
+    "enunciado": "Em uma investigaçãoão de local de morte violenta, uma bituca de cigarro é encontrada a metros do corpo. Os peritos dedicam horas analisando a bituca, até descobrirem, por depoimentos, que um transeunte a jogou ali poucas horas antes do isolamento do local, não tendo nada a ver com o crime. Este é o conceito prático de qual tipo de vestígio, segundo sua relação com o fato?",
     "alternativas": {
       "A": "Vestígio Absoluto.",
       "B": "Vestígio Verdadeiro.",
@@ -8639,7 +8639,7 @@ const questoesDB = [
       "A": "Provas materiais incontestáveis de autoria.",
       "B": "Vestígios materiais que demandam análise pericial.",
       "C": "Indícios circunstanciais contra o inimigo vivo.",
-      "D": "Provas testemunhais irrelevantes para a investigação.",
+      "D": "Provas testemunhais irrelevantes para a investigaçãoão.",
       "E": "Provas plenas que dispensam qualquer outro tipo de exame."
     },
     "resposta_correta": "C",
@@ -8689,7 +8689,7 @@ const questoesDB = [
     "alternativas": {
       "A": "Plenas, garantindo a condenação do suspeito.",
       "B": "Fortes indícios de autoria, mas que ainda não são provas plenas e definitivas.",
-      "C": "Inexistentes, devendo a investigação ser arquivada imediatamente.",
+      "C": "Inexistentes, devendo a investigaçãoão ser arquivada imediatamente.",
       "D": "Suficientes apenas para crimes culposos, mas não dolosos.",
       "E": "Definitivas, pois a prova material sobrepõe-se à ausência de testemunhas."
     },
@@ -9098,7 +9098,7 @@ const questoesDB = [
       "A": "A avaliação será obrigatoriamente dispensada e extinta do rito processual.",
       "B": "O juiz fixará o valor baseado no salário mínimo vigente.",
       "C": "A avaliação será feita de forma indireta, com base em informações dos autos ou diligências.",
-      "D": "Será instaurado inquérito exclusivo para achar os bens e avaliar presencialmente.",
+      "D": "Será instauraçdo inquérito exclusivo para achar os bens e avaliar presencialmente.",
       "E": "Presume-se como valor de mercado irrisório, a favor do réu."
     },
     "resposta_correta": "C",
@@ -9161,7 +9161,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo a doutrina (Mirabete) citada no material, um evento de incêndio sob investigação pericial pode caracterizar diversos crimes, tais como:",
+    "enunciado": "Segundo a doutrina (Mirabete) citada no material, um evento de incêndio sob investigaçãoão pericial pode caracterizar diversos crimes, tais como:",
     "alternativas": {
       "A": "Apenas o crime puro e simples de incêndio doloso consumado.",
       "B": "Unicamente crime contra a economia popular e o sistema financeiro.",
@@ -9214,7 +9214,7 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o art. 174 do CPP, o que a autoridade deve providenciar se os documentos fornecidos para comparação em exame de escritos forem considerados insuficientes?",
     "alternativas": {
-      "A": "Encerrar a investigação por falta de provas.",
+      "A": "Encerrar a investigaçãoão por falta de provas.",
       "B": "Condenar a pessoa liminarmente por obstrução de justiça.",
       "C": "A autoridade mandará que a pessoa escreva o que lhe for ditado.",
       "D": "Busca-se padrões na internet de outros familiares da pessoa.",
@@ -9280,7 +9280,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 8 - Exame pericial",
     "tipo": "multipla_escolha",
-    "enunciado": "Verificada a existência de omissões, obscuridades ou contradições no laudo assinado pelos peritos, a autoridade judiciária competente (art. 181 do CPP):",
+    "enunciado": "Verificada a existência de omissões, obscuridades ou contradiçções no laudo assinado pelos peritos, a autoridade judiciária competente (art. 181 do CPP):",
     "alternativas": {
       "A": "Invalidará a fase instrutória inteira.",
       "B": "Declarará o perdão judicial por falta de capacidade do Estado de produzir prova material coerente.",
@@ -9439,7 +9439,7 @@ const questoesDB = [
       "B": "Descrever minuciosamente o que examinarem e responder aos quesitos formulados.",
       "C": "Responder apenas aos quesitos formulados pela defesa, sendo facultativo os da acusação.",
       "D": "Apresentar a sentença final do caso de forma técnica e irrefutável.",
-      "E": "Descrever superficialmente os vestígios para garantir o sigilo das investigações."
+      "E": "Descrever superficialmente os vestígios para garantir o sigilo das investigaçãoões."
     },
     "resposta_correta": "B",
     "justificativa": "O art. 160 do CPP regulamenta expressamente que 'os peritos elaborarão o laudo pericial, onde descreverão minuciosamente o que examinarem, e responderão aos quesitos formulados'.",
@@ -9778,7 +9778,7 @@ const questoesDB = [
       "A": "Exacerbadamente subjetiva, encontrando guarida probatória apenas na inabalável convicção íntima construída pelo perito ao longo de sua trajetória profissional.",
       "B": "Inevitavelmente alongada, acentuadamente prolixa e recheada de teses especulativas acadêmicas desprovidas de imediata comprovação palpável e fática.",
       "C": "Sintetizadora, objetiva e inequivocamente clara quanto ao resultado técnico apurado no iter metodológico desenvolvido.",
-      "D": "Inarredavelmente inconclusiva, traço desejável que impulsionará um profícuo contraditório e propiciará exaustivos debates no cerimonial do tribunal popular do júri.",
+      "D": "Inarredavelmente inconclusiva, traço desejável que impulsionará um profícuo contradiçtório e propiciará exaustivos debates no cerimonial do tribunal popular do júri.",
       "E": "Tratada sob um prisma meramente estatístico e voltada a nutrir os incipientes bancos de dados governamentais atinentes aos indicadores socioeconômicos criminais."
     },
     "resposta_correta": "C",
@@ -9829,7 +9829,7 @@ const questoesDB = [
       "A": "O veredito do laudo de corpo de delito, conjugado invariavelmente ao valor taxativo recolhido financeiramente em guias de custas para concretização pecuniária estatal da referida perícia requerida.",
       "B": "Nome completo e escorreito da autoridade requisitante, correlacionado estritamente com os respectivos dígitos e datas de lavratura do protocolo de recebimento burocrático inicial.",
       "C": "O depoimento sigiloso reduzido a termo e anexado integralmente ao procedimento de forma a refletir as alegações exclusivas deduzidas oralmente pela figura indiciada principal.",
-      "D": "A lista de precedentes dogmáticos consolidados, acórdãos iterativos proferidos pelo Superior Tribunal de Justiça e extensas e minuciosas jurisprudências vinculantes diretamente associáveis ao ilícito capitulado na portaria instauradora.",
+      "D": "A lista de precedentes dogmáticos consolidados, acórdãos iterativos proferidos pelo Superior Tribunal de Justiça e extensas e minuciosas jurisprudências vinculantes diretamente associáveis ao ilícito capitulado na portaria instauraçdora.",
       "E": "A transcrição da confissão irrevogável efetuada presencialmente e com anuência probatória do pretenso autor intelectual, ratificada no bojo sigiloso do formal interrogatório inquisitivo do inquérito policial e em fase prévia de apuração cível compensatória."
     },
     "resposta_correta": "B",
@@ -9844,7 +9844,7 @@ const questoesDB = [
     "enunciado": "Considerando o conjunto estrutural do relatório oficial dos exames (laudo) elencado por parte representativa da doutrina forense, depreende-se da análise do capítulo versante à 'exposição e discussão' que este conglomera precipuamente:",
     "alternativas": {
       "A": "Número exato do protocolo registrado sequencialmente e dados de matrícula institucional, o título imutável do referido exame realizado na bancada laboratorial forense, e a completa e inequívoca identificação nominativa da junta ou dupla de peritos subscreventes que figuram no frontispício encartado ao documento pericial sigiloso e restrito à parte defensiva do processo legal criminal transitado ou superveniente sem restrição correcional vinculada à delegacia respectiva setorial.",
-      "B": "Uma simples e única asserção afirmativa do tipo 'sim' ou excludente da modalidade 'não' objetivando sanar de pronto toda e qualquer pendência processual atinente aos complexos e intricados autos penais do inquérito instaurado a partir de denúncia apócrifa embasada em meras suposições subjetivas indiciárias carentes de justa causa legal na esfera do poder judiciário competente pátrio e estrangeiro cumulativamente de forma a simplificar o feito final transcorrido celeremente.",
+      "B": "Uma simples e única asserção afirmativa do tipo 'sim' ou excludente da modalidade 'não' objetivando sanar de pronto toda e qualquer pendência processual atinente aos complexos e intricados autos penais do inquérito instauraçdo a partir de denúncia apócrifa embasada em meras suposições subjetivas indiciárias carentes de justa causa legal na esfera do poder judiciário competente pátrio e estrangeiro cumulativamente de forma a simplificar o feito final transcorrido celeremente.",
       "C": "Narração contínua do respectivo e idôneo objeto examinado tecnicamente perante os exames, aliada indissociavelmente às condições fáticas e temporais nas quais houve a realização probatória da perícia respectiva, agregando-se igualmente o indispensável histórico contextual, as técnicas e protocolos científicos implementados de praxe e o rol de estritas justificativas fundamentadas para todas as conclusões apuradas no fecho.",
       "D": "Apenas o descritivo concernente à qualificação hierárquica e acadêmica exclusiva atinente à figura impessoalizada representativa da autoridade delegada de polícia judiciária e estatal requisitante do aludido trabalho de exames periciais no campo criminal respectivo sem interferência da parte ré.",
       "E": "O parecer exato de cunho técnico subsidiário, devida e pormenorizadamente aposto no corpo do documento formal por intermédio da estrita manifestação e interferência colaborativa dos expertos credenciados pela Defensoria Pública atuante sob contratação pecuniária formal efetuada direta e indiretamente através da assistência prestada a defesa jurídica."
@@ -10456,7 +10456,7 @@ const questoesDB = [
     "enunciado": "Qual é o objetivo principal da implementação e consolidação da cadeia de custódia no âmbito da Criminalística por parte do gestor?",
     "alternativas": {
       "A": "Acelerar a emissão dos laudos periciais para cumprir prazos do Código de Processo Penal.",
-      "B": "Garantir a integridade e a inviolabilidade dos vestígios, garantindo seu valor probatório para a persecução penal.",
+      "B": "Garantir a integridade e a inviolabilidade dos vestígios, garantindo seu valor probatório para a persecuçção penal.",
       "C": "Facilitar o trabalho do assistente técnico na elaboração de novas hipóteses criminais.",
       "D": "Reduzir o número de exames periciais requisitados pelas autoridades policiais.",
       "E": "Promover a substituição de vestígios perecíveis por registros fotográficos definitivos."
@@ -10951,11 +10951,11 @@ const questoesDB = [
       "A": "Trata-se de um sistema desenvolvido externamente, baseado em licenças proprietárias pagas e com servidores descentralizados.",
       "B": "O sistema exige a instalação de um software específico na máquina de cada usuário para poder ser acessado.",
       "C": "O SISCRIM é utilizado há cerca de cinco anos e serve exclusivamente para emitir Laudos Periciais Criminais Federais.",
-      "D": "É um sistema 100% baseado em software livre, com banco de dados e servidores unificados e centralizados em Brasília, acessado via intranet.",
+      "D": "É um sistema 100É baseado em software livre, com banco de dados e servidores unificados e centralizados em Brasília, acessado via intranet.",
       "E": "O SISCRIM é o sistema oficial de gerenciamento das atividades de Polícia Judiciária e fluxos do inquérito policial da PF."
     },
     "resposta_correta": "D",
-    "justificativa": "O texto menciona que o SISCRIM já completou 20 anos, é 100% baseado em software livre, tem servidores unificados na DITEC em Brasília e é acessado pela intranet sem necessidade de instalação.",
+    "justificativa": "O texto menciona que o SISCRIM já completou 20 anos, é 100É baseado em software livre, tem servidores unificados na DITEC em Brasília e é acessado pela intranet sem necessidade de instalação.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -11271,14 +11271,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o limite máximo tolerado pela DITEC para a Meta 1, referente à quantidade de pendências acima do prazo máximo de atendimento em uma Unidade de Criminalística (UC)?",
     "alternativas": {
-      "A": "2% das pendências.",
-      "B": "5% das pendências.",
-      "C": "10% das pendências.",
-      "D": "15% das pendências.",
-      "E": "20% das pendências."
+      "A": "2É das pendências.",
+      "B": "5É das pendências.",
+      "C": "10É das pendências.",
+      "D": "15É das pendências.",
+      "E": "20É das pendências."
     },
     "resposta_correta": "B",
-    "justificativa": "A Meta 1 diz que as UCs 'devem possuir, no máximo, 5% de suas pendências acima do prazo máximo'.",
+    "justificativa": "A Meta 1 diz que as UCs 'devem possuir, no máximo, 5É de suas pendências acima do prazo máximo'.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -11339,14 +11339,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Atualmente, os 'prazos críticos' para apuração de responsabilidades em corregedoria são definidos como:",
     "alternativas": {
-      "A": "Exatamente o dobro do prazo máximo de atendimento (100% de extrapolação).",
-      "B": "25% além dos prazos máximos de atendimento da Meta 1.",
-      "C": "50% além do prazo médio de arquivamento das unidades da federação.",
+      "A": "Exatamente o dobro do prazo máximo de atendimento (100É de extrapolação).",
+      "B": "25É além dos prazos máximos de atendimento da Meta 1.",
+      "C": "50É além do prazo médio de arquivamento das unidades da federação.",
       "D": "Qualquer prazo estourado a partir do primeiro dia já é considerado prazo crítico.",
       "E": "Uma extrapolação de até três meses corridos, dependendo apenas do cargo do servidor."
     },
     "resposta_correta": "B",
-    "justificativa": "O texto afirma categoricamente: 'Os prazos críticos são atualmente definidos como 25% além dos prazos máximos de atendimento (Meta 1).'",
+    "justificativa": "O texto afirma categoricamente: 'Os prazos críticos são atualmente definidos como 25É além dos prazos máximos de atendimento (Meta 1).'",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -11373,14 +11373,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Como está dividida a composição do ICRIM com relação às três metas da Criminalística?",
     "alternativas": {
-      "A": "C1 (33%), C2 (33%), C3 (34%).",
-      "B": "C1 (10%), C2 (40%), C3 (50%).",
-      "C": "C1 (50%), C2 (25%), C3 (25%).",
-      "D": "C1 (20% - pendências fora do prazo), C2 (30% - produtividade), C3 (50% - tempo médio).",
-      "E": "C1 (30%), C2 (20%), C3 (50%)."
+      "A": "C1 (33É), C2 (33É), C3 (34É).",
+      "B": "C1 (10É), C2 (40É), C3 (50É).",
+      "C": "C1 (50É), C2 (25É), C3 (25É).",
+      "D": "C1 (20É - pendências fora do prazo), C2 (30É - produtividade), C3 (50É - tempo médio).",
+      "E": "C1 (30É), C2 (20É), C3 (50É)."
     },
     "resposta_correta": "D",
-    "justificativa": "O documento esclarece os pesos: C1 (20% do ICRIM) para quantidade de pendências fora do prazo máximo, C2 (30%) para produtividade, e C3 (50%) para tempo médio de atendimento.",
+    "justificativa": "O documento esclarece os pesos: C1 (20É do ICRIM) para quantidade de pendências fora do prazo máximo, C2 (30É) para produtividade, e C3 (50É) para tempo médio de atendimento.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -11904,7 +11904,7 @@ const questoesDB = [
       "B": "Designar um perito ad hoc sem vínculo com a corporação.",
       "C": "Com a devida justificativa, designar mais de um perito para realizar o exame pericial.",
       "D": "Cancelar o inquérito policial no sistema ePol.",
-      "E": "Transferir os custos da perícia para a parte interessada na investigação."
+      "E": "Transferir os custos da perícia para a parte interessada na investigaçãoão."
     },
     "resposta_correta": "C",
     "justificativa": "O item vi (13.5.1) diz: '...o gestor pode, com a devida justificativa, designar mais de um perito para realizar o exame pericial.'",
@@ -12088,13 +12088,13 @@ const questoesDB = [
     "enunciado": "No contexto do SISCRIM, o que significa o termo 'Procedimento'?",
     "alternativas": {
       "A": "É cada unidade organizacional que compõe a Polícia Federal.",
-      "B": "É o registro que representa o processo, investigação ou processo administrativo ao qual a perícia está vinculada.",
+      "B": "É o registro que representa o processo, investigaçãoão ou processo administrativo ao qual a perícia está vinculada.",
       "C": "Corresponde a qualquer órgão que não seja a Polícia Federal.",
       "D": "Refere-se ao ato de encaminhar um documento alterando a sua carga.",
       "E": "É a unidade administrativa com a qual o servidor possui vínculo formal."
     },
     "resposta_correta": "B",
-    "justificativa": "Procedimento é o registro que representa o processo, investigação ou processo administrativo ao qual a perícia está vinculada, servindo de referência para controle das requisições e laudos.",
+    "justificativa": "Procedimento é o registro que representa o processo, investigaçãoão ou processo administrativo ao qual a perícia está vinculada, servindo de referência para controle das requisições e laudos.",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -12259,7 +12259,7 @@ const questoesDB = [
     "alternativas": {
       "A": "Pessoal e Financeiro.",
       "B": "Documentos e Materiais.",
-      "C": "Investigação e Perícia.",
+      "C": "Investigaçãoão e Perícia.",
       "D": "ePol e SISCRIM.",
       "E": "Atendimento e Arquivamento."
     },
@@ -12597,7 +12597,7 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à elaboração do laudo no SISCRIM, como o sistema lida com o conteúdo dos exames?",
     "alternativas": {
-      "A": "Ele preenche 100% do laudo automaticamente, cabendo ao perito apenas assinar digitalmente.",
+      "A": "Ele preenche 100É do laudo automaticamente, cabendo ao perito apenas assinar digitalmente.",
       "B": "O sistema não fornece nenhuma facilidade, devendo o laudo ser redigido num editor fora do sistema do zero.",
       "C": "Permite geração automática de alguns tipos de laudos com dados específicos (balística, cédulas), e oferece modelos padronizados com cabeçalho/rodapé automático para outros.",
       "D": "O laudo é criado em módulo de voz, ditado pelo perito e transcrito por agentes.",
@@ -13029,7 +13029,7 @@ const questoesDB = [
       "E": "É formulada de modo que nenhum exame empírico seja capaz de avaliá-la objetivamente."
     },
     "resposta_correta": "A",
-    "justificativa": "O critério da falseabilidade aponta que uma afirmação, para ser científica, deve se expor ao risco de ser refutada pela realidade, sendo concebível que observações a contradigam (item 16.3).",
+    "justificativa": "O critério da falseabilidade aponta que uma afirmação, para ser científica, deve se expor ao risco de ser refutada pela realidade, sendo concebível que observações a contradiçgam (item 16.3).",
     "referencia": "Caderno Didático Criminalística"
   },
   {
@@ -13105,7 +13105,7 @@ const questoesDB = [
     "disciplina": "CRIMINALÍSTICA",
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "tipo": "multipla_escolha",
-    "enunciado": "A tendência do perito de valorizar as evidências que reforçam uma hipótese prévia e ignorar os dados que a contradizem é conhecida como viés de:",
+    "enunciado": "A tendência do perito de valorizar as evidências que reforçam uma hipótese prévia e ignorar os dados que a contradiçzem é conhecida como viés de:",
     "alternativas": {
       "A": "Autoridade.",
       "B": "Ancoragem.",
@@ -13501,7 +13501,7 @@ const questoesDB = [
       "A": "Cometeu erro intencional e deve ser descartada totalmente de qualquer manual forense.",
       "B": "Age normalmente, pois a ciência forense avança eliminando progressivamente hipóteses inadequadas por meio de novos dados e técnicas.",
       "C": "Deve insistir na hipótese original, preservando o viés de autoridade dos peritos originais.",
-      "D": "Invalida a ciência, uma vez que a ciência precisa ser exata e inflexível em 100% das vezes.",
+      "D": "Invalida a ciência, uma vez que a ciência precisa ser exata e inflexível em 100É das vezes.",
       "E": "Prova que a abdução não pode ser utilizada na Criminalística."
     },
     "resposta_correta": "B",
@@ -13600,7 +13600,7 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o texto, por que a abordagem Frequentista não pode ser aplicada à pergunta 'qual a probabilidade de que este suspeito seja o autor do crime?'",
     "alternativas": {
-      "A": "Porque a abordagem frequentista só funciona para probabilidades abaixo de 50%.",
+      "A": "Porque a abordagem frequentista só funciona para probabilidades abaixo de 50É.",
       "B": "Porque não considera a existência de evidências laboratoriais, apenas estatísticas criminais.",
       "C": "Porque o crime é um evento único, não existindo um conjunto de repetições equivalentes para avaliar a frequência.",
       "D": "Porque as evidências de crimes sempre dependem da simetria natural dos suspeitos.",
@@ -13672,7 +13672,7 @@ const questoesDB = [
       "B": "Que a probabilidade varia entre -1 e 1, dependendo da força da evidência.",
       "C": "Que a probabilidade varia entre 0 (impossível) e 1 (certo), e que Pr(H|H) = 1.",
       "D": "Que a probabilidade de eventos exaustivos deve ser multiplicada para obter o limite máximo.",
-      "E": "Que a soma de todas as probabilidades em uma investigação não pode exceder o valor 100."
+      "E": "Que a soma de todas as probabilidades em uma investigaçãoão não pode exceder o valor 100."
     },
     "resposta_correta": "C",
     "justificativa": "O texto apresenta a Primeira Lei como: '0 ≤ Pr(H|E) ≤ 1 e Pr(H|H) = 1', ou seja, varia entre 0 e 1, e um evento condicionado à sua própria verdade tem probabilidade 1.",
