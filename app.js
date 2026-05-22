@@ -348,7 +348,6 @@ function configurarEventos() {
     document.getElementById('btn-proxima').addEventListener('click', proximaQuestao);
     
     document.getElementById('disciplina-select').addEventListener('change', atualizarFiltroConteudo);
-    document.getElementById('tipo-select').addEventListener('change', atualizarFiltroConteudo);
     
     document.getElementById('btn-voltar-dashboard').addEventListener('click', () => showView('dashboard'));
     document.getElementById('btn-reset-stats').addEventListener('click', zerarEstatisticas);
@@ -384,17 +383,9 @@ function configurarEventos() {
 function atualizarFiltroConteudo() {
     const disciplinaSelecionada = document.getElementById('disciplina-select').value;
     const selectConteudo = document.getElementById('conteudo-select');
-    const tipoSelecionado = document.getElementById('tipo-select').value;
     
     // Pega as questões da disciplina selecionada
     let questoesDisciplina = bancoQuestoes.filter(q => q.disciplina === disciplinaSelecionada);
-    
-    // Filtra também pelo tipo de questão selecionado
-    if (tipoSelecionado === 'multipla_escolha') {
-        questoesDisciplina = questoesDisciplina.filter(q => q.tipo === 'multipla_escolha');
-    } else if (tipoSelecionado === 'certo_errado') {
-        questoesDisciplina = questoesDisciplina.filter(q => q.tipo === 'certo_errado');
-    }
     
     // Pega todos os conteúdos únicos
     const conteudos = [...new Set(questoesDisciplina.map(q => q.conteudo))];
@@ -419,7 +410,6 @@ function iniciarSimulado(e) {
     
     const disciplina = document.getElementById('disciplina-select').value;
     const conteudo = document.getElementById('conteudo-select').value;
-    const tipo = document.getElementById('tipo-select').value;
     const apenasFavoritas = document.getElementById('filtro-favoritas').checked;
     const ocultarRespondidas = document.getElementById('filtro-ocultar-respondidas').checked;
     const apenasErros = document.getElementById('filtro-apenas-erros').checked;
@@ -434,10 +424,6 @@ function iniciarSimulado(e) {
     
     if (conteudo !== 'todos') {
         questoesFiltradas = questoesFiltradas.filter(q => q.conteudo === conteudo);
-    }
-    
-    if (tipo !== 'todos') {
-        questoesFiltradas = questoesFiltradas.filter(q => q.tipo === tipo);
     }
     
     if (apenasFavoritas) {
