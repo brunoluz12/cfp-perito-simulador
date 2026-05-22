@@ -35,6 +35,8 @@
                 <span class="tab-divider">|</span>
                 <h1 id="tab-material" class="tab-link" onclick="switchMainTab('material')">Materiais</h1>
                 <span class="tab-divider">|</span>
+                <h1 id="tab-agenda" class="tab-link" onclick="switchMainTab('agenda')"><i class="ph ph-calendar-blank"></i> Agenda</h1>
+                <span class="tab-divider">|</span>
                 <h1 id="tab-controle" class="tab-link" onclick="switchMainTab('controle')">Controle</h1>
             </div>
             <div class="user-stats">
@@ -305,9 +307,32 @@
                 <span id="material-loading-status" style="display: none; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; font-weight: 500;"><i class="ph ph-spinner ph-spin"></i> Carregando caderno...</span>
                 <iframe id="material-iframe" src="" style="width: 100%; height: calc(100vh - 180px); border: none; border-radius: var(--radius-lg); background: white; box-shadow: var(--shadow-glow);"></iframe>
             </div>
+        <!-- TELA DE AGENDA -->
+        <main id="agenda-view" class="view">
+            <div class="glass-panel agenda-config-panel">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="agenda-cargo-select"><i class="ph ph-briefcase"></i> Cargo</label>
+                        <select id="agenda-cargo-select">
+                            <option value="" disabled selected>Selecione o cargo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-mes-select"><i class="ph ph-calendar"></i> Mês</label>
+                        <select id="agenda-mes-select" disabled>
+                            <option value="" disabled selected>Selecione o mês</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="agenda-cards-container" class="mt-4" style="display: flex; flex-direction: column; gap: 16px;">
+                <!-- Cards renderizados via JS -->
+            </div>
         </main>
     </div>
     
+    <script src="agenda_dados.js?v=1"></script>
     <script src="banco_questoes.js?v=8"></script>
     <script src="app.js?v=8"></script>
 </body>

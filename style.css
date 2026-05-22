@@ -1291,3 +1291,66 @@ button {
     display: none;
 }
 
+/* ==========================================
+   TELA DE AGENDA
+   ========================================== */
+.agenda-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-left: 4px solid transparent;
+    transition: var(--transition);
+}
+.agenda-card.destaque {
+    border-left-color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.05);
+}
+.agenda-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--panel-border);
+    padding-bottom: 8px;
+}
+.dia-numero {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+.dia-semana {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+.agenda-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.agenda-bloco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: var(--radius-sm);
+    font-size: 0.95rem;
+}
+.agenda-card.destaque .agenda-bloco {
+    background: rgba(255, 255, 255, 0.8);
+}
+.agenda-horario {
+    font-weight: 600;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.agenda-aula {
+    font-weight: 600;
+    color: var(--text-main);
+}
+.destaque-text {
+    color: var(--primary-color);
+    font-weight: 700;
+}

@@ -23,7 +23,8 @@ const views = {
     quiz: document.getElementById('quiz-view'),
     result: document.getElementById('result-view'),
     'control-view': document.getElementById('control-view'),
-    'material-view': document.getElementById('material-view')
+    'material-view': document.getElementById('material-view'),
+    'agenda-view': document.getElementById('agenda-view')
 };
 
 // VARIÁVEIS DE NUVEM
@@ -973,10 +974,12 @@ function switchMainTab(tabName) {
     const tabSimulador = document.getElementById('tab-simulador');
     const tabControle = document.getElementById('tab-controle');
     const tabMaterial = document.getElementById('tab-material');
+    const tabAgenda = document.getElementById('tab-agenda');
     
     if (tabSimulador) tabSimulador.classList.remove('active');
     if (tabControle) tabControle.classList.remove('active');
     if (tabMaterial) tabMaterial.classList.remove('active');
+    if (tabAgenda) tabAgenda.classList.remove('active');
     
     if (tabName === 'simulador') {
         if (tabSimulador) tabSimulador.classList.add('active');
@@ -987,6 +990,9 @@ function switchMainTab(tabName) {
     } else if (tabName === 'material') {
         if (tabMaterial) tabMaterial.classList.add('active');
         showView('material-view');
+    } else if (tabName === 'agenda') {
+        if (tabAgenda) tabAgenda.classList.add('active');
+        showView('agenda-view');
     }
 }
 
@@ -1049,12 +1055,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Ouve mensagens dos HTMLs carregados para ajustar a altura dinamicamente sem barra de rolagem
     window.addEventListener('message', (event) => {
         if (event.data && event.data.type === 'resize-iframe') {
-            if (iframeContainer.style.display !== 'none') {
+            if (iframeContainer && iframeContainer.style.display !== 'none') {
                 const newHeight = event.data.height;
                 const lastHeight = parseInt(iframe.dataset.lastHeight || '0');
                 
                 // Previne o loop infinito de crescimento:
-                // Só ajusta a altura do iframe se a diferença de tamanho for significativa (> 30px)
                 if (Math.abs(newHeight - lastHeight) > 30) {
                     iframe.dataset.lastHeight = newHeight.toString();
                     iframe.style.height = (newHeight + 20) + 'px';
@@ -1062,4 +1067,77 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
+});
+
+// ==========================================
+// CONTROLE DE AGENDA
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    const agendaCargo = document.getElementById('agenda-cargo-select');
+    const agendaMes = document.getElementById('agenda-mes-select');
+    const agendaContainer = document.getElementById('agenda-cards-container');
+    
+    if(!agendaCargo || typeof agendaDados === 'undefined') return;
+    
+    // Popular cargos
+    agendaDados.cargos.forEach(cargo => {
+        const opt = document.createElement('option');
+        opt.value = cargo.id;
+        opt.textContent = cargo.nome;
+        agendaCargo.appendChild(opt);
+    });
+    
+    // Popular meses
+    agendaDados.meses.forEach(mes => {
+        const opt = document.createElement('option');
+        opt.value = mes.id;
+        opt.textContent = mes.nome;
+        agendaMes.appendChild(opt);
+    });
+    
+    agendaCargo.addEventListener('change', () => {
+        agendaMes.disabled = false;
+        if(agendaMes.value) renderAgenda();
+    });
+    
+    agendaMes.addEventListener('change', renderAgenda);
+    
+    function renderAgenda() {
+        if(!agendaCargo.value || !agendaMes.value) return;
+        agendaContainer.innerHTML = '';
+        
+        const cargoId = agendaCargo.value;
+        const mesId = agendaMes.value;
+        const data = agendaDados.pautas[cargoId]?.[mesId];
+        
+        if(!data || data.length === 0) {
+            agendaContainer.innerHTML = '<div class="glass-panel" style="text-align: center; color: var(--text-muted);">Nenhuma agenda encontrada para este mês.</div>';
+            return;
+        }
+        
+        data.forEach(dia => {
+            const card = document.createElement('div');
+            card.className = 'glass-panel agenda-card';
+            if(dia.blocos.some(b => b.destaque)) card.classList.add('destaque');
+            
+            let blocosHtml = dia.blocos.map(b => `
+                <div class="agenda-bloco">
+                    <span class="agenda-horario"><i class="ph ph-clock"></i> ${b.horario}</span>
+                    <span class="agenda-aula ${b.destaque ? 'destaque-text' : ''}">${b.aula}</span>
+                </div>
+            `).join('');
+            
+            card.innerHTML = `
+                <div class="agenda-card-header">
+                    <span class="dia-numero">Dia ${dia.dia}</span>
+                    <span class="dia-semana">${dia.diaSemana}</span>
+                </div>
+                <div class="agenda-card-body">
+                    ${blocosHtml}
+                </div>
+            `;
+            
+            agendaContainer.appendChild(card);
+        });
+    }
 });
