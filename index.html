@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento de Questões - PCPR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones do Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="glass-panel main-header">
+            <div class="logo">
+                <i class="ph ph-shield-check"></i>
+                <h1 id="tab-simulador" class="tab-link active" onclick="switchMainTab('simulador')">Simulador</h1>
+                <span class="tab-divider">|</span>
+                <h1 id="tab-controle" class="tab-link" onclick="switchMainTab('controle')">Controle</h1>
+            </div>
+            <div class="user-stats">
+                <div class="stat-badge tooltip" data-tooltip="Total de Acertos">
+                    <i class="ph ph-check-circle" style="color: var(--success-color);"></i>
+                    <span id="header-acertos">0</span>
+                </div>
+                <div class="stat-badge tooltip" data-tooltip="Total de Erros">
+                    <i class="ph ph-x-circle" style="color: var(--error-color);"></i>
+                    <span id="header-erros">0</span>
+                </div>
+                <div class="stat-badge tooltip" data-tooltip="Taxa de Acerto Geral">
+                    <i class="ph ph-trend-up" style="color: var(--accent-color);"></i>
+                    <span id="header-taxa">0%</span>
+                </div>
+            </div>
+        </header>
+
+        <main id="dashboard-view" class="view active">
+            <div class="dashboard-grid">
+                <!-- Painel de Configuração -->
+                <div class="glass-panel config-panel">
+                    <h2><i class="ph ph-sliders-horizontal"></i> Configurar Simulado</h2>
+                    <form id="config-form">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="disciplina-select"><i class="ph ph-book-open"></i> Disciplina</label>
+                                <select id="disciplina-select" required>
+                                    <option value="" disabled selected>Carregando disciplinas...</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="conteudo-select"><i class="ph ph-list-bullets"></i> Conteúdo</label>
+                                <select id="conteudo-select" required disabled>
+                                    <option value="todos" selected>Todos os conteúdos</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="tipo-select"><i class="ph ph-question"></i> Tipo de Questão</label>
+                                <select id="tipo-select" required>
+                                    <option value="todos" selected>Múltipla Escolha e Certo/Errado</option>
+                                    <option value="multipla_escolha">Apenas Múltipla Escolha</option>
+                                    <option value="certo_errado">Apenas Certo ou Errado</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="qtd-questoes-input"><i class="ph ph-hash"></i> Quantidade</label>
+                                <div class="quantity-input-group">
+                                    <input type="number" id="qtd-questoes-input" min="1" value="10" class="custom-input-number">
+                                    <label class="custom-checkbox m-0">
+                                        <input type="checkbox" id="chk-qtd-todas">
+                                        <span class="checkmark"></span>
+                                        Todas
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="filters-section">
+                            <h3 class="filters-title"><i class="ph ph-funnel"></i> Filtros Avançados</h3>
+                            
+                            <div class="filters-grid">
+                                <label class="toggle-filter">
+                                    <span class="toggle-label"><i class="ph ph-star" style="color: var(--warning-color);"></i> Apenas Favoritas</span>
+                                    <div class="toggle-switch">
+                                        <input type="checkbox" id="filtro-favoritas">
+                                        <span class="slider"></span>
+                                    </div>
+                                </label>
+                                
+                                <label class="toggle-filter">
+                                    <span class="toggle-label"><i class="ph ph-eye-slash" style="color: var(--text-muted);"></i> Ocultar Respondidas</span>
+                                    <div class="toggle-switch">
+                                        <input type="checkbox" id="filtro-ocultar-respondidas">
+                                        <span class="slider"></span>
+                                    </div>
+                                </label>
+                                
+                                <label class="toggle-filter">
+                                    <span class="toggle-label"><i class="ph ph-warning-circle" style="color: var(--error-color);"></i> Apenas que já errei</span>
+                                    <div class="toggle-switch toggle-danger">
+                                        <input type="checkbox" id="filtro-apenas-erros">
+                                        <span class="slider"></span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-primary" id="btn-start" disabled>
+                            <i class="ph ph-play-circle"></i> Iniciar Simulado
+                        </button>
+                        <p id="loading-msg" class="loading-msg">Carregando banco de questões...</p>
+                    </form>
+                </div>
+
+                <!-- Painel de Desempenho -->
+                <div class="glass-panel history-panel">
+                    <h2><i class="ph ph-chart-bar"></i> Seu Desempenho</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="ph ph-files"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value" id="stat-total-resolvidas">0</span>
+                                <span class="stat-label">Resolvidas</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon success"><i class="ph ph-check"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value" id="stat-total-acertos">0</span>
+                                <span class="stat-label">Acertos</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon error"><i class="ph ph-x"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value" id="stat-total-erros">0</span>
+                                <span class="stat-label">Erros</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chapter-stats-container">
+                        <h3 class="chapter-stats-title"><i class="ph ph-list-numbers"></i> Detalhamento por Capítulo</h3>
+                        <div id="chapter-stats-list" class="chapter-stats-list">
+                            <!-- Preenchido via JavaScript -->
+                            <p class="empty-stats-msg">Responda algumas questões para ver o seu progresso aqui.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="action-footer">
+                        <button id="btn-reset-stats" class="btn-text error-text"><i class="ph ph-trash"></i> Zerar Estatísticas</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- TELA DE RESOLUÇÃO (QUIZ) -->
+        <main id="quiz-view" class="view">
+            <div class="quiz-header">
+                <button id="btn-voltar" class="btn-secondary btn-icon"><i class="ph ph-arrow-left"></i> Voltar</button>
+                <div class="progress-bar-container">
+                    <div class="progress-info">
+                        <span id="current-question-indicator">Questão 1 de 10</span>
+                        <span id="quiz-disciplina-badge" class="badge">IPO</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div id="progress-bar-fill" class="progress-bar-fill" style="width: 10%;"></div>
+                    </div>
+                </div>
+                <button id="btn-finalizar-quiz" class="btn-secondary btn-icon">Encerrar <i class="ph ph-stop-circle"></i></button>
+            </div>
+
+            <div class="glass-panel question-panel">
+                <div class="question-meta-wrapper">
+                    <div class="question-meta">
+                        <span id="q-capitulo" class="badge outline">Capítulo</span>
+                        <span id="q-id" class="badge subtle">ID</span>
+                        <span id="q-tentativas" class="badge subtle" style="display: none; background: rgba(59, 130, 246, 0.1); color: var(--primary-color);">Resolvida: 0x</span>
+                    </div>
+                    <button id="btn-favorite" class="btn-icon favorite-btn tooltip" data-tooltip="Favoritar Questão">
+                        <i class="ph ph-star"></i>
+                    </button>
+                </div>
+                <h3 id="q-enunciado" class="question-text">Carregando questão...</h3>
+                
+                <div id="q-alternativas" class="options-container">
+                    <!-- Geradas dinamicamente -->
+                </div>
+                
+                <div class="action-panel mt-4" style="display: flex; gap: 12px;">
+                    <button id="btn-anterior" class="btn-secondary" style="display: none; flex: 1;"><i class="ph ph-arrow-left"></i> Anterior</button>
+                    <button id="btn-responder" class="btn-primary" style="flex: 2;" disabled>Responder</button>
+                </div>
+                
+                <div class="personal-notes-container mt-4">
+                    <div class="notes-header">
+                        <label for="q-comment"><i class="ph ph-note-pencil"></i> Meus Comentários</label>
+                        <span id="comment-status" class="status-msg"></span>
+                    </div>
+                    <textarea id="q-comment" class="custom-textarea" placeholder="Adicione uma anotação pessoal para revisar depois..."></textarea>
+                    <button id="btn-save-comment" class="btn-secondary btn-sm mt-2">Salvar Anotação</button>
+                </div>
+            </div>
+
+            <!-- Painel de Feedback (Justificativa) -->
+            <div id="feedback-panel" class="glass-panel feedback-panel hidden">
+                <div class="feedback-header">
+                    <h4 id="feedback-title"><i class="ph ph-check-circle"></i> Resposta Correta!</h4>
+                    <span id="feedback-gabarito" class="badge">Gabarito: C</span>
+                </div>
+                <div class="feedback-content">
+                    <p id="feedback-justificativa">Justificativa aqui.</p>
+                    <p class="referencia"><i class="ph ph-book-open"></i> Referência: <span id="feedback-referencia"></span></p>
+                </div>
+                <div class="feedback-actions">
+                    <button id="btn-feedback-anterior" class="btn-secondary" style="display: none; margin-right: auto;"><i class="ph ph-arrow-left"></i> Anterior</button>
+                    <button id="btn-proxima" class="btn-primary" style="width: auto;">Próxima Questão <i class="ph ph-arrow-right"></i></button>
+                </div>
+            </div>
+        </main>
+        
+        <!-- TELA DE RESULTADO DO SIMULADO -->
+        <main id="result-view" class="view">
+             <div class="glass-panel result-panel">
+                <i class="ph ph-trophy result-icon"></i>
+                <h2>Simulado Concluído!</h2>
+                <div class="result-stats">
+                    <div class="result-circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle" id="result-circle-path" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.35" class="percentage" id="result-percentage">0%</text>
+                        </svg>
+                    </div>
+                    <div class="result-details">
+                        <p><i class="ph ph-check-circle success-text"></i> Acertos: <strong id="result-acertos">0</strong></p>
+                        <p><i class="ph ph-x-circle error-text"></i> Erros: <strong id="result-erros">0</strong></p>
+                        <p><i class="ph ph-list-numbers"></i> Total: <strong id="result-total">0</strong></p>
+                    </div>
+                </div>
+                <button id="btn-voltar-dashboard" class="btn-primary mt-4">
+                    <i class="ph ph-house"></i> Voltar ao Início
+                </button>
+             </div>
+        </main>
+
+        <!-- TELA DE CONTROLE DE AULAS -->
+        <main id="control-view" class="view">
+            <div class="glass-panel control-panel">
+                <div class="control-header">
+                    <h2><i class="ph ph-list-checks"></i> Controle de Disciplinas</h2>
+                    <div class="global-progress-container" style="margin-top: 16px;">
+                        <div class="discipline-progress-info">
+                            <span class="progress-text" id="global-prog-text" style="font-weight: 600; font-size: 0.9rem;">0 / 0 Aulas (Progresso Geral)</span>
+                            <span class="discipline-percentage" id="global-prog-percent" style="font-size: 1.1rem;">0%</span>
+                        </div>
+                        <div class="discipline-progress-bar" style="height: 10px; background: rgba(0,0,0,0.1);">
+                            <div class="discipline-progress-fill" id="global-prog-fill" style="width: 0%; background: linear-gradient(90deg, #10b981, #3b82f6);"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="disciplines-grid" class="disciplines-grid">
+                    <!-- Gerado dinamicamente via JS -->
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="banco_questoes.js?v=8"></script>
+    <script src="app.js?v=8"></script>
+</body>
+</html>
