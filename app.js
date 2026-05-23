@@ -1076,8 +1076,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const agendaCargo = document.getElementById('agenda-cargo-select');
     const agendaMes = document.getElementById('agenda-mes-select');
     const agendaContainer = document.getElementById('agenda-cards-container');
+    const agendaCalendarContainer = document.getElementById('agenda-calendar-container');
+    
+    const btnList = document.getElementById('btn-view-list');
+    const btnCalendar = document.getElementById('btn-view-calendar');
     
     if(!agendaCargo || typeof agendaDados === 'undefined') return;
+    
+    // Toggle de visões
+    btnList.style.background = 'white';
+    btnList.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+    
+    btnList.addEventListener('click', (e) => {
+        e.preventDefault();
+        btnList.classList.add('active');
+        btnList.style.background = 'white';
+        btnList.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+        btnCalendar.classList.remove('active');
+        btnCalendar.style.background = 'transparent';
+        btnCalendar.style.boxShadow = 'none';
+        agendaContainer.style.display = 'flex';
+        agendaCalendarContainer.style.display = 'none';
+    });
+    
+    btnCalendar.addEventListener('click', (e) => {
+        e.preventDefault();
+        btnCalendar.classList.add('active');
+        btnCalendar.style.background = 'white';
+        btnCalendar.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+        btnList.classList.remove('active');
+        btnList.style.background = 'transparent';
+        btnList.style.boxShadow = 'none';
+        agendaContainer.style.display = 'none';
+        agendaCalendarContainer.style.display = 'block';
+    });
     
     // Popular cargos
     agendaDados.cargos.forEach(cargo => {
@@ -1112,6 +1144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if(!data || data.length === 0) {
             agendaContainer.innerHTML = '<div class="glass-panel" style="text-align: center; color: var(--text-muted);">Nenhuma agenda encontrada para este mês.</div>';
+            agendaCalendarContainer.innerHTML = '';
             return;
         }
         
@@ -1139,5 +1172,54 @@ document.addEventListener('DOMContentLoaded', () => {
             
             agendaContainer.appendChild(card);
         });
+        
+        // Renderizar Calendário em Grade
+        const [mStr, yStr] = mesId.split('-');
+        const monthNum = parseInt(mStr, 10);
+        const yearNum = parseInt(yStr, 10);
+        
+        const diasNoMes = new Date(yearNum, monthNum, 0).getDate();
+        const primeiroDiaDaSemana = new Date(yearNum, monthNum - 1, 1).getDay(); // 0=Dom
+        
+        let calendarHtml = '<div class="calendar-grid">';
+        
+        const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+        diasSemana.forEach(d => {
+            calendarHtml += `<div class="calendar-header-day">${d}</div>`;
+        });
+        
+        for (let i = 0; i < primeiroDiaDaSemana; i++) {
+            calendarHtml += `<div class="calendar-day empty"></div>`;
+        }
+        
+        for (let d = 1; d <= diasNoMes; d++) {
+            const diaData = data.find(item => parseInt(item.dia, 10) === d);
+            
+            let classesHtml = '';
+            if (diaData && diaData.blocos) {
+                diaData.blocos.forEach(b => {
+                    classesHtml += `
+                        <div class="calendar-event ${b.destaque ? 'evento-destaque' : ''}">
+                            <span class="horario">${b.horario}</span>
+                            <span class="aula">${b.aula}</span>
+                        </div>
+                    `;
+                });
+            }
+            
+            const isDestaque = diaData && diaData.blocos.some(b => b.destaque) ? 'dia-destaque' : '';
+            
+            calendarHtml += `
+                <div class="glass-panel calendar-day ${isDestaque}">
+                    <div class="calendar-day-number">${d}</div>
+                    <div class="calendar-events-container">
+                        ${classesHtml}
+                    </div>
+                </div>
+            `;
+        }
+        
+        calendarHtml += '</div>';
+        agendaCalendarContainer.innerHTML = calendarHtml;
     }
 });

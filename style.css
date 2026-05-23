@@ -1354,3 +1354,85 @@ button {
     color: var(--primary-color);
     font-weight: 700;
 }
+
+/* ==========================================
+   TELA DE AGENDA - CALENDÁRIO
+   ========================================== */
+#agenda-calendar-container {
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(140px, 1fr));
+    gap: 8px;
+}
+.calendar-header-day {
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+}
+.calendar-day {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-md);
+    min-height: 120px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: var(--transition);
+}
+.calendar-day:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-sm);
+}
+.calendar-day.empty {
+    background: transparent;
+    border: none;
+    pointer-events: none;
+    box-shadow: none;
+}
+.calendar-day.dia-destaque {
+    border: 2px solid var(--primary-color);
+    background: rgba(59, 130, 246, 0.05);
+}
+.calendar-day-number {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    text-align: right;
+    margin-bottom: 4px;
+}
+.calendar-events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.calendar-event {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--primary-color);
+    padding: 4px 6px;
+    border-radius: 4px;
+    border-left: 3px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+.calendar-event.evento-destaque {
+    background: var(--primary-color);
+    color: white;
+}
+.calendar-event .horario {
+    font-weight: 600;
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+.calendar-event .aula {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
