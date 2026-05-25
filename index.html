@@ -387,10 +387,31 @@
                 <div class="simulado-total-row">
                     <label for="sim-total-input">Total de questões:</label>
                     <input type="number" id="sim-total-input" min="1" value="20" />
-                    <span style="font-size: 0.85rem; color: var(--text-muted);">Selecione conteúdos e a quantidade que deseja de cada um (a soma deve fechar com o total acima).</span>
+                    <span style="font-size: 0.85rem; color: var(--text-muted);">Selecione disciplinas, conteúdos e a quantidade de cada um (a soma deve fechar com o total).</span>
+                </div>
+                <div class="form-group" style="margin-bottom: 14px;">
+                    <label style="display: flex; align-items: center; gap: 6px; font-size: 0.9rem; margin-bottom: 6px;">
+                        <i class="ph ph-book-open"></i> Disciplinas
+                    </label>
+                    <div class="multi-select" id="ms-sim-disciplina">
+                        <button type="button" class="multi-select-trigger">
+                            <span class="multi-select-label is-placeholder">Selecione disciplinas...</span>
+                            <i class="ph ph-caret-down"></i>
+                        </button>
+                        <div class="multi-select-dropdown">
+                            <div class="multi-select-actions">
+                                <button type="button" data-action="all">Todas</button>
+                                <button type="button" data-action="none">Nenhuma</button>
+                            </div>
+                            <div class="multi-select-options"></div>
+                        </div>
+                    </div>
                 </div>
                 <div id="simulado-tree" class="simulado-tree">
                     <!-- Grupos de disciplina/conteúdo gerados via JS -->
+                    <div class="multi-select-empty" style="padding: 30px;">
+                        Selecione uma ou mais disciplinas acima para configurar os conteúdos.
+                    </div>
                 </div>
             </div>
             <div class="modal-footer">
@@ -409,6 +430,6 @@
 
     <script src="agenda_dados.js?v=5"></script>
     <script src="banco_questoes.js?v=11"></script>
-    <script src="app.js?v=15"></script>
+    <script src="app.js?v=16"></script>
 </body>
 </html>

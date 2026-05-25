@@ -1521,11 +1521,50 @@ button {
     font-size: 0.9rem;
 }
 .multi-select-option:hover { background: rgba(59, 130, 246, 0.08); }
-.multi-select-option input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-    accent-color: var(--primary-color);
+.multi-select-option input[type="checkbox"],
+.conteudo-row input[type="checkbox"].sim-cb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border: 2px solid var(--panel-border);
+    border-radius: 6px;
+    background: #fff;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+    transition: border-color 0.15s, background 0.15s, transform 0.05s ease;
+}
+.multi-select-option input[type="checkbox"]:hover,
+.conteudo-row input[type="checkbox"].sim-cb:hover {
+    border-color: var(--primary-color);
+}
+.multi-select-option input[type="checkbox"]:active,
+.conteudo-row input[type="checkbox"].sim-cb:active {
+    transform: scale(0.94);
+}
+.multi-select-option input[type="checkbox"]:checked,
+.conteudo-row input[type="checkbox"].sim-cb:checked {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.multi-select-option input[type="checkbox"]:checked::after,
+.conteudo-row input[type="checkbox"].sim-cb:checked::after {
+    content: '';
+    width: 5px;
+    height: 9px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+.multi-select-option input[type="checkbox"]:focus-visible,
+.conteudo-row input[type="checkbox"].sim-cb:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
 }
 .multi-select-option .opt-count {
     margin-left: auto;
@@ -1668,9 +1707,30 @@ button {
     font-size: 0.95rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 10px;
     cursor: pointer;
     user-select: none;
+}
+.discipline-group-header .disc-title { flex: 1; }
+.discipline-group-header .disc-actions {
+    display: flex;
+    gap: 6px;
+}
+.discipline-group-header .disc-actions button {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--panel-border);
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    transition: var(--transition);
+}
+.discipline-group-header .disc-actions button:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
 }
 .discipline-group-header .ph-caret-down {
     transition: transform 0.2s;
@@ -1689,12 +1749,6 @@ button {
     transition: background 0.15s;
 }
 .conteudo-row:hover { background: rgba(59, 130, 246, 0.04); }
-.conteudo-row input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-    accent-color: var(--primary-color);
-    cursor: pointer;
-}
 .conteudo-row .conteudo-label {
     font-size: 0.88rem;
     color: var(--text-main);

@@ -564,10 +564,12 @@ function atualizarFiltroConteudo() {
 // ==========================================
 // MODAL "GERAR SIMULADO" (multi-disciplina/conteúdo com qtd por conteúdo)
 // ==========================================
+let msSimDisciplina = null;
+
 function abrirModalSimulado() {
     const overlay = document.getElementById('simulado-modal');
     if (!overlay) return;
-    popularArvoreSimulado();
+    inicializarMultiSelectSimulado();
     overlay.classList.add('is-open');
     overlay.setAttribute('aria-hidden', 'false');
     atualizarResumoSimulado();
@@ -580,14 +582,40 @@ function fecharModalSimulado() {
     overlay.setAttribute('aria-hidden', 'true');
 }
 
-function popularArvoreSimulado() {
+function inicializarMultiSelectSimulado() {
+    if (msSimDisciplina) {
+        // Já inicializado: apenas reseta seleções para abertura limpa
+        msSimDisciplina.selectNone();
+        renderizarArvoreSimulado([]);
+        return;
+    }
+    const root = document.getElementById('ms-sim-disciplina');
+    if (!root) return;
+    msSimDisciplina = new MultiSelect(root, {
+        placeholder: 'Selecione disciplinas...',
+        allLabel: 'Todas as disciplinas',
+        onChange: (selecionadas) => renderizarArvoreSimulado(selecionadas)
+    });
+    const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
+    msSimDisciplina.setOptions(disciplinas.map(d => ({
+        value: d,
+        label: d,
+        count: bancoQuestoes.filter(q => q.disciplina === d).length
+    })));
+}
+
+function renderizarArvoreSimulado(disciplinasSelecionadas) {
     const tree = document.getElementById('simulado-tree');
     if (!tree) return;
     tree.innerHTML = '';
 
-    // Agrupa por disciplina → conteúdo → total disponível
-    const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
-    disciplinas.forEach(disc => {
+    if (!disciplinasSelecionadas || disciplinasSelecionadas.length === 0) {
+        tree.innerHTML = '<div class="multi-select-empty" style="padding: 30px;">Selecione uma ou mais disciplinas acima para configurar os conteúdos.</div>';
+        atualizarResumoSimulado();
+        return;
+    }
+
+    disciplinasSelecionadas.sort().forEach(disc => {
         const conteudos = [...new Set(
             bancoQuestoes.filter(q => q.disciplina === disc).map(q => q.conteudo)
         )].sort();
@@ -597,8 +625,63 @@ function popularArvoreSimulado() {
 
         const header = document.createElement('div');
         header.className = 'discipline-group-header';
-        header.innerHTML = `<span>${disc}</span><i class="ph ph-caret-down"></i>`;
-        header.addEventListener('click', () => group.classList.toggle('is-collapsed'));
+
+        const title = document.createElement('span');
+        title.className = 'disc-title';
+        title.textContent = disc;
+
+        const actions = document.createElement('div');
+        actions.className = 'disc-actions';
+        const btnAll = document.createElement('button');
+        btnAll.type = 'button';
+        btnAll.dataset.grpAction = 'all';
+        btnAll.textContent = 'Todos';
+        const btnNone = document.createElement('button');
+        btnNone.type = 'button';
+        btnNone.dataset.grpAction = 'none';
+        btnNone.textContent = 'Nenhum';
+        actions.appendChild(btnAll);
+        actions.appendChild(btnNone);
+
+        const caret = document.createElement('i');
+        caret.className = 'ph ph-caret-down';
+
+        header.appendChild(title);
+        header.appendChild(actions);
+        header.appendChild(caret);
+
+        // Toggle collapse ao clicar fora dos botões/título da actions
+        header.addEventListener('click', (e) => {
+            if (e.target.closest('.disc-actions')) return;
+            group.classList.toggle('is-collapsed');
+        });
+
+        // Handlers dos botões "Todos / Nenhum" do grupo
+        actions.addEventListener('click', (e) => {
+            const btn = e.target.closest('button');
+            if (!btn) return;
+            e.stopPropagation();
+            const action = btn.dataset.grpAction;
+            const rows = body.querySelectorAll('.conteudo-row');
+            rows.forEach(r => {
+                const cb = r.querySelector('.sim-cb');
+                const qty = r.querySelector('.sim-qty');
+                const max = parseInt(r.dataset.max, 10);
+                if (action === 'all') {
+                    cb.checked = true;
+                    qty.disabled = false;
+                    if (parseInt(qty.value, 10) === 0) qty.value = Math.min(5, max);
+                    r.classList.add('is-selected');
+                } else {
+                    cb.checked = false;
+                    qty.disabled = true;
+                    qty.value = '0';
+                    r.classList.remove('is-selected');
+                }
+            });
+            atualizarResumoSimulado();
+        });
+
         group.appendChild(header);
 
         const body = document.createElement('div');
@@ -618,7 +701,13 @@ function popularArvoreSimulado() {
 
             const lbl = document.createElement('div');
             lbl.className = 'conteudo-label';
-            lbl.innerHTML = `${cont}<span class="conteudo-available">(${total} disponíveis)</span>`;
+            const lblText = document.createElement('span');
+            lblText.textContent = cont;
+            const lblAvail = document.createElement('span');
+            lblAvail.className = 'conteudo-available';
+            lblAvail.textContent = `(${total} disponíveis)`;
+            lbl.appendChild(lblText);
+            lbl.appendChild(lblAvail);
 
             const qty = document.createElement('input');
             qty.type = 'number';
@@ -657,6 +746,8 @@ function popularArvoreSimulado() {
         group.appendChild(body);
         tree.appendChild(group);
     });
+
+    atualizarResumoSimulado();
 }
 
 function atualizarResumoSimulado() {
