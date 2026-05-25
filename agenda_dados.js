@@ -7,7 +7,8 @@ const agendaDados = {
         { id: "pcf", nome: "Perito Criminal Federal" }
     ],
     meses: [
-        { id: "05-2026", nome: "Maio de 2026" }
+        { id: "05-2026", nome: "Maio de 2026" },
+        { id: "06-2026", nome: "Junho de 2026" }
     ],
     pautas: {
         "pcf": {
@@ -145,6 +146,142 @@ const agendaDados = {
                     diaSemana: "Domingo",
                     blocos: [
                         { horario: "Integral", aula: "Domingo Livre", destaque: true }
+                    ]
+                }
+            ],
+            "06-2026": [
+                // === SEMANA 3 (01/06 a 07/06) ===
+                {
+                    dia: "01",
+                    diaSemana: "Segunda-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "DOC M1.01 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "PRO M1.01 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "CRI M3.04 (2P)" },
+                        { horario: "15:50 a 17:30", aula: "CRI M3.04 (2P)" },
+                        { horario: "19:00 a 20:40 (Extra)", aula: "AT M1.07 (8P, 2M)" }
+                    ]
+                },
+                {
+                    dia: "02",
+                    diaSemana: "Terça-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "PCEB M1.01 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "PCEB M1.01 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "DOC M1.02 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "AT M1.08 (8P, 2M)" }
+                    ]
+                },
+                {
+                    dia: "03",
+                    diaSemana: "Quarta-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "PRO M1.02 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "EVENTO - Palestra DG" },
+                        { horario: "13:50 a 15:30", aula: "PCEB M1.02 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "PCEB M1.03 (1P)" }
+                    ]
+                },
+                {
+                    dia: "04",
+                    diaSemana: "Quinta-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "DPP/TFP M1.02 (2P, 2M)" },
+                        { horario: "10:00 a 11:40", aula: "DOC M1.03 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "CRI M3.04 (2P)" },
+                        { horario: "15:50 a 17:30", aula: "PRO M1.03 (1P)" }
+                    ]
+                },
+                {
+                    dia: "05",
+                    diaSemana: "Sexta-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "AT M1.09 (8P, 2M)" },
+                        { horario: "10:00 a 11:40", aula: "PRO M1.04 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "LOC M1.01 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "CRI M4.01 (1P)" }
+                    ]
+                },
+                {
+                    dia: "06",
+                    diaSemana: "Sábado",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "CRI M4.02 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "LOC M1.02 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "AT M1.10 (8P, 2M)" }
+                    ]
+                },
+                {
+                    dia: "07",
+                    diaSemana: "Domingo",
+                    blocos: [
+                        { horario: "Integral", aula: "Domingo Livre", destaque: true }
+                    ]
+                },
+                // === SEMANA 4 (08/06 a 14/06) ===
+                {
+                    dia: "08",
+                    diaSemana: "Segunda-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "LOC M1.03 (6P)" },
+                        { horario: "10:00 a 11:40", aula: "PRO M1.05 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "AT M1.11 (8P, 2M)" },
+                        { horario: "15:50 a 17:30", aula: "DOC M1.04 (1P)" }
+                    ]
+                },
+                {
+                    dia: "09",
+                    diaSemana: "Terça-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "PCEB M1.03 (2P, 1M)" },
+                        { horario: "10:00 a 11:40", aula: "PCEB M1.03 (2P, 1M)" },
+                        { horario: "13:50 a 15:30", aula: "CRI M4.03 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "ISDC M4.01 (2P)" }
+                    ]
+                },
+                {
+                    dia: "10",
+                    diaSemana: "Quarta-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "DOC M1.05 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "CRI M4.04 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "PCEB M3.01 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "LOC M1.04 (4P)" }
+                    ]
+                },
+                {
+                    dia: "11",
+                    diaSemana: "Quinta-feira",
+                    blocos: [
+                        { horario: "10:00 a 11:40", aula: "DPP/TFP M1.03 (2P, 2M)" },
+                        { horario: "13:50 a 15:30", aula: "PVAT M1.04 (5P)" },
+                        { horario: "15:50 a 17:30", aula: "PVAT M1.04 (5P)" },
+                        { horario: "19:00 a 20:40 (Extra)", aula: "AT M1.12 (8P, 2M)" }
+                    ]
+                },
+                {
+                    dia: "12",
+                    diaSemana: "Sexta-feira",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "LOC M1.05 (2P)" },
+                        { horario: "10:00 a 11:40", aula: "PVAT M1.05 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "AT M1.04 (4P, 1M)" },
+                        { horario: "15:50 a 17:30", aula: "PCEB M2.01 (2P)" }
+                    ]
+                },
+                {
+                    dia: "13",
+                    diaSemana: "Sábado",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "PCEB M3.02 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "AT M1.13 (8P, 2M)" }
+                    ]
+                },
+                {
+                    dia: "14",
+                    diaSemana: "Domingo",
+                    blocos: [
+                        { horario: "08:00 a 09:40", aula: "AT M2.01 (10P, 2M)" }
                     ]
                 }
             ]

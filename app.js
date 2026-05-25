@@ -72,6 +72,7 @@ async function tryLogin(username) {
                 if (result.data.comentarios) localStorage.setItem('pcpr_comments', JSON.stringify(result.data.comentarios));
                 if (result.data.historico) localStorage.setItem('pcpr_history', JSON.stringify(result.data.historico));
                 if (result.data.progresso) localStorage.setItem('pcpr_course_progress', JSON.stringify(result.data.progresso));
+                if (result.data.agendaAplicada) localStorage.setItem('pcpr_agenda_aplicada', JSON.stringify(result.data.agendaAplicada));
             }
         }
     } catch (e) {
@@ -99,12 +100,15 @@ function requestCloudSync() {
     if (syncTimeout) clearTimeout(syncTimeout);
     
     syncTimeout = setTimeout(async () => {
+        let agendaAplicada = {};
+        try { agendaAplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'); } catch (e) {}
         const payload = {
             stats: stats,
             favoritos: favoritos,
             comentarios: comentarios,
             historico: historicoQuestoes,
-            progresso: progressoCurso
+            progresso: progressoCurso,
+            agendaAplicada: agendaAplicada
         };
         
         try {
@@ -841,6 +845,132 @@ const planoEducacional = [
 
 let progressoCurso = {};
 
+// ==========================================
+// AUTO-FILL DO CONTROLE A PARTIR DA AGENDA
+// ==========================================
+// Mapeia o prefixo do código da aula (campo `aula` na agenda) para o id da
+// disciplina em planoEducacional. Prefixos null são eventos que não contam
+// no Controle (Abertura, Aula Magna, Inspeção de Estrutura do Curso, etc).
+const aulaPrefixMap = {
+    // Eventos (não contam no Controle)
+    'AA': null, 'AMAG': null, 'IEC': null, 'EVENTOS': null, 'EVENTO': null,
+    // Disciplinas regulares
+    'CRI': 'cri',
+    'BBDF': 'bbdf',
+    'AT': 'at',
+    'IPO': 'ipo',
+    'IPO-MBTIP': 'ipo', 'IPO-MIPO': 'ipo', 'IPO-MMIPO': 'ipo', 'IPO-MEGI': 'ipo',
+    'TEAP': 'teap',
+    'PVAT': 'pvat',
+    'TO': 'to',
+    'SOP': 'sop',
+    'DPP': 'dpp',
+    'TFP': 'tfp',
+    'APC': 'apc',
+    'DO': 'do',
+    'DOC': 'doc',
+    'IF': 'if',
+    'ISDC': 'isdc',
+    'JEC': 'jec',
+    'LOC': 'loc',
+    // PDF usa nomes ligeiramente diferentes do plano educacional
+    'PRO': 'pproc',     // PRO M1.0X = Perícia em Produtos e Contratações (PPROC)
+    'PPROC': 'pproc',
+    'PCEB': 'ppcexb',   // PCEB M1.0X = Perícias em Produtos Controlados, Explosivos e Balística
+    'PPCEXB': 'ppcexb'
+};
+
+// Devolve a LISTA de ids de disciplinas (em planoEducacional) a partir do
+// código da aula. Retorna [] para eventos ou códigos desconhecidos.
+// Casos especiais:
+//   - "DPP/TFP M1.02 (2P, 2M)" representa uma aula combinada que conta
+//     UMA aula de DPP E UMA aula de TFP (1h de cada, consecutivas).
+//   - Códigos não mapeados (logados no console em dev) retornam [].
+function getDisciplineIdsFromAula(aulaStr) {
+    if (!aulaStr || typeof aulaStr !== 'string') return [];
+    const head = aulaStr.split(/[\s\-(]/)[0].trim().toUpperCase();
+    // Aula combinada DPP+TFP
+    if (head === 'DPP/TFP' || head === 'TFP/DPP') return ['dpp', 'tfp'];
+    if (!(head in aulaPrefixMap)) return [];
+    const v = aulaPrefixMap[head];
+    return v ? [v] : [];
+}
+
+// Marca automaticamente como concluídas todas as aulas da agenda cuja data
+// já é hoje ou anterior. Mantém o controle de quais já foram aplicadas em
+// `pcpr_agenda_aplicada` para não interferir em desmarcações manuais
+// posteriores (se o usuário desmarcou uma aula, ela não é re-marcada).
+//
+// A contagem é cumulativa por disciplina e cronológica (importante porque
+// uma disciplina como IPO ou CRI tem vários módulos cujos contadores
+// internos zeram a cada módulo — o que vale é a posição global no curso).
+function aplicarAutoFillAgenda() {
+    if (typeof agendaDados === 'undefined' || !agendaDados.pautas || !agendaDados.pautas.pcf) return;
+
+    let aplicada = {};
+    try {
+        aplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}');
+    } catch (e) { aplicada = {}; }
+
+    const hoje = new Date();
+    hoje.setHours(23, 59, 59, 999); // Inclui o dia inteiro de hoje
+
+    // Coleta todas as aulas em ordem cronológica (data + ordem no dia)
+    const todasAulas = [];
+    Object.entries(agendaDados.pautas.pcf).forEach(([mesId, dias]) => {
+        const parts = mesId.split('-');
+        if (parts.length !== 2) return;
+        const mesNum = parseInt(parts[0], 10);
+        const anoNum = parseInt(parts[1], 10);
+        if (!mesNum || !anoNum) return;
+        dias.forEach(dia => {
+            const diaNum = parseInt(dia.dia, 10);
+            if (!diaNum) return;
+            const data = new Date(anoNum, mesNum - 1, diaNum);
+            (dia.blocos || []).forEach((bloco, ordem) => {
+                todasAulas.push({ data, ordem, aula: bloco.aula });
+            });
+        });
+    });
+    todasAulas.sort((a, b) => (a.data - b.data) || (a.ordem - b.ordem));
+
+    // Conta cumulativamente por disciplina, só até hoje (inclusive).
+    // Uma aula pode contar para mais de uma disciplina (caso DPP/TFP).
+    const targetCounts = {};
+    todasAulas.forEach(item => {
+        if (item.data > hoje) return;
+        const discIds = getDisciplineIdsFromAula(item.aula);
+        discIds.forEach(discId => {
+            targetCounts[discId] = (targetCounts[discId] || 0) + 1;
+        });
+    });
+
+    // Aplica incrementalmente: só marca aulas que ainda não haviam sido
+    // automarcadas em execuções anteriores. Assim, se o usuário desmarcou
+    // alguma aula manualmente, ela permanece desmarcada.
+    let mudou = false;
+    Object.entries(targetCounts).forEach(([discId, target]) => {
+        const disc = planoEducacional.find(d => d.id === discId);
+        if (!disc) return;
+        if (!progressoCurso[discId]) {
+            progressoCurso[discId] = new Array(disc.aulas).fill(false);
+        }
+        const jaAplicado = aplicada[discId] || 0;
+        if (target <= jaAplicado) return;
+        const limite = Math.min(target, disc.aulas);
+        for (let i = jaAplicado; i < limite; i++) {
+            if (!progressoCurso[discId][i]) {
+                progressoCurso[discId][i] = true;
+                mudou = true;
+            }
+        }
+        aplicada[discId] = limite;
+    });
+
+    localStorage.setItem('pcpr_agenda_aplicada', JSON.stringify(aplicada));
+    if (mudou) salvarProgressoCurso();
+}
+
 function carregarControleCurso() {
     const saved = localStorage.getItem('pcpr_course_progress');
     if (saved) {
@@ -852,8 +982,35 @@ function carregarControleCurso() {
         });
         salvarProgressoCurso();
     }
-    
+
+    aplicarAutoFillAgenda();
     renderizarGridControle();
+    configurarBotaoAtualizarControle();
+}
+
+// Re-executa o auto-fill da agenda manualmente. Útil quando o usuário
+// quer marcar as aulas que aconteceram hoje sem precisar fechar/abrir o app.
+function atualizarControleAgora() {
+    aplicarAutoFillAgenda();
+    renderizarGridControle();
+
+    // Feedback visual no próprio botão
+    const btn = document.getElementById('btn-atualizar-controle');
+    if (!btn || btn.dataset.busy === '1') return;
+    btn.dataset.busy = '1';
+    const html = btn.innerHTML;
+    btn.innerHTML = '<i class="ph ph-check"></i> Atualizado';
+    setTimeout(() => {
+        btn.innerHTML = html;
+        delete btn.dataset.busy;
+    }, 1500);
+}
+
+function configurarBotaoAtualizarControle() {
+    const btn = document.getElementById('btn-atualizar-controle');
+    if (!btn || btn.dataset.bound === '1') return;
+    btn.addEventListener('click', atualizarControleAgora);
+    btn.dataset.bound = '1';
 }
 
 function salvarProgressoCurso() {

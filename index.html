@@ -265,7 +265,12 @@
         <main id="control-view" class="view">
             <div class="glass-panel control-panel">
                 <div class="control-header">
-                    <h2><i class="ph ph-list-checks"></i> Controle de Disciplinas</h2>
+                    <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+                        <h2 style="margin: 0;"><i class="ph ph-list-checks"></i> Controle de Disciplinas</h2>
+                        <button id="btn-atualizar-controle" class="btn-secondary btn-icon" type="button">
+                            <i class="ph ph-arrows-clockwise"></i> Atualizar
+                        </button>
+                    </div>
                     <div class="global-progress-container" style="margin-top: 16px;">
                         <div class="discipline-progress-info">
                             <span class="progress-text" id="global-prog-text" style="font-weight: 600; font-size: 0.9rem;">0 / 0 Aulas (Progresso Geral)</span>
@@ -344,8 +349,8 @@
         </main>
     </div>
     
-    <script src="agenda_dados.js?v=4"></script>
+    <script src="agenda_dados.js?v=5"></script>
     <script src="banco_questoes.js?v=11"></script>
-    <script src="app.js?v=11"></script>
+    <script src="app.js?v=14"></script>
 </body>
 </html>
