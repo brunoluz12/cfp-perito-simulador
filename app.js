@@ -124,33 +124,176 @@ function requestCloudSync() {
     }, 2000); // 2 segundos de debounce para não spammar requisições
 }
 
+// ==========================================
+// COMPONENTE MULTI-SELECT
+// ==========================================
+class MultiSelect {
+    constructor(rootEl, opts = {}) {
+        this.root = rootEl;
+        this.trigger = rootEl.querySelector('.multi-select-trigger');
+        this.label = rootEl.querySelector('.multi-select-label');
+        this.dropdown = rootEl.querySelector('.multi-select-dropdown');
+        this.optionsContainer = rootEl.querySelector('.multi-select-options');
+        this.placeholder = opts.placeholder || 'Selecionar...';
+        this.allLabel = opts.allLabel || 'Todos selecionados';
+        this.onChange = opts.onChange || (() => {});
+        this.options = [];
+        this.selected = new Set();
+        this._bind();
+    }
+
+    _bind() {
+        this.trigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.toggle();
+        });
+        document.addEventListener('click', (e) => {
+            if (!this.root.contains(e.target)) this.close();
+        });
+        this.root.querySelectorAll('.multi-select-actions button').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (btn.dataset.action === 'all') this.selectAll();
+                else if (btn.dataset.action === 'none') this.selectNone();
+            });
+        });
+    }
+
+    setOptions(opts) {
+        this.options = opts;
+        // Mantém apenas seleções que ainda existem nas novas opções
+        const valid = new Set(opts.map(o => o.value));
+        for (const v of [...this.selected]) {
+            if (!valid.has(v)) this.selected.delete(v);
+        }
+        this._renderOptions();
+        this._updateLabel();
+    }
+
+    _renderOptions() {
+        this.optionsContainer.innerHTML = '';
+        if (this.options.length === 0) {
+            this.optionsContainer.innerHTML = '<div class="multi-select-empty">Nenhuma opção disponível</div>';
+            return;
+        }
+        this.options.forEach(opt => {
+            const label = document.createElement('label');
+            label.className = 'multi-select-option';
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.value = opt.value;
+            cb.checked = this.selected.has(opt.value);
+            const txt = document.createElement('span');
+            txt.className = 'opt-text';
+            txt.textContent = opt.label;
+            label.appendChild(cb);
+            label.appendChild(txt);
+            if (opt.count != null) {
+                const c = document.createElement('span');
+                c.className = 'opt-count';
+                c.textContent = opt.count;
+                label.appendChild(c);
+            }
+            cb.addEventListener('change', () => {
+                if (cb.checked) this.selected.add(opt.value);
+                else this.selected.delete(opt.value);
+                this._updateLabel();
+                this.onChange(this.getSelected());
+            });
+            this.optionsContainer.appendChild(label);
+        });
+    }
+
+    _updateLabel() {
+        const n = this.selected.size;
+        const total = this.options.length;
+        if (total === 0) {
+            this.label.textContent = this.placeholder;
+            this.label.classList.add('is-placeholder');
+        } else if (n === 0) {
+            this.label.textContent = this.placeholder;
+            this.label.classList.add('is-placeholder');
+        } else if (n === total) {
+            this.label.textContent = this.allLabel;
+            this.label.classList.remove('is-placeholder');
+        } else if (n === 1) {
+            const v = [...this.selected][0];
+            const opt = this.options.find(o => o.value === v);
+            this.label.textContent = opt ? opt.label : v;
+            this.label.classList.remove('is-placeholder');
+        } else {
+            this.label.textContent = `${n} selecionado(s)`;
+            this.label.classList.remove('is-placeholder');
+        }
+    }
+
+    getSelected() { return [...this.selected]; }
+
+    selectAll() {
+        this.options.forEach(o => this.selected.add(o.value));
+        this._syncCheckboxes();
+        this._updateLabel();
+        this.onChange(this.getSelected());
+    }
+    selectNone() {
+        this.selected.clear();
+        this._syncCheckboxes();
+        this._updateLabel();
+        this.onChange(this.getSelected());
+    }
+    _syncCheckboxes() {
+        this.optionsContainer.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+            cb.checked = this.selected.has(cb.value);
+        });
+    }
+    open() { this.root.classList.add('is-open'); }
+    close() { this.root.classList.remove('is-open'); }
+    toggle() {
+        if (this.trigger.disabled) return;
+        this.root.classList.toggle('is-open');
+    }
+    setDisabled(disabled) {
+        this.trigger.disabled = disabled;
+        if (disabled) this.close();
+    }
+}
+
+let msDisciplina = null;
+let msConteudo = null;
+
 // CARREGAMENTO DE DADOS
 function carregarBancoQuestoes() {
     try {
         if (typeof questoesDB === 'undefined') {
             throw new Error('Variável questoesDB não encontrada. Verifique se o banco_questoes.js está correto.');
         }
-        
+
         bancoQuestoes = questoesDB;
-        
-        // Extrai disciplinas únicas
-        const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))];
-        
-        const selectDisciplina = document.getElementById('disciplina-select');
-        selectDisciplina.innerHTML = '<option value="" disabled selected>Selecione a disciplina</option>';
-        
-        disciplinas.forEach(disc => {
-            const option = document.createElement('option');
-            option.value = disc;
-            option.textContent = disc;
-            selectDisciplina.appendChild(option);
+
+        // Extrai disciplinas únicas (ordenadas)
+        const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
+
+        // Inicializa Multi-Selects
+        msDisciplina = new MultiSelect(document.getElementById('ms-disciplina'), {
+            placeholder: 'Selecione disciplinas...',
+            allLabel: 'Todas as disciplinas',
+            onChange: () => atualizarFiltroConteudo()
+        });
+        msConteudo = new MultiSelect(document.getElementById('ms-conteudo'), {
+            placeholder: 'Todos (ou selecione específicos)',
+            allLabel: 'Todos os conteúdos'
         });
 
-        // Evento para atualizar conteúdos quando a disciplina muda
-        selectDisciplina.addEventListener('change', atualizarFiltroConteudo);
+        msDisciplina.setOptions(disciplinas.map(d => ({
+            value: d,
+            label: d,
+            count: bancoQuestoes.filter(q => q.disciplina === d).length
+        })));
 
-        // Habilita botão
+        // Habilita botões
         document.getElementById('btn-start').disabled = false;
+        const btnSim = document.getElementById('btn-open-simulado');
+        if (btnSim) btnSim.disabled = false;
         document.getElementById('loading-msg').style.display = 'none';
 
     } catch (error) {
@@ -348,13 +491,27 @@ function showView(viewName) {
 
 // FLUXO DO SIMULADO
 function configurarEventos() {
-    document.getElementById('config-form').addEventListener('submit', iniciarSimulado);
+    document.getElementById('config-form').addEventListener('submit', gerarCaderno);
     document.getElementById('btn-voltar').addEventListener('click', () => showView('dashboard'));
     document.getElementById('btn-finalizar-quiz').addEventListener('click', finalizarSimulado);
     document.getElementById('btn-proxima').addEventListener('click', proximaQuestao);
-    
-    document.getElementById('disciplina-select').addEventListener('change', atualizarFiltroConteudo);
-    
+
+    // Botões do modal "Gerar Simulado"
+    const btnOpenSim = document.getElementById('btn-open-simulado');
+    if (btnOpenSim) btnOpenSim.addEventListener('click', abrirModalSimulado);
+    const btnSimClose = document.getElementById('simulado-modal-close');
+    if (btnSimClose) btnSimClose.addEventListener('click', fecharModalSimulado);
+    const btnSimCancel = document.getElementById('btn-sim-cancel');
+    if (btnSimCancel) btnSimCancel.addEventListener('click', fecharModalSimulado);
+    const btnSimGenerate = document.getElementById('btn-sim-generate');
+    if (btnSimGenerate) btnSimGenerate.addEventListener('click', gerarSimuladoModal);
+    const simTotal = document.getElementById('sim-total-input');
+    if (simTotal) simTotal.addEventListener('input', atualizarResumoSimulado);
+    const overlay = document.getElementById('simulado-modal');
+    if (overlay) overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) fecharModalSimulado();
+    });
+
     document.getElementById('btn-voltar-dashboard').addEventListener('click', () => showView('dashboard'));
     document.getElementById('btn-reset-stats').addEventListener('click', zerarEstatisticas);
     document.getElementById('btn-responder').addEventListener('click', verificarResposta);
@@ -387,65 +544,226 @@ function configurarEventos() {
 }
 
 function atualizarFiltroConteudo() {
-    const disciplinaSelecionada = document.getElementById('disciplina-select').value;
-    const selectConteudo = document.getElementById('conteudo-select');
-    
-    // Pega as questões da disciplina selecionada
-    let questoesDisciplina = bancoQuestoes.filter(q => q.disciplina === disciplinaSelecionada);
-    
-    // Pega todos os conteúdos únicos
-    const conteudos = [...new Set(questoesDisciplina.map(q => q.conteudo))];
-    
-    // Atualiza a opção 'Todos' com o total da disciplina
-    selectConteudo.innerHTML = `<option value="todos" selected>Todos os conteúdos (${questoesDisciplina.length})</option>`;
-    
-    // Ordena os conteúdos alfabeticamente/numericamente e adiciona o contador
-    conteudos.sort().forEach(cont => {
-        const totalConteudo = questoesDisciplina.filter(q => q.conteudo === cont).length;
-        const option = document.createElement('option');
-        option.value = cont;
-        option.textContent = `${cont} (${totalConteudo})`;
-        selectConteudo.appendChild(option);
-    });
-    
-    selectConteudo.disabled = false;
+    if (!msDisciplina || !msConteudo) return;
+    const disciplinas = msDisciplina.getSelected();
+    if (disciplinas.length === 0) {
+        msConteudo.setOptions([]);
+        msConteudo.setDisabled(true);
+        return;
+    }
+    msConteudo.setDisabled(false);
+    const questoes = bancoQuestoes.filter(q => disciplinas.includes(q.disciplina));
+    const conteudos = [...new Set(questoes.map(q => q.conteudo))].sort();
+    msConteudo.setOptions(conteudos.map(c => ({
+        value: c,
+        label: c,
+        count: questoes.filter(q => q.conteudo === c).length
+    })));
 }
 
-function iniciarSimulado(e) {
-    e.preventDefault();
-    
-    const disciplina = document.getElementById('disciplina-select').value;
-    const conteudo = document.getElementById('conteudo-select').value;
+// ==========================================
+// MODAL "GERAR SIMULADO" (multi-disciplina/conteúdo com qtd por conteúdo)
+// ==========================================
+function abrirModalSimulado() {
+    const overlay = document.getElementById('simulado-modal');
+    if (!overlay) return;
+    popularArvoreSimulado();
+    overlay.classList.add('is-open');
+    overlay.setAttribute('aria-hidden', 'false');
+    atualizarResumoSimulado();
+}
+
+function fecharModalSimulado() {
+    const overlay = document.getElementById('simulado-modal');
+    if (!overlay) return;
+    overlay.classList.remove('is-open');
+    overlay.setAttribute('aria-hidden', 'true');
+}
+
+function popularArvoreSimulado() {
+    const tree = document.getElementById('simulado-tree');
+    if (!tree) return;
+    tree.innerHTML = '';
+
+    // Agrupa por disciplina → conteúdo → total disponível
+    const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
+    disciplinas.forEach(disc => {
+        const conteudos = [...new Set(
+            bancoQuestoes.filter(q => q.disciplina === disc).map(q => q.conteudo)
+        )].sort();
+
+        const group = document.createElement('div');
+        group.className = 'discipline-group';
+
+        const header = document.createElement('div');
+        header.className = 'discipline-group-header';
+        header.innerHTML = `<span>${disc}</span><i class="ph ph-caret-down"></i>`;
+        header.addEventListener('click', () => group.classList.toggle('is-collapsed'));
+        group.appendChild(header);
+
+        const body = document.createElement('div');
+        body.className = 'discipline-group-body';
+
+        conteudos.forEach(cont => {
+            const total = bancoQuestoes.filter(q => q.disciplina === disc && q.conteudo === cont).length;
+            const row = document.createElement('div');
+            row.className = 'conteudo-row';
+            row.dataset.disciplina = disc;
+            row.dataset.conteudo = cont;
+            row.dataset.max = total;
+
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.className = 'sim-cb';
+
+            const lbl = document.createElement('div');
+            lbl.className = 'conteudo-label';
+            lbl.innerHTML = `${cont}<span class="conteudo-available">(${total} disponíveis)</span>`;
+
+            const qty = document.createElement('input');
+            qty.type = 'number';
+            qty.min = '0';
+            qty.max = String(total);
+            qty.value = '0';
+            qty.className = 'sim-qty';
+            qty.disabled = true;
+
+            cb.addEventListener('change', () => {
+                qty.disabled = !cb.checked;
+                if (cb.checked) {
+                    row.classList.add('is-selected');
+                    if (parseInt(qty.value, 10) === 0) qty.value = Math.min(5, total);
+                } else {
+                    row.classList.remove('is-selected');
+                    qty.value = '0';
+                }
+                atualizarResumoSimulado();
+            });
+
+            qty.addEventListener('input', () => {
+                let v = parseInt(qty.value, 10);
+                if (isNaN(v) || v < 0) v = 0;
+                if (v > total) v = total;
+                qty.value = String(v);
+                atualizarResumoSimulado();
+            });
+
+            row.appendChild(cb);
+            row.appendChild(lbl);
+            row.appendChild(qty);
+            body.appendChild(row);
+        });
+
+        group.appendChild(body);
+        tree.appendChild(group);
+    });
+}
+
+function atualizarResumoSimulado() {
+    const target = parseInt(document.getElementById('sim-total-input').value, 10) || 0;
+    document.getElementById('sim-target').textContent = target;
+
+    const rows = document.querySelectorAll('#simulado-tree .conteudo-row');
+    let soma = 0;
+    rows.forEach(r => {
+        const cb = r.querySelector('.sim-cb');
+        const qty = r.querySelector('.sim-qty');
+        if (cb.checked) soma += parseInt(qty.value, 10) || 0;
+    });
+
+    const sumEl = document.getElementById('sim-sum');
+    sumEl.textContent = soma;
+
+    const summary = document.getElementById('simulado-summary');
+    const btnGen = document.getElementById('btn-sim-generate');
+    const valido = soma > 0 && soma === target;
+    summary.classList.toggle('is-error', !valido && soma > 0);
+    btnGen.disabled = !valido;
+}
+
+function gerarSimuladoModal() {
+    const rows = document.querySelectorAll('#simulado-tree .conteudo-row');
+    const buckets = [];
+    rows.forEach(r => {
+        const cb = r.querySelector('.sim-cb');
+        if (!cb.checked) return;
+        const qty = parseInt(r.querySelector('.sim-qty').value, 10) || 0;
+        if (qty <= 0) return;
+        buckets.push({
+            disciplina: r.dataset.disciplina,
+            conteudo: r.dataset.conteudo,
+            qty
+        });
+    });
+    if (buckets.length === 0) return alert("Selecione ao menos um conteúdo com quantidade > 0.");
+
+    // Para cada bucket, sorteia N questões aleatórias
+    const todasSorteadas = [];
+    for (const b of buckets) {
+        const pool = bancoQuestoes
+            .filter(q => q.disciplina === b.disciplina && q.conteudo === b.conteudo)
+            .slice();
+        pool.sort(() => Math.random() - 0.5);
+        todasSorteadas.push(...pool.slice(0, b.qty));
+    }
+
+    // Embaralha o agregado final para misturar disciplinas
+    todasSorteadas.sort(() => Math.random() - 0.5);
+
+    if (todasSorteadas.length === 0) {
+        return alert("Não foi possível gerar o simulado com os parâmetros escolhidos.");
+    }
+
+    simuladoAtual = todasSorteadas;
+    questaoAtualIndex = 0;
+    acertosSimulado = 0;
+    errosSimulado = 0;
+
+    const disciplinasUsadas = [...new Set(buckets.map(b => b.disciplina))];
+    document.getElementById('quiz-disciplina-badge').textContent =
+        disciplinasUsadas.length === 1 ? disciplinasUsadas[0] : `${disciplinasUsadas.length} disciplinas`;
+
+    fecharModalSimulado();
+    carregarQuestaoUI();
+    showView('quiz');
+}
+
+function gerarCaderno(e) {
+    if (e) e.preventDefault();
+
+    const disciplinas = msDisciplina ? msDisciplina.getSelected() : [];
+    const conteudosSelecionados = msConteudo ? msConteudo.getSelected() : [];
     const apenasFavoritas = document.getElementById('filtro-favoritas').checked;
     const ocultarRespondidas = document.getElementById('filtro-ocultar-respondidas').checked;
     const apenasErros = document.getElementById('filtro-apenas-erros').checked;
-    
+
     const chkTodas = document.getElementById('chk-qtd-todas').checked;
     const inputQtdValue = document.getElementById('qtd-questoes-input').value;
-    
-    if (!disciplina) return alert("Selecione uma disciplina!");
 
-    // Filtrar questões
-    let questoesFiltradas = bancoQuestoes.filter(q => q.disciplina === disciplina);
-    
-    if (conteudo !== 'todos') {
-        questoesFiltradas = questoesFiltradas.filter(q => q.conteudo === conteudo);
+    if (disciplinas.length === 0) return alert("Selecione pelo menos uma disciplina!");
+
+    // Filtra por disciplina(s)
+    let questoesFiltradas = bancoQuestoes.filter(q => disciplinas.includes(q.disciplina));
+
+    // Se algum conteúdo foi selecionado, filtra por eles. Se nenhum, considera todos.
+    if (conteudosSelecionados.length > 0) {
+        questoesFiltradas = questoesFiltradas.filter(q => conteudosSelecionados.includes(q.conteudo));
     }
-    
+
     if (apenasFavoritas) {
         questoesFiltradas = questoesFiltradas.filter(q => favoritos.includes(q.id));
         if (questoesFiltradas.length === 0) {
             return alert("Nenhuma questão favoritada encontrada com os filtros atuais.");
         }
     }
-    
+
     if (ocultarRespondidas) {
         questoesFiltradas = questoesFiltradas.filter(q => !historicoQuestoes[q.id]);
         if (questoesFiltradas.length === 0) {
             return alert("Você já respondeu a todas as questões desta seleção. Tente remover o filtro ou escolher outra disciplina.");
         }
     }
-    
+
     if (apenasErros) {
         questoesFiltradas = questoesFiltradas.filter(q => {
             const h = historicoQuestoes[q.id];
@@ -455,28 +773,28 @@ function iniciarSimulado(e) {
             return alert("Nenhuma questão com erro encontrada para esta seleção.");
         }
     }
-    
+
     // Embaralhar
     questoesFiltradas.sort(() => Math.random() - 0.5);
 
     // Definir quantidade
     let qtd = chkTodas ? questoesFiltradas.length : parseInt(inputQtdValue);
-    if (isNaN(qtd) || qtd < 1) qtd = 10; // Fallback
-    
-    // Pegar subarray
+    if (isNaN(qtd) || qtd < 1) qtd = 10;
+
     simuladoAtual = questoesFiltradas.slice(0, qtd);
-    
+
     if (simuladoAtual.length === 0) {
-        return alert("Nenhuma questão encontrada para esta disciplina.");
+        return alert("Nenhuma questão encontrada para esta seleção.");
     }
 
-    // Resetar variáveis de estado
+    // Resetar estado
     questaoAtualIndex = 0;
     acertosSimulado = 0;
     errosSimulado = 0;
-    
-    document.getElementById('quiz-disciplina-badge').textContent = disciplina;
-    
+
+    const badge = disciplinas.length === 1 ? disciplinas[0] : `${disciplinas.length} disciplinas`;
+    document.getElementById('quiz-disciplina-badge').textContent = badge;
+
     carregarQuestaoUI();
     showView('quiz');
 }

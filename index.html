@@ -59,22 +59,42 @@
             <div class="dashboard-grid">
                 <!-- Painel de Configuração -->
                 <div class="glass-panel config-panel">
-                    <h2><i class="ph ph-sliders-horizontal"></i> Configurar Simulado</h2>
+                    <h2><i class="ph ph-sliders-horizontal"></i> Caderno de Questões</h2>
                     <form id="config-form">
-                        
+
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="disciplina-select"><i class="ph ph-book-open"></i> Disciplina</label>
-                                <select id="disciplina-select" required>
-                                    <option value="" disabled selected>Carregando disciplinas...</option>
-                                </select>
+                                <label><i class="ph ph-book-open"></i> Disciplina</label>
+                                <div class="multi-select" id="ms-disciplina">
+                                    <button type="button" class="multi-select-trigger">
+                                        <span class="multi-select-label is-placeholder">Carregando disciplinas...</span>
+                                        <i class="ph ph-caret-down"></i>
+                                    </button>
+                                    <div class="multi-select-dropdown">
+                                        <div class="multi-select-actions">
+                                            <button type="button" data-action="all">Todas</button>
+                                            <button type="button" data-action="none">Nenhuma</button>
+                                        </div>
+                                        <div class="multi-select-options"></div>
+                                    </div>
+                                </div>
                             </div>
-                            
+
                             <div class="form-group">
-                                <label for="conteudo-select"><i class="ph ph-list-bullets"></i> Conteúdo</label>
-                                <select id="conteudo-select" required disabled>
-                                    <option value="todos" selected>Todos os conteúdos</option>
-                                </select>
+                                <label><i class="ph ph-list-bullets"></i> Conteúdo</label>
+                                <div class="multi-select" id="ms-conteudo">
+                                    <button type="button" class="multi-select-trigger" disabled>
+                                        <span class="multi-select-label is-placeholder">Selecione disciplinas primeiro</span>
+                                        <i class="ph ph-caret-down"></i>
+                                    </button>
+                                    <div class="multi-select-dropdown">
+                                        <div class="multi-select-actions">
+                                            <button type="button" data-action="all">Todos</button>
+                                            <button type="button" data-action="none">Nenhum</button>
+                                        </div>
+                                        <div class="multi-select-options"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -122,9 +142,14 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn-primary" id="btn-start" disabled>
-                            <i class="ph ph-play-circle"></i> Iniciar Simulado
-                        </button>
+                        <div class="btn-row">
+                            <button type="submit" class="btn-primary" id="btn-start" disabled>
+                                <i class="ph ph-notebook"></i> Gerar Caderno
+                            </button>
+                            <button type="button" class="btn-secondary" id="btn-open-simulado" disabled>
+                                <i class="ph ph-exam"></i> Gerar Simulado
+                            </button>
+                        </div>
                         <p id="loading-msg" class="loading-msg">Carregando banco de questões...</p>
                     </form>
                 </div>
@@ -348,9 +373,42 @@
             </div>
         </main>
     </div>
-    
+
+    <!-- MODAL: Gerar Simulado -->
+    <div id="simulado-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="simulado-modal-title">
+            <div class="modal-header">
+                <h3 id="simulado-modal-title"><i class="ph ph-exam"></i> Gerar Simulado</h3>
+                <button type="button" class="modal-close" id="simulado-modal-close" aria-label="Fechar">
+                    <i class="ph ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="simulado-total-row">
+                    <label for="sim-total-input">Total de questões:</label>
+                    <input type="number" id="sim-total-input" min="1" value="20" />
+                    <span style="font-size: 0.85rem; color: var(--text-muted);">Selecione conteúdos e a quantidade que deseja de cada um (a soma deve fechar com o total acima).</span>
+                </div>
+                <div id="simulado-tree" class="simulado-tree">
+                    <!-- Grupos de disciplina/conteúdo gerados via JS -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div id="simulado-summary" class="modal-summary">
+                    Soma selecionada: <strong id="sim-sum">0</strong> / <span id="sim-target">20</span>
+                </div>
+                <div style="display: flex; gap: 10px;">
+                    <button type="button" class="btn-secondary" id="btn-sim-cancel">Cancelar</button>
+                    <button type="button" class="btn-primary" id="btn-sim-generate" disabled>
+                        <i class="ph ph-play-circle"></i> Iniciar Simulado
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="agenda_dados.js?v=5"></script>
     <script src="banco_questoes.js?v=11"></script>
-    <script src="app.js?v=14"></script>
+    <script src="app.js?v=15"></script>
 </body>
 </html>
