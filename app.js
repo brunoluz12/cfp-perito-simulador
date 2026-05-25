@@ -1573,23 +1573,58 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusMsg = document.getElementById('material-loading-status');
     
     const materialData = {
-        'criminalistica': { path: 'CRIMINALISTICA', maxCaps: 17 },
-        'ipo': { path: 'IPO', maxCaps: 9 }
+        'criminalistica': {
+            path: 'CRIMINALISTICA',
+            capitulos: [
+                'Contexto de inserção da Criminalística: A Polícia Judiciária',
+                'A Criminalística – História',
+                'A atuação técnica do Perito e a integração científica na investigação',
+                'O Perito',
+                'A prova',
+                'Teoria dos vestígios',
+                'Indícios',
+                'Exame pericial',
+                'Laudo Pericial',
+                'Regulamentação internacional da Criminalística',
+                'Cadeia de Custódia',
+                'Gestão da Criminalística na PF e principais conceitos',
+                'Normativos e boas práticas da Gestão da Criminalística',
+                'Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)',
+                'Aula prática (SISCRIM)',
+                'O Método científico na prática pericial',
+                'Inferência lógica'
+            ]
+        },
+        'ipo': {
+            path: 'IPO',
+            capitulos: [
+                'Apresentação',
+                'Introdução',
+                'Teoria da Investigação',
+                'Investigação Policial',
+                'Inquérito Policial',
+                'Metodologia da Investigação Policial',
+                'Estratégias para Nortear a Investigação',
+                'Gerenciamento das Investigações',
+                'Conclusão'
+            ]
+        }
     };
-    
+
     if(matDisc) {
         matDisc.addEventListener('change', () => {
             const disc = materialData[matDisc.value];
             matCap.innerHTML = '<option value="" disabled selected>Selecione o capítulo</option>';
-            
+
             if(disc) {
-                for(let i = 1; i <= disc.maxCaps; i++) {
+                disc.capitulos.forEach((titulo, idx) => {
+                    const i = idx + 1;
                     const num = i.toString().padStart(2, '0');
                     const opt = document.createElement('option');
                     opt.value = `Capitulo_${num}.html`;
-                    opt.textContent = `Capítulo ${i}`;
+                    opt.textContent = `Capítulo ${i} - ${titulo}`;
                     matCap.appendChild(opt);
-                }
+                });
                 matCap.disabled = false;
             }
         });
