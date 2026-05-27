@@ -24,7 +24,8 @@ const views = {
     result: document.getElementById('result-view'),
     'control-view': document.getElementById('control-view'),
     'material-view': document.getElementById('material-view'),
-    'agenda-view': document.getElementById('agenda-view')
+    'agenda-view': document.getElementById('agenda-view'),
+    'psico-view': document.getElementById('psico-view')
 };
 
 // VARIÁVEIS DE NUVEM
@@ -1541,11 +1542,13 @@ function switchMainTab(tabName) {
     const tabControle = document.getElementById('tab-controle');
     const tabMaterial = document.getElementById('tab-material');
     const tabAgenda = document.getElementById('tab-agenda');
+    const tabPsico = document.getElementById('tab-psico');
     
     if (tabSimulador) tabSimulador.classList.remove('active');
     if (tabControle) tabControle.classList.remove('active');
     if (tabMaterial) tabMaterial.classList.remove('active');
     if (tabAgenda) tabAgenda.classList.remove('active');
+    if (tabPsico) tabPsico.classList.remove('active');
     
     if (tabName === 'simulador') {
         if (tabSimulador) tabSimulador.classList.add('active');
@@ -1559,6 +1562,9 @@ function switchMainTab(tabName) {
     } else if (tabName === 'agenda') {
         if (tabAgenda) tabAgenda.classList.add('active');
         showView('agenda-view');
+    } else if (tabName === 'psico') {
+        if (tabPsico) tabPsico.classList.add('active');
+        showView('psico-view');
     }
 }
 

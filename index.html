@@ -37,6 +37,8 @@
                 <span class="tab-divider">|</span>
                 <h1 id="tab-agenda" class="tab-link" onclick="switchMainTab('agenda')"><i class="ph ph-calendar-blank"></i> Agenda</h1>
                 <span class="tab-divider">|</span>
+                <h1 id="tab-psico" class="tab-link" onclick="switchMainTab('psico')"><i class="ph ph-brain"></i> Testes</h1>
+                <span class="tab-divider">|</span>
                 <h1 id="tab-controle" class="tab-link" onclick="switchMainTab('controle')">Controle</h1>
             </div>
             <div class="user-stats">
@@ -372,6 +374,22 @@
                 <!-- Calendário renderizado via JS -->
             </div>
         </main>
+
+        <!-- TELA DE TESTES PSICOLÓGICOS -->
+        <main id="psico-view" class="view">
+            <div class="glass-panel psico-panel">
+                <h2><i class="ph ph-brain"></i> Testes Psicológicos</h2>
+                <p style="color: var(--text-muted); margin-bottom: 20px; font-size: 0.9rem;">Simuladores educacionais de testes psicotécnicos. Selecione um teste abaixo para iniciar.</p>
+                <div class="form-group" style="margin-bottom: 0;">
+                    <label for="psico-test-select"><i class="ph ph-list-bullets"></i> Selecione o Teste</label>
+                    <select id="psico-test-select">
+                        <option value="" disabled selected>Escolha um teste...</option>
+                        <option value="pfister">Pirâmides Coloridas de Pfister</option>
+                    </select>
+                </div>
+            </div>
+            <div id="psico-test-container" class="mt-4"></div>
+        </main>
     </div>
 
     <!-- MODAL: Gerar Simulado -->
@@ -430,6 +448,7 @@
 
     <script src="agenda_dados.js?v=5"></script>
     <script src="banco_questoes.js?v=12"></script>
-    <script src="app.js?v=17"></script>
+    <script src="app.js?v=18"></script>
+    <script src="pfister.js?v=1"></script>
 </body>
 </html>
