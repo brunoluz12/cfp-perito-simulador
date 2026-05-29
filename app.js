@@ -74,6 +74,7 @@ async function tryLogin(username) {
                 if (result.data.historico) localStorage.setItem('pcpr_history', JSON.stringify(result.data.historico));
                 if (result.data.progresso) localStorage.setItem('pcpr_course_progress', JSON.stringify(result.data.progresso));
                 if (result.data.agendaAplicada) localStorage.setItem('pcpr_agenda_aplicada', JSON.stringify(result.data.agendaAplicada));
+                if (result.data.materialEstudado) localStorage.setItem('pcpr_material_studied', JSON.stringify(result.data.materialEstudado));
             }
         }
     } catch (e) {
@@ -109,7 +110,8 @@ function requestCloudSync() {
             comentarios: comentarios,
             historico: historicoQuestoes,
             progresso: progressoCurso,
-            agendaAplicada: agendaAplicada
+            agendaAplicada: agendaAplicada,
+            materialEstudado: materialEstudado
         };
         
         try {
@@ -1571,12 +1573,74 @@ function switchMainTab(tabName) {
 // ==========================================
 // CONTROLE DE MATERIAIS
 // ==========================================
+let materialEstudado = {};
+
+function carregarMaterialEstudado() {
+    try {
+        materialEstudado = JSON.parse(localStorage.getItem('pcpr_material_studied') || '{}');
+    } catch (e) {
+        materialEstudado = {};
+    }
+}
+
+function salvarMaterialEstudado() {
+    localStorage.setItem('pcpr_material_studied', JSON.stringify(materialEstudado));
+    requestCloudSync();
+}
+
+function getMaterialKey(disciplina, capituloFile) {
+    return `${disciplina}::${capituloFile}`;
+}
+
+function atualizarEstiloOpcoes(selectElement, disciplina) {
+    const options = selectElement.querySelectorAll('option');
+    options.forEach(opt => {
+        if (opt.value && !opt.disabled) {
+            const key = getMaterialKey(disciplina, opt.value);
+            if (materialEstudado[key]) {
+                opt.style.color = '#10b981';
+                opt.style.fontWeight = '600';
+                // Adiciona checkmark ao texto se não tiver ainda
+                if (!opt.textContent.startsWith('✅ ')) {
+                    opt.textContent = '✅ ' + opt.textContent;
+                }
+            } else {
+                opt.style.color = '';
+                opt.style.fontWeight = '';
+                opt.textContent = opt.textContent.replace(/^✅ /, '');
+            }
+        }
+    });
+}
+
+function atualizarBotaoEstudado(disciplina, capituloFile) {
+    const btnEstudado = document.getElementById('btn-marcar-estudado');
+    const btnLabel = document.getElementById('btn-estudado-label');
+    if (!btnEstudado || !btnLabel) return;
+
+    const key = getMaterialKey(disciplina, capituloFile);
+    btnEstudado.style.display = 'inline-flex';
+
+    if (materialEstudado[key]) {
+        btnLabel.textContent = 'Estudado ✔';
+        btnEstudado.style.background = 'rgba(16, 185, 129, 0.15)';
+        btnEstudado.style.color = '#10b981';
+        btnEstudado.style.borderColor = '#10b981';
+    } else {
+        btnLabel.textContent = 'Marcar como Estudado';
+        btnEstudado.style.background = '';
+        btnEstudado.style.color = '';
+        btnEstudado.style.borderColor = '';
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const matDisc = document.getElementById('material-disciplina-select');
     const matCap = document.getElementById('material-capitulo-select');
     const iframeContainer = document.querySelector('.material-reader-container');
     const iframe = document.getElementById('material-iframe');
     const statusMsg = document.getElementById('material-loading-status');
+    const btnEstudado = document.getElementById('btn-marcar-estudado');
     
     const materialData = {
         'criminalistica': {
@@ -1617,10 +1681,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    carregarMaterialEstudado();
+
     if(matDisc) {
         matDisc.addEventListener('change', () => {
             const disc = materialData[matDisc.value];
             matCap.innerHTML = '<option value="" disabled selected>Selecione o capítulo</option>';
+            btnEstudado.style.display = 'none';
 
             if(disc) {
                 disc.capitulos.forEach((titulo, idx) => {
@@ -1632,6 +1699,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     matCap.appendChild(opt);
                 });
                 matCap.disabled = false;
+                atualizarEstiloOpcoes(matCap, matDisc.value);
             }
         });
         
@@ -1656,6 +1724,27 @@ document.addEventListener('DOMContentLoaded', () => {
             };
             
             iframe.src = url;
+            
+            // Atualiza o botão de estudado
+            atualizarBotaoEstudado(matDisc.value, matCap.value);
+        });
+    }
+
+    // Botão de marcar como estudado
+    if (btnEstudado) {
+        btnEstudado.addEventListener('click', () => {
+            if (!matDisc.value || !matCap.value) return;
+            const key = getMaterialKey(matDisc.value, matCap.value);
+
+            if (materialEstudado[key]) {
+                delete materialEstudado[key];
+            } else {
+                materialEstudado[key] = true;
+            }
+
+            salvarMaterialEstudado();
+            atualizarBotaoEstudado(matDisc.value, matCap.value);
+            atualizarEstiloOpcoes(matCap, matDisc.value);
         });
     }
 
