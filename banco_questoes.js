@@ -2941,2437 +2941,6 @@ const questoesDB = [
     "referencia": "Cap. 8, Seção 8.9.4, p. 187"
   },
   {
-    "id": 174,
-    "disciplina": "Criminalística",
-    "conteudo": "Introdução",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a Introdução do Caderno Didático, a Criminalística é caracterizada como campo do conhecimento voltado à descoberta, reconhecimento, coleta, preservação, análise e interpretação técnica dos vestígios relacionados a fatos de interesse jurídico-penal. Esse campo é descrito como:",
-    "alternativas": {
-      "A": "Estritamente laboratorial, restrito à fase processual da persecução penal.",
-      "B": "Multidisciplinar, voltado a transformar sinais dispersos do mundo físico em informação qualificada e juridicamente útil.",
-      "C": "Unidisciplinar, fundado exclusivamente nas ciências biológicas.",
-      "D": "Subjetivo, baseado em convicções intuitivas das autoridades competentes.",
-      "E": "Exclusivamente vinculado à reconstrução narrativa dos fatos pela memória das testemunhas."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto define a Criminalística como 'campo multidisciplinar do conhecimento voltado à descoberta, reconhecimento, coleta, preservação, análise e interpretação técnica dos vestígios', com o propósito de 'transformar sinais aparentemente dispersos do mundo físico em informação qualificada, tecnicamente validada e juridicamente útil'.",
-    "referencia": "Introdução, p. 9"
-  },
-  {
-    "id": 175,
-    "disciplina": "Criminalística",
-    "conteudo": "Introdução",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Introdução do Caderno Didático afirma que a atividade pericial criminal NÃO se resume à realização de exames laboratoriais ou à produção de laudos técnicos. De acordo com o texto, sua atuação inicia-se:",
-    "alternativas": {
-      "A": "Somente após o oferecimento da denúncia pelo Ministério Público.",
-      "B": "Apenas na fase processual, com a admissão do assistente técnico pelo magistrado.",
-      "C": "A partir da requisição formal do juiz competente para o caso concreto.",
-      "D": "Quando os vestígios chegam ao laboratório, com a abertura da cadeia de custódia.",
-      "E": "Muito antes, na adequada preservação do local de crime, na observação do cenário e na identificação criteriosa dos vestígios."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Segundo a Introdução, 'sua atuação inicia-se muito antes, ainda na adequada preservação do local de crime, na observação meticulosa do cenário, na identificação criteriosa dos vestígios potencialmente relevantes e na rigorosa manutenção da cadeia de custódia'.",
-    "referencia": "Introdução, p. 9"
-  },
-  {
-    "id": 176,
-    "disciplina": "Criminalística",
-    "conteudo": "Introdução",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Introdução do Caderno Didático, qual a missão do Perito Criminal Federal em relação às hipóteses investigativas?",
-    "alternativas": {
-      "A": "Submeter hipóteses ao rigor do método científico, confirmando-as, refutando-as ou delimitando objetivamente seus alcances.",
-      "B": "Confirmar as narrativas previamente estabelecidas pela autoridade policial.",
-      "C": "Defender a hipótese mais consistente com o interesse acusatório do Ministério Público.",
-      "D": "Atuar com discricionariedade política, segundo as pressões circunstanciais próprias do ambiente investigativo.",
-      "E": "Validar exclusivamente as hipóteses que apresentem maior verossimilhança intuitiva."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'Sua missão não é confirmar narrativas previamente estabelecidas, mas submeter hipóteses ao rigor do método científico, confirmando-as, refutando-as ou delimitando objetivamente seus alcances'.",
-    "referencia": "Introdução, p. 9-10"
-  },
-  {
-    "id": 177,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
-    "tipo": "multipla_escolha",
-    "enunciado": "O art. 144 da Constituição Federal estabelece que a segurança pública é exercida por meio de determinados órgãos. De acordo com o Caderno Didático, são considerados forças destinadas à polícia administrativa, com atuação ostensiva preventiva:",
-    "alternativas": {
-      "A": "Polícia Federal e Polícias Civis.",
-      "B": "Polícias Militares, Polícia Rodoviária Federal e Polícia Ferroviária Federal.",
-      "C": "Polícia Federal, Polícia Rodoviária Federal e Polícias Civis.",
-      "D": "Polícias Civis, Polícias Militares e Corpos de Bombeiros Militares.",
-      "E": "Polícia Federal, Polícia Ferroviária Federal e guardas municipais exclusivamente."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma: 'A polícia administrativa, destinada a fazer a prevenção dos crimes, de forma ostensiva, é atribuição das polícias militares, rodoviária e ferroviária federal'.",
-    "referencia": "Cap. 1, Seção 1, p. 13"
-  },
-  {
-    "id": 178,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático, a materialidade do delito, muitas vezes confundida com a prova material do crime, é, na realidade:",
-    "alternativas": {
-      "A": "A identidade do autor do fato delituoso, comprovada por exames técnicos.",
-      "B": "O conjunto de vestígios materiais resultantes da ação criminosa.",
-      "C": "O laudo pericial produzido pelo Perito Criminal Federal.",
-      "D": "O elemento objetivo do tipo penal, ou seja, a ocorrência da conduta que a lei penal veda.",
-      "E": "O conjunto de provas testemunhais reunidas no inquérito policial."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto afirma: 'A materialidade do delito, muitas vezes confundida com prova material do crime, na realidade é o elemento objetivo do tipo penal, ou seja, é a ocorrência da conduta que a lei penal veda, é a efetivação do crime'.",
-    "referencia": "Cap. 1, Seção 1.1, p. 13"
-  },
-  {
-    "id": 179,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático, com base em estudos da Escola Superior de Ciências Policiais, o inquérito policial é definido como:",
-    "alternativas": {
-      "A": "Peça meramente informativa, sem qualquer valor probatório na persecução penal.",
-      "B": "Procedimento facultativo conduzido exclusivamente pelo Ministério Público.",
-      "C": "Instrumento processual destinado à fase judicial do contraditório e da ampla defesa.",
-      "D": "Forma pela qual se materializa e documenta a investigação criminal, dirigida a obter provas acerca da existência de um crime e indícios de sua autoria.",
-      "E": "Conjunto de diligências sigilosas inacessíveis à autoridade judiciária."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o texto: 'o inquérito policial é a forma pela qual se materializa e documenta a investigação criminal (...) está dirigida a obter provas acerca da existência de um crime, bem como indícios de sua autoria'.",
-    "referencia": "Cap. 1, Seção 1.1.1, p. 14"
-  },
-  {
-    "id": 180,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a obrigatoriedade e dispensabilidade do inquérito policial, é correto afirmar, segundo o Caderno Didático:",
-    "alternativas": {
-      "A": "O inquérito é indispensável para o oferecimento da denúncia em qualquer hipótese.",
-      "B": "O inquérito policial é dispensável para o delegado em qualquer hipótese, podendo ser substituído sempre por termo circunstanciado.",
-      "C": "O inquérito não é indispensável para oferecimento da denúncia, mas é obrigatório para o delegado de polícia federal após o conhecimento da infração penal, salvo nos casos de menor poder ofensivo.",
-      "D": "O inquérito policial é obrigatório apenas nas infrações de menor poder ofensivo, conforme a Lei dos Juizados Especiais.",
-      "E": "O inquérito policial só pode ser instaurado mediante requisição expressa do juiz competente."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o texto: 'O inquérito não é indispensável para oferecimento da denúncia, mas é obrigatório para o delegado de polícia federal, após o conhecimento da infração penal. A Lei dos Juizados Especiais tornou o inquérito dispensável também para o delegado de polícia federal nos casos de infrações penais de menor poder ofensivo'.",
-    "referencia": "Cap. 1, Seção 1.1.1, p. 15"
-  },
-  {
-    "id": 181,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o art. 144, § 1º, da Constituição Federal, transcrito no Caderno Didático, dentre as atribuições da Polícia Federal está:",
-    "alternativas": {
-      "A": "Exercer, de forma concorrente com as polícias civis, as funções de polícia judiciária da União.",
-      "B": "Atuar prioritariamente em prevenção ostensiva e fiscalização de trânsito nas rodovias federais.",
-      "C": "Exercer, com exclusividade, as funções de polícia judiciária da União.",
-      "D": "Atuar como guarda patrimonial dos municípios em situações de calamidade.",
-      "E": "Realizar exclusivamente o tráfego de informações entre o Ministério Público e o Poder Judiciário."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O inciso IV citado no texto dispõe que cabe à Polícia Federal 'exercer, com exclusividade, as funções de polícia judiciária da União'.",
-    "referencia": "Cap. 1, Seção 1.2, p. 16"
-  },
-  {
-    "id": 182,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o Caderno Didático, até o século XIX, qual ciência praticamente emprestava seus conhecimentos científicos à investigação de crimes, em especial aqueles contra a integridade física do ser humano?",
-    "alternativas": {
-      "A": "A Química.",
-      "B": "A Medicina.",
-      "C": "A Biologia.",
-      "D": "A Física.",
-      "E": "A Engenharia."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma: 'Até o século XIX, praticamente, apenas a Medicina emprestava seus conhecimentos científicos à investigação de alguns crimes, precisamente, aqueles perpetrados contra a integridade física do ser humano'.",
-    "referencia": "Cap. 2, p. 17"
-  },
-  {
-    "id": 183,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático, a quem é atribuída a criação do termo Criminalística e em qual ano essa criação ocorreu?",
-    "alternativas": {
-      "A": "Alphonse Bertillon, em 1883, com o desenvolvimento da antropometria.",
-      "B": "Mathieu Orfila, em 1813, com a publicação do Tratado de Toxicologia Geral.",
-      "C": "Hans Gross, em 1893, com a publicação do Tratado de Criminalística.",
-      "D": "Juan Vucetich, em 1892, com o sistema de classificação de digitais.",
-      "E": "Edward Richard Henry, em 1896, com o sistema europeu de classificação."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma: 'A Gross também é atribuída a criação do termo Criminalística, em 1893, com a publicação do Tratado de Criminalística'.",
-    "referencia": "Cap. 2, p. 18"
-  },
-  {
-    "id": 184,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático, o marco inaugural da trajetória da Criminalística no Brasil ocorreu:",
-    "alternativas": {
-      "A": "Em São Paulo, em 1947, com a realização do I Congresso Nacional de Polícia Técnica.",
-      "B": "Em Brasília, em 1962, com a inauguração do Instituto de Criminalística vinculado ao Departamento Federal de Segurança Pública.",
-      "C": "No Rio de Janeiro, pela atuação de Afrânio Peixoto na estruturação dos serviços médico-legais.",
-      "D": "Na Bahia, no final do século XIX, com a atuação de Raimundo Nina Rodrigues na cátedra de Medicina Legal da Faculdade de Medicina da Bahia, a partir de 1891.",
-      "E": "Em São Paulo, pela influência decisiva de Oscar Freire na consolidação da Medicina Legal científica."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto afirma: 'O marco inaugural dessa trajetória ocorreu na Bahia, no final do século XIX, com a atuação de Raimundo Nina Rodrigues. Ao assumir, em 1891, a cátedra de Medicina Legal da Faculdade de Medicina da Bahia (...) estruturou, em Salvador, o primeiro grande serviço pericial organizado do Brasil'.",
-    "referencia": "Cap. 2, Seção 2.1, p. 19"
-  },
-  {
-    "id": 185,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático, dentre os discípulos de Nina Rodrigues que levaram o modelo técnico-científico a outros centros do país, destacam-se:",
-    "alternativas": {
-      "A": "Cesare Lombroso, no Rio de Janeiro, e Alphonse Bertillon, em São Paulo.",
-      "B": "Afrânio Peixoto, no Rio de Janeiro, e Oscar Freire, em São Paulo.",
-      "C": "Hans Gross, em São Paulo, e Juan Vucetich, no Rio de Janeiro.",
-      "D": "Mathieu Orfila, em Salvador, e Henry Faulds, em São Paulo.",
-      "E": "Edward Henry, no Rio de Janeiro, e William Herschel, em São Paulo."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma: 'Entre eles destacam-se Afrânio Peixoto, que teve atuação decisiva na organização dos serviços médico-legais no Rio de Janeiro, e Oscar Freire, cuja influência foi determinante para a consolidação da Medicina Legal científica em São Paulo'.",
-    "referencia": "Cap. 2, Seção 2.1, p. 19-20"
-  },
-  {
-    "id": 186,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o Caderno Didático, o I Congresso Nacional de Polícia Técnica, realizado em São Paulo em 1947, marcou:",
-    "alternativas": {
-      "A": "A adoção oficial da denominação Criminalística em substituição ao termo Polícia Técnica.",
-      "B": "A oficialização da Medicina Legal como ramo independente da Polícia Federal.",
-      "C": "A criação do Instituto Nacional de Criminalística em Brasília.",
-      "D": "A introdução das ideias de Cesare Lombroso no Brasil pela primeira vez.",
-      "E": "A fundação da Escola Superior de Ciências Policiais e do INC/DITEC."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'Um importante marco institucional ocorreu em 1947, durante a realização, em São Paulo, do I Congresso Nacional de Polícia Técnica, ocasião em que foi oficialmente adotada a denominação Criminalística em substituição ao termo Polícia Técnica'.",
-    "referencia": "Cap. 2, Seção 2.1, p. 20"
-  },
-  {
-    "id": 187,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático, qual a distinção fundamental entre Criminologia e Criminalística?",
-    "alternativas": {
-      "A": "A Criminologia preocupa-se com a comprovação da materialidade do delito, enquanto a Criminalística estuda o crime como fenômeno social.",
-      "B": "A Criminologia ocupa-se exclusivamente da política penal, enquanto a Criminalística ocupa-se da formulação de leis penais.",
-      "C": "A Criminalística estuda os crimes e os criminosos como fato social, e a Criminologia analisa os vestígios materiais.",
-      "D": "São termos sinônimos, podendo ser empregados indistintamente.",
-      "E": "A Criminologia estuda os crimes e os criminosos (a criminalidade), enquanto a Criminalística objetiva a comprovação da materialidade do delito e a identificação dos criminosos e do seu modus operandi, sem se preocupar com o aspecto sociológico do crime."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O texto define a Criminologia como 'a ciência que estuda os crimes e os criminosos, isto é, a criminalidade' e afirma que 'a criminalística (...) objetiva a comprovação da materialidade do delito e a identificação dos criminosos e do seu modus operandi, sem se preocupar com o aspecto sociológico do crime'.",
-    "referencia": "Cap. 2, Seção 2.2, p. 21"
-  },
-  {
-    "id": 188,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "No I Congresso Nacional de Polícia Técnica (1947), a assembleia do evento definiu a Criminalística como disciplina que tem por objetivo o reconhecimento e interpretação dos indícios materiais extrínsecos relativos ao crime, deixando os vestígios intrínsecos (na pessoa) sob a alçada da Medicina Legal. Segundo o Caderno Didático, essa definição:",
-    "alternativas": {
-      "A": "Permanece atual e plenamente adequada à moderna Criminalística multidisciplinar.",
-      "B": "Foi rejeitada à época, sendo considerada inadequada para a separação dos campos.",
-      "C": "Eliminou a Medicina Legal como ramo da Criminalística em definitivo.",
-      "D": "Considerava a Criminalística como ramo subordinado da Criminologia.",
-      "E": "Talvez adequada àquele tempo, não expressa por completo a missão e o campo de ação da moderna Criminalística, que hoje é multidisciplinar."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O texto afirma: 'Essa definição, talvez adequada àquele tempo, não expressa por completo a missão e o campo de ação da moderna Criminalística' e, hoje, 'a Criminalística, como não poderia ser diferente, é multidisciplinar'.",
-    "referencia": "Cap. 2, Seção 2.2, p. 21-22"
-  },
-  {
-    "id": 189,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático, são exemplos de técnicas exclusivas desenvolvidas pela Criminalística, que se tornaram ramos importantes da ciência:",
-    "alternativas": {
-      "A": "Física, Química, Biologia e Contabilidade.",
-      "B": "Engenharia, Informática, Agronomia e Medicina.",
-      "C": "Antropometria, Frenologia, Antropologia Criminal e Toxicologia.",
-      "D": "Necropsia, Clínica Médico-Legal, Identificação Humana e Balística Aplicada.",
-      "E": "Balística Forense, Documentoscopia, Merceologia e Grafotecnia."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O texto afirma: 'Ela desenvolveu algumas técnicas exclusivas, que hoje se tornaram ramos muito importantes da ciência, como a Balística Forense, a Documentoscopia, a Merceologia, a Grafotecnia, dentre outros'.",
-    "referencia": "Cap. 2, Seção 2.2, p. 22"
-  },
-  {
-    "id": 190,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a definição de RABELO (1996) citada no Caderno Didático, a Criminalística é uma disciplina:",
-    "alternativas": {
-      "A": "Eminentemente sociológica e voltada à política criminal do Estado.",
-      "B": "Pertencente exclusivamente ao ramo da Medicina Legal e voltada aos crimes contra a pessoa.",
-      "C": "De natureza administrativa, voltada à prevenção ostensiva dos crimes.",
-      "D": "Técnico-científica por natureza e jurídico-penal por destinação, que concorre para a elucidação e a prova das infrações penais e da identidade dos autores.",
-      "E": "Estritamente normativa, dedicada à interpretação da legislação processual penal."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme RABELO (1996, p.12), citado no texto, a Criminalística é '(...) uma disciplina técnico-científica por natureza e jurídico-penal por destinação, a qual concorre para a elucidação e a prova das infrações penais e da identidade dos autores respectivos, por meio da pesquisa, do adequado exame e da interpretação correta dos vestígios materiais dessas infrações'.",
-    "referencia": "Cap. 2, Seção 2.2, p. 22"
-  },
-  {
-    "id": 191,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre os atributos da metodologia da Criminalística, o Caderno Didático apresenta um quadro que agrupa esses atributos em atitudinais e técnicos. São classificados como atributos ATITUDINAIS:",
-    "alternativas": {
-      "A": "Imparcialidade, Tempestividade e Objetividade.",
-      "B": "Clareza, Objetividade e Eficácia.",
-      "C": "Rigor técnico, Imparcialidade e Precisão.",
-      "D": "Precisão, Clareza e Rigor técnico.",
-      "E": "Tempestividade, Precisão e Clareza."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o quadro apresentado no texto, os atributos atitudinais são 'Imparcialidade, Tempestividade e Objetividade', enquanto os técnicos são 'Precisão/Eficácia, Clareza e Rigor técnico'.",
-    "referencia": "Cap. 2, Seção 2.3, p. 25"
-  },
-  {
-    "id": 192,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o Caderno Didático, o atributo da TEMPESTIVIDADE no exame pericial significa que:",
-    "alternativas": {
-      "A": "O perito deve produzir o trabalho com foco no objetivo dos exames, sem atrelamento à acusação ou à defesa.",
-      "B": "Os exames devem ser realizados com um propósito definido, sem desvios desnecessários.",
-      "C": "Deve-se buscar o equilíbrio entre o nível de precisão e o tempo de obtenção do resultado, para que não se perca o princípio da oportunidade para a solução do crime.",
-      "D": "A linguagem do laudo deve ser clara e adequada aos destinatários, equilibrando termos técnicos e explicações.",
-      "E": "O perito deve utilizar a melhor metodologia disponível, validando metodologias e laboratórios."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma sobre Tempestividade: 'É uma questão de se escolher metodologias objetivas, precisas e eficazes, mas cujo resultado seja obtido no devido tempo, ou seja, deve-se buscar o equilíbrio entre o nível de precisão e a tempestividade, para que não se perca o princípio da oportunidade para a solução do crime'.",
-    "referencia": "Cap. 2, Seção 2.3, p. 25"
-  },
-  {
-    "id": 193,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 2 - A Criminalística – História",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático, com o advento da Lei nº 11.690/08, qual a importância adicional conferida ao atributo do rigor técnico-científico na atividade pericial?",
-    "alternativas": {
-      "A": "Tornou-se ainda mais necessário, sendo fundamental a validação das metodologias e laboratórios, pois passou a ser facultado às partes elaborar quesitos e indicar assistente técnico.",
-      "B": "Deixou de ser exigido, em razão da intervenção do assistente técnico que substitui o perito oficial.",
-      "C": "Restringiu-se ao perito oficial, vedando às partes qualquer participação técnica no exame.",
-      "D": "Limitou a atuação do INC/DITEC à expedição de instruções normativas, dispensando o rigor técnico.",
-      "E": "Tornou-se desnecessário em razão da centralidade conferida ao laudo pericial pelo juiz."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'com o advento da Lei nº 11.690/08, disponibiliza-se às partes, ao Ministério Público, ao querelante, ao assistente de acusação e também ao acusado a prerrogativa de elaborarem quesitos e indicarem um assistente técnico (...) O rigor técnico-científico passa a ser então ainda mais necessário, e a validação das metodologias e laboratórios, fundamental'.",
-    "referencia": "Cap. 2, Seção 2.3, p. 24"
-  },
-  {
-    "id": 194,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a definição moderna e a natureza jurídica da função pericial, a missão central do Perito Criminal Federal consiste em:",
-    "alternativas": {
-      "A": "Coordenar a investigação policial e presidir o inquérito.",
-      "B": "Elaborar a tese acusatória com base nos vestígios encontrados na cena do crime.",
-      "C": "Executar atividades técnico-científicas voltadas à descoberta, recolhimento, guarda e análise de vestígios.",
-      "D": "Substituir a atividade tática investigativa nos casos de flagrante delito.",
-      "E": "Formalizar o procedimento e atuar exclusivamente na identificação humana."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma que o Perito Criminal Federal é 'o policial e cientista especializado. Detentor de formação superior, ele exerce o poder de polícia sobre a cena do crime. Sua missão central é executar atividades técnico-científicas voltadas à descoberta, recolhimento, guarda e análise de vestígios'.",
-    "referencia": "Cap. 3, Seção 3.1, p. 27"
-  },
-  {
-    "id": 195,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Qual diploma legal constitui o fundamento jurídico da atividade pericial criminal, garantindo aos profissionais plena autonomia técnica, científica e funcional?",
-    "alternativas": {
-      "A": "Portaria n.º 1.192/2022 - DITEC/PF.",
-      "B": "Lei n.º 11.690/2008.",
-      "C": "Decreto n.º 5.116/2004.",
-      "D": "Lei n.º 12.030/2009.",
-      "E": "Artigo 159 do Código de Processo Penal."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o texto, 'a Lei n.º 12.030/2009 constitui o fundamento jurídico da atividade pericial criminal, ao garantir aos profissionais do setor plena autonomia técnica, científica e funcional, imprescindível para o exercício isento e rigoroso de suas atribuições'.",
-    "referencia": "Cap. 3, Seção 3.1, p. 27"
-  },
-  {
-    "id": 196,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a relação entre o Delegado de Polícia Federal e o Perito Criminal Federal no momento da requisição de perícia, é correto afirmar que:",
-    "alternativas": {
-      "A": "O delegado exerce faculdade discricionária ao requisitar uma perícia, podendo escolher os métodos analíticos.",
-      "B": "A requisição constitui ato vinculado ao art. 158 do CPP, e a subordinação restringe-se à gestão administrativa, jamais à escolha dos métodos ou conclusões.",
-      "C": "A subordinação do perito estende-se à escolha dos métodos analíticos e às conclusões exaradas nos laudos.",
-      "D": "O perito deve obrigatoriamente atender às induções investigativas do delegado para garantir a eficiência da investigação.",
-      "E": "A autonomia do perito é restrita pela hierarquia funcional dentro da Polícia Federal."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto explica que o delegado, ao requisitar perícia, 'pratica um ato estritamente vinculado à imposição do art. 158 do CPP. Assim, a subordinação do perito no interior da organização policial circunscreve-se à gestão administrativa. Ela jamais se estende à escolha dos métodos analíticos ou às conclusões exaradas nos laudos periciais'.",
-    "referencia": "Cap. 3, Seção 3.1, p. 28"
-  },
-  {
-    "id": 197,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante o intercurso analítico da prova pericial, surge um dos maiores riscos à isenção: o viés cognitivo. Esse risco caracteriza-se por:",
-    "alternativas": {
-      "A": "Erro doloso na elaboração de laudos motivado por interesse pessoal do perito.",
-      "B": "Contaminação física da cena do crime por agentes externos durante a coleta.",
-      "C": "Desvio inconsciente de racionalidade no julgamento, muitas vezes provocado por expectativas externas ou pressões processuais da equipe de investigação.",
-      "D": "Falha técnica nos equipamentos forenses utilizados na análise laboratorial.",
-      "E": "Ausência de quesitos claros formulados pela autoridade requisitante."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto define que 'O viés caracteriza-se como o desvio inconsciente de racionalidade no julgamento, muitas vezes provocado por expectativas externas ou pressões processuais da equipe de investigação'.",
-    "referencia": "Cap. 3, Seção 3.2, p. 29"
-  },
-  {
-    "id": 198,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em situações de flagrante delito, a intervenção pericial rápida — como a confecção de laudos de constatação preliminares — frequentemente constitui:",
-    "alternativas": {
-      "A": "Atividade meramente complementar, dispensável diante de outras evidências.",
-      "B": "Requisito legal indispensável para fundamentar a lavratura do auto de prisão pelas autoridades competentes.",
-      "C": "Ato exclusivo da autoridade judiciária na fase de instrução.",
-      "D": "Procedimento opcional, condicionado à conveniência da equipe policial.",
-      "E": "Diligência subsidiária ao laudo definitivo realizado em laboratório."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Segundo o texto, 'a intervenção pericial rápida — como a confecção de laudos de constatação preliminares — é frequentemente um requisito legal indispensável para fundamentar a lavratura do auto de prisão pelas autoridades competentes'.",
-    "referencia": "Cap. 3, Seção 3.3, p. 29"
-  },
-  {
-    "id": 199,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a Portaria n.º 1.192/2022 - DITEC/PF, os elementos textuais obrigatórios do laudo pericial são:",
-    "alternativas": {
-      "A": "Preâmbulo, histórico, metodologia, exame e conclusão.",
-      "B": "Identificação, objeto, histórico, análise e parecer.",
-      "C": "Cabeçalho, objeto, hipóteses, testagem e laudo.",
-      "D": "Introdução, materialidade, dinâmica, exame e fecho.",
-      "E": "Preâmbulo, objeto, objetivo, exame e conclusão."
-    },
-    "resposta_correta": "E",
-    "justificativa": "A Portaria n.º 1.192/2022 - DITEC/PF determina que o laudo deve conter os seguintes elementos textuais obrigatórios: 'I - preâmbulo; II - objeto; III - objetivo; IV - exame; e V - conclusão'.",
-    "referencia": "Cap. 3, Seção 3.5, p. 30"
-  },
-  {
-    "id": 200,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "A respeito da cadeia de custódia regulamentada pelos Arts. 158-A a 158-F do CPP, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "É definida como o conjunto de procedimentos para manter e documentar a história cronológica do vestígio, desde o recolhimento até o descarte, sendo dever intransferível do perito atuar como fiador desse ciclo probatório.",
-      "B": "Trata-se de procedimento facultativo aplicável apenas a vestígios biológicos de alta relevância.",
-      "C": "Refere-se apenas ao deslocamento físico dos vestígios entre a cena do crime e o laboratório forense.",
-      "D": "Configura responsabilidade exclusiva do delegado de polícia, que preside o inquérito.",
-      "E": "Aplica-se somente após a entrega do laudo pericial à autoridade judicial."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto explicita que os Arts. 158-A a 158-F 'regulamentam a Cadeia de Custódia, definida como o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio (desde o recolhimento até o descarte). O perito assume o dever intransferível de atuar como fiador desse ciclo probatório'.",
-    "referencia": "Cap. 3, Seção 3.5, p. 31"
-  },
-  {
-    "id": 201,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o art. 5º da Lei nº 12.030/2009, integram o rol de peritos oficiais de natureza criminal:",
-    "alternativas": {
-      "A": "Peritos criminais, peritos contábeis e peritos previdenciários.",
-      "B": "Peritos criminais, papiloscopistas e agentes de polícia.",
-      "C": "Peritos médico-legistas, escrivães e investigadores especializados.",
-      "D": "Peritos criminais, peritos judiciais e assistentes técnicos das partes.",
-      "E": "Peritos criminais, peritos médico-legistas e peritos odontolegistas com formação superior específica."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O art. 5º da Lei nº 12.030/2009 estabelece: '...são peritos de natureza criminal os peritos criminais, peritos médico-legistas e peritos odontolegistas com formação superior específica detalhada em regulamento, de acordo com a necessidade de cada órgão e por área de atuação profissional'.",
-    "referencia": "Cap. 4, Seção 4.1, p. 34"
-  },
-  {
-    "id": 202,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o § 1º do art. 159 do CPP, na falta de perito oficial, o exame será realizado por:",
-    "alternativas": {
-      "A": "Um único especialista nomeado pela vítima ou pelo acusado, mediante compromisso.",
-      "B": "Três peritos não oficiais, escolhidos exclusivamente pelo Ministério Público.",
-      "C": "Qualquer cidadão maior de 18 anos com habilitação técnica reconhecida pelo conselho de classe.",
-      "D": "Duas pessoas idôneas, portadoras de diploma de curso superior preferencialmente na área específica, dentre as que tiverem habilitação técnica relacionada com a natureza do exame.",
-      "E": "Um perito oficial cedido por outro estado da federação, mediante convênio."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O § 1º do art. 159 do CPP estabelece: 'Na falta de perito oficial, o exame será realizado por 2 (duas) pessoas idôneas, portadoras de diploma de curso superior preferencialmente na área específica, dentre as que tiverem habilitação técnica relacionada com a natureza do exame'.",
-    "referencia": "Cap. 4, Seção 4.2, p. 34"
-  },
-  {
-    "id": 203,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o perito no processo civil, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A perícia cível somente pode ser realizada por dois peritos atuando em conjunto, sob pena de nulidade.",
-      "B": "Existe um órgão oficial de perícia cível mantido pelo Estado brasileiro para atender a esses processos.",
-      "C": "O perito do processo civil é obrigatoriamente um servidor público concursado.",
-      "D": "As partes não podem apresentar assistentes técnicos no processo civil.",
-      "E": "Não há perito oficial no processo civil; o Estado brasileiro não oferece esse serviço aos cidadãos, e os peritos são nomeados pelo juiz, atuando sob compromisso e fazendo jus a honorários."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O texto afirma: 'No processo civil, porém, não há perito oficial. O Estado brasileiro não oferece esse serviço aos cidadãos. Não há um órgão oficial de perícia cível. Os peritos são nomeados pelo juiz e atuam sob compromisso, fazendo jus a uma remuneração ou honorários periciais'.",
-    "referencia": "Cap. 4, Seção 4.3, p. 35"
-  },
-  {
-    "id": 204,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o Decreto nº 5.116/2004, para ingresso na categoria de Perito Criminal Federal, é necessário possuir diploma de graduação em curso superior. Entre os cursos elencados pelo decreto NÃO está:",
-    "alternativas": {
-      "A": "Engenharia Civil.",
-      "B": "Medicina Veterinária.",
-      "C": "Direito.",
-      "D": "Odontologia.",
-      "E": "Ciências Contábeis."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O Decreto nº 5.116/2004 lista cursos como Química, Física, Geologia, Farmácia, Ciências Contábeis, Ciências Biológicas, Engenharia Civil, Medicina Veterinária, Medicina, Odontologia e Ciências Econômicas, entre outros, mas Direito não consta do rol.",
-    "referencia": "Cap. 4, Seção 4.4, p. 36"
-  },
-  {
-    "id": 205,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o art. 275 do CPP, a sujeição do perito à disciplina judiciária aplica-se:",
-    "alternativas": {
-      "A": "Aos peritos, ainda quando não oficiais.",
-      "B": "Somente aos peritos médico-legistas e odontolegistas.",
-      "C": "Apenas aos peritos não oficiais (ad hoc) nomeados pelo delegado.",
-      "D": "Apenas aos peritos oficiais concursados da Polícia Federal.",
-      "E": "Aos peritos do processo civil quando atuarem em matéria criminal por delegação."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O art. 275 do CPP estabelece: 'o perito, ainda quando não oficial, estará sujeito à disciplina judiciária'.",
-    "referencia": "Cap. 4, Seção 4.5, p. 36"
-  },
-  {
-    "id": 206,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em relação às hipóteses de impedimento do perito, NÃO poderá atuar como perito o profissional que:",
-    "alternativas": {
-      "A": "Tiver formação acadêmica diversa daquela diretamente relacionada ao objeto do exame.",
-      "B": "Exercer atividade docente em instituição pública de ensino superior.",
-      "C": "Residir em município distinto daquele em que o crime foi praticado.",
-      "D": "For cônjuge, parente em linha reta em qualquer grau ou parente em linha colateral até o 3º grau (tio e sobrinho) da parte.",
-      "E": "Já houver atuado em mais de cinco perícias na mesma vara judicial."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto, ao tratar das hipóteses de impedimento, estabelece que o profissional não poderá atuar quando 'for cônjuge, parente em linha reta em qualquer grau ou parente em linha colateral até o 3º grau (tio e sobrinho) da parte'.",
-    "referencia": "Cap. 4, Seção 4.5.1.1, p. 37"
-  },
-  {
-    "id": 207,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a suspeição do perito, é correto afirmar, com base no art. 254 do CPP (aplicável aos peritos por força do art. 280 do CPP):",
-    "alternativas": {
-      "A": "A suspeição configura presunção de desonestidade ou incapacidade técnica do perito.",
-      "B": "O perito dar-se-á por suspeito se for amigo íntimo ou inimigo capital de qualquer das partes, podendo ainda declarar-se suspeito por motivo íntimo.",
-      "C": "O perito somente poderá ser considerado suspeito por decisão expressa do juiz, sendo vedada a auto-declaração.",
-      "D": "A suspeição aplica-se apenas a peritos não oficiais, pois os oficiais já estão investidos pela lei.",
-      "E": "Recebimento de presentes das partes não constitui causa de suspeição, desde que o valor seja módico."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto cita o art. 254 do CPP, indicando que o juiz (e, por extensão, o perito) dar-se-á por suspeito se for 'amigo íntimo ou inimigo capital de qualquer deles', e acrescenta: 'Ao perceber que não tem condições de exercer seu ofício com a neutralidade exigida, o perito poderá declarar-se suspeito por motivo íntimo'.",
-    "referencia": "Cap. 4, Seção 4.5.1.2, p. 37-38"
-  },
-  {
-    "id": 208,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "Quanto ao crime de falsa perícia previsto no art. 342 do Código Penal, é correto afirmar:",
-    "alternativas": {
-      "A": "Para ocorrer o crime é preciso haver a intenção de produzir o erro, e não se enquadram nesse dispositivo aqueles que não forem peritos oficiais ou nomeados, como os que fornecem pareceres às partes.",
-      "B": "Aplica-se inclusive aos profissionais que fornecem pareceres técnicos como contratados das partes.",
-      "C": "O crime somente pode ser cometido por peritos oficiais concursados, ficando excluídos os peritos ad hoc.",
-      "D": "Para sua configuração, é dispensável a intenção do perito, bastando o erro técnico no laudo.",
-      "E": "A falsa perícia configura crime apenas quando praticada em processo criminal, não alcançando o processo civil."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Segundo o texto, 'Para ocorrer esse crime, é preciso haver a intenção de produzir o erro. Não se enquadram nesse dispositivo aqueles que não forem peritos oficiais ou nomeados, como por exemplo, os que fornecem pareceres técnicos às partes, como contratados destas'.",
-    "referencia": "Cap. 4, Seção 4.5.2, p. 38-39"
-  },
-  {
-    "id": 209,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 4 - O Perito",
-    "tipo": "multipla_escolha",
-    "enunciado": "A nomeação de peritos não oficiais (ad hoc), segundo o texto, é ato exclusivo:",
-    "alternativas": {
-      "A": "Do Ministério Público, em razão de sua titularidade da ação penal.",
-      "B": "Do delegado de polícia federal ou da autoridade judiciária, não se admitindo a intervenção das partes, e só deve ser feita na falta de perito oficial.",
-      "C": "Das partes interessadas, mediante consenso entre acusação e defesa.",
-      "D": "Do diretor do órgão pericial, conforme art. 178 do CPP.",
-      "E": "Do conselho de classe profissional da área específica relacionada à perícia."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto é claro: 'A nomeação de peritos não oficiais é ato exclusivo do delegado de polícia federal ou da autoridade judiciária, não se admitindo a intervenção das partes, e, conforme determinado na lei, só deve ser feita na falta de perito oficial'.",
-    "referencia": "Cap. 4, Seção 4.2, p. 34"
-  },
-  {
-    "id": 210,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Caderno Didático, no sistema penal brasileiro, em relação à apresentação das provas, é correto afirmar que:",
-    "alternativas": {
-      "A": "Há uma hierarquia rígida, prevalecendo sempre a prova pericial sobre as demais.",
-      "B": "Há liberdade quase total na apresentação de provas, desde que sejam obtidas por meios lícitos, não havendo hierarquia entre elas.",
-      "C": "A confissão do acusado tem valor absoluto e dispensa a apreciação das demais provas.",
-      "D": "Apenas a prova testemunhal e a documental são admitidas em processo penal.",
-      "E": "A probabilidade dos fatos é suficiente para fundamentar a condenação, dispensando juízos de certeza."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o texto: 'No sistema penal brasileiro, há uma liberdade quase total na apresentação de provas, desde que sejam obtidas por meios lícitos. Portanto, não há hierarquia das provas, o fato pode ser provado por testemunhas, pela confissão, por documentos, por exames periciais etc.'",
-    "referencia": "Cap. 5, p. 41"
-  },
-  {
-    "id": 211,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Caderno Didático, em matéria penal, para que o juiz imponha condenação ao réu, vigora o princípio do 'in dubio pro reo'. Isso significa que:",
-    "alternativas": {
-      "A": "A existência da mais leve suspeita quanto à autoria impede a condenação; serão aceitos os juízos de certeza, jamais a probabilidade.",
-      "B": "A dúvida razoável deve ser interpretada em favor da acusação, evitando a impunidade.",
-      "C": "A condenação pode ocorrer com base em probabilidade, desde que existam indícios de autoria.",
-      "D": "A confissão do réu, por si só, supre qualquer dúvida sobre a autoria do delito.",
-      "E": "A prova testemunhal sempre prevalecerá sobre a prova material em caso de dúvida."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'A existência da mais leve suspeita quanto a essa autoria impede a condenação, conforme o princípio consagrado pelo brocardo in dubio pro reo. Vale dizer, serão aceitos os juízos de certeza, jamais a probabilidade, embora esta possa levar à verdade.'",
-    "referencia": "Cap. 5, p. 41"
-  },
-  {
-    "id": 212,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "Quanto às três fontes básicas de informação que podem contribuir para esclarecer um crime, segundo o Caderno Didático, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "Confissão, perícia indireta e reconstituição do crime.",
-      "B": "Confissão, testemunha e o rastro de elementos materiais deixados pelo fato.",
-      "C": "Inquérito policial, denúncia e sentença judicial.",
-      "D": "Prova documental, prova testemunhal e prova pericial.",
-      "E": "Investigação policial, exame de corpo de delito e julgamento."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto enumera: '1. a pessoa que praticou o ato confessa; 2. alguém que viu o fato e é testemunha; 3. o fato deixa rastros de elementos materiais que podem ser examinados e levam ao esclarecimento.'",
-    "referencia": "Cap. 5, p. 42"
-  },
-  {
-    "id": 213,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o corpo de delito, conforme apresentado no Caderno Didático, é correto afirmar que:",
-    "alternativas": {
-      "A": "Refere-se exclusivamente ao cadáver da vítima nos crimes contra a vida.",
-      "B": "Sempre é encontrado em um único local, denominado cena do crime.",
-      "C": "Compreende apenas os instrumentos utilizados pelo delinquente, excluindo o produto da infração.",
-      "D": "É o conjunto de elementos materiais, com todas as circunstâncias, que resultaram da prática de um crime, podendo seus vestígios não estarem em um só local.",
-      "E": "Constitui-se em prova testemunhal indireta da existência do fato criminoso."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o texto: 'corpo de delito pode ser traduzido pelo conjunto de elementos materiais, com todas as circunstâncias, que resultaram da prática de um crime' e 'muitas vezes, os vestígios que compõem o corpo de delito não são encontrados em um só local.'",
-    "referencia": "Cap. 5, Seção 5.1, p. 43"
-  },
-  {
-    "id": 214,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o art. 167 do CPP, citado no Caderno Didático, em caso de impossibilidade do exame de corpo de delito direto por terem desaparecido os vestígios:",
-    "alternativas": {
-      "A": "A prova testemunhal poderá suprir-lhe a falta.",
-      "B": "O processo deve ser arquivado por ausência de materialidade.",
-      "C": "Apenas a confissão do acusado poderá substituir o exame.",
-      "D": "A perícia deve ser obrigatoriamente refeita em outro local semelhante.",
-      "E": "O juiz deverá declarar a nulidade absoluta do processo."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto cita o art. 167 do CPP: 'Não sendo possível o exame de corpo de delito, por haverem desaparecido os vestígios, a prova testemunhal poderá suprir-lhe a falta.'",
-    "referencia": "Cap. 5, Seção 5.1, p. 44"
-  },
-  {
-    "id": 215,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "No âmbito da Polícia Federal, conforme exemplificado no Caderno Didático, é comum o exame de corpo de delito indireto em situações como:",
-    "alternativas": {
-      "A": "Exames em locais de exploração mineral clandestina cujos vestígios foram destruídos por enchentes, mas estão registrados em relatórios, fotografias e croquis.",
-      "B": "Exame de drogas apreendidas em flagrante e encaminhadas ao perito.",
-      "C": "Exames de balística realizados em laboratório, com a arma apreendida.",
-      "D": "Exames de documentos falsos apreendidos durante operações policiais.",
-      "E": "Exames papiloscópicos em locais de crime preservados pela equipe de isolamento."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto exemplifica: 'No âmbito da Polícia Federal, é comum acontecer exame de corpo de delito indireto em locais de exploração mineral clandestina, em margens de rios, cujos vestígios foram destruídos por enchentes, mas estão registrados em relatórios, fotografias e croquis.'",
-    "referencia": "Cap. 5, Seção 5.1.1, p. 44"
-  },
-  {
-    "id": 216,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a classificação das provas adotada por Paulo Rangel e apresentada no Caderno Didático, quanto ao sujeito, as provas reais são:",
-    "alternativas": {
-      "A": "Aquelas derivadas do conhecimento pessoal atribuído ao indivíduo, como depoimentos de testemunhas.",
-      "B": "Aquelas que demonstram, por si só, o fato a ser provado, sem necessidade de processo lógico de construção.",
-      "C": "Aquelas que não se referem de forma direta ao fato probando, como o álibi.",
-      "D": "Aquelas representadas por documentos que contêm o fato a ser provado, como carta, contrato e escritura.",
-      "E": "Aquelas oriundas de coisas, dos vestígios relacionados ao crime, como o sêmen, o sangue, a impressão digital, a arma e o projétil."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme a Seção 5.3.2: 'b) reais: aquelas oriundas de coisas, dos vestígios relacionados ao crime, como o sêmen, o sangue, a impressão digital, a arma, o projétil, o corpo, etc.'",
-    "referencia": "Cap. 5, Seção 5.3.2, p. 46"
-  },
-  {
-    "id": 217,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 6 - Teoria dos vestígios",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o art. 158-A do CPP, citado no Caderno Didático, vestígio é definido como:",
-    "alternativas": {
-      "A": "Todo elemento material visível e recolhido pela autoridade policial durante o flagrante.",
-      "B": "Toda evidência interpretada cientificamente pela Criminalística que se transforma em prova material.",
-      "C": "Todo indício circunstancial que autoriza, por indução, concluir-se a existência de outras circunstâncias.",
-      "D": "Todo sinal deixado exclusivamente pelo autor do crime no local do fato.",
-      "E": "Todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O texto cita o art. 158-A do CPP: 'vestígio é todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal'.",
-    "referencia": "Cap. 6, p. 47"
-  },
-  {
-    "id": 218,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 6 - Teoria dos vestígios",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a classificação dos vestígios quanto à sua relação com os fatos, conforme o Caderno Didático, os vestígios forjados são aqueles que:",
-    "alternativas": {
-      "A": "Se apresentam como muito importantes desde o início, recebem atenção dos investigadores, mas no final não apresentam relação com o fato, estavam ali por acaso.",
-      "B": "Não guardam relação absoluta identificável de pronto com a origem, podendo ser estabelecida de forma indireta.",
-      "C": "Têm relação com os fatos em investigação, por serem resultado da ação ou omissão do autor do crime.",
-      "D": "Permitem estabelecer relação absoluta e direta com a sua origem ou fonte.",
-      "E": "O autor do crime prepara intencionalmente, com o objetivo de desviar a atenção da investigação e conduzi-la a uma direção contrária aos fatos em apuração."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme a Seção 6.1: 'forjados: aqueles vestígios que o autor do crime prepara, intencionalmente, com o objetivo de desviar a atenção da investigação e conduzi-la a uma direção contrária aos fatos em apuração. Ou seja, são evidências plantadas no local.'",
-    "referencia": "Cap. 6, Seção 6.1, p. 47"
-  },
-  {
-    "id": 219,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 6 - Teoria dos vestígios",
-    "tipo": "multipla_escolha",
-    "enunciado": "Quanto à origem, os vestígios podem ser classificados em absolutos e relativos. De acordo com o Caderno Didático, é exemplo de vestígio ABSOLUTO:",
-    "alternativas": {
-      "A": "Uma caneta achada num local onde aconteceu um furto, sem o nome do proprietário gravado.",
-      "B": "Uma pegada parcial de calçado encontrada em terreno arenoso, sem características individualizadoras.",
-      "C": "Uma impressão digital ou uma cápsula de munição de arma de fogo encontrada no local do crime.",
-      "D": "Um fio de cabelo encontrado no local sem possibilidade de comparação genética imediata.",
-      "E": "Uma mancha de tinta sem identificação do fabricante deixada na porta de uma residência."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme a Seção 6.2: 'absolutos: aqueles que permitem que se estabeleça relação absoluta, direta com a sua origem ou sua fonte, como, por exemplo, impressões digitais, manchas de sangue' e 'uma cápsula de munição de arma de fogo encontrada no local do crime. A criminalística possui meios de estabelecer uma relação direta dessa cápsula com a arma que efetuou o disparo.'",
-    "referencia": "Cap. 6, Seção 6.2, p. 48"
-  },
-  {
-    "id": 220,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 7 - Indícios",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o art. 239 do CPP, citado no Caderno Didático, considera-se indício:",
-    "alternativas": {
-      "A": "Todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal.",
-      "B": "Toda prova obtida por meios ilícitos durante a investigação policial.",
-      "C": "O conjunto de vestígios materiais, com todas as circunstâncias, resultantes da prática de um crime.",
-      "D": "A circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias.",
-      "E": "A suspeita não fundamentada sobre a autoria do delito."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto cita o art. 239 do CPP: 'Considera-se indício a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias.'",
-    "referencia": "Cap. 7, p. 49"
-  },
-  {
-    "id": 221,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 7 - Indícios",
-    "tipo": "multipla_escolha",
-    "enunciado": "No exemplo clássico apresentado no Caderno Didático sobre a rixa entre dois vizinhos com frequentes ameaças públicas, em que um deles é encontrado morto por disparos de arma de fogo nas proximidades da casa do outro, as ameaças públicas e as constantes brigas constituem:",
-    "alternativas": {
-      "A": "Vestígios materiais que comprovam diretamente a autoria do crime.",
-      "B": "Prova material de balística forense reforçando a hipótese inicial.",
-      "C": "Indícios circunstanciais contra o inimigo vivo, não sendo vestígios materiais.",
-      "D": "Vestígios forjados pelo autor do crime para desviar a investigação.",
-      "E": "Provas diretas e plenas da autoria, dispensando exames periciais complementares."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o texto: 'essas ameaças públicas e as constantes brigas, que não são vestígios materiais, constituem-se em indícios circunstanciais contra o inimigo vivo.'",
-    "referencia": "Cap. 7, p. 49"
-  },
-  {
-    "id": 222,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 7 - Indícios",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo Malatesta, citado por Rocha (1999) no Caderno Didático, indício é:",
-    "alternativas": {
-      "A": "O conjunto dos elementos sensíveis do fato criminoso submetido à apreciação de técnicos especializados.",
-      "B": "Aquele argumento probatório que deduz o desconhecido do conhecido por meio da relação de causalidade.",
-      "C": "Toda manifestação física que se liga a um ato ou fato ocorrido ou cometido, isto é, à infração penal.",
-      "D": "A prova negativa de autoria utilizada para demonstrar o álibi do acusado.",
-      "E": "A exteriorização material e a aparição física do delito, constituída de materialidade permanente."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o texto: 'Segundo Malatesta, citado por Rocha (1999), indício é aquele argumento probatório que deduz o desconhecido do conhecido por meio da relação de causalidade.'",
-    "referencia": "Cap. 7, p. 49"
-  },
-  {
-    "id": 223,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o art. 161 do CPP, em razão do risco de desaparecimento dos vestígios, o exame de corpo de delito poderá ser realizado:",
-    "alternativas": {
-      "A": "Em qualquer dia e a qualquer hora, inclusive aos sábados, domingos, feriados e durante a madrugada.",
-      "B": "Somente após autorização específica do juiz competente, mesmo em fins de semana.",
-      "C": "Apenas em dias úteis, durante o horário comercial.",
-      "D": "Apenas durante o dia, salvo nos casos de morte violenta.",
-      "E": "Somente após a instauração formal do inquérito policial."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o texto: 'o Código de Processo Penal permite que o exame de corpo de delito possa ser realizado em qualquer dia e a qualquer hora, ou seja, inclusive aos sábados, domingos, feriados e durante a madrugada. Essa é a regra do art. 161 do CPP'.",
-    "referencia": "Cap. 8, Seção 8.1, p. 51"
-  },
-  {
-    "id": 224,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o prazo para elaboração do laudo pericial previsto no CPP, é correto afirmar que:",
-    "alternativas": {
-      "A": "É de 10 dias, podendo ser prorrogado em casos excepcionais, a requerimento dos peritos, sem limite legal expresso para a prorrogação.",
-      "B": "É de 30 dias improrrogáveis em qualquer circunstância.",
-      "C": "É de 15 dias, com prorrogação limitada a igual período.",
-      "D": "É de 10 dias, podendo ser prorrogado apenas mediante autorização do Ministério Público.",
-      "E": "Não há prazo definido em lei, sendo de discricionariedade do perito."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'O prazo para a elaboração do laudo pericial é, segundo o CPP, de dez dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos' e 'O código não estabelece um limite para a prorrogação do prazo de apresentação do laudo'.",
-    "referencia": "Cap. 8, Seção 8.1, p. 51"
-  },
-  {
-    "id": 225,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em relação à autópsia, o art. 162 do CPP determina que:",
-    "alternativas": {
-      "A": "Será feita imediatamente após a constatação do óbito, sem prazo mínimo.",
-      "B": "Será feita pelo menos 24 horas após o óbito, sem exceções.",
-      "C": "Será feita pelo menos 12 horas após o óbito, salvo decisão judicial em contrário.",
-      "D": "Será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes daquele prazo.",
-      "E": "Será feita a critério do delegado de polícia federal, independentemente do tempo do óbito."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Citação literal do texto: 'a autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes daquele prazo, o que declararão no auto'.",
-    "referencia": "Cap. 8, Seção 8.1, p. 51"
-  },
-  {
-    "id": 226,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a ilustração de laudos periciais, segundo o CPP e o disposto no Caderno, é correto afirmar que:",
-    "alternativas": {
-      "A": "No art. 169, a ilustração é prerrogativa dos peritos, e o art. 164 impõe que os cadáveres serão sempre fotografados na posição em que forem encontrados.",
-      "B": "No art. 169, a ilustração é uma obrigação dos peritos em todos os casos, sem exceções.",
-      "C": "A ilustração com fotografias é vedada para preservar a objetividade do laudo.",
-      "D": "A fotografia dos cadáveres em locais de crime depende da decisão do delegado de polícia federal.",
-      "E": "Apenas microfotografias são admitidas em laudos periciais de laboratório."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma que 'os peritos poderão ilustrar seus laudos com fotografias... trata-se de uma prerrogativa dos peritos' (art. 169) e que 'os cadáveres serão sempre fotografados na posição em que forem encontrados... Aqui se trata de uma imposição legal' (art. 164).",
-    "referencia": "Cap. 8, Seção 8.2, p. 52"
-  },
-  {
-    "id": 227,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Quanto à avaliação pericial de coisas (art. 172 do CPP), é correto afirmar que:",
-    "alternativas": {
-      "A": "A avaliação deve ser sempre direta, sob pena de nulidade do laudo.",
-      "B": "A avaliação indireta é permitida quando não for possível ter acesso às coisas objeto do exame, sendo necessário relatar o critério utilizado.",
-      "C": "A avaliação cabe exclusivamente ao delegado de polícia federal.",
-      "D": "Não é necessário descrever no laudo o critério utilizado para se chegar ao valor atribuído.",
-      "E": "Coisas destruídas não podem ser objeto de avaliação pericial."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto diz: 'A avaliação será feita de forma indireta sempre que não for possível ter acesso às coisas objeto do exame... É necessário que os peritos relatem o critério utilizado para se chegar ao valor atribuído ao bem'.",
-    "referencia": "Cap. 8, Seção 8.3, p. 52-53"
-  },
-  {
-    "id": 228,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Nos crimes cometidos com destruição ou rompimento de obstáculo, o art. 171 do CPP determina que os peritos deverão descrever:",
-    "alternativas": {
-      "A": "Apenas o valor do prejuízo causado à vítima.",
-      "B": "Os vestígios, os instrumentos, os meios e a época em que presumem ter sido o fato praticado.",
-      "C": "Somente os instrumentos utilizados pelo autor do crime.",
-      "D": "Exclusivamente a identidade do autor do crime, quando possível.",
-      "E": "Apenas a extensão do dano patrimonial sofrido."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o texto: 'deverão os peritos descrever os vestígios, bem como os instrumentos, os meios e em que época presumem ter sido o fato praticado (art. 171 do CPP)'.",
-    "referencia": "Cap. 8, Seção 8.4, p. 53"
-  },
-  {
-    "id": 229,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em Criminalística, nos exames grafotécnicos por comparação de letra, os padrões devem obedecer a quatro requisitos básicos. Quais são?",
-    "alternativas": {
-      "A": "Autenticidade, originalidade, atualidade e variedade.",
-      "B": "Autenticidade, adequabilidade, contemporaneidade e quantidade.",
-      "C": "Legibilidade, contemporaneidade, autoria e quantidade.",
-      "D": "Originalidade, adequabilidade, antiguidade e clareza.",
-      "E": "Autenticidade, suficiência, datação e legibilidade."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma textualmente: 'Em Criminalística, os padrões têm de obedecer a quatro requisitos básicos: autenticidade, adequabilidade, contemporaneidade e quantidade'.",
-    "referencia": "Cap. 8, Seção 8.5, p. 54"
-  },
-  {
-    "id": 230,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o art. 158 do CPP, conforme descrito por Tsunoda (2011), a solicitação de perícia pela autoridade nos crimes que deixam vestígios é considerada:",
-    "alternativas": {
-      "A": "Ato discricionário, sujeito à conveniência administrativa da autoridade.",
-      "B": "Ato facultativo, podendo ser substituído pela confissão do acusado.",
-      "C": "Ato vinculado, em que a lei estabelece todos os requisitos e condições, sem deixar margem de liberdade.",
-      "D": "Ato político, dependente do interesse processual da acusação.",
-      "E": "Ato condicionado à autorização prévia do juiz da causa."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto explica: 'A solicitação de perícia pela autoridade é, portanto, um ato vinculado, não discricionário. Um ato vinculado é aquele em que a lei estabelece todos os requisitos e condições de sua realização, sem deixar qualquer margem de liberdade'.",
-    "referencia": "Cap. 8, Seção 8.8, p. 55"
-  },
-  {
-    "id": 231,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 9 - Laudo Pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Para a maioria dos doutrinadores, o laudo pericial deve ser elaborado, no mínimo, com as seguintes partes:",
-    "alternativas": {
-      "A": "Capa, sumário, introdução, desenvolvimento e referências.",
-      "B": "Identificação, narração, fundamentação jurídica e dispositivo.",
-      "C": "Histórico, descrição dos materiais, fotografias e assinatura dos peritos.",
-      "D": "Requisição, quesitação, exame e parecer técnico.",
-      "E": "Preâmbulo, exposição e discussão, e uma conclusão objetiva e sintética."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O texto diz: 'o laudo pericial deve ser elaborado com, no mínimo, as seguintes partes: um preâmbulo (número, título, nome dos peritos e informações sobre a requisição); exposição e discussão... e uma conclusão objetiva e sintética'.",
-    "referencia": "Cap. 9, p. 57"
-  },
-  {
-    "id": 232,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 9 - Laudo Pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a numeração dos laudos periciais no âmbito da Polícia Federal, é correto afirmar que:",
-    "alternativas": {
-      "A": "É individualizada por área pericial e reiniciada mensalmente.",
-      "B": "É sequencial por perito, sem coerência cronológica obrigatória.",
-      "C": "É reservada apenas no dia em que os exames são iniciados.",
-      "D": "É definida pela autoridade requisitante no momento da solicitação.",
-      "E": "É sequencial, comum a todas as áreas periciais, e se reinicia no primeiro dia de cada ano."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme o texto: 'A numeração dos laudos é sequencial, é comum a todas as áreas periciais e se reinicia no primeiro dia de cada ano'.",
-    "referencia": "Cap. 9, p. 57"
-  },
-  {
-    "id": 233,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 9 - Laudo Pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a importância do laudo pericial no processo penal brasileiro, o art. 182 do CPP estabelece que:",
-    "alternativas": {
-      "A": "O juiz fica integralmente vinculado à conclusão do laudo pericial.",
-      "B": "O laudo somente pode ser rejeitado pelo Ministério Público.",
-      "C": "O juiz não ficará adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo, no todo ou em parte.",
-      "D": "O laudo deve ser homologado pelo delegado antes de ser apreciado pelo juiz.",
-      "E": "A rejeição do laudo pelo juiz exige nova perícia obrigatória por outros peritos."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Citação direta do texto: 'Embora o art.182 do CPP estabeleça que o juiz não ficará adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo, no todo ou em parte, não é comum o juiz decidir em sentido contrário à conclusão da perícia'.",
-    "referencia": "Cap. 9, Seção 9.1, p. 58"
-  },
-  {
-    "id": 234,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 9 - Laudo Pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o laudo de exame de constatação preliminar, previsto na Lei nº 11.343/2006 (Lei de Entorpecentes), é correto afirmar que:",
-    "alternativas": {
-      "A": "É um dos vários exames preliminares previstos em lei no ordenamento jurídico brasileiro.",
-      "B": "Deve ser realizado obrigatoriamente por dois peritos oficiais, em qualquer hipótese.",
-      "C": "Quando feito por perito oficial, este fica impedido de realizar o exame definitivo.",
-      "D": "É o único caso de exame pericial preliminar previsto em lei, podendo ser realizado por um só perito ou, na falta deste, por qualquer pessoa com capacitação técnica nomeada pelo delegado.",
-      "E": "Substitui integralmente o exame definitivo para fins de julgamento do réu."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto afirma: 'o exame de constatação preliminar da natureza da substância... poderá ser realizado por um só perito ou, na falta deste, por qualquer outra pessoa que possua capacitação técnica para o encargo, que será nomeada pelo delegado de polícia federal... este é o único caso de exame pericial preliminar previsto em lei'.",
-    "referencia": "Cap. 9, Seção 9.2, p. 59"
-  },
-  {
-    "id": 235,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 9 - Laudo Pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "A 'informação', como documento pericial descrito no Caderno Didático, caracteriza-se por:",
-    "alternativas": {
-      "A": "Ser o documento que substitui o laudo pericial em casos de urgência.",
-      "B": "Ser uma manifestação técnica sobre conclusão de laudo pericial, equivalente ao parecer técnico.",
-      "C": "Ser o documento oficial pelo qual os peritos se comunicam com a autoridade requisitante ou com a chefia da Criminalística sobre assuntos relacionados aos exames, sem exigência expressa de assinatura por dois peritos.",
-      "D": "Ser um documento exclusivamente utilizado em processos cíveis pelo assistente técnico.",
-      "E": "Ser obrigatoriamente assinado por dois peritos, sob pena de nulidade."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma: 'A informação é o documento oficial por meio do qual os peritos encarregados de realizar um exame pericial se comunicam com a autoridade requisitante da perícia ou com a chefia da Criminalística para tratar de assuntos relacionados aos exames... Não há uma exigência de que a informação seja assinada por dois peritos'.",
-    "referencia": "Cap. 9, Seção 9.4, p. 59-60"
-  },
-  {
-    "id": 236,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "O relatório publicado em 2009 pelo National Research Council, que se tornou marco decisivo para a revisão conceitual e metodológica das ciências forenses, foi:",
-    "alternativas": {
-      "A": "Strengthening Forensic Science in the United States: A Path Forward.",
-      "B": "Forensic Science in Criminal Courts: Ensuring Scientific Validity of Feature-Comparison Methods.",
-      "C": "ENFSI Guideline for Evaluative Reporting in Forensic Science.",
-      "D": "Modules in a Forensic Science Process.",
-      "E": "Forensic Science Global Guidelines."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o PDF, 'Um marco decisivo foi a publicação, em 2009, do relatório Strengthening Forensic Science in the United States: A Path Forward, pelo National Research Council da National Academy of Sciences'.",
-    "referencia": "Cap. 10, p. 61"
-  },
-  {
-    "id": 237,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a série ISO 21043 e seu relacionamento com a ISO/IEC 17025, é correto afirmar que:",
-    "alternativas": {
-      "A": "A ISO 21043 substituiu integralmente a ISO/IEC 17025 nos laboratórios periciais.",
-      "B": "Ambas as normas oferecem processo de acreditação aplicável aos laboratórios forenses.",
-      "C": "A ISO 21043 sobrepõe-se às leis e aos normativos internos de cada país.",
-      "D": "A ISO/IEC 17025 é voltada à competência de laboratórios de ensaio e calibração, não abordando aspectos próprios da atividade pericial como interpretação e comunicação ao sistema de justiça.",
-      "E": "A ISO/IEC 17025 disciplina especificamente a elaboração de laudos periciais e interpretação de resultados."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O PDF afirma: 'laboratórios periciais utilizavam normas gerais de qualidade, especialmente a ISO/IEC 17025, voltada à competência de laboratórios de ensaio e calibração. Entretanto, essa norma não aborda aspectos próprios da atividade pericial, como a interpretação de resultados e a comunicação ao sistema de justiça'.",
-    "referencia": "Cap. 10, Seção 10.1, p. 62"
-  },
-  {
-    "id": 238,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a ISO 21043-1 (Vocabulário), a norma introduz uma distinção essencial entre três níveis do raciocínio pericial. São eles:",
-    "alternativas": {
-      "A": "Coleta, análise e relato.",
-      "B": "Classificação, quantificação e reconstrução.",
-      "C": "Hipótese, proposição e conclusão.",
-      "D": "Observação, interpretação e opinião.",
-      "E": "Vestígio, item e cena."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Segundo o PDF: 'a norma introduz uma distinção essencial entre três níveis do raciocínio pericial: a observação, correspondente ao que é diretamente constatado; a interpretação, que consiste em atribuir significado técnico ao dado observado; e a opinião, que corresponde à conclusão formulada a partir dessa interpretação'.",
-    "referencia": "Cap. 10, Seção 10.1.1, p. 63"
-  },
-  {
-    "id": 239,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a ISO 21043-3 (Análise), determinar que um pó branco se trata especificamente do alcaloide cocaína constitui exemplo de:",
-    "alternativas": {
-      "A": "Quantificação.",
-      "B": "Avaliação de Origem.",
-      "C": "Identificação.",
-      "D": "Reconstrução.",
-      "E": "Interpretação Avaliativa."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O PDF diferencia: 'A classificação consiste em comparar um item com coleções de referência (...); a identificação é a atribuição à classe mais específica possível. Uma classificação seria determinar que um pó branco é um alcaloide, enquanto uma identificação seria determinar que esse mesmo pó branco se trata do alcaloide cocaína'.",
-    "referencia": "Cap. 10, Seção 10.1.2, p. 64"
-  },
-  {
-    "id": 240,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a Interpretação Avaliativa, conforme disciplinada pela ISO 21043-4, é correto afirmar:",
-    "alternativas": {
-      "A": "Parte de proposições formuladas de início, mutuamente excludentes, relevantes ao caso, explícitas e específicas, requerendo ao menos duas proposições concorrentes.",
-      "B": "Não há proposições de início; o perito parte das observações para gerar possíveis explicações.",
-      "C": "Produz necessariamente conclusões categóricas apresentadas como fato.",
-      "D": "Dispensa o uso de modelos estatísticos ou julgamento profissional.",
-      "E": "Aplica-se exclusivamente à análise de padrões de mancha de sangue."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o PDF: 'Interpretação Avaliativa: parte de proposições formuladas de início, mutuamente excludentes, relevantes ao caso, explícitas e específicas. O perito avalia em que medida as observações suportam cada proposição. Requer ao menos duas proposições concorrentes'.",
-    "referencia": "Cap. 10, Seção 10.1.3, p. 65"
-  },
-  {
-    "id": 241,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em relação às Razões de Verossimilhança (Likelihood Ratios) previstas na ISO 21043-4, é correto afirmar que:",
-    "alternativas": {
-      "A": "São expressas exclusivamente de forma quantitativa, com base em modelos estatísticos.",
-      "B": "Constituem hipóteses que o perito formula para explicar o que aconteceu, sem ranqueamento.",
-      "C": "São estimativas pontuais geradas após interpretação investigativa.",
-      "D": "São opiniões usadas quando o perito julga impossível obter observações em qualquer hipótese alternativa.",
-      "E": "Expressam a razão entre a probabilidade das observações se H1 fosse verdadeira e a probabilidade das observações se H2 fosse verdadeira, podendo ser qualitativas ou quantitativas."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O PDF define: 'Razões de Verossimilhança (Likelihood Ratios): expressão da razão entre a probabilidade das observações se H1 fosse verdadeira e a probabilidade das observações se H2 fosse verdadeira. Podem ser expressas de forma qualitativa ou quantitativa, com base em modelos estatísticos ou julgamento profissional'.",
-    "referencia": "Cap. 10, Seção 10.1.3, p. 65"
-  },
-  {
-    "id": 242,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Quanto à classificação dos laudos prevista na ISO 21043-5 e sua adoção no contexto da Criminalística Federal, é correto afirmar:",
-    "alternativas": {
-      "A": "A Criminalística Federal adota integralmente a classificação da norma (preliminar, final, complementar, corrigido e obsoletado).",
-      "B": "A Criminalística Federal prevê apenas Laudos Preliminares de Constatação (relacionados à detecção preliminar de drogas de abuso) e Laudos de Perícia Criminal Federal.",
-      "C": "A norma ISO 21043-5 não classifica laudos quanto à posição na sequência administrativa.",
-      "D": "O laudo 'obsoletado' (withdrawm) é categoria exclusiva da Criminalística Federal, não prevista pela ISO.",
-      "E": "Laudos complementares substituem o relatório original quando se identifica erro técnico."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o PDF: 'É fundamental destacar que essa classificação não foi adotada pela Criminalística Federal, que prevê apenas Laudos Preliminares de Constatação, relacionados à detecção preliminar de drogas de abuso, e Laudos de Perícia Criminal Federal'.",
-    "referencia": "Cap. 10, Seção 10.1.4, p. 66"
-  },
-  {
-    "id": 243,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre os referenciais internacionais relevantes além da série ISO 21043, é correto afirmar:",
-    "alternativas": {
-      "A": "A Declaração de Sidney é um documento normativo de caráter obrigatório, com força equivalente à ISO 21043.",
-      "B": "A ENFSI é o organismo internacional que coordena os sistemas nacionais de acreditação.",
-      "C": "A OSAC, criada em 2014 pelo NIST, substituiu os Scientific Working Groups (SWGs) e publica standards e guidelines.",
-      "D": "O ILAC publica os Best Practice Manuals por disciplina forense na Europa.",
-      "E": "A ISO/IEC 27037:2012 trata da gestão inicial de itens e cadeia de custódia em ciências forenses em geral."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O PDF afirma: 'Em 2014, o NIST reestruturou esse sistema por meio da criação da Organization of Scientific Area Committees for Forensic Science (OSAC), que reúne hoje os principais comitês técnicos americanos por disciplina e publica standards e guidelines de caráter normativo e recomendatório, respectivamente'.",
-    "referencia": "Cap. 10, Seção 10.2, p. 66-67"
-  },
-  {
-    "id": 244,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a Lei nº 13.964/2019, considera-se cadeia de custódia:",
-    "alternativas": {
-      "A": "O conjunto de procedimentos restritos aos exames laboratoriais realizados em ambiente de criminalística.",
-      "B": "O conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte.",
-      "C": "O registro restrito da movimentação dos vestígios desde o ingresso na unidade pericial até a emissão do laudo.",
-      "D": "Os procedimentos formais adotados exclusivamente pela autoridade policial em fase pré-processual.",
-      "E": "A documentação produzida pelo assistente técnico para contestar a integridade dos vestígios."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme citação literal da Lei nº 13.964/2019 no PDF: 'Considera-se cadeia de custódia o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte'.",
-    "referencia": "Cap. 11, p. 69"
-  },
-  {
-    "id": 245,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o Manual de Boas Práticas de Gestão da Criminalística (MBP), item 138, nas unidades da Criminalística a cadeia de custódia é gerenciada, sobretudo, por meio do:",
-    "alternativas": {
-      "A": "Siscrim.",
-      "B": "Sistema oficial do CGCRE/Inmetro.",
-      "C": "Termo de Coleta de Vestígio (TCV).",
-      "D": "Ficha de acompanhamento do vestígio.",
-      "E": "Mensagem Oficial-Circular da DITEC/PF."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O PDF afirma: 'o Manual de Boas Práticas de Gestão da Criminalística (MBP) estabelece, no item 138, que, nas unidades da Criminalística, a cadeia de custódia é gerenciada, sobretudo, por meio do Siscrim, de forma a possibilitar o registro e o controle da movimentação dos documentos e dos materiais encaminhados para análise pericial'.",
-    "referencia": "Cap. 11, p. 69"
-  },
-  {
-    "id": 246,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "A cadeia de custódia externa pode ser definida como:",
-    "alternativas": {
-      "A": "Documentação que demonstra as movimentações dos vestígios no âmbito da Criminalística durante a análise pericial, desde o recebimento até a conclusão dos exames.",
-      "B": "Sequência de eventos documentados que fornece evidência de que a posse física ou controle do vestígio foi mantido desde sua arrecadação/coleta até o envio para análise.",
-      "C": "Conjunto de procedimentos adotados pelo assistente técnico para verificar a integridade dos vestígios.",
-      "D": "Registros do CCV (central de custódia de vestígios) referentes ao armazenamento pós-laudo.",
-      "E": "Procedimentos de descarte e devolução dos vestígios à autoridade requisitante."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o PDF: 'Cadeia de custódia externa: Sequência de eventos documentados que fornece evidência de que a posse física ou controle do vestígio foi mantido desde sua arrecadação/coleta até o envio para análise'.",
-    "referencia": "Cap. 11, p. 69"
-  },
-  {
-    "id": 247,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "As informações relativas às ações de fixação, coleta, acondicionamento e transporte do vestígio serão formalizadas em documento oficialmente adotado pela Polícia Federal, a partir da publicação da IN DG/PF nº 297/2024, denominado:",
-    "alternativas": {
-      "A": "Ficha de acompanhamento do vestígio.",
-      "B": "Auto de Apreensão e Depósito.",
-      "C": "Relatório de Cadeia Externa (RCE).",
-      "D": "Boletim de Custódia de Vestígios (BCV).",
-      "E": "Termo de Coleta de Vestígio (TCV)."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O PDF afirma: 'As informações relativas às ações de fixação, coleta, acondicionamento e transporte do vestígio serão formalizadas em \"Termo de Coleta de Vestígio (TCV)\", documento oficialmente adotado pela Polícia Federal, a partir da publicação da IN DG/PF nº 297/2024'.",
-    "referencia": "Cap. 11, Seção 11.1, p. 70"
-  },
-  {
-    "id": 248,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a recepção do vestígio na cadeia de custódia interna, é correto afirmar que, caso o vestígio seja encaminhado em recipiente lacrado e com numeração individualizada:",
-    "alternativas": {
-      "A": "A secretaria deve deslacrar a embalagem e conferir todo o conteúdo.",
-      "B": "A conferência fica dispensada até o início efetivo do exame pericial.",
-      "C": "O perito designado deve realizar imediatamente a deslacração para conferência.",
-      "D": "Cabe à secretaria realizar a conferência dos dados na embalagem, sem efetuar a deslacração.",
-      "E": "Apenas o gestor da unidade pode realizar a primeira conferência da embalagem."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Segundo o PDF: 'Caso este seja encaminhado em recipiente lacrado e com numeração individualizada, cabe à secretaria realizar a conferência dos dados na embalagem, sem efetuar a deslacração'.",
-    "referencia": "Cap. 11, Seção 11.2, p. 70"
-  },
-  {
-    "id": 249,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Instrução Normativa nº 163/2020 – DG/PF, após o ingresso na unidade de perícia criminal, deverá ser anexada ao vestígio:",
-    "alternativas": {
-      "A": "Uma cópia integral do inquérito policial.",
-      "B": "Uma ficha de acompanhamento do vestígio, para registrar o rompimento de lacres e as novas numerações, bem como para identificar os responsáveis por tais alterações.",
-      "C": "O laudo preliminar de constatação assinado pelo gestor.",
-      "D": "Um auto de exibição e apreensão chancelado pela autoridade requisitante.",
-      "E": "O Termo de Coleta de Vestígio em sua versão original."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o PDF: 'após o ingresso na unidade de perícia criminal, deverá ser anexada uma ficha de acompanhamento do vestígio, para registrar o rompimento de lacres e as novas numerações, bem como para identificar os responsáveis por tais alterações'.",
-    "referencia": "Cap. 11, Seção 11.2, p. 71"
-  },
-  {
-    "id": 250,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Mensagem Oficial-Circular da DITEC/PF, de 5 de março de 2020, findos os exames, os materiais examinados e o lacre inicial devem ser acondicionados pelo perito criminal:",
-    "alternativas": {
-      "A": "Em novo recipiente lacrado, devendo retornar à secretaria para destinação.",
-      "B": "Na embalagem original recebida, sem necessidade de novo lacre.",
-      "C": "Diretamente nos arquivos do inquérito policial original.",
-      "D": "Sob custódia pessoal do perito até o trânsito em julgado.",
-      "E": "Em depósito comum compartilhado com outras unidades."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O PDF cita: 'Findos os exames, os materiais examinados e o lacre inicial devem ser acondicionados pelo perito criminal em novo recipiente lacrado e devem retornar à secretaria para destinação'.",
-    "referencia": "Cap. 11, Seção 11.2, p. 71"
-  },
-  {
-    "id": 251,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o art. 158-D da Lei nº 13.964/2019, sobre as embalagens de segurança destinadas ao acondicionamento de vestígios, é correto afirmar:",
-    "alternativas": {
-      "A": "O recipiente serve apenas para transporte, não havendo exigência de espaço para registro de informações sobre seu conteúdo.",
-      "B": "Os lacres podem ter numeração genérica, desde que o recipiente seja resistente.",
-      "C": "O recipiente para acondicionamento do vestígio é determinado pela natureza do material, e todos os recipientes deverão ser selados com lacres, com numeração individualizada.",
-      "D": "A escolha do recipiente é definida unicamente pelo gestor da unidade pericial, independentemente da natureza do material.",
-      "E": "O lacre é exigido somente quando o vestígio é biológico ou químico perigoso."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o PDF, art. 158-D: 'O recipiente para acondicionamento do vestígio será determinado pela natureza do material. §1º Todos os recipientes deverão ser selados com lacres, com numeração individualizada, de forma a garantir a inviolabilidade e a idoneidade do vestígio durante o transporte'.",
-    "referencia": "Cap. 11, Seção 11.4, p. 73"
-  },
-  {
-    "id": 252,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a figura do assistente técnico, inserida no processo penal pela Lei nº 11.690/2008, é INCORRETO afirmar que ele pode:",
-    "alternativas": {
-      "A": "Analisar a preservação da cadeia de custódia, tanto externa como interna.",
-      "B": "Tecer críticas ao laudo pericial, observando aspectos de clareza, métodos, coerência e conclusão.",
-      "C": "Formular hipóteses e apontar falhas procedimentais, inclusive quanto ao manuseio dos vestígios.",
-      "D": "Apresentar sugestões e novas hipóteses, desde que técnica e juridicamente plausíveis.",
-      "E": "Substituir o perito oficial na elaboração do laudo pericial federal."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O PDF descreve que o assistente técnico pode analisar a cadeia de custódia, tecer críticas ao laudo, formular hipóteses e apontar falhas procedimentais, além de apresentar sugestões e novas hipóteses; em nenhum momento o texto autoriza a substituição do perito oficial na elaboração do laudo pericial federal.",
-    "referencia": "Cap. 11, Seção 11.5, p. 75"
-  },
-  {
-    "id": 253,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM), assinale a alternativa CORRETA:",
-    "alternativas": {
-      "A": "Trata-se de software proprietário adquirido pela Polícia Federal, com servidores descentralizados nas superintendências regionais.",
-      "B": "Foi desenvolvido pela empresa SERPRO e requer instalação local em cada estação de trabalho dos peritos.",
-      "C": "É um sistema 100% baseado em software livre, com banco de dados e servidores unificados e centralizados na DITEC/PF, em Brasília, acessado pela intranet.",
-      "D": "Substituiu integralmente o sistema ePol no âmbito da Polícia Federal, sendo utilizado para gestão do inquérito policial.",
-      "E": "Funciona apenas em ambiente externo via internet aberta, dispensando integração com outros sistemas da Polícia Federal."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o item 12.1: 'O sistema é 100% baseado em software livre, com seu banco de dados e servidores unificados e centralizados na DITEC/PF, em Brasília. Seu acesso é realizado pela intranet, não sendo necessária nenhuma instalação pelos usuários.'",
-    "referencia": "Cap. 12, Seção 12.1, p. 78"
-  },
-  {
-    "id": 254,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "No SISCRIM, as 'Áreas da Criminalística' são referidas como:",
-    "alternativas": {
-      "A": "Áreas Periciais",
-      "B": "Áreas de Exame",
-      "C": "Classes de Laudo",
-      "D": "Especialidades Forenses",
-      "E": "Subclasses Técnicas"
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o item 12.2: 'No SISCRIM, as Áreas da Criminalística são referidas como Áreas de Exame.'",
-    "referencia": "Cap. 12, Seção 12.2, p. 79"
-  },
-  {
-    "id": 255,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Quanto à estrutura dos laudos periciais criminais segundo a Portaria DITEC/PF nº 1.192/2022, é correto afirmar que:",
-    "alternativas": {
-      "A": "O título e o subtítulo variam livremente de acordo com a preferência do perito signatário.",
-      "B": "O título acompanha a área de exame e o subtítulo é fixo como 'Perícia Criminal Federal'.",
-      "C": "O título é único para todos os laudos ('Laudo de Perícia Criminal Federal') e o subtítulo segue a área de exame do laudo.",
-      "D": "Não há obrigatoriedade de título nem subtítulo, apenas a numeração do laudo é exigida.",
-      "E": "O subtítulo é facultativo e o título deve indicar o nome do requisitante."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme item 12.2.1: 'destaca-se a obrigatoriedade da indicação expressa de um título e de um subtítulo. O título é único para todos os laudos: Laudo de Perícia Criminal Federal. O subtítulo segue a área de exame do laudo.'",
-    "referencia": "Cap. 12, Seção 12.2.1, p. 79"
-  },
-  {
-    "id": 256,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "No SISCRIM, a classificação 'solicitação de exame' atribuída a um documento externo corresponde a:",
-    "alternativas": {
-      "A": "A requisição de exame ou requisição de perícia, expediente formal encaminhado ao chefe de uma unidade de criminalística.",
-      "B": "O agendamento de um exame em laboratório externo conveniado.",
-      "C": "Um pedido informal interno de auxílio entre peritos de diferentes unidades.",
-      "D": "A devolução de material periciado ao requisitante.",
-      "E": "O cadastro automático de laudo entregue ao ePol."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme item 12.3: 'a mais importante a classificação solicitação de exame, adotada no sistema para a requisição de exame ou requisição de perícia. A solicitação de exame corresponde ao expediente formal encaminhado ao chefe de uma unidade de criminalística.'",
-    "referencia": "Cap. 12, Seção 12.3, p. 80"
-  },
-  {
-    "id": 257,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o conceito de 'Pendência' no SISCRIM, assinale a alternativa CORRETA:",
-    "alternativas": {
-      "A": "É qualquer documento externo recebido pela unidade, ainda que sem finalidade de exame.",
-      "B": "É a requisição de exame que somente deixa de existir quando o material é fisicamente devolvido ao requisitante.",
-      "C": "Uma requisição cancelada permanece como pendência até que o laudo correspondente seja emitido.",
-      "D": "Toda solicitação de exame registrada é tratada como pendência e deixa de sê-lo após o ato de 'arquivar' a requisição no SISCRIM.",
-      "E": "Pendência refere-se apenas a expedientes em papel ainda não digitalizados no sistema."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme item 12.3.1: 'todo expediente classificado como solicitação de exame é tratado como uma pendência... ainda resta a última ação no SISCRIM, que é o ato de arquivar a requisição. É esse arquivamento que caracteriza, no SISCRIM, que não há outras ações a serem tomadas e a pendência deixa de existir.'",
-    "referencia": "Cap. 12, Seção 12.3.1, p. 80"
-  },
-  {
-    "id": 258,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "A 'demanda de exames periciais' no SISCRIM é definida como:",
-    "alternativas": {
-      "A": "Conjunto de expedientes registrados com finalidade 'Solicitação de Exame' em determinado período, sem diferenciar pendentes de arquivadas.",
-      "B": "Conjunto somente das requisições pendentes em uma unidade de criminalística.",
-      "C": "O número de laudos efetivamente entregues no ano em curso.",
-      "D": "A quantidade de peritos disponíveis para o atendimento das requisições.",
-      "E": "Apenas as requisições com criticidade alta registradas em um ano."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme item 12.3.3: 'a Demanda se refere a um conjunto de expedientes registrados no SISCRIM com a finalidade Solicitação de Exame em determinado período. Esse conceito não diferencia as requisições que estão pendentes daquelas que foram arquivadas.'",
-    "referencia": "Cap. 12, Seção 12.3.3, p. 81"
-  },
-  {
-    "id": 259,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre as 'situações' das requisições de exame no SISCRIM, é CORRETO afirmar que:",
-    "alternativas": {
-      "A": "Existem 10 situações possíveis, todas atribuídas manualmente pelo usuário.",
-      "B": "Existem 12 situações possíveis, todas registradas manualmente pelos peritos responsáveis.",
-      "C": "Existem 17 situações possíveis, todas inferidas automaticamente pelo sistema, sem possibilidade de intervenção do usuário.",
-      "D": "Existem 5 situações possíveis, todas inferidas automaticamente pelo SISCRIM.",
-      "E": "Existem 17 situações possíveis, sendo 12 inferidas automaticamente pelo sistema e 5 alimentadas manualmente pelo usuário."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme item 12.3.4: 'Existem 17 situações possíveis para um expediente dentro do SISCRIM, sendo que 12 são inferidas e atribuídas automaticamente pelo sistema e outras cinco podem ser alimentadas manualmente pelo usuário.'",
-    "referencia": "Cap. 12, Seção 12.3.4, p. 81"
-  },
-  {
-    "id": 260,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Instrução de Serviço nº 08/2011 - DITEC/PF, será classificada como criticidade ALTA a requisição que:",
-    "alternativas": {
-      "A": "Contenha materiais suscetíveis a alterações pelo tempo ou condições de armazenamento.",
-      "B": "Possa fundamentar mandado de busca e apreensão ou iniciar operações.",
-      "C": "Seja a primeira requisição registrada no dia pela unidade de criminalística.",
-      "D": "Refira-se a réu ou indiciado presos, aguardando o resultado do exame para a decisão quanto à manutenção da prisão.",
-      "E": "Tenha sido encaminhada via despacho eletrônico de tarefa do ePol."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme item 12.3.5, são de criticidade Alta: 'requisições relativas a réu ou indiciado presos, aguardando o resultado de exame para a decisão quanto à manutenção da prisão'.",
-    "referencia": "Cap. 12, Seção 12.3.5, p. 82"
-  },
-  {
-    "id": 261,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o indicador de complexidade das requisições no SISCRIM, assinale a alternativa CORRETA:",
-    "alternativas": {
-      "A": "É expresso em horas de trabalho e atribuído integralmente pelo perito responsável.",
-      "B": "É expresso em pontos e o esforço unitário equivale a um exame completo de local de crime de morte violenta.",
-      "C": "É expresso em 'pontos de complexidade'; o esforço unitário (1 ponto) equivale ao esforço de todo o processo do Exame de Extração Forense de Dados de um telefone celular.",
-      "D": "É fixo para cada área de exame e não considera a quantidade de vestígios.",
-      "E": "Refere-se exclusivamente à criticidade da requisição, sem relação com o esforço pericial."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme item 12.3.6: 'O indicador de complexidade é expresso em pontos de complexidade. ... O esforço unitário (1 ponto) da pontuação de complexidade é equivalente ao esforço de todo o processo do Exame de Extração Forense de Dados de um telefone celular.'",
-    "referencia": "Cap. 12, Seção 12.3.6, p. 83"
-  },
-  {
-    "id": 262,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre 'material' no SISCRIM, considere as afirmações:\nI. Todo item registrado como material é vestígio.\nII. Há vestígios que não são registrados no SISCRIM, pois não ficam na custódia da perícia, como veículos, aeronaves, embarcações e locais de crime.\nIII. Há itens classificados como material que não são periciados, como mídias para espelhamento usadas em exames de informática.\nEstão corretas:",
-    "alternativas": {
-      "A": "Apenas I.",
-      "B": "Apenas II e III.",
-      "C": "Apenas I e II.",
-      "D": "Apenas I e III.",
-      "E": "I, II e III."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme item 12.4: 'nem todo item registrado como material é vestígio (ou contém vestígios) e nem todo vestígio é registrado no SISCRIM.' Ex.: veículos, aeronaves, embarcações e locais de crime não são registrados; mídias para espelhamento são classificadas como material sem serem periciadas. Logo, II e III estão corretas; I está errada.",
-    "referencia": "Cap. 12, Seção 12.4, p. 84-85"
-  },
-  {
-    "id": 263,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "NÃO é uma classificação prevista no SISCRIM para a finalidade de um material:",
-    "alternativas": {
-      "A": "Apoio ao Exame",
-      "B": "Contra-prova",
-      "C": "Mídia para espelhamento",
-      "D": "Padrão",
-      "E": "Cadeia de custódia externa"
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme item 12.4.1, as finalidades previstas são: Apoio ao Exame; Contra-prova; Devolução; Exame; Mídia anexa; Mídia para espelhamento; Padrão; Pesquisa. 'Cadeia de custódia externa' não consta dessa lista.",
-    "referencia": "Cap. 12, Seção 12.4.1, p. 85"
-  },
-  {
-    "id": 264,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "A 'Força de Trabalho Disponível para Exames' (FTDE) de uma unidade de criminalística é obtida a partir:",
-    "alternativas": {
-      "A": "Dos dados do módulo Agenda do SISCRIM, somando-se as FTDEs de cada perito lotado na unidade.",
-      "B": "Do módulo de Materiais do SISCRIM, com base nos itens em custódia.",
-      "C": "Do número total de laudos entregues no ano anterior.",
-      "D": "Do quantitativo de criticidade alta registradas em cada UC.",
-      "E": "Da pontuação de complexidade média dos laudos da unidade."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme item 12.5.1: 'A partir dos dados do módulo Agenda do SISCRIM, é possível calcular um número que representa a disponibilidade da força de trabalho pericial dedicada aos exames periciais. Para calcular a FTDE de determinada unidade, somam-se as FTDEs de cada perito lotado.'",
-    "referencia": "Cap. 12, Seção 12.5.1, p. 85"
-  },
-  {
-    "id": 265,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o Mecanismo de Equalização de Demandas (MED), é CORRETO afirmar que:",
-    "alternativas": {
-      "A": "É um software independente do SISCRIM, voltado apenas para a redistribuição de peritos entre as unidades.",
-      "B": "Utiliza painel de BI com dados de demanda, produção, estoque e FTDE, fornecendo informações para que as chefias combinem a redistribuição de pendências entre as UCs.",
-      "C": "Foi desenvolvido para impedir transferências de pendências entre unidades de criminalística distintas.",
-      "D": "Substitui a atuação das chefias na avaliação de cargas de trabalho, automatizando integralmente a redistribuição.",
-      "E": "Aplica-se exclusivamente às áreas de Informática e Química Forense."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme item 12.6: 'O Painel de BI do MED utiliza dados de demanda, produção, estoque e FTDE para fornecer informações sobre a situação de cada UC. A partir da análise dessas informações, as chefias devem se comunicar e combinar a redistribuição de pendências.'",
-    "referencia": "Cap. 12, Seção 12.6, p. 86"
-  },
-  {
-    "id": 266,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre os 'prazos críticos' aplicados às pendências da Criminalística, é CORRETO afirmar que:",
-    "alternativas": {
-      "A": "São idênticos aos prazos máximos de atendimento estabelecidos pela Meta 1.",
-      "B": "Correspondem a 50% além dos prazos máximos de atendimento.",
-      "C": "São fixados em 30 dias para qualquer área de exame, independentemente do tempo máximo de atendimento.",
-      "D": "São atualmente definidos como 25% além dos prazos máximos de atendimento (Meta 1), e seu desrespeito pode levar ao encaminhamento da pendência à corregedoria.",
-      "E": "Aplicam-se somente às requisições de criticidade baixa."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme item 12.7.2: 'Os prazos críticos são aqueles a partir dos quais as requisições que passaram pelo fluxo de saneamento e não foram atendidas podem ser encaminhadas para apuração de responsabilidades na corregedoria... Os prazos críticos são atualmente definidos como 25% além dos prazos máximos de atendimento (Meta 1).'",
-    "referencia": "Cap. 12, Seção 12.7.2, p. 87"
-  },
-  {
-    "id": 267,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Indicador da Criminalística (ICRIM) consolida o desempenho das unidades em relação às metas da Criminalística em uma nota de 0 a 10. Os pesos de seus componentes são:",
-    "alternativas": {
-      "A": "C1 (50%) - pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (20%) - tempo médio de atendimento.",
-      "B": "C1 (50%) - pendências fora do prazo máximo; C2 (20%) - produtividade; C3 (30%) - tempo médio de atendimento.",
-      "C": "C1 (33%) - pendências fora do prazo máximo; C2 (33%) - produtividade; C3 (34%) - tempo médio de atendimento.",
-      "D": "C1 (30%) - pendências fora do prazo máximo; C2 (20%) - produtividade; C3 (50%) - tempo médio de atendimento.",
-      "E": "C1 (20%) - pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (50%) - tempo médio de atendimento."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme item 12.8: 'C1 (20% do ICRIM): desempenho em relação à meta de quantidade de Pendências fora do prazo máximo; C2 (30% do ICRIM): desempenho em relação à meta de produtividade; C3 (50% do ICRIM): desempenho em relação à meta de tempo médio de atendimento.'",
-    "referencia": "Cap. 12, Seção 12.8, p. 88"
-  },
-  {
-    "id": 268,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Biblioteca Digital da Criminalística (BDCRIM) é caracterizada como:",
-    "alternativas": {
-      "A": "Repositório oficial de jurisprudência criminal acessível ao público externo.",
-      "B": "Sistema integrado de inquéritos policiais geridos pela Corregedoria-Geral.",
-      "C": "Plataforma de divulgação de laudos sigilosos para órgãos de segurança pública.",
-      "D": "Repositório oficial de normas e documentos da criminalística da Polícia Federal.",
-      "E": "Banco de dados de antecedentes criminais mantido pelo Ministério da Justiça."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o Cap. 13, p. 91: 'A Biblioteca Digital da Criminalística é o repositório oficial de normas e documentos da criminalística da Polícia Federal.'",
-    "referencia": "Cap. 13, Seção 13.1, p. 91"
-  },
-  {
-    "id": 269,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca do acesso e da gestão da BDCRIM, é correto afirmar:",
-    "alternativas": {
-      "A": "É acessível pela internet pública, com senha do domínio PF.",
-      "B": "Sua manutenção compete exclusivamente ao Instituto Nacional de Criminalística, conforme decreto presidencial.",
-      "C": "É acessível apenas pela intranet da PF, e sua atualização está atribuída à Diretoria Técnico-Científica conforme a Portaria DITEC/PF nº 1368/2024.",
-      "D": "É acessível por intranet, mas sua atualização compete às superintendências regionais.",
-      "E": "É restrita aos peritos titulares do INC, sem acesso por servidores de outras unidades."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 91: 'Atualmente, a BDCRIM é acessível apenas pela intranet da Polícia Federal e sua atualização e manutenção estão atribuídas à Diretoria Técnico-Científica, conforme assentado na Portaria DITEC/PF nº 1368/2024.'",
-    "referencia": "Cap. 13, Seção 13.1, p. 91"
-  },
-  {
-    "id": 270,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o art. 160 do CPP, citado no caderno, o prazo máximo para elaboração do laudo pericial é de:",
-    "alternativas": {
-      "A": "10 dias, podendo ser prorrogado em casos excepcionais, a requerimento dos peritos.",
-      "B": "15 dias, prorrogáveis pelo juiz.",
-      "C": "30 dias, prorrogáveis a requerimento dos peritos.",
-      "D": "5 dias, improrrogáveis.",
-      "E": "20 dias, contados da data da requisição."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme p. 92, art. 160, parágrafo único do CPP: 'O laudo pericial será elaborado no prazo máximo de 10 (dez) dias, podendo este prazo ser prorrogado, em casos excepcionais, a requerimento dos peritos.'",
-    "referencia": "Cap. 13, Seção 13.2, p. 92"
-  },
-  {
-    "id": 271,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o art. 58 da Instrução Normativa DG/PF nº 255/2023, o laudo pericial criminal federal será elaborado no prazo legal contado:",
-    "alternativas": {
-      "A": "Da data do recebimento da requisição, prorrogável pelo requisitante por solicitação fundamentada e com indicação de prazo estimado para conclusão da perícia.",
-      "B": "Da data da designação do perito, sem possibilidade de prorrogação.",
-      "C": "Da data da realização dos exames, após análise de viabilidade.",
-      "D": "Da data do despacho de instauração do inquérito policial.",
-      "E": "Da data da apreensão dos materiais pelo delegado de polícia federal."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme p. 92, art. 58 da IN DG/PF nº 255/2023: 'O laudo pericial criminal federal será elaborado no prazo legal, contado da data do recebimento da requisição, prorrogável pelo requisitante por solicitação fundamentada e com indicação de prazo estimado para conclusão da perícia.'",
-    "referencia": "Cap. 13, Seção 13.2, p. 92"
-  },
-  {
-    "id": 272,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o Guia ENCRIM, é correto afirmar que:",
-    "alternativas": {
-      "A": "Substitui as publicações oficiais dos atos normativos em diário oficial.",
-      "B": "É uma mera compilação eletrônica que organiza as normas por áreas de exame e gestão, não substituindo as publicações oficiais.",
-      "C": "É um sistema de gestão integrado ao ePol, voltado à elaboração automatizada de laudos.",
-      "D": "É publicado mensalmente pelo Ministério da Justiça e Segurança Pública.",
-      "E": "Tem caráter normativo e vinculante para todos os peritos criminais federais."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme p. 94: 'Cumpre destacar que o guia ENCRIM se trata de uma mera compilação e não substitui as publicações oficiais dos atos normativos, ou das suas alterações, em diário oficial da União, em boletim de serviço, aditamento semanal ou BDCRIM.'",
-    "referencia": "Cap. 13, Seção 13.3, p. 94"
-  },
-  {
-    "id": 273,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Instrução Normativa (IN), conforme definição apresentada no caderno, é ato expedido:",
-    "alternativas": {
-      "A": "Pelos Diretores, para regular métodos técnicos de sua área de atuação.",
-      "B": "Pelo Diretor Técnico-Científico, para disciplinar matérias correlatas à perícia criminal.",
-      "C": "Exclusivamente pelo Diretor-Geral, para a execução de leis, decretos e regulamentos com efeitos na esfera de atuação da PF.",
-      "D": "Por superintendentes regionais e chefes de delegacia, no limite de suas atribuições.",
-      "E": "Por coordenadores e chefes de gabinete, para uniformizar procedimentos administrativos."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 94: 'Instrução Normativa – IN: ato expedido exclusivamente pelo Diretor-Geral para a execução das leis, decretos e regulamentos com efeitos na esfera de atuação da Polícia Federal'.",
-    "referencia": "Cap. 13, Seção 13.3, p. 94"
-  },
-  {
-    "id": 274,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca dos atos normativos após a publicação do Decreto 12.002/2024, é correto afirmar:",
-    "alternativas": {
-      "A": "Todos os tipos de atos anteriores foram revogados imediatamente.",
-      "B": "Os únicos atos que podem ser publicados hoje são portarias, instruções normativas e resoluções, garantindo-se a eficácia de outros tipos anteriores, como IT, OT e IS.",
-      "C": "Somente podem ser publicados hoje IT, OT e IS, mantendo-se a vigência de portarias.",
-      "D": "Apenas instruções normativas podem ser publicadas, ficando IT, OT e IS revogadas.",
-      "E": "O decreto autoriza a publicação de qualquer tipo de ato, sem restrições."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme p. 96: 'Com a publicação do Decreto 12.002/2024, os únicos atos que podem ser publicados hoje são as portarias, instruções normativas e resoluções. Contudo, esse mesmo decreto garantiu a eficácia de outros tipos de norma anteriores, como as IT, OT e IS.'",
-    "referencia": "Cap. 13, Seção 13.3, p. 96"
-  },
-  {
-    "id": 275,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o art. 55 da IN DG/PF nº 255/2023, as requisições de exame devem ser:",
-    "alternativas": {
-      "A": "Dirigidas ao Diretor-Geral, acompanhadas do inquérito policial e distribuídas em até 30 dias.",
-      "B": "Dirigidas ao perito de plantão, acompanhadas do laudo preliminar e distribuídas conforme cronograma mensal.",
-      "C": "Dirigidas ao chefe da unidade de perícia criminal federal da circunscrição em que estiver vinculada, acompanhadas dos termos de apreensão e distribuídas imediatamente aos peritos criminais federais.",
-      "D": "Encaminhadas diretamente ao INC, independentemente da circunscrição, e distribuídas em até 10 dias.",
-      "E": "Dirigidas ao corregedor-geral, acompanhadas da decisão judicial e distribuídas semanalmente."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 96, art. 55: As requisições serão 'I - dirigidas ao chefe da unidade de perícia criminal federal da circunscrição em que estiver vinculada; II - acompanhadas dos termos de apreensão; e III - distribuídas imediatamente aos peritos criminais federais.'",
-    "referencia": "Cap. 13, Seção 13.4, p. 96"
-  },
-  {
-    "id": 276,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a IS nº 7/2011, os usuários do SISCRIM que tenham requisição de exame sem cadastramento de objetos de exame ou sem realização de análise de viabilidade há mais de:",
-    "alternativas": {
-      "A": "5 dias terão acesso ao SISCRIM totalmente bloqueado.",
-      "B": "10 dias terão as funcionalidades no SISCRIM parcialmente bloqueadas.",
-      "C": "15 dias serão notificados pelo gestor para regularização.",
-      "D": "30 dias serão automaticamente afastados da carga.",
-      "E": "60 dias deverão devolver a requisição ao requisitante."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme p. 97, item ix: 'Todos os usuários do Siscrim que tenham requisição de exame sem o cadastramento de objetos de exames ou sem a realização de análise de viabilidade de atendimento há mais de 10 (dez) dias terão as funcionalidades no Siscrim parcialmente bloqueadas.'",
-    "referencia": "Cap. 13, Seção 13.5.1, p. 97"
-  },
-  {
-    "id": 277,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "A análise de viabilidade de atendimento, prevista na IS nº 7/2011, deve contemplar:",
-    "alternativas": {
-      "A": "A elaboração do laudo preliminar de constatação no prazo de 24 horas.",
-      "B": "A oitiva do requisitante e a análise jurídica da requisição.",
-      "C": "Apenas a contagem dos itens apreendidos e a verificação dos lacres.",
-      "D": "A conferência do material, avaliação de suficiência do material e análise dos quesitos quanto à pertinência, clareza e possibilidade de serem respondidos.",
-      "E": "A confirmação da autoria do crime e da materialidade do delito."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme p. 98: a análise de viabilidade 'deve contemplar a conferência do material, avaliação de suficiência do material e, por fim, a análise dos quesitos, que consiste na avaliação da pertinência e da clareza dos questionamentos realizados e da possibilidade de serem respondidos.'",
-    "referencia": "Cap. 13, Seção 13.5.2, p. 98"
-  },
-  {
-    "id": 278,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "No contexto da segurança nas unidades de Criminalística, em exames de local, a ordem de prioridade que deve nortear os procedimentos é:",
-    "alternativas": {
-      "A": "Preservação do local, socorro às vítimas e segurança da equipe.",
-      "B": "Coleta de provas, segurança da equipe e socorro às vítimas.",
-      "C": "Comunicação ao delegado, isolamento do local e coleta de vestígios.",
-      "D": "Identificação do autor, preservação do local e socorro às vítimas.",
-      "E": "Segurança, socorro aos feridos e, por fim, preservação/coleta de provas, com o mínimo de perdas possível."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme p. 100: 'A primeira prioridade a ser observada é a manutenção da segurança... Atendida a prioridade inicial de segurança, a segunda prioridade a ser observada é o socorro aos eventuais feridos... O socorro deve ser realizado com prioridade, mas com o mínimo de perdas de provas possível.'",
-    "referencia": "Cap. 13, Seção 13.5.3, p. 100"
-  },
-  {
-    "id": 279,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No SISCRIM, o conceito de 'Procedimento' corresponde a:",
-    "alternativas": {
-      "A": "Cada etapa do exame pericial registrada pelo perito designado.",
-      "B": "O registro que representa o processo, investigação ou processo administrativo ao qual a perícia está vinculada, servindo como referência comum para o controle das requisições, laudos e demais documentos associados.",
-      "C": "O fluxo de movimentação interna de documentos entre grupos de funcionários.",
-      "D": "O conjunto de instruções normativas que regulam a atividade pericial.",
-      "E": "A subunidade administrativa criada para apoiar a gestão da carga de trabalho."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme p. 101: 'Procedimento: é o registro que representa o processo, investigação ou processo administrativo ao qual a perícia está vinculada, servindo como referência comum para o controle das requisições de exame, dos laudos periciais e outros documentos associados.'",
-    "referencia": "Cap. 14, Seção 14.5.1, p. 101"
-  },
-  {
-    "id": 280,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No SISCRIM, define-se 'Carga' como:",
-    "alternativas": {
-      "A": "O peso médio dos materiais sob custódia do perito.",
-      "B": "O funcionário, grupo, unidade ou órgão externo para onde o documento ou material foi encaminhado, não indicando que houve efetivo recebimento.",
-      "C": "O ato administrativo de designação formal do perito para o exame.",
-      "D": "O conjunto de materiais apreendidos vinculados a uma requisição.",
-      "E": "A unidade administrativa de vínculo formal do servidor para fins de gestão de pessoal."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme p. 101: 'Carga: representa o funcionário, o grupo, a unidade ou o órgão externo para onde o documento ou material foi encaminhado no SISCRIM. A carga não indica que o documento ou material foi efetivamente recebido.'",
-    "referencia": "Cap. 14, Seção 14.5.1, p. 101"
-  },
-  {
-    "id": 281,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "A diferença entre 'Lotação' e 'Localização' no SISCRIM é:",
-    "alternativas": {
-      "A": "Lotação é o endereço físico da unidade; localização é o setor onde o servidor trabalha.",
-      "B": "Lotação refere-se ao local onde está o material apreendido; localização indica a posição do laudo no sistema.",
-      "C": "Lotação é definida pelo gestor; localização é definida pelo próprio perito.",
-      "D": "São termos sinônimos no SISCRIM, sem distinção operacional.",
-      "E": "Lotação corresponde à unidade administrativa de vínculo formal do servidor; Localização indica a unidade de criminalística em que está vinculado para movimentação e emissão de documentos no SISCRIM, podendo divergir da lotação em missões de apoio temporário."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme p. 101-102: 'Lotação: corresponde à unidade administrativa com a qual o servidor possui vínculo administrativo formal...' e 'Localização: indica a unidade de criminalística em que o servidor está vinculado para efeitos de movimentação e emissão de documentos no SISCRIM, em determinado momento, podendo divergir da lotação em situações de missões para apoio temporário.'",
-    "referencia": "Cap. 14, Seção 14.5.1, p. 101-102"
-  },
-  {
-    "id": 282,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No sistema ePol, o conceito de 'Bens' corresponde, no SISCRIM, ao conceito de:",
-    "alternativas": {
-      "A": "Documentos.",
-      "B": "Tarefas.",
-      "C": "Procedimentos.",
-      "D": "Materiais.",
-      "E": "Grupos de funcionários."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme p. 102: 'Bens: conceito adotado no sistema ePol que engloba o conceito de \"materiais\" no SISCRIM.' Também confirmado na p. 106: 'Os materiais são chamados de bens no sistema ePol.'",
-    "referencia": "Cap. 14, Seção 14.5.1, p. 102"
-  },
-  {
-    "id": 283,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No Módulo de Documentos do SISCRIM, os documentos cuja finalidade é definida como 'solicitação de exame' são considerados os mais importantes porque:",
-    "alternativas": {
-      "A": "Dispensam o cadastramento de materiais associados.",
-      "B": "Substituem a necessidade de termo de apreensão.",
-      "C": "São sempre marcados com publicidade restrita.",
-      "D": "Demandam a elaboração de exames periciais e a emissão dos laudos de perícia criminal federal.",
-      "E": "Geram automaticamente despacho ao requisitante."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme p. 103: 'no grupo de Documentos, os mais importantes são aqueles cuja \"finalidade\" é definida no sistema como \"solicitação de exame\", pois esses demandam a elaboração de exames periciais e a emissão dos laudos de perícia criminal federal.'",
-    "referencia": "Cap. 14, Seção 14.2, p. 103"
-  },
-  {
-    "id": 284,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Para os documentos com finalidade 'solicitação de exame', NÃO é uma das informações destacadas como definidas no SISCRIM:",
-    "alternativas": {
-      "A": "Dados do requisitante.",
-      "B": "Valor financeiro estimado dos materiais apreendidos.",
-      "C": "Criticidade (alta, média e baixa).",
-      "D": "Publicidade restrita (sigilo).",
-      "E": "Área de exame, dividida em classes e subclasses."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme p. 104, são destacadas: 'a) Dados do requisitante; b) Área de exame, dividida em classes e subclasses de exame; c) Criticidade (alta, média e baixa)...; d) Publicidade restrita (sigilo).' Não consta valor financeiro estimado.",
-    "referencia": "Cap. 14, Seção 14.2, p. 104"
-  },
-  {
-    "id": 285,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "A 'designação', no contexto do SISCRIM, é definida como:",
-    "alternativas": {
-      "A": "A definição da criticidade da requisição pelo requisitante.",
-      "B": "O ato de o perito aceitar voluntariamente uma requisição da fila de atendimento.",
-      "C": "A escolha do laboratório onde será realizado o exame, feita pela secretaria.",
-      "D": "A formalização do encerramento da requisição após arquivamento.",
-      "E": "O ato administrativo por meio do qual o gestor distribui uma solicitação de exame ao perito criminal federal, atribuindo-lhe formalmente a responsabilidade pelo atendimento, mediante despacho registrado no sistema."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme p. 105: 'A designação é o ato administrativo por meio do qual o gestor distribui uma solicitação de exame ao perito criminal federal, atribuindo-lhe formalmente a responsabilidade pelo atendimento, mediante despacho registrado no sistema.'",
-    "referencia": "Cap. 14, Seção 14.2, p. 105"
-  },
-  {
-    "id": 286,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre os materiais no SISCRIM, é correto afirmar:",
-    "alternativas": {
-      "A": "Podem existir de forma autônoma, sem vinculação obrigatória a documentos.",
-      "B": "São classificados apenas como 'exame' ou 'devolução'.",
-      "C": "Apenas materiais de finalidade 'padrão' geram rastreamento da cadeia de custódia.",
-      "D": "Não exigem o registro de lacre, descrição ou quantidade.",
-      "E": "Estão vinculados obrigatoriamente a documentos pré-cadastrados e devem ser classificados conforme finalidade, que pode ser exame (vestígios), apoio ao exame, contraprova, devolução, exame, mídia anexa, mídia para espelhamento, padrão ou pesquisa."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme p. 105: 'Vinculados obrigatoriamente a documentos pré-cadastrados, os materiais do SISCRIM correspondem a objetos, amostras, equipamentos, bens apreendidos e outros itens... os quais também devem ser classificados conforme sua finalidade, podendo esta ser exame (vestígios), apoio ao exame, contraprova, devolução, exame, mídia anexa, mídia para espelhamento, padrão ou pesquisa.'",
-    "referencia": "Cap. 14, Seção 14.3, p. 105"
-  },
-  {
-    "id": 287,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a movimentação de documentos e materiais no SISCRIM, é correto afirmar:",
-    "alternativas": {
-      "A": "Uma movimentação representa uma operação de transferência de carga, iniciando-se com a realização da movimentação na origem e sendo concluída com a confirmação de recebimento no destino.",
-      "B": "A movimentação é instantânea e independe de confirmação no destino.",
-      "C": "Apenas documentos podem ser movimentados; materiais permanecem sempre na unidade emissora.",
-      "D": "A movimentação só pode ser feita pelo Diretor Técnico-Científico.",
-      "E": "Uma movimentação não altera a carga do item; apenas registra histórico para auditoria."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme p. 106: 'Uma movimentação representa uma operação de transferência de carga. A operação se inicia com a realização da movimentação na origem e é concluída com a confirmação de recebimento no destino.'",
-    "referencia": "Cap. 14, Seção 14.4, p. 106"
-  },
-  {
-    "id": 288,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "A identificação única de um documento emitido no SISCRIM é composta por:",
-    "alternativas": {
-      "A": "Tipo, número, ano e unidade emissora (por exemplo: Laudo 265/2025-SETEC/SR/MG/PF).",
-      "B": "CPF do perito signatário e número do procedimento.",
-      "C": "Apenas o número sequencial geral do sistema.",
-      "D": "Código de barras gerado automaticamente, sem necessidade de ano ou unidade.",
-      "E": "Número do inquérito policial seguido do nome do requisitante."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme p. 108: 'A identificação única do documento é composta pelo tipo, número, ano e unidade emissora, como por exemplo: Laudo 265/2025-SETEC/SR/MG/PF, Despacho 02555/2026-DELECIBER/SR/SP/PF, Ofício 12/2025-COGER.'",
-    "referencia": "Cap. 14, Seção 14.4, p. 108"
-  },
-  {
-    "id": 289,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca da pesquisa textual no SISCRIM (Acerto Eletrônico), o caderno informa que:",
-    "alternativas": {
-      "A": "A funcionalidade de pesquisa textual foi descontinuada após o Decreto 12.002/2024.",
-      "B": "Apenas peritos do INC têm acesso à pesquisa textual em laudos antigos.",
-      "C": "A pesquisa textual está restrita aos laudos sigilosos, mediante autorização judicial.",
-      "D": "O sistema permite pesquisas em até 10.000 laudos por consulta, com limite diário.",
-      "E": "O sistema permite pesquisas textuais em quase os mais de 1.000.000 de laudos cadastrados, sendo fonte de aprendizado contínuo e atualização dos peritos."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme p. 109-110: 'O SISCRIM é o grande repositório de conhecimento da criminalística e todos os laudos não sigilosos estão abertos para leitura e estudo dos peritos. Visando ser uma fonte de aprendizado contínuo... o sistema oferece a possibilidade de pesquisas textuais em quase os mais de 1.000.000 de laudos cadastrados!'",
-    "referencia": "Cap. 14, Seção 14.4.1, p. 109-110"
-  },
-  {
-    "id": 290,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No fluxo típico de entrada, atendimento e saída do SISCRIM, a criação de 'cópias' da requisição é adotada quando:",
-    "alternativas": {
-      "A": "O requisitante envia a mesma requisição em duplicidade por erro.",
-      "B": "Há necessidade de elaborar laudo preliminar de constatação.",
-      "C": "A mesma requisição é atendida por peritos diferentes, quando demanda laudos de áreas de exame distintas, ou quando mais de uma UC realizará o atendimento.",
-      "D": "O material apreendido excede a capacidade do laboratório.",
-      "E": "O gestor decide redistribuir aleatoriamente as requisições da fila."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 112: 'O fluxo admite ainda a criação de cópias da requisição, que passam a ser tratadas como requisições autônomas. Essa prática é adotada quando a mesma requisição é atendida por peritos diferentes, quando demanda a elaboração de laudos referentes a áreas de exame distintas ou ainda quando mais de uma UC realizará o atendimento.'",
-    "referencia": "Cap. 14, Seção 14.5, p. 112"
-  },
-  {
-    "id": 291,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No fluxo do SISCRIM, o laudo somente é considerado entregue quando:",
-    "alternativas": {
-      "A": "É numerado pelo sistema, após a assinatura digital.",
-      "B": "É revisado pelo chefe da unidade de criminalística.",
-      "C": "Ocorre o seu envio ao requisitante, sendo essa data considerada para algumas métricas de gestão relativas a metas e prazos.",
-      "D": "É efetivamente arquivado pela secretaria.",
-      "E": "É inserido no ePol como anexo do inquérito policial eletrônico."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 112: 'O laudo somente é considerado entregue quando ocorre o seu envio ao requisitante, e a data de entrega ao requisitante é a data considerada para algumas métricas de gestão da criminalística relativas a metas e prazos.'",
-    "referencia": "Cap. 14, Seção 14.5, p. 112"
-  },
-  {
-    "id": 292,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No fluxo do SISCRIM, a requisição é considerada efetivamente atendida apenas quando:",
-    "alternativas": {
-      "A": "O laudo é assinado digitalmente pelo perito criminal federal.",
-      "B": "Ocorre o cadastramento dos objetos de exame na análise de viabilidade.",
-      "C": "O material é devolvido ao requisitante junto com o laudo.",
-      "D": "É arquivada no sistema, geralmente pela secretaria da unidade, etapa que marca o encerramento do fluxo típico de entrada, atendimento e saída.",
-      "E": "A criticidade da requisição é redefinida como 'baixa'."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme p. 112: 'Por fim, a requisição é considerada efetivamente atendida apenas quando arquivada no sistema, geralmente pela secretaria da unidade, etapa que marca o encerramento do fluxo típico de entrada, atendimento e saída no SISCRIM.'",
-    "referencia": "Cap. 14, Seção 14.5, p. 112"
-  },
-  {
-    "id": 293,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a assinatura digital de laudos no SISCRIM, é correto afirmar:",
-    "alternativas": {
-      "A": "Adota o padrão ICP-Brasil e é obrigatória para os laudos periciais emitidos, permitindo identificar a autoria do documento eletrônico e verificar que não sofreu alteração após a assinatura.",
-      "B": "É facultativa, sendo aceita também a assinatura manuscrita digitalizada.",
-      "C": "É realizada exclusivamente pelo chefe da unidade de criminalística, em nome do perito designado.",
-      "D": "Dispensa a obtenção de certificado digital quando o laudo for sigiloso.",
-      "E": "É feita por reconhecimento biométrico, sem uso de certificado ICP-Brasil."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme p. 114: 'O SISCRIM adota a assinatura digital (padrão ICP-Brasil) como obrigatória para os laudos periciais emitidos, assegurando um mecanismo que permite identificar a autoria de um documento em forma eletrônica, bem como verificar que um documento não sofreu qualquer alteração após a assinatura.'",
-    "referencia": "Cap. 14, Seção 14.6, p. 114"
-  },
-  {
-    "id": 294,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Capítulo 15 (Aula prática SISCRIM), quais são as formas de acesso ao SISCRIM apresentadas?",
-    "alternativas": {
-      "A": "Login com usuário/senha e login com certificado digital.",
-      "B": "Apenas login com certificado digital.",
-      "C": "Apenas login com usuário e senha.",
-      "D": "Login biométrico e login por token físico.",
-      "E": "Login federado via gov.br e login por QR Code."
-    },
-    "resposta_correta": "A",
-    "justificativa": "A seção 15.1 'Acesso ao SISCRIM' apresenta duas formas: '1 - LOGIN COM USUÁRIO/SENHA' e '2 - LOGIN COM CERTIFICADO DIGITAL'.",
-    "referencia": "Cap. 15, Seção 15.1, p. 115"
-  },
-  {
-    "id": 295,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme apresentado no Capítulo 15, qual é a sequência inicial correta no fluxo de emissão de laudo pelo SISCRIM, após o acesso ao sistema?",
-    "alternativas": {
-      "A": "Geração de PDF, assinatura digital e envio ao SISCRIM.",
-      "B": "Encaminhamento à chefia, elaboração do laudo e relacre dos materiais.",
-      "C": "Geração do laudo a partir de modelo, cadastro de objetos e recebimento de materiais.",
-      "D": "Cadastro dos objetos de exame, geração do laudo e elaboração do histórico.",
-      "E": "Recebimento da solicitação de exames, recebimento dos materiais e deslacre dos materiais."
-    },
-    "resposta_correta": "E",
-    "justificativa": "A seção 15.2 (Emissão de Laudo) inicia com '1 - RECEBIMENTO DE SOLICITAÇÃO DE EXAMES PERICIAIS', seguido de '2 - RECEBIMENTO DE MATERIAIS A SEREM SUBMETIDOS A EXAME' e '3 - DESLACRAR MATERIAIS'.",
-    "referencia": "Cap. 15, Seção 15.2, p. 123-124"
-  },
-  {
-    "id": 296,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No Capítulo 15, dentre os widgets da tela inicial do SISCRIM, qual NÃO é apresentado entre os widgets descritos?",
-    "alternativas": {
-      "A": "Pendências.",
-      "B": "Produção.",
-      "C": "Materiais.",
-      "D": "Histórico de Quesitos.",
-      "E": "Plantão/Sobreaviso."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O capítulo apresenta os widgets Pendências (3.1), Produção (3.2), Materiais (3.3), Dados do Usuário (3.4), Informações para Contato (3.5), Plantão/Sobreaviso (3.6), Avisos (3.7) e Aniversariantes do Mês (3.9). 'Histórico de Quesitos' não é mencionado.",
-    "referencia": "Cap. 15, Seção 15.1, p. 116-120"
-  },
-  {
-    "id": 297,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a etapa final do fluxo de emissão de laudo no SISCRIM apresentada no Capítulo 15, após a geração do PDF, assinatura digital e envio do arquivo ao sistema, qual é o último passo descrito?",
-    "alternativas": {
-      "A": "Encaminhar laudo, materiais e solicitação de exames para a chefia.",
-      "B": "Deslacrar materiais.",
-      "C": "Gerar laudo a partir de modelo.",
-      "D": "Cadastrar objetos de exame.",
-      "E": "Enviar o laudo diretamente ao Poder Judiciário."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O passo 11 descrito é 'ENCAMINHAR LAUDO + MATERIAIS + SOLICITAÇÃO DE EXAMES PARA A CHEFIA', sendo a última etapa apresentada após o relacre dos materiais (passo 10).",
-    "referencia": "Cap. 15, Seção 15.2, p. 133"
-  },
-  {
-    "id": 298,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo o Capítulo 16, o método científico aplicado à perícia caracteriza-se principalmente como:",
-    "alternativas": {
-      "A": "Um ciclo dinâmico em que cada etapa pode ser revisitada à luz de novas informações.",
-      "B": "Um processo intuitivo, baseado primordialmente na experiência subjetiva do perito.",
-      "C": "Uma sequência rígida e linear que vai da observação à conclusão sem possibilidade de revisão.",
-      "D": "Um conjunto de regras administrativas que padronizam a produção do laudo.",
-      "E": "Um modelo estatístico fechado que dispensa a formulação de hipóteses."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'esse processo não se apresenta como uma sequência rígida e linear, mas como um ciclo dinâmico, em que cada etapa pode ser revisitada à luz de novas informações'.",
-    "referencia": "Cap. 16, p. 135"
-  },
-  {
-    "id": 299,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a Seção 16.2, para que uma hipótese seja considerada científica em contexto pericial, é indispensável que ela seja:",
-    "alternativas": {
-      "A": "Comprovável de forma absoluta e definitiva.",
-      "B": "Compatível com a experiência prévia do perito.",
-      "C": "Testável, gerando previsões que possam ser confrontadas com dados empíricos.",
-      "D": "Aceita pela maioria dos especialistas da área.",
-      "E": "Aprovada previamente por revisão por pares."
-    },
-    "resposta_correta": "C",
-    "justificativa": "A Seção 16.2 estabelece que 'é indispensável atender a um requisito fundamental: ser testável', e que 'a testabilidade de uma hipótese significa que ela deve gerar previsões que possam ser confrontadas com dados empíricos'.",
-    "referencia": "Cap. 16, Seção 16.2, p. 136"
-  },
-  {
-    "id": 300,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Seção 16.3, ao assumir a falseabilidade como critério, a ciência:",
-    "alternativas": {
-      "A": "Determina que conclusões científicas são irrevogáveis.",
-      "B": "Aceita apenas hipóteses comprovadas em laboratório de forma definitiva.",
-      "C": "Abandona a pretensão de certeza, pois nenhuma hipótese pode ser considerada definitivamente comprovada.",
-      "D": "Rejeita teorias amplamente aceitas como não científicas.",
-      "E": "Iguala-se ao discurso de opiniões e crenças pessoais."
-    },
-    "resposta_correta": "C",
-    "justificativa": "A Seção 16.3 afirma: 'Ao assumir a falseabilidade como critério, a ciência abandona a pretensão de certeza. O conhecimento científico é sempre provisório, pois nenhuma hipótese pode ser considerada definitivamente comprovada'.",
-    "referencia": "Cap. 16, Seção 16.3, p. 137"
-  },
-  {
-    "id": 301,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Seção 16.3, a ciência forense avança principalmente por meio:",
-    "alternativas": {
-      "A": "Da confirmação definitiva de hipóteses consideradas corretas.",
-      "B": "Da intuição treinada dos peritos mais experientes.",
-      "C": "Do consenso entre as instituições periciais.",
-      "D": "Da eliminação progressiva de hipóteses inadequadas.",
-      "E": "Do acúmulo irrestrito de evidências favoráveis."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto afirma que 'A ciência, inclusive a ciência forense, avança não pela confirmação definitiva de hipóteses consideradas corretas, mas pela eliminação progressiva de hipóteses inadequadas'.",
-    "referencia": "Cap. 16, Seção 16.3, p. 137"
-  },
-  {
-    "id": 302,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a Seção 16.4, o raciocínio que parte de observações particulares para formular generalizações mais amplas, produzindo conclusões prováveis, jamais absolutamente certas, é o:",
-    "alternativas": {
-      "A": "Dedutivo.",
-      "B": "Abdutivo.",
-      "C": "Analógico.",
-      "D": "Indutivo.",
-      "E": "Hipotético-falsificacionista."
-    },
-    "resposta_correta": "D",
-    "justificativa": "A Seção 16.4 afirma: 'O raciocínio indutivo parte de observações particulares para formular generalizações mais amplas' e que 'o raciocínio indutivo produz conclusões prováveis, jamais absolutamente certas'.",
-    "referencia": "Cap. 16, Seção 16.4, p. 138"
-  },
-  {
-    "id": 303,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Ainda na Seção 16.4, o processo de formular a explicação mais plausível para um conjunto de observações disponíveis é denominado:",
-    "alternativas": {
-      "A": "Raciocínio dedutivo.",
-      "B": "Raciocínio abdutivo.",
-      "C": "Raciocínio indutivo.",
-      "D": "Raciocínio analítico.",
-      "E": "Raciocínio falseável."
-    },
-    "resposta_correta": "B",
-    "justificativa": "A Seção 16.4 afirma que 'O raciocínio abdutivo, por fim, é o processo de formular a explicação mais plausível para um conjunto de observações disponíveis'.",
-    "referencia": "Cap. 16, Seção 16.4, p. 138"
-  },
-  {
-    "id": 304,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a Seção 16.5, o viés cognitivo caracterizado pela tendência a buscar, valorizar ou lembrar mais facilmente de evidências que confirmem uma hipótese prévia, minimizando dados contrários, é o viés de:",
-    "alternativas": {
-      "A": "Ancoragem.",
-      "B": "Confirmação.",
-      "C": "Autoridade.",
-      "D": "Enquadramento.",
-      "E": "Retrospectivo."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Segundo a Seção 16.5, o viés de confirmação 'é a tendência a buscar, valorizar ou lembrar mais facilmente de evidências que confirmem uma hipótese prévia, ao mesmo tempo em que se minimizam ou ignoram dados que poderiam contradizê-la'.",
-    "referencia": "Cap. 16, Seção 16.5, p. 139"
-  },
-  {
-    "id": 305,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre os vieses cognitivos descritos na Seção 16.5, assinale a alternativa CORRETA:",
-    "alternativas": {
-      "A": "Decorrem de negligência, má-fé ou falta de competência profissional.",
-      "B": "Atingem somente peritos inexperientes.",
-      "C": "Podem ser totalmente eliminados pela boa intenção do perito.",
-      "D": "São características universais do funcionamento cognitivo humano, presentes mesmo em especialistas experientes.",
-      "E": "São irrelevantes desde que o exame seja conduzido por mais de um perito."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto da Seção 16.5 afirma que 'Vieses cognitivos não decorrem de negligência, má-fé ou falta de competência profissional. Ao contrário, são características universais do funcionamento cognitivo humano, presentes mesmo em especialistas experientes'.",
-    "referencia": "Cap. 16, Seção 16.5, p. 139"
-  },
-  {
-    "id": 306,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Na Seção 16.5 (Reprodutibilidade e Robustez Metodológica), qual a diferença entre reprodutibilidade e robustez metodológica?",
-    "alternativas": {
-      "A": "Reprodutibilidade é a capacidade do método produzir resultados consistentes mesmo com variações nas condições; robustez é a obtenção dos mesmos resultados por outros profissionais.",
-      "B": "Reprodutibilidade é a validade legal do laudo; robustez é a aceitação técnica do método.",
-      "C": "Ambos os conceitos são sinônimos e indicam que o exame é confiável.",
-      "D": "Reprodutibilidade é a obtenção do mesmo valor numérico exato; robustez é a aceitação do método pela comunidade jurídica.",
-      "E": "Reprodutibilidade refere-se à capacidade de outros profissionais obterem resultados compatíveis ao repetir o exame; robustez é a capacidade do método produzir resultados consistentes mesmo com pequenas variações experimentais."
-    },
-    "resposta_correta": "E",
-    "justificativa": "Conforme o texto: 'reprodutibilidade diz respeito à capacidade de obter resultados compatíveis ao repetir um exame' e 'a robustez refere-se à capacidade de um método produzir resultados consistentes mesmo quando há pequenas variações nas condições experimentais'.",
-    "referencia": "Cap. 16, Seção 16.5, p. 141"
-  },
-  {
-    "id": 307,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a Seção 16.5, são parâmetros avaliados durante a validação metodológica, EXCETO:",
-    "alternativas": {
-      "A": "Precisão (repetibilidade dos resultados).",
-      "B": "Exatidão (proximidade do valor verdadeiro).",
-      "C": "Sensibilidade (capacidade de detectar pequenas quantidades).",
-      "D": "Especificidade (capacidade de distinguir a substância de interesse de outras).",
-      "E": "Subjetividade (grau de interpretação pessoal do operador)."
-    },
-    "resposta_correta": "E",
-    "justificativa": "O texto lista precisão, exatidão, sensibilidade, especificidade e limites de detecção como parâmetros da validação. 'Subjetividade' não consta entre eles e é justamente o que a validação busca reduzir.",
-    "referencia": "Cap. 16, Seção 16.5, p. 141"
-  },
-  {
-    "id": 308,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Seção 16.6, em um laudo pericial estruturado como produto científico, a seção em que o perito interpreta os resultados obtidos à luz das hipóteses consideradas, confrontando os dados com o conhecimento científico disponível e com o contexto do caso, é:",
-    "alternativas": {
-      "A": "O histórico.",
-      "B": "A discussão.",
-      "C": "O exame.",
-      "D": "O objeto.",
-      "E": "A conclusão."
-    },
-    "resposta_correta": "B",
-    "justificativa": "A Seção 16.6 afirma: 'a discussão é o espaço em que o perito interpreta os resultados obtidos à luz das hipóteses consideradas, confrontando os dados com o conhecimento científico disponível e com o contexto específico do caso'.",
-    "referencia": "Cap. 16, Seção 16.6, p. 142"
-  },
-  {
-    "id": 309,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a Seção 17.1, no contexto da estatística forense, o conceito de aleatoriedade aplicado à 'seleção de uma pessoa ao acaso' significa que:",
-    "alternativas": {
-      "A": "A seleção segue uma força misteriosa da natureza.",
-      "B": "A seleção foi feita de modo a maximizar nossa incerteza sobre o tipo genético dessa pessoa.",
-      "C": "A seleção privilegia indivíduos com características genéticas conhecidas.",
-      "D": "A seleção é determinística, mas desconhecida pelo perito.",
-      "E": "A seleção é feita para minimizar nossa incerteza sobre o resultado."
-    },
-    "resposta_correta": "B",
-    "justificativa": "A Seção 17.1 afirma: 'queremos dizer que a seleção foi feita de modo a maximizar nossa incerteza sobre o tipo genético dessa pessoa. Aleatorização é, portanto, um processo deliberado para maximizar a incerteza — não uma força misteriosa da natureza'.",
-    "referencia": "Cap. 17, Seção 17.1, p. 145"
-  },
-  {
-    "id": 310,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Seção 17.1, qual a principal limitação da abordagem frequentista (frequência de longo prazo) da probabilidade no contexto forense?",
-    "alternativas": {
-      "A": "Depende exclusivamente do grau de crença subjetivo do perito.",
-      "B": "É circular, pois depende de eventos 'igualmente prováveis' para se definir.",
-      "C": "Não pode ser aplicada a eventos únicos, como a probabilidade de que um suspeito seja o autor do crime.",
-      "D": "Exige tabelas de simetria natural inexistentes em casos forenses.",
-      "E": "Não pode ser utilizada quando se conhece a proporção populacional."
-    },
-    "resposta_correta": "C",
-    "justificativa": "A Seção 17.1 afirma sobre a abordagem frequentista: 'não pode ser aplicada a eventos únicos, como “qual a probabilidade de que este suspeito seja o autor do crime?” — pois não existe um conjunto de repetições equivalentes'.",
-    "referencia": "Cap. 17, Seção 17.1, p. 145"
-  },
-  {
-    "id": 311,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com o Capítulo 17, a afirmação 'toda probabilidade é condicional' significa que:",
-    "alternativas": {
-      "A": "A probabilidade atribuída a um evento depende do que sabemos, sendo fundamental ser explícito sobre o condicionamento.",
-      "B": "Todo evento ocorre apenas mediante uma condição específica do mundo real.",
-      "C": "Apenas eventos dependentes podem ter probabilidades calculadas.",
-      "D": "A soma das probabilidades condicionais sempre é igual a 1.",
-      "E": "A probabilidade nunca pode ser comunicada sem conhecimento da hipótese alternativa."
-    },
-    "resposta_correta": "A",
-    "justificativa": "A Seção 17.1 afirma: 'A probabilidade que atribuímos a um evento depende do que sabemos' e 'É fundamental ser explícito sobre o condicionamento em qualquer enunciado probabilístico'.",
-    "referencia": "Cap. 17, Seção 17.1, p. 146"
-  },
-  {
-    "id": 312,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Seção 17.2, na forma do Teorema de Bayes mais útil para a prática forense — Odds(H|E) = Odds(H) × [Pr(E|H) / Pr(E|H̄)] —, a razão Pr(E|H) / Pr(E|H̄) é conhecida como:",
-    "alternativas": {
-      "A": "Probabilidade a priori.",
-      "B": "Probabilidade a posteriori.",
-      "C": "Frequência relativa.",
-      "D": "Probabilidade total.",
-      "E": "Razão de verossimilhança."
-    },
-    "resposta_correta": "E",
-    "justificativa": "A Seção 17.2 afirma: 'a razão Pr(E|H) / Pr(E|H̄), conhecida como razão de verossimilhança, mede o quanto a evidência favorece uma hipótese em relação à outra'.",
-    "referencia": "Cap. 17, Seção 17.2, p. 147"
-  },
-  {
-    "id": 313,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "Suponha que, em um exame de DNA, sob a hipótese de que o suspeito é a fonte, a probabilidade da coincidência seja igual a 1, e sob a hipótese alternativa essa probabilidade seja de 1 em um milhão. Conforme a Seção 17.3, qual o valor aproximado da razão de verossimilhança e seu significado?",
-    "alternativas": {
-      "A": "Aproximadamente 1 em um milhão, indicando que a coincidência é praticamente impossível.",
-      "B": "Igual a 1, pois as hipóteses são equiprováveis.",
-      "C": "Aproximadamente 50%, pois há duas hipóteses concorrentes.",
-      "D": "Igual a 0, pois a hipótese alternativa é descartada.",
-      "E": "Aproximadamente um milhão, indicando que a evidência é um milhão de vezes mais provável sob a hipótese de que o suspeito é a fonte."
-    },
-    "resposta_correta": "E",
-    "justificativa": "A Seção 17.3 apresenta exatamente esse exemplo: 'a razão de verossimilhança será de aproximadamente um milhão, indicando que a evidência é um milhão de vezes mais provável sob a hipótese de que o suspeito é a fonte do DNA'.",
-    "referencia": "Cap. 17, Seção 17.3, p. 148"
-  },
-  {
-    "id": 314,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a Seção 17.4, o erro de comunicação consistente em interpretar Pr(E|H_d) — probabilidade da evidência sob a hipótese de defesa — como se fosse Pr(H_d|E) — probabilidade da hipótese de defesa dada a evidência — é conhecido como:",
-    "alternativas": {
-      "A": "Falácia da transposição do condicional.",
-      "B": "Falácia da regressão à média.",
-      "C": "Falácia do jogador.",
-      "D": "Falácia da base de comparação.",
-      "E": "Falácia do tamanho amostral."
-    },
-    "resposta_correta": "A",
-    "justificativa": "A Seção 17.4 afirma: 'erros como a falácia da transposição do condicional tornam-se particularmente perigosos. Ao confundir Pr(E|H) com Pr(H|E), o raciocínio se afasta completamente dos princípios da probabilidade'.",
-    "referencia": "Cap. 17, Seção 17.4, p. 150"
-  },
-  {
-    "id": 315,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "Segundo a Seção 17.4, sobre a noção de individualização e a abordagem moderna na perícia, é CORRETO afirmar que:",
-    "alternativas": {
-      "A": "A individualização permanece como padrão científico moderno, dada a unicidade dos perfis genéticos.",
-      "B": "A individualização e a razão de verossimilhança são sinônimos no contexto forense atual.",
-      "C": "A abordagem moderna substitui a individualização por uma avaliação quantitativa da força da evidência, expressa em razão de verossimilhança.",
-      "D": "A abordagem moderna afirma categoricamente que um vestígio pertence a um indivíduo.",
-      "E": "A possibilidade de coincidência aleatória é completamente eliminada por perfis genéticos."
-    },
-    "resposta_correta": "C",
-    "justificativa": "A Seção 17.4 afirma: 'A abordagem moderna substitui a individualização por uma avaliação quantitativa da força da evidência. Em vez de afirmar que um vestígio “pertence” a um indivíduo, o perito expressa o grau de suporte que a evidência fornece para essa hipótese em relação às alternativas'.",
-    "referencia": "Cap. 17, Seção 17.4, p. 151"
-  },
-  {
-    "id": 316,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a Seção 17.4, na divisão de responsabilidades implícita no modelo bayesiano de interpretação da evidência:",
-    "alternativas": {
-      "A": "O perito deve inferir diretamente a probabilidade de culpa do acusado.",
-      "B": "O julgador avalia a evidência técnica e o perito decide sobre a culpa.",
-      "C": "Tanto o perito quanto o julgador devem se ater apenas à razão de verossimilhança.",
-      "D": "O perito avalia a evidência e fornece a razão de verossimilhança; o julgador integra essa informação com outros elementos do caso.",
-      "E": "O perito deve apresentar conclusões em termos absolutos, e o julgador apenas as homologa."
-    },
-    "resposta_correta": "D",
-    "justificativa": "A Seção 17.4 afirma: 'O perito avalia a evidência e fornece a razão de verossimilhança; o julgador integra essa informação com outros elementos do caso'.",
-    "referencia": "Cap. 17, Seção 17.4, p. 151"
-  },
-  {
     "id": 317,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial",
@@ -6810,5 +4379,2164 @@ const questoesDB = [
     "resposta_correta": "D",
     "justificativa": "Item I correto: 'a hipótese criminal tem como características: (i) clareza; (ii) falseabilidade; (iii) provisoriedade'. Item II correto: o texto descreve exatamente essas duas funções. Item III ERRADO: 'A definição de lacuna indica que esta não pode ser confundida com a ausência de indícios probatórios de corroboração... lacuna não é o que falta ser provado, é aquilo que não é possível enunciar'. Item IV correto: 'a hipotética enunciação categórica não surge de uma \"aposta\", de um \"instinto\", \"faro\" ou tirocínio do investigador, mas da (e)laboração mental do delegado'. Item V correto: 'local: implica e define a jurisdição da apuração, além de indicar a unidade responsável pela apuração'. Corretos: I, II, IV e V.",
     "referencia": "Cap. 6, Seções 6.8 e 6.8.1, p. 115-116"
+  },
+  {
+    "id": 407,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um pequeno município, durante uma manifestação pública, agentes de uma guarda municipal realizam patrulhamento ostensivo no entorno de prédios públicos; a Polícia Militar mantém-se em posição de prontidão nas vias principais; e a Polícia Rodoviária Federal fiscaliza rodovia federal próxima. Ao final da manifestação, é praticado um furto qualificado contra patrimônio de empresa pública federal e instaura-se a investigação. Considerando o art. 144 da Constituição Federal e a distinção entre polícia administrativa e polícia judiciária apresentada no texto, é correto afirmar que:",
+    "alternativas": {
+      "A": "A guarda municipal, por exercer função ostensiva, integra o rol constitucional dos órgãos de segurança pública do art. 144 e, no caso, poderia presidir o inquérito policial relativo ao furto, dada a sua atuação preventiva no local.",
+      "B": "A polícia administrativa, exercida pelas polícias militares, rodoviária e ferroviária federal, dedica-se à prevenção ostensiva dos crimes, enquanto a apuração da infração penal contra a empresa pública federal caberá à polícia judiciária, de caráter repressivo, exercida com exclusividade pela Polícia Federal.",
+      "C": "A Polícia Rodoviária Federal, por estar mais próxima geograficamente do local do fato e por ser órgão federal, é a competente para apurar o crime, inclusive instaurando o inquérito policial respectivo.",
+      "D": "Como o crime atingiu bens de empresa pública federal, todos os órgãos citados podem, em concorrência, exercer função de polícia judiciária da União, bastando que a apuração seja repressiva e posterior à infração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma que 'A polícia administrativa, destinada a fazer a prevenção dos crimes, de forma ostensiva, é atribuição das polícias militares, rodoviária e ferroviária federal' e que, após a prática da infração penal, 'entra em ação a polícia de função judiciária (...) que tem caráter repressivo'. O art. 144, §1º, IV da CF prescreve que a Polícia Federal exerce 'com exclusividade, as funções de polícia judiciária da União'.",
+    "referencia": "Cap. 1, Seções 1, 1.1 e 1.2, p. 13 e 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 408,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a investigação de um suposto homicídio ocorrido em zona rural, o Delegado de Polícia Federal indaga seu assessor sobre a diferença entre 'materialidade do delito' e 'autoria'. O assessor responde que a materialidade é, na verdade, a prova de que o agente esteve no local, enquanto a autoria seria a comprovação objetiva da ocorrência do crime. À luz dos conceitos apresentados no Capítulo, a resposta do assessor está:",
+    "alternativas": {
+      "A": "Incorreta, pois a materialidade do delito corresponde ao elemento objetivo do tipo penal, isto é, à efetivação do crime (no homicídio, a morte), enquanto a autoria significa quem praticou o fato delituoso.",
+      "B": "Parcialmente correta, pois materialidade e autoria são, na prática, conceitos sinônimos quando se trata de crimes contra a pessoa, como o homicídio.",
+      "C": "Correta, pois a materialidade é a presença física do autor no local, demonstrada por pegadas e impressões digitais, ao passo que a autoria diz respeito à conduta típica vedada pela lei penal.",
+      "D": "Incorreta apenas quanto à autoria, já que esta abrange tanto a identidade do agente quanto a comprovação da existência do crime, sendo a materialidade restrita ao exame de cadáver."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto define: 'A materialidade do delito (...) é o elemento objetivo do tipo penal, ou seja, é a ocorrência da conduta que a lei penal veda, é a efetivação do crime (...) a materialidade do crime de homicídio é a morte'. E ainda: 'A autoria é de compreensão mais simples, pois significa quem praticou o fato delituoso'.",
+    "referencia": "Cap. 1, Seção 1.1, p. 13-14",
+    "nivel": "facil"
+  },
+  {
+    "id": 409,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um cidadão comparece à Delegacia de Polícia Federal e comunica verbalmente a prática de crime de ação penal pública. Posteriormente, o Ministério Público requisita formalmente a instauração de inquérito policial sobre o mesmo fato. O Delegado, ao analisar a requisição, verifica indícios de ilegalidade na forma como o procedimento estava sendo conduzido. Sobre essa situação, julgue os itens a seguir:\n\nI. O simples encaminhamento da notitia criminis pelo cidadão obriga automaticamente o Delegado a instaurar o inquérito, sem qualquer controle de legalidade.\nII. A requisição do Ministério Público inicia imediatamente o inquérito policial, não havendo possibilidade de controle de legalidade pelo Delegado ou por intervenção judicial.\nIII. O Delegado deve atuar como o primeiro garantidor da legalidade do procedimento de investigação preliminar, sob pena de tornar-se coator da liberdade alheia.\nIV. Se o Delegado deixa de atuar por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP); se atua em excesso, com manifesta má-fé, em busca de proveito pessoal, pode haver a figura do abuso de poder da Lei nº 4.898/65.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "III e IV.",
+      "B": "II e III.",
+      "C": "I e II.",
+      "D": "I, III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'não é o simples encaminhamento que irá gerar um inquérito policial e nem se inicia o inquérito policial imediatamente pela requisição (não há vedação a um controle de legalidade da requisição (...))' — o que torna I e II incorretos. E: 'O Delegado de Polícia deve ser o primeiro garantidor da legalidade do procedimento de investigação preliminar, para não ser o coator da liberdade alheia. Se deixa de atuar, por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP). Se atua em excesso, com manifesta má-fé, em busca de proveito pessoal, pode haver a figura do abuso de poder da Lei nº 4.898/65.'",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 15",
+    "nivel": "dificil"
+  },
+  {
+    "id": 410,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em determinada operação, o Delegado de Polícia Federal toma conhecimento de duas infrações: (i) um crime de menor potencial ofensivo, identificado no curso do atendimento em local de ocorrência, e (ii) um crime de tráfico interestadual de entorpecentes com repercussão em outros Estados. Sobre a obrigatoriedade do inquérito policial e o caráter informativo da peça, considere os conceitos doutrinários e legais apresentados e avalie qual afirmação é correta:",
+    "alternativas": {
+      "A": "Embora muitos classifiquem o inquérito como peça meramente informativa, ele constitui um conjunto de provas muito importante para a persecução penal, pois muitas delas não podem ser refeitas na fase processual; ainda assim, nos crimes de menor potencial ofensivo, a Lei dos Juizados Especiais permite que seja substituído por simples termo circunstanciado de ocorrência.",
+      "B": "O inquérito policial é indispensável para o oferecimento da denúncia em qualquer caso, sendo expressamente vedada sua substituição por termo circunstanciado, mesmo nas infrações de menor potencial ofensivo.",
+      "C": "Por ser peça meramente informativa, o inquérito policial pode ser livremente dispensado pelo Delegado em qualquer crime, inclusive no tráfico de entorpecentes interestadual, desde que existam provas testemunhais robustas.",
+      "D": "A Lei dos Juizados Especiais tornou o inquérito dispensável apenas para o Ministério Público, permanecendo o Delegado de Polícia Federal obrigado a instaurá-lo em todas as infrações, inclusive as de menor potencial ofensivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o texto: 'Embora muitos o classifiquem como peça meramente informativa, o inquérito policial é um conjunto de provas muito importante na persecução penal, porque muitas delas não podem ser refeitas na fase processual.' E: 'A Lei dos Juizados Especiais tornou o inquérito dispensável também para o delegado de polícia federal nos casos de infrações penais de menor poder ofensivo, quando ele pode ser substituído por simples termo circunstanciado de ocorrência.'",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 14-15",
+    "nivel": "medio"
+  },
+  {
+    "id": 411,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um congresso internacional de história das ciências forenses, um palestrante afirma que a fase técnico-científica formal da investigação policial é antiga, remontando ao Império Romano, e que, antes do século XIX, diversas ciências já contribuíam sistematicamente para a elucidação de crimes. Outro palestrante o contradiz, sustentando que, até o século XIX, praticamente apenas uma área do conhecimento emprestava seus saberes à investigação criminal, e que a fase técnico-científica formal é recente. Conforme o material da disciplina, a posição correta é a do segundo palestrante porque:",
+    "alternativas": {
+      "A": "A fase técnico-científica da investigação consolidou-se com Quintiliano, no ano 1000, com a aplicação rotineira de impressões digitais em todos os crimes contra o patrimônio.",
+      "B": "Até o século XIX, a Química e a Física já figuravam como ciências centrais da investigação, sendo a Medicina incorporada apenas no final do século XX.",
+      "C": "Até o século XIX, praticamente apenas a Medicina emprestava seus conhecimentos científicos à investigação de alguns crimes, precisamente aqueles perpetrados contra a integridade física do ser humano, sendo a fase técnico-científica formal da investigação policial bem recente.",
+      "D": "A Criminalística surgiu já estruturada como disciplina autônoma na Antiguidade chinesa, em 700 d.C., tendo então um sistema formal e completo de classificação de impressões digitais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'Formalmente, a fase técnico-científica da investigação policial é bem recente. Até o século XIX, praticamente, apenas a Medicina emprestava seus conhecimentos científicos à investigação de alguns crimes, precisamente, aqueles perpetrados contra a integridade física do ser humano.' Também: 'No ano 700, os chineses usaram impressões digitais (...) mas sem qualquer sistema de classificação formal dessas impressões.'",
+    "referencia": "Cap. 2, Introdução, p. 17",
+    "nivel": "facil"
+  },
+  {
+    "id": 412,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma aula sobre a história da Criminalística, o professor cita: 'foi este autor que publicou, em 1891, a primeira descrição compreensiva do uso de evidência física na solução de crimes, e a quem se atribui a criação do termo Criminalística, em 1893, com a publicação do Tratado de Criminalística'. Outra aluna lembra que 'em 1813, foi publicado um Tratado de Toxicologia Geral, sendo seu autor considerado o pai da toxicologia moderna e o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen'. Os autores corretamente associados a essas contribuições são, respectivamente:",
+    "alternativas": {
+      "A": "Hans Gross e Mathieu Orfila.",
+      "B": "Alphonse Bertillon e Henry Faulds.",
+      "C": "Juan Vucetich e Edward Richard Henry.",
+      "D": "Sir William Herschel e Karl Landsteiner."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto registra: 'Em 1891, o alemão Hans Gross (...) publicou o livro Investigação Criminal, a primeira descrição compreensiva do uso de evidência física na solução de crimes. A Gross também é atribuída a criação do termo Criminalística, em 1893, com a publicação do Tratado de Criminalística.' E: 'Em 1813, Mathieu Orfila (...) publicou um Tratado de Toxicologia Geral. Ele é considerado o pai da toxicologia moderna (...) e foi o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen.'",
+    "referencia": "Cap. 2, Introdução, p. 17-18",
+    "nivel": "medio"
+  },
+  {
+    "id": 413,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recém-empossado lê textos clássicos da Criminalística e identifica que, ao longo do século XIX, várias transformações sociais e jurídicas explicam por que se sentiu a necessidade de criar uma área especializada na análise e interpretação dos vestígios materiais relacionados ao crime. Sobre as razões para o surgimento da Criminalística como área autônoma, julgue os itens:\n\nI. A confissão do acusado perdeu o status de 'rainha das provas' em razão da desmoralização desse meio probatório.\nII. A repulsa social à arbitrariedade e à violência policial pressionou pelo desenvolvimento de uma análise científica dos vestígios.\nIII. A fragilidade da prova testemunhal — pois pessoas esquecem, têm medo de represálias ou mentem para acobertar alguém — reforçou a necessidade do exame de vestígios materiais.\nIV. O desenvolvimento social trouxe simplificação das relações e diminuição dos conflitos, o que reduziu a necessidade da prova material.\nV. Na Europa, especialmente Inglaterra e França, surgiam no século XIX especialistas em investigação de fraudes documentais por meio do estudo da escrita, dando origem à Grafoscopia e à Documentoscopia.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "II, III e IV.",
+      "B": "I, II e IV.",
+      "C": "I, II, III e V.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'Com o progresso do conhecimento científico (...) a constatação da fragilidade da prova testemunhal e da desmoralização da confissão do acusado, que perdeu o status de rainha das provas, passou-se a sentir a necessidade da criação de uma área especializada (...)'. Ainda: 'o desenvolvimento torna as relações sociais mais complexas e aumenta a ocorrência de conflitos, fazendo crescer o índice de criminalidade' (o que torna IV falso). E: 'Registra-se também que na Europa, principalmente na Inglaterra e na França, no século XIX, havia muitos especialistas em investigação de fraudes documentais (...). Era o surgimento de outros campos da Criminalística, a Grafoscopia e a Documentoscopia'.",
+    "referencia": "Cap. 2, Introdução, p. 18-19",
+    "nivel": "dificil"
+  },
+  {
+    "id": 414,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma palestra, um historiador afirma que 'no Brasil, a história da Criminalística tem origem na Medicina Legal, e seu marco inaugural ocorreu no final do século XIX, na Bahia, com a atuação de um catedrático que estruturou em Salvador o primeiro grande serviço pericial organizado do país'. Ele acrescenta que esse mesmo catedrático foi influenciado pelo criminologista italiano Cesare Lombroso e introduziu conceitos como antropologia criminal e antropometria judicial (esta última desenvolvida por Alphonse Bertillon). O catedrático mencionado e seus discípulos diretos foram, respectivamente:",
+    "alternativas": {
+      "A": "Oscar Freire, com discípulos Afrânio Peixoto e Nina Rodrigues.",
+      "B": "Raimundo Nina Rodrigues, com discípulos Afrânio Peixoto e Oscar Freire.",
+      "C": "Afrânio Peixoto, com discípulos Hans Gross e Nina Rodrigues.",
+      "D": "Mathieu Orfila, com discípulos Bertillon e Nina Rodrigues."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'O marco inaugural dessa trajetória ocorreu na Bahia, no final do século XIX, com a atuação de Raimundo Nina Rodrigues. Ao assumir, em 1891, a cátedra de Medicina Legal da Faculdade de Medicina da Bahia (...) estruturou, em Salvador, o primeiro grande serviço pericial organizado do Brasil'. E: 'Entre eles destacam-se Afrânio Peixoto, que teve atuação decisiva na organização dos serviços médico-legais no Rio de Janeiro, e Oscar Freire, cuja influência foi determinante para a consolidação da Medicina Legal científica em São Paulo.'",
+    "referencia": "Cap. 2, Seção 2.1, p. 19-20",
+    "nivel": "medio"
+  },
+  {
+    "id": 415,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um debate acadêmico, sustenta-se que, com o tempo, a expressão 'Medicina Legal' tornou-se insuficiente para abarcar a pluralidade de conhecimentos técnico-científicos envolvidos na produção da prova material no Brasil. Isso porque a investigação científica passou a demandar a atuação de outros especialistas. Com base no texto, qual sequência descreve corretamente essa expansão histórica?",
+    "alternativas": {
+      "A": "Houve a substituição completa dos médicos-legistas por químicos e biólogos já no início do século XX, com extinção dos Institutos Médico-Legais.",
+      "B": "Primeiramente foram incorporados engenheiros e contadores, voltados à perícia patrimonial, e somente após a década de 1960 surgiram os químicos forenses.",
+      "C": "Os primeiros a serem incorporados foram os papiloscopistas, com a antropometria de Bertillon, seguindo-se imediatamente os agrônomos e veterinários.",
+      "D": "Inicialmente os químicos foram incorporados, sobretudo nos exames toxicológicos e na investigação de envenenamentos, seguidos por outros profissionais como farmacêuticos, biólogos, físicos e profissionais de múltiplas áreas do saber."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'A investigação científica passou a demandar a atuação de outros especialistas, inicialmente com destaque para os químicos, sobretudo nos exames toxicológicos e na investigação de envenenamentos, seguidos por outros profissionais como farmacêuticos, biólogos, físicos e outros profissionais de múltiplas áreas do saber.'",
+    "referencia": "Cap. 2, Seção 2.1, p. 20",
+    "nivel": "medio"
+  },
+  {
+    "id": 416,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma reunião institucional, discute-se os marcos da consolidação da Criminalística no Brasil. Um servidor menciona dois eventos: (i) o congresso em que foi oficialmente adotada a denominação 'Criminalística' em substituição ao termo 'Polícia Técnica'; e (ii) a inauguração, em Brasília, do Instituto de Criminalística vinculado ao Departamento Federal de Segurança Pública, que posteriormente daria origem ao Instituto Nacional de Criminalística. Esses eventos ocorreram, respectivamente, em:",
+    "alternativas": {
+      "A": "1891 (cátedra de Nina Rodrigues, Bahia) e 1947 (Congresso de São Paulo).",
+      "B": "1947 (I Congresso Nacional de Polícia Técnica, em São Paulo) e 1962 (inauguração em Brasília).",
+      "C": "1962 (Congresso de São Paulo) e 1991 (criação do INC).",
+      "D": "1893 (publicação do Tratado de Criminalística) e 1947 (inauguração em Brasília)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'Um importante marco institucional ocorreu em 1947, durante a realização, em São Paulo, do I Congresso Nacional de Polícia Técnica, ocasião em que foi oficialmente adotada a denominação Criminalística em substituição ao termo Polícia Técnica'. E: 'Posteriormente, em 1962, com a inauguração, em Brasília, do Instituto de Criminalística vinculado ao Departamento Federal de Segurança Pública (...) foram lançadas as bases da moderna perícia criminal federal.'",
+    "referencia": "Cap. 2, Seção 2.1, p. 20-21",
+    "nivel": "facil"
+  },
+  {
+    "id": 417,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um julgamento, o advogado utiliza indistintamente os termos 'criminologia' e 'criminalística', tratando-os como sinônimos. O perito chamado a depor esclarece a diferença entre as duas. Com base nos conceitos de Naufél (2002) e demais doutrinadores citados no texto, o esclarecimento tecnicamente correto é:",
+    "alternativas": {
+      "A": "A criminologia comprova a materialidade do delito e identifica o modus operandi do criminoso, enquanto a criminalística estuda o crime como fenômeno individual e social.",
+      "B": "A criminologia é a ciência que estuda os crimes e os criminosos, isto é, a criminalidade, como fenômeno individual e social, fornecendo elementos para a Política Penal; a criminalística objetiva a comprovação da materialidade do delito e a identificação dos criminosos e do seu modus operandi, sem se preocupar com o aspecto sociológico do crime.",
+      "C": "Ambas têm exatamente o mesmo objeto, diferindo apenas pela origem linguística — criminologia é termo latino, criminalística é termo germânico, e ambas tratam exclusivamente do exame de vestígios.",
+      "D": "A criminologia restringe-se ao exame de vestígios materiais, enquanto a criminalística cuida exclusivamente da política criminal e da prevenção do delito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'Criminologia, segundo Naufél (2002), é a ciência que estuda os crimes e os criminosos, isto é, a criminalidade. É o estudo interpretativo do delito (...). A criminologia estuda o delito como fenômeno individual e como fato social, fornecendo os elementos para orientação da Política Penal'. E: 'A criminalística (...) objetiva a comprovação da materialidade do delito e a identificação dos criminosos e do seu modus operandi, sem se preocupar com o aspecto sociológico do crime.'",
+    "referencia": "Cap. 2, Seção 2.2, p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 418,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "No I Congresso Nacional de Polícia Técnica (1947), a Criminalística foi definida como 'disciplina que tem por objetivo o reconhecimento e interpretação dos indícios materiais extrínsecos relativos ao crime ou à identidade do criminoso. Os exames dos vestígios intrínsecos (na pessoa) são da alçada da Medicina Legal'. Um perito moderno examina essa definição à luz dos conceitos atuais. Sobre essa definição e sua atualidade, é correto afirmar que:",
+    "alternativas": {
+      "A": "Essa definição expressa por completo a missão e o campo de ação da moderna Criminalística, sendo até hoje aplicada sem alterações pela Perícia Criminal Federal.",
+      "B": "Essa definição extinguiu a Medicina Legal, que deixou de existir como ramo do conhecimento aplicado ao Direito após o congresso de 1947.",
+      "C": "Essa definição, talvez adequada àquele tempo, não expressa por completo a missão e o campo de ação da moderna Criminalística, pois a Criminalística de 1947 era muito voltada para os crimes contra a pessoa, e hoje, ela é multidisciplinar, lançando mão de conhecimentos de Física, Química, Biologia, Contabilidade, Engenharia, Informática, Agronomia e Medicina, entre outras.",
+      "D": "Essa definição é restrita à Documentoscopia e à Grafotecnia, não abrangendo Balística Forense ou Merceologia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto registra: 'Essa definição, talvez adequada àquele tempo, não expressa por completo a missão e o campo de ação da moderna Criminalística. A Criminalística de que falavam os congressistas de 1947 era muito voltada para os crimes contra a pessoa (...). Hoje, com o enorme desenvolvimento tecnológico (...) a Criminalística (...) é multidisciplinar, lança mão de conhecimentos científicos de campos diversos (...). A Física, a Química, a Biologia, a Contabilidade, a Engenharia, a Informática, a Agronomia e a Medicina são apenas alguns exemplos (...)'.",
+    "referencia": "Cap. 2, Seção 2.2, p. 21-22",
+    "nivel": "medio"
+  },
+  {
+    "id": 419,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame cadavérico isolado, o legista descreve a trajetória de entrada e saída de um projétil no corpo da vítima e conclui, isoladamente, que o tiro foi dado 'de cima para baixo'. Posteriormente, descobre-se que a vítima estava pilotando uma motocicleta no momento do disparo. Esse exemplo, citado no texto, ilustra qual aspecto da Criminalística moderna?",
+    "alternativas": {
+      "A": "A primazia absoluta da Medicina Legal sobre os demais ramos da Criminalística, pois apenas o médico-legista pode interpretar trajetórias de projétil.",
+      "B": "A necessidade de equipe multidisciplinar atuando em conjunto desde o momento do exame do local de crime, trazendo coerência e correlação entre os resultados dos exames dos diversos tipos de vestígios encontrados — sem o que conclusões isoladas podem se mostrar equivocadas.",
+      "C": "A demonstração de que o exame do local de crime é dispensável quando há exame cadavérico completo, pois a Medicina Legal supre integralmente os demais ramos.",
+      "D": "A demonstração de que a Criminalística deve restringir-se à análise de vestígios intrínsecos, deixando o local de crime aos investigadores não periciais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'Na Perícia Criminal Federal, a Medicina e a Odontologia Forense fazem parte da equipe multidisciplinar que permite a atuação em conjunto desde o momento do exame do local de crime, trazendo muito mais coerência e correlação entre os resultados dos exames dos diversos tipos de vestígios encontrados.' E exemplifica com o caso da trajetória do projétil em motociclista, mostrando que 'Esta informação isolada poderia levar a uma conclusão equivocada (...). Porém, se no local de crime fosse constatado que a vítima estava pilotando uma moto no momento do tiro, a conclusão poderia ser diferente.'",
+    "referencia": "Cap. 2, Seção 2.2, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 420,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma investigação de falsificação de uma escritura cuja data de lavratura é alegadamente de 1921, um perito cogita utilizar a técnica de análise de idade do documento por meio do carbono 14. O coordenador, contudo, demonstra que a margem de erro dessa técnica para o período em questão seria tão grande que não garantiria a solução do ponto questionado, e propõe substituí-la por exames mais adequados. Esse caso, citado no texto, ilustra principalmente qual atributo da metodologia da Criminalística?",
+    "alternativas": {
+      "A": "Tempestividade, pois a única preocupação seria com o tempo de obtenção do resultado.",
+      "B": "Imparcialidade, no sentido de evitar atrelamento à acusação ou à defesa.",
+      "C": "Clareza, voltada à utilização de linguagem adequada aos destinatários do laudo.",
+      "D": "Precisão, pois os exames escolhidos e a metodologia utilizada devem produzir um resultado que promova a solução do ponto questionado com uma margem de segurança adequada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto descreve o atributo Precisão exatamente com esse exemplo: 'Precisão – Os exames escolhidos e a metodologia utilizada devem produzir um resultado que promova a solução do ponto questionado com uma margem de segurança adequada. Isso pode ser mais bem entendido com o seguinte exemplo: uma investigação de uso de documentos para a obtenção de vantagem indevida, tal como a falsificação de uma escritura cuja data de lavratura é de 1921 (...) qual seria o resultado? Seria preciso? Ou a margem de erro seria tão grande que não garantiria a solução da questão?'",
+    "referencia": "Cap. 2, Seção 2.3, p. 24",
+    "nivel": "medio"
+  },
+  {
+    "id": 421,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma reunião do plantão policial, o Delegado de Polícia Federal solicita ao Perito Criminal Federal que altere a metodologia analítica adotada em um laudo, sob a justificativa de que a investigação tática precisa de uma 'conclusão mais firme' para sustentar a tese acusatória. O perito recusa-se, invocando autonomia técnica. Considerando o regime jurídico-funcional do Perito Criminal Federal, é correto afirmar que:",
+    "alternativas": {
+      "A": "A autonomia do perito é apenas científica, sendo permitido ao Delegado interferir nos métodos analíticos sempre que houver pressão por produtividade.",
+      "B": "O Delegado, por presidir o inquérito, possui poder hierárquico pleno sobre o perito, podendo determinar tanto a metodologia quanto o teor das conclusões do laudo pericial.",
+      "C": "A Lei nº 12.030/2009 constitui o fundamento jurídico da atividade pericial criminal, garantindo aos profissionais do setor plena autonomia técnica, científica e funcional; a subordinação do perito no interior da organização policial circunscreve-se à gestão administrativa e jamais se estende à escolha dos métodos analíticos ou às conclusões exaradas nos laudos.",
+      "D": "O perito está vinculado hierarquicamente à autoridade requisitante para todos os fins, inclusive técnicos, devendo acatar a tese acusatória pré-formada pela equipe de investigação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'a Lei n.º 12.030/2009 constitui o fundamento jurídico da atividade pericial criminal, ao garantir aos profissionais do setor plena autonomia técnica, científica e funcional'. E: 'a subordinação do perito no interior da organização policial circunscreve-se à gestão administrativa. Ela jamais se estende à escolha dos métodos analíticos ou às conclusões exaradas nos laudos periciais. Tais elementos não devem sofrer quaisquer ingerências, pressões por produtividade ou induções investigativas.'",
+    "referencia": "Cap. 3, Seção 3.1, p. 27-28",
+    "nivel": "medio"
+  },
+  {
+    "id": 422,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame pericial de um homicídio, o perito é informado pela equipe policial de que existe uma 'forte suspeita' contra determinado indivíduo, e percebe que a informação está influenciando a interpretação dos vestígios. Sobre o ciclo da prova e a integração científica, julgue os itens:\n\nI. Na Criminalística, a formulação de hipóteses pelo perito confunde-se com a presunção de culpa, sendo legítimo que ele incorpore as teses acusatórias da equipe investigativa.\nII. O viés cognitivo caracteriza-se como o desvio inconsciente de racionalidade no julgamento, muitas vezes provocado por expectativas externas ou pressões processuais da equipe de investigação.\nIII. O profissional deve aplicar o ceticismo metodológico, ancorando suas inferências exclusivamente nas propriedades mensuráveis do vestígio.\nIV. O perito atua exclusivamente na verificação técnica das hipóteses fáticas (dinâmica e materialidade) geradas pelos vestígios, não elaborando a tese acusatória nem substituindo a atividade tática investigativa.\nV. A perícia opera como mero apêndice da polícia judiciária, sem função de controle ou validação da investigação.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "I, II, IV e V.",
+      "C": "I, III e V.",
+      "D": "II, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'A perícia não opera como um mero apêndice da polícia judiciária, mas sim como a ferramenta central de controle e validação da investigação criminal' (V falso); 'Na Criminalística, a formulação de uma hipótese não se confunde com a presunção de culpa' (I falso); 'O perito atua exclusivamente na verificação técnica das hipóteses fáticas (dinâmica e materialidade) geradas pelos vestígios' (IV correto); 'O viés caracteriza-se como o desvio inconsciente de racionalidade no julgamento, muitas vezes provocado por expectativas externas ou pressões processuais' (II correto); 'O profissional deve aplicar o ceticismo metodológico, ancorando suas inferências exclusivamente nas propriedades mensuráveis do vestígio' (III correto).",
+    "referencia": "Cap. 3, Seção 3.2, p. 28-29",
+    "nivel": "dificil"
+  },
+  {
+    "id": 423,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em situação de flagrante delito relacionada a tráfico de drogas, o Perito Criminal Federal é acionado em regime de sobreaviso para confeccionar laudo de constatação preliminar, indispensável para fundamentar a lavratura do auto de prisão. Ao chegar ao local, observa que policiais estão movimentando objetos da cena de forma desordenada. Considerando a atuação operacional descrita no Capítulo, qual conduta pericial é tecnicamente correta?",
+    "alternativas": {
+      "A": "Como a urgência operacional do flagrante prevalece sobre o método científico, o perito deve apenas redigir rapidamente o laudo, sem interferir na atuação tática dos policiais.",
+      "B": "O perito deve recusar-se a atuar até a chegada do Delegado, pois em sobreaviso não há autoridade para interferir na cena.",
+      "C": "O perito deve aguardar o transporte dos vestígios para o laboratório, abstendo-se de qualquer atuação em campo, pois o regime de sobreaviso veda exames presenciais.",
+      "D": "O perito deve interagir assertivamente com a equipe que guarnece o local, mesmo sob forte restrição temporal, orientando os isolamentos e balizando a atuação tática, garantindo que a urgência operacional jamais se sobreponha à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'A interação do perito com a equipe de policiais (agentes e delegados) que guarnece o local deve ser assertiva, mesmo sob forte restrição temporal e pressão investigativa inerente aos flagrantes. O profissional deve orientar os isolamentos e balizar a atuação tática, garantindo que a urgência operacional jamais se sobreponha à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente.'",
+    "referencia": "Cap. 3, Seção 3.3, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 424,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma requisição de perícia, a Autoridade Policial formula os seguintes quesitos: (i) 'houve dolo do condutor?'; (ii) 'quem é o culpado pelo acidente?'; (iii) 'o veículo estava acima do limite de velocidade da via no momento do impacto?'. O perito analisa a viabilidade técnica dos questionamentos. Com base no princípio da interpretação avaliativa e na função dos quesitos, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os três quesitos são igualmente exequíveis, pois ao perito cabe responder a qualquer indagação formulada pela autoridade requisitante, inclusive sobre dolo e culpa.",
+      "B": "Todos os quesitos são inexequíveis, pois nenhuma análise pericial pode aferir velocidade de veículo.",
+      "C": "Apenas o quesito (i) é inexequível, pois 'dolo' não existe juridicamente, mas o quesito (ii) sobre culpa é tecnicamente viável.",
+      "D": "Os quesitos (i) e (ii) são formulações genéricas ou estritamente jurídicas e criam quesitos inexequíveis, pois o perito não pode emitir opiniões categóricas para além dos limites factuais da ciência; já o quesito (iii) é dotado de clareza técnica, estabelecendo uma hipótese testável e isenta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'Formulações genéricas ou estritamente jurídicas (por exemplo, houve dolo? ou quem é o culpado?) criam quesitos inexequíveis. O perito não pode emitir opiniões categóricas para além dos limites factuais da ciência. Em contrapartida, um quesito dotado de clareza técnica (como perguntar objetivamente se o carro estava acima do limite de velocidade?) estabelece uma hipótese testável e isenta.'",
+    "referencia": "Cap. 3, Seção 3.4, p. 30",
+    "nivel": "medio"
+  },
+  {
+    "id": 425,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao redigir um Laudo Pericial Criminal Federal seguindo a Portaria n.º 1.192/2022 - DITEC/PF, o perito precisa registrar que, durante o atendimento, ocorreram interrupções por condições climáticas impeditivas e atrasos logísticos que impactaram a análise, sem que isso constitua propriamente metodologia. Além disso, deve registrar a destinação final dos materiais examinados, evidenciando se houve retenção total, devoluções parciais ou consumo da amostra durante o trâmite analítico. Sobre os elementos do laudo, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os elementos obrigatórios são apenas preâmbulo e conclusão; o 'Histórico' é elemento obrigatório que substitui o item 'Exame'.",
+      "B": "O laudo é documento livre, sem ordem impositiva, e o registro da destinação dos vestígios é facultativo, ficando a critério do perito.",
+      "C": "O laudo deve seguir uma ordem impositiva pautada na clareza e rastreabilidade metodológica contendo os elementos textuais obrigatórios: preâmbulo, objeto, objetivo, exame e conclusão; o 'Histórico' é elemento textual facultativo, situado após o preâmbulo, destinado a registrar ocorrências e fatos conjunturais; a destinação final dos vestígios deve ser registrada no corpo do laudo (na seção de conclusão ou resposta aos quesitos, antes do fecho), conforme o art. 63 da Portaria n.º 1.192/2022.",
+      "D": "A destinação final dos vestígios deve ser registrada exclusivamente em livro próprio fora do laudo, sendo vedado mencioná-la no corpo do documento probatório."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'O laudo deve seguir uma ordem impositiva pautada na clareza e rastreabilidade metodológica, devendo conter os seguintes elementos textuais obrigatórios: I - preâmbulo; II - objeto; III - objetivo; IV - exame; e V - conclusão.' E: 'a Portaria prevê elementos textuais facultativos que devem aparecer logo após o preâmbulo. Um dos mais importantes (...) é o Histórico. O item Histórico destina-se a registrar ocorrências e fatos conjunturais observados na requisição ou durante os exames que impactam a compreensão da análise (como interrupções, condições climáticas impeditivas ou atrasos logísticos)'. E ainda: 'Art. 63 da Portaria n.º 1.192/2022 - DITEC/PF: É obrigação funcional do perito registrar, no corpo do laudo (na seção de conclusão ou resposta aos quesitos, antes do fecho), a destinação final de cada vestígio examinado.'",
+    "referencia": "Cap. 3, Seção 3.5, p. 30-31",
+    "nivel": "dificil"
+  },
+  {
+    "id": 426,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma palestra sobre o papel da ciência forense no Estado Democrático de Direito, um professor sustenta que a integração científica não é mero apoio acessório à investigação, mas garantia de Direitos Humanos e de Justiça. Para reforçar o argumento, cita a função preventiva da perícia em relação a arbitrariedades e condenações injustas. Considerando o texto, é correto afirmar que:",
+    "alternativas": {
+      "A": "Num Estado Democrático de Direito, a retirada da liberdade ou do patrimônio de um indivíduo só se justifica mediante provas isentas, imparciais e verdadeiras; ao confirmar ou refutar uma hipótese criminal de forma técnica e documentar seu raciocínio em um laudo preciso e metodologicamente transparente, o perito previne arbitrariedades e condenações injustas, e a defesa intransigente da autonomia pericial representa a blindagem do próprio sistema penal.",
+      "B": "A retirada da liberdade ou do patrimônio de um indivíduo, no Estado Democrático de Direito, justifica-se mesmo sem provas isentas, bastando a convicção íntima da autoridade requisitante.",
+      "C": "A defesa intransigente da autonomia pericial é dispensável, pois a verdade material já é garantida pela mera oitiva de testemunhas e pela confissão.",
+      "D": "A ciência forense é mera ferramenta acessória, sem impacto sobre Direitos Humanos, restringindo-se a apoiar a tese acusatória do Estado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'A ciência forense não se restringe a ser uma mera ferramenta de apoio. Ela eleva-se à condição de garantidora da Justiça e dos Direitos Humanos. Num Estado Democrático de Direito, a retirada da liberdade ou do patrimônio de um indivíduo só se justifica mediante provas isentas, imparciais e verdadeiras.' E: 'Ao confirmar ou refutar uma hipótese criminal de forma técnica, documentando seu raciocínio lógico em um Laudo de Perícia Criminal Federal preciso e metodologicamente transparente, o perito previne arbitrariedades e condenações injustas. A defesa intransigente da autonomia pericial representa, em última análise, a blindagem do próprio sistema penal'.",
+    "referencia": "Cap. 3, Seção 3.6, p. 31-32",
+    "nivel": "dificil"
+  },
+  {
+    "id": 427,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma comarca do interior, ocorre um homicídio durante a madrugada. O delegado de polícia, ao chegar ao local, constata que não há perito oficial disponível na região, pois o único Instituto de Criminalística do estado fica a mais de 400 km de distância e o transporte do perito oficial demoraria mais de 12 horas. Diante da necessidade de preservação dos vestígios e da realização imediata do exame de local, o delegado decide nomear dois profissionais para atuarem como peritos ad hoc. Com base na Lei nº 11.690/2008, que alterou o art. 159 do CPP, e na doutrina de Criminalística, assinale a alternativa CORRETA sobre a nomeação realizada.",
+    "alternativas": {
+      "A": "A nomeação é ilegal, pois, mesmo na ausência de perito oficial, somente o juiz pode designar peritos ad hoc, jamais a autoridade policial.",
+      "B": "A nomeação será válida se recair sobre duas pessoas idôneas, portadoras de diploma de curso superior, preferencialmente na área específica, dentre as que tiverem habilitação técnica relacionada com a natureza do exame, e que prestem compromisso de bem e fielmente desempenhar o encargo.",
+      "C": "A nomeação é válida apenas se houver concordância expressa das partes envolvidas, dada a excepcionalidade da medida na ausência de perito oficial.",
+      "D": "A nomeação pode recair sobre uma única pessoa idônea, desde que portadora de diploma de curso superior, com habilitação técnica, dispensado o compromisso, em razão da urgência da medida."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o §1º do art. 159 do CPP (com redação dada pela Lei nº 11.690/2008), citado no PDF: 'Na falta de perito oficial, o exame será realizado por 2 (duas) pessoas idôneas, portadoras de diploma de curso superior preferencialmente na área específica, dentre as que tiverem habilitação técnica relacionada com a natureza do exame'. Os peritos não oficiais prestarão compromisso (§2º), e a nomeação é ato exclusivo do delegado de polícia federal ou da autoridade judiciária.",
+    "referencia": "Cap. 4, Seção 4.2, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 428,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere a seguinte situação: um Perito Criminal Federal recebe a notícia de que será designado para periciar um caso de fraude contábil em que a empresa investigada é dirigida por seu cunhado (irmão de sua esposa). Antes mesmo da distribuição formal, o perito comunica ao diretor do setor que não poderá atuar no caso. Com base na disciplina judiciária aplicável aos peritos (art. 280 do CPP e dispositivos análogos), analise a justificativa para o afastamento e assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Trata-se de hipótese de suspeição, pois a relação familiar com o administrador da empresa pode comprometer a imparcialidade do perito, embora ele pudesse atuar caso não houvesse arguição pelas partes.",
+      "B": "Não há impedimento nem suspeição, pois o cunhado é apenas parente por afinidade, e a lei só veda a atuação em relação a parentes consanguíneos.",
+      "C": "Trata-se de hipótese de impedimento, pois o perito é parente em linha colateral até o 2º grau do membro da administração de pessoa jurídica parte no feito, configurando vedação objetiva à atuação.",
+      "D": "Trata-se de suspeição por motivo íntimo, sendo facultativo ao perito declarar-se suspeito, sem necessidade de justificar o motivo objetivo da recusa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o PDF (p. 37), o profissional não poderá atuar como perito nos processos em que for cônjuge, parente em linha reta em qualquer grau ou parente em linha colateral até o 2º grau (irmão ou cunhado) do advogado da parte, ou for membro da administração de pessoa jurídica parte no feito. Trata-se de hipótese de IMPEDIMENTO (vedação objetiva), e não de suspeição.",
+    "referencia": "Cap. 4, Seção 4.5.1.1, p. 37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 429,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir sobre a figura do Perito Criminal Federal e o regime jurídico aplicável às perícias oficiais:\n\nI. Conforme o Decreto nº 5.116/2004, o ingresso na carreira de Perito Criminal Federal exige diploma de graduação em curso superior específico, sendo Medicina, Odontologia e Ciências Econômicas exemplos de cursos aceitos.\nII. A Lei nº 12.030/2009 define como peritos de natureza criminal os peritos criminais, peritos médico-legistas e peritos odontolegistas com formação superior específica.\nIII. A distribuição interna do exame pericial entre os peritos oficiais é feita pelo diretor da repartição, que considera parâmetros como carga de trabalho, experiência profissional e área de formação, diferentemente do perito ad hoc, nomeado diretamente pelo delegado ou autoridade judiciária.\nIV. Segundo pesquisa da Senasp/MJ citada no texto, na maioria dos estados a atividade pericial criminal é vinculada diretamente à estrutura da Polícia Civil, e em apenas um estado é vinculada diretamente ao governador.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "I, III e IV.",
+      "C": "II, III e IV.",
+      "D": "I, II e III."
+    },
+    "resposta_correta": "D",
+    "justificativa": "I CORRETO (p. 36): o Decreto nº 5.116/2004 lista, entre os cursos exigidos, Medicina, Odontologia e Ciências Econômicas. II CORRETO (p. 34): art. 5º da Lei nº 12.030/2009. III CORRETO (p. 34): a distribuição é feita pelo diretor da repartição, conforme art. 178 do CPP. IV INCORRETO (p. 34): segundo a Senasp/MJ, em 16 estados a atividade é vinculada às Secretarias de Segurança Pública (e não à Polícia Civil), e em 11 estados ainda integra a Polícia Civil; apenas no Amapá é vinculada ao governador.",
+    "referencia": "Cap. 4, Seções 4.1 e 4.4, p. 34-36",
+    "nivel": "dificil"
+  },
+  {
+    "id": 430,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um processo cível envolvendo disputa sobre autenticidade de uma assinatura em contrato milionário, o juiz precisa nomear perito para examinar o documento. Considerando o regime do perito no processo civil descrito no Cap. 4 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O juiz deverá nomear obrigatoriamente perito oficial vinculado a um órgão estatal especializado em perícias cíveis, pois o Estado brasileiro mantém estrutura própria para essa finalidade.",
+      "B": "O juiz deverá escolher o perito, preferencialmente, entre os técnicos dos estabelecimentos oficiais especializados, e estes, se não tiverem justificadas razões impeditivas, devem aceitar o encargo, atuando sob compromisso e mediante honorários.",
+      "C": "No processo civil, somente as partes podem indicar os peritos, cabendo ao juiz apenas homologar a indicação, sendo vedado ao magistrado nomear perito de ofício.",
+      "D": "Os peritos no processo civil são dispensados de compromisso, pois atuam mediante remuneração contratual com as partes, equiparando-se a assistentes técnicos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 35-36, no processo civil não há perito oficial (o Estado brasileiro não oferece esse serviço). Pelo art. 434 do CPC citado, quando o exame tiver por objeto a autenticidade ou falsidade de documento, ou for de natureza médico-legal, o perito será escolhido, de preferência, entre os técnicos dos estabelecimentos oficiais especializados, devendo estes aceitar o encargo se não houver justificativa. Os peritos atuam sob compromisso e fazem jus a honorários.",
+    "referencia": "Cap. 4, Seção 4.3, p. 35-36",
+    "nivel": "medio"
+  },
+  {
+    "id": 431,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a realização de uma perícia em local de homicídio, um Perito Criminal Federal, contratado anteriormente pela família da vítima para emitir parecer técnico extrajudicial sobre um caso semelhante anos antes, deliberadamente omite no laudo a presença de vestígios que indicariam legítima defesa do acusado, com a intenção de favorecer a tese da acusação. Sobre a tipificação criminal aplicável à conduta descrita, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A conduta configura apenas infração administrativa, pois o crime de falsa perícia exige reiteração de condutas pelo mesmo perito.",
+      "B": "A conduta não configura crime, pois para configuração da falsa perícia é necessária a produção de afirmação falsa, sendo a omissão atípica.",
+      "C": "A conduta configura crime de falsa perícia (art. 342 do CP), uma vez que houve dolo na produção do erro por parte de perito oficial atuando no processo.",
+      "D": "A conduta não pode ser enquadrada como falsa perícia, pois o perito havia atuado anteriormente como contratado de uma das partes em parecer técnico extrajudicial, o que descaracteriza sua condição de perito oficial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 38-39, para ocorrer o crime de falsa perícia (art. 342 do CP) é preciso haver a intenção de produzir o erro. O texto também esclarece que NÃO se enquadram nesse dispositivo aqueles que NÃO forem peritos oficiais ou nomeados, como os que fornecem pareceres técnicos às partes como contratados. No caso, o agente é Perito Criminal Federal atuando OFICIALMENTE no caso atual (a contratação anterior referia-se a outro caso), portanto responde por falsa perícia. Há dolo (intenção) e omissão dolosa de vestígios configura a conduta.",
+    "referencia": "Cap. 4, Seção 4.5.2, p. 38-39",
+    "nivel": "dificil"
+  },
+  {
+    "id": 432,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a figura do perito segundo os ensinamentos doutrinários e legais apresentados no Cap. 4 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Conforme Nucci, o perito oficial é dispensado do compromisso por estar investido na função por lei, enquanto o perito nomeado pelo juiz ou pelo delegado de polícia federal deverá ser compromissado.",
+      "B": "O perito oficial e o perito ad hoc devem prestar compromisso formal de bem desempenhar sua função, pois ambos atuam como auxiliares eventuais da justiça.",
+      "C": "Perito é apenas aquele profissional que, no âmbito formal jurídico, atua exclusivamente na esfera penal, sendo inadequada a denominação 'perito' para profissionais que atuam em outras esferas.",
+      "D": "O perito médico previdenciário é considerado perito oficial de natureza criminal, conforme a Lei nº 12.030/2009."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme citação de Nucci (2007) na p. 33: 'O perito pode ser oficial - quando funcionário do estado -, sendo-lhe dispensado o compromisso, pois investido na função por lei, ou nomeado pelo juiz, quando deverá ser compromissado a bem desempenhar a sua função'. O texto acrescenta que também ocorre nomeação pelo delegado de polícia federal na fase de inquérito.",
+    "referencia": "Cap. 4, p. 33",
+    "nivel": "facil"
+  },
+  {
+    "id": 433,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal foi designado para realizar exame em material apreendido em operação policial. Durante a análise preliminar, constatou que um dos investigados é seu antigo desafeto, com quem manteve, anos antes, sério desentendimento que culminou em ofensas mútuas e quebra definitiva da relação. O perito, ciente de que o caso exige absoluta neutralidade, decide formalizar sua recusa. Considerando o regime de impedimento e suspeição aplicável aos peritos, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Trata-se de hipótese de impedimento, configurada pela existência objetiva de inimizade anterior, devendo o perito ser obrigatoriamente substituído.",
+      "B": "Não se trata de impedimento nem de suspeição, pois o desentendimento ocorreu anos antes e a lei exige inimizade atual.",
+      "C": "Trata-se de hipótese de suspeição (inimigo capital), em que o perito deve dar-se por suspeito, podendo, ainda, ser recusado por qualquer das partes caso não o faça.",
+      "D": "Trata-se de causa de suspeição apenas se o perito tiver auxiliado financeiramente a parte adversária nas despesas do processo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme art. 254, I do CPP, aplicado aos peritos pelo art. 280 (p. 37-38): 'O juiz dar-se-á por suspeito e, se não o fizer, poderá ser recusado por qualquer das partes: I - se for amigo íntimo ou inimigo capital de qualquer deles'. Trata-se de hipótese clássica de SUSPEIÇÃO, e não de impedimento. O bom perito, antes que aleguem suspeição, já se terá dito impedido.",
+    "referencia": "Cap. 4, Seção 4.5.1.2, p. 37-38",
+    "nivel": "medio"
+  },
+  {
+    "id": 434,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "A apostila apresenta uma reflexão crítica sobre a nomeação de peritos não oficiais (ad hoc). Sobre essa discussão doutrinária e as suas consequências práticas, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A nomeação de peritos leigos é vista como medida emergencial que não deve ser transformada em rotina, pois esses peritos não recebem formação específica, não possuem compromisso com o serviço público nem dispõem dos recursos tecnológicos dos institutos, podendo inclusive destruir ou danificar vestígios.",
+      "B": "A nomeação de perito leigo somente é admitida pela legislação quando há concordância expressa das partes e do Ministério Público, sob pena de nulidade do exame.",
+      "C": "Os peritos ad hoc oferecem a mesma segurança, imparcialidade e credibilidade dos peritos oficiais, pois prestam compromisso legal de bem desempenhar suas funções.",
+      "D": "A apostila defende que a figura do perito ad hoc deve ser preservada e ampliada, como solução estrutural para a sobrecarga de trabalho dos peritos oficiais nos institutos de criminalística."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 34-35: 'trata-se de medida emergencial que não deve ser transformada em rotina, porque é inegável que os exames realizados por pessoas que não receberam a formação específica, que não possuem um compromisso com o serviço público, que não estão sujeitas às normas técnicas dos órgãos de perícia, que não dispõem dos recursos tecnológicos dos institutos de criminalística, não oferecem a mesma segurança, imparcialidade e credibilidade'. O texto cita ainda que muitas vezes os peritos nomeados acabam destruindo ou danificando os vestígios.",
+    "referencia": "Cap. 4, Seção 4.2, p. 34-35",
+    "nivel": "facil"
+  },
+  {
+    "id": 435,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um julgamento por homicídio, o juiz se depara com a seguinte situação probatória: o réu confessou parcialmente o crime, mas afirma ter agido em legítima defesa; uma testemunha ocular afirma que o réu atirou sem provocação; e o laudo pericial demonstra que a trajetória dos projéteis e a posição do corpo são incompatíveis com a versão do réu. Considerando os princípios de prova expostos no Cap. 5 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O sistema brasileiro adota a hierarquia das provas, devendo prevalecer a prova pericial sobre a confissão e o depoimento testemunhal, por ser objetiva e técnica.",
+      "B": "No sistema penal brasileiro não há hierarquia das provas; a confissão será divisível e retratável, podendo o juiz aceitá-la parcialmente, e seu valor será aferido pelos critérios das demais provas, mediante confronto.",
+      "C": "A confissão tem valor absoluto no processo penal, devendo o juiz acolher integralmente a versão de legítima defesa apresentada pelo réu.",
+      "D": "Sendo a confissão indivisível, o juiz deve necessariamente acolhê-la na sua totalidade ou rejeitá-la integralmente, sem possibilidade de repúdio parcial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 41-42: 'No sistema penal brasileiro, há uma liberdade quase total na apresentação de provas... não há hierarquia das provas'. O art. 197 do CPP estabelece que o valor da confissão se aferirá pelos critérios das outras provas, mediante confronto. O art. 200 dispõe que 'a confissão será divisível e retratável, sem prejuízo do livre convencimento do juiz', podendo o juiz aceitá-la parcialmente.",
+    "referencia": "Cap. 5, p. 41-42",
+    "nivel": "medio"
+  },
+  {
+    "id": 436,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens abaixo sobre o conceito de corpo de delito e o exame de corpo de delito indireto, à luz do Cap. 5 da apostila:\n\nI. Corpo de delito é o conjunto de elementos materiais, com todas as circunstâncias, que resultaram da prática de um crime, abrangendo os sinais da atividade do delinquente, o resultado/produto da infração e o corpus instrumentorum.\nII. É equivalente referir-se ao exame de corpo de delito como exame pericial de local de crime, pois a totalidade dos vestígios materiais sempre será encontrada exclusivamente no local onde ocorreu o fato.\nIII. A falta do exame de corpo de delito nos crimes que deixam vestígios pode acarretar nulidade processual, salvo se for impossível sua realização por terem desaparecido os vestígios, hipótese em que a prova testemunhal poderá suprir-lhe a falta.\nIV. O corpo de delito indireto é admitido quando o exame direto não for possível, podendo basear-se em fotografias, informações seguras sobre os fatos, documentos ou outros elementos levantados pelos peritos.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III e IV.",
+      "C": "I, II e IV.",
+      "D": "I, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "I CORRETO (p. 43): definição de Florian sobre os componentes do corpo de delito. II INCORRETO (p. 43): o texto diz que essa equivalência está correta 'de certa forma', mas alerta que 'muitas vezes, os vestígios que compõem o corpo de delito NÃO são encontrados em um só local'. III CORRETO (p. 44): art. 564 do CPP combinado com art. 167. IV CORRETO (p. 44): definição do corpo de delito indireto.",
+    "referencia": "Cap. 5, Seções 5.1 e 5.1.1, p. 43-44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 437,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma investigação de descaminho, mercadorias apreendidas pela Receita Federal foram destinadas administrativamente antes da realização do exame pericial. A autoridade policial, ciente da impossibilidade do exame direto, solicita aos peritos a realização do exame indireto. Sobre a situação descrita e o exame de corpo de delito indireto, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O exame indireto é cabível na situação descrita e pode ser realizado com base em documentos fornecidos pela Receita, principalmente o Termo de Guarda, que contém descrição completa das mercadorias.",
+      "B": "O exame indireto somente poderá ser realizado se as mercadorias forem reapresentadas fisicamente aos peritos, ainda que parcialmente.",
+      "C": "O exame indireto é vedado em crimes de descaminho, pois a inexistência das mercadorias para análise direta impede qualquer manifestação técnica.",
+      "D": "O exame indireto, nessas hipóteses, é dispensável, pois a prova testemunhal das autoridades fiscais é suficiente para suprir o exame pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 44-45: 'Outro exemplo comum é o caso de mercadorias apreendidas e encaminhadas à Receita Federal antes da realização do exame pericial (crime de descaminho)... os peritos informam à autoridade policial e esta solicita a realização de exame indireto, com base em documentos fornecidos pela Receita, principalmente, o Termo de Guarda, que é uma descrição completa das mercadorias'.",
+    "referencia": "Cap. 5, Seção 5.1.1, p. 44-45",
+    "nivel": "facil"
+  },
+  {
+    "id": 438,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere o seguinte caso: João é acusado de furto qualificado ocorrido em uma joalheria às 22h00 do dia 15 de junho. Para se defender, João apresenta nota fiscal, imagens de câmeras e depoimentos comprovando que estava jantando em um restaurante a 300 km do local do crime no exato horário do delito. Adicionalmente, a perícia recolheu DNA do verdadeiro autor no local, e uma testemunha relata que ouviu de seu vizinho a narrativa dos fatos. Considerando a classificação das provas quanto ao objeto (Cap. 5, Seção 5.3.1), assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O álibi de João é prova direta, pois demonstra imediatamente o fato a ser provado; o laudo pericial do DNA é prova indireta, pois exige raciocínio lógico de comparação.",
+      "B": "O álibi de João e o depoimento da testemunha que ouviu de seu vizinho são exemplos de prova indireta; o laudo pericial do DNA, por sua vez, é prova direta.",
+      "C": "Todas as provas mencionadas são diretas, pois há expressa previsão legal de que toda prova material em processo penal é classificada como direta.",
+      "D": "O laudo pericial do DNA e o depoimento da testemunha que ouviu de seu vizinho são provas indiretas; o álibi é prova direta de autoria."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 45-46: 'As provas que demonstram, por si só, o fato a ser provado, sem a necessidade de qualquer processo lógico de construção... o laudo pericial também é uma prova direta'. Já as provas indiretas 'não se referem de forma direta ao fato probando... O álibi pode ser um exemplo de prova indireta... Outro exemplo de prova indireta é o depoimento da testemunha que não estava no local de um crime, apenas ouviu de outra pessoa a narrativa dos fatos'.",
+    "referencia": "Cap. 5, Seção 5.3.1, p. 45-46",
+    "nivel": "medio"
+  },
+  {
+    "id": 439,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso de estupro, foram coletadas as seguintes evidências: (1) depoimento da vítima; (2) sêmen do agressor encontrado na cena; (3) reconhecimento do suspeito em fila pela vítima; (4) arma utilizada para coação; (5) carta de ameaças enviada à vítima pelo suspeito. Considerando a classificação das provas quanto ao SUJEITO e à FORMA, conforme exposto no Cap. 5 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Quanto ao sujeito, o depoimento da vítima e o reconhecimento são provas pessoais; o sêmen e a arma são provas reais. Quanto à forma, a carta é prova documental e o sêmen, após exame pericial, é prova material.",
+      "B": "Todas as evidências mencionadas, quanto à forma, classificam-se como prova material, pois todas estão fisicamente presentes no processo.",
+      "C": "Quanto ao sujeito, o sêmen e a arma são provas pessoais, pois remetem à figura do agressor; o depoimento da vítima é prova real, pois deriva do fato concreto narrado.",
+      "D": "Quanto à forma, o sêmen e a arma, mesmo antes de qualquer exame pericial, já constituem prova material, dispensando-se a análise técnica para essa classificação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 46: provas pessoais são 'aquelas derivadas do conhecimento pessoal atribuído ao indivíduo, depoimento de testemunhas, reconhecimento de pessoas'; provas reais são 'aquelas oriundas de coisas, dos vestígios relacionados ao crime, como o sêmen, o sangue, a impressão digital, a arma'. Quanto à forma, prova documental inclui carta; prova material são as produzidas pelo exame dos vestígios, sendo que 'os vestígios se tornam prova material DEPOIS de examinados e interpretados pela Criminalística'.",
+    "referencia": "Cap. 5, Seções 5.3.2 e 5.3.3, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 440,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o objeto da prova no processo penal, conforme exposto no Cap. 5 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Objeto da prova é exclusivamente o fato delituoso em sua materialidade, excluindo-se as circunstâncias subjetivas que envolvem o agente.",
+      "B": "Objeto da prova confunde-se com o sujeito da prova, sendo ambos referentes à pessoa ou coisa de quem ou de onde provém a prova.",
+      "C": "Objeto da prova são apenas as alegações da acusação, pois compete a esta o ônus probatório integral no processo penal.",
+      "D": "Objeto da prova é aquilo sobre o que o juiz deve formar seu convencimento; abrange o fato delituoso e todas as circunstâncias objetivas e subjetivas necessárias ao pleno conhecimento do juiz sobre o processo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 45: 'Constitui o objeto da prova aquilo sobre o que o juiz deve formar o seu convencimento; aquilo que deve ser demonstrado. O objeto da prova abrange o fato delituoso e todas as circunstâncias objetivas e subjetivas necessárias ao pleno conhecimento do juiz sobre o processo e que possibilitem a formação da sua convicção'.",
+    "referencia": "Cap. 5, Seção 5.2, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "id": 441,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a perícia em local de homicídio cometido a tiros, os peritos encontraram: (i) uma cápsula de munição deflagrada caída a poucos metros do corpo; (ii) uma carteira de identidade pertencente a um indivíduo desafeto da vítima, colocada de forma evidente sobre o tórax do cadáver pelo autor do crime para incriminá-lo; e (iii) uma garrafa de bebida vazia que, após investigação, comprovou-se ter sido descartada no local horas antes do crime por um transeunte sem qualquer relação com o fato. Considerando a classificação dos vestígios quanto à sua relação com os fatos, conforme a Teoria dos Vestígios, os itens (i), (ii) e (iii) são, respectivamente:",
+    "alternativas": {
+      "A": "absoluto, relativo e ilusório.",
+      "B": "verdadeiro, forjado e ilusório.",
+      "C": "verdadeiro, ilusório e forjado.",
+      "D": "forjado, verdadeiro e relativo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o PDF (Cap. 6, p. 47), vestígios verdadeiros são aqueles que têm relação com os fatos por serem resultado da ação do autor (a cápsula deflagrada); forjados são aqueles que o autor prepara intencionalmente para desviar a investigação (a carteira plantada do desafeto); ilusórios são os que parecem importantes mas estavam ali por acaso, sem relação com o fato (a garrafa descartada por transeunte).",
+    "referencia": "Cap. 6, Seção 6.1, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 442,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de furto qualificado por arrombamento, o perito criminal encontra, ao lado da gaveta forçada, a ponta quebrada de uma faca; em outro cômodo, recolhe uma caneta esferográfica comum, sem qualquer inscrição ou nome gravado, deixada sobre o balcão. Sobre a classificação desses vestígios quanto à sua origem, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "a ponta de faca é vestígio absoluto e a caneta é vestígio relativo, pois somente a primeira guarda relação direta e identificável com sua origem.",
+      "B": "ambos são vestígios absolutos, pois permitem identificação direta de sua fonte de origem.",
+      "C": "a ponta de faca é vestígio relativo e a caneta é vestígio absoluto, em razão da maior individualização da caneta.",
+      "D": "ambos são vestígios relativos, uma vez que sua origem humana não pode ser estabelecida de pronto."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Segundo o PDF (Cap. 6, p. 48), vestígios absolutos permitem estabelecer relação absoluta e direta com sua origem, e o livro cita expressamente como exemplo a ponta de faca encontrada ao lado de uma gaveta arrombada. A caneta sem identificação do proprietário é exemplo clássico de vestígio relativo, pois não permite identificação imediata de sua origem.",
+    "referencia": "Cap. 6, Seção 6.2, p. 48",
+    "nivel": "facil"
+  },
+  {
+    "id": 443,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir, relativos à Teoria dos Vestígios, e marque a alternativa CORRETA: I. Conforme o art. 158-A do CPP, vestígio é todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal. II. Como os vestígios forjados visam intencionalmente desviar a investigação, eles devem ser desconsiderados pelos peritos assim que sua natureza forjada for identificada, de modo a não comprometer a apuração dos fatos. III. Os agentes de vestígios são exclusivamente humanos, uma vez que apenas o ser humano pode praticar condutas tipificadas penalmente. IV. É geralmente difícil para o perito, no início dos trabalhos, diferenciar com segurança os vestígios verdadeiros dos ilusórios e dos forjados, razão pela qual nenhum detalhe deve ser desprezado.",
+    "alternativas": {
+      "A": "Apenas os itens I, III e IV estão corretos.",
+      "B": "Apenas os itens I, II e IV estão corretos.",
+      "C": "Apenas os itens II e III estão corretos.",
+      "D": "Apenas os itens I e IV estão corretos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Item I correto (PDF Cap. 6, p. 47, citação literal do art. 158-A do CPP). Item II incorreto: o PDF afirma que, mesmo forjados, os vestígios devem ser investigados, porque não se deve desprezar nada e porque podem evidenciar pista do verdadeiro autor (p. 47). Item III incorreto: o PDF afirma que são agentes de vestígios, além dos homens, os animais, os objetos e instrumentos (p. 48). Item IV correto (p. 48).",
+    "referencia": "Cap. 6, Seções 6.1 e 6.2, p. 47-48",
+    "nivel": "dificil"
+  },
+  {
+    "id": 444,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dois vizinhos mantinham rixa pública notória, com frequentes brigas e ameaças mútuas testemunhadas por moradores da rua. Em determinada noite, um deles é encontrado morto por disparos de arma de fogo nas proximidades da casa do outro. Em busca e apreensão na residência do desafeto sobrevivente, é apreendida uma pistola cujos exames de balística posteriormente confirmam ter sido a arma utilizada no disparo dos projéteis extraídos do corpo da vítima. Diante desse cenário, à luz do Cap. 7 da Criminalística, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "as ameaças públicas e as brigas constituem prova material plena da autoria, dispensando a perícia balística complementar.",
+      "B": "a perícia balística que confirmou o disparo pela arma do suspeito prova materialmente que o suspeito realizou pessoalmente o disparo.",
+      "C": "as ameaças constituem indícios circunstanciais e a perícia balística reforça a hipótese, mas a autoria ainda não está plenamente provada, pois a arma poderia ter sido subtraída do suspeito.",
+      "D": "como há vestígio material (projétil) vinculado à arma do suspeito, os indícios circunstanciais perdem qualquer valor probatório no caso concreto."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O exemplo da rixa entre vizinhos é trazido textualmente pelo PDF (Cap. 7, p. 49) como exemplo de indícios circunstanciais (ameaças e brigas, que não são vestígios materiais). O texto conclui expressamente que, mesmo com a balística comprovando o disparo pela arma, ainda não se prova que o dono efetivamente disparou, pois a arma poderia ter sido roubada; portanto, os indícios de autoria são fortes, mas as provas ainda não são plenas.",
+    "referencia": "Cap. 7, p. 49",
+    "nivel": "medio"
+  },
+  {
+    "id": 445,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da distinção conceitual entre indício e vestígio, com base no art. 239 do CPP e na doutrina apresentada por Malatesta (citado por Rocha, 1999), assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Indício e vestígio são sinônimos perfeitos no Código de Processo Penal, ambos correspondendo a elementos materiais coletados no local de crime.",
+      "B": "Segundo Malatesta, os indícios merecem a apoteose probatória, possuindo o mesmo valor jurídico de uma prova pericial plena.",
+      "C": "Indício corresponde sempre a um elemento material recolhido na cena, ao passo que vestígio é apenas uma suspeita não comprovada por prova pericial.",
+      "D": "Indício é a circunstância conhecida e provada que, tendo relação com o fato, autoriza, por indução, concluir-se a existência de outra circunstância, podendo ou não ser representado por vestígios materiais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O PDF (Cap. 7, p. 49) reproduz literalmente o art. 239 do CPP e esclarece que indício é uma suspeita fundamentada que pode muitas vezes não ser representada por vestígios materiais, podendo ser representado por vestígios materiais OU por circunstâncias. A alternativa D inverte a citação de Malatesta, que afirmou que os indícios não merecem nem a apoteose nem a excomunhão maior.",
+    "referencia": "Cap. 7, p. 49",
+    "nivel": "facil"
+  },
+  {
+    "id": 446,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito criminal, ao analisar um caso de homicídio, identifica diversas circunstâncias e elementos contra um suspeito. Considerando a afirmação trazida por Rocha (1999) de que o valor do indício está sempre em razão da maior ou menor afinidade de relação que o fato tem com o crime, com o autor, ou com ambos ao mesmo tempo, e considerando ainda a definição de Malatesta para indício, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "o valor dos indícios é fixo e independe da maior ou menor afinidade entre o fato e o crime ou seu autor.",
+      "B": "o indício, segundo Malatesta, é o argumento probatório que deduz o desconhecido do conhecido por meio da relação de causalidade, sendo seu valor variável conforme a afinidade com o fato.",
+      "C": "Malatesta define indício como qualquer vestígio material recolhido no local de crime, equiparando-o à prova pericial.",
+      "D": "para Malatesta, os indícios devem ser sempre excomungados do processo penal, pois não passam de meras suposições subjetivas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O PDF (Cap. 7, p. 49) traz a citação literal de Malatesta de que indício é o argumento probatório que deduz o desconhecido do conhecido por meio da relação de causalidade, e também a frase de Rocha de que o valor do indício varia em razão da afinidade de relação com o fato, o crime e seu autor.",
+    "referencia": "Cap. 7, p. 49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 447,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Determinado homicídio é descoberto em uma madrugada de domingo, durante feriado prolongado. A autoridade policial requisita imediatamente a perícia, e os peritos criminais comparecem ao local ainda na madrugada para realizar o exame de corpo de delito. Em sede de defesa, advogado argui nulidade pericial sob o argumento de que o exame foi realizado em horário e dia incompatíveis com o expediente forense. À luz do CPP e do Cap. 8 da Criminalística, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "o art. 161 do CPP autoriza expressamente que o exame de corpo de delito seja realizado em qualquer dia e a qualquer hora, inclusive sábados, domingos, feriados e madrugada, exatamente em razão do risco de desaparecimento dos vestígios.",
+      "B": "a defesa tem razão, pois o exame de corpo de delito somente pode ser realizado em dias úteis, durante o expediente forense regular.",
+      "C": "o exame foi corretamente realizado, mas somente porque havia autorização judicial específica para a quebra do horário forense, sem a qual o exame seria nulo.",
+      "D": "o CPP veda exames periciais em feriados, salvo nos crimes contra a Administração Pública, hipótese diversa da narrada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O PDF (Cap. 8, Seção 8.1, p. 51) afirma textualmente que, em razão do risco de desaparecimento dos vestígios, o CPP permite que o exame de corpo de delito seja realizado em qualquer dia e a qualquer hora, ou seja, inclusive aos sábados, domingos, feriados e durante a madrugada, com base no art. 161 do CPP. Não há exigência de autorização judicial específica adicional.",
+    "referencia": "Cap. 8, Seção 8.1, p. 51",
+    "nivel": "facil"
+  },
+  {
+    "id": 448,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso de homicídio com lesões externas evidentes que permitem precisar a causa da morte e sem necessidade de exame interno para verificação de circunstância relevante, indaga-se: quem detém competência para decidir pela realização de simples exame externo do cadáver, em substituição à autópsia completa, e a partir de que momento, em regra, pode ser realizada a autópsia, segundo o art. 162 do CPP?",
+    "alternativas": {
+      "A": "A decisão cabe ao delegado de polícia que preside o inquérito; a autópsia poderá ser feita a qualquer tempo, sem prazo mínimo.",
+      "B": "A decisão cabe ao juiz competente; a autópsia somente poderá ser feita após 24 horas do óbito.",
+      "C": "A decisão cabe ao Ministério Público; a autópsia deve ser realizada imediatamente após a constatação do óbito, sem prazo mínimo.",
+      "D": "A decisão cabe exclusivamente ao perito médico legista, ou ao perito criminal federal da especialidade de Medicina; a autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes desse prazo, o que declararão no auto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o PDF (Cap. 8, Seção 8.1, p. 51), somente o perito médico legista, ou o perito criminal federal da especialidade de Medicina, tem competência para decidir sobre o simples exame externo. Quanto ao prazo, o art. 162 do CPP, transcrito no PDF, determina que a autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes daquele prazo, o que declararão no auto.",
+    "referencia": "Cap. 8, Seção 8.1, p. 51",
+    "nivel": "medio"
+  },
+  {
+    "id": 449,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir, relativos às regras sobre ilustração de laudos e fotografias periciais previstas nos arts. 164, 169 e 170 do CPP, e marque a alternativa CORRETA: I. A fotografia dos cadáveres na posição em que forem encontrados, bem como, dentro do possível, das lesões externas e dos vestígios deixados no local, é uma imposição legal e não depende da vontade do perito ou do delegado. II. Nas perícias de local de crime (art. 169), a ilustração com fotografias, desenhos ou esquemas é uma prerrogativa cuja conveniência cabe aos peritos avaliarem. III. Nas perícias de laboratório (art. 170), o CPP determina que, sempre que conveniente, os laudos serão ilustrados com provas fotográficas ou microfotográficas, desenhos ou esquemas. IV. O art. 170 do CPP determina que os peritos descartem todo o material analisado após a conclusão do laudo, vedando a guarda de qualquer parte para contraprova.",
+    "alternativas": {
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas os itens I e III estão corretos.",
+      "C": "Apenas os itens II e IV estão corretos.",
+      "D": "Todos os itens estão corretos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Itens I, II e III corretos conforme o PDF (Cap. 8, Seção 8.2, p. 52). Item IV incorreto: o PDF afirma exatamente o oposto, que o art. 170 do CPP determina que os peritos deverão conservar parte do material analisado para eventual perícia complementar ou contraprova (p. 52).",
+    "referencia": "Cap. 8, Seção 8.2, p. 52",
+    "nivel": "dificil"
+  },
+  {
+    "id": 450,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um inquérito policial instaurado para apurar furto qualificado mediante rompimento de obstáculo, os peritos criminais foram acionados para o exame do local. Considerando os arts. 171 e 173 do CPP, e a abordagem do livro sobre a dinâmica dos fatos, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Nos crimes com destruição ou rompimento de obstáculo, ou por escalada, cabe ao delegado, e não ao perito, descrever os vestígios, os instrumentos, os meios e a época presumida da prática do fato.",
+      "B": "Nos crimes com destruição ou rompimento de obstáculo, ou escalada, cabe aos peritos descrever vestígios, instrumentos, meios e a época presumida da prática do fato; o estudo da dinâmica dos fatos deve ser preocupação dos peritos em exames de locais de crime.",
+      "C": "Em casos de incêndio, basta ao perito verificar a extensão do dano e seu valor, sendo irrelevantes a causa, o local de início do incêndio e o perigo gerado para a vida ou patrimônio alheio.",
+      "D": "O estudo da dinâmica dos fatos é dispensável quando o autor confessa o crime, ainda que se trate de delito que deixa vestígios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o PDF (Cap. 8, Seção 8.4, p. 53), o art. 171 do CPP atribui aos peritos a descrição de vestígios, instrumentos, meios e época presumida do fato nos crimes com destruição/rompimento de obstáculo ou escalada, e o livro acrescenta que o estudo da dinâmica dos fatos deve ser preocupação dos peritos nos exames de locais de crime. Em incêndios, devem verificar causa, local de início, perigo, extensão e valor do dano. A perícia é obrigatória mesmo havendo confissão (art. 158).",
+    "referencia": "Cap. 8, Seção 8.4, p. 53",
+    "nivel": "medio"
+  },
+  {
+    "id": 451,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um inquérito policial em que se apura possível falsificação de documento, o delegado de polícia federal pretende submeter a exame grafotécnico um bilhete supostamente escrito de próprio punho pelo suspeito. Considerando o art. 174 do CPP e a doutrina de Criminalística sobre os requisitos dos padrões gráficos, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O exame grafotécnico dispensa qualquer padrão de comparação, bastando a análise isolada do documento questionado pelo perito.",
+      "B": "Os padrões em Criminalística devem obedecer a três requisitos básicos: autenticidade, originalidade e perenidade.",
+      "C": "Os padrões em Criminalística devem obedecer a quatro requisitos básicos: autenticidade, adequabilidade, contemporaneidade e quantidade.",
+      "D": "Quando não houver escritos disponíveis para comparação, é vedado ao delegado solicitar que o suspeito escreva o que lhe for ditado, por configurar produção de prova contra si mesmo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O PDF (Cap. 8, Seção 8.5, p. 54) afirma textualmente que, em Criminalística, os padrões têm de obedecer a quatro requisitos básicos: autenticidade, adequabilidade, contemporaneidade e quantidade. Quanto à letra D, o art. 174, IV, do CPP, transcrito no PDF, autoriza expressamente que a autoridade mande a pessoa escrever o que lhe for ditado quando não houver ou forem insuficientes os escritos para comparação.",
+    "referencia": "Cap. 8, Seção 8.5, p. 53-54",
+    "nivel": "medio"
+  },
+  {
+    "id": 452,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um delegado de polícia federal recebe a confissão espontânea e detalhada de um suspeito de furto qualificado por arrombamento, com plena coerência fática. Por entender suficientemente esclarecidos os fatos, o delegado opta por NÃO requisitar o exame pericial do local do arrombamento, encaminhando o inquérito relatado ao Judiciário. Sobre essa conduta, à luz do CPP e do Cap. 8 da Criminalística, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "a conduta do delegado está correta, pois a confissão tem valor probatório pleno e dispensa a perícia nos crimes que deixam vestígios.",
+      "B": "a conduta do delegado está incorreta: o art. 158 do CPP determina que a perícia é imprescindível nos crimes que deixam vestígios e não pode ser substituída pela confissão; a requisição da perícia é ato vinculado, não discricionário.",
+      "C": "a conduta do delegado está correta, pois a solicitação de perícia é ato discricionário, cabendo à autoridade analisar a oportunidade e conveniência.",
+      "D": "a conduta do delegado está incorreta apenas se o juiz, posteriormente, entender que a perícia seria conveniente, devolvendo os autos para complementação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O PDF (Cap. 8, Seção 8.8, p. 55) afirma textualmente, com base no art. 158 do CPP, que a perícia não pode ser substituída pela confissão do acusado nos crimes que deixam vestígios. A solicitação de perícia pela autoridade é ato vinculado, não discricionário, sem margem de liberdade quanto à oportunidade ou conveniência.",
+    "referencia": "Cap. 8, Seção 8.8, p. 55",
+    "nivel": "dificil"
+  },
+  {
+    "id": 453,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito criminal federal recém-empossado precisa elaborar seu primeiro laudo pericial e busca orientação sobre a estrutura mínima exigida pela doutrina. Considerando as orientações apresentadas no Cap. 9 da Criminalística, é CORRETO afirmar que o laudo pericial deve conter, no mínimo:",
+    "alternativas": {
+      "A": "preâmbulo, fundamentação legal exaustiva, dispositivo e relatório de antecedentes do réu.",
+      "B": "ementa, voto, decisão e resposta aos quesitos formulados pelas partes.",
+      "C": "introdução, indiciamento, qualificação do investigado, descrição dos vestígios e parecer técnico final.",
+      "D": "preâmbulo (número, título, nome dos peritos e informações sobre a requisição); exposição e discussão (narração do que foi examinado, condições, histórico, técnicas e justificativas); e uma conclusão objetiva e sintética."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o PDF (Cap. 9, p. 57), para a maioria dos doutrinadores, o laudo pericial deve ser elaborado com, no mínimo, as seguintes partes: um preâmbulo (número, título, nome dos peritos e informações sobre a requisição); exposição e discussão (narração do que foi examinado, condições de realização dos exames, histórico, técnicas utilizadas e justificativas das conclusões) e uma conclusão objetiva e sintética.",
+    "referencia": "Cap. 9, p. 57",
+    "nivel": "facil"
+  },
+  {
+    "id": 454,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em sentença de homicídio doloso, determinado magistrado rejeita integralmente as conclusões do laudo pericial criminal, fundamentando sua decisão em provas testemunhais e na livre apreciação que faz do conjunto probatório. À luz do art. 182 do CPP e da abordagem do Cap. 9 da Criminalística sobre a importância do laudo, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "a decisão do juiz é nula, pois o magistrado é obrigado a acatar integralmente as conclusões do laudo pericial criminal, dada a natureza técnica da prova.",
+      "B": "o art. 182 do CPP adota o sistema da prova tarifada, segundo o qual a perícia tem valor probatório absoluto e vincula o julgador.",
+      "C": "o art. 182 do CPP estabelece que o juiz não ficará adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo, no todo ou em parte, embora não seja comum o magistrado decidir em sentido contrário à conclusão pericial; trata-se do sistema liberatório adotado pela legislação brasileira.",
+      "D": "o juiz somente pode rejeitar o laudo após determinar nova perícia, com peritos diversos, sob pena de nulidade absoluta da sentença."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o PDF (Cap. 9, Seção 9.1, p. 58), o art. 182 do CPP estabelece que o juiz não ficará adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo, no todo ou em parte. O texto destaca que não é comum o juiz decidir em sentido contrário à conclusão da perícia, e que essa é a regra do sistema liberatório adotado pela legislação brasileira.",
+    "referencia": "Cap. 9, Seção 9.1, p. 58",
+    "nivel": "medio"
+  },
+  {
+    "id": 455,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em flagrante por tráfico de drogas baseado na Lei nº 11.343/2006, uma substância pulverulenta esbranquiçada é apreendida em poder do suspeito. Para a lavratura do Auto de Prisão em Flagrante, é necessária a realização de um exame prévio da substância. Sobre o laudo de exame de constatação preliminar, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "poderá ser realizado por um só perito ou, na falta deste, por qualquer pessoa com capacitação técnica para o encargo, nomeada pelo delegado; se feito por perito oficial, este não fica impedido de realizar o exame definitivo; trata-se do único caso de exame pericial preliminar previsto em lei.",
+      "B": "deverá ser realizado obrigatoriamente por dois peritos oficiais e impede a participação dos mesmos peritos no laudo definitivo.",
+      "C": "substitui plenamente o laudo definitivo de natureza da substância, sendo este último dispensável para o julgamento do réu.",
+      "D": "é cabível em qualquer espécie de crime que deixe vestígios, e não apenas nas hipóteses da Lei de Entorpecentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o PDF (Cap. 9, Seção 9.2, p. 59), o exame de constatação preliminar pode ser realizado por um só perito ou, na falta deste, por qualquer pessoa com capacitação técnica, nomeada pelo delegado; se feito por perito oficial, ele não fica impedido de realizar o exame definitivo, que é indispensável para o julgamento; e este é o único caso de exame pericial preliminar previsto em lei.",
+    "referencia": "Cap. 9, Seção 9.2, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "id": 456,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante um exame grafotécnico em curso, os peritos verificam que os materiais padrão fornecidos são insuficientes para uma conclusão técnica segura e precisam comunicar à autoridade requisitante a necessidade de apresentação de novos padrões. Em outro caso, advogado de uma das partes em ação cível contrata um especialista para emitir manifestação técnica sobre o objeto do litígio, a ser juntada ao processo como peça de convencimento, sem nomeação oficial como perito. Considerando as seções 9.3 e 9.4 do livro, os documentos adequados em cada situação são, respectivamente:",
+    "alternativas": {
+      "A": "laudo complementar e perícia particular.",
+      "B": "informação e laudo pericial.",
+      "C": "informação e parecer técnico.",
+      "D": "ofício circular e auto de constatação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o PDF (Cap. 9, Seção 9.4, p. 59-60), a informação é o documento oficial por meio do qual os peritos se comunicam com a autoridade requisitante para tratar de assuntos como necessidade de apresentação de novos materiais padrões em exame grafotécnico. Quanto ao especialista contratado pelo advogado em ação cível para emitir manifestação técnica sem nomeação oficial, o PDF (Seção 9.3, p. 59) denomina expressamente esse documento como parecer técnico, com valor de peça de convencimento e sem valor de perícia.",
+    "referencia": "Cap. 9, Seções 9.3 e 9.4, p. 59-60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 457,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante palestra em congresso, um perito afirma que o relatório Strengthening Forensic Science in the United States: A Path Forward (2009), do National Research Council, e o relatório do PCAST (2016) representaram marcos para a revisão crítica das ciências forenses no século XXI, tendo influenciado diretamente o ambiente em que se consolidou a série ISO 21043. Considerando o conteúdo desses relatórios e seu impacto, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O PCAST, em 2016, focou na validade científica de métodos comparativos como impressões digitais, marcas de ferramentas, balística e grafoscopia, exigindo demonstração empírica de desempenho, e não apenas a aceitação tradicional do método.",
+      "B": "O relatório de 2009 do NRC concluiu que as disciplinas forenses já apresentavam ampla uniformidade metodológica e validação científica consolidada, restando apenas aprimorar a comunicação de resultados ao Judiciário.",
+      "C": "Ambos os relatórios são documentos normativos de caráter compulsório que se sobrepõem às legislações nacionais quanto à regulamentação das ciências forenses.",
+      "D": "O PCAST recomendou abandonar as áreas comparativas tradicionais (como balística e grafoscopia) por absoluta ausência de fundamento científico, substituindo-as por métodos exclusivamente baseados em DNA."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 61, o PCAST 'concentrou-se na validade científica de métodos comparativos empregados em áreas como impressões digitais, marcas de ferramentas, balística e grafoscopia', exigindo 'demonstração empírica de desempenho' e não apenas a aceitação tradicional.",
+    "referencia": "Cap. 10, Seção 10 (introdução), p. 61",
+    "nivel": "medio"
+  },
+  {
+    "id": 458,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recém-empossado, ao estudar a série ISO 21043, conversa com colegas sobre a aplicação dessas normas no Brasil. Considerando o disposto na Seção 10.1, julgue os itens a seguir:\n\nI - Diferentemente da ISO/IEC 17025, não existe acreditação nas normas ISO 21043.\nII - A ISO/IEC 17025 já abordava integralmente os aspectos próprios da atividade pericial, como interpretação de resultados e comunicação ao sistema de justiça, motivo pelo qual a série ISO 21043 é considerada complementar e dispensável.\nIII - As normas ISO 21043 se sobrepõem às leis e aos normativos internos de cada país, devendo ser aplicadas com primazia em caso de conflito.\nIV - A série ISO 21043 foi estruturada no âmbito do comitê técnico ISO/TC 272.\nV - O Processo Forense, segundo a organização da série, compõe-se do Exame Pericial e da Redação do Laudo, sendo o Exame Pericial dividido em Coleta/Amostragem, Análise e Interpretação.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e V.",
+      "C": "I, IV e V.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 62: a ISO/IEC 17025 'não aborda aspectos próprios da atividade pericial' (II incorreto); 'não existe acreditação nas normas ISO 21043' (I correto); as normas ISO 'não se sobrepõem às leis e aos normativos internos' (III incorreto); a ISO estruturou 'no âmbito do comitê técnico ISO/TC 272' (IV correto); o Processo Forense é composto pelo Exame Pericial (coleta, análise, interpretação) e Redação do Laudo (V correto).",
+    "referencia": "Cap. 10, Seção 10.1, p. 62",
+    "nivel": "dificil"
+  },
+  {
+    "id": 459,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame pericial de drogas, o perito recebe um pó branco apreendido em local de tráfico. Após análises preliminares, conclui tratar-se de cocaína; em seguida, determina a concentração da substância na amostra; depois, compara o material com porções apreendidas com outro acusado para verificar se possuem origem comum; por fim, com base na disposição das porções no local, propõe uma dinâmica de armazenamento e distribuição. Considerando os quatro subtipos de análise previstos na ISO 21043-3, a sequência de exames descrita corresponde, respectivamente, a:",
+    "alternativas": {
+      "A": "Classificação, Quantificação, Reconstrução e Avaliação de Origem.",
+      "B": "Identificação, Quantificação, Avaliação de Origem e Reconstrução.",
+      "C": "Classificação, Avaliação de Origem, Quantificação e Reconstrução.",
+      "D": "Identificação, Reconstrução, Avaliação de Origem e Quantificação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 64: identificar que o pó é cocaína é Identificação (classe mais específica); determinar a concentração é Quantificação ('Quanto tem do item?'); comparar com outra apreensão para verificar origem comum é Avaliação de Origem ('De onde vem o item?'); propor dinâmica é Reconstrução ('O que aconteceu com o item?').",
+    "referencia": "Cap. 10, Seção 10.1.2, p. 64",
+    "nivel": "medio"
+  },
+  {
+    "id": 460,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após um incêndio em galpão comercial, o perito é acionado e, sem hipóteses prévias formalizadas, analisa o local, gerando possíveis explicações (curto-circuito, descuido humano, ação criminosa) que ranqueia por probabilidade. Em outro caso, recebe a pergunta objetiva: 'o veículo estava acima do limite de velocidade?', formulando proposições mutuamente excludentes e avaliando em que medida as observações suportam cada uma. À luz da ISO 21043-4, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Ambos os casos configuram interpretação avaliativa, pois sempre que o perito ranqueia hipóteses estará formulando proposições concorrentes.",
+      "B": "Ambos são interpretação investigativa, uma vez que a interpretação avaliativa só é admitida em exames de DNA e impressões digitais.",
+      "C": "O primeiro caso é interpretação avaliativa e o segundo, investigativa, pois a investigativa demanda proposições previamente formalizadas pela autoridade requisitante.",
+      "D": "O primeiro caso é interpretação investigativa e o segundo é interpretação avaliativa, sendo que esta última requer ao menos duas proposições concorrentes, mutuamente excludentes e específicas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 65: na Interpretação Investigativa 'não há proposições de início' e o perito 'parte das observações para gerar possíveis explicações'; a Interpretação Avaliativa 'parte de proposições formuladas de início, mutuamente excludentes, relevantes ao caso, explícitas e específicas' e 'requer ao menos duas proposições concorrentes'.",
+    "referencia": "Cap. 10, Seção 10.1.3, p. 65",
+    "nivel": "medio"
+  },
+  {
+    "id": 461,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No laudo de confronto datiloscópico, o perito declara: 'Na minha opinião, seria impossível obter as semelhanças observadas entre a impressão questionada e o padrão do investigado caso a impressão questionada tivesse sido produzida por outra pessoa.' Posteriormente, com base em imagens de CFTV, registra que 'estima-se que o veículo trafegava a 70 ± 5 km/h'. Segundo a ISO 21043-4, esses dois trechos correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "Razão de Verossimilhança e Explicação.",
+      "B": "Opinião Categórica e Razão de Verossimilhança.",
+      "C": "Explicação e Razão de Verossimilhança.",
+      "D": "Opinião Categórica e Estimativa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 65, a Opinião Categórica é 'usada quando o perito julga que seria impossível obter as observações caso qualquer hipótese alternativa fosse verdadeira', com o exemplo idêntico ao do enunciado; a Estimativa é exemplificada pela própria norma com 'velocidade de 70 ± 5 km/h' a partir de CFTV.",
+    "referencia": "Cap. 10, Seção 10.1.3, p. 65",
+    "nivel": "facil"
+  },
+  {
+    "id": 462,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a Parte 5 da ISO 21043 (Relato) e sua aplicação no contexto da Criminalística Federal, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A classificação ISO de laudos em preliminar, final, complementar, corrigido (amended) e obsoletado (withdrawn) foi integralmente adotada pela Criminalística Federal, que padronizou esses cinco tipos.",
+      "B": "A Criminalística Federal prevê apenas Laudos Preliminares de Constatação (relacionados à detecção preliminar de drogas de abuso) e Laudos de Perícia Criminal Federal, não tendo adotado a classificação completa da norma ISO.",
+      "C": "Os laudos podem expressar opiniões categóricas como se fossem declarações de fato, desde que o perito tenha alta convicção pessoal sobre a conclusão.",
+      "D": "A norma desobriga a inclusão da identificação do responsável pelo conteúdo do laudo, considerando que o documento é institucional e não pessoal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 66: 'essa classificação não foi adotada pela Criminalística Federal, que prevê apenas Laudos Preliminares de Constatação, relacionados à detecção preliminar de drogas de abuso, e Laudos de Perícia Criminal Federal'. Também é explícito que opiniões categóricas 'não devem ser apresentadas como se fossem declarações de um fato'.",
+    "referencia": "Cap. 10, Seção 10.1.4, p. 66",
+    "nivel": "medio"
+  },
+  {
+    "id": 463,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em discussão técnica sobre referenciais internacionais para evidências digitais e padronização por disciplina, um perito é questionado sobre as fontes adequadas para fundamentar procedimentos. Acerca dos referenciais internacionais relevantes mencionados na Seção 10.2, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "A ISO 21043-3 remete expressamente à ISO/IEC 27037:2012 para o tratamento de evidências digitais, sendo esta norma específica para identificação, coleta, aquisição e preservação dessas evidências.",
+      "B": "A OSAC, criada pelo NIST em 2014, substituiu integralmente a ENFSI europeia como organismo global de padronização técnica por disciplina forense.",
+      "C": "A Declaração de Sidney (2022) é documento normativo de caráter compulsório, sobrepondo-se à série ISO 21043 quanto aos princípios fundamentais da ciência forense.",
+      "D": "O ILAC G19:08/2014 trata exclusivamente da padronização de exames de DNA, sendo inaplicável às demais disciplinas forenses."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 67: 'Para a área de evidências digitais, a ISO 21043-3 remete expressamente à ISO/IEC 27037:2012 – Guidelines for Identification, Collection, Acquisition and Preservation of Digital Evidence'. A Declaração de Sidney 'não é um documento normativo' (p. 67-68); o ILAC G19 trata dos módulos do processo forense em geral.",
+    "referencia": "Cap. 10, Seção 10.2, p. 67",
+    "nivel": "medio"
+  },
+  {
+    "id": 464,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ISO 21043-1 (Vocabulário) define conceitos fundamentais para a harmonização do raciocínio pericial, incluindo a distinção entre observação, interpretação e opinião. Sobre tais conceitos e sua harmonização com o arcabouço normativo brasileiro, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A norma define 'cena' como objeto, substância, material ou marca coletada durante o processo forense, e 'item' como o lugar sujeito ao exame forense.",
+      "B": "A observação corresponde à conclusão final do perito; a interpretação consiste no que é diretamente constatado; e a opinião é o significado técnico atribuído ao dado.",
+      "C": "Na harmonização com o arcabouço normativo nacional, optou-se por manter, ao invés de 'cena', a terminologia 'corpo de delito', significando 'conjunto de vestígios que é sujeito a ou que requer exame pericial'.",
+      "D": "A harmonização terminológica é dispensável, pois termos forenses possuem o mesmo significado em todas as tradições institucionais e jurídicas internacionais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 62-63: 'Cena: lugar ou objeto que requer, ou é sujeito a, exame forense' e 'Item: objeto, substância, material ou marca'; e expressamente: 'optou-se por manter, ao invés de cena, a terminologia corpo de delito'. A observação é o constatado, a interpretação atribui significado técnico, e a opinião é a conclusão.",
+    "referencia": "Cap. 10, Seção 10.1.1, p. 62-63",
+    "nivel": "facil"
+  },
+  {
+    "id": 465,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um inquérito policial, surge discussão sobre o conceito legal de cadeia de custódia. Considerando a definição expressamente prevista na Lei nº 13.964/2019 e o conteúdo do Capítulo 11, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Cadeia de custódia é o conjunto de procedimentos utilizados exclusivamente para o descarte dos vestígios coletados em locais de crime, após a conclusão do laudo.",
+      "B": "Cadeia de custódia corresponde ao conjunto de exames laboratoriais realizados pelo perito a partir do recebimento do vestígio até a emissão do laudo definitivo.",
+      "C": "Cadeia de custódia é o procedimento administrativo de registro dos laudos periciais pela secretaria da unidade de criminalística, sem relação com o manuseio físico dos vestígios.",
+      "D": "Cadeia de custódia é o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 69, é a definição literal da Lei nº 13.964/2019 transcrita: 'conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte'.",
+    "referencia": "Cap. 11, Seção 11, p. 69",
+    "nivel": "facil"
+  },
+  {
+    "id": 466,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere a chegada de um vestígio à secretaria de uma unidade de criminalística federal, devidamente acondicionado em recipiente lacrado com numeração individualizada. Sobre as etapas da cadeia de custódia interna e as conferências previstas, julgue os itens:\n\nI - No momento da chegada, deve ocorrer a primeira conferência, cabendo à secretaria realizar a conferência dos dados na embalagem, sem efetuar a deslacração.\nII - Qualquer inconsistência detectada na chegada deve aguardar a designação do perito, que será o responsável por registrar a alteração após análise preliminar.\nIII - Não constatadas inconformidades, o vestígio deve ser imediatamente registrado no Siscrim.\nIV - A segunda conferência na embalagem contendo o vestígio deve ocorrer pelo perito designado, no momento da designação para realizar os exames.\nV - Após o ingresso na unidade de perícia criminal, deverá ser anexada uma ficha de acompanhamento do vestígio, para registrar o rompimento de lacres e as novas numerações, conforme IN nº 163/2020 – DG/PF.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e V.",
+      "C": "I, II, III e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 70-71: I correto (primeira conferência sem deslacração); II incorreto, pois 'qualquer inconsistência detectada nessa ocasião, deve ser providenciado o imediato registro da alteração'; III correto; IV correto (segunda conferência pelo perito); V correto (IN nº 163/2020 – DG/PF, ficha de acompanhamento).",
+    "referencia": "Cap. 11, Seção 11.2, p. 70-71",
+    "nivel": "dificil"
+  },
+  {
+    "id": 467,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após o término dos exames periciais sobre vestígios coletados em local de crime processado por perito criminal federal, surge dúvida quanto à destinação dos materiais examinados. Considerando a Mensagem Oficial-Circular da DITEC/PF de 5 de março de 2020 e as práticas vigentes mencionadas no Capítulo 11, é CORRETO afirmar:",
+    "alternativas": {
+      "A": "Findos os exames, os materiais examinados e o lacre inicial devem ser acondicionados pelo perito criminal em novo recipiente lacrado; vestígios coletados em local de crime devem permanecer sob custódia da unidade de criminalística até destinação final, enquanto os demais devem ser devolvidos à autoridade requisitante junto com o laudo.",
+      "B": "O lacre inicial deve ser descartado pelo perito após a abertura, sendo desnecessário seu acondicionamento junto ao material examinado.",
+      "C": "Findos os exames, todos os materiais devem ser devolvidos imediatamente à autoridade requisitante, independentemente de sua origem, sendo vedada qualquer armazenagem na unidade pericial.",
+      "D": "Os vestígios devem ser armazenados na residência do perito designado até decisão judicial específica sobre sua destinação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 71, item XII da Mensagem Oficial-Circular DITEC/PF: 'os materiais examinados e o lacre inicial devem ser acondicionados pelo perito criminal em novo recipiente lacrado'; 'vestígios coletados em local de crime devem permanecer sob a custódia da unidade de criminalística até destinação final. Os demais devem ser devolvidos à autoridade requisitante junto com o laudo'.",
+    "referencia": "Cap. 11, Seção 11.2, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 468,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em fiscalização das instalações de uma unidade pericial, observa-se a existência de uma sala destinada à custódia de vestígios. Considerando as recomendações do Capítulo 11 quanto às instalações dos locais de custódia da criminalística, é CORRETO afirmar:",
+    "alternativas": {
+      "A": "Não há necessidade de controle de temperatura e umidade nos locais de custódia, pois lacres e embalagens padronizadas garantem absoluta preservação do vestígio independentemente das condições ambientais.",
+      "B": "As instalações devem ter níveis de segurança adequados, incluindo, sempre que possível, monitoramento eletrônico, controle de temperatura e umidade, acesso restrito e presença de refrigeradores e freezers para vestígios perecíveis.",
+      "C": "O acesso aos locais de custódia deve ser amplo a todos os servidores da unidade, inclusive estagiários e prestadores de serviço, para garantir a transparência dos procedimentos.",
+      "D": "A presença de goteiras no ambiente de custódia é considerada prática recomendada, pois mantém a umidade adequada para preservação dos vestígios biológicos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 71-72: as instalações 'devem ter níveis de segurança adequados, incluindo, sempre que possível, monitoramento eletrônico'; a Figura 2 destaca 'controle de temperatura e umidade, o acesso restrito a servidores da unidade, e a presença de refrigeradores e freezers'. A goteira é apresentada como prática NÃO recomendada (Figura 3).",
+    "referencia": "Cap. 11, Seção 11.3, p. 71-72",
+    "nivel": "facil"
+  },
+  {
+    "id": 469,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito federal recebe, na secretaria da unidade, materiais de natureza distinta para análise. Aplicando o disposto na Lei nº 13.964/2019 (art. 158-D) e na Proposta de alteração da Instrução de Serviço nº 07/2011 – DITEC/PF quanto às embalagens de segurança, analise as situações:\n\nI - Um vestígio biológico chega sem qualquer acondicionamento individualizado; a secretaria pode recebê-lo desde que abra a embalagem e confira o material na presença e sob observação do responsável pela entrega.\nII - Documentos das áreas de contabilidade ou engenharia, que não necessitam de acondicionamento especial para preservar suas características e rastreabilidade, podem ser recebidos sem acondicionamento em recipiente lacrado e com numeração individualizada.\nIII - O recipiente para acondicionamento deve individualizar o vestígio, preservar suas características, impedir contaminação e vazamento, ter grau de resistência adequado e espaço para registro de informações.\nIV - Todos os recipientes deverão ser selados com lacres com numeração individualizada, de forma a garantir a inviolabilidade e a idoneidade do vestígio durante o transporte.\nV - A natureza do material não influencia na escolha do recipiente, sendo padronizado um único tipo de embalagem para todos os vestígios apreendidos.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "II, III, IV e V.",
+      "C": "I, II, III e IV.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 73-74: I correto (vestígio sem acondicionamento individualizado só recebido após abertura e conferência na presença do responsável); II correto (documentos de contabilidade/engenharia não precisam de recipiente lacrado); III e IV corretos (art. 158-D, §§ 1º e 2º); V incorreto, pois o art. 158-D estabelece que 'o recipiente será determinado pela natureza do material'.",
+    "referencia": "Cap. 11, Seção 11.4, p. 73-74",
+    "nivel": "dificil"
+  },
+  {
+    "id": 470,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em determinado processo penal, a defesa indica assistente técnico para acompanhar perícia realizada pela Polícia Federal. O profissional pretende impugnar conclusões e procedimentos. Considerando a Lei nº 11.690/2008, que inseriu a figura do assistente técnico no processo penal, e o disposto na Seção 11.5, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A análise da cadeia de custódia pelo assistente técnico restringe-se à fase externa, sendo a fase interna de competência exclusiva da corregedoria da Polícia Federal.",
+      "B": "O assistente técnico atua exclusivamente como auxiliar do Ministério Público, sendo-lhe vedado apresentar críticas ou hipóteses alternativas às conclusões do perito oficial.",
+      "C": "O assistente técnico pode analisar a preservação da cadeia de custódia, tanto externa quanto interna, tecer críticas ao laudo (clareza, métodos, coerência e conclusão) e formular hipóteses e apontar falhas procedimentais, inclusive quanto ao manuseio dos vestígios.",
+      "D": "O assistente técnico pode substituir o perito oficial na realização dos exames quando houver discordância técnica sobre a metodologia adotada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 75, o assistente técnico pode: 'IX - Analisar a preservação da cadeia de custódia: tanto externa como interna; X - Tecer críticas ao laudo pericial, observando aspectos de clareza, métodos, coerência e conclusão; XI - Formular hipóteses e apontar falhas procedimentais, inclusive quanto ao manuseio dos vestígios'.",
+    "referencia": "Cap. 11, Seção 11.5, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 471,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as diferenças entre cadeia de custódia externa e interna, conforme descritas no Capítulo 11, considere a seguinte situação: vestígios são coletados em local de crime, acondicionados em embalagens padronizadas com lacre, transportados até a unidade pericial, recebidos pela secretaria, registrados no Siscrim, examinados pelo perito designado e, após a conclusão, devolvidos à autoridade requisitante ou armazenados na Central de Custódia de Vestígios. Assinale a alternativa CORRETA quanto à classificação dessas etapas.",
+    "alternativas": {
+      "A": "Toda a sequência descrita constitui exclusivamente cadeia de custódia externa, pois envolve manuseio físico dos vestígios pela autoridade policial.",
+      "B": "A cadeia de custódia externa abrange a sequência de eventos que documenta a posse física ou controle do vestígio desde a arrecadação/coleta até o envio para análise, enquanto a cadeia de custódia interna corresponde à documentação das movimentações dos vestígios no âmbito da Criminalística durante a análise pericial, desde o recebimento até a conclusão dos exames com a devolução ou descarte.",
+      "C": "A cadeia de custódia interna abrange exclusivamente os eventos ocorridos no local de crime, antes do envio para a unidade pericial.",
+      "D": "A divisão entre cadeia de custódia externa e interna foi expressamente revogada pela Lei nº 13.964/2019, sendo atualmente tratada como um procedimento único e indivisível."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 69-70: cadeia de custódia externa é a 'sequência de eventos documentados que fornece evidência de que a posse física ou controle do vestígio foi mantido desde sua arrecadação/coleta até o envio para análise'; a interna é a 'documentação que demonstra as movimentações dos vestígios no âmbito da Criminalística durante a análise pericial, desde o recebimento até a conclusão dos exames com a devolução ou descarte'.",
+    "referencia": "Cap. 11, Seções 11 e 11.1-11.2, p. 69-70",
+    "nivel": "medio"
+  },
+  {
+    "id": 472,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante diligência conjunta com policiais, o perito criminal identifica vestígios biológicos em local de crime. Considerando as etapas iniciais da cadeia de custódia externa previstas na Lei nº 13.964/2019 e o conteúdo do Capítulo 11, é INCORRETO afirmar que:",
+    "alternativas": {
+      "A": "Os vestígios coletados devem ser acondicionados conjuntamente, em uma única embalagem comum, independentemente de suas características físicas, biológicas ou químicas, para otimizar o transporte até a unidade pericial.",
+      "B": "As ações de fixação, coleta, acondicionamento e transporte do vestígio serão formalizadas em Termo de Coleta de Vestígio (TCV), documento oficialmente adotado pela Polícia Federal a partir da IN DG/PF nº 297/2024.",
+      "C": "A cadeia de custódia tem início com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio em local de crime ou corpo da vítima.",
+      "D": "Deve-se atentar especialmente para uma identificação unívoca do vestígio, bem como utilizar embalagens de segurança padronizadas para o acondicionamento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 69-70: 'Os vestígios coletados serão acondicionados separadamente em embalagens, conforme suas características físicas, biológicas e químicas' (art. 158-B, V, da Lei nº 13.964/2019). As demais alternativas reproduzem corretamente o conteúdo da seção 11.1.",
+    "referencia": "Cap. 11, Seção 11.1, p. 69-70",
+    "nivel": "dificil"
+  },
+  {
+    "id": 473,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito criminal federal Marcos, recém-empossado na Superintendência Regional do Amazonas, foi orientado pelo chefe da unidade a se familiarizar com o sistema de gestão da Criminalística. Durante a apresentação, foram mencionadas características técnicas do SISCRIM. Considerando o conteúdo apresentado, assinale a alternativa CORRETA quanto à natureza e estrutura do SISCRIM.",
+    "alternativas": {
+      "A": "O SISCRIM é um sistema desenvolvido por empresa terceirizada contratada pela DITEC/PF, baseado em software proprietário, com instalação local obrigatória em cada estação de trabalho dos peritos para garantir segurança da informação.",
+      "B": "O SISCRIM, embora desenvolvido por peritos criminais federais, é baseado em software proprietário licenciado, sendo acessado exclusivamente pela internet com autenticação por certificado digital instalado em cada máquina dos usuários.",
+      "C": "O SISCRIM possui banco de dados descentralizado em cada superintendência regional, com sincronização periódica para o servidor central, sendo desenvolvido em parceria com o sistema ePol como módulo único e integrado desde sua concepção original.",
+      "D": "O SISCRIM é um sistema informatizado desenvolvido por peritos criminais federais, 100% baseado em software livre, com banco de dados e servidores unificados e centralizados na DITEC/PF, em Brasília, e acessado pela intranet sem necessidade de instalação pelos usuários."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 12, item 12.1 (p. 78): 'O SISCRIM é um sistema informatizado desenvolvido por peritos criminais federais e já completou vinte anos de utilização. O sistema é 100% baseado em software livre, com seu banco de dados e servidores unificados e centralizados na DITEC/PF, em Brasília. Seu acesso é realizado pela intranet, não sendo necessária nenhuma instalação pelos usuários.'",
+    "referencia": "Cap. 12, Seção 12.1, p. 78",
+    "nivel": "facil"
+  },
+  {
+    "id": 474,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita criminal federal Joana foi designada para um exame em uma requisição que, após cadastrada no SISCRIM, recebeu indicador de criticidade ALTA. Discutindo o caso com colegas, ela apresentou quatro situações hipoteticamente justificadoras dessa classificação. Considerando a Instrução de Serviço nº 08/2011 - DITEC/PF, assinale a alternativa que NÃO se enquadra nas hipóteses de criticidade ALTA.",
+    "alternativas": {
+      "A": "Requisição vinculada a réu indiciado preso, cujo resultado do exame é aguardado para a decisão quanto à manutenção da prisão.",
+      "B": "Requisição em que os exames possam ser considerados essenciais para efetuar prisões, fundamentar mandado de busca e apreensão ou iniciar operações em que o tempo é crítico.",
+      "C": "Requisição vinculada a outra situação que, por exigência legal ou repercussão social, esteja relacionada a processo com prioridade de tramitação.",
+      "D": "Requisição contendo materiais sujeitos a degradação ou contaminação imediatas, como amostras biológicas que precisam ser processadas com urgência."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Cap. 12, item 12.3.5 (p. 82-83), a hipótese descrita na alternativa D (exames essenciais para efetuar prisões, fundamentar mandado de busca e apreensão, iniciar operações) corresponde à criticidade MÉDIA, item 2.b. As alternativas A, B e C correspondem, respectivamente, aos itens 1.a, 1.c e 1.b da criticidade ALTA.",
+    "referencia": "Cap. 12, Seção 12.3.5, p. 82-83",
+    "nivel": "medio"
+  },
+  {
+    "id": 475,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma reunião de gestão da Unidade de Criminalística de Curitiba, o chefe explicou aos peritos recém-chegados a diferença entre os conceitos de 'estoque de pendências' e 'demanda de exames periciais'. Sobre esses conceitos no contexto do SISCRIM, julgue os itens a seguir:\n\nI. O 'estoque de pendências' corresponde ao conjunto das pendências e pode ser apurado por perito, por grupo de peritos, por área de exame, por Unidade de Criminalística ou por todo o Sistema Nacional de Criminalística.\nII. A 'demanda' refere-se ao conjunto de expedientes registrados no SISCRIM com a finalidade 'Solicitação de Exame' em determinado período, diferenciando rigorosamente as requisições pendentes daquelas arquivadas.\nIII. A demanda é fundamental para o planejamento, gestão e avaliação da capacidade de atendimento da perícia.\nIV. Enquanto a requisição estiver na carga de funcionário, de grupo de funcionários (exceto de grupo do tipo 'Arquivo') ou de unidade organizacional dentro da perícia e não estiver cancelada, será entendida pelo SISCRIM como 'Pendência'.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III e IV.",
+      "C": "I, III e IV.",
+      "D": "I, II e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Item I correto (Seção 12.3.2, p. 81). Item II ERRADO: o conceito de demanda NÃO diferencia as requisições pendentes das arquivadas - 'o que importa é o que foi registrado como requisição de exame' (Seção 12.3.3, p. 81). Item III correto (Seção 12.3.3, p. 81). Item IV correto (Seção 12.3.1, p. 80-81).",
+    "referencia": "Cap. 12, Seções 12.3.1 a 12.3.3, p. 80-81",
+    "nivel": "dificil"
+  },
+  {
+    "id": 476,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Carlos, ao cadastrar no SISCRIM os dados de Objetos de Exame (OE) de uma requisição complexa envolvendo grande quantidade de mídias para extração forense, recebeu um alerta do sistema porque um dos limites de conformidade foi excedido. Sobre o fluxo de 'avaliação de conformidade' previsto no SISCRIM, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Quando o limite de conformidade é excedido, o SISCRIM bloqueia automaticamente o cadastro, impedindo a continuação dos exames até que o chefe imediato da unidade autorize formalmente a continuidade do procedimento.",
+      "B": "O fluxo de avaliação de conformidade tem por finalidade mitigar erros de preenchimento de dados de OEs; quando o usuário confirma e justifica o uso de valores acima dos limites, a análise é feita por outro perito ponto focal do tema OE, e os casos sui generis (OE 'não previstos') entram obrigatoriamente nesse fluxo.",
+      "C": "A avaliação de conformidade é realizada exclusivamente pelo próprio perito responsável pela requisição, que deve justificar internamente o uso de valores acima dos limites, sem necessidade de validação por outro perito ou ponto focal.",
+      "D": "Casos sui generis devem ser cadastrados com o tipo de OE mais aproximado da lista padrão, sendo vedado o uso de tipos 'não previstos', pois isso comprometeria a parametrização da pontuação de complexidade adotada pelo sistema."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Cap. 12, item 12.3.8 (p. 84): o fluxo de avaliação de conformidade mitiga erros de preenchimento dos OEs; quando o usuário confirma e justifica o uso de valores acima dos limites, a análise é feita por outro perito que é ponto focal; para casos sui generis utilizam-se OEs 'não previstos', que entram obrigatoriamente no fluxo.",
+    "referencia": "Cap. 12, Seção 12.3.8, p. 84",
+    "nivel": "medio"
+  },
+  {
+    "id": 477,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o planejamento estratégico anual da DITEC/PF, foram revisadas as metas de desempenho das Unidades de Criminalística. Considerando o disposto no Cap. 12 sobre Metas e Indicadores, assinale a alternativa CORRETA acerca das três metas atualmente em vigência.",
+    "alternativas": {
+      "A": "A meta de quantidade de pendências acima do prazo máximo estabelece que as UCs devem possuir, no máximo, 10% de suas pendências acima do prazo, e o tempo é contado do registro da requisição na UC até a entrega do laudo.",
+      "B": "A meta de produtividade estabelece que as UCs devem produzir, em média, 250 pontos de complexidade para cada unidade de FTDE, podendo a DITEC fixar metas individuais para cada perito visando o cumprimento dessa produtividade.",
+      "C": "A meta de produtividade é de 250 pontos de complexidade para cada unidade de FTDE, sendo que a DITEC não define metas individuais; as metas são revisadas e estabelecidas anualmente.",
+      "D": "A meta de tempo médio de atendimento é única para todas as áreas de exame, sendo contada do momento em que a requisição é distribuída ao perito até a entrega do laudo ao requisitante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Cap. 12, item 12.7 (p. 86-87): a meta 2 é de 250 pontos de complexidade por unidade de FTDE; 'os prazos são revisados e estabelecidos anualmente' e 'não existem metas individuais definidas pela DITEC'. A alternativa A erra no percentual (correto é 5%) e no termo final do tempo (correto é o arquivamento); B erra ao afirmar que há metas individuais; D erra ao afirmar que a meta de tempo médio é única para todas as áreas (cada área tem sua própria meta).",
+    "referencia": "Cap. 12, Seção 12.7, p. 86-87",
+    "nivel": "medio"
+  },
+  {
+    "id": 478,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Ricardo possui em sua carga uma requisição cuja análise envolve descobertas de um material biológico extremamente raro, exigindo procedimento experimental ainda em validação metodológica, cujo prazo convencional para atendimento se mostrou inviável. Diante dessa situação, sobre o instituto do 'acompanhamento especial' previsto no Cap. 12, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O próprio perito responsável pode, mediante despacho fundamentado no SISCRIM, colocar a pendência em acompanhamento especial, devendo apenas comunicar formalmente o chefe imediato após o registro.",
+      "B": "O acompanhamento especial é decidido pela corregedoria, após avaliação das justificativas formais apresentadas pela UC, e implica suspensão automática dos prazos de qualquer requisição vinculada à mesma operação policial.",
+      "C": "O chefe imediato, ao receber a comunicação do perito, fundamenta o pedido, estima uma data para conclusão dos exames e formaliza via SEI; o pedido é avaliado pelo INC, que pode colocar a pendência em acompanhamento especial e registrar a data limite, sendo que tais requisições não são contabilizadas como vencidas para a meta 1 nem para os prazos críticos.",
+      "D": "As requisições em acompanhamento especial continuam sendo contabilizadas como pendências vencidas para efeitos da meta 1, mas ficam isentas dos efeitos dos prazos críticos enquanto durar o acompanhamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Cap. 12, item 12.7.3 (p. 87-88): o perito comunica o chefe imediato, que solicita ao órgão central, fundamenta o pedido, estima data para conclusão e formaliza via SEI; o processo é avaliado pelo INC. As requisições em acompanhamento especial NÃO são contabilizadas como vencidas para a meta 1 e não se consideram vencidas para os prazos críticos.",
+    "referencia": "Cap. 12, Seção 12.7.3, p. 87-88",
+    "nivel": "medio"
+  },
+  {
+    "id": 479,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Indicador da Criminalística (ICRIM) consolida o desempenho das Unidades de Criminalística em um número único, variando de 0 a 10, composto por três componentes com pesos distintos. Considerando a estrutura do ICRIM conforme descrita no Cap. 12, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "C1 (20%) - desempenho em produtividade; C2 (30%) - quantidade de pendências fora do prazo máximo; C3 (50%) - tempo médio de atendimento.",
+      "B": "C1 (50%) - quantidade de pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (20%) - tempo médio de atendimento.",
+      "C": "C1 (30%) - quantidade de pendências fora do prazo máximo; C2 (20%) - produtividade; C3 (50%) - tempo médio de atendimento.",
+      "D": "C1 (20%) - quantidade de pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (50%) - tempo médio de atendimento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 12, item 12.8 (p. 88): C1 (20% do ICRIM) - desempenho em pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (50%) - tempo médio de atendimento.",
+    "referencia": "Cap. 12, Seção 12.8, p. 88",
+    "nivel": "facil"
+  },
+  {
+    "id": 480,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito-chefe da UC de Salvador, ao verificar no painel BI do MED um desbalanceamento significativo entre a demanda e a capacidade de sua unidade na área de Informática, contatou o chefe da UC do Recife para combinar uma redistribuição de pendências. Sobre o Mecanismo de Equalização de Demanda (MED) e o Painel BI, julgue os itens a seguir:\n\nI. O MED foi desenvolvido para reduzir o impacto do desbalanceamento entre demanda e capacidade de atendimento das UCs, considerando dificuldades de lotação ideal e mudanças sazonais da demanda.\nII. O Painel de BI do MED utiliza dados de demanda, produção, estoque e FTDE para fornecer informações sobre a situação de cada UC.\nIII. A redistribuição de pendências entre UCs depende exclusivamente de decisão centralizada da DITEC, não cabendo às chefias locais combinarem entre si tal redistribuição.\nIV. Os painéis BI da Criminalística são acessíveis no fluxo DITEC em 'https://bi.pf.gov.br/'.\nV. A Portaria nº 12.248-DG/PF, de 27/04/2020, autoriza o diretor técnico-científico a promover a redistribuição compulsória de requisições de exame pericial em âmbito nacional.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "I, III e V apenas.",
+      "B": "I, II, IV e V apenas.",
+      "C": "II, III, IV e V apenas.",
+      "D": "Todos os itens."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Itens I, II, IV e V corretos (Seções 12.6, p. 86 e p. 77). Item III ERRADO: 'as chefias devem se comunicar e combinar a redistribuição de pendências, de acordo com suas necessidades e capacidades de atendimento para cada área de exame' (Seção 12.6, p. 86) - portanto a redistribuição ocorre por iniciativa das chefias locais, sem prejuízo da possibilidade de redistribuição compulsória pela DITEC.",
+    "referencia": "Cap. 12, Seções 12.6 e p. 77, p. 86",
+    "nivel": "dificil"
+  },
+  {
+    "id": 481,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Ana, ao revisar a lista de áreas da Criminalística definidas pela Portaria 1377/2024-DITEC/PF e alterações pela Portaria DITEC/PF nº 1512/2024, precisa orientar o requisitante quanto ao correto direcionamento da requisição. Considerando as áreas oficialmente listadas no Cap. 12, assinale a alternativa que apresenta apenas áreas EFETIVAMENTE reconhecidas como áreas da Criminalística (ou Áreas de Exame).",
+    "alternativas": {
+      "A": "Documentoscopia; Balística; Genética Forense; Recursos Minerais; Patrimônio Histórico, Artístico e Cultural.",
+      "B": "Contábil-Financeiro; Engenharia; Química Forense; Cibersegurança Pericial; Biometria Forense.",
+      "C": "Medicina e Odontologia Forense; Eletroeletrônicos; Auditoria Pericial; Caracterização Física de Materiais; Bombas e Explosivos.",
+      "D": "Local de Crime; Meio Ambiente; Veículos; Perícia Tributária; Merceológicas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, item 12.2 (p. 79): as 19 áreas listadas incluem Documentoscopia (10), Balística (13), Genética Forense (14), Recursos Minerais (19) e Patrimônio Histórico, Artístico e Cultural (8). As alternativas A, C e D contêm itens que NÃO constam da lista oficial ('Cibersegurança Pericial', 'Auditoria Pericial' e 'Perícia Tributária').",
+    "referencia": "Cap. 12, Seção 12.2, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 482,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma operação policial, foi apreendido um veículo que ficou em pátio de terceiros aguardando perícia. Posteriormente, um padrão de comparação foi encaminhado à perícia para confronto balístico, e uma mídia foi encaminhada para espelhamento em exame de informática. O perito responsável precisa classificar corretamente esses itens no SISCRIM. Sobre a definição de 'material' e suas classificações no SISCRIM, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Todo vestígio do crime, independentemente de estar sob a guarda da perícia, deve ser obrigatoriamente registrado como 'material' no SISCRIM, pois há equivalência conceitual entre 'material' e 'vestígio'.",
+      "B": "Veículos em pátios de terceiros, aeronaves, embarcações e locais de crime são obrigatoriamente registrados como 'material' no SISCRIM, sob a finalidade 'Exame', mesmo que não estejam sob custódia direta da perícia.",
+      "C": "O SISCRIM considera 'material' todo item encaminhado à Perícia que se relaciona com exames periciais e deve ficar sob sua custódia; nem todo item registrado como 'material' é vestígio (ou contém vestígios) e nem todo vestígio é registrado no SISCRIM, sendo que o material deve ser classificado em finalidades como Apoio ao Exame, Contra-prova, Devolução, Exame, Mídia anexa, Mídia para espelhamento, Padrão ou Pesquisa.",
+      "D": "As finalidades de classificação de material no SISCRIM são apenas Exame, Contra-prova e Padrão, sendo as demais classificações utilizadas em sistemas auxiliares de controle de custódia externos ao SISCRIM."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Cap. 12, itens 12.4 e 12.4.1 (p. 84-85): o SISCRIM considera 'material' todo item encaminhado à perícia que se relaciona com exames periciais e deve ficar sob sua custódia; 'nem todo item registrado como material é vestígio e nem todo vestígio é registrado no SISCRIM'; o material deve ser classificado em uma das 8 finalidades listadas (Apoio ao Exame, Contra-prova, Devolução, Exame, Mídia anexa, Mídia para espelhamento, Padrão, Pesquisa).",
+    "referencia": "Cap. 12, Seções 12.4 e 12.4.1, p. 84-85",
+    "nivel": "medio"
+  },
+  {
+    "id": 483,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma capacitação para novos peritos, o instrutor explicou o conceito de 'pontos de complexidade' utilizado no SISCRIM. Para tornar o conceito mais palpável, citou um exame específico cujo esforço corresponde a 1 ponto de complexidade (esforço unitário da pontuação). Conforme o Cap. 12, qual é o exame de referência adotado como esforço unitário?",
+    "alternativas": {
+      "A": "O esforço de todo o processo do 'Exame de Extração Forense de Dados' de um telefone celular.",
+      "B": "O esforço de extração e análise de um dispositivo móvel em exame de Documentoscopia, considerando a média de tempo de atendimento.",
+      "C": "O esforço de elaboração de um Laudo de Perícia Criminal Federal em local de crime de complexidade média, na área de Local de Crime.",
+      "D": "O esforço médio de uma perícia de balística forense envolvendo um único projétil deflagrado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, item 12.3.6 (p. 83): 'O esforço unitário (1 ponto) da pontuação de complexidade é equivalente ao esforço de todo o processo do Exame de Extração Forense de Dados de um telefone celular.'",
+    "referencia": "Cap. 12, Seção 12.3.6, p. 83",
+    "nivel": "facil"
+  },
+  {
+    "id": 484,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Eduardo recebeu uma requisição cujo prazo máximo de atendimento, definido pela DITEC para a sua área de exame, é de 120 dias. Já decorreram 145 dias desde o registro da requisição na UC, sem que tenha havido atendimento ou justificativa formal anterior. Considerando os conceitos de 'fluxo de saneamento' e 'prazos críticos' descritos no Cap. 12, é CORRETO afirmar:",
+    "alternativas": {
+      "A": "A requisição já ultrapassou o prazo máximo (120 dias) e entra no fluxo de saneamento, mas ainda NÃO atingiu o prazo crítico (que corresponde a 25% além do prazo máximo, ou seja, 150 dias); cabe à unidade justificar e informar plano de ação com datas e responsáveis pelo atendimento.",
+      "B": "A requisição já se encontra além do prazo crítico (definido como 25% além do prazo máximo, ou seja, 150 dias), podendo ser encaminhada à corregedoria para apuração de responsabilidades, a depender das ações tomadas e justificativas documentadas.",
+      "C": "A requisição ultrapassou o prazo máximo, mas o fluxo de saneamento só é disparado quando o prazo crítico (10% além do prazo máximo) é atingido, o que ainda não ocorreu no caso narrado.",
+      "D": "Como o atraso é inferior a 50% do prazo máximo, a requisição não entra em fluxo de saneamento nem em prazo crítico, devendo apenas ser priorizada internamente pelo perito responsável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, itens 12.7.1 e 12.7.2 (p. 87): as pendências que extrapolam os prazos máximos entram no fluxo de saneamento (justificativa e plano de ação); os prazos críticos são definidos como 25% além dos prazos máximos. No caso, 25% de 120 = 30 dias, totalizando 150 dias; aos 145 dias ainda não se atingiu o prazo crítico (150 dias), mas a requisição já está em fluxo de saneamento.",
+    "referencia": "Cap. 12, Seções 12.7.1 e 12.7.2, p. 87",
+    "nivel": "dificil"
+  },
+  {
+    "id": 485,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Luciana foi designada para gerir o módulo Agenda do SISCRIM em sua UC. Ela precisa calcular a Força de Trabalho Disponível para Exames (FTDE) da unidade para alimentar o painel BI do MED. Sobre a Agenda do SISCRIM e a FTDE, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A FTDE de uma unidade é calculada exclusivamente a partir do número de peritos lotados na UC, sem considerar afastamentos por férias, licenças ou dedicação a outras atividades além da produção de laudos.",
+      "B": "O cálculo da FTDE considera apenas a quantidade de laudos produzidos por cada perito no ano-base anterior, sem necessidade de registros prévios no módulo Agenda.",
+      "C": "A FTDE é fornecida diretamente pelo sistema ePol, com base nos registros de ponto eletrônico dos peritos, sendo o módulo Agenda do SISCRIM apenas um espelho de tais informações.",
+      "D": "O módulo Agenda do SISCRIM permite registrar afastamentos legais (férias, licenças) e dedicação a atividades não relacionadas diretamente à produção de laudos; a FTDE da unidade é obtida somando-se as FTDEs de cada perito lotado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 12, itens 12.5 e 12.5.1 (p. 85): o módulo Agenda permite criar registros dos afastamentos dos peritos e da dedicação a outras atividades; a partir dos dados do módulo Agenda é possível calcular a FTDE; 'para calcular a FTDE de determinada unidade, somam-se as FTDEs de cada perito lotado'.",
+    "referencia": "Cap. 12, Seções 12.5 e 12.5.1, p. 85",
+    "nivel": "facil"
+  },
+  {
+    "id": 486,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito André está revisando um expediente de solicitação de exame no SISCRIM e precisa identificar corretamente as situações possíveis atribuídas aos expedientes. Considerando o disposto no Cap. 12 sobre 'situações das requisições de exame', assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Existem 17 situações possíveis para um expediente dentro do SISCRIM, sendo que 12 são inferidas e atribuídas automaticamente pelo sistema e outras 5 podem ser alimentadas manualmente pelo usuário, incluindo, entre as manuais, 'Aguardando condições ambientais ou climáticas', 'Aguardando disponibilidade de meios' e 'Aguardando providências do requisitante'.",
+      "B": "Existem 12 situações possíveis para um expediente no SISCRIM, todas inferidas e atribuídas automaticamente pelo sistema, sem possibilidade de alimentação manual pelo usuário.",
+      "C": "Existem 17 situações no SISCRIM, todas alimentadas manualmente pelos peritos responsáveis pela carga, sendo vedada qualquer inferência automática pelo sistema, em respeito ao princípio da independência funcional do perito.",
+      "D": "Existem 5 situações possíveis no SISCRIM, sendo que apenas 'Requisição arquivada' e 'Requisição em atendimento' podem ser atribuídas manualmente, ficando as demais a cargo do sistema."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, item 12.3.4 (p. 81-82): 'Existem 17 situações possíveis para um expediente dentro do SISCRIM, sendo que 12 são inferidas e atribuídas automaticamente pelo sistema e outras cinco podem ser alimentadas manualmente pelo usuário.' As situações manuais incluem 'Aguardando condições ambientais ou climáticas', 'Aguardando disponibilidade de meios', 'Aguardando providências do requisitante', 'Requisição em atendimento' e 'Requisição arquivada sem atendimento devido a problemas não solucionados'.",
+    "referencia": "Cap. 12, Seção 12.3.4, p. 81-82",
+    "nivel": "dificil"
+  },
+  {
+    "id": 487,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Determinado Perito Criminal Federal, recém-empossado em uma unidade de criminalística no interior do país, precisa consultar o acervo de normas expedidas pela Diretoria Técnico-Científica e pelo Instituto Nacional de Criminalística, bem como acessar documentos do Sistema de Gestão da Qualidade do SNC. Considerando as informações sobre a Biblioteca Digital da Criminalística (BDCRIM), assinale a alternativa correta acerca do acesso, da gestão e da natureza desse repositório.",
+    "alternativas": {
+      "A": "A BDCRIM é acessível tanto pela internet quanto pela intranet da PF, exigindo apenas certificado digital ICP-Brasil para autenticação, e sua manutenção compete ao Instituto Nacional de Criminalística.",
+      "B": "A BDCRIM é acessível apenas pela intranet da Polícia Federal, com senha do domínio PF, e sua atualização e manutenção estão atribuídas à Diretoria Técnico-Científica, conforme a Portaria DITEC/PF nº 1368/2024.",
+      "C": "A BDCRIM é um repositório aberto ao público em geral e a sua manutenção foi transferida, em 2024, para a Diretoria-Geral da Polícia Federal, por meio de instrução normativa específica.",
+      "D": "A BDCRIM constitui o sistema oficial de polícia judiciária para o trâmite de requisições periciais, sendo mantida em parceria entre a DITEC e a Corregedoria-Geral da PF."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o PDF (p. 91, seção 13.1), a BDCRIM é acessível apenas pela intranet da Polícia Federal, com senha do domínio PF, e sua atualização e manutenção estão atribuídas à Diretoria Técnico-Científica, conforme assentado na Portaria DITEC/PF nº 1368/2024.",
+    "referencia": "Cap. 13, Seção 13.1, p. 91",
+    "nivel": "facil"
+  },
+  {
+    "id": 488,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma unidade de perícia criminal federal iniciou processo de implantação de Sistema de Gestão da Qualidade (SGQ) baseado na ABNT NBR ISO 9001:2015. Sobre os benefícios potenciais decorrentes dessa implantação, conforme descrito na referida norma e reproduzido no material do curso, julgue os itens a seguir:\n\nI. A capacidade de prover consistentemente produtos e serviços que atendam aos requisitos do cliente e aos requisitos estatutários e regulamentares aplicáveis.\nII. A obrigatoriedade de redução em 50% do tempo médio de atendimento das requisições periciais, como meta institucional.\nIII. A facilitação de oportunidades para aumentar a satisfação do cliente.\nIV. A abordagem de riscos e oportunidades associados ao contexto e aos objetivos da organização.\nV. A capacidade de demonstrar conformidade com requisitos especificados de sistemas de gestão da qualidade.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "II, III, IV e V.",
+      "C": "I, III, IV e V.",
+      "D": "I, II, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 91 do PDF, os benefícios potenciais da implementação do SGQ baseado na ISO 9001:2015 são exatamente os descritos nos itens I, III, IV e V. O item II é inventado — não há qualquer meta numérica de redução de tempo médio na norma citada.",
+    "referencia": "Cap. 13, Seção 13.1, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 489,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal recebeu, em sua carga, requisição de exame de natureza complexa, cuja conclusão demandaria significativamente mais que o prazo legal previsto no art. 160 do CPP. Considerando a normatização aplicável (CPP e IN DG/PF nº 255/2023), bem como as boas práticas de gestão da criminalística federal, assinale a alternativa que descreve CORRETAMENTE o tratamento dos prazos de elaboração do laudo pericial.",
+    "alternativas": {
+      "A": "O CPP fixa prazo máximo de 10 dias, mas admite prorrogação em casos excepcionais a requerimento dos peritos; a IN 255/2023 exige que a prorrogação seja solicitada pelo requisitante de forma fundamentada e com indicação de prazo estimado para conclusão.",
+      "B": "O laudo deve ser elaborado no prazo legal contado a partir da data do exame in loco, podendo ser prorrogado pelo gestor da unidade, independentemente de comunicação ao requisitante.",
+      "C": "O laudo deve ser elaborado em até 10 dias corridos, prazo improrrogável, sob pena de nulidade do exame e responsabilização funcional do perito designado.",
+      "D": "A IN 255/2023 substituiu a regra do art. 160 do CPP, instituindo prazo de 30 dias para todos os laudos, com possibilidade de prorrogação automática a critério do perito designado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 92 do PDF, o art. 160 do CPP estabelece prazo de 10 dias prorrogável em casos excepcionais a requerimento dos peritos, e o art. 58 da IN 255/2023 estabelece que o prazo é prorrogável 'pelo requisitante por solicitação fundamentada e com indicação de prazo estimado para conclusão da perícia'.",
+    "referencia": "Cap. 13, Seção 13.2, p. 92",
+    "nivel": "medio"
+  },
+  {
+    "id": 490,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Guia da Estrutura Normativa da Criminalística (Guia ENCRIM), disponível na BDCRIM, organiza por áreas de exame e gestão dezenas de normativos que regem a atividade pericial. Sobre o Guia ENCRIM e a estrutura normativa apresentada, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Guia ENCRIM possui força normativa equivalente à dos atos por ele compilados, substituindo as publicações oficiais em diário oficial e boletim de serviço.",
+      "B": "O Guia ENCRIM é uma compilação que não substitui as publicações oficiais dos atos normativos, podendo haver divergência entre seu conteúdo e a situação dos atos após a data de sua versão.",
+      "C": "O Guia ENCRIM é editado privativamente pelo Diretor-Geral da PF e tem caráter exaustivo, vedada a sua aplicação subsidiária por outros normativos.",
+      "D": "O Guia ENCRIM é restrito às áreas de perícia técnico-científica de laboratório, não abrangendo temas administrativos como sobreaviso, plantão e cadeia de custódia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 94 do PDF, 'o guia ENCRIM se trata de uma mera compilação e não substitui as publicações oficiais dos atos normativos, ou das suas alterações' e 'pode haver divergência entre o teor do conteúdo do guia ENCRIM e a situação dos atos normativos após a data de sua versão'.",
+    "referencia": "Cap. 13, Seção 13.3, p. 94",
+    "nivel": "facil"
+  },
+  {
+    "id": 491,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma reunião de gestão da SETEC, discute-se a tipologia dos atos normativos vigentes na criminalística federal e os efeitos do Decreto 12.002/2024. Sobre as definições de Instrução Normativa (IN), Instrução de Serviço (IS), Instrução Técnica (IT), Orientação Técnica (OT) e Portaria, bem como os efeitos do referido decreto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A Instrução Técnica (IT) é ato expedido exclusivamente pelo Diretor-Geral, com objetivo de regular métodos técnicos da PF, e desde 2022 passou a ser o único instrumento normativo válido em matéria pericial.",
+      "B": "A Portaria, no âmbito da criminalística, somente pode ser expedida pelo Corregedor-Geral da PF e pelos Superintendentes Regionais, sendo vedada sua expedição pelo Diretor Técnico-Científico.",
+      "C": "A Orientação Técnica (OT) é ato de caráter vinculante e privativo do Diretor-Geral da PF, sendo o único normativo capaz de criar obrigações para os Peritos Criminais Federais em matéria de exames.",
+      "D": "Com o Decreto 12.002/2024, os únicos atos que podem ser publicados são portarias, instruções normativas e resoluções, mas o decreto garantiu a eficácia de IT, OT e IS anteriores ainda vigentes."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 96 do PDF, 'com a publicação do Decreto 12.002/2024, os únicos atos que podem ser publicados hoje são as portarias, instruções normativas e resoluções. Contudo, esse mesmo decreto garantiu a eficácia de outros tipos de norma anteriores, como as IT, OT e IS'.",
+    "referencia": "Cap. 13, Seção 13.3, p. 96",
+    "nivel": "medio"
+  },
+  {
+    "id": 492,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Delegado de Polícia Federal, no curso de inquérito policial em circunscrição da SR/PE, decide encaminhar requisição de exame pericial diretamente a uma unidade de criminalística de outra Superintendência, em razão de suposta maior expertise técnica daquela unidade. À luz da IN DG/PF nº 255/2023, em especial dos arts. 55 e 62, assinale a alternativa correta sobre o procedimento adotado.",
+    "alternativas": {
+      "A": "O procedimento é irregular: as requisições de exame devem ser dirigidas ao chefe da unidade de perícia criminal federal da circunscrição em que estiver vinculada, acompanhadas do termo de apreensão e distribuídas imediatamente aos peritos.",
+      "B": "O procedimento é regular, pois a IN 255/2023 permite que o requisitante escolha livremente a unidade de criminalística com maior expertise para atender à requisição, independentemente da circunscrição.",
+      "C": "O procedimento é regular desde que haja prévia anuência do Diretor Técnico-Científico, dispensada a observância da circunscrição quando se tratar de exame complexo.",
+      "D": "O procedimento é irregular apenas quanto à ausência de termo de apreensão; quanto à escolha da unidade, a IN 255/2023 confere autonomia plena ao delegado requisitante."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 96 do PDF, o art. 55 da IN 255/2023 estabelece que as requisições devem ser dirigidas ao chefe da unidade de perícia criminal federal da circunscrição em que estiver vinculada (inciso I), acompanhadas dos termos de apreensão (inciso II) e distribuídas imediatamente aos peritos criminais federais (inciso III).",
+    "referencia": "Cap. 13, Seção 13.4, p. 96",
+    "nivel": "medio"
+  },
+  {
+    "id": 493,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Instrução de Serviço nº 7/2011-DITEC/DPF estabelece diretrizes para a distribuição de requisições periciais e para o uso do SISCRIM. Considerando um cenário em que o gestor da unidade precisa distribuir requisições para diferentes peritos, julgue os itens:\n\nI. O gestor deve designar imediatamente perito para atendimento de requisição por meio do SISCRIM, sendo vedada a designação por meio de sistema diverso.\nII. A metodologia de distribuição deve ser equânime, baseada nas especialidades, criticidade, complexidade e outras atividades desenvolvidas.\nIII. Quando a requisição envolver exame complexo, não repetível ou que exija mais de uma área de formação acadêmica, é vedada a designação de mais de um perito para o mesmo exame.\nIV. O perito designado pode solicitar ao gestor a designação adicional de outros peritos.\nV. Usuários do SISCRIM que tenham requisição de exame sem cadastramento de objetos de exames ou sem análise de viabilidade há mais de 10 dias terão as funcionalidades parcialmente bloqueadas.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II, IV e V.",
+      "B": "I, III, IV e V.",
+      "C": "II, III, IV e V.",
+      "D": "I, II, III e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 97 do PDF, os itens I, II, IV e V estão corretos (correspondem aos incisos i, iv, vii e ix da IS 7/2011). O item III está incorreto: o inciso vi expressamente prevê que, nesses casos complexos, o gestor PODE, com justificativa, designar mais de um perito.",
+    "referencia": "Cap. 13, Seção 13.5.1, p. 97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 494,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito designado para atendimento de requisição de exame identifica, durante a análise de viabilidade, que o material apresentado é insuficiente para a realização do exame. Comunica formalmente o fato ao gestor, que encaminha as inconformidades ao requisitante solicitando adequação. Decorridos 35 dias sem resposta. Conforme a IS nº 7/2011-DITEC/DPF, qual a providência correta a ser adotada pelo perito?",
+    "alternativas": {
+      "A": "O perito deve arquivar diretamente a requisição no SISCRIM, mediante despacho fundamentado, sem necessidade de retorno ao gestor.",
+      "B": "O perito deve devolver imediatamente a requisição ao requisitante, lavrando termo de devolução com força de laudo negativo de constatação.",
+      "C": "O perito deve aguardar manifestação do Diretor do INC, único competente para dirimir casos de inconformidade nas requisições, conforme art. 26 da IS 7/2011.",
+      "D": "Após 30 dias sem resposta de adequação, o perito deve encaminhar a requisição e o respectivo material ao gestor, que deve tomar providências."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 98 do PDF, o art. 21, §2º da IS 7/2011 estabelece que, não sendo apresentada resposta de adequação em 30 dias, o perito deve encaminhar a requisição e o respectivo material ao gestor, que deve tomar providências.",
+    "referencia": "Cap. 13, Seção 13.5.2, p. 98",
+    "nivel": "medio"
+  },
+  {
+    "id": 495,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Instrução de Serviço nº 8/2011-DITEC/DPF, que trata prioritariamente da criticidade da requisição de exame, e considerando a gestão da fila de atendimento nas unidades de criminalística federal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A criticidade pode ser alta, média ou baixa, e a gestão da fila de atendimento é feita pelo chefe da unidade seguindo a cronologia de cadastro dentro de cada criticidade, salvo situações excepcionais.",
+      "B": "A criticidade da requisição é definida unilateralmente pelo perito designado no ato da análise de viabilidade, podendo ser classificada como urgente, ordinária ou diferida.",
+      "C": "A criticidade é fixada de forma vinculante pelo requisitante e tem caráter absoluto, sendo vedada a alteração da ordem de atendimento pelo chefe da unidade, ainda que em situações excepcionais.",
+      "D": "A IS 8/2011 instituiu três níveis de criticidade — máxima, intermediária e mínima — e a gestão da fila cabe exclusivamente ao Diretor do INC."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 98 do PDF, 'a criticidade pode ser alta, média ou baixa' e 'a gestão da fila de atendimento nas unidades de criminalística é feita pelo chefe da unidade, seguindo a cronologia de cadastro das requisições dentro de cada criticidade, salvo situações excepcionais'.",
+    "referencia": "Cap. 13, Seção 13.5.2, p. 98",
+    "nivel": "facil"
+  },
+  {
+    "id": 496,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe pericial é acionada para atendimento de local de crime em residência onde houve disparos de arma de fogo. Ao chegar, encontra uma vítima ferida em meio a vestígios sensíveis (cápsulas, projéteis, manchas hemáticas). Considerando as boas práticas de segurança apresentadas no Cap. 13 (item 13.5.3), assinale a alternativa que reflete CORRETAMENTE a ordem de prioridades a ser observada.",
+    "alternativas": {
+      "A": "A prioridade máxima é a preservação dos vestígios; somente após o registro fotográfico inicial deve-se providenciar socorro às vítimas, evitando contaminação do local.",
+      "B": "A primeira prioridade é a manutenção da segurança da equipe e demais pessoas; a segunda é o socorro aos feridos, mesmo que isso implique destruição parcial de vestígios, devendo o socorro ser realizado com o mínimo de perdas possível.",
+      "C": "A primeira prioridade é o isolamento do local em raio de 30 metros, sendo o socorro à vítima atribuição exclusiva do SAMU, vedada qualquer intervenção da equipe pericial sobre a vítima.",
+      "D": "A prioridade absoluta é a coleta imediata de vestígios biológicos da vítima, ainda que isso prolongue o tempo até o atendimento médico, em razão da volatilidade do material."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 100 do PDF, 'a primeira prioridade a ser observada é a manutenção da segurança... a segunda prioridade a ser observada é o socorro aos eventuais feridos' e 'o socorro deve ser realizado com prioridade, mas com o mínimo de perdas de provas possível'.",
+    "referencia": "Cap. 13, Seção 13.5.3, p. 100",
+    "nivel": "medio"
+  },
+  {
+    "id": 497,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal recém-empossado precisa compreender os conceitos básicos do SISCRIM para iniciar o atendimento de suas demandas. Sobre os conceitos de 'lotação', 'localização' e 'carga' empregados no sistema, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Lotação corresponde à unidade administrativa com vínculo formal do servidor; localização indica a unidade em que o servidor está vinculado para efeitos de movimentação no SISCRIM, podendo divergir da lotação em missões temporárias; carga representa o destinatário (pessoa, grupo, unidade ou órgão externo) para onde o documento ou material foi encaminhado, sem indicar recebimento efetivo.",
+      "B": "Lotação e localização são sinônimos no SISCRIM, ambos indicando a unidade administrativa formal do servidor; já a carga indica que o material foi efetivamente recebido pelo destinatário.",
+      "C": "Carga, no SISCRIM, é exclusivamente individual, não podendo ser atribuída a grupos de funcionários ou unidades organizacionais, em razão do princípio da pessoalidade da custódia.",
+      "D": "Localização indica fisicamente onde o material está armazenado dentro da central de custódia, ao passo que lotação indica o grupo de funcionários para onde foi distribuído o exame."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 101-102 do PDF, lotação é o vínculo administrativo formal; localização é a unidade em que o servidor está vinculado para efeitos de movimentação, podendo divergir da lotação; e carga representa o destinatário para onde o documento ou material foi encaminhado, sem indicar recebimento efetivo.",
+    "referencia": "Cap. 14, Seção 14.5.1, p. 101-102",
+    "nivel": "medio"
+  },
+  {
+    "id": 498,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cadastro de um documento externo no SISCRIM, o servidor da secretaria precisa classificar a finalidade do documento recebido. Sobre as classificações possíveis de finalidade de documento externo no SISCRIM, conforme o Cap. 14, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As classificações de finalidade incluem 'solicitação de exame', 'encaminhamento', 'reiteração' e 'finalidade diversa'; sendo a 'solicitação de exame' a que demanda elaboração de exames e emissão de laudo.",
+      "B": "As únicas finalidades possíveis são 'solicitação de exame' e 'arquivamento', sendo as demais classificações criadas a critério da unidade.",
+      "C": "Documentos com finalidade 'reiteração' são automaticamente convertidos em novas solicitações de exame autônomas, com nova numeração e nova designação de perito.",
+      "D": "A finalidade 'encaminhamento' é exclusiva de documentos internos, sendo vedada sua aplicação a documentos externos recebidos pela perícia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 103 do PDF, no grupo de Documentos, a finalidade 'solicitação de exame' demanda elaboração de exames e emissão de laudos, e 'outras classificações da finalidade do documento externo são: encaminhamento, reiteração e finalidade diversa'.",
+    "referencia": "Cap. 14, Seção 14.2, p. 103",
+    "nivel": "facil"
+  },
+  {
+    "id": 499,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No cadastro de um documento com finalidade 'solicitação de exame' no SISCRIM, certas informações são definidas para subsidiar a designação e a priorização do atendimento pericial. Sobre essas informações, assinale a alternativa que reúne corretamente os elementos previstos.",
+    "alternativas": {
+      "A": "CPF do investigado; tipo penal apurado; data do fato; e laudo de exame de corpo de delito vinculado.",
+      "B": "Dados do requisitante; classificação por urgência (urgente, ordinária ou diferida); valor estimado dos bens; e exigência de carta precatória.",
+      "C": "Dados do requisitante; área de exame (com classes e subclasses); criticidade (alta, média e baixa); e publicidade restrita (sigilo).",
+      "D": "Número do inquérito policial; nome do delegado; valor do dano; e classificação processual conforme tabela do CNJ."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 104 do PDF, para cada documento da finalidade 'solicitação de exame' destacam-se: a) Dados do requisitante; b) Área de exame, dividida em classes e subclasses; c) Criticidade (alta, média e baixa); d) Publicidade restrita (sigilo).",
+    "referencia": "Cap. 14, Seção 14.2, p. 104",
+    "nivel": "facil"
+  },
+  {
+    "id": 500,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No módulo de Materiais do SISCRIM, todo material deve estar vinculado a um documento pré-cadastrado e ser classificado conforme sua finalidade. Considere um lote de pen drives apreendidos em operação policial, que serão objeto de exame pericial em informática. Sobre a classificação e o cadastro desses materiais, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Os materiais podem ser cadastrados de forma autônoma, sem vinculação a documento pré-cadastrado, desde que haja autorização do chefe da unidade.",
+      "B": "Os materiais com finalidade 'exame' (vestígios) demandam o preenchimento obrigatório de informações como número de itens, descrição, quantidade e lacre, para o devido rastreamento da cadeia de custódia.",
+      "C": "Materiais com finalidade 'padrão' ou 'pesquisa' não são reconhecidos pelo SISCRIM, devendo ser cadastrados apenas como 'exame' ou 'apoio ao exame'.",
+      "D": "O conceito de 'bens' do ePol é mais restrito que o de 'materiais' do SISCRIM, abrangendo apenas objetos apreendidos com valor patrimonial mensurável."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 105 do PDF, 'o sistema armazena informações dos materiais com finalidade exame para o devido rastreamento da cadeia de custódia dos vestígios... informações como número de itens, descrição, quantidade, lacre, dentre outros, são de preenchimento exigido no sistema'.",
+    "referencia": "Cap. 14, Seção 14.3, p. 105",
+    "nivel": "medio"
+  },
+  {
+    "id": 501,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito de 'movimentação' no SISCRIM e a relação entre carga, origem e destino, julgue os itens a seguir:\n\nI. Uma movimentação representa uma operação de transferência de carga, iniciando-se com a realização da movimentação na origem.\nII. A movimentação somente é concluída com a confirmação de recebimento no destino.\nIII. Tanto documentos quanto materiais ficam sob a responsabilidade de um único usuário ou de um grupo/unidade previamente cadastrado.\nIV. A simples atribuição de carga a um perito equivale, para todos os efeitos, ao recebimento físico do documento ou material por esse perito.\nV. Documentos e materiais relacionados entre si podem ser visualizados sob a forma de 'Árvore de Documentos', que mostra a carga de cada item e a hierarquia de relacionamento.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, III, IV e V.",
+      "B": "I, II, IV e V.",
+      "C": "II, III, IV e V.",
+      "D": "I, II, III e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 101 e 106-108 do PDF, os itens I, II, III e V estão corretos. O item IV é falso: o conceito de carga 'não indica que o documento ou material foi efetivamente recebido' (p. 101); o recebimento depende de confirmação no destino.",
+    "referencia": "Cap. 14, Seções 14.5.1 e 14.4, p. 101-108",
+    "nivel": "dificil"
+  },
+  {
+    "id": 502,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a identificação dos documentos e materiais no SISCRIM, considere o exemplo: 'Laudo 265/2025-SETEC/SR/MG/PF'. Assinale a alternativa que descreve corretamente as formas de identificação adotadas no sistema.",
+    "alternativas": {
+      "A": "O número de registro de documento recebido é atribuído pela Diretoria Técnico-Científica de forma centralizada, sendo único nacionalmente e desvinculado da unidade emissora.",
+      "B": "A identificação única dos documentos é gerada pelo CPF do perito signatário concatenado ao ano de emissão, sendo este o único identificador reconhecido pelo ePol.",
+      "C": "Documentos e materiais possuem identificação compartilhada, sempre composta pelo número do procedimento (IPL ou ação penal) seguido do CNPJ da unidade emissora.",
+      "D": "A identificação única do documento emitido é composta por tipo, número, ano e unidade emissora; os documentos recebidos pela perícia recebem um número de registro próprio com numeração sequencial da unidade; há ainda um número único e sequencial de todo o sistema, usado para códigos de barras e para busca rápida."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 108-109 do PDF, a identificação única do documento emitido é composta por tipo, número, ano e unidade emissora; documentos recebidos pela perícia recebem identificação própria (número de registro) com sequenciais da unidade; e há também um número único e sequencial de todo o sistema usado para códigos de barras e busca rápida.",
+    "referencia": "Cap. 14, Seção 14.4, p. 108-109",
+    "nivel": "medio"
+  },
+  {
+    "id": 503,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito Criminal Federal pretende estudar laudos anteriores semelhantes ao que está elaborando, em busca de referências técnicas e jurisprudência interna sobre a matéria. Sobre o uso do SISCRIM como repositório de conhecimento e a funcionalidade de 'acerto eletrônico' / busca textual, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O acesso a laudos anteriores é restrito ao perito signatário e à chefia da unidade emissora, em razão do dever de sigilo absoluto sobre o conteúdo dos exames.",
+      "B": "A consulta a laudos anteriores somente é permitida mediante autorização judicial específica, em razão da publicidade restrita prevista no art. 5º da Constituição.",
+      "C": "O SISCRIM é o grande repositório de conhecimento da criminalística e todos os laudos não sigilosos estão abertos para leitura e estudo dos peritos, sendo possível realizar pesquisas textuais em mais de 1.000.000 de laudos cadastrados.",
+      "D": "O acervo de laudos disponível para consulta limita-se aos últimos 5 anos, sendo os demais automaticamente expurgados do sistema para fins de gestão de armazenamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 109-110 do PDF, 'o SISCRIM é o grande repositório de conhecimento da criminalística e todos os laudos não sigilosos estão abertos para leitura e estudo dos peritos' e 'o sistema oferece a possibilidade de pesquisas textuais em quase os mais de 1.000.000 de laudos cadastrados'.",
+    "referencia": "Cap. 14, Seção 14.4.1, p. 109-110",
+    "nivel": "facil"
+  },
+  {
+    "id": 504,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere o fluxo típico de tramitação de uma requisição de exame pericial no SISCRIM, desde a entrada até o encerramento. Em qual etapa, especificamente, considera-se confirmada a viabilidade de atendimento da solicitação de exame?",
+    "alternativas": {
+      "A": "No momento em que a secretaria realiza a integração do documento via ePol, antes mesmo da designação do perito responsável.",
+      "B": "Após a designação do PCF e a realização da Análise de Viabilidade (AV), com cadastro dos objetos de exame e informação da realização da AV no sistema.",
+      "C": "No momento da confirmação do recebimento da carga pelo perito designado, independentemente da realização de qualquer análise técnica.",
+      "D": "Somente após a emissão e numeração do laudo pericial pelo perito signatário, com upload do arquivo assinado digitalmente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 112 do PDF, após a designação do PCF, o perito realiza a Análise de Viabilidade, sendo nesse momento que se efetua o cadastro dos objetos de exame e se informa a realização da AV no sistema: 'Com este cadastro, confirma-se a viabilidade de atendimento da solicitação de exame'.",
+    "referencia": "Cap. 14, Seção 14.5, p. 112",
+    "nivel": "medio"
+  },
+  {
+    "id": 505,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Determinada requisição de exame, originalmente única, será atendida por peritos de áreas distintas (informática e química), gerando laudos separados, em razão da multidisciplinaridade. À luz do fluxo descrito no SISCRIM, assinale a alternativa que descreve corretamente o tratamento dessa situação.",
+    "alternativas": {
+      "A": "É necessário que o requisitante apresente nova requisição autônoma para cada área de exame, sendo vedada a tramitação simultânea por duas áreas a partir de uma única requisição original.",
+      "B": "Nesse caso, o SISCRIM gera automaticamente um único laudo consolidado, assinado conjuntamente por peritos das duas áreas, com percentuais equivalentes de participação.",
+      "C": "O fluxo admite a criação de cópias da requisição, que passam a ser tratadas como requisições autônomas — prática adotada, entre outras hipóteses, quando há laudos referentes a áreas de exame distintas ou quando mais de uma UC realizará o atendimento.",
+      "D": "A requisição deve ser desmembrada fisicamente pela secretaria em duas requisições autônomas, sendo a original arquivada de imediato no SISCRIM com o status 'requisição substituída'."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 112 do PDF, 'o fluxo admite ainda a criação de cópias da requisição, que passam a ser tratadas como requisições autônomas. Essa prática é adotada quando a mesma requisição é atendida por peritos diferentes, quando demanda a elaboração de laudos referentes a áreas de exame distintas ou ainda quando mais de uma UC realizará o atendimento'.",
+    "referencia": "Cap. 14, Seção 14.5, p. 112",
+    "nivel": "medio"
+  },
+  {
+    "id": 506,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a elaboração e emissão do laudo pericial no SISCRIM, considerando o cenário de um exame em balística com geração automática de laudo, assinale a alternativa correta acerca das funcionalidades disponíveis e dos requisitos para emissão.",
+    "alternativas": {
+      "A": "O SISCRIM gera automaticamente o conteúdo técnico integral do laudo em todas as áreas de exame, dispensando o perito de redigir conclusões ou descrições dos vestígios.",
+      "B": "O laudo somente pode ser numerado e emitido após o efetivo envio ao requisitante, sendo vedada a emissão de número de laudo antes da entrega formal ao demandante.",
+      "C": "O laudo é gerado em página separada da requisição e recebe numeração autônoma, desvinculada da requisição que lhe deu origem, para fins de sigilo das informações periciais.",
+      "D": "O SISCRIM permite a geração automática de diversos tipos de laudos (como balística, cédulas e veículos) mediante preenchimento de dados técnicos; para outras áreas, oferece modelos padronizados com cabeçalho e rodapé preenchidos automaticamente, sem sugestão de conteúdo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 112 do PDF, 'o SISCRIM permite a geração automática de diversos tipos de laudos mediante o preenchimento de dados técnicos específicos, como nos exames de balística, cédulas, veículos, entre outros. Para outros tipos de perícia, o sistema disponibiliza modelos padronizados que apresentam cabeçalho e rodapé preenchidos de forma automática, mas sem sugestão de conteúdo'.",
+    "referencia": "Cap. 14, Seção 14.5, p. 112",
+    "nivel": "medio"
+  },
+  {
+    "id": 507,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma auditoria de gestão de prazos da SETEC, busca-se aferir as métricas relativas ao atendimento das requisições periciais. Sobre o momento em que se considera o laudo efetivamente entregue e o instante em que a requisição é considerada efetivamente atendida no SISCRIM, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O laudo é considerado entregue na data da sua numeração no SISCRIM; a requisição é considerada atendida na data do upload do arquivo assinado digitalmente, independentemente de envio ao requisitante.",
+      "B": "O laudo somente é considerado entregue quando ocorre o seu envio ao requisitante, e essa é a data considerada para métricas de gestão; a requisição é considerada efetivamente atendida apenas quando arquivada no sistema, geralmente pela secretaria.",
+      "C": "O laudo é considerado entregue na data do envio à chefia da unidade; a requisição é considerada atendida na data da emissão do laudo, sendo o arquivamento ato meramente formal.",
+      "D": "O laudo é considerado entregue na data de assinatura digital pelo perito signatário; a requisição é considerada atendida quando o ePol recebe o laudo, dispensado o arquivamento no SISCRIM."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 112 do PDF, 'o laudo somente é considerado entregue quando ocorre o seu envio ao requisitante, e a data de entrega ao requisitante é a data considerada para algumas métricas de gestão' e 'a requisição é considerada efetivamente atendida apenas quando arquivada no sistema, geralmente pela secretaria da unidade'.",
+    "referencia": "Cap. 14, Seção 14.5, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 508,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como boa prática de gestão e controle no SISCRIM, recomenda-se que o intervalo entre a numeração do laudo e sua entrega ao requisitante observe um limite temporal. Qual o prazo recomendado?",
+    "alternativas": {
+      "A": "Cinco dias úteis.",
+      "B": "Quinze dias corridos.",
+      "C": "Dez dias corridos.",
+      "D": "Trinta dias corridos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 112 do PDF, 'o prazo entre a numeração do laudo e sua entrega não deve ultrapassar dez dias corridos, como boa prática de gestão e controle'.",
+    "referencia": "Cap. 14, Seção 14.5, p. 112",
+    "nivel": "facil"
+  },
+  {
+    "id": 509,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a assinatura digital dos laudos periciais no SISCRIM, considerando os requisitos de autenticidade e integridade dos documentos eletrônicos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O SISCRIM aceita, alternativamente, assinatura eletrônica simples ou assinatura digital ICP-Brasil, ficando a escolha a critério do perito signatário.",
+      "B": "A assinatura digital é dispensada para laudos de áreas com geração automática (balística, cédulas e veículos), bastando a inserção do nome do perito no cabeçalho.",
+      "C": "O SISCRIM adota a assinatura digital padrão ICP-Brasil como obrigatória para os laudos periciais emitidos, assegurando identificação da autoria e a verificação de que o documento não sofreu alteração após a assinatura; o certificado é obtido mediante chamado no CITSmart-DTI/PF.",
+      "D": "O certificado digital é fornecido automaticamente pelo SISCRIM no primeiro acesso do perito ao sistema, dispensando qualquer solicitação formal a outra área da PF."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 114 do PDF, 'o SISCRIM adota a assinatura digital (padrão ICP-Brasil) como obrigatória para os laudos periciais emitidos' e 'o perito criminal federal deve solicitar um certificado digital, abrindo um chamado no CITSmart - DTI/PF por meio do link atendimento.pf.gov.br'.",
+    "referencia": "Cap. 14, Seção 14.6, p. 114",
+    "nivel": "medio"
+  },
+  {
+    "id": 510,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto da integração entre o SISCRIM e o ePol (sistema oficial de polícia judiciária da PF), e considerando os conceitos básicos descritos no Cap. 14, analise as afirmações:\n\nI. 'Tarefa' é nomenclatura dos comandos do ePol encaminhados a servidores ou unidades; no SISCRIM são recebidas com o nome de 'Despacho ePol', mantendo a numeração da tarefa.\nII. 'Bens' é conceito adotado no sistema ePol que engloba o conceito de 'materiais' no SISCRIM.\nIII. 'Procedimento', no SISCRIM, é o registro que representa o processo, investigação ou processo administrativo ao qual a perícia está vinculada (ex.: IPL, ação penal, sindicância, PAD).\nIV. 'Grupo de funcionários' são subunidades dentro do SISCRIM criadas para apoiar a gestão, como GPINF, GPCONT e GPLAB.\nV. 'Órgão externo' refere-se exclusivamente às unidades da PF localizadas fora da circunscrição da unidade requisitante, como SR ou DRE de outro estado.\n\nEstão corretas APENAS:",
+    "alternativas": {
+      "A": "I, II, III e V.",
+      "B": "I, III, IV e V.",
+      "C": "II, III, IV e V.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 101-102 do PDF, os itens I, II, III e IV correspondem exatamente às definições do material. O item V é falso: 'órgão externo' é definido como 'qualquer órgão que não seja a PF' (ex.: TRF, STJ, MPF, SRF, Marinha, Ibama), não tendo qualquer relação com circunscrição de unidades da PF.",
+    "referencia": "Cap. 14, Seção 14.5.1, p. 101-102",
+    "nivel": "dificil"
+  },
+  {
+    "id": 511,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Perito Criminal Federal Lucas chegou recentemente à unidade e precisa acessar o SISCRIM para iniciar suas atividades. Considerando as opções de acesso ao sistema apresentadas no capítulo de aula prática, qual das alternativas abaixo descreve corretamente as modalidades de autenticação disponíveis ao usuário na tela inicial?",
+    "alternativas": {
+      "A": "Acesso por login com usuário/senha ou por login com certificado digital, conforme as opções dispostas na tela inicial do sistema.",
+      "B": "Acesso exclusivamente por meio de certificado digital institucional, sendo vedado qualquer outro mecanismo de autenticação por razões de segurança da informação.",
+      "C": "Acesso exclusivo por usuário e senha, sendo o certificado digital utilizado apenas no momento da assinatura do laudo.",
+      "D": "Acesso por biometria facial integrada ao SISCRIM, com fallback automático para usuário e senha em caso de falha de leitura."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o item 15.1 do capítulo de aula prática, o acesso ao SISCRIM se dá por duas modalidades expressamente apresentadas: '1 - LOGIN COM USUÁRIO/SENHA' e '2 - LOGIN COM CERTIFICADO DIGITAL', sendo ambas válidas como porta de entrada ao sistema.",
+    "referencia": "Cap. 15, Seção 15.1, p. 115",
+    "nivel": "facil"
+  },
+  {
+    "id": 512,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao acessar o SISCRIM logo após o login, o perito é apresentado a uma tela inicial composta por diversos widgets que sintetizam informações operacionais e administrativas relevantes para sua rotina. Julgue os itens a seguir sobre os widgets que compõem essa tela inicial conforme descrito no capítulo de aula prática:\n\nI - Há um widget de 'Pendências', voltado a sinalizar tarefas que ainda demandam ação do perito.\nII - Há um widget de 'Produção', associado ao acompanhamento das atividades desenvolvidas pelo usuário.\nIII - Há um widget de 'Materiais', vinculado a itens submetidos à perícia.\nIV - Há um widget de 'Aniversariantes do Mês', com função institucional/social.\nV - Há um widget exclusivo de 'Folha de Pagamento', integrado ao SIAPE, no qual o perito visualiza seus contracheques.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "I, III, IV e V.",
+      "C": "I, II, III e IV.",
+      "D": "II, III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O capítulo apresenta como widgets da tela inicial: Pendências (3.1), Produção (3.2), Materiais (3.3), Dados do Usuário (3.4), Informações para Contato (3.5), Plantão/Sobreaviso (3.6), Avisos (3.7) e Aniversariantes do Mês (3.9). Não há menção a widget de folha de pagamento integrado ao SIAPE, tornando o item V incorreto.",
+    "referencia": "Cap. 15, Seção 15.1, p. 115-120",
+    "nivel": "medio"
+  },
+  {
+    "id": 513,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Perita Federal Joana recebeu, no SISCRIM, uma solicitação de exames periciais relativa a materiais arrecadados em uma operação. Considerando o fluxo de emissão de laudo apresentado no capítulo de aula prática, qual é a sequência CORRETA que descreve, em ordem cronológica, parte significativa das etapas operacionais realizadas no sistema desde o recebimento até o encaminhamento final?",
+    "alternativas": {
+      "A": "Cadastramento de objetos; recebimento de materiais; geração do laudo; deslacre; relacre; assinatura digital; encaminhamento à chefia.",
+      "B": "Geração do PDF e assinatura digital; recebimento de materiais; deslacre; elaboração do laudo; cadastramento de objetos; relacre; encaminhamento à chefia.",
+      "C": "Recebimento de materiais; deslacre; cadastramento de objetos de exame; geração do laudo; elaboração do laudo; geração de PDF e assinatura digital; envio para o SISCRIM; relacre dos materiais; encaminhamento à chefia.",
+      "D": "Recebimento de materiais; geração do laudo; deslacre; cadastramento de objetos; elaboração; relacre; assinatura digital; envio ao SISCRIM; encaminhamento à chefia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O capítulo 15.2 descreve, em ordem numerada, o fluxo de emissão do laudo: (1) recebimento da solicitação, (2) recebimento dos materiais, (3) deslacre, (4) cadastramento de objetos, (5/6) geração do laudo (inclusive a partir de modelo), (7) elaboração, (8) geração de PDF e assinatura digital, (9) envio do arquivo para o SISCRIM, (10) relacre dos materiais e (11) encaminhamento do laudo + materiais + solicitação à chefia.",
+    "referencia": "Cap. 15, Seção 15.2, p. 123-133",
+    "nivel": "medio"
+  },
+  {
+    "id": 514,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma capacitação interna, um perito iniciante pergunta sobre quais recursos do SISCRIM apoiam a gestão de pessoas e a visualização da estrutura organizacional da Perícia Federal. Considerando o módulo 'Recursos Humanos' apresentado no capítulo de aula prática, assinale a alternativa que indica CORRETAMENTE funcionalidades efetivamente disponíveis nesse módulo.",
+    "alternativas": {
+      "A": "Agenda de funcionário, grupos de funcionários, organograma da DITEC e organograma da SNC.",
+      "B": "Cadastro de processos administrativos disciplinares e gestão de penalidades aplicadas a servidores.",
+      "C": "Folha de ponto eletrônica integrada ao SOUGOV e emissão de holerite consolidado.",
+      "D": "Cadastro de dependentes para fins de imposto de renda e gestão de plano de saúde dos servidores."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 15.1, no item 4 (Recursos Humanos), elenca expressamente como funcionalidades: 4.1 Agenda de Funcionário, 4.2 Grupos de Funcionários, 4.3 Organograma DITEC e 4.4 Organograma SNC. Os demais itens não constam do escopo descrito no capítulo.",
+    "referencia": "Cap. 15, Seção 15.1, p. 120-122",
+    "nivel": "facil"
+  },
+  {
+    "id": 515,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito está finalizando a elaboração de um laudo no SISCRIM. Ele já cadastrou os objetos de exame, redigiu o conteúdo técnico e precisa agora dar prosseguimento ao fluxo formal de produção da peça pericial. De acordo com a sequência apresentada no capítulo de aula prática, qual é a ação imediatamente posterior à elaboração do laudo no fluxo descrito?",
+    "alternativas": {
+      "A": "Encaminhar o laudo, os materiais e a solicitação de exames diretamente à chefia para homologação.",
+      "B": "Relacrar os materiais analisados, garantindo sua devolução íntegra à autoridade requisitante.",
+      "C": "Gerar o PDF e assinar digitalmente o documento, etapa que antecede o envio do arquivo para o SISCRIM.",
+      "D": "Cadastrar novos objetos de exame complementares, caso identificados durante a redação do laudo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a numeração das etapas no capítulo 15.2, após '7 - ELABORAR LAUDO' vem '8 - GERAR PDF E ASSINAR DIGITALMENTE', sendo essa a ação imediatamente posterior. O envio ao SISCRIM (passo 9), o relacre (10) e o encaminhamento à chefia (11) ocorrem em momentos subsequentes.",
+    "referencia": "Cap. 15, Seção 15.2, p. 129-130",
+    "nivel": "medio"
+  },
+  {
+    "id": 516,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um curso de aperfeiçoamento, um instrutor afirma que 'a atividade pericial deve ser compreendida como uma sequência linear, em que o perito parte da observação dos vestígios e caminha, sem retornos, até a conclusão final'. À luz do que dispõe o Capítulo 16 sobre o ciclo científico aplicado à perícia, essa afirmação está:",
+    "alternativas": {
+      "A": "Correta, pois a previsibilidade do método científico exige que as etapas se sucedam sem retorno, sob pena de invalidar a perícia.",
+      "B": "Correta, desde que se trate de perícias de natureza laboratorial, em que a padronização impede revisões do percurso analítico.",
+      "C": "Incorreta, pois o ciclo científico na perícia é intrinsecamente iterativo: novas informações podem exigir o retorno a etapas anteriores, revisão de hipóteses e repetição de exames.",
+      "D": "Incorreta apenas quanto à terminologia empregada, pois, embora a sequência seja, sim, linear, ela deve ser denominada 'ciclo' por convenção forense."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Seção 16.1 afirma expressamente que 'a ciência forense é intrinsecamente iterativa', podendo o perito retornar a etapas anteriores, revisar hipóteses e repetir exames diante de novas informações. A visão de processo estritamente linear é rejeitada pelo texto.",
+    "referencia": "Cap. 16, Seção 16.1, p. 135-136",
+    "nivel": "facil"
+  },
+  {
+    "id": 517,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Renato, ao analisar uma cena de homicídio, propõe a seguinte hipótese: 'a vítima foi morta por motivos espirituais ocultos, que não deixam qualquer rastro material e que não podem ser verificados por qualquer exame conhecido'. Em outra investigação, propõe a hipótese de que 'a lesão da vítima é compatível com disparo de arma de fogo a curta distância, em razão da presença de zona de tatuagem'. Considerando os requisitos das hipóteses científicas previstos no Capítulo 16, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Ambas as hipóteses são científicas, pois foram formuladas por um perito habilitado, requisito suficiente para conferir-lhes caráter científico.",
+      "B": "Nenhuma das hipóteses é científica, pois hipóteses periciais somente se tornam científicas após confirmação laboratorial.",
+      "C": "Apenas a primeira é científica, pois traz uma explicação mais ampla, característica desejável em qualquer hipótese pericial.",
+      "D": "Apenas a segunda hipótese é científica, pois é testável empiricamente, ao passo que a primeira não atende ao requisito de testabilidade exigido das hipóteses científicas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a Seção 16.2, a testabilidade é requisito indispensável para que uma hipótese seja considerada científica. Hipóteses que dependem de crenças pessoais ou de intenções ocultas que não deixam rastros e nunca poderiam ser verificadas empiricamente não pertencem ao domínio da ciência. A segunda hipótese, por permitir verificação por exames objetivos, é científica.",
+    "referencia": "Cap. 16, Seção 16.2, p. 136-137",
+    "nivel": "medio"
+  },
+  {
+    "id": 518,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma audiência, o perito é questionado sobre o porquê de o laudo afirmar que suas conclusões são 'provisórias e abertas à revisão'. Com base no princípio da falseabilidade, conforme tratado no Capítulo 16, assinale a alternativa que melhor justifica essa postura.",
+    "alternativas": {
+      "A": "Trata-se de uma exigência meramente formal, sem reflexo na essência da prova pericial, destinada a satisfazer eventuais recursos das partes.",
+      "B": "Porque, por exigência legal, todo laudo pericial criminal federal deve trazer ressalva escrita afirmando ser 'provisório', sob pena de nulidade processual.",
+      "C": "Porque a ciência, inclusive a forense, não busca provar definitivamente que algo é verdadeiro; ela submete hipóteses a testes rigorosos, mantendo-as enquanto resistirem à refutação e abandonando-as quando acumularem evidências contrárias.",
+      "D": "Porque o perito não tem competência técnica para chegar a conclusões definitivas, devendo sempre delegá-las ao magistrado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Seção 16.3, ao assumir a falseabilidade como critério, a ciência abandona a pretensão de certeza, sendo o conhecimento sempre provisório. A ciência forense avança pela eliminação progressiva de hipóteses inadequadas, não pela confirmação definitiva.",
+    "referencia": "Cap. 16, Seção 16.3, p. 137",
+    "nivel": "medio"
+  },
+  {
+    "id": 519,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de uma cena de crime complexa, o perito observa uma série de vestígios fragmentados e, ainda sem todos os resultados laboratoriais, busca formular a explicação mais plausível para o conjunto observado, com base na sua experiência e nos elementos contextuais disponíveis. Posteriormente, partindo da regra geral validada de que determinado reagente reage exclusivamente com uma substância específica, ele conclui pela presença dessa substância na amostra. Por fim, ao comparar inúmeras cenas com padrões repetidos de fratura de vidros, generaliza mecanismos típicos de ruptura. Esses três momentos correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "Indução, abdução e dedução.",
+      "B": "Dedução, indução e abdução.",
+      "C": "Abdução, dedução e indução.",
+      "D": "Abdução, indução e dedução."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Seção 16.4: a abdução formula a explicação mais plausível para um conjunto de observações disponíveis (primeiro momento); a dedução parte de princípios gerais para chegar a conclusões necessárias em casos particulares (segundo momento); a indução parte de observações particulares para formular generalizações (terceiro momento).",
+    "referencia": "Cap. 16, Seção 16.4, p. 138-139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 520,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Helena, ao receber um caso, é informada extraoficialmente pela autoridade requisitante de que 'o suspeito X é, sem dúvida, o autor do crime'. A partir desse momento, ela passa a interpretar os vestígios com tendência a confirmar essa suspeita inicial, atribuindo maior peso aos elementos que a reforçam. Considerando os vieses cognitivos tratados no Capítulo 16, é CORRETO afirmar que ela está sob influência, predominantemente, de qual(is) viés(es)?",
+    "alternativas": {
+      "A": "Viés de ancoragem e viés de confirmação, sendo o primeiro relacionado à influência desproporcional da informação inicial e o segundo à tendência de valorizar evidências que confirmem hipótese prévia.",
+      "B": "Viés retrospectivo, exclusivamente, em razão da percepção a posteriori de que o resultado era 'óbvio'.",
+      "C": "Viés de autoridade, exclusivamente, em razão da fonte da informação inicial, sem qualquer outra interferência cognitiva relevante.",
+      "D": "Viés de enquadramento, exclusivamente, pois a forma de apresentação da informação inicial alterou a interpretação dos vestígios."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 16.5 descreve o viés de ancoragem como a influência desproporcional da primeira informação recebida e o viés de confirmação como a tendência de valorizar evidências que confirmem hipóteses prévias. Ambos atuam concomitantemente no cenário descrito, sendo a alternativa A a mais precisa.",
+    "referencia": "Cap. 16, Seção 16.5, p. 139",
+    "nivel": "medio"
+  },
+  {
+    "id": 521,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as estratégias institucionais e procedimentais para mitigação de vieses cognitivos na perícia, conforme tratado no Capítulo 16, julgue os itens a seguir:\n\nI - A adoção de exames cegos ou parcialmente cegos, em que o perito não tem acesso a determinadas informações contextuais, é uma estratégia válida.\nII - O sequenciamento controlado da entrega de informações ao perito visa evitar que dados iniciais distorçam a análise dos vestígios.\nIII - Confiar exclusivamente na experiência e na boa intenção do perito é suficiente para neutralizar vieses cognitivos, dispensando medidas estruturais.\nIV - A revisão por pares e a utilização de protocolos padronizados, validados e amplamente aceitos são mecanismos adicionais de controle de qualidade.\nV - O registro prévio de observações e decisões em cadernos de campo ou sistemas informatizados permite a posterior reconstrução do raciocínio.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II, IV e V.",
+      "B": "I, III, IV e V.",
+      "C": "I, II e III.",
+      "D": "II, III e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 16.5 afirma que 'para reduzir o impacto desses vieses, não basta confiar apenas na boa intenção ou na experiência individual do perito', sendo necessárias medidas estruturais (item III incorreto). Os demais itens correspondem fielmente às estratégias listadas: exames cegos, sequenciamento controlado, registros prévios, revisão por pares e protocolos padronizados.",
+    "referencia": "Cap. 16, Seção 16.5, p. 140",
+    "nivel": "medio"
+  },
+  {
+    "id": 522,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em discussão técnica, dois peritos debatem sobre conceitos centrais da metodologia científica forense. O perito A afirma que 'reprodutibilidade' significa a capacidade de um método produzir resultados consistentes mesmo diante de pequenas variações nas condições experimentais. O perito B afirma que 'robustez' significa a capacidade de outros profissionais, utilizando métodos equivalentes, obterem resultados compatíveis ao repetir o exame. À luz do Capítulo 16, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Ambos os peritos estão corretos, pois reprodutibilidade e robustez são conceitos intercambiáveis na ciência forense.",
+      "B": "Ambos os peritos estão errados, pois trocaram as definições: reprodutibilidade refere-se a obter resultados compatíveis ao repetir o exame, e robustez à consistência diante de pequenas variações nas condições experimentais.",
+      "C": "Apenas o perito A está correto, pois reprodutibilidade engloba a robustez como subconceito.",
+      "D": "Apenas o perito B está correto, pois a robustez é o critério fundamental que justifica a aceitação pelo Judiciário."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a Seção 16.5, a reprodutibilidade diz respeito à capacidade de outros profissionais obterem resultados compatíveis ao repetirem o exame, enquanto a robustez refere-se à capacidade de o método produzir resultados consistentes mesmo diante de pequenas variações nas condições experimentais. Os peritos trocaram as definições.",
+    "referencia": "Cap. 16, Seção 16.5, p. 140-141",
+    "nivel": "medio"
+  },
+  {
+    "id": 523,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na validação de um método pericial, o capítulo 16 lista parâmetros como precisão, exatidão, sensibilidade, especificidade e limites de detecção. Considere as afirmações a seguir e indique a que apresenta a correspondência conceitual CORRETA entre o parâmetro e seu significado.",
+    "alternativas": {
+      "A": "Exatidão corresponde à repetibilidade dos resultados, enquanto precisão corresponde à proximidade em relação ao valor verdadeiro.",
+      "B": "Precisão corresponde à repetibilidade dos resultados, enquanto exatidão corresponde à proximidade em relação ao valor verdadeiro.",
+      "C": "Especificidade corresponde à capacidade de detectar pequenas quantidades da substância de interesse, enquanto sensibilidade corresponde à capacidade de distinguir essa substância de outras semelhantes.",
+      "D": "Limites de detecção correspondem à proximidade em relação ao valor verdadeiro, enquanto precisão corresponde à capacidade de distinguir substâncias semelhantes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Seção 16.5 define expressamente: precisão como repetibilidade dos resultados; exatidão como proximidade em relação ao valor verdadeiro; sensibilidade como capacidade de detectar pequenas quantidades; especificidade como capacidade de distinguir substâncias semelhantes. A alternativa C reproduz fielmente as definições de precisão e exatidão.",
+    "referencia": "Cap. 16, Seção 16.5, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 524,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do laudo pericial como produto científico, conforme tratado no Capítulo 16, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O laudo é um documento meramente administrativo, sendo dispensável detalhar o raciocínio técnico, bastando informar resultados conclusivos para apoiar a decisão judicial.",
+      "B": "A discussão dos resultados é dispensável quando a conclusão é objetiva, pois a interpretação cabe ao julgador, e não ao perito.",
+      "C": "A linguagem do laudo deve ser estritamente técnica e hermética, sendo papel exclusivo da defesa ou do magistrado interpretá-la com auxílio de assistente técnico.",
+      "D": "O laudo deve materializar o raciocínio científico, com seções como histórico, objeto, exame, discussão e conclusão, que refletem a própria sequência lógica do método científico aplicado à perícia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 16.6 afirma que o laudo é a 'materialização escrita de todo o processo científico realizado pelo perito' e descreve as seções histórico, objeto, exame, discussão e conclusão como reflexo da sequência lógica do método científico aplicado à perícia.",
+    "referencia": "Cap. 16, Seção 16.6, p. 142-143",
+    "nivel": "facil"
+  },
+  {
+    "id": 525,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a relação entre ciência, transparência e confiança na atividade pericial, conforme abordado no Capítulo 16, assinale a alternativa que melhor sintetiza a posição do texto.",
+    "alternativas": {
+      "A": "A perícia deve se apresentar como um conjunto de afirmações inquestionáveis, pois sua autoridade técnica decorre da posição institucional do perito.",
+      "B": "A perícia deve se apresentar como o resultado de um procedimento científico passível de análise, reprodução, debate e revisão, sendo o método científico também instrumento de legitimação da prova pericial.",
+      "C": "A transparência metodológica é dispensável quando o perito possui notório saber, pois sua experiência supre eventuais lacunas explicativas.",
+      "D": "A confiança na perícia decorre, sobretudo, da autoridade institucional do órgão que a produz, e apenas de modo secundário da transparência do raciocínio empregado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Seção 16.7 estabelece que a perícia 'não deve se apresentar como um conjunto de afirmações inquestionáveis, mas como o resultado de um procedimento científico que pode ser analisado, reproduzido, debatido e, se necessário, revisado', sendo o método também instrumento de legitimação da prova.",
+    "referencia": "Cap. 16, Seção 16.7, p. 143",
+    "nivel": "medio"
+  },
+  {
+    "id": 526,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Marina formulou inicialmente a hipótese de que determinada lesão foi produzida por instrumento perfurocontundente. Após análise complementar, novos resultados laboratoriais sugerem um padrão incompatível com essa hipótese. Com base no encadeamento do ciclo científico aplicado à perícia (Cap. 16), qual deve ser a postura tecnicamente adequada da perita?",
+    "alternativas": {
+      "A": "Manter a hipótese original, em razão da expectativa inicial e do tempo investido na análise, registrando os achados divergentes como artefatos.",
+      "B": "Suspender o exame até que a autoridade requisitante esclareça qual hipótese é juridicamente preferível à investigação.",
+      "C": "Concluir o laudo com a hipótese original, observando que questionamentos sobre divergências caberão ao assistente técnico em fase contraditória.",
+      "D": "Retornar a etapas anteriores do ciclo científico, revisar a hipótese e, se necessário, reformulá-la ou descartá-la, repetindo exames caso pertinente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 16.1 (e reforço na 16.3) descreve o ciclo científico como iterativo, exigindo que o perito retorne a etapas anteriores, revise hipóteses e, se necessário, repita exames quando novas informações se mostrarem incompatíveis com a hipótese inicial. Manter hipótese descartada por dados configura viés de confirmação, indesejável.",
+    "referencia": "Cap. 16, Seções 16.1 e 16.3, p. 135-137",
+    "nivel": "medio"
+  },
+  {
+    "id": 527,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "No Capítulo 17, são apresentadas três grandes abordagens para definir probabilidade: clássica (resultados equiprováveis), frequentista (frequência de longo prazo) e subjetiva (bayesiana). Julgue os itens a seguir e marque a alternativa CORRETA:\n\nI - A definição clássica enfrenta a crítica de circularidade, por utilizar a noção de 'igualmente prováveis' para definir probabilidade.\nII - A abordagem frequentista não pode ser aplicada a eventos únicos, como 'qual a probabilidade de que este suspeito seja o autor do crime', por inexistir conjunto de repetições equivalentes.\nIII - Na abordagem bayesiana, a probabilidade é a medida do grau de crença de uma pessoa em uma proposição, dada toda a informação disponível.\nIV - As três abordagens são equivalentes em qualquer situação prática e produzem sempre os mesmos resultados, podendo ser usadas indistintamente.\nV - Toda probabilidade é condicional ao que se sabe, sendo a notação Pr(H|E) recomendada para explicitar o condicionamento.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II, III e V.",
+      "B": "I, II, III e IV.",
+      "C": "II, III, IV e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 17.1 reconhece a circularidade da abordagem clássica (I), a inadequação da frequentista a eventos únicos (II), define a abordagem bayesiana como grau de crença (III) e ressalta que toda probabilidade é condicional ao que se sabe (V). O item IV está incorreto, pois as abordagens têm vantagens, limitações e domínios de aplicação distintos.",
+    "referencia": "Cap. 17, Seção 17.1, p. 145-146",
+    "nivel": "dificil"
+  },
+  {
+    "id": 528,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Caio precisa calcular, em um exercício de capacitação, a probabilidade de um evento H que depende de dois eventos mutuamente exclusivos e exaustivos, A e seu complemento. Considerando as leis da probabilidade apresentadas no Capítulo 17, qual expressão é CORRETA para Pr(H)?",
+    "alternativas": {
+      "A": "Pr(H) = Pr(A|H) × Pr(B|H), pois a probabilidade total resulta da inversão do condicionamento.",
+      "B": "Pr(H) = Pr(H|A) + Pr(H|B), bastando somar as probabilidades condicionais sob cada cenário.",
+      "C": "Pr(H) = Pr(A) × Pr(B), pelo princípio da multiplicação de eventos mutuamente exclusivos.",
+      "D": "Pr(H) = Pr(H|A) × Pr(A) + Pr(H|B) × Pr(B), em que B é o complemento de A, configurando a Lei da Probabilidade Total."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 17.1 apresenta expressamente a Lei da Probabilidade Total: 'Pr(H) = Pr(H|A) × Pr(A) + Pr(H|B) × Pr(B)', em que A e B são mutuamente exclusivos e exaustivos. As demais alternativas distorcem a fórmula.",
+    "referencia": "Cap. 17, Seção 17.1, p. 146-147",
+    "nivel": "dificil"
+  },
+  {
+    "id": 529,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma análise pericial, dado um conjunto de evidências E, o perito conclui que Odds(H|E) = Odds(H) × [Pr(E|H) / Pr(E|H̄)]. Considerando a interpretação bayesiana da evidência forense apresentada no Capítulo 17, assinale a alternativa que descreve CORRETAMENTE o significado dos termos dessa equação.",
+    "alternativas": {
+      "A": "Odds(H) é a probabilidade final de H após considerar a evidência; o termo entre colchetes é a probabilidade a priori de H.",
+      "B": "Odds(H) representa a chance a priori (grau de crença antes da análise) e a razão Pr(E|H) / Pr(E|H̄) é a razão de verossimilhança, medindo o quanto a evidência favorece uma hipótese em relação à outra.",
+      "C": "Pr(E|H) / Pr(E|H̄) é a probabilidade de culpa, enquanto Odds(H) é uma constante normalizadora.",
+      "D": "A equação é válida apenas se H e sua alternativa forem independentes da evidência, hipótese assumida implicitamente em todo exame pericial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Seção 17.2 define Odds(H) como o grau de crença antes da análise (chance a priori) e Pr(E|H)/Pr(E|H̄) como a razão de verossimilhança, que mede o quanto a evidência favorece H em relação à alternativa. As demais alternativas distorcem esses conceitos.",
+    "referencia": "Cap. 17, Seção 17.2, p. 147",
+    "nivel": "medio"
+  },
+  {
+    "id": 530,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso, o perfil genético do vestígio recolhido no local do crime coincide com o do suspeito. Sob a hipótese de que o suspeito é a fonte do DNA, a probabilidade dessa coincidência é considerada 1. Sob a hipótese alternativa (DNA pertence a outra pessoa), a probabilidade é de aproximadamente 1 em 1.000.000. Com base na Seção 17.3, qual é a razão de verossimilhança aproximada e qual é a sua interpretação CORRETA?",
+    "alternativas": {
+      "A": "Razão de verossimilhança aproximada de 1/1.000.000; a evidência confere a essa hipótese probabilidade de culpa de 99,9999%.",
+      "B": "Razão de verossimilhança aproximada de 1.000.000; a evidência é cerca de um milhão de vezes mais provável sob a hipótese de que o suspeito é a fonte do que sob a alternativa.",
+      "C": "Razão de verossimilhança aproximada de 1.000.000; significa, diretamente, que a probabilidade de o suspeito ser a fonte é de 999.999 em 1.000.000.",
+      "D": "Razão de verossimilhança aproximada de 2.000.000, pois é necessário considerar tanto Pr(E|H) quanto Pr(H|E)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Seção 17.3 traz exatamente esse exemplo: Pr(E|H)=1 e Pr(E|H̄)=1/1.000.000, resultando em razão de verossimilhança aproximada de 1.000.000. A interpretação correta é que a evidência é cerca de um milhão de vezes mais provável sob a hipótese de que o suspeito é a fonte, e NÃO que a probabilidade de culpa seja tal valor (isso configuraria a falácia da transposição do condicional).",
+    "referencia": "Cap. 17, Seção 17.3, p. 148",
+    "nivel": "dificil"
+  },
+  {
+    "id": 531,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um julgamento, um perito apresenta como conclusão: 'A probabilidade de que o perfil genético encontrado coincida com o de um indivíduo aleatório da população é de 1 em um milhão'. O promotor, ao reproduzir essa informação ao júri, afirma: 'logo, a probabilidade de que o acusado não seja a fonte do DNA é de 1 em um milhão'. À luz do Capítulo 17, essa transposição:",
+    "alternativas": {
+      "A": "Configura a falácia da transposição do condicional, que confunde Pr(E|H) com Pr(H|E) e é um erro profundamente equivocado, embora extremamente comum.",
+      "B": "É correta apenas quando o perfil genético é raro na população, dispensando-se nesses casos a distinção entre tipos de probabilidade condicional.",
+      "C": "É correta, pois Pr(E|H_d) e Pr(H_d|E) são matematicamente equivalentes em testes de DNA.",
+      "D": "É inofensiva, pois ambas as expressões transmitem ao decisor a mesma noção de raridade da evidência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 17.4 aborda diretamente esse erro: confundir Pr(E|H_d) — probabilidade da evidência sob a hipótese — com Pr(H_d|E) — probabilidade da hipótese dada a evidência — é a falácia da transposição do condicional, descrita como profundamente equivocada e comum.",
+    "referencia": "Cap. 17, Seção 17.4, p. 148-150",
+    "nivel": "dificil"
+  },
+  {
+    "id": 532,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito de 'individualização' tradicionalmente presente em diversas áreas da perícia criminal e sua relação com a abordagem probabilística moderna, conforme tratado no Capítulo 17, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A individualização é plenamente compatível com a interpretação probabilística rigorosa, pois sempre que a probabilidade de coincidência for muito baixa, pode-se afirmar identificação única.",
+      "B": "A individualização e a razão de verossimilhança são sinônimos modernos para descrever o mesmo procedimento de comparação entre hipóteses.",
+      "C": "A noção de individualização deve ser mantida nos laudos, pois confere maior conforto interpretativo ao julgador, ainda que cientificamente imprecisa.",
+      "D": "A abordagem moderna substitui a individualização por uma avaliação quantitativa da força da evidência, expressando o grau de suporte que a evidência fornece a uma hipótese em relação às alternativas; essa mudança fortalece a base científica da evidência."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 17.4 afirma que a individualização é incompatível com a interpretação probabilística rigorosa e que a abordagem moderna a substitui por avaliação quantitativa da força da evidência, fortalecendo (e não enfraquecendo) sua base científica ao torná-la transparente e logicamente consistente.",
+    "referencia": "Cap. 17, Seção 17.4, p. 150-151",
+    "nivel": "medio"
+  },
+  {
+    "id": 533,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o uso de escalas verbais para comunicação da razão de verossimilhança (ex.: 'evidência moderada', 'forte', 'muito forte') e a divisão de responsabilidades entre perito e julgador no modelo bayesiano, conforme exposto no Capítulo 17, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "As escalas verbais devem substituir integralmente os valores numéricos, evitando confusão do julgador com quantidades probabilísticas que escapem ao seu domínio.",
+      "B": "Recomenda-se que expressões verbais sejam acompanhadas dos valores numéricos correspondentes, e cabe ao perito avaliar a evidência e fornecer a razão de verossimilhança, enquanto o julgador integra essa informação com outros elementos do caso.",
+      "C": "O perito deve não apenas avaliar a evidência, mas também inferir diretamente a probabilidade de culpa, integrando suas conclusões à decisão final.",
+      "D": "As escalas verbais resolvem completamente o problema da subjetividade na interpretação probabilística, dispensando esclarecimentos adicionais ao julgador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Seção 17.4 recomenda que as expressões verbais sejam sempre acompanhadas dos valores numéricos correspondentes, preservando precisão. Estabelece também a divisão de responsabilidades: o perito avalia a evidência e fornece a razão de verossimilhança; o julgador integra com outros elementos. Tentar inferir probabilidade de culpa incorpora suposições além da evidência disponível.",
+    "referencia": "Cap. 17, Seção 17.4, p. 150-151",
+    "nivel": "dificil"
   }
 ];
