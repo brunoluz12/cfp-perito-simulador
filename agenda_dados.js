@@ -13,64 +13,65 @@ const agendaDados = {
     pautas: {
         "pcf": {
             "05-2026": [
+                // === SEMANA 1 (18/05 a 23/05) - TURMA C ===
                 {
                     dia: "18",
                     diaSemana: "Segunda-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "AA(2)" },
-                        { horario: "10:00 a 11:40", aula: "AMAG(2)" },
-                        { horario: "13:50 a 15:30", aula: "IEC(2)" },
-                        { horario: "15:50 a 17:30", aula: "CRI - mDG(2)" }
+                        { horario: "08:00 a 09:40", aula: "EVENTO - Abertura" },
+                        { horario: "10:00 a 11:40", aula: "EVENTO - Aula Magna" },
+                        { horario: "13:50 a 15:30", aula: "EVENTO - Instrução Execução Curso" },
+                        { horario: "15:50 a 17:30", aula: "CRI M1.01 (1P)" }
                     ]
                 },
                 {
                     dia: "19",
                     diaSemana: "Terça-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "CRI - mDG(4)" },
-                        { horario: "10:00 a 11:40", aula: "BBDF(2)" },
-                        { horario: "13:50 a 15:30", aula: "AT - PIST 1(2)" },
-                        { horario: "15:50 a 17:30", aula: "IPO-mBTIP(2)" }
+                        { horario: "08:00 a 09:40", aula: "CRI M1.02 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "BBDF M1.01 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "AT M1.01 (4P)" },
+                        { horario: "15:50 a 17:30", aula: "IPO I M01.01 (1P)" }
                     ]
                 },
                 {
                     dia: "20",
                     diaSemana: "Quarta-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "TEAP - BAP(2)" },
-                        { horario: "10:00 a 11:40", aula: "CRI - mDG(6)" },
-                        { horario: "13:50 a 15:30", aula: "BBDF(4)" },
-                        { horario: "15:50 a 17:30", aula: "CRI - mDG(8)" }
+                        { horario: "08:00 a 09:40", aula: "TEAP M1.01 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "CRI M1.03 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "BBDF M1.02 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "CRI M1.04 (1P)" }
                     ]
                 },
                 {
                     dia: "21",
                     diaSemana: "Quinta-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "AT - PIST 1(4)" },
-                        { horario: "10:00 a 11:40", aula: "IPO-mBTIP(4)" },
-                        { horario: "13:50 a 15:30", aula: "IPO-mIPO(2)" },
-                        { horario: "15:50 a 17:30", aula: "CRI - mDG(10)" }
+                        { horario: "08:00 a 09:40", aula: "AT M1.02 (8P, 2M)" },
+                        { horario: "10:00 a 11:40", aula: "IPO I M01.02 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "IPO I M02.01 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "CRI M1.05 (1P)" }
                     ]
                 },
                 {
                     dia: "22",
                     diaSemana: "Sexta-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "PVAT(2)" },
-                        { horario: "10:00 a 11:40", aula: "AT - PIST 1(6)" },
-                        { horario: "13:50 a 15:30", aula: "CRI - mDG(12)" },
-                        { horario: "15:50 a 17:30", aula: "IPO-mIPO(4)" }
+                        { horario: "08:00 a 09:40", aula: "PVAT M1.01 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "AT M1.03 (12P, 2M)" },
+                        { horario: "13:50 a 15:30", aula: "CRI M1.06 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "IPO I M02.02 (1P)" }
                     ]
                 },
                 {
                     dia: "23",
                     diaSemana: "Sábado",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "TO - ABO(2)" },
-                        { horario: "10:00 a 11:40", aula: "CRI - mCC(2)" },
-                        { horario: "13:50 a 15:30", aula: "IPO-mIPO(6)" },
-                        { horario: "15:50 a 17:30", aula: "CRI - mCC(4)" }
+                        { horario: "08:00 a 09:40", aula: "TO M1.01 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "CRI M2.01 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "IPO I M02.03 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "CRI M2.02 (1P)" }
                     ]
                 },
                 {
@@ -80,65 +81,65 @@ const agendaDados = {
                         { horario: "Integral", aula: "Domingo Livre", destaque: true }
                     ]
                 },
+                // === SEMANA 2 (25/05 a 30/05) - TURMA C ===
                 {
                     dia: "25",
                     diaSemana: "Segunda-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "AT - PIST 1(8)" },
-                        { horario: "10:00 a 11:40", aula: "BBDF(6)" },
-                        { horario: "13:50 a 15:30", aula: "PVAT(4)" },
-                        { horario: "15:50 a 17:30", aula: "IPO-mIPO(8)" }
+                        { horario: "08:00 a 09:40", aula: "AT M1.04 (10P, 2M)" },
+                        { horario: "10:00 a 11:40", aula: "BBDF M1.03 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "PVAT M1.02 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "IPO I M02.04 (1P)" }
                     ]
                 },
                 {
                     dia: "26",
                     diaSemana: "Terça-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "TO - ABO(4)" },
-                        { horario: "10:00 a 11:40", aula: "IPO-mMIPO(2)" },
-                        { horario: "13:50 a 15:30", aula: "CRI - mSISCRIM(2)" },
-                        { horario: "15:50 a 17:30", aula: "CRI - mSISCRIM(4)" }
+                        { horario: "08:00 a 09:40", aula: "TO M1.02 (10P)" },
+                        { horario: "10:00 a 11:40", aula: "IPO I M04.01 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "CRI M3.01 (2P)" },
+                        { horario: "15:50 a 17:30", aula: "CRI M3.02 (2P)" }
                     ]
                 },
                 {
                     dia: "27",
                     diaSemana: "Quarta-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "CRI - mSISCRIM(6)" },
-                        { horario: "10:00 a 11:40", aula: "TO - ONAV(2)" },
-                        { horario: "13:50 a 15:30", aula: "IPO-mMIPO(4)" },
-                        { horario: "15:50 a 17:30", aula: "AT - PIST 1(10)" }
+                        { horario: "08:00 a 09:40", aula: "CRI M3.03 (2P)" },
+                        { horario: "10:00 a 11:40", aula: "TO M3.01 (1P, 3M)" },
+                        { horario: "13:50 a 15:30", aula: "IPO I M04.02 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "AT M1.05 (8P, 2M)" }
                     ]
                 },
                 {
                     dia: "28",
                     diaSemana: "Quinta-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "IPO-mEGI(2)" },
-                        { horario: "10:00 a 11:40", aula: "IPO-mEGI(4)" },
-                        { horario: "13:50 a 15:30", aula: "AT - PIST 1(12)" },
-                        { horario: "15:50 a 17:30", aula: "SOP(2)" }
+                        { horario: "08:00 a 09:40", aula: "IPO I M05.01 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "EVENTO - Palestra DG" },
+                        { horario: "13:50 a 15:30", aula: "AT M1.06 (8P, 2M)" },
+                        { horario: "15:50 a 17:30", aula: "SOP M1.01 (10P)" }
                     ]
                 },
                 {
                     dia: "29",
                     diaSemana: "Sexta-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "IPO-mEGI(6)" },
-                        { horario: "10:00 a 11:40", aula: "TO - UDF(2)" },
-                        { horario: "13:50 a 15:30", aula: "PVAT(6)" },
-                        { horario: "15:50 a 17:30", aula: "BBDF(8)" }
+                        { horario: "08:00 a 09:40", aula: "IPO I M05.02 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "TO M2.01 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "PVAT M1.03 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "BBDF M1.04 (1P)" }
                     ]
                 },
                 {
                     dia: "30",
                     diaSemana: "Sábado",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "DPP 1(1)" },
-                        { horario: "10:00 a 11:40", aula: "AT - PIST 1(14)" },
-                        { horario: "13:50 a 15:30", aula: "TO - ONAV(4)" },
-                        { horario: "15:50 a 17:30", aula: "IPO-mEGI(8)" },
-                        { horario: "17:50 a 19:30 (Extra)", aula: "TFP 01(1)" }
+                        { horario: "08:00 a 09:40", aula: "DPP/TFP M1.01 (2P, 2M)" },
+                        { horario: "10:00 a 11:40", aula: "IPO I M05.03 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "IPO I M05.04 (1P)" },
+                        { horario: "15:50 a 17:30", aula: "AT M1.07 (8P, 2M)" }
                     ]
                 },
                 {
