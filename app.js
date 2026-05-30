@@ -964,6 +964,15 @@ function carregarQuestaoUI() {
     // Header do Quiz
     document.getElementById('current-question-indicator').textContent = `Questão ${questaoAtualIndex + 1} de ${simuladoAtual.length}`;
     
+    // Badge de Conteúdo
+    const badgeConteudo = document.getElementById('quiz-conteudo-badge');
+    if (q.conteudo) {
+        badgeConteudo.textContent = q.conteudo;
+        badgeConteudo.style.display = 'inline-flex';
+    } else {
+        badgeConteudo.style.display = 'none';
+    }
+    
     const percent = ((questaoAtualIndex) / simuladoAtual.length) * 100;
     document.getElementById('progress-bar-fill').style.width = `${percent}%`;
 
