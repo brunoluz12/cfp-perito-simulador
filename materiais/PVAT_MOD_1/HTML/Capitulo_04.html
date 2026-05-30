@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 4 - Classificação dos veículos</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        h4 { color: #4a5568; margin-top: 20px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo I</span>
+        <h1>Capítulo 4 - Classificação dos Veículos</h1>
+        <div class="subtitle">Art. 96 do CTB - Tração, Espécie e Categoria</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec0">Introdução: Art. 96 do CTB e Portaria DENATRAN 1.207/2010</a></li>
+            <li><a href="#sec41">4.1 Classificação quanto à TRAÇÃO</a></li>
+            <li><a href="#sec42">4.2 Classificação quanto à ESPÉCIE</a>
+                <ul>
+                    <li><a href="#sec421">4.2.1 Passageiros</a></li>
+                    <li><a href="#sec422">4.2.2 Carga</a></li>
+                    <li><a href="#sec423">4.2.3 Mista</a></li>
+                    <li><a href="#sec424">4.2.4 Competição</a></li>
+                    <li><a href="#sec425">4.2.5 Tração</a></li>
+                    <li><a href="#sec426">4.2.6 Especial</a></li>
+                    <li><a href="#sec427">4.2.7 Coleção</a></li>
+                </ul>
+            </li>
+            <li><a href="#sec43">4.3 Classificação quanto à CATEGORIA</a></li>
+            <li><a href="#sec5">Síntese da classificação tripla</a></li>
+        </ul>
+    </div>
+
+    <div id="sec0" class="section">
+        <h2>Introdução: o Art. 96 do CTB</h2>
+
+        <div class="box-blue">
+            <strong>Marco normativo:</strong> O <strong>art. 96 do Código de Trânsito Brasileiro</strong> estabelece a classificação legal dos veículos como elemento estruturante do sistema normativo de trânsito, organizando-a segundo <strong>três critérios distintos e complementares</strong>: <span class="ref-pagina">(p. 15)</span>
+            <ul>
+                <li>Quanto à <strong>tração</strong>;</li>
+                <li>Quanto à <strong>espécie</strong>;</li>
+                <li>Quanto à <strong>categoria</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: T-E-C (Classificação tripla do art. 96)</span>
+            <ul>
+                <li><strong>T</strong>ração</li>
+                <li><strong>E</strong>spécie</li>
+                <li><strong>C</strong>ategoria</li>
+            </ul>
+        </div>
+
+        <p>Essa classificação não possui caráter meramente conceitual ou descritivo. Ela define previamente: <span class="ref-pagina">(p. 15)</span></p>
+        <ul>
+            <li>Quais <strong>sinais identificadores</strong> são exigíveis;</li>
+            <li>Quais <strong>regimes de registro e licenciamento</strong> se aplicam;</li>
+            <li>Quais <strong>padrões técnicos</strong> devem ser observados;</li>
+            <li>Como o veículo se insere nos <strong>sistemas administrativos e de controle estatal</strong>.</li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Norma infralegal complementar:</strong> Essa estrutura é densificada pela <strong>Portaria DENATRAN nº 1.207, de 15 de dezembro de 2010</strong>, que estabelece tabelas oficiais de classificação de veículos conforme tipo, marca, espécie e carroçaria, e disciplina as hipóteses de <strong>transformação veicular sujeitas à homologação compulsória</strong>. <span class="ref-pagina">(p. 15)</span>
+        </div>
+    </div>
+
+    <div id="sec41" class="section">
+        <h2>4.1 Classificação quanto à TRAÇÃO</h2>
+        <p>A classificação quanto à tração considera a <strong>forma pela qual se dá a propulsão do veículo</strong>. <span class="ref-pagina">(p. 15)</span></p>
+
+        <table>
+            <tr>
+                <th>Tipo de tração</th>
+                <th>Característica</th>
+            </tr>
+            <tr>
+                <td><strong>Veículos automotores</strong></td>
+                <td>Propulsão própria mecânica</td>
+            </tr>
+            <tr>
+                <td><strong>Veículos de propulsão humana</strong></td>
+                <td>Movidos por esforço humano</td>
+            </tr>
+            <tr>
+                <td><strong>Veículos de tração animal</strong></td>
+                <td>Movidos por animais</td>
+            </tr>
+            <tr>
+                <td><strong>Reboques e semirreboques</strong></td>
+                <td>Desprovidos de propulsão própria</td>
+            </tr>
+        </table>
+
+        <div class="box-blue">
+            <strong>Por que importa à identificação?</strong> Essa classificação define, de imediato:
+            <ul>
+                <li>Existência ou não de <strong>identificação estrutural obrigatória</strong>;</li>
+                <li>Exigência de <strong>registro no RENAVAM</strong>;</li>
+                <li>Necessidade de <strong>placa de identificação externa</strong>;</li>
+                <li>Tipo de <strong>controle administrativo</strong> aplicável.</li>
+            </ul>
+            <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> Veículos automotores submetem-se a um regime identificador <strong>significativamente mais complexo</strong> do que veículos de propulsão humana ou de tração animal. <span class="ref-pagina">(p. 15)</span>
+        </div>
+    </div>
+
+    <div id="sec42" class="section">
+        <h2>4.2 Classificação quanto à ESPÉCIE</h2>
+
+        <div class="box-blue">
+            <strong>Critério:</strong> A classificação quanto à espécie leva em conta a <strong>finalidade predominante do veículo</strong>, identificando sua função no sistema de trânsito. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <p>Esse critério é decisivo para a identificação veicular, pois condiciona: <span class="ref-pagina">(p. 15)</span></p>
+        <ul>
+            <li>A natureza dos sinais identificadores exigidos;</li>
+            <li>O padrão de controle administrativo;</li>
+            <li>As normas técnicas aplicáveis à identificação estrutural e externa.</li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: P-C-M-C-T-E-C (7 espécies do CTB)</span>
+            <ul>
+                <li><strong>P</strong>assageiros</li>
+                <li><strong>C</strong>arga</li>
+                <li><strong>M</strong>ista</li>
+                <li><strong>C</strong>ompetição</li>
+                <li><strong>T</strong>ração</li>
+                <li><strong>E</strong>special</li>
+                <li><strong>C</strong>oleção</li>
+            </ul>
+        </div>
+
+        <div id="sec421" class="section">
+            <h3>4.2.1 Espécie de PASSAGEIROS</h3>
+            <p>Veículos concebidos <strong>primordialmente para o transporte de pessoas</strong>, independentemente da forma de propulsão ou do número de rodas. <span class="ref-pagina">(p. 15-16)</span></p>
+
+            <table>
+                <tr>
+                    <th>Veículo</th>
+                    <th>Característica destacada no PDF</th>
+                </tr>
+                <tr>
+                    <td>Bicicleta</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>Ciclomotor</td>
+                    <td><strong>Velocidade máxima inferior a 50 km/h</strong> (Figura 2)</td>
+                </tr>
+                <tr>
+                    <td>Motoneta</td>
+                    <td><strong>Condutor na posição sentada</strong> (Figura 3)</td>
+                </tr>
+                <tr>
+                    <td>Motocicleta</td>
+                    <td><strong>Condutor na posição montada</strong></td>
+                </tr>
+                <tr>
+                    <td>Triciclo</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>Quadriciclo</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>Automóvel</td>
+                    <td><strong>Até 8 passageiros</strong></td>
+                </tr>
+                <tr>
+                    <td>Micro-ônibus</td>
+                    <td><strong>Até 20 passageiros</strong></td>
+                </tr>
+                <tr>
+                    <td>Ônibus</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>Bonde</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>Reboque ou semirreboque</td>
+                    <td>Destinado ao transporte de pessoas</td>
+                </tr>
+                <tr>
+                    <td>Charrete</td>
+                    <td>—</td>
+                </tr>
+            </table>
+
+            <div class="box-red">
+                <strong>PEGADINHA - Limites quantitativos (cai em prova!):</strong>
+                <ul>
+                    <li><strong>Ciclomotor</strong>: velocidade máxima &lt; 50 km/h</li>
+                    <li><strong>Automóvel</strong>: até 8 passageiros</li>
+                    <li><strong>Micro-ônibus</strong>: até 20 passageiros</li>
+                </ul>
+                <span class="ref-pagina">(p. 16)</span>
+            </div>
+
+            <div class="box-blue">
+                <strong>Distinção Motoneta x Motocicleta:</strong>
+                <ul>
+                    <li><strong>Motoneta</strong>: condutor na posição <strong>sentada</strong></li>
+                    <li><strong>Motocicleta</strong>: condutor na posição <strong>montada</strong></li>
+                </ul>
+            </div>
+
+            <p>Sob o aspecto da identificação veicular, essa espécie determina parâmetros como capacidade declarada, configuração construtiva compatível, enquadramento de categoria e compatibilidade entre identificação estrutural, identificação externa e uso efetivo do veículo. <span class="ref-pagina">(p. 16)</span></p>
+        </div>
+
+        <div id="sec422" class="section">
+            <h3>4.2.2 Espécie de CARGA</h3>
+            <p>Veículos destinados <strong>predominantemente ao transporte de mercadorias, bens ou materiais</strong>, ainda que admitam ocupantes necessários à condução ou à operação. <span class="ref-pagina">(p. 16)</span></p>
+
+            <div class="box-orange">
+                <strong>Conjunto heterogêneo:</strong> Abrange desde veículos automotores até veículos de tração animal e de propulsão humana, tendo como elemento comum a <strong>finalidade funcional de transporte de bens</strong>. <span class="ref-pagina">(p. 16)</span>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Veículo</th>
+                    <th>Característica</th>
+                </tr>
+                <tr>
+                    <td>Motoneta de carga</td>
+                    <td>Configuração construtiva com dispositivos permanentes (plataformas, caçambas, compartimentos)</td>
+                </tr>
+                <tr>
+                    <td>Motocicleta de carga</td>
+                    <td>Idem</td>
+                </tr>
+                <tr>
+                    <td>Triciclo de carga</td>
+                    <td>Idem</td>
+                </tr>
+                <tr>
+                    <td>Quadriciclo de carga</td>
+                    <td>Idem</td>
+                </tr>
+                <tr>
+                    <td><strong>Caminhonete</strong></td>
+                    <td><strong>PBT até 3,5 ton.</strong></td>
+                </tr>
+                <tr>
+                    <td>Caminhão</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td><strong>Reboque</strong></td>
+                    <td><strong>Engatado atrás de um veículo automotor</strong> (Figura 4)</td>
+                </tr>
+                <tr>
+                    <td><strong>Semirreboque</strong></td>
+                    <td><strong>Se apoia na unidade tratora</strong> (Figura 5)</td>
+                </tr>
+                <tr>
+                    <td>Carroça</td>
+                    <td>Tração animal</td>
+                </tr>
+                <tr>
+                    <td>Carro-de-mão</td>
+                    <td>Propulsão humana</td>
+                </tr>
+            </table>
+
+            <div class="box-red">
+                <strong>PEGADINHA:</strong> A <strong>caminhonete</strong> é veículo de espécie CARGA com <strong>PBT até 3,5 toneladas</strong>. <span class="ref-pagina">(p. 16)</span>
+            </div>
+
+            <div class="box-blue">
+                <strong>Reboque x Semirreboque:</strong>
+                <ul>
+                    <li><strong>Reboque</strong>: engatado atrás de um veículo automotor;</li>
+                    <li><strong>Semirreboque</strong>: se apoia na unidade tratora.</li>
+                </ul>
+                Ambos são desprovidos de propulsão própria, tracionados por veículo automotor. <span class="ref-pagina">(p. 16)</span>
+            </div>
+        </div>
+
+        <div id="sec423" class="section">
+            <h3>4.2.3 Espécie MISTA</h3>
+
+            <div class="box-blue">
+                <strong>Definição:</strong> Veículos cuja destinação funcional <strong>combina, de forma integrada, o transporte de pessoas e de carga</strong>. <span class="ref-pagina">(p. 17)</span>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Veículo</th>
+                    <th>Característica</th>
+                </tr>
+                <tr>
+                    <td><strong>Camioneta</strong></td>
+                    <td><strong>Passageiros e carga no mesmo compartimento</strong> (Figura 6)</td>
+                </tr>
+                <tr>
+                    <td>Utilitário</td>
+                    <td>Figura 7</td>
+                </tr>
+                <tr>
+                    <td>Outros</td>
+                    <td>Assim reconhecidos pela autoridade de trânsito</td>
+                </tr>
+            </table>
+
+            <div class="box-red">
+                <strong>PEGADINHA - Camioneta x Caminhonete (cai em prova!):</strong>
+                <ul>
+                    <li><strong>Caminhonete</strong> (com "H") - espécie <strong>CARGA</strong> - PBT até 3,5 ton.</li>
+                    <li><strong>Camioneta</strong> (sem "H") - espécie <strong>MISTA</strong> - passageiros + carga no mesmo compartimento</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="sec424" class="section">
+            <h3>4.2.4 Espécie de COMPETIÇÃO</h3>
+
+            <div class="box-blue">
+                <strong>Definição:</strong> Veículos destinados <strong>exclusivamente à prática esportiva</strong>, NÃO projetados para circulação regular em vias públicas. <span class="ref-pagina">(p. 17)</span>
+            </div>
+
+            <p>Essa classificação interfere diretamente na identificação veicular ao justificar: <span class="ref-pagina">(p. 17)</span></p>
+            <ul>
+                <li>Regimes especiais ou excepcionais de identificação;</li>
+                <li>Dispensas parciais de registro e licenciamento;</li>
+                <li><strong>Restrições severas de circulação</strong>.</li>
+            </ul>
+
+            <div class="box-orange">
+                <strong>A identidade do veículo está vinculada à sua finalidade esportiva</strong> e não ao transporte. <span class="ref-pagina">(p. 17)</span>
+            </div>
+        </div>
+
+        <div id="sec425" class="section">
+            <h3>4.2.5 Espécie de TRAÇÃO</h3>
+
+            <div class="box-blue">
+                <strong>Definição:</strong> Veículos destinados primordialmente a <strong>tracionar outros veículos, implementos ou equipamentos</strong>. <span class="ref-pagina">(p. 17)</span>
+            </div>
+
+            <ul>
+                <li><strong>Caminhão-trator</strong> (Figura 8);</li>
+                <li><strong>Tratores</strong>.</li>
+            </ul>
+
+            <div class="box-orange">
+                <strong>Atenção - não confundir:</strong> A "espécie de TRAÇÃO" do art. 4.2.5 NÃO se confunde com a "classificação quanto à TRAÇÃO" (item 4.1). Aqui se trata da <strong>finalidade</strong> do veículo (tracionar outros), não da forma de propulsão.
+            </div>
+
+            <p>Esse enquadramento define quais elementos estruturais devem ser identificados, como se estabelece a identidade do conjunto veicular e quais sinais identificadores são próprios do veículo trator em relação aos implementos tracionados. <span class="ref-pagina">(p. 17)</span></p>
+        </div>
+
+        <div id="sec426" class="section">
+            <h3>4.2.6 Espécie ESPECIAL</h3>
+
+            <div class="box-blue">
+                <strong>Definição:</strong> Veículos que, embora semelhantes a espécies comuns, possuem <strong>destinação ou uso específico</strong> que justifica tratamento normativo diferenciado. <span class="ref-pagina">(p. 18)</span>
+            </div>
+
+            <div class="box-orange">
+                <strong>Sensibilidade para a perícia:</strong> Essa classificação é particularmente sensível, pois exige:
+                <ul>
+                    <li>Análise <strong>contextual</strong> da finalidade do veículo;</li>
+                    <li>Verificação <strong>rigorosa</strong> da compatibilidade entre sinais identificadores e uso declarado;</li>
+                    <li>Atenção a regimes específicos de registro e circulação.</li>
+                </ul>
+                <span class="ref-pagina">(p. 18)</span>
+            </div>
+        </div>
+
+        <div id="sec427" class="section">
+            <h3>4.2.7 Espécie de COLEÇÃO</h3>
+
+            <div class="box-blue">
+                <strong>Definição:</strong> Veículos reconhecidos por sua <strong>antiguidade, raridade ou valor histórico</strong>, cuja identidade veicular incorpora não apenas sinais técnicos, mas também atributos de <strong>preservação cultural</strong>. <span class="ref-pagina">(p. 18)</span>
+            </div>
+
+            <div class="box-green">
+                <strong>Função adicional:</strong> A identificação veicular assume função adicional de <strong>preservação da originalidade</strong>, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação, sempre com atenção à manutenção da identidade histórica do bem. <span class="ref-pagina">(p. 18)</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="sec43" class="section">
+        <h2>4.3 Classificação quanto à CATEGORIA</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Relaciona o veículo ao <strong>regime jurídico de uso e vinculação institucional</strong>. <span class="ref-pagina">(p. 18)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Categoria</th>
+            </tr>
+            <tr><td><strong>Oficiais</strong></td></tr>
+            <tr><td><strong>Diplomáticos</strong></td></tr>
+            <tr><td><strong>Particulares</strong></td></tr>
+            <tr><td><strong>De aluguel</strong></td></tr>
+            <tr><td><strong>De aprendizagem</strong></td></tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: O-D-P-A-A (5 categorias)</span>
+            <ul>
+                <li><strong>O</strong>ficiais</li>
+                <li><strong>D</strong>iplomáticos</li>
+                <li><strong>P</strong>articulares</li>
+                <li><strong>A</strong>luguel</li>
+                <li><strong>A</strong>prendizagem</li>
+            </ul>
+        </div>
+
+        <p>Essa classificação repercute diretamente: <span class="ref-pagina">(p. 18)</span></p>
+        <ul>
+            <li>Na <strong>identificação externa</strong>;</li>
+            <li>Especialmente no <strong>padrão de placas</strong>;</li>
+            <li>Na <strong>sinalização visual</strong>;</li>
+            <li>Nas <strong>prerrogativas ou restrições de circulação</strong>.</li>
+        </ul>
+
+        <div class="box-green">
+            <strong>Função integradora:</strong> Completa o sistema de identificação veicular ao <strong>associar a identidade física do veículo ao seu vínculo jurídico-administrativo</strong>. <span class="ref-pagina">(p. 18)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>Síntese da classificação tripla</h2>
+
+        <div class="box-purple">
+            <strong>Citação do PDF:</strong> "Essa classificação tripla define o que é juridicamente o veículo no sistema de trânsito e delimita, desde logo, quais regras de identificação lhe são aplicáveis." <span class="ref-pagina">(p. 18)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Critério</th>
+                <th>O que considera</th>
+                <th>Efeito principal</th>
+            </tr>
+            <tr>
+                <td><strong>Tração</strong></td>
+                <td>Forma de propulsão</td>
+                <td>Define regime identificador, RENAVAM, placa</td>
+            </tr>
+            <tr>
+                <td><strong>Espécie</strong></td>
+                <td>Finalidade predominante</td>
+                <td>Define sinais identificadores e normas técnicas</td>
+            </tr>
+            <tr>
+                <td><strong>Categoria</strong></td>
+                <td>Regime jurídico de uso</td>
+                <td>Define placa, sinalização e prerrogativas</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

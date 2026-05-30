@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 9 - Casos Especiais na Perícia de Acidentes</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .formula { background: #1a202c; color: #fbd38d; padding: 14px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 1.05em; text-align: center; margin: 12px 0; font-weight: 600; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo II</span>
+        <h1>Capítulo 9 - Casos Especiais na Perícia de Acidentes</h1>
+        <div class="subtitle">Velocidade × Interceptação, pesados, motos, atropelamentos, frontais, fuga</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec91">9.1 Velocidade Excessiva × Interceptação</a></li>
+            <li><a href="#sec92">9.2 Acidentes com Veículos Pesados</a></li>
+            <li><a href="#sec921">9.2.1 Particularidades dos pesados</a></li>
+            <li><a href="#sec922">9.2.2 Leitura do Tacógrafo</a></li>
+            <li><a href="#sec93">9.3 Acidentes com Motocicletas</a></li>
+            <li><a href="#sec94">9.4 Pedestres e Ciclistas – Projeção de Corpos</a></li>
+            <li><a href="#sec95">9.5 Colisões Frontais em Rodovias</a></li>
+            <li><a href="#sec96">9.6 Acidentes com Fuga (Hit-and-Run)</a></li>
+        </ul>
+    </div>
+
+    <div id="sec91" class="section">
+        <h2>9.1 Velocidade Excessiva × Interceptação — Metodologia Completa</h2>
+        <p>Um dos problemas <strong>mais complexos e frequentes</strong> na perícia. O condutor com preferência de passagem, ao desenvolver velocidade acima do limite, <strong>pode perder o direito de se eximir da responsabilidade</strong>, mesmo que o outro condutor tenha entrado irregularmente na via preferencial. <span class="ref-pagina">(p. 59)</span></p>
+
+        <div class="box-blue">
+            <strong>Procedimento (7 etapas):</strong>
+            <ol>
+                <li>Calcular a <strong>velocidade total (Vt)</strong> do veículo com excesso;</li>
+                <li>Determinar a <strong>velocidade no instante da colisão (Vic)</strong>;</li>
+                <li>Calcular o <strong>tempo de frenagem (tfre)</strong>;</li>
+                <li>Determinar o <strong>tempo total</strong> = <strong>tpr + tfre</strong> (percepção + reação + frenagem);</li>
+                <li>Calcular a distância percorrida pelo veículo preferencial no <strong>ttotal</strong>, <em>tanto na velocidade real quanto na regulamentar</em>;</li>
+                <li><strong>Retroagir</strong> os dois veículos para suas posições no instante de percepção do veículo preferencial;</li>
+                <li>Verificar se, na <strong>velocidade regulamentar</strong>, o veículo interceptador teria <strong>liberado o caminho</strong> do veículo preferencial.</li>
+            </ol>
+        </div>
+
+        <div class="box-orange">
+            <strong>Interpretação dos resultados:</strong>
+            <ul>
+                <li>Se o interceptador <strong>NÃO tivesse liberado</strong> o caminho mesmo na velocidade regulamentar → <strong>velocidade excessiva NÃO é causa determinante</strong>; a <strong>interceptação É a causa determinante</strong>;</li>
+                <li>Se o interceptador <strong>JÁ tivesse liberado</strong> o caminho, se o preferencial estivesse na velocidade regulamentar → <strong>velocidade excessiva É causa determinante ou concorrente</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec92" class="section">
+        <h2>9.2 Acidentes com Veículos Pesados</h2>
+    </div>
+
+    <div id="sec921" class="section">
+        <h3>9.2.1 Particularidades dos Veículos de Grande Porte</h3>
+        <p>Caminhões, ônibus e combinações de veículos apresentam características que influenciam diretamente a análise pericial: <span class="ref-pagina">(p. 59-60)</span></p>
+
+        <table>
+            <tr><th>Particularidade</th><th>Implicação Pericial</th></tr>
+            <tr><td><strong>Centro de gravidade alto</strong></td><td>Maior propensão a <strong>tombamento</strong> em curvas e manobras bruscas.</td></tr>
+            <tr><td><strong>Distância de frenagem maior</strong></td><td>Devido à massa (e posição do centro de massa do conjunto) e às diferenças nos sistemas de freios.</td></tr>
+            <tr><td><strong>Deformação diferenciada</strong></td><td>Estruturas mais rígidas produzem avarias distintas no veículo menor durante a colisão.</td></tr>
+            <tr><td><strong>Ângulo morto</strong></td><td>Regiões sem visibilidade, especialmente à frente e laterais próximas — relevante em atropelamentos e colisões.</td></tr>
+            <tr><td><strong>Tacógrafo</strong></td><td>Obrigatório em caminhões e ônibus (<strong>art. 105, II, CTB</strong>). Leitura do disco-diagrama fornece dados precisos de velocidade e tempo antes do acidente.</td></tr>
+        </table>
+    </div>
+
+    <div id="sec922" class="section">
+        <h3>9.2.2 Leitura do Tacógrafo</h3>
+        <p>Registra continuamente velocidade e tempo em <strong>discos-diagrama</strong> ou por meio eletrônico. Permite determinar a velocidade nos instantes que precederam o acidente <strong>com bom nível de aproximação</strong>, eliminando incertezas do cálculo por marcas pneumáticas. <span class="ref-pagina">(p. 60)</span></p>
+
+        <div class="box-blue">
+            <strong>Procedimento do perito (leitura do tacógrafo):</strong>
+            <ul>
+                <li><strong>Apreender</strong> o disco em uso no momento do acidente;</li>
+                <li><strong>Verificar a calibração</strong> do tacógrafo (certificado de calibração);</li>
+                <li><strong>Identificar a hora</strong> do acidente e correlacionar com o registro de velocidade;</li>
+                <li><strong>Comparar com as marcas físicas</strong> de frenagem para validação cruzada.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec93" class="section">
+        <h2>9.3 Acidentes com Motocicletas</h2>
+        <p>Apresentam particularidades periciais significativas: <span class="ref-pagina">(p. 60)</span></p>
+
+        <ul>
+            <li><strong>Maiores distâncias de deslizamento pós-queda</strong> – condutor e motocicleta deslizam <strong>separadamente</strong>;</li>
+            <li><strong>EPI</strong> (Equipamento de Proteção Individual) do condutor pode concentrar marcas de arrasto que auxiliam na determinação da trajetória;</li>
+            <li>Análise do <strong>local de queda</strong> e do <strong>local de repouso final</strong> permite estimar a <strong>velocidade de projeção</strong>;</li>
+            <li><strong>Avaria no capacete</strong> indica o ponto de impacto da cabeça e a direção da força;</li>
+            <li>Motocicleta tombada produz marcas de arrasto distintas das marcas de frenagem convencional.</li>
+        </ul>
+
+        <div class="box-blue">
+            <strong>Coeficiente de atrito da motocicleta tombada sobre asfalto:</strong>
+            <div class="formula">μ ≈ 0,55 a 0,70</div>
+        </div>
+    </div>
+
+    <div id="sec94" class="section">
+        <h2>9.4 Acidentes com Pedestres e Ciclistas — Projeção de Corpos</h2>
+        <p>Em atropelamentos, a análise da trajetória de projeção do pedestre permite, em determinadas condições, estimar a velocidade do veículo. O modelo de projeção mais simples assume que o pedestre é lançado como <strong>projétil parabólico</strong> após o impacto inicial. <span class="ref-pagina">(p. 61)</span></p>
+
+        <div class="box-blue">
+            <strong>Fórmula simplificada (trajetória parabólica):</strong>
+            <div class="formula">V<sub>impacto</sub> ≈ 4,9 · √(d<sub>projeção</sub>)   [km/h]</div>
+            <p>Onde <strong>d<sub>projeção</sub></strong> = distância horizontal percorrida pelo corpo desde o sítio de impacto até o sítio de repouso, em <strong>metros</strong>.</p>
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção – limitações:</strong> aproximação com <strong>incertezas significativas</strong>. Depende:
+            <ul>
+                <li>Da altura do ponto de impacto;</li>
+                <li>Do ângulo de projeção;</li>
+                <li>Do tipo de veículo envolvido.</li>
+            </ul>
+            <strong>Usar com cautela</strong> e sempre contextualizar com os demais vestígios.
+        </div>
+
+        <div class="box-green">
+            <strong>Existem estudos complexos sobre o assunto</strong>, com diversos artigos científicos que podem ser utilizados pelo Perito Criminal Federal para embasar o laudo criminal.
+        </div>
+
+        <h3>Particularidades dos ciclistas</h3>
+        <div class="box-blue">
+            <ul>
+                <li>Efeitos similares aos pedestres;</li>
+                <li><strong>Complicação adicional</strong>: a bicicleta pode ser projetada em trajetória <strong>diferente</strong> da do ciclista;</li>
+                <li>Análise das avarias na bicicleta (deformação do quadro, guidão, rodas) complementa a análise das lesões.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec95" class="section">
+        <h2>9.5 Colisões Frontais em Rodovias</h2>
+        <p>São as <strong>mais letais</strong> em termos de <strong>velocidade de fechamento</strong> (soma das velocidades dos dois veículos), que pode superar <strong>200 km/h</strong> em rodovias de pista simples. <span class="ref-pagina">(p. 61)</span></p>
+
+        <div class="box-blue">
+            <strong>Análise pericial deve identificar:</strong>
+            <ul>
+                <li>Qual veículo invadiu a faixa contrária (análise de trajetórias e avarias);</li>
+                <li>Por que ocorreu a invasão (ultrapassagem, derrapagem, sonolência, curva);</li>
+                <li>As velocidades individuais de cada veículo;</li>
+                <li>Se havia sinalização proibindo a ultrapassagem no local.</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Quando o método das marcas pneumáticas é insuficiente</strong> (esmigalhamento da frente dos veículos), recorrer a:
+            <ul>
+                <li><strong>Conservação da quantidade de movimento</strong> (quando as direções pós-impacto são conhecidas);</li>
+                <li><strong>Tabelas de velocidade de danos</strong> (se possível aplicar a metodologia completa para comparação com dados de crash tests).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec96" class="section">
+        <h2>9.6 Acidentes com Fuga (Hit-and-Run)</h2>
+        <p>Representam <strong>desafio pericial especial</strong>, pois o veículo causador não está presente no local. <span class="ref-pagina">(p. 62)</span></p>
+
+        <div class="box-blue">
+            <strong>Procedimento do perito:</strong>
+            <ul>
+                <li>Coletar todos os <strong>fragmentos de tinta, plástico e vidro</strong> do veículo ausente;</li>
+                <li>Analisar a <strong>transferência de tinta</strong> nas avarias do veículo atingido;</li>
+                <li>Registrar o <strong>padrão de fragmentos</strong> para identificar marca, modelo e ano aproximado do veículo evasor;</li>
+                <li>Documentar <strong>raspagens de tinta</strong> na sinalização horizontal ou em obstáculos adjacentes;</li>
+                <li>Solicitar <strong>análise cromática e espectroscópica</strong> da tinta para confronto com o veículo suspeito.</li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Base de dados de apoio:</strong> o <strong>Denatran/Senatran</strong>, combinado com <strong>catálogos de fragmentos de faróis e sinaleiras</strong>, permite em muitos casos restringir significativamente o universo de veículos suspeitos.
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: F-T-P-R-E (Vestígios em hit-and-run)</span>
+            <ul>
+                <li><strong>F</strong>ragmentos – tinta, plástico, vidro</li>
+                <li><strong>T</strong>ransferência – tinta no veículo atingido</li>
+                <li><strong>P</strong>adrão – farol/sinaleira (modelo/ano)</li>
+                <li><strong>R</strong>aspagens – sinalização, obstáculos</li>
+                <li><strong>E</strong>spectroscopia – confronto com suspeito</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const o = new MutationObserver(sendHeight);
+    o.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

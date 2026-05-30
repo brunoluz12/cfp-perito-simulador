@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 9 - Peças com dados identificadores</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo I</span>
+        <h1>Capítulo 9 - Peças com dados identificadores</h1>
+        <div class="subtitle">Identificadores secundários e ocultos do veículo</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">9. Conceito e relevância pericial</a></li>
+            <li><a href="#sec2">Número do motor</a></li>
+            <li><a href="#sec3">Caixa de câmbio</a></li>
+            <li><a href="#sec4">Eixos, diferencial e outros agregados</a></li>
+            <li><a href="#sec5">Cabine, carroceria e componentes seriados</a></li>
+            <li><a href="#sec6">Carta-laudo do fabricante</a></li>
+            <li><a href="#sec7">Tacógrafo (lacres e selos de aferição)</a></li>
+            <li><a href="#sec8">9.1 Identificações ocultas</a></li>
+            <li><a href="#sec9">Leitura eletrônica do VIN</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>9. Conceito e relevância pericial</h2>
+        <p>Embora o ordenamento brasileiro estabeleça, por meio das Resoluções CONTRAN <strong>nº 659/1985, nº 691/1988, nº 24/1998</strong> e mais recentemente <strong>nº 968/2022</strong>, um <strong>núcleo mínimo de itens obrigatórios</strong> de identificação, a análise técnica e pericial <em>não se limita</em> a esses elementos formais. <span class="ref-pagina">(p. 39)</span></p>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> Diversos componentes do veículo podem desempenhar papel relevante na <strong>confirmação da identidade</strong>, na <strong>individualização do bem</strong> e na <strong>detecção de adulterações</strong>, especialmente quando os sinais primários apresentam incongruências, limitações probatórias ou se encontram prejudicados.
+        </div>
+
+        <div class="box-purple">
+            <em>"A identificação veicular, sob a ótica técnica e pericial, deve ser compreendida como um processo integrado e multifatorial, no qual os itens obrigatórios previstos nas Resoluções do Contran constituem o ponto de partida, mas não o limite da análise."</em> <span class="ref-pagina">(p. 43)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>Número do motor</h2>
+        <p>O <strong>número do motor</strong> destaca-se como <strong>elemento complementar de identificação</strong>, sendo utilizado em consultas e cruzamentos. Consta nos <strong>bancos de dados oficiais vinculados ao RENAVAM/BIN</strong>. <span class="ref-pagina">(p. 39)</span></p>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>Caixa de câmbio</h2>
+        <p>Para muitos fabricantes e aplicações, a caixa de câmbio constitui um <strong>agregado passível de rastreabilidade</strong>, sobretudo em <strong>veículos de maior porte</strong> (pesados). <span class="ref-pagina">(p. 39)</span></p>
+        <ul>
+            <li>Numeração própria <strong>gravada na carcaça</strong> ou <strong>afixada por plaqueta</strong>;</li>
+            <li>Pode constar em bancos de dados oficiais;</li>
+            <li>Confirmação por <strong>carta-laudo</strong> do fabricante.</li>
+        </ul>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>Eixos, diferencial e outros agregados estruturais</h2>
+        <p>As numerações dos <strong>eixos, do diferencial e de outros agregados estruturais</strong> assumem importância especial, particularmente em <strong>veículos pesados, reboques e semirreboques</strong>. <span class="ref-pagina">(p. 40)</span></p>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> Tais números <em>nem sempre são registrados de forma sistemática nas bases públicas</em>, mas podem ser rastreáveis por:
+            <ul>
+                <li>Documentação técnica do fabricante;</li>
+                <li>Registros internos de produção;</li>
+                <li>Consultas especializadas.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>Cabine, carroceria e componentes seriados</h2>
+        <p>Outros elementos assumem importância conforme a configuração construtiva do veículo: <span class="ref-pagina">(p. 41)</span></p>
+        <ul>
+            <li><strong>Cabine</strong> – nos veículos montados sobre chassi;</li>
+            <li><strong>Carroceria</strong> – especialmente nas versões encarroçadas ou implementadas (numerações próprias em muitos fabricantes);</li>
+            <li><strong>Caixa de direção</strong>, <strong>turbocompressor</strong> e outros componentes seriados podem contribuir para a análise conjunta da identidade. <span class="ref-pagina">(p. 42)</span></li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Importante:</strong> Isoladamente, esses componentes <em>não são suficientes para individualizar o veículo</em>. Sua valoração ocorre na <strong>análise conjunta</strong> com os identificadores primários.
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>Carta-laudo do fabricante</h2>
+        <p>Enquanto alguns números constam da BIN ou de bases integradas, outros dependem de <strong>carta-laudo emitida pelo fabricante</strong>. <span class="ref-pagina">(p. 42)</span></p>
+
+        <div class="box-blue">
+            <strong>Carta-laudo (definição):</strong> documento técnico no qual a montadora informa os componentes originalmente montados naquele veículo específico, suas <strong>numerações, cores, datas de fabricação</strong> e demais características relevantes.
+        </div>
+
+        <p>Em certos casos, a confirmação pode exigir consulta a outros entes: <strong>empresas encarroçadoras</strong>, <strong>fabricantes de implementos rodoviários</strong> ou órgãos responsáveis por sistemas específicos (ex.: <strong>tacógrafo</strong>). <span class="ref-pagina">(p. 43)</span></p>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>Tacógrafo (lacres e selos de aferição)</h2>
+        <p>Os <strong>lacres e selos de aferição do tacógrafo</strong>, quando presente no veículo, fornecem elementos acessórios de contexto para a análise pericial. <span class="ref-pagina">(p. 43)</span></p>
+        <ul>
+            <li>São afixados <strong>selos adesivos nas faces externas</strong> do aparelho;</li>
+            <li>Um <strong>lacre plástico</strong> é instalado no <strong>cabo do velocímetro</strong>, junto ao ponto de conexão com o câmbio;</li>
+            <li>Função: <strong>evidenciar eventuais intervenções</strong> no sistema de medição;</li>
+            <li>Consulta de dados disponível no <strong>site do Inmetro</strong>.</li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Natureza:</strong> embora <em>não constituam identificadores diretos do veículo</em>, fornecem elementos acessórios de contexto para a análise pericial.
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>9.1 Identificações ocultas</h2>
+        <p>A <strong>Resolução nº 968/2022</strong> passou a prever expressamente a obrigatoriedade de gravação de uma <strong>identificação oculta</strong>. Contudo, registros desse tipo já eram empregados pela indústria automotiva antes de sua edição. <span class="ref-pagina">(p. 44)</span></p>
+
+        <div class="box-blue">
+            <strong>Origem:</strong> tais numerações <em>não decorrem necessariamente</em> de estratégia deliberada de incremento da segurança veicular. Surgem por <strong>exigências operacionais, logísticas e de controle</strong> dos processos intermediários de fabricação.
+        </div>
+
+        <h3>Finalidades industriais das identificações ocultas</h3>
+        <ul>
+            <li>Rastreabilidade interna;</li>
+            <li>Controle logístico;</li>
+            <li>Sequenciamento de montagem;</li>
+            <li>Controle de qualidade;</li>
+            <li>Compatibilização entre conjuntos;</li>
+            <li>Verificação de etapas específicas da produção industrial.</li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Localização:</strong> podem estar em pontos <strong>não ostensivos</strong> do chassi, monobloco, carroceria, cabine ou em componentes estruturais e agregados. Em regra, <strong>são gravadas antes mesmo da aplicação do VIN definitivo</strong>.
+        </div>
+
+        <div class="box-red">
+            <strong>Características críticas:</strong>
+            <ul>
+                <li><strong>Não possuem padronização normativa externa</strong>;</li>
+                <li><strong>Não são divulgadas ao público</strong>;</li>
+                <li><strong>Não constam de documentos de registro ou de bases de dados oficiais abertas</strong>;</li>
+                <li>Finalidade restrita ao ambiente fabril e pós-fabril do fabricante.</li>
+            </ul>
+            <p>Acesso depende de: conhecimento técnico especializado, documentação interna do fabricante, <strong>carta-laudo</strong> ou métodos periciais específicos. <span class="ref-pagina">(p. 44)</span></p>
+        </div>
+
+        <div class="box-green">
+            <strong>Valor pericial:</strong> a verificação das identificações ocultas pode ser <strong>decisiva em fraudes sofisticadas</strong>, confirmando a identidade do veículo ou de seus subconjuntos mesmo quando o VIN, plaquetas ou outros identificadores oficiais foram <strong>adulterados, suprimidos ou substituídos</strong> — funcionando como elementos técnicos <strong>indiretos de individualização</strong>.
+        </div>
+
+        <h3>Exemplos de pontos onde foram observadas identificações ocultas (Figuras 37 a 40)</h3>
+        <ul>
+            <li>Etiqueta adesiva (Ford);</li>
+            <li>Etiqueta em chicote na caixa de fusíveis (Volvo);</li>
+            <li>Mangueiras (Scania);</li>
+            <li>Airbag (Honda). <span class="ref-pagina">(p. 45)</span></li>
+        </ul>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>Leitura eletrônica do VIN</h2>
+        <p>Em muitos veículos modernos, além da leitura física do VIN gravado na estrutura, o número também pode ser obtido <strong>diretamente dos módulos eletrônicos</strong> por meio de <strong>scanner automotivo</strong> compatível com os sistemas de diagnóstico. <span class="ref-pagina">(p. 45)</span></p>
+
+        <div class="box-blue">
+            <strong>Unidades de controle que armazenam o VIN:</strong>
+            <ul>
+                <li>Módulo do motor;</li>
+                <li>Módulo da carroceria;</li>
+                <li>Módulo do painel;</li>
+                <li>Entre outros.</li>
+            </ul>
+            <p>O VIN é armazenado em memória como parte dos processos de <strong>configuração, validação e comunicação</strong> entre sistemas.</p>
+        </div>
+
+        <div class="box-green">
+            <strong>Aplicação pericial:</strong> a leitura eletrônica permite <strong>comparar o número armazenado nos módulos com aquele gravado no chassi ou monobloco</strong>, contribuindo para a <strong>detecção de incongruências</strong>.
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: M-C-E-C-C (Identificadores secundários)</span>
+            <ul>
+                <li><strong>M</strong>otor – número complementar (consta no RENAVAM/BIN)</li>
+                <li><strong>C</strong>âmbio – carcaça/plaqueta; veículos pesados</li>
+                <li><strong>E</strong>ixos/diferencial – pesados, reboques</li>
+                <li><strong>C</strong>arroceria/cabine – versões encarroçadas</li>
+                <li><strong>C</strong>omponentes seriados – caixa direção, turbo, módulos eletrônicos</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const o = new MutationObserver(sendHeight);
+    o.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

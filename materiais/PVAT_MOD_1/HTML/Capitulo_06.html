@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 6 - Placas de Identificação Veicular (PIV)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo I</span>
+        <h1>Capítulo 6 - Placas de Identificação Veicular (PIV)</h1>
+        <div class="subtitle">Identificação Veicular</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#introducao">1. Introdução: art. 115 do CTB e Evolução Normativa</a></li>
+            <li><a href="#res231">2. Resolução Contran nº 231/2007 (sistema anterior)</a></li>
+            <li><a href="#res969">3. Resolução Contran nº 969/2022 (padrão Mercosul)</a></li>
+            <li><a href="#qrcode">4. QR Code, Aplicativo VIO e Consulta Senatran</a></li>
+            <li><a href="#clonagem">5. Clonagem de Placas</a></li>
+            <li><a href="#mnemonicos">6. Mnemônicos e Síntese</a></li>
+        </ul>
+    </div>
+
+    <div id="introducao" class="section">
+        <h2>1. Introdução: art. 115 do CTB e Evolução Normativa</h2>
+        <p>O art. 115 do CTB disciplina a identificação externa, realizada por meio de placas dianteira e traseira. Essa identificação possui caráter ostensivo e operacional, permitindo o reconhecimento imediato do veículo em circulação e a vinculação prática entre o veículo, seus registros administrativos e os caracteres gravados no chassi ou no monobloco. <span class="ref-pagina">(p. 21)</span></p>
+
+        <div class="box-purple">
+            <strong>Citação literal — art. 115 do CTB:</strong>
+            <p>"O veículo será identificado externamente por meio de placas dianteira e traseira, sendo esta lacrada em sua estrutura, obedecidas as especificações e modelos estabelecidos pelo Contran."</p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Evolução histórica (linha do tempo conforme PDF):</strong>
+            <ul>
+                <li><strong>Decreto-Lei nº 3.651/1941</strong> — obrigatoriedade do registro e identificação externa dos veículos.</li>
+                <li><strong>Lei nº 5.108/1966</strong> (Código Nacional de Trânsito) e <strong>Decreto nº 62.127/1968</strong> — placa consolidada como sinal identificador essencial.</li>
+                <li><strong>Lei nº 9.503/1997 (CTB)</strong> — reafirma a placa como elemento obrigatório, delegando ao Contran a regulamentação técnica.</li>
+                <li><strong>Resolução Contran nº 45/1998</strong> — instituiu o modelo padronizado no padrão cinza em âmbito nacional.</li>
+                <li><strong>Resoluções Contran nº 231/2007 e nº 241/2007</strong> — aperfeiçoamento do sistema.</li>
+                <li><strong>Resolução Contran nº 729/2018</strong> — implanta o padrão Mercosul.</li>
+                <li><strong>Resolução Contran nº 780/2019</strong> — detalhamento.</li>
+                <li><strong>Resolução Contran nº 969/2022</strong> — consolidação atual do padrão Mercosul.</li>
+            </ul>
+            <span class="ref-pagina">(p. 21)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção — Marco temporal de aplicação:</strong>
+            <p>A transição da Res. nº 231/2007 para a Res. nº 969/2022 exige atenção ao marco temporal. Veículos registrados sob o sistema anterior podem circular regularmente com placas antigas, desde que preservadas suas condições de originalidade e conformidade; veículos registrados no novo sistema devem atender integralmente às exigências do padrão Mercosul. A correta interpretação da placa depende do reconhecimento do regime normativo vigente à época do registro do veículo. <span class="ref-pagina">(p. 21)</span></p>
+        </div>
+    </div>
+
+    <div id="res231" class="section">
+        <h2>2. Resolução Contran nº 231/2007 (sistema anterior)</h2>
+        <p>A Resolução nº 231/2007 estabeleceu, por mais de uma década, o sistema de placas no Brasil baseado em combinações alfanuméricas formadas por <strong>três letras e quatro números</strong>, acompanhadas de tarjetas indicativas da Unidade da Federação e do município de registro do veículo. A placa dianteira e a traseira eram obrigatórias, devendo a placa traseira ser lacrada à estrutura do veículo. <span class="ref-pagina">(p. 22)</span></p>
+
+        <div class="box-blue">
+            <strong>Características do regime da Res. 231/2007:</strong>
+            <ul>
+                <li>Combinação alfanumérica: <strong>3 letras + 4 números</strong>.</li>
+                <li>Tarjetas com UF e município de registro.</li>
+                <li>Placa traseira <strong>lacrada</strong> à estrutura do veículo.</li>
+                <li>Órgãos estaduais de trânsito têm controle sobre a numeração do lacre e podem fornecer dados do veículo vinculado.</li>
+                <li>Dimensões físicas, tipologia dos caracteres, sistema de pintura, cores associadas às categorias, materiais admitidos, parâmetros de refletividade e dispositivos de lacração todos disciplinados de maneira rigorosa.</li>
+                <li><strong>Categoria do veículo identificada principalmente pela cor do fundo da placa.</strong></li>
+                <li>Combinação alfanumérica permanecia fixa em mudança de município, mas a placa era substituída em caso de alteração de categoria.</li>
+                <li>Previa regimes especiais para veículos oficiais, diplomáticos, consulares, de organismos internacionais e de cooperação internacional.</li>
+            </ul>
+            <span class="ref-pagina">(p. 22)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Citação literal — Res. 231/2007:</strong>
+            <p>"Art. 5º As placas serão confeccionadas por fabricantes credenciados pelos órgãos executivos de trânsito [...] §1° Será obrigatória a gravação do registro do fabricante em superfície plana da placa e da tarjeta [...]"</p>
+        </div>
+
+        <div class="box-green">
+            <strong>Resolução 241/2007 — Código de cadastramento do fabricante:</strong>
+            <p>Especificava o código de cadastramento do fabricante da placa e da tarjeta: <strong>número de três algarismos + sigla da UF + dois últimos algarismos do ano de fabricação</strong>, gravado em alto ou baixo relevo (Figura 9). <span class="ref-pagina">(p. 22)</span></p>
+        </div>
+    </div>
+
+    <div id="res969" class="section">
+        <h2>3. Resolução Contran nº 969/2022 (padrão Mercosul)</h2>
+        <p>Institui o Sistema de Placas de Identificação Veicular (PIV) no padrão Mercosul, alinhando o Brasil a um padrão regional. A placa deixa de exibir o município e a UF de registro, passando a apresentar apenas o <strong>nome do país e seu respectivo símbolo</strong>. <span class="ref-pagina">(p. 23)</span></p>
+
+        <div class="box-blue">
+            <strong>Combinação alfanumérica mista (padrão Mercosul):</strong>
+            <p>Alterna <strong>três letras, um número, uma letra e três números</strong> — ampliando a capacidade de séries disponíveis e a vida útil do sistema. <span class="ref-pagina">(p. 23)</span></p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Elementos de segurança obrigatórios (Res. 969/2022):</strong>
+            <ul>
+                <li>QR Code vinculado a bases oficiais</li>
+                <li>Código serial único</li>
+                <li>Padronização nacional dos fabricantes</li>
+                <li>Rastreabilidade da produção</li>
+                <li>Integração direta com os sistemas informatizados de trânsito</li>
+            </ul>
+            <p>A placa deixa de ser apenas um artefato físico para tornar-se também um <strong>dispositivo de autenticação e validação</strong>, verificável eletronicamente pelas autoridades. <span class="ref-pagina">(p. 23)</span></p>
+        </div>
+
+        <div class="box-orange">
+            <strong>Fixação no padrão Mercosul:</strong>
+            <p>O modelo Mercosul <strong>elimina o antigo lacre físico tradicional</strong>, substituindo-o por sistemas de fixação padronizados associados a controles digitais. O foco do controle desloca-se da manipulação física para a rastreabilidade administrativa e tecnológica, deslocando parte da verificação pericial para a correlação entre placa, QR Code, cadastro nacional e identidade estrutural do veículo. <span class="ref-pagina">(p. 23)</span></p>
+        </div>
+
+        <div class="box-green">
+            <strong>Elementos visuais da placa Mercosul (Figura 10):</strong>
+            <ol>
+                <li>Emblema Mercosul</li>
+                <li>Nome do país</li>
+                <li>Bandeira do país</li>
+                <li>QR code</li>
+                <li>Signo distintivo BR</li>
+                <li>Hot Stamp</li>
+                <li>Marca d'água</li>
+            </ol>
+            <span class="ref-pagina">(p. 24)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Função jurídica da placa permanece inalterada:</strong>
+            <p>Apesar das mudanças, a placa continua sendo <strong>a expressão externa da identidade do veículo</strong>, juridicamente subordinada à identificação por caracteres gravados no chassi ou no monobloco. A placa <strong>não cria</strong> a identidade do veículo — apenas a representa de forma ostensiva, funcionando como elo entre o veículo em circulação, seus registros administrativos e sua identificação estrutural. <span class="ref-pagina">(p. 24)</span></p>
+        </div>
+    </div>
+
+    <div id="qrcode" class="section">
+        <h2>4. QR Code, Aplicativo VIO e Consulta Senatran</h2>
+        <p>O QR Code inserido nas placas Mercosul constitui elemento de segurança e rastreabilidade que permite verificação rápida da procedência da placa e do vínculo com o veículo registrado. É lido pelo aplicativo <strong>VIO</strong>, ferramenta oficial para leitura e validação. <span class="ref-pagina">(p. 24)</span></p>
+
+        <div class="box-blue">
+            <strong>Fluxo de validação:</strong>
+            <ol>
+                <li>Leitura do QR Code pelo aplicativo <strong>VIO</strong>.</li>
+                <li>Obtenção do <strong>número de série do QR Code</strong> (chave de consulta), vinculado àquela placa específica.</li>
+                <li>Consulta no <strong>Portal de Serviços da Senatran</strong> inserindo-se o número de série no campo apropriado.</li>
+            </ol>
+            <span class="ref-pagina">(p. 24)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Informações retornadas pelo Portal Senatran (Figura 12):</strong>
+            <p><strong>Dados atuais do veículo:</strong> placa vigente, últimos dígitos do chassi, UF de jurisdição, município de registro, marca e modelo, anos de fabricação e modelo, cor do veículo — permitindo verificar coerência da placa com o veículo vinculado no cadastro nacional.</p>
+            <p><strong>Dados da estampagem da placa:</strong> número de série do QR Code, UF e município onde foi estampada, tipo da placa (dianteira ou traseira), situação administrativa (ativa, cancelada etc.), data e hora da estampagem, órgão responsável pela lacração.</p>
+            <p><strong>Dados do fabricante:</strong> CNPJ e razão social da empresa estampadora credenciada. <span class="ref-pagina">(p. 25)</span></p>
+        </div>
+    </div>
+
+    <div id="clonagem" class="section">
+        <h2>5. Clonagem de Placas</h2>
+        <p>A clonagem consiste na <strong>reprodução indevida da placa de identificação externa de um veículo legítimo</strong>, com a finalidade de atribuir a outro veículo — geralmente de mesma marca, modelo e cor semelhantes — uma identidade aparente idêntica, ocultando sua verdadeira origem. <span class="ref-pagina">(p. 25)</span></p>
+
+        <div class="box-red">
+            <strong>Natureza jurídica e técnica da clonagem:</strong>
+            <ul>
+                <li>É <strong>prática criminosa</strong> que explora a função ostensiva da placa.</li>
+                <li>Cria <strong>dissociação intencional</strong> entre a identificação externa e a identificação obrigatória por caracteres gravados no chassi ou monobloco — núcleo da identidade jurídica do veículo.</li>
+                <li>Envolve uso de <strong>placas regulares aparentemente associadas a registros válidos</strong> em bases administrativas, tornando difícil a detecção inicial em fiscalizações rotineiras.</li>
+            </ul>
+            <span class="ref-pagina">(p. 25-26)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Efeitos sobre terceiros de boa-fé:</strong>
+            <p>Os efeitos recaem não apenas sobre o sistema de controle estatal, mas também sobre terceiros de boa-fé, cujos veículos passam a ser indevidamente vinculados a infrações, ilícitos ou crimes praticados pelo veículo clonado. <span class="ref-pagina">(p. 26)</span></p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Identificação pericial da clonagem:</strong>
+            <p>Exige a correlação entre elementos externos e estruturais do veículo, análise de inconsistências documentais e, especialmente nos sistemas mais recentes, <strong>verificação da integridade dos elementos de segurança e da vinculação digital da placa aos registros oficiais</strong>. <span class="ref-pagina">(p. 26)</span></p>
+        </div>
+    </div>
+
+    <div id="mnemonicos" class="section">
+        <h2>6. Mnemônicos e Síntese</h2>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — Combinações alfanuméricas (comparação)</span>
+            <ul>
+                <li><strong>Res. 231/2007:</strong> 3 LETRAS + 4 NÚMEROS (LLL-NNNN)</li>
+                <li><strong>Res. 969/2022 (Mercosul):</strong> 3 LETRAS + 1 NÚMERO + 1 LETRA + 3 NÚMEROS (LLLNLNNN)</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — Elementos da placa Mercosul (Figura 10)</span>
+            <p><strong>EMBANDQR-SIG-HOT-MAR</strong>: EMBlema Mercosul, Nome do país, BANDeira do país, QR code, SIGno distintivo BR, HOT Stamp, MARca d'água.</p>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — Elementos de segurança obrigatórios (Res. 969/2022)</span>
+            <p><strong>Q-S-P-R-I</strong>: <strong>Q</strong>R Code; <strong>S</strong>erial único; <strong>P</strong>adronização de fabricantes; <strong>R</strong>astreabilidade; <strong>I</strong>ntegração com sistemas informatizados.</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Aspecto</th>
+                <th>Res. 231/2007</th>
+                <th>Res. 969/2022 (Mercosul)</th>
+            </tr>
+            <tr>
+                <td>Combinação</td>
+                <td>3 letras + 4 números</td>
+                <td>3 letras + 1 nº + 1 letra + 3 nºs</td>
+            </tr>
+            <tr>
+                <td>Indicação geográfica</td>
+                <td>UF + município</td>
+                <td>Apenas país (nome e símbolo)</td>
+            </tr>
+            <tr>
+                <td>Identificação da categoria</td>
+                <td>Cor do fundo da placa</td>
+                <td>Sistema controlado / QR Code</td>
+            </tr>
+            <tr>
+                <td>Lacre</td>
+                <td>Lacre físico tradicional na traseira</td>
+                <td>Elimina lacre físico; fixação padronizada + controles digitais</td>
+            </tr>
+            <tr>
+                <td>Autenticação</td>
+                <td>Física</td>
+                <td>Física + eletrônica (QR Code, VIO, Senatran)</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script>
+function sendHeight() {
+    var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const o = new MutationObserver(sendHeight);
+    o.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body></html>

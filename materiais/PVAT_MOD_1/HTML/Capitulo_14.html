@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 14 - Avaliação do estado de conservação do veículo</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo I</span>
+        <h1>Capítulo 14 - Avaliação do estado de conservação do veículo</h1>
+        <div class="subtitle">Identificação Veicular</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Premissa: vistoria visual qualificada</a></li>
+            <li><a href="#sec2">2. Exame externo</a></li>
+            <li><a href="#sec3">3. Exame interno</a></li>
+            <li><a href="#sec4">4. Classificação do estado de conservação</a></li>
+            <li><a href="#sec5">5. Hodômetro e veículos acidentados</a></li>
+            <li><a href="#sec6">6. Metodologia de valoração</a></li>
+            <li><a href="#sec7">7. Deságios proporcionais ao estado</a></li>
+            <li><a href="#sec8">8. Veículos estrangeiros e VIN adulterado</a></li>
+            <li><a href="#sec9">9. Síntese: padronização e segurança jurídica</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Premissa: vistoria visual qualificada</h2>
+        <p>A avaliação do veículo deve ser realizada por meio de <strong>vistoria externa e interna</strong>, considerando <strong>exclusivamente o estado de conservação aparente</strong>, isto é, aquilo que pode ser constatado por <strong>inspeção visual qualificada, sem desmontagens ou testes complexos</strong>. <span class="ref-pagina">(p. 65)</span></p>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> A avaliação restringe-se ao que é aparente e observável visualmente. Não há, como regra, desmontagem nem teste funcional de componentes.
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> Como regra, <strong>não é necessário avaliar o funcionamento</strong> de componentes mecânicos, elétricos ou eletrônicos, nem de sistemas que extrapolem o escopo da <strong>Portaria Ditec/PF Nº 1.563</strong>, <em>salvo se houver determinação expressa na requisição de perícia</em>. <span class="ref-pagina">(p. 65)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Exame externo</h2>
+        <p>No exame externo, o perito deve analisar de forma organizada: <span class="ref-pagina">(p. 65)</span></p>
+        <ul>
+            <li>A <strong>pintura</strong>, verificando uniformidade, desgastes, repinturas aparentes e perda de brilho;</li>
+            <li>A <strong>carroceria</strong>, atentando para desalinhamentos, ondulações, deformações, folgas irregulares e reparos visíveis;</li>
+            <li><strong>Avarias superficiais</strong>, tais como riscos, amassamentos, quebras e trincas;</li>
+            <li><strong>Danos aparentes causados por acidentes</strong>, incluindo indícios de colisões anteriores;</li>
+            <li><strong>Sinais de oxidação, corrosão ou deterioração</strong> de componentes metálicos expostos.</li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico Externo: PC-AV-DA-OX</span>
+            <ul>
+                <li><strong>P</strong>intura (uniformidade, repinturas, brilho)</li>
+                <li><strong>C</strong>arroceria (alinhamento, folgas, reparos)</li>
+                <li><strong>AV</strong>arias superficiais (riscos, amassados, trincas)</li>
+                <li><strong>DA</strong>nos de acidente (indícios de colisão)</li>
+                <li><strong>OX</strong>idação / corrosão / deterioração metálica</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Exame interno</h2>
+        <p>No exame interno, devem ser avaliadas as condições: <span class="ref-pagina">(p. 65)</span></p>
+        <ul>
+            <li>Dos <strong>bancos</strong>, quanto a rasgos, desgaste, sujidade ou ausência;</li>
+            <li>Das <strong>forrações e acabamentos internos</strong>, incluindo portas, teto e laterais;</li>
+            <li>Do <strong>painel de instrumentos</strong>, observando integridade, funcionamento aparente e alterações;</li>
+            <li>Dos <strong>revestimentos em geral</strong> e de outros componentes internos ou externos relevantes e facilmente observáveis.</li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico Interno: BA-FO-PA-RE</span>
+            <ul>
+                <li><strong>BA</strong>ncos</li>
+                <li><strong>FO</strong>rrações e acabamentos (portas, teto, laterais)</li>
+                <li><strong>PA</strong>inel de instrumentos</li>
+                <li><strong>RE</strong>vestimentos e demais componentes observáveis</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Classificação do estado de conservação</h2>
+        <p>Com base nessas observações, o estado de conservação geral do veículo deve ser classificado <strong>obrigatoriamente em uma das seguintes categorias</strong>: <span class="ref-pagina">(p. 65)</span></p>
+
+        <div class="box-green">
+            <strong>As 4 categorias obrigatórias:</strong>
+            <ul>
+                <li><strong>Bom</strong></li>
+                <li><strong>Regular</strong></li>
+                <li><strong>Ruim</strong></li>
+                <li><strong>Sucata</strong></li>
+            </ul>
+        </div>
+
+        <p>Essa classificação deve refletir uma <strong>síntese técnica da condição global do veículo</strong>. <span class="ref-pagina">(p. 65)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico das 4 categorias: B-R-R-S</span>
+            <p><strong>B</strong>om → <strong>R</strong>egular → <strong>R</strong>uim → <strong>S</strong>ucata</p>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Hodômetro e veículos acidentados</h2>
+        <p>Sempre que possível, deve ser registrada no laudo a <strong>leitura do hodômetro</strong>, como elemento complementar de contextualização do estado de uso do veículo. <span class="ref-pagina">(p. 65)</span></p>
+
+        <div class="box-blue">
+            <strong>Veículos acidentados / sinistrados:</strong> Nos casos em que o veículo tenha sido objeto de acidente ou sinistro, recomenda-se que a classificação dos danos seja realizada de acordo com a <strong>regulamentação específica do Contran</strong>, categorizando-os como danos de <strong>pequena, média ou grande monta</strong>. Essa classificação deve ser integrada à avaliação do estado de conservação e <strong>influenciar diretamente a etapa de valoração</strong> do veículo. <span class="ref-pagina">(p. 65)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Metodologia de valoração</h2>
+        <p>Após a definição do estado de conservação, o perito deve <strong>descrever expressamente a metodologia adotada</strong> para a avaliação do valor de mercado do veículo. <span class="ref-pagina">(p. 66)</span></p>
+
+        <div class="box-blue">
+            <strong>Regra geral:</strong> A avaliação pode consistir em uma <strong>estimativa superficial</strong>, compatível com os objetivos da perícia criminal, salvo quando a requisição exigir exame mais rigoroso.
+        </div>
+
+        <div class="box-green">
+            <strong>Valor de referência:</strong> Recomenda-se adotar como valor de referência aquele constante da <strong>Tabela FIPE</strong> ou de outras tabelas e sites especializados em comercialização de veículos, <strong>devidamente indicados no laudo</strong>. Sobre esse valor base, devem ser aplicados <strong>deságios proporcionais ao estado de conservação</strong>. <span class="ref-pagina">(p. 66)</span>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Deságios proporcionais ao estado</h2>
+        <p>Intervalos orientativos de deságio: <span class="ref-pagina">(p. 66)</span></p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Estado / Sinistro</th>
+                    <th>Deságio orientativo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Veículos classificados como em <strong>bom estado</strong></td>
+                    <td><strong>10% a 20%</strong></td>
+                </tr>
+                <tr>
+                    <td>Veículos em <strong>estado regular</strong> ou <strong>sinistrados com dano de pequena monta</strong></td>
+                    <td><strong>20% a 50%</strong></td>
+                </tr>
+                <tr>
+                    <td>Veículos em <strong>mau estado</strong> ou <strong>sinistrados com dano de média monta</strong></td>
+                    <td><strong>50% a 70%</strong></td>
+                </tr>
+                <tr>
+                    <td>Veículos classificados como <strong>sucata</strong> ou <strong>sinistrados com dano de grande monta</strong></td>
+                    <td><strong>70% a 95%</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico dos deságios: 10-20 / 20-50 / 50-70 / 70-95</span>
+            <p>Bom (10–20%) → Regular/Peq. monta (20–50%) → Mau/Méd. monta (50–70%) → Sucata/Grande monta (70–95%)</p>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Veículos estrangeiros e VIN adulterado</h2>
+
+        <div class="box-purple">
+            <strong>Veículo estrangeiro sem parâmetro nacional:</strong> Quando o veículo for estrangeiro e inexistir parâmetro direto no mercado nacional, a avaliação pode ser realizada: <span class="ref-pagina">(p. 66)</span>
+            <ul>
+                <li>Por <strong>analogia com veículos similares disponíveis no Brasil</strong>;</li>
+                <li>Por <strong>comparação proporcional com valores no país de origem</strong>; ou</li>
+                <li>Por <strong>outra metodologia que o perito considere tecnicamente mais adequada</strong>, desde que devidamente justificada.</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>VIN adulterado — deságio adicional:</strong> Nos casos em que o veículo apresente <strong>VIN adulterado</strong>, recomenda-se a aplicação de um <strong>deságio adicional de 20%</strong>, em razão da <strong>perda de valor comercial</strong> decorrente dessa condição. <span class="ref-pagina">(p. 66)</span>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Síntese: padronização e segurança jurídica</h2>
+
+        <div class="box-purple">
+            <strong>Citação literal do PDF:</strong> "A avaliação do estado de conservação e da valoração do veículo deve ser conduzida de forma <strong>padronizada, transparente e fundamentada</strong>, permitindo ao leitor do laudo compreender com clareza quais critérios foram observados, quais limites metodológicos foram adotados e como se chegou ao valor estimado." <span class="ref-pagina">(p. 66)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Resultado esperado:</strong> O cumprimento rigoroso da Portaria assegura:
+            <ul>
+                <li><strong>Uniformidade técnica</strong>;</li>
+                <li><strong>Comparabilidade entre laudos</strong>;</li>
+                <li><strong>Maior segurança jurídica</strong> às conclusões periciais.</li>
+            </ul>
+            <span class="ref-pagina">(p. 66)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

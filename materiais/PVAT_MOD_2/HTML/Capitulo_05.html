@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5 - Física Aplicada aos Acidentes de Tráfego</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .formula { background: #1a202c; color: #fbd38d; padding: 14px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 1.05em; text-align: center; margin: 12px 0; font-weight: 600; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo II</span>
+        <h1>Capítulo 5 - Física Aplicada aos Acidentes de Tráfego</h1>
+        <div class="subtitle">Mecânica clássica para reconstituição de acidentes</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec51">5.1 Fundamentos de Mecânica Clássica</a>
+                <ul style="padding-left: 20px;">
+                    <li><a href="#sec511">5.1.1 As Três Leis de Newton</a></li>
+                    <li><a href="#sec512">5.1.2 Cinemática do MUV</a></li>
+                </ul>
+            </li>
+            <li><a href="#sec52">5.2 Energia Cinética e Trabalho</a></li>
+            <li><a href="#sec53">5.3 Velocidade Total e suas Componentes</a>
+                <ul style="padding-left: 20px;">
+                    <li><a href="#sec531">5.3.1 Velocidade de Danos (Vd)</a></li>
+                    <li><a href="#sec532">5.3.2 Velocidade Residual (Vr)</a></li>
+                </ul>
+            </li>
+            <li><a href="#sec54">5.4 Tempo de Frenagem</a></li>
+            <li><a href="#sec55">5.5 Velocidade Limite em Curvas</a>
+                <ul style="padding-left: 20px;">
+                    <li><a href="#sec551">5.5.1 Influência da Superelevação</a></li>
+                </ul>
+            </li>
+            <li><a href="#sec56">5.6 Conservação de Momentum</a></li>
+            <li><a href="#sec57">5.7 Coeficientes de Atrito</a></li>
+            <li><a href="#sec58">5.8 Tempo de Percepção-Reação</a></li>
+        </ul>
+    </div>
+
+    <div id="sec51" class="section">
+        <h2>5.1 Fundamentos de Mecânica Clássica</h2>
+        <p>A reconstituição pericial de acidentes fundamenta-se essencialmente na <strong>mecânica clássica newtoniana</strong>. O perito deve dominar: <span class="ref-pagina">(p. 29)</span></p>
+        <ul>
+            <li><strong>Cinemática</strong> – descrição do movimento sem considerar suas causas;</li>
+            <li><strong>Dinâmica</strong> – relação entre forças e movimento;</li>
+            <li><strong>Leis de conservação</strong> – energia e quantidade de movimento.</li>
+        </ul>
+    </div>
+
+    <div id="sec511" class="section">
+        <h3>5.1.1 As Três Leis de Newton aplicadas aos acidentes</h3>
+
+        <div class="box-blue">
+            <strong>1ª Lei (Inércia):</strong> um corpo em movimento tende a permanecer em movimento retilíneo e uniforme; um corpo em repouso tende a permanecer em repouso.
+            <ul>
+                <li>O veículo em movimento tende a continuar em sua trajetória mesmo após perder contato com a pista (saída de pista) ou após o impacto;</li>
+                <li>O <strong>corpo do ocupante</strong> continua em movimento após a parada brusca do veículo → importância do cinto de segurança;</li>
+                <li>Explica o <strong>mecanismo de projétil</strong> que transforma ocupantes sem cinto em projéteis letais em colisões.</li>
+            </ul>
+        </div>
+
+        <div class="box-blue">
+            <strong>2ª Lei (Princípio Fundamental da Dinâmica):</strong> a força resultante sobre um corpo é igual ao produto de sua massa pela aceleração.
+            <div class="formula">F = m · a</div>
+            <p>No freio, a força de atrito dos pneus com o pavimento é a força resultante que produz a desaceleração. A magnitude depende do <strong>coeficiente de atrito (μ)</strong> e do peso do veículo.</p>
+            <div class="formula">a<sub>frenagem</sub> = μ · g = μ · 9,81 m/s²</div>
+            <p class="ref-pagina">(p. 29)</p>
+        </div>
+
+        <div class="box-orange">
+            <strong>Nota sobre g:</strong> g = 9,81 m/s² varia em cada ponto da superfície terrestre, mas normalmente na 3ª ou 4ª casa decimal. A cada 100 m de altitude: Δg ≈ −0,000309 m/s².
+        </div>
+
+        <div class="box-blue">
+            <strong>3ª Lei (Ação e Reação):</strong> para toda ação, há uma reação igual e de sentido oposto.
+            <ul>
+                <li>Em uma colisão, ambos os veículos exercem forças <strong>iguais e opostas</strong> um sobre o outro;</li>
+                <li>Manifesta-se nas <strong>avarias correspondentes e simétricas</strong> nas áreas de impacto;</li>
+                <li>A <strong>análise das avarias por correspondência</strong> é aplicação direta desta lei. <span class="ref-pagina">(p. 30)</span></li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: I-F-AR (Leis de Newton)</span>
+            <ul>
+                <li><strong>I</strong>nércia → cinto de segurança; projéteis</li>
+                <li><strong>F</strong>=m·a → desaceleração por atrito</li>
+                <li><strong>A</strong>ção e <strong>R</strong>eação → avarias correspondentes</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec512" class="section">
+        <h3>5.1.2 Cinemática do Movimento Retilíneo (MUV)</h3>
+        <p>Para cálculo de velocidades em acidentes, utilizam-se as equações do <strong>Movimento Uniformemente Variado (MUV)</strong>, que descrevem a desaceleração (frenagem):</p>
+
+        <h4>Tabela 7 – Fórmulas básicas (MUV)</h4>
+        <table>
+            <tr><th>Equação</th><th>Variáveis</th><th>Aplicação</th></tr>
+            <tr><td><div class="formula" style="margin:0;padding:8px;">V² = V₀² − 2·a·S</div></td><td>V=vel. final, V₀=vel. inicial, a=desaceleração, S=distância</td><td>Velocidade a partir de marcas de frenagem.</td></tr>
+            <tr><td><div class="formula" style="margin:0;padding:8px;">V = V₀ − a·t</div></td><td>t=tempo de frenagem</td><td>Tempo para a desaceleração.</td></tr>
+            <tr><td><div class="formula" style="margin:0;padding:8px;">S = V₀·t − ½·a·t²</div></td><td>S=distância percorrida</td><td>Distância de frenagem para um dado tempo.</td></tr>
+            <tr><td><div class="formula" style="margin:0;padding:8px;">S = (V₀ + V)·t / 2</div></td><td>Velocidade média</td><td>Estimativa rápida de distância.</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 30)</p>
+
+        <div class="box-red">
+            <strong>Atenção – Inclinação:</strong>
+            <ul>
+                <li>Superfície plana → a<sub>fre</sub> = μ · g = μ · 9,81 m/s²;</li>
+                <li>Com inclinação → <strong>μ' = μ ± tg(α)</strong>, onde α é o ângulo de aclive (+) ou declive (−).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec52" class="section">
+        <h2>5.2 Energia Cinética e Trabalho</h2>
+        <p>A <strong>energia cinética (Ec)</strong> é a forma de energia que o sistema de frenagem (e mecanismos de dissipação como deformação estrutural) precisa absorver para parar o veículo: <span class="ref-pagina">(p. 30)</span></p>
+
+        <div class="formula">Ec = ½ · m · V²</div>
+
+        <p>O <strong>trabalho (T)</strong> realizado pela força de atrito durante a frenagem:</p>
+
+        <div class="formula">T = P · d · μ = m · g · d · μ</div>
+
+        <p>Igualando energia cinética ao trabalho de frenagem (princípio da conservação de energia): <span class="ref-pagina">(p. 31)</span></p>
+
+        <div class="formula">½ · m · V² = m · g · d · μ → V² = 2 · g · d · μ</div>
+
+        <div class="box-green">
+            <strong>Importante:</strong> a massa <strong>m cancela</strong> na simplificação → a <strong>velocidade de arrastamento independe da massa</strong> do veículo!
+        </div>
+
+        <div class="box-blue">
+            <strong>Velocidade de arrastamento (Va) – fórmulas práticas:</strong>
+            <div class="formula">Va = 4,4294 · √(d · μ)   [m/s]</div>
+            <div class="formula">Va = 15,946 · √(d · μ)   [km/h]</div>
+            <p>Substituindo g = 9,81 m/s² e convertendo: 1 m/s ↔ 3,6 km/h.</p>
+        </div>
+    </div>
+
+    <div id="sec53" class="section">
+        <h2>5.3 Velocidade Total e suas Componentes</h2>
+        <p>Em acidentes complexos, a velocidade total <strong>não pode ser calculada por uma única fase</strong>. O <strong>método das parcelas de velocidade</strong> decompõe a energia cinética total em componentes identificáveis pelos vestígios: <span class="ref-pagina">(p. 31)</span></p>
+
+        <div class="formula" style="font-size: 1.2em;">Vt = √(Va² + Vd² + Vr²)</div>
+
+        <h4>Tabela 8 – Parcelas componentes da velocidade total (Vt)</h4>
+        <table>
+            <tr><th>Símbolo</th><th>Denominação</th><th>Vestígios de Medição</th><th>Fórmula</th></tr>
+            <tr><td><strong>Va</strong></td><td>Velocidade de <strong>Arrastamento</strong></td><td>Marcas de frenagem e derrapagem antes da colisão (rotação e translação dos veículos, incluindo guinadas).</td><td>Va = 15,946·√(da · μ)</td></tr>
+            <tr><td><strong>Vd</strong></td><td>Velocidade de <strong>Danos</strong></td><td>Avarias nos veículos, deformação estrutural.</td><td>Tabelas e metodologias específicas (ex.: método CRASH3, crash tests).</td></tr>
+            <tr><td><strong>Vr</strong></td><td>Velocidade <strong>Residual</strong></td><td>Marcas de frenagem/rolamento livre ou com marcha engatada/giro após a colisão.</td><td>Vr = 15,946·√(dr · μr)</td></tr>
+            <tr><td><strong>Vic</strong></td><td>Velocidade no Instante da <strong>Colisão</strong></td><td>Calculada indiretamente.</td><td>Vic = √(Vt² − Va²)</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 32)</p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: A-D-R-C (Parcelas da velocidade)</span>
+            <p><strong>A</strong>rrastamento + <strong>D</strong>anos + <strong>R</strong>esidual → reconstituem a velocidade pré-acidente. <strong>C</strong>olisão (Vic) calculada indiretamente.</p>
+        </div>
+    </div>
+
+    <div id="sec531" class="section">
+        <h3>5.3.1 Velocidade de Danos (Vd)</h3>
+        <p>Corresponde à parcela de energia cinética dissipada na <strong>deformação inelástica (permanente)</strong> das estruturas envolvidas no impacto. <span class="ref-pagina">(p. 32)</span></p>
+
+        <div class="box-orange">
+            <strong>Componente mais difícil de calcular com precisão</strong> – depende:
+            <ul>
+                <li>Propriedades mecânicas dos materiais;</li>
+                <li>Geometrias de impacto;</li>
+                <li>Rigidez estrutural de cada veículo.</li>
+            </ul>
+        </div>
+
+        <div class="box-blue">
+            <strong>Método CRASH</strong> (Calspan Reconstruction of Accident Speeds on the Highway):
+            <ul>
+                <li>Amplamente utilizado nos EUA e Alemanha;</li>
+                <li>Estima Vd com base na profundidade e extensão das deformações;</li>
+                <li>Usa parâmetros de rigidez específicos de cada modelo (crash tests controlados).</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>NO BRASIL — atenção:</strong> o método CRASH é usado às vezes de forma simplificada (experiência empírica + tabelas adaptadas). <strong>NÃO é método científico recomendado</strong>, pois não traz resultados verificáveis. Tabelas que referenciam "X km/h" para amassamento de para-choque ou porta <strong>NÃO devem ser utilizadas</strong> pelo perito — a não ser que exista referência científica que corrobore tais valores. <span class="ref-pagina">(p. 33)</span>
+        </div>
+    </div>
+
+    <div id="sec532" class="section">
+        <h3>5.3.2 Velocidade Residual (Vr)</h3>
+        <p>Velocidade remanescente do veículo <strong>imediatamente após a colisão</strong>, calculada a partir dos vestígios de movimentação pós-impacto. <span class="ref-pagina">(p. 33)</span></p>
+
+        <h4>Modalidades pós-impacto e coeficientes</h4>
+        <table>
+            <tr><th>Modalidade</th><th>Coeficiente μ</th><th>Observação</th></tr>
+            <tr><td><strong>Derrapagem</strong></td><td>Similar ao de frenagem</td><td>Vestígios típicos de pneus travados.</td></tr>
+            <tr><td><strong>Rolamento livre</strong></td><td>μ ≈ 0,01 a 0,02</td><td>Pneu calibrado.</td></tr>
+            <tr><td><strong>Veículo engatado (marcha)</strong></td><td>μ ≈ 0,03 a 0,1</td><td>Depende da marcha e do motor (F_res = F_rolamento + F_motor + F_transmissão).</td></tr>
+            <tr><td><strong>Roda travada por dano</strong></td><td>Similar ao de frenagem</td><td>Analisar caso a caso se houve dano gerando atrito.</td></tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>A tabela de coeficientes de atrito do Anexo da apostila</strong> fornece os valores de μ para diferentes superfícies e condições.
+        </div>
+    </div>
+
+    <div id="sec54" class="section">
+        <h2>5.4 Tempo de Frenagem</h2>
+        <p>Essencial para análise do <strong>Sítio de Não Escapada</strong> e estudos de <strong>velocidade excessiva × interceptação</strong>. <span class="ref-pagina">(p. 33)</span></p>
+
+        <div class="box-blue">
+            <strong>Fórmulas (Tempo de frenagem Tfre):</strong>
+            <div class="formula">Tfre = Vfre² / (254,275 · μ)</div>
+            <p style="text-align:center;">ou</p>
+            <div class="formula">Tfre = (7,2 · Df) / (Vic + V)</div>
+            <p>Onde: <strong>Df</strong> = distância de frenagem (m); <strong>Vfre</strong> = velocidade equivalente à energia cinética dispendida com a frenagem (km/h); <strong>Vic</strong> = velocidade no instante da colisão (km/h); <strong>V</strong> = velocidade no início da frenagem (km/h).</p>
+        </div>
+
+        <div class="box-red">
+            <strong>Atenção:</strong> estas fórmulas fornecem o <strong>tempo de frenagem puro</strong>, a partir do momento em que o freio está plenamente acionado. <strong>NÃO incluem:</strong>
+            <ul>
+                <li>O tempo de percepção-reação;</li>
+                <li>O tempo de acionamento progressivo do freio (<strong>brake lag</strong>) — adiciona ~0,1 a 0,3 s antes da desaceleração plena. <span class="ref-pagina">(p. 34)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec55" class="section">
+        <h2>5.5 Velocidade Limite em Curvas</h2>
+        <p>É aquela <strong>além da qual a força centrípeta</strong> necessária para manter o veículo na trajetória supera a <strong>força de atrito lateral máxima</strong> disponível. Quando excedida, o veículo abandona a trajetória curva, prosseguindo em linha reta por inércia. <span class="ref-pagina">(p. 34)</span></p>
+
+        <div class="box-blue">
+            <strong>Velocidade limite em curva (sem superelevação):</strong>
+            <div class="formula">Vlim = √(g · R · μ)   [m/s]</div>
+            <div class="formula">Vlim = 11,27 · √(R · μ)   [km/h]</div>
+            <p>Onde <strong>R</strong> = raio de curvatura (m).</p>
+        </div>
+
+        <h4>Determinação do raio – método da corda e da flecha</h4>
+        <div class="formula">R = (d² + D²) / (2 · d)</div>
+        <p><strong>D</strong> = metade do comprimento da corda medida entre dois pontos na borda interna da curva; <strong>d</strong> = flecha (distância perpendicular da corda ao arco, medida na metade da corda).</p>
+
+        <div class="box-blue">
+            <strong>Raio mínimo de curvatura para uma dada velocidade:</strong>
+            <div class="formula">Rmin = V² / (127 · μ)</div>
+            <p class="ref-pagina">(p. 35)</p>
+        </div>
+    </div>
+
+    <div id="sec551" class="section">
+        <h3>5.5.1 Influência da Superelevação</h3>
+        <p>Em curvas com <strong>superelevação</strong> (inclinação transversal voltada para o interior da curva), a força centrífuga é parcialmente compensada pela componente do peso. <span class="ref-pagina">(p. 35)</span></p>
+
+        <div class="box-blue">
+            <strong>Fórmula corrigida:</strong>
+            <div class="formula">Vlim = √(g · R · (μ + tg θ))</div>
+            <p>Onde <strong>tg θ</strong> é a tangente do ângulo de superelevação (adimensional).</p>
+            <ul>
+                <li>Valores típicos: <strong>0,06 a 0,12</strong> para rodovias;</li>
+                <li>Pode aparecer na literatura como <strong>"taxa de superelevação"</strong>;</li>
+                <li><strong>Máximo permitido no Brasil</strong> (Manual de Projetos Geométricos de Rodovias Rurais): <strong>12%</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Para perícia:</strong> a superelevação deve ser medida no local com instrumento adequado — <strong>nível de bolha ou inclinômetro</strong>.
+        </div>
+    </div>
+
+    <div id="sec56" class="section">
+        <h2>5.6 Conservação de Quantidade de Movimento (Momentum)</h2>
+        <p>Em colisões, o princípio da conservação da quantidade de movimento aplica-se quando a força de atrito pode ser desprezada durante o breve intervalo do impacto. <span class="ref-pagina">(p. 35-36)</span></p>
+
+        <div class="formula">p = m · V</div>
+
+        <div class="box-blue">
+            <strong>Colisão entre dois veículos:</strong>
+            <div class="formula">m₁·V₁<sub>pré</sub> + m₂·V₂<sub>pré</sub> = m₁·V₁<sub>pós</sub> + m₂·V₂<sub>pós</sub></div>
+            <strong>Colisão perfeitamente inelástica:</strong>
+            <div class="formula">m₁·V₁<sub>pré</sub> + m₂·V₂<sub>pré</sub> = (m₁ + m₂)·V<sub>pós</sub></div>
+        </div>
+
+        <div class="box-red">
+            <strong>Limitações do PCQM (Princípio da Conservação da Quantidade de Movimento):</strong>
+            <ul>
+                <li>Requer conhecimento <strong>preciso das massas</strong>;</li>
+                <li>Requer conhecimento <strong>preciso das direções de movimento</strong>;</li>
+                <li>Só aplicável quando o <strong>coeficiente de restituição</strong> pode ser estimado.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec57" class="section">
+        <h2>5.7 Coeficientes de Atrito</h2>
+        <p>O <strong>coeficiente de atrito (μ)</strong> é o parâmetro <strong>mais importante e ao mesmo tempo o mais incerto</strong> nos cálculos de velocidade. Representa a razão entre a força de atrito máxima que o pavimento exerce sobre os pneus e a força normal. <span class="ref-pagina">(p. 36)</span></p>
+
+        <div class="box-orange">
+            <strong>NÃO CONFUNDIR:</strong> a força normal (depende do componente do peso a 90° da superfície, associada à massa) com o coeficiente de atrito.
+        </div>
+
+        <h4>Fatores que influenciam μ</h4>
+        <ul>
+            <li>Tipo de pavimento (asfalto, concreto, paralelepípedo, terra, cascalho);</li>
+            <li>Estado de conservação do pavimento (novo, desgastado, com buracos);</li>
+            <li>Condição da superfície (seco, molhado, lama, óleo, nevado, gelado);</li>
+            <li>Temperatura do pavimento (asfalto quente → menor μ);</li>
+            <li>Velocidade do veículo (μ diminui com o aumento da velocidade);</li>
+            <li>Estado dos pneus (novo, desgastado, calibragem);</li>
+            <li>Tipo de pneu (liso, com sulcos, mud terrain).</li>
+        </ul>
+
+        <div class="box-blue">
+            <strong>Como determinar μ na perícia:</strong>
+            <ol>
+                <li><strong>Ensaios dinâmicos no local</strong> com o próprio veículo envolvido (preferencial);</li>
+                <li>Veículo similar (alternativa);</li>
+                <li>Equipamentos de medição calibrados;</li>
+                <li>Tabelas de coeficientes consagradas na literatura (Anexo da apostila).</li>
+            </ol>
+            <p>O <strong>Método de Monte Carlo (Cap. 11)</strong> é indispensável para quantificar a incerteza decorrente da variabilidade de μ. <span class="ref-pagina">(p. 37)</span></p>
+        </div>
+
+        <div class="box-purple">
+            <strong>Terminologia – coeficiente de atrito vs. coeficiente de arrasto (drag factor):</strong>
+            <ul>
+                <li><strong>Coeficiente de atrito</strong> em sentido estrito = obtido em condições controladas (ensaios laboratoriais);</li>
+                <li><strong>Coeficiente de arrasto</strong> = valor efetivo usado na perícia, incorpora geometria da via, condição dos pneus, irregularidades, contaminantes, temperatura, distribuição de carga;</li>
+                <li>Por convenção consolidada na <strong>prática pericial brasileira</strong>, ambos são usados como sinônimos, sendo "coeficiente de atrito" o termo predominante.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec58" class="section">
+        <h2>5.8 Tempo de Percepção-Reação (Tp)</h2>
+        <p>Intervalo entre a <strong>percepção do perigo</strong> pelo condutor e a <strong>materialização da reação</strong> (início da frenagem, desvio de direção etc.). <strong>Não é valor fixo</strong> — varia significativamente entre indivíduos e situações. <span class="ref-pagina">(p. 38)</span></p>
+
+        <h4>Fatores que influenciam o Tp</h4>
+        <ul>
+            <li><strong>Esperado × inesperado</strong> – riscos antecipados têm Tp menor;</li>
+            <li><strong>Estado de alerta</strong> – fadiga, sono, álcool e drogas aumentam o Tp;</li>
+            <li><strong>Complexidade da situação</strong> – múltiplos estímulos retardam a resposta;</li>
+            <li><strong>Distração</strong> – celular, conversação intensa, operação de sistemas;</li>
+            <li><strong>Idade</strong> – condutores mais velhos tendem a ter Tp ligeiramente maior.</li>
+        </ul>
+
+        <h4>Tabela 9 – Tempos de Percepção-Reação típicos para laudos</h4>
+        <table>
+            <tr><th>Condição</th><th>Tpr típico (s)</th><th>Observação</th></tr>
+            <tr><td>Condutor alerta, situação esperada</td><td><strong>0,75 – 1,00</strong></td><td>Situações controladas de laboratório.</td></tr>
+            <tr><td>Condutor normal, "semi-esperada"</td><td><strong>1,00 – 1,50</strong></td><td><strong>MAIS UTILIZADO em perícias</strong> — referência: <strong>1,125 s = 9/8 s</strong>.</td></tr>
+            <tr><td>Condutor não atento, situação inesperada</td><td><strong>1,50 – 2,50</strong></td><td>Indícios de distração ou alcoolemia.</td></tr>
+            <tr><td>Condutor com redução de capacidade (sono, álcool)</td><td><strong>2,00 – 3,50</strong></td><td>Evidências de perda de funções motoras.</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 38)</p>
+
+        <div class="box-orange">
+            <strong>Terminologia:</strong> "Tempo Psicotécnico" é amplamente usado para descrever o Tempo de Percepção-Reação, apesar de o primeiro ser tipicamente utilizado para tempos de resposta em condições controladas (laboratório).
+        </div>
+
+        <div class="box-blue">
+            <strong>Distância percorrida durante o Tp (sem frenagem):</strong>
+            <div class="formula">Dpr = (V · Tp) / 3,6   [metros, com V em km/h]</div>
+        </div>
+
+        <div class="box-red">
+            <strong>NOTA IMPORTANTE (p. 39):</strong> no Brasil, <strong>Tp = 1,125 s (9/8 s)</strong> é amplamente adotado em laudos por representar boa aproximação para o condutor médio em situação não antecipada. O <strong>Método de Monte Carlo (Cap. 11)</strong> permite trabalhar com distribuições probabilísticas de Tp, eliminando a necessidade de arbitrar um valor único.
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 9/8 = 1,125 s (Tp padrão brasileiro)</span>
+            <p>Para condutor médio em situação semi-esperada → referência brasileira consolidada.</p>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const o = new MutationObserver(sendHeight);
+    o.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

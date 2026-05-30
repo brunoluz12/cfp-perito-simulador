@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 11 - Método de Monte Carlo Aplicado à Perícia</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .formula { background: #1a202c; color: #fbd38d; padding: 14px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 1.05em; text-align: center; margin: 12px 0; font-weight: 600; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo II</span>
+        <h1>Capítulo 11 - Método de Monte Carlo (MMC)</h1>
+        <div class="subtitle">Análise probabilística aplicada à perícia de acidentes de tráfego</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec111">11.1 Introdução e Motivação</a></li>
+            <li><a href="#sec112">11.2 Fundamentos Históricos e Matemáticos</a></li>
+            <li><a href="#sec113">11.3 Distribuições de Probabilidade</a></li>
+            <li><a href="#sec114">11.4 Implementação Passo a Passo</a></li>
+            <li><a href="#sec115">11.5 Convergência e Nº de Simulações</a></li>
+            <li><a href="#sec116">11.6 Análise de Sensibilidade</a></li>
+            <li><a href="#sec117">11.7 MMC em Velocidade × Interceptação</a></li>
+            <li><a href="#sec118">11.8 MMC em Colisões com Múltiplos Vestígios</a></li>
+            <li><a href="#sec119">11.9 Correlação entre Parâmetros</a></li>
+            <li><a href="#sec1110">11.10 Incerteza de Medição vs. Epistêmica</a></li>
+            <li><a href="#sec1111">11.11 Apresentação no Laudo</a></li>
+            <li><a href="#sec1112">11.12 Ferramentas e Software</a></li>
+            <li><a href="#sec1113">11.13 Aplicações Avançadas</a></li>
+            <li><a href="#sec1114">11.14 Limitações e Cuidados</a></li>
+        </ul>
+    </div>
+
+    <div id="sec111" class="section">
+        <h2>11.1 Introdução e Motivação</h2>
+        <p>O <strong>Método de Monte Carlo (MMC)</strong> representa um avanço fundamental: em vez de calcular uma única velocidade "verdadeira", o MMC <strong>quantifica explicitamente a incerteza</strong> de cada parâmetro de entrada e propaga essa incerteza até o resultado. O produto não é um número único, mas uma <strong>distribuição de probabilidade</strong> das velocidades possíveis, com intervalos de confiança rigorosamente calculados. <span class="ref-pagina">(p. 67)</span></p>
+
+        <div class="box-purple">
+            <em>"Em vez de afirmar 'a velocidade era de 73 km/h', o perito pode afirmar com rigor científico 'a velocidade era de 73 km/h com 90% de probabilidade no intervalo de 65 a 82 km/h', o que é tecnicamente mais honesto e juridicamente mais robusto."</em>
+        </div>
+
+        <div class="box-blue">
+            <strong>Origem do nome:</strong> "Monte Carlo" em referência ao <strong>cassino de Mônaco</strong>, onde jogos de azar com resultados aleatórios eram o centro das atividades. Analogia: assim como no cassino, os resultados individuais são imprevisíveis, mas a distribuição de probabilidades é bem definida.
+        </div>
+    </div>
+
+    <div id="sec112" class="section">
+        <h2>11.2 Fundamentos Históricos e Matemáticos</h2>
+
+        <h3>11.2.1 Origem e Desenvolvimento</h3>
+        <p>Formalmente desenvolvido durante o <strong>Projeto Manhattan</strong> (bomba atômica, 1942-1945) pelos matemáticos <strong>John von Neumann, Stanislaw Ulam</strong> e <strong>Nicholas Metropolis</strong>. <span class="ref-pagina">(p. 67-68)</span></p>
+
+        <div class="box-blue">
+            <strong>Curiosidades históricas:</strong>
+            <ul>
+                <li>Ulam teve a ideia original enquanto se recuperava de uma doença, jogando paciência;</li>
+                <li>Von Neumann e Ulam desenvolveram o método para resolver equações de <strong>difusão de nêutrons em reatores nucleares</strong>;</li>
+                <li>O nome "Monte Carlo" foi proposto por <strong>Metropolis</strong>, em referência ao cassino de Mônaco — o <strong>tio de Ulam</strong> era frequentador assíduo.</li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Transição para acidentes de tráfego:</strong> ocorreu nas décadas de <strong>1980 e 1990</strong>, com computadores pessoais potentes o suficiente para milhares de simulações. Trabalho pioneiro de <strong>Fonda e Bhavnani (1992)</strong> e <strong>Wach (2010-2016)</strong>.
+        </div>
+
+        <h3>11.2.2 Fundamentos Matemáticos</h3>
+        <div class="box-blue">
+            <strong>Lei dos Grandes Números:</strong> à medida que o número de experimentos aleatórios cresce, a média dos resultados converge para o valor esperado.
+            <div class="formula">(1/n) · Σ Xᵢ → E[X]   quando n → ∞</div>
+        </div>
+
+        <p>A velocidade estimada pode ser expressa como função de vários parâmetros com incerteza:</p>
+        <div class="formula">V = f(d, μ, α, Tp, ...) = 15,946 · √(d × μ')</div>
+
+        <div class="box-blue">
+            <strong>Mecânica do MMC:</strong> se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), então V também é variável aleatória com distribuição P(V). O MMC:
+            <ol>
+                <li>Gera n pares (dᵢ, μᵢ) amostrados das distribuições;</li>
+                <li>Calcula Vᵢ = f(dᵢ, μᵢ) para cada par;</li>
+                <li>A distribuição empírica dos Vᵢ é a estimativa de P(V). <span class="ref-pagina">(p. 68)</span></li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="sec113" class="section">
+        <h2>11.3 Distribuições de Probabilidade Utilizadas</h2>
+
+        <h4>Tabela 15 – Principais distribuições</h4>
+        <table>
+            <tr><th>Distribuição</th><th>Notação</th><th>Quando usar</th><th>Exemplo pericial</th></tr>
+            <tr>
+                <td><strong>Normal (Gaussiana)</strong></td><td>N (μ, σ)</td>
+                <td>Medições com erros aleatórios simétricos; valores centrais mais prováveis.</td>
+                <td>Coeficiente de arrasto (μ) quando há análise das condições da superfície ou medição com equipamento. <strong>Desvio-padrão típico: 0,05</strong> (estudos consolidados). Também variáveis de distância mensuráveis (marcas de frenagem) — <strong>30 repetições</strong> é a referência amostral.</td>
+            </tr>
+            <tr>
+                <td><strong>Uniforme</strong></td><td>U (a, b)</td>
+                <td>Total incerteza; qualquer valor no intervalo igualmente plausível.</td>
+                <td>Velocidade de danos quando só se sabe que está entre 15 e 35 km/h. <strong>Mais conservadora</strong> na ausência de evidência de centralidade. Para medidas sem repetição: desvio típico de 0,5 m.</td>
+            </tr>
+            <tr>
+                <td><strong>Triangular</strong> (pouco usada)</td><td>T (a, c, b)</td>
+                <td>Há um valor mais provável (moda) dentro de um intervalo.</td>
+                <td>T (0,65; 0,80; 0,95) para asfalto seco normal. Útil quando há poucos referenciais sobre condições da pista.</td>
+            </tr>
+            <tr>
+                <td><strong>Log-normal</strong></td><td>LN (μ, σ)</td>
+                <td>Variável positiva com assimetria à direita; típica de tempos.</td>
+                <td>Útil para <strong>Tempo de Percepção-Reação (Tp)</strong> — valores baixos mais prováveis que altos.</td>
+            </tr>
+            <tr>
+                <td><strong>Beta</strong></td><td>B(α, β)</td>
+                <td>Variável limitada no intervalo [0,1], formas flexíveis.</td>
+                <td>Coeficiente de atrito normalizado quando bem caracterizado.</td>
+            </tr>
+        </table>
+        <p class="ref-pagina">(p. 69-70)</p>
+
+        <h3>11.3.1 Distribuição para a Distância de Frenagem</h3>
+        <div class="box-blue">
+            <ul>
+                <li>Medida em campo com <strong>trena metálica, trena de fibra, medidor a laser</strong>;</li>
+                <li>Marcas bem preservadas → <strong>Normal</strong> com σ ≈ 2 a 5% do valor medido (alternativa: 0,5 m);</li>
+                <li>Marcas parcialmente apagadas → <strong>Uniforme</strong> (mais conservadora). <span class="ref-pagina">(p. 70-71)</span></li>
+            </ul>
+        </div>
+
+        <h3>11.3.2 Distribuição para o Coeficiente de Atrito</h3>
+        <div class="box-blue">
+            <strong>É a maior fonte de incerteza</strong> no cálculo de velocidade por marcas pneumáticas.
+            <ul>
+                <li><strong>Normal (Gaussiana)</strong> – metodologia mais utilizada. Requer análise das condições ou medição com equipamento (drag sled, célula eletrônica, skidmeter, Vericom VC2000/3000/4000). Desvio-padrão: <strong>0,05</strong>;</li>
+                <li><strong>Triangular</strong> – quando há alto nível de incerteza (perícia indireta, apenas fotos do local, perícia tardia). Ex.: T (0,65; 0,80; 0,95) para asfalto seco em boas condições. <span class="ref-pagina">(p. 71)</span></li>
+            </ul>
+        </div>
+
+        <h3>11.3.3 Distribuição do Tempo de Percepção-Reação (Tp)</h3>
+        <h4>Tabela 16 – Sugestões de desvios-padrão</h4>
+        <table>
+            <tr><th>Situação</th><th>Distribuição</th><th>Média</th><th>σ ou range</th></tr>
+            <tr><td>Estímulo esperado, simples</td><td>Normal</td><td>0,7 s</td><td>σ ≈ 0,15 s</td></tr>
+            <tr><td>Situação de tráfego complexa</td><td>Normal ou log-normal</td><td>1,5 s</td><td>σ ≈ 0,4 s</td></tr>
+            <tr><td>Estímulo inesperado, noturno, idoso</td><td>Uniforme ou normal truncada</td><td>2,0–2,5 s</td><td>range 1,5–3,0 s</td></tr>
+        </table>
+        <p>Literatura especializada: <strong>Olson & Sivak, Green, Summala</strong>. <span class="ref-pagina">(p. 72)</span></p>
+
+        <h3>11.3.4 Resumo (Tabela 17 – BARTLETT et al., 2002)</h3>
+        <p>Baseado no artigo "Evaluating the Uncertainty in Various Measurement Tasks Common to Accident Reconstruction" (SAE 2002-01-0546):</p>
+        <table>
+            <tr><th>Variável</th><th>Distribuição</th><th>Justificativa</th></tr>
+            <tr><td>Coef. de atrito (medido ou bem embasado)</td><td><strong>Normal</strong></td><td>Dados empíricos do artigo.</td></tr>
+            <tr><td>Coef. de atrito (estimado por tabela)</td><td><strong>Uniforme</strong></td><td>Sem evidência de centralidade.</td></tr>
+            <tr><td>Comprimento de frenagem (medido)</td><td><strong>Normal</strong></td><td>σ ≈ 0,5 m</td></tr>
+            <tr><td>Raio de yawmark (guinada lateral)</td><td><strong>Normal</strong></td><td>σ ≈ 4,6% da média</td></tr>
+            <tr><td>Ângulos em campo</td><td><strong>Normal</strong></td><td>σ ≈ 0,56°</td></tr>
+            <tr><td>Crush (CRASH3)</td><td><strong>Normal</strong></td><td>σ elevado (~12,7 cm)</td></tr>
+            <tr><td>Crush (estimativa por foto)</td><td>Normal ou Uniforme</td><td>Incerteza maior.</td></tr>
+            <tr><td>TPR (condição complexa)</td><td><strong>Log-normal</strong></td><td>Assimetria à direita; limite inferior físico.</td></tr>
+            <tr><td>TPR (sem dados específicos)</td><td><strong>Uniforme</strong></td><td>Conservador.</td></tr>
+            <tr><td>Velocidades estimadas</td><td>Normal propagada</td><td>Deriva do μ e da distância (ambos normais).</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 72-73)</p>
+
+        <div class="box-orange">
+            <strong>NOTA importante:</strong> como Ec = ½mv², se V segue distribuição normal, a energia cinética seguirá <strong>distribuição levemente assimétrica</strong>. No MMC isso é tratado automaticamente — basta sortear V com normal e calcular Ec a cada iteração.
+        </div>
+    </div>
+
+    <div id="sec114" class="section">
+        <h2>11.4 Implementação Passo a Passo do MMC</h2>
+
+        <div class="box-blue">
+            <strong>Passo 1: Definir os parâmetros e suas distribuições</strong>
+            <p>Para cada parâmetro com incerteza, definir: tipo de distribuição, parâmetros (média, desvio, min, max, moda) e <strong>justificativa técnica documentada no laudo</strong>. <span class="ref-pagina">(p. 73)</span></p>
+        </div>
+
+        <h4>Tabela 18 – Exemplo (frenagem 18 m em asfalto seco)</h4>
+        <table>
+            <tr><th>Parâmetro</th><th>Distribuição</th><th>Valores</th><th>Justificativa</th></tr>
+            <tr><td>Distância (d)</td><td>Normal</td><td>N(18,0; 0,5) m</td><td>Trena metálica; σ ≈ 2,8% (BARTLETT 2002).</td></tr>
+            <tr><td>Coef. atrito (μ)</td><td>Normal</td><td>N(0,76; 0,08)</td><td>Asfalto seco; ~100 ensaios @50 mph (BARTLETT 2002, Tab. 4).</td></tr>
+            <tr><td>Inclinação (α)</td><td>Normal</td><td>N(0,0°; 0,3°)</td><td>Inclinômetro; terreno plano.</td></tr>
+            <tr><td>Velocidade danos (Vd)</td><td>Uniforme</td><td>U(10; 25) km/h</td><td>Danos moderados; incerteza metodológica.</td></tr>
+            <tr><td>Vel. residual (Vr)</td><td>Normal</td><td>N(22,1; 1,5) km/h</td><td>Marcas pós-impacto preservadas.</td></tr>
+        </table>
+
+        <div class="box-blue">
+            <strong>Passo 2: Gerar amostras aleatórias</strong>
+            <p>Para cada simulação i, gera-se conjunto de valores aleatórios. Com <strong>n = 10.000 simulações</strong>, tempo computacional em notebook moderno é <strong>inferior a 1 segundo</strong> para velocidade por marcas pneumáticas. Para múltiplos veículos com momentum, <strong>n = 50.000</strong> ainda é viável em segundos. <span class="ref-pagina">(p. 74)</span></p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Passo 3: Calcular o resultado para cada amostra</strong>
+            <p>Para cada conjunto (dᵢ, μᵢ etc.), calcula-se Vᵢ usando as fórmulas periciais convencionais. Cada simulação representa um <strong>"mundo possível"</strong> compatível com os vestígios.</p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Passo 4: Analisar a distribuição dos resultados</strong>
+            <ul>
+                <li><strong>Média (E[V])</strong> – valor esperado;</li>
+                <li><strong>Mediana (P50)</strong> – valor central; menos sensível a extremos;</li>
+                <li><strong>Desvio-padrão (σ_V)</strong> – dispersão total;</li>
+                <li><strong>Percentis P5 e P95</strong> – limites do IC <strong>90%</strong>;</li>
+                <li><strong>Percentis P2,5 e P97,5</strong> – limites do IC <strong>95%</strong>;</li>
+                <li><strong>P(V > Vlimite)</strong> – fração das simulações acima do limite legal.</li>
+            </ul>
+        </div>
+
+        <h4>Tabela 19 – Interpretação do exemplo (18 m de frenagem)</h4>
+        <table>
+            <tr><th>Estatística</th><th>Valor</th><th>Significado</th></tr>
+            <tr><td>Média</td><td>71,1 km/h</td><td>Estimativa central.</td></tr>
+            <tr><td>Mediana (P50)</td><td>71,1 km/h</td><td>50% acima/abaixo. Coincidência com média → distribuição praticamente simétrica.</td></tr>
+            <tr><td>Desvio-padrão</td><td>3,7 km/h</td><td>Dispersão propagada de todas as incertezas.</td></tr>
+            <tr><td><strong>P5 (IC90% inferior)</strong></td><td><strong>65,0 km/h</strong></td><td>Apenas 5% das simulações abaixo. <strong>Estimativa conservadora mínima defensável</strong>.</td></tr>
+            <tr><td><strong>P95 (IC90% superior)</strong></td><td><strong>77,1 km/h</strong></td><td>IC90% = [65,0; 77,1] km/h.</td></tr>
+            <tr><td>P(V > 60 km/h)</td><td>95,2%</td><td>Probabilidade de superar o limite regulamentado.</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 75)</p>
+
+        <div class="box-red">
+            <strong>NOTA central para o laudo:</strong> o <strong>intervalo de confiança de 90% [60,1 – 77,4 km/h]</strong> é a informação central. Afirma que, dadas as incertezas, há 90% de probabilidade de que a velocidade real estivesse nesse intervalo. Valores fora são possíveis, mas improváveis. <span class="ref-pagina">(p. 76)</span></p>
+        </div>
+    </div>
+
+    <div id="sec115" class="section">
+        <h2>11.5 Convergência e Número de Simulações</h2>
+        <p>Quantas simulações são necessárias? Depende da precisão desejada. <span class="ref-pagina">(p. 76)</span></p>
+
+        <table>
+            <tr><th>n</th><th>Convergência</th></tr>
+            <tr><td>n ≥ 1.000</td><td>Média converge para laudos (variação &lt; 0,5 km/h).</td></tr>
+            <tr><td>n ≥ 5.000</td><td>Desvio-padrão e P5/P95 convergem adequadamente.</td></tr>
+            <tr><td>n ≥ 10.000</td><td>Excelente convergência para todos os estimadores, inclusive percentis extremos.</td></tr>
+            <tr><td>n > 100.000</td><td>Ganho marginal mínimo; desnecessário para uso rotineiro.</td></tr>
+        </table>
+
+        <div class="box-blue">
+            <strong>Recomendação:</strong> <strong>n = 10.000</strong> como valor padrão. <strong>n = 50.000</strong> quando se necessita de percentis extremos (P1, P99) ou em distribuições assimétricas.
+        </div>
+    </div>
+
+    <div id="sec116" class="section">
+        <h2>11.6 Análise de Sensibilidade</h2>
+        <p>Quantifica a contribuição de cada parâmetro de entrada para a incerteza total. Indica onde concentrar esforços. <span class="ref-pagina">(p. 76)</span></p>
+
+        <div class="box-blue">
+            <strong>Método mais utilizado: Tornado Chart</strong>
+            <p>Varia-se cada parâmetro individualmente entre seu <strong>P10 e P90</strong> (mantendo os demais nos valores médios), calcula-se a variação resultante em V, plotando-se em <strong>ordem decrescente de impacto</strong>.</p>
+        </div>
+
+        <div class="box-green">
+            <strong>Conclusão prática:</strong> os parâmetros que mais influenciam a incerteza em V são, em geral:
+            <ul>
+                <li><strong>Distância de frenagem</strong> → medir com maior precisão (trena de aço, múltiplas medições);</li>
+                <li><strong>Coeficiente de atrito</strong> → <strong>ensaios dinâmicos no local</strong> é o investimento mais eficaz. <span class="ref-pagina">(p. 77)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec117" class="section">
+        <h2>11.7 MMC em Velocidade Excessiva × Interceptação</h2>
+        <p>Particularmente valioso para esses casos — o perito precisa calcular não apenas a velocidade, mas a <strong>probabilidade de que o acidente ocorreria mesmo na velocidade regulamentar</strong>. <span class="ref-pagina">(p. 77)</span></p>
+
+        <div class="box-blue">
+            <strong>Duas simulações em paralelo:</strong>
+            <ol>
+                <li>Com a velocidade calculada (real) → distribuição de V e posições;</li>
+                <li>Contrafactual com velocidade regulamentar → verifica se o acidente ocorreria em V_reg.</li>
+            </ol>
+            <strong>Interpretação:</strong>
+            <ul>
+                <li>p = fração das simulações em que o acidente NÃO seria evitável mesmo em V_reg;</li>
+                <li><strong>p &gt; 0,5</strong> → <strong>interceptação é a causa dominante</strong>;</li>
+                <li><strong>p &lt; 0,5</strong> → <strong>velocidade excessiva é relevante</strong>. <span class="ref-pagina">(p. 78)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec118" class="section">
+        <h2>11.8 MMC em Colisões com Múltiplos Vestígios</h2>
+        <p>Combina estimativas de velocidade de cada vestígio (frenagem, derrapagem, sulcagem, rolamento pós-capotamento) de forma probabilisticamente consistente: <span class="ref-pagina">(p. 78)</span></p>
+
+        <div class="formula">Vt = √(Va² + Vd² + Vr²)</div>
+
+        <div class="box-blue">
+            No MMC, Va, Vd e Vr são variáveis aleatórias com suas próprias distribuições. A distribuição de Vt resulta <strong>automaticamente pela simulação</strong>, sem necessidade de derivação analítica complexa.
+        </div>
+    </div>
+
+    <div id="sec119" class="section">
+        <h2>11.9 Considerações sobre Correlação entre Parâmetros</h2>
+        <p>Parâmetros podem estar correlacionados (ex.: coef. de atrito e condição da pista — molhada implica menor μ E menor visibilidade). <span class="ref-pagina">(p. 78)</span></p>
+
+        <div class="box-orange">
+            <strong>Na maioria das aplicações periciais:</strong> parâmetros são tratados como <strong>independentes</strong> — simplificação razoável para asfalto em condições normais.
+            <p>Quando há forte correlação suspeita (pistas heterogêneas), incorporar métodos como <strong>cópula de Pearson</strong>.</p>
+        </div>
+    </div>
+
+    <div id="sec1110" class="section">
+        <h2>11.10 Incerteza de Medição vs. Incerteza Epistêmica</h2>
+        <table>
+            <tr><th>Tipo</th><th>Definição</th><th>Reduzível?</th></tr>
+            <tr><td><strong>Aleatória (variabilidade)</strong></td><td>Variação inerente ao fenômeno (ex.: variabilidade natural de μ na pista).</td><td><strong>NÃO</strong> reduzível por mais medições.</td></tr>
+            <tr><td><strong>Epistêmica (falta de conhecimento)</strong></td><td>Incerteza por desinformação (ex.: leitura imprecisa do comprimento da marca).</td><td><strong>SIM</strong>, reduzível com mais informações/medições.</td></tr>
+        </table>
+        <p>O MMC captura ambos os tipos, mas o perito deve <strong>indicar no laudo</strong> quais fontes são de cada tipo. <span class="ref-pagina">(p. 78-79)</span></p>
+    </div>
+
+    <div id="sec1111" class="section">
+        <h2>11.11 Apresentação dos Resultados no Laudo</h2>
+
+        <div class="box-blue">
+            <strong>Práticas recomendadas:</strong>
+            <ol>
+                <li>Apresentar a velocidade <strong>como intervalo</strong>, não como valor único:<br>
+                    <em>"Velocidade estimada: 65 a 80 km/h (90% de confiança), com valor central de 72 km/h"</em>;</li>
+                <li>Incluir <strong>histograma</strong> da distribuição de velocidade (anexo ou no texto);</li>
+                <li>Indicar a probabilidade de superar um determinado limite;</li>
+                <li><strong>Tabular os parâmetros</strong> utilizados, suas distribuições e justificativas;</li>
+                <li>Mencionar o <strong>número de simulações</strong> e o software/ferramenta utilizada. <span class="ref-pagina">(p. 79)</span></li>
+            </ol>
+        </div>
+
+        <h3>11.11.1 Modelo de texto sugerido</h3>
+        <div class="box-purple">
+            <em>"A estimativa da velocidade desenvolvida pelo veículo foi realizada pelo Método de Monte Carlo (n = 10.000 simulações), considerando as distribuições de incerteza dos parâmetros medidos conforme a Tabela X deste laudo. Os resultados indicam velocidade central de [V_med] km/h, com intervalo de confiança de 90% compreendido entre [P5] e [P95] km/h. A probabilidade de que a velocidade fosse superior ao limite regulamentar de [Vlim] km/h é estimada em [P(V &gt; Vlim)] %. Os cálculos foram realizados com o software Microsoft Excel, e a planilha utilizada encontra-se disponível para auditoria no Sistema Nacional de Criminalística."</em>
+        </div>
+    </div>
+
+    <div id="sec1112" class="section">
+        <h2>11.12 Ferramentas e Software</h2>
+
+        <h4>Tabela 20 – Ferramentas para implementação do MMC</h4>
+        <table>
+            <tr><th>Ferramenta</th><th>Tipo</th><th>Custo</th><th>Características</th></tr>
+            <tr><td><strong>Python</strong> (NumPy/SciPy/Matplotlib)</td><td>Programação geral</td><td>Gratuito</td><td>Máxima flexibilidade; reprodutibilidade garantida; requer conhecimento de programação.</td></tr>
+            <tr><td><strong>R</strong> (mc2d, triangle)</td><td>Programação estatística</td><td>Gratuito</td><td>Excelente para análise estatística; ampla documentação.</td></tr>
+            <tr><td><strong>Microsoft Excel</strong></td><td>Planilha com add-in</td><td>Pago</td><td>Interface amigável; ideal para apresentação a não-especialistas.</td></tr>
+            <tr><td><strong>PC-Crash (módulo MC)</strong></td><td>Especializado em acidentes</td><td>Pago</td><td>Integrado com dinâmica veicular; usado em tribunais europeus.</td></tr>
+            <tr><td><strong>@RISK</strong> (Palisade)</td><td>Add-in Excel</td><td>Pago</td><td>Análise de risco profissional; interface gráfica avançada.</td></tr>
+            <tr><td><strong>MATLAB</strong></td><td>Programação técnica</td><td>Pago (INPE/USP têm licenças)</td><td>Excelente análise numérica; Toolbox de estatística.</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 80)</p>
+
+        <div class="box-blue">
+            <strong>Recomendação para a PF:</strong> <strong>Python</strong> por ser gratuito, código aberto, amplamente documentado e auditável. <strong>Reproducibilidade</strong> garantida com semente fixa: <code>np.random.seed(42)</code>. Excel também é viável (facilidade de uso).
+        </div>
+    </div>
+
+    <div id="sec1113" class="section">
+        <h2>11.13 Aplicações Avançadas</h2>
+
+        <h3>11.13.1 MMC com Correlação de Parâmetros</h3>
+        <p>Quando há correlação conhecida, usar <strong>matrizes de correlação</strong>, <strong>transformação de Cholesky</strong> ou <strong>cópulas de dependência</strong>. Ignorar correlação negativa entre μ e Vd <strong>superestimaria</strong> a incerteza total. <span class="ref-pagina">(p. 80-81)</span></p>
+
+        <h3>11.13.2 MMC para Timing de Colisão</h3>
+        <p>Aplicado para determinar probabilisticamente o <strong>timing dos eventos</strong> — em que momento cada veículo ocupou o sítio de colisão. Permite <strong>verificar consistência de relatos</strong> de testemunhas com intervalos temporais. <span class="ref-pagina">(p. 81)</span></p>
+
+        <h3>11.13.3 MMC para Análise de Cenários (what-if)</h3>
+        <div class="box-blue">
+            Exemplos:
+            <ul>
+                <li>"Se o veículo estivesse na velocidade regulamentar, qual seria a probabilidade de evitar o acidente?";</li>
+                <li>"Se os freios estivessem em perfeitas condições, qual seria a redução na distância de frenagem?".</li>
+            </ul>
+            É essa análise de cenários que permite o estudo rigoroso de <strong>velocidade excessiva × interceptação</strong> (Seção 11.7).
+        </div>
+    </div>
+
+    <div id="sec1114" class="section">
+        <h2>11.14 Limitações e Cuidados do Método</h2>
+
+        <div class="box-red">
+            <strong>Limitações do MMC:</strong>
+            <ul>
+                <li>Distribuições de entrada mal especificadas → intervalos de saída inadequados;</li>
+                <li>Quantifica <strong>incerteza paramétrica</strong>, mas NÃO <strong>incerteza de modelo</strong> — se a fórmula for inapropriada, o MMC não detecta;</li>
+                <li>Correlações não modeladas podem sub ou superestimar a incerteza;</li>
+                <li><strong>NÃO substitui</strong> ensaios dinâmicos — é complementar;</li>
+                <li>O resultado probabilístico requer interpretação cuidadosa no contexto jurídico (o tribunal deve entender o significado de "90% de confiança"). <span class="ref-pagina">(p. 81)</span></li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>⚠ ATENÇÃO (citação literal):</strong> <em>"O Método de Monte Carlo não é uma 'caixa preta' que produz resultados automáticos. A qualidade dos resultados depende fundamentalmente da qualidade e pertinência das distribuições de entrada, que devem ser definidas pelo perito com base em seu conhecimento técnico e no exame cuidadoso das condições do acidente."</em>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: MMC = 4 passos PEGA</span>
+            <ul>
+                <li><strong>P</strong>arâmetros → defina distribuições + justificativa</li>
+                <li><strong>E</strong>xtrair amostras (n = 10.000)</li>
+                <li><strong>G</strong>erar resultado por simulação (Vᵢ)</li>
+                <li><strong>A</strong>nalisar distribuição (IC90%, P5/P95, P(V&gt;Vlim))</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const o = new MutationObserver(sendHeight);
+    o.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

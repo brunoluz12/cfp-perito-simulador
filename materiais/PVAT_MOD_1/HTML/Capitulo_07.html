@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 7 - Número de Identificação Veicular (VIN)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .vin-visual { display: flex; justify-content: center; gap: 5px; flex-wrap: wrap; margin: 20px 0; font-family: monospace; font-size: 1.1em; }
+        .vin-block { padding: 10px; border-radius: 4px; text-align: center; }
+        .vin-wmi { background: #ebf8ff; border: 2px solid #3182ce; }
+        .vin-vds { background: #f0fff4; border: 2px solid #38a169; }
+        .vin-vis { background: #fffaf0; border: 2px solid #dd6b20; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo I</span>
+        <h1>Capítulo 7 - Número de Identificação Veicular (VIN)</h1>
+        <div class="subtitle">Identificação Veicular</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#introducao">1. Introdução: Sistema Técnico-Normativo Dinâmico</a></li>
+            <li><a href="#res659">2. Resolução Contran nº 659/1985 (alterada pela nº 691/1988)</a></li>
+            <li><a href="#res24">3. Resolução Contran nº 24/1998</a></li>
+            <li><a href="#res968">4. Resolução Contran nº 968/2022 (vigente)</a></li>
+            <li><a href="#nbr6066">5. ABNT NBR 6066:2022 e Estrutura do VIN</a></li>
+            <li><a href="#tabela1">6. Tabela 1 — Códigos do ano-modelo (10ª posição do VIN)</a></li>
+            <li><a href="#locais">7. Locais de gravação do VIN</a></li>
+            <li><a href="#mnemonicos">8. Mnemônicos e Síntese</a></li>
+        </ul>
+    </div>
+
+    <div id="introducao" class="section">
+        <h2>1. Introdução: Sistema Técnico-Normativo Dinâmico</h2>
+        <p>A identificação veicular no ordenamento brasileiro constitui um sistema técnico-normativo dinâmico cuja correta interpretação é condição indispensável para o exercício tecnicamente válido da perícia criminal em veículos automotores. <span class="ref-pagina">(p. 27)</span></p>
+
+        <div class="box-orange">
+            <strong>Vinculação temporal da perícia:</strong>
+            <p>A atividade pericial está necessariamente vinculada às <strong>regras vigentes à época da fabricação, do registro e das eventuais modificações</strong> do veículo periciado. É recorrente a submissão à perícia de veículos antigos, enquadrados em legislações pretéritas, o que impõe ao perito o domínio das sucessivas fases normativas. <span class="ref-pagina">(p. 27)</span></p>
+        </div>
+    </div>
+
+    <div id="res659" class="section">
+        <h2>2. Resolução Contran nº 659/1985 (alterada pela nº 691/1988)</h2>
+
+        <div class="box-blue">
+            <strong>Gravação principal do VIN:</strong>
+            <p>Gravação do número de identificação do veículo no <strong>chassi ou no monobloco</strong>, em pelo menos um ponto, conforme a norma <strong>ABNT NBR 6066:1980</strong>, com <strong>profundidade mínima de 0,2 mm</strong>. <span class="ref-pagina">(p. 27)</span></p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Identificação complementar pelos caracteres VIS:</strong>
+            <p>Caracteres <strong>VIS</strong> (Vehicle Indicator Section — 10ª a 18ª posições do VIN), também com profundidade mínima de 0,2 mm quando gravados em chapa. Admitia-se alternativamente:</p>
+            <ul>
+                <li>Plaqueta colada, soldada ou rebitada;</li>
+                <li>Etiqueta autocolante;</li>
+            </ul>
+            <p>desde que tais elementos fossem <strong>destrutíveis</strong> em caso de remoção ou tentativa de violação. <span class="ref-pagina">(p. 27)</span></p>
+        </div>
+
+        <div class="box-green">
+            <strong>Locais exigidos para identificação complementar (Res. 659/1985):</strong>
+            <ul>
+                <li>Assoalho do veículo, sob um dos bancos dianteiros;</li>
+                <li>Coluna da porta dianteira lateral direita;</li>
+                <li>Compartimento do motor;</li>
+                <li>Um dos para-brisas e um dos vidros traseiros, quando existente;</li>
+                <li>Pelo menos dois vidros de cada lado do veículo, quando existentes, excetuados os quebra-ventos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 27)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Veículos de 2 ou 3 rodas (exceto ciclomotores):</strong>
+            <p>Gravações em <strong>no mínimo dois pontos</strong>, situados na coluna de suporte da direção ou no próprio chassi.</p>
+            <strong>Reboques e semirreboques:</strong>
+            <p>Gravações <strong>no chassi</strong>, em <strong>no mínimo dois pontos distintos</strong>. <span class="ref-pagina">(p. 27)</span></p>
+        </div>
+    </div>
+
+    <div id="res24" class="section">
+        <h2>3. Resolução Contran nº 24/1998</h2>
+        <p>Manteve como elementos centrais a gravação do VIN no chassi ou monobloco e a identificação complementar pelos caracteres VIS. <span class="ref-pagina">(p. 28)</span></p>
+
+        <div class="box-blue">
+            <strong>Preservado em relação ao regime anterior:</strong>
+            <ul>
+                <li>Gravações na <strong>coluna da porta dianteira lateral direita</strong>;</li>
+                <li>Gravações no <strong>compartimento do motor</strong>;</li>
+                <li>Gravações nos <strong>vidros</strong>;</li>
+                <li>Obrigatoriedade de <strong>duas gravações no chassi</strong> para reboques e semirreboques.</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Principais alterações:</strong>
+            <ul>
+                <li><strong>Supressão</strong> da gravação no <strong>assoalho sob um dos bancos dianteiros</strong>;</li>
+                <li>Introdução expressa da <strong>identificação do ano de fabricação como item autônomo obrigatório</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 28)</span>
+        </div>
+    </div>
+
+    <div id="res968" class="section">
+        <h2>4. Resolução Contran nº 968/2022 (vigente)</h2>
+        <p>Estabelece os critérios normativos de identificação veicular previstos no <strong>art. 114 do CTB</strong>, disciplinando elementos identificadores do veículo e de seus principais agregados, bem como os procedimentos de gravação, correção, substituição e regularização. É o diploma atualmente vigente. <span class="ref-pagina">(p. 28)</span></p>
+
+        <div class="box-blue">
+            <strong>Sistema integrado de identificação (Res. 968/2022):</strong>
+            <p>Múltiplos elementos físicos distribuídos no veículo, aplicação variável conforme categoria, configuração construtiva e peso bruto total. Compreende, de forma cumulativa e complementar:</p>
+            <ul>
+                <li>VIN (identificador primário);</li>
+                <li>Identificação de agregados relevantes (motor, câmbio, eixos, cabine e carroceria);</li>
+                <li>Etiquetas autocolantes de segurança (<strong>ETA</strong>);</li>
+                <li>Marcações em vidros;</li>
+                <li>Plaquetas informativas;</li>
+                <li><strong>Identificação oculta</strong> (de modo expresso).</li>
+            </ul>
+            <span class="ref-pagina">(p. 28)</span>
+        </div>
+
+        <h3>4.1 Gravação do VIN no chassi/monobloco</h3>
+        <div class="box-blue">
+            <ul>
+                <li>O VIN é o <strong>identificador primário</strong>, obrigatória sua gravação direta no chassi ou monobloco;</li>
+                <li>Local preferencial: <strong>lado direito</strong> do chassi ou monobloco;</li>
+                <li>Posições compatíveis com a estrutura final do veículo após sua montagem;</li>
+                <li>Para <strong>ciclomotores, motonetas, motocicletas, triciclos e quadriciclos</strong>: caracteres com <strong>altura mínima de 4 mm</strong>, gravados na coluna de suporte de direção ou no chassi monobloco;</li>
+                <li>Para <strong>reboques e semirreboques</strong>: segunda gravação na <strong>longarina esquerda</strong>, com as mesmas especificações da primeira.</li>
+            </ul>
+            <span class="ref-pagina">(p. 28-29)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Parâmetros físicos da gravação:</strong>
+            <ul>
+                <li><strong>Profundidade mínima: 0,2 mm</strong>;</li>
+                <li>Chassi/monobloco não metálico: admite-se <strong>plaqueta metálica incorporada ou moldada durante a fabricação</strong>, igualmente <strong>destrutível</strong> quando de sua remoção.</li>
+            </ul>
+            <span class="ref-pagina">(p. 29)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>VEDAÇÃO expressa:</strong>
+            <p>O texto normativo <strong>veda, como regra, a gravação por punção manual</strong>, excetuando-se fabricantes de produção reduzida — preocupação com a uniformidade do padrão industrial e a qualidade da gravação. <span class="ref-pagina">(p. 29)</span></p>
+        </div>
+
+        <h3>4.2 Segunda gravação do VIN</h3>
+        <div class="box-blue">
+            <p>Além da gravação principal, a Resolução exige, como regra geral, a realização de uma <strong>segunda gravação do VIN</strong> por método alternativo, podendo ocorrer em:</p>
+            <ul>
+                <li>Alto relevo;</li>
+                <li>Baixo relevo;</li>
+                <li>Plaqueta metálica destrutível;</li>
+                <li>ETA (etiqueta autocolante de segurança).</li>
+            </ul>
+            <span class="ref-pagina">(p. 29)</span>
+        </div>
+
+        <h3>4.3 Identificação do ano de fabricação</h3>
+        <div class="box-blue">
+            <p>Obrigatória; deve integrar o conjunto de sinais identificadores gravados no chassi ou monobloco, em conformidade com o art. 114 do CTB. Formas técnicas admitidas:</p>
+            <ul>
+                <li>ETA ou plaqueta metálica destrutível;</li>
+                <li>Etiqueta destrutível única contendo simultaneamente o ano de fabricação e o VIN ou VIS;</li>
+                <li>Gravação direta no chassi/monobloco: <strong>nas imediações do VIN</strong>, <strong>expressa em quatro algarismos</strong>, <strong>profundidade mínima 0,2 mm</strong>;</li>
+            </ul>
+            <p><strong>Alturas mínimas dos caracteres do ano:</strong></p>
+            <ul>
+                <li><strong>4 mm</strong>: ciclomotores, motonetas, motocicletas, triciclos e quadriciclos;</li>
+                <li><strong>7 mm</strong>: demais veículos;</li>
+            </ul>
+            <p>É facultado o uso de divisores conforme a norma <strong>ABNT NBR 6066:2022</strong>. <span class="ref-pagina">(p. 29)</span></p>
+        </div>
+
+        <h3>4.4 ETA com VIN ou VIS — locais de afixação</h3>
+        <div class="box-green">
+            <ul>
+                <li><strong>Ciclomotores, motonetas, motocicletas, triciclos e quadriciclos:</strong> sob o assento ou na porção dianteira do veículo;</li>
+                <li><strong>Demais veículos automotores:</strong> uma ETA na <strong>coluna da porta dianteira direita</strong> e outra no <strong>compartimento do motor</strong>, quando existir;</li>
+                <li><strong>Reboques e semirreboques:</strong> ETA em uma das longarinas, em local distinto das gravações do VIN — admitida <strong>substituição por plaqueta metálica</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 29)</span>
+        </div>
+
+        <h3>4.5 Marcação do VIS nos vidros</h3>
+        <div class="box-blue">
+            <ul>
+                <li>Um dos para-brisas e um dos vidros traseiros, quando existentes;</li>
+                <li>Pelo menos <strong>dois vidros de cada lado</strong> do veículo, excluindo-se os <strong>quebra-ventos</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 29-30)</span>
+        </div>
+
+        <h3>4.6 Identificação oculta (relevo pericial)</h3>
+        <div class="box-purple">
+            <strong>De especial relevo para a atividade pericial:</strong>
+            <p>Previsão expressa de uma <strong>identificação oculta</strong>, contendo o número <strong>VIN ou, alternativamente, o VIS</strong>. Gravada em local escolhido a critério do fabricante, dentre opções delimitadas pela Resolução, podendo situar-se:</p>
+            <ul>
+                <li>No <strong>monobloco</strong>;</li>
+                <li>No <strong>chassi</strong>;</li>
+                <li>Na <strong>cabine</strong>; ou</li>
+                <li>Na <strong>carroceria</strong>, nos casos de ônibus e micro-ônibus.</li>
+            </ul>
+            <p>Determinadas categorias de veículos são expressamente dispensadas dessa exigência. <span class="ref-pagina">(p. 30)</span></p>
+        </div>
+
+        <h3>4.7 Identificação do motor e demais agregados</h3>
+        <div class="box-blue">
+            <ul>
+                <li>Numeração do motor gravada diretamente no <strong>bloco do motor</strong>, em local de fácil acesso e visualização após a montagem definitiva;</li>
+                <li>Gravação em alto ou baixo relevo, admitindo-se caracteres alfanuméricos;</li>
+                <li>Se não houver visibilidade direta no bloco, numeração <strong>replicada no compartimento do motor</strong> por etiqueta ou plaqueta destrutível, resistente a intempéries, fixada em componente não facilmente removido;</li>
+                <li><strong>Ciclomotores, motonetas, motocicletas, triciclos e quadriciclos:</strong> exigência expressa de <strong>segunda gravação do número do motor em etiqueta ou plaqueta</strong>;</li>
+                <li><strong>Motores elétricos:</strong> identificação no bloco, carcaça ou componente responsável pela tração; plaqueta destrutível não facilmente removível para preservar a identificação sem risco de descargas elétricas indesejadas;</li>
+                <li>Regras semelhantes para <strong>caixa de câmbio, eixos, cabine e carrocerias</strong> — prioridade à gravação direta na peça, com soluções alternativas admitidas conforme características construtivas.</li>
+            </ul>
+            <span class="ref-pagina">(p. 30)</span>
+        </div>
+    </div>
+
+    <div id="nbr6066" class="section">
+        <h2>5. ABNT NBR 6066:2022 e Estrutura do VIN</h2>
+
+        <div class="box-blue">
+            <strong>Edições da norma ABNT NBR 6066:</strong>
+            <ul>
+                <li><strong>1980</strong>: primeira edição (fundamentos iniciais);</li>
+                <li><strong>2001 e 2009</strong>: novas edições;</li>
+                <li><strong>2014 e 2018</strong>: confirmações;</li>
+                <li><strong>2022 (vigente)</strong>: publicada em <strong>18 de maio de 2022</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 31)</span>
+        </div>
+
+        <p>A ABNT NBR 6066:2022 é a norma técnica fundamental que padroniza o sistema de identificação dos veículos rodoviários automotores e seus rebocados no Brasil — assegura identificador único, permanente, legível e internacionalmente compatível, com rastreabilidade ao longo de todo o ciclo de vida do bem. <span class="ref-pagina">(p. 31)</span></p>
+
+        <div class="box-orange">
+            <strong>Aplicação e exclusão:</strong>
+            <p>Aplica-se a veículos rodoviários automotores e aos seus rebocados (automóveis, caminhões, ônibus, motocicletas, tratores rodoviários, reboques e semirreboques). <strong>Exclui os ciclomotores</strong>, que possuem regulamentação específica. <span class="ref-pagina">(p. 31)</span></p>
+        </div>
+
+        <h3>5.1 Estrutura do VIN: 17 caracteres em 3 seções</h3>
+
+        <div class="vin-visual">
+            <div class="vin-block vin-wmi"><strong>WMI</strong><br>3 chars<br>1, 2, 3</div>
+            <div class="vin-block vin-vds"><strong>VDS</strong><br>6 chars<br>4 a 9</div>
+            <div class="vin-block vin-vis"><strong>VIS</strong><br>8 chars<br>10 a 17</div>
+        </div>
+
+        <div class="box-blue">
+            <strong>WMI — World Manufacturer Identifier:</strong>
+            <p>Três primeiros caracteres — identifica o <strong>fabricante ou montadora</strong>, incluindo <strong>área geográfica e país</strong>. <span class="ref-pagina">(p. 31-32)</span></p>
+        </div>
+
+        <div class="box-green">
+            <strong>VDS — Vehicle Descriptor Section:</strong>
+            <p>Seis caracteres subsequentes — descreve características gerais do veículo (tipo, modelo, carroceria, sistema de propulsão), conforme critério do fabricante. <span class="ref-pagina">(p. 32)</span></p>
+        </div>
+
+        <div class="box-orange">
+            <strong>VIS — Vehicle Indicator Section:</strong>
+            <p>Oito últimos caracteres — individualiza cada veículo produzido. Inclui, obrigatoriamente:</p>
+            <ul>
+                <li>Identificação do <strong>ano de fabricação ou ano modelo na 10ª posição</strong>;</li>
+                <li><strong>Planta de montagem na 11ª posição</strong>;</li>
+                <li><strong>Número sequencial de produção</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 32)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>VEDAÇÃO — caracteres proibidos no VIN:</strong>
+            <p>A norma restringe o conjunto de caracteres permitidos, <strong>vedando o uso das letras I, O e Q</strong>, para evitar confusão visual com algarismos. <span class="ref-pagina">(p. 32)</span></p>
+        </div>
+
+        <h3>5.2 Parâmetros físicos da gravação (NBR 6066:2022)</h3>
+        <div class="box-blue">
+            <ul>
+                <li>Gravação ou fixação em local padronizado, <strong>preferencialmente no lado direito</strong>, se possível na <strong>metade dianteira</strong>, em posição de fácil leitura;</li>
+                <li>Localização do VIN <strong>descrita no manual do proprietário</strong> ou documento equivalente;</li>
+                <li>Duas principais formas de fixação: <strong>gravação direta em componente estrutural não removível</strong> (chassi/monobloco) ou <strong>fixação por plaqueta permanentemente incorporada à estrutura</strong>;</li>
+                <li>Em ambos os casos — alto ou baixo relevo;</li>
+                <li><strong>Profundidade mínima:</strong> 0,2 mm;</li>
+                <li><strong>Altura mínima dos caracteres:</strong> <strong>7 mm</strong> quando gravado diretamente no veículo; <strong>4 mm</strong> quando em plaqueta.</li>
+            </ul>
+            <span class="ref-pagina">(p. 32-33)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Disposição do VIN — uma ou duas linhas:</strong>
+            <p>Sem espaços em branco e sem omissão de qualquer seção; vedada fragmentação que comprometa a integridade. Admite-se uso de <strong>divisores físicos</strong> para delimitar seções/linhas no veículo, desde que <strong>não se confundam com caracteres alfanuméricos</strong>. <strong>Divisores não devem constar na documentação</strong> do veículo, onde o VIN deve ser apresentado em linha única, contínua, sem separadores — evita divergências entre VIN físico e o registrado nos sistemas administrativos. <span class="ref-pagina">(p. 33)</span></p>
+        </div>
+
+        <div class="box-purple">
+            <strong>WMI — características de gestão:</strong>
+            <p>Código de alcance internacional, com <strong>validade mínima de 30 anos</strong>, designado de forma controlada. No Brasil, a <strong>ABNT atua como entidade administrativa</strong> do sistema, em articulação com o órgão máximo executivo de trânsito — garante que cada fabricante receba identificador <strong>exclusivo e não reutilizável</strong> dentro do período de validade. <span class="ref-pagina">(p. 33)</span></p>
+        </div>
+    </div>
+
+    <div id="tabela1" class="section">
+        <h2>6. Tabela 1 — Códigos do ano-modelo (10ª posição do VIN)</h2>
+        <p>Para a identificação do ano do veículo, prevista na 10ª posição do VIN, a norma adota uma <strong>tabela cíclica de caracteres alfanuméricos</strong> para representar o ano de fabricação ou ano-modelo. <span class="ref-pagina">(p. 32)</span></p>
+
+        <div class="box-orange">
+            <strong>Atenção — Caráter cíclico:</strong>
+            <p>Os caracteres da 10ª posição se repetem ciclicamente, exigindo análise contextual (demais dados do veículo) para definir o ano correto. A norma <strong>veda o uso das letras I, O e Q</strong>, motivo pelo qual essas letras não aparecem como códigos de ano-modelo.</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Código (10ª posição)</th>
+                <th>Ano-modelo</th>
+                <th>Código (10ª posição)</th>
+                <th>Ano-modelo</th>
+            </tr>
+            <tr><td>A</td><td>1980 / 2010</td><td>Y</td><td>2000 / 2030</td></tr>
+            <tr><td>B</td><td>1981 / 2011</td><td>1</td><td>2001 / 2031</td></tr>
+            <tr><td>C</td><td>1982 / 2012</td><td>2</td><td>2002 / 2032</td></tr>
+            <tr><td>D</td><td>1983 / 2013</td><td>3</td><td>2003 / 2033</td></tr>
+            <tr><td>E</td><td>1984 / 2014</td><td>4</td><td>2004 / 2034</td></tr>
+            <tr><td>F</td><td>1985 / 2015</td><td>5</td><td>2005 / 2035</td></tr>
+            <tr><td>G</td><td>1986 / 2016</td><td>6</td><td>2006 / 2036</td></tr>
+            <tr><td>H</td><td>1987 / 2017</td><td>7</td><td>2007 / 2037</td></tr>
+            <tr><td>J</td><td>1988 / 2018</td><td>8</td><td>2008 / 2038</td></tr>
+            <tr><td>K</td><td>1989 / 2019</td><td>9</td><td>2009 / 2039</td></tr>
+            <tr><td>L</td><td>1990 / 2020</td><td colspan="2" style="background:#fff5f5;"><strong>Vedados: I, O, Q</strong> (NBR 6066:2022)</td></tr>
+            <tr><td>M</td><td>1991 / 2021</td><td colspan="2"></td></tr>
+            <tr><td>N</td><td>1992 / 2022</td><td colspan="2"></td></tr>
+            <tr><td>P</td><td>1993 / 2023</td><td colspan="2"></td></tr>
+            <tr><td>R</td><td>1994 / 2024</td><td colspan="2"></td></tr>
+            <tr><td>S</td><td>1995 / 2025</td><td colspan="2"></td></tr>
+            <tr><td>T</td><td>1996 / 2026</td><td colspan="2"></td></tr>
+            <tr><td>V</td><td>1997 / 2027</td><td colspan="2"></td></tr>
+            <tr><td>W</td><td>1998 / 2028</td><td colspan="2"></td></tr>
+            <tr><td>X</td><td>1999 / 2029</td><td colspan="2"></td></tr>
+        </table>
+        <p class="ref-pagina">Tabela 1 do PDF — Códigos do ano-modelo do veículo (10ª posição do VIN). (p. 32)</p>
+    </div>
+
+    <div id="locais" class="section">
+        <h2>7. Locais de gravação do VIN</h2>
+        <p>Embora a NBR 6066 estabeleça localização padronizada, preferencialmente no lado direito, na metade dianteira e em posição de fácil leitura, na prática existem variações. <span class="ref-pagina">(p. 33)</span></p>
+
+        <div class="box-blue">
+            <strong>Veículos montados sobre chassi (Figura 15):</strong>
+            <p>VIN pode estar localizado no lado <strong>direito e/ou esquerdo</strong>, bem como nas faces <strong>superior, inferior ou lateral externa</strong>, a depender do projeto. <span class="ref-pagina">(p. 33)</span></p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Veículos com carroceria monobloco (Figura 16):</strong>
+            <p>Marcação em elementos estruturais integrados:</p>
+            <ul>
+                <li>Torre do amortecedor do lado direito (passageiro);</li>
+                <li>Soleira da porta;</li>
+                <li>Assoalho dianteiro ou traseiro;</li>
+                <li>Painel corta-fogo;</li>
+                <li>Assoalho do porta-malas.</li>
+            </ul>
+            <span class="ref-pagina">(p. 34)</span>
+        </div>
+    </div>
+
+    <div id="mnemonicos" class="section">
+        <h2>8. Mnemônicos e Síntese</h2>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — Estrutura do VIN (17 caracteres)</span>
+            <p><strong>WMI (3) + VDS (6) + VIS (8) = 17</strong></p>
+            <p><strong>"FabriCante - Descreve Veículo - Identifica/Sequencia"</strong></p>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — VIS, posições-chave</span>
+            <ul>
+                <li><strong>10ª posição</strong> — ano (fabricação ou modelo)</li>
+                <li><strong>11ª posição</strong> — planta de montagem</li>
+                <li>Demais posições — número sequencial de produção</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — Letras VEDADAS no VIN</span>
+            <p><strong>"I, O, Q"</strong> — pois se confundem com 1, 0 e 0/9.</p>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — Profundidade e alturas (Res. 968/2022 e NBR 6066:2022)</span>
+            <ul>
+                <li><strong>Profundidade mínima:</strong> 0,2 mm</li>
+                <li><strong>Altura mínima do VIN no veículo:</strong> 7 mm (geral) / 4 mm (motos, ciclomotores, triciclos, quadriciclos)</li>
+                <li><strong>Altura mínima do VIN em plaqueta:</strong> 4 mm</li>
+                <li><strong>Altura do ano de fabricação:</strong> 7 mm (geral) / 4 mm (motos etc.)</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">MNEMÔNICO — Identificação oculta (Res. 968/2022)</span>
+            <p>Locais possíveis: <strong>MO-CHA-CA-CAR</strong> (MOnobloco, CHAssi, CAbine, CARroceria — esta última só em ônibus e micro-ônibus). Contém VIN ou, alternativamente, VIS.</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Resolução</th>
+                <th>Marco essencial</th>
+            </tr>
+            <tr><td>659/1985 (e 691/1988)</td><td>Gravação no chassi/monobloco; VIS em vidros, coluna direita, compartimento do motor, assoalho sob banco; NBR 6066:1980; profundidade 0,2 mm.</td></tr>
+            <tr><td>24/1998</td><td>Mantém o essencial; <strong>suprime</strong> gravação no assoalho sob o banco; introduz <strong>ano de fabricação como item autônomo obrigatório</strong>.</td></tr>
+            <tr><td>968/2022</td><td>Diploma vigente; sistema integrado (VIN + agregados + ETA + vidros + plaquetas + <strong>identificação oculta</strong>); veda punção manual.</td></tr>
+        </table>
+    </div>
+</div>
+<script>
+function sendHeight() {
+    var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const o = new MutationObserver(sendHeight);
+    o.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body></html>

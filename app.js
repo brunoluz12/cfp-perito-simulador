@@ -1678,6 +1678,44 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Gerenciamento das Investigações',
                 'Conclusão'
             ]
+        },
+        'pvat_mod_1': {
+            path: 'PVAT_MOD_1',
+            capitulos: [
+                'Introdução geral à identificação veicular',
+                'Identificação veicular no Código Penal Brasileiro',
+                'Evolução histórica e normativa no Brasil',
+                'Classificação dos veículos',
+                'Conjunto ampliado de características identificadoras',
+                'Placas de Identificação Veicular (PIV)',
+                'Número de Identificação Veicular (VIN)',
+                'Vidros',
+                'Peças com dados identificadores',
+                'Processos Industriais de Gravação do VIN',
+                'Tipos de Adulteração no VIN',
+                'Restauração da gravação em metal',
+                'Recursos utilizados na fraude de códigos identificadores',
+                'Avaliação do estado de conservação do veículo',
+                'Intervenções estruturais e funcionais voltadas à prática de ilícitos',
+                'Sistemas para consulta',
+                'Procedimento de perícia'
+            ]
+        },
+        'pvat_mod_2': {
+            path: 'PVAT_MOD_2',
+            capitulos: [
+                'Apresentação',
+                'Contexto Atual',
+                'Conceitos Fundamentais e Terminologia',
+                'Legislação de Trânsito Aplicada à Perícia',
+                'Física Aplicada aos Acidentes de Tráfego',
+                'Análise Pericial do Local',
+                'Sítios Periciais e Interpretação dos Vestígios',
+                'Causas Determinantes dos Acidentes de Tráfego',
+                'Casos Especiais na Perícia de Acidentes de Tráfego',
+                'Documentação Pericial',
+                'Método de Monte Carlo Aplicado à Perícia'
+            ]
         }
     };
 
