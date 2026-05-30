@@ -64,18 +64,30 @@ module.exports = async (req, res) => {
       const users = [];
       for (const key of allAccessKeys) {
         const username = key.replace('access:', '');
-        if (username === ADMIN_USER) continue; // Não mostra o admin na lista
+        if (username === ADMIN_USER) continue;
         
         let data = await redis.get(key);
         if (typeof data === 'string') {
           try { data = JSON.parse(data); } catch(e) { data = {}; }
         }
 
+        // Buscar dados do usuário (stats)
+        let userData = await redis.get(`user:${username}`);
+        if (typeof userData === 'string') {
+          try { userData = JSON.parse(userData); } catch(e) { userData = null; }
+        }
+        const userStats = userData?.stats || null;
+
         users.push({
           username,
           status: data?.status || 'pending',
           requestedAt: data?.requestedAt || null,
-          approvedAt: data?.approvedAt || null
+          approvedAt: data?.approvedAt || null,
+          stats: userStats ? {
+            totalResolvidas: userStats.totalResolvidas || 0,
+            totalAcertos: userStats.totalAcertos || 0,
+            totalErros: userStats.totalErros || 0
+          } : null
         });
       }
 

@@ -2073,8 +2073,11 @@ async function carregarUsuariosAdmin() {
                 <tr>
                     <th>Usuário</th>
                     <th>Status</th>
+                    <th>Resolvidas</th>
+                    <th>Acertos</th>
+                    <th>Erros</th>
+                    <th>Taxa</th>
                     <th>Solicitação</th>
-                    <th>Aprovado em</th>
                     <th>Ações</th>
                 </tr>
             </thead>
@@ -2084,13 +2087,20 @@ async function carregarUsuariosAdmin() {
             const statusClass = u.status === 'approved' ? 'status-approved' : u.status === 'blocked' ? 'status-blocked' : 'status-pending';
             const statusLabel = u.status === 'approved' ? 'Aprovado' : u.status === 'blocked' ? 'Bloqueado' : 'Pendente';
             const reqDate = u.requestedAt ? new Date(u.requestedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
-            const approvedDate = u.approvedAt ? new Date(u.approvedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
+
+            const resolvidas = u.stats ? u.stats.totalResolvidas : 0;
+            const acertos = u.stats ? u.stats.totalAcertos : 0;
+            const erros = u.stats ? u.stats.totalErros : 0;
+            const taxa = resolvidas > 0 ? Math.round((acertos / resolvidas) * 100) : 0;
 
             html += `<tr>
                 <td><strong>${u.username}</strong></td>
                 <td><span class="admin-status-badge ${statusClass}">${statusLabel}</span></td>
+                <td>${resolvidas}</td>
+                <td style="color: #059669; font-weight: 600;">${acertos}</td>
+                <td style="color: #dc2626; font-weight: 600;">${erros}</td>
+                <td><strong>${taxa}%</strong></td>
                 <td>${reqDate}</td>
-                <td>${approvedDate}</td>
                 <td class="admin-actions">
                     ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
                     ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
