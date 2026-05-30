@@ -103,7 +103,20 @@ async function tryLogin(username) {
         }
     }
     
-    // Login aprovado — carregar dados da nuvem
+    // Login aprovado — limpar dados do usuário anterior se for diferente
+    const previousUser = localStorage.getItem('pcpr_current_user');
+    if (previousUser && previousUser.toLowerCase().trim() !== user.toLowerCase().trim()) {
+        // Usuário diferente: limpar todos os dados locais para não vazar dados
+        localStorage.removeItem('pcpr_stats');
+        localStorage.removeItem('pcpr_favorites');
+        localStorage.removeItem('pcpr_comments');
+        localStorage.removeItem('pcpr_history');
+        localStorage.removeItem('pcpr_course_progress');
+        localStorage.removeItem('pcpr_agenda_aplicada');
+        localStorage.removeItem('pcpr_material_studied');
+    }
+    
+    // Carregar dados da nuvem
     try {
         const response = await fetch(`/api/load?username=${encodeURIComponent(user)}`);
         

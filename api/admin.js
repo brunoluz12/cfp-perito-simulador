@@ -25,16 +25,44 @@ module.exports = async (req, res) => {
     try {
       // Buscar todas as chaves access:*
       let cursor = 0;
-      let allKeys = [];
+      let allAccessKeys = [];
       
       do {
         const result = await redis.scan(cursor, { match: 'access:*', count: 100 });
         cursor = result[0];
-        allKeys = allKeys.concat(result[1]);
+        allAccessKeys = allAccessKeys.concat(result[1]);
       } while (cursor !== 0 && cursor !== '0');
 
+      // Também buscar chaves user:* (usuários pré-existentes)
+      let cursor2 = 0;
+      let allUserKeys = [];
+      
+      do {
+        const result = await redis.scan(cursor2, { match: 'user:*', count: 100 });
+        cursor2 = result[0];
+        allUserKeys = allUserKeys.concat(result[1]);
+      } while (cursor2 !== 0 && cursor2 !== '0');
+
+      // Extrair usernames das chaves access:*
+      const accessUsernames = new Set(allAccessKeys.map(k => k.replace('access:', '')));
+
+      // Para cada user:* que NÃO tem access:*, criar registro aprovado automaticamente
+      for (const userKey of allUserKeys) {
+        const username = userKey.replace('user:', '');
+        if (username === ADMIN_USER) continue;
+        if (!accessUsernames.has(username)) {
+          const autoRecord = {
+            status: 'approved',
+            requestedAt: new Date().toISOString(),
+            approvedAt: new Date().toISOString()
+          };
+          await redis.set(`access:${username}`, JSON.stringify(autoRecord));
+          allAccessKeys.push(`access:${username}`);
+        }
+      }
+
       const users = [];
-      for (const key of allKeys) {
+      for (const key of allAccessKeys) {
         const username = key.replace('access:', '');
         if (username === ADMIN_USER) continue; // Não mostra o admin na lista
         
