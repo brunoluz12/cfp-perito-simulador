@@ -23,6 +23,8 @@
                 <button id="btn-login" class="btn-primary">Entrar</button>
             </div>
             <p id="login-status-msg" class="login-status hidden">Buscando seus dados na nuvem...</p>
+            <p id="login-pending-msg" class="login-status hidden" style="color: #f59e0b;"><i class="ph ph-hourglass"></i> Sua solicitação de acesso foi enviada. Aguarde a aprovação do administrador.</p>
+            <p id="login-blocked-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-prohibit"></i> Seu acesso foi bloqueado. Entre em contato com o administrador.</p>
         </div>
     </div>
 
@@ -40,6 +42,8 @@
                 <h1 id="tab-psico" class="tab-link" onclick="switchMainTab('psico')"><i class="ph ph-brain"></i> Testes</h1>
                 <span class="tab-divider">|</span>
                 <h1 id="tab-controle" class="tab-link" onclick="switchMainTab('controle')">Controle</h1>
+                <span id="admin-tab-divider" class="tab-divider" style="display: none;">|</span>
+                <h1 id="tab-admin" class="tab-link" onclick="switchMainTab('admin')" style="display: none;"><i class="ph ph-shield-star"></i> Admin <span id="admin-pending-badge" class="admin-badge" style="display: none;">0</span></h1>
             </div>
             <div class="user-stats">
                 <div class="stat-badge tooltip" data-tooltip="Total de Acertos">
@@ -397,6 +401,22 @@
             </div>
             <div id="psico-test-container" class="mt-4"></div>
         </main>
+
+        <!-- TELA DE ADMIN -->
+        <main id="admin-view" class="view">
+            <div class="glass-panel admin-panel">
+                <div class="admin-header">
+                    <h2><i class="ph ph-shield-star"></i> Painel de Administração</h2>
+                    <button id="btn-refresh-admin" class="btn-secondary btn-icon" type="button">
+                        <i class="ph ph-arrows-clockwise"></i> Atualizar
+                    </button>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px;">Gerencie o acesso dos usuários à plataforma. Usuários pendentes precisam ser aprovados para conseguir logar.</p>
+                <div id="admin-users-table-container">
+                    <p style="color: var(--text-muted);"><i class="ph ph-spinner ph-spin"></i> Carregando usuários...</p>
+                </div>
+            </div>
+        </main>
     </div>
 
     <!-- MODAL: Gerar Simulado -->
@@ -453,9 +473,9 @@
         </div>
     </div>
 
-    <script src="agenda_dados.js?v=7"></script>
-    <script src="banco_questoes.js?v=16"></script>
-    <script src="app.js?v=20"></script>
+    <script src="agenda_dados.js?v=8"></script>
+    <script src="banco_questoes.js?v=17"></script>
+    <script src="app.js?v=21"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>

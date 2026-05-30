@@ -25,12 +25,15 @@ const views = {
     'control-view': document.getElementById('control-view'),
     'material-view': document.getElementById('material-view'),
     'agenda-view': document.getElementById('agenda-view'),
-    'psico-view': document.getElementById('psico-view')
+    'psico-view': document.getElementById('psico-view'),
+    'admin-view': document.getElementById('admin-view')
 };
 
 // VARIÁVEIS DE NUVEM
 let currentUser = null;
 let syncTimeout = null;
+let isAdmin = false;
+const ADMIN_USER = 'brunoluz12';
 
 // INICIALIZAÇÃO
 document.addEventListener('DOMContentLoaded', () => {
@@ -56,11 +59,51 @@ async function tryLogin(username) {
     
     const user = username.trim();
     const statusMsg = document.getElementById('login-status-msg');
+    const pendingMsg = document.getElementById('login-pending-msg');
+    const blockedMsg = document.getElementById('login-blocked-msg');
     const btn = document.getElementById('btn-login');
     
+    // Esconder mensagens anteriores
+    pendingMsg.classList.add('hidden');
+    blockedMsg.classList.add('hidden');
     statusMsg.classList.remove('hidden');
     btn.disabled = true;
     
+    // Verificar acesso via API (só funciona na Vercel)
+    try {
+        const authResponse = await fetch(`/api/auth?username=${encodeURIComponent(user)}`);
+        if (authResponse.ok) {
+            const authResult = await authResponse.json();
+            
+            if (authResult.status === 'pending') {
+                statusMsg.classList.add('hidden');
+                pendingMsg.classList.remove('hidden');
+                btn.disabled = false;
+                return; // Não permite login
+            }
+            
+            if (authResult.status === 'blocked') {
+                statusMsg.classList.add('hidden');
+                blockedMsg.classList.remove('hidden');
+                btn.disabled = false;
+                return; // Não permite login
+            }
+            
+            // Se é admin, marcar flag
+            if (authResult.isAdmin) {
+                isAdmin = true;
+            }
+        }
+    } catch (e) {
+        // API não disponível (uso local) — permite login sem controle
+        console.warn("API de autenticação não disponível. Acesso local sem controle.");
+        // Se é o admin em acesso local, habilitar admin
+        if (user.toLowerCase().trim() === ADMIN_USER) {
+            isAdmin = true;
+        }
+    }
+    
+    // Login aprovado — carregar dados da nuvem
     try {
         const response = await fetch(`/api/load?username=${encodeURIComponent(user)}`);
         
@@ -87,6 +130,15 @@ async function tryLogin(username) {
     // Ocultar login e mostrar app
     document.getElementById('login-overlay').classList.add('hidden');
     document.getElementById('main-app-container').style.display = 'block';
+    
+    // Mostrar aba Admin se for admin
+    if (isAdmin) {
+        const tabAdmin = document.getElementById('tab-admin');
+        const tabAdminDivider = document.getElementById('admin-tab-divider');
+        if (tabAdmin) tabAdmin.style.display = '';
+        if (tabAdminDivider) tabAdminDivider.style.display = '';
+        carregarUsuariosAdmin(); // Carrega badge de pendentes
+    }
     
     // Iniciar fluxo normal do App
     carregarBancoQuestoes();
@@ -1545,12 +1597,14 @@ function switchMainTab(tabName) {
     const tabMaterial = document.getElementById('tab-material');
     const tabAgenda = document.getElementById('tab-agenda');
     const tabPsico = document.getElementById('tab-psico');
+    const tabAdmin = document.getElementById('tab-admin');
     
     if (tabSimulador) tabSimulador.classList.remove('active');
     if (tabControle) tabControle.classList.remove('active');
     if (tabMaterial) tabMaterial.classList.remove('active');
     if (tabAgenda) tabAgenda.classList.remove('active');
     if (tabPsico) tabPsico.classList.remove('active');
+    if (tabAdmin) tabAdmin.classList.remove('active');
     
     if (tabName === 'simulador') {
         if (tabSimulador) tabSimulador.classList.add('active');
@@ -1567,6 +1621,10 @@ function switchMainTab(tabName) {
     } else if (tabName === 'psico') {
         if (tabPsico) tabPsico.classList.add('active');
         showView('psico-view');
+    } else if (tabName === 'admin') {
+        if (tabAdmin) tabAdmin.classList.add('active');
+        showView('admin-view');
+        carregarUsuariosAdmin();
     }
 }
 
@@ -1955,5 +2013,116 @@ document.addEventListener('DOMContentLoaded', () => {
         
         calendarHtml += '</div>';
         agendaCalendarContainer.innerHTML = calendarHtml;
+    }
+});
+
+// ==========================================
+// PAINEL DE ADMINISTRAÇÃO
+// ==========================================
+async function carregarUsuariosAdmin() {
+    if (!isAdmin) return;
+
+    const container = document.getElementById('admin-users-table-container');
+    if (!container) return;
+
+    try {
+        const response = await fetch('/api/admin', {
+            headers: { 'X-Admin': ADMIN_USER }
+        });
+
+        if (!response.ok) {
+            container.innerHTML = '<p style="color: var(--error-color);">Erro ao carregar usuários.</p>';
+            return;
+        }
+
+        const data = await response.json();
+        const users = data.users || [];
+
+        // Atualizar badge de pendentes
+        const pendingCount = users.filter(u => u.status === 'pending').length;
+        const badge = document.getElementById('admin-pending-badge');
+        if (badge) {
+            if (pendingCount > 0) {
+                badge.textContent = pendingCount;
+                badge.style.display = 'inline-flex';
+            } else {
+                badge.style.display = 'none';
+            }
+        }
+
+        if (users.length === 0) {
+            container.innerHTML = '<p style="color: var(--text-muted);">Nenhum usuário cadastrado ainda.</p>';
+            return;
+        }
+
+        let html = `<table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Status</th>
+                    <th>Solicitação</th>
+                    <th>Aprovado em</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>`;
+
+        users.forEach(u => {
+            const statusClass = u.status === 'approved' ? 'status-approved' : u.status === 'blocked' ? 'status-blocked' : 'status-pending';
+            const statusLabel = u.status === 'approved' ? 'Aprovado' : u.status === 'blocked' ? 'Bloqueado' : 'Pendente';
+            const reqDate = u.requestedAt ? new Date(u.requestedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
+            const approvedDate = u.approvedAt ? new Date(u.approvedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
+
+            html += `<tr>
+                <td><strong>${u.username}</strong></td>
+                <td><span class="admin-status-badge ${statusClass}">${statusLabel}</span></td>
+                <td>${reqDate}</td>
+                <td>${approvedDate}</td>
+                <td class="admin-actions">
+                    ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
+                    ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
+                </td>
+            </tr>`;
+        });
+
+        html += '</tbody></table>';
+        container.innerHTML = html;
+
+    } catch (e) {
+        console.error("Erro ao carregar admin:", e);
+        container.innerHTML = '<p style="color: var(--error-color);">Erro de conexão ao carregar usuários.</p>';
+    }
+}
+
+async function alterarStatusUsuario(username, action) {
+    if (!isAdmin) return;
+
+    try {
+        const response = await fetch('/api/admin', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Admin': ADMIN_USER
+            },
+            body: JSON.stringify({ username, action })
+        });
+
+        if (response.ok) {
+            // Recarregar a lista
+            carregarUsuariosAdmin();
+        } else {
+            alert('Erro ao alterar status do usuário.');
+        }
+    } catch (e) {
+        console.error("Erro ao alterar status:", e);
+        alert('Erro de conexão.');
+    }
+}
+
+// Botão de atualizar no painel admin
+document.addEventListener('DOMContentLoaded', () => {
+    const btnRefresh = document.getElementById('btn-refresh-admin');
+    if (btnRefresh) {
+        btnRefresh.addEventListener('click', () => carregarUsuariosAdmin());
     }
 });
