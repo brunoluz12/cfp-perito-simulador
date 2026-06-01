@@ -369,6 +369,31 @@ button {
 }
 .stat-icon.success { background: var(--success-bg); color: var(--success-color); }
 .stat-icon.error { background: var(--error-bg); color: var(--error-color); }
+.stat-icon.pending { background: rgba(245, 158, 11, 0.12); color: #d97706; }
+.stat-icon.accent { background: rgba(139, 92, 246, 0.12); color: #7c3aed; }
+
+/* Grid de 6 cards (2 linhas de 3) */
+.stats-grid.stats-grid-6 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+.stats-grid.stats-grid-6 .stat-card {
+    padding: 12px;
+    gap: 12px;
+}
+.stats-grid.stats-grid-6 .stat-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.25rem;
+}
+.stats-grid.stats-grid-6 .stat-value {
+    font-size: 1.25rem;
+}
+@media (max-width: 768px) {
+    .stats-grid.stats-grid-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 .stat-info {
     display: flex;
@@ -498,6 +523,86 @@ button {
 
 .chapter-stat-item:hover {
     background: rgba(0,0,0,0.04);
+}
+
+.chapter-stat-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+    min-width: 0;
+    margin-right: 12px;
+}
+
+/* Barra de progresso mini (resolvidas / total) */
+.progress-mini {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 140px;
+}
+.progress-mini-bar {
+    flex: 1;
+    height: 6px;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    overflow: hidden;
+    min-width: 60px;
+}
+.progress-mini-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6, #10b981);
+    border-radius: 3px;
+    transition: width 0.4s ease;
+}
+.progress-mini-text {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Cores específicas dos números no card */
+.chapter-stat-numbers .cs-pct {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.chapter-stat-numbers .cs-acertos {
+    color: var(--success-color);
+}
+.chapter-stat-numbers .cs-erros {
+    color: var(--error-color);
+}
+.chapter-stat-numbers .cs-pend {
+    color: #d97706;
+}
+.chapter-stat-numbers > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+/* Header da disciplina (accordion) — também usa progress-mini */
+.accordion-title-group .progress-mini {
+    margin-left: 12px;
+    min-width: 160px;
+    max-width: 220px;
+}
+
+@media (max-width: 600px) {
+    .accordion-title-group {
+        flex-wrap: wrap;
+    }
+    .accordion-title-group .progress-mini {
+        margin-left: 0;
+        width: 100%;
+    }
+    .progress-mini { min-width: 100%; }
 }
 
 .chapter-stat-name {
@@ -2650,7 +2755,7 @@ button {
 }
 
 /* ==========================================
-   PAINEL DE ADMINISTRA��O
+   PAINEL DE ADMINISTRA��O
    ========================================== */
 
 .admin-panel {

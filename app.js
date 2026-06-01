@@ -417,95 +417,114 @@ function salvarEstatisticas() {
 function calcularEstatisticasPorCapitulo() {
     const container = document.getElementById('chapter-stats-list');
     if (!container) return;
-    
+
     const statsPorDisc = {};
-    
+
+    // Conta TODAS as questões do banco (total + status)
     bancoQuestoes.forEach(q => {
+        const disc = q.disciplina || "Sem Disciplina";
+        const cap = q.conteudo || q.capitulo || "Geral";
+
+        if (!statsPorDisc[disc]) {
+            statsPorDisc[disc] = { total: 0, resolvidas: 0, acertos: 0, erros: 0, conteudos: {} };
+        }
+        if (!statsPorDisc[disc].conteudos[cap]) {
+            statsPorDisc[disc].conteudos[cap] = { total: 0, resolvidas: 0, acertos: 0, erros: 0 };
+        }
+
+        // Total (sempre incrementa - é o universo do banco)
+        statsPorDisc[disc].total++;
+        statsPorDisc[disc].conteudos[cap].total++;
+
+        // Resolvidas/acertos/erros — só se tiver histórico
         const hist = historicoQuestoes[q.id];
-        
-        // Computa apenas as questões que foram respondidas
         if (hist && hist.status) {
-            const disc = q.disciplina || "Sem Disciplina";
-            const cap = q.conteudo || q.capitulo || "Geral";
-            
-            // Inicializa a disciplina e o capítulo
-            if (!statsPorDisc[disc]) {
-                statsPorDisc[disc] = { resolvidas: 0, acertos: 0, erros: 0, conteudos: {} };
-            }
-            if (!statsPorDisc[disc].conteudos[cap]) {
-                statsPorDisc[disc].conteudos[cap] = { resolvidas: 0, acertos: 0, erros: 0 };
-            }
-            
-            // Incrementa os dados
             statsPorDisc[disc].resolvidas++;
             statsPorDisc[disc].conteudos[cap].resolvidas++;
-            
             if (hist.status === 'acerto') {
                 statsPorDisc[disc].acertos++;
                 statsPorDisc[disc].conteudos[cap].acertos++;
-            }
-            if (hist.status === 'erro') {
+            } else if (hist.status === 'erro') {
                 statsPorDisc[disc].erros++;
                 statsPorDisc[disc].conteudos[cap].erros++;
             }
         }
     });
-    
+
     const disciplinas = Object.keys(statsPorDisc).sort();
-    
+
     if (disciplinas.length === 0) {
-        container.innerHTML = '<p class="empty-stats-msg">Responda algumas questões com o novo rastreador ativo para ver o seu progresso aqui.</p>';
+        container.innerHTML = '<p class="empty-stats-msg">Carregue o banco de questões para ver os indicadores.</p>';
         return;
     }
-    
+
     container.innerHTML = '';
-    
+
     disciplinas.forEach(disc => {
         const dStats = statsPorDisc[disc];
+        const pendentes = dStats.total - dStats.resolvidas;
+        const pctResolvido = dStats.total > 0 ? Math.round((dStats.resolvidas / dStats.total) * 100) : 0;
+        const taxaAcerto = dStats.resolvidas > 0 ? Math.round((dStats.acertos / dStats.resolvidas) * 100) : 0;
+
         const item = document.createElement('div');
         item.className = 'accordion-item';
-        
-        // Header (Disciplina)
+
+        // Header da Disciplina
         const header = document.createElement('div');
         header.className = 'accordion-header';
         header.innerHTML = `
             <div class="accordion-title-group">
                 <span class="accordion-title">${disc}</span>
+                <div class="progress-mini">
+                    <div class="progress-mini-bar"><div class="progress-mini-fill" style="width: ${pctResolvido}%;"></div></div>
+                    <span class="progress-mini-text">${dStats.resolvidas}/${dStats.total}</span>
+                </div>
             </div>
-            <div class="chapter-stat-numbers" style="margin-right: 12px; font-size: 0.8rem;">
-                <span class="cs-res tooltip" data-tooltip="Resolvidas">${dStats.resolvidas}</span>
+            <div class="chapter-stat-numbers">
+                <span class="cs-pct tooltip" data-tooltip="Taxa de Acerto">${taxaAcerto}%</span>
                 <span class="cs-acertos tooltip" data-tooltip="Acertos"><i class="ph ph-check"></i> ${dStats.acertos}</span>
                 <span class="cs-erros tooltip" data-tooltip="Erros"><i class="ph ph-x"></i> ${dStats.erros}</span>
+                <span class="cs-pend tooltip" data-tooltip="Faltam responder"><i class="ph ph-hourglass-medium"></i> ${pendentes}</span>
             </div>
             <i class="ph ph-caret-down accordion-icon"></i>
         `;
-        
+
         // Body (Conteúdos)
         const body = document.createElement('div');
         body.className = 'accordion-body';
-        
+
         const bodyInner = document.createElement('div');
         bodyInner.className = 'accordion-body-inner';
-        
+
         const conteudos = Object.keys(dStats.conteudos).sort();
         conteudos.forEach(cap => {
             const cStats = dStats.conteudos[cap];
+            const cPend = cStats.total - cStats.resolvidas;
+            const cPctRes = cStats.total > 0 ? Math.round((cStats.resolvidas / cStats.total) * 100) : 0;
+            const cTaxa = cStats.resolvidas > 0 ? Math.round((cStats.acertos / cStats.resolvidas) * 100) : 0;
+
             const capItem = document.createElement('div');
             capItem.className = 'chapter-stat-item';
             capItem.innerHTML = `
-                <div class="chapter-stat-name tooltip" data-tooltip="${cap}">${cap}</div>
+                <div class="chapter-stat-content">
+                    <div class="chapter-stat-name tooltip" data-tooltip="${cap}">${cap}</div>
+                    <div class="progress-mini">
+                        <div class="progress-mini-bar"><div class="progress-mini-fill" style="width: ${cPctRes}%;"></div></div>
+                        <span class="progress-mini-text">${cStats.resolvidas}/${cStats.total}</span>
+                    </div>
+                </div>
                 <div class="chapter-stat-numbers">
-                    <span class="cs-res tooltip" data-tooltip="Resolvidas">${cStats.resolvidas}</span>
+                    <span class="cs-pct tooltip" data-tooltip="Taxa de Acerto">${cTaxa}%</span>
                     <span class="cs-acertos tooltip" data-tooltip="Acertos"><i class="ph ph-check"></i> ${cStats.acertos}</span>
                     <span class="cs-erros tooltip" data-tooltip="Erros"><i class="ph ph-x"></i> ${cStats.erros}</span>
+                    <span class="cs-pend tooltip" data-tooltip="Faltam responder"><i class="ph ph-hourglass-medium"></i> ${cPend}</span>
                 </div>
             `;
             bodyInner.appendChild(capItem);
         });
-        
+
         body.appendChild(bodyInner);
-        
-        // Funcionalidade do Accordion
+
         header.addEventListener('click', () => {
             item.classList.toggle('active');
             if (item.classList.contains('active')) {
@@ -514,7 +533,7 @@ function calcularEstatisticasPorCapitulo() {
                 body.style.maxHeight = null;
             }
         });
-        
+
         item.appendChild(header);
         item.appendChild(body);
         container.appendChild(item);
@@ -525,6 +544,21 @@ function atualizarTelaDashboard() {
     document.getElementById('stat-total-resolvidas').textContent = stats.totalResolvidas;
     document.getElementById('stat-total-acertos').textContent = stats.totalAcertos;
     document.getElementById('stat-total-erros').textContent = stats.totalErros;
+
+    // Novos indicadores: total no banco, faltam, taxa
+    const totalBanco = Array.isArray(bancoQuestoes) ? bancoQuestoes.length : 0;
+    const faltam = Math.max(0, totalBanco - stats.totalResolvidas);
+    const taxa = (stats.totalAcertos + stats.totalErros) > 0
+        ? Math.round((stats.totalAcertos / (stats.totalAcertos + stats.totalErros)) * 100)
+        : 0;
+
+    const elFaltam = document.getElementById('stat-total-faltam');
+    const elBanco = document.getElementById('stat-total-banco');
+    const elTaxa = document.getElementById('stat-total-taxa');
+    if (elFaltam) elFaltam.textContent = faltam;
+    if (elBanco) elBanco.textContent = totalBanco;
+    if (elTaxa) elTaxa.textContent = `${taxa}%`;
+
     calcularEstatisticasPorCapitulo();
 }
 

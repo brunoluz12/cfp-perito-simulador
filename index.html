@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=9">
+    <link rel="stylesheet" href="style.css?v=10">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -163,7 +163,7 @@
                 <!-- Painel de Desempenho -->
                 <div class="glass-panel history-panel">
                     <h2><i class="ph ph-chart-bar"></i> Seu Desempenho</h2>
-                    <div class="stats-grid">
+                    <div class="stats-grid stats-grid-6">
                         <div class="stat-card">
                             <div class="stat-icon"><i class="ph ph-files"></i></div>
                             <div class="stat-info">
@@ -183,6 +183,27 @@
                             <div class="stat-info">
                                 <span class="stat-value" id="stat-total-erros">0</span>
                                 <span class="stat-label">Erros</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon pending"><i class="ph ph-hourglass-medium"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value" id="stat-total-faltam">0</span>
+                                <span class="stat-label">Faltam</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="ph ph-database"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value" id="stat-total-banco">0</span>
+                                <span class="stat-label">No Banco</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon accent"><i class="ph ph-trend-up"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value" id="stat-total-taxa">0%</span>
+                                <span class="stat-label">Taxa de Acerto</span>
                             </div>
                         </div>
                     </div>
@@ -478,7 +499,7 @@
 
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=20"></script>
-    <script src="app.js?v=22"></script>
+    <script src="app.js?v=23"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>
