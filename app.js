@@ -612,6 +612,38 @@ function showView(viewName) {
 // FLUXO DO SIMULADO
 function configurarEventos() {
     document.getElementById('config-form').addEventListener('submit', gerarCaderno);
+    
+    // Busca por ID
+    const btnBuscaId = document.getElementById('btn-busca-id');
+    const inputBuscaId = document.getElementById('busca-id-input');
+    if (btnBuscaId && inputBuscaId) {
+        const handleBuscaId = () => {
+            const idInput = inputBuscaId.value.trim();
+            if (!idInput) return;
+            const idNum = parseInt(idInput, 10);
+            const questao = bancoQuestoes.find(q => q.id === idNum);
+            if (!questao) {
+                alert(`Questão com ID ${idNum} não encontrada no banco de dados.`);
+                return;
+            }
+            
+            simuladoAtual = [questao];
+            questaoAtualIndex = 0;
+            acertosSimulado = 0;
+            errosSimulado = 0;
+            showView('quiz');
+            carregarQuestaoUI();
+            inputBuscaId.value = ''; // limpa após buscar
+        };
+        
+        btnBuscaId.addEventListener('click', handleBuscaId);
+        inputBuscaId.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                handleBuscaId();
+            }
+        });
+    }
     document.getElementById('btn-voltar').addEventListener('click', () => showView('dashboard'));
     document.getElementById('btn-finalizar-quiz').addEventListener('click', finalizarSimulado);
     document.getElementById('btn-proxima').addEventListener('click', proximaQuestao);
