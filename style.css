@@ -47,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    box-sizing: border-box;
 }
 
 /* UTILIDADES GLASSMORPHISM */
@@ -169,6 +170,8 @@ html.dark-mode .theme-toggle .theme-icon-dark { display: none; }
 .view {
     display: none;
     animation: fadeIn 0.4s ease forwards;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .view.active {
@@ -185,6 +188,12 @@ html.dark-mode .theme-toggle .theme-icon-dark { display: none; }
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dashboard-grid > * {
+    min-width: 0;
 }
 
 @media (min-width: 1024px) {
