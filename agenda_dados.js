@@ -156,11 +156,10 @@ const agendaDados = {
                     dia: "01",
                     diaSemana: "Segunda-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "DOC M1.01 (1P)" },
+                        { horario: "08:00 a 09:40", aula: "TO M3.02 (3P, 3M)" },
                         { horario: "10:00 a 11:40", aula: "PRO M1.01 (1P)" },
                         { horario: "13:50 a 15:30", aula: "CRI M3.04 (2P)" },
-                        { horario: "15:50 a 17:30", aula: "CRI M3.04 (2P)" },
-                        { horario: "19:00 a 20:40 (Extra)", aula: "AT M1.07 (8P, 2M)" }
+                        { horario: "15:50 a 17:30", aula: "CRI M3.04 (2P)" }
                     ]
                 },
                 {
@@ -169,7 +168,7 @@ const agendaDados = {
                     blocos: [
                         { horario: "08:00 a 09:40", aula: "PCEB M1.01 (1P)" },
                         { horario: "10:00 a 11:40", aula: "PCEB M1.01 (1P)" },
-                        { horario: "13:50 a 15:30", aula: "DOC M1.02 (1P)" },
+                        { horario: "13:50 a 15:30", aula: "DOC M1.01 (1P)" },
                         { horario: "15:50 a 17:30", aula: "AT M1.08 (8P, 2M)" }
                     ]
                 },
@@ -178,9 +177,9 @@ const agendaDados = {
                     diaSemana: "Quarta-feira",
                     blocos: [
                         { horario: "08:00 a 09:40", aula: "PRO M1.02 (1P)" },
-                        { horario: "10:00 a 11:40", aula: "EVENTO - Palestra DG" },
+                        { horario: "10:00 a 11:40", aula: "TEAP M2.02 (1P)" },
                         { horario: "13:50 a 15:30", aula: "PCEB M1.02 (1P)" },
-                        { horario: "15:50 a 17:30", aula: "PCEB M1.03 (1P)" }
+                        { horario: "15:50 a 17:30", aula: "PCEB M1.02 (1P)" }
                     ]
                 },
                 {
@@ -188,7 +187,7 @@ const agendaDados = {
                     diaSemana: "Quinta-feira",
                     blocos: [
                         { horario: "08:00 a 09:40", aula: "DPP/TFP M1.02 (2P, 2M)" },
-                        { horario: "10:00 a 11:40", aula: "DOC M1.03 (1P)" },
+                        { horario: "10:00 a 11:40", aula: "SOP M1.02 (10P)" },
                         { horario: "13:50 a 15:30", aula: "CRI M3.04 (2P)" },
                         { horario: "15:50 a 17:30", aula: "PRO M1.03 (1P)" }
                     ]
@@ -208,8 +207,7 @@ const agendaDados = {
                     diaSemana: "Sábado",
                     blocos: [
                         { horario: "08:00 a 09:40", aula: "CRI M4.02 (1P)" },
-                        { horario: "10:00 a 11:40", aula: "LOC M1.02 (1P)" },
-                        { horario: "13:50 a 15:30", aula: "AT M1.10 (8P, 2M)" }
+                        { horario: "10:00 a 11:40", aula: "LOC M1.02 (1P)" }
                     ]
                 },
                 {
@@ -225,9 +223,9 @@ const agendaDados = {
                     diaSemana: "Segunda-feira",
                     blocos: [
                         { horario: "08:00 a 09:40", aula: "LOC M1.03 (6P)" },
-                        { horario: "10:00 a 11:40", aula: "PRO M1.05 (1P)" },
-                        { horario: "13:50 a 15:30", aula: "AT M1.11 (8P, 2M)" },
-                        { horario: "15:50 a 17:30", aula: "DOC M1.04 (1P)" }
+                        { horario: "10:00 a 11:40", aula: "TO M3.03 (10P, 20M)" },
+                        { horario: "13:50 a 15:30", aula: "AT M1.10 (8P, 2M)" },
+                        { horario: "15:50 a 17:30", aula: "DOC M1.02 (1P)" }
                     ]
                 },
                 {
@@ -244,7 +242,7 @@ const agendaDados = {
                     dia: "10",
                     diaSemana: "Quarta-feira",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "DOC M1.05 (1P)" },
+                        { horario: "08:00 a 09:40", aula: "SOP M1.03 (10P)" },
                         { horario: "10:00 a 11:40", aula: "CRI M4.04 (1P)" },
                         { horario: "13:50 a 15:30", aula: "PCEB M3.01 (1P)" },
                         { horario: "15:50 a 17:30", aula: "LOC M1.04 (4P)" }
@@ -254,10 +252,10 @@ const agendaDados = {
                     dia: "11",
                     diaSemana: "Quinta-feira",
                     blocos: [
+                        { horario: "08:00 a 09:40", aula: "DOC M1.03 (1P)" },
                         { horario: "10:00 a 11:40", aula: "DPP/TFP M1.03 (2P, 2M)" },
                         { horario: "13:50 a 15:30", aula: "PVAT M1.04 (5P)" },
-                        { horario: "15:50 a 17:30", aula: "PVAT M1.04 (5P)" },
-                        { horario: "19:00 a 20:40 (Extra)", aula: "AT M1.12 (8P, 2M)" }
+                        { horario: "15:50 a 17:30", aula: "PVAT M1.04 (5P)" }
                     ]
                 },
                 {
@@ -275,14 +273,14 @@ const agendaDados = {
                     diaSemana: "Sábado",
                     blocos: [
                         { horario: "08:00 a 09:40", aula: "PCEB M3.02 (1P)" },
-                        { horario: "10:00 a 11:40", aula: "AT M1.13 (8P, 2M)" }
+                        { horario: "10:00 a 11:40", aula: "DOC M1.04 (1P)" }
                     ]
                 },
                 {
                     dia: "14",
                     diaSemana: "Domingo",
                     blocos: [
-                        { horario: "08:00 a 09:40", aula: "AT M2.01 (10P, 2M)" }
+                        { horario: "Integral", aula: "Domingo Livre", destaque: true }
                     ]
                 }
             ]
