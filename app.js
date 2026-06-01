@@ -2093,6 +2093,113 @@ document.addEventListener('DOMContentLoaded', () => {
 // ==========================================
 // PAINEL DE ADMINISTRAÇÃO
 // ==========================================
+let adminUsers = [];
+let adminSortCol = 'username';
+let adminSortAsc = true;
+
+function getAdminSortValue(u, col) {
+    switch (col) {
+        case 'username': return u.username.toLowerCase();
+        case 'status': return u.status === 'pending' ? 0 : u.status === 'approved' ? 1 : 2;
+        case 'resolvidas': return u.stats ? u.stats.totalResolvidas : 0;
+        case 'acertos': return u.stats ? u.stats.totalAcertos : 0;
+        case 'erros': return u.stats ? u.stats.totalErros : 0;
+        case 'taxa':
+            const r = u.stats ? u.stats.totalResolvidas : 0;
+            const a = u.stats ? u.stats.totalAcertos : 0;
+            return r > 0 ? Math.round((a / r) * 100) : 0;
+        case 'solicitacao': return u.requestedAt || '';
+        default: return '';
+    }
+}
+
+function renderAdminTable() {
+    const container = document.getElementById('admin-users-table-container');
+    if (!container) return;
+
+    if (adminUsers.length === 0) {
+        container.innerHTML = '<p style="color: var(--text-muted);">Nenhum usuário cadastrado ainda.</p>';
+        return;
+    }
+
+    // Ordenar
+    const sorted = [...adminUsers].sort((a, b) => {
+        const va = getAdminSortValue(a, adminSortCol);
+        const vb = getAdminSortValue(b, adminSortCol);
+        let cmp = 0;
+        if (typeof va === 'number') {
+            cmp = va - vb;
+        } else {
+            cmp = va.localeCompare(vb, 'pt-BR', { numeric: true });
+        }
+        return adminSortAsc ? cmp : -cmp;
+    });
+
+    const arrow = (col) => {
+        if (adminSortCol !== col) return '<i class="ph ph-caret-up-down" style="opacity: 0.3;"></i>';
+        return adminSortAsc
+            ? '<i class="ph ph-caret-up" style="color: var(--primary-color);"></i>'
+            : '<i class="ph ph-caret-down" style="color: var(--primary-color);"></i>';
+    };
+
+    const cols = [
+        { key: 'username', label: 'Usuário' },
+        { key: 'status', label: 'Status' },
+        { key: 'resolvidas', label: 'Resolvidas' },
+        { key: 'acertos', label: 'Acertos' },
+        { key: 'erros', label: 'Erros' },
+        { key: 'taxa', label: 'Taxa' },
+        { key: 'solicitacao', label: 'Solicitação' }
+    ];
+
+    let html = `<table class="admin-table">
+        <thead>
+            <tr>
+                ${cols.map(c => `<th class="sortable-th" onclick="adminSortBy('${c.key}')">${c.label} ${arrow(c.key)}</th>`).join('')}
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>`;
+
+    sorted.forEach(u => {
+        const statusClass = u.status === 'approved' ? 'status-approved' : u.status === 'blocked' ? 'status-blocked' : 'status-pending';
+        const statusLabel = u.status === 'approved' ? 'Aprovado' : u.status === 'blocked' ? 'Bloqueado' : 'Pendente';
+        const reqDate = u.requestedAt ? new Date(u.requestedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
+
+        const resolvidas = u.stats ? u.stats.totalResolvidas : 0;
+        const acertos = u.stats ? u.stats.totalAcertos : 0;
+        const erros = u.stats ? u.stats.totalErros : 0;
+        const taxa = resolvidas > 0 ? Math.round((acertos / resolvidas) * 100) : 0;
+
+        html += `<tr>
+            <td><strong>${u.username}</strong></td>
+            <td><span class="admin-status-badge ${statusClass}">${statusLabel}</span></td>
+            <td>${resolvidas}</td>
+            <td style="color: #059669; font-weight: 600;">${acertos}</td>
+            <td style="color: #dc2626; font-weight: 600;">${erros}</td>
+            <td><strong>${taxa}%</strong></td>
+            <td>${reqDate}</td>
+            <td class="admin-actions">
+                ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
+                ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
+            </td>
+        </tr>`;
+    });
+
+    html += '</tbody></table>';
+    container.innerHTML = html;
+}
+
+function adminSortBy(col) {
+    if (adminSortCol === col) {
+        adminSortAsc = !adminSortAsc;
+    } else {
+        adminSortCol = col;
+        adminSortAsc = true;
+    }
+    renderAdminTable();
+}
+
 async function carregarUsuariosAdmin() {
     if (!isAdmin) return;
 
@@ -2110,10 +2217,10 @@ async function carregarUsuariosAdmin() {
         }
 
         const data = await response.json();
-        const users = data.users || [];
+        adminUsers = data.users || [];
 
         // Atualizar badge de pendentes
-        const pendingCount = users.filter(u => u.status === 'pending').length;
+        const pendingCount = adminUsers.filter(u => u.status === 'pending').length;
         const badge = document.getElementById('admin-pending-badge');
         if (badge) {
             if (pendingCount > 0) {
@@ -2124,53 +2231,7 @@ async function carregarUsuariosAdmin() {
             }
         }
 
-        if (users.length === 0) {
-            container.innerHTML = '<p style="color: var(--text-muted);">Nenhum usuário cadastrado ainda.</p>';
-            return;
-        }
-
-        let html = `<table class="admin-table">
-            <thead>
-                <tr>
-                    <th>Usuário</th>
-                    <th>Status</th>
-                    <th>Resolvidas</th>
-                    <th>Acertos</th>
-                    <th>Erros</th>
-                    <th>Taxa</th>
-                    <th>Solicitação</th>
-                    <th>Ações</th>
-                </tr>
-            </thead>
-            <tbody>`;
-
-        users.forEach(u => {
-            const statusClass = u.status === 'approved' ? 'status-approved' : u.status === 'blocked' ? 'status-blocked' : 'status-pending';
-            const statusLabel = u.status === 'approved' ? 'Aprovado' : u.status === 'blocked' ? 'Bloqueado' : 'Pendente';
-            const reqDate = u.requestedAt ? new Date(u.requestedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
-
-            const resolvidas = u.stats ? u.stats.totalResolvidas : 0;
-            const acertos = u.stats ? u.stats.totalAcertos : 0;
-            const erros = u.stats ? u.stats.totalErros : 0;
-            const taxa = resolvidas > 0 ? Math.round((acertos / resolvidas) * 100) : 0;
-
-            html += `<tr>
-                <td><strong>${u.username}</strong></td>
-                <td><span class="admin-status-badge ${statusClass}">${statusLabel}</span></td>
-                <td>${resolvidas}</td>
-                <td style="color: #059669; font-weight: 600;">${acertos}</td>
-                <td style="color: #dc2626; font-weight: 600;">${erros}</td>
-                <td><strong>${taxa}%</strong></td>
-                <td>${reqDate}</td>
-                <td class="admin-actions">
-                    ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
-                    ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
-                </td>
-            </tr>`;
-        });
-
-        html += '</tbody></table>';
-        container.innerHTML = html;
+        renderAdminTable();
 
     } catch (e) {
         console.error("Erro ao carregar admin:", e);

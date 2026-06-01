@@ -3641,3 +3641,20 @@ html.dark-mode .notes-header {
         height: 18px !important;
     }
 }
+
+.sortable-th {
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s ease;
+    white-space: nowrap;
+}
+
+.sortable-th:hover {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.sortable-th i {
+    margin-left: 4px;
+    font-size: 0.75rem;
+    vertical-align: middle;
+}
