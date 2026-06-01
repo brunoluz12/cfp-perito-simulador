@@ -12,6 +12,12 @@ function toggleTheme() {
 
 // VARIÁVEIS GLOBAIS
 let bancoQuestoes = [];
+
+// Ordenação natural: Cap. 1, Cap. 2, ..., Cap. 10 (e não Cap. 1, Cap. 10, Cap. 2)
+function naturalSort(a, b) {
+    return a.localeCompare(b, 'pt-BR', { numeric: true, sensitivity: 'base' });
+}
+
 let simuladoAtual = [];
 let questaoAtualIndex = 0;
 let acertosSimulado = 0;
@@ -508,7 +514,7 @@ function calcularEstatisticasPorCapitulo() {
         const bodyInner = document.createElement('div');
         bodyInner.className = 'accordion-body-inner';
 
-        const conteudos = Object.keys(dStats.conteudos).sort();
+        const conteudos = Object.keys(dStats.conteudos).sort(naturalSort);
         conteudos.forEach(cap => {
             const cStats = dStats.conteudos[cap];
             const cPend = cStats.total - cStats.resolvidas;
@@ -667,7 +673,7 @@ function atualizarFiltroConteudo() {
     }
     msConteudo.setDisabled(false);
     const questoes = bancoQuestoes.filter(q => disciplinas.includes(q.disciplina));
-    const conteudos = [...new Set(questoes.map(q => q.conteudo))].sort();
+    const conteudos = [...new Set(questoes.map(q => q.conteudo))].sort(naturalSort);
     msConteudo.setOptions(conteudos.map(c => ({
         value: c,
         label: c,
@@ -732,7 +738,7 @@ function renderizarArvoreSimulado(disciplinasSelecionadas) {
     disciplinasSelecionadas.sort().forEach(disc => {
         const conteudos = [...new Set(
             bancoQuestoes.filter(q => q.disciplina === disc).map(q => q.conteudo)
-        )].sort();
+        )].sort(naturalSort);
 
         const group = document.createElement('div');
         group.className = 'discipline-group';
