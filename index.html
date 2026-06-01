@@ -7,7 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=11">
+    <!-- Aplica tema o mais cedo possível para evitar "flash" de tema claro ao abrir no escuro -->
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('pcpr_theme');
+          if (t === 'dark') document.documentElement.classList.add('dark-mode');
+        } catch(e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="style.css?v=12">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -58,6 +67,10 @@
                     <i class="ph ph-trend-up" style="color: var(--accent-color);"></i>
                     <span id="header-taxa">0%</span>
                 </div>
+                <button id="btn-theme-toggle" class="theme-toggle tooltip" data-tooltip="Alternar modo escuro/claro" onclick="toggleTheme()" aria-label="Alternar tema">
+                    <i class="ph ph-moon theme-icon-dark"></i>
+                    <i class="ph ph-sun theme-icon-light"></i>
+                </button>
             </div>
         </header>
 
@@ -499,7 +512,7 @@
 
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=20"></script>
-    <script src="app.js?v=23"></script>
+    <script src="app.js?v=24"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>

@@ -127,6 +127,38 @@ body {
     font-size: 1.1rem;
 }
 
+/* THEME TOGGLE (botão claro/escuro no header) */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--panel-border);
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: var(--transition);
+    padding: 0;
+    margin-left: 4px;
+}
+.theme-toggle:hover {
+    color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.1);
+    transform: rotate(15deg);
+}
+.theme-toggle i {
+    font-size: 1.15rem;
+    transition: opacity 0.2s, transform 0.3s;
+}
+/* Ícone padrão (modo claro): mostra a lua (clicar para escurecer) */
+.theme-toggle .theme-icon-light { display: none; }
+.theme-toggle .theme-icon-dark { display: inline-block; }
+/* No modo escuro: mostra o sol */
+html.dark-mode .theme-toggle .theme-icon-light { display: inline-block; }
+html.dark-mode .theme-toggle .theme-icon-dark { display: none; }
+
 /* CONTROLE DE VIEWS */
 .view {
     display: none;
@@ -3072,6 +3104,353 @@ button {
 .btn-admin-block:hover {
     background: rgba(239, 68, 68, 0.2);
     border-color: #dc2626;
+}
+
+/* ==========================================
+   DARK MODE — overrides
+   ========================================== */
+html.dark-mode {
+    --bg-color: #0f172a;                              /* Slate 900 */
+    --panel-bg: rgba(30, 41, 59, 0.78);               /* Slate 800 + opacity */
+    --panel-border: rgba(255, 255, 255, 0.07);
+    --text-main: #e2e8f0;                             /* Slate 200 */
+    --text-muted: #94a3b8;                            /* Slate 400 */
+    --shadow-glow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+html.dark-mode body {
+    background-color: var(--bg-color);
+    background-image:
+        radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.18) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.18) 0px, transparent 50%);
+    color: var(--text-main);
+}
+
+/* Header theme-toggle no dark */
+html.dark-mode .theme-toggle {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fbbf24; /* amber */
+}
+html.dark-mode .theme-toggle:hover {
+    background: rgba(251, 191, 36, 0.15);
+    color: #fcd34d;
+}
+html.dark-mode .stat-badge {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Tab ativa no header */
+html.dark-mode .tab-link.active {
+    color: #f1f5f9;
+}
+html.dark-mode .tab-link:hover {
+    color: #93c5fd;
+}
+
+/* Inputs/Selects */
+html.dark-mode select,
+html.dark-mode .custom-input-number,
+html.dark-mode .custom-input-text,
+html.dark-mode .custom-textarea,
+html.dark-mode input[type="text"],
+html.dark-mode input[type="number"],
+html.dark-mode input[type="email"],
+html.dark-mode input[type="password"] {
+    background: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode select:focus,
+html.dark-mode .custom-input-number:focus,
+html.dark-mode .custom-input-text:focus,
+html.dark-mode .custom-textarea:focus {
+    border-color: var(--primary-color);
+}
+html.dark-mode select option {
+    background: #1e293b;
+    color: var(--text-main);
+}
+
+/* Botões */
+html.dark-mode .btn-secondary {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-main);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+html.dark-mode .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* Toggle filters (filtros avançados) */
+html.dark-mode .filters-section {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .toggle-filter {
+    background: rgba(15, 23, 42, 0.5);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .toggle-filter:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+html.dark-mode .toggle-switch .slider {
+    background-color: #475569;
+}
+
+/* Stats cards */
+html.dark-mode .stat-card {
+    background: rgba(15, 23, 42, 0.5);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .stat-icon {
+    background: rgba(59, 130, 246, 0.15);
+}
+
+/* Chapter stats container e accordion */
+html.dark-mode .chapter-stats-container {
+    background: rgba(15, 23, 42, 0.4);
+    border-color: rgba(255, 255, 255, 0.07);
+}
+html.dark-mode .chapter-stats-title {
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .accordion-item {
+    background: rgba(15, 23, 42, 0.5);
+    border-color: rgba(255, 255, 255, 0.07);
+}
+html.dark-mode .accordion-header {
+    background: rgba(255, 255, 255, 0.02);
+}
+html.dark-mode .accordion-header:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+html.dark-mode .accordion-body {
+    background: rgba(15, 23, 42, 0.3);
+}
+html.dark-mode .accordion-body-inner {
+    border-top-color: rgba(255, 255, 255, 0.07);
+}
+html.dark-mode .chapter-stat-item {
+    background: rgba(255, 255, 255, 0.03);
+}
+html.dark-mode .chapter-stat-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+html.dark-mode .chapter-stat-numbers > span {
+    background: rgba(0, 0, 0, 0.25);
+}
+html.dark-mode .progress-mini-bar {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Multi-select */
+html.dark-mode .multi-select-trigger {
+    background: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode .multi-select-dropdown {
+    background: #1e293b;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode .multi-select-actions {
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .multi-select-actions button {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode .multi-select-actions button:hover {
+    background: rgba(59, 130, 246, 0.2);
+}
+html.dark-mode .multi-select-option:hover {
+    background: rgba(59, 130, 246, 0.15);
+}
+html.dark-mode .multi-select-option input[type="checkbox"],
+html.dark-mode .conteudo-row input[type="checkbox"].sim-cb {
+    background: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Modal */
+html.dark-mode .modal-content {
+    background: rgba(30, 41, 59, 0.96);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode .modal-header,
+html.dark-mode .modal-footer {
+    border-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .modal-close:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .simulado-total-row {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .simulado-total-row input {
+    background: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode .discipline-group {
+    border-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .discipline-group-header {
+    background: rgba(59, 130, 246, 0.12);
+}
+html.dark-mode .discipline-group-header .disc-actions button {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode .conteudo-row {
+    border-color: rgba(255, 255, 255, 0.05);
+}
+html.dark-mode .conteudo-row:hover {
+    background: rgba(59, 130, 246, 0.08);
+}
+html.dark-mode .conteudo-row.is-selected {
+    background: rgba(59, 130, 246, 0.12);
+}
+html.dark-mode .conteudo-row input[type="number"] {
+    background: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+html.dark-mode .conteudo-row input[type="number"]:disabled {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-muted);
+}
+
+/* Login overlay */
+html.dark-mode .login-overlay {
+    background: rgba(15, 23, 42, 0.92);
+}
+html.dark-mode .login-box {
+    background: rgba(30, 41, 59, 0.85);
+}
+
+/* Quiz view */
+html.dark-mode .question-panel,
+html.dark-mode .feedback-panel,
+html.dark-mode .result-panel {
+    background: var(--panel-bg);
+    color: var(--text-main);
+}
+html.dark-mode .progress-bar-bg {
+    background: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .options-container label,
+html.dark-mode .options-container .option {
+    background: rgba(15, 23, 42, 0.5);
+    border-color: rgba(255, 255, 255, 0.08);
+    color: var(--text-main);
+}
+html.dark-mode .options-container label:hover,
+html.dark-mode .options-container .option:hover {
+    background: rgba(59, 130, 246, 0.12);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+html.dark-mode .options-container label.selected,
+html.dark-mode .options-container .option.selected {
+    background: rgba(59, 130, 246, 0.2);
+}
+html.dark-mode .badge {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-main);
+}
+html.dark-mode .badge.outline {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+html.dark-mode .badge.subtle {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Controle de disciplinas */
+html.dark-mode .control-panel,
+html.dark-mode .discipline-card {
+    color: var(--text-main);
+}
+html.dark-mode .discipline-card {
+    background: rgba(15, 23, 42, 0.5);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .discipline-progress-bar {
+    background: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .class-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+html.dark-mode .class-box.checked {
+    background: var(--success-color);
+    border-color: var(--success-color);
+}
+html.dark-mode .global-progress-container .discipline-progress-bar {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Agenda */
+html.dark-mode .agenda-config-panel,
+html.dark-mode .material-config-panel {
+    color: var(--text-main);
+}
+html.dark-mode .view-toggle {
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+html.dark-mode .btn-toggle {
+    color: var(--text-muted);
+}
+html.dark-mode .btn-toggle.active {
+    background: var(--primary-color);
+    color: white;
+}
+html.dark-mode #agenda-cards-container > div,
+html.dark-mode #agenda-calendar-container > div {
+    background: rgba(15, 23, 42, 0.5);
+    border-color: rgba(255, 255, 255, 0.08);
+    color: var(--text-main);
+}
+
+/* Material iframe - mantém o iframe claro (conteúdo é estático),
+   mas ajusta a borda do container */
+html.dark-mode .material-reader-container iframe {
+    box-shadow: 0 6px 30px rgba(0,0,0,0.6);
+}
+
+/* Quantity input group */
+html.dark-mode .quantity-input-group .custom-checkbox {
+    color: var(--text-main);
+}
+
+/* Tabs do dashboard (acrescentar) */
+html.dark-mode .filters-title { color: var(--text-main); }
+
+/* Cores de bordas do feedback do quiz */
+html.dark-mode .feedback-panel.correct { border-left-color: var(--success-color); }
+html.dark-mode .feedback-panel.wrong { border-left-color: var(--error-color); }
+
+/* Botões btn-text */
+html.dark-mode .btn-text {
+    color: var(--text-muted);
+}
+html.dark-mode .btn-text:hover {
+    color: var(--text-main);
+}
+html.dark-mode .error-text { color: var(--error-color); }
+
+/* Personal notes */
+html.dark-mode .personal-notes-container {
+    background: rgba(0, 0, 0, 0.15);
+}
+html.dark-mode .notes-header {
+    color: var(--text-main);
 }
 
 /* ==========================================

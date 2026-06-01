@@ -1,3 +1,15 @@
+// ==========================================
+// TEMA (modo escuro / claro)
+// ==========================================
+// O tema inicial já é aplicado no <head> via inline script,
+// para evitar "flash" de tema claro ao abrir no modo escuro.
+function toggleTheme() {
+    const isDark = document.documentElement.classList.toggle('dark-mode');
+    try {
+        localStorage.setItem('pcpr_theme', isDark ? 'dark' : 'light');
+    } catch (e) {}
+}
+
 // VARIÁVEIS GLOBAIS
 let bancoQuestoes = [];
 let simuladoAtual = [];
