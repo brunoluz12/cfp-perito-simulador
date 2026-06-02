@@ -4115,6 +4115,11 @@ function pfisterSubmitInquiry() {
         alert('Por favor, responda todas as perguntas antes de continuar.');
         return;
     }
+    
+    if (bonita.value === feia.value) {
+        alert('A pirâmide mais bonita não pode ser a mesma que a menos bonita.');
+        return;
+    }
 
     pfisterState.inquiry = {
         bonitaIdx: parseInt(bonita.value),
@@ -4227,7 +4232,11 @@ function analyzeFormal(pyramidData) {
 
     // Determine formal aspect
     let formal;
-    if (symMatches >= 5 && numFamilies >= 4) {
+    let sinaisEspeciais = [];
+
+    if (numFamilies === 1 && Object.keys(cells).length === 15) {
+        formal = 'camada monotonal';
+    } else if (symMatches >= 5 && numFamilies >= 4) {
         formal = 'estrutura simétrica';
     } else if (symMatches >= 4 && numFamilies >= 3) {
         formal = 'formação simétrica';
@@ -4241,6 +4250,18 @@ function analyzeFormal(pyramidData) {
         formal = 'tapete com início de ordem';
     } else {
         formal = 'tapete puro';
+    }
+
+    // Detecção de Sinais Especiais
+    const topRowWhite = (getFamily('1') === 'Br') && (getFamily('2a') === 'Br') && (getFamily('2b') === 'Br');
+    if (topRowWhite && numFamilies > 1) {
+        sinaisEspeciais.push('decepada');
+    }
+    
+    const row3White = getFamily('3a') === 'Br' && getFamily('3b') === 'Br' && getFamily('3c') === 'Br';
+    const row4White = getFamily('4a') === 'Br' && getFamily('4b') === 'Br' && getFamily('4c') === 'Br' && getFamily('4d') === 'Br';
+    if ((row3White || row4White) && numFamilies > 1) {
+        sinaisEspeciais.push('corte (mutilação)');
     }
 
     // Placement mode
@@ -4269,6 +4290,7 @@ function analyzeFormal(pyramidData) {
 
     return {
         formal,
+        sinaisEspeciais,
         mode,
         substitutions: pyramidData.substitutions,
         removals: pyramidData.removals,
@@ -4312,11 +4334,22 @@ function calculateScore(colorAnalysis, formalAnalyses, execution) {
         } else if (fa.formal.includes('formação')) {
             score += 1;
             positives.push(`Pirâmide ${label}: ${fa.formal} — organização básica presente.`);
+        } else if (fa.formal === 'camada monotonal') {
+            warnings.push(`Pirâmide ${label}: camada monotonal — nível intermediário de elaboração, porém sugere certa rigidez ou fuga.`);
         } else if (fa.formal === 'tapete com início de ordem') {
             warnings.push(`Pirâmide ${label}: tapete (com início de ordem) — funcionamento mais simples; observar demais indicadores.`);
         } else {
             score -= 2;
             negatives.push(`Pirâmide ${label}: ${fa.formal} — ausência de organização; possível indicador de imaturidade emocional.`);
+        }
+
+        if (fa.sinaisEspeciais && fa.sinaisEspeciais.includes('decepada')) {
+            score -= 2;
+            negatives.push(`Pirâmide ${label}: sinal especial 'decepada' — requer atenção (possível fragilidade estrutural).`);
+        }
+        if (fa.sinaisEspeciais && fa.sinaisEspeciais.includes('corte (mutilação)')) {
+            score -= 2;
+            negatives.push(`Pirâmide ${label}: sinal especial 'corte (mutilação)' — requer atenção (possível fragilidade ou dissociação).`);
         }
     });
 
@@ -4326,14 +4359,24 @@ function calculateScore(colorAnalysis, formalAnalyses, execution) {
     else if (ca['Vm'].status === '↑') { score -= 3; negatives.push('Vermelho elevado — possível dificuldade no controle de impulsos agressivos.'); }
 
     if (ca['Az'].status === '=' || ca['Az'].status === '↑') { score += 2; positives.push('Azul dentro do esperado — bom controle emocional e capacidade de adaptação.'); }
-    else if (ca['Az'].obs === 0) { score -= 2; negatives.push('Azul ausente — possível dificuldade de controle emocional.'); }
+    else if (ca['Az'].obs === 0) { score -= 2; negatives.push('Azul rebaixado ou ausente — possível dificuldade de autocontrole e contenção emocional, fator crítico para policiais.'); }
 
     if (ca['Vd'].status === '=' || ca['Vd'].status === '↑') { score += 1; }
+    else if (ca['Vd'].obs === 0) { score -= 1; warnings.push('Verde rebaixado ou ausente — possível dificuldade de contato afetivo e empatia.'); }
 
     if (ca['Ma'].obs > 0 && ca['Ma'].obs <= 5) { score += 1; positives.push('Marrom presente — perseverança, tenacidade, determinação (boa qualidade para o cargo).'); }
     else if (ca['Ma'].obs > 5) { score -= 1; warnings.push('Marrom excessivo — possível rigidez ou pensamento concreto.'); }
 
-    if (ca['Pr'].obs > 5) { score -= 2; negatives.push('Preto excessivo — indicadores de negativismo ou depressão.'); }
+    if (ca['Pr'].obs > 5) { score -= 2; negatives.push('Preto elevado — repressão acentuada ou possíveis indicadores depressivos.'); }
+    
+    if (ca['Br'].obs > 5) { score -= 2; negatives.push('Branco elevado — vazio interior, fragilidade estrutural ou impulsividade não controlada.'); }
+    
+    // Syndromes
+    const synIncolor = parseInt(ca['Pr'].obs) + parseInt(ca['Br'].obs) + parseInt(ca['Ci'].obs);
+    if (synIncolor > 14) { 
+        score -= 3;
+        negatives.push(`Síndrome incolor elevada (${synIncolor} vs. esperado 7) — repressão ou negação de afetos. Crítico para PF.`);
+    }
 
     // Execution
     if (execution === 'ORDENADA') { score += 2; positives.push('Execução ordenada — método com flexibilidade; indica organização e adaptabilidade.'); }
@@ -4519,11 +4562,13 @@ function generateReport() {
         </h3>
         <p>Processo de execução (3 pirâmides): <strong>${execution}</strong></p>`;
     formalAnalyses.forEach((fa, i) => {
+        const sinaisStr = fa.sinaisEspeciais && fa.sinaisEspeciais.length > 0 ? fa.sinaisEspeciais.join(', ') : '—';
         html += `<div class="pfister-formal-row">
             <h4>Pirâmide ${['I','II','III'][i]}</h4>
             <table class="pfister-kv-table">
                 <tr><td>Aspecto formal:</td><td><strong>${fa.formal}</strong></td></tr>
                 <tr><td>Modo de colocação:</td><td>${fa.mode}</td></tr>
+                <tr><td>Sinais especiais:</td><td>${sinaisStr}</td></tr>
                 <tr><td>Substituições:</td><td>${fa.substitutions}</td></tr>
                 <tr><td>Remoções:</td><td>${fa.removals}</td></tr>
             </table>
