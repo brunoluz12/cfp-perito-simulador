@@ -4214,7 +4214,7 @@ function analyzeFormal(pyramidData) {
     ];
     let symMatches = 0;
     symmetryPairs.forEach(([a, b]) => {
-        if (getFamily(a) && getFamily(a) === getFamily(b)) symMatches++;
+        if (cells[a] && cells[a] === cells[b]) symMatches++;
     });
 
     // Count distinct families
@@ -4250,6 +4250,12 @@ function analyzeFormal(pyramidData) {
         formal = 'tapete com início de ordem';
     } else {
         formal = 'tapete puro';
+    }
+
+    if ((formal === 'tapete puro' || formal === 'tapete com início de ordem') && numFamilies > 1) {
+        if (Object.values(cells).includes('Br1')) {
+            formal = 'tapete furado/rasgado';
+        }
     }
 
     // Detecção de Sinais Especiais
@@ -4313,7 +4319,7 @@ function analyzeExecution() {
     });
 
     const orderedCount = patterns.filter(p => p === 'ordered').length;
-    if (orderedCount >= 2) return 'ORDENADA';
+    if (orderedCount >= 2) return 'METÓDICA/SISTEMÁTICA';
     if (orderedCount === 0) return 'DESORDENADA';
     return 'RELAXADA';
 }
@@ -4338,6 +4344,9 @@ function calculateScore(colorAnalysis, formalAnalyses, execution) {
             warnings.push(`Pirâmide ${label}: camada monotonal — nível intermediário de elaboração, porém sugere certa rigidez ou fuga.`);
         } else if (fa.formal === 'tapete com início de ordem') {
             warnings.push(`Pirâmide ${label}: tapete (com início de ordem) — funcionamento mais simples; observar demais indicadores.`);
+        } else if (fa.formal === 'tapete furado/rasgado') {
+            score -= 2;
+            negatives.push(`Pirâmide ${label}: tapete furado/rasgado — indício de dificuldades de integração; ponto crítico para a PF.`);
         } else {
             score -= 2;
             negatives.push(`Pirâmide ${label}: ${fa.formal} — ausência de organização; possível indicador de imaturidade emocional.`);
@@ -4379,7 +4388,7 @@ function calculateScore(colorAnalysis, formalAnalyses, execution) {
     }
 
     // Execution
-    if (execution === 'ORDENADA') { score += 2; positives.push('Execução ordenada — método com flexibilidade; indica organização e adaptabilidade.'); }
+    if (execution === 'METÓDICA/SISTEMÁTICA') { score += 2; positives.push('Execução metódica/sistemática — comportamento organizado, constante, meticuloso (positivo para PF, mas evitar rigidez excessiva).'); }
     else if (execution === 'DESORDENADA') { score -= 2; negatives.push('Execução desordenada — possível desorganização ou impulsividade.'); }
 
     // Substitutions
