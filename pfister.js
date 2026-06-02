@@ -3,42 +3,43 @@
 // ==========================================
 
 const PFISTER_COLORS = {
-    'Az1': { hex: '#90CAF9', name: 'Azul 1 (claro)', family: 'Az', textColor: '#000' },
-    'Az2': { hex: '#42A5F5', name: 'Azul 2 (turquesa)', family: 'Az', textColor: '#FFF' },
-    'Az3': { hex: '#1976D2', name: 'Azul 3 (médio)', family: 'Az', textColor: '#FFF' },
-    'Az4': { hex: '#0A1F5E', name: 'Azul 4 (escuro)', family: 'Az', textColor: '#FFF' },
-    'Vm1': { hex: '#EF9A9A', name: 'Vermelho 1 (claro)', family: 'Vm', textColor: '#000' },
-    'Vm2': { hex: '#E53935', name: 'Vermelho 2 (médio)', family: 'Vm', textColor: '#FFF' },
-    'Vm3': { hex: '#B71C1C', name: 'Vermelho 3 (escuro)', family: 'Vm', textColor: '#FFF' },
-    'Vd1': { hex: '#C8E61E', name: 'Verde 1 (lima)', family: 'Vd', textColor: '#000' },
-    'Vd2': { hex: '#7CB342', name: 'Verde 2 (claro)', family: 'Vd', textColor: '#000' },
-    'Vd3': { hex: '#2E7D32', name: 'Verde 3 (escuro)', family: 'Vd', textColor: '#FFF' },
-    'Vd4': { hex: '#1B5E20', name: 'Verde 4 (muito escuro)', family: 'Vd', textColor: '#FFF' },
-    'Vi1': { hex: '#CE93D8', name: 'Violeta 1 (claro)', family: 'Vi', textColor: '#000' },
-    'Vi2': { hex: '#4A148C', name: 'Violeta 2 (escuro)', family: 'Vi', textColor: '#FFF' },
-    'La1': { hex: '#FFB74D', name: 'Laranja 1 (claro)', family: 'La', textColor: '#000' },
-    'La2': { hex: '#E65100', name: 'Laranja 2 (escuro)', family: 'La', textColor: '#FFF' },
-    'Am1': { hex: '#FFEB00', name: 'Amarelo 1 (puro)', family: 'Am', textColor: '#000' },
-    'Am2': { hex: '#FDD835', name: 'Amarelo 2 (dourado)', family: 'Am', textColor: '#000' },
+    'Az1': { hex: '#9ED9F0', name: 'Azul 1', family: 'Az', textColor: '#000' },
+    'Az2': { hex: '#1FA3B8', name: 'Azul 2', family: 'Az', textColor: '#FFF' },
+    'Az3': { hex: '#1976D2', name: 'Azul 3', family: 'Az', textColor: '#FFF' },
+    'Az4': { hex: '#0A1F5E', name: 'Azul 4', family: 'Az', textColor: '#FFF' },
+    'Vm1': { hex: '#FF8FA3', name: 'Vermelho 1', family: 'Vm', textColor: '#000' },
+    'Vm2': { hex: '#E53935', name: 'Vermelho 2', family: 'Vm', textColor: '#FFF' },
+    'Vm3': { hex: '#B71C1C', name: 'Vermelho 3', family: 'Vm', textColor: '#FFF' },
+    'Vm4': { hex: '#5C0002', name: 'Vermelho 4', family: 'Vm', textColor: '#FFF' },
+    'Vd1': { hex: '#C8E61E', name: 'Verde 1', family: 'Vd', textColor: '#000' },
+    'Vd2': { hex: '#7CB342', name: 'Verde 2', family: 'Vd', textColor: '#FFF' },
+    'Vd3': { hex: '#2E7D32', name: 'Verde 3', family: 'Vd', textColor: '#FFF' },
+    'Vd4': { hex: '#0A2A0F', name: 'Verde 4', family: 'Vd', textColor: '#FFF' },
+    'Vi1': { hex: '#D7B3E0', name: 'Violeta 1', family: 'Vi', textColor: '#000' },
+    'Vi2': { hex: '#4A148C', name: 'Violeta 2', family: 'Vi', textColor: '#FFF' },
+    'Vi3': { hex: '#8E44AD', name: 'Violeta 3', family: 'Vi', textColor: '#FFF' },
+    'La1': { hex: '#FF7F00', name: 'Laranja 1', family: 'La', textColor: '#000' },
+    'La2': { hex: '#E64A19', name: 'Laranja 2', family: 'La', textColor: '#FFF' },
+    'Am1': { hex: '#FFEB00', name: 'Amarelo 1', family: 'Am', textColor: '#000' },
+    'Am2': { hex: '#F9A825', name: 'Amarelo 2', family: 'Am', textColor: '#000' },
     'Ma1': { hex: '#6D4C2A', name: 'Marrom 1', family: 'Ma', textColor: '#FFF' },
-    'Ma2': { hex: '#3E2723', name: 'Marrom 2 (escuro)', family: 'Ma', textColor: '#FFF' },
-    'Pr1': { hex: '#212121', name: 'Preto', family: 'Pr', textColor: '#FFF' },
-    'Br1': { hex: '#FAFAFA', name: 'Branco', family: 'Br', textColor: '#000' },
-    'Ci1': { hex: '#9E9E9E', name: 'Cinza 1 (claro)', family: 'Ci', textColor: '#000' },
-    'Ci2': { hex: '#616161', name: 'Cinza 2 (escuro)', family: 'Ci', textColor: '#FFF' }
+    'Ma2': { hex: '#3E2723', name: 'Marrom 2', family: 'Ma', textColor: '#FFF' },
+    'Pr1': { hex: '#000000', name: 'Preto', family: 'Pr', textColor: '#FFF' },
+    'Br1': { hex: '#FFFFFF', name: 'Branco', family: 'Br', textColor: '#000' },
+    'Ci1': { hex: '#808080', name: 'Cinza', family: 'Ci', textColor: '#FFF' }
 };
 
 const PFISTER_FAMILIES = [
     { key: 'Az', name: 'Azul', codes: ['Az1','Az2','Az3','Az4'] },
-    { key: 'Vm', name: 'Vermelho', codes: ['Vm1','Vm2','Vm3'] },
+    { key: 'Vm', name: 'Vermelho', codes: ['Vm1','Vm2','Vm3','Vm4'] },
     { key: 'Vd', name: 'Verde', codes: ['Vd1','Vd2','Vd3','Vd4'] },
-    { key: 'Vi', name: 'Violeta', codes: ['Vi1','Vi2'] },
+    { key: 'Vi', name: 'Violeta', codes: ['Vi1','Vi2','Vi3'] },
     { key: 'La', name: 'Laranja', codes: ['La1','La2'] },
     { key: 'Am', name: 'Amarelo', codes: ['Am1','Am2'] },
     { key: 'Ma', name: 'Marrom', codes: ['Ma1','Ma2'] },
     { key: 'Pr', name: 'Preto', codes: ['Pr1'] },
     { key: 'Br', name: 'Branco', codes: ['Br1'] },
-    { key: 'Ci', name: 'Cinza', codes: ['Ci1','Ci2'] }
+    { key: 'Ci', name: 'Cinza', codes: ['Ci1'] }
 ];
 
 const PFISTER_NORMS = {
@@ -450,9 +451,12 @@ function analyzeColors() {
         const obs = familyCounts[f.key];
         const obsPct = total > 0 ? (obs / total * 100) : 0;
         const norm = PFISTER_NORMS[f.key];
+        const expected = (norm.pct / 100) * total;
+        const limitInf = Math.max(0, expected - 2);
+        const limitSup = expected + 2;
         let status = '=';
-        if (obsPct > norm.pct + 5) status = '↑';
-        else if (obsPct < norm.pct - 3) status = '↓';
+        if (obs < limitInf) status = '↓';
+        if (obs > limitSup) status = '↑';
         result[f.key] = { obs, obsPct: obsPct.toFixed(1), expected: norm.expected, expPct: norm.pct.toFixed(1), status };
     });
 
@@ -485,11 +489,73 @@ function analyzeChromaticFormula() {
 
 function analyzeSyndromes(colorAnalysis) {
     const getObs = (fam) => parseInt(colorAnalysis[fam].obs);
-    return {
+    const resultSyndromes = {
         normal: { obs: getObs('Az') + getObs('Vm') + getObs('Vd'), expected: 23.1, name: 'Normal (Az+Vm+Vd)' },
         estimulo: { obs: getObs('Vm') + getObs('Am') + getObs('La'), expected: 15.3, name: 'Estímulo (Vm+Am+La)' },
         fria: { obs: getObs('Az') + getObs('Vd') + getObs('Vi'), expected: 20.8, name: 'Fria (Az+Vd+Vi)' },
         incolor: { obs: getObs('Pr') + getObs('Br') + getObs('Ci'), expected: 7.0, name: 'Incolor (Pr+Br+Ci)' }
+    };
+
+    // Calculate Vco and Vma
+    let vco = 0;
+    let vma = 0;
+    Object.keys(colorAnalysis).forEach(fam => {
+        if (colorAnalysis[fam].obs > 0) vco++;
+        const famCodes = PFISTER_FAMILIES.find(f => f.key === fam).codes;
+        let countMatizes = 0;
+        famCodes.forEach(code => {
+            let used = false;
+            pfisterState.pyramids.forEach(p => {
+                if (Object.values(p.cells).includes(code)) used = true;
+            });
+            if (used) countMatizes++;
+        });
+        vma += countMatizes;
+    });
+
+    const isAcima = (fam) => colorAnalysis[fam].status === '↑';
+    const isAbaixo = (fam) => colorAnalysis[fam].status === '↓';
+
+    // 7 New Syndromes
+    const complexSyndromes = [];
+    if (isAcima('Ma') && isAcima('Am') && isAcima('Vd')) complexSyndromes.push('Síndrome do Dinamismo');
+    if (isAcima('Vi') && isAcima('Vd') && isAcima('La')) complexSyndromes.push('Síndrome de Excitação Afetiva');
+    if (isAcima('Vm') && isAcima('Vd') && isAbaixo('Ma')) complexSyndromes.push('Síndrome de Labilidade Afetiva');
+    if (isAcima('Vm') && isAcima('Vd') && isAcima('Vi')) complexSyndromes.push('Síndrome de Histeria');
+    if (isAcima('Ci') && isAcima('Vm') && isAcima('Br')) complexSyndromes.push('Síndrome de Conflito Interno');
+    if (isAcima('Ma') && isAcima('La') && isAcima('Vi') && colorAnalysis['Br'].obs > 0) complexSyndromes.push('Síndrome da Agitação');
+    if (isAcima('Pr') && isAcima('Ci') && isAcima('Az')) complexSyndromes.push('Síndrome da Regulação Opressora');
+
+    // Duplas Cromáticas
+    const duplas = [];
+    if (isAcima('Pr') && isAcima('Az')) duplas.push('Azul e Preto Acima');
+    if (isAcima('Am') && isAcima('Az')) duplas.push('Azul e Amarelo Acima');
+    if (isAcima('Ci') && isAcima('Az')) duplas.push('Azul e Cinza Acima');
+    if (isAcima('Vi') && isAcima('Vm')) duplas.push('Vermelho e Violeta Acima');
+    if (isAcima('Ma') && isAcima('Vm')) duplas.push('Vermelho e Marrom Acima');
+    if (isAcima('Br') && isAcima('Vm')) duplas.push('Vermelho e Branco Acima');
+    if (isAcima('Vd') && isAcima('Vm')) duplas.push('Vermelho e Verde Acima');
+    if (isAcima('Vi') && isAcima('Vd')) duplas.push('Verde e Violeta Acima');
+    if (isAcima('Vd') && (isAcima('Vm') || isAcima('La') || isAcima('Am'))) duplas.push('Verde e (Vm ou La ou Am) Acima');
+    if (isAcima('La') && isAcima('Vd')) duplas.push('Verde e Laranja Acima');
+    if (isAbaixo('Vd') && isAcima('Az')) duplas.push('Verde Baixo e Azul Acima');
+    if (isAbaixo('Vd') && isAcima('Vm')) duplas.push('Verde Baixo e Vermelho Acima');
+    if (isAbaixo('La') && isAbaixo('Vi')) duplas.push('Laranja e Violeta Abaixo');
+    if (isAcima('La') && isAcima('Vi')) duplas.push('Laranja e Violeta Acima');
+    if (isAcima('Br') && isAcima('Ma')) duplas.push('Marrom e Branco Acima');
+    if (isAcima('Pr') && isAcima('Ma')) duplas.push('Marrom e Preto Acima');
+    if (isAcima('Pr') && isAcima('Vm')) duplas.push('Vermelho e Preto Acima');
+    if (isAcima('Ci') && isAcima('Pr')) duplas.push('Preto e Cinza Acima');
+    if (isAcima('Am') && isAcima('Pr')) duplas.push('Preto e Amarelo Acima');
+    if (isAcima('Vm') && isAcima('Ci')) duplas.push('Cinza e Vermelho Acima');
+
+    return {
+        colors: colorAnalysis,
+        syndromes: resultSyndromes,
+        complexSyndromes,
+        duplas,
+        vco,
+        vma
     };
 }
 
@@ -616,7 +682,7 @@ function analyzeExecution() {
     return 'RELAXADA';
 }
 
-function calculateScore(colorAnalysis, formalAnalyses, execution) {
+function calculateScore(colorAnalysis, syndromesData, formalAnalyses, execution) {
     let score = 0;
     const positives = [], warnings = [], negatives = [];
 
@@ -679,6 +745,21 @@ function calculateScore(colorAnalysis, formalAnalyses, execution) {
         negatives.push(`Síndrome incolor elevada (${synIncolor} vs. esperado 7) — repressão ou negação de afetos. Crítico para PF.`);
     }
 
+    // Complex Syndromes
+    if (syndromesData.complexSyndromes) {
+        syndromesData.complexSyndromes.forEach(syn => {
+            score -= 2;
+            negatives.push(`${syn} detectada — requer atenção interpretativa criteriosa.`);
+        });
+    }
+
+    // Duplas Cromáticas
+    if (syndromesData.duplas) {
+        syndromesData.duplas.forEach(dupla => {
+            warnings.push(`Dupla Cromática: ${dupla} — possível indicador clínico.`);
+        });
+    }
+
     // Execution
     if (execution === 'METÓDICA/SISTEMÁTICA') { score += 2; positives.push('Execução metódica/sistemática — comportamento organizado, constante, meticuloso (positivo para PF, mas evitar rigidez excessiva).'); }
     else if (execution === 'DESORDENADA') { score -= 2; negatives.push('Execução desordenada — possível desorganização ou impulsividade.'); }
@@ -707,7 +788,7 @@ function generateReport() {
     const syndromes = analyzeSyndromes(colorAnalysis);
     const formalAnalyses = pfisterState.pyramids.map(p => analyzeFormal(p));
     const execution = analyzeExecution();
-    const scoring = calculateScore(colorAnalysis, formalAnalyses, execution);
+    const scoring = calculateScore(colorAnalysis, syndromes, formalAnalyses, execution);
     const inq = pfisterState.inquiry;
 
     const now = new Date();
@@ -837,6 +918,12 @@ function generateReport() {
         • Ausentes (AUS): ${chromaticFormula.ausList.join(', ') || '—'}
     </div>`;
 
+    html += `<h4 style="margin-top:20px">Variabilidade (VCo e VMa)</h4>`;
+    html += `<div class="pfister-formula-detail">
+        • Variabilidade de Cores (VCo): <strong>${syndromes.vco}</strong> (Limites: 3 a 7)<br>
+        • Variabilidade de Matizes (VMa): <strong>${syndromes.vma}</strong> (Limites: 5 a 13)
+    </div>`;
+
     html += `</div>`;
 
     // === SYNDROMES ===
@@ -848,12 +935,32 @@ function generateReport() {
         <table class="pfister-color-table">
             <thead><tr><th>Síndrome</th><th>Observado</th><th>Esperado</th><th>Diferença</th></tr></thead>
             <tbody>`;
-    Object.values(syndromes).forEach(s => {
+    Object.values(syndromes.syndromes).forEach(s => {
         const diff = (s.obs - s.expected).toFixed(1);
         const sign = diff >= 0 ? '+' : '';
         html += `<tr><td>${s.name}</td><td>${s.obs}</td><td>${s.expected}</td><td>${sign}${diff}</td></tr>`;
     });
     html += `</tbody></table></div>`;
+
+    // Complex Syndromes
+    if (syndromes.complexSyndromes.length > 0) {
+        html += `<div class="pfister-report-section">
+            <h3><i class="ph ph-warning-circle"></i> Síndromes Complexas Detectadas</h3>
+            <ul style="color: #C62828;">
+                ${syndromes.complexSyndromes.map(syn => `<li><strong>${syn}</strong></li>`).join('')}
+            </ul>
+        </div>`;
+    }
+
+    // Duplas
+    if (syndromes.duplas.length > 0) {
+        html += `<div class="pfister-report-section">
+            <h3><i class="ph ph-link"></i> Duplas Cromáticas Significativas</h3>
+            <ul style="color: #F57C00;">
+                ${syndromes.duplas.map(dupla => `<li>${dupla}</li>`).join('')}
+            </ul>
+        </div>`;
+    }
 
     // === FORMAL ANALYSIS ===
     html += `<div class="pfister-report-section">
