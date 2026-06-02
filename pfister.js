@@ -205,7 +205,7 @@ function renderPyramidPhase() {
     html += `<div class="pfister-pyramid-title"><i class="ph ph-triangle" style="color:var(--accent-color)"></i> Pirâmide ${['I','II','III'][pi]}</div>`;
 
     // SVG
-    html += `<div class="pfister-pyramid-svg-wrapper" id="pfister-svg-container">${renderPyramidSVG(pData, true, 1.2)}</div>`;
+    html += `<div class="pfister-pyramid-svg-wrapper" id="pfister-svg-container">${renderPyramidSVG(pData, true, 1.8)}</div>`;
 
     // Cell count
     html += `<div class="pfister-cell-count">${filledCount} de 15 quadrículos preenchidos</div>`;
@@ -340,7 +340,7 @@ function pfisterShowInquiry() {
     html += `<div class="pfister-inquiry-pyramids">`;
     for (let i = 0; i < 3; i++) {
         html += `<div class="pfister-inquiry-pyramid-mini">
-            ${renderPyramidSVG(pfisterState.pyramids[i], false, 0.5)}
+            ${renderPyramidSVG(pfisterState.pyramids[i], false, 0.7)}
             <p>Pirâmide ${['I','II','III'][i]}</p>
         </div>`;
     }
@@ -844,7 +844,7 @@ function generateReport() {
     for (let i = 0; i < 3; i++) {
         html += `<div class="pfister-pyramid-card">
             <h4>Pirâmide ${['I','II','III'][i]}</h4>
-            ${renderPyramidSVG(pfisterState.pyramids[i], false, 0.85)}
+            ${renderPyramidSVG(pfisterState.pyramids[i], false, 1.1)}
         </div>`;
     }
     html += `</div></div>`;
