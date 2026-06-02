@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.1.1 - Afastamento do Sigilo Bancário</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.1.1 - Afastamento do Sigilo Bancário</h1>
+        <div class="subtitle">Representação pelo afastamento do sigilo financeiro - conceitos, fundamentos legais e fluxo operacional</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Introdução - Representação pelo Afastamento do Sigilo Financeiro</a></li>
+            <li><a href="#sec2">2. Conceitos do Afastamento do Sigilo Bancário</a></li>
+            <li><a href="#sec3">3. Fundamentos Legais (CF e LC 105/2001)</a></li>
+            <li><a href="#sec4">4. Jurisprudência do STF</a></li>
+            <li><a href="#sec5">5. Regramentos do BACEN: Circular 3.347 e Resolução BCB 179</a></li>
+            <li><a href="#sec6">6. Circular 3.978/2020 (PLD/FT)</a></li>
+            <li><a href="#sec7">7. Carta-Circular 3.454/2010 (Leiaute)</a></li>
+            <li><a href="#sec8">8. Instrução Normativa BCB nº 636/2025</a></li>
+            <li><a href="#sec9">9. Regramento na Polícia Federal - IN 168-DG/PF</a></li>
+            <li><a href="#sec10">10. Fluxo do Afastamento e Operacionalização</a></li>
+            <li><a href="#sec11">11. Recebimento dos Atendimentos pelo Simba</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Introdução - Representação pelo Afastamento do Sigilo Financeiro</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Trata-se de instrumento jurídico que visa obter, mediante autorização judicial, acesso a dados protegidos por sigilo legal, como previsto no <strong>art. 5º, inciso XII, da Constituição Federal</strong>, regulamentado especialmente pela <strong>Lei Complementar nº 105/2001</strong>, por outras leis e por normas infralegais complementares. <span class="ref-pagina">(p. 161)</span>
+        </div>
+
+        <p>O sigilo financeiro é uma garantia jurídica que protege as informações relativas às operações realizadas por pessoas físicas ou jurídicas junto a instituições financeiras. Ele decorre dos direitos fundamentais à intimidade e à vida privada, e tem por objetivo impedir que dados sensíveis, como movimentações bancárias, sejam acessados ou divulgados sem autorização legal ou judicial. <span class="ref-pagina">(p. 162)</span></p>
+
+        <div class="box-orange">
+            <strong>Proteção relativa:</strong> Essa proteção <strong>não é absoluta</strong>. Pode ser relativizada mediante representação judicial devidamente fundamentada, se houver <strong>justa causa</strong>, ou seja, indícios razoáveis da prática de infração penal e a demonstração da necessidade da medida para a obtenção de prova. <span class="ref-pagina">(p. 162)</span>
+        </div>
+
+        <p>A representação deve conter fundamentação fática e jurídica, delimitação temporal e subjetiva, e a demonstração da pertinência entre os dados requeridos e o objeto da investigação. Uma vez deferida, a quebra do sigilo financeiro permite o acesso a uma ampla gama de informações, como extratos bancários, documentos de abertura de conta, contratos de câmbio, registros de cartões de crédito, boletos bancários, microfilmagens de cheques, fitas de caixa, gravações de CFTV em agências bancárias, IPs de acesso ao internet banking, entre outros. <span class="ref-pagina">(p. 162)</span></p>
+
+        <h3>Espécies de sigilo financeiro</h3>
+        <table>
+            <tr><th>Espécie</th><th>Conteúdo</th></tr>
+            <tr><td><strong>Sigilo bancário</strong></td><td>Movimentações em contas correntes, poupança, aplicações financeiras, extratos, contratos de câmbio e documentos de abertura de conta. <span class="ref-pagina">(p. 162)</span></td></tr>
+            <tr><td><strong>Sigilo de cartões de crédito</strong></td><td>Faturas, limites, histórico de compras, cartões adicionais e parcelamentos. <span class="ref-pagina">(p. 162)</span></td></tr>
+            <tr><td><strong>Sigilo de investimentos</strong></td><td>Aplicações em ações, fundos, títulos públicos, previdência privada e ativos custodiados por corretoras. <span class="ref-pagina">(p. 162)</span></td></tr>
+            <tr><td><strong>Sigilo de ativos virtuais</strong></td><td>Operações com criptomoedas e tokens digitais em exchanges nacionais ou internacionais, incluindo dados de cadastro, histórico de transações, endereços de carteira (wallets), valores convertidos e vínculos com contas bancárias ou plataformas de pagamento. <span class="ref-pagina">(p. 162)</span></td></tr>
+            <tr><td><strong>Sigilo de operações de crédito e financiamento</strong></td><td>Dados sobre empréstimos, financiamentos, consórcios e contratos de crédito pessoal ou empresarial. <span class="ref-pagina">(p. 162)</span></td></tr>
+            <tr><td><strong>Sigilo de seguros e apólices</strong></td><td>Informações sobre seguros de vida, veículos, imóveis e bens de alto valor. <span class="ref-pagina">(p. 162)</span></td></tr>
+            <tr><td><strong>Sigilo de instituições de pagamento e fintechs</strong></td><td>Movimentações em contas digitais, carteiras virtuais, plataformas de pagamento e aplicativos financeiros. <span class="ref-pagina">(p. 162)</span></td></tr>
+            <tr><td><strong>Sigilo fiscal com reflexos financeiros</strong></td><td>Dados declarados à Receita Federal, como rendimentos, bens e direitos, acessíveis mediante representação judicial ou requisição administrativa nos termos da legislação tributária. <span class="ref-pagina">(p. 163)</span></td></tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Análise de dados:</strong> A análise desses dados exige o emprego de técnicas especializadas, como o uso de planilhas eletrônicas, softwares de análise visual, painéis de business intelligence (como o <strong>Ciaf-Bancário</strong>) e ferramentas de geração e checagem de hash para garantir a integridade dos arquivos digitais. <span class="ref-pagina">(p. 163)</span>
+        </div>
+
+        <p>Quando bem conduzida, a análise financeira permite identificar fluxos de lavagem, interpostas pessoas, contas de passagem, operações fracionadas, triangulações e outros mecanismos típicos de ocultação patrimonial. <span class="ref-pagina">(p. 163)</span></p>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Conceitos do Afastamento do Sigilo Bancário</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> O afastamento do sigilo bancário é uma medida <strong>excepcional</strong> e juridicamente relevante no contexto de investigações criminais, especialmente em casos que envolvam <strong>lavagem de dinheiro e organizações criminosas</strong>. <span class="ref-pagina">(p. 163)</span>
+        </div>
+
+        <p>Tal medida é concedida via <strong>autorização judicial</strong> para acesso às informações bancárias de pessoas físicas ou jurídicas, normalmente protegidas por sigilo, com o objetivo de obter provas ou indícios relevantes para a investigação de crimes. <span class="ref-pagina">(p. 163)</span></p>
+
+        <h3>Objetivos do uso nas investigações</h3>
+        <table>
+            <tr><th>Objetivo</th><th>Aplicação</th></tr>
+            <tr><td><strong>Rastreamento do dinheiro / fluxos financeiros ilícitos ("Follow the money")</strong></td><td>Ajuda a mapear o caminho do dinheiro, revelando contas de destino, triangulações e ocultações patrimoniais. Pode revelar laranjas, empresas de fachada ou vínculos ocultos entre investigados. <span class="ref-pagina">(p. 164)</span></td></tr>
+            <tr><td><strong>Identificação de evolução patrimonial incompatível / Localização de bens ocultos ou dissimulados</strong></td><td>Crucial em investigações de enriquecimento ilícito, evasão fiscal ou improbidade administrativa. <span class="ref-pagina">(p. 164)</span></td></tr>
+            <tr><td><strong>Detecção de operações suspeitas entre envolvidos</strong></td><td>Permite rastrear movimentações financeiras que indiquem quem participou do delito e como ele foi executado. <span class="ref-pagina">(p. 164)</span></td></tr>
+            <tr><td><strong>Entendimento e desarticulação de esquemas criminosos complexos</strong></td><td>Em casos de crimes financeiros transnacionais ou redes de corrupção, a quebra permite conectar peças do quebra-cabeça e identificar a estrutura da organização. Possibilita identificar o modus operandi de organizações criminosas. <span class="ref-pagina">(p. 164)</span></td></tr>
+            <tr><td><strong>Produção de prova direta ou indiciária</strong></td><td>Os extratos bancários podem servir como prova documental da prática criminosa ou como indício que justifique outras diligências (como busca e apreensão ou interceptações). <span class="ref-pagina">(p. 164)</span></td></tr>
+            <tr><td><strong>Recuperação de Ativos</strong></td><td>Além de subsidiar a denúncia e instrução processual, os dados obtidos podem fundamentar ações de ressarcimento ao erário ou acordos de colaboração premiada. <span class="ref-pagina">(p. 164)</span></td></tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 6 OBJETIVOS - "RIDER+P+R"</span>
+            <ul>
+                <li><strong>R</strong>astreamento de fluxos (Follow the money)</li>
+                <li><strong>I</strong>dentificação de evolução patrimonial / bens ocultos</li>
+                <li><strong>D</strong>etecção de operações suspeitas</li>
+                <li><strong>E</strong>ntendimento e desarticulação de esquemas</li>
+                <li><strong>R</strong> + <strong>P</strong>rodução de prova direta/indiciária</li>
+                <li><strong>R</strong>ecuperação de Ativos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Fundamentos Legais</h2>
+
+        <h3>3.1. Constituição Federal</h3>
+        <div class="box-blue">
+            <strong>Fundamento constitucional:</strong> A Constituição Federal, em seu <strong>art. 5º, incisos X e XII</strong>, garante a proteção à intimidade e ao sigilo de dados. <span class="ref-pagina">(p. 164)</span>
+        </div>
+
+        <p>O entendimento consolidado é que o sigilo bancário está <strong>implicitamente protegido como desdobramento do direito à privacidade</strong>, não sendo, porém, um direito fundamental absoluto, logo com possibilidade de relativização mediante ordem judicial. <span class="ref-pagina">(p. 164)</span></p>
+
+        <div class="box-orange">
+            <strong>Equilíbrio:</strong> A quebra de sigilo bancário é medida <strong>excepcional</strong> que colide diretamente com esse direito, exigindo rigorosos critérios legais e judiciais para sua aplicação e devendo buscar equilibrar dois valores constitucionais:
+            <ul>
+                <li>Direito à privacidade do cidadão;</li>
+                <li>Efetividade da persecução penal e da justiça.</li>
+            </ul>
+            <span class="ref-pagina">(p. 164)</span>
+        </div>
+
+        <h3>3.2. Lei Complementar nº 105/2001</h3>
+        <div class="box-blue">
+            <strong>Fundamento infraconstitucional:</strong> A autorização judicial para quebra de sigilo bancário encontra seu fundamento infraconstitucional na <strong>Lei Complementar nº 105/2001</strong>, representando uma exceção legal à regra da confidencialidade das operações financeiras, sendo permitida somente em situações específicas e justificadas, com o objetivo de apurar ilícitos penais ou administrativos, <strong>inclusive na fase de inquérito</strong>. <span class="ref-pagina">(p. 165)</span>
+        </div>
+
+        <p>O <strong>artigo 1º da LC 105/2001</strong> determina que as instituições financeiras devem manter sigilo sobre suas operações ativas e passivas e serviços prestados. No entanto, esse sigilo não é absoluto e pode ser quebrado por ordem judicial ou em situações específicas previstas na própria lei. <span class="ref-pagina">(p. 165)</span></p>
+
+        <div class="box-purple">
+            <strong>Dispositivo central - art. 1º, § 4º da LC 105/2001:</strong> "A quebra de sigilo poderá ser decretada, quando necessária para apuração de ocorrência de qualquer ilícito, em <strong>qualquer fase do inquérito ou do processo judicial</strong>, e especialmente nos seguintes crimes..." <span class="ref-pagina">(p. 165)</span>
+        </div>
+
+        <h3>Crimes especialmente listados na LC 105/2001</h3>
+        <ul>
+            <li>Terrorismo;</li>
+            <li>Tráfico ilícito de substâncias entorpecentes ou drogas afins;</li>
+            <li>Contrabando ou tráfico de armas, munições ou material destinado à sua produção;</li>
+            <li>Extorsão mediante sequestro;</li>
+            <li>Contra o sistema financeiro nacional;</li>
+            <li>Contra a Administração Pública;</li>
+            <li>Contra a ordem tributária e a previdência social;</li>
+            <li>Lavagem de dinheiro ou ocultação de bens, direitos e valores;</li>
+            <li>Praticado por organização criminosa.</li>
+        </ul>
+        <p class="ref-pagina">(p. 165)</p>
+
+        <div class="box-red">
+            <strong>ATENÇÃO - Lista NÃO taxativa:</strong> Ressalte-se que a lista não é taxativa e a quebra pode ocorrer em outros tipos de ilícitos, inclusive cíveis e tributários, caso haja fundamentação legal e judicial. <span class="ref-pagina">(p. 165-166)</span>
+        </div>
+
+        <h3>Aspectos relevantes da LC 105/2001</h3>
+        <ul>
+            <li>O <strong>Banco Central e a CVM</strong> têm acesso a dados bancários para fins de fiscalização;</li>
+            <li>O <strong>Coaf (atualmente UIF)</strong> pode receber informações para monitoramento de atividades suspeitas;</li>
+            <li><strong>Comissões Parlamentares de Inquérito (CPIs)</strong> podem requisitar dados diretamente das instituições financeiras, com aprovação do plenário competente.</li>
+        </ul>
+        <p class="ref-pagina">(p. 166)</p>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Jurisprudência do STF</h2>
+
+        <div class="box-blue">
+            <strong>Entendimento do STF:</strong> O Supremo Tribunal Federal (STF) reconhece que o sigilo bancário está inserido no âmbito da proteção constitucional à privacidade e intimidade. No entanto, admite sua <strong>relativização em nome de interesses públicos relevantes</strong>. <span class="ref-pagina">(p. 165)</span>
+        </div>
+
+        <p>Interesses públicos relevantes admitidos pelo STF: <span class="ref-pagina">(p. 165)</span></p>
+        <ul>
+            <li>Combate à corrupção e à lavagem de dinheiro;</li>
+            <li>Fiscalização tributária;</li>
+            <li>Investigações patrimoniais e criminais.</li>
+        </ul>
+
+        <div class="box-green">
+            <strong>Compartilhamento sem autorização judicial:</strong> O STF também entende que o compartilhamento de informações entre órgãos como a <strong>Receita Federal e o Ministério Público</strong> pode ocorrer <strong>sem autorização judicial</strong>, se houver controle jurisdicional posterior e respeito ao sigilo. <span class="ref-pagina">(p. 165)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>RE 601.314 (STF):</strong> O STF, no julgamento do <strong>RE 601.314</strong>, decidiu que a <strong>transferência de dados bancários à Receita Federal sem autorização judicial NÃO viola a Constituição</strong>, desde que respeitados os limites legais. Isso reforça que o sigilo bancário pode ser relativizado em nome do interesse público. <span class="ref-pagina">(p. 165)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Regramentos do BACEN: Circular 3.347 e Resolução BCB 179</h2>
+
+        <div class="box-blue">
+            <strong>CCS - Cadastro de Clientes do Sistema Financeiro Nacional:</strong> A Circular 3.347 dispõe sobre a constituição, no Banco Central do Brasil, do CCS. Foi <strong>revogada a partir de 1º/2/2022</strong>, pela Resolução BCB nº 179, de 19/1/2022. <span class="ref-pagina">(p. 166)</span>
+        </div>
+
+        <p>O CCS foi criado pelo <strong>art. 3º da Lei nº 10.701/2003</strong> (regulamentado pela Carta Circular nº 3.347/2007), que incluiu o <strong>art. 10-A na Lei 9.613/98</strong> (Lei de Lavagem de Dinheiro) e determinou ao BACEN a criação de um "cadastro geral de correntistas e clientes de instituições financeiras, bem como de seus procuradores e/ou representantes legais". <span class="ref-pagina">(p. 166)</span></p>
+
+        <div class="box-orange">
+            <strong>IMPORTANTE - O CCS NÃO é quebra de sigilo:</strong> Esse cadastro é instrumento essencial para identificar vínculos entre pessoas físicas ou jurídicas e instituições financeiras, sem, contudo, permitir acesso direto ao conteúdo das movimentações financeiras — ou seja, <strong>NÃO representa quebra de sigilo bancário</strong>, mas sim uma <strong>ferramenta de rastreamento preliminar</strong>. <span class="ref-pagina">(p. 166)</span>
+        </div>
+
+        <h3>Resolução BCB nº 179/2022 - principais mudanças</h3>
+        <ul>
+            <li><strong>Consolidação Normativa:</strong> A Resolução nº 179 substitui e consolida a Circular nº 3.347/2007, reunindo em um único texto as regras sobre o CCS, com linguagem mais clara e estrutura normativa atualizada. <span class="ref-pagina">(p. 166-167)</span></li>
+            <li><strong>Expansão do Conceito de Cliente:</strong> A nova norma explicita que o cliente pode ser <strong>residente ou domiciliado no Brasil ou no exterior</strong>, ampliando o escopo de cobertura do CCS. <span class="ref-pagina">(p. 167)</span></li>
+            <li><strong>Detalhamento dos Grupos de Ativos:</strong> Define cinco grupos de ativos financeiros. <span class="ref-pagina">(p. 167)</span></li>
+            <li><strong>Reforço na Finalidade:</strong> Atender solicitações de autoridades legalmente competentes (Judiciário, MP, polícia judiciária e Receita Federal), <strong>sem necessidade de autorização judicial</strong>, já que não há acesso a dados protegidos por sigilo bancário. <span class="ref-pagina">(p. 167)</span></li>
+            <li><strong>Modernização Técnica:</strong> Atualiza procedimentos técnicos e operacionais para envio e consulta de dados. <span class="ref-pagina">(p. 167)</span></li>
+        </ul>
+
+        <h3>Os 5 Grupos de Ativos do CCS (Resolução BCB 179/2022)</h3>
+        <table>
+            <tr><th>Grupo</th><th>Descrição</th></tr>
+            <tr><td><strong>Grupo 1</strong></td><td>Contas de depósitos à vista</td></tr>
+            <tr><td><strong>Grupo 2</strong></td><td>Contas de poupança</td></tr>
+            <tr><td><strong>Grupo 3</strong></td><td>Contas de investimento</td></tr>
+            <tr><td><strong>Grupo 4</strong></td><td>Outros bens, direitos e valores</td></tr>
+            <tr><td><strong>Grupo 5</strong></td><td>Contas em moeda nacional de pessoas físicas ou jurídicas residentes no exterior</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 167)</p>
+
+        <h3>Quadro Comparativo - Circular 3.347 x Resolução BCB 179</h3>
+        <table>
+            <tr><th>Aspecto</th><th>Circular nº 3.347/2007</th><th>Resolução BCB nº 179/2022</th></tr>
+            <tr><td>Tipo de norma</td><td>Circular (infralegal)</td><td>Resolução (mais robusta)</td></tr>
+            <tr><td>Escopo</td><td>Clientes e contas</td><td>Clientes, contas e ativos financeiros</td></tr>
+            <tr><td>Abrangência</td><td>Nacional</td><td>Nacional e internacional</td></tr>
+            <tr><td>Grupos de ativos</td><td>Menos detalhado</td><td>5 grupos bem definidos</td></tr>
+            <tr><td>Linguagem</td><td>Técnica e fragmentada</td><td>Consolidada e clara</td></tr>
+            <tr><td>Vigência</td><td>Até 01/02/2022</td><td>Desde 01/02/2022</td></tr>
+        </table>
+        <p class="ref-pagina">(Quadro 6, p. 167)</p>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Circular 3.978/2020 (PLD/FT)</h2>
+
+        <div class="box-blue">
+            <strong>Objeto:</strong> Dispõe sobre a política, os procedimentos e os controles internos a serem adotados pelas instituições autorizadas a funcionar pelo Banco Central do Brasil visando à <strong>prevenção da utilização do sistema financeiro para a prática dos crimes de "lavagem" ou ocultação de bens, direitos e valores</strong> (Lei nº 9.613/1998) e de <strong>financiamento do terrorismo</strong> (Lei nº 13.260/2016). <span class="ref-pagina">(p. 167)</span>
+        </div>
+
+        <p>A Circular nº 3.978/2020 do Banco Central do Brasil (BCB) representa um <strong>marco regulatório na prevenção à lavagem de dinheiro e ao financiamento do terrorismo (PLDFT)</strong>. Substituiu normas anteriores e consolidou diretrizes mais modernas e eficazes, alinhadas às recomendações internacionais do <strong>GAFI/FATF</strong>. <span class="ref-pagina">(p. 168)</span></p>
+
+        <div class="box-green">
+            <strong>Relação com a quebra de sigilo:</strong> Embora a circular <strong>não trate diretamente da quebra de sigilo</strong>, ela fortalece o <strong>arcabouço de prevenção e rastreabilidade</strong> que subsidia tais medidas investigativas. <span class="ref-pagina">(p. 168)</span>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Carta-Circular 3.454/2010 (Leiaute)</h2>
+
+        <div class="box-blue">
+            <strong>Objeto:</strong> Divulga o leiaute das informações de que trata a Circular nº 3.290, de 5 de setembro de 2005. <span class="ref-pagina">(p. 168)</span>
+        </div>
+
+        <p>Tem papel fundamental na <strong>padronização da prestação de informações bancárias</strong> em casos de afastamento de sigilo bancário, conforme previsto na LC nº 105/2001. Foi criada para uniformizar o formato dos dados que as instituições financeiras devem fornecer às autoridades competentes (Judiciário, MP e polícia judiciária) quando há autorização judicial para quebra de sigilo. <span class="ref-pagina">(p. 168)</span></p>
+
+        <div class="box-purple">
+            <strong>Circular BACEN 3.290/05 - art. 5º:</strong> Estabeleceu que a identificação e o registro de depósitos, cheques e outros documentos deveriam ser mantidos sob a forma de arquivos eletrônicos, à disposição do BACEN, pelo prazo mínimo de <strong>dez anos</strong>, contados a partir do encerramento daquele em que realizada a operação. As informações devem ser remetidas à autoridade competente, quando solicitadas, em meio eletrônico, conforme leiaute. <span class="ref-pagina">(p. 168)</span>
+        </div>
+
+        <h3>Os 5 arquivos eletrônicos padronizados pela Carta-Circular 3.454/2010</h3>
+        <table>
+            <tr><th>Arquivo</th><th>Conteúdo</th></tr>
+            <tr><td><strong>AGENCIAS</strong></td><td>Dados das agências da instituição financeira mantenedora das contas investigadas, das agências mantenedoras das contas com as quais foram realizadas transações e das agências nas quais ocorreram as transações entre as citadas contas. <span class="ref-pagina">(p. 168)</span></td></tr>
+            <tr><td><strong>CONTAS</strong></td><td>Identifica as contas bancárias que tiveram o sigilo afastado nos termos da LC 105/2001, abrangendo as contas investigadas e aquelas com as quais foram realizadas transações. <span class="ref-pagina">(p. 169)</span></td></tr>
+            <tr><td><strong>TITULARES</strong></td><td>Identifica as pessoas, naturais ou jurídicas, titulares, representantes legais e procuradores das contas bancárias que tiveram o sigilo afastado. <span class="ref-pagina">(p. 169)</span></td></tr>
+            <tr><td><strong>EXTRATO</strong></td><td>Identifica os lançamentos relacionados às contas investigadas. <span class="ref-pagina">(p. 169)</span></td></tr>
+            <tr><td><strong>ORIGEM DESTINO</strong></td><td>Identifica a(s) origem(ns) ou o(s) destino(s) de recursos relacionados a um lançamento informado no arquivo "EXTRATO". <span class="ref-pagina">(p. 169)</span></td></tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - 5 ARQUIVOS: "A-C-T-E-O"</span>
+            <ul>
+                <li><strong>A</strong>GENCIAS</li>
+                <li><strong>C</strong>ONTAS</li>
+                <li><strong>T</strong>ITULARES</li>
+                <li><strong>E</strong>XTRATO</li>
+                <li><strong>O</strong>RIGEM DESTINO</li>
+            </ul>
+        </div>
+
+        <h3>Importância Jurídica e Operacional</h3>
+        <ul>
+            <li>Facilita o cumprimento de ordens judiciais de quebra de sigilo bancário;</li>
+            <li>Padroniza a resposta das instituições financeiras, evitando inconsistências e atrasos;</li>
+            <li>Apoia a <strong>Estratégia Nacional de Combate à Corrupção e à Lavagem de Dinheiro (ENCCLA)</strong>, especialmente a <strong>Meta 4/2008</strong>, que trata da padronização de pedidos e respostas de quebra de sigilo.</li>
+        </ul>
+        <p class="ref-pagina">(p. 169)</p>
+
+        <div class="box-green">
+            <strong>Segurança e Conformidade:</strong> Os sistemas das instituições financeiras devem garantir:
+            <ul>
+                <li>Validação e controle de integridade dos dados;</li>
+                <li>Segurança na transmissão das informações;</li>
+                <li>Confidencialidade e rastreabilidade dos acessos e envios.</li>
+            </ul>
+            <span class="ref-pagina">(p. 169)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>REVOGAÇÃO:</strong> Esta norma foi <strong>revogada pela Instrução Normativa BCB nº 636 de 10/6/2025</strong> (entrará em vigor em 1º de dezembro de 2026), que atualiza os leiautes estabelecidos na Carta-Circular nº 3.454/2010. Entretanto, é importante sua compreensão como marco normativo. <span class="ref-pagina">(p. 169)</span>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Instrução Normativa BCB nº 636/2025</h2>
+
+        <div class="box-blue">
+            <strong>Objeto:</strong> Altera o leiaute das informações de que trata a Circular nº 3.290, de 5 de setembro de 2005. Entra em vigor em <strong>1º de dezembro de 2026</strong> como evolução da Carta-Circular nº 3.454. <span class="ref-pagina">(p. 170)</span>
+        </div>
+
+        <h3>Art. 2º - Ampliação dos arquivos eletrônicos</h3>
+        <table>
+            <tr><th>Inciso</th><th>Arquivo</th><th>Conteúdo</th></tr>
+            <tr><td>I</td><td><strong>AGÊNCIAS</strong></td><td>Dados da agência da instituição mantenedora das contas investigadas e das agências envolvidas nas transações. <span class="ref-pagina">(p. 170)</span></td></tr>
+            <tr><td>II</td><td><strong>CONTAS</strong></td><td>Contas investigadas e aquelas com as quais foram realizadas transações. <span class="ref-pagina">(p. 170)</span></td></tr>
+            <tr><td>III</td><td><strong>TITULARES</strong></td><td>Identifica pessoas naturais ou jurídicas, titulares, representantes legais e procuradores das contas. <span class="ref-pagina">(p. 170)</span></td></tr>
+            <tr><td>IV</td><td><strong>EXTRATO</strong></td><td>Lançamentos relacionados às contas investigadas. <span class="ref-pagina">(p. 170)</span></td></tr>
+            <tr><td>V</td><td><strong>ORIGEM-DESTINO</strong></td><td>Origem e destino de recursos relacionados a um lançamento. <span class="ref-pagina">(p. 170)</span></td></tr>
+            <tr><td>VI</td><td><strong>DADOS CADASTRAIS - CTVM/DTVM</strong></td><td>Dados cadastrais de pessoas investigadas que operam nos mercados à vista e a termo, derivativos, empréstimos, opções e balcão com contraparte central (CCP). <span class="ref-pagina">(p. 170)</span></td></tr>
+            <tr><td>VII</td><td><strong>EXTRATO DE CONTA DE REGISTRO/CONTA GRÁFICA - CTVM/DTVM</strong></td><td>Lançamentos das contas investigadas com operações nos mercados à vista e a termo, derivativos etc. <span class="ref-pagina">(p. 170)</span></td></tr>
+            <tr><td>VIII</td><td><strong>MOVIMENTO DIÁRIO DE CONTA DE REGISTRO/CONTA GRÁFICA - CTVM/DTVM</strong></td><td>Dados da movimentação da conta dos investidores investigados, com descrição, data dos lançamentos e respectivos valores. <span class="ref-pagina">(p. 170)</span></td></tr>
+        </table>
+
+        <h3>Melhorias trazidas pela IN 636/2025</h3>
+
+        <div class="box-purple">
+            <strong>Maior detalhamento:</strong> A IN nº 636/2025 introduz <strong>11 tipos de arquivos eletrônicos</strong>, com campos específicos e instruções técnicas detalhadas. Novos arquivos específicos para <strong>CTVM/DTVM</strong> (corretoras e distribuidoras), como: extrato de conta gráfica, movimento diário, posição de investimentos, resumo e detalhamento de ativos negociados. <span class="ref-pagina">(p. 171)</span>
+        </div>
+
+        <h4>Especificações técnicas rigorosas <span class="ref-pagina">(p. 171)</span></h4>
+        <ul>
+            <li><strong>Formato dos arquivos:</strong> .txt, padrão ASCII, sem cabeçalho;</li>
+            <li><strong>Separadores:</strong> tabulação para colunas, retorno de carro para linhas;</li>
+            <li><strong>Datas e horas:</strong> formato ddmmaaaa e hhmmss (UTC);</li>
+            <li><strong>Valores monetários:</strong> até duas casas decimais, sem zeros à esquerda;</li>
+            <li><strong>Alinhamento de texto:</strong> à esquerda, sem preenchimento com espaços.</li>
+        </ul>
+
+        <div class="box-green">
+            <strong>Integração com SINACOR:</strong> A norma exige que corretoras e distribuidoras utilizem o padrão do <strong>SINACOR (Sistema Integrado de Administração de Corretoras)</strong> para os arquivos específicos, o que não era previsto na norma anterior. <span class="ref-pagina">(p. 171)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Responsabilidade e segurança:</strong> A nova norma reforça a responsabilidade das instituições quanto à:
+            <ul>
+                <li>Segurança da informação;</li>
+                <li>Proteção de dados pessoais, conforme <strong>LGPD (Lei nº 13.709/2018)</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 171)</span>
+        </div>
+
+        <p><strong>Prazo de descontinuação:</strong> Alguns códigos de tipo de lançamento serão <strong>descontinuados a partir de junho de 2028</strong>, indicando um planejamento de transição gradual. <span class="ref-pagina">(p. 171)</span></p>
+
+        <h3>Contas Públicas e Contas com Autorização do Titular (art. 4º)</h3>
+        <div class="box-blue">
+            <strong>§ 1º:</strong> As respostas às requisições <strong>diretas</strong> de dados de contas públicas titularizadas por entidades públicas (Administração Direta ou Indireta), formuladas pelos Ministérios Públicos, Tribunais de Contas, Polícias Judiciárias e demais autoridades competentes, observarão o disposto nesta IN. <span class="ref-pagina">(p. 172)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>§ 2º:</strong> Caso o titular da conta ou do ativo autorize o acesso aos seus dados e operações financeiras (inciso V, § 3º, art. 1º da LC 105/2001), as informações serão prestadas na forma desta Instrução Normativa. <span class="ref-pagina">(p. 172)</span>
+        </div>
+
+        <h3>Quadro Comparativo - Carta-Circular 3.454/2010 x IN BCB 636/2025</h3>
+        <table>
+            <tr><th>Aspecto</th><th>Carta-Circular nº 3.454/2010</th><th>IN BCB nº 636/2025</th></tr>
+            <tr><td>Objetivo</td><td>Padronizar envio de dados bancários em casos de sigilo</td><td>Atualizar e ampliar o padrão técnico para envio de dados</td></tr>
+            <tr><td>Abrangência</td><td>Focada em contas bancárias</td><td>Inclui contas bancárias, CTVM, DTVM e ativos</td></tr>
+            <tr><td>Tipos de arquivos exigidos</td><td>Menos detalhados e em menor número</td><td>11 tipos de arquivos com campos específicos e detalhados</td></tr>
+            <tr><td>Formato dos arquivos</td><td>Menos especificado</td><td>.txt, ASCII, sem cabeçalho, separadores e formatos fixos</td></tr>
+            <tr><td>Campos técnicos</td><td>Sem padronização rigorosa</td><td>Datas, horas, valores e textos com formatos definidos</td></tr>
+            <tr><td>Instituições envolvidas</td><td>Bancos</td><td>Bancos, CTVM, DTVM e outras instituições financeiras</td></tr>
+            <tr><td>Integração com sistemas</td><td>Não especificado</td><td>Integração com SINACOR para corretoras e distribuidoras</td></tr>
+            <tr><td>Segurança e LGPD</td><td>Sem menção explícita</td><td>Reforça proteção de dados conforme LGPD</td></tr>
+            <tr><td>Revogação</td><td>Norma vigente até 2025</td><td>Revoga expressamente a Carta-Circular nº 3.454/2010</td></tr>
+            <tr><td>Vigência</td><td>Desde 2010</td><td>A partir de 1º de dezembro de 2026</td></tr>
+            <tr><td>Transição de códigos</td><td>Não prevista</td><td>Descontinuação de códigos antigos até junho de 2028</td></tr>
+        </table>
+        <p class="ref-pagina">(Quadro 7, p. 172-173)</p>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Regramento na Polícia Federal - IN 168-DG/PF</h2>
+
+        <div class="box-blue">
+            <strong>Norma específica da PF:</strong> No âmbito da Polícia Federal, temos a <strong>Instrução Normativa nº 168-DG/PF, de 18 de junho de 2020</strong>, que estabelece diretrizes gerais no âmbito da Polícia Federal para solicitação de afastamento de sigilo bancário e para definição de procedimentos para recebimento, processamento e análise dos dados bancários encaminhados via <strong>SimbaPF</strong> pelas instituições financeiras. <span class="ref-pagina">(p. 173)</span>
+        </div>
+
+        <h3>Importância Estratégica da IN 168-DG/PF (Quadro 8)</h3>
+        <table>
+            <tr><th>Aspecto</th><th>Impacto</th></tr>
+            <tr><td><strong>Padronização</strong></td><td>Uniformiza procedimentos em todo o país</td></tr>
+            <tr><td><strong>Segurança</strong></td><td>Garante integridade e autenticidade dos dados</td></tr>
+            <tr><td><strong>Eficiência</strong></td><td>Automatiza recebimento e análise de dados bancários</td></tr>
+            <tr><td><strong>Rastreabilidade</strong></td><td>Facilita auditoria e controle de acesso</td></tr>
+            <tr><td><strong>Integração</strong></td><td>Conecta Judiciário, Banco Central, instituições financeiras e PF</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 173)</p>
+    </div>
+
+    <div id="sec10" class="section">
+        <h2>10. Fluxo do Afastamento e Operacionalização do Pedido/Representação</h2>
+
+        <div class="box-orange">
+            <strong>Obrigatoriedade de uso do Simba:</strong> A IN 168-DG/PF traz a obrigatoriedade de uso do Simba:
+            <br><br>
+            <strong>Art. 2º</strong> - Nas investigações da Polícia Federal em que ficar constatada a necessidade de afastamento de sigilo bancário, o delegado de polícia federal deverá representar ao Poder Judiciário, conforme disposto nesta Instrução Normativa.
+            <br><br>
+            <strong>Art. 3º</strong> - O delegado de polícia federal deverá efetuar registro do inquérito policial no Simba-PF, gerando o código identificador do caso. <span class="ref-pagina">(p. 173-174)</span>
+        </div>
+
+        <h3>Requisitos da representação (Art. 4º)</h3>
+        <div class="box-blue">
+            A representação ao Poder Judiciário deverá conter:
+            <ul>
+                <li>I - o <strong>código identificador do caso</strong> gerado no Simba-PF; e</li>
+                <li>II - a solicitação para que o código identificador do caso seja <strong>citado na decisão judicial</strong>.</li>
+            </ul>
+            <strong>Parágrafo único:</strong> O modelo de representação será disponibilizado no Simba-PF. <span class="ref-pagina">(p. 174)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Art. 6º:</strong> A representação pelo afastamento judicial do sigilo bancário deve conter de forma expressa o pedido para que conste da decisão judicial que as instituições financeiras façam a validação e a transmissão dos dados via Internet, utilizando os módulos <strong>"Validador bancário Simba"</strong> e <strong>"Transmissor bancário Simba"</strong>. <span class="ref-pagina">(p. 174)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Art. 7º:</strong> Os dados bancários transmitidos pelas instituições financeiras serão recebidos de forma automática pela Polícia Federal, por meio do módulo <strong>RECEPTOR Simba</strong>, ficando disponíveis para consultas e emissão de relatórios. <span class="ref-pagina">(p. 174)</span>
+        </div>
+
+        <h3>10.1. Criação do Caso e Elaboração da Representação</h3>
+        <p>É a primeira etapa do processo, <strong>restrita somente aos delegados de Polícia Federal</strong>, que deverão acessar o endereço https://Simba.ditec.pf.gov.br/sistemas/Simba/, sendo que a conta/senha para acesso ao Simba é a mesma utilizada para acessar o e-mail da PF. <span class="ref-pagina">(p. 175)</span></p>
+
+        <div class="box-orange">
+            <strong>Atenção - lotação do delegado:</strong> Antes de criar um caso, é importante que a lotação do delegado esteja atualizada no Simba, pois ele só conseguirá vincular o caso às unidades da PF de sua UF de lotação. <span class="ref-pagina">(p. 175)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Número de Cooperação Técnica:</strong> Ao criar o caso, este recebe uma numeração no formato <strong>999-SIGLA-999999-99</strong>. No caso da PF, os três primeiros dígitos são <strong>"002"</strong> e a sigla <strong>"PF"</strong>, seguidos de um sequencial numérico, e por fim dois dígitos verificadores. Exemplo: <strong>002-PF-006403-99</strong>. <span class="ref-pagina">(p. 175)</span>
+        </div>
+
+        <p>Tanto a representação quanto a decisão judicial podem ser carregadas no Simba (menu "Arquivos do Caso"), documentos imprescindíveis para a realização da validação dos dados. <span class="ref-pagina">(p. 177)</span></p>
+
+        <h3>10.2. Encaminhamento ao Judiciário e Cadastramento no SISBAJUD</h3>
+        <p>Uma vez aceita a representação e deferida a quebra do sigilo, os dados da decisão judicial respectiva devem ser inseridos em <strong>Requisição de Afastamento de Sigilo Bancário no Sisbajud</strong> por alguém designado pelo juiz (servidor, assessor etc.), com inclusão de dados tais como o número do caso Simba, investigados, CPF/CNPJ e período do afastamento. Nessa ocasião, o Sisbajud já consulta o CCS e retorna todos os relacionamentos ativos dos envolvidos. <span class="ref-pagina">(p. 177-178)</span></p>
+
+        <h3>10.3. Recebimento do CCS pelo Simba - Fluxo CCS</h3>
+        <div class="box-purple">
+            <strong>Marco temporal:</strong> Em <strong>setembro de 2020</strong>, o CNJ celebrou acordo de cooperação técnica com o Banco Central e desenvolveu uma <strong>API</strong> que permitiu a comunicação entre Sisbajud, Simba e o CCS, remodelando o fluxo de circularização de decisões judiciais. <span class="ref-pagina">(p. 178)</span>
+        </div>
+
+        <p>Em <strong>julho de 2023</strong>, foi disponibilizada a função de <strong>fluxo CCS automatizado</strong>. Com isso, o Simba obtém os dados do CCS diretamente no servidor do Banco Central. <span class="ref-pagina">(p. 178)</span></p>
+
+        <div class="box-green">
+            <strong>Funcionamento:</strong> Após ativar o "Fluxo CCS", o Simba fará consulta automática ao Sisbajud para detectar se houve quebra de sigilo deferida no caso. Em caso de resposta positiva, o Simba requisita e recebe do BACEN as informações do CCS relativas aos investigados, <strong>independentemente da data de criação do caso</strong>, tendo como requisito essencial que o caso tenha sido transmitido no Sisbajud. <span class="ref-pagina">(p. 179)</span>
+        </div>
+    </div>
+
+    <div id="sec11" class="section">
+        <h2>11. Recebimento dos Atendimentos pelo Simba</h2>
+
+        <div class="box-blue">
+            <strong>Tipos de Atendimento:</strong> Atualmente, o Simba permite a transmissão de três tipos de "Atendimento" (forma como se nomeia a unidade do pacote de transmissão no Simba): <span class="ref-pagina">(p. 179)</span>
+            <ul>
+                <li><strong>Atendimento tipo B</strong> (Bancário)</li>
+                <li><strong>Atendimento tipo D</strong> (Documento)</li>
+                <li><strong>Atendimento tipo A</strong> (Ancord-Corretora)</li>
+            </ul>
+        </div>
+
+        <h3>11.1. Atendimento Tipo B (Bancário)</h3>
+        <p>Em cumprimento das determinações judiciais, as instituições financeiras encaminham os registros bancários pelo menos nos <strong>cinco arquivos distintos</strong> definidos na <strong>Carta-Circular nº 3.454</strong>. <span class="ref-pagina">(p. 179)</span></p>
+
+        <div class="box-orange">
+            <strong>7 arquivos na prática:</strong> O Simba/PF atualmente recebe <strong>07 arquivos em formato TXT</strong> que integram o pacote "Atendimento", pois além dos 05 obrigatórios, também são encaminhados dois arquivos com dados do atendimento em si (Hash, dados do processo, nome do responsável etc.) e lista dos investigados. <span class="ref-pagina">(p. 180)</span>
+        </div>
+
+        <ul>
+            <li>002-PF-NNNNNN-DD_AGENCIAS.txt</li>
+            <li>002-PF-NNNNNN-DD_CONTAS.txt</li>
+            <li>002-PF-NNNNNN-DD_TITULARES.txt</li>
+            <li>002-PF-NNNNNN-DD_EXTRATO.txt</li>
+            <li>002-PF-NNNNNN-DD_ORIGEM_DESTINO.txt</li>
+            <li>002-PF-NNNNNN-DD_ATENDIMENTO.txt</li>
+            <li>002-PF-NNNNNN-DD_INVESTIGADO.txt</li>
+        </ul>
+        <p class="ref-pagina">(p. 180)</p>
+
+        <div class="box-purple">
+            <strong>Identificação do atendimento no Simba:</strong> Os atendimentos são identificados pela combinação dos campos <strong>Número (Tipo) Banco [Data Transmissão]</strong>.
+            <br><br>Exemplo: <strong>73468 (B) 001-BANCO DO BRASIL [04/04/2022]</strong>
+            <ul>
+                <li>Número: 73468</li>
+                <li>Tipo: B (Bancário)</li>
+                <li>Banco: 1-BANCO DO BRASIL</li>
+                <li>Data Transmissão: 04/04/2022</li>
+            </ul>
+            <span class="ref-pagina">(p. 180)</span>
+        </div>
+
+        <h3>Principais relatórios do Atendimento tipo B</h3>
+        <table>
+            <tr><th>Relatório</th><th>Descrição</th></tr>
+            <tr><td><strong>R302 - Contas bancárias recebidas</strong></td><td>Apresenta dados sobre as contas bancárias recebidas. Pode ser exportado em PDF e CSV, com percentual de identificação das transações. <span class="ref-pagina">(p. 184)</span></td></tr>
+            <tr><td><strong>R304 - Lançamentos com Origem/Destino</strong></td><td>Apresenta dados detalhados sobre as movimentações bancárias, incluindo origem/destino das transações. Pode ser exportado em CSV (compatível Excel), PDF e RTF (Word). O CSV contém 38 campos. <span class="ref-pagina">(p. 185-186)</span></td></tr>
+            <tr><td>R401a - Contas</td><td>Apresenta as contas, vínculos e investigados indicados no CCS. <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R401b - CCS</td><td>Apresenta os dados gerais do CCS (datas, processo, arquivos e funcionário responsável). <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R401c - Investigados</td><td>Dados das pessoas com afastamento decretado, informados no CCS. <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R402a - Titulares</td><td>Dados cadastrais das pessoas (arquivo TITULARES). <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R402b - Agencias</td><td>Dados cadastrais das agências (arquivo AGENCIAS). <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R101 - Contas Recebidas (Sintético)</td><td>Dados das contas bancárias e pessoas vinculadas, sem informações sobre valores movimentados. <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R202 - Contas Recebidas (Analítico)</td><td>Dados das contas bancárias e pessoas vinculadas, incluindo valores movimentados. <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R103 - Débito/Crédito totalizado por ano</td><td>Somatório e quantidade de débitos e créditos agrupado por ano. <span class="ref-pagina">(p. 187)</span></td></tr>
+            <tr><td>R102 - Débito consolidado por tipo de lançamento</td><td>Somatório e quantidade de débitos agrupado por tipo de lançamento. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R104 - Crédito consolidado por tipo de lançamento</td><td>Somatório e quantidade de créditos agrupado por tipo de lançamento. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R203 - Consolidado por tipo/histórico</td><td>Somatório e quantidades de cada conta consolidado por tipo de lançamento e histórico. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R105 - Principais Remetentes</td><td>Somatório e quantidade de créditos agrupado por remetentes (CPF/CNPJ, Nome ou Conta). <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R106 - Principais Destinatários</td><td>Somatório e quantidade de débitos agrupado por destinatários. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R205 - Consolidado por remetente/destinatário</td><td>Somatório e quantidade de débitos agrupado por remetentes/destinatários. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R204 - Lançamentos com origem/destino</td><td>Somatório, percentual e quantidade de débitos e créditos agrupados por tipo de lançamento e histórico. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R206 - Extrato de movimentação</td><td>Extrato da conta sem informações de OD. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R261 - Créditos totalizados por ano</td><td>Lista dos créditos, sem dados de Origem/Destino, separados por ano. <span class="ref-pagina">(p. 188)</span></td></tr>
+            <tr><td>R262 - Débitos totalizados por ano</td><td>Lista dos débitos, sem dados de Origem/Destino, separados por ano. <span class="ref-pagina">(p. 188)</span></td></tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Ciaf BANCÁRIO:</strong> A exportação do R304 em CSV possibilita o uso de ferramentas de análise como o aplicativo <strong>Ciaf BANCÁRIO</strong>, desenvolvido para análise de relatórios R-304 e arquivos do CCS exportados pelo sistema Simba, disponível no Portal Ciaf (https://pfgovbr.sharepoint.com/sites/PortalCiaf). <span class="ref-pagina">(p. 186)</span>
+        </div>
+
+        <h3>11.2. Atendimento Tipo D (Documento)</h3>
+        <div class="box-blue">
+            <strong>Implementação:</strong> Implementado em <strong>2022</strong>, esse atendimento possibilita o envio de arquivos diversos dos previstos na Carta Circular 3454/2010 pelas instituições financeiras, concentrando no Simba o recebimento de arquivos diversos e complementares que anteriormente eram encaminhados via e-mail (gerando transtornos como estouro de caixa de e-mail, risco de perda etc.). <span class="ref-pagina">(p. 188)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Limites técnicos:</strong> Os arquivos podem ser transmitidos diretamente para o Simba, em pacotes de até <strong>100 arquivos por atendimento</strong>, totalizando no máximo <strong>100 MB</strong>. A instituição financeira pode realizar ilimitadas transmissões de documentos. <span class="ref-pagina">(p. 188-189)</span>
+        </div>
+
+        <h3>Principais opções para o Atendimento tipo D</h3>
+        <table>
+            <tr><th>Opção</th><th>Função</th></tr>
+            <tr><td><strong>Modificar status</strong></td><td>Permite alterar o status do atendimento para <strong>A (Aprovado), R (Reprovado) e V (Em Validação)</strong>. <span class="ref-pagina">(p. 190)</span></td></tr>
+            <tr><td><strong>Listar Documentos</strong></td><td>Entra na tela com a lista e características dos documentos enviados. <span class="ref-pagina">(p. 190)</span></td></tr>
+            <tr><td><strong>Ver lista de investigados do atendimento</strong></td><td>Permite ver a lista, preenchida pela instituição financeira, dos investigados relacionados ao atendimento. <span class="ref-pagina">(p. 190)</span></td></tr>
+            <tr><td><strong>Baixar documentos do atendimento</strong></td><td>Download de arquivo ZIP contendo todos os documentos do atendimento. <span class="ref-pagina">(p. 190)</span></td></tr>
+            <tr><td><strong>Baixar comprovante do atendimento</strong></td><td>Download de arquivo PDF contendo as características dos documentos enviados. <span class="ref-pagina">(p. 191)</span></td></tr>
+            <tr><td><strong>Dados copiados do Atendimento no receptor/PGR</strong></td><td>Informa detalhes técnicos sobre o atendimento. <span class="ref-pagina">(p. 191)</span></td></tr>
+        </table>
+
+        <div class="box-purple">
+            <strong>Formatos permitidos:</strong> pdf, txt, bmp, jpg, jpeg, png, xls, xlsx, ods, doc, docx, odt, xml, csv e zip. <span class="ref-pagina">(p. 191)</span>
+        </div>
+
+        <h3>11.3. Atendimento Tipo A (Ancord-Corretora)</h3>
+        <p>Com relação às <strong>corretoras de valores e distribuidoras de valores</strong>, os registros financeiros transmitidos ao Simba são encaminhados em <strong>três arquivos distintos</strong>: <span class="ref-pagina">(p. 191)</span></p>
+
+        <table>
+            <tr><th>Arquivo</th><th>Conteúdo</th></tr>
+            <tr><td><strong>GAB 109</strong></td><td>MOVIMENTO DIÁRIO DE CONTA CORRENTE (Dados da movimentação da conta corrente dos investidores)</td></tr>
+            <tr><td><strong>GAB 800</strong></td><td>EXTRATO DE CONTA CORRENTE (Dados do extrato da conta corrente dos investidores)</td></tr>
+            <tr><td><strong>GAB 112</strong></td><td>DADOS CADASTRAIS (Dados cadastrais e perfil dos investidores que operam nos mercados)</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 191)</p>
+
+        <h3>Principais links de navegação - Atendimento tipo A</h3>
+        <ul>
+            <li><strong>Modificar status:</strong> permite alterar o status do atendimento para A (Aprovado), R (Reprovado) e V (Em Validação).</li>
+            <li><strong>R403 (Corretoras):</strong> relatório que permite extrair os dados dos atendimentos tipo A.</li>
+            <li><strong>Ver lista de investigados do atendimento:</strong> permite ver a lista de investigados.</li>
+        </ul>
+        <p class="ref-pagina">(p. 191)</p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">RESUMO FINAL - Tipos de Atendimento no Simba</span>
+            <ul>
+                <li><strong>Tipo B (Bancário)</strong>: 5 arquivos da Carta-Circular 3.454 + 2 complementares (7 TXT no total)</li>
+                <li><strong>Tipo D (Documento)</strong>: Implementado em 2022, até 100 arquivos / 100 MB por pacote</li>
+                <li><strong>Tipo A (Ancord-Corretora)</strong>: 3 arquivos (GAB 109, GAB 800, GAB 112)</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">STATUS de validação (comum aos atendimentos)</span>
+            <ul>
+                <li><strong>A</strong> - Aprovado</li>
+                <li><strong>R</strong> - Reprovado</li>
+                <li><strong>V</strong> - Em Validação</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3.2 - Meios Ordinários: Pesquisa em Bancos de Dados</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 3.2 - Meios Ordinários: Pesquisa em Bancos de Dados</h1>
+        <div class="subtitle">Bancos conveniados e internos da PF, Business Intelligence e Prometheus</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Visão geral: do OSINT aos bancos de dados</a></li>
+            <li><a href="#sec2">2. Bancos de dados conveniados</a>
+                <ul>
+                    <li><a href="#sec2a">2.1 Administrativos e Cadastrais</a></li>
+                    <li><a href="#sec2b">2.2 Policiais e de Segurança Pública</a></li>
+                    <li><a href="#sec2c">2.3 Inteligência Financeira</a></li>
+                </ul>
+            </li>
+            <li><a href="#sec3">3. Bancos de dados internos da Polícia Federal</a>
+                <ul>
+                    <li><a href="#sec3a">3.1 Administrativos e Cadastrais (SISMIGRA, SINARM, SINPA, PF-Catálogo)</a></li>
+                    <li><a href="#sec3b">3.2 Criminais e Operacionais (NEXO, SINAPSE, SIS-2, e-POL, RAPINA, TENTÁCULOS)</a></li>
+                </ul>
+            </li>
+            <li><a href="#sec4">4. Business Intelligence - Qlik Sense</a></li>
+            <li><a href="#sec5">5. Prometheus - Ferramentas de análise</a></li>
+            <li><a href="#sec6">6. Síntese operacional</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Visão geral: do OSINT aos bancos de dados</h2>
+
+        <div class="box-blue">
+            <strong>Posição no ciclo investigativo:</strong> Se as fontes abertas (OSINT) constituem a camada inicial e mais acessível da investigação criminal, as pesquisas em bancos de dados oficiais e restritos representam o passo seguinte dentro dos <strong>meios ordinários</strong> de apuração utilizados pela Polícia Federal. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <p>Esses bancos concentram informações de caráter <strong>administrativo, cadastral, financeiro ou operacional</strong>, muitas vezes sob gestão de órgãos públicos e acessíveis mediante convênios ou autorizações internas, <strong>não dependendo de prévia autorização judicial</strong>. <span class="ref-pagina">(p. 33)</span></p>
+
+        <div class="box-green">
+            <strong>Utilidade:</strong> A utilização de bancos de dados é essencial para validar hipóteses levantadas em OSINT, aprofundar a apuração de vínculos e patrimônios e fornecer lastro probatório mais robusto às diligências. A informação é extraída diretamente de registros oficiais, conferindo maior precisão, amplitude e confiabilidade. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!):</strong> A simples consulta <strong>NÃO pode ser confundida com quebra de sigilo</strong> — instituto reservado a medidas cautelares judiciais. Trata-se da exploração de bases cujo acesso institucional é legitimado por lei ou convênio. <span class="ref-pagina">(p. 34)</span>
+        </div>
+
+        <h3>Três funções principais das pesquisas em bancos de dados</h3>
+        <div class="box-purple">
+            <ol>
+                <li><strong>Corroboração</strong> de indícios levantados em fontes abertas, assegurando maior confiabilidade à narrativa investigativa;</li>
+                <li><strong>Ampliação da abrangência informativa</strong>, permitindo acesso a dados cadastrais, registros financeiros e patrimoniais não disponíveis ao público;</li>
+                <li><strong>Preparação para medidas extraordinárias</strong>, ao fornecer elementos suficientes para justificar pedidos de quebra de sigilo ou cooperação com outros órgãos.</li>
+            </ol>
+            <span class="ref-pagina">(p. 34)</span>
+        </div>
+
+        <p>Os bancos funcionam como <strong>elo intermediário no ciclo investigativo</strong>: após a coleta inicial em fontes abertas, oferecem a robustez necessária para a consolidação de hipóteses e fundamentação de medidas mais intrusivas, preservando proporcionalidade e legalidade. <span class="ref-pagina">(p. 34)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: CAP (3 funções)</span>
+            <ul>
+                <li><strong>C</strong>orroboração de indícios</li>
+                <li><strong>A</strong>mpliação informativa</li>
+                <li><strong>P</strong>reparação para medidas extraordinárias</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Classificação geral:</strong> Os bancos classificam-se em <strong>INTERNOS</strong> (mantidos pela própria PF) e <strong>CONVENIADOS (externos)</strong> — acessados por meio de acordos de cooperação técnica com outros órgãos públicos. <span class="ref-pagina">(p. 34)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Bancos de Dados CONVENIADOS</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Sistemas de outros órgãos públicos ou entidades privadas acessíveis à PF por meio de convênios, acordos de cooperação ou integração sistêmica. Trazem informações cadastrais, fiscais, trabalhistas ou patrimoniais não disponíveis em fontes abertas. <span class="ref-pagina">(p. 34)</span>
+        </div>
+
+        <div id="sec2a">
+            <h3>2.1 Bancos de Dados Administrativos e Cadastrais</h3>
+            <p>Fornecem informações sobre pessoas físicas, jurídicas, patrimônio, vínculos econômicos e registros administrativos relevantes para investigações. <span class="ref-pagina">(p. 35)</span></p>
+
+            <table>
+                <tr><th>Banco</th><th>Informações</th></tr>
+                <tr><td><strong>Receita Federal (RFB)</strong></td><td>CPF, CNPJ, situação fiscal e quadro societário</td></tr>
+                <tr><td><strong>Juntas Comerciais</strong></td><td>Dados básicos de empresas (razão social, sócios, representantes, atos)</td></tr>
+                <tr><td><strong>Caged</strong></td><td>Cadastro Geral de Empregados e Desempregados - vínculos empregatícios</td></tr>
+                <tr><td><strong>CNIS</strong></td><td>Cadastro Nacional de Informações Sociais - histórico previdenciário e vínculos laborais</td></tr>
+                <tr><td><strong>CAR</strong></td><td>Cadastro Ambiental Rural - imóveis rurais e uso do solo</td></tr>
+                <tr><td><strong>ATSG</strong></td><td>Movimentação aérea e logística de transportes</td></tr>
+                <tr><td><strong>Receitas Estaduais</strong></td><td>Endereços de contribuintes, notas fiscais e movimentação tributária</td></tr>
+            </table>
+            <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <div id="sec2b">
+            <h3>2.2 Bancos de Dados Policiais e de Segurança Pública</h3>
+            <p>Agregam informações criminais, antecedentes, inteligência e cooperação nacional/internacional. <span class="ref-pagina">(p. 35)</span></p>
+
+            <table>
+                <tr><th>Banco</th><th>Descrição</th></tr>
+                <tr>
+                    <td><strong>Infoseg</strong></td>
+                    <td>Base de dados da <strong>Secretaria Nacional de Segurança Pública (Senasp)</strong>. Permite consulta de dados criminais de indivíduos, veículos, armas, condutores, PF/PJ da Receita Federal, Interpol, mandados de prisão (BNMP/CNJ), boletins de ocorrências etc.</td>
+                </tr>
+                <tr><td><strong>Sistemas policiais estaduais</strong></td><td>Bases de antecedentes, ocorrências, endereços, veículos etc.</td></tr>
+                <tr><td><strong>Interpol I-24/7</strong></td><td>Rede internacional de compartilhamento de dados criminais</td></tr>
+            </table>
+            <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <div id="sec2c">
+            <h3>2.3 Bancos de Dados de Inteligência Financeira</h3>
+            <div class="box-orange">
+                <strong>Caráter sensível, mas indispensáveis</strong> em investigações de corrupção, crimes financeiros e lavagem de dinheiro. <span class="ref-pagina">(p. 35)</span>
+            </div>
+
+            <table>
+                <tr><th>Banco</th><th>Descrição</th></tr>
+                <tr>
+                    <td><strong>Sei-C (Coaf)</strong></td>
+                    <td>Sistema Eletrônico de Intercâmbio do Coaf. Permite solicitar <strong>Relatórios de Inteligência Financeira (RIFs)</strong> com informações sobre movimentações financeiras atípicas de PF/PJ, relacionadas a lavagem de dinheiro.</td>
+                </tr>
+                <tr>
+                    <td><strong>CCS-Bacen</strong></td>
+                    <td>Cadastro de Clientes do Sistema Financeiro Nacional - vínculos entre PF/PJ e instituições financeiras.</td>
+                </tr>
+            </table>
+            <span class="ref-pagina">(p. 35-36)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Bancos de Dados INTERNOS da Polícia Federal</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Sistemas próprios da PF, criados para gestão de atividades administrativas e operacionais, mas que também servem de apoio às investigações criminais. <span class="ref-pagina">(p. 36)</span>
+        </div>
+
+        <div id="sec3a">
+            <h3>3.1 Bancos Administrativos e Cadastrais</h3>
+            <p>Englobam sistemas utilizados para finalidades administrativas da PF, mas que também podem ser úteis em investigações. <span class="ref-pagina">(p. 36)</span></p>
+
+            <table>
+                <tr><th>Sistema</th><th>Finalidade</th><th>Informações / Público-alvo</th></tr>
+                <tr>
+                    <td><strong>SISMIGRA</strong><br><em>Sistema de Registro Nacional Migratório</em></td>
+                    <td>Gerenciar autorizações de residência e regularizações migratórias</td>
+                    <td>Situação migratória atual de estrangeiros no Brasil. Gerido por perfis; servidores e colaboradores.</td>
+                </tr>
+                <tr>
+                    <td><strong>SINARM</strong><br><em>Sistema Nacional de Armas</em></td>
+                    <td>Consulta a dados de armas de fogo e dados pessoais dos proprietários. Acesso pelo Sistema CGTI. <strong>NÃO acessa os dados do SIGMA.</strong></td>
+                    <td>Dados sobre armas de fogo e proprietários. Gerido por perfis; servidores e colaboradores.</td>
+                </tr>
+                <tr>
+                    <td><strong>SINPA / SINPA CON</strong><br><em>Sistema Nacional de Passaporte</em></td>
+                    <td>SINPA Desktop: emissão de passaportes. <strong>SINPA CON: consulta</strong> de passaporte.</td>
+                    <td>SINPA CON: dados cadastrais, endereço, fotografia, telefone, responsáveis (menores). Restrito a servidores lotados e terceirizados; geral para consultas (SINPA CON).</td>
+                </tr>
+                <tr>
+                    <td><strong>PF-Catálogo</strong><br><em>Catálogo de Sistemas</em></td>
+                    <td>Portal com interface para <strong>mais de 40 sistemas da PF</strong>.</td>
+                    <td>Acessos a cada sistema dependem do nível de permissão (necessidade, área de trabalho, qualificação formal). Servidores e colaboradores.</td>
+                </tr>
+            </table>
+            <span class="ref-pagina">(p. 36-37)</span>
+
+            <p>Esses bancos permitem identificar <strong>vínculos documentais e patrimoniais</strong> que complementam hipóteses investigativas. <span class="ref-pagina">(p. 37)</span></p>
+        </div>
+
+        <div id="sec3b">
+            <h3>3.2 Bancos Criminais e Operacionais</h3>
+
+            <div class="box-purple">
+                <strong>Função:</strong> Constituem instrumentos centrais para a persecução penal. Registram procedimentos, ocorrências, medidas cautelares em andamento, vínculos etc., permitindo ao investigador uma <strong>visão integrada</strong> da situação criminal do alvo. <span class="ref-pagina">(p. 37)</span>
+            </div>
+
+            <table>
+                <tr><th>Sistema</th><th>Finalidade / Características</th><th>Público-alvo</th></tr>
+                <tr>
+                    <td><strong>NEXO</strong></td>
+                    <td>Sistema de pesquisas que reúne bancos da PF e de outros órgãos. Permite pesquisas com/sem filtros, geração de <strong>dossiês integrados</strong>, gestão das informações no curso das investigações (especialmente de organizações criminosas). <strong>Bastante eficiente para localização de pessoas.</strong></td>
+                    <td>Servidores que trabalham em investigação e inteligência.</td>
+                </tr>
+                <tr>
+                    <td><strong>SINAPSE</strong></td>
+                    <td>Mecanismo de <strong>busca textual</strong> nos moldes do Google e Yahoo. Busca em diversos bancos da PF, bancos públicos e órgãos conveniados.</td>
+                    <td>Servidores que trabalham em investigação e inteligência.</td>
+                </tr>
+                <tr>
+                    <td><strong>SIS-2</strong><br><em>Sistema de Interceptação de Sinais 2.0</em></td>
+                    <td>Sistema oficial de interceptação de sinais da PF. Permite a <strong>interceptação de dados telemáticos e telefônicos</strong>.</td>
+                    <td>Servidores, mediante conclusão de curso específico.</td>
+                </tr>
+                <tr>
+                    <td><strong>e-POL</strong></td>
+                    <td>Sistema de <strong>polícia judiciária</strong> da PF. Controle de procedimentos policiais, gestão e geração de documentos e tarefas; permite acompanhar fases da investigação, realizar pesquisas, produzir peças e analisar casos.</td>
+                    <td>Servidores.</td>
+                </tr>
+                <tr>
+                    <td><strong>RAPINA</strong></td>
+                    <td>(No PDF, a tabela do RAPINA reproduz a descrição do e-POL: sistema de polícia judiciária; controle de procedimentos, gestão e geração de documentos e tarefas policiais; acompanhamento das fases da investigação.)</td>
+                    <td>Servidores.</td>
+                </tr>
+                <tr>
+                    <td><strong>TENTÁCULOS</strong></td>
+                    <td>Plataforma tecnológica corporativa para <strong>armazenamento, análise e correlação de informações sobre fraudes bancárias eletrônicas e golpes digitais</strong>.</td>
+                    <td>Servidores, mediante conclusão de curso específico.</td>
+                </tr>
+            </table>
+            <span class="ref-pagina">(p. 37-38)</span>
+
+            <div class="box-green">
+                <strong>Síntese:</strong> Os bancos criminais e operacionais representam a <strong>camada mais diretamente vinculada à persecução penal</strong>, fornecendo insumos para localização de alvos, cumprimento de medidas judiciais e integração nacional das investigações. <span class="ref-pagina">(p. 38)</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Business Intelligence e Análise de Dados</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> <strong>Business Intelligence (BI)</strong> é o conjunto de métodos e ferramentas que transforma <strong>dados em informação e informação em conhecimento</strong>. <span class="ref-pagina">(p. 38-39)</span>
+        </div>
+
+        <p>No contexto policial, dados brutos, quando organizados e visualizados corretamente, evidenciam vínculos, comportamentos e indícios, apoiando a tomada de decisão investigativa e administrativa. Enquanto empresas usam BI para desempenho e eficiência, <strong>a PF o emprega para qualificar a prova</strong> e otimizar o uso de dados cadastrais, patrimoniais e operacionais. <span class="ref-pagina">(p. 39)</span></p>
+
+        <div class="box-green">
+            <strong>O policial pode, com ferramentas de BI:</strong>
+            <ul>
+                <li>Cruzar dados cadastrais de múltiplas fontes (pessoas, empresas, veículos, bens);</li>
+                <li>Visualizar vínculos e padrões de relacionamento;</li>
+                <li>Identificar inconsistências e anomalias;</li>
+                <li>Criar painéis e relatórios visuais para subsidiar representações e peças técnicas.</li>
+            </ul>
+            <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <h3>4.1 O Qlik Sense</h3>
+
+        <div class="box-purple">
+            <strong>Definição:</strong> Uma das principais ferramentas de BI utilizadas pela PF. Permite <strong>carregar, relacionar e visualizar dados</strong> em painéis interativos (tabelas, gráficos e mapas). <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <h3>4.2 Modelo Associativo - 3 ESTADOS (cai em prova!)</h3>
+
+        <div class="box-red">
+            <strong>O diferencial do Qlik Sense</strong> é o <strong>modelo associativo</strong>, que utiliza três estados para indicar o relacionamento dos dados: <span class="ref-pagina">(p. 39)</span>
+            <table>
+                <tr><th>Cor</th><th>Significado</th></tr>
+                <tr><td><strong>VERDE</strong></td><td>Valores SELECIONADOS</td></tr>
+                <tr><td><strong>BRANCO</strong></td><td>Valores DISPONÍVEIS relacionados à seleção</td></tr>
+                <tr><td><strong>CINZA</strong></td><td>Valores NÃO relacionados (excluídos)</td></tr>
+            </table>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: VBC (cores do Qlik)</span>
+            <ul>
+                <li><strong>V</strong>erde = seleção</li>
+                <li><strong>B</strong>ranco = disponível associado</li>
+                <li><strong>C</strong>inza = excluído</li>
+            </ul>
+        </div>
+
+        <h3>4.3 Versões do Qlik Sense</h3>
+        <table>
+            <tr><th>Versão</th><th>Característica</th></tr>
+            <tr><td><strong>Enterprise</strong></td><td>Utilizada em rede corporativa, com acesso via navegador (web)</td></tr>
+            <tr><td><strong>Desktop</strong></td><td>Utilizada localmente, instalada no computador pessoal com acesso individual</td></tr>
+        </table>
+        <span class="ref-pagina">(p. 40)</span>
+
+        <h3>4.4 Componentes do Qlik Sense</h3>
+        <div class="box-orange">
+            Organizado em <strong>três elementos principais</strong>: <span class="ref-pagina">(p. 40)</span>
+            <ul>
+                <li><strong>Aplicativos (.qvf)</strong>: arquivos que contêm os dados e as visualizações. Cada aplicativo representa um tema (ex.: "Ciaf bancário", "Ciaf cadastral").</li>
+                <li><strong>Pastas</strong>: subdivisões no aplicativo onde as visualizações são organizadas. Podem ser <strong>públicas</strong> (visíveis a todos) ou <strong>privadas</strong> (visíveis somente ao criador).</li>
+                <li><strong>Objetos</strong>: elementos visuais (tabelas, gráficos, painéis de filtro, mapas, indicadores) — camada visual dos dados.</li>
+            </ul>
+        </div>
+
+        <h3>4.5 Carga de dados e diretório padrão</h3>
+        <p>Cada aplicativo possui sua pasta própria para armazenar os arquivos brutos. Para efeito didático, convencionou-se que todas as pastas padrão ficam no diretório <strong>"C:\CIAF"</strong>. Por exemplo, o aplicativo Ciaf cadastral lê dados da pasta <strong>"C:\CIAF\DADOS CIAF CADASTRAL"</strong>. <span class="ref-pagina">(p. 41)</span></p>
+
+        <p>Quando os dados são carregados no Qlik Sense desktop, eles passam a ficar salvos no aplicativo (.qvf), permitindo <strong>uso offline</strong> e atualização manual quando novos arquivos forem adicionados. <span class="ref-pagina">(p. 41)</span></p>
+
+        <h3>4.6 Instalação e acesso aos aplicativos</h3>
+        <p>Há dezenas de aplicativos desenvolvidos pela PF; cada diretoria tem os seus. No curso de formação, utilizam-se os aplicativos do Portal do <strong>Curso de Investigação e Análise Financeira (Ciaf)</strong> da Divisão de Repressão aos Crimes Financeiros da CGRC/Dicor, disponíveis no SharePoint institucional (Portal Ciaf), na seção "Qlik Sense". <span class="ref-pagina">(p. 42)</span></p>
+
+        <div class="box-blue">
+            <strong>Passo a passo para instalação: </strong> <span class="ref-pagina">(p. 42)</span>
+            <ol>
+                <li>Baixar os arquivos do aplicativo no Portal Ciaf (geralmente em .zip, contendo o .qvf e, quando necessário, a pasta de extensões);</li>
+                <li>Descompactar o conteúdo do .zip;</li>
+                <li>Copiar o .qvf para: <em>Documentos &gt; Qlik &gt; Sense &gt; Apps</em>;</li>
+                <li>Copiar as pastas de extensões, quando existirem, para: <em>Documentos &gt; Qlik &gt; Sense &gt; Extensions</em>;</li>
+                <li>Copiar a pasta padrão do aplicativo para: <em>C:/CIAF</em>;</li>
+                <li>Abrir o Qlik Sense Desktop, abrir o aplicativo e seguir as instruções da pasta "Introdução".</li>
+            </ol>
+        </div>
+
+        <div class="box-orange">
+            <strong>Primeiro acesso:</strong> O servidor deve <strong>autenticar-se previamente no Qlik Sense Enterprise da PF</strong> (https://bi.pf.gov.br): login e senha de rede → iniciais do nome (canto sup. direito) → "Autenticação de cliente" → "Abrir QlikSenseBrowser" → selecionar "PFBIServer" → login/senha de rede. <span class="ref-pagina">(p. 42-43)</span>
+        </div>
+
+        <h3>4.7 Uso básico - Seleções, Trava e Marcadores</h3>
+        <div class="box-green">
+            <strong>Ferramenta interativa: cada clique gera uma nova visão dos dados.</strong> <span class="ref-pagina">(p. 43)</span>
+            <ul>
+                <li><strong>Seleções</strong>: clicar diretamente em valores de gráfico, tabela ou filtro; possível selecionar múltiplos valores. Selecionado = verde; associados = brancos; sem relação = cinza.</li>
+                <li><strong>Trava de filtro</strong>: ícone de cadeado trava o conjunto de seleções (evita alterações acidentais). Clicar novamente destrava. <span class="ref-pagina">(p. 44)</span></li>
+                <li><strong>Marcadores</strong>: salvam estados específicos de seleção. Criar via "Marcadores → Criar novo"; reutilizáveis a qualquer momento. <span class="ref-pagina">(p. 44)</span></li>
+            </ul>
+        </div>
+
+        <h3>4.8 Dinâmica associativa global</h3>
+        <div class="box-purple">
+            <strong>O Qlik Sense funciona globalmente:</strong> as seleções feitas em uma pasta <strong>afetam todas as outras</strong>. Se filtrar por CPF/CNPJ em uma pasta, todas as visualizações do aplicativo são atualizadas automaticamente. Essa dinâmica associativa é o <strong>principal diferencial da ferramenta</strong>. <span class="ref-pagina">(p. 45)</span>
+        </div>
+
+        <p>Também é possível abrir o mesmo aplicativo em duas janelas diferentes (via Hub), arrastando uma aba para fora da janela principal, permitindo análise comparativa simultânea entre conjuntos de dados. <span class="ref-pagina">(p. 45)</span></p>
+
+        <h3>4.9 Dicas práticas</h3>
+        <div class="box-orange">
+            <ul>
+                <li><strong>Salve frequentemente</strong> o aplicativo (não há salvamento automático);</li>
+                <li>Utilize <strong>marcadores</strong> para registrar filtros importantes;</li>
+                <li>Mantenha a <strong>pasta padrão organizada</strong>, evitando arquivos duplicados;</li>
+                <li>Lembre-se: <strong>seleções são globais</strong> — limpe os filtros antes de iniciar nova análise;</li>
+                <li>Se o aplicativo não aparecer no Hub, pressione <strong>F5</strong> para recarregar.</li>
+            </ul>
+            <span class="ref-pagina">(p. 46)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Mudança de paradigma:</strong> O uso do Qlik Sense no ambiente policial representa uma verdadeira mudança de paradigma na forma de compreender a informação. Por meio do BI, a investigação deixa de depender exclusivamente de relatórios estáticos, permitindo análises dinâmicas, comparativas e visualmente intuitivas. Portal oficial de suporte: <em>https://help.qlik.com/pt-BR/</em>. <span class="ref-pagina">(p. 46)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Prometheus - Ferramentas de Análise</h2>
+
+        <div class="box-blue">
+            <strong>Programa de Tratamento Especial para Casuísticas Repetitivas - Prometheus</strong>: aplica metodologia especial para investigações de casuísticas previstas no programa. Focada primariamente em <strong>notícias-crime</strong> (também aplicável a inquéritos em andamento). <span class="ref-pagina">(p. 47)</span>
+        </div>
+
+        <h3>5.1 Três etapas da metodologia</h3>
+        <div class="box-green">
+            <ol>
+                <li><strong>Estruturação de dados</strong> da notícia-crime (via "Formulários Prometheus");</li>
+                <li><strong>Análise e correlação</strong> de casos;</li>
+                <li><strong>Tomada de decisão</strong>.</li>
+            </ol>
+            <span class="ref-pagina">(p. 47)</span>
+        </div>
+
+        <h3>5.2 Objetivos da análise - Art. 8º da Portaria 19.022</h3>
+        <div class="box-purple">
+            O delegado responsável determinará a elaboração de IPJ, após o preenchimento do formulário; o policial designado realizará a análise com ferramentas tecnológicas do Prometheus e demais ferramentas da PF, com o objetivo de: <span class="ref-pagina">(p. 47)</span>
+            <ul>
+                <li><strong>I</strong> - Identificar possível atuação de <strong>associações e organizações criminosas</strong>;</li>
+                <li><strong>II</strong> - Identificar <strong>padrões ou repetições de dados</strong> que indiquem relacionamento dos fatos com outros fatos criminosos (já investigados pela PF ou não) ou com outras NCs;</li>
+                <li><strong>III</strong> - Identificar <strong>linhas investigativas viáveis</strong> ou a sua ausência;</li>
+                <li><strong>IV</strong> - Identificar elementos que <strong>impeçam a manifestação pelo arquivamento</strong> da NCV (art. 10);</li>
+                <li><strong>V</strong> - Identificar outras circunstâncias úteis para a análise dos fatos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 47-48)</span>
+        </div>
+
+        <h3>5.3 Acordos de Cooperação Técnica (ACT)</h3>
+        <p>Para permitir cruzamento de dados, a PF celebra <strong>ACTs com órgãos parceiros</strong> para obter dados adicionais e expandir a análise para além dos dados estruturados nos formulários. <span class="ref-pagina">(p. 48)</span></p>
+
+        <div class="box-orange">
+            <strong>Exemplo:</strong> via ACT com os <strong>Correios</strong>, é possível identificar se determinado destinatário de objeto postal contendo drogas já foi destinatário de outras encomendas apreendidas, ainda que encaminhadas para a Polícia Civil (hipótese em que os dados não estariam disponíveis para a PF diretamente). <span class="ref-pagina">(p. 48)</span>
+        </div>
+
+        <p>Essa integração configura um <strong>enriquecimento de dados</strong> que confere capacidade ampliada em relação à mera utilização dos dados dos autos. Em algumas casuísticas há ferramentas que permitem até a <strong>prospecção de novos casos</strong> a partir das bases (ex.: moeda falsa, BPC-LOAS idosos). <span class="ref-pagina">(p. 48)</span></p>
+
+        <div class="box-green">
+            <strong>Tripla aplicação:</strong> As ferramentas do Prometheus podem servir para: <span class="ref-pagina">(p. 49)</span>
+            <ul>
+                <li>Subsidiar a <strong>análise prévia à instauração</strong> de uma investigação;</li>
+                <li><strong>Apoiar investigações em andamento</strong>;</li>
+                <li>Descoberta <strong>prospectiva de organizações criminosas</strong> ou crimes de maior vulto.</li>
+            </ul>
+        </div>
+
+        <h3>5.4 Ferramentas de análise (publicadas no Qlik Sense - https://bi.pf.gov.br)</h3>
+        <div class="box-red">
+            <strong>Atualmente, o Prometheus conta com as seguintes ferramentas de análise desenvolvidas no Qlik Sense:</strong> <span class="ref-pagina">(p. 49)</span>
+            <ul>
+                <li>Prometheus - <strong>Moeda Falsa</strong>;</li>
+                <li>Prometheus - <strong>Fraude no Seguro Desemprego</strong> - modalidade Defeso;</li>
+                <li>Prometheus - <strong>Medicamentos pelos Correios</strong>;</li>
+                <li>Prometheus - <strong>Drogas em Serviços Postais</strong>;</li>
+                <li>Prometheus - <strong>Fraude no Financiamento de Veículos</strong>;</li>
+                <li>Prometheus - <strong>Fraudes no BPC-LOAS (idosos)</strong>;</li>
+                <li>Prometheus - <strong>Crimes Patrimoniais contra os Correios</strong>;</li>
+                <li>Prometheus - <strong>Fraudes no Bolsa Família (CadÚnico)</strong>;</li>
+                <li>Prometheus - <strong>Formulários (ferramenta residual)</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>ATENÇÃO - distinção importante:</strong> O aplicativo de BI <strong>"Prometheus – Formulários"</strong> (ferramenta residual de análise para casuísticas sem aplicativo específico) <strong>NÃO se confunde</strong> com o software de registro, indexação e estruturação denominado <strong>"Formulários Prometheus"</strong>. O BI é uma <strong>ferramenta de consulta</strong> dos dados de todos os formulários preenchidos no software. <span class="ref-pagina">(p. 49)</span>
+        </div>
+
+        <p>Cada ferramenta de análise tem suas especificidades em técnicas de exploração de dados, baseando-se nos processos de <strong>filtragem e seleção do Qlik Sense</strong> para obtenção de insights e descoberta de elementos de interesse. <span class="ref-pagina">(p. 49)</span></p>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Síntese</h2>
+
+        <div class="box-blue">
+            <strong>Posição estratégica:</strong> Os bancos de dados são o <strong>elo intermediário</strong> entre OSINT (fontes abertas) e as medidas extraordinárias (cautelares judiciais). Não dependem de autorização judicial — seu acesso é legitimado por lei ou convênio. <span class="ref-pagina">(p. 33-34)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo - Estrutura geral dos bancos de dados PF</span>
+            <ul>
+                <li><strong>CONVENIADOS</strong>: Administrativos/Cadastrais (RFB, Juntas, Caged, CNIS, CAR, ATSG, Receitas Estaduais) | Policiais (Infoseg, estaduais, Interpol I-24/7) | Inteligência Financeira (Sei-C/Coaf, CCS-Bacen)</li>
+                <li><strong>INTERNOS</strong>: Administrativos (SISMIGRA, SINARM, SINPA/SINPA CON, PF-Catálogo) | Criminais/Operacionais (NEXO, SINAPSE, SIS-2, e-POL, RAPINA, TENTÁCULOS)</li>
+                <li><strong>BI</strong>: Qlik Sense (modelo associativo Verde/Branco/Cinza; Enterprise/Desktop; .qvf, pastas, objetos)</li>
+                <li><strong>PROMETHEUS</strong>: Casuísticas repetitivas (Moeda Falsa, Defeso, Medicamentos/Drogas pelos Correios, Financ. Veículos, BPC-LOAS, Crimes contra Correios, Bolsa Família, Formulários residual)</li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Mensagem final:</strong> O uso combinado dessas bases permite validar e cruzar informações obtidas em fontes abertas (OSINT) ou em diligências preliminares, conferindo <strong>maior precisão, confiabilidade e robustez</strong> às hipóteses investigativas. São essenciais para identificação de vínculos e gestão integrada das investigações, fortalecendo a capacidade analítica e o embasamento técnico das ações policiais. <span class="ref-pagina">(p. 34)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

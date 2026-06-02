@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.1.2 - Análise de Dados Bancários</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.1.2 - Análise de Dados Bancários</h1>
+        <div class="subtitle">Metodologia, ferramentas e informações abrangidas pelo sigilo bancário</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Contexto: bancarização e digitalização</a></li>
+            <li><a href="#sec2">2. Conceito de análise bancária</a></li>
+            <li><a href="#sec3">3. Análise no próprio Simba</a></li>
+            <li><a href="#sec4">4. Relatório R304 - Origem/Destino</a></li>
+            <li><a href="#sec5">5. Planilhas eletrônicas</a></li>
+            <li><a href="#sec6">6. Painel Ciaf-BANCÁRIO (ferramenta de BI)</a></li>
+            <li><a href="#sec7">7. Software de análise visual (diagramação)</a></li>
+            <li><a href="#sec8">8. Outras informações abrangidas pelo sigilo bancário</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Contexto: bancarização e digitalização</h2>
+
+        <div class="box-blue">
+            <strong>Bancarização:</strong> Nas últimas décadas, o sistema financeiro passou por um processo acelerado de bancarização, entendido como a <strong>ampliação do acesso da população a contas bancárias, meios de pagamento e serviços financeiros formais</strong>. Esse fenômeno foi impulsionado tanto por políticas públicas de inclusão financeira quanto pela necessidade de maior controle e rastreabilidade das operações monetárias. <span class="ref-pagina">(p. 192)</span>
+        </div>
+
+        <p>Paralelamente, houve uma intensa evolução das ferramentas digitais, que transformou a forma como indivíduos e empresas interagem com instituições financeiras. O uso de aplicativos bancários, cartões de crédito e débito, pagamentos instantâneos (como o <strong>PIX</strong>) e plataformas de investimento online tornou-se rotina. Esse ambiente digitalizado <strong>ampliou significativamente a quantidade de dados gerados pelas transações</strong>, permitindo que movimentações financeiras sejam monitoradas com mais rapidez e precisão. <span class="ref-pagina">(p. 192)</span></p>
+
+        <div class="box-green">
+            <strong>Dois lados da digitalização (visão investigativa):</strong> Se, por um lado, a digitalização facilita a circulação de recursos e <strong>pode ser utilizada para práticas ilícitas</strong>, por outro, também <strong>gera rastros documentais e eletrônicos</strong> que fortalecem a capacidade de fiscalização, controle e investigação por parte das autoridades competentes. <span class="ref-pagina">(p. 192)</span>
+        </div>
+
+        <p>Os dados bancários podem conter informações valiosas para a equipe de investigação. Sua análise proporciona ao investigador: <span class="ref-pagina">(p. 192)</span></p>
+        <ul>
+            <li>Acessar dados sobre <strong>transações bancárias específicas</strong>;</li>
+            <li>Identificar <strong>padrões de movimentação financeira</strong>;</li>
+            <li>Reconhecer <strong>vínculos com pessoas físicas e jurídicas</strong>;</li>
+            <li>Detectar <strong>patrimônios</strong>;</li>
+            <li>Descobrir a <strong>localização de eventuais operações</strong>, dentre outros aspectos.</li>
+        </ul>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Conceito de análise bancária</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Análise bancária pode ser definida como o <strong>exame de transações bancárias ocorridas em contas de pessoas físicas e/ou jurídicas investigadas</strong>, quando há suspeitas de que <strong>bens, direitos e/ou valores ilícitos foram operados por meio de contas bancárias</strong>. <span class="ref-pagina">(p. 193)</span>
+        </div>
+
+        <p>Essa análise pode ser alcançada por meio de diversas ferramentas. No Caderno são apresentadas técnicas a partir do <strong>próprio Simba</strong>, bem como por meio do <strong>painel Ciaf-BANCÁRIO</strong> e por meio de <strong>ferramentas de visualização das operações bancárias em forma de gráfico</strong>. <span class="ref-pagina">(p. 193)</span></p>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> Cada ferramenta de análise <strong>não é completa em si</strong>. Elas são <strong>complementares</strong> e possuem funcionalidades que se adequam a situações específicas com que se deparam os investigadores. <span class="ref-pagina">(p. 193)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 4 ferramentas de análise bancária</span>
+            <ul>
+                <li><strong>S</strong>imba (ambiente próprio)</li>
+                <li><strong>P</strong>lanilhas eletrônicas (Excel, Calc)</li>
+                <li><strong>C</strong>iaf-BANCÁRIO (painel BI)</li>
+                <li><strong>V</strong>isualização gráfica (diagramação de vínculos)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Análise no próprio Simba</h2>
+
+        <p>O Simba recepciona os dados bancários tais quais enviados pelas entidades obrigadas na decisão judicial. Além dessa funcionalidade, o Simba <strong>permite que os dados sejam analisados em seu próprio ambiente</strong>. <span class="ref-pagina">(p. 193)</span></p>
+
+        <div class="box-red">
+            <strong>IMPORTANTE (cai em prova!):</strong> <strong>Apenas a autoridade policial pode criar o caso Simba e conceder acesso à equipe que analisará os dados bancários.</strong> <span class="ref-pagina">(p. 193)</span>
+        </div>
+
+        <h3>3.1. Informações na tela do caso</h3>
+
+        <p>Logo abaixo do número do caso, o sistema traz informações gerais: <span class="ref-pagina">(p. 194)</span></p>
+        <ul>
+            <li>Nome do caso;</li>
+            <li>Resumo da investigação;</li>
+            <li>Data de criação;</li>
+            <li>Período geral de afastamento;</li>
+            <li>Quantidade de pessoas investigadas e envolvidas;</li>
+            <li>Delegado responsável.</li>
+        </ul>
+
+        <p>Em seguida, são dispostas as <strong>referências jurídicas do caso</strong>: número do processo judicial, vara, juiz/relator, número do procedimento policial e unidade policial. <span class="ref-pagina">(p. 194)</span></p>
+
+        <p>No campo <strong>Dados do Caso</strong>, são informadas quantas representações elaboradas pela autoridade policial estão carregadas, o número de decisões judiciais, outros arquivos e a quantidade de pessoas com afastamento de sigilo bancário vinculadas ao caso. <span class="ref-pagina">(p. 194)</span></p>
+
+        <p>Por fim, o caso traz informações sobre os dados recebidos pelas instituições financeiras: número de arquivos / requisições CCS e status do fluxo CCS, quantidade por tipo de atendimento (Bancário, Ancord e Documento), quantas contas bancárias, documentos e lançamentos bancários estão contidos no caso. <span class="ref-pagina">(p. 195)</span></p>
+
+        <div class="box-purple">
+            <strong>Lançamentos bancários no Simba</strong> - detalhados por tipo: <span class="ref-pagina">(p. 195)</span>
+            <ul>
+                <li><strong>Aprovado</strong></li>
+                <li><strong>Em Validação</strong></li>
+                <li><strong>Reprovado</strong></li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Característica comum a todas as páginas do Simba:</strong> Todos os <strong>textos destacados em cor azul</strong> possuem um <strong>link</strong> que permite direcionar o usuário para uma página com informações adicionais. <span class="ref-pagina">(p. 195)</span>
+        </div>
+
+        <h3>3.2. Validação dos dados</h3>
+
+        <div class="box-blue">
+            <strong>Validação:</strong> Antes de iniciar a análise dos dados bancários, o policial deverá realizar sua validação. A validação é um <strong>procedimento de responsabilidade da equipe de investigação</strong>, cujo objetivo é verificar: <span class="ref-pagina">(p. 195)</span>
+            <ul>
+                <li>A <strong>correspondência integral e exata dos dados</strong> em relação ao esperado, considerando a respectiva decisão judicial;</li>
+                <li>A <strong>consistência dos dados em seu aspecto qualitativo</strong> (consistências de datas, sobreposições, níveis de identificação etc.).</li>
+            </ul>
+        </div>
+
+        <p>Para facilitar esse procedimento, foi criado, na tela inicial de cada caso, o menu <strong>"Validação de dados"</strong> com o link <strong>"Sugestão de roteiro"</strong>. <span class="ref-pagina">(p. 195)</span></p>
+
+        <p>Este roteiro é <strong>somente uma sugestão</strong>, tendo o usuário liberdade para definir se prefere seguir ou fazer na sequência que achar melhor. É apresentado um passo a passo, sendo que em alguns passos o sistema apresenta informações personalizadas baseadas no caso e em outros indica passos genéricos. <span class="ref-pagina">(p. 196)</span></p>
+
+        <h3>3.3. Quesitos norteadores</h3>
+
+        <div class="box-orange">
+            <strong>Essencial:</strong> Realizada a validação, o investigador pode iniciar a análise. É de suma importância que se proceda a um <strong>estudo prévio do Inquérito Policial</strong>, no intuito de se conhecer a investigação e os principais atores. Destaca-se a <strong>essencialidade de que a autoridade policial, em conjunto com a equipe de investigação, apresente quesitos que norteiem o policial</strong> que realizará a análise dos dados. <span class="ref-pagina">(p. 197)</span>
+        </div>
+
+        <p>Os dados bancários trazem uma vasta gama de informações e os <strong>quesitos norteadores servem como estrutura basilar para que a equipe de investigação mantenha foco durante a análise</strong>. <span class="ref-pagina">(p. 197)</span></p>
+
+        <p>Com base nesses quesitos, o policial pode realizar pesquisas direto no Simba, na aba <strong>Consultas/Relatórios</strong>. Os dois principais relatórios são: <span class="ref-pagina">(p. 197)</span></p>
+        <ul>
+            <li><strong>R302 - Contas Bancárias</strong>;</li>
+            <li><strong>R304 - Origem/Destino</strong> - traz dados detalhados sobre as transações bancárias, incluindo sua origem/destino.</li>
+        </ul>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Relatório R304 - Origem/Destino</h2>
+
+        <p>Para acessar os dados do R304, o usuário precisa realizar <strong>dois passos obrigatórios</strong>. <span class="ref-pagina">(p. 197)</span></p>
+
+        <table>
+            <tr>
+                <th>Passo</th>
+                <th>O que se seleciona</th>
+            </tr>
+            <tr>
+                <td><strong>Passo 1</strong></td>
+                <td>Atendimentos vinculados ao caso <span class="ref-pagina">(p. 197)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Passo 2</strong></td>
+                <td>Contas bancárias dos atendimentos: pessoas vinculadas, vínculo entre pessoas e contas, instituições financeiras, tipo de conta, contas bancárias e tratamento para repetição de contas <span class="ref-pagina">(p. 198)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Passo 3</strong></td>
+                <td>Filtros referentes às <strong>características das transações</strong> <span class="ref-pagina">(p. 199)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Passo 4</strong></td>
+                <td>Campos para escolha de informações sobre <strong>origem e destino</strong> <span class="ref-pagina">(p. 199)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-purple">
+            <strong>Filtros disponíveis nos Passos 3 e 4:</strong> <span class="ref-pagina">(p. 199)</span>
+            <ul>
+                <li>Período de movimentação</li>
+                <li>Valor da transação</li>
+                <li>Número do documento</li>
+                <li>Natureza do lançamento</li>
+                <li>Tipo de lançamento</li>
+                <li>Histórico (descrição) do lançamento</li>
+                <li>Local da transação</li>
+                <li>Observação</li>
+                <li>Tipo de identificação de Origem/Destino (OD)</li>
+                <li>Pessoas com afastamento, investigadas ou envolvidas</li>
+                <li>Nome do Remetente/Destinatário</li>
+                <li>CPF/CNPJ do Remetente/Destinatário</li>
+                <li>Conta do Remetente/Destinatário</li>
+                <li>Inferência</li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Integração com BI:</strong> O R304 em formato <strong>CSV</strong> ainda possibilita o uso de ferramentas de análise por meio de softwares de <strong>Business Intelligence - BI</strong>. <span class="ref-pagina">(p. 199)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Planilhas eletrônicas</h2>
+
+        <div class="box-blue">
+            <strong>5.5.1.2.2 Planilhas eletrônicas:</strong> Permitem análises por meio da <strong>leitura visual</strong> ou de funcionalidades como <strong>filtros, fórmulas, gráficos e tabelas dinâmicas</strong>. Exemplos: <strong>MS Excel</strong> e <strong>OpenOffice Calc</strong>. <span class="ref-pagina">(p. 199)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Painel Ciaf-BANCÁRIO (ferramenta de BI)</h2>
+
+        <p>Além do Simba, o policial federal possui outra ferramenta que o auxilia sobremaneira na análise e validação dos dados bancários, o <strong>painel Ciaf-BANCÁRIO</strong>. <span class="ref-pagina">(p. 200)</span></p>
+
+        <div class="box-orange">
+            <strong>Caminho de armazenamento:</strong> Após download do R304 a partir do Simba, o arquivo deve ser salvo na pasta <code>C:\Ciaf\Simba_ARQUIVOS\Arquivos do R304-R400</code>. Esse é o local onde o aplicativo Ciaf-BANCÁRIO buscará os dados que serão carregados no painel da ferramenta de BI. <span class="ref-pagina">(p. 200)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>O que é BI (Business Intelligence):</strong> conjunto de técnicas, ferramentas e processos usados para <strong>coletar, organizar, analisar e apresentar dados</strong> com o objetivo de apoiar a tomada de decisões estratégicas. BI transforma dados brutos em informações úteis e compreensíveis, permitindo que gestores e analistas entendam o desempenho, identifiquem oportunidades, detectem problemas e tomem decisões baseadas em evidências. <span class="ref-pagina">(p. 200)</span>
+        </div>
+
+        <h3>6.1. Pastas e funcionalidades do painel</h3>
+
+        <p>As primeiras pastas proporcionam uma <strong>visão geral dos arquivos carregados</strong> e um resumo do caso completo. Em seguida, pode-se visualizar informações sobre o <strong>volume de transações bancárias realizadas pelos Titulares</strong> (pessoas físicas e jurídicas cujo sigilo bancário foi afastado). A pasta <strong>Origem/Destino</strong> traz informações sobre o montante transacionado pelos Titulares com suas contrapartes. <span class="ref-pagina">(p. 201)</span></p>
+
+        <div class="box-green">
+            <strong>Extrato Bancário:</strong> O aplicativo fornece uma visão dos dados em forma de Extrato Bancário. É nessa pasta que estão os dados completos, assim como vieram do R304. O policial tem <strong>duas formas de visualizar</strong>: <span class="ref-pagina">(p. 202)</span>
+            <ul>
+                <li><strong>Extrato Resumido</strong>, com as principais colunas oriundas do R304;</li>
+                <li><strong>Completo (padrão PF)</strong>, onde estão as <strong>38 colunas</strong> do relatório do Simba.</li>
+            </ul>
+        </div>
+
+        <p>O investigador também consegue analisar os dados conforme características específicas das transações, bem como visualizá-las <strong>cronologicamente</strong>, em formato de <strong>tabela</strong> ou de <strong>gráfico</strong>. <span class="ref-pagina">(p. 202)</span></p>
+
+        <p>As próximas duas pastas permitem que o policial acompanhe a <strong>evolução dos saldos das contas bancárias</strong> ao longo do período do afastamento, em formato de tabela e de gráfico. <span class="ref-pagina">(p. 203)</span></p>
+
+        <div class="box-blue">
+            <strong>Cruzamentos com bases externas - Exchange de Criptomoedas:</strong> A pasta <strong>Exchange de Criptomoedas</strong> relaciona automaticamente transações dos Titulares com operadores de criptomoedas. Essa informação é de grande relevância para a investigação, por fornecer um <strong>indicativo de que os investigados estejam realizando transações com criptomoedas</strong>. <span class="ref-pagina">(p. 203)</span>
+        </div>
+
+        <p>A pasta <strong>Pessoas de Interesse</strong> proporciona que o policial alimente uma planilha com informações de pessoas físicas ou jurídicas e o aplicativo apontará se alguma dessas pessoas realizou transações bancárias com os Titulares alvos do afastamento do sigilo bancário. <span class="ref-pagina">(p. 204)</span></p>
+
+        <p>O aplicativo ainda permite a visualização das transações do caso em forma de <strong>mapas</strong>, seja pela ótica dos Titulares ou das contrapartes Origem/Destino. <span class="ref-pagina">(p. 204)</span></p>
+
+        <div class="box-orange">
+            <strong>Pasta "Para Diagramar":</strong> É possível exportar as transações bancárias do caso para serem geradas <strong>redes em forma de gráfico</strong>. Essas transações podem ser exportadas <strong>após aplicação de filtros</strong>, ou seja, sem que seja necessário extrair toda a rede de dados completa. <span class="ref-pagina">(p. 205)</span>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Análise em software de análise visual</h2>
+
+        <div class="box-blue">
+            <strong>5.5.1.2.4:</strong> A equipe de investigação pode se valer de <strong>softwares de diagramação de vínculos</strong>, cuja representação permite a <strong>visualização das transações bancárias em forma de gráfico</strong>, facilitando o entendimento da rede na totalidade. <span class="ref-pagina">(p. 205)</span>
+        </div>
+
+        <p>Para criar esses grafos, é necessário <strong>baixar os arquivos através da aba "Para Diagramar"</strong> no aplicativo Ciaf-Bancário; em seguida, deve-se utilizar <strong>especificações de importação</strong> para cada tipo de visualização que se deseja. <span class="ref-pagina">(p. 205)</span></p>
+
+        <p>Os dados das transações bancárias oriundas da quebra de sigilo bancário poderão ser visualizados graficamente, sob a ótica de <strong>contas ou pessoas</strong>, bem como <strong>cronologicamente</strong>. <span class="ref-pagina">(p. 205)</span></p>
+
+        <div class="box-green">
+            <strong>Técnicas aplicáveis nesta ferramenta:</strong> <span class="ref-pagina">(p. 205)</span>
+            <ul>
+                <li>Identificação de <strong>vínculos entre pessoas</strong> por meio de vários níveis ou etapas de transações bancárias;</li>
+                <li>Vislumbrar graficamente o <strong>fluxo do dinheiro</strong> entre contas investigadas;</li>
+                <li>Detectar <strong>possíveis elos relevantes numa rede de transações</strong>, auxiliando inclusive na <strong>estratégia da investigação integralmente</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Outras informações abrangidas pelo sigilo bancário</h2>
+
+        <div class="box-red">
+            <strong>ATENÇÃO (cai em prova!):</strong> O sigilo bancário <strong>não abrange exclusivamente os dados das transações bancárias</strong>. Há diversas outras informações complementares que podem ser acessadas pela equipe de investigação, mediante requisição às instituições financeiras. <span class="ref-pagina">(p. 206)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Essencial:</strong> É essencial que se verifique o que determinou a <strong>decisão judicial</strong> que amparou o afastamento do sigilo bancário, a fim de não se prejudicar a investigação requisitando informações que não estejam deferidas pelo Judiciário. <span class="ref-pagina">(p. 206)</span>
+        </div>
+
+        <h3>8.1. Documentação das contas (5.5.1.2.5.1)</h3>
+        <p>Refere-se a documentação acessória, como <strong>formulários de cadastro, contratos de abertura de conta, contratos de empréstimos, documentos contábeis, procurações</strong> etc. Esses documentos permitem identificar o <strong>titular, cotitulares, procuradores e representantes legais</strong>. <span class="ref-pagina">(p. 206)</span></p>
+
+        <h3>8.2. Complemento de transações (5.5.1.2.5.2)</h3>
+        <p>Trata-se das <strong>informações adicionais que qualificam uma operação financeira</strong>. Incluem dados sobre data e horário específicos, finalidades declaradas, instruções associadas a transferências eletrônicas e justificativas formais fornecidas pelo correntista. Esses elementos ajudam a <strong>verificar a veracidade da movimentação e a detectar inconsistências</strong>. <span class="ref-pagina">(p. 206-207)</span></p>
+
+        <h3>8.3. Cartões de crédito (5.5.1.2.5.3)</h3>
+        <div class="box-blue">
+            <strong>Indícios de lavagem:</strong> O uso de cartões de crédito constitui fonte relevante de investigação. As <strong>faturas revelam padrões de consumo, saques em caixas eletrônicos, transações internacionais e eventuais indícios de lavagem de dinheiro</strong> por meio de <strong>compras simuladas ou movimentações incompatíveis com a renda declarada</strong>. <span class="ref-pagina">(p. 207)</span>
+        </div>
+
+        <h3>8.4. Documentos de operação de câmbio (5.5.1.2.5.4)</h3>
+        <p>No âmbito das transações internacionais, a análise de <strong>contratos de câmbio, ordens de pagamento e registros junto a instituições financeiras autorizadas</strong> é fundamental. Esses documentos permitem identificar: <span class="ref-pagina">(p. 207)</span></p>
+        <ul>
+            <li><strong>Remessas ao exterior</strong>;</li>
+            <li><strong>Internalização de recursos</strong>;</li>
+            <li><strong>Operações destinadas à ocultação de patrimônio</strong> em jurisdições com menor transparência;</li>
+            <li>Evidenciar possíveis transações de <strong>evasão de divisas</strong>.</li>
+        </ul>
+
+        <h3>8.5. Microfilmagem de cheques (5.5.1.2.5.5)</h3>
+        <div class="box-purple">
+            <strong>Valor probatório:</strong> Apesar da redução do uso de cheques, a microfilmagem ainda é um recurso relevante. Por meio dela, é possível <strong>identificar a titularidade de quem emitiu e de quem depositou o cheque</strong>, bem como <strong>acompanhar cadeias de compensação</strong>. A microfilmagem oferece <strong>valor probatório, especialmente em operações realizadas fora do sistema eletrônico</strong>. <span class="ref-pagina">(p. 207)</span>
+        </div>
+
+        <h3>8.6. Fita de caixa (5.5.1.2.5.6)</h3>
+        <p>As chamadas <strong>"fitas de caixa"</strong> são registros internos das instituições financeiras e casas de câmbio que detalham as operações realizadas em <strong>guichês e caixas físicos</strong>. Permitem rastrear saques, depósitos e trocas de moeda, identificando <strong>horário, valor e, em alguns casos, o atendente responsável</strong>. <span class="ref-pagina">(p. 207)</span></p>
+
+        <div class="box-green">
+            <strong>Sinônimos:</strong> A depender da Instituição Financeira, a "Fita de Caixa" pode ser conhecida por outras nomenclaturas: <strong>bobina, fita detalhe, fita de sessão de atendimento bancário</strong> etc. <span class="ref-pagina">(p. 207-208)</span>
+        </div>
+
+        <h3>8.7. Gravações de CFTV (5.5.1.2.5.7)</h3>
+        <p>As gravações de câmeras de segurança (CFTV) instaladas em agências bancárias, casas de câmbio ou estabelecimentos comerciais podem <strong>confirmar a presença física de indivíduos</strong> durante a realização de transações. A vinculação da imagem ao registro financeiro fortalece a evidência e auxilia na <strong>identificação de cúmplices ou laranjas</strong>. <span class="ref-pagina">(p. 208)</span></p>
+
+        <div class="box-red">
+            <strong>PRAZO (cai em prova!):</strong> Deve-se atentar para o prazo que as agências costumam manter essas gravações. Esse prazo costuma ser de <strong>90 dias, podendo chegar a 180 dias</strong>, conforme política interna da instituição. <span class="ref-pagina">(p. 208)</span>
+        </div>
+
+        <h3>8.8. ID's vinculados (5.5.1.2.5.8)</h3>
+        <p>Os identificadores vinculados às operações — como <strong>códigos de autenticação, números de dispositivos móveis ou tokens de segurança</strong> — possibilitam <strong>rastrear a autoria de transações eletrônicas</strong>. A análise desses elementos pode revelar vínculos entre diferentes contas ou demonstrar o uso de dispositivos por pessoas diversas. <span class="ref-pagina">(p. 208)</span></p>
+
+        <h3>8.9. IPs de acesso (5.5.1.2.5.9)</h3>
+        <p>O endereço de protocolo de internet (IP) utilizado em acessos a contas bancárias online ou aplicativos financeiros constitui evidência relevante. A partir dele, é possível identificar a <strong>localização geográfica, o provedor de internet e, em alguns casos, o dispositivo usado</strong>, permitindo verificar se os acessos são compatíveis com o perfil do investigado. <span class="ref-pagina">(p. 208)</span></p>
+
+        <h3>8.10. Movimentação diária (5.5.1.2.5.10)</h3>
+        <div class="box-blue">
+            <strong>Conceito:</strong> Consiste no <strong>acompanhamento em tempo real</strong> da movimentação financeira das contas de pessoas físicas ou jurídicas sob investigação. Essa medida permite o <strong>monitoramento imediato de créditos e débitos</strong>, possibilitando identificar transferências suspeitas no exato momento em que ocorrem. <span class="ref-pagina">(p. 208)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Utilidade investigativa:</strong> Trata-se de instrumento relevante para: <span class="ref-pagina">(p. 208)</span>
+            <ul>
+                <li><strong>Evitar a dispersão de valores</strong>;</li>
+                <li><strong>Mapear rotas de ocultação de recursos</strong>;</li>
+                <li><strong>Subsidiar medidas cautelares</strong>, como bloqueios ou arrestos.</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo: 10 informações abrangidas pelo sigilo bancário</span>
+            <ol>
+                <li>Documentação das contas</li>
+                <li>Complemento de transações</li>
+                <li>Cartões de crédito</li>
+                <li>Operações de câmbio</li>
+                <li>Microfilmagem de cheques</li>
+                <li>Fita de caixa</li>
+                <li>Gravações de CFTV (90 a 180 dias)</li>
+                <li>ID's vinculados</li>
+                <li>IPs de acesso</li>
+                <li>Movimentação diária (tempo real)</li>
+            </ol>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

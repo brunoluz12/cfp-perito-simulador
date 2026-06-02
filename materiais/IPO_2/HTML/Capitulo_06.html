@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 6 - O Uso da Inteligência Artificial como Apoio à Investigação</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        code { background: #edf2f7; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 6 - O Uso da Inteligência Artificial como Apoio à Investigação</h1>
+        <div class="subtitle">Princípios, Engenharia de Prompt e de Contexto, e uso na Polícia Federal</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec0">0. Introdução: o que é Inteligência Artificial</a></li>
+            <li><a href="#sec1">6.1 Princípios Básicos do Uso da IA</a></li>
+            <li><a href="#sec2">6.2 Engenharia de Prompt</a></li>
+            <li><a href="#sec3">6.3 Engenharia de Contexto</a></li>
+            <li><a href="#sec4">6.4 Uso da IA pela Polícia Federal</a></li>
+        </ul>
+    </div>
+
+    <div id="sec0" class="section">
+        <h2>0. Introdução: o que é Inteligência Artificial</h2>
+
+        <div class="box-blue">
+            <strong>Contexto institucional:</strong> O avanço das tecnologias de IA transformou a forma como pessoas e organizações processam informações e tomam decisões. No âmbito policial, traz oportunidades para ampliar a eficiência, automatizar tarefas repetitivas e analisar grandes volumes de dados, mas também apresenta riscos que precisam ser cuidadosamente geridos. O módulo busca capacitar o investigador a utilizar assistentes baseados em IA de forma segura, ética e alinhada à missão institucional. <span class="ref-pagina">(p. 473)</span>
+        </div>
+
+        <p>A <strong>Inteligência Artificial (IA)</strong> é um campo da ciência da computação voltado ao desenvolvimento de máquinas e programas capazes de reproduzir comportamentos tipicamente humanos. Trata-se de uma área multidisciplinar que reúne conhecimentos de matemática, estatística, engenharia, linguística, psicologia cognitiva e ciência de dados. <span class="ref-pagina">(p. 473)</span></p>
+
+        <h3>Principais capacidades que a IA tenta reproduzir</h3>
+        <table>
+            <tr>
+                <th>Capacidade</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Aprendizado</strong></td>
+                <td>Capacidade de adquirir conhecimento a partir de dados e experiências anteriores, permitindo que sistemas melhorem seu desempenho com o tempo. <span class="ref-pagina">(p. 473)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Raciocínio</strong></td>
+                <td>Habilidade de processar informações e chegar a conclusões lógicas, aplicando técnicas de inferência. <span class="ref-pagina">(p. 473)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Percepção</strong></td>
+                <td>Interpretação de dados sensoriais como imagens, sons e textos, tornando possível o reconhecimento de padrões no ambiente. <span class="ref-pagina">(p. 473)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Adaptação</strong></td>
+                <td>Ajuste do comportamento com base em novas informações, possibilitando a tomada de decisões em cenários dinâmicos. <span class="ref-pagina">(p. 473)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: A-R-P-A (capacidades da IA)</span>
+            <ul>
+                <li><strong>A</strong>prendizado</li>
+                <li><strong>R</strong>aciocínio</li>
+                <li><strong>P</strong>ercepção</li>
+                <li><strong>A</strong>daptação</li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Síntese:</strong> A IA não se limita a algoritmos estáticos; ela incorpora processos que <strong>simulam o funcionamento cognitivo humano</strong>, buscando maior autonomia e precisão em tarefas complexas. <span class="ref-pagina">(p. 473)</span>
+        </div>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>6.1 Princípios Básicos do Uso da Inteligência Artificial</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> O uso da IA em investigações policiais deve observar quatro princípios essenciais: <strong>legalidade, ética, confiabilidade e confidencialidade</strong>. <span class="ref-pagina">(p. 473-474)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: L-E-C-C (princípios do uso da IA)</span>
+            <ul>
+                <li><strong>L</strong>egalidade</li>
+                <li><strong>E</strong>tica</li>
+                <li><strong>C</strong>onfiabilidade</li>
+                <li><strong>C</strong>onfidencialidade</li>
+            </ul>
+        </div>
+
+        <h3>Legalidade</h3>
+        <div class="box-purple">
+            Consiste na plena adequação às normas vigentes, em especial à <strong>Portaria MJSP nº 961/2025</strong>, garantindo que todo processamento de dados siga parâmetros oficiais e regulamentados. <span class="ref-pagina">(p. 473)</span>
+        </div>
+
+        <h3>Ética</h3>
+        <p>É indispensável que o uso da IA seja pautado pela ética, que se refere à responsabilidade de garantir que sistemas automatizados sejam desenvolvidos e aplicados de forma <strong>justa, transparente e segura</strong>, respeitando os direitos fundamentais dos indivíduos. Inclui a proteção da privacidade, a não discriminação, a prestação de contas e a prevenção de danos. <span class="ref-pagina">(p. 473-474)</span></p>
+
+        <div class="box-orange">
+            No contexto institucional, especialmente em áreas sensíveis como segurança pública, o uso ético da IA exige <strong>rigor técnico e normativo</strong> para evitar vieses, assegurar a legalidade das decisões automatizadas e preservar a confiança da sociedade. A ética não é somente um valor abstrato, mas um <strong>imperativo operacional</strong> que orienta o uso legítimo e responsável da tecnologia. <span class="ref-pagina">(p. 474)</span>
+        </div>
+
+        <h3>Confiabilidade</h3>
+        <p>Diz respeito à capacidade do modelo em executar a tarefa com êxito. Envolve verificar se: <span class="ref-pagina">(p. 474)</span></p>
+        <ul>
+            <li>O desempenho do sistema é adequado e a saída é confiável o suficiente para auxiliar na tarefa;</li>
+            <li>A taxa de processamento (<strong>tokens por segundo</strong>) atende à demanda;</li>
+            <li>A disponibilidade do serviço é consistente para uso operacional;</li>
+            <li>Os algoritmos sejam <strong>auditáveis</strong>, garantindo que suas decisões possam ser reproduzidas e justificadas tecnicamente.</li>
+        </ul>
+        <div class="box-green">
+            Para instituições, isso significa que a IA deve ser integrada com <strong>supervisão humana e protocolos próprios de validação</strong>, além da conformidade com normas legais e éticas. <span class="ref-pagina">(p. 474)</span>
+        </div>
+
+        <h3>Confidencialidade</h3>
+        <div class="box-red">
+            <strong>PONTO CRÍTICO:</strong> O sigilo dos dados sensíveis deve ser preservado em qualquer circunstância. O processamento deve ocorrer somente em <strong>servidores seguros</strong>, considerando inclusive a <strong>anonimização</strong> das informações, quando necessário. <span class="ref-pagina">(p. 474)</span>
+        </div>
+
+        <p><strong>Anonimização (LGPD):</strong> é o processo técnico que torna <strong>irreversível</strong> a identificação de um indivíduo. Dados devidamente anonimizados deixam de ser considerados "dados pessoais". <span class="ref-pagina">(p. 474, nota 35)</span></p>
+
+        <h3>Diferenças entre ambientes de uso</h3>
+        <table>
+            <tr>
+                <th>Ambiente</th>
+                <th>Característica de privacidade</th>
+            </tr>
+            <tr>
+                <td><strong>Provedores gratuitos</strong> (ex.: Gemini API "free tier")</td>
+                <td>Podem coletar dados para aprimorar seus produtos. <span class="ref-pagina">(p. 474)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Serviços pagos</strong> (ex.: plano corporativo OpenAI)</td>
+                <td>Asseguram que os dados não sejam usados para treinamento. <span class="ref-pagina">(p. 474)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Soluções institucionais</strong> (ex.: Microsoft Copilot Chat)</td>
+                <td>Proteção empresarial vinculada a termos de aditivos de proteção de dados. <span class="ref-pagina">(p. 474)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Servidores locais</strong> (ex.: Ollama)</td>
+                <td>Mais controle sobre os dados — inferências 100% locais, sem risco de exposição na internet. <span class="ref-pagina">(p. 474)</span></td>
+            </tr>
+        </table>
+
+        <h3>Normativo aplicável (legalidade) - Portaria MJSP nº 961/2025</h3>
+        <div class="box-blue">
+            <strong>Objeto:</strong> Estabelece diretrizes para o uso de soluções de tecnologia da informação, <strong>incluindo IA</strong>, em investigações criminais e atividades de inteligência de segurança pública. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <p><strong>Aplicação:</strong> órgãos federais como <strong>Polícia Federal, PRF e Polícia Penal Federal</strong>, e entidades estaduais, distritais e municipais que utilizem recursos de fundos nacionais de segurança. <span class="ref-pagina">(p. 475)</span></p>
+
+        <div class="box-purple">
+            <strong>Fundamentos da Portaria:</strong> legalidade, proporcionalidade, proteção de dados pessoais, integridade dos sistemas e transparência. Também enfatiza a <strong>integridade da cadeia de custódia da prova</strong>, a segurança da informação e a transparência no uso das tecnologias. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <p>A Portaria <strong>define conceitos essenciais</strong> como: dados pessoais e sensíveis, inteligência de segurança pública, investigação criminal, tratamento de dados e logs de acesso. Delimita o uso das tecnologias àquilo que for <strong>estritamente necessário</strong> para o cumprimento das atribuições legais, vedando o uso indiscriminado ou sem finalidade clara. <span class="ref-pagina">(p. 475)</span></p>
+
+        <div class="box-orange">
+            <strong>Exigências de uso:</strong> proporcionalidade e <strong>revisão humana</strong> em casos de risco a direitos fundamentais. Órgãos gestores devem adotar medidas técnicas e administrativas como: controle de acesso, autenticação segura, auditorias periódicas, capacitação dos usuários e planos de contingência. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Responsabilização:</strong> a Portaria prevê responsabilização <strong>administrativa, civil e criminal</strong> em caso de uso indevido das tecnologias. <span class="ref-pagina">(p. 475)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>6.2 Engenharia de Prompt</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Engenharia de Prompt é o conjunto de técnicas utilizadas para <strong>estruturar as instruções</strong> fornecidas a um modelo de linguagem, influenciando diretamente a qualidade e a precisão das respostas. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Ponto central:</strong> a IA <strong>não adivinha</strong> o que se deseja — ela interpreta a entrada textual e gera saídas conforme padrões aprendidos. Quanto melhor formulado o comando, maior a chance de obter respostas úteis, coerentes e dentro do esperado. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <h3>Métodos para orientar a geração de respostas</h3>
+        <table>
+            <tr>
+                <th>Método</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Zero-shot</strong></td>
+                <td>Somente descreve a tarefa, sem exemplos. <span class="ref-pagina">(p. 475)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Few-shot</strong></td>
+                <td>Inclui alguns exemplos de entrada e saída para guiar o modelo. <span class="ref-pagina">(p. 475)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Role prompting</strong></td>
+                <td>Atribui um papel específico ao modelo (ex.: "Você é um perito criminal"). <span class="ref-pagina">(p. 475)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Contextual prompting</strong></td>
+                <td>Acrescenta informações de fundo, delimitando escopo e contexto. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Cadeia de Raciocínio (Chain of Thought - CoT)</strong></td>
+                <td>Solicita que o modelo explique <strong>passo a passo</strong>, tornando o raciocínio mais claro. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Técnicas avançadas</strong></td>
+                <td><strong>Tree of Thoughts (ToT)</strong>, <strong>ReAct (Reason &amp; Act)</strong> e <strong>Self-consistency</strong> — ajudam a aumentar a robustez e reduzir vieses. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Estrutura recomendada do prompt:</strong> segmentar as partes principais — <strong>objetivo, regras, contexto, público-alvo e saída esperada</strong>. Esse padrão aumenta a clareza e a rastreabilidade, especialmente em investigações criminais. <span class="ref-pagina">(p. 476)</span>
+        </div>
+
+        <h3>6.2.1 Estrutura do Prompt</h3>
+        <p>A forma como o prompt é estruturado impacta diretamente a interpretação e a qualidade da resposta. Duas formas bastante utilizadas são o <strong>Markdown</strong> e o <strong>XML</strong>. <span class="ref-pagina">(p. 476)</span></p>
+
+        <h3>6.2.1.1 Uso de Markdown</h3>
+        <div class="box-purple">
+            Por padrão, a maioria dos LLMs organiza respostas em <strong>Markdown</strong>, linguagem de marcação leve amplamente utilizada em treinamentos de modelos. Sua principal vantagem é a <strong>simplicidade sintática</strong>, permitindo organizar o texto em títulos, listas, tabelas e blocos de código. <span class="ref-pagina">(p. 476)</span>
+        </div>
+
+        <ul>
+            <li><strong>Títulos:</strong> iniciados por <code>#</code> (um <code>#</code> = nível 1, <code>##</code> = nível 2, etc.). <span class="ref-pagina">(p. 476)</span></li>
+            <li><strong>Listas:</strong> numeradas (<code>1.</code>, <code>2.</code>) ou com marcadores (<code>-</code>, <code>*</code>). <span class="ref-pagina">(p. 476)</span></li>
+            <li><strong>Ênfase:</strong> <code>**negrito**</code> e <code>*itálico*</code>. <span class="ref-pagina">(p. 476)</span></li>
+            <li><strong>Blocos de código:</strong> delimitados por crases triplas <code>```</code> (útil para trechos técnicos, exemplos de código ou estruturas de prompt). <span class="ref-pagina">(p. 476)</span></li>
+        </ul>
+
+        <h3>6.2.1.2 Uso de XML</h3>
+        <div class="box-blue">
+            Alternativa especialmente útil em prompts complexos (múltiplos componentes: contexto, instruções, exemplos, regras). Sugerida em guias como os da <strong>Anthropic</strong>, aumenta a precisão da interpretação do modelo ao <strong>separar de forma inequívoca</strong> cada parte do comando. <span class="ref-pagina">(p. 476)</span>
+        </div>
+
+        <p>Benefícios da segmentação por XML: <span class="ref-pagina">(p. 477)</span></p>
+        <ul>
+            <li><strong>Clareza</strong> – reduz ambiguidades;</li>
+            <li><strong>Acurácia</strong> – evita confusão entre instruções e exemplos;</li>
+            <li><strong>Flexibilidade</strong> – facilita alterações parciais;</li>
+            <li><strong>Parseabilidade</strong> – possibilita extração automatizada das respostas.</li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: C-A-F-P (vantagens do XML em prompts)</span>
+            <ul>
+                <li><strong>C</strong>lareza</li>
+                <li><strong>A</strong>curácia</li>
+                <li><strong>F</strong>lexibilidade</li>
+                <li><strong>P</strong>arseabilidade</li>
+            </ul>
+        </div>
+
+        <p><strong>Sintaxe do XML:</strong> <span class="ref-pagina">(p. 477)</span></p>
+        <ul>
+            <li><strong>Abertura e fechamento:</strong> <code>&lt;tag&gt;</code> e <code>&lt;/tag&gt;</code>.</li>
+            <li><strong>Hierarquia:</strong> tags podem ser aninhadas, refletindo a estrutura lógica do conteúdo.</li>
+            <li><strong>Semântica:</strong> recomenda-se que o nome da tag descreva o tipo de informação (ex.: <code>&lt;objetivo_geral&gt;</code>, <code>&lt;contexto&gt;</code>, <code>&lt;regras&gt;</code>).</li>
+        </ul>
+
+        <h3>6.2.1.3 Comparativo entre Markdown e XML (Quadro 9)</h3>
+        <table>
+            <tr>
+                <th>Markdown</th>
+                <th>XML</th>
+            </tr>
+            <tr>
+                <td>
+                    <code># Objetivo Geral</code><br>
+                    Gerar um comentário técnico sobre o elemento de informação.<br><br>
+                    <code># Contexto</code><br>
+                    [Resumo da investigação em andamento]<br><br>
+                    <code># Elemento de Informação</code><br>
+                    [Dado fornecido]<br><br>
+                    <code># Regras</code><br>
+                    - Descreva o tipo de elemento.<br>
+                    - Indique as partes envolvidas.<br>
+                    - Contextualize a relevância do elemento.<br><br>
+                    <code>## Restrições</code><br>
+                    - Somente o contexto determinará a relevância.<br>
+                    - Não use inferências ou conhecimentos gerais.<br><br>
+                    <code># Saída Esperada</code><br>
+                    Texto em linguagem formal e técnica, adequado a uso jurídico.
+                </td>
+                <td>
+                    <code>&lt;objetivo_geral&gt;</code> Gerar um comentário técnico sobre o elemento de informação. <code>&lt;/objetivo_geral&gt;</code><br><br>
+                    <code>&lt;contexto&gt;</code> [Resumo da investigação] <code>&lt;/contexto&gt;</code><br><br>
+                    <code>&lt;elemento_de_informacao&gt;</code> [Dado fornecido] <code>&lt;/elemento_de_informacao&gt;</code><br><br>
+                    <code>&lt;regras&gt;</code> Descreva o tipo de elemento, partes envolvidas e relevância diante do contexto.<br>
+                    <code>&lt;restrições&gt;</code><br>
+                    - Somente o contexto determinará a relevância.<br>
+                    - Não use inferências ou conhecimentos gerais.<br>
+                    <code>&lt;/restrições&gt;</code><br>
+                    <code>&lt;/regras&gt;</code><br><br>
+                    <code>&lt;saida_esperada&gt;</code> Texto em linguagem formal e técnica, adequado a uso jurídico. <code>&lt;/saida_esperada&gt;</code>
+                </td>
+            </tr>
+        </table>
+        <p class="ref-pagina">Quadro 9 - Estrutura do prompt (Markdown vs XML) (p. 477)</p>
+
+        <div class="box-green">
+            <strong>Síntese:</strong> a Engenharia de Prompt é competência essencial ao investigador moderno. Dominar a construção estruturada de prompts com Markdown e XML garante <strong>maior confiabilidade, reduz riscos de "alucinações"</strong> e torna a interação com IA mais previsível e adequada às exigências normativas e operacionais. <span class="ref-pagina">(p. 478)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Alucinação (nota 37):</strong> fenômeno em que o modelo gera uma resposta que <strong>parece correta ou plausível, mas é falsa, imprecisa ou inventada</strong>. <span class="ref-pagina">(p. 478)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>6.3 Engenharia de Contexto</h2>
+
+        <div class="box-blue">
+            <strong>Origem do termo:</strong> A expressão "Engenharia de Contexto" foi difundida por <strong>Andrej Karpathy</strong> (cientista da computação, ex-diretor de IA da Tesla e ex-pesquisador da OpenAI) para descrever uma evolução natural da engenharia de prompt. <span class="ref-pagina">(p. 478)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Diferença em relação à Engenharia de Prompt:</strong>
+            <ul>
+                <li><strong>Engenharia de Prompt</strong>: concentra-se em formular instruções claras e eficazes.</li>
+                <li><strong>Engenharia de Contexto</strong>: busca estruturar <strong>todo o ecossistema de informações</strong> que o modelo acessa durante a execução de uma tarefa.</li>
+            </ul>
+            <span class="ref-pagina">(p. 478)</span>
+        </div>
+
+        <p><strong>Objetivo:</strong> preencher a <strong>janela de contexto</strong> com dados relevantes, <strong>na medida certa</strong>, evitando tanto lacunas quanto excesso de informação que possam comprometer a resposta. <span class="ref-pagina">(p. 478)</span></p>
+
+        <div class="box-orange">
+            <strong>Janela de Contexto (nota 39):</strong> limite de <strong>memória temporária</strong> de um modelo de linguagem, medido em <strong>tokens</strong>. Define a quantidade máxima de informações processáveis em uma única interação, impactando diretamente a qualidade e a completude das respostas. <span class="ref-pagina">(p. 478)</span>
+        </div>
+
+        <p>A abordagem envolve não somente a redação de instruções, mas também a <strong>seleção criteriosa de documentos, exemplos, regras e dados auxiliares</strong> apresentados ao modelo. Um contexto bem construído: <span class="ref-pagina">(p. 478)</span></p>
+        <ul>
+            <li>Aumenta a precisão;</li>
+            <li>Reduz a ocorrência de alucinações;</li>
+            <li>Mitiga vieses;</li>
+            <li>Permite operação mais consistente em cenários complexos.</li>
+        </ul>
+
+        <div class="box-green">
+            A engenharia de contexto é uma disciplina mais <strong>abrangente</strong>, combinando elementos de organização da informação, curadoria de dados e controle técnico do fluxo de interação. <span class="ref-pagina">(p. 478)</span>
+        </div>
+
+        <h3>Equilíbrio entre qualidade e quantidade</h3>
+        <div class="box-red">
+            <strong>Atenção:</strong>
+            <ul>
+                <li><strong>Informações insuficientes</strong> → respostas vagas ou imprecisas;</li>
+                <li><strong>Contexto excessivo</strong> → eleva custos operacionais e pode confundir o modelo.</li>
+            </ul>
+            <span class="ref-pagina">(p. 478)</span>
+        </div>
+
+        <h3>Técnicas aplicáveis</h3>
+        <ul>
+            <li><strong>RAG (Retrieval-Augmented Generation)</strong> – recuperação aumentada de dados;</li>
+            <li><strong>Compressão de tokens</strong>;</li>
+            <li><strong>Uso de memória persistente</strong>.</li>
+        </ul>
+        <p class="ref-pagina">(p. 478)</p>
+
+        <div class="box-purple">
+            <strong>RAG (nota 40):</strong> técnica que combina modelos de linguagem com <strong>mecanismos de busca em bases externas</strong>. O LLM consulta documentos relevantes durante a geração da resposta, ampliando a precisão e atualidade das informações. <span class="ref-pagina">(p. 478)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Síntese:</strong> a engenharia de contexto <strong>complementa a engenharia de prompt</strong>, fornecendo a base necessária para que comandos curtos e objetivos gerem resultados robustos e adequados às necessidades investigativas e normativas. <span class="ref-pagina">(p. 478-479)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>6.4 Uso da IA pela Polícia Federal</h2>
+
+        <div class="box-blue">
+            <strong>Histórico:</strong> A PF já faz uso de IA <strong>muito antes</strong> da popularização dos modelos de linguagem de larga escala (LLMs). Soluções especializadas são aplicadas em tarefas como: transcrição de áudios, reconhecimento de caracteres em documentos (OCR), classificação de imagens e identificação biométrica. <span class="ref-pagina">(p. 479)</span>
+        </div>
+
+        <p>É inegável o salto no avanço das redes de <strong>IA generativa</strong>, trazendo mais possibilidades de aplicação de novos modelos à rotina de investigação. <span class="ref-pagina">(p. 479)</span></p>
+
+        <h3>Casos de uso consolidados e em expansão</h3>
+
+        <div class="box-orange">
+            <strong>Inquéritos policiais:</strong> uso de LLMs para organizar informações de <strong>autoria e materialidade</strong>, permitindo a geração de <strong>minutas de relatórios técnicos ou despachos</strong> com maior padronização e clareza. <span class="ref-pagina">(p. 479)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Dados financeiros e de telecomunicações:</strong> modelos contextualizados com esquemas de investigação podem <strong>identificar padrões suspeitos</strong> e propor hipóteses de vínculos entre investigados. Técnicas de engenharia de contexto permitem alimentar o modelo com decisões judiciais, relatórios de inteligência e registros administrativos, reduzindo lacunas e alucinações. <span class="ref-pagina">(p. 479)</span>
+        </div>
+
+        <h3>Aplicações práticas na PF</h3>
+        <table>
+            <tr>
+                <th>Aplicação</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Produção de IPJ</strong> (Informação de Polícia Judiciária)</td>
+                <td>Garante uniformidade na linguagem e conformidade com normas procedimentais. <span class="ref-pagina">(p. 479)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Classificação e análise de elementos de informação</strong></td>
+                <td>O modelo descreve a natureza dos dados, identifica partes envolvidas e sugere conclusões técnicas, sempre submetidas à <strong>revisão humana</strong>. <span class="ref-pagina">(p. 479)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Estruturação de dados / OCR</strong></td>
+                <td>Análise de mídias e documentos digitalizados, agilizando o trabalho de análise e permitindo buscas por palavras-chave em grandes volumes de provas digitais. <span class="ref-pagina">(p. 479)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Análise exploratória de vínculos</strong></td>
+                <td>Investigações complexas (corrupção, lavagem de dinheiro, organizações criminosas), combinando IA generativa com linguagens de programação como <strong>Python</strong>. <span class="ref-pagina">(p. 479)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Automações investigativas</strong></td>
+                <td><strong>Agentes autônomos</strong> que utilizam ferramentas adicionais para consultas em bases de dados, análise de padrões e produção de relatórios preliminares. <span class="ref-pagina">(p. 480)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO:</strong> Esses usos estão sempre vinculados ao <strong>controle humano</strong> e às exigências da <strong>Portaria MJSP nº 961/2025</strong>, que estabelece que a IA deve ser <strong>instrumento auxiliar</strong>, com rastreabilidade, proporcionalidade e revisão obrigatória. A integração de LLMs ao trabalho policial <strong>não substitui o investigador</strong>, mas amplia sua capacidade analítica. <span class="ref-pagina">(p. 480)</span>
+        </div>
+
+        <h3>6.4.1 Copilot</h3>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> O <strong>Copilot</strong> é solução de IA desenvolvida com base na arquitetura <strong>GPT-4</strong>, projetada para atuar como <strong>assistente digital</strong> em ambientes profissionais e operacionais. Integrado ao ecossistema da Microsoft, compreende linguagem natural, interpreta contextos complexos e oferece respostas precisas, seguras e contextualizadas. <span class="ref-pagina">(p. 480)</span>
+        </div>
+
+        <h3>Aplicações na Polícia Federal</h3>
+        <div class="box-purple">
+            <strong>Investigação:</strong> análise de documentos, cruzamento de dados, elaboração de relatórios e identificação de padrões em grandes volumes de informação. Sintetiza conteúdos e gera <em>insights</em>, contribuindo para a produção de inteligência, peças técnicas, estudos prospectivos e sínteses informativas com linguagem institucional. <span class="ref-pagina">(p. 480)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Automação de tarefas rotineiras:</strong> organização de planilhas, geração de gráficos, tradução de documentos e revisão textual, liberando tempo para atividades de maior valor estratégico. <span class="ref-pagina">(p. 480)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Interpretação jurídica:</strong> contextualização de leis, decretos e regulamentos em situações práticas — aliado em áreas sensíveis como combate à <strong>lavagem de dinheiro, crimes cibernéticos e operações com ativos virtuais</strong>. <span class="ref-pagina">(p. 480)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Aspecto técnico:</strong> opera com <strong>interação multimodal</strong> (texto, imagens, tabelas e comandos em linguagem natural). Respeita diretrizes rígidas de segurança e possui mecanismos de atualização contínua. Pode ser personalizado conforme as demandas de setores, disciplinas ou perfis operacionais. <span class="ref-pagina">(p. 480-481)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>LIMITE FUNDAMENTAL (cai em prova!):</strong> O Copilot <strong>NÃO substitui</strong> o juízo crítico, a experiência operacional ou a autoridade legal do policial. Seu uso deve ser orientado por critérios técnicos, supervisão institucional e respeito à legislação vigente. <strong>A IA é ferramenta de apoio, e não um agente decisório.</strong> <span class="ref-pagina">(p. 481)</span>
+        </div>
+
+        <h3>6.4.2 Acesso ao Copilot</h3>
+        <p>O policial federal com acesso institucional ao <strong>Microsoft 365</strong> pode utilizar o Copilot por diversos canais integrados às ferramentas corporativas da Microsoft. <span class="ref-pagina">(p. 481)</span></p>
+
+        <table>
+            <tr>
+                <th>Canal de acesso</th>
+                <th>Característica</th>
+            </tr>
+            <tr>
+                <td><strong>Microsoft Teams</strong></td>
+                <td>Aba ou botão na interface principal — interações em linguagem natural para organização de reuniões, geração de atas, análise de mensagens e apoio à comunicação interna. <span class="ref-pagina">(p. 481)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Navegador Microsoft Edge</strong></td>
+                <td>Botão no canto superior direito — útil para pesquisas assistidas, leitura de normativos e análise de conteúdo web. <span class="ref-pagina">(p. 481)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Portal Microsoft 365 (office.com)</strong></td>
+                <td>Acesso com e-mail institucional. Disponível em Word, Excel, PowerPoint e Outlook online, com colaboração em tempo real em arquivos do OneDrive. <span class="ref-pagina">(p. 482)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>USO PROTEGIDO - INDISPENSÁVEL:</strong> Para fins corporativos, o Copilot deve ser usado em <strong>ambiente PROTEGIDO</strong>. O servidor da PF deve entrar com login e senha corporativa e verificar se o escudo indicativo de proteção acusa a cor <strong>VERDE</strong> e os dizeres <strong>"PROTEÇÃO DE DADOS EMPRESARIAIS"</strong>. <span class="ref-pagina">(p. 482)</span>
+        </div>
+
+        <h3>Política da Microsoft - Proteção de Dados Empresariais (EDP)</h3>
+        <div class="box-purple">
+            "Com a Proteção de Dados Empresariais (EDP), os <strong>prompts e respostas são protegidos pelos mesmos termos contratuais e compromissos</strong> amplamente confiáveis por nossos clientes para seus e-mails no Exchange e arquivos no SharePoint." <span class="ref-pagina">(p. 483)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Compromisso</th>
+                <th>Conteúdo</th>
+            </tr>
+            <tr>
+                <td><strong>Proteção dos dados</strong></td>
+                <td>Criptografia em <strong>repouso e em trânsito</strong>, controles rigorosos de segurança física e <strong>isolamento de dados entre locatários</strong>. <span class="ref-pagina">(p. 483)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Privacidade dos dados</strong></td>
+                <td>Dados não são usados exceto conforme instruções do cliente. Compromissos incluem suporte ao <strong>GDPR</strong>, à <strong>Fronteira de Dados da UE</strong>, à norma <strong>ISO/IEC 27018</strong> e ao Adendo de Proteção de Dados. <span class="ref-pagina">(p. 483)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Controles de acesso e políticas</strong></td>
+                <td>O Copilot respeita o modelo de identidade e permissões do cliente, herda rótulos de sensibilidade, aplica políticas de retenção, oferece suporte à auditoria de interações e segue configurações administrativas. <span class="ref-pagina">(p. 483)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Proteção contra riscos de IA</strong></td>
+                <td>Proteção contra <strong>conteúdo prejudicial</strong> e <strong>injeções de prompt</strong>. Para direitos autorais, oferece detecção de material protegido e o <strong>Compromisso de Direitos Autorais com o Cliente</strong>. <span class="ref-pagina">(p. 483)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Dados não treinam modelos de base</strong></td>
+                <td>O Microsoft 365 Copilot Chat usa o contexto do usuário para criar respostas relevantes. <strong>Prompts, respostas e dados acessados via Microsoft Graph NÃO são usados para treinar modelos de base.</strong> <span class="ref-pagina">(p. 483)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo final - Capítulo 6</span>
+            <ul>
+                <li><strong>Princípios (LECC)</strong>: Legalidade, Ética, Confiabilidade, Confidencialidade</li>
+                <li><strong>Norma central</strong>: Portaria MJSP nº 961/2025 (revisão humana, proporcionalidade, cadeia de custódia)</li>
+                <li><strong>Eng. de Prompt</strong>: zero-shot, few-shot, role, contextual, CoT, ToT, ReAct, self-consistency</li>
+                <li><strong>Eng. de Contexto</strong>: janela de contexto, RAG, compressão, memória persistente</li>
+                <li><strong>PF</strong>: IPJ, OCR, vínculos, automações; Copilot em ambiente <strong>VERDE/EDP</strong></li>
+                <li><strong>Regra de ouro</strong>: IA é apoio — NÃO substitui o investigador</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

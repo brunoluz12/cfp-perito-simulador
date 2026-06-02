@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.4 - Afastamento do Sigilo Telemático</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.4 - Afastamento do Sigilo Telemático</h1>
+        <div class="subtitle">Representação, implementação das ordens, WhatsApp, IPs, dados em nuvem e Marco Civil</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Conceito de telemática e classificação dos dados</a></li>
+            <li><a href="#sec2">2. Provedores de conexão x provedores de aplicação</a></li>
+            <li><a href="#sec3">3. Preservação de registros x conteúdo em nuvem</a></li>
+            <li><a href="#sec4">4. Pressupostos da quebra e dados cadastrais</a></li>
+            <li><a href="#sec5">5. Acesso a dados em dispositivos físicos (Tema 977 do STF)</a></li>
+            <li><a href="#sec6">6. Empresas estrangeiras e sanções (art. 11 e 12 do MCI)</a></li>
+            <li><a href="#sec7">7. Interceptação telemática x acesso a dados (art. 7º, II e III, MCI)</a></li>
+            <li><a href="#sec8">8. Implementação das ordens e cadeia de custódia</a></li>
+            <li><a href="#sec9">9. Hash e integridade da prova digital</a></li>
+            <li><a href="#sec10">10. Guia prático: o que fazer e não fazer</a></li>
+            <li><a href="#sec11">11. Portais oficiais (LERS, LE Portal, Apple, Meta, Kodex)</a></li>
+            <li><a href="#sec12">12. Ferramentas forenses</a></li>
+            <li><a href="#sec13">13. Análise de fluxo de dados do WhatsApp</a></li>
+            <li><a href="#sec14">14. Análise de IPs (IPv4, IPv6, CGNAT, VPN)</a></li>
+            <li><a href="#sec15">15. Dados remotamente armazenados (nuvem)</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Conceito de telemática e classificação dos dados</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> A telemática é a comunicação à distância de um ou mais conjuntos de serviços informáticos fornecidos por meio de uma rede de telecomunicações. É o conjunto de tecnologias resultantes da junção entre telecomunicações (telefonia, satélite, cabo, fibras ópticas) e informática (computadores, periféricos, softwares e redes), que possibilita processamento, compressão, armazenamento e comunicação de grandes quantidades de dados. <span class="ref-pagina">(p. 360)</span>
+        </div>
+
+        <p>A categorização das informações telemáticas <strong>não é consenso legislativo nem doutrinário</strong>. Por vezes emprega-se "registro telemático" para abranger rastros do acesso à internet e também conteúdo de dados armazenados/transmitidos. Ocasionalmente "dado" aparece como sinônimo de informações criadas, transmitidas ou mantidas em rede telemática. A Lei 12.850/13, por exemplo, não adota a melhor técnica legislativa. <span class="ref-pagina">(p. 360-361)</span></p>
+
+        <div class="box-purple">
+            <strong>Classificação didática adotada (gênero: informação/dado telemático):</strong>
+            <ul>
+                <li><strong>Registros:</strong>
+                    <ul>
+                        <li>de conexão;</li>
+                        <li>de acesso à aplicação.</li>
+                    </ul>
+                </li>
+                <li><strong>Dados:</strong>
+                    <ul>
+                        <li>cadastrais;</li>
+                        <li>não cadastrais (dados de comunicação - áudio, vídeo, texto, e-mail; dados estáticos - imagens, metadados, geolocalização, histórico de pesquisa/acesso, criação e modificação de páginas).</li>
+                    </ul>
+                </li>
+            </ul>
+            A classificação <strong>não é estanque</strong> (ex.: arquivo de comunicação pretérita pode ser considerado dado estático). <span class="ref-pagina">(p. 361)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Diferenciação fundamental:</strong> O acesso a informações e dados telemáticos <strong>difere da interceptação telemática</strong>: esta diz respeito ao <strong>fluxo dinâmico de comunicações em tempo real</strong>; aqueles consistem em material <strong>já armazenado</strong> em servidores do prestador ou em memória de dispositivos. <span class="ref-pagina">(p. 361)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Provedores de conexão x provedores de aplicação</h2>
+
+        <p>O Marco Civil da Internet (Lei 12.965/2014) estabelece <strong>regimes de responsabilidade diferenciados</strong> para provedores de conexão (art. 18) e provedores de aplicações (arts. 19 e 21). <span class="ref-pagina">(p. 361-362)</span></p>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Definição</th>
+                <th>Exemplos</th>
+                <th>Prazo de guarda</th>
+            </tr>
+            <tr>
+                <td><strong>Registro de conexão (logs)</strong></td>
+                <td>Data/hora de início e término, duração e endereço IP utilizado pelo terminal para acesso e envio/recebimento de pacotes</td>
+                <td>Provedores de conexão: Vivo Fibra, Claro Net</td>
+                <td><strong>1 ano</strong> (art. 13 MCI)</td>
+            </tr>
+            <tr>
+                <td><strong>Registro de acesso a aplicações</strong></td>
+                <td>Data/hora de uso de uma aplicação a partir de um IP</td>
+                <td>Provedores de aplicação: Instagram, Facebook, WhatsApp</td>
+                <td><strong>6 meses</strong></td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>Reserva de jurisdição:</strong> Por imperativo legal (art. 7º, II e III, e art. 15, §3º da Lei 12.965/14), tanto os registros de conexão quanto os de aplicação estão <strong>protegidos por cláusula de reserva jurisdicional</strong>, cabendo ao delegado de polícia representar pela quebra. <span class="ref-pagina">(p. 362)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Memorize - Prazos legais de guarda</span>
+            <ul>
+                <li><strong>Conexão</strong> (Vivo, Claro): <strong>1 ANO</strong> - art. 13 MCI</li>
+                <li><strong>Aplicação</strong> (Insta, Face, WhatsApp): <strong>6 MESES</strong> - art. 15 MCI</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Preservação de registros x conteúdo em nuvem</h2>
+
+        <div class="box-blue">
+            <strong>Preservação cautelar (art. 13, §2º e art. 15, §2º MCI):</strong> O Marco Civil permite que autoridades policiais, administrativas ou o MP solicitem cautelarmente a preservação de registros eletrônicos, por período superior ao previsto em lei, para evitar destruição antes da ordem judicial. <strong>Preservação ≠ acesso ao conteúdo</strong> - trata-se apenas de "congelar" os dados nos servidores. <span class="ref-pagina">(p. 362-363)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>STF - HC 222.141 (Min. Lewandowski):</strong> É <strong>ilegal preservar o conteúdo de contas eletrônicas sem autorização judicial prévia</strong>. O STF anulou provas obtidas pelo congelamento de contas de e-mail em investigação no Detran/PR. O acesso ou a preservação de dados privados armazenados em nuvem sem ordem judicial pode violar direitos e comprometer a validade da prova. <span class="ref-pagina">(p. 363)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>STJ (6ª Turma, 2022) - divergência:</strong> O simples congelamento de dados pela autoridade, sem acesso imediato, <strong>não fere a lei</strong>, desde que o acesso efetivo ocorra somente após ordem judicial. A entrega dos dados em si exige autorização do juiz. <span class="ref-pagina">(p. 363)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Conduta mais segura e eficaz para o Delegado:</strong>
+            <ul>
+                <li><strong>Para REGISTROS</strong> (IPs, horários de acesso): pode requisitar a preservação <strong>diretamente aos provedores</strong> e depois representar ao juiz para o acesso.</li>
+                <li><strong>Para CONTEÚDO</strong> (dados armazenados): deve <strong>representar diretamente ao juiz</strong> pela obtenção do conteúdo, sem requisição extrajudicial de preservação.</li>
+            </ul>
+            Essa distinção é essencial para garantir a legalidade da prova, a continuidade da cadeia de custódia e evitar nulidades futuras. <span class="ref-pagina">(p. 364)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">REGRA DE OURO</span>
+            <ul>
+                <li>REGISTRO → preserva extrajudicial + acessa com ordem</li>
+                <li>CONTEÚDO → representa direto ao juiz (sem preservação extrajudicial)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Pressupostos da quebra e dados cadastrais</h2>
+
+        <div class="box-purple">
+            <strong>IP - sigilo da identificação:</strong> A identificação de um número IP depende de <strong>ordem judicial</strong> (é dado de registro - conexão ou aplicação). Porém, as informações de titularidade/usuário de um IP <strong>já identificado</strong> são consideradas <strong>dados cadastrais</strong> e podem ser requisitadas diretamente pelo Delegado. <span class="ref-pagina">(p. 365)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Pressupostos de admissibilidade para o afastamento do sigilo de registros de conexão e de aplicação:</strong>
+            <ul>
+                <li>fundados indícios da ocorrência de ilícito;</li>
+                <li>justificativa consubstanciada da utilidade dos registros para a investigação ou instrução probatória;</li>
+                <li>identificação do período dos registros solicitados.</li>
+            </ul>
+            <span class="ref-pagina">(p. 365)</span>
+        </div>
+
+        <p><strong>Dados cadastrais</strong> (qualificação pessoal, filiação, telefone, endereços): relacionados ao contratante/usuário, são passíveis de <strong>requisição direta pelo Delegado de Polícia Federal</strong>. <span class="ref-pagina">(p. 365)</span></p>
+
+        <p><strong>Dados não cadastrais:</strong> definidos por exclusão - tudo que não for cadastral depende de ordem judicial. <span class="ref-pagina">(p. 366)</span></p>
+
+        <div class="box-green">
+            <strong>O afastamento do sigilo telemático pode fornecer:</strong>
+            <ul>
+                <li>histórico e, em alguns casos, conteúdo das comunicações pretéritas armazenadas;</li>
+                <li>dados de pagamento de serviços;</li>
+                <li>dados de localização;</li>
+                <li>relacionamentos virtuais;</li>
+                <li>prints salvos de diálogos;</li>
+                <li>arquivos armazenados em nuvem;</li>
+                <li>histórico de pesquisas em páginas;</li>
+                <li>dados de criação e modificação de páginas.</li>
+            </ul>
+            <span class="ref-pagina">(p. 366)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Acesso a dados em dispositivos físicos (Tema 977 do STF)</h2>
+
+        <p>O dado telemático pode estar armazenado virtualmente, mas também em dispositivos físicos (tablets, celulares, HDs, notebooks). O acesso aos dados armazenados em suportes físicos <strong>também necessita de decisão judicial</strong>. Em caso de busca e apreensão, a própria ordem deverá autorizar o acesso, sendo boa prática do Delegado representar previamente e <em>ad cautelam</em>. <span class="ref-pagina">(p. 366)</span></p>
+
+        <div class="box-red">
+            <strong>STF - Tema 977:</strong> A mera apreensão de aparelho celular (art. 6º CPP ou flagrante) <strong>NÃO está sujeita à reserva de jurisdição</strong>. Contudo, o <strong>acesso aos dados</strong> deve observar:
+            <ul>
+                <li><strong>Encontro fortuito:</strong> acesso para esclarecer autoria ou identificar proprietário NÃO depende de consentimento ou ordem judicial, desde que justificada posteriormente.</li>
+                <li><strong>Apreensão (art. 6º CPP ou flagrante):</strong> acesso condicionado a <strong>consentimento expresso e livre do titular</strong> OU <strong>prévia decisão judicial</strong> (art. 7º, III, e art. 10, §2º, Lei 12.965/2014), justificando a proporcionalidade e delimitando o alcance frente a intimidade, privacidade, proteção de dados pessoais e autodeterminação informacional (art. 5º, X e LXXIX, CRFB).</li>
+            </ul>
+            <span class="ref-pagina">(p. 366-367)</span>
+        </div>
+
+        <p>Nesses casos, impõe-se celeridade, devendo a autoridade adotar providências de preservação de dados e metadados antes da autorização judicial, justificando posteriormente. <strong>Em regra, em flagrante, os policiais não estão autorizados a acessar dados do celular sem prévio provimento jurisdicional</strong>. <span class="ref-pagina">(p. 367)</span></p>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Empresas estrangeiras e sanções (art. 11 e 12 do MCI)</h2>
+
+        <div class="box-blue">
+            <strong>Art. 11 MCI:</strong> Em qualquer operação de coleta, armazenamento, guarda e tratamento de registros, dados pessoais ou comunicações por provedores de conexão e aplicações em que <strong>pelo menos um dos terminais esteja localizado no Brasil</strong> e um desses atos ocorra em território nacional, será <strong>obrigatoriamente respeitada a legislação brasileira</strong>, mesmo que a PJ esteja sediada no exterior. <span class="ref-pagina">(p. 367)</span>
+        </div>
+
+        <p>Aplica-se a lei brasileira quando ofertado serviço público OU ao menos uma integrante do grupo econômico possua estabelecimento no Brasil, cabendo aos provedores prestarem as informações requisitadas. <span class="ref-pagina">(p. 367)</span></p>
+
+        <div class="box-orange">
+            <strong>Art. 12 MCI - Sanções administrativas pela negativa injustificada de fornecimento:</strong>
+            <ul>
+                <li>a) advertência;</li>
+                <li>b) multa de até <strong>10% do faturamento</strong>;</li>
+                <li>c) suspensão temporária;</li>
+                <li>d) proibição de exercício das atividades.</li>
+            </ul>
+            <span class="ref-pagina">(p. 367)</span>
+        </div>
+
+        <p>Para empresas com estabelecimento no Brasil (Google, Microsoft, Meta, X, Yahoo) a ordem deve ser dirigida diretamente a elas. A alegação de impossibilidade técnica ("os dados não estão no Brasil") <strong>não subsiste</strong>: o local de armazenamento não tem relação com a acessibilidade; é da essência da internet que dados trafegam independentemente da localização. <span class="ref-pagina">(p. 367-368)</span></p>
+
+        <p>Empresas <strong>sem representação no Brasil</strong> também estão sujeitas à lei brasileira <strong>caso ofertem serviço ao público brasileiro</strong> (ex.: dropbox.com, aplicativos disponíveis nas lojas Google/Apple/Microsoft, como o WhatsApp). <span class="ref-pagina">(p. 368)</span></p>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Interceptação telemática x acesso a dados (art. 7º, II e III, MCI)</h2>
+
+        <div class="box-purple">
+            <strong>Art. 10, caput, Lei 12.965/14:</strong> A guarda e disponibilização dos registros de conexão e de acesso a aplicações, bem como de dados pessoais e do conteúdo de comunicações privadas, devem atender à preservação da intimidade, vida privada, honra e imagem das partes.
+            <br><strong>§1º:</strong> O provedor responsável somente será obrigado a disponibilizar os registros, de forma autônoma ou associados a dados pessoais, <strong>mediante ordem judicial</strong>. <span class="ref-pagina">(p. 368-369)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Interceptação telemática</th>
+                <th>Acesso a registros/dados</th>
+            </tr>
+            <tr>
+                <td><strong>Objeto</strong></td>
+                <td>Fluxo dinâmico em tempo real</td>
+                <td>Dados estáticos já armazenados</td>
+            </tr>
+            <tr>
+                <td><strong>Lei aplicável</strong></td>
+                <td>Lei 9.296/96 (analógica)</td>
+                <td>Lei 12.965/14 (MCI)</td>
+            </tr>
+            <tr>
+                <td><strong>Prazo</strong></td>
+                <td>15 dias (auto circunstanciado)</td>
+                <td>Não há prazo da 9.296</td>
+            </tr>
+            <tr>
+                <td><strong>Base no MCI</strong></td>
+                <td>art. 7º, II (fluxo)</td>
+                <td>art. 7º, III (comunicações armazenadas)</td>
+            </tr>
+        </table>
+
+        <div class="box-blue">
+            <strong>Art. 7º, II e III, MCI:</strong>
+            <ul>
+                <li><strong>II</strong> - inviolabilidade e sigilo do <strong>fluxo</strong> das comunicações pela internet, salvo por ordem judicial, na forma da lei;</li>
+                <li><strong>III</strong> - inviolabilidade e sigilo de suas comunicações privadas <strong>armazenadas</strong>, salvo por ordem judicial.</li>
+            </ul>
+            A diferença na redação recai sobre o termo "fluxo" no inciso II, que submete o dispositivo à Lei 9.296/96 (interceptação). <span class="ref-pagina">(p. 369)</span>
+        </div>
+
+        <p>Para conteúdo de comunicação já estabelecida (armazenada), o fundamento é o art. 10, §2º MCI, com referência ao art. 7º, III. <span class="ref-pagina">(p. 370)</span></p>
+
+        <p>As comunicações telemáticas abrangem WhatsApp, Telegram, Signal, Messenger, e-mails (Gmail, Outlook, BOL, UOL), vídeo chamadas (Facetime, Zoom). <strong>Poucos aplicativos de mensagens instantâneas são passíveis de interceptação em tempo real</strong>. Diretorias da PF (Dicor, Damaz, Dciber) detêm conhecimentos sobre canais como LERS, LEP, Kodex. <span class="ref-pagina">(p. 370)</span></p>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Implementação das ordens e cadeia de custódia</h2>
+
+        <p>Dados de 2025: <strong>99% da população brasileira acessa internet via celular</strong>, sendo 91,45% Android e 8,44% iOS. WhatsApp (93,7%), Instagram (92%), Facebook (81,5%) e TikTok (63,9%) lideram o uso. Big techs prioritárias: Google, Meta, Apple. <span class="ref-pagina">(p. 371)</span></p>
+
+        <div class="box-orange">
+            <strong>Nova realidade investigativa:</strong> Historicamente o manuseio de evidências digitais era tarefa exclusiva do perito. Hoje o investigador, mesmo sem formação pericial, precisa lidar diretamente com gestão e aquisição inicial de evidências. <strong>A falha no estágio inicial pode comprometer irremediavelmente a validade da prova em juízo</strong>. <span class="ref-pagina">(p. 371-372)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Marcos legais e normativos:</strong>
+            <ul>
+                <li>Lei 13.964/2019 (<strong>Pacote Anticrime</strong>) - introduziu disciplina da cadeia de custódia no CPP, mas não esgotou o regramento para provas digitais;</li>
+                <li>Lei 12.965/2014 (<strong>Marco Civil</strong>) - regula sigilo de registros e comunicações privadas;</li>
+                <li><strong>ABNT ISO/IEC 27037:2013</strong> - diretrizes para identificação, coleta, aquisição e preservação de evidências digitais;</li>
+                <li><strong>RFC 3227/2002 da IETF</strong> - diretrizes para coleta e arquivamento.</li>
+            </ul>
+            <span class="ref-pagina">(p. 372-373)</span>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Hash e integridade da prova digital</h2>
+
+        <div class="box-red">
+            <strong>Informativo de Jurisprudência n. 838 STJ (04/02/2025):</strong> "A mera documentação das hashes dos arquivos, obtidas a partir do espelhamento de dispositivos eletrônicos apreendidos, não garante a integridade do material. Para validar a autenticidade e integridade da prova, é necessário <strong>comparar as hashes do arquivo espelhado com aquelas apresentadas no processo</strong>." <span class="ref-pagina">(p. 373)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>O que é Hash:</strong> função matemática unidirecional que transforma dados de qualquer tamanho em saída de comprimento fixo e único (hexadecimal). Funciona como "<strong>impressão digital</strong>" do arquivo. Qualquer alteração (vírgula, pixel, bit) resulta em hash completamente diferente. <strong>É impossível descobrir os dados originais a partir do hash</strong>. <span class="ref-pagina">(p. 373)</span>
+        </div>
+
+        <p><strong>Tipos comuns:</strong> MD5, SHA256, SHA512. Recomenda-se <strong>SHA256 ou SHA512</strong>, pois o MD5 já apresenta vulnerabilidades conhecidas. <span class="ref-pagina">(p. 373)</span></p>
+
+        <h3>Principais desafios e soluções</h3>
+
+        <table>
+            <tr>
+                <th>Desafio</th>
+                <th>Solução</th>
+            </tr>
+            <tr>
+                <td>Transparência no compartilhamento do hash</td>
+                <td>Hash certificado deve ser obrigatoriamente compartilhado pelas empresas via ofício ao MP/Judiciário. Se houver recusa, solicitar ordem judicial específica para compelir o fornecimento. <span class="ref-pagina">(p. 374-375)</span></td>
+            </tr>
+            <tr>
+                <td>Ausência de padronização operacional</td>
+                <td>Implementar protocolos institucionais padronizados ou padrões mínimos setoriais. <span class="ref-pagina">(p. 375)</span></td>
+            </tr>
+            <tr>
+                <td>Armazenamento inadequado/inseguro</td>
+                <td>Local padronizado (servidor seguro, NAS, pasta compartilhada com controle), nomenclatura única, backup. <strong>Eliminar dispositivos pessoais</strong>. Sempre criar cópia para análise, mantendo íntegro o original. <span class="ref-pagina">(p. 376)</span></td>
+            </tr>
+            <tr>
+                <td>Limitações tecnológicas (downloads)</td>
+                <td>Verificação obrigatória de integridade por hash; ferramentas de validação; usar conexão do órgão; armazenar em pasta na rede sob o domínio. <span class="ref-pagina">(p. 376)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec10" class="section">
+        <h2>10. Guia prático: o que fazer e não fazer</h2>
+
+        <h3>Ao solicitar dados às empresas de tecnologia</h3>
+
+        <div class="box-green">
+            <strong>O QUE FAZER:</strong>
+            <ul>
+                <li><strong>Ser específico e detalhado</strong> (tipo, período, formato, identificadores claros: e-mail, IMEI, URLs, IDs);</li>
+                <li>Para remoção de conteúdo: <strong>sempre indicar a URL específica</strong>; nunca URLs genéricas;</li>
+                <li>Indicar urgência quando necessário (pedido emergencial: risco iminente, terrorismo, risco a menor, sequestro);</li>
+                <li>Solicitar preservação de dados quando houver risco de perda; na ordem judicial subsequente, mencionar o "<strong>case number</strong>" da preservação;</li>
+                <li>Consultar identificadores aceitos por cada provedor:
+                    <ul>
+                        <li>Google: Conta Google, IMEI/MEID;</li>
+                        <li>Microsoft: e-mail/Conta Microsoft, Gamertag Xbox;</li>
+                        <li>Apple: Número de Série, IMEI, Apple ID;</li>
+                        <li>Meta: nome de usuário, Facebook ID, número de telefone.</li>
+                    </ul>
+                </li>
+            </ul>
+            <span class="ref-pagina">(p. 377)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>O QUE NÃO FAZER:</strong>
+            <ul>
+                <li>Evitar linguagem ampla/ambígua ("qualquer e todos os serviços", "qualquer dado") - pedidos genéricos serão recusados;</li>
+                <li>Não deixar de especificar identificador da conta, serviços e intervalos;</li>
+                <li>Não fazer pedidos emergenciais sem necessidade (exclusivos para casos específicos);</li>
+                <li>Evitar pedidos com muitas contas simultâneas - resultam em demora e volume impossível de analisar.</li>
+            </ul>
+            <span class="ref-pagina">(p. 377)</span>
+        </div>
+
+        <h3>Ao receber e manusear evidências digitais</h3>
+
+        <div class="box-green">
+            <strong>O QUE FAZER:</strong>
+            <ul>
+                <li><strong>Verificação de integridade (CRÍTICO):</strong> SEMPRE verificar e registrar o hash imediatamente após o download; SEMPRE trabalhar em uma cópia e nunca nos dados originais;</li>
+                <li>Utilizar ferramentas forenses (<strong>Cellebrite UFED PA</strong> ou <strong>Iped</strong>) para indexar, analisar e correlacionar JSON, CSV, HTML, VCARD, MBOX;</li>
+                <li>Documentação meticulosa: localização física, método de coleta, data/hora, responsável, descrição das ações;</li>
+                <li>Armazenamento seguro em sistemas com registros de auditoria e controle de acesso.</li>
+            </ul>
+            <span class="ref-pagina">(p. 378)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>O QUE NÃO FAZER:</strong>
+            <ul>
+                <li>Processos manuais e despadronizados;</li>
+                <li>NUNCA armazenar em pendrives ou HDs externos pessoais;</li>
+                <li>Ignorar prazos de download dos links disponibilizados.</li>
+            </ul>
+            <span class="ref-pagina">(p. 378)</span>
+        </div>
+    </div>
+
+    <div id="sec11" class="section">
+        <h2>11. Portais oficiais para requisição de dados</h2>
+
+        <p>A natureza sigilosa dos dados telemáticos, protegida pela CF (art. 5º, X e XII) e pelo MCI, exige <strong>ordem judicial para o conteúdo</strong>. <strong>Dados cadastrais</strong> podem ser requisitados diretamente pelo Delegado ou MP. <span class="ref-pagina">(p. 378-379)</span></p>
+
+        <h3>11.1 Google (LERS - Law Enforcement Request System)</h3>
+        <div class="box-blue">
+            <ul>
+                <li><strong>Portal:</strong> lers.google.com - cadastro com nome, cargo, e-mail institucional, telefone fixo, endereço da agência;</li>
+                <li><strong>Limite:</strong> máximo 50 alvos por pedido;</li>
+                <li><strong>Entrega:</strong> via LERS em JSON, CSV, HTML, vídeos, áudios, documentos, acompanhados de hashes;</li>
+                <li>Google não acessa, manipula ou converte arquivos extraídos;</li>
+                <li>Pode se recusar a informar porta lógica - sujeito a crime de desobediência e multa diária. <span class="ref-pagina">(p. 379-380)</span></li>
+            </ul>
+        </div>
+
+        <h3>11.2 Microsoft (LE Portal)</h3>
+        <div class="box-blue">
+            <ul>
+                <li><strong>Portal:</strong> leportal.microsoft.com - canal exclusivo para solicitações NÃO emergenciais;</li>
+                <li><strong>Identificadores:</strong> e-mail/Conta Microsoft (MSA), telefone, CID/PUID, cartão de crédito, Gamertag Xbox/SN, ID/número Skype;</li>
+                <li><strong>Entrega:</strong> notificação por e-mail; download no portal, arquivos compactados com senha; manifestos e hashes diretamente no portal;</li>
+                <li><strong>Limite:</strong> 3 tentativas de download (reativáveis +3); se não houver data, aplica-se período de 12 meses anteriores. <span class="ref-pagina">(p. 380)</span></li>
+            </ul>
+        </div>
+
+        <h3>11.3 Apple</h3>
+        <div class="box-blue">
+            <ul>
+                <li><strong>Portal:</strong> lep.apple.com;</li>
+                <li><strong>Identificadores:</strong> Número de Série (SN), IMEI, MEID, MAC Address, telefone + alvo, GUID, Apple ID, DS ID, nome completo, telefone, endereço físico. <strong>Apple ID e DS ID podem ser obtidos por ofício simples</strong>;</li>
+                <li><strong>Entrega em duas etapas via e-mail:</strong> link de download (válido 90 dias) + chave de descriptografia; material em formato GPG com hashes;</li>
+                <li>Preservação (com ordem judicial) possível após dados cadastrais; ordem subsequente deve mencionar o "case number". <span class="ref-pagina">(p. 381)</span></li>
+            </ul>
+        </div>
+
+        <h3>11.4 Meta (Facebook, Instagram, Messenger e WhatsApp)</h3>
+        <div class="box-blue">
+            <ul>
+                <li><strong>Portais:</strong> facebook.com/records (Facebook, Instagram, Messenger) e whatsapp.com/records (WhatsApp);</li>
+                <li><strong>Sede:</strong> Meta Platforms, Inc. 1 Meta Way, Menlo Park, CA 94025;</li>
+                <li><strong>Identificadores Facebook/Instagram:</strong> usuário, Facebook ID, telefone com código do país, e-mail;</li>
+                <li><strong>Identificadores WhatsApp:</strong> número (+55-DDD-número), Group ID, Channels;</li>
+                <li>Arquivos do WhatsApp correspondem a um <strong>"snapshot" da conta</strong>; hash entregue (alguns automaticamente, outros sob requisição);</li>
+                <li><strong>Pedidos emergenciais Meta:</strong> restritos a risco iminente de morte/lesão grave ou risco a menor, com dados limitados a <strong>até 7 dias retroativos</strong>;</li>
+                <li>Para remoção (Facebook/Instagram): especificação da URL é crítica. <span class="ref-pagina">(p. 382)</span></li>
+            </ul>
+        </div>
+
+        <h3>11.5 KODEX</h3>
+        <div class="box-purple">
+            Plataforma digital de alcance global (app.kodexglobal.com) que viabiliza orientações procedimentais e envio direto de requisições aos principais provedores. Cadastro com validação institucional. Facilita procedimentos de <strong>MLAT (Mutual Legal Assistance Treaty)</strong> e auxílio direto previstos em tratados internacionais, otimizando tempo de resposta com provedores estrangeiros. <span class="ref-pagina">(p. 383)</span>
+        </div>
+
+        <h3>11.6 Outros portais (Uber, Twitter/X, iFood)</h3>
+        <p>Portais com acesso por e-mail institucional. Tipos de solicitação: preservação (prorrogáveis), registros (via ofício/ordem judicial), pedidos emergenciais, remoção de conteúdo. <strong>Por ofício:</strong> dados cadastrais básicos (nome, telefone, e-mail, data de criação). <strong>Por ordem judicial:</strong> registros de acesso/conexão (IPs, timestamps), pagamento, remoção (com URL exata). <span class="ref-pagina">(p. 383-384)</span></p>
+    </div>
+
+    <div id="sec12" class="section">
+        <h2>12. Ferramentas forenses</h2>
+
+        <div class="box-orange">
+            O volume e a complexidade dos dados (JSON, CSV, HTML, GPG, MBOX) tornam a análise manual impraticável. A análise deve ser sempre em uma <strong>cópia</strong> dos dados recebidos. <span class="ref-pagina">(p. 385)</span>
+        </div>
+
+        <table>
+            <tr><th>Ferramenta</th><th>Característica</th></tr>
+            <tr><td><strong>Cellebrite UFED</strong></td><td>Usada pelo FBI e PF; extrai/analisa dados de mais de 17 mil tipos de dispositivos, mesmo bloqueados ou criptografados</td></tr>
+            <tr><td><strong>Oxygen Forensic Detective</strong></td><td>Capacidades forenses móveis avançadas</td></tr>
+            <tr><td><strong>MSAB XRY</strong></td><td>Extração e recuperação rápida, segura e legal</td></tr>
+            <tr><td><strong>Magnet AXIOM</strong></td><td>Suíte completa: móveis, computadores, nuvem</td></tr>
+            <tr><td><strong>Mobile Investigator (ADF)</strong></td><td>Linha de frente, iOS e Android</td></tr>
+            <tr><td><strong>EnCase Forensic</strong></td><td>HDs e dispositivos móveis</td></tr>
+            <tr><td><strong>Iped</strong></td><td>Brasileiro, usado pela PF</td></tr>
+            <tr><td><strong>Avilla Forensics</strong></td><td>Gratuita, parsing WhatsApp, decriptação</td></tr>
+        </table>
+        <span class="ref-pagina">(p. 385)</span>
+    </div>
+
+    <div id="sec13" class="section">
+        <h2>13. Análise de fluxo de dados do WhatsApp</h2>
+
+        <div class="box-blue">
+            <strong>WhatsApp = principal fonte de metadados</strong> de comunicação em investigações. A "análise WhatsApp" é o exame de dados de conta, grupos, registros de acesso e interações disponibilizados pelo provedor mediante ordem judicial e ofícios válidos. Inclui informações de grupos (criação, descrição, assunto, integrantes) e <strong>registros de IP com timestamps</strong>. <span class="ref-pagina">(p. 386)</span>
+        </div>
+
+        <h3>13.1 Bases legais e cooperação</h3>
+        <ul>
+            <li><strong>Lei 12.965/2014 (MCI)</strong> - ordem judicial para acesso a dados que revelem intimidade;</li>
+            <li><strong>Lei 9.296/1996</strong> - interceptação telefônica e telemática. <span class="ref-pagina">(p. 386)</span></li>
+        </ul>
+
+        <div class="box-red">
+            <strong>Criptografia ponta a ponta (end-to-end):</strong>
+            <ul>
+                <li>cada usuário tem chaves criptográficas; nas conversas estabelecem-se chaves de sessão derivadas (protocolo de duplo ratchet/curvas elípticas);</li>
+                <li>mensagem cifrada no dispositivo remetente, decifrada apenas pelo dispositivo destinatário;</li>
+                <li>servidores do WhatsApp apenas intermediam o trânsito/armazenamento temporário de mensagens cifradas, sem acesso ao texto claro.</li>
+            </ul>
+            <strong>Consequência:</strong> mesmo com ordem judicial, o provedor não detém o conteúdo legível. O objeto das representações são <strong>METADADOS e registros técnicos</strong>, não o teor das mensagens. <span class="ref-pagina">(p. 386-387)</span>
+        </div>
+
+        <p>No Brasil, a implementação ocorre pelo portal <strong>Records/WhatsApp</strong>, com três possibilidades:</p>
+        <ul>
+            <li>atendimento regular por ordem judicial;</li>
+            <li>pedidos de preservação (Preservation Request) - até <strong>90 dias</strong>;</li>
+            <li>atendimentos emergenciais - risco iminente à vida/integridade. <span class="ref-pagina">(p. 387)</span></li>
+        </ul>
+
+        <p>O <strong>Sistema Análise Telefônica 2 (AT2)</strong> compila automaticamente principais informações telefônicas e alguns dados do WhatsApp, entregando estrutura inicial. <span class="ref-pagina">(p. 387-388)</span></p>
+
+        <h3>13.2 Pedidos de preservação do WhatsApp</h3>
+        <div class="box-orange">
+            MCI prevê preservação por até <strong>90 dias, prorrogáveis</strong> mediante decisão judicial. Conforme entendimento da <strong>2ª Turma STF no HC 222.141 (2024)</strong>, depende de autorização judicial, sob pena de comprometer a validade da prova. Mera expedição de ofício pelo Delegado diretamente ao provedor pode ser irregular. Recomenda-se <strong>representar diretamente pela obtenção</strong> dos dados. A preservação não implica fornecimento imediato - apenas resguarda a integridade até a ordem. <span class="ref-pagina">(p. 388)</span>
+        </div>
+
+        <h3>13.3 Pedidos emergenciais do WhatsApp</h3>
+        <p>Cabíveis em <strong>risco iminente a criança, ou risco de morte/ferimentos graves</strong>. Para tratamento prioritário: no campo "Processo Judicial" usar "<strong>Emergency</strong>" e em "Additional Context" reforçar com "<strong>EMERGÊNCIA</strong>" descrevendo detalhadamente a situação. Somente ofícios assinados por autoridade policial são analisados. <span class="ref-pagina">(p. 389)</span></p>
+
+        <p>Fundamentação: MCI e políticas internas da Meta/WhatsApp. <strong>Não inclui conteúdo das mensagens</strong> - apenas conjunto restrito de metadados recentes. Após a urgência, depende de ordem judicial regular - boa prática vincular ao caso já existente no Records. <span class="ref-pagina">(p. 389)</span></p>
+
+        <p>Casos típicos: ameaças de suicídio/automutilação; sequestros e cárcere privado; ameaças de atentados ou crimes violentos iminentes. <span class="ref-pagina">(p. 389)</span></p>
+
+        <h3>13.4 Aplicativos alternativos</h3>
+        <p>Telegram, Signal, Threema apresentam características técnicas distintas. Alguns usam criptografia cliente-servidor (mantêm acesso a conteúdo e metadados); outros usam ponta a ponta com políticas rigorosas de minimização. Em casos excepcionais, operações internacionais coordenadas conseguiram comprometer sistemas ultrasseguros. <span class="ref-pagina">(p. 390-391)</span></p>
+    </div>
+
+    <div id="sec14" class="section">
+        <h2>14. Análise de IPs (IPv4, IPv6, CGNAT, VPN)</h2>
+
+        <p>O <strong>endereço IP</strong> é identificador único atribuído a cada dispositivo conectado à internet. <span class="ref-pagina">(p. 391)</span></p>
+
+        <h3>14.1 IPv4 x IPv6</h3>
+        <table>
+            <tr><th></th><th>IPv4</th><th>IPv6</th></tr>
+            <tr><td><strong>Bits</strong></td><td>32 bits</td><td>128 bits</td></tr>
+            <tr><td><strong>Combinações</strong></td><td>~4,29 bilhões</td><td>~3,4 × 10³⁸</td></tr>
+            <tr><td><strong>NAT/CGNAT</strong></td><td>Necessário (escassez)</td><td>Dispensa</td></tr>
+            <tr><td><strong>Recursos</strong></td><td>-</td><td>Maior eficiência de roteamento, autoconfiguração, suporte nativo a segurança</td></tr>
+        </table>
+        <span class="ref-pagina">(p. 391)</span>
+
+        <h3>14.2 Portas lógicas e CGNAT</h3>
+        <div class="box-purple">
+            <strong>Portas lógicas:</strong> identificadores numéricos que, associados ao IP, distinguem conexões simultâneas de um mesmo dispositivo. No <strong>IPv4 sob CGNAT</strong>, um único IP público é compartilhado por vários usuários, e a porta lógica permite individualizar o assinante. <strong>IP isolado sem porta lógica pode ser insuficiente</strong> para identificar o usuário. <span class="ref-pagina">(p. 392)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Analogia:</strong> CGNAT funciona como um prédio com um único endereço postal e dezenas de apartamentos - o IP é o endereço do prédio e a porta lógica é o número do apartamento. <span class="ref-pagina">(p. 392)</span>
+        </div>
+
+        <p><strong>Exemplo prático:</strong> Em fraude bancária, o IPv4 200.100.50.25 era usado simultaneamente por mais de 200 clientes sob CGNAT. Apenas com a porta lógica + data/hora foi possível individualizar. Já em outro caso com IPv6 (2804:14d:5c01:abcd:98ef:0021:3456:7890), bastou IP + data/hora, sem porta lógica. <span class="ref-pagina">(p. 392-393)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Lembre-se</span>
+            <ul>
+                <li><strong>IPv4 + CGNAT</strong> → porta lógica é INDISPENSÁVEL</li>
+                <li><strong>IPv6</strong> → cada conexão = endereço único</li>
+                <li>Sempre solicitar IP + horário em UTC + porta de origem (quando aplicável)</li>
+            </ul>
+        </div>
+
+        <h3>14.3 IPs vinculados a diferentes provedores</h3>
+        <ul>
+            <li><strong>ISPs:</strong> registros de conexão (usuário associado a IP/porta em momento específico) - individualiza o assinante;</li>
+            <li><strong>Redes sociais e mensageiros (WhatsApp, Facebook, Instagram):</strong> registros de acesso a aplicações - IP, data/hora de login, tipo de dispositivo e SO;</li>
+            <li><strong>Instituições bancárias:</strong> logs de acesso com IP, geolocalização aproximada, dispositivo, histórico de autenticação - relevante em fraude, lavagem e estelionato. <span class="ref-pagina">(p. 394-395)</span></li>
+        </ul>
+
+        <p><strong>AT2:</strong> permite importar dados de WhatsApp, Facebook e Instagram, organizando registros e destacando IPs mais usados por cada investigado. <span class="ref-pagina">(p. 395)</span></p>
+
+        <h3>14.4 WhatsApp com número estrangeiro</h3>
+        <p>Cada vez mais comum investigados brasileiros usarem número estrangeiro (ex.: +54 Argentina) para dificultar a investigação, pois para dados cadastrais costuma ser necessário <strong>cooperação internacional</strong>. <span class="ref-pagina">(p. 395-396)</span></p>
+
+        <h3>14.5 Requisição de dados cadastrais a ISPs</h3>
+        <p>Ofício ao setor jurídico da empresa, com fundamentação legal (<strong>art. 10, §3º, MCI</strong> para cadastrais; <strong>art. 15 da Lei 12.850/2013</strong> para organizações criminosas), IP + data/hora em <strong>UTC-3</strong>, porta lógica em IPv4/CGNAT. Em pequenos provedores de fronteira, atentar para possível proximidade dos proprietários com investigados - melhor judicializar ou buscar provedores maiores. <span class="ref-pagina">(p. 396)</span></p>
+
+        <h3>14.6 VPN</h3>
+        <div class="box-orange">
+            <strong>VPN (Virtual Private Network):</strong> cria "túnel" criptografado entre dispositivo e internet, passando por servidor intermediário. Oculta o IP real, substituindo pelo IP do servidor VPN. Registros não refletirão IP residencial/operadora do investigado. Investigador deve reconhecer rapidamente a presença de VPN, registrar no relatório e adotar medidas complementares: preservação adicional, cooperação internacional, cruzamento com ERBs, registros bancários, câmeras. Site para consulta: <strong>ipqualityscore.com</strong>. <span class="ref-pagina">(p. 396-397)</span>
+        </div>
+    </div>
+
+    <div id="sec15" class="section">
+        <h2>15. Análise de dados remotamente armazenados (dados em nuvem)</h2>
+
+        <p>A tendência atual é o uso de serviços de <strong>armazenamento em nuvem</strong> (Google Drive, iCloud, OneDrive, Dropbox), substituindo mídias físicas. Podem armazenar documentos de planejamento de crimes, comunicações, contábeis ilícitos, fotografias e vídeos. <span class="ref-pagina">(p. 397)</span></p>
+
+        <h3>15.1 Aspectos legais</h3>
+        <div class="box-blue">
+            Acesso amparado na Lei 12.965/2014 (MCI), que exige <strong>ordem judicial</strong> para conteúdos de comunicações privadas, inclusive armazenados remotamente.
+            <ul>
+                <li><strong>Dados cadastrais</strong> → requisição direta pela autoridade policial;</li>
+                <li><strong>Conteúdo armazenado em nuvem</strong> (documentos, fotos, mensagens, backups) → depende de ordem judicial. <span class="ref-pagina">(p. 397)</span></li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Identificação do SO via IMEI:</strong> Usar <strong>imei.info/calc/</strong> para identificar modelo e SO (Android/iOS).
+            <ul>
+                <li>Android → conta Google → ofício via <strong>LERS</strong>;</li>
+                <li>iPhone → conta Apple. <span class="ref-pagina">(p. 398)</span></li>
+            </ul>
+        </div>
+
+        <h3>15.2 Ferramentas de indexação e análise</h3>
+
+        <h4>Cellebrite UFED Physical Analyzer (PA)</h4>
+        <p>Software <strong>israelense</strong> para análise avançada. Importa pacotes do Google, Apple ou Microsoft, valida hashes, organiza informações em estruturas pesquisáveis. Permite navegar por linhas do tempo, identificar comunicações, georreferenciar fotos e reconstruir atividades. Buscas avançadas por palavra-chave, telefone, e-mail, coordenadas; marcação de evidências; relatórios padronizados. Preserva originais, análise em cópia de trabalho, registros de auditoria, relatórios com hashes. <span class="ref-pagina">(p. 398-399)</span></p>
+
+        <h4>Iped (Indexador e Processador de Evidências Digitais)</h4>
+        <div class="box-purple">
+            Software <strong>brasileiro, desenvolvido por integrantes da PF</strong>. <strong>Gratuito e de código aberto</strong>. Fluxo comum: Cellebrite PA faz parsing inicial → relatório indexado no Iped.
+            <br><strong>Funcionalidades de destaque:</strong>
+            <ul>
+                <li>transcrição quase perfeita de áudios (com pontuação);</li>
+                <li>OCR automático em imagens;</li>
+                <li>suporte a multievidências (pesquisa simultânea em várias fontes);</li>
+                <li>marcadores de evidências;</li>
+                <li>leveza e fluidez na navegação.</li>
+            </ul>
+            Considerado por muitos investigadores como ferramenta preferencial. <span class="ref-pagina">(p. 399-400)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Conclusão:</strong> A análise telemática em grande escala (pacotes de Google, Apple, Microsoft) somente é viável com softwares forenses especializados (Cellebrite PA ou Iped). Eles transformam dados brutos em informações inteligíveis e pesquisáveis, garantem processamento metodologicamente documentado, preservam a cadeia de custódia, mantêm arquivos originais íntegros e permitem acesso da defesa - eliminando riscos de nulidade processual. <span class="ref-pagina">(p. 400)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo final - Pilares do Sigilo Telemático</span>
+            <ul>
+                <li><strong>Marco legal:</strong> Lei 12.965/14 (MCI) + Lei 9.296/96 (interceptação)</li>
+                <li><strong>Fluxo (art. 7º, II)</strong> → Lei 9.296/96 (15 dias)</li>
+                <li><strong>Armazenado (art. 7º, III + art. 10, §2º)</strong> → Lei 12.965/14</li>
+                <li><strong>Cadastrais</strong> → ofício direto do Delegado</li>
+                <li><strong>Conteúdo nuvem</strong> → representação ao juiz</li>
+                <li><strong>Registro/IP</strong> → preservar extrajudicial + acessar com ordem</li>
+                <li><strong>Hash</strong> = SHA256/SHA512 = impressão digital da prova</li>
+                <li><strong>Portais:</strong> LERS (Google), LE Portal (Microsoft), lep.apple (Apple), Records (Meta), Kodex (internacional)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

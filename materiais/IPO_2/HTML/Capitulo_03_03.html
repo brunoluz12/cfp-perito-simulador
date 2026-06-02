@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3.3 - Meios Ordinários: Análise de Relatórios de Inteligência Financeira (RIF)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 3.3 - Meios Ordinários: Análise de Relatórios de Inteligência Financeira (RIF)</h1>
+        <div class="subtitle">Coaf, UIF do Brasil, IN DG/PF nº 245/2023 e metodologia de análise</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Visão geral: o RIF e o Coaf</a></li>
+            <li><a href="#sec2">2. Base legal e normativa (Tema 1404 do STF)</a></li>
+            <li><a href="#sec3">3. RIF com informações de autoridades estrangeiras</a></li>
+            <li><a href="#sec4">4. RIF recebido do Ministério Público</a></li>
+            <li><a href="#sec5">5. Estrutura e conteúdo do RIF</a></li>
+            <li><a href="#sec6">6. Recebimento e tratamento do RIF na PF</a></li>
+            <li><a href="#sec7">7. Metodologia de análise (5 etapas)</a></li>
+            <li><a href="#sec8">8. Exemplos operacionais (lavagem, desvio público, tráfico)</a></li>
+            <li><a href="#sec9">9. Síntese operacional</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Visão geral: o RIF e o Coaf</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> O <strong>Relatório de Inteligência Financeira (RIF)</strong> é o principal produto elaborado pelo <strong>Conselho de Controle de Atividades Financeiras (Coaf)</strong>, órgão que exerce a função de <strong>Unidade de Inteligência Financeira (UIF) do Brasil</strong>. <span class="ref-pagina">(p. 50)</span>
+        </div>
+
+        <p>Vinculado administrativamente ao <strong>Banco Central do Brasil (BCB)</strong>, o Coaf possui <strong>autonomia técnica e operacional</strong>, atuando em cooperação com órgãos nacionais e internacionais na prevenção e no combate à <strong>lavagem de dinheiro, ao financiamento do terrorismo e à proliferação de armas de destruição em massa (PLD/FTP)</strong>. <span class="ref-pagina">(p. 50)</span></p>
+
+        <p>Os RIFs resultam da análise de <strong>comunicações obrigatórias</strong> enviadas por instituições financeiras, entidades obrigadas e órgãos públicos, que noticiam operações suspeitas ou atípicas realizadas por pessoas físicas e jurídicas. Consolidam indícios de movimentações financeiras incompatíveis com a capacidade econômica declarada, padrões de transações fora do perfil usual ou possíveis vínculos com crimes antecedentes. <span class="ref-pagina">(p. 50)</span></p>
+
+        <div class="box-orange">
+            <strong>Duas modalidades de RIF (IN DG/PF nº 245/2023):</strong>
+            <ul>
+                <li><strong>RIF de ofício ou espontâneo:</strong> elaborado e encaminhado por iniciativa do Coaf, a partir da análise das comunicações recebidas dos sujeitos obrigados e demais fontes. Pode ser utilizado como <strong>notícia de fato para instauração de inquérito</strong>, como peça de informação em inquéritos já instaurados, ou exclusivamente para fins de inteligência. Os RIFs de ofício encaminhados à PF estão relacionados em banco de dados próprio (<strong>QlikSense</strong>), com extrato acessível a policiais com acesso. <span class="ref-pagina">(p. 51)</span></li>
+                <li><strong>RIF de intercâmbio:</strong> elaborado e encaminhado pelo Coaf <strong>em resposta a solicitação formal do Delegado de Polícia Federal</strong> (ou policial por ele designado), no âmbito de inquérito ou outro procedimento de polícia judiciária. Sua utilização é <strong>restrita ao procedimento investigativo para o qual foi solicitado</strong>, ou somente para fins de inteligência. <span class="ref-pagina">(p. 51)</span></li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: O-I (as duas portas de entrada do RIF)</span>
+            <ul>
+                <li><strong>O</strong>fício / espontâneo &rarr; iniciativa do <strong>Coaf</strong></li>
+                <li><strong>I</strong>ntercâmbio &rarr; provocado pelo <strong>Delegado da PF</strong></li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Natureza jurídica:</strong> O <strong>RIF, em si, NÃO equivale à prova judicial</strong>, mas representa um <strong>insumo de inteligência</strong> que deve ser confrontado com outras diligências para compor a narrativa investigativa de forma válida perante o Poder Judiciário. <span class="ref-pagina">(p. 51)</span>
+        </div>
+
+        <p>Assim, a análise criteriosa do RIF permite transformar indícios financeiros em hipóteses investigativas sólidas, funcionando como elo entre a atividade de inteligência e a persecução penal. <span class="ref-pagina">(p. 51)</span></p>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Base legal e normativa</h2>
+
+        <div class="box-blue">
+            <strong>Plano legal:</strong> O Coaf foi instituído pela <strong>Lei nº 9.613/1998 (Lei de Lavagem de Dinheiro)</strong> e <strong>reestruturado pela Lei nº 13.974/2020</strong>, sendo vinculado administrativamente ao Banco Central do Brasil (BCB), mas mantendo <strong>autonomia técnica e operacional</strong>. <span class="ref-pagina">(p. 51-52)</span>
+        </div>
+
+        <p>O Coaf é a Unidade de Inteligência Financeira (UIF) do Brasil e tem como atribuições centrais o <strong>recebimento, a análise e a disseminação</strong> de informações financeiras relacionadas à prevenção e combate à lavagem de dinheiro, ao financiamento do terrorismo e à proliferação de armas de destruição em massa (PLD/FTP). <span class="ref-pagina">(p. 52)</span></p>
+
+        <div class="box-purple">
+            <strong>Plano normativo interno:</strong> A <strong>Instrução Normativa DG/PF nº 245/2023</strong> disciplina o tratamento dos RIFs na PF, estabelecendo regras de <strong>acesso, registro, controle e preservação do sigilo</strong>. Admite o uso do RIF como notícia de fato para instauração de inquérito (de ofício ou espontâneo), mas recomenda diligências preliminares de <strong>confirmação e corroboração</strong>. <span class="ref-pagina">(p. 52)</span>
+        </div>
+
+        <h3>Cadeia de produção do RIF</h3>
+        <ul>
+            <li><strong>Recebimento</strong> das comunicações enviadas por pessoas obrigadas (instituições financeiras, corretoras, joalherias, empresas do mercado imobiliário, cartórios etc.) sujeitas à Lei nº 9.613/1998 e à supervisão do Coaf; <span class="ref-pagina">(p. 52)</span></li>
+            <li><strong>Consolidação interna</strong> das comunicações no banco de dados do Coaf; <span class="ref-pagina">(p. 52)</span></li>
+            <li><strong>Análise técnica</strong> para identificação de padrões atípicos ou suspeitos e cruzamento de informações; <span class="ref-pagina">(p. 52)</span></li>
+            <li><strong>Elaboração e disseminação</strong> do RIF, de forma espontânea ou por intercâmbio. <span class="ref-pagina">(p. 52)</span></li>
+        </ul>
+
+        <h3>Jurisprudência (panorama anterior ao Tema 1404)</h3>
+        <div class="box-orange">
+            <strong>STF - Tema 990 (RE 1.055.941):</strong> reconheceu a legitimidade do <strong>compartilhamento dos RIFs de intercâmbio</strong> pelo Coaf com órgãos de persecução penal, <strong>sem necessidade de autorização judicial prévia</strong>, desde que respeitados os requisitos de formalidade e sigilo. <span class="ref-pagina">(p. 52)</span>
+            <br><br>
+            <strong>STJ:</strong> tem decidido em algumas oportunidades que a <strong>requisição direta de RIF por autoridades investigativas, sem decisão judicial, não encontra respaldo legal</strong>. <span class="ref-pagina">(p. 52)</span>
+        </div>
+
+        <h3>2.1 Tema 1404: regras fixadas pelo STF</h3>
+
+        <p>No contexto do <strong>Tema 1404</strong> da repercussão geral, o STF vem delineando os limites constitucionais para a utilização dos RIFs produzidos pelo Coaf no âmbito da persecução penal e de procedimentos sancionadores. A controvérsia central reside na possibilidade de requisição e uso desses relatórios por autoridades investigativas e pelo Ministério Público <strong>sem autorização judicial prévia</strong> e <strong>sem a instauração formal de procedimento investigatório</strong>. <span class="ref-pagina">(p. 53)</span></p>
+
+        <p>Após o reconhecimento da repercussão geral no <strong>RE nº 1.537.165/SP (Tema 1404)</strong>, o STF determinou a <strong>suspensão de processos</strong> que haviam declarado a ilicitude de RIFs requisitados diretamente e fixou critérios objetivos para o uso dos instrumentos de inteligência financeira. <span class="ref-pagina">(p. 53)</span></p>
+
+        <div class="box-red">
+            <strong>Decisão de 21/04/2026 (medida liminar) - requisitos vinculantes:</strong>
+            <ul>
+                <li><strong>Procedimento formal previamente instaurado</strong> (inquérito policial, PIC, processo administrativo ou judicial de natureza sancionadora); <span class="ref-pagina">(p. 53)</span></li>
+                <li><strong>Finalidade investigativa claramente delimitada</strong> — vedadas requisições para procedimentos meramente preliminares ou exploratórios; <span class="ref-pagina">(p. 53)</span></li>
+                <li><strong>Identificação objetiva da pessoa investigada</strong> (física ou jurídica), com comprovação formal da instauração; <span class="ref-pagina">(p. 53)</span></li>
+                <li><strong>Pertinência temática estrita</strong> — nexo causal direto entre o conteúdo do relatório e o objeto da investigação; <span class="ref-pagina">(p. 53)</span></li>
+                <li>Proibido o uso <strong>genérico, prospectivo ou desvinculado de fato determinado</strong> — vedação à <strong>fishing expedition</strong>. <span class="ref-pagina">(p. 53-54)</span></li>
+            </ul>
+        </div>
+
+        <div class="box-purple">
+            <strong>O RIF NÃO pode ser a primeira nem a única medida investigativa</strong>, devendo integrar um conjunto probatório mais amplo. Esses requisitos vinculam Ministério Público, autoridades policiais, ordens judiciais e pedidos de CPIs e CPMIs. <span class="ref-pagina">(p. 54)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Consequência do descumprimento:</strong> o RIF será considerado <strong>prova ilícita</strong>, devendo ser <strong>invalidado e desentranhado</strong> dos autos, com <strong>extensão da ilicitude às provas dele derivadas</strong>. <span class="ref-pagina">(p. 54)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Modulação temporal:</strong> A decisão de 21/04/2026 promoveu <strong>limitação temporal dos efeitos da liminar</strong>, conferindo-lhe <strong>eficácia prospectiva (ex nunc)</strong>. Os novos critérios incidem apenas sobre atuações futuras, a partir da publicação da decisão, não se aplicando automaticamente a atos pretéritos regularmente praticados. <span class="ref-pagina">(p. 54)</span>
+        </div>
+
+        <p>O STF ressaltou que a eficácia prospectiva <strong>não impede o controle judicial individualizado</strong> da legalidade das provas nos casos concretos. <span class="ref-pagina">(p. 54)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: P-F-I-P-F (5 requisitos do Tema 1404)</span>
+            <ul>
+                <li><strong>P</strong>rocedimento formal instaurado</li>
+                <li><strong>F</strong>inalidade investigativa delimitada</li>
+                <li><strong>I</strong>dentificação objetiva do investigado</li>
+                <li><strong>P</strong>ertinência temática estrita</li>
+                <li><strong>F</strong>ishing expedition proibida</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. RIF com informações de autoridades estrangeiras</h2>
+
+        <div class="box-red">
+            <strong>Regra-chave:</strong> O RIF que contenha informações oriundas de <strong>UIFs estrangeiras</strong>, quando recebido pela PF por intermédio do Coaf, deve ser utilizado <strong>exclusivamente para fins de inteligência</strong>. NÃO é admitida sua juntada ou menção em inquéritos policiais <strong>sem a prévia autorização da UIF estrangeira</strong>. <span class="ref-pagina">(p. 54)</span>
+        </div>
+
+        <p>A restrição decorre de <strong>compromissos internacionais de cooperação</strong> firmados pelo Brasil no âmbito da <strong>Rede Egmont</strong> e demais acordos multilaterais de intercâmbio de inteligência financeira, de caráter <strong>não vinculante ao processo judicial</strong>, mas de apoio à atividade de inteligência. <span class="ref-pagina">(p. 55)</span></p>
+
+        <div class="box-blue">
+            <strong>Rede Egmont (Grupo Egmont):</strong> rede global informal que reúne as Unidades de Inteligência Financeira (UIFs) de todo o mundo, fundada em <strong>1995</strong>. Objetivo principal: promover a cooperação internacional entre as UIFs para o combate à <strong>lavagem de dinheiro (PLD-FT)</strong>, ao financiamento do terrorismo e a outros crimes financeiros, facilitando a troca segura de informações, experiência e conhecimento. <span class="ref-pagina">(p. 55, nota 2)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Três caminhos do art. 12 da IN DG/PF nº 245/2023</strong> para utilizar formalmente as informações em procedimentos de polícia judiciária:
+            <ul>
+                <li><strong>Autorização prévia da UIF estrangeira</strong> &mdash; por meio do sistema <strong>SEI-C</strong>, administrado pelo Coaf, mediante solicitação oficial; <span class="ref-pagina">(p. 55)</span></li>
+                <li><strong>Pedido de cooperação jurídica internacional</strong> &mdash; formalizado pelos canais próprios (autoridades centrais de cooperação internacional), <strong>sem menção à UIF estrangeira</strong> como fonte original; <span class="ref-pagina">(p. 55)</span></li>
+                <li><strong>Medidas investigativas alternativas</strong> &mdash; realização de diligências internas que permitam <strong>reconstituir, por vias próprias e autônomas</strong>, as informações inicialmente recebidas restritamente. <span class="ref-pagina">(p. 55)</span></li>
+            </ul>
+        </div>
+
+        <p>Em regra, informações de origem estrangeira <strong>não podem ser utilizadas diretamente como prova</strong>, mas devem orientar diligências que permitam obtenção de elementos válidos em território nacional ou por canais formais de cooperação. <span class="ref-pagina">(p. 55)</span></p>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. RIF recebido do Ministério Público</h2>
+
+        <p>A PF também pode receber RIF <strong>por meio do Ministério Público</strong>, em expedientes que vêm acompanhados de <strong>requisição para instauração de inquérito policial</strong> (<strong>art. 13 da IN 245/2023</strong>). <span class="ref-pagina">(p. 55)</span></p>
+
+        <div class="box-blue">
+            <strong>Procedimento nesses casos:</strong>
+            <ul>
+                <li>Presume-se que a comunicação entre Coaf e MP tenha ocorrido por meio formal e sigiloso; <span class="ref-pagina">(p. 55)</span></li>
+                <li>O expediente deve ser submetido à <strong>Corregedoria Regional</strong>, que o converterá em <strong>Notícia-Crime em Verificação (NCV)</strong>, com diligências preliminares, comunicando o fato ao MP; <span class="ref-pagina">(p. 55)</span></li>
+                <li>O delegado destinatário deve certificar-se de que recebeu <strong>todos os arquivos</strong> que compõem o RIF: <strong>versão em PDF e planilhas em formato .csv</strong> (comunicações, envolvidos e ocorrências). <span class="ref-pagina">(p. 55)</span></li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>Atenção - informações de UIF estrangeira via MP:</strong> Se o RIF recebido do Ministério Público contiver informações de UIF estrangeira, <strong>NÃO poderá fundamentar a instauração de procedimento de polícia judiciária</strong>. Deve ser <strong>devolvido ao MP</strong>, com observações sobre as limitações de uso e solicitação de reconsideração. <span class="ref-pagina">(p. 55-56)</span>
+        </div>
+
+        <p>É comum que o RIF encaminhado pelo MP tenha sido <strong>anteriormente remetido pelo Coaf à PF</strong>; deve-se verificar o tratamento interno já dado, para evitar <strong>duplicidade de procedimentos</strong> sobre a mesma temática. <span class="ref-pagina">(p. 56)</span></p>
+
+        <div class="box-purple">
+            <strong>Centralização interna na PF:</strong> Todos os <strong>RIFs espontâneos</strong> encaminhados à PF são centralizados na <strong>Divisão de Repressão à Lavagem de Dinheiro &mdash; DRLD/CGRC/Dicor/PF</strong>, que realiza análise preliminar e direciona à superintendência regional com atribuição sobre o caso, mantendo o controle do andamento e podendo servir como <strong>ponto focal de consulta e apoio</strong>. <span class="ref-pagina">(p. 56)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Estrutura e conteúdo do RIF</h2>
+
+        <div class="box-blue">
+            <strong>Função do RIF:</strong> produto central do Coaf, destinado a subsidiar a atuação de órgãos de persecução penal e de controle administrativo. Comunica <strong>movimentações financeiras atípicas</strong> que possam caracterizar indícios de <strong>lavagem de dinheiro, financiamento do terrorismo ou outros ilícitos correlatos</strong>. <span class="ref-pagina">(p. 56)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>O RIF NÃO é prova em si</strong>, mas <strong>documento de inteligência</strong> que aponta indícios e hipóteses investigativas, a partir de comunicações obrigatórias enviadas por instituições financeiras, corretoras, joalherias, imobiliárias e demais setores sujeitos à Lei nº 9.613/1998. <span class="ref-pagina">(p. 56)</span>
+        </div>
+
+        <h3>Dois grandes grupos de comunicações</h3>
+        <table>
+            <tr>
+                <th>Sigla</th>
+                <th>Comunicação</th>
+                <th>Característica</th>
+            </tr>
+            <tr>
+                <td><strong>COS</strong></td>
+                <td>Comunicação de Operação Suspeita</td>
+                <td>Encaminhadas ao Coaf quando as pessoas obrigadas identificam <strong>características e circunstâncias suspeitas</strong> de lavagem de dinheiro. <strong>Dependem de análise</strong> por parte dos comunicantes. <span class="ref-pagina">(p. 56)</span></td>
+            </tr>
+            <tr>
+                <td><strong>COE</strong></td>
+                <td>Comunicação de Operações em Espécie</td>
+                <td>Encaminhadas ao Coaf quando identificam operações em espécie que <strong>ultrapassam os limites fixados na norma legal</strong>. <strong>Independem de análise</strong> ou de qualquer outra consideração por parte dos comunicantes. <span class="ref-pagina">(p. 56)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: COS x COE</span>
+            <ul>
+                <li><strong>COS</strong> = <strong>S</strong>uspeita &rarr; exige análise subjetiva do comunicante</li>
+                <li><strong>COE</strong> = <strong>E</strong>spécie &rarr; objetiva, automática por limite legal</li>
+            </ul>
+        </div>
+
+        <h3>Estrutura formal padronizada do RIF</h3>
+        <ul>
+            <li><strong>Identificação básica:</strong> número do relatório, data de emissão e instituição comunicante; <span class="ref-pagina">(p. 56-57)</span></li>
+            <li><strong>Sujeito relacionado:</strong> pessoas físicas ou jurídicas envolvidas nas operações financeiras suspeitas, com dados cadastrais básicos (nome, CPF/CNPJ, contas utilizadas); <span class="ref-pagina">(p. 57)</span></li>
+            <li><strong>Descrição das operações:</strong> detalhamento das movimentações atípicas, com valores, datas, instituições envolvidas e modalidade (depósitos, transferências, saques em espécie, câmbio etc.); <span class="ref-pagina">(p. 57)</span></li>
+            <li><strong>Fatores de alerta:</strong> exposição dos critérios que motivaram a comunicação &mdash; incompatibilidade com a renda declarada, fracionamento de depósitos, uso de empresas recém-criadas, movimentação em espécie, operações internacionais etc.; <span class="ref-pagina">(p. 57)</span></li>
+            <li><strong>Análises complementares:</strong> conexões entre comunicações ou antecedentes de RIFs anteriores; <span class="ref-pagina">(p. 57)</span></li>
+            <li><strong>Anexos:</strong> planilhas (<strong>.csv/.xls</strong>) com detalhamento transacional, gráficos/fluxos e referências a relatórios relacionados. <span class="ref-pagina">(p. 57)</span></li>
+        </ul>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Recebimento e tratamento do RIF na Polícia Federal</h2>
+
+        <p>O RIF é disponibilizado às autoridades competentes por meio de sistema eletrônico (<strong>https://seic.coaf.gov.br/</strong>), ao qual a PF possui acesso institucional. O recebimento ocorre pelas unidades de inteligência ou diretamente pelas equipes responsáveis por investigações em curso. <span class="ref-pagina">(p. 57)</span></p>
+
+        <div class="box-blue">
+            <strong>RIFs de ofício (espontâneo) no âmbito regional:</strong> uma vez recebido na superintendência regional, é direcionado ao <strong>Grupo de Recuperação de Ativos e Lavagem de Dinheiro &mdash; GRAL</strong>, unidade especializada vinculada à delegacia regional de polícia judiciária e responsável pela <strong>inteligência financeira nos estados</strong>. <span class="ref-pagina">(p. 57)</span>
+        </div>
+
+        <h3>Três aspectos da leitura crítica inicial</h3>
+        <ul>
+            <li><strong>Dados cadastrais:</strong> verificar completude e consistência das informações de identificação de pessoas físicas e jurídicas; frequentemente é necessário complementar/confirmar em outras bases da PF; <span class="ref-pagina">(p. 57)</span></li>
+            <li><strong>Movimentações financeiras:</strong> analisar pertinência e relevância das transações, distinguindo operações atípicas relevantes de meras movimentações corriqueiras sem valor investigativo; <span class="ref-pagina">(p. 57-58)</span></li>
+            <li><strong>Elementos de contexto:</strong> identificar padrões, vínculos e conexões entre os sujeitos relacionados, preparando o material para integração com outras diligências (quebra de sigilo, buscas, análise patrimonial). <span class="ref-pagina">(p. 58)</span></li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Princípio operacional:</strong> O RIF deve ser tratado como <strong>ponto de partida para novas diligências e não como conclusão probatória</strong>. Compete ao policial federal produzir relatórios internos, como a <strong>Informação de Polícia Judiciária (IPJ)</strong>, resultantes da análise crítica e do cruzamento de dados em bancos oficiais, sistemas conveniados e fontes abertas. <span class="ref-pagina">(p. 58)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Prática institucional recomendada (IN DG/PF nº 245/2023):</strong> embora seja admitido o uso do RIF como notícia de fato para instauração de inquérito ou peça de informação, <strong>recomenda-se que o documento NÃO seja juntado integralmente aos autos</strong>. <span class="ref-pagina">(p. 58)</span>
+        </div>
+
+        <p>O procedimento mais adequado consiste em <strong>registrar a referência ao RIF</strong> (número, data e origem) e elaborar uma <strong>IPJ</strong> com a análise da equipe, descrevendo os achados relevantes. Essa metodologia: <span class="ref-pagina">(p. 58)</span></p>
+        <ul>
+            <li>Preserva o <strong>sigilo</strong> inerente ao sistema de inteligência financeira; <span class="ref-pagina">(p. 58)</span></li>
+            <li>Evita exposição de comunicações sem relação direta com os fatos apurados; <span class="ref-pagina">(p. 58)</span></li>
+            <li>Garante que terceiros não vinculados à investigação não sejam indevidamente incluídos. <span class="ref-pagina">(p. 58)</span></li>
+        </ul>
+
+        <div class="box-red">
+            <strong>Sigilo:</strong> o conteúdo do RIF <strong>não deve ser compartilhado fora dos limites funcionais</strong> nem incorporado diretamente a procedimentos investigativos. Sua utilização deve observar estritamente a IN DG/PF nº 245/2023. <span class="ref-pagina">(p. 58)</span>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Metodologia de análise de RIF (5 etapas)</h2>
+
+        <div class="box-blue">
+            <strong>Objetivo:</strong> não apenas ler os dados apresentados, mas <strong>transformá-los em hipóteses investigativas concretas, verificáveis e juridicamente sustentáveis</strong>. A análise segue um roteiro de <strong>cinco etapas complementares</strong>. <span class="ref-pagina">(p. 58-59)</span>
+        </div>
+
+        <h3>7.1 Recebimento e organização dos documentos</h3>
+        <p>Reunir e organizar todos os arquivos que compõem o RIF: relato principal, anexos em formato digital (planilhas .csv) e documentos complementares. Essa organização inicial é fundamental para preservar a <strong>integridade do material</strong> e permitir sua manipulação adequada em ferramentas analíticas. <span class="ref-pagina">(p. 59)</span></p>
+
+        <h3>7.2 Leitura, compreensão e identificação dos principais envolvidos</h3>
+        <p>Leitura integral do relato descritivo do RIF, quando houver, atentando para pessoas físicas e jurídicas citadas, eventos financeiros destacados e <strong>tipologias de lavagem ou ocultação</strong> implícitas. Recomenda-se elaborar um <strong>quadro inicial de atores e relacionamentos</strong>. <span class="ref-pagina">(p. 59)</span></p>
+
+        <h3>7.3 Uso das ferramentas de análise</h3>
+        <p>Os arquivos estruturados (em especial os <strong>.csv</strong> com registros de operações financeiras) devem ser importados para ferramentas analíticas como o <strong>Qlik Sense</strong>, disponibilizado institucionalmente pela PF. Permite a visualização de fluxos financeiros, padrões temporais e identificação de anomalias. <span class="ref-pagina">(p. 59)</span></p>
+
+        <h3>7.4 Pesquisas em fontes abertas e em sistemas corporativos</h3>
+        <p>Após a análise preliminar dos dados financeiros, complementar as informações em <strong>bancos de dados oficiais e conveniados</strong>, bem como em <strong>fontes abertas (OSINT)</strong>. Permite confirmar identidades, vínculos societários, endereços, registros patrimoniais e antecedentes criminais. <span class="ref-pagina">(p. 59)</span></p>
+
+        <h3>7.5 Análise integrada e elaboração de IPJ</h3>
+        <p>Realização da análise crítica dos dados, buscando responder a perguntas motivadoras: <span class="ref-pagina">(p. 60)</span></p>
+        <ul>
+            <li>Quem são os principais beneficiários?</li>
+            <li>Quais são os fluxos mais relevantes?</li>
+            <li>Existem vínculos ocultos entre empresas e pessoas?</li>
+        </ul>
+        <p>Os resultados devem ser organizados em <strong>relatório técnico ou IPJ</strong>, devidamente fundamentado, para subsidiar o inquérito. Ferramentas complementares como o <strong>Analyst's Notebook</strong> auxiliam na análise de vínculos e representações gráficas. <span class="ref-pagina">(p. 60)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: RO-LE-FE-PE-AN (5 etapas da metodologia)</span>
+            <ul>
+                <li><strong>RO</strong>: Recebimento e Organização</li>
+                <li><strong>LE</strong>: Leitura e identificação dos envolvidos</li>
+                <li><strong>FE</strong>: Ferramentas (Qlik Sense)</li>
+                <li><strong>PE</strong>: Pesquisas (OSINT + sistemas corporativos)</li>
+                <li><strong>AN</strong>: Análise integrada + IPJ</li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Separação no inquérito:</strong> ao reportar resultados, separe nitidamente:
+            <ol>
+                <li><strong>Dados brutos</strong> (de origem Coaf, não juntados);</li>
+                <li><strong>Procedimentos de validação</strong> (bases oficiais/OSINT);</li>
+                <li><strong>Conclusões analíticas da equipe</strong>.</li>
+            </ol>
+            <span class="ref-pagina">(p. 60)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Síntese conceitual:</strong> "O RIF orienta; a prova é construída pelo policial." A narrativa que ingressa no inquérito deve ser a <strong>análise produzida pela PF (IPJ)</strong>, com diligências de corroboração e indicação da origem (RIF nº/Coaf), preservando o sigilo e a higidez do fluxo de inteligência. <span class="ref-pagina">(p. 60)</span>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Exemplos operacionais de análise de RIF</h2>
+
+        <p>A análise revela seu potencial quando aplicada a situações concretas. São apresentados <strong>exemplos simulados</strong> articulando os dados do RIF com outras fontes. <span class="ref-pagina">(p. 60)</span></p>
+
+        <h3>8.1 Lavagem de dinheiro por meio de empresas de fachada</h3>
+        <div class="box-blue">
+            <ul>
+                <li><strong>Recebimento e leitura inicial:</strong> o RIF aponta movimentações financeiras de grande vulto em contas de uma <strong>microempresa recém-constituída</strong>; <span class="ref-pagina">(p. 60)</span></li>
+                <li><strong>Ferramentas analíticas:</strong> ao importar os .csv para o <strong>Qlik Sense</strong>, identifica-se que os depósitos são <strong>fracionados, em espécie, sempre próximos ao limite de comunicação obrigatória</strong>; <span class="ref-pagina">(p. 60-61)</span></li>
+                <li><strong>Pesquisas complementares:</strong> consulta às Juntas Comerciais revela que os sócios não possuem capacidade econômica compatível; em redes sociais, localiza-se padrão de ostentação; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Análise integrada:</strong> com apoio do <strong>Analyst's Notebook</strong>, visualizam-se vínculos entre os sócios e um investigado já citado em outro inquérito de <strong>tráfico internacional de drogas</strong>; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Resultado:</strong> evidências sugerem que a empresa funciona como <strong>fachada</strong>, subsidiando representação pela <strong>quebra de sigilo bancário e fiscal</strong>. <span class="ref-pagina">(p. 61)</span></li>
+            </ul>
+        </div>
+
+        <h3>8.2 Desvio de recursos públicos municipais</h3>
+        <div class="box-orange">
+            <ul>
+                <li><strong>Leitura inicial:</strong> o RIF destaca transações envolvendo uma <strong>construtora contratada em licitação de obras de saneamento</strong>; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Análise financeira:</strong> gráficos no Qlik Sense demonstram saídas sucessivas de valores para <strong>pessoas físicas ligadas ao prefeito local</strong>; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Complemento informacional:</strong> consulta ao <strong>Diário Oficial</strong> confirma contratos recentes; em bases da Receita Federal, constata-se que a empresa apresenta <strong>quadro societário modificado dias antes da licitação</strong>; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Representação gráfica:</strong> vínculos entre sócios e agentes políticos organizados em rede no Analyst's Notebook, evidenciando <strong>conexões ocultas</strong>; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Resultado:</strong> consolidação de indícios para fundamentar <strong>busca e apreensão</strong> de documentos na sede da construtora. <span class="ref-pagina">(p. 61)</span></li>
+            </ul>
+        </div>
+
+        <h3>8.3 Tráfico internacional de drogas e lavagem transnacional</h3>
+        <div class="box-red">
+            <ul>
+                <li><strong>Dados iniciais:</strong> o RIF identifica <strong>remessas para o exterior</strong> em valores elevados, com beneficiários localizados em <strong>paraísos fiscais</strong>; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Ferramentas de análise:</strong> no Qlik Sense, visualiza-se <strong>concentração de operações em datas próximas a apreensões de entorpecentes em portos brasileiros</strong>; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Pesquisas externas:</strong> em bases de transporte e logística, confirma-se que os sócios da empresa remetente realizaram <strong>viagens coincidentes com os embarques</strong>; em bases disponíveis à PF, confirmam-se movimentos migratórios; <span class="ref-pagina">(p. 61)</span></li>
+                <li><strong>Integração visual:</strong> o Analyst's Notebook permite estruturar as transferências em rede, demonstrando <strong>triangulação financeira</strong>; <span class="ref-pagina">(p. 61-62)</span></li>
+                <li><strong>Resultado:</strong> os dados subsidiam pedido de <strong>cooperação internacional</strong> e <strong>bloqueio de ativos</strong>. <span class="ref-pagina">(p. 62)</span></li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Lição comum aos três casos:</strong> o RIF não deve ser visto como produto acabado, mas como <strong>insumo inicial</strong> a ser explorado de forma <strong>crítica, complementar e integrada</strong>. Cabe ao policial aplicar metodologia consistente, valendo-se de ferramentas tecnológicas e pesquisas externas para transformar indícios financeiros em <strong>lastro probatório sólido</strong>. <span class="ref-pagina">(p. 62)</span>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Síntese operacional</h2>
+
+        <div class="box-blue">
+            <strong>Resumo:</strong> O RIF é instrumento estratégico para a investigação criminal da PF, fornecendo subsídios iniciais sobre movimentações financeiras atípicas, comunicações obrigatórias do sistema bancário e indícios de possíveis crimes de lavagem de dinheiro e delitos correlatos. Exige <strong>metodologia analítica estruturada</strong>, capaz de transformar dados financeiros em conhecimento investigativo acionável. <span class="ref-pagina">(p. 62)</span>
+        </div>
+
+        <h3>Aspectos destacados no tópico</h3>
+        <ul>
+            <li><strong>Base legal e normativa:</strong> respaldo na <strong>Lei nº 9.613/1998</strong>, na <strong>IN DG/PF nº 245/2023</strong>, em decisões judiciais e jurisprudência; <span class="ref-pagina">(p. 62)</span></li>
+            <li><strong>Estrutura e conteúdo:</strong> o RIF é composto por relato narrativo e arquivos complementares em formato digital, com registros detalhados de operações financeiras a serem analisados criticamente; <span class="ref-pagina">(p. 62)</span></li>
+            <li><strong>Procedimentos de análise:</strong> metodologia parte da organização dos documentos, leitura inicial, importação para ferramentas específicas (como o <strong>Qlik Sense</strong>), pesquisas complementares em bancos de dados oficiais e fontes abertas, culminando na elaboração de <strong>IPJ</strong>; <span class="ref-pagina">(p. 62)</span></li>
+            <li><strong>Ferramentas de apoio:</strong> <strong>Qlik Sense</strong> (visualização de movimentações financeiras) e <strong>Analyst's Notebook</strong> (análise de vínculos e representação gráfica de redes) potencializam a capacidade investigativa e facilitam a interpretação de fluxos financeiros complexos. <span class="ref-pagina">(p. 62)</span></li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo final - 4 pilares do RIF</span>
+            <ul>
+                <li><strong>FONTE</strong>: Coaf (UIF do Brasil) &mdash; Lei 9.613/1998 e Lei 13.974/2020</li>
+                <li><strong>NATUREZA</strong>: insumo de inteligência, NÃO é prova judicial</li>
+                <li><strong>USO NA PF</strong>: IN DG/PF nº 245/2023 + Tema 1404 STF</li>
+                <li><strong>METODOLOGIA</strong>: RO &rarr; LE &rarr; FE (Qlik) &rarr; PE (OSINT) &rarr; AN (IPJ)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

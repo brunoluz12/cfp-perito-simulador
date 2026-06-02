@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3.4 - Meios Ordinários: Análise de Vínculos</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 3.4 - Meios Ordinários: Análise de Vínculos</h1>
+        <div class="subtitle">Da Teoria dos Grafos à Suíte i2 na investigação criminal</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Conceito e importância da análise de vínculos</a></li>
+            <li><a href="#sec2">2. Teorias e estudos científicos</a></li>
+            <li><a href="#sec3">3. Aplicações na investigação criminal brasileira</a></li>
+            <li><a href="#sec4">4. A Suíte i2 - evolução das ferramentas</a></li>
+            <li><a href="#sec5">5. Ferramentas da Suíte i2</a></li>
+            <li><a href="#sec6">6. Componentes fundamentais: Entidades e Vínculos</a></li>
+            <li><a href="#sec7">7. Representações de entidades</a></li>
+            <li><a href="#sec8">8. Principais recursos de análise</a></li>
+            <li><a href="#sec9">9. Conclusão</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Conceito e importância da análise de vínculos</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> A análise de vínculos é um <strong>método sistemático de identificação, registro e análise das conexões existentes entre pessoas, organizações, objetos e eventos</strong> relacionados a atividades criminosas. <span class="ref-pagina">(p. 63)</span>
+        </div>
+
+        <p>A investigação criminal moderna enfrenta desafios crescentes relacionados à complexidade das organizações criminosas contemporâneas. Diferentemente dos crimes tradicionais, onde a autoria e os meios empregados são frequentemente evidentes, os crimes praticados por organizações estruturadas apresentam <strong>múltiplas camadas de relacionamentos, fluxos financeiros complexos e hierarquias sofisticadas</strong>. <span class="ref-pagina">(p. 63)</span></p>
+
+        <div class="box-green">
+            <strong>Para que serve:</strong> Permite aos investigadores visualizar e compreender a <strong>estrutura, o funcionamento e as vulnerabilidades</strong> de redes criminosas complexas, através da representação gráfica de relacionamentos que de outra forma permaneceriam ocultos no volume de informações investigativas. <span class="ref-pagina">(p. 63)</span>
+        </div>
+
+        <p>A análise tradicional de documentos isolados evidencia-se insuficiente para compreender essas estruturas complexas, enquanto a análise de vínculos oferece uma abordagem sistemática que revela padrões e conexões não evidentes por meio de métodos convencionais. <span class="ref-pagina">(p. 63)</span></p>
+
+        <div class="box-orange">
+            <strong>Vantagens investigativas:</strong>
+            <ul>
+                <li>Organiza grandes volumes de dados (quebras de sigilo bancário, telefônico, telemático, fiscal). <span class="ref-pagina">(p. 64)</span></li>
+                <li>Identifica rapidamente os elementos centrais de uma organização criminosa. <span class="ref-pagina">(p. 64)</span></li>
+                <li>Otimiza a alocação de recursos investigativos para os alvos mais relevantes. <span class="ref-pagina">(p. 64)</span></li>
+                <li>Gera economia de tempo e maior impacto na desarticulação das organizações. <span class="ref-pagina">(p. 64)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Teorias e estudos científicos</h2>
+
+        <div class="box-blue">
+            <strong>Fundamento científico:</strong> A análise de vínculos fundamenta-se na <strong>Teoria dos Grafos</strong>, ramo da matemática desenvolvido no século XVIII pelo matemático suíço <strong>Leonhard Euler</strong>. <span class="ref-pagina">(p. 64)</span>
+        </div>
+
+        <p>A origem desta teoria remonta ao famoso problema das <strong>Sete Pontes de Königsberg</strong>, onde Euler demonstrou matematicamente a impossibilidade de atravessar todas as pontes da cidade sem repetir nenhuma, estabelecendo os fundamentos para o estudo sistemático de redes e conexões. <span class="ref-pagina">(p. 64)</span></p>
+
+        <div class="box-purple">
+            <strong>Definição de grafo:</strong> Um grafo é uma <strong>estrutura matemática composta por um conjunto de nós conectados por arestas</strong>. Essa representação abstrata permite modelar qualquer sistema com entidades e relacionamentos. <span class="ref-pagina">(p. 64)</span>
+        </div>
+
+        <p>A transposição destes conceitos para a investigação criminal ocorreu através do desenvolvimento da <strong>Social Network Analysis (SNA)</strong>, que, conforme definido por <strong>Wasserman e Faust (1994)</strong>, fornece ferramentas para compreender como pessoas ou organizações estão conectadas, encontrar estruturas ocultas e identificar atores potencialmente importantes em uma rede social. <span class="ref-pagina">(p. 65)</span></p>
+
+        <h3>Principais estudiosos (linha do tempo)</h3>
+
+        <table>
+            <tr>
+                <th>Autor / Ano</th>
+                <th>Contribuição</th>
+                <th>Página</th>
+            </tr>
+            <tr>
+                <td><strong>Sparrow (1991)</strong></td>
+                <td>Pioneiro na aplicação da SNA na investigação criminal; demonstrou que organizações criminosas seguem padrões estruturais identificáveis.</td>
+                <td>p. 65</td>
+            </tr>
+            <tr>
+                <td><strong>Klerks (2001)</strong></td>
+                <td>Expandiu a SNA para crime organizado; metodologias para identificar lideranças e vulnerabilidades.</td>
+                <td>p. 65</td>
+            </tr>
+            <tr>
+                <td><strong>Morselli (2009)</strong></td>
+                <td>Aprofundou como redes criminosas se adaptam à pressão policial.</td>
+                <td>p. 65</td>
+            </tr>
+            <tr>
+                <td><strong>Barabási (2016)</strong></td>
+                <td>Obra "Network Science"; princípios matemáticos e computacionais das redes complexas.</td>
+                <td>p. 65-66</td>
+            </tr>
+            <tr>
+                <td><strong>Ferro Júnior e Dantas (2006)</strong></td>
+                <td>Precursores no Brasil; primeiras metodologias adaptadas à realidade nacional.</td>
+                <td>p. 66</td>
+            </tr>
+            <tr>
+                <td><strong>Romão (2013)</strong></td>
+                <td>Aplicação em investigações de corrupção no setor público.</td>
+                <td>p. 66</td>
+            </tr>
+            <tr>
+                <td><strong>Zaina (2020)</strong></td>
+                <td>Combinou business intelligence e análise de vínculos para análise de RIFs.</td>
+                <td>p. 66</td>
+            </tr>
+            <tr>
+                <td><strong>Cunha (2021)</strong></td>
+                <td>"Criminofísica" aplicada a facções criminosas brasileiras; alvos topológicos e neutralização seletiva.</td>
+                <td>p. 66</td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: Origem científica</span>
+            Euler (século XVIII) - Sete Pontes de Königsberg - Teoria dos Grafos - Social Network Analysis (Wasserman e Faust, 1994) - Aplicação investigativa (Sparrow, 1991).
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Aplicações na investigação criminal brasileira</h2>
+
+        <table>
+            <tr>
+                <th>Área de aplicação</th>
+                <th>O que a análise de vínculos permite</th>
+            </tr>
+            <tr>
+                <td><strong>Lavagem de dinheiro</strong></td>
+                <td>Rastrear fluxos financeiros complexos, identificar beneficiários finais e revelar estruturas de ocultação envolvendo múltiplas transferências, empresas de fachada e jurisdições internacionais. <span class="ref-pagina">(p. 66)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Tráfico (drogas, armas, pessoas)</strong></td>
+                <td>Mapear redes de distribuição, identificar fornecedores e distribuidores, revelar rotas de transporte e a estrutura organizacional. <span class="ref-pagina">(p. 67)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Crime organizado</strong></td>
+                <td>Revelar hierarquias, divisão de tarefas e níveis operacionais; identificar lideranças, operadores intermediários e vulnerabilidades. <span class="ref-pagina">(p. 67)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Corrupção</strong></td>
+                <td>Mapear redes de funcionários públicos, empresários e intermediários; demonstrar padrões de relacionamento que evidenciam a prática corrupta. <span class="ref-pagina">(p. 68)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Investigações financeiras</strong></td>
+                <td>Revelar estruturas societárias complexas, relacionamentos entre pessoas/empresas aparentemente independentes e fluxos financeiros suspeitos. <span class="ref-pagina">(p. 68)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Benefícios consolidados:</strong>
+            <ul>
+                <li><strong>Visualização de complexidade</strong>: transforma informações dispersas em representações visuais compreensíveis. <span class="ref-pagina">(p. 69)</span></li>
+                <li><strong>Identificação de elementos centrais</strong>: via análise visual ou métricas quantitativas de centralidade. <span class="ref-pagina">(p. 69)</span></li>
+                <li><strong>Descoberta de conexões ocultas</strong>: expande o escopo da investigação, identificando novos alvos. <span class="ref-pagina">(p. 69)</span></li>
+                <li><strong>Impacto probatório</strong>: diagramas bem construídos facilitam a compreensão por promotores, advogados e juízes. <span class="ref-pagina">(p. 69)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. A Suíte i2 - evolução das ferramentas de análise investigativa</h2>
+
+        <h3>Métodos tradicionais (limitações)</h3>
+
+        <div class="box-red">
+            <strong>Fragilidades dos métodos rudimentares:</strong> Quadros com fotografias conectadas por barbantes, anotações em post-its e fichas de papel, organização manual em pastas físicas. <span class="ref-pagina">(p. 70)</span>
+            <ul>
+                <li>Fragilidade física (fotos caem, barbantes rompem, anotações se perdem);</li>
+                <li>Impossível criar backups seguros;</li>
+                <li>Dificuldade de compartilhamento e colaboração;</li>
+                <li>Inviabilidade em casos com muitos envolvidos;</li>
+                <li>Sem possibilidade de análises quantitativas/métricas.</li>
+            </ul>
+        </div>
+
+        <div class="box-blue">
+            <strong>O programa i2:</strong> Representa o <strong>estado da arte em ferramentas de análise de vínculos</strong>, desenvolvido especificamente para agências de aplicação da lei. É utilizado por organizações policiais em todo o mundo, incluindo a <strong>Polícia Federal brasileira</strong>, estabelecendo-se como <strong>padrão internacional</strong>. <span class="ref-pagina">(p. 70-71)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Diferenciais do i2 (especialização investigativa):</strong>
+            <ul>
+                <li>Biblioteca de símbolos específicos para entidades investigativas;</li>
+                <li>Tipos de vínculos pré-configurados para relacionamentos criminais;</li>
+                <li>Funcionalidades analíticas desenvolvidas para necessidades investigativas;</li>
+                <li>Escalabilidade para milhões de ligações, milhares de transações e centenas de empresas;</li>
+                <li>Ferramentas de cálculo de conexões, caminhos, detecção de padrões e análises geográfica e temporal.
+            </ul>
+            <span class="ref-pagina">(p. 71)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Ferramentas da Suíte i2</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> O i2 é um <strong>conjunto (suíte) de aplicações</strong>, cada uma com finalidade específica, que podem operar de forma independente ou integrada. As principais são: <strong>Analyst's Notebook, iBase e Analysis Hub</strong>. <span class="ref-pagina">(p. 71)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Ferramenta</th>
+                <th>Função</th>
+            </tr>
+            <tr>
+                <td><strong>i2 Analyst's Notebook</strong></td>
+                <td>Ferramenta <strong>central</strong> da suíte. Aplicativo de <strong>desktop</strong> para criar diagramas de análise de vínculos; transforma dados brutos em representações visuais, permitindo explorar conexões, conjuntos e caminhos entre entidades. <span class="ref-pagina">(p. 72)</span></td>
+            </tr>
+            <tr>
+                <td><strong>i2 iBase</strong></td>
+                <td><strong>Banco de dados</strong> próprio do i2; armazena e gerencia grandes volumes de dados de forma estruturada e relacional, como repositório central de investigações. <span class="ref-pagina">(p. 72)</span></td>
+            </tr>
+            <tr>
+                <td><strong>i2 Analysis Hub</strong></td>
+                <td>Ambiente de inteligência para <strong>trabalho em equipe</strong>; combina dados de diversas fontes em repositório centralizado e seguro. Arquitetura moderna, <strong>baseada na web</strong>, com foco em colaboração em tempo real. <span class="ref-pagina">(p. 72)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Componentes fundamentais: Entidades e Vínculos</h2>
+
+        <div class="box-blue">
+            <strong>Organização das informações:</strong> Independente da ferramenta em uso, o i2 organiza as informações por meio de <strong>dois componentes fundamentais: Entidades e Vínculos</strong>. <span class="ref-pagina">(p. 72)</span>
+        </div>
+
+        <h3>6.1 Entidades</h3>
+
+        <p>As <strong>entidades</strong> são objetos que representam coisas reais em um diagrama: pessoas, empresas, locais, eventos, contas bancárias, telefones, veículos ou qualquer elemento relevante. Os <strong>vínculos</strong> representam o tipo de relacionamento entre tais objetos. Exemplo: "João da Silva" e "Clarisse Ferreira da Silva" são entidades; "Casados" é o vínculo entre eles. <span class="ref-pagina">(p. 72)</span></p>
+
+        <p>Uma entidade é composta por <strong>quatro partes principais</strong>: ícone, etiqueta, atributos e identidade. As 3 primeiras são aparentes no diagrama; a identidade é uma informação "interna". <span class="ref-pagina">(p. 72-73)</span></p>
+
+        <table>
+            <tr>
+                <th>Parte</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Ícone</strong></td>
+                <td>Representação gráfica (imagem) que permite identificação visual rápida. Ex.: ícone genérico de pessoa, fotografia de indivíduo, logotipo de empresa. <span class="ref-pagina">(p. 73)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Etiqueta</strong></td>
+                <td>Breve descrição textual abaixo do ícone. Ex.: nome de pessoa, razão social, número de terminal telefônico, descrição de evento. <span class="ref-pagina">(p. 73)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Atributos</strong></td>
+                <td>Informações adicionais (data de nascimento, profissão, documentos, apelidos). <strong>Fundamentais para os recursos analíticos</strong>: permitem pesquisas e filtros (ex.: "encontrar todos os empresários"). <span class="ref-pagina">(p. 73)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Identidade</strong></td>
+                <td>Código/ID exclusivo que <strong>individualiza a entidade</strong>. Fica "embutida", não visível no diagrama. Ex.: CPF, CNPJ. <span class="ref-pagina">(p. 73)</span></td>
+            </tr>
+        </table>
+
+        <h3>6.2 Identidade - elemento mais crítico</h3>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO:</strong> A identidade é o <strong>elemento mais importante e fundamental</strong> de uma entidade no i2. Funciona como uma <strong>impressão digital</strong> que permite ao i2 reconhecer automaticamente quando diferentes informações se referem ao mesmo objeto real. <span class="ref-pagina">(p. 73-74)</span>
+        </div>
+
+        <p>Sem identidade padronizada, variações de grafia ou formato resultam em <strong>entidades separadas</strong>, fragmentando informações que deveriam estar consolidadas e ocultando conexões essenciais. <span class="ref-pagina">(p. 74)</span></p>
+
+        <h3>6.3 Padrões de identidade</h3>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Formato padronizado</th>
+                <th>Exemplo</th>
+            </tr>
+            <tr>
+                <td><strong>Pessoa Física - CPF</strong></td>
+                <td>11 algarismos com zeros à esquerda, sem pontos e sem hífen. <span class="ref-pagina">(p. 75)</span></td>
+                <td>12345678901; 00123456789</td>
+            </tr>
+            <tr>
+                <td><strong>Pessoa Jurídica - CNPJ</strong></td>
+                <td>14 algarismos com zeros à esquerda, sem pontos, barra e hífen. <span class="ref-pagina">(p. 75)</span></td>
+                <td>12345678000195</td>
+            </tr>
+            <tr>
+                <td><strong>Veículos - Placas</strong></td>
+                <td>Formato antigo: 3 letras + hífen + 4 algarismos (ABC-1234). Formato Mercosul: 3 letras + hífen + 1 algarismo + 1 letra + 3 algarismos (ABC-1D23). Letras em maiúsculas; hífen mantido. <span class="ref-pagina">(p. 75-76)</span></td>
+                <td>ABC-1234 / ABC-1D23</td>
+            </tr>
+            <tr>
+                <td><strong>Telefones</strong></td>
+                <td>Formato internacional: + + código do país + código de área + número. Para BR: sempre +55, área com 2 dígitos, dígito 9 para celulares (inclusive registros anteriores a 2012). <span class="ref-pagina">(p. 76)</span></td>
+                <td>+5511987654321</td>
+            </tr>
+            <tr>
+                <td><strong>Contas bancárias</strong></td>
+                <td>Código do banco (3 algarismos) + hífen + agência (4 algarismos) + hífen + conta (até 20 algarismos sem zeros à esquerda). <span class="ref-pagina">(p. 76)</span></td>
+                <td>001-1234-567890</td>
+            </tr>
+            <tr>
+                <td><strong>Endereços</strong></td>
+                <td>Tipo de logradouro + logradouro + número + complemento + município/UF + CEP, sem pontuação, sem vírgulas, em maiúsculas. Evitar bairros; usar 8 dígitos do CEP sem hífen. <span class="ref-pagina">(p. 77)</span></td>
+                <td>RUA AUGUSTA 123 APTO 45 SAO PAULO/SP 01305100</td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Atenção (CPF):</strong> Manter zeros à esquerda é fundamental. O CPF "012.345.678-90" deve ser padronizado como "01234567890", nunca como "1234567890". Para estrangeiros, usar passaporte precedido do código do país, documentando a exceção nos atributos. <span class="ref-pagina">(p. 75)</span>
+        </div>
+
+        <h3>6.4 Vínculos</h3>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Os vínculos representam o <strong>relacionamento ou interação entre entidades</strong>: amizade, parentesco, transação financeira, chamada telefônica, relação societária etc. <span class="ref-pagina">(p. 77)</span>
+        </div>
+
+        <p>Componentes principais de um vínculo: <strong>etiqueta e direção</strong>. <span class="ref-pagina">(p. 77)</span></p>
+
+        <table>
+            <tr>
+                <th>Componente</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Etiqueta</strong></td>
+                <td>Texto que descreve o relacionamento. Ex.: "pai de", "sócio da", "empregado da", "saque de R$ 50 mil". <span class="ref-pagina">(p. 77-78)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Direção</strong></td>
+                <td>Sentido do vínculo por meio de uma <strong>seta</strong>. Mostra o fluxo (origem/destino) ou ajuda a interpretar a relação (quem é pai, quem é filho). A interpretação é sempre <strong>da origem para o destino da seta</strong>. <span class="ref-pagina">(p. 78)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>CARACTERÍSTICA FUNDAMENTAL:</strong> Os vínculos <strong>NÃO possuem identidade</strong>. Isso é intencional para permitir que <strong>múltiplas interações idênticas</strong> entre as duas entidades possam ser registradas livremente. Ex.: vários PIX de mesmo valor entre as mesmas pessoas no mesmo dia. <span class="ref-pagina">(p. 78)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo: Entidade x Vínculo</span>
+            <ul>
+                <li><strong>Entidade</strong> = ícone + etiqueta + atributos + <strong>identidade</strong> (única)</li>
+                <li><strong>Vínculo</strong> = etiqueta + direção (sem identidade)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Representações de entidades</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Cada entidade possui uma <strong>representação</strong> (como é exibida na superfície do diagrama) e um <strong>tipo</strong> (para categorizá-la). É possível escolher diferentes representações: ícone, caixa de evento, linha de tema etc. <span class="ref-pagina">(p. 78)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Representação</th>
+                <th>Quando usar</th>
+            </tr>
+            <tr>
+                <td><strong>Ícone</strong></td>
+                <td>Imagem ou figura que representa a entidade. <span class="ref-pagina">(p. 78)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Linha de tema</strong></td>
+                <td>Linha usada para representar um <strong>elemento-chave</strong> da investigação (suspeito, conta bancária). Muitas vezes utilizada com caixas de evento para representar sequência de eventos no tempo. <span class="ref-pagina">(p. 79)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Caixa de evento</strong></td>
+                <td>Representação de uma <strong>ocorrência</strong> usada para enfatizar informações de data e hora (reunião, compromisso). Frequentemente usada com linhas de temas. <span class="ref-pagina">(p. 79)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Círculo</strong></td>
+                <td>Inteligência textual na superfície do diagrama, ou para indicar uma <strong>organização ou grupo visualmente</strong>. <span class="ref-pagina">(p. 79)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Caixa</strong></td>
+                <td>Usada para <strong>incluir outras entidades</strong> em um diagrama, indicando uma organização ou grupo. <span class="ref-pagina">(p. 80)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Bloco de texto</strong></td>
+                <td>Frequentemente usado para <strong>inteligência textual</strong> na superfície do diagrama. <span class="ref-pagina">(p. 80)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Objeto OLE</strong></td>
+                <td>Objeto criado em <strong>outro aplicativo</strong> e incorporado ao diagrama. Ex.: planilha, documento de processador de texto, videoclipe, arquivo de diagrama. <span class="ref-pagina">(p. 81)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Principais recursos de análise</h2>
+
+        <h3>8.1 Listar itens</h3>
+        <div class="box-blue">
+            A listagem de itens, cartões e registros de dados permite que as informações sejam <strong>classificadas, filtradas e copiadas</strong> para planilhas ou outros documentos externos, possibilitando analisar dados não visíveis na superfície do diagrama. <span class="ref-pagina">(p. 81)</span>
+        </div>
+
+        <h3>8.2 Listar itens mais conectados</h3>
+        <p>Itens altamente conectados são frequentemente significativos em análise. É possível listar entidades e vínculos com base no número de vínculos presentes e mudar o formato dos itens selecionados para destacá-los no diagrama. É possível listar conforme critérios (links de tipo específico, links em determinada direção). <span class="ref-pagina">(p. 81-82)</span></p>
+
+        <h3>8.3 Área de janela "Entidades Vinculadas"</h3>
+        <p>Lista as entidades vinculadas à entidade selecionada. Para identificar entidades potencialmente significativas, é possível <strong>classificar a lista</strong> nas diferentes propriedades. <span class="ref-pagina">(p. 82)</span></p>
+
+        <h3>8.4 Procurar</h3>
+        <p>Para localizar itens de diagrama de interesse, é possível procurar <strong>propriedades do item</strong> para obter informações específicas. <span class="ref-pagina">(p. 83)</span></p>
+
+        <h3>8.5 Procura visual (estruturada)</h3>
+        <div class="box-purple">
+            Cria uma procura estruturada que <strong>busca dados em propriedades específicas</strong>. Permite localizar entidades ou descobrir relacionamentos. A estrutura pode consistir em <strong>um tipo de entidade</strong> ou em <strong>dois tipos de entidade e um tipo de vínculo</strong> entre eles. É possível especificar tipo de item ou tipo semântico, e usar condições de procura para incluir características na consulta. <span class="ref-pagina">(p. 83)</span>
+        </div>
+
+        <h3>8.6 Localizar texto</h3>
+        <p>Procura palavras ou frases específicas nas informações do item. Ex.: localizar todos os itens que contêm um nome de rua ou número de telefone específico. <span class="ref-pagina">(p. 84)</span></p>
+
+        <h3>8.7 Localizar entidades correspondentes</h3>
+        <div class="box-orange">
+            <strong>Objetivo:</strong> Garantir que múltiplos itens <strong>não representem o mesmo objeto, evento ou relacionamento</strong> da realidade. Compara itens, identifica entidades que representam o mesmo objeto e resolve correspondências potenciais. Além da correspondência por etiquetas, busca também por <strong>tipos semânticos e conteúdo significativo</strong>. Ao identificar correspondências, é possível: selecionar para inspeção, vincular para inspeção posterior ou <strong>mesclar</strong> as entidades. <span class="ref-pagina">(p. 84)</span>
+        </div>
+
+        <h3>8.8 Localizar rede de conexão</h3>
+        <div class="box-green">
+            Para descobrir se várias entidades de interesse estão conectadas por uma rede, especifica-se elas como <strong>entidades requeridas</strong> na procura; o Analyst's Notebook procura por uma rede que as conecta, <strong>direta ou indiretamente</strong>. A rede pode identificar <strong>intermediários importantes</strong>. Ex.: rede de várias contas bancárias envolvidas em fraude pode revelar uma conta intermediária que distribui dinheiro e desempenha papel central. Se a atividade for legítima, pode-se excluí-la e procurar novamente. <span class="ref-pagina">(p. 84-85)</span>
+        </div>
+
+        <h3>8.9 Localizar caminho</h3>
+        <p>É possível descobrir se <strong>dois itens</strong> no diagrama estão conectados, mesmo indiretamente, procurando um caminho entre eles. É possível configurar critérios para os itens permitidos no caminho. <span class="ref-pagina">(p. 85)</span></p>
+
+        <h3>8.10 Diagramas de barras e histogramas</h3>
+        <div class="box-blue">
+            Permitem visualizar a <strong>distribuição de dados</strong> e selecionar/filtrar com base em categorias e intervalos. Auxiliam a identificar, por exemplo, <strong>picos de atividade</strong> no diagrama. <span class="ref-pagina">(p. 86)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 10 recursos de análise do i2</span>
+            <ol>
+                <li>Listar itens</li>
+                <li>Listar itens mais conectados</li>
+                <li>Área Entidades Vinculadas</li>
+                <li>Procurar (propriedades)</li>
+                <li>Procura visual (estruturada)</li>
+                <li>Localizar texto</li>
+                <li>Localizar entidades correspondentes</li>
+                <li>Localizar rede de conexão</li>
+                <li>Localizar caminho</li>
+                <li>Diagramas de barras e histogramas</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Conclusão</h2>
+
+        <div class="box-purple">
+            A análise de vínculos representa uma <strong>evolução natural e necessária</strong> das técnicas investigativas tradicionais, respondendo aos desafios impostos pela crescente complexidade do crime organizado contemporâneo. <span class="ref-pagina">(p. 86)</span>
+        </div>
+
+        <div class="box-green">
+            A suíte i2, como representante do <strong>estado da arte</strong> em software especializado, demonstra como a tecnologia pode <strong>potencializar as capacidades analíticas humanas sem substituí-las</strong>. A especialização investigativa do software - biblioteca de símbolos, tipos de vínculos pré-configurados e funcionalidades analíticas avançadas - oferece instrumentos precisos para transformar <strong>dados brutos em conhecimento relevante</strong>. <span class="ref-pagina">(p. 86)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Síntese final</span>
+            <ul>
+                <li><strong>Base científica</strong>: Teoria dos Grafos (Euler) - Social Network Analysis</li>
+                <li><strong>Estrutura</strong>: Entidades (com identidade única) + Vínculos (sem identidade)</li>
+                <li><strong>Ferramenta</strong>: Suíte i2 = Analyst's Notebook + iBase + Analysis Hub</li>
+                <li><strong>Padrão internacional</strong> adotado pela Polícia Federal brasileira</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

@@ -1843,6 +1843,40 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Conclusão'
             ]
         },
+        'ipo_2': {
+            path: 'IPO_2',
+            capitulos: [
+                { titulo: 'Capítulo 1 - Introdução', arquivo: 'Capitulo_01.html' },
+                { titulo: 'Capítulo 2 - Ação de Obtenção de Elementos de Informação', arquivo: 'Capitulo_02.html' },
+                { titulo: 'Capítulo 3.1 - Meios Ordinários: OSINT (Fontes Abertas)', arquivo: 'Capitulo_03_01.html' },
+                { titulo: 'Capítulo 3.2 - Meios Ordinários: Bancos de Dados', arquivo: 'Capitulo_03_02.html' },
+                { titulo: 'Capítulo 3.3 - Meios Ordinários: Análise de RIF', arquivo: 'Capitulo_03_03.html' },
+                { titulo: 'Capítulo 3.4 - Meios Ordinários: Análise de Vínculos (Suíte i2)', arquivo: 'Capitulo_03_04.html' },
+                { titulo: 'Capítulo 3.5 - Meios Ordinários: Ações Encobertas', arquivo: 'Capitulo_03_05.html' },
+                { titulo: 'Capítulo 3.6 - Meios Ordinários: Fontes Humanas', arquivo: 'Capitulo_03_06.html' },
+                { titulo: 'Capítulo 3.7-3.9 - Criminalística, Papiloscopia e Outros (RPA, CFTV, Rastreadores)', arquivo: 'Capitulo_03_07a09.html' },
+                { titulo: 'Capítulo 4 - Formalização dos Dados (IPJ, Auto Circunstanciado)', arquivo: 'Capitulo_04.html' },
+                { titulo: 'Capítulo 5 - Meios Extraordinários: Introdução', arquivo: 'Capitulo_05_intro.html' },
+                { titulo: 'Capítulo 5.5.1.1 - Afastamento do Sigilo Bancário', arquivo: 'Capitulo_05_01_1.html' },
+                { titulo: 'Capítulo 5.5.1.2 - Análise de Dados Bancários', arquivo: 'Capitulo_05_01_2.html' },
+                { titulo: 'Capítulo 5.5.1.3 - Análise de Dados Cambiais', arquivo: 'Capitulo_05_01_3.html' },
+                { titulo: 'Capítulo 5.5.1.4 - Análise de Ativos Virtuais', arquivo: 'Capitulo_05_01_4.html' },
+                { titulo: 'Capítulo 5.5.1.5/6 - Outros Dados Financeiros e Fintechs', arquivo: 'Capitulo_05_01_5.html' },
+                { titulo: 'Capítulo 5.5.2 - Afastamento do Sigilo Fiscal', arquivo: 'Capitulo_05_02.html' },
+                { titulo: 'Capítulo 5.5.3 - Afastamento do Sigilo Telefônico', arquivo: 'Capitulo_05_03.html' },
+                { titulo: 'Capítulo 5.5.4 - Afastamento do Sigilo Telemático', arquivo: 'Capitulo_05_04.html' },
+                { titulo: 'Capítulo 5.5.5 - Representação por Ação Controlada', arquivo: 'Capitulo_05_05.html' },
+                { titulo: 'Capítulo 5.5.6 - Infiltração Policial', arquivo: 'Capitulo_05_06.html' },
+                { titulo: 'Capítulo 5.5.7 - Cooperação Internacional', arquivo: 'Capitulo_05_07a.html' },
+                { titulo: 'Capítulo 5.5.8 - Compartilhamento de Provas', arquivo: 'Capitulo_05_07b.html' },
+                { titulo: 'Capítulo 5.5.9 - Captação Ambiental', arquivo: 'Capitulo_05_07.html' },
+                { titulo: 'Capítulo 5.5.10 - Busca e Apreensão', arquivo: 'Capitulo_05_10.html' },
+                { titulo: 'Capítulo 5.5.11 - Colaboração Premiada', arquivo: 'Capitulo_05_08.html' },
+                { titulo: 'Capítulo 6 - Uso da Inteligência Artificial', arquivo: 'Capitulo_06.html' },
+                { titulo: 'Capítulo 7 - Apoio Institucional', arquivo: 'Capitulo_07.html' },
+                { titulo: 'Capítulo 8 - Aspectos Finais', arquivo: 'Capitulo_08.html' }
+            ]
+        },
         'pvat_mod_1': {
             path: 'PVAT_MOD_1',
             capitulos: [
@@ -1892,12 +1926,17 @@ document.addEventListener('DOMContentLoaded', () => {
             btnEstudado.style.display = 'none';
 
             if(disc) {
-                disc.capitulos.forEach((titulo, idx) => {
+                disc.capitulos.forEach((cap, idx) => {
                     const i = idx + 1;
-                    const num = i.toString().padStart(2, '0');
                     const opt = document.createElement('option');
-                    opt.value = `Capitulo_${num}.html`;
-                    opt.textContent = `Capítulo ${i} - ${titulo}`;
+                    if (typeof cap === 'string') {
+                        const num = i.toString().padStart(2, '0');
+                        opt.value = `Capitulo_${num}.html`;
+                        opt.textContent = `Capítulo ${i} - ${cap}`;
+                    } else {
+                        opt.value = cap.arquivo;
+                        opt.textContent = cap.titulo;
+                    }
                     matCap.appendChild(opt);
                 });
                 matCap.disabled = false;

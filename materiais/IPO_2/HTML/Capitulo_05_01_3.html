@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.1.3 - Análise de Dados Cambiais</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        blockquote { border-left: 4px solid #cbd5e0; margin: 15px 0; padding: 10px 20px; background: #f7fafc; font-style: italic; color: #4a5568; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.1.3 - Análise de Dados Cambiais</h1>
+        <div class="subtitle">Quebra de sigilo cambial, Sistema Câmbio do BCB, eFX e indícios investigativos</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Afastamento do Sigilo Cambial</a></li>
+            <li><a href="#sec2">2. Operações de Câmbio: compreensão e motivação da quebra</a></li>
+            <li><a href="#sec3">3. Os dados do Sistema Câmbio (mercado primário)</a></li>
+            <li><a href="#sec4">4. Sistema eFX</a></li>
+            <li><a href="#sec5">5. Arquivos do Sistema Câmbio do BCB - CAM021 e ACAM204</a></li>
+            <li><a href="#sec6">6. Arquivo do eFX - ACAM220</a></li>
+            <li><a href="#sec7">7. Indícios, fraudes e cruzamento de dados</a></li>
+            <li><a href="#sec8">8. Síntese - hipóteses de quebra cambial</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Afastamento do Sigilo Cambial</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> O afastamento do sigilo cambial nada mais é do que uma <strong>espécie de afastamento de sigilo financeiro</strong>. Todos os fundamentos tratados no item sobre a quebra bancária se aplicam à quebra de sigilo de operações de câmbio. <span class="ref-pagina">(p. 209)</span>
+        </div>
+
+        <p>Mesmo que <strong>não tenha havido, no início, a inclusão da quebra de sigilo cambial no pedido judicial deferido</strong>, informações, dados e documentos destas operações podem ser requisitados diretamente das instituições financeiras para as quais foram direcionadas as ordens de afastamento de sigilo contido no extrato do Sisbajud. Isso ocorre porque o modelo de representação constante do Simba contém um pedido complementar com cláusula genérica. <span class="ref-pagina">(p. 209)</span></p>
+
+        <div class="box-purple">
+            <strong>Cláusula genérica do modelo Simba:</strong>
+            <blockquote>"Que seja autorizado a esta autoridade policial e a peritos criminais designados para atuar no caso, requisitar diretamente às instituições financeiras, dados e documentos de suporte das operações financeiras realizadas no período de afastamento do sigilo, bem como aqueles relacionados a cadastros dos clientes e análises de crédito feito nas próprias instituições pela área de compliance ou de controles internos."</blockquote>
+            <span class="ref-pagina">(p. 209-210)</span>
+        </div>
+
+        <h3>Indícios de operações de câmbio nos dados do Simba</h3>
+        <div class="box-orange">
+            Os dados do sigilo bancário afastado por meio do Simba podem demonstrar movimentações financeiras (origem/destino) vinculadas a operações de câmbio. Isso ocorre quando os extratos bancários mostram: <span class="ref-pagina">(p. 210)</span>
+            <ul>
+                <li>Movimentações com <strong>código de lançamento "108"</strong> no campo <strong>"tipo_lançamento"</strong>;</li>
+                <li>Descrição da atividade com a expressão <strong>"câmbio"</strong> no campo <strong>"lancamento_descricao"</strong>;</li>
+                <li>Transferências cujo campo de <strong>origem/destino aponte para instituição que opere câmbio</strong> (ex.: corretoras de câmbio).</li>
+            </ul>
+        </div>
+
+        <p>Na representação modelo consta pedido complementar para as instituições financeiras encaminharem a <strong>documentação suporte das operações de câmbio</strong>, isto é, além dos contratos de câmbio, eventuais documentos que originaram a operação (Declarações de Importação, Registros de Exportação, Conhecimento de Transporte, Financiamento de exportações etc.). <span class="ref-pagina">(p. 210)</span></p>
+
+        <div class="box-purple">
+            <strong>Pedido complementar ao Banco Central do Brasil:</strong>
+            <blockquote>"Que sejam fornecidos pelo Banco Central do Brasil, em meio eletrônico, planilha eletrônica e dados tabulados, todos os registros existentes de remessas e recebimentos de recursos internacionais e de operações de câmbio, bem como outros registros de manutenção de recursos no exterior, relacionados aos investigados."</blockquote>
+            <span class="ref-pagina">(p. 210)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - Quando suspeitar de câmbio no extrato bancário</span>
+            <ul>
+                <li><strong>108</strong> - código de lançamento</li>
+                <li><strong>"câmbio"</strong> - palavra na descrição</li>
+                <li><strong>Corretora</strong> - na origem/destino</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Operações de Câmbio: compreensão e motivação da quebra</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> O <strong>mercado de câmbio</strong> é um segmento do Sistema Financeiro Nacional que trata das operações de câmbio, tanto para <strong>negociar moeda estrangeira em espécie</strong>, quanto para <strong>transferir divisas internacionalmente</strong> ou <strong>arbitrar a compra e venda de moeda estrangeira</strong>, tudo sob a supervisão do <strong>Banco Central do Brasil</strong>. <span class="ref-pagina">(p. 211)</span>
+        </div>
+
+        <h3>Três categorias de investigações que motivam a quebra do sigilo cambial</h3>
+
+        <table>
+            <tr>
+                <th>Categoria</th>
+                <th>Detalhamento</th>
+            </tr>
+            <tr>
+                <td><strong>1. Crimes cambiais propriamente ditos</strong></td>
+                <td>
+                    Instituição financeira sem autorização (<strong>art. 16 - Lei 7.492/86</strong>);<br>
+                    Fraude cambial (<strong>art. 21 - Lei 7.492/86</strong>);<br>
+                    Evasão de divisas (<strong>art. 22 - Lei 7.492/86</strong>).
+                </td>
+            </tr>
+            <tr>
+                <td><strong>2. Gestão fraudulenta ou temerária</strong></td>
+                <td>
+                    <strong>Art. 4º - Lei 7.492/86</strong> - de instituições financeiras que atuam no mercado de câmbio, além das <strong>fraudes nos serviços de eFX</strong>.
+                </td>
+            </tr>
+            <tr>
+                <td><strong>3. Investigação patrimonial / Lavagem de dinheiro</strong></td>
+                <td>
+                    Investigação patrimonial em sentido estrito ou a que resulta na investigação de lavagem de dinheiro, baseadas na expressão <strong>"siga o dinheiro"</strong>.
+                </td>
+            </tr>
+        </table>
+        <p class="ref-pagina">(p. 211)</p>
+
+        <div class="box-green">
+            <strong>Registro obrigatório:</strong> O Banco Central do Brasil exige que <strong>todas as operações sejam registradas no Sistema Câmbio</strong>, sejam aquelas decorrentes do <strong>mercado primário</strong> (entre instituições e seus clientes) ou do <strong>mercado secundário</strong> (interbancário). <span class="ref-pagina">(p. 211)</span>
+        </div>
+
+        <p>Portanto, a quebra cambial do Sistema Câmbio do BCB é uma <strong>fonte primordial e estruturada</strong> dos registros das operações de câmbio no país. <span class="ref-pagina">(p. 211)</span></p>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Os dados do Sistema Câmbio (mercado primário)</h2>
+
+        <div class="box-blue">
+            Os dados que interessam à Polícia Federal, decorrentes do sistema câmbio no <strong>mercado primário</strong>, são transmitidos ao BCB pelas instituições autorizadas a operar no mercado, basicamente por meio de dois arquivos: <strong>CAM0021</strong> e <strong>ACAM204</strong>. <span class="ref-pagina">(p. 212)</span>
+        </div>
+
+        <p>Atualmente, conforme o <strong>Anexo I da Resolução nº 277, de 31 de dezembro de 2022</strong>, o BCB exige que sejam prestadas informações mínimas sobre as operações cambiais: <span class="ref-pagina">(p. 212)</span></p>
+
+        <table>
+            <tr><th>Item</th><th>Informação exigida</th></tr>
+            <tr><td>I</td><td>Identificação da instituição autorizada a operar no mercado de câmbio e, se houver, da intermediadora (nomes e CNPJ)</td></tr>
+            <tr><td>II</td><td>Identificação do cliente (observada a Circular nº 3.978, de 23/01/2020 - PLD/FTP)</td></tr>
+            <tr><td>III</td><td>Número da operação de câmbio no Sistema Câmbio</td></tr>
+            <tr><td>IV</td><td>Data do evento e se refere a contratação, alteração ou cancelamento</td></tr>
+            <tr><td>V</td><td>Se é compra ou venda de moeda estrangeira</td></tr>
+            <tr><td>VI</td><td>Moeda estrangeira</td></tr>
+            <tr><td>VII</td><td>Valor em moeda estrangeira</td></tr>
+            <tr><td>VIII</td><td>Taxa de câmbio</td></tr>
+            <tr><td>IX</td><td>Valor em reais</td></tr>
+            <tr><td>X</td><td>Valor Efetivo Total (VET), quando exigido</td></tr>
+            <tr><td>XI</td><td>Forma de entrega da moeda estrangeira</td></tr>
+            <tr><td>XII</td><td>Data prevista para liquidação</td></tr>
+            <tr><td>XIII</td><td>Finalidade da operação</td></tr>
+            <tr><td>XIV</td><td>Pagador ou recebedor no exterior, quando exigido</td></tr>
+            <tr><td>XV</td><td>Nome e país do pagador ou recebedor no exterior, se houver</td></tr>
+            <tr><td>XVI</td><td>Relação de vínculo entre o cliente e o pagador/recebedor no exterior, quando exigido</td></tr>
+            <tr><td>XVII</td><td>Percentual de adiantamento sobre a operação, se houver</td></tr>
+            <tr><td>XVIII</td><td>Número do código de capitais estrangeiros, se houver</td></tr>
+            <tr><td>XIX</td><td>Instruções de recebimento ou de pagamento, se houver</td></tr>
+            <tr><td>XX</td><td>Outras informações que o BCB requisitar</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 212)</p>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Sistema eFX</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> O <strong>eFX</strong>, conforme regulamentação do Banco Central do Brasil, é um <strong>modelo de operação de câmbio eletrônico</strong> voltado à realização de <strong>pagamentos e transferências internacionais</strong> de forma simplificada, segura e integrada a plataformas digitais. Representa uma evolução nas operações de câmbio tradicionais, permitindo que instituições financeiras e empresas autorizadas realizem transações em moeda estrangeira com maior agilidade e menor burocracia. <span class="ref-pagina">(p. 213)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>O que o eFX abrange:</strong> <span class="ref-pagina">(p. 214)</span>
+            <ul>
+                <li>Compra de bens e serviços;</li>
+                <li>Transferências entre contas de mesma titularidade no Brasil e no exterior;</li>
+                <li>Remessas para terceiros sem contrapartida, desde que respeitado o limite de <strong>até US$ 10.000,00 por transação</strong>;</li>
+                <li>Saques em moeda estrangeira, tanto no Brasil quanto fora do país;</li>
+                <li>Integração com sistemas eletrônicos e plataformas de pagamento, como o <strong>Pix</strong>, facilitando execução em tempo real e com rastreabilidade.</li>
+            </ul>
+        </div>
+
+        <h3>Marco regulatório do eFX</h3>
+        <table>
+            <tr><th>Norma</th><th>Conteúdo</th></tr>
+            <tr><td><strong>Resolução BCB nº 137</strong></td><td>Requisitos operacionais e tecnológicos das instituições participantes</td></tr>
+            <tr><td><strong>Resolução BCB nº 148</strong></td><td>Critérios de compliance e transparência</td></tr>
+            <tr><td><strong>Resolução CMN nº 4942 e Circular nº 3691</strong></td><td>Auditoria, certificação de sistemas e controle de riscos</td></tr>
+            <tr><td><strong>Resolução BCB nº 277</strong></td><td>Parâmetros gerais de operações abrangidas e instituições autorizadas a prestar serviços eFX</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 214)</p>
+
+        <p>O sistema é especialmente útil para <strong>empresas de comércio eletrônico, fintechs e plataformas de pagamento</strong> que atuam como intermediárias na coleta de recursos em reais e na conversão para moeda estrangeira. A operação deve ser <strong>registrada no Sistema Câmbio do Banco Central, em nome da empresa prestadora do serviço eFX</strong>, assegurando a legalidade e a rastreabilidade. <span class="ref-pagina">(p. 214)</span></p>
+
+        <div class="box-orange">
+            <strong>Arquivo ACAM220:</strong> Utilizado como <strong>documento de suporte do contrato de câmbio eFX</strong>, contém os nomes dos <strong>beneficiários finais</strong> da operação (pessoas em nome de quem são transferidos os recursos). <span class="ref-pagina">(p. 214)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>PROBLEMA CRÍTICO - Vulnerabilidade do eFX:</strong> Tais dados <strong>não são transmitidos para o BCB</strong>. Podem ser facilmente fraudados, pois: <span class="ref-pagina">(p. 214)</span>
+            <ul>
+                <li>a) Permanecem (ou deveriam permanecer) de posse das instituições financeiras autorizadas a operar no mercado de câmbio;</li>
+                <li>b) São elaborados pelos prestadores do serviço, os quais, muitas das vezes, <strong>não são agentes autorizados do mercado</strong>.</li>
+            </ul>
+        </div>
+
+        <h3>Informações exigidas pelo BCB relativas ao eFX</h3>
+        <p>Além do CNPJ da instituição que presta a informação e da data da informação: <span class="ref-pagina">(p. 214-215)</span></p>
+        <ul>
+            <li>a) CNPJ da instituição que realizou a operação;</li>
+            <li>b) Registro da operação cambial ou número da movimentação da conta em reais de não residente;</li>
+            <li>c) CNPJ do prestador de eFX;</li>
+            <li>d) Data da transação;</li>
+            <li>e) Tipo de cliente no Brasil do prestador de eFX;</li>
+            <li>f) CPF/CNPJ do cliente no Brasil do prestador de eFX;</li>
+            <li>g) Nome do cliente no Brasil do prestador de eFX;</li>
+            <li>h) Nome da contraparte da transação no exterior;</li>
+            <li>i) País da contraparte da transação no exterior;</li>
+            <li>j) Moeda da transação;</li>
+            <li>k) Tipo de transação;</li>
+            <li>l) Forma de entrega ou recebimento dos reais;</li>
+            <li>m) Valor da transação na moeda estrangeira;</li>
+            <li>n) Valor da transação na moeda nacional.</li>
+        </ul>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Arquivos do Sistema Câmbio do BCB - CAM021 e ACAM204</h2>
+
+        <div class="box-blue">
+            <strong>Distinção essencial:</strong> <span class="ref-pagina">(p. 215)</span>
+            <ul>
+                <li><strong>CAM021</strong>: traz os registros das operações de câmbio sensibilizadas <strong>na data da contratação</strong>, destinada ao <strong>ajuste de posição de câmbio</strong>.</li>
+                <li><strong>ACAM204</strong>: consolida a transmissão dos dados relativos à <strong>liquidação da operação</strong> e pode ocorrer até o <strong>dia 5 ou 10 do mês subsequente</strong> ao da efetiva realização da operação, a depender da espécie do negócio.</li>
+            </ul>
+        </div>
+
+        <p>O atendimento das ordens de quebra de sigilo cambial pelo BCB, relativos ao mercado primário, deve trazer especialmente os <strong>dados de contratação em uma planilha</strong> e os <strong>dados de liquidação em outra</strong>. Os dados são <strong>complementares entre si</strong>. <span class="ref-pagina">(p. 215)</span></p>
+
+        <div class="box-purple">
+            <strong>Dois pressupostos básicos da análise:</strong> <span class="ref-pagina">(p. 215)</span>
+            <ul>
+                <li><strong>Saber o que se deseja</strong> - relacionado à espécie de crime investigado, suas hipóteses e questões de pesquisa específicas;</li>
+                <li><strong>Conhecer os dados</strong> - exige atenção e atualização.</li>
+            </ul>
+        </div>
+
+        <h3>Principais campos das planilhas de Contratação e Liquidação</h3>
+        <table>
+            <tr><th>Campo</th><th>Planilha Contratação</th><th>Planilha Liquidação</th></tr>
+            <tr><td><strong>Data Evento / Data Contratação</strong></td><td>Data da contratação da operação</td><td>Data da contratação da operação</td></tr>
+            <tr><td><strong>Data Movimento</strong></td><td>Data do registro no sistema da contratação</td><td>NDR</td></tr>
+            <tr><td><strong>Data Limite Liquidação</strong></td><td>Data limite prevista para liquidação (entrega efetiva da moeda)</td><td>NDR</td></tr>
+            <tr><td><strong>Data da Liquidação</strong></td><td>NDR</td><td>Data da liquidação (entrega efetiva da moeda)</td></tr>
+            <tr><td><strong>Tipo Registro</strong></td><td>Por mensagem ou arquivo</td><td>Por mensagem ou arquivo</td></tr>
+            <tr><td><strong>Tipo Operação (Compra/Venda)</strong></td><td>Sob a ótica da IF, não do cliente</td><td>Sob a ótica da IF, não do cliente</td></tr>
+            <tr><td><strong>Tipo Contrato</strong></td><td>Exportação, Importação, Transferência Financeira do/para Exterior</td><td>Exportação, Importação, Transferência Financeira do/para Exterior</td></tr>
+            <tr><td><strong>Natureza Fato Resumida / Natureza</strong></td><td>Motivação econômica (Circular 3.690/2013, revogada pela Res. BCB 277/2022)</td><td>Motivação econômica (Circular 3.690/2013, revogada pela Res. BCB 277/2022)</td></tr>
+            <tr><td><strong>Natureza Grupo / Grupo</strong></td><td>Código do grupo (Anexo Circ. 3.690/2013, revogados pela Res. BCB 277/2022)</td><td>Código do grupo (Anexo Circ. 3.690/2013, revogados pela Res. BCB 277/2022)</td></tr>
+            <tr><td><strong>IF Proprietária</strong></td><td>Instituição autorizada que detém a operação (geralmente quem contratou)</td><td>Instituição autorizada que detém a operação (geralmente quem contratou)</td></tr>
+            <tr><td><strong>Contrato - IF Contratante</strong></td><td>Instituição autorizada que originalmente contratou</td><td>NDR</td></tr>
+            <tr><td><strong>Corretora</strong></td><td>Corretora de câmbio que intermediou, se houver</td><td>Corretora de câmbio que intermediou, se houver</td></tr>
+            <tr><td><strong>Cliente</strong></td><td>Cliente da operação</td><td>Cliente da operação</td></tr>
+            <tr><td><strong>Pagador/Recebedor no Exterior (na Liquidação)</strong></td><td>NDR</td><td>Nome do pagador/recebedor no exterior</td></tr>
+            <tr><td><strong>Pagador/Recebedor no Exterior (na Contratação)</strong></td><td>Descontinuado</td><td>NDR</td></tr>
+            <tr><td><strong>País do Pagador/Recebedor (Liquidação)</strong></td><td>NDR</td><td>Nome do país pagador/recebedor</td></tr>
+            <tr><td><strong>País do Pagador/Recebedor (Contratação)</strong></td><td>Descontinuado</td><td>Nome do país pagador/recebedor</td></tr>
+            <tr><td><strong>Número Contrato Câmbio</strong></td><td>Número do registro gerado pelo Sistema Câmbio</td><td>Número do registro gerado pelo Sistema Câmbio</td></tr>
+            <tr><td><strong>Nº do Contrato (antigo)</strong></td><td>NDR</td><td>Descontinuado</td></tr>
+            <tr><td><strong>Moeda</strong></td><td>Moeda estrangeira objeto da operação</td><td>Moeda estrangeira objeto da operação</td></tr>
+            <tr><td><strong>Forma Entrega Moeda</strong></td><td>Anexo XIX da Circular 3.690/2013</td><td>Anexo XIX da Circular 3.690/2013</td></tr>
+            <tr><td><strong>Outras</strong></td><td>Informações complementares (campo livre)</td><td>Informações complementares (em outra coluna)</td></tr>
+            <tr><td><strong>RDE</strong></td><td>Registro Declaratório Eletrônico (capitais estrangeiros)</td><td>Registro Declaratório Eletrônico (capitais estrangeiros)</td></tr>
+            <tr><td><strong>Número da DI</strong></td><td>NDR</td><td>Em outra coluna</td></tr>
+            <tr><td><strong>Valor Contratado ME</strong></td><td>Valor contratado em moeda estrangeira</td><td>NDR</td></tr>
+            <tr><td><strong>Valor Contratado Efetivo ME</strong></td><td>Descontinuado</td><td>NDR</td></tr>
+            <tr><td><strong>Valor Liquidado (Moeda)</strong></td><td>NDR</td><td>Valor liquidado em moeda estrangeira</td></tr>
+            <tr><td><strong>Valor Contratado USD</strong></td><td>Equivalente em dólar dos EUA</td><td>NDR</td></tr>
+            <tr><td><strong>Valor Contratado Efetivo USD</strong></td><td>Descontinuado</td><td>NDR</td></tr>
+            <tr><td><strong>Valor Liquidado USD</strong></td><td>NDR</td><td>Equivalente em dólar dos EUA</td></tr>
+            <tr><td><strong>Valor Contratado MN</strong></td><td>Valor contratado em moeda nacional (após conversão pela taxa)</td><td>NDR</td></tr>
+            <tr><td><strong>Valor Contratado Efetivo MN</strong></td><td>Descontinuado</td><td>NDR</td></tr>
+            <tr><td><strong>Prazo Liquidação (dias corridos declarado)</strong></td><td>Prazo entre data prevista de liquidação e contratação</td><td>NDR</td></tr>
+            <tr><td><strong>Percentual</strong></td><td>Percentual de adiantamento em MN (se houver)</td><td>NDR</td></tr>
+            <tr><td><strong>Taxa Câmbio</strong></td><td>Taxa de câmbio pactuada na contratação</td><td>NDR</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 216-219)</p>
+
+        <div class="box-green">
+            <strong>Apoio analítico:</strong> A complexidade do conjunto de dados pode gerar alguma preocupação, mas atualmente a <strong>Polícia Federal tem um sistema de BI</strong> para visualizar os dados, permitindo análises por outros métodos de trabalho com planilhas. <span class="ref-pagina">(p. 219)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - CAM021 vs ACAM204</span>
+            <ul>
+                <li><strong>CAM021</strong> = <strong>C</strong>ontratação</li>
+                <li><strong>ACAM204</strong> = Liquid<strong>A</strong>ção (dia 5 ou 10 do mês seguinte)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Arquivo do eFX - ACAM220</h2>
+
+        <div class="box-blue">
+            <strong>Importância estratégica:</strong> Os dados das operações realizadas via eFX, cada vez mais presentes no mercado de câmbio digital, têm sido utilizados como meio para <strong>transações internacionais com menor rastreabilidade tradicional</strong>, o que os torna especialmente sensíveis em apurações voltadas às novas tecnologias de <strong>lavagem de dinheiro</strong>. <span class="ref-pagina">(p. 219)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Lacuna do modelo Simba:</strong> Apesar da importância estratégica, o modelo de representação do Simba <strong>ainda não contempla, de forma explícita</strong>, os elementos normativos e operacionais que viabilizam a obtenção de informações oriundas do eFX. Essa lacuna decorre de adversidades como: <span class="ref-pagina">(p. 219-220)</span>
+            <ul>
+                <li>Multiplicidade de atores envolvidos;</li>
+                <li>Descentralização das plataformas;</li>
+                <li>Natureza híbrida das operações (financeiras e tecnológicas).</li>
+            </ul>
+        </div>
+
+        <p>O <strong>arquivo ACAM220</strong> constitui o principal instrumento de transmissão de dados ao BCB quando solicitado, voltado especificamente às operações realizadas por meio do serviço de eFX, bem como às demais aquisições e transferências internacionais. Consolida informações operacionais e financeiras, permitindo ao BCB exercer controle e supervisão sobre transações de câmbio eletrônico. <span class="ref-pagina">(p. 220)</span></p>
+
+        <h3>Exemplo prático - assinatura de plataforma de streaming</h3>
+        <div class="box-purple">
+            Cliente realiza a assinatura de uma plataforma internacional de streaming. O pagamento é processado por uma <strong>instituição de pagamento sediada no Brasil</strong> (intermediária), que mantém uma <strong>API</strong> permitindo à plataforma digital identificar que o pagamento foi efetuado. O serviço financeiro que viabiliza essa transação internacional - convertendo o valor pago em reais para moeda estrangeira e transferindo-o ao exterior - é o <strong>eFX</strong>. <span class="ref-pagina">(p. 220)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>OCULTAÇÃO DO CLIENTE FINAL:</strong> A transferência internacional <strong>não é realizada diretamente pela instituição de pagamento</strong>, mas por uma instituição autorizada a operar no mercado de câmbio, que <strong>consolida diversas operações</strong> e realiza a remessa <strong>em nome do prestador de eFX, e não em nome do cliente final</strong>. Em uma eventual quebra de sigilo cambial, o que se observa na contraparte da operação internacional é somente o nome do prestador de eFX, <strong>ocultando-se tanto o cliente quanto a origem específica dos recursos</strong>. <span class="ref-pagina">(p. 221)</span>
+        </div>
+
+        <h3>Como obter o ACAM220</h3>
+        <div class="box-green">
+            Os dados detalhados dessas operações devem constar no arquivo ACAM220, que deve ser <strong>mantido no dossiê da operação pela instituição autorizada a operar no mercado de câmbio</strong>. <span class="ref-pagina">(p. 221)</span>
+            <ul>
+                <li><strong>Hipótese 1:</strong> Quebra cambial do <strong>prestador de serviço eFX</strong>, obtendo o arquivo ACAM220 com a transação do investigado;</li>
+                <li><strong>Hipótese 2:</strong> Pedido judicial específico de informações ao prestador de eFX para fornecer dados de remessas em nome do investigado;</li>
+                <li><strong>Cautela:</strong> Diligenciamento direto junto ao prestador de eFX significaria <strong>vulneração significativa da compartimentação da investigação</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Indícios, fraudes e cruzamento de dados</h2>
+
+        <div class="box-red">
+            <strong>Vulnerabilidades do sistema atual de eFX:</strong> <span class="ref-pagina">(p. 221)</span>
+            <ul>
+                <li>Muitas instituições financeiras só disponibilizam o ACAM220 quando <strong>formalmente cobradas pelo Banco Central</strong>;</li>
+                <li>É possível que o ACAM220 seja formalizado <strong>dissociadamente do próprio contrato de câmbio</strong>;</li>
+                <li>Os <strong>arquivos são editáveis</strong>, abrindo margem para fraudes.</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Modus operandi - fracionamento e unificação:</strong> Investigações já demonstraram que indivíduos sob persecução penal têm <strong>manipulado esses dados para ocultar a verdadeira origem dos recursos</strong>. Trata-se de <strong>operações individualmente pequenas</strong>, em valores não elevados para cada beneficiário, <strong>unificadas em operações de câmbio em valores suntuosos</strong>. <span class="ref-pagina">(p. 221-222)</span>
+        </div>
+
+        <p>Como envolvem <strong>centenas de milhares de transações abrangidas por um único contrato de câmbio</strong>, fica muito fácil manipular esse alto volume de dados para <strong>ocultar ou dissimular nomes ou valores</strong>. A inclusão ou exclusão de pessoas, ou mesmo adulteração de valores, seria circunstância de <strong>dificílima aferição</strong> ao nível de fiscalização ou investigação. <span class="ref-pagina">(p. 222)</span></p>
+
+        <h3>Como obter o ACAM220 com fidedignidade</h3>
+        <div class="box-blue">
+            Torna-se <strong>ineficaz exigir diretamente do Banco Central</strong> o fornecimento desses arquivos. A obtenção deve ser feita por meio de <strong>diligências específicas</strong>. Duas alternativas viáveis: <span class="ref-pagina">(p. 222)</span>
+            <ul>
+                <li><strong>Mandado de busca e apreensão</strong> na instituição responsável;</li>
+                <li><strong>Ordem judicial direta</strong>, determinando a entrega do arquivo ACAM220 em <strong>até dois dias úteis</strong>, sob pena de <strong>multa diária por descumprimento</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="box-green">
+            <strong>Cruzamento de dados (essencial):</strong> No caso específico do ACAM220 relativo ao eFX, recomenda-se o cruzamento das informações com: <span class="ref-pagina">(p. 222)</span>
+            <ul>
+                <li>Dados cambiais registrados no <strong>Sistema Câmbio do Banco Central</strong>;</li>
+                <li>Dados bancários disponíveis no <strong>Simba</strong>.</li>
+            </ul>
+            Esses sistemas oferecem <strong>visões complementares</strong> da movimentação financeira.
+        </div>
+
+        <h3>O que o cruzamento permite detectar</h3>
+        <div class="box-purple">
+            <span class="ref-pagina">(p. 222)</span>
+            <ul>
+                <li>Identificar com maior precisão o <strong>destino e a origem</strong> dos valores movimentados internacionalmente;</li>
+                <li>Detectar a <strong>geração de moeda estrangeira em espécie por meio de interpostas pessoas</strong> (<em>laranjas</em> ou <em>fantasmas</em>);</li>
+                <li>Detectar a <strong>saída não autorizada de divisas</strong> do país;</li>
+                <li>Detectar <strong>outras fraudes cambiais</strong>.</li>
+            </ul>
+            Abordagem investigativa baseada em <strong>material probatório mais robusto e tecnicamente estruturado</strong>.
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - Fontes para cruzamento</span>
+            <ul>
+                <li><strong>ACAM220</strong> (eFX)</li>
+                <li>+ <strong>Sistema Câmbio do BCB</strong> (CAM021 + ACAM204)</li>
+                <li>+ <strong>Simba</strong> (dados bancários)</li>
+                <li>= <strong>Visão completa</strong> da movimentação</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Síntese - hipóteses de quebra cambial</h2>
+
+        <div class="box-blue">
+            É <strong>inviável manter um elenco exaustivo</strong> das possibilidades de análise de dados cambiais no contexto de investigações policiais, dada a complexidade e a constante evolução das práticas criminosas envolvendo o mercado de câmbio. No entanto, exemplificativamente, é possível destacar algumas das situações mais recorrentes nas quais a quebra de sigilo cambial se mostra essencial: <span class="ref-pagina">(p. 222)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Situações recorrentes:</strong>
+            <ul>
+                <li><strong>a) Gestão fraudulenta ou temerária</strong> de instituições financeiras que atuam no segmento de câmbio, incluindo <strong>fraudes estruturadas no serviço de eFX</strong>;</li>
+                <li><strong>b) Operações não autorizadas</strong> realizadas por instituições financeiras ou por pessoas jurídicas que <strong>simulam legitimidade</strong> para atuar no mercado de câmbio.</li>
+            </ul>
+            <span class="ref-pagina">(p. 222)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo geral - Análise de Dados Cambiais</span>
+            <ul>
+                <li><strong>Base normativa:</strong> Lei 7.492/86 (arts. 4º, 16, 21 e 22) + Resolução BCB nº 277/2022</li>
+                <li><strong>Sistema Câmbio (mercado primário):</strong> CAM021 (contratação) + ACAM204 (liquidação)</li>
+                <li><strong>eFX:</strong> ACAM220 - editável, dados não vão automaticamente ao BCB</li>
+                <li><strong>Limite eFX:</strong> US$ 10.000,00 por transação</li>
+                <li><strong>Indícios no Simba:</strong> código "108", expressão "câmbio", corretoras na origem/destino</li>
+                <li><strong>Obtenção do ACAM220:</strong> busca e apreensão OU ordem judicial direta (2 dias úteis, multa)</li>
+                <li><strong>Cruzamento:</strong> ACAM220 + Sistema Câmbio + Simba</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

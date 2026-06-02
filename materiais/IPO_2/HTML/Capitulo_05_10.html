@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.10 - Representação por Busca e Apreensão</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.10 - Representação por Busca e Apreensão</h1>
+        <div class="subtitle">Busca domiciliar, busca pessoal, acesso a mídias e cadeia de custódia</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Aspectos técnico-jurídicos da medida cautelar</a></li>
+            <li><a href="#sec2">2. Busca domiciliar - requisitos e fundamentos</a></li>
+            <li><a href="#sec3">3. O conceito de domicílio</a></li>
+            <li><a href="#sec4">4. Escritórios de advocacia e órgãos públicos</a></li>
+            <li><a href="#sec5">5. Mandado judicial - requisitos e levantamentos prévios</a></li>
+            <li><a href="#sec6">6. Execução da busca domiciliar</a></li>
+            <li><a href="#sec7">7. Apreensão de bens, mídias e criptoativos</a></li>
+            <li><a href="#sec8">8. Documentação e encerramento</a></li>
+            <li><a href="#sec9">9. Memorando de Entendimento PF-OAB</a></li>
+            <li><a href="#sec10">10. Busca pessoal</a></li>
+            <li><a href="#sec11">11. Acesso ao conteúdo de mídias apreendidas</a></li>
+            <li><a href="#sec12">12. Cadeia de custódia</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Aspectos Técnico-Jurídicos da Medida Cautelar</h2>
+
+        <div class="box-blue">
+            <strong>Localização no CPP:</strong> Embora previstas em capítulo próprio - DA BUSCA E DA APREENSÃO, constante do título DAS PROVAS do Código de Processo Penal, Aury Lopes Jr. (2024) observa que "a sistemática do CPP não é, tecnicamente, a melhor, pois mistura uma medida cautelar com meios de prova e, ainda, sob uma mesma designação, dois institutos diversos". <span class="ref-pagina">(p. 440)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Distinção doutrinária (Távora e Alencar, 2009):</strong>
+            <ul>
+                <li><strong>Busca:</strong> é a procura, a diligência que objetiva encontrar o que se deseja.</li>
+                <li><strong>Apreensão:</strong> é medida de constrição, para acautelar, pôr sob custódia determinado objeto ou pessoa.</li>
+            </ul>
+            <span class="ref-pagina">(p. 440-441)</span>
+        </div>
+
+        <p>No campo jurídico-doutrinário, a busca é uma <strong>medida instrumental</strong>, uma providência adotada com a finalidade de encontrar algo, que, se encontrado, será objeto de apreensão, acautelado (Aury Lopes Jr., 2024). <span class="ref-pagina">(p. 441)</span></p>
+
+        <div class="box-green">
+            <strong>Natureza jurídica (Norberto Avena, 2021):</strong> A busca e apreensão pode assumir natureza jurídica de:
+            <ul>
+                <li><strong>Meio de prova</strong>, no interesse de investigações criminais e processos judiciais; ou</li>
+                <li><strong>Feição assecuratória de direitos</strong>, na hipótese, por exemplo, de sua efetivação em virtude de determinação de arresto.</li>
+            </ul>
+            Para fins do estudo, será tratada como uma <strong>técnica especial (extraordinária) de investigação</strong>, independentemente de sua natureza. <span class="ref-pagina">(p. 441)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Duas espécies (art. 240, caput, do CPP):</strong>
+            <ul>
+                <li><strong>Domiciliar:</strong> quando fundadas razões a autorizarem (art. 240, §1º);</li>
+                <li><strong>Pessoal:</strong> quando houver fundada suspeita de que alguém oculte consigo arma proibida ou objetos (art. 240, §2º).</li>
+            </ul>
+            <span class="ref-pagina">(p. 441)</span>
+        </div>
+
+        <p>A busca e apreensão criminal constitui uma das medidas de maior relevância no curso da investigação, com previsão nos <strong>arts. 240 a 250 do CPP</strong>. É comumente empregada em investigações policiais tratadas como projeto, com o fim de localizar e apreender coisas relacionadas à infração penal. <span class="ref-pagina">(p. 441)</span></p>
+
+        <div class="box-red">
+            <strong>Atenção - Aury Lopes Jr. (2024):</strong> "não se justifica que a autoridade policial (ou o MP) postule a busca e apreensão como primeiro ato de investigação. <strong>Não se busca para investigar, senão que se investiga primeiro</strong> e, só quando necessário, postula-se a busca e apreensão". <span class="ref-pagina">(p. 441-442)</span>
+        </div>
+
+        <p>Na maioria das investigações, junto à representação por busca e apreensão são representadas <strong>outras medidas cautelares</strong>: cautelares reais (sequestro, arresto) e cautelares pessoais (prisão temporária ou preventiva), em virtude do <strong>princípio da oportunidade</strong>, dado que a deflagração de operação policial costuma envolver o cumprimento de diversas medidas judiciais. <span class="ref-pagina">(p. 442)</span></p>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Busca Domiciliar - Requisitos e Fundamentos</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Medida efetivada mediante o ingresso da polícia em residências, quando fundadas razões a autorizarem, na forma do <strong>art. 240, §1º, do CPP</strong>. <span class="ref-pagina">(p. 442)</span>
+        </div>
+
+        <h3>Finalidades (art. 240, §1º, CPP)</h3>
+        <ul>
+            <li>Prender criminosos;</li>
+            <li>Apreender coisas achadas ou obtidas por meios criminosos;</li>
+            <li>Apreender instrumentos de falsificação ou de contrafação e objetos falsificados ou contrafeitos;</li>
+            <li>Apreender armas e munições, instrumentos utilizados na prática de crime ou destinados a fim delituoso;</li>
+            <li>Descobrir objetos necessários à prova de infração ou à defesa do réu;</li>
+            <li>Apreender cartas, abertas ou não, destinadas ao acusado ou em seu poder, quando haja suspeita de que o conhecimento do seu conteúdo possa ser útil à elucidação do fato;</li>
+            <li>Apreender pessoas vítimas de crimes;</li>
+            <li>Colher qualquer elemento de convicção.</li>
+        </ul>
+        <span class="ref-pagina">(p. 442)</span>
+
+        <div class="box-red">
+            <strong>Garantia constitucional (art. 5º, XI, CF):</strong> A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo:
+            <ul>
+                <li>Em caso de <strong>flagrante delito</strong>;</li>
+                <li>Em caso de <strong>desastre</strong>;</li>
+                <li>Para <strong>prestar socorro</strong>;</li>
+                <li>Durante o <strong>dia</strong>, por <strong>determinação judicial</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 442)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - Pressupostos ALTERNATIVOS da busca domiciliar (Aury Lopes Jr.)</span>
+            <ul>
+                <li><strong>CONSENTIMENTO válido do morador</strong> - durante o dia OU à noite</li>
+                <li><strong>FLAGRANTE DELITO</strong> - durante o dia OU à noite</li>
+                <li><strong>ORDEM JUDICIAL</strong> - somente durante o DIA</li>
+            </ul>
+            As demais hipóteses excepcionais (desastre e prestar socorro) <strong>não se aplicam ao processo penal</strong>.
+            <span class="ref-pagina">(p. 442-443)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. O Conceito de Domicílio</h2>
+
+        <div class="box-blue">
+            <strong>Código Civil (pessoa natural):</strong>
+            <ul>
+                <li>Lugar onde estabelece a sua residência com ânimo definitivo (art. 70);</li>
+                <li>Se tiver várias residências onde viva, qualquer uma delas (art. 71);</li>
+                <li>Onde se encontra, se não tiver residência habitual (art. 73);</li>
+                <li>Onde exerce sua profissão (art. 72).</li>
+            </ul>
+            <span class="ref-pagina">(p. 443)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Extensão pelo CPP (art. 246):</strong> O conceito estende-se ao <strong>compartimento habitado ou aposento ocupado</strong>, de habitação coletiva ou em compartimento não aberto ao público, onde alguém exerce profissão ou atividade. Assim, não somente o escritório individual do profissional, mas também sua sala coletiva de trabalho (inclusive em repartições públicas) está inserida na noção de domicílio. <span class="ref-pagina">(p. 443)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Pessoa jurídica de direito privado (art. 75, IV, CC):</strong> Lugar onde funcionar a respectiva diretoria ou administração, ou onde eleger domicílio especial no seu estatuto ou atos constitutivos. <span class="ref-pagina">(p. 444)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>NÃO são domicílio:</strong> Campos abertos ou terrenos baldios não são considerados domicílios em razão do livre acesso ao público. <span class="ref-pagina">(p. 444)</span>
+        </div>
+
+        <p>Norberto Avena (2021) aponta que escritórios, consultórios, gabinetes de trabalho e similares "estão abrigados pela tutela constitucional, exigindo-se, portanto, ordem judicial para que lá sejam feitas diligências de busca". <span class="ref-pagina">(p. 444)</span></p>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Escritórios de Advocacia e Órgãos Públicos</h2>
+
+        <h3>Escritório de advocacia (Lei nº 8.906/94 - Estatuto da Advocacia)</h3>
+        <div class="box-blue">
+            <strong>Art. 7º, II:</strong> Direito do advogado à <strong>inviolabilidade de seu escritório ou local de trabalho</strong>, bem como de seus instrumentos e correspondências relativos ao exercício da profissão. <span class="ref-pagina">(p. 443)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Art. 7º, §6º - quebra da inviolabilidade:</strong> Presentes indícios de autoria e materialidade da prática de crime por parte de advogado, a autoridade judiciária competente poderá decretar a quebra da inviolabilidade, em <strong>decisão motivada</strong>, expedindo mandado de busca e apreensão <strong>específico e pormenorizado</strong>, a ser cumprido na <strong>presença de representante da OAB</strong>. <span class="ref-pagina">(p. 443)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Vedação expressa:</strong> Em qualquer hipótese, veda-se a utilização dos documentos, das mídias e dos objetos pertencentes a clientes do advogado averiguado, bem como dos demais instrumentos de trabalho que contenham informações sobre clientes. <span class="ref-pagina">(p. 443)</span>
+        </div>
+
+        <h3>IN nº 255/2023 - DG/PF</h3>
+        <div class="box-green">
+            <strong>Art. 80:</strong> A busca em escritório de advocacia ou residência de advogado (se for seu local de trabalho) será antecedida de <strong>comunicação à representação da OAB</strong>, que poderá indicar representante para acompanhar a diligência, preservado o sigilo da investigação.
+            <br><br>
+            <strong>Parágrafo único:</strong> O não comparecimento do representante será registrado e <strong>não impedirá a conclusão da diligência</strong>. <span class="ref-pagina">(p. 443)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Outras hipóteses na IN 255/2023:</strong>
+            <ul>
+                <li><strong>Art. 79:</strong> A busca em repartições públicas poderá ser antecedida de contato com o dirigente do órgão, caso não haja risco de frustrar os objetivos da medida.</li>
+                <li><strong>Art. 81:</strong> A diligência em locais de missão diplomática e consulados seguirá previsões em normativos específicos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 443)</span>
+        </div>
+
+        <h3>Cumprimento em órgãos públicos</h3>
+        <p>A execução em prédios públicos, sem perder de vista a segurança da equipe, deve <strong>reduzir o impacto da medida na imagem do órgão e de seus servidores</strong>. <span class="ref-pagina">(p. 454)</span></p>
+
+        <p>A autoridade responsável pela investigação, sempre que possível, deve indicar, na representação, <strong>os setores, salas ou estações de trabalho que sofrerão busca e apreensão</strong>, de modo a melhor direcionar os esforços da equipe de cumprimento. <span class="ref-pagina">(p. 454)</span></p>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Mandado Judicial - Requisitos e Levantamentos Prévios</h2>
+
+        <div class="box-blue">
+            <strong>Art. 243 do CPP - requisitos do mandado:</strong>
+            <ul>
+                <li>Indicar, o mais precisamente possível, a <strong>casa em que será realizada a diligência</strong> e o nome do respectivo <strong>proprietário ou morador</strong>;</li>
+                <li>No caso de busca pessoal: o <strong>nome da pessoa</strong> que terá de sofrê-la ou os <strong>sinais que a identifiquem</strong>;</li>
+                <li>Mencionar o <strong>motivo e os fins da diligência</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 441, 444)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Levantamentos prévios:</strong> O levantamento de dados realizado pelos policiais, a subsidiar a representação e a decisão judicial, deverá ser detalhado ao máximo, consignando-se os detalhes do imóvel, de sua localização, imagem ou da pessoa buscada. <span class="ref-pagina">(p. 444)</span>
+        </div>
+
+        <p>É <strong>imprescindível a confirmação de dados</strong> relativos ao local alvo da diligência. A pesquisa de endereços em sistemas, por regra, <strong>não é suficiente</strong> para confirmação. A investigação deve ser complementada com outros recursos, como <strong>história cobertura, vigilância, entrevista</strong> ou outro meio. <span class="ref-pagina">(p. 444)</span></p>
+
+        <div class="box-red">
+            <strong>Riscos da falha de confirmação:</strong> Erros podem resultar de dados cadastrais defasados, mudanças de endereço dos alvos ou locais não usados pelos investigados. O ingresso em domicílios de pessoas sem ligação com a investigação:
+            <ul>
+                <li>Causa prejuízo à imagem da instituição;</li>
+                <li>Pode gerar descrédito à operação;</li>
+                <li>Viola a intimidade de terceiros;</li>
+                <li>Pode dar origem a <strong>ações de reparação de danos contra o Estado</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 444-445)</span>
+        </div>
+
+        <p>É <strong>prudente e necessário</strong> que seja feita a <strong>conferência dos levantamentos antes da deflagração</strong> da operação, dando segurança às equipes e evitando responsabilização do órgão. <span class="ref-pagina">(p. 445)</span></p>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Execução da Busca Domiciliar</h2>
+
+        <div class="box-blue">
+            <strong>Primeiro aspecto a observar:</strong> Muito antes de qualquer outro - é a <strong>segurança da equipe</strong>, das pessoas que habitam o local e de terceiros. <span class="ref-pagina">(p. 445)</span>
+        </div>
+
+        <p>Fatores como periculosidade do alvo, itinerários, localização e perímetro podem indicar necessidade de <strong>equipe reforçada</strong> ou acionamento dos <strong>Grupos de Pronta Intervenção (GPI)</strong> ou do <strong>Comando de Operações Táticas (COT)</strong>. <span class="ref-pagina">(p. 445)</span></p>
+
+        <div class="box-purple">
+            <strong>Composição da equipe (Manual de Planejamento Operacional da PF):</strong>
+            <ul>
+                <li>Um <strong>buscador</strong>;</li>
+                <li>Um <strong>avaliador (chefe da equipe)</strong>;</li>
+                <li>Um <strong>registrador</strong>;</li>
+                <li>Quantos <strong>seguranças</strong> se fizerem necessários;</li>
+                <li>Podem integrar policiais líberos, ostensivos, velados ou discretos para entrevistas.</li>
+            </ul>
+            O Manual <strong>não estabelece quantitativo mínimo</strong> de policiais, dada a variabilidade das situações. <span class="ref-pagina">(p. 446)</span>
+        </div>
+
+        <h3>Regras do art. 245 do CPP</h3>
+        <div class="box-orange">
+            <strong>Caput:</strong> As buscas domiciliares deverão, em regra, ser executadas <strong>durante o dia</strong>, salvo se o morador consentir que se realizem à noite, e, antes de ingressarem na casa, os policiais <strong>mostrarão e lerão o mandado</strong> ao morador, intimando-o a abrir a porta. <span class="ref-pagina">(p. 446)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Exceção - art. 74, II, da IN 255/2023:</strong> Nas hipóteses de <strong>potencial confronto, risco à integridade física</strong> de policiais ou de terceiros ou <strong>frustração da diligência</strong>, o mandado será lido e exibido <strong>tão logo seja afastado o perigo</strong>. <span class="ref-pagina">(p. 446-447)</span>
+        </div>
+
+        <h3>Procedimento no interior do imóvel</h3>
+        <ul>
+            <li>Identificar quantas pessoas estão presentes e em quais cômodos; <span class="ref-pagina">(p. 447)</span></li>
+            <li>Submetê-las à revista pessoal e reuni-las em um único ambiente; <span class="ref-pagina">(p. 447)</span></li>
+            <li>Privá-las de qualquer comunicação telefônica, sob vigilância; <span class="ref-pagina">(p. 447)</span></li>
+            <li>Após controlado o ambiente, ingressam as <strong>testemunhas</strong> e participantes de outros órgãos; <span class="ref-pagina">(p. 447)</span></li>
+            <li>Buscas <strong>cômodo a cômodo</strong>, acompanhados do residente e das testemunhas; <span class="ref-pagina">(p. 447)</span></li>
+            <li>O local onde forem encontrados os objetos deverá ser <strong>especificado no auto</strong>. <span class="ref-pagina">(p. 447)</span></li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Hipóteses de força e arrombamento (art. 245 CPP):</strong>
+            <ul>
+                <li><strong>§2º:</strong> Em caso de <strong>desobediência</strong>, será arrombada a porta e forçada a entrada;</li>
+                <li><strong>§3º:</strong> Recalcitrando o morador, será permitido o <strong>emprego de força contra coisas</strong> existentes no interior da casa;</li>
+                <li><strong>§4º:</strong> Na <strong>ausência de morador</strong>, autoriza-se a entrada forçada; deve ser intimado vizinho a assistir;</li>
+                <li><strong>§5º:</strong> Se o mandado for específico, os executores intimarão o morador a mostrar o objeto, e havendo atendimento, torna-se desnecessário percorrer todo o imóvel.</li>
+            </ul>
+            <span class="ref-pagina">(p. 447)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Art. 77 da IN 255/2023:</strong> O arrombamento será realizado na presença de <strong>duas testemunhas preferencialmente não policiais</strong>, e os executores adotarão medidas para o imóvel ser <strong>fechado e lacrado</strong> após a busca. Eventuais danos patrimoniais devem ser fundamentados no auto circunstanciado. <span class="ref-pagina">(p. 447)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Art. 248 CPP - moderação:</strong> Tratando-se de casa habitada, a diligência deve se desenvolver de modo que <strong>não moleste os moradores mais do que o indispensável</strong> para o êxito da diligência. <span class="ref-pagina">(p. 447)</span>
+        </div>
+
+        <h3>Presença de advogado durante a execução</h3>
+        <div class="box-purple">
+            O advogado <strong>só deve adentrar no local</strong> durante a execução do mandado <strong>após decisão do chefe da equipe</strong>, em decorrência do princípio da segurança operacional e com esteio na <strong>Súmula Vinculante nº 14 do STF</strong>. Acaso autorizado, <strong>não pode interferir</strong> no trabalho policial; se manifestar contrariedade, deve ser orientado a peticionar ao presidente do inquérito ou ao juiz. <span class="ref-pagina">(p. 447-448)</span>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Apreensão de Bens, Mídias e Criptoativos</h2>
+
+        <div class="box-blue">
+            <strong>Registro detalhado:</strong> Tudo o que for arrecadado deve ser <strong>detalhadamente relacionado</strong> no auto circunstanciado de busca e arrecadação ou apreensão, recomendando-se que as equipes <strong>não documentem genericamente</strong>, mas individualizem os objetos. <span class="ref-pagina">(p. 448)</span>
+        </div>
+
+        <p>As buscas devem ser realizadas <strong>criteriosamente</strong>, evitando-se a arrecadação de materiais desinteressantes à prova. <span class="ref-pagina">(p. 448)</span></p>
+
+        <h3>Aparelhos celulares</h3>
+        <div class="box-orange">
+            <strong>Orientação:</strong> Os dispositivos telefônicos, ao serem localizados, devem, sempre que possível, ser <strong>desligados e/ou colocados em "modo avião"</strong> no momento da cautela, para evitar acesso remoto após a apreensão. Na impossibilidade, podem ser usadas <strong>embalagens bloqueadoras de sinais (faraday bags)</strong>. <span class="ref-pagina">(p. 448)</span>
+        </div>
+
+        <h3>Aeronaves e embarcações</h3>
+        <p>Podem gerar transtornos pela <strong>logística de guarda</strong>. Recomenda-se antecipar a questão, verificando junto aos setores da PF (aviação operacional, polícia marítima). Caso inviável, contato com forças armadas ou iniciativa privada (aeródromos, marinas). <span class="ref-pagina">(p. 448-449)</span></p>
+
+        <div class="box-green">
+            <strong>Depositário fiel:</strong> Quando a apreensão não foi prevista, a nomeação de depositário fiel pode ser a solução. Deve recair, nas possibilidades fáticas, sobre <strong>outra pessoa que não o investigado</strong>. <span class="ref-pagina">(p. 449)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Responsabilidade e alienação antecipada:</strong> A responsabilidade pelos bens apreendidos é do <strong>presidente do inquérito</strong>. São necessárias análise e representação ao juízo, com brevidade, pelo <strong>uso ou alienação antecipada</strong>. Sempre que possível, o pedido deve ser <strong>formulado concomitantemente</strong> ao pedido das buscas. <span class="ref-pagina">(p. 449)</span>
+        </div>
+
+        <h3>Criptoativos</h3>
+        <div class="box-red">
+            <strong>Atenção:</strong> A <strong>mera apreensão de um dispositivo físico de armazenamento de criptoativos não é suficiente</strong> para a efetivação da apreensão. É necessário:
+            <ul>
+                <li>Garantir que o ativo deixará a esfera de disponibilidade do suspeito;</li>
+                <li>Realizar buscas pelas <strong>chaves privadas</strong> de acesso à conta;</li>
+                <li>Buscar por <strong>seed phrases</strong> (sequência de palavras desconexas que permite recuperar uma carteira de criptoativos).</li>
+            </ul>
+            O procedimento varia conforme a localização dos ativos virtuais (carteiras próprias ou de terceiros). <span class="ref-pagina">(p. 449)</span>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Documentação e Encerramento</h2>
+
+        <div class="box-blue">
+            <strong>Auto circunstanciado (art. 245, §7º, CPP):</strong> Encerrada a diligência, os executores lavrarão auto circunstanciado, assinando-o com <strong>duas testemunhas presenciais</strong>, a seguir liberadas, e será fornecida <strong>cópia do mandado de busca</strong> ao responsável pelo local. <span class="ref-pagina">(p. 450)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Art. 247 CPP:</strong> Na hipótese de <strong>não se encontrar a pessoa ou coisa procurada</strong>, os motivos da diligência serão comunicados a quem tiver sofrido a busca, <strong>se o requerer</strong>. <span class="ref-pagina">(p. 450)</span>
+        </div>
+
+        <p>A não localização de item contido no mandado <strong>não dispensa</strong> a formalização do auto circunstanciado, no qual serão consignadas as ocorrências da execução. <span class="ref-pagina">(p. 450)</span></p>
+
+        <div class="box-orange">
+            <strong>Relatório de Diligências (Manual de Planejamento Operacional atualizado):</strong> Documento obrigatório, elaborado pelo <strong>chefe de equipe</strong> ou policial por este designado, com descrição pormenorizada das ações no local, tomando por base autos circunstanciados, autos de arrecadação, laudos, informações, termos de entrevista, oitivas, fotografias, filmagens, registros, esquemas, croquis e outros dados. <span class="ref-pagina">(p. 450)</span>
+        </div>
+
+        <h3>Entrevistas e oitivas no local</h3>
+        <div class="box-purple">
+            <strong>Art. 51 da IN DG/PF nº 255/2023:</strong> Poderá ser determinada a realização de entrevistas por policial federal, <strong>quando não envolver questões complexas e não se tratar do próprio investigado</strong>. A entrevista será registrada em informação de polícia judiciária, acompanhada, quando possível, da gravação do ato. <span class="ref-pagina">(p. 450-451)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Atenção - Avisos de Miranda:</strong> Crucial evitar a <strong>materialização de interrogatório sub-reptício</strong>. Deve-se realizar os "Avisos de Miranda" antes de qualquer tentativa de obtenção de informações com o investigado ou indiciado, cientificando-o dos direitos constitucionais:
+            <ul>
+                <li>Permanecer em silêncio;</li>
+                <li>Não produzir prova contra si;</li>
+                <li>Estar acompanhado de advogado.</li>
+            </ul>
+            <span class="ref-pagina">(p. 451)</span>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Memorando de Entendimento PF-OAB (Lei nº 14.365/2022)</h2>
+
+        <div class="box-blue">
+            <strong>Contexto:</strong> A <strong>Lei nº 14.365/2022</strong> alterou dispositivos da Lei nº 8.906/1994 (Estatuto da Advocacia). Em <strong>junho de 2023</strong>, PF e Conselho Federal da OAB assinaram memorando de entendimento para fixar interpretação conjunta sobre os §§ 6º e seguintes do art. 7º da Lei nº 8.906/1994. <span class="ref-pagina">(p. 452)</span>
+        </div>
+
+        <h3>Recomendações operacionais</h3>
+        <p>Duas possibilidades de acionamento do representante da OAB: <span class="ref-pagina">(p. 451)</span></p>
+        <table>
+            <tr>
+                <th>Momento</th>
+                <th>Vantagem</th>
+                <th>Risco</th>
+            </tr>
+            <tr>
+                <td>Dia da deflagração (após chegada)</td>
+                <td>Maior sigilo da medida</td>
+                <td>Atrasos no cumprimento</td>
+            </tr>
+            <tr>
+                <td>Dia anterior</td>
+                <td>Mais agilidade</td>
+                <td>Pode comprometer o sigilo</td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Recomendação:</strong> Os representantes sejam convocados para comparecer à sede da PF em horário que permita que as equipes <strong>já tenham se deslocado aos alvos</strong> e preservado o estado das coisas. Só então os endereços serão fornecidos. <span class="ref-pagina">(p. 451-452)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Sem o representante:</strong> Se o representante da OAB não comparecer, <strong>a situação é registrada e não impede a realização da diligência</strong>. A preservação do estado das coisas pode e deve ser feita mesmo sem a presença do representante. <span class="ref-pagina">(p. 452)</span>
+        </div>
+
+        <h3>Síntese dos entendimentos firmados</h3>
+        <div class="box-purple">
+            <ul>
+                <li>Discordância da OAB quanto a itens deve ser direcionada à autoridade policial e constar do auto circunstanciado;</li>
+                <li>Continuidade das atividades profissionais garantida pela <strong>extração de cópias e espelhamento de mídias</strong>, quando solicitado;</li>
+                <li>Quando possível, retirada dos dispositivos de armazenamento dos equipamentos (sem apreender os equipamentos);</li>
+                <li>Quando necessária a apreensão, os itens <strong>deverão ser lacrados no momento da diligência</strong>, com identificação dos lacres no auto;</li>
+                <li>Investigado pode solicitar <strong>espelhamento de mídias apreendidas</strong>, fornecendo suporte;</li>
+                <li>Prazo: <strong>24 horas</strong> para encaminhamento da mídia/suporte; <strong>72 horas</strong> para fornecimento do produto, <strong>prorrogável por igual período</strong>;</li>
+                <li>Direito de acompanhamento (§§ 6º-F e 6º-G) garantido pelo fornecimento de cópia da extração de dados;</li>
+                <li>Identificado documento sem relação com a apuração, o investigado será intimado para exclusão ou restituição, garantindo o sigilo profissional.</li>
+            </ul>
+            <span class="ref-pagina">(p. 453)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Limites de atuação:</strong> O representante da OAB <strong>pode acompanhar mas não pode interferir</strong> no trabalho policial. Em caso de contrariedade, deve agir conforme o memorando, peticionando ao <strong>juiz de garantias</strong> que autorizou a busca. <span class="ref-pagina">(p. 453-454)</span>
+        </div>
+
+        <p>Na representação pela busca e apreensão, deve-se solicitar <strong>interpretação conforme a Constituição</strong>, compatibilizando o direito ao sigilo profissional e o poder-dever de investigar, com sugestão de adoção do memorando. <span class="ref-pagina">(p. 454)</span></p>
+    </div>
+
+    <div id="sec10" class="section">
+        <h2>10. Busca Pessoal</h2>
+
+        <div class="box-blue">
+            <strong>Conceito (art. 240, §2º, CPP):</strong> Medida efetivada, quando houver <strong>fundada suspeita</strong> de que alguém oculte consigo:
+            <ul>
+                <li>Arma proibida;</li>
+                <li>Coisas achadas ou obtidas por meios criminosos;</li>
+                <li>Instrumentos de falsificação/contrafação e objetos falsificados/contrafeitos;</li>
+                <li>Armas e munições, instrumentos de crime;</li>
+                <li>Objetos necessários à prova de infração ou à defesa do réu;</li>
+                <li>Cartas que possam ser úteis à elucidação do fato;</li>
+                <li>Qualquer elemento de convicção.</li>
+            </ul>
+            <span class="ref-pagina">(p. 454)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Objeto da busca:</strong> Efetivada nas <strong>vestes e demais objetos em poder do revistado</strong>, como malas, mochilas, automóveis, entre outros.
+            <br><br>
+            <strong>Atenção:</strong> Se o <strong>veículo é utilizado como residência</strong>, o tratamento é o mesmo dado à <strong>busca domiciliar</strong> (Távora e Alencar, 2008). <span class="ref-pagina">(p. 455)</span>
+        </div>
+
+        <h3>Independência de mandado (art. 244 CPP)</h3>
+        <div class="box-orange">
+            <strong>A busca pessoal independerá de mandado judicial:</strong>
+            <ul>
+                <li>No caso de <strong>prisão</strong>;</li>
+                <li>Quando houver <strong>fundada suspeita</strong> de que a pessoa esteja na posse de arma proibida ou de objetos ou papéis que constituam corpo de delito;</li>
+                <li>Quando a medida for determinada <strong>no curso de busca domiciliar</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 455)</span>
+        </div>
+
+        <h3>Jurisprudência - STF, HC 208.240 (Rel. Min. Edson Fachin)</h3>
+        <div class="box-red">
+            <strong>Tese fixada:</strong> "A busca pessoal, independente de mandado judicial, deve estar fundada em <strong>elementos indiciários objetivos</strong> de que a pessoa esteja na posse de arma proibida ou de objetos ou papéis que constituam corpo de delito, <strong>não sendo lícita</strong> a realização da medida com base na <strong>raça, sexo, orientação sexual, cor da pele ou aparência física</strong>." <span class="ref-pagina">(p. 455)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Art. 249 CPP - busca em mulher:</strong> A busca em mulher será feita <strong>por outra mulher</strong>, se não importar retardamento ou prejuízo da diligência. <span class="ref-pagina">(p. 455)</span>
+        </div>
+
+        <h3>Relevância investigativa atual</h3>
+        <p>A apreensão de objetos eletrônicos pessoais (smartphones, tablets, computadores) tem grande interesse investigativo, pois armazenam quase todos os dados de uma pessoa: documentos, conversas, comprovantes, contatos, agenda. <span class="ref-pagina">(p. 455)</span></p>
+
+        <div class="box-green">
+            <strong>Recomendação prática:</strong> Pedidos de busca e apreensão (residencial) <strong>devem ser acompanhados de pedidos de busca pessoal</strong>. Caso o investigado seja localizado em local distinto, a autorização resguardará a apreensão dos aparelhos eletrônicos que carregue consigo, <strong>resguardada a inviolabilidade do domicílio</strong>. <span class="ref-pagina">(p. 455)</span>
+        </div>
+    </div>
+
+    <div id="sec11" class="section">
+        <h2>11. Acesso ao Conteúdo de Mídias Apreendidas</h2>
+
+        <div class="box-blue">
+            <strong>Contexto digital:</strong> A maior parte das informações obtidas após uma apreensão tem como fundamento a análise de dados encontrados em aparelhos eletrônicos ou de armazenamento digital. <span class="ref-pagina">(p. 456)</span>
+        </div>
+
+        <p>Existe discussão sobre se a representação pela busca e apreensão autoriza, por si só, o acesso a tais mídias. Existem decisões, inclusive do STJ, que afirmam que essa autorização estaria <strong>implícita</strong>. <span class="ref-pagina">(p. 456)</span></p>
+
+        <div class="box-orange">
+            <strong>Recomendação:</strong> Para evitar questionamentos posteriores, recomenda-se que a autoridade policial, na representação por buscas, <strong>já consigne também o pedido de acesso</strong> às mídias contidas no aparelho apreendido, bem como nas <strong>contas de nuvem</strong> cujo acesso seja possível a partir das credenciais disponíveis no dispositivo. <span class="ref-pagina">(p. 456)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Atenção:</strong> No caso de apreensões realizadas durante <strong>prisões em flagrante</strong> ou após <strong>busca pessoal</strong>, é <strong>imprescindível representar por autorização de acesso ANTES</strong> de iniciar a análise ou exploração do conteúdo. <span class="ref-pagina">(p. 456)</span>
+        </div>
+
+        <h3>STF - Tema 977 (Repercussão Geral) - ARE 1.042.075/RJ</h3>
+        <div class="box-purple">
+            <strong>Entendimento reafirmado pelo Plenário (Rel. Min. Dias Toffoli, 25/06/2025 - Info 1184):</strong>
+            <p>"A polícia pode, <strong>independentemente de autorização judicial</strong>, examinar os registros das últimas chamadas e a agenda de contatos telefônicos contidos em aparelho celular <strong>abandonado no local do crime</strong>. Os dados obtidos nessas circunstâncias só podem ser utilizados na apuração do crime ao qual a perda do celular está vinculada. A polícia, no entanto, pode preservar o conteúdo integral do aparelho, mas deve apresentar à Justiça argumentos que justifiquem seu acesso. Já quando o celular é apreendido com o suspeito presente — como em prisões em flagrante —, os dados <strong>só podem ser acessados com consentimento expresso do dono ou com autorização judicial</strong>." <span class="ref-pagina">(p. 456)</span></p>
+        </div>
+
+        <div class="box-blue">
+            <strong>Tese 1 do STF:</strong> A <strong>mera apreensão</strong> do aparelho celular, nos termos do art. 6º do CPP ou em flagrante delito, <strong>não está sujeita à reserva de jurisdição</strong>. Contudo, o acesso aos dados deve observar condicionantes:
+            <ul>
+                <li><strong>1.1 Encontro fortuito de celular:</strong> acesso aos dados para esclarecer autoria ou identificar o proprietário <strong>não depende de consentimento ou prévia decisão judicial</strong>, desde que <strong>justificada posteriormente</strong>.</li>
+                <li><strong>1.2 Celular apreendido (art. 6º CPP ou prisão em flagrante):</strong> acesso aos dados <strong>condicionado a consentimento expresso e livre do titular OU prévia decisão judicial</strong> (art. 7º, III, e art. 10, §2º, da Lei nº 12.965/2014 - Marco Civil), que justifique, com base em elementos concretos, a proporcionalidade e delimite a abrangência à luz dos direitos à intimidade, privacidade, proteção dos dados pessoais e autodeterminação informacional (art. 5º, X e LXXIX, CRFB/88). A celeridade se impõe, inclusive em regime de plantão.</li>
+            </ul>
+            <span class="ref-pagina">(p. 456-457)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Tese 2:</strong> A autoridade policial poderá adotar as providências necessárias para a <strong>preservação dos dados e metadados</strong> contidos no aparelho apreendido, <strong>antes da autorização judicial</strong>, justificando posteriormente as razões.
+            <br><br>
+            <strong>Tese 3:</strong> As teses só produzirão <strong>efeitos prospectivos</strong>, ressalvados os pedidos eventualmente formulados por defesas até a data do encerramento do julgamento. <span class="ref-pagina">(p. 457)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>STJ:</strong> Possui inúmeros julgamentos aplicando o entendimento de que é <strong>ilícito o acesso a dados armazenados em telefone celular sem prévia autorização judicial</strong>. <span class="ref-pagina">(p. 457)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo - Acesso ao celular conforme STF (Tema 977)</span>
+            <ul>
+                <li><strong>ABANDONADO no local do crime</strong> → não precisa de autorização judicial (uso só no crime vinculado)</li>
+                <li><strong>ENCONTRO FORTUITO</strong> → não depende de consentimento ou decisão judicial (justificar depois)</li>
+                <li><strong>APREENDIDO COM O SUSPEITO PRESENTE</strong> (flagrante / art. 6º CPP) → exige <strong>consentimento expresso</strong> OU <strong>decisão judicial</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec12" class="section">
+        <h2>12. Cadeia de Custódia</h2>
+
+        <div class="box-blue">
+            <strong>Observância obrigatória:</strong> Durante a efetivação da diligência, é <strong>indispensável que se observe a disciplina estabelecida para a cadeia de custódia</strong> em relação a todo o material arrecadado no local, para assegurar a <strong>autenticidade e confiabilidade</strong> das apreensões. <span class="ref-pagina">(p. 448)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Registro individualizado:</strong> Tudo o que for arrecadado deve ser detalhadamente relacionado no auto circunstanciado, recomendando-se fortemente que as equipes <strong>não documentem as apreensões de forma genérica, mas sim individualizando os objetos</strong>. <span class="ref-pagina">(p. 448)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Preservação de celulares:</strong> Para a cadeia de custódia digital, dispositivos telefônicos devem ser <strong>desligados ou colocados em modo avião</strong> no momento da cautela. Na impossibilidade, usar <strong>embalagens bloqueadoras de sinais (faraday bags)</strong>. O tema é abordado com maior profundidade em capítulo específico no <strong>Módulo III</strong>. <span class="ref-pagina">(p. 448)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Lacração na presença OAB:</strong> Quando necessária a apreensão de equipamentos em escritório de advocacia, os itens apreendidos deverão ser <strong>lacrados no momento da própria diligência</strong>, constando a <strong>identificação dos lacres no respectivo auto de apreensão</strong>. <span class="ref-pagina">(p. 453)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>STF - preservação antes de autorização (Tema 977, Tese 2):</strong> A autoridade policial poderá adotar as <strong>providências necessárias para a preservação dos dados e metadados</strong> contidos no aparelho celular apreendido <strong>antes da autorização judicial</strong>, justificando posteriormente as razões. <span class="ref-pagina">(p. 457)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo - Pilares da cadeia de custódia na busca</span>
+            <ul>
+                <li><strong>INDIVIDUALIZAÇÃO</strong> dos objetos no auto circunstanciado</li>
+                <li><strong>ISOLAMENTO de sinal</strong> em celulares (modo avião / faraday)</li>
+                <li><strong>LACRAÇÃO</strong> no local com identificação no auto</li>
+                <li><strong>PRESERVAÇÃO</strong> de dados e metadados (autorizada antes mesmo da decisão judicial - STF Tema 977)</li>
+                <li><strong>TESTEMUNHAS</strong> (preferencialmente não policiais) assinando o auto</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

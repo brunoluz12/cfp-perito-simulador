@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.5 - Representação por Ação Controlada</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.5 - Representação por Ação Controlada</h1>
+        <div class="subtitle">Técnica especial de investigação: retardar para alcançar o núcleo do crime organizado</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Introdução</a></li>
+            <li><a href="#sec2">2. Fundamentos Legais</a></li>
+            <li><a href="#sec3">3. Conceito</a></li>
+            <li><a href="#sec4">4. Principais Casuísticas de Utilização</a></li>
+            <li><a href="#sec5">5. Cuidados com a Operacionalização</a></li>
+            <li><a href="#sec6">6. Riscos da Ação Controlada</a></li>
+            <li><a href="#sec7">7. Possibilidade de Uso sem Autorização Judicial Prévia</a></li>
+            <li><a href="#sec8">8. Formalização dos Dados Coletados</a></li>
+            <li><a href="#sec9">9. Conclusão e Resumo Esquemático</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Introdução</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> A ação controlada é uma <strong>técnica especial de investigação</strong> prevista no ordenamento jurídico brasileiro. Trata-se de uma estratégia na qual a autoridade policial ou administrativa <strong>retarda a intervenção imediata</strong> sobre uma atividade criminosa, permitindo que a infração seja acompanhada por mais tempo para fins de <strong>colheita de provas, identificação de envolvidos e desarticulação de organizações criminosas</strong>. <span class="ref-pagina">(p. 401)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> Por ser uma ferramenta de grande impacto, exige <strong>rigoroso controle judicial e ministerial</strong>, além do respeito às garantias constitucionais. <span class="ref-pagina">(p. 401)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Fundamentos Legais</h2>
+
+        <p>A ação controlada foi inicialmente prevista no ordenamento pátrio com a edição da <strong>Lei 9.034/1995</strong>, porém sua aplicação e sua definição foram consolidadas com a <strong>Lei 12.850/2013</strong>, que revogou aquela legislação, bem como com o <strong>Decreto nº 5.015/2004</strong>, que incorporou a Convenção de Palermo (2000) no ordenamento jurídico brasileiro. <span class="ref-pagina">(p. 401)</span></p>
+
+        <p>Hoje, a previsão legal dessa técnica está prevista em diversos diplomas: <span class="ref-pagina">(p. 401)</span></p>
+
+        <table>
+            <tr>
+                <th>Diploma</th>
+                <th>Dispositivo</th>
+            </tr>
+            <tr>
+                <td><strong>Lei 12.850/2013</strong> - Lei das Organizações Criminosas</td>
+                <td>art. 8º</td>
+            </tr>
+            <tr>
+                <td><strong>Lei 11.343/2006</strong> - Lei de Drogas</td>
+                <td>art. 53, II</td>
+            </tr>
+            <tr>
+                <td><strong>Lei 13.260/2016</strong> - Lei Antiterrorismo</td>
+                <td>art. 10</td>
+            </tr>
+            <tr>
+                <td><strong>Convenção de Palermo (2000)</strong></td>
+                <td>Tratado internacional contra o crime organizado transnacional, ratificado pelo Brasil e internalizado com o Decreto nº 5.015/2004</td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 12-11-13 + Palermo</span>
+            <ul>
+                <li><strong>12</strong>.850/2013 - Organizações Criminosas (art. 8º)</li>
+                <li><strong>11</strong>.343/2006 - Drogas (art. 53, II)</li>
+                <li><strong>13</strong>.260/2016 - Antiterrorismo (art. 10)</li>
+                <li><strong>Palermo</strong> (2000) - Decreto 5.015/2004</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Conceito</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> A ação controlada é uma <strong>técnica de investigação que permite o retardamento da intervenção policial ou administrativa</strong> em face da prática de uma infração penal, com o objetivo de possibilitar a <strong>obtenção de provas mais amplas e eficazes</strong>. <span class="ref-pagina">(p. 401)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Principais Casuísticas de Utilização</h2>
+
+        <div class="box-orange">
+            <strong>Restrição:</strong> A ação controlada <strong>não se aplica a qualquer delito</strong>. Sua utilização é restrita a <strong>crimes graves, complexos e organizados</strong>, em que a intervenção imediata dificultaria a apuração. <span class="ref-pagina">(p. 401)</span>
+        </div>
+
+        <p>Entre as principais casuísticas de sua utilização, temos: <span class="ref-pagina">(p. 401-402)</span></p>
+
+        <table>
+            <tr>
+                <th>Casuística</th>
+                <th>Objetivo</th>
+            </tr>
+            <tr>
+                <td><strong>Tráfico de drogas</strong></td>
+                <td>Acompanhar o carregamento ilícito até o destino final</td>
+            </tr>
+            <tr>
+                <td><strong>Organizações criminosas financeiras</strong></td>
+                <td>Monitorar movimentações ilícitas para alcançar escalões superiores</td>
+            </tr>
+            <tr>
+                <td><strong>Contrabando e descaminho</strong></td>
+                <td>Seguir cargas ilegais até identificar receptadores</td>
+            </tr>
+            <tr>
+                <td><strong>Corrupção sistêmica</strong></td>
+                <td>Mapear agentes públicos e privados envolvidos</td>
+            </tr>
+            <tr>
+                <td><strong>Terrorismo</strong></td>
+                <td>Identificar redes logísticas e financeiras antes da neutralização</td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>IMPORTANTE (cai em prova!):</strong> Essa técnica <strong>NÃO pode ser aplicada em casos de risco imediato à vida ou à integridade de vítimas</strong>. <span class="ref-pagina">(p. 402)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Cuidados com a Operacionalização</h2>
+
+        <h3>5.1. Autorização Judicial Prévia (quando exigida)</h3>
+
+        <div class="box-blue">
+            <strong>Entendimento majoritário:</strong> Apesar de haver controvérsias, o entendimento majoritário no âmbito doutrinário e jurisprudencial é que a ação controlada <strong>exige autorização judicial prévia</strong>, especialmente quando há: <span class="ref-pagina">(p. 402)</span>
+            <ul>
+                <li>Risco à integridade física de pessoas;</li>
+                <li>Invasão de direitos fundamentais (como sigilo de comunicação ou domicílio);</li>
+                <li>Necessidade de garantir a validade da prova obtida.</li>
+            </ul>
+        </div>
+
+        <p>A autorização deve ser <strong>fundamentada</strong>, com delimitação do escopo, duração e limites da atuação policial. O juiz deve ser <strong>informado do andamento da operação regularmente</strong>. <span class="ref-pagina">(p. 402)</span></p>
+
+        <h3>5.2. Controle do Ministério Público</h3>
+
+        <div class="box-purple">
+            <strong>Base constitucional:</strong> Nos termos do <strong>art. 129, inciso I, da CF/88</strong>, o Ministério Público é o titular da ação penal pública, portanto, deve ser notificado e participar ativamente da formulação e acompanhamento da ação controlada. O <strong>art. 8º, §2º da Lei 12.850/2013</strong> determina que o MP deve ser previamente comunicado. <span class="ref-pagina">(p. 402)</span>
+        </div>
+
+        <h3>5.3. Planejamento Detalhado e Estratégico</h3>
+
+        <p>A ação controlada <strong>não pode ser improvisada</strong>. Exige: <span class="ref-pagina">(p. 402-403)</span></p>
+        <ul>
+            <li>Plano operacional claro, com objetivos definidos;</li>
+            <li>Avaliação de riscos à integridade dos agentes envolvidos e de terceiros;</li>
+            <li>Estabelecimento de protocolos para intervenção imediata em caso de risco grave;</li>
+            <li>Definição clara de quando e como será feita a interrupção da conduta criminosa.</li>
+        </ul>
+
+        <h3>5.4. Acompanhamento e Monitoramento Contínuo</h3>
+
+        <p>Durante toda a ação controlada, é indispensável que a atividade seja: <span class="ref-pagina">(p. 403)</span></p>
+        <ul>
+            <li><strong>Monitorada em tempo real</strong>, com registros audiovisuais quando possível;</li>
+            <li><strong>Documentada</strong> com relatórios periódicos e registros de ocorrências relevantes;</li>
+            <li><strong>Supervisionada</strong> por agentes especializados (como Delegados de Polícia e membros do MP).</li>
+        </ul>
+
+        <h3>5.5. Preservação da Legalidade e Proporcionalidade</h3>
+
+        <div class="box-red">
+            <strong>Atenção:</strong> A ação controlada <strong>não pode ser pretexto para ilegalidades</strong>. Exige-se: <span class="ref-pagina">(p. 403)</span>
+            <ul>
+                <li><strong>Não incentivo</strong> à prática do crime;</li>
+                <li>Atuação dos agentes respeitando os princípios da <strong>proporcionalidade, legalidade e razoabilidade</strong>;</li>
+                <li>Não pode haver <strong>abuso de autoridade</strong> ou violação aos direitos humanos.</li>
+            </ul>
+        </div>
+
+        <h3>5.6. Preservação da Cadeia de Custódia da Prova</h3>
+
+        <p>Todas as provas obtidas durante a ação controlada devem: <span class="ref-pagina">(p. 403)</span></p>
+        <ul>
+            <li>Ser coletadas segundo os protocolos da cadeia de custódia;</li>
+            <li>Estar acompanhadas de relatórios circunstanciados, registros técnicos e audiovisuais;</li>
+            <li>Garantir a integridade e autenticidade do material probatório.</li>
+        </ul>
+
+        <h3>5.7. Segurança dos Envolvidos</h3>
+
+        <div class="box-green">
+            <ul>
+                <li>Agentes infiltrados ou colaboradores devem ser protegidos com medidas de segurança adequadas;</li>
+                <li>A identidade dos envolvidos deve ser preservada;</li>
+                <li>Podem ser adotadas medidas como <strong>programas de proteção a testemunhas</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 403)</span>
+        </div>
+
+        <h3>5.8. Limitação Temporal e Material</h3>
+
+        <p>A ação controlada <strong>não pode ser indefinida</strong>. Deve ter: <span class="ref-pagina">(p. 404)</span></p>
+        <ul>
+            <li><strong>Prazo determinado</strong>;</li>
+            <li><strong>Delimitação</strong> quanto aos crimes sob investigação;</li>
+            <li>Avaliação contínua sobre a necessidade de continuidade da operação.</li>
+        </ul>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Riscos da Ação Controlada</h2>
+
+        <div class="box-red">
+            <strong>O uso indevido ou mal planejado da ação controlada pode levar a:</strong> <span class="ref-pagina">(p. 404)</span>
+            <ul>
+                <li><strong>Contaminação da prova</strong>, invalidando o processo;</li>
+                <li><strong>Violação de direitos fundamentais</strong> dos investigados;</li>
+                <li><strong>Responsabilização dos agentes públicos por abuso de autoridade</strong>;</li>
+                <li><strong>Criminalização de condutas preparatórias não consumadas</strong>;</li>
+                <li><strong>Exposição indevida de operações na mídia</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Possibilidade de Uso sem Autorização Judicial Prévia</h2>
+
+        <div class="box-blue">
+            <strong>Premissa:</strong> É aconselhável, na condução de investigações policiais, a obtenção prévia da autorização judicial para uso da ação controlada. Entretanto, é <strong>possível a realização de referida técnica de investigação sem autorização judicial prévia</strong> em determinadas situações, desde que observados os limites legais e constitucionais. <span class="ref-pagina">(p. 404)</span>
+        </div>
+
+        <h3>7.1. Base legal - Lei nº 12.850/2013 (art. 8º)</h3>
+
+        <div class="box-purple">
+            <strong>Art. 8º.</strong> Consiste a ação controlada na retardação da intervenção policial ou administrativa, relativa à prática de infração penal, desde que mantida sob observação e acompanhamento, para que a medida legal ocorra no momento mais eficaz à formação de provas e obtenção de informações.<br><br>
+            <strong>§ 1º.</strong> O retardamento será previamente comunicado ao juiz competente, que poderá estabelecer condições para sua realização.<br><br>
+            <strong>§ 2º.</strong> O Ministério Público será comunicado previamente e poderá requerer ao juiz competente a suspensão da ação controlada ou o estabelecimento de condições.
+            <span class="ref-pagina">(p. 404)</span>
+        </div>
+
+        <h3>7.2. Interpretação</h3>
+
+        <div class="box-orange">
+            <ul>
+                <li><strong>Autorização judicial NÃO é obrigatória</strong>, mas a <strong>comunicação prévia ao MP é requisito formal</strong>. <span class="ref-pagina">(p. 404)</span></li>
+                <li>O juiz pode estabelecer condições ou suspender a operação, a pedido do MP. <span class="ref-pagina">(p. 405)</span></li>
+            </ul>
+        </div>
+
+        <p>A prática <strong>não está condicionada à autorização judicial</strong>, exceto em casos de: <span class="ref-pagina">(p. 405)</span></p>
+        <ul>
+            <li>Violação de direitos fundamentais;</li>
+            <li>Requisição judicial pelo MP;</li>
+            <li>Risco evidente à integridade física de pessoas.</li>
+        </ul>
+
+        <h3>7.3. Cuidados essenciais sem autorização judicial prévia</h3>
+
+        <div class="box-green">
+            <ul>
+                <li>Documentação formal da decisão policial;</li>
+                <li>Comunicação prévia ao MP, com justificativa técnica;</li>
+                <li>Supervisão constante da operação;</li>
+                <li>Respeito à cadeia de custódia das provas;</li>
+                <li>Não provocação do crime.</li>
+            </ul>
+            <span class="ref-pagina">(p. 405)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo - Ação Controlada sem autorização judicial prévia</span>
+            <ul>
+                <li>É possível realizar ação controlada <strong>sem autorização judicial prévia</strong>;</li>
+                <li><strong>Comunicação prévia ao Ministério Público é obrigatória</strong>;</li>
+                <li>Autorização judicial só é necessária em situações específicas;</li>
+                <li>A ausência de autorização judicial <strong>não invalida automaticamente</strong> a ação, mas deve ser evitada pelo maior risco do surgimento de situação passível de anulação judicial posterior. <span class="ref-pagina">(p. 405)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Formalização dos Dados Coletados</h2>
+
+        <div class="box-blue">
+            <strong>Importância:</strong> A formalização assegura <strong>validade jurídica</strong> às provas obtidas. Sem registro adequado, há risco de <strong>nulidade</strong>. <span class="ref-pagina">(p. 405)</span>
+        </div>
+
+        <p>Deve-se sempre observar: <span class="ref-pagina">(p. 405)</span></p>
+        <ul>
+            <li><strong>Legalidade</strong> (atuar nos limites da lei);</li>
+            <li><strong>Integridade</strong> (prova autêntica e sem alteração - observância da cadeia de custódia);</li>
+            <li><strong>Rastreabilidade</strong> (histórico documentado de cada vestígio);</li>
+            <li><strong>Sigilo e proporcionalidade</strong> (coleta mínima necessária).</li>
+        </ul>
+
+        <h3>8.1. Documentos-Chave</h3>
+
+        <table>
+            <tr>
+                <th>Documento</th>
+            </tr>
+            <tr><td><strong>Auto circunstanciado</strong></td></tr>
+            <tr><td><strong>Informação de Polícia Judiciária - IPJ</strong></td></tr>
+            <tr><td><strong>Autos de apreensão</strong></td></tr>
+            <tr><td><strong>Laudos periciais</strong> (físicos e digitais)</td></tr>
+        </table>
+        <p><span class="ref-pagina">(p. 405)</span></p>
+
+        <div class="box-purple">
+            <strong>Auto Circunstanciado - art. 63 da IN 255/2023 PF:</strong> "o auto circunstanciado é o documento produzido para relatar o cumprimento de medidas cautelares, contendo o <strong>período da diligência</strong>, o <strong>registro detalhado dos fatos</strong>, <strong>informações relevantes</strong> e o <strong>cotejo com outros elementos da investigação</strong>". <span class="ref-pagina">(p. 405-406)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Documento principal:</strong> O documento principal responsável por descrever de maneira exauriente as diligências empreendidas e seus resultados na Ação Controlada é o <strong>Auto Circunstanciado</strong>. <span class="ref-pagina">(p. 406)</span>
+        </div>
+
+        <p>Todavia, outras peças de polícia judiciária podem compor a formalização dos resultados coletados, tais como <strong>autos de apreensão, IPJ's e laudos periciais</strong>. <span class="ref-pagina">(p. 406)</span></p>
+
+        <h3>8.2. Exemplo Prático</h3>
+
+        <div class="box-orange">
+            <strong>Caso PF - tráfico internacional:</strong> Imagine que a Polícia Federal tenha informações sobre uma organização criminosa responsável por enviar drogas para a Europa.
+            <ul>
+                <li>Se a carga for apreendida imediatamente, somente os "transportadores" serão presos.</li>
+                <li>Com a ação controlada, a polícia pode acompanhar a droga até o porto, identificando <strong>financiadores, despachantes, receptadores e outros envolvidos</strong>.</li>
+                <li>Ao final, a <strong>rede criminosa inteira pode ser desarticulada</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 406)</span>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Conclusão e Resumo Esquemático</h2>
+
+        <div class="box-blue">
+            <strong>Conclusão:</strong> A ação controlada representa uma das <strong>mais eficazes estratégias no combate ao crime organizado</strong>. Por meio dela, é possível ir além da captura de agentes periféricos, alcançando os <strong>núcleos de comando das organizações criminosas</strong>. <span class="ref-pagina">(p. 406)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Ponto crítico:</strong> Sua eficácia depende do <strong>equilíbrio entre eficiência investigativa e respeito aos direitos fundamentais</strong>. O sucesso da ação não se resume somente à coleta de provas, mas à <strong>sua validade jurídica em juízo</strong>, razão pela qual <strong>planejamento, legalidade estrita e formalização técnica</strong> são pilares indispensáveis. <span class="ref-pagina">(p. 406)</span>
+        </div>
+
+        <h3>Resumo Esquemático</h3>
+
+        <table>
+            <tr>
+                <th>Tópico</th>
+                <th>Conteúdo</th>
+            </tr>
+            <tr>
+                <td><strong>O que é</strong></td>
+                <td>Técnica especial de investigação baseada no retardamento da intervenção policial</td>
+            </tr>
+            <tr>
+                <td><strong>Base legal</strong></td>
+                <td>Leis 12.850/2013, 11.343/2006, 13.260/2016 e tratados internacionais</td>
+            </tr>
+            <tr>
+                <td><strong>Aplicação</strong></td>
+                <td>Crimes graves, complexos e organizados</td>
+            </tr>
+            <tr>
+                <td><strong>Cuidados</strong></td>
+                <td>Autorização judicial, proporcionalidade, planejamento, controle ministerial</td>
+            </tr>
+            <tr>
+                <td><strong>Formalização</strong></td>
+                <td>Relatórios, cadeia de custódia, registros audiovisuais, submissão ao poder judiciário</td>
+            </tr>
+        </table>
+        <p><span class="ref-pagina">(p. 406)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Síntese final - Pilares da Ação Controlada</span>
+            <ul>
+                <li><strong>R</strong>etardamento da intervenção (conceito-base)</li>
+                <li><strong>C</strong>omunicação prévia ao MP (obrigatória)</li>
+                <li><strong>A</strong>utorização judicial (recomendada; obrigatória em casos específicos)</li>
+                <li><strong>P</strong>lanejamento + Proporcionalidade + Cadeia de Custódia</li>
+                <li><strong>A</strong>uto Circunstanciado (documento principal de formalização)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

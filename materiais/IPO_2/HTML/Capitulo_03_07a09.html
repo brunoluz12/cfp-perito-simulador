@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3.7-3.9 - Criminalística, Papiloscopia e Outros Recursos (RPA, CFTV, Rastreadores)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 3.7-3.9 - Criminalística, Papiloscopia e Outros Recursos</h1>
+        <div class="subtitle">RPA, CFTV e Rastreadores (Veicular e TAG) | Páginas 119-123</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec37">3.7 Criminalística (Perícia Criminal)</a></li>
+            <li><a href="#sec38">3.8 Noções de Papiloscopia</a></li>
+            <li><a href="#sec39">3.9 Outros Meios Ordinários</a></li>
+            <li><a href="#sec391">3.9.1 Aeronaves Remotamente Pilotadas (RPA)</a></li>
+            <li><a href="#sec392">3.9.2 Circuito Fechado de Televisão (CFTV)</a></li>
+            <li><a href="#sec393">3.9.3 Rastreadores</a></li>
+            <li><a href="#sec3931">3.9.3.1 Rastreador Veicular</a></li>
+            <li><a href="#sec3932">3.9.3.2 TAG</a></li>
+            <li><a href="#sintese">Síntese final e mnemônicos</a></li>
+        </ul>
+    </div>
+
+    <!-- ====================== 3.7 CRIMINALÍSTICA ====================== -->
+    <div id="sec37" class="section">
+        <h2>3.7 Criminalística (Perícia Criminal)</h2>
+
+        <div class="box-blue">
+            <strong>Posição no fluxo investigativo:</strong> No fluxo investigativo, <strong>após a análise preliminar de dados, relatórios e informações de inteligência</strong> (como os <strong>Relatórios de Inteligência Financeira - RIF</strong>), é possível encaminhar os vestígios identificados à <strong>Perícia Criminal</strong>. Essa etapa permite a realização de exames especializados que transformam <strong>suspeitas e inconsistências em elementos de prova robustos</strong>. <span class="ref-pagina">(p. 119)</span>
+        </div>
+
+        <h3>Campos de atuação pericial</h3>
+        <p>Os campos de atuação pericial abrangem múltiplas especialidades e metodologias científicas. <span class="ref-pagina">(p. 119)</span></p>
+
+        <table>
+            <tr>
+                <th>Área pericial</th>
+                <th>Atuação</th>
+            </tr>
+            <tr>
+                <td><strong>Seara financeira</strong></td>
+                <td>Técnicas de <strong>auditoria e análise contábil forense</strong> para quantificar movimentações, rastrear fluxos ilícitos e caracterizar indícios de <strong>lavagem de dinheiro</strong>.</td>
+            </tr>
+            <tr>
+                <td><strong>Análise de imagens e mídias digitais</strong></td>
+                <td>Exames de <strong>autenticidade</strong>, <strong>recuperação de dados</strong>, assegurando a <strong>integridade dos registros</strong>.</td>
+            </tr>
+            <tr>
+                <td><strong>Exames de comparação (DNA e voz)</strong></td>
+                <td>Fornece elementos probatórios <strong>robustos e de alta confiabilidade</strong> para vincular pessoas a condutas investigadas.</td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Propósito comum:</strong> Todas essas vertentes, embora distintas em objeto e método, convergem em um propósito comum: <strong>transformar vestígios em prova tecnicamente qualificada</strong>, sustentando a persecução penal com base em <strong>evidências científicas</strong>. <span class="ref-pagina">(p. 119)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Aviso didático:</strong> Pela <strong>complexidade e importância da matéria</strong>, a Criminalística será estudada de maneira minuciosa em <strong>caderno didático próprio</strong>, dedicado a explorar seus fundamentos, áreas de especialização e metodologias. A sua menção, neste momento, ainda que introdutória, é essencial para o aluno compreender desde já a <strong>posição que ela ocupa no ciclo investigativo</strong>. <span class="ref-pagina">(p. 119)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: F-I-C (vertentes citadas)</span>
+            <ul>
+                <li><strong>F</strong>inanceira (auditoria/contábil forense - lavagem)</li>
+                <li><strong>I</strong>magens e mídias digitais (autenticidade/recuperação)</li>
+                <li><strong>C</strong>omparação (DNA e voz)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ====================== 3.8 PAPILOSCOPIA ====================== -->
+    <div id="sec38" class="section">
+        <h2>3.8 Noções de Papiloscopia</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> A <strong>Papiloscopia</strong> é a disciplina técnico-científica que tem por objeto o estudo das <strong>cristas papilares</strong> ou <strong>cristas de fricção</strong>, situadas na <strong>polpa dos dedos</strong>, na <strong>palma das mãos</strong> e na <strong>planta dos pés</strong>. <span class="ref-pagina">(p. 119)</span>
+        </div>
+
+        <h3>Terminologia essencial</h3>
+        <table>
+            <tr>
+                <th>Termo</th>
+                <th>Significado</th>
+            </tr>
+            <tr>
+                <td><strong>Cristas papilares / cristas de fricção</strong></td>
+                <td>Relevos situados na polpa dos dedos, palma das mãos e planta dos pés.</td>
+            </tr>
+            <tr>
+                <td><strong>Dermatóglifos</strong></td>
+                <td>Desenhos <strong>únicos e permanentes</strong> formados pelos relevos ao longo da vida.</td>
+            </tr>
+            <tr>
+                <td><strong>Datilograma / impressão digital</strong></td>
+                <td>Impressão (registro) dos dermatóglifos.</td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Natureza:</strong> Trata-se de um <strong>método de identificação humana</strong> baseado em <strong>caracteres biológicos</strong> que individualizam cada pessoa de forma <strong>incontestável</strong>, com elevado grau de <strong>segurança científica</strong>. <span class="ref-pagina">(p. 119)</span>
+        </div>
+
+        <h3>Por que está entre os meios ordinários?</h3>
+        <div class="box-purple">
+            <strong>Justificativa:</strong> Sua inserção neste caderno ocorre no âmbito das <strong>técnicas de investigações ordinárias</strong>, uma vez que a <strong>coleta, análise e comparação de impressões digitais</strong> são atividades que, <strong>em regra, podem ser realizadas pela equipe de polícia judiciária sem necessidade de autorização judicial</strong>. <span class="ref-pagina">(p. 119)</span>
+        </div>
+
+        <p>O <strong>levantamento de impressões em local de crime</strong>, a <strong>conferência de impressões em documentos ou objetos</strong> e a <strong>comparação com registros de institutos de identificação</strong> exemplificam práticas rotineiras que auxiliam diretamente no esclarecimento de crimes. <span class="ref-pagina">(p. 119)</span></p>
+
+        <div class="box-orange">
+            <strong>Aviso didático:</strong> Pela riqueza conceitual e pela importância prática da Papiloscopia, essa disciplina será aprofundada em <strong>caderno didático próprio</strong>, voltado especificamente ao estudo de suas <strong>bases científicas, classificações, metodologias de coleta e sistemas automatizados de identificação</strong>. Ainda assim, é essencial que o aluno compreenda desde já a <strong>relevância da Papiloscopia no processo investigativo</strong>, entendendo-a como um <strong>recurso seguro para identificar pessoas e auxiliar na produção de provas</strong>. <span class="ref-pagina">(p. 119-120)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 3 P (locais das cristas papilares)</span>
+            <ul>
+                <li><strong>P</strong>olpa dos dedos</li>
+                <li><strong>P</strong>alma das mãos</li>
+                <li><strong>P</strong>lanta dos pés</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ====================== 3.9 OUTROS ====================== -->
+    <div id="sec39" class="section">
+        <h2>3.9 Outros (meios ordinários complementares)</h2>
+
+        <div class="box-blue">
+            <strong>Rol exemplificativo:</strong> Os meios ordinários de investigação <strong>não se exaurem em um rol taxativo</strong>, ao haver <strong>constante inserção de novas ferramentas no cotidiano policial</strong> visando a obtenção do dado desejado. <span class="ref-pagina">(p. 120)</span>
+        </div>
+
+        <p>No presente tópico serão apresentados alguns desses meios que, <strong>rotineiramente</strong>, são utilizados pelas equipes policiais das mais diversas áreas de atuação. <span class="ref-pagina">(p. 120)</span></p>
+    </div>
+
+    <!-- ====================== 3.9.1 RPA ====================== -->
+    <div id="sec391" class="section">
+        <h2>3.9.1 Aeronaves Remotamente Pilotadas (RPA)</h2>
+
+        <div class="box-blue">
+            <strong>Conceito e utilidade:</strong> A utilização de <strong>aeronaves remotamente pilotadas (RPA)</strong> é um meio <strong>extremamente eficaz</strong> para a equipe policial <strong>alcançar dados de áreas, inclusive de acesso restrito, sem a necessidade de se expor</strong>. <span class="ref-pagina">(p. 120)</span>
+        </div>
+
+        <h3>Pré-requisitos da diligência</h3>
+        <div class="box-orange">
+            Para a diligência obter êxito, faz-se necessário que:
+            <ul>
+                <li>O <strong>operador seja devidamente habilitado</strong>;</li>
+                <li>Possua <strong>conhecimentos específicos da aeronave</strong> que será utilizada;</li>
+                <li>Estude <strong>outros aspectos relacionados ao local da diligência</strong>: previsão das <strong>condições climáticas</strong>, <strong>relevo</strong>, <strong>urbanização</strong> etc.
+                </li>
+            </ul>
+            Verificando esses pré-requisitos, o <strong>risco de ocorrer algum fato adverso é mitigado</strong> e a diligência tende a ser exitosa. <span class="ref-pagina">(p. 120)</span>
+        </div>
+
+        <h3>Formalização pós-diligência</h3>
+        <div class="box-green">
+            Após a diligência de campo, é de suma importância a <strong>correta formalização do cotejamento das imagens obtidas com o contexto fático da investigação</strong> mediante a <strong>confecção de informação de polícia judiciária</strong>. <span class="ref-pagina">(p. 120)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Detalhe importante:</strong> O <strong>subscritor de tal documento NÃO necessita ser o operador da aeronave</strong>, podendo ser <strong>qualquer outro policial da equipe de investigação</strong>. <span class="ref-pagina">(p. 120)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Cadeia de custódia (atenção!):</strong> Em relação às imagens obtidas, visando a manutenção da <strong>cadeia de custódia</strong>, recomenda-se que sejam <strong>anexadas à informação de polícia judiciária</strong>, deixando <strong>expressas as informações relevantes de seus metadados</strong> (principalmente <strong>data de criação e coordenadas</strong>). <span class="ref-pagina">(p. 120)</span>
+        </div>
+
+        <h3>Regulamentação interna</h3>
+        <div class="box-blue">
+            <strong>Norma de regência:</strong> A utilização de aeronaves remotamente pilotadas (RPA) é regulamentada internamente pela <strong>Portaria DG/PF nº 18.419, de 18 de julho de 2023</strong>. Existem ainda <strong>cursos da Academia Nacional de Polícia</strong> para o aperfeiçoamento do policial na área. <span class="ref-pagina">(p. 120)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico RPA - "HAB-CLU-MET"</span>
+            <ul>
+                <li><strong>HAB</strong>ilitação do operador + conhecimento da aeronave</li>
+                <li><strong>CLU</strong>: <u>C</u>lima, re<u>L</u>evo, <u>U</u>rbanização (estudo prévio)</li>
+                <li><strong>MET</strong>adados (data + coordenadas) anexados à IPJ</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ====================== 3.9.2 CFTV ====================== -->
+    <div id="sec392" class="section">
+        <h2>3.9.2 Circuito Fechado de Televisão (CFTV)</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Circuito fechado de televisão (CFTV) é um meio utilizado <strong>rotineiramente</strong> para realizar o <strong>acompanhamento dos fatos em determinado local</strong>. <span class="ref-pagina">(p. 121)</span>
+        </div>
+
+        <h3>Comparação: CFTV x Vigilância</h3>
+        <div class="box-purple">
+            Tal método possui <strong>objetivo similar ao da vigilância</strong>, entretanto possui como <strong>benefício</strong>:
+            <ul>
+                <li>A <strong>menor exposição da equipe policial</strong>;</li>
+                <li>A <strong>possibilidade de acompanhamento de diversos locais por uma única equipe</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 121)</span>
+        </div>
+
+        <h3>Empecilhos (limitações)</h3>
+        <div class="box-red">
+            A utilização de CFTV <strong>não possui somente benefícios</strong>, apresentando como principais empecilhos:
+            <ul>
+                <li>A <strong>existência de equipamentos disponíveis</strong> para utilização;</li>
+                <li>A <strong>capacidade técnica da equipe policial</strong> para operar/instalar tais dispositivos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 121)</span>
+        </div>
+
+        <h3>Estudo prévio do equipamento</h3>
+        <p>Para a equipe policial atingir o objetivo desejado, recomenda-se o <strong>estudo prévio sobre o equipamento disponível</strong>. Destaca-se haver equipamentos com as <strong>mais diversas características</strong>, sendo possível variar desde somente o <strong>acompanhamento dos fatos em tempo real</strong> até a <strong>gravação de dias de videomonitoramento</strong>. <span class="ref-pagina">(p. 121)</span></p>
+
+        <div class="box-orange">
+            <strong>Pontos relevantes para debate na equipe:</strong>
+            <ul>
+                <li><strong>Necessidade ou não de conexão do equipamento com a rede de energia</strong>;</li>
+                <li><strong>Capacidade de discrição</strong> do equipamento utilizado.</li>
+            </ul>
+            <span class="ref-pagina">(p. 121)</span>
+        </div>
+
+        <h3>Exemplo comparativo (captação ambiental x CFTV em via pública)</h3>
+        <table>
+            <tr>
+                <th>Situação</th>
+                <th>Característica recomendada do equipamento</th>
+            </tr>
+            <tr>
+                <td><strong>Captação ambiental</strong> (tema próprio)</td>
+                <td>Equipamentos <strong>extremamente discretos</strong> e, <strong>preferencialmente, conectados à rede de energia</strong>, pois <strong>não se tem exatamente o período</strong> que será necessário perdurar a diligência.</td>
+            </tr>
+            <tr>
+                <td><strong>CFTV em via pública</strong> (ex.: praça onde haverá encontro entre investigados no dia seguinte)</td>
+                <td>Equipamento pode ser <strong>mais robusto</strong> (passa despercebido no ambiente de via pública) e <strong>sem necessidade de conexão à rede de energia</strong>, pois há <strong>período específico de duração</strong> que pode ser atendido por <strong>baterias</strong>.</td>
+            </tr>
+        </table>
+        <p><span class="ref-pagina">(p. 121)</span></p>
+
+        <h3>Formalização</h3>
+        <div class="box-green">
+            Para finalizar, assim como já visto no tópico anterior, é de suma importância a <strong>confecção de informação de polícia judiciária</strong> com a finalidade específica de <strong>formalizar os dados obtidos</strong>, pois tal documento é que <strong>será juntado ao inquérito policial</strong>. <span class="ref-pagina">(p. 121)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico CFTV - Benefícios x Empecilhos</span>
+            <ul>
+                <li><strong>Benefícios:</strong> menor exposição + vários locais por uma só equipe</li>
+                <li><strong>Empecilhos:</strong> equipamento disponível + capacidade técnica</li>
+                <li><strong>Variáveis:</strong> rede de energia x bateria | discrição x robustez</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ====================== 3.9.3 RASTREADORES ====================== -->
+    <div id="sec393" class="section">
+        <h2>3.9.3 Rastreadores</h2>
+
+        <div class="box-blue">
+            <strong>Finalidade:</strong> A utilização de <strong>rastreadores</strong> visa atender à necessidade da equipe policial de <strong>acompanhar determinada pessoa, veículo, carga ou outro bem desejado</strong>. <span class="ref-pagina">(p. 121)</span>
+        </div>
+
+        <p>Há <strong>diferentes tipos de aparelhos e tecnologias</strong> disponíveis, sendo os <strong>mais utilizados pelas equipes policiais</strong> os <strong>rastreadores veiculares</strong> e as <strong>TAG's</strong>. <span class="ref-pagina">(p. 121)</span></p>
+    </div>
+
+    <!-- ====================== 3.9.3.1 RASTREADOR VEICULAR ====================== -->
+    <div id="sec3931" class="section">
+        <h2>3.9.3.1 Rastreador Veicular</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Os <strong>rastreadores veiculares</strong> são aparelhos utilizados para fazer o <strong>acompanhamento da movimentação de um veículo de interesse</strong> da equipe de investigação. <span class="ref-pagina">(p. 122)</span>
+        </div>
+
+        <h3>Etapas para utilização exitosa</h3>
+
+        <div class="box-purple">
+            <strong>1) Verificação de conexão à rede</strong><br>
+            O <strong>primeiro passo</strong> antes da utilização de um dispositivo de rastreamento veicular é a <strong>verificação do estado de funcionamento</strong>. É de suma importância ter o conhecimento da situação de sua <strong>correta conexão à rede de telefonia</strong>. <span class="ref-pagina">(p. 122)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>2) Verificação de bateria</strong><br>
+            É <strong>extremamente recomendável</strong> que, assim que a equipe policial vislumbre uma necessidade de utilização de dispositivo de rastreamento, seja feito o <strong>carregamento completo de sua bateria</strong>, pois, dessa forma, o equipamento estará disponível para <strong>pronto emprego durante o máximo de tempo possível</strong>, evitando diligências para realizar a <strong>troca de dispositivos</strong>. <span class="ref-pagina">(p. 122)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>3) Identificação do veículo a ser rastreado</strong><br>
+            A correta identificação do veículo a ser rastreado possibilita que a equipe policial realize um <strong>estudo prévio do referido modelo de veículo</strong> e identifique os <strong>melhores locais para instalação do rastreador</strong>. <span class="ref-pagina">(p. 122)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>4) Acompanhamento por meio de plataformas específicas</strong><br>
+            Existem disponíveis <strong>diversas plataformas de rastreamento</strong>, sendo que cada uma possui as suas <strong>fraquezas e seus pontos fortes</strong>. Independentemente da plataforma escolhida, é importante que a equipe policial possua <strong>familiaridade com a interface</strong> da plataforma e <strong>obtenha as informações desejadas</strong>. <span class="ref-pagina">(p. 122)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>5) Remoção</strong><br>
+            Em diversos casos, é <strong>necessária a remoção do rastreador instalado</strong>, seja:
+            <ul>
+                <li>Pela <strong>proximidade do término da bateria</strong>;</li>
+                <li>Por <strong>fato identificado durante a investigação</strong> (ex.: a equipe policial está acompanhando o investigado e identificou que ele <strong>agendou revisão em seu carro para a próxima semana</strong>).</li>
+            </ul>
+            Essa diligência é <strong>tão importante quanto a de instalação</strong>, por dever ser realizada <strong>veladamente</strong> para que o investigado <strong>não tenha ciência de que está sendo investigado</strong>. <span class="ref-pagina">(p. 122)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico Rastreador Veicular - "C-B-I-A-R"</span>
+            <ul>
+                <li><strong>C</strong>onexão à rede (telefonia)</li>
+                <li><strong>B</strong>ateria (carregar completo)</li>
+                <li><strong>I</strong>dentificação do veículo (estudo prévio + locais de instalação)</li>
+                <li><strong>A</strong>companhamento por plataformas</li>
+                <li><strong>R</strong>emoção (velada!)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ====================== 3.9.3.2 TAG ====================== -->
+    <div id="sec3932" class="section">
+        <h2>3.9.3.2 TAG</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Os rastreadores em <strong>formato de TAG</strong> possuem <strong>finalidade similar à dos rastreadores veiculares</strong>, entretanto apresentam algumas <strong>características bem distintas</strong>. <span class="ref-pagina">(p. 122-123)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Principal facilitador:</strong> Um dos principais facilitadores para a utilização de TAG é o seu <strong>tamanho diminuto</strong>, pois assim ele pode ser <strong>facilmente ocultado</strong>. <span class="ref-pagina">(p. 122-123)</span>
+        </div>
+
+        <h3>Principais diferenças (além do formato)</h3>
+
+        <table>
+            <tr>
+                <th>Aspecto</th>
+                <th>Rastreador Veicular</th>
+                <th>TAG</th>
+            </tr>
+            <tr>
+                <td><strong>Bateria</strong></td>
+                <td>Necessita verificação/carregamento; troca pode ser necessária</td>
+                <td><strong>Grande vantagem</strong>: <strong>duração extremamente extensa</strong>, sendo <strong>muito provável NÃO ser necessária a substituição do dispositivo por esse motivo</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Conexão</strong></td>
+                <td><strong>Rede de telefonia</strong></td>
+                <td><strong>NÃO utiliza a rede de telefonia</strong> - usa <strong>Bluetooth</strong>, <strong>Banda Ultralarga (UWB)</strong> e/ou <strong>NFC</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Tamanho/discrição</strong></td>
+                <td>Maior, necessita estudo de local de instalação</td>
+                <td><strong>Diminuto</strong>, facilmente ocultável</td>
+            </tr>
+        </table>
+        <p><span class="ref-pagina">(p. 123)</span></p>
+
+        <div class="box-orange">
+            <strong>Decisão tática:</strong> Cabe à equipe policial <strong>sopesar as características de cada equipamento</strong> e decidir <strong>qual será mais vantajoso na situação fática da investigação</strong>. <span class="ref-pagina">(p. 123)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico TAG - "B-U-N" (tecnologias de conexão)</span>
+            <ul>
+                <li><strong>B</strong>luetooth</li>
+                <li><strong>U</strong>WB (banda ultralarga)</li>
+                <li><strong>N</strong>FC</li>
+            </ul>
+            <p style="margin-top:10px;">Ou seja: <strong>NÃO usa rede de telefonia</strong> (diferente do rastreador veicular).</p>
+        </div>
+    </div>
+
+    <!-- ====================== SÍNTESE FINAL ====================== -->
+    <div id="sintese" class="section">
+        <h2>Síntese final e mnemônicos</h2>
+
+        <div class="box-blue">
+            <strong>Visão de conjunto:</strong> Os meios estudados (Criminalística, Papiloscopia, RPA, CFTV e Rastreadores) compõem o repertório de <strong>meios ordinários de investigação</strong>, em <strong>rol não taxativo</strong>, e <strong>convergem para a produção de prova tecnicamente qualificada</strong> e a <strong>formalização nos autos</strong> (via informação de polícia judiciária / inquérito). <span class="ref-pagina">(p. 119-123)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Meio</th>
+                <th>Característica essencial</th>
+                <th>Formalização / Observação</th>
+            </tr>
+            <tr>
+                <td><strong>Criminalística</strong></td>
+                <td>Exames científicos (financeira; imagens/mídias digitais; comparação - DNA e voz)</td>
+                <td>Estudada em <strong>caderno didático próprio</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Papiloscopia</strong></td>
+                <td>Cristas papilares (3 P) → dermatóglifos → datilograma; identificação humana incontestável</td>
+                <td><strong>Em regra, sem autorização judicial</strong>; estudada em caderno próprio</td>
+            </tr>
+            <tr>
+                <td><strong>RPA</strong></td>
+                <td>Acesso a áreas restritas sem expor a equipe</td>
+                <td><strong>Portaria DG/PF nº 18.419/2023</strong>; subscritor da IPJ pode ser qualquer policial da equipe; metadados (data + coordenadas)</td>
+            </tr>
+            <tr>
+                <td><strong>CFTV</strong></td>
+                <td>Acompanhamento de fatos em local; menor exposição + vários locais por uma equipe</td>
+                <td>Variáveis: energia x bateria | discrição x robustez; IPJ juntada ao IPL</td>
+            </tr>
+            <tr>
+                <td><strong>Rastreador Veicular</strong></td>
+                <td>Acompanhar movimentação de veículo</td>
+                <td>5 etapas (Conexão telefonia → Bateria → Identificação → Plataformas → Remoção velada)</td>
+            </tr>
+            <tr>
+                <td><strong>TAG</strong></td>
+                <td>Diminuta, fácil ocultação; bateria de longa duração</td>
+                <td><strong>NÃO usa telefonia</strong>: Bluetooth, UWB e/ou NFC</td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico geral - "CRI-PAP + RPA-CFTV-RAS"</span>
+            <ul>
+                <li><strong>CRI</strong>minalística (perícia científica)</li>
+                <li><strong>PAP</strong>iloscopia (cristas papilares)</li>
+                <li><strong>RPA</strong> (aeronaves remotamente pilotadas)</li>
+                <li><strong>CFTV</strong> (circuito fechado de televisão)</li>
+                <li><strong>RAS</strong>treadores (Veicular + TAG)</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>Ponto que pode cair em prova:</strong>
+            <ul>
+                <li>Locais das cristas papilares: <strong>polpa dos dedos, palma das mãos, planta dos pés</strong>.</li>
+                <li>Termos: <strong>dermatóglifos</strong> (desenhos) ≠ <strong>datilograma</strong> (impressão).</li>
+                <li>Papiloscopia, <strong>em regra, dispensa autorização judicial</strong>.</li>
+                <li>RPA: <strong>subscritor da IPJ NÃO precisa ser o operador da aeronave</strong>; anexar metadados (data + coordenadas) para <strong>cadeia de custódia</strong>.</li>
+                <li>RPA regulada pela <strong>Portaria DG/PF nº 18.419, de 18/07/2023</strong>.</li>
+                <li>Rastreador Veicular usa <strong>rede de telefonia</strong>; TAG usa <strong>Bluetooth/UWB/NFC</strong>.</li>
+                <li>Remoção do rastreador deve ser feita <strong>veladamente</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 119-123)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

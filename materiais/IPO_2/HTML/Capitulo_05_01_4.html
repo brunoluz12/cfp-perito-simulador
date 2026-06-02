@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.1.4 - Análise de Transações com Ativos Virtuais</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.1.4 - Análise de Transações com Ativos Virtuais</h1>
+        <div class="subtitle">Blockchain, criptoativos e investigação policial</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Introdução e relevância investigativa</a></li>
+            <li><a href="#sec2">2. Origem e evolução dos ativos virtuais</a></li>
+            <li><a href="#sec3">3. Noções fundamentais - Ativo virtual</a></li>
+            <li><a href="#sec4">4. Blockchain - estrutura e características</a></li>
+            <li><a href="#sec5">5. Principais blockchains de interesse investigativo</a></li>
+            <li><a href="#sec6">6. Chave privada, chave pública e endereço</a></li>
+            <li><a href="#sec7">7. CEX e DEX</a></li>
+            <li><a href="#sec8">8. Carteiras e Frase Secreta (Seed)</a></li>
+            <li><a href="#sec9">9. Transação - elementos e funcionamento</a></li>
+            <li><a href="#sec10">10. Marco regulatório (Lei 14.478, Decreto, BCB)</a></li>
+            <li><a href="#sec11">11. Investigação - IDENTIFICAR</a></li>
+            <li><a href="#sec12">12. RASTREAR - on-chain e off-chain</a></li>
+            <li><a href="#sec13">13. APREENDER e CUSTODIAR</a></li>
+            <li><a href="#sec14">14. ALIENAR</a></li>
+            <li><a href="#sec15">15. Considerações finais</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Introdução e relevância investigativa</h2>
+
+        <div class="box-blue">
+            <strong>Contexto:</strong> Os ativos virtuais consolidaram-se como instrumentos de inovação tecnológica e financeira, ao mesmo tempo em que representam desafio crescente para as autoridades policiais. A Polícia Federal assume a missão complexa de investigar crimes que envolvem esses ativos, exigindo preparo técnico, atualização constante e estratégias especializadas. <span class="ref-pagina">(p. 223)</span>
+        </div>
+
+        <p>A relevância do tema decorre de fatores determinantes: <span class="ref-pagina">(p. 223)</span></p>
+        <ul>
+            <li>Estrutura <strong>descentralizada e criptografada</strong> de ativos como Bitcoin e Ethereum;</li>
+            <li>Uso recorrente em práticas ilícitas: <strong>lavagem de dinheiro, financiamento ao terrorismo e fraudes</strong>;</li>
+            <li><strong>Dimensão transnacional</strong> das transações, que impõe cooperação internacional;</li>
+            <li>Evolução contínua das tecnologias, que demanda capacitação permanente.</li>
+        </ul>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Origem e evolução dos ativos virtuais</h2>
+
+        <div class="box-purple">
+            <strong>Marco histórico:</strong> A ideia de moeda digital descentralizada surgiu em <strong>1998 com Nick Szabo</strong>, que propôs o conceito do <strong>Bit Gold</strong>, precursor do Bitcoin. Szabo também idealizou os <strong>contratos inteligentes</strong>. <span class="ref-pagina">(p. 224)</span>
+        </div>
+
+        <p>Em <strong>31/10/2008</strong>, Satoshi Nakamoto publicou o artigo "Bitcoin: A Peer-to-Peer Electronic Cash System", marco teórico e tecnológico da Bitcoin. A <strong>primeira transação de Bitcoin</strong> ocorreu em <strong>12/01/2009</strong>, quando Nakamoto transferiu 10 BTC para Hal Finney. <span class="ref-pagina">(p. 224)</span></p>
+
+        <table>
+            <tr><th>Ano</th><th>Marco</th></tr>
+            <tr><td>1998</td><td>Nick Szabo propõe o Bit Gold (precursor) <span class="ref-pagina">(p. 224)</span></td></tr>
+            <tr><td>2008</td><td>Satoshi Nakamoto publica o whitepaper do Bitcoin <span class="ref-pagina">(p. 224)</span></td></tr>
+            <tr><td>2009</td><td>Primeira transação de Bitcoin (10 BTC para Hal Finney) <span class="ref-pagina">(p. 224)</span></td></tr>
+            <tr><td>2010</td><td>Primeiras plataformas: Bitcoinmarket.com e Mt.Gox (ambas extintas) <span class="ref-pagina">(p. 225)</span></td></tr>
+            <tr><td>2011</td><td>Surgem as altcoins: Namecoin, Litecoin, Dogecoin <span class="ref-pagina">(p. 225)</span></td></tr>
+            <tr><td>2014</td><td>Surge o Tether (USDT), primeira stablecoin pareada ao dólar <span class="ref-pagina">(p. 225)</span></td></tr>
+            <tr><td>2015</td><td>Lançamento da Ethereum (Ether) - segunda geração, contratos inteligentes <span class="ref-pagina">(p. 225)</span></td></tr>
+            <tr><td>2017-2018</td><td>Explosão das ICOs (Ofertas Iniciais de Moedas) <span class="ref-pagina">(p. 226)</span></td></tr>
+            <tr><td>2020</td><td>Consolidação das stablecoins e crescimento do DeFi <span class="ref-pagina">(p. 226)</span></td></tr>
+            <tr><td>2021</td><td>Notoriedade dos NFTs <span class="ref-pagina">(p. 226)</span></td></tr>
+            <tr><td>2023-2024</td><td>Investidores institucionais, ETFs de BTC e ETH, MiCA na UE <span class="ref-pagina">(p. 226)</span></td></tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Contratos inteligentes (Resolução BCB 520/2025):</strong> programa projetado e executado por meio de algoritmo computacional que promove a automatização de funções associadas a condições predefinidas em sistema baseado na tecnologia de registros distribuídos ou similar. Idealizados por Szabo (exemplo da máquina de refrigerantes) e viabilizados pela Ethereum. <span class="ref-pagina">(p. 225)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>NFTs (Non-Fungible Tokens):</strong> tokens criptográficos únicos e indivisíveis emitidos por meio de contratos inteligentes. Diferentemente dos tokens fungíveis (criptomoedas), possuem <strong>metadados imutáveis</strong> que os distinguem entre si. <span class="ref-pagina">(p. 225-226)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - Gerações de Blockchain</span>
+            <ul>
+                <li><strong>1ª geração</strong>: Bitcoin (transferência de valor)</li>
+                <li><strong>2ª geração</strong>: Ethereum (contratos inteligentes, tokens, NFTs, DeFi)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Noções fundamentais - Ativo virtual</h2>
+
+        <div class="box-blue">
+            <strong>Conceito doutrinário:</strong> Ativo Virtual é uma <strong>representação digital de valor</strong> que pode ser transacionada, armazenada ou trocada eletronicamente. Não têm existência física e não são necessariamente lastreados por moeda fiduciária. É <strong>gênero</strong> do qual são espécies: criptomoedas, tokens fungíveis, tokens não fungíveis, finanças descentralizadas, Fan Tokens, aplicações descentralizadas etc. <span class="ref-pagina">(p. 227)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Definição legal (Lei 14.478/2022):</strong> "Ativo virtual é a <strong>representação digital de valor</strong> que pode ser <strong>negociada ou transferida por meios eletrônicos</strong> e <strong>utilizada para realizar pagamentos ou com a finalidade de investimento</strong>." <span class="ref-pagina">(p. 228)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Origem do conceito (GAFI/FATF):</strong> Em 2014 ("Virtual Currencies Key Definitions and Potential AML/CFT Risks"), o GAFI trouxe o conceito de moeda virtual. Em 2019, o termo "moeda virtual" foi substituído por "ativo virtual". Os ativos virtuais NÃO incluem representações digitais de moedas fiduciárias, títulos e outros ativos financeiros já abrangidos pelas Recomendações do GAFI. <span class="ref-pagina">(p. 228)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Blockchain - estrutura e características</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Sistema eletrônico distribuído que funciona como <strong>registro público e imutável de transações</strong>, operando sem necessidade de autoridade central. Pode designar: (i) a tecnologia de registro distribuído; (ii) o conjunto de blocos válidos do livro-razão; ou (iii) a cópia completa mantida por cada nó. <span class="ref-pagina">(p. 228)</span>
+        </div>
+
+        <h3>4.1 Origem e finalidade - problema do gasto duplo</h3>
+        <p>Em sistemas tradicionais, uma autoridade central verifica saldos. Nakamoto propôs registrar publicamente as transações em uma cadeia de blocos, com consenso distribuído, eliminando a autoridade central e o risco de <strong>gasto duplo</strong> (situação em que um mesmo valor monetário é utilizado mais de uma vez). <span class="ref-pagina">(p. 228-229)</span></p>
+
+        <h3>4.2 Hash e cadeia de blocos</h3>
+        <div class="box-orange">
+            <strong>Hash:</strong> função (matemática) criptográfica que transforma dados de tamanho variável em uma sequência fixa, única e irreversível. Qualquer alteração mínima nos dados gera hash completamente diferente. Garante <strong>integridade</strong>. <span class="ref-pagina">(p. 229)</span>
+        </div>
+
+        <p>Cada bloco contém: <strong>conjunto de transações + hash do bloco anterior</strong>. Validar um novo bloco implica revalidar todos os anteriores - validação cumulativa e progressiva. O hash do bloco é resultado da solução do algoritmo de todas as transações contidas no lote. <span class="ref-pagina">(p. 229-231)</span></p>
+
+        <p>Atualmente cada bloco de Bitcoin carrega entre <strong>1,5 e 1,8 megabytes</strong>. <span class="ref-pagina">(p. 230)</span></p>
+
+        <h3>4.3 Características técnicas da blockchain</h3>
+
+        <table>
+            <tr><th>Característica</th><th>Descrição</th></tr>
+            <tr><td><strong>1. Distribuição</strong></td><td>Poder de validação distribuído entre os nós; rede distribuída (Baran), sem prevalência hierárquica entre nós <span class="ref-pagina">(p. 231-232)</span></td></tr>
+            <tr><td><strong>2. Transparência</strong></td><td>Dados públicos: hash da transação, bloco, confirmações, data, endereços público de remetente/destinatário, valor, taxa <span class="ref-pagina">(p. 233)</span></td></tr>
+            <tr><td><strong>3. Segurança</strong></td><td>Imutabilidade, distribuição, consenso de rede, criptografia, auditabilidade <span class="ref-pagina">(p. 234)</span></td></tr>
+            <tr><td><strong>4. Anonimato relativo (pseudonimato)</strong></td><td>Endereços alfanuméricos podem ser rastreados; KYC em PSAVs centralizadas permite vincular endereços a usuários <span class="ref-pagina">(p. 235)</span></td></tr>
+            <tr><td><strong>5. Abrangência global</strong></td><td>Transações entre quaisquer localidades com internet <span class="ref-pagina">(p. 235)</span></td></tr>
+            <tr><td><strong>6. Disponibilidade</strong></td><td>24/7, ininterruptamente <span class="ref-pagina">(p. 235)</span></td></tr>
+            <tr><td><strong>7. Diversidade</strong></td><td>Diversas redes blockchain com propósitos próprios <span class="ref-pagina">(p. 235)</span></td></tr>
+        </table>
+
+        <div class="box-purple">
+            <strong>Pilares da segurança:</strong>
+            <ul>
+                <li><strong>Imutabilidade</strong>: quanto mais antigo o bloco, mais impossível sua alteração;</li>
+                <li><strong>Distribuição</strong>: ataque exigiria controle da maioria absoluta dos nós;</li>
+                <li><strong>Consenso</strong>: algoritmos como <strong>Proof of Work (PoW)</strong> e <strong>Proof of Stake (PoS)</strong>;</li>
+                <li><strong>Criptografia</strong>: assinatura por chaves privadas via algoritmo <strong>ECDSA</strong> (Elliptic Curve Digital Signature Algorithm), usado por Bitcoin e Ethereum;</li>
+                <li><strong>Auditabilidade</strong>: transparência permite auditorias independentes.</li>
+            </ul>
+            <span class="ref-pagina">(p. 234-235)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Exploradores recomendados:</strong> Blockchair.com; blockchain.coinmarketcap.com; etherscan.io; blockchain.com/explorer (este NÃO é a blockchain, é só um explorador); tronscan.org. <span class="ref-pagina">(p. 234)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Tipos de rede (Baran)</span>
+            <ul>
+                <li><strong>Centralizada (estrela)</strong>: nó central; vulnerável</li>
+                <li><strong>Descentralizada</strong>: alguns nós mais importantes</li>
+                <li><strong>Distribuída</strong>: TODOS os nós em mesmo nível (blockchain) <span class="ref-pagina">(p. 232)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Principais blockchains de interesse investigativo</h2>
+
+        <table>
+            <tr><th>Blockchain</th><th>Características</th><th>Relevância investigativa</th></tr>
+            <tr>
+                <td><strong>Bitcoin (BTC)</strong></td>
+                <td>2009, blockchain mais antiga; foco em transferência de valor; em regra não suporta contratos inteligentes complexos</td>
+                <td>Ampla adoção global e grande acervo histórico; principal alvo de análise forense <span class="ref-pagina">(p. 236)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Ethereum (ETH)</strong></td>
+                <td>2015; contratos inteligentes; tokens ERC-20; NFTs (ERC-721 e ERC-1155); DeFi</td>
+                <td>Rug pulls, pump and dump, mixers (Tornado Cash), lavagem via DEX; uma das mais complexas <span class="ref-pagina">(p. 236)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Tron (TRX)</strong></td>
+                <td>Similar à Ethereum, mas com velocidade e baixas taxas; principal meio de circulação do USDT (TRC-20)</td>
+                <td>Movimentações rápidas e baixo custo de grandes volumes; altíssimo interesse policial (pagamentos ilícitos e lavagem em escala) <span class="ref-pagina">(p. 236)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Atenção - termos:</strong>
+            <ul>
+                <li><strong>Rug pull</strong>: desenvolvedores retiram liquidez/abandonam o projeto, deixando investidores com tokens sem valor;</li>
+                <li><strong>Pump and dump</strong>: preço artificialmente inflado por promoção enganosa; organizadores vendem no auge, gerando queda abrupta.</li>
+            </ul>
+            <span class="ref-pagina">(p. 236)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Exploradores por rede:</strong> Blockchair (multi-cadeias); CoinMarketCap Explorer (contexto de mercado); Etherscan (Ethereum); Blockchain.com Explorer (Bitcoin); Tronscan (Tron - USDT TRC-20). <span class="ref-pagina">(p. 237)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Chave privada, chave pública e endereço</h2>
+
+        <div class="box-blue">
+            <strong>Criptografia assimétrica:</strong> as redes blockchain usam um <strong>par de chaves matematicamente relacionadas</strong>:
+            <ul>
+                <li><strong>Chave pública</strong>: pode ser livremente distribuída; usada para criptografar dados ou verificar assinaturas digitais;</li>
+                <li><strong>Chave privada</strong>: mantida em segredo; descriptografa dados e gera assinaturas digitais.</li>
+            </ul>
+            Algoritmo amplamente adotado: <strong>ECDSA</strong>. A chave pública é derivada da privada em relação <strong>unidirecional</strong> (não se obtém a privada a partir da pública). <span class="ref-pagina">(p. 237)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Endereço público:</strong> representação simplificada da chave pública, obtida após funções de hash, checksum e codificação (Base58 no Bitcoin; Hexadecimal no Ethereum). Embora "chave pública" e "endereço público" sejam usados como sinônimos, são <strong>tecnicamente distintos</strong>. Funciona como número de conta bancária; pode ser divulgado. <span class="ref-pagina">(p. 237-238)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO - Chave privada:</strong> elemento que confere <strong>controle total</strong> sobre os ativos. Funciona como senha de acesso à "conta". NÃO deve ser compartilhada sob nenhuma hipótese - sua exposição implica risco de <strong>perda total e irreversível</strong> dos ativos. O controle efetivo do ativo virtual está diretamente vinculado à posse da chave privada. Conceito fundamental para apreensão, sequestro e recuperação. <span class="ref-pagina">(p. 238)</span>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Exchanges Centralizadas (CEX) e Descentralizadas (DEX)</h2>
+
+        <p>As exchanges são <strong>Provedores de Serviços de Ativos Virtuais (PSAV)</strong>, portas de entrada e saída para o ecossistema digital. <span class="ref-pagina">(p. 239)</span></p>
+
+        <table>
+            <tr><th>Característica</th><th>CEX (Centralizada)</th><th>DEX (Descentralizada)</th></tr>
+            <tr><td>Estrutura</td><td>Plataforma com entidade intermediária</td><td>Distribuída, sem intermediários (contratos inteligentes; peer-to-peer)</td></tr>
+            <tr><td>KYC/AML</td><td>Exige cadastro e verificação de identidade</td><td>Em geral, não exige cadastro nem verificação</td></tr>
+            <tr><td>Custódia</td><td>Exchange custodia os fundos</td><td>Carteiras sob controle exclusivo do usuário</td></tr>
+            <tr><td>Exemplos</td><td>Binance, Coinbase, Mercado Bitcoin, Kraken</td><td>Uniswap, PancakeSwap, dYdX</td></tr>
+            <tr><td>Para a investigação</td><td>Maior transparência e cooperação institucional; registros podem ser requisitados</td><td>Favorecem anonimato; swaps instantâneos, mixers integrados, troca em escala - lavagem digital</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 239-240)</p>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Carteiras e Frase Secreta (Seed)</h2>
+
+        <div class="box-blue">
+            <strong>Função das carteiras:</strong> ferramentas (software ou hardware) para gerenciar chaves criptográficas, consultar saldos, realizar transações, acompanhar histórico e usar autenticação multifator/backup. A forma como a chave privada é armazenada define a classificação da carteira. <span class="ref-pagina">(p. 240)</span>
+        </div>
+
+        <h3>8.1 Carteiras de custódia de terceiros (custodiais)</h3>
+        <p>A PSAV do tipo CEX mantém a guarda das chaves privadas. O usuário acessa por login e senha (com ou sem 2FA), mas o controle final é da PSAV. O abertura de conta é similar a banco digital (dados, documentos, validações). Os valores transferidos são registrados de forma <strong>escritural</strong> (saldo representativo). <span class="ref-pagina">(p. 240-242)</span></p>
+
+        <div class="box-orange">
+            <strong>Implicações para a investigação (CEX):</strong>
+            <ul>
+                <li>PSAV concentra dados cadastrais úteis à identificação;</li>
+                <li>Login/senha/2FA permitem rastrear dispositivos e credenciais;</li>
+                <li>Ativos sob total controle da PSAV;</li>
+                <li>Em caso de falência ou ataque cibernético, usuário pode perder acesso.</li>
+            </ul>
+            <span class="ref-pagina">(p. 242)</span>
+        </div>
+
+        <h3>8.2 Carteiras de custódia própria (não-custodiais)</h3>
+        <p>O usuário detém suas chaves privadas e controle total. Pode ser <strong>hardwallet</strong> (Trezor, Ledger) ou <strong>software</strong> (Trust Wallet, Exodus). <span class="ref-pagina">(p. 242-244)</span></p>
+
+        <div class="box-orange">
+            <strong>Implicações policiais (custódia própria):</strong>
+            <ul>
+                <li>Criação NÃO exige dados pessoais (dificulta identificação);</li>
+                <li>Acesso protegido por senha, PIN, MFA;</li>
+                <li>Chaves armazenadas no próprio dispositivo;</li>
+                <li>Perda de senha/PIN/equipamento compromete acesso, salvo se houver <strong>Frase Secreta</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 244)</span>
+        </div>
+
+        <h3>8.3 Frase Secreta (Seed Phrase / Frase de Recuperação)</h3>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO:</strong> a Frase Secreta é o <strong>principal mecanismo de backup</strong> de uma carteira de custódia própria. Sequência de <strong>12, 18 ou 24 palavras</strong> aleatórias, geradas a partir de vocabulário pré-definido. A <strong>ordem deve ser rigorosamente preservada</strong>. A partir dela é possível derivar TODAS as chaves privadas e públicas. <span class="ref-pagina">(p. 244-245)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Investigação:</strong> o investigador que obtiver uma Frase Secreta terá <strong>acesso completo aos ativos</strong>, podendo controlá-los tal como o proprietário. Como a carteira pode ser restaurada indefinidamente em diferentes dispositivos, uma mesma Seed pode estar com vários membros de organização criminosa. <span class="ref-pagina">(p. 245)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Hierarquia dos elementos de acesso</span>
+            <ul>
+                <li><strong>Seed</strong> = acesso TOTAL à carteira</li>
+                <li><strong>Chave privada</strong> = acesso ao endereço vinculado</li>
+                <li><strong>PIN + login</strong> = acesso via aplicativo</li>
+                <li><strong>Endereço público</strong> = apenas vincular ativo ao investigado <span class="ref-pagina">(p. 273)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Transação - elementos e funcionamento</h2>
+
+        <div class="box-blue">
+            <strong>Três etapas principais:</strong>
+            <ol>
+                <li><strong>Montagem</strong>: usuário define ativo, endereço de destino, valor e taxa de rede; transação assinada com chave privada (geralmente via PIN/senha);</li>
+                <li><strong>Transmissão</strong>: transação assinada enviada aos nós da rede e circula entre eles;</li>
+                <li><strong>Registro na blockchain</strong>: nós validam saldo e assinatura; transação é incluída em bloco e considerada confirmada.</li>
+            </ol>
+            <span class="ref-pagina">(p. 245)</span>
+        </div>
+    </div>
+
+    <div id="sec10" class="section">
+        <h2>10. Marco regulatório</h2>
+
+        <div class="box-purple">
+            <strong>Marco internacional:</strong> alteração da <strong>Recomendação 15 do GAFI (2018)</strong>, exigindo regulamentação das PSAVs para PLD/FT. <span class="ref-pagina">(p. 245)</span>
+        </div>
+
+        <h3>10.1 Linha do tempo regulatória no Brasil</h3>
+        <table>
+            <tr><th>Norma</th><th>Conteúdo</th></tr>
+            <tr><td><strong>IN RFB 1.888/2019</strong></td><td>Obrigou prestação de informações sobre operações com ativos virtuais <span class="ref-pagina">(p. 245)</span></td></tr>
+            <tr><td><strong>Parecer CVM 40/2022</strong></td><td>Tokens podem ser valores mobiliários, conforme natureza e oferta <span class="ref-pagina">(p. 245)</span></td></tr>
+            <tr><td><strong>Lei 14.478/2022</strong></td><td>Marco regulatório dos ativos virtuais (vigência junho/2023) <span class="ref-pagina">(p. 245-246)</span></td></tr>
+            <tr><td><strong>Decreto 11.563/2023</strong></td><td>Designa o BCB como órgão regulador <span class="ref-pagina">(p. 246)</span></td></tr>
+            <tr><td><strong>Soluções de Consulta RFB 217 e 218/2023</strong></td><td>NFTs e utility tokens <span class="ref-pagina">(p. 246)</span></td></tr>
+            <tr><td><strong>Lei 14.754/2023</strong></td><td>Ativos virtuais como aplicações financeiras no exterior sujeitas a IRPF <span class="ref-pagina">(p. 246)</span></td></tr>
+            <tr><td><strong>IN RFB 2.219/2024</strong></td><td>Ampliou obrigação de reporte de operações com PSAVs estrangeiras <span class="ref-pagina">(p. 246)</span></td></tr>
+            <tr><td><strong>Resoluções BCB 519, 520 e 521/2025</strong></td><td>Disciplinam autorização, funcionamento e regras de câmbio das PSAVs <span class="ref-pagina">(p. 246)</span></td></tr>
+            <tr><td><strong>IN BCB 693/2025</strong></td><td>Remessa ao BCB de informações sobre câmbio com criptoativos (vigência maio/2026) <span class="ref-pagina">(p. 247, 250)</span></td></tr>
+        </table>
+
+        <h3>10.2 Lei 14.478/2022 (Lei de Ativos Virtuais)</h3>
+        <div class="box-blue">
+            Define ativo virtual; <strong>exclui</strong> moedas nacionais ou estrangeiras, moedas eletrônicas, programas de fidelidade e ativos financeiros já regulados. <span class="ref-pagina">(p. 247)</span>
+        </div>
+        <ul>
+            <li><strong>PSAVs precisam de autorização prévia</strong> do BCB; <span class="ref-pagina">(p. 247)</span></li>
+            <li>BCB supervisiona operações que não envolvam valores mobiliários; CVM regula tokens-valores-mobiliários; <span class="ref-pagina">(p. 247)</span></li>
+            <li>Exige capital mínimo, governança, compliance, PLD/FT, auditoria, cibersegurança; <span class="ref-pagina">(p. 247)</span></li>
+            <li><strong>Art. 171-A do CP - "criptoestelionato"</strong>: organizar, gerir, ofertar ou intermediar operações com ativos virtuais com vantagem ilícita, mediante artifício ou fraude. <strong>Pena: reclusão de 4 a 8 anos, além de multa</strong>; <span class="ref-pagina">(p. 247)</span></li>
+            <li>Lei 7.492/86 (crimes financeiros): PSAVs equiparadas a instituições financeiras para responsabilização penal; <span class="ref-pagina">(p. 247)</span></li>
+            <li>Lei 9.613/98 (lavagem): <strong>aumento de pena de 1/3 a 2/3</strong> se o crime for praticado por meio de ativo virtual, reiteração ou organização criminosa; <span class="ref-pagina">(p. 248)</span></li>
+            <li>PSAVs como sujeitos obrigados ao reporte de operações suspeitas. <span class="ref-pagina">(p. 248)</span></li>
+        </ul>
+
+        <h3>10.3 Decreto 11.563/2023</h3>
+        <p>Regulamenta a Lei 14.478/2022; atribui ao <strong>Banco Central</strong> competência exclusiva para regulamentar, autorizar e supervisionar as PSAVs. Não se aplica a ativos que sejam valores mobiliários (mantém-se competência da CVM). <span class="ref-pagina">(p. 248)</span></p>
+
+        <h3>10.4 Resoluções BCB 519, 520 e 521/2025</h3>
+        <ul>
+            <li><strong>519</strong>: critérios e procedimentos de autorização e supervisão; exige capacidade econômico-financeira, origem lícita do capital, plano de viabilidade, infra TI, governança, reputação ilibada dos administradores, capital mínimo e sede física no país; <span class="ref-pagina">(p. 248-249)</span></li>
+            <li><strong>520</strong>: requisitos prudenciais e operacionais; gestão de riscos cibernéticos, continuidade, proteção das chaves privadas, PLD/FT, monitoramento, reporte ao BCB e Coaf, segregação de recursos dos clientes, auditoria independente anual; <span class="ref-pagina">(p. 249)</span></li>
+            <li><strong>521</strong>: capital prudencial; níveis mínimos de patrimônio líquido; colchão de liquidez; reporte periódico; <strong>operações de câmbio com criptoativos</strong> seguem regras do mercado de câmbio brasileiro (segregação de recursos, controle/reporte, compliance cambial). <span class="ref-pagina">(p. 249-250)</span></li>
+        </ul>
+
+        <h3>10.5 IN BCB 693/2025</h3>
+        <p>A partir de <strong>maio de 2026</strong>, instituições e PSAVs devem reportar dados detalhados sobre transações internacionais com criptoativos: pagamentos, transferências para carteiras autocustodiadas, carregamento/descarregamento em cartões internacionais, e total mensal de compras, vendas e trocas em moeda fiduciária. Reporte via <strong>Sisbacen, documento C212 (ACAM212)</strong>. <span class="ref-pagina">(p. 250)</span></p>
+    </div>
+
+    <div id="sec11" class="section">
+        <h2>11. Investigação - IDENTIFICAR</h2>
+
+        <div class="box-blue">
+            <strong>Distinção essencial:</strong>
+            <ul>
+                <li><strong>Ativo Virtual</strong>: propriedade digital em si, criada e movimentada na blockchain (criptomoedas, utility tokens, security tokens, NFTs);</li>
+                <li><strong>Saldo Representativo</strong>: registro escritural mantido por PSAV CEX em nome do usuário - apenas um crédito equivalente, semelhante a extrato bancário.</li>
+            </ul>
+            Em caso de falência da PSAV, o saldo representativo pode ser irrecuperável. <span class="ref-pagina">(p. 251)</span>
+        </div>
+
+        <p>A etapa "Identificar" envolve descobrir indícios de uso de ativos/saldos e identificar a espécie do ativo. Fontes: <span class="ref-pagina">(p. 252-256)</span></p>
+        <ul>
+            <li><strong>OSINT</strong> (fontes abertas, redes sociais);</li>
+            <li><strong>Relatórios de Inteligência Financeira (RIF)</strong>: observar o campo "Informações Adicionais" para termos como criptoativos, corretora, bitcoin, digital;</li>
+            <li><strong>Movimentações bancárias (Simba e Ciaf-Bancário)</strong>: pasta "Exchange de Criptomoedas" aponta transações com PSAVs;</li>
+            <li><strong>Dados fiscais</strong> (IN RFB 1.888/2019 e 2.219/2024) após afastamento de sigilo;</li>
+            <li><strong>Análise telemática</strong> de e-mails (PSAVs enviam mensagens) e nuvens digitais (iCloud, Drive, OneDrive);</li>
+            <li><strong>Exame de materiais apreendidos</strong> (celulares, HDs): prints de transações, endereços, hashes, Seeds;</li>
+            <li><strong>Requisições a PSAVs</strong>: nome completo, telefone, e-mail, data de nascimento, CPF, passaporte, endereços de ativos.</li>
+        </ul>
+
+        <h3>11.1 Identificação da espécie de criptoativo</h3>
+        <p>Necessário ao menos uma referência: endereço público, hash da transação ou nome do ativo. Cada blockchain tem formato específico de endereço. <span class="ref-pagina">(p. 257)</span></p>
+
+        <table>
+            <tr><th>Ativo</th><th>Formato do endereço público</th></tr>
+            <tr><td>Bitcoin (BTC)</td><td>Legacy (P2PKH): começa com <strong>"1"</strong>; SegWit (P2SH): <strong>"3"</strong>; Bech32: <strong>"bc1"</strong> <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Ethereum (ETH)</td><td>Começa com <strong>"0x"</strong> <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Litecoin (LTC)</td><td>"L" (Legacy), "M" (SegWit) ou "ltc1" (Bech32) <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Ripple (XRP)</td><td>Começa com "r" <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Bitcoin Cash (BCH)</td><td>"1"/"3" (Legacy) ou "q"/"p" (CashAddr) <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Cardano (ADA)</td><td>Começa com "addr" <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>BNB (BEP-2)</td><td>Começa com "bnb" <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>BSC (BEP-20)</td><td>Igual ao Ethereum: "0x" <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Monero (XMR)</td><td>Começa com "4" ou "8" <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Dash (DASH)</td><td>Começa com "X" ou "7" <span class="ref-pagina">(p. 258)</span></td></tr>
+            <tr><td>Zcash (ZEC)</td><td>"t1"/"t3" (transparent) ou "zs" (shielded) <span class="ref-pagina">(p. 259)</span></td></tr>
+            <tr><td>Polkadot (DOT)</td><td>Começa com "1" <span class="ref-pagina">(p. 259)</span></td></tr>
+            <tr><td>Stellar (XLM)</td><td>Começa com "G" <span class="ref-pagina">(p. 259)</span></td></tr>
+            <tr><td>Tron (TRX)</td><td>Começa com <strong>"T"</strong> <span class="ref-pagina">(p. 259)</span></td></tr>
+            <tr><td>VeChain (VET)</td><td>Começa com "0x" <span class="ref-pagina">(p. 259)</span></td></tr>
+            <tr><td>Dogecoin (DOGE)</td><td>Começa com "D" <span class="ref-pagina">(p. 259)</span></td></tr>
+            <tr><td>Solana (SOL)</td><td>Comprimento variável (32 ou 44 caracteres) <span class="ref-pagina">(p. 259)</span></td></tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Ferramentas auxiliares:</strong> o <strong>Google</strong> passou a indexar endereços públicos; exploradores especializados - <strong>Etherscan</strong> (Ethereum), <strong>Blockchain.com</strong> (Bitcoin) e <strong>Tronscan</strong> (Tron). <span class="ref-pagina">(p. 259-260)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>USDT (Tether):</strong> stablecoin pareada ao dólar, emitida em Ethereum (ERC-20), Tron (TRC-20) e BSC (BEP-20). A rede <strong>Tron tem se destacado pelo baixo custo</strong>. Investigações da PF apontam emprego do USDT em pagamentos fora do SFN, em crimes financeiros, lavagem, tráfico de drogas, contrabando, crimes cibernéticos e pedofilia. <span class="ref-pagina">(p. 260)</span>
+        </div>
+    </div>
+
+    <div id="sec12" class="section">
+        <h2>12. RASTREAR - on-chain e off-chain</h2>
+
+        <h3>12.1 Rastreamento ON-CHAIN</h3>
+        <div class="box-blue">
+            <strong>Conceito:</strong> análise de transações e dados registrados <strong>diretamente nas redes blockchain</strong>. Permite acompanhar fluxo de BTC, ETH e USDT com base em informações públicas e imutáveis. Relacionado à <strong>propriedade de fato</strong> dos ativos. <span class="ref-pagina">(p. 261)</span>
+        </div>
+        <ul>
+            <li><strong>Transparência</strong>: transações públicas e imutáveis;</li>
+            <li><strong>Descentralização</strong>: independe de entidade central;</li>
+            <li><strong>Rastreabilidade</strong>: histórico completo da origem ao destino;</li>
+            <li><strong>Anonimato relativo</strong>: pseudônimos podem ser vinculados a indivíduos.</li>
+        </ul>
+        <p class="ref-pagina">(p. 261)</p>
+
+        <p>No Etherscan, na aba "Transactions" há transações em ETH nativo; na aba <strong>"Token Transfers (ERC-20)"</strong> aparecem movimentações de tokens como USDT. <span class="ref-pagina">(p. 261-262)</span></p>
+
+        <div class="box-green">
+            <strong>Ferramentas especializadas:</strong>
+            <ul>
+                <li><strong>Pagas</strong>: Chainalysis, TRM;</li>
+                <li><strong>Gratuitas</strong>: Arkham, Metasleuth, Blockpath.</li>
+            </ul>
+            Permitem visualizar fluxos, identificar entidades associadas a endereços e <strong>mitigar o anonimato</strong>. Ex.: Metasleuth pode revelar que endereço foi gerado por cadastro em PSAV (Binance), permitindo solicitar dados cadastrais. <span class="ref-pagina">(p. 263-264)</span>
+        </div>
+
+        <h3>12.2 Rastreamento OFF-CHAIN</h3>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> obtenção de informações que <strong>NÃO estão na blockchain pública</strong>, sob custódia de PSAVs CEX em sistemas próprios. <span class="ref-pagina">(p. 264)</span>
+        </div>
+        <ul>
+            <li>Solicitação de dados cadastrais às PSAVs;</li>
+            <li>Representação judicial para quebra de sigilo das transações internas da PSAV;</li>
+            <li>Uso de ferramentas como <strong>Ciaf-CRIPTO</strong>.</li>
+        </ul>
+        <p class="ref-pagina">(p. 264-265)</p>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO - Carteiras-bolsão:</strong> ao identificar que um endereço transferiu criptoativos para um endereço de depósito vinculado a uma PSAV CEX, o rastreamento <strong>on-chain deve ser imediatamente interrompido</strong>. A PSAV move automaticamente para uma <strong>carteira coletiva ("bolsão")</strong> que consolida fundos de milhares de clientes, e os saldos individuais deixam de ser visíveis na blockchain. Continuar o on-chain gera interpretações equivocadas. A partir desse ponto, o rastreamento eficaz exige abordagem <strong>off-chain</strong> com dados internos da PSAV via medidas judiciais. <span class="ref-pagina">(p. 265)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Resumo:</strong> o rastreamento off-chain completa a trilha investigativa quando os dados públicos não são suficientes. Depende de cooperação institucional, medidas judiciais e tecnologia avançada. <span class="ref-pagina">(p. 265-266)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">On-chain x Off-chain</span>
+            <ul>
+                <li><strong>ON-CHAIN</strong>: blockchain pública - exploradores e ferramentas - até a porta da PSAV</li>
+                <li><strong>OFF-CHAIN</strong>: dados internos da PSAV - requer medida judicial - dentro da PSAV</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec13" class="section">
+        <h2>13. APREENDER e CUSTODIAR</h2>
+
+        <p>Apreensão exige <strong>planejamento prévio</strong> pela natureza pouco familiar e alta portabilidade dos ativos. Três etapas: <span class="ref-pagina">(p. 266)</span></p>
+        <ol>
+            <li>Planejamento;</li>
+            <li>Execução das medidas de apreensão;</li>
+            <li>Custódia e solicitação de alienação.</li>
+        </ol>
+
+        <h3>13.1 Planejar e preparar a deflagração</h3>
+
+        <table>
+            <tr><th>Equipe</th><th>Atribuição</th></tr>
+            <tr>
+                <td><strong>Coordenação da Deflagração</strong></td>
+                <td>Autoridade policial e investigadores; indica pontos focais, designa Apoio Técnico, garante treinamento e meios <span class="ref-pagina">(p. 268)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Ponto Focal</strong></td>
+                <td>Policial capacitado, atua em campo nas buscas; primeiro filtro local; identifica Seeds, chaves, carteiras, endereços <span class="ref-pagina">(p. 268-269)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Apoio Técnico</strong></td>
+                <td>Policiais com maior especialização; atua na <strong>base</strong>; presta suporte remoto aos pontos focais em campo <span class="ref-pagina">(p. 269)</span></td>
+            </tr>
+        </table>
+
+        <h3>13.2 Meios de atuação e pedidos judiciais</h3>
+        <ul>
+            <li><strong>Ambiente técnico</strong> adequado, aquisição de <strong>hardwallets</strong> para apreensão segura;</li>
+            <li>Briefing com policial técnico, download/estudo prévio das carteiras pelos pontos focais;</li>
+            <li><strong>Contato antecipado com PSAVs</strong> que receberão ordens de sequestro; validar canais; preparar tabela com dados cadastrais (nome, CPF, CNH, nascimento, passaporte, e-mail, telefone);</li>
+            <li>Pedidos judiciais devem incluir autorização específica para: acesso a mídias e dispositivos físicos (hardwallets, smartphones), carteiras digitais vinculadas ou em nuvem, e <strong>transferência dos ativos para Carteira Oficial de Custódia</strong> sob controle da PF.</li>
+        </ul>
+        <p class="ref-pagina">(p. 270)</p>
+
+        <h3>13.3 Carteira Oficial de Custódia</h3>
+        <div class="box-orange">
+            Providenciada previamente pela Coordenação; preferencialmente <strong>hardwallet</strong> (Ledger, Trezor). Alternativa: softwallet confiável (Trust Wallet, Metamask, Exodus, Electrum) em dispositivo dedicado. <strong>Consulta prévia à DFIN</strong> para validar a aplicação. <strong>Evitar paper wallets</strong>; dispositivo livre de malware; suportar os ativos prováveis. Processo deve ser documentado (policiais envolvidos, lacres para SEEDs e PINs, local de armazenamento). <span class="ref-pagina">(p. 270-271)</span>
+        </div>
+
+        <h3>13.4 Apreensão - cenários</h3>
+
+        <h3>13.4.1 Sequestro de saldos representativos (custódia de terceiros - CEX)</h3>
+        <p>Por <strong>ordem judicial à PSAV</strong>, que bloqueia/congela a conta. <span class="ref-pagina">(p. 272)</span></p>
+
+        <div class="box-green">
+            <strong>CRIPTOJUD (CNJ, agosto/2025):</strong> sistema eletrônico que automatiza a localização, bloqueio e rastreamento de criptoativos de devedores, similar ao Sisbajud. Permite ao juiz enviar ordens diretamente às corretoras nacionais via portal integrado. <span class="ref-pagina">(p. 272)</span>
+        </div>
+
+        <p>Com PSAVs estrangeiras, pode-se depender de <strong>MLAT</strong> (cooperação internacional). Em jurisdições pouco colaborativas, avaliar acesso direto à conta durante a diligência via Seeds, logins e senhas. <span class="ref-pagina">(p. 272)</span></p>
+
+        <h3>13.4.2 Apreensão sob custódia própria - COM Seed/chave privada</h3>
+        <ul>
+            <li>Encaminhar para a equipe de Apoio Técnico via canal seguro (ex.: Teams);</li>
+            <li><strong>NÃO registrar integralmente a Seed no auto de arrecadação</strong> - documento é acessível por várias pessoas e expor a Seed permite acesso total à carteira;</li>
+            <li>Arrecadação física: <strong>envelopes opacos (pardos)</strong> ou simples dobra do papel; NÃO usar sacos transparentes;</li>
+            <li>Consultar o Ponto Focal antes de enviar e comunicar o chefe da equipe.</li>
+        </ul>
+        <p class="ref-pagina">(p. 273-275)</p>
+
+        <div class="box-blue">
+            <strong>Recuperação da carteira a partir da Seed - 5 etapas:</strong>
+            <ol>
+                <li>Escolher meio: hardwallet, software de PC ou app de celular;</li>
+                <li>Selecionar "Restaurar Carteira";</li>
+                <li>Inserir Seed (12, 18 ou 24 palavras em inglês de um conjunto fixo de <strong>2048 palavras</strong>);</li>
+                <li>Configurar senha/PIN, quando exigido;</li>
+                <li>Sincronização com as blockchains recupera transações, saldos e tokens.</li>
+            </ol>
+            <span class="ref-pagina">(p. 275-276)</span>
+        </div>
+
+        <h3>13.4.3 Apreensão sob custódia própria - SEM Seed/chave privada</h3>
+        <p>Apreensão presencial pelo Ponto Focal; diligenciar para obter PIN/senha. Desbloqueada a carteira, transferir os ativos para a Carteira Oficial. Pode haver orientação remota do Apoio Técnico via Teams. <span class="ref-pagina">(p. 276)</span></p>
+
+        <h3>13.5 Transferência dos ativos - boas práticas</h3>
+
+        <div class="box-red">
+            <strong>BOAS PRÁTICAS NA TRANSFERÊNCIA:</strong>
+            <ul>
+                <li><strong>NUNCA digitar manualmente o endereço de destino</strong> - usar copiar/colar ou QR Codes de softwares confiáveis;</li>
+                <li>Fazer <strong>transferência de homologação (teste)</strong> com valor reduzido antes da total, especialmente em valores elevados;</li>
+                <li>Avaliar cuidadosamente a <strong>taxa de transação</strong> - proporcional e adequada ao tipo de carteira.</li>
+            </ul>
+            <span class="ref-pagina">(p. 277)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Documentação - Informação de polícia judiciária (IPJ):</strong>
+            <ul>
+                <li>Elemento que deu acesso (quem encontrou, onde, a quem pertencia);</li>
+                <li>Procedimento realizado para acessar;</li>
+                <li>Saldo identificado na carteira;</li>
+                <li>Hash de cada transação realizada;</li>
+                <li>Valor apreendido de cada tipo de ativo;</li>
+                <li>Taxas de transferência aplicadas;</li>
+                <li>Relação e assinatura dos policiais e testemunhas.</li>
+            </ul>
+            <span class="ref-pagina">(p. 277)</span>
+        </div>
+    </div>
+
+    <div id="sec14" class="section">
+        <h2>14. ALIENAR</h2>
+
+        <div class="box-blue">
+            <strong>Urgência:</strong> alienação recomendada por <strong>alta volatilidade</strong> e <strong>precariedade da custódia</strong>. Mercado mais suscetível a manipulações e oscilações imprevisíveis. <span class="ref-pagina">(p. 277)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Base legal:</strong> <strong>Recomendação nº 30 do CNJ</strong> e <strong>art. 144-A do CPP</strong> respaldam a alienação antecipada. Como o Judiciário ainda não disponibiliza carteiras próprias nem indica PSAVs para custódia, a responsabilidade recai sobre as equipes policiais. <span class="ref-pagina">(p. 277-278)</span>
+        </div>
+
+        <p>Recomenda-se que o pedido seja feito <strong>quanto antes</strong>, podendo ser concomitante ao pedido de apreensão. <span class="ref-pagina">(p. 278)</span></p>
+
+        <h3>Formas juridicamente possíveis</h3>
+        <table>
+            <tr><th>Modalidade</th><th>Características</th></tr>
+            <tr><td><strong>Leilão</strong></td><td>Previsto no CPP <span class="ref-pagina">(p. 278)</span></td></tr>
+            <tr><td><strong>Alienação direta em PSAVs</strong></td><td>Preferida pelos juízes por <strong>maior viabilidade técnica e econômica</strong>; venda pelo valor de mercado, sem custos com comissão de leiloeiro <span class="ref-pagina">(p. 278)</span></td></tr>
+        </table>
+
+        <p>Autorizada a alienação, a PSAV apresenta <strong>plano de liquidação</strong>; valores são recolhidos em <strong>conta judicial</strong>. <span class="ref-pagina">(p. 278)</span></p>
+
+        <div class="box-green">
+            <strong>Orientações ao pedido judicial:</strong>
+            <ul>
+                <li>Justificar a antecipação (volatilidade, dificuldade de custódia);</li>
+                <li>Sugerir que sejam oficiadas as principais PSAVs nacionais para apresentação de plano de alienação (taxas, prazos, procedimentos);</li>
+                <li>Em alguns casos, oficiar previamente as PSAVs e depois submeter o plano ao juiz para homologação (procedimento válido se fundamentado);</li>
+                <li>Em casos com indícios de lavagem de dinheiro, valores podem ser vinculados ao <strong>Funapol</strong>, com o código correspondente.</li>
+            </ul>
+            <span class="ref-pagina">(p. 278)</span>
+        </div>
+    </div>
+
+    <div id="sec15" class="section">
+        <h2>15. Considerações finais</h2>
+
+        <div class="box-purple">
+            O ambiente dos criptoativos representa <strong>desafio singular</strong> por sua natureza <strong>descentralizada, anônima e global</strong>. Com ferramentas adequadas, técnicas avançadas e conhecimento profundo sobre blockchains é possível <strong>rastrear transações, identificar fluxos e associar identidades a endereços e carteiras</strong>. <span class="ref-pagina">(p. 279)</span>
+        </div>
+
+        <p>Métodos como <strong>rastreamento on-chain e off-chain</strong>, criptografia assimétrica e análise de dados públicos em exploradores permitem visão detalhada do ecossistema digital. Investigadores devem manter-se atualizados sobre tecnologias, tendências e legislações dado o dinamismo do setor. <span class="ref-pagina">(p. 279)</span></p>
+
+        <p>É fundamental que as investigações respeitem princípios <strong>éticos e legais</strong>, garantindo transparência e conformidade com normas nacionais e internacionais. Com a integração crescente ao sistema financeiro tradicional, o papel do investigador torna-se cada vez mais estratégico. <span class="ref-pagina">(p. 279)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Síntese das etapas investigativas</span>
+            <ul>
+                <li><strong>1. IDENTIFICAR</strong>: OSINT, RIF, Simba/Ciaf-Bancário, RFB, telemática, materiais apreendidos, requisição a PSAVs</li>
+                <li><strong>2. RASTREAR</strong>: on-chain (exploradores + Chainalysis/Arkham) e off-chain (Ciaf-CRIPTO + medidas judiciais)</li>
+                <li><strong>3. APREENDER e CUSTODIAR</strong>: Coordenação + Ponto Focal + Apoio Técnico - Carteira Oficial</li>
+                <li><strong>4. ALIENAR</strong>: art. 144-A CPP + Recomendação 30 CNJ - direta em PSAV (preferível) ou leilão</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

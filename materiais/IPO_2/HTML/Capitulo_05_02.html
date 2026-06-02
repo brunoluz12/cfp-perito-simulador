@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.2 - Afastamento do Sigilo Fiscal</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .formula { background: #1a202c; color: #f7fafc; padding: 20px; border-radius: 8px; text-align: center; font-size: 1.3em; font-weight: bold; margin: 20px 0; font-family: 'Courier New', monospace; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.2 - Afastamento do Sigilo Fiscal</h1>
+        <div class="subtitle">Análise fiscal, levantamento patrimonial e aferição de variação patrimonial</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Visão geral - Análise fiscal na investigação criminal</a></li>
+            <li><a href="#sec2">2. Levantamento patrimonial preliminar</a></li>
+            <li><a href="#sec3">3. Obtenção de dados fiscais</a></li>
+            <li><a href="#sec4">4. Declarações fiscais: próprias e de terceiros</a></li>
+            <li><a href="#sec5">5. Detalhamento das declarações fiscais</a></li>
+            <li><a href="#sec6">6. Sistema Público de Escrituração Digital (SPED)</a></li>
+            <li><a href="#sec7">7. Metodologia de aferição de variação patrimonial</a></li>
+            <li><a href="#sec8">8. Ferramentas de apoio - Sinfi</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Visão geral - Análise fiscal na investigação criminal</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> A análise fiscal é uma técnica investigativa voltada à avaliação da coerência entre os dados declarados por um indivíduo ou empresa aos órgãos fazendários e os elementos patrimoniais e financeiros identificados durante a investigação criminal. <span class="ref-pagina">(p. 312)</span>
+        </div>
+
+        <p>Trata-se de instrumento essencial para a identificação de <strong>incompatibilidades patrimoniais</strong>, <strong>ocultação de ativos</strong>, <strong>simulações de operações</strong> e <strong>fluxos de lavagem de dinheiro</strong>. <span class="ref-pagina">(p. 312)</span></p>
+
+        <div class="box-green">
+            <strong>Aplicação investigativa:</strong> No contexto da persecução penal, a análise fiscal permite ao policial federal confrontar os dados declarados com os fatos apurados, revelando discrepâncias entre rendimentos e padrão de vida, bens não declarados, dívidas simuladas e receitas ocultas. <span class="ref-pagina">(p. 312-313)</span>
+        </div>
+
+        <p>É especialmente útil em investigações de crimes com aspectos econômicos, crimes financeiros, corrupção, organização criminosa e lavagem de dinheiro, ao fornecer <strong>base probatória objetiva</strong> para a formulação de representações judiciais e medidas cautelares. <span class="ref-pagina">(p. 313)</span></p>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Levantamento patrimonial preliminar</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Técnica desenvolvida para levantamento das informações sobre o patrimônio do investigado (bens, direitos e valores) e sua origem, <strong>inclusive oculto e/ou dissimulado</strong>. <span class="ref-pagina">(p. 313)</span>
+        </div>
+
+        <p>Além de identificar o patrimônio, responde perguntas como: <span class="ref-pagina">(p. 313)</span></p>
+        <ul>
+            <li>Está em nome de quem;</li>
+            <li>Quando, por quanto e de qual forma foi comprado/vendido;</li>
+            <li>Quem o utiliza de fato e quem paga por suas despesas.</li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Utilidade na LD:</strong> Muito útil em investigações de lavagem de dinheiro, uma vez que poderá revelar indícios sobre os próprios <strong>atos de ocultação e dissimulação</strong> que caracterizam esse crime. <span class="ref-pagina">(p. 313)</span>
+        </div>
+
+        <p>Preliminarmente, pode ser realizado por meio de <strong>diligências de campo</strong>, análise de documentos, <strong>fontes abertas</strong> e informações presentes em bancos de dados indicativos da titularidade de bens. Conforme a investigação ganha robustez, outros dados podem ser acrescentados, principalmente aqueles obtidos após medidas cautelares, como o <strong>afastamento de sigilo fiscal</strong>. <span class="ref-pagina">(p. 313)</span></p>
+
+        <div class="box-green">
+            <strong>Importância:</strong> O levantamento patrimonial é uma das técnicas mais importantes para a <strong>recuperação de bens/direitos/valores</strong>. Embasa ação preparatória para medidas constritivas cautelares (ex.: sequestro de bens). Geralmente enfoca o patrimônio ilícito, mas pode alcançar o lícito nos casos em que se busque a reparação do dano. <span class="ref-pagina">(p. 313)</span>
+        </div>
+
+        <h3>2.1 Cadbens</h3>
+
+        <div class="box-purple">
+            <strong>Definição:</strong> Sistema desenvolvido para apoiar investigações patrimoniais no âmbito da Polícia Federal, oferecendo plataforma estruturada para o cadastro e organização de bens, direitos e relacionamentos financeiros identificados ao longo das apurações. Acessível através da intranet. <span class="ref-pagina">(p. 313-314)</span>
+        </div>
+
+        <p>Permite que os investigadores: <span class="ref-pagina">(p. 313)</span></p>
+        <ul>
+            <li>Criem casos;</li>
+            <li>Cadastrem os envolvidos;</li>
+            <li>Registrem bens, direitos e relacionamentos manualmente ou em lote (planilhas).</li>
+        </ul>
+
+        <p>O sistema <strong>gera automaticamente</strong> uma <strong>Informação de Polícia Judiciária preliminar (IPJ)</strong>, que serve como subsídio inicial para o <strong>Registro Especial de Recuperação de Ativos</strong>. Possui integração com o sistema <strong>Sinfi</strong>, permitindo a exportação dos dados patrimoniais em formato <strong>.csv</strong>. <span class="ref-pagina">(p. 313-314)</span></p>
+
+        <h3>Fluxo de uso do Cadbens</h3>
+
+        <table>
+            <tr>
+                <th>Etapa</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>1. Criação do caso</strong></td>
+                <td>Se já houver registro no sistema Epol, o Cadbens realiza busca automática dos dados relacionados <span class="ref-pagina">(p. 314)</span></td>
+            </tr>
+            <tr>
+                <td><strong>2. Cadastro dos envolvidos</strong></td>
+                <td>Pessoas físicas ou jurídicas vinculadas ao caso <span class="ref-pagina">(p. 315)</span></td>
+            </tr>
+            <tr>
+                <td><strong>3. Cadastro do patrimônio</strong></td>
+                <td>Bens, direitos e relacionamentos financeiros (contas bancárias, participações societárias) <span class="ref-pagina">(p. 315)</span></td>
+            </tr>
+            <tr>
+                <td><strong>4. Inserção dos dados</strong></td>
+                <td><strong>Carga manual</strong> (registro individual) ou <strong>carga em lote</strong> (planilhas Excel) <span class="ref-pagina">(p. 315)</span></td>
+            </tr>
+            <tr>
+                <td><strong>5. Geração da IPJ</strong></td>
+                <td>Geração automática da Informação de Polícia Judiciária preliminar <span class="ref-pagina">(p. 316)</span></td>
+            </tr>
+            <tr>
+                <td><strong>6. Exportação para Sinfi</strong></td>
+                <td>Arquivo .csv com bens e direitos registrados <span class="ref-pagina">(p. 318)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Síntese:</strong> O Cadbens é ferramenta essencial para a sistematização e o aprofundamento das investigações financeiras, contribuindo para a identificação de patrimônio oculto e para a recuperação de ativos. <span class="ref-pagina">(p. 318)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Obtenção de dados fiscais</h2>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO:</strong> A obtenção de dados fiscais está sujeita a <strong>regras constitucionais e legais rigorosas</strong>, especialmente quanto à proteção do sigilo fiscal, previsto no <strong>art. 5º, inciso X, da CF</strong>, e regulamentado pelo <strong>art. 198 do CTN</strong> e pela <strong>Lei Complementar nº 105/2001</strong>. <span class="ref-pagina">(p. 318)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Entendimento do STF (RE 1.393.219):</strong> O STF tem reiteradamente decidido que o <strong>acesso direto a dados fiscais por autoridades policiais ou pelo Ministério Público sem autorização judicial é ilegal</strong>, mesmo que o objetivo seja subsidiar investigações criminais. Não é permitido ao MP requisitar diretamente à Receita Federal informações fiscais de contribuintes, sendo imprescindível a <strong>intervenção judicial prévia</strong>. <span class="ref-pagina">(p. 318-319)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Tema 990 da Repercussão Geral (RE 1055941):</strong> É <strong>constitucional o compartilhamento</strong> de dados fiscais e bancários pela Receita Federal e pela UIF/Coaf com os órgãos de persecução penal, desde que decorrente de <strong>procedimento fiscal regularmente instaurado e formalmente documentado</strong>, <strong>sem necessidade de autorização judicial prévia</strong>. Trata-se de <strong>transferência de sigilo, e não de quebra</strong>, válida para fins penais quando realizada nos limites legais e com posterior controle jurisdicional. <span class="ref-pagina">(p. 319)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: QUEBRA x TRANSFERÊNCIA de sigilo</span>
+            <ul>
+                <li><strong>QUEBRA</strong> (exige autorização judicial): requisição direta por polícia/MP sem autorização</li>
+                <li><strong>TRANSFERÊNCIA</strong> (dispensa autorização judicial): RFB/UIF-Coaf -> persecução penal, em procedimento fiscal formal</li>
+            </ul>
+        </div>
+
+        <h3>3.1 Exceção - Entrega espontânea pelo investigado</h3>
+
+        <div class="box-green">
+            <strong>Não há quebra de sigilo</strong> quando o próprio investigado fornece espontaneamente os documentos fiscais (declarações de IR, extratos bancários, comprovantes, contratos). A entrega voluntária <strong>elimina a necessidade de representação judicial</strong>, desde que haja registro formal da entrega e da origem dos dados, preservando a cadeia de custódia. <span class="ref-pagina">(p. 319)</span>
+        </div>
+
+        <h3>3.2 Esferas competentes (com autorização judicial)</h3>
+
+        <table>
+            <tr>
+                <th>Nível</th>
+                <th>Órgão</th>
+                <th>Exemplos</th>
+            </tr>
+            <tr>
+                <td><strong>Federal</strong></td>
+                <td>Receita Federal do Brasil</td>
+                <td>DIRPF</td>
+            </tr>
+            <tr>
+                <td><strong>Estadual</strong></td>
+                <td>Secretaria da Fazenda</td>
+                <td>Escrituração Contábil Fiscal (ICMS e IPI)</td>
+            </tr>
+            <tr>
+                <td><strong>Municipal</strong></td>
+                <td>Secretarias de Finanças do Município</td>
+                <td>Notas Fiscais Eletrônicas de Serviços</td>
+            </tr>
+        </table>
+        <p class="ref-pagina">(p. 319)</p>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Declarações fiscais: próprias e de terceiros</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Documentos formais enviados por pessoas físicas, jurídicas ou instituições à RFB e outros órgãos fazendários, informando rendimentos, bens, dívidas, operações financeiras e patrimoniais. Representam <strong>fonte primária de dados estruturados</strong>, permitindo cruzamentos, identificação de inconsistências e construção de hipóteses investigativas. <span class="ref-pagina">(p. 319)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Origem</th>
+                <th>Função</th>
+                <th>Exemplos</th>
+            </tr>
+            <tr>
+                <td><strong>Próprias</strong></td>
+                <td>Diretamente pelo contribuinte</td>
+                <td>Versão oficial do investigado perante o Fisco; ponto de partida para análise de compatibilidade <span class="ref-pagina">(p. 320)</span></td>
+                <td>DIRPF, GCAP, DME, Declaração de Criptoativos, ECF, e-Social <span class="ref-pagina">(p. 320)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Terceiros</strong></td>
+                <td>Instituições financeiras, empresas, cartórios, imobiliárias, corretoras</td>
+                <td><strong>Corroboração externa</strong>; identificação de omissões, simulações e dissimulações patrimoniais <span class="ref-pagina">(p. 320)</span></td>
+                <td>DME, Decred, DOI, Dimob, e-Financeira, Declaração de Criptoativos, NF-e <span class="ref-pagina">(p. 320)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> Algumas declarações (como DME e Criptoativos) podem ser classificadas tanto como própria quanto de terceiros, a depender de quem está declarando/sobre quem está sendo declarado. <span class="ref-pagina">(p. 320)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Detalhamento das declarações fiscais</h2>
+
+        <h3>5.1 DIRPF - Declaração do Imposto sobre a Renda da Pessoa Física</h3>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Principal instrumento de <strong>autodeclaração fiscal</strong> utilizado por pessoas físicas no Brasil para informar à RFB sua situação econômica e patrimonial. Obrigatória para contribuintes que se enquadram em critérios de renda, posse de bens, operações em bolsa etc. <span class="ref-pagina">(p. 320)</span>
+        </div>
+
+        <p>É <strong>fonte estruturada de dados oficiais</strong> que permite análises comparativas, identificação de inconsistências e construção de hipóteses sobre evolução patrimonial, omissão de receitas e dissimulação de ativos. <span class="ref-pagina">(p. 320)</span></p>
+
+        <h3>Seções da DIRPF</h3>
+
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Seção</th>
+                <th>Conteúdo e relevância investigativa</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><strong>Rendimentos Tributáveis</strong></td>
+                <td>Salários, honorários, aluguéis, pensões, aposentadorias. Verifica compatibilidade com padrão de vida e bens adquiridos <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><strong>Rendimentos Isentos e Não Tributáveis</strong></td>
+                <td>Indenizações, doações, heranças, lucros, poupança. Atenção ao uso indevido para justificar acréscimos patrimoniais sem base real <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><strong>Tributação Exclusiva/Definitiva</strong></td>
+                <td>Aplicações, ganhos de capital, PLR. Rastreia movimentações que não aparecem em conta corrente <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><strong>Bens e Direitos</strong></td>
+                <td>Imóveis, veículos, contas, aplicações, quotas, criptoativos. Identifica evolução patrimonial, omissão de bens e simulações de propriedade <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><strong>Dívidas e Ônus Reais</strong></td>
+                <td>Empréstimos, financiamentos. Verifica uso de dívidas para justificar acréscimos ou omissão de passivos <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><strong>Pagamentos Efetuados</strong></td>
+                <td>Educação, saúde, previdência, pensão. Compõe perfil de consumo, indica incompatibilidades <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><strong>Dependentes</strong></td>
+                <td>Revela vínculos familiares e patrimoniais; útil em casos de ocultação por interpostas pessoas <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><strong>Doações e Transferências</strong></td>
+                <td>Rastreia circulação de recursos entre PF e PJ; útil em contextos de lavagem <span class="ref-pagina">(p. 321)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Aplicação:</strong> A DIRPF é essencial para aplicar a <strong>metodologia de aferição de variação patrimonial</strong>, permitindo calcular se o acréscimo de bens está <strong>a coberto ou a descoberto</strong>. É considerada uma <strong>declaração própria</strong>, pois entregue pelo próprio investigado ao Fisco. <span class="ref-pagina">(p. 322)</span>
+        </div>
+
+        <h3>5.2 GCAP - Declaração sobre Ganhos de Capital</h3>
+
+        <div class="box-blue">
+            <strong>Declaração própria</strong> utilizada para declarar lucros obtidos na alienação de bens e direitos (imóveis, ações, participações societárias). Essencial para rastrear operações patrimoniais relevantes e verificar omissão de ganho ou subavaliação de ativos. <span class="ref-pagina">(p. 322)</span>
+        </div>
+
+        <p>Aplicações em LD, corrupção, ocultação de patrimônio e enriquecimento ilícito: <span class="ref-pagina">(p. 322)</span></p>
+        <ul>
+            <li><strong>Rastrear operações patrimoniais relevantes</strong>;</li>
+            <li><strong>Verificar omissão de ganho ou subavaliação de ativos</strong> (redução artificial da base tributável / dissimulação patrimonial);</li>
+            <li><strong>Identificar simulações de venda</strong> (cruzamento com DOI e Dimob);</li>
+            <li><strong>Detectar evolução patrimonial não justificada</strong>;</li>
+            <li><strong>Confrontar com outras declarações</strong> (DIRPF, e-Financeira, DOI/Dimob, cartórios) revelando omissões ou falsidades ideológicas.</li>
+        </ul>
+
+        <h3>5.3 DME - Declaração de Operações Liquidadas com Moeda em Espécie</h3>
+
+        <div class="box-orange">
+            <strong>Regra de obrigatoriedade:</strong> A DME é obrigatória para toda pessoa física ou jurídica que recebeu valores em espécie cuja soma seja <strong>igual ou superior a R$ 30 mil</strong>, em decorrência de operações que envolvam fornecimento de bens ou prestação de serviços, ainda que o valor tenha sido pago por mais de um envolvido. <span class="ref-pagina">(p. 322-323)</span>
+        </div>
+
+        <p>Sua ausência pode indicar tentativa de ocultação de recursos ou lavagem de dinheiro. Criada para <strong>aumentar a transparência</strong> das transações em espécie, que historicamente representam alto risco de evasão fiscal, sonegação e LD. <span class="ref-pagina">(p. 323)</span></p>
+
+        <p>Aplicações investigativas: <span class="ref-pagina">(p. 323)</span></p>
+        <ul>
+            <li><strong>Identificar movimentações fora do sistema bancário</strong> (fluxos paralelos);</li>
+            <li><strong>Detectar incompatibilidades patrimoniais</strong> (ocultação de receita, simulação, LD);</li>
+            <li><strong>Confrontar com outras declarações</strong> (DIRPF, DIRF, e-Financeira) - ausência pode indicar omissão dolosa;</li>
+            <li><strong>Subsidiar representações judiciais</strong> - a não entrega obrigatória pode ser elemento de <strong>justa causa</strong> para quebra de sigilo bancário ou fiscal.</li>
+        </ul>
+
+        <div class="box-purple">
+            <strong>Dupla natureza:</strong> A DME pode ser considerada tanto <strong>própria</strong> (quando o declarante é o investigado e informa à RFB ter recebido o numerário) quanto <strong>de terceiros</strong> (quando um terceiro informa à RFB que recebeu a quantia em espécie do investigado). <span class="ref-pagina">(p. 323)</span>
+        </div>
+
+        <h3>5.4 Declaração de Operações com Ativos Virtuais (Criptoativos)</h3>
+
+        <div class="box-blue">
+            <strong>Marco regulatório:</strong> Desde agosto de 2019, instituída pela <strong>Instrução Normativa RFB nº 1.888/2019</strong>. Aplica-se às <strong>exchanges</strong> (independentemente do volume mensal) e a pessoas físicas e jurídicas residentes no Brasil sempre que o volume total transacionado ultrapassar <strong>R$ 30 mil em criptoativos em um único mês</strong>. <span class="ref-pagina">(p. 323)</span>
+        </div>
+
+        <p>A declaração é realizada por meio do sistema <strong>Coleta Nacional</strong>, disponível no portal <strong>e-CAC</strong> da RFB. Informações exigidas: <span class="ref-pagina">(p. 324)</span></p>
+        <ul>
+            <li>Data exata da operação;</li>
+            <li>Tipo de transação (compra, venda, permuta, doação, transferência);</li>
+            <li>Identificação completa das partes (CPF/CNPJ, domicílio fiscal, endereço);</li>
+            <li>Criptoativo utilizado (Bitcoin, Ethereum, stablecoins etc.);</li>
+            <li>Valor convertido em reais pela cotação oficial PTAX do BCB;</li>
+            <li>Meio de pagamento utilizado.</li>
+        </ul>
+
+        <p>Aplicações em LD, ocultação patrimonial, evasão fiscal e financiamento ilícito: <span class="ref-pagina">(p. 324)</span></p>
+        <ul>
+            <li><strong>Rastrear ativos digitais</strong>;</li>
+            <li><strong>Detectar incompatibilidades patrimoniais</strong>;</li>
+            <li><strong>Identificar omissões e simulações</strong> (uso de terceiros para movimentar criptoativos);</li>
+            <li><strong>Subsidiar representações judiciais</strong>.</li>
+        </ul>
+
+        <div class="box-green">
+            <strong>Cruzamento com outras bases:</strong> DIRPF (bens e direitos), e-Financeira (transferências bancárias), DME (operações em espécie), GCAP (ganho de capital na alienação) e dados de exchanges (nacionais e internacionais, por cooperação institucional ou representação judicial). <span class="ref-pagina">(p. 325)</span>
+        </div>
+
+        <p>Assim como a DME, a declaração de criptoativos também pode ser considerada tanto <strong>própria</strong> quanto <strong>de terceiros</strong>. <span class="ref-pagina">(p. 325)</span></p>
+
+        <h3>5.5 Decred - Declaração de Operações com Cartões de Crédito</h3>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Obrigação acessória <strong>semestral</strong> imposta às <strong>administradoras de cartões de crédito</strong>, que informam à RFB os <strong>valores globais movimentados mensalmente</strong> por seus usuários (PF e PJ). <span class="ref-pagina">(p. 325)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Conteúdo</th>
+            </tr>
+            <tr>
+                <td><strong>Decred CLIENTE</strong></td>
+                <td>Pagamentos efetuados das faturas pelos titulares de cartões <span class="ref-pagina">(p. 325)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Decred LOJISTA</strong></td>
+                <td>Repasses realizados às PF e PJ detentoras das máquinas de cartão, decorrentes somente das vendas por cartão de crédito <span class="ref-pagina">(p. 325)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Finalidade:</strong> Permitir cruzamentos fiscais entre valores movimentados via cartões e rendimentos declarados. Identifica <strong>incompatibilidade patrimonial</strong>, indícios de LD ou ocultação. Útil para revelar uso de cartões de terceiros ou fracionamento de despesas. <span class="ref-pagina">(p. 325-326)</span>
+        </div>
+
+        <h3>5.6 DOI e Dimob - Operações Imobiliárias</h3>
+
+        <table>
+            <tr>
+                <th>Declaração</th>
+                <th>Quem envia</th>
+                <th>O que contém</th>
+            </tr>
+            <tr>
+                <td><strong>DOI</strong> (Declaração de Operações Imobiliárias)</td>
+                <td><strong>Cartórios de registro de imóveis</strong>, sempre que há registro de transação (compra, venda, permuta, doação)</td>
+                <td>Nomes das partes, valor declarado, data da escritura, localização do imóvel <span class="ref-pagina">(p. 326)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Dimob</strong> (Declaração de Informações sobre Atividades Imobiliárias)</td>
+                <td><strong>Pessoas jurídicas</strong> do setor (construtoras, incorporadoras, imobiliárias)</td>
+                <td>Valores recebidos em contratos de venda ou locação; dados dos compradores/locatários e montantes pagos <span class="ref-pagina">(p. 326)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Foco:</strong> A <strong>DOI</strong> foca na <strong>formalização da transação</strong> (registro público) - permite confronto com DIRPF e GCAP, revelando omissões patrimoniais, subavaliações ou simulações (vendas fictícias, doações disfarçadas). A <strong>Dimob</strong> revela o <strong>fluxo financeiro</strong> envolvido - identifica operações parceladas, pagamentos em espécie e vínculos que indiquem triangulações patrimoniais ou uso de testas de ferro. <span class="ref-pagina">(p. 326)</span>
+        </div>
+
+        <p>Em conjunto permitem mapear movimentação de bens e recursos, identificar discrepâncias entre registros públicos e declarações fiscais, detectar padrões de LD (aquisição de imóveis subfaturados, uso de intermediários, transações incompatíveis com capacidade financeira). O cruzamento com e-Financeira, DME e dados bancários potencializa o rastreamento. <span class="ref-pagina">(p. 326-327)</span></p>
+
+        <h3>5.7 e-Financeira</h3>
+
+        <div class="box-blue">
+            <strong>Marco:</strong> Instituída pela <strong>Instrução Normativa RFB nº 1.571/2015</strong>. Obrigatoriamente enviada por instituições financeiras, seguradoras, corretoras de valores, cooperativas de crédito e demais entidades autorizadas a operar no SFN. <span class="ref-pagina">(p. 327)</span>
+        </div>
+
+        <p>Conteúdo altamente detalhado: <span class="ref-pagina">(p. 327)</span></p>
+        <ul>
+            <li>Saldos bancários;</li>
+            <li>Totais movimentados mensalmente;</li>
+            <li>Operações de câmbio;</li>
+            <li>Aplicações financeiras;</li>
+            <li>Consórcios;</li>
+            <li>Previdência privada e seguros.</li>
+        </ul>
+
+        <div class="box-purple">
+            <strong>Diferença em relação à DIRPF:</strong> Enquanto a DIRPF depende da <strong>autodeclaração</strong> do contribuinte, a e-Financeira é composta por <strong>dados declarados por terceiros</strong> (instituições financeiras), com base em registros operacionais, conferindo <strong>maior confiabilidade e precisão</strong>. <span class="ref-pagina">(p. 327)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Função:</strong> Essencial no cruzamento com DIRPF, DME, Dimob e declaração de criptoativos, permitindo reconstruir a <strong>trilha financeira completa</strong> do investigado. Frequentemente é o ponto de partida para identificação de núcleos financeiros, fluxos paralelos e estruturas de ocultação patrimonial em investigações de organizações criminosas, corrupção sistêmica ou LD transnacional. <span class="ref-pagina">(p. 327)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Sistema Público de Escrituração Digital (SPED)</h2>
+
+        <div class="box-blue">
+            <strong>Criação:</strong> Criado em <strong>2007</strong> no âmbito do <strong>Programa de Aceleração do Crescimento</strong>. Constitui a <strong>padronização das informações fiscais e contábeis</strong> entre as Pessoas Jurídicas e o Fisco, integralizando a administração tributária das três esferas: <strong>municipal, estadual e federal</strong>. <span class="ref-pagina">(p. 328)</span>
+        </div>
+
+        <p>Com a sua implantação, as PJ passaram a transmitir suas informações fiscais centralizadas em um único sistema, facilitando o cruzamento de dados e o acompanhamento pelos órgãos de fiscalização. <span class="ref-pagina">(p. 328)</span></p>
+
+        <div class="box-red">
+            <strong>Sigilo:</strong> Assim como as demais bases fiscais, as informações do SPED são protegidas por sigilo e somente são acessíveis após <strong>autorização judicial para afastamento de sigilo fiscal</strong>. A própria e-Financeira é operada dentro deste sistema, compondo módulo próprio. <span class="ref-pagina">(p. 328)</span>
+        </div>
+
+        <h3>Principais módulos de interesse investigativo</h3>
+
+        <table>
+            <tr>
+                <th>Módulo</th>
+                <th>Conteúdo</th>
+                <th>Aplicação investigativa</th>
+            </tr>
+            <tr>
+                <td><strong>ECF</strong><br>(Escrituração Contábil Fiscal)</td>
+                <td>Substituiu a <strong>DIPJ</strong> a partir do ano-calendário <strong>2014</strong>. Apuração do <strong>IRPJ</strong> e <strong>CSLL</strong> <span class="ref-pagina">(p. 328)</span></td>
+                <td>Identificar real capacidade operacional, detectar divergências entre lucro declarado e numerários movimentados, discrepâncias entre receitas e despesas <span class="ref-pagina">(p. 328)</span></td>
+            </tr>
+            <tr>
+                <td><strong>EFD-ICMS/IPI</strong></td>
+                <td>Informações sobre <strong>ICMS</strong> e <strong>IPI</strong>: entrada/saída de mercadorias e apuração desses tributos <span class="ref-pagina">(p. 328)</span></td>
+                <td>Estoque, operações de compra e venda, recebimentos por cartão; revela movimentações incompatíveis, simulações ou triangulações fraudulentas <span class="ref-pagina">(p. 328-329)</span></td>
+            </tr>
+            <tr>
+                <td><strong>NF-e</strong><br>(Nota Fiscal Eletrônica)</td>
+                <td>Substituiu o documento fiscal em papel. Registra eletronicamente as operações de circulação de mercadorias <span class="ref-pagina">(p. 329)</span></td>
+                <td>Identifica operações fictícias, <strong>empresas de fachada</strong>, fraudes de faturamento, movimentações incompatíveis com a estrutura econômica da PJ <span class="ref-pagina">(p. 329)</span></td>
+            </tr>
+            <tr>
+                <td><strong>e-Social</strong></td>
+                <td>Centraliza informações <strong>trabalhistas, previdenciárias e tributárias</strong> de vínculos e folha <span class="ref-pagina">(p. 329)</span></td>
+                <td>Identifica vínculos formais/informais, remunerações incompatíveis, uso de <strong>"laranjas"</strong> como empregados, inconsistências previdenciárias <span class="ref-pagina">(p. 329)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Metodologia de aferição de variação patrimonial</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Técnica de análise fiscal e financeira amplamente utilizada em auditorias e investigações de <strong>lavagem de dinheiro, corrupção, enriquecimento ilícito e outros crimes econômicos</strong>. Seu objetivo é verificar se o acréscimo patrimonial está justificado por receitas lícitas ou dívidas assumidas, ou se está <strong>a descoberto</strong>. <span class="ref-pagina">(p. 329)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Princípio central:</strong> Ninguém pode aumentar seu patrimônio sem que haja uma <strong>fonte legítima de recursos</strong> que justifique esse acréscimo. <span class="ref-pagina">(p. 329)</span>
+        </div>
+
+        <h3>Equação da Variação Patrimonial</h3>
+
+        <div class="formula">
+            VAD = VBLD &minus; SF
+        </div>
+
+        <table>
+            <tr>
+                <th>Sigla</th>
+                <th>Significado</th>
+            </tr>
+            <tr>
+                <td><strong>VAD</strong></td>
+                <td>Variação Patrimonial A Descoberto (resultado da análise) <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+            <tr>
+                <td><strong>VBLD</strong></td>
+                <td>Variação de Bens Livre de Dívidas = <strong>VB - VD</strong> <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+            <tr>
+                <td><strong>VB</strong></td>
+                <td>Variação de Bens e Direitos <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+            <tr>
+                <td><strong>VD</strong></td>
+                <td>Variação de Dívidas e Ônus Reais <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+            <tr>
+                <td><strong>SF</strong></td>
+                <td>Sobra Financeira = <strong>R - D</strong> (Receitas - Despesas) <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Interpretação:</strong>
+            <ul>
+                <li><strong>Resultado NEGATIVO:</strong> a sobra financeira foi suficiente para justificar o acréscimo patrimonial;</li>
+                <li><strong>Resultado POSITIVO:</strong> há <strong>descobertura patrimonial</strong> - o patrimônio cresceu sem respaldo financeiro legítimo, podendo sugerir ocultação de rendimentos, movimentações ilícitas ou LD. Ocorre a <strong>variação patrimonial a descoberto</strong>.
+            </ul>
+            <span class="ref-pagina">(p. 330)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: VAD = VBLD - SF</span>
+            <p>VBLD (o que o patrimônio cresceu líquido de dívidas) MENOS SF (o que sobrou de receita após despesas).</p>
+            <ul>
+                <li>VAD &lt; 0 -> patrimônio JUSTIFICADO</li>
+                <li>VAD &gt; 0 -> patrimônio A DESCOBERTO (suspeita de ilícito)</li>
+            </ul>
+        </div>
+
+        <h3>7.1 Impacto do levantamento patrimonial nas variáveis</h3>
+
+        <p>A aplicação prática exige <strong>levantamento minucioso</strong> e cruzamento de diversas fontes fiscais e financeiras, reconstruindo a linha do tempo patrimonial do investigado. <span class="ref-pagina">(p. 330)</span></p>
+
+        <table>
+            <tr>
+                <th>Variável</th>
+                <th>Como o investigador impacta</th>
+            </tr>
+            <tr>
+                <td><strong>VB</strong> (Bens e Direitos)</td>
+                <td>Ampliada com a descoberta de bens não declarados (imóveis, veículos, participações societárias, criptoativos, aplicações ocultas) <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+            <tr>
+                <td><strong>VD</strong> (Dívidas e Ônus Reais)</td>
+                <td>Ajustada com a identificação de empréstimos, financiamentos ou obrigações assumidas <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+            <tr>
+                <td><strong>R</strong> (Receitas)</td>
+                <td>Salários, honorários, rendimentos de aplicações, recebimentos em espécie (DME), lucros empresariais <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+            <tr>
+                <td><strong>D</strong> (Despesas)</td>
+                <td>Gastos com consumo, aluguel, saúde, alimentação, viagens, pagamentos diversos <span class="ref-pagina">(p. 330)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Fontes alimentadoras:</strong> DIRPF, e-Financeira, DME, Dimob, DOI e declarações de criptoativos. A atuação diligente do investigador é determinante para que o resultado da equação reflita a realidade patrimonial - ao localizar ativos ocultos ou receitas não declaradas, o analista <strong>recalibra a equação</strong> e revela a real situação patrimonial, demonstrando enriquecimento ilícito ou LD. <span class="ref-pagina">(p. 330-331)</span>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Ferramentas de apoio - Sinfi</h2>
+
+        <h3>Sistema de Investigação de Dados Fiscais e Patrimoniais (Sinfi)</h3>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Sistema de apoio à investigação fiscal e patrimonial, desenvolvido para auxiliar na análise de dados provenientes da <strong>DIRPF</strong> (fornecida pela RFB) na identificação de <strong>variações patrimoniais suspeitas</strong>. Acessível através da intranet. <span class="ref-pagina">(p. 331)</span>
+        </div>
+
+        <p>Funcionalidades: <span class="ref-pagina">(p. 331)</span></p>
+        <ul>
+            <li><strong>Importação da(s) DIRPF(s)</strong>, processadas automaticamente para estruturar informações sobre rendimentos, despesas, dívidas e bens declarados;</li>
+            <li><strong>Inserção manual de bens e direitos</strong> descobertos durante a investigação, inclusive aqueles <strong>exportados do sistema Cadbens</strong>;</li>
+            <li><strong>Cruzamento de dados</strong> para identificar inconsistências (bens não declarados, variações patrimoniais a descoberto).</li>
+        </ul>
+
+        <h3>Fluxo de uso do Sinfi</h3>
+
+        <table>
+            <tr>
+                <th>Etapa</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>1. Criação do caso</strong></td>
+                <td>Registro dos dados iniciais da investigação (lógica semelhante à do Cadbens) <span class="ref-pagina">(p. 331)</span></td>
+            </tr>
+            <tr>
+                <td><strong>2. Alimentação com a DIRPF</strong></td>
+                <td>Processamento automático, estruturando dados em: <strong>bens e direitos</strong>, <strong>dívidas e ônus reais</strong>, <strong>rendimentos e receitas</strong>, <strong>despesas e deduções</strong> <span class="ref-pagina">(p. 332)</span></td>
+            </tr>
+            <tr>
+                <td><strong>3. Importação do Cadbens</strong></td>
+                <td>Importação de informações patrimoniais via planilhas CSV; complementa a análise com bens descobertos não declarados pelo investigado <span class="ref-pagina">(p. 332)</span></td>
+            </tr>
+            <tr>
+                <td><strong>4. Análise da variação patrimonial</strong></td>
+                <td>Avalia relação entre <strong>ativos e passivos</strong> e entre <strong>receitas e despesas</strong>, identificando sobras financeiras ou variações patrimoniais a descoberto <span class="ref-pagina">(p. 333)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Síntese:</strong> O Sinfi é plataforma estratégica para o aprofundamento das investigações financeiras, contribuindo diretamente para o combate à lavagem de dinheiro e à ocultação de patrimônio. A integração Cadbens -> Sinfi viabiliza análise fiscal e patrimonial completa. <span class="ref-pagina">(p. 331)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo final - Fluxo da análise fiscal</span>
+            <ol>
+                <li><strong>Levantamento patrimonial preliminar</strong> (fontes abertas, diligências) -> Cadbens</li>
+                <li><strong>Obtenção de dados fiscais</strong> (autorização judicial OU transferência de sigilo OU entrega espontânea)</li>
+                <li><strong>Declarações próprias</strong> (DIRPF, GCAP, ECF, e-Social) e <strong>de terceiros</strong> (Decred, DOI, Dimob, e-Financeira, NF-e)</li>
+                <li><strong>SPED</strong> (ECF, EFD-ICMS/IPI, NF-e, e-Social, e-Financeira)</li>
+                <li><strong>Sinfi</strong> -> aplicação da equação VAD = VBLD - SF</li>
+                <li><strong>Conclusão:</strong> patrimônio justificado ou a descoberto</li>
+            </ol>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>

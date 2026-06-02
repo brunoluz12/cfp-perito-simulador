@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5.5.3 - Afastamento do Sigilo Telefônico</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO II</span>
+        <h1>Capítulo 5.5.3 - Afastamento do Sigilo Telefônico</h1>
+        <div class="subtitle">Representação, interceptação telefônica (Lei 9.296/96), ERBs e análise de extratos</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Representação pelo afastamento do sigilo telefônico</a></li>
+            <li><a href="#sec2">2. Requisitos da Lei 9.296/96 e pressupostos</a></li>
+            <li><a href="#sec3">3. Procedimento, prazos e juiz de garantias</a></li>
+            <li><a href="#sec4">4. Interceptação Telefônica (5.5.3.1)</a></li>
+            <li><a href="#sec5">5. Acesso a registros de ligação telefônica (5.5.3.1.1)</a></li>
+            <li><a href="#sec6">6. Sigilo de dados em celulares (5.5.3.1.2)</a></li>
+            <li><a href="#sec7">7. Termos técnicos: SIM Card e Aparelho (5.5.3.2)</a></li>
+            <li><a href="#sec8">8. Monitoramento e análise de ERBs (5.5.3.3)</a></li>
+            <li><a href="#sec9">9. Extrato de conexões, terminais em ERB e triangulação</a></li>
+            <li><a href="#sec10">10. Números estrangeiros e roaming internacional</a></li>
+            <li><a href="#sec11">11. Análise de extratos telefônicos (5.5.3.4)</a></li>
+            <li><a href="#sec12">12. Sistema AT2 - Análise Telefônica 2 (5.5.3.5)</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Representação pelo afastamento do sigilo telefônico</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> A interceptação de comunicações e sinais é uma das técnicas de investigação mais importantes da história da Polícia Federal, contribuindo decisivamente para a coleta de provas em praticamente todas as grandes operações policiais. <span class="ref-pagina">(p. 334)</span>
+        </div>
+
+        <p>A técnica contempla a <strong>interceptação telefônica</strong>, a <strong>interceptação telemática</strong> e a <strong>interceptação/captação ambiental de sinais eletromagnéticos, ópticos ou acústicos</strong>. Mesmo atualmente, quando conversas telefônicas via operadoras estão em absoluto desuso, pode revelar dados de interesse à investigação e formar provas tendentes a reforçar a autoria delitiva. <span class="ref-pagina">(p. 334)</span></p>
+
+        <div class="box-red">
+            <strong>RESERVA DE JURISDIÇÃO:</strong> Sua implementação em ambientes não abertos ao público ou em meio que deveria proporcionar privacidade (ex.: terminal telefônico) depende de <strong>prévia autorização judicial</strong>, devendo ser precedida de <strong>representação formalizada pelo Delegado de Polícia Federal</strong>. <span class="ref-pagina">(p. 334)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Base constitucional (CF, art. 5º, XII):</strong> A Constituição garante o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, excepcionando, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer, para fins de investigação criminal ou instrução processual penal. <span class="ref-pagina">(p. 334)</span>
+        </div>
+
+        <p>É pacífico na doutrina e jurisprudência que a Carta Magna, quando protege o sigilo das comunicações (não somente a telefônica), o faz limitadamente, em consonância com o <strong>princípio da proporcionalidade</strong>. Nenhum direito ou garantia fundamental é absoluto. <span class="ref-pagina">(p. 334)</span></p>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Requisitos da Lei 9.296/96 e pressupostos</h2>
+
+        <div class="box-blue">
+            <strong>Lei nº 9.296/96, art. 1º:</strong> regulamenta a parte final do inciso XII, art. 5º da CF. Prevê que a interceptação de comunicações telefônicas, de qualquer natureza, assim como do fluxo de comunicações em sistemas de informática e telemática, para fins de investigação criminal e instrução processual penal, dependerá de <strong>circunstanciada ordem judicial</strong>, que tramitará em <strong>segredo de justiça</strong>. <span class="ref-pagina">(p. 334)</span>
+        </div>
+
+        <p>O art. 2º estampa os pressupostos para o deferimento, com destaque ao inciso II, que explicita o <strong>caráter de ultima ratio</strong> do instituto: <span class="ref-pagina">(p. 334-335)</span></p>
+
+        <table>
+            <tr><th>Pressupostos (art. 2º, Lei 9.296/96)</th></tr>
+            <tr><td>a) indícios razoáveis de autoria ou participação em infração penal;</td></tr>
+            <tr><td>b) prova não puder ser feita por outros meios disponíveis;</td></tr>
+            <tr><td>c) fato investigado constituir infração penal punida com pena de <strong>reclusão</strong> (ou conexas aos crimes cuja pena seja de reclusão - posição do STF);</td></tr>
+            <tr><td>d) descrição clara da situação objeto da investigação, com a indicação e qualificação dos investigados, salvo manifesta e justificada impossibilidade.</td></tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>STF (HC 83515):</strong> Uma vez realizada a interceptação telefônica de forma fundamentada, legal e legítima, as informações e provas coletadas podem subsidiar denúncia com base em <strong>crimes puníveis com pena de detenção, desde que conexos</strong> aos primeiros tipos penais que justificaram a interceptação. <span class="ref-pagina">(p. 335)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: I-P-R-D (pressupostos da interceptação)</span>
+            <ul>
+                <li><strong>I</strong>ndícios razoáveis de autoria</li>
+                <li><strong>P</strong>rova impossível por outros meios (ultima ratio)</li>
+                <li><strong>R</strong>eclusão (ou conexa a reclusão)</li>
+                <li><strong>D</strong>escrição clara da situação</li>
+            </ul>
+        </div>
+
+        <p>Realizado o planejamento e identificada a necessidade da medida, o Delegado deve verificar junto à chefia imediata a viabilidade de recursos humanos e materiais antes de representar ao juízo, observando os princípios da <strong>simplicidade</strong> e da <strong>proporcionalidade</strong>. <span class="ref-pagina">(p. 335)</span></p>
+
+        <div class="box-green">
+            <strong>Complementaridade:</strong> Não há prevalência de uma técnica sobre outra. Para conferir robustez aos elementos colhidos, a interceptação telefônica deve ser complementada por <strong>diligências de campo, vigilâncias, escutas ambientais, pesquisas diversas</strong>, entre outros. <span class="ref-pagina">(p. 335)</span>
+        </div>
+
+        <p>Com aplicativos como WhatsApp e Telegram, a interceptação telefônica perdeu um pouco de destaque. Como a interceptação tem prazo de 15 dias (renovável), muitas equipes têm optado por realizar somente o <strong>afastamento do sigilo telemático</strong> e o <strong>acesso a registros telefônicos</strong>, cujo prazo pode ser maior. <span class="ref-pagina">(p. 335)</span></p>
+
+        <div class="box-purple">
+            <strong>Utilidades práticas remanescentes:</strong> Ainda há ganhos com a técnica - por exemplo, quando o investigado agenda um serviço, marca uma consulta ou negocia um bem, o investigador pode saber aonde ele irá, acompanhá-lo, verificar o veículo utilizado ou colocar um rastreador. <span class="ref-pagina">(p. 336)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Procedimento, prazos e juiz de garantias</h2>
+
+        <h3>3.1 Conteúdo da representação</h3>
+        <p>A representação deve relacionar os <strong>terminais telefônicos</strong> cuja interceptação se pretende, indicando a <strong>operadora</strong> e a <strong>identidade do responsável pelo uso</strong>, mesmo que precária. Pode até ocorrer que a identidade do portador seja completamente desconhecida (somente um vulgo), o que não inviabiliza a interceptação, cabendo justificar a necessidade da medida. <span class="ref-pagina">(p. 336)</span></p>
+
+        <div class="box-orange">
+            <strong>Pedidos acessórios incluídos na representação:</strong> cadastros, históricos de chamadas, localização em tempo real das <strong>ERBs</strong>, <strong>IMEI/ESN</strong> dos aparelhos e demais meios disponibilizados pelas operadoras (ex.: localização do aparelho em tempo real por antenas 3G/4G/5G), inclusive estendendo aos <strong>interlocutores e terceiros</strong>, desde que demonstrado o interesse das investigações. <span class="ref-pagina">(p. 336)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>LIMITE IMPORTANTE:</strong> A extensão a terminais de interlocutores e terceiros <strong>NÃO abarca, em hipótese alguma, as conversas telefônicas e o conteúdo de mensagens</strong>. Para alcançar tais dados, é necessária <strong>nova representação</strong>. <span class="ref-pagina">(p. 336)</span>
+        </div>
+
+        <p>Com a <strong>portabilidade</strong> de números entre operadoras, deve-se identificar corretamente a qual operadora está vinculada a linha a ser interceptada. A consulta pode ser feita pela <strong>abr telecom</strong> (https://consultanumero.abrtelecom.com.br). <span class="ref-pagina">(p. 336)</span></p>
+
+        <div class="box-green">
+            <strong>Dados cadastrais:</strong> podem ser requisitados <strong>diretamente pelo Delegado de PF, sem prévia autorização judicial</strong>, mas tal tramitação demanda tempo. Para agilidade, costuma-se representar em conjunto pelo acesso a sistemas das operadoras. <span class="ref-pagina">(p. 337)</span>
+        </div>
+
+        <h3>3.2 Prazos</h3>
+
+        <div class="box-blue">
+            <strong>Art. 5º da Lei 9.296/96:</strong> a execução não poderá exceder o prazo de <strong>15 dias</strong>, admitindo-se <strong>prorrogação por igual período</strong>, desde que comprovada a indispensabilidade do meio de prova. Os tribunais superiores admitem <strong>sucessivas prorrogações</strong>, notadamente diante de fatos graves e complexos. <span class="ref-pagina">(p. 337)</span>
+        </div>
+
+        <p>O excesso de renovações além do razoável pode gerar <strong>nulidade da medida</strong>. As prorrogações sucessivas estão condicionadas à <strong>necessidade e proporcionalidade</strong> e à <strong>simplicidade operacional</strong>. <span class="ref-pagina">(p. 337)</span></p>
+
+        <div class="box-purple">
+            <strong>IN 255/2023-DG/PF, art. 70:</strong> Todo procedimento de interceptação deve ser precedido de <strong>instauração de inquérito policial</strong>, sendo que o procedimento em si corre em <strong>autos eletrônicos apartados</strong>. Na PF, a interceptação é formalizada em <strong>Registro Especial (RE)</strong>; junto ao Poder Judiciário, na forma de <strong>medida cautelar de quebra de sigilo e/ou interceptação</strong>. <span class="ref-pagina">(p. 337)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Início do prazo (STJ - HC 113.477-DF):</strong> A Lei 9.296/96 NÃO estipula termo inicial para cumprimento da ordem judicial. O prazo de 15 dias é contado <strong>a partir do dia em que se iniciou a escuta, e NÃO da data da decisão judicial</strong> que a autorizou. No caso concreto, houve mais de três meses entre deferimento e início, devido a greve da PF (evento que foge ao controle direto dos órgãos estatais). <span class="ref-pagina">(p. 337-338)</span>
+        </div>
+
+        <h3>3.3 Juiz de garantias</h3>
+
+        <div class="box-blue">
+            <strong>CPP, art. 3º-B, caput:</strong> o juiz de garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário. <span class="ref-pagina">(p. 338)</span>
+        </div>
+
+        <p>O <strong>art. 3º-B, XI, "a", do CPP</strong> dispõe que cabe ao juiz de garantias decidir sobre os requerimentos de interceptação telefônica, do fluxo de comunicações em sistemas de informática e telemática ou de outras formas de comunicação. <span class="ref-pagina">(p. 338)</span></p>
+
+        <div class="box-red">
+            <strong>Exceções ao juiz de garantias:</strong>
+            <ul>
+                <li>Processos de competência originária dos tribunais (Lei 8.038/90);</li>
+                <li>Processos de competência do tribunal do júri;</li>
+                <li>Casos de violência doméstica e familiar;</li>
+                <li>Infrações de menor potencial ofensivo.</li>
+            </ul>
+            <span class="ref-pagina">(p. 338)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Interceptação Telefônica (5.5.3.1)</h2>
+
+        <div class="box-blue">
+            <strong>Art. 6º, caput, da Lei 9.296/96:</strong> deferido o pedido, a autoridade policial conduzirá os procedimentos, realizará as devidas comunicações e, cumprida a diligência, encaminhará o resultado ao juiz acompanhado de <strong>auto circunstanciado</strong>. <span class="ref-pagina">(p. 338)</span>
+        </div>
+
+        <h3>4.1 Medidas internas na PF</h3>
+        <p>A execução conta com software próprio - <strong>SIS2 (Sistema de Interceptação de Sinais 2.0)</strong>. É necessário: <span class="ref-pagina">(p. 338)</span></p>
+        <ul>
+            <li>Registrar a operação no <strong>SIGACRIM</strong> (aplicativo de Gestão de Operações de polícia judiciária);</li>
+            <li>Comunicar o deferimento ao órgão de inteligência regional (<strong>SIP - Setor de Inteligência Policial</strong>) via <strong>SEI</strong> (Sistema Eletrônico de Informações);</li>
+            <li>Solicitar a criação da operação no SIS2.</li>
+        </ul>
+
+        <h3>4.2 Medidas externas e operadoras</h3>
+        <p>Após decisão de deferimento, alguns juízos expedem "alvarás" ordenando às operadoras o início da implementação; outros expedem ofícios; em alguns casos, é utilizada a própria decisão. <span class="ref-pagina">(p. 339)</span></p>
+
+        <p>A comunicação com as operadoras ocorre mediante plataformas institucionais específicas ou via correio eletrônico, com login e senha individuais. Por meio desses sistemas, envia-se decisões judiciais e alvarás, requisita-se dados cadastrais, informações de ERBs, extratos de conexão e demais elementos probatórios. <span class="ref-pagina">(p. 339)</span></p>
+
+        <div class="box-purple">
+            <strong>Mercado nacional:</strong> as três principais operadoras - <strong>Vivo, Claro e Tim</strong> - concentram a ampla maioria dos usuários de serviços móveis. <span class="ref-pagina">(p. 339)</span>
+        </div>
+
+        <table>
+            <tr><th>Operadora</th><th>Plataformas (em regra)</th></tr>
+            <tr><td><strong>VIVO</strong></td><td>vigia.vivo.com.br (ERB); portaljud.vivo.com.br (cadastros e extratos)</td></tr>
+            <tr><td><strong>TIM</strong></td><td>poarg.timbrasil.com.br (ERB); infoguard.timbrasil.com.br (ERB, extratos e cadastros)</td></tr>
+            <tr><td><strong>CLARO</strong></td><td>vigia.claro.com.br (ERB, extratos e cadastros)</td></tr>
+        </table>
+        <p><span class="ref-pagina">(p. 340)</span></p>
+
+        <h3>4.3 Transcrição e cautelas</h3>
+
+        <div class="box-orange">
+            <strong>Transcrição:</strong> é <strong>dispensável a transcrição integral</strong> de todas as gravações. Apesar da literalidade do art. 6º da Lei 9.296/96, doutrina e jurisprudência consolidaram que somente as gravações <strong>de interesse</strong> precisam ser transcritas, devendo-se disponibilizar à defesa o acesso a todas as gravações realizadas. <span class="ref-pagina">(p. 340-341)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Inaudita altera parte:</strong> A defesa NÃO tem acesso às medidas durante a execução. Trata-se de medida cautelar <strong>inaudita altera parte</strong>, com <strong>contraditório diferido</strong> para o momento processual adequado. Reforça a importância da <strong>cadeia de custódia</strong>, pois questionamentos de idoneidade técnica, autenticidade da prova e identificação de voz ocorrerão somente após a conclusão da medida. <span class="ref-pagina">(p. 341)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Acesso a registros de ligação telefônica (5.5.3.1.1)</h2>
+
+        <div class="box-blue">
+            <strong>Lei 12.850/13, art. 3º, IV:</strong> em qualquer fase da persecução penal, é permitido o "acesso a registros de ligações telefônicas e telemáticas, a dados cadastrais constantes de bancos de dados públicos ou privados e a informações eleitorais ou comerciais". <span class="ref-pagina">(p. 341)</span>
+        </div>
+
+        <h3>5.1 Dados cadastrais (sem ordem judicial)</h3>
+
+        <div class="box-green">
+            <strong>Dados cadastrais:</strong> referem-se à identidade (nome, nacionalidade, naturalidade, data de nascimento, estado civil, profissão, RG, CPF, filiação e endereço). NÃO revelam aspectos da vida privada/intimidade cuja tutela exija reserva de jurisdição. Órgãos públicos e privados devem fornecer à polícia judiciária e ao MP, <strong>independentemente de ordem judicial</strong>. <span class="ref-pagina">(p. 341)</span>
+        </div>
+
+        <p>Base legal: art. 2º, §2º da Lei 12.830/13; art. 15 da Lei 12.850/13; art. 17-B da Lei 9.613/98; art. 10, §3º da Lei 12.965/14 (Marco Civil); e art. 13-A do CPP. <span class="ref-pagina">(p. 341)</span></p>
+
+        <h3>5.2 Registros de ligações (com ordem judicial)</h3>
+
+        <div class="box-orange">
+            <strong>Conteúdo dos registros de ligações telefônicas:</strong>
+            <ul>
+                <li>Terminais que receberam ou efetuaram telefonemas;</li>
+                <li>Dados da comunicação (duração, data e hora);</li>
+                <li>Identificação dos números chamadores e chamados;</li>
+                <li>Números identificadores dos aparelhos (<strong>IMEIs</strong>);</li>
+                <li>Identificação das <strong>ERBs</strong> utilizadas pelos interlocutores;</li>
+                <li>Dados relativos ao recebimento e envio de <strong>SMS</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 341)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>RESERVA JURISDICIONAL (STF - ADI 4.906):</strong> Para o acesso a registros telefônicos, o Delegado deve representar ao juízo - atualmente, para o STF, a medida está sujeita à <strong>cláusula de reserva jurisdicional</strong>. <span class="ref-pagina">(p. 341)</span>
+        </div>
+
+        <p>A representação para interceptação telefônica deve demonstrar fundamentadamente os <strong>indícios de materialidade</strong>, a <strong>utilidade concreta</strong> da medida, e a <strong>identificação do terminal ou ERB</strong> e o <strong>período de monitoramento</strong> pretendido. <span class="ref-pagina">(p. 342)</span></p>
+
+        <div class="box-purple">
+            <strong>Distinção - prazo de vigência:</strong>
+            <ul>
+                <li><strong>Interceptação telefônica:</strong> 15 dias (Lei 9.296/96);</li>
+                <li><strong>Acesso aos registros telefônicos:</strong> prazo diverso estipulado pelo juízo (proporcional e razoável).</li>
+            </ul>
+            <span class="ref-pagina">(p. 342)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Finalidades do acesso aos registros telefônicos:</strong>
+            <ul>
+                <li>Estabelecer vínculos entre indivíduos/suspeitos;</li>
+                <li>Estabelecer vínculos indiretos por diagramas e análises;</li>
+                <li>Refutar ou confirmar versões apresentadas em declarações;</li>
+                <li>Obter dados geográficos por informações de <strong>ERBs</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 343)</span>
+        </div>
+
+        <p>O tratamento informatizado dos dados é essencial: softwares auxiliam criando <strong>diagramas de elos</strong> e identificando pontos críticos de contato. <span class="ref-pagina">(p. 343)</span></p>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Sigilo de dados em celulares (5.5.3.1.2)</h2>
+
+        <div class="box-red">
+            <strong>Recomendação:</strong> O acesso a dados contidos em <strong>mídia computacional e telefones celulares</strong> deve ser <strong>precedido de autorização judicial</strong>, por se entender que ali estão dados relativos à intimidade da pessoa e de terceiros. <span class="ref-pagina">(p. 344)</span>
+        </div>
+
+        <p>A representação por busca e apreensão deve conter, além do pedido de acesso aos dados, solicitação ao juízo de <strong>acesso imediato ao conteúdo dos celulares já no local da ação</strong>, propiciando apuração célere e mitigando a intrusão estatal. <span class="ref-pagina">(p. 344)</span></p>
+
+        <div class="box-orange">
+            <strong>Atenção tecnológica:</strong> Diversos smartphones utilizam tecnologias que dificultam ou impõem prazo para tentativas de extração dos dados, demandando solicitação prévia ao juízo. <span class="ref-pagina">(p. 344)</span>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Termos técnicos vinculados ao tema (5.5.3.2)</h2>
+
+        <p>A investigação criminal que envolve rastreamento de dispositivos móveis demanda compreensão de termos técnicos relacionados aos identificadores do <strong>chip (SIM Card)</strong> e do próprio <strong>aparelho celular</strong>. Esses elementos funcionam como "marcadores digitais" que permitem estabelecer vínculos entre linhas, usuários e equipamentos. <span class="ref-pagina">(p. 344)</span></p>
+
+        <h3>7.1 Dados do Chip (SIM Card)</h3>
+
+        <table>
+            <tr><th>Sigla / Termo</th><th>Descrição</th><th>Utilidade Investigativa</th></tr>
+            <tr>
+                <td><strong>ICCID</strong> (Integrated Circuit Card Identifier)</td>
+                <td>Número único gravado fisicamente no chip, identificando o cartão SIM.</td>
+                <td>Com esse número, permite oficiar a operadora solicitando o número telefônico vinculado ao ICCID.</td>
+            </tr>
+            <tr>
+                <td><strong>IMSI</strong> (International Mobile Subscriber Identity)</td>
+                <td>Identificador internacional do assinante, vinculado ao chip e à operadora.</td>
+                <td>Utilizado pela rede para autenticar o usuário e vincular a linha à operadora; também usado em cooperação jurídica internacional.</td>
+            </tr>
+            <tr>
+                <td><strong>MSISDN</strong> (Mobile Station International Subscriber Directory Number)</td>
+                <td>É o número de telefone em si, associado ao chip.</td>
+                <td>Identificação direta da linha telefônica em uso.</td>
+            </tr>
+            <tr>
+                <td><strong>Dados cadastrais</strong></td>
+                <td>Informações do titular registradas junto à operadora (nome, CPF, endereço).</td>
+                <td>Cruciais para vincular juridicamente a linha a um indivíduo.</td>
+            </tr>
+        </table>
+        <p><span class="ref-pagina">(p. 345)</span></p>
+
+        <h3>7.2 Dados do Aparelho Celular</h3>
+
+        <div class="box-blue">
+            <strong>IMEI (International Mobile Equipment Identity):</strong> dado técnico de maior relevância do aparelho. Cada dispositivo possui, como regra, <strong>dois IMEIs</strong> — um para cada interface de comunicação, em razão da capacidade de operar com dois chips (<strong>dual SIM</strong>). É composto por <strong>14 números principais</strong>, acrescidos de um <strong>15º dígito verificador</strong>. <span class="ref-pagina">(p. 344-345)</span>
+        </div>
+
+        <table>
+            <tr><th>Sigla / Termo</th><th>Descrição</th><th>Utilidade Investigativa</th></tr>
+            <tr>
+                <td><strong>IMEI</strong></td>
+                <td>Número único do aparelho, 14 dígitos + 1 dígito verificador (total 15). Cada aparelho possui 2 IMEIs, um para cada slot de chip.</td>
+                <td>Permite individualizar o aparelho em escala global. Pode ser consultado em ferramentas como <strong>IMEI.INFO</strong>, que revelam marca e modelo.</td>
+            </tr>
+        </table>
+        <p><span class="ref-pagina">(p. 346)</span></p>
+
+        <div class="box-purple">
+            <strong>Escopo do material:</strong> Outros identificadores (como <strong>MAC Address</strong>) existem, mas o caderno restringe-se ao IMEI por sua relevância investigativa. <span class="ref-pagina">(p. 346)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Onde encontrar o IMEI:</strong>
+            <ul>
+                <li>Etiqueta do aparelho (geralmente parte interna, sob a bateria ou próximo à gaveta dos chips);</li>
+                <li>Embalagem original;</li>
+                <li>Digitando <strong>*#06#</strong> na tela do celular;</li>
+                <li>Menu Configurações > Sobre o telefone.</li>
+            </ul>
+            <span class="ref-pagina">(p. 346)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: Chip vs. Aparelho</span>
+            <ul>
+                <li><strong>CHIP (SIM):</strong> ICCID, IMSI, MSISDN, Dados cadastrais</li>
+                <li><strong>APARELHO:</strong> IMEI (14+1 dígitos, 2 por aparelho dual SIM)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Monitoramento e análise de ERBs (5.5.3.3)</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> As <strong>Estações Rádio-Base (ERBs)</strong>, também conhecidas como <strong>células de telefonia</strong>, são estruturas físicas que integram a rede de telecomunicações móveis. Cada ERB é composta por antenas e equipamentos responsáveis por conectar os terminais à rede da operadora. As antenas são distribuídas em <strong>setores</strong>, cada um cobrindo determinada área geográfica, e registram, a cada acesso, informações como <strong>data, hora, duração da conexão e localização aproximada</strong>. <span class="ref-pagina">(p. 347)</span>
+        </div>
+
+        <h3>8.1 Abrangência de cobertura</h3>
+
+        <table>
+            <tr><th>Tipo de área</th><th>Cobertura típica</th></tr>
+            <tr><td>Áreas urbanas / grandes centros</td><td>Algumas centenas de metros até <strong>2 km</strong> (maior concentração de antenas)</td></tr>
+            <tr><td>Áreas suburbanas / cidades médias</td><td>Entre <strong>2 km e 5 km</strong></td></tr>
+            <tr><td>Zonas rurais / menor densidade</td><td>Áreas muito mais amplas, podendo chegar a <strong>10 km ou mais de 30 km</strong></td></tr>
+        </table>
+        <p><span class="ref-pagina">(p. 347)</span></p>
+
+        <div class="box-orange">
+            <strong>Cuidado interpretativo:</strong> Essa variação deve ser sempre considerada pelo investigador, evitando <strong>conclusões categóricas sobre a localização exata</strong> de um terminal somente a partir da ERB registrada. <span class="ref-pagina">(p. 348)</span>
+        </div>
+
+        <h3>8.2 Handover</h3>
+
+        <div class="box-purple">
+            <strong>Handover:</strong> processo que ocorre quando um aparelho em deslocamento deixa de ser atendido por uma ERB e passa <strong>automaticamente para outra</strong>, mantendo a comunicação ativa. Permite, por exemplo, que uma ligação continue durante viagens de carro. O terminal monitora a intensidade do sinal e busca outra estação quando o sinal atual enfraquece. <span class="ref-pagina">(p. 348)</span>
+        </div>
+
+        <p>Em áreas urbanas, a transição costuma ser estável. Em regiões rurais ou de menor cobertura, pode haver interrupções, resultando em quedas de chamadas ou perda temporária de conexão. <span class="ref-pagina">(p. 348)</span></p>
+
+        <h3>8.3 Azimute e setorização</h3>
+
+        <div class="box-blue">
+            <strong>Azimute:</strong> ângulo de orientação da antena em relação ao <strong>norte geográfico</strong>. Em regra, as torres são setorizadas em <strong>três antenas direcionais</strong>, cada uma cobrindo aproximadamente <strong>120°</strong>, podendo haver casos com 4, 6 ou mais setores. <span class="ref-pagina">(p. 349)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Vantagens do azimute:</strong>
+            <ul>
+                <li>Restringir a área de abrangência do terminal dentro do raio da ERB;</li>
+                <li>Indicar a direção aproximada do aparelho em relação à antena;</li>
+                <li>Auxiliar na reconstrução de trajetos pela sucessiva troca de setores;</li>
+                <li>Reduzir margem de incerteza em áreas de sobreposição.</li>
+            </ul>
+            <span class="ref-pagina">(p. 349)</span>
+        </div>
+
+        <h3>8.4 Vinculação do IMEI nas ERBs</h3>
+        <p>Além do MSISDN, é possível solicitar às operadoras a vinculação do <strong>IMEI</strong> nos registros de ERB. O IMEI identifica o aparelho independentemente do chip, sendo especialmente útil quando investigados mudam constantemente de linhas. Permite: <span class="ref-pagina">(p. 349-350)</span></p>
+        <ul>
+            <li>Identificar padrões de deslocamento de quem usa múltiplos chips;</li>
+            <li>Correlacionar aparelhos reutilizados por diferentes membros de organização criminosa;</li>
+            <li>Evitar a fragmentação da análise quando o alvo troca de número, mas mantém o mesmo aparelho.</li>
+        </ul>
+
+        <h3>8.5 Panorama nacional (jun/2025)</h3>
+
+        <div class="box-purple">
+            <strong>Brasil em junho/2025:</strong> 107.056 ERBs ativas. Vivo (37.591), Tim (36.631), Claro (29.515). Outras: Brisanet (2.246), Algar (761), Unifique (267), Sercomtel (45). Consulta: telecocare.com.br/mapaerbs. <span class="ref-pagina">(p. 350)</span>
+        </div>
+
+        <h3>8.6 Utilidades investigativas</h3>
+
+        <div class="box-green">
+            <strong>O monitoramento e análise de ERBs possibilitam:</strong>
+            <ul>
+                <li>Identificar a localização aproximada de terminal em momento específico;</li>
+                <li>Reconstruir trajetos e deslocamentos;</li>
+                <li>Avaliar compatibilidade de versões em interrogatórios e oitivas;</li>
+                <li>Confirmar ou refutar álibis;</li>
+                <li>Demonstrar encontros/proximidade física por coincidência de registros em mesma célula e setor;</li>
+                <li>Delimitar áreas de atuação de organizações criminosas.</li>
+            </ul>
+            <span class="ref-pagina">(p. 350)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Duas modalidades:</strong>
+            <ul>
+                <li><strong>Monitoramento em tempo real:</strong> mediante autorização judicial, acompanha os acessos do terminal às ERBs conforme ocorrem.</li>
+                <li><strong>Análise histórica:</strong> obtenção, junto às operadoras, de registros pretéritos de conexões; igualmente dependente de ordem judicial.</li>
+            </ul>
+            <span class="ref-pagina">(p. 350)</span>
+        </div>
+
+        <h3>8.7 Limitações técnicas</h3>
+
+        <div class="box-orange">
+            <strong>Limitações dos registros de ERB:</strong>
+            <ul>
+                <li>Precisão depende da densidade de antenas (dezenas de metros nos centros, muitos quilômetros no campo);</li>
+                <li>Sobreposições de cobertura, áreas de sombra e variações no tráfego;</li>
+                <li>A ERB registrada NÃO corresponde necessariamente à antena geograficamente mais próxima, mas àquela que ofereceu o <strong>sinal de melhor qualidade</strong> no momento da conexão (relevo, edificações, interferências e sobrecarga influenciam).</li>
+            </ul>
+            <span class="ref-pagina">(p. 350-351)</span>
+        </div>
+
+        <p>A experiência prática demonstra a utilidade da técnica em investigações de <strong>homicídios, sequestros, tráfico de drogas, crimes de colarinho branco e organizações criminosas</strong>. <span class="ref-pagina">(p. 351)</span></p>
+
+        <h3>8.8 Exceção do tráfico de pessoas (CPP, art. 13-B)</h3>
+
+        <div class="box-red">
+            <strong>Exceção à regra de ordem judicial - CPP, art. 13-B, §4º:</strong> em casos de <strong>tráfico de pessoas</strong>, havendo <strong>risco atual ou iminente à vida ou integridade física da vítima</strong>, a autoridade policial poderá <strong>requisitar diretamente</strong> às empresas de telecomunicações/telemática os meios técnicos necessários à localização. Juiz e MP devem ser comunicados de imediato; <strong>não havendo manifestação judicial em até 12 horas</strong>, a requisição policial permanece válida. <span class="ref-pagina">(p. 351)</span>
+        </div>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Extrato de conexões, terminais em ERB e triangulação</h2>
+
+        <h3>9.1 Extrato do histórico de ERBs de conexões 3G/4G/5G (5.5.3.3.1)</h3>
+
+        <div class="box-blue">
+            Além das chamadas de voz, as operadoras mantêm históricos de <strong>conexões de dados (3G/4G/5G)</strong>, também vinculados às ERBs. Esses registros são extremamente relevantes - geram volume muito superior ao das chamadas de voz, pois a maioria dos usuários utiliza o aparelho continuamente para aplicativos e serviços de internet. <span class="ref-pagina">(p. 351)</span>
+        </div>
+
+        <p>Permite identificar padrão de deslocamento do dispositivo, mesmo sem ligações de voz. Ex.: verificar deslocamento para regiões de fronteira, estratégico em investigações de tráfico internacional, contrabando e descaminho. <span class="ref-pagina">(p. 351-352)</span></p>
+
+        <div class="box-green">
+            <strong>Valor probatório dos extratos de ERBs de conexões:</strong> reconstruir deslocamentos com maior granularidade, identificar meios de transporte utilizados e, em certos contextos, revelar a identidade efetiva por trás de linhas usadas clandestinamente. <span class="ref-pagina">(p. 352)</span>
+        </div>
+
+        <h3>9.2 Levantamento de terminais conectados a uma ERB (5.5.3.3.2)</h3>
+
+        <div class="box-blue">
+            A autoridade policial pode requerer judicialmente às operadoras a <strong>relação de todos os aparelhos conectados a determinada ERB</strong> (ou conjunto de ERBs) em intervalo definido. Permite mapear presença de celulares em determinada área, mesmo sem conhecimento prévio dos números. <span class="ref-pagina">(p. 352)</span>
+        </div>
+
+        <p>O material fornecido contém lista de linhas que efetivamente se conectaram à célula como <strong>"linha servidora"</strong> (terminais que usaram a ERB para voz, SMS ou dados 3G/4G/5G no período). <span class="ref-pagina">(p. 352)</span></p>
+
+        <div class="box-purple">
+            <strong>Utilidade:</strong>
+            <ul>
+                <li><strong>Identificação de recorrência criminosa:</strong> verificar se os mesmos terminais aparecem em ERBs próximas a locais de delitos semelhantes em datas distintas (ex.: quadrilha que assaltou bancos em cidades diferentes);</li>
+                <li><strong>Análise de deslocamento de investigados:</strong> reconstruir trajetos coletivos ao longo de sequência de ERBs em determinado intervalo.</li>
+            </ul>
+            <span class="ref-pagina">(p. 352-353)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Caso emblemático:</strong> apuração do assassinato da vereadora <strong>Marielle Franco</strong> (2018) - a Justiça autorizou a quebra do sigilo de dezenas de antenas na região, possibilitando à polícia levantar milhares de números que passaram pelas ERBs no trajeto do veículo do crime, filtrados posteriormente com base em outros elementos. <span class="ref-pagina">(p. 353)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Proporcionalidade:</strong> A medida deve ser <strong>proporcional e justificada</strong>, delimitando-se espacial e temporalmente as ERBs e o período, para evitar <strong>devassas generalizadas</strong> e proteger direitos fundamentais. <span class="ref-pagina">(p. 353)</span>
+        </div>
+
+        <h3>9.3 Triangulação de ERBs (5.5.3.3.3)</h3>
+
+        <div class="box-blue">
+            <strong>Triangulação:</strong> técnica que consiste em <strong>cruzar registros de múltiplas antenas</strong> que atenderam o mesmo aparelho em um intervalo de tempo, analisando os <strong>setores (azimutes)</strong> de cada conexão. <span class="ref-pagina">(p. 353)</span>
+        </div>
+
+        <p>É especialmente útil para identificar local onde o investigado permanece por longos períodos (<strong>residência ou esconderijo</strong>). Para resultados confiáveis, o terminal deve estar <strong>estacionário</strong> (sem deslocamento). Por isso, o período mais adequado costuma ser <strong>à noite</strong>. <span class="ref-pagina">(p. 353)</span></p>
+
+        <div class="box-green">
+            <strong>Funcionamento:</strong> cada ERB fornece um azimute indicando a direção aproximada do terminal. Cruzando pelo menos <strong>três setores de ERBs diferentes</strong>, delimita-se uma área geográfica de intersecção dentro da qual provavelmente se encontra o aparelho. <strong>Quanto mais ERBs envolvidas, mais restrita a área</strong>. <span class="ref-pagina">(p. 353)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Limitações:</strong>
+            <ul>
+                <li>Em áreas rurais ou de baixa densidade de antenas, a triangulação pode gerar áreas muito amplas;</li>
+                <li>A movimentação constante do aparelho prejudica a análise (depende de conexões em estado estacionário).</li>
+            </ul>
+            <span class="ref-pagina">(p. 354)</span>
+        </div>
+
+        <p>Apesar das limitações, é útil para delimitar <strong>endereços de investigados, depósitos de drogas ou armas, esconderijos e pontos de encontro</strong> de organizações criminosas. <span class="ref-pagina">(p. 354)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Técnicas de uso de ERB</span>
+            <ul>
+                <li><strong>Monitoramento (tempo real / histórico)</strong> de um terminal</li>
+                <li><strong>Levantamento de terminais conectados</strong> a uma ERB (linha servidora)</li>
+                <li><strong>Triangulação</strong> (cruzamento de azimutes ≥ 3 ERBs)</li>
+                <li><strong>Extrato de conexões 3G/4G/5G</strong> + IMEI</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec10" class="section">
+        <h2>10. Números estrangeiros e roaming internacional (5.5.3.3.4)</h2>
+
+        <div class="box-blue">
+            Em diversas investigações, depara-se com a utilização de <strong>chips estrangeiros</strong> em território nacional. O terminal não se conecta a uma rede própria, mas às <strong>ERBs das operadoras brasileiras</strong>, por meio de acordos de <strong>roaming internacional</strong>. <span class="ref-pagina">(p. 355)</span>
+        </div>
+
+        <p>Os registros fornecidos pelas operadoras locais são conhecidos como <strong>"extrato reverso"</strong>, com a mesma estrutura dos números nacionais (identificação de ERB, setor e azimute), possibilitando a análise de localização e a reconstrução de trajetos. <span class="ref-pagina">(p. 355)</span></p>
+
+        <div class="box-red">
+            <strong>Cadastrais via cooperação internacional:</strong> A diferença central está nos <strong>dados cadastrais do usuário</strong>, que permanecem armazenados junto à operadora estrangeira. Só podem ser obtidos <strong>mediante cooperação internacional</strong>. <span class="ref-pagina">(p. 355)</span>
+        </div>
+
+        <p>Ainda que o número seja estrangeiro, é viável plotar sua movimentação em território brasileiro a partir das conexões com as antenas locais - ferramenta relevante em <strong>tráfico internacional, crimes transnacionais e organizações criminosas</strong> que usam chips estrangeiros para dificultar a identificação. <span class="ref-pagina">(p. 355)</span></p>
+    </div>
+
+    <div id="sec11" class="section">
+        <h2>11. Análise de extratos telefônicos (5.5.3.4)</h2>
+
+        <div class="box-blue">
+            A análise de extratos telefônicos é ferramenta essencial em determinadas tipologias de investigações policiais, permitindo <strong>reconstituir a dinâmica das comunicações</strong> realizadas por determinado terminal. Permite identificar padrões de contato, frequência das ligações, horários estratégicos de uso e possíveis vínculos. <span class="ref-pagina">(p. 355)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Informações fornecidas pelos extratos:</strong>
+            <ul>
+                <li>Número de origem e destino das chamadas;</li>
+                <li>Data e horário das ligações;</li>
+                <li>Duração das comunicações;</li>
+                <li>Registros de mensagens (quando disponíveis pela operadora);</li>
+                <li>Dados de tráfego associados (como <strong>IMEI</strong> e <strong>ERB</strong> utilizada).</li>
+            </ul>
+            <span class="ref-pagina">(p. 355)</span>
+        </div>
+
+        <p>Submetido a análise metodológica, permite construir <strong>diagramas de vínculos</strong>, revelando a estrutura comunicacional de organizações criminosas. A comparação entre múltiplos extratos pode indicar <strong>pontos de convergência</strong> entre diferentes investigados. <span class="ref-pagina">(p. 355)</span></p>
+
+        <div class="box-red">
+            <strong>Legalidade:</strong> os dados só podem ser obtidos mediante <strong>decisão judicial fundamentada</strong>, em respeito à inviolabilidade das comunicações (art. 5º, XII, CF/88 e Lei 9.296/1996). <span class="ref-pagina">(p. 356)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Limitação técnica:</strong> o <strong>conteúdo da comunicação NÃO é revelado</strong> pelos extratos; estes somente demonstram que houve contato entre os terminais. <span class="ref-pagina">(p. 356)</span>
+        </div>
+
+        <p>Na prática, os extratos vêm em PDF ou Excel, com centenas ou milhares de registros de difícil interpretação bruta. A PF utiliza o sistema <strong>AT2 (Análise Telefônica 2)</strong>, que organiza, cruza e apresenta visualmente os vínculos. <span class="ref-pagina">(p. 356)</span></p>
+    </div>
+
+    <div id="sec12" class="section">
+        <h2>12. Sistema Análise Telefônica 2 - AT2 (5.5.3.5)</h2>
+
+        <div class="box-blue">
+            <strong>AT2:</strong> ferramenta de inteligência voltada à exploração de redes complexas de comunicação. A simples leitura dos extratos pouco acrescenta; o ganho real ocorre quando os registros são processados e interpretados pelo analista no AT2. <span class="ref-pagina">(p. 356)</span>
+        </div>
+
+        <h3>12.1 Fontes de dados suportadas (ago/25)</h3>
+
+        <table>
+            <tr><th>Tipo de dado</th><th>Fontes suportadas</th></tr>
+            <tr><td>Histórico de chamadas</td><td>Vivo, Claro, TIM, Oi, Vigia, WhatsApp, Cellebrite (XLS)</td></tr>
+            <tr><td>Cadastro telefônico</td><td>Vivo, Claro, TIM, Oi, Vigia, ou inserção manual</td></tr>
+            <tr><td>Agenda de contatos</td><td>WhatsApp, grupos de WhatsApp, Google, Apple, Cellebrite (XLS), Iped (.vcf), inserção manual</td></tr>
+            <tr><td>Histórico de conexões</td><td>WhatsApp (HTML), Facebook, Instagram, Vivo/TIM/Claro 3G/4G/5G</td></tr>
+        </table>
+        <p><span class="ref-pagina">(p. 357)</span></p>
+
+        <h3>12.2 Criação de casos e organização das informações</h3>
+
+        <p>Primeiro passo: criar um <strong>caso</strong> na base da unidade (Delegacia/Setor/Operação). Em seguida, importar os extratos das operadoras. O AT2 fornece automaticamente: <span class="ref-pagina">(p. 357)</span></p>
+
+        <ul>
+            <li>Identificação do IMEI e tipo de aparelho utilizado pelo investigado;</li>
+            <li>Principais interlocutores, com respectivos IMEIs;</li>
+            <li>Quantidade total de ligações/mensagens entre os contatos;</li>
+            <li>Data da primeira e última comunicação registrada;</li>
+            <li>Itinerário do alvo a partir das ERBs acessadas;</li>
+            <li>ERBs utilizadas também pelos interlocutores.</li>
+        </ul>
+
+        <h3>12.3 Interpretação e relevância investigativa</h3>
+
+        <div class="box-purple">
+            <strong>O AT2 potencializa a análise de padrões:</strong>
+            <ul>
+                <li><strong>Frequência:</strong> contatos diários indicam rotina ou proximidade.</li>
+                <li><strong>Duração:</strong> chamadas longas geralmente apontam relações de confiança ou laços afetivos (ex.: familiares, cônjuge).</li>
+                <li><strong>Horário:</strong> comunicações em horários atípicos podem indicar tratativas sigilosas.</li>
+                <li><strong>Redes de contato:</strong> identificação de números "elos" entre diferentes grupos, sugerindo coordenação ou liderança.</li>
+            </ul>
+            <span class="ref-pagina">(p. 357)</span>
+        </div>
+
+        <h3>12.4 Importância da agenda de contatos</h3>
+
+        <div class="box-green">
+            <strong>Vantagens da integração de agendas:</strong>
+            <ul>
+                <li><strong>Identificação imediata</strong> de contatos: "Mãe", "Chefe", "João da Biqueira", "Motorista Pedro";</li>
+                <li><strong>Mapeamento de apelidos e codinomes</strong>: preserva apelidos que revelam a rede real de relacionamentos;</li>
+                <li><strong>Conferência cruzada com cadastros oficiais</strong>: exibe lado a lado o nome salvo na agenda e o titular cadastrado, facilitando a análise de eventuais "laranjas";</li>
+                <li><strong>Interseção de agendas</strong>: identifica quando dois ou mais investigados possuem o mesmo contato, revelando conexões ocultas entre núcleos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 358)</span>
+        </div>
+
+        <h3>12.5 Extratos de conexões e itinerários em mapa</h3>
+
+        <div class="box-blue">
+            O AT2 importa extratos de conexões (3G/4G/5G), automaticamente <strong>plotados em mapas</strong> com as respectivas ERBs e azimutes. <span class="ref-pagina">(p. 358)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Três vantagens práticas imediatas:</strong>
+            <ul>
+                <li><strong>Visualização clara de rotas:</strong> deslocamento ao longo do tempo, trajetos habituais e pontos de parada;</li>
+                <li><strong>Aprimoramento da polícia judiciária:</strong> itinerários plotados podem ser inseridos em relatórios;</li>
+                <li><strong>Auxílio no handover:</strong> facilita identificar o momento em que o terminal migra de uma ERB para outra, tornando preciso o acompanhamento do alvo e a identificação do veículo utilizado.</li>
+            </ul>
+            <span class="ref-pagina">(p. 358)</span>
+        </div>
+
+        <p>O recurso transforma registros técnicos em mapas de fácil interpretação, fundamentais tanto para inteligência quanto para instrução probatória. <span class="ref-pagina">(p. 359)</span></p>
+
+        <h3>12.6 Exemplos práticos de uso do AT2</h3>
+
+        <div class="box-orange">
+            <strong>1. Nome de agenda x titular da operadora:</strong> número sem identificação aparecia como "<strong>Patrão Paulo</strong>" na agenda de outro investigado, mas o cadastro indicava titularidade de <strong>Maria de Fátima</strong>. O contraste revelou uso de "laranja". <span class="ref-pagina">(p. 359)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>2. Funções reveladas pela agenda:</strong> três números intensamente utilizados, sem significado no extrato, foram nomeados pela agenda como "<strong>Cobrador</strong>", "<strong>Entregas Noite</strong>" e "<strong>Estoque (V)</strong>", apontando funções dentro da ORCRIM. <span class="ref-pagina">(p. 359)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>3. Interseção de agendas:</strong> dois investigados em estados diferentes, sem ligações entre si, tinham o mesmo número nas agendas, nomeado como "<strong>Júnior do Porto</strong>" e "<strong>J</strong>" — revelou elo oculto entre os núcleos. <span class="ref-pagina">(p. 359)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>4. Migração de chip detectada:</strong> alvo parou de usar o número habitual; o AT2 identificou que o novo número estava vinculado ao <strong>mesmo IMEI</strong> e constava na agenda como "<strong>Patrão Novo (chip 2)</strong>". Permitiu manter o monitoramento sem quebra de continuidade. <span class="ref-pagina">(p. 359)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Síntese final - fluxo do afastamento de sigilo telefônico</span>
+            <ul>
+                <li><strong>Representação</strong> do DPF → <strong>Ordem judicial</strong> (Lei 9.296/96)</li>
+                <li><strong>Interceptação:</strong> 15 dias + prorrogações | <strong>Registros telefônicos:</strong> prazo razoável</li>
+                <li><strong>Dados cadastrais:</strong> sem ordem judicial | <strong>Registros/ERBs:</strong> com ordem judicial (ADI 4.906)</li>
+                <li><strong>Exceção:</strong> tráfico de pessoas (CPP art. 13-B, §4º) — requisição direta, 12h</li>
+                <li><strong>Ferramentas:</strong> SIS2 (interceptação) + AT2 (análise) + abr telecom (portabilidade)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+    function sendHeight() {
+        var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if(typeof MutationObserver !== 'undefined') {
+        const observer = new MutationObserver(sendHeight);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    }
+</script>
+</body>
+</html>
