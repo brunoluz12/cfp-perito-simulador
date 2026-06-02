@@ -198,7 +198,7 @@ html.dark-mode .theme-toggle .theme-icon-dark { display: none; }
 
 @media (min-width: 1024px) {
     .dashboard-grid {
-        grid-template-columns: 2fr 1.2fr;
+        grid-template-columns: 1.5fr 1fr;
     }
     
     .history-panel {
