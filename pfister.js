@@ -594,7 +594,7 @@ function analyzeFormal(pyramidData) {
 
     if (numFamilies === 1 && Object.keys(cells).length === 15) {
         formal = 'camada monotonal';
-    } else if (symMatches >= 5 && numFamilies >= 4) {
+    } else if (symMatches >= 5 && numFamilies >= 4 && numFamilies <= 6) {
         formal = 'estrutura simétrica';
     } else if (symMatches >= 4 && numFamilies >= 3) {
         formal = 'formação simétrica';
@@ -728,11 +728,13 @@ function calculateScore(colorAnalysis, syndromesData, formalAnalyses, execution)
     if (ca['Az'].status === '=' || ca['Az'].status === '↑') { score += 2; positives.push('Azul dentro do esperado — bom controle emocional e capacidade de adaptação.'); }
     else if (ca['Az'].obs === 0) { score -= 2; negatives.push('Azul rebaixado ou ausente — possível dificuldade de autocontrole e contenção emocional, fator crítico para policiais.'); }
 
-    if (ca['Vd'].status === '=' || ca['Vd'].status === '↑') { score += 1; }
-    else if (ca['Vd'].obs === 0) { score -= 1; warnings.push('Verde rebaixado ou ausente — possível dificuldade de contato afetivo e empatia.'); }
+    if (ca['Vd'].status === '=' || ca['Vd'].status === '↑') { score += 1; positives.push('Verde dentro do esperado - boa capacidade de relacionamento e empatia.'); }
+    else if (ca['Vd'].obs === 0) { score -= 1; warnings.push('Verde rebaixado ou ausente - possível dificuldade de contato afetivo e empatia.'); }
 
-    if (ca['Ma'].obs > 0 && ca['Ma'].obs <= 5) { score += 1; positives.push('Marrom presente — perseverança, tenacidade, determinação (boa qualidade para o cargo).'); }
-    else if (ca['Ma'].obs > 5) { score -= 1; warnings.push('Marrom excessivo — possível rigidez ou pensamento concreto.'); }
+    if (ca['Ma'].obs > 0 && ca['Ma'].obs <= 5) { score += 1; positives.push('Marrom presente - perseverança, tenacidade, determinação (boa qualidade para o cargo).'); }
+    else if (ca['Ma'].obs > 5) { score -= 1; warnings.push('Marrom excessivo - possível rigidez ou pensamento concreto.'); }
+
+    if (ca['Vi'].status === '↑') { score -= 3; warnings.push('Violeta elevado - ansiedade e tensão acima do esperado.'); }
 
     if (ca['Pr'].obs > 5) { score -= 2; negatives.push('Preto elevado — repressão acentuada ou possíveis indicadores depressivos.'); }
     

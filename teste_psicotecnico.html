@@ -1563,9 +1563,34 @@ button {
 
 .discipline-progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
-    border-radius: 3px;
     transition: width 0.4s ease;
+}
+
+/* TELA DE AGENDA */
+
+.view-toggle {
+    display: flex;
+    gap: 8px;
+    background: rgba(0,0,0,0.05);
+    padding: 4px;
+    border-radius: var(--radius-md);
+}
+
+.btn-toggle {
+    padding: 8px 16px;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    background: transparent;
+    color: var(--text-muted);
+}
+
+.btn-toggle.active {
+    background: white;
+    color: var(--text-main);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 /* TELA DE LOGIN */
@@ -3426,20 +3451,20 @@ html.dark-mode .material-config-panel {
     color: var(--text-main);
 }
 html.dark-mode .view-toggle {
-    background: rgba(255, 255, 255, 0.05) !important;
+    background: rgba(15, 23, 42, 0.6) !important;
 }
 html.dark-mode .btn-toggle {
     color: var(--text-muted);
 }
 html.dark-mode .btn-toggle.active {
-    background: var(--primary-color);
-    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
 }
 html.dark-mode #agenda-cards-container > div,
-html.dark-mode #agenda-calendar-container > div {
+html.dark-mode .calendar-day,
+html.dark-mode .agenda-config-panel {
     background: rgba(15, 23, 42, 0.5);
     border-color: rgba(255, 255, 255, 0.08);
-    color: var(--text-main);
 }
 
 /* Material iframe - mantém o iframe claro (conteúdo é estático),
@@ -4311,7 +4336,7 @@ function analyzeFormal(pyramidData) {
 
     if (numFamilies === 1 && Object.keys(cells).length === 15) {
         formal = 'camada monotonal';
-    } else if (symMatches >= 5 && numFamilies >= 4) {
+    } else if (symMatches >= 5 && numFamilies >= 4 && numFamilies <= 6) {
         formal = 'estrutura simétrica';
     } else if (symMatches >= 4 && numFamilies >= 3) {
         formal = 'formação simétrica';
@@ -4445,11 +4470,13 @@ function calculateScore(colorAnalysis, syndromesData, formalAnalyses, execution)
     if (ca['Az'].status === '=' || ca['Az'].status === '↑') { score += 2; positives.push('Azul dentro do esperado — bom controle emocional e capacidade de adaptação.'); }
     else if (ca['Az'].obs === 0) { score -= 2; negatives.push('Azul rebaixado ou ausente — possível dificuldade de autocontrole e contenção emocional, fator crítico para policiais.'); }
 
-    if (ca['Vd'].status === '=' || ca['Vd'].status === '↑') { score += 1; }
-    else if (ca['Vd'].obs === 0) { score -= 1; warnings.push('Verde rebaixado ou ausente — possível dificuldade de contato afetivo e empatia.'); }
+    if (ca['Vd'].status === '=' || ca['Vd'].status === '↑') { score += 1; positives.push('Verde dentro do esperado - boa capacidade de relacionamento e empatia.'); }
+    else if (ca['Vd'].obs === 0) { score -= 1; warnings.push('Verde rebaixado ou ausente - possível dificuldade de contato afetivo e empatia.'); }
 
-    if (ca['Ma'].obs > 0 && ca['Ma'].obs <= 5) { score += 1; positives.push('Marrom presente — perseverança, tenacidade, determinação (boa qualidade para o cargo).'); }
-    else if (ca['Ma'].obs > 5) { score -= 1; warnings.push('Marrom excessivo — possível rigidez ou pensamento concreto.'); }
+    if (ca['Ma'].obs > 0 && ca['Ma'].obs <= 5) { score += 1; positives.push('Marrom presente - perseverança, tenacidade, determinação (boa qualidade para o cargo).'); }
+    else if (ca['Ma'].obs > 5) { score -= 1; warnings.push('Marrom excessivo - possível rigidez ou pensamento concreto.'); }
+
+    if (ca['Vi'].status === '↑') { score -= 3; warnings.push('Violeta elevado - ansiedade e tensão acima do esperado.'); }
 
     if (ca['Pr'].obs > 5) { score -= 2; negatives.push('Preto elevado — repressão acentuada ou possíveis indicadores depressivos.'); }
     
