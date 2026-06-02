@@ -1982,17 +1982,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if(!agendaCargo || typeof agendaDados === 'undefined') return;
     
     // Toggle de visões
-    btnList.style.background = 'white';
-    btnList.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
-    
     btnList.addEventListener('click', (e) => {
         e.preventDefault();
         btnList.classList.add('active');
-        btnList.style.background = 'white';
-        btnList.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
         btnCalendar.classList.remove('active');
-        btnCalendar.style.background = 'transparent';
-        btnCalendar.style.boxShadow = 'none';
         agendaContainer.style.display = 'flex';
         agendaCalendarContainer.style.display = 'none';
     });
@@ -2000,11 +1993,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btnCalendar.addEventListener('click', (e) => {
         e.preventDefault();
         btnCalendar.classList.add('active');
-        btnCalendar.style.background = 'white';
-        btnCalendar.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
         btnList.classList.remove('active');
-        btnList.style.background = 'transparent';
-        btnList.style.boxShadow = 'none';
         agendaContainer.style.display = 'none';
         agendaCalendarContainer.style.display = 'block';
     });

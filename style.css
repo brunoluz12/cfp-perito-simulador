@@ -1554,9 +1554,34 @@ button {
 
 .discipline-progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
-    border-radius: 3px;
     transition: width 0.4s ease;
+}
+
+/* TELA DE AGENDA */
+
+.view-toggle {
+    display: flex;
+    gap: 8px;
+    background: rgba(0,0,0,0.05);
+    padding: 4px;
+    border-radius: var(--radius-md);
+}
+
+.btn-toggle {
+    padding: 8px 16px;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    background: transparent;
+    color: var(--text-muted);
+}
+
+.btn-toggle.active {
+    background: white;
+    color: var(--text-main);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 /* TELA DE LOGIN */
@@ -3417,20 +3442,20 @@ html.dark-mode .material-config-panel {
     color: var(--text-main);
 }
 html.dark-mode .view-toggle {
-    background: rgba(255, 255, 255, 0.05) !important;
+    background: rgba(15, 23, 42, 0.6) !important;
 }
 html.dark-mode .btn-toggle {
     color: var(--text-muted);
 }
 html.dark-mode .btn-toggle.active {
-    background: var(--primary-color);
-    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
 }
 html.dark-mode #agenda-cards-container > div,
-html.dark-mode #agenda-calendar-container > div {
+html.dark-mode .calendar-day,
+html.dark-mode .agenda-config-panel {
     background: rgba(15, 23, 42, 0.5);
     border-color: rgba(255, 255, 255, 0.08);
-    color: var(--text-main);
 }
 
 /* Material iframe - mantém o iframe claro (conteúdo é estático),
