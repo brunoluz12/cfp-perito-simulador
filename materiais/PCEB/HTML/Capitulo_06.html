@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 6 - Bombas Postais</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB</span>
+        <h1>Capítulo 6 - Bombas Postais</h1>
+        <div class="subtitle">Detecção, indicadores de suspeição e medidas preventivas</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Visão geral: o que são bombas postais</a></li>
+            <li><a href="#sec2">2. Motivações para o envio de cartas-bomba</a></li>
+            <li><a href="#sec3">3. Detecção e separação na distribuição postal</a></li>
+            <li><a href="#sec4">4. Características de bombas postais - indicadores de suspeição</a></li>
+            <li><a href="#sec5">5. Mecanismos de acionamento e manuseio</a></li>
+            <li><a href="#sec6">6. Técnicas de desativação ativa e equipamentos</a></li>
+            <li><a href="#sec7">7. Item 6.1 - Medidas preventivas de segurança</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Visão geral: o que são bombas postais</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> Bombas podem ser fabricadas e adaptadas a pacotes, embrulhos e cartas para despacho por meio dos Correios, de malotes, empresas especializadas ou mesmo para serem entregues em mão. Essas bombas são preparadas para explodir quando o pacote ou a carta forem abertos. <span class="ref-pagina">(p. 45)</span>
+        </div>
+
+        <p>O tamanho desses artefatos pode variar, mas <strong>pacotes com formato de livros, agendas, álbuns fotográficos e grossas cartas são mais frequentes</strong>. <span class="ref-pagina">(p. 45)</span></p>
+
+        <div class="box-red">
+            <strong>Letalidade:</strong> Um envelope contendo uma pequena carga de um determinado tipo de explosivo poderá <strong>matar quem o abrir</strong> e <strong>produzir ferimentos nas pessoas que estiverem próximas</strong>. <span class="ref-pagina">(p. 45)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Motivações para o envio de cartas-bomba</h2>
+
+        <p>Os motivos que levam alguém a enviar uma carta-bomba são os mais variados, mas os principais são: <span class="ref-pagina">(p. 45)</span></p>
+
+        <ul>
+            <li><strong>Vingança</strong> (incluindo-se os crimes passionais);</li>
+            <li><strong>Motivos políticos ou religiosos</strong>;</li>
+            <li>Casos de <strong>extorsão</strong>.</li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: V-P-E (motivações)</span>
+            <ul>
+                <li><strong>V</strong>ingança (passionais)</li>
+                <li><strong>P</strong>olíticos ou religiosos</li>
+                <li><strong>E</strong>xtorsão</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Detecção e separação na distribuição postal</h2>
+
+        <div class="box-green">
+            <strong>Detecção:</strong> A detecção de bombas postais <strong>não é difícil</strong>, principalmente se algumas precauções forem tomadas. <span class="ref-pagina">(p. 45)</span>
+        </div>
+
+        <p>Como são enviadas pelos Correios, pode-se concluir que elas podem ser <strong>transportadas e manuseadas com relativa segurança</strong>. Logo, os objetos suspeitos podem ser separados durante a distribuição postal normal, ou seja, as pessoas que recebem correspondência devem separar envelopes ou embalagens suspeitas. <span class="ref-pagina">(p. 45)</span></p>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Características de bombas postais - indicadores de suspeição</h2>
+
+        <p>As indicações de suspeição de um pacote ou carta são as seguintes: <span class="ref-pagina">(p. 45)</span></p>
+
+        <table>
+            <tr>
+                <th>Indicador</th>
+                <th>Descrição</th>
+                <th>Ref.</th>
+            </tr>
+            <tr>
+                <td><strong>Forma de entrega</strong></td>
+                <td>Malote, postado ou por mensageiro. Desconfiar principalmente de correspondência "pessoal" entregue fora do endereço normal ou com inscrições do tipo: "Deverá ser aberta exclusivamente por...".</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Ponto de origem</strong></td>
+                <td>No carimbo dos Correios ou nome do remetente, se houver. Se o ponto de origem é pouco usual ou o remetente é desconhecido.</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Escrita do remetente</strong></td>
+                <td>Se apresentar dúvidas quanto à autoria (letras recortadas, coladas, decalcadas, datilografadas ou criptografadas).</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Objetos soltos</strong></td>
+                <td>Se o pacote ou envelope apresentar algo solto internamente.</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Peso</strong></td>
+                <td>Se aparentar estar em excesso em relação ao volume: <strong>acima de 25 g</strong> ou peso mal distribuído.</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Espessura</strong></td>
+                <td>As cartas-bomba invariavelmente apresentam uma espessura <strong>superior a 5 mm</strong>.</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Flexibilidade</strong></td>
+                <td>Se no fundo ou nos lados do pacote houver menor resistência (possibilidade de existência de molas).</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Fio ou arame aparente</strong></td>
+                <td>Mesmo nos melhores dispositivos um arame pode se soltar e ficar saliente no pacote ou, até mesmo, o fio que fechou o contato final.</td>
+                <td><span class="ref-pagina">(p. 45)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Orifício</strong></td>
+                <td>Se houver um pequeno orifício no pacote ou envelope, deve-se considerá-lo suspeito, porque poderia ter sido armado através do furo.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Manchas de gordura ou graxa</strong></td>
+                <td>Podem ser resultantes da <strong>exsudação da substância explosiva</strong> (dinamite ou explosivo plástico).</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Odor</strong></td>
+                <td>Se o envelope apresentar forte odor de <strong>amêndoas (C2, C3, Semtex)</strong>, <strong>pólvora</strong> ou mesmo de <strong>amoníaco</strong>.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Rigidez</strong></td>
+                <td>Pelo tato, podem-se identificar metais, presença de baterias, detonadores, massas, etc. ou saber se há somente papel dobrado. É comum o uso de papel alumínio.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Envelope interno</strong></td>
+                <td>Se houver um envelope adicional internamente.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Formato</strong></td>
+                <td>Embalagens com formato de livros, caixas, agendas, álbuns, etc.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Selos e lacres alterados ou violados</strong></td>
+                <td>Possibilidade de ter ocorrido uma substituição de correspondência.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Excesso de selos</strong></td>
+                <td>É comum o uso excessivo de selos em cartas-bomba.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Aspectos subjetivos</strong></td>
+                <td>Podem nos levar a considerar o destinatário como um elemento-alvo em potencial. Devemos sempre avaliar as circunstâncias do momento que possam atrair esse tipo de ameaça.</td>
+                <td><span class="ref-pagina">(p. 46)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Valores numéricos para gravar</span>
+            <ul>
+                <li><strong>Peso suspeito:</strong> acima de <strong>25 g</strong> ou mal distribuído</li>
+                <li><strong>Espessura suspeita:</strong> <strong>superior a 5 mm</strong> (cartas-bomba)</li>
+                <li><strong>Odor de amêndoas:</strong> <strong>C2, C3, Semtex</strong></li>
+            </ul>
+        </div>
+
+        <div class="box-purple">
+            <strong>Casuística internacional:</strong> Ocasionalmente, alguns dos dispositivos de cartas-bomba usados em atentados no passado têm reaparecido nos mais diversos pontos do planeta, daí a <strong>importância de conhecermos a casuística internacional</strong>, considerarmos o registro de casos semelhantes e buscarmos uma correlação entre eles. <span class="ref-pagina">(p. 46)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Mecanismos de acionamento e manuseio</h2>
+
+        <div class="box-blue">
+            <strong>Mecanismos mais usuais:</strong> Os mecanismos de acionamento mais usuais em cartas-bomba são os de <strong>descompressão</strong> e/ou <strong>tração</strong>. <span class="ref-pagina">(p. 46)</span>
+        </div>
+
+        <p>Assim, é razoável supor que uma bomba postal <strong>não desengatilhará até que seja aberta</strong>. De qualquer forma, deve-se evitar manuseá-la desnecessariamente, pois é possível que, após muito manuseio, o mecanismo seja deslocado, aumentando o risco de explosão. <span class="ref-pagina">(p. 46)</span></p>
+
+        <div class="box-orange">
+            <strong>Quarentena:</strong> Em alguns casos o material suspeito poderá ser deixado de quarentena em uma área remota cercado de sacos de areia. <span class="ref-pagina">(p. 46)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Técnicas de desativação ativa e equipamentos</h2>
+
+        <div class="box-blue">
+            <strong>Técnicas de desativação ativa:</strong> As técnicas indicadas para o caso de bombas postais são as do <strong>"chicote"</strong>, do <strong>cartão em V</strong> e o uso do <strong>canhão d'água</strong>, sempre visando o <strong>mecanismo de acionamento</strong>, os <strong>fios</strong> e as <strong>baterias</strong> do artefato. <span class="ref-pagina">(p. 46)</span>
+        </div>
+
+        <p>Equipamentos sugeridos para utilização em caso de suspeita de bombas postais: <span class="ref-pagina">(p. 46-47)</span></p>
+
+        <ul>
+            <li>Detectores de metais magnetizáveis e não-magnetizáveis;</li>
+            <li>Aparelhos de raios X;</li>
+            <li>Estetoscópios eletrônicos;</li>
+            <li>Equipamentos de proteção individual;</li>
+            <li>Detectores de vapores explosivos;</li>
+            <li>Fibroscópios.</li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Obs.:</strong> Os <strong>dois últimos</strong> (detectores de vapores explosivos e fibroscópios) requerem que seja feita uma <strong>incisão no pacote</strong> ou que o pacote seja <strong>perfurado para inspeção interna</strong>. <span class="ref-pagina">(p. 47)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 3 técnicas de desativação ativa</span>
+            <ul>
+                <li>Técnica do <strong>"chicote"</strong></li>
+                <li>Técnica do <strong>cartão em V</strong></li>
+                <li>Uso do <strong>canhão d'água</strong></li>
+            </ul>
+            <p>Alvo: mecanismo de acionamento + fios + baterias.</p>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Item 6.1 - Medidas preventivas de segurança no caso de bombas postais</h2>
+
+        <div class="box-red">
+            <strong>Medidas preventivas (item 6.1):</strong> <span class="ref-pagina">(p. 47)</span>
+            <ul>
+                <li><strong>Não abrir</strong> uma correspondência suspeita. As bombas postais são preparadas para explodir quando o pacote ou a carta são abertos;</li>
+                <li><strong>Transportar</strong> a correspondência suspeita para uma <strong>área remota</strong>;</li>
+                <li><strong>Evitar o manuseio</strong> de correspondência entregue por mensageiros;</li>
+                <li><strong>Abrir todas as portas e janelas</strong> do local onde se encontra uma correspondência suspeita;</li>
+                <li><strong>Evacuar e isolar o local</strong> onde se encontra correspondência com fortes indícios de se tratar de uma carta-bomba;</li>
+                <li><strong>Não colocar a correspondência suspeita dentro d'água</strong>. Essa medida, em certos casos, pode provocar a explosão do artefato com a ativação de um circuito elétrico, iniciação de violentas reações químicas, etc.;</li>
+                <li><strong>Cercar o material suspeito com sacos de areia, capim, poltronas, etc.</strong>;</li>
+                <li><strong>Nunca tentar desarmar</strong> uma carta-bomba.</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>Observação final:</strong> Uma bomba postal contendo uma pequena quantidade de determinados explosivos poderá <strong>matar quem a abrir</strong> e produzir ferimentos nas pessoas que estiverem próximas. <span class="ref-pagina">(p. 47)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo das 8 medidas preventivas</span>
+            <ol>
+                <li>Não abrir</li>
+                <li>Transportar para área remota</li>
+                <li>Evitar manuseio (mensageiros)</li>
+                <li>Abrir portas e janelas</li>
+                <li>Evacuar e isolar o local</li>
+                <li>Não colocar dentro d'água</li>
+                <li>Cercar com sacos de areia, capim, poltronas</li>
+                <li>Nunca tentar desarmar</li>
+            </ol>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

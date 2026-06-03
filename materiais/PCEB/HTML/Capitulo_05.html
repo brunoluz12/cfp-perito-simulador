@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5 - Técnicas de Desativação</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB</span>
+        <h1>Capítulo 5 - Técnicas de Desativação</h1>
+        <div class="subtitle">Disruptor, cargas especiais e procedimentos em artefatos explosivos</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec0">Visão geral: Técnicas Passivas vs Ativas</a></li>
+            <li><a href="#sec1">5.1 Disruptor (canhão d'água) - tipos de cargas e posicionamento</a></li>
+            <li><a href="#sec2">5.2 Cargas especiais</a></li>
+            <li><a href="#sec3">5.3 Desativação com garrafa plástica, cordel e água</a></li>
+            <li><a href="#sec4">5.4 Abertura remota de envelope com cordel em cartão "V"</a></li>
+            <li><a href="#sec5">5.5 Abertura remota de envelope - Técnica do chicote</a></li>
+            <li><a href="#sec6">5.6 Procedimentos para acionamento de cargas especiais em linha elétrica</a></li>
+        </ul>
+    </div>
+
+    <div id="sec0" class="section">
+        <h2>Visão geral: Técnicas Passivas vs Ativas</h2>
+
+        <div class="box-blue">
+            <strong>Técnicas PASSIVAS:</strong> São aquelas que <strong>não provocam, em tese, alterações físico-químicas</strong> no objeto suspeito que sejam capazes de acioná-lo. <span class="ref-pagina">(p. 41)</span>
+        </div>
+
+        <p><strong>Exemplos de técnicas passivas:</strong> <span class="ref-pagina">(p. 41)</span></p>
+        <ul>
+            <li>Barreiras de proteção;</li>
+            <li>Auscultação;</li>
+            <li>Exame por meio de raios X e detectores de metais;</li>
+            <li>Perfuração ou incisão no pacote para exame visual interno, com fibroscópio, detectores de gases explosivos ou aparelhos similares;</li>
+            <li>Resfriamento drástico e rápido para desativação da fonte elétrica (criogenia).</li>
+        </ul>
+
+        <div class="box-red">
+            <strong>Técnicas ATIVAS:</strong> São aquelas que <strong>podem provocar alterações físico-químicas previsíveis no artefato, ativando-o</strong>. O principal objetivo é <strong>interromper o circuito de fogo</strong>. <span class="ref-pagina">(p. 41)</span>
+        </div>
+
+        <p><strong>Exemplos de técnicas ativas:</strong> <span class="ref-pagina">(p. 41)</span></p>
+        <ul>
+            <li>Técnica da corda;</li>
+            <li>Utilização de canhão d'água;</li>
+            <li>Utilização de cargas especiais;</li>
+            <li>Destruição por chama;</li>
+            <li>Disparo com arma de fogo longa;</li>
+            <li>Contracarga utilizando explosivo;</li>
+            <li>Interrupção do mecanismo de acionamento;</li>
+            <li>Entrada manual;</li>
+            <li>Câmara de descompressão.</li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Regra geral:</strong> Para cada caso, devem-se observar as vantagens e desvantagens do emprego de um ou outro método, <strong>sempre permanecendo o menor tempo possível próximo ao objeto suspeito</strong>. <span class="ref-pagina">(p. 41)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: PASSIVA = "Não altera" | ATIVA = "Interrompe o circuito de fogo"</span>
+            <ul>
+                <li><strong>PASSIVA</strong>: barreiras, raios X, auscultação, fibroscópio, criogenia (NÃO altera o artefato)</li>
+                <li><strong>ATIVA</strong>: corda, canhão d'água, cargas especiais, chama, arma longa, contracarga (PODE alterar - objetivo: cortar o circuito de fogo)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>5.1 Disruptor (canhão d'água)</h2>
+
+        <h3>Funcionamento</h3>
+
+        <div class="box-blue">
+            <strong>Princípio:</strong> O canhão d'água fundamenta-se basicamente na <strong>força hidrodinâmica</strong>. Consiste em um equipamento capaz de <strong>desarticular um artefato explosivo com grande probabilidade de não acioná-lo</strong>. <span class="ref-pagina">(p. 41)</span>
+        </div>
+
+        <p>É carregado com uma quantidade de água de <strong>aproximadamente 150 ml</strong>, que fica na luz do cano <strong>entre buchas plásticas</strong>. Essa carga é lançada com alta pressão no objeto suspeito, por uma <strong>carga propelente, confeccionada com cartucho de calibre 12</strong>, especialmente carregado. A coluna d'água e as buchas destroem o invólucro e arrastam violentamente o seu conteúdo. <span class="ref-pagina">(p. 41-42)</span></p>
+
+        <h3>Tipos de cargas de ataque</h3>
+
+        <table>
+            <tr>
+                <th>Tipo de carga</th>
+                <th>Características</th>
+                <th>Uso</th>
+            </tr>
+            <tr>
+                <td><strong>Água</strong></td>
+                <td>A força hidrodinâmica e a dispersão da água separam os elementos do artefato</td>
+                <td>Uso geral para a maioria dos alvos</td>
+            </tr>
+            <tr>
+                <td><strong>Avon</strong> (gesso + esferas ocas metálicas + água)</td>
+                <td>Balote rígido e relativamente resistente que <strong>não provoca ricochete</strong></td>
+                <td>Uso em alvos mais rígidos (ex: bomba tubo)</td>
+            </tr>
+        </table>
+        <p><span class="ref-pagina">(p. 42)</span></p>
+
+        <h3>Posicionamento</h3>
+
+        <div class="box-green">
+            <strong>Se o artefato puder ser interpretado:</strong> atingir <strong>fios/baterias/mecanismos de acionamento</strong>. <span class="ref-pagina">(p. 42)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Se não for possível interpretar o artefato:</strong> obter a <strong>maior área de varredura</strong> dos elementos do artefato. <span class="ref-pagina">(p. 42)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Material do tubo</th>
+                <th>Ângulo do canhão em relação à tampa (cap)</th>
+            </tr>
+            <tr>
+                <td>Tubo de <strong>PVC</strong></td>
+                <td><strong>45°</strong> da tampa (cap)</td>
+            </tr>
+            <tr>
+                <td>Tubo de <strong>ferro</strong></td>
+                <td><strong>15°</strong> da tampa (cap)</td>
+            </tr>
+        </table>
+        <p><span class="ref-pagina">(p. 42)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: PVC = 45° | FERRO = 15°</span>
+            <ul>
+                <li><strong>P</strong>VC tem mais letras → ângulo <strong>maior</strong> (45°)</li>
+                <li><strong>F</strong>erro é mais duro → ângulo <strong>menor</strong> (15°), mais raso</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>5.2 Cargas especiais</h2>
+
+        <div class="box-blue">
+            <strong>Justificativa:</strong> Por vezes, a utilização do canhão d'água <strong>pode não ser o mais adequado</strong> ou pode-se, mesmo, <strong>não se dispor dele</strong> para atender a uma ocorrência de bomba. <span class="ref-pagina">(p. 42)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Solução:</strong> Nesses casos, a utilização de <strong>arranjos bastante simples</strong> pode dar excelentes resultados, desde que o perito <strong>domine as técnicas de construção e aplicação desses petrechos</strong>. <span class="ref-pagina">(p. 42)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>5.3 Desativação de artefato explosivo com garrafa plástica, cordel e água</h2>
+
+        <div class="box-purple">
+            <strong>Componentes utilizados:</strong> Cordel detonador, artefato explosivo, garrafa plástica refrigerante de 2 litros e água. <span class="ref-pagina">(p. 42)</span>
+        </div>
+
+        <h3>Funcionamento</h3>
+
+        <div class="box-blue">
+            O <strong>cordel detonante</strong>, ao ser iniciado, irá lançar a <strong>massa de água contida na garrafa na direção radial</strong> e atingirá o artefato explosivo, <strong>provocando a separação dos seus componentes</strong>. <span class="ref-pagina">(p. 43)</span>
+        </div>
+
+        <h3>Características</h3>
+
+        <ul>
+            <li>O fato de a <strong>garrafa ser plástica</strong> minimiza a possibilidade de fragmentos iniciarem o artefato explosivo; <span class="ref-pagina">(p. 43)</span></li>
+            <li>Técnica bastante utilizada no <strong>Canadá</strong>. O cordel normalmente utilizado é o <strong>NP 10</strong>. <span class="ref-pagina">(p. 43)</span></li>
+        </ul>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>5.4 Abertura remota de envelope suspeito com o uso de cordel em cartão formato "V"</h2>
+
+        <div class="box-purple">
+            <strong>Componentes utilizados:</strong> Detonador e cordel, cartão "V" e envelope suspeito. <span class="ref-pagina">(p. 43)</span>
+        </div>
+
+        <h3>Funcionamento</h3>
+
+        <div class="box-blue">
+            A <strong>onda explosiva e os fragmentos do revestimento plástico do cordel</strong> fazem com que o <strong>envelope se abra</strong>. <span class="ref-pagina">(p. 43)</span>
+        </div>
+
+        <h3>Características</h3>
+
+        <ul>
+            <li>O cordel deve ficar <strong>próximo à borda do envelope</strong>; <span class="ref-pagina">(p. 43)</span></li>
+            <li>A <strong>distância cordel-envelope depende da natureza de ambos</strong>; <span class="ref-pagina">(p. 43)</span></li>
+            <li>Experiências têm dado bons resultados com o uso de <strong>cordel NP 05</strong>. <span class="ref-pagina">(p. 43)</span></li>
+        </ul>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5.5 Abertura remota de envelope com cordel e fio rígido (técnica do chicote)</h2>
+
+        <div class="box-purple">
+            <strong>Componentes utilizados:</strong> Detonador e cordel, envelope suspeito e <strong>fio rígido de cobre (chicote)</strong>. <span class="ref-pagina">(p. 44)</span>
+        </div>
+
+        <h3>Funcionamento</h3>
+
+        <div class="box-blue">
+            A <strong>detonação do cordel</strong> provoca o <strong>arremesso do fio rígido (chicote)</strong>, o qual <strong>provoca a abertura do envelope suspeito</strong> ao atingi-lo. <span class="ref-pagina">(p. 44)</span>
+        </div>
+
+        <h3>Características</h3>
+
+        <ul>
+            <li>A <strong>distância entre o cordel e o envelope depende das características de ambos</strong>; <span class="ref-pagina">(p. 44)</span></li>
+            <li>O <strong>cordel NP com 5 a 8 cm de distância do alvo</strong>, normalmente, dá bons resultados; <span class="ref-pagina">(p. 44)</span></li>
+            <li>O <strong>chicote poderá cortar fios existentes no interior do envelope</strong> caso essa técnica seja aplicada com o envelope <strong>sobre piso rígido ou chapa de aço</strong>. <span class="ref-pagina">(p. 44)</span></li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Comparativo - Técnicas 5.4 e 5.5 (abertura de envelope)</span>
+            <table>
+                <tr>
+                    <th>Técnica</th>
+                    <th>Mecanismo principal</th>
+                    <th>Cordel</th>
+                </tr>
+                <tr>
+                    <td><strong>5.4 Cartão "V"</strong></td>
+                    <td>Onda explosiva + fragmentos do revestimento plástico</td>
+                    <td>NP 05</td>
+                </tr>
+                <tr>
+                    <td><strong>5.5 Chicote</strong></td>
+                    <td>Arremesso de fio rígido de cobre</td>
+                    <td>NP (5-8 cm de distância)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>5.6 Procedimentos para o acionamento de cargas especiais em linha elétrica</h2>
+
+        <div class="box-red">
+            <strong>ATENÇÃO - SEQUÊNCIA OPERACIONAL (cai em prova!):</strong> A ordem dos procedimentos deve ser rigorosamente respeitada. <span class="ref-pagina">(p. 44)</span>
+        </div>
+
+        <ol>
+            <li><strong>Abrir o início da linha;</strong> <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Testar a descontinuidade da linha;</strong> <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Curto-circuitar o início da linha</strong> (tomada de segurança); <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Testar a continuidade da linha;</strong> <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Conectar a espoleta ao final da linha;</strong> <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Fixar a espoleta na carga principal</strong> (escorvar); <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Conectar o explosor/bateria ao início da linha;</strong> <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Dar mensagem de alerta:</strong> "atenção, linha quente"; <span class="ref-pagina">(p. 44)</span></li>
+            <li><strong>Acionar o explosor/bateria</strong> após contagem regressiva e "fogo". <span class="ref-pagina">(p. 44)</span></li>
+        </ol>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: ABRE → TESTA → CURTO → TESTA → ESPOLETA → ESCORVA → CONECTA → ALERTA → FOGO</span>
+            <ul>
+                <li><strong>Abertura</strong> e <strong>teste de descontinuidade</strong> (segurança inicial);</li>
+                <li><strong>Curto-circuito</strong> + <strong>teste de continuidade</strong> (tomada de segurança);</li>
+                <li><strong>Espoleta</strong> ao final da linha + <strong>escorva</strong> na carga principal;</li>
+                <li><strong>Explosor</strong> no início + <strong>"linha quente"</strong> + <strong>"fogo"</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Lógica de segurança:</strong> Primeiro testa-se a <strong>descontinuidade</strong> (linha aberta = segura para manuseio) e, após curto-circuitar, testa-se a <strong>continuidade</strong> (linha íntegra = pronta para conduzir o disparo). Só então conecta-se a espoleta e a carga principal. <span class="ref-pagina">(p. 44)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

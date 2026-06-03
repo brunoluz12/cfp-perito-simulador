@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 2 - Bombas e Explosivos</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB</span>
+        <h1>Capítulo 2 - Bombas e Explosivos</h1>
+        <div class="subtitle">Definições, Propriedades, Classificação, Tipos e Efeitos</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">2.1 Definições (Tipos de explosões)</a></li>
+            <li><a href="#sec2">2.2 Fatores a considerar no trato com explosivos</a></li>
+            <li><a href="#sec3">2.3 Uso de explosivos</a></li>
+            <li><a href="#sec4">2.4 Propriedades dos explosivos</a></li>
+            <li><a href="#sec5">2.5 Classificação (por uso, por velocidade de detonação)</a></li>
+            <li><a href="#sec6">2.6 Tipos de explosivos e acessórios</a></li>
+            <li><a href="#sec7">2.7 Efeitos de uma explosão</a></li>
+            <li><a href="#sec8">2.8 Previsão de danos</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>2.1 Definições</h2>
+
+        <div class="box-blue">
+            <strong>Explosivos:</strong> são substâncias capazes de produzir, por uma reação química rápida ou brusca, um grande volume de gases, os quais são elevados a altas pressões e temperaturas pelo calor desprendido na reação (exotérmica). A expansão dos gases produz efeitos mecânicos poderosos, já que uma explosão é a <strong>transformação de energia química em trabalho mecânico</strong>. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Explosão:</strong> escape súbito de energia, geralmente na forma de gases, acompanhado de altas temperaturas, ondas de choque e ruído. <span class="ref-pagina">(p. 15)</span>
+            <ul>
+                <li><strong>Explosão de 1ª ordem (alta ordem):</strong> o explosivo é <strong>totalmente consumido</strong>. <span class="ref-pagina">(p. 15)</span></li>
+                <li><strong>Explosão de 2ª ordem (baixa ordem):</strong> restam <strong>resíduos de explosivos não consumidos</strong>. <span class="ref-pagina">(p. 15)</span></li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Bomba:</strong> qualquer artefato confeccionado com uma carga explosiva, contendo um mecanismo de acionamento, capaz de provocar destruição ou danos por meio da formação de <strong>ondas de choque e fragmentação</strong>. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <h3>Tipos de explosões</h3>
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Mecânica</strong></td>
+                <td>Quando a pressão crescente dentro de um recipiente supera sua resistência estrutural (ex.: caldeira a vapor). <span class="ref-pagina">(p. 15)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Química</strong></td>
+                <td>Reação química que converte, de forma extremamente rápida, substâncias sólidas ou líquidas em gases (volume muito maior do que as substâncias geradoras). <strong>Todos os explosivos comerciais são explosivos químicos.</strong> <span class="ref-pagina">(p. 15)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Atômica (nuclear)</strong></td>
+                <td>Resulta da <strong>fusão ou fissão do núcleo do átomo</strong>, com transformação direta de matéria em energia, gerando superaquecimento brutal e expansão de enormes massas de ar com efeito destrutivo catastrófico. <span class="ref-pagina">(p. 15)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: M-Q-A (tipos de explosão)</span>
+            <ul>
+                <li><strong>M</strong>ecânica - caldeira</li>
+                <li><strong>Q</strong>uímica - todos os explosivos comerciais</li>
+                <li><strong>A</strong>tômica - fusão/fissão nuclear</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2.2 Fatores a considerar no trato com explosivos</h2>
+
+        <div class="box-red">
+            <strong>Ordem de prioridade:</strong>
+            <ol>
+                <li><strong>Segurança pessoal</strong> - todo procedimento deverá ser orientado, principalmente, pela busca da <strong>máxima segurança do técnico em bombas</strong>. <span class="ref-pagina">(p. 15)</span></li>
+                <li><strong>Prevenção e minimização de riscos</strong> - aos técnicos em bombas, ao público envolvido e, por último, ao patrimônio. <span class="ref-pagina">(p. 15)</span></li>
+                <li><strong>Processo investigatório</strong> - os procedimentos anteriores devem sempre levar em consideração uma possível preservação de elementos materiais que possam auxiliar na condução da investigação criminal. <span class="ref-pagina">(p. 15-16)</span></li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>2.3 Uso de explosivos</h2>
+
+        <div class="box-green">
+            <strong>Além do emprego militar</strong>, os explosivos são largamente utilizados em: <span class="ref-pagina">(p. 16)</span>
+            <ul>
+                <li>Mineração, pedreiras;</li>
+                <li>Abertura de túneis;</li>
+                <li>Construção e desobstrução de rodovias e ferrovias;</li>
+                <li>Demolições e implosões;</li>
+                <li>Fogos de artifício;</li>
+                <li>Abertura de poços de petróleo;</li>
+                <li>Extinção de incêndios;</li>
+                <li>Soldagens, etc.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>2.4 Propriedades dos explosivos</h2>
+
+        <h3>Sensibilidade</h3>
+        <div class="box-blue">
+            Refere-se à <strong>facilidade com que o explosivo pode ser iniciado</strong> por meio de choque (impacto ou percussão), faísca, calor ou chama, eletricidade estática, atrito, vibração ou fricção, etc. Os explosivos são <strong>dessensibilizados</strong> visando maior segurança na produção, manuseio, transporte e armazenamento. <span class="ref-pagina">(p. 16)</span>
+        </div>
+        <table>
+            <tr>
+                <th>Sensíveis</th>
+                <th>Pouco sensíveis</th>
+            </tr>
+            <tr>
+                <td>Nitroglicerina (NG), pólvoras, explosivos primários <span class="ref-pagina">(p. 16)</span></td>
+                <td>TNT, Anfo (à base de nitrato de amônio - NA), explosivos plásticos, Composto B <span class="ref-pagina">(p. 16)</span></td>
+            </tr>
+        </table>
+
+        <h3>Brisância</h3>
+        <div class="box-purple">
+            <strong>Capacidade de ruptura</strong> do explosivo, mensurada pela rapidez com que este atinge a sua máxima pressão. Quanto mais rápido a pressão máxima é atingida, maior a sua <strong>capacidade de romper os materiais</strong> que o circundam. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <h3>Velocidade de detonação</h3>
+        <div class="box-orange">
+            Medida, em <strong>metros por segundo (m/s)</strong>, da rapidez com que a onda de choque se propaga através de uma coluna de um determinado explosivo. Varia de acordo com: <span class="ref-pagina">(p. 16)</span>
+            <ul>
+                <li>Diâmetro do cartucho;</li>
+                <li>Granulometria;</li>
+                <li>Grau de confinamento;</li>
+                <li>Densidade do explosivo.</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: S-B-V (3 propriedades)</span>
+            <ul>
+                <li><strong>S</strong>ensibilidade - facilidade de iniciação</li>
+                <li><strong>B</strong>risância - capacidade de ruptura (rapidez para pressão máxima)</li>
+                <li><strong>V</strong>elocidade de detonação - m/s da onda de choque</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>2.5 Classificação</h2>
+
+        <h3>Quanto ao uso</h3>
+        <table>
+            <tr>
+                <th>Categoria</th>
+                <th>Características</th>
+                <th>Exemplos</th>
+            </tr>
+            <tr>
+                <td><strong>Militares</strong></td>
+                <td>Alta estabilidade, <strong>baixa sensibilidade</strong> e <strong>alta brisância</strong> <span class="ref-pagina">(p. 16)</span></td>
+                <td>TNT, Tetril, explosivos plásticos, dinamites militares <span class="ref-pagina">(p. 16)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Comerciais</strong></td>
+                <td>Mais sensíveis e menos brisantes do que os militares, baixo custo e menor estabilidade <span class="ref-pagina">(p. 16)</span></td>
+                <td>Dinamites, pólvoras, fogos de artifício, cordel detonante, emulsões <span class="ref-pagina">(p. 16)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Fabricação caseira</strong></td>
+                <td>Misturas incendiárias <span class="ref-pagina">(p. 17)</span></td>
+                <td>Coquetel Molotov, mistura Armstrong (KClO3 65% + Fósforo vermelho 35%), Napalm, pólvoras caseiras <span class="ref-pagina">(p. 17)</span></td>
+            </tr>
+        </table>
+
+        <h3>Quanto à velocidade de detonação</h3>
+        <table>
+            <tr>
+                <th>Categoria</th>
+                <th>Características</th>
+                <th>Exemplos</th>
+            </tr>
+            <tr>
+                <td><strong>Baixos explosivos</strong> (deflagrantes / propulsores)</td>
+                <td>Combustão lenta e progressiva (<strong>até 1.000 m/s</strong>) <span class="ref-pagina">(p. 17)</span></td>
+                <td>Pólvora negra (~300 m/s) - precisa estar <strong>confinada para explodir</strong> <span class="ref-pagina">(p. 17)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Altos explosivos primários</strong> (iniciação)</td>
+                <td>Intermediários (dentro de uma cadeia de fogo); fornecem energia de ativação para o explosivo de ruptura; <strong>sensíveis ao choque, calor e fricção</strong>; usados na fabricação de detonadores; alta velocidade de detonação <span class="ref-pagina">(p. 17)</span></td>
+                <td>Fulminato de mercúrio, azida de chumbo, estifnato de chumbo, DDNP <span class="ref-pagina">(p. 17)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Altos explosivos secundários</strong> (ruptura)</td>
+                <td>Alto poder de brisância; alta velocidade de detonação; ficam no <strong>final de uma cadeia de fogo</strong>; precisam de carga inicial (detonador ou reforçador), <strong>exceto a nitroglicerina</strong>; alta relação pressão de detonação/tempo; <strong>não necessitam de confinamento</strong> para explodir <span class="ref-pagina">(p. 17)</span></td>
+                <td>TNT, explosivos plásticos <span class="ref-pagina">(p. 17)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - cadeia de fogo</span>
+            <p>BAIXO (deflagrante) → PRIMÁRIO (iniciador, sensível) → SECUNDÁRIO (ruptura, brisante)</p>
+            <p><strong>Exceção:</strong> a NG é alto explosivo secundário que NÃO precisa de carga inicial.</p>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>2.6 Tipos de explosivos e acessórios</h2>
+
+        <h3>Pólvora</h3>
+        <div class="box-blue">
+            <strong>Baixo explosivo ou explosivo deflagrante</strong>, inflamável, sensível, granulada ou em pó, composição variável, <strong>deflagração somente quando confinado</strong> e iniciação por meio de chama, faísca, atrito, fricção ou filamento incandescente. <span class="ref-pagina">(p. 17)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Tipo de pólvora</th>
+                <th>Composição / Características</th>
+            </tr>
+            <tr>
+                <td><strong>Pólvora negra</strong></td>
+                <td>Conhecida desde a Idade Média pelos chineses, introduzida na Europa por <strong>Marco Polo em 1290</strong>. Composição (séc. XVIII): 75% salitre (KNO3) + 15% carvão + 10% enxofre. <span class="ref-pagina">(p. 17)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Pólvora cloratada</strong></td>
+                <td>Empregada com frequência em <strong>atentados terroristas</strong>. Salitre substituído por clorato de potássio (KClO3, 70%) + açúcar refinado (15%) + carvão vegetal (10%) + enxofre em pó (5%). O clorato pode ser substituído pelo perclorato de potássio (KClO4). <span class="ref-pagina">(p. 17)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Pólvora de base simples (BS) sem fumaça</strong></td>
+                <td>Produzida em 1846 na Alemanha por <strong>Böttger</strong>; substituiu a pólvora negra nas munições (maior potência balística, combustão progressiva, sem resíduos). Composta de <strong>nitrocelulose gelatinosa</strong>, grafitada para retardar deterioração. Também chamada de <strong>pólvora piroxilada ou coloidal</strong>. Nitrocelulose = algodão-pólvora (HNO3 sobre o algodão comum). <span class="ref-pagina">(p. 17-18)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Pólvora de base dupla (BD)</strong></td>
+                <td>Sem fumaça. Contém <strong>nitrocelulose + nitroglicerina + conservantes</strong>. Propelente para fins militares e munições especiais. Formato granulado, cilíndrico ou laminar. <span class="ref-pagina">(p. 18)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Pólvora de base tripla (BT)</strong></td>
+                <td>Sem fumaça. Contém <strong>nitrocelulose + nitroglicerina + nitroguanidina</strong>. Usada como propelente de <strong>foguetes e canhões</strong>. <span class="ref-pagina">(p. 18)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Balistita</strong></td>
+                <td>40% nitroglicerina + 60% algodão colódio (algodão-pólvora BS de alta nitração). Usada em <strong>bazucas, obuses e morteiros de cano curto</strong> (máxima velocidade inicial). Vel. deflagração entre <strong>600 e 900 m/s</strong>. <span class="ref-pagina">(p. 18)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Composites</strong></td>
+                <td>Misturas de queima rápida, propelente de foguetes. Contêm KClO3 (77%) + resina fenólica em pó (17%) + enxofre (5%) + alumínio em pó (1%). Existem composites à base de perclorato de potássio ou perclorato de amônia. <span class="ref-pagina">(p. 18)</span></td>
+            </tr>
+        </table>
+
+        <h3>Fulminato de mercúrio</h3>
+        <div class="box-orange">
+            <strong>O mais antigo explosivo primário</strong>, de uso militar e comercial, <strong>extremamente sensível</strong>, utilizado em <strong>detonadores e espoletas</strong> (isolados ou misturados com KClO3). Cor <strong>amarela-clara</strong>, velocidade de detonação = <strong>5.000 m/s</strong>, iniciação por choque, calor, atrito etc. Gradativamente foi substituído pelo <strong>DDNP ou azida de chumbo</strong>. <span class="ref-pagina">(p. 18)</span>
+        </div>
+
+        <h3>Azida de chumbo</h3>
+        <div class="box-orange">
+            Explosivo primário, sensível, de uso militar e comercial, cor <strong>cinza</strong>, utilizado em <strong>espoletas</strong>. Vel. detonação ≈ <strong>5.100 m/s</strong>, iniciação por choque, atrito, calor etc. Normalmente misturada ao <strong>trinitroresorcinato de chumbo (ou estifnato de chumbo)</strong>, que tem vel. detonação de 5.200 m/s. Fórmula: <strong>Pb(N3)2</strong>. <span class="ref-pagina">(p. 18)</span>
+        </div>
+
+        <h3>Diazodinitrofenol (DDNP)</h3>
+        <div class="box-orange">
+            <strong>Alto explosivo primário</strong> usado na fabricação de <strong>detonadores</strong>; muito sensível ao calor, choque e fricção; velocidade de detonação entre <strong>4.400 e 6.900 m/s</strong>. <span class="ref-pagina">(p. 18-19)</span>
+        </div>
+
+        <h3>Dinamites</h3>
+        <div class="box-blue">
+            Em <strong>1867, o sueco Alfred Nobel</strong> dessensibilizou a nitroglicerina por meio da saturação com sílica (<strong>Kieselguhr</strong>) e inventou a dinamite. A descoberta da nitroglicerina ocorrera em <strong>1846, pelo químico italiano Ascanio Sobrero</strong>, que a chamou de <strong>piroglicerina</strong>. <span class="ref-pagina">(p. 19)</span>
+        </div>
+        <div class="box-red">
+            São <strong>altos explosivos secundários</strong>, estáveis em seu estado normal, porém, quando em <strong>exsudação</strong>, tornam-se altamente perigosos. Apresentam-se sob a forma de massa de cor <strong>amarela, encartuchada em papel parafinado (bananas)</strong>, e sua iniciação se dá por meio de detonadores. <span class="ref-pagina">(p. 19)</span>
+        </div>
+        <table>
+            <tr>
+                <th>Tipo de dinamite</th>
+                <th>Composição / Observações</th>
+            </tr>
+            <tr>
+                <td><strong>Dinamite gelatinosa comum (Plastil)</strong></td>
+                <td>NG + NC (blasting). Inventada por A. Nobel em <strong>1875</strong>. <span class="ref-pagina">(p. 19)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Dinamite amoniacal</strong></td>
+                <td>Usada como <strong>booster</strong>. 70% NH4OH + 29,3% nitroglicerina + 0,7% nitrocelulose. <strong>Menor brisância</strong>. Ex.: Gelinite. <span class="ref-pagina">(p. 19)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Dinamite de baixo ponto de congelamento</strong></td>
+                <td>Contém <strong>dinitrato de etileno glicol (EGDN)</strong> em alta concentração (anticongelante). <span class="ref-pagina">(p. 19)</span></td>
+            </tr>
+        </table>
+        <div class="box-green">
+            <strong>Componentes principais (composição variável):</strong> nitrocarbonitrato, nitroglicerina, nitrocelulose, nitrato de amônio, nitrato de sódio, difenilamina, carbonato de sódio (estabilizador), alumínio em pó e material absorvente (serragem, algodão colódio ou terra de infusório). Vel. detonação: <strong>3.000 a 6.000 m/s</strong>. As <strong>dinamites militares</strong> contêm ainda <strong>hexogênio (RDX) e TNT</strong>, elevando a velocidade até <strong>6.100 m/s</strong>. <span class="ref-pagina">(p. 19)</span>
+        </div>
+
+        <h3>Nitroglicerina (NG)</h3>
+        <div class="box-red">
+            <strong>Alto explosivo secundário, muito sensível</strong>, usos militar e comercial. <strong>Líquido viscoso, denso, incolor</strong>, solúvel em etanol, praticamente insolúvel em água; explode com atrito, calor, chama etc. <span class="ref-pagina">(p. 19)</span>
+            <ul>
+                <li><strong>Temperatura ideal de armazenagem:</strong> 15 a 25 ºC.</li>
+                <li><strong>Solidifica-se a 13 ºC</strong>, tornando-se altamente instável (cisalhamento dos cristais).</li>
+                <li>Usada principalmente na fabricação da dinamite.</li>
+                <li><strong>Vel. detonação = 7.800 m/s</strong>.</li>
+                <li>Há tipo antigel à base de <strong>dinitroglicerina (7% a 20%)</strong> para baixas temperaturas.</li>
+                <li>No processo de fabricação adiciona-se <strong>5% de etileno glicol</strong>, obtendo-se o <strong>EGDN</strong>; dessensibiliza-se a mistura com <strong>10% de nitrocelulose</strong>. <span class="ref-pagina">(p. 19-20)</span></li>
+            </ul>
+        </div>
+
+        <h3>Trinitrotolueno (TNT) ou Trotil</h3>
+        <div class="box-purple">
+            Produzido inicialmente pelos alemães em <strong>1902</strong>. <strong>Alto explosivo secundário, de uso militar, pouco sensível e com alta durabilidade (estável)</strong>. Apresenta-se na forma <strong>sólida de blocos fundidos ou petardos de cor amarela</strong>. <span class="ref-pagina">(p. 20)</span>
+            <ul>
+                <li><strong>Ponto de fusão:</strong> 80,5 ºC;</li>
+                <li>É impermeável;</li>
+                <li><strong>Vel. detonação = 6.900 m/s</strong>;</li>
+                <li><strong>Pressão de detonação:</strong> 150 a 250 quilobars;</li>
+                <li>Grande produção de gases tóxicos;</li>
+                <li>Iniciação por detonadores;</li>
+                <li><strong>É o mais seguro dos explosivos, usado como padrão de referência</strong> para outros explosivos. <span class="ref-pagina">(p. 20)</span></li>
+            </ul>
+        </div>
+
+        <h3>Ácido pícrico ou 2,4,6-trinitrofenol</h3>
+        <div class="box-orange">
+            <strong>Alto explosivo secundário</strong>, pouco sensível ao choque (percussão) e <strong>muito higroscópico</strong>. <strong>Detona ao ser aquecido a 300 ºC</strong>. No passado, foi usado em bombas de artilharia da <strong>II Guerra Mundial</strong>. Vel. detonação = <strong>4.900 m/s</strong>. Há também o <strong>picrato de amônia ("explosivo D")</strong> e o <strong>picratol [picrato de amônia (52%) + TNT (48%)]</strong>. <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <h3>Nitrato de amônio</h3>
+        <div class="box-green">
+            <strong>Alto explosivo secundário, de uso comercial</strong>, encontrado em <strong>fertilizantes agrícolas (adubo nitrogenado)</strong>. Normalmente usam-se <strong>prills porosos</strong> que, quando adicionados a <strong>óleo diesel (5,7%)</strong>, formam o <strong>Anfo</strong> (vel. detonação = <strong>3.000 m/s</strong>). É estável, de forma granulada, necessitando de <strong>detonador com reforçador (booster)</strong> para provocar a explosão. O Anfo pode tornar-se sensível a uma espoleta mediante redução do tamanho das partículas de NA ou mistura com cloreto de potássio. Fórmula: <strong>NH4NO3</strong>. <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <h3>Emulsões</h3>
+        <div class="box-blue">
+            <strong>Altos explosivos secundários comerciais de última geração</strong>, obtidos a partir da <strong>dispersão de óleo em solução aquosa de nitrato de amônia</strong>. Adiciona-se <strong>nitrito de sódio</strong> para otimizar o balanço de oxigênio. Vel. detonação: <strong>4.000 a 5.000 m/s</strong>. Proporção de água: 12 a 20% → <strong>baixa densidade (0,90 a 1,25)</strong>. Apresentam-se sob a forma <strong>encartuchada ou a granel (bombeados ou derramados)</strong>. <span class="ref-pagina">(p. 20-21)</span>
+        </div>
+
+        <h3>Lamas explosivas ou slurries</h3>
+        <div class="box-blue">
+            Misturas <strong>gelatinosas ou líquidas de nitrato de amônio</strong> com sensibilizadores como <strong>monometilo aminonitrato, EGDN, TNT, alumínio em pó</strong> etc. <strong>Necessitam de booster</strong>; vel. detonação ≈ <strong>4.000 m/s</strong>. Muito usadas em <strong>explosivos bombeados</strong>. <span class="ref-pagina">(p. 21)</span>
+        </div>
+
+        <h3>Tetril ou tetrilo</h3>
+        <div class="box-purple">
+            <strong>Alto explosivo secundário, de uso militar</strong>, principalmente em <strong>granadas</strong>. Estável, forma granulada, coloração <strong>amarelo-parda</strong>. Vel. detonação <strong>próxima ao TNT (7.050 m/s)</strong>, iniciação por detonadores. Fórmula: <strong>2,4,6 tetranitro-N-metilanilina ou trinitrofenilmetilnitramina</strong>. Também conhecido como <strong>pironite ou tetralite</strong>. <span class="ref-pagina">(p. 21)</span>
+        </div>
+
+        <h3>Nitropenta (PETN)</h3>
+        <div class="box-purple">
+            <strong>Alto explosivo secundário, de uso militar e comercial</strong>. É o <strong>núcleo branco do cordel detonante</strong>, usado em pedreiras para interligar cargas explosivas. Emprego militar: demolição de pontes, estruturas, túneis etc. Relativamente estável; o cordel é impermeável. <span class="ref-pagina">(p. 21)</span>
+            <ul>
+                <li><strong>Vel. detonação = 6.400 m/s</strong>;</li>
+                <li><strong>Pressão = 250 quilobars</strong>;</li>
+                <li>Iniciado por detonador;</li>
+                <li>Também chamado de <strong>tetranitrato de pentaeritritol ou pentrite</strong>;</li>
+                <li>Apresenta <strong>alto calor de combustão</strong> (possível visualizar a chama no momento da detonação). <span class="ref-pagina">(p. 21)</span></li>
+            </ul>
+        </div>
+
+        <h3>Explosivos plásticos</h3>
+        <div class="box-red">
+            <strong>Altos explosivos secundários, de uso militar, estáveis</strong>, à base de <strong>hexogênio (RDX), octogênio (HMX), nitropenta (PETN) e TNT</strong> com uma <strong>substância plástica de boa consistência e moldável (agente plastificante)</strong>. Iniciados por detonador, às vezes necessitando de booster. <strong>RDX puro: 8.400 m/s.</strong> <span class="ref-pagina">(p. 21)</span>
+        </div>
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Composição</th>
+                <th>Cor</th>
+                <th>Vel. detonação</th>
+            </tr>
+            <tr>
+                <td><strong>C2</strong></td>
+                <td>RDX + DNT + TNT + nitrocelulose</td>
+                <td>Amarelada</td>
+                <td>7.700 m/s <span class="ref-pagina">(p. 21)</span></td>
+            </tr>
+            <tr>
+                <td><strong>C3</strong></td>
+                <td>RDX + DNT + TNT + nitrocelulose</td>
+                <td>Amarelada</td>
+                <td>7.700 m/s <span class="ref-pagina">(p. 21)</span></td>
+            </tr>
+            <tr>
+                <td><strong>C4</strong></td>
+                <td>91% RDX + plastificante</td>
+                <td>Branca ou rósea</td>
+                <td>8.050 m/s <span class="ref-pagina">(p. 21)</span></td>
+            </tr>
+        </table>
+        <div class="box-green">
+            <strong>HMX:</strong> subproduto da obtenção do RDX, muito usado na confecção de <strong>cargas ocas</strong>. <span class="ref-pagina">(p. 21)</span>
+            <ul>
+                <li><strong>RDX</strong> (Research Departament Explosive) = ciclotrimetilenotrinitramina, hexogênio ou ciclonita; <span class="ref-pagina">(p. 22)</span></li>
+                <li><strong>HMX</strong> (High Melting Explosive) = ciclotetrametilenotetranitramina ou octogênio. <span class="ref-pagina">(p. 22)</span></li>
+            </ul>
+        </div>
+
+        <h3>Flex-X ou plastex</h3>
+        <div class="box-purple">
+            Explosivo em <strong>folha flexível</strong> de espessura variável. Composição: <strong>RDX (63%) ou PETN + nitrocelulose (8%) + material agregante (29%)</strong>. <strong>Vel. detonação = 7.500 m/s</strong>. Versão militar dos EUA: <strong>datasheet C</strong>. No Brasil: <strong>mantex (IMBEL)</strong>. <span class="ref-pagina">(p. 22)</span>
+        </div>
+        <div class="box-orange">
+            <strong>Convenção de Montreal (1º de março de 1991):</strong> os explosivos plásticos recebem uma <strong>marcação</strong> para facilitar sua detecção por detectores de vapores explosivos. Agentes de detecção: <span class="ref-pagina">(p. 22)</span>
+            <ul>
+                <li>Dinitrato de etileno glicol (EGDN);</li>
+                <li>2,3 Dimetil-2,3 dinitrobutano (DMNB);</li>
+                <li>para-mononitrotolueno (p-MNT);</li>
+                <li>orto-mononitrotolueno (o-MNT).</li>
+            </ul>
+        </div>
+
+        <h3>Outros explosivos</h3>
+        <table>
+            <tr>
+                <th>Explosivo</th>
+                <th>Composição</th>
+                <th>Uso</th>
+            </tr>
+            <tr>
+                <td><strong>Amonal</strong></td>
+                <td>TNT + nitrato de amônio + alumínio (67:22:11)</td>
+                <td>- <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Anfo</strong></td>
+                <td>Nitrato de amônio + óleo diesel (94:06) + booster</td>
+                <td>- <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Amatol</strong></td>
+                <td>Nitrato de amônio + TNT (50:50)</td>
+                <td>- <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Coop-Mischung</strong></td>
+                <td>Clorato de potássio + nitrobenzeno (95:5)</td>
+                <td>- <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Clorato de potássio + açúcar</strong></td>
+                <td>(50:50)</td>
+                <td>- <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Pentolite</strong></td>
+                <td>TNT + PETN (50:50)</td>
+                <td>Fabricação de booster <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Torpex (HBX)</strong></td>
+                <td>RDX + TNT + alumínio em pó (41:41:18)</td>
+                <td>Cargas de torpedos <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Composto B</strong></td>
+                <td>RDX (60%) + TNT (39%) + cera (1%)</td>
+                <td>Minas, granadas, cargas moldadas, cabeças de foguetes <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Tetritol</strong></td>
+                <td>Tetril + TNT (75:25)</td>
+                <td>- <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>PLX</strong> (Picatinny Liquid Explosive)</td>
+                <td>Nitrometano (95 ml) + etilonodiamina (5 ml)</td>
+                <td>- <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Tritonal</strong></td>
+                <td>TNT + alumínio em pó (80:20)</td>
+                <td>Bombas de aviação <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Composto A4</strong></td>
+                <td>RDX (97%) + cera (3%)</td>
+                <td>Forma prensada para carregamento de espoletas e reforçadores <span class="ref-pagina">(p. 22)</span></td>
+            </tr>
+        </table>
+
+        <h3>Tabela-resumo - Velocidades de detonação</h3>
+        <table>
+            <tr>
+                <th>Explosivo</th>
+                <th>Classe</th>
+                <th>Vel. detonação (m/s)</th>
+            </tr>
+            <tr><td>Pólvora negra</td><td>Baixo (deflagrante)</td><td>~300 <span class="ref-pagina">(p. 17)</span></td></tr>
+            <tr><td>Balistita</td><td>Pólvora BS alta nitração</td><td>600 - 900 <span class="ref-pagina">(p. 18)</span></td></tr>
+            <tr><td>Anfo</td><td>Alto secundário</td><td>3.000 <span class="ref-pagina">(p. 20)</span></td></tr>
+            <tr><td>Dinamites (comuns)</td><td>Alto secundário</td><td>3.000 - 6.000 <span class="ref-pagina">(p. 19)</span></td></tr>
+            <tr><td>Dinamites militares</td><td>Alto secundário</td><td>até 6.100 <span class="ref-pagina">(p. 19)</span></td></tr>
+            <tr><td>Lamas (slurries)</td><td>Alto secundário</td><td>~4.000 <span class="ref-pagina">(p. 21)</span></td></tr>
+            <tr><td>DDNP</td><td>Alto primário</td><td>4.400 - 6.900 <span class="ref-pagina">(p. 19)</span></td></tr>
+            <tr><td>Ácido pícrico</td><td>Alto secundário</td><td>4.900 <span class="ref-pagina">(p. 20)</span></td></tr>
+            <tr><td>Emulsões</td><td>Alto secundário</td><td>4.000 - 5.000 <span class="ref-pagina">(p. 20)</span></td></tr>
+            <tr><td>Fulminato de mercúrio</td><td>Alto primário</td><td>5.000 <span class="ref-pagina">(p. 18)</span></td></tr>
+            <tr><td>Azida de chumbo</td><td>Alto primário</td><td>5.100 <span class="ref-pagina">(p. 18)</span></td></tr>
+            <tr><td>Estifnato de chumbo</td><td>Alto primário</td><td>5.200 <span class="ref-pagina">(p. 18)</span></td></tr>
+            <tr><td>Nitropenta (PETN)</td><td>Alto secundário</td><td>6.400 <span class="ref-pagina">(p. 21)</span></td></tr>
+            <tr><td>TNT</td><td>Alto secundário</td><td>6.900 <span class="ref-pagina">(p. 20)</span></td></tr>
+            <tr><td>Tetril</td><td>Alto secundário</td><td>7.050 <span class="ref-pagina">(p. 21)</span></td></tr>
+            <tr><td>Flex-X</td><td>Alto secundário</td><td>7.500 <span class="ref-pagina">(p. 22)</span></td></tr>
+            <tr><td>C2 e C3</td><td>Alto secundário (plástico)</td><td>7.700 <span class="ref-pagina">(p. 21)</span></td></tr>
+            <tr><td>Nitroglicerina</td><td>Alto secundário</td><td>7.800 <span class="ref-pagina">(p. 19)</span></td></tr>
+            <tr><td>C4</td><td>Alto secundário (plástico)</td><td>8.050 <span class="ref-pagina">(p. 21)</span></td></tr>
+            <tr><td>RDX puro (hexogênio)</td><td>Alto secundário</td><td>8.400 <span class="ref-pagina">(p. 21)</span></td></tr>
+        </table>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>2.7 Efeitos de uma explosão</h2>
+
+        <div class="box-blue">
+            Em uma explosão, ocorrem <strong>efeitos primários e secundários</strong>. Os efeitos primários são: <strong>onda de pressão explosiva, fragmentação e efeito térmico-incendiário</strong>. Os efeitos secundários variam em função dos fatores do ambiente onde ocorre a detonação. <span class="ref-pagina">(p. 23)</span>
+        </div>
+
+        <h3>Deslocamento de ar ou concussão</h3>
+        <div class="box-purple">
+            Efeito violento que se processa por meio das <strong>ondas de choque</strong>, com aumento e depois diminuição da pressão atmosférica produzida pela explosão. <span class="ref-pagina">(p. 23)</span>
+            <ul>
+                <li>Forma-se uma <strong>onda de alta pressão (pressão positiva)</strong> à medida que os gases aquecidos são irradiados;</li>
+                <li>Em seguida, <strong>pressão negativa</strong>, quando a atmosfera comprimida é deslocada e volta rapidamente a preencher o vácuo recém formado;</li>
+                <li><strong>Ambas as forças são destrutivas.</strong></li>
+            </ul>
+            Mais facilmente observado quando o artefato é colocado em <strong>local confinado</strong>. Quanto mais fechado, resistente e com obstáculos ao redor, maior o dano. <span class="ref-pagina">(p. 23)</span>
+        </div>
+
+        <h3>Efeito térmico</h3>
+        <div class="box-orange">
+            Quando ocorre uma explosão, <strong>gera-se calor e surgem chamas</strong>, que podem provocar incêndios se houver material inflamável nas proximidades. <span class="ref-pagina">(p. 23)</span>
+        </div>
+
+        <h3>Fragmentação</h3>
+        <div class="box-red">
+            Ocorre quando o explosivo é <strong>confinado em recipientes com pedaços de metal misturados ou colocados ao redor da carga</strong>. A potência de uma explosão está relacionada com: <span class="ref-pagina">(p. 24)</span>
+            <ul>
+                <li><strong>Tipo</strong> de explosivo (velocidade de detonação, pressão de detonação e brisância);</li>
+                <li><strong>Formato</strong>;</li>
+                <li><strong>Quantidade</strong>;</li>
+                <li><strong>Confinamento</strong> do explosivo.</li>
+            </ul>
+        </div>
+
+        <h3>Onda de choque</h3>
+        <div class="box-blue">
+            No momento da explosão, ocorrem, conjugados e de forma brusca: geração de calor, elevação e queda de pressão, formação de vácuo e ondas de choque. <span class="ref-pagina">(p. 24)</span>
+            <p>As ondas de choque produzem efeitos mecânicos, provocando <strong>outras explosões a distância, por influência (simpatia)</strong>. Têm velocidade inicial suficiente para produzir uma compressão capaz de provocar a detonação de outra carga explosiva próxima - é <strong>este o princípio de funcionamento dos detonadores</strong>. <span class="ref-pagina">(p. 24)</span></p>
+            <p>O estudo dessas ondas pode ser proveitoso para se obter <strong>explosões dirigidas</strong>, inclusive na tentativa de neutralizar artefatos explosivos. <span class="ref-pagina">(p. 24)</span></p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Efeito</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Efeito cumulativo</strong></td>
+                <td>Ocorre quando as ondas de choque são provocadas por <strong>detonações dirigidas</strong>, potencializando-se o efeito e obtendo pressões bem superiores ao esperado. <span class="ref-pagina">(p. 24)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Efeito Monroe ou efeito bazuca</strong></td>
+                <td>Usado para se obter <strong>maior pressão</strong> no momento da explosão, ocorrendo quando há <strong>convergência de várias ondas de choque para um mesmo ponto</strong>. Usado em <strong>implosões</strong>, pode ser calculado e direcionado a agir em um ponto menos resistente. A orientação da onda de choque é <strong>perpendicular à superfície da carga explosiva</strong>. Exemplo: 250 g TNT + 250 g TNT podem cortar uma chapa de aço de 1 cm. <span class="ref-pagina">(p. 24-25)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - Efeitos primários: D-T-F-O</span>
+            <ul>
+                <li><strong>D</strong>eslocamento de ar (concussão)</li>
+                <li><strong>T</strong>érmico (chamas, incêndios)</li>
+                <li><strong>F</strong>ragmentação</li>
+                <li><strong>O</strong>nda de choque (incl. cumulativo e Monroe)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>2.8 Previsão de danos</h2>
+
+        <div class="box-blue">
+            A <strong>tabela 1</strong> (danos em materiais expostos, em área aberta, ao explosivo TNT) é referência rápida, levando em consideração os fatores mencionados. <span class="ref-pagina">(p. 26)</span>
+        </div>
+
+        <h3>Tabela 1 - Danos em materiais expostos, em área aberta, ao explosivo TNT</h3>
+        <table>
+            <tr>
+                <th>TNT (kg)</th>
+                <th>Janelas simples (1 painel)</th>
+                <th>Paredes divisória (amianto, madeira)</th>
+                <th>Paredes blocos concreto / concreto não reforçado</th>
+                <th>Paredes tijolos / concreto reforçado</th>
+                <th>Para-brisa de carro</th>
+            </tr>
+            <tr><td>0,5</td><td>30-50</td><td>15-30</td><td>10-15</td><td>6-15</td><td>5-8</td></tr>
+            <tr><td>1,0</td><td>35-60</td><td>20-35</td><td>15-20</td><td>7-20</td><td>6-9</td></tr>
+            <tr><td>2,5</td><td>40-80</td><td>25-45</td><td>20-25</td><td>9-25</td><td>8-12</td></tr>
+            <tr><td>4,5</td><td>55-110</td><td>30-55</td><td>20-30</td><td>12-30</td><td>10-15</td></tr>
+            <tr><td>7</td><td>65-120</td><td>35-65</td><td>25-35</td><td>14-35</td><td>12-18</td></tr>
+            <tr><td>8</td><td>70-130</td><td>40-70</td><td>30-40</td><td>15-40</td><td>13-20</td></tr>
+            <tr><td>11,5</td><td>75-140</td><td>40-75</td><td>30-40</td><td>16-40</td><td>14-21</td></tr>
+            <tr><td>13,25</td><td>80-150</td><td>45-80</td><td>30-45</td><td>17-45</td><td>15-23</td></tr>
+            <tr><td>16</td><td>85-160</td><td>50-85</td><td>35-50</td><td>18-45</td><td>15-25</td></tr>
+            <tr><td>18</td><td>90-165</td><td>50-90</td><td>35-50</td><td>19-50</td><td>16-26</td></tr>
+            <tr><td>20,5</td><td>90-170</td><td>50-90</td><td>35-50</td><td>20-50</td><td>17-27</td></tr>
+            <tr><td>22,5</td><td>95-175</td><td>50-90</td><td>35-50</td><td>20-50</td><td>18-29</td></tr>
+        </table>
+        <p style="font-size:0.9em;color:#718096">Distâncias em metros. Fonte: ATF. <span class="ref-pagina">(p. 26)</span></p>
+
+        <h3>Tabela 2 - Conversão de massa do TNT por meio da eficácia relativa</h3>
+        <div class="box-green">
+            Para estudos de danos provocados por outros explosivos, pode ser utilizada a tabela 2 para a conversão de massa do TNT por meio da <strong>eficiência relativa</strong>. <span class="ref-pagina">(p. 26)</span>
+        </div>
+        <table>
+            <tr>
+                <th>Explosivo</th>
+                <th>Fator de eficácia relativa</th>
+            </tr>
+            <tr><td><strong>TNT</strong></td><td>1,00 <span class="ref-pagina">(p. 26)</span></td></tr>
+            <tr><td>Pólvora negra</td><td>0,50</td></tr>
+            <tr><td>Nitroglicerina</td><td>1,40</td></tr>
+            <tr><td>C-4 (RDX + plastificante)</td><td>1,30</td></tr>
+            <tr><td>Composto B (RDX 60% + TNT 39% + cera 1%)</td><td>1,33</td></tr>
+            <tr><td>C-2</td><td>1,26</td></tr>
+            <tr><td>Tetril</td><td>1,30</td></tr>
+            <tr><td>Nitrocelulose</td><td>1,25</td></tr>
+            <tr><td>Anfo</td><td>0,52</td></tr>
+            <tr><td>Nitropenta (PETN)</td><td>1,45</td></tr>
+            <tr><td>Hexogênio (RDX)</td><td>1,50</td></tr>
+            <tr><td>Octogênio (HMX)</td><td>1,50</td></tr>
+            <tr><td>Nitrato de amônia</td><td>0,56</td></tr>
+            <tr><td>Dinamite 40%</td><td>0,65</td></tr>
+            <tr><td>Dinamite 60%</td><td>0,83 <span class="ref-pagina">(p. 26)</span></td></tr>
+        </table>
+
+        <div class="box-red">
+            <strong>Atenção:</strong> Os efeitos das tabelas 1 e 2 levam em conta <strong>apenas a propagação das ondas de choque</strong>. Entretanto, o operador deverá sempre considerar, para sua <strong>segurança pessoal e minimização dos riscos</strong>, o perigo real representado pelos <strong>estilhaços</strong> originados do próprio artefato explosivo e dos objetos que o circundam, os quais são <strong>lançados em altas velocidades a grandes distâncias</strong>. <span class="ref-pagina">(p. 27)</span>
+        </div>
+
+        <h3>Tabela 3 - Distâncias de risco fisiológico (TNT)</h3>
+        <table>
+            <tr>
+                <th>TNT (kg)</th>
+                <th>Possibilidade de ruptura dos tímpanos (m)</th>
+                <th>Possibilidade de dano aos pulmões (m)</th>
+                <th>Possibilidade de morte (m)</th>
+            </tr>
+            <tr><td>0,5</td><td>5,0</td><td>2,0</td><td>1,5</td></tr>
+            <tr><td>1,0</td><td>6,0</td><td>3,0</td><td>2,0</td></tr>
+            <tr><td>2,5</td><td>9,0</td><td>4,0</td><td>2,5</td></tr>
+            <tr><td>4,5</td><td>11,0</td><td>5,0</td><td>3,0</td></tr>
+            <tr><td>7,0</td><td>12,0</td><td>5,5</td><td>3,75</td></tr>
+            <tr><td>9,0</td><td>13,0</td><td>6,0</td><td>4,0</td></tr>
+            <tr><td>11,5</td><td>14,0</td><td>6,5</td><td>4,33</td></tr>
+            <tr><td>13,5</td><td>15,0</td><td>7,0</td><td>4,66</td></tr>
+            <tr><td>16,0</td><td>16,0</td><td>7,33</td><td>4,66</td></tr>
+            <tr><td>18,0</td><td>17,0</td><td>7,66</td><td>5,0</td></tr>
+            <tr><td>20,5</td><td>17,5</td><td>8,0</td><td>5,25</td></tr>
+            <tr><td>22,5</td><td>18,0</td><td>8,25</td><td>5,25</td></tr>
+        </table>
+        <p style="font-size:0.9em;color:#718096">Distâncias em metros. <span class="ref-pagina">(p. 27)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Pontos-chave do Cap. 2</span>
+            <ul>
+                <li>Explosivo = energia química → trabalho mecânico (gases + altas T e P)</li>
+                <li>3 tipos de explosão: mecânica, química, atômica</li>
+                <li>3 propriedades: sensibilidade, brisância, velocidade de detonação</li>
+                <li>Classificação: baixos (deflagrantes ≤1.000 m/s) | altos primários (iniciação) | altos secundários (ruptura)</li>
+                <li>TNT = padrão de referência (6.900 m/s, fator 1,0)</li>
+                <li>NG = único alto secundário que não precisa de carga inicial</li>
+                <li>RDX puro = velocidade mais alta (8.400 m/s)</li>
+                <li>Convenção de Montreal (1991) → marcação de plásticos (EGDN, DMNB, p-MNT, o-MNT)</li>
+                <li>Efeito Monroe = convergência de ondas (implosões)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

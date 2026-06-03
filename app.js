@@ -1843,6 +1843,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Conclusão'
             ]
         },
+        'pceb': {
+            path: 'PCEB',
+            capitulos: [
+                { titulo: 'Introdução - Bombas e Explosivos', arquivo: 'Capitulo_00.html' },
+                { titulo: 'Capítulo 1 - Contextualização (Terrorismo)', arquivo: 'Capitulo_01.html' },
+                { titulo: 'Capítulo 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)', arquivo: 'Capitulo_02.html' },
+                { titulo: 'Capítulo 3 - Sistemas de Iniciação (Estopins, Cápsulas, Espoletas)', arquivo: 'Capitulo_03.html' },
+                { titulo: 'Capítulo 4 - Mecanismos de Acionamento', arquivo: 'Capitulo_04.html' },
+                { titulo: 'Capítulo 5 - Técnicas de Desativação', arquivo: 'Capitulo_05.html' },
+                { titulo: 'Capítulo 6 - Bombas Postais', arquivo: 'Capitulo_06.html' },
+                { titulo: 'Capítulo 7 - Inspeções de Segurança', arquivo: 'Capitulo_07.html' },
+                { titulo: 'Capítulo 8 - Ameaça de Bomba (Vistoria, Plano de Segurança)', arquivo: 'Capitulo_08.html' },
+                { titulo: 'Capítulo 9 - Procedimentos de Reação a Bombas', arquivo: 'Capitulo_09.html' },
+                { titulo: 'Capítulo 10 - Perícia em Local de Explosão', arquivo: 'Capitulo_10.html' },
+                { titulo: 'Anexos - Segurança, Queima, Resp. Civil e Legislação', arquivo: 'Capitulo_11_Anexos.html' }
+            ]
+        },
         'ipo_2': {
             path: 'IPO_2',
             capitulos: [

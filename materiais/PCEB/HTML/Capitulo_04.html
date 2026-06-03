@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 4 - Mecanismos de Acionamento</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB</span>
+        <h1>Capítulo 4 - Mecanismos de Acionamento</h1>
+        <div class="subtitle">Pressão, Descompressão, Tensão, Tração, Tempo, Remoto e outros</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#intro">Introdução - Princípios básicos do acionamento</a></li>
+            <li><a href="#sec41">4.1 Pressão</a></li>
+            <li><a href="#sec42">4.2 Descompressão</a></li>
+            <li><a href="#sec43">4.3 Tensão</a></li>
+            <li><a href="#sec44">4.4 Tração</a></li>
+            <li><a href="#sec45">4.5 Tempo ou retardo</a></li>
+            <li><a href="#sec46">4.6 Retardo químico</a></li>
+            <li><a href="#sec47">4.7 Controle remoto</a></li>
+            <li><a href="#sec48">4.8 Antimovimento/antidistúrbio</a></li>
+            <li><a href="#sec49">4.9 Barométricos</a></li>
+            <li><a href="#sec410">4.10 Outros mecanismos</a></li>
+            <li><a href="#resumo">Tabela-resumo comparativa</a></li>
+        </ul>
+    </div>
+
+    <div id="intro" class="section">
+        <h2>Introdução - Princípios básicos do acionamento</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> Para que um artefato explosivo funcione de forma eficaz, é necessário que apresente <strong>ao menos um mecanismo de acionamento</strong> e a <strong>carga explosiva</strong>. O mecanismo de acionamento é o responsável pela iniciação da carga explosiva. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <p>Os princípios básicos do mecanismo de acionamento são, entre outros: <span class="ref-pagina">(p. 33)</span></p>
+
+        <table>
+            <tr>
+                <th>Princípio</th>
+                <th>Base de funcionamento</th>
+            </tr>
+            <tr>
+                <td><strong>Mecânico</strong></td>
+                <td>Baseado no fato de que alguns explosivos são sensíveis a choque, fricção, etc. São os casos de utilização de sistemas de percussão semelhantes aos que ocorrem nas espoletas dos cartuchos de armas de fogo. <span class="ref-pagina">(p. 33)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Químico</strong></td>
+                <td>Baseado no fato de que alguns compostos químicos, ao se unirem, produzem uma reação exotérmica incendiária. <span class="ref-pagina">(p. 33)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Elétrico</strong></td>
+                <td>A corrente elétrica, ao percorrer um condutor, provoca o seu aquecimento (efeito Joule), que pode ser capaz de iniciar um explosivo sensível ao calor. <span class="ref-pagina">(p. 33)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Combinado</strong></td>
+                <td>Qualquer das combinações dos princípios anteriores. <span class="ref-pagina">(p. 33)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: M-Q-E-C (princípios básicos)</span>
+            <ul>
+                <li><strong>M</strong>ecânico (choque/fricção/percussão)</li>
+                <li><strong>Q</strong>uímico (reação exotérmica)</li>
+                <li><strong>E</strong>létrico (efeito Joule)</li>
+                <li><strong>C</strong>ombinado (combinações)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec41" class="section">
+        <h2>4.1 Pressão</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Os dispositivos que utilizam esse mecanismo de acionamento exigem pressão para soltar um mecanismo de percussão, fechar um circuito elétrico ou inflamar-se. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <p>São muito utilizados sob assentos de veículos, estofados em geral, tapetes, colchões, assoalhos, etc. Podem ser controlados de acordo com a pressão exercida. <span class="ref-pagina">(p. 33)</span></p>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            Quando alguém se senta no assento, o circuito elétrico é fechado e ocorre a explosão. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <h3>Características</h3>
+        <div class="box-orange">
+            Os mecanismos podem apresentar pressões mínimas, ou em níveis elevados, como no caso de <strong>minas antipessoal e antitanque</strong>, ou seja, uma pessoa não acionaria uma mina antitanque. <span class="ref-pagina">(p. 34)</span>
+        </div>
+
+        <p>O mesmo esquema pode ser montado por descompressão. <span class="ref-pagina">(p. 34)</span></p>
+    </div>
+
+    <div id="sec42" class="section">
+        <h2>4.2 Descompressão</h2>
+
+        <div class="box-blue">
+            <strong>Funcionamento:</strong> O mecanismo funciona pela <strong>remoção de um objeto ou da pressão</strong>. <span class="ref-pagina">(p. 34)</span>
+        </div>
+
+        <p>É muito utilizado em <strong>carta-bomba</strong>. Os exemplos práticos são muitos, como ao se abrir um livro, uma porta, uma maleta ou ao se retirar o telefone do gancho. <span class="ref-pagina">(p. 34)</span></p>
+    </div>
+
+    <div id="sec43" class="section">
+        <h2>4.3 Tensão</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> É empregada nas armadilhas em que há um fio ou arame esticado que ao se romperem provocam a liberação de um percussor ou fecham um circuito elétrico. <span class="ref-pagina">(p. 34)</span>
+        </div>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            Se o <strong>cabo de tropeço</strong> for cortado ou tracionado, ele fechará o contato elétrico e provocará a explosão. <span class="ref-pagina">(p. 34)</span>
+        </div>
+
+        <h3>Características</h3>
+        <div class="box-orange">
+            Cabos de tropeço são muito utilizados no <strong>meio militar em armadilhamento de trilhas</strong>. <span class="ref-pagina">(p. 34)</span>
+        </div>
+    </div>
+
+    <div id="sec44" class="section">
+        <h2>4.4 Tração</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Mecanismo também utilizado nos casos de <strong>carta-bomba</strong>. Funciona normalmente com um isolante que, ao ser tracionado, permitirá que o circuito elétrico seja fechado. Um simples puxão num fio poderá soltar um pino percussor previamente armado. <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            Uma vez retirado o <strong>pino de segurança</strong>, se o <strong>pino de liberação</strong> também for retirado, o percussor irá acionar a espoleta. <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <h3>Características</h3>
+        <div class="box-orange">
+            Mecanismos como esse são comuns no meio militar, uma vez que também são usados em armadilhamento de trilhas. Existem muitos outros similares. <span class="ref-pagina">(p. 35)</span>
+        </div>
+    </div>
+
+    <div id="sec45" class="section">
+        <h2>4.5 Tempo ou retardo</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> É o tipo de mecanismo de acionamento característico das <strong>bombas-relógio</strong>, podendo ser utilizados substâncias químicas, estopins, cigarros, etc. <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <p>Atualmente, empregam-se dispositivos de comandos digitais, com temporizador composto de um <strong>chip em circuito integrado</strong>, o qual poderá ser regulado para acionamento com maior antecedência e sem produzir ruídos. <span class="ref-pagina">(p. 35)</span></p>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            No instante previamente programado, a chave fecha o circuito, provocando a iniciação da carga explosiva. <span class="ref-pagina">(p. 36)</span>
+        </div>
+
+        <h3>Características</h3>
+        <div class="box-orange">
+            <ul>
+                <li>No caso de o mecanismo de tempo ser um <strong>relógio analógico de ponteiros</strong>, é comum que a chave seja um contato de espera no vidro do relógio e o outro, o próprio ponteiro; <span class="ref-pagina">(p. 36)</span></li>
+                <li>No caso de <strong>relógio digital</strong>, geralmente o estágio do circuito de alarme é alterado por meio de uma amplificação do sinal de alarme, de forma a ser capaz de iniciar uma carga explosiva. Essas alterações requerem conhecimento de eletrônica; <span class="ref-pagina">(p. 36)</span></li>
+                <li>No caso de o <strong>temporizador ser construído por quem tem conhecimento de eletrônica</strong>, o circuito pode ser dedicado, ou seja, pode iniciar uma carga explosiva a qualquer momento ou mesmo após vários dias. <span class="ref-pagina">(p. 36)</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec46" class="section">
+        <h2>4.6 Retardo químico</h2>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            A solução de <strong>cloreto cúprico</strong> corrói o fio que tenciona a lâmina até o momento em que o fio se parte e a lâmina toca o contato de espera, ocorrendo a explosão. <span class="ref-pagina">(p. 36)</span>
+        </div>
+
+        <h3>Características</h3>
+        <div class="box-orange">
+            Arranjos como esse apresentam <strong>tempos de acionamento muito variáveis</strong>. <span class="ref-pagina">(p. 37)</span>
+        </div>
+
+        <p>Outros exemplos de combinações químicas que podem provocar explosões: <span class="ref-pagina">(p. 37)</span></p>
+
+        <table>
+            <tr>
+                <th>Combinação</th>
+                <th>Observações</th>
+            </tr>
+            <tr>
+                <td>Ampola de ácido sulfúrico com mistura de clorato de potássio e enxofre</td>
+                <td>Pólvora caseira <span class="ref-pagina">(p. 37)</span></td>
+            </tr>
+            <tr>
+                <td>Glicerina sobre permanganato de potássio</td>
+                <td>— <span class="ref-pagina">(p. 37)</span></td>
+            </tr>
+            <tr>
+                <td>Clorato de potássio + açúcar + enxofre (7:2:1)</td>
+                <td>Pólvora que pode ser ativada de várias maneiras: ampola de ácido sulfúrico ou filamento incandescente de lâmpadas ou dos usados na fabricação de detonadores elétricos <span class="ref-pagina">(p. 37)</span></td>
+            </tr>
+            <tr>
+                <td>Mistura Armstrong</td>
+                <td>Clorato de potássio (65%) + fósforo vermelho (35%). Iniciação com sulfeto de carbono. <span class="ref-pagina">(p. 37)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec47" class="section">
+        <h2>4.7 Controle remoto</h2>
+
+        <div class="box-blue">
+            <strong>Modalidades:</strong> O controle remoto pode ocorrer: <span class="ref-pagina">(p. 37)</span>
+            <ul>
+                <li>Por meio de <strong>fios</strong>;</li>
+                <li>Por <strong>feixe de infravermelho</strong> - é o princípio básico do funcionamento dos controles remotos dos aparelhos eletrodomésticos atuais. Existem sistemas de acionamento de câmeras fotográficas que permitem a sua operação a mais de cem metros de distância;</li>
+                <li>Por <strong>ondas de rádio (RF)</strong> - esse sistema utiliza um transmissor de radiofreqüência com modulador e fonte de alimentação.</li>
+            </ul>
+        </div>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            Quando o botão de acionamento é pressionado, o transmissor emite sinais de RF na freqüência F1 e o receptor fecha a chave comutadora, provocando a explosão. <span class="ref-pagina">(p. 38)</span>
+        </div>
+
+        <h3>Características</h3>
+        <div class="box-orange">
+            É um sistema suscetível a <strong>interferências eletromagnéticas</strong> que podem provocar o acionamento indesejado. <span class="ref-pagina">(p. 38)</span>
+        </div>
+
+        <h3>Soluções para desativação</h3>
+        <div class="box-red">
+            <ul>
+                <li>Retirar a <strong>antena do receptor</strong>;</li>
+                <li>Usar uma <strong>manta metálica</strong> (ou mesmo rede ou papel alumínio) na tentativa de fazer a blindagem eletromagnética;</li>
+                <li><strong>Bloquear a transmissão</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 38)</span>
+        </div>
+    </div>
+
+    <div id="sec48" class="section">
+        <h2>4.8 Antimovimento/antidistúrbio</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> Artefatos com esse tipo de mecanismo são iniciados quando <strong>mudados de posição</strong> ou mesmo quando sofrem <strong>qualquer tipo de vibração</strong>. <span class="ref-pagina">(p. 38)</span>
+        </div>
+
+        <p>Podem utilizar <strong>pêndulo, chave de mercúrio</strong> ou mesmo mecanismos de <strong>alarme antifurto</strong> usados em automóveis. <span class="ref-pagina">(p. 38)</span></p>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            Quando o artefato é mudado de posição, a <strong>esfera condutora</strong> toca a parede interna do cilindro (revestida de material condutor) e o contato elétrico é fechado para iniciar a carga explosiva. <span class="ref-pagina">(p. 39)</span>
+        </div>
+    </div>
+
+    <div id="sec49" class="section">
+        <h2>4.9 Barométricos</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> São sistemas ativados pela <strong>diferença de pressões na água e no ar</strong>. Geralmente, são vinculados a dispositivos que serão movidos por meio de transportes que implicam grandes <strong>flutuações de altitude ou profundidade</strong>. <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <h3>Funcionamento</h3>
+        <div class="box-green">
+            Mecanismos como esse funcionam, por exemplo, em <strong>aeronaves</strong>. Quando a aeronave está aterrizada, <strong>P1 = P2</strong> e o diafragma está na condição de repouso com os contatos elétricos afastados. Se a tampa de vedação é fechada e o avião decola, a pressão externa diminui e nessas condições <strong>P1 &lt; P2</strong>. Assim, o diafragma tende a defletir em direção ao contato fixo e o circuito elétrico é fechado, acionando a unidade de explosão. <span class="ref-pagina">(p. 39)</span>
+        </div>
+    </div>
+
+    <div id="sec410" class="section">
+        <h2>4.10 Outros mecanismos</h2>
+
+        <div class="box-purple">
+            Existem muitos outros tipos de mecanismos de artefatos explosivos. O <strong>limite é a imaginação, a habilidade e o conhecimento do criador</strong>. <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <p>Alguns outros exemplos são:</p>
+
+        <table>
+            <tr>
+                <th>Mecanismo</th>
+                <th>Funcionamento</th>
+            </tr>
+            <tr>
+                <td><strong>Sistemas fotoelétricos</strong></td>
+                <td>Acionam quando a luz é aplicada ou eliminada. <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Infravermelho</strong></td>
+                <td>Esse sistema pode detectar movimentos por meio de um feixe de raios infravermelhos ou calor de um corpo ou de um motor. <span class="ref-pagina">(p. 40)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Anti-raio X</strong></td>
+                <td>Usam um meio que intensifica a luz dentro de um circuito, ativando uma célula fotoelétrica ao ser exposta ao raio X. <span class="ref-pagina">(p. 40)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Sensor de capacitância</strong></td>
+                <td>Esse sistema usa a superfície metálica de um objeto para ser sensibilizado ao mais leve toque. <span class="ref-pagina">(p. 40)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Acústico</strong></td>
+                <td>Esse sistema pode ser acionado por sons audíveis ou mesmo ultrasônicos. <span class="ref-pagina">(p. 40)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="resumo" class="section">
+        <h2>Tabela-resumo comparativa dos 10 mecanismos</h2>
+
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Mecanismo</th>
+                <th>Princípio / Funcionamento</th>
+                <th>Uso típico</th>
+            </tr>
+            <tr>
+                <td>4.1</td>
+                <td><strong>Pressão</strong></td>
+                <td>Exige pressão para soltar percussão, fechar circuito elétrico ou inflamar-se <span class="ref-pagina">(p. 33)</span></td>
+                <td>Assentos de veículos, estofados, tapetes, colchões, assoalhos; minas antipessoal/antitanque <span class="ref-pagina">(p. 33-34)</span></td>
+            </tr>
+            <tr>
+                <td>4.2</td>
+                <td><strong>Descompressão</strong></td>
+                <td>Remoção de um objeto ou da pressão <span class="ref-pagina">(p. 34)</span></td>
+                <td>Carta-bomba; abrir livro, porta, maleta; retirar telefone do gancho <span class="ref-pagina">(p. 34)</span></td>
+            </tr>
+            <tr>
+                <td>4.3</td>
+                <td><strong>Tensão</strong></td>
+                <td>Fio/arame esticado que, ao romper-se, libera percussor ou fecha circuito elétrico <span class="ref-pagina">(p. 34)</span></td>
+                <td>Armadilhamento militar de trilhas (cabos de tropeço) <span class="ref-pagina">(p. 34)</span></td>
+            </tr>
+            <tr>
+                <td>4.4</td>
+                <td><strong>Tração</strong></td>
+                <td>Isolante tracionado fecha circuito; puxão num fio solta pino percussor armado <span class="ref-pagina">(p. 35)</span></td>
+                <td>Carta-bomba; armadilhamento militar de trilhas <span class="ref-pagina">(p. 35)</span></td>
+            </tr>
+            <tr>
+                <td>4.5</td>
+                <td><strong>Tempo / retardo</strong></td>
+                <td>No instante programado, a chave fecha o circuito e inicia a carga; usa substâncias químicas, estopins, cigarros ou chip digital <span class="ref-pagina">(p. 35-36)</span></td>
+                <td>Bombas-relógio (analógicas, digitais ou circuitos dedicados) <span class="ref-pagina">(p. 35-36)</span></td>
+            </tr>
+            <tr>
+                <td>4.6</td>
+                <td><strong>Retardo químico</strong></td>
+                <td>Solução de cloreto cúprico corrói fio; lâmina toca contato de espera <span class="ref-pagina">(p. 36)</span></td>
+                <td>Tempos de acionamento muito variáveis; misturas químicas explosivas <span class="ref-pagina">(p. 37)</span></td>
+            </tr>
+            <tr>
+                <td>4.7</td>
+                <td><strong>Controle remoto</strong></td>
+                <td>Acionamento por fios, infravermelho ou ondas de rádio (RF) <span class="ref-pagina">(p. 37-38)</span></td>
+                <td>Suscetível a interferências eletromagnéticas <span class="ref-pagina">(p. 38)</span></td>
+            </tr>
+            <tr>
+                <td>4.8</td>
+                <td><strong>Antimovimento/antidistúrbio</strong></td>
+                <td>Inicia ao mudar de posição ou sofrer vibração; pêndulo, chave de mercúrio, alarmes antifurto <span class="ref-pagina">(p. 38-39)</span></td>
+                <td>Esfera condutora fecha contato ao mover o artefato <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td>4.9</td>
+                <td><strong>Barométricos</strong></td>
+                <td>Diferença de pressões (água/ar); diafragma deflete quando P1 &lt; P2 <span class="ref-pagina">(p. 39)</span></td>
+                <td>Aeronaves; transportes com grandes flutuações de altitude ou profundidade <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td>4.10</td>
+                <td><strong>Outros</strong></td>
+                <td>Fotoelétricos, infravermelho, anti-raio X, sensor de capacitância, acústico <span class="ref-pagina">(p. 39-40)</span></td>
+                <td>Limite é a imaginação, habilidade e conhecimento do criador <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico geral: P-D-T-T-T-Q-R-A-B-O</span>
+            <ul>
+                <li><strong>P</strong>ressão</li>
+                <li><strong>D</strong>escompressão</li>
+                <li><strong>T</strong>ensão</li>
+                <li><strong>T</strong>ração</li>
+                <li><strong>T</strong>empo</li>
+                <li><strong>Q</strong>uímico (retardo)</li>
+                <li><strong>R</strong>emoto</li>
+                <li><strong>A</strong>ntimovimento</li>
+                <li><strong>B</strong>arométrico</li>
+                <li><strong>O</strong>utros</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!):</strong>
+            <ul>
+                <li>Artefato explosivo precisa de <strong>pelo menos um mecanismo de acionamento + carga explosiva</strong>. <span class="ref-pagina">(p. 33)</span></li>
+                <li>Princípios básicos: <strong>mecânico, químico, elétrico ou combinado</strong>. <span class="ref-pagina">(p. 33)</span></li>
+                <li><strong>Descompressão</strong> e <strong>tração</strong> são típicos de <strong>carta-bomba</strong>. <span class="ref-pagina">(p. 34-35)</span></li>
+                <li><strong>Tensão</strong> e <strong>tração</strong> = armadilhamento militar de trilhas. <span class="ref-pagina">(p. 34-35)</span></li>
+                <li>Retardo químico usa <strong>cloreto cúprico</strong> corroendo fio que tenciona lâmina. <span class="ref-pagina">(p. 36)</span></li>
+                <li>Mistura <strong>Armstrong</strong> = clorato de potássio (65%) + fósforo vermelho (35%), iniciada com sulfeto de carbono. <span class="ref-pagina">(p. 37)</span></li>
+                <li>Controle remoto por RF é <strong>suscetível a interferências</strong>; desativação por retirada de antena, blindagem metálica ou bloqueio da transmissão. <span class="ref-pagina">(p. 38)</span></li>
+                <li>Antimovimento pode usar <strong>pêndulo, chave de mercúrio ou alarme antifurto</strong>. <span class="ref-pagina">(p. 38)</span></li>
+                <li>Barométrico funciona pela <strong>diferença de pressões</strong> (ex.: aeronaves). <span class="ref-pagina">(p. 39)</span></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

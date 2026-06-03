@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 8 - Ameaça de Bomba</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB</span>
+        <h1>Capítulo 8 - Ameaça de Bomba</h1>
+        <div class="subtitle">Plano de Segurança, Vistoria e Reocupação das Instalações</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#intro">Introdução - O cenário das bombas</a></li>
+            <li><a href="#sec1">8.1 Tratamento da informação</a></li>
+            <li><a href="#sec2">8.2 Plano de segurança</a></li>
+            <li><a href="#sec3">8.3 Classificação da ameaça (verde, âmbar, vermelha)</a></li>
+            <li><a href="#sec4">8.4 Procedimentos de vistoria</a>
+                <ul>
+                    <li><a href="#sec4a">Planejamento</a></li>
+                    <li><a href="#sec4b">Tipos de vistoria</a></li>
+                    <li><a href="#sec4c">Início da vistoria</a></li>
+                    <li><a href="#sec4d">Ensaios e procedimentos</a></li>
+                    <li><a href="#sec4e">Vistoria de área externa</a></li>
+                    <li><a href="#sec4f">Vistoria em áreas de acesso público</a></li>
+                    <li><a href="#sec4g">Vistoria detalhada de uma sala</a></li>
+                    <li><a href="#sec4h">Recomendações gerais</a></li>
+                    <li><a href="#sec4i">Reocupação das instalações</a></li>
+                </ul>
+            </li>
+            <li><a href="#sec5">8.5 Inter-relações dos trabalhos preventivos</a></li>
+            <li><a href="#sec6">8.6 Vistoria em veículos (Automóveis e Aeronaves)</a></li>
+            <li><a href="#sec7">8.7 Fundamentos legais</a></li>
+        </ul>
+    </div>
+
+    <div id="intro" class="section">
+        <h2>Introdução - O cenário das bombas</h2>
+
+        <div class="box-blue">
+            <strong>Cenário doméstico e internacional:</strong> O cenário doméstico envolvendo bombas tem estado vinculado ao <strong>crime comum</strong> e ao <strong>crime organizado</strong>, mas há ocorrências diárias na mídia relacionadas com o <strong>terrorismo e o fanatismo internacional</strong>. Alguns chefes de Estado estão sob risco constante (alvos em potencial) e outros sob risco momentâneo. <span class="ref-pagina">(p. 51)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Competência da Polícia Federal:</strong> É da competência da PF prestar segurança a chefes de Estado em visita oficial ao País, uma vez que o <strong>terrorismo político não tem fronteiras</strong> nem terreno fértil ou estéril para que venha a acontecer. <span class="ref-pagina">(p. 51)</span>
+        </div>
+
+        <h3>Dispositivos Explosivos Improvisados (DEI)</h3>
+
+        <p>Os DEI, também conhecidos como <strong>artefatos explosivos</strong> ou <strong>bombas caseiras</strong>, são facilmente disfarçados e podem ter vários tipos de forma e tamanho, sendo rústicos ou sofisticados. <span class="ref-pagina">(p. 51)</span></p>
+
+        <ul>
+            <li>Algumas bombas têm formato característico, como <strong>bomba-tubo</strong>;</li>
+            <li>Outras são ocultadas em <strong>malas, maletas, rádios, gravadores, extintores de incêndio, garrafas, livros e até veículos</strong>;</li>
+            <li>Muitas são construídas para explodir se <strong>tocadas, movimentadas ou meramente por aproximação</strong>. <span class="ref-pagina">(p. 51)</span></li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Atenção - Nem toda bomba é para explodir:</strong> As bombas não são construídas necessariamente para explodir. Existem: <span class="ref-pagina">(p. 51)</span>
+            <ul>
+                <li><strong>Bombas incendiárias</strong> - feitas para iniciar uma reação em cadeia e provocar incêndios de enormes proporções;</li>
+                <li><strong>Bombas postais (cartas-bomba)</strong> - <em>discriminatórias</em>, feitas para serem ativadas quando abertas pela vítima-alvo;</li>
+                <li><strong>Carro-bomba</strong> - efeito altamente devastador, capaz de causar destruição e morte em massa e <em>indiscriminadamente</em>.</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>Alvos em potencial sob alto risco de ataque incendiário:</strong> Depósitos, almoxarifados, escritórios e bibliotecas. É necessário que tanto a <strong>segurança</strong> quanto o <strong>segurado</strong> se envolvam com o problema e estejam determinados a solucioná-lo. <span class="ref-pagina">(p. 51)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Definição - Ameaça de bomba:</strong> Comunicação normalmente <strong>anônima</strong>, contra pessoas ou instituições, usualmente feita diretamente ao alvo, por meio de ameaça <strong>escrita ou telefônica</strong>, sendo esta última <strong>o meio mais utilizado</strong>. Na maioria dos casos, as denúncias atingem seus objetivos: <strong>causar tumulto e gerar pânico</strong>, provocando o adiamento ou cancelamento de eventos. <span class="ref-pagina">(p. 51)</span>
+        </div>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>8.1 Tratamento da informação</h2>
+
+        <div class="box-blue">
+            <strong>Princípio:</strong> Toda e qualquer informação referente a uma ameaça deve ser trabalhada, buscando-se o <strong>máximo de detalhes</strong>, sempre de maneira <strong>discreta e preservando sua integridade e fidelidade</strong> para o correto encaminhamento conforme previsto no plano de segurança. <span class="ref-pagina">(p. 51-52)</span>
+        </div>
+
+        <h3>Treinamento das telefonistas</h3>
+
+        <p>Os funcionários que operam mesas telefônicas devem ser treinados para obter o máximo de informações sobre a ameaça. O funcionário deverá: <span class="ref-pagina">(p. 52)</span></p>
+
+        <table>
+            <tr>
+                <th>Ação</th>
+                <th>Detalhe</th>
+            </tr>
+            <tr>
+                <td>Manter a calma</td>
+                <td>Ao receber o telefonema</td>
+            </tr>
+            <tr>
+                <td>Anotar tudo</td>
+                <td>Se possível, <strong>gravar</strong></td>
+            </tr>
+            <tr>
+                <td>Prolongar a conversa</td>
+                <td>Procurar prolongar o telefonema</td>
+            </tr>
+            <tr>
+                <td>Estar atento</td>
+                <td>A <strong>ruídos de fundo</strong>, voz da pessoa, dados precisos sobre o artefato</td>
+            </tr>
+            <tr>
+                <td>Preencher formulário</td>
+                <td>Posteriormente, com todas as informações</td>
+            </tr>
+            <tr>
+                <td>Equipamento</td>
+                <td>Se possível, equipar a empresa com <strong>identificadores de chamada</strong></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Ameaça por escrito:</strong> A <strong>preservação do documento</strong> é fundamental para a realização de exames técnicos tais como <strong>grafotecnia</strong> e busca de <strong>impressões papiloscópicas</strong>, etc. <span class="ref-pagina">(p. 52)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Atenção - Nova chamada:</strong> Deve-se redobrar a atenção no caso de uma nova chamada para um mesmo local, já que a <strong>primeira chamada pode ter sido apenas para avaliar a segurança</strong>, identificando os pontos falhos para uma ação mais efetiva. <span class="ref-pagina">(p. 52)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Princípio-chave:</strong> Toda ameaça de bomba deve ser tratada <strong>com seriedade e sem gerar pânico</strong>. Para tal fim é fundamental a elaboração de um <strong>plano de segurança</strong>, contemplando inclusive os procedimentos operacionais a serem adotados. <span class="ref-pagina">(p. 52)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>8.2 Plano de segurança</h2>
+
+        <div class="box-blue">
+            <strong>Conceito:</strong> O plano de segurança deverá ser elaborado segundo os procedimentos preconizados pelos órgãos de segurança, visando a <strong>convergir os esforços</strong>. <span class="ref-pagina">(p. 55)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Ponto do plano</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Cadeia de comando</strong></td>
+                <td>Estabelecer hierarquia de comando para evitar <strong>ações repetidas ou divergentes</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Assessoria de risco</strong></td>
+                <td>Grupo especializado, formado por pessoas com <strong>visões distintas</strong>, que dividem a responsabilidade de avaliar o risco, <strong>classificando a ameaça</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Formulário para telefonistas</strong></td>
+                <td>Formulário padrão preenchido durante o telefonema ameaçador</td>
+            </tr>
+            <tr>
+                <td><strong>Plano de comunicação</strong></td>
+                <td>Meio de comunicação <strong>restrito aos integrantes</strong> do plano de segurança - vital para evitar pânico</td>
+            </tr>
+            <tr>
+                <td><strong>Plano de vistoria</strong></td>
+                <td>Planejado de acordo com as instalações físicas e treinado pelos funcionários escalados</td>
+            </tr>
+            <tr>
+                <td><strong>Evacuação do local</strong></td>
+                <td>Prever rotas e <strong>rodízios</strong> destas, evitando rotina previsível (alvo fácil para terrorismo)</td>
+            </tr>
+            <tr>
+                <td><strong>Contato com órgãos de segurança</strong></td>
+                <td>Interação imprescindível no planejamento e na execução</td>
+            </tr>
+            <tr>
+                <td><strong>Exercícios</strong></td>
+                <td>Vistoria e evacuação <strong>regularmente treinadas e simuladas</strong></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - 8 pontos do plano de segurança</span>
+            Cadeia de comando, Assessoria de risco, Formulário para telefonistas, Plano de comunicação, Plano de vistoria, Evacuação do local, Contato com órgãos de segurança, Exercícios.
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>8.3 Classificação da ameaça</h2>
+
+        <div class="box-blue">
+            <strong>Reunião da Assessoria de Risco - avalia:</strong> <span class="ref-pagina">(p. 55)</span>
+            <ul>
+                <li>A <strong>natureza da denúncia</strong> (característica do autor, casos semelhantes, circunstâncias atuais, etc.);</li>
+                <li>O <strong>grau de risco</strong> que a ameaça representa (atividades da empresa, local das instalações, alvos em potencial, etc.);</li>
+                <li>As <strong>ações que a empresa poderá adotar</strong>.</li>
+            </ul>
+        </div>
+
+        <h3>Nomenclatura internacional - cores</h3>
+
+        <div class="box-green">
+            <strong>Ameaça VERDE:</strong> Não é levada em consideração. <span class="ref-pagina">(p. 56)</span>
+        </div>
+        <div class="box-orange">
+            <strong>Ameaça ÂMBAR:</strong> Pode vir a ser considerada. <span class="ref-pagina">(p. 56)</span>
+        </div>
+        <div class="box-red">
+            <strong>Ameaça VERMELHA:</strong> Constitui uma <strong>ameaça real</strong>. <span class="ref-pagina">(p. 56)</span>
+        </div>
+
+        <h3>PTI / IPA - Identificação Positiva do Alvo</h3>
+
+        <div class="box-purple">
+            <strong>Conceito-chave (cai em prova!):</strong> O <strong>PTI (Positive Target Identification)</strong> ou <strong>IPA (Identificação Positiva do Alvo)</strong> é fator de enorme relevância para a classificação da ameaça. Trata-se da informação referente ao alvo da ameaça (nome, cargo, setor, atividade específica, nomenclatura típica dos funcionários ou qualquer informação <strong>não pública</strong> incluída na ameaça), indicando <strong>conhecimento singular ou em primeira mão do alvo</strong>. <span class="ref-pagina">(p. 56)</span>
+        </div>
+
+        <h3>Tabela 4 - Classificação da ameaça</h3>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Ameaça VERDE</th>
+                <th>Ameaça ÂMBAR</th>
+                <th>Ameaça VERMELHA</th>
+            </tr>
+            <tr>
+                <td><strong>Definição</strong></td>
+                <td>Sem IPA, sem fato (motivação) gerador, sem precedentes.</td>
+                <td>Sem IPA, há fato gerador, credibilidade duvidosa.</td>
+                <td>É específica, alega e existe o motivo, a ameaça é real.</td>
+            </tr>
+            <tr>
+                <td><strong>Ação</strong></td>
+                <td>Registrar e desconsiderar.</td>
+                <td>Vistoria e, se necessário, evacuação (parcial ou total). Vigilância crescente.</td>
+                <td>Evacuação imediata total ou parcial, alto risco e sem tempo para vistorias (caso extremo). Ameaça real.</td>
+            </tr>
+        </table>
+        <p class="ref-pagina">Tabela 4 - Classificação da ameaça. (p. 56)</p>
+
+        <div class="box-orange">
+            <strong>Registro obrigatório:</strong> Sempre deverá ser feito o <strong>registro da ameaça</strong>, o qual poderá ser levado em conta em uma nova ameaça. <span class="ref-pagina">(p. 56)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>8.4 Procedimentos de vistoria</h2>
+
+        <div id="sec4a">
+            <h3>Planejamento</h3>
+
+            <div class="box-blue">
+                <strong>Objetivo principal:</strong> Assegurar que a vistoria seja realizada <strong>em tempo hábil e de forma efetiva</strong>. <span class="ref-pagina">(p. 56)</span>
+            </div>
+
+            <ul>
+                <li>Como uma vistoria completa e sistemática <strong>leva tempo</strong>, as responsabilidades devem ser divididas entre, <strong>pelo menos, dois funcionários</strong> dos setores a serem vistoriados; <span class="ref-pagina">(p. 56)</span></li>
+                <li>O plano deve ser <strong>testado, discutido, avaliado e corrigido</strong> em pontos falhos, e compilado em documento para divulgação. <span class="ref-pagina">(p. 56)</span></li>
+            </ul>
+        </div>
+
+        <div id="sec4b">
+            <h3>Tipos de vistoria</h3>
+
+            <p>Existem <strong>três tipos de vistoria</strong>, cada qual com vantagens e desvantagens: <span class="ref-pagina">(p. 57)</span></p>
+
+            <table>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Características</th>
+                    <th>Eficácia</th>
+                </tr>
+                <tr>
+                    <td><strong>Vistoria de rotina (fiscalização)</strong></td>
+                    <td>Equipe encarregada unicamente de fiscalizar áreas sob sua responsabilidade, <strong>sem estar em estado de alerta</strong>. Geralmente não vistoria locais sujos ou desagradáveis.</td>
+                    <td><strong>50% a 65%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Vistoria pelos próprios ocupantes</strong></td>
+                    <td>Geralmente os mais qualificados para vistoriar suas áreas, reconhecendo o que não lhes pertence. Rápida e eficiente, mas exige treinamento adicional; alguns relutam pelo risco.</td>
+                    <td><strong>80% a 90%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Vistoria por equipe treinada</strong></td>
+                    <td>Equipe comprometida com segurança: brigada de incêndio, segurança física, esquadrão antibombas. Necessita treinamento técnico, disciplina, raciocínio lógico e iniciativa. Mais vagarosa por não conhecer o local.</td>
+                    <td><strong>Acima de 90%</strong></td>
+                </tr>
+            </table>
+
+            <div class="box-green">
+                <strong>Recomendação da doutrina:</strong> Na maioria dos casos, a vistoria deve ser realizada pelo <strong>pessoal ocupante do local ameaçado</strong>. Em caso de localização positiva de objeto suspeito de ser artefato explosivo, deve ser acionado o <strong>esquadrão antibombas da polícia</strong>. <span class="ref-pagina">(p. 57)</span>
+            </div>
+
+            <div class="box-orange">
+                <strong>Equipe treinada:</strong> A busca deve ser feita com o acompanhamento da <strong>segurança local e/ou de funcionário que conheça o ambiente</strong>. <span class="ref-pagina">(p. 57)</span>
+            </div>
+
+            <div class="box-red">
+                <strong>Fadiga e estresse:</strong> Independentemente do método, a vistoria leva tempo e gera fadiga, perda de concentração e estresse, <strong>comprometendo a eficácia</strong>. Devem ser planejados <strong>intervalos para descanso e/ou revezamento</strong> entre as equipes. <span class="ref-pagina">(p. 57)</span>
+            </div>
+        </div>
+
+        <div id="sec4c">
+            <h3>Início da vistoria</h3>
+
+            <p>Vários métodos podem desencadear uma vistoria: <span class="ref-pagina">(p. 57-58)</span></p>
+            <ul>
+                <li>Por meio de <strong>sistema de som</strong>, de forma <strong>codificada</strong>, para evitar pânico e interrupção desnecessária das atividades;</li>
+                <li>Usando <strong>telefonemas em cascata</strong>, em que cada pessoa avisa a outras três e assim sucessivamente;</li>
+                <li>Por meio de <strong>radiocomunicação</strong>, em locais com esse sistema disponível.</li>
+            </ul>
+        </div>
+
+        <div id="sec4d">
+            <h3>Ensaios e procedimentos de vistoria</h3>
+
+            <div class="box-blue">
+                <strong>Regras fundamentais:</strong> <span class="ref-pagina">(p. 58)</span>
+                <ul>
+                    <li>As vistorias devem ser sempre efetuadas por equipes de <strong>no mínimo dois técnicos</strong>;</li>
+                    <li>A busca deve ser realizada <strong>de fora para dentro</strong> e <strong>de baixo para cima</strong>;</li>
+                    <li>Todos os locais vistoriados deverão ser <strong>marcados e comunicados ao Centro de Controle</strong> a fim de evitar repetições.</li>
+                </ul>
+            </div>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Regra de OURO - Sentido da vistoria</span>
+                "De <strong>FORA para DENTRO</strong> e de <strong>BAIXO para CIMA</strong>"
+            </div>
+
+            <div class="box-purple">
+                <strong>Ensaio realista - observar objetos que:</strong> <span class="ref-pagina">(p. 58)</span>
+                <ul>
+                    <li>NÃO deveriam estar no local vistoriado;</li>
+                    <li>Estejam FORA do seu lugar habitual;</li>
+                    <li>Sejam SIMILARES ao objeto descrito na ameaça.</li>
+                </ul>
+                <strong>Nenhuma área deve ficar sem ser checada.</strong>
+            </div>
+        </div>
+
+        <div id="sec4e">
+            <h3>Vistoria de uma área externa</h3>
+
+            <div class="box-blue">
+                <strong>Importância:</strong> A vistoria da parte externa de um local ameaçado é <strong>especialmente importante</strong>, pois é por onde se inicia o contato e o acesso do criminoso que deseja atingir o seu alvo. <span class="ref-pagina">(p. 58)</span>
+            </div>
+
+            <div class="box-orange">
+                <strong>O que vistoriar:</strong> Floreiras, cestas de lixo, veículos estacionados e qualquer objeto ou obstáculo entre <strong>15 m e 20 m das edificações</strong>. <span class="ref-pagina">(p. 58)</span>
+            </div>
+        </div>
+
+        <div id="sec4f">
+            <h3>Vistoria em áreas de acesso público</h3>
+
+            <div class="box-red">
+                <strong>Vulnerabilidade:</strong> Assim como a área externa, a área de acesso público é bastante vulnerável. Os efeitos costumam ser desastrosos: pode ser o objetivo do criminoso espalhar <strong>terror, pânico, destruição</strong> e provocar grande repercussão na mídia. <span class="ref-pagina">(p. 58)</span>
+            </div>
+
+            <div class="box-purple">
+                <strong>O que vistoriar:</strong> Salas de escritórios, salas de espera, escadas, elevadores e <strong>banheiros</strong>. <span class="ref-pagina">(p. 58)</span>
+            </div>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">ATENÇÃO - Local preferido para ocultação</span>
+                Os <strong>BANHEIROS</strong> são <strong>estatisticamente</strong> os locais preferidos para ocultação de artefatos explosivos. <span class="ref-pagina">(p. 58)</span>
+            </div>
+
+            <p>A vistoria deve prosseguir <strong>andar por andar</strong>. Em resumo, as vistorias devem ser feitas, geralmente, <strong>de fora para dentro e de baixo para cima</strong>. <span class="ref-pagina">(p. 58)</span></p>
+
+            <div class="box-orange">
+                <strong>Marcação:</strong> Todo local já vistoriado deve ser marcado <em>ou</em> uma <strong>área central de apoio</strong> deve ficar responsável por anotar os locais já verificados, evitando <strong>duplicidade de trabalho</strong> ou, pior, a <strong>omissão</strong>. <span class="ref-pagina">(p. 59)</span>
+            </div>
+
+            <p>Após toda a área de acesso público de cada andar ter sido vistoriada, deve-se proceder à <strong>vistoria detalhada das salas</strong>. <span class="ref-pagina">(p. 59)</span></p>
+        </div>
+
+        <div id="sec4g">
+            <h3>Vistoria detalhada de uma sala</h3>
+
+            <div class="box-blue">
+                <strong>Execução:</strong> Melhores executadas por técnicos treinados. Devem ser feitas com equipes de, <strong>no mínimo, dois técnicos</strong>. <span class="ref-pagina">(p. 59)</span>
+            </div>
+
+            <p>Inicia-se por uma <strong>breve parada na porta de acesso</strong> para <strong>avaliação audiovisual</strong> do local. Ruídos ou objetos suspeitos já podem indicar a necessidade de <strong>evacuar o local</strong>, após autorização do coordenador da vistoria. <span class="ref-pagina">(p. 59)</span></p>
+
+            <h4>Divisão visual do ambiente em 3 seções:</h4>
+
+            <table>
+                <tr>
+                    <th>Seção</th>
+                    <th>Altura</th>
+                </tr>
+                <tr>
+                    <td><strong>1</strong></td>
+                    <td>Do <strong>chão (inclusive) até a altura da cintura</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>2</strong></td>
+                    <td>Da altura da <strong>cintura até a altura da cabeça</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>3</strong></td>
+                    <td>Da altura da <strong>cabeça até o teto, inclusive</strong></td>
+                </tr>
+            </table>
+
+            <div class="box-green">
+                <strong>Movimentação:</strong> Um dos técnicos inicia a vistoria do ambiente no <strong>sentido horário</strong> e o outro no <strong>sentido anti-horário</strong>, verificando lustres, objetos sobre os móveis, etc. <span class="ref-pagina">(p. 59)</span>
+            </div>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Mnemônico - Sala detalhada</span>
+                <strong>2 técnicos</strong>, sentidos <strong>opostos (horário + anti-horário)</strong>, em <strong>3 alturas</strong> (chão→cintura, cintura→cabeça, cabeça→teto).
+            </div>
+        </div>
+
+        <div id="sec4h">
+            <h3>Recomendações gerais</h3>
+
+            <div class="box-red">
+                <strong>REGRA DE OURO:</strong> Caso um objeto suspeito seja encontrado, a principal regra de segurança é <strong>NÃO O TOCAR</strong>. <span class="ref-pagina">(p. 59)</span>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Procedimento</th>
+                    <th>Detalhe</th>
+                </tr>
+                <tr>
+                    <td>Pessoas presentes</td>
+                    <td>Encaminhadas para <strong>área segura</strong></td>
+                </tr>
+                <tr>
+                    <td>Coordenador de segurança</td>
+                    <td>Informado <strong>imediatamente</strong> para iniciar evacuação</td>
+                </tr>
+                <tr>
+                    <td>Sentido da evacuação</td>
+                    <td>Conduzida a partir dos <strong>pisos superiores e distantes</strong> do local sob ameaça</td>
+                </tr>
+                <tr>
+                    <td>Comunicação</td>
+                    <td>Todas as informações <strong>imediatamente</strong> à central de controle</td>
+                </tr>
+                <tr>
+                    <td>Policiais</td>
+                    <td>Mesma regra: <strong>NÃO TOCAR</strong> até avaliação da técnica de remoção/desativação</td>
+                </tr>
+                <tr>
+                    <td>Quem encontrou</td>
+                    <td>Apresentado ao coordenador de segurança para entrevista; em atendimento policial, fica à disposição da polícia</td>
+                </tr>
+            </table>
+
+            <div class="box-orange">
+                <strong>Objetos suspeitos NÃO em áreas confinadas:</strong> Devem-se abrir <strong>portas e janelas, com exame prévio</strong>, para facilitar o escape das <strong>ondas de choque</strong> numa possível explosão. <span class="ref-pagina">(p. 59)</span>
+            </div>
+
+            <div class="box-purple">
+                <strong>Outras providências:</strong> <span class="ref-pagina">(p. 60)</span>
+                <ul>
+                    <li>Retirar das proximidades da <strong>área crítica</strong> material inflamável ou explosivo armazenado, evitando potencialização dos efeitos da explosão;</li>
+                    <li>Providenciar o <strong>desligamento de equipamentos</strong> e, dependendo do caso, de <strong>elevadores</strong>, visando deixar o ambiente sem alterações;</li>
+                    <li>Procurar saber a <strong>quem pertence</strong> o objeto, quem o deixou no local; se de ninguém, evacuar o local, <strong>mas não manusear, abrir ou remover</strong> o material suspeito.</li>
+                </ul>
+            </div>
+
+            <div class="box-red">
+                <strong>PROIBIÇÕES (NÃO FAZER):</strong> <span class="ref-pagina">(p. 60)</span>
+                <ul>
+                    <li><strong>NÃO</strong> tentar remover ou manusear um artefato explosivo encontrado e que esteja aparentemente "falhado";</li>
+                    <li><strong>NÃO</strong> tentar desroscar uma <strong>bomba-cano</strong>, pois partículas de explosivos ou <strong>limalha de ferro</strong> podem estar presentes nas roscas de fechamento;</li>
+                    <li><strong>NÃO</strong> tentar os mesmos procedimentos operacionais utilizados para bombas caseiras em <strong>artefatos militares</strong> - notificar a <strong>unidade militar</strong> mais próxima;</li>
+                    <li><strong>NÃO</strong> cortar fio, arame ou cordão que esteja ligado ao objeto suspeito.</li>
+                </ul>
+            </div>
+
+            <div class="box-orange">
+                <strong>Mitigação dos efeitos:</strong> Cercar o material suspeito com <strong>sacos de areia, capim, poltronas</strong>, etc., para que orientem as <strong>ondas de choque</strong> e recolham os <strong>fragmentos</strong> da bomba. <span class="ref-pagina">(p. 60)</span>
+            </div>
+
+            <div class="box-green">
+                <strong>Documentação:</strong> Um <strong>diagrama ou esboço</strong> do objeto e do local onde foi encontrado deve ser feito <strong>tão breve quanto possível</strong>, para ser apresentado ao esquadrão antibombas, que deverá planejar seus procedimentos levando em consideração também o diagrama. <span class="ref-pagina">(p. 60)</span>
+            </div>
+
+            <div class="box-blue">
+                <strong>Apoio:</strong> Notificar os <strong>bombeiros</strong> e, quando necessário, solicitar <strong>ajuda médica</strong>, deixando uma <strong>equipe de plantão no hospital</strong>. <span class="ref-pagina">(p. 60)</span>
+            </div>
+        </div>
+
+        <div id="sec4i">
+            <h3>Reocupação das instalações</h3>
+
+            <div class="box-blue">
+                <strong>Decisão de retorno:</strong> Após a evacuação, terá de ser tomada a decisão de reocupação do local das instalações, retornando-se à rotina. <span class="ref-pagina">(p. 60)</span>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Situação</th>
+                    <th>Procedimento</th>
+                </tr>
+                <tr>
+                    <td>Objeto suspeito localizado e polícia acionada</td>
+                    <td>Local permanece sob <strong>controle policial</strong> até a área ser declarada segura. Declarada segura, o controle retorna ao <strong>coordenador de segurança</strong>.</td>
+                </tr>
+                <tr>
+                    <td>Ameaça estipula hora da explosão e não acontece</td>
+                    <td>Aguardar prazo <strong>mínimo de 20 minutos</strong> antes de iniciar reocupação, começar ou continuar a vistoria.</td>
+                </tr>
+                <tr>
+                    <td>Evacuação ordenada <strong>sem vistoria</strong></td>
+                    <td>Efetuar a vistoria, por <strong>cautela</strong>, antes da reocupação.</td>
+                </tr>
+            </table>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Número-chave</span>
+                Hora marcada que não cumpriu: aguardar <strong>20 minutos no mínimo</strong>.
+            </div>
+
+            <div class="box-red">
+                <strong>Obs. importante:</strong> Por causa da ameaça de bomba, existe a possibilidade de que as instalações venham a se tornar <strong>local de crime</strong>, devendo permanecer sob <strong>controle policial por um considerável período de tempo</strong>. <span class="ref-pagina">(p. 60)</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>8.5 Inter-relações dos trabalhos preventivos</h2>
+
+        <div class="box-blue">
+            <strong>Trabalho em equipe:</strong> Os trabalhos de vistorias preventivas frequentemente envolvem diversos setores dos órgãos de segurança pública e os mais diversos segmentos da sociedade. Como todo bom trabalho em equipe, é fundamental uma <strong>interação mínima entre todos os componentes</strong>. <span class="ref-pagina">(p. 71)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Âmbito da PF:</strong> Devem interagir todos os setores direta ou indiretamente envolvidos tanto na execução quanto, principalmente, no <strong>planejamento</strong>, otimizando recursos humanos e materiais e analisando criticamente em conjunto os resultados. <span class="ref-pagina">(p. 71)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Relacionamento com outros componentes:</strong> Deve-se buscar a <strong>padronização de procedimentos</strong>, norteados pela segurança, evitando que <strong>divergências oriundas de escolas de formações distintas</strong> criem barreiras na consecução dos trabalhos. <span class="ref-pagina">(p. 71)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>8.6 Vistoria em veículos</h2>
+
+        <h3>8.6.1 Automóveis</h3>
+
+        <div class="box-red">
+            <strong>Periculosidade dos carros-bomba:</strong> Os carros-bomba são <strong>dos mais perigosos artefatos explosivos improvisados</strong>. Têm alto <strong>poder de sinergismo</strong> pela fragmentação de sua própria estrutura e hospedam uma gama de dispositivos mecânicos, elétricos e eletrônicos. Podem usar de <strong>poucos gramas</strong> (atentados pessoais) até <strong>centenas de quilogramas</strong> (destruição em larga escala e muitas vidas humanas). <span class="ref-pagina">(p. 71)</span>
+        </div>
+
+        <p>A vistoria de um automóvel assemelha-se à <strong>vistoria de uma edificação</strong>, com os mesmos princípios básicos. <span class="ref-pagina">(p. 71)</span></p>
+
+        <h4>8.6.1.1 Vistoria externa</h4>
+
+        <div class="box-blue">
+            <strong>Princípio:</strong> Iniciar a vistoria externa, eliminando <strong>gradual e logicamente</strong> os perigos potenciais. <span class="ref-pagina">(p. 71)</span>
+        </div>
+
+        <ul>
+            <li>É prudente fazer uma <strong>observação à distância</strong>, usando <strong>binóculos</strong> para notar algum sinal suspeito óbvio; <span class="ref-pagina">(p. 71)</span></li>
+            <li>Decidindo-se pela aproximação, esta deve ser feita em <strong>sentido diagonal ao automóvel</strong>, concentrando a atenção na área ao redor e mantendo-se alerta para <strong>sinais de entrada forçada</strong> (arrombamento e/ou violação); <span class="ref-pagina">(p. 71)</span></li>
+            <li>Verificar resquícios de <strong>fitas adesivas, fios, cordões ou barbantes, marcas no solo, pegadas</strong>, etc., ao redor ou embaixo do automóvel. <span class="ref-pagina">(p. 71-72)</span></li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Atenção - locais ocultos comuns:</strong> Espaços originais embaixo do automóvel. Vistoriar por baixo, observando <strong>sinais de remoção da sujeira</strong> em: <span class="ref-pagina">(p. 72)</span>
+            <ul>
+                <li>Chassis;</li>
+                <li>Parte interna das rodas;</li>
+                <li>Para-lamas;</li>
+                <li>Sistema de <strong>exaustão (escapamento)</strong>;</li>
+                <li>Partes internas dos <strong>para-choques</strong>, rodas;</li>
+                <li>Suspensão, tanque de combustível, radiador, bloco do motor, etc.</li>
+            </ul>
+        </div>
+
+        <div class="box-purple">
+            <strong>Parte elétrica:</strong> Observar a possível existência de <strong>fios com a mesma bitola dos fios usados em detonadores elétricos</strong>, próximos a partes elétricas do automóvel: lanternas de sinalização, faróis, bateria, etc. <span class="ref-pagina">(p. 72)</span>
+        </div>
+
+        <h4>8.6.1.2 Vistoria interna</h4>
+
+        <p>Completada a vistoria externa, passar para a parte interna do automóvel, primeiramente <strong>inspecionando através dos vidros</strong>, até onde a visão possa alcançar. <span class="ref-pagina">(p. 72)</span></p>
+
+        <div class="box-orange">
+            <strong>Técnica ativa (apenas pela polícia):</strong> Instalar <strong>ganchos e/ou ventosas</strong> presos a <strong>cordas</strong> que serão puxadas a distância, provocando movimento e eliminando a possibilidade do uso de <strong>sistemas de acionamento por movimento</strong>. Essa técnica <strong>só deve ser usada por técnicos da polícia</strong>. <span class="ref-pagina">(p. 72)</span>
+        </div>
+
+        <p>Estando o automóvel aberto ou na presença do proprietário/motorista, inicia-se a vistoria interna: <span class="ref-pagina">(p. 72)</span></p>
+
+        <table>
+            <tr>
+                <th>Local</th>
+                <th>Itens a checar</th>
+            </tr>
+            <tr>
+                <td><strong>Assoalho</strong></td>
+                <td>Embaixo dos assentos, tapetes e forração do assoalho</td>
+            </tr>
+            <tr>
+                <td><strong>Assentos</strong></td>
+                <td>Assentos, encostos, descanso de braço, encosto de cabeça, bolsas, porta-objetos, cinzeiros, etc.</td>
+            </tr>
+            <tr>
+                <td><strong>Acessórios</strong></td>
+                <td>Embaixo do painel, dutos do ar-condicionado/ar quente, isqueiros, rádios, porta-luvas, etc.</td>
+            </tr>
+            <tr>
+                <td><strong>Compartimento do motor e porta-malas</strong></td>
+                <td>Inspecionar detalhadamente; observar pneu estepe e seu compartimento, caixa de ferramentas, etc.</td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>Objeto suspeito:</strong> Caso seja encontrado algum objeto suspeito, <strong>NÃO tocá-lo e isolar a área</strong>. <span class="ref-pagina">(p. 72)</span>
+        </div>
+
+        <h4>8.6.1.3 Outras considerações</h4>
+
+        <ul>
+            <li>A vistoria torna-se mais fácil se o <strong>proprietário ou motorista</strong> forem localizados, para prestar esclarecimentos a respeito de itens sob suspeição; <span class="ref-pagina">(p. 72)</span></li>
+            <li>Se possível, fazer <strong>vistoria comparativa</strong>, utilizando automóvel de <strong>igual marca e modelo</strong>, com auxílio de um <strong>mecânico</strong>; <span class="ref-pagina">(p. 72-73)</span></li>
+            <li>Esgotadas essas possibilidades via investigação, os técnicos da polícia utilizam <strong>técnicas ativas</strong> de abordagem: abertura de compartimentos com <strong>ventosas e ganchos presos a cordas</strong>, uso de <strong>espoletas, cordel detonante ou canhão d'água</strong>. <span class="ref-pagina">(p. 73)</span></li>
+        </ul>
+
+        <h3>8.6.2 Aeronaves</h3>
+
+        <div class="box-blue">
+            <strong>Procedimentos na vistoria de aeronaves:</strong> <span class="ref-pagina">(p. 73)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Procedimento</th>
+                <th>Detalhe</th>
+            </tr>
+            <tr>
+                <td>Evacuação</td>
+                <td>A aeronave deve ser evacuada e posicionada em um <strong>ponto remoto</strong></td>
+            </tr>
+            <tr>
+                <td>Isolamento inicial</td>
+                <td>Raio <strong>mínimo de 100 m</strong></td>
+            </tr>
+            <tr>
+                <td>Desembarque</td>
+                <td>Passageiros e tripulação sempre de maneira <strong>ordenada</strong></td>
+            </tr>
+            <tr>
+                <td>Viaturas</td>
+                <td>Posicionamento em <strong>ordem lógica</strong>, conforme necessidade de permanência</td>
+            </tr>
+            <tr>
+                <td>Bagagens, malotes e encomendas</td>
+                <td>Descarregados pelo <strong>controle da empresa</strong></td>
+            </tr>
+            <tr>
+                <td>Reconhecimento de bagagens</td>
+                <td>Acompanhado pelo <strong>dono</strong>; em suspeita, solicitar abertura (sempre considerar <strong>possibilidade de ação suicida</strong>)</td>
+            </tr>
+            <tr>
+                <td>Materiais suspeitos</td>
+                <td>Ficam de <strong>quarentena</strong></td>
+            </tr>
+            <tr>
+                <td>Portas</td>
+                <td>TODAS abertas, inclusive as de <strong>emergência</strong> (sob supervisão do pessoal técnico)</td>
+            </tr>
+            <tr>
+                <td>Início da vistoria</td>
+                <td>Na <strong>companhia de funcionários da empresa aérea</strong>, priorizando os pontos <strong>mais vulneráveis</strong></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Pontos de ocultação mais comuns em aeronaves:</strong> <span class="ref-pagina">(p. 73)</span>
+            <ul>
+                <li><strong>Trem de pouso</strong> e aterrissagem;</li>
+                <li><strong>Compartimentos de carga</strong>;</li>
+                <li><strong>Lixeiras dos toaletes</strong>;</li>
+                <li>Compartimentos de <strong>toalhas de papel</strong>;</li>
+                <li><strong>Embaixo das poltronas</strong>;</li>
+                <li><strong>Bagageiros suspensos</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>Artefato encontrado em aeronave:</strong> Além dos procedimentos normalmente adotados, pensar em <strong>esvaziar os tanques de combustível</strong> do aparelho e <strong>remover o artefato para uma área remota</strong>. <span class="ref-pagina">(p. 73)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Números-chave - Aeronaves</span>
+            Isolamento: <strong>raio mínimo de 100 m</strong>.
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>8.7 Fundamentos legais</h2>
+
+        <div class="box-blue">
+            <strong>Fundamentação legal aplicada à área de competência do DPF:</strong> <span class="ref-pagina">(p. 74)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Instrumento</th>
+                <th>Referência</th>
+            </tr>
+            <tr>
+                <td><strong>Constituição Federal</strong></td>
+                <td>Itens <strong>I e IV</strong> do parágrafo primeiro do <strong>art. 144</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Norma de Serviço</strong></td>
+                <td>nº <strong>001/80-CCP/DPF</strong> - RESERVADA</td>
+            </tr>
+            <tr>
+                <td><strong>Instrução Normativa</strong></td>
+                <td>nº <strong>008/88-DG/DPF</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Instrução Normativa</strong></td>
+                <td>nº <strong>005/04-DG/DPF</strong></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo final do Capítulo 8</span>
+            <ul>
+                <li><strong>Tratamento da informação</strong>: discrição, fidelidade, treinamento de telefonistas, formulário, gravação;</li>
+                <li><strong>Plano de segurança</strong>: 8 pontos (cadeia de comando, assessoria de risco, formulários, comunicação, vistoria, evacuação, contato externo, exercícios);</li>
+                <li><strong>Classificação</strong>: VERDE / ÂMBAR / VERMELHA, com base em <strong>IPA/PTI</strong>;</li>
+                <li><strong>Vistoria</strong>: de FORA para DENTRO, de BAIXO para CIMA, em DUPLA, eficácia 50-65% / 80-90% / +90%;</li>
+                <li><strong>Sala</strong>: 3 alturas (cintura, cabeça, teto), sentidos horário + anti-horário;</li>
+                <li><strong>Regra de ouro</strong>: NÃO TOCAR objeto suspeito;</li>
+                <li><strong>Reocupação</strong>: 20 minutos mínimo se horário descumprido;</li>
+                <li><strong>Veículos</strong>: aproximação diagonal, binóculos, técnicas ativas só pela polícia;</li>
+                <li><strong>Aeronaves</strong>: raio mínimo 100 m, banheiros e lixeiras são pontos preferidos.</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>
