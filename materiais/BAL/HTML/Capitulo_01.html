@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 1 - Balística: Conceituação e Divisões</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .etimologia { background: #f7fafc; border: 1px solid #cbd5e0; padding: 15px; border-radius: 6px; text-align: center; font-size: 1.05em; margin: 15px 0; }
+        .etimologia .seta { color: #2b6cb0; font-weight: bold; margin: 0 8px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">BAL</span>
+        <h1>Capítulo 1 - Balística: Conceituação e Divisões</h1>
+        <div class="subtitle">Conceito, origem e ramos de estudo da Balística Forense</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Origem etimológica do termo "Balística"</a></li>
+            <li><a href="#sec2">2. Balística Geral vs. Balística Forense</a></li>
+            <li><a href="#sec3">3. Divisões didáticas: Interna, Externa e Terminal</a></li>
+            <li><a href="#sec4">4. Quadro comparativo das três divisões</a></li>
+            <li><a href="#sec5">1.1 Principais campos de estudo na Polícia Federal</a></li>
+            <li><a href="#sec6">5. Síntese final</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Origem etimológica do termo "Balística"</h2>
+
+        <div class="box-blue">
+            <strong>Origem do termo:</strong> O termo balística origina-se, provavelmente, da palavra latina <strong>baleare</strong>, que, por sua vez, deriva do grego <strong>βαλλω (ballo)</strong>, que significa <strong>atirar, arremessar</strong>. <span class="ref-pagina">(p. 9)</span>
+        </div>
+
+        <div class="etimologia">
+            Grego <strong>βαλλω (ballo)</strong> <span class="seta">&rarr;</span> Latim <strong>baleare</strong> <span class="seta">&rarr;</span> <strong>Balística</strong><br>
+            <span style="font-size:0.9em; color:#4a5568;">(significado: atirar, arremessar)</span>
+        </div>
+
+        <p>A Balística, enquanto um ramo da Física e como uma ferramenta técnico-científica da Criminalística, pode ser dividida e conceituada em dois grandes campos. <span class="ref-pagina">(p. 9)</span></p>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Balística Geral vs. Balística Forense</h2>
+
+        <div class="box-green">
+            <strong>Balística Geral:</strong> é a parte da Física, compreendida no capítulo da Mecânica, que estuda o <strong>movimento dos projéteis</strong>, conceituando-se como projétil <strong>todo corpo que se desloca livre no espaço, em virtude de um impulso recebido</strong> (Rabello, 1995, p.21). <span class="ref-pagina">(p. 9)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Balística Forense (ou simplesmente Balística):</strong> é uma <strong>disciplina integrante da Criminalística</strong>, que estuda as <strong>armas de fogo, sua munição e os efeitos dos disparos</strong> por elas produzidos, sempre que tiverem uma <strong>relação direta ou indireta com infrações penais</strong>, visando a esclarecer e a provar sua ocorrência (Tochetto, 2011, p.3). <span class="ref-pagina">(p. 9)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Aspecto</th>
+                <th>Balística Geral</th>
+                <th>Balística Forense</th>
+            </tr>
+            <tr>
+                <td><strong>Natureza</strong></td>
+                <td>Ramo da Física (Mecânica)</td>
+                <td>Disciplina da Criminalística</td>
+            </tr>
+            <tr>
+                <td><strong>Objeto de estudo</strong></td>
+                <td>Movimento dos projéteis em geral</td>
+                <td>Armas de fogo, munição e efeitos dos disparos</td>
+            </tr>
+            <tr>
+                <td><strong>Vínculo</strong></td>
+                <td>Estudo científico abrangente</td>
+                <td>Relação direta ou indireta com infrações penais</td>
+            </tr>
+            <tr>
+                <td><strong>Finalidade</strong></td>
+                <td>Compreender o deslocamento de corpos por impulso</td>
+                <td>Esclarecer e provar a ocorrência de fatos delituosos</td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Conceito de projétil:</strong> Todo corpo que se desloca livre no espaço, em virtude de um impulso recebido. <span class="ref-pagina">(p. 9)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Divisões didáticas da Balística Forense</h2>
+
+        <div class="box-blue">
+            <strong>Visão geral:</strong> Do ponto de vista didático, e para melhor entendimento dos diversos tipos de estudos realizados, a Balística Forense é constantemente dividida em <strong>três áreas</strong>: Interna, Externa e Terminal. <span class="ref-pagina">(p. 9)</span>
+        </div>
+
+        <h3>3.1 Balística Interna</h3>
+        <div class="box-green">
+            Estuda a <strong>estrutura, os mecanismos, o funcionamento e as características das armas de fogo</strong>, bem como os fenômenos e os efeitos ocorridos na arma, <strong>desde a detonação da espoleta</strong>, por meio da ação do sistema de percussão, <strong>até o momento em que o projétil sai do cano</strong>. <span class="ref-pagina">(p. 9)</span>
+        </div>
+
+        <h3>3.2 Balística Externa</h3>
+        <div class="box-orange">
+            Estuda o projétil <strong>desde a sua saída do cano até o momento de sua parada final</strong>, analisando sua <strong>trajetória, velocidade e energia</strong>, para determinar como as características do projétil (geometria, massa e movimentos) e fatores externos (<strong>resistência do ar e ação da gravidade</strong>) interferem nestas grandezas. <span class="ref-pagina">(p. 9)</span>
+            <p style="margin-top:10px;">Na Balística Externa também estão incluídos os estudos para se determinar <strong>alcance de tiro, alcance útil, alcance máximo e alcance com precisão</strong> e outras características do <strong>tiro prático e do tiro militar</strong>. <span class="ref-pagina">(p. 9)</span></p>
+        </div>
+
+        <h3>3.3 Balística Terminal</h3>
+        <div class="box-purple">
+            Estuda os <strong>efeitos produzidos pelo projétil ao atingir um alvo</strong>. Quando o alvo é humano: <span class="ref-pagina">(p. 9)</span>
+            <ul>
+                <li>Cabe à <strong>Medicina Legal</strong> o estudo dos <strong>vestígios intrínsecos</strong> ao ser humano (<strong>lesões traumáticas</strong>);</li>
+                <li>Cabe à <strong>Balística</strong> os <strong>vestígios extrínsecos</strong> ao ser humano (<strong>resíduos de pólvora e projéteis</strong>).</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: I-E-T (as 3 fases do projétil)</span>
+            <ul>
+                <li><strong>I</strong>nterna &rarr; dentro da arma (espoleta &rarr; saída do cano)</li>
+                <li><strong>E</strong>xterna &rarr; no ar (saída do cano &rarr; parada final)</li>
+                <li><strong>T</strong>erminal &rarr; no alvo (efeitos ao atingir)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Quadro comparativo das três divisões</h2>
+
+        <table>
+            <tr>
+                <th>Divisão</th>
+                <th>Objeto de estudo</th>
+                <th>Início</th>
+                <th>Fim</th>
+            </tr>
+            <tr>
+                <td><strong>Balística Interna</strong></td>
+                <td>Estrutura, mecanismos, funcionamento e características das armas de fogo; fenômenos e efeitos ocorridos na arma</td>
+                <td>Detonação da espoleta (ação do sistema de percussão)</td>
+                <td>Saída do projétil pelo cano</td>
+            </tr>
+            <tr>
+                <td><strong>Balística Externa</strong></td>
+                <td>Trajetória, velocidade e energia do projétil; influência de geometria, massa, movimentos, resistência do ar e gravidade; alcances (de tiro, útil, máximo e com precisão); tiro prático e militar</td>
+                <td>Saída do projétil do cano</td>
+                <td>Parada final do projétil</td>
+            </tr>
+            <tr>
+                <td><strong>Balística Terminal</strong></td>
+                <td>Efeitos produzidos pelo projétil no alvo; em alvo humano: vestígios extrínsecos (resíduos de pólvora e projéteis) - os intrínsecos (lesões traumáticas) cabem à Medicina Legal</td>
+                <td>Impacto do projétil no alvo</td>
+                <td>Cessação dos efeitos no alvo</td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>Atenção - divisão de competência na Balística Terminal:</strong>
+            <ul>
+                <li><strong>Medicina Legal</strong> &rarr; vestígios <strong>INTRÍNSECOS</strong> (lesões traumáticas no corpo humano);</li>
+                <li><strong>Balística</strong> &rarr; vestígios <strong>EXTRÍNSECOS</strong> (resíduos de pólvora e projéteis).</li>
+            </ul>
+            <span class="ref-pagina">(p. 9)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>1.1 Balística - principais campos de estudo</h2>
+
+        <div class="box-blue">
+            <strong>Autonomia da disciplina:</strong> A Balística, apesar de ter suas origens na Medicina Legal, logo passou a desenvolver seus <strong>próprios métodos de investigação e técnicas de pesquisa</strong>, de modo que hoje ela é tratada como uma <strong>disciplina autônoma dentro da Criminalística</strong>. <span class="ref-pagina">(p. 10)</span>
+        </div>
+
+        <p>Entre os principais campos de atuação e de pesquisa na Polícia Federal, podem ser destacados: <span class="ref-pagina">(p. 10)</span></p>
+
+        <h3>4.1 Caracterização das armas de fogo</h3>
+        <div class="box-green">
+            Determinação das <strong>características diferenciais</strong> dos diversos tipos de armas de fogo, bem como seus <strong>mecanismos de funcionamento</strong> e suas peculiaridades, de modo a permitir <strong>classificar um determinado armamento</strong> e <strong>verificar se este foi ou não adulterado</strong> quanto às suas características originais. <span class="ref-pagina">(p. 10)</span>
+        </div>
+
+        <h3>4.2 Identificação das armas de fogo</h3>
+        <div class="box-purple">
+            Divide-se em duas modalidades: <span class="ref-pagina">(p. 10)</span>
+            <ul>
+                <li><strong>Imediata:</strong> são determinadas as características do armamento;</li>
+                <li><strong>Mediata:</strong> são determinados e comparados os <strong>vestígios impressos pelo armamento</strong> em elementos de munição por ele disparados ou deflagrados - por exemplo, os <strong>confrontos balísticos em estojos e projéteis</strong>, de fundamental importância para a Criminalística.</li>
+            </ul>
+        </div>
+
+        <h3>4.3 Verificação de eficiência de armas de fogo</h3>
+        <div class="box-orange">
+            Verificação das <strong>propriedades de um determinado armamento</strong> e de sua <strong>capacidade de efetuar ou não um disparo</strong>. No caso de a arma estar apta a efetuar disparos, determinação dos possíveis efeitos dos disparos, relacionando esses dados com os efeitos constatados na investigação. <span class="ref-pagina">(p. 10)</span>
+        </div>
+
+        <h3>4.4 Regeneração de elementos identificadores</h3>
+        <div class="box-blue">
+            Determinação de <strong>marca, modelo, procedência e número de série</strong> de armamentos nos quais estes identificadores tenham sido <strong>removidos ou adulterados</strong>, incluindo-se aqui a <strong>revelação de caracteres</strong>. <span class="ref-pagina">(p. 10)</span>
+        </div>
+
+        <h3>4.5 Exames em munições e seus elementos</h3>
+        <div class="box-green">
+            Determinação de <strong>calibre, procedência, eficiência, energia e outras características</strong> de munições ou de seus elementos, que sejam pertinentes às investigações, bem como <strong>elementos indicativos de munições recarregadas</strong>. <span class="ref-pagina">(p. 10)</span>
+        </div>
+
+        <h3>4.6 Efeitos de impactos de projéteis em diferentes alvos</h3>
+        <div class="box-purple">
+            Determinação dos efeitos de impactos de projéteis em diferentes alvos. <span class="ref-pagina">(p. 10)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: 6 campos de estudo (C-I-V-R-E-E)</span>
+            <ul>
+                <li><strong>C</strong>aracterização das armas de fogo</li>
+                <li><strong>I</strong>dentificação (imediata e mediata)</li>
+                <li><strong>V</strong>erificação de eficiência</li>
+                <li><strong>R</strong>egeneração de elementos identificadores</li>
+                <li><strong>E</strong>xames em munições</li>
+                <li><strong>E</strong>feitos de impactos em alvos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>5. Síntese final</h2>
+
+        <div class="box-blue">
+            <strong>Resumo conceitual:</strong>
+            <ul>
+                <li>Etimologia: <strong>baleare</strong> (latim) &larr; <strong>βαλλω/ballo</strong> (grego) = atirar, arremessar. <span class="ref-pagina">(p. 9)</span></li>
+                <li><strong>Balística Geral</strong>: ramo da Física (Mecânica) - movimento dos projéteis. <span class="ref-pagina">(p. 9)</span></li>
+                <li><strong>Balística Forense</strong>: disciplina da Criminalística - armas de fogo, munição e efeitos dos disparos com relação a infrações penais. <span class="ref-pagina">(p. 9)</span></li>
+                <li>Três divisões didáticas: <strong>Interna</strong> (na arma), <strong>Externa</strong> (no ar) e <strong>Terminal</strong> (no alvo). <span class="ref-pagina">(p. 9)</span></li>
+                <li>Hoje é disciplina <strong>autônoma</strong> dentro da Criminalística, embora tenha origem na Medicina Legal. <span class="ref-pagina">(p. 10)</span></li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO DE PROVA:</strong> Decorar os <strong>limites de cada divisão</strong> (início e fim) e a <strong>divisão de competência</strong> na Balística Terminal (vestígios <strong>intrínsecos</strong> &rarr; Medicina Legal; <strong>extrínsecos</strong> &rarr; Balística). <span class="ref-pagina">(p. 9)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

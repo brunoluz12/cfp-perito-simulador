@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3 - Estudo das Armas Curtas (Revólver e Pistola)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">BAL</span>
+        <h1>Capítulo 3 - Estudo das Armas Curtas (Revólver e Pistola)</h1>
+        <div class="subtitle">Balística Forense - Academia Nacional de Polícia</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#intro">Introdução - Características das armas curtas</a></li>
+            <li><a href="#sec31">3.1 Estudo particular do revólver</a></li>
+            <li><a href="#sec311">3.1.1 Classificação dos revólveres</a></li>
+            <li><a href="#sec3111">&nbsp;&nbsp;&nbsp;3.1.1.1 Quanto à armação</a></li>
+            <li><a href="#sec3112">&nbsp;&nbsp;&nbsp;3.1.1.2 Quanto ao mecanismo de disparo</a></li>
+            <li><a href="#sec3113">&nbsp;&nbsp;&nbsp;3.1.1.3 Quanto à percussão</a></li>
+            <li><a href="#sec3114">&nbsp;&nbsp;&nbsp;3.1.1.4 Quanto à extração</a></li>
+            <li><a href="#sec3115">&nbsp;&nbsp;&nbsp;3.1.1.5 Quanto ao funcionamento</a></li>
+            <li><a href="#sec32">3.2 Estudo particular da pistola semiautomática</a></li>
+            <li><a href="#sec321">3.2.1 Classificação das pistolas</a></li>
+            <li><a href="#sec3211">&nbsp;&nbsp;&nbsp;3.2.1.1 Quanto ao funcionamento</a></li>
+            <li><a href="#sec3212">&nbsp;&nbsp;&nbsp;3.2.1.2 Quanto à montagem do cano</a></li>
+            <li><a href="#sec3213">&nbsp;&nbsp;&nbsp;3.2.1.3 Quanto à percussão</a></li>
+            <li><a href="#sec3214">&nbsp;&nbsp;&nbsp;3.2.1.4 Quanto ao mecanismo de disparo</a></li>
+            <li><a href="#comparativo">Tabela comparativa - Revólver x Pistola</a></li>
+        </ul>
+    </div>
+
+    <div id="intro" class="section">
+        <h2>Introdução - Características das armas curtas</h2>
+
+        <div class="box-blue">
+            <strong>Conceito original:</strong> As armas curtas foram concebidas originalmente como "armas portáteis de defesa individual, para o tiro a curta distância, preferivelmente à queima roupa". Sofreram profundas alterações estruturais desde sua invenção, no início do século XVI, até os dias de hoje. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <p>Apesar das variações em calibre, matéria de manufatura e mecanismos de ação, essas armas conservam algumas características fundamentais: <span class="ref-pagina">(p. 33)</span></p>
+
+        <ul>
+            <li>São armas de <strong>pequenas dimensões</strong>, raramente ultrapassando trinta centímetros totais ou canos com mais de quinze centímetros;</li>
+            <li>São armas <strong>leves</strong>, habitualmente com peso inferior a um quilo;</li>
+            <li>Apresentam <strong>mecanismos de disparo compactos</strong>;</li>
+            <li>Apresentam um <strong>ângulo anatômico entre a coronha e o cano</strong>, permitindo a utilização com apenas uma das mãos do atirador.</li>
+        </ul>
+
+        <div class="box-green">
+            <strong>Utilidade prática:</strong> Tais características permitem que sejam facilmente transportadas, manuseadas e escondidas, tornando-as de uso preferencial tanto para policiais quanto para meliantes. Os exemplares mais utilizados são os <strong>revólveres</strong> e as <strong>pistolas</strong>. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - 4 características das armas curtas: PLM-A</span>
+            <ul>
+                <li><strong>P</strong>equenas dimensões (≤ 30 cm; cano ≤ 15 cm)</li>
+                <li><strong>L</strong>eves (≤ 1 kg)</li>
+                <li><strong>M</strong>ecanismos de disparo compactos</li>
+                <li><strong>A</strong>ngulação anatômica coronha-cano (uso com uma mão)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec31" class="section">
+        <h2>3.1 Estudo particular do revólver</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> O revólver é uma arma de fogo de porte que apresenta um <strong>sistema de repetição não automático</strong>. Dada a relativa simplicidade de seu mecanismo de disparo e a robustez de construção, tolera abusos mais severos que outros tipos de armamento, em especial os semiautomáticos, mantendo, em condições desfavoráveis, o mesmo rendimento que em condições normais. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Característica marcante:</strong> Possui, para um único cano, <strong>várias câmaras de combustão</strong>, dispostas paralelamente em um cilindro perfurado denominado <strong>tambor</strong>. Quando o gatilho é acionado, o mecanismo de disparo alinha uma nova câmara, por meio da rotação do tambor, com o cano e o percussor. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <h3>Particularidades notáveis do revólver</h3>
+
+        <div class="box-orange">
+            <ul>
+                <li>É a <strong>única arma em utilização cujo cano não possui câmara de combustão</strong>, operando-se fora dele a deflagração dos cartuchos; <span class="ref-pagina">(p. 33)</span></li>
+                <li>É a <strong>única arma que NÃO está carregada</strong> quando existe um cartucho íntegro diretamente alinhado com o cano, pois o tambor sofre uma rotação previamente a um disparo; <span class="ref-pagina">(p. 33)</span></li>
+                <li>É a <strong>única arma que NÃO apresenta culatra</strong>, já que as câmaras de combustão são abertas em ambos os lados. A parte que segura os cartuchos no interior do tambor é denominada <strong>placa de obturação</strong>. <span class="ref-pagina">(p. 34)</span></li>
+            </ul>
+        </div>
+
+        <h3>Partes principais do revólver</h3>
+
+        <p>O revólver é constituído de quatro partes principais: <strong>armação, tambor, cano e mecanismo</strong>. <span class="ref-pagina">(p. 34)</span></p>
+
+        <table>
+            <tr>
+                <th>Parte</th>
+                <th>Função / Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Armação</strong></td>
+                <td>Constitui o corpo da arma; nela são afixadas, montadas ou articuladas as demais peças. Dá forma anatomicamente correta para o atirador e traz os elementos de identificação do fabricante (logotipo, origem, numeração de série). É a <strong>única peça que não pode ser substituída</strong> nos revólveres. Conforme o tamanho, classifica-se em pequeno, médio e grande. <span class="ref-pagina">(p. 34)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Tambor</strong></td>
+                <td>Receptáculo dos cartuchos. Quando impulsionado pelo gatilho, alimenta cartuchos íntegros para disparo. As câmaras têm diâmetro e comprimento adequados ao calibre nominal da arma. <span class="ref-pagina">(p. 34)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Cano</strong></td>
+                <td>Recebe o projétil da câmara e o conduz na direção determinada. Parte posterior é lisa e contém o <strong>cone de forçamento</strong> (recebe o projétil após sair da câmara, diminuindo-lhe o diâmetro). Parte anterior é raiada, conferindo rotação ao projétil para estabilidade giroscópica. <span class="ref-pagina">(p. 34)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Mecanismo</strong></td>
+                <td>Sistema composto pelos mecanismos de disparo, repetição e segurança, funcionando solidariamente. Constitui as peças móveis do revólver e converte a força muscular do atirador em acionamento da arma. <span class="ref-pagina">(p. 34)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec311" class="section">
+        <h2>3.1.1 Classificação dos revólveres</h2>
+
+        <div class="box-blue">
+            Os revólveres podem ser classificados, em função de sua variedade de estrutura e funcionamento, em diversas categorias distintas: <strong>quanto à armação, quanto ao mecanismo de disparo, quanto à percussão, quanto à extração e quanto ao funcionamento</strong>. <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - 5 critérios de classificação do revólver: A-M-P-E-F</span>
+            <ul>
+                <li><strong>A</strong>rmação</li>
+                <li><strong>M</strong>ecanismo de disparo</li>
+                <li><strong>P</strong>ercussão</li>
+                <li><strong>E</strong>xtração</li>
+                <li><strong>F</strong>uncionamento</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3111" class="section">
+        <h2>3.1.1.1 Quanto à armação</h2>
+
+        <p>A armação dos revólveres pode ser <strong>rígida</strong> ou <strong>articulada</strong>. <span class="ref-pagina">(p. 36)</span></p>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Características</th>
+            </tr>
+            <tr>
+                <td><strong>Rígida</strong></td>
+                <td>Introdução de cartuchos íntegros é feita um de cada vez, por uma <strong>janela lateral</strong>. A extração dos estojos também ocorre por essa janela, introduzindo-se uma vareta pela parte frontal da câmara. Pode ser <strong>inteiriça ou desmontável</strong>. NÃO é obsoleta - encontra aplicação em revólveres de grande calibre, em que um tambor reversível comprometeria a integridade estrutural. <span class="ref-pagina">(p. 36)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Articulada</strong></td>
+                <td>Existe um <strong>extrator único para todas as câmaras</strong>, com extração simultânea de todos os cartuchos ou estojos, mediante acionamento da vareta do extrator, posicionado à frente do tambor e em seu eixo. <span class="ref-pagina">(p. 36)</span></td>
+            </tr>
+        </table>
+
+        <h3>Subdivisões da armação articulada</h3>
+
+        <table>
+            <tr>
+                <th>Subtipo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Armação de junta (basculante)</strong></td>
+                <td>Cano e tambor articulam-se com a armação, como peça única, por meio de uma <strong>charneira ou dobradiça</strong>, localizada na parte súpero-posterior (próximo à alça de mira) ou na parte ínfero-anterior (à frente do guarda-mato). O basculamento aciona o extrator, extraindo <strong>automática e simultaneamente</strong> todos os estojos/cartuchos. <span class="ref-pagina">(p. 36)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Tambor reversível</strong></td>
+                <td>A armação é um quadro inteiriço e rígido; o tambor é montado em um suporte que se articula com a armação, projetando-o para fora em um arco. Com o tambor fora, o atirador aciona a vareta do extrator, que extrai <strong>simultaneamente, mas NÃO de modo automático</strong>, todos os cartuchos/estojos. <span class="ref-pagina">(p. 37)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-purple">
+            <strong>Sistemas de aferrolhamento (tambor reversível):</strong> Quando dentro da armação, para manter o alinhamento das câmaras com o cano, o tambor pode encaixar-se:
+            <ul>
+                <li><strong>Aferrolhamento simples:</strong> apenas na parte posterior;</li>
+                <li><strong>Aferrolhamento duplo:</strong> na parte posterior e na anterior.</li>
+            </ul>
+            <span class="ref-pagina">(p. 37)</span>
+        </div>
+    </div>
+
+    <div id="sec3112" class="section">
+        <h2>3.1.1.2 Quanto ao mecanismo de disparo</h2>
+
+        <p>Quanto ao mecanismo de disparo, os revólveres podem ser de <strong>movimento simples</strong> ou <strong>movimento duplo</strong>. <span class="ref-pagina">(p. 38)</span></p>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Movimento simples - Ação simples</strong></td>
+                <td>O cão precisa ser <strong>manualmente engatilhado</strong> antes de se efetuar o disparo por meio do acionamento do gatilho. <span class="ref-pagina">(p. 38)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Movimento simples - Ação dupla</strong></td>
+                <td>O cão <strong>não fica imobilizado na posição engatilhada</strong>; o atirador, por meio de pressão no gatilho, desloca o cão para a retaguarda a cada disparo. Sistema característico de revólveres com <strong>cão escamoteado</strong>. <span class="ref-pagina">(p. 38)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Movimento duplo</strong></td>
+                <td>O sistema funciona <strong>indiferentemente em ação simples ou ação dupla</strong>: o cão pode ficar na posição engatilhada (ação simples) ou na posição de descanso (ação dupla). <span class="ref-pagina">(p. 38)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec3113" class="section">
+        <h2>3.1.1.3 Quanto à percussão</h2>
+
+        <p>Quanto à percussão, os revólveres podem ser classificados como de <strong>percussão extrínseca</strong> (obsoletos na atualidade) e de <strong>percussão intrínseca</strong>. <span class="ref-pagina">(p. 38)</span></p>
+
+        <h3>Subdivisões da percussão intrínseca</h3>
+
+        <table>
+            <tr>
+                <th>Subtipo</th>
+                <th>Características</th>
+            </tr>
+            <tr>
+                <td><strong>Radial</strong></td>
+                <td>A munição NÃO apresenta cápsula de espoletamento. Praticamente <strong>restrita ao calibre .22"</strong>. <span class="ref-pagina">(p. 38)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Central</strong></td>
+                <td>A munição apresenta uma <strong>cápsula de espoletamento no centro da base</strong> do cartucho. Constitui a <strong>grande maioria dos revólveres da atualidade</strong>. <span class="ref-pagina">(p. 38)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Perpendicular</strong></td>
+                <td>Representada unicamente pelos <strong>obsoletos revólveres Lefaucheux</strong>. <span class="ref-pagina">(p. 38)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Percussão intrínseca - direta x indireta:</strong>
+            <ul>
+                <li><strong>Direta:</strong> o pino percussor está ligado diretamente ao cão, de modo fixo ou oscilante;</li>
+                <li><strong>Indireta:</strong> o cão transfere a energia de percussão por meio de um <strong>pino percussor flutuante alojado na armação</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 38)</span>
+        </div>
+    </div>
+
+    <div id="sec3114" class="section">
+        <h2>3.1.1.4 Quanto à extração</h2>
+
+        <p>Quanto à extração, os revólveres podem ser classificados como: <span class="ref-pagina">(p. 38)</span></p>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Subtipo</th>
+            </tr>
+            <tr>
+                <td><strong>Extração manual</strong></td>
+                <td>Pode ser <strong>simples</strong> ou <strong>simultânea</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Extração automática</strong></td>
+                <td>Apenas <strong>simultânea</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec3115" class="section">
+        <h2>3.1.1.5 Quanto ao funcionamento</h2>
+
+        <div class="box-blue">
+            Quanto ao funcionamento, os revólveres, em sua imensa maioria, são <strong>armas de repetição</strong>. Não obstante, existem exemplos de <strong>revólveres semiautomáticos</strong>. <span class="ref-pagina">(p. 39)</span>
+        </div>
+    </div>
+
+    <div id="sec32" class="section">
+        <h2>3.2 Estudo particular da pistola semiautomática</h2>
+
+        <div class="box-blue">
+            <strong>Contexto histórico:</strong> O advento do cartucho de munição - que contém todos os elementos necessários para efetuar um disparo - tornou possível o aparecimento de armas de retrocarga e repetição efetivamente práticas, bem como de armas <strong>semiautomáticas e automáticas</strong>. <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Princípio de funcionamento:</strong> As armas automáticas e semiautomáticas, dentre as quais se incluem as pistolas, aproveitam os <strong>gases gerados na detonação da munição para efetuar a ciclagem</strong> da arma, realimentando-a e preparando-a para um novo disparo. <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <h3>Automática x Semiautomática</h3>
+
+        <table>
+            <tr>
+                <th>Automática</th>
+                <th>Semiautomática</th>
+            </tr>
+            <tr>
+                <td>Os disparos são <strong>ininterruptos</strong> até o atirador parar de pressionar o gatilho ou acabar a munição íntegra disponível na câmara. <span class="ref-pagina">(p. 39)</span></td>
+                <td>Cada tiro deve ser <strong>precedido de acionamento do gatilho</strong> pelo atirador. <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Observação:</strong> Dada a pequena capacidade de carga, leveza e alta cadência de tiro, não existem razões práticas para transformar uma pistola semiautomática em automática, embora isso seja possível e, em alguns modelos comerciais, seja um acessório de fábrica. A <strong>grande maioria das pistolas comerciais é semiautomática</strong>. <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <h3>Partes principais da pistola semiautomática</h3>
+
+        <p>A pistola semiautomática é, basicamente, constituída por <strong>quatro partes: armação, carregador, cano e ferrolho</strong>. <span class="ref-pagina">(p. 39)</span></p>
+
+        <table>
+            <tr>
+                <th>Parte</th>
+                <th>Função / Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Armação</strong></td>
+                <td>Confeccionada em aço, ligas de alumínio e polímeros. Serve de suporte ao cano e ferrolho (parte superior) e de receptáculo ao carregador (interior da coronha). Com exceção do pino percussor (percussão indireta) ou do cão-percussor (percussão direta), todo o mecanismo de disparo fica alojado em seu interior. <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Carregador</strong></td>
+                <td>Usualmente uma peça <strong>separada da arma</strong>; tubo oco feito de materiais diversos (aço, polímeros etc.) destinado a armazenar a munição apresentada na ciclagem. Dimensões e capacidade variam conforme projeto e calibre. <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Cano</strong></td>
+                <td>Por onde os projéteis são expelidos. Parte posterior: câmara de combustão <strong>desprovida de raiamento</strong>, à qual a munição chega a partir do carregador por meio de uma <strong>rampa de acesso</strong>. Porção central: <strong>alma raiada</strong>. Parte anterior pode ou não ter massa de mira. <span class="ref-pagina">(p. 39-40)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Ferrolho</strong></td>
+                <td>Peça móvel que desliza nas fases de recuo e recuperação, em trilhos/ranhuras, para efetuar a correta ciclagem. Peso e mola recuperadora são balanceados para que a força de recuo seja a exata necessária. Pode conter o bloco da culatra, com sistema cão-percussor (percussão direta) ou percussor retrátil e mola retratora (percussão indireta). <span class="ref-pagina">(p. 40)</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec321" class="section">
+        <h2>3.2.1 Classificação das pistolas</h2>
+
+        <div class="box-blue">
+            As pistolas, do mesmo modo que os revólveres, devido à sua diversidade de estrutura e funcionamento, podem ser classificadas de diversos modos: <strong>quanto ao funcionamento, quanto à montagem do cano, quanto à percussão e quanto ao mecanismo de disparo</strong>. <span class="ref-pagina">(p. 40)</span>
+        </div>
+
+        <div class="box-green">
+            Quanto ao modo de funcionamento, embora a maioria das pistolas seja originalmente semiautomática, há pistolas que <strong>de fábrica são automáticas</strong> e outras que são <strong>ilegalmente convertidas para automáticas</strong>. <span class="ref-pagina">(p. 40)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico - 4 critérios de classificação das pistolas: F-M-P-M</span>
+            <ul>
+                <li><strong>F</strong>uncionamento</li>
+                <li><strong>M</strong>ontagem do cano</li>
+                <li><strong>P</strong>ercussão</li>
+                <li><strong>M</strong>ecanismo de disparo</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3211" class="section">
+        <h2>3.2.1.1 Quanto ao funcionamento</h2>
+
+        <p>Quanto ao funcionamento, as pistolas são classificadas em <strong>culatra desaferrolhada</strong> e <strong>culatra aferrolhada</strong>. <span class="ref-pagina">(p. 41)</span></p>
+
+        <table>
+            <tr>
+                <th>Culatra desaferrolhada</th>
+                <th>Culatra aferrolhada</th>
+            </tr>
+            <tr>
+                <td>
+                    Geralmente de <strong>menor calibre e potência relativa menor</strong> (.22", .25" e .32"). Após a deflagração, por pressão dos gases, recua <strong>apenas o estojo</strong>, cuja base está apoiada contra a culatra. O conjunto bloco da culatra + ferrolho + estojo é empurrado para trás, seguindo-se a ejeção e ciclagem por ação da mola recuperadora.
+                    <br><br>
+                    Subdivide-se em:
+                    <ul>
+                        <li><strong>Recuo livre</strong></li>
+                        <li><strong>Recuo retardado</strong></li>
+                    </ul>
+                    <span class="ref-pagina">(p. 41)</span>
+                </td>
+                <td>
+                    Possuem <strong>grande potência de tiro ou grande calibre</strong> (9 mm, .40" e .45"). O aferrolhamento <strong>retarda, até o momento ótimo, a abertura da culatra</strong>. Caso a abertura seja prematura, as pressões internas elevadas causariam extração e ejeção violentas, colocando em risco o atirador.
+                    <br><br>
+                    A solução foi usar parte da força de recuo no esforço de desaferrolhá-la. Durante o desaferrolhamento, a culatra permanece firmemente fechada, iniciando a abertura apenas após a <strong>completa expulsão do projétil pelo cano</strong>, garantindo redução da pressão a níveis seguros.
+                    <br><br>
+                    O desaferrolhamento ocorre por:
+                    <ul>
+                        <li><strong>Tomada de gases</strong></li>
+                        <li><strong>Recuo do cano</strong></li>
+                    </ul>
+                    <span class="ref-pagina">(p. 41)</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec3212" class="section">
+        <h2>3.2.1.2 Quanto à montagem do cano</h2>
+
+        <p>Quanto à montagem do cano, as pistolas são divididas em duas categorias: <span class="ref-pagina">(p. 41)</span></p>
+
+        <table>
+            <tr>
+                <th>Categoria</th>
+                <th>Tipos</th>
+                <th>Utilizado em</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cano <strong>afixado à armação</strong> e cano <strong>afixado ao suporte do ferrolho</strong></td>
+                <td>Pistolas com culatra <strong>desaferrolhada</strong></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Cano <strong>basculante</strong> e cano <strong>flutuante</strong></td>
+                <td>Pistolas com culatra <strong>aferrolhada</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="sec3213" class="section">
+        <h2>3.2.1.3 Quanto à percussão</h2>
+
+        <p>Quanto à percussão, as pistolas são divididas - do mesmo modo que os revólveres - em <strong>percussão direta</strong> e <strong>percussão indireta</strong>. <span class="ref-pagina">(p. 41)</span></p>
+
+        <table>
+            <tr>
+                <th>Percussão direta</th>
+                <th>Percussão indireta</th>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Não possuem cão</strong>; este é o próprio pino percussor - peça cilíndrica terminada em cone de percussão na parte frontal, com noz ou ressalto na parte ínfero-posterior (para mantê-lo armado), alojada em tubo no bloco da culatra.
+                    <br><br>
+                    Com a arma engatilhada, o gatilho imobiliza o percussor na posição armada por meio de um <strong>calço que se encaixa na noz</strong>. O pino fica sob tensão de uma mola até que o gatilho, ao ser pressionado, desencaixe o calço da noz, liberando o pino para percutir a munição.
+                    <br><br>
+                    <strong>Exemplos:</strong>
+                    <ul>
+                        <li><strong>Glock</strong> (todas em percussão direta de ação simples);</li>
+                        <li><strong>Walther P-99</strong> (percussão direta em ação simples ou dupla).</li>
+                    </ul>
+                    <span class="ref-pagina">(p. 42)</span>
+                </td>
+                <td>
+                    <strong>Possuem cão</strong>. Embora também possuam pino percussor, este é <strong>inerte</strong> e fica permanentemente em posição de retração, por meio de uma mola, somente sendo acionado mediante <strong>pancada desferida em sua parte posterior pelo cão convencional</strong>.
+                    <br><br>
+                    <strong>Exemplos:</strong>
+                    <ul>
+                        <li>Pistolas <strong>Taurus</strong> (que possuem cão).</li>
+                    </ul>
+                    <span class="ref-pagina">(p. 42)</span>
+                </td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Classificação adicional:</strong> As pistolas também podem ser classificadas em <strong>percussão central</strong> ou <strong>percussão radial</strong>, do mesmo modo que os revólveres, em função do tipo de munição utilizada. <span class="ref-pagina">(p. 42)</span>
+        </div>
+    </div>
+
+    <div id="sec3214" class="section">
+        <h2>3.2.1.4 Quanto ao mecanismo de disparo</h2>
+
+        <div class="box-blue">
+            Quanto ao mecanismo de disparo, as pistolas podem ser classificadas de modo semelhante aos revólveres: <span class="ref-pagina">(p. 42)</span>
+            <ul>
+                <li><strong>Pistolas de movimento simples</strong>, que pode ser com <strong>ação simples</strong> ou <strong>ação dupla</strong>;</li>
+                <li><strong>Pistolas de movimento duplo</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="comparativo" class="section">
+        <h2>Tabela comparativa - Revólver x Pistola Semiautomática</h2>
+
+        <table>
+            <tr>
+                <th>Aspecto</th>
+                <th>Revólver</th>
+                <th>Pistola Semiautomática</th>
+            </tr>
+            <tr>
+                <td><strong>Funcionamento</strong></td>
+                <td>Repetição não automática (em sua imensa maioria) <span class="ref-pagina">(p. 33, 39)</span></td>
+                <td>Semiautomática (ciclagem pelos gases da detonação) <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Câmara de combustão</strong></td>
+                <td>FORA do cano (no tambor) - única arma assim <span class="ref-pagina">(p. 33)</span></td>
+                <td>NA parte posterior do cano (desprovida de raiamento) <span class="ref-pagina">(p. 39-40)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Culatra</strong></td>
+                <td>NÃO possui culatra (única arma); usa <strong>placa de obturação</strong> <span class="ref-pagina">(p. 34)</span></td>
+                <td>Possui culatra (no ferrolho); pode ser aferrolhada ou desaferrolhada <span class="ref-pagina">(p. 40-41)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Partes principais (4)</strong></td>
+                <td>Armação, tambor, cano, mecanismo <span class="ref-pagina">(p. 34)</span></td>
+                <td>Armação, carregador, cano, ferrolho <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Receptáculo da munição</strong></td>
+                <td>Tambor (várias câmaras) <span class="ref-pagina">(p. 33-34)</span></td>
+                <td>Carregador (peça separada) <span class="ref-pagina">(p. 39)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Está carregado quando alinhado?</strong></td>
+                <td>NÃO - tambor sofre rotação prévia ao disparo <span class="ref-pagina">(p. 33)</span></td>
+                <td>SIM - cartucho fica na câmara do cano</td>
+            </tr>
+            <tr>
+                <td><strong>Robustez / tolerância a abusos</strong></td>
+                <td>ALTA - mantém rendimento em condições desfavoráveis <span class="ref-pagina">(p. 33)</span></td>
+                <td>Menor que o revólver <span class="ref-pagina">(p. 33)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Critérios de classificação</strong></td>
+                <td>5: armação, mecanismo de disparo, percussão, extração, funcionamento <span class="ref-pagina">(p. 35)</span></td>
+                <td>4: funcionamento, montagem do cano, percussão, mecanismo de disparo <span class="ref-pagina">(p. 40)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Calibres típicos</strong></td>
+                <td>Variados (intrínseca radial restrita a .22") <span class="ref-pagina">(p. 38)</span></td>
+                <td>Desaferrolhadas: .22", .25", .32"; Aferrolhadas: 9 mm, .40", .45" <span class="ref-pagina">(p. 41)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Memorize - Pegadinhas clássicas do revólver</span>
+            <ul>
+                <li>É a <strong>ÚNICA</strong> arma cujo cano NÃO possui câmara de combustão;</li>
+                <li>É a <strong>ÚNICA</strong> arma que NÃO está carregada mesmo com cartucho íntegro alinhado ao cano;</li>
+                <li>É a <strong>ÚNICA</strong> arma que NÃO possui culatra (tem placa de obturação);</li>
+                <li>Armação é a <strong>ÚNICA peça do revólver que NÃO pode ser substituída</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

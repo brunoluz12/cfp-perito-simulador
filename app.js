@@ -1843,6 +1843,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Conclusão'
             ]
         },
+        'bal': {
+            path: 'BAL',
+            capitulos: [
+                { titulo: 'Prefácio - Balística Forense', arquivo: 'Capitulo_00.html' },
+                { titulo: 'Capítulo 1 - Balística: Conceituação e Divisões', arquivo: 'Capitulo_01.html' },
+                { titulo: 'Capítulo 2.1 - Arma e Munição (Conceitos e Cartucho)', arquivo: 'Capitulo_02a.html' },
+                { titulo: 'Capítulo 2.2 - Classificação das Armas de Fogo', arquivo: 'Capitulo_02b.html' },
+                { titulo: 'Capítulo 2.3 - Calibre das Armas e Munição', arquivo: 'Capitulo_02c.html' },
+                { titulo: 'Capítulo 3 - Armas Curtas (Revólver e Pistola)', arquivo: 'Capitulo_03.html' },
+                { titulo: 'Capítulo 4 - Armas Longas (Rifle, Fuzil, Carabina, Espingarda)', arquivo: 'Capitulo_04.html' },
+                { titulo: 'Capítulo 5 - Exames em Armas de Fogo (Resíduos, Caracteres Suprimidos)', arquivo: 'Capitulo_05.html' },
+                { titulo: 'Capítulo 6 - Exames em Munição (Confronto Balístico, SINAB)', arquivo: 'Capitulo_06.html' },
+                { titulo: 'Anexos - Descrições e Soluções Reveladoras', arquivo: 'Capitulo_07_Anexos.html' }
+            ]
+        },
         'pceb': {
             path: 'PCEB',
             capitulos: [

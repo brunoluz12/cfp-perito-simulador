@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 2 (Parte 1) - Arma e Munição: Conceitos e o Cartucho</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">BAL</span>
+        <h1>Capítulo 2 (Parte 1) - Arma e Munição: Conceitos e o Cartucho</h1>
+        <div class="subtitle">Definição de arma de fogo e os elementos do cartucho de munição</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">2.1 Arma de fogo (definição)</a></li>
+            <li><a href="#sec2">2.2 Munição (cartucho)</a></li>
+            <li><a href="#sec3">2.2.1 O estojo</a></li>
+            <li><a href="#sec4">2.2.2 A cápsula de espoletamento</a></li>
+            <li><a href="#sec5">2.2.3 A carga de projeção</a></li>
+        </ul>
+    </div>
+
+    <div id="intro" class="section">
+        <h2>Contexto inicial: o conceito de "arma"</h2>
+
+        <div class="box-blue">
+            <strong>Conceito amplo:</strong> O termo "arma" pode ser amplamente conceituado como "todo objeto que pode aumentar a capacidade de ataque ou defesa do homem" (Tochetto, 2011, p.1). <span class="ref-pagina">(p. 11)</span>
+        </div>
+
+        <p>Alguns objetos, como uma espada ou uma arma de fogo, foram concebidos com a finalidade específica de serem utilizados como arma e, por isso, são denominados <strong>"armas próprias"</strong>. Porém outros, embora não tenham sido projetados com esta finalidade, podem eventualmente ser utilizados como arma, como um garfo, uma enxada ou uma chave de fenda, sendo denominados <strong>"armas impróprias"</strong>. <span class="ref-pagina">(p. 11)</span></p>
+
+        <h3>Classificação geral das armas</h3>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Característica</th>
+                <th>Exemplos</th>
+            </tr>
+            <tr>
+                <td><strong>Armas manuais</strong></td>
+                <td>Apropriadas principalmente para o combate corpo a corpo; funcionam apenas como prolongamento do braço</td>
+                <td>Espadas e punhais</td>
+            </tr>
+            <tr>
+                <td><strong>Armas de arremesso simples</strong></td>
+                <td>Lançamento efetuado diretamente pela mão do atirador</td>
+                <td>Dardos, lanças e granadas</td>
+            </tr>
+            <tr>
+                <td><strong>Armas de arremesso complexas</strong></td>
+                <td>Constituídas de um aparato lançador (arma propriamente dita), por meio do qual são lançados projéteis substituíveis (parte da munição)</td>
+                <td>Catapultas, bestas, arcos, revólveres, pistolas e outras armas de fogo</td>
+            </tr>
+        </table>
+
+        <div class="box-green">
+            <strong>Definição de armas de arremesso:</strong> São aquelas mais adequadas a produzir seu efeito vulnerante à distância de quem a utiliza, quer seja ela própria funcionando como projétil, quer seja expelindo projéteis. <span class="ref-pagina">(p. 11)</span>
+        </div>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>2.1 Arma de fogo (definição)</h2>
+
+        <div class="box-blue">
+            <strong>Definição (Rabello, 1995, p.30):</strong> Armas de fogo podem ser definidas como "engenhos mecânicos dotados da propriedade de expelir projéteis, nos quais é utilizada, para a projeção destes, a força expansiva de gases, resultantes da combustão da pólvora". <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <p>Desta forma, as armas de fogo incluem-se, por definição, na categoria de <strong>armas de arremesso complexas</strong>. <span class="ref-pagina">(p. 12)</span></p>
+
+        <h3>Elementos essenciais de uma arma de fogo</h3>
+
+        <table>
+            <tr>
+                <th>Elemento</th>
+                <th>Função</th>
+            </tr>
+            <tr>
+                <td><strong>a) Aparato arremessador</strong> (arma propriamente dita)</td>
+                <td>
+                    <ul>
+                        <li>Receber o projétil com sua respectiva carga de projeção, permitindo o uso imediato pelo atirador, a qualquer instante, mediante inflamação dessa carga;</li>
+                        <li>Somente permitir a expansão dos gases em direção e sentido determinados;</li>
+                        <li>Guiar o projétil e servir-lhe de conduto até que a expansão dos gases lhe imprima velocidade.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>b) Carga de projeção</strong></td>
+                <td>Constituída por substância inflamável; sua função é a produção de um grande volume de gases a fim de imprimir velocidade ao projétil.</td>
+            </tr>
+            <tr>
+                <td><strong>c) Projétil</strong></td>
+                <td>Por meio dele a arma produz seus efeitos primários; suas características vulnerantes dependem de sua geometria, massa e velocidade.</td>
+            </tr>
+        </table>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO:</strong> Uma arma de fogo somente pode ser considerada como tal se os <strong>três elementos estiverem coexistindo ao mesmo tempo</strong>. Quando, por exemplo, existir somente a arma, sem a carga de projeção ou o projétil, estaremos diante de um objeto, talvez contundente, mas <strong>não de uma arma de fogo</strong>. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: A-C-P (os 3 elementos essenciais)</span>
+            <ul>
+                <li><strong>A</strong>parato arremessador (arma propriamente dita)</li>
+                <li><strong>C</strong>arga de projeção</li>
+                <li><strong>P</strong>rojétil</li>
+            </ul>
+            Faltando qualquer um deles, não há arma de fogo.
+        </div>
+
+        <div class="box-orange">
+            <strong>Lei 10.826/2003:</strong> No Brasil, dispõe sobre o registro, a posse, o porte e a comercialização de armas de fogo e munição, além de definir os crimes relacionados. Contudo, <strong>o texto legal não conceitua o que é uma arma de fogo</strong>, deixando essa delimitação — bem como a diferenciação para armas de pressão, réplicas e simulacros — a cargo de seus regulamentos. <span class="ref-pagina">(p. 12)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2.2 Munição de arma de fogo</h2>
+
+        <p>As primeiras formas de munição consistiam em uma <strong>pólvora em pó</strong>, carregada em um frasco ou chifre, que juntamente com projéteis de formatos irregulares eram introduzidos a partir da boca do cano. <span class="ref-pagina">(p. 12)</span></p>
+
+        <p>Por volta do <strong>século XV</strong>, a "<strong>pólvora negra</strong>" (uma mistura de salitre — nitrato de sódio —, carvão e enxofre) se tornou o padrão para uso em arma de fogo, com seu carregamento, bem como do projétil, ainda a partir da boca do cano. Mas esta pólvora, além de ineficiente, produzia diversos inconvenientes para o disparo, como muita fumaça, tendo sido, com o tempo, substituída pela <strong>pólvora sem fumaça</strong>. <span class="ref-pagina">(p. 12-13)</span></p>
+
+        <div class="box-green">
+            <strong>Marco evolutivo:</strong> Na evolução das munições, momento especial ocorreu com a <strong>invenção dos cartuchos de munição</strong>, quando os elementos de munição (<strong>estojos, cápsula de espoletamento, projétil e propelente</strong>) passaram a ser acoplados, constituindo uma <strong>unidade de munição completa</strong>. Isto permitiu o estabelecimento do <strong>sistema de fogo central</strong> bem como o uso de <strong>canos com raiamento</strong>. <span class="ref-pagina">(p. 13)</span>
+        </div>
+
+        <p>Atualmente cada arma moderna é concebida para um tipo específico de munição já existente ou para testar as possibilidades de um novo cartucho, inventado para atender a demandas técnicas ou táticas. <span class="ref-pagina">(p. 13)</span></p>
+
+        <h3>Partes do cartucho de munição</h3>
+
+        <table>
+            <tr>
+                <th>Parte</th>
+                <th>Função</th>
+            </tr>
+            <tr>
+                <td><strong>Estojo</strong></td>
+                <td>Elemento <strong>inerte</strong> do cartucho — nem participa do processo de combustão, nem é expelido pelo cano da arma. Aloja e une as demais partes. <span class="ref-pagina">(p. 15)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Cápsula de espoletamento (espoleta)</strong></td>
+                <td>Pequeno recipiente metálico (nas munições de fogo central) onde é colocada a escorva ou mistura iniciadora, cuja deflagração por <strong>ação mecânica inflama a carga de projeção</strong>. <span class="ref-pagina">(p. 15)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Carga de projeção (propelente)</strong></td>
+                <td><strong>Elemento ativo</strong> do cartucho; combustível sólido granular que, ao se inflamar, produz grande quantidade de gases cuja expansão projeta o projétil pelo interior do cano. <span class="ref-pagina">(p. 16)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Projétil</strong></td>
+                <td>Parte vulnerante do cartucho — é o que será expelido pelo cano da arma em direção ao alvo. <span class="ref-pagina">(p. 17)</span></td>
+            </tr>
+        </table>
+
+        <div class="box-purple">
+            <strong>Tipos de cartuchos modernos ilustrados no texto:</strong> Um de <strong>fogo central para revólver</strong>, um de <strong>fogo central para pistola</strong> e um de <strong>fogo radial (circular)</strong>. <span class="ref-pagina">(p. 13-14)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>2.2.1 O estojo</h2>
+
+        <div class="box-blue">
+            <strong>Características gerais:</strong> O estojo é geralmente confeccionado em <strong>metal</strong> e com formatos variados, dependendo das características da câmara de combustão à qual se destina. Constitui o <strong>elemento inerte do cartucho</strong>, na medida em que nem participa do processo de combustão, nem é expelido pelo cano da arma. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <h3>Anatomia do estojo</h3>
+
+        <table>
+            <tr>
+                <th>Parte</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Boca</strong> (parte anterior)</td>
+                <td>Local onde fica engastado o projétil. <span class="ref-pagina">(p. 15)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Culote</strong> (extremidade posterior)</td>
+                <td>Parte bastante espessa. No caso dos cartuchos de fogo central, abriga o <strong>alojamento da cápsula de espoletamento</strong> e o local onde são impressos os caracteres que identificam o calibre e a marca do fabricante (denominado <strong>estampa da base</strong>). <span class="ref-pagina">(p. 15)</span></td>
+            </tr>
+        </table>
+
+        <h3>Formatos do estojo</h3>
+
+        <p>O formato dos estojos varia em função das características da arma que irá utilizá-lo. Assim, ele pode ser: <span class="ref-pagina">(p. 15)</span></p>
+        <ul>
+            <li><strong>Cilíndrico</strong>;</li>
+            <li><strong>Levemente cônico</strong>;</li>
+            <li>Com <strong>estrangulamento</strong> em sua parte frontal — chamados <strong>garrafas</strong>, utilizados em armamentos de alta potência e de pequeno calibre (por exemplo, rifles calibre 5,56 OTAN e 7,62 OTAN).</li>
+        </ul>
+
+        <h3>Tipos de culote (borda)</h3>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Característica</th>
+                <th>Uso típico</th>
+            </tr>
+            <tr>
+                <td><strong>Rim</strong></td>
+                <td>Borda saliente (chamada <strong>aro</strong>)</td>
+                <td>Munições para revólver</td>
+            </tr>
+            <tr>
+                <td><strong>Semi-rim</strong></td>
+                <td>Borda semisaliente</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td><strong>Rimless</strong></td>
+                <td>Sem borda</td>
+                <td>Munições para pistola</td>
+            </tr>
+        </table>
+
+        <div class="box-orange">
+            <strong>Origem dos termos:</strong> Os termos <em>rim</em>, <em>semi-rim</em> e <em>rimless</em> derivam do inglês. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: Borda do culote</span>
+            <ul>
+                <li><strong>Rim</strong> = aro saliente -> <strong>R</strong>evólver</li>
+                <li><strong>Semi-rim</strong> = semisaliente</li>
+                <li><strong>Rimless</strong> = sem borda -> <strong>P</strong>istola</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>2.2.2 A cápsula de espoletamento</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> A cápsula de espoletamento, ou simplesmente <strong>espoleta</strong>, é um pequeno recipiente metálico, utilizado nas munições de fogo central (às vezes parte integrante do estojo e às vezes neste montado), em que é colocada a <strong>escorva ou mistura iniciadora</strong>, cuja deflagração por <strong>ação mecânica inflama a carga de projeção</strong>. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Diferença fogo central x fogo circular:</strong> Os cartuchos de fogo circular <strong>não possuem cápsula de espoletamento como elemento diferenciado</strong>, uma vez que a escorva se encontra alojada na <strong>borda oca e ressaltada do próprio estojo</strong>, e em contato direto com a carga de projeção. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <p>Nos cartuchos de fogo central, os quais são mais largamente empregados, a cápsula de espoletamento é geralmente engastada, como um elemento separado, na base do estojo, comunicando-se com o interior desse por meio de orifícios denominados <strong>eventos</strong>. <span class="ref-pagina">(p. 15)</span></p>
+
+        <h3>Tipos de espoletas</h3>
+
+        <div class="box-green">
+            Existem basicamente <strong>três tipos de espoletas</strong>, dependendo de sua estrutura interna: <span class="ref-pagina">(p. 15)</span>
+            <ul>
+                <li>Espoletas tipo <strong>Boxer</strong></li>
+                <li>Espoletas tipo <strong>Berdan</strong></li>
+                <li>Espoletas tipo <strong>bateria</strong></li>
+            </ul>
+        </div>
+
+        <h3>Bigorna</h3>
+
+        <div class="box-orange">
+            <strong>Função da bigorna:</strong> Todos os tipos de espoletas necessitam de uma <strong>bigorna</strong>, ou seja, uma estrutura rígida cuja finalidade é fornecer uma <strong>superfície de impacto</strong> quando a espoleta é comprimida pelo pino percussor. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <h3>A mistura iniciadora (escorva)</h3>
+
+        <p>A mistura iniciadora ou escorva contida na espoleta é uma mistura que contém um composto organometálico denominado <strong>estifinato de chumbo</strong>, e outros compostos (<strong>nitrato de bário, trissulfeto de antimônio e alumínio em pó</strong>, etc.). A composição exata da mistura varia de uma fábrica para outra. <span class="ref-pagina">(p. 16)</span></p>
+
+        <div class="box-red">
+            <strong>Característica principal:</strong> Não obstante essa variação, a principal característica das misturas iniciadoras é sua <strong>sensibilidade a choques mecânicos e à variação de pressão</strong>. No momento que o percussor comprime a mistura contra a bigorna, ocorre a <strong>detonação da mistura iniciadora</strong>, a qual <strong>deflagra a carga de projeção</strong>. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Sequência do disparo (fogo central)</span>
+            Percussor -> comprime escorva contra a <strong>bigorna</strong> -> detonação da mistura iniciadora -> deflagração da carga de projeção -> expansão dos gases -> projeção do projétil.
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>2.2.3 A carga de projeção</h2>
+
+        <div class="box-blue">
+            <strong>Definição:</strong> A carga de projeção, ou <strong>propelente</strong>, é o <strong>elemento ativo</strong> do cartucho de munição e que confere à arma de fogo suas características. Consta de um <strong>combustível sólido granular</strong> capaz de se inflamar com grande velocidade, produzindo uma grande quantidade de gases, <strong>sem necessitar de oxigênio para isso</strong>. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <p>A expansão dos gases é a principal responsável pela projeção do projétil pelo interior do cano, conferindo-lhe a <strong>energia cinética</strong> necessária para causar danos ao alvo pretendido. <span class="ref-pagina">(p. 16)</span></p>
+
+        <h3>Cargas de projeção antigas: a pólvora negra</h3>
+
+        <div class="box-orange">
+            <strong>Pólvora negra:</strong> As cargas de projeção antigas eram constituídas de pólvora negra, a qual é composta por uma mistura de <strong>salitre (nitrato de sódio), carvão e enxofre</strong>. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <p>Entretanto, devido à <strong>ineficiência de combustão</strong> e à <strong>grande quantidade de fumaça e resíduos</strong> produzidos, deixou de ser utilizada em armas modernas depois do advento das pólvoras sem fumaça. <span class="ref-pagina">(p. 16)</span></p>
+
+        <h3>Cargas de projeção modernas: pólvoras químicas</h3>
+
+        <div class="box-green">
+            As cargas de projeção modernas são denominadas <strong>pólvoras químicas</strong>, ou <strong>pólvoras sem fumaça</strong>. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Composição</th>
+            </tr>
+            <tr>
+                <td><strong>Pólvora de base simples</strong></td>
+                <td>Constituída somente de <strong>nitrocelulose</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Pólvora de base dupla</strong></td>
+                <td>Constituída de <strong>nitrocelulose e nitroglicerina</strong></td>
+            </tr>
+        </table>
+
+        <p>Essas pólvoras químicas se apresentam sob a <strong>forma granular</strong>, e a <strong>geometria destes grãos, em conjunto com a composição química, determina a velocidade de queima da pólvora</strong>. <span class="ref-pagina">(p. 16)</span></p>
+
+        <h3>Pólvoras vivas x pólvoras progressivas</h3>
+
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Uso</th>
+                <th>Característica de queima</th>
+            </tr>
+            <tr>
+                <td><strong>Pólvoras vivas</strong></td>
+                <td>Armas curtas</td>
+                <td>Queimam de forma mais <strong>intensa e rápida</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Pólvoras progressivas</strong></td>
+                <td>Armas longas</td>
+                <td>Queimam mais <strong>lentamente</strong></td>
+            </tr>
+        </table>
+
+        <div class="box-purple">
+            <strong>Justificativa técnica:</strong> Essa diferença se baseia no fato de que, sendo o cano das armas curtas de pequenas dimensões, a pólvora possui um <strong>tempo menor para conferir máxima velocidade ao projétil</strong>, devendo, portanto, queimar mais rapidamente. Por outro lado, a pólvora pode queimar mais lentamente nas armas longas, visto que o cano é maior e há mais tempo para impulsionar o projétil. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo - Pólvoras</span>
+            <ul>
+                <li><strong>Antiga</strong> = pólvora negra (salitre + carvão + enxofre) -> muita fumaça, ineficiente</li>
+                <li><strong>Moderna - base simples</strong> = nitrocelulose</li>
+                <li><strong>Moderna - base dupla</strong> = nitrocelulose + nitroglicerina</li>
+                <li><strong>Viva</strong> -> arma <strong>curta</strong> (queima rápida)</li>
+                <li><strong>Progressiva</strong> -> arma <strong>longa</strong> (queima lenta)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

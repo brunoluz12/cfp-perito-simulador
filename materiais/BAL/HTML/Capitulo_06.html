@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 6 - Exames em Cartuchos e Elementos de Munição (Confronto Balístico)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">BAL</span>
+        <h1>Capítulo 6 - Exames em Cartuchos e Elementos de Munição (Confronto Balístico)</h1>
+        <div class="subtitle">Caracterização, eficiência, confronto balístico e SINAB</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec61">6.1 Caracterização de cartuchos e elementos de munição</a></li>
+            <li><a href="#sec62">6.2 Exames de eficiência em munição</a></li>
+            <li><a href="#sec63">6.3 Exame de confronto balístico</a>
+                <ul>
+                    <li><a href="#sec631">6.3.1 Cuidados com o material questionado</a></li>
+                    <li><a href="#sec632">6.3.2 Descrição de elementos de munição</a></li>
+                    <li><a href="#sec633">6.3.3 Padrões em Balística Forense (4 requisitos + coleta)</a></li>
+                    <li><a href="#sec634">6.3.4 Comparação de projéteis e estojos</a></li>
+                    <li><a href="#sec635">6.3.5 Banco de dados balísticos - SINAB</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="box-blue">
+            <strong>Visão geral do capítulo:</strong> Tal como para armas de fogo, cartuchos de munição e elementos de munição apreendidos podem passar por exames de <strong>identificação direta</strong> (descrição de características e procedência), <strong>teste de eficiência</strong> (para cartuchos íntegros) ou <strong>confronto balístico</strong> (para elementos de munição recebidos disparados). <span class="ref-pagina">(p. 67)</span>
+        </div>
+    </div>
+
+    <div id="sec61" class="section">
+        <h2>6.1 Caracterização de cartuchos e elementos de munição</h2>
+
+        <p>A caracterização de uma munição ou de elementos de munição é realizada para determinar suas <strong>características gerais e peculiaridades</strong>. A descrição deve iniciar-se pelas características mais <strong>genéricas</strong> e, paulatinamente, ir tornando-se mais <strong>específica</strong>. <span class="ref-pagina">(p. 67)</span></p>
+
+        <div class="box-orange">
+            <strong>Apreensões em grande quantidade:</strong> Como é recorrente a apreensão de grande quantidade de cartuchos íntegros ou estojos com as mesmas características genéricas e específicas, é comum que fotografias da <strong>estampa da base</strong> e do <strong>número de lote</strong> (gravado na lateral e gola do estojo quando vendidas para órgãos de segurança) e a descrição sejam realizadas por <strong>grupos de mesmo calibre nominal, fabricante e tipo de projétil</strong>. <span class="ref-pagina">(p. 67)</span>
+        </div>
+
+        <p>No Anexo III encontram-se exemplos de descrições de cartuchos de munição recebidos íntegros. <span class="ref-pagina">(p. 67)</span></p>
+    </div>
+
+    <div id="sec62" class="section">
+        <h2>6.2 Exames de eficiência em munição</h2>
+
+        <div class="box-red">
+            <strong>Norma aplicável (PF):</strong> Na Polícia Federal os testes de eficiência em munições devem seguir a <strong>INSTRUÇÃO TÉCNICA Nº 15/2012-DITEC/DPF, de 05 de outubro de 2012</strong>. <span class="ref-pagina">(p. 67)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Teste por amostragem:</strong> Pelo fato de ser comum o recebimento de grande quantidade de munição para teste de eficiência, o <strong>teste por amostragem é permitido</strong>. <span class="ref-pagina">(p. 67)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Registro fotográfico prévio:</strong> Importante para todos os materiais periciados, mas <strong>para munições mais ainda</strong>, pois deixarão de existir como material após os exames. Para a munição utilizada nos testes eficazes registra-se que o material foi <strong>consumido nos exames</strong> e até mesmo os estojos provenientes desses disparos são <strong>descartados e não devolvidos</strong>. <span class="ref-pagina">(p. 67)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Exceção importante:</strong> Os elementos de munição coletados como <strong>padrões de armas</strong> para exames de confronto balístico ou inserção e busca no <strong>Banco Nacional de Perfis Balísticos</strong> devem ser <strong>registrados como novos materiais</strong>. <span class="ref-pagina">(p. 67)</span>
+        </div>
+    </div>
+
+    <div id="sec63" class="section">
+        <h2>6.3 Exame de confronto balístico</h2>
+
+        <p>Os fundamentos científicos da <strong>identificação mediata</strong> nas armas de fogo são a <strong>unidade</strong> e a <strong>reprodutibilidade</strong> de marcas que as armas imprimem nos elementos de munição durante o disparo: <span class="ref-pagina">(p. 68)</span></p>
+
+        <table>
+            <tr>
+                <th>Fundamento</th>
+                <th>Definição</th>
+            </tr>
+            <tr>
+                <td><strong>Reprodutibilidade</strong></td>
+                <td>A elevada pressão interna durante o disparo faz com que superfícies internas do cano e de partes da arma (culatra, percussor, extrator, ejetor, câmara) <strong>deformem plasticamente</strong> os elementos de munição, neles imprimindo um molde das marcas ou padrão de estriamentos que se repetem a cada disparo da mesma arma. <span class="ref-pagina">(p. 68)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Unicidade</strong></td>
+                <td>As marcas nas superfícies internas do cano e partes da arma são geradas <strong>aleatoriamente</strong> durante os processos de fabricação e subsequente uso da arma, sendo <strong>únicas para cada arma de fogo</strong>, permitindo a individualização da arma empregada. <span class="ref-pagina">(p. 68)</span></td>
+            </tr>
+        </table>
+
+        <p>O procedimento de identificação mediata passa pelas etapas de <strong>coleta ou recuperação do material questionado</strong> (com descrição, limpeza e às vezes desamassamento) e <strong>coleta de padrões</strong>, para posterior cotejo (comparação) - exame denominado <strong>confronto ou comparação balística</strong>. <span class="ref-pagina">(p. 68)</span></p>
+
+        <div id="sec631" class="section">
+            <h3>6.3.1 Cuidados com o material questionado</h3>
+
+            <div class="box-blue">
+                <strong>Materiais envolvidos:</strong> Projéteis, encamisamento de projéteis ou seus fragmentos, bem como estojos e cápsulas de espoletamento. Como as comparações são em estrias e marcas microscópicas e os materiais são por vezes <strong>macios e facilmente deformáveis</strong>, exigem cuidados especiais. <span class="ref-pagina">(p. 68)</span>
+            </div>
+
+            <div class="box-red">
+                <strong>NUNCA fazer:</strong>
+                <ul>
+                    <li>Extrair projétil (ou fragmento de encamisamento) do local em que ficou incrustado por ação direta de <strong>ferramentas metálicas</strong>; <strong>particularmente condenável</strong> é o uso de <strong>alicates ou pinças</strong>, o que pode comprometer as marcas microscópicas. O procedimento correto é <strong>escavar uma porção do material</strong> onde o projétil se encontra, remetendo todo o conjunto para análise. <span class="ref-pagina">(p. 68)</span></li>
+                    <li>Escrever ou marcar os projéteis e estojos questionados - a identificação deve ser escrita na <strong>embalagem primária</strong> ou no <strong>envelope de segurança</strong>. <span class="ref-pagina">(p. 69)</span></li>
+                </ul>
+            </div>
+
+            <div class="box-green">
+                <strong>Procedimentos corretos:</strong>
+                <ul>
+                    <li>Os materiais devem ser <strong>separados na coleta conforme a região</strong> em que foram encontrados (câmara, tambor, tubo ou pente carregador, quadrante ou região de coleta no local de crime). <span class="ref-pagina">(p. 68-69)</span></li>
+                    <li>Acondicionar em <strong>embalagem primária</strong> e esta em <strong>envelope de segurança</strong>. <span class="ref-pagina">(p. 69)</span></li>
+                    <li>Materiais recuperados de indivíduos vivos ou mortos (unidades de saúde ou medicina legal) devem ser <strong>limpos com água corrente, secos</strong> e acondicionados em envelope de segurança. <span class="ref-pagina">(p. 69)</span></li>
+                </ul>
+            </div>
+
+            <div class="box-orange">
+                <strong>Observação - DNA/papiloscopia:</strong> Se houver pedido de exame de DNA ou papiloscópico no elemento de munição, a <strong>limpeza só deve ser realizada após finalização desses exames</strong>. <span class="ref-pagina">(p. 69)</span>
+            </div>
+        </div>
+
+        <div id="sec632" class="section">
+            <h3>6.3.2 Descrição de elementos de munição questionados</h3>
+
+            <p>Todos os elementos de munição recebidos como questionados devem ser <strong>descritos e fotografados</strong>. Quanto mais extensiva for a descrição e a documentação fotográfica, mais seguro estará o perito quanto a questionamentos futuros. Sempre que possível, os materiais devem ser fotografados <strong>no estado em que foram recebidos</strong>. <span class="ref-pagina">(p. 69)</span></p>
+
+            <table>
+                <tr>
+                    <th>Material</th>
+                    <th>Itens a descrever</th>
+                </tr>
+                <tr>
+                    <td><strong>Cartuchos e estojos</strong></td>
+                    <td>Calibre, marca, procedência, calibre nominal, tipo de matéria do estojo e da cápsula de espoletamento, sistema de percussão e outras características peculiares. Para cartuchos, descrever também tipo e constituição dos projéteis. <span class="ref-pagina">(p. 69)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Projéteis</strong></td>
+                    <td>Calibre nominal (quando possível), número e orientação de ressaltos e cavados, massa, dimensões e deformações acidentais. <span class="ref-pagina">(p. 69)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Fragmentos de projéteis</strong></td>
+                    <td>Descrição individual, indicando quais são fragmentos de projéteis, quais de encamisamento e quais de núcleos. <span class="ref-pagina">(p. 69)</span></td>
+                </tr>
+            </table>
+
+            <div class="box-purple">
+                <strong>Material aderido:</strong> Caracterizar localização exata. Se necessária remoção, cuidado para não danificar deformações normais - pesar, descrever e acondicionar adequadamente para análise posterior. <span class="ref-pagina">(p. 69)</span>
+            </div>
+        </div>
+
+        <div id="sec633" class="section">
+            <h3>6.3.3 Padrões em Balística Forense</h3>
+
+            <div class="box-blue">
+                <strong>Princípio fundamental:</strong> O resultado dos procedimentos de comparação <strong>depende diretamente da qualidade dos padrões</strong> colhidos da arma. É importante reproduzir, tanto quanto possível, as mesmas condições do fato que originou o projétil ou estojo questionado. <span class="ref-pagina">(p. 70)</span>
+            </div>
+
+            <p>Os cartuchos utilizados na coleta de padrões devem atender a <strong>quatro requisitos</strong>: <strong>autenticidade, adequabilidade, contemporaneidade e quantidade</strong>. <span class="ref-pagina">(p. 70)</span></p>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Mnemônico: "A A C Q" - 4 requisitos dos padrões</span>
+                <ul>
+                    <li><strong>A</strong>utenticidade - origem certa e inquestionável (o mais importante)</li>
+                    <li><strong>A</strong>dequabilidade - características similares ao questionado</li>
+                    <li><strong>C</strong>ontemporaneidade - menor lapso de tempo possível</li>
+                    <li><strong>Q</strong>uantidade - mínimo de 4 padrões / o ideal é enviar a arma</li>
+                </ul>
+                <em>Dica: "Autêntico, Adequado, Contemporâneo e Quantificado".</em>
+            </div>
+
+            <h3>6.3.3.1 Autenticidade de padrões</h3>
+            <div class="box-red">
+                <strong>O mais importante requisito.</strong> Um padrão é autêntico quando tiver <strong>origem certa e inquestionável</strong>, ou seja, há certeza de que foi colhido com a arma questionada. <span class="ref-pagina">(p. 70)</span>
+            </div>
+            <ul>
+                <li>Recomenda-se que <strong>o próprio perito que vai efetuar os exames colha os padrões</strong>. <span class="ref-pagina">(p. 70)</span></li>
+                <li>O local de coleta não deve ter estojos e projéteis de outras armas espalhados (comum em estandes de tiro), especialmente para estojos de armas semiautomáticas ou automáticas, pois os recolhidos poderão pertencer a outra arma. <span class="ref-pagina">(p. 70)</span></li>
+                <li>Se houver várias armas, organização mínima para evitar troca de padrões. <span class="ref-pagina">(p. 70)</span></li>
+            </ul>
+
+            <h3>6.3.3.2 Adequabilidade</h3>
+            <p>Os padrões são adequados quando suas características forem as <strong>mais similares possíveis</strong> às dos materiais questionados. Na prática, utilizar <strong>o mesmo tipo de cartucho</strong> que produziu o material questionado. <span class="ref-pagina">(p. 70)</span></p>
+
+            <div class="box-orange">
+                <strong>Estojos padrões:</strong> Cartucho da mesma <strong>marca, calibre e composição</strong> do estojo questionado. Exemplo: se o estojo questionado é de latão calibre .38" SPECIAL +P da marca CBC com espoleta latonada, deve-se utilizar cartucho idêntico. Quando a arma é enviada para análise em outro local, é importante enviar junto os cartuchos encontrados com ela, especialmente se a munição for <strong>importada ou recarregada</strong>. <span class="ref-pagina">(p. 70)</span>
+            </div>
+
+            <div class="box-orange">
+                <strong>Projéteis padrões (ainda mais crítico):</strong> Devem ter <strong>composição</strong> (chumbo, latão etc.), <strong>tipo de encamisamento</strong> (semiencamisado, totalmente encamisado, composição etc.), <strong>forma</strong> (expansivo, ogival, ponta plana etc.) e <strong>massa</strong> semelhantes ao questionado. Caso o questionado seja ogival de chumbo nu, é <strong>absolutamente inútil</strong> coletar padrão expansivo de ponta oca semiencamisado. <span class="ref-pagina">(p. 70-71)</span>
+            </div>
+
+            <h3>6.3.3.3 Contemporaneidade</h3>
+            <div class="box-blue">
+                Um padrão deve ser colhido <strong>no menor lapso de tempo</strong> após o projétil ou estojo questionado ter sido produzido. Isto porque, a cada novo disparo, ocorre um <strong>pequeno desgaste do cano e de outras partes da arma</strong>. Lapso temporal grande prejudica a análise. <span class="ref-pagina">(p. 71)</span>
+            </div>
+
+            <h3>6.3.3.4 Quantidade</h3>
+            <div class="box-green">
+                <ul>
+                    <li><strong>Não é possível precisar</strong> quantos padrões são necessários - devem ser colhidos tantos quantos sejam necessários para formar a <strong>convicção dos peritos</strong>. <span class="ref-pagina">(p. 71)</span></li>
+                    <li><strong>Caso ideal:</strong> enviar a arma para os peritos que farão o confronto. <span class="ref-pagina">(p. 71)</span></li>
+                    <li><strong>Caso impossível enviar a arma:</strong> mínimo de <strong>4 (quatro) padrões</strong> de cada arma. <span class="ref-pagina">(p. 71)</span></li>
+                    <li>Os padrões devem estar <strong>devidamente identificados como tais</strong>, sob pena de o perito não distinguir entre questionados e padrões. <span class="ref-pagina">(p. 71)</span></li>
+                </ul>
+            </div>
+
+            <h3>6.3.3.5 Coleta de projéteis padrões</h3>
+            <ul>
+                <li>Antes da coleta, <strong>verificar se o cano está desobstruído</strong>. <span class="ref-pagina">(p. 71)</span></li>
+                <li>Se livre, <strong>não limpar antes</strong>, mesmo que esteja "chumbado", devendo os primeiros padrões serem colhidos com o cano no estado em que se encontra. <span class="ref-pagina">(p. 71)</span></li>
+                <li>Cano <strong>"chumbado"</strong>: aquele pelo qual foram disparados projéteis de chumbo nu e raramente foi limpo adequadamente, formando depósito de chumbo metálico que interfere na coleta. <span class="ref-pagina">(p. 71)</span></li>
+                <li>Se padrões coletados forem inadequados ou com vestígios insuficientes, efetuar alguns tiros com <strong>projéteis semiencamisados ou totalmente encamisados</strong> para limpar o "chumbamento" e colher novos padrões. <span class="ref-pagina">(p. 72)</span></li>
+            </ul>
+
+            <div class="box-purple">
+                <strong>Posição da arma e modo de disparo:</strong>
+                <ul>
+                    <li>Posição preferencial: <strong>horizontal</strong> (forma usual). <span class="ref-pagina">(p. 72)</span></li>
+                    <li><strong>Revólveres</strong>: inicialmente em <strong>ação dupla</strong> (forma usual); em casos raros pode ser necessário colher padrões de diferentes câmaras. <span class="ref-pagina">(p. 72)</span></li>
+                    <li>Dependendo do estado da arma, pode ser necessário disparo em <strong>ação simples</strong>, inclusive com <strong>alinhamento manual</strong> da câmara com o cano (problema comum: desgaste dos dentes da coroa do extrator, extremidade do impulsor do tambor ou vareta do extrator empenada gerando desalinhamento). <span class="ref-pagina">(p. 72)</span></li>
+                    <li><strong>Pistolas e armas longas</strong>: cartucho fica na câmara, não há desalinhamento esperado - pode-se colher em ação simples ou dupla; se a ação dupla falhar (cão ineficiente), colher em ação simples. <span class="ref-pagina">(p. 72)</span></li>
+                </ul>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Meio de coleta</th>
+                    <th>Características</th>
+                </tr>
+                <tr>
+                    <td><strong>Tanque de água</strong></td>
+                    <td>Vantagem: praticidade. Cuidado especial com <strong>projéteis expansivos</strong>: selar a ponta oca para que os bordos de expansão não sejam revertidos. <span class="ref-pagina">(p. 72)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Tubo de algodão</strong></td>
+                    <td>Cano de <strong>PVC de 20 cm de diâmetro</strong>, cerca de <strong>1,5 m</strong> de comprimento, dividido em 3 partes de meio metro cheias de algodão. Disparos geralmente retidos no primeiro cano ou início do segundo. <strong>Rifles/fuzis</strong>: necessitam tubo maior, cerca de <strong>2,5 m</strong>. Vantagem: qualquer tipo de projétil pode ser colhido sem grandes cuidados (inclusive ponta oca). <span class="ref-pagina">(p. 72)</span></td>
+                </tr>
+            </table>
+
+            <h3>6.3.3.6 Coleta de estojos padrões</h3>
+            <ul>
+                <li>Primeiro: verificar se o cano está <strong>desobstruído</strong>. <span class="ref-pagina">(p. 73)</span></li>
+                <li>A <strong>marca de percussão NÃO deve perfurar a espoleta</strong>. Caso ocorra, há problema no mecanismo da arma - pode ser <strong>perigoso</strong> coletar mais padrões, especialmente em revólver. <span class="ref-pagina">(p. 73)</span></li>
+            </ul>
+
+            <div class="box-orange">
+                <strong>Influências sobre o estojo padrão:</strong>
+                <ul>
+                    <li><strong>Posição da arma no momento do disparo</strong>: influencia a posição do estojo na câmara (se houver folga, pode gerar <strong>marca de percussão excêntrica</strong>). <span class="ref-pagina">(p. 73)</span></li>
+                    <li><strong>Ação simples × dupla</strong>: na ação simples há maior recuo do cão, produzindo <strong>marca de percussão mais profunda</strong>. <span class="ref-pagina">(p. 73)</span></li>
+                    <li><strong>Recomendação</strong>: sempre que possível, colher com a arma em <strong>posição normal de tiro e em ação dupla</strong>; se necessário, podem ser colhidos em ação simples. <span class="ref-pagina">(p. 73)</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="sec634" class="section">
+            <h3>6.3.4 Comparação de projéteis e estojos</h3>
+
+            <div class="box-blue">
+                <strong>Equipamento:</strong> O exame microscópico comparativo entre materiais questionados e padrões é o <strong>mais importante e decisivo</strong> dos exames balísticos - por ele é possível estabelecer com certeza a identificação individual de uma arma. É feito no <strong>microscópio comparador balístico</strong>, que consiste em <strong>par de objetivas</strong> que possibilitam a fusão (total ou parcial) das imagens, permitindo comparar as <strong>estrias microscópicas</strong> presentes em ambos. <span class="ref-pagina">(p. 73)</span>
+            </div>
+
+            <h3>6.3.4.1 Confronto balístico em projéteis</h3>
+
+            <table>
+                <tr>
+                    <th>Tipo de deformação</th>
+                    <th>Origem</th>
+                    <th>Uso em confronto?</th>
+                </tr>
+                <tr>
+                    <td><strong>Normais</strong></td>
+                    <td>Passagem do projétil pelo interior do cano - impressão das características mediatas da arma <span class="ref-pagina">(p. 74)</span></td>
+                    <td><strong>SIM</strong> - de extrema importância</td>
+                </tr>
+                <tr>
+                    <td><strong>Acidentais</strong></td>
+                    <td>Impacto contra objetos resistentes (alvos humanos, transfixação de anteparos etc.) <span class="ref-pagina">(p. 74)</span></td>
+                    <td><strong>NÃO</strong> - impossíveis de reproduzir</td>
+                </tr>
+            </table>
+
+            <div class="box-purple">
+                <strong>Características de classe (exame macroscópico inicial):</strong> Calibre real, número de raias e sua orientação (<strong>dextrógiras ou sinistrógiras</strong>). Se forem <strong>concordantes</strong>, justifica-se exame microscópico minucioso. Se <strong>apenas uma</strong> dessas características de classe for discordante, o perito pode afirmar com certeza que o projétil <strong>NÃO foi expelido</strong> pelo cano da arma, dispensando o confronto. <span class="ref-pagina">(p. 74)</span>
+            </div>
+
+            <div class="box-orange">
+                <strong>Cuidado com o calibre:</strong> Projéteis de um calibre nominal podem ser expelidos por canos de armas de outros calibres nominais, desde que o <strong>calibre real seja similar</strong>. Exemplo: projéteis .380" Auto podem ser expelidos por canos calibre 9 mm ou .38" SPECIAL. <span class="ref-pagina">(p. 75)</span>
+            </div>
+
+            <p>O exame microcomparativo pode ser feito <strong>entre padrões e questionados</strong> (quando a arma está disponível) ou <strong>entre vários questionados</strong> (para determinar se foram expelidos pelo cano da mesma arma). <span class="ref-pagina">(p. 75)</span></p>
+
+            <div class="box-green">
+                <strong>Procedimento:</strong> Primeiro compara-se os padrões entre si para determinar quais <strong>estrias características se repetem</strong> em todos - essas serão usadas no confronto com o(s) projétil(is) questionado(s), procurando convergência. <span class="ref-pagina">(p. 75)</span>
+                <ul>
+                    <li><strong>Confronto positivo:</strong> há convergência - pode-se afirmar com certeza que o projétil questionado foi expelido pelo cano da arma questionada. <span class="ref-pagina">(p. 75)</span></li>
+                    <li><strong>Confronto negativo:</strong> não há convergência. <span class="ref-pagina">(p. 75)</span></li>
+                </ul>
+            </div>
+
+            <div class="box-blue">
+                <strong>Projétil deformado/fragmentado:</strong> Mesmo intensamente deformado por impacto, com reversão completa dos bordos de expansão ou completamente fragmentado, ainda é possível realizar confronto - por isso é importante <strong>preservar todos os projéteis e fragmentos</strong> para perícia. <span class="ref-pagina">(p. 75)</span>
+            </div>
+
+            <h3>6.3.4.2 Confronto balístico em estojos</h3>
+
+            <p>O confronto se dá entre <strong>estojo padrão e questionado</strong> (quando a arma é enviada) ou entre <strong>dois ou mais questionados</strong> (para determinar se foram percutidos e deflagrados pela mesma arma). <span class="ref-pagina">(p. 76)</span></p>
+
+            <div class="box-orange">
+                <strong>Casos especiais:</strong>
+                <ul>
+                    <li><strong>Espingardas</strong>: comparação feita apenas nos estojos deflagrados, devido à <strong>alma lisa</strong> das armas. <span class="ref-pagina">(p. 76)</span></li>
+                    <li><strong>Rifles e fuzis (alta energia)</strong>: comparação feita apenas nos estojos, pois o projétil pode <strong>perder-se ou fragmentar-se</strong> de forma a impossibilitar o confronto microscópico. <span class="ref-pagina">(p. 76)</span></li>
+                </ul>
+            </div>
+
+            <div class="box-purple">
+                <strong>Características analisadas em estojos:</strong>
+                <ul>
+                    <li>Marcas de <strong>percussão</strong> (na cápsula de espoletamento);</li>
+                    <li>Marcas de <strong>ejeção</strong>;</li>
+                    <li>Marcas de <strong>extração</strong>;</li>
+                    <li>Marcas de <strong>culatra ou chapa de obturação</strong> na base do estojo.</li>
+                </ul>
+                <span class="ref-pagina">(p. 76)</span>
+            </div>
+        </div>
+
+        <div id="sec635" class="section">
+            <h3>6.3.5 Banco de dados balísticos</h3>
+
+            <div class="box-blue">
+                <strong>Avanço tecnológico:</strong> O desenvolvimento de <strong>comparadores balísticos virtuais</strong> - capazes de adquirir, armazenar e correlacionar imagens de projéteis e estojos - permitiu a implementação de bancos de dados balísticos. <span class="ref-pagina">(p. 77)</span>
+            </div>
+
+            <h3>6.3.5.1 Legislação nacional sobre banco de dados balísticos</h3>
+
+            <table>
+                <tr>
+                    <th>Norma</th>
+                    <th>Conteúdo</th>
+                </tr>
+                <tr>
+                    <td><strong>Lei nº 10.826/2003 (Estatuto do Desarmamento)</strong></td>
+                    <td>Previu, entre as competências do <strong>SINARM</strong>, cadastrar as características das <strong>impressões de raiamento</strong> e de <strong>microestriamento de projétil disparado</strong>, conforme marcação e testes obrigatoriamente realizados pelo fabricante. Implicaria a criação de um banco de perfis balísticos de todas as armas comercializadas no país - <strong>nunca foi implementado</strong>. <span class="ref-pagina">(p. 77-78)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Lei nº 13.964/2019</strong></td>
+                    <td>Acrescentou o <strong>art. 34A</strong> à Lei nº 10.826/2003, criando o <strong>Banco Nacional de Perfis Balísticos (BNPB)</strong>, destinado a armazenar perfis balísticos de projéteis e estojos relacionados a crimes, sob gestão da unidade oficial de perícia criminal. <span class="ref-pagina">(p. 78)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Decreto nº 10.711/2021</strong></td>
+                    <td>Instituiu formalmente o <strong>BNPB</strong>, criou o <strong>Sistema Nacional de Análise Balística (SINAB)</strong> e um <strong>Comitê Gestor</strong> no âmbito do <strong>Ministério da Justiça e Segurança Pública</strong> para padronizar procedimentos, capacitação e auditorias da rede balística nacional. <span class="ref-pagina">(p. 78)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Portaria DITEC/PF nº 1493, de 28/11/2024</strong></td>
+                    <td>Na Polícia Federal, dispõe sobre a padronização de procedimentos para <strong>encaminhamento de vestígios balísticos e padrões de arma de fogo</strong> para cadastro no BNPB. <span class="ref-pagina">(p. 79)</span></td>
+                </tr>
+            </table>
+
+            <h3>6.3.5.2 Arquitetura e funcionamento do SINAB</h3>
+
+            <div class="box-green">
+                <strong>Definição:</strong> O SINAB configura-se como uma <strong>rede nacional de laboratórios de Balística Forense</strong>, efetivamente implementado entre <strong>janeiro de 2022 e novembro de 2023</strong>, integrando a <strong>Polícia Federal e as Polícias Científicas de todas as unidades da Federação</strong>. <span class="ref-pagina">(p. 78)</span>
+            </div>
+
+            <div class="box-blue">
+                <strong>Arquitetura técnica:</strong> Cada laboratório dispõe de <strong>Sistemas de Identificação Balística (SIBs)</strong>, conectados por <strong>rede segura</strong> a um <strong>servidor central de armazenamento e correlação</strong>, onde está hospedado o <strong>BNPB</strong>. <span class="ref-pagina">(p. 78)</span>
+            </div>
+
+            <div class="box-purple">
+                <strong>O sistema permite:</strong>
+                <ul>
+                    <li>Aquisição <strong>padronizada</strong> de imagens de projéteis e estojos;</li>
+                    <li><strong>Armazenamento centralizado</strong> de imagens e metadados;</li>
+                    <li><strong>Correlação automatizada</strong> de novas amostras contra todas as demais compatíveis no banco;</li>
+                    <li>Geração de <strong>listas ordenadas de possíveis correspondências (HITs)</strong>, a serem analisadas por Peritos Criminais.</li>
+                </ul>
+                <span class="ref-pagina">(p. 78)</span>
+            </div>
+
+            <div class="box-orange">
+                <strong>Escolha da tecnologia:</strong> Precedida de <strong>processo licitatório internacional</strong> e <strong>Prova de Conceito (POC)</strong>, com critérios objetivos de desempenho balístico e tecnológico. Foi selecionado o sistema <strong>IBIS®</strong> para implementação da rede balística nacional. <span class="ref-pagina">(p. 78)</span>
+            </div>
+
+            <h3>6.3.5.3 Protocolos de operação do SINAB</h3>
+
+            <div class="box-blue">
+                Os Protocolos de Operação do SINAB, estabelecidos pelo <strong>Comitê Gestor do Ministério da Justiça e Segurança Pública</strong>, definem critérios de <strong>elegibilidade e priorização de casos</strong>, tendo em vista limitações operacionais. <span class="ref-pagina">(p. 78)</span>
+            </div>
+
+            <div class="box-green">
+                <strong>Fluxo operacional:</strong>
+                <ul>
+                    <li>Elementos de munição relacionados a crimes passam por <strong>triagem em microscópio comparador óptico</strong>, sendo selecionadas as peças com <strong>melhores marcas individualizadoras</strong> para inserção no sistema. <span class="ref-pagina">(p. 78)</span></li>
+                    <li>Também são coletados e cadastrados <strong>padrões de armas de fogo apreendidas</strong> relacionadas a crimes. <span class="ref-pagina">(p. 78)</span></li>
+                    <li>As correlações são realizadas <strong>automaticamente pelo servidor central do BNPB</strong>, considerando compatibilidade de <strong>calibre e outras características de classe</strong>. <span class="ref-pagina">(p. 79)</span></li>
+                    <li>As listas de resultados são analisadas por <strong>Peritos Criminais especialistas em Confronto Balístico</strong>, que registram ou rejeitam as possíveis ligações por <strong>análise das imagens do sistema</strong>, seguida de <strong>confirmação por comparação microscópica tradicional</strong> das peças físicas. <span class="ref-pagina">(p. 79)</span></li>
+                    <li>As ligações confirmadas são formalizadas em <strong>Laudos de Perícia Criminal</strong> e encaminhadas às autoridades responsáveis pelas investigações. <span class="ref-pagina">(p. 79)</span></li>
+                </ul>
+            </div>
+
+            <h3>6.3.5.4 Resultados do SINAB e relevância para a investigação criminal</h3>
+
+            <div class="box-blue">
+                <strong>Magnitude:</strong> Com a implementação do SINAB, consolidou-se <strong>uma das maiores redes balísticas criminais do mundo</strong>, conectando dezenas de laboratórios e permitindo correlações nacionais em tempo reduzido. O sistema possibilitou a identificação de <strong>milhares de ligações entre crimes</strong>, inclusive em situações nas quais <strong>não havia requisição prévia</strong> de comparação balística ou indícios investigativos de autoria. <span class="ref-pagina">(p. 79)</span>
+            </div>
+
+            <div class="box-purple">
+                <strong>Mudança de paradigma:</strong> O SINAB deslocou a perícia criminal de uma postura <strong>exclusivamente reativa</strong> para uma <strong>atuação proativa e orientada por inteligência pericial</strong>. Por meio da correlação balística em rede, tornou-se possível <strong>vincular crimes ocorridos em diferentes localidades</strong>, inclusive entre unidades da Federação, e <strong>relacionar armas apreendidas a delitos pretéritos</strong>. <span class="ref-pagina">(p. 79)</span>
+            </div>
+
+            <div class="box-green">
+                <strong>O SINAB é ferramenta estratégica para:</strong>
+                <ul>
+                    <li><strong>Identificação de séries criminosas</strong>;</li>
+                    <li><strong>Atuação contra organizações criminosas e grupos armados</strong>;</li>
+                    <li><strong>Integração entre investigações estaduais e federais</strong>;</li>
+                    <li><strong>Fortalecimento da produção de prova técnico-científica</strong>.</li>
+                </ul>
+                <span class="ref-pagina">(p. 79)</span>
+            </div>
+
+            <div class="box-orange">
+                <strong>Condição de efetividade:</strong> Depende da <strong>integração permanente entre Polícia Científica, investigação policial e inteligência</strong>, reforçando o papel do Perito Criminal como <strong>produtor de informação qualificada</strong> para a elucidação de crimes graves. <span class="ref-pagina">(p. 79)</span>
+            </div>
+
+            <div class="box-red">
+                <strong>Aplicação na PF (Portaria DITEC/PF nº 1493/2024):</strong> Em todas as unidades de criminalística do Sistema Nacional de Criminalística, os peritos responsáveis por atendimento de local de crime (coleta de vestígios balísticos) ou por exames em armas de fogo apreendidas (coleta de padrões balísticos) devem basear-se nas diretrizes da portaria para <strong>seleção de casos, preparo, coleta e embalagem de material</strong>, encaminhando-os para o <strong>Instituto Nacional de Criminalística</strong>, que é responsável pela <strong>inserção e busca no BNPB</strong>. <span class="ref-pagina">(p. 79-80)</span>
+            </div>
+
+            <div class="mnemonic">
+                <span class="mnemonic-title">Resumo SINAB - linha do tempo legislativa</span>
+                <ul>
+                    <li><strong>2003</strong> - Lei nº 10.826 (SINARM, perfis balísticos por fabricante - nunca implementado)</li>
+                    <li><strong>2019</strong> - Lei nº 13.964 (art. 34A: cria o BNPB)</li>
+                    <li><strong>2021</strong> - Decreto nº 10.711 (institui BNPB, cria SINAB e Comitê Gestor no MJSP)</li>
+                    <li><strong>2022-2023</strong> - Implementação efetiva do SINAB (sistema IBIS®)</li>
+                    <li><strong>2024</strong> - Portaria DITEC/PF nº 1493 (procedimentos PF para BNPB - INC inserção/busca)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>
