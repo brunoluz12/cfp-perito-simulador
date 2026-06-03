@@ -577,8 +577,16 @@ function analyzeFormal(pyramidData) {
 
     // Count distinct families
     const families = new Set();
-    Object.values(cells).forEach(code => { families.add(PFISTER_COLORS[code].family); });
+    const chromaticFamilies = new Set();
+    Object.values(cells).forEach(code => { 
+        const family = PFISTER_COLORS[code].family;
+        families.add(family); 
+        if (family !== 'Br' && family !== 'Pr' && family !== 'Ci') {
+            chromaticFamilies.add(family);
+        }
+    });
     const numFamilies = families.size;
+    const numChromatic = chromaticFamilies.size;
 
     // Check horizontal layers (rows with same family)
     const rows = [['1'],['2a','2b'],['3a','3b','3c'],['4a','4b','4c','4d'],['5a','5b','5c','5d','5e']];
@@ -594,7 +602,7 @@ function analyzeFormal(pyramidData) {
 
     if (numFamilies === 1 && Object.keys(cells).length === 15) {
         formal = 'camada monotonal';
-    } else if (symMatches >= 5 && numFamilies >= 4 && numFamilies <= 6) {
+    } else if (symMatches >= 5 && numFamilies >= 4 && numChromatic <= 6) {
         formal = 'estrutura simétrica';
     } else if (symMatches >= 4 && numFamilies >= 3) {
         formal = 'formação simétrica';
@@ -690,10 +698,10 @@ function calculateScore(colorAnalysis, syndromesData, formalAnalyses, execution)
     formalAnalyses.forEach((fa, i) => {
         const label = ['I','II','III'][i];
         if (fa.formal === 'estrutura simétrica') {
-            score += 3;
-            positives.push(`Pirâmide ${label}: estrutura simétrica — indica funcionamento cognitivo elaborado e equilíbrio emocional.`);
-        } else if (fa.formal === 'formação simétrica') {
             score += 2;
+            positives.push(`Pirâmide ${label}: estrutura simétrica - indica funcionamento cognitivo elaborado e equilíbrio emocional.`);
+        } else if (fa.formal === 'formação simétrica') {
+            score += 1;
             positives.push(`Pirâmide ${label}: formação simétrica — nível intermediário de elaboração; aceitável.`);
         } else if (fa.formal.includes('formação')) {
             score += 1;
@@ -768,8 +776,7 @@ function calculateScore(colorAnalysis, syndromesData, formalAnalyses, execution)
 
     // Substitutions
     const totalSubs = formalAnalyses.reduce((s, fa) => s + fa.substitutions, 0);
-    if (totalSubs === 0) { score += 1; }
-    else if (totalSubs >= 5) { score -= 1; warnings.push('Número elevado de substituições — possível indecisão ou insegurança.'); }
+    if (totalSubs >= 5) { score -= 1; warnings.push('Número elevado de substituições - possível indecisão ou insegurança.'); }
 
     let recommendation;
     if (score >= 5) recommendation = { text: 'RECOMENDADO', color: '#1B5E20', bg: '#E8F5E9' };
