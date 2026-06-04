@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 1 - Conceitos Básicos sobre Química Forense</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .diagram { display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0; justify-content: center; }
+        .diagram-item { flex: 1; min-width: 180px; background: #fff; border: 2px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
+        .diagram-item-title { font-weight: 700; color: #2b6cb0; margin-bottom: 8px; }
+        .svg-figure { text-align: center; margin: 25px 0; }
+        .svg-figure .caption { font-size: 0.85em; color: #718096; font-style: italic; margin-top: 8px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB · QUÍMICA FORENSE</span>
+        <h1>Capítulo 1 — Conceitos Básicos sobre Química Forense</h1>
+        <div class="subtitle">Terminologia, legislação, classificação e dependência</div>
+    </div>
+
+    <div class="toc">
+        <strong>Índice do Capítulo</strong>
+        <ul>
+            <li><a href="#sec0">Apresentação — O que é Química Forense</a></li>
+            <li><a href="#sec1">1.1 Terminologia e conceitos fundamentais</a></li>
+            <li><a href="#sec2">1.2 Legislação pertinente sobre Química Forense</a></li>
+            <li><a href="#sec3">As Listas da Portaria nº 344/98</a></li>
+            <li><a href="#sec4">1.3 Estudo das drogas de uso abusivo (efeitos)</a></li>
+            <li><a href="#sec5">1.4 Aspectos relacionados à dependência de drogas</a></li>
+            <li><a href="#sec6">Síntese e Mnemônicos</a></li>
+        </ul>
+    </div>
+
+    <!-- ================= APRESENTAÇÃO ================= -->
+    <div class="section" id="sec0">
+        <h2>Apresentação — O que é Química Forense</h2>
+        <p>A <strong>Química Forense</strong> pode ser definida como o ramo da Perícia que processa/estuda/identifica os vestígios químicos de um crime. Trata-se de uma definição generalista, pois pode se referir tanto à apreensão de substâncias químicas quanto à análise de vestígios encontrados em locais de crime, por exemplo. <span class="ref-pagina">(p. 7)</span></p>
+
+        <div class="box-green">
+            <strong>Materiais que podem ser investigados:</strong> drogas de uso abusivo, medicamentos, fármacos, agrotóxicos, substâncias químicas sujeitas a controle, alimentos ou suplementos alimentares, combustíveis, explosivos, agroquímicos (agrotóxicos e fertilizantes), resíduos de incêndios, pós-explosões, contaminações ambientais e utensílios em contato com drogas. <span class="ref-pagina">(p. 7)</span>
+        </div>
+
+        <p>Essa lista mostra apenas parte da casuística real da Polícia Federal. Na última década cresceram em demanda áreas como análises de minerais e pedras preciosas, composição química de tintas em documentos, identificação de fibras e análises de alimentos. A Química Forense é uma das áreas mais abrangentes da Perícia Criminal, permitindo interfaces com áreas distintas como Meio Ambiente, Local de Crime e Documentoscopia. <span class="ref-pagina">(p. 7)</span></p>
+
+        <div class="box-orange">
+            <strong>Foco do material:</strong> drogas de uso abusivo, produtos farmacêuticos e análises de agrotóxicos. Uma das mais importantes áreas é a análise de drogas de abuso — conhecer as principais drogas, os testes preliminares e a legislação sobre drogas é imprescindível aos policiais que atuam na repressão ao tráfico. O conhecimento sobre drogas de abuso passa por farmacologia, química e direito, além de ciências sociais (psicologia e sociologia). <span class="ref-pagina">(p. 7)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!)</strong><br>
+            O <strong>laudo preliminar de constatação</strong> pode ser emitido por Peritos Criminais de <em>qualquer área de formação acadêmica</em>, conforme previsto na <strong>Lei nº 11.343/2006</strong>. <span class="ref-pagina">(p. 7)</span>
+        </div>
+    </div>
+
+    <!-- ================= 1.1 TERMINOLOGIA ================= -->
+    <div class="section" id="sec1">
+        <h2>1.1 Terminologia e conceitos fundamentais</h2>
+        <p>Conceitos básicos fundamentais para o entendimento das drogas de abuso são discutidos a seguir. <span class="ref-pagina">(p. 8)</span></p>
+
+        <h3>Droga</h3>
+        <div class="box-purple">
+            <strong>Conceito clássico:</strong> "Qualquer substância natural ou sintética que, ao entrar em contato com um organismo vivo, pode modificar uma ou várias de suas funções; é uma substância química que tem ação biológica sobre as estruturas celulares do organismo, com fins terapêuticos ou não." <span class="ref-pagina">(p. 8)</span>
+        </div>
+        <div class="box-purple">
+            <strong>Conceito legal (Lei nº 11.343/2006, de 26 de agosto de 2006):</strong> "Para fins desta Lei, consideram-se como drogas as substâncias ou produtos capazes de causar dependência, assim especificados em lei ou relacionados em listas atualizadas periodicamente pelo Poder Executivo da União." <span class="ref-pagina">(p. 8)</span>
+        </div>
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!)</strong><br>
+            Em relação às listas atualizadas periodicamente pelo Poder Executivo da União, consideram-se drogas as substâncias presentes nas <strong>listas "A", "B" e "F"</strong> da <strong>Portaria nº 344/98-SVS/MS</strong>. <span class="ref-pagina">(p. 8)</span>
+        </div>
+
+        <h3>Drogas naturais e sintéticas</h3>
+        <table>
+            <tr><th>Tipo</th><th>Definição</th><th>Exemplos</th></tr>
+            <tr>
+                <td><strong>Naturais</strong></td>
+                <td>Presentes em plantas, animais ou minerais (já existem na natureza). Podem ser usadas direto da fonte natural ou extraídas/purificadas por procedimentos químicos ou físicos, <em>porém sem alteração da molécula original</em>.</td>
+                <td>Cocaína, THC, morfina, mescalina, psilocibina, DMT</td>
+            </tr>
+            <tr>
+                <td><strong>Sintéticas</strong></td>
+                <td>Obtidas por modificações químicas da estrutura de precursores naturais ou sintéticos; não existem na natureza, são criadas pelo homem por síntese química em laboratórios.</td>
+                <td>LSD (do ácido lisérgico), MDMA (do safrol), heroína (da morfina), metadona, anfetaminas, barbitúricos, benzodiazepínicos, mefedrona, DOB</td>
+            </tr>
+        </table>
+        <p class="ref-pagina">(p. 8)</p>
+
+        <div class="svg-figure">
+            <svg width="640" height="180" viewBox="0 0 640 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fluxo de droga natural para sintética">
+                <rect x="20" y="55" width="200" height="70" rx="10" fill="#f0fff4" stroke="#38a169" stroke-width="2"/>
+                <text x="120" y="80" text-anchor="middle" font-size="15" font-weight="700" fill="#2d3748">NATURAL</text>
+                <text x="120" y="102" text-anchor="middle" font-size="11" fill="#555">Existe na natureza</text>
+                <text x="120" y="118" text-anchor="middle" font-size="10" fill="#777">Ex.: morfina, cocaína</text>
+
+                <line x1="225" y1="90" x2="305" y2="90" stroke="#dd6b20" stroke-width="3"/>
+                <polygon points="305,90 293,84 293,96" fill="#dd6b20"/>
+                <text x="265" y="80" text-anchor="middle" font-size="10" fill="#dd6b20" font-weight="700">síntese química</text>
+                <text x="265" y="112" text-anchor="middle" font-size="10" fill="#dd6b20">(modifica a molécula)</text>
+
+                <rect x="315" y="55" width="200" height="70" rx="10" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+                <text x="415" y="80" text-anchor="middle" font-size="15" font-weight="700" fill="#2d3748">SINTÉTICA</text>
+                <text x="415" y="102" text-anchor="middle" font-size="11" fill="#555">Criada pelo homem</text>
+                <text x="415" y="118" text-anchor="middle" font-size="10" fill="#777">Ex.: heroína, LSD, MDMA</text>
+            </svg>
+            <div class="caption">A extração/purificação SEM alterar a molécula = ainda natural. Modificar a molécula = sintética.</div>
+        </div>
+
+        <h3>Demais conceitos fundamentais</h3>
+        <table>
+            <tr><th>Termo</th><th>Definição (conforme o PDF)</th></tr>
+            <tr><td><strong>Fármaco</strong></td><td>Substância de estrutura química definida, dotada de ação farmacológica conhecida, capaz de modificar ou explorar o sistema fisiológico ou o estado patológico, em benefício do organismo receptor. <span class="ref-pagina">(p. 8-9)</span></td></tr>
+            <tr><td><strong>Medicamento</strong></td><td>Produto farmacêutico, tecnicamente obtido ou elaborado, com finalidade profilática, curativa, paliativa ou para fins de diagnóstico. É uma forma farmacêutica terminada que contém um ou mais fármacos, geralmente em associação com adjuvantes farmacotécnicos. <span class="ref-pagina">(p. 9)</span></td></tr>
+            <tr><td><strong>Farmacologia</strong></td><td>Ciência que estuda como os fármacos interagem com organismos vivos. <span class="ref-pagina">(p. 9)</span></td></tr>
+            <tr><td><strong>Toxicologia</strong></td><td>Ciência que estuda os efeitos nocivos decorrentes das interações de substâncias químicas com os organismos. <span class="ref-pagina">(p. 9)</span></td></tr>
+            <tr><td><strong>Tóxico</strong></td><td>Agente tóxico ou toxicante: substância química capaz de causar dano a um sistema biológico, alterando uma função ou levando-o à morte, sob determinadas condições de exposição. <span class="ref-pagina">(p. 9)</span></td></tr>
+            <tr><td><strong>Psicotrópicos</strong></td><td>Termo genérico que designa drogas com efeitos significativos no sistema nervoso central (SNC), que afetam processos mentais, alterando a percepção, as emoções, o pensamento e o comportamento. <span class="ref-pagina">(p. 9)</span></td></tr>
+            <tr><td><strong>Substâncias psicoativas</strong></td><td>Termo usado como sinônimo de psicotrópicos. O termo derivado "novas substâncias psicoativas" é muito utilizado atualmente: são substâncias <em>não listadas</em> na Convenção de Psicotrópicos de 1971 nem em suas atualizações. <span class="ref-pagina">(p. 9)</span></td></tr>
+            <tr><td><strong>Alcaloides</strong></td><td>Substâncias nitrogenadas, muitas farmacologicamente ativas, encontradas predominantemente em plantas. Várias possuem caráter básico, podem apresentar efeitos psicotrópicos e ser facilmente isoladas de plantas por processos físico-químicos. <span class="ref-pagina">(p. 9)</span></td></tr>
+            <tr><td><strong>Entorpecente</strong></td><td>Agente químico que produz estupor (narcose), coma ou insensibilidade à dor. Refere-se normalmente a opioides, denominados analgésicos narcóticos. Em uso coloquial ou jurídico é empregado de forma imprecisa (cientificamente) para designar drogas ilícitas; recomenda-se termo mais específico (ex.: analgésicos opioides e não opioides). <span class="ref-pagina">(p. 10)</span></td></tr>
+            <tr><td><strong>Adulterantes</strong></td><td>Substâncias <em>com</em> efeito farmacológico, que podem potencializar ou simular algum dos efeitos das drogas de abuso (ex.: a cocaína) no usuário. <span class="ref-pagina">(p. 10)</span></td></tr>
+            <tr><td><strong>Diluentes</strong></td><td>Substâncias <em>sem</em> atividade farmacológica, adicionadas para diluir drogas de abuso (ex.: a cocaína) e aumentar a massa do produto a ser comercializado. <span class="ref-pagina">(p. 10)</span></td></tr>
+            <tr><td><strong>Sisnad</strong></td><td>Sistema Nacional de Políticas Públicas sobre Drogas. Visa ao cumprimento das finalidades do art. 3º da Lei Antidrogas: "articular, integrar, organizar e coordenar as atividades relacionadas com a prevenção do uso indevido, a atenção e a reinserção social de usuários e dependentes de drogas e a repressão da produção não autorizada e do tráfico ilícito de drogas". Regulamentado pelo <strong>Decreto nº 5.912, de 27 de setembro de 2006</strong>. <span class="ref-pagina">(p. 10)</span></td></tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Adulterante × Diluente</span>
+            "<strong>A</strong>dulterante <strong>A</strong>tua" / "<strong>D</strong>iluente é <strong>D</strong>ono do peso".<br>
+            ADulterante = tem ação farmacológica (potencializa/simula efeitos). DIluente = sem atividade farmacológica, só DIlui e aumenta a massa. As letras iniciais coincidem: <em>A</em>tua / <em>D</em>ilui.
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Fármaco × Medicamento</span>
+            <strong>F</strong>ármaco = <strong>F</strong>órmula (estrutura química definida + ação farmacológica). <strong>M</strong>edicamento = produto <strong>M</strong>ontado (forma farmacêutica terminada = um ou mais fármacos + adjuvantes).
+        </div>
+    </div>
+
+    <!-- ================= 1.2 LEGISLAÇÃO ================= -->
+    <div class="section" id="sec2">
+        <h2>1.2 Legislação pertinente sobre Química Forense</h2>
+        <p>Diversos dispositivos legais, nacionais e internacionais, tratam de tráfico, porte, uso, repressão e controle de drogas e substâncias químicas relacionadas à produção e/ou adulteração de drogas. <span class="ref-pagina">(p. 10)</span></p>
+
+        <h3>A) Convenções (internacionais)</h3>
+        <table>
+            <tr><th>Item</th><th>Convenção</th><th>Ano</th><th>Ratificação no Brasil</th></tr>
+            <tr><td>A.1</td><td>Convenção Única sobre Entorpecentes</td><td>1961</td><td>Decreto nº 54.216/64</td></tr>
+            <tr><td>A.2</td><td>Convenção sobre Substâncias Psicotrópicas</td><td>1971</td><td>Decreto nº 79.388/77</td></tr>
+            <tr><td>A.3</td><td>Convenção Contra o Tráfico Ilícito de Entorpecentes e Substâncias Psicotrópicas</td><td>1988</td><td>Decreto nº 154/91</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 10-11)</p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Convenções (61 / 71 / 88)</span>
+            "<strong>E</strong>ntorpecente, <strong>P</strong>sicotrópico, <strong>T</strong>ráfico" → <strong>61, 71, 88</strong>.<br>
+            1961 = <strong>E</strong>ntorpecentes (Única) · 1971 = <strong>P</strong>sicotrópicas · 1988 = <strong>T</strong>ráfico ilícito.
+        </div>
+
+        <h3>B) Leis Específicas (drogas)</h3>
+        <table>
+            <tr><th>Item</th><th>Norma</th><th>Conteúdo</th></tr>
+            <tr><td>B.1</td><td><strong>Lei nº 11.343, de 23/08/2006</strong></td><td>A mais recente sobre drogas no Brasil. Institui o Sisnad; prescreve medidas de prevenção, atenção e reinserção social; estabelece normas para repressão à produção não autorizada e ao tráfico; define crimes. Art. 1º, parágrafo único: drogas = substâncias/produtos capazes de causar dependência, especificados em lei ou listas do Poder Executivo da União.</td></tr>
+            <tr><td>B.2</td><td><strong>Portaria nº 344/98-SVS, de 12/05/1998</strong></td><td>Define substâncias e medicamentos sujeitos a controle especial (regulamenta a Lei nº 11.343/06). Regularmente atualizada por RDC da Anvisa; a mais recente citada é a RDC nº 1026, de 09/04/2026 (DOU de 13/04/2026).</td></tr>
+            <tr><td>B.3</td><td><strong>Lei nº 10.357, de 27/12/2001</strong></td><td>Normas de controle e fiscalização sobre produtos químicos que direta ou indiretamente possam ser destinados à elaboração ilícita de substâncias entorpecentes, psicotrópicas ou que determinem dependência física ou psíquica.</td></tr>
+            <tr><td>B.4</td><td><strong>Portaria nº 204/2022-MJSP, de 21/10/2022</strong></td><td>Regulamenta quais são as substâncias e em quais condições estão sujeitas ao controle disposto na Lei nº 10.357/01.</td></tr>
+            <tr><td>B.5</td><td><strong>Lei nº 11.343/06, art. 50</strong></td><td>Normativos sobre testes preliminares (detalhe no Cap. 4) — ver ponto crítico abaixo.</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 11)</p>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO — Art. 50 da Lei nº 11.343/06 (cai em prova!)</strong>
+            <p>Ocorrendo prisão em flagrante, a autoridade de polícia judiciária fará, imediatamente, comunicação ao juiz competente, remetendo cópia do auto lavrado, do qual será dada vista ao Ministério Público, em <strong>24 horas</strong>.</p>
+            <p><strong>§ 1º</strong> Para a lavratura do auto de prisão em flagrante e estabelecimento da materialidade do delito, é <strong>suficiente o laudo de constatação</strong> da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea.</p>
+            <p><strong>§ 2º</strong> O perito que subscrever o laudo do § 1º <strong>não ficará impedido</strong> de participar da elaboração do laudo definitivo. <span class="ref-pagina">(p. 11-12)</span></p>
+        </div>
+
+        <h3>C a F) Leis sobre produtos farmacêuticos, alimentos e atribuição da PF</h3>
+        <table>
+            <tr><th>Item</th><th>Norma</th><th>Conteúdo</th></tr>
+            <tr><td>C</td><td><strong>Lei nº 5.991, de 17/12/1973</strong></td><td>Dispõe sobre o Controle Sanitário do Comércio de Drogas, Medicamentos, Insumos Farmacêuticos e Correlatos.</td></tr>
+            <tr><td>D</td><td><strong>Lei nº 6.360, de 23/09/1976</strong></td><td>Dispõe sobre a Vigilância Sanitária a que ficam sujeitos medicamentos, drogas, insumos farmacêuticos e correlatos, cosméticos, saneantes e outros produtos.</td></tr>
+            <tr><td>E</td><td><strong>Lei nº 10.742, de 06/10/2003</strong></td><td>Define normas de regulação para o setor farmacêutico, cria a Câmara de Regulação do Mercado de Medicamentos (CMED) e altera a Lei nº 6.360/76.</td></tr>
+            <tr><td>F</td><td><strong>Lei nº 12.894, de 17/12/2013</strong></td><td>Acrescentou inciso ao art. 1º da Lei nº 10.446/2002: havendo repercussão interestadual/internacional que exija repressão uniforme, a Polícia Federal poderá investigar, entre outras, a falsificação, corrupção, adulteração ou alteração de produto destinado a fins terapêuticos ou medicinais e sua venda (inclusive pela internet), depósito ou distribuição (art. 273 do Código Penal).</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 12)</p>
+
+        <h3>G) Portaria nº 344/98-SVS — Definições legais</h3>
+        <div class="box-purple">
+            <strong>Entorpecente (Portaria 344):</strong> "Substância que pode determinar dependência física ou psíquica relacionada, como tal, nas listas aprovadas pela Convenção Única sobre Entorpecentes, reproduzidas nos anexos deste Regulamento Técnico."<br><br>
+            <strong>Psicotrópico (Portaria 344):</strong> "Substância que pode determinar dependência física ou psíquica e relacionada, como tal, nas listas aprovadas pela Convenção sobre Substâncias Psicotrópicas, reproduzidas nos anexos deste Regulamento Técnico." <span class="ref-pagina">(p. 13)</span>
+        </div>
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!)</strong><br>
+            As definições legais de <strong>entorpecente</strong> e <strong>psicotrópico</strong> adotadas pela Portaria nº 344 são <strong>coincidentes</strong>, embora isso <em>não seja correto do ponto de vista da Farmacologia</em>. <span class="ref-pagina">(p. 13)</span>
+        </div>
+
+        <h3>H a K) Código Penal e normas da Anvisa</h3>
+        <table>
+            <tr><th>Item</th><th>Norma</th><th>Conteúdo</th></tr>
+            <tr><td>H</td><td><strong>CP, art. 273</strong> (redação da Lei nº 9.677/1998 — Lei dos Crimes Hediondos)</td><td>Crime sujeito a reclusão e multa: "falsificar, corromper, adulterar ou alterar produto destinado a fins terapêuticos ou medicinais".</td></tr>
+            <tr><td>I</td><td><strong>CP, art. 272</strong> (redação da Lei nº 9.677/1998)</td><td>Crime sujeito a reclusão e multa: "corromper, adulterar, falsificar ou alterar substância ou produto alimentício destinado a consumo, tornando-o nocivo à saúde ou reduzindo-lhe o valor nutritivo". Também alcança bebidas, com ou sem teor alcoólico.</td></tr>
+            <tr><td>J</td><td><strong>RDCs e INs da Anvisa</strong></td><td>Tratam de medicamentos, produtos farmacêuticos, alimentos, suplementos, rotulagem, importação e controle sanitário. Destaques: RDC nº 243/2018 (requisitos sanitários de suplementos alimentares); IN nº 28/2018 (listas de constituintes, limites de uso e alegações para suplementos); RDC nº 429/2020 e IN nº 75/2020 (rotulagem nutricional de alimentos embalados).</td></tr>
+            <tr><td>K</td><td><strong>Notas Técnicas</strong></td><td>NT nº 05/2010, nº 47/2010 e nº 4/2011-GGMED/ANVISA (alimentos); NT nº 23/2013-CPCON/GPFIMP/GGIMP/ANVISA (procedimentos para importação de produtos controlados por pessoa física).</td></tr>
+        </table>
+        <p class="ref-pagina">(p. 14-15)</p>
+    </div>
+
+    <!-- ================= LISTAS DA PORTARIA 344 ================= -->
+    <div class="section" id="sec3">
+        <h2>As Listas da Portaria nº 344/98 (Anexo I)</h2>
+        <p>O Anexo I traz as listas de substâncias químicas (fármacos, medicamentos e drogas de abuso) e plantas sujeitas a controle especial ou consideradas proscritas em todo território nacional. A Portaria estabelece os critérios de comercialização, o tipo de receituário, se o uso é restrito ao ambiente hospitalar e quais são as drogas de uso proscrito (proibido). <span class="ref-pagina">(p. 13-14)</span></p>
+
+        <table>
+            <tr><th>Lista</th><th>Conteúdo</th><th>Tipo de receita / controle</th></tr>
+            <tr><td><strong>A1</strong></td><td>Substâncias entorpecentes</td><td>Notificação de receita A</td></tr>
+            <tr><td><strong>A2</strong></td><td>Substâncias entorpecentes de uso permitido somente em concentrações especiais</td><td>Notificação de receita A</td></tr>
+            <tr><td><strong>A3</strong></td><td>Substâncias psicotrópicas</td><td>Notificação de receita A</td></tr>
+            <tr><td><strong>B1</strong></td><td>Substâncias psicotrópicas</td><td>Notificação de receita B</td></tr>
+            <tr><td><strong>B2</strong></td><td>Substâncias psicotrópicas anorexígenas</td><td>Notificação de receita B2</td></tr>
+            <tr><td><strong>C1</strong></td><td>Outras substâncias sujeitas a controle especial</td><td>Receita de controle especial em duas vias</td></tr>
+            <tr><td><strong>C2</strong></td><td>Substâncias retinóicas</td><td>Notificação de receita especial</td></tr>
+            <tr><td><strong>C3</strong></td><td>Substâncias imunossupressoras</td><td>Notificação de receita especial</td></tr>
+            <tr><td><strong>C4</strong></td><td>Substâncias antirretrovirais</td><td>Receituário do Programa DST/AIDS ou Receita de Controle Especial em duas vias</td></tr>
+            <tr><td><strong>C5</strong></td><td>Substâncias anabolizantes</td><td>Receita de controle especial em duas vias</td></tr>
+            <tr><td><strong>D1</strong></td><td>Substâncias precursoras de entorpecentes e/ou psicotrópicas</td><td>Receita médica sem retenção</td></tr>
+            <tr><td><strong>D2</strong></td><td>Insumos químicos usados como precursores para fabricação/síntese de entorpecentes e/ou psicotrópicos</td><td>Controle do Ministério da Justiça</td></tr>
+            <tr><td><strong>E</strong></td><td>Plantas que podem originar substâncias entorpecentes e/ou psicotrópicas (termo "plantas proscritas" introduzido pela RDC nº 70, de 22/12/2009)</td><td>—</td></tr>
+            <tr><td><strong>F</strong></td><td colspan="2"><strong>Substâncias de uso proscrito no Brasil</strong> (subdividida em F1, F2, F3 e F4)</td></tr>
+            <tr><td><strong>F1</strong></td><td>Substâncias entorpecentes (ex.: cocaína, heroína)</td><td>Uso proscrito (proibido)</td></tr>
+            <tr><td><strong>F2</strong></td><td>Substâncias psicotrópicas (ex.: THC, MDMA)</td><td>Uso proscrito (proibido)</td></tr>
+            <tr><td><strong>F3</strong></td><td>Substâncias precursoras (fenilpropanolamina)</td><td>Uso proscrito (proibido)</td></tr>
+            <tr><td><strong>F4</strong></td><td>Outras substâncias (ex.: estricnina, lindano)</td><td>Uso proscrito (proibido)</td></tr>
+        </table>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!)</strong><br>
+            A classificação das drogas segue o recomendado no primeiro tratado assinado pelo Brasil. Assim, a <strong>cocaína</strong> aparece classificada como <strong>entorpecente</strong> (Lista F1), apesar de ser farmacologicamente classificada como uma substância <strong>estimulante</strong>. <span class="ref-pagina">(p. 14)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Lista F (proscritas) e suas filhas</span>
+            "<strong>F</strong> de proibido (<strong>F</strong>ora do Brasil)". A Lista F = uso proscrito. Suas 4 filhas:<br>
+            <strong>F1</strong> = <strong>1º E</strong>ntorpecentes (cocaína, heroína) · <strong>F2</strong> = Psico<strong>2</strong>trópicas (THC, MDMA) · <strong>F3</strong> = pre<strong>3</strong>cursoras (fenilpropanolamina) · <strong>F4</strong> = ou<strong>4</strong>tras (estricnina, lindano).
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Lembrar quais listas SÃO "droga" para a Lei</span>
+            "<strong>A</strong>, <strong>B</strong> e <strong>F</strong> são droga!" — para a Lei nº 11.343/06, consideram-se drogas as substâncias das listas <strong>A</strong>, <strong>B</strong> e <strong>F</strong> da Portaria 344/98.
+        </div>
+    </div>
+
+    <!-- ================= 1.3 EFEITOS ================= -->
+    <div class="section" id="sec4">
+        <h2>1.3 Estudo das drogas de uso abusivo (classificação por efeitos)</h2>
+        <p>O local de ação de uma droga no organismo é diretamente responsável pelos efeitos produzidos, permitindo que uma mesma substância assuma mais de uma classificação farmacológica. A cocaína, por exemplo, em uso tópico (sobre a pele) produz desestímulo local, sendo classificada como <strong>anestésico local</strong>; ao atuar sobre o SNC, passa a apresentar atividade psicotrópica. <span class="ref-pagina">(p. 15)</span></p>
+
+        <p>As principais drogas de interesse criminal são as <strong>drogas psicotrópicas</strong>. Devido ao advento das novas substâncias psicoativas (NSP), existem diversas formas de classificação (EMCDDA — Observatório Europeu da Droga e da Toxicodependência; UNODC — Escritório das Nações Unidas sobre Drogas e Crime, entre outros). Neste material adota-se a classificação quanto aos efeitos psicotrópicos: <span class="ref-pagina">(p. 15)</span></p>
+
+        <div class="diagram">
+            <div class="diagram-item"><div class="diagram-item-title">a) Estimulantes</div></div>
+            <div class="diagram-item"><div class="diagram-item-title">b) Canabinoides</div></div>
+            <div class="diagram-item"><div class="diagram-item-title">c) Opioides</div></div>
+            <div class="diagram-item"><div class="diagram-item-title">d) Sedativos e hipnóticos</div></div>
+            <div class="diagram-item"><div class="diagram-item-title">e) Dissociativos</div></div>
+            <div class="diagram-item"><div class="diagram-item-title">f) Alucinógenos</div></div>
+        </div>
+
+        <div class="box-orange">
+            Esses critérios serão usados ao abordar as características específicas das drogas no Capítulo 2. Além dessas categorias, serão exemplificadas outras substâncias usadas como drogas de abuso, tais como os <strong>inalantes</strong> (ex.: lança-perfume, item 2.7.1). <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Classes de efeito das drogas</span>
+            "<strong>E</strong>u <strong>C</strong>onheço <strong>O</strong>s <strong>S</strong>eis <strong>D</strong>iferentes <strong>A</strong>lucinógenos":<br>
+            <strong>E</strong>stimulantes · <strong>C</strong>anabinoides · <strong>O</strong>pioides · <strong>S</strong>edativos e hipnóticos · <strong>D</strong>issociativos · <strong>A</strong>lucinógenos.
+        </div>
+    </div>
+
+    <!-- ================= 1.4 DEPENDÊNCIA ================= -->
+    <div class="section" id="sec5">
+        <h2>1.4 Aspectos relacionados à dependência de drogas</h2>
+        <div class="box-blue">
+            <strong>Dependência:</strong> condição humana em que o uso de uma droga se torna compulsivo, tornando-se prioritário em relação a outras necessidades. Caracteriza-se por um conjunto de sintomas cognitivos, comportamentais e fisiológicos que indicam que a pessoa não tem controle sobre o uso e continua fazendo uso apesar das consequências adversas. Apresenta elementos <strong>físicos</strong> e <strong>psíquicos</strong>. <span class="ref-pagina">(p. 15-16)</span>
+        </div>
+
+        <table>
+            <tr><th>Componente</th><th>Está relacionado a</th><th>Caracterização</th></tr>
+            <tr>
+                <td><strong>Dependência física</strong></td>
+                <td>Tolerância + Síndrome de abstinência</td>
+                <td>Se a pessoa cessar o uso da droga, sentir-se-á fisicamente mal, devido à adaptação do organismo à presença constante dela.</td>
+            </tr>
+            <tr>
+                <td><strong>Dependência psíquica</strong></td>
+                <td>Falta de controle no uso</td>
+                <td>Desejo intenso de usar a droga; a pessoa usa periodicamente para sentir prazer, alívio das tensões ou evitar um desconforto emocional.</td>
+            </tr>
+        </table>
+        <p class="ref-pagina">(p. 16)</p>
+
+        <div class="box-purple">
+            <strong>Tolerância e síndrome de abstinência</strong> são fenômenos causados por uma alteração do SNC, decorrentes da presença de uma droga ou fármaco após exposição única ou repetida.
+            <ul>
+                <li><strong>Tolerância:</strong> resposta fisiológica diminuída para uma mesma dose de uma substância.</li>
+                <li><strong>Síndrome de abstinência:</strong> aparecimento de transtornos físicos intensos quando o uso da substância é interrompido.</li>
+            </ul>
+            <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <div class="svg-figure">
+            <svg width="660" height="240" viewBox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Esquema da dependência">
+                <rect x="230" y="10" width="200" height="46" rx="10" fill="#1a202c"/>
+                <text x="330" y="38" text-anchor="middle" font-size="17" font-weight="800" fill="#fff">DEPENDÊNCIA</text>
+
+                <line x1="330" y1="56" x2="160" y2="96" stroke="#718096" stroke-width="2"/>
+                <line x1="330" y1="56" x2="500" y2="96" stroke="#718096" stroke-width="2"/>
+
+                <rect x="40" y="96" width="240" height="56" rx="10" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+                <text x="160" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#2b6cb0">FÍSICA</text>
+                <text x="160" y="140" text-anchor="middle" font-size="11" fill="#555">organismo se adapta à droga</text>
+
+                <rect x="380" y="96" width="240" height="56" rx="10" fill="#faf5ff" stroke="#805ad5" stroke-width="2"/>
+                <text x="500" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#805ad5">PSÍQUICA</text>
+                <text x="500" y="140" text-anchor="middle" font-size="11" fill="#555">falta de controle no uso</text>
+
+                <line x1="100" y1="152" x2="60" y2="186" stroke="#718096" stroke-width="2"/>
+                <line x1="220" y1="152" x2="260" y2="186" stroke="#718096" stroke-width="2"/>
+                <rect x="0" y="186" width="120" height="44" rx="8" fill="#f0fff4" stroke="#38a169" stroke-width="2"/>
+                <text x="60" y="207" text-anchor="middle" font-size="12" font-weight="700" fill="#38a169">Tolerância</text>
+                <text x="60" y="222" text-anchor="middle" font-size="9" fill="#555">resposta diminuída</text>
+                <rect x="200" y="186" width="160" height="44" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2"/>
+                <text x="280" y="207" text-anchor="middle" font-size="12" font-weight="700" fill="#dd6b20">Síndrome de abstinência</text>
+                <text x="280" y="222" text-anchor="middle" font-size="9" fill="#555">transtornos ao cessar</text>
+
+                <line x1="500" y1="152" x2="500" y2="186" stroke="#718096" stroke-width="2"/>
+                <rect x="410" y="186" width="200" height="44" rx="8" fill="#faf5ff" stroke="#805ad5" stroke-width="2"/>
+                <text x="510" y="207" text-anchor="middle" font-size="12" font-weight="700" fill="#805ad5">Fissura / desejo intenso</text>
+                <text x="510" y="222" text-anchor="middle" font-size="9" fill="#555">prazer, alívio, evitar desconforto</text>
+            </svg>
+            <div class="caption">Dependência = FÍSICA [tolerância + síndrome de abstinência] + PSÍQUICA [falta de controle / fissura].</div>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Os elementos da dependência</span>
+            "<strong>FÍ</strong>sico = corpo (<strong>T</strong>olerância + <strong>A</strong>bstinência) · <strong>PSÍ</strong>quico = cabeça (falta de controle/fissura)".<br>
+            FÍsica → corpo sente (TA: Tolerância e Abstinência). PSÍquica → mente quer (desejo intenso de usar).
+        </div>
+    </div>
+
+    <!-- ================= SÍNTESE ================= -->
+    <div class="section" id="sec6">
+        <h2>Síntese e Mnemônicos</h2>
+        <div class="box-green">
+            <strong>Pontos-chave do capítulo:</strong>
+            <ul>
+                <li><strong>Química Forense</strong> = ramo da Perícia que processa/estuda/identifica vestígios químicos de um crime.</li>
+                <li><strong>Droga (Lei 11.343/06):</strong> substância/produto capaz de causar dependência, em lei ou nas listas <strong>A, B e F</strong> da Portaria 344/98.</li>
+                <li><strong>Natural</strong> = existe na natureza (extração não altera molécula); <strong>sintética</strong> = criada por síntese (modifica molécula).</li>
+                <li><strong>Adulterante</strong> tem ação farmacológica; <strong>diluente</strong> não tem (só aumenta a massa).</li>
+                <li>Convenções: <strong>1961</strong> Entorpecentes · <strong>1971</strong> Psicotrópicas · <strong>1988</strong> Tráfico.</li>
+                <li>Entorpecente e psicotrópico têm definição <strong>coincidente</strong> na Portaria 344 (incorreto na Farmacologia).</li>
+                <li>Cocaína = entorpecente na lei (F1), mas estimulante na farmacologia.</li>
+                <li>Laudo de constatação: suficiente para flagrante (art. 50 §1º); qualquer perito; o subscritor não fica impedido do laudo definitivo (§2º); vista ao MP em 24h.</li>
+                <li>Dependência = física (tolerância + abstinência) + psíquica (falta de controle/fissura).</li>
+            </ul>
+        </div>
+
+        <table>
+            <tr><th>Tema</th><th>Mnemônico</th></tr>
+            <tr><td>Adulterante × Diluente</td><td><strong>A</strong>dulterante <strong>A</strong>tua / <strong>D</strong>iluente <strong>D</strong>ilui</td></tr>
+            <tr><td>Convenções 61/71/88</td><td><strong>E</strong>ntorpecente · <strong>P</strong>sicotrópico · <strong>T</strong>ráfico</td></tr>
+            <tr><td>Listas que são "droga"</td><td><strong>A, B e F</strong> são droga!</td></tr>
+            <tr><td>Lista F (proscritas)</td><td>F1 Entorpecentes · F2 Psicotrópicas · F3 Precursoras · F4 Outras</td></tr>
+            <tr><td>Efeitos das drogas</td><td><strong>E·C·O·S·D·A</strong> (Estimulantes, Canabinoides, Opioides, Sedativos/hipnóticos, Dissociativos, Alucinógenos)</td></tr>
+            <tr><td>Dependência</td><td>FÍsica = corpo (Tolerância + Abstinência) · PSÍquica = mente (falta de controle)</td></tr>
+        </table>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

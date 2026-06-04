@@ -1875,6 +1875,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 { titulo: 'Anexos - Segurança, Queima, Resp. Civil e Legislação', arquivo: 'Capitulo_11_Anexos.html' }
             ]
         },
+        'quimica_forense': {
+            path: 'QUIMICA_FORENSE',
+            capitulos: [
+                { titulo: 'Capítulo 1 - Conceitos Básicos sobre Química Forense', arquivo: 'Capitulo_01.html' },
+                { titulo: 'Capítulo 2 - Estimulantes (Cocaína, Anfetaminas, Ecstasy)', arquivo: 'Capitulo_02.html' },
+                { titulo: 'Capítulo 3 - Canabinoides (Maconha, Skunk, Haxixe)', arquivo: 'Capitulo_03.html' },
+                { titulo: 'Capítulo 4 - Opioides e Sedativos/Hipnóticos', arquivo: 'Capitulo_04.html' },
+                { titulo: 'Capítulo 5 - Dissociativos, Alucinógenos e Outras Drogas', arquivo: 'Capitulo_05.html' },
+                { titulo: 'Capítulo 6 - Novas Substâncias Psicoativas (NSP)', arquivo: 'Capitulo_06.html' },
+                { titulo: 'Capítulo 7 - Testes Preliminares e Definitivos', arquivo: 'Capitulo_07.html' },
+                { titulo: 'Anexos - Apêndices (Testes Preliminares e Reagentes)', arquivo: 'Capitulo_08_Apendices.html' }
+            ]
+        },
         'ipo_2': {
             path: 'IPO_2',
             capitulos: [

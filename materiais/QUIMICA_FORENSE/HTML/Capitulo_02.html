@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 2 - Estimulantes</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .diagram { display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0; justify-content: center; }
+        .diagram-item { flex: 1; min-width: 180px; background: #fff; border: 2px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
+        .diagram-item-title { font-weight: 700; color: #2b6cb0; margin-bottom: 8px; }
+        .svg-figure { text-align: center; margin: 25px 0; }
+        .svg-figure .caption { font-size: 0.85em; color: #718096; font-style: italic; margin-top: 8px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB · QUÍMICA FORENSE</span>
+        <h1>Capítulo 2 — Estimulantes</h1>
+        <div class="subtitle">Cocaína, anfetaminas, anorexígenos e ecstasy</div>
+    </div>
+
+    <div class="toc">
+        <strong>Índice</strong>
+        <ul>
+            <li><a href="#estimulantes">2.1 O que são estimulantes</a></li>
+            <li><a href="#cocaina">2.1.1 Cocaína — origem e a planta coca</a></li>
+            <li><a href="#formas">2.1.1.2 Formas de apresentação (teores)</a></li>
+            <li><a href="#uso">2.1.1.3 Formas de uso e reações ácido-base</a></li>
+            <li><a href="#pequi">2.1.1.4 Projeto PeQui</a></li>
+            <li><a href="#legal-coca">2.1.1.5 Questões legais da cocaína</a></li>
+            <li><a href="#anfetaminas">2.1.2 Anfetamina e metanfetamina</a></li>
+            <li><a href="#anorexigenos">2.1.2.2 Anorexígenos</a></li>
+            <li><a href="#ecstasy">2.1.3 Ecstasy (MDMA / MDA)</a></li>
+            <li><a href="#sintese">Síntese e Mnemônicos</a></li>
+        </ul>
+    </div>
+
+    <!-- ============== 2.1 ESTIMULANTES ============== -->
+    <div class="section" id="estimulantes">
+        <h2>2.1 O que são estimulantes <span class="ref-pagina">(p. 17)</span></h2>
+        <div class="box-blue">
+            <strong>Conceito.</strong> São drogas que provocam elevação da atividade orgânica por
+            <strong>aumentar o trabalho do SNC (sistema nervoso central)</strong>.
+        </div>
+        <p>Os <strong>efeitos adversos</strong> do uso desse tipo de droga são representados por:</p>
+        <div class="box-red">
+            <strong>Efeitos adversos dos estimulantes:</strong> sudorese · dilatação das pupilas (midríase) · rubor ·
+            tremor · inquietação · irritabilidade · agitação · <strong>aumento da pressão arterial</strong> · taquicardia.
+            <span class="ref-pagina">(p. 17)</span>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — corpo "acelerado"</span>
+            Estimulante = SNC a "todo vapor": <strong>suor, pupila dilatada, tremor, pressão e batimentos lá em cima</strong>.
+            Pense num corpo agitado/irritado e acelerado.
+        </div>
+    </div>
+
+    <!-- ============== 2.1.1 COCAÍNA - ORIGEM ============== -->
+    <div class="section" id="cocaina">
+        <h2>2.1.1 Cocaína — origem e a planta coca <span class="ref-pagina">(p. 17-18)</span></h2>
+        <p>
+            A coca, ou arbusto de coca, é uma planta <strong>nativa da região dos Andes da América Latina</strong>,
+            cultivada principalmente no <strong>Peru, Bolívia e Colômbia</strong>. Foi considerada planta sagrada pelos Incas
+            e ainda hoje é usada pelos nativos da Bolívia e do Peru, que <strong>mascam as folhas</strong> para combater a fome,
+            aumentar a resistência a grandes jornadas e suprimir a sensação de medo. As folhas possuem uma série de alcaloides,
+            sendo a <strong>cocaína o principal deles</strong>.
+        </p>
+
+        <div class="box-blue">
+            <strong>Classificação botânica.</strong> A coca pertence à família <strong>Erythroxylaceae</strong> e ao gênero
+            <strong>Erythroxylum</strong>. Embora sejam conhecidas cerca de <strong>250 espécies</strong> de <em>Erythroxylum</em>,
+            somente <strong>duas</strong> possuem cocaína suficiente para exploração ilícita:
+            <ul>
+                <li><strong>Erythroxylum coca</strong> (variedade coca);</li>
+                <li><strong>Erythroxylum novogranatense</strong> (variedade novogranatense e variedade truxillense).</li>
+            </ul>
+            <span class="ref-pagina">(p. 17)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Variedade Ipadú (Epadu / Patu).</strong> As folhas de coca da espécie <em>Erythroxylum coca</em>,
+            variedade <strong>Ipadú</strong>, possuem <strong>baixo teor de cocaína</strong> e, por isso, <strong>não têm sido
+            utilizadas como matéria-prima</strong> na produção de cocaína. É nativa da região <strong>Amazônica</strong>, sendo
+            que os indígenas utilizam suas folhas para mascar. Denominam-se "folhas de coca", indistintamente, as folhas de
+            ambas as espécies e variedades de <em>Erythroxylum</em> citadas. <span class="ref-pagina">(p. 18)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Cultivo e características da planta:</strong>
+            <ul>
+                <li>Altura de <strong>1,0 a 3,0 m</strong>; desenvolve-se melhor em clima úmido, a <strong>15 °C a 20 °C</strong>
+                    e em <strong>altitudes de 500 a 2.500 m</strong>.</li>
+                <li>Atinge plenitude após <strong>18 meses</strong>; produtiva por <strong>10 a 30 anos ou mais</strong>;
+                    colheita <strong>3 a 4 vezes por ano</strong>.</li>
+                <li>Flores brancas e pequenas; frutos vermelhos em baga; folhas crescem em grupos de <strong>sete por talo</strong>.</li>
+                <li>Folhas ovais/elípticas, lisas e membranáceas, com <strong>duas falsas nervuras</strong> curvas e paralelas
+                    à nervura central; comprimento de <strong>2,0 a 6,5 cm</strong> e largura de até <strong>3,0 a 4,0 cm</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 18)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!) — teor de cocaína na folha.</strong> As folhas de
+            <strong>Erythroxylum coca, variedade coca</strong>, são as de <strong>maior teor de cocaína</strong>, podendo conter
+            de <strong>0,5% a 1,2%</strong> ou mais — por isso é a espécie mais cultivada para fins ilícitos. Principais países
+            produtores de folhas: <strong>Bolívia, Colômbia e Peru</strong>. <span class="ref-pagina">(p. 18)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Alcaloides minoritários (marcadores).</strong> Existem alcaloides minoritários nas folhas, tais como
+            <strong>cis- e trans-cinamoilcocaína</strong>, que podem servir como <strong>marcadores</strong> em análises dos
+            órgãos de combate às drogas, visando obter informações sobre formas de refino, origem geográfica da cocaína e
+            inter-relação de apreensões (ver Projeto PeQui). <span class="ref-pagina">(p. 18)</span>
+        </div>
+    </div>
+
+    <!-- ============== 2.1.1.2 FORMAS DE APRESENTAÇÃO ============== -->
+    <div class="section" id="formas">
+        <h2>2.1.1.2 Formas de apresentação (refino e teores) <span class="ref-pagina">(p. 18-19)</span></h2>
+        <p>
+            Embora existam métodos sintéticos de alto rendimento, os processos ilícitos mais comuns envolvem
+            <strong>técnicas extrativistas</strong> a partir das folhas de coca, realizadas em meio à floresta, com instrumentos
+            rudimentares e utensílios domésticos (baldes, panelas, panos, colheres). Os métodos de extração e purificação se
+            baseiam nas características <strong>físico-químicas</strong> do alcaloide cocaína. As formas obtidas são:
+        </p>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!) — teores de pureza por forma.</strong> Decore os percentuais e a forma
+            química (base livre × sal):
+            <table>
+                <thead>
+                    <tr><th>Forma</th><th>Forma química / Estado / Cor</th><th>Teor de pureza</th><th>Forma de uso</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Pasta base de cocaína</strong> (cocaína "crua"/"bruta", pasta de coca)</td>
+                        <td>Base livre. 1º produto da extração; raramente pastosa, geralmente pó/grumos; coloração bege ou
+                            pardacenta mais escura (pode confundir com crack após prensagem)</td>
+                        <td><strong>30% a 70%</strong></td>
+                        <td>Fumada</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cocaína base</strong></td>
+                        <td>Base livre. Pasta base purificada (oxidação com permanganato de potássio remove cis/trans-cinamoilcocaína);
+                            pó/grumos bege mais claro</td>
+                        <td><strong>≥ 90%</strong></td>
+                        <td>Fumada (pura ou com tabaco/maconha)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cloridrato de cocaína</strong></td>
+                        <td>Sal. Pó cristalino branco; cocaína base + ácido clorídrico (HCl), precipitado em solventes orgânicos
+                            (éter etílico, acetona, acetatos de etila e n-butila)</td>
+                        <td><strong>92% a 98%</strong></td>
+                        <td>Injetável e inalada</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Crack</strong></td>
+                        <td>Cocaína base em "pedras" de diversos tamanhos; do branco-marfim ao bege/bege pardacento</td>
+                        <td><strong>70% a 90%</strong> ou mais</td>
+                        <td>Fumada</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Merla</strong></td>
+                        <td>Cocaína base em pasta de cor branca por conter alto teor de água</td>
+                        <td><strong>~30% a 70%</strong></td>
+                        <td>Fumada</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Free-base</strong></td>
+                        <td>Cocaína base em cristais de cor branca</td>
+                        <td><strong>&gt; 90%</strong></td>
+                        <td>Fumada</td>
+                    </tr>
+                </tbody>
+            </table>
+            <span class="ref-pagina">(p. 19-20)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Observação sobre adulterações.</strong> O custo de processamento, a demanda no mercado internacional e o
+            público consumidor do <strong>cloridrato</strong> elevam seu valor no mercado ilícito e incentivam
+            <strong>adulterações/diluições</strong> com fármacos e materiais inertes. Normalmente usa-se ácido clorídrico para
+            formar o cloridrato, mas outros ácidos podem ser usados (ex.: <strong>ácido sulfúrico</strong>, gerando o
+            <strong>sal de sulfato</strong> da cocaína). <span class="ref-pagina">(p. 19)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — pureza crescente das formas</span>
+            <strong>Merla / Pasta base (30-70%)</strong> &lt; <strong>Crack (70-90%)</strong> &lt;
+            <strong>Cloridrato (92-98%)</strong> &lt; <strong>Cocaína base / Free-base (≥90% / &gt;90%)</strong>.<br>
+            Regra de bolso: <strong>"pasta e merla começam pobres (30%)"</strong>; <strong>"sal é o mais
+            'limpinho' apreendido na faixa 92-98%"</strong>; <strong>"base e free-base ≥ 90%"</strong>.
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — base × sal</span>
+            <strong>BASE = fumada</strong> (pasta base, cocaína base, crack, merla, free-base).
+            <strong>SAL (cloridrato) = injetável e inalado</strong>, porque é solúvel em água.
+        </div>
+    </div>
+
+    <!-- ============== 2.1.1.3 FORMAS DE USO + ÁCIDO-BASE ============== -->
+    <div class="section" id="uso">
+        <h2>2.1.1.3 Formas de uso e reações ácido-base <span class="ref-pagina">(p. 20)</span></h2>
+        <div class="box-green">
+            <strong>Formas de uso da cocaína:</strong>
+            <ul>
+                <li><strong>Injetável:</strong> apenas <strong>cloridrato de cocaína</strong>, por ser solúvel em água.</li>
+                <li><strong>Inalada:</strong> cloridrato de cocaína e <strong>todas</strong> as formas de cocaína base.</li>
+                <li><strong>Fumada:</strong> pasta base, cocaína base, crack, merla, free-base e outras formas de cocaína base.</li>
+            </ul>
+            <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <p>
+            A purificação se vale de reações <strong>ácido-base</strong>: em <strong>meio básico</strong> a cocaína fica na
+            forma de <strong>base livre</strong>, solúvel em solventes orgânicos (hexano, gasolina, querosene); em
+            <strong>meio ácido</strong> apresenta-se na forma de <strong>sal</strong>, solúvel em água e insolúvel em diversos
+            solventes orgânicos. As reações delineadas no material são:
+        </p>
+
+        <div class="box-purple">
+            <em>"NaOH + HCl → NaCl (cloreto de sódio) + H<sub>2</sub>O"</em><br>
+            <em>"Cocaína base (alcaloide) + HCl → Cocaína-Cl (cloridrato de cocaína)"</em>
+            <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <div class="svg-figure">
+            <svg width="860" height="360" viewBox="0 0 860 360" xmlns="http://www.w3.org/2000/svg" role="img"
+                 aria-label="Esquema de refino e interconversão da cocaína">
+                <defs>
+                    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L8,3 L0,6 Z" fill="#2b6cb0"/>
+                    </marker>
+                    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L8,3 L0,6 Z" fill="#805ad5"/>
+                    </marker>
+                </defs>
+
+                <!-- Folha de coca -->
+                <rect x="20" y="140" width="150" height="70" rx="8" fill="#f0fff4" stroke="#38a169" stroke-width="2"/>
+                <text x="95" y="170" text-anchor="middle" font-size="14" font-weight="700" fill="#2d3748">Folha de coca</text>
+                <text x="95" y="190" text-anchor="middle" font-size="11" fill="#718096">0,5% – 1,2% cocaína</text>
+
+                <!-- Pasta base -->
+                <rect x="210" y="140" width="150" height="70" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2"/>
+                <text x="285" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#2d3748">Pasta base</text>
+                <text x="285" y="184" text-anchor="middle" font-size="11" fill="#718096">base livre · 30-70%</text>
+
+                <!-- Cocaína base -->
+                <rect x="400" y="140" width="150" height="70" rx="8" fill="#ebf8ff" stroke="#3182ce" stroke-width="2"/>
+                <text x="475" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#2d3748">Cocaína base</text>
+                <text x="475" y="184" text-anchor="middle" font-size="11" fill="#718096">base livre · ≥ 90%</text>
+
+                <!-- Cloridrato (sal) -->
+                <rect x="640" y="140" width="180" height="70" rx="8" fill="#fff5f5" stroke="#e53e3e" stroke-width="2"/>
+                <text x="730" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#2d3748">Cloridrato de cocaína</text>
+                <text x="730" y="184" text-anchor="middle" font-size="11" fill="#718096">SAL · 92-98%</text>
+
+                <!-- Arrows linear -->
+                <line x1="170" y1="175" x2="208" y2="175" stroke="#2b6cb0" stroke-width="2" marker-end="url(#arrow)"/>
+                <text x="189" y="165" text-anchor="middle" font-size="10" fill="#2b6cb0">extração</text>
+
+                <line x1="360" y1="175" x2="398" y2="175" stroke="#2b6cb0" stroke-width="2" marker-end="url(#arrow)"/>
+                <text x="379" y="165" text-anchor="middle" font-size="10" fill="#2b6cb0">oxidação (KMnO₄)</text>
+
+                <!-- base <-> sal -->
+                <line x1="550" y1="168" x2="638" y2="168" stroke="#805ad5" stroke-width="2" marker-end="url(#arrow2)"/>
+                <text x="594" y="158" text-anchor="middle" font-size="10" fill="#805ad5">+ HCl (meio ácido)</text>
+                <line x1="638" y1="190" x2="550" y2="190" stroke="#805ad5" stroke-width="2" marker-end="url(#arrow2)"/>
+                <text x="594" y="206" text-anchor="middle" font-size="10" fill="#805ad5">+ base (NaOH)</text>
+
+                <!-- Top: equation -->
+                <rect x="210" y="40" width="610" height="56" rx="8" fill="#faf5ff" stroke="#805ad5" stroke-width="2"/>
+                <text x="515" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#553c9a">Reação ácido-base</text>
+                <text x="515" y="82" text-anchor="middle" font-size="12" fill="#2d3748">Cocaína base + HCl → Cocaína-Cl (cloridrato) &#160;|&#160; NaOH + HCl → NaCl + H₂O</text>
+
+                <!-- Bottom note: la bomba -->
+                <rect x="640" y="250" width="180" height="80" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2"/>
+                <text x="730" y="276" text-anchor="middle" font-size="12" font-weight="700" fill="#b7791f">"La bomba"</text>
+                <text x="730" y="296" text-anchor="middle" font-size="10" fill="#718096">HCl concentrado</text>
+                <text x="730" y="312" text-anchor="middle" font-size="10" fill="#718096">em álcool etílico</text>
+                <text x="730" y="328" text-anchor="middle" font-size="10" fill="#718096">→ cloridrato (alto rend.)</text>
+                <line x1="730" y1="248" x2="730" y2="212" stroke="#dd6b20" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow)"/>
+            </svg>
+            <div class="caption">Esquema do refino e interconversão da cocaína (base ⇄ sal via reação ácido-base com HCl),
+                com teores. Baseado no diagrama de refino "clássico" descrito no material (p. 20-21).</div>
+        </div>
+
+        <div class="box-orange">
+            <strong>"La bomba".</strong> As formas podem ser <strong>interconvertidas facilmente</strong>, mudando o método
+            conforme a disponibilidade de insumos. Com o controle mais rígido do Brasil sobre produtos químicos, surgiu o método
+            de produção de cloridrato conhecido como <strong>"la bomba"</strong>: o traficante produz um insumo muito eficiente
+            com <strong>ácido clorídrico em altíssima concentração em álcool etílico</strong>, adicionado diretamente sobre a
+            cocaína base, obtendo cloridrato em <strong>alto rendimento</strong>. <span class="ref-pagina">(p. 21)</span>
+        </div>
+    </div>
+
+    <!-- ============== 2.1.1.4 PROJETO PEQUI ============== -->
+    <div class="section" id="pequi">
+        <h2>2.1.1.4 Projeto PeQui — origem geográfica da cocaína <span class="ref-pagina">(p. 21)</span></h2>
+        <div class="box-blue">
+            <strong>PeQui = Perfil Químico de Drogas.</strong> Desde <strong>2007</strong>, projeto estratégico da
+            <strong>Polícia Federal</strong>, coordenado pela <strong>CGPRE e Ditec</strong>, cujos objetivos principais são a
+            <strong>determinação da origem geográfica</strong> das drogas e o <strong>estabelecimento de correlação entre
+            apreensões</strong>. <span class="ref-pagina">(p. 21)</span>
+        </div>
+        <div class="box-green">
+            <strong>Metodologia e dados:</strong>
+            <ul>
+                <li>Coleta de dados instrumentais de apreensões em diversas regiões do País, usando o parque analítico da PF e
+                    novos equipamentos.</li>
+                <li>Metodologias desenvolvidas via convênio com instituições similares:
+                    <strong>LPS</strong> (Laboratoire de Police Scientifique, França) e
+                    <strong>CSP</strong> (Chemical Signature Program do DEA, EUA).</li>
+                <li>Dados obtidos: substâncias naturais da cocaína (<strong>alcaloides minoritários</strong>), solventes de
+                    extração/refino, adulterantes e diluentes químicos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 21)</span>
+        </div>
+    </div>
+
+    <!-- ============== 2.1.1.5 QUESTÕES LEGAIS COCAÍNA ============== -->
+    <div class="section" id="legal-coca">
+        <h2>2.1.1.5 Questões legais da cocaína <span class="ref-pagina">(p. 21)</span></h2>
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!) — estimulante x entorpecente.</strong> A cocaína é farmacologicamente um
+            <strong>estimulante</strong>, mas <strong>legalmente</strong> é classificada como <strong>ENTORPECENTE</strong>
+            (Lista F1 — uso proscrito). Não confunda o efeito farmacológico com o enquadramento legal!
+        </div>
+        <table>
+            <thead>
+                <tr><th>Item</th><th>Lista</th><th>Base normativa</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><em>Erythroxylum coca</em> (planta)</td>
+                    <td><strong>Lista E</strong> — Plantas Proscritas que Podem Originar Substâncias Entorpecentes e/ou Psicotrópicas</td>
+                    <td>Portaria nº 344/98-SVS/MS, atualizada pela RDC nº 39 da Anvisa, de 9/7/2012</td>
+                </tr>
+                <tr>
+                    <td><strong>Cocaína</strong></td>
+                    <td><strong>Lista F1</strong> — Substâncias Entorpecentes de Uso Proscrito no Brasil</td>
+                    <td>Portaria nº 344/98-SVS/MS</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Listas E e F1</span>
+            <strong>E = "Erva/Espécie"</strong> → planta proscrita (a <em>coca</em> entra aqui).
+            <strong>F1 = "Fim de linha 1" = entorpecentes proscritos</strong> (a <em>cocaína</em> entra aqui).
+        </div>
+    </div>
+
+    <!-- ============== 2.1.2 ANFETAMINAS ============== -->
+    <div class="section" id="anfetaminas">
+        <h2>2.1.2 Anfetamina e metanfetamina <span class="ref-pagina">(p. 22-23)</span></h2>
+        <p>
+            São substâncias estimulantes, sendo seus principais representantes a <strong>anfetamina</strong> e a
+            <strong>metanfetamina</strong>.
+        </p>
+        <div class="box-orange">
+            <strong>Histórico.</strong>
+            <ul>
+                <li><strong>1887</strong> — a anfetamina foi inicialmente sintetizada.</li>
+                <li><strong>1933</strong> — as anfetaminas sintéticas passaram a ser empregadas no tratamento de gripes e
+                    resfriados como <strong>descongestionantes nasais</strong>, além de <strong>moderadores de apetite</strong>.</li>
+                <li><strong>2ª Guerra Mundial</strong> — o uso entre combatentes se popularizou (forte efeito estimulante) para
+                    <strong>vencer o sono e o cansaço</strong>. O uso abusivo gerou dependência e tráfico, levando à
+                    regulamentação.</li>
+            </ul>
+            <span class="ref-pagina">(p. 22)</span>
+        </div>
+        <div class="box-green">
+            <strong>Formas de apresentação:</strong> cristais brancos e inodoros · pó · cápsulas, pílulas e comprimidos ·
+            líquidos (injetáveis).<br>
+            <strong>Formas de uso:</strong> oral · injetada (intramuscular e intravenosa) · inalada.
+            <span class="ref-pagina">(p. 22)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO — enquadramento legal (anfetaminas).</strong> Cuidado: <strong>anfetamina ≠ metanfetamina</strong>
+            no plano legal!
+            <table>
+                <thead>
+                    <tr><th>Substância</th><th>Lista</th><th>Receita / Situação</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Anfetamina</strong></td>
+                        <td><strong>Lista A3</strong> — Substâncias Psicotrópicas</td>
+                        <td>Uso permitido, porém controlado. Notificação de Receita "A" (Portaria nº 344/98-SVS/MS)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Metanfetamina</strong></td>
+                        <td><strong>Lista F2</strong> — Drogas de Uso Proscrito</td>
+                        <td>Proscrita (RDC nº 39 da Anvisa, de 9/7/2012, atualizando a Portaria nº 344/98-SVS/MS)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <span class="ref-pagina">(p. 22-23)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Exemplos de anfetamínicos comerciais:</strong>
+            <table>
+                <thead><tr><th>Classe</th><th>Exemplos comerciais</th></tr></thead>
+                <tbody>
+                    <tr><td>Anfetamina</td><td>Benzedrina</td></tr>
+                    <tr><td>Metanfetamina</td><td>Pervitin, Âmbar, Desoxyn</td></tr>
+                    <tr><td>Dexanfetamina</td><td>Dexedrina, Dexamil</td></tr>
+                </tbody>
+            </table>
+            <span class="ref-pagina">(p. 23)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — F1 x F2</span>
+            <strong>Lista F1 = entorpecentes</strong> proscritos (cocaína).
+            <strong>Lista F2 = psicotrópicos</strong> proscritos (metanfetamina, MDMA, MDA).
+            Já a <strong>anfetamina</strong> "pura" é mais branda: <strong>Lista A3</strong> (controlada, Receita "A").
+        </div>
+    </div>
+
+    <!-- ============== 2.1.2.2 ANOREXÍGENOS ============== -->
+    <div class="section" id="anorexigenos">
+        <h2>2.1.2.2 Anorexígenos (anoréticos) <span class="ref-pagina">(p. 23)</span></h2>
+        <div class="box-blue">
+            <strong>Conceito.</strong> Surgiram como <strong>substitutos terapêuticos das anfetaminas</strong>. São relativamente
+            mais seguros e empregados para <strong>diminuir ou abolir o apetite (provocar anorexia)</strong>, sendo usados no
+            tratamento da <strong>obesidade</strong>. Alguns são quimicamente relacionados às anfetaminas; outros entram no grupo
+            por apresentarem vários de seus efeitos colaterais. <span class="ref-pagina">(p. 23)</span>
+        </div>
+        <div class="box-green">
+            <strong>Forma de uso:</strong> principalmente <strong>oral</strong> (o abuso liga-se à facilidade de obtê-los).<br>
+            <strong>Exemplos comerciais:</strong>
+            <ul>
+                <li><strong>Fendimetrazina</strong> — Anorexyl, Abistil, Desobesi etc.</li>
+                <li><strong>Sibutramina</strong> — Reductil, Sibus, Biomag.</li>
+            </ul>
+            <span class="ref-pagina">(p. 23)</span>
+        </div>
+        <div class="box-red">
+            <strong>PONTO CRÍTICO — aspectos legais dos anorexígenos.</strong> Incluídos na <strong>Lista B2</strong> —
+            Substâncias Psicotrópicas Anorexígenas, sujeitos a <strong>Notificação de Receita "B2"</strong>
+            (Portaria nº 344/98-SVS/MS). <span class="ref-pagina">(p. 23)</span>
+        </div>
+        <div class="box-orange">
+            <strong>Associações proscritas e Lei 13.454/2017.</strong> É proscrita (art. 48 da Portaria nº 344-SVS/MS, de
+            12/5/1998, e RDC nº 58, de 5/9/2007) a associação de anorexígenos com ansiolíticos, diuréticos, hormônios/extratos
+            hormonais e laxantes, e quaisquer outras substâncias com ação medicamentosa. A
+            <strong>Lei nº 13.454, de 23/6/2017</strong> (art. 1º) autorizou produção, comercialização e consumo, sob prescrição
+            médica no modelo <strong>B2</strong>, dos anorexígenos <strong>sibutramina, anfepramona, femproporex e mazindol</strong>.
+            Contudo, até a publicação do material, não havia medicamentos registrados pela Anvisa (por não atender à RDC nº 50,
+            de 25/9/2014). <span class="ref-pagina">(p. 23)</span>
+        </div>
+    </div>
+
+    <!-- ============== 2.1.3 ECSTASY ============== -->
+    <div class="section" id="ecstasy">
+        <h2>2.1.3 Ecstasy (MDMA / MDA) <span class="ref-pagina">(p. 24-25)</span></h2>
+        <div class="box-orange">
+            <strong>MDMA — 3,4-metilenodioximetanfetamina.</strong>
+            <ul>
+                <li>Surgiu em <strong>1912</strong>, quando um químico alemão pesquisava novos moderadores de apetite para a
+                    empresa <strong>Merck</strong>; a droga foi logo descartada.</li>
+                <li>Somente em <strong>1960</strong>, o químico americano <strong>Alexander "Sasha" Theodore Shulgin</strong>,
+                    pesquisando uma substância que aumentasse a libido, reestudou os documentos da Merck e a MDMA passou a ser
+                    conhecida como a <strong>"droga do amor"</strong>, depois denominada <strong>"ecstasy"</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 24)</span>
+        </div>
+        <div class="box-orange">
+            <strong>MDA — 3,4-metilenodioxianfetamina.</strong> Sintetizada pela primeira vez em <strong>1910</strong> por
+            <strong>Mannish e Jacobson</strong>. Mecanismo de ação <strong>similar ao do MDMA</strong>, porém com efeitos
+            <strong>mais intensos e duradouros</strong>. <span class="ref-pagina">(p. 24)</span>
+        </div>
+        <div class="box-blue">
+            O ecstasy (também conhecido como <strong>Adam, X e XTC</strong>) só passou a ser mundialmente conhecido e usado como
+            droga de abuso no <strong>final da década de 80, no balneário espanhol de Ibiza</strong>.
+            <ul>
+                <li><strong>Formas de apresentação:</strong> comprimidos de formatos e cores diversas, usualmente com
+                    <strong>chancelas grafadas</strong> em uma ou ambas as faces.</li>
+                <li><strong>Forma de uso:</strong> via oral, por ingestão dos comprimidos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 24)</span>
+        </div>
+        <div class="box-red">
+            <strong>PONTO CRÍTICO — aspectos legais (ecstasy).</strong> A <strong>MDMA</strong> e a <strong>MDA</strong> estão
+            incluídas na <strong>Lista F2</strong> — Substâncias Psicotrópicas de Uso Proscrito no Brasil (Portaria nº
+            344/98-SVS/MS). <span class="ref-pagina">(p. 25)</span>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — ecstasy / MDMA</span>
+            <strong>MDMA = droga do amor / Merck / 1912</strong>. "Sasha" <strong>Shulgin</strong> (1960) a redescobriu.
+            <strong>MDA é mais antiga (1910)</strong> e mais intensa/duradoura. Apelidos: <strong>Adam, X, XTC</strong> —
+            estourou em <strong>Ibiza</strong> (anos 80). Legal: <strong>Lista F2</strong>.
+        </div>
+    </div>
+
+    <!-- ============== SÍNTESE ============== -->
+    <div class="section" id="sintese">
+        <h2>Síntese e Mnemônicos</h2>
+
+        <div class="box-green">
+            <strong>Resumo do capítulo:</strong>
+            <ul>
+                <li><strong>Estimulantes</strong> aumentam o trabalho do SNC; efeitos adversos: sudorese, midríase, rubor,
+                    tremor, agitação, ↑ pressão arterial, taquicardia.</li>
+                <li><strong>Cocaína:</strong> da planta coca (Erythroxylaceae / Erythroxylum); <em>E. coca</em> var. coca é a de
+                    maior teor (0,5-1,2%); base ⇄ sal via ácido-base; teores por forma são o ponto que mais cai.</li>
+                <li><strong>Anfetamina (A3) ≠ metanfetamina (F2)</strong>; anorexígenos = Lista B2.</li>
+                <li><strong>Ecstasy:</strong> MDMA e MDA = Lista F2.</li>
+            </ul>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico geral — pureza da cocaína</span>
+            "<strong>Pasta/Merla pobres (30-70)</strong> → <strong>Crack médio (70-90)</strong> →
+            <strong>Sal alto (92-98)</strong> → <strong>Base/Free-base ≥90</strong>."
+        </div>
+
+        <h3>Tabela-resumo — enquadramento legal dos estimulantes</h3>
+        <table>
+            <thead>
+                <tr><th>Substância / Item</th><th>Lista</th><th>Receita / Situação</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><em>Erythroxylum coca</em> (planta)</td><td><strong>Lista E</strong> (plantas proscritas)</td><td>Proscrita</td></tr>
+                <tr><td>Cocaína</td><td><strong>Lista F1</strong> (entorpecente proscrito)</td><td>Uso proscrito</td></tr>
+                <tr><td>Anfetamina</td><td><strong>Lista A3</strong> (psicotrópica)</td><td>Controlada — Notificação de Receita "A"</td></tr>
+                <tr><td>Metanfetamina</td><td><strong>Lista F2</strong> (psicotrópica proscrita)</td><td>Uso proscrito</td></tr>
+                <tr><td>Anorexígenos (Fendimetrazina, Sibutramina)</td><td><strong>Lista B2</strong> (psicotrópica anorexígena)</td><td>Controlada — Notificação de Receita "B2"</td></tr>
+                <tr><td>MDMA / MDA (ecstasy)</td><td><strong>Lista F2</strong> (psicotrópica proscrita)</td><td>Uso proscrito</td></tr>
+            </tbody>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — as Listas da Portaria 344/98</span>
+            <strong>A3</strong> = psicotrópica controlada (anfetamina). <strong>B2</strong> = anorexígena controlada.
+            <strong>E</strong> = planta proscrita (coca). <strong>F1</strong> = entorpecente proscrito (cocaína).
+            <strong>F2</strong> = psicotrópica proscrita (metanfetamina, MDMA, MDA).
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>

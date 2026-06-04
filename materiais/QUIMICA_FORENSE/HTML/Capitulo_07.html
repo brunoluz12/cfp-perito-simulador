@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 7 - Testes Preliminares e Definitivos</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .diagram { display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0; justify-content: center; }
+        .diagram-item { flex: 1; min-width: 180px; background: #fff; border: 2px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
+        .diagram-item-title { font-weight: 700; color: #2b6cb0; margin-bottom: 8px; }
+        .svg-figure { text-align: center; margin: 25px 0; }
+        .svg-figure .caption { font-size: 0.85em; color: #718096; font-style: italic; margin-top: 8px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PCEB · QUÍMICA FORENSE</span>
+        <h1>Capítulo 7 — Testes Preliminares e Definitivos</h1>
+        <div class="subtitle">Laudo de constatação, amostragem, testes de cor e métodos definitivos</div>
+    </div>
+
+    <div class="toc">
+        <strong>Índice</strong>
+        <ul>
+            <li><a href="#s41">4.1 Testes Preliminares: conceito, exigência legal e aplicação prática</a></li>
+            <li><a href="#tab1">Tabela 1 — Testes preliminares por droga/grupo</a></li>
+            <li><a href="#kits">Kits comerciais e instrumentação portátil</a></li>
+            <li><a href="#s42">4.2 Elaboração do laudo preliminar e amostragem</a></li>
+            <li><a href="#s43">4.3 Testes definitivos (categorias A, B e C)</a></li>
+            <li><a href="#sintese">Síntese e Mnemônicos</a></li>
+        </ul>
+    </div>
+
+    <!-- ===================== 4.1 ===================== -->
+    <div class="section" id="s41">
+        <h2>4.1 Testes Preliminares: conceito, exigência legal e aplicação prática <span class="ref-pagina">(p. 45)</span></h2>
+
+        <div class="box-blue">
+            <strong>Conceito e exigência legal.</strong> Nos termos da <strong>Lei n.º 11.343/2006</strong> (Lei de Drogas), é <strong>essencial para a lavratura do auto de prisão em flagrante</strong> a existência do <strong>laudo de constatação</strong> da natureza e quantidade da droga apreendida, devendo ser realizado por <strong>Perito Oficial</strong> e, <strong>somente na falta deste, por pessoa idônea</strong>. Essa pessoa pode ser um <strong>policial, após ser nomeado pela autoridade policial</strong>. <span class="ref-pagina">(p. 45)</span>
+        </div>
+
+        <p>É <strong>altamente recomendado</strong> que esses testes sejam realizados por <strong>Peritos Criminais Federais</strong> e, dependendo da complexidade do caso, até por Peritos Criminais Federais da área de laboratório, devido a aspectos relacionados com amostragem, formas de disfarce de drogas e possível mistura de substâncias diversas com as drogas proscritas, que podem agir como <strong>interferentes</strong> nos testes preliminares. <span class="ref-pagina">(p. 45)</span></p>
+
+        <div class="box-orange">
+            <strong>Prazo de 24 horas.</strong> Nos casos em que a logística necessária para que o perito faça o teste (deslocamento do perito até o material suspeito ou vice-versa) ponha em risco o <strong>prazo legal de 24 horas</strong> — o que poderia, em tese, prejudicar a lavratura do auto de prisão e apreensão —, os testes preliminares podem ser realizados por <strong>policial nomeado pela autoridade policial</strong>. <span class="ref-pagina">(p. 45)</span>
+        </div>
+
+        <p>A existência do laudo preliminar e quem pode emiti-lo está definido na Lei n.º 11.343/2006 e em dispositivos legais correlatos (Código de Processo Penal — CPP). Entretanto, <strong>não há regulamentação a respeito de como esse laudo preliminar deve ser elaborado</strong>. A Perícia da Polícia Federal baseia-se em modelos e guias de organismos internacionalmente reconhecidos — como o <strong>UNODC</strong> (United Nations Office on Drugs and Crime — Escritório das Nações Unidas sobre Drogas e Crime) — e na literatura científica especializada, para orientar os trabalhos do laudo preliminar e do laudo definitivo de drogas. <span class="ref-pagina">(p. 45)</span></p>
+
+        <div class="box-green">
+            <strong>Testes da UNODC.</strong> Os testes recomendados pela UNODC são <strong>baseados em evolução de cor</strong>. São testes <strong>simples, rápidos, práticos</strong> e originam <strong>bons indícios</strong> sobre a natureza do material apreendido. <span class="ref-pagina">(p. 45)</span>
+        </div>
+
+        <div class="svg-figure">
+            <svg width="760" height="170" viewBox="0 0 760 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fluxograma do fluxo pericial de drogas">
+                <defs>
+                    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L8,3 L0,6 Z" fill="#2b6cb0"/>
+                    </marker>
+                </defs>
+                <rect x="10" y="55" width="170" height="60" rx="8" fill="#edf2f7" stroke="#2b6cb0" stroke-width="2"/>
+                <text x="95" y="80" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#2d3748">Apreensão</text>
+                <text x="95" y="100" text-anchor="middle" font-family="Inter" font-size="11" fill="#718096">material suspeito</text>
+
+                <line x1="180" y1="85" x2="285" y2="85" stroke="#2b6cb0" stroke-width="2" marker-end="url(#arr)"/>
+
+                <rect x="290" y="40" width="190" height="90" rx="8" fill="#ebf8ff" stroke="#3182ce" stroke-width="2"/>
+                <text x="385" y="68" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#2b6cb0">Teste preliminar</text>
+                <text x="385" y="88" text-anchor="middle" font-family="Inter" font-size="11" fill="#2d3748">Laudo de constatação</text>
+                <text x="385" y="106" text-anchor="middle" font-family="Inter" font-size="11" fill="#e53e3e" font-weight="700">prazo: 24 h</text>
+
+                <line x1="480" y1="85" x2="575" y2="85" stroke="#2b6cb0" stroke-width="2" marker-end="url(#arr)"/>
+
+                <rect x="580" y="40" width="170" height="90" rx="8" fill="#f0fff4" stroke="#38a169" stroke-width="2"/>
+                <text x="665" y="68" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#2f855a">Teste definitivo</text>
+                <text x="665" y="88" text-anchor="middle" font-family="Inter" font-size="11" fill="#2d3748">Laudo de perícia</text>
+                <text x="665" y="106" text-anchor="middle" font-family="Inter" font-size="11" fill="#2d3748">criminal federal</text>
+            </svg>
+            <div class="caption">Fluxo pericial: da apreensão ao laudo definitivo. O preliminar (constatação) viabiliza o flagrante em até 24 h; o definitivo estabelece a composição.</div>
+        </div>
+    </div>
+
+    <!-- ===================== TABELA 1 ===================== -->
+    <div class="section" id="tab1">
+        <h2>Tabela 1 — Testes preliminares para identificação de drogas <span class="ref-pagina">(p. 46-47)</span></h2>
+        <p>Tabela de testes preliminares para identificação de drogas, com resultados indicativos, possíveis interferentes e registros de falsos positivos.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Droga ou grupo de drogas</th>
+                    <th>Teste preliminar</th>
+                    <th>Resultado</th>
+                    <th>Interferente(s)</th>
+                    <th>Falsos positivos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Cocaína</strong></td>
+                    <td>Scott modificado</td>
+                    <td>Cor <strong>azul</strong> indica a presença de cocaína.</td>
+                    <td>Compostos metálicos, ex.: sais de ferro.</td>
+                    <td>Heroína, metadona, lidocaína, dentre outros.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><strong>Maconha e derivados</strong></td>
+                    <td>Fast Blue</td>
+                    <td>Coloração <strong>avermelhada</strong> indica canabinoides.</td>
+                    <td>Idade da amostra.</td>
+                    <td>Patchouli e alguns óleos essenciais (kit comercial DL).</td>
+                </tr>
+                <tr>
+                    <td>Duquenois Levine (DL)</td>
+                    <td><strong>Violeta na camada inferior</strong> (clorofórmica) indica presença de canabinoides.</td>
+                    <td>Idade da amostra.</td>
+                    <td>Patchouli e alguns óleos essenciais (kit comercial DL).</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><strong>MDMA / MDA</strong></td>
+                    <td>Simon</td>
+                    <td>Coloração <strong>azul escuro intenso</strong> indica MDMA.</td>
+                    <td>Não identificados.</td>
+                    <td>Certos medicamentos podem reagir similarmente.</td>
+                </tr>
+                <tr>
+                    <td>Marquis</td>
+                    <td>Cor <strong>negra ou púrpura</strong> indica MDMA ou MDA.</td>
+                    <td>Não identificados.</td>
+                    <td>Não identificados.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><strong>Anfetaminas / metanfetaminas</strong></td>
+                    <td>Marquis</td>
+                    <td>Cor <strong>laranja que tende para marrom</strong> indica presença de anfetaminas ou metanfetaminas.</td>
+                    <td>Não identificados.</td>
+                    <td>Não identificados.</td>
+                </tr>
+                <tr>
+                    <td>Simon</td>
+                    <td><strong>Metanfetamina não produz cor</strong>; anfetaminas diversas produzem <strong>tons de azul</strong>.</td>
+                    <td>Não identificados.</td>
+                    <td>Não identificados.</td>
+                </tr>
+                <tr>
+                    <td><strong>Ópio / morfina / codeína / heroína</strong></td>
+                    <td>Marquis</td>
+                    <td>Cor <strong>violeta à púrpura-avermelhada</strong> indica a presença de opioides.</td>
+                    <td>Não identificados.</td>
+                    <td>Não identificados.</td>
+                </tr>
+                <tr>
+                    <td><strong>LSD</strong></td>
+                    <td>Ehrlich</td>
+                    <td>Cor <strong>violeta que aparece após alguns minutos</strong> indica presença de LSD.</td>
+                    <td>Não identificados.</td>
+                    <td><strong>Dihidro-LSD.</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Benzodiazepínicos</strong></td>
+                    <td>Zimmerman</td>
+                    <td>Cor <strong>púrpura-avermelhada ou rosa</strong> indica a presença de benzodiazepínicos.</td>
+                    <td>Não identificados.</td>
+                    <td>Não identificados.</td>
+                </tr>
+                <tr>
+                    <td><strong>Barbitúricos</strong></td>
+                    <td>Dille-Koppanyi</td>
+                    <td>Cor <strong>púrpura avermelhada</strong> indica a presença de barbitúricos.</td>
+                    <td>Não identificados.</td>
+                    <td>Não identificados.</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><strong>Cloreto de etila (lança-perfume)</strong></td>
+                    <td>Teste de chama</td>
+                    <td>Ao queimar produz uma <strong>chama verde</strong>.</td>
+                    <td>Não identificados.</td>
+                    <td>Alguns alquil organoclorados podem se comportar da mesma forma.</td>
+                </tr>
+                <tr>
+                    <td>Teste para cloretos</td>
+                    <td>O resíduo da chama produz <strong>sólido branco floculento</strong>, indicativo para cloretos.</td>
+                    <td>Não identificados.</td>
+                    <td>Alguns alquil organoclorados podem se comportar da mesma forma.</td>
+                </tr>
+                <tr>
+                    <td>Teste de ponto de ebulição</td>
+                    <td>Temperatura de ebulição de <strong>12 °C</strong>.</td>
+                    <td>Não identificados.</td>
+                    <td>Não identificados.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>No Apêndice 1 são delineados os procedimentos para testes preliminares envolvendo diversas drogas de abuso. As formas de preparo dos reagentes utilizados nos testes de coloração são mostradas no Apêndice 2. <span class="ref-pagina">(p. 47)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">🎨 Mnemônico — cores dos testes de cor</span>
+            <strong>Scott</strong> = azul → <strong>cocaína</strong> · <strong>Marquis</strong> = roxo/preto → <strong>opioides e MDMA</strong> · <strong>Ehrlich</strong> = violeta (após minutos) → <strong>LSD</strong> · <strong>Dille-Koppanyi</strong> → <strong>barbitúricos</strong> · <strong>Zimmerman</strong> → <strong>benzodiazepínicos</strong> · <strong>Fast Blue / Duquenois Levine</strong> → <strong>maconha</strong> · <strong>Simon</strong> → MDMA / anfetaminas (metanfetamina <em>não</em> dá cor no Simon).
+        </div>
+    </div>
+
+    <!-- ===================== KITS / INSTRUMENTOS ===================== -->
+    <div class="section" id="kits">
+        <h2>Kits comerciais e instrumentação portátil <span class="ref-pagina">(p. 48-49)</span></h2>
+
+        <p>Em unidades de criminalística descentralizadas e em diversos procedimentos policiais podem ser utilizados também <strong>kits comerciais</strong> para identificação de drogas. Um exemplo é o kit <strong>“Mistral Security”</strong>, capaz de detectar preliminarmente <strong>cocaína (C)</strong>, <strong>heroína (H)</strong>, <strong>maconha (cannabis, 1 e 2)</strong>, <strong>ecstasy e metanfetamina (M)</strong> e <strong>drogas de espectro geral (D4D)</strong>. Esse tipo de abordagem traz vantagens, como maior <strong>portabilidade</strong> e a possibilidade de difundir uma ferramenta de investigação policial mais simples e de uso abrangente após aquisição centralizada. <span class="ref-pagina">(p. 48)</span></p>
+
+        <p>Com o crescimento de casos de <strong>novas substâncias psicoativas (NSPs)</strong>, os peritos enfrentam problemas na realização de testes preliminares adequados, pois o número de reagentes necessários para cobrir essas drogas é imenso. Uma alternativa mais confiável é o uso de <strong>instrumentação analítica portátil</strong>, tais como o <strong>espectrômetro Raman</strong> ou o <strong>espectrofotômetro de FTIR</strong> (ver item 4.3). A Polícia Federal dispõe, por exemplo, de modelo de <strong>Raman portátil</strong> (ResQ™, Rigaku) para exames preliminares. <span class="ref-pagina">(p. 48-49)</span></p>
+
+        <div class="box-orange">
+            <strong>Observações práticas (cuidados na execução).</strong>
+            <ul>
+                <li>Quando <strong>não for possível</strong> a realização dos exames preliminares de constatação, o material deve ser encaminhado <strong>diretamente para o exame definitivo</strong>.</li>
+                <li>Os exames preliminares devem ser acompanhados de um <strong>teste em branco</strong>, isto é, uma amostra que <strong>não contenha</strong> a droga investigada.</li>
+                <li>Usar <strong>utensílios limpos e secos</strong> em materiais distintos ou apreendidos de indivíduos diferentes, para evitar <strong>contaminação cruzada</strong>.</li>
+                <li>Os testes preliminares são <strong>apenas de caráter indicativo</strong>; deve-se considerar todas as variáveis que provocaram o teste (aspectos operacionais, suspeitas, busca e apreensão etc.).</li>
+                <li>Drogas misturadas com bebidas, comidas e substâncias diversas podem gerar <strong>falsos positivos</strong>; em amostras complexas, a presença de Perito Criminal Federal com formação laboratorial pode evitar equívocos.</li>
+            </ul>
+            <span class="ref-pagina">(p. 49)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!)</strong> — Traficantes adicionam <strong>sais de ferro</strong> (materiais de coloração avermelhada) à cocaína de alta pureza para <strong>mascarar / dificultar</strong> os exames preliminares baseados em reações de coloração. Os sais de ferro são <strong>interferentes do teste de Scott</strong>. <span class="ref-pagina">(p. 49-50)</span>
+        </div>
+    </div>
+
+    <!-- ===================== 4.2 ===================== -->
+    <div class="section" id="s42">
+        <h2>4.2 Elaboração do laudo preliminar: precauções, aspectos formais e amostragem <span class="ref-pagina">(p. 50-52)</span></h2>
+
+        <div class="box-blue">
+            <strong>Base normativa.</strong> A <strong>Instrução Técnica n.º 006/2006-GAB/DITEC</strong>, de 27 de julho de 2006, dispõe sobre a padronização de procedimentos e métodos para exames químico-analíticos na perícia criminal de laboratório. Também traz orientações sobre critérios de <strong>amostragem</strong>, testes preliminares recomendados em drogas de abuso, nos adulterantes mais comuns e em reagentes químicos de laboratórios de refino/produção de drogas. <span class="ref-pagina">(p. 50)</span>
+        </div>
+
+        <p>O Perito Criminal Federal designado para um exame preliminar deve, primeiramente, estar ciente de que — independentemente do tipo de droga — são necessários <strong>cuidados de segurança</strong> no manuseio de qualquer substância, para garantir sua própria segurança e a de sua equipe (detalhados na disciplina Locais de Crime). <span class="ref-pagina">(p. 50)</span></p>
+
+        <p>O <strong>registro fotográfico</strong> e a descrição de possíveis <strong>logomarcas</strong> em drogas proscritas podem relacionar apreensões realizadas em lugares e momentos diferentes (projeto de <strong>Perfil Químico de Drogas — PeQui</strong>, coordenado pela CGPRE e DITEC/INC). <span class="ref-pagina">(p. 50)</span></p>
+
+        <h3>Amostragem — critérios e número de unidades</h3>
+        <p>A amostragem deve seguir critérios aceitos (ex.: os sugeridos na IT n.º 06/2006-DITEC). Quanto melhor a amostragem, mais <strong>representativa</strong> ela será do total apreendido. A partir da inspeção visual de cada unidade, separam-se em <strong>grupos</strong> os produtos com características em comum: embalagens (desenhos, logomarcas, número de lote); estado físico (sólido, líquido, gasoso); apresentação (cor, textura, granulação); testes químicos preliminares (narcotestes, papel de pH). Dentro de cada grupo, determina-se o número de unidades a amostrar conforme a Tabela 2. <span class="ref-pagina">(p. 50-51)</span></p>
+
+        <table>
+            <caption style="caption-side:top;text-align:left;font-weight:600;margin-bottom:8px;">Tabela 2 — Número de unidades a amostrar (IT n.º 06/2006-DITEC) <span class="ref-pagina">(p. 51)</span></caption>
+            <thead>
+                <tr>
+                    <th>Número total de unidades de um grupo (n)</th>
+                    <th>Número de unidades a serem amostradas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Se <strong>n &lt; 10</strong></td>
+                    <td>Amostrar <strong>todas</strong> as unidades do grupo.</td>
+                </tr>
+                <tr>
+                    <td>Se <strong>10 ≤ n ≤ 100</strong></td>
+                    <td>Amostrar <strong>10 unidades</strong> do grupo, escolhidas aleatoriamente.</td>
+                </tr>
+                <tr>
+                    <td>Se <strong>n &gt; 100</strong></td>
+                    <td>Amostrar <strong>√n unidades</strong> do grupo, escolhidas aleatoriamente. O resultado de √n deve ser <strong>arredondado para o número inteiro superior</strong> mais próximo.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="svg-figure">
+            <svg width="720" height="200" viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Árvore de decisão da amostragem">
+                <defs>
+                    <marker id="arr2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L8,3 L0,6 Z" fill="#805ad5"/>
+                    </marker>
+                </defs>
+                <rect x="280" y="10" width="160" height="50" rx="8" fill="#faf5ff" stroke="#805ad5" stroke-width="2"/>
+                <text x="360" y="32" text-anchor="middle" font-family="Inter" font-size="13" font-weight="700" fill="#553c9a">Grupo de n unidades</text>
+                <text x="360" y="50" text-anchor="middle" font-family="Inter" font-size="11" fill="#718096">Quanto vale n?</text>
+
+                <line x1="320" y1="60" x2="140" y2="115" stroke="#805ad5" stroke-width="2" marker-end="url(#arr2)"/>
+                <line x1="360" y1="60" x2="360" y2="115" stroke="#805ad5" stroke-width="2" marker-end="url(#arr2)"/>
+                <line x1="400" y1="60" x2="585" y2="115" stroke="#805ad5" stroke-width="2" marker-end="url(#arr2)"/>
+
+                <rect x="30" y="120" width="200" height="65" rx="8" fill="#edf2f7" stroke="#2b6cb0" stroke-width="2"/>
+                <text x="130" y="143" text-anchor="middle" font-family="Inter" font-size="13" font-weight="700" fill="#2b6cb0">n &lt; 10</text>
+                <text x="130" y="163" text-anchor="middle" font-family="Inter" font-size="11" fill="#2d3748">amostrar TODAS</text>
+
+                <rect x="260" y="120" width="200" height="65" rx="8" fill="#edf2f7" stroke="#2b6cb0" stroke-width="2"/>
+                <text x="360" y="143" text-anchor="middle" font-family="Inter" font-size="13" font-weight="700" fill="#2b6cb0">10 ≤ n ≤ 100</text>
+                <text x="360" y="163" text-anchor="middle" font-family="Inter" font-size="11" fill="#2d3748">amostrar 10</text>
+
+                <rect x="490" y="120" width="200" height="65" rx="8" fill="#edf2f7" stroke="#2b6cb0" stroke-width="2"/>
+                <text x="590" y="143" text-anchor="middle" font-family="Inter" font-size="13" font-weight="700" fill="#2b6cb0">n &gt; 100</text>
+                <text x="590" y="163" text-anchor="middle" font-family="Inter" font-size="11" fill="#2d3748">amostrar √n (arred. p/ cima)</text>
+            </svg>
+            <div class="caption">Árvore de decisão da amostragem segundo a IT n.º 06/2006-DITEC.</div>
+        </div>
+
+        <div class="box-green">
+            <strong>Regras especiais de coleta:</strong>
+            <ul>
+                <li><strong>Líquido heterogêneo</strong> em recipiente <strong>transparente</strong>: retirar uma amostra de <strong>cada fase</strong>.</li>
+                <li><strong>Líquido</strong> em recipiente que <strong>não permite visualização</strong> (opaco): coletar em <strong>pelo menos três pontos</strong> (superfície, meio e fundo).</li>
+                <li><strong>Resíduos em suporte</strong> (ex.: cocaína em balança ou pano de filtragem): <strong>não</strong> realizar amostragem — encaminhar o <strong>suporte na totalidade</strong> em embalagem adequada para exame definitivo. Se o suporte não puder ser transportado, coletar vestígios suficientes para análise.</li>
+            </ul>
+            <span class="ref-pagina">(p. 51)</span>
+        </div>
+
+        <table>
+            <caption style="caption-side:top;text-align:left;font-weight:600;margin-bottom:8px;">Tabela 3 — Quantidades mínimas de amostra por unidade <span class="ref-pagina">(p. 52)</span></caption>
+            <thead>
+                <tr>
+                    <th>Tipo de produto</th>
+                    <th>Amostra mínima por unidade*</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sólidos em geral</td>
+                    <td><strong>2,0 g</strong> (três colheres de sopa).</td>
+                </tr>
+                <tr>
+                    <td>Líquidos em geral</td>
+                    <td><strong>200 ml</strong> (um copo).</td>
+                </tr>
+                <tr>
+                    <td>Líquido volátil (ex.: lança-perfume)</td>
+                    <td><strong>Embalagem original.</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <p><span class="ref-pagina">(p. 52)</span> *Caso a unidade a ser amostrada possua quantidade <strong>menor que a mínima</strong> da tabela, a unidade deverá ser enviada na sua <strong>totalidade</strong>.</p>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!)</strong> — Decore os números:
+            <ul>
+                <li><strong>Amostragem:</strong> n &lt; 10 → todas · 10 ≤ n ≤ 100 → 10 · n &gt; 100 → √n (arredondar para cima).</li>
+                <li><strong>Quantidade mínima:</strong> sólidos = <strong>2,0 g</strong> (três colheres de sopa) · líquidos = <strong>200 ml</strong> (um copo) · líquido volátil = embalagem original.</li>
+            </ul>
+        </div>
+
+        <h3>Confecção do laudo preliminar e enquadramento legal</h3>
+        <p>O resultado dos exames preliminares deve ser relatado no <strong>laudo preliminar de constatação</strong>, documento previsto na Lei n.º 11.343/2006, art. 50. <span class="ref-pagina">(p. 52)</span></p>
+
+        <div class="box-purple">
+            <strong>Art. 50 da Lei n.º 11.343/2006 (citação literal):</strong><br>
+            <em>"Art. 50. Ocorrendo prisão em flagrante, a autoridade de polícia judiciária fará, imediatamente, comunicação ao juiz competente, remetendo-lhe cópia do auto lavrado, do qual será dada vista ao órgão do Ministério Público, em 24 (vinte e quatro) horas.<br><br>
+            § 1º Para efeito da lavratura do auto de prisão em flagrante e estabelecimento da materialidade do delito, é suficiente o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea.<br><br>
+            § 2º O perito que subscrever o laudo a que se refere o § 1º deste artigo não ficará impedido de participar da elaboração do laudo definitivo."</em>
+            <br><span class="ref-pagina">(p. 52)</span>
+        </div>
+
+        <p>O laudo preliminar de constatação deve ser <strong>claro e conciso</strong>, relatando as características observadas no exame visual e o <strong>peso aferido</strong>, especificando se é o <strong>peso líquido</strong> (substâncias descontadas as embalagens/invólucros — preferencialmente) ou <strong>peso bruto</strong> (com embalagem/invólucro), quando as circunstâncias não permitirem aferir o peso líquido no momento do flagrante. <span class="ref-pagina">(p. 52)</span></p>
+
+        <div class="box-blue">
+            <strong>Padronização do laudo.</strong> O <strong>preâmbulo</strong> do laudo preliminar de constatação, na Polícia Federal, está regulamentado pela <strong>Portaria n.º 002/2007-GAB/INC</strong> (16/01/2007). A padronização de <strong>formato e diagramação</strong> foi regulamentada pela <strong>Portaria n.º 2.048/2011-DG/DPF</strong> (10/01/2011). Devem ser relatados no texto os resultados dos exames preliminares e as quantidades separadas para os exames definitivos, sendo aconselhável citar o enquadramento legal das substâncias investigadas. <span class="ref-pagina">(p. 52)</span>
+        </div>
+    </div>
+
+    <!-- ===================== 4.3 ===================== -->
+    <div class="section" id="s43">
+        <h2>4.3 Testes definitivos em drogas de uso abusivo <span class="ref-pagina">(p. 53-55)</span></h2>
+
+        <div class="box-blue">
+            <strong>Conceito.</strong> Havendo resultado positivo nos exames preliminares, é necessária a realização dos <strong>exames definitivos</strong>, que estabelecem de forma mais precisa a composição do material apreendido. O resultado é relatado no <strong>laudo de perícia criminal federal</strong>. <span class="ref-pagina">(p. 53)</span>
+        </div>
+
+        <p>Nada impede que materiais com resultado <strong>negativo</strong> no preliminar sejam encaminhados para exames definitivos, devido a fatores como suspeita de adição de interferentes, complexidade da matriz, inexistência de testes para substâncias específicas ou para dirimir dúvidas no processo investigativo. <span class="ref-pagina">(p. 53)</span></p>
+
+        <p>Uma das formas de elaborar os laudos definitivos é seguir a <strong>Instrução Técnica n.º 06/2006-SEPLAB/INC/DITEC</strong> (27/07/2006), que se baseou nos métodos preconizados pelo <strong>SWGDRUG</strong> (Scientific Working Group for the Analysis of Seized Drugs). As recomendações dividem os exames, conforme seu <strong>poder de discriminação</strong>, em <strong>três categorias (A, B e C)</strong>. <span class="ref-pagina">(p. 53)</span></p>
+
+        <table>
+            <caption style="caption-side:top;text-align:left;font-weight:600;margin-bottom:8px;">Tabela 4 — Classificação dos métodos analíticos por poder de discriminação (SWGDRUG / IT n.º 06/2006) <span class="ref-pagina">(p. 53)</span></caption>
+            <thead>
+                <tr>
+                    <th>Categoria A</th>
+                    <th>Categoria B</th>
+                    <th>Categoria C</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Infravermelho (IV)</td>
+                    <td>Eletroforese capilar (EC)</td>
+                    <td>Testes de cor e precipitação</td>
+                </tr>
+                <tr>
+                    <td>Espectrometria de massas (EM)</td>
+                    <td>Cromatografia gasosa (CG)</td>
+                    <td>Espectroscopia de fluorescência</td>
+                </tr>
+                <tr>
+                    <td>Ressonância magnética nuclear (RMN)</td>
+                    <td>Espectrometria de mobilidade de íons</td>
+                    <td>Imunoensaios</td>
+                </tr>
+                <tr>
+                    <td>Espectroscopia Raman</td>
+                    <td>Cromatografia líquida de alta eficiência (CLAE)</td>
+                    <td>Propriedades físicas e físico-químicas</td>
+                </tr>
+                <tr>
+                    <td>Difratometria de raios X</td>
+                    <td>Microcristalização</td>
+                    <td>Espectroscopia ultravioleta-visível (UV/visível)</td>
+                </tr>
+                <tr>
+                    <td>—</td>
+                    <td>Marcadores farmacológicos</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>—</td>
+                    <td>Cromatografia de camada delgada (CCD)</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>—</td>
+                    <td>Apenas cannabis: exame botânico morfológico</td>
+                    <td>—</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Regras de combinação (IT n.º 06/2006)</h3>
+        <div class="box-red">
+            <strong>PONTO CRÍTICO (cai em prova!) — Regras de combinação A/B/C:</strong>
+            <ul>
+                <li>Quando se usa um método validado <strong>do tipo A</strong>: deve ser realizado <strong>ao menos um teste de outra categoria</strong> (A, B ou C).</li>
+                <li>Quando <strong>não</strong> for realizado teste de categoria A: devem ser conduzidos <strong>ao menos três testes</strong> de outras categorias, sendo que <strong>dois deles devem ser da categoria B</strong> (mas <strong>não relacionados entre si</strong>).</li>
+                <li>Análise <strong>macroscópica e microscópica da cannabis</strong> pode ser considerada teste da <strong>categoria B</strong>.</li>
+                <li><strong>Botânicos</strong> podem identificar a planta do gênero <em>cannabis</em> (e material vegetal relacionado) usando <strong>somente as características morfológicas</strong> da planta.</li>
+                <li>Técnicas <strong>hifenadas</strong> (CG/EM ou CLAE/DAD-UV) são consideradas <strong>técnicas separadas</strong> (desde que validadas).</li>
+            </ul>
+            <span class="ref-pagina">(p. 54)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">🧪 Mnemônico — combinação de métodos</span>
+            <strong>Com método A → A + pelo menos 1 (A, B ou C).</strong><br>
+            <strong>Sem método A → 3 testes, sendo 2 da B</strong> (não relacionados entre si).
+        </div>
+
+        <h3>Equipamentos e controle de qualidade</h3>
+        <p>Num laboratório de química forense (LQF) da PF com <strong>CG/EM</strong> (cromatógrafo gasoso acoplado a espectrômetro de massas) é possível identificar diversas drogas listadas na Portaria n.º 344-SVS/MS; contudo, nem todas as substâncias podem ser analisadas em condições normais de CG — algumas podem <strong>degradar</strong> no processo. <span class="ref-pagina">(p. 54)</span></p>
+
+        <p>Outro equipamento comum é o <strong>FTIR</strong> (infravermelho com transformada rápida de Fourier): técnica robusta, normalmente <strong>mais barata</strong> que o CG/EM, com análises à temperatura ambiente (sem degradação térmica), mas dificultada em misturas de compostos com grupos funcionais na mesma região de interesse. <span class="ref-pagina">(p. 54)</span></p>
+
+        <p>Alguns LQF dispõem de equipamentos de maior poder de discriminação, como <strong>HRMS</strong> (espectrômetros de massa de alta resolução) e <strong>MS/MS</strong> (espectrometria de massas em tandem), muito úteis na identificação de NSPs. Para drogas comuns (cocaína, maconha), a <strong>CCD</strong> (cromatografia de camada delgada) gera resultados confiáveis. <span class="ref-pagina">(p. 54)</span></p>
+
+        <div class="box-orange">
+            <strong>Garantia e controle de qualidade / Contraprova.</strong> A confiabilidade é alcançada com procedimentos de garantia e controle de qualidade: uso de <strong>duas amostras</strong> para análise, <strong>controles de padrões e brancos</strong>. Deve-se manter material como <strong>contraprova</strong> para eventual nova perícia (salvo quando a quantidade ou conservação não permitirem). Todos os registros de laboratório (fotografias, cromatograma, fichas de análises) devem ser arquivados, de forma que os resultados sejam passíveis de revisão. Em caso de dúvida, novo exame pode ser requerido pelo Ministério Público ou Poder Judiciário. <span class="ref-pagina">(p. 55)</span>
+        </div>
+    </div>
+
+    <!-- ===================== SÍNTESE ===================== -->
+    <div class="section" id="sintese">
+        <h2>Síntese e Mnemônicos</h2>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">📦 Mnemônico — amostragem</span>
+            <strong>"&lt;10 tudo / 10-100 dez / &gt;100 raiz de n"</strong> (e √n arredonda para cima).
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">⚖️ Mnemônico — quantidades mínimas</span>
+            <strong>Sólido = 2,0 g (3 colheres de sopa) · Líquido = 200 ml (1 copo) · Volátil = embalagem original.</strong>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">🩸 Mnemônico — cocaína e Scott</span>
+            <strong>Scott → azul → cocaína</strong>; mas <strong>sais de ferro</strong> (avermelhados) mascaram o teste; falsos positivos: heroína, metadona, lidocaína.
+        </div>
+
+        <table>
+            <thead>
+                <tr><th>Tema</th><th>Ponto-chave</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Exigência legal</td><td>Lei 11.343/2006: laudo de constatação para o flagrante; Perito Oficial ou, na falta, pessoa idônea (policial nomeado); prazo de 24 h.</td></tr>
+                <tr><td>Natureza dos testes</td><td>UNODC: evolução de cor; simples, rápidos, práticos; caráter apenas indicativo.</td></tr>
+                <tr><td>Cores principais</td><td>Scott=azul (cocaína); Marquis=negra/púrpura/violeta (MDMA, anfetaminas, opioides); Ehrlich=violeta (LSD); Zimmerman (benzo); Dille-Koppanyi (barbitúricos); Fast Blue/Duquenois (maconha).</td></tr>
+                <tr><td>Lança-perfume (cloreto de etila)</td><td>Chama verde; resíduo branco floculento (cloretos); ebulição a 12 °C.</td></tr>
+                <tr><td>Cuidados práticos</td><td>Teste em branco; utensílios limpos e secos; evitar contaminação cruzada; sais de ferro mascaram cocaína.</td></tr>
+                <tr><td>Amostragem (Tab. 2)</td><td>n&lt;10 → todas; 10≤n≤100 → 10; n&gt;100 → √n (arredondar p/ cima).</td></tr>
+                <tr><td>Quantidades mínimas (Tab. 3)</td><td>Sólido 2,0 g; líquido 200 ml; volátil embalagem original; abaixo do mínimo → enviar tudo.</td></tr>
+                <tr><td>Laudo preliminar</td><td>IT 006/2006-GAB/DITEC; art. 50 (Lei 11.343/2006); peso líquido vs bruto; Portarias 002/2007-GAB/INC e 2.048/2011-DG/DPF.</td></tr>
+                <tr><td>Testes definitivos</td><td>Laudo de perícia; IT 06/2006 (base SWGDRUG); categorias A, B, C (Tab. 4).</td></tr>
+                <tr><td>Regras de combinação</td><td>Com A: +1 (A/B/C). Sem A: 3 testes, sendo 2 da B não relacionados. Hifenadas contam separadas. Cannabis macro/micro = B.</td></tr>
+                <tr><td>Equipamentos</td><td>CG/EM, FTIR (mais barato, sem degradação térmica), HRMS, MS/MS (NSPs), CCD.</td></tr>
+                <tr><td>Qualidade / contraprova</td><td>Duas amostras, padrões e brancos; manter contraprova; arquivar registros; novo exame por MP ou Judiciário em caso de dúvida.</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>
