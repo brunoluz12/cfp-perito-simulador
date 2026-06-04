@@ -196,17 +196,6 @@ html.dark-mode .theme-toggle .theme-icon-dark { display: none; }
     min-width: 0;
 }
 
-@media (min-width: 1024px) {
-    .dashboard-grid {
-        grid-template-columns: 1.1fr 1fr;
-    }
-    
-    .history-panel {
-        position: sticky;
-        top: 24px;
-        align-self: start;
-    }
-}
 
 .config-panel h2, .history-panel h2 {
     display: flex;
