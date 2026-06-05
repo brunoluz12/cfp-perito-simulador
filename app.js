@@ -1474,13 +1474,15 @@ function getDisciplineIdsFromAula(aulaStr) {
 // A contagem é cumulativa por disciplina e cronológica (importante porque
 // uma disciplina como IPO ou CRI tem vários módulos cujos contadores
 // internos zeram a cada módulo — o que vale é a posição global no curso).
-function aplicarAutoFillAgenda() {
+function aplicarAutoFillAgenda(force = false) {
     if (typeof agendaDados === 'undefined' || !agendaDados.pautas || !agendaDados.pautas.pcf) return;
 
     let aplicada = {};
-    try {
-        aplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}');
-    } catch (e) { aplicada = {}; }
+    if (!force) {
+        try {
+            aplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}');
+        } catch (e) { aplicada = {}; }
+    }
 
     const hoje = new Date();
     hoje.setHours(23, 59, 59, 999); // Inclui o dia inteiro de hoje
@@ -1522,9 +1524,12 @@ function aplicarAutoFillAgenda() {
     Object.entries(targetCounts).forEach(([discId, target]) => {
         const disc = planoEducacional.find(d => d.id === discId);
         if (!disc) return;
-        if (!progressoCurso[discId]) {
+        
+        if (force || !progressoCurso[discId]) {
             progressoCurso[discId] = new Array(disc.aulas).fill(false);
+            mudou = true;
         }
+        
         const jaAplicado = aplicada[discId] || 0;
         if (target <= jaAplicado) return;
         const limite = Math.min(target, disc.aulas);
@@ -1561,7 +1566,7 @@ function carregarControleCurso() {
 // Re-executa o auto-fill da agenda manualmente. Útil quando o usuário
 // quer marcar as aulas que aconteceram hoje sem precisar fechar/abrir o app.
 function atualizarControleAgora() {
-    aplicarAutoFillAgenda();
+    aplicarAutoFillAgenda(true);
     renderizarGridControle();
 
     // Feedback visual no próprio botão
