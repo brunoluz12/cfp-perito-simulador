@@ -2094,6 +2094,9 @@ document.addEventListener('DOMContentLoaded', () => {
         opt.textContent = cargo.nome;
         agendaCargo.appendChild(opt);
     });
+    if (agendaDados.cargos.length > 0) {
+        agendaCargo.value = agendaDados.cargos[0].id;
+    }
     
     // Popular meses
     agendaDados.meses.forEach(mes => {
@@ -2102,6 +2105,23 @@ document.addEventListener('DOMContentLoaded', () => {
         opt.textContent = mes.nome;
         agendaMes.appendChild(opt);
     });
+
+    // Auto-selecionar o mês atual, se existir na lista
+    const today = new Date();
+    const currentMonthStr = String(today.getMonth() + 1).padStart(2, '0') + '-' + today.getFullYear();
+    
+    if (Array.from(agendaMes.options).some(opt => opt.value === currentMonthStr)) {
+        agendaMes.value = currentMonthStr;
+    } else if (agendaDados.meses.length > 0) {
+        agendaMes.value = agendaDados.meses[0].id;
+    }
+
+    agendaMes.disabled = false;
+    
+    // Chamar render inicial (usa setTimeout para garantir que elementos no DOM estejam prontos se necessário)
+    setTimeout(() => {
+        if(agendaMes.value) renderAgenda();
+    }, 10);
     
     agendaCargo.addEventListener('change', () => {
         agendaMes.disabled = false;
