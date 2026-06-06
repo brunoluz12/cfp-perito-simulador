@@ -1,0 +1,614 @@
+[
+  {
+    "id": 829,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito criminal está revisando um laudo de acidente de tráfego no qual o colega responsável afirmou categoricamente que 'a velocidade do veículo no momento da frenagem era de 73 km/h'. O revisor pondera que, considerando a filosofia subjacente ao Método de Monte Carlo (MMC) apresentada na introdução do capítulo, a forma de apresentar tal resultado deveria ser substituída por uma redação tecnicamente mais honesta e juridicamente mais robusta. Em conformidade com o paradigma probabilístico defendido no texto, qual seria a redação MAIS adequada?",
+    "alternativas": {
+      "A": "'A velocidade foi de 73 km/h, valor único determinístico que resume integralmente a dinâmica do evento, dispensando intervalos de incerteza.'",
+      "B": "'A velocidade era de 73 km/h com 90% de probabilidade no intervalo de 65 a 82 km/h.'",
+      "C": "'A velocidade estimada situa-se entre 0 e 200 km/h, sem possibilidade de delimitação adicional dada a aleatoriedade dos parâmetros.'",
+      "D": "'A velocidade foi superior a 60 km/h, sendo desnecessário fornecer qualquer estimativa central, mediana ou intervalo de confiança.'"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo afirma textualmente que, em vez de afirmar 'a velocidade era de 73 km/h', o perito pode afirmar com rigor científico 'a velocidade era de 73 km/h com 90% de probabilidade no intervalo de 65 a 82 km/h', o que é tecnicamente mais honesto e juridicamente mais robusto.",
+    "referencia": "Cap. 11, Seção 11.1, p. 67",
+    "nivel": "facil"
+  },
+  {
+    "id": 830,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma palestra sobre fundamentos históricos do Método de Monte Carlo para peritos em formação, o instrutor descreve o contexto da criação do método. Sobre a origem e desenvolvimento do MMC, conforme apresentado no capítulo, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O método foi desenvolvido por Albert Einstein durante a Primeira Guerra Mundial para cálculos relativísticos em projéteis balísticos, sendo posteriormente adaptado para tráfego.",
+      "B": "Foi formalmente desenvolvido durante o Projeto Manhattan (1942-1945) pelos matemáticos John von Neumann, Stanislaw Ulam e Nicholas Metropolis, recebendo o nome em referência ao cassino de Mônaco.",
+      "C": "Foi criado por Ronald Fisher no início do século XX, no contexto da estatística agronômica de Rothamsted, para experimentos em parcelas de cultivo.",
+      "D": "Surgiu nas décadas de 1980 e 1990 com Fonda e Bhavnani, especificamente para reconstrução de acidentes, não tendo aplicações anteriores em outras áreas científicas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma que 'O Método de Monte Carlo foi formalmente desenvolvido durante o Projeto Manhattan (desenvolvimento da bomba atômica, 1942-1945) pelos matemáticos John von Neumann, Stanislaw Ulam e Nicholas Metropolis' e que o nome 'Monte Carlo' foi proposto por Metropolis em referência ao cassino de Mônaco.",
+    "referencia": "Cap. 11, Seção 11.2.1, p. 67-68",
+    "nivel": "facil"
+  },
+  {
+    "id": 831,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "O fundamento matemático que sustenta o Método de Monte Carlo, conforme descrito no capítulo, é uma lei probabilística clássica. De acordo com o texto, esse fundamento estabelece que, à medida que o número de experimentos aleatórios cresce, a média dos resultados converge para o valor esperado, formalmente expressa como (1/n)·ΣXi → E[X] quando n → ∞. A lei matemática que sustenta tal afirmação é:",
+    "alternativas": {
+      "A": "Lei dos Grandes Números.",
+      "B": "Teorema Central do Limite estrito.",
+      "C": "Teorema de Bayes.",
+      "D": "Princípio da Inferência Frequentista de Neyman-Pearson."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma textualmente: 'O MMC baseia-se na Lei dos Grandes Números: à medida que o número de experimentos aleatórios cresce, a média dos resultados converge para o valor esperado.'",
+    "referencia": "Cap. 11, Seção 11.2.2, p. 68",
+    "nivel": "facil"
+  },
+  {
+    "id": 832,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia em que o coeficiente de atrito (μ) será modelado para o MMC, o perito constata que as condições da superfície foram corretamente analisadas (tipo, desgaste, sujidades no dia do evento) e que existem valores aproximados conforme tabelas aplicadas ou medições realizadas com equipamento (drag sled, Vericom VC2000). De acordo com a Tabela 15 e a Seção 11.3.2, qual distribuição é recomendada para μ nessas condições, com qual desvio-padrão típico?",
+    "alternativas": {
+      "A": "Distribuição Uniforme, com limites a=0,20 e b=1,20.",
+      "B": "Distribuição Normal (Gaussiana), com desvio-padrão de 0,05.",
+      "C": "Distribuição Triangular T(0,40; 0,60; 0,80).",
+      "D": "Distribuição Beta com parâmetros α=2 e β=5."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'Desde que as condições da superfície tenham sido analisadas (...) poderá ser usada para esta variável uma distribuição Gaussiana (Normal). Para ela, o desvio-padrão é de 0,05 (estudos já realizados). Essa é a metodologia mais utilizada.'",
+    "referencia": "Cap. 11, Seção 11.3.2 e Tabela 15, p. 69-71",
+    "nivel": "medio"
+  },
+  {
+    "id": 833,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um acidente periciado de forma indireta (apenas com fotos do local, vários dias após a ocorrência, com alterações nas condições da via), o perito decide adotar uma distribuição triangular para o coeficiente de atrito em asfalto seco em boas condições. Conforme a Seção 11.3.2, qual é a distribuição triangular frequentemente adotada para essa situação, com a respectiva moda?",
+    "alternativas": {
+      "A": "T(0,65; 0,80; 0,95), com moda em 0,80.",
+      "B": "T(0,30; 0,50; 0,70), com moda em 0,50.",
+      "C": "T(0,40; 0,60; 0,80), com moda em 0,60.",
+      "D": "T(0,10; 0,25; 0,40), com moda em 0,25."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'Para uma pista de asfalto seco em boas condições, por exemplo, a distribuição triangular T (0,65; 0,80; 0,95) é frequentemente adotada, com moda em 0,80 (valor central para asfalto seco normal).'",
+    "referencia": "Cap. 11, Seção 11.3.2, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 834,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito está caracterizando o Tempo de Percepção-Reação (TPR) para um pedestre idoso atravessando à noite em via mal iluminada, evento qualificado como estímulo inesperado, noturno, envolvendo idoso. De acordo com a Tabela 16 do capítulo, qual a configuração probabilística recomendada para essa situação?",
+    "alternativas": {
+      "A": "Distribuição Uniforme ou normal truncada com média 2,0–2,5 s e range 1,5–3,0 s.",
+      "B": "Distribuição Normal ou log-normal com média 1,5 s e σ ≈ 0,4 s.",
+      "C": "Distribuição Normal com média 0,7 s e σ ≈ 0,15 s.",
+      "D": "Distribuição Beta limitada no intervalo [0; 5] s, com forma determinada por α=3 e β=2."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a Tabela 16, para 'Estímulo inesperado, noturno, idoso' a distribuição recomendada é 'Uniforme ou normal truncada' com média de '2,0–2,5 s' e 'range 1,5–3,0 s'.",
+    "referencia": "Cap. 11, Seção 11.3.3 e Tabela 16, p. 72",
+    "nivel": "medio"
+  },
+  {
+    "id": 835,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma perícia de colisão urbana, o perito mediu três vezes uma marca de frenagem com trena metálica em asfalto seco, encontrando comprimentos próximos a 18 m com extremos bem definidos. Para o cálculo de velocidade pelo MMC, em conformidade com a Tabela 18 e a Seção 11.3.1, qual a melhor escolha probabilística para a distância de frenagem nesse caso e o desvio-padrão sugerido por BARTLETT et al. (2002)?",
+    "alternativas": {
+      "A": "Uniforme U(15; 25) m, sem necessidade de desvio-padrão.",
+      "B": "Triangular T(15; 18; 22) m, com moda em 18 m.",
+      "C": "Normal N(18,0 m; 0,5 m), com σ proposto por BARTLETT et al. (2002) de 0,5 m para medições com trena.",
+      "D": "Log-normal LN(18; 1), assumindo assimetria positiva natural para distâncias."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Tabela 18 traz para distância de frenagem 'Normal N (18.0 m; 0.5 m)' com a justificativa: 'Medida com trena metálica; extremos bem definidos; σ estimado como 2,8% de d (BARTLETT et al., 2002, propõem desvio-padrão de 0,5 m para medições de distância com trena).'",
+    "referencia": "Cap. 11, Seções 11.3.1 e 11.4.1, Tabela 18, p. 70-73",
+    "nivel": "medio"
+  },
+  {
+    "id": 836,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o número de simulações necessário no MMC pericial, julgue os itens a seguir conforme a Seção 11.5:\n\nI. Para n ≥ 1.000, a média converge com precisão suficiente para laudos periciais (variação < 0,5 km/h).\nII. Para n ≥ 5.000, o desvio padrão e os percentis P5/P95 convergem adequadamente.\nIII. Para n ≥ 10.000, há convergência excelente para todos os estimadores, incluindo percentis extremos (P1, P99).\nIV. Para n > 100.000, o ganho marginal é mínimo, sendo desnecessário para aplicações periciais rotineiras.\nV. O valor padrão recomendado é n = 10.000, podendo subir para n = 50.000 quando se necessita de percentis extremos ou quando a distribuição é assimétrica.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, II e V.",
+      "B": "Todos os itens estão corretos.",
+      "C": "Apenas I, III e V.",
+      "D": "Apenas II, III e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Todos os itens reproduzem fielmente o conteúdo da Seção 11.5, que enumera as convergências por faixa de n e estabelece 'n = 10.000 simulações como valor padrão (...) aumentando para n = 50.000 quando se necessita de percentis extremos (P1, P99) ou quando a distribuição do resultado é assimétrica.'",
+    "referencia": "Cap. 11, Seção 11.5, p. 76",
+    "nivel": "dificil"
+  },
+  {
+    "id": 837,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise de sensibilidade no MMC pericial e o uso do Tornado Chart, conforme a Seção 11.6, julgue os itens:\n\nI. A análise de sensibilidade quantifica a contribuição de cada parâmetro de entrada para a incerteza total do resultado.\nII. No método de Tornado Chart, varia-se cada parâmetro individualmente entre seu P10 e P90, mantendo os demais em seus valores médios.\nIII. O gráfico revela que distância de frenagem e coeficiente de atrito são os parâmetros que mais influenciam a incerteza na velocidade.\nIV. Realizar ensaios dinâmicos de frenagem no local para determinar μ com maior precisão é o investimento mais eficaz na qualidade da estimativa.\nV. Medir a distância de frenagem com maior precisão (trena de aço, múltiplas medições) reduz significativamente a incerteza.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, III e V.",
+      "B": "Todos os itens.",
+      "C": "Apenas II, IV e V.",
+      "D": "Apenas I, II e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Todos os itens estão presentes no texto da Seção 11.6, que descreve a função do Tornado Chart, a variação P10-P90 dos parâmetros, a dominância de 'distância de frenagem e coeficiente de atrito' como parâmetros mais influentes e indica que 'Realizar ensaios dinâmicos de frenagem no local (...) é o investimento mais eficaz na qualidade da estimativa.'",
+    "referencia": "Cap. 11, Seção 11.6, p. 76-77",
+    "nivel": "dificil"
+  },
+  {
+    "id": 838,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso envolvendo possível velocidade excessiva com posterior interceptação inesperada por veículo cruzando preferencial, o perito utiliza o MMC para duas simulações em paralelo: uma com a velocidade real calculada e outra contrafactual com a velocidade regulamentar. O resultado expressa a probabilidade p de o acidente ocorrer mesmo na velocidade regulamentar. Conforme a Seção 11.7, qual a INTERPRETAÇÃO correta dos valores de p?",
+    "alternativas": {
+      "A": "Se p > 0,5, a interceptação é a causa dominante; se p < 0,5, a velocidade excessiva é relevante.",
+      "B": "Se p > 0,5, a velocidade excessiva é a causa dominante; se p < 0,5, a interceptação é dominante.",
+      "C": "O valor de p é indiferente, pois o MMC apenas calcula velocidades, não probabilidades de causa.",
+      "D": "Se p = 0,5, a velocidade excessiva é certamente a causa única, independentemente das demais condições."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'Se p > 0,5, a interceptação é a causa dominante; se p < 0,5, a velocidade excessiva é relevante.'",
+    "referencia": "Cap. 11, Seção 11.7, p. 77-78",
+    "nivel": "medio"
+  },
+  {
+    "id": 839,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma colisão grave envolvendo capotamento, a perícia identifica três tipos de vestígios: marcas de frenagem (Va), de derrapagem (Vd) e de rolamento pós-capotamento (Vr). Conforme descrito na Seção 11.8 sobre MMC em colisões com múltiplos vestígios, qual a expressão correta da velocidade total (Vt) e como se comporta a distribuição resultante?",
+    "alternativas": {
+      "A": "Vt = Va + Vd + Vr, e a distribuição resultante é obtida por soma analítica direta das três distribuições marginais.",
+      "B": "Vt = max(Va, Vd, Vr), considerando apenas o maior componente para não inflar artificialmente a velocidade.",
+      "C": "Vt = √(Va² + Vd² + Vr²), e a distribuição de Vt é obtida automaticamente pela simulação, sem necessidade de derivação analítica das distribuições combinadas.",
+      "D": "Vt = (Va + Vd + Vr)/3, pois a velocidade total deve representar a média aritmética dos componentes."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Seção 11.8 traz a fórmula 'Vt = √(Va² + Vd² + Vr²)' e afirma que 'A distribuição de Vt é obtida automaticamente pela simulação, sem necessidade de derivação analítica das distribuições combinadas (que seria matematicamente complexa).'",
+    "referencia": "Cap. 11, Seção 11.8, p. 78",
+    "nivel": "medio"
+  },
+  {
+    "id": 840,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre incerteza aleatória e incerteza epistêmica no MMC pericial, descrita na Seção 11.10, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Incerteza aleatória e epistêmica são sinônimos no contexto pericial, ambas redutíveis com aumento do número de simulações de Monte Carlo.",
+      "B": "A incerteza aleatória (variabilidade) é variação inerente ao fenômeno, como a variabilidade natural do coeficiente de atrito ao longo da pista, e NÃO é redutível por mais medições; já a incerteza epistêmica decorre da falta de conhecimento e pode ser reduzida com mais informações ou medições mais precisas.",
+      "C": "A incerteza epistêmica é inerente ao fenômeno e não pode ser reduzida; a aleatória é completamente eliminada com mais medições.",
+      "D": "Nenhum dos dois tipos é capturado pelo MMC, motivo pelo qual a literatura recomenda usar apenas métodos determinísticos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto distingue: 'Incerteza aleatória (variabilidade): variação inerente ao fenômeno (...) Não é reduzível por mais medições' e 'Incerteza epistêmica (falta de conhecimento): incerteza que pode ser reduzida por mais informações ou medições mais precisas.'",
+    "referencia": "Cap. 11, Seção 11.10, p. 78-79",
+    "nivel": "medio"
+  },
+  {
+    "id": 841,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a apresentação dos resultados do MMC no laudo pericial, conforme a Seção 11.11, julgue os itens:\n\nI. A velocidade deve ser apresentada como intervalo, e não como valor único, ex.: 'Velocidade estimada: 65 a 80 km/h (90% de confiança), com valor central de 72 km/h'.\nII. Recomenda-se incluir histograma da distribuição de velocidade no laudo (anexo ou incorporado no texto).\nIII. Deve-se indicar a probabilidade de que a velocidade superava determinado limite, ex.: 'A probabilidade de que o veículo desenvolvesse velocidade superior a 60 km/h é estimada em 92%'.\nIV. Deve-se tabular os parâmetros utilizados, suas distribuições e justificativas.\nV. Deve-se mencionar o número de simulações realizadas e o software ou ferramenta utilizada.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, II e V.",
+      "B": "Apenas II, III e IV.",
+      "C": "Apenas I, III, IV e V.",
+      "D": "Todos os itens estão corretos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todos os itens reproduzem as cinco práticas recomendadas listadas na Seção 11.11 para apresentação dos resultados do MMC no laudo pericial.",
+    "referencia": "Cap. 11, Seção 11.11, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 842,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o capítulo, a Polícia Federal recomenda qual ferramenta para implementação do MMC em laudos periciais, considerando aspectos como custo, código auditável, reprodutibilidade e ampla documentação?",
+    "alternativas": {
+      "A": "Microsoft Excel exclusivamente, por sua interface amigável.",
+      "B": "@RISK (Palisade), por ser específico para análise de risco profissional.",
+      "C": "MATLAB, devido à licença gratuita disponibilizada pela ANP.",
+      "D": "Python, por ser gratuito, de código aberto, amplamente documentado e com código auditável."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'Para uso em laudos periciais da Polícia Federal, recomenda-se o Python por ser gratuito, de código aberto, amplamente documentado e com código auditável.'",
+    "referencia": "Cap. 11, Seção 11.12, Tabela 20, p. 80",
+    "nivel": "facil"
+  },
+  {
+    "id": 843,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as limitações e cuidados com o Método de Monte Carlo, conforme a Seção 11.14, julgue os itens:\n\nI. Se as distribuições de entrada forem mal especificadas (por exemplo, subestimando a variabilidade de μ), os intervalos de saída também serão inadequados.\nII. O MMC quantifica incerteza paramétrica, mas NÃO incerteza de modelo: se a fórmula de velocidade for inapropriada, o MMC não detectará isso.\nIII. Correlações não modeladas podem resultar em sub ou superestimação da incerteza total.\nIV. O MMC ELIMINA a necessidade de ensaios dinâmicos, sendo plenamente substituto destes.\nV. O resultado probabilístico requer interpretação cuidadosa no contexto jurídico: o tribunal deve entender o significado de '90% de confiança'.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas III, IV e V.",
+      "B": "Apenas I, II e IV.",
+      "C": "Apenas I, II, III e V.",
+      "D": "Todos os itens."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O item IV está INCORRETO. O texto afirma o oposto: 'O MMC não elimina a necessidade de ensaios dinâmicos: é complementar, não substituto.' Os demais itens reproduzem fielmente as limitações listadas.",
+    "referencia": "Cap. 11, Seção 11.14, p. 81",
+    "nivel": "dificil"
+  },
+  {
+    "id": 844,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Tabela 17 (BARTLETT et al., 2002) que resume os tipos de distribuições probabilísticas para variáveis comuns em perícia de acidentes, julgue os itens:\n\nI. Para coeficiente de atrito estimado por tabela (sem evidência de centralidade), recomenda-se distribuição Uniforme.\nII. Para o raio de yawmark (marca de guinada/derrapagem lateral), recomenda-se distribuição Normal com σ ≈ 4,6% da média.\nIII. Para ângulos em campo, recomenda-se distribuição Normal com σ ≈ 0,56°.\nIV. Para TPR em condição complexa, recomenda-se distribuição log-normal, devido à assimetria à direita e ao limite inferior físico.\nV. Para Crush (deformação residual) usando o método CRASH3, recomenda-se distribuição Normal com σ elevado (~12,7 cm).\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Todos os itens estão corretos.",
+      "B": "Apenas II, IV e V.",
+      "C": "Apenas I, II, III e IV.",
+      "D": "Apenas I, III e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens reproduzem fielmente o conteúdo da Tabela 17 do capítulo, baseada em BARTLETT et al., 2002, SAE 2002-01-0546.",
+    "referencia": "Cap. 11, Seção 11.3.4, Tabela 17, p. 72-73",
+    "nivel": "dificil"
+  },
+  {
+    "id": 845,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exemplo prático apresentado no capítulo (Tabela 19), com marcas de frenagem de 18 m em asfalto seco, a velocidade estimada pelo MMC apresenta os seguintes resultados: Média de 71,1 km/h; Mediana (P50) de 71,1 km/h; Desvio padrão de 3,7 km/h; P5 = 65,0 km/h; P95 = 77,1 km/h. Sobre a coincidência entre média e mediana, o que tal fato indica em termos pericial-probabilísticos?",
+    "alternativas": {
+      "A": "Que a distribuição é praticamente simétrica, consistente com o uso de distribuição normal para os parâmetros de entrada.",
+      "B": "Que a distribuição é fortemente assimétrica à direita, consistente com log-normal.",
+      "C": "Que houve erro grosseiro de programação, pois média e mediana NUNCA podem coincidir em MMC.",
+      "D": "Que houve viés de amostragem aleatória, exigindo aumento de n para 1 milhão de simulações."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto da Tabela 19 explica que 'A coincidência entre média e mediana indica distribuição praticamente simétrica, consistente com o uso de distribuição normal para os parâmetros de entrada.'",
+    "referencia": "Cap. 11, Seção 11.4.4, Tabela 19, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 846,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exemplo da Tabela 19, o P5 (limite inferior do IC90%) é de 65,0 km/h. Conforme o significado pericial descrito, esse valor representa:",
+    "alternativas": {
+      "A": "O valor mais provável da velocidade real do veículo, equivalente ao pico da função de densidade.",
+      "B": "A velocidade mediana da distribuição, abaixo da qual 50% das simulações ocorreram.",
+      "C": "Um valor abaixo do qual ocorreram apenas 5% das simulações, representando, para fins periciais, a estimativa conservadora mínima defensável.",
+      "D": "A velocidade máxima esperada, com 95% de probabilidade de ser ultrapassada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Tabela 19 explica o P5: 'Limite inferior do intervalo de confiança de 90%: apenas 5% das simulações produziram velocidade inferior a este valor. Para fins periciais, representa a estimativa conservadora mínima defensável.'",
+    "referencia": "Cap. 11, Seção 11.4.4, Tabela 19, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 847,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos quatro passos da implementação do MMC descritos na Seção 11.4, julgue os itens:\n\nI. Passo 1: Definir, para cada parâmetro com incerteza, o tipo de distribuição, os parâmetros (média, desvio, mínimo, máximo, moda) e a justificativa técnica.\nII. Passo 2: Para cada simulação i (de 1 a n), gerar conjunto de valores aleatórios de cada parâmetro, amostrados de suas distribuições; com n = 10.000, o tempo computacional é inferior a 1 segundo em notebook moderno.\nIII. Passo 3: Para cada conjunto de valores amostrados, calcular a velocidade resultante Vi usando as fórmulas periciais convencionais — cada simulação representa um 'mundo possível' compatível com os vestígios observados.\nIV. Passo 4: Construir as estatísticas (média, mediana, desvio, percentis, P(V > Vlimite)) a partir dos n valores Vi.\nV. A documentação das escolhas e justificativas técnicas pode ser omitida do laudo pericial, ficando apenas em rascunho do perito.\n\nEstão CORRETOS APENAS:",
+    "alternativas": {
+      "A": "II, III, IV e V.",
+      "B": "I, II, III e V.",
+      "C": "I, II, III e IV.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O item V está INCORRETO: o texto afirma textualmente, no Passo 1, que 'Essa etapa deve ser documentada no laudo pericial.' Os demais itens reproduzem fielmente os quatro passos da Seção 11.4.",
+    "referencia": "Cap. 11, Seções 11.4.1 a 11.4.4, p. 73-75",
+    "nivel": "dificil"
+  },
+  {
+    "id": 848,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na Tabela 18 do exemplo de aplicação (18 m de frenagem em asfalto seco), a velocidade de danos (Vd) foi modelada como U(10; 25) km/h. Qual a justificativa apresentada para o uso dessa distribuição uniforme em vez da normal?",
+    "alternativas": {
+      "A": "Por se tratar de medida absolutamente precisa e sem variabilidade significativa.",
+      "B": "Por dispor de média e desvio-padrão calculados a partir de 100 ensaios de danos veiculares.",
+      "C": "Por ser obrigatório o uso de distribuição uniforme para qualquer velocidade obtida por danos.",
+      "D": "Por se tratar de danos moderados, com intervalo amplo por incerteza metodológica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Tabela 18 justifica a escolha de U(10; 25 km/h) para velocidade de danos como: 'Danos moderados; intervalo amplo por incerteza metodológica.'",
+    "referencia": "Cap. 11, Seção 11.4.1, Tabela 18, p. 73-74",
+    "nivel": "medio"
+  },
+  {
+    "id": 849,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A formulação matemática apresentada na Seção 11.2.2 expressa a velocidade estimada em um acidente como função de vários parâmetros com incerteza, com a forma V = f(d, μ, α, Tp, ...) = 15,946·√(d × μ'). Sobre a aplicação probabilística desta função no MMC, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Se d e μ são variáveis determinísticas, V também o é, sendo o MMC inaplicável a tal forma funcional.",
+      "B": "Se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), então V também é variável aleatória com distribuição P(V), e o MMC determina P(V) experimentalmente sorteando n pares (di, μi) e calculando Vi = f(di, μi) para cada par.",
+      "C": "O MMC exige que a função f seja sempre linear, sendo incompatível com a raiz quadrada presente na fórmula apresentada.",
+      "D": "A distribuição empírica dos Vi serve apenas como aproximação visual, sem caráter estatístico estimador de P(V)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'Se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), então V também é uma variável aleatória com distribuição P(V). O MMC determina P(V) experimentalmente: gera-se um grande número n de pares (di, μi) (...) e a distribuição empírica dos Vi é a estimativa de P(V).'",
+    "referencia": "Cap. 11, Seção 11.2.2, p. 68",
+    "nivel": "dificil"
+  },
+  {
+    "id": 850,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distribuição de probabilidade Log-normal LN(μ, σ) apresentada na Tabela 15, é CORRETO afirmar, no contexto pericial, que:",
+    "alternativas": {
+      "A": "É indicada para variáveis simétricas que podem assumir valores positivos e negativos, como aceleração relativa.",
+      "B": "É restrita ao intervalo [0;1] e usada apenas para coeficiente de atrito normalizado.",
+      "C": "É equivalente à distribuição uniforme quando aplicada a tempos, devendo ser preterida em laudo pericial.",
+      "D": "É indicada para variável positiva com assimetria à direita; típica de tempos, sendo muito interessante seu uso para Tempos de Percepção-Reação (valores baixos mais prováveis que altos)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a Tabela 15: a log-normal LN(μ, σ) é indicada para 'Variável positiva com assimetria à direita; típica de tempos' e tem como exemplo pericial 'Muito interessante o uso para Tempos de Percepção-Reação (p. ex.: valores baixos mais prováveis que altos).'",
+    "referencia": "Cap. 11, Seção 11.3, Tabela 15, p. 70",
+    "nivel": "medio"
+  },
+  {
+    "id": 851,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exemplo da Tabela 19, a estatística P(V > 60 km/h) resulta em 95,2%, embora o texto explicativo na mesma linha mencione que 'em 99,9% das simulações, a velocidade estimada superou o limite regulamentado de 60 km/h'. Sobre o significado pericial dessa probabilidade alta, conforme a interpretação trazida pelo capítulo, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "A probabilidade de o veículo trafegar dentro do limite é altíssima, devendo o perito atestar compatibilidade com o limite.",
+      "B": "É necessário rodar nova simulação com n = 1.000.000 para concluir qualquer coisa sobre a compatibilidade com o limite.",
+      "C": "A interpretação probabilística é inválida porque média e mediana coincidem.",
+      "D": "A probabilidade de o veículo trafegar dentro do limite é inferior a 0,1%, valor que, para fins periciais, torna a hipótese de velocidade compatível com o limite praticamente excludente à luz dos vestígios analisados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Tabela 19 explica que 'A probabilidade de o veículo trafegar dentro do limite é inferior a 0,1% — valor que, para fins periciais, torna a hipótese de velocidade compatível com o limite praticamente excludente à luz dos vestígios analisados.'",
+    "referencia": "Cap. 11, Seção 11.4.4, Tabela 19, p. 75",
+    "nivel": "dificil"
+  },
+  {
+    "id": 852,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as considerações de correlação entre parâmetros descritas na Seção 11.9, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Na maioria das aplicações periciais, os parâmetros são tratados como independentes, simplificação razoável para pistas de asfalto em condições normais; quando há razões para suspeitar de forte correlação (ex.: pistas com superfície muito heterogênea), métodos de correlação (como a cópula de Pearson) podem ser incorporados ao MMC.",
+      "B": "Em todas as aplicações periciais, os parâmetros devem obrigatoriamente ser tratados como fortemente correlacionados.",
+      "C": "Correlações entre parâmetros são proibidas pela literatura, sendo considerado erro grave de método.",
+      "D": "A independência entre parâmetros sempre subestima a incerteza total."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'Na maioria das aplicações periciais, os parâmetros são tratados como independentes, o que é uma simplificação razoável para pistas de asfalto em condições normais. Quando há razões para suspeitar de forte correlação (...) métodos de correlação (como a cópula de Pearson) podem ser incorporados ao MMC.'",
+    "referencia": "Cap. 11, Seção 11.9, p. 78",
+    "nivel": "medio"
+  },
+  {
+    "id": 853,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a aplicação avançada do MMC para Timing de Colisão (análise temporal), descrita na Seção 11.13.2, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O MMC não pode ser aplicado para análise temporal de eventos, sendo restrito ao cálculo de velocidades.",
+      "B": "O timing de colisão é calculado exclusivamente por métodos determinísticos clássicos, sendo o MMC obsoleto para esse fim.",
+      "C": "Além de calcular velocidades, o MMC pode ser aplicado para determinar probabilisticamente o timing dos eventos (em que momento exato cada veículo ocupou o sítio de colisão), permitindo verificar a consistência de relatos de testemunhas e reconstruir a sequência de eventos com intervalos de confiança temporais.",
+      "D": "A análise temporal pelo MMC exige obrigatoriamente uso de cópulas de Cholesky para qualquer caso prático."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Seção 11.13.2 afirma: 'Além de calcular velocidades, o MMC pode ser aplicado para determinar probabilisticamente o timing dos eventos: em que momento exato cada veículo ocupou o sítio de colisão? Essa análise permite verificar a consistência de relatos de testemunhas e reconstruir a sequência de eventos com intervalos de confiança temporais.'",
+    "referencia": "Cap. 11, Seção 11.13.2, p. 81",
+    "nivel": "medio"
+  },
+  {
+    "id": 854,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à atenção destacada no capítulo de que o Método de Monte Carlo 'NÃO é uma caixa preta que produz resultados automáticos', é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Qualquer software de MMC retornará automaticamente o melhor resultado, sem necessidade de avaliação técnica do perito.",
+      "B": "A qualidade dos resultados depende fundamentalmente da qualidade e pertinência das distribuições de entrada, que devem ser definidas pelo perito com base em seu conhecimento técnico e no exame cuidadoso das condições do acidente.",
+      "C": "A frase indica que o MMC não pode ser auditado por terceiros, mesmo com semente fixa.",
+      "D": "A advertência se aplica apenas a peritos com menos de cinco anos de experiência."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O alerta final do capítulo afirma: 'O Método de Monte Carlo não é uma caixa preta que produz resultados automáticos. A qualidade dos resultados depende fundamentalmente da qualidade e pertinência das distribuições de entrada, que devem ser definidas pelo perito com base em seu conhecimento técnico e no exame cuidadoso das condições do acidente.'",
+    "referencia": "Cap. 11, Seção 11.14, p. 81",
+    "nivel": "facil"
+  },
+  {
+    "id": 855,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo, o perito apresenta resultados do MMC com intervalo de confiança de 95% (em vez de 90%). Conforme o Passo 4 (Seção 11.4.4), quais são os percentis correspondentes aos limites do intervalo de confiança de 95%?",
+    "alternativas": {
+      "A": "P5 e P95.",
+      "B": "P10 e P90.",
+      "C": "P2,5 e P97,5.",
+      "D": "P1 e P99."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'Percentis P2,5 e P97,5: limites do intervalo de confiança de 95%.' E 'Percentis P5 e P95: limites do intervalo de confiança de 90%.'",
+    "referencia": "Cap. 11, Seção 11.4.4, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 856,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distribuição da distância de frenagem descrita na Seção 11.3.1, julgue os itens:\n\nI. As principais fontes de incerteza incluem precisão do instrumento, dificuldade de identificar exatamente o início e o fim da marca, desgaste ou apagamento parcial da marca e variação ao longo da largura da marca.\nII. Para marcas bem preservadas e medidas com cuidado, distribui-se como Normal com σ proporcional ao comprimento (tipicamente σ ≈ 2 a 5% do valor medido).\nIII. Alguns pesquisadores também trazem como referência para o desvio-padrão o valor de 0,5 m.\nIV. Para marcas parcialmente apagadas ou com extremos imprecisos, a distribuição Uniforme em um intervalo é mais conservadora.\nV. A distribuição log-normal é a recomendação padrão para qualquer medição de comprimento, independentemente do estado da marca.\n\nEstão CORRETOS APENAS:",
+    "alternativas": {
+      "A": "I, III, IV e V.",
+      "B": "I, II, III e V.",
+      "C": "II, III, IV e V.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O item V está INCORRETO. O texto não recomenda log-normal como padrão; recomenda Normal para marcas bem preservadas e Uniforme para marcas com extremos imprecisos. Os demais itens reproduzem fielmente o conteúdo da Seção 11.3.1.",
+    "referencia": "Cap. 11, Seção 11.3.1, p. 70-71",
+    "nivel": "dificil"
+  },
+  {
+    "id": 857,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o uso da distribuição Uniforme U(a, b) na Tabela 15 do capítulo, identifique a situação típica e o uso pericial correto:",
+    "alternativas": {
+      "A": "É usada para variáveis com valor central altamente provável, parâmetros: média (μ) e desvio padrão (σ).",
+      "B": "É usada apenas para tempos de percepção-reação em estímulos esperados simples.",
+      "C": "É usada quando há total incerteza, com qualquer valor no intervalo igualmente plausível; parâmetros mínimo a e máximo b; exemplo pericial: velocidade de danos quando só se sabe que está entre 15 e 35 km/h.",
+      "D": "É usada apenas para variáveis limitadas no intervalo [0;1] com formas flexíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Tabela 15, a distribuição Uniforme U(a,b) é usada em 'Total incerteza; qualquer valor no intervalo igualmente plausível', com parâmetros 'Mínimo a; máximo b', e tem como exemplo pericial 'Velocidade de danos quando só se sabe que está entre 15 e 35 km/h'.",
+    "referencia": "Cap. 11, Seção 11.3, Tabela 15, p. 70",
+    "nivel": "medio"
+  },
+  {
+    "id": 858,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme nota apresentada na Seção 11.3.4 (após a Tabela 17), considere a afirmação sobre a energia cinética Ec = ½mv². Sobre o tratamento da distribuição de Ec no MMC, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "É obrigatório especificar previamente a distribuição de Ec antes de qualquer cálculo do MMC, sob pena de invalidar o método.",
+      "B": "A energia cinética Ec deve ser modelada como log-normal independentemente da distribuição de V.",
+      "C": "Como Ec = ½mv², se a velocidade segue distribuição normal, a energia cinética seguirá uma distribuição levemente assimétrica; no MMC isso é tratado automaticamente — basta sortear V com distribuição normal e calcular Ec a cada iteração, sem necessidade de especificar a distribuição de Ec diretamente.",
+      "D": "Por ser função quadrática, Ec sempre terá distribuição normal exatamente simétrica, igual à de V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A nota da Seção 11.3.4 afirma: 'Como Ec = ½mv², se a velocidade segue distribuição normal, a energia cinética seguirá uma distribuição levemente assimétrica. No MMC isso é tratado automaticamente — basta sortear V com distribuição normal e calcular Ec a cada iteração, sem necessidade de especificar a distribuição de Ec diretamente.'",
+    "referencia": "Cap. 11, Seção 11.3.4, p. 73",
+    "nivel": "dificil"
+  },
+  {
+    "id": 859,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Tabela 16 que apresenta as sugestões de desvios-padrão para uso com Tempos de Percepção-Reação, considere a situação de 'estímulo esperado, simples', em que o motorista aguarda ativamente um evento previsível (ex.: semáforo prestes a fechar em via aberta, em rotina diária). Qual a distribuição, a média e o σ recomendados?",
+    "alternativas": {
+      "A": "Distribuição Normal, média 0,7 s e σ ≈ 0,15 s.",
+      "B": "Distribuição Normal ou log-normal, média 1,5 s e σ ≈ 0,4 s.",
+      "C": "Distribuição Uniforme, média 2,5 s, com range 1,5–3,0 s.",
+      "D": "Distribuição Beta, média 1,2 s, com forma determinada por α=2 e β=3."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a Tabela 16, para 'Estímulo esperado, simples', a distribuição recomendada é Normal, com média 0,7 s e σ ≈ 0,15 s.",
+    "referencia": "Cap. 11, Seção 11.3.3, Tabela 16, p. 72",
+    "nivel": "medio"
+  },
+  {
+    "id": 860,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exemplo da Tabela 18 (acidente com marcas de frenagem de 18 m em asfalto seco), a inclinação da pista (α) foi modelada como N(0,0°; 0,3°). Qual a justificativa apresentada pelo capítulo para essa caracterização?",
+    "alternativas": {
+      "A": "Adotada por convenção da literatura, sem qualquer medição em campo.",
+      "B": "Obtida em pesquisa em conjunto de aproximadamente 100 ensaios em laboratório.",
+      "C": "Calculada apenas por análise indireta de fotos, sem visita ao local.",
+      "D": "Verificada com inclinômetro; terreno aparentemente plano."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a Tabela 18, a inclinação da pista (α) com distribuição Normal N(0,0°; 0,3°) tem como justificativa: 'Verificada com inclinômetro; terreno aparentemente plano.'",
+    "referencia": "Cap. 11, Seção 11.4.1, Tabela 18, p. 74",
+    "nivel": "medio"
+  },
+  {
+    "id": 861,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial estruturado conforme o modelo de texto sugerido na Seção 11.11.1, o perito deve mencionar, entre outros pontos, o número de simulações, as distribuições de incerteza dos parâmetros e o software utilizado. Sobre o uso de Microsoft Excel descrito no modelo de redação, qual a recomendação específica apresentada?",
+    "alternativas": {
+      "A": "O Excel não é aceito como ferramenta para MMC pericial; apenas Python é válido.",
+      "B": "O modelo proíbe expressamente a citação do software, restringindo o laudo à metodologia abstrata.",
+      "C": "O Excel deve ser usado apenas para tabelas, sendo proibido para sorteios aleatórios.",
+      "D": "Os cálculos foram realizados com o software Microsoft Excel, e a planilha utilizada encontra-se disponível para auditoria no Sistema Nacional de Criminalística."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O modelo de texto da Seção 11.11.1 afirma: 'Os cálculos foram realizados com o software Microsoft Excel, e a planilha utilizada encontra-se disponível para auditoria no Sistema Nacional de Criminalística.'",
+    "referencia": "Cap. 11, Seção 11.11.1, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 862,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a reprodutibilidade dos resultados do MMC em laudos da Polícia Federal, a nota da Seção 11.12 destaca que ela é essencial para que outros peritos possam verificar e replicar os resultados. Qual o mecanismo técnico apontado para garantir tal reprodutibilidade em Python?",
+    "alternativas": {
+      "A": "Aumentar n para 1.000.000 em todas as rodadas.",
+      "B": "Uso de semente aleatória fixa, por exemplo, np.random.seed(42).",
+      "C": "Salvar os resultados em PDF protegido por senha.",
+      "D": "Rodar o MMC em servidor remoto centralizado, vedando execução local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A nota da Seção 11.12 afirma: 'A reproducibilidade (garantida pelo uso de semente aleatória fixa: np.random.seed(42)) é essencial para que outros peritos possam verificar e replicar os resultados.'",
+    "referencia": "Cap. 11, Seção 11.12, p. 80",
+    "nivel": "dificil"
+  },
+  {
+    "id": 863,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em análise avançada de MMC com correlação de parâmetros (Seção 11.13.1), o capítulo cita técnicas matemáticas específicas que podem ser incorporadas ao método quando há correlação conhecida entre parâmetros. Quais são as técnicas mencionadas?",
+    "alternativas": {
+      "A": "Apenas redes neurais convolucionais e aprendizado profundo.",
+      "B": "Apenas regressão linear simples por mínimos quadrados.",
+      "C": "Apenas análise fatorial de componentes principais (PCA).",
+      "D": "Matrizes de correlação e transformação de Cholesky, ou cópulas de dependência."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 11.13.1 afirma: 'Quando existe correlação conhecida entre parâmetros, pode-se incorporá-la ao MMC usando matrizes de correlação e transformação de Cholesky, ou usando cópulas de dependência.'",
+    "referencia": "Cap. 11, Seção 11.13.1, p. 80-81",
+    "nivel": "dificil"
+  },
+  {
+    "id": 864,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma análise de cenário (what-if), o perito avalia: 'Se o veículo estivesse na velocidade regulamentar, qual seria a probabilidade de evitar o acidente?' e também 'Se os freios estivessem em perfeitas condições, qual seria a redução na distância de frenagem?'. Conforme a Seção 11.13.3, sobre esse tipo de análise de cenários é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O MMC permite comparar cenários hipotéticos (what-if analysis), sendo essa análise o que permite a análise rigorosa de velocidade excessiva × interceptação descrita na Seção 11.7.",
+      "B": "É permitida apenas em colisões com vítima fatal, sendo vedada nos demais casos.",
+      "C": "Não é admissível em perícia, por se tratar de mera especulação contrafactual sem suporte estatístico.",
+      "D": "A análise de cenários equivale matematicamente à transformação de Cholesky, sendo idêntica à correlação de parâmetros."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 11.13.3 afirma: 'O MMC permite comparar cenários hipotéticos (what-if analysis) (...) Essa análise de cenários é o que permite a análise rigorosa de velocidade excessiva × interceptação descrita na seção 11.7.'",
+    "referencia": "Cap. 11, Seção 11.13.3, p. 81",
+    "nivel": "medio"
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 821,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A estrutura recomendada pelo INC/PF para laudos de acidentes de tráfego contém nove partes. Sobre essa estrutura, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Compreende: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho e Apelação.",
+      "B": "Compreende apenas a Identificação, o Histórico e a Conclusão, dispensadas as demais partes em laudos de tráfego.",
+      "C": "Inclui obrigatoriamente o Parecer Jurídico da Autoridade Requisitante como sétima parte.",
+      "D": "Compreende: Identificação; Histórico; Objetivo; Material examinado; Descrição do local; Descrição dos veículos; Análise e fundamentação técnica; Conclusão; e Croqui e fotografias (anexados ou inseridos no corpo)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto enumera exatamente as nove partes: Identificação, Histórico, Objetivo, Material examinado, Descrição do local, Descrição dos veículos, Análise e fundamentação técnica, Conclusão e Croqui e fotografias.",
+    "referencia": "Cap. 10, Seção 10.1, p. 63",
+    "nivel": "facil"
+  },
+  {
+    "id": 822,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O croqui pericial é a representação gráfica da área do acidente. Sobre seus requisitos, conforme o material, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Deve ter escala indicada (ou indicar 'sem escala' quando for esquemático), norte geográfico indicado, ponto(s) de referência permanente identificado(s) e legenda completa para todos os símbolos.",
+      "B": "Deve apresentar medidas de todos os elementos significativos, marcas pneumáticas com extensão medida, posições dos veículos (pré-colisão estimada, pós-colisão e estimada para o momento da colisão, se diferente).",
+      "C": "Deve registrar fragmentos, sulcagens, manchas de fluidos, sinalização presente (placas e marcas horizontais), Sítio de Colisão (SC) identificado e ponto(s) de referência do levantamento (PR).",
+      "D": "Deve obrigatoriamente conter a assinatura do delegado de polícia e o número do inquérito, sob pena de nulidade técnica do croqui."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os itens A, B e C reproduzem exatamente os requisitos do croqui. A exigência de assinatura do delegado e número de inquérito não consta do material como requisito do croqui.",
+    "referencia": "Cap. 10, Seção 10.2, p. 63-64",
+    "nivel": "medio"
+  },
+  {
+    "id": 823,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A documentação fotográfica segue três níveis de aproximação. Considere o cenário em que o perito deseja registrar o layout geral da via, sua sinalização e a orientação dos veículos para que o leitor compreenda o contexto antes de examinar detalhes. Em qual faixa de distância essas fotos devem ser tomadas?",
+    "alternativas": {
+      "A": "Entre 0,5 m e 2 m (close).",
+      "B": "Entre 30 m e 100 m (orientação).",
+      "C": "Entre 5 m e 20 m (distância média).",
+      "D": "Entre 100 m e 250 m (aerofotogrametria obrigatória)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Texto: 'Fotos de Orientação. Tomadas de posições distantes (30 a 100 m), mostrando o contexto geral do local, a via, a sinalização e a orientação dos veículos em relação à via'.",
+    "referencia": "Cap. 10, Seção 10.3.1, p. 64",
+    "nivel": "facil"
+  },
+  {
+    "id": 824,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as Fotos de Identificação, último nível da progressão fotográfica recomendada, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Tomadas a distâncias de 30 a 100 m, com o objetivo de permitir a compreensão do layout geral antes de examinar os detalhes.",
+      "B": "Tomadas a distância média (5 a 20 m), com escala opcional, mostrando o posicionamento de cada vestígio em relação aos elementos da via.",
+      "C": "Tomadas em close (0,5 a 2 m), mostrando os detalhes de cada vestígio: textura das marcas pneumáticas, tipo das avarias, fragmentos individuais; é obrigatória a presença de escala.",
+      "D": "Tomadas exclusivamente por drone, com altitude de voo entre 50 e 120 m, sendo desnecessária a escala."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Texto: 'Fotos de Identificação. Tomadas em close (0,5 a 2 m), mostrando os detalhes de cada vestígio (...). Obrigatória a presença de escala'.",
+    "referencia": "Cap. 10, Seção 10.3.3, p. 65",
+    "nivel": "medio"
+  },
+  {
+    "id": 825,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a modernização tecnológica na documentação pericial (Tabela 14), considere os itens a seguir:\n\nI. O Scanner 3D a laser (FARO Focus) realiza levantamento tridimensional do local e dos veículos, com precisão milimétrica, mas tem custo elevado e tempo de processamento.\nII. A fotogrametria por drone permite mapeamento aéreo com modelagem 3D; é rápida e de baixo custo por uso, mas requer habilitação ANAC e é sensível ao vento.\nIII. Softwares PC-Crash/HVE permitem simulação dinâmica do acidente, com validação de hipóteses, mas requerem treinamento especializado e licenciamento.\nIV. O EDR (Event Data Recorder) fornece dados precisos de velocidade, freio e cinto, embora nem todos os veículos disponham dele e o acesso possa ser restrito.\nV. A plataforma eCrash é uma plataforma nacional para cálculos relacionados a acidentes de tráfego utilizando modelos estatísticos.\n\nEstão CORRETAS:",
+    "alternativas": {
+      "A": "Apenas I, II e III.",
+      "B": "Apenas II, IV e V.",
+      "C": "Todos os itens estão corretos.",
+      "D": "Apenas I, III e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens reproduzem a Tabela 14 do material: Scanner 3D FARO Focus, fotogrametria por drone com ANAC, PC-Crash/HVE, EDR e plataforma eCrash com modelos estatísticos.",
+    "referencia": "Cap. 10, Seção 10.4, Tabela 14, p. 65",
+    "nivel": "dificil"
+  },
+  {
+    "id": 826,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O software Peritus é citado no material como ferramenta tecnológica para uso pelo perito criminal federal. Sobre essa ferramenta, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "É um software de código aberto, de uso livre por qualquer profissional da área pericial.",
+      "B": "Foi desenvolvido pela Criminalística da Polícia Federal e é usado para análise de imagens, dentre outras aplicações; permite estimar velocidades médias dos veículos analisados por meio do uso de imagens de câmeras; tem uso restrito a peritos criminais.",
+      "C": "É uma plataforma estrangeira voltada exclusivamente ao cálculo de incertezas em acidentes envolvendo motocicletas.",
+      "D": "Substitui integralmente o uso do EDR, dispensando consulta a dados do airbag/sistema de segurança."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Tabela 14: 'Software Peritus. Desenvolvido pela Criminalística da Polícia Federal, é usado para análise de imagens, dentre outras aplicações. Permite estimar velocidades médias dos veículos analisados por meio do uso de imagens de câmeras. Uso restrito a peritos criminais'.",
+    "referencia": "Cap. 10, Seção 10.4, Tabela 14, p. 65",
+    "nivel": "medio"
+  },
+  {
+    "id": 827,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em revisão de laudos periciais em acidentes de tráfego, são identificados erros recorrentes na formulação da conclusão. Considere os itens:\n\nI. Concluir sobre culpa ou responsabilidade jurídica (função exclusiva do juiz).\nII. Apontar causa determinante sem embasamento em vestígios materiais (conclusão baseada em depoimentos).\nIII. Usar linguagem vaga, como 'o veículo estava em alta velocidade', sem calcular a velocidade.\nIV. Confundir Sítio de Colisão com sítio de impacto no veículo.\nV. Apresentar a velocidade como valor exato sem mencionar o intervalo de incerteza.\n\nQuais desses itens são considerados ERROS comuns na conclusão pericial, conforme o material?",
+    "alternativas": {
+      "A": "Todos os itens são erros comuns elencados pelo material.",
+      "B": "Apenas II, IV e V.",
+      "C": "Apenas I, III e IV.",
+      "D": "Apenas I e III."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens constam expressamente da lista de erros comuns na seção 10.5: concluir sobre culpa, basear em depoimentos, linguagem vaga, confundir SC com sítio de impacto e apresentar velocidade exata sem incerteza.",
+    "referencia": "Cap. 10, Seção 10.5, p. 66",
+    "nivel": "medio"
+  },
+  {
+    "id": 828,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao final do capítulo de Documentação Pericial, o material adverte sobre a responsabilidade do perito criminal federal na elaboração do laudo. Assinale a alternativa que reproduz CORRETAMENTE essa advertência.",
+    "alternativas": {
+      "A": "O laudo pericial é um documento público de elevada responsabilidade. Conclusões imprecisas, exageradas ou insuficientemente fundamentadas podem resultar em impunidade de infratores ou em condenação injusta de inocentes; a responsabilidade funcional, civil e criminal do perito é real e deve ser exercida com máximo rigor técnico e ético.",
+      "B": "O laudo pericial é documento sigiloso, sem efeito processual, podendo ser desconsiderado por qualquer das partes.",
+      "C": "O laudo possui valor meramente opinativo, ficando o perito isento de qualquer responsabilidade sobre eventuais imprecisões.",
+      "D": "O laudo pericial só pode ser questionado pela autoridade policial requisitante e jamais pelo Ministério Público ou pelo Judiciário."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Caixa de atenção: 'O laudo pericial é um documento público de elevada responsabilidade. Conclusões imprecisas, exageradas ou insuficientemente fundamentadas podem resultar em impunidade de infratores ou em condenação injusta de inocentes. A responsabilidade funcional, civil e criminal do perito é real e deve ser exercida com máximo rigor técnico e ético'.",
+    "referencia": "Cap. 10, Seção 10.5, p. 66",
+    "nivel": "facil"
+  }
+]

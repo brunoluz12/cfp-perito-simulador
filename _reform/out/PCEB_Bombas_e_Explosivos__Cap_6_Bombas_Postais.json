@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1143,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das motivações que, segundo a literatura técnica oficial, mais comumente levam alguém a remeter uma carta-bomba, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os motivos principais resumem-se a disputas comerciais entre empresas concorrentes do mesmo setor econômico e a litígios trabalhistas decorrentes de demissões consideradas injustas pelo agressor.",
+      "B": "Os principais motivos são a vingança, nela incluídos os crimes passionais, as razões políticas ou religiosas e os casos de extorsão.",
+      "C": "As motivações restringem-se exclusivamente a atos de terrorismo internacional patrocinados por organizações ideológicas estrangeiras com atuação transnacional articulada.",
+      "D": "Predominam os conflitos familiares relativos a herança e partilha de bens, somados a desavenças de vizinhança e a rivalidades esportivas entre torcidas organizadas.",
+      "E": "Sobressaem as fraudes financeiras praticadas por instituições bancárias contra correntistas, configurando, na maioria dos casos, retaliação de natureza patrimonial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o texto oficial (p. 45), os principais motivos para o envio de carta-bomba são a vingança (incluindo os crimes passionais), os motivos políticos ou religiosos e os casos de extorsão, o que torna correta a alternativa B. As alternativas A, C, D e E descrevem motivações que não constam como principais no material de referência, sendo, portanto, incorretas.",
+    "referencia": "PDF, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "id": 1144,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito Criminal Federal foi acionado para inspecionar correspondência suspeita em agência dos Correios. Ao examinar o envelope, constatou peso aparentemente excessivo em relação ao volume, espessura superior a 5 mm e pequenas manchas de gordura na superfície externa. Com base nos indicadores técnicos de suspeição de bombas postais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As manchas de gordura ou graxa podem resultar da exsudação de substância explosiva, como dinamite ou explosivo plástico, somando-se aos demais indicadores de suspeição já observados.",
+      "B": "A espessura superior a 5 mm constitui parâmetro normal de correspondências comerciais e malotes administrativos, razão pela qual não deve ser valorada como indicador de suspeição no exame pericial.",
+      "C": "As manchas de gordura decorrem necessariamente de armazenamento inadequado nas dependências dos Correios e não guardam relação com explosivos, devendo ser desprezadas como indicador no laudo.",
+      "D": "Os três indicadores observados somente caracterizam suspeição quando associados, de forma cumulativa, à presença de fio ou arame aparente, sendo isoladamente insuficientes para justificar o isolamento da área.",
+      "E": "O peso excessivo em relação ao volume é indicador exclusivo de objetos soltos no interior do envelope, não se relacionando, em hipótese alguma, à eventual presença de carga explosiva."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto (p. 46) afirma expressamente que as manchas de gordura ou graxa no envelope podem resultar da exsudação da substância explosiva (dinamite ou explosivo plástico), o que torna correta a alternativa A. A espessura superior a 5 mm (p. 45) é indicador típico de cartas-bomba, e o peso excessivo em relação ao volume também consta como indicador (p. 45); logo, B e E estão incorretas. A cumulação obrigatória com fio aparente (D) não é exigida, e as manchas não devem ser desprezadas (C).",
+    "referencia": "PDF, p. 45-46",
+    "nivel": "medio"
+  },
+  {
+    "id": 1145,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a distribuição postal interna em órgão público, funcionário recebe envelope com a inscrição \"Deverá ser aberta exclusivamente por...\", endereçado ao chefe da repartição e entregue por mensageiro fora do canal usual dos Correios. Acerca das medidas preventivas de segurança a serem adotadas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Recomenda-se tentar desarmar a carta-bomba no próprio local, com o emprego de luvas de proteção e ferramentas não condutoras, antes mesmo de acionar a equipe especializada em explosivos.",
+      "B": "A correspondência deve ser imediatamente submersa em recipiente com água, a fim de neutralizar eventual carga explosiva e estabilizar o circuito antes da realização do exame técnico pericial.",
+      "C": "Deve-se evitar o manuseio e a abertura, transportar a correspondência para área remota, abrir as portas e janelas do local, evacuar e isolar a área e jamais tentar desarmá-la.",
+      "D": "O envelope deve ser aberto com cautela, em ambiente fechado e com as janelas vedadas, de modo a impedir a propagação de eventuais gases tóxicos liberados durante a abertura controlada.",
+      "E": "A inscrição \"Deverá ser aberta exclusivamente por...\" descaracteriza a suspeição, pois evidencia correspondência de natureza estritamente pessoal, autorizando a entrega direta ao destinatário."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 6.1 (p. 47), as medidas preventivas incluem não abrir a correspondência suspeita, transportá-la para área remota, abrir as portas e janelas, evacuar e isolar o local e nunca tentar desarmar a carta-bomba, o que torna correta a alternativa C. O texto adverte expressamente que não se deve colocar a correspondência dentro d'água, pois pode provocar a explosão (B incorreta), e veda tentar desarmar (A incorreta). Abrir em ambiente fechado (D) contraria a orientação de abrir portas e janelas. A inscrição \"Deverá ser aberta exclusivamente por...\" é indicador de suspeição (p. 45), e não fator de exclusão (E incorreta).",
+    "referencia": "PDF, p. 45-47",
+    "nivel": "medio"
+  },
+  {
+    "id": 1146,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a triagem de correspondências em órgão público, agente de segurança seleciona um pacote em formato de livro, com peso mal distribuído, pequeno orifício na lateral e leve odor de amêndoas. Considerando a casuística técnica de bombas postais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O odor de amêndoas indica a presença de pólvora negra ou de nitrato de amônio, devendo o agente proceder à inspeção interna manual cuidadosa do pacote para confirmar a natureza do conteúdo.",
+      "B": "Os pacotes em formato de livro são raramente empregados em bombas postais, e o orifício observado apenas indica avaria de transporte, não possuindo qualquer relevância para a análise pericial do artefato.",
+      "C": "A existência do orifício afasta por completo a hipótese de carta-bomba, uma vez que os artefatos explosivos postais são sempre selados hermeticamente para impedir a exsudação e a detecção precoce.",
+      "D": "O odor de amêndoas é compatível com explosivos como C2, C3 e Semtex, e o orifício é relevante por poder ter servido para armar o artefato, configurando indicadores convergentes de suspeição.",
+      "E": "O peso mal distribuído é o único indicador tecnicamente válido entre os descritos, devendo o formato de livro e o odor serem afastados por configurarem características usuais de correspondência legítima."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto (p. 46) descreve o forte odor de amêndoas como característico de C2, C3 e Semtex e afirma que um pequeno orifício no pacote ou envelope deve ser considerado suspeito, porque o artefato poderia ter sido armado através do furo; o formato de livros, agendas e álbuns também é citado como frequente em bombas postais (p. 45-46). Logo, D está correta. A inspeção manual interna (A) é vedada pela regra de não manusear/abrir e de nunca desarmar (p. 47); o formato de livro é frequente (B incorreta); o orifício é indicador de suspeição, e não fator de exclusão (C incorreta); e os três elementos são indicadores válidos (E incorreta).",
+    "referencia": "PDF, p. 45-46",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1147,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos mecanismos de acionamento mais usuais em cartas-bomba e das condutas de manuseio recomendadas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Predominam os mecanismos de temporização eletrônica programada, razão pela qual o pacote deve ser mantido sob refrigeração em geladeira, a fim de retardar a ativação do circuito até a chegada da equipe.",
+      "B": "Predominam os mecanismos de acionamento remoto por radiofrequência, devendo a área ser previamente blindada do ponto de vista eletromagnético antes de qualquer aproximação ao artefato suspeito.",
+      "C": "Os mecanismos mais usuais são os de descompressão e tração, presumindo-se que a bomba não desengatilhará até a abertura, mas o manuseio repetido deve ser evitado, sob risco de deslocar o mecanismo.",
+      "D": "Os mecanismos mais usuais são os de percussão e impacto, recomendando-se o transporte rápido em veículo blindado até a unidade pericial central, o que dispensa a manutenção do artefato em quarentena local.",
+      "E": "Os mecanismos mais usuais combinam sensores de luminosidade e de movimento, de modo que a simples permanência do pacote em ambiente iluminado é suficiente para deflagrar a explosão de forma autônoma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto (p. 46) afirma que os mecanismos de acionamento mais usuais em cartas-bomba são os de descompressão e/ou tração, sendo razoável supor que a bomba postal não desengatilhará até que seja aberta, mas adverte que se deve evitar manuseá-la desnecessariamente, pois o manuseio excessivo pode deslocar o mecanismo e aumentar o risco de explosão; logo, C está correta. As alternativas A, B, D e E descrevem mecanismos (temporização, radiofrequência, percussão, sensores) e procedimentos não previstos no material de referência.",
+    "referencia": "PDF, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 1148,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe da Polícia Federal foi acionada para atender ocorrência envolvendo pacote suspeito recebido na recepção de autoridade pública. Sobre as medidas preventivas e as técnicas de desativação recomendadas para bombas postais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A imersão imediata em recipiente metálico vedado e refrigerado com gelo seco constitui o procedimento padrão para a neutralização dos mecanismos de descompressão e tração das cartas-bomba.",
+      "B": "As técnicas de desativação ativa indicadas são as do chicote, do cartão em V e do canhão d'água, visando o mecanismo de acionamento, os fios e as baterias, podendo o material ser deixado em quarentena.",
+      "C": "Recomenda-se a desmontagem do artefato no próprio local, com a remoção seletiva das baterias e dos fios visíveis mediante o emprego de estetoscópio e de fibroscópio, dispensando-se o uso do canhão d'água.",
+      "D": "A técnica recomendada consiste no aquecimento controlado do envelope com soprador térmico, o que permite a degradação química prévia do composto explosivo antes da abertura segura pela equipe técnica.",
+      "E": "As técnicas de desativação devem visar exclusivamente o invólucro externo do pacote, preservando-se os fios e as baterias do artefato, de modo a manter íntegro o circuito para posterior análise laboratorial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto (p. 46) cita expressamente como técnicas de desativação ativa para bombas postais as do chicote, do cartão em V e o uso do canhão d'água, sempre visando o mecanismo de acionamento, os fios e as baterias do artefato, e menciona que em alguns casos o material suspeito poderá ser deixado em quarentena em área remota cercado de sacos de areia; logo, B está correta. As demais alternativas descrevem procedimentos não previstos e contrariam a regra de nunca tentar desarmar (A, C, D - p. 47) e de não imergir em água (A - p. 47); E inverte o alvo correto das técnicas, que recai justamente sobre fios e baterias (p. 46).",
+    "referencia": "PDF, p. 46-47",
+    "nivel": "dificil"
+  }
+]

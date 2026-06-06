@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1176,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "O modelo de procedimentos operacionais para atendimento a ocorrências de bombas adotado como referência foi elaborado a partir de documento produzido pelos Comandantes de Esquadrão de Bombas. Acerca da filosofia que orienta o planejamento desses procedimentos de neutralização, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A norma principal é que a vida não pode ser substituída, ao passo que os objetos podem ser repostos.",
+      "B": "A norma principal é a manutenção da integridade do artefato, que deve ser conservado intacto para posterior exame pericial detalhado em laboratório.",
+      "C": "A norma principal é a preservação dos vestígios da explosão, sem os quais a investigação de autoria fica irremediavelmente comprometida e o autor jamais é identificado.",
+      "D": "A norma principal é a preservação do patrimônio público, em razão da relevância econômica e social dos bens habitualmente atingidos por essas ocorrências.",
+      "E": "A norma principal é a celeridade na neutralização, ainda que isso implique exposição do técnico, pois o tempo é o fator mais crítico de toda a operação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o item 9.1, a norma principal no planejamento do procedimento de neutralização de bombas é que A VIDA NÃO PODE SER SUBSTITUÍDA, pois os objetos podem ser repostos, mas a vida não (p. 75) - alternativa A. As alternativas C, B e D invertem a hierarquia de prioridades, colocando vestígios, artefato ou patrimônio acima da vida. A alternativa E contraria expressamente a filosofia, pois a celeridade jamais justifica expor a vida, e o capítulo orienta a não executar a neutralização às pressas (p. 79).",
+    "referencia": "PDF, p. 75",
+    "nivel": "facil"
+  },
+  {
+    "id": 1177,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a hierarquia de prioridades estabelecida para os procedimentos de reação a bombas, assinale a alternativa que apresenta corretamente a ordem em que tais prioridades devem ser observadas.",
+    "alternativas": {
+      "A": "Segurança pública das pessoas próximas ao local; segurança do técnico em bombas; proteção do patrimônio; coleta e preservação dos vestígios.",
+      "B": "Segurança do técnico em bombas; segurança pública; proteção e preservação das propriedades pública e privada; coleta e preservação dos vestígios.",
+      "C": "Proteção das propriedades pública e privada; segurança das pessoas próximas; segurança do técnico em bombas; coleta e preservação dos vestígios.",
+      "D": "Coleta e preservação dos vestígios; segurança pública; proteção das propriedades; segurança do técnico em bombas, que atua sempre por último.",
+      "E": "Segurança pública das pessoas próximas; proteção das propriedades; segurança do técnico em bombas; coleta e preservação dos vestígios da explosão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o item 9.2, a hierarquia de prioridades é: segurança do técnico em bombas; segurança pública (pessoas próximas); proteção e preservação das propriedades pública e privada; coleta e preservação dos vestígios (p. 75-76) - alternativa B. A vida do técnico vem em primeiro lugar, pois é por seu conhecimento que serão tomadas as decisões capazes de preservar as demais vidas, além de ser mão de obra especializada e de difícil formação (p. 75). As alternativas A, C, D e E deslocam indevidamente a posição do técnico, das propriedades ou dos vestígios na ordem correta.",
+    "referencia": "PDF, p. 75-76",
+    "nivel": "medio"
+  },
+  {
+    "id": 1178,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante atendimento a ocorrência com suposto artefato explosivo, o técnico em bombas chefe verificou que poderia preservar parte do patrimônio do imóvel atingido, mas isso exigiria expor sua vida e a de seu parceiro a risco adicional. À luz da hierarquia de prioridades do procedimento de reação a bombas, é correto afirmar que",
+    "alternativas": {
+      "A": "o chefe deve preservar o patrimônio mesmo sob risco, em razão do elevado valor econômico envolvido e do interesse público na manutenção dos bens atingidos.",
+      "B": "a preservação do patrimônio equipara-se à segurança pública e deve ser perseguida simultaneamente, ainda que isso imponha algum grau de risco à equipe.",
+      "C": "o chefe deve priorizar a imediata coleta de vestígios, pois a perda de fragmentos prejudica de forma irreversível a futura investigação da autoria do artefato.",
+      "D": "a preservação do patrimônio só pode ser cogitada após garantida a segurança das pessoas, jamais expondo a vida a risco desnecessário.",
+      "E": "o chefe deve dividir a tarefa, preservando o patrimônio enquanto o parceiro garante a segurança das pessoas, de modo que ambas as prioridades sejam atendidas ao mesmo tempo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o item 9.2, somente após garantida a segurança das pessoas próximas ao artefato é que se deve pensar na preservação do patrimônio; em hipótese nenhuma se deve preservar o patrimônio expondo a própria vida ou a de qualquer pessoa a risco desnecessário (p. 75) - alternativa D. As alternativas A, B e E colocam o patrimônio no mesmo nível ou acima da vida, invertendo a hierarquia. A alternativa C antecipa a coleta de vestígios, que é a última prioridade e só cabe quando não há mais risco à vida (p. 76).",
+    "referencia": "PDF, p. 75-76",
+    "nivel": "medio"
+  },
+  {
+    "id": 1179,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acionado para uma ocorrência, o técnico em bombas constatou a falta de determinado equipamento no posto de controle e alegou que outro colega ficara de providenciar o material, razão pela qual não poderia ser responsabilizado. Considerando os procedimentos de reação a bombas previstos no modelo de referência, é correto afirmar que",
+    "alternativas": {
+      "A": "a alegação procede, pois a logística da equipe é descentralizada e cada integrante responde exclusivamente pela tarefa que lhe foi previamente atribuída no plano operacional.",
+      "B": "a alegação procede desde que o técnico exerça a função de chefe, hipótese em que a checagem prévia dos equipamentos passa a ser atribuição do parceiro que o auxilia.",
+      "C": "a alegação não procede, pois a verificação e a manutenção dos equipamentos são responsabilidade do próprio técnico, que deve comprar, improvisar ou pedir colaboração quando faltar material.",
+      "D": "a alegação procede apenas em ocorrências de categoria C, nas quais o risco à vida é considerado mínimo e a ausência de equipamento não compromete a operação.",
+      "E": "a alegação procede, pois a falta de material deve ser imputada à instituição, a quem compete prover os recursos, e não ao técnico que executa o atendimento em campo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 9.3 (Verificar equipamentos), é de responsabilidade do técnico em bombas a verificação dos equipamentos necessários à ocorrência, não se aceitando responsabilizar outra pessoa por não ter deixado o material pronto. Faltando material, deve-se providenciar a compra, improvisar ou pedir colaboração a amigos de outras instituições, em via de mão dupla (p. 76) - alternativa C. As alternativas A, B, D e E transferem indevidamente a responsabilidade para colega, parceiro, categoria do incidente ou instituição.",
+    "referencia": "PDF, p. 76",
+    "nivel": "facil"
+  },
+  {
+    "id": 1180,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o atendimento a uma ameaça de bomba em um shopping center, a equipe de resposta decidiu estabelecer o perímetro de isolamento antes de montar o posto de controle. Acerca das providências corretas nessa fase da sequência de eventos, é correto afirmar que",
+    "alternativas": {
+      "A": "a sugestão é de evacuação de 50 metros de raio com visada direta do epicentro, de modo a permitir o registro fotográfico contínuo do artefato suspeito durante toda a operação.",
+      "B": "a sugestão é de evacuação de 100 metros de raio e sem visada direta do epicentro do suposto artefato, evitando que estilhaços atinjam pessoas caso ele venha a explodir.",
+      "C": "a sugestão é de evacuação de 100 metros de raio apenas quando houver suspeita de explosivo militar de alto poder, mantendo-se 30 metros de raio nas demais ocorrências.",
+      "D": "o perímetro pode ser dispensado nas ocorrências de categoria C, pois nesses incidentes não há qualquer risco real à vida das pessoas que estejam nas proximidades do local.",
+      "E": "a evacuação deve ser feita mantendo-se visada direta do epicentro, para que a equipe acompanhe visualmente o artefato e seja capaz de reagir de imediato a qualquer alteração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o item 9.3 (Estabelecer perímetro), a sugestão é de evacuação de 100 metros de raio e sem visada direta do epicentro de onde está o suposto artefato, para que não haja perigo de um estilhaço atingir alguém caso ele venha a explodir (p. 76-77) - alternativa B. As alternativas A, C e E alteram o raio ou a condição de visada (a regra é justamente NÃO ter visada direta). A alternativa D é falsa, pois o perímetro visa garantir a segurança das vidas e da propriedade independentemente da categoria.",
+    "referencia": "PDF, p. 76-77",
+    "nivel": "medio"
+  },
+  {
+    "id": 1181,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da composição da equipe e do funcionamento do posto de controle em ocorrência envolvendo suposto artefato explosivo, é correto afirmar que",
+    "alternativas": {
+      "A": "os dois integrantes da equipe devem aproximar-se simultaneamente do artefato, a fim de garantir avaliação cruzada em tempo real e conferir maior agilidade às decisões operacionais.",
+      "B": "toda comunicação com o exterior deve ser realizada o mais próximo possível do artefato, o que confere agilidade às decisões e reduz o tempo total de exposição da equipe ao risco.",
+      "C": "a equipe é composta por, no mínimo, dois integrantes, sendo um o chefe; apenas um técnico vai até o artefato por vez, e a comunicação externa é centralizada no posto de controle.",
+      "D": "a comunicação por aparelhos de rádio nas imediações do artefato é recomendada, uma vez que não há risco de acionamento à distância de eventuais dispositivos receptores embarcados.",
+      "E": "o posto de controle deve ser montado fora do perímetro de evacuação e dispensa proteção contra franco-atiradores, pois o alvo do artefato já é conhecido nesse estágio da operação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 9.3 (Montar posto de controle), a equipe é composta por no mínimo dois integrantes, sendo um o chefe; somente um técnico vai até a bomba de cada vez, enquanto o outro permanece em segurança no posto, e toda comunicação externa deve ser feita do posto de controle (p. 77) - alternativa C. As alternativas A e B contrariam essas regras. As alternativas B e D ignoram que aparelhos de comunicação perto do artefato podem acioná-lo (p. 77). A alternativa E erra: o posto fica DENTRO do perímetro e deve ser protegido contra franco-atiradores, pois ainda não se sabe quem é o alvo (p. 77).",
+    "referencia": "PDF, p. 77",
+    "nivel": "medio"
+  },
+  {
+    "id": 1182,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Presidente da República, em recuperação na UTI de um hospital após cirurgia cerebral, tem sob a cama uma maleta com relógio digital em contagem regressiva, ligado por fios e presa à cama por uma corrente. A respeito da categorização do incidente e da conduta inicial do técnico em bombas, é correto afirmar que se trata de incidente de",
+    "alternativas": {
+      "A": "categoria B, pois o local pode ser evacuado e o paciente removido, devendo aguardar-se o tempo de molho de 20 minutos antes de qualquer ação direta sobre o artefato encontrado.",
+      "B": "categoria C, pois há perigo mínimo ao pessoal envolvido, sendo a solução típica o contracarregamento com explosivo após a remoção segura do paciente para outra unidade.",
+      "C": "categoria B, pois a ameaça à vida é indireta, já que a evacuação prévia do local elimina o risco às pessoas, restando apenas a ameaça direta ao patrimônio do hospital.",
+      "D": "categoria A, devendo o técnico aguardar o tempo de molho de 20 minutos antes de qualquer aproximação, de modo a preservar a própria segurança diante do risco direto à vida.",
+      "E": "categoria A, com ameaça imediata e direta à vida, devendo as operações começar imediatamente, buscando-se transformá-lo em categoria B ou C."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Conforme o item 9.4, a categoria A caracteriza-se pela ameaça imediata (direta) à vida, e o exemplo do Presidente na UTI é citado expressamente como categoria A, pois, se o artefato explodir, matará o presidente (p. 79). Nessas situações as operações devem começar imediatamente, sendo a primeira ação tentar transformar a categoria A em B ou C (p. 79) - alternativa E. As alternativas A, B e C erram a categoria. As alternativas A e D atribuem à categoria A o tempo de molho de 20 minutos, que é próprio da categoria B (p. 80).",
+    "referencia": "PDF, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 1183,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em ocorrência de categoria B, após realizar a evacuação completa do local e empregar uma técnica ativa sobre o suposto artefato explosivo, o chefe pretende aproximar-se novamente para verificar o resultado. A respeito do procedimento correto, é correto afirmar que ele deve",
+    "alternativas": {
+      "A": "aguardar o tempo de molho de 20 minutos antes de se aproximar novamente do suposto artefato explosivo.",
+      "B": "aproximar-se imediatamente, pois, na categoria B, o risco residual após o emprego da técnica ativa é considerado nulo, dado que o local já se encontra integralmente evacuado.",
+      "C": "aguardar o tempo de molho de 5 minutos, prazo suficiente para a dissipação dos gases inflamáveis eventualmente liberados pela técnica ativa que foi empregada sobre o artefato.",
+      "D": "aguardar 60 minutos, pois o tempo de molho convencional para qualquer categoria de incidente é de uma hora completa, contada a partir do emprego da técnica ativa.",
+      "E": "aguardar o tempo de molho de 20 minutos somente se a técnica empregada tiver sido remota, dispensando-se a espera quando a atuação sobre o artefato tiver sido manual."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o item 9.4 (Categoria B), quando for usada uma técnica ativa deve-se esperar o tempo de molho de 20 minutos antes de se aproximar novamente do suposto artefato explosivo (p. 80) - alternativa A. As alternativas C e D apresentam tempos incorretos (5 e 60 minutos). A alternativa B nega indevidamente a necessidade de espera. A alternativa E cria condição inexistente no texto: o tempo de molho de 20 minutos decorre do emprego de técnica ativa, não da modalidade remota ou manual.",
+    "referencia": "PDF, p. 80",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1184,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe foi acionada para ocorrência em terreno baldio onde populares encontraram um invólucro suspeito. Após os procedimentos preliminares, constatou-se não haver indicação de grande perigo à vida nem ao patrimônio, tendo sido afastadas as hipóteses de categorias A e B. Acerca da categorização do incidente e da solução típica, é correto afirmar que se trata de",
+    "alternativas": {
+      "A": "categoria A degradada, impondo-se a entrada manual com ferramentas de mão sobre o invólucro, ainda que ausente qualquer risco imediato e direto à vida das pessoas presentes.",
+      "B": "categoria C, cuja solução típica é o contracarregamento com explosivo, considerada somente após eliminadas as hipóteses de categorias A e B.",
+      "C": "categoria B residual, devendo-se aplicar a técnica da corda para deslocar o artefato a um local seguro antes de qualquer outra providência operacional da equipe de resposta.",
+      "D": "categoria C, cuja solução típica é manter o artefato no próprio local por 24 horas, aguardando-se a dissipação espontânea de eventuais cargas químicas instáveis em seu interior.",
+      "E": "categoria C, cuja solução típica é a entrada manual imediata com ferramentas de mão, abrindo-se o pacote da forma usual para acelerar a inspeção interna do conteúdo suspeito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o item 9.4 (Categoria C), a situação representa perigo mínimo ao pessoal e só deve ser considerada após eliminadas as categorias A e B; normalmente, a solução é contracarregar com explosivo (p. 80) - alternativa B. A técnica da corda é própria da categoria B e a entrada manual associa-se às situações extremas da categoria A (p. 79-80), o que afasta A, C e E. A alternativa D inventa procedimento inexistente no texto (manutenção por 24 horas). A alternativa E ainda contraria a regra de que, na entrada manual, não se deve abrir o pacote da forma como seria usualmente aberto (p. 80).",
+    "referencia": "PDF, p. 79-80",
+    "nivel": "dificil"
+  }
+]

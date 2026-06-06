@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1136,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da distinção entre técnicas passivas e ativas de desativação de artefatos explosivos suspeitos, assinale a opção correta.",
+    "alternativas": {
+      "A": "As técnicas passivas, em tese, não provocam alterações físico-químicas no objeto suspeito capazes de acioná-lo, ao passo que as ativas podem provocar tais alterações.",
+      "B": "A auscultação, o exame por raios X e os detectores de metais são classificados como técnicas ativas, pois sua aplicação introduz energia capaz de alterar o estado do dispositivo durante a verificação do conteúdo do pacote suspeito.",
+      "C": "As técnicas ativas são preferíveis em qualquer cenário por não interferirem no circuito de fogo do artefato, o que preserva integralmente todos os vestígios e permite a análise pericial posterior do conjunto montado.",
+      "D": "A entrada manual, a contracarga com explosivo e o disparo com arma de fogo longa integram o rol das técnicas passivas, sendo recomendadas justamente quando há risco elevado de detonação acidental do conjunto.",
+      "E": "O principal objetivo das técnicas ativas é manter o circuito de fogo intacto para posterior remoção do artefato a local seguro, sem qualquer interferência sobre o mecanismo de acionamento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 41, as técnicas passivas em tese não provocam alterações físico-químicas capazes de acionar o artefato (ex.: barreiras, auscultação, raios X, detectores, criogenia), enquanto as ativas podem provocar tais alterações, tendo por objetivo principal interromper o circuito de fogo (ex.: corda, canhão d'água, cargas especiais, contracarga, entrada manual, arma longa). B classifica erroneamente auscultação, raios X e detectores como ativas; C inverte o objetivo das ativas e afirma preferência indistinta; D classifica entrada manual, contracarga e arma longa como passivas; E nega que o objetivo das ativas seja interromper o circuito de fogo.",
+    "referencia": "PDF, p. 41",
+    "nivel": "facil"
+  },
+  {
+    "id": 1137,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante atendimento a ocorrência de artefato explosivo improvisado, o perito decide empregar o disruptor (canhão d'água). Acerca do princípio de funcionamento e da carga do equipamento, assinale a opção correta.",
+    "alternativas": {
+      "A": "O princípio do canhão é a contracarga explosiva, na qual a onda de choque gerada pela água comprimida detona simpaticamente a carga principal do artefato suspeito, garantindo sua neutralização imediata e sem fragmentos.",
+      "B": "O disruptor funciona pela liberação de gases quentes oriundos da queima do propelente, os quais aquecem progressivamente o invólucro do artefato até promover sua deflagração controlada a distância segura do operador.",
+      "C": "Fundamenta-se na força hidrodinâmica, sendo carregado com cerca de 150 ml de água na luz do cano entre buchas plásticas e lançado por cartucho calibre 12.",
+      "D": "A carga típica corresponde a 500 ml de água pressurizada por carga propelente de calibre 16, devendo ser sempre disparada perpendicularmente ao alvo, independentemente do material do invólucro do artefato.",
+      "E": "O equipamento utiliza aproximadamente 150 ml de água alojados na luz do cano, porém lançados por cartucho calibre 16, sendo a coluna d'água insuficiente para destruir o invólucro, que é rompido apenas pelas buchas plásticas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 41-42, o canhão d'água fundamenta-se na força hidrodinâmica e é carregado com cerca de 150 ml de água na luz do cano entre buchas plásticas, lançada por cartucho calibre 12 especialmente carregado; a coluna d'água e as buchas destroem o invólucro e arrastam o conteúdo. A confunde o princípio com contracarga explosiva; B descreve efeito térmico/deflagração, que não é o princípio; D falseia volume, calibre e impõe posicionamento único; E erra o calibre (16) e nega que a coluna d'água destrua o invólucro.",
+    "referencia": "PDF, p. 41-42",
+    "nivel": "medio"
+  },
+  {
+    "id": 1138,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito criminal federal foi acionado para desativar dois artefatos improvisados do tipo bomba-tubo: o primeiro confeccionado em PVC, com tampa em uma das extremidades, e o segundo em tubo de ferro, igualmente capeado. Considerando o emprego do disruptor (canhão d'água) e as recomendações técnicas, assinale a opção correta.",
+    "alternativas": {
+      "A": "Em ambos os casos, o canhão deve ser posicionado perpendicularmente (90°) à tampa, garantindo a máxima força de impacto da coluna d'água sobre o cap e a maior área de varredura possível dos elementos do artefato.",
+      "B": "No tubo de PVC o canhão deve ser posicionado a 45° da tampa, e no tubo de ferro a 15° da tampa.",
+      "C": "No tubo de PVC o canhão deve ser posicionado a 15° da tampa, e no tubo de ferro a 45° da tampa, em razão da maior densidade do material ferroso, que exige incidência mais aberta para vencer sua resistência mecânica.",
+      "D": "O posicionamento independe do material do invólucro, devendo o perito buscar apenas a maior área de varredura, ainda que o artefato possa ser interpretado e que sejam visíveis fios, baterias e o mecanismo de acionamento.",
+      "E": "No tubo de PVC o canhão deve ser posicionado a 15° da tampa e, no tubo de ferro, perpendicularmente (90°), pois a rigidez do ferro impõe impacto direto e frontal sobre o cap para assegurar a ruptura do invólucro metálico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 42, para tubo de PVC o canhão deve ser posicionado a 45° da tampa (cap) e, para tubo de ferro, a 15° da tampa. Ademais, quando o artefato puder ser interpretado, busca-se atingir fios/baterias/mecanismos; quando não, busca-se a maior área de varredura. A propõe 90° indistinto; C inverte os ângulos; D ignora a distinção entre interpretar ou não o artefato; E falseia ambos os ângulos.",
+    "referencia": "PDF, p. 42",
+    "nivel": "medio"
+  },
+  {
+    "id": 1139,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em ocorrência envolvendo artefato improvisado com invólucro rígido (bomba-tubo), o perito opta por uma carga de ataque mais resistente, capaz de não provocar ricochete sobre superfícies rígidas. Acerca dos tipos de carga de ataque empregados no disruptor, assinale a opção correta.",
+    "alternativas": {
+      "A": "A carga de água é a indicada para alvos rígidos como bombas-tubo, pois sua dispersão evita o ricochete e separa com eficiência os elementos do artefato, ficando a carga Avon reservada a envelopes e pacotes de baixa rigidez.",
+      "B": "A carga Avon é composta por pólvora negra granulada e por esferas plásticas leves, sendo recomendada para alvos de baixa rigidez, como envelopes e pacotes, em razão de seu reduzido poder de penetração no invólucro.",
+      "C": "Tanto a carga de água quanto a Avon possuem aplicações idênticas, sendo a escolha entre elas determinada exclusivamente pela disponibilidade do material no local da ocorrência, sem qualquer critério técnico de rigidez do alvo.",
+      "D": "A carga Avon, formada por gesso, esferas ocas metálicas e água, constitui balote rígido e resistente que não provoca ricochete, sendo indicada para alvos mais rígidos como a bomba-tubo.",
+      "E": "A carga de água, por sua elevada densidade, forma balote rígido que não provoca ricochete e é reservada a alvos rígidos, ao passo que a Avon, mais dispersiva, presta-se ao uso geral na maioria dos alvos encontrados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 42, a carga Avon é composta por gesso, esferas ocas metálicas e água, formando balote rígido e resistente que não provoca ricochete, sendo indicada para alvos rígidos (ex.: bomba-tubo); a carga de água tem uso geral, com força hidrodinâmica e dispersão. A inverte o uso (água é de uso geral, não específica para rígidos); B falseia a composição da Avon; C nega a especialização técnica de cada carga; E inverte composições e usos de ambas as cargas.",
+    "referencia": "PDF, p. 42",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1140,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito da PF, sem disponibilidade do canhão d'água, decide desativar artefato explosivo improvisado utilizando garrafa plástica de 2 litros preenchida com água e cordel detonante. Acerca dessa técnica, assinale a opção correta.",
+    "alternativas": {
+      "A": "O cordel deve ser posicionado axialmente em relação à garrafa, de modo que a água seja projetada em jato concentrado e unidirecional contra o artefato, replicando fielmente o princípio de funcionamento do canhão d'água.",
+      "B": "A técnica emprega garrafa de vidro de 2 litros para aumentar a massa projetada sobre o artefato, sendo o cordel NP 40 o normalmente utilizado nos protocolos canadenses adotados como referência para a desativação.",
+      "C": "O cordel detonante, ao ser iniciado, lança a massa de água radialmente sobre o artefato, separando seus componentes; a garrafa plástica minimiza fragmentos capazes de iniciar o explosivo.",
+      "D": "A garrafa plástica funciona como reservatório de água apenas para resfriar a carga propelente, sendo o efeito disruptivo decorrente exclusivamente da onda de choque do cordel detonante incidindo diretamente sobre o artefato.",
+      "E": "O cordel detonante lança a massa de água radialmente, porém a técnica exige garrafa de vidro, pois somente os fragmentos vítreos garantem a separação dos componentes do artefato, ficando a garrafa plástica desaconselhada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 42-43, o cordel detonante, ao ser iniciado, lança a massa de água da garrafa na direção radial sobre o artefato, provocando a separação de seus componentes; o uso de garrafa plástica minimiza a possibilidade de fragmentos iniciarem o explosivo, e a técnica, utilizada no Canadá, emprega normalmente o cordel NP 10. A inverte o sentido de projeção (radial, não axial); B falseia o material (vidro) e o cordel (NP 40); D nega o efeito disruptivo da água projetada; E afirma erroneamente a necessidade de garrafa de vidro.",
+    "referencia": "PDF, p. 42-43",
+    "nivel": "medio"
+  },
+  {
+    "id": 1141,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito é chamado para examinar envelope suspeito recebido em órgão público, possivelmente contendo carta-bomba, e decide proceder à abertura remota com o uso de cordel em cartão no formato \"V\". Acerca dessa técnica, assinale a opção correta.",
+    "alternativas": {
+      "A": "A distância entre o cordel e o envelope é padronizada em 1 metro para todas as situações, independentemente da natureza do envelope e do tipo de cordel utilizado, sendo esse parâmetro fixo o principal fator de segurança da técnica.",
+      "B": "O cordel deve ser posicionado exatamente no centro do envelope, e a abertura é provocada exclusivamente pelo calor liberado na detonação do cordel, dispensando-se qualquer efeito mecânico dos fragmentos do seu revestimento plástico.",
+      "C": "O cordel detonante é introduzido diretamente no interior do envelope, de modo que a expansão dos gases de detonação, a partir do centro do alvo, promova a abertura completa do pacote sem projeção de fragmentos externos.",
+      "D": "A abertura do envelope decorre da onda explosiva e dos fragmentos do revestimento plástico do cordel, que deve ficar próximo à borda; bons resultados têm sido obtidos com o cordel NP 05.",
+      "E": "A abertura decorre apenas da onda explosiva do cordel, que deve ficar próximo à borda do envelope, sem participação dos fragmentos do revestimento plástico, obtendo-se bons resultados com o cordel NP 40 nas experiências de referência."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 43, na abertura com cartão em \"V\" a onda explosiva e os fragmentos do revestimento plástico do cordel é que abrem o envelope; o cordel deve ficar próximo à borda, a distância depende da natureza de ambos e bons resultados têm sido obtidos com o NP 05. A fixa distância-padrão inexistente no texto; B nega o efeito mecânico dos fragmentos e desloca o cordel para o centro; C descreve indevidamente inserção do cordel no envelope; E exclui os fragmentos e falseia o cordel (NP 40).",
+    "referencia": "PDF, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 1142,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em ocorrência envolvendo carta-bomba suspeita, o perito opta pela técnica do chicote para abertura remota e, em seguida, prepara o acionamento de uma carga especial em linha elétrica. Considerando as características operacionais dessas técnicas, assinale a opção correta.",
+    "alternativas": {
+      "A": "Na técnica do chicote, o cordel NP fica tipicamente de 5 a 8 cm do alvo e o fio rígido arremessado pode cortar fios internos do envelope quando ela é aplicada sobre piso rígido ou chapa de aço; no acionamento em linha elétrica, deve-se abrir o início da linha, testar a descontinuidade, curto-circuitar o início (tomada de segurança), testar a continuidade, conectar a espoleta ao final, escorvar a carga e só então conectar o explosor ao início.",
+      "B": "Na técnica do chicote, o cordel deve ficar a no mínimo 30 cm do alvo para evitar danos colaterais; no acionamento em linha elétrica, a espoleta é conectada ao início da linha e o explosor ao final, dispensando-se por completo o teste de continuidade da linha antes do disparo.",
+      "C": "A técnica do chicote é equivalente à do cartão em \"V\", pois ambas dependem exclusivamente dos fragmentos do revestimento plástico do cordel; no acionamento em linha elétrica, basta conectar o explosor e acionar de imediato, sem necessidade de mensagem de alerta de linha quente.",
+      "D": "No acionamento em linha elétrica, a sequência correta consiste em conectar o explosor ao início da linha, conectar a espoleta ao final, escorvar a carga e somente então testar a continuidade da linha, dispensando-se a tomada de segurança por curto-circuito do início.",
+      "E": "Na técnica do chicote, o fio rígido é apenas decorativo e não atua na abertura do envelope; no acionamento em linha elétrica, a tomada de segurança consiste em curto-circuitar o final da linha após escorvar a carga e conectar o explosor, antes de dar o alerta de linha quente ao restante da equipe."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 44, na técnica do chicote o cordel NP fica a 5-8 cm do alvo e o fio rígido (chicote) pode cortar fios internos do envelope quando a técnica é aplicada sobre piso rígido ou chapa de aço. A sequência para cargas em linha elétrica é: abrir o início da linha; testar a descontinuidade; curto-circuitar o início (tomada de segurança); testar a continuidade; conectar a espoleta ao final; escorvar; conectar o explosor ao início; alerta de linha quente; acionar. B falseia a distância e omite o teste de continuidade; C nega a especificidade do chicote (fio rígido) e suprime o alerta; D inverte a sequência crítica e suprime a tomada de segurança; E nega a função do fio rígido e desloca o curto-circuito para o final da linha.",
+    "referencia": "PDF, p. 44",
+    "nivel": "dificil"
+  }
+]

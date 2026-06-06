@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teste de Pfister</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f3f2f7;
+    --surface: #ffffff;
+    --surface2: #ededf5;
+    --border: rgba(0,0,0,0.07);
+    --text: #1a1825;
+    --muted: #7a788a;
+    --accent: #7c5fe6;
+    --accent2: #e05fa0;
+    --radius: 14px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 40px 20px 80px;
+    background-image: radial-gradient(ellipse at 20% 0%, rgba(124,95,230,0.07) 0%, transparent 50%),
+                      radial-gradient(ellipse at 80% 100%, rgba(224,95,160,0.05) 0%, transparent 50%);
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+    animation: fadeDown 0.6s ease both;
+  }
+
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1a1825 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  header p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-top: 8px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+
+  #step-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    animation: fadeDown 0.6s ease 0.1s both;
+  }
+
+  .step-dot {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--muted);
+    transition: all 0.3s ease;
+  }
+
+  .step-dot.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 0 16px rgba(124,95,230,0.3);
+  }
+
+  .step-dot.done {
+    background: rgba(124,95,230,0.12);
+    border-color: rgba(124,95,230,0.3);
+    color: var(--accent);
+  }
+
+  .step-line {
+    height: 1px;
+    width: 40px;
+    background: var(--border);
+  }
+
+  #step-label {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+  }
+
+  /* PALETTE */
+  #palette-section {
+    max-width: 720px;
+    margin: 0 auto 36px; /* overridden by #main-layout */
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    animation: fadeUp 0.6s ease 0.2s both;
+  }
+
+  #palette-section h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--muted);
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;
+  }
+
+  #palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .color-swatch {
+    width: 44px; height: 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: relative;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    flex-shrink: 0;
+  }
+
+  .color-swatch:hover {
+    transform: translateY(-3px) scale(1.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  }
+
+  .color-swatch.selected {
+    border-color: #fff;
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.2), 0 8px 20px rgba(0,0,0,0.5);
+  }
+
+  .color-swatch .swatch-label {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 9px;
+    font-weight: 600;
+    color: var(--muted);
+    white-space: nowrap;
+    letter-spacing: 0.3px;
+    pointer-events: none;
+  }
+
+  .swatch-wrapper {
+    position: relative;
+    margin-bottom: 22px;
+  }
+
+  /* SELECTED COLOR DISPLAY */
+  #selected-display {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+
+  #selected-preview {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+
+  #selected-name {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-weight: 400;
+  }
+
+  /* PYRAMID */
+  #pyramid-section {
+    max-width: 100%;
+    margin: 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 32px;
+    animation: fadeUp 0.6s ease 0.3s both;
+  }
+
+  #pyramid-section h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--muted);
+    margin-bottom: 28px;
+    letter-spacing: 0.3px;
+  }
+
+  #pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .row {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+  }
+
+  .cell {
+    width: 52px; height: 52px;
+    border-radius: 10px;
+    background: var(--surface2);
+    border: 1.5px solid var(--border);
+    cursor: pointer;
+    transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+  }
+
+  .cell:hover {
+    transform: scale(1.08);
+    border-color: rgba(124,95,230,0.4);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  }
+
+  .cell.filled {
+    border-color: transparent;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+
+  /* BUTTON */
+  #btn-avancar {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 48px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #0f0f13;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+    animation: fadeUp 0.6s ease 0.4s both;
+  }
+
+  #btn-avancar:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(124,95,230,0.3);
+  }
+
+  #btn-avancar:active { transform: scale(0.97); }
+
+  /* RESULTS */
+  #result {
+    max-width: 900px;
+    margin: 48px auto 0;
+    animation: fadeUp 0.7s ease both;
+  }
+
+  #result h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  .disclaimer {
+    background: rgba(124,95,230,0.06);
+    border: 1px solid rgba(124,95,230,0.15);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 0.82rem;
+    color: var(--muted);
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+
+  /* MINI PYRAMIDS */
+  .result-container {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .result-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    text-align: center;
+  }
+
+  .result-block h4 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+
+  .mini-pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .mini-pyramid .row { gap: 4px; }
+
+  .mini-pyramid .cell {
+    width: 34px; height: 34px;
+    border-radius: 7px;
+    cursor: default;
+  }
+
+  .mini-pyramid .cell:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  /* TABLE */
+  .table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 32px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  thead tr {
+    background: var(--surface2);
+  }
+
+  th {
+    padding: 14px 18px;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+  }
+
+  td {
+    padding: 12px 18px;
+    font-size: 0.875rem;
+    color: var(--text);
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  tr:hover td { background: rgba(0,0,0,0.015); }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 12px;
+    border-radius: 100px;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+
+  .badge-up { background: rgba(255,100,100,0.12); color: #ff8080; }
+  .badge-down { background: rgba(100,150,255,0.12); color: #80aaff; }
+  .badge-normal { background: rgba(100,220,100,0.1); color: #80dd80; }
+
+  /* FINDINGS */
+  .findings-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 24px;
+  }
+
+  .findings-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .finding-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    font-size: 0.875rem;
+  }
+
+  .finding-item:last-child { border-bottom: none; }
+
+  .finding-label {
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+    min-width: 130px;
+    font-size: 0.8rem;
+    padding-top: 2px;
+  }
+
+  .finding-desc {
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .finding-desc.not-found {
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  /* SUMMARY */
+  .summary-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 24px;
+  }
+
+  .summary-section h3 { margin-bottom: 20px; }
+
+  .summary-item {
+    margin-bottom: 20px;
+  }
+
+  .summary-item strong {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 6px;
+  }
+
+  .summary-item p {
+    font-size: 0.875rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  /* ANIMATIONS */
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pop {
+    0% { transform: scale(0.85); }
+    60% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  .cell.pop { animation: pop 0.2s ease; }
+
+  /* LAYOUT LADO A LADO */
+  #main-layout {
+    display: flex;
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto 36px;
+    align-items: flex-start;
+  }
+
+  #main-layout #palette-section {
+    flex: 0 0 300px;
+    margin: 0;
+    max-width: 300px;
+  }
+
+  #pyramid-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #pyramid-side #pyramid-section {
+    margin: 0;
+  }
+
+  #pyramid-side #btn-avancar {
+    align-self: center;
+  }
+
+  @media (max-width: 700px) {
+    #main-layout {
+      flex-direction: column;
+    }
+    #main-layout #palette-section {
+      flex: none;
+      max-width: 100%;
+    }
+  }
+
+  /* FÓRMULA CROMÁTICA */
+  .fc-wrapper { margin-bottom: 24px; }
+  .fc-title {
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+  .fc-table {
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    background: var(--surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    font-size: 0.82rem;
+  }
+  .fc-th {
+    padding: 10px 18px;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--surface2);
+    border-bottom: 2px solid var(--border);
+    border-right: 1px solid var(--border);
+  }
+  .fc-th:last-child { border-right: none; }
+  .fc-th.fc-ca { color: #2a7a2a; }
+  .fc-th.fc-cr { color: #7c5fe6; }
+  .fc-th.fc-v  { color: #c08010; }
+  .fc-th.fc-aus{ color: #b04040; }
+  .fc-td {
+    padding: 8px 18px;
+    text-align: center;
+    font-size: 0.82rem;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    vertical-align: top;
+  }
+  .fc-td:last-child { border-right: none; }
+  .fc-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 9px;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 2px 3px;
+    white-space: nowrap;
+  }
+  .fc-chip-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.18);
+    flex-shrink: 0;
+  }
+  .fc-chip-ca  { background: rgba(42,122,42,0.10);  color: #2a7a2a; }
+  .fc-chip-cr  { background: rgba(124,95,230,0.10); color: #5a3fb0; }
+  .fc-chip-v   { background: rgba(192,128,16,0.10); color: #8a5c00; }
+  .fc-chip-aus { background: rgba(176,64,64,0.10);  color: #b04040; }
+  .fc-total-row td {
+    font-weight: 700;
+    font-size: 0.8rem;
+    background: rgba(0,0,0,0.025);
+    padding: 9px 18px;
+    border-top: 2px solid var(--border);
+    color: var(--muted);
+    text-align: center;
+    border-right: 1px solid var(--border);
+  }
+  .fc-total-row td:last-child { border-right: none; }
+
+  /* VARIAÇÃO CROMÁTICA / MATIZES */
+  .fc-var-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+  .fc-var-row .fc-wrapper { flex: 1; min-width: 260px; margin-bottom: 0; }
+  .var-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    font-size: 0.82rem;
+  }
+  .var-th {
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--surface2);
+    border-bottom: 2px solid var(--border);
+    border-right: 1px solid var(--border);
+  }
+  .var-th:last-child { border-right: none; }
+  .var-th-p { width: 40px; }
+  .var-td {
+    padding: 12px 16px;
+    text-align: center;
+    font-size: 0.85rem;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    color: var(--text);
+  }
+  .var-td:last-child { border-right: none; }
+  .var-td-p {
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    background: var(--surface2);
+  }
+  .var-td-num {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--accent);
+  }
+  tr:last-child .var-td { border-bottom: none; }
+
+  /* TABELA DE TONALIDADES */
+  .ton-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    font-size: 0.78rem;
+    min-width: 700px;
+  }
+  .ton-th {
+    padding: 8px 6px;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: var(--muted);
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  .ton-th-label {
+    text-align: left;
+    padding-left: 14px;
+    min-width: 90px;
+    font-size: 0.75rem;
+  }
+  .ton-th-fam {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .ton-th-num {
+    color: var(--text);
+    font-weight: 700;
+    min-width: 28px;
+    font-size: 0.75rem;
+  }
+  .ton-th-sigma {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-left: 1px dashed rgba(124,95,230,0.25);
+    min-width: 38px;
+  }
+  .ton-td {
+    padding: 8px 6px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text);
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    font-weight: 500;
+  }
+  .ton-td-label {
+    text-align: left;
+    padding-left: 14px;
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .ton-td-sigma {
+    color: var(--accent);
+    font-weight: 700;
+    border-left: 1px dashed rgba(124,95,230,0.25);
+  }
+  .ton-td-border-left { border-left: 2px solid rgba(0,0,0,0.08); }
+  .ton-td-total { background: rgba(124,95,230,0.04); font-weight: 700; }
+  .ton-td-total.ton-td-label { color: var(--accent); }
+  .ton-td-pct { background: rgba(124,95,230,0.07); font-weight: 700; font-size: 0.78rem; }
+  .ton-td-pct.ton-td-label { color: var(--muted); font-size: 0.7rem; }
+  .ton-td-pct.ton-td-sigma { color: var(--accent); }
+
+  /* DIVIDER */
+  .section-divider {
+    height: 1px;
+    background: var(--border);
+    max-width: 900px;
+    margin: 40px auto;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Teste de Pfister</h1>
+  <p>Aplicação das Pirâmides de Cores</p>
+</header>
+
+<div id="step-indicator">
+  <div class="step-dot active" id="dot-1">1</div>
+  <div class="step-line"></div>
+  <div class="step-dot" id="dot-2">2</div>
+  <div class="step-line"></div>
+  <div class="step-dot" id="dot-3">3</div>
+</div>
+
+<p id="step-label">Pirâmide 1 de 3</p>
+
+<div id="main-layout">
+  <div id="palette-section">
+    <h2>Paleta de Cores</h2>
+    <div id="palette"></div>
+    <div id="selected-display">
+      <div id="selected-preview"></div>
+      <span id="selected-name">Nenhuma cor selecionada</span>
+    </div>
+  </div>
+
+  <div id="pyramid-side">
+    <div id="pyramid-section">
+      <h2>Monte a Pirâmide</h2>
+      <div id="pyramid"></div>
+    </div>
+    <button id="btn-avancar" onclick="finalizar()">Avançar →</button>
+  </div>
+</div>
+
+<div id="result"></div>
+
+<script>
+var colors = [
+  { code:'AZ1',hex:'#A5E6FA'},{ code:'AZ2',hex:'#399799'},{ code:'AZ3',hex:'#3C869F'},{ code:'AZ4',hex:'#2A2965'},
+  { code:'VM1',hex:'#FD7E89'},{ code:'VM2',hex:'#C92F27'},{ code:'VM3',hex:'#9F2115'},{ code:'VM4',hex:'#7C2923'},
+  { code:'VD1',hex:'#D4E50A'},{ code:'VD2',hex:'#92DB1C'},{ code:'VD3',hex:'#107F22'},{ code:'VD4',hex:'#2A3E23'},
+  { code:'VI1',hex:'#ABA2D7'},{ code:'VI2',hex:'#742F4B'},{ code:'VI3',hex:'#62466E'},
+  { code:'LA1',hex:'#FE7628'},{ code:'LA2',hex:'#FF4524'},
+  { code:'AM1',hex:'#FFFD07'},{ code:'AM2',hex:'#FDB719'},
+  { code:'MA1',hex:'#7C3F2C'},{ code:'MA2',hex:'#563224'},
+  { code:'PR',hex:'#1D1F1C'},{ code:'BR',hex:'#FEFEFE'},{ code:'CI',hex:'#7E8E8E'}
+];
+
+var normas = {
+  AZ:{p25:11.1,p75:22.2},
+  VM:{p25:8.9,p75:20},
+  VD:{p25:8.9,p75:17.8},
+  VI:{p25:6.7,p75:17.8},
+  LA:{p25:4.4,p75:11.1},
+  AM:{p25:4.4,p75:13.3},
+  MA:{p25:0,p75:6.7},
+  PR:{p25:0,p75:8.9},
+  BR:{p25:2.2,p75:8.9},
+  CI:{p25:0,p75:6.7}
+};
+
+var selectedColor = null;
+var etapa = 1;
+var resultados = [];
+
+var palette = document.getElementById('palette');
+
+// PALETA
+for (var i = 0; i < colors.length; i++) {
+  var c = colors[i];
+  var wrapper = document.createElement('div');
+  wrapper.className = 'swatch-wrapper';
+
+  var div = document.createElement('div');
+  div.className = 'color-swatch';
+  div.style.background = c.hex;
+  if (c.hex === '#FEFEFE' || c.hex === '#FFFD07') {
+    div.style.border = '2px solid rgba(255,255,255,0.2)';
+  }
+
+  var label = document.createElement('span');
+  label.className = 'swatch-label';
+  label.innerText = c.code;
+  div.appendChild(label);
+
+  div.onclick = (function(cor, el) {
+    return function() {
+      var all = document.querySelectorAll('.color-swatch');
+      for (var k = 0; k < all.length; k++) all[k].classList.remove('selected');
+      el.classList.add('selected');
+      selectedColor = cor;
+      document.getElementById('selected-preview').style.background = cor.hex;
+      document.getElementById('selected-name').innerText = cor.code + ' — ' + cor.hex;
+    };
+  })(c, div);
+
+  wrapper.appendChild(div);
+  palette.appendChild(wrapper);
+}
+
+function updateStepIndicator() {
+  for (var i = 1; i <= 3; i++) {
+    var dot = document.getElementById('dot-' + i);
+    dot.classList.remove('active', 'done');
+    if (i < etapa) dot.classList.add('done');
+    else if (i === etapa) dot.classList.add('active');
+  }
+}
+
+function criarPiramide() {
+  var pyramid = document.getElementById('pyramid');
+  pyramid.innerHTML = '';
+  for (var i = 1; i <= 5; i++) {
+    var row = document.createElement('div');
+    row.className = 'row';
+    for (var j = 0; j < i; j++) {
+      var cell = document.createElement('div');
+      cell.className = 'cell';
+      cell.onclick = function() {
+        if (selectedColor) {
+          this.style.background = selectedColor.hex;
+          this.dataset.code = selectedColor.code;
+          this.classList.add('filled', 'pop');
+          var self = this;
+          setTimeout(function() { self.classList.remove('pop'); }, 200);
+        }
+      };
+      row.appendChild(cell);
+    }
+    pyramid.appendChild(row);
+  }
+}
+
+criarPiramide();
+
+function finalizar() {
+  var cells = document.querySelectorAll('.cell');
+  var faltando = 0;
+  for (var i = 0; i < cells.length; i++) {
+    if (!cells[i].dataset.code) faltando++;
+  }
+
+  if (faltando > 0) {
+    alert('Faltam ' + faltando + ' quadrado(s) a preencher.');
+    return;
+  }
+
+  var dados = [];
+  for (var i = 0; i < cells.length; i++) {
+    dados.push({ code: cells[i].dataset.code, color: cells[i].style.background });
+  }
+  resultados.push(dados);
+
+  if (etapa < 3) {
+    etapa++;
+    document.getElementById('step-label').innerText = 'Pirâmide ' + etapa + ' de 3';
+    updateStepIndicator();
+    criarPiramide();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    return;
+  }
+
+  document.getElementById('step-label').innerText = 'Análise Concluída';
+  document.getElementById('dot-3').classList.remove('active');
+  document.getElementById('dot-3').classList.add('done');
+  mostrarResultadoFinal();
+}
+
+function mostrarResultadoFinal() {
+  document.getElementById('main-layout').style.display = 'none';
+  document.getElementById('step-indicator').style.display = 'none';
+  document.getElementById('step-label').style.display = 'none';
+
+  var div = document.getElementById('result');
+  div.innerHTML = '';
+
+  // Header
+  var h = document.createElement('h3');
+  h.innerText = 'Resultados';
+  div.appendChild(h);
+
+  var disc = document.createElement('div');
+  disc.className = 'disclaimer';
+  disc.innerText = '⚠ Atenção: Esta é uma análise simulada e superficial. Não dispensa a conferência dos registros e demais complexidades do teste, que só podem ser detectadas em ambiente assistido por profissional qualificado.';
+  div.appendChild(disc);
+
+  // MINI PYRAMIDS
+  var totalFamilias = {};
+  var container = document.createElement('div');
+  container.className = 'result-container';
+
+  for (var p = 0; p < resultados.length; p++) {
+    var dados = resultados[p];
+    var bloco = document.createElement('div');
+    bloco.className = 'result-block';
+
+    var titulo = document.createElement('h4');
+    titulo.innerText = 'Pirâmide ' + (p + 1);
+    bloco.appendChild(titulo);
+
+    var mini = document.createElement('div');
+    mini.className = 'mini-pyramid';
+
+    var index = 0;
+    for (var i = 1; i <= 5; i++) {
+      var row = document.createElement('div');
+      row.className = 'row';
+      for (var j = 0; j < i; j++) {
+        var cell = document.createElement('div');
+        cell.className = 'cell filled';
+        cell.style.background = dados[index].color;
+
+        var fam = dados[index].code.replace(/[0-9]/g, '').substring(0, 2);
+        if (dados[index].code === 'PR') fam = 'PR';
+        else if (dados[index].code === 'BR') fam = 'BR';
+        else if (dados[index].code === 'CI') fam = 'CI';
+        totalFamilias[fam] = (totalFamilias[fam] || 0) + 1;
+
+        row.appendChild(cell);
+        index++;
+      }
+      mini.appendChild(row);
+    }
+
+    bloco.appendChild(mini);
+    container.appendChild(bloco);
+  }
+
+  div.appendChild(container);
+
+  // ── TABELA DE TONALIDADES ──────────────────────────────────────────────────
+  var estrutura = [
+    { fam:'AZ', label:'azul',     tons:['AZ4','AZ3','AZ2','AZ1'], hex:'#3C869F' },
+    { fam:'VM', label:'vermelho', tons:['VM4','VM3','VM2','VM1'], hex:'#C92F27' },
+    { fam:'VD', label:'verde',    tons:['VD4','VD3','VD2','VD1'], hex:'#107F22' },
+    { fam:'VI', label:'violeta',  tons:['VI3','VI2','VI1'],       hex:'#62466E' },
+    { fam:'LA', label:'laranja',  tons:['LA2','LA1'],             hex:'#FE7628' },
+    { fam:'AM', label:'amarelo',  tons:['AM2','AM1'],             hex:'#FDB719' },
+    { fam:'MA', label:'marrom',   tons:['MA2','MA1'],             hex:'#7C3F2C' },
+    { fam:'PR', label:'pr',       tons:['PR'],                    hex:'#1D1F1C', single:true },
+    { fam:'BR', label:'br',       tons:['BR'],                    hex:'#c0c0c0', single:true },
+    { fam:'CI', label:'ci',       tons:['CI'],                    hex:'#7E8E8E', single:true }
+  ];
+
+  var contPorPiramide = [];
+  for (var p = 0; p < resultados.length; p++) {
+    var cnt = {};
+    for (var k = 0; k < resultados[p].length; k++) {
+      var cod = resultados[p][k].code;
+      cnt[cod] = (cnt[cod] || 0) + 1;
+    }
+    contPorPiramide.push(cnt);
+  }
+
+  var tonWrapper = document.createElement('div');
+  tonWrapper.className = 'table-wrapper';
+  tonWrapper.style.marginBottom = '24px';
+
+  var tonTitle = document.createElement('div');
+  tonTitle.style.cssText = 'font-family:"DM Serif Display",serif;font-size:1.3rem;font-weight:400;color:var(--text);margin-bottom:12px;';
+  tonTitle.innerText = 'Registro por Tonalidade';
+  tonWrapper.appendChild(tonTitle);
+
+  var tonTabela = document.createElement('table');
+  tonTabela.className = 'ton-table';
+
+  var thead = document.createElement('thead');
+
+  // Linha 1: "cor" (rowspan 2) + família (colspan = tons + Σ)
+  var tr1 = document.createElement('tr');
+  var thCor = document.createElement('th');
+  thCor.rowSpan = 2;
+  thCor.className = 'ton-th ton-th-label';
+  thCor.innerText = 'cor';
+  tr1.appendChild(thCor);
+
+  for (var fi = 0; fi < estrutura.length; fi++) {
+    var fdef = estrutura[fi];
+    var thFam = document.createElement('th');
+    thFam.colSpan = fdef.tons.length + 1;
+    thFam.className = 'ton-th ton-th-fam';
+    thFam.style.borderLeft = '2px solid rgba(0,0,0,0.12)';
+    var dot = '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:' + fdef.hex + ';margin-right:5px;border:1px solid rgba(0,0,0,0.18);vertical-align:middle;"></span>';
+    thFam.innerHTML = dot + fdef.label;
+    tr1.appendChild(thFam);
+  }
+  thead.appendChild(tr1);
+
+  // Linha 2: "tonalidade" + números dos tons + Σ
+  var tr2 = document.createElement('tr');
+  var thTon = document.createElement('th');
+  thTon.className = 'ton-th ton-th-label';
+  thTon.innerText = 'tonalidade';
+  // já foi feito com rowspan; não adicionar de novo
+
+  for (var fi = 0; fi < estrutura.length; fi++) {
+    var fdef = estrutura[fi];
+    for (var ti = 0; ti < fdef.tons.length; ti++) {
+      var tonNum = fdef.tons[ti].replace(/[A-Za-z]/g, '');
+      var thT = document.createElement('th');
+      thT.className = 'ton-th ton-th-num';
+      if (ti === 0) thT.style.borderLeft = '2px solid rgba(0,0,0,0.12)';
+      thT.innerText = fdef.single ? '*' : tonNum;
+      tr2.appendChild(thT);
+    }
+    var thSigma = document.createElement('th');
+    thSigma.className = 'ton-th ton-th-sigma';
+    thSigma.innerText = 'Σ';
+    tr2.appendChild(thSigma);
+  }
+  thead.appendChild(tr2);
+  tonTabela.appendChild(thead);
+
+  var tbody2 = document.createElement('tbody');
+  var rowLabels = ['I','II','III'];
+  var totalCodigo = {};
+
+  for (var p = 0; p < resultados.length; p++) {
+    var tr = document.createElement('tr');
+    var tdLbl = document.createElement('td');
+    tdLbl.className = 'ton-td ton-td-label';
+    tdLbl.innerText = rowLabels[p];
+    tr.appendChild(tdLbl);
+
+    for (var fi = 0; fi < estrutura.length; fi++) {
+      var fdef = estrutura[fi];
+      var somaFam = 0;
+      for (var ti = 0; ti < fdef.tons.length; ti++) {
+        var cod = fdef.tons[ti];
+        var val = contPorPiramide[p][cod] || 0;
+        somaFam += val;
+        totalCodigo[cod] = (totalCodigo[cod] || 0) + val;
+        var td = document.createElement('td');
+        td.className = 'ton-td' + (ti === 0 ? ' ton-td-border-left' : '');
+        td.innerText = val > 0 ? val : '';
+        tr.appendChild(td);
+      }
+      var tdSigma = document.createElement('td');
+      tdSigma.className = 'ton-td ton-td-sigma';
+      tdSigma.innerText = somaFam > 0 ? somaFam : '';
+      tr.appendChild(tdSigma);
+    }
+    tbody2.appendChild(tr);
+  }
+
+  // Linha total
+  var trTotal = document.createElement('tr');
+  var tdTotalLbl = document.createElement('td');
+  tdTotalLbl.className = 'ton-td ton-td-label ton-td-total';
+  tdTotalLbl.innerText = 'total';
+  trTotal.appendChild(tdTotalLbl);
+  var totalPorFam = {};
+
+  for (var fi = 0; fi < estrutura.length; fi++) {
+    var fdef = estrutura[fi];
+    var somaFam = 0;
+    for (var ti = 0; ti < fdef.tons.length; ti++) {
+      var cod = fdef.tons[ti];
+      var val = totalCodigo[cod] || 0;
+      somaFam += val;
+      var td = document.createElement('td');
+      td.className = 'ton-td ton-td-total' + (ti === 0 ? ' ton-td-border-left' : '');
+      td.innerText = val > 0 ? val : '';
+      trTotal.appendChild(td);
+    }
+    totalPorFam[fdef.fam] = somaFam;
+    var tdSigma = document.createElement('td');
+    tdSigma.className = 'ton-td ton-td-sigma ton-td-total';
+    tdSigma.innerText = somaFam > 0 ? somaFam : '';
+    trTotal.appendChild(tdSigma);
+  }
+  tbody2.appendChild(trTotal);
+
+  // Linha porcentagem (só no Σ de cada família)
+  var trPct = document.createElement('tr');
+  var tdPctLbl = document.createElement('td');
+  tdPctLbl.className = 'ton-td ton-td-label ton-td-pct';
+  tdPctLbl.innerText = 'porcentagem';
+  trPct.appendChild(tdPctLbl);
+
+  for (var fi = 0; fi < estrutura.length; fi++) {
+    var fdef = estrutura[fi];
+    var soma = totalPorFam[fdef.fam] || 0;
+    var pct = ((soma / 45) * 100).toFixed(1) + '%';
+    for (var ti = 0; ti < fdef.tons.length; ti++) {
+      var td = document.createElement('td');
+      td.className = 'ton-td ton-td-pct' + (ti === 0 ? ' ton-td-border-left' : '');
+      td.innerText = '';
+      trPct.appendChild(td);
+    }
+    var tdSigma = document.createElement('td');
+    tdSigma.className = 'ton-td ton-td-sigma ton-td-pct';
+    tdSigma.innerText = pct;
+    trPct.appendChild(tdSigma);
+  }
+  tbody2.appendChild(trPct);
+
+  tonTabela.appendChild(tbody2);
+  tonWrapper.appendChild(tonTabela);
+  div.appendChild(tonWrapper);
+  // ── FIM TABELA DE TONALIDADES ──────────────────────────────────────────────
+
+  // ── FÓRMULA CROMÁTICA ────────────────────────────────────────────────────
+  // Definição das famílias com label e hex para chips
+  var fcFamilias = [
+    { fam:'AZ', label:'Azul',     hex:'#3C869F' },
+    { fam:'VM', label:'Vermelho', hex:'#C92F27' },
+    { fam:'VD', label:'Verde',    hex:'#107F22' },
+    { fam:'VI', label:'Violeta',  hex:'#62466E' },
+    { fam:'LA', label:'Laranja',  hex:'#FE7628' },
+    { fam:'AM', label:'Amarelo',  hex:'#FDB719' },
+    { fam:'MA', label:'Marrom',   hex:'#7C3F2C' },
+    { fam:'PR', label:'Preto',    hex:'#1D1F1C' },
+    { fam:'BR', label:'Branco',   hex:'#aaaaaa' },
+    { fam:'CI', label:'Cinza',    hex:'#7E8E8E' }
+  ];
+
+  // Mapeamento de código → família
+  function getFam(code) {
+    if (code === 'PR') return 'PR';
+    if (code === 'BR') return 'BR';
+    if (code === 'CI') return 'CI';
+    return code.replace(/[0-9]/g, '').substring(0, 2).toUpperCase();
+  }
+
+  // Contar em quantas pirâmides cada família apareceu (0-3)
+  var famPresenca = {}; // { AZ: 2, VM: 3, ... }
+  for (var p = 0; p < resultados.length; p++) {
+    var famsNaPiramide = {};
+    for (var k = 0; k < resultados[p].length; k++) {
+      var fk = getFam(resultados[p][k].code);
+      famsNaPiramide[fk] = true;
+    }
+    for (var fk in famsNaPiramide) {
+      famPresenca[fk] = (famPresenca[fk] || 0) + 1;
+    }
+  }
+
+  // Classificar cada família
+  var fcCA = [], fcCR = [], fcV = [], fcAUS = [];
+  for (var fi = 0; fi < fcFamilias.length; fi++) {
+    var fdef = fcFamilias[fi];
+    var n = famPresenca[fdef.fam] || 0;
+    if (n === 3)      fcCA.push(fdef);
+    else if (n === 2) fcCR.push(fdef);
+    else if (n === 1) fcV.push(fdef);
+    else              fcAUS.push(fdef);
+  }
+
+  // Renderização
+  var fcWrapper = document.createElement('div');
+  fcWrapper.className = 'fc-wrapper table-wrapper';
+
+  var fcTitle = document.createElement('div');
+  fcTitle.className = 'fc-title';
+  fcTitle.innerText = 'Fórmula Cromática';
+  fcWrapper.appendChild(fcTitle);
+
+  var fcTabela = document.createElement('table');
+  fcTabela.className = 'fc-table';
+
+  // Cabeçalho
+  fcTabela.innerHTML = '<thead><tr>' +
+    '<th class="fc-th fc-ca">ca</th>' +
+    '<th class="fc-th fc-cr">cr</th>' +
+    '<th class="fc-th fc-v">v</th>' +
+    '<th class="fc-th fc-aus">aus</th>' +
+    '</tr></thead>';
+
+  var fcBody = document.createElement('tbody');
+
+  // Linha de chips
+  var fcTr = document.createElement('tr');
+  var cols = [
+    { list: fcCA,  cls: 'fc-chip-ca' },
+    { list: fcCR,  cls: 'fc-chip-cr' },
+    { list: fcV,   cls: 'fc-chip-v'  },
+    { list: fcAUS, cls: 'fc-chip-aus'}
+  ];
+
+  for (var ci = 0; ci < cols.length; ci++) {
+    var td = document.createElement('td');
+    td.className = 'fc-td';
+    td.style.minHeight = '60px';
+    if (cols[ci].list.length === 0) {
+      td.innerHTML = '<span style="color:var(--muted);font-size:0.75rem;font-style:italic;">—</span>';
+    } else {
+      var html = '';
+      for (var li = 0; li < cols[ci].list.length; li++) {
+        var item = cols[ci].list[li];
+        html += '<span class="fc-chip ' + cols[ci].cls + '">' +
+          '<span class="fc-chip-dot" style="background:' + item.hex + ';"></span>' +
+          item.label + '</span>';
+      }
+      td.innerHTML = html;
+    }
+    fcTr.appendChild(td);
+  }
+  fcBody.appendChild(fcTr);
+
+  // Linha de totais
+  var fcTrTotal = document.createElement('tr');
+  fcTrTotal.className = 'fc-total-row';
+  var totals = [fcCA.length, fcCR.length, fcV.length, fcAUS.length];
+  var totalLabels = ['ca', 'cr', 'v', 'aus'];
+  for (var ci = 0; ci < totals.length; ci++) {
+    var td = document.createElement('td');
+    td.innerHTML = totals[ci] > 0
+      ? '<strong>' + totals[ci] + '</strong> ' + (totals[ci] === 1 ? 'cor' : 'cores')
+      : '<span style="color:var(--muted)">0</span>';
+    fcTrTotal.appendChild(td);
+  }
+  fcBody.appendChild(fcTrTotal);
+
+  fcTabela.appendChild(fcBody);
+  fcWrapper.appendChild(fcTabela);
+  div.appendChild(fcWrapper);
+  // ── FIM FÓRMULA CROMÁTICA ─────────────────────────────────────────────────
+
+  // ── VARIAÇÃO CROMÁTICA E DE MATIZES ───────────────────────────────────────
+  var varWrapper = document.createElement('div');
+  varWrapper.className = 'table-wrapper';
+  varWrapper.style.marginBottom = '24px';
+
+  var varTitle = document.createElement('div');
+  varTitle.className = 'fc-title';
+  varTitle.innerText = 'Variação Cromática e de Matizes';
+  varWrapper.appendChild(varTitle);
+
+  var varTabela = document.createElement('table');
+  varTabela.className = 'var-table';
+  varTabela.innerHTML = '<thead><tr>' +
+    '<th class="var-th var-th-p">P</th>' +
+    '<th class="var-th">variação cromática</th>' +
+    '<th class="var-th">variação de matizes</th>' +
+    '</tr></thead>';
+
+  var varBody = document.createElement('tbody');
+  var rowNomes = ['I','II','III'];
+
+  for (var p = 0; p < resultados.length; p++) {
+    // Variação cromática: famílias distintas
+    var famsDistintas = {};
+    // Variação de matizes: códigos distintos
+    var matizesDistintos = {};
+
+    for (var k = 0; k < resultados[p].length; k++) {
+      var cod = resultados[p][k].code;
+      var fk = getFam(cod);
+      famsDistintas[fk] = true;
+      matizesDistintos[cod] = true;
+    }
+
+    var nCromatica = Object.keys(famsDistintas).length;
+    var nMatizes   = Object.keys(matizesDistintos).length;
+
+    var tr = document.createElement('tr');
+    tr.innerHTML =
+      '<td class="var-td var-td-p">' + rowNomes[p] + '</td>' +
+      '<td class="var-td var-td-num">' + nCromatica + '</td>' +
+      '<td class="var-td var-td-num">' + nMatizes   + '</td>';
+    varBody.appendChild(tr);
+  }
+
+  varTabela.appendChild(varBody);
+  varWrapper.appendChild(varTabela);
+
+  // Envolver Fórmula Cromática e Variação em linha flex
+  var fcVarRow = document.createElement('div');
+  fcVarRow.className = 'fc-var-row';
+  // Remover fcWrapper do div e colocar na linha
+  div.removeChild(fcWrapper);
+  fcVarRow.appendChild(fcWrapper);
+  fcVarRow.appendChild(varWrapper);
+  div.appendChild(fcVarRow);
+  // ── FIM VARIAÇÃO ───────────────────────────────────────────────────────────
+
+  // TABLE
+  var tableWrapper = document.createElement('div');
+  tableWrapper.className = 'table-wrapper';
+
+  var tabela = document.createElement('table');
+  tabela.innerHTML = '<thead><tr><th>Família</th><th>P25</th><th>P75</th><th>Qtd</th><th>Frequência (%)</th><th>Análise</th></tr></thead><tbody></tbody>';
+  var tbody = tabela.querySelector('tbody');
+
+  for (var fam in normas) {
+    var qtd = totalFamilias[fam] || 0;
+    var p25 = normas[fam].p25;
+    var p75 = normas[fam].p75;
+    var freq = (qtd / 45) * 100;
+    var freqFormatada = freq.toFixed(2) + '%';
+
+    var analise, badgeClass;
+    if (freq < p25) { analise = '↓ Abaixo'; badgeClass = 'badge-down'; }
+    else if (freq > p75) { analise = '↑ Acima'; badgeClass = 'badge-up'; }
+    else { analise = '✓ Dentro'; badgeClass = 'badge-normal'; }
+
+    var tr = document.createElement('tr');
+    tr.innerHTML = '<td>' + fam + '</td><td>' + p25 + '</td><td>' + p75 + '</td><td>' + qtd + '</td><td>' + freqFormatada + '</td><td><span class="badge ' + badgeClass + '">' + analise + '</span></td>';
+    tbody.appendChild(tr);
+  }
+
+  tableWrapper.appendChild(tabela);
+  div.appendChild(tableWrapper);
+
+  // FINDINGS
+  function status(fam, tipo) {
+    var qtd = totalFamilias[fam] || 0;
+    var p25 = normas[fam].p25;
+    var p75 = normas[fam].p75;
+    var freq = (qtd / 45) * 100;
+    if (tipo === 'up') return freq > p75;
+    if (tipo === 'down') return freq < p25;
+    return false;
+  }
+
+  var regras = [
+    {txt:'Az↑ e Pr↑', desc:'Possível rigidez, pessimismo, negatividade e falta de energia.', cond: status('AZ','up') && status('PR','up')},
+    {txt:'Az↑ e Am↑', desc:'Possível sinal de imaturidade.', cond: status('AZ','up') && status('AM','up')},
+    {txt:'Az↑ e Ci↑', desc:'Possível fechamento em si, indisposição para contatos interpessoais.', cond: status('AZ','up') && status('CI','up')},
+    {txt:'Vm↑ e Vi↑', desc:'Possível excitação e impulsividade.', cond: status('VM','up') && status('VI','up')},
+    {txt:'Vm↑ e Ma↑', desc:'Possível impulsividade e descargas abruptas.', cond: status('VM','up') && status('MA','up')},
+    {txt:'Vm↑ e Br↑', desc:'Comum em casos de epilepsia e quadros psicóticos.', cond: status('VM','up') && status('BR','up')},
+    {txt:'Vm↑ e Vd↑', desc:'Encontrado em psicopatas.', cond: status('VM','up') && status('VD','up')},
+    {txt:'Vd↑ e Vi↑', desc:'Possível comprometimento no equilíbrio emocional.', cond: status('VD','up') && status('VI','up')},
+    {txt:'Vd↑, Vm↑, La↑ e Am↑', desc:'Comum em casos de desintoxicação por consumo de drogas.', cond: status('VD','up') && status('VM','up') && status('LA','up') && status('AM','up')},
+    {txt:'Vd↑ e La↑', desc:'Comum em indivíduos com fantasias sexuais, ansiedade e problemas com álcool.', cond: status('VD','up') && status('LA','up')},
+    {txt:'Vd↓ e Az↑', desc:'Tendência a relacionamentos profundos e autênticos.', cond: status('VD','down') && status('AZ','up')},
+    {txt:'Vd↓ e Vm↑', desc:'Possível irritabilidade e impulsividade.', cond: status('VD','down') && status('VM','up')},
+    {txt:'La↓ e Vi↓', desc:'Possível baixa produtividade e dispersividade.', cond: status('LA','down') && status('VI','down')},
+    {txt:'Ma↑ e Br↑', desc:'Possível produtividade inconstante.', cond: status('MA','up') && status('BR','up')},
+    {txt:'Ma↑ e Pr↑', desc:'Possível dificuldade de adaptação.', cond: status('MA','up') && status('PR','up')},
+    {txt:'Vm↑ e Pr↑', desc:'Possível conflitos acentuados e insatisfação.', cond: status('VM','up') && status('PR','up')},
+    {txt:'Pr↑ e Ci↑', desc:'Comum em pessoas dissimuladas, causadoras de intrigas e mentiras.', cond: status('PR','up') && status('CI','up')},
+    {txt:'Ci↑ e Vm↑', desc:'Associada a pessoas irritáveis com tendência a criar confusão ao entorno.', cond: status('CI','up') && status('VM','up')}
+  ];
+
+  var achados = document.createElement('div');
+  achados.className = 'findings-section';
+  achados.innerHTML = '<h3>Achados Clínicos</h3>';
+
+  for (var i = 0; i < regras.length; i++) {
+    var item = document.createElement('div');
+    item.className = 'finding-item';
+    item.innerHTML = '<div class="finding-label">' + regras[i].txt + '</div>' +
+      '<div class="finding-desc' + (regras[i].cond ? '' : ' not-found') + '">' +
+      (regras[i].cond ? regras[i].desc : 'Não detectado') + '</div>';
+    achados.appendChild(item);
+  }
+
+  div.appendChild(achados);
+
+  // SINDROMES
+  function somaComPresenca(lista) {
+    var total = 0;
+    for (var i = 0; i < lista.length; i++) {
+      var qtd = totalFamilias[lista[i]] || 0;
+      if (qtd === 0) return false;
+      total += qtd;
+    }
+    return total >= 23;
+  }
+ function sindromeNormal(lista) {
+ 	console.log('... síndrome normal');
+    var total = 0;
+    for (var i = 0; i < lista.length; i++) {
+      var qtd = totalFamilias[lista[i]] || 0;
+      if (qtd === 0) return false;
+	  
+	  var calculoValor = (qtd / 45) * 100;	  
+	  console.log(lista[i]);
+	  console.log(calculoValor);
+	  
+	  total += calculoValor;
+    }
+	console.log('total síndrome normal');
+	console.log(total);
+
+    return total >= 40 && total <= 56; // espera-se dar esse valor para detectar
+  }
+  
+  function sindromeEstimulante(lista) {
+ 	console.log('... síndrome estimulante');
+    var total = 0;
+    for (var i = 0; i < lista.length; i++) {
+      var qtd = totalFamilias[lista[i]] || 0;
+      if (qtd === 0) return false;
+	  
+	  var calculoValor = (qtd / 45) * 100;	  
+	  console.log(lista[i]);
+	  console.log(calculoValor);
+	  
+	  total += calculoValor;
+    }
+	console.log('total estimulante');
+	console.log(total);
+	
+	if (total >= 27 && total <= 40) // normal
+	{
+		return false;
+	}
+
+    return true;
+  }
+  
+  function sindromeFria(lista) {
+ 	console.log('... síndrome fria');
+    var total = 0;
+    for (var i = 0; i < lista.length; i++) {
+      var qtd = totalFamilias[lista[i]] || 0;
+      if (qtd === 0) return false;
+	  
+	  var calculoValor = (qtd / 45) * 100;	  
+	  console.log(lista[i]);
+	  console.log(calculoValor);
+	  
+	  total += calculoValor;
+    }
+	console.log('total fria');
+	console.log(total);
+
+	if (total >= 38 && total <= 53) // normal
+	{
+		return false;
+	}
+
+    return true;
+  }
+    
+  function sindromeIncolor(lista) {
+ 	console.log('... síndrome sindromeIncolor');
+    var total = 0;
+    for (var i = 0; i < lista.length; i++) {
+      var qtd = totalFamilias[lista[i]] || 0;
+      if (qtd === 0) return false;
+	  
+	  var calculoValor = (qtd / 45) * 100;	  
+	  console.log(lista[i]);
+	  console.log(calculoValor);
+	  
+	  total += calculoValor;
+    }
+	console.log('total sindromeIncolor');
+	console.log(total);
+	
+	if (total >= 6.7 && total <= 22) // normal
+	{
+		return false;
+	}
+
+    return true;
+  }
+  
+  function getStatus(fam, tipo) {
+    var qtd = totalFamilias[fam] || 0;
+    var p25 = normas[fam].p25;
+    var p75 = normas[fam].p75;
+    if (tipo === 'up') return qtd > p75;
+    if (tipo === 'down') return qtd < p25;
+    return false;
+  }
+
+  var sindromes = [
+    {txt:'Síndrome da Normalidade (Az + Vm + Vd)', desc:'Síndrome esperada em indíviduos normais.', cond: sindromeNormal(['AZ','VM','VD'])},
+    {txt:'Síndrome do Estímulo (Vm + Am + La)', desc:'Comum em pessoas sob efeitos de drogas estimulantes.', cond: sindromeEstimulante(['VM','AM','LA'])},
+    {txt:'Síndrome Fria (Az + Vd + Vi)', desc:'Comum em quadros mais patológicos com características esquizoides.', cond: sindromeFria(['AZ','VD','VI'])},
+    {txt:'Síndrome Incolor (Pr + Br + Ci)', desc:'Indica fuga de situações afetivas ou estimulantes. Equilíbrio frágil.', cond: sindromeIncolor(['PR','BR','CI'])},
+    {txt:'Síndrome de Dinamismo (Vd↑ + Am↑ + Ma↑)', desc:'Pessoa dinâmica e realizadora, perseverante e obstinada.', cond: getStatus('VD','up') && getStatus('AM','up') && getStatus('MA','up')},
+    {txt:'Síndrome de Excitação Afetiva (La↑ + Vd↑ + Vi↑)', desc:'Comum em egocêntricos e ansiosos.', cond: getStatus('LA','up') && getStatus('VD','up') && getStatus('VI','up')},
+    {txt:'Síndrome de Labilidade Afetiva (Vd↑ + Vm↑ + Ma↓)', desc:'Comum em pessoas impulsivas e instáveis.', cond: getStatus('VD','up') && getStatus('VM','up') && getStatus('MA','down')},
+    {txt:'Síndrome de Histeria (Vd↑ + Vm↑ + Vi↑)', desc:'Comum em pessoas violentas.', cond: getStatus('VD','up') && getStatus('VM','up') && getStatus('VI','up')},
+    {txt:'Síndrome de Conflito Interno (Br↑ + Vm↑ + Ci↑)', desc:'Comum em pessoas com irritabilidade e impulsividade.', cond: getStatus('BR','up') && getStatus('VM','up') && getStatus('CI','up')},
+    {txt:'Síndrome de Agitação (La↑ + Vi↑ + Ma↑ + Br)', desc:'Comum em pessoas com reações de agitação e tumulto.', cond: getStatus('LA','up') && getStatus('VI','up') && getStatus('MA','up') && (totalFamilias['BR']||0)>0},
+    {txt:'Síndrome de Regulação Opressora (Az↑ + Ci↑ + Pr↑)', desc:'Comum em pessoas opressoras.', cond: getStatus('AZ','up') && getStatus('CI','up') && getStatus('PR','up')}
+  ];
+
+  var sindromeDiv = document.createElement('div');
+  sindromeDiv.className = 'findings-section';
+  sindromeDiv.innerHTML = '<h3>Síndromes</h3>';
+
+  for (var i = 0; i < sindromes.length; i++) {
+    var item = document.createElement('div');
+    item.className = 'finding-item';
+    item.innerHTML = '<div class="finding-label">' + sindromes[i].txt.split('(')[0].trim() + '</div>' +
+      '<div class="finding-desc' + (sindromes[i].cond ? '' : ' not-found') + '">' +
+      (sindromes[i].cond ? sindromes[i].desc : 'Não detectado') + '</div>';
+    sindromeDiv.appendChild(item);
+  }
+
+  div.appendChild(sindromeDiv);
+
+  // RESUMO
+  var summaryData = [
+    { label: 'Matização', text: 'Uso marcante de diversos tons de uma cor em escala degradê: pode indicar timidez ou ansiedade.' },
+    { label: 'Divisão', text: 'Tons claros em uma extremidade e tons mais escuros na outra, dividindo a pirâmide: representa tensões e conflitos, sendo forte indício patológico de dissociação.' },
+    { label: 'Corte / Mutilação', text: 'Uso do branco ou tons esbranquiçados em uma camada inteira ou no topo: assinala esquizofrenia.' },
+    { label: 'Verde', text: 'Vd↑ precisa de um regulador (Ex.: AZ3 ou AZ4) para equilibrar. Positivo desde que predomine Vd2 ou Vd3 (padrão).' },
+    { label: 'Azul', text: 'Não basta estar na média — a tonalidade importa. A soma de AZ3 + AZ4 deve ser superior a AZ1 + AZ2. Caso predomine AZ1 ou AZ2 junto com cores quentes, indica possível descontrole.' },
+    { label: 'Vermelho', text: 'VM2 é o padrão.' },
+    { label: 'Amarelo', text: 'Não possui diferenciação nos tons, mas deve estar dentro da média.' },
+    { label: 'Laranja', text: 'Pouco estudo clínico do aumento; rebaixamento pode revelar passividade. Busca-se a média.' },
+    { label: 'Marrom', text: 'Aumento excessivo pode indicar transtornos, neurose obsessivo-compulsiva, alcoolismo etc.' },
+    { label: 'Violeta', text: 'É o mais complexo. Vi1↑ pode indicar medo ou indefeso. Vi2↑ criatividade ou insatisfação. Vi3 é o padrão, mas seu aumento também pode indicar quadro obsessivo-compulsivo.' },
+    { label: 'Preto', text: 'Apenas secundariamente significa angústia e depressão. Dentro da média indica estabilidade reguladora e adaptação.' },
+    { label: 'Branco', text: 'Seu aumento acompanhado de outras tonalidades claras indica presença de perturbações graves.' },
+    { label: 'Cinza', text: 'Retraimento defensivo, carência afetiva e insegurança.' }
+  ];
+
+  var summaryDiv = document.createElement('div');
+  summaryDiv.className = 'summary-section';
+  summaryDiv.innerHTML = '<h3>Resumo e Observações</h3><div class="disclaimer" style="margin-bottom:20px">⚠ Outros fatores estruturais e cromáticos devem ser analisados presencialmente pelo profissional.</div>';
+
+  for (var i = 0; i < summaryData.length; i++) {
+    var item = document.createElement('div');
+    item.className = 'summary-item';
+    item.innerHTML = '<strong>' + summaryData[i].label + '</strong><p>' + summaryData[i].text + '</p>';
+    summaryDiv.appendChild(item);
+  }
+
+  div.appendChild(summaryDiv);
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>

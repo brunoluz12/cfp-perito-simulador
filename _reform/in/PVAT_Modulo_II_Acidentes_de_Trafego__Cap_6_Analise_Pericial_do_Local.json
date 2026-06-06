@@ -1,0 +1,342 @@
+[
+  {
+    "id": 777,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao chegar a um local de acidente em rodovia federal de pista simples, a equipe pericial constata fluxo intenso de veículos, baixa visibilidade pela poeira levantada e necessidade de trabalhar com a viatura próxima aos vestígios. Considerando as medidas obrigatórias de preservação e segurança no local descritas no PVAT - Módulo II, assinale a alternativa que apresenta a conduta CORRETA quanto ao posicionamento da viatura com sinais luminosos para alertar os condutores que se aproximam.",
+    "alternativas": {
+      "A": "Posicionar a viatura a, no mínimo, 50 m do local, mesmo em rodovias, pois o limite mínimo aplica-se indistintamente a qualquer via.",
+      "B": "Posicionar a viatura logo após o sítio de colisão, no sentido contrário ao fluxo, para servir de barreira física aos veículos.",
+      "C": "Posicionar a viatura a, no mínimo, 150 m em rodovias e 50 m em vias urbanas, quando possível, com sinais luminosos ativados.",
+      "D": "Dispensar o posicionamento avançado da viatura caso haja agentes de trânsito no local, bastando a colocação de cones a 20 m."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto determina: 'Posicionar a viatura com sinais luminosos ativados a uma distância suficiente para alertar os condutores que se aproximam (mínimo 150 m em rodovias, 50 m em vias urbanas, quando possível)'.",
+    "referencia": "Cap. 6, Seção 6.2, p. 42",
+    "nivel": "facil"
+  },
+  {
+    "id": 778,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a metodologia de abordagem do local de uma ocorrência de tráfego, conforme exposto no PVAT - Módulo II, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "A metodologia adotada deve ser sistemática, abrangente e documentada, pois é impossível retornar ao local tal como estava no momento do acidente.",
+      "B": "A análise pericial do local é etapa acessória, pois a maior parte dos vestígios materiais é obtida posteriormente pelos exames laboratoriais.",
+      "C": "O fluxograma de trabalho no local deve ser aplicado de forma rígida e idêntica em todas as ocorrências, independentemente de suas particularidades.",
+      "D": "A análise pericial do local é o cerne do trabalho do delegado de polícia, ao qual compete coordenar as atividades técnicas do perito criminal federal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma que 'A metodologia adotada deve ser sistemática, abrangente e documentada, pois é impossível retornar ao local tal como estava no momento do acidente'. Além disso, o fluxograma 'deve ser adaptado às particularidades de cada ocorrência'.",
+    "referencia": "Cap. 6, Seção 6.1, p. 41",
+    "nivel": "facil"
+  },
+  {
+    "id": 779,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir, relativos às medidas obrigatórias de preservação e segurança no local de acidentes de tráfego conforme o PVAT - Módulo II:\n\nI. Utilizar equipamentos de proteção individual, como coletes refletivos e calçados de segurança, é medida obrigatória.\nII. É admitido trabalhar de costas para o fluxo de tráfego, desde que a equipe utilize coletes refletivos.\nIII. Deve-se designar um membro da equipe para a função exclusiva de sentinela de segurança.\nIV. A preservação do local é absoluta e prevalece sobre os imperativos de socorro às vítimas.\nV. O art. 176, inciso III, do CTB impõe ao condutor envolvido o dever de preservar o local.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "I, III e V.",
+      "C": "II, III e V.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma que se deve 'Nunca trabalhar de costas para o fluxo de tráfego' (II falso) e que a preservação ocorre 'dentro dos limites impostos pela segurança e pelos imperativos de socorro às vítimas' (IV falso). I, III e V correspondem literalmente ao texto.",
+    "referencia": "Cap. 6, Seção 6.2, p. 42",
+    "nivel": "medio"
+  },
+  {
+    "id": 780,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia realizada em rodovia rural, o perito constata que o segmento onde ocorreu o acidente apresenta curva à direita com inclinação transversal pronunciada da pista, pavimento em concreto, leve declive longitudinal e largura reduzida das faixas. Conforme o PVAT - Módulo II, ao analisar a topografia e características geométricas da via, o termo técnico que designa a 'inclinação transversal da pista (especialmente em curvas)' é:",
+    "alternativas": {
+      "A": "Superelevação.",
+      "B": "Traçado planimétrico.",
+      "C": "Perfil altimétrico.",
+      "D": "Seção transversal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto define expressamente: 'Superelevação: inclinação transversal da pista (especialmente em curvas)'. O perfil altimétrico refere-se a aclive/declive e o traçado planimétrico a reto/curvo/misto.",
+    "referencia": "Cap. 6, Seção 6.3.1, p. 42",
+    "nivel": "facil"
+  },
+  {
+    "id": 781,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial sobre colisão ocorrida em cruzamento sinalizado por semáforos, o perito precisa registrar a sinalização presente na área do acidente. Considerando as orientações do PVAT - Módulo II sobre a análise da sinalização, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A sinalização horizontal (faixas e setas direcionais) é dispensável no registro pericial, pois apenas a vertical influi na dinâmica do acidente.",
+      "B": "A ausência de sinalização em local onde seria obrigatória não constitui dado pericial relevante, pois trata-se de matéria administrativa.",
+      "C": "Devem ser registradas apenas as sinalizações regulamentadoras e de advertência, ficando excluídas as de indicação.",
+      "D": "Em relação a semáforos, deve-se verificar existência, funcionamento e programação, incluindo o ciclo e o tempo de amarelo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto lista expressamente: 'Semáforos: existência, funcionamento e programação (ciclo, tempo de amarelo)'. Toda a sinalização (regulamentadora, advertência e indicação) deve ser registrada, inclusive a 'Ausência de sinalização em local onde seria obrigatória'.",
+    "referencia": "Cap. 6, Seção 6.3.2, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 782,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em acidente envolvendo veículo evasor (fuga do local), o perito federal localiza posteriormente um automóvel suspeito em pátio policial. Quanto à identificação veicular, o PVAT - Módulo II afirma que o elemento MAIS SEGURO de identificação individual do veículo é:",
+    "alternativas": {
+      "A": "A placa de identificação, registrada tanto na frente quanto na traseira do veículo.",
+      "B": "O número do motor, conferido com os bancos de dados do DETRAN.",
+      "C": "O NIV/VIN (Número de Identificação Veicular), localizado no painel, na porta e em outros pontos.",
+      "D": "A cor de fábrica do veículo, comparada com eventuais repinturas detectadas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto descreve o NIV/VIN como 'localizado no painel, na porta e em outros pontos de identificação; é o elemento mais seguro de identificação individual do veículo'.",
+    "referencia": "Cap. 6, Seção 6.4.1, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 783,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise de avarias em veículos envolvidos em acidente de tráfego, o PVAT - Módulo II apresenta critérios sistemáticos que permitem extrair informações periciais. Julgue os itens a seguir:\n\nI. O critério 'Localização' revela as áreas de atuação das forças entre os veículos ou entre o veículo e o objeto fixo, sobretudo onde houve o maior impacto.\nII. O critério 'Intensidade' (leve, moderada, severa) permite a estimativa da velocidade de danos (Vd), com uso de metodologias como CRASH3.\nIII. O critério 'Correspondência' refere-se à compatibilidade entre as avarias de dois veículos que colidiram, confirmando que aqueles veículos colidiram entre si.\nIV. O critério 'Recentidade' avalia presença ou ausência de ferrugem, oxidação e poeira nas bordas das avarias, distinguindo se a avaria é do acidente em questão ou pré-existente.\nV. O critério 'Tipo' inclui amassamento, dilaceramento, empenamento, arrancamento, estampamento, sanfonamento, mossa e quebramento.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, III e V.",
+      "B": "Apenas II, IV e V.",
+      "C": "Apenas I, II, III e IV.",
+      "D": "I, II, III, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todos os itens correspondem literalmente à Tabela 10 do PVAT - Módulo II, que descreve os critérios de Localização, Tipo, Intensidade, Orientação, Correspondência e Recentidade na análise das avarias.",
+    "referencia": "Cap. 6, Seção 6.4.2, Tabela 10, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 784,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a Tabela 11 do PVAT - Módulo II, sobre sugestão de legendas para a localização de danos em veículos, considere uma avaria situada na parte ou porção mediana da lateral esquerda do automóvel. A legenda correta para essa localização, segundo a nomenclatura padronizada apresentada, é:",
+    "alternativas": {
+      "A": "LDM.",
+      "B": "LEM.",
+      "C": "PAM.",
+      "D": "AAE."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a Tabela 11: 'LEM - Parte ou porção mediana da lateral esquerda'. LDM seria mediana da lateral direita, PAM mediana anterior e AAE ângulo anterior esquerdo.",
+    "referencia": "Cap. 6, Seção 6.4.2, Tabela 11, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 785,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise dos sistemas de segurança e condições mecânicas dos veículos, descrita no PVAT - Módulo II, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Em caminhões e ônibus, o tacógrafo/registrador de dados pode ser lido para reconstituição de velocidade e tempo.",
+      "B": "O estado dos sistemas ativos de segurança somente pode atenuar a gravidade das lesões, jamais sendo causa do acidente.",
+      "C": "O teste estático simples do pedal de freio é vedado pelo manual pericial, devendo a análise ocorrer apenas com bancada laboratorial.",
+      "D": "A análise de pneus deve restringir-se à banda de rodagem, sendo dispensáveis a calibragem e o desgaste irregular."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'Tacógrafo/registrador de dados: leitura para reconstituição de velocidade e tempo (em caminhões e ônibus)'. O sistema pode ser 'tanto causa do acidente (falha mecânica) quanto atenuante'. Quanto aos freios, o texto admite 'um teste estático simples'.",
+    "referencia": "Cap. 6, Seção 6.4.3, p. 45",
+    "nivel": "medio"
+  },
+  {
+    "id": 786,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de acidente ocorrido em pista de asfalto seco, o perito identifica marcas escuras, largas, com sulcos longitudinais do perfil do pneu impressos em sua textura, retilíneas, e com escurecimento progressivo da extremidade inicial para a final. Conforme o PVAT - Módulo II, essas marcas são compatíveis com:",
+    "alternativas": {
+      "A": "Marcas de derrapagem (yaw marks), provocadas pelo deslocamento lateral dos pneus em rotação.",
+      "B": "Marcas de uso do sistema ABS, intermitentes e seccionadas.",
+      "C": "Marcas de frenagem (skid marks), produzidas pelo travamento total dos pneus.",
+      "D": "Sulcagens produzidas pelo atrito de partes rígidas do veículo com o asfalto."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto descreve as Skid Marks: 'Em asfalto seco, as marcas são escuras, largas e correspondem à dimensão da banda de rodagem', 'Apresentam os sulcos longitudinais do perfil do pneu', 'São retilíneas e regulares quando não há força lateral atuando' e 'Escurecimento progressivo da extremidade inicial para a final'.",
+    "referencia": "Cap. 6, Seção 6.5.3.1, p. 46",
+    "nivel": "facil"
+  },
+  {
+    "id": 787,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em saída de pista em curva, o perito localiza marcas pneumáticas com largura irregular, diferente da dimensão da banda de rodagem, sem os sulcos longitudinais do perfil do pneu e com traçado nitidamente curvo. Com base no PVAT - Módulo II, é CORRETO afirmar que tais marcas:",
+    "alternativas": {
+      "A": "São marcas de frenagem (skid marks), produzidas pelo travamento total dos pneus.",
+      "B": "São marcas de derrapagem (yaw marks), produzidas pelo deslocamento lateral dos pneus enquanto ainda estão em rotação, podendo indicar a trajetória do veículo pós-impacto.",
+      "C": "São marcas de uso do sistema ABS, intermitentes e seccionadas, de menor calibre que as marcas convencionais.",
+      "D": "São sulcagens produzidas por partes rígidas do veículo, com coeficiente de atrito metal sobre asfalto de μ ≈ 0,40."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto descreve as Yaw Marks como 'Produzidas pelo deslocamento lateral dos pneus enquanto ainda estão em rotação', com 'Largura irregular, diferente da dimensão da banda de rodagem', 'Ausência dos sulcos longitudinais do perfil do pneu', 'Traçado frequentemente curvo' e que 'Podem indicar a trajetória do veículo pós-impacto'.",
+    "referencia": "Cap. 6, Seção 6.5.3.2, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 788,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as marcas de uso do sistema ABS (Anti-lock Braking System) descritas no PVAT - Módulo II, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "São marcas contínuas e de maior calibre que as marcas convencionais, escuras e com sulcos longitudinais bem definidos.",
+      "B": "A presença de marcas ABS significa que o condutor não freou, pois o sistema impede o registro de qualquer marca pneumática.",
+      "C": "São visíveis exclusivamente em pista seca, porque o sistema ABS deixa de operar em pista molhada.",
+      "D": "São intermitentes ou seccionadas, normalmente esbranquiçadas ou acinzentadas, de menor calibre, e o seu comprimento é uma subestimação da distância real de frenagem, não podendo ser utilizado diretamente nas fórmulas de velocidade sem correção."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto descreve as marcas ABS como 'Intermitentes ou seccionadas', 'esbranquiçadas ou acinzentadas, menos escuras', 'De menor calibre' e 'Presentes mesmo em pista molhada'. A nota de atenção informa: 'O comprimento das marcas ABS é uma subestimação da distância real de frenagem e não pode ser utilizado diretamente nas fórmulas de velocidade sem correção'.",
+    "referencia": "Cap. 6, Seção 6.5.3.3, p. 47",
+    "nivel": "dificil"
+  },
+  {
+    "id": 789,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em colisão frontal ocorrida em rodovia, o perito encontra grande quantidade de fragmentos de para-brisas (vidro laminado com fragmentos de fita longa), lascas de plástico de grade frontal, terra que estava aderida sob para-lamas e manchas de fluido no asfalto. Conforme o PVAT - Módulo II, qual a importância pericial desse conjunto de fragmentos?",
+    "alternativas": {
+      "A": "Servem apenas como indicativo de gravidade do acidente, sem relação com a localização do sítio de colisão, pois fragmentos podem ser arremessados a distâncias imprevisíveis.",
+      "B": "Os fragmentos de vidro temperado (cúbicos) provêm sempre do para-brisas, enquanto os fragmentos em fita longa provêm dos vidros laterais e traseiros.",
+      "C": "Devem ser desconsiderados em colisões frontais, pois nesse tipo de impacto os fragmentos se distribuem aleatoriamente em todo o cenário.",
+      "D": "São vestígios de extremo valor para a determinação do sítio de colisão, pois tendem a se depositar próximos ao ponto de impacto por terem massa pequena e velocidade de projeção comparativamente baixa; a sobreposição de fragmentos de dois veículos em uma mesma área é forte indicação do sítio de colisão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'Os fragmentos desprendidos no momento da colisão são vestígios de extremo valor para a determinação do sítio de colisão, pois tendem a se depositar próximos ao ponto de impacto por terem massa pequena e velocidade de projeção comparativamente baixa' e 'A sobreposição de fragmentos de dois veículos em uma mesma área é forte indicação do sítio de colisão'. O para-brisas é laminado (fita longa) e os vidros laterais e traseiros são temperados (cúbicos).",
+    "referencia": "Cap. 6, Seção 6.5.1 Fragmentos, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 790,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em capotamento ocorrido em rodovia, o perito identifica marcas na pavimentação produzidas pelo atrito de partes rígidas do veículo (rodas sem pneu, eixos, soleira, motor e colunas) com o asfalto. Conforme o PVAT - Módulo II, sobre essas marcas, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "São denominadas 'fricções' e o seu coeficiente de atrito é desconhecido, motivo pelo qual não auxiliam em cálculos de velocidade residual.",
+      "B": "São denominadas 'skid marks' e se diferenciam das marcas pneumáticas apenas pela ausência de borracha depositada.",
+      "C": "São denominadas 'sulcagens' e permitem, entre outras coisas, calcular a velocidade residual, pois têm coeficiente de atrito bem determinado (metal sobre asfalto: μ ≈ 0,40).",
+      "D": "São denominadas 'yaw marks' por indicarem o deslocamento lateral do veículo durante o capotamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto define: 'Sulcagens são marcas produzidas na pavimentação pelo atrito de partes rígidas do veículo (não os pneus) com o asfalto: rodas sem pneu, eixos, soleira, motor, colunas após capotamento' e permitem 'Calcular a velocidade residual, pois têm coeficiente de atrito bem determinado (metal sobre asfalto: μ ≈ 0,40)'.",
+    "referencia": "Cap. 6, Seções 6.5.2 e p. 47-48",
+    "nivel": "dificil"
+  },
+  {
+    "id": 791,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre cadáveres, vítimas, sangue e fluidos como vestígios no sítio do acidente, conforme o PVAT - Módulo II, julgue os itens:\n\nI. Em atropelamentos, a posição do cadáver, as lesões encontradas no exame perinecroscópico e as vestes da vítima são elementos periciais valiosos.\nII. A assimetria das lesões e a posição de repouso podem indicar o sentido de deslocamento do pedestre (direita para esquerda ou vice-versa).\nIII. A altura do primeiro ponto de impacto no veículo pode ser estimada pela distribuição das lesões.\nIV. A velocidade aproximada pode ser inferida pelo alcance de projeção do corpo atropelado.\nV. Manchas de sangue e fluidos veiculares ajudam a determinar os locais de repouso pós-impacto e a identificar se vazamentos foram instantâneos (impacto) ou crônicos (preexistentes).\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "I, II, III, IV e V.",
+      "B": "Apenas III, IV e V.",
+      "C": "Apenas I, II, IV e V.",
+      "D": "Apenas I, II e III."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens correspondem ao texto: 'Sentido de deslocamento do pedestre (...) pela assimetria das lesões e pela posição de repouso'; 'Altura do primeiro ponto de impacto no veículo (pela distribuição de lesões)'; 'Velocidade aproximada pelo alcance de projeção do corpo atropelado'; e a 'localização e extensão de manchas de sangue e fluidos veiculares podem ajudar a determinar os locais de repouso pós-impacto (...) e a identificar se vazamentos foram instantâneos (impacto) ou crônicos (preexistentes)'.",
+    "referencia": "Cap. 6, Seções 6.5.3 e 6.5.4, p. 48",
+    "nivel": "medio"
+  },
+  {
+    "id": 792,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à documentação do local de acidentes de tráfego, conforme o PVAT - Módulo II, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O croqui pode ser dispensado quando o laudo conter farta documentação fotográfica.",
+      "B": "As medições devem ser realizadas, preferencialmente, com trena metálica ou a laser, e medir a mesma distância mais de uma vez pode ajudar na aplicação do Método de Monte Carlo.",
+      "C": "As coordenadas GPS para o Sítio de Colisão (SC) podem ser tomadas sem considerar a precisão do equipamento, pois a área envolvida é grande.",
+      "D": "A descrição verbal de cada vestígio é dispensável quando há croqui em escala e fotografias do local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'Medições: todas as distâncias e dimensões relevantes, preferencialmente com trena metálica ou a laser (lembrando que medir a mesma distância mais de uma vez pode ajudar na aplicação do Método de Monte Carlo)'. Quanto ao GPS, 'deve-se considerar a precisão do GPS para especificar coordenadas para o Sítio de Colisão, por ser uma área menor'.",
+    "referencia": "Cap. 6, Seção 6.6, p. 48-49",
+    "nivel": "medio"
+  },
+  {
+    "id": 793,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o croqui pericial em acidentes de tráfego e os softwares que podem ser utilizados para sua elaboração, conforme o PVAT - Módulo II, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O croqui é peça meramente ilustrativa e o seu nível de detalhamento pouco influencia a compreensão da dinâmica do acidente pelos operadores do direito.",
+      "B": "O croqui em escala consiste em planta baixa do local com todos os vestígios posicionados, com sistema de coordenadas e legenda, e pode ser elaborado com estação total, GPS ou software de preferência do perito, como Microsoft Visio, AutoCAD, PC-Crash, Virtual CRASH, entre outros.",
+      "C": "Apenas softwares de CAD especializados, como AutoCAD e DraftSight, são admitidos para elaboração de croquis periciais, sendo vedado o uso de ferramentas como LibreOffice Draw e Google Earth Pro.",
+      "D": "O croqui é peça facultativa do laudo e, quando elaborado, deve ser feito sem o uso de softwares específicos, prevalecendo o desenho manual."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto descreve o croqui como 'planta baixa do local com todos os vestígios posicionados, com sistema de coordenadas e legenda' e cita softwares: 'Microsoft Visio, LibreOffice Draw, Lucidchart, AutoCAD, DraftSight, QCAD, Google Earth Pro, QGIS, CAD Zone/Crash Zone, PC-Crash, Virtual CRASH, GEMS'. A nota afirma que o croqui é 'peça essencial do laudo pericial'.",
+    "referencia": "Cap. 6, Seção 6.6, p. 48-49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 794,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de colisão lateral entre dois veículos, o perito identifica a 'sede' das avarias e busca extrair, a partir do estudo morfológico dessas deformações, informações sobre a dinâmica do impacto. Conforme o PVAT - Módulo II, assinale a alternativa CORRETA quanto ao que é possível determinar pela análise sistemática das avarias:",
+    "alternativas": {
+      "A": "Os pontos de impacto e a sede das forças atuantes, a posição relativa dos veículos no momento do impacto, a direção e o sentido dos vetores de força e a 'velocidade de danos'.",
+      "B": "Apenas o tipo de pavimento da via no momento do impacto.",
+      "C": "A identidade dos condutores e a culpabilidade pelo evento, conclusões necessariamente extraídas da geometria das avarias.",
+      "D": "Apenas a cor original dos veículos e eventuais repinturas pré-existentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'A análise sistemática das avarias permite determinar: os pontos de impacto e a sede das forças atuantes; a posição relativa dos veículos no momento do impacto; a direção e o sentido dos vetores de força; e a velocidade de danos'.",
+    "referencia": "Cap. 6, Seção 6.4.2, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 795,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as sulcagens, fricções e a determinação do sítio de colisão (SC), e ainda sobre os métodos de amarração para localização dos vestígios, o PVAT - Módulo II afirma que:\n\nI. Sulcagens são marcas produzidas na pavimentação pelo atrito de partes rígidas do veículo (não os pneus) com o asfalto.\nII. Fricções são marcas mais superficiais, produzidas pelo deslizamento de partes do veículo.\nIII. Quando uma sulcagem começa abruptamente, isso indica o ponto de início do arrasto, podendo confirmar o sítio de colisão.\nIV. A localização dos veículos e dos demais vestígios dentro do Sítio do Acidente (SC) poderá ser realizada com qualquer dos métodos de amarração aprendidos em 'Locais de Crimes', como o 'Método da Triangulação' ou o 'Cartesiano'.\nV. O coeficiente de atrito metal sobre asfalto é estabelecido em μ ≈ 0,40.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, II e III.",
+      "B": "Apenas II, IV e V.",
+      "C": "I, II, III, IV e V.",
+      "D": "Apenas I, III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens reproduzem o texto. O PVAT define sulcagens e fricções, afirma que 'quando uma sulcagem começa abruptamente, indica o ponto de início do arrasto', adota μ ≈ 0,40 para metal sobre asfalto e a nota sobre amarração indica os métodos da Triangulação e Cartesiano.",
+    "referencia": "Cap. 6, Seções 6.5.2 e 6.5.4 (Nota), p. 47-48",
+    "nivel": "dificil"
+  },
+  {
+    "id": 796,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de acidente que envolveu suspeita de clonagem do número de identificação veicular de um dos automóveis envolvidos, o perito designado para a análise da dinâmica do acidente deve proceder, conforme o PVAT - Módulo II, da seguinte forma:",
+    "alternativas": {
+      "A": "Realizar, por si próprio, a análise aprofundada do VIN, independentemente do objeto principal da perícia, pois a identificação veicular é parte integrante da reconstituição da dinâmica.",
+      "B": "Desconsiderar qualquer suspeita de adulteração, uma vez que o objeto da perícia em acidentes de tráfego restringe-se à dinâmica do evento.",
+      "C": "Solicitar à autoridade policial a apreensão do veículo para análise laboratorial, dispensada qualquer manifestação técnica de outros peritos federais.",
+      "D": "Acionar especialistas em identificação veicular para análise aprofundada, pois o NIV (VIN) é objeto de estudo específico na disciplina de Identificação Veicular da ANP."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A nota do PVAT - Módulo II afirma: 'O NIV (VIN) é objeto de estudo específico na disciplina de Identificação Veicular da ANP. Para acidentes envolvendo suspeita de clonagem ou adulteração de VIN, o perito deve acionar especialistas em identificação veicular para análise aprofundada'.",
+    "referencia": "Cap. 6, Seção 6.4.1 (Nota), p. 43",
+    "nivel": "dificil"
+  }
+]

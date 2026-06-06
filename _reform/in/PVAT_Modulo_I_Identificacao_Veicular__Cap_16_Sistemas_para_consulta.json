@@ -1,0 +1,70 @@
+[
+  {
+    "id": 639,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 16 - Sistemas para consulta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os sistemas e fontes institucionais de consulta utilizados em perícia de identificação veicular, qual alternativa associa CORRETAMENTE o sistema à sua finalidade descrita no PVAT?",
+    "alternativas": {
+      "A": "WEBVIN - permite a consulta aos números de lacres instalados no cronotacógrafo do veículo.",
+      "B": "DELPHOS - sistema desenvolvido pela Polícia Federal que permite acesso a registros periciais consolidados, com imagens e descrições que auxiliam na identificação de padrões legítimos e locais de gravação adotados pelos fabricantes.",
+      "C": "Sinesp/Infoseg - sistema de gestão de lacres do Inmetro, restrito a cronotacógrafos.",
+      "D": "Cartas-laudo - sistema oficial da Polícia Federal de uniformização de padrões de gravação, com nível de detalhe padronizado entre todas as montadoras."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pág. 73: 'O DELPHOS, sistema desenvolvido pela Polícia Federal, permite o acesso a registros periciais consolidados, com imagens e descrições que auxiliam na identificação de padrões legítimos e locais de gravação adotados pelos fabricantes'. As demais associações estão erradas: WEBVIN trata de padrões/leilão; lacres são do Inmetro - Cronotacógrafo; cartas-laudo têm 'robustez e nível de detalhe variáveis conforme a política e os registros internos de cada montadora'.",
+    "referencia": "Cap. 16, p. 73",
+    "nivel": "medio"
+  },
+  {
+    "id": 640,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 16 - Sistemas para consulta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de um veículo cujo modelo é pouco conhecido pelo perito, este precisa verificar o padrão e o local usual de gravação do NIV, bem como confirmar se o automóvel passou anteriormente por leilão. Qual sistema, segundo o PVAT - Módulo I, é o adequado para essa finalidade específica?",
+    "alternativas": {
+      "A": "Inmetro - Cronotacógrafo, pois reúne dados de gravação de chassi e histórico de leilões.",
+      "B": "Sinapse, por concentrar imagens periciais de leilões judiciais.",
+      "C": "Sinesp/Infoseg, que armazena padrões de gravação dos fabricantes e registros de leilão.",
+      "D": "WEBVIN, que possibilita a obtenção de padrões e locais usuais de gravação, bem como a verificação de passagem do veículo por leilão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pág. 73: 'O WEBVIN possibilita a obtenção de padrões e locais usuais de gravação, bem como a verificação de passagem do veículo por leilão'. O Inmetro - Cronotacógrafo se refere a lacres, e o Sinesp/Infoseg fornece 'informações cadastrais e históricas'.",
+    "referencia": "Cap. 16, p. 73",
+    "nivel": "facil"
+  },
+  {
+    "id": 709,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 16 - Sistemas para consulta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a fase de levantamento de dados prévios, o perito precisa verificar o padrão e o local original de gravação do VIN em um modelo importado, bem como conferir se o veículo já passou por leilão. Conforme o PVAT - Módulo I, qual sistema é descrito como aquele que possibilita simultaneamente a obtenção de padrões e locais usuais de gravação e a verificação de passagem do veículo por leilão?",
+    "alternativas": {
+      "A": "Sinesp/Infoseg.",
+      "B": "WEBVIN.",
+      "C": "DELPHOS, sistema desenvolvido pela Polícia Federal.",
+      "D": "Inmetro – Cronotacógrafo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A pág. 73 descreve: 'O WEBVIN possibilita a obtenção de padrões e locais usuais de gravação, bem como a verificação de passagem do veículo por leilão'. O DELPHOS, por sua vez, refere-se a registros periciais consolidados da PF; o Sinesp/Infoseg e o Sinapse fornecem dados cadastrais e históricos; o Inmetro – Cronotacógrafo trata de lacres.",
+    "referencia": "Cap. 16, p. 73",
+    "nivel": "medio"
+  },
+  {
+    "id": 710,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 16 - Sistemas para consulta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os sistemas e fontes de consulta utilizados na perícia veicular descritos no PVAT - Módulo I, julgue os itens a seguir:\n\nI. As plataformas Sinesp/Infoseg e Sinapse viabilizam consultas a bancos de dados oficiais, fornecendo informações cadastrais e históricas essenciais à confrontação dos sinais identificadores.\nII. O DELPHOS, desenvolvido pela Polícia Federal, permite o acesso a registros periciais consolidados, com imagens e descrições que auxiliam na identificação de padrões legítimos e locais de gravação adotados pelos fabricantes.\nIII. O Inmetro – Cronotacógrafo permite consultar os números de lacres instalados em determinado veículo ou, de maneira inversa, em qual veículo estariam instalados determinados lacres.\nIV. As cartas-laudo são informações obtidas diretamente dos fabricantes, com robustez e nível de detalhe variáveis conforme a política e os registros internos de cada montadora.\nV. O WEBVIN substituiu integralmente o sistema DELPHOS e é o único repositório de imagens periciais disponível ao perito federal.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "II, III e V.",
+      "C": "I, II, III e IV.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A pág. 73 confirma os itens I, II, III e IV nos exatos termos. O item V é FALSO: o WEBVIN é descrito como sistema que fornece padrões/locais de gravação e verificação de leilão, sem qualquer menção a substituir o DELPHOS, que continua descrito como repositório de registros periciais consolidados da PF.",
+    "referencia": "Cap. 16, p. 73",
+    "nivel": "medio"
+  }
+]

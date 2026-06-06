@@ -1,0 +1,138 @@
+[
+  {
+    "id": 435,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um julgamento por homicídio, o juiz se depara com a seguinte situação probatória: o réu confessou parcialmente o crime, mas afirma ter agido em legítima defesa; uma testemunha ocular afirma que o réu atirou sem provocação; e o laudo pericial demonstra que a trajetória dos projéteis e a posição do corpo são incompatíveis com a versão do réu. Considerando os princípios de prova expostos no Cap. 5 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O sistema brasileiro adota a hierarquia das provas, devendo prevalecer a prova pericial sobre a confissão e o depoimento testemunhal, por ser objetiva e técnica.",
+      "B": "No sistema penal brasileiro não há hierarquia das provas; a confissão será divisível e retratável, podendo o juiz aceitá-la parcialmente, e seu valor será aferido pelos critérios das demais provas, mediante confronto.",
+      "C": "A confissão tem valor absoluto no processo penal, devendo o juiz acolher integralmente a versão de legítima defesa apresentada pelo réu.",
+      "D": "Sendo a confissão indivisível, o juiz deve necessariamente acolhê-la na sua totalidade ou rejeitá-la integralmente, sem possibilidade de repúdio parcial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 41-42: 'No sistema penal brasileiro, há uma liberdade quase total na apresentação de provas... não há hierarquia das provas'. O art. 197 do CPP estabelece que o valor da confissão se aferirá pelos critérios das outras provas, mediante confronto. O art. 200 dispõe que 'a confissão será divisível e retratável, sem prejuízo do livre convencimento do juiz', podendo o juiz aceitá-la parcialmente.",
+    "referencia": "Cap. 5, p. 41-42",
+    "nivel": "medio"
+  },
+  {
+    "id": 436,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens abaixo sobre o conceito de corpo de delito e o exame de corpo de delito indireto, à luz do Cap. 5 da apostila:\n\nI. Corpo de delito é o conjunto de elementos materiais, com todas as circunstâncias, que resultaram da prática de um crime, abrangendo os sinais da atividade do delinquente, o resultado/produto da infração e o corpus instrumentorum.\nII. É equivalente referir-se ao exame de corpo de delito como exame pericial de local de crime, pois a totalidade dos vestígios materiais sempre será encontrada exclusivamente no local onde ocorreu o fato.\nIII. A falta do exame de corpo de delito nos crimes que deixam vestígios pode acarretar nulidade processual, salvo se for impossível sua realização por terem desaparecido os vestígios, hipótese em que a prova testemunhal poderá suprir-lhe a falta.\nIV. O corpo de delito indireto é admitido quando o exame direto não for possível, podendo basear-se em fotografias, informações seguras sobre os fatos, documentos ou outros elementos levantados pelos peritos.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III e IV.",
+      "C": "I, II e IV.",
+      "D": "I, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "I CORRETO (p. 43): definição de Florian sobre os componentes do corpo de delito. II INCORRETO (p. 43): o texto diz que essa equivalência está correta 'de certa forma', mas alerta que 'muitas vezes, os vestígios que compõem o corpo de delito NÃO são encontrados em um só local'. III CORRETO (p. 44): art. 564 do CPP combinado com art. 167. IV CORRETO (p. 44): definição do corpo de delito indireto.",
+    "referencia": "Cap. 5, Seções 5.1 e 5.1.1, p. 43-44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 437,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma investigação de descaminho, mercadorias apreendidas pela Receita Federal foram destinadas administrativamente antes da realização do exame pericial. A autoridade policial, ciente da impossibilidade do exame direto, solicita aos peritos a realização do exame indireto. Sobre a situação descrita e o exame de corpo de delito indireto, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O exame indireto é cabível na situação descrita e pode ser realizado com base em documentos fornecidos pela Receita, principalmente o Termo de Guarda, que contém descrição completa das mercadorias.",
+      "B": "O exame indireto somente poderá ser realizado se as mercadorias forem reapresentadas fisicamente aos peritos, ainda que parcialmente.",
+      "C": "O exame indireto é vedado em crimes de descaminho, pois a inexistência das mercadorias para análise direta impede qualquer manifestação técnica.",
+      "D": "O exame indireto, nessas hipóteses, é dispensável, pois a prova testemunhal das autoridades fiscais é suficiente para suprir o exame pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 44-45: 'Outro exemplo comum é o caso de mercadorias apreendidas e encaminhadas à Receita Federal antes da realização do exame pericial (crime de descaminho)... os peritos informam à autoridade policial e esta solicita a realização de exame indireto, com base em documentos fornecidos pela Receita, principalmente, o Termo de Guarda, que é uma descrição completa das mercadorias'.",
+    "referencia": "Cap. 5, Seção 5.1.1, p. 44-45",
+    "nivel": "facil"
+  },
+  {
+    "id": 438,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere o seguinte caso: João é acusado de furto qualificado ocorrido em uma joalheria às 22h00 do dia 15 de junho. Para se defender, João apresenta nota fiscal, imagens de câmeras e depoimentos comprovando que estava jantando em um restaurante a 300 km do local do crime no exato horário do delito. Adicionalmente, a perícia recolheu DNA do verdadeiro autor no local, e uma testemunha relata que ouviu de seu vizinho a narrativa dos fatos. Considerando a classificação das provas quanto ao objeto (Cap. 5, Seção 5.3.1), assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O álibi de João é prova direta, pois demonstra imediatamente o fato a ser provado; o laudo pericial do DNA é prova indireta, pois exige raciocínio lógico de comparação.",
+      "B": "O álibi de João e o depoimento da testemunha que ouviu de seu vizinho são exemplos de prova indireta; o laudo pericial do DNA, por sua vez, é prova direta.",
+      "C": "Todas as provas mencionadas são diretas, pois há expressa previsão legal de que toda prova material em processo penal é classificada como direta.",
+      "D": "O laudo pericial do DNA e o depoimento da testemunha que ouviu de seu vizinho são provas indiretas; o álibi é prova direta de autoria."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 45-46: 'As provas que demonstram, por si só, o fato a ser provado, sem a necessidade de qualquer processo lógico de construção... o laudo pericial também é uma prova direta'. Já as provas indiretas 'não se referem de forma direta ao fato probando... O álibi pode ser um exemplo de prova indireta... Outro exemplo de prova indireta é o depoimento da testemunha que não estava no local de um crime, apenas ouviu de outra pessoa a narrativa dos fatos'.",
+    "referencia": "Cap. 5, Seção 5.3.1, p. 45-46",
+    "nivel": "medio"
+  },
+  {
+    "id": 439,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso de estupro, foram coletadas as seguintes evidências: (1) depoimento da vítima; (2) sêmen do agressor encontrado na cena; (3) reconhecimento do suspeito em fila pela vítima; (4) arma utilizada para coação; (5) carta de ameaças enviada à vítima pelo suspeito. Considerando a classificação das provas quanto ao SUJEITO e à FORMA, conforme exposto no Cap. 5 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Quanto ao sujeito, o depoimento da vítima e o reconhecimento são provas pessoais; o sêmen e a arma são provas reais. Quanto à forma, a carta é prova documental e o sêmen, após exame pericial, é prova material.",
+      "B": "Todas as evidências mencionadas, quanto à forma, classificam-se como prova material, pois todas estão fisicamente presentes no processo.",
+      "C": "Quanto ao sujeito, o sêmen e a arma são provas pessoais, pois remetem à figura do agressor; o depoimento da vítima é prova real, pois deriva do fato concreto narrado.",
+      "D": "Quanto à forma, o sêmen e a arma, mesmo antes de qualquer exame pericial, já constituem prova material, dispensando-se a análise técnica para essa classificação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 46: provas pessoais são 'aquelas derivadas do conhecimento pessoal atribuído ao indivíduo, depoimento de testemunhas, reconhecimento de pessoas'; provas reais são 'aquelas oriundas de coisas, dos vestígios relacionados ao crime, como o sêmen, o sangue, a impressão digital, a arma'. Quanto à forma, prova documental inclui carta; prova material são as produzidas pelo exame dos vestígios, sendo que 'os vestígios se tornam prova material DEPOIS de examinados e interpretados pela Criminalística'.",
+    "referencia": "Cap. 5, Seções 5.3.2 e 5.3.3, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 440,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o objeto da prova no processo penal, conforme exposto no Cap. 5 da apostila, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Objeto da prova é exclusivamente o fato delituoso em sua materialidade, excluindo-se as circunstâncias subjetivas que envolvem o agente.",
+      "B": "Objeto da prova confunde-se com o sujeito da prova, sendo ambos referentes à pessoa ou coisa de quem ou de onde provém a prova.",
+      "C": "Objeto da prova são apenas as alegações da acusação, pois compete a esta o ônus probatório integral no processo penal.",
+      "D": "Objeto da prova é aquilo sobre o que o juiz deve formar seu convencimento; abrange o fato delituoso e todas as circunstâncias objetivas e subjetivas necessárias ao pleno conhecimento do juiz sobre o processo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 45: 'Constitui o objeto da prova aquilo sobre o que o juiz deve formar o seu convencimento; aquilo que deve ser demonstrado. O objeto da prova abrange o fato delituoso e todas as circunstâncias objetivas e subjetivas necessárias ao pleno conhecimento do juiz sobre o processo e que possibilitem a formação da sua convicção'.",
+    "referencia": "Cap. 5, Seção 5.2, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "id": 544,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante operacao da Policia Federal em area de garimpo ilegal as margens de um rio, os peritos criminais nao conseguiram comparecer ao local antes de uma forte enchente, que destruiu as escavacoes, dragas e demais sinais da exploracao mineral. Restaram, contudo, relatorios circunstanciados da equipe de fiscalizacao do IBAMA, fotografias aereas, croquis e termos de apreensao. Diante da situacao, a autoridade policial requisitou exame de corpo de delito com base nesse acervo documental. Considerando a sistematica do CPP e o exposto sobre corpo de delito indireto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O exame indireto e admissivel quando impossivel a realizacao do direto, cabendo aos peritos buscar todos os dados necessarios a conclusao pericial com base nos documentos disponiveis, ainda que nem sempre essa busca seja exitosa.",
+      "B": "O exame de corpo de delito indireto e vedado em crimes ambientais, devendo a prova testemunhal suprir integralmente a ausencia do exame direto, nos termos do art. 167 do CPP.",
+      "C": "Em razao da inexistencia de vestigios materiais remanescentes, a confissao do garimpeiro flagranteado supre a ausencia do exame de corpo de delito, conforme excecao prevista no art. 158 do CPP.",
+      "D": "O exame de corpo de delito indireto somente e cabivel em crimes contra o patrimonio em que a Receita Federal tenha destinado as mercadorias antes da pericia, hipotese unica admitida pela doutrina."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o item 5.1.1 do Cap. 5 (pp. 44-45), o exame indireto e aceito quando for impossivel a sua realizacao direta, com base em fotografias, informacoes seguras, documentos ou outros elementos levantados pelos peritos, cabendo a eles a busca de todos os dados necessarios a conclusao pericial, o que nem sempre sera conseguido. O texto cita exatamente o exemplo de exploracao mineral clandestina em margens de rios, com vestigios destruidos por enchentes.",
+    "referencia": "Cap. 5, Seção 5.1.1, p. 5",
+    "nivel": "medio"
+  },
+  {
+    "id": 545,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir sobre a classificacao das provas adotada por Paulo Rangel (2002), conforme apresentada no Cap. 5: I) Quanto ao objeto, o alibi e classificado como prova direta, pois demonstra de forma imediata a inocencia do acusado, sem necessidade de processo logico de construcao. II) Quanto ao sujeito, sao consideradas provas reais o semen, o sangue, a impressao digital e a arma de fogo, por serem oriundas de coisas ou vestigios relacionados ao crime. III) Quanto a forma, a prova material somente assume essa qualidade depois de os vestigios serem examinados e interpretados pela Criminalistica; antes disso, sao apenas materia-prima da producao da prova. IV) Ha autores que negam a existencia de prova indireta, sustentando que toda prova e direta em relacao ao que e imediatamente provado, classificando o alibi como prova negativa de autoria. Estao corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I e II.",
+      "B": "I, III e IV.",
+      "C": "II, III e IV.",
+      "D": "II e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Item I esta errado: o alibi e exemplo classico de prova INDIRETA (subitem 5.3.1, b, p. 45-46). Item II correto (subitem 5.3.2, b, p. 46). Item III correto (subitem 5.3.3, c, p. 46): os vestigios sao materia-prima da producao da prova material. Item IV correto (final do subitem 5.3.1, p. 46): autores classificam o alibi como prova negativa de autoria.",
+    "referencia": "Cap. 5, Seção 5.3.1, p. 45-46",
+    "nivel": "dificil"
+  }
+]

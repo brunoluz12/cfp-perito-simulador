@@ -1,0 +1,138 @@
+[
+  {
+    "id": 797,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a reconstituição de um acidente de tráfego, o perito identifica diversos pontos-chave ao longo da trajetória dos veículos envolvidos. Sobre o conceito de sítio na perícia de acidentes de tráfego, conforme o material didático, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Os sítios são pontos meramente teóricos, sem ligação direta com vestígios materiais, sendo definidos apenas pelo depoimento do condutor.",
+      "B": "Os sítios são pontos ou áreas-chave no espaço ao longo da trajetória dos veículos, representando momentos cruciais da sequência de eventos que levaram ao acidente, e sua reconstituição transforma medições de campo em conclusões periciais.",
+      "C": "A cadeia de sítios inicia-se no Sítio de Colisão e percorre apenas a trajetória pós-impacto, até o repouso final do veículo.",
+      "D": "A cadeia de sítios percorre exclusivamente o trecho entre o Sítio de Reação e o Sítio de Colisão, sendo os demais pontos irrelevantes para a perícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto define: 'Esses pontos são denominados sítios e representam momentos cruciais da sequência de eventos que levaram ao acidente. A reconstituição precisa dos sítios é o passo que transforma medições de campo em conclusões periciais'.",
+    "referencia": "Cap. 7, Seção 7.1, p. 51",
+    "nivel": "facil"
+  },
+  {
+    "id": 798,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um laudo pericial, o perito precisa definir o Sítio de Percepção (SP) de um condutor. Considerando a natureza desse sítio, assinale a alternativa CORRETA quanto à sua identificação e cálculo.",
+    "alternativas": {
+      "A": "Por sua natureza subjetiva (processo mental), o SP não pode ser diretamente identificado por vestígios físicos e deve ser calculado retroativamente a partir dos outros sítios, pela fórmula SP = SR − dpr.",
+      "B": "O SP corresponde sempre ao início das marcas de frenagem visíveis no asfalto, em veículos com freios convencionais.",
+      "C": "O SP é identificado diretamente pelas marcas de derrapagem deixadas no pavimento, sendo a âncora física do processo de reconstituição.",
+      "D": "O SP é calculado somando-se ao Sítio de Reação a distância de frenagem, segundo SP = SR + dfre."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'Por sua natureza subjetiva (é um processo mental), o sítio de percepção não pode ser diretamente identificado por vestígios físicos – ele deve ser calculado retroativamente a partir dos outros sítios. SP = SR − dpr onde dpr = Vt.tpr/3,6'.",
+    "referencia": "Cap. 7, Seção 7.2, p. 51",
+    "nivel": "medio"
+  },
+  {
+    "id": 799,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma cena de acidente, o perito identifica marcas intermitentes (gap marks) características de sistema ABS no pavimento, próximas ao início da trajetória de frenagem. Sobre o Sítio de Reação (SR) nessas circunstâncias, assinale a CORRETA.",
+    "alternativas": {
+      "A": "Em manobras de desvio sem frenagem, o SR coincide obrigatoriamente com o Sítio de Colisão, pois não há marcas físicas anteriores ao impacto.",
+      "B": "Para veículos com ABS, o SR deve ser calculado retroativamente, pois o sistema impede a formação de qualquer vestígio físico identificável.",
+      "C": "O SR é sempre subjetivo, dependendo de uma estimativa mental do tempo de reação, não podendo ser identificado por vestígios materiais.",
+      "D": "Em veículos com ABS, o SR corresponde à área próxima ao início das marcas intermitentes; em veículos convencionais, corresponde ao início das marcas pretas; em manobras de desvio sem frenagem, pode ser identificado pela mudança de trajetória."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o texto: 'Para veículos com ABS, o sítio de reação corresponde à área próxima ao início das marcas intermitentes. Em manobras de desvio sem frenagem, o sítio de reação pode ser identificado por marcas de derrapagem ou pela mudança de trajetória'.",
+    "referencia": "Cap. 7, Seção 7.3, p. 51-52",
+    "nivel": "medio"
+  },
+  {
+    "id": 800,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um veículo trafega a 80 km/h em uma rodovia. Considerando o tempo de percepção-reação psicotécnico de Tp = 1,125 s, qual é a distância de percepção-reação (dpr) percorrida pelo veículo, conforme a Tabela 12 do material?",
+    "alternativas": {
+      "A": "16,67 m",
+      "B": "18,75 m",
+      "C": "33,33 m",
+      "D": "25,00 m"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Tabela 12 indica, para velocidade de 80 km/h com Tp = 1,125 s, dpr = 25,00 m. Pela fórmula: dpr = (80 × 1,125)/3,6 = 25 m.",
+    "referencia": "Cap. 7, Seção 7.4, Tabela 12, p. 52",
+    "nivel": "facil"
+  },
+  {
+    "id": 801,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O conceito de Sítio de Não Escapada (SNE) tem aplicação central na análise pericial de conflitos entre velocidade excessiva e interceptação. Considere as afirmações abaixo:\n\nI. O SNE é a área a partir da qual não seria fisicamente possível ao condutor – mesmo percebendo o perigo e reagindo – deter seu veículo antes do Sítio de Colisão.\nII. Se o condutor estava aquém do SNE quando percebeu o perigo, o acidente era inevitável para ele.\nIII. O SNE é estimado a partir do Sítio de Colisão, adicionando-se a dpr à distância necessária para o veículo parar completamente.\nIV. Se o Sítio de Percepção estiver além do SNE (calculado para a velocidade regulamentar), o condutor teria condições de parar antes da colisão caso estivesse na velocidade permitida – nesse caso, a velocidade excessiva é causa determinante ou concorrente.\nV. O SNE só pode ser calculado para a velocidade efetivamente desenvolvida pelo veículo, jamais para a velocidade regulamentar.\n\nEstão CORRETAS as afirmativas:",
+    "alternativas": {
+      "A": "I, III e V.",
+      "B": "I, II, III e IV.",
+      "C": "II, IV e V.",
+      "D": "Todas estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Item V é falso: o SNE é calculado 'tanto para a velocidade regulamentar da via quanto para a velocidade estimada em que o veículo estava trafegando'. Os demais itens reproduzem fielmente o texto.",
+    "referencia": "Cap. 7, Seção 7.5, p. 52-53",
+    "nivel": "dificil"
+  },
+  {
+    "id": 802,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o Sítio de Colisão (SC), considerado a área mais importante do levantamento de campo, assinale a alternativa CORRETA quanto às evidências que permitem sua identificação.",
+    "alternativas": {
+      "A": "O SC é identificado exclusivamente pela posição final de repouso dos veículos envolvidos, conforme constatada pela perícia.",
+      "B": "O SC é identificado pela convergência de múltiplas evidências, como mudança brusca de direção nas marcas, concentração de fragmentos, início de sulcagens, manchas de fluidos, marcas de yaw iniciando no ponto de impacto e correspondência com as avarias.",
+      "C": "O Sítio de Colisão e o sítio de impacto no veículo são conceitos equivalentes, podendo ser empregados indistintamente no laudo.",
+      "D": "O SC é uma área no veículo, correspondente à sede das avarias na carroceria, e não no pavimento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto lista as evidências convergentes (mudança brusca de direção, fragmentos, sulcagens, fluidos, yaw marks, avarias) e adverte: 'O sítio de colisão e o sítio de impacto no veículo são conceitos distintos. O SC é uma área no pavimento; o sítio de impacto no veículo é a sede das avarias na carroceria. Confundir esses conceitos é um erro pericial grave'.",
+    "referencia": "Cap. 7, Seção 7.6, p. 53",
+    "nivel": "medio"
+  },
+  {
+    "id": 803,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exemplo completo de cálculo de sítios apresentado no material, considere um veículo com Vt = 80 km/h, μ = 0,80, marcas de frenagem de 25 m antes do impacto e Tp = 1,125 s. Sobre os resultados obtidos e a conclusão pericial, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Como o SNE estaria a 50 m do SC e o SP estava a 36,45 m, conclui-se que o acidente seria inevitável mesmo a 60 km/h.",
+      "B": "O Sítio de Percepção encontra-se a 25 m do SC, coincidindo exatamente com o SNE calculado para a velocidade regulamentar.",
+      "C": "A velocidade absorvida pela frenagem (Va) resulta em aproximadamente 71,27 km/h e a velocidade no instante da colisão (Vic) é de aproximadamente 36,34 km/h.",
+      "D": "O tempo de frenagem (tfre) calculado é de aproximadamente 2,55 s, o que comprova ausência de excesso de velocidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o exemplo: 'Va = 15,946 × √(25 × 0,80) = ... ≈ 71,27 km/h; Vic = √(Vt² - Va²) = √(80² - 71,27²) ≈ 36,34 km/h'.",
+    "referencia": "Cap. 7, Seção 7.8, p. 53-54",
+    "nivel": "dificil"
+  },
+  {
+    "id": 804,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Sítio de Repouso Final (SRF) é descrito como ferramenta importante na reconstituição pericial. Quando associado a outro sítio, permite calcular as velocidades residuais. Qual é o sítio que, em conjunto com o SRF, permite essa estimativa?",
+    "alternativas": {
+      "A": "Sítio de Percepção (SP).",
+      "B": "Sítio de Reação (SR).",
+      "C": "Sítio de Não Escapada (SNE).",
+      "D": "Sítio de Colisão (SC)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'O SRF, em conjunto com o SC, permite calcular as velocidades residuais'.",
+    "referencia": "Cap. 7, Seção 7.7, p. 53",
+    "nivel": "facil"
+  }
+]

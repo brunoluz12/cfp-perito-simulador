@@ -1,0 +1,138 @@
+[
+  {
+    "id": 421,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma reunião do plantão policial, o Delegado de Polícia Federal solicita ao Perito Criminal Federal que altere a metodologia analítica adotada em um laudo, sob a justificativa de que a investigação tática precisa de uma 'conclusão mais firme' para sustentar a tese acusatória. O perito recusa-se, invocando autonomia técnica. Considerando o regime jurídico-funcional do Perito Criminal Federal, é correto afirmar que:",
+    "alternativas": {
+      "A": "A autonomia do perito é apenas científica, sendo permitido ao Delegado interferir nos métodos analíticos sempre que houver pressão por produtividade.",
+      "B": "O Delegado, por presidir o inquérito, possui poder hierárquico pleno sobre o perito, podendo determinar tanto a metodologia quanto o teor das conclusões do laudo pericial.",
+      "C": "A Lei nº 12.030/2009 constitui o fundamento jurídico da atividade pericial criminal, garantindo aos profissionais do setor plena autonomia técnica, científica e funcional; a subordinação do perito no interior da organização policial circunscreve-se à gestão administrativa e jamais se estende à escolha dos métodos analíticos ou às conclusões exaradas nos laudos.",
+      "D": "O perito está vinculado hierarquicamente à autoridade requisitante para todos os fins, inclusive técnicos, devendo acatar a tese acusatória pré-formada pela equipe de investigação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'a Lei n.º 12.030/2009 constitui o fundamento jurídico da atividade pericial criminal, ao garantir aos profissionais do setor plena autonomia técnica, científica e funcional'. E: 'a subordinação do perito no interior da organização policial circunscreve-se à gestão administrativa. Ela jamais se estende à escolha dos métodos analíticos ou às conclusões exaradas nos laudos periciais. Tais elementos não devem sofrer quaisquer ingerências, pressões por produtividade ou induções investigativas.'",
+    "referencia": "Cap. 3, Seção 3.1, p. 27-28",
+    "nivel": "medio"
+  },
+  {
+    "id": 422,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame pericial de um homicídio, o perito é informado pela equipe policial de que existe uma 'forte suspeita' contra determinado indivíduo, e percebe que a informação está influenciando a interpretação dos vestígios. Sobre o ciclo da prova e a integração científica, julgue os itens:\n\nI. Na Criminalística, a formulação de hipóteses pelo perito confunde-se com a presunção de culpa, sendo legítimo que ele incorpore as teses acusatórias da equipe investigativa.\nII. O viés cognitivo caracteriza-se como o desvio inconsciente de racionalidade no julgamento, muitas vezes provocado por expectativas externas ou pressões processuais da equipe de investigação.\nIII. O profissional deve aplicar o ceticismo metodológico, ancorando suas inferências exclusivamente nas propriedades mensuráveis do vestígio.\nIV. O perito atua exclusivamente na verificação técnica das hipóteses fáticas (dinâmica e materialidade) geradas pelos vestígios, não elaborando a tese acusatória nem substituindo a atividade tática investigativa.\nV. A perícia opera como mero apêndice da polícia judiciária, sem função de controle ou validação da investigação.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "I, II, IV e V.",
+      "C": "I, III e V.",
+      "D": "II, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'A perícia não opera como um mero apêndice da polícia judiciária, mas sim como a ferramenta central de controle e validação da investigação criminal' (V falso); 'Na Criminalística, a formulação de uma hipótese não se confunde com a presunção de culpa' (I falso); 'O perito atua exclusivamente na verificação técnica das hipóteses fáticas (dinâmica e materialidade) geradas pelos vestígios' (IV correto); 'O viés caracteriza-se como o desvio inconsciente de racionalidade no julgamento, muitas vezes provocado por expectativas externas ou pressões processuais' (II correto); 'O profissional deve aplicar o ceticismo metodológico, ancorando suas inferências exclusivamente nas propriedades mensuráveis do vestígio' (III correto).",
+    "referencia": "Cap. 3, Seção 3.2, p. 28-29",
+    "nivel": "dificil"
+  },
+  {
+    "id": 423,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em situação de flagrante delito relacionada a tráfico de drogas, o Perito Criminal Federal é acionado em regime de sobreaviso para confeccionar laudo de constatação preliminar, indispensável para fundamentar a lavratura do auto de prisão. Ao chegar ao local, observa que policiais estão movimentando objetos da cena de forma desordenada. Considerando a atuação operacional descrita no Capítulo, qual conduta pericial é tecnicamente correta?",
+    "alternativas": {
+      "A": "Como a urgência operacional do flagrante prevalece sobre o método científico, o perito deve apenas redigir rapidamente o laudo, sem interferir na atuação tática dos policiais.",
+      "B": "O perito deve recusar-se a atuar até a chegada do Delegado, pois em sobreaviso não há autoridade para interferir na cena.",
+      "C": "O perito deve aguardar o transporte dos vestígios para o laboratório, abstendo-se de qualquer atuação em campo, pois o regime de sobreaviso veda exames presenciais.",
+      "D": "O perito deve interagir assertivamente com a equipe que guarnece o local, mesmo sob forte restrição temporal, orientando os isolamentos e balizando a atuação tática, garantindo que a urgência operacional jamais se sobreponha à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'A interação do perito com a equipe de policiais (agentes e delegados) que guarnece o local deve ser assertiva, mesmo sob forte restrição temporal e pressão investigativa inerente aos flagrantes. O profissional deve orientar os isolamentos e balizar a atuação tática, garantindo que a urgência operacional jamais se sobreponha à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente.'",
+    "referencia": "Cap. 3, Seção 3.3, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 424,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma requisição de perícia, a Autoridade Policial formula os seguintes quesitos: (i) 'houve dolo do condutor?'; (ii) 'quem é o culpado pelo acidente?'; (iii) 'o veículo estava acima do limite de velocidade da via no momento do impacto?'. O perito analisa a viabilidade técnica dos questionamentos. Com base no princípio da interpretação avaliativa e na função dos quesitos, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os três quesitos são igualmente exequíveis, pois ao perito cabe responder a qualquer indagação formulada pela autoridade requisitante, inclusive sobre dolo e culpa.",
+      "B": "Todos os quesitos são inexequíveis, pois nenhuma análise pericial pode aferir velocidade de veículo.",
+      "C": "Apenas o quesito (i) é inexequível, pois 'dolo' não existe juridicamente, mas o quesito (ii) sobre culpa é tecnicamente viável.",
+      "D": "Os quesitos (i) e (ii) são formulações genéricas ou estritamente jurídicas e criam quesitos inexequíveis, pois o perito não pode emitir opiniões categóricas para além dos limites factuais da ciência; já o quesito (iii) é dotado de clareza técnica, estabelecendo uma hipótese testável e isenta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'Formulações genéricas ou estritamente jurídicas (por exemplo, houve dolo? ou quem é o culpado?) criam quesitos inexequíveis. O perito não pode emitir opiniões categóricas para além dos limites factuais da ciência. Em contrapartida, um quesito dotado de clareza técnica (como perguntar objetivamente se o carro estava acima do limite de velocidade?) estabelece uma hipótese testável e isenta.'",
+    "referencia": "Cap. 3, Seção 3.4, p. 30",
+    "nivel": "medio"
+  },
+  {
+    "id": 425,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao redigir um Laudo Pericial Criminal Federal seguindo a Portaria n.º 1.192/2022 - DITEC/PF, o perito precisa registrar que, durante o atendimento, ocorreram interrupções por condições climáticas impeditivas e atrasos logísticos que impactaram a análise, sem que isso constitua propriamente metodologia. Além disso, deve registrar a destinação final dos materiais examinados, evidenciando se houve retenção total, devoluções parciais ou consumo da amostra durante o trâmite analítico. Sobre os elementos do laudo, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os elementos obrigatórios são apenas preâmbulo e conclusão; o 'Histórico' é elemento obrigatório que substitui o item 'Exame'.",
+      "B": "O laudo é documento livre, sem ordem impositiva, e o registro da destinação dos vestígios é facultativo, ficando a critério do perito.",
+      "C": "O laudo deve seguir uma ordem impositiva pautada na clareza e rastreabilidade metodológica contendo os elementos textuais obrigatórios: preâmbulo, objeto, objetivo, exame e conclusão; o 'Histórico' é elemento textual facultativo, situado após o preâmbulo, destinado a registrar ocorrências e fatos conjunturais; a destinação final dos vestígios deve ser registrada no corpo do laudo (na seção de conclusão ou resposta aos quesitos, antes do fecho), conforme o art. 63 da Portaria n.º 1.192/2022.",
+      "D": "A destinação final dos vestígios deve ser registrada exclusivamente em livro próprio fora do laudo, sendo vedado mencioná-la no corpo do documento probatório."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'O laudo deve seguir uma ordem impositiva pautada na clareza e rastreabilidade metodológica, devendo conter os seguintes elementos textuais obrigatórios: I - preâmbulo; II - objeto; III - objetivo; IV - exame; e V - conclusão.' E: 'a Portaria prevê elementos textuais facultativos que devem aparecer logo após o preâmbulo. Um dos mais importantes (...) é o Histórico. O item Histórico destina-se a registrar ocorrências e fatos conjunturais observados na requisição ou durante os exames que impactam a compreensão da análise (como interrupções, condições climáticas impeditivas ou atrasos logísticos)'. E ainda: 'Art. 63 da Portaria n.º 1.192/2022 - DITEC/PF: É obrigação funcional do perito registrar, no corpo do laudo (na seção de conclusão ou resposta aos quesitos, antes do fecho), a destinação final de cada vestígio examinado.'",
+    "referencia": "Cap. 3, Seção 3.5, p. 30-31",
+    "nivel": "dificil"
+  },
+  {
+    "id": 426,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma palestra sobre o papel da ciência forense no Estado Democrático de Direito, um professor sustenta que a integração científica não é mero apoio acessório à investigação, mas garantia de Direitos Humanos e de Justiça. Para reforçar o argumento, cita a função preventiva da perícia em relação a arbitrariedades e condenações injustas. Considerando o texto, é correto afirmar que:",
+    "alternativas": {
+      "A": "Num Estado Democrático de Direito, a retirada da liberdade ou do patrimônio de um indivíduo só se justifica mediante provas isentas, imparciais e verdadeiras; ao confirmar ou refutar uma hipótese criminal de forma técnica e documentar seu raciocínio em um laudo preciso e metodologicamente transparente, o perito previne arbitrariedades e condenações injustas, e a defesa intransigente da autonomia pericial representa a blindagem do próprio sistema penal.",
+      "B": "A retirada da liberdade ou do patrimônio de um indivíduo, no Estado Democrático de Direito, justifica-se mesmo sem provas isentas, bastando a convicção íntima da autoridade requisitante.",
+      "C": "A defesa intransigente da autonomia pericial é dispensável, pois a verdade material já é garantida pela mera oitiva de testemunhas e pela confissão.",
+      "D": "A ciência forense é mera ferramenta acessória, sem impacto sobre Direitos Humanos, restringindo-se a apoiar a tese acusatória do Estado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'A ciência forense não se restringe a ser uma mera ferramenta de apoio. Ela eleva-se à condição de garantidora da Justiça e dos Direitos Humanos. Num Estado Democrático de Direito, a retirada da liberdade ou do patrimônio de um indivíduo só se justifica mediante provas isentas, imparciais e verdadeiras.' E: 'Ao confirmar ou refutar uma hipótese criminal de forma técnica, documentando seu raciocínio lógico em um Laudo de Perícia Criminal Federal preciso e metodologicamente transparente, o perito previne arbitrariedades e condenações injustas. A defesa intransigente da autonomia pericial representa, em última análise, a blindagem do próprio sistema penal'.",
+    "referencia": "Cap. 3, Seção 3.6, p. 31-32",
+    "nivel": "dificil"
+  },
+  {
+    "id": 538,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal está em regime de sobreaviso durante a madrugada quando é acionado para um homicídio em flagrante, em que o suspeito foi preso ainda no local. A equipe de delegados pressiona pela conclusão imediata do laudo de constatação para fundamentar a lavratura do auto de prisão, alegando que o tempo de 24 horas para apresentação ao juiz está se esgotando. Diante desse cenário, sobre as prioridades e a conduta esperada do perito, conforme o Cap. 3, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A intervenção pericial rápida, como a confecção de laudos de constatação preliminares, é frequentemente requisito legal para a lavratura do auto de prisão; entretanto, a urgência operacional jamais pode se sobrepor à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente.",
+      "B": "Diante da urgência, o perito deve ceder à pressão tática da equipe policial e priorizar a celeridade sobre a preservação dos vestígios, pois o flagrante é regido pelo princípio da oportunidade e a cadeia de custódia é exigência apenas da fase laboratorial.",
+      "C": "Em regime de sobreaviso o perito tem autonomia para recusar o atendimento de flagrantes, pois sua atuação restringe-se ao expediente regular, devendo o delegado nomear perito ad hoc para o laudo de constatação.",
+      "D": "O laudo de constatação preliminar em situações de flagrante não é exigido por lei, sendo medida facultativa que só deve ser realizada após a finalização do exame de local e da cadeia de custódia completa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Cap. 3 afirma que 'a intervenção pericial rápida — como a confecção de laudos de constatação preliminares — é frequentemente um requisito legal indispensável para fundamentar a lavratura do auto de prisão' e que 'a urgência operacional jamais se sobreponha à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente'.",
+    "referencia": "Cap. 3, Seção 3.3, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 539,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma palestra sobre o papel da Criminalística no Estado Democrático de Direito, o palestrante afirma que a ciência forense não se restringe a ser ferramenta de apoio, mas eleva-se à condição de garantidora da Justiça e dos Direitos Humanos. Considerando o exposto no Cap. 3, qual das afirmações a seguir reflete com maior precisão essa concepção?",
+    "alternativas": {
+      "A": "A função garantidora decorre do fato de o perito vincular-se hierarquicamente ao Ministério Público, único órgão capaz de assegurar imparcialidade processual aos resultados periciais.",
+      "B": "O caráter garantidor é assegurado pela vinculação direta da perícia ao delegado de polícia, que orienta a metodologia analítica e valida cientificamente as conclusões do perito.",
+      "C": "A perícia funciona como ferramenta central de controle e validação da investigação criminal; ao submeter a hipótese acusatória ao crivo do método científico e documentar seu raciocínio em laudo metodologicamente transparente, o perito previne arbitrariedades e condenações injustas.",
+      "D": "A função garantidora restringe-se ao oferecimento de pareceres jurídicos sobre dolo, culpa e autoria, permitindo ao perito suprir lacunas decisórias do magistrado em casos de difícil convencimento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O Cap. 3 afirma que 'a perícia não opera como um mero apêndice da polícia judiciária, mas sim como a ferramenta central de controle e validação da investigação criminal' e que 'ao confirmar ou refutar uma hipótese criminal de forma técnica, documentando seu raciocínio lógico em um Laudo de Perícia Criminal Federal preciso e metodologicamente transparente, o perito previne arbitrariedades e condenações injustas'.",
+    "referencia": "Cap. 3, Seções 3.2 e 3.6, p. 28 e 31-32",
+    "nivel": "dificil"
+  }
+]

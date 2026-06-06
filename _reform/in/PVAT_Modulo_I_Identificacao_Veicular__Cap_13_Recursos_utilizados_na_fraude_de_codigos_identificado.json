@@ -1,0 +1,70 @@
+[
+  {
+    "id": 629,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material aponta que a ampla disponibilização comercial de equipamentos capazes de regravar o VIN constitui fator de risco relevante para fraudes em códigos identificadores veiculares. Sobre os recursos utilizados por fraudadores e os métodos disponíveis no mercado, analise as afirmativas: I. A facilidade de obtenção de etiquetas autocolantes, plaquetas adesivas e materiais com aparência destrutível, disponíveis no comércio eletrônico, permite substituição ou simulação de etiquetas com tipografias e layouts semelhantes aos originais. II. As gravações em vidros podem ser facilmente realizadas por meio de gravadores elétricos (canetas diamantadas/rotativas) ou por ataque químico com ácidos utilizando gabaritos, permitindo marcar caracteres VIS em para-brisas com rapidez e custo reduzido. III. Equipamentos como punção mecânica, micropercussão (dot peen), scribing, gravação eletrolítica e corrosão química com gabaritos estão facilmente disponíveis em plataformas de venda na internet, com diferentes níveis de precisão, controle de profundidade e acabamento. IV. A mera presença de um número gravado, de uma etiqueta aplicada ou de caracteres nos vidros já é suficiente, do ponto de vista técnico-pericial, para presunção de autenticidade, dispensando análises comparativas adicionais. Estão CORRETAS:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "Apenas I e III.",
+      "C": "II, III e IV.",
+      "D": "Apenas III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto confirma I ('A disponibilidade de insumos compatíveis permite substituição ou simulação de etiquetas, inclusive com tipografias e layouts semelhantes aos originais'); II ('facilidade de realização de gravações nos vidros por meio de gravadores elétricos (canetas diamantadas/rotativas) ou por ataque químico com ácidos utilizando gabaritos'); e III ('punção mecânica, micropercussão (dot peen), scribing, gravação eletrolítica e corrosão química com gabaritos... facilmente encontrados em plataformas de venda na internet, com diferentes níveis de precisão, controle de profundidade e acabamento'). IV é incorreta: o texto afirma expressamente que 'a mera presença de um número gravado, de uma etiqueta aplicada ou de caracteres nos vidros não equivale à autenticidade'.",
+    "referencia": "Cap. 13, p. 63-64",
+    "nivel": "medio"
+  },
+  {
+    "id": 630,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o deslocamento metodológico essencial que se impõe à perícia diante do cenário contemporâneo de ampla disponibilidade de equipamentos e insumos para fraude de códigos identificadores, assinale a alternativa que reflete a abordagem técnico-pericial CORRETA:",
+    "alternativas": {
+      "A": "Diante de equipamentos modernos capazes de produzir alinhamento e repetibilidade, a inspeção visual superficial passou a ser suficiente para a conclusão pericial, dispensando comparação com padrões industriais.",
+      "B": "A avaliação pericial deve verificar a compatibilidade entre o método de gravação observado, o padrão industrial original do fabricante, a época de produção do veículo e as normas técnicas vigentes à época, pois equipamentos contemporâneos e gabaritos permitem adulterações visualmente regulares, exigindo análise criteriosa e comparativa.",
+      "C": "A presença de etiquetas com tipografia e layout semelhantes aos originais é, por si só, garantia de autenticidade, dispensando análises adicionais por parte do perito.",
+      "D": "A análise deve restringir-se à verificação da existência física do número gravado, sendo irrelevante a confrontação com o padrão industrial do fabricante ou com a época de produção do veículo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o texto: 'Do ponto de vista técnico-pericial, essa realidade impõe um deslocamento metodológico essencial: a mera presença de um número gravado, de uma etiqueta aplicada ou de caracteres nos vidros não equivale à autenticidade. A avaliação deve verificar a compatibilidade entre o método de gravação observado, o padrão industrial original do fabricante, a época de produção do veículo e as normas técnicas vigentes à época. Equipamentos contemporâneos e gabaritos permitem adulterações visualmente regulares, com alinhamento e repetibilidade, exigindo análise criteriosa e comparativa'.",
+    "referencia": "Cap. 13, p. 64",
+    "nivel": "dificil"
+  },
+  {
+    "id": 699,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os equipamentos amplamente disponíveis no comércio e que constituem fator de risco para fraudes em códigos identificadores de veículos, o PVAT cita:",
+    "alternativas": {
+      "A": "Tornos CNC e prensas hidráulicas de uso restrito à indústria automobilística.",
+      "B": "Apenas punção mecânica e estampagem industrial controlada.",
+      "C": "Exclusivamente equipamentos de microscopia eletrônica de varredura e laser industrial.",
+      "D": "Punção mecânica, micropercussão (dot peen), scribing, gravação eletrolítica e corrosão química com gabaritos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme Cap. 13 - Recursos utilizados na fraude de códigos identificadores do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "nivel": "facil"
+  },
+  {
+    "id": 700,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito dos recursos utilizados na fraude de códigos identificadores e do enfoque pericial recomendado pelo PVAT, julgue os itens:\nI. Vidros podem ser fraudados com gravadores elétricos (canetas diamantadas/rotativas) ou por ataque químico com ácidos por meio de gabaritos.\nII. A mera presença de um número gravado, de etiqueta aplicada ou de caracteres nos vidros é suficiente para atestar a autenticidade do veículo.\nIII. Etiquetas autocolantes, plaquetas adesivas e materiais com aparência destrutível estão disponíveis no comércio eletrônico, permitindo substituição ou simulação com tipografia e layout semelhantes aos originais.\nIV. A avaliação pericial deve verificar a compatibilidade entre o método de gravação observado, o padrão industrial original do fabricante, a época de produção e as normas técnicas vigentes à época.\nEstão corretos apenas:",
+    "alternativas": {
+      "A": "I, III e IV.",
+      "B": "I, II e III.",
+      "C": "II e IV.",
+      "D": "I e II."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme Cap. 13 - Recursos utilizados na fraude de códigos identificadores do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "nivel": "dificil"
+  }
+]

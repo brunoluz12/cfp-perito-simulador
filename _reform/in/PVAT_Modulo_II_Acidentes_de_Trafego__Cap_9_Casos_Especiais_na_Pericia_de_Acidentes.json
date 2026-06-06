@@ -1,0 +1,138 @@
+[
+  {
+    "id": 813,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "A metodologia completa de análise do conflito 'velocidade excessiva × interceptação' é descrita em uma sequência de sete etapas. Sobre essas etapas, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A metodologia começa pelo cálculo da velocidade de fechamento e termina pela leitura do tacógrafo do veículo preferencial.",
+      "B": "A metodologia possui apenas três etapas: percepção, reação e impacto.",
+      "C": "A metodologia consiste em: (1) calcular Vt do veículo com excesso; (2) determinar Vic; (3) calcular tfre; (4) determinar ttotal = tpr + tfre; (5) calcular a distância percorrida pelo veículo preferencial no tempo ttotal nas duas velocidades; (6) retroagir os dois veículos para suas posições no instante de percepção; (7) verificar se, na velocidade regulamentar, o veículo interceptador teria liberado o caminho.",
+      "D": "A metodologia limita-se a comparar a velocidade desenvolvida com o limite da via, dispensando o cálculo de tempos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto descreve as 7 etapas exatamente: cálculo de Vt, Vic, tfre, ttotal = tpr + tfre, distância nas duas velocidades, retroagir os veículos e verificar liberação do caminho.",
+    "referencia": "Cap. 9, Seção 9.1, p. 59",
+    "nivel": "dificil"
+  },
+  {
+    "id": 814,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na análise do conflito velocidade excessiva × interceptação em cruzamento, se o veículo interceptador NÃO tivesse liberado o caminho mesmo na velocidade regulamentar, qual é a conclusão pericial CORRETA, conforme o material?",
+    "alternativas": {
+      "A": "A velocidade excessiva é a causa determinante única do acidente.",
+      "B": "A velocidade excessiva é causa concorrente e a interceptação é apenas circunstância acessória.",
+      "C": "Não há causa determinante identificável; o caso deve ser remetido sem conclusão.",
+      "D": "A velocidade excessiva NÃO é causa determinante; a interceptação é a causa determinante."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Texto: 'Se o veículo interceptador não tivesse liberado o caminho mesmo na velocidade regulamentar → a velocidade excessiva não é causa determinante; a interceptação é a causa determinante'.",
+    "referencia": "Cap. 9, Seção 9.1, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "id": 815,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de acidente envolvendo caminhão, o material destaca particularidades dos veículos pesados. Considere os itens a seguir:\n\nI. Centro de gravidade mais alto, com maior propensão a tombamento em curvas e manobras bruscas.\nII. Distância de frenagem maior, devido à massa (sobretudo à posição do centro de massa do conjunto) e às diferenças nos sistemas de freios.\nIII. Estruturas mais rígidas produzem deformação diferenciada nas avarias do veículo menor na colisão.\nIV. Existência de ângulos mortos, relevantes em atropelamentos e colisões.\nV. O tacógrafo é obrigatório em caminhões e ônibus, conforme art. 105, II, do CTB.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Todos os itens estão corretos.",
+      "B": "Apenas II, III e IV.",
+      "C": "Apenas I, III e V.",
+      "D": "Apenas I, II e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens reproduzem o texto da seção 9.2.1, que lista exatamente: centro de gravidade alto, maior distância de frenagem, deformação diferenciada, ângulo morto e tacógrafo obrigatório (art. 105, II, CTB).",
+    "referencia": "Cap. 9, Seção 9.2.1, p. 59-60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 816,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à leitura pericial do tacógrafo de um veículo pesado envolvido em acidente, assinale a alternativa que apresenta procedimento CORRETO recomendado pelo material.",
+    "alternativas": {
+      "A": "O perito deve apreender o disco em uso no momento do acidente, verificar a calibração do tacógrafo, identificar a hora do acidente e correlacionar com o registro de velocidade, e comparar com as marcas físicas de frenagem para validação cruzada.",
+      "B": "Basta confiar no relato do motorista, sem necessidade de apreensão física do disco ou da verificação de calibração.",
+      "C": "A leitura do disco-diagrama é definitiva e dispensa qualquer cruzamento com as marcas físicas de frenagem.",
+      "D": "O tacógrafo é dispositivo opcional em veículos pesados, sendo seu uso apenas recomendado pelas montadoras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Texto: 'O perito deve: Apreender o disco em uso no momento do acidente; Verificar a calibração do tacógrafo (certificado de calibração); Identificar a hora do acidente e correlacionar com o registro de velocidade; Comparar com as marcas físicas de frenagem para validação cruzada'.",
+    "referencia": "Cap. 9, Seção 9.2.2, p. 60",
+    "nivel": "medio"
+  },
+  {
+    "id": 817,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre particularidades periciais em acidentes com motocicletas, o material indica um intervalo de coeficiente de atrito (μ) específico para a motocicleta tombada sobre asfalto, utilizado para análise das marcas de arrasto. Qual é esse intervalo?",
+    "alternativas": {
+      "A": "μ ≈ 0,15 a 0,25.",
+      "B": "μ ≈ 0,55 a 0,70.",
+      "C": "μ ≈ 0,30 a 0,45.",
+      "D": "μ ≈ 0,80 a 0,95."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Texto: 'A motocicleta tombada produz marcas de arrasto distintas das marcas de frenagem convencional (coeficiente μ ≈ 0,55 a 0,70 para motocicleta tombada sobre asfalto)'.",
+    "referencia": "Cap. 9, Seção 9.3, p. 60",
+    "nivel": "medio"
+  },
+  {
+    "id": 818,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um atropelamento, o perito mediu a distância horizontal de projeção do pedestre desde o sítio de impacto até o sítio de repouso, obtendo dprojeção = 16 m. Aplicando-se a fórmula simplificada de trajetória parabólica apresentada no material, qual a velocidade aproximada de impacto?",
+    "alternativas": {
+      "A": "Aproximadamente 9,8 km/h.",
+      "B": "Aproximadamente 39,2 km/h.",
+      "C": "Aproximadamente 29,4 km/h.",
+      "D": "Aproximadamente 19,6 km/h."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A fórmula apresentada é 'Vimpacto ≈ 4,9 × √(dprojeção) [km/h]'. Para d = 16 m: Vimpacto ≈ 4,9 × √16 = 4,9 × 4 = 19,6 km/h.",
+    "referencia": "Cap. 9, Seção 9.4, p. 61",
+    "nivel": "dificil"
+  },
+  {
+    "id": 819,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre colisões frontais em rodovias, especialmente em pistas simples, considere a análise pericial que o material recomenda. Assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Em colisões frontais com grande deformação estrutural (esmigalhamento), o método das marcas pneumáticas pré-colisão pode não ser suficiente, podendo-se recorrer ao método de conservação da quantidade de movimento ou às tabelas de velocidade de danos.",
+      "B": "A velocidade de fechamento (soma das velocidades dos dois veículos) raramente supera 100 km/h, mesmo em rodovias de pista simples.",
+      "C": "A análise pericial deve se limitar à identificação do veículo que invadiu a faixa contrária, sendo desnecessário apurar o motivo da invasão.",
+      "D": "Em qualquer colisão frontal, basta o exame do EDR de apenas um dos veículos para definir as velocidades individuais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Texto: 'Em colisões frontais com grande deformação estrutural (esmigalhamento da frente dos veículos), o método das marcas pneumáticas pré-colisão pode não ser suficiente (...) Nestes casos, o método de conservação da quantidade de movimento (...) ou as tabelas de velocidade de danos tornam-se essenciais'.",
+    "referencia": "Cap. 9, Seção 9.5, p. 61",
+    "nivel": "medio"
+  },
+  {
+    "id": 820,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em acidentes com fuga (hit-and-run), o perito deve adotar procedimentos específicos para coletar evidências do veículo evasor. Considere os itens:\n\nI. Coletar todos os fragmentos de tinta, plástico e vidro do veículo ausente.\nII. Analisar a transferência de tinta nas avarias do veículo atingido.\nIII. Registrar o padrão de fragmentos para identificar marca, modelo e ano aproximado do veículo evasor.\nIV. Solicitar análise cromática e espectroscópica da tinta para confronto com o veículo suspeito.\nV. A base de dados do Denatran/Senatran, combinada com catálogos de fragmentos de faróis e sinaleiras, permite em muitos casos restringir significativamente o universo de veículos suspeitos.\n\nEstão CORRETAS:",
+    "alternativas": {
+      "A": "Apenas I e II.",
+      "B": "Apenas I, III e V.",
+      "C": "Todas as afirmativas.",
+      "D": "Apenas II, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens reproduzem fielmente as recomendações da seção 9.6: coleta de fragmentos, transferência de tinta, padrão de fragmentos, análise cromática/espectroscópica e uso do banco de dados Denatran/Senatran.",
+    "referencia": "Cap. 9, Seção 9.6, p. 62",
+    "nivel": "dificil"
+  }
+]

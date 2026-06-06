@@ -1,0 +1,223 @@
+[
+  {
+    "id": 516,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um curso de aperfeiçoamento, um instrutor afirma que 'a atividade pericial deve ser compreendida como uma sequência linear, em que o perito parte da observação dos vestígios e caminha, sem retornos, até a conclusão final'. À luz do que dispõe o Capítulo 16 sobre o ciclo científico aplicado à perícia, essa afirmação está:",
+    "alternativas": {
+      "A": "Correta, pois a previsibilidade do método científico exige que as etapas se sucedam sem retorno, sob pena de invalidar a perícia.",
+      "B": "Correta, desde que se trate de perícias de natureza laboratorial, em que a padronização impede revisões do percurso analítico.",
+      "C": "Incorreta, pois o ciclo científico na perícia é intrinsecamente iterativo: novas informações podem exigir o retorno a etapas anteriores, revisão de hipóteses e repetição de exames.",
+      "D": "Incorreta apenas quanto à terminologia empregada, pois, embora a sequência seja, sim, linear, ela deve ser denominada 'ciclo' por convenção forense."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Seção 16.1 afirma expressamente que 'a ciência forense é intrinsecamente iterativa', podendo o perito retornar a etapas anteriores, revisar hipóteses e repetir exames diante de novas informações. A visão de processo estritamente linear é rejeitada pelo texto.",
+    "referencia": "Cap. 16, Seção 16.1, p. 135-136",
+    "nivel": "facil"
+  },
+  {
+    "id": 517,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Renato, ao analisar uma cena de homicídio, propõe a seguinte hipótese: 'a vítima foi morta por motivos espirituais ocultos, que não deixam qualquer rastro material e que não podem ser verificados por qualquer exame conhecido'. Em outra investigação, propõe a hipótese de que 'a lesão da vítima é compatível com disparo de arma de fogo a curta distância, em razão da presença de zona de tatuagem'. Considerando os requisitos das hipóteses científicas previstos no Capítulo 16, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Ambas as hipóteses são científicas, pois foram formuladas por um perito habilitado, requisito suficiente para conferir-lhes caráter científico.",
+      "B": "Nenhuma das hipóteses é científica, pois hipóteses periciais somente se tornam científicas após confirmação laboratorial.",
+      "C": "Apenas a primeira é científica, pois traz uma explicação mais ampla, característica desejável em qualquer hipótese pericial.",
+      "D": "Apenas a segunda hipótese é científica, pois é testável empiricamente, ao passo que a primeira não atende ao requisito de testabilidade exigido das hipóteses científicas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a Seção 16.2, a testabilidade é requisito indispensável para que uma hipótese seja considerada científica. Hipóteses que dependem de crenças pessoais ou de intenções ocultas que não deixam rastros e nunca poderiam ser verificadas empiricamente não pertencem ao domínio da ciência. A segunda hipótese, por permitir verificação por exames objetivos, é científica.",
+    "referencia": "Cap. 16, Seção 16.2, p. 136-137",
+    "nivel": "medio"
+  },
+  {
+    "id": 518,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma audiência, o perito é questionado sobre o porquê de o laudo afirmar que suas conclusões são 'provisórias e abertas à revisão'. Com base no princípio da falseabilidade, conforme tratado no Capítulo 16, assinale a alternativa que melhor justifica essa postura.",
+    "alternativas": {
+      "A": "Trata-se de uma exigência meramente formal, sem reflexo na essência da prova pericial, destinada a satisfazer eventuais recursos das partes.",
+      "B": "Porque, por exigência legal, todo laudo pericial criminal federal deve trazer ressalva escrita afirmando ser 'provisório', sob pena de nulidade processual.",
+      "C": "Porque a ciência, inclusive a forense, não busca provar definitivamente que algo é verdadeiro; ela submete hipóteses a testes rigorosos, mantendo-as enquanto resistirem à refutação e abandonando-as quando acumularem evidências contrárias.",
+      "D": "Porque o perito não tem competência técnica para chegar a conclusões definitivas, devendo sempre delegá-las ao magistrado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Seção 16.3, ao assumir a falseabilidade como critério, a ciência abandona a pretensão de certeza, sendo o conhecimento sempre provisório. A ciência forense avança pela eliminação progressiva de hipóteses inadequadas, não pela confirmação definitiva.",
+    "referencia": "Cap. 16, Seção 16.3, p. 137",
+    "nivel": "medio"
+  },
+  {
+    "id": 519,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de uma cena de crime complexa, o perito observa uma série de vestígios fragmentados e, ainda sem todos os resultados laboratoriais, busca formular a explicação mais plausível para o conjunto observado, com base na sua experiência e nos elementos contextuais disponíveis. Posteriormente, partindo da regra geral validada de que determinado reagente reage exclusivamente com uma substância específica, ele conclui pela presença dessa substância na amostra. Por fim, ao comparar inúmeras cenas com padrões repetidos de fratura de vidros, generaliza mecanismos típicos de ruptura. Esses três momentos correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "Indução, abdução e dedução.",
+      "B": "Dedução, indução e abdução.",
+      "C": "Abdução, dedução e indução.",
+      "D": "Abdução, indução e dedução."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Seção 16.4: a abdução formula a explicação mais plausível para um conjunto de observações disponíveis (primeiro momento); a dedução parte de princípios gerais para chegar a conclusões necessárias em casos particulares (segundo momento); a indução parte de observações particulares para formular generalizações (terceiro momento).",
+    "referencia": "Cap. 16, Seção 16.4, p. 138-139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 520,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Helena, ao receber um caso, é informada extraoficialmente pela autoridade requisitante de que 'o suspeito X é, sem dúvida, o autor do crime'. A partir desse momento, ela passa a interpretar os vestígios com tendência a confirmar essa suspeita inicial, atribuindo maior peso aos elementos que a reforçam. Considerando os vieses cognitivos tratados no Capítulo 16, é CORRETO afirmar que ela está sob influência, predominantemente, de qual(is) viés(es)?",
+    "alternativas": {
+      "A": "Viés de ancoragem e viés de confirmação, sendo o primeiro relacionado à influência desproporcional da informação inicial e o segundo à tendência de valorizar evidências que confirmem hipótese prévia.",
+      "B": "Viés retrospectivo, exclusivamente, em razão da percepção a posteriori de que o resultado era 'óbvio'.",
+      "C": "Viés de autoridade, exclusivamente, em razão da fonte da informação inicial, sem qualquer outra interferência cognitiva relevante.",
+      "D": "Viés de enquadramento, exclusivamente, pois a forma de apresentação da informação inicial alterou a interpretação dos vestígios."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 16.5 descreve o viés de ancoragem como a influência desproporcional da primeira informação recebida e o viés de confirmação como a tendência de valorizar evidências que confirmem hipóteses prévias. Ambos atuam concomitantemente no cenário descrito, sendo a alternativa A a mais precisa.",
+    "referencia": "Cap. 16, Seção 16.5, p. 139",
+    "nivel": "medio"
+  },
+  {
+    "id": 521,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as estratégias institucionais e procedimentais para mitigação de vieses cognitivos na perícia, conforme tratado no Capítulo 16, julgue os itens a seguir:\n\nI - A adoção de exames cegos ou parcialmente cegos, em que o perito não tem acesso a determinadas informações contextuais, é uma estratégia válida.\nII - O sequenciamento controlado da entrega de informações ao perito visa evitar que dados iniciais distorçam a análise dos vestígios.\nIII - Confiar exclusivamente na experiência e na boa intenção do perito é suficiente para neutralizar vieses cognitivos, dispensando medidas estruturais.\nIV - A revisão por pares e a utilização de protocolos padronizados, validados e amplamente aceitos são mecanismos adicionais de controle de qualidade.\nV - O registro prévio de observações e decisões em cadernos de campo ou sistemas informatizados permite a posterior reconstrução do raciocínio.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II, IV e V.",
+      "B": "I, III, IV e V.",
+      "C": "I, II e III.",
+      "D": "II, III e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 16.5 afirma que 'para reduzir o impacto desses vieses, não basta confiar apenas na boa intenção ou na experiência individual do perito', sendo necessárias medidas estruturais (item III incorreto). Os demais itens correspondem fielmente às estratégias listadas: exames cegos, sequenciamento controlado, registros prévios, revisão por pares e protocolos padronizados.",
+    "referencia": "Cap. 16, Seção 16.5, p. 140",
+    "nivel": "medio"
+  },
+  {
+    "id": 522,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em discussão técnica, dois peritos debatem sobre conceitos centrais da metodologia científica forense. O perito A afirma que 'reprodutibilidade' significa a capacidade de um método produzir resultados consistentes mesmo diante de pequenas variações nas condições experimentais. O perito B afirma que 'robustez' significa a capacidade de outros profissionais, utilizando métodos equivalentes, obterem resultados compatíveis ao repetir o exame. À luz do Capítulo 16, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Ambos os peritos estão corretos, pois reprodutibilidade e robustez são conceitos intercambiáveis na ciência forense.",
+      "B": "Ambos os peritos estão errados, pois trocaram as definições: reprodutibilidade refere-se a obter resultados compatíveis ao repetir o exame, e robustez à consistência diante de pequenas variações nas condições experimentais.",
+      "C": "Apenas o perito A está correto, pois reprodutibilidade engloba a robustez como subconceito.",
+      "D": "Apenas o perito B está correto, pois a robustez é o critério fundamental que justifica a aceitação pelo Judiciário."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a Seção 16.5, a reprodutibilidade diz respeito à capacidade de outros profissionais obterem resultados compatíveis ao repetirem o exame, enquanto a robustez refere-se à capacidade de o método produzir resultados consistentes mesmo diante de pequenas variações nas condições experimentais. Os peritos trocaram as definições.",
+    "referencia": "Cap. 16, Seção 16.5, p. 140-141",
+    "nivel": "medio"
+  },
+  {
+    "id": 523,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na validação de um método pericial, o capítulo 16 lista parâmetros como precisão, exatidão, sensibilidade, especificidade e limites de detecção. Considere as afirmações a seguir e indique a que apresenta a correspondência conceitual CORRETA entre o parâmetro e seu significado.",
+    "alternativas": {
+      "A": "Exatidão corresponde à repetibilidade dos resultados, enquanto precisão corresponde à proximidade em relação ao valor verdadeiro.",
+      "B": "Precisão corresponde à repetibilidade dos resultados, enquanto exatidão corresponde à proximidade em relação ao valor verdadeiro.",
+      "C": "Especificidade corresponde à capacidade de detectar pequenas quantidades da substância de interesse, enquanto sensibilidade corresponde à capacidade de distinguir essa substância de outras semelhantes.",
+      "D": "Limites de detecção correspondem à proximidade em relação ao valor verdadeiro, enquanto precisão corresponde à capacidade de distinguir substâncias semelhantes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Seção 16.5 define expressamente: precisão como repetibilidade dos resultados; exatidão como proximidade em relação ao valor verdadeiro; sensibilidade como capacidade de detectar pequenas quantidades; especificidade como capacidade de distinguir substâncias semelhantes. A alternativa C reproduz fielmente as definições de precisão e exatidão.",
+    "referencia": "Cap. 16, Seção 16.5, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 524,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do laudo pericial como produto científico, conforme tratado no Capítulo 16, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O laudo é um documento meramente administrativo, sendo dispensável detalhar o raciocínio técnico, bastando informar resultados conclusivos para apoiar a decisão judicial.",
+      "B": "A discussão dos resultados é dispensável quando a conclusão é objetiva, pois a interpretação cabe ao julgador, e não ao perito.",
+      "C": "A linguagem do laudo deve ser estritamente técnica e hermética, sendo papel exclusivo da defesa ou do magistrado interpretá-la com auxílio de assistente técnico.",
+      "D": "O laudo deve materializar o raciocínio científico, com seções como histórico, objeto, exame, discussão e conclusão, que refletem a própria sequência lógica do método científico aplicado à perícia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 16.6 afirma que o laudo é a 'materialização escrita de todo o processo científico realizado pelo perito' e descreve as seções histórico, objeto, exame, discussão e conclusão como reflexo da sequência lógica do método científico aplicado à perícia.",
+    "referencia": "Cap. 16, Seção 16.6, p. 142-143",
+    "nivel": "facil"
+  },
+  {
+    "id": 525,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a relação entre ciência, transparência e confiança na atividade pericial, conforme abordado no Capítulo 16, assinale a alternativa que melhor sintetiza a posição do texto.",
+    "alternativas": {
+      "A": "A perícia deve se apresentar como um conjunto de afirmações inquestionáveis, pois sua autoridade técnica decorre da posição institucional do perito.",
+      "B": "A perícia deve se apresentar como o resultado de um procedimento científico passível de análise, reprodução, debate e revisão, sendo o método científico também instrumento de legitimação da prova pericial.",
+      "C": "A transparência metodológica é dispensável quando o perito possui notório saber, pois sua experiência supre eventuais lacunas explicativas.",
+      "D": "A confiança na perícia decorre, sobretudo, da autoridade institucional do órgão que a produz, e apenas de modo secundário da transparência do raciocínio empregado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Seção 16.7 estabelece que a perícia 'não deve se apresentar como um conjunto de afirmações inquestionáveis, mas como o resultado de um procedimento científico que pode ser analisado, reproduzido, debatido e, se necessário, revisado', sendo o método também instrumento de legitimação da prova.",
+    "referencia": "Cap. 16, Seção 16.7, p. 143",
+    "nivel": "medio"
+  },
+  {
+    "id": 526,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Marina formulou inicialmente a hipótese de que determinada lesão foi produzida por instrumento perfurocontundente. Após análise complementar, novos resultados laboratoriais sugerem um padrão incompatível com essa hipótese. Com base no encadeamento do ciclo científico aplicado à perícia (Cap. 16), qual deve ser a postura tecnicamente adequada da perita?",
+    "alternativas": {
+      "A": "Manter a hipótese original, em razão da expectativa inicial e do tempo investido na análise, registrando os achados divergentes como artefatos.",
+      "B": "Suspender o exame até que a autoridade requisitante esclareça qual hipótese é juridicamente preferível à investigação.",
+      "C": "Concluir o laudo com a hipótese original, observando que questionamentos sobre divergências caberão ao assistente técnico em fase contraditória.",
+      "D": "Retornar a etapas anteriores do ciclo científico, revisar a hipótese e, se necessário, reformulá-la ou descartá-la, repetindo exames caso pertinente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 16.1 (e reforço na 16.3) descreve o ciclo científico como iterativo, exigindo que o perito retorne a etapas anteriores, revise hipóteses e, se necessário, repita exames quando novas informações se mostrarem incompatíveis com a hipótese inicial. Manter hipótese descartada por dados configura viés de confirmação, indesejável.",
+    "referencia": "Cap. 16, Seções 16.1 e 16.3, p. 135-137",
+    "nivel": "medio"
+  },
+  {
+    "id": 568,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um laboratório de perícia criminal, o setor de garantia da qualidade decide auditar dois conceitos centrais para a confiabilidade dos exames: a reprodutibilidade e a robustez metodológica. Durante a auditoria, surge a discussão sobre qual seria a definição operacional adequada de cada conceito e quais práticas institucionais os sustentam. Com base no que apresenta o Capítulo 16, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Reprodutibilidade significa que o método mantém resultados consistentes mesmo diante de pequenas variações nas condições experimentais, enquanto robustez é a capacidade de outro perito repetir o exame e chegar a resultados compatíveis.",
+      "B": "A robustez metodológica dispensa procedimentos de validação prévia, desde que o método seja amplamente utilizado na rotina pericial, e a reprodutibilidade é considerada secundária quando o perito que assinou o laudo é experiente.",
+      "C": "Reprodutibilidade e robustez são sinônimos no contexto da ciência forense, ambos descrevendo a capacidade de o método não falhar diante de variações experimentais, sendo a distinção apenas terminológica.",
+      "D": "Reprodutibilidade refere-se a outro perito, usando métodos equivalentes e a mesma documentação, obter resultados compatíveis; robustez refere-se a o método produzir resultados consistentes mesmo com pequenas variações inevitáveis nas condições experimentais, como flutuações de temperatura ou diferenças entre lotes de reagentes."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 16 (item 16.5, subseção Reprodutibilidade e Robustez Metodológica, p. 140-141): reprodutibilidade é obter resultados compatíveis ao repetir o exame com métodos equivalentes; robustez é a capacidade do método produzir resultados consistentes mesmo com pequenas variações nas condições experimentais (temperatura, lotes de reagentes, variações operacionais). A robustez exige validação prévia e controle de qualidade, refutando a alternativa D. A alternativa A inverte os conceitos.",
+    "referencia": "Cap. 16, Seção 16.5, p. 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 569,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "julgue_itens",
+    "enunciado": "O Capítulo 16 ressalta que os vieses cognitivos são universais do funcionamento cognitivo humano e podem comprometer a objetividade pericial, demandando medidas estruturais de mitigação. Julgue os itens abaixo sobre vieses cognitivos na perícia e suas estratégias de mitigação. I. O viés de ancoragem ocorre quando a primeira informação recebida (por exemplo, uma suspeita preliminar do inquérito ou um relato informal) exerce influência desproporcional sobre os julgamentos subsequentes do perito, dificultando a consideração imparcial de informações posteriores. II. O viés de confirmação consiste na tendência de buscar, valorizar ou recordar com mais facilidade evidências que reforcem a hipótese previamente adotada, ao mesmo tempo em que se minimizam dados contrários, sendo decorrente, em regra, de má-fé ou negligência do perito. III. Estratégias como exames cegos ou parcialmente cegos e sequenciamento controlado de informações visam reduzir vieses contextuais ao restringir o acesso do perito a dados não pertinentes ao exame e definir a ordem em que informações lhe são fornecidas. IV. O viés retrospectivo (hindsight) leva o observador a perceber, depois de ocorrido um evento, que o resultado era previsível ou óbvio, distorcendo a avaliação de decisões e alternativas que estavam disponíveis no momento original. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "I, II e IV.",
+      "C": "II, III e IV.",
+      "D": "I, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme Cap. 16, item 16.5 (p. 139-140): o item II está INCORRETO ao afirmar que o viés de confirmação decorre de má-fé ou negligência — o texto é explícito ao dizer que vieses cognitivos nao decorrem de negligencia, ma-fe ou falta de competencia profissional, mas sao caracteristicas universais do funcionamento cognitivo humano, presentes mesmo em especialistas experientes. Os itens I (ancoragem), III (exames cegos/sequenciamento) e IV (viés retrospectivo) reproduzem fielmente o texto.",
+    "referencia": "Cap. 16, Seção 16.5, p. 16",
+    "nivel": "dificil"
+  }
+]

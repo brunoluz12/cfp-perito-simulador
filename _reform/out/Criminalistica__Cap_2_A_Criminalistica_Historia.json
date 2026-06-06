@@ -1,0 +1,218 @@
+[
+  {
+    "id": 411,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um congresso internacional sobre a história das ciências forenses, debate-se quando, de fato, a investigação criminal assumiu caráter técnico-científico formal e quais campos do conhecimento, antes do século XIX, já contribuíam de forma sistemática para a elucidação de crimes. Com base no material da disciplina, assinale a afirmação correta.",
+    "alternativas": {
+      "A": "A fase técnico-científica formal é bem recente; até o século XIX, praticamente só a Medicina emprestava conhecimentos científicos à investigação de alguns crimes, os perpetrados contra a integridade física humana.",
+      "B": "A fase técnico-científica formal da investigação policial é bem recente; até o final do século XIX, praticamente apenas a Química emprestava seus conhecimentos à investigação, sobretudo nos crimes patrimoniais e nos casos de envenenamento por arsênico.",
+      "C": "A fase técnico-científica formal já estava plenamente consolidada na Roma Antiga, quando o jurista Quintiliano, por volta do ano 1000, passou a aplicar rotineiramente impressões digitais a todos os crimes praticados contra o patrimônio.",
+      "D": "Antes do século XIX, Medicina, Química e Física já atuavam conjuntamente e de forma sistemática na investigação criminal, configurando uma fase técnico-científica plenamente estabelecida.",
+      "E": "A Criminalística surgiu já estruturada como disciplina autônoma na Antiguidade chinesa, por volta do ano 700, dispondo então de um sistema formal e completo de classificação de impressões digitais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o texto afirma que 'Formalmente, a fase técnico-científica da investigação policial é bem recente. Até o século XIX, praticamente, apenas a Medicina emprestava seus conhecimentos científicos à investigação de alguns crimes, precisamente, aqueles perpetrados contra a integridade física do ser humano.' B erra ao trocar Medicina por Química como campo central anterior ao século XIX. C é falsa: Quintiliano foi advogado romano e o uso de digitais ensanguentadas foi episódico, não rotineiro, e não consolidou nenhuma fase técnico-científica. D é falsa porque, até o século XIX, não havia atuação sistemática conjunta dessas ciências. E é falsa: 'No ano 700, os chineses usaram impressões digitais (...) mas sem qualquer sistema de classificação formal dessas impressões', e a Criminalística não surgiu como disciplina autônoma na Antiguidade.",
+    "referencia": "Cap. 2, Introdução, p. 17",
+    "nivel": "facil"
+  },
+  {
+    "id": 412,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma aula sobre a história da Criminalística, o professor descreve duas contribuições: (i) o autor que publicou, em 1891, a primeira descrição compreensiva do uso de evidência física na solução de crimes, a quem se atribui ainda a criação do termo Criminalística, em 1893, com a publicação do Tratado de Criminalística; e (ii) o autor que, em 1813, publicou um Tratado de Toxicologia Geral, considerado o pai da toxicologia moderna e o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen. Os autores corretamente associados a essas contribuições são, respectivamente:",
+    "alternativas": {
+      "A": "Alphonse Bertillon e Mathieu Orfila.",
+      "B": "Hans Gross e Karl Landsteiner.",
+      "C": "Hans Gross e Mathieu Orfila.",
+      "D": "Juan Vucetich e Henry Faulds.",
+      "E": "Sir William Herschel e Edward Richard Henry."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C. O texto registra que 'Em 1891, o alemão Hans Gross (...) publicou o livro Investigação Criminal, a primeira descrição compreensiva do uso de evidência física na solução de crimes', e a ele se atribui a criação do termo Criminalística em 1893, com o Tratado de Criminalística; e que 'Em 1813, Mathieu Orfila (...) publicou um Tratado de Toxicologia Geral. Ele é considerado o pai da toxicologia moderna (...) e foi o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen.' A erra ao atribuir a primeira contribuição a Bertillon (criador da antropometria, 1883). B erra ao associar a segunda contribuição a Landsteiner (grupos sanguíneos, 1900). D e E trocam por autores ligados às impressões digitais (Vucetich, Faulds, Herschel) e à classificação datiloscópica (Henry).",
+    "referencia": "Cap. 2, Introdução, p. 17-18",
+    "nivel": "medio"
+  },
+  {
+    "id": 413,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as razões históricas, sociais e jurídicas que, ao longo do século XIX, justificaram o surgimento da Criminalística como área autônoma de análise e interpretação dos vestígios materiais do crime, julgue os itens:\n\nI. A confissão do acusado perdeu o status de 'rainha das provas' em razão da desmoralização desse meio probatório.\nII. A repulsa social à arbitrariedade e à violência policial pressionou pelo desenvolvimento de uma análise científica dos vestígios.\nIII. A fragilidade da prova testemunhal — pois pessoas esquecem, têm medo de represálias ou mentem para acobertar alguém — reforçou a necessidade do exame de vestígios materiais.\nIV. O desenvolvimento social simplificou as relações e diminuiu os conflitos, reduzindo a necessidade da prova material.\nV. Na Europa, sobretudo Inglaterra e França, surgiram, no século XIX, especialistas em investigação de fraudes documentais por meio do estudo da escrita, dando origem à Grafoscopia e à Documentoscopia.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "I, II e IV.",
+      "C": "II, III e IV.",
+      "D": "I, II, III e V.",
+      "E": "I, III, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D (I, II, III e V). O texto afirma que, 'com o progresso do conhecimento científico (...) a constatação da fragilidade da prova testemunhal e da desmoralização da confissão do acusado, que perdeu o status de rainha das provas', somada à repulsa à violência policial, fez surgir a necessidade de uma área especializada na análise dos vestígios materiais (itens I, II e III corretos). O item V também é correto: na Europa, em especial Inglaterra e França, surgiam especialistas em fraudes documentais, dando origem à Grafoscopia e à Documentoscopia. O item IV é falso, pois 'o desenvolvimento torna as relações sociais mais complexas e aumenta a ocorrência de conflitos, fazendo crescer o índice de criminalidade'. Logo, qualquer alternativa que inclua o item IV (B, C, E) está incorreta, assim como A, que omite o item V.",
+    "referencia": "Cap. 2, Introdução, p. 18-19",
+    "nivel": "dificil"
+  },
+  {
+    "id": 414,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma palestra, afirma-se que, no Brasil, a história da Criminalística tem origem na Medicina Legal e que seu marco inaugural ocorreu no final do século XIX, na Bahia, com um catedrático que, ao assumir em 1891 a cátedra de Medicina Legal da Faculdade de Medicina da Bahia, estruturou em Salvador o primeiro grande serviço pericial organizado do país, influenciado por Cesare Lombroso e introdutor da antropologia criminal e da antropometria judicial de Bertillon. Esse catedrático e os discípulos que levaram a Medicina Legal científica, respectivamente, ao Rio de Janeiro e a São Paulo são:",
+    "alternativas": {
+      "A": "Nina Rodrigues; Afrânio Peixoto (Rio de Janeiro) e Oscar Freire (São Paulo).",
+      "B": "Raimundo Nina Rodrigues; Oscar Freire (Rio de Janeiro) e Afrânio Peixoto (São Paulo).",
+      "C": "Oscar Freire; Afrânio Peixoto, no Rio de Janeiro, e Raimundo Nina Rodrigues, em São Paulo.",
+      "D": "Afrânio Peixoto; Oscar Freire (Rio de Janeiro) e Nina Rodrigues (São Paulo).",
+      "E": "Raimundo Nina Rodrigues; Hans Gross (Rio de Janeiro) e Mathieu Orfila (São Paulo)."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto afirma que 'O marco inaugural dessa trajetória ocorreu na Bahia, no final do século XIX, com a atuação de Raimundo Nina Rodrigues. Ao assumir, em 1891, a cátedra de Medicina Legal da Faculdade de Medicina da Bahia (...) estruturou, em Salvador, o primeiro grande serviço pericial organizado do Brasil.' E que, entre seus discípulos, 'destacam-se Afrânio Peixoto, que teve atuação decisiva na organização dos serviços médico-legais no Rio de Janeiro, e Oscar Freire, cuja influência foi determinante para a consolidação da Medicina Legal científica em São Paulo.' B inverte as cidades dos discípulos. C e D trocam o catedrático inaugural (Nina Rodrigues) por discípulos seus. E mantém Nina Rodrigues, mas associa como discípulos autores estrangeiros (Gross e Orfila), que não foram seus discípulos.",
+    "referencia": "Cap. 2, Seção 2.1, p. 19-20",
+    "nivel": "medio"
+  },
+  {
+    "id": 415,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sustenta-se, em debate acadêmico, que a expressão 'Medicina Legal' tornou-se insuficiente para abarcar a pluralidade de conhecimentos técnico-científicos envolvidos na produção da prova material no Brasil, pois a investigação científica passou a demandar a atuação de outros especialistas. Com base no texto, qual sequência descreve corretamente essa expansão histórica?",
+    "alternativas": {
+      "A": "Primeiro vieram os químicos, sobretudo nos exames toxicológicos e nos envenenamentos, seguidos de farmacêuticos, biólogos, físicos e outras áreas.",
+      "B": "Inicialmente foram incorporados os farmacêuticos e os biólogos, atuantes nas necropsias, e somente após a década de 1960 é que surgiram os químicos, voltados de modo prioritário aos exames toxicológicos.",
+      "C": "Primeiramente foram incorporados os engenheiros e os contadores, voltados à perícia patrimonial e contábil, seguindo-se os químicos forenses apenas no final do século XX.",
+      "D": "Os primeiros a serem incorporados foram os papiloscopistas, com a antropometria de Bertillon, seguindo-se imediatamente os agrônomos e veterinários.",
+      "E": "Houve a substituição completa dos médicos-legistas por químicos e biólogos já no início do século XX, com a consequente extinção dos Institutos Médico-Legais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto afirma que 'a investigação científica passou a demandar a atuação de outros especialistas, inicialmente com destaque para os químicos, sobretudo nos exames toxicológicos e na investigação de envenenamentos, seguidos por outros profissionais como farmacêuticos, biólogos, físicos e outros profissionais de múltiplas áreas do saber.' B inverte a ordem, colocando farmacêuticos e biólogos antes dos químicos. C inventa a precedência de engenheiros e contadores. D confunde a expansão com a datiloscopia/antropometria. E é falsa: não houve substituição completa dos legistas nem extinção dos IMLs — ao contrário, a Medicina Legal permanece como ramo da Criminalística.",
+    "referencia": "Cap. 2, Seção 2.1, p. 20",
+    "nivel": "medio"
+  },
+  {
+    "id": 416,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em reunião institucional, discutem-se dois marcos da consolidação da Criminalística no Brasil: (i) o congresso em que foi oficialmente adotada a denominação 'Criminalística' em substituição ao termo 'Polícia Técnica'; e (ii) a inauguração, em Brasília, do Instituto de Criminalística vinculado ao Departamento Federal de Segurança Pública, que posteriormente daria origem ao Instituto Nacional de Criminalística. Esses eventos ocorreram, respectivamente, em:",
+    "alternativas": {
+      "A": "1947 (I Congresso Nacional de Polícia Técnica, em São Paulo) e 1962 (inauguração em Brasília).",
+      "B": "1962 (I Congresso Nacional de Polícia Técnica, em São Paulo) e 1991 (inauguração em Brasília).",
+      "C": "1893 (publicação do Tratado de Criminalística) e 1947 (inauguração em Brasília).",
+      "D": "1891 (cátedra de Nina Rodrigues, na Bahia) e 1947 (I Congresso Nacional de Polícia Técnica).",
+      "E": "1947 (I Congresso Nacional de Polícia Técnica, em São Paulo) e 1947 (inauguração em Brasília, no mesmo congresso)."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto afirma que 'Um importante marco institucional ocorreu em 1947, durante a realização, em São Paulo, do I Congresso Nacional de Polícia Técnica, ocasião em que foi oficialmente adotada a denominação Criminalística em substituição ao termo Polícia Técnica', e que 'em 1962, com a inauguração, em Brasília, do Instituto de Criminalística vinculado ao Departamento Federal de Segurança Pública (...) foram lançadas as bases da moderna perícia criminal federal'. B troca a data do congresso (era 1947, não 1962) e da inauguração. C e D confundem os marcos com datas de outros eventos (Tratado de Criminalística de Gross e cátedra de Nina Rodrigues). E erra ao fundir ambos os marcos em 1947, quando a inauguração em Brasília ocorreu em 1962.",
+    "referencia": "Cap. 2, Seção 2.1, p. 20-21",
+    "nivel": "facil"
+  },
+  {
+    "id": 417,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em juízo, um advogado emprega os termos 'criminologia' e 'criminalística' como sinônimos. O perito é chamado a esclarecer a distinção. Com base nos conceitos de Naufél (2002) e demais doutrinadores citados no texto, o esclarecimento tecnicamente correto é:",
+    "alternativas": {
+      "A": "A criminologia estuda crimes, criminosos e criminalidade como fenômeno individual e social, orientando a Política Penal; a criminalística visa à materialidade do delito e à identificação dos criminosos e do modus operandi.",
+      "B": "A criminalística estuda os crimes e os criminosos como fenômeno individual e social, fornecendo elementos para a orientação da Política Penal; já a criminologia objetiva a comprovação da materialidade do delito e a identificação do modus operandi, sem qualquer preocupação de ordem sociológica.",
+      "C": "A criminologia comprova a materialidade do delito e identifica o modus operandi do criminoso, ao passo que a criminalística estuda o crime como fenômeno individual e social, orientando a Política Penal.",
+      "D": "Ambas têm exatamente o mesmo objeto, diferindo apenas pela origem linguística — criminologia é termo latino e criminalística é termo germânico —, e ambas tratam exclusivamente do exame de vestígios materiais.",
+      "E": "A criminologia restringe-se ao exame de vestígios materiais, enquanto a criminalística cuida exclusivamente da política criminal e da prevenção do delito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto afirma que 'Criminologia, segundo Naufél (2002), é a ciência que estuda os crimes e os criminosos, isto é, a criminalidade (...). A criminologia estuda o delito como fenômeno individual e como fato social, fornecendo os elementos para orientação da Política Penal', enquanto 'a criminalística (...) objetiva a comprovação da materialidade do delito e a identificação dos criminosos e do seu modus operandi, sem se preocupar com o aspecto sociológico do crime'. B e C invertem os objetos das duas ciências. D é falsa porque os objetos são distintos, e a distinção não é meramente linguística. E inverte por completo os conceitos.",
+    "referencia": "Cap. 2, Seção 2.2, p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 418,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "No I Congresso Nacional de Polícia Técnica (1947), a Criminalística foi definida como a 'disciplina que tem por objetivo o reconhecimento e a interpretação dos indícios materiais extrínsecos relativos ao crime ou à identidade do criminoso', cabendo os exames dos vestígios intrínsecos (na pessoa) à Medicina Legal. Examinando essa definição à luz dos conceitos atuais, é correto afirmar que:",
+    "alternativas": {
+      "A": "Talvez adequada àquele tempo, ela não expressa toda a missão da moderna Criminalística, hoje multidisciplinar, com Física, Química, Biologia, Engenharia, Informática e Medicina, entre outras.",
+      "B": "Essa definição expressa por completo a missão e o campo de ação da moderna Criminalística, sendo aplicada até hoje, sem qualquer alteração, por toda a Perícia Criminal Federal e estadual brasileira.",
+      "C": "Essa definição permanece plenamente atual quanto ao escopo, tendo sido apenas ampliada para incluir, além dos vestígios extrínsecos, também os exames psiquiátricos e sociológicos do criminoso reincidente.",
+      "D": "Essa definição extinguiu a Medicina Legal, que deixou de existir como ramo do conhecimento aplicado ao Direito após o congresso de 1947.",
+      "E": "Essa definição é restrita à Documentoscopia e à Grafotecnia, não abrangendo a Balística Forense nem a Merceologia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto registra que 'Essa definição, talvez adequada àquele tempo, não expressa por completo a missão e o campo de ação da moderna Criminalística. A Criminalística de que falavam os congressistas de 1947 era muito voltada para os crimes contra a pessoa (...). Hoje (...) a Criminalística (...) é multidisciplinar, lança mão de conhecimentos científicos de campos diversos' — Física, Química, Biologia, Contabilidade, Engenharia, Informática, Agronomia e Medicina, entre outros. B é falsa porque a definição de 1947 não é mais aplicada sem alterações. C inventa a inclusão de exames psiquiátricos/sociológicos, que pertencem ao campo sociológico estranho à criminalística. D é falsa: a Medicina Legal não foi extinta — é hoje ramo da Criminalística. E é falsa: a Criminalística abrange também Balística Forense e Merceologia.",
+    "referencia": "Cap. 2, Seção 2.2, p. 21-22",
+    "nivel": "medio"
+  },
+  {
+    "id": 419,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em exame cadavérico realizado isoladamente, o legista descreve a trajetória de entrada e saída de um projétil e conclui, com base apenas nesse dado, que o tiro foi disparado 'de cima para baixo'. Posteriormente, apura-se que a vítima pilotava uma motocicleta no momento do disparo — fato que altera a interpretação possível da trajetória. Esse exemplo, citado no texto, ilustra principalmente qual aspecto da Criminalística moderna?",
+    "alternativas": {
+      "A": "A necessidade de equipe multidisciplinar atuando em conjunto desde o local de crime, dando coerência aos diversos vestígios, sem o que conclusões isoladas podem se mostrar equivocadas.",
+      "B": "A primazia absoluta da Medicina Legal sobre todos os demais ramos da Criminalística, pois somente o médico-legista estaria habilitado a interpretar trajetórias de projétil com plena validade técnica e jurídica.",
+      "C": "A suficiência do exame cadavérico completo, que torna dispensável o exame do local de crime, já que a Medicina Legal supre integralmente os demais ramos.",
+      "D": "A recomendação de que a Criminalística se restrinja à análise dos vestígios intrínsecos, deixando o exame do local de crime aos investigadores não periciais.",
+      "E": "A prevalência do princípio da tempestividade, segundo o qual a conclusão do legista deve ser emitida o mais rápido possível, ainda que isolada dos demais exames."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto afirma que 'a Medicina e a Odontologia Forense fazem parte da equipe multidisciplinar que permite a atuação em conjunto desde o momento do exame do local de crime, trazendo muito mais coerência e correlação entre os resultados dos exames dos diversos tipos de vestígios encontrados', e exemplifica que a informação isolada da trajetória 'poderia levar a uma conclusão equivocada (...). Porém, se no local de crime fosse constatado que a vítima estava pilotando uma moto no momento do tiro, a conclusão poderia ser diferente'. B e C contrariam o texto, que defende a integração — e não a primazia ou suficiência isolada da Medicina Legal. D inverte a função da Criminalística no exame de local. E é falsa: o exemplo trata de integração de vestígios, não de rapidez/tempestividade.",
+    "referencia": "Cap. 2, Seção 2.2, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 420,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na investigação de uma escritura supostamente falsificada, cuja data de lavratura é alegadamente de 1921, um perito cogita datar o documento por meio da técnica do carbono 14. O coordenador demonstra que, para o período em questão, a margem de erro dessa técnica seria tão grande que não garantiria a solução do ponto questionado, e propõe substituí-la por exames mais adequados. Esse caso, citado no texto, ilustra principalmente qual atributo da metodologia da Criminalística?",
+    "alternativas": {
+      "A": "Precisão, pois os exames e a metodologia devem dar um resultado que resolva o ponto questionado com margem de segurança adequada.",
+      "B": "Tempestividade, pois a preocupação central, nesse caso, seria apenas com o tempo de obtenção do resultado pericial e com o atendimento ao princípio da oportunidade.",
+      "C": "Rigor técnico-científico, no sentido de adotar sempre a técnica de maior sofisticação tecnológica disponível, de modo independente de sua real adequação ao caso concreto examinado.",
+      "D": "Imparcialidade, no sentido de evitar qualquer atrelamento à acusação ou à defesa na escolha do método.",
+      "E": "Clareza, voltada ao uso de linguagem adequada e compreensível aos destinatários do laudo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto descreve o atributo Precisão exatamente com esse exemplo: 'Precisão – Os exames escolhidos e a metodologia utilizada devem produzir um resultado que promova a solução do ponto questionado com uma margem de segurança adequada', ilustrando com a datação por carbono 14 de uma escritura de 1921, cuja margem de erro 'seria tão grande que não garantiria a solução da questão'. B (Tempestividade) refere-se ao equilíbrio entre precisão e tempo, não ao caso. C distorce o Rigor técnico-científico, que é adotar a melhor metodologia disponível — e não a mais sofisticada de forma indiscriminada. D (Imparcialidade) e E (Clareza) são atributos atitudinais que não correspondem ao problema da margem de erro do método.",
+    "referencia": "Cap. 2, Seção 2.3, p. 24",
+    "nivel": "medio"
+  },
+  {
+    "id": 536,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um estudante de Criminalística confunde os precursores da ciência forense e suas respectivas contribuições. Com base no histórico apresentado no Cap. 2, assinale a associação CORRETA:",
+    "alternativas": {
+      "A": "Alphonse Bertillon foi o magistrado austríaco que, em 1893, publicou o Tratado de Criminalística, a quem se atribui a criação do termo Criminalística.",
+      "B": "Hans Gross, oficial britânico do serviço de registro civil indiano, teria sido o primeiro a empregar digitais de polegares como substituto das assinaturas de pessoas analfabetas em contratos.",
+      "C": "Juan Vucetich, renomado pesquisador da polícia argentina, inventou a antropometria judiciária, o que permitiu a primeira identificação de um criminoso reincidente já no ano de 1883.",
+      "D": "Mathieu Orfila publicou, em 1813, o Tratado de Toxicologia Geral, é tido como pai da toxicologia moderna e foi o primeiro a usar o microscópio em sangue e manchas de sêmen.",
+      "E": "Karl Landsteiner, em 1813, identificou os grupos sanguíneos humanos e publicou o Tratado de Toxicologia Geral, sendo tido como o pai da toxicologia moderna."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D. O Cap. 2 afirma que, em 1813, 'Mathieu Orfila (...) publicou um Tratado de Toxicologia Geral. Ele é considerado o pai da toxicologia moderna' e 'foi o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen'. A erra: o Tratado de Criminalística (1893) e a criação do termo são atribuídos a Hans Gross, não a Bertillon. B erra: quem usou digitais de polegares como substituto de assinaturas foi Sir William Herschel — Hans Gross foi magistrado/professor austríaco. C erra: a antropometria foi inventada por Alphonse Bertillon (1883); Vucetich desenvolveu a classificação datiloscópica para a América Latina. E erra: Landsteiner identificou os grupos sanguíneos em 1900 (não em 1813) e nada tem com a toxicologia/Tratado de Orfila.",
+    "referencia": "Cap. 2, p. 17-18",
+    "nivel": "medio"
+  },
+  {
+    "id": 537,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em debate acadêmico sobre as origens da Criminalística, dois alunos discutem o termo 'Criminalística', sua autoria e a diferença em relação à Criminologia. Com base no Cap. 2, julgue os itens:\n\nI. Foi Cesare Lombroso, em 1893, na Itália, quem cunhou o termo 'Criminalística' ao publicar o Tratado de Criminalística.\nII. Hans Gross, magistrado e professor de direito criminal da Universidade de Graz, publicou em 1891 o livro Investigação Criminal, sendo-lhe atribuída a criação do termo Criminalística em 1893.\nIII. A Criminologia estuda o delito como fenômeno individual e social, fornecendo elementos para a Política Penal, enquanto a Criminalística visa à comprovação da materialidade do delito e à identificação dos criminosos e seu modus operandi.\nIV. No Brasil, foi durante o I Congresso Nacional de Polícia Técnica, em 1947, em São Paulo, que se adotou oficialmente a denominação Criminalística em substituição ao termo Polícia Técnica.\nV. Nina Rodrigues, ao assumir em 1891 a cátedra de Medicina Legal da Faculdade de Medicina da Bahia, foi influenciado por Lombroso e introduziu no Brasil a antropologia criminal e a antropometria de Bertillon.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III, IV e V.",
+      "C": "III, IV e V.",
+      "D": "I, III, IV e V.",
+      "E": "II, III e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B (II, III, IV e V). O Cap. 2 atribui a criação do termo Criminalística (1893, Tratado de Criminalística) a Hans Gross, e não a Cesare Lombroso, o que torna o item I incorreto e elimina A e D. Os demais itens reproduzem fielmente o texto: Gross, magistrado e professor em Graz, publicou Investigação Criminal em 1891 (item II); a distinção entre Criminologia (delito como fenômeno individual e social, base da Política Penal) e Criminalística (materialidade e modus operandi) (item III); a adoção oficial do termo Criminalística no I Congresso Nacional de Polícia Técnica de 1947, em São Paulo (item IV); e a atuação de Nina Rodrigues, influenciado por Lombroso, introduzindo a antropologia criminal e a antropometria de Bertillon (item V). Como II e V são corretos, ficam excluídas as alternativas C e E.",
+    "referencia": "Cap. 2, Seções 2.1 e 2.2, p. 18-21",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1201,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o Anexo 1 (Regras de segurança na área de testes), sobre o procedimento padrão para conexão do detonador, é correto afirmar que:",
+    "alternativas": {
+      "A": "O detonador deve ser conectado primeiro à carga principal e, somente depois, à linha de fogo.",
+      "B": "O detonador deve ser conectado simultaneamente à linha e à carga, evitando manuseios extras.",
+      "C": "O detonador deve ser conectado à carga principal apenas após autorização verbal do responsável.",
+      "D": "O detonador deve ser conectado primeiro à linha de fogo e, somente depois, à carga principal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O Anexo 1 estabelece como procedimento padrão conectar o detonador à linha para só então conectá-lo à carga principal (p. 95). As demais alternativas invertem ou descaracterizam essa sequência de segurança.",
+    "referencia": "PDF, p. 95",
+    "nivel": "facil"
+  },
+  {
+    "id": 1202,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o Anexo 2 (Queima de explosivos), sobre a escolha do combustível para a destruição por queima, é correto afirmar que:",
+    "alternativas": {
+      "A": "Devem ser utilizados gasolina e álcool combustível, por possuírem pontos de fulgor mais baixos que os explosivos.",
+      "B": "Deve-se utilizar exclusivamente álcool combustível, por sua combustão limpa e baixa contaminação ambiental.",
+      "C": "Deve-se preferir querosene de aviação, querosene e óleo diesel, pois possuem pontos de fulgor mais baixos que os explosivos.",
+      "D": "Deve-se preferir gasolina automotiva, por aproximar seu ponto de fulgor ao dos explosivos a destruir."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O Anexo 2 indica como combustíveis preferenciais querosene de aviação, querosene e óleo diesel, nessa ordem, por terem pontos de fulgor mais baixos que os dos explosivos. Gasolina e álcool aumentam o risco de explosão por terem pontos de fulgor próximos aos dos explosivos (p. 97).",
+    "referencia": "PDF, p. 97",
+    "nivel": "facil"
+  },
+  {
+    "id": 1203,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito Criminal Federal recebeu um lote de dinamites gelatinosas envoltas em embalagens plásticas para destruição por queima. Considerando as recomendações do Anexo 2 e os limites máximos por queima, é correto afirmar que o perito deve:",
+    "alternativas": {
+      "A": "Abrir o invólucro, queimar separadamente massa e plásticos, respeitando o limite de 3 kg de dinamite por vez.",
+      "B": "Queimar somente os invólucros plásticos, encaminhando a massa explosiva para detonação controlada.",
+      "C": "Queimar massa e embalagens plásticas em conjunto, no máximo 10 kg de dinamite por vez, em vala única.",
+      "D": "Manter o invólucro plástico íntegro, queimando até 3 kg de dinamite por vez para evitar contaminação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Anexo 2 determina abrir o invólucro, retirando e queimando separadamente a massa e as embalagens plásticas, em razão do risco de explosão pelo confinamento provocado pelo derretimento do plástico. O limite é de no máximo 3 kg de dinamite (ou 10 kg de cordel) por vez (p. 97).",
+    "referencia": "PDF, p. 97",
+    "nivel": "medio"
+  },
+  {
+    "id": 1204,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a desativação de um pacote suspeito em residência, o Perito Criminal Federal causa danos materiais ao imóvel. Posteriormente, descobre-se que o objeto não continha explosivos, tratando-se de brincadeira de um desafeto. A vítima ajuíza ação indenizatória contra o perito. Com base no Anexo 3 (Responsabilidade civil do Perito Criminal Federal), é correto afirmar que:",
+    "alternativas": {
+      "A": "O perito é isento de pena penal e a responsabilidade civil é objetiva do Estado, sem ação regressiva quando o agente atuou nas normas técnicas, por força do art. 20, §1º, do CP e do art. 37, §6º, da CF.",
+      "B": "O perito responde pessoalmente pelos danos, pois a inexistência efetiva de explosivo afasta a excludente do estrito cumprimento do dever legal.",
+      "C": "O perito responde solidariamente com o Estado, em razão da teoria do risco integral aplicável a atividades com explosivos.",
+      "D": "A ação deve ser ajuizada diretamente contra o perito, cabendo ao Estado intervir apenas como assistente litisconsorcial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Anexo 3 invoca o art. 20, §1º, do CP (erro plenamente justificado pelas circunstâncias) para concluir que o perito é isento de pena, e o art. 37, §6º, da CF para fixar a responsabilidade objetiva do Estado. A ação regressiva contra o servidor exige dolo ou culpa, inexistentes quando se atua dentro das normas técnicas (p. 99-100).",
+    "referencia": "PDF, p. 99-100",
+    "nivel": "medio"
+  },
+  {
+    "id": 1205,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os fundamentos da responsabilidade civil e penal do Perito Criminal Federal na desativação de petrechos explosivos, conforme o Anexo 3, é correto afirmar que:",
+    "alternativas": {
+      "A": "O perito responde objetivamente perante terceiros, cabendo-lhe demonstrar caso fortuito ou força maior para se eximir de qualquer indenização.",
+      "B": "A responsabilidade do perito decorre da teoria do risco administrativo puro, dispensando análise da conduta técnica e impondo solidariedade automática com o Estado.",
+      "C": "A excludente de ilicitude do art. 23, III, do CP (estrito cumprimento do dever legal) ampara o perito quando atua dentro das normas técnicas, e o art. 160 do CC reconhece a destruição da coisa alheia para remover perigo iminente como ato não ilícito.",
+      "D": "A atuação em perigo iminente caracteriza, de regra, exercício arbitrário das próprias razões, exigindo prévia autorização judicial específica para cada desativação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O Anexo 3 cita expressamente o art. 23, III, do CP (estrito cumprimento do dever legal) e o art. 160, II, do CC (deterioração ou destruição de coisa alheia para remover perigo iminente), além do art. 5º, XXV, da CF, como fundamentos para amparar a conduta do perito (p. 99-100). As demais inventam regimes não previstos no texto.",
+    "referencia": "PDF, p. 99-100",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1206,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Instrução Normativa nº 005/04-DG/PF instituiu os Grupos Especializados em Bombas e Explosivos (GBE). Sobre a estrutura e gerência dos GBEs, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os GBEs são coordenados pela Diretoria de Investigação e Combate ao Crime Organizado (DICOR) e gerenciados por Delegado de Polícia Federal lotado em delegacia especializada.",
+      "B": "Os GBEs são coordenados pelo Instituto Nacional de Criminalística (INC), no âmbito da DITEC, e gerenciados por Perito Criminal Federal com especialização em bombas e explosivos.",
+      "C": "Os GBEs são coordenados pela Academia Nacional de Polícia e gerenciados por qualquer servidor da carreira policial federal voluntário.",
+      "D": "Os GBEs são coordenados pelas Superintendências Regionais sem qualquer vinculação à Diretoria Técnico-Científica, sendo gerenciados por chefe operacional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os arts. 2º e 3º da IN nº 005/04-DG/PF dispõem que os GBEs serão coordenados e supervisionados pelo INC, no âmbito da DITEC, e gerenciados por Perito Criminal Federal com especialização em bombas e explosivos (p. 107).",
+    "referencia": "PDF, p. 107",
+    "nivel": "medio"
+  },
+  {
+    "id": 1207,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Determinado Perito Criminal Federal, recém-aprovado em curso de bombas e explosivos no exterior, voluntaria-se para integrar GBE em Superintendência Regional. À luz do art. 7º da IN nº 005/04-DG/PF, sobre o recrutamento e seleção de integrantes dos GBEs, é correto afirmar que:",
+    "alternativas": {
+      "A": "Basta o servidor ser voluntário e ter sido aprovado em curso de bombas e explosivos no exterior, sendo desnecessária avaliação de perfil e aprovação da DITEC.",
+      "B": "É exigida apenas a aprovação no Curso de Atualização em Bombas e Explosivos (CABE) da ANP, sendo vedada a aceitação de cursos similares no exterior.",
+      "C": "O recrutamento é exclusivo da Academia Nacional de Polícia, dispensando avaliação por comissão local e qualquer manifestação da DITEC.",
+      "D": "O servidor deve ser da Carreira Policial Federal, ativo e voluntário, ter perfil avaliado por comissão composta pelo responsável e demais integrantes, com posterior aprovação da DITEC, e ter feito CABE ou curso similar no País ou no exterior."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O art. 7º da IN nº 005/04-DG/PF exige: ser servidor da Carreira Policial Federal, ativo e voluntário; ter capacidade e perfil avaliados por comissão composta pelo responsável e demais integrantes, com posterior aprovação da DITEC; ter sido aprovado no CABE da ANP e/ou curso similar no País ou no exterior; e obediência à doutrina preconizada pela DITEC (p. 109).",
+    "referencia": "PDF, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1208,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as competências dos GBEs, conforme o art. 4º da IN nº 005/04-DG/PF, é correto afirmar que NÃO se inclui entre suas atribuições:",
+    "alternativas": {
+      "A": "Atender e gerir os locais sob ameaça de bombas e explosivos, bem como os locais de pós-explosão.",
+      "B": "Planejar, pesquisar, desenvolver, testar e implementar novas tecnologias para equipamentos e acessórios de segurança aplicáveis às atividades dos GBEs.",
+      "C": "Prestar orientações a entes públicos e privados para o gerenciamento de locais sob ameaça de bomba e preservação de locais de crime desta natureza.",
+      "D": "Conduzir inquéritos policiais relativos a crimes envolvendo artefatos explosivos, independentemente da atuação da Polícia Judiciária."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O art. 4º da IN nº 005/04 não atribui aos GBEs a condução de inquéritos policiais, atividade típica da autoridade policial. As demais alternativas reproduzem competências expressas do dispositivo (incisos I, II, V e VIII) - p. 108.",
+    "referencia": "PDF, p. 108",
+    "nivel": "medio"
+  },
+  {
+    "id": 1209,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em aeroporto internacional brasileiro, há denúncia de existência de artefato explosivo no interior de uma aeronave estacionada. Conforme a Instrução Normativa nº 8/1988-DG/DPF, sobre as ações repressivas e preventivas do Departamento de Polícia Federal, é correto afirmar que:",
+    "alternativas": {
+      "A": "Compete à administração do aeroporto efetuar buscas e neutralizar artefatos explosivos, restando à PF apenas o isolamento da área e o registro da ocorrência.",
+      "B": "Cabe à PF planejar, em coordenação com órgãos do sistema de Aviação Civil, os procedimentos para evacuação, bem como efetuar buscas para localizar e neutralizar artefatos explosivos em aeronaves e instalações aeroportuárias.",
+      "C": "A competência para localizar e neutralizar artefatos explosivos em aeronaves é exclusiva das Forças Armadas, mediante requisição do Ministro da Defesa.",
+      "D": "A atuação da PF está limitada à apuração posterior das infrações penais, não lhe cabendo medidas operacionais de busca e neutralização do artefato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 1º, XI (medida preventiva) e o art. 5º, V (medida repressiva) da IN nº 8/1988 atribuem à PF, respectivamente, o planejamento de procedimentos de evacuação em coordenação com órgãos da Aviação Civil e a execução de buscas para localizar e neutralizar artefatos explosivos em aeronaves e instalações aeroportuárias (p. 104-105).",
+    "referencia": "PDF, p. 104-105",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1210,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a execução de tarefas pelo GBE, surge dúvida sobre a quem compete dirimir caso omisso não previsto na IN nº 005/04-DG/PF, bem como sobre o detalhamento operacional dos GBEs. Conforme as disposições finais da referida Instrução Normativa, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os casos omissos são dirimidos pela Academia Nacional de Polícia e o detalhamento operacional é feito por ato normativo do Diretor-Geral da PF.",
+      "B": "Os casos omissos são dirimidos pelo Ministro da Justiça e o detalhamento é prerrogativa exclusiva do Conselho Nacional de Criminalística.",
+      "C": "Os casos omissos são dirimidos pela DITEC e o detalhamento será efetuado por ato normativo do Diretor Técnico-Científico, no âmbito do INC, e dos Superintendentes Regionais, no âmbito das unidades descentralizadas.",
+      "D": "Os casos omissos e o detalhamento operacional devem ser objeto de portaria conjunta do Diretor-Geral da PF e do Diretor da Academia Nacional de Polícia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O art. 9º da IN nº 005/04 prevê que o detalhamento será efetuado em ato normativo do Diretor Técnico-Científico, no âmbito do INC, e dos Superintendentes Regionais, no âmbito das unidades descentralizadas. O art. 10 estabelece que os casos omissos serão dirimidos pela DITEC (p. 110).",
+    "referencia": "PDF, p. 110",
+    "nivel": "dificil"
+  }
+]

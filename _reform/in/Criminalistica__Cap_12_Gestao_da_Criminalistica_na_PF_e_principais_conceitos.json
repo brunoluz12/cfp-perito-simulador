@@ -1,0 +1,325 @@
+[
+  {
+    "id": 473,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito criminal federal Marcos, recém-empossado na Superintendência Regional do Amazonas, foi orientado pelo chefe da unidade a se familiarizar com o sistema de gestão da Criminalística. Durante a apresentação, foram mencionadas características técnicas do SISCRIM. Considerando o conteúdo apresentado, assinale a alternativa CORRETA quanto à natureza e estrutura do SISCRIM.",
+    "alternativas": {
+      "A": "O SISCRIM é um sistema desenvolvido por empresa terceirizada contratada pela DITEC/PF, baseado em software proprietário, com instalação local obrigatória em cada estação de trabalho dos peritos para garantir segurança da informação.",
+      "B": "O SISCRIM, embora desenvolvido por peritos criminais federais, é baseado em software proprietário licenciado, sendo acessado exclusivamente pela internet com autenticação por certificado digital instalado em cada máquina dos usuários.",
+      "C": "O SISCRIM possui banco de dados descentralizado em cada superintendência regional, com sincronização periódica para o servidor central, sendo desenvolvido em parceria com o sistema ePol como módulo único e integrado desde sua concepção original.",
+      "D": "O SISCRIM é um sistema informatizado desenvolvido por peritos criminais federais, 100% baseado em software livre, com banco de dados e servidores unificados e centralizados na DITEC/PF, em Brasília, e acessado pela intranet sem necessidade de instalação pelos usuários."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 12, item 12.1 (p. 78): 'O SISCRIM é um sistema informatizado desenvolvido por peritos criminais federais e já completou vinte anos de utilização. O sistema é 100% baseado em software livre, com seu banco de dados e servidores unificados e centralizados na DITEC/PF, em Brasília. Seu acesso é realizado pela intranet, não sendo necessária nenhuma instalação pelos usuários.'",
+    "referencia": "Cap. 12, Seção 12.1, p. 78",
+    "nivel": "facil"
+  },
+  {
+    "id": 474,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita criminal federal Joana foi designada para um exame em uma requisição que, após cadastrada no SISCRIM, recebeu indicador de criticidade ALTA. Discutindo o caso com colegas, ela apresentou quatro situações hipoteticamente justificadoras dessa classificação. Considerando a Instrução de Serviço nº 08/2011 - DITEC/PF, assinale a alternativa que NÃO se enquadra nas hipóteses de criticidade ALTA.",
+    "alternativas": {
+      "A": "Requisição vinculada a réu indiciado preso, cujo resultado do exame é aguardado para a decisão quanto à manutenção da prisão.",
+      "B": "Requisição em que os exames possam ser considerados essenciais para efetuar prisões, fundamentar mandado de busca e apreensão ou iniciar operações em que o tempo é crítico.",
+      "C": "Requisição vinculada a outra situação que, por exigência legal ou repercussão social, esteja relacionada a processo com prioridade de tramitação.",
+      "D": "Requisição contendo materiais sujeitos a degradação ou contaminação imediatas, como amostras biológicas que precisam ser processadas com urgência."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Cap. 12, item 12.3.5 (p. 82-83), a hipótese descrita na alternativa D (exames essenciais para efetuar prisões, fundamentar mandado de busca e apreensão, iniciar operações) corresponde à criticidade MÉDIA, item 2.b. As alternativas A, B e C correspondem, respectivamente, aos itens 1.a, 1.c e 1.b da criticidade ALTA.",
+    "referencia": "Cap. 12, Seção 12.3.5, p. 82-83",
+    "nivel": "medio"
+  },
+  {
+    "id": 475,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma reunião de gestão da Unidade de Criminalística de Curitiba, o chefe explicou aos peritos recém-chegados a diferença entre os conceitos de 'estoque de pendências' e 'demanda de exames periciais'. Sobre esses conceitos no contexto do SISCRIM, julgue os itens a seguir:\n\nI. O 'estoque de pendências' corresponde ao conjunto das pendências e pode ser apurado por perito, por grupo de peritos, por área de exame, por Unidade de Criminalística ou por todo o Sistema Nacional de Criminalística.\nII. A 'demanda' refere-se ao conjunto de expedientes registrados no SISCRIM com a finalidade 'Solicitação de Exame' em determinado período, diferenciando rigorosamente as requisições pendentes daquelas arquivadas.\nIII. A demanda é fundamental para o planejamento, gestão e avaliação da capacidade de atendimento da perícia.\nIV. Enquanto a requisição estiver na carga de funcionário, de grupo de funcionários (exceto de grupo do tipo 'Arquivo') ou de unidade organizacional dentro da perícia e não estiver cancelada, será entendida pelo SISCRIM como 'Pendência'.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III e IV.",
+      "C": "I, III e IV.",
+      "D": "I, II e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Item I correto (Seção 12.3.2, p. 81). Item II ERRADO: o conceito de demanda NÃO diferencia as requisições pendentes das arquivadas - 'o que importa é o que foi registrado como requisição de exame' (Seção 12.3.3, p. 81). Item III correto (Seção 12.3.3, p. 81). Item IV correto (Seção 12.3.1, p. 80-81).",
+    "referencia": "Cap. 12, Seções 12.3.1 a 12.3.3, p. 80-81",
+    "nivel": "dificil"
+  },
+  {
+    "id": 476,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Carlos, ao cadastrar no SISCRIM os dados de Objetos de Exame (OE) de uma requisição complexa envolvendo grande quantidade de mídias para extração forense, recebeu um alerta do sistema porque um dos limites de conformidade foi excedido. Sobre o fluxo de 'avaliação de conformidade' previsto no SISCRIM, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Quando o limite de conformidade é excedido, o SISCRIM bloqueia automaticamente o cadastro, impedindo a continuação dos exames até que o chefe imediato da unidade autorize formalmente a continuidade do procedimento.",
+      "B": "O fluxo de avaliação de conformidade tem por finalidade mitigar erros de preenchimento de dados de OEs; quando o usuário confirma e justifica o uso de valores acima dos limites, a análise é feita por outro perito ponto focal do tema OE, e os casos sui generis (OE 'não previstos') entram obrigatoriamente nesse fluxo.",
+      "C": "A avaliação de conformidade é realizada exclusivamente pelo próprio perito responsável pela requisição, que deve justificar internamente o uso de valores acima dos limites, sem necessidade de validação por outro perito ou ponto focal.",
+      "D": "Casos sui generis devem ser cadastrados com o tipo de OE mais aproximado da lista padrão, sendo vedado o uso de tipos 'não previstos', pois isso comprometeria a parametrização da pontuação de complexidade adotada pelo sistema."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Cap. 12, item 12.3.8 (p. 84): o fluxo de avaliação de conformidade mitiga erros de preenchimento dos OEs; quando o usuário confirma e justifica o uso de valores acima dos limites, a análise é feita por outro perito que é ponto focal; para casos sui generis utilizam-se OEs 'não previstos', que entram obrigatoriamente no fluxo.",
+    "referencia": "Cap. 12, Seção 12.3.8, p. 84",
+    "nivel": "medio"
+  },
+  {
+    "id": 477,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o planejamento estratégico anual da DITEC/PF, foram revisadas as metas de desempenho das Unidades de Criminalística. Considerando o disposto no Cap. 12 sobre Metas e Indicadores, assinale a alternativa CORRETA acerca das três metas atualmente em vigência.",
+    "alternativas": {
+      "A": "A meta de quantidade de pendências acima do prazo máximo estabelece que as UCs devem possuir, no máximo, 10% de suas pendências acima do prazo, e o tempo é contado do registro da requisição na UC até a entrega do laudo.",
+      "B": "A meta de produtividade estabelece que as UCs devem produzir, em média, 250 pontos de complexidade para cada unidade de FTDE, podendo a DITEC fixar metas individuais para cada perito visando o cumprimento dessa produtividade.",
+      "C": "A meta de produtividade é de 250 pontos de complexidade para cada unidade de FTDE, sendo que a DITEC não define metas individuais; as metas são revisadas e estabelecidas anualmente.",
+      "D": "A meta de tempo médio de atendimento é única para todas as áreas de exame, sendo contada do momento em que a requisição é distribuída ao perito até a entrega do laudo ao requisitante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Cap. 12, item 12.7 (p. 86-87): a meta 2 é de 250 pontos de complexidade por unidade de FTDE; 'os prazos são revisados e estabelecidos anualmente' e 'não existem metas individuais definidas pela DITEC'. A alternativa A erra no percentual (correto é 5%) e no termo final do tempo (correto é o arquivamento); B erra ao afirmar que há metas individuais; D erra ao afirmar que a meta de tempo médio é única para todas as áreas (cada área tem sua própria meta).",
+    "referencia": "Cap. 12, Seção 12.7, p. 86-87",
+    "nivel": "medio"
+  },
+  {
+    "id": 478,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Ricardo possui em sua carga uma requisição cuja análise envolve descobertas de um material biológico extremamente raro, exigindo procedimento experimental ainda em validação metodológica, cujo prazo convencional para atendimento se mostrou inviável. Diante dessa situação, sobre o instituto do 'acompanhamento especial' previsto no Cap. 12, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O próprio perito responsável pode, mediante despacho fundamentado no SISCRIM, colocar a pendência em acompanhamento especial, devendo apenas comunicar formalmente o chefe imediato após o registro.",
+      "B": "O acompanhamento especial é decidido pela corregedoria, após avaliação das justificativas formais apresentadas pela UC, e implica suspensão automática dos prazos de qualquer requisição vinculada à mesma operação policial.",
+      "C": "O chefe imediato, ao receber a comunicação do perito, fundamenta o pedido, estima uma data para conclusão dos exames e formaliza via SEI; o pedido é avaliado pelo INC, que pode colocar a pendência em acompanhamento especial e registrar a data limite, sendo que tais requisições não são contabilizadas como vencidas para a meta 1 nem para os prazos críticos.",
+      "D": "As requisições em acompanhamento especial continuam sendo contabilizadas como pendências vencidas para efeitos da meta 1, mas ficam isentas dos efeitos dos prazos críticos enquanto durar o acompanhamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Cap. 12, item 12.7.3 (p. 87-88): o perito comunica o chefe imediato, que solicita ao órgão central, fundamenta o pedido, estima data para conclusão e formaliza via SEI; o processo é avaliado pelo INC. As requisições em acompanhamento especial NÃO são contabilizadas como vencidas para a meta 1 e não se consideram vencidas para os prazos críticos.",
+    "referencia": "Cap. 12, Seção 12.7.3, p. 87-88",
+    "nivel": "medio"
+  },
+  {
+    "id": 479,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Indicador da Criminalística (ICRIM) consolida o desempenho das Unidades de Criminalística em um número único, variando de 0 a 10, composto por três componentes com pesos distintos. Considerando a estrutura do ICRIM conforme descrita no Cap. 12, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "C1 (20%) - desempenho em produtividade; C2 (30%) - quantidade de pendências fora do prazo máximo; C3 (50%) - tempo médio de atendimento.",
+      "B": "C1 (50%) - quantidade de pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (20%) - tempo médio de atendimento.",
+      "C": "C1 (30%) - quantidade de pendências fora do prazo máximo; C2 (20%) - produtividade; C3 (50%) - tempo médio de atendimento.",
+      "D": "C1 (20%) - quantidade de pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (50%) - tempo médio de atendimento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 12, item 12.8 (p. 88): C1 (20% do ICRIM) - desempenho em pendências fora do prazo máximo; C2 (30%) - produtividade; C3 (50%) - tempo médio de atendimento.",
+    "referencia": "Cap. 12, Seção 12.8, p. 88",
+    "nivel": "facil"
+  },
+  {
+    "id": 480,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito-chefe da UC de Salvador, ao verificar no painel BI do MED um desbalanceamento significativo entre a demanda e a capacidade de sua unidade na área de Informática, contatou o chefe da UC do Recife para combinar uma redistribuição de pendências. Sobre o Mecanismo de Equalização de Demanda (MED) e o Painel BI, julgue os itens a seguir:\n\nI. O MED foi desenvolvido para reduzir o impacto do desbalanceamento entre demanda e capacidade de atendimento das UCs, considerando dificuldades de lotação ideal e mudanças sazonais da demanda.\nII. O Painel de BI do MED utiliza dados de demanda, produção, estoque e FTDE para fornecer informações sobre a situação de cada UC.\nIII. A redistribuição de pendências entre UCs depende exclusivamente de decisão centralizada da DITEC, não cabendo às chefias locais combinarem entre si tal redistribuição.\nIV. Os painéis BI da Criminalística são acessíveis no fluxo DITEC em 'https://bi.pf.gov.br/'.\nV. A Portaria nº 12.248-DG/PF, de 27/04/2020, autoriza o diretor técnico-científico a promover a redistribuição compulsória de requisições de exame pericial em âmbito nacional.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "I, III e V apenas.",
+      "B": "I, II, IV e V apenas.",
+      "C": "II, III, IV e V apenas.",
+      "D": "Todos os itens."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Itens I, II, IV e V corretos (Seções 12.6, p. 86 e p. 77). Item III ERRADO: 'as chefias devem se comunicar e combinar a redistribuição de pendências, de acordo com suas necessidades e capacidades de atendimento para cada área de exame' (Seção 12.6, p. 86) - portanto a redistribuição ocorre por iniciativa das chefias locais, sem prejuízo da possibilidade de redistribuição compulsória pela DITEC.",
+    "referencia": "Cap. 12, Seções 12.6 e p. 77, p. 86",
+    "nivel": "dificil"
+  },
+  {
+    "id": 481,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Ana, ao revisar a lista de áreas da Criminalística definidas pela Portaria 1377/2024-DITEC/PF e alterações pela Portaria DITEC/PF nº 1512/2024, precisa orientar o requisitante quanto ao correto direcionamento da requisição. Considerando as áreas oficialmente listadas no Cap. 12, assinale a alternativa que apresenta apenas áreas EFETIVAMENTE reconhecidas como áreas da Criminalística (ou Áreas de Exame).",
+    "alternativas": {
+      "A": "Documentoscopia; Balística; Genética Forense; Recursos Minerais; Patrimônio Histórico, Artístico e Cultural.",
+      "B": "Contábil-Financeiro; Engenharia; Química Forense; Cibersegurança Pericial; Biometria Forense.",
+      "C": "Medicina e Odontologia Forense; Eletroeletrônicos; Auditoria Pericial; Caracterização Física de Materiais; Bombas e Explosivos.",
+      "D": "Local de Crime; Meio Ambiente; Veículos; Perícia Tributária; Merceológicas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, item 12.2 (p. 79): as 19 áreas listadas incluem Documentoscopia (10), Balística (13), Genética Forense (14), Recursos Minerais (19) e Patrimônio Histórico, Artístico e Cultural (8). As alternativas A, C e D contêm itens que NÃO constam da lista oficial ('Cibersegurança Pericial', 'Auditoria Pericial' e 'Perícia Tributária').",
+    "referencia": "Cap. 12, Seção 12.2, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 482,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma operação policial, foi apreendido um veículo que ficou em pátio de terceiros aguardando perícia. Posteriormente, um padrão de comparação foi encaminhado à perícia para confronto balístico, e uma mídia foi encaminhada para espelhamento em exame de informática. O perito responsável precisa classificar corretamente esses itens no SISCRIM. Sobre a definição de 'material' e suas classificações no SISCRIM, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Todo vestígio do crime, independentemente de estar sob a guarda da perícia, deve ser obrigatoriamente registrado como 'material' no SISCRIM, pois há equivalência conceitual entre 'material' e 'vestígio'.",
+      "B": "Veículos em pátios de terceiros, aeronaves, embarcações e locais de crime são obrigatoriamente registrados como 'material' no SISCRIM, sob a finalidade 'Exame', mesmo que não estejam sob custódia direta da perícia.",
+      "C": "O SISCRIM considera 'material' todo item encaminhado à Perícia que se relaciona com exames periciais e deve ficar sob sua custódia; nem todo item registrado como 'material' é vestígio (ou contém vestígios) e nem todo vestígio é registrado no SISCRIM, sendo que o material deve ser classificado em finalidades como Apoio ao Exame, Contra-prova, Devolução, Exame, Mídia anexa, Mídia para espelhamento, Padrão ou Pesquisa.",
+      "D": "As finalidades de classificação de material no SISCRIM são apenas Exame, Contra-prova e Padrão, sendo as demais classificações utilizadas em sistemas auxiliares de controle de custódia externos ao SISCRIM."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Cap. 12, itens 12.4 e 12.4.1 (p. 84-85): o SISCRIM considera 'material' todo item encaminhado à perícia que se relaciona com exames periciais e deve ficar sob sua custódia; 'nem todo item registrado como material é vestígio e nem todo vestígio é registrado no SISCRIM'; o material deve ser classificado em uma das 8 finalidades listadas (Apoio ao Exame, Contra-prova, Devolução, Exame, Mídia anexa, Mídia para espelhamento, Padrão, Pesquisa).",
+    "referencia": "Cap. 12, Seções 12.4 e 12.4.1, p. 84-85",
+    "nivel": "medio"
+  },
+  {
+    "id": 483,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma capacitação para novos peritos, o instrutor explicou o conceito de 'pontos de complexidade' utilizado no SISCRIM. Para tornar o conceito mais palpável, citou um exame específico cujo esforço corresponde a 1 ponto de complexidade (esforço unitário da pontuação). Conforme o Cap. 12, qual é o exame de referência adotado como esforço unitário?",
+    "alternativas": {
+      "A": "O esforço de todo o processo do 'Exame de Extração Forense de Dados' de um telefone celular.",
+      "B": "O esforço de extração e análise de um dispositivo móvel em exame de Documentoscopia, considerando a média de tempo de atendimento.",
+      "C": "O esforço de elaboração de um Laudo de Perícia Criminal Federal em local de crime de complexidade média, na área de Local de Crime.",
+      "D": "O esforço médio de uma perícia de balística forense envolvendo um único projétil deflagrado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, item 12.3.6 (p. 83): 'O esforço unitário (1 ponto) da pontuação de complexidade é equivalente ao esforço de todo o processo do Exame de Extração Forense de Dados de um telefone celular.'",
+    "referencia": "Cap. 12, Seção 12.3.6, p. 83",
+    "nivel": "facil"
+  },
+  {
+    "id": 484,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Eduardo recebeu uma requisição cujo prazo máximo de atendimento, definido pela DITEC para a sua área de exame, é de 120 dias. Já decorreram 145 dias desde o registro da requisição na UC, sem que tenha havido atendimento ou justificativa formal anterior. Considerando os conceitos de 'fluxo de saneamento' e 'prazos críticos' descritos no Cap. 12, é CORRETO afirmar:",
+    "alternativas": {
+      "A": "A requisição já ultrapassou o prazo máximo (120 dias) e entra no fluxo de saneamento, mas ainda NÃO atingiu o prazo crítico (que corresponde a 25% além do prazo máximo, ou seja, 150 dias); cabe à unidade justificar e informar plano de ação com datas e responsáveis pelo atendimento.",
+      "B": "A requisição já se encontra além do prazo crítico (definido como 25% além do prazo máximo, ou seja, 150 dias), podendo ser encaminhada à corregedoria para apuração de responsabilidades, a depender das ações tomadas e justificativas documentadas.",
+      "C": "A requisição ultrapassou o prazo máximo, mas o fluxo de saneamento só é disparado quando o prazo crítico (10% além do prazo máximo) é atingido, o que ainda não ocorreu no caso narrado.",
+      "D": "Como o atraso é inferior a 50% do prazo máximo, a requisição não entra em fluxo de saneamento nem em prazo crítico, devendo apenas ser priorizada internamente pelo perito responsável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, itens 12.7.1 e 12.7.2 (p. 87): as pendências que extrapolam os prazos máximos entram no fluxo de saneamento (justificativa e plano de ação); os prazos críticos são definidos como 25% além dos prazos máximos. No caso, 25% de 120 = 30 dias, totalizando 150 dias; aos 145 dias ainda não se atingiu o prazo crítico (150 dias), mas a requisição já está em fluxo de saneamento.",
+    "referencia": "Cap. 12, Seções 12.7.1 e 12.7.2, p. 87",
+    "nivel": "dificil"
+  },
+  {
+    "id": 485,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Luciana foi designada para gerir o módulo Agenda do SISCRIM em sua UC. Ela precisa calcular a Força de Trabalho Disponível para Exames (FTDE) da unidade para alimentar o painel BI do MED. Sobre a Agenda do SISCRIM e a FTDE, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A FTDE de uma unidade é calculada exclusivamente a partir do número de peritos lotados na UC, sem considerar afastamentos por férias, licenças ou dedicação a outras atividades além da produção de laudos.",
+      "B": "O cálculo da FTDE considera apenas a quantidade de laudos produzidos por cada perito no ano-base anterior, sem necessidade de registros prévios no módulo Agenda.",
+      "C": "A FTDE é fornecida diretamente pelo sistema ePol, com base nos registros de ponto eletrônico dos peritos, sendo o módulo Agenda do SISCRIM apenas um espelho de tais informações.",
+      "D": "O módulo Agenda do SISCRIM permite registrar afastamentos legais (férias, licenças) e dedicação a atividades não relacionadas diretamente à produção de laudos; a FTDE da unidade é obtida somando-se as FTDEs de cada perito lotado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 12, itens 12.5 e 12.5.1 (p. 85): o módulo Agenda permite criar registros dos afastamentos dos peritos e da dedicação a outras atividades; a partir dos dados do módulo Agenda é possível calcular a FTDE; 'para calcular a FTDE de determinada unidade, somam-se as FTDEs de cada perito lotado'.",
+    "referencia": "Cap. 12, Seções 12.5 e 12.5.1, p. 85",
+    "nivel": "facil"
+  },
+  {
+    "id": 486,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito André está revisando um expediente de solicitação de exame no SISCRIM e precisa identificar corretamente as situações possíveis atribuídas aos expedientes. Considerando o disposto no Cap. 12 sobre 'situações das requisições de exame', assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Existem 17 situações possíveis para um expediente dentro do SISCRIM, sendo que 12 são inferidas e atribuídas automaticamente pelo sistema e outras 5 podem ser alimentadas manualmente pelo usuário, incluindo, entre as manuais, 'Aguardando condições ambientais ou climáticas', 'Aguardando disponibilidade de meios' e 'Aguardando providências do requisitante'.",
+      "B": "Existem 12 situações possíveis para um expediente no SISCRIM, todas inferidas e atribuídas automaticamente pelo sistema, sem possibilidade de alimentação manual pelo usuário.",
+      "C": "Existem 17 situações no SISCRIM, todas alimentadas manualmente pelos peritos responsáveis pela carga, sendo vedada qualquer inferência automática pelo sistema, em respeito ao princípio da independência funcional do perito.",
+      "D": "Existem 5 situações possíveis no SISCRIM, sendo que apenas 'Requisição arquivada' e 'Requisição em atendimento' podem ser atribuídas manualmente, ficando as demais a cargo do sistema."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 12, item 12.3.4 (p. 81-82): 'Existem 17 situações possíveis para um expediente dentro do SISCRIM, sendo que 12 são inferidas e atribuídas automaticamente pelo sistema e outras cinco podem ser alimentadas manualmente pelo usuário.' As situações manuais incluem 'Aguardando condições ambientais ou climáticas', 'Aguardando disponibilidade de meios', 'Aguardando providências do requisitante', 'Requisição em atendimento' e 'Requisição arquivada sem atendimento devido a problemas não solucionados'.",
+    "referencia": "Cap. 12, Seção 12.3.4, p. 81-82",
+    "nivel": "dificil"
+  },
+  {
+    "id": 559,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito do Sistema Nacional de Criminalística, toda requisição de exame, ao ser registrada no SISCRIM, deve ter seu indicador de criticidade preenchido, conforme a Instrução de Serviço nº 08/2011-DITEC/PF. Considerando os critérios objetivos previstos no Capítulo 12, item 12.3.5, assinale a alternativa que apresenta hipótese de criticidade ALTA.",
+    "alternativas": {
+      "A": "Requisições que contenham materiais suscetíveis a alterações em suas propriedades, pelo tempo ou pelas condições de armazenamento, capazes de prejudicar ou comprometer os exames.",
+      "B": "Requisições em que os exames possam ser considerados essenciais para efetuar prisões, fundamentar mandado de busca e apreensão ou iniciar operações.",
+      "C": "Requisições oriundas de unidades em fluxo de saneamento, com pendências cujos prazos estejam prestes a vencer e que aguardem plano de ação.",
+      "D": "Requisições relativas a réu ou indiciado presos, aguardando o resultado de exame para a decisão quanto à manutenção da prisão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 82 do PDF (item 12.3.5), a criticidade ALTA abrange (a) réu ou indiciado preso aguardando resultado para decisão de manutenção da prisão, (b) processos com prioridade legal/repercussão social e (c) materiais sujeitos a degradação ou contaminação imediatas. As alternativas A e B descrevem hipóteses de criticidade MÉDIA, e a D não compõe os critérios objetivos da IS nº 08/2011.",
+    "referencia": "Cap. 12, Seção 12.3.5, p. 82",
+    "nivel": "facil"
+  },
+  {
+    "id": 560,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante reunião de gestão, um chefe de unidade de criminalística explica que requisições de áreas distintas podem ser comparadas em termos de esforço pericial graças a um sistema parametrizado. Considerando o conceito de complexidade das requisições de exame (item 12.3.6) e o tratamento dado pelo SISCRIM, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O indicador de complexidade é atribuído pelo perito após a conclusão do laudo, com base em sua percepção subjetiva, e expresso em horas-perito, não permitindo comparação entre áreas de exame distintas.",
+      "B": "O esforço unitário (1 ponto) da pontuação de complexidade equivale ao esforço de todo o processo do Exame de Extração Forense de Dados de um telefone celular, e a parametrização permite comparar trabalhos periciais entre áreas distintas ou entre casuísticas distintas de uma mesma área.",
+      "C": "A complexidade é calculada pelo SISCRIM exclusivamente em função da área de exame, sem considerar a quantidade e o tipo de vestígios, e seu valor é validado individualmente em cada requisição por ponto focal antes do arquivamento.",
+      "D": "Como a complexidade calculada pelo sistema pode divergir da complexidade percebida pelo perito em casos pontuais, o SISCRIM exige justificativa formal sempre que a divergência ultrapassar 5%, mediante avaliação de conformidade obrigatória."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 83 do PDF (item 12.3.6), o esforço unitário (1 ponto) equivale ao Exame de Extração Forense de Dados de um celular, e a parametrização permite comparar diferentes trabalhos periciais entre áreas e casuísticas. O indicador é calculado pelo sistema (não atribuído subjetivamente pelo perito) a partir de informações de OE e parâmetros previamente definidos.",
+    "referencia": "Cap. 12, Seção 12.3.6, p. 83",
+    "nivel": "medio"
+  },
+  {
+    "id": 561,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da Força de Trabalho Disponível para Exames (FTDE) e do Mecanismo de Equalização de Demanda (MED), itens 12.5.1 e 12.6 do Capítulo 12, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O MED é mecanismo automatizado do SISCRIM que redistribui compulsoriamente as requisições de exame entre as unidades sempre que o estoque de pendências de uma UC exceder em 25% o estoque médio nacional, dispensando comunicação entre chefias.",
+      "B": "A FTDE corresponde ao número total de peritos lotados em cada unidade, sem considerar afastamentos legais (férias, licenças) ou dedicação a atividades não relacionadas à produção de laudos, sendo essa informação extraída do sistema de RH da PF.",
+      "C": "A FTDE é calculada a partir dos dados do módulo Agenda do SISCRIM e representa a disponibilidade da força de trabalho pericial dedicada aos exames; para obter a FTDE de uma unidade, somam-se as FTDEs de cada perito lotado.",
+      "D": "O Painel de BI do MED utiliza dados de demanda, produção e estoque, mas exclui a FTDE de sua composição, uma vez que esta é calculada por outro painel específico de gestão de pessoas da DITEC."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme pp. 85-86 do PDF (itens 12.5.1 e 12.6), a FTDE é calculada a partir do módulo Agenda do SISCRIM e a FTDE da unidade é a soma das FTDEs dos peritos lotados. O MED utiliza demanda, produção, estoque E FTDE para fornecer informações; a redistribuição é combinada entre chefias, não automática. A redistribuição compulsória de requisições em âmbito nacional é prerrogativa do diretor técnico-científico (Portaria 12.248-DG/PF de 2020), não do MED em si.",
+    "referencia": "Cap. 12, p. 85-86",
+    "nivel": "medio"
+  },
+  {
+    "id": 562,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Indicador da Criminalística (ICRIM) consolida em nota única, de 0 a 10, o desempenho das unidades de criminalística em relação às metas definidas pela DITEC. Com base no item 12.8 e nas metas vigentes descritas no item 12.7, julgue os itens: I) O ICRIM é composto por três componentes com pesos distintos: C1 (20%) referente à meta de quantidade de pendências fora do prazo máximo, C2 (30%) referente à meta de produtividade e C3 (50%) referente à meta de tempo médio de atendimento. II) A meta de produtividade estabelece que as UCs devem produzir, em média, 250 pontos de complexidade para cada unidade de FTDE. III) A meta de quantidade de pendências acima do prazo máximo determina que as UCs devem possuir, no máximo, 5% de suas pendências acima do prazo máximo de atendimento. IV) As metas definidas pela DITEC são desdobradas em metas individuais para cada perito criminal federal, vinculadas ao desempenho funcional e refletidas no ICRIM individual disponível no Painel BI do Perito. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "I, II e III.",
+      "C": "II, III e IV.",
+      "D": "I, III e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme pp. 86-88 do PDF: os componentes do ICRIM (C1=20%, C2=30%, C3=50%) e a sua vinculação às três metas estão corretos (item I); a meta de produtividade é de 250 pontos de complexidade por FTDE (item II); a meta de pendências fora do prazo máximo é de no máximo 5% (item III). O item IV está errado: o texto afirma expressamente que NÃO existem metas individuais definidas pela DITEC (p. 87).",
+    "referencia": "Cap. 12, p. 86-88",
+    "nivel": "dificil"
+  },
+  {
+    "id": 563,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos conceitos de demanda, estoque de pendências e situações das requisições de exame no SISCRIM (itens 12.3.2 a 12.3.4 do Capítulo 12), assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A demanda corresponde ao conjunto de expedientes registrados no SISCRIM com a finalidade Solicitação de Exame em determinado período, sem diferenciar pendentes e arquivadas, e o estoque de pendências pode ser apurado por perito, grupo, área de exame, UC ou todo o SNC.",
+      "B": "O estoque de pendências refere-se exclusivamente às requisições sob carga de um perito individual, não sendo possível agregá-lo por área de exame, unidade ou Sistema Nacional de Criminalística.",
+      "C": "A demanda de exames periciais corresponde ao conjunto de requisições pendentes em determinada unidade, excluídas as já arquivadas, sendo o principal insumo para o cálculo do ICRIM.",
+      "D": "Das 17 situações possíveis para um expediente no SISCRIM, todas são inferidas automaticamente pelo sistema, não havendo situação que possa ser alimentada manualmente pelo usuário."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme pp. 81-82 do PDF (itens 12.3.2 a 12.3.4): a demanda é o conjunto de expedientes com finalidade Solicitação de Exame em determinado período, sem distinguir pendentes de arquivadas; o estoque de pendências pode ser apurado por PCF, grupo, área de exame, UC ou todo o SNC; das 17 situações, 12 são automáticas e 5 manuais (não todas automáticas, como afirma a alternativa D).",
+    "referencia": "Cap. 12, p. 81-82",
+    "nivel": "facil"
+  }
+]

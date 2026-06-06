@@ -1,0 +1,51 @@
+Esquema de cores,,,,,,,,,,Formula Cromatica,,,,,,VCo,,,,,VMa,,,
+Cor,P1,P2,P3,Total,Resultado,LI,LS,Saldo,,Cor,P1,P2,P3,Total,,cor,P1,P2,P3,,cor,P1,P2,P3
+Azul,0,0,0,0,Abaixo,5,10,10,,Azul,0,0,0,0,,Azul,0,0,0,,azul1,0,0,0
+Vermelho,0,0,0,0,Abaixo,4,9,9,,Vermelho,0,0,0,0,,vermelho,0,0,0,,azul2,0,0,0
+Verde,0,0,0,0,Abaixo,4,8,8,,Verde,0,0,0,0,,Verde,0,0,0,,azul3,0,0,0
+Violeta,0,0,0,0,Abaixo,3,8,8,,Violeta,0,0,0,0,,Violeta,0,0,0,,azul4,0,0,0
+Laranja,0,0,0,0,Abaixo,2,5,5,,Laranja,0,0,0,0,,Laranja,0,0,0,,vermelho1,0,0,0
+Amarelo,0,0,0,0,Abaixo,2,6,6,,Amarelo,0,0,0,0,,Amarelo,0,0,0,,vermelho2,0,0,0
+Marron,0,0,0,0,Abaixo,0,3,3,,Marron,0,0,0,0,,Marron,0,0,0,,vermelho3,0,0,0
+Preto,0,0,0,0,Abaixo,0,4,4,,Preto,0,0,0,0,,Preto/Branco/Cinza,0,0,0,,vermelho4,0,0,0
+Branco,0,0,0,0,Abaixo,1,4,4,,Branco,0,0,0,0,,VCO,0,0,0,,Verde1,0,0,0
+Cinza,0,0,0,0,Abaixo,0,3,3,,Cinza,0,0,0,0,,Media VCO,0,,,,Verde2,0,0,0
+Total,0,0,0,0,,,,,,,,,,,,,,,,,Verde3,0,0,0
+,,,,,,,,,,Formula Cromatica,,,,,,Limite Inferior Vco,3,,,,Verde4,0,0,0
+,,,,,,,,,,CA,0,,,,,Limite Superior Vco,7,,,,violeta1,0,0,0
+SINDROMES,Obtido,LI,LS,RESULTADO,,"AVALIAÇÃO ""Q""",,,,CR,0,,,,,RESULTADO,INAPTO,,,,violeta2,0,0,0
+Sindrome da normalidade,0,0.4,0.56,INAPTO,,Q19,INAPTO,,,V,0,,,,,,,,,,violeta3,0,0,0
+Sindrome de estimulo,0,0.27,0.4,INAPTO,,Q20,INAPTO,,,AUS,10,,,,,,,,,,laranja1,0,0,0
+Sindorme Fria,0,0.38,0.53,INAPTO,,Q21,APTO,,,,,,,,,,,,,,laranja2,0,0,0
+Sindrome Incolor,0,0.067,0.22,,,Q22,APTO,,,,Esperado,Esperado,,,,,,,,,amarelo1,0,0,0
+Sindrome do Dinamismo,FALSE,,,,,RESULTADO,INAPTO,,,CA,4,4,,,,,,,,,amarelo2,0,0,0
+Sindrome de Excitacao Afetiva,FALSE,,,,,,,,,CR,2,3,,,,,,,,,marron1,0,0,0
+Síndrome de labilidade afetiva,FALSE,,,,,,,,,V,1,2,,,,,,,,,marron2,0,0,0
+Síndrome de histeria,FALSE,,,,,,,,,AUS,3,1,,,,,,,,,preto,0,0,0
+Síndrome de conflito interno,FALSE,,,,,,,,,,,,,,,,,,,,branco,0,0,0
+Sindrome da Agitacao,FALSE,,,,,,,,,,,,,,,,,,,,cinza,0,0,0
+Sindrome da regulacao opressora,FALSE,,,,,,,,,,,,,,,,,,,,VCA,0,0,0
+,,,,,,,,,,,,,,,,,,,,,Media VCA,0,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+Cores por dupla,Resultado,,,,,,,,,,,,,,,,,,,,Limite Inferior Vca,5,,
+Azul e Preto Acima,FALSE,,,,,,,,,,,,,,,,,,,,Limite Superior Vca,13,,
+Azul e Amarelo Acima,FALSE,,,,,,,,,,,,,,,,,,,,RESULTADO,INAPTO,,
+Azul e Cinza Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Vermelho e Violeta Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Vermelho e Marron Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Vermelho e Branco Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Vermelho e Verde Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Verde e Violeta  Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Verde e (Vm ou La ou Am) Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Verde e Laranja Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Verde Baixo e Azul Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Verde Baixo e Vermelho Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Laranja e Violeta Abaixo,TRUE,,,,,,,,,,,,,,,,,,,,,,,
+Laranja e Violeta Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Marron e Branco Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Marron e Preto Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Vermelho e Preto Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Preto e Cinza Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Preto e Amarelo Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,
+Cinza e Vermelho Acima,FALSE,,,,,,,,,,,,,,,,,,,,,,,

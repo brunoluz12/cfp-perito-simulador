@@ -1,0 +1,110 @@
+[
+  {
+    "id": 407,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um município, durante manifestação pública, a guarda municipal patrulha o entorno de prédios públicos, a Polícia Militar permanece de prontidão nas vias e a Polícia Rodoviária Federal fiscaliza rodovia próxima. Encerrado o evento, consuma-se furto qualificado contra patrimônio de empresa pública federal, instaurando-se a investigação. À luz do art. 144 da Constituição Federal e da distinção entre polícia administrativa e polícia judiciária exposta no texto, é correto afirmar que:",
+    "alternativas": {
+      "A": "A guarda municipal, embora atue de forma ostensiva na proteção do patrimônio municipal, não exerce função de polícia judiciária; ainda assim, por ter atuado preventivamente no local do fato, poderia presidir o inquérito relativo ao furto contra a empresa pública federal.",
+      "B": "A Polícia Rodoviária Federal, por ser órgão federal e estar geograficamente mais próxima do local do fato no momento da consumação, firma sua atribuição pela prevenção e deve instaurar e presidir o inquérito policial referente ao furto qualificado.",
+      "C": "A prevenção ostensiva dos crimes, atribuída às polícias militares, rodoviária e ferroviária federal, é função de polícia administrativa, ao passo que a apuração da infração penal contra a empresa pública federal, de caráter repressivo, cabe à polícia judiciária da União, exercida com exclusividade pela Polícia Federal.",
+      "D": "Como o crime atingiu bens de empresa pública federal, todos os órgãos de segurança pública citados podem, em regime de concorrência, exercer função de polícia judiciária da União, bastando que a apuração tenha caráter repressivo e seja posterior à prática da infração penal.",
+      "E": "A polícia administrativa e a polícia judiciária diferenciam-se apenas pelo momento de atuação, de modo que tanto a Polícia Militar quanto a Polícia Rodoviária Federal, presentes no local, tornam-se competentes para apurar o furto após a sua consumação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma que 'A polícia administrativa, destinada a fazer a prevenção dos crimes, de forma ostensiva, é atribuição das polícias militares, rodoviária e ferroviária federal' e que, após a prática da infração penal, 'entra em ação a polícia de função judiciária (...) que tem caráter repressivo'. O art. 144, § 1º, IV, da CF prescreve que a Polícia Federal exerce, 'com exclusividade, as funções de polícia judiciária da União'. As guardas municipais atuam apenas ostensivamente na proteção do patrimônio municipal (A errada); a PRF é polícia administrativa, não judiciária, e a proximidade geográfica não confere atribuição (B errada); não há concorrência de órgãos no exercício da polícia judiciária da União (D errada); a distinção não se resume ao momento, e PM e PRF não apuram infrações (E errada).",
+    "referencia": "Cap. 1, Seções 1, 1.1 e 1.2, p. 13 e 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 408,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na investigação de suposto homicídio em zona rural, o Delegado de Polícia Federal questiona seu assessor sobre a diferença entre 'materialidade do delito' e 'autoria'. O assessor responde que a materialidade seria a prova de que o agente esteve no local, enquanto a autoria seria a comprovação objetiva da ocorrência do crime. À luz dos conceitos apresentados no Capítulo, a resposta do assessor está:",
+    "alternativas": {
+      "A": "Incorreta, pois a materialidade do delito corresponde ao elemento objetivo do tipo penal, isto é, à efetivação do crime no mundo real (no homicídio, a morte), enquanto a autoria responde a quem praticou o fato delituoso.",
+      "B": "Parcialmente correta, pois materialidade e autoria, embora distintas em regra, passam a ser conceitos sinônimos e intercambiáveis quando se trata de crimes contra a pessoa, como o homicídio.",
+      "C": "Correta, pois a materialidade é a presença física do autor no local do crime, demonstrada por pegadas e impressões digitais, ao passo que a autoria diz respeito à conduta típica vedada pela lei penal e à sua efetivação no mundo real.",
+      "D": "Incorreta apenas quanto à autoria, já que esta abrange tanto a identidade do agente quanto a comprovação da existência do crime, sendo a materialidade conceito restrito ao resultado do exame de cadáver realizado pelos peritos oficiais.",
+      "E": "Incorreta, mas somente quanto à materialidade, pois esta consiste no conjunto dos vestígios deixados no local, ao passo que a autoria foi corretamente definida pelo assessor como a comprovação objetiva da ocorrência do crime."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto define que 'a materialidade é, na realidade, o elemento objetivo do tipo penal (...) é a efetivação do crime no mundo real', sendo a do homicídio a morte, e que a autoria responde à pergunta 'quem praticou o fato delituoso?'. O assessor inverteu ambos os conceitos, de modo que a resposta está integralmente incorreta (A correta). B erra ao igualar os conceitos; C apenas repete a inversão do assessor; D e E erram ao corrigir só um dos conceitos e ao restringir/desvirtuar a definição de materialidade.",
+    "referencia": "Cap. 1, Seção 1.1, p. 13-14",
+    "nivel": "facil"
+  },
+  {
+    "id": 409,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um cidadão comparece à Delegacia de Polícia Federal e comunica verbalmente a prática de crime de ação penal pública. Em seguida, o Ministério Público requisita formalmente a instauração de inquérito sobre o mesmo fato, e o Delegado verifica indícios de ilegalidade na condução do procedimento. Sobre essa situação, julgue os itens a seguir:\n\nI. O simples encaminhamento da notitia criminis pelo cidadão obriga automaticamente o Delegado a instaurar o inquérito, sem qualquer controle de legalidade.\nII. A requisição do Ministério Público inicia imediatamente o inquérito policial, não havendo possibilidade de controle de legalidade pelo Delegado nem por intervenção judicial.\nIII. O Delegado deve atuar como o primeiro garantidor da legalidade do procedimento de investigação preliminar, sob pena de tornar-se coator da liberdade alheia.\nIV. Se o Delegado deixa de atuar por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP); se atua em excesso, com manifesta má-fé, em busca de proveito pessoal, pode caracterizar-se o abuso de autoridade.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I e II, pois tanto a notícia do cidadão quanto a requisição ministerial vinculam o Delegado, que deve instaurar de imediato o inquérito sem qualquer juízo prévio de legalidade sobre o procedimento.",
+      "B": "II e III, pois a requisição do Ministério Público inicia imediatamente o inquérito e o Delegado, embora vinculado, ainda figura como garantidor da legalidade da investigação preliminar.",
+      "C": "I, III e IV, pois o encaminhamento da notícia obriga a instauração imediata e o Delegado responde por prevaricação ou abuso de autoridade conforme deixe de atuar ou atue em excesso no curso do procedimento.",
+      "D": "III e IV.",
+      "E": "I e IV, pois a notitia criminis vincula automaticamente a instauração e o Delegado pode incorrer em prevaricação ou abuso de autoridade conforme a sua conduta funcional no procedimento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que 'não é o simples encaminhamento que irá gerar um inquérito policial e nem se inicia o inquérito policial imediatamente pela requisição (não há vedação a um controle de legalidade da requisição)', o que torna I e II incorretos. E que o Delegado 'deve ser o primeiro garantidor da legalidade do procedimento de investigação preliminar, para não ser o coator da liberdade alheia. Se deixa de atuar, por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP); se atua em excesso, com manifesta má-fé, em busca de proveito pessoal, pode haver a figura do abuso de poder'. Logo, somente III e IV estão corretos (D). As demais alternativas incluem I e/ou II, que são falsos.",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 15",
+    "nivel": "dificil"
+  },
+  {
+    "id": 410,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em determinada operação, o Delegado de Polícia Federal toma conhecimento de duas infrações: (i) um crime de menor potencial ofensivo, identificado durante o atendimento em local de ocorrência, e (ii) um crime de tráfico interestadual de entorpecentes com repercussão em outros estados. Sobre a obrigatoriedade do inquérito policial e o caráter informativo da peça, considerando os conceitos doutrinários e legais apresentados, avalie qual afirmação é correta:",
+    "alternativas": {
+      "A": "O inquérito policial é indispensável para o oferecimento da denúncia em qualquer caso, sendo expressamente vedada sua substituição por termo circunstanciado de ocorrência, ainda que se trate de infração de menor potencial ofensivo identificada no local.",
+      "B": "Por ser peça meramente informativa e desprovida de valor probatório autônomo, o inquérito pode ser livremente dispensado pelo Delegado em qualquer crime, inclusive no tráfico interestadual de entorpecentes, desde que haja prova testemunhal robusta dos fatos.",
+      "C": "A Lei dos Juizados Especiais tornou o inquérito dispensável apenas para o Ministério Público, permanecendo o Delegado de Polícia Federal obrigado a instaurá-lo em todas as infrações que conhecer, inclusive as de menor potencial ofensivo atendidas no local de ocorrência.",
+      "D": "Embora muitos o classifiquem como peça meramente informativa, o inquérito reúne provas importantes para a persecução penal, muitas delas irrepetíveis na fase processual; ainda assim, nos crimes de menor potencial ofensivo, a Lei dos Juizados Especiais permite substituí-lo por termo circunstanciado de ocorrência.",
+      "E": "Como a peça é classificada como meramente informativa, o inquérito pode ser substituído por termo circunstanciado em qualquer infração, mas no tráfico interestadual de entorpecentes a atribuição para tanto desloca-se integralmente para a Polícia Civil estadual do local."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o texto, 'embora muitos o classifiquem como peça meramente informativa, o inquérito policial é um conjunto de provas muito importante na persecução penal, porque muitas delas não podem ser refeitas na fase processual', e 'a Lei dos Juizados Especiais tornou o inquérito dispensável (...) nos casos de infrações penais de menor poder ofensivo, quando ele pode ser substituído por simples termo circunstanciado de ocorrência' (D correta). A é falsa porque admite-se o TCO nas IMPO; B e E desvirtuam o caráter informativo (a peça tem forte valor probatório) e a atribuição da PF; C erra ao afirmar que a dispensa não alcança o delegado.",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 14-15",
+    "nivel": "medio"
+  },
+  {
+    "id": 534,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante operação na divisa entre dois estados, agentes da Polícia Rodoviária Federal abordam um veículo e descobrem grande quantidade de entorpecentes destinados a outro país, além de documentos falsos da União. Considerando o art. 144, § 1º, da CF/88 e a doutrina sobre polícia administrativa e polícia judiciária apresentada no Cap. 1, indique qual órgão tem atribuição constitucional para apurar as infrações penais decorrentes dos fatos e a natureza de sua atuação:",
+    "alternativas": {
+      "A": "A Polícia Rodoviária Federal, por ter realizado a abordagem inicial, deve conduzir o inquérito policial, pois a competência firma-se pela prevenção, sendo ela também órgão de polícia judiciária da União em matéria de tráfico interestadual de entorpecentes.",
+      "B": "A Polícia Federal tem atribuição para apurar as infrações, exercendo com exclusividade as funções de polícia judiciária da União e competindo-lhe reprimir o tráfico ilícito de entorpecentes e as infrações com repercussão interestadual ou internacional.",
+      "C": "A Polícia Rodoviária Federal acumula, no caso, função administrativa e judiciária, devendo lavrar o auto de prisão em flagrante e remeter os autos à Polícia Federal apenas para a fase pericial, mantendo a presidência do inquérito policial respectivo.",
+      "D": "A apuração caberá à Polícia Civil do estado em que o veículo foi abordado, por se tratar de crime comum, cabendo à Polícia Federal tão somente o suporte pericial em razão da repercussão interestadual dos fatos investigados.",
+      "E": "A Polícia Rodoviária Federal e a Polícia Federal exercem em conjunto a função de polícia judiciária da União nesse caso, devendo a presidência do inquérito ser definida pela prevenção, isto é, pelo órgão que primeiro tomou conhecimento da infração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O Cap. 1 afirma que cabe à Polícia Federal 'prevenir e reprimir o tráfico ilícito de entorpecentes e drogas afins' e 'exercer, com exclusividade, as funções de polícia judiciária da União' (art. 144, § 1º, II e IV, CF/88), além de apurar infrações em detrimento de bens, serviços e interesses da União ou com repercussão interestadual ou internacional (B correta). A PRF é polícia administrativa (ostensiva/preventiva) e não exerce polícia judiciária, o que afasta A, C e E; não há crime comum de competência estadual nem mera atuação pericial da PF, afastando D.",
+    "referencia": "Cap. 1, Seção 1.2, p. 15-16",
+    "nivel": "medio"
+  },
+  {
+    "id": 535,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Delegado de Polícia Federal recebe notícia de suposta infração penal envolvendo servidor público e, por simpatia pessoal ao investigado, decide arquivá-la sem qualquer apuração. Em outro caso, diante de requisição do Ministério Público para instaurar inquérito por fato manifestamente atípico, o mesmo delegado, ciente da ilegalidade, instaura o procedimento assim mesmo. Considerando a doutrina do Cap. 1 sobre o papel do Delegado como garantidor da legalidade da investigação preliminar, é correto afirmar:",
+    "alternativas": {
+      "A": "Em ambas as hipóteses o delegado age corretamente, pois a requisição ministerial vincula automaticamente a instauração do inquérito e a notícia de infração, por si só, jamais obriga o início de qualquer apuração pela autoridade policial.",
+      "B": "No primeiro caso, ao deixar de atuar por sentimento pessoal, o delegado pode incorrer em prevaricação (art. 319 do CP); no segundo, ao atuar em excesso e com manifesta má-fé, pode caracterizar-se a figura do abuso de poder.",
+      "C": "No primeiro caso o delegado pratica abuso de autoridade e, no segundo, prevaricação (art. 319 do CP), invertendo-se os deveres funcionais conforme deixe de instaurar o inquérito por interesse pessoal ou o instaure ciente da ilegalidade.",
+      "D": "O delegado, como autoridade integralmente vinculada, não detém qualquer juízo sobre a legalidade da requisição ministerial, devendo sempre instaurar o inquérito, de modo que apenas a omissão no primeiro caso seria passível de responsabilização funcional.",
+      "E": "Em ambos os casos a conduta é atípica, pois o controle de legalidade da investigação preliminar incumbe exclusivamente ao Poder Judiciário, não respondendo o delegado por prevaricação nem por abuso de autoridade no exercício de tais juízos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O Cap. 1 afirma que o Delegado deve ser o primeiro garantidor da legalidade do procedimento de investigação preliminar: se deixa de atuar por sentimento pessoal, 'pode incorrer em prevaricação (art. 319 do CP)'; se atua em excesso, com manifesta má-fé, em busca de proveito pessoal, 'pode haver a figura do abuso de poder' (B correta). C inverte as figuras; A e E negam o dever de controle de legalidade e a possibilidade de responsabilização; D afirma vinculação total à requisição, contrariando o texto, que admite controle de legalidade.",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 15",
+    "nivel": "medio"
+  }
+]

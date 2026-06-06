@@ -1,0 +1,138 @@
+[
+  {
+    "id": 577,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma aula sobre a evolução normativa da identificação veicular, um aluno questiona em que momento o padrão internacional do VIN de 17 caracteres alfanuméricos foi formalmente estabelecido e quando passou a vigorar como exigência obrigatória nos Estados Unidos. Com base no material didático, a resposta tecnicamente correta é:",
+    "alternativas": {
+      "A": "O VIN de 17 caracteres surge com a Resolução Contran nº 659/1985, sendo posteriormente incorporado pela ISO em norma editada na década de 1990.",
+      "B": "A norma ISO 3779 foi publicada em 1966 pelo GEIA e os Estados Unidos adotaram o padrão a partir da década de 1990 por iniciativa do Departamento de Estado.",
+      "C": "O padrão de 17 caracteres é uma criação brasileira da ABNT NBR 6066, posteriormente exportada para os Estados Unidos pela NHTSA.",
+      "D": "A norma ISO 3779 foi publicada em 1977, estabelecendo o VIN com 17 caracteres, e em 1981 esse padrão passou a ser exigido oficialmente nos Estados Unidos por determinação da NHTSA."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O capítulo 3 afirma que 'a Organização Internacional de Normalização (ISO) publica a norma ISO 3779, em 1977, estabelecendo o VIN com 17 caracteres alfanuméricos (...). Poucos anos depois, em 1981, esse mesmo padrão passa a ser adotado oficialmente nos Estados Unidos por determinação da National Highway Traffic Safety Administration (NHTSA)'.",
+    "referencia": "Cap. 3, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 578,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a sequência histórica da regulamentação da identificação veicular no Brasil descrita no Módulo I, assinale a alternativa que apresenta a CORRETA correspondência entre marco normativo e contribuição característica.",
+    "alternativas": {
+      "A": "Decreto-Lei nº 2.994/1941 (primeiro Código Nacional de Trânsito) - reconhece o número de chassi como elemento central da individualização do veículo.",
+      "B": "Resolução Contran nº 24/1998 - rompe com o paradigma puramente administrativo e introduz pela primeira vez a noção de identificação estrutural.",
+      "C": "Resolução Contran nº 659/1985 - institui o sistema multidentificador integrando chassi, motor, câmbio, eixos, cabine, carroceria e identificações ocultas.",
+      "D": "Lei nº 5.108/1966 (novo Código Nacional de Trânsito) - reconhece o número de chassi como elemento central da individualização do veículo, marcando transição para identificação vinculada à estrutura física."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O capítulo 3 afirma que 'a promulgação da Lei nº 5.108, de 1966, que institui um novo Código Nacional de Trânsito e introduz avanços significativos ao reconhecer o número de chassi como elemento central da individualização do veículo (...) esse movimento representa a transição para uma identificação menos dependente exclusivamente da placa e mais vinculada à estrutura física do veículo'. A Resolução 659/1985, e não a 24/1998, é que rompeu com o paradigma puramente administrativo; o sistema multidentificador é da Resolução 968/2022.",
+    "referencia": "Cap. 3, p. 12",
+    "nivel": "dificil"
+  },
+  {
+    "id": 579,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o estágio atual de maturidade do modelo brasileiro de identificação veicular, representado pela Resolução Contran nº 968/2022, conforme descrito no capítulo 3 do material, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "A norma mantém uma visão centrada exclusivamente no VIN, reforçando a primazia desse identificador único como sinal autossuficiente da identidade veicular.",
+      "B": "A norma adota um sistema multidentificador integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais, com forte integração ao RENAVAM.",
+      "C": "A norma é dirigida exclusivamente à identificação externa do veículo (placas), deixando a identificação estrutural ao encargo de norma específica da ABNT.",
+      "D": "A norma revoga toda a legislação anterior sobre identificação e remete o sistema brasileiro a uma única gravação obrigatória de VIN em ponto único do chassi."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo 3 descreve que a Resolução Contran nº 968/2022 'abandona uma visão centrada exclusivamente no VIN e adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais. A identificação passa a ser distribuída, rastreável e fortemente integrada ao RENAVAM'.",
+    "referencia": "Cap. 3, p. 12-13",
+    "nivel": "facil"
+  },
+  {
+    "id": 580,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988) e da Resolução Contran nº 24/1998, conforme apresentadas no contexto histórico-normativo da identificação veicular, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A Resolução Contran nº 659/1985 foi o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação veicular de natureza material e integrada, enquanto a Resolução Contran nº 24/1998 atuou como instrumento de organização, consolidação e sistematização de modelo já existente, alinhado ao recém-instituído CTB.",
+      "B": "A Resolução Contran nº 24/1998 foi pioneira ao prever a identificação por caracteres gravados em elemento estrutural, enquanto a Resolução nº 659/1985 limitou-se à disciplina das placas.",
+      "C": "Ambas as resoluções tratam exclusivamente da identificação externa do veículo (placas), não abordando a identificação por caracteres gravados em chassi ou monobloco.",
+      "D": "A Resolução nº 691/1988 revogou integralmente o regime de identificação por gravação estrutural instituído em 1985, retornando o sistema brasileiro a uma lógica puramente administrativa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O capítulo 3 indica que a Resolução Contran nº 659/1985 'representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação veicular de natureza material e integrada' e que 'A Resolução Contran nº 24/1998 passa a vigorar como um instrumento de organização, consolidação e sistematização de um modelo já existente. Seu mérito reside em reunir e ordenar exigências técnicas (...) e alinhar essas práticas ao recém-instituído Código de Trânsito Brasileiro'.",
+    "referencia": "Cap. 3, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 647,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em palestra ministrada por um perito federal sobre a evolução normativa da identificação veicular, são feitas as seguintes afirmações sobre os marcos históricos mundiais e brasileiros tratados no material didático. Julgue os itens: I - Em escala global, os primeiros esforços sistemáticos de padronização da identificação veicular surgem no pós-guerra, com início do uso do VIN nos Estados Unidos ainda na década de 1950. II - Na fase inicial, o VIN já obedecia a um padrão único quanto ao tamanho, formato e conteúdo, definido em comum acordo entre os fabricantes norte-americanos. III - A consolidação de padrão técnico internacional ocorre a partir do final da década de 1970, quando a ISO publica, em 1977, a norma ISO 3779, estabelecendo o VIN com 17 caracteres alfanuméricos. IV - Em 1981, o padrão de 17 caracteres passa a ser adotado oficialmente nos Estados Unidos por determinação da National Highway Traffic Safety Administration (NHTSA). V - O Código Nacional de Trânsito de 1941, instituído pelo Decreto-Lei nº 2.994, já previa identificador veicular estruturado equivalente ao conceito moderno de VIN. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "III, IV e V.",
+      "C": "II, IV e V.",
+      "D": "I, III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O capítulo 3 afirma que 'os primeiros esforços sistemáticos para a padronização da identificação veicular surgem no pós-guerra... na década de 1950' (item I), que a ISO 3779, em 1977, estabeleceu 'o VIN com 17 caracteres alfanuméricos' (item III) e que 'em 1981, esse mesmo padrão passa a ser adotado oficialmente nos Estados Unidos por determinação da NHTSA' (item IV). Contraria-se o item II, pois 'nesse estágio inicial, o VIN não obedecia a um padrão único, variando em tamanho, formato e conteúdo conforme o fabricante'. Item V está errado porque o texto diz que no CNT de 1941 'ainda não há, nesse momento, menção a um identificador estruturado equivalente ao conceito moderno de VIN'.",
+    "referencia": "Cap. 3, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 648,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao examinar um veículo de fabricação nacional do final da década de 1960 submetido a perícia, o perito federal precisa contextualizar normativamente o momento em que o ordenamento brasileiro deixou de tratar a identificação veicular como questão puramente atrelada à placa, registro e licenciamento, e passou a reconhecer a estrutura física do veículo como elemento central de individualização. Conforme o material didático, esse movimento de transição é mais corretamente associado a qual marco normativo?",
+    "alternativas": {
+      "A": "À publicação do Decreto-Lei nº 3.651, de 1941, que tratou da identificação externa por meio de placas.",
+      "B": "À Lei nº 5.108, de 1966, que institui um novo Código Nacional de Trânsito e introduz avanços significativos ao reconhecer o número de chassi como elemento central da individualização do veículo, vinculando a identificação mais à estrutura física e menos exclusivamente à placa.",
+      "C": "À Resolução Contran nº 24/1998, que pela primeira vez previu a identificação por caracteres gravados em elemento estrutural do veículo.",
+      "D": "À Resolução Contran nº 968/2022, que introduziu, em caráter inédito, a noção de identificação estrutural ao lado da identificação por placas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo 3 destaca que 'a promulgação da Lei nº 5.108, de 1966, que institui um novo Código Nacional de Trânsito e introduz avanços significativos ao reconhecer o número de chassi como elemento central da individualização do veículo', representando 'a transição para uma identificação menos dependente exclusivamente da placa e mais vinculada à estrutura física do veículo'.",
+    "referencia": "Cap. 3, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 649,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em discussão técnica sobre a maturidade do modelo brasileiro de identificação veicular, dois peritos divergem sobre o alcance conceitual da Resolução Contran nº 968/2022. O primeiro sustenta que a norma mantém uma visão centrada exclusivamente no VIN, acrescentando apenas exigências formais de gravação. O segundo afirma o contrário. Considerando a descrição do material didático sobre essa resolução, qual posição é tecnicamente CORRETA?",
+    "alternativas": {
+      "A": "A primeira, pois a Resolução nº 968/2022 reforça a centralidade exclusiva do VIN, deixando os demais elementos como meros desdobramentos acessórios sem integração ao RENAVAM.",
+      "B": "A primeira, pois a norma se limita a sistematizar a gravação do VIN em chassi e monobloco, sem inovar quanto a outros elementos identificadores.",
+      "C": "A segunda, pois a Resolução nº 968/2022 abandona uma visão centrada exclusivamente no VIN e adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais, fortemente integrado ao RENAVAM.",
+      "D": "A segunda, mas apenas para os veículos de competição e de coleção, mantendo, em relação aos demais, o modelo restrito ao VIN."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o capítulo 3, a Resolução Contran nº 968/2022 'abandona uma visão centrada exclusivamente no VIN e adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais'. A identificação 'passa a ser distribuída, rastreável e fortemente integrada ao RENAVAM'.",
+    "referencia": "Cap. 3, p. 12-13",
+    "nivel": "facil"
+  },
+  {
+    "id": 650,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um candidato a perito sustenta, em prova oral, que a Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988) teria caráter meramente administrativo e fiscalizatório, sem qualquer rompimento de paradigma em relação às normas anteriores. Já a Resolução Contran nº 24/1998, segundo ele, teria sido a verdadeira responsável por instituir, pela primeira vez, a identificação por caracteres gravados em elemento estrutural. Confrontando essa fala com o que dispõe o material didático, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O candidato erra, pois a Resolução nº 659/1985 já previa a identificação do veículo por caracteres gravados em elemento estrutural e a reprodução controlada de identificadores em outros componentes, rompendo definitivamente com o paradigma puramente administrativo, enquanto a Resolução nº 24/1998 funcionou como instrumento de organização, consolidação e sistematização de modelo já existente.",
+      "B": "O candidato acerta integralmente, pois somente a Resolução nº 24/1998 inaugura a identificação estrutural, sendo a Resolução nº 659/1985 puramente administrativa.",
+      "C": "O candidato acerta parcialmente, pois ambas as resoluções romperam o paradigma administrativo, mas apenas a Resolução nº 691/1988 introduziu identificação em elemento estrutural.",
+      "D": "O candidato erra, pois nem a Resolução nº 659/1985 nem a Resolução nº 24/1998 previam identificação em elemento estrutural, exigência só introduzida com a Resolução Contran nº 968/2022."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O capítulo 3 afirma que a Resolução nº 659/1985 'representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação veicular de natureza material e integrada' e que ela 'já previa a identificação do veículo por caracteres gravados em elemento estrutural, bem como a reprodução controlada de identificadores em outros componentes', 'rompendo definitivamente com o paradigma puramente administrativo'. Já a Resolução nº 24/1998 'passa a vigorar como um instrumento de organização, consolidação e sistematização de um modelo já existente'.",
+    "referencia": "Cap. 3, p. 12",
+    "nivel": "dificil"
+  }
+]

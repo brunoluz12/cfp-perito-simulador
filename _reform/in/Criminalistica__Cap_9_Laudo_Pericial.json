@@ -1,0 +1,104 @@
+[
+  {
+    "id": 453,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito criminal federal recém-empossado precisa elaborar seu primeiro laudo pericial e busca orientação sobre a estrutura mínima exigida pela doutrina. Considerando as orientações apresentadas no Cap. 9 da Criminalística, é CORRETO afirmar que o laudo pericial deve conter, no mínimo:",
+    "alternativas": {
+      "A": "preâmbulo, fundamentação legal exaustiva, dispositivo e relatório de antecedentes do réu.",
+      "B": "ementa, voto, decisão e resposta aos quesitos formulados pelas partes.",
+      "C": "introdução, indiciamento, qualificação do investigado, descrição dos vestígios e parecer técnico final.",
+      "D": "preâmbulo (número, título, nome dos peritos e informações sobre a requisição); exposição e discussão (narração do que foi examinado, condições, histórico, técnicas e justificativas); e uma conclusão objetiva e sintética."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o PDF (Cap. 9, p. 57), para a maioria dos doutrinadores, o laudo pericial deve ser elaborado com, no mínimo, as seguintes partes: um preâmbulo (número, título, nome dos peritos e informações sobre a requisição); exposição e discussão (narração do que foi examinado, condições de realização dos exames, histórico, técnicas utilizadas e justificativas das conclusões) e uma conclusão objetiva e sintética.",
+    "referencia": "Cap. 9, p. 57",
+    "nivel": "facil"
+  },
+  {
+    "id": 454,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em sentença de homicídio doloso, determinado magistrado rejeita integralmente as conclusões do laudo pericial criminal, fundamentando sua decisão em provas testemunhais e na livre apreciação que faz do conjunto probatório. À luz do art. 182 do CPP e da abordagem do Cap. 9 da Criminalística sobre a importância do laudo, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "a decisão do juiz é nula, pois o magistrado é obrigado a acatar integralmente as conclusões do laudo pericial criminal, dada a natureza técnica da prova.",
+      "B": "o art. 182 do CPP adota o sistema da prova tarifada, segundo o qual a perícia tem valor probatório absoluto e vincula o julgador.",
+      "C": "o art. 182 do CPP estabelece que o juiz não ficará adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo, no todo ou em parte, embora não seja comum o magistrado decidir em sentido contrário à conclusão pericial; trata-se do sistema liberatório adotado pela legislação brasileira.",
+      "D": "o juiz somente pode rejeitar o laudo após determinar nova perícia, com peritos diversos, sob pena de nulidade absoluta da sentença."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o PDF (Cap. 9, Seção 9.1, p. 58), o art. 182 do CPP estabelece que o juiz não ficará adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo, no todo ou em parte. O texto destaca que não é comum o juiz decidir em sentido contrário à conclusão da perícia, e que essa é a regra do sistema liberatório adotado pela legislação brasileira.",
+    "referencia": "Cap. 9, Seção 9.1, p. 58",
+    "nivel": "medio"
+  },
+  {
+    "id": 455,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em flagrante por tráfico de drogas baseado na Lei nº 11.343/2006, uma substância pulverulenta esbranquiçada é apreendida em poder do suspeito. Para a lavratura do Auto de Prisão em Flagrante, é necessária a realização de um exame prévio da substância. Sobre o laudo de exame de constatação preliminar, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "poderá ser realizado por um só perito ou, na falta deste, por qualquer pessoa com capacitação técnica para o encargo, nomeada pelo delegado; se feito por perito oficial, este não fica impedido de realizar o exame definitivo; trata-se do único caso de exame pericial preliminar previsto em lei.",
+      "B": "deverá ser realizado obrigatoriamente por dois peritos oficiais e impede a participação dos mesmos peritos no laudo definitivo.",
+      "C": "substitui plenamente o laudo definitivo de natureza da substância, sendo este último dispensável para o julgamento do réu.",
+      "D": "é cabível em qualquer espécie de crime que deixe vestígios, e não apenas nas hipóteses da Lei de Entorpecentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o PDF (Cap. 9, Seção 9.2, p. 59), o exame de constatação preliminar pode ser realizado por um só perito ou, na falta deste, por qualquer pessoa com capacitação técnica, nomeada pelo delegado; se feito por perito oficial, ele não fica impedido de realizar o exame definitivo, que é indispensável para o julgamento; e este é o único caso de exame pericial preliminar previsto em lei.",
+    "referencia": "Cap. 9, Seção 9.2, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "id": 456,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante um exame grafotécnico em curso, os peritos verificam que os materiais padrão fornecidos são insuficientes para uma conclusão técnica segura e precisam comunicar à autoridade requisitante a necessidade de apresentação de novos padrões. Em outro caso, advogado de uma das partes em ação cível contrata um especialista para emitir manifestação técnica sobre o objeto do litígio, a ser juntada ao processo como peça de convencimento, sem nomeação oficial como perito. Considerando as seções 9.3 e 9.4 do livro, os documentos adequados em cada situação são, respectivamente:",
+    "alternativas": {
+      "A": "laudo complementar e perícia particular.",
+      "B": "informação e laudo pericial.",
+      "C": "informação e parecer técnico.",
+      "D": "ofício circular e auto de constatação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o PDF (Cap. 9, Seção 9.4, p. 59-60), a informação é o documento oficial por meio do qual os peritos se comunicam com a autoridade requisitante para tratar de assuntos como necessidade de apresentação de novos materiais padrões em exame grafotécnico. Quanto ao especialista contratado pelo advogado em ação cível para emitir manifestação técnica sem nomeação oficial, o PDF (Seção 9.3, p. 59) denomina expressamente esse documento como parecer técnico, com valor de peça de convencimento e sem valor de perícia.",
+    "referencia": "Cap. 9, Seções 9.3 e 9.4, p. 59-60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 553,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante operacao de combate ao trafico, o delegado de policia federal lavra Auto de Prisao em Flagrante por crime previsto na Lei nº 11.343/2006. Antes da lavratura do APF, e preciso realizar exame da substancia apreendida. Sobre o laudo de exame de constatacao preliminar, conforme o item 9.2 do Cap. 9, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O exame de constatacao preliminar somente pode ser realizado por dois peritos oficiais, sob pena de nulidade do flagrante, vedada a nomeacao de pessoa diversa para o ato.",
+      "B": "A constatacao preliminar e modalidade de exame pericial aplicavel a todos os crimes que deixam vestigios e exigem flagrante delito, nao se restringindo aos crimes da Lei de Entorpecentes.",
+      "C": "Embora previsto na Lei nº 11.343/2006, o laudo de constatacao preliminar substitui integralmente o laudo definitivo, sendo dispensavel novo exame pericial para fins de julgamento do reu.",
+      "D": "Trata-se de exame preliminar previsto na Lei de Entorpecentes, podendo ser realizado por um so perito ou, na sua falta, por qualquer outra pessoa com capacitacao tecnica nomeada pelo delegado de policia federal; se feito por perito oficial, este nao fica impedido de realizar o exame definitivo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Item 9.2 (p. 59): no APF com base na Lei 11.343/2006, o exame previo pode ser feito por um so perito ou, na falta, por qualquer pessoa com capacitacao tecnica nomeada pelo delegado. Se feito por perito oficial, ele nao fica impedido de realizar o exame definitivo, indispensavel para o julgamento. O texto destaca que este e o unico caso de exame pericial preliminar previsto em lei, o que torna D errada. C tambem erra ao dizer que substitui o definitivo.",
+    "referencia": "Cap. 9, Seção 9.2, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "id": 554,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a respeito da distincao entre laudo pericial, parecer tecnico e informacao, conforme exposto no Cap. 9: I) O parecer tecnico pode ser elaborado por determinacao judicial para esclarecer um laudo pericial e, nesse caso, deve ser realizado pelos peritos signatarios do documento original. II) O assistente tecnico nas acoes civeis apresenta laudo pericial com a mesma natureza e forca probatoria do laudo do perito oficial nomeado pelo juiz. III) A informacao e o documento oficial pelo qual os peritos se comunicam com a autoridade requisitante ou com a chefia da Criminalistica para tratar de assuntos relacionados aos exames, como a necessidade de novos padroes ou ocorrencias que impecam a realizacao da pericia. IV) Embora o art. 182 do CPP estabeleca que o juiz nao fica adstrito ao laudo, podendo aceita-lo ou rejeita-lo no todo ou em parte, na pratica nao e comum que o juiz decida em sentido contrario a conclusao da pericia. Estao corretos APENAS os itens:",
+    "alternativas": {
+      "A": "II e IV.",
+      "B": "I, III e IV.",
+      "C": "I, II e III.",
+      "D": "II, III e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Item I correto (item 9.3, p. 59): quando determinado pelo juiz para esclarecer o laudo, o parecer deve ser feito pelos peritos signatarios do documento original. Item II incorreto (item 9.3, p. 59): o assistente tecnico apresenta PARECER TECNICO, sem valor de pericia. Item III correto (item 9.4, p. 59-60). Item IV correto (item 9.1, p. 58): art. 182 do CPP e a observacao de que nao e comum o juiz decidir contra a conclusao da pericia.",
+    "referencia": "Cap. 9, Seção 9.3, p. 59",
+    "nivel": "medio"
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1290,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a caracterização de cartuchos e elementos de munição apreendidos, é correto afirmar que:",
+    "alternativas": {
+      "A": "Diante da apreensão de grande quantidade de cartuchos íntegros ou estojos com características genéricas e específicas iguais, é comum realizar fotografias e descrição por grupos de mesmo calibre nominal, fabricante e tipo de projétil.",
+      "B": "É vedado o agrupamento de cartuchos com características idênticas para fins de descrição, devendo cada um ser individualmente fotografado e descrito.",
+      "C": "A descrição deve iniciar pelas características mais específicas e progredir para as mais genéricas, garantindo precisão analítica desde o início do laudo.",
+      "D": "A descrição de cartuchos dispensa o registro fotográfico da estampa da base e do número de lote, bastando a indicação textual do calibre nominal e do fabricante."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 67, a descrição inicia-se pelas características genéricas indo para as específicas; e diante da recorrência de grande quantidade de cartuchos com mesmas características, é comum agrupá-los por calibre nominal, fabricante e tipo de projétil para fotografias e descrição. A vai do contrário; B nega o agrupamento permitido; D nega o registro fotográfico, que é importante.",
+    "referencia": "PDF, p. 67",
+    "nivel": "facil"
+  },
+  {
+    "id": 1291,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito dos exames de eficiência em munição na Polícia Federal, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os testes seguem a Instrução Técnica nº 15/2012-DITEC/DPF, sendo permitido o teste por amostragem em razão do recebimento comum de grande quantidade de munição.",
+      "B": "Os estojos provenientes dos disparos do teste de eficiência devem ser obrigatoriamente devolvidos com a munição questionada após a confecção do laudo pericial.",
+      "C": "Os testes por amostragem são vedados, devendo cada cartucho recebido ser individualmente periciado quanto à sua eficiência funcional.",
+      "D": "O registro fotográfico prévio é dispensável em exames de munição, pois o material continuará existindo após a realização dos testes de eficiência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 67, os testes seguem a IT 15/2012-DITEC/DPF e a amostragem é permitida. B é incorreta pois os estojos são descartados (não devolvidos, exceto padrões para confronto/BNPB). C contraria a permissão da amostragem. D é falsa pois o registro fotográfico é especialmente importante já que o material deixará de existir após os exames.",
+    "referencia": "PDF, p. 67",
+    "nivel": "facil"
+  },
+  {
+    "id": 1292,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os fundamentos científicos da identificação mediata das armas de fogo apoiam-se em duas propriedades das marcas que as armas imprimem nos elementos de munição. Sobre essas propriedades, é correto afirmar que:",
+    "alternativas": {
+      "A": "A reprodutibilidade decorre da fabricação seriada das armas, enquanto a unicidade resulta do uso prolongado da arma ao longo do tempo.",
+      "B": "A unicidade refere-se à repetição constante das mesmas marcas em armas do mesmo modelo, e a reprodutibilidade significa que cada arma produz marcas distintas a cada disparo.",
+      "C": "Ambas as propriedades são consequência exclusiva do processo de raiamento do cano, sendo irrelevantes as marcas da culatra, percussor, extrator ou ejetor.",
+      "D": "A reprodutibilidade resulta da deformação plástica causada pela elevada pressão interna durante o disparo, e a unicidade decorre de marcas geradas aleatoriamente na fabricação e uso da arma."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 68, reprodutibilidade: a elevada pressão interna durante o disparo faz com que superfícies internas deformem plasticamente os elementos de munição, imprimindo padrão que se repete a cada disparo. Unicidade: as marcas são geradas aleatoriamente nos processos de fabricação e subsequente uso, sendo únicas para cada arma. As alternativas A, C e D distorcem ou invertem esses conceitos.",
+    "referencia": "PDF, p. 68",
+    "nivel": "medio"
+  },
+  {
+    "id": 1293,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Perito Criminal Federal Cláudio é acionado para coletar um projétil incrustado em batente de madeira de uma residência onde ocorreu homicídio. Considerando os cuidados com material questionado em Balística Forense, ele deve:",
+    "alternativas": {
+      "A": "Extrair o projétil com auxílio de alicate de bico fino para preservar sua integridade, marcando sua superfície a giz para identificação.",
+      "B": "Remover o projétil com pinça metálica e, em seguida, lavá-lo com solvente para retirar resíduos antes do acondicionamento em envelope de segurança.",
+      "C": "Escavar uma porção do material no qual o projétil se encontra, remetendo todo o conjunto para análise, e identificar a embalagem primária, e não o projétil.",
+      "D": "Retirar o projétil manualmente, escrever sua identificação a caneta na lateral do encamisamento e acondicioná-lo solto no envelope de segurança."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 68-69, nunca extrair o projétil por ação direta de ferramentas metálicas (condenável o uso de alicates ou pinças); o procedimento correto é escavar porção do material e remeter o conjunto. Nunca escrever ou marcar projéteis e estojos questionados (a identificação vai na embalagem primária/envelope de segurança). As alternativas A, B e D violam esses cuidados.",
+    "referencia": "PDF, p. 68-69",
+    "nivel": "medio"
+  },
+  {
+    "id": 1294,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a coleta de elementos de munição em local de homicídio múltiplo, a perita Mariana recupera projéteis em quatro quadrantes distintos da cena e ainda há solicitação de exames de DNA e papiloscópico nos elementos. Diante disso, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os materiais devem ser todos acondicionados em um único envelope, e a limpeza com água corrente deve ser realizada antes do envio, mesmo havendo pedidos de DNA e papiloscopia.",
+      "B": "Os materiais devem ser separados conforme a região em que foram encontrados, acondicionados em embalagem primária e em envelope de segurança; a limpeza só deve ocorrer após a finalização dos exames de DNA e papiloscópico, quando solicitados.",
+      "C": "Não há necessidade de separação por quadrante, sendo suficiente identificar o local de crime no envelope; a limpeza com água corrente deve preceder qualquer outro exame.",
+      "D": "A separação por quadrante é dispensável quando há pedido de DNA, devendo todos os projéteis ser limpos previamente para evitar contaminação cruzada entre os exames."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 68-69, os materiais devem ser separados conforme a região de coleta (câmara, tambor, tubo, pente, quadrante ou região do local de crime) e acondicionados em embalagem primária e em envelope de segurança. A observação registra que, havendo pedido de DNA ou papiloscópico, a limpeza só deve ser realizada após finalização desses exames.",
+    "referencia": "PDF, p. 68-69",
+    "nivel": "medio"
+  },
+  {
+    "id": 1295,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o requisito de autenticidade dos padrões em Balística Forense, é correto afirmar que:",
+    "alternativas": {
+      "A": "Significa que os padrões devem ser colhidos no menor lapso de tempo possível após a produção do material questionado, em razão do desgaste progressivo do cano.",
+      "B": "Refere-se à similaridade entre as características do cartucho usado na coleta e as do material questionado, dispensando-se a identidade de fabricante ou calibre nominal.",
+      "C": "É o mais importante requisito do padrão; consiste na certeza de que o padrão foi colhido com a arma questionada, sendo recomendável que o próprio perito responsável pelo exame realize a coleta.",
+      "D": "Trata-se de requisito secundário, restrito ao número mínimo de quatro padrões necessários ao exame, conforme exigência da Instrução Técnica da DITEC/PF."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 70, a autenticidade é o mais importante requisito de um padrão: é autêntico quando tem origem certa e inquestionável, com certeza de ter sido colhido com a arma questionada; recomenda-se que o próprio perito faça a coleta. B descreve adequabilidade; C descreve contemporaneidade; D mistura a noção de quantidade.",
+    "referencia": "PDF, p. 70",
+    "nivel": "medio"
+  },
+  {
+    "id": 1296,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Rafael recebe uma pistola apreendida e um estojo questionado .380\" Auto, de latão, marca CBC, com espoleta latonada. Para coleta dos padrões, observando o requisito de adequabilidade, ele deve utilizar:",
+    "alternativas": {
+      "A": "Qualquer cartucho .380\" Auto disponível no acervo do laboratório, ainda que de marca diversa, pois o calibre nominal é o que efetivamente determina a adequabilidade dos padrões.",
+      "B": "Cartucho .380\" Auto importado, de níquel, marca diferente da CBC, desde que produzido na mesma década do estojo questionado, em razão da contemporaneidade.",
+      "C": "Cartucho recarregado da própria oficina pericial, ajustado ao calibre real do cano da arma, independentemente da marca, material ou composição do estojo questionado.",
+      "D": "Cartucho de mesma marca CBC, calibre .380\" Auto, e composição idêntica à do estojo questionado (latão com espoleta latonada), preferencialmente os encontrados com a própria arma quando importada ou recarregada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 70, para coleta de estojos padrões o cartucho deve ser da mesma marca, calibre e composição encontrados no estojo questionado (exemplo: estojo latão .38\" SPECIAL +P da CBC com espoleta latonada -> cartucho idêntico). É importante enviar os cartuchos encontrados com a arma, especialmente se importada ou recarregada. A, B e D ignoram a exigência de identidade de marca/composição.",
+    "referencia": "PDF, p. 70",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1297,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os requisitos de contemporaneidade e quantidade dos padrões em Balística Forense, é correto afirmar que:",
+    "alternativas": {
+      "A": "A contemporaneidade decorre do desgaste do cano e demais partes a cada disparo: o padrão deve ser colhido no menor lapso temporal possível após a produção do material questionado; a quantidade não é precisável, mas, não sendo possível enviar a arma, deve-se colher no mínimo quatro padrões.",
+      "B": "A contemporaneidade exige sempre que o padrão seja colhido em até 30 dias após a produção do material questionado; ultrapassado o prazo, o exame não pode ser realizado.",
+      "C": "A quantidade de padrões é fixada em exatos dez exemplares por arma, independentemente da convicção dos peritos, sendo essa a regra geral para arquivamento no laboratório.",
+      "D": "A contemporaneidade refere-se ao envio simultâneo de armas e padrões, e a quantidade exigida é determinada pelo Ministério Público no momento da requisição do exame."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 71, contemporaneidade: o padrão deve ser colhido no menor lapso de tempo após o material questionado ter sido produzido, em razão do pequeno desgaste do cano a cada disparo. Quantidade: não é possível precisar; o ideal é enviar a arma; caso impossível, mínimo de quatro padrões. A, C e D inventam prazos/quantidades não previstos.",
+    "referencia": "PDF, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 1298,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Eduardo recebe um revólver questionado para confronto balístico e identifica que o cano da arma está \"chumbado\". A respeito da coleta de projéteis padrões nessa situação, é correto afirmar que:",
+    "alternativas": {
+      "A": "O cano deve ser limpo antes da coleta de qualquer padrão, garantindo a remoção do depósito de chumbo metálico para que os disparos iniciais já forneçam estrias adequadas.",
+      "B": "Em razão da contaminação do cano, o exame de confronto balístico não pode ser realizado, devendo-se devolver a arma à autoridade requisitante com laudo de inviabilidade técnica.",
+      "C": "Independentemente do chumbamento, os padrões devem ser colhidos exclusivamente com projéteis de chumbo nu para preservar a identidade com o material questionado em todos os casos.",
+      "D": "Os primeiros padrões devem ser colhidos com o cano no estado em que se encontra; sendo inadequados, efetuam-se disparos com projéteis semi ou totalmente encamisados para limpar o chumbamento, coletando-se novos padrões para confronto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 71-72, antes da coleta verifica-se a desobstrução do cano, mas se livre, ele não deve ser limpo previamente, devendo os primeiros padrões serem colhidos no estado em que se encontra; caso inadequados, efetuam-se disparos com projéteis semiencamisados ou totalmente encamisados para limpar o chumbamento e novos padrões são colhidos. A inverte a ordem, C ignora a alternativa de limpeza por disparos encamisados, D nega a viabilidade do exame.",
+    "referencia": "PDF, p. 71-72",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1299,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame microcomparativo em projéteis, o perito Henrique verifica que as características de classe (calibre real, número e orientação das raias) do projétil questionado e do cano da arma questionada são DISCORDANTES em uma delas. Nessa situação, é correto afirmar que:",
+    "alternativas": {
+      "A": "Deve-se prosseguir com o confronto balístico microscópico, pois a discordância em uma única característica de classe é frequentemente compensada pela convergência de estrias microscópicas.",
+      "B": "O confronto deve ser feito com projéteis de outros calibres reais, ampliando a base de comparação para superar a discordância encontrada nas características de classe.",
+      "C": "O resultado é necessariamente inconclusivo, devendo o perito apenas indicar a impossibilidade de afirmar a origem do projétil questionado em razão da divergência verificada.",
+      "D": "O perito pode afirmar com certeza que o projétil questionado NÃO foi expelido pelo cano da arma questionada, não havendo necessidade de efetuar o confronto microscópico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 74, se as características macroscópicas (de classe) forem concordantes, sugere-se exame microscópico; se apenas uma delas for discordante, o perito pode afirmar com certeza que o projétil questionado não foi expelido pelo cano da arma questionada, sem necessidade de confronto microscópico. As demais distorcem essa regra.",
+    "referencia": "PDF, p. 74",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1300,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o confronto balístico entre estojos, é correto afirmar que:",
+    "alternativas": {
+      "A": "É realizado exclusivamente nas marcas de percussão na cápsula de espoletamento, sendo irrelevantes marcas de extração, ejeção ou de culatra para fins de individualização.",
+      "B": "Pode ser efetuado entre um padrão e um questionado ou entre dois ou mais questionados; em armas de calibre de alta energia (rifles e fuzis), a comparação é, na maioria dos casos, feita apenas nos estojos.",
+      "C": "No caso de espingardas, a comparação é normalmente feita também nos projéteis, em razão da alma raiada do cano, que confere estrias individualizadoras adequadas.",
+      "D": "Não é possível realizar confronto balístico em estojos quando ausente a arma questionada, pois sem padrão a comparação microscópica perde toda a sua confiabilidade científica."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 76, o confronto entre estojos pode ser entre padrão e questionado, ou entre dois ou mais questionados (objetivo de saber se foram percutidos pela mesma arma); em espingardas (alma lisa) e armas de alta energia (rifles/fuzis - projétil pode perder-se/fragmentar), a comparação na maioria dos casos é feita apenas nos estojos. As demais analisam só percussão (A), atribuem alma raiada à espingarda (B) ou negam a comparação entre questionados (D).",
+    "referencia": "PDF, p. 76",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1301,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da legislação nacional que disciplina banco de dados balísticos no Brasil, é correto afirmar que:",
+    "alternativas": {
+      "A": "O Banco Nacional de Perfis Balísticos (BNPB) foi criado originalmente pelo Estatuto do Desarmamento (Lei nº 10.826/2003), tendo sido plenamente implementado já em 2004 sob gestão do SINARM.",
+      "B": "A Lei nº 13.964/2019 acrescentou o art. 34-A à Lei nº 10.826/2003, criando o BNPB para armazenar perfis de projéteis e estojos relacionados a crimes; o Decreto nº 10.711/2021 instituiu formalmente o BNPB e criou o SINAB.",
+      "C": "O SINAB foi criado pela Lei nº 13.964/2019 e o BNPB pelo Decreto nº 10.711/2021, sob gestão direta do SINARM e sem comitê gestor próprio no Ministério da Justiça e Segurança Pública.",
+      "D": "O BNPB e o SINAB foram criados pela Portaria DITEC/PF nº 1493/2024, que dispõe sobre a padronização de procedimentos para encaminhamento de vestígios balísticos e padrões de arma de fogo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 77-78, o Estatuto do Desarmamento previu cadastro pelo SINARM, mas isso nunca foi implementado. Em 2019, a Lei 13.964 acrescentou o art. 34-A à Lei 10.826/2003, criando o BNPB; o Decreto 10.711/2021 instituiu formalmente o BNPB e criou o SINAB, além do Comitê Gestor no MJSP. A Portaria DITEC/PF 1493/2024 (p. 79) regula o encaminhamento de vestígios, não criou o sistema.",
+    "referencia": "PDF, p. 77-79",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1302,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a arquitetura e o funcionamento do Sistema Nacional de Análise Balística (SINAB), é correto afirmar que:",
+    "alternativas": {
+      "A": "A tecnologia adotada foi desenvolvida internamente pela Polícia Federal, sem processo licitatório, e abrange exclusivamente os laboratórios da PF, ficando as Polícias Científicas estaduais excluídas do sistema.",
+      "B": "Funciona como sistema descentralizado em que cada laboratório mantém banco de dados próprio sem servidor central, sendo as correlações entre laboratórios realizadas por troca direta de imagens entre peritos.",
+      "C": "Configura-se como uma rede nacional de laboratórios de Balística Forense integrando a Polícia Federal e as Polícias Científicas das unidades da Federação; cada laboratório possui Sistemas de Identificação Balística (SIBs) conectados a servidor central, onde está hospedado o BNPB.",
+      "D": "É integrado por sistemas SIBs que produzem automaticamente o laudo pericial conclusivo, dispensando análise humana das correlações geradas pelo servidor central do BNPB."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 78, o SINAB é rede nacional de laboratórios integrando PF e Polícias Científicas das UFs, com SIBs conectados a servidor central que hospeda o BNPB. A tecnologia (IBIS) foi escolhida por licitação internacional precedida de POC. Os HITs são listas a serem analisadas por peritos, não substituem o exame humano.",
+    "referencia": "PDF, p. 78",
+    "nivel": "medio"
+  },
+  {
+    "id": 1303,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Ana, em laboratório integrado ao SINAB, recebe diversos elementos de munição relacionados a um homicídio. Quanto aos protocolos de operação do SINAB, é correto afirmar que:",
+    "alternativas": {
+      "A": "Após triagem em microscópio comparador óptico, as peças com melhores marcas individualizadoras são selecionadas para inserção; as correlações são automáticas pelo servidor central, e as listas são analisadas por peritos, com confirmação por comparação microscópica tradicional das peças físicas.",
+      "B": "As correlações são realizadas manualmente por peritos, sem participação do servidor central, restringindo-se a comparações dentro do mesmo laboratório de origem do material.",
+      "C": "Todos os elementos de munição recebidos devem ser obrigatoriamente inseridos no sistema, independentemente da qualidade das marcas, para garantir cobertura total do banco de dados nacional.",
+      "D": "As ligações geradas pelo sistema (HITs) já constituem laudo pericial, sendo encaminhadas diretamente às autoridades requisitantes sem necessidade de análise pericial complementar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 78-79, os elementos passam por triagem em microscópio comparador óptico, selecionando-se as peças com melhores marcas para inserção; correlações são automáticas no servidor central considerando compatibilidade de calibre e características de classe; as listas são analisadas por peritos, com registro/rejeição mediante análise das imagens e confirmação por comparação microscópica tradicional. Ligações confirmadas são formalizadas em laudo.",
+    "referencia": "PDF, p. 78-79",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1304,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos resultados do SINAB e de sua relevância para a investigação criminal, é correto afirmar que:",
+    "alternativas": {
+      "A": "Em razão de operar somente no âmbito federal, é incapaz de produzir vínculos entre crimes cometidos em diferentes estados, mantendo a tradicional lógica reativa da perícia criminal nacional.",
+      "B": "Sua atuação restringe-se a casos com prévia requisição de comparação balística pela autoridade investigativa, sendo vedada a correlação automática sem solicitação formal do delegado do caso.",
+      "C": "O sistema promoveu mudança de paradigma, deslocando a perícia de postura reativa para atuação proativa, sendo possível identificar séries criminosas e vincular crimes em diferentes unidades da Federação, inclusive sem requisição prévia de comparação balística.",
+      "D": "Os HITs gerados pelo SINAB substituem integralmente a investigação policial, dispensando o trabalho de inteligência e de campo nas apurações relacionadas a crimes cometidos com arma de fogo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 79, o SINAB possibilitou milhares de ligações inclusive sem requisição prévia ou indícios de autoria, deslocando a perícia da postura reativa para a proativa, sendo ferramenta para identificação de séries criminosas, atuação contra organizações criminosas, integração federal-estadual e fortalecimento da prova técnico-científica.",
+    "referencia": "PDF, p. 79",
+    "nivel": "facil"
+  },
+  {
+    "id": 1305,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Lucas, lotado em unidade de criminalística do Sistema Nacional de Criminalística, atendeu local de crime com vestígios balísticos e também examinou arma de fogo apreendida da qual foram coletados padrões. Considerando a Portaria DITEC/PF nº 1493/2024, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os peritos devem inserir diretamente os materiais no BNPB a partir da unidade de origem, sendo dispensável o envio ao Instituto Nacional de Criminalística por se tratar de procedimento descentralizado.",
+      "B": "A portaria padroniza procedimentos para encaminhamento de vestígios balísticos e padrões de arma de fogo; os peritos devem basear-se em suas diretrizes para seleção de casos, preparo, coleta e embalagem, encaminhando-os ao Instituto Nacional de Criminalística, responsável pela inserção e busca no BNPB.",
+      "C": "A portaria aplica-se exclusivamente aos peritos da Polícia Federal lotados em Brasília, não alcançando unidades de criminalística do interior ou de outras unidades federativas integradas ao SINAB.",
+      "D": "Por se tratar de norma administrativa interna, a portaria não pode orientar a seleção de casos ou a forma de coleta, limitando-se a definir os modelos de relatórios e prazos para confecção dos laudos balísticos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 79-80, a Portaria DITEC/PF 1493/2024 padroniza procedimentos para encaminhamento de vestígios balísticos e padrões para cadastro no BNPB; em todas as unidades do Sistema Nacional de Criminalística, os peritos responsáveis por local de crime ou por exames em armas apreendidas devem basear-se nas diretrizes da portaria para seleção, preparo, coleta e embalagem, encaminhando ao INC, responsável pela inserção e busca no BNPB.",
+    "referencia": "PDF, p. 79-80",
+    "nivel": "medio"
+  }
+]

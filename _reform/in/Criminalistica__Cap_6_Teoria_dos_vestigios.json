@@ -1,0 +1,87 @@
+[
+  {
+    "id": 441,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a perícia em local de homicídio cometido a tiros, os peritos encontraram: (i) uma cápsula de munição deflagrada caída a poucos metros do corpo; (ii) uma carteira de identidade pertencente a um indivíduo desafeto da vítima, colocada de forma evidente sobre o tórax do cadáver pelo autor do crime para incriminá-lo; e (iii) uma garrafa de bebida vazia que, após investigação, comprovou-se ter sido descartada no local horas antes do crime por um transeunte sem qualquer relação com o fato. Considerando a classificação dos vestígios quanto à sua relação com os fatos, conforme a Teoria dos Vestígios, os itens (i), (ii) e (iii) são, respectivamente:",
+    "alternativas": {
+      "A": "absoluto, relativo e ilusório.",
+      "B": "verdadeiro, forjado e ilusório.",
+      "C": "verdadeiro, ilusório e forjado.",
+      "D": "forjado, verdadeiro e relativo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o PDF (Cap. 6, p. 47), vestígios verdadeiros são aqueles que têm relação com os fatos por serem resultado da ação do autor (a cápsula deflagrada); forjados são aqueles que o autor prepara intencionalmente para desviar a investigação (a carteira plantada do desafeto); ilusórios são os que parecem importantes mas estavam ali por acaso, sem relação com o fato (a garrafa descartada por transeunte).",
+    "referencia": "Cap. 6, Seção 6.1, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 442,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de furto qualificado por arrombamento, o perito criminal encontra, ao lado da gaveta forçada, a ponta quebrada de uma faca; em outro cômodo, recolhe uma caneta esferográfica comum, sem qualquer inscrição ou nome gravado, deixada sobre o balcão. Sobre a classificação desses vestígios quanto à sua origem, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "a ponta de faca é vestígio absoluto e a caneta é vestígio relativo, pois somente a primeira guarda relação direta e identificável com sua origem.",
+      "B": "ambos são vestígios absolutos, pois permitem identificação direta de sua fonte de origem.",
+      "C": "a ponta de faca é vestígio relativo e a caneta é vestígio absoluto, em razão da maior individualização da caneta.",
+      "D": "ambos são vestígios relativos, uma vez que sua origem humana não pode ser estabelecida de pronto."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Segundo o PDF (Cap. 6, p. 48), vestígios absolutos permitem estabelecer relação absoluta e direta com sua origem, e o livro cita expressamente como exemplo a ponta de faca encontrada ao lado de uma gaveta arrombada. A caneta sem identificação do proprietário é exemplo clássico de vestígio relativo, pois não permite identificação imediata de sua origem.",
+    "referencia": "Cap. 6, Seção 6.2, p. 48",
+    "nivel": "facil"
+  },
+  {
+    "id": 443,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir, relativos à Teoria dos Vestígios, e marque a alternativa CORRETA: I. Conforme o art. 158-A do CPP, vestígio é todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal. II. Como os vestígios forjados visam intencionalmente desviar a investigação, eles devem ser desconsiderados pelos peritos assim que sua natureza forjada for identificada, de modo a não comprometer a apuração dos fatos. III. Os agentes de vestígios são exclusivamente humanos, uma vez que apenas o ser humano pode praticar condutas tipificadas penalmente. IV. É geralmente difícil para o perito, no início dos trabalhos, diferenciar com segurança os vestígios verdadeiros dos ilusórios e dos forjados, razão pela qual nenhum detalhe deve ser desprezado.",
+    "alternativas": {
+      "A": "Apenas os itens I, III e IV estão corretos.",
+      "B": "Apenas os itens I, II e IV estão corretos.",
+      "C": "Apenas os itens II e III estão corretos.",
+      "D": "Apenas os itens I e IV estão corretos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Item I correto (PDF Cap. 6, p. 47, citação literal do art. 158-A do CPP). Item II incorreto: o PDF afirma que, mesmo forjados, os vestígios devem ser investigados, porque não se deve desprezar nada e porque podem evidenciar pista do verdadeiro autor (p. 47). Item III incorreto: o PDF afirma que são agentes de vestígios, além dos homens, os animais, os objetos e instrumentos (p. 48). Item IV correto (p. 48).",
+    "referencia": "Cap. 6, Seções 6.1 e 6.2, p. 47-48",
+    "nivel": "dificil"
+  },
+  {
+    "id": 546,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de homicidio ocorrido em residencia, os peritos encontram: (i) varias impressoes digitais em um copo sobre a mesa, deixadas pelo encanador que prestara servico horas antes do crime e que nao guardam qualquer relacao com a dinamica do fato; (ii) uma carteira de identidade com foto de uma terceira pessoa, posicionada de modo evidente proximo ao corpo, supostamente colocada ali pelo autor do crime para incriminar desafeto da vitima; (iii) um projetil deflagrado encrustado na parede, proveniente da arma utilizada no disparo letal. Conforme a classificacao apresentada no Cap. 6 (Teoria dos vestigios), os itens (i), (ii) e (iii) configuram, respectivamente:",
+    "alternativas": {
+      "A": "Vestigios forjados, ilusorios e verdadeiros.",
+      "B": "Vestigios relativos, absolutos e verdadeiros.",
+      "C": "Vestigios ilusorios, forjados e verdadeiros.",
+      "D": "Vestigios verdadeiros, ilusorios e forjados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 6.1 (p. 47): ilusorios sao os que parecem importantes mas, ao final, nao tem relacao com o fato (caso do encanador); forjados sao os que o autor do crime prepara intencionalmente para desviar a investigacao (a carteira plantada); verdadeiros sao os que resultam da acao ou omissao do autor (o projetil). A questao confunde proposital com a classificacao quanto a origem (absolutos/relativos), feita no item 6.2.",
+    "referencia": "Cap. 6, Seção 6.1, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 547,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O art. 158-A do Codigo de Processo Penal, citado no Cap. 6, define vestigio como todo objeto ou material bruto, visivel ou latente, constatado ou recolhido, que se relaciona a infracao penal. Para a Criminalistica, complementa o texto, vestigios sao elementos materiais que servem como materia-prima na producao da prova material. A respeito desse tema, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O agente produtor de vestigios e sempre o ser humano, uma vez que somente a conduta humana, comissiva ou omissiva, esta no ambito de interesse da Criminalistica.",
+      "B": "Os vestigios encontrados em local de crime devem ser de imediato classificados pelos peritos em verdadeiros, ilusorios ou forjados, descartando-se aqueles que nao apresentem nexo causal aparente com o fato.",
+      "C": "Os vestigios absolutos sao aqueles cuja origem somente pode ser identificada por meio de exames laboratoriais complexos, enquanto os relativos podem ser identificados a olho nu pelo perito no local.",
+      "D": "Tecnicamente, sao chamados de agentes de vestigios, alem dos homens, os animais, os objetos e instrumentos que, natural ou artificialmente, provocam vestigios materiais, podendo estes ser classificados, quanto a origem, em absolutos e relativos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Item 6.2 (p. 48): sao agentes de vestigios, alem dos homens, animais, objetos e instrumentos que natural ou artificialmente provocam vestigios. A classificacao quanto a origem e absolutos (relacao direta com a fonte, ex. impressao digital, cartucho) e relativos (relacao indireta). A alternativa A erra ao excluir agentes nao humanos. A B erra porque o proprio texto (p. 48) diz ser quase sempre dificil diferenciar de inicio e que nada deve ser desprezado. A D distorce o criterio de classificacao.",
+    "referencia": "Cap. 6, Seção 6.2, p. 48",
+    "nivel": "facil"
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1272,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os cuidados iniciais com armas de fogo questionadas encaminhadas para perícia de Balística Forense, é correto afirmar que:",
+    "alternativas": {
+      "A": "Toda arma encaminhada deve seguir diretamente para o setor de Balística Forense, independentemente de eventual necessidade de exames de papiloscopia ou DNA, em razão da prioridade do exame direto.",
+      "B": "Caso haja munição no carregador, esta deve ser obrigatoriamente descartada antes do envio, não sendo permitido o acondicionamento em conjunto com a arma no envelope de segurança.",
+      "C": "As armas devem ser desmuniciadas, incluindo a retirada de pente carregador e de cartuchos ou estojos das câmaras, seguindo-se o fechamento e acionamento das travas de segurança antes do encaminhamento.",
+      "D": "Armas que não puderem ser tornadas seguras devem ser mantidas em local isolado sem qualquer identificação, evitando-se etiquetas ostensivas que possam chamar atenção indevida durante o transporte."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 51, todas as armas devem ser desmuniciadas (incluindo retirada de pente e cartuchos das câmaras), com fechamento e acionamento de travas de segurança. A: incorreta, pois antes deve-se verificar necessidade de papiloscopia/DNA. C: incorreta, a munição pode ser acondicionada em embalagem primária junto com a arma no mesmo envelope. D: incorreta, recomenda-se etiqueta visível com PERIGO: ARMA QUENTE.",
+    "referencia": "PDF, p. 51",
+    "nivel": "facil"
+  },
+  {
+    "id": 1273,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Perita Federal Camila recebe um revólver apreendido em local de homicídio para exames diretos. Ao iniciar a caracterização imediata da arma, é correto afirmar que:",
+    "alternativas": {
+      "A": "A descrição deve iniciar pelas características mais genéricas (tipo, marca, modelo, calibre e número de série) e progressivamente avançar para características individuais.",
+      "B": "A descrição deve partir das características individuais mais específicas, como desgastes em peças, evoluindo gradualmente para informações genéricas como tipo, marca e modelo.",
+      "C": "Por se tratar de revólver, é dispensável a descrição do tambor quanto ao tipo e ao sentido de movimentação, bastando indicar o número de câmaras.",
+      "D": "O cano deve ser medido apenas em seu comprimento total, sendo dispensável a inclusão do cone de forçamento, por se tratar de peça acessória ao mecanismo de disparo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 51-52, a descrição inicia-se pelas características mais genéricas (tipo, marca, modelo, calibre, número de série) e paulatinamente torna-se mais específica até as características individuais. A: inverte a sequência correta. C: o tambor deve ser descrito quanto a tipo (reversível ou fixo), movimentação (horário ou anti-horário) e número de câmaras. D: o cano deve ser medido incluindo o cone de forçamento no caso dos revólveres.",
+    "referencia": "PDF, p. 51-52",
+    "nivel": "medio"
+  },
+  {
+    "id": 1274,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os exames de caracterização imediata em armas de fogo, no que tange ao sistema de percussão e mecanismo, é correto afirmar que:",
+    "alternativas": {
+      "A": "O mecanismo deve ser classificado como simples ou duplo, e o sistema de percussão indicado como central ou radial, direto ou indireto, identificando-se ainda se o percussor é fixo ou articulado quando a percussão é direta.",
+      "B": "Em armas de percussão indireta, é obrigatório descrever se o percussor é fixo ou articulado, pois somente nessas armas a distinção é relevante para fins identificadores.",
+      "C": "O sistema de percussão deve ser caracterizado apenas como direto ou indireto, sendo as classificações central e radial reservadas exclusivamente ao tipo de munição empregada.",
+      "D": "Em armas semiautomáticas e automáticas, a descrição do carregador e sua capacidade é dispensável, bastando apontar o tipo de munição compatível com a arma."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 52, deve-se identificar se o funcionamento é simples ou duplo, e o sistema de percussão como central ou radial, direto ou indireto, com identificação do percussor fixo ou articulado quando a percussão é direta. B: inverte (é nas armas de percussão direta que se identifica se o percussor é fixo ou articulado). C: incorreta, central/radial e direto/indireto referem-se ao sistema de percussão. D: incorreta, devem ser indicadas características do carregador e capacidade.",
+    "referencia": "PDF, p. 52",
+    "nivel": "medio"
+  },
+  {
+    "id": 1275,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Perito Federal Rafael recebe um revólver no qual a numeração de série foi totalmente lixada. Sobre os fundamentos da revelação de caracteres suprimidos, é correto afirmar que:",
+    "alternativas": {
+      "A": "A revelação é possível em todos os casos de supressão, pois reagentes adequados conseguem restaurar caracteres independentemente do método original de impressão.",
+      "B": "A revelação metalográfica é particularmente eficaz quando os caracteres foram originalmente impressos por gravação a laser, técnica que altera profundamente a estrutura cristalina do metal.",
+      "C": "A técnica baseia-se no fato de que a cunhagem a frio altera a estrutura metálica abaixo dos caracteres, deixando vestígios latentes que podem ser revelados por reagentes apropriados.",
+      "D": "A revelação depende exclusivamente da profundidade do polimento aplicado pelo perito sobre a área suprimida, sendo dispensável o uso de reagentes específicos para cada metal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 52-53, a cunhagem a frio altera a estrutura metálica por baixo dos caracteres impressos, gerando vestígios latentes reveláveis por reagentes adequados. A: incorreta, há situações em que a revelação é infrutífera. C: incorreta, procedimentos de revelação são infrutíferos quando a impressão foi feita por laser. D: incorreta, exige reagentes específicos conforme o metal.",
+    "referencia": "PDF, p. 52-53",
+    "nivel": "medio"
+  },
+  {
+    "id": 1276,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame de revelação de caracteres suprimidos em uma pistola, o Perito Federal Marcelo aplicou o procedimento experimental padrão. Sobre esse procedimento, é correto afirmar que:",
+    "alternativas": {
+      "A": "O perito deve aplicar o reagente diretamente sobre toda a arma, sem preparo prévio, para garantir que os vestígios latentes não sejam alterados pelo manuseio.",
+      "B": "A fotografia das etapas deve ser realizada apenas no resultado final, evitando-se registros intermediários que possam confundir a análise interpretativa do laudo.",
+      "C": "Após a primeira tentativa malsucedida de revelação, deve-se descartar o exame, pois novas aplicações comprometem definitivamente os vestígios latentes existentes.",
+      "D": "Antes da aplicação do reagente, todas as partes da arma sem relação com a área a ser revelada devem ser protegidas com generosa camada de graxa, dada a presença de ácidos voláteis corrosivos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 54, primeiramente protege-se com generosa camada de graxa as partes da arma sem relação com a área a ser revelada, pois os reagentes possuem ácidos voláteis corrosivos. A: incorreta, exige proteção e polimento prévios. C: incorreta, caso a primeira tentativa não tenha sucesso, repete-se o processo. D: incorreta, é conveniente fotografar todas as etapas.",
+    "referencia": "PDF, p. 54",
+    "nivel": "medio"
+  },
+  {
+    "id": 1277,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as situações em que os procedimentos de revelação de caracteres suprimidos resultam infrutíferos, é correto afirmar que:",
+    "alternativas": {
+      "A": "A revelação será infrutífera nas armas cuja numeração foi impressa por processos a laser, e também quando a adulteração for tão profunda que destrua os vestígios latentes existentes no metal.",
+      "B": "A revelação será infrutífera quando os caracteres tiverem sido impressos por cunhagem a frio profunda, técnica que destrói totalmente os vestígios subjacentes ao metal.",
+      "C": "A revelação será sempre possível em armas de aço inoxidável, pois esse material preserva integralmente os vestígios latentes mesmo sob adulteração profunda.",
+      "D": "A revelação será infrutífera apenas em armas poliméricas, sendo viável em qualquer arma metálica independentemente da técnica original de impressão dos caracteres."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 54, os procedimentos serão infrutíferos: (a) se a impressão não tiver sido por cunhagem a frio, como nos processos a laser; e (b) caso a adulteração tenha sido muito profunda, destruindo completamente os vestígios latentes. A: incorreta, é justamente a cunhagem a frio que permite a revelação. C: incorreta, o material não anula efeitos de adulteração profunda. D: incorreta, infrutífero também ocorre em armas metálicas com impressão a laser ou adulteração profunda.",
+    "referencia": "PDF, p. 54",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1278,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os exames de eficiência de armas de fogo realizados pela Polícia Federal, é correto afirmar que:",
+    "alternativas": {
+      "A": "Mesmo havendo dúvida sobre a integridade da arma durante o disparo, o teste deve ser efetuado pelo perito empunhando a arma, vedada a utilização de estativas remotas.",
+      "B": "Considera-se defeito de funcionamento qualquer incidente que interrompa o tiro, inclusive aqueles decorrentes de defeitos na munição utilizada nos testes oficiais.",
+      "C": "Devem ser testados os procedimentos de alimentação, percussão, extração e ejeção, observando a ciclagem; constitui defeito qualquer incidente que interrompa o tiro ou a cadência, exceto problemas com a munição.",
+      "D": "Não há exigência de determinar se o defeito é reprodutível ou esporádico, bastando indicar no laudo a existência do defeito observado em pelo menos um disparo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 56, testam-se alimentação, percussão, extração e ejeção, observando ciclagem; defeito é qualquer interrupção do tiro ou cadência, exceto problemas com munição. B: incorreta, problemas com munição são exceção. C: incorreta, havendo dúvida sobre integridade, o teste deve ser remoto (estativas). D: incorreta, deve-se determinar se o defeito é reprodutível ou esporádico.",
+    "referencia": "PDF, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 1279,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os exames de resíduos de disparo no interior dos canos de armas de fogo (recenticidade), com utilização do reagente de Griess, é correto afirmar que:",
+    "alternativas": {
+      "A": "Um resultado positivo comprova com segurança a ocorrência de disparos pela arma examinada, dada a especificidade dos nitritos como produto exclusivo da combustão da pólvora.",
+      "B": "Um resultado positivo não comprova que os nitritos encontrados tenham sido originados por disparo da arma, e um resultado negativo não comprova que não houve disparos.",
+      "C": "Os nitritos formados na combustão são quimicamente estáveis e seu tempo de degradação no interior da arma segue um comportamento previsível e reprodutível.",
+      "D": "Os nitritos não são solúveis em água e tampouco são encontrados em fontes naturais ou artificiais, o que confere ao teste alta especificidade pericial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 57-58, resultado positivo não comprova disparo (origem externa possível) e resultado negativo não comprova ausência (limpeza, lavagem, antiguidade). A: incorreta. B: incorreta, são instáveis e a degradação não é previsível/reprodutível. D: incorreta, são muito solúveis em água e encontrados em urina, cinzas, fertilizantes e aditivos alimentares.",
+    "referencia": "PDF, p. 57-58",
+    "nivel": "medio"
+  },
+  {
+    "id": 1280,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Perita Federal Helena examinará uma pistola para verificação de recenticidade de disparos. Sobre o procedimento de coleta e análise com reagente de Griess, é correto afirmar que:",
+    "alternativas": {
+      "A": "A análise de resíduos pode ser realizada após o exame de eficiência, pois disparos preliminares de teste do perito não influenciam os resultados de recenticidade obtidos posteriormente.",
+      "B": "A análise de resíduos de disparo, quando requisitada, deve ser a primeira tarefa a ser efetuada na arma, pois disparos efetuados pelo perito formarão resíduos no cano que tornarão o teste positivo.",
+      "C": "O reagente de Griess é composto por uma única solução estável à temperatura ambiente, podendo ser preparado e armazenado em frasco único sem necessidade de refrigeração.",
+      "D": "O resultado positivo é caracterizado por uma coloração verde no cone de papel filtro introduzido no cano, formada pela reação dos nitritos com a alfa-naftilamina."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 59, qualquer disparo prévio do perito formará resíduos que darão positivo, portanto a análise de nitritos deve ser a primeira tarefa. A: incorreta. C: incorreta, são duas soluções (A e B) mantidas separadas e sob refrigeração. D: incorreta, resultado positivo é coloração rosa intenso (formação de nitrosaminas).",
+    "referencia": "PDF, p. 58-59",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1281,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a composição e o uso do reagente de Griess no exame de recenticidade de disparos, é correto afirmar que:",
+    "alternativas": {
+      "A": "O reagente é constituído por uma única solução de ácido sulfanílico e alfa-naftilamina dissolvidos em ácido acético glacial, gotejada diretamente no cano.",
+      "B": "Para análise no interior de estojos percutidos, deve-se introduzir o cone de papel filtro diretamente na boca do estojo, sem qualquer lavagem prévia com solução ácida.",
+      "C": "O resultado é considerado positivo somente quando a coloração obtida é violeta, formada pela reação do chumbo presente nos resíduos com a alfa-naftilamina.",
+      "D": "A detecção baseia-se na formação de nitrosaminas de coloração rosa intensa, resultantes da reação dos nitritos com as duas soluções do reagente, gotejadas separadamente sobre o suporte de coleta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 58-59, a reação forma nitrosaminas de coloração rosa intenso, com duas soluções (A e B) mantidas em frascos independentes, gotejadas separadamente. A: incorreta, são duas soluções separadas. C: incorreta, cor é rosa, e violeta refere-se ao rodizonato (chumbo). D: incorreta, em estojos lava-se três vezes com ácido acético 5% e nas águas de lavagem goteja-se o reagente.",
+    "referencia": "PDF, p. 58-60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1282,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as técnicas antigas de detecção de resíduos de disparo nas mãos do atirador, é correto afirmar que:",
+    "alternativas": {
+      "A": "Ambas as técnicas antigas foram substituídas pela aplicação direta de Griess sobre a pele do suspeito, técnica que se tornou o padrão moderno na Polícia Federal.",
+      "B": "A prova de Iturrioz baseava-se exclusivamente na detecção de partículas de bário e antimônio, sendo abandonada apenas pelo alto custo do reagente de Griess.",
+      "C": "A técnica do rodizonato de sódio para detecção de chumbo permanece como padrão atual, pois nunca foram registrados falsos-positivos por contaminação ambiental do investigado.",
+      "D": "A prova de Iturrioz utilizava parafina derretida para remover nitritos das mãos, sendo abandonada devido às incertezas associadas aos testes de recenticidade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 60, a prova de Iturrioz usava parafina derretida para remoção dos nitritos das mãos, analisados com Griess; foi abandonada pelas mesmas incertezas dos testes de recenticidade. B: incorreta, baseava-se em nitritos. C: incorreta, foi abandonada por falsos-positivos por contaminação com chumbo. D: incorreta, a técnica moderna usa MEV.",
+    "referencia": "PDF, p. 60",
+    "nivel": "facil"
+  },
+  {
+    "id": 1283,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a moderna detecção de resíduos de disparo nas mãos do atirador por Microscopia Eletrônica de Varredura (MEV), é correto afirmar que:",
+    "alternativas": {
+      "A": "A análise por MEV pressupõe que o atirador tenha lavado as mãos com água e sabão, condição que aumenta significativamente a sensibilidade do método.",
+      "B": "A técnica detecta apenas resíduos de nitritos e nitratos da combustão da pólvora, sendo igualmente sensível à contaminação ambiental por fertilizantes e cinzas.",
+      "C": "As partículas analisadas no MEV têm forma irregular e composição química idêntica à de poeiras industriais comuns, o que exige cruzamento com outras técnicas.",
+      "D": "A técnica detecta partículas microscópicas de forma característica contendo metais da mistura iniciadora (chumbo, bário e antimônio), caracterizadas como provenientes unicamente de disparos de arma de fogo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 60, a MEV detecta partículas microscópicas de forma característica contendo metais da mistura iniciadora (chumbo, bário e antimônio), caracterizadas como provenientes unicamente de disparos. B: incorreta, detecta as partículas da mistura iniciadora, não nitritos. C: incorreta, têm forma característica. D: incorreta, lavagem com água e sabão elimina os resíduos.",
+    "referencia": "PDF, p. 60",
+    "nivel": "facil"
+  },
+  {
+    "id": 1284,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Perito Federal Bruno foi acionado para coletar resíduos de disparo nas mãos de um suspeito detido logo após uma ocorrência. Considerando o procedimento de coleta para MEV regulamentado pela Instrução Técnica nº 001/2010-GAB/DITEC, é correto afirmar que:",
+    "alternativas": {
+      "A": "O procedimento envolve esfregar firmemente o stub com fita de carbono sobre a região de coleta, com movimentos rotacionais, até esgotar a aderência da fita adesiva.",
+      "B": "Após a coleta, vários stubs de pessoas diferentes podem ser acondicionados no mesmo recipiente, dispensando-se etiquetação individualizada para agilizar o procedimento pericial.",
+      "C": "Deve-se pressionar (não esfregar ou girar) o stub contra a superfície, efetuando no mínimo cinquenta toques ou até que a fita perca a cola, e a cada nova coleta as luvas devem ser trocadas ou as mãos lavadas.",
+      "D": "A coleta deve ser feita sempre com as mãos desnudas para evitar contaminação pela borracha das luvas, e a região de coleta limita-se à palma das mãos do suspeito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 62, pressiona-se (não esfrega ou gira) com mínimo de 50 toques ou até a fita perder a cola; para nova coleta, trocam-se as luvas ou lavam-se as mãos. A: incorreta, não se esfrega nem gira. C: incorreta, recomenda-se um envelope para cada pessoa ou objeto de coleta. D: incorreta, deve-se usar luvas (ou mãos lavadas), e a coleta abrange várias áreas (mãos, rosto, pescoço, vestes etc.).",
+    "referencia": "PDF, p. 61-63",
+    "nivel": "medio"
+  },
+  {
+    "id": 1285,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um estudo sobre a influência da atitude do atirador no resultado dos testes de resíduos de disparo, foram observados percentuais distintos conforme as ações pós-disparo. Sobre esses dados, é correto afirmar que:",
+    "alternativas": {
+      "A": "A lavagem das mãos com água e sabão não compromete o resultado do teste, pois as partículas características de disparo aderem firmemente à pele e resistem à remoção química.",
+      "B": "Aproximadamente 60% dos testes resultam positivos imediatamente após os disparos, percentual que sobe para 90% após duas horas, devido ao tempo necessário para fixação das partículas.",
+      "C": "Cerca de 90% dos testes resultam positivos quando coletados imediatamente após os disparos; cerca de 60% após duas horas; lavar com água corrente leva ao limite de detecção e lavar com água e sabão elimina completamente os resíduos.",
+      "D": "A atitude do atirador após o disparo é irrelevante para o teste, uma vez que os resíduos depositados nas mãos permanecem detectáveis por até 48 horas em qualquer condição."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 61, 90% positivos imediatamente; 60% após 2 horas; lavagem com água corrente leva ao limite de detecção; lavagem com água e sabão elimina completamente. B: inverte os percentuais. C: incorreta. D: incorreta, a atitude influencia fortemente os resultados.",
+    "referencia": "PDF, p. 61",
+    "nivel": "medio"
+  },
+  {
+    "id": 1286,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as zonas características impressas em um anteparo por disparo de arma de fogo a curta distância, é correto afirmar que:",
+    "alternativas": {
+      "A": "A zona de chama produz efeitos que se estendem geralmente por até um metro da boca do cano, sendo a principal responsável pela tatuagem no alvo.",
+      "B": "A zona de tatuagem é determinada pela incrustação, no alvo e em volta da região de impacto, de grãos de pólvora incombusta (microprojéteis), dispondo-se concentricamente em tiros perpendiculares e em formas elípticas em tiros inclinados.",
+      "C": "A zona de esfumaçamento é constituída por grãos de pólvora incombusta incrustados em forma elíptica concêntrica ao impacto do projétil.",
+      "D": "A zona de chama e a zona de tatuagem são sinônimos referidos ao mesmo fenômeno de queima dos tecidos pelos gases em combustão expelidos pelo cano."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 63, a zona de tatuagem é determinada por grãos de pólvora incombusta (microprojéteis), com disposição concêntrica em tiros perpendiculares ou elíptica em tiros inclinados. A: incorreta, a zona de chama dificilmente se estende além de 10 cm. B: incorreta, esfumaçamento é fuligem/partículas, não grãos incombustos. D: incorreta, são fenômenos distintos.",
+    "referencia": "PDF, p. 63",
+    "nivel": "medio"
+  },
+  {
+    "id": 1287,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os limites práticos do conceito de tiro a curta distância e as substâncias pesquisáveis em anteparos para determinação da distância de tiro, é correto afirmar que:",
+    "alternativas": {
+      "A": "O limite prático é de cerca de um metro sem vento (podendo reduzir-se a meio metro com vento), e o cobre proveniente do encamisamento dos projéteis é revelado por ditiooxamida (ácido rubeânico) com coloração verde.",
+      "B": "O limite prático é fixo em meio metro, independentemente das condições ambientais, e o chumbo é revelado pelo reagente de Griess com coloração rosada característica.",
+      "C": "Os nitritos resultantes da combustão são revelados pelo rodizonato de sódio com coloração violeta, e os compostos sulfurados estão presentes em todas as pólvoras modernas.",
+      "D": "O cobre é revelado pelo reagente de Griess e o chumbo pela azida de sódio com iodo, ambos com coloração verde uniforme nas áreas contaminadas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 63-64, limite prático ~1 metro sem vento e ~meio metro com vento; cobre revelado por ditiooxamida (ácido rubeânico) em verde. B: incorreta. C: incorreta, nitritos são revelados por Griess (rosa) e compostos sulfurados estão apenas na pólvora negra. D: incorreta, troca os reagentes.",
+    "referencia": "PDF, p. 63-64",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1288,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Perito Federal Diego recebeu as vestes de uma vítima de homicídio e foi questionado sobre a distância de tiro. Sobre o procedimento experimental para estimar a distância de disparo, é correto afirmar que:",
+    "alternativas": {
+      "A": "Basta efetuar a revelação química direta no anteparo questionado, dispensando-se a preparação de anteparos padrões, pois a intensidade da coloração obtida é diretamente proporcional à distância em metros.",
+      "B": "O procedimento consiste em coletar anteparos padrões com mesmas características do questionado (ou similares), efetuar disparos a distâncias conhecidas em quadrados de meio metro de lado, realizar a revelação em todos e comparar por semelhança com o questionado.",
+      "C": "Os disparos padrões devem ser realizados sempre na distância mínima de um metro, aumentando-se progressivamente em intervalos de cinco metros até cinquenta metros, para cobrir toda a faixa de tiro a curta distância.",
+      "D": "Deve-se efetuar o disparo padrão exclusivamente em anteparo de tecido branco, independentemente do material do anteparo questionado, garantindo padronização universal dos residuogramas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 64, o procedimento envolve obter anteparos padrões similares ao questionado, preparar quadrados de meio metro de lado, efetuar disparos a distâncias conhecidas (do tiro encostado até cerca de um metro com intervalos regulares), realizar a revelação em padrões e questionado, comparando por semelhança. A: incorreta. C: incorreta, parte-se de tiro encostado até cerca de 1 metro. D: incorreta, o anteparo padrão deve ter características iguais ou similares ao questionado.",
+    "referencia": "PDF, p. 64",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1289,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as zonas de escape de gases na coleta de resíduos nas mãos do atirador, e considerando o tipo de arma utilizada, é correto afirmar que:",
+    "alternativas": {
+      "A": "Espingardas apresentam as maiores zonas de escape intenso entre as armas de fogo portáteis, exigindo coleta exclusivamente no dorso da mão de apoio do atirador.",
+      "B": "Pistolas semiautomáticas possuem maior escape de gases que revólveres devido à abertura do ferrolho, depositando mais resíduos nas mãos do atirador a cada disparo.",
+      "C": "Independentemente do tipo de arma, a distribuição dos resíduos nas mãos do atirador é uniforme, não havendo necessidade de o perito considerar a arma empregada no momento da coleta.",
+      "D": "Revólveres possuem zonas de escape intenso na junção do tambor com o cano, enquanto pistolas e espingardas, com câmaras herméticas, praticamente não apresentam zonas de escape intensas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 60, revólveres possuem zonas de escape intenso na junção do tambor com o cano; pistolas e espingardas, com câmaras herméticas, quase não possuem zonas de escape intensas. B, C e D contradizem essa descrição.",
+    "referencia": "PDF, p. 60-61",
+    "nivel": "dificil"
+  }
+]

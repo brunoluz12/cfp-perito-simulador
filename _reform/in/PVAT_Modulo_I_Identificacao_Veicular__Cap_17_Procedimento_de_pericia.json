@@ -1,0 +1,70 @@
+[
+  {
+    "id": 641,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 17 - Procedimento de perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito criminal federal é designado para realizar perícia em veículo apreendido em operação contra organização criminosa. Antes de qualquer exame de campo, com base no procedimento estruturado pela Portaria Ditec/PF Nº 1.563, ele deve realizar o levantamento de dados prévios. Assinale a alternativa que descreve CORRETAMENTE atividades dessa etapa, conforme o PVAT - Módulo I:",
+    "alternativas": {
+      "A": "Realizar pesquisa histórica das razões da apreensão, consultar dados identificadores nos sistemas Infoseg, RENAVAM ou BIN e estudar padrões de gravação originais do fabricante.",
+      "B": "Aplicar solventes e revelação metalográfica no NIV para identificar a numeração original.",
+      "C": "Classificar o estado de conservação do veículo em bom, regular, ruim ou sucata e aplicar deságio da tabela FIPE.",
+      "D": "Elaborar o dossiê do caso e arquivar fotos em meio digital na rede da unidade de criminalística."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pág. 75, seção 17.2: 'Pesquisa Histórica: Levantar as razões da apreensão [...]; Consulta a Bancos de Dados: Verificar dados identificadores nos sistemas Infoseg, RENAVAM ou BIN [...]; Estudo de Padrões: Pesquisar locais e padrões de gravação originais do fabricante'. As demais alternativas correspondem a outras etapas: solventes/metalográfica = exame físico (17.3); classificação/FIPE = valoração (17.3); dossiê = registros (17.5).",
+    "referencia": "Cap. 17, Seção 17.2, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 642,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 17 - Procedimento de perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das conclusões periciais e dos procedimentos finais previstos no Capítulo 17 do PVAT - Módulo I, considere as seguintes assertivas:\n\nI. O laudo pericial pode concluir de quatro formas: não identificação de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem possibilidade de identificar a original; ou inconclusão.\nII. Em casos de veículos carregados, o descarregamento deve ser sempre solicitado pelo perito, independentemente da necessidade para responder aos quesitos.\nIII. O laudo final deve conter, no mínimo, duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.\nIV. A descrição básica do veículo no laudo deve conter, no mínimo, a marca, o modelo, a versão, a cor, a espécie, o tipo, o ano de fabricação ou modelo e as placas ostentadas.\nV. Todas as transferências de custódia do veículo durante o processo devem ser devidamente documentadas.\n\nEstá CORRETA a alternativa:",
+    "alternativas": {
+      "A": "Apenas I, II e III estão corretos.",
+      "B": "Apenas II e IV estão corretos.",
+      "C": "I, III, IV e V estão corretos; apenas II está incorreto.",
+      "D": "Apenas I, III e V estão corretos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pág. 76 confirma I (quatro formas de conclusão), III ('no mínimo, duas fotos gerais [...] placas, do NIV e do motor'), IV (descrição básica com marca, modelo, versão, cor, espécie, tipo, ano e placas) e V ('transferências de custódia [...] devem ser devidamente documentadas'). II é FALSO: 'o descarregamento só é solicitado se for imprescindível para responder aos quesitos'.",
+    "referencia": "Cap. 17, Seções 17.4 a 17.6, p. 76",
+    "nivel": "dificil"
+  },
+  {
+    "id": 711,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 17 - Procedimento de perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o PVAT - Módulo I, fundamentado na Portaria Ditec/PF Nº 1.563, o procedimento de perícia em veículos terrestres é estruturado em etapas sequenciais. Considerando as etapas '17.1 Análise de viabilidade de atendimento e segurança', '17.2 Levantamento de dados prévios' e '17.3 Exame físico, confronto e valoração', assinale a alternativa que descreve CORRETAMENTE a ordem e o conteúdo dessas etapas:",
+    "alternativas": {
+      "A": "Primeiro o exame físico, com revelação metalográfica do VIN; depois o levantamento de dados prévios em sistemas; e por fim a análise de segurança do local.",
+      "B": "Primeiro o levantamento de dados prévios; depois o descarregamento obrigatório do veículo; e por fim a análise de viabilidade e segurança.",
+      "C": "Primeiro a análise de viabilidade (verificação da localização do veículo, disponibilidade das chaves, condições de segurança e salubridade do local); depois o levantamento de dados prévios (pesquisa histórica da apreensão, consulta a Infoseg/RENAVAM/BIN e estudo de padrões de gravação do fabricante); por fim, o exame físico, confronto e valoração, focado em identidade do veículo, estado de conservação/valoração e busca por alterações e adaptações.",
+      "D": "Primeiro a descrição do veículo no laudo; depois as conclusões periciais; e por fim a análise de viabilidade e segurança do local."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A pág. 75 estabelece a sequência: 17.1 Análise de viabilidade (verificação da localização do veículo, disponibilidade das chaves, condições de segurança e salubridade); 17.2 Levantamento de dados prévios (pesquisa histórica, consulta a Infoseg/RENAVAM/BIN, estudo de padrões); 17.3 Exame físico, confronto e valoração (identidade do veículo, estado de conservação/valoração e busca por alterações).",
+    "referencia": "Cap. 17, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 712,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 17 - Procedimento de perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as etapas finais do procedimento de perícia previstas no PVAT - Módulo I, julgue os itens a seguir:\n\nI. A descrição básica do veículo no laudo deve conter, no mínimo, a marca, o modelo, a versão, a cor, a espécie, o tipo, o ano de fabricação ou o ano modelo e as placas ostentadas, sem prejuízo de outras características necessárias.\nII. O dossiê do caso, composto por fotos, consultas a sistemas e anotações técnicas, deve ser arquivado em meio digital na rede da unidade de criminalística.\nIII. O laudo final deve conter, no mínimo, duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.\nIV. As possíveis conclusões do laudo são: não identificação de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem possibilidade de identificar a original; ou inconclusão.\nV. Em veículos carregados, o descarregamento deve sempre ser solicitado, independentemente da pertinência aos quesitos, sendo desnecessária a documentação das transferências de custódia.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "I, III e V.",
+      "C": "II, IV e V.",
+      "D": "I, II e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A pág. 76 confirma I (descrição básica do veículo), II (dossiê do caso em meio digital), III (mínimo de duas fotos gerais, placas, NIV e motor) e IV (quatro possíveis conclusões). O item V é FALSO: o material expressa que 'em casos de veículos carregados, o descarregamento só é solicitado se for imprescindível para responder aos quesitos' e que 'todas as transferências de custódia do veículo durante o processo devem ser devidamente documentadas'.",
+    "referencia": "Cap. 17, p. 76",
+    "nivel": "dificil"
+  }
+]

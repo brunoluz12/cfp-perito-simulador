@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1261,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame de armamento apreendido, o Perito Criminal Federal precisa enquadrar corretamente a peça na categoria das armas de fogo longas. Acerca das características gerais dessa categoria, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apresentam comprimento acentuado em decorrência das dimensões do cano e da coronha, exigem o uso de ambas as mãos e do apoio do ombro e destinam-se precipuamente à caça, ao esporte e a categorias especiais de tiro militar ou policial.",
+      "B": "São, por definição, armas portáteis concebidas para a defesa pessoal e para o porte velado em coldre, razão pela qual, em regra, dispensam tanto o apoio do ombro quanto o uso de ambas as mãos do atirador para que o disparo seja realizado de forma eficiente e segura.",
+      "C": "Distinguem-se das armas curtas unicamente pelo sistema de funcionamento automático de seus mecanismos, sendo absolutamente irrelevante o critério dimensional do cano e da coronha para o adequado enquadramento técnico da peça nessa categoria de armamento.",
+      "D": "Caracterizam-se invariavelmente pelo cano de alma lisa, motivo pelo qual abrangem rifles, fuzis, carabinas e mosquetões em uma mesma categoria técnica de armas raiadas.",
+      "E": "Embora possuam comprimento acentuado, classificam-se como armas de defesa pessoal por permitirem o tiro a partir do quadril, sem necessidade de encosto no ombro do atirador."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 43, as armas longas têm comprimento acentuado devido às dimensões do cano e da coronha, não são consideradas armas de defesa pessoal, exigem o uso de ambas as mãos e do ombro, e destinam-se à caça, esporte ou tiro militar/policial (A correta). B e E erram ao classificá-las como armas de defesa pessoal e ao dispensar o apoio do ombro. C ignora o critério dimensional, que é central na definição. D é falsa, pois rifles, fuzis, carabinas e mosquetões têm alma raiada (não lisa).",
+    "referencia": "PDF, p. 43",
+    "nivel": "facil"
+  },
+  {
+    "id": 1262,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "O termo rifle deriva do inglês rifled e designa uma classe específica de arma de fogo longa. Sobre as características técnicas do rifle, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Possui cano de alma lisa com mais de vinte polegadas de comprimento e sistema de alimentação obrigatoriamente automático por recuperação a gás, sendo destinado ao tiro de assalto.",
+      "B": "É arma curta de repetição, de cano de alma raiada, empregada como armamento militar de assalto em substituição definitiva ao fuzil nos conflitos modernos, em razão de sua maior cadência e facilidade de transporte pelo combatente.",
+      "C": "Diferencia-se das carabinas por possuir, obrigatoriamente, dois canos sobrepostos ou justapostos de alma raiada, com calibre limitado às variações do .22\" e alimentação realizada exclusivamente por meio de ferrolho de acionamento manual.",
+      "D": "Caracteriza-se por possuir ferrolho dotado de alavanca característica e depósito de munição alojado no interior da coronha, elementos construtivos que o distinguem com clareza do fuzil de assalto, dotado de carregador externo de alimentação frontal.",
+      "E": "É arma longa, portátil e de repetição, com cano de alma raiada de mais de vinte polegadas e sem limitação de calibre, admitindo alimentação por ferrolho, por alavanca ou sistemas semiautomáticos."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Segundo p. 43, o termo rifle deriva de rifled (raiado/estriado) e refere-se a armas longas, portáteis, de repetição, com cano de alma raiada de mais de vinte polegadas, sem limitação de calibre, com alimentação por ferrolho, alavanca ou sistemas semiautomáticos (E correta). A erra ao afirmar alma lisa e alimentação obrigatoriamente automática. B confunde rifle com fuzil de assalto e o classifica como arma curta. C inverte características próprias de armas mistas/duplas. D descreve, na verdade, o mosquetão (ferrolho com depósito na coronha).",
+    "referencia": "PDF, p. 43",
+    "nivel": "facil"
+  },
+  {
+    "id": 1263,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame em arma longa apreendida, o Perito Criminal Federal observa cano de alma raiada com comprimento inferior a 20 polegadas, carregador tubular alojado abaixo do cano, sistema de alimentação por alavanca (lever action) e munição de fogo central calibre .44\" Magnum. Com base nessas características, a arma deve ser classificada como:",
+    "alternativas": {
+      "A": "Rifle de assalto, pois emprega munição de elevada potência e alimentação por alavanca semelhante à dos modelos militares de longo alcance utilizados em operações de combate a média e longa distância.",
+      "B": "Mosquetão, pois o carregador tubular alojado abaixo do cano e o mecanismo de alavanca são elementos típicos da extração de estojos deflagrados na câmara de combustão dessa arma longa de porte e de repetição.",
+      "C": "Carabina, pois se trata de arma longa, portátil e de repetição, com cano raiado de menor comprimento que o do rifle, carregador tubular sob o cano e alimentação por alavanca típica do faroeste.",
+      "D": "Espingarda de repetição, pois o sistema de alavanca é característico das armas de alma lisa destinadas à caça com balins de chumbo de fogo central.",
+      "E": "Fuzil, pois o calibre .44\" Magnum de fogo central e o cano raiado curto correspondem ao armamento militar de origem latina equivalente ao assault-rifle anglo-saxônico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 44, carabinas são armas longas, portáteis e de repetição, com carregador tubular abaixo do cano, alma raiada e comprimento menor que o dos rifles; o sistema lever action utiliza munição de fogo central, incluindo .44\" Magnum (C correta). A confunde rifle com fuzil, pois rifle de assalto é classificação anglo-saxônica para fuzil. B descreve erroneamente o mosquetão, que possui ferrolho e depósito na coronha, e não carregador tubular sob o cano. D e E erram porque espingarda tem alma lisa e o fuzil não se caracteriza por cano raiado curto com carregador tubular lateral.",
+    "referencia": "PDF, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 1264,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da distinção técnica entre rifle, fuzil, carabina e mosquetão, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O fuzil possui alma lisa e é exclusivamente automático, ao passo que o rifle apresenta alma raiada e funcionamento semiautomático obrigatório.",
+      "B": "Rifles e carabinas possuem cano de alma raiada, mas os mosquetões e os fuzis apresentam cano de alma lisa, justamente por serem armas destinadas ao tiro militar de assalto a curta distância com elevada dispersão de projéteis.",
+      "C": "A carabina possui cano raiado de menor comprimento que o do rifle, e o mosquetão caracteriza-se pelo ferrolho com depósito de munição na coronha, sendo fuzil termo de origem latina equivalente, em países anglo-saxônicos, à expressão assault-rifle.",
+      "D": "O mosquetão é arma de tiro único, desprovida de carregador, ao passo que o fuzil sempre possui carregador tubular localizado abaixo do cano, à semelhança do que ocorre com as espingardas dotadas de sistema de ação de bomba (pump action).",
+      "E": "Rifle e carabina são sinônimos quanto ao comprimento do cano, distinguindo-se apenas pelo calibre, enquanto fuzil e mosquetão diferem somente quanto à origem etimológica do nome."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelas pp. 43-45: o rifle tem cano raiado com mais de 20\"; a carabina tem cano raiado de menor comprimento que o do rifle; o fuzil é termo de origem latina (anglo-saxões usam assault-rifle); e o mosquetão tem ferrolho com depósito no interior da coronha (C correta). A inverte características de alma e funcionamento. B é falsa, pois fuzil e mosquetão também têm alma raiada. D erra ao tratar o mosquetão como arma de tiro único sem carregador, sendo ele arma de repetição com depósito na coronha. E erra ao igualar comprimentos de rifle e carabina, ignorando o critério dimensional.",
+    "referencia": "PDF, p. 43-45",
+    "nivel": "medio"
+  },
+  {
+    "id": 1265,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de arma longa militar de grande potência apreendida em operação policial, identificam-se cano de alma raiada de aproximadamente 30 polegadas (76,2 cm), mecanismo dotado de ferrolho com alavanca característica e depósito de munição alojado no interior da coronha, além de cartucho de fogo central de alta energia. Tecnicamente, trata-se de:",
+    "alternativas": {
+      "A": "Carabina de repetição com sistema de alavanca (lever action), arma longa portátil voltada a calibres de fogo central de alta potência, como o .44\" Magnum, com carregador tubular alojado abaixo do cano.",
+      "B": "Mosquetão, arma longa de porte e de repetição, com cano raiado em torno de 30\", ferrolho dotado de alavanca característica e depósito de munição no interior da coronha.",
+      "C": "Rifle aferrolhado de uso esportivo, plataforma de cano raiado comumente empregada para a realização de testes de munições experimentais e de cargas de recarga manual de alta precisão.",
+      "D": "Fuzil de assalto leve, tipicamente semiautomático e dotado de carregador removível externo de alimentação frontal.",
+      "E": "Espingarda de cano longo, cujo ferrolho com alavanca e depósito na coronha a habilitam ao tiro de grande potência com projétil único."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 45, mosquetões são armas longas de porte e de repetição, com cano de alma raiada de cerca de 30\", ferrolho com alavanca característica e depósito (carregador) localizado no interior da coronha (B correta). A erra porque a carabina tem cano de menor comprimento e carregador tubular abaixo do cano. C erra porque o rifle aferrolhado, embora raiado, não tem como elemento distintivo o depósito na coronha. D erra porque o fuzil utiliza carregador externo. E erra porque espingarda tem alma lisa, incompatível com o cano raiado descrito.",
+    "referencia": "PDF, p. 45",
+    "nivel": "medio"
+  },
+  {
+    "id": 1266,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da espingarda e de suas características construtivas, segundo a terminologia adotada no Brasil, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Espingarda é qualquer arma longa, portátil e de alma lisa, podendo ter um ou mais canos paralelos ou sobrepostos, e escopeta é termo restrito a espingardas de cano curto e grosso calibre.",
+      "B": "Espingardas são, por definição técnica, armas de fogo longas de cano de alma raiada, sendo a denominada Slug Gun a única exceção admitida dentro dessa categoria, por adotar, atipicamente, cano de alma lisa destinado ao disparo de projétil único.",
+      "C": "Toda espingarda é necessariamente de retrocarga manual direta nas câmaras de combustão, não se admitindo, em hipótese alguma, sistemas de alimentação semiautomática ou de ação de bomba (pump action) nesse tipo de arma longa de alma lisa.",
+      "D": "A escopeta é uma espingarda de cano longo e calibre reduzido, destinada exclusivamente ao tiro esportivo de precisão a longa distância.",
+      "E": "Espingarda é arma longa de alma lisa de cano único e calibre fixo, sendo vedada a existência de modelos com dois canos justapostos ou sobrepostos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme pp. 45-46, espingarda, no Brasil, é qualquer arma longa, portátil e de alma lisa, podendo ter um ou mais canos paralelos ou sobrepostos; escopeta é termo restrito a espingardas de cano curto e grosso calibre (A correta). B inverte a regra, pois espingardas são de alma lisa, sendo a Slug Gun e armas mistas as exceções com raiamento. C é falsa, pois se admitem pump action e semiautomáticas. D inverte as características da escopeta. E é falsa, pois há espingardas de dois canos paralelos ou sobrepostos.",
+    "referencia": "PDF, p. 45-46",
+    "nivel": "medio"
+  },
+  {
+    "id": 1267,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de crime foi recolhido um estojo de cartucho de espingarda. Acerca das características desse componente e do cartucho correspondente, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O estojo é integralmente metálico, geralmente de latão, à semelhança dos estojos de armas de alma raiada, sendo essa a sua principal característica diferencial.",
+      "B": "A carga de propulsão e a cápsula de espoletamento dos cartuchos de espingarda diferem substancialmente, em estrutura e em composição química, daquelas utilizadas nos cartuchos de armas de fogo de alma raiada, o que constitui o principal traço diferencial entre as duas munições.",
+      "C": "No interior do cartucho, o que é propelido diretamente pela carga de propulsão é o próprio projétil, sem qualquer interposição de bucha entre a pólvora e os balins, exatamente como ocorre nos cartuchos das armas de fogo de alma raiada.",
+      "D": "O estojo possui base metálica de latão e corpo cilíndrico em papelão ou plástico, podendo o fechamento frontal ser feito por disco de papelão ou pelo dobramento das bordas em fechamento estrela.",
+      "E": "O fechamento frontal do cartucho é sempre realizado por crimpagem metálica da boca do estojo, vedando-se o uso de disco de papelão ou de fechamento estrela em munições de espingarda."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 47, o estojo de espingarda tem base metálica (geralmente de latão) e corpo cilíndrico de papelão ou plástico, com fechamento frontal por disco de papelão ou em fechamento estrela (D correta). A é falsa, pois o estojo não é integralmente metálico. B contraria a p. 46, pois cápsulas e cargas de propulsão não diferem substancialmente das de armas raiadas. C contraria a p. 47, pois na espingarda quem é impelido é a bucha, que impele os projéteis. E é falsa, pois o fechamento por disco de papelão ou em estrela é justamente o usual.",
+    "referencia": "PDF, p. 46-47",
+    "nivel": "medio"
+  },
+  {
+    "id": 1268,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de crime envolvendo disparo de espingarda, o perito encontra balins de chumbo dispersos e uma bucha de plástico próxima à vítima, sem o estojo correspondente. Acerca da importância pericial desses elementos para a indicação do calibre, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A bucha não possui valor pericial relevante, por ser peça descartável que não guarda qualquer relação com o calibre da arma, atuando exclusivamente como elemento de vedação dos gases de combustão no interior da câmara durante o disparo.",
+      "B": "Os balins recuperados no local permitem, isoladamente e com precisão, identificar o calibre nominal da espingarda empregada no disparo, tornando inteiramente dispensável a coleta e o exame pericial da bucha encontrada junto à vítima.",
+      "C": "A presença de balins de diferentes tamanhos no local indica obrigatoriamente o emprego de mais de uma espingarda, uma vez que cada calibre nominal admite apenas um único tipo de projétil padronizado conforme normas técnicas internacionais.",
+      "D": "A bucha guarda relação com o calibre da arma de alma lisa, pois seu diâmetro de seção reta é similar ao calibre real do cano, de modo que sua coleta pode ser fundamental para a indicação do calibre nominal da espingarda.",
+      "E": "Tanto os balins quanto a bucha permitem aferir diretamente o calibre real, uma vez que ambos são fabricados com diâmetro idêntico ao do cano da arma utilizada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 50, a bucha guarda relação com o calibre da arma de alma lisa, pois apresenta diâmetro similar ao calibre real, sendo sua coleta fundamental para a indicação do calibre nominal (D correta). A é falsa, pois a bucha tem valor pericial. B é falsa, pois os balins podem ter sido disparados por espingardas de calibres diversos. C e E são falsas, pois a denominação dos projéteis é arbitrária e variável e os balins não têm diâmetro igual ao calibre real (p. 47-48).",
+    "referencia": "PDF, p. 47-50",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1269,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos projéteis utilizados em cartuchos de espingarda, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São padronizados internacionalmente por normas técnicas rígidas e de observância obrigatória, sendo expressamente proibida a recarga do estojo com qualquer material que não sejam chumbos esféricos de dimensões e massas previamente tabeladas pelo fabricante.",
+      "B": "Em geral consistem em chumbos esféricos (balins) de dimensões e massas variáveis, com denominação arbitrária por números e letras, podendo o estojo, na prática, ser recarregado com diversos materiais, inclusive projéteis únicos denominados balotes.",
+      "C": "Os balotes são projéteis múltiplos, de pequeno diâmetro e baixa massa individual, destinados exclusivamente ao tiro esportivo praticado a curta distância, não se admitindo seu emprego em situações de caça ou de defesa.",
+      "D": "Os balins têm necessariamente diâmetro igual ao calibre real do cano, sendo por isso possível inferir o calibre nominal da espingarda apenas pela medida do projétil recuperado.",
+      "E": "A denominação dos balins segue padrão internacional fixo no qual o número indica diretamente o diâmetro em milímetros, vedada a recarga do estojo com projétil único."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme pp. 47-48, os cartuchos de espingarda são carregados com chumbos esféricos (balins) de dimensões e massas variáveis, com denominação arbitrária por números e letras, e podem, na prática, ser recarregados com diversos materiais, inclusive projéteis únicos chamados balotes (massa de até cerca de 30 g) (B correta). A e E contrariam a possibilidade prática de recarga e a denominação arbitrária. C inverte o conceito, pois o balote é projétil único. D é falsa, pois os balins não têm diâmetro igual ao calibre real.",
+    "referencia": "PDF, p. 47-48",
+    "nivel": "medio"
+  },
+  {
+    "id": 1270,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do calibre real e do estrangulamento (choke) em armas de fogo de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O calibre real corresponde ao diâmetro medido na boca do cano da espingarda, sendo o choke uma ampliação dessa medida destinada a aumentar a dispersão dos balins.",
+      "B": "O choke do tipo Cylinder corresponde ao maior estrangulamento da boca do cano, enquanto o Full equivale ao cilíndrico, sem qualquer estrangulamento.",
+      "C": "Na Europa, o choke do tipo Full é convencionalmente indicado por três asteriscos e o do tipo Improved Cylinder por apenas um asterisco, em um sistema de marcação inteiramente inverso àquele adotado nas demais regiões produtoras de armamento de alma lisa.",
+      "D": "O choke é uma redução do diâmetro da boca do cano, classificado, do maior para o menor estrangulamento, em Full, Improved Modified, Modified, Improved Cylinder e Cylinder, e o calibre real é medido na porção mediana do cano, jamais na câmara ou na boca.",
+      "E": "O choke é uma redução do diâmetro da boca do cano da espingarda, e o calibre real deve ser medido na própria boca, imediatamente após o ponto de estrangulamento, garantindo-se, dessa forma, a aferição precisa do ponto de menor diâmetro interno do cano."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme pp. 48-49, o calibre real é medido na porção mediana do cano (nunca na câmara nem na boca, em razão do choke); o choke é a redução do diâmetro da boca, classificado em Full, Improved Modified, Modified, Improved Cylinder e Cylinder (D correta). A é falsa, pois o calibre real não é medido na boca e o choke não amplia o diâmetro. B inverte os tipos, pois Full é o de maior estrangulamento e Cylinder é o sem choke. C inverte os asteriscos (Full corresponde a um asterisco; Improved Cylinder, a três). E erra ao afirmar que o calibre real é medido na boca.",
+    "referencia": "PDF, p. 48-49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1271,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Perito Criminal Federal recebe para exame uma espingarda marcada como calibre 12. Considerando os critérios técnicos de definição do calibre nominal em armas de fogo de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O número 12 indica que o diâmetro interno mediano do cano da arma é de exatos 12 milímetros, dimensão que corresponde igualmente ao diâmetro preciso das esferas de chumbo que devem necessariamente ser utilizadas como projétil na munição dessa espingarda.",
+      "B": "O calibre 12 é definido como o número de balins efetivamente contidos em um único cartucho da arma, sendo, por essa exata razão, tecnicamente equivalente a um calibre real de 12 mm, valor padronizado de modo uniforme em normas internacionais.",
+      "C": "O calibre nominal 12 significa que doze esferas de chumbo de diâmetro igual ao do cano podem ser obtidas de uma libra (453,6 g) de chumbo, o que corresponde a calibre real de cerca de 18,5 mm, sem que a munição utilize esferas desse diâmetro.",
+      "D": "O calibre 12 obedece a uma lógica crescente, de modo que, quanto maior for o número indicativo do calibre nominal, maior será o calibre real correspondente da arma, sendo o calibre 36 aquele que apresenta o maior diâmetro interno de cano.",
+      "E": "O calibre nominal 12 corresponde ao número de gramas de chumbo necessárias para preencher o cano da arma, sendo equivalente a um calibre real fixo de 12 mm em qualquer fabricante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme pp. 49-50, o calibre nominal em alma lisa é o número de esferas de chumbo de diâmetro igual ao do cano que podem ser obtidas de uma libra (453,6 g) de chumbo; o calibre 12 corresponde a calibre real de cerca de 18,5 mm, advertindo-se que isso não significa que a munição utilize esferas com esse diâmetro (C correta). A e E confundem calibre nominal com diâmetro em milímetros. B é falsa, pois o calibre não corresponde ao número de balins do cartucho. D inverte a lógica, pois quanto maior o número nominal, menor o calibre real (ex.: calibre 36 = 10,2 mm).",
+    "referencia": "PDF, p. 49-50",
+    "nivel": "dificil"
+  }
+]

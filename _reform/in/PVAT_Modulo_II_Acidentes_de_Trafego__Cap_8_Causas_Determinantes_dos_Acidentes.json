@@ -1,0 +1,138 @@
+[
+  {
+    "id": 805,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "A formulação da causa determinante é o núcleo da conclusão do laudo pericial. Quanto à estrutura recomendada pelo material para o parágrafo descritivo da causa determinante, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Deve incluir obrigatoriamente o nome do juiz competente e a tipificação penal proposta pelo perito.",
+      "B": "Deve conter exclusivamente o relato narrativo do que o condutor afirmou em depoimento, sem necessidade de vinculação com vestígios.",
+      "C": "Deve conter, em regra: o sujeito (o condutor identificado), o verbo (a ação ou omissão ilegal), a norma violada (regra do CTB infringida) e o resultado (colisão, capotamento, atropelamento nas circunstâncias descritas).",
+      "D": "Deve prescindir da indicação da norma do CTB violada, pois essa atribuição é exclusiva do Ministério Público."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme texto: 'A estrutura do parágrafo do laudo descrevendo a causa determinante deve, em regra, conter: o sujeito (o condutor do veículo identificado); o verbo (a ação ou omissão ilegal); a norma violada (a regra do CTB infringida); e o resultado'.",
+    "referencia": "Cap. 8, Seção 8.1, p. 55",
+    "nivel": "facil"
+  },
+  {
+    "id": 806,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma colisão traseira, o perito deve identificar a causa determinante mais comum em tais ocorrências. Sobre a ausência de reação como causa de colisão traseira, considere os itens:\n\nI. A causa mais frequente de colisões traseiras é a ausência de reação materializada do condutor que se aproxima com velocidade maior do que o veículo à frente.\nII. O perito deve demonstrar que não há marcas de frenagem do veículo colidente anteriores ao SC ou que são insuficientes para evitar a colisão.\nIII. Deve-se demonstrar que a distância de percepção-reação era fisicamente possível para a velocidade desenvolvida.\nIV. A formulação típica inclui apontar a responsabilidade jurídica e culpa do condutor, indicando a pena cabível.\nV. A formulação típica menciona o veículo precedente 'com menor velocidade (ou parado)' e o resultado de colidir com ele 'nas circunstâncias descritas'.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, IV e V.",
+      "C": "I, II, III e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O item IV é incorreto, pois apontar culpa/responsabilidade jurídica é função do juiz e consta nos erros comuns (Cap. 10). Os demais reproduzem o texto: ausência de reação, ausência ou insuficiência de marcas, dpr fisicamente possível e formulação típica.",
+    "referencia": "Cap. 8, Seção 8.2.1, p. 55",
+    "nivel": "dificil"
+  },
+  {
+    "id": 807,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma saída de pista em curva sem indicação de frenagem, o perito investiga a possibilidade de ausência de reação. Quais verificações o material indica como necessárias para essa hipótese?",
+    "alternativas": {
+      "A": "Verificar se a placa do veículo é compatível com o cadastro do Denatran e se há transferência de tinta no obstáculo.",
+      "B": "Verificar exclusivamente a calibração do tacógrafo e o disco-diagrama do veículo no momento do acidente.",
+      "C": "Verificar se havia sinalização adequada para a curva, se a visibilidade era suficiente, se há indicativos de sonolência (ausência total de marcas, inclusive pós-saída) e se a velocidade era compatível com o raio da curva.",
+      "D": "Verificar somente o tempo de permanência do condutor no veículo e a duração da viagem prévia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Texto: 'Deve-se verificar se havia sinalização adequada para a curva, se a visibilidade era suficiente, se há indicativos de sonolência (ausência total de marcas, inclusive pós-saída da pista) e se a velocidade era compatível com o raio da curva'.",
+    "referencia": "Cap. 8, Seção 8.2.2, p. 55",
+    "nivel": "medio"
+  },
+  {
+    "id": 808,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre velocidade excessiva e velocidade inadequada como causas determinantes, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A velocidade excessiva como causa determinante única aplica-se quando o veículo ultrapassa o limite da via e fica demonstrado que, na velocidade regulamentar, o acidente não teria ocorrido; a velocidade inadequada aplica-se quando o veículo não ultrapassa o limite absoluto, mas desenvolve velocidade incompatível com as condições do momento (pista molhada, visibilidade reduzida, tráfego intenso).",
+      "B": "A velocidade excessiva aplica-se apenas a vias urbanas; a velocidade inadequada, apenas a rodovias.",
+      "C": "Velocidade excessiva e velocidade inadequada são sinônimos, ambas aplicáveis sempre que o veículo ultrapasse o limite da via.",
+      "D": "Ambas só se aplicam quando o perito também demonstra a alcoolemia do condutor, sem o que a causa não pode ser apontada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Texto: 'A velocidade excessiva como causa determinante única aplica-se quando: (a) o veículo ultrapassava o limite (...) (b) ficou demonstrado que, na velocidade regulamentar, o acidente não teria ocorrido (...) A velocidade inadequada (...) aplica-se quando o veículo não ultrapassava o limite absoluto, mas desenvolvia velocidade incompatível com as condições do momento'.",
+    "referencia": "Cap. 8, Seção 8.3, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 809,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em interceptação por mudança de faixa irregular, o perito deve apoiar a conclusão em vestígios materiais. Quais são esses vestígios típicos, segundo o material?",
+    "alternativas": {
+      "A": "Exclusivamente a leitura do disco-diagrama do tacógrafo, sem necessidade de outras evidências.",
+      "B": "Marcas de frenagem do tipo gap-skid em ambos os veículos e fragmentos centralizados na pista preferencial.",
+      "C": "Apenas o depoimento das testemunhas presentes, dispensando-se análise dos vestígios físicos.",
+      "D": "Marcas de derrapagem iniciando em uma faixa e estendendo-se para outra, avarias laterais correspondentes e fragmentos na região de impacto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Texto: 'O perito deve identificar as marcas de derrapagem, iniciando em uma faixa e estendendo-se para outra, as avarias laterais correspondentes e os fragmentos na região de impacto'.",
+    "referencia": "Cap. 8, Seção 8.4.1, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 810,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em interceptação ocorrida em cruzamento, quando há entrada irregular em via preferencial, o perito deve seguir uma sequência analítica. Assinale a alternativa que apresenta CORRETAMENTE as verificações necessárias.",
+    "alternativas": {
+      "A": "Identificar exclusivamente a placa do veículo evasor e correlacionar com o cadastro do Denatran.",
+      "B": "Identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (pela análise da posição das avarias, do SC e das trajetórias) e verificar se havia sinalização adequada.",
+      "C": "Calcular apenas a velocidade de impacto do veículo preferencial, sem necessidade de verificar a sinalização.",
+      "D": "Determinar a culpa jurídica do condutor que ingressou na via preferencial, indicando a tipificação penal aplicável."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Texto: 'O perito deve identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (pela análise da posição das avarias, do sítio de colisão e das trajetórias) e verificar se havia sinalização adequada'.",
+    "referencia": "Cap. 8, Seção 8.4.2, p. 56-57",
+    "nivel": "medio"
+  },
+  {
+    "id": 811,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em atropelamentos, há três causas determinantes principais, que podem ocorrer isoladamente ou em combinação. Sobre essas causas, conforme a Tabela 13, considere:\n\nI. Ausência de percepção/reação do condutor: SNE demonstra que havia condições físicas de evitar; sem marcas de frenagem ou marcas insuficientes.\nII. Velocidade excessiva: na velocidade regulamentar, o SNE comprova que o acidente não ocorreria.\nIII. Entrada inopinada do pedestre: o condutor estava no SNE ou além dele; não havia como evitar; o pedestre surgiu subitamente.\nIV. Embriaguez do condutor é a única causa determinante reconhecida para atropelamentos.\nV. Defeito da bicicleta da vítima é a causa determinante padrão dos atropelamentos em zonas urbanas.\n\nEstão CORRETAS apenas:",
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "I, II e III.",
+      "C": "II, III e V.",
+      "D": "Todas as afirmativas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os itens I, II e III reproduzem a Tabela 13. Itens IV e V não constam do texto, que indica como causas: ausência de percepção/reação, velocidade excessiva e entrada inopinada do pedestre.",
+    "referencia": "Cap. 8, Seção 8.7, Tabela 13, p. 57-58",
+    "nivel": "dificil"
+  },
+  {
+    "id": 812,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "O comportamento perigoso como causa determinante exclusiva é reservado para casos extremos. Assinale a alternativa que apresenta exemplos CORRETOS desse tipo de causa, segundo o material.",
+    "alternativas": {
+      "A": "Veículo trafegando na contramão em via de sentido único com meios-fios e sinalização clara; veículo avançando sobre calçada; condutor realizando sequência de colisões sem indicação de tentativa de parar.",
+      "B": "Veículo em ultrapassagem regular em local permitido com velocidade dentro do limite.",
+      "C": "Veículo com pneu careca em via molhada e com baixa visibilidade.",
+      "D": "Veículo trafegando em velocidade superior em 5 km/h ao limite, em via de visibilidade plena e sem outros veículos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Texto: 'veículo trafegando na contramão em via de sentido único com meios-fios e sinalização clara; veículo avançando sobre calçada; condutor realizando sequência de colisões sem indicação de tentativa de parar'.",
+    "referencia": "Cap. 8, Seção 8.9, p. 58",
+    "nivel": "facil"
+  }
+]

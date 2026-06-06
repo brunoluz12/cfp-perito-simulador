@@ -1,0 +1,206 @@
+[
+  {
+    "id": 741,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Código de Trânsito Brasileiro (CTB), instituído pela Lei nº 9.503/1997, é apontado pelo material do PVAT como instrumento normativo central para a atuação do perito criminal federal em acidentes de tráfego. Sobre o papel do CTB e dos regulamentos infralegais correlatos no trabalho pericial, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O conhecimento da legislação de trânsito é considerado opcional para o perito, pois sua atribuição se restringe ao plano técnico-físico do acidente, cabendo exclusivamente ao delegado conectar a conduta à norma.",
+      "B": "O perito deve aplicar prioritariamente as Resoluções do DENATRAN, em detrimento das disposições do CTB, por serem normas mais específicas e técnicas para a reconstituição de acidentes.",
+      "C": "A Lei nº 9.503/1997 é apenas subsidiária ao Código Penal nas perícias de acidentes, sendo aplicada somente quando ausentes vítimas fatais ou lesionadas.",
+      "D": "O CTB e seus regulamentos, especialmente as Resoluções do CONTRAN, definem os comportamentos esperados e admissíveis dos usuários das vias, e o perito, ao associar uma causa determinante a uma infração, conecta o plano técnico ao plano normativo, construindo o elemento técnico da prova."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que 'O CTB e seus regulamentos (especialmente as Resoluções do CONTRAN) definem os comportamentos esperados e admissíveis dos usuários das vias' e que, ao identificar a causa determinante associada a uma infração, o perito 'está conectando o plano técnico (o que ocorreu fisicamente) ao plano normativo (o que deveria ter ocorrido segundo a lei), construindo o elemento técnico da prova'. O conhecimento da legislação é 'condição sine qua non', não opcional.",
+    "referencia": "Cap. 4, Seção 4.1, p. 23",
+    "nivel": "facil"
+  },
+  {
+    "id": 742,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um acidente urbano, foi constatado pericialmente que o condutor do veículo A perdeu o controle do automóvel devido a episódio de sonolência ao volante, vindo a colidir com um poste de iluminação. Considerando os deveres fundamentais dos condutores previstos no CTB, conforme abordado no material, qual dispositivo legal serve de base normativa direta para a causa determinante identificada (perda de controle por sonolência)?",
+    "alternativas": {
+      "A": "Art. 43 do CTB, que trata exclusivamente da observância dos limites máximos fixados em placas de regulamentação de velocidade.",
+      "B": "Art. 28 do CTB, que determina que o condutor deverá, a todo momento, ter domínio de seu veículo, dirigindo-o com atenção e cuidados indispensáveis à segurança do trânsito.",
+      "C": "Art. 26 do CTB, que dispõe sobre o dever específico de prestar socorro às vítimas em acidentes com lesão corporal.",
+      "D": "Art. 29, III, do CTB, que estabelece a regra geral de preferência para o veículo que se aproxima pela esquerda do condutor em cruzamentos não sinalizados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo o texto: 'O art. 28 determina que o condutor deverá, a todo momento, ter domínio de seu veículo, dirigindo-o com atenção e cuidados indispensáveis à segurança do trânsito. Esta norma é a base legal para a causa determinante ligada à perda de controle do veículo por qualquer razão – distração, sonolência, uso de substâncias entorpecentes ou velocidade inadequada'.",
+    "referencia": "Cap. 4, Seção 4.2.1, p. 23",
+    "nivel": "facil"
+  },
+  {
+    "id": 743,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as regras de preferência de passagem e interceptação previstas no art. 29, inciso III, do CTB, conforme tratadas no material do PVAT como elemento normativo central nos laudos de colisão em cruzamentos, julgue os itens a seguir:\n\nI. Quando apenas um dos fluxos é proveniente de rodovia, tem preferência o veículo que estiver circulando por ela.\nII. Em rotatórias, tem preferência o veículo que estiver ingressando no anel viário, em relação ao que já circula nele.\nIII. Nos cruzamentos urbanos não sinalizados, em regra, tem preferência o veículo que vier pela direita do condutor.\nIV. Cabe ao perito identificar qual veículo tinha preferência, verificar se ele de fato a exerceu e se o outro veículo respeitou a preferência alheia.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, III e IV.",
+      "B": "II e III.",
+      "C": "I e II.",
+      "D": "I, II e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto estabelece: 'No caso de apenas um fluxo ser proveniente de rodovia, tem preferência o que estiver circulando por ela; No caso de rotatória, tem preferência o que estiver circulando por ela; Nos demais casos (cruzamentos urbanos não sinalizados), o que vier pela direita do condutor'. O item II inverte a regra (a preferência é de quem já circula na rotatória, não de quem ingressa), tornando-o falso. Os itens I, III e IV estão corretos, sendo o IV expressamente: 'O perito deve identificar qual veículo tinha preferência, verificar se ele de fato a exerceu e se o outro veículo respeitou a preferência alheia'.",
+    "referencia": "Cap. 4, Seção 4.2.2, p. 24",
+    "nivel": "medio"
+  },
+  {
+    "id": 744,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em acidente ocorrido em rodovia de pista simples, observou-se que o condutor desenvolvia 95 km/h em trecho com forte neblina e pista molhada, vindo a perder o controle do veículo. O limite de velocidade da via era de 100 km/h, conforme placas. Sobre o tratamento pericial do conceito de velocidade nesse caso, à luz do material do PVAT, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Como a velocidade desenvolvida (95 km/h) era inferior ao limite legal (100 km/h), fica afastada qualquer possibilidade de a velocidade figurar como causa determinante, restando ao perito investigar apenas falhas mecânicas.",
+      "B": "O conceito de 'velocidade excessiva' para fins periciais não se restringe à ultrapassagem do limite marcado em placa, podendo configurar-se velocidade inadequada para as condições de trânsito – como chuva, neblina, pista molhada ou curva acentuada – mesmo sem ultrapassagem do limite absoluto, com fundamento no art. 43 do CTB.",
+      "C": "O art. 61 do CTB autoriza expressamente o condutor a manter-se no limite máximo independentemente das condições da via, cabendo ao perito apenas verificar o respeito ao valor numérico fixado em placa.",
+      "D": "O art. 43 do CTB somente se aplica quando há ultrapassagem comprovada do limite fixado pelo art. 61, funcionando como agravante específica para condutores reincidentes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o texto: 'o art. 43 impõe ao condutor a obrigação de adaptar sua velocidade às condições do momento, mesmo que esta seja inferior ao limite legal – o que fundamenta causas determinantes por velocidade inadequada mesmo quando o veículo não ultrapassava o limite'. E ainda: 'Um veículo pode desenvolver velocidade inadequada para as condições de trânsito – chuva, neblina, pista molhada, curva acentuada, área escolar – sem ultrapassar o limite absoluto'.",
+    "referencia": "Cap. 4, Seção 4.2.3, p. 24",
+    "nivel": "medio"
+  },
+  {
+    "id": 745,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a Tabela 5 do material do PVAT, que sistematiza os limites de velocidade do art. 61 do CTB para vias sem sinalização específica, assinale a alternativa que apresenta a correspondência CORRETA entre tipo de via e limite padrão de velocidade.",
+    "alternativas": {
+      "A": "Via arterial urbana: 80 km/h; via de trânsito rápido urbana: 60 km/h.",
+      "B": "Estrada (rural): 80 km/h; via local urbana: 50 km/h.",
+      "C": "Rodovia de pista simples (automóveis): 110 km/h; rodovia de pista dupla (automóveis): 100 km/h.",
+      "D": "Via coletora urbana: 40 km/h; via local urbana: 30 km/h."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Tabela 5 indica: 'Via coletora (urbana) – 40 km/h – Art. 61, I, c do CTB' e 'Via local (urbana) – 30 km/h – Art. 61, I, d do CTB'. As demais alternativas invertem ou alteram os valores: via de trânsito rápido é 80 km/h e arterial 60 km/h; rodovia pista dupla é 110 km/h e pista simples 100 km/h; estrada rural é 60 km/h.",
+    "referencia": "Cap. 4, Seção 4.2.3, Tabela 5, p. 24-25",
+    "nivel": "medio"
+  },
+  {
+    "id": 746,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial de colisão frontal ocorrida em rodovia, o perito apurou que o veículo A ultrapassou o veículo B em trecho de curva sem visibilidade, invadindo a faixa contrária no momento em que o veículo C trafegava em sentido oposto. Considerando o regime jurídico da ultrapassagem previsto nos arts. 29 a 32 do CTB, tal como exposto no material do PVAT, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O art. 32 do CTB proíbe ultrapassagens em curvas, aclives sem visibilidade, passagens de nível, pontes, viadutos e travessias de pedestres, sendo a ultrapassagem irregular em curva causa determinante recorrente de colisão frontal, desde que o perito demonstre que ela foi fator preponderante do acidente.",
+      "B": "A ultrapassagem em curva é admitida pelo CTB desde que o condutor sinalize previamente com os faróis altos, sendo proibida apenas em pontes e viadutos.",
+      "C": "Para configurar causa determinante, basta ao perito demonstrar que o veículo ultrapassador ocupou a faixa contrária, sendo irrelevante a análise sobre a preponderância dessa conduta em relação às demais circunstâncias concomitantes.",
+      "D": "O art. 33 do CTB autoriza ultrapassagens nas proximidades de interseções desde que o condutor reduza a velocidade a, no máximo, 40 km/h."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'O art. 32, em especial, proíbe ultrapassagens em curvas, aclives sem visibilidade, passagens de nível, pontes, viadutos e travessias de pedestres. O art. 33 proíbe ultrapassagens nas proximidades de interseções'. E ainda: 'o perito deve demonstrar, com base nos vestígios, que o veículo ultrapassador ocupou a faixa contrária em local proibido e que essa conduta foi o fator preponderante do acidente, e não apenas uma circunstância concomitante'.",
+    "referencia": "Cap. 4, Seção 4.2.4, p. 25",
+    "nivel": "medio"
+  },
+  {
+    "id": 747,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de atropelamento ocorrido em via urbana, é fundamental analisar as condições da travessia do pedestre. Sobre os direitos e deveres de pedestres previstos nos arts. 68 a 70 do CTB, conforme o material do PVAT, julgue os itens:\n\nI. O art. 70 assegura prioridade de passagem ao pedestre que estiver atravessando a via sobre as faixas delimitadas.\nII. O art. 69 exige que, para cruzar a via fora de faixas, o pedestre o faça paralelamente ao eixo da via, evitando a travessia perpendicular.\nIII. Os dispositivos dos arts. 68 a 70 são fundamentais para identificar a causa determinante nos atropelamentos – se foi a ausência de reação do condutor, a velocidade excessiva ou a entrada inopinada do pedestre.\nIV. As regras dos arts. 68 a 70 são irrelevantes ao laudo pericial, pois a aferição da culpa do pedestre cabe exclusivamente à esfera cível.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II e IV.",
+      "C": "I e III.",
+      "D": "III e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto confirma os itens I e III: 'O art. 70 assegura prioridade de passagem ao pedestre que estiver atravessando a via sobre as faixas delimitadas' e 'Esses dispositivos são fundamentais para identificar a causa determinante nos atropelamentos – se foi a ausência de reação do condutor, a velocidade excessiva ou a entrada inopinada do pedestre'. O item II é falso, pois o art. 69 exige travessia 'perpendicularmente ao eixo da via', e não paralelamente. O item IV é falso, pois o texto afirma que os dispositivos são fundamentais ao laudo.",
+    "referencia": "Cap. 4, Seção 4.2.5, p. 25",
+    "nivel": "medio"
+  },
+  {
+    "id": 748,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da culpa penal nos crimes decorrentes de acidentes de tráfego e do papel do laudo pericial, conforme o material do PVAT, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Caracteriza imprudência a omissão de cuidado por parte do condutor, como deixar de verificar previamente os freios do veículo, enquanto a negligência consiste em ação temerária, como dirigir em velocidade excessiva.",
+      "B": "A imperícia traduz-se na falta de aptidão técnica do condutor, como não saber controlar o veículo em situação de emergência, ao passo que a imprudência configura-se em ações temerárias, como dirigir em velocidade excessiva.",
+      "C": "O laudo pericial é o instrumento que estabelece formalmente a culpa do condutor, vinculando a decisão do juiz às modalidades culposas indicadas pelo perito.",
+      "D": "A modalidade dolosa é a mais frequente em acidentes de tráfego, dado o histórico estatístico de condutas intencionais ao volante apontado no material."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o texto: 'A culpa penal, em sua forma mais ampla, pode se manifestar como imprudência (ação temerária, como dirigir em velocidade excessiva), negligência (omissão de cuidado, como não verificar os freios) ou imperícia (falta de aptidão técnica, como não saber controlar o veículo em situação de emergência)'. A alternativa A inverte imprudência e negligência. A C é falsa: 'O laudo pericial não estabelece culpa – isso é função do juiz'. A D é falsa: 'A modalidade culposa é a mais frequente'.",
+    "referencia": "Cap. 4, Seção 4.3, p. 26",
+    "nivel": "medio"
+  },
+  {
+    "id": 749,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em acidente de trânsito ocorrido em via urbana, dois veículos colidiram resultando exclusivamente em danos materiais nos automóveis, sem qualquer vítima. Os condutores não atuaram com dolo. Diante desse quadro, à luz da nota destacada no material do PVAT acerca dos aspectos penais do art. 163 do Código Penal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Há crime de dano culposo a ser apurado, com obrigatória atuação da polícia judiciária e instauração de inquérito policial.",
+      "B": "O crime de dano (art. 163 do CP) admite a modalidade culposa, devendo o perito atestar a culpa do condutor para fins de tipificação.",
+      "C": "Não há crime a ser apurado, pois o crime de dano (art. 163 do CP) não admite a modalidade culposa, restando apenas a responsabilidade civil, cuja apuração não requer necessariamente a atuação da polícia judiciária.",
+      "D": "Configura-se crime de lesão corporal culposa por equiparação patrimonial, autorizando a abertura de procedimento criminal específico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A nota do material é expressa: 'Não havendo dolo por parte do condutor, nem tendo a ocorrência deixado vítimas – apenas danos materiais – não há crime a ser apurado, pois o crime de dano (art. 163 do CP) não admite a modalidade culposa. Nesses casos, resta apenas a responsabilidade civil, cuja apuração não requer necessariamente a atuação da polícia judiciária'.",
+    "referencia": "Cap. 4, Seção 4.3, p. 26",
+    "nivel": "facil"
+  },
+  {
+    "id": 750,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial de colisão traseira em via expressa urbana, o perito constatou que o veículo posterior trafegava a apenas 5 metros do veículo dianteiro a 70 km/h, distância manifestamente insuficiente para frenagem segura. Considerando a Tabela 6 do material do PVAT, qual dispositivo do CTB tipifica a infração mais diretamente correlacionada à causa determinante identificada?",
+    "alternativas": {
+      "A": "Art. 192 do CTB, infração grave, referente à obrigação de manter distância de segurança lateral e frontal, apontado como causa determinante em colisões traseiras e laterais.",
+      "B": "Art. 186 do CTB, referente a transitar na contramão de direção, indicado como causa determinante em colisões frontais por invasão de faixa.",
+      "C": "Art. 175 do CTB, infração grave, referente a manobra perigosa, arrancada brusca, derrapagem ou frenagem com deslizamento de pneus.",
+      "D": "Art. 214 do CTB, infração gravíssima, referente à preferência a pedestre ou veículo não motorizado em faixa de pedestres."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Tabela 6 indica expressamente: 'Art. 192 – Não manter distância de segurança lateral e frontal – Grave – Causa determinante em colisões traseiras e laterais'. As demais opções tipificam condutas distintas: art. 175 (manobras perigosas/derrapagem), art. 186 (contramão/colisões frontais) e art. 214 (preferência a pedestres/atropelamentos).",
+    "referencia": "Cap. 4, Seção 4.4, Tabela 6, p. 27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 751,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as infrações de trânsito de maior relevância pericial sistematizadas na Tabela 6 do material do PVAT, julgue os itens a seguir:\n\nI. O art. 175 do CTB, classificado como infração grave, tipifica manobra perigosa, arrancada brusca, derrapagem ou frenagem com deslizamento de pneus, podendo indicar comportamento como causa determinante.\nII. O art. 176 do CTB, classificado como infração gravíssima, abrange condutas como não prestar socorro à vítima, não preservar o local e não se identificar, sendo relevante para a investigação e preservação dos vestígios.\nIII. O art. 186 do CTB, referente a transitar na contramão de direção, é apontado como causa determinante em colisões frontais por invasão de faixa.\nIV. O art. 244, I, do CTB, gravíssimo, tipifica a condução de motocicleta entre veículos em movimento (racha) e é relevante em acidentes envolvendo motocicletas.\nV. O art. 214 do CTB, gravíssimo, refere-se a não dar preferência a pedestre ou veículo não motorizado, sendo causa determinante em atropelamentos e colisões em faixa de pedestres.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas os itens I, II e III.",
+      "B": "Apenas os itens II, IV e V.",
+      "C": "Apenas os itens I, III e V.",
+      "D": "Todos os itens (I, II, III, IV e V)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todos os itens reproduzem fielmente o conteúdo da Tabela 6: art. 175 (manobra perigosa, grave); art. 176 (não prestar socorro, não preservar local, gravíssima); art. 186 (contramão, causa determinante em colisões frontais por invasão de faixa); art. 244, I (conduzir motocicleta entre veículos em movimento, gravíssima); art. 214 (não dar preferência a pedestre ou veículo não motorizado, causa determinante em atropelamentos e colisões em faixa de pedestres).",
+    "referencia": "Cap. 4, Seção 4.4, Tabela 6, p. 26-27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 752,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao chegar a uma via de grande movimento para realizar perícia em acidente com vítima, a equipe constata que o local já se encontra parcialmente alterado, com remoção de veículos e limpeza superficial da pista antes da chegada dos peritos. Considerando as obrigações do condutor previstas no art. 176 do CTB e o procedimento pericial recomendado pelo material do PVAT, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Quando o local se encontra violado, recomenda-se que o perito se abstenha de elaborar laudo, devolvendo os autos à autoridade requisitante por impossibilidade técnica absoluta de conclusões.",
+      "B": "O descumprimento da obrigação de preservar o local pelo condutor envolvido em acidente com vítima constitui mera infração média, sem repercussão direta sobre a qualidade da prova pericial.",
+      "C": "A obrigação de preservar o local é imposta ao condutor envolvido em acidente com vítima e seu descumprimento constitui infração gravíssima; cabendo ao perito, quando o local for encontrado violado, consignar expressamente essa circunstância no laudo, indicando quais vestígios podem ter sido comprometidos e em que medida as conclusões são afetadas.",
+      "D": "A obrigação de preservar o local é dirigida exclusivamente aos agentes de trânsito e à polícia ostensiva, não recaindo sobre o condutor envolvido no acidente, ainda que haja vítima."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma: 'O art. 176 do CTB impõe ao condutor envolvido em acidente com vítima obrigações que têm repercussão direta na preservação dos vestígios periciais. Entre elas, destaca-se a obrigação de preservar o local... O descumprimento desta obrigação constitui infração gravíssima e pode prejudicar substancialmente a qualidade da prova pericial'. E ainda: 'Quando o local se encontrar violado ao chegar a equipe pericial..., o perito deve consignar expressamente essa circunstância no laudo, indicando quais vestígios podem ter sido comprometidos e em que medida as conclusões são afetadas pela ausência ou degradação de determinados elementos de prova'.",
+    "referencia": "Cap. 4, Seção 4.5, p. 27",
+    "nivel": "dificil"
+  }
+]

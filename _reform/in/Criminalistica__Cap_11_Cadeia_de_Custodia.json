@@ -1,0 +1,172 @@
+[
+  {
+    "id": 465,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um inquérito policial, surge discussão sobre o conceito legal de cadeia de custódia. Considerando a definição expressamente prevista na Lei nº 13.964/2019 e o conteúdo do Capítulo 11, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Cadeia de custódia é o conjunto de procedimentos utilizados exclusivamente para o descarte dos vestígios coletados em locais de crime, após a conclusão do laudo.",
+      "B": "Cadeia de custódia corresponde ao conjunto de exames laboratoriais realizados pelo perito a partir do recebimento do vestígio até a emissão do laudo definitivo.",
+      "C": "Cadeia de custódia é o procedimento administrativo de registro dos laudos periciais pela secretaria da unidade de criminalística, sem relação com o manuseio físico dos vestígios.",
+      "D": "Cadeia de custódia é o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 69, é a definição literal da Lei nº 13.964/2019 transcrita: 'conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte'.",
+    "referencia": "Cap. 11, Seção 11, p. 69",
+    "nivel": "facil"
+  },
+  {
+    "id": 466,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere a chegada de um vestígio à secretaria de uma unidade de criminalística federal, devidamente acondicionado em recipiente lacrado com numeração individualizada. Sobre as etapas da cadeia de custódia interna e as conferências previstas, julgue os itens:\n\nI - No momento da chegada, deve ocorrer a primeira conferência, cabendo à secretaria realizar a conferência dos dados na embalagem, sem efetuar a deslacração.\nII - Qualquer inconsistência detectada na chegada deve aguardar a designação do perito, que será o responsável por registrar a alteração após análise preliminar.\nIII - Não constatadas inconformidades, o vestígio deve ser imediatamente registrado no Siscrim.\nIV - A segunda conferência na embalagem contendo o vestígio deve ocorrer pelo perito designado, no momento da designação para realizar os exames.\nV - Após o ingresso na unidade de perícia criminal, deverá ser anexada uma ficha de acompanhamento do vestígio, para registrar o rompimento de lacres e as novas numerações, conforme IN nº 163/2020 – DG/PF.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e V.",
+      "C": "I, II, III e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 70-71: I correto (primeira conferência sem deslacração); II incorreto, pois 'qualquer inconsistência detectada nessa ocasião, deve ser providenciado o imediato registro da alteração'; III correto; IV correto (segunda conferência pelo perito); V correto (IN nº 163/2020 – DG/PF, ficha de acompanhamento).",
+    "referencia": "Cap. 11, Seção 11.2, p. 70-71",
+    "nivel": "dificil"
+  },
+  {
+    "id": 467,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após o término dos exames periciais sobre vestígios coletados em local de crime processado por perito criminal federal, surge dúvida quanto à destinação dos materiais examinados. Considerando a Mensagem Oficial-Circular da DITEC/PF de 5 de março de 2020 e as práticas vigentes mencionadas no Capítulo 11, é CORRETO afirmar:",
+    "alternativas": {
+      "A": "Findos os exames, os materiais examinados e o lacre inicial devem ser acondicionados pelo perito criminal em novo recipiente lacrado; vestígios coletados em local de crime devem permanecer sob custódia da unidade de criminalística até destinação final, enquanto os demais devem ser devolvidos à autoridade requisitante junto com o laudo.",
+      "B": "O lacre inicial deve ser descartado pelo perito após a abertura, sendo desnecessário seu acondicionamento junto ao material examinado.",
+      "C": "Findos os exames, todos os materiais devem ser devolvidos imediatamente à autoridade requisitante, independentemente de sua origem, sendo vedada qualquer armazenagem na unidade pericial.",
+      "D": "Os vestígios devem ser armazenados na residência do perito designado até decisão judicial específica sobre sua destinação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 71, item XII da Mensagem Oficial-Circular DITEC/PF: 'os materiais examinados e o lacre inicial devem ser acondicionados pelo perito criminal em novo recipiente lacrado'; 'vestígios coletados em local de crime devem permanecer sob a custódia da unidade de criminalística até destinação final. Os demais devem ser devolvidos à autoridade requisitante junto com o laudo'.",
+    "referencia": "Cap. 11, Seção 11.2, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 468,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em fiscalização das instalações de uma unidade pericial, observa-se a existência de uma sala destinada à custódia de vestígios. Considerando as recomendações do Capítulo 11 quanto às instalações dos locais de custódia da criminalística, é CORRETO afirmar:",
+    "alternativas": {
+      "A": "Não há necessidade de controle de temperatura e umidade nos locais de custódia, pois lacres e embalagens padronizadas garantem absoluta preservação do vestígio independentemente das condições ambientais.",
+      "B": "As instalações devem ter níveis de segurança adequados, incluindo, sempre que possível, monitoramento eletrônico, controle de temperatura e umidade, acesso restrito e presença de refrigeradores e freezers para vestígios perecíveis.",
+      "C": "O acesso aos locais de custódia deve ser amplo a todos os servidores da unidade, inclusive estagiários e prestadores de serviço, para garantir a transparência dos procedimentos.",
+      "D": "A presença de goteiras no ambiente de custódia é considerada prática recomendada, pois mantém a umidade adequada para preservação dos vestígios biológicos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 71-72: as instalações 'devem ter níveis de segurança adequados, incluindo, sempre que possível, monitoramento eletrônico'; a Figura 2 destaca 'controle de temperatura e umidade, o acesso restrito a servidores da unidade, e a presença de refrigeradores e freezers'. A goteira é apresentada como prática NÃO recomendada (Figura 3).",
+    "referencia": "Cap. 11, Seção 11.3, p. 71-72",
+    "nivel": "facil"
+  },
+  {
+    "id": 469,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito federal recebe, na secretaria da unidade, materiais de natureza distinta para análise. Aplicando o disposto na Lei nº 13.964/2019 (art. 158-D) e na Proposta de alteração da Instrução de Serviço nº 07/2011 – DITEC/PF quanto às embalagens de segurança, analise as situações:\n\nI - Um vestígio biológico chega sem qualquer acondicionamento individualizado; a secretaria pode recebê-lo desde que abra a embalagem e confira o material na presença e sob observação do responsável pela entrega.\nII - Documentos das áreas de contabilidade ou engenharia, que não necessitam de acondicionamento especial para preservar suas características e rastreabilidade, podem ser recebidos sem acondicionamento em recipiente lacrado e com numeração individualizada.\nIII - O recipiente para acondicionamento deve individualizar o vestígio, preservar suas características, impedir contaminação e vazamento, ter grau de resistência adequado e espaço para registro de informações.\nIV - Todos os recipientes deverão ser selados com lacres com numeração individualizada, de forma a garantir a inviolabilidade e a idoneidade do vestígio durante o transporte.\nV - A natureza do material não influencia na escolha do recipiente, sendo padronizado um único tipo de embalagem para todos os vestígios apreendidos.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "II, III, IV e V.",
+      "C": "I, II, III e IV.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 73-74: I correto (vestígio sem acondicionamento individualizado só recebido após abertura e conferência na presença do responsável); II correto (documentos de contabilidade/engenharia não precisam de recipiente lacrado); III e IV corretos (art. 158-D, §§ 1º e 2º); V incorreto, pois o art. 158-D estabelece que 'o recipiente será determinado pela natureza do material'.",
+    "referencia": "Cap. 11, Seção 11.4, p. 73-74",
+    "nivel": "dificil"
+  },
+  {
+    "id": 470,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em determinado processo penal, a defesa indica assistente técnico para acompanhar perícia realizada pela Polícia Federal. O profissional pretende impugnar conclusões e procedimentos. Considerando a Lei nº 11.690/2008, que inseriu a figura do assistente técnico no processo penal, e o disposto na Seção 11.5, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A análise da cadeia de custódia pelo assistente técnico restringe-se à fase externa, sendo a fase interna de competência exclusiva da corregedoria da Polícia Federal.",
+      "B": "O assistente técnico atua exclusivamente como auxiliar do Ministério Público, sendo-lhe vedado apresentar críticas ou hipóteses alternativas às conclusões do perito oficial.",
+      "C": "O assistente técnico pode analisar a preservação da cadeia de custódia, tanto externa quanto interna, tecer críticas ao laudo (clareza, métodos, coerência e conclusão) e formular hipóteses e apontar falhas procedimentais, inclusive quanto ao manuseio dos vestígios.",
+      "D": "O assistente técnico pode substituir o perito oficial na realização dos exames quando houver discordância técnica sobre a metodologia adotada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 75, o assistente técnico pode: 'IX - Analisar a preservação da cadeia de custódia: tanto externa como interna; X - Tecer críticas ao laudo pericial, observando aspectos de clareza, métodos, coerência e conclusão; XI - Formular hipóteses e apontar falhas procedimentais, inclusive quanto ao manuseio dos vestígios'.",
+    "referencia": "Cap. 11, Seção 11.5, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 471,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as diferenças entre cadeia de custódia externa e interna, conforme descritas no Capítulo 11, considere a seguinte situação: vestígios são coletados em local de crime, acondicionados em embalagens padronizadas com lacre, transportados até a unidade pericial, recebidos pela secretaria, registrados no Siscrim, examinados pelo perito designado e, após a conclusão, devolvidos à autoridade requisitante ou armazenados na Central de Custódia de Vestígios. Assinale a alternativa CORRETA quanto à classificação dessas etapas.",
+    "alternativas": {
+      "A": "Toda a sequência descrita constitui exclusivamente cadeia de custódia externa, pois envolve manuseio físico dos vestígios pela autoridade policial.",
+      "B": "A cadeia de custódia externa abrange a sequência de eventos que documenta a posse física ou controle do vestígio desde a arrecadação/coleta até o envio para análise, enquanto a cadeia de custódia interna corresponde à documentação das movimentações dos vestígios no âmbito da Criminalística durante a análise pericial, desde o recebimento até a conclusão dos exames com a devolução ou descarte.",
+      "C": "A cadeia de custódia interna abrange exclusivamente os eventos ocorridos no local de crime, antes do envio para a unidade pericial.",
+      "D": "A divisão entre cadeia de custódia externa e interna foi expressamente revogada pela Lei nº 13.964/2019, sendo atualmente tratada como um procedimento único e indivisível."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 69-70: cadeia de custódia externa é a 'sequência de eventos documentados que fornece evidência de que a posse física ou controle do vestígio foi mantido desde sua arrecadação/coleta até o envio para análise'; a interna é a 'documentação que demonstra as movimentações dos vestígios no âmbito da Criminalística durante a análise pericial, desde o recebimento até a conclusão dos exames com a devolução ou descarte'.",
+    "referencia": "Cap. 11, Seções 11 e 11.1-11.2, p. 69-70",
+    "nivel": "medio"
+  },
+  {
+    "id": 472,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante diligência conjunta com policiais, o perito criminal identifica vestígios biológicos em local de crime. Considerando as etapas iniciais da cadeia de custódia externa previstas na Lei nº 13.964/2019 e o conteúdo do Capítulo 11, é INCORRETO afirmar que:",
+    "alternativas": {
+      "A": "Os vestígios coletados devem ser acondicionados conjuntamente, em uma única embalagem comum, independentemente de suas características físicas, biológicas ou químicas, para otimizar o transporte até a unidade pericial.",
+      "B": "As ações de fixação, coleta, acondicionamento e transporte do vestígio serão formalizadas em Termo de Coleta de Vestígio (TCV), documento oficialmente adotado pela Polícia Federal a partir da IN DG/PF nº 297/2024.",
+      "C": "A cadeia de custódia tem início com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio em local de crime ou corpo da vítima.",
+      "D": "Deve-se atentar especialmente para uma identificação unívoca do vestígio, bem como utilizar embalagens de segurança padronizadas para o acondicionamento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 69-70: 'Os vestígios coletados serão acondicionados separadamente em embalagens, conforme suas características físicas, biológicas e químicas' (art. 158-B, V, da Lei nº 13.964/2019). As demais alternativas reproduzem corretamente o conteúdo da seção 11.1.",
+    "referencia": "Cap. 11, Seção 11.1, p. 69-70",
+    "nivel": "dificil"
+  },
+  {
+    "id": 557,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Lei nº 13.964/2019 (Pacote Anticrime) incluiu no Código de Processo Penal os arts. 158-A a 158-F, disciplinando expressamente a cadeia de custódia. No âmbito da Polícia Federal, a regulamentação foi complementada pela IN DG/PF nº 297/2024 e por normativos da DITEC. Com base no Capítulo 11 (Cadeia de Custódia), assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A cadeia de custódia, conforme a Lei nº 13.964/2019, é o conjunto de procedimentos para manter e documentar a história cronológica do vestígio, tendo início somente quando o vestígio é entregue na secretaria da unidade de criminalística, momento em que se realiza a primeira conferência.",
+      "B": "A Lei nº 13.964/2019 define que a cadeia de custódia é gerenciada exclusivamente pelo sistema ePol, sendo o Siscrim utilizado apenas para emissão do laudo pericial e arquivamento da requisição após a conclusão do exame.",
+      "C": "A cadeia de custódia interna inicia-se com o reconhecimento dos vestígios no local de crime e encerra-se com a deslacração da embalagem pela secretaria da unidade, sendo o TCV documento que substitui a ficha de acompanhamento do vestígio prevista na IN nº 163/2020-DG/PF.",
+      "D": "Segundo a Lei nº 13.964/2019, a cadeia de custódia tem início com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio em local de crime ou corpo da vítima, e as informações de fixação, coleta, acondicionamento e transporte são formalizadas no Termo de Coleta de Vestígio (TCV), documento oficial adotado pela PF a partir da IN DG/PF nº 297/2024."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme pp. 69-70 do PDF: a Lei 13.964/2019 estabelece que a cadeia de custódia inicia com a preservação do local de crime ou procedimentos em que se detecte vestígio em local de crime ou corpo da vítima; as ações de fixação, coleta, acondicionamento e transporte são formalizadas no Termo de Coleta de Vestígio (TCV), adotado pela PF a partir da IN DG/PF nº 297/2024.",
+    "referencia": "Cap. 11, p. 69-70",
+    "nivel": "medio"
+  },
+  {
+    "id": 558,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das embalagens de segurança e da disciplina do art. 158-D do CPP (Lei nº 13.964/2019) e dos procedimentos da Proposta de alteração da Instrução de Serviço nº 07/2011-DITEC/PF, julgue os itens: I) Todos os recipientes deverão ser selados com lacres de numeração individualizada, de forma a garantir a inviolabilidade e idoneidade do vestígio durante o transporte. II) O recipiente deverá individualizar o vestígio, preservar suas características, impedir contaminação e vazamento, ter grau de resistência adequado e espaço para registro de informações sobre seu conteúdo. III) Documentos encaminhados à perícia que compõem os autos do inquérito, com informações que não necessitam de acondicionamento especial para preservar características, integridade, originalidade, historicidade e rastreabilidade, tais como das áreas de contabilidade, de engenharia ou de meio ambiente, não precisam ser acondicionados em recipiente lacrado e com numeração individualizada. IV) Vestígios que cheguem à secretaria sem acondicionamento individualizado em recipiente apropriado e selado com lacre numerado devem ser recusados de plano pela secretaria, sob pena de quebra da cadeia de custódia, sendo vedada qualquer abertura na presença do responsável pela entrega. Estão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I e II.",
+      "B": "Apenas II, III e IV.",
+      "C": "Apenas I, II e III.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme pp. 73-74 do PDF: os itens I, II e III reproduzem fielmente o art. 158-D, §§ 1º e 2º, e a Proposta de alteração da IS nº 07/2011. O item IV está errado: o vestígio sem acondicionamento individualizado NÃO é recusado de plano; ele deve ser recebido após abertura da embalagem e conferência do material na presença e sob observação do responsável pela entrega, sendo então acondicionado pela secretaria em recipiente lacrado com nova numeração.",
+    "referencia": "Cap. 11, p. 73-74",
+    "nivel": "dificil"
+  }
+]

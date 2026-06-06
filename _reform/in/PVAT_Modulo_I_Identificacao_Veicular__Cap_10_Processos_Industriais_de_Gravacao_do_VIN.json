@@ -1,0 +1,138 @@
+[
+  {
+    "id": 613,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma aula introdutória do curso de formação, o instrutor explica aos peritos que os processos industriais utilizados pela indústria automobilística para gravação do VIN variam conforme a composição e a morfologia do substrato, bem como por aspectos técnicos e econômicos da planta de montagem. Ele acrescenta que, do ponto de vista do princípio físico empregado, os principais métodos de marcação podem ser enquadrados em duas categorias principais. Considerando o exposto pelo PVAT - Módulo I, assinale a alternativa que apresenta corretamente essas duas categorias.",
+    "alternativas": {
+      "A": "Categorias por adição química e por revestimento eletrolítico do substrato metálico.",
+      "B": "Categorias por estampagem mecanizada e por gravação manual com punção.",
+      "C": "Categorias por fundição parcial e por compressão hidráulica de chapas.",
+      "D": "Categorias por deformação ou por remoção de material."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o capítulo 10, 'os principais métodos de marcação utilizados atualmente se enquadram em duas categorias principais, com base no princípio físico que utilizam: deformação ou remoção de material'.",
+    "referencia": "Cap. 10, p. 47",
+    "nivel": "facil"
+  },
+  {
+    "id": 614,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma vistoria veicular, o perito observa o VIN gravado em uma chapa de aço apresentando caracteres bem definidos, contornos nítidos, bordas levemente elevadas e profundidade compatível com a força aplicada e com as propriedades do material. Verifica, ainda, uniformidade geométrica, alinhamento regular e espaçamento consistente entre os caracteres, sugerindo um processo industrial mecanizado, sem variações ou inclinações individuais entre golpes. Considerando o PVAT - Módulo I, esses elementos são típicos de qual processo de gravação?",
+    "alternativas": {
+      "A": "Gravação a laser por ablação térmica controlada.",
+      "B": "Escrita mecânica (scribing) com fresa de metal duro.",
+      "C": "Estampagem por prensa ou marcação por rolo.",
+      "D": "Marcação por micropercussão (agulha) em superfície côncava."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma que 'quando realizada por prensa ou marcação por rolo, a gravação tende a apresentar uniformidade geométrica, alinhamento regular e espaçamento consistente entre os caracteres, refletindo o controle mecânico do processo industrial', com 'caracteres bem definidos, com contornos nítidos, bordas levemente elevadas'.",
+    "referencia": "Cap. 10, Seção 10.1, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 615,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os processos industriais de gravação do VIN descritos no PVAT - Módulo I, julgue os itens a seguir como Verdadeiro (V) ou Falso (F):\n\nI. A estampagem por prensa, punção ou marcação por rolo causa deformação plástica e altera a estrutura cristalina do material.\n\nII. Na micropercussão, uma agulha dura impacta o substrato de forma consecutiva, formando caracteres alfanuméricos por sequências de pontos, podendo marcar superfícies planas, côncavas ou convexas.\n\nIII. Na escrita mecânica (scribing), o material é removido com fresas de metal duro em rotação, cortadores de diamante ou pinos endurecidos, resultando em marcas profundas, suaves e contínuas.\n\nIV. A gravação a laser é realizada sem contato físico entre a máquina e a peça, e o feixe é capaz de fundir o material e alterar a microestrutura subjacente, originando a chamada zona termicamente afetada.\n\nV. Na punção manual, embora o resultado material seja tecnicamente equivalente à estampagem mecanizada quanto à deformação do metal, é comum a ocorrência de pequenos desalinhamentos, variações de espaçamento e inclinações discretas dos caracteres.\n\nAssinale a alternativa correta:",
+    "alternativas": {
+      "A": "Apenas os itens I, II e IV estão corretos.",
+      "B": "Todos os itens estão corretos.",
+      "C": "Apenas os itens III e V estão corretos.",
+      "D": "Apenas os itens I, III e IV estão corretos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Todos os itens reproduzem exatamente o capítulo 10: I confere com 'Estampagem por prensa, punção ou marcação por rolo causam deformação plástica e alteram a estrutura cristalina do material'; II e III estão nas seções 10.2 e 10.3; IV está na seção 10.4 ('sem contato físico... fundir o material... zona termicamente afetada'); V reproduz a passagem da p. 48 sobre punção manual.",
+    "referencia": "Cap. 10, Seções 10.1 a 10.4, p. 47-48",
+    "nivel": "medio"
+  },
+  {
+    "id": 616,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito examina o VIN de um veículo importado e identifica caracteres com alta precisão geométrica e excelente acabamento superficial, contornos bem definidos e visualmente limpos, ausência de bordas elevadas ao redor dos caracteres, profundidade uniforme e alinhamento rigoroso. Em sua análise, conclui ainda que a marcação é essencialmente superficial e gera apenas uma zona termicamente afetada muito limitada abaixo da superfície, o que confere bom aspecto visual, mas REDUZ a resposta a métodos clássicos de restauração pericial. Diante desse quadro técnico descrito no PVAT - Módulo I, conclui-se corretamente que:",
+    "alternativas": {
+      "A": "Trata-se de gravação por estampagem com punção manual, cuja marcação é superficial e pouco responsiva a métodos químicos de restauração.",
+      "B": "Trata-se de gravação por micropercussão, cuja zona termicamente afetada é tipicamente uniforme e profunda.",
+      "C": "Trata-se de gravação a laser, cuja assinatura técnica é própria e distinta das gravações por deformação plástica.",
+      "D": "Trata-se de gravação por scribing, processo que dispensa contato físico entre a ferramenta e o substrato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto da Seção 10.4 estabelece que 'na gravação a laser do VIN, o aspecto final caracteriza-se por alta precisão geométrica e excelente acabamento superficial' e que 'esse método gera apenas uma zona termicamente afetada muito limitada abaixo da superfície, o que confere bom aspecto visual, mas menor robustez frente a remoções mecânicas e reduz a resposta a métodos clássicos de restauração pericial, constituindo uma assinatura técnica própria e distinta das gravações por deformação plástica'.",
+    "referencia": "Cap. 10, Seção 10.4, p. 49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 683,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os principais métodos industriais de gravação do VIN se enquadram em duas categorias, com base no princípio físico que utilizam. Assinale a alternativa que apresenta corretamente essas duas categorias.",
+    "alternativas": {
+      "A": "Impressão tipográfica ou serigrafia industrial.",
+      "B": "Ablação química ou fusão controlada.",
+      "C": "Compressão hidráulica ou eletrólise.",
+      "D": "Deformação ou remoção de material."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Cap. 10 (p. 47), os principais métodos de marcação utilizados atualmente se enquadram em duas categorias, com base no princípio físico: 'deformação ou remoção de material'.",
+    "referencia": "Cap. 10, p. 47",
+    "nivel": "facil"
+  },
+  {
+    "id": 684,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma vistoria, o perito observa em um chassi caracteres alfanuméricos formados por sequências de pequenos pontos individuais agrupados, sem deslocamento plástico contínuo do material ao longo dos traços. Considerando os processos industriais descritos no Cap. 10, esse aspecto é compatível com:",
+    "alternativas": {
+      "A": "Gravação a laser por ablação térmica.",
+      "B": "Estampagem por prensa automatizada.",
+      "C": "Micropercussão (marcação por agulha).",
+      "D": "Escrita mecânica por fresa rotativa (scribing)."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Na micropercussão (p. 48), 'uma agulha dura impacta o substrato de forma consecutiva, de modo que as sequências de pontos individuais reproduzam caracteres alfanuméricos'.",
+    "referencia": "Cap. 10, p. 48",
+    "nivel": "medio"
+  },
+  {
+    "id": 685,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir sobre a gravação a laser do VIN, com base no Cap. 10: I - É realizada sem contato físico entre a máquina e a peça. II - Gera bordas levemente elevadas ao redor dos caracteres em razão do deslocamento plástico do substrato. III - Produz apenas uma zona termicamente afetada muito limitada abaixo da superfície, o que reduz a resposta a métodos clássicos de restauração pericial. IV - Apresenta profundidade uniforme, ausência de ressalto e alinhamento rigoroso. Estão corretos os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e IV.",
+      "C": "I, III e IV.",
+      "D": "I, II e III."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 49, na gravação a laser 'não ocorre deslocamento plástico do substrato, nem formação de bordas elevadas' (item II falso). São verdadeiros: ausência de contato (item I), zona termicamente afetada limitada com menor robustez frente a restauração (item III) e profundidade uniforme/alinhamento rigoroso (item IV).",
+    "referencia": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "nivel": "medio"
+  },
+  {
+    "id": 686,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dois chassis foram examinados. No chassi A, os caracteres apresentam pequenos desalinhamentos, variações de espaçamento e inclinações discretas dos caracteres. No chassi B, os caracteres possuem marcas profundas, suaves e contínuas, com remoção visível de material por ferramenta rotativa. Com base no Cap. 10, os processos compatíveis com A e B são, respectivamente:",
+    "alternativas": {
+      "A": "Estampagem por prensa automatizada e gravação a laser.",
+      "B": "Punção manual e escrita mecânica (scribing).",
+      "C": "Marcação por rolo e micropercussão por agulha.",
+      "D": "Gravação a laser e estampagem por compressão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 48, na punção manual 'é comum a ocorrência de pequenos desalinhamentos, variações de espaçamento e inclinações discretas dos caracteres'. No scribing (p. 48), o material é removido com fresas de metal duro em rotação, resultando em 'marcas profundas, suaves e contínuas'.",
+    "referencia": "Cap. 10, p. 48",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": 457,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante palestra em congresso, um perito afirma que o relatório Strengthening Forensic Science in the United States: A Path Forward (2009), do National Research Council, e o relatório do PCAST (2016) representaram marcos para a revisão crítica das ciências forenses no século XXI, tendo influenciado diretamente o ambiente em que se consolidou a série ISO 21043. Considerando o conteúdo desses relatórios e seu impacto, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O PCAST, em 2016, focou na validade científica de métodos comparativos como impressões digitais, marcas de ferramentas, balística e grafoscopia, exigindo demonstração empírica de desempenho, e não apenas a aceitação tradicional do método.",
+      "B": "O relatório de 2009 do NRC concluiu que as disciplinas forenses já apresentavam ampla uniformidade metodológica e validação científica consolidada, restando apenas aprimorar a comunicação de resultados ao Judiciário.",
+      "C": "Ambos os relatórios são documentos normativos de caráter compulsório que se sobrepõem às legislações nacionais quanto à regulamentação das ciências forenses.",
+      "D": "O PCAST recomendou abandonar as áreas comparativas tradicionais (como balística e grafoscopia) por absoluta ausência de fundamento científico, substituindo-as por métodos exclusivamente baseados em DNA."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 61, o PCAST 'concentrou-se na validade científica de métodos comparativos empregados em áreas como impressões digitais, marcas de ferramentas, balística e grafoscopia', exigindo 'demonstração empírica de desempenho' e não apenas a aceitação tradicional.",
+    "referencia": "Cap. 10, Seção 10 (introdução), p. 61",
+    "nivel": "medio"
+  },
+  {
+    "id": 458,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recém-empossado, ao estudar a série ISO 21043, conversa com colegas sobre a aplicação dessas normas no Brasil. Considerando o disposto na Seção 10.1, julgue os itens a seguir:\n\nI - Diferentemente da ISO/IEC 17025, não existe acreditação nas normas ISO 21043.\nII - A ISO/IEC 17025 já abordava integralmente os aspectos próprios da atividade pericial, como interpretação de resultados e comunicação ao sistema de justiça, motivo pelo qual a série ISO 21043 é considerada complementar e dispensável.\nIII - As normas ISO 21043 se sobrepõem às leis e aos normativos internos de cada país, devendo ser aplicadas com primazia em caso de conflito.\nIV - A série ISO 21043 foi estruturada no âmbito do comitê técnico ISO/TC 272.\nV - O Processo Forense, segundo a organização da série, compõe-se do Exame Pericial e da Redação do Laudo, sendo o Exame Pericial dividido em Coleta/Amostragem, Análise e Interpretação.\n\nEstão corretos APENAS os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e V.",
+      "C": "I, IV e V.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 62: a ISO/IEC 17025 'não aborda aspectos próprios da atividade pericial' (II incorreto); 'não existe acreditação nas normas ISO 21043' (I correto); as normas ISO 'não se sobrepõem às leis e aos normativos internos' (III incorreto); a ISO estruturou 'no âmbito do comitê técnico ISO/TC 272' (IV correto); o Processo Forense é composto pelo Exame Pericial (coleta, análise, interpretação) e Redação do Laudo (V correto).",
+    "referencia": "Cap. 10, Seção 10.1, p. 62",
+    "nivel": "dificil"
+  },
+  {
+    "id": 459,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame pericial de drogas, o perito recebe um pó branco apreendido em local de tráfico. Após análises preliminares, conclui tratar-se de cocaína; em seguida, determina a concentração da substância na amostra; depois, compara o material com porções apreendidas com outro acusado para verificar se possuem origem comum; por fim, com base na disposição das porções no local, propõe uma dinâmica de armazenamento e distribuição. Considerando os quatro subtipos de análise previstos na ISO 21043-3, a sequência de exames descrita corresponde, respectivamente, a:",
+    "alternativas": {
+      "A": "Classificação, Quantificação, Reconstrução e Avaliação de Origem.",
+      "B": "Identificação, Quantificação, Avaliação de Origem e Reconstrução.",
+      "C": "Classificação, Avaliação de Origem, Quantificação e Reconstrução.",
+      "D": "Identificação, Reconstrução, Avaliação de Origem e Quantificação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 64: identificar que o pó é cocaína é Identificação (classe mais específica); determinar a concentração é Quantificação ('Quanto tem do item?'); comparar com outra apreensão para verificar origem comum é Avaliação de Origem ('De onde vem o item?'); propor dinâmica é Reconstrução ('O que aconteceu com o item?').",
+    "referencia": "Cap. 10, Seção 10.1.2, p. 64",
+    "nivel": "medio"
+  },
+  {
+    "id": 460,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após um incêndio em galpão comercial, o perito é acionado e, sem hipóteses prévias formalizadas, analisa o local, gerando possíveis explicações (curto-circuito, descuido humano, ação criminosa) que ranqueia por probabilidade. Em outro caso, recebe a pergunta objetiva: 'o veículo estava acima do limite de velocidade?', formulando proposições mutuamente excludentes e avaliando em que medida as observações suportam cada uma. À luz da ISO 21043-4, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Ambos os casos configuram interpretação avaliativa, pois sempre que o perito ranqueia hipóteses estará formulando proposições concorrentes.",
+      "B": "Ambos são interpretação investigativa, uma vez que a interpretação avaliativa só é admitida em exames de DNA e impressões digitais.",
+      "C": "O primeiro caso é interpretação avaliativa e o segundo, investigativa, pois a investigativa demanda proposições previamente formalizadas pela autoridade requisitante.",
+      "D": "O primeiro caso é interpretação investigativa e o segundo é interpretação avaliativa, sendo que esta última requer ao menos duas proposições concorrentes, mutuamente excludentes e específicas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 65: na Interpretação Investigativa 'não há proposições de início' e o perito 'parte das observações para gerar possíveis explicações'; a Interpretação Avaliativa 'parte de proposições formuladas de início, mutuamente excludentes, relevantes ao caso, explícitas e específicas' e 'requer ao menos duas proposições concorrentes'.",
+    "referencia": "Cap. 10, Seção 10.1.3, p. 65",
+    "nivel": "medio"
+  },
+  {
+    "id": 461,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No laudo de confronto datiloscópico, o perito declara: 'Na minha opinião, seria impossível obter as semelhanças observadas entre a impressão questionada e o padrão do investigado caso a impressão questionada tivesse sido produzida por outra pessoa.' Posteriormente, com base em imagens de CFTV, registra que 'estima-se que o veículo trafegava a 70 ± 5 km/h'. Segundo a ISO 21043-4, esses dois trechos correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "Razão de Verossimilhança e Explicação.",
+      "B": "Opinião Categórica e Razão de Verossimilhança.",
+      "C": "Explicação e Razão de Verossimilhança.",
+      "D": "Opinião Categórica e Estimativa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 65, a Opinião Categórica é 'usada quando o perito julga que seria impossível obter as observações caso qualquer hipótese alternativa fosse verdadeira', com o exemplo idêntico ao do enunciado; a Estimativa é exemplificada pela própria norma com 'velocidade de 70 ± 5 km/h' a partir de CFTV.",
+    "referencia": "Cap. 10, Seção 10.1.3, p. 65",
+    "nivel": "facil"
+  },
+  {
+    "id": 462,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a Parte 5 da ISO 21043 (Relato) e sua aplicação no contexto da Criminalística Federal, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A classificação ISO de laudos em preliminar, final, complementar, corrigido (amended) e obsoletado (withdrawn) foi integralmente adotada pela Criminalística Federal, que padronizou esses cinco tipos.",
+      "B": "A Criminalística Federal prevê apenas Laudos Preliminares de Constatação (relacionados à detecção preliminar de drogas de abuso) e Laudos de Perícia Criminal Federal, não tendo adotado a classificação completa da norma ISO.",
+      "C": "Os laudos podem expressar opiniões categóricas como se fossem declarações de fato, desde que o perito tenha alta convicção pessoal sobre a conclusão.",
+      "D": "A norma desobriga a inclusão da identificação do responsável pelo conteúdo do laudo, considerando que o documento é institucional e não pessoal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 66: 'essa classificação não foi adotada pela Criminalística Federal, que prevê apenas Laudos Preliminares de Constatação, relacionados à detecção preliminar de drogas de abuso, e Laudos de Perícia Criminal Federal'. Também é explícito que opiniões categóricas 'não devem ser apresentadas como se fossem declarações de um fato'.",
+    "referencia": "Cap. 10, Seção 10.1.4, p. 66",
+    "nivel": "medio"
+  },
+  {
+    "id": 463,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em discussão técnica sobre referenciais internacionais para evidências digitais e padronização por disciplina, um perito é questionado sobre as fontes adequadas para fundamentar procedimentos. Acerca dos referenciais internacionais relevantes mencionados na Seção 10.2, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "A ISO 21043-3 remete expressamente à ISO/IEC 27037:2012 para o tratamento de evidências digitais, sendo esta norma específica para identificação, coleta, aquisição e preservação dessas evidências.",
+      "B": "A OSAC, criada pelo NIST em 2014, substituiu integralmente a ENFSI europeia como organismo global de padronização técnica por disciplina forense.",
+      "C": "A Declaração de Sidney (2022) é documento normativo de caráter compulsório, sobrepondo-se à série ISO 21043 quanto aos princípios fundamentais da ciência forense.",
+      "D": "O ILAC G19:08/2014 trata exclusivamente da padronização de exames de DNA, sendo inaplicável às demais disciplinas forenses."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 67: 'Para a área de evidências digitais, a ISO 21043-3 remete expressamente à ISO/IEC 27037:2012 – Guidelines for Identification, Collection, Acquisition and Preservation of Digital Evidence'. A Declaração de Sidney 'não é um documento normativo' (p. 67-68); o ILAC G19 trata dos módulos do processo forense em geral.",
+    "referencia": "Cap. 10, Seção 10.2, p. 67",
+    "nivel": "medio"
+  },
+  {
+    "id": 464,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ISO 21043-1 (Vocabulário) define conceitos fundamentais para a harmonização do raciocínio pericial, incluindo a distinção entre observação, interpretação e opinião. Sobre tais conceitos e sua harmonização com o arcabouço normativo brasileiro, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A norma define 'cena' como objeto, substância, material ou marca coletada durante o processo forense, e 'item' como o lugar sujeito ao exame forense.",
+      "B": "A observação corresponde à conclusão final do perito; a interpretação consiste no que é diretamente constatado; e a opinião é o significado técnico atribuído ao dado.",
+      "C": "Na harmonização com o arcabouço normativo nacional, optou-se por manter, ao invés de 'cena', a terminologia 'corpo de delito', significando 'conjunto de vestígios que é sujeito a ou que requer exame pericial'.",
+      "D": "A harmonização terminológica é dispensável, pois termos forenses possuem o mesmo significado em todas as tradições institucionais e jurídicas internacionais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 62-63: 'Cena: lugar ou objeto que requer, ou é sujeito a, exame forense' e 'Item: objeto, substância, material ou marca'; e expressamente: 'optou-se por manter, ao invés de cena, a terminologia corpo de delito'. A observação é o constatado, a interpretação atribui significado técnico, e a opinião é a conclusão.",
+    "referencia": "Cap. 10, Seção 10.1.1, p. 62-63",
+    "nivel": "facil"
+  },
+  {
+    "id": 555,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Determinado perito criminal federal, ao discutir com colegas a evolução normativa internacional das ciências forenses, afirma que a série ISO 21043 nasceu para suprir lacunas da ISO/IEC 17025 no contexto pericial. Considerando os referenciais expostos no Capítulo 10 (Regulamentação internacional da Criminalística), assinale a alternativa CORRETA acerca da distinção entre a série ISO 21043 e a ISO/IEC 17025.",
+    "alternativas": {
+      "A": "A ISO/IEC 17025 trata da competência de laboratórios de ensaio e calibração, mas não aborda especificidades periciais como interpretação de resultados e comunicação ao sistema de justiça, lacuna que motivou o desenvolvimento da série ISO 21043 no comitê ISO/TC 272; ademais, diferentemente da 17025, não há acreditação nas normas ISO 21043.",
+      "B": "A série ISO 21043 substituiu definitivamente a ISO/IEC 17025 no contexto pericial, passando a ser o único referencial de acreditação reconhecido pelo ILAC para laboratórios forenses, inclusive no Brasil pelo CGCRE/Inmetro.",
+      "C": "Tanto a ISO 21043 quanto a ISO/IEC 17025 conferem acreditação a laboratórios forenses, sendo a primeira voltada à fase analítica e a segunda à fase interpretativa, formando um sistema dual de certificação.",
+      "D": "A ISO 21043 foi elaborada por iniciativa do PCAST norte-americano, em substituição aos Scientific Working Groups (SWGs), e tem caráter normativo cogente, sobrepondo-se às leis internas de cada país signatário."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 62 do PDF, a ISO/IEC 17025 é voltada à competência de laboratórios de ensaio e calibração, sem abordar interpretação de resultados e comunicação ao sistema de justiça, lacuna preenchida pela ISO 21043 (ISO/TC 272). O texto destaca expressamente que não existe acreditação nas normas ISO 21043 e que estas não se sobrepõem às leis internas de cada país.",
+    "referencia": "Cap. 10, p. 62",
+    "nivel": "medio"
+  },
+  {
+    "id": 556,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos referenciais internacionais relevantes para a ciência forense além da série ISO 21043, julgue os itens a seguir: I) A OSAC, criada em 2014 pelo NIST, substituiu os Scientific Working Groups (SWGs) e publica standards e guidelines, sendo os primeiros de caráter normativo e os segundos de caráter recomendatório. II) A ENFSI, no âmbito europeu, publica Best Practice Manuals por disciplina e o ENFSI Guideline for Evaluative Reporting in Forensic Science, cuja abordagem foi incorporada às ISO 21043-4 e 21043-5. III) A Declaração de Sidney constitui documento normativo cogente que estabelece princípios fundamentais da ciência forense e cuja observância é obrigatória para laboratórios acreditados pelo ILAC. IV) Para evidências digitais, a ISO 21043-3 remete expressamente à ISO/IEC 27037:2012, norma internacional específica para identificação, coleta, aquisição e preservação de evidência digital. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III e IV.",
+      "C": "I, II e IV.",
+      "D": "I, III e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme pp. 66-67: a OSAC foi criada em 2014 pelo NIST, reestruturando os SWGs, e publica standards (normativo) e guidelines (recomendatório); a ENFSI publica Best Practice Manuals e o Guideline for Evaluative Reporting incorporado à ISO 21043-4 e 21043-5; a ISO 21043-3 remete à ISO/IEC 27037:2012 para evidências digitais. O item III está errado pois a Declaração de Sidney, conforme p. 67-68, NÃO é documento normativo, apenas marco conceitual cujos princípios informam a ISO 21043.",
+    "referencia": "Cap. 10, p. 66-67",
+    "nivel": "dificil"
+  }
+]

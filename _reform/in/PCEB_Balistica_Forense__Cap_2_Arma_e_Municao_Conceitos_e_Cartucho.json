@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1216,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a definição de arma de fogo, segundo a doutrina balística adotada na ANP, é correto afirmar que:",
+    "alternativas": {
+      "A": "É todo objeto idôneo a aumentar o poder ofensivo do agente, ainda que destituído de carga de projeção e projétil.",
+      "B": "Trata-se de instrumento perfurocontundente classificado como arma manual de combate corpo a corpo.",
+      "C": "Trata-se de engenho mecânico que expele projéteis utilizando a força expansiva de gases provenientes da combustão da pólvora.",
+      "D": "É arma de arremesso simples, cujo lançamento depende diretamente da força muscular do atirador."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme Rabello (1995), arma de fogo é o engenho mecânico dotado da propriedade de expelir projéteis pela força expansiva de gases da combustão da pólvora (p. 12). A alternativa B descreve arma manual; C ignora que somente há arma de fogo se coexistirem aparato arremessador, carga de projeção e projétil; D descreve arma de arremesso simples, e a arma de fogo é classificada como arma de arremesso complexa (p. 11-12).",
+    "referencia": "PDF, p. 11-12",
+    "nivel": "facil"
+  },
+  {
+    "id": 1217,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "São considerados elementos essenciais de uma arma de fogo, cuja coexistência simultânea é exigida para sua caracterização como tal:",
+    "alternativas": {
+      "A": "Aparato arremessador, cápsula de espoletamento e estojo metálico.",
+      "B": "Aparato arremessador, carga de projeção e projétil.",
+      "C": "Cano raiado, propelente quimicamente puro e projétil encamisado.",
+      "D": "Mecanismo de disparo automático, espoleta tipo Boxer e ogiva."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo lista expressamente como elementos essenciais o aparato arremessador (a arma propriamente dita), a carga de projeção e o projétil, advertindo que somente se considera arma de fogo quando os três coexistem (p. 12). As demais alternativas misturam partes do cartucho com componentes da arma ou exigem características que não são essenciais.",
+    "referencia": "PDF, p. 12",
+    "nivel": "facil"
+  },
+  {
+    "id": 1218,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de crime, o Perito Criminal Federal apreendeu um cartucho intacto de fogo central destinado a pistola. Ao descrever, no laudo, os elementos constitutivos do cartucho de munição, é correto afirmar que ele deve mencionar:",
+    "alternativas": {
+      "A": "Aparato arremessador, cano, percussor e projétil.",
+      "B": "Estojo, cápsula de espoletamento, propelente e projétil.",
+      "C": "Estojo, bigorna, escorva e cano.",
+      "D": "Culote, eventos, raiamento e ogiva."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo descreve o cartucho como unidade de munição completa, formada por estojo, cápsula de espoletamento, projétil e propelente (carga de projeção) (p. 13). A alternativa A inclui componentes da arma (cano, percussor) e não do cartucho; C cita bigorna (parte interna da espoleta) e cano (parte da arma); D mistura partes do estojo, da espoleta e do cano da arma.",
+    "referencia": "PDF, p. 13",
+    "nivel": "medio"
+  },
+  {
+    "id": 1219,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o estojo do cartucho de munição, é correto afirmar que:",
+    "alternativas": {
+      "A": "É elemento ativo do cartucho e, por participar diretamente da combustão, define a energia cinética do projétil.",
+      "B": "Sua parte anterior, denominada culote, recebe a estampa da base com calibre e marca do fabricante.",
+      "C": "Constitui o elemento inerte do cartucho, pois não participa da combustão nem é expelido pelo cano da arma.",
+      "D": "É expelido pelo cano da arma juntamente com o projétil em cartuchos de fogo central de pistola moderna."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O capítulo afirma expressamente que o estojo constitui o elemento inerte do cartucho, pois não participa do processo de combustão nem é expelido pelo cano (p. 15). A alternativa A inverte a função (o elemento ativo é a carga de projeção); B confunde boca com culote (a estampa da base fica no culote, parte posterior, não na anterior); D contradiz o conceito de elemento inerte.",
+    "referencia": "PDF, p. 15",
+    "nivel": "medio"
+  },
+  {
+    "id": 1220,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame de confronto balístico, o perito identificou um estojo com forte estrangulamento na porção frontal, próximo à boca, recolhido em local de tiroteio. Considerando as classificações de formato apresentadas no capítulo, esse estojo é típico de:",
+    "alternativas": {
+      "A": "Munição de revólver, classificada como estojo rim por possuir aro saliente.",
+      "B": "Munição de pistola, classificada como estojo rimless por não possuir borda saliente.",
+      "C": "Munição de fogo circular, na qual a escorva fica alojada na borda oca do próprio estojo.",
+      "D": "Munição para armamentos de alta potência e pequeno calibre, sendo denominado estojo garrafa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Estojos com estrangulamento na parte frontal são denominados garrafas e utilizados em armamentos de alta potência e pequeno calibre, como rifles 5,56 OTAN e 7,62 OTAN (p. 15). Rim, semi-rim e rimless referem-se ao culote (posterior), não à forma frontal; fogo circular descreve sistema de ignição, não forma do estojo.",
+    "referencia": "PDF, p. 15",
+    "nivel": "medio"
+  },
+  {
+    "id": 1221,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a cápsula de espoletamento empregada em cartuchos de fogo central, é correto afirmar que:",
+    "alternativas": {
+      "A": "É um pequeno recipiente metálico engastado, em geral, na base do estojo, comunicando-se com o interior por orifícios chamados eventos.",
+      "B": "É elemento diferenciado nos cartuchos de fogo circular, onde a escorva fica isolada da carga de projeção.",
+      "C": "Substitui a função da carga de projeção em cartuchos de fogo central de alta potência.",
+      "D": "Em armas modernas, prescinde da bigorna, pois a deflagração ocorre por aquecimento direto da escorva."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O capítulo descreve que a cápsula de espoletamento é um pequeno recipiente metálico, geralmente engastada na base do estojo nos cartuchos de fogo central, comunicando-se com o interior por orifícios denominados eventos (p. 15). A alternativa A inverte a regra (fogo circular NÃO possui cápsula diferenciada); C é falsa, pois a espoleta inflama a carga de projeção, não a substitui; D nega a bigorna, que é estrutura rígida necessária a todos os tipos de espoleta para fornecer superfície de impacto (p. 16).",
+    "referencia": "PDF, p. 15-16",
+    "nivel": "medio"
+  },
+  {
+    "id": 1222,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em análise pericial da mistura iniciadora (escorva) contida em espoletas, o perito verificou a presença do composto organometálico de chumbo. Sobre essa mistura iniciadora, é correto afirmar que:",
+    "alternativas": {
+      "A": "Sua composição é rigidamente padronizada por norma internacional, sendo idêntica em todos os fabricantes.",
+      "B": "Apresenta-se de forma granular sob a forma de pólvora de base simples ou base dupla, contendo nitrocelulose.",
+      "C": "Constitui o elemento ativo de projeção do cartucho, sendo responsável pela velocidade impressa ao projétil no cano.",
+      "D": "Contém, entre outros, estifinato de chumbo e caracteriza-se por elevada sensibilidade a choques mecânicos e a variações de pressão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto indica que a mistura iniciadora contém o composto organometálico estifinato de chumbo, além de nitrato de bário, trissulfeto de antimônio e alumínio em pó, sendo sua característica principal a sensibilidade a choques mecânicos e variação de pressão (p. 16). A alternativa A é falsa: a composição varia de fábrica para fábrica; C confunde escorva com carga de projeção; D descreve a pólvora (carga de projeção), não a escorva.",
+    "referencia": "PDF, p. 16",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1223,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame em cartucho intacto recolhido em residência alvo de busca, o perito identifica tratar-se de munição de fogo circular calibre .22. Sobre a estrutura desse cartucho, em comparação com os cartuchos de fogo central, é correto afirmar que:",
+    "alternativas": {
+      "A": "Possui cápsula de espoletamento tipo Berdan engastada no culote, com bigorna integrada ao próprio estojo.",
+      "B": "Apresenta cápsula de espoletamento tipo Boxer, na qual a bigorna é elemento separado e a comunicação com o propelente se dá pelos eventos.",
+      "C": "A escorva se aloja na borda oca e ressaltada do próprio estojo, em contato direto com a carga de projeção, sem cápsula de espoletamento diferenciada.",
+      "D": "Não possui carga de projeção, pois a deflagração da escorva basta para imprimir velocidade ao projétil."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o capítulo, os cartuchos de fogo circular não possuem cápsula de espoletamento como elemento diferenciado, pois a escorva se aloja na borda oca e ressaltada do próprio estojo, em contato direto com a carga de projeção (p. 15). As alternativas A e C descrevem espoletas (Berdan e Boxer) próprias de fogo central; D é falsa, pois há carga de projeção (propelente) também em fogo circular.",
+    "referencia": "PDF, p. 15",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1224,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a carga de projeção do cartucho de munição moderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "É combustível sólido granular que se inflama com grande velocidade, sem necessitar de oxigênio externo, produzindo grande volume de gases.",
+      "B": "Consiste, ainda hoje, em mistura de salitre, carvão e enxofre, denominada pólvora negra, padrão para armas modernas.",
+      "C": "É o elemento inerte do cartucho, cuja função é apenas servir de invólucro para a cápsula de espoletamento.",
+      "D": "Quando composta apenas por nitroglicerina, recebe a denominação de pólvora de base simples sem fumaça."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O capítulo define a carga de projeção como combustível sólido granular capaz de se inflamar com grande velocidade, produzindo grande quantidade de gases sem necessitar de oxigênio (p. 16). B é falsa: a pólvora negra foi abandonada nas armas modernas após o advento da pólvora sem fumaça; C confunde com o estojo (que é o elemento inerte); D inverte o conceito: base simples é só nitrocelulose, base dupla é nitrocelulose + nitroglicerina.",
+    "referencia": "PDF, p. 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 1225,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em análise química de pólvora retirada do interior do estojo de uma munição apreendida, o perito identificou a presença simultânea de nitrocelulose e nitroglicerina como constituintes principais. Sobre essa carga de projeção, é correto afirmar que se trata de:",
+    "alternativas": {
+      "A": "Pólvora negra moderna, utilizada em rifles de pequeno calibre.",
+      "B": "Mistura iniciadora típica de espoletas tipo Boxer empregadas em fogo circular.",
+      "C": "Pólvora viva exclusivamente compatível com armas longas de alta potência.",
+      "D": "Pólvora química sem fumaça, classificada como pólvora de base dupla."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pólvoras sem fumaça constituídas de nitrocelulose e nitroglicerina recebem a denominação de pólvora de base dupla (p. 16). A é incorreta: pólvora negra é salitre, carvão e enxofre; B confunde com escorva (estifinato de chumbo, nitrato de bário etc.); D inverte: pólvoras vivas são para armas curtas (queimam rapidamente), enquanto pólvoras progressivas (mais lentas) são para armas longas (p. 16).",
+    "referencia": "PDF, p. 16",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1226,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia de confronto balístico, o Perito Criminal Federal examina pólvora retirada de cartuchos de uma pistola e de um fuzil. Sobre a velocidade de queima das pólvoras químicas em função da geometria do grão e do tipo de arma, é correto afirmar que:",
+    "alternativas": {
+      "A": "Pólvoras vivas, empregadas em armas curtas, queimam mais intensa e rapidamente, pois há menor tempo no cano para impulsionar o projétil.",
+      "B": "Pólvoras progressivas, empregadas em armas curtas, queimam de forma lenta para evitar a sobrecarga do cano de pequena dimensão.",
+      "C": "A velocidade de queima depende exclusivamente da composição química, sendo a geometria dos grãos irrelevante para o desempenho balístico.",
+      "D": "Armas longas exigem pólvoras vivas, pois precisam queimar rápido para que o projétil ganhe velocidade máxima ainda no início do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O capítulo esclarece que pólvoras vivas são usadas em armas curtas (queimam intensa e rapidamente porque o cano é pequeno e o tempo para imprimir velocidade ao projétil é menor), e pólvoras progressivas em armas longas (queima mais lenta, cano maior) (p. 16). B inverte a relação (progressiva é para armas longas); C é falsa, pois o texto afirma que tanto a geometria dos grãos quanto a composição química determinam a velocidade de queima; D inverte (armas longas usam progressivas).",
+    "referencia": "PDF, p. 16",
+    "nivel": "dificil"
+  }
+]

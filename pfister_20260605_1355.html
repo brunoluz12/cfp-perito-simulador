@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Relatório — Teste das Pirâmides de Pfister</title>
+<style>
+  @media print {
+    .no-print { display: none; }
+    body { font-size: 10pt; }
+    .pyramid-card { page-break-inside: avoid; }
+    section { page-break-inside: avoid; }
+    h1, h2 { page-break-after: avoid; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #222;
+    background: white;
+    line-height: 1.45;
+  }
+  h1 { color: #1B3A6B; border-bottom: 3px solid #1B3A6B; padding-bottom: 6px; }
+  h2 { color: #1B3A6B; border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-top: 28px; }
+  h3 { color: #1B3A6B; margin: 8px 0 4px; }
+  h4 { color: #1B3A6B; margin: 12px 0 4px; font-size: 1em; }
+  .meta { color: #666; font-size: 0.9em; margin-top: -8px; }
+  .print-btn {
+    background: #1976D2; color: white; border: none; padding: 10px 20px;
+    font-size: 14px; font-weight: bold; border-radius: 4px; cursor: pointer;
+    margin: 10px 5px 20px 0;
+  }
+  .print-btn:hover { background: #1565C0; }
+  .recomendacao {
+    color: white; padding: 14px 20px; border-radius: 6px;
+    font-size: 1.4em; font-weight: bold; display: inline-block;
+    margin: 8px 0;
+  }
+  .pyramids { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin: 15px 0; }
+  .pyramid-card {
+    border: 1px solid #ccc; padding: 10px; border-radius: 6px;
+    background: #FAFAFA; text-align: center;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 15px; }
+  th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: center; }
+  th { background: #E3F2FD; color: #1B3A6B; }
+  td:first-child { text-align: left; }
+  tr.high { background: #FFEBEE; }
+  tr.low { background: #E3F2FD; }
+  tr.ok { background: #E8F5E9; }
+  .formula {
+    font-family: 'Consolas', monospace; font-size: 1.4em;
+    font-weight: bold; color: #1B3A6B; margin: 8px 0;
+  }
+  .formula-detail { font-family: 'Consolas', monospace; color: #333; }
+  .dupla {
+    background: #FFF8E1; border-left: 4px solid #F57C00;
+    padding: 8px 12px; margin: 6px 0;
+  }
+  .dupla strong { color: #5D4037; font-size: 1.05em; }
+  .pontos { padding-left: 20px; }
+  .pontos li.pos { color: #2E7D32; }
+  .pontos li.atn { color: #F57C00; }
+  .pontos li.neg { color: #C62828; }
+  .pontos-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px; margin: 10px 0;
+  }
+  .ponto-box {
+    border: 1px solid #ddd; padding: 10px; border-radius: 4px;
+  }
+  .ponto-box.pos { background: #E8F5E9; }
+  .ponto-box.atn { background: #FFF8E1; }
+  .ponto-box.neg { background: #FFEBEE; }
+  .ponto-box h3 { margin-top: 0; font-size: 1em; }
+  .ponto-box.pos h3 { color: #2E7D32; }
+  .ponto-box.atn h3 { color: #F57C00; }
+  .ponto-box.neg h3 { color: #C62828; }
+  .ponto-box ul { margin: 4px 0; padding-left: 18px; font-size: 0.9em; }
+  .cron { margin: 10px 0; }
+  .cron-items { font-family: 'Consolas', monospace; font-size: 0.85em; color: #333; }
+  .cron-items span { display: inline-block; margin-right: 12px; }
+  .cron-items .rem { color: #C62828; }
+  .estado-row pre {
+    background: #F5F5F5; padding: 8px; border-radius: 4px;
+    font-size: 0.9em; overflow-x: auto;
+  }
+  .formal-row {
+    border: 1px solid #ddd; padding: 10px; border-radius: 4px;
+    margin: 6px 0; background: #FAFAFA;
+  }
+  table.kv { width: auto; margin: 0; }
+  table.kv td { border: none; padding: 2px 12px 2px 0; text-align: left; }
+  table.kv td:first-child { color: #555; font-weight: bold; width: 180px; }
+  .warning {
+    background: #FFF3E0; border: 1px solid #F57C00; padding: 10px;
+    border-radius: 4px; margin: 15px 0; color: #5D4037; font-size: 0.9em;
+  }
+  footer { margin-top: 40px; padding-top: 15px; border-top: 1px solid #ccc;
+            color: #888; font-size: 0.85em; text-align: center; }
+</style>
+</head>
+<body>
+
+<button class="print-btn no-print" onclick="window.print()">🖨 Imprimir / Salvar como PDF</button>
+
+<h1>Teste das Pirâmides Coloridas de Pfister — Relatório Simulado</h1>
+<p class="meta">Gerado em: 05/06/2026 às 13:55 • Simulador educacional</p>
+
+<div class="warning">
+  ⚠ <strong>Aviso:</strong> Este é um relatório de SIMULADOR EDUCACIONAL.
+  Não substitui avaliação de psicólogo credenciado pelo CRP.
+  A análise gerada baseia-se nos critérios do manual de Villemor-Amaral
+  (Casa do Psicólogo / Pearson, 2005).
+</div>
+
+<section>
+  <h2>As Três Pirâmides Montadas</h2>
+  <div class="pyramids"><div class="pyramid-card"><h3>Pirâmide I</h3><svg width="230" height="230" xmlns="http://www.w3.org/2000/svg" style="background:#F5EFE0; border:1px solid #7B6E4A;"><rect x="95" y="11" width="40" height="40" fill="#1FA3B8" stroke="#555" stroke-width="0.5"/><text x="115.0" y="35.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Az2</text><rect x="74" y="53" width="40" height="40" fill="#1976D2" stroke="#555" stroke-width="0.5"/><text x="94.0" y="77.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Az3</text><rect x="116" y="53" width="40" height="40" fill="#1976D2" stroke="#555" stroke-width="0.5"/><text x="136.0" y="77.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Az3</text><rect x="53" y="95" width="40" height="40" fill="#3E2723" stroke="#555" stroke-width="0.5"/><text x="73.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Ma2</text><rect x="95" y="95" width="40" height="40" fill="#808080" stroke="#555" stroke-width="0.5"/><text x="115.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Ci</text><rect x="137" y="95" width="40" height="40" fill="#3E2723" stroke="#555" stroke-width="0.5"/><text x="157.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Ma2</text><rect x="32" y="137" width="40" height="40" fill="#4A148C" stroke="#555" stroke-width="0.5"/><text x="52.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vi2</text><rect x="74" y="137" width="40" height="40" fill="#E53935" stroke="#555" stroke-width="0.5"/><text x="94.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vm2</text><rect x="116" y="137" width="40" height="40" fill="#E53935" stroke="#555" stroke-width="0.5"/><text x="136.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vm2</text><rect x="158" y="137" width="40" height="40" fill="#4A148C" stroke="#555" stroke-width="0.5"/><text x="178.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vi2</text><rect x="11" y="179" width="40" height="40" fill="#2E7D32" stroke="#555" stroke-width="0.5"/><text x="31.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vd3</text><rect x="53" y="179" width="40" height="40" fill="#FFEB00" stroke="#555" stroke-width="0.5"/><text x="73.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Am1</text><rect x="95" y="179" width="40" height="40" fill="#C8E61E" stroke="#555" stroke-width="0.5"/><text x="115.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vd1</text><rect x="137" y="179" width="40" height="40" fill="#FFEB00" stroke="#555" stroke-width="0.5"/><text x="157.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Am1</text><rect x="179" y="179" width="40" height="40" fill="#2E7D32" stroke="#555" stroke-width="0.5"/><text x="199.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vd3</text></svg></div><div class="pyramid-card"><h3>Pirâmide II</h3><svg width="230" height="230" xmlns="http://www.w3.org/2000/svg" style="background:#F5EFE0; border:1px solid #7B6E4A;"><rect x="95" y="11" width="40" height="40" fill="#6D4C2A" stroke="#555" stroke-width="0.5"/><text x="115.0" y="35.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Ma1</text><rect x="74" y="53" width="40" height="40" fill="#F9A825" stroke="#555" stroke-width="0.5"/><text x="94.0" y="77.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Am2</text><rect x="116" y="53" width="40" height="40" fill="#F9A825" stroke="#555" stroke-width="0.5"/><text x="136.0" y="77.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Am2</text><rect x="53" y="95" width="40" height="40" fill="#0A1F5E" stroke="#555" stroke-width="0.5"/><text x="73.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Az4</text><rect x="95" y="95" width="40" height="40" fill="#1FA3B8" stroke="#555" stroke-width="0.5"/><text x="115.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Az2</text><rect x="137" y="95" width="40" height="40" fill="#0A1F5E" stroke="#555" stroke-width="0.5"/><text x="157.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Az4</text><rect x="32" y="137" width="40" height="40" fill="#B71C1C" stroke="#555" stroke-width="0.5"/><text x="52.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vm3</text><rect x="74" y="137" width="40" height="40" fill="#D7B3E0" stroke="#555" stroke-width="0.5"/><text x="94.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vi1</text><rect x="116" y="137" width="40" height="40" fill="#D7B3E0" stroke="#555" stroke-width="0.5"/><text x="136.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vi1</text><rect x="158" y="137" width="40" height="40" fill="#B71C1C" stroke="#555" stroke-width="0.5"/><text x="178.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vm3</text><rect x="11" y="179" width="40" height="40" fill="#E64A19" stroke="#555" stroke-width="0.5"/><text x="31.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">La2</text><rect x="53" y="179" width="40" height="40" fill="#7CB342" stroke="#555" stroke-width="0.5"/><text x="73.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vd2</text><rect x="95" y="179" width="40" height="40" fill="#7CB342" stroke="#555" stroke-width="0.5"/><text x="115.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vd2</text><rect x="137" y="179" width="40" height="40" fill="#7CB342" stroke="#555" stroke-width="0.5"/><text x="157.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vd2</text><rect x="179" y="179" width="40" height="40" fill="#E64A19" stroke="#555" stroke-width="0.5"/><text x="199.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">La2</text></svg></div><div class="pyramid-card"><h3>Pirâmide III</h3><svg width="230" height="230" xmlns="http://www.w3.org/2000/svg" style="background:#F5EFE0; border:1px solid #7B6E4A;"><rect x="95" y="11" width="40" height="40" fill="#2E7D32" stroke="#555" stroke-width="0.5"/><text x="115.0" y="35.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vd3</text><rect x="74" y="53" width="40" height="40" fill="#9ED9F0" stroke="#555" stroke-width="0.5"/><text x="94.0" y="77.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Az1</text><rect x="116" y="53" width="40" height="40" fill="#9ED9F0" stroke="#555" stroke-width="0.5"/><text x="136.0" y="77.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Az1</text><rect x="53" y="95" width="40" height="40" fill="#E64A19" stroke="#555" stroke-width="0.5"/><text x="73.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">La2</text><rect x="95" y="95" width="40" height="40" fill="#1976D2" stroke="#555" stroke-width="0.5"/><text x="115.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Az3</text><rect x="137" y="95" width="40" height="40" fill="#E64A19" stroke="#555" stroke-width="0.5"/><text x="157.0" y="119.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">La2</text><rect x="32" y="137" width="40" height="40" fill="#2E7D32" stroke="#555" stroke-width="0.5"/><text x="52.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vd3</text><rect x="74" y="137" width="40" height="40" fill="#FF8FA3" stroke="#555" stroke-width="0.5"/><text x="94.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vm1</text><rect x="116" y="137" width="40" height="40" fill="#FF8FA3" stroke="#555" stroke-width="0.5"/><text x="136.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Vm1</text><rect x="158" y="137" width="40" height="40" fill="#2E7D32" stroke="#555" stroke-width="0.5"/><text x="178.0" y="161.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vd3</text><rect x="11" y="179" width="40" height="40" fill="#000000" stroke="#555" stroke-width="0.5"/><text x="31.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Pr</text><rect x="53" y="179" width="40" height="40" fill="#4E1010" stroke="#555" stroke-width="0.5"/><text x="73.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vm4</text><rect x="95" y="179" width="40" height="40" fill="#FFFFFF" stroke="#555" stroke-width="0.5"/><text x="115.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#000000">Br</text><rect x="137" y="179" width="40" height="40" fill="#4E1010" stroke="#555" stroke-width="0.5"/><text x="157.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Vm4</text><rect x="179" y="179" width="40" height="40" fill="#000000" stroke="#555" stroke-width="0.5"/><text x="199.0" y="203.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">Pr</text></svg></div></div>
+</section>
+
+<section>
+  <h2>Estado Final dos Quadrículos</h2>
+  <div class="estado-row"><h4>Pirâmide I</h4><pre>1=Az2  2a=Az3  2b=Az3  3a=Ma2  3b=Ci  3c=Ma2  4a=Vi2  4b=Vm2  4c=Vm2  4d=Vi2  5a=Vd3  5b=Am1  5c=Vd1  5d=Am1  5E=Vd3</pre></div><div class="estado-row"><h4>Pirâmide II</h4><pre>1=Ma1  2a=Am2  2b=Am2  3a=Az4  3b=Az2  3c=Az4  4a=Vm3  4b=Vi1  4c=Vi1  4d=Vm3  5a=La2  5b=Vd2  5c=Vd2  5d=Vd2  5E=La2</pre></div><div class="estado-row"><h4>Pirâmide III</h4><pre>1=Vd3  2a=Az1  2b=Az1  3a=La2  3b=Az3  3c=La2  4a=Vd3  4b=Vm1  4c=Vm1  4d=Vd3  5a=Pr  5b=Vm4  5c=Br  5d=Vm4  5E=Pr</pre></div>
+</section>
+
+<section>
+  <h2>Ordem Cronológica de Colocação</h2>
+  <p style="font-size: 0.9em; color: #555;">
+    Sequência em que o usuário colocou os quadrículos (inclui substituições
+    e remoções, se houve). A ordem é considerada na análise do modo de execução.
+  </p>
+  <div class="cron"><h4>Pirâmide I</h4><div class="cron-items"><span>1. 5a=Vd3</span> <span>2. 5b=Am1</span> <span>3. 5c=Vd1</span> <span>4. 5d=Am1</span> <span>5. 5E=Vd3</span> <span>6. 4a=Vi2</span> <span>7. 4b=Vm2</span> <span>8. 4c=Vm2</span> <span>9. 4d=Vi2</span> <span>10. 3a=Ma2</span> <span>11. 3b=Ci</span> <span>12. 3c=Ma2</span> <span>13. 2a=Az3</span> <span>14. 2b=Az3</span> <span>15. 1=Az2</span></div></div><div class="cron"><h4>Pirâmide II</h4><div class="cron-items"><span>1. 5a=La2</span> <span>2. 5b=Vd2</span> <span>3. 5c=Vd2</span> <span>4. 5d=Vd2</span> <span>5. 5E=La2</span> <span>6. 4a=Vm3</span> <span>7. 4b=Vi1</span> <span>8. 4c=Vi1</span> <span>9. 4d=Vm3</span> <span>10. 3a=Az4</span> <span>11. 3b=Az2</span> <span>12. 3c=Az4</span> <span>13. 2a=Am2</span> <span>14. 2b=Am2</span> <span>15. 1=Ma1</span></div></div><div class="cron"><h4>Pirâmide III</h4><div class="cron-items"><span>1. 5a=Pr</span> <span>2. 5b=Vm4</span> <span>3. 5c=Br</span> <span>4. 5d=Vm4</span> <span>5. 5E=Pr</span> <span>6. 4a=Vd3</span> <span>7. 4b=Vm1</span> <span>8. 4c=Vm1</span> <span>9. 4d=Vd3</span> <span>10. 3a=La2</span> <span>11. 3b=Az3</span> <span>12. 3c=La2</span> <span>13. 2a=Az1</span> <span>14. 2b=Az1</span> <span>15. 1=Vd3</span></div></div>
+</section>
+
+<section>
+  <h2>Respostas do Inquérito</h2>
+  <table>
+    <tr><th style="width:40%">Pergunta</th><th>Resposta</th></tr>
+    <tr><td>Pirâmide mais bonita</td><td>Pirâmide III</td></tr><tr><td>Pirâmide menos bonita</td><td>Pirâmide II</td></tr><tr><td>Cor mais gostada</td><td>Az3 — Azul 3 (médio)</td></tr><tr><td>Cor menos gostada</td><td>Ci — Cinza</td></tr><tr><td>Cor preferida</td><td>Vd3 — Verde 3 (médio)</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>Parecer Simulado (Perfil Polícia Federal)</h2>
+  <p>
+    <span class="recomendacao" style="background:#1B5E20">RECOMENDADO</span>
+    &nbsp;&nbsp;&nbsp; Pontuação indicativa: <strong>+10</strong>
+  </p>
+  <div class="pontos-grid">
+    <div class="ponto-box pos">
+      <h3>✓ Pontos Positivos</h3>
+      <ul class="pontos"><li class="pos">Pirâmide 1: formação simétrica — nível intermediário de elaboração; aceitável.</li><li class="pos">Pirâmide 2: formação simétrica — nível intermediário de elaboração; aceitável.</li><li class="pos">Pirâmide 3: formação simétrica — nível intermediário de elaboração; aceitável.</li><li class="pos">Vermelho dentro do esperado — agressividade canalizada.</li><li class="pos">Azul dentro do esperado — bom controle emocional e capacidade de adaptação.</li><li class="pos">Verde dentro do esperado — boa capacidade de relacionamento e empatia.</li><li class="pos">Marrom presente — perseverança, tenacidade, determinação (boa qualidade para o cargo).</li><li class="pos">Execução metódica/sistemática — comportamento organizado, constante, meticuloso (positivo para PF, mas evitar rigidez excessiva).</li></ul>
+    </div>
+    <div class="ponto-box atn">
+      <h3>⚠ Pontos de Atenção</h3>
+      <p><em>(nenhum)</em></p>
+    </div>
+    <div class="ponto-box neg">
+      <h3>✗ Pontos Negativos</h3>
+      <p><em>(nenhum)</em></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Análise de Cores</h2>
+  <table>
+    <tr><th>Família</th><th>Observado</th><th>Esperado</th><th>% obs.</th><th>% esp.</th><th>Status</th></tr>
+    <tr class="ok"><td>Azul (Az)</td><td>9</td><td>8.1</td><td>20.0%</td><td>18.1%</td><td>=</td></tr><tr class="ok"><td>Vermelho (Vm)</td><td>8</td><td>6.1</td><td>17.8%</td><td>13.6%</td><td>=</td></tr><tr class="ok"><td>Verde (Vd)</td><td>9</td><td>8.9</td><td>20.0%</td><td>19.7%</td><td>=</td></tr><tr class="ok"><td>Violeta (Vi)</td><td>4</td><td>3.8</td><td>8.9%</td><td>8.5%</td><td>=</td></tr><tr class="ok"><td>Laranja (La)</td><td>4</td><td>4.9</td><td>8.9%</td><td>10.8%</td><td>=</td></tr><tr class="ok"><td>Amarelo (Am)</td><td>4</td><td>4.3</td><td>8.9%</td><td>9.5%</td><td>=</td></tr><tr class="ok"><td>Marrom (Ma)</td><td>3</td><td>1.8</td><td>6.7%</td><td>4.0%</td><td>=</td></tr><tr class="ok"><td>Preto (Pr)</td><td>2</td><td>2.0</td><td>4.4%</td><td>4.5%</td><td>=</td></tr><tr class="ok"><td>Branco (Br)</td><td>1</td><td>3.7</td><td>2.2%</td><td>8.3%</td><td>=</td></tr><tr class="ok"><td>Cinza (Ci)</td><td>1</td><td>1.3</td><td>2.2%</td><td>2.9%</td><td>=</td></tr>
+  </table>
+  <h3>Fórmula Cromática</h3>
+  <p class="formula">CA : CR : V : AUS = 3 : 4 : 3 : 0</p>
+  <p class="formula-detail">
+    • Constantes Absolutas (CA): Az, Vm, Vd<br>
+    • Constantes (CR): Vi, La, Am, Ma<br>
+    • Variabilidade (V): Pr, Br, Ci<br>
+    • Ausentes (AUS): —
+  </p>
+</section>
+
+<section>
+  <h2>Síndromes Cromáticas</h2>
+  <table>
+    <tr><th>Síndrome</th><th>Observado</th><th>Esperado</th><th>Diferença</th></tr>
+    <tr><td>Normal (Az+Vm+Vd)</td><td>26</td><td>23.1</td><td>+2.9</td></tr><tr><td>Estímulo (Vm+Am+La)</td><td>16</td><td>15.3</td><td>+0.7</td></tr><tr><td>Fria (Az+Vd+Vi)</td><td>22</td><td>20.8</td><td>+1.2</td></tr><tr><td>Incolor (Pr+Br+Ci)</td><td>4</td><td>7.0</td><td>-3.0</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>Duplas Cromáticas Significativas</h2>
+  <p><em>Nenhuma dupla cromática significativa detectada.</em></p>
+</section>
+
+<section>
+  <h2>Análise Formal</h2>
+  <p>Processo de execução (3 pirâmides): <strong>METÓDICA/SISTEMÁTICA</strong></p>
+  <div class="formal-row"><h4>Pirâmide I</h4><table class="kv"><tr><td>Aspecto formal:</td><td><strong>formação simétrica</strong></td></tr><tr><td>Modo de colocação:</td><td>ascendente, direta</td></tr><tr><td>Sinais especiais:</td><td>—</td></tr><tr><td>Substituições:</td><td>0</td></tr><tr><td>Remoções:</td><td>0</td></tr></table></div><div class="formal-row"><h4>Pirâmide II</h4><table class="kv"><tr><td>Aspecto formal:</td><td><strong>formação simétrica</strong></td></tr><tr><td>Modo de colocação:</td><td>ascendente, direta</td></tr><tr><td>Sinais especiais:</td><td>—</td></tr><tr><td>Substituições:</td><td>0</td></tr><tr><td>Remoções:</td><td>0</td></tr></table></div><div class="formal-row"><h4>Pirâmide III</h4><table class="kv"><tr><td>Aspecto formal:</td><td><strong>formação simétrica</strong></td></tr><tr><td>Modo de colocação:</td><td>ascendente, direta</td></tr><tr><td>Sinais especiais:</td><td>—</td></tr><tr><td>Substituições:</td><td>0</td></tr><tr><td>Remoções:</td><td>0</td></tr></table></div>
+</section>
+
+<footer>
+  Manual de referência: VILLEMOR-AMARAL, A. E. <em>As Pirâmides Coloridas de Pfister</em>.
+  São Paulo: Casa do Psicólogo / Pearson, 2005.<br>
+  Simulador educacional — não substitui avaliação psicológica oficial.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1241,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame de arma de fogo de alma raiada, o perito necessita determinar o calibre real do cano. Assinale a opção que conceitua corretamente o calibre real e indica o ponto adequado de aferição.",
+    "alternativas": {
+      "A": "É a designação comercial gravada no cano que indica o tipo de munição apropriada para a arma, sem correspondência métrica direta com a alma.",
+      "B": "É o diâmetro interno da alma do cano, aferido na boca, tomado entre dois cheios diametralmente opostos do sistema de raias.",
+      "C": "É o diâmetro do projétil correspondente, medido em centésimos de polegada e conferido a partir da inscrição existente no culote do cartucho.",
+      "D": "É o maior diâmetro da alma, obtido entre duas raias diametralmente opostas e expresso indistintamente em frações de polegada ou em milímetros.",
+      "E": "É o diâmetro médio da alma, resultante da média entre a profundidade das raias e a altura dos cheios medida ao longo de todo o comprimento do cano."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o item 2.4.1, o calibre real é uma medida exata e aferível, tomada na boca do cano, correspondente ao diâmetro interno da alma, determinada entre dois cheios diametralmente opostos do sistema de raias (p. 29) — alternativa B. A descreve calibre nominal (designação comercial); C confunde diâmetro do projétil com diâmetro da alma e atribui a aferição ao culote; D inverte a referência (a medida se dá entre cheios, não entre raias — entre raias obtém-se a maior dimensão, não o calibre real); E inventa um cálculo de média não previsto no texto.",
+    "referencia": "PDF, p. 29",
+    "nivel": "facil"
+  },
+  {
+    "id": 1242,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito criminal federal examina um revólver apreendido cujo cano apresenta sistema de raiamento composto por cinco raias e precisa aferir o calibre real da arma. Acerca do procedimento de medição tecnicamente correto nesse caso específico, assinale a opção correta.",
+    "alternativas": {
+      "A": "A medida deve ser tomada entre dois cheios diametralmente opostos, condição sempre verificável em qualquer cano raiado, independentemente da paridade do número de raias.",
+      "B": "Por se tratar de número ímpar de raias, a medida do calibre real deve ser tomada entre dois raiados diametralmente opostos, já que inexistem cheios em posição oposta entre si.",
+      "C": "Como em todo cano de número ímpar de raias um cheio fica oposto a uma raia, a medida deve ser tomada entre a superfície de um cheio e a delimitação entre cheio e raia na posição diametralmente oposta.",
+      "D": "Em canos de número ímpar de raias, o calibre real é obtido pela média aritmética entre o maior e o menor diâmetro mensurados em três posições distintas da boca do cano.",
+      "E": "Em canos de número ímpar de raias, despreza-se o calibre real e adota-se diretamente o calibre nominal gravado, por ser impossível qualquer aferição métrica confiável da alma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 2.4.1, quando o número de raias é par dois cheios ficam opostos; quando é ímpar, um cheio fica oposto a uma raia, devendo a medida ser tomada entre a superfície de um cheio e a delimitação entre um cheio e uma raia na posição oposta (p. 30) — alternativa C. A só vale para número par de raias; B inverte a referência (toma-se o cheio, não a raia); D inventa um procedimento de média não previsto; E nega a aferibilidade do calibre real, contrariando o conceito do item 2.4.1.",
+    "referencia": "PDF, p. 29-30",
+    "nivel": "medio"
+  },
+  {
+    "id": 1243,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da distinção entre calibre real e calibre nominal em armas de fogo de alma raiada, assinale a opção correta.",
+    "alternativas": {
+      "A": "O calibre nominal é sempre numericamente igual ao calibre real, distinguindo-se dele apenas por ser expresso em unidade imperial em vez de métrica.",
+      "B": "O calibre nominal é a medida aferível com paquímetro na boca do cano, ao passo que o calibre real é a designação comercial gravada no culote do cartucho.",
+      "C": "Calibre real e calibre nominal são expressões sinônimas, empregando-se a primeira para armas curtas e a segunda para armas longas.",
+      "D": "O calibre nominal designa um tipo particular de munição e de arma que a utiliza, podendo haver diversos calibres nominais associados a um mesmo calibre real.",
+      "E": "O calibre real corresponde à designação comercial da munição, enquanto o calibre nominal é o valor métrico exato obtido por aferição direta da alma do cano."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o item 2.4.2, o calibre nominal é sempre designativo de um tipo particular de munição e do tipo de arma que a utiliza, podendo haver diversos calibres nominais para um único calibre real (p. 30) — alternativa D. A é falsa, pois calibre nominal e real podem ter valores distintos; B e E invertem as definições (o aferível é o real; o designativo/comercial é o nominal); C confunde os conceitos com base em porte da arma.",
+    "referencia": "PDF, p. 29-31",
+    "nivel": "medio"
+  },
+  {
+    "id": 1244,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame pericial, são analisados quatro projéteis recuperados em local de crime, correspondentes aos cartuchos .380 Auto, 9x19mm, .38 SPL e .357 Magnum. O perito constata que todos apresentam diâmetro de projétil próximo a 9 mm. Acerca dessa observação, assinale a opção correta.",
+    "alternativas": {
+      "A": "Trata-se de erro de medição, pois cartuchos de calibres nominais distintos jamais apresentam calibre real próximo entre si, dada a função identificadora do calibre nominal.",
+      "B": "Significa que essas munições são intercambiáveis em qualquer arma, bastando, para o disparo seguro, que o calibre real do cano coincida com o diâmetro do projétil.",
+      "C": "Confirma que calibres nominais diferentes podem possuir calibres reais similares, o que reforça a necessidade de identificar com precisão o calibre nominal gravado no culote ao examinar a munição.",
+      "D": "Indica que os quatro cartuchos pertencem à categoria de uso permitido, pois compartilham o mesmo grupo de calibre real próximo de 9 mm conforme a legislação vigente.",
+      "E": "Demonstra que o calibre nominal desses cartuchos é determinado diretamente pelo diâmetro do projétil, razão pela qual designações distintas implicam necessariamente calibres reais distintos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 2.4.2 e a Figura 30, projéteis de calibres nominais diferentes (.380 Auto, 9x19mm, .38 SPL e .357 Magnum) apresentam calibres reais similares, próximos de 9 mm (p. 30-31) — alternativa C. A nega expressamente o que o capítulo afirma; B é falsa, pois o emprego de cartuchos nominais diferentes pode causar danos à arma e ao atirador (p. 31); D confunde calibre real com classificação legal, que decorre da energia de disparo e das portarias conjuntas, não do diâmetro; E contradiz o exemplo, no qual designações distintas convivem com calibres reais próximos.",
+    "referencia": "PDF, p. 30-31",
+    "nivel": "medio"
+  },
+  {
+    "id": 1245,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em diligência, é apreendido revólver originalmente fabricado em calibre .38 que foi adaptado pelo proprietário, mediante aumento do comprimento da câmara do tambor, para disparar cartuchos calibre .357. Acerca dessa adaptação, assinale a opção correta.",
+    "alternativas": {
+      "A": "É procedimento autorizado pela legislação brasileira para fins esportivos, desde que o calibre real do projétil coincida com o calibre real medido na boca do cano da arma adaptada.",
+      "B": "Não compromete a segurança do disparo, pois a equivalência aproximada entre os calibres reais dos dois cartuchos assegura ajuste mecânico adequado ao raiamento original.",
+      "C": "É tecnicamente recomendável sempre que os calibres nominais possuam calibres reais próximos, por ampliar a versatilidade da arma sem afetar a integridade estrutural do tambor original.",
+      "D": "É desaconselhada, pois o tambor de um revólver .38 não possui resistência para suportar as pressões elevadas do cartucho .357, podendo causar explosão do tambor ou da câmara e ferimentos graves.",
+      "E": "É inócua sob o aspecto da segurança, já que a proximidade dos calibres reais impede qualquer elevação relevante de pressão durante a queima da carga propelente do .357."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o item 2.4.2, é desaconselhado alterar as características originais da arma para calçar cartuchos de calibres nominais diferentes daqueles para os quais foi concebida; o exemplo do .38 adaptado para .357 demonstra que o tambor não possui resistência para as pressões elevadas, podendo levar a acidentes graves (p. 31) — alternativa D. A invoca autorização legal inexistente; B, C e E contrariam o alerta expresso do capítulo, pois a proximidade dos calibres reais não neutraliza a elevação de pressão nem a fragilidade estrutural do tambor.",
+    "referencia": "PDF, p. 31",
+    "nivel": "medio"
+  },
+  {
+    "id": 1246,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da classificação legal dos calibres nominais em uso permitido ou restrito no ordenamento jurídico brasileiro, assinale a opção correta.",
+    "alternativas": {
+      "A": "O critério legal é exclusivamente o diâmetro do projétil em milímetros, classificando-se automaticamente como de uso restrito todos os calibres acima de 9 mm.",
+      "B": "A classificação como uso permitido ou restrito decorre do critério da energia de disparo, na forma do Decreto nº 11.615/2023, sendo os calibres nominais correspondentes listados em portarias conjuntas do Exército e da Polícia Federal.",
+      "C": "Compete às portarias conjuntas do Exército e da Polícia Federal apenas definir os calibres obsoletos e proibidos, ficando o uso permitido e o restrito disciplinados diretamente pelo decreto regulamentador.",
+      "D": "A definição entre uso permitido e restrito é prerrogativa exclusiva da Polícia Federal, mediante portaria autônoma, considerando o calibre real medido na boca do cano de cada modelo de arma.",
+      "E": "O critério legal é o calibre real aferido na alma do cano, cabendo às portarias conjuntas converter esse valor métrico na respectiva categoria de uso permitido ou restrito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o item 2.4.3, a legislação nacional estabeleceu a energia de disparo como critério de classificação em uso permitido ou restrito (Decreto nº 11.615/2023), e portarias conjuntas do Exército e da Polícia Federal listaram os calibres nominais correspondentes (p. 32) — alternativa B. A inventa critério baseado em milímetros; C restringe indevidamente o escopo das portarias conjuntas; D atribui prerrogativa exclusiva à PF, quando é conjunta com o Exército; E troca o critério legal (energia de disparo) pelo calibre real.",
+    "referencia": "PDF, p. 32",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1247,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito criminal federal, ao examinar munição apreendida cujo culote apresenta gravação distinta daquela mais comumente utilizada para o mesmo cartucho, precisa elaborar Laudo classificando a munição quanto ao uso permitido ou restrito. Considerando as orientações do capítulo, assinale a opção correta.",
+    "alternativas": {
+      "A": "Diante de divergência entre a designação gravada e a tabela normativa, o perito deve adotar como referência o calibre real medido em projétil similar e classificar a munição pela faixa de diâmetro correspondente.",
+      "B": "O perito deve consignar apenas o calibre nominal gravado no culote, sendo dispensável qualquer correlação com os calibres listados nas portarias conjuntas, pois a classificação legal independe da designação do fabricante.",
+      "C": "Como a maioria dos calibres nominais possui mais de uma designação, o perito deve consignar em Laudo se o calibre nominal da munição em análise corresponde a determinado calibre constante das tabelas das portarias conjuntas.",
+      "D": "Cabe ao perito sugerir, no Laudo, a alteração da classificação legal da munição quando o calibre nominal gravado não corresponder a nenhuma designação prevista nas portarias conjuntas vigentes.",
+      "E": "Havendo mais de uma designação possível, o perito deve registrar todas as designações conhecidas e abster-se de correlacioná-las às portarias conjuntas, transferindo a classificação à autoridade requisitante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 2.4.3, ponto de atenção para o perito criminal é que a maioria dos calibres nominais possui mais de uma designação, devendo consignar em Laudo se o calibre nominal da arma ou munição em análise é o mesmo que determinado calibre constante das tabelas das portarias conjuntas (p. 32) — alternativa C. A substitui indevidamente a análise da designação por medição do calibre real; B dispensa a correlação que o texto exige; D atribui ao perito função normativa que não lhe cabe; E afasta justamente a correlação às portarias que o capítulo determina ao perito.",
+    "referencia": "PDF, p. 32",
+    "nivel": "dificil"
+  }
+]

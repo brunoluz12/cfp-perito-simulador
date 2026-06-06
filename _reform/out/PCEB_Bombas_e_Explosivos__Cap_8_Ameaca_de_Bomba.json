@@ -1,0 +1,416 @@
+[
+  {
+    "id": 1153,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do cenário das ameaças de bomba no Brasil, da natureza dos dispositivos explosivos improvisados (DEI) e do papel atribuído à Polícia Federal nesse contexto, assinale a opção correta.",
+    "alternativas": {
+      "A": "O terrorismo político somente encontra terreno fértil em regiões que já registraram, em passado recente, atentados consumados em série, o que afasta o risco em áreas sem histórico prévio.",
+      "B": "Compete à Polícia Federal prestar segurança a chefes de Estado estrangeiros em visita oficial ao País, atribuição que decorre do reconhecimento de que o terrorismo político não tem fronteiras nem terreno fértil ou estéril.",
+      "C": "Ameaças de bomba dirigidas a instituições privadas, tais como depósitos, bibliotecas e escritórios, são integralmente afastadas da esfera de atuação da Polícia Federal em qualquer hipótese.",
+      "D": "Os dispositivos explosivos improvisados, justamente por serem em regra rústicos e de baixa sofisticação, apresentam padrão único e previsível de forma e tamanho, o que facilita sua identificação imediata.",
+      "E": "Toda bomba é necessariamente construída para explodir de imediato, razão pela qual não se cogita, na doutrina, da existência de artefatos incendiários ou de cartas-bomba de acionamento postergado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: cabe à PF prestar segurança a chefes de Estado em visita oficial, pois o terrorismo político não tem fronteiras nem terreno fértil ou estéril (p. 51). A está errada porque o texto afirma exatamente que o terrorismo não tem terreno fértil ou estéril, não dependendo de histórico. C está errada porque depósitos, bibliotecas e escritórios privados integram o cenário de risco. D está errada porque os DEI variam de rústicos a sofisticados e assumem várias formas e tamanhos. E está errada porque nem toda bomba é feita para explodir: há incendiárias e postais (p. 51).",
+    "referencia": "PDF, p. 51",
+    "nivel": "facil"
+  },
+  {
+    "id": 1154,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Marina, telefonista de uma empresa privada, recebe ligação anônima informando a presença de um artefato explosivo no prédio. Considerando o tratamento adequado da informação previsto no plano de segurança, assinale a opção que indica a conduta correta a ser adotada por ela.",
+    "alternativas": {
+      "A": "Encerrar a ligação com a maior brevidade possível, a fim de reduzir a exposição ao agressor, e, em seguida, acionar imediatamente o alarme de pânico geral em todos os pavimentos.",
+      "B": "Transferir de imediato a chamada ao setor jurídico da empresa, único legitimado a assumir o diálogo com o autor da ameaça e a deliberar sobre eventual evacuação do prédio.",
+      "C": "Tentar negociar diretamente com o autor da ligação a desativação do artefato em troca do repasse de informações sigilosas e estratégicas da empresa, ganhando tempo até a chegada da polícia.",
+      "D": "Manter a calma, anotar tudo, prolongar a conversa e atentar para ruídos de fundo, voz do interlocutor e dados sobre o artefato.",
+      "E": "Interromper a chamada e telefonar pessoalmente a parentes do suposto autor, buscando confirmar a identidade dele antes de comunicar qualquer fato à segurança patrimonial."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: o funcionário deve manter a calma, anotar tudo (gravando se possível), prolongar a conversa e atentar a ruídos de fundo, voz e dados sobre o artefato (p. 52). A está errada porque o objetivo é prolongar, e não encerrar, a chamada. B e C não constam do protocolo do plano de segurança. E inventa procedimento não previsto e contraria a diretriz de obter o máximo de informações durante a própria ligação (p. 52).",
+    "referencia": "PDF, p. 52",
+    "nivel": "facil"
+  },
+  {
+    "id": 1155,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do tratamento das ameaças escritas e da hipótese de recebimento de nova chamada dirigida a um mesmo local, assinale a opção correta.",
+    "alternativas": {
+      "A": "A preservação do documento escrito torna-se dispensável sempre que houver gravação telefônica realizada em paralelo, pois a mídia digital substitui integralmente o exame do suporte físico original.",
+      "B": "A preservação do documento escrito é essencial para a realização de grafotecnia e para a busca de impressões papiloscópicas, e nova chamada para o mesmo local exige atenção redobrada.",
+      "C": "A repetição de chamadas dirigidas a um mesmo local indica, habitualmente, tratar-se de mero trote, de modo que a segunda ligação pode ser descartada sem qualquer registro formal adicional.",
+      "D": "Nas ameaças escritas, o documento deve ser destruído logo após a anotação dos dados nele contidos, como medida destinada a evitar a propagação de pânico entre os funcionários da instituição.",
+      "E": "A nova chamada para o mesmo local deve ser tratada com menor rigor, pois a ausência de explosão após a primeira ameaça confirma a inexistência de risco efetivo às pessoas e às instalações."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: preservar o documento é fundamental para grafotecnia e papiloscopia, e nova chamada para o mesmo local exige atenção redobrada, pois a primeira pode ter servido para avaliar a segurança (p. 52). A está errada porque o suporte físico permite exames próprios que a gravação não substitui. C, D e E contrariam o protocolo descrito, que determina registrar e redobrar a atenção, não descartar nem destruir (p. 52).",
+    "referencia": "PDF, p. 52",
+    "nivel": "facil"
+  },
+  {
+    "id": 1156,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos elementos que devem integrar o plano de segurança contra ameaças de bomba, assinale a opção correta.",
+    "alternativas": {
+      "A": "O plano de comunicação deve ser amplamente difundido a todos os ocupantes do prédio, e não restrito aos integrantes do plano de segurança, a fim de garantir transparência durante a ocorrência.",
+      "B": "A cadeia de comando torna-se dispensável quando a empresa já possui setor próprio de segurança patrimonial, o qual passa a concentrar, com exclusividade, todas as decisões operacionais relativas à ameaça.",
+      "C": "As rotas de evacuação devem permanecer fixas e amplamente divulgadas, de modo a constituir rotina estável e previsível que facilite o deslocamento ordenado de todos os ocupantes em caso de emergência.",
+      "D": "Os exercícios de vistoria e de evacuação somente devem ser realizados após a ocorrência de uma ameaça real, pois simulações prévias tenderiam a gerar pânico desnecessário entre os funcionários.",
+      "E": "A Assessoria de Risco é grupo especializado, formado por pessoas com visões distintas, que dividem a responsabilidade de avaliar o risco e de classificar a ameaça."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E: a Assessoria de Risco é formada por pessoas com visões distintas, que dividem a responsabilidade de avaliar o risco e classificar a ameaça (p. 55). A está errada porque o plano de comunicação deve ser restrito aos integrantes do plano, sendo vital para evitar pânico. B está errada porque a cadeia de comando é ponto fundamental do plano. C está errada porque devem-se prever rodízios das rotas, evitando rotina previsível. D está errada porque os exercícios devem ser regularmente treinados e simulados (p. 55).",
+    "referencia": "PDF, p. 55",
+    "nivel": "medio"
+  },
+  {
+    "id": 1157,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em reunião da Assessoria de Risco de um órgão público alvo de denúncia anônima, a avaliação constata ausência de Identificação Positiva do Alvo (IPA), ausência de fato gerador identificável e nenhum precedente análogo. Conforme a nomenclatura internacional de cores adotada na doutrina, a ameaça deve ser classificada como:",
+    "alternativas": {
+      "A": "âmbar, hipótese em que se procede a vistoria e, se necessário, à evacuação parcial, com vigilância crescente sobre o local de risco.",
+      "B": "vermelha, por constituir ameaça real e específica que exige evacuação imediata total ou parcial, ainda que sem tempo hábil para vistoria prévia das instalações.",
+      "C": "verde, devendo ser registrada e desconsiderada.",
+      "D": "azul, classificação intermediária que indica reforço de vigilância no local de risco sem necessidade de vistoria ou de qualquer evacuação dos ocupantes.",
+      "E": "âmbar, uma vez que a simples existência de denúncia anônima, ainda que destituída de IPA e de fato gerador, é suficiente para elevar a ameaça a nível de credibilidade duvidosa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: sem IPA, sem fato gerador e sem precedentes, a ameaça é verde, devendo ser registrada e desconsiderada (Tabela 4, p. 56). A e E estão erradas porque a âmbar pressupõe fato gerador e credibilidade duvidosa, ausentes no caso. B está errada porque a vermelha exige ameaça específica e motivo real. D está errada porque a cor azul não existe na nomenclatura internacional adotada (p. 56).",
+    "referencia": "PDF, p. 55-56",
+    "nivel": "medio"
+  },
+  {
+    "id": 1158,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma empresa recebe telefonema anônimo que cita o nome completo de funcionário do setor financeiro, seu cargo e uma atividade interna específica e não divulgada publicamente, afirmando que haverá explosão. Considerando o conceito de PTI/IPA, assinale a opção correta.",
+    "alternativas": {
+      "A": "A informação caracteriza Identificação Positiva do Alvo (IPA), reforçando a credibilidade da ameaça e favorecendo sua classificação como vermelha.",
+      "B": "A presença de IPA permite enquadrar a ameaça automaticamente como verde, pois a menção a dados internos revela autoria conhecida, rastreável e, portanto, de baixa periculosidade efetiva.",
+      "C": "A ausência de qualquer exigência de natureza financeira no telefonema afasta, por si só, a configuração de IPA, ainda que existam dados específicos e não públicos sobre o alvo da ameaça.",
+      "D": "O conceito de IPA depende exclusivamente da menção expressa a explosivo de origem militar, não bastando, para sua caracterização, dados precisos sobre o funcionário, seu cargo ou sua atividade.",
+      "E": "A IPA apenas se configura quando a informação não pública é apresentada por escrito, de modo que dados singulares transmitidos por via telefônica não são aptos a elevar a credibilidade da ameaça."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o PTI/IPA é a informação sobre o alvo (nome, cargo, setor, atividade típica ou qualquer dado não público), que indica conhecimento singular do autor e reforça a credibilidade, favorecendo a classificação vermelha (p. 56). B, C, D e E distorcem o conceito: a IPA não torna a ameaça verde, não depende de exigência financeira, de explosivo militar nem de forma escrita (p. 56).",
+    "referencia": "PDF, p. 56",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1159,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da classificação âmbar de uma ameaça de bomba e da ação correspondente prevista na doutrina, assinale a opção correta.",
+    "alternativas": {
+      "A": "Caracteriza ameaça real e específica, em que se conhece o motivo, autorizando a evacuação imediata total dos ocupantes, sem necessidade de qualquer vistoria prévia das instalações.",
+      "B": "Aplica-se exclusivamente às ameaças veiculadas por escrito, sendo as ameaças transmitidas por telefone sempre classificadas como verdes em razão de sua menor credibilidade intrínseca.",
+      "C": "Exige IPA e fato gerador concomitantes, configurando o grau máximo de risco da escala de cores e demandando a atuação imediata do esquadrão antibombas, dispensada a participação dos ocupantes.",
+      "D": "É a ameaça que deve ser apenas registrada e desconsiderada, sem qualquer providência operacional adicional, dada a ausência simultânea de IPA, de fato gerador e de precedentes.",
+      "E": "Não há IPA, mas existe fato gerador e a credibilidade é duvidosa; a ação envolve vistoria e, se necessário, evacuação parcial ou total, com vigilância crescente."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E, conforme a Tabela 4 (p. 56): a âmbar não tem IPA, tem fato gerador e credibilidade duvidosa, com vistoria e eventual evacuação parcial ou total e vigilância crescente. A e C descrevem a vermelha. D descreve a verde. B está errada porque a classificação não distingue entre ameaça escrita e telefônica para fixar a cor (p. 56).",
+    "referencia": "PDF, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 1160,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina apresenta três tipos de vistoria, com diferentes índices de eficácia. A respeito desses tipos e de suas características, assinale a opção correta.",
+    "alternativas": {
+      "A": "A vistoria de rotina, também chamada de fiscalização, atinge eficácia superior a 90%, justamente por ser conduzida por equipe que se mantém em estado de alerta permanente nas áreas sob sua responsabilidade.",
+      "B": "A vistoria por equipe treinada dispensa o acompanhamento da segurança local ou de funcionário que conheça o ambiente, pois o preparo técnico dos integrantes supre o desconhecimento do local.",
+      "C": "A vistoria de rotina é a mais eficaz das três modalidades porque os fiscais, conhecendo bem suas áreas, inspecionam inclusive os locais sujos ou desagradáveis habitualmente negligenciados pelos demais.",
+      "D": "A vistoria por equipe treinada atinge cerca de 50% a 65% de eficácia, percentual reduzido que se explica pela falta de familiaridade dos integrantes com a disposição física do local vistoriado.",
+      "E": "A vistoria pelos próprios ocupantes alcança de 80% a 90% de eficácia, sendo recomendada pela doutrina na maioria dos casos."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E: a vistoria pelos ocupantes alcança 80% a 90% de eficácia e é recomendada pela doutrina na maioria dos casos (p. 57). A e C estão erradas porque a vistoria de rotina atinge apenas 50% a 65% e não se realiza em estado de alerta, costumando negligenciar locais sujos. B está errada porque a equipe treinada deve ser acompanhada pela segurança local ou por funcionário do ambiente. D está errada porque a equipe treinada atinge acima de 90% (p. 57).",
+    "referencia": "PDF, p. 57",
+    "nivel": "medio"
+  },
+  {
+    "id": 1161,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o planejamento da vistoria de um prédio de escritórios alvo de ameaça, o perito coordenador define a divisão de tarefas entre as equipes. Quanto à composição e à dinâmica dessas equipes, assinale a opção correta.",
+    "alternativas": {
+      "A": "As responsabilidades devem ser divididas entre, pelo menos, dois funcionários por setor, prevendo-se intervalos para descanso e revezamento.",
+      "B": "As equipes podem operar de forma contínua e ininterrupta, sem qualquer revezamento, tendo em vista o curto tempo de execução de uma vistoria completa e o baixo desgaste físico envolvido na tarefa.",
+      "C": "Cada setor pode ser vistoriado por um único funcionário, desde que ele conheça bem o local, o que assegura rapidez e elimina a duplicidade de inspeções entre integrantes de uma mesma equipe.",
+      "D": "A vistoria deve ser realizada exclusivamente por agentes do esquadrão antibombas, sem qualquer interferência dos ocupantes, ainda que estes detenham maior familiaridade com a rotina do ambiente.",
+      "E": "A divisão das tarefas dispensa intervalos de descanso, pois a fadiga e o estresse decorrentes do procedimento, segundo a doutrina, não exercem influência relevante sobre a eficácia da busca."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: como a vistoria completa leva tempo, as responsabilidades devem ser divididas entre, pelo menos, dois funcionários por setor, com intervalos de descanso e revezamento para evitar fadiga e perda de eficácia (p. 56-57). B, C e E contrariam essa regra, pois a fadiga compromete a eficácia. D está errada porque a doutrina prioriza os ocupantes na maioria dos casos (p. 57).",
+    "referencia": "PDF, p. 56-57",
+    "nivel": "medio"
+  },
+  {
+    "id": 1162,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito dos métodos de início da vistoria e dos procedimentos básicos de busca, assinale a opção correta.",
+    "alternativas": {
+      "A": "O início da vistoria pode dar-se por sistema de som codificado, por telefonemas em cascata ou por radiocomunicação, e a busca deve ser realizada de fora para dentro e de baixo para cima.",
+      "B": "As áreas já vistoriadas não precisam ser marcadas nem comunicadas a um centro de controle, bastando que cada equipe mantenha o registro interno apenas das próprias rotas de busca percorridas.",
+      "C": "A busca deve ser realizada sempre de dentro para fora e de cima para baixo, iniciando-se obrigatoriamente pelo andar técnico do prédio e progredindo em direção aos pavimentos de acesso público.",
+      "D": "O comunicado de início deve ser feito por sistema de som em linguagem clara e explícita, anunciando o risco de explosão a todos os presentes, de modo a acelerar a evacuação imediata das instalações.",
+      "E": "Os telefonemas em cascata constituem método vedado pela doutrina, pois a multiplicação descontrolada de avisos entre os ocupantes compromete o sigilo e dissemina pânico de forma incontrolável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o início pode ser feito por som codificado (para evitar pânico), telefonemas em cascata ou radiocomunicação, e a busca é de fora para dentro e de baixo para cima (p. 57-58). B contraria a regra de marcação e de comunicação ao Centro de Controle. C inverte o sentido da busca. D está errada porque o comunicado deve ser codificado, não explícito. E está errada porque o telefonema em cascata é método expressamente previsto (p. 57-58).",
+    "referencia": "PDF, p. 57-58",
+    "nivel": "medio"
+  },
+  {
+    "id": 1163,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a vistoria preventiva de um prédio de escritórios, o perito orienta a equipe quanto aos ensaios e ao olhar de busca. Quanto à definição do que deve ser observado, assinale a opção correta.",
+    "alternativas": {
+      "A": "Devem ser identificados objetos que estejam claramente etiquetados com identificação funcional da empresa, priorizando-se a inspeção daqueles pertencentes ao setor administrativo do andar vistoriado.",
+      "B": "Devem ser identificados objetos que não deveriam estar no local, que estejam fora do lugar habitual ou que sejam similares ao descrito na ameaça.",
+      "C": "Devem ser identificados apenas objetos de pequeno porte, descartando-se a observação de objetos volumosos, dada a sua incompatibilidade com as técnicas usuais de ocultação de artefatos.",
+      "D": "Devem ser identificados somente os objetos pertencentes a funcionários do andar, descartando-se de plano os objetos sem dono aparente, a fim de evitar a proliferação de falsos positivos durante a busca.",
+      "E": "Devem ser identificados exclusivamente objetos posicionados acima da linha da cintura, pois a doutrina considera improvável a ocultação de artefatos em pontos próximos ao piso do ambiente vistoriado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B, conforme p. 58: observar objetos que não deveriam estar no local, que estejam fora do lugar habitual ou que sejam similares ao descrito na ameaça, sem deixar área sem checagem. A, C, D e E invertem ou desconfiguram o critério, restringindo indevidamente a observação por porte, posição, etiqueta ou propriedade (p. 58).",
+    "referencia": "PDF, p. 58",
+    "nivel": "facil"
+  },
+  {
+    "id": 1164,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das vistorias de áreas externas e de áreas de acesso público das edificações, assinale a opção correta.",
+    "alternativas": {
+      "A": "Na vistoria da área externa, devem ser inspecionados apenas os veículos estacionados nas imediações, dispensando-se floreiras, cestas de lixo e demais obstáculos situados ao redor da edificação.",
+      "B": "A área externa é considerada pouco vulnerável, uma vez que o criminoso, em regra, não se aproxima do perímetro da edificação antes de consumar o ataque ao alvo previamente escolhido.",
+      "C": "Os banheiros são, estatisticamente, os locais preferidos para a ocultação de artefatos explosivos nas áreas de acesso público.",
+      "D": "A vistoria das áreas de acesso público torna-se dispensável quando a edificação dispõe de controle de acesso rigoroso e portaria em funcionamento durante as vinte e quatro horas do dia.",
+      "E": "A vistoria externa deve restringir-se a um raio de até cinco metros das edificações, pois objetos situados além desse limite não oferecem risco relevante de propagação das ondas de choque."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: os banheiros são, estatisticamente, os locais preferidos para ocultação de artefatos (p. 58). A está errada porque floreiras, cestas de lixo, veículos e qualquer obstáculo entre 15 m e 20 m devem ser vistoriados. B está errada porque a área externa é especialmente importante e vulnerável. D não tem previsão na doutrina. E está errada porque o alcance previsto é de 15 m a 20 m (p. 58).",
+    "referencia": "PDF, p. 58",
+    "nivel": "medio"
+  },
+  {
+    "id": 1165,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na vistoria detalhada de uma sala em prédio de escritórios sob ameaça, dois peritos iniciam o exame de um gabinete. A respeito da técnica recomendada pela doutrina, assinale a opção correta.",
+    "alternativas": {
+      "A": "Os técnicos devem dispensar a breve parada inicial na porta de acesso e iniciar de imediato a varredura física, a fim de acelerar a cobertura de todos os pontos do ambiente vistoriado.",
+      "B": "A sala deve ser percorrida pelos dois técnicos no mesmo sentido e simultaneamente, providência que otimiza a comunicação verbal entre eles e reduz o tempo total dedicado ao exame do gabinete.",
+      "C": "A divisão visual do ambiente é feita em duas seções de altura, partindo-se sempre do teto em direção ao chão, de modo a privilegiar a inspeção inicial de lustres, luminárias e demais pontos elevados.",
+      "D": "O ambiente é dividido visualmente em três seções de altura, e os técnicos percorrem o local em sentidos horário e anti-horário.",
+      "E": "O ambiente é dividido em quatro quadrantes horizontais, e cada técnico assume integralmente dois quadrantes contíguos, sem que haja sobreposição de áreas entre os dois integrantes da dupla."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: a divisão visual é feita em três seções de altura (chão à cintura, cintura à cabeça e cabeça ao teto), com os técnicos percorrendo o local em sentidos horário e anti-horário (p. 59). A está errada porque deve haver breve parada inicial na porta para avaliação audiovisual. B contraria o sentido oposto recomendado. C e E desfiguram a divisão em três seções de altura (p. 59).",
+    "referencia": "PDF, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "id": 1166,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma vistoria, um funcionário localiza um objeto suspeito sob uma mesa. Quanto às recomendações gerais de segurança aplicáveis à situação, assinale a opção correta.",
+    "alternativas": {
+      "A": "Os fios visíveis presos ao objeto devem ser cortados de imediato pelo funcionário, como medida destinada a interromper o circuito de acionamento e neutralizar provisoriamente o artefato suspeito.",
+      "B": "O objeto, quando tiver formato de bomba-cano, deve ser desroscado lateralmente para inspeção interna preliminar, antes de se acionar o esquadrão antibombas da polícia, evitando deslocamentos desnecessários.",
+      "C": "O objeto deve ser cuidadosamente removido para uma área confinada e estanque, a fim de conter a dispersão de eventuais fragmentos e direcionar as ondas de choque de uma possível explosão.",
+      "D": "A regra principal é não tocar o objeto, devendo-se encaminhar as pessoas à área segura e informar imediatamente o coordenador de segurança.",
+      "E": "O funcionário deve manusear o objeto com luvas isolantes apropriadas e transportá-lo até a portaria do prédio, local em que aguardará, com segurança, a chegada da equipe policial especializada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: a regra principal é não tocar o objeto, encaminhar as pessoas à área segura e informar imediatamente o coordenador para iniciar a evacuação (p. 59). A contraria a vedação de cortar fios. B contraria a proibição de desroscar bombas-cano. C está errada porque se deve evitar área confinada e abrir portas e janelas. E contraria a regra de não manusear nem remover o material (p. 59-60).",
+    "referencia": "PDF, p. 59-60",
+    "nivel": "facil"
+  },
+  {
+    "id": 1167,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após evacuação parcial, realizada sem vistoria prévia, de prédio público alvo de ameaça que estipulava horário de explosão não ocorrida, o coordenador de segurança questiona o perito sobre a reocupação das instalações. Assinale a opção correta.",
+    "alternativas": {
+      "A": "A reocupação pode ser imediata, pois o decurso do horário previsto sem que tenha ocorrido a explosão configura indicativo conclusivo de que se tratava de mero trote, afastando o risco residual.",
+      "B": "Quando a ameaça estipula a hora da explosão e esta não ocorre, deve-se aguardar prazo mínimo de vinte minutos antes de iniciar a reocupação ou a vistoria.",
+      "C": "A reocupação deve aguardar o transcurso de pelo menos vinte e quatro horas, prazo mínimo reputado necessário, pela doutrina, para o descarte conclusivo de qualquer risco residual de detonação tardia.",
+      "D": "Tendo havido evacuação sem vistoria prévia, fica dispensada a realização de vistoria adicional antes da reocupação, pois o próprio tempo de ausência dos ocupantes elimina o risco de artefato remanescente.",
+      "E": "Como a evacuação foi apenas parcial, a reocupação independe de prazo de espera ou de vistoria, bastando que o coordenador de segurança confirme verbalmente a normalidade das áreas não evacuadas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: quando a ameaça estipula a hora da explosão e ela não ocorre, deve-se aguardar prazo mínimo de 20 minutos antes de iniciar a reocupação, começar ou continuar a vistoria (p. 60). A é precipitada. C exagera o prazo. D e E contrariam a recomendação de efetuar vistoria por cautela quando a evacuação foi ordenada sem ela (p. 60).",
+    "referencia": "PDF, p. 60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1168,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às providências adicionais cabíveis em caso de localização de objeto suspeito durante a vistoria, assinale a opção correta.",
+    "alternativas": {
+      "A": "Deve-se cercar o material suspeito com sacos de areia, capim ou poltronas, a fim de orientar as ondas de choque e recolher os fragmentos.",
+      "B": "Os materiais inflamáveis ou explosivos armazenados nas proximidades da área crítica devem ser mantidos no local em que se encontram, para que o cenário não seja alterado antes da chegada do esquadrão antibombas.",
+      "C": "Em se tratando de artefato militar aparentemente falhado, recomenda-se aplicar os mesmos procedimentos operacionais utilizados para a neutralização de bombas caseiras, dada a equivalência técnica entre eles.",
+      "D": "Devem ser fechadas as portas e janelas do ambiente em que se encontra o objeto suspeito, de modo a confinar e conter, no interior do local, eventuais ondas de choque decorrentes de uma explosão.",
+      "E": "O objeto suspeito deve ser submetido a exposição prolongada ao sol, providência que induz a desnaturação química gradual do material explosivo e reduz a periculosidade antes da remoção pela polícia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: deve-se cercar o material suspeito com sacos de areia, capim, poltronas etc., para orientar as ondas de choque e recolher os fragmentos (p. 60). B está errada porque inflamáveis e explosivos devem ser retirados das proximidades. C contraria a proibição de aplicar a artefatos militares os procedimentos de bombas caseiras, devendo-se notificar a unidade militar. D inverte a regra de abrir portas e janelas. E não tem qualquer previsão (p. 59-60).",
+    "referencia": "PDF, p. 59-60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1169,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das inter-relações dos trabalhos preventivos de vistoria envolvendo a Polícia Federal e os demais órgãos e segmentos da sociedade, assinale a opção correta.",
+    "alternativas": {
+      "A": "A Polícia Federal deve impor unilateralmente seus próprios procedimentos aos demais órgãos envolvidos, como forma de assegurar a indispensável uniformidade na condução das vistorias preventivas.",
+      "B": "Deve-se buscar a padronização de procedimentos entre os componentes envolvidos, evitando que divergências oriundas de escolas de formações distintas criem barreiras nos trabalhos.",
+      "C": "A interação com os demais órgãos é dispensável sempre que a unidade da Polícia Federal contar com equipe especializada própria, apta a executar integralmente a vistoria sem apoio externo.",
+      "D": "Cada setor envolvido deve atuar de forma isolada e compartimentada, inclusive na fase de planejamento, como medida destinada a evitar vazamentos de informações sensíveis sobre as vistorias programadas.",
+      "E": "A interação entre os órgãos deve restringir-se à fase de execução das vistorias, ficando o planejamento a cargo exclusivo da Polícia Federal, a quem compete deliberar isoladamente sobre a estratégia adotada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: a doutrina recomenda a padronização de procedimentos, norteada pela segurança, evitando que divergências entre escolas de formação criem barreiras (p. 71). A está errada porque se busca interação, não imposição. C e D contrariam a recomendação de interação mínima entre todos os componentes. E está errada porque a interação deve ocorrer, principalmente, no planejamento (p. 71).",
+    "referencia": "PDF, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 1170,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na vistoria externa de um automóvel suspeito estacionado próximo a um prédio público, assinale a opção que indica a conduta correta a ser adotada pelo perito.",
+    "alternativas": {
+      "A": "Iniciar pela aproximação direta e frontal ao veículo, conduta que facilita a imediata visualização dos comandos do painel e a identificação de eventuais dispositivos de acionamento instalados na cabine.",
+      "B": "Acionar o sistema elétrico do automóvel para testar lanternas e faróis, de modo a verificar a integridade dos circuitos antes de proceder à inspeção visual externa da carroceria e dos para-choques.",
+      "C": "Ignorar a inspeção da parte inferior do veículo, pois o chassi e os espaços do assoalho não comportam vãos úteis para a ocultação de artefatos explosivos de qualquer dimensão.",
+      "D": "Iniciar a vistoria pela abertura do capô e pela inspeção minuciosa do bloco do motor, antes de qualquer observação externa, por ser esse o compartimento estatisticamente mais utilizado para a ocultação.",
+      "E": "Fazer observação prévia à distância com binóculos, aproximar-se em sentido diagonal e procurar sinais de arrombamento e resquícios de fitas, fios e marcas no solo."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E: observação prévia à distância com binóculos, aproximação em sentido diagonal e atenção a sinais de entrada forçada e resquícios de fitas, fios, cordões e marcas no solo (p. 71). A contraria a aproximação diagonal. B é conduta perigosa não prevista. C ignora a recomendação de vistoria por baixo do veículo. D inverte a ordem prevista, que começa pela observação externa (p. 71-72).",
+    "referencia": "PDF, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 1171,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a vistoria interna de um automóvel suspeito, com o veículo aberto e na presença do motorista, o perito procede ao exame sistemático. A respeito dessa etapa, assinale a opção correta.",
+    "alternativas": {
+      "A": "A inspeção do assoalho deve abranger as áreas embaixo dos assentos, os tapetes e a forração, e a inspeção dos acessórios deve alcançar os dutos de ar-condicionado, os isqueiros, os rádios e o porta-luvas.",
+      "B": "A vistoria do compartimento do motor mostra-se suficiente, sendo o porta-malas habitualmente dispensado, dada a reduzida estatística de ocultação de artefatos explosivos verificada nesse local.",
+      "C": "Bastam exames visuais realizados pelos vidros, sem inspeção interna detalhada, sempre que o motorista estiver presente e negar expressamente ter deixado quaisquer objetos estranhos no interior do automóvel.",
+      "D": "A técnica de uso de ganchos e ventosas presos a cordas, puxadas a distância, pode ser empregada por qualquer funcionário previamente treinado da empresa segurada, dispensada a presença de técnicos da polícia.",
+      "E": "A inspeção interna deve restringir-se aos assentos e encostos, por serem os únicos pontos compatíveis com a ocultação de artefatos, descartando-se o exame do painel e dos dutos de ventilação do veículo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: a vistoria interna abrange o assoalho (embaixo dos assentos, tapetes e forração) e os acessórios (embaixo do painel, dutos de ar-condicionado, isqueiros, rádios e porta-luvas) (p. 72). B ignora o porta-malas, que deve ser inspecionado detalhadamente. C contraria a inspeção sistemática. D está errada porque a técnica ativa só pode ser usada por técnicos da polícia. E restringe indevidamente os pontos a inspecionar (p. 72).",
+    "referencia": "PDF, p. 72",
+    "nivel": "medio"
+  },
+  {
+    "id": 1172,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Esgotadas as possibilidades de esclarecimento por meio de investigação durante a abordagem de um automóvel suspeito, assinale a opção que indica as técnicas ativas a que os técnicos da polícia podem recorrer.",
+    "alternativas": {
+      "A": "Desroscar a bomba-cano com ferramenta isolante para confirmar a presença de partículas de explosivo ou de limalha de ferro nas roscas de fechamento do dispositivo, antes de qualquer remoção.",
+      "B": "Abertura de compartimentos com uso de ventosas e ganchos presos a cordas, espoletas, cordel detonante ou canhão d'água.",
+      "C": "Remoção manual do artefato com o auxílio de luvas térmicas apropriadas e posterior isolamento do dispositivo em sala fechada, longe da circulação de pessoas, até a chegada de reforço especializado.",
+      "D": "Exposição prolongada do veículo ao sol, durante várias horas, com o intuito de induzir a desnaturação química gradativa do material explosivo eventualmente abrigado no interior do automóvel suspeito.",
+      "E": "Aproximação frontal e direta ao veículo, com abertura simultânea de todas as portas pelos próprios técnicos, a fim de eliminar com rapidez sistemas de acionamento sensíveis a movimento ou a tração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: as técnicas ativas previstas são a abertura de compartimentos por ventosas e ganchos presos a cordas, além do uso de espoletas, cordel detonante ou canhão d'água (p. 72-73). A contraria a proibição de desroscar bomba-cano. C, D e E descrevem condutas perigosas e não previstas, contrariando as recomendações de segurança do capítulo (p. 72-73).",
+    "referencia": "PDF, p. 72-73",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1173,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de ameaça de bomba em uma aeronave comercial, a coordenação aciona equipe especializada para o procedimento de vistoria. A respeito dos parâmetros previstos pela doutrina nesse cenário, assinale a opção correta.",
+    "alternativas": {
+      "A": "O isolamento inicial recomendado deve observar raio mínimo de trinta metros, distância considerada suficiente, pela doutrina, para conter as ondas de choque de um dispositivo explosivo improvisado.",
+      "B": "A aeronave deve ser mantida no portão de embarque durante toda a vistoria, providência que facilita o desembarque dos passageiros e o controle das bagagens pelo pessoal da empresa aérea responsável.",
+      "C": "As portas de emergência da aeronave não devem ser abertas em nenhuma hipótese, pois sua abertura interfere na preservação do cenário e prejudica a investigação posterior das circunstâncias do incidente.",
+      "D": "A aeronave deve ser evacuada e posicionada em ponto remoto, com isolamento inicial de raio mínimo de cem metros, e o desembarque de passageiros e tripulação deve ser feito de maneira ordenada.",
+      "E": "Os materiais suspeitos descarregados da aeronave devem ser remetidos diretamente ao laboratório pericial, dispensando-se a quarentena, a fim de acelerar a identificação da natureza do artefato encontrado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: a aeronave deve ser evacuada e posicionada em ponto remoto, com raio mínimo de isolamento de 100 m, e o desembarque deve ser ordenado (p. 73). A subdimensiona o raio (mínimo de 100 m). B está errada porque deve haver afastamento da aeronave para ponto remoto. C contraria a regra de abrir todas as portas, inclusive as de emergência, sob supervisão técnica. E está errada porque os materiais suspeitos ficam de quarentena (p. 73).",
+    "referencia": "PDF, p. 73",
+    "nivel": "medio"
+  },
+  {
+    "id": 1174,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em aeronave sob ameaça, a equipe de vistoria prioriza os locais de ocultação estatisticamente mais frequentes. Conforme a doutrina, assinale a opção que indica pontos de ocultação mais comuns nesse cenário.",
+    "alternativas": {
+      "A": "Cabine de comando, painéis de aviônica do cockpit e sistemas hidráulicos centrais da aeronave, por concentrarem componentes de difícil acesso e inspeção pela tripulação durante o voo regular.",
+      "B": "Compartimentos do motor, dutos de ventilação pressurizada e reservatórios de combustível das asas, regiões internas de grande volume que comportam a ocultação de cargas explosivas consideráveis.",
+      "C": "Asas, leme de direção e estabilizadores horizontais da aeronave, estruturas externas amplas que oferecem múltiplos vãos compatíveis com a fixação dissimulada de artefatos de médio porte.",
+      "D": "Reservatórios de oxigênio, máscaras de emergência acopladas e coletes salva-vidas alojados sob as poltronas, itens de uso eventual cuja inspeção costuma ser negligenciada pela tripulação de cabine.",
+      "E": "Trem de pouso, compartimentos de carga, lixeiras dos toaletes, embaixo das poltronas e bagageiros suspensos."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E: a doutrina lista trem de pouso, compartimentos de carga, lixeiras dos toaletes, compartimentos de toalhas de papel, embaixo das poltronas e bagageiros suspensos (p. 73). A, B, C e D indicam estruturas que não constam como pontos preferenciais de ocultação na relação doutrinária (p. 73).",
+    "referencia": "PDF, p. 73",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1175,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos fundamentos legais aplicáveis à atuação do Departamento de Polícia Federal no enfrentamento das ameaças de bomba, assinale a opção correta.",
+    "alternativas": {
+      "A": "A base legal compreende os itens I e IV do parágrafo primeiro do artigo 144 da Constituição Federal, a Norma de Serviço nº 001/80-CCP/DPF e Instruções Normativas do DG/DPF.",
+      "B": "A competência da Polícia Federal nesse tema apoia-se exclusivamente em normas de caráter administrativo interno editadas pela corporação, sem qualquer assento na Constituição Federal vigente.",
+      "C": "A regulação da matéria baseia-se unicamente em circulares expedidas por órgãos militares das Forças Armadas, sem participação normativa da Direção-Geral do Departamento de Polícia Federal.",
+      "D": "A matéria é disciplinada de forma exclusiva pelas Convenções da Organização das Nações Unidas sobre terrorismo, não havendo, no ordenamento interno, normativos vigentes que tratem do tema.",
+      "E": "A atuação da Polícia Federal fundamenta-se apenas no Código de Processo Penal e na legislação ordinária de combate ao terrorismo, sem amparo em normas de serviço ou instruções normativas próprias do DPF."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A, conforme o item 8.7: art. 144, § 1º, I e IV, da CF; Norma de Serviço nº 001/80-CCP/DPF; e Instruções Normativas nº 008/88-DG/DPF e 005/04-DG/DPF (p. 74). B ignora o assento constitucional. C atribui a regulação a órgãos militares. D nega a existência de normativos internos. E desconsidera tanto a base constitucional quanto as normas de serviço e instruções normativas do DPF (p. 74).",
+    "referencia": "PDF, p. 74",
+    "nivel": "dificil"
+  }
+]

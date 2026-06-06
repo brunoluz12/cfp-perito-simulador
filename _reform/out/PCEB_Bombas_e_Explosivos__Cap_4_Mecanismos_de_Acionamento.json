@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1124,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um artefato explosivo, para operar de forma eficaz, requer ao menos um mecanismo de acionamento responsável pela iniciação da carga explosiva. Acerca dos princípios básicos em que se fundamentam esses mecanismos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O princípio elétrico decorre da união de compostos que, ao reagirem entre si, liberam energia sob a forma de uma reação exotérmica incendiária apta a iniciar o explosivo sensível ao calor.",
+      "B": "O princípio mecânico apoia-se na sensibilidade de certos explosivos ao choque ou à fricção, valendo-se de sistemas de percussão análogos aos das espoletas dos cartuchos de armas de fogo.",
+      "C": "O princípio combinado restringe-se à associação dos princípios mecânico e químico, sendo expressamente vedada a participação do princípio elétrico em sua composição.",
+      "D": "O princípio químico fundamenta-se no aquecimento de um condutor provocado pela passagem de corrente elétrica, fenômeno conhecido como efeito Joule, capaz de iniciar a carga.",
+      "E": "O princípio mecânico exige sempre a presença simultânea de uma reação exotérmica e do efeito Joule, razão pela qual constitui, na prática, um caso particular do princípio combinado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o PDF (p. 33), o princípio mecânico baseia-se no fato de que alguns explosivos são sensíveis a choque, fricção etc., utilizando sistemas de percussão semelhantes aos das espoletas dos cartuchos (alternativa B correta). A alternativa A inverte os conceitos, pois a reação exotérmica incendiária da união de compostos define o princípio químico, e não o elétrico. A alternativa C contraria o texto, segundo o qual o princípio combinado é qualquer combinação dos anteriores (mecânico, químico e elétrico), não havendo vedação ao elétrico. A alternativa D descreve o princípio elétrico (efeito Joule), e não o químico. A alternativa E é falsa, pois o princípio mecânico independe de reação exotérmica ou de efeito Joule.",
+    "referencia": "PDF, p. 33",
+    "nivel": "facil"
+  },
+  {
+    "id": 1125,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do mecanismo de acionamento por pressão empregado em artefatos explosivos improvisados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Opera apenas sob níveis baixos de pressão, de modo que situações de pressão elevada demandam, necessariamente, a adoção de mecanismo combinado de tração e tempo para garantir a iniciação.",
+      "B": "É aplicável tão somente a minas antitanque, sendo tecnicamente inadequado para instalação sob assentos de veículos, estofados, tapetes, colchões ou assoalhos em geral.",
+      "C": "Exige pressão para soltar um percussor, fechar um circuito elétrico ou inflamar-se, podendo ser regulado conforme a pressão exercida.",
+      "D": "Atua exclusivamente pela remoção da pressão previamente aplicada, motivo pelo qual o mesmo esquema pode ser convertido, sem restrições, em um sistema puramente mecânico de tração.",
+      "E": "Depende da diferença entre pressões interna e externa medida por um diafragma, sendo, por essa razão, idêntico em funcionamento ao mecanismo barométrico empregado em aeronaves."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo o PDF (p. 33-34), o mecanismo por pressão exige pressão para soltar o percussor, fechar circuito ou inflamar-se, podendo ser controlado conforme a pressão exercida, com exemplos de pressões mínimas e elevadas, como nas minas antipessoal e antitanque (alternativa C correta). A alternativa A é falsa, pois há mecanismos tanto em pressões mínimas quanto elevadas. A alternativa B ignora os usos em assentos, estofados, tapetes, colchões e assoalhos (p. 33). A alternativa D descreve o mecanismo de descompressão (p. 34), e não o de pressão. A alternativa E descreve o mecanismo barométrico (p. 39), distinto do de pressão.",
+    "referencia": "PDF, p. 33-34",
+    "nivel": "facil"
+  },
+  {
+    "id": 1126,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de explosão ocorrida em residência, o Perito Criminal Federal constata que o artefato estava acoplado a um livro deixado sobre a escrivaninha da vítima e que a deflagração ocorreu no exato momento em que a vítima abriu o livro. Considerando o exame dos vestígios, o mecanismo de acionamento mais compatível com o evento é o de:",
+    "alternativas": {
+      "A": "tensão, pois o ato de abrir o livro rompe um cabo de tropeço esticado, o que fecha o contato elétrico e provoca a iniciação da carga explosiva alojada no artefato.",
+      "B": "pressão, uma vez que o peso do livro fechado mantinha o circuito aberto e o ato de manuseá-lo restabeleceu o contato elétrico responsável pela iniciação da carga.",
+      "C": "retardo químico, pois a solução de cloreto cúprico corrói lentamente um filamento tensor até que a lâmina toque o contato de espera no instante da abertura do livro.",
+      "D": "descompressão, dado que a remoção de um objeto ou da pressão exercida é o que aciona o circuito, sendo típico de situações como abrir um livro, uma porta ou uma maleta.",
+      "E": "antimovimento, visto que a esfera condutora interna toca a parede do cilindro em resposta à vibração gerada pelo manuseio do livro, fechando o contato elétrico de iniciação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o PDF (p. 34), o mecanismo de descompressão funciona pela remoção de um objeto ou da pressão, com exemplos típicos como abrir um livro, uma porta, uma maleta ou retirar o telefone do gancho (alternativa D correta). A alternativa A descreve tensão (cabo de tropeço esticado). A alternativa B descreve pressão, conceito inverso ao do evento. A alternativa C descreve retardo químico, cujo gatilho é a corrosão temporizada, e não a abertura do livro. A alternativa E descreve o antimovimento (p. 38-39), acionado por mudança de posição ou vibração.",
+    "referencia": "PDF, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1127,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe de inativação de artefatos da Polícia Federal, em reconhecimento de suspeita de armadilha explosiva em trilha rural, identifica um arame esticado entre duas árvores, conectado a um dispositivo eletromecânico. Acerca do mecanismo de acionamento identificado e de suas características, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de mecanismo barométrico, ativado pela variação da pressão atmosférica que ocorre quando o operador se aproxima do cabo esticado em local de altitude elevada.",
+      "B": "Trata-se de mecanismo por tração, no qual o isolante, ao ser tracionado, permite o fechamento do circuito elétrico e a consequente liberação do percussor previamente armado.",
+      "C": "Trata-se de mecanismo por tensão, no qual o cabo de tropeço, ao ser cortado ou tracionado, fecha o contato elétrico e provoca a explosão, sendo muito utilizado em armadilhamento militar de trilhas.",
+      "D": "Trata-se de mecanismo antimovimento, pois o pêndulo interno do artefato se desloca em resposta à vibração transmitida pelo arame esticado entre as árvores, fechando o circuito.",
+      "E": "Trata-se de mecanismo por descompressão, no qual o rompimento do arame esticado entre as árvores remove a pressão que até então mantinha o circuito elétrico aberto, sendo arranjo característico das chamadas cartas-bomba, de maletas armadilhadas e de telefones com gatilho no gancho."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo o PDF (p. 34), o mecanismo por tensão emprega fio ou arame esticado que, ao romper-se ou ser tracionado, libera o percussor ou fecha o circuito; o cabo de tropeço é muito utilizado no meio militar em armadilhamento de trilhas (alternativa C correta). A alternativa B descreve tração (puxar um isolante ou pino), e não tensão (cabo esticado). As alternativas A, D e E descrevem, respectivamente, os mecanismos barométrico, antimovimento e descompressão, que não correspondem ao funcionamento descrito.",
+    "referencia": "PDF, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1128,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de artefatos não detonados, é fundamental distinguir os mecanismos de tensão e de tração, ambos comuns em armadilhas do meio militar. Acerca dessa distinção, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na tração há um fio ou arame esticado que, ao romper-se, fecha o circuito, ao passo que na tensão um isolante é retirado por puxão, soltando o percussor previamente armado.",
+      "B": "Em ambos há um cabo esticado que se rompe, diferenciando-se apenas pela natureza da carga, com alto explosivo na tensão e baixo explosivo na tração, conforme classificação do material.",
+      "C": "A tensão atua somente em circuitos elétricos, enquanto a tração atua exclusivamente em sistemas puramente mecânicos, sem qualquer possibilidade de emprego de iniciação elétrica.",
+      "D": "Na tensão, fio ou arame esticado, ao ser cortado ou tracionado, libera o percussor ou fecha o contato; na tração, um isolante ou pino é puxado para permitir o fechamento do circuito ou a liberação do percussor.",
+      "E": "Os dois mecanismos são, na prática, idênticos, pois ambos dependem da remoção de um objeto da posição original, sendo a distinção meramente terminológica e sem reflexo no funcionamento físico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o PDF (p. 34-35), na tensão emprega-se fio ou arame esticado que, ao romper-se ou ser tracionado, libera o percussor ou fecha o contato; na tração, um isolante ou pino, ao ser puxado, permite o fechamento do circuito ou a ação do percussor (alternativa D correta). A alternativa A inverte os conceitos. A alternativa B cria distinção por tipo de carga inexistente no texto. A alternativa C cria exclusividade de princípio elétrico ou mecânico não prevista. A alternativa E nega a distinção entre os mecanismos.",
+    "referencia": "PDF, p. 34-35",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1129,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do mecanismo de acionamento por tempo ou retardo empregado em artefatos explosivos improvisados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É característico das bombas-relógio e pode valer-se de substâncias químicas, estopins, cigarros ou de dispositivos digitais com temporizador composto por chip em circuito integrado, regulável e silencioso.",
+      "B": "Quando construído por quem domina eletrônica, permite iniciar a carga apenas em frações de segundo, sendo tecnicamente incompatível com programações de retardo da ordem de vários dias.",
+      "C": "Funciona unicamente com relógios analógicos de ponteiros, nos quais a chave é sempre o próprio mostrador, o que inviabiliza por completo o uso de circuitos eletrônicos dedicados de temporização.",
+      "D": "No relógio digital, o disparo decorre da conversão do mostrador em condutor mecânico, dispensando-se qualquer amplificação do sinal de alarme do circuito original do dispositivo.",
+      "E": "Depende sempre da corrosão progressiva de um filamento metálico por uma solução de cloreto cúprico, arranjo que, segundo o material, conferiria ao retardo tempos de acionamento extremamente precisos, reprodutíveis e regulados com antecedência de vários dias pelo operador."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Segundo o PDF (p. 35-36), o mecanismo de tempo ou retardo é característico das bombas-relógio e pode empregar substâncias químicas, estopins, cigarros ou dispositivos digitais com temporizador em chip de circuito integrado, regulável e sem ruídos (alternativa A correta). A alternativa B contradiz o texto, que prevê acionamento mesmo após vários dias. A alternativa C é falsa, pois há relógios digitais e circuitos dedicados. A alternativa D ignora que, no relógio digital, há amplificação do sinal de alarme. A alternativa E descreve o retardo químico (p. 36-37), cujos tempos são, ao contrário, muito variáveis.",
+    "referencia": "PDF, p. 35-36",
+    "nivel": "medio"
+  },
+  {
+    "id": 1130,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito Criminal Federal, ao desmontar artefato explosivo improvisado abandonado, identifica pequeno reservatório com solução de cloreto cúprico em contato com um filamento que tensiona uma lâmina sobre um contato de espera. Acerca do mecanismo identificado, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de mecanismo de tempo digital, cujo retardo é controlado com precisão por chip em circuito integrado previamente regulado pelo operador para fechar o contato no instante programado.",
+      "B": "Trata-se de mecanismo antimovimento, ativado quando a lâmina vibra em razão da movimentação do artefato e, por consequência, encosta no contato de espera, fechando o circuito de iniciação.",
+      "C": "Trata-se de mecanismo por pressão, no qual o peso externo aplicado sobre a lâmina vence a resistência mecânica do filamento tensor e, ao deslocá-la, estabelece o contato elétrico de espera que dá início à explosão, tal como ocorre nos dispositivos instalados sob assentos e tapetes.",
+      "D": "Trata-se de mecanismo por descompressão, ativado quando o reservatório é removido de sua posição original, o que fecha o contato elétrico responsável pela iniciação da carga explosiva.",
+      "E": "Trata-se de mecanismo de retardo químico, no qual a solução de cloreto cúprico corrói o filamento até que este se parta e a lâmina toque o contato de espera, apresentando tempos de acionamento muito variáveis."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Conforme o PDF (p. 36-37), no retardo químico a solução de cloreto cúprico corrói o fio que tenciona a lâmina até que este se rompa e a lâmina toque o contato de espera, destacando-se que tais arranjos apresentam tempos de acionamento muito variáveis (alternativa E correta). As demais alternativas descrevem mecanismos distintos: tempo digital (A), antimovimento (B), pressão (C) e descompressão (D), incompatíveis com o vestígio da corrosão temporizada do filamento.",
+    "referencia": "PDF, p. 36-37",
+    "nivel": "medio"
+  },
+  {
+    "id": 1131,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Tanto o mecanismo de tempo (eletrônico) quanto o de retardo químico introduzem um intervalo entre o armamento e a iniciação da carga explosiva. Acerca da distinção entre esses dois mecanismos, conforme o material de referência, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No mecanismo de tempo, sobretudo em circuitos dedicados, regula-se a iniciação com antecedência precisa, podendo ocorrer mesmo após vários dias; o retardo químico, por corrosão de solução de cloreto cúprico, tem tempos muito variáveis.",
+      "B": "O retardo químico baseia-se tipicamente em chip de circuito integrado, ao passo que o mecanismo de tempo se baseia, em regra, na corrosão de um filamento metálico por solução agressiva.",
+      "C": "Ambos exibem tempos de acionamento precisos e reprodutíveis, equivalendo-se integralmente em previsibilidade e diferenciando-se entre si apenas pela natureza do explosivo principal empregado na carga, de modo que a escolha entre um e outro é, segundo o material, indiferente do ponto de vista operacional do agente.",
+      "D": "Ambos dependem exclusivamente de combinações químicas, como pólvora caseira, glicerina sobre permanganato de potássio ou mistura Armstrong, para gerar o intervalo de tempo desejado entre armamento e iniciação.",
+      "E": "O mecanismo de tempo só atua em frações de segundo, enquanto o retardo químico só atua em intervalos superiores a vários dias, sendo essa a única diferença técnica admitida pelo material de referência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o PDF (p. 36-37), no mecanismo de tempo o circuito pode ser dedicado e iniciar a carga a qualquer momento, mesmo após vários dias; já o retardo químico, baseado na corrosão por solução de cloreto cúprico, apresenta tempos de acionamento muito variáveis (alternativa A correta). A alternativa B inverte os conceitos. As alternativas C, D e E contradizem o material, seja ao afirmar precisão equivalente, dependência exclusiva de combinações químicas ou limites rígidos de intervalo inexistentes no texto.",
+    "referencia": "PDF, p. 36-37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1132,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em diligência conjunta de inativação, a equipe identifica artefato suspeito vinculado a receptor de radiofrequência (RF) com antena visível. Acerca do mecanismo de acionamento por controle remoto e das soluções iniciais para sua desativação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de sistema imune a interferências eletromagnéticas externas, razão pela qual o emprego de manta metálica de blindagem é considerado totalmente ineficaz para fins de desativação do artefato.",
+      "B": "Trata-se de sistema suscetível a interferências eletromagnéticas, podendo ser desativado pela retirada da antena do receptor, pela blindagem com manta metálica ou pelo bloqueio da transmissão.",
+      "C": "Trata-se de sistema que, embora utilize ondas de rádio, é imune a interferências, de modo que só pode ser desativado mediante destruição controlada do receptor com carga moldada secundária.",
+      "D": "Trata-se de sistema acionado apenas por feixe de infravermelho, sendo a única solução possível de desativação a remoção de toda fonte de luz ambiente situada nas proximidades do artefato.",
+      "E": "Trata-se de sistema acionado por ondas de rádio cuja desativação exige, obrigatoriamente, a emissão de um segundo sinal de RF em frequência idêntica à do transmissor original do agente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo o PDF (p. 37-38), o controle remoto é suscetível a interferências eletromagnéticas, que podem provocar acionamento indesejado, e suas soluções de desativação são retirar a antena do receptor, usar manta metálica (rede ou papel alumínio) para blindagem e bloquear a transmissão (alternativa B correta). As alternativas A e C negam a suscetibilidade a interferências, contrariando o texto. A alternativa D restringe indevidamente o acionamento ao infravermelho. A alternativa E inventa solução de desativação não prevista no material.",
+    "referencia": "PDF, p. 37-38",
+    "nivel": "medio"
+  },
+  {
+    "id": 1133,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante triagem em local de explosão envolvendo veículo, peritos encontram resíduos de pequeno cilindro contendo esfera condutora suspensa por fio, com revestimento interno também condutor. Acerca do mecanismo identificado, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de mecanismo barométrico, acionado pela diferença entre P1 e P2 quando o veículo trafega em altitude elevada com a tampa de vedação do dispositivo previamente fechada pelo agente.",
+      "B": "Trata-se de mecanismo de pressão, no qual a esfera condutora é comprimida contra a parede interna do cilindro pelo peso do veículo em movimento, fechando o contato de iniciação da carga.",
+      "C": "Trata-se de mecanismo fotoelétrico, ativado pela incidência de luz sobre a esfera condutora no instante em que a porta do veículo é aberta, conforme previsto entre os outros mecanismos do material.",
+      "D": "Trata-se de mecanismo antimovimento ou antidistúrbio, acionado quando o artefato é deslocado ou sofre vibração, fazendo a esfera condutora tocar a parede revestida e fechar o circuito elétrico.",
+      "E": "Trata-se de mecanismo por tração, no qual o fio que suspende a esfera condutora funciona como isolante que, ao ser tracionado pelo movimento do veículo, libera o percussor previamente armado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o PDF (p. 38-39), o mecanismo antimovimento/antidistúrbio pode utilizar pêndulo (esfera condutora suspensa em cilindro com revestimento interno condutor); ao ser deslocado ou sofrer vibração, a esfera toca a parede e fecha o contato elétrico (alternativa D correta). As demais alternativas descrevem mecanismos diversos: barométrico (A), pressão (B), fotoelétrico (C) e tração (E), incompatíveis com o arranjo de esfera condutora suspensa em cilindro revestido.",
+    "referencia": "PDF, p. 38-39",
+    "nivel": "medio"
+  },
+  {
+    "id": 1134,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Investigação envolve artefato encontrado em compartimento de aeronave, dotado de diafragma móvel, contato fixo e tampa de vedação removível. Acerca do funcionamento do mecanismo identificado, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de mecanismo barométrico que opera somente em meio aquático, sendo inoperante no ar atmosférico em razão da suposta inexistência de diferenças de pressão relevantes em altitudes elevadas.",
+      "B": "Trata-se de mecanismo barométrico: com a aeronave aterrizada, P1 igual a P2 e o diafragma em repouso; fechada a tampa de vedação, na decolagem a pressão externa diminui (P1 menor que P2), o diafragma deflete em direção ao contato fixo e fecha o circuito.",
+      "C": "Trata-se de mecanismo antimovimento, ativado exclusivamente pela vibração da fuselagem durante a corrida de decolagem da aeronave, independentemente de qualquer diferença de pressão entre os ambientes.",
+      "D": "Trata-se de mecanismo de tempo digital baseado em altímetro, no qual o diafragma constitui apenas elemento decorativo do circuito, sem desempenhar função real de acionamento elétrico da carga.",
+      "E": "Trata-se de mecanismo de pressão, no qual o peso da carga de combustível da aeronave comprime o diafragma contra o contato fixo durante a decolagem, fechando o circuito e iniciando a explosão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o PDF (p. 39), o mecanismo barométrico é ativado pela diferença de pressões; com a aeronave aterrizada, P1 igual a P2 e o diafragma em repouso; fechada a tampa de vedação e iniciada a decolagem, P1 menor que P2, o diafragma deflete em direção ao contato fixo e o circuito é fechado, acionando a unidade de explosão (alternativa B correta). As alternativas A, C, D e E contradizem o texto ao restringir o funcionamento ao meio aquático, à vibração, a um temporizador ou ao peso de combustível.",
+    "referencia": "PDF, p. 39",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1135,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material de referência cita, no grupo \"outros mecanismos\", artefatos que exploram fenômenos físicos diversos para a iniciação da carga. Acerca desses mecanismos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O sensor de capacitância depende exclusivamente do contato com sons audíveis ou ultrassônicos para sensibilizar a superfície metálica do objeto que se pretende proteger contra a remoção.",
+      "B": "O sistema anti-raio X desativa o circuito sempre que a fonte luminosa do ambiente é eliminada, razão pela qual é classificado pelo material como subtipo de mecanismo fotoelétrico inverso.",
+      "C": "O sistema acústico utiliza a superfície metálica do objeto protegido para ser sensibilizado ao mais leve toque, ao passo que o sensor de capacitância responde apenas a sons audíveis ou ultrassônicos.",
+      "D": "O sistema fotoelétrico é acionado apenas quando a luz é aplicada ao sensor, jamais operando pelo princípio inverso de eliminação da luz que incide sobre o elemento sensível do circuito.",
+      "E": "O sistema infravermelho pode detectar movimentos por meio de um feixe de raios infravermelhos ou pelo calor de um corpo ou de um motor."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Conforme o PDF (p. 39-40), entre os outros mecanismos consta que o infravermelho pode detectar movimentos por meio de feixe de raios infravermelhos ou pelo calor de um corpo ou de um motor (alternativa E correta). A alternativa A é falsa, pois o sensor de capacitância sensibiliza-se ao mais leve toque, e não a sons. A alternativa B é falsa, pois o anti-raio X usa meio que intensifica a luz em um circuito, ativando célula fotoelétrica ao ser exposto a raio X. A alternativa C inverte os conceitos de acústico e de capacitância. A alternativa D é falsa, pois o sistema fotoelétrico aciona quando a luz é aplicada ou eliminada.",
+    "referencia": "PDF, p. 39-40",
+    "nivel": "dificil"
+  }
+]

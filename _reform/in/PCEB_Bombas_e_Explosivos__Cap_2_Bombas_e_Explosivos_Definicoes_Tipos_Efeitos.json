@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1099,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as definições básicas relacionadas a explosivos e explosões, é correto afirmar que:",
+    "alternativas": {
+      "A": "Explosivos são substâncias que produzem, por reação química endotérmica, grande volume de gases a baixas pressões e temperaturas.",
+      "B": "Bomba é qualquer carga explosiva pura, sem mecanismo de acionamento, capaz de gerar ondas de choque e fragmentação.",
+      "C": "A explosão de primeira ordem é aquela em que restam resíduos de explosivos não consumidos no local.",
+      "D": "Explosivos são substâncias capazes de produzir, por reação química rápida e exotérmica, grande volume de gases elevados a altas pressões e temperaturas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 15, explosivos produzem por reação química rápida (exotérmica) grande volume de gases a altas pressões e temperaturas. A explosão de primeira ordem (alta ordem) é a totalmente consumida; a de segunda ordem é que deixa resíduos (A e C invertidas). Bomba contém carga explosiva E mecanismo de acionamento (D errada).",
+    "referencia": "PDF, p. 15",
+    "nivel": "facil"
+  },
+  {
+    "id": 1100,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de sinistro, o perito identifica que a pressão interna crescente de uma caldeira a vapor superou a resistência estrutural do recipiente, provocando o evento explosivo. Esse tipo de explosão classifica-se como:",
+    "alternativas": {
+      "A": "Explosão química, pois há conversão rápida de líquido em gás.",
+      "B": "Explosão atômica, pela liberação súbita de energia.",
+      "C": "Explosão mecânica, decorrente da superação da resistência do recipiente pela pressão interna.",
+      "D": "Explosão de baixa ordem, por restarem resíduos não consumidos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 15, a explosão mecânica ocorre quando a pressão crescente dentro de um recipiente supera a sua resistência estrutural, como na caldeira a vapor. A química envolve reação de substâncias sólidas/líquidas em gases; a atômica é nuclear; a classificação alta/baixa ordem refere-se ao consumo do explosivo.",
+    "referencia": "PDF, p. 15",
+    "nivel": "facil"
+  },
+  {
+    "id": 1101,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as propriedades dos explosivos (sensibilidade, brisância e velocidade de detonação), é correto afirmar que:",
+    "alternativas": {
+      "A": "A velocidade de detonação independe do diâmetro do cartucho e do confinamento, dependendo apenas da composição química.",
+      "B": "A sensibilidade refere-se à velocidade com que a onda de choque se propaga pela coluna do explosivo.",
+      "C": "A brisância mede a capacidade de ruptura do explosivo, sendo aferida pela rapidez com que atinge a sua pressão máxima.",
+      "D": "TNT, Anfo e explosivos plásticos são exemplos clássicos de explosivos altamente sensíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 16, brisância é a capacidade de ruptura mensurada pela rapidez com que se atinge a pressão máxima. A sensibilidade é facilidade de iniciação (choque, calor, atrito); a velocidade de detonação depende de diâmetro, granulometria, confinamento e densidade; TNT, Anfo e plásticos são exemplos de explosivos POUCO sensíveis.",
+    "referencia": "PDF, p. 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 1102,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação dos explosivos pelo critério de uso, é correto afirmar que:",
+    "alternativas": {
+      "A": "Explosivos militares apresentam alta sensibilidade, baixa estabilidade e baixa brisância, sendo exemplificados pelo TNT e Tetril.",
+      "B": "Explosivos militares apresentam alta estabilidade, baixa sensibilidade e alta brisância; já os comerciais são mais sensíveis e menos brisantes que os militares.",
+      "C": "Explosivos comerciais apresentam alta estabilidade, baixa sensibilidade e alto custo, sendo exemplificados por dinamites e cordel detonante.",
+      "D": "Coquetel Molotov, mistura Armstrong e Napalm são classificados como explosivos comerciais por possuírem baixo custo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 16, militares = alta estabilidade, baixa sensibilidade e alta brisância (TNT, Tetril, plásticos); comerciais = mais sensíveis, menos brisantes, baixo custo, menor estabilidade. Coquetel Molotov, Armstrong e Napalm são caseiros (misturas incendiárias), p. 17.",
+    "referencia": "PDF, p. 16-17",
+    "nivel": "medio"
+  },
+  {
+    "id": 1103,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos explosivos quanto à velocidade de detonação, é correto afirmar que:",
+    "alternativas": {
+      "A": "Pólvora negra é considerada alto explosivo secundário por sua relação pressão-tempo elevada.",
+      "B": "Altos explosivos primários estão no final da cadeia de fogo e dispensam carga inicial para iniciação.",
+      "C": "Altos explosivos secundários sempre necessitam de confinamento para explodir, à exceção do TNT.",
+      "D": "Baixos explosivos (deflagrantes) apresentam combustão lenta e progressiva, até 1.000 m/s, como a pólvora negra."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 16-17, baixos explosivos têm combustão lenta progressiva até 1.000 m/s (pólvora negra ~300 m/s). Altos primários são intermediários/iniciadores (não estão no final). Altos secundários NÃO necessitam de confinamento; todo alto secundário precisa de carga inicial EXCETO a nitroglicerina. Pólvora negra é baixo explosivo.",
+    "referencia": "PDF, p. 16-17",
+    "nivel": "medio"
+  },
+  {
+    "id": 1104,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito criminal recebe para exame uma amostra de explosivo apreendida em fábrica clandestina de detonadores. As análises indicam tratar-se de substância de cor cinza, com velocidade de detonação aproximada de 5.100 m/s, sensível ao choque, atrito e calor, com fórmula Pb(N3)2. Trata-se de:",
+    "alternativas": {
+      "A": "Azida de chumbo, explosivo primário utilizado em espoletas.",
+      "B": "Diazodinitrofenol (DDNP), alto explosivo primário muito sensível.",
+      "C": "Estifnato de chumbo (trinitroresorcinato), com velocidade de 5.200 m/s.",
+      "D": "Fulminato de mercúrio, explosivo primário amarelo-claro."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 18, a azida de chumbo é primário sensível, cor cinza, velocidade ~5.100 m/s, fórmula Pb(N3)2, usada em espoletas. Fulminato de Hg é amarelo-claro com 5.000 m/s; DDNP varia 4.400-6.900 m/s; estifnato tem 5.200 m/s e fórmula distinta.",
+    "referencia": "PDF, p. 18",
+    "nivel": "medio"
+  },
+  {
+    "id": 1105,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia no local de um atentado a caixa eletrônico, o perito identifica fragmentos de cartuchos em papel parafinado contendo massa amarela à base de nitroglicerina, nitrocelulose e nitrato de amônio. Trata-se, com maior probabilidade, de:",
+    "alternativas": {
+      "A": "Pólvora de base dupla, cuja composição contém NG e NC.",
+      "B": "Dinamite, alto explosivo secundário em forma de banana parafinada.",
+      "C": "Tetril, alto explosivo de uso militar em granadas.",
+      "D": "Emulsão explosiva comercial de última geração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 19, as dinamites são altos explosivos secundários, em massa amarela encartuchada em papel parafinado (bananas), com NG, NC, nitrato de amônio entre os componentes. Pólvora BD é propelente, não em banana parafinada; Tetril é granulado amarelo-pardo; emulsão é dispersão de óleo em solução aquosa de NA.",
+    "referencia": "PDF, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 1106,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a nitroglicerina (NG), é correto afirmar que:",
+    "alternativas": {
+      "A": "É alto explosivo secundário, muito sensível, líquido viscoso incolor, com velocidade de detonação de 7.800 m/s.",
+      "B": "Apresenta-se como sólido amarelo cristalino, solúvel em água e estável a 13ºC.",
+      "C": "É baixo explosivo de uso exclusivamente comercial, com velocidade de deflagração próxima a 300 m/s.",
+      "D": "Necessita obrigatoriamente de detonador ou reforçador para iniciação, como os demais altos explosivos secundários."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 19, NG é alto explosivo secundário, muito sensível, líquido viscoso incolor, VoD = 7.800 m/s. Solidifica a 13ºC tornando-se instável; é insolúvel em água; e é EXCEÇÃO à regra dos secundários, dispensando carga inicial (p. 17).",
+    "referencia": "PDF, p. 17, 19-20",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1107,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o trinitrotolueno (TNT), é correto afirmar que:",
+    "alternativas": {
+      "A": "Foi inicialmente produzido pelos chineses e é o explosivo militar mais sensível em uso atual.",
+      "B": "É iniciado por chama ou faísca, sem necessidade de detonador, devido à sua alta sensibilidade.",
+      "C": "Apresenta velocidade de detonação superior à do RDX puro, considerado o mais energético dos militares.",
+      "D": "Alto explosivo secundário pouco sensível, estável, padrão de referência, com VoD de 6.900 m/s."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 20, TNT é alto secundário, pouco sensível, estável, padrão de referência, VoD = 6.900 m/s, iniciado por detonador. Foi produzido pelos alemães em 1902 (não chineses). RDX puro tem VoD de 8.400 m/s, superior ao TNT (p. 21).",
+    "referencia": "PDF, p. 20-21",
+    "nivel": "medio"
+  },
+  {
+    "id": 1108,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia em local de atentado, foi apreendido material granulado utilizado como fertilizante agrícola que, misturado a 5,7% de óleo diesel, formou explosivo de aplicação criminosa. Sobre o explosivo formado, é correto afirmar que:",
+    "alternativas": {
+      "A": "Trata-se do Amatol, composto por nitrato de amônio e TNT na proporção 50:50.",
+      "B": "Trata-se do Anfo, alto explosivo secundário comercial com VoD em torno de 3.000 m/s, que necessita de detonador com reforçador (booster).",
+      "C": "É alto explosivo primário, dispensando booster por sua elevada sensibilidade.",
+      "D": "É a Pentolite, mistura de TNT e PETN comum em pedreiras."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 20, o Anfo é nitrato de amônio + óleo diesel (5,7%), VoD ~3.000 m/s, alto secundário comercial, necessita detonador com booster. Amatol é NA + TNT (50:50) (p. 22); Pentolite é TNT + PETN. NA é secundário, não primário.",
+    "referencia": "PDF, p. 20, 22",
+    "nivel": "medio"
+  },
+  {
+    "id": 1109,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os explosivos plásticos e o Flex-X, é correto afirmar que:",
+    "alternativas": {
+      "A": "O C4 apresenta cor branca ou rósea, com 91% de RDX e VoD de 8.050 m/s, enquanto o Flex-X é folha flexível com VoD de 7.500 m/s.",
+      "B": "O C4 apresenta coloração amarelada, contém RDX, DNT, TNT e NC, com VoD de 7.700 m/s.",
+      "C": "O HMX é precursor do RDX e sua principal aplicação é em fogos de artifício comerciais.",
+      "D": "O Flex-X é composto exclusivamente por TNT e nitrocelulose, em folhas rígidas de espessura fixa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 21, C4 = cor branca/rósea, 91% RDX, VoD 8.050 m/s; Flex-X é folha flexível, RDX 63% ou PETN + NC 8% + agregante, VoD 7.500 m/s. C2 e C3 (não C4) são amarelados com RDX+DNT+TNT+NC. HMX é SUBPRODUTO do RDX, usado em cargas ocas.",
+    "referencia": "PDF, p. 21-22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1110,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de pólvora utilizados como propelentes, é correto afirmar que:",
+    "alternativas": {
+      "A": "A pólvora de base simples (BS) sem fumaça é composta por nitroglicerina pura, sem nitrocelulose.",
+      "B": "A balistita contém 40% de nitroglicerina e 60% de algodão colódio, com velocidade de deflagração de 600 a 900 m/s.",
+      "C": "A pólvora de base dupla (BD) contém nitrocelulose, nitroglicerina e nitroguanidina.",
+      "D": "A pólvora cloratada substitui o salitre por carvão vegetal na proporção de 70%."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 17-18, balistita = 40% NG + 60% algodão colódio, VoDef 600-900 m/s. BS é nitrocelulose gelatinosa (não NG pura); BD contém NC+NG+conservantes (a BT é que contém NC+NG+nitroguanidina); pólvora cloratada substitui salitre por clorato de potássio 70%.",
+    "referencia": "PDF, p. 17-18",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1111,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de explosão, o perito constata que o artefato continha pedaços de pregos e parafusos metálicos misturados à carga explosiva confinada em recipiente cilíndrico, encontrando-se fragmentos metálicos cravados em estruturas a distância. Esse efeito primário caracteriza:",
+    "alternativas": {
+      "A": "Efeito térmico-incendiário, decorrente do superaquecimento dos gases.",
+      "B": "Deslocamento de ar, intensificado pelo confinamento do explosivo.",
+      "C": "Fragmentação, efeito primário que ocorre quando o explosivo é confinado em recipientes com metais misturados ou ao redor da carga.",
+      "D": "Efeito cumulativo, decorrente da convergência das ondas de choque."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 24, a fragmentação ocorre quando o explosivo é confinado em recipientes com pedaços de metal misturados ou colocados ao redor da carga. Térmico envolve calor/chamas (p. 23); deslocamento de ar é a onda de pressão (p. 23); cumulativo é convergência intencional de ondas de choque (p. 24).",
+    "referencia": "PDF, p. 23-24",
+    "nivel": "facil"
+  },
+  {
+    "id": 1112,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o deslocamento de ar (concussão) produzido por uma explosão, é correto afirmar que:",
+    "alternativas": {
+      "A": "Caracteriza-se exclusivamente pela onda de pressão positiva, sem fase de pressão negativa.",
+      "B": "Tem maior efeito destrutivo em ambientes abertos, sem obstáculos ao redor.",
+      "C": "Apresenta sucessivamente pressão positiva (gases aquecidos irradiados) e pressão negativa (preenchimento do vácuo), ambas destrutivas, sendo intensificado em locais confinados.",
+      "D": "Independe do confinamento da carga, pois decorre apenas do calor liberado na reação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 23, forma-se onda de alta pressão (positiva) seguida de pressão negativa (preenchimento do vácuo), ambas destrutivas. É mais facilmente observado em local confinado: quanto mais fechado, resistente e com obstáculos, MAIOR o dano.",
+    "referencia": "PDF, p. 23",
+    "nivel": "medio"
+  },
+  {
+    "id": 1113,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de implosão dirigida, observa-se que cargas explosivas foram dispostas de modo a fazer convergir várias ondas de choque para um mesmo ponto, perfurando uma chapa metálica em ponto previamente calculado. Esse fenômeno caracteriza:",
+    "alternativas": {
+      "A": "Efeito de simpatia, no qual a onda inicia outras cargas a distância.",
+      "B": "Efeito de deflagração progressiva, típico dos baixos explosivos confinados.",
+      "C": "Efeito térmico-incendiário cumulativo, decorrente do aquecimento dos gases.",
+      "D": "Efeito Monroe (efeito bazuca), pela convergência de ondas para um ponto de menor resistência."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 24, o efeito Monroe (ou bazuca) ocorre quando há convergência de várias ondas de choque para um mesmo ponto, usado em implosões dirigidas a pontos menos resistentes. Simpatia é detonação a distância por influência; térmico é calor/chama; deflagração é baixo explosivo.",
+    "referencia": "PDF, p. 24",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1114,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito analisa cenário em que 1,0 kg de explosivo desconhecido produziu danos compatíveis com tabela de eficácia relativa do TNT. Sabendo que o RDX possui fator de eficácia relativa de 1,50, o C-4 de 1,30 e a pólvora negra de 0,50, é correto afirmar que:",
+    "alternativas": {
+      "A": "1 kg de pólvora negra equivale, em poder destrutivo, a aproximadamente 0,5 kg de TNT.",
+      "B": "1 kg de RDX equivale a aproximadamente 0,67 kg de TNT em poder destrutivo.",
+      "C": "Os fatores de eficácia relativa são utilizados apenas para cálculo de fragmentação, não de ondas de choque.",
+      "D": "C-4 e pólvora negra possuem fatores de eficácia relativa idênticos ao TNT por convenção internacional."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme tabela 2, p. 26, a pólvora negra tem fator 0,50, ou seja, 1 kg equivale a 0,5 kg de TNT. RDX (1,50) equivale a 1,5 kg de TNT por kg (não 0,67). A tabela considera propagação das ondas de choque (p. 27), não fragmentação. C-4 = 1,30 e pólvora negra = 0,50, distintos do TNT (1,0).",
+    "referencia": "PDF, p. 26-27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1115,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia em local de explosão, o perito busca distinguir entre Tetril, Nitropenta (PETN) e Ácido pícrico apreendidos. Sobre esses altos explosivos secundários, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Nitropenta (PETN) é o núcleo branco do cordel detonante, com VoD de 6.400 m/s, usada em pedreiras para interligar cargas.",
+      "B": "O Tetril é o núcleo branco do cordel detonante, com VoD de 6.400 m/s e fórmula 2,4,6-trinitrofenol.",
+      "C": "O Ácido pícrico (2,4,6-trinitrofenol) tem VoD de 7.050 m/s e é o principal explosivo das granadas atuais.",
+      "D": "Tetril, PETN e Ácido pícrico apresentam idêntica velocidade de detonação por compartilharem o grupo nitro."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 21, a PETN é o núcleo branco do cordel detonante, VoD 6.400 m/s, usada em pedreiras para interligar cargas. Tetril (p. 21) é granulado amarelo-pardo, VoD 7.050 m/s, em granadas. Ácido pícrico (p. 20) é 2,4,6-trinitrofenol com VoD 4.900 m/s. As VoD são distintas.",
+    "referencia": "PDF, p. 20-21",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1116,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em vistoria a depósito clandestino, o perito identifica mistura de TNT, nitrato de amônio e alumínio em pó na proporção 67:22:11, bem como amostra distinta contendo RDX (60%), TNT (39%) e cera (1%) usada em granadas e cabeças de foguetes. Tratam-se, respectivamente, de:",
+    "alternativas": {
+      "A": "Amatol e Pentolite.",
+      "B": "Tritonal e Torpex (HBX).",
+      "C": "Amonal e Composto B.",
+      "D": "Coop-Mischung e Composto A4."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 22, Amonal = TNT + NA + Al (67:22:11); Composto B = RDX (60%) + TNT (39%) + cera (1%), usado em minas, granadas, cargas moldadas e cabeças de foguetes. Amatol = NA + TNT 50:50; Pentolite = TNT + PETN 50:50; Tritonal = TNT + Al 80:20; Torpex = RDX + TNT + Al 41:41:18; A4 = RDX 97% + cera 3%.",
+    "referencia": "PDF, p. 22",
+    "nivel": "dificil"
+  }
+]

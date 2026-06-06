@@ -1,0 +1,70 @@
+[
+  {
+    "id": 631,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 14 - Avaliação do estado de conservação do veículo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em um sedan apreendido, o perito criminal federal verifica que o veículo apresenta pintura íntegra, carroceria alinhada, bancos em bom estado e leitura normal do hodômetro, classificando-o como em 'bom estado'. Ao prosseguir para a etapa de valoração, considerando exclusivamente os intervalos orientativos de deságio previstos para aplicação sobre o valor de referência (tabela FIPE), qual deve ser o percentual de desconto aplicado pelo perito?",
+    "alternativas": {
+      "A": "Entre 50% e 70% sobre o valor base, em razão de eventual perda de garantia de fábrica.",
+      "B": "Entre 20% e 50% sobre o valor base, pois o desgaste de uso já presume estado regular.",
+      "C": "Entre 10% e 20% sobre o valor base, em razão da classificação em bom estado.",
+      "D": "Nenhum deságio, pois o estado bom equivale ao valor pleno de mercado da tabela FIPE."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A página 66 estabelece os intervalos: '10% a 20% para veículos classificados como em bom estado; 20% a 50% para veículos em estado regular ou sinistrados com dano de pequena monta; 50% a 70% para veículos em mau estado [...]; 70% a 95% para veículos classificados como sucata'.",
+    "referencia": "Cap. 14, p. 66",
+    "nivel": "facil"
+  },
+  {
+    "id": 632,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 14 - Avaliação do estado de conservação do veículo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a avaliação do estado de conservação e a valoração do veículo segundo a Portaria Ditec/PF Nº 1.563, julgue os itens a seguir:\n\nI. A avaliação deve ser feita por meio de vistoria externa e interna, considerando o estado de conservação aparente, sem desmontagens ou testes complexos.\nII. Como regra, é necessário avaliar o funcionamento de componentes mecânicos, elétricos e eletrônicos do veículo, ainda que não haja determinação expressa na requisição.\nIII. O estado de conservação geral deve ser classificado obrigatoriamente em uma das seguintes categorias: bom, regular, ruim ou sucata.\nIV. Nos casos em que o veículo apresente VIN adulterado, recomenda-se a aplicação de um deságio adicional de 20%, em razão da perda de valor comercial.\nV. Para veículo estrangeiro sem parâmetro direto no mercado nacional, a avaliação pode ser feita por analogia com similares no Brasil ou por comparação proporcional com valores no país de origem.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III e V.",
+      "C": "I, II, IV e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A pág. 65 confirma I ('vistoria externa e interna [...] sem desmontagens') e III (categorias 'bom; regular; ruim; ou sucata'). A pág. 66 confirma IV ('deságio adicional de 20%') e V (analogia com similares no Brasil ou país de origem). O item II é FALSO: 'como regra, não é necessário avaliar o funcionamento de componentes mecânicos, elétricos ou eletrônicos [...] salvo se houver determinação expressa na requisição'.",
+    "referencia": "Cap. 14, p. 65-66",
+    "nivel": "medio"
+  },
+  {
+    "id": 701,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 14 - Avaliação do estado de conservação do veículo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em um veículo apreendido, o perito constata que ele foi objeto de acidente recente, com deformações severas no monobloco e perda total da integridade estrutural dianteira. Considerando a orientação da Portaria Ditec/PF Nº 1.563 quanto à integração entre classificação de danos e avaliação do estado de conservação, qual é o procedimento tecnicamente correto a ser adotado pelo perito?",
+    "alternativas": {
+      "A": "Desconsiderar a classificação de danos do Contran, por se referir a matéria exclusivamente administrativa, e atribuir um deságio único baseado apenas na faixa de 'bom estado'.",
+      "B": "Aplicar deságio fixo de 50% em qualquer veículo sinistrado, independentemente da monta do dano, por padronização técnica.",
+      "C": "Classificar os danos como de pequena, média ou grande monta segundo a regulamentação específica do Contran, integrando essa classificação à avaliação do estado de conservação e influenciando diretamente a etapa de valoração.",
+      "D": "Substituir a avaliação do estado de conservação por uma única estimativa estritamente baseada na tabela FIPE, sem deságios, deixando a apuração dos danos para a seguradora."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A pág. 65 prevê expressamente: 'nos casos em que o veículo tenha sido objeto de acidente ou sinistro, recomenda-se que a classificação dos danos seja realizada de acordo com a regulamentação específica do Contran, categorizando-os como danos de pequena, média ou grande monta. Essa classificação deve ser integrada à avaliação do estado de conservação e influenciar diretamente a etapa de valoração do veículo'.",
+    "referencia": "Cap. 14, p. 65",
+    "nivel": "medio"
+  },
+  {
+    "id": 702,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 14 - Avaliação do estado de conservação do veículo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia sobre veículo estrangeiro de modelo não comercializado no Brasil, o perito não localiza referência direta de valor de mercado nacional. Sobre as alternativas metodológicas autorizadas pela Portaria Ditec/PF Nº 1.563 para a avaliação, assinale a opção CORRETA:",
+    "alternativas": {
+      "A": "Deve-se atribuir valor zero ao veículo, por inexistência de referência na tabela FIPE.",
+      "B": "A avaliação fica obrigatoriamente sobrestada até a publicação de tabela oficial específica para o modelo importado.",
+      "C": "A avaliação deve ser feita exclusivamente com base no valor declarado pelo proprietário, vedada qualquer comparação ou analogia.",
+      "D": "A avaliação pode ser feita por analogia com veículos similares disponíveis no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia que o perito considere tecnicamente mais adequada, desde que devidamente justificada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A pág. 66 dispõe: 'Quando o veículo for estrangeiro e inexistir parâmetro direto no mercado nacional, a avaliação pode ser realizada por analogia com veículos similares disponíveis no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia que o perito considere tecnicamente mais adequada, desde que devidamente justificada'.",
+    "referencia": "Cap. 14, p. 66",
+    "nivel": "facil"
+  }
+]

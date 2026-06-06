@@ -1,0 +1,146 @@
+[
+  {
+    "id": 435,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em julgamento por homicídio, o magistrado se depara com o seguinte quadro probatório: o réu confessa ter efetuado os disparos, mas sustenta legítima defesa; uma testemunha ocular afirma que o réu atirou sem qualquer provocação; e o laudo pericial demonstra que a trajetória dos projéteis e a posição final do corpo são incompatíveis com a versão defensiva. Considerando o sistema de valoração probatória e o regime da confissão expostos no Capítulo 5, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A confissão, por emanar do próprio acusado e refletir o princípio da verdade real, possui valor preponderante sobre as demais provas produzidas no processo, de modo que o juiz deve acolher a tese de legítima defesa salvo prova pericial que a contradiga de forma cabal e absoluta.",
+      "B": "Como o sistema brasileiro consagra o princípio do livre convencimento motivado, a prova pericial, por sua natureza eminentemente técnica e objetiva, ocupa o ápice de uma rígida hierarquia legal de provas, vinculando sempre o magistrado quando confrontada com prova meramente oral.",
+      "C": "Inexiste hierarquia legal entre as provas; sendo a confissão divisível e retratável, o juiz pode acolher só a parte relativa à autoria dos disparos e refutar a legítima defesa, aferindo seu valor por confronto com as demais provas.",
+      "D": "Por força do princípio in dubio pro reo, a coexistência de versões conflitantes entre a confissão, a testemunha e a perícia configura dúvida insanável, impondo necessariamente a absolvição do réu com fundamento na excludente alegada.",
+      "E": "Sendo a confissão indivisível e irretratável uma vez prestada em juízo, o magistrado deve acolhê-la integralmente ou rejeitá-la por completo, sendo-lhe vedado o repúdio parcial das declarações do acusado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: conforme p. 41-42, no sistema penal brasileiro 'não há hierarquia das provas'; o art. 197 do CPP determina que o valor da confissão se afira pelos critérios das demais provas, mediante confronto, e o art. 200 do CPP estabelece que 'a confissão será divisível e retratável, sem prejuízo do livre convencimento do juiz', autorizando o acolhimento parcial. A alternativa A erra ao atribuir valor preponderante/quase absoluto à confissão, em contrariedade ao art. 197. A alternativa B erra ao afirmar existir hierarquia legal com a perícia no ápice, vinculando o juiz, o que contraria a inexistência de hierarquia de provas. A alternativa D erra ao confundir conflito probatório com dúvida insanável: o in dubio pro reo só obsta a condenação na ausência de juízo de certeza, e aqui há prova pericial técnica refutando a versão defensiva, cabendo confronto e valoração, não absolvição automática. A alternativa E erra ao afirmar a indivisibilidade e irretratabilidade da confissão, contrariando expressamente o art. 200 do CPP.",
+    "referencia": "Cap. 5, p. 41-42",
+    "nivel": "medio"
+  },
+  {
+    "id": 436,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "À luz do conceito de corpo de delito e do exame de corpo de delito indireto tratados no Capítulo 5, julgue os itens a seguir:\n\nI. Corpo de delito é o conjunto de elementos materiais, com todas as circunstâncias, resultantes da prática de um crime, abrangendo os sinais da atividade do delinquente, o resultado/produto da infração e o corpus instrumentorum.\nII. Os termos exame de corpo de delito e exame pericial de local de crime são rigorosamente sinônimos, pois a totalidade dos vestígios que compõem o corpo de delito é sempre localizada, de forma exclusiva, no sítio em que ocorreu o fato.\nIII. A falta do exame de corpo de delito nos crimes que deixam vestígios pode acarretar nulidade processual, salvo quando impossível sua realização por terem desaparecido os vestígios, hipótese em que a prova testemunhal poderá suprir-lhe a falta.\nIV. O corpo de delito indireto é admitido quando o exame direto não for possível, podendo apoiar-se em fotografias, informações seguras sobre os fatos, documentos ou outros elementos levantados pelos peritos.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "Apenas I, II e III.",
+      "B": "Apenas II, III e IV.",
+      "C": "Apenas I, II e IV.",
+      "D": "Apenas I e IV.",
+      "E": "Apenas I, III e IV."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E (I, III e IV). Item I correto (p. 43): reproduz a definição de Florian sobre os componentes do corpo de delito. Item II incorreto (p. 43): embora a equivalência seja admitida 'de certa forma', o texto alerta que 'muitas vezes, os vestígios que compõem o corpo de delito NÃO são encontrados em um só local', de modo que a afirmação de exclusividade e totalidade no local do fato é falsa. Item III correto (p. 44): art. 564 do CPP combinado com o art. 167, que ressalva o suprimento testemunhal quando desaparecidos os vestígios. Item IV correto (p. 44): definição do corpo de delito indireto. As demais alternativas falham por incluírem o item II (A, B e C) ou por excluírem o item III correto (D).",
+    "referencia": "Cap. 5, Seções 5.1 e 5.1.1, p. 43-44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 437,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação de descaminho, mercadorias apreendidas foram destinadas administrativamente pela Receita Federal antes da realização do exame pericial. Cientes da impossibilidade do exame direto, os peritos comunicam o fato à autoridade policial, que requisita a realização do exame indireto. Sobre essa situação e o regime do exame de corpo de delito indireto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O exame indireto é terminantemente vedado nos crimes de descaminho, pois a inexistência física das mercadorias para análise direta impede tecnicamente qualquer manifestação pericial conclusiva.",
+      "B": "O exame indireto somente poderá ser validamente realizado se as mercadorias forem fisicamente reapresentadas aos peritos, ainda que de forma parcial e por amostragem representativa do lote apreendido.",
+      "C": "O exame indireto é cabível e pode apoiar-se nos documentos da Receita Federal, sobretudo o Termo de Guarda, que descreve as mercadorias apreendidas.",
+      "D": "O exame indireto é dispensável na hipótese, pois a prova testemunhal das autoridades fiscais que efetuaram a apreensão é suficiente, por si só, para suprir o exame pericial.",
+      "E": "O exame indireto, por não examinar diretamente o objeto, equivale a mera prova testemunhal documentada e não constitui exame de corpo de delito para os fins do art. 158 do CPP."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: conforme p. 44-45, no caso de mercadorias apreendidas e encaminhadas à Receita Federal antes da perícia no crime de descaminho, 'os peritos informam à autoridade policial e esta solicita a realização de exame indireto, com base em documentos fornecidos pela Receita, principalmente, o Termo de Guarda, que é uma descrição completa das mercadorias'. A alternativa A erra ao vedar o exame em descaminho, justamente o exemplo doutrinário típico de cabimento do exame indireto. A alternativa B erra ao exigir reapresentação física das mercadorias, o que descaracterizaria o exame indireto. A alternativa D erra ao tratar a prova testemunhal como dispensa do exame: o suprimento testemunhal do art. 167 do CPP pressupõe o desaparecimento dos vestígios e não afasta a realização do exame indireto quando este é possível com base documental. A alternativa E erra ao negar a natureza de exame de corpo de delito ao exame indireto, expressamente previsto no art. 158 do CPP ('direto ou indireto').",
+    "referencia": "Cap. 5, Seção 5.1.1, p. 44-45",
+    "nivel": "facil"
+  },
+  {
+    "id": 438,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "João é acusado de furto qualificado ocorrido em uma joalheria às 22h do dia 15 de junho. Em sua defesa, apresenta nota fiscal, imagens de câmeras e depoimentos comprovando que jantava em restaurante a 300 km do local, no exato horário do delito. A perícia, por sua vez, recolheu na cena material genético do verdadeiro autor, e uma testemunha relata aos autos a narrativa dos fatos que ouvira de seu vizinho. Considerando a classificação das provas quanto ao objeto (Seção 5.3.1), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O álibi de João é prova direta, por demonstrar imediatamente o fato a ser provado nos autos, ao passo que o laudo pericial do DNA é prova indireta, por exigir raciocínio lógico de comparação entre as amostras coletadas.",
+      "B": "Todas as provas mencionadas são diretas, pois há previsão legal expressa de que toda prova de natureza material no processo penal seja classificada como prova direta do fato delituoso.",
+      "C": "O laudo do DNA e o depoimento da testemunha que ouviu do vizinho são provas indiretas, ao passo que o álibi configura prova direta de autoria.",
+      "D": "O álibi de João e o depoimento da testemunha que ouviu do vizinho a narrativa dos fatos são exemplos de prova indireta, ao passo que o laudo pericial do DNA configura prova direta.",
+      "E": "O álibi e o laudo pericial do DNA são provas diretas, por se reportarem a fatos materialmente comprovados, ao passo que apenas o depoimento de quem apenas ouviu dizer constitui prova indireta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: conforme p. 45-46, são provas diretas as que demonstram por si só o fato a ser provado, sem processo lógico de construção, e 'o laudo pericial também é uma prova direta'. As provas indiretas 'não se referem de forma direta ao fato probando'; o álibi é exemplo clássico de prova indireta (prova-se fato secundário — estar em outro lugar — para negar o principal), assim como 'o depoimento da testemunha que não estava no local de um crime, apenas ouviu de outra pessoa a narrativa dos fatos'. A alternativa A inverte as classificações (trata álibi como direta e laudo como indireta). A alternativa B inventa previsão legal inexistente e classifica tudo como direta. As alternativas C e E erram ao classificar o álibi como prova direta; C ainda erra ao tratar o laudo de DNA como indireto, e E ao tratar o álibi como direto.",
+    "referencia": "Cap. 5, Seção 5.3.1, p. 45-46",
+    "nivel": "medio"
+  },
+  {
+    "id": 439,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em apuração de estupro, foram reunidas as seguintes evidências: (1) depoimento da vítima; (2) sêmen do agressor recolhido na cena; (3) reconhecimento do suspeito em fila pela vítima; (4) arma empregada para a coação; e (5) carta de ameaças remetida à vítima pelo suspeito. Considerando a classificação das provas quanto ao sujeito e quanto à forma, conforme o Capítulo 5, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Quanto ao sujeito, o sêmen e a arma são provas pessoais, por remeterem diretamente à figura do agressor, enquanto o depoimento prestado pela vítima é prova real, por derivar do fato concreto que foi narrado em juízo.",
+      "B": "Quanto à forma, o sêmen e a arma, ainda antes da realização de qualquer exame pericial, já constituem prova material plena, sendo de todo dispensável a análise técnica para fins dessa classificação.",
+      "C": "Quanto ao sujeito, o depoimento da vítima e o reconhecimento são pessoais e o sêmen e a arma são reais; quanto à forma, a carta é documental e o sêmen, após exame pela Criminalística, é material.",
+      "D": "Todas as evidências mencionadas, quanto à forma, classificam-se indistintamente como prova material, pois todas elas se acham fisicamente presentes e juntadas aos autos do processo.",
+      "E": "Quanto ao sujeito, todas as cinco evidências são provas reais, por estarem ligadas a um fato concreto; quanto à forma, a carta e o sêmen são, ambos, provas documentais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: conforme p. 46, provas pessoais são 'aquelas derivadas do conhecimento pessoal atribuído ao indivíduo, depoimento de testemunhas, reconhecimento de pessoas', e provas reais são 'aquelas oriundas de coisas, dos vestígios relacionados ao crime, como o sêmen, o sangue, a impressão digital, a arma'. Quanto à forma, a carta é prova documental, e os vestígios 'se tornam prova material DEPOIS de examinados e interpretados pela Criminalística'. A alternativa A inverte as categorias do sujeito (sêmen/arma seriam reais, não pessoais; depoimento é pessoal, não real). A alternativa B erra ao classificar sêmen e arma como prova material antes do exame, pois os vestígios são apenas a matéria-prima e só se tornam prova material após examinados. A alternativa D erra ao reduzir tudo a prova material, ignorando as provas testemunhal (depoimento/reconhecimento) e documental (carta). A alternativa E erra ao classificar o depoimento e o reconhecimento como provas reais e ao tratar o sêmen como prova documental.",
+    "referencia": "Cap. 5, Seções 5.3.2 e 5.3.3, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 440,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o objeto da prova no processo penal, conforme exposto no Capítulo 5, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Objeto da prova é aquilo sobre o que o juiz deve formar seu convencimento, abrangendo o fato delituoso e as circunstâncias objetivas e subjetivas necessárias ao seu pleno conhecimento.",
+      "B": "Objeto da prova é exclusivamente o fato delituoso em sua materialidade externa, excluindo-se por completo as circunstâncias subjetivas que envolvem o agente, reservadas estas tão somente à fase de dosimetria da pena.",
+      "C": "Objeto da prova confunde-se inteiramente com o sujeito da prova, referindo-se ambos os institutos à pessoa ou à coisa de quem ou de onde a prova efetivamente provém.",
+      "D": "Objeto da prova são apenas as alegações deduzidas pela acusação, pois a esta incumbe, de forma integral e indelegável, o ônus probatório no processo penal.",
+      "E": "Objeto da prova restringe-se aos fatos controvertidos entre as partes, excluindo-se de plano as circunstâncias do crime que não tenham sido expressamente impugnadas pela defesa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: conforme p. 45, 'constitui o objeto da prova aquilo sobre o que o juiz deve formar o seu convencimento; aquilo que deve ser demonstrado. O objeto da prova abrange o fato delituoso e todas as circunstâncias objetivas e subjetivas necessárias ao pleno conhecimento do juiz sobre o processo e que possibilitem a formação da sua convicção'. A alternativa B erra ao excluir as circunstâncias subjetivas, que integram o objeto da prova. A alternativa C confunde objeto da prova com sujeito da prova, categorias distintas no capítulo. A alternativa D erra ao restringir o objeto às alegações da acusação, ignorando os fatos articulados também pela defesa. A alternativa E erra ao restringir indevidamente o objeto aos fatos controvertidos/impugnados, contrariando a definição que abrange todas as circunstâncias necessárias ao convencimento do juiz.",
+    "referencia": "Cap. 5, Seção 5.2, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "id": 544,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante operação da Polícia Federal em área de garimpo ilegal às margens de um rio, os peritos criminais não conseguiram comparecer ao local antes de forte enchente, que destruiu as escavações, dragas e demais sinais da exploração mineral. Remanesceram, contudo, relatórios circunstanciados da equipe de fiscalização do IBAMA, fotografias aéreas, croquis e termos de apreensão. Diante do quadro, a autoridade policial requisitou exame de corpo de delito com base nesse acervo documental. Considerando a sistemática do CPP e o exposto sobre corpo de delito indireto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O exame de corpo de delito indireto é terminantemente vedado nos crimes ambientais, devendo a prova testemunhal suprir de forma integral a ausência do exame direto, nos exatos termos do art. 167 do CPP.",
+      "B": "Em razão da total inexistência de vestígios materiais remanescentes na cena, a confissão do garimpeiro flagranteado supre, por si só, a ausência do exame de corpo de delito, na forma do art. 158 do CPP.",
+      "C": "O exame indireto é admissível quando impossível o direto, cabendo aos peritos buscar no acervo documental os dados necessários à conclusão, ainda que nem sempre com êxito.",
+      "D": "O exame de corpo de delito indireto somente é cabível nos crimes contra o patrimônio em que a Receita Federal tenha destinado as mercadorias antes da perícia, sendo essa a única hipótese admitida pela doutrina pátria.",
+      "E": "Desaparecidos os vestígios, fica o exame de corpo de delito automaticamente dispensado, e a fotografia aérea, por registrar a cena, equivale a exame direto realizado a distância pelos peritos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: conforme a Seção 5.1.1 (p. 44-45), o exame indireto é aceito quando impossível o direto, apoiando-se em fotografias, informações seguras, documentos ou outros elementos levantados pelos peritos, cabendo a eles a busca de todos os dados necessários à conclusão pericial, o que nem sempre será conseguido; o texto cita justamente o exemplo de exploração mineral clandestina em margens de rios, com vestígios destruídos por enchentes. A alternativa A erra ao vedar o exame indireto em crimes ambientais. A alternativa B contraria o art. 158 do CPP, segundo o qual a confissão do acusado não supre o exame de corpo de delito. A alternativa D restringe indevidamente o exame indireto a uma única hipótese, sendo o caso do garimpo outro exemplo expresso. A alternativa E erra ao afirmar dispensa automática do exame e ao confundir registro fotográfico com exame direto, sendo a fotografia base do exame indireto.",
+    "referencia": "Cap. 5, Seção 5.1.1, p. 5",
+    "nivel": "medio"
+  },
+  {
+    "id": 545,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da classificação das provas adotada por Paulo Rangel (2002), apresentada no Capítulo 5, julgue os itens a seguir:\n\nI. Quanto ao objeto, o álibi é classificado como prova direta, pois demonstra de forma imediata a inocência do acusado, sem necessidade de processo lógico de construção.\nII. Quanto ao sujeito, são consideradas provas reais o sêmen, o sangue, a impressão digital e a arma de fogo, por serem oriundas de coisas ou vestígios relacionados ao crime.\nIII. Quanto à forma, a prova material somente assume essa qualidade depois de os vestígios serem examinados e interpretados pela Criminalística; antes disso, são apenas matéria-prima da produção da prova.\nIV. Há autores que negam a existência de prova indireta, sustentando que toda prova é direta em relação ao que é imediatamente provado, e classificam o álibi como prova negativa de autoria.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "Apenas os itens I e II.",
+      "B": "Apenas os itens I, III e IV.",
+      "C": "Apenas os itens II e IV.",
+      "D": "Os itens II, III e IV.",
+      "E": "Apenas os itens I, II e III."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D (II, III e IV). Item I incorreto: o álibi é exemplo clássico de prova INDIRETA (subitem 5.3.1, b, p. 45-46), e não direta. Item II correto (subitem 5.3.2, b, p. 46): sêmen, sangue, impressão digital e arma são provas reais. Item III correto (subitem 5.3.3, c, p. 46): os vestígios são matéria-prima e só se tornam prova material após examinados e interpretados pela Criminalística. Item IV correto (final do subitem 5.3.1, p. 46): há autores que negam a prova indireta e classificam o álibi como prova negativa de autoria. As demais alternativas falham por incluírem o item I incorreto (A, B e E) ou por excluírem o item III correto (C).",
+    "referencia": "Cap. 5, Seção 5.3.1, p. 45-46",
+    "nivel": "dificil"
+  }
+]

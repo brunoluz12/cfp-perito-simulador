@@ -1,0 +1,257 @@
+[
+  {
+    "id": 726,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A seção 3.1 da apostila enfatiza a importância da terminologia padronizada na perícia em acidentes de tráfego. Sobre esse tema, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A padronização terminológica é meramente recomendável, não havendo prejuízo para o laudo caso o perito utilize termos populares ou regionais.",
+      "B": "A padronização terminológica é condição indispensável para a comunicação científica e jurídica eficaz, pois termos imprecisos podem gerar contradições processuais e prejudicar o entendimento do laudo.",
+      "C": "A padronização terminológica é exclusivamente normativa, sendo o Código de Trânsito Brasileiro a única fonte de definições aceita nos laudos periciais, vedando-se o uso de definições consagradas pelos Institutos de Criminalística.",
+      "D": "A padronização terminológica restringe a liberdade técnica do perito, devendo ser observada apenas em casos de grande repercussão midiática."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a seção 3.1: 'A padronização terminológica é condição indispensável para a comunicação científica e jurídica eficaz. No campo da perícia em acidentes de tráfego, termos imprecisos ou utilizados de forma inconsistente podem gerar contradições processuais e prejudicar o entendimento do laudo pericial'.",
+    "referencia": "Cap. 3, Seção 3.1, p. 15",
+    "nivel": "facil"
+  },
+  {
+    "id": 727,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere uma via urbana sem sinalização específica de velocidade, com semáforos controlando suas interseções e com acesso direto a lotes lindeiros (avenida do tipo W3 em Brasília). De acordo com a classificação do CTB apresentada na Tabela 1 da seção 3.2.1, qual a velocidade máxima permitida nesta via?",
+    "alternativas": {
+      "A": "30 km/h, por se tratar de Via Local.",
+      "B": "40 km/h, por se tratar de Via Coletora.",
+      "C": "60 km/h, por se tratar de Via Arterial.",
+      "D": "80 km/h, por se tratar de Via de Trânsito Rápido."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Tabela 1 da seção 3.2.1, a Via Arterial é caracterizada por 'Interseções controladas por semáforos, acesso a lotes lindeiros' e tem velocidade máxima permitida de 60 km/h, citando expressamente W3 e L2 (BSB) como exemplos.",
+    "referencia": "Cap. 3, Seção 3.2.1, p. 15",
+    "nivel": "medio"
+  },
+  {
+    "id": 728,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das vias urbanas pelo CTB, conforme a Tabela 1 da seção 3.2.1, assinale a alternativa em que o tipo de via e sua característica principal estão CORRETAMENTE associados:",
+    "alternativas": {
+      "A": "Via de Trânsito Rápido: interseções controladas por semáforos, com acesso direto a lotes lindeiros.",
+      "B": "Via Arterial: sem interseções em nível e sem acesso direto a lotes lindeiros, com limite padrão de 80 km/h.",
+      "C": "Via de Trânsito Rápido: sem interseções em nível e sem acesso direto a lotes lindeiros, com limite padrão de 80 km/h.",
+      "D": "Via Coletora: acesso local, com interseções sem semáforos e limite padrão de 30 km/h."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Tabela 1 da seção 3.2.1, a Via de Trânsito Rápido é definida como 'Sem interseções em nível, sem acesso direto a lotes lindeiros', com velocidade máxima de 80 km/h (exemplos: Eixão (BSB), marginais, expressas, perimetrais).",
+    "referencia": "Cap. 3, Seção 3.2.1, p. 15",
+    "nivel": "dificil"
+  },
+  {
+    "id": 729,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das vias rurais conforme a Tabela 2 da seção 3.2.2 da apostila, julgue os itens: I - As vias rurais subdividem-se em rodovias (pavimentadas) e estradas (não pavimentadas). II - Em rodovia de pista dupla, a velocidade máxima para automóveis, camionetas e motocicletas é de 110 km/h. III - Em rodovia de pista simples, a velocidade máxima para automóveis, camionetas e motocicletas é de 100 km/h. IV - Em estradas (não pavimentadas), a velocidade máxima padrão é de 80 km/h para todos os tipos de veículos. V - Em rodovia de pista dupla, os demais veículos (que não automóveis, camionetas e motocicletas) têm velocidade máxima de 90 km/h. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e IV.",
+      "C": "I, II, III e V.",
+      "D": "Todos os itens."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Tabela 2 da seção 3.2.2: as vias rurais subdividem-se em rodovias (pavimentadas) e estradas (não pavimentadas); pista dupla 110 km/h para automóveis/camionetas/motocicletas e 90 km/h para demais; pista simples 100 km/h para automóveis e 90 km/h para demais; estrada 60 km/h para todos os tipos. O item IV está incorreto, pois a velocidade máxima em estrada é 60 km/h, não 80 km/h.",
+    "referencia": "Cap. 3, Seção 3.2.2, p. 16",
+    "nivel": "dificil"
+  },
+  {
+    "id": 730,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um croqui pericial, o perito deve identificar corretamente os componentes da via. Considerando as definições da seção 3.3 da apostila, assinale a alternativa que descreve CORRETAMENTE o componente indicado:",
+    "alternativas": {
+      "A": "Acostamento: parte da via destinada ao trânsito de pedestres e, quando possível, de ciclistas, totalmente separada da pista por diferença de nível.",
+      "B": "Calçada: parte da via destinada à parada ou estacionamento de veículos em casos de emergência, ladeando a pista de rolamento.",
+      "C": "Faixa de rolamento: espaço na pista delimitado por linha contínua ou seccionada, destinado ao trânsito de um veículo por vez.",
+      "D": "Canteiro central: barreira de contenção lateral instalada em pontos críticos de rodovias para reduzir a gravidade de saídas de pista."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a seção 3.3: 'Faixa de rolamento: espaço na pista delimitado por linha contínua ou seccionada, destinado ao trânsito de um veículo por vez'. As demais alternativas trocam as definições de Acostamento, Calçada e Defensa metálica (guard rail).",
+    "referencia": "Cap. 3, Seção 3.3, p. 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 731,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito de defensa metálica (guard rail) e sua função, conforme a seção 3.3 da apostila, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "É um subsistema de sinalização constituído por elementos pintados ou afixados sobre a pista.",
+      "B": "É um obstáculo construído como separador de pistas, podendo ser gramado, pavimentado ou dotado de barreiras físicas.",
+      "C": "É o espaço na pista delimitado por linha contínua, destinado a manobras de ultrapassagem em rodovias de pista simples.",
+      "D": "É uma barreira de contenção lateral instalada em pontos críticos de rodovias para reduzir a gravidade de saídas de pista."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a seção 3.3: 'Defensa metálica (guard rail): barreira de contenção lateral instalada em pontos críticos de rodovias para reduzir a gravidade de saídas de pista'.",
+    "referencia": "Cap. 3, Seção 3.3, p. 16-17",
+    "nivel": "facil"
+  },
+  {
+    "id": 732,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A seção 3.4 transcreve a definição da ABNT para acidente de trânsito. Segundo essa definição, é CORRETO afirmar que acidente de trânsito é:",
+    "alternativas": {
+      "A": "Todo evento não premeditado de que resulte dano em veículo ou na sua carga e/ou lesões em pessoas e/ou animais, em que pelo menos uma das partes está em movimento nas vias terrestres ou áreas abertas ao público.",
+      "B": "Apenas as ocorrências com vítimas fatais em vias terrestres pavimentadas, excluindo-se danos materiais isolados.",
+      "C": "Qualquer colisão entre veículos automotores, independentemente do local de ocorrência, desde que haja lesões em pessoas.",
+      "D": "Todo evento premeditado de que resulte dano em veículo, ainda que sem vítimas, ocorrido exclusivamente em vias urbanas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a seção 3.4: 'A ABNT define acidente de trânsito como todo evento não premeditado de que resulte dano em veículo ou na sua carga e/ou lesões em pessoas e/ou animais, em que pelo menos uma das partes está em movimento nas vias terrestres ou áreas abertas ao público'.",
+    "referencia": "Cap. 3, Seção 3.4, p. 17",
+    "nivel": "medio"
+  },
+  {
+    "id": 733,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma cena pericial, o perito constata: avarias anteriores em ambos os veículos envolvidos, marcas convergentes no asfalto e fragmentos concentrados no espaço entre os veículos. Conforme a Tabela 3 da seção 3.4.1, qual o subtipo de colisão mais provável?",
+    "alternativas": {
+      "A": "Colisão lateral.",
+      "B": "Colisão transversal/perpendicular.",
+      "C": "Colisão traseira.",
+      "D": "Colisão frontal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a Tabela 3 da seção 3.4.1, a colisão frontal é caracterizada por 'Avarias anteriores em ambos, marcas convergentes, fragmentos no espaço entre os veículos', sendo definida como 'Dois veículos se chocam pelas partes dianteiras (anteriores), em sentidos opostos'.",
+    "referencia": "Cap. 3, Seção 3.4.1, p. 17",
+    "nivel": "dificil"
+  },
+  {
+    "id": 734,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma colisão transversal (perpendicular) em cruzamento, o perito observa duas características marcantes nas marcas pneumáticas. Conforme descrito na Tabela 3 da seção 3.4.1, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "As marcas de frenagem do veículo abalroador são curvas e divergentes; as marcas do veículo abalroado são paralelas à sua trajetória original.",
+      "B": "Ambos os veículos deixam exclusivamente marcas frontais retilíneas no sentido de seus respectivos deslocamentos, sem mudança de direção.",
+      "C": "Não há marcas pneumáticas características em colisões transversais, sendo o vestígio principal apenas o estampamento metálico nos veículos.",
+      "D": "As marcas de frenagem do veículo abalroador são retas, paralelas, convergindo para o ponto de colisão; as marcas de derrapagem lateral do abalroado são perpendiculares ou oblíquas à sua trajetória original, resultantes do impulso transversal recebido."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a Tabela 3 da seção 3.4.1, em colisão transversal/perpendicular: 'marcas de frenagem do veículo abalroador: retas, paralelas, convergindo para o ponto de colisão; marcas de derrapagem lateral do veículo abalroado: perpendiculares ou oblíquas à sua trajetória original, resultantes do impulso transversal recebido'.",
+    "referencia": "Cap. 3, Seção 3.4.1, p. 18",
+    "nivel": "dificil"
+  },
+  {
+    "id": 735,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um acidente, o veículo executou rotação completa em torno de seu eixo transversal horizontal, perdeu totalmente o contato das rodas com o pavimento durante o giro e, ao final, retornou à sua posição normal de operação sobre as rodas. Conforme a seção 3.4.2 da apostila, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O evento deve ser classificado como capotamento, pois a posição final de repouso do veículo não determina a classificação - um veículo que capotou e retornou à posição normal ainda é registrado como capotamento.",
+      "B": "O evento deve ser classificado como saída de pista, pois não houve repouso final invertido.",
+      "C": "O evento deve ser classificado como tombamento, pois o veículo terminou apoiado sobre as rodas.",
+      "D": "O evento não constitui acidente de tráfego típico, devendo ser registrado como simples descontrole de direção."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a seção 3.4.2: 'É fundamental ressaltar que a posição final de repouso do veículo não determina a classificação como capotamento - um veículo que capotou e retornou à sua posição normal de operação sobre as rodas ainda é registrado como capotamento'.",
+    "referencia": "Cap. 3, Seção 3.4.2, p. 18",
+    "nivel": "dificil"
+  },
+  {
+    "id": 736,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os conceitos de capotamento e tombamento na taxonomia dos acidentes (seções 3.4.2 e 3.4.3), julgue os itens: I - No capotamento, há perda total do contato das rodas com o pavimento durante o movimento de rotação. II - O tombamento distingue-se do capotamento por não haver perda total do contato das rodas com o pavimento durante o movimento rotacional. III - No tombamento, o giro é de aproximadamente 90° em torno do eixo longitudinal horizontal, repousando o veículo sobre um dos lados. IV - O tombamento ocorre exclusivamente em veículos de passeio (automóveis), nunca em caminhões ou ônibus. V - O tombamento pode ser desencadeado por saída de pista, manobra evasiva brusca, colisão lateral, terreno irregular ou falha de contenção em curva. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "I, II, III e V.",
+      "C": "II, III e IV.",
+      "D": "III, IV e V."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os itens I, II, III e V refletem fielmente as seções 3.4.2 e 3.4.3. O item IV está incorreto, pois conforme a seção 3.4.3 o tombamento 'É mais frequente em veículos com centro de gravidade elevado, como caminhões, ônibus, vans e utilitários esportivos'.",
+    "referencia": "Cap. 3, Seções 3.4.2 e 3.4.3, p. 18-19",
+    "nivel": "dificil"
+  },
+  {
+    "id": 737,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um automóvel desgovernou em curva e ultrapassou os limites da pista de rolamento, descendo um talude. Durante a saída, colidiu apenas com pequenas vegetações e uma pedra de pequeno porte, antes de parar sem capotar. Conforme a seção 3.4.4, o evento deve ser classificado como:",
+    "alternativas": {
+      "A": "Colisão com objeto fixo, em razão do contato com a pedra e vegetação.",
+      "B": "Capotamento parcial, pois o veículo desceu o talude.",
+      "C": "Saída de pista, pois colisões com pequenas pedras ou vegetação de pequeno porte não descaracterizam o evento como saída de pista.",
+      "D": "Atropelamento ambiental, categoria especial prevista no caderno didático."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a seção 3.4.4: 'A saída de pista ocorre quando o veículo transpõe os limites da pista de rolamento sem colidir com obstáculos, excetuando-se o meio-fio e pequenas estruturas da via. Colisões com pequenas pedras ou vegetação de pequeno porte não descaracterizam o evento como saída de pista'.",
+    "referencia": "Cap. 3, Seção 3.4.4, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 738,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o atropelamento como categoria especial de acidente de tráfego, conforme a seção 3.4.5, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "No atropelamento, a análise do cadáver é dispensável quando há testemunhas oculares, sendo o exame perinecroscópico restrito a casos sem identificação da vítima.",
+      "B": "O atropelamento envolve apenas pedestres, jamais ciclistas, sendo estes último categoria à parte na taxonomia da apostila.",
+      "C": "O atropelamento é a colisão entre um veículo em movimento e um pedestre ou ciclista, e a análise do cadáver (exame perinecroscópico) assume particular importância para a determinação da dinâmica.",
+      "D": "O atropelamento é definido como o contato entre um veículo parado e um pedestre em movimento, sendo categoria genérica de acidente de tráfego."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a seção 3.4.5: 'O atropelamento é a colisão entre um veículo em movimento e um pedestre ou ciclista. Constitui categoria especial de acidente de tráfego em que a análise do cadáver (exame perinecroscópico) assume particular importância para a determinação da dinâmica – sentido de deslocamento do pedestre, ponto de impacto inicial no veículo, trajetória de projeção e posição de repouso final'.",
+    "referencia": "Cap. 3, Seção 3.4.5, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 739,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame pericial, é necessário distinguir corretamente os sítios envolvidos na dinâmica do acidente. Conforme a Tabela 4 da seção 3.5, qual sítio é definido como o 'Local (área) onde, de acordo com as análises periciais, o condutor percebeu o perigo ou o fato que demandou a sua reação' e é calculado retroativamente a partir do sítio de reação e do tempo de percepção-reação (TPR)?",
+    "alternativas": {
+      "A": "Sítio do Acidente (SA).",
+      "B": "Sítio de Percepção (SP).",
+      "C": "Sítio de Reação (SR).",
+      "D": "Sítio de Não Escapada (SNE)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a Tabela 4 da seção 3.5, o Sítio de Percepção (SP) é o 'Local (área) onde, de acordo com as análises periciais, o condutor percebeu o perigo ou o fato que demandou a sua reação' e é 'Calculado retroativamente a partir do sítio de reação e do tempo de percepção-reação (TPR)'.",
+    "referencia": "Cap. 3, Seção 3.5, p. 20",
+    "nivel": "medio"
+  },
+  {
+    "id": 740,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Causa Determinante de um acidente de tráfego, conforme a seção 3.6 e seu quadro de Atenção, julgue os itens: I - A causa determinante é o fator sem o qual o acidente não teria ocorrido - o elemento preponderante e condicionante do sinistro. II - Em acidentes com múltiplas causas concorrentes, o perito deve identificar e hierarquizar os fatores contribuintes, distinguindo a causa principal das causas secundárias ou concorrentes. III - A identificação da causa determinante subsidia a avaliação das modalidades de culpa (imprudência, negligência ou imperícia) e do nexo causal. IV - O perito deve trabalhar exclusivamente com declarações dos envolvidos e depoimentos de testemunhas para formular a causa determinante, sendo os vestígios materiais elementos complementares. V - O perito deve trabalhar exclusivamente com vestígios materiais ao formular a causa determinante; declarações, depoimentos e imagens são elementos complementares. Estão CORRETOS apenas:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e IV.",
+      "C": "III, IV e V.",
+      "D": "I, II, III e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a seção 3.6: 'A causa determinante é o fator sem o qual o acidente não teria ocorrido'; 'o perito deve identificar e hierarquizar os fatores contribuintes'; 'subsidia a avaliação das modalidades de culpa (imprudência, negligência ou imperícia), do nexo causal'. O quadro de Atenção afirma: 'O perito deve trabalhar exclusivamente com vestígios materiais ao formular a causa determinante. Declarações dos envolvidos, depoimentos de testemunhas e imagens de câmeras de segurança são elementos complementares'. O item IV inverte essa lógica e é incorreto.",
+    "referencia": "Cap. 3, Seção 3.6, p. 21",
+    "nivel": "dificil"
+  }
+]

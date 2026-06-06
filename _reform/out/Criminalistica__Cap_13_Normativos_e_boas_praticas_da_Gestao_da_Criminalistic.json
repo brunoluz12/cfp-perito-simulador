@@ -1,0 +1,218 @@
+[
+  {
+    "id": 487,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito Criminal Federal recém-empossado, lotado em unidade de criminalística no interior do país, necessita consultar o acervo de normas expedidas pela Diretoria Técnico-Científica (DITEC) e pelo Instituto Nacional de Criminalística (INC), bem como acessar os documentos do Sistema de Gestão da Qualidade do SNC. Acerca do acesso, da gestão e da natureza da Biblioteca Digital da Criminalística (BDCRIM), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A BDCRIM é o repositório oficial de normas e documentos da criminalística da PF, acessível atualmente apenas pela intranet da Polícia Federal mediante senha do domínio PF, cabendo sua atualização e manutenção à Diretoria Técnico-Científica, nos termos da Portaria DITEC/PF nº 1368/2024.",
+      "B": "A BDCRIM é acessível tanto pela internet, em modo público, quanto pela intranet da PF, exigindo-se nesta última apenas certificado digital ICP-Brasil para autenticação na área restrita, e a sua manutenção, atualização e curadoria de conteúdo competem privativamente ao Instituto Nacional de Criminalística, conforme delegação expressa da Diretoria-Geral.",
+      "C": "A BDCRIM é repositório aberto ao público externo mediante cadastro prévio no portal da Polícia Federal, tendo sua manutenção sido transferida, em 2024, à Diretoria-Geral da PF por instrução normativa específica.",
+      "D": "A BDCRIM constitui o sistema oficial de polícia judiciária destinado ao trâmite das requisições periciais e dos laudos, sendo mantida em regime de parceria entre a DITEC e a Corregedoria-Geral da PF.",
+      "E": "A BDCRIM substitui as publicações oficiais dos atos normativos em Diário Oficial da União, conferindo validade jurídica autônoma aos documentos nela depositados, e sua gestão é compartilhada entre a DITEC e o INC."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: conforme o Cap. 13, Seção 13.1, p. 91, a BDCRIM é o repositório oficial da criminalística da PF, atualmente acessível apenas pela intranet com senha do domínio PF, e sua atualização/manutenção competem à DITEC (Portaria DITEC/PF nº 1368/2024). B erra ao admitir acesso público pela internet e ao atribuir a manutenção ao INC (e não exige certificado ICP-Brasil). C erra ao afirmar acesso público e transferência à Diretoria-Geral. D confunde a BDCRIM com o sistema de polícia judiciária (ePol/SISCRIM), não destinado ao trâmite de requisições. E é falsa: a biblioteca/Guia ENCRIM não substituem as publicações oficiais (p. 94), que mantêm a validade jurídica.",
+    "referencia": "Cap. 13, Seção 13.1, p. 91",
+    "nivel": "facil"
+  },
+  {
+    "id": 488,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Unidade de perícia criminal federal iniciou a implantação de Sistema de Gestão da Qualidade (SGQ) baseado na ABNT NBR ISO 9001:2015. Sobre os benefícios potenciais da adoção do SGQ, conforme a referida norma reproduzida no material, julgue os itens a seguir:\n\nI. Capacidade de prover consistentemente produtos e serviços que atendam aos requisitos do cliente e aos requisitos estatutários e regulamentares aplicáveis.\nII. Obrigatoriedade de redução de, no mínimo, 50% no tempo médio de atendimento das requisições periciais, fixada como meta institucional vinculante.\nIII. Facilitação de oportunidades para aumentar a satisfação do cliente.\nIV. Abordagem dos riscos e oportunidades associados ao contexto e aos objetivos da organização.\nV. Capacidade de demonstrar conformidade com requisitos especificados de sistemas de gestão da qualidade.\n\nAssinale a alternativa que contém APENAS os itens que correspondem a benefícios potenciais previstos na norma.",
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "II, III, IV e V.",
+      "C": "I, II, IV e V.",
+      "D": "I, III, IV e V.",
+      "E": "Todos os itens, pois cada um deles reproduz fielmente um benefício potencial expressamente arrolado pela ABNT NBR ISO 9001:2015."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D (I, III, IV e V): conforme o Cap. 13, Seção 13.1, p. 91, esses são exatamente os benefícios potenciais do SGQ segundo a ISO 9001:2015. O item II é inventado — a norma não fixa qualquer meta numérica de redução de tempo médio de atendimento. Por conterem o item II falso, as alternativas A, B, C e E estão incorretas (A, C e E o incluem; B exclui o item I, que é verdadeiro).",
+    "referencia": "Cap. 13, Seção 13.1, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 489,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito Criminal Federal recebe em carga requisição de exame de natureza complexa, cuja conclusão demandará prazo significativamente superior ao previsto no art. 160 do CPP. À luz do CPP e da IN DG/PF nº 255/2023, bem como das boas práticas de gestão da criminalística federal, assinale a alternativa que descreve corretamente o tratamento dos prazos de elaboração do laudo pericial.",
+    "alternativas": {
+      "A": "O art. 160 do CPP foi tacitamente revogado pela IN 255/2023, que instituiu prazo único de 30 dias para todos os laudos, admitida prorrogação automática a critério exclusivo do perito designado, sem necessidade de comunicação ao requisitante.",
+      "B": "O laudo deve ser elaborado no prazo máximo de 10 dias, prorrogável em casos excepcionais a requerimento dos peritos (art. 160 do CPP); a IN 255/2023 (art. 58) prevê a prorrogação mediante solicitação fundamentada, com indicação de prazo estimado para conclusão da perícia.",
+      "C": "O laudo deve ser elaborado em até 10 dias corridos, prazo improrrogável, sob pena de nulidade do exame e de responsabilização funcional do perito designado, salvo motivo de força maior reconhecido pelo juízo.",
+      "D": "O prazo de 10 dias conta-se da data do exame in loco e pode ser prorrogado pelo gestor da unidade independentemente de comunicação ao requisitante, conforme expressamente disposto no art. 58 da IN 255/2023.",
+      "E": "O art. 160 do CPP fixa prazo de 10 dias prorrogável a requerimento dos peritos, mas a IN 255/2023 condiciona qualquer prorrogação à prévia autorização do Diretor Técnico-Científico, dispensada a indicação de prazo estimado de conclusão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: conforme o Cap. 13, Seção 13.2, p. 92, o art. 160, parágrafo único, do CPP fixa prazo de 10 dias prorrogável em casos excepcionais a requerimento dos peritos, e o art. 58 da IN 255/2023 prevê prorrogação mediante solicitação fundamentada com indicação de prazo estimado para conclusão. A erra: a IN não revogou o CPP nem instituiu prazo único de 30 dias com prorrogação automática. C erra ao tratar o prazo como improrrogável, contrariando o próprio CPP. D erra na contagem (que se inicia com o recebimento/registro da requisição, não com o exame in loco) e ao dispensar a solicitação fundamentada. E inventa autorização prévia do Diretor Técnico-Científico e a dispensa da indicação de prazo.",
+    "referencia": "Cap. 13, Seção 13.2, p. 92",
+    "nivel": "medio"
+  },
+  {
+    "id": 490,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Guia da Estrutura Normativa da Criminalística (Guia ENCRIM), disponível na BDCRIM, organiza por áreas de exame e de gestão os normativos que regem a atividade pericial federal. Acerca da natureza e do alcance do Guia ENCRIM, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Guia ENCRIM detém força normativa equivalente à dos atos por ele compilados, substituindo, para fins de eficácia e de presunção de vigência, tanto as publicações em Diário Oficial da União quanto as veiculadas em Boletim de Serviço da Polícia Federal.",
+      "B": "O Guia ENCRIM é editado privativamente pelo Diretor-Geral da PF e possui caráter exaustivo, vedada a aplicação subsidiária de quaisquer outros normativos por ele não contemplados.",
+      "C": "O Guia ENCRIM, por consolidar os atos vigentes, prevalece sobre o texto publicado oficialmente em caso de divergência, presumindo-se atualizado e completo na data de sua consulta.",
+      "D": "O Guia ENCRIM restringe-se às áreas de perícia técnico-científica de laboratório, não abrangendo temas de gestão como distribuição de requisições, criticidade e segurança no local de crime.",
+      "E": "O Guia ENCRIM constitui mera compilação que não substitui as publicações oficiais dos atos normativos ou de suas alterações, podendo haver divergência entre seu conteúdo e a situação dos atos posteriormente à data de sua versão."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a letra E: conforme o Cap. 13, Seção 13.3, p. 94, o Guia ENCRIM é mera compilação que não substitui as publicações oficiais dos atos normativos ou de suas alterações, podendo haver divergência entre seu conteúdo e a situação dos atos após a data de sua versão. A e C erram ao lhe atribuir força normativa e prevalência sobre as publicações oficiais. B erra quanto ao editor e ao caráter exaustivo. D erra: o Guia abrange também temas de gestão (genética, balística, meio ambiente e gestão).",
+    "referencia": "Cap. 13, Seção 13.3, p. 94",
+    "nivel": "facil"
+  },
+  {
+    "id": 491,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em reunião de gestão da SETEC, discutem-se a tipologia dos atos normativos vigentes na criminalística federal e os efeitos do Decreto nº 12.002/2024. Acerca das definições de Instrução Normativa (IN), Instrução de Serviço (IS), Instrução Técnica (IT), Orientação Técnica (OT) e Portaria, bem como dos efeitos do referido decreto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Após o Decreto nº 12.002/2024, os únicos atos passíveis de publicação são as portarias, as instruções normativas e as resoluções; o mesmo decreto, contudo, assegurou a eficácia de normas anteriores ainda vigentes, como as IT, as OT e as IS.",
+      "B": "A Instrução Técnica (IT) é ato expedido exclusivamente pelo Diretor-Geral, com o objetivo de regular e uniformizar métodos técnicos no âmbito da PF, tendo se convertido, desde 2022, no único instrumento normativo válido em matéria pericial, com revogação tácita das demais espécies.",
+      "C": "A Portaria, no âmbito da criminalística, somente pode ser expedida pelo Corregedor-Geral da PF e pelos Superintendentes Regionais, sendo vedada sua expedição pelo Diretor Técnico-Científico e pelo INC.",
+      "D": "A Orientação Técnica (OT) é ato de caráter vinculante e privativo do Diretor-Geral da PF, constituindo o único normativo capaz de criar obrigações para os Peritos Criminais Federais em matéria de exames.",
+      "E": "Com o Decreto nº 12.002/2024, todas as IT, OT e IS anteriores perderam imediatamente a eficácia, devendo seu conteúdo ser reeditado sob a forma de instruções normativas para voltar a produzir efeitos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: conforme o Cap. 13, Seção 13.3, p. 96, após o Decreto nº 12.002/2024 os únicos atos publicáveis são portarias, instruções normativas e resoluções, mas o decreto garantiu a eficácia de normas anteriores como IT, OT e IS. B erra: a IT é privativa dos Diretores (não só do DG) e não é o único instrumento válido. C erra: a Portaria, na criminalística, pode ser expedida pelo Diretor Técnico-Científico e pelo INC. D erra: a OT tem caráter enunciativo e é privativa do Diretor Técnico-Científico, não do DG. E erra: o decreto preservou a eficácia das normas anteriores, que não foram extintas.",
+    "referencia": "Cap. 13, Seção 13.3, p. 96",
+    "nivel": "medio"
+  },
+  {
+    "id": 492,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Delegado de Polícia Federal, no curso de inquérito policial em circunscrição da SR/PE, decide encaminhar requisição de exame pericial diretamente a unidade de criminalística vinculada a outra Superintendência, sob o argumento de maior expertise técnica daquela unidade. À luz da IN DG/PF nº 255/2023, em especial dos arts. 55 e 62, assinale a alternativa correta acerca do procedimento adotado.",
+    "alternativas": {
+      "A": "O procedimento é regular, pois a IN 255/2023 faculta ao requisitante eleger livremente a unidade de criminalística de maior expertise para atender à requisição, independentemente da circunscrição.",
+      "B": "O procedimento é regular desde que haja prévia anuência do Diretor Técnico-Científico, ficando dispensada a observância da circunscrição sempre que se tratar de exame de natureza complexa.",
+      "C": "O procedimento é irregular apenas quanto à eventual ausência do termo de apreensão; no tocante à escolha da unidade, a IN 255/2023 confere autonomia plena ao delegado requisitante.",
+      "D": "O procedimento é irregular, pois, nos termos do art. 55 da IN 255/2023, as requisições de exame devem ser dirigidas ao chefe da unidade de perícia criminal federal da circunscrição a que estiver vinculada, acompanhadas dos termos de apreensão e distribuídas imediatamente aos peritos.",
+      "E": "O procedimento é irregular, pois o art. 62 da IN 255/2023 exige que toda requisição de exame seja previamente cadastrada no ePol pelo delegado e somente depois remetida, automaticamente pelo próprio sistema, à unidade de criminalística da circunscrição a que vinculado o requisitante, vedada a tramitação por outro meio."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D: conforme o Cap. 13, Seção 13.4, p. 96, o art. 55 da IN 255/2023 determina que as requisições sejam dirigidas ao chefe da unidade de perícia da circunscrição em que estiver vinculada, acompanhadas dos termos de apreensão e distribuídas imediatamente aos peritos. A e B erram ao admitir escolha livre da unidade (eventualmente com anuência do DTC) à revelia da circunscrição. C erra ao reconhecer autonomia plena na escolha da unidade. E erra ao deturpar o art. 62, que trata do upload do laudo no SISCRIM e seu envio ao ePol, e não do cadastro prévio da requisição como condição de remessa.",
+    "referencia": "Cap. 13, Seção 13.4, p. 96",
+    "nivel": "medio"
+  },
+  {
+    "id": 493,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Instrução de Serviço nº 7/2011-DITEC/DPF estabelece diretrizes para a distribuição de requisições periciais e para o uso do SISCRIM. Considerando cenário em que o gestor da unidade precisa distribuir requisições a diferentes peritos, julgue os itens:\n\nI. O gestor deve designar imediatamente perito para atendimento da requisição por meio do SISCRIM, sendo vedada a designação por sistema diverso.\nII. A metodologia de distribuição deve ser equânime, baseada nas especialidades, na criticidade, na complexidade e em outras atividades desenvolvidas.\nIII. Quando a requisição envolver exame complexo, não repetível ou que exija mais de uma área de formação acadêmica, é vedada a designação de mais de um perito para o mesmo exame.\nIV. O perito designado pode solicitar ao gestor a designação adicional de outros peritos.\nV. Usuários do SISCRIM que mantenham requisição de exame sem cadastramento de objetos de exame ou sem análise de viabilidade há mais de 10 dias terão funcionalidades do sistema parcialmente bloqueadas.\n\nAssinale a alternativa que contém APENAS os itens corretos.",
+    "alternativas": {
+      "A": "I, III, IV e V.",
+      "B": "II, III, IV e V.",
+      "C": "I, II, III e V.",
+      "D": "I, II, IV e V.",
+      "E": "I, II, IV, e somente parte do V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D (I, II, IV e V): conforme o Cap. 13, Seção 13.5.1, p. 97, a designação é exclusivamente pelo SISCRIM (I), a distribuição é equânime conforme especialidade, criticidade e complexidade (II), o perito pode solicitar designação adicional de outros peritos (IV) e o bloqueio parcial ocorre após 10 dias (V). O item III está errado: nesses casos complexos ou multidisciplinares o gestor PODE, justificadamente, designar mais de um perito para o mesmo exame — portanto não há vedação. As demais alternativas falham por incluir o item III (A, B e C) ou por descaracterizar o item V (E).",
+    "referencia": "Cap. 13, Seção 13.5.1, p. 97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 494,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a análise de viabilidade de uma requisição de exame, o perito designado identifica que o material apresentado é insuficiente para a realização do exame e comunica formalmente o fato ao gestor, que encaminha as inconformidades ao requisitante, solicitando adequação. Transcorridos 35 dias sem qualquer resposta de adequação, e nos termos da IS nº 7/2011-DITEC/DPF, assinale a alternativa que indica a providência correta.",
+    "alternativas": {
+      "A": "O perito deve arquivar diretamente a requisição no SISCRIM, mediante despacho fundamentado, independentemente de retorno ao gestor da unidade.",
+      "B": "O perito deve devolver de imediato a requisição ao requisitante, lavrando termo de devolução com força de laudo negativo de constatação.",
+      "C": "Tendo decorrido o prazo de 30 dias sem resposta de adequação, o perito deve encaminhar a requisição e o respectivo material ao gestor, a quem cabe adotar as providências cabíveis.",
+      "D": "O perito deve aguardar manifestação do Diretor do INC, autoridade competente para dirimir casos de inconformidade nas requisições, na forma do art. 26 da IS 7/2011.",
+      "E": "O perito deve prosseguir no exame com o material disponível, consignando no laudo as limitações decorrentes da insuficiência, vedada a devolução ao gestor antes de esgotado o prazo de 60 dias."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: conforme o Cap. 13, Seção 13.5.2, p. 98, o art. 21, §2º, da IS 7/2011 dispõe que, não apresentada resposta de adequação no prazo de 30 dias, o perito deve encaminhar a requisição e o respectivo material ao gestor, que tomará as providências. Como já decorreram 35 dias, o prazo está vencido. A erra ao prever arquivamento direto pelo perito sem retorno ao gestor. B erra ao impor devolução imediata com força de laudo negativo. D inventa competência do Diretor do INC e dispositivo inexistente. E inventa prazo de 60 dias e contraria o procedimento de encaminhamento ao gestor.",
+    "referencia": "Cap. 13, Seção 13.5.2, p. 98",
+    "nivel": "medio"
+  },
+  {
+    "id": 495,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da Instrução de Serviço nº 8/2011-DITEC/DPF, que trata da criticidade da requisição de exame, e considerando a gestão da fila de atendimento nas unidades de criminalística federal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A criticidade da requisição é definida unilateralmente pelo perito designado no ato da análise de viabilidade, podendo ser classificada em urgente, ordinária ou diferida.",
+      "B": "A criticidade pode ser classificada como alta, média ou baixa, e a gestão da fila de atendimento cabe ao chefe da unidade, que observa a cronologia de cadastro das requisições dentro de cada criticidade, salvo situações excepcionais.",
+      "C": "A criticidade é fixada de forma vinculante e definitiva pelo requisitante no momento da requisição e possui caráter absoluto, sendo vedada qualquer alteração da ordem de atendimento pelo chefe da unidade, ainda que em situações excepcionais devidamente justificadas e documentadas no SISCRIM.",
+      "D": "A IS 8/2011 instituiu três níveis de criticidade — máxima, intermediária e mínima —, cabendo a gestão da fila de atendimento exclusivamente ao Diretor do INC.",
+      "E": "A criticidade comporta apenas dois níveis, alta e baixa, e a gestão da fila segue rigorosamente a cronologia de cadastro, sem qualquer exceção, ainda que diante de situações de urgência."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: conforme o Cap. 13, Seção 13.5.2/13.5.3, p. 98-99, a criticidade pode ser alta, média ou baixa, e a gestão da fila é feita pelo chefe da unidade, seguindo a cronologia de cadastro dentro de cada criticidade, salvo situações excepcionais. A erra quanto aos níveis (urgente/ordinária/diferida) e ao definidor. C erra ao tornar a ordem absoluta e insuscetível de exceção. D erra nos níveis (máxima/intermediária/mínima) e ao atribuir a gestão ao Diretor do INC. E erra ao reduzir a dois níveis e ao afastar as situações excepcionais.",
+    "referencia": "Cap. 13, Seção 13.5.2, p. 98",
+    "nivel": "facil"
+  },
+  {
+    "id": 496,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe pericial é acionada para atendimento de local de crime em residência onde houve disparos de arma de fogo. Ao chegar, depara-se com vítima ferida em meio a vestígios sensíveis (cápsulas, projéteis e manchas hemáticas). Considerando as boas práticas de segurança apresentadas no Cap. 13 (item 13.5.3), assinale a alternativa que reflete corretamente a ordem de prioridades a ser observada.",
+    "alternativas": {
+      "A": "A prioridade máxima é a preservação dos vestígios; somente após o registro fotográfico inicial deve-se providenciar o socorro às vítimas, de modo a evitar a contaminação do local.",
+      "B": "A primeira prioridade é o isolamento do local em raio mínimo de 30 metros e o imediato registro fotográfico panorâmico, sendo o socorro à vítima atribuição exclusiva do serviço médico de urgência, vedada qualquer intervenção da equipe pericial sobre a vítima antes da chegada do socorro especializado.",
+      "C": "A primeira prioridade é o socorro aos feridos, ainda que para tanto seja necessário expor a equipe a riscos remanescentes no local, ficando a segurança da equipe relegada a segundo plano.",
+      "D": "A prioridade absoluta é a coleta imediata dos vestígios biológicos da vítima, ainda que isso prolongue o tempo até o atendimento médico, em razão da volatilidade desse material.",
+      "E": "A primeira prioridade é a manutenção da segurança da equipe e das demais pessoas; a segunda é o socorro aos feridos, que se sobrepõe à preservação dos vestígios, devendo ser realizado com o mínimo possível de perda de provas."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a letra E: conforme o Cap. 13, Seção 13.5.3, p. 100, a 1ª prioridade é a manutenção da segurança da equipe e demais pessoas (não se expondo a equipe a riscos nem para preservar provas ou socorrer vítimas), a 2ª é o socorro aos feridos (que se sobrepõe à preservação, com o mínimo de perda de provas possível) e a 3ª é a preservação dos vestígios. A e D erram ao colocar a preservação/coleta de vestígios acima do socorro. B erra ao vedar a intervenção pericial e fixar a preservação/isolamento como primeira prioridade. C erra ao subordinar a segurança da equipe ao socorro — a segurança é sempre a primeira prioridade.",
+    "referencia": "Cap. 13, Seção 13.5.3, p. 100",
+    "nivel": "medio"
+  },
+  {
+    "id": 564,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Biblioteca Digital da Criminalística (BDCRIM) é o repositório oficial de normas e documentos da criminalística da Polícia Federal, contemplando, entre outros conteúdos, o acervo de normas expedidas pela Diretoria Técnico-Científica e pelo Instituto Nacional de Criminalística, bem como os documentos do Sistema de Gestão da Qualidade do SNC. A respeito da BDCRIM, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A BDCRIM é atualmente acessível tanto pela internet, em acesso público, quanto pela intranet da PF, bastando, na área restrita, autenticação com senha do domínio PF.",
+      "B": "A BDCRIM é mantida pelo Instituto Nacional de Criminalística (INC) e seu acesso é franqueado ao público externo mediante cadastro prévio no portal da Polícia Federal.",
+      "C": "A BDCRIM é acessível apenas pela intranet da Polícia Federal, com senha do domínio PF, e sua atualização e manutenção estão atribuídas à Diretoria Técnico-Científica, conforme a Portaria DITEC/PF nº 1368/2024.",
+      "D": "A BDCRIM substitui as publicações oficiais dos atos normativos no Diário Oficial da União, conferindo validade jurídica autônoma aos documentos nela publicados.",
+      "E": "A BDCRIM, embora hospedada na intranet da PF, tem sua atualização, manutenção e curadoria atribuídas à Corregedoria-Geral da Polícia Federal, e o seu acesso prescinde de qualquer autenticação por parte dos usuários internos lotados nas unidades de criminalística."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: conforme o Cap. 13, Seção 13.1, p. 91, a BDCRIM é atualmente acessível apenas pela intranet da PF, com senha do domínio PF, e sua atualização e manutenção competem à DITEC (Portaria DITEC/PF nº 1368/2024). A erra ao admitir acesso público pela internet. B erra ao atribuir a manutenção ao INC e franquear acesso ao público externo. D é falsa: a BDCRIM/Guia ENCRIM não substituem as publicações oficiais (p. 94), que conservam a validade jurídica. E erra ao atribuir a manutenção à Corregedoria-Geral e ao dispensar a autenticação dos usuários internos.",
+    "referencia": "Cap. 13, p. 91",
+    "nivel": "facil"
+  },
+  {
+    "id": 565,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das Instruções de Serviço nº 7/2011-DITEC/DPF, nº 8/2011-DITEC/DPF e nº 25/2019, que tratam da distribuição de requisições, da designação de peritos, da análise de viabilidade e da criticidade no âmbito da criminalística da PF, julgue os itens a seguir como CERTOS (C) ou ERRADOS (E):\n\nI. A designação de perito criminal federal para atendimento de requisição pode ser feita por meio do SISCRIM ou, em caráter excepcional, por sistema diverso, desde que devidamente justificada pelo gestor da unidade.\nII. Os usuários do SISCRIM que mantenham requisição de exame sem o cadastramento de objetos de exame ou sem a realização de análise de viabilidade há mais de 10 dias terão funcionalidades do sistema parcialmente bloqueadas.\nIII. Identificadas inconformidades quanto a materiais e quesitos, o perito comunica formalmente o gestor, que encaminha ao requisitante; não apresentada resposta de adequação em 30 dias, o perito deve encaminhar a requisição e o respectivo material ao gestor, para providências.\nIV. A gestão da fila de atendimento nas unidades de criminalística é feita pelo chefe da unidade, observando, salvo situações excepcionais, a cronologia de cadastro das requisições dentro de cada criticidade (alta, média ou baixa).\n\nAssinale a alternativa com a sequência correta.",
+    "alternativas": {
+      "A": "C, E, C, E.",
+      "B": "C, C, E, C.",
+      "C": "E, C, C, C.",
+      "D": "E, E, C, C.",
+      "E": "E, C, E, C."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Sequência correta E, C, C, C (letra C). Item I ERRADO (Cap. 13, Seção 13.5.1, p. 97): a designação é exclusivamente pelo SISCRIM, sendo vedada por sistema diverso. Item II CERTO (p. 97): bloqueio parcial após mais de 10 dias sem cadastramento de objetos ou sem análise de viabilidade. Item III CERTO (Seção 13.5.2, p. 98, art. 21, §2º): não apresentada adequação em 30 dias, encaminha-se ao gestor para providências. Item IV CERTO (p. 99): a gestão da fila cabe ao chefe da unidade, pela cronologia de cadastro dentro de cada criticidade (alta, média ou baixa), salvo situações excepcionais. A, B, D e E erram nessa sequência (A e E afirmam o item III errado; B afirma o item I certo e o III errado; D afirma o item II errado).",
+    "referencia": "Cap. 13, p. 91",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "id": 447,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Determinado homicídio é descoberto em uma madrugada de domingo, durante feriado prolongado. A autoridade policial requisita imediatamente a perícia, e os peritos criminais comparecem ao local ainda na madrugada para realizar o exame de corpo de delito. Em sede de defesa, advogado argui nulidade pericial sob o argumento de que o exame foi realizado em horário e dia incompatíveis com o expediente forense. À luz do CPP e do Cap. 8 da Criminalística, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "o art. 161 do CPP autoriza expressamente que o exame de corpo de delito seja realizado em qualquer dia e a qualquer hora, inclusive sábados, domingos, feriados e madrugada, exatamente em razão do risco de desaparecimento dos vestígios.",
+      "B": "a defesa tem razão, pois o exame de corpo de delito somente pode ser realizado em dias úteis, durante o expediente forense regular.",
+      "C": "o exame foi corretamente realizado, mas somente porque havia autorização judicial específica para a quebra do horário forense, sem a qual o exame seria nulo.",
+      "D": "o CPP veda exames periciais em feriados, salvo nos crimes contra a Administração Pública, hipótese diversa da narrada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O PDF (Cap. 8, Seção 8.1, p. 51) afirma textualmente que, em razão do risco de desaparecimento dos vestígios, o CPP permite que o exame de corpo de delito seja realizado em qualquer dia e a qualquer hora, ou seja, inclusive aos sábados, domingos, feriados e durante a madrugada, com base no art. 161 do CPP. Não há exigência de autorização judicial específica adicional.",
+    "referencia": "Cap. 8, Seção 8.1, p. 51",
+    "nivel": "facil"
+  },
+  {
+    "id": 448,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso de homicídio com lesões externas evidentes que permitem precisar a causa da morte e sem necessidade de exame interno para verificação de circunstância relevante, indaga-se: quem detém competência para decidir pela realização de simples exame externo do cadáver, em substituição à autópsia completa, e a partir de que momento, em regra, pode ser realizada a autópsia, segundo o art. 162 do CPP?",
+    "alternativas": {
+      "A": "A decisão cabe ao delegado de polícia que preside o inquérito; a autópsia poderá ser feita a qualquer tempo, sem prazo mínimo.",
+      "B": "A decisão cabe ao juiz competente; a autópsia somente poderá ser feita após 24 horas do óbito.",
+      "C": "A decisão cabe ao Ministério Público; a autópsia deve ser realizada imediatamente após a constatação do óbito, sem prazo mínimo.",
+      "D": "A decisão cabe exclusivamente ao perito médico legista, ou ao perito criminal federal da especialidade de Medicina; a autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes desse prazo, o que declararão no auto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o PDF (Cap. 8, Seção 8.1, p. 51), somente o perito médico legista, ou o perito criminal federal da especialidade de Medicina, tem competência para decidir sobre o simples exame externo. Quanto ao prazo, o art. 162 do CPP, transcrito no PDF, determina que a autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes daquele prazo, o que declararão no auto.",
+    "referencia": "Cap. 8, Seção 8.1, p. 51",
+    "nivel": "medio"
+  },
+  {
+    "id": 449,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir, relativos às regras sobre ilustração de laudos e fotografias periciais previstas nos arts. 164, 169 e 170 do CPP, e marque a alternativa CORRETA: I. A fotografia dos cadáveres na posição em que forem encontrados, bem como, dentro do possível, das lesões externas e dos vestígios deixados no local, é uma imposição legal e não depende da vontade do perito ou do delegado. II. Nas perícias de local de crime (art. 169), a ilustração com fotografias, desenhos ou esquemas é uma prerrogativa cuja conveniência cabe aos peritos avaliarem. III. Nas perícias de laboratório (art. 170), o CPP determina que, sempre que conveniente, os laudos serão ilustrados com provas fotográficas ou microfotográficas, desenhos ou esquemas. IV. O art. 170 do CPP determina que os peritos descartem todo o material analisado após a conclusão do laudo, vedando a guarda de qualquer parte para contraprova.",
+    "alternativas": {
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas os itens I e III estão corretos.",
+      "C": "Apenas os itens II e IV estão corretos.",
+      "D": "Todos os itens estão corretos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Itens I, II e III corretos conforme o PDF (Cap. 8, Seção 8.2, p. 52). Item IV incorreto: o PDF afirma exatamente o oposto, que o art. 170 do CPP determina que os peritos deverão conservar parte do material analisado para eventual perícia complementar ou contraprova (p. 52).",
+    "referencia": "Cap. 8, Seção 8.2, p. 52",
+    "nivel": "dificil"
+  },
+  {
+    "id": 450,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um inquérito policial instaurado para apurar furto qualificado mediante rompimento de obstáculo, os peritos criminais foram acionados para o exame do local. Considerando os arts. 171 e 173 do CPP, e a abordagem do livro sobre a dinâmica dos fatos, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Nos crimes com destruição ou rompimento de obstáculo, ou por escalada, cabe ao delegado, e não ao perito, descrever os vestígios, os instrumentos, os meios e a época presumida da prática do fato.",
+      "B": "Nos crimes com destruição ou rompimento de obstáculo, ou escalada, cabe aos peritos descrever vestígios, instrumentos, meios e a época presumida da prática do fato; o estudo da dinâmica dos fatos deve ser preocupação dos peritos em exames de locais de crime.",
+      "C": "Em casos de incêndio, basta ao perito verificar a extensão do dano e seu valor, sendo irrelevantes a causa, o local de início do incêndio e o perigo gerado para a vida ou patrimônio alheio.",
+      "D": "O estudo da dinâmica dos fatos é dispensável quando o autor confessa o crime, ainda que se trate de delito que deixa vestígios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o PDF (Cap. 8, Seção 8.4, p. 53), o art. 171 do CPP atribui aos peritos a descrição de vestígios, instrumentos, meios e época presumida do fato nos crimes com destruição/rompimento de obstáculo ou escalada, e o livro acrescenta que o estudo da dinâmica dos fatos deve ser preocupação dos peritos nos exames de locais de crime. Em incêndios, devem verificar causa, local de início, perigo, extensão e valor do dano. A perícia é obrigatória mesmo havendo confissão (art. 158).",
+    "referencia": "Cap. 8, Seção 8.4, p. 53",
+    "nivel": "medio"
+  },
+  {
+    "id": 451,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um inquérito policial em que se apura possível falsificação de documento, o delegado de polícia federal pretende submeter a exame grafotécnico um bilhete supostamente escrito de próprio punho pelo suspeito. Considerando o art. 174 do CPP e a doutrina de Criminalística sobre os requisitos dos padrões gráficos, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O exame grafotécnico dispensa qualquer padrão de comparação, bastando a análise isolada do documento questionado pelo perito.",
+      "B": "Os padrões em Criminalística devem obedecer a três requisitos básicos: autenticidade, originalidade e perenidade.",
+      "C": "Os padrões em Criminalística devem obedecer a quatro requisitos básicos: autenticidade, adequabilidade, contemporaneidade e quantidade.",
+      "D": "Quando não houver escritos disponíveis para comparação, é vedado ao delegado solicitar que o suspeito escreva o que lhe for ditado, por configurar produção de prova contra si mesmo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O PDF (Cap. 8, Seção 8.5, p. 54) afirma textualmente que, em Criminalística, os padrões têm de obedecer a quatro requisitos básicos: autenticidade, adequabilidade, contemporaneidade e quantidade. Quanto à letra D, o art. 174, IV, do CPP, transcrito no PDF, autoriza expressamente que a autoridade mande a pessoa escrever o que lhe for ditado quando não houver ou forem insuficientes os escritos para comparação.",
+    "referencia": "Cap. 8, Seção 8.5, p. 53-54",
+    "nivel": "medio"
+  },
+  {
+    "id": 452,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um delegado de polícia federal recebe a confissão espontânea e detalhada de um suspeito de furto qualificado por arrombamento, com plena coerência fática. Por entender suficientemente esclarecidos os fatos, o delegado opta por NÃO requisitar o exame pericial do local do arrombamento, encaminhando o inquérito relatado ao Judiciário. Sobre essa conduta, à luz do CPP e do Cap. 8 da Criminalística, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "a conduta do delegado está correta, pois a confissão tem valor probatório pleno e dispensa a perícia nos crimes que deixam vestígios.",
+      "B": "a conduta do delegado está incorreta: o art. 158 do CPP determina que a perícia é imprescindível nos crimes que deixam vestígios e não pode ser substituída pela confissão; a requisição da perícia é ato vinculado, não discricionário.",
+      "C": "a conduta do delegado está correta, pois a solicitação de perícia é ato discricionário, cabendo à autoridade analisar a oportunidade e conveniência.",
+      "D": "a conduta do delegado está incorreta apenas se o juiz, posteriormente, entender que a perícia seria conveniente, devolvendo os autos para complementação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O PDF (Cap. 8, Seção 8.8, p. 55) afirma textualmente, com base no art. 158 do CPP, que a perícia não pode ser substituída pela confissão do acusado nos crimes que deixam vestígios. A solicitação de perícia pela autoridade é ato vinculado, não discricionário, sem margem de liberdade quanto à oportunidade ou conveniência.",
+    "referencia": "Cap. 8, Seção 8.8, p. 55",
+    "nivel": "dificil"
+  },
+  {
+    "id": 550,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os prazos e horarios aplicaveis aos exames periciais, conforme tratado no Cap. 8 e nos arts. 160, 161 e 162 do CPP, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O exame de corpo de delito so pode ser realizado em dias uteis e em horario comercial, salvo autorizacao expressa do juiz competente, em razao do principio da reserva de jurisdicao.",
+      "B": "O prazo para elaboracao do laudo pericial e de 10 dias, prorrogavel em casos excepcionais a requerimento dos peritos; o CPP nao fixa limite para tal prorrogacao, por se tratar de materia tecnica, mas o pedido deve ser fundamentado.",
+      "C": "A autopsia sera feita pelo menos doze horas depois do obito, prazo absoluto e inderrogavel, ainda que evidentes os sinais de morte.",
+      "D": "Em razao da gravidade dos exames, e vedada a realizacao de pericia de corpo de delito aos sabados, domingos e feriados, bem como no periodo da madrugada, salvo determinacao judicial em sentido contrario."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Item 8.1 (p. 51): o CPP permite a realizacao em qualquer dia e a qualquer hora (art. 161), inclusive sabados, domingos, feriados e madrugada. O prazo do laudo e de 10 dias, prorrogavel em casos excepcionais a requerimento dos peritos (art. 160, paragrafo unico), sem limite legal definido. A autopsia sera feita pelo menos seis horas depois do obito (art. 162), salvo evidencia dos sinais de morte. As alternativas A, C e D contrariam essas regras.",
+    "referencia": "Cap. 8, Seção 8.1, p. 51",
+    "nivel": "medio"
+  },
+  {
+    "id": 551,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame pericial realizado por dois peritos oficiais, surge divergencia tecnica relevante quanto a dinamica de um disparo de arma de fogo. Apos a apresentacao das conclusoes divergentes, a autoridade competente toma providencias para resolver o impasse. Adicionalmente, em outro caso, a autoridade judiciaria recebe um laudo com omissoes e contradicoes. Sobre a sistematica da pericia contraditoria e dos arts. 180 e 181 do CPP, conforme o Cap. 8, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em caso de divergencia entre os peritos, serao consignadas no auto as declaracoes de cada um, ou cada qual redigira separadamente o seu laudo; a autoridade nomeara um terceiro perito e, se este divergir de ambos, podera mandar proceder a novo exame por outros peritos.",
+      "B": "Havendo divergencia entre os peritos oficiais, prevalece automaticamente a conclusao do perito mais antigo na carreira, sendo vedada a nomeacao de terceiro perito por implicar quebra do principio do juiz natural.",
+      "C": "Em caso de omissoes, obscuridades ou contradicoes no laudo, a autoridade judiciaria devera obrigatoriamente determinar a realizacao de novo exame por outros peritos, vedada a mera complementacao ou esclarecimento do laudo original.",
+      "D": "A perícia contraditoria pressupõe sempre a existencia de assistente tecnico nomeado pela defesa, sem o qual nao se admite a discussao sobre divergencias tecnicas no ambito do inquerito policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Item 8.6 (p. 54): o art. 180 do CPP estabelece exatamente a sistematica descrita na alternativa A. O art. 181 (com redacao da Lei 8.862/94) permite a autoridade judiciaria mandar suprir formalidade, complementar OU esclarecer o laudo, e, se julgar conveniente, ordenar novo exame por outros peritos (faculdade, nao obrigacao), o que torna a C errada. As demais alternativas inventam regras inexistentes.",
+    "referencia": "Cap. 8, Seção 8.6, p. 54",
+    "nivel": "dificil"
+  },
+  {
+    "id": 552,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a requisicao da pericia e a natureza juridica desse ato, conforme exposto no item 8.8 do Cap. 8 e no art. 158 do CPP, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A solicitacao de pericia pela autoridade nos crimes que deixam vestigios e ato discricionario, podendo a autoridade dispensa-la sempre que considerar suficiente a confissao do acusado.",
+      "B": "A requisicao de pericia somente pode partir da autoridade judiciaria, ja que na fase de inquerito policial vigora o sistema acusatorio e a defesa nao participa da producao da prova tecnica.",
+      "C": "No ambito da Policia Federal, os exames periciais sao requisitados diretamente pelo perito-chefe, dispensando a participacao do delegado de policia federal como autoridade requisitante.",
+      "D": "Nos crimes que deixam vestigios, mesmo havendo confissao do suposto autor, e obrigatoria a realizacao da pericia; a solicitacao pela autoridade e ato vinculado, sem margem de apreciacao de oportunidade ou conveniencia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Item 8.8 (p. 55): segundo o art. 158 do CPP, quando o crime deixa vestigios, mesmo havendo confissao, e obrigatoria a perícia. A solicitacao de pericia pela autoridade e ato vinculado (todos os elementos estao vinculados a lei, sem margem para juizo de oportunidade ou conveniencia administrativa). As demais alternativas contrariam diretamente o texto.",
+    "referencia": "Cap. 8, Seção 8.8, p. 55",
+    "nivel": "facil"
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "key": "Criminalistica__Cap_1_Contexto_de_insercao_da_Criminalistica_A_Policia_Judic",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "n": 6
+  },
+  {
+    "key": "Criminalistica__Cap_10_Regulamentacao_internacional_da_Criminalistica",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "n": 10
+  },
+  {
+    "key": "Criminalistica__Cap_11_Cadeia_de_Custodia",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "n": 10
+  },
+  {
+    "key": "Criminalistica__Cap_12_Gestao_da_Criminalistica_na_PF_e_principais_conceitos",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "n": 19
+  },
+  {
+    "key": "Criminalistica__Cap_13_Normativos_e_boas_praticas_da_Gestao_da_Criminalistic",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "n": 12
+  },
+  {
+    "key": "Criminalistica__Cap_16_O_Metodo_cientifico_na_pratica_pericial",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "n": 13
+  },
+  {
+    "key": "Criminalistica__Cap_2_A_Criminalistica_Historia",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "n": 12
+  },
+  {
+    "key": "Criminalistica__Cap_3_A_atuacao_tecnica_do_Perito_e_a_integracao_cientifica_",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "n": 8
+  },
+  {
+    "key": "Criminalistica__Cap_4_O_Perito",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "n": 12
+  },
+  {
+    "key": "Criminalistica__Cap_5_A_prova",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "n": 8
+  },
+  {
+    "key": "Criminalistica__Cap_6_Teoria_dos_vestigios",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "n": 5
+  },
+  {
+    "key": "Criminalistica__Cap_7_Indicios",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "n": 5
+  },
+  {
+    "key": "Criminalistica__Cap_8_Exame_pericial",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "n": 9
+  },
+  {
+    "key": "Criminalistica__Cap_9_Laudo_Pericial",
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "n": 6
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_1_Balistica_Conceituacao_e_Divisoes",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "n": 5
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_2_Arma_e_Municao_Conceitos_e_Cartucho",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "n": 11
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_3_Classificacao_das_Armas_de_Fogo",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "n": 14
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_4_Calibre_das_Armas_e_Municao",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "n": 7
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_5_Armas_Curtas_Revolver_e_Pistola",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "n": 13
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_6_Armas_de_Fogo_Longas",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "n": 11
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_7_Exames_em_Armas_de_Fogo",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "n": 18
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_8_Exames_em_Municao_Confronto_Balistico_e_SINAB",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "n": 16
+  },
+  {
+    "key": "PCEB_Balistica_Forense__Cap_9_Anexos_Descricoes_e_Solucoes_Reveladoras",
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "n": 7
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_10_Pericia_em_Local_de_Explosao",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "n": 16
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_11_Anexos_e_Legislacao",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "n": 10
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_2_Bombas_e_Explosivos_Definicoes_Tipos_Efeitos",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "n": 18
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_3_Sistemas_de_Iniciacao",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "n": 7
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_4_Mecanismos_de_Acionamento",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "n": 12
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_5_Tecnicas_de_Desativacao",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "n": 7
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_6_Bombas_Postais",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "n": 6
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_7_Inspecoes_de_Seguranca",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "n": 4
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_8_Ameaca_de_Bomba",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "n": 23
+  },
+  {
+    "key": "PCEB_Bombas_e_Explosivos__Cap_9_Procedimentos_de_Reacao_a_Bombas",
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "n": 9
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_10_Processos_Industriais_de_Gravacao_do_VIN",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "n": 8
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_11_Tipos_de_Adulteracao_no_VIN",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 11 - Tipos de Adulteração no VIN",
+    "n": 12
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_12_Restauracao_da_gravacao_em_metal",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "n": 12
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_13_Recursos_utilizados_na_fraude_de_codigos_identificado",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "n": 4
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_14_Avaliacao_do_estado_de_conservacao_do_veiculo",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 14 - Avaliação do estado de conservação do veículo",
+    "n": 4
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_15_Intervencoes_estruturais_e_funcionais_voltadas_a_prat",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "n": 12
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_16_Sistemas_para_consulta",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 16 - Sistemas para consulta",
+    "n": 4
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_17_Procedimento_de_pericia",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 17 - Procedimento de perícia",
+    "n": 4
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_2_Identificacao_veicular_no_Codigo_Penal_Brasileiro",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "n": 4
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_3_Evolucao_historica_e_normativa_no_Brasil",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "n": 8
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_4_Classificacao_dos_veiculos",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "n": 8
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_5_Conjunto_ampliado_de_caracteristicas_identificadoras",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 5 - Conjunto ampliado de características identificadoras",
+    "n": 4
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_6_Placas_de_Identificacao_Veicular_PIV",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "n": 12
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_7_Numero_de_Identificacao_Veicular_VIN",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 7 - Número de Identificação Veicular (VIN)",
+    "n": 16
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_8_Vidros",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 8 - Vidros",
+    "n": 8
+  },
+  {
+    "key": "PVAT_Modulo_I_Identificacao_Veicular__Cap_9_Pecas_com_dados_identificadores",
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 9 - Peças com dados identificadores",
+    "n": 16
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_10_Documentacao_Pericial",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "n": 8
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_11_Metodo_de_Monte_Carlo_Aplicado_a_Pericia",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "n": 36
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_2_Contexto_Atual",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "n": 9
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_3_Conceitos_Fundamentais_e_Terminologia",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "n": 15
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_4_Legislacao_de_Transito_Aplicada_a_Pericia",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "n": 12
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_5_Fisica_Aplicada_aos_Acidentes_de_Trafego",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 5 - Física Aplicada aos Acidentes de Tráfego",
+    "n": 24
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_6_Analise_Pericial_do_Local",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "n": 20
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_7_Sitios_Periciais_e_Interpretacao_dos_Vestigios",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "n": 8
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_8_Causas_Determinantes_dos_Acidentes",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "n": 8
+  },
+  {
+    "key": "PVAT_Modulo_II_Acidentes_de_Trafego__Cap_9_Casos_Especiais_na_Pericia_de_Acidentes",
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "n": 8
+  }
+]

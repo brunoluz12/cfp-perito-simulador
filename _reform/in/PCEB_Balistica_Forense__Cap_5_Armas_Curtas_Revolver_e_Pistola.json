@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1248,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características gerais das armas curtas de porte, é correto afirmar que:",
+    "alternativas": {
+      "A": "São armas que comumente excedem trinta centímetros de comprimento total, com canos próximos a vinte centímetros, e peso superior a um quilo.",
+      "B": "Possuem por característica fundamental a presença obrigatória de coronha alongada para apoio no ombro, o que aumenta sua precisão a longa distância.",
+      "C": "Foram concebidas originalmente como armas de assalto a média distância, sendo o tiro à queima roupa uma destinação acessória atribuída ao longo do século XX.",
+      "D": "Apresentam mecanismos de disparo compactos e um ângulo anatômico entre coronha e cano, permitindo utilização com apenas uma das mãos do atirador."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 33, as armas curtas apresentam mecanismos de disparo compactos e ângulo anatômico entre coronha e cano, permitindo uso com uma só mão. A: raramente ultrapassam 30 cm e habitualmente pesam menos de 1 kg. C: foram concebidas como armas portáteis de defesa individual para tiro a curta distância, preferivelmente à queima roupa. D: coronha alongada para ombro não é característica de arma curta.",
+    "referencia": "PDF, p. 33",
+    "nivel": "facil"
+  },
+  {
+    "id": 1249,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O revólver, como arma de fogo de porte, apresenta peculiaridades estruturais e funcionais que o distinguem das demais armas. Sobre tais peculiaridades, é correto afirmar que:",
+    "alternativas": {
+      "A": "Trata-se de arma de repetição automática, na qual o tambor rotaciona pelo aproveitamento dos gases gerados na detonação da munição.",
+      "B": "É a única arma em utilização cujo cano não possui uma câmara de combustão, ocorrendo a deflagração dos cartuchos fora dele, nas câmaras do tambor.",
+      "C": "Possui culatra fixa que veda integralmente a parte posterior das câmaras de combustão durante o disparo, garantindo a contenção dos gases propelentes.",
+      "D": "Está sempre carregado quando há cartucho íntegro alinhado com o cano, posição que decorre da inexistência de rotação prévia do tambor ao disparo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 33, o revólver é a única arma em uso cujo cano não possui câmara de combustão, ocorrendo a deflagração fora dele, no tambor. B: o revólver é, em regra, arma de repetição não automática. C: revólveres não apresentam culatra; a peça é denominada placa de obturação. D: o revólver é a única arma que NÃO está carregada quando há cartucho íntegro alinhado com o cano, pois o tambor sofre rotação previamente ao disparo.",
+    "referencia": "PDF, p. 33-34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1250,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame pericial, o perito constatou que a arma examinada possuía armação em quadro inteiriço e rígido, com tambor montado em suporte que se articulava com a armação, projetando-se para fora desta em um arco. A vareta do extrator, ao ser acionada pelo atirador, extraía simultaneamente todos os estojos, mas não de modo automático. A partir dessa descrição, é correto classificar a arma como:",
+    "alternativas": {
+      "A": "Revólver de armação rígida com janela lateral, em que a extração ocorre por vareta introduzida na parte frontal de cada câmara individualmente.",
+      "B": "Revólver de armação articulada do subtipo armação de junta (basculante), no qual o conjunto tambor-cano gira por uma charneira posicionada próxima à alça de mira.",
+      "C": "Revólver de armação articulada do subtipo tambor reversível, com extração simultânea manual mediante acionamento da vareta do extrator pelo atirador.",
+      "D": "Pistola semiautomática de culatra desaferrolhada, na qual a extração dos estojos é realizada pela própria ciclagem do ferrolho durante o recuo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 37, no revólver de tambor reversível a armação é quadro inteiriço e rígido, o tambor articula-se em suporte projetando-se para fora em arco, e a vareta do extrator é acionada pelo atirador, extraindo simultaneamente mas não automaticamente. A: descreve armação rígida com janela lateral, mas nela a extração é individual e manual. B: na armação de junta, a extração é automática e simultânea por basculamento. D: descrição não corresponde a pistola.",
+    "referencia": "PDF, p. 36-37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1251,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação dos revólveres pelo mecanismo de disparo, é correto afirmar que:",
+    "alternativas": {
+      "A": "Nos revólveres de movimento simples em ação simples, a pressão no gatilho desloca o cão para a retaguarda a cada disparo, sem necessidade de engatilhamento prévio.",
+      "B": "Os revólveres de movimento duplo exigem obrigatoriamente o engatilhamento manual do cão antes de cada disparo, não admitindo acionamento por dupla ação.",
+      "C": "Os revólveres de movimento simples em ação dupla são sistema característico de armas com cão escamoteado, pois o cão não se imobiliza na posição engatilhada.",
+      "D": "Os revólveres de ação simples e os de ação dupla constituem categorias mutuamente excludentes, inexistindo armas que funcionem indiferentemente em ambos os modos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 38, os revólveres de movimento simples em ação dupla são característicos de cão escamoteado, pois o cão não fica imobilizado na posição engatilhada. B: revólveres de movimento duplo funcionam indiferentemente em ação simples ou dupla. C: descreve ação dupla, não simples (em ação simples, o cão precisa ser engatilhado manualmente). D: revólveres de movimento duplo combinam ambos os modos.",
+    "referencia": "PDF, p. 38",
+    "nivel": "medio"
+  },
+  {
+    "id": 1252,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial, o perito descreveu o revólver examinado como de percussão intrínseca, com cápsula de espoletamento posicionada no centro da base do cartucho, e mecanismo no qual o cão transfere a energia de percussão por meio de um pino percussor flutuante alojado na armação. Essa descrição corresponde a revólver de percussão:",
+    "alternativas": {
+      "A": "Intrínseca radial, com percussor direto, sistema usualmente restrito a armas de calibre .22 polegadas.",
+      "B": "Intrínseca central, com percussor indireto, característica da grande maioria dos revólveres atuais em uso.",
+      "C": "Extrínseca, com pino percussor flutuante alojado na armação, considerada classificação obsoleta na atualidade.",
+      "D": "Intrínseca perpendicular, com percussor direto oscilante, representada unicamente pelos revólveres Lefaucheux já obsoletos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 38, percussão intrínseca central tem cápsula de espoletamento no centro da base do cartucho (maioria dos revólveres atuais), e percussão indireta significa que o cão transfere a energia por pino percussor flutuante alojado na armação. A: percussão radial não apresenta cápsula de espoletamento. B: Lefaucheux são perpendiculares, mas a descrição não corresponde a esse modelo. C: percussão extrínseca é obsoleta e não envolve pino percussor flutuante na armação.",
+    "referencia": "PDF, p. 38",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1253,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos revólveres quanto à extração dos cartuchos e estojos, é correto afirmar que:",
+    "alternativas": {
+      "A": "A extração automática pode ser simples ou simultânea, conforme a configuração do mecanismo da arma analisada.",
+      "B": "A extração simultânea ocorre exclusivamente em revólveres de armação rígida com janela lateral por vareta única.",
+      "C": "Nos revólveres de tambor reversível há extração automática simultânea, acionada pelo basculamento do conjunto tambor-cano.",
+      "D": "A extração manual pode ser simples ou simultânea, ao passo que a extração automática é apenas simultânea."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 38, os revólveres podem ser de extração manual (simples ou simultânea) ou de extração automática (apenas simultânea). A: extração automática é apenas simultânea. C: no tambor reversível a extração é simultânea, porém manual (acionada pelo atirador). D: revólveres de armação rígida com janela lateral têm extração individual por vareta, não simultânea.",
+    "referencia": "PDF, p. 38",
+    "nivel": "medio"
+  },
+  {
+    "id": 1254,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o princípio de funcionamento das pistolas semiautomáticas e sua diferenciação em relação às armas automáticas, é correto afirmar que:",
+    "alternativas": {
+      "A": "Ambas operam pelo aproveitamento dos gases da detonação para a ciclagem, mas na semiautomática cada tiro deve ser precedido de novo acionamento do gatilho.",
+      "B": "A semiautomática efetua disparos ininterruptos enquanto o gatilho permanecer pressionado, ao passo que a automática exige novo acionamento do gatilho a cada tiro.",
+      "C": "Pistolas semiautomáticas dispensam ciclagem mecânica, pois a recarga é feita manualmente pelo atirador após cada disparo, à semelhança de armas de repetição.",
+      "D": "Por razões técnicas e econômicas, a conversão de pistolas semiautomáticas em automáticas é impossível, mesmo como acessório de fábrica em modelos comerciais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 39, ambas aproveitam os gases da detonação para ciclagem; nas semiautomáticas cada disparo exige novo acionamento do gatilho. A: inverte os conceitos - quem dispara ininterruptamente é a automática. C: a semiautomática ciclá-se automaticamente pelos gases. D: a conversão é possível e, em alguns modelos comerciais, oferecida como acessório de fábrica.",
+    "referencia": "PDF, p. 39",
+    "nivel": "facil"
+  },
+  {
+    "id": 1255,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia, o examinador analisou pistola calibre .45 polegadas e constatou tratar-se de arma com culatra aferrolhada. Sobre o sistema de aferrolhamento da culatra em pistolas, é correto afirmar que:",
+    "alternativas": {
+      "A": "Tem por objetivo retardar a abertura da culatra até que o projétil saia do cano, reduzindo a pressão interna a níveis seguros antes da ejeção.",
+      "B": "Visa antecipar a abertura da culatra logo após a deflagração, aproveitando a alta pressão interna do cano para impulsionar a ejeção do estojo.",
+      "C": "É típico de pistolas de pequeno calibre (.22, .25 e .32), nas quais apenas o estojo recua após a deflagração da carga propelente.",
+      "D": "Dispensa o uso de mola recuperadora, pois o desaferrolhamento ocorre exclusivamente por inércia do conjunto bloco-ferrolho durante o recuo do estojo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 41, em pistolas com culatra aferrolhada o objetivo é retardar a abertura da culatra até o momento ótimo (após a saída completa do projétil), reduzindo a pressão a níveis seguros. A: culatra desaferrolhada é típica dos pequenos calibres. B: inverte o conceito - busca-se retardar, não antecipar. D: a mola recuperadora é parte essencial do mecanismo.",
+    "referencia": "PDF, p. 41",
+    "nivel": "medio"
+  },
+  {
+    "id": 1256,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação das pistolas pela montagem do cano, é correto afirmar que:",
+    "alternativas": {
+      "A": "Pistolas com cano afixado à armação e pistolas com cano afixado ao suporte do ferrolho são variações utilizadas em pistolas com culatra desaferrolhada.",
+      "B": "Pistolas com cano basculante e pistolas com cano flutuante são variações utilizadas em pistolas com culatra desaferrolhada de pequenos calibres.",
+      "C": "Pistolas com cano afixado à armação são utilizadas em pistolas com culatra aferrolhada, geralmente de calibres .40 e .45 polegadas.",
+      "D": "Pistolas com cano basculante e pistolas com cano afixado ao ferrolho são variações típicas das pistolas com culatra aferrolhada de uso militar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 41, pistolas com cano afixado à armação e com cano afixado ao suporte do ferrolho são utilizadas em pistolas com culatra desaferrolhada, enquanto cano basculante e cano flutuante são típicos de pistolas com culatra aferrolhada. B, C e D combinam erroneamente os tipos de montagem do cano com o tipo de culatra.",
+    "referencia": "PDF, p. 41",
+    "nivel": "medio"
+  },
+  {
+    "id": 1257,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame em pistola apreendida em local de crime, o perito constatou que a arma não possuía cão; o próprio pino percussor, cilíndrico e dotado de noz em sua parte ínfero-posterior, ficava alojado em tubo no bloco da culatra. Ao engatilhamento, o gatilho imobilizava o percussor por meio de calço encaixado na noz, sendo o pino mantido sob tensão de mola até a liberação no disparo. Essa descrição é típica de pistola de:",
+    "alternativas": {
+      "A": "Percussão indireta com cão convencional, sistema utilizado em pistolas Taurus, no qual o pino percussor permanece inerte até a pancada do cão.",
+      "B": "Percussão indireta em ação dupla, característica de pistolas com cão escamoteado e mola retratora associada ao pino percussor flutuante.",
+      "C": "Percussão extrínseca, sistema obsoleto no qual o gatilho atua diretamente sobre o calço da noz para liberar o pino percussor pré-tensionado por mola.",
+      "D": "Percussão direta, característica de pistolas como as da marca Glock e da Walther P-99, nas quais o pino percussor é a própria peça armada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 42, pistolas de percussão direta não possuem cão (o próprio pino percussor é a peça armada, com noz e calço de gatilho), exemplificadas pelas Glock e Walther P-99. A: percussão indireta tem cão (pistolas Taurus), com pino percussor inerte. B: pistolas com cão são de percussão indireta. D: percussão extrínseca não se aplica a esse mecanismo nem é classificação atual.",
+    "referencia": "PDF, p. 42",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1258,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em determinada perícia, o examinador precisou diferenciar peritamente um revólver de uma pistola semiautomática quanto à câmara de combustão. Sobre essa distinção, é correto afirmar que:",
+    "alternativas": {
+      "A": "Tanto no revólver quanto na pistola a câmara de combustão integra a parte posterior do cano, sendo o tambor apenas um sistema de alimentação cíclica de cartuchos.",
+      "B": "No revólver as câmaras de combustão localizam-se no tambor, externamente ao cano; na pistola, a câmara está na parte posterior do próprio cano, desprovida de raiamento.",
+      "C": "No revólver a câmara de combustão é única, localizada no cone de forçamento; na pistola, há múltiplas câmaras dispostas paralelamente no ferrolho móvel.",
+      "D": "Em ambas as armas a câmara de combustão fica alojada na culatra fixa, sendo a placa de obturação responsável por vedar a parte posterior durante o disparo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 33-34 e 40, o revólver possui várias câmaras de combustão no tambor, sendo a única arma cujo cano não possui câmara; na pistola, a câmara fica na parte posterior do próprio cano, sem raiamento, com acesso por rampa. B: nega o conceito central do revólver. C: o cone de forçamento não é câmara de combustão; pistolas não têm múltiplas câmaras no ferrolho. D: revólveres não possuem culatra (têm placa de obturação), e pistolas não a têm fixa na armação.",
+    "referencia": "PDF, p. 33-34, 39-40",
+    "nivel": "medio"
+  },
+  {
+    "id": 1259,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em diligência, o perito examina duas armas curtas apreendidas e precisa esclarecer ao Delegado a distinção entre revólver e pistola semiautomática quanto ao mecanismo de funcionamento. Sobre essa distinção, é correto afirmar que:",
+    "alternativas": {
+      "A": "O revólver é arma semiautomática, na qual o cilindro gira pelos gases da detonação; a pistola é arma de repetição não automática, recarregada manualmente após cada disparo.",
+      "B": "Revólver e pistola compartilham o mesmo princípio funcional de ciclagem por aproveitamento dos gases propelentes, diferenciando-se apenas pelo número de câmaras de combustão.",
+      "C": "O revólver é arma de repetição não automática que usa a força muscular do atirador para a ciclagem, ao passo que a pistola aproveita os gases da detonação para realimentar a câmara.",
+      "D": "Em ambas as armas a ciclagem depende exclusivamente da força muscular do atirador, sendo a diferença apenas a posição relativa do percussor em relação à câmara de combustão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 33 e 39, o revólver é arma de repetição não automática (a rotação do tambor depende da força muscular sobre o gatilho), e a pistola aproveita os gases da detonação para efetuar a ciclagem, realimentando-se. A: inverte os conceitos. C: o revólver não usa os gases para ciclagem. D: a pistola não depende exclusivamente da força muscular para ciclar.",
+    "referencia": "PDF, p. 33, 39",
+    "nivel": "facil"
+  },
+  {
+    "id": 1260,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em revólver apreendido, o perito identificou armação rígida com janela lateral, mecanismo de disparo no qual o cão permanecia imobilizado quando engatilhado e, alternativamente, podia ser acionado por pressão contínua no gatilho, com percussão intrínseca central direta. Diante disso, é correto classificar a arma como:",
+    "alternativas": {
+      "A": "Revólver de armação rígida com janela lateral, movimento duplo, percussão intrínseca central direta, com extração manual simples por vareta na parte frontal da câmara.",
+      "B": "Revólver de armação articulada de junta, movimento duplo, percussão intrínseca central indireta, com extração manual individual por janela lateral.",
+      "C": "Revólver de armação rígida desmontável, movimento simples em ação dupla, percussão intrínseca radial direta, com extração automática e simultânea.",
+      "D": "Revólver de armação articulada com tambor reversível, movimento simples em ação simples, percussão intrínseca central direta, com extração automática simultânea."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 36-38, armação rígida com janela lateral implica extração manual individual por vareta frontal. Cão que fica imobilizado engatilhado E pode também ser acionado por dupla ação caracteriza movimento duplo. Percussão intrínseca central direta significa cápsula no centro do cartucho e pino ligado diretamente ao cão. A: ação dupla pura tem cão escamoteado e não fica engatilhado; armação rígida não tem extração automática. B: armação de junta é articulada e tem extração automática simultânea. D: tambor reversível tem extração simultânea (não automática) e movimento simples ação simples exige engatilhamento manual.",
+    "referencia": "PDF, p. 36-38",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1211,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a origem etimológica do termo balística e sua conceituação como ramo do conhecimento, é correto afirmar que:",
+    "alternativas": {
+      "A": "O termo deriva do latim ballisticus, expressão que designa exclusivamente o estudo das armas de arremesso utilizadas em conflitos militares medievais.",
+      "B": "A palavra provém diretamente do grego balisticos, termo restrito ao estudo da trajetória de projéteis sob influência da gravidade terrestre.",
+      "C": "O vocábulo origina-se, provavelmente, do latim baleare, que por sua vez deriva do grego ballo, com o significado de atirar ou arremessar.",
+      "D": "O termo tem origem no latim ballista, designando, em sua acepção primitiva, apenas o estudo da mecânica interna das armas de fogo modernas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 9, o termo balística origina-se, provavelmente, da palavra latina baleare, que deriva do grego ballo, com o significado de atirar, arremessar. As demais alternativas apresentam etimologias incorretas ou restringem indevidamente o significado original do termo.",
+    "referencia": "PDF, p. 9",
+    "nivel": "facil"
+  },
+  {
+    "id": 1212,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da distinção entre Balística Geral e Balística Forense, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Balística Geral é disciplina autônoma da Criminalística que estuda armas de fogo e munições, enquanto a Balística Forense é o ramo da Física que estuda projéteis em geral.",
+      "B": "A Balística Geral integra a Mecânica e estuda o movimento de qualquer corpo lançado livre no espaço por um impulso, ao passo que a Balística Forense estuda armas de fogo, munição e efeitos dos disparos quando relacionados a infrações penais.",
+      "C": "Ambas se confundem, pois tratam exclusivamente do estudo do movimento dos projéteis disparados por armas de fogo em contextos criminais.",
+      "D": "A Balística Geral restringe-se ao estudo da trajetória externa de projéteis disparados por armas militares, enquanto a Balística Forense limita-se ao exame das lesões traumáticas em vítimas humanas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo p. 9, a Balística Geral é parte da Física, compreendida no capítulo da Mecânica, que estuda o movimento dos projéteis (todo corpo que se desloca livre no espaço por impulso recebido). A Balística Forense, integrante da Criminalística, estuda armas de fogo, munição e efeitos dos disparos em sua relação com infrações penais. As demais invertem ou distorcem os conceitos.",
+    "referencia": "PDF, p. 9",
+    "nivel": "medio"
+  },
+  {
+    "id": 1213,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito criminal federal, ao examinar uma arma de fogo apreendida, analisa o mecanismo de percussão da espoleta, o funcionamento do extrator e os fenômenos ocorridos no interior do cano desde a deflagração até o instante em que o projétil deixa a boca da arma. A área da Balística Forense que abrange esse conjunto de estudos é:",
+    "alternativas": {
+      "A": "Balística Externa, pois engloba os efeitos do disparo desde a ignição da carga até o deslocamento do projétil.",
+      "B": "Balística Terminal, por compreender os efeitos produzidos pela carga propulsora dentro do sistema de funcionamento da arma de fogo.",
+      "C": "Balística Interna, que estuda estrutura, mecanismos e funcionamento da arma, bem como os fenômenos da detonação até a saída do projétil pelo cano.",
+      "D": "Balística Geral, em razão de envolver o estudo do movimento do projétil dentro do cano da arma sob ação de impulso recebido."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 9, a Balística Interna estuda a estrutura, os mecanismos, o funcionamento e as características das armas de fogo, bem como os fenômenos e efeitos ocorridos na arma, desde a detonação da espoleta, pela ação do sistema de percussão, até o momento em que o projétil sai do cano. A Externa só se inicia após a saída do cano, a Terminal trata dos efeitos no alvo, e a Geral é o ramo da Física, não área da Forense.",
+    "referencia": "PDF, p. 9",
+    "nivel": "medio"
+  },
+  {
+    "id": 1214,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de homicídio por disparo de arma de fogo, o perito constata: (i) marcas deixadas pelo sistema de percussão no estojo; (ii) trajetória aérea percorrida pelo projétil entre o atirador e a vítima, com influência da gravidade; (iii) resíduos de pólvora não queimada depositados no orifício de entrada. À luz da divisão didática da Balística Forense, esses três achados pertencem, respectivamente, aos campos:",
+    "alternativas": {
+      "A": "Balística Interna, Balística Externa e Balística Terminal.",
+      "B": "Balística Externa, Balística Interna e Balística Terminal.",
+      "C": "Balística Terminal, Balística Externa e Balística Interna.",
+      "D": "Balística Interna, Balística Terminal e Balística Externa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 9: (i) marcas do sistema de percussão no estojo decorrem de fenômenos ocorridos dentro da arma, próprios da Balística Interna; (ii) a análise da trajetória do projétil entre a boca do cano e o alvo, com ação da gravidade e da resistência do ar, é objeto da Balística Externa; (iii) os resíduos de pólvora depositados no alvo são vestígios extrínsecos ao alvo humano, cabendo à Balística Terminal (vestígios extrínsecos), conforme expressamente delimitado no texto.",
+    "referencia": "PDF, p. 9",
+    "nivel": "medio"
+  },
+  {
+    "id": 1215,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em exame de cadáver vítima de disparo de arma de fogo, o perito criminal observa, no orifício de entrada, projétil deformado alojado nas vestes e resíduos de pólvora ao redor da lesão; simultaneamente, o médico legista descreve as lesões traumáticas dos tecidos atingidos. Considerando a divisão da Balística Forense e a delimitação de competências em relação à Medicina Legal, é correto afirmar que:",
+    "alternativas": {
+      "A": "Todos os achados, incluindo as lesões traumáticas, integram a Balística Terminal, pois decorrem da interação do projétil com o alvo, cabendo à Balística o exame completo da vítima humana.",
+      "B": "Os achados pertencem à Balística Externa, pois envolvem o exame dos efeitos do projétil após sua saída do cano, ainda que o alvo seja humano.",
+      "C": "Tratando-se de alvo humano, todos os vestígios competem à Medicina Legal, sendo a Balística Terminal aplicável apenas a alvos inanimados, como anteparos e veículos.",
+      "D": "Cabe à Medicina Legal o exame dos vestígios intrínsecos ao ser humano (lesões traumáticas) e à Balística Terminal o exame dos vestígios extrínsecos (resíduos de pólvora e projéteis), pois é justamente nessa fronteira que se delimitam as atribuições."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 9, a Balística Terminal estuda os efeitos produzidos pelo projétil ao atingir o alvo; quando o alvo é humano, cabe à Medicina Legal o estudo dos vestígios intrínsecos (lesões traumáticas) e à Balística os vestígios extrínsecos (resíduos de pólvora e projéteis). A alternativa A ignora a partilha de competência; B confunde Terminal com Externa; D nega indevidamente a atuação da Balística em alvos humanos.",
+    "referencia": "PDF, p. 9",
+    "nivel": "dificil"
+  }
+]

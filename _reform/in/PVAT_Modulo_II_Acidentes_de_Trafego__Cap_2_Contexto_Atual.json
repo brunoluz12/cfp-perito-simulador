@@ -1,0 +1,155 @@
+[
+  {
+    "id": 717,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um seminário sobre segurança viária, um expositor cita dados sobre o problema social dos acidentes de tráfego no Brasil mencionados no caderno didático do PVAT - Módulo II. Considerando exclusivamente os números apresentados na seção 2.1, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O Brasil possui frota estimada em mais de 119 milhões de veículos; anualmente mais de 30.000 pessoas morrem nas vias e o custo econômico supera R$ 50 bilhões por ano segundo o IPEA.",
+      "B": "A frota brasileira é estimada em mais de 50 milhões de veículos, e os acidentes geram custo anual inferior a R$ 10 bilhões segundo o IPEA.",
+      "C": "A frota brasileira ultrapassa 200 milhões de veículos e o número anual de mortes em vias terrestres é inferior a 10.000, segundo o DATASUS.",
+      "D": "O Brasil possui frota estimada em 119 milhões de veículos e os acidentes representam custo anual de aproximadamente R$ 5 bilhões, segundo o Ministério da Saúde."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a seção 2.1: 'O Brasil possui uma frota estimada em mais de 119 milhões de veículos'; 'mais de 30.000 pessoas morrem nas vias de trânsito brasileiras'; 'O custo econômico desses acidentes (...) supera R$ 50 bilhões por ano, segundo pesquisas do IPEA'.",
+    "referencia": "Cap. 2, Seção 2.1, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 718,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a Nota apresentada no item 2.1, apesar dos esforços de campanhas educativas, maior rigor legislativo (Lei Seca, redução de limites de velocidade) e melhorias de engenharia de tráfego, qual fator aparece como causa direta ou concorrente na maior parcela das ocorrências de acidentes de trânsito segundo as estatísticas nacionais e internacionais?",
+    "alternativas": {
+      "A": "O fator ambiental (clima e visibilidade), presente em cerca de 70% das ocorrências.",
+      "B": "O fator humano, presente em mais de 90% das ocorrências.",
+      "C": "O fator mecânico (falha de veículo), presente em mais de 60% das ocorrências.",
+      "D": "O fator viário (infraestrutura), presente em cerca de 80% das ocorrências."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a Nota da seção 2.1: 'o fator humano ainda aparece em mais de 90% das ocorrências como causa direta ou concorrente, segundo as estatísticas nacionais e internacionais'.",
+    "referencia": "Cap. 2, Seção 2.1, p. 11",
+    "nivel": "facil"
+  },
+  {
+    "id": 719,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere o seguinte caso hipotético: um agente da Polícia Federal, durante deslocamento operacional autorizado, sofre acidente de trânsito ao colidir lateralmente com um veículo particular em uma avenida de Brasília. Não há óbito, mas há lesões corporais leves no condutor particular. Com base nas situações descritas na seção 2.2 do caderno didático, a competência pericial federal:",
+    "alternativas": {
+      "A": "Está restrita à análise mecânica do veículo, sendo a dinâmica do acidente sempre periciada pela polícia científica estadual.",
+      "B": "Está afastada, pois acidentes em vias urbanas são sempre de competência das polícias civis estaduais, independentemente dos envolvidos.",
+      "C": "Depende exclusivamente do interesse da Justiça Estadual em delegar o caso à PF, não havendo previsão expressa no caderno didático.",
+      "D": "Está presente, pois trata-se de servidor público federal em serviço, hipótese expressamente prevista para atuação primordial da perícia federal em acidentes de tráfego."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a seção 2.2: 'A atuação pericial da Polícia Federal em acidentes de tráfego ocorre, primordialmente, nas seguintes situações: (a) quando servidores públicos federais estiverem envolvidos no acidente e estiverem em serviço'.",
+    "referencia": "Cap. 2, Seção 2.2, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 720,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as hipóteses de atuação primordial da Perícia Criminal Federal em acidentes de tráfego, descritas na seção 2.2 do caderno didático, julgue os itens: I - Quando servidores públicos federais estiverem envolvidos no acidente e estiverem em serviço. II - Quando houver envolvimento de patrimônio da União, incluindo viaturas e equipamentos da Polícia Federal. III - Quando a ocorrência tiver conexão com investigação criminal mais abrangente sob responsabilidade da PF. IV - Em quaisquer outras hipóteses em que a competência federal esteja expressamente definida em lei. V - Em todos os acidentes ocorridos em qualquer rodovia federal, independentemente das partes envolvidas ou da existência de investigação federal correlata. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "I, II, III e IV.",
+      "C": "II, III, IV e V.",
+      "D": "I, III e V."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a seção 2.2, a atuação pericial federal ocorre primordialmente nas hipóteses: '(a) quando servidores públicos federais estiverem envolvidos no acidente e estiverem em serviço; (b) quando houver envolvimento de patrimônio da União, incluindo viaturas e equipamentos da Polícia Federal; (c) quando a ocorrência tiver conexão com investigação criminal mais abrangente sob responsabilidade da PF; e (d) em quaisquer outras hipóteses em que a competência federal esteja expressamente definida em lei'. O item V não é previsto, pois o caderno não cita simples ocorrência em rodovia federal como hipótese automática.",
+    "referencia": "Cap. 2, Seção 2.2, p. 11",
+    "nivel": "dificil"
+  },
+  {
+    "id": 721,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o objetivo central da perícia em acidente de tráfego, conforme exposto na seção 2.3 (Da Perícia Criminal à Prova Judicial), julgue os itens: I - O objetivo central da perícia é determinar a culpa ou inocência dos envolvidos, função atribuída ao perito criminal federal. II - O objetivo central é reconstituir, com base em evidências materiais, a dinâmica da ocorrência: como aconteceu, quais forças estavam em jogo, quais velocidades eram desenvolvidas e o que determinou o resultado final. III - A partir da reconstituição técnica, o operador do direito poderá fazer os juízos jurídicos pertinentes. IV - O laudo pericial constitui meio de prova de elevada força no âmbito da Justiça, dada a sua origem técnica e científica. V - O perito deve, sempre que possível, antecipar-se ao juiz e indicar expressamente no laudo o responsável criminal pelo evento. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "I, III e V.",
+      "C": "II, III e IV.",
+      "D": "II, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a seção 2.3: 'O objetivo central da perícia em acidente de tráfego não é determinar culpa ou inocência dos envolvidos – função que pertence ao juiz –, mas sim reconstituir, com base em evidências materiais, a dinâmica da ocorrência (...). A partir dessa reconstituição técnica, o operador do direito poderá fazer os juízos jurídicos pertinentes'. Também: 'O laudo pericial (...) constitui meio de prova de elevada força dentro do âmbito da Justiça'. Os itens I e V contrariam o texto.",
+    "referencia": "Cap. 2, Seção 2.3, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 722,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da peculiaridade da prova pericial em acidentes de tráfego em comparação com outras perícias criminais, conforme descrito na seção 2.3, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Em acidentes de tráfego, normalmente o autor é desconhecido, cabendo ao perito identificá-lo a partir dos vestígios físicos.",
+      "B": "Na maioria das vezes, as partes envolvidas são identificadas desde o início da investigação, concentrando-se o papel do perito em determinar quem deu causa ao evento com base exclusivamente em vestígios materiais.",
+      "C": "Na perícia de acidentes, a confissão dos envolvidos é elemento determinante para a conclusão pericial, dispensando a análise material em casos confessados.",
+      "D": "A perícia em acidentes de tráfego depende essencialmente de depoimentos de testemunhas oculares, pois os vestígios físicos são considerados acessórios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a seção 2.3: 'na maioria das vezes, as partes envolvidas são identificadas desde o início da investigação. O papel do perito, portanto, concentra-se em determinar quem deu causa ao evento, baseando-se exclusivamente em vestígios materiais, sem depender de confissões ou depoimentos de testemunhas, embora possa considerá-los de forma complementar'.",
+    "referencia": "Cap. 2, Seção 2.3, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 723,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "A seção 2.4 (Fundamentos Metodológicos da Perícia) afirma que a metodologia pericial em acidentes de tráfego fundamenta-se em três pilares interligados e indissociáveis. Assinale a alternativa que apresenta corretamente esses três pilares:",
+    "alternativas": {
+      "A": "A intuição do perito experiente, a oitiva de testemunhas e a análise psicológica dos envolvidos.",
+      "B": "A observação sistemática dos vestígios no local, a aplicação de princípios científicos da Física e da Matemática na interpretação desses vestígios e o conhecimento da legislação de trânsito.",
+      "C": "A reprodução simulada do acidente, a coleta de imagens de câmeras e o cruzamento de informações com seguradoras.",
+      "D": "A análise documental dos antecedentes dos condutores, o exame mecânico dos veículos e a entrevista das vítimas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a seção 2.4: 'A metodologia pericial em acidentes de tráfego fundamenta-se em três pilares interligados e indissociáveis: a observação sistemática dos vestígios no local; a aplicação de princípios científicos da Física e da Matemática na interpretação desses vestígios; e o conhecimento da legislação de trânsito para auxiliar na determinação das causas determinantes dos acidentes'.",
+    "referencia": "Cap. 2, Seção 2.4, p. 12",
+    "nivel": "facil"
+  },
+  {
+    "id": 724,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recém-empossado, ao redigir seu primeiro laudo de acidente de tráfego, é orientado por um colega mais experiente a observar três características essenciais da atividade pericial, mencionadas expressamente na seção 2.4 da apostila. Quais são elas?",
+    "alternativas": {
+      "A": "Objetividade, imparcialidade e reprodutibilidade dos métodos empregados.",
+      "B": "Subjetividade técnica, criatividade analítica e flexibilidade metodológica.",
+      "C": "Celeridade, discrição e sigilo absoluto.",
+      "D": "Detalhamento exaustivo, linguagem rebuscada e exclusividade interpretativa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a seção 2.4: 'O perito deve ter em mente que sua atividade é eminentemente técnica e científica, devendo pautar-se pela objetividade, imparcialidade e reprodutibilidade dos métodos empregados'.",
+    "referencia": "Cap. 2, Seção 2.4, p. 12",
+    "nivel": "facil"
+  },
+  {
+    "id": 725,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as competências esperadas do perito criminal federal ao final do estudo da apostila, conforme exposto na seção 2.5 (Estrutura e Objetivos deste Caderno Didático), considere os itens: I - Realizar levantamento pericial completo em locais de ocorrências de tráfego. II - Calcular velocidades com base em vestígios físicos. III - Quantificar as incertezas nas suas estimativas utilizando ferramentas probabilísticas modernas. IV - Estabelecer causas determinantes de acidentes de forma tecnicamente fundamentada. V - Emitir parecer jurídico vinculante sobre a responsabilidade criminal dos envolvidos. Estão CORRETOS apenas:",
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "I, II e V.",
+      "C": "II, III e V.",
+      "D": "Todos os itens."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a seção 2.5: o perito deve ser capaz de 'realizar levantamento pericial completo em locais de ocorrências de tráfego; calcular velocidades com base em vestígios físicos; quantificar as incertezas nas suas estimativas utilizando ferramentas probabilísticas modernas; estabelecer causas determinantes de acidentes de forma tecnicamente fundamentada; e redigir laudos periciais claros, objetivos e juridicamente adequados'. O item V é incorreto, pois a função de fixar responsabilidade criminal é do juiz.",
+    "referencia": "Cap. 2, Seção 2.5, p. 13",
+    "nivel": "medio"
+  }
+]

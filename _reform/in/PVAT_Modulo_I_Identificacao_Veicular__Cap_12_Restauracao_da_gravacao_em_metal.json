@@ -1,0 +1,206 @@
+[
+  {
+    "id": 623,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame de identificação veicular, o perito observa que o número do chassi não é mais visível à inspeção desarmada, embora não haja indícios de perda expressiva de espessura da chapa. Sobre as zonas de deformação resultantes da gravação por estampagem em substrato metálico e as condições que permitem a restauração do código original, analise as afirmativas: I. A gravação por deformação gera duas zonas distintas no substrato: uma zona de deformação elástica (não permanente) e uma zona de deformação plástica (permanente). II. Para ligas de aço, a penetração da zona de deformação plástica pode alcançar até seis vezes a profundidade da marcação original. III. Se a remoção abrasiva consumir completamente a zona de deformação plástica, a restauração ainda será possível pelo método de ataque químico, em razão das tensões residuais persistentes na superfície. IV. Considerando que as chapas atualmente utilizadas em automóveis são da ordem de 0,7 mm de espessura e que a profundidade regulamentar do VIN é de 0,2 mm, a remoção completa da zona de deformação plástica por abrasão é, em regra, praticamente inviável. Está(ão) correta(s) APENAS a(s) afirmativa(s):",
+    "alternativas": {
+      "A": "II e III.",
+      "B": "I, III e IV.",
+      "C": "I, II e IV.",
+      "D": "I e II."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma que 'Duas são as zonas resultantes do processo: a zona de deformação elástica (não permanente) e a zona de deformação plástica (permanente)' (I correta); que 'Para ligas de aço, a penetração da zona de deformação plástica pode alcançar 6 vezes a profundidade da marcação' (II correta); que 'Se a remoção, no entanto, consumir completamente a zona de deformação plástica, a restauração não mais será possível' (III incorreta); e que, dada a espessura de 0,7 mm e profundidade do VIN de 0,2 mm, 'a remoção completa da zona de deformação plástica por abrasão é, nesses casos, praticamente inviável' (IV correta).",
+    "referencia": "Cap. 12, p. 57",
+    "nivel": "dificil"
+  },
+  {
+    "id": 624,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em determinada perícia, o examinador identifica que a gravação do código identificador foi realizada originalmente a laser, e observa que o fraudador removeu a região marcada. Sobre as particularidades da gravação a laser frente às técnicas de restauração tradicionais, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Nas gravações a laser, a recuperação é sempre possível pelo método de tratamento térmico, pois o aquecimento original já preparou o substrato para o relaxamento das tensões residuais.",
+      "B": "A gravação a laser produz zona de deformação plástica com penetração superior àquela observada nas gravações por estampagem, o que favorece a restauração pelo reagente de Fry.",
+      "C": "A zona termicamente afetada nas gravações a laser alcança cerca de 6 vezes a profundidade da cavidade, sendo a técnica de ataque químico a mais indicada para sua restauração.",
+      "D": "Na gravação a laser, o calor do feixe altera a microestrutura subjacente em uma zona termicamente afetada cuja profundidade varia de 2 a 25 µm abaixo da cavidade, o que torna a recuperação dos códigos suprimidos frequentemente impraticável."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Segundo o material: 'Nas gravações a laser, a quantidade de calor fornecida pelo feixe é capaz de fundir o material, bem como alterar a microestrutura subjacente à gravação, em um fenômeno conhecido como zona termicamente afetada, cuja profundidade varia de 2 a 25µm abaixo da cavidade da gravação. Em decorrência da pouca profundidade da penetração da zona afetada, a recuperação dos códigos suprimidos é frequentemente impraticável'.",
+    "referencia": "Cap. 12, p. 58",
+    "nivel": "medio"
+  },
+  {
+    "id": 625,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os métodos de restauração de códigos identificadores obliterados são tradicionalmente classificados pela literatura pericial e baseiam-se em um pressuposto comum. Sobre esse pressuposto e a classificação dos métodos, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O pressuposto é que a remoção mecânica jamais atinge a zona de deformação elástica, sendo essa a única zona explorada pelos métodos periciais para revelação dos caracteres.",
+      "B": "Os métodos baseiam-se no pressuposto de que a gravação original, ao deformar mecanicamente ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura do material, que podem ser explorados por diferentes técnicas mesmo após a supressão aparente dos caracteres.",
+      "C": "Os métodos são exclusivamente destrutivos, incluindo apenas o ataque químico, o ataque eletrolítico e o tratamento térmico, sem qualquer alternativa não destrutiva disponível na prática pericial.",
+      "D": "O pressuposto é que a tinta utilizada para preenchimento da cavidade reage quimicamente com o reagente aplicado, permitindo a revelação do código por contraste cromático na superfície polida."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o texto: 'Os métodos de restauração de códigos identificadores obliterados baseiam-se no pressuposto de que a gravação original, ao deformar mecanicamente ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura do material, os quais podem ser explorados por diferentes técnicas periciais mesmo após a supressão aparente dos caracteres'. O texto também menciona métodos destrutivos e não destrutivos.",
+    "referencia": "Cap. 12, Seção 12.1, p. 58",
+    "nivel": "facil"
+  },
+  {
+    "id": 626,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "O ataque químico é o método mais amplamente utilizado pela perícia criminal para recuperação de códigos obliterados em substratos metálicos. Sobre o mecanismo de ação do ataque químico e o reagente comumente empregado em ligas de aço, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O método se apoia no fato de que a área trabalhada a frio possui dureza igual à do metal circundante, sendo o contraste obtido apenas pela diferença de coloração depositada pelo reagente sobre a superfície limpa.",
+      "B": "O reagente de Fry, utilizado para ligas de aço, é composto por 90 g de CuCl2, 120 ml de HCl e 100 ml de H2O, sendo sua aplicação realizada por imersão obrigatória da peça em recipiente fechado por 24 horas.",
+      "C": "O método explora a diferenciação na taxa de reação entre as áreas afetadas e as não afetadas pela marcação, tornando os caracteres removidos visíveis em razão da diferença na refletividade da luz; para ligas de aço, comumente se utiliza o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O), aplicado em algodão embebido.",
+      "D": "O ataque químico produz reação uniforme em toda a superfície metálica, sendo o contraste obtido apenas pela ação mecânica do algodão sobre a área tratada, e não pela diferença de comportamento do substrato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto descreve: 'o método se apoia no fenômeno da diferenciação na taxa de reação apresentada pelo substrato na aplicação do reagente químico, quando comparadas as áreas afetadas com as não afetadas, tornando os caracteres removidos visíveis em razão da diferença na refletividade da luz'. E ainda: 'Comumente, para ligas de aço, é utilizado o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O), cuja aplicação pode ser feita em algodão embebido'.",
+    "referencia": "Cap. 12, Seção 12.1.1, p. 59-60",
+    "nivel": "medio"
+  },
+  {
+    "id": 627,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recebe para exame o bloco de um motor com indícios de obliteração do número identificador. Considerando que o ferro fundido é o material tipicamente empregado em blocos de motores, o examinador opta pelo tratamento térmico como técnica de restauração. Sobre os fundamentos e procedimentos dessa técnica, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O sucesso da técnica decorre da ausência de tensão residual abaixo da área deformada, o que permite ao calor produzir uma deformação adicional capaz de revelar os caracteres originais.",
+      "B": "O método consiste em resfriar bruscamente a área examinada com nitrogênio líquido até a contração da estrutura cristalina, permitindo o reaparecimento dos caracteres por contraste térmico.",
+      "C": "Após o aquecimento, a área deve ser polida com diamante e alumina até acabamento espelhado, sem qualquer remoção de óxidos, pois a camada oxidada é o próprio elemento de contraste utilizado na revelação.",
+      "D": "O sucesso da técnica deve-se à presença de tensão residual abaixo da área deformada; o método consiste na aplicação de calor até o metal enrubescer, com relaxamento das tensões residuais e recristalização, surgindo protuberância ao redor da deformação; após o aquecimento, a área deve ser suavemente lixada para remover óxidos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o texto: 'Trata-se de uma técnica especialmente adequada para restauração de números obliterados em ferro fundido (normalmente utilizado em blocos de motores). O sucesso da técnica se deve à presença de tensão residual abaixo da área deformada. O método consiste na aplicação de calor na área estudada até o metal enrubescer. Como resultado, há o relaxamento das tensões residuais, com a recristalização da estrutura do metal, que permite o surgimento de protuberância na área ao redor da deformação. Após o aquecimento, a área deve ser suavemente lixada para remover camadas de óxido depositadas sobre os caracteres revelados'.",
+    "referencia": "Cap. 12, Seção 12.1.2, p. 60",
+    "nivel": "medio"
+  },
+  {
+    "id": 628,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a técnica de polimento como método de restauração de gravações em substratos metálicos, considere as afirmativas e assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A técnica fundamenta-se no fato de que materiais com diferentes durezas são removidos em taxas diferenciadas, sendo o procedimento iniciado com a remoção de graxas, pintura e sujeira, seguido de polimento com abrasivo fino até obtenção de acabamento espelhado, podendo ser utilizados como agente polidor o diamante e a alumina.",
+      "B": "A técnica fundamenta-se na uniformidade de dureza entre a região marcada e o substrato circundante, sendo o objetivo do polimento eliminar essa uniformidade para revelar os caracteres.",
+      "C": "O polimento deve ser realizado com abrasivo grosso, sem necessidade de remoção prévia de graxas e pinturas, sendo o acabamento espelhado contraindicado por mascarar os caracteres a serem revelados.",
+      "D": "O polimento exige obrigatoriamente o uso de reagente de Fry como agente polidor, e seu uso é restrito a gravações por estampagem, sendo inadequado para gravações a laser."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'a região das marcações removidas da superfície do material apresenta diferentes durezas em comparação com o resto do material, a restauração pode ser bem-sucedida por meio do polimento da peça. Materiais com diferentes durezas são removidos em taxas diferenciadas. O procedimento prevê inicialmente a remoção de graxas, pintura e sujeira, e em seguida, o polimento com um abrasivo fino, até a obtenção de acabamento espelhado. Podem ser utilizados como agente polidor o diamante e a alumina'.",
+    "referencia": "Cap. 12, Seção 12.1.3, p. 61",
+    "nivel": "facil"
+  },
+  {
+    "id": 693,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as zonas de deformação resultantes do processo de gravação por deformação no metal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas a zona de deformação elástica é permanente e serve de base para a restauração pericial.",
+      "B": "São duas zonas: a de deformação elástica (não permanente) e a de deformação plástica (permanente), sendo esta última explorada nas técnicas de restauração.",
+      "C": "A zona de deformação plástica é temporária e desaparece logo após a gravação, restando apenas a elástica.",
+      "D": "Apenas em gravações a laser surge a zona de deformação plástica; em gravações por deformação ela inexiste."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 12 - Restauração da gravação em metal",
+    "nivel": "facil"
+  },
+  {
+    "id": 694,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o material, qual é o método mais amplamente utilizado pela perícia criminal para a recuperação de códigos obliterados em substratos metálicos?",
+    "alternativas": {
+      "A": "Cavitação ultrassônica.",
+      "B": "Microscopia eletrônica de varredura.",
+      "C": "Ataque químico.",
+      "D": "Sistemas magnéticos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 12 - Restauração da gravação em metal",
+    "nivel": "facil"
+  },
+  {
+    "id": 695,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recebe um bloco de motor de ferro fundido com a numeração obliterada. Considerando a indicação técnica dos métodos descritos no PVAT, qual técnica é especialmente adequada para esse caso?",
+    "alternativas": {
+      "A": "Polimento com alumina até acabamento espelhado, por se tratar de ferro fundido.",
+      "B": "Cavitação ultrassônica, único método indicado para ferro fundido conforme o PVAT.",
+      "C": "Aplicação direta do reagente de Fry, sem necessidade de lixamento posterior.",
+      "D": "Tratamento térmico, que se vale da tensão residual abaixo da área deformada, aplicando calor até o metal enrubescer."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 12 - Restauração da gravação em metal",
+    "nivel": "medio"
+  },
+  {
+    "id": 696,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o reagente de Fry, utilizado no ataque químico em ligas de aço, julgue os itens:\nI. Sua composição corresponde a 90 g de CuCl2, 120 ml de HCl e 100 ml de H2O.\nII. A aplicação pode ser feita com algodão embebido sobre o local original da gravação.\nIII. Atua de modo uniforme em toda a superfície, sem distinguir áreas trabalhadas a frio das demais.\nEstá(ão) correto(s):",
+    "alternativas": {
+      "A": "Apenas I e II.",
+      "B": "Apenas II e III.",
+      "C": "Apenas I e III.",
+      "D": "I, II e III."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 12 - Restauração da gravação em metal",
+    "nivel": "medio"
+  },
+  {
+    "id": 697,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do método de polimento para revelação de gravações suprimidas, é correto afirmar que:",
+    "alternativas": {
+      "A": "Deve ser realizado diretamente sobre a peça suja, sem qualquer preparação, para preservar a zona de deformação plástica.",
+      "B": "É um método exclusivo para gravações por estampagem profunda, sendo ineficaz em gravações a laser.",
+      "C": "Prevê a remoção prévia de graxas, pintura e sujeira, seguida do polimento com abrasivo fino até acabamento espelhado, podendo-se usar diamante ou alumina, sendo relatados casos de sucesso inclusive em gravações a laser.",
+      "D": "Utiliza obrigatoriamente o reagente de Fry como agente polidor para criar contraste óptico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 12 - Restauração da gravação em metal",
+    "nivel": "medio"
+  },
+  {
+    "id": 698,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a profundidade de penetração da zona de deformação plástica em ligas de aço, a profundidade regulamentar do VIN e a espessura usual das chapas automotivas mencionadas no PVAT, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A zona de deformação plástica em aço alcança até 2 vezes a profundidade da marcação, sendo facilmente removida por abrasão em chapas de 0,7 mm.",
+      "B": "A zona de deformação plástica em aço alcança até 6 vezes a profundidade da marcação; como o VIN tem 0,2 mm e a chapa cerca de 0,7 mm, a remoção completa dessa zona por abrasão é, em regra, praticamente inviável.",
+      "C": "A profundidade regulamentar do VIN é de 0,7 mm e a espessura da chapa, de 0,2 mm, motivo pelo qual a obliteração é sempre total.",
+      "D": "Em chapas de 0,7 mm, a zona termicamente afetada substitui a zona de deformação plástica, viabilizando a restauração apenas por tratamento térmico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
+    "referencia": "Cap. 12 - Restauração da gravação em metal",
+    "nivel": "dificil"
+  }
+]

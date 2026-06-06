@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1117,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os estopins utilizados como sistemas de iniciação de cargas explosivas, é correto afirmar que:",
+    "alternativas": {
+      "A": "O estopim comum contém maior quantidade de pólvora do que o hidráulico, atingindo cerca de 21 g por metro de comprimento útil.",
+      "B": "O estopim hidráulico apresenta queima lenta e uniforme, com tempo de queima entre 110 e 240 s/m, sendo impermeável e adequado para utilização subaquática.",
+      "C": "O estopim do tipo mecha é o de queima mais veloz dentre todos, tendo a pólvora protegida internamente por tecido impermeabilizante específico.",
+      "D": "O estopim rastilho é o tipo de queima mais lenta, sendo empregado preferencialmente para iniciações em ambientes que exigem retardo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O estopim hidráulico é impermeável, permite utilização subaquática e tem tempo de queima entre 110 e 240 s/m (p. 29). O comum tem MENOS pólvora (16 g/m) que o hidráulico (21 g/m); o rastilho é o MAIS veloz (mais rápido que a mecha); a mecha tem pólvora APARENTE, por fora do tecido.",
+    "referencia": "PDF, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 1118,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de explosão de cava em pedreira, o perito encontra fragmentos de pequeno cilindro metálico de cerca de 7 mm de diâmetro, com resíduos compatíveis com azida de chumbo, estifnato de chumbo e nitropenta. A partir desses elementos, é correto concluir que o artefato examinado se trata de:",
+    "alternativas": {
+      "A": "Estopim do tipo hidráulico, cuja queima lenta e uniforme é compatível com a composição encontrada nos fragmentos coletados.",
+      "B": "Espoleta elétrica do tipo coluna, identificada pela presença obrigatória de fios condutores formando ponte sobre o explosivo sensível.",
+      "C": "Sistema disparador de tubo de choque, cujas paredes internas são revestidas justamente por azida de chumbo associada a alumínio em pó.",
+      "D": "Cápsula explosiva não-elétrica, com carga primária de azida de chumbo somada ao estifnato e carga secundária de nitropenta, em invólucro metálico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A cápsula explosiva não-elétrica apresenta-se como pequeno cilindro metálico (Al ou Cu) com cerca de 7 mm de diâmetro, contendo carga primária de azida de chumbo + estifnato de chumbo (0,4 g) e carga secundária de nitropenta, Tetril ou RDX (0,8 g) (p. 29). O tubo de choque é revestido por HMX + alumínio (p. 30), não azida; a espoleta elétrica exige fios condutores, não mencionados; estopim é à base de pólvora.",
+    "referencia": "PDF, p. 29-30",
+    "nivel": "medio"
+  },
+  {
+    "id": 1119,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das vantagens e desvantagens da espoleta elétrica em comparação aos sistemas não-elétricos, é correto afirmar que:",
+    "alternativas": {
+      "A": "A principal desvantagem reside na impossibilidade de detonação simultânea de múltiplas cargas, fator que restringe seu uso a desmontes de pequeno porte.",
+      "B": "Entre as vantagens cita-se a imunidade total a interferências de rádio-frequência, o que dispensa cuidados especiais próximos a transmissores.",
+      "C": "A possibilidade de acionamento acidental por eletricidade estática ou por indução eletromagnética constitui sua principal desvantagem operacional.",
+      "D": "A impossibilidade de aproximação em caso de falhas é apontada pela literatura como uma desvantagem relevante das espoletas elétricas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A desvantagem da espoleta elétrica é justamente o acionamento acidental por eletricidade estática ou indução eletromagnética (p. 30). Entre as VANTAGENS estão: detonação no momento desejado, aproximação no caso de falhas e detonação de várias cargas simultaneamente. As alternativas A e D invertem vantagens em desvantagens; C contraria a regra de desligar radiotransmissores.",
+    "referencia": "PDF, p. 30",
+    "nivel": "facil"
+  },
+  {
+    "id": 1120,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em operação de desmonte de rocha com múltiplos furos a serem detonados em sequência precisa, o responsável técnico precisa garantir o acionamento controlado e a possibilidade de aproximação segura em caso de eventual falha. Considerando as características dos sistemas de iniciação, é correto afirmar que:",
+    "alternativas": {
+      "A": "O estopim hidráulico atende perfeitamente a essa finalidade, pois permite controle absoluto do tempo e da ordem de detonação de múltiplas cargas.",
+      "B": "O sistema de mecha pirotécnica é o mais adequado, pois sua queima rápida (8 s/m) viabiliza simultaneidade entre múltiplos pontos de iniciação.",
+      "C": "A cápsula explosiva não-elétrica é a opção indicada, pois sua iniciação por fulminato de mercúrio garante simultaneidade absoluta entre as cargas.",
+      "D": "A espoleta elétrica reúne as vantagens necessárias, pois permite detonação no momento desejado, detonação simultânea de várias cargas e aproximação em caso de falhas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As vantagens da espoleta elétrica incluem detonação no momento desejado, aproximação no caso de falhas e detonação de várias cargas simultaneamente (p. 30), atendendo exatamente aos requisitos descritos. O estopim hidráulico apenas queima de forma lenta e uniforme, sem controle de ordem; a cápsula não-elétrica depende do estopim; mecha pirotécnica não oferece simultaneidade controlada.",
+    "referencia": "PDF, p. 30",
+    "nivel": "medio"
+  },
+  {
+    "id": 1121,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o sistema disparador de tubo de choque, empregado como alternativa de iniciação às espoletas elétricas, é correto afirmar que:",
+    "alternativas": {
+      "A": "Consiste em tubo metálico rígido revestido externamente por pólvora negra, sendo iniciado por descarga elétrica de baixa tensão aplicada nas suas extremidades.",
+      "B": "Trata-se de tubo plástico oco e flexível, com paredes revestidas internamente por HMX (octogênio) e alumínio em pó, que conduz uma chama a cerca de 1.000 m/s.",
+      "C": "Funciona como cordel detonante convencional, propagando onda de detonação por carga interna de PETN à velocidade aproximada de 7.000 m/s.",
+      "D": "Caracteriza-se por tubo de cobre preenchido por fulminato de mercúrio, cuja iniciação se dá pela compressão mecânica das extremidades."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O tubo de choque é um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com paredes internas revestidas por HMX (octogênio) + alumínio em pó, conduzindo chama a cerca de 1.000 m/s e sensibilizando a espoleta com maior segurança (p. 30). As demais descrevem cordel detonante, estopim ou cápsulas, não o tubo de choque.",
+    "referencia": "PDF, p. 30",
+    "nivel": "medio"
+  },
+  {
+    "id": 1122,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante diligência de inutilização de artefato, o perito orienta a equipe quanto às regras de segurança para o manuseio de detonadores. Acerca dessas regras, é correto afirmar que:",
+    "alternativas": {
+      "A": "No transporte e armazenamento, os detonadores devem ser separados dos explosivos, jamais sendo armazenados a menos de 3 metros de quaisquer outros explosivos até estarem prontos para serem escorvados.",
+      "B": "Detonadores e demais explosivos podem ser armazenados conjuntamente, desde que mantenham distância mínima de 50 cm e estejam acondicionados em invólucros metálicos selados.",
+      "C": "É recomendado transportar cápsulas explosivas elétricas no porta-luvas da viatura, mesmo havendo equipamentos como radiotransmissores, desde que os fios estejam desencapados.",
+      "D": "Os detonadores elétricos devem ser colocados no chão com os fios enrolados e separados entre si, justamente para evitar curto-circuito acidental durante o manuseio."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A regra de segurança expressa no capítulo é separar explosivos de detonadores no transporte e armazenamento, e nunca armazenar detonadores a menos de 3 metros de quaisquer outros explosivos até estarem prontos para serem escorvados (p. 30). A alternativa C contraria a vedação expressa de transporte no porta-luvas próximo a radiotransmissores; D inverte a regra (devem ser desenrolados e curto-circuitados).",
+    "referencia": "PDF, p. 30-31",
+    "nivel": "medio"
+  },
+  {
+    "id": 1123,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe de peritos atua em local onde foi identificado artefato improvisado contendo espoletas elétricas conectadas. Considerando as regras de segurança aplicáveis ao manuseio desse tipo de detonador, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os fios da espoleta elétrica devem ser cortados simultaneamente para reduzir o tempo de exposição da equipe ao risco, sendo recomendado o uso de alicate isolado para ambos os fios.",
+      "B": "Aproximar-se com radiotransmissores ligados é admissível desde que mantida distância superior a 1 metro do artefato, pois a indução eletromagnética só é relevante em altas potências.",
+      "C": "Antes de passar uma espoleta elétrica para outra pessoa deve-se equilibrar a eletricidade estática dos corpos, sendo ainda regra cortar sempre um fio de cada vez da espoleta elétrica.",
+      "D": "É permitido trabalhar com espoletas elétricas próximo à rede de alta tensão desde que se utilize equipamento de proteção individual dielétrico classe 2 ou superior."
+    },
+    "resposta_correta": "C",
+    "justificativa": "São regras expressas: antes de passar a espoleta elétrica a outra pessoa, equilibrar a eletricidade estática dos corpos; cortar sempre um fio de cada vez de espoleta elétrica (p. 31). A alternativa A contraria essa regra; B contraria a vedação expressa de uso de detonadores próximo a radiotransmissores (deve-se DESLIGAR HT e celulares); D contraria a vedação de uso próximo à rede de alta tensão devido à indução eletromagnética (p. 30).",
+    "referencia": "PDF, p. 30-31",
+    "nivel": "dificil"
+  }
+]

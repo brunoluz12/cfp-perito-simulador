@@ -1,0 +1,70 @@
+[
+  {
+    "id": 575,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "João, proprietário de uma motocicleta cujo número de chassi sofreu corrosão natural e tornou-se ilegível, decide, por conta própria, regravar os caracteres do VIN utilizando um equipamento de micropercussão adquirido pela internet, com o objetivo declarado de 'regularizar' a identificação para obter o licenciamento. Ele não solicitou autorização de qualquer autoridade competente. Diante do tipo penal do art. 311 do Código Penal Brasileiro, e considerando o tratamento dado pelo material didático, é correto afirmar que:",
+    "alternativas": {
+      "A": "A conduta de João não configura crime, pois a finalidade declarada era a regularização e há boa-fé presumida, afastando o dolo.",
+      "B": "A conduta de João configura crime culposo do art. 311, com pena reduzida em razão do propósito regularizador.",
+      "C": "A conduta somente configurará crime se ficar demonstrado prejuízo concreto a terceiros ou efetiva circulação do veículo após a regravação.",
+      "D": "A conduta configura o crime do art. 311, pois a regravação sem autorização legal da autoridade competente caracteriza ilícito penal, independentemente da alegação de boa-fé ou intuito de regularização."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O capítulo 2 afirma que 'A ausência dessa autorização (...) converte a intervenção material no identificador em ilícito penal, ainda que realizada com alegações de boa-fé ou regularização'. Ademais, 'Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da efetiva circulação do veículo ou da produção de prejuízo concreto a terceiros' e 'Não se pune a conduta culposa'.",
+    "referencia": "Cap. 2, p. 9-10",
+    "nivel": "medio"
+  },
+  {
+    "id": 576,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do crime de adulteração de sinal identificador de veículo automotor previsto no art. 311 do Código Penal, conforme tratado no Módulo I do PVAT, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A tutela penal alcança exclusivamente o VIN e a placa, não atingindo agregados como motor, câmbio e carroceria, ainda que possuam numeração própria.",
+      "B": "Por se tratar de crime contra a fé pública, admite-se a modalidade culposa quando o agente atua com negligência grave na conservação dos sinais identificadores.",
+      "C": "A pena cominada é de reclusão de três a seis anos e multa, e o crime exige natureza dolosa, sendo irrelevante a finalidade específica do agente para a configuração do tipo.",
+      "D": "A pena cominada é de detenção de um a três anos e multa, refletindo a natureza patrimonial do delito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O capítulo 2 dispõe que 'A pena cominada ao crime é de reclusão de três a seis anos e multa' e que 'O crime previsto no artigo 311 possui natureza dolosa (...) Não se pune a conduta culposa. A finalidade do agente é irrelevante para a configuração do tipo'. O texto também esclarece que o tipo penal 'abrange não só o VIN, mas também placas de identificação, motores, câmbios, carrocerias e outros agregados'.",
+    "referencia": "Cap. 2, p. 9-10",
+    "nivel": "facil"
+  },
+  {
+    "id": 645,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma investigação, apura-se que um indivíduo, após adquirir veículo com numeração de chassi suspeita, levou-o a uma oficina clandestina onde solicitou apenas a regravação dos caracteres do VIN, sem alteração documental, sem revenda imediata e sem efetiva circulação posterior do veículo, alegando que pretendia 'regularizar' o bem por conta própria. O delegado questiona o perito sobre o enquadramento penal e sobre o momento consumativo da conduta. Considerando o tratamento dado pelo material ao art. 311 do Código Penal e à doutrina aplicável, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Por não ter havido circulação do veículo nem prejuízo concreto a terceiro, a conduta é atípica, configurando, no máximo, ilícito administrativo de trânsito.",
+      "B": "Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da efetiva circulação do veículo ou da produção de prejuízo concreto a terceiros, sendo a finalidade do agente irrelevante para a configuração do tipo.",
+      "C": "A conduta exige finalidade específica de revenda ou de prática de outro ilícito, de modo que, ausente esse elemento subjetivo especial, o tipo do art. 311 não se aperfeiçoa.",
+      "D": "A regravação realizada sem autorização legal, ainda que com alegação de boa-fé ou de regularização, configura conduta culposa, punível a título de negligência pelo art. 311."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo o capítulo 2, 'Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da efetiva circulação do veículo ou da produção de prejuízo concreto a terceiros'. Ademais, 'A finalidade do agente é irrelevante para a configuração do tipo: pouco importa se a adulteração foi praticada para revenda, uso próprio, uso em atividades ilícitas, fraude administrativa ou ocultação de outro crime'. O texto também afirma que o crime é doloso ('Não se pune a conduta culposa') e que a ausência de autorização 'converte a intervenção material no identificador em ilícito penal, ainda que realizada com alegações de boa-fé ou regularização'.",
+    "referencia": "Cap. 2, p. 9-10",
+    "nivel": "medio"
+  },
+  {
+    "id": 646,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em parecer técnico-jurídico anexado a um inquérito, o representante do Ministério Público sustenta que o art. 311 do Código Penal, na redação resultante das alterações operadas pelas Leis nº 9.426/1996 e 14.562/2023, tutela bem jurídico restrito ao patrimônio individual do proprietário do veículo cujo sinal foi adulterado, e que, por essa razão, somente o VIN poderia ser considerado objeto material do crime. Considerando o que aduz o material didático sobre o tipo penal, sua abrangência e seu bem jurídico tutelado, assinale a alternativa que melhor refuta a tese do parecer.",
+    "alternativas": {
+      "A": "O bem jurídico tutelado é a fé pública e a segurança do sistema de identificação veicular, e o tipo penal abrange não só o VIN, mas também placas, motores, câmbios, carrocerias e outros agregados que possuam numeração ou marcação destinada à identificação.",
+      "B": "O bem jurídico é o patrimônio do Estado e o tipo penal recai exclusivamente sobre os identificadores externos ostensivos, como a placa traseira lacrada.",
+      "C": "O bem jurídico tutelado é a incolumidade pública no trânsito, abrangendo apenas componentes mecânicos que tenham impacto direto na segurança veicular.",
+      "D": "O bem jurídico é a livre concorrência no mercado automotivo, alcançando apenas adulterações com finalidade de revenda comercial do veículo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O capítulo 2 afirma que o art. 311 'constitui um dos principais dispositivos penais de proteção à fé pública e à segurança do sistema de identificação veicular' e que 'o tipo penal abrange não só o VIN, mas também placas de identificação, motores, câmbios, carrocerias e outros agregados que possuam numeração ou marcação destinada à identificação'. A 'tutela penal incide sobre o sinal identificador enquanto instrumento de individualização do bem, e não apenas sobre o veículo como objeto material'.",
+    "referencia": "Cap. 2, p. 9",
+    "nivel": "medio"
+  }
+]

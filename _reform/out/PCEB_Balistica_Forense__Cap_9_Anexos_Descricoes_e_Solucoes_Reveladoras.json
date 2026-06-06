@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1306,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Anexo II do material de Balística Forense da ANP relaciona soluções reveladoras de caracteres aplicáveis a peças metálicas de armas de fogo. Acerca da natureza e do critério de emprego dessas soluções, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de abrasivos mecânicos destinados à remoção de oxidação superficial, sem ação química sobre o metal e sem influência na recuperação de numerações suprimidas.",
+      "B": "Constituem reagentes químicos para revelação de caracteres em diferentes metais, havendo, para alguns deles, mais de uma variante (brando, agressivo e variante), cuja escolha se faz em função das características da superfície a ser tratada.",
+      "C": "São reagentes químicos universais, isto é, uma mesma solução padronizada atua indistintamente sobre aço-carbono, aço inoxidável, alumínio e cobre, dispensando seleção prévia do metal.",
+      "D": "São soluções únicas por metal que, para produzir resultado pericial válido, devem obrigatoriamente ser aplicadas de forma combinada e simultânea entre si.",
+      "E": "Destinam-se à identificação de resíduos de disparo aderidos às peças metálicas, não tendo emprego na revelação de caracteres alfanuméricos suprimidos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Anexo II (p. 87), os reagentes listados são químicos e destinam-se à revelação de caracteres em diversos metais; alguns metais possuem mais de uma solução reveladora (variantes brando, agressivo e variante), empregadas geralmente de forma individual em função das características da superfície a tratar, o que valida B. A é incorreta porque a ação é química, não abrasiva/mecânica. C erra ao afirmar universalidade: a solução é selecionada conforme o metal (aço-carbono/titânio, aço inoxidável, alumínio, cobre). D inverte o conceito, pois as soluções são usadas individualmente, não em combinação obrigatória. E confunde a finalidade com a análise de resíduos de disparo, que não é o objeto do Anexo II.",
+    "referencia": "PDF, p. 87",
+    "nivel": "facil"
+  },
+  {
+    "id": 1307,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em exame de pistola Glock 26, calibre 9 mm Luger, cujo ferrolho em aço-carbono oxidado teve a numeração de série suprimida, o perito pretende aplicar a solução reveladora adequada ao metal. À luz do Anexo II do material de Balística Forense, qual reagente é tecnicamente indicado para esse substrato?",
+    "alternativas": {
+      "A": "Reagente de TUCKER (agressivo), composto por ácido fluorídrico, ácido clorídrico, ácido nítrico e água destilada, próprio para superfícies severamente oxidadas.",
+      "B": "Reagente de KELLER (brando), também denominado Potervin & Bastien, à base de ácidos fluorídrico, clorídrico, nítrico e água destilada.",
+      "C": "Reagente de HUME ROTHERY, composto por cloreto cúprico, ácido clorídrico e água destilada.",
+      "D": "Reagente de HATCHER, em suas variantes brando, agressivo ou variante (para armas novas), à base de ácido clorídrico e cloreto cúprico.",
+      "E": "Reagente de BESSEMAN & HAEMERS, à base de ácido clorídrico, etanol, cloreto férrico e cloreto cúprico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Anexo II (p. 87), o Reagente de HATCHER (variantes brando, agressivo e variante para armas novas) é indicado para AÇO-CARBONO ou TITÂNIO, material do ferrolho da Glock 26 descrito no Anexo I (p. 84), o que torna D correta. TUCKER (A), KELLER/Potervin & Bastien (B) e HUME ROTHERY (C) são indicados para ALUMÍNIO E SUAS LIGAS, não para aço-carbono. BESSEMAN & HAEMERS (E) é específico para AÇO INOXIDÁVEL, e não para aço-carbono.",
+    "referencia": "PDF, p. 84, 87",
+    "nivel": "medio"
+  },
+  {
+    "id": 1308,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de revólver Rossi 712, calibre .357\" MAG, em excelente estado de conservação e com acabamento em aço inoxidável, é necessário revelar caracteres suprimidos na armação. Segundo o Anexo II do material de Balística Forense, o reagente tecnicamente adequado ao metal e a sua composição correspondem a:",
+    "alternativas": {
+      "A": "Reagente de BESSEMAN & HAEMERS, nas versões branda e agressiva, à base de ácido clorídrico, etanol, cloreto férrico e cloreto cúprico.",
+      "B": "Reagente de HATCHER (variante para armas novas), à base de ácido clorídrico, cloreto cúprico, água destilada e etanol.",
+      "C": "Reagente de HUME ROTHERY, à base de cloreto cúprico, ácido clorídrico e água destilada, próprio para qualquer liga ferrosa.",
+      "D": "Solução à base de cloreto férrico, ácido clorídrico e água destilada, padronizada para todas as ligas metálicas empregadas em armas de fogo.",
+      "E": "Reagente de TUCKER (agressivo), à base de ácidos fluorídrico, clorídrico e nítrico, próprio para metais severamente oxidados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Anexo II (p. 87), o Reagente de BESSEMAN & HAEMERS (brando e agressivo) é o indicado para AÇO INOXIDÁVEL, material do revólver descrito como ARMA 1 (p. 83), o que valida A. HATCHER (B) destina-se a AÇO-CARBONO ou TITÂNIO. HUME ROTHERY (C) e TUCKER (E) destinam-se a ALUMÍNIO E SUAS LIGAS, não a ligas ferrosas. A composição de D (cloreto férrico + ácido clorídrico + água destilada) corresponde à solução para COBRE E SUAS LIGAS (p. 88), não havendo solução universal para todas as ligas.",
+    "referencia": "PDF, p. 83, 87-88",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1309,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do modelo de descrição pericial de armas de fogo adotado no Anexo I do material de Balística Forense da ANP, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A massa da arma somente deve ser registrada quando esta estiver municiada, pois a aferição com tambor vazio ou sem carregador carece de valor pericial.",
+      "B": "São obrigatórios apenas a marca, o modelo, o calibre e o número de série, ficando a critério do perito mencionar a procedência do fabricante e o sentido das raias.",
+      "C": "A descrição deve enumerar, no mínimo, classificação, marca, modelo, calibre, número de série, número e sentido das raias, comprimento do cano, acabamento, massa, carregamento, coronha e mecanismo de disparo.",
+      "D": "O mecanismo de disparo dispensa descrição própria quando a arma funciona normalmente, bastando consignar essa condição no campo destinado ao acabamento.",
+      "E": "O sentido das raias e o acabamento integram um único item da descrição, por se referirem ambos a características construtivas do cano."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme as ARMAS 1, 2 e 3 (p. 83-85), o modelo de descrição contém os itens classificação, marca, modelo, calibre, número de série, número e sentido das raias, comprimento do cano, acabamento, massa, carregamento, coronha e mecanismo de disparo, o que torna C correta. A contraria o padrão, pois a massa é descrita com o tambor vazio ou sem carregador. B inverte a obrigatoriedade desses itens. D está errada porque o mecanismo de disparo é item próprio e distinto do acabamento. E é incorreta porque sentido das raias e acabamento são itens distintos do modelo.",
+    "referencia": "PDF, p. 83-85",
+    "nivel": "medio"
+  },
+  {
+    "id": 1310,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito examina uma espingarda AYA, modelo 53, calibre 12-70, com canos de alma lisa medindo 700 mm, e deve redigir o item carregamento conforme o modelo de descrição da ARMA 3 do Anexo I. A forma tecnicamente correta de consignar esse item é:",
+    "alternativas": {
+      "A": "Carregamento por meio de carregador removível com capacidade para seis cartuchos, acionado por ferrolho de ação simples.",
+      "B": "Carregamento manual, efetuado diretamente nas câmaras de combustão, por meio de basculamento do cano.",
+      "C": "Carregamento por tambor lateral com seis câmaras, com abertura para a esquerda e giro no sentido anti-horário.",
+      "D": "Carregamento por tubo magazine localizado sob o cano, com mecanismo de bombeamento manual entre os disparos.",
+      "E": "Carregamento por câmara fixa única, com introdução do cartucho por janela de ejeção lateral e travamento por massa inercial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Anexo I (p. 85), no item 10 (carregamento) da ARMA 3 (espingarda AYA modelo 53), consta carregamento manual, efetuado diretamente nas câmaras de combustão, por meio de basculamento do cano, o que valida B. A descreve modo típico de fuzis/carabinas de carregador. C descreve revólver (ARMA 1, p. 83). D descreve espingarda de bombeamento (pump-action), modelo distinto. E descreve mecanismo de pistola/arma semiautomática, incompatível com a espingarda basculante descrita.",
+    "referencia": "PDF, p. 85",
+    "nivel": "medio"
+  },
+  {
+    "id": 1311,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo, um projétil foi descrito como projétil de arma de fogo ogival totalmente encamisado (ETOG), de encamisamento dourado, calibre nominal .380\" Auto ou similar, com deformações normais de raiamento 6D e sem deformações acidentais salvo pequena mossa frontal. Conforme o modelo do Anexo III, a expressão deformações normais de raiamento 6D indica que:",
+    "alternativas": {
+      "A": "o projétil sofreu seis impactos acidentais por ricochete em superfícies duras, o que configura dano acidental, e não normal.",
+      "B": "o projétil percorreu seis vezes a alma do cano antes da ejeção, deformando-se de modo característico.",
+      "C": "o cano por onde o projétil foi disparado possuía seis raias em sentido dextrógiro, que imprimiram tal padrão ao projétil.",
+      "D": "o projétil foi disparado por arma de seis raias em sentido sinistrógiro, padrão típico de armas de fabricação europeia.",
+      "E": "o projétil é dotado de seis sulcos longitudinais de fábrica, próprios do calibre .380\" Auto, independentes da arma utilizada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Anexo III (p. 89), deformações normais de raiamento 6D significam seis raias dextrógiras (sentido horário, D) impressas no projétil pelo cano da arma, sendo deformação normal e não acidental, o que valida C. A confunde com deformações acidentais (impacto/ricochete). B é fisicamente incorreta (o projétil não percorre a alma várias vezes). D inverte o sentido, pois D corresponde a dextrógiro, não a sinistrógiro. E está errada porque as estrias resultam do raiamento do cano da arma, não são marcas de fábrica do projétil.",
+    "referencia": "PDF, p. 89",
+    "nivel": "medio"
+  },
+  {
+    "id": 1312,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em exame de material questionado, o perito descreveu: um (01) fragmento metálico de coloração cinza, em liga de chumbo, com intensas deformações acidentais em forma de cogumelo na parte frontal, ao qual se acha aderido fragmento de material poroso de coloração creme, similar a tecido ósseo; o fragmento encaixa-se perfeitamente no interior de um encamisamento descrito em item separado. Conforme o padrão do Anexo III, a denominação tecnicamente adequada para esse material é:",
+    "alternativas": {
+      "A": "projétil encamisado deformado, pois o encaixe perfeito ao encamisamento configura unidade balística íntegra para fins de descrição pericial.",
+      "B": "fragmento de núcleo de projétil encamisado, em razão da separação entre o núcleo de chumbo e o encamisamento, com deformação em cogumelo decorrente de impacto.",
+      "C": "estojo percutido e deflagrado, dada a presença de deformações compatíveis com cápsula de espoletamento submetida a impacto.",
+      "D": "encamisamento de projétil, pois o tecido ósseo aderido caracteriza a porção externa que esteve em contato com o alvo.",
+      "E": "tarugo de chumbo de projétil semiencamisado, cuja parte exposta se deformou em cogumelo sem que tenha havido separação do encamisamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Anexo III (p. 89-90), a descrição corresponde ao item Fragmento de núcleo de projétil encamisado: núcleo de liga de chumbo, deformação em cogumelo por impacto, fragmento ósseo aderido e encaixe perfeito no encamisamento descrito em item separado, o que valida B. A é incorreta porque, embora se encaixe, núcleo e encamisamento estão separados, não constituindo projétil íntegro. C descreve estojo, item diverso (p. 89). D descreve a parte externa (encamisamento), enquanto o material em questão é o núcleo (parte interna de chumbo). E está errada porque o texto indica separação entre núcleo e encamisamento (descrito à parte), e não projétil semiencamisado com parte exposta aderida.",
+    "referencia": "PDF, p. 89-90",
+    "nivel": "dificil"
+  }
+]

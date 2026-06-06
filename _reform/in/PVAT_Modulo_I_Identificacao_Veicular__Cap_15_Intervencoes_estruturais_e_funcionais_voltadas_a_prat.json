@@ -1,0 +1,206 @@
+[
+  {
+    "id": 633,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia realizada em caminhão baú apreendido em operação de combate ao tráfico, o perito identifica um espaço oculto sob o assoalho do compartimento de carga, com chapas adicionadas, soldas recentes e mecanismo de abertura dissimulado. Tecnicamente, segundo a doutrina do PVAT, este achado caracteriza-se como:",
+    "alternativas": {
+      "A": "Cavidade natural do veículo, dado que se trata de espaço estrutural já existente em caminhões baú de fábrica.",
+      "B": "Compartimento adrede preparado, em razão dos sinais de adaptação intencional como cortes, soldas e mecanismos dissimulados.",
+      "C": "Reforço de suspensão, por se localizar na parte inferior da estrutura do veículo e ter finalidade de carga.",
+      "D": "Gerador de fumaça, por se tratar de adaptação independente das funções normais do veículo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 67: 'Os compartimentos adrede preparados constituem intervenções realizadas intencionalmente na estrutura do veículo com o objetivo de criar espaços ocultos [...]. Diferenciam-se de cavidades naturais por apresentarem sinais de adaptação, como cortes, soldas, chapas adicionadas, mecanismos de abertura dissimulados ou incongruências estruturais'. A Figura 77 ilustra justamente 'fundo falso na porção anterior do compartimento de carga de um caminhão baú'.",
+    "referencia": "Cap. 15, p. 67-68",
+    "nivel": "facil"
+  },
+  {
+    "id": 634,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a vistoria de uma caminhonete apreendida em rodovia federal, o perito constata a presença de molas duplas e calços instalados na suspensão, que mantêm a altura do veículo próxima dos parâmetros esperados para um veículo descarregado, mesmo quando submetido a peso significativo. Considerando a finalidade ilícita típica dessa intervenção descrita no PVAT, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Trata-se de dispositivo de comunicação clandestina dissimulado na suspensão, equiparável ao rádio oculto.",
+      "B": "Trata-se de adequação técnica voltada ao conforto do condutor em longas distâncias, sem qualquer relação com a prática de ilícitos.",
+      "C": "Trata-se de adaptação destinada a dissimular a presença de sobrecarga decorrente do transporte de ilícitos, dificultando a percepção imediata de excesso de peso em fiscalizações iniciais.",
+      "D": "Trata-se de cavidade natural do projeto original do veículo, não devendo ser descrita como intervenção ilícita."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pág. 69: 'Os reforços de suspensão são modificações estruturais deliberadas destinadas, sobretudo, a dissimular a presença de sobrecarga decorrente do transporte de ilícitos [...]. Ao elevar artificialmente a capacidade de sustentação ou rigidez da suspensão, busca-se manter a altura próxima aos parâmetros esperados para um veículo descarregado, dificultando a percepção imediata da carga adicional'.",
+    "referencia": "Cap. 15, p. 69",
+    "nivel": "medio"
+  },
+  {
+    "id": 635,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das intervenções estruturais e funcionais voltadas à prática de ilícitos identificadas em veículos periciados, julgue os itens:\n\nI. Os geradores de fumaça são adaptações instaladas para dificultar perseguições policiais, liberando material particulado ou fumaça intensa para reduzir a visibilidade do entorno.\nII. Os rádios ocultos costumam ser dissimulados no painel, console, forrações ou compartimentos do habitáculo, com integração não original aos sistemas do veículo.\nIII. Cavidades naturais e compartimentos adrede preparados não exigem qualquer distinção técnica por parte do perito, pois ambos são tratados como adaptações ilícitas equivalentes no laudo.\nIV. Os reforços de suspensão sempre integram o projeto original da montadora e não devem ser descritos como intervenções estruturais para fins ilícitos.\nV. A correta identificação e descrição técnica das intervenções é fundamental para a caracterização do contexto criminoso e para a fundamentação do laudo pericial.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "III, IV e V.",
+      "B": "I, III e IV.",
+      "C": "II, IV e V.",
+      "D": "I, II e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pág. 69-71 confirmam I (gerador de fumaça 'dificultar perseguições policiais, liberando material particulado'), II ('dissimulados no painel, console, forrações [...] integração não original') e V ('correta identificação e descrição técnica [...] fundamentais para a caracterização do contexto criminoso'). III é FALSO: a p. 67 expressamente distingue compartimentos adrede de cavidades naturais. IV é FALSO: reforços de suspensão são 'modificações estruturais deliberadas', não originais de projeto.",
+    "referencia": "Cap. 15, p. 67-71",
+    "nivel": "medio"
+  },
+  {
+    "id": 636,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em diligência policial, é apreendido um veículo no qual, embutido no console central e com fiação não conectada à arquitetura elétrica original do automóvel, encontra-se um transceptor de comunicação em frequência distinta da utilizada pelo rádio AM/FM de fábrica. Considerando o tratamento técnico-pericial dado a esse tipo de achado no PVAT, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Caracteriza-se como rádio oculto, equipamento de comunicação clandestino frequentemente dissimulado e com integração não original aos sistemas do veículo.",
+      "B": "O achado integra a categoria 'reforço de suspensão', por ser uma intervenção elétrica adicional.",
+      "C": "O equipamento deve ser descartado como evidência, por não constituir intervenção estrutural relevante ao laudo.",
+      "D": "Trata-se de cavidade natural do console, sem qualquer caracterização ilícita."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pág. 70: 'situações envolvendo rádio oculto abrangem a instalação de equipamentos de comunicação clandestinos, frequentemente dissimulados no painel, console, forrações ou compartimentos ocultos do habitáculo. Esses dispositivos permitem comunicação à distância, com integração não original aos sistemas do veículo, caracterizando tentativa de ocultação deliberada de meios de comunicação'.",
+    "referencia": "Cap. 15, p. 70",
+    "nivel": "medio"
+  },
+  {
+    "id": 637,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O PVAT - Módulo I aponta diferentes intervenções estruturais e funcionais voltadas à prática de ilícitos. Considerando a finalidade típica de cada uma, qual associação está CORRETA?",
+    "alternativas": {
+      "A": "Reforço de suspensão - dissimular a presença de sobrecarga decorrente do transporte de ilícitos.",
+      "B": "Compartimento adrede preparado - facilitar perseguição policial pelo agente público.",
+      "C": "Gerador de fumaça - ocultação de substâncias na forração dos bancos.",
+      "D": "Rádio oculto - aumentar a capacidade de carga útil legal do veículo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme pág. 69, os reforços de suspensão visam 'dissimular a presença de sobrecarga decorrente do transporte de ilícitos'. As demais associações estão trocadas: compartimentos adrede destinam-se à ocultação (p. 67); geradores de fumaça, a dificultar perseguições (p. 69); rádios ocultos, à comunicação clandestina (p. 70).",
+    "referencia": "Cap. 15, p. 67-70",
+    "nivel": "medio"
+  },
+  {
+    "id": 638,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia em veículo de passeio, o perito encontra cocaína acondicionada na forração dos bancos traseiros, em local que, mesmo após retirada das embalagens, não apresenta cortes, soldas, chapas adicionadas nem mecanismos de abertura dissimulados, tratando-se de espaço já existente no projeto original do automóvel. Considerando a diferenciação técnica adotada pelo PVAT, este achado deve ser tecnicamente descrito como:",
+    "alternativas": {
+      "A": "Compartimento adrede preparado, em razão da finalidade ilícita do uso.",
+      "B": "Cavidade natural, por se tratar de espaço construtivo do veículo sem sinais de adaptação intencional.",
+      "C": "Gerador de fumaça com cavidade adaptada para transporte de drogas.",
+      "D": "Reforço estrutural dissimulado, dado o uso para ocultação no habitáculo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pág. 67 distingue: compartimentos adrede 'apresentam sinais de adaptação, como cortes, soldas, chapas adicionadas, mecanismos de abertura dissimulados ou incongruências estruturais'. A própria Figura 78 ilustra 'Cavidade natural (cocaína oculta na forração dos bancos)'. Sem sinais de adaptação intencional, a classificação técnica é cavidade natural.",
+    "referencia": "Cap. 15, p. 67-68",
+    "nivel": "dificil"
+  },
+  {
+    "id": 703,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em fiscalização de rodovia, um caminhão baú foi apreendido. O perito identifica, na porção anterior do compartimento de carga, uma divisória em chapa metálica soldada à estrutura original, criando um espaço fechado não previsto pelo fabricante. Conforme a tipologia descrita no PVAT - Módulo I, essa intervenção caracteriza:",
+    "alternativas": {
+      "A": "Cavidade natural do veículo, comum em caminhões do tipo baú e sem relevância pericial.",
+      "B": "Fundo falso, espécie de compartimento adrede preparado, identificado pela presença de chapas adicionadas e soldas na porção anterior do compartimento de carga.",
+      "C": "Reforço de suspensão, voltado a dissimular sobrecarga decorrente do transporte de ilícitos.",
+      "D": "Gerador de fumaça, dispositivo instalado para dificultar perseguições policiais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As págs. 67-68 descrevem 'compartimentos adrede preparados' como intervenções intencionais para criar espaços ocultos, identificados por 'cortes, soldas, chapas adicionadas, mecanismos de abertura dissimulados ou incongruências estruturais', e citam expressamente a Figura 77 como 'fundo falso na porção anterior do compartimento de carga de um caminhão baú'.",
+    "referencia": "Cap. 15, p. 67-68",
+    "nivel": "facil"
+  },
+  {
+    "id": 704,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as intervenções estruturais e funcionais voltadas à prática de ilícitos, descritas no PVAT - Módulo I, julgue os itens a seguir:\n\nI. Os compartimentos adrede preparados diferenciam-se das cavidades naturais por apresentarem sinais de adaptação, como cortes, soldas, chapas adicionadas, mecanismos de abertura dissimulados ou incongruências estruturais.\nII. Os reforços de suspensão, como molas duplas e calços, são modificações estruturais deliberadas destinadas, sobretudo, a dissimular a presença de sobrecarga decorrente do transporte de ilícitos.\nIII. Os geradores de fumaça são adaptações instaladas para dificultar perseguições policiais, liberando material particulado ou fumaça intensa para reduzir a visibilidade do entorno.\nIV. Rádios transceptores ocultos, dissimulados em painel, console ou forrações do habitáculo, integram os sistemas originais do veículo e, por isso, não constituem intervenção relevante para o laudo pericial.\nV. A ocultação de cocaína na forração dos bancos ou atrás do painel corta-fogo configura, segundo o material, exemplo típico de compartimento adrede preparado.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II, IV e V.",
+      "B": "I, III e V.",
+      "C": "II, IV e V.",
+      "D": "I, II e III."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A pág. 67 confirma I; a pág. 69 confirma II ('reforços de suspensão [...] dissimular a presença de sobrecarga') e III ('geradores de fumaça [...] dificultar perseguições policiais'). O item IV é FALSO: a pág. 70 afirma que esses rádios apresentam 'integração não original aos sistemas do veículo, caracterizando tentativa de ocultação deliberada'. O item V também é FALSO: as Figuras 78 e 79 (pág. 68) tratam essas hipóteses como 'cavidade natural' e não como compartimento adrede preparado.",
+    "referencia": "Cap. 15, p. 67-70",
+    "nivel": "dificil"
+  },
+  {
+    "id": 705,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em camionete apreendida em operação contra o tráfico de drogas, o perito constata a instalação de molas duplas e calços nas suspensões dianteira e traseira, sem que o veículo apresentasse, no momento da abordagem, sinais visíveis de excesso de peso, apesar de transportar grande volume de mercadoria. Qual é a finalidade técnica dessa intervenção, conforme o PVAT - Módulo I?",
+    "alternativas": {
+      "A": "Melhorar o conforto dos ocupantes em terrenos irregulares, sem qualquer relação com finalidades ilícitas.",
+      "B": "Permitir a comunicação clandestina entre integrantes do grupo criminoso, substituindo o uso de rádios transceptores.",
+      "C": "Liberar material particulado ou fumaça intensa em situações de abordagem policial, reduzindo a visibilidade do entorno.",
+      "D": "Elevar artificialmente a capacidade de sustentação ou rigidez da suspensão, mantendo a altura próxima aos parâmetros de um veículo descarregado, dificultando a percepção imediata da carga adicional e retardando a identificação da irregularidade pelos órgãos de controle."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A pág. 69 explica que os reforços de suspensão 'elevam artificialmente a capacidade de sustentação ou rigidez da suspensão, busca-se manter a altura próxima aos parâmetros esperados para um veículo descarregado, dificultando a percepção imediata da carga adicional e retardando a identificação da irregularidade pelos órgãos de controle'. A alternativa D descreve geradores de fumaça (mesma página).",
+    "referencia": "Cap. 15, p. 69",
+    "nivel": "medio"
+  },
+  {
+    "id": 706,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em veículo apreendido em operação policial, foi localizado um dispositivo eletrônico dissimulado no painel, conectado por chicote elétrico não original e capaz de transmitir e receber comunicações em frequências reservadas. Conforme as categorias de intervenções descritas no PVAT - Módulo I, esse achado pericial corresponde a:",
+    "alternativas": {
+      "A": "Rádio transceptor oculto, caracterizado por integração não original aos sistemas do veículo e por dissimulação em painel, console, forrações ou compartimentos do habitáculo.",
+      "B": "Reforço de suspensão dissimulado em compartimento eletrônico.",
+      "C": "Cavidade natural do veículo, sem relevância probatória.",
+      "D": "Componente típico de fábrica, sendo a abordagem pericial dispensável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A pág. 70 descreve: 'rádio oculto abrangem a instalação de equipamentos de comunicação clandestinos, frequentemente dissimulados no painel, console, forrações ou compartimentos ocultos do habitáculo. Esses dispositivos permitem comunicação à distância, com integração não original aos sistemas do veículo, caracterizando tentativa de ocultação deliberada de meios de comunicação'.",
+    "referencia": "Cap. 15, p. 70",
+    "nivel": "facil"
+  },
+  {
+    "id": 707,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a relevância pericial das intervenções estruturais e funcionais voltadas à prática de ilícitos, assinale a alternativa CORRETA conforme o PVAT - Módulo I:",
+    "alternativas": {
+      "A": "Como tais intervenções fogem do escopo da Portaria Ditec/PF Nº 1.563, o perito deve apenas mencioná-las em campo livre, sem aprofundar a descrição técnica.",
+      "B": "A correta identificação e descrição técnica dessas intervenções são fundamentais para a caracterização do contexto criminoso, para a fundamentação do laudo pericial e para a adequada valoração probatória no âmbito da investigação.",
+      "C": "Por se tratarem de adaptações reversíveis, sua descrição no laudo é considerada redundante, bastando o registro fotográfico.",
+      "D": "A análise técnica dessas modificações cabe exclusivamente ao setor de investigação policial, e não ao perito criminal federal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A pág. 71 conclui o capítulo: 'A correta identificação e descrição técnica dessas intervenções são fundamentais para a caracterização do contexto criminoso, para a fundamentação do laudo pericial e para a adequada valoração probatória no âmbito da investigação'.",
+    "referencia": "Cap. 15, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 708,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um veículo apreendido, o perito encontrou, abaixo da carroceria, um espaço fechado por chapa adicional soldada, com mecanismo de abertura dissimulado por trava magnética acionada por chave eletrônica. Já em outro veículo, encontrou cocaína oculta atrás do painel corta-fogo original, sem qualquer adaptação estrutural. A distinção entre essas duas situações, conforme o PVAT - Módulo I, é:",
+    "alternativas": {
+      "A": "A primeira é compartimento adrede preparado (apresenta sinais de adaptação, como chapas adicionadas, soldas e mecanismos dissimulados), enquanto a segunda é cavidade natural (espaço já existente na estrutura do veículo, sem adaptação intencional).",
+      "B": "Ambas as situações configuram cavidades naturais, pois o esconderijo aproveita espaços do projeto.",
+      "C": "Ambas as situações configuram compartimentos adrede preparados, pois há ocultação de ilícitos.",
+      "D": "A primeira configura reforço de suspensão e a segunda, rádio transceptor oculto."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A pág. 67 distingue: os compartimentos adrede preparados são intervenções intencionais com 'cortes, soldas, chapas adicionadas, mecanismos de abertura dissimulados ou incongruências estruturais', enquanto as cavidades naturais (Figuras 78 e 79, pág. 68) são espaços já existentes na estrutura, exemplificados pela cocaína oculta na forração dos bancos ou atrás do painel corta-fogo.",
+    "referencia": "Cap. 15, p. 67-68",
+    "nivel": "dificil"
+  }
+]

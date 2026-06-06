@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1149,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "As inspeções de segurança realizadas previamente à presença de autoridade em determinado evento possuem finalidade específica, que delimita o escopo da atuação da equipe de varredura preventiva. Acerca dessa finalidade, assinale a opção correta.",
+    "alternativas": {
+      "A": "A finalidade é exclusivamente neutralizar artefatos explosivos improvisados deixados por grupos terroristas mediante a tática do esquecimento voluntário de maletas ou pacotes no ambiente em que a autoridade comparecerá.",
+      "B": "A finalidade é verificar se existe no local do evento algum perigo, natural ou intencional, à autoridade que estará presente.",
+      "C": "A finalidade circunscreve-se à varredura da área imediata em que a autoridade efetivamente permanecerá, ficando excluídas a área mediata e as rotas de acesso, por estarem fora do alcance da equipe técnica especializada.",
+      "D": "A finalidade abrange apenas perigos intencionais decorrentes de modificações recentes no ambiente, tais como vasos de flores, aparelhagem de som e instalações elétricas alteradas, excluídos os perigos de natureza estrutural ou acidental.",
+      "E": "A finalidade tem caráter meramente protocolar, uma vez que a responsabilidade pela identificação de ameaças no local cabe exclusivamente à equipe de segurança pessoal que acompanha a autoridade visitante durante o evento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o capítulo (p. 49), a finalidade das inspeções de segurança é verificar se existe no local de um determinado evento algum perigo natural ou intencional à autoridade que estará presente (alternativa B). A alternativa A restringe indevidamente a finalidade a uma única tática terrorista, ignorando os perigos naturais; a C contraria a exigência de inspeção de toda a área, mediata e imediata (p. 49); a D exclui indevidamente os perigos naturais (lustres mal presos, piso encerado etc.), que também integram o escopo; a E contraria a natureza técnica da varredura, executada por equipe especializada.",
+    "referencia": "PDF, p. 49",
+    "nivel": "facil"
+  },
+  {
+    "id": 1150,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os motivos que originam a solicitação de uma varredura preventiva, conforme a doutrina aplicada pela Polícia Federal, distinguem-se segundo a circunstância que enseja a inspeção. A respeito da correta associação entre cada motivo e a respectiva descrição, assinale a opção correta.",
+    "alternativas": {
+      "A": "A varredura por perigo iminente é a cabível quando a autoridade está sob ameaça veiculada por carta, telefonemas e meios análogos.",
+      "B": "A varredura de rotina é aquela realizada em cerimônias de posse ou por ocasião da ocupação temporária ou definitiva de um local pela autoridade, momento em que o ambiente passa a ser controlado pela equipe de segurança designada.",
+      "C": "A varredura de instalação é a inspeção em que se verifica se um ambiente mantido sob constante vigilância apresenta alguma alteração desde a última checagem realizada no mesmo local pela equipe responsável.",
+      "D": "A varredura por vazamento de informações somente é cabível após a constatação efetiva de explosão ou de tentativa concreta de atentado no ambiente protegido, quando já há indício material da ação criminosa.",
+      "E": "A varredura por visita é aquela motivada pela notícia de vazamento de informações em decorrência da presença de elementos infiltrados na estrutura que assessora a autoridade protegida."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 49, o perigo iminente caracteriza-se quando a autoridade está sob ameaça por carta, telefonemas etc. (alternativa A). A alternativa B inverte os conceitos: a hipótese descrita (posse e ocupação de local) corresponde à varredura de instalação, não de rotina; a C também inverte: a verificação de alterações em ambiente sob vigilância constante é a varredura de rotina, não de instalação; a D é equivocada, pois o motivo decorre da notícia de vazamento ou de elementos infiltrados, e não de atentado consumado; a E confunde visita (eventos na própria cidade, fora do ambiente normal de trabalho ou em outras cidades) com vazamento de informações/infiltrações.",
+    "referencia": "PDF, p. 49",
+    "nivel": "medio"
+  },
+  {
+    "id": 1151,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito Criminal Federal foi designado para integrar equipe de varredura preventiva em local fechado onde ocorrerá cerimônia oficial com a presença de autoridade. Durante a inspeção, deparou-se com vasos de flores recém-instalados, com um lustre aparentemente mal preso ao teto, com piso excessivamente encerado no saguão de entrada e com aparelhagem de som montada no palco principal. Considerando a doutrina de inspeções de segurança aplicada pela Polícia Federal, assinale a opção correta quanto à classificação dos achados.",
+    "alternativas": {
+      "A": "O lustre mal preso e o piso excessivamente encerado configuram perigos naturais; os vasos de flores recém-instalados e a aparelhagem de som configuram perigos intencionais.",
+      "B": "Todos os achados configuram perigos intencionais, pois decorrem de intervenção humana recente verificada no ambiente em que ocorrerá a cerimônia oficial, o que afasta, no caso, a categoria de perigos naturais previstos pela doutrina.",
+      "C": "Os vasos de flores e a aparelhagem de som constituem perigos naturais ligados à decoração e à estrutura do evento, ao passo que o lustre mal preso e o piso encerado constituem perigos intencionais decorrentes de sabotagem do local.",
+      "D": "Apenas o lustre mal preso e o piso encerado merecem atenção do perito, pois somente os perigos naturais integram o escopo das inspeções de segurança realizadas em locais internos fechados, excluídas as modificações recentes do ambiente.",
+      "E": "Todos os achados configuram perigos naturais, pois resultam de condições preexistentes da edificação e de sua manutenção ordinária, não havendo, na situação descrita, qualquer indício de intervenção intencional voltada a atingir a autoridade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Segundo p. 49, são perigos naturais os lustres mal presos e o piso excessivamente encerado (caso em que se sugere passadeira ou tapete); como perigos intencionais, deve-se estar atento a todas as modificações recentes, como vasos e arranjos de flores e aparelhagem de som. Logo, a alternativa A está correta. A B desconsidera a categoria de perigos naturais; a C inverte a classificação de todos os achados; a D nega indevidamente que os perigos intencionais integrem o escopo da inspeção; a E ignora que vasos recém-instalados e aparelhagem de som são modificações recentes tratadas como perigos intencionais.",
+    "referencia": "PDF, p. 49",
+    "nivel": "medio"
+  },
+  {
+    "id": 1152,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe de segurança planeja o deslocamento de comitiva oficial por área urbana e solicita à perícia apoio técnico para definição de rotas e pontos críticos. Durante o planejamento, discutem-se os locais de provável escolha do agente criminoso para a colocação de bomba e os pontos sensíveis ao longo do trajeto em via aberta. Com base na doutrina de inspeções de segurança e varredura preventiva, assinale a opção correta.",
+    "alternativas": {
+      "A": "A escolha do local para colocação da bomba considera a facilidade de acesso e ocultação do artefato, a menor possibilidade de o agente ser visto e a chance de causar o maior dano possível, devendo-se planejar segunda opção de trajeto, também vistoriada, e evitar a formação de hábitos diários.",
+      "B": "Em locais abertos, a inspeção deve concentrar-se na área imediata onde a autoridade desembarcará, sendo dispensável a vistoria de pontes, viadutos e laterais das pistas, uma vez que tais pontos integram a área mediata e fogem ao alcance operacional da equipe de varredura preventiva.",
+      "C": "Recomenda-se a formação de hábitos diários no deslocamento da comitiva, pois a previsibilidade do mesmo percurso ao longo do tempo permite à equipe de segurança realizar varreduras progressivamente mais detalhadas e padronizadas no trajeto consolidado.",
+      "D": "A criação de segunda opção de trajeto é dispensável quando o trajeto principal já tenha sido objeto de varredura minuciosa, bastando, nesse caso, a vistoria periódica de palanques, elevações e consertos existentes nas pistas ao longo da rota original previamente definida.",
+      "E": "Os critérios de escolha do local para colocação da bomba são a maior visibilidade do agente, a dificuldade de acesso ao artefato e a chance de causar dano restrito, de modo que as laterais das pistas, por serem muito expostas, raramente são utilizadas por franco-atiradores."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 50, a escolha do local para colocação de bomba considera a facilidade de acesso e ocultação do artefato, a menor possibilidade de que o agente seja visto e a chance de causar o maior dano possível; e a p. 49 indica que, em locais abertos, devem ser verificados pontes, viadutos, palanques, elevações, laterais das pistas (preferidas por franco-atiradores) e consertos nas pistas, além de se recomendar criar segunda opção de trajeto, também vistoriada, evitando-se hábitos diários — o que torna a alternativa A correta. A B contraria a exigência de vistoria dos pontos críticos do trajeto; a C contraria expressamente a recomendação de evitar hábitos diários; a D contraria a exigência de segunda opção de trajeto vistoriada; a E inverte os três critérios de escolha do local e contraria a indicação de que as laterais das pistas são preferidas por franco-atiradores.",
+    "referencia": "PDF, p. 49-50",
+    "nivel": "dificil"
+  }
+]

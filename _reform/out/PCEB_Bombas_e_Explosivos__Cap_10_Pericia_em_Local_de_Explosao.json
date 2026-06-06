@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1185,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame de um local de explosão exige a formação de uma equipe com atribuições previamente definidas. A respeito da organização desse trabalho, assinale a opção correta.",
+    "alternativas": {
+      "A": "A equipe deve ter número fixo de integrantes, sendo terminantemente vedado, em qualquer hipótese, que um mesmo membro acumule mais de uma função durante os trabalhos periciais no local examinado.",
+      "B": "Por se tratar de cena de natureza peculiar e imprevisível, a equipe deve atuar de modo autônomo, dispensando o Procedimento Operacional Padronizado e adaptando-se livremente às condições concretas encontradas no local.",
+      "C": "As atribuições dos membros são definidas pelo POP, admitindo-se que integrantes desempenhem múltiplas funções, desde que o procedimento seja seguido.",
+      "D": "A distribuição das funções é fixada apenas no momento da chegada ao local, pelo chefe da equipe, segundo a casuística do evento, prescindindo-se de qualquer documento prévio que padronize as tarefas a serem executadas.",
+      "E": "O Procedimento Operacional Padronizado tem caráter meramente sugestivo e não vincula a equipe, que pode ignorá-lo sempre que o chefe entender conveniente para a celeridade dos exames no local periciado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o item 10.1, o exame de local de explosão requer seguir um POP com atribuições previamente definidas, cuja finalidade é assegurar que nada seja ignorado, sendo permitido que membros desempenhem múltiplas funções desde que o POP seja observado (p. 81). As alternativas A, B, D e E contrariam essa orientação, pois ora vedam o acúmulo de funções, ora dispensam ou relativizam o POP (p. 81).",
+    "referencia": "PDF, p. 81",
+    "nivel": "facil"
+  },
+  {
+    "id": 1186,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das atribuições do assessor de imprensa designado para atuar em local de explosão, assinale a opção correta.",
+    "alternativas": {
+      "A": "Funciona como porta-voz e mediador entre a imprensa e a investigação, estabelecendo diretrizes para a liberação autorizada de informação.",
+      "B": "Deve prestar à imprensa todas as informações que lhe forem solicitadas, com a maior brevidade possível, ainda que isso possa comprometer o sigilo necessário ao êxito da investigação em curso.",
+      "C": "Tem por função principal coletar e empacotar vestígios na cena, atuando como auxiliar técnico do grupo de busca de modo a acelerar o levantamento das evidências dispersas no perímetro externo.",
+      "D": "É integrante operacional do grupo de busca do epicentro e responde pela elaboração dos croquis, diagramas e demais representações gráficas da área imediata da explosão e dos perímetros.",
+      "E": "Cabe-lhe orientar que, no trato com a imprensa, é preferível fornecer informação ainda que imprecisa do que silenciar, a fim de evitar a propagação de boatos pela mídia presente no local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 83, o assessor de imprensa é o porta-voz que medeia o contato entre imprensa e investigação, estabelecendo diretrizes para a liberação autorizada de informação. A alternativa E contraria a regra de ouro, segundo a qual é melhor não fornecer informação nenhuma do que fornecer informação falsa (p. 83). As demais (B, C, D) atribuem funções de outros membros da equipe (p. 81-83).",
+    "referencia": "PDF, p. 83",
+    "nivel": "facil"
+  },
+  {
+    "id": 1187,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a teoria que orienta as buscas em local de explosão, assinale a opção correta.",
+    "alternativas": {
+      "A": "A busca deve restringir-se ao interior do perímetro interno, pois, fora dele, os vestígios eventualmente encontrados não possuem valor pericial relevante para a reconstrução do artefato e a reconstituição do local examinado.",
+      "B": "As buscas baseiam-se na premissa de que tudo o que estava na cena antes da explosão ainda está, salvo o que tenha evaporado, não devendo terminar até que itens sejam encontrados.",
+      "C": "A existência de cratera no epicentro dispensa a busca nas demais áreas do local, uma vez que o ponto de detonação concentra a totalidade dos vestígios úteis à identificação do dispositivo explosivo.",
+      "D": "Quando a destruição provocada é muito intensa, presume-se que a causa permanecerá desconhecida, o que justifica o encerramento precoce das buscas e a liberação antecipada do local periciado.",
+      "E": "As buscas devem ser conduzidas exclusivamente segundo a teoria de que os vestígios mais relevantes migram para fora do perímetro externo, razão pela qual o epicentro tem importância meramente secundária."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A p. 86 afirma textualmente que tudo o que estava na cena antes da explosão continua presente, salvo o que evaporou, e que as buscas não devem terminar até a localização de itens. Afirma ainda que a alegação de que a causa permanecerá desconhecida raramente é verdadeira, o que afasta D. As alternativas A, C e E restringem ou desvirtuam indevidamente o alcance da busca (p. 86).",
+    "referencia": "PDF, p. 86",
+    "nivel": "facil"
+  },
+  {
+    "id": 1188,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Perito chefe de equipe chega a local de explosão ocorrida em sala comercial de pequenas dimensões. As primeiras informações indicam que o artefato detonou no centro do ambiente, com destruição confinada às paredes do recinto. Considerando os padrões de busca aplicáveis a perícias de locais de explosão, o padrão mais indicado para essa situação é o",
+    "alternativas": {
+      "A": "fileiras ou linhas, em que os componentes se alinham lado a lado, a uma distância equivalente a braços abertos, e gritam PARE ao localizarem cada vestígio na área.",
+      "B": "quadrante, zona e setor, com divisão e subdivisão da cena em áreas marcadas e identificadas por letras e números, padrão indicado precipuamente para grandes áreas abertas como aterros e estacionamentos.",
+      "C": "rede, com divisão do local em espaços delimitados por fitas, cordas ou barbantes e identificados por letras ou números, os quais são vistoriados individualmente, um a um, pelos integrantes da equipe.",
+      "D": "espiral, iniciado em ponto próximo ao centro da explosão e desenvolvido em torno do local até o limite do perímetro externo, geralmente aplicado em ambientes menores.",
+      "E": "fileiras ou linhas combinado com busca simultânea, partindo-se do ponto mais distante do perímetro externo em direção ao epicentro, padrão reservado a explosões de grande poder destrutivo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A p. 87 indica que o padrão espiral, iniciado próximo ao centro e desenvolvido em torno do local até o perímetro externo, é geralmente aplicado em ambientes menores, como uma sala. Quadrante/zona/setor e fileiras destinam-se a grandes áreas (p. 88); o padrão rede é técnica distinta (p. 87); a combinação descrita em E mistura padrão e técnica de busca de modo equivocado (p. 87-88).",
+    "referencia": "PDF, p. 87-88",
+    "nivel": "medio"
+  },
+  {
+    "id": 1189,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Equipe pericial é acionada para atender local de explosão em ampla área aberta de um aterro, e o chefe da equipe decide aplicar o padrão de busca em fileiras ou linhas. A respeito desse padrão, assinale a opção correta.",
+    "alternativas": {
+      "A": "É indicado preferencialmente para ambientes confinados e de pequenas dimensões, nos quais os vestígios tendem a concentrar-se em locais relativamente próximos ao centro da explosão.",
+      "B": "Os componentes posicionam-se em colunas, à distância de um passo entre si, e varrem a área do perímetro externo em direção ao epicentro, de modo concêntrico, até atingirem a cratera.",
+      "C": "Os componentes alinham-se lado a lado, a braços abertos; ao encontrar vestígio, gritam PARE, marcam o local, e a fileira segue vistoriando até completar a área.",
+      "D": "Exige a divisão prévia do terreno em quadrantes e setores marcados e identificados por letras e números, vistoriados individualmente por duplas previamente designadas pelo chefe da equipe.",
+      "E": "Consiste em dividir o local com fitas, cordas ou barbantes, identificando-se cada espaço por letras ou números, os quais são vistoriados de forma individualizada pelos integrantes da equipe pericial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 88, o padrão fileiras/linhas é eficiente em grandes áreas; os componentes alinham-se lado a lado a braços abertos, gritam PARE ao localizar vestígio, marcam-no e a fileira prossegue até completar a área. A descrição em D corresponde ao padrão quadrante/zona/setor e a de E ao padrão rede (p. 87-88); A e B desvirtuam o padrão.",
+    "referencia": "PDF, p. 88",
+    "nivel": "medio"
+  },
+  {
+    "id": 1190,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o levantamento preliminar de local de explosão, a equipe identificou que o vestígio mais distante encontra-se a 12 metros do centro da explosão. Considerando as orientações para o estabelecimento do perímetro externo em perícias dessa natureza, esse perímetro deve ser marcado, a partir do centro da explosão, em",
+    "alternativas": {
+      "A": "12 metros, fazendo-o coincidir exatamente com a distância do vestígio mais afastado que foi identificado durante a inspeção preliminar realizada no local periciado.",
+      "B": "6 metros, correspondentes à metade da distância do vestígio mais distante, adotada como margem mínima de segurança operacional para a equipe que atua junto ao epicentro.",
+      "C": "18 metros, correspondentes a 50% adicionais sobre a distância do vestígio mais afastado.",
+      "D": "24 metros, equivalentes ao dobro da distância do vestígio mais distante encontrado durante o levantamento preliminar, de modo a abranger eventual dispersão adicional de fragmentos.",
+      "E": "30 metros, resultantes da soma da distância do vestígio mais distante com o dobro dela, a fim de assegurar ampla margem de preservação em torno do centro da explosão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A p. 85-86 estabelece que o perímetro externo é marcado em ponto 50% maior que a distância entre o local da explosão e o vestígio mais distante. Para 12 m, o perímetro fica em 18 m (12 + 50% = 12 + 6). As demais alternativas adotam multiplicadores incorretos (1, 0,5, 2 e 3), em desacordo com a fórmula 1,5 x (maior distância) prevista no resumo (p. 85-86).",
+    "referencia": "PDF, p. 85-86",
+    "nivel": "medio"
+  },
+  {
+    "id": 1191,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito Lucas, integrante do grupo de busca do local da explosão (epicentro), inicia o trabalho na cratera deixada pelo artefato. A respeito das atribuições desse grupo, assinale a opção correta.",
+    "alternativas": {
+      "A": "Atua exclusivamente no perímetro externo, cabendo unicamente ao fotógrafo a tarefa de medir e documentar as dimensões da cratera antes de qualquer intervenção dos demais integrantes da equipe.",
+      "B": "Cabe-lhe medir a cratera, coletar amostras para laboratório e contraprovas e tentar determinar o ângulo de maior destruição da explosão.",
+      "C": "Deve coletar e empacotar todos os vestígios existentes na cratera antes de qualquer registro fotográfico, de modo a evitar a contaminação decorrente da exposição prolongada da cena à equipe.",
+      "D": "Sua tarefa principal consiste em elaborar o croqui da área imediata da explosão, identificando a posição dos vestígios e realizando as medições necessárias à real localização de cada evidência na cena.",
+      "E": "Compete-lhe determinar o perímetro externo e o método de busca, vistoriando a área do externo para o interno e marcando os vestígios localizados para indicá-los ao fotógrafo e ao desenhista da equipe."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 82, ao grupo de busca do local da explosão (epicentro) compete medir largura, comprimento e profundidade da cratera, coletar amostra para laboratório e contraprovas e tentar determinar o ângulo de maior destruição. O registro deve ser coordenado com fotógrafo e desenhista ANTES de alterar a cratera, afastando C. O croqui é atribuição do desenhista (D) e a busca do externo para o interno é do grupo de busca de vestígios (E).",
+    "referencia": "PDF, p. 82-83",
+    "nivel": "medio"
+  },
+  {
+    "id": 1192,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o atendimento a local de explosão ocorrida em via pública, a equipe identifica intensa formação de multidão e chegada iminente da imprensa. Acerca dos procedimentos imediatos cabíveis nessa fase de chegada ao local, assinale a opção correta.",
+    "alternativas": {
+      "A": "A prioridade absoluta é coletar os primeiros vestígios situados próximos ao epicentro, antes que a movimentação de curiosos e de socorristas provoque a sua deterioração, o seu deslocamento ou a sua perda definitiva.",
+      "B": "O fotógrafo deve iniciar de imediato o registro da cratera, mesmo antes da delimitação dos perímetros interno e externo, a fim de assegurar a documentação fiel da cena em seu estado original.",
+      "C": "Deve-se avaliar a necessidade de segurança, identificar feridos que necessitem de cuidados médicos e verificar perigos como dispositivos secundários, materiais tóxicos, vazamentos de gás e fios energizados.",
+      "D": "O chefe da equipe deve, primeiramente, conceder entrevista coletiva à imprensa que se aproxima, com vistas a evitar a difusão de informações imprecisas e a formação de boatos pela mídia presente no local.",
+      "E": "A equipe deve dividir desde logo a cena em quadrantes e setores e determinar o padrão de busca, postergando para momento posterior a avaliação de feridos e a verificação de perigos remanescentes na área."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A p. 85 elenca exatamente esses passos para o atendimento a local de explosão: avaliar a necessidade de segurança, identificar quem necessita de cuidados médicos e verificar perigos potenciais (dispositivos secundários, DEI não consumidos, materiais tóxicos, gás, fios energizados, focos de incêndio). A coleta e o registro técnico (A e B), a entrevista à imprensa (D) e a divisão da cena (E) ocorrem após o controle preliminar (p. 85).",
+    "referencia": "PDF, p. 85",
+    "nivel": "medio"
+  },
+  {
+    "id": 1193,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de local de explosão, a equipe utiliza diversos formulários para documentar os trabalhos. A respeito do formulário de localização de vestígios, assinale a opção correta.",
+    "alternativas": {
+      "A": "Destina-se a relacionar o vestígio encontrado com a devida amarração no local, o número da fotografia correspondente, o método de coleta e empacotamento e a identificação de quem o encontrou.",
+      "B": "Tem por função principal anotar as sequências fotográficas, os equipamentos utilizados e as escalas empregadas durante o registro das evidências localizadas ao longo dos trabalhos periciais no local.",
+      "C": "Contém os croquis e diagramas da área imediata da explosão e dos perímetros interno e externo, elaborados pelo desenhista da equipe a partir das medições necessárias à localização das evidências.",
+      "D": "Serve para documentar, em breves descrições, os eventos principais e os horários de chegada ao local, de interrupção dos trabalhos e seus respectivos motivos, bem como os contatos pessoais realizados.",
+      "E": "Reúne os campos de identificação do caso, pontos cardeais, objetos fixos, medidas e chave/legenda, destinando-se à representação esquemática da cena do crime com indicação das evidências."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 86, o formulário de localização de vestígios relaciona o vestígio, a amarração no local, o número da fotografia, o método de coleta/empacotamento e quem o encontrou. As demais descrevem outros formulários: registro fotográfico (B), diagramas e croquis (C), registro de ocorrência (D) e esquema/diagrama da cena (E), conforme p. 86 e p. 91.",
+    "referencia": "PDF, p. 86",
+    "nivel": "medio"
+  },
+  {
+    "id": 1194,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos elementos que devem constar da Amostra de Esquema/Diagrama da Cena do Crime utilizada em perícias de local de explosão, assinale a opção correta.",
+    "alternativas": {
+      "A": "Devem constar apenas o local, a data, o identificador do caso e o nome do responsável pela preparação, sendo dispensáveis os pontos cardeais, as medidas e a indicação de uso ou não de escala.",
+      "B": "Restringe-se ao croqui da cratera com indicação do epicentro e da posição dos vestígios, sendo dispensável qualquer referência aos objetos fixos existentes no entorno da área imediata da explosão.",
+      "C": "Limita-se ao registro dos horários dos eventos principais e às descrições breves das ocorrências verificadas pela equipe ao longo da execução dos trabalhos periciais no local da explosão.",
+      "D": "Devem constar, entre outros, local, referência, data, identificador, responsável, assistentes, uso ou não de escala, pontos cardeais, evidências, objetos fixos, medidas e chave/legenda.",
+      "E": "Devem constar o local, a data, o identificador, o responsável, os assistentes, o número do item, o local de recuperação, quem recuperou, a foto e o método de empacotamento de cada evidência coletada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A p. 91 lista, na Amostra de Esquema/Diagrama (Formulário 2): local, referência, data, uso ou não de escala, identificador, pontos cardeais, preparado por, evidência, assistentes, objetos fixos, medidas e chave/legenda. A alternativa C corresponde ao Registro Administrativo e a E ao Registro de Recuperação de Evidência (Formulário 3a), conforme p. 91-92.",
+    "referencia": "PDF, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 1195,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de explosão de bomba de grande poder ocorrida em estacionamento, o chefe da equipe opta pela técnica de busca simultânea em toda a área da explosão. A respeito dos procedimentos dessa técnica, assinale a opção correta.",
+    "alternativas": {
+      "A": "Estabelecem-se ambos os perímetros e trabalha-se simultaneamente nos dois; no externo, inicia-se do ponto mais distante em direção ao epicentro, com redução do perímetro externo à medida que as tarefas são executadas.",
+      "B": "A equipe trabalha somente no perímetro interno, partindo do centro da explosão em direção a todas as direções, sendo dispensável, nessa modalidade, a delimitação prévia do perímetro externo da cena periciada.",
+      "C": "Estabelecem-se apenas o perímetro externo e a divisão da área em seções, iniciando-se a busca exclusivamente a partir do epicentro em direção a todas as direções até o limite do perímetro mais afastado.",
+      "D": "A redução do perímetro externo deve ocorrer logo no início da busca, de modo a concentrar precocemente os esforços da equipe junto ao epicentro, onde se encontrariam os vestígios mais relevantes do artefato.",
+      "E": "Aplica-se quando há pistas iniciais sobre o artefato e partes significativas do DEI estão próximas ao epicentro, devendo-se localizar e coletar os vestígios do centro em direção ao perímetro externo, em todas as direções."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A p. 87 estabelece os procedimentos da técnica de busca simultânea: isolar os perímetros externo e interno; trabalhar simultaneamente nos dois; no externo, do ponto mais distante para o epicentro; determinar o padrão; dividir em seções; reduzir o perímetro externo conforme conclusão das tarefas. A descrição de E corresponde à técnica de busca a partir do centro (p. 87); B, C e D desvirtuam os procedimentos.",
+    "referencia": "PDF, p. 87",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1196,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perita Mariana, chefe de equipe, chega a local de explosão em galpão industrial e, após as avaliações iniciais, determina a realização do levantamento preliminar do local. Acerca dessa fase, assinale a opção correta.",
+    "alternativas": {
+      "A": "Deve ser realizada pelo maior número possível de membros da equipe, com vistas a acelerar a delimitação dos perímetros e a coleta dos primeiros vestígios situados nas imediações do epicentro da explosão.",
+      "B": "Deve ser realizada pelo menor número possível de pessoas, incluindo especialista em bombas, e visa estabelecer controle administrativo, avaliar a extensão da busca, organizar o POP e desenvolver teoria geral do crime.",
+      "C": "Dispensa a participação de especialista em bombas, bastando que a equipe disponha de peritos químicos e desenhistas para o adequado desenvolvimento dos trabalhos preliminares de inspeção no local periciado e a estimativa de pessoal.",
+      "D": "Tem por finalidade exclusiva a coleta imediata de amostras para envio ao laboratório, transferindo-se para momento posterior ao isolamento todas as demais decisões sobre a condução dos trabalhos da equipe.",
+      "E": "Deve ser conduzida simultaneamente pelos grupos de busca do epicentro e de vestígios, que coletam e empacotam de pronto as evidências, postergando-se a organização do POP para a fase de documentação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 85, a inspeção preliminar deve ser realizada pelo menor número possível de pessoas, devendo incluir um especialista em bombas, com as finalidades de estabelecer o controle administrativo e emocional, avaliar a extensão da busca, organizar o POP, estimar pessoal e equipamento e desenvolver teoria geral do crime. A, C, D e E contrariam essas premissas (p. 85).",
+    "referencia": "PDF, p. 85",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1197,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de explosão extenso, o chefe da equipe determina a aplicação do padrão de busca por quadrante, zona e setor; em local diverso, opta pelo padrão rede. Acerca das características desses dois padrões, assinale a opção correta.",
+    "alternativas": {
+      "A": "No padrão quadrante, a cena é dividida em quadrantes ou zonas e subdividida em setores marcados por letras e números, sendo aplicável a grandes áreas abertas; no padrão rede, o local é dividido por fitas, cordas ou barbantes, identificando-se cada espaço por letras e números vistoriados individualmente.",
+      "B": "No padrão rede, a busca inicia em ponto próximo ao centro e desenvolve-se concentricamente até o limite do perímetro externo, ao passo que o padrão quadrante é geralmente aplicado a ambientes menores, como uma sala.",
+      "C": "Ambos os padrões são empregados exclusivamente em ambientes confinados e de pequenas dimensões, sendo plenamente intercambiáveis quanto à finalidade e ao tamanho da área a ser examinada pela equipe pericial.",
+      "D": "O padrão quadrante exige que os componentes se alinhem lado a lado, a braços abertos, ao passo que o padrão rede pressupõe o alinhamento dos integrantes em colunas, do perímetro externo em direção ao interno.",
+      "E": "No padrão quadrante, os componentes gritam PARE ao localizarem cada vestígio e o repassam ao grupo, e, no padrão rede, a área é varrida em espiral a partir do epicentro, sendo ambos reservados exclusivamente a explosões de grande poder destrutivo em áreas confinadas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 87-88: no padrão rede, o local é dividido e marcado com fitas, cordas ou barbantes, sendo cada espaço identificado por letras/números e vistoriado individualmente; no padrão quadrante/zona/setor, a cena é dividida em quadrantes ou zonas e subdividida em setores marcados, aplicável a grandes áreas abertas. As descrições de espiral e fileiras (braços abertos, gritar PARE) cabem a outros padrões, afastando B, D e E; C é falsa.",
+    "referencia": "PDF, p. 87-88",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1198,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "O fotógrafo da equipe pericial é acionado para atuar em local de explosão. A respeito de suas atribuições, conforme as orientações para perícias dessa natureza, assinale a opção correta.",
+    "alternativas": {
+      "A": "Restringe-se a fotografar a cratera e os vestígios já marcados pelo grupo de busca, sendo-lhe vedado coletar quaisquer materiais auxiliares anteriores ao fato, como mapas, plantas e fotografias preexistentes.",
+      "B": "Cabe-lhe, prioritariamente, elaborar os croquis dos perímetros e identificar a posição dos vestígios, realizando as medições necessárias à real localização de cada evidência na cena do crime examinada.",
+      "C": "Compete-lhe registrar as fotografias em formulário próprio, fotografar em sequência lógica, coletar mapas, plantas, fotos anteriores e cobertura da imprensa e fotografar a reconstrução do artefato e a reconstituição do local.",
+      "D": "Atua exclusivamente na obtenção da vista aérea da extensão geral do local, incumbindo ao desenhista da equipe a realização de todos os registros fotográficos internos da área imediata da explosão.",
+      "E": "Sua atribuição principal é medir a largura, o comprimento e a profundidade da cratera e tentar determinar o ângulo de maior destruição da explosão, fotografando, em seguida, todos os vestígios que tenham sido coletados pelo grupo de busca do epicentro."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 81-82, ao fotógrafo compete registrar as fotografias em formulário próprio, fotografar em sequência lógica, fotografar a extensão geral e a vista aérea, fotografar os vestígios conforme encontrados, coletar mapas, plantas, fotos anteriores e cobertura da imprensa e fotografar a reconstrução do artefato e a reconstituição. A elaboração de croquis é do desenhista (B, D) e a medição da cratera é do grupo de busca do epicentro (E); A é falsa.",
+    "referencia": "PDF, p. 81-82",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1199,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de explosão, a equipe identifica pistas iniciais sobre o artefato logo após o levantamento preliminar e considera que partes significativas do DEI estão próximas ao epicentro. Considerando as técnicas de busca de vestígios em locais de explosão, assinale a opção correta.",
+    "alternativas": {
+      "A": "Deve-se adotar a busca simultânea em toda a área, com trabalho concomitante nos dois perímetros e início pelo ponto mais distante do externo, em direção ao epicentro, reduzindo-se o externo conforme as tarefas.",
+      "B": "Indica-se a busca a partir do centro da explosão, com isolamento da área, divisão em seções, definição do padrão de busca e coleta dos vestígios partindo do local da explosão em todas as direções até o perímetro externo.",
+      "C": "Deve-se adotar exclusivamente o padrão fileiras, pois a presença de pistas iniciais autoriza o alinhamento dos componentes lado a lado, a braços abertos, ainda que a cena se restrinja a um ambiente confinado.",
+      "D": "Indica-se a aplicação do padrão rede, com divisão por fitas e barbantes e vistoria individualizada das células, sendo dispensável, nessa hipótese, a definição prévia dos perímetros externo e interno da cena.",
+      "E": "Recomenda-se aguardar a conclusão integral do isolamento dos perímetros e a chegada do assessor de imprensa antes de iniciar qualquer busca de vestígios, ainda que já existam pistas iniciais sobre o artefato e fragmentos significativos próximos ao epicentro."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 87, a busca a partir do centro da explosão aplica-se quando há pistas iniciais sobre o artefato e partes significativas do DEI estão próximas ao epicentro; seus procedimentos incluem estabelecer o perímetro externo, isolar a área, dividi-la em seções, determinar o padrão e localizar/coletar os vestígios partindo do epicentro em todas as direções até o perímetro externo. A descreve a busca simultânea; C, D e E desvirtuam as técnicas e padrões (p. 87).",
+    "referencia": "PDF, p. 87",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1200,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de explosão, surge dúvida quanto à atribuição de coordenar os registros antes que a cratera seja alterada, de coletar amostras para laboratório e contraprovas e de determinar o ângulo de maior destruição. Considerando a distribuição das tarefas entre os membros da equipe, essas atribuições incumbem ao",
+    "alternativas": {
+      "A": "desenhista, encarregado dos croquis da área imediata da explosão e dos perímetros externo e interno, com a identificação dos vestígios localizados e as medições necessárias à sua real localização na cena.",
+      "B": "perito em vestígios, responsável também por receber os laudos do laboratório, por classificar as evidências em categorias e por mantê-las sob sua guarda até o encaminhamento para análise pericial.",
+      "C": "grupo de busca de vestígios, que determina o perímetro externo e o método de busca e vistoria a área do externo para o interno, marcando os vestígios localizados para indicá-los ao fotógrafo e ao desenhista.",
+      "D": "grupo de busca do local da explosão (epicentro), que vistoria o perímetro interno e coordena o registro com o fotógrafo e o desenhista antes de alterar a cratera ou a área imediata.",
+      "E": "fotógrafo, que registra a cratera em formulário próprio, fotografa em sequência lógica e coleta as amostras e contraprovas necessárias à determinação laboratorial do ângulo de maior destruição da explosão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 82, o grupo de busca do local da explosão (epicentro) vistoria o perímetro interno, coordena o registro com o fotógrafo e o desenhista antes de alterar a cratera, mede a cratera, coleta amostra para laboratório e contraprovas e tenta determinar o ângulo de maior destruição. As demais opções descrevem o desenhista (A), o perito em vestígios (B), o grupo de busca de vestígios (C) e o fotógrafo (E), conforme p. 81-83.",
+    "referencia": "PDF, p. 82",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1227,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das armas de fogo quanto à alma do cano, é correto afirmar que:",
+    "alternativas": {
+      "A": "As armas de alma raiada possuem superfície interna do cano lisa e cilíndrica, sendo as espingardas seus exemplos típicos no cenário criminal brasileiro.",
+      "B": "As armas de alma lisa possuem a superfície interna do cano lisa e total ou parcialmente cilíndrica, sendo as espingardas exemplos típicos dessa categoria.",
+      "C": "As armas de alma mista possuem apenas um cano, no qual coexistem regiões lisas e raiadas alternadas ao longo do seu comprimento.",
+      "D": "As armas de alma raiada são providas de estrias paralelas e exclusivamente longitudinais, sem qualquer componente helicoidal, em seu cano."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 19, armas de alma lisa têm superfície interna lisa e total ou parcialmente cilíndrica, e as espingardas são o exemplo típico. As raiadas têm estrias paralelas e helicoidais (não somente longitudinais) (p. 19-20). Armas de alma mista possuem dois canos, um liso e outro raiado, e não um único cano alternando regiões (p. 20-21).",
+    "referencia": "PDF, p. 19-21",
+    "nivel": "facil"
+  },
+  {
+    "id": 1228,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame pericial em uma arma apreendida, o perito identifica, ao inspecionar visualmente a parte interna do cano, a presença de seis cristas intercaladas com seis sulcos helicoidais orientados no sentido horário. A respeito dessa constatação, é correto afirmar que:",
+    "alternativas": {
+      "A": "Trata-se de raiamento 6-D, sendo o objetivo das raias imprimir movimento de rotação ao projétil ao longo de seu eixo longitudinal, aumentando sua estabilidade na trajetória.",
+      "B": "Trata-se de raiamento 6-S, característico de armas de alma lisa, cuja função é reduzir o atrito do projétil durante a passagem pelo cano.",
+      "C": "Trata-se de raiamento misto, indicando que o cano possui simultaneamente uma porção lisa e outra raiada, típica do modelo Apache da Rossi.",
+      "D": "Trata-se de raiamento 6-S, cuja função principal é selar a câmara contra o vazamento de gases provenientes da combustão da pólvora."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 20, raiamentos no sentido horário são classificados como dextrógiros (D), portanto 6-D. A função das raias é imprimir movimento de rotação ao projétil em seu eixo longitudinal, aumentando a estabilidade na trajetória (p. 20). Raiamento não existe em alma lisa, e o sentido horário define D, não S.",
+    "referencia": "PDF, p. 20",
+    "nivel": "medio"
+  },
+  {
+    "id": 1229,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia balística, foi examinado um revólver modelo Apache, fabricado pela Rossi entre 1953 e 1958, com dois canos: o superior em calibre .22 polegadas raiado e o inferior calibre 36 sem raiamento. Quanto à classificação da alma, é correto afirmar que se trata de arma de alma:",
+    "alternativas": {
+      "A": "Lisa, pois o cano de maior calibre, considerado principal na classificação, é desprovido de raiamento helicoidal interno.",
+      "B": "Raiada, pois basta que apenas um dos canos possua raiamento para que toda a arma seja classificada como raiada.",
+      "C": "Mista, pois possui simultaneamente um cano de alma lisa e outro de alma raiada, conforme conceituação consagrada na doutrina balística.",
+      "D": "Indefinida, pois a coexistência de canos com características distintas impede o enquadramento da arma em qualquer categoria de classificação quanto à alma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 20-21, armas de alma mista são exatamente aquelas que possuem um cano de alma lisa e outro de alma raiada, sendo citado como exemplo o modelo Apache da Rossi. As demais alternativas descaracterizam o conceito formal estabelecido no material.",
+    "referencia": "PDF, p. 20-21",
+    "nivel": "medio"
+  },
+  {
+    "id": 1230,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao sistema de carregamento, as armas de fogo modernas, tais como revólveres, pistolas e espingardas, classificam-se majoritariamente como armas de:",
+    "alternativas": {
+      "A": "Antecarga, pois o carregamento da carga propelente e do projétil é feito pela boca do cano da arma.",
+      "B": "Retrocarga, pois o carregamento é efetuado por meio da inserção de cartucho em câmara localizada na parte posterior do cano.",
+      "C": "Antecarga, em razão da maior praticidade obtida após a invenção dos cartuchos de munição modernos.",
+      "D": "Carregamento lateral, pois a câmara de combustão está disposta perpendicularmente ao eixo do cano da arma."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 21, armas de retrocarga são aquelas nas quais o carregamento é feito por inserção do cartucho em câmara na parte posterior do cano, abrangendo a quase totalidade das armas modernas (revólveres, pistolas, espingardas). Antecarga é justamente o oposto e caiu em desuso após a invenção do cartucho.",
+    "referencia": "PDF, p. 21",
+    "nivel": "facil"
+  },
+  {
+    "id": 1231,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em arma de fogo artesanal apreendida em zona rural, o perito constata que a pólvora é inflamada por meio de um pavio aceso manualmente pelo atirador, sem uso de espoleta ou contato elétrico. Sobre essa modalidade de inflamação, é correto afirmar que se trata do sistema:",
+    "alternativas": {
+      "A": "Por atrito, no qual a pólvora é inflamada por meio de faísca gerada por mecanismo mecânico ao acionamento do gatilho da arma.",
+      "B": "Por mecha, sistema considerado obsoleto, no qual a pólvora é inflamada por meio de pavio, segundo classificação adotada no material.",
+      "C": "De percussão extrínseca, no qual a espoleta independente é percutida pelo cão e dirige sua explosão para o interior do cano.",
+      "D": "De inflamação elétrica, geralmente presente em armas militares de uso restrito, como bazucas e peças de artilharia em geral."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 22, o sistema por mecha é aquele no qual a pólvora é inflamada por meio de um pavio, sendo expressamente classificado como sistema obsoleto. Por atrito envolve faísca (não pavio); percussão extrínseca usa espoleta; inflamação elétrica usa contato elétrico, todos distintos da mecha.",
+    "referencia": "PDF, p. 22",
+    "nivel": "medio"
+  },
+  {
+    "id": 1232,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das armas de fogo quanto ao sistema de percussão, é correto afirmar que:",
+    "alternativas": {
+      "A": "Nas armas de percussão extrínseca, a espoleta está incorporada à estrutura do cartucho de munição, sendo este o sistema mais utilizado nas armas modernas de retrocarga.",
+      "B": "Nas armas de percussão intrínseca direta, a energia do cão é transferida à cápsula de espoletamento por meio de pino percussor flutuante afixado ao ferrolho da arma.",
+      "C": "Nas armas de percussão intrínseca radial, a mistura iniciadora se localiza no centro da base do cartucho de munição, sendo restrita atualmente a calibres elevados como .50 polegadas.",
+      "D": "Nas armas de percussão intrínseca central, a cápsula de espoletamento está embutida no centro da base do cartucho, sendo amplamente utilizada em revólveres, pistolas, carabinas e fuzis."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 23, percussão intrínseca central possui a cápsula no centro da base do cartucho e é a mais utilizada nas armas modernas (revólveres, pistolas, carabinas, fuzis). A) descreve intrínseca, não extrínseca. C) intrínseca radial tem a mistura no ressalto oco da borda e está praticamente restrita ao .22 (p. 23). D) descreve percussão indireta, não direta (p. 24).",
+    "referencia": "PDF, p. 23-24",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1233,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em exame pericial, o perito analisa um cartucho calibre .22 e verifica que a percussão se deu na borda do cartucho, e não no centro da base. A respeito do sistema de inflamação dessa munição, é correto afirmar que se trata de percussão intrínseca:",
+    "alternativas": {
+      "A": "Central, pois esta é a categoria predominantemente associada ao calibre .22 nas armas modernas de pequeno porte fabricadas no Brasil.",
+      "B": "Extrínseca, pois a percussão sobre a borda do cartucho caracteriza espoleta independente da estrutura do cartucho de munição.",
+      "C": "Radial, também denominada anelar ou periférica (rimfire), na qual a mistura iniciadora se encontra no ressalto oco da base do cartucho.",
+      "D": "Indireta, pois o calibre .22 sempre demanda transferência da energia do cão por meio de pino percussor flutuante para ignição."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 23, a percussão intrínseca radial (também anelar ou periférica, rimfire) é aquela em que a percussão ocorre na borda do cartucho, com mistura iniciadora no ressalto oco da base. Está praticamente restrita ao calibre .22. Não é central (centro da base) nem extrínseca (espoleta independente). Percussão direta/indireta é classificação ortogonal, não definida pelo calibre.",
+    "referencia": "PDF, p. 23",
+    "nivel": "medio"
+  },
+  {
+    "id": 1234,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre armas de percussão intrínseca direta e indireta, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na percussão indireta, o sistema dispensa pino percussor independente, pois o ferrolho atua diretamente sobre a base do cartucho de munição.",
+      "B": "Na percussão indireta, a espoleta é uma peça externa ao cartucho de munição, sendo colocada sobre uma pequena chaminé que se projeta na parte superior do cano.",
+      "C": "Na percussão direta, há sempre um pino percussor flutuante afixado à armação ou ao ferrolho que recebe e transmite a energia do cão à cápsula.",
+      "D": "Na percussão direta, o cão ou martelo possui um pino percussor diretamente usinado ou afixado a seu corpo, sendo o próprio cão responsável pela percussão da espoleta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 24, na percussão intrínseca direta o cão ou martelo possui pino percussor diretamente usinado ou afixado a seu corpo. B) descreve percussão extrínseca (p. 22), não indireta. C) e D) trocam as características: na indireta há pino percussor flutuante na armação/ferrolho (p. 24).",
+    "referencia": "PDF, p. 24",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1235,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de crime, o perito recupera uma pistola e constata que, em seu funcionamento, a força muscular do atirador é responsável apenas pelo acionamento do mecanismo de disparo, enquanto a energia da expansão dos gases da combustão da pólvora promove o ciclo de realimentação. Constatou-se ainda que a arma efetua apenas um ciclo completo a cada acionamento do gatilho. Quanto ao funcionamento, é correto afirmar que se trata de arma:",
+    "alternativas": {
+      "A": "Semiautomática, pois efetua apenas um ciclo de disparo por acionamento do gatilho, sendo necessário liberá-lo e acioná-lo novamente.",
+      "B": "De repetição, pois o sistema de alimentação opera por meio de mecanismo mecânico acionado pela força muscular do atirador.",
+      "C": "Automática, pois utiliza a energia dos gases de combustão para realimentar a câmara a cada novo disparo efetuado pelo atirador.",
+      "D": "De tiro unitário, pois cada disparo demanda nova inserção manual de cartucho íntegro na câmara de combustão do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 27, armas semiautomáticas têm a força muscular apenas no acionamento do gatilho e a energia dos gases efetua a repetição, e realizam apenas um ciclo por acionamento (tiro intermitente). Não é automática (que mantém ciclagem enquanto gatilho pressionado), nem de repetição (cuja alimentação depende exclusivamente da força muscular - p. 26), nem unitário (que só comporta um cartucho na câmara - p. 25).",
+    "referencia": "PDF, p. 25-27",
+    "nivel": "medio"
+  },
+  {
+    "id": 1236,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre armas semiautomáticas e automáticas quanto ao funcionamento, é correto afirmar que:",
+    "alternativas": {
+      "A": "Nas armas automáticas, a ciclagem é integralmente acionada pela força muscular do atirador, da mesma forma que ocorre nas armas de repetição em geral.",
+      "B": "Nas armas automáticas, a energia dos gases mantém a ciclagem enquanto o gatilho permanecer acionado e houver munição íntegra, configurando tiro contínuo ou em rajada.",
+      "C": "Nas armas semiautomáticas, o tiro é contínuo ou em rajada enquanto o gatilho for mantido pressionado e ainda houver munição íntegra disponível.",
+      "D": "Nas armas semiautomáticas, a chave seletora permite ao atirador escolher entre tiro intermitente e rajada contínua de cinco disparos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme p. 27, na arma automática a força muscular só age no primeiro disparo e a energia dos gases mantém a ciclagem enquanto o gatilho estiver acionado e houver munição, configurando tiro contínuo ou em rajada. A) confunde com repetição. B) descreve automática, não semiautomática (que faz tiro intermitente). D) seletor de rajadas é típico de armas classificadas como automáticas, não semiautomáticas.",
+    "referencia": "PDF, p. 27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1237,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em apreensão policial, foi recolhido um fuzil dotado de chave seletora que permite escolher entre tiro semiautomático, rajada de três tiros, rajada de cinco tiros e rajada contínua. Quanto à classificação por funcionamento, é correto afirmar que a arma deve ser enquadrada como:",
+    "alternativas": {
+      "A": "Semiautomática, pois um dos modos disponíveis ao atirador no seletor de tiro é justamente o modo de tiro intermitente.",
+      "B": "Mista quanto ao funcionamento, devendo ser enquadrada simultaneamente como semiautomática e automática para fins criminalísticos.",
+      "C": "De repetição, pois a presença de chave seletora indica que o sistema de alimentação demanda intervenção mecânica manual do atirador.",
+      "D": "Automática, pois entre os modos disponíveis figura o modo automático (rajada contínua), o que basta para essa classificação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 27, o material expressamente determina que armas com seletor de modos que incluam, entre eles, o modo automático, devem ser classificadas como automáticas. Não cabe classificação como semiautomática (a) nem categoria mista (d), e a presença de seletor não a torna arma de repetição (c).",
+    "referencia": "PDF, p. 27",
+    "nivel": "medio"
+  },
+  {
+    "id": 1238,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as definições estabelecidas no Decreto 11.615/2023, quanto à classificação das armas de fogo pela mobilidade, é correto afirmar que:",
+    "alternativas": {
+      "A": "Arma de fogo de porte é aquela cujo peso e cujas dimensões permitem que seja transportada por apenas um indivíduo, mas não conduzida pronta para uso.",
+      "B": "Pistolas, revólveres e garruchas são, segundo o decreto, classificadas como armas portáteis longas, em razão de seu peso reduzido e calibre.",
+      "C": "Arma de fogo de porte é aquela de dimensão e peso reduzidos, que pode ser disparada pelo atirador com apenas uma das mãos, como pistola, revólver e garrucha.",
+      "D": "Arma portátil é aquela que pode ser disparada pelo atirador com uma só mão, incluindo nessa categoria as pistolas e os revólveres em geral."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme p. 28, o Decreto 11.615/2023 define arma de fogo de porte como a de dimensão e peso reduzidos disparada com apenas uma das mãos (pistola, revólver, garrucha). A) descreve arma portátil, não de porte. B) e D) confundem porte com portátil: no decreto, portáteis ficaram restritas a armas longas, e as curtas foram equiparadas a armas de porte.",
+    "referencia": "PDF, p. 28",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1239,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial, o perito descreve a arma examinada como sendo de tiro unitário múltiplo. Sobre essa categoria, é correto afirmar que:",
+    "alternativas": {
+      "A": "Pode possuir vários canos, em geral dois, paralelos ou sobrepostos, cada um com sistema de disparo independente, comportando-se como par de armas unitárias simples acopladas a mesma coronha.",
+      "B": "Possui apenas um cano e um sistema de disparo, com câmara capaz de comportar mais de um cartucho de munição íntegro simultaneamente.",
+      "C": "É arma de repetição com sistema mecânico de alimentação que reposiciona o cartucho a cada disparo, sendo as espingardas de bombeamento seu exemplo principal.",
+      "D": "É arma semiautomática de múltiplos canos, na qual a energia dos gases de combustão alimenta automaticamente os canos paralelos a cada disparo efetuado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 26, armas de tiro unitário múltiplo podem ter vários canos (em geral dois, paralelos ou sobrepostos), cada um com sistema de disparo independente, comportando-se como par de armas unitárias simples acopladas a mesma coronha. Exemplos: espingardas de caça de dois canos e garruchas. Demais alternativas confundem com outras categorias (unitário simples, repetição, semiautomática).",
+    "referencia": "PDF, p. 25-26",
+    "nivel": "facil"
+  },
+  {
+    "id": 1240,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia balística, o perito examina arma artesanal antiga, identifica que o carregamento é efetuado pela boca do cano e que a ignição da carga propelente ocorre por meio de espoleta colocada sobre pequena chaminé projetada na parte superior do cano, comunicando-se com seu interior por meio de um ouvido, sendo percutida pelo cão. A respeito da classificação dessa arma, é correto afirmar que se trata de arma de:",
+    "alternativas": {
+      "A": "Antecarga e percussão extrínseca, sendo a espoleta peça independente colocada sobre chaminé conectada ao interior do cano via ouvido.",
+      "B": "Retrocarga e percussão intrínseca central, sendo a espoleta percutida diretamente no centro da base do cartucho pelo pino percussor da arma.",
+      "C": "Antecarga e percussão intrínseca radial, com mistura iniciadora no ressalto oco da base do cartucho percutido na borda pelo cão da arma.",
+      "D": "Retrocarga e percussão extrínseca, com espoleta independente e percussão efetuada pelo cão sobre chaminé na parte posterior do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme p. 21, antecarga é o carregamento pela boca do cano. Conforme p. 22, percussão extrínseca é aquela em que a espoleta é peça independente colocada sobre pequena chaminé que se comunica com o interior do cano por um ouvido, sendo percutida pelo cão, e geralmente presente em armas de antecarga portáteis. As demais alternativas confundem retrocarga com antecarga ou percussão extrínseca com intrínseca.",
+    "referencia": "PDF, p. 21-22",
+    "nivel": "dificil"
+  }
+]

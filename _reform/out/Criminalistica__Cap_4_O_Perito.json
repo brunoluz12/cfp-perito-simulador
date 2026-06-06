@@ -1,0 +1,218 @@
+[
+  {
+    "id": 427,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em comarca do interior, distante mais de 400 km do único Instituto de Criminalística do estado, ocorre um homicídio durante a madrugada. Constatada a indisponibilidade de perito oficial em tempo hábil e a urgência na realização do exame de local, a autoridade que preside o procedimento investigatório resolve providenciar a perícia por profissionais não oficiais. À luz do art. 159 do CPP, com a redação dada pela Lei nº 11.690/2008, e da doutrina de Criminalística, assinale a alternativa que descreve corretamente os requisitos de validade dessa nomeação.",
+    "alternativas": {
+      "A": "A nomeação somente será válida se recair sobre uma única pessoa idônea, portadora de diploma de curso superior, com habilitação técnica na área específica, ficando dispensado o compromisso em razão da urgência da diligência.",
+      "B": "A nomeação é nula de pleno direito, pois, ainda que ausente o perito oficial, a designação de perito não oficial é atribuição exclusiva da autoridade judiciária, jamais da autoridade que preside o inquérito.",
+      "C": "A nomeação dependerá, sob pena de nulidade, da concordância expressa das partes e do Ministério Público, dada a excepcionalidade da medida diante da ausência de perito oficial.",
+      "D": "A nomeação exige duas pessoas idôneas, portadoras de diploma de curso superior, com habilitação técnica diretamente relacionada à natureza do exame, dispensando-se, contudo, qualquer compromisso formal, por já estarem submetidas à disciplina judiciária do procedimento em curso.",
+      "E": "Exige duas pessoas idôneas, com diploma de curso superior, preferencialmente da área específica, dentre as de habilitação técnica afim ao exame, devendo ambas prestar compromisso."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E: conforme o art. 159, §1º, do CPP (redação da Lei nº 11.690/2008), 'na falta de perito oficial, o exame será realizado por 2 (duas) pessoas idôneas, portadoras de diploma de curso superior preferencialmente na área específica, dentre as que tiverem habilitação técnica relacionada com a natureza do exame'; e o §2º exige que prestem compromisso de bem e fielmente desempenhar o encargo (p. 34). A) Erra ao admitir um único perito e dispensar o compromisso: exigem-se duas pessoas e o compromisso é obrigatório. B) Erra ao restringir a nomeação ao juiz: na fase de inquérito a nomeação é ato do delegado (de polícia federal ou civil), além da autoridade judiciária. C) Erra ao condicionar a nomeação à anuência das partes/MP, pois a medida não admite intervenção das partes. D) Erra ao dispensar o compromisso, que é expressamente exigido aos peritos não oficiais a cada nomeação.",
+    "referencia": "Cap. 4, Seção 4.2, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 428,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal é informado de que tende a ser designado para periciar caso de fraude contábil em que a empresa investigada, parte no feito, é dirigida por seu cunhado (irmão de sua esposa). Antes da distribuição formal, comunica ao setor que não atuará no caso. Considerando a disciplina judiciária aplicável aos peritos (art. 280 do CPP e dispositivos análogos) e o tratamento dado pelo Cap. 4 às causas de impedimento e suspeição, assinale a alternativa correta quanto ao fundamento do afastamento.",
+    "alternativas": {
+      "A": "Configura-se suspeição, pois a relação familiar próxima com o administrador e representante legal da empresa investigada pode comprometer a imparcialidade do perito, sendo o afastamento, porém, mera faculdade enquanto não houver formal arguição pelas partes interessadas.",
+      "B": "Configura-se impedimento, pois o perito é parente colateral até o 2º grau de membro da administração de pessoa jurídica parte no feito, vedação objetiva que opera independentemente de arguição.",
+      "C": "Não há impedimento nem suspeição, porquanto o cunhado é parente apenas por afinidade, e a vedação legal alcança somente parentes consanguíneos do perito.",
+      "D": "Configura-se suspeição por motivo de foro íntimo, sendo facultado ao perito declarar-se suspeito sem necessidade de declinar o fundamento objetivo da recusa.",
+      "E": "Configura-se impedimento, porém de natureza relativa, de modo que o perito poderia validamente atuar caso as partes, expressamente, renunciassem à arguição da vedação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: o Cap. 4 (p. 37) lista entre as causas de IMPEDIMENTO (causas objetivas/absolutas) ser o perito parente em linha colateral até o 2º grau (irmão ou cunhado) do advogado da parte e ser membro da administração de pessoa jurídica parte no feito; sendo o cunhado dirigente da empresa-parte, a vedação é objetiva e opera independentemente de arguição. A) e D) erram ao classificar a hipótese como suspeição (causa subjetiva), confundindo as categorias. C) erra ao afirmar que a vedação só alcança parentes consanguíneos: o próprio rol cita o cunhado (parente por afinidade). E) erra ao tratar o impedimento como vedação relativa renunciável pelas partes, pois o impedimento é objetivo e absoluto.",
+    "referencia": "Cap. 4, Seção 4.5.1.1, p. 37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 429,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir sobre a figura do Perito Criminal Federal e o regime jurídico das perícias oficiais, conforme o Cap. 4:\n\nI. Pelo Decreto nº 5.116/2004, o ingresso na carreira de Perito Criminal Federal admite diversas áreas de formação superior, entre elas Medicina, Odontologia e Economia (Ciências Econômicas).\nII. A Lei nº 12.030/2009 (art. 5º) define como peritos oficiais de natureza criminal os peritos criminais, os peritos médico-legistas e os peritos odontolegistas.\nIII. A distribuição interna do exame entre os peritos oficiais cabe ao diretor da repartição, que considera parâmetros como carga de trabalho e área de formação, ao passo que o perito ad hoc é nomeado diretamente pela autoridade policial ou judiciária.\nIV. Segundo a organização da atividade pericial descrita no texto, na maioria dos estados a perícia criminal é vinculada diretamente à estrutura da Polícia Civil, havendo apenas um estado em que se vincula diretamente ao governador.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "I, III e IV.",
+      "C": "II, III e IV.",
+      "D": "I, II, III e IV.",
+      "E": "I, II e III."
+    },
+    "resposta_correta": "E",
+    "justificativa": "Correta a alternativa E (I, II e III). I CORRETO (p. 36): o Decreto nº 5.116/2004 admite diversas formações superiores, incluindo Medicina, Odontologia e Economia. II CORRETO (p. 34): o art. 5º da Lei nº 12.030/2009 elenca peritos criminais, médico-legistas e odontolegistas. III CORRETO (p. 34): a distribuição é feita pelo diretor da repartição (art. 178 do CPP), considerando carga de trabalho e área de formação, enquanto o ad hoc é nomeado pela autoridade. IV INCORRETO (p. 34): na maior parte do Brasil a perícia vincula-se às Secretarias de Segurança Pública (não à Polícia Civil), restando 11 estados em que ainda integra a Polícia Civil e apenas o Amapá com vinculação direta ao governador. Por isso as alternativas A, B, C e D, que incluem o item IV (falso) ou excluem itens verdadeiros, estão erradas.",
+    "referencia": "Cap. 4, Seções 4.1 e 4.4, p. 34-36",
+    "nivel": "dificil"
+  },
+  {
+    "id": 430,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em processo cível que discute a autenticidade de assinatura aposta em contrato de elevado valor, o juiz precisa nomear perito para examinar o documento. Considerando o regime do perito no processo civil exposto no Cap. 4, em especial o art. 434 do CPC, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O juiz deverá, de preferência, escolher o perito entre os técnicos dos estabelecimentos oficiais especializados, que, salvo justa razão, devem aceitar o encargo, sob compromisso e com honorários.",
+      "B": "O juiz deverá nomear obrigatoriamente perito oficial vinculado a órgão estatal de perícias cíveis, pois o Estado brasileiro mantém estrutura própria de perícia para a esfera civil.",
+      "C": "No processo civil, a indicação do perito compete exclusivamente às partes, cabendo ao juiz apenas homologar o nome indicado, sendo-lhe vedado nomear perito de ofício.",
+      "D": "Os peritos no processo civil são dispensados de compromisso, pois atuam mediante remuneração contratual ajustada com as partes, equiparando-se, nesse ponto, aos assistentes técnicos.",
+      "E": "O juiz poderá nomear livremente qualquer profissional de sua estrita confiança pessoal, ainda que sem inscrição no respectivo conselho de classe, devendo, em razão da natureza eminentemente documental do exame grafotécnico, dispensar a remuneração por honorários periciais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: conforme o Cap. 4 (p. 35-36) e o art. 434 do CPC, quando o exame tiver por objeto a autenticidade ou falsidade de documento, ou for de natureza médico-legal, o perito será escolhido, de preferência, entre os técnicos dos estabelecimentos oficiais especializados, que devem aceitar o encargo se não houver justificativa; atuam sob compromisso e percebem honorários. B) erra: no processo civil não há perito oficial, pois o Estado não oferece esse serviço. C) erra: o juiz nomeia o perito, não havendo monopólio das partes nem mera homologação. D) erra: os peritos atuam sob compromisso e não se equiparam aos assistentes técnicos. E) erra: o perito é profissional de nível universitário inscrito no conselho de classe e faz jus a honorários.",
+    "referencia": "Cap. 4, Seção 4.3, p. 35-36",
+    "nivel": "medio"
+  },
+  {
+    "id": 431,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em local de homicídio, um Perito Criminal Federal — que anos antes fora contratado pela família da vítima para emitir parecer técnico extrajudicial em caso diverso — omite deliberadamente do laudo a presença de vestígios indicativos de legítima defesa do acusado, com a intenção de favorecer a tese acusatória. Sobre a tipificação penal da conduta, à luz do art. 342 do CP e do Cap. 4, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A conduta não configura crime de falsa perícia, pois a contratação anterior do agente como parecerista extrajudicial de uma das partes descaracteriza, de modo absoluto e definitivo, a sua condição de perito oficial no caso ora periciado.",
+      "B": "A conduta configura falsa perícia (art. 342 do CP), pois o agente atua oficialmente como Perito Criminal Federal e age com dolo, sendo a omissão de vestígios apta a fraudar a verdade.",
+      "C": "A conduta não configura crime, pois a falsa perícia exige a produção de afirmação falsa, sendo a mera omissão de dados conduta atípica para fins do art. 342 do CP.",
+      "D": "A conduta configura apenas infração disciplinar de natureza administrativa, uma vez que o crime de falsa perícia somente se perfaz mediante reiteração de condutas pelo mesmo perito.",
+      "E": "A conduta configura falsa perícia, mas na modalidade culposa, pois a omissão de vestígios decorre de falha na coleta, independentemente da intenção do agente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: conforme o Cap. 4 (p. 38-39), a falsa perícia (art. 342 do CP) exige dolo — a intenção de produzir o erro — e tem como sujeito ativo o perito oficial ou nomeado. O agente atua oficialmente como Perito Criminal Federal no caso atual (a contratação anterior referia-se a outro caso e não o descaracteriza), e a omissão dolosa de vestígios relevantes frauda a verdade, configurando o tipo. A) erra: a parceria pretérita em caso diverso não retira a condição de perito oficial no caso atual. C) erra: o crime abrange tanto a afirmação falsa quanto a omissão dolosa da verdade. D) erra: não há exigência de reiteração, e a conduta dolosa configura crime, não mera falta administrativa. E) erra: o tipo é exclusivamente doloso, exigindo a intenção de produzir o erro.",
+    "referencia": "Cap. 4, Seção 4.5.2, p. 38-39",
+    "nivel": "dificil"
+  },
+  {
+    "id": 432,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a figura do perito, segundo os ensinamentos doutrinários e legais expostos no Cap. 4 da apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Conforme Nucci, tanto o perito oficial quanto o perito nomeado pelo juiz são dispensados do compromisso, por integrarem, em qualquer caso, o quadro de auxiliares permanentes da justiça.",
+      "B": "O perito médico previdenciário é considerado perito oficial de natureza criminal, nos termos da Lei nº 12.030/2009, por exercer função pública de caráter técnico.",
+      "C": "O perito oficial é dispensado do compromisso por estar investido na função por lei, ao passo que o nomeado pelo juiz ou pelo delegado federal deverá ser compromissado.",
+      "D": "Denomina-se perito, em sentido formal e tecnicamente jurídico, apenas o profissional que atua exclusivamente na esfera penal, sendo de todo inadequado e impróprio o emprego do termo nos âmbitos da esfera cível e da esfera trabalhista.",
+      "E": "O perito oficial e o perito ad hoc devem prestar, a cada designação, compromisso formal de bem desempenhar a função, pois ambos atuam como auxiliares eventuais da justiça."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: conforme citação de Nucci (p. 33), o perito pode ser oficial — funcionário do Estado, dispensado do compromisso por estar investido na função por lei — ou nomeado pelo juiz, hipótese em que deverá ser compromissado; o texto acrescenta que a nomeação pode ocorrer também pelo delegado de polícia federal na fase de inquérito. A) e E) erram quanto ao compromisso: o oficial é dispensado, mas o nomeado/ad hoc deve prestá-lo (logo, não há dispensa para ambos nem compromisso para ambos). B) erra: o perito médico previdenciário situa-se no âmbito formal/administrativo e não é perito oficial de natureza criminal da Lei nº 12.030/2009 (criminais, médico-legistas e odontolegistas). D) erra: o perito atua também nas esferas cível e trabalhista, não apenas na penal.",
+    "referencia": "Cap. 4, p. 33",
+    "nivel": "facil"
+  },
+  {
+    "id": 433,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Designado para exame de material apreendido em operação policial, um Perito Criminal Federal verifica que um dos investigados é seu antigo desafeto, com quem manteve, anos antes, sério desentendimento que culminou em ofensas mútuas e ruptura definitiva da relação. Ciente da exigência de neutralidade, decide formalizar a recusa. Considerando o regime de impedimento e suspeição aplicável aos peritos (art. 254, I, c/c art. 280 do CPP) e o Cap. 4, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Não se configura impedimento nem suspeição, pois o desentendimento ocorreu anos antes e a lei exige inimizade atual e contemporânea ao exame.",
+      "B": "Configura-se hipótese de impedimento, decorrente da existência objetiva de inimizade pretérita, devendo o perito ser obrigatoriamente substituído por vedação absoluta.",
+      "C": "Configura-se causa de suspeição apenas se o perito houver auxiliado financeiramente a parte adversária com as despesas do processo, o que não se verifica no caso.",
+      "D": "Configura-se hipótese de suspeição (inimigo capital de uma das partes), devendo o perito dar-se por suspeito e podendo, caso não o faça, ser recusado por qualquer das partes.",
+      "E": "Configura-se suspeição, mas o afastamento é vedado ao perito oficial, que detém autonomia técnica plena e só pode ser afastado mediante decisão judicial após arguição das partes."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: pelo art. 254, I, do CPP, aplicado aos peritos por força do art. 280 (Cap. 4, p. 37-38), a inimizade capital em relação a uma das partes é causa de SUSPEIÇÃO (causa subjetiva), devendo o perito dar-se por suspeito e, não o fazendo, podendo ser recusado por qualquer das partes. A) erra: a lei não exige inimizade 'atual' nos termos propostos; a inimizade capital configura a hipótese. B) erra ao classificar como impedimento (causa objetiva), confundindo as categorias. C) erra: o auxílio financeiro é outra hipótese de suspeição e não é a aqui caracterizada. E) erra: o próprio regime prevê que o perito se declare suspeito (o bom perito antecipa-se à arguição), não havendo vedação ao seu afastamento.",
+    "referencia": "Cap. 4, Seção 4.5.1.2, p. 37-38",
+    "nivel": "medio"
+  },
+  {
+    "id": 434,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Cap. 4 apresenta reflexão crítica sobre a nomeação de peritos não oficiais (ad hoc). Sobre essa discussão doutrinária e suas consequências práticas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os peritos ad hoc oferecem a mesma segurança, imparcialidade e credibilidade dos peritos oficiais, justamente porque prestam compromisso legal de bem desempenhar suas funções a cada nomeação.",
+      "B": "A nomeação de peritos leigos é medida emergencial que não deve virar rotina, pois eles não têm formação específica, compromisso com o serviço público nem os recursos dos institutos, podendo danificar vestígios.",
+      "C": "A nomeação de perito leigo só é admitida quando há concordância expressa das partes e do Ministério Público, sob pena de nulidade do exame por afronta ao contraditório.",
+      "D": "O texto defende que a figura do perito ad hoc seja preservada e ampliada como solução estrutural para a sobrecarga de trabalho dos peritos oficiais nos institutos de criminalística.",
+      "E": "A medida é absolutamente vedada no ordenamento jurídico brasileiro, de modo que, na ausência momentânea de perito oficial disponível, a diligência pericial deverá ser suspensa e adiada até a efetiva chegada de perito de carreira concursado, ainda que isso venha a comprometer a integridade e a preservação dos vestígios do local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: conforme o Cap. 4 (p. 34-35), trata-se de medida emergencial que não deve ser transformada em rotina, pois exames feitos por pessoas sem formação específica, sem compromisso com o serviço público, sem sujeição às normas técnicas dos órgãos de perícia e sem os recursos tecnológicos dos institutos não oferecem a mesma segurança, imparcialidade e credibilidade, podendo os nomeados destruir ou danificar vestígios. A) erra: o texto afirma justamente que não há equivalência de segurança/credibilidade. C) erra: a nomeação é ato da autoridade e não depende de anuência das partes/MP. D) erra: o texto critica a banalização do ad hoc, não defende sua ampliação. E) erra: a lei admite a nomeação de peritos não oficiais na falta de perito oficial, não impondo a suspensão da diligência.",
+    "referencia": "Cap. 4, Seção 4.2, p. 34-35",
+    "nivel": "facil"
+  },
+  {
+    "id": 540,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame de local de homicídio, um Perito Criminal Federal descobre que a vítima é cunhada do advogado constituído pela família para acompanhar o caso. Em outra situação, em exame de corpo de delito, o perito reconhece o periciando como seu paciente em consultório particular. Considerando as hipóteses de impedimento elencadas no Cap. 4, com base no CPP, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nenhuma das hipóteses configura impedimento, pois o perito oficial detém autonomia técnica plena (Lei nº 12.030/2009) e apenas a atuação prévia como testemunha no mesmo processo afastaria sua atuação.",
+      "B": "Ambas as hipóteses configuram impedimento: o perito não pode atuar quando for parente em linha colateral até o 2º grau (cunhado) do advogado da parte, nem quando o periciando for seu paciente.",
+      "C": "Apenas a segunda hipótese configura impedimento, pois a relação médico-paciente atrai vinculação direta; o vínculo com o advogado da parte é mera suspeição, sanável por declaração de motivo íntimo.",
+      "D": "Somente a primeira hipótese configura impedimento, pois o parentesco colateral até o 3º grau alcança o advogado da parte, ao passo que ser médico do periciando é simples recomendação ética, sem previsão legal.",
+      "E": "Apenas a primeira hipótese configura impedimento; a segunda configura suspeição, pois a relação médico-paciente revela interesse subjetivo do perito no resultado do exame."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: o Cap. 4 (p. 37) lista expressamente entre as hipóteses de IMPEDIMENTO ser o perito parente em linha colateral até o 2º grau (irmão ou cunhado) do advogado da parte e ser o periciando seu paciente. A) erra: a autonomia técnica não afasta as vedações objetivas de impedimento, que não se limitam à atuação prévia como testemunha. C), D) e E) erram ao tratar parte das hipóteses como suspeição ou mera recomendação ética, ou ao alterar o grau de parentesco: ambas são causas objetivas de impedimento previstas no texto (parente colateral até o 2º grau do advogado e periciando-paciente).",
+    "referencia": "Cap. 4, Seção 4.5.1.1, p. 37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 541,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito é convocado para atuar em processo no qual figura como parte um empresário de quem o perito é credor de quantia relevante, decorrente de empréstimo pessoal. Em outro processo, o mesmo perito havia recentemente aconselhado uma das partes a respeito da causa, em conversa informal. Com base no Cap. 4 e nas regras de suspeição do art. 254 do CPP, estendidas aos peritos pelo art. 280 do CPP, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em ambas há suspeição, pois ser credor ou devedor de qualquer das partes e ter aconselhado parte sobre a causa comprometem a imparcialidade do perito.",
+      "B": "A suspeição se configura apenas se o crédito superar vinte salários mínimos, sendo o aconselhamento prévio causa de impedimento, e não de suspeição.",
+      "C": "A relação creditícia configura impedimento absoluto, ao passo que o aconselhamento prévio é apenas questão ética de foro íntimo, sem previsão legal de afastamento.",
+      "D": "Nenhuma das situações configura suspeição, pois as regras do art. 254 do CPP destinam-se exclusivamente aos magistrados e não se estendem aos peritos.",
+      "E": "Somente o aconselhamento informal prévio à parte configura hipótese de suspeição; já ser credor de uma das partes constitui causa objetiva de impedimento, por gerar evidente interesse patrimonial direto no resultado final do feito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o Cap. 4 (p. 37-38) inclui entre as causas de suspeição ser o perito credor ou devedor de qualquer das partes e haver aconselhado uma parte em relação à causa (além de receber presentes ou auxiliar financeiramente nas despesas do processo); o art. 280 do CPP estende aos peritos as regras de suspeição dos juízes. B) erra: não há limite de valor (vinte salários) na hipótese, e o aconselhamento é suspeição, não impedimento. C) e E) erram ao classificar a relação creditícia como impedimento: trata-se de suspeição (causa subjetiva/financeira). D) erra: o art. 280 do CPP expressamente estende as regras de suspeição aos peritos.",
+    "referencia": "Cap. 4, Seção 4.5.1.2, p. 37-38",
+    "nivel": "medio"
+  },
+  {
+    "id": 542,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em três situações distintas, profissionais técnicos produzem documentos sobre fatos criminais com afirmações intencionalmente falsas: (1) um Perito Criminal Federal afirma falsamente, em laudo oficial, a presença de droga em substância apreendida; (2) um perito ad hoc nomeado pelo delegado afirma falsamente a autenticidade de assinatura em documento; (3) um técnico contratado e remunerado por advogado de defesa, para emitir parecer técnico fora dos autos, faz afirmação falsa. Considerando o art. 342 do CP e o Cap. 4, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As situações 1 e 2 podem configurar falsa perícia, pois supõem dolo de perito oficial ou nomeado; já o parecer do técnico contratado pela parte (situação 3) não se enquadra no art. 342 do CP.",
+      "B": "Apenas o perito oficial (situação 1) pode responder por falsa perícia, pois o art. 342 do CP é crime próprio que exige a condição de servidor público.",
+      "C": "Todas as três situações configuram falsa perícia, pois o sujeito ativo é qualquer pessoa que produza laudo ou parecer com finalidade probatória, seja oficial ou contratada pelas partes.",
+      "D": "Somente a situação 2 enseja falsa perícia, pois apenas o perito ad hoc presta compromisso; o perito oficial, investido por lei e dispensado de compromisso, não responde pelo tipo.",
+      "E": "Apenas a situação 3 configura falsa perícia, pois o técnico contratado pela parte responde pelo art. 342 do CP por defender interesse particular, enquanto os peritos oficial e ad hoc respondem por crime funcional próprio."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o Cap. 4 (p. 38-39) afirma que a falsa perícia exige a intenção de produzir o erro e que não se enquadram no art. 342 do CP aqueles que não forem peritos oficiais ou nomeados, como os contratados pelas partes para fornecer pareceres técnicos. Assim, o perito oficial (1) e o ad hoc nomeado (2) podem responder pelo tipo; o técnico contratado pela defesa (3), não. B) erra: o ad hoc também responde, não apenas o servidor público. C) erra: o contratado pela parte não pratica o crime. D) erra: o perito oficial responde pelo tipo, independentemente de prestar ou não compromisso a cada exame. E) inverte a regra, pois é justamente o contratado pela parte que não se enquadra no art. 342.",
+    "referencia": "Cap. 4, Seção 4.5.2, p. 38-39",
+    "nivel": "dificil"
+  },
+  {
+    "id": 543,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 4 - O Perito",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em pequena comarca do interior, um juiz de processo cível precisa nomear perito para exame em documento supostamente falsificado. Em outra localidade, no curso de inquérito policial federal, o delegado depara-se com a ausência de perito oficial disponível para o exame imediato de um vestígio. Sobre a nomeação de peritos no processo civil e do perito ad hoc no processo penal, conforme o Cap. 4, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No civil não há perito oficial; em exame de autenticidade ou falsidade documental, ou médico-legal, o juiz preferirá técnicos de estabelecimentos oficiais; no penal, faltando perito oficial, o exame caberá a 2 pessoas idôneas com diploma superior, nomeadas pela autoridade.",
+      "B": "No processo civil há órgão oficial de perícia mantido pelo Estado; no inquérito, o delegado pode nomear qualquer pessoa de sua confiança como perito ad hoc, ainda que sem curso superior, em razão da urgência.",
+      "C": "Tanto no processo civil quanto no penal o Estado mantém peritos oficiais; a nomeação de perito ad hoc é ato privativo do magistrado, sendo vedada à autoridade policial.",
+      "D": "No processo civil, a nomeação deve recair sobre profissionais inscritos no órgão de classe, podendo as partes indicar conjuntamente o nome do perito; no processo penal, basta um único perito ad hoc, com ou sem curso superior, desde que preste compromisso.",
+      "E": "Em ambas as esferas, o exame por perito não oficial exige duas pessoas idôneas com curso superior; a diferença é que, no processo civil, o compromisso é dispensado, e, no penal, é obrigatório."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o Cap. 4 (p. 34-36) afirma que no processo civil não há perito oficial, pois o Estado não oferece esse serviço; pelo art. 434 do CPC, nos exames sobre autenticidade/falsidade de documento ou de natureza médico-legal, o perito será escolhido, de preferência, entre os técnicos dos estabelecimentos oficiais especializados; e, pelo art. 159, §1º, do CPP, na falta de perito oficial o exame será feito por 2 pessoas idôneas, portadoras de diploma de curso superior, nomeadas pela autoridade policial ou judiciária. B) erra: no civil não há órgão oficial, e o ad hoc penal exige curso superior. C) erra: no civil não há perito oficial estatal, e a nomeação do ad hoc também cabe ao delegado de polícia federal. D) erra: o ad hoc penal exige duas pessoas com diploma de curso superior, não basta uma sem curso superior. E) erra ao tratar a perícia cível como exigência de duas pessoas e ao dispensar o compromisso no civil.",
+    "referencia": "Cap. 4, Seções 4.2 e 4.3, p. 34-36",
+    "nivel": "facil"
+  }
+]

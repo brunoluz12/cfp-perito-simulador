@@ -1,0 +1,92 @@
+[
+  {
+    "id": 444,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dois vizinhos mantinham rixa pública e notória, com frequentes brigas e ameaças mútuas testemunhadas por moradores da rua. Certa noite, um deles é encontrado morto por disparos de arma de fogo nas proximidades da casa do outro. Em busca e apreensão na residência do desafeto sobrevivente, é apreendida uma pistola que exames de balística posteriormente confirmam ter sido a arma que efetuou os disparos dos projéteis extraídos do corpo da vítima. À luz do tratamento dado aos indícios no Cap. 7 da Criminalística, assinale a alternativa correta quanto à força probatória desses elementos.",
+    "alternativas": {
+      "A": "A balística positiva, por demonstrar de modo material e tecnicamente inequívoco que a arma apreendida com o suspeito efetuou os disparos contra a vítima, supre por completo a prova da autoria do homicídio, de modo que as ameaças e as brigas anteriores passam a ter valor probatório meramente acessório, secundário e inteiramente dispensável.",
+      "B": "As ameaças e as brigas, por não serem representadas por vestígios materiais palpáveis recolhidos na cena, jamais configuram indícios na exata acepção técnica do art. 239 do CPP, restando como único elemento probatório válido a balística positiva apurada.",
+      "C": "As ameaças e brigas são indícios circunstanciais e a balística prova que a arma efetuou os disparos; ainda assim, a autoria não é plena, pois a arma poderia ter sido subtraída do suspeito.",
+      "D": "Por existir vestígio material (projétil) vinculado pericialmente à arma do suspeito, os indícios circunstanciais decorrentes da rixa entre os vizinhos perdem por completo qualquer valor probatório no caso concreto, em razão da prevalência absoluta da prova técnica sobre a indiciária.",
+      "E": "As ameaças e as brigas constituem prova material plena e direta da autoria do disparo, de modo que a própria perícia balística complementar se torna desnecessária para a formação do convencimento sobre quem efetuou os tiros."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: o Cap. 7 (p. 49) traz textualmente o exemplo da rixa entre vizinhos, classificando as ameaças e brigas como indícios circunstanciais (não são vestígios materiais), e conclui que, mesmo com a balística comprovando que a arma efetuou os disparos, ainda não se prova que o dono efetivamente disparou, pois a arma poderia ter sido subtraída; os indícios de autoria são fortes, mas não definitivos, pois as provas não são plenas. A alternativa A erra ao afirmar que a balística supre a prova da autoria. A alternativa B erra porque o indício pode não ser representado por vestígios materiais (pode ser circunstancial), conforme o art. 239 do CPP e o próprio capítulo. A alternativa D erra ao negar valor aos indícios circunstanciais, que conservam peso probatório por indução lógica. A alternativa E inverte a natureza dos elementos, tratando ameaças/brigas como prova material plena.",
+    "referencia": "Cap. 7, p. 49",
+    "nivel": "medio"
+  },
+  {
+    "id": 445,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da distinção conceitual entre indício e vestígio, com base no art. 239 do CPP e na doutrina apresentada por Malatesta (citado por Rocha, 1999), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Indício é a circunstância conhecida e provada que, tendo relação com o fato, autoriza concluir, por indução, a existência de outras circunstâncias, podendo ou não ter representação em vestígios materiais.",
+      "B": "Indício e vestígio são tratados como sinônimos perfeitos e intercambiáveis no Código de Processo Penal, ambos correspondendo a elementos estritamente materiais coletados na cena do crime e necessariamente dependentes de prévia análise pericial.",
+      "C": "Segundo Malatesta, os indícios merecem a verdadeira apoteose probatória, equiparando-se em todo o seu valor jurídico a uma prova pericial plena e definitiva, razão pela qual prescindem de qualquer confirmação por outros elementos do processo.",
+      "D": "Indício corresponde sempre a um elemento material concreto recolhido na cena do crime, ao passo que vestígio é apenas uma suspeita ainda não comprovada por exame pericial conclusivo realizado em laboratório.",
+      "E": "Vestígio é a circunstância conhecida e provada que autoriza, por indução, concluir-se a existência de outra circunstância, enquanto indício é a marca física bruta deixada no local, independentemente de qualquer análise."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o Cap. 7 (p. 49) reproduz literalmente o art. 239 do CPP e esclarece que o indício é uma suspeita fundamentada extraída por indução, que pode muitas vezes não ser representada por vestígios materiais, podendo decorrer de circunstâncias. A alternativa B erra ao igualar indício e vestígio, pois o próprio capítulo abre apontando a confusão comum entre os termos e os distingue. A alternativa C inverte a citação de Malatesta, que afirmou que os indícios não merecem nem a apoteose nem a excomunhão maior. As alternativas D e E invertem os conceitos de indício (lógico/circunstancial) e vestígio (marca material bruta), trocando suas definições.",
+    "referencia": "Cap. 7, p. 49",
+    "nivel": "facil"
+  },
+  {
+    "id": 446,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito criminal, ao analisar um caso de homicídio, identifica diversas circunstâncias e elementos desfavoráveis a um suspeito. Considerando a afirmação de Rocha (1999) de que o valor do indício está sempre em razão da maior ou menor afinidade de relação que o fato tem com o crime, com o autor, ou com um e outro ao mesmo tempo, e a definição de indício formulada por Malatesta, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Para Malatesta, os indícios devem ser sistematicamente excomungados e banidos do processo penal, pois não passam de meras suposições subjetivas do julgador, sendo o seu valor sempre o mesmo, qualquer que seja a afinidade com o fato.",
+      "B": "Malatesta define o indício como qualquer vestígio material bruto recolhido no local do crime, equiparando-o em força probatória plena à prova pericial, de modo que seu valor é fixo e absolutamente insuscetível de gradação conforme o caso concreto.",
+      "C": "Para Malatesta, o indício deduz o desconhecido do conhecido pela relação de causalidade, e seu valor, segundo Rocha, é variável, tanto maior quanto mais estreita a afinidade do fato com o crime e o autor.",
+      "D": "O valor do indício é fixo e independe por completo da maior ou menor afinidade existente entre o fato e o crime ou o seu respectivo autor, bastando que a circunstância seja conhecida e provada para que tenha desde logo força probatória plena.",
+      "E": "O indício, para Malatesta, deduz o desconhecido do conhecido por mera presunção legal abstrata, e seu valor, conforme Rocha, decresce progressivamente na exata proporção em que aumenta a afinidade do fato com o autor do crime."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: o Cap. 7 (p. 49) traz a citação literal de Malatesta de que o indício é o argumento probatório que deduz o desconhecido do conhecido por meio da relação de causalidade, e a frase de Rocha de que o valor do indício varia conforme a maior ou menor afinidade de relação do fato com o crime, com o autor, ou com ambos. A alternativa A distorce Malatesta (que afirma não merecerem nem apoteose nem excomunhão) e a tese de Rocha. A alternativa B confunde indício com vestígio material e nega a gradação de valor. A alternativa D contraria Rocha ao afirmar valor fixo. A alternativa E erra ao trocar relação de causalidade por presunção legal e ao inverter a relação de Rocha, afirmando que o valor decresce com o aumento da afinidade.",
+    "referencia": "Cap. 7, p. 49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 548,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Há meses, dois vizinhos mantinham rixa pública com frequentes ameaças mútuas, fato amplamente conhecido na vizinhança. Um deles é encontrado morto por disparos de arma de fogo nas proximidades da casa do outro. Posteriormente, apreende-se na residência do desafeto uma arma de fogo de calibre equivalente ao dos projéteis extraídos do corpo da vítima, e exames balísticos confirmam que os disparos partiram daquela arma específica. Sobre a natureza probatória desses elementos, conforme o Cap. 7 (Indícios), é correto afirmar:",
+    "alternativas": {
+      "A": "As ameaças e brigas, embora não sejam vestígios materiais, são indícios circunstanciais; o exame balístico positivo prova que a arma efetuou os disparos, mas não prova que foi o proprietário quem os realizou.",
+      "B": "As ameaças públicas e as brigas constantes entre os vizinhos constituem verdadeiros vestígios circunstanciais, enquanto o exame balístico positivo configura, isoladamente e por si só, prova plena da autoria do disparo pelo dono da arma, dispensando qualquer demonstração da ação concreta do suspeito.",
+      "C": "Por não serem representadas por vestígios materiais recolhidos na cena, as ameaças e brigas públicas não podem jamais ser consideradas indícios para os fins do art. 239 do CPP, devendo ser integralmente desprezadas pelo julgador na formação do seu convencimento motivado.",
+      "D": "O conjunto descrito configura prova direta, material e plena da autoria do crime de homicídio, dispensando por completo quaisquer outras diligências investigativas, em razão da forte afinidade existente entre os elementos coligidos e o fato apurado.",
+      "E": "As ameaças e brigas constituem prova material da motivação, e o exame balístico positivo, por si só e isoladamente, prova materialmente tanto que a arma efetuou os disparos quanto que o proprietário foi o autor, restando apenas formalizar a conclusão final."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o Cap. 7 (pp. 49-50) registra que indícios podem ser representados por vestígios materiais OU por circunstâncias (caso das ameaças e brigas públicas) e conclui que, mesmo com a balística positiva, não se prova que o dono da arma realizou os disparos, pois a arma poderia ter sido subtraída; os indícios de autoria são fortes, mas não definitivos. A alternativa B erra ao classificar ameaças/brigas como vestígios e ao tratar a balística como prova plena de autoria. A alternativa C contraria o art. 239 do CPP e o capítulo, pois o indício pode ser circunstancial e conserva valor probatório. As alternativas D e E erram ao afirmar prova plena e direta da autoria, ignorando que a prova da ação do suspeito ainda é necessária.",
+    "referencia": "Cap. 7, p. 7",
+    "nivel": "medio"
+  },
+  {
+    "id": 549,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir, com base no Cap. 7 (Indícios) e no art. 239 do CPP. I) Indício é a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias. II) Segundo Malatesta, indício é o argumento probatório que deduz o desconhecido do conhecido por meio da relação de causalidade, não merecendo a apoteose, mas também não merecendo a excomunhão maior. III) Os termos indício e vestígio são sinônimos no Código de Processo Penal, sendo ambos definidos como elementos materiais relacionados à infração penal. IV) O valor do indício está sempre em razão da maior ou menor afinidade de relação que tem o fato com o crime, com o seu autor, ou com um e outro ao mesmo tempo. Assinale a alternativa que indica todos os itens corretos.",
+    "alternativas": {
+      "A": "Apenas os itens II e III.",
+      "B": "Apenas I e IV.",
+      "C": "Apenas I, II e IV.",
+      "D": "Os itens I, II, III e IV.",
+      "E": "Apenas os itens II, III e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C (apenas I, II e IV). Item I correto: reproduz o art. 239 do CPP (p. 49). Item II correto: reúne a definição de indício por Malatesta e a advertência de que não merecem nem a apoteose nem a excomunhão maior (p. 49). Item IV correto: corresponde à citação de Rocha (1999) sobre a variação do valor do indício conforme a afinidade de relação (p. 49). Item III incorreto: o próprio Cap. 7 abre apontando ser comum a confusão entre indício e vestígio e os distingue, sendo que o indício pode não ser representado por vestígios materiais (pode ser circunstancial). Por isso, as alternativas A, D e E, que incluem o item III, estão erradas, e a alternativa B erra ao excluir o item II, que é correto.",
+    "referencia": "Cap. 7, p. 49",
+    "nivel": "dificil"
+  }
+]
