@@ -245,10 +245,39 @@ function abrirModalNovoCard() {
     document.getElementById('fc-form-card').reset();
     document.getElementById('fc-card-id').value = '';
     
-    // Preencher datalist com decks existentes
-    const decks = [...new Set(flashcards.map(c => c.deck))].sort();
-    const datalist = document.getElementById('fc-decks-list');
-    datalist.innerHTML = decks.map(d => `<option value="${d}">`).join('');
+    // Obter disciplinas do banco de questões (global app.js) e decks existentes
+    let disciplinas = [];
+    if (typeof bancoQuestoes !== 'undefined') {
+        disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))];
+    }
+    const existingDecks = flashcards.map(c => c.deck);
+    
+    // Unir todas as opções únicas e ordenar
+    const options = [...new Set([...disciplinas, ...existingDecks])].filter(Boolean).sort();
+    
+    const select = document.getElementById('fc-input-deck-select');
+    select.innerHTML = '<option value="" disabled selected>Selecione um baralho...</option>';
+    
+    options.forEach(opt => {
+        select.innerHTML += `<option value="${opt}">${opt}</option>`;
+    });
+    
+    select.innerHTML += '<option value="custom">+ Novo Baralho Personalizado...</option>';
+    
+    fcToggleCustomDeck(); // Reseta a visibilidade
+}
+
+function fcToggleCustomDeck() {
+    const select = document.getElementById('fc-input-deck-select');
+    const customInput = document.getElementById('fc-input-deck-custom');
+    
+    if (select.value === 'custom') {
+        customInput.style.display = 'block';
+        customInput.setAttribute('required', 'true');
+    } else {
+        customInput.style.display = 'none';
+        customInput.removeAttribute('required');
+    }
 }
 
 function fecharModalCard() {
@@ -258,7 +287,20 @@ function fecharModalCard() {
 function salvarFormCard(e) {
     e.preventDefault();
     const id = document.getElementById('fc-card-id').value;
-    const deck = document.getElementById('fc-input-deck').value;
+    
+    const selectValue = document.getElementById('fc-input-deck-select').value;
+    const customValue = document.getElementById('fc-input-deck-custom').value;
+    
+    let deck = selectValue;
+    if (selectValue === 'custom') {
+        deck = customValue;
+    }
+    
+    if (!deck) {
+        alert("Por favor, selecione ou digite um nome para o baralho.");
+        return;
+    }
+    
     const front = document.getElementById('fc-input-front').value;
     const back = document.getElementById('fc-input-back').value;
     

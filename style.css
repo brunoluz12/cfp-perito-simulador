@@ -3929,3 +3929,85 @@ html.dark-mode .fc-badge.total { color: #9ca3af; }
 .fc-btn-good { background: #10b981; color: white; }
 .fc-btn-easy { background: #3b82f6; color: white; }
 
+
+/* ==========================================
+   FLASH CARDS - FORM PREMIUM
+   ========================================== */
+.fc-premium-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.fc-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fc-form-group label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.fc-form-group label i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.fc-premium-input,
+.fc-premium-textarea {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 1rem;
+    color: var(--text-main);
+    transition: all 0.3s ease;
+    font-family: inherit;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.fc-premium-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.fc-premium-input:focus,
+.fc-premium-textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.05);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+html.dark-mode .fc-premium-input,
+html.dark-mode .fc-premium-textarea {
+    background: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+html.dark-mode .fc-premium-input:focus,
+html.dark-mode .fc-premium-textarea:focus {
+    background: rgba(15, 23, 42, 0.9);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.fc-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+

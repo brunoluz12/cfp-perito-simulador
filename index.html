@@ -601,24 +601,26 @@
     <div id="fc-modal-card" class="modal-overlay">
         <div class="modal-content glass-panel" style="max-width: 600px;">
             <h3>Criar / Editar Card</h3>
-            <form id="fc-form-card">
+            <form id="fc-form-card" class="fc-premium-form">
                 <input type="hidden" id="fc-card-id">
-                <div class="form-group">
-                    <label>Baralho (Deck)</label>
-                    <input type="text" id="fc-input-deck" class="custom-input-text" list="fc-decks-list" placeholder="Ex: Criminalística" required>
-                    <datalist id="fc-decks-list"></datalist>
+                <div class="fc-form-group">
+                    <label><i class="ph ph-books"></i> Baralho (Disciplina / Tema)</label>
+                    <select id="fc-input-deck-select" class="fc-premium-input" onchange="fcToggleCustomDeck()">
+                        <!-- Opções preenchidas via JS -->
+                    </select>
+                    <input type="text" id="fc-input-deck-custom" class="fc-premium-input" placeholder="Digite o nome do novo baralho..." style="display:none; margin-top: 10px;">
                 </div>
-                <div class="form-group">
-                    <label>Frente (Pergunta / Conceito)</label>
-                    <textarea id="fc-input-front" class="custom-input-text" rows="3" required></textarea>
+                <div class="fc-form-group">
+                    <label><i class="ph ph-question"></i> Frente (Pergunta / Conceito)</label>
+                    <textarea id="fc-input-front" class="fc-premium-textarea" rows="3" placeholder="Ex: O que significa local idôneo?" required></textarea>
                 </div>
-                <div class="form-group">
-                    <label>Verso (Resposta / Explicação)</label>
-                    <textarea id="fc-input-back" class="custom-input-text" rows="5" required></textarea>
+                <div class="fc-form-group">
+                    <label><i class="ph ph-lightbulb"></i> Verso (Resposta / Explicação)</label>
+                    <textarea id="fc-input-back" class="fc-premium-textarea" rows="4" placeholder="Ex: É o local de crime que não sofreu alterações..." required></textarea>
                 </div>
-                <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:20px;">
+                <div class="fc-form-actions">
                     <button type="button" class="btn-secondary" onclick="fecharModalCard()">Cancelar</button>
-                    <button type="submit" class="btn-primary">Salvar Card</button>
+                    <button type="submit" class="btn-primary"><i class="ph ph-check-circle"></i> Salvar Card</button>
                 </div>
             </form>
         </div>
