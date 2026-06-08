@@ -44,6 +44,7 @@ const views = {
     'material-view': document.getElementById('material-view'),
     'agenda-view': document.getElementById('agenda-view'),
     'psico-view': document.getElementById('psico-view'),
+    'flashcards-view': document.getElementById('flashcards-view'),
     'admin-view': document.getElementById('admin-view')
 };
 
@@ -132,6 +133,7 @@ async function tryLogin(username) {
         localStorage.removeItem('pcpr_course_progress');
         localStorage.removeItem('pcpr_agenda_aplicada');
         localStorage.removeItem('pcpr_material_studied');
+        localStorage.removeItem('pcpr_flashcards');
     }
     
     // Carregar dados da nuvem
@@ -149,6 +151,10 @@ async function tryLogin(username) {
                 if (result.data.progresso) localStorage.setItem('pcpr_course_progress', JSON.stringify(result.data.progresso));
                 if (result.data.agendaAplicada) localStorage.setItem('pcpr_agenda_aplicada', JSON.stringify(result.data.agendaAplicada));
                 if (result.data.materialEstudado) localStorage.setItem('pcpr_material_studied', JSON.stringify(result.data.materialEstudado));
+                if (result.data.flashcards) {
+                    localStorage.setItem('pcpr_flashcards', JSON.stringify(result.data.flashcards));
+                    if (typeof loadFlashcards === 'function') loadFlashcards();
+                }
             }
         }
     } catch (e) {
@@ -194,7 +200,8 @@ function requestCloudSync() {
             historico: historicoQuestoes,
             progresso: progressoCurso,
             agendaAplicada: agendaAplicada,
-            materialEstudado: materialEstudado
+            materialEstudado: materialEstudado,
+            flashcards: (typeof flashcards !== 'undefined' ? flashcards : [])
         };
         
         try {
@@ -1708,6 +1715,7 @@ function switchMainTab(tabName) {
     const tabMaterial = document.getElementById('tab-material');
     const tabAgenda = document.getElementById('tab-agenda');
     const tabPsico = document.getElementById('tab-psico');
+    const tabFlashcards = document.getElementById('tab-flashcards');
     const tabAdmin = document.getElementById('tab-admin');
     
     if (tabSimulador) tabSimulador.classList.remove('active');
@@ -1715,6 +1723,7 @@ function switchMainTab(tabName) {
     if (tabMaterial) tabMaterial.classList.remove('active');
     if (tabAgenda) tabAgenda.classList.remove('active');
     if (tabPsico) tabPsico.classList.remove('active');
+    if (tabFlashcards) tabFlashcards.classList.remove('active');
     if (tabAdmin) tabAdmin.classList.remove('active');
     
     if (tabName === 'simulador') {
@@ -1732,6 +1741,10 @@ function switchMainTab(tabName) {
     } else if (tabName === 'psico') {
         if (tabPsico) tabPsico.classList.add('active');
         showView('psico-view');
+    } else if (tabName === 'flashcards') {
+        if (tabFlashcards) tabFlashcards.classList.add('active');
+        showView('flashcards-view');
+        if (typeof renderFlashcardDashboard === 'function') renderFlashcardDashboard();
     } else if (tabName === 'admin') {
         if (tabAdmin) tabAdmin.classList.add('active');
         showView('admin-view');

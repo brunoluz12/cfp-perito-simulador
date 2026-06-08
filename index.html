@@ -50,6 +50,8 @@
                 <span class="tab-divider">|</span>
                 <h1 id="tab-psico" class="tab-link" onclick="switchMainTab('psico')"><i class="ph ph-brain"></i> Testes</h1>
                 <span class="tab-divider">|</span>
+                <h1 id="tab-flashcards" class="tab-link" onclick="switchMainTab('flashcards')"><i class="ph ph-cards"></i> Flash Cards</h1>
+                <span class="tab-divider">|</span>
                 <h1 id="tab-controle" class="tab-link" onclick="switchMainTab('controle')">Controle</h1>
                 <span id="admin-tab-divider" class="tab-divider" style="display: none;">|</span>
                 <h1 id="tab-admin" class="tab-link" onclick="switchMainTab('admin')" style="display: none;"><i class="ph ph-shield-star"></i> Admin <span id="admin-pending-badge" class="admin-badge" style="display: none;">0</span></h1>
@@ -452,6 +454,78 @@
             <div id="psico-test-container" class="mt-4"></div>
         </main>
 
+        <!-- VIEW FLASH CARDS -->
+        <main id="flashcards-view" class="view">
+            <div class="flashcards-container">
+                <div id="fc-dashboard-area">
+                    <div class="fc-header">
+                        <h2><i class="ph ph-cards"></i> Meus Baralhos</h2>
+                        <div class="fc-header-actions">
+                            <button class="btn-primary" onclick="abrirModalNovoCard()"><i class="ph ph-plus"></i> Novo Card</button>
+                            <button class="btn-secondary" onclick="acionarImportacao()"><i class="ph ph-download-simple"></i> Importar JSON</button>
+                            <input type="file" id="fc-file-import" accept=".json" style="display:none;">
+                        </div>
+                    </div>
+                    
+                    <div class="fc-summary-box glass-panel">
+                        <div class="fc-summary-stat">
+                            <span id="fc-total-pendentes" class="fc-stat-number">0</span>
+                            <span class="fc-stat-label">Cards para revisar hoje</span>
+                        </div>
+                        <button id="fc-btn-iniciar-tudo" class="btn-primary btn-lg" onclick="iniciarRevisao(null)">Revisar Todos</button>
+                    </div>
+
+                    <div class="fc-decks-table-container glass-panel">
+                        <table class="fc-decks-table">
+                            <thead>
+                                <tr>
+                                    <th>Baralho</th>
+                                    <th>Novos</th>
+                                    <th>A Revisar</th>
+                                    <th>Total</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="fc-deck-list">
+                                <!-- Preenchido via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="fc-review-area" style="display:none;" class="glass-panel">
+                    <div class="fc-review-header">
+                        <h3 id="fc-review-deck-name">Nome do Baralho</h3>
+                        <span id="fc-review-progress">0 / 0</span>
+                        <button class="btn-secondary btn-sm" onclick="encerrarRevisao()"><i class="ph ph-x"></i> Sair</button>
+                    </div>
+
+                    <div class="fc-card-container" onclick="virarCard()">
+                        <div id="fc-active-card" class="fc-card">
+                            <div class="fc-card-face fc-card-front">
+                                <div class="fc-card-content" id="fc-card-front-content"></div>
+                                <div class="fc-card-hint"><i class="ph ph-hand-tap"></i> Toque para revelar</div>
+                            </div>
+                            <div class="fc-card-face fc-card-back">
+                                <div class="fc-card-content" id="fc-card-back-content"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fc-review-controls">
+                        <button id="fc-show-answer-btn" class="btn-primary btn-lg" onclick="virarCard()">Mostrar Resposta</button>
+                        
+                        <div id="fc-review-actions" style="display:none;">
+                            <button class="fc-btn fc-btn-again" onclick="responderCard(1)">Errei<br><small>&lt; 1 min</small></button>
+                            <button class="fc-btn fc-btn-hard" onclick="responderCard(2)">Difícil</button>
+                            <button class="fc-btn fc-btn-good" onclick="responderCard(3)">Bom</button>
+                            <button class="fc-btn fc-btn-easy" onclick="responderCard(4)">Fácil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
         <!-- TELA DE ADMIN -->
         <main id="admin-view" class="view">
             <div class="glass-panel admin-panel">
@@ -523,8 +597,36 @@
         </div>
     </div>
 
+    <!-- MODAIS FLASHCARDS -->
+    <div id="fc-modal-card" class="modal-overlay">
+        <div class="modal-content glass-panel" style="max-width: 600px;">
+            <h3>Criar / Editar Card</h3>
+            <form id="fc-form-card">
+                <input type="hidden" id="fc-card-id">
+                <div class="form-group">
+                    <label>Baralho (Deck)</label>
+                    <input type="text" id="fc-input-deck" class="custom-input-text" list="fc-decks-list" placeholder="Ex: Criminalística" required>
+                    <datalist id="fc-decks-list"></datalist>
+                </div>
+                <div class="form-group">
+                    <label>Frente (Pergunta / Conceito)</label>
+                    <textarea id="fc-input-front" class="custom-input-text" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Verso (Resposta / Explicação)</label>
+                    <textarea id="fc-input-back" class="custom-input-text" rows="5" required></textarea>
+                </div>
+                <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:20px;">
+                    <button type="button" class="btn-secondary" onclick="fecharModalCard()">Cancelar</button>
+                    <button type="submit" class="btn-primary">Salvar Card</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=25"></script>
+    <script src="flashcards.js?v=1"></script>
     <script src="app.js?v=27"></script>
     <script src="pfister.js?v=1"></script>
 </body>

@@ -1,0 +1,351 @@
+// flashcards.js - Lógica de Flash Cards (Sistema de Repetição Espaçada)
+
+let flashcards = [];
+// Formato do card:
+// { id: string, deck: string, front: string, back: string, created: timestamp, interval: number, ease: number, due: timestamp, reviews: number, lapses: number }
+
+let currentReviewSession = [];
+let currentCardIndex = 0;
+let isCardFlipped = false;
+let currentDeckFilter = null;
+
+// Carregar flashcards
+function loadFlashcards() {
+    const saved = localStorage.getItem('pcpr_flashcards');
+    if (saved) {
+        try {
+            flashcards = JSON.parse(saved);
+        } catch (e) {
+            console.error("Erro ao carregar flashcards:", e);
+            flashcards = [];
+        }
+    }
+}
+
+// Salvar flashcards
+function saveFlashcards() {
+    localStorage.setItem('pcpr_flashcards', JSON.stringify(flashcards));
+    if (typeof requestCloudSync === 'function') {
+        requestCloudSync();
+    }
+}
+
+// Criar um novo card
+function criarCard(deck, front, back) {
+    const newCard = {
+        id: "fc_" + Date.now() + "_" + Math.floor(Math.random() * 1000),
+        deck: deck.trim() || "Geral",
+        front: front,
+        back: back,
+        created: Date.now(),
+        interval: 0,
+        ease: 2.5,
+        due: Date.now(),
+        reviews: 0,
+        lapses: 0
+    };
+    flashcards.push(newCard);
+    saveFlashcards();
+    renderFlashcardDashboard();
+}
+
+// Editar card
+function editarCard(id, deck, front, back) {
+    const card = flashcards.find(c => c.id === id);
+    if (card) {
+        card.deck = deck.trim() || "Geral";
+        card.front = front;
+        card.back = back;
+        saveFlashcards();
+        renderFlashcardDashboard();
+    }
+}
+
+// Excluir card
+function excluirCard(id) {
+    flashcards = flashcards.filter(c => c.id !== id);
+    saveFlashcards();
+    renderFlashcardDashboard();
+}
+
+// Obter cards pendentes
+function getCardsPendentes(deckFilter = null) {
+    const now = Date.now();
+    return flashcards.filter(c => {
+        if (deckFilter && c.deck !== deckFilter) return false;
+        return c.due <= now;
+    });
+}
+
+// Estatísticas por baralho
+function getDeckStats() {
+    const stats = {};
+    const now = Date.now();
+
+    flashcards.forEach(c => {
+        if (!stats[c.deck]) {
+            stats[c.deck] = { total: 0, new: 0, due: 0 };
+        }
+        stats[c.deck].total++;
+        if (c.reviews === 0) stats[c.deck].new++;
+        else if (c.due <= now) stats[c.deck].due++;
+    });
+
+    return Object.keys(stats).sort().map(deck => ({
+        deck: deck,
+        ...stats[deck]
+    }));
+}
+
+// Iniciar Revisão
+function iniciarRevisao(deckFilter = null) {
+    currentDeckFilter = deckFilter;
+    currentReviewSession = getCardsPendentes(deckFilter);
+    
+    // Shuffle cards
+    for (let i = currentReviewSession.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [currentReviewSession[i], currentReviewSession[j]] = [currentReviewSession[j], currentReviewSession[i]];
+    }
+
+    if (currentReviewSession.length === 0) {
+        alert("Não há cards pendentes para revisão agora!");
+        return;
+    }
+
+    currentCardIndex = 0;
+    
+    document.getElementById('fc-dashboard-area').style.display = 'none';
+    document.getElementById('fc-review-area').style.display = 'block';
+    
+    mostrarCardAtual();
+}
+
+function mostrarCardAtual() {
+    if (currentCardIndex >= currentReviewSession.length) {
+        encerrarRevisao();
+        return;
+    }
+
+    const card = currentReviewSession[currentCardIndex];
+    document.getElementById('fc-review-deck-name').textContent = card.deck;
+    document.getElementById('fc-review-progress').textContent = `${currentCardIndex + 1} / ${currentReviewSession.length}`;
+    
+    document.getElementById('fc-card-front-content').innerHTML = formatText(card.front);
+    document.getElementById('fc-card-back-content').innerHTML = formatText(card.back);
+    
+    const cardElement = document.getElementById('fc-active-card');
+    cardElement.classList.remove('flipped');
+    isCardFlipped = false;
+    
+    document.getElementById('fc-review-actions').style.display = 'none';
+    document.getElementById('fc-show-answer-btn').style.display = 'block';
+}
+
+function virarCard() {
+    if (isCardFlipped) return;
+    document.getElementById('fc-active-card').classList.add('flipped');
+    isCardFlipped = true;
+    document.getElementById('fc-show-answer-btn').style.display = 'none';
+    document.getElementById('fc-review-actions').style.display = 'flex';
+}
+
+function responderCard(quality) {
+    const card = currentReviewSession[currentCardIndex];
+    const now = Date.now();
+    const dayMs = 24 * 60 * 60 * 1000;
+    
+    // Algoritmo SRS simplificado
+    // qualities: 1=Errei, 2=Difícil, 3=Bom, 4=Fácil
+    
+    if (quality === 1) { // Errei
+        card.lapses++;
+        card.interval = 0; // Volta para 0 dias
+        card.ease = Math.max(1.3, card.ease - 0.2);
+        card.due = now + (1 * 60 * 1000); // Revisa em 1 minuto (final da sessão)
+        // Adiciona ao final da sessão para revisar de novo
+        currentReviewSession.push(card);
+    } else {
+        if (card.reviews === 0 || card.interval === 0) {
+            // Primeiro acerto ou recuperação
+            if (quality === 2) card.interval = 1;
+            else if (quality === 3) card.interval = 3;
+            else if (quality === 4) card.interval = 5;
+        } else {
+            if (quality === 2) {
+                card.interval = card.interval * 1.2;
+                card.ease = Math.max(1.3, card.ease - 0.15);
+            } else if (quality === 3) {
+                card.interval = (card.interval * card.ease);
+            } else if (quality === 4) {
+                card.interval = (card.interval * card.ease * 1.3);
+                card.ease += 0.15;
+            }
+        }
+        card.due = now + (card.interval * dayMs);
+    }
+    
+    card.reviews++;
+    saveFlashcards();
+    
+    currentCardIndex++;
+    mostrarCardAtual();
+}
+
+function encerrarRevisao() {
+    document.getElementById('fc-review-area').style.display = 'none';
+    document.getElementById('fc-dashboard-area').style.display = 'block';
+    renderFlashcardDashboard();
+}
+
+// UI Functions
+
+function renderFlashcardDashboard() {
+    const stats = getDeckStats();
+    let totalPendentes = 0;
+    let totalNovos = 0;
+    
+    const deckList = document.getElementById('fc-deck-list');
+    deckList.innerHTML = '';
+    
+    if (stats.length === 0) {
+        deckList.innerHTML = '<p style="color:var(--text-muted); padding:20px; text-align:center;">Nenhum baralho criado. Clique em "Novo Card" para começar!</p>';
+    } else {
+        stats.forEach(s => {
+            totalPendentes += s.due;
+            totalNovos += s.new;
+            
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${s.deck}</td>
+                <td><span class="fc-badge new">${s.new}</span></td>
+                <td><span class="fc-badge due">${s.due}</span></td>
+                <td><span class="fc-badge total">${s.total}</span></td>
+                <td>
+                    <button class="btn-primary btn-sm" onclick="iniciarRevisao('${s.deck}')" ${(s.due + s.new) === 0 ? 'disabled' : ''}>Revisar</button>
+                    <button class="btn-secondary btn-sm" onclick="exportarDeck('${s.deck}')" title="Exportar JSON"><i class="ph ph-export"></i></button>
+                    <button class="btn-danger btn-sm" onclick="excluirDeck('${s.deck}')" title="Excluir Baralho"><i class="ph ph-trash"></i></button>
+                </td>
+            `;
+            deckList.appendChild(tr);
+        });
+    }
+    
+    document.getElementById('fc-total-pendentes').textContent = totalPendentes + totalNovos;
+    document.getElementById('fc-btn-iniciar-tudo').disabled = (totalPendentes + totalNovos) === 0;
+}
+
+function abrirModalNovoCard() {
+    document.getElementById('fc-modal-card').classList.add('active');
+    document.getElementById('fc-form-card').reset();
+    document.getElementById('fc-card-id').value = '';
+    
+    // Preencher datalist com decks existentes
+    const decks = [...new Set(flashcards.map(c => c.deck))].sort();
+    const datalist = document.getElementById('fc-decks-list');
+    datalist.innerHTML = decks.map(d => `<option value="${d}">`).join('');
+}
+
+function fecharModalCard() {
+    document.getElementById('fc-modal-card').classList.remove('active');
+}
+
+function salvarFormCard(e) {
+    e.preventDefault();
+    const id = document.getElementById('fc-card-id').value;
+    const deck = document.getElementById('fc-input-deck').value;
+    const front = document.getElementById('fc-input-front').value;
+    const back = document.getElementById('fc-input-back').value;
+    
+    if (id) {
+        editarCard(id, deck, front, back);
+    } else {
+        criarCard(deck, front, back);
+    }
+    
+    fecharModalCard();
+}
+
+function excluirDeck(deck) {
+    if (confirm(`Tem certeza que deseja excluir o baralho "${deck}" e todos os seus cards?`)) {
+        flashcards = flashcards.filter(c => c.deck !== deck);
+        saveFlashcards();
+        renderFlashcardDashboard();
+    }
+}
+
+// Exportar e Importar
+function exportarDeck(deck) {
+    const cards = deck ? flashcards.filter(c => c.deck === deck) : flashcards;
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(cards));
+    const downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", `flashcards_${deck || 'todos'}.json`);
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+}
+
+function acionarImportacao() {
+    document.getElementById('fc-file-import').click();
+}
+
+function importarDecks(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        try {
+            const importedCards = JSON.parse(event.target.result);
+            if (!Array.isArray(importedCards)) throw new Error("Formato inválido");
+            
+            // Reatribuir IDs para evitar colisão e resetar stats de repetição (opcional)
+            let importedCount = 0;
+            importedCards.forEach(c => {
+                if (c.front && c.back) {
+                    flashcards.push({
+                        id: "fc_" + Date.now() + "_" + Math.floor(Math.random() * 10000),
+                        deck: c.deck || "Importados",
+                        front: c.front,
+                        back: c.back,
+                        created: Date.now(),
+                        interval: 0,
+                        ease: 2.5,
+                        due: Date.now(),
+                        reviews: 0,
+                        lapses: 0
+                    });
+                    importedCount++;
+                }
+            });
+            
+            saveFlashcards();
+            renderFlashcardDashboard();
+            alert(`${importedCount} flashcards importados com sucesso!`);
+        } catch (error) {
+            alert("Erro ao importar arquivo. Certifique-se de que é um JSON válido exportado deste aplicativo.");
+        }
+        e.target.value = ''; // Reset file input
+    };
+    reader.readAsText(file);
+}
+
+// Utils
+function formatText(text) {
+    if (!text) return '';
+    // Simples formatação: quebras de linha
+    let html = text.replace(/\n/g, '<br>');
+    // Negrito simples **texto**
+    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    // Itálico simples *texto*
+    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    return html;
+}
+
+// Inicialização
+document.addEventListener('DOMContentLoaded', () => {
+    loadFlashcards();
+    document.getElementById('fc-form-card').addEventListener('submit', salvarFormCard);
+    document.getElementById('fc-file-import').addEventListener('change', importarDecks);
+});

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 585,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 5 - Conjunto ampliado de características identificadoras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em exame de veículo suspeito de remontagem após sinistro, o perito constata VIN e placa aparentemente regulares, porém observa marcação no para-brisa com fabricante distinto do esperado e ano de produção incompatível, etiqueta do cinto de segurança com data muito anterior à do veículo declarado e código impresso na bomba d'água divergente do lote característico do modelo. Conforme o capítulo 5, qual é a conclusão tecnicamente correta sobre o valor pericial dessas informações?",
+    "alternativas": {
+      "A": "Por se referirem a peças de reposição usuais, tais marcações não comprovam adulteração e, isoladamente, somente indicam manutenção corretiva, não devendo integrar a fundamentação do laudo.",
+      "B": "As marcações em vidros e as etiquetas de cintos têm valor pericial, mas o código da bomba d'água é irrelevante, por não estar relacionado a lotes ou a períodos específicos de produção.",
+      "C": "Marcações em vidros, etiquetas de cintos e códigos de bombas d'água atuam como marcadores temporais, e a convergência ou divergência dessas informações auxilia na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais.",
+      "D": "Esses elementos têm valor meramente acessório e jamais fundamentam conclusão pericial, pois apenas o VIN e a placa possuem validade jurídica para a identificação do veículo perante os sistemas administrativos.",
+      "E": "A análise desses elementos é vedada ao perito criminal, devendo ser realizada exclusivamente pelo fabricante, mediante requisição judicial e perícia complementar de natureza técnica especializada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o capítulo 5 afirma que vidros apresentam marcações com fabricante e ano de produção e cintos trazem etiquetas com data de fabricação, e que 'a convergência ou divergência dessas informações pode auxiliar na identificação do período de fabricação do veículo e na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais', incluindo códigos de bombas d'água como marcadores temporais. A erra ao negar valor probatório a tais marcações, que o material reconhece como úteis na detecção de adulterações. B erra ao excluir a bomba d'água, expressamente citada entre os componentes vinculados a lotes e períodos de produção. D erra ao reduzi-los a valor acessório, pois o material lhes atribui valor pericial de corroboração. E erra porque o material insere essa análise no trabalho do perito, sem qualquer vedação ou exclusividade do fabricante.",
+    "referencia": "Cap. 5, p. 19-20",
+    "nivel": "medio"
+  },
+  {
+    "id": 586,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 5 - Conjunto ampliado de características identificadoras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conjunto ampliado de características identificadoras do veículo, conforme o capítulo 5 do material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Como o VIN e a placa são, em tese, suficientes para individualizar o veículo e raramente são objeto de fraude na prática, o exame pericial pode legitimamente limitar-se à conferência desses dois identificadores principais.",
+      "B": "Os identificadores secundários e terciários, como os códigos próprios de motores, caixas de câmbio, eixos, cabines e carrocerias, substituem o VIN para fins de identificação oficial do veículo nos sistemas administrativos.",
+      "C": "As características externas, como tipo de carroceria, número de portas, formato de lanternas e detalhes cromados, são irrelevantes para a identificação, devendo o perito desprezá-las e concentrar-se exclusivamente nos elementos mecânicos.",
+      "D": "Em tese o chassi e a placa individualizam o veículo, mas a recorrência de fraudes impõe a análise integrada de características externas, internas, mecânicas e documentais, sendo os identificadores secundários e terciários elementos de corroboração que verificam coerência temporal e indícios de substituição.",
+      "E": "As características construtivas e funcionais, como suspensão, freios e motorização, não seguem padrão definido pelo fabricante e variam livremente entre unidades de um mesmo modelo, razão pela qual não auxiliam na confirmação de compatibilidade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: o capítulo 5 afirma que, 'embora a numeração de chassi e a placa sejam, em tese, suficientes para individualizar um veículo, a realidade prática demonstra a recorrência de fraudes nesses dois elementos', impondo a 'análise integrada de características externas, internas, mecânicas e documentais', e descreve os identificadores secundários e terciários como 'elementos de corroboração' que verificam coerência temporal e indícios de substituição. A erra ao afirmar raridade de fraudes e ao autorizar o exame limitado aos dois identificadores principais, contrariando o ponto crítico do material. B erra porque os códigos secundários/terciários 'não substituem o VIN'. C erra porque as características externas são o primeiro nível de observação pericial e podem revelar incompatibilidades. E erra porque tais características possuem 'padrão definido pelo fabricante' e seguem lógica de produção vinculada a modelos e versões.",
+    "referencia": "Cap. 5, p. 19-20",
+    "nivel": "dificil"
+  },
+  {
+    "id": 655,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 5 - Conjunto ampliado de características identificadoras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de veículo suspeito de remontagem após sinistro de grande monta, o perito constata VIN e placa aparentemente regulares, mas identifica, em componentes auxiliares, etiquetas de cintos com data divergente, marcações em vidros com ano de fabricação inconsistente e módulos eletrônicos pertencentes a outra série produtiva. Considerando o tratamento dado pelo capítulo 5 ao conjunto ampliado de características identificadoras, julgue os itens: I - Embora a numeração de chassi e a placa sejam, em tese, suficientes para individualizar um veículo, a realidade prática demonstra a recorrência de fraudes nesses dois elementos, razão pela qual o trabalho pericial não pode se limitar a esses identificadores principais. II - A análise integrada de características externas, internas, mecânicas e documentais permite ao perito construir compreensão mais robusta da identidade do veículo, reduzindo o risco de conclusões equivocadas baseadas em sinais isolados. III - Os códigos presentes em vidros, cintos de segurança, airbags e módulos eletrônicos não possuem valor pericial autônomo, servindo apenas como elementos decorativos sem utilidade para a identificação. IV - Itens raramente atacados em adulterações, como números de bombas injetoras, códigos de bombas d'água, etiquetas de radiadores, centrais eletrônicas e componentes de ar-condicionado, podem revelar o verdadeiro histórico do veículo, funcionando como marcadores temporais valiosos vinculados a lotes e períodos de produção. V - A correta análise das características identificadoras complementares exige do perito apenas conhecimento sobre o VIN e a placa, dispensando familiaridade com processos industriais, catálogos de fabricantes e bases de dados especializadas. Estão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I, IV e V, pois apenas esses três descrevem corretamente o tratamento conferido pelo material aos identificadores complementares e às limitações do exame.",
+      "B": "II, III e V, dado que a análise integrada apenas complementa a conferência principal e dispensa o estudo dos processos industriais de fabricação.",
+      "C": "I, II e IV.",
+      "D": "III, IV e V, uma vez que os códigos em vidros e cintos têm caráter decorativo e o exame se restringe ao VIN e à placa do veículo.",
+      "E": "I, III e IV, porque os módulos eletrônicos e os componentes auxiliares apenas decoram o veículo e não servem de marcadores temporais úteis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C (I, II e IV): o capítulo 5 confirma o item I ('recorrência de fraudes' no chassi e na placa, vedando o exame limitado), o item II ('análise integrada de características externas, internas, mecânicas e documentais... reduzindo o risco de conclusões equivocadas baseadas em sinais isolados') e o item IV ('números de bombas injetoras, códigos impressos em bombas d'água, etiquetas de radiadores, centrais eletrônicas, transmissões e até componentes do sistema de ar-condicionado... funcionando como marcadores temporais valiosos'). O item III é falso, pois o material afirma que 'os códigos presentes em vidros, cintos de segurança, airbags, módulos eletrônicos e componentes auxiliares também possuem valor pericial'. O item V é falso, pois a obra exige do perito familiaridade com 'processos industriais, catálogos de fabricantes, manuais técnicos e bases de dados especializadas'. Logo, erram A, B, D e E, por incluírem III e/ou V.",
+    "referencia": "Cap. 5, p. 19-20",
+    "nivel": "dificil"
+  },
+  {
+    "id": 656,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 5 - Conjunto ampliado de características identificadoras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em aula prática, o instrutor descreve numerações, códigos e etiquetas apostas em motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias, sob a forma de códigos próprios de fabricação, gravações seriadas, etiquetas metálicas ou autocolantes e marcações internas que auxiliam na rastreabilidade do veículo, embora não substituam o VIN. Conforme o material, esses elementos são tecnicamente designados como:",
+    "alternativas": {
+      "A": "identificadores secundários e terciários, que funcionam como elementos de corroboração, permitindo verificar coerência temporal e indícios de substituição de peças.",
+      "B": "sinais identificadores únicos e exclusivos, equivalentes ao VIN para todos os efeitos jurídicos e administrativos, prevalecendo sobre o chassi sempre que houver divergência entre eles.",
+      "C": "marcadores temporais complementares, assim entendidos os componentes raramente adulterados, como bombas injetoras, radiadores e sistemas de ar-condicionado, vinculados a lotes e períodos de produção.",
+      "D": "identificadores ostensivos primários, vinculados exclusivamente à identificação externa do veículo por meio das placas e das inscrições visíveis na carroceria do automóvel.",
+      "E": "características externas de primeiro nível de observação pericial, tais como marca, modelo, cor, tipo de carroceria, faróis e rodas, comparáveis ao ano de fabricação declarado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o capítulo 5 afirma que 'um papel relevante é desempenhado pelos identificadores secundários e terciários, constituídos por numerações, códigos e etiquetas apostas em diversos componentes' (motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias) e que, 'embora esses códigos não substituam o VIN, eles funcionam como elementos de corroboração, permitindo verificar coerência temporal, compatibilidade entre conjuntos mecânicos e indícios de substituição ou reaproveitamento de peças'. B erra porque tais códigos não substituem nem equivalem ao VIN. C erra porque os marcadores temporais complementares são outra categoria (bombas, radiadores, centrais, ar-condicionado), não os componentes descritos no enunciado. D erra porque identificadores primários são VIN e placas, e não os códigos de componentes mecânicos. E erra porque as características externas são grupo distinto, de primeiro nível de observação, e não os identificadores secundários e terciários.",
+    "referencia": "Cap. 5, p. 19",
+    "nivel": "medio"
+  }
+]

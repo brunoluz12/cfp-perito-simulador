@@ -1,0 +1,74 @@
+[
+  {
+    "id": 575,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "João, proprietário de motocicleta cujo número de chassi sofreu corrosão natural e tornou-se ilegível, decide, por conta própria, regravar os caracteres do VIN com um equipamento de micropercussão adquirido pela internet, com o propósito declarado de 'regularizar' a identificação para obter o licenciamento, sem requerer autorização de qualquer autoridade competente. À luz do art. 311 do Código Penal e do tratamento conferido pelo material didático, assinale a alternativa CORRETA quanto ao enquadramento da conduta de João.",
+    "alternativas": {
+      "A": "Por estar ausente a intenção de revenda ou de obtenção de vantagem ilícita, e por se tratar de mera tentativa de regularização do próprio bem, a conduta é penalmente atípica, remanescendo apenas eventual infração administrativa de trânsito.",
+      "B": "A conduta é típica, pois a regravação realizada sem autorização legal da autoridade competente constitui ilícito penal, ainda que invocadas boa-fé ou intuito de regularização.",
+      "C": "A conduta configura a forma culposa do art. 311, atenuada pelo propósito regularizador, uma vez que o agente agiu sem a diligência exigível ao não buscar previamente a autorização administrativa cabível.",
+      "D": "A tipicidade dependerá da demonstração pericial de prejuízo concreto a terceiros ou da efetiva colocação do veículo em circulação após a regravação dos caracteres do identificador.",
+      "E": "A boa-fé presumida e a finalidade declarada de regularização afastam o dolo específico exigido pelo tipo, de modo que a conduta de João não configura o crime do art. 311 do Código Penal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: o capítulo 2 afirma que a ausência de autorização 'converte a intervenção material no identificador em ilícito penal, ainda que realizada com alegações de boa-fé ou regularização' (p. 9-10). A e E erram porque a finalidade do agente é irrelevante para a configuração do tipo e a boa-fé/regularização não afasta o dolo nem a tipicidade. C erra porque não se pune a conduta culposa (crime exclusivamente doloso, p. 9). D erra porque se trata de crime formal, que se consuma com a simples prática da adulteração, independentemente de circulação ou de prejuízo concreto a terceiros (p. 9).",
+    "referencia": "Cap. 2, p. 9-10",
+    "nivel": "medio"
+  },
+  {
+    "id": 576,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do crime de adulteração de sinal identificador de veículo automotor previsto no art. 311 do Código Penal, conforme tratado no Módulo I do PVAT, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A tutela penal alcança exclusivamente o VIN e as placas de identificação, não atingindo agregados como motor, câmbio e carroceria, ainda que estes possuam numeração ou marcação própria destinada à identificação do bem.",
+      "B": "Por ofender a fé pública, o tipo admite a modalidade culposa quando o agente atua com negligência grave na conservação dos sinais identificadores, hipótese em que a pena é proporcionalmente reduzida.",
+      "C": "A pena cominada é de reclusão de três a seis anos e multa, exigindo-se o dolo, sendo a finalidade do agente irrelevante para a configuração do tipo.",
+      "D": "A pena cominada é de detenção de um a três anos e multa, patamar que reflete a natureza essencialmente patrimonial do delito e seu menor potencial ofensivo no sistema de identificação.",
+      "E": "A consumação do crime depende da efetiva circulação do veículo adulterado ou da produção de prejuízo concreto a terceiro, pois somente nessas hipóteses se aperfeiçoa a lesão à fé pública."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: o capítulo 2 dispõe que 'A pena cominada ao crime é de reclusão de três a seis anos e multa' (p. 10), que o crime possui natureza dolosa, não se punindo a conduta culposa, e que 'A finalidade do agente é irrelevante para a configuração do tipo' (p. 9). A erra porque o tipo abrange não só o VIN e placas, mas também motores, câmbios, carrocerias e outros agregados (p. 9). B erra porque não se pune a modalidade culposa (p. 9). D erra quanto à pena, que é de reclusão de três a seis anos. E erra porque se trata de crime formal, que se consuma com a simples adulteração, independentemente de circulação ou prejuízo (p. 9).",
+    "referencia": "Cap. 2, p. 9-10",
+    "nivel": "facil"
+  },
+  {
+    "id": 645,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação, apura-se que um indivíduo, após adquirir veículo com numeração de chassi suspeita, levou-o a oficina clandestina e solicitou apenas a regravação dos caracteres do VIN, sem alteração documental, sem revenda imediata e sem posterior circulação do veículo, alegando que pretendia 'regularizar' o bem por conta própria. O delegado questiona o perito sobre o enquadramento penal e o momento consumativo. Considerando o tratamento dado pelo material ao art. 311 do Código Penal, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Por ausência de circulação do veículo e de prejuízo concreto a terceiro, e tratando-se de simples regravação destinada à regularização do próprio bem, a conduta é atípica, configurando, no máximo, ilícito administrativo de trânsito.",
+      "B": "A configuração do tipo exige finalidade específica de revenda ou de prática de outro ilícito, de modo que, ausente esse elemento subjetivo especial, o art. 311 não se aperfeiçoa na hipótese descrita.",
+      "C": "Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da circulação do veículo ou de prejuízo a terceiros, sendo a finalidade do agente irrelevante.",
+      "D": "A regravação realizada sem autorização legal, ainda que sob alegação de boa-fé ou de regularização, configura conduta culposa do art. 311, punível a título de negligência diante da omissão do prévio pedido administrativo.",
+      "E": "A consumação fica diferida ao instante em que o veículo, já com o identificador regravado, é efetivamente colocado em circulação, momento em que se materializa a ofensa à autenticidade do sistema de identificação veicular."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: segundo o capítulo 2, 'Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da efetiva circulação do veículo ou da produção de prejuízo concreto a terceiros' e 'A finalidade do agente é irrelevante para a configuração do tipo' (p. 9). A erra porque a conduta é típica mesmo sem circulação ou prejuízo. B erra porque o tipo não exige elemento subjetivo especial (finalidade irrelevante, p. 9). D erra porque não se pune a conduta culposa, sendo o crime exclusivamente doloso (p. 9). E erra porque a consumação ocorre com a adulteração, e não com a circulação posterior (crime formal, p. 9).",
+    "referencia": "Cap. 2, p. 9-10",
+    "nivel": "medio"
+  },
+  {
+    "id": 646,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em parecer anexado a inquérito, o representante do Ministério Público sustenta que o art. 311 do Código Penal, na redação resultante das Leis nº 9.426/1996 e 14.562/2023, tutela bem jurídico restrito ao patrimônio individual do proprietário do veículo cujo sinal foi adulterado, razão pela qual somente o VIN poderia ser objeto material do crime. Considerando o que o material didático aduz sobre a abrangência do tipo e o bem jurídico tutelado, assinale a alternativa que melhor REFUTA a tese do parecer.",
+    "alternativas": {
+      "A": "O bem jurídico é a incolumidade pública no trânsito, de modo que a tutela penal recai apenas sobre os componentes mecânicos cuja adulteração tenha impacto direto e demonstrável na segurança da circulação do veículo.",
+      "B": "A tese é correta quanto ao bem jurídico, mas equivoca-se no objeto, pois, além do VIN, também os identificadores externos ostensivos, como a placa traseira lacrada, integram o patrimônio tutelado pela norma penal.",
+      "C": "O bem jurídico tutelado é a fé pública e a autenticidade do sistema de identificação veicular, e o tipo abrange não só o VIN, mas também placas, motores, câmbios, carrocerias e outros agregados com numeração identificadora.",
+      "D": "O bem jurídico protegido é a livre concorrência no mercado automotivo, alcançando exclusivamente as adulterações praticadas com finalidade de revenda comercial do veículo a consumidor de boa-fé.",
+      "E": "O bem jurídico é o patrimônio do Estado, titular do sistema de registro, de sorte que o tipo recai unicamente sobre os documentos e registros administrativos, e não sobre os sinais físicos gravados no veículo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: o capítulo 2 afirma que o art. 311 'constitui um dos principais dispositivos penais de proteção à fé pública e à segurança do sistema de identificação veicular' e que 'o tipo penal abrange não só o VIN, mas também placas de identificação, motores, câmbios, carrocerias e outros agregados que possuam numeração ou marcação destinada à identificação' (p. 9); a tutela incide sobre o sinal identificador como instrumento de individualização do bem. A erra porque o bem jurídico não é a incolumidade no trânsito nem se restringe a componentes mecânicos. B, D e E erram ao reduzir indevidamente o bem jurídico (a patrimônio individual, livre concorrência ou patrimônio do Estado) e ao restringir o objeto material, contrariando a ampla abrangência prevista no material (p. 9).",
+    "referencia": "Cap. 2, p. 9",
+    "nivel": "dificil"
+  }
+]

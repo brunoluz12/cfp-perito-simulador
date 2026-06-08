@@ -1,0 +1,218 @@
+[
+  {
+    "id": 587,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante fiscalização de rotina, um Perito Criminal Federal examina automóvel cuja placa traseira apresenta combinação de três letras seguidas de quatro algarismos, tarjetas indicativas da Unidade da Federação e do município de registro, além de lacre físico fixado à estrutura. Considerando o regime normativo que historicamente fundamentou esse modelo de Placa de Identificação Veicular (PIV) no Brasil, esse padrão",
+    "alternativas": {
+      "A": "decorre da Resolução Contran nº 729/2018, primeira norma a instituir o padrão Mercosul com indicação apenas do país e código serial único associado a QR Code de leitura obrigatória.",
+      "B": "é próprio da Resolução Contran nº 969/2022, que consolidou o padrão Mercosul mantendo a vinculação visual da placa ao município e à Unidade da Federação de registro do veículo.",
+      "C": "foi estabelecido pela Resolução Contran nº 231/2007, que disciplinou dimensões, tipologia dos caracteres, pintura, cores associadas às categorias, materiais, refletividade e dispositivos de lacração.",
+      "D": "é exclusivo de veículos oficiais, diplomáticos e consulares, sendo vedada sua adoção em veículos de propriedade particular no regime normativo então vigente no território nacional.",
+      "E": "originou-se da Resolução Contran nº 45/1998, que instituiu o padrão cinza nacional já com tarjetas de município e dispositivos eletrônicos de autenticação digital da placa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Seção 6.1, a Resolução nº 231/2007 estabeleceu o sistema baseado em três letras e quatro números, com tarjetas indicativas da UF e do município de registro, detalhando 'as dimensões físicas das placas, a tipologia dos caracteres, o sistema de pintura, as cores associadas às categorias de veículos, os materiais admitidos, os parâmetros de refletividade e os dispositivos de lacração' (alternativa C). A está errada: a Res. 729/2018 implantou o padrão Mercosul, não o modelo de três letras e quatro números com tarjetas e lacre físico. B inverte a evolução: a Res. 969/2022 (Mercosul) deixa de exibir município e UF, indicando apenas o país. D é falsa: o padrão alcançava também veículos particulares. E está incorreta: a Res. 45/1998 instituiu o padrão cinza, sem QR Code ou autenticação digital.",
+    "referencia": "Cap. 6, Seção 6.1, p. 22",
+    "nivel": "facil"
+  },
+  {
+    "id": 588,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em exame pericial de veículo emplacado sob o regime da Resolução Contran nº 969/2022 (padrão Mercosul), o perito utiliza o aplicativo VIO para leitura do QR Code da placa traseira. Acerca desse procedimento e do sistema instituído pela referida Resolução, julgue os itens a seguir.\n\nI. A placa Mercosul adota combinação alfanumérica mista, alternando três letras, um número, uma letra e três números, ampliando a capacidade de séries disponíveis.\nII. O número de série obtido pela leitura do QR Code pode ser consultado no Portal de Serviços da Senatran, retornando dados atuais como placa vigente, últimos dígitos do chassi, UF de jurisdição, município, marca, modelo, anos de fabricação e modelo e cor do veículo.\nIII. A placa do padrão Mercosul passa a exibir de forma destacada o nome do município e a Unidade da Federação de registro, em substituição às antigas tarjetas geográficas.\nIV. O modelo Mercosul mantém integralmente o lacre físico tradicional como principal mecanismo de controle contra manipulação, sem qualquer forma de rastreabilidade digital ou autenticação eletrônica da placa.\n\nEstão corretos apenas os itens",
+    "alternativas": {
+      "A": "I e II.",
+      "B": "I, II e III.",
+      "C": "II e IV.",
+      "D": "III e IV.",
+      "E": "I, III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Segundo a Seção 6.2, o novo modelo 'adota uma combinação alfanumérica mista, alternando três letras, um número, uma letra e três números' (item I correto). A consulta retorna 'placa vigente, os últimos dígitos do chassi, a unidade federativa de jurisdição, o município de registro, a marca e o modelo, os anos de fabricação e de modelo, bem como a cor do veículo' (item II correto). O item III é falso: a placa 'deixa de exibir o município e a Unidade da Federação de registro, passando a apresentar apenas o nome do país e seu respectivo símbolo'. O item IV é falso: 'O modelo Mercosul elimina o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais'. Logo, corretos apenas I e II (alternativa A).",
+    "referencia": "Cap. 6, Seção 6.2, p. 23-25",
+    "nivel": "medio"
+  },
+  {
+    "id": 589,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um cidadão recebe notificações de infrações cometidas em Unidade da Federação distinta, em circunstâncias incompatíveis com seu deslocamento habitual, envolvendo veículo de marca, modelo e cor semelhantes ao seu. Após apreensão do veículo infrator, a perícia constata placa visualmente idêntica à do cidadão notificado, porém com gravações de chassi e monobloco completamente distintas. A denominação técnica correta para essa conduta e seu fundamento técnico-pericial é",
+    "alternativas": {
+      "A": "remontagem estrutural não autorizada, cuja caracterização depende exclusivamente da conferência do número da carroceria com o registro administrativo do proprietário legítimo.",
+      "B": "clonagem de placas, consistente na reprodução indevida da placa externa de veículo legítimo, criando dissociação intencional entre a identificação externa e a gravada no chassi ou monobloco.",
+      "C": "regravação autorizada de identificadores, regida pela Resolução nº 968/2022, que configura hipótese lícita de regularização administrativa quando há perda do número original do chassi.",
+      "D": "adulteração de etiqueta autocolante (ETA), restrita aos vidros e demais superfícies envidraçadas do veículo, independendo por completo da análise das placas de identificação externa.",
+      "E": "substituição regular de placa por alteração de categoria, prevista no regime da Resolução nº 231/2007, que exigia nova placa sempre que modificada a categoria do veículo registrado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a Seção 6.3, 'A clonagem de placas consiste na reprodução indevida da placa de identificação externa de um veículo legítimo, com a finalidade de atribuir a outro veículo - geralmente de mesma marca, modelo e cor semelhantes - uma identidade aparente idêntica', criando 'uma dissociação intencional entre a identificação externa e a identificação obrigatória por caracteres gravados no chassi ou no monobloco' (alternativa B). As demais descrevem condutas diversas: remontagem estrutural (A), regravação administrativa (C), adulteração de etiqueta nos vidros (D) e substituição regular por mudança de categoria (E) não correspondem ao quadro fático de placa idêntica com chassi e monobloco distintos.",
+    "referencia": "Cap. 6, Seção 6.3, p. 25-26",
+    "nivel": "facil"
+  },
+  {
+    "id": 590,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial sobre veículo emplacado em 2010, o perito identifica, em superfície plana da placa e da tarjeta, um código composto por número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em relevo. Sobre esse elemento, é correto afirmar que",
+    "alternativas": {
+      "A": "corresponde ao código de cadastramento do fabricante da placa e da tarjeta, especificado pela Resolução nº 241/2007, gravado em superfície plana, em alto ou baixo relevo.",
+      "B": "constitui o número de série do QR Code, elemento de rastreabilidade exclusivo do padrão Mercosul, exigido pela Resolução nº 969/2022 e verificável por meio do aplicativo VIO oficial.",
+      "C": "representa o código WMI do fabricante do veículo, vinculado à norma ABNT NBR 6066:2022 e gravado obrigatoriamente no monobloco para individualização estrutural da unidade.",
+      "D": "é o lacre físico da placa traseira que, no regime então vigente, substituía qualquer outra forma de identificação do estampador credenciado perante o órgão executivo de trânsito.",
+      "E": "indica o código de jurisdição administrativa do município de registro, mantido fixo mesmo após mudança de domicílio do proprietário, nos termos da Resolução Contran nº 45/1998."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a Seção 6.1, 'A Resolução 241/2007 [...] especificava o código de cadastramento do fabricante da placa e da tarjeta, composto por um número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo'; a Res. 231/2007 prevê a obrigatoriedade da gravação do registro do fabricante em superfície plana (alternativa A). B é falsa: o QR Code é do padrão Mercosul (Res. 969/2022), de natureza distinta. C confunde com o WMI do VIN, gravado no veículo, não na placa. D é incorreta: o lacre não substitui a identificação do estampador. E não encontra respaldo no texto, que descreve o elemento como código do fabricante da placa.",
+    "referencia": "Cap. 6, Seção 6.1, p. 22",
+    "nivel": "medio"
+  },
+  {
+    "id": 591,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a evolução normativa e a função jurídica das Placas de Identificação Veicular (PIV) no Brasil, conforme o Módulo I do PVAT, considere as assertivas a seguir.\n\nI. O art. 115 do CTB determina que o veículo será identificado externamente por placas dianteira e traseira, sendo esta última lacrada em sua estrutura, conforme especificações estabelecidas pelo Contran.\nII. A função jurídica da placa, mesmo no padrão Mercosul, permanece a de representar a identidade do veículo de forma ostensiva, sendo juridicamente subordinada à identificação por caracteres gravados no chassi ou no monobloco.\nIII. A placa cria a identidade jurídica do veículo, substituindo, para fins de individualização, o número de identificação gravado na estrutura.\nIV. A transição do regime da Resolução nº 231/2007 para o da Resolução nº 969/2022 implica que veículos registrados sob o sistema anterior não podem mais circular regularmente, devendo obrigatoriamente migrar para o padrão Mercosul.\nV. A Resolução Contran nº 45/1998 instituiu o modelo padronizado de placas no padrão cinza em âmbito nacional.\n\nEstão corretas apenas",
+    "alternativas": {
+      "A": "I, III e IV.",
+      "B": "II, III e V.",
+      "C": "I, II e V.",
+      "D": "I, IV e V.",
+      "E": "II, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Itens I, II e V conferem com o Capítulo 6 (alternativa C). O texto reproduz o art. 115 do CTB (item I); afirma que 'a função jurídica da placa permanece inalterada: ela continua sendo a expressão externa da identidade do veículo, juridicamente subordinada à identificação por caracteres gravados no chassi ou no monobloco' e que 'A placa não cria a identidade do veículo, mas a representa de forma ostensiva' (item II correto; item III incorreto). Sobre a Res. 45/1998: 'instituiu o modelo padronizado de placas no padrão cinza em âmbito nacional' (item V). O item IV é falso: 'Veículos registrados sob o sistema anterior podem circular regularmente com placas antigas, desde que preservadas suas condições de originalidade e conformidade'.",
+    "referencia": "Cap. 6, p. 21-24",
+    "nivel": "dificil"
+  },
+  {
+    "id": 592,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em diligência conjunta com a Polícia Rodoviária Federal, o perito é informado de que o aplicativo VIO, ao ler o QR Code de uma placa Mercosul, retornou inconsistência entre os dados oficiais do Portal da Senatran e o veículo abordado. Considerando o sistema instituído pela Resolução Contran nº 969/2022, o conjunto de informações apresentado pelo sistema da Senatran como dados da estampagem da placa é",
+    "alternativas": {
+      "A": "número do RENAVAM, CPF do proprietário, histórico de multas e situação do licenciamento, com identificação completa dos débitos administrativos pendentes do veículo.",
+      "B": "número de série do QR Code, UF e município de estampagem, tipo da placa, situação administrativa, data e hora da estampagem e órgão responsável pela lacração.",
+      "C": "número do motor, número do câmbio, número dos eixos e número da carroceria do veículo, todos correlacionados aos caracteres gravados no chassi ou monobloco da unidade.",
+      "D": "decomposição do número de identificação veicular em WMI, VDS e VIS, perfazendo as três seções dos dezessete caracteres exigidos pela norma técnica de marcação.",
+      "E": "apenas a marca, o modelo e a cor do veículo, suprimindo-se quaisquer dados da empresa estampadora em razão do sigilo industrial conferido aos fabricantes credenciados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a Seção 6.2, 'são apresentados os dados da estampagem da placa, que incluem o número de série do QR Code, a unidade federativa e o município onde a placa foi estampada, o tipo da placa (por exemplo, dianteira ou traseira), a situação administrativa da placa (ativa, cancelada etc.), a data e a hora da estampagem e o órgão responsável pela lacração' (alternativa B). A descreve dados de cadastro administrativo do veículo, não da estampagem. C e D referem-se a identificadores estruturais e ao VIN, distintos dos dados da estampagem. E é falsa, pois entre os dados retornados constam CNPJ e razão social da estampadora.",
+    "referencia": "Cap. 6, Seção 6.2, p. 25",
+    "nivel": "medio"
+  },
+  {
+    "id": 657,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em análise sobre a evolução normativa da identificação externa veicular no Brasil, o diploma legal apontado pelo material como pioneiro ao estabelecer a obrigatoriedade do registro e da identificação externa dos veículos automotores, inaugurando a vinculação entre veículo, proprietário e poder público, é",
+    "alternativas": {
+      "A": "a Lei nº 5.108/1966 (Código Nacional de Trânsito), que consolidou a placa como sinal identificador essencial e delegou ao poder público o controle do registro veicular.",
+      "B": "o Decreto-Lei nº 3.651, de 25 de setembro de 1941.",
+      "C": "o Decreto nº 62.127/1968, que regulamentou o Código Nacional de Trânsito e disciplinou em detalhe as especificações técnicas das placas dianteira e traseira dos veículos.",
+      "D": "a Resolução Contran nº 45/1998, responsável por instituir o modelo padronizado de placas no padrão cinza em âmbito nacional, uniformizando a identificação em todo o território.",
+      "E": "a Lei nº 9.503/1997 (CTB), que reafirmou a placa como elemento obrigatório de identificação e delegou ao Contran a competência para sua regulamentação técnica detalhada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'O Decreto-Lei nº 3.651, de 25 de setembro de 1941, já estabelecia a obrigatoriedade do registro e da identificação externa dos veículos automotores como instrumento de fiscalização e controle estatal, inaugurando a vinculação entre veículo, proprietário e poder público' (alternativa B). A Lei 5.108/1966 e o Decreto 62.127/1968 (A e C) apenas consolidaram a placa como sinal identificador essencial, em momento posterior. A Res. 45/1998 (D) instituiu o padrão cinza. A Lei 9.503/1997 (E) reafirmou a placa e delegou ao Contran a regulamentação, sem inaugurar a obrigatoriedade.",
+    "referencia": "Cap. 6, Seção 6 (introdução), p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 658,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a transição entre os regimes normativos das PIV, julgue os itens a seguir.\n\nI. Veículos registrados sob a Resolução nº 231/2007 podem continuar circulando regularmente com placas antigas, desde que preservadas a originalidade e a conformidade.\nII. A correta interpretação pericial da placa depende do reconhecimento do regime normativo vigente à época do registro do veículo.\nIII. Todos os veículos em circulação devem, obrigatoriamente, ser remarcados no padrão Mercosul, independentemente da data do registro original, sob pena de irregularidade administrativa.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas os itens I e II estão corretos.",
+      "B": "Apenas os itens I e III estão corretos.",
+      "C": "Apenas os itens II e III estão corretos.",
+      "D": "Os itens I, II e III estão corretos.",
+      "E": "Apenas o item III está correto."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material afirma: 'Veículos registrados sob o sistema anterior podem circular regularmente com placas antigas, desde que preservadas suas condições de originalidade e conformidade' (item I correto) e 'A correta interpretação da placa depende do reconhecimento do regime normativo vigente à época do registro do veículo' (item II correto). O item III contraria o texto, pois não há exigência de remarcação obrigatória de todos os veículos no padrão Mercosul. Logo, corretos apenas I e II (alternativa A).",
+    "referencia": "Cap. 6, Seção 6 (introdução), p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 659,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No regime da Resolução Contran nº 231/2007, assinale a alternativa que indica corretamente o elemento que permitia identificar visualmente a categoria do veículo na placa e a situação que exigia obrigatoriamente a substituição da placa.",
+    "alternativas": {
+      "A": "A combinação alfanumérica de três letras e quatro números identificava a categoria do veículo, e a mudança de município de registro do proprietário exigia a substituição da placa.",
+      "B": "A cor do fundo da placa identificava a categoria, e a alteração de categoria do veículo exigia a substituição da placa.",
+      "C": "A tarjeta indicativa da Unidade da Federação identificava a categoria, e a transferência de propriedade do veículo a terceiro exigia obrigatoriamente a substituição da placa.",
+      "D": "O dispositivo de lacração da placa traseira identificava a categoria, e qualquer regravação dos caracteres do chassi exigia a imediata substituição da placa dianteira e traseira.",
+      "E": "A sigla do município gravada na tarjeta identificava a categoria, e a mudança de Unidade da Federação de domicílio do proprietário exigia a substituição integral da placa registrada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo o material, 'Nesse sistema anterior, a categoria do veículo era identificada principalmente pela cor do fundo da placa, mantendo-se fixa a combinação alfanumérica independentemente de mudanças de município, mas exigindo a substituição da placa em caso de alteração de categoria' (alternativa B). A está errada: a combinação alfanumérica era fixa e não identificava categoria; mudança de município não exigia substituição. C, D e E atribuem a função de identificação de categoria a elementos incorretos (tarjeta de UF, lacre, sigla de município) e vinculam a substituição a hipóteses não previstas no texto.",
+    "referencia": "Cap. 6, Seção 6.1, p. 22",
+    "nivel": "medio"
+  },
+  {
+    "id": 660,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Resolução Contran nº 241/2007 especificava o código de cadastramento do fabricante da placa e da tarjeta. Acerca da composição correta desse código, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Sigla do município de registro, seguida do número de inscrição do fabricante no cadastro nacional e do ano completo de fabricação, gravado exclusivamente em baixo relevo na tarjeta.",
+      "B": "Número de quatro algarismos, seguido da sigla da Unidade da Federação e do ano completo de fabricação, gravado em hot stamp na superfície refletiva da placa traseira do veículo.",
+      "C": "Número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo.",
+      "D": "Dois algarismos identificadores do estampador, seguidos da sigla da Unidade da Federação e do ano completo de fabricação da placa, gravados obrigatoriamente em alto relevo.",
+      "E": "CNPJ completo do fabricante credenciado, seguido da razão social abreviada e dos dois últimos algarismos do ano de fabricação, gravado em superfície plana, em alto ou baixo relevo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto descreve: 'A Resolução 241/2007 [...] especificava o código de cadastramento do fabricante da placa e da tarjeta, composto por um número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo' (alternativa C). As demais divergem em ao menos um elemento: quantidade de algarismos (B e D), ano completo em vez dos dois últimos algarismos (A, B e D), forma de gravação restrita (A e D) ou conteúdo do código (A e E, que confundem com sigla de município e CNPJ/razão social, próprios dos dados do fabricante no padrão Mercosul).",
+    "referencia": "Cap. 6, Seção 6.1, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 661,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à Resolução Contran nº 969/2022 (padrão Mercosul), assinale a alternativa que descreve corretamente uma mudança trazida em relação ao regime normativo anterior.",
+    "alternativas": {
+      "A": "Manteve a indicação do nome do município e da Unidade da Federação de registro na placa, acrescentando-lhe apenas o emblema do Mercosul e a bandeira do país de origem.",
+      "B": "Tornou facultativa a inserção do QR Code, que passou a ser exigido somente nas placas de veículos oficiais, diplomáticos e consulares, dispensando-o nos veículos de uso particular.",
+      "C": "Adotou combinação puramente numérica de sete dígitos sequenciais, ampliando a capacidade do sistema e eliminando o uso de quaisquer caracteres alfabéticos na identificação.",
+      "D": "Eliminou o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais.",
+      "E": "Transferiu aos órgãos estaduais de trânsito o controle exclusivo da numeração do lacre físico, reforçando o foco da verificação pericial sobre a manipulação física da placa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material dispõe: 'O modelo Mercosul elimina o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais, o que desloca o foco do controle da manipulação física para a rastreabilidade administrativa e tecnológica' (alternativa D). A é falsa: a placa Mercosul deixa de exibir município e UF, indicando apenas o país. B é incorreta: o QR Code é elemento de segurança obrigatório. C é falsa: a combinação é alfanumérica mista (três letras, um número, uma letra e três números). E contraria o texto, pois o foco desloca-se da manipulação física para a rastreabilidade digital.",
+    "referencia": "Cap. 6, Seção 6.2, p. 23",
+    "nivel": "facil"
+  },
+  {
+    "id": 662,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia, veículo apresenta placa Mercosul aparentemente regular, mas suspeita-se de clonagem. O perito utiliza o aplicativo VIO para ler o QR Code e obter o número de série, consultado em seguida no Portal de Serviços da Senatran. Entre as informações retornadas, o conjunto de dados da estampagem da placa especificamente apresentado, conforme o material, é",
+    "alternativas": {
+      "A": "número de série do QR Code, UF e município de estampagem, tipo de placa, situação administrativa, data e hora da estampagem e órgão responsável pela lacração.",
+      "B": "número do RENAVAM, CPF do proprietário, endereço completo do registro e histórico de transferências de propriedade do veículo perante o órgão executivo de trânsito competente.",
+      "C": "histórico de multas, débitos pendentes, situação do licenciamento anual e relação de condutores habituais vinculados administrativamente ao veículo no cadastro nacional de trânsito.",
+      "D": "marca, modelo, cor do veículo e nome do proprietário atual, sem qualquer informação relativa à empresa estampadora credenciada ou aos parâmetros físicos da estampagem realizada.",
+      "E": "últimos dígitos do chassi, UF de jurisdição, município de registro, anos de fabricação e de modelo e cor do veículo, correspondentes aos dados atuais da unidade cadastrada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material detalha: 'são apresentados os dados da estampagem da placa, que incluem o número de série do QR Code, a unidade federativa e o município onde a placa foi estampada, o tipo da placa (por exemplo, dianteira ou traseira), a situação administrativa da placa (ativa, cancelada etc.), a data e a hora da estampagem e o órgão responsável pela lacração' (alternativa A). B e C descrevem dados administrativos não listados como dados da estampagem. D é incorreta, pois há dados do fabricante e da estampagem. E corresponde aos dados atuais do veículo, categoria distinta dos dados da estampagem.",
+    "referencia": "Cap. 6, Seção 6.2, p. 25",
+    "nivel": "dificil"
+  }
+]

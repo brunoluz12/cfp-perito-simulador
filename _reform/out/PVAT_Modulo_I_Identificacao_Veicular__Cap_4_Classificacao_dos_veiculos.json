@@ -1,0 +1,146 @@
+[
+  {
+    "id": 581,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em duas requisições distintas, um perito recebe para exame, na primeira, um veículo descrito no documento como 'camioneta' e, na segunda, um 'caminhão-trator'. Considerando a classificação dos veículos quanto à espécie estabelecida pelo art. 96 do CTB e detalhada no capítulo 4 do material, assinale a alternativa que correlaciona corretamente cada veículo à respectiva espécie:",
+    "alternativas": {
+      "A": "A camioneta integra a espécie de carga, por destinar-se ao transporte de mercadorias com PBT até 3,5 toneladas, ao passo que o caminhão-trator integra a espécie de competição, em razão de seu emprego típico em provas esportivas off-road de elevada exigência mecânica.",
+      "B": "A camioneta integra a espécie de passageiros, limitada a até oito ocupantes, ao passo que o caminhão-trator integra a espécie de carga, por apresentar PBT superior a 3,5 toneladas e destinar-se ao transporte de mercadorias e materiais.",
+      "C": "A camioneta integra a espécie mista, por combinar o transporte de pessoas e de carga no mesmo compartimento, e o caminhão-trator integra a espécie de tração, por destinar-se primordialmente a tracionar outros veículos, implementos ou equipamentos.",
+      "D": "Ambos integram a espécie especial, por possuírem destinação ou uso específico que justifica tratamento normativo diferenciado e não se enquadrarem com precisão nas demais categorias previstas pelo CTB.",
+      "E": "A camioneta integra a espécie de tração, por rebocar implementos agrícolas, e o caminhão-trator integra a espécie mista, por transportar simultaneamente o condutor e a carga acoplada à unidade tratora."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo o capítulo 4, na espécie mista inserem-se a camioneta (passageiros e carga no mesmo compartimento) e o utilitário (item 4.2.3). Já a espécie de tração reúne os veículos destinados primordialmente a tracionar outros veículos, implementos ou equipamentos, como o caminhão-trator e os tratores (item 4.2.5). A está errada: a caminhonete (com 'h'), e não a camioneta, é que integra a espécie de carga com PBT até 3,5 ton, e o caminhão-trator não é veículo de competição. B confunde a camioneta com automóvel/passageiros e o caminhão-trator com caminhão de carga. D atribui indevidamente a espécie especial a ambos. E inverte os enquadramentos de tração e mista.",
+    "referencia": "Cap. 4, p. 17",
+    "nivel": "medio"
+  },
+  {
+    "id": 582,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos veículos prevista no art. 96 do CTB, julgue os itens a seguir:\n\nI - A classificação legal organiza-se segundo três critérios distintos e complementares: quanto à tração, quanto à espécie e quanto à categoria.\nII - A classificação quanto à tração define, de imediato, a existência ou não de identificação estrutural obrigatória, a exigência de registro no RENAVAM e a necessidade de placa de identificação externa.\nIII - A classificação quanto à categoria relaciona o veículo ao regime jurídico de uso e vinculação institucional, distinguindo veículos oficiais, diplomáticos, particulares, de aluguel e de aprendizagem.\nIV - A classificação possui caráter meramente conceitual ou descritivo, sem repercussão sobre os sinais identificadores exigíveis nem sobre o regime de registro aplicável.\nV - A Portaria DENATRAN nº 1.207/2010 estabelece tabelas oficiais de classificação conforme tipo, marca, espécie e carroçaria, e disciplina as hipóteses de transformação veicular sujeitas à homologação compulsória.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "I, III, IV e V.",
+      "C": "II, III, IV e V.",
+      "D": "I, II, III e V.",
+      "E": "I, II, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O capítulo 4 afirma que a classificação se organiza em três critérios complementares - quanto à tração, à espécie e à categoria (I correto, p. 15); que a classificação quanto à tração define de imediato a identificação estrutural obrigatória, o registro no RENAVAM e a placa externa (II correto, p. 15); e que a classificação quanto à categoria distingue veículos oficiais, diplomáticos, particulares, de aluguel e de aprendizagem (III correto, p. 18). O item IV está errado, pois o material assevera expressamente que essa classificação NÃO possui caráter meramente conceitual ou descritivo, definindo previamente quais sinais identificadores são exigíveis e quais regimes de registro se aplicam (p. 15). O item V reproduz fielmente o teor da Portaria DENATRAN nº 1.207/2010 (V correto, p. 15). Logo, corretos apenas I, II, III e V.",
+    "referencia": "Cap. 4, p. 15, 18",
+    "nivel": "dificil"
+  },
+  {
+    "id": 583,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame pericial, o perito identifica um primeiro veículo de duas rodas, com propulsão por motor a combustão e velocidade máxima de fabricação inferior a 50 km/h, e um segundo veículo de duas rodas no qual o condutor assume a posição sentada (e não montada). Conforme a classificação quanto à espécie de passageiros tratada no capítulo 4, esses veículos correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "Motocicleta e motoneta.",
+      "B": "Ciclomotor e motoneta.",
+      "C": "Ciclomotor e motocicleta.",
+      "D": "Motoneta e quadriciclo.",
+      "E": "Ciclomotor e triciclo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo 4 define, dentro da espécie de passageiros (item 4.2.1), o ciclomotor pela velocidade máxima inferior a 50 km/h e a motoneta pelo condutor na posição sentada, distinguindo-a da motocicleta (condutor na posição montada). Assim, o primeiro veículo é ciclomotor e o segundo é motoneta. As demais alternativas trocam um ou ambos os enquadramentos (motocicleta exige posição montada; quadriciclo e triciclo não têm duas rodas).",
+    "referencia": "Cap. 4, p. 15-16",
+    "nivel": "facil"
+  },
+  {
+    "id": 584,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito examina um veículo declarado em registro como pertencente à espécie de coleção e, em outro caso, um veículo registrado na espécie de competição. Considerando o tratamento conferido pelo capítulo 4 à identificação veicular nessas espécies, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Ambas as espécies estão integralmente dispensadas de qualquer forma de identificação veicular, estrutural ou externa, em razão da finalidade não utilitária do bem e da ausência de circulação regular em vias públicas.",
+      "B": "Na espécie de competição, a identificação obedece estritamente ao mesmo padrão técnico dos automotores comuns; na de coleção, exige-se a aposição de placa do padrão Mercosul com QR Code para fins de rastreamento histórico do veículo.",
+      "C": "A espécie de competição admite regimes especiais de identificação, dispensas parciais de registro e licenciamento e restrições severas de circulação, enquanto na de coleção a identificação assume função adicional de preservação da originalidade.",
+      "D": "Os veículos de coleção devem ter o VIN suprimido do elemento estrutural para preservar a originalidade histórica, ao passo que os de competição mantêm a identificação estrutural intacta, mas ficam dispensados de placa externa de qualquer natureza.",
+      "E": "Em ambos os casos, a identificação veicular obedece estritamente ao mesmo padrão técnico aplicado a veículos automotores comuns, não se admitindo exceções, dispensas ou regimes próprios de registro e circulação para qualquer das espécies."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O capítulo 4 dispõe que a espécie de competição justifica regimes especiais ou excepcionais de identificação, dispensas parciais de registro e licenciamento e restrições severas de circulação (item 4.2.4, p. 17); e que, na espécie de coleção, a identificação veicular assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação (item 4.2.7, p. 18). A e E estão erradas porque o material não dispensa toda identificação nem exige padrão idêntico ao dos automotores comuns. B e D inventam exigências (QR Code Mercosul, supressão do VIN) não previstas no material.",
+    "referencia": "Cap. 4, p. 17-18",
+    "nivel": "medio"
+  },
+  {
+    "id": 651,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito é acionado para examinar um veículo automotor de duas rodas, com selim destinado ao condutor em posição sentada (e não montada), apreendido em operação de combate a desmanche clandestino. Ao redigir o tópico de classificação no laudo, conforme os critérios do art. 96 do CTB descritos no material didático, a classificação quanto à espécie do veículo é, mais corretamente:",
+    "alternativas": {
+      "A": "Motocicleta de carga, em razão da configuração construtiva com dispositivos permanentes para acondicionamento de bens e do uso típico em serviços urbanos de entrega de mercadorias.",
+      "B": "Ciclomotor, integrante da espécie de passageiros, em razão de tratar-se de veículo automotor de duas rodas com velocidade máxima de fabricação inferior a 50 km/h.",
+      "C": "Quadriciclo de uso urbano restrito, por ser veículo automotor de pequeno porte concebido para deslocamentos curtos em perímetro urbano, integrando a espécie mista por conduzir condutor e carga.",
+      "D": "Motoneta, integrante da espécie de passageiros, por tratar-se de veículo de duas rodas com condutor na posição sentada.",
+      "E": "Triciclo de passageiros, por destinar-se primordialmente ao transporte de pessoas em posição sentada, ainda que sobre duas rodas dispostas em linha."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O capítulo 4, ao tratar da espécie de passageiros (item 4.2.1), descreve a motoneta como veículo de duas rodas com o condutor na posição sentada, distinguindo-a da motocicleta (condutor na posição montada). A posição sentada do condutor é o critério decisivo apresentado no material. A (motocicleta de carga) integra a espécie de carga e pressupõe condutor montado e dispositivos de acondicionamento; B (ciclomotor) seria definida pela velocidade inferior a 50 km/h, dado ausente no enunciado, que destaca a posição do condutor; C e E descrevem veículos de mais de duas rodas ou enquadramentos incompatíveis com o relatado.",
+    "referencia": "Cap. 4, p. 15-16",
+    "nivel": "dificil"
+  },
+  {
+    "id": 652,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em fiscalização de fronteira, é abordado um conjunto rodoviário formado por uma unidade tratora (caminhão-trator) e um implemento sem propulsão própria, parcialmente apoiado sobre a unidade tratora. O motorista alega tratar-se apenas de um reboque comum. Considerando as definições do capítulo 4 quanto às espécies de carga e de tração, assinale a alternativa que melhor descreve a classificação técnica do conjunto:",
+    "alternativas": {
+      "A": "A unidade tratora classifica-se como veículo da espécie de carga, na subespécie caminhão, e o implemento, por ser apoiado na tratora, classifica-se igualmente como reboque, de modo que ambos integram a mesma espécie de carga.",
+      "B": "A unidade tratora classifica-se como espécie de tração, na subespécie caminhão-trator, enquanto o implemento, por apoiar-se na unidade tratora, classifica-se como semirreboque, integrando a espécie de carga.",
+      "C": "A unidade tratora classifica-se como espécie mista, por conduzir simultaneamente pessoas e exercer tração, e o implemento classifica-se como espécie de competição, por atuar em regime de tracionamento esportivo.",
+      "D": "Tanto a unidade tratora quanto o implemento classificam-se como espécie especial, por se tratar de conjunto de transporte rodoviário de elevada tonelagem com destinação ou uso específico que justifica tratamento normativo diferenciado.",
+      "E": "A unidade tratora classifica-se como espécie de carga, por destinar-se ao transporte de mercadorias, e o implemento como reboque, por estar engatado atrás de um veículo automotor, integrando ambos a espécie de carga."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo 4 inclui o caminhão-trator e os tratores na espécie de tração (item 4.2.5), definida como veículos destinados primordialmente a tracionar outros veículos, implementos ou equipamentos. O semirreboque é descrito (item 4.2.2) como veículo que se apoia na unidade tratora, integrando a espécie de carga, ao contrário do reboque, que é engatado atrás de um veículo automotor. Como o implemento se apoia na tratora, é semirreboque, e não reboque. A e E erram ao classificar a unidade tratora como carga e ao chamar o implemento de reboque; C e D atribuem espécies incorretas (mista/competição/especial).",
+    "referencia": "Cap. 4, p. 16-17",
+    "nivel": "medio"
+  },
+  {
+    "id": 653,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma vistoria, o perito examina um veículo originalmente registrado na espécie de passageiros, cuja documentação foi alterada para a espécie de coleção mediante alegação de raridade e valor histórico. Indagado pelo delegado sobre a função adicional que a identificação veicular assume nesse novo enquadramento, e conforme o material didático, é CORRETO afirmar que, na espécie de coleção, a identificação veicular:",
+    "alternativas": {
+      "A": "Perde relevância técnica, tornando-se dispensável a verificação dos sinais identificadores principais nesses veículos em razão de seu reconhecido valor histórico e cultural.",
+      "B": "Assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação.",
+      "C": "Equipara-se integralmente ao regime aplicável à espécie de competição, com dispensa de registro e de licenciamento e imposição de restrições severas de circulação em vias públicas.",
+      "D": "Passa a ser realizada exclusivamente por meio da placa de identificação externa, dispensando-se por completo a gravação de caracteres em qualquer elemento estrutural do veículo.",
+      "E": "Submete-se a regime técnico mais rigoroso do que o dos automotores comuns, exigindo-se nova regravação integral dos sinais identificadores para fins de atualização do valor histórico declarado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo 4, item 4.2.7, afirma que, na espécie de coleção, a identificação veicular assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação, sempre com atenção à manutenção da identidade histórica do bem (p. 18). A está errada porque a identificação não perde relevância; C confunde indevidamente coleção com competição; D e E inventam regimes (dispensa de gravação estrutural; regravação integral mais rigorosa) não previstos no material.",
+    "referencia": "Cap. 4, p. 18",
+    "nivel": "facil"
+  },
+  {
+    "id": 654,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em capítulo introdutório do laudo, um perito federal precisa elucidar o vínculo jurídico-administrativo entre um veículo apreendido e a pessoa em cujo nome ele estava registrado, considerando que a placa e a sinalização visual indicavam tratar-se de veículo oficial, vinculado a determinada repartição. Segundo o material didático, esse vínculo entre a identidade física do veículo e o regime jurídico de uso e vinculação institucional corresponde, no sistema do art. 96 do CTB, à classificação quanto:",
+    "alternativas": {
+      "A": "À tração, que considera a forma de propulsão e distingue veículos automotores, de propulsão humana, de tração animal e reboques e semirreboques desprovidos de propulsão própria.",
+      "B": "À espécie, que considera a finalidade predominante e distingue veículos de passageiros, de carga, mista, de competição, de tração, especial e de coleção, conforme o art. 96.",
+      "C": "À categoria, que distingue veículos oficiais, diplomáticos, particulares, de aluguel e de aprendizagem, com repercussão direta no padrão de placas, na sinalização visual e nas prerrogativas ou restrições de circulação.",
+      "D": "Ao tipo de carroçaria, definido exclusivamente pela Portaria DENATRAN nº 1.207/2010, que constitui o único critério apto a relacionar a identidade física do veículo ao seu regime jurídico de uso e vinculação institucional.",
+      "E": "À homologação de transformação veicular, prevista na Portaria DENATRAN nº 1.207/2010, que vincula a identidade física do veículo às hipóteses de modificação sujeitas a homologação compulsória pela autoridade de trânsito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O item 4.3 do material define que a classificação quanto à categoria relaciona o veículo ao regime jurídico de uso e vinculação institucional, distinguindo veículos oficiais, diplomáticos, particulares, de aluguel e de aprendizagem, e que essa classificação repercute diretamente na identificação externa, especialmente no padrão de placas, na sinalização visual e nas prerrogativas ou restrições de circulação (p. 18). A (tração) trata da forma de propulsão; B (espécie) trata da finalidade predominante; D e E confundem critérios da Portaria DENATRAN 1.207/2010 (carroçaria e transformação veicular) com o vínculo jurídico-administrativo, que é objeto da categoria.",
+    "referencia": "Cap. 4, p. 18",
+    "nivel": "facil"
+  }
+]
