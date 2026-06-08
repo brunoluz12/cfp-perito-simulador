@@ -2027,6 +2027,40 @@ document.addEventListener('DOMContentLoaded', () => {
             iframe.onload = () => {
                 statusMsg.style.display = 'none';
                 iframe.style.opacity = '1';
+                
+                // Lógica de seleção de texto para flashcards
+                try {
+                    const doc = iframe.contentDocument || iframe.contentWindow.document;
+                    doc.addEventListener('mouseup', (e) => {
+                        const selection = doc.getSelection();
+                        const tooltip = document.getElementById('fc-selection-tooltip');
+                        
+                        if (selection && selection.toString().trim().length > 0) {
+                            const rect = selection.getRangeAt(0).getBoundingClientRect();
+                            const iframeRect = iframe.getBoundingClientRect();
+                            
+                            // Calcula posição do tooltip
+                            const top = iframeRect.top + rect.bottom + 10;
+                            const left = iframeRect.left + rect.left + (rect.width / 2) - 50; // Centraliza aprox
+                            
+                            tooltip.style.top = `${top}px`;
+                            tooltip.style.left = `${left}px`;
+                            tooltip.style.display = 'block';
+                            
+                            // Guarda o texto selecionado
+                            window.floatingWindowSelection = selection.toString().trim();
+                        } else {
+                            tooltip.style.display = 'none';
+                        }
+                    });
+                    
+                    doc.addEventListener('mousedown', () => {
+                        const tooltip = document.getElementById('fc-selection-tooltip');
+                        if (tooltip) tooltip.style.display = 'none';
+                    });
+                } catch (err) {
+                    console.warn("Iframe cross-origin block para seleção de texto:", err);
+                }
             };
             
             iframe.src = url;

@@ -671,6 +671,37 @@
         </div>
     </div>
 
+    <!-- BOTAO DE TOOLTIP DE SELECAO -->
+    <div id="fc-selection-tooltip" style="display:none; position:fixed; z-index:9998;">
+        <button class="btn-primary btn-sm" onclick="abrirJanelaFlutuante()"><i class="ph ph-lightning"></i> Criar Card</button>
+    </div>
+
+    <!-- JANELA FLUTUANTE DE CRIAR CARD -->
+    <div id="fc-floating-window" class="glass-panel" style="display:none; position:fixed; top: 100px; right: 50px; width: 400px; z-index:9999; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.3); padding: 0;">
+        <div id="fc-floating-header" style="padding: 10px 15px; cursor: move; background: rgba(0,0,0,0.1); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; border-radius: 16px 16px 0 0;">
+            <h4 style="margin: 0; font-size: 0.95rem; display: flex; align-items: center; gap: 6px; color: var(--text-main);"><i class="ph ph-cards"></i> Flash Card Rápido</h4>
+            <button class="btn-icon btn-sm" onclick="fecharJanelaFlutuante()"><i class="ph ph-x"></i></button>
+        </div>
+        <div style="padding: 15px;">
+            <div class="fc-form-group" style="margin-bottom: 10px;">
+                <label><i class="ph ph-books"></i> Baralho</label>
+                <select id="fc-floating-deck" class="fc-premium-input" style="padding: 8px;">
+                </select>
+            </div>
+            <div class="fc-form-group" style="margin-bottom: 10px;">
+                <label><i class="ph ph-question"></i> Frente (Pergunta)</label>
+                <textarea id="fc-floating-front" class="fc-premium-textarea" rows="2" style="min-height: 60px;"></textarea>
+            </div>
+            <div class="fc-form-group" style="margin-bottom: 15px;">
+                <label><i class="ph ph-lightbulb"></i> Verso (Resposta)</label>
+                <textarea id="fc-floating-back" class="fc-premium-textarea" rows="4" style="min-height: 80px;"></textarea>
+            </div>
+            <div style="display: flex; justify-content: flex-end;">
+                <button class="btn-primary" onclick="salvarCardFlutuante()"><i class="ph ph-check-circle"></i> Salvar no Baralho</button>
+            </div>
+        </div>
+    </div>
+
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=25"></script>
     <script src="flashcards.js?v=1"></script>

@@ -786,3 +786,100 @@ function abrirModalStats() {
 function fecharModalStats() {
     document.getElementById('fc-modal-stats').classList.remove('is-open');
 }
+
+// ==========================================
+// JANELA FLUTUANTE (CRIACAO RAPIDA)
+// ==========================================
+let floatingWindowSelection = '';
+
+function abrirJanelaFlutuante() { const texto = window.floatingWindowSelection || "";
+    const win = document.getElementById('fc-floating-window');
+    win.style.display = 'flex';
+    
+    // Esconde o tooltip
+    document.getElementById('fc-selection-tooltip').style.display = 'none';
+    
+    // Atualiza opções de baralho
+    const select = document.getElementById('fc-floating-deck');
+    let disciplinas = [];
+    if (typeof bancoQuestoes !== 'undefined') {
+        disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))];
+    }
+    const existingDecks = flashcards.map(c => c.deck);
+    const options = [...new Set([...disciplinas, ...existingDecks])].filter(Boolean).sort();
+    
+    select.innerHTML = '<option value=\"\" disabled selected>Selecione um baralho...</option>';
+    options.forEach(opt => {
+        select.innerHTML += \<option value=\"\\">\</option>\;
+    });
+    
+    // Preenche campos
+    document.getElementById('fc-floating-front').value = '';
+    
+    if (texto) {
+        document.getElementById('fc-floating-back').value = texto;
+    }
+}
+
+function fecharJanelaFlutuante() {
+    document.getElementById('fc-floating-window').style.display = 'none';
+}
+
+function salvarCardFlutuante() {
+    const deck = document.getElementById('fc-floating-deck').value;
+    const front = document.getElementById('fc-floating-front').value;
+    const back = document.getElementById('fc-floating-back').value;
+    
+    if (!deck) {
+        alert("Selecione um baralho!");
+        return;
+    }
+    if (!front || !back) {
+        alert("Preencha frente e verso!");
+        return;
+    }
+    
+    criarCard(deck, front, back);
+    
+    // Feedback visual
+    const btn = document.querySelector('#fc-floating-window .btn-primary');
+    const oldText = btn.innerHTML;
+    btn.innerHTML = '<i class=\"ph ph-check\"></i> Salvo!';
+    btn.style.backgroundColor = '#10b981';
+    
+    setTimeout(() => {
+        btn.innerHTML = oldText;
+        btn.style.backgroundColor = '';
+        document.getElementById('fc-floating-front').value = '';
+        document.getElementById('fc-floating-back').value = '';
+    }, 1500);
+}
+
+// Lógica de arrastar a janela (Drag)
+document.addEventListener('DOMContentLoaded', () => {
+    const floatingWin = document.getElementById('fc-floating-window');
+    const header = document.getElementById('fc-floating-header');
+    
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    header.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        offsetX = e.clientX - floatingWin.getBoundingClientRect().left;
+        offsetY = e.clientY - floatingWin.getBoundingClientRect().top;
+        document.body.style.userSelect = 'none'; // Evitar selecionar texto ao arrastar
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        floatingWin.style.left = \\px\;
+        floatingWin.style.top = \\px\;
+        floatingWin.style.right = 'auto'; // Remove o right padrão
+    });
+
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+        document.body.style.userSelect = '';
+    });
+});
+
