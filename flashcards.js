@@ -420,6 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('fc-file-import').addEventListener('change', importarDecks);
 });
 
+
 // ==========================================
 // GERENCIAR CARDS
 // ==========================================
@@ -428,9 +429,9 @@ function abrirModalGerenciar() {
     const select = document.getElementById('fc-filter-deck-gerenciar');
     const decks = [...new Set(flashcards.map(c => c.deck))].sort();
     
-    select.innerHTML = '<option value=\"\">Todos os Baralhos</option>';
+    select.innerHTML = '<option value="">Todos os Baralhos</option>';
     decks.forEach(d => {
-        select.innerHTML += \<option value=\"\\">\</option>\;
+        select.innerHTML += `<option value="${d}">${d}</option>`;
     });
     
     document.getElementById('fc-search-gerenciar').value = '';
@@ -461,7 +462,7 @@ function renderGerenciarLista() {
     });
     
     if (cards.length === 0) {
-        tbody.innerHTML = '<tr><td colspan=\"4\" style=\"text-align:center; padding: 20px; color: var(--text-muted);\">Nenhum card encontrado.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding: 20px; color: var(--text-muted);">Nenhum card encontrado.</td></tr>';
         return;
     }
     
@@ -469,20 +470,20 @@ function renderGerenciarLista() {
         const isNew = c.reviews === 0;
         const isDue = c.due <= Date.now();
         let status = '';
-        if (isNew) status = '<span class=\"fc-badge new\">Novo</span>';
-        else if (isDue) status = '<span class=\"fc-badge due\">A Revisar</span>';
-        else status = \<span class=\"fc-badge total\">Em \ dias</span>\;
+        if (isNew) status = '<span class="fc-badge new">Novo</span>';
+        else if (isDue) status = '<span class="fc-badge due">A Revisar</span>';
+        else status = `<span class="fc-badge total">Em ${Math.ceil((c.due - Date.now()) / (1000 * 60 * 60 * 24))} dias</span>`;
 
         const tr = document.createElement('tr');
-        tr.innerHTML = \
-            <td><div style=\"max-height: 60px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;\">\</div></td>
-            <td>\</td>
-            <td>\</td>
+        tr.innerHTML = `
+            <td><div style="max-height: 60px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${formatText(c.front)}</div></td>
+            <td>${c.deck}</td>
+            <td>${status}</td>
             <td>
-                <button class=\"btn-secondary btn-sm\" onclick=\"editarCardGerenciamento('\')\"><i class=\"ph ph-pencil\"></i></button>
-                <button class=\"btn-danger btn-sm\" onclick=\"excluirCardUnico('\')\"><i class=\"ph ph-trash\"></i></button>
+                <button class="btn-secondary btn-sm" onclick="editarCardGerenciamento('${c.id}')"><i class="ph ph-pencil"></i></button>
+                <button class="btn-danger btn-sm" onclick="excluirCardUnico('${c.id}')"><i class="ph ph-trash"></i></button>
             </td>
-        \;
+        `;
         tbody.appendChild(tr);
     });
 }
@@ -491,13 +492,10 @@ function editarCardGerenciamento(id) {
     const card = flashcards.find(c => c.id === id);
     if (!card) return;
     
-    // Abre o modal de Novo Card e preenche com os dados
     abrirModalNovoCard();
-    
     document.getElementById('fc-card-id').value = card.id;
     
     const select = document.getElementById('fc-input-deck-select');
-    // Verifica se a option existe, senão cai pro custom
     const hasOption = Array.from(select.options).some(opt => opt.value === card.deck);
     
     if (hasOption) {
@@ -514,7 +512,7 @@ function editarCardGerenciamento(id) {
 
 function excluirCardUnico(id) {
     if (confirm("Excluir este card permanentemente?")) {
-        excluirCard(id); // Já salva e atualiza o dashboard
+        excluirCard(id);
         renderGerenciarLista();
     }
 }
@@ -541,44 +539,42 @@ function abrirModalStats() {
         totalLapses += c.lapses;
     });
     
-    // Retencao (aproximada pelos acertos = reviews - lapses, div por reviews)
     let retencao = 0;
     if (totalReviews > 0) {
         retencao = Math.round(((totalReviews - totalLapses) / totalReviews) * 100);
     }
     
     const content = document.getElementById('fc-stats-content');
-    content.innerHTML = \
-        <div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;\">
-            <div class=\"fc-summary-box glass-panel\" style=\"margin-bottom: 0; flex-direction: column; align-items: flex-start; padding: 15px;\">
-                <span class=\"fc-stat-number\">\</span>
-                <span class=\"fc-stat-label\">Total de Cards</span>
+    content.innerHTML = `
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+            <div class="fc-summary-box glass-panel" style="margin-bottom: 0; flex-direction: column; align-items: flex-start; padding: 15px;">
+                <span class="fc-stat-number">${total}</span>
+                <span class="fc-stat-label">Total de Cards</span>
             </div>
-            <div class=\"fc-summary-box glass-panel\" style=\"margin-bottom: 0; flex-direction: column; align-items: flex-start; padding: 15px; background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(52, 211, 153, 0.1));\">
-                <span class=\"fc-stat-number\" style=\"color: #10b981;\">\%</span>
-                <span class=\"fc-stat-label\">Taxa de Retenção</span>
+            <div class="fc-summary-box glass-panel" style="margin-bottom: 0; flex-direction: column; align-items: flex-start; padding: 15px; background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(52, 211, 153, 0.1));">
+                <span class="fc-stat-number" style="color: #10b981;">${retencao}%</span>
+                <span class="fc-stat-label">Taxa de RetenÃ§Ã£o</span>
             </div>
         </div>
         
-        <div class=\"glass-panel\" style=\"padding: 15px;\">
-            <h4 style=\"margin-bottom: 15px; color: var(--text-muted);\">Maturidade dos Cards</h4>
-            <div style=\"display: flex; justify-content: space-between; margin-bottom: 10px;\">
+        <div class="glass-panel" style="padding: 15px;">
+            <h4 style="margin-bottom: 15px; color: var(--text-muted);">Maturidade dos Cards</h4>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
                 <span>Novos (Nunca revisados)</span>
-                <strong>\</strong>
+                <strong>${novos}</strong>
             </div>
-            <div style=\"display: flex; justify-content: space-between; margin-bottom: 10px;\">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
                 <span>Aprendendo (Intervalo &lt; 21d)</span>
-                <strong>\</strong>
+                <strong>${aprendendo}</strong>
             </div>
-            <div style=\"display: flex; justify-content: space-between;\">
+            <div style="display: flex; justify-content: space-between;">
                 <span>Maduros (Intervalo &ge; 21d)</span>
-                <strong style=\"color: #10b981;\">\</strong>
+                <strong style="color: #10b981;">${maduros}</strong>
             </div>
         </div>
-    \;
+    `;
 }
 
 function fecharModalStats() {
     document.getElementById('fc-modal-stats').classList.remove('is-open');
 }
-
