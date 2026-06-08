@@ -408,6 +408,201 @@ function formatText(text) {
     let html = text.replace(/\n/g, '<br>');
     // Negrito simples **texto**
     html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        saveFlashcards();
+    }
+    
+    currentCardIndex++;
+    mostrarCardAtual();
+}
+
+function encerrarRevisao() {
+    document.getElementById('fc-review-area').style.display = 'none';
+    document.getElementById('fc-dashboard-area').style.display = 'block';
+    renderFlashcardDashboard();
+}
+
+// UI Functions
+
+function renderFlashcardDashboard() {
+    const stats = getDeckStats();
+    let totalPendentes = 0;
+    let totalNovos = 0;
+    
+    const deckList = document.getElementById('fc-deck-list');
+    deckList.innerHTML = '';
+    
+    if (stats.length === 0) {
+        deckList.innerHTML = '<p style="color:var(--text-muted); padding:20px; text-align:center;">Nenhum baralho criado. Clique em "Novo Card" para começar!</p>';
+    } else {
+        stats.forEach(s => {
+            totalPendentes += s.due;
+            totalNovos += s.new;
+            
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${s.deck}</td>
+                <td><span class="fc-badge new">${s.new}</span></td>
+                <td><span class="fc-badge due">${s.due}</span></td>
+                <td><span class="fc-badge total">${s.total}</span></td>
+                <td>
+                    <button class="btn-primary btn-sm" onclick="iniciarRevisao('${s.deck}')">Revisar</button>
+                    <button class="btn-secondary btn-sm" onclick="exportarDeck('${s.deck}')" title="Exportar JSON"><i class="ph ph-export"></i></button>
+                    <button class="btn-danger btn-sm" onclick="excluirDeck('${s.deck}')" title="Excluir Baralho"><i class="ph ph-trash"></i></button>
+                </td>
+            `;
+            deckList.appendChild(tr);
+        });
+    }
+    
+    document.getElementById('fc-total-pendentes').textContent = totalPendentes + totalNovos;
+    document.getElementById('fc-btn-iniciar-tudo').disabled = flashcards.length === 0;
+}
+
+function abrirModalNovoCard() {
+    document.getElementById('fc-modal-card').classList.add('is-open');
+    document.getElementById('fc-form-card').reset();
+    document.getElementById('fc-card-id').value = '';
+    
+    // Obter disciplinas do banco de questões (global app.js) e decks existentes
+    let disciplinas = [];
+    if (typeof bancoQuestoes !== 'undefined') {
+        disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))];
+    }
+    const existingDecks = flashcards.map(c => c.deck);
+    
+    // Unir todas as opções únicas e ordenar
+    const options = [...new Set([...disciplinas, ...existingDecks])].filter(Boolean).sort();
+    
+    const select = document.getElementById('fc-input-deck-select');
+    select.innerHTML = '<option value="" disabled selected>Selecione um baralho...</option>';
+    
+    options.forEach(opt => {
+        select.innerHTML += `<option value="${opt}">${opt}</option>`;
+    });
+    
+    select.innerHTML += '<option value="custom">+ Novo Baralho Personalizado...</option>';
+    
+    fcToggleCustomDeck(); // Reseta a visibilidade
+}
+
+function fcToggleCustomDeck() {
+    const select = document.getElementById('fc-input-deck-select');
+    const customInput = document.getElementById('fc-input-deck-custom');
+    
+    if (select.value === 'custom') {
+        customInput.style.display = 'block';
+        customInput.setAttribute('required', 'true');
+    } else {
+        customInput.style.display = 'none';
+        customInput.removeAttribute('required');
+    }
+}
+
+function fecharModalCard() {
+    document.getElementById('fc-modal-card').classList.remove('is-open');
+}
+
+function salvarFormCard(e) {
+    e.preventDefault();
+    const id = document.getElementById('fc-card-id').value;
+    
+    const selectValue = document.getElementById('fc-input-deck-select').value;
+    const customValue = document.getElementById('fc-input-deck-custom').value;
+    
+    let deck = selectValue;
+    if (selectValue === 'custom') {
+        deck = customValue;
+    }
+    
+    if (!deck) {
+        alert("Por favor, selecione ou digite um nome para o baralho.");
+        return;
+    }
+    
+    const front = document.getElementById('fc-input-front').value;
+    const back = document.getElementById('fc-input-back').value;
+    
+    if (id) {
+        editarCard(id, deck, front, back);
+    } else {
+        criarCard(deck, front, back);
+    }
+    
+    fecharModalCard();
+}
+
+function excluirDeck(deck) {
+    if (confirm(`Tem certeza que deseja excluir o baralho "${deck}" e todos os seus cards?`)) {
+        flashcards = flashcards.filter(c => c.deck !== deck);
+        saveFlashcards();
+        renderFlashcardDashboard();
+    }
+}
+
+// Exportar e Importar
+function exportarDeck(deck) {
+    const cards = deck ? flashcards.filter(c => c.deck === deck) : flashcards;
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(cards));
+    const downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", `flashcards_${deck || 'todos'}.json`);
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+}
+
+function acionarImportacao() {
+    document.getElementById('fc-file-import').click();
+}
+
+function importarDecks(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        try {
+            const importedCards = JSON.parse(event.target.result);
+            if (!Array.isArray(importedCards)) throw new Error("Formato inválido");
+            
+            // Reatribuir IDs para evitar colisão e resetar stats de repetição (opcional)
+            let importedCount = 0;
+            importedCards.forEach(c => {
+                if (c.front && c.back) {
+                    flashcards.push({
+                        id: "fc_" + Date.now() + "_" + Math.floor(Math.random() * 10000),
+                        deck: c.deck || "Importados",
+                        front: c.front,
+                        back: c.back,
+                        created: Date.now(),
+                        interval: 0,
+                        ease: 2.5,
+                        due: Date.now(),
+                        reviews: 0,
+                        lapses: 0
+                    });
+                    importedCount++;
+                }
+            });
+            
+            saveFlashcards();
+            renderFlashcardDashboard();
+            alert(`${importedCount} flashcards importados com sucesso!`);
+        } catch (error) {
+            alert("Erro ao importar arquivo. Certifique-se de que é um JSON válido exportado deste aplicativo.");
+        }
+        e.target.value = ''; // Reset file input
+    };
+    reader.readAsText(file);
+}
+
+// Utils
+function formatText(text) {
+    if (!text) return '';
+    // Simples formatação: quebras de linha
+    let html = text.replace(/\n/g, '<br>');
+    // Negrito simples **texto**
+    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     // Itálico simples *texto*
     html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
     return html;
@@ -418,6 +613,19 @@ document.addEventListener('DOMContentLoaded', () => {
     loadFlashcards();
     document.getElementById('fc-form-card').addEventListener('submit', salvarFormCard);
     document.getElementById('fc-file-import').addEventListener('change', importarDecks);
+    
+    // Fechar modais com tecla ESC
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            const modais = ['fc-modal-card', 'fc-modal-gerenciar', 'fc-modal-stats'];
+            modais.forEach(id => {
+                const modal = document.getElementById(id);
+                if (modal && modal.classList.contains('is-open')) {
+                    modal.classList.remove('is-open');
+                }
+            });
+        }
+    });
 });
 
 
