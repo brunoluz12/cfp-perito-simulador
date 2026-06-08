@@ -153,13 +153,15 @@ async function tryLogin(username) {
                 if (result.data.materialEstudado) localStorage.setItem('pcpr_material_studied', JSON.stringify(result.data.materialEstudado));
                 if (result.data.flashcards) {
                     localStorage.setItem('pcpr_flashcards', JSON.stringify(result.data.flashcards));
-                    if (typeof loadFlashcards === 'function') loadFlashcards();
                 }
             }
         }
     } catch (e) {
         console.error("Erro ao buscar dados na nuvem. Usando dados locais como fallback.", e);
     }
+    
+    // Garantir que a variável em memória flashcards seja atualizada
+    if (typeof loadFlashcards === 'function') loadFlashcards();
     
     currentUser = user;
     localStorage.setItem('pcpr_current_user', user);

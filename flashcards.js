@@ -19,6 +19,11 @@ function loadFlashcards() {
             console.error("Erro ao carregar flashcards:", e);
             flashcards = [];
         }
+    } else {
+        flashcards = [];
+    }
+    if (typeof renderFlashcardDashboard === 'function') {
+        renderFlashcardDashboard();
     }
 }
 
@@ -236,7 +241,7 @@ function renderFlashcardDashboard() {
 }
 
 function abrirModalNovoCard() {
-    document.getElementById('fc-modal-card').classList.add('active');
+    document.getElementById('fc-modal-card').classList.add('is-open');
     document.getElementById('fc-form-card').reset();
     document.getElementById('fc-card-id').value = '';
     
@@ -247,7 +252,7 @@ function abrirModalNovoCard() {
 }
 
 function fecharModalCard() {
-    document.getElementById('fc-modal-card').classList.remove('active');
+    document.getElementById('fc-modal-card').classList.remove('is-open');
 }
 
 function salvarFormCard(e) {
