@@ -2119,12 +2119,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event.data && event.data.type === 'resize-iframe') {
             if (iframeContainer && iframeContainer.style.display !== 'none') {
                 const newHeight = event.data.height;
-                const lastHeight = parseInt(iframe.dataset.lastHeight || '0');
-                
-                // Previne o loop infinito de crescimento:
-                if (Math.abs(newHeight - lastHeight) > 30) {
-                    iframe.dataset.lastHeight = newHeight.toString();
-                    iframe.style.height = (newHeight + 20) + 'px';
+                if (newHeight && newHeight > 50) {
+                    iframe.style.height = newHeight + 'px';
                 }
             }
         }

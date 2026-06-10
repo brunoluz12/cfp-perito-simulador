@@ -164,5 +164,21 @@ ul li { margin-bottom: 0.4rem; }
 <script>
 window.addEventListener('load', () => { try { if (window.parent) window.parent.postMessage({ type:'resize', height: document.body.scrollHeight }, '*'); } catch(e){} });
 </script>
+
+<script>
+  function sendHeight() {
+    var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+    var height = container.offsetHeight + 40;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+  }
+  window.addEventListener('load', function() {
+    setTimeout(sendHeight, 100);
+  });
+  window.addEventListener('resize', sendHeight);
+  if (typeof MutationObserver !== 'undefined') {
+    var observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+  }
+</script>
 </body>
 </html>

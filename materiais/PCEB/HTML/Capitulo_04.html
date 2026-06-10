@@ -438,16 +438,21 @@
 
 </div>
 <script>
-function sendHeight() {
-    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+  function sendHeight() {
+    // Use the container's actual height, not scrollHeight which includes viewport
+    var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+    var height = container.offsetHeight + 40; // 40px padding
     window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
-}
-window.addEventListener('load', sendHeight);
-window.addEventListener('resize', sendHeight);
-if(typeof MutationObserver !== 'undefined') {
-    const observer = new MutationObserver(sendHeight);
+  }
+  window.addEventListener('load', function() {
+    // Small delay to ensure all images and styles are rendered
+    setTimeout(sendHeight, 100);
+  });
+  window.addEventListener('resize', sendHeight);
+  if (typeof MutationObserver !== 'undefined') {
+    var observer = new MutationObserver(sendHeight);
     observer.observe(document.body, { childList: true, subtree: true, attributes: true });
-}
+  }
 </script>
 </body>
 </html>

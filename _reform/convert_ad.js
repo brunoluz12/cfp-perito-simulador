@@ -42,12 +42,23 @@ questoesDB.forEach((q, i) => {
     const r = manual.get(q.id);
     let alts, resp;
     if (r.alternativas) {
-      // entrada completa: usa alternativas/resposta fornecidas (casos resposta=E ou reescrita)
+      // entrada completa: usa alternativas/resposta fornecidas (reescrita total)
       alts = r.alternativas;
       resp = r.resposta_correta;
+    } else if (r.dropLetter) {
+      // entrada leve {id, dropLetter, justificativa}: remove o distrator dropLetter,
+      // renumera as 4 restantes em ordem para A-D e remapeia a resposta correta.
+      const order = ['A', 'B', 'C', 'D', 'E'];
+      if (!order.includes(r.dropLetter)) { errors.push(`id ${q.id}: dropLetter inválido`); return; }
+      if (r.dropLetter === q.resposta_correta) { errors.push(`id ${q.id}: dropLetter não pode ser a resposta correta`); return; }
+      const kept = order.filter(k => k !== r.dropLetter && q.alternativas[k] != null);
+      if (kept.length !== 4) { errors.push(`id ${q.id}: apos remover ${r.dropLetter} nao restaram 4 alternativas`); return; }
+      alts = {}; let newResp = null;
+      kept.forEach((k, idx) => { const nl = order[idx]; alts[nl] = q.alternativas[k]; if (k === q.resposta_correta) newResp = nl; });
+      resp = r.resposta_correta || newResp;
     } else {
       // entrada leve {id, justificativa}: apenas remove E, mantém A-D do original
-      if (q.resposta_correta === 'E') { errors.push(`id ${q.id}: manual leve (sem alternativas) mas resposta=E — precisa de alternativas/resposta`); return; }
+      if (q.resposta_correta === 'E') { errors.push(`id ${q.id}: manual leve (sem alternativas) mas resposta=E — use dropLetter ou alternativas`); return; }
       alts = { A: q.alternativas.A, B: q.alternativas.B, C: q.alternativas.C, D: q.alternativas.D };
       resp = r.resposta_correta || q.resposta_correta;
     }

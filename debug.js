@@ -1,0 +1,13 @@
+const fs = require('fs');
+const html = fs.readFileSync('../NOVO/PCF at\xe9 semana 8.html', 'utf-8');
+const pages = html.split('<div class=\"print-page\">');
+const page = pages.find(p => p.includes('PCF - TURMA C'));
+const tableMatch = page.match(/<table[^>]*>([\s\S]*?)<\/table>/);
+const tableHtml = tableMatch[1];
+const trsMatch = tableHtml.match(/<tr[^>]*>([\s\S]*?)<\/tr>/g);
+const cells1 = trsMatch[1].match(/<td[^>]*>([\s\S]*?)<\/td>/g);
+console.log('--- EVENTO ---');
+console.log(cells1[1]);
+const cells2 = trsMatch[4].match(/<td[^>]*>([\s\S]*?)<\/td>/g);
+console.log('--- CRI ---');
+console.log(cells2[1]);
