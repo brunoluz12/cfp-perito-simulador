@@ -1,0 +1,83 @@
+[
+  {
+    "id": 624,
+    "alternativas": {
+      "A": "Nas gravações a laser, a recuperação é sempre possível pelo método de tratamento térmico, pois o aquecimento original do feixe já teria preparado o substrato para o relaxamento das tensões residuais e a recristalização.",
+      "B": "A gravação a laser produz zona de deformação plástica com penetração superior àquela observada nas gravações por estampagem, o que favorece a restauração pelo reagente de Fry.",
+      "C": "A zona termicamente afetada nas gravações a laser alcança cerca de 6 vezes a profundidade da cavidade, sendo a técnica de ataque químico a mais indicada para sua restauração.",
+      "D": "Na gravação a laser, o calor do feixe cria zona termicamente afetada de 2 a 25 µm abaixo da cavidade, tornando a recuperação dos códigos suprimidos frequentemente impraticável."
+    }
+  },
+  {
+    "id": 625,
+    "alternativas": {
+      "A": "O pressuposto é que a remoção mecânica jamais atinge a zona de deformação elástica, sendo essa a única zona explorada pelos métodos periciais para revelação dos caracteres.",
+      "B": "Os métodos pressupõem que a gravação original, ao deformar ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura, exploráveis por diferentes técnicas mesmo após a supressão aparente dos caracteres.",
+      "C": "Os métodos são exclusivamente destrutivos, incluindo apenas o ataque químico, o ataque eletrolítico e o tratamento térmico, sem qualquer alternativa não destrutiva disponível na prática pericial cotidiana dos institutos.",
+      "D": "O pressuposto é que a tinta utilizada para preenchimento da cavidade reage quimicamente com o reagente aplicado, permitindo a revelação do código por contraste cromático na superfície polida."
+    }
+  },
+  {
+    "id": 626,
+    "alternativas": {
+      "A": "O método se apoia no fato de que a área trabalhada a frio possui dureza igual à do metal circundante, sendo o contraste obtido apenas pela diferença de coloração depositada pelo reagente sobre a superfície previamente limpa e polida da peça metálica examinada pelo perito.",
+      "B": "O reagente de Fry, utilizado para ligas de aço, é composto por 90 g de CuCl2, 120 ml de HCl e 100 ml de H2O, sendo sua aplicação realizada por imersão obrigatória da peça em recipiente fechado por 24 horas.",
+      "C": "O método explora a diferença na taxa de reação entre áreas afetadas e não afetadas pela marcação, revelando os caracteres pela refletividade; em aço, usa-se o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O) em algodão embebido.",
+      "D": "O ataque químico produz reação uniforme em toda a superfície metálica, sendo o contraste obtido apenas pela ação mecânica do algodão sobre a área tratada, e não pela diferença de comportamento do substrato."
+    }
+  },
+  {
+    "id": 627,
+    "alternativas": {
+      "A": "O sucesso da técnica decorre da ausência de tensão residual abaixo da área deformada, o que permitiria ao calor produzir uma deformação adicional capaz de revelar, por contraste, os caracteres originais suprimidos do substrato metálico.",
+      "B": "O método consiste em resfriar bruscamente a área examinada com nitrogênio líquido até a contração da estrutura cristalina, permitindo o reaparecimento dos caracteres por contraste térmico.",
+      "C": "Após o aquecimento, a área deve ser polida com diamante e alumina até acabamento espelhado, sem qualquer remoção de óxidos, pois a camada oxidada é o próprio elemento de contraste utilizado na revelação.",
+      "D": "O sucesso decorre da tensão residual abaixo da área deformada; aplica-se calor até o metal enrubescer, com relaxamento das tensões e recristalização, surgindo protuberância ao redor da deformação; depois lixa-se suavemente a área."
+    }
+  },
+  {
+    "id": 628,
+    "alternativas": {
+      "A": "Materiais de durezas diferentes são removidos em taxas diferentes; inicia-se removendo graxas, pintura e sujeira e poli-se com abrasivo fino até acabamento espelhado, podendo-se usar diamante ou alumina como agente polidor.",
+      "B": "A técnica fundamenta-se na uniformidade de dureza entre a região marcada e o substrato circundante, sendo o objetivo do polimento eliminar por completo essa uniformidade para então revelar, por contraste óptico, os caracteres suprimidos.",
+      "C": "O polimento deve ser realizado com abrasivo grosso, sem necessidade de remoção prévia de graxas e pinturas, sendo o acabamento espelhado contraindicado por mascarar os caracteres a serem revelados.",
+      "D": "O polimento exige obrigatoriamente o uso de reagente de Fry como agente polidor, e seu uso é restrito a gravações por estampagem, sendo inadequado para gravações a laser."
+    }
+  },
+  {
+    "id": 693,
+    "alternativas": {
+      "A": "Apenas a zona de deformação elástica é permanente no substrato e serve de base para a restauração pericial dos caracteres que foram obliterados.",
+      "B": "São duas zonas: a de deformação elástica (não permanente) e a de deformação plástica (permanente), explorada nas técnicas de restauração.",
+      "C": "A zona de deformação plástica é temporária e desaparece logo após a gravação, restando apenas a elástica.",
+      "D": "Apenas em gravações a laser surge a zona de deformação plástica; em gravações por deformação ela inexiste."
+    }
+  },
+  {
+    "id": 695,
+    "alternativas": {
+      "A": "Polimento com alumina até acabamento espelhado, por se tratar de bloco de ferro fundido com baixa dureza superficial e boa resposta ao abrasivo fino.",
+      "B": "Cavitação ultrassônica, único método indicado para ferro fundido conforme o PVAT.",
+      "C": "Aplicação direta do reagente de Fry, sem necessidade de lixamento posterior.",
+      "D": "Tratamento térmico, que se vale da tensão residual abaixo da área deformada, aplicando calor até o metal enrubescer."
+    }
+  },
+  {
+    "id": 697,
+    "alternativas": {
+      "A": "Deve ser realizado diretamente sobre a peça suja, sem qualquer preparação ou limpeza prévia, a fim de preservar integralmente a zona de deformação plástica subjacente à marcação original.",
+      "B": "É um método exclusivo para gravações por estampagem profunda, sendo ineficaz em gravações a laser.",
+      "C": "Prevê a remoção de graxas, pintura e sujeira e o polimento com abrasivo fino até acabamento espelhado (diamante ou alumina), com casos de sucesso inclusive em gravações a laser.",
+      "D": "Utiliza obrigatoriamente o reagente de Fry como agente polidor para criar contraste óptico."
+    }
+  },
+  {
+    "id": 698,
+    "alternativas": {
+      "A": "A zona de deformação plástica em aço alcança até 2 vezes a profundidade da marcação, sendo, por isso, facilmente removida por simples abrasão superficial em chapas finas de cerca de 0,7 mm de espessura.",
+      "B": "A zona de deformação plástica em aço chega a 6 vezes a profundidade da marcação; com VIN de 0,2 mm e chapa de ~0,7 mm, remover completamente essa zona por abrasão é, em regra, inviável.",
+      "C": "A profundidade regulamentar do VIN é de 0,7 mm e a espessura da chapa, de 0,2 mm, motivo pelo qual a obliteração é sempre total.",
+      "D": "Em chapas de 0,7 mm, a zona termicamente afetada substitui a zona de deformação plástica, viabilizando a restauração apenas por tratamento térmico."
+    }
+  }
+]

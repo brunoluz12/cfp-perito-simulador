@@ -1,0 +1,29 @@
+[
+  {
+    "id": 632,
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III e V.",
+      "C": "Itens I, II, IV e V.",
+      "D": "I, III, IV e V."
+    }
+  },
+  {
+    "id": 701,
+    "alternativas": {
+      "A": "Desconsiderar a classificação de danos do Contran, por se referir a matéria exclusivamente administrativa, e atribuir um deságio único baseado apenas na genérica faixa de 'bom estado' de conservação do veículo.",
+      "B": "Aplicar deságio fixo de 50% em qualquer veículo sinistrado, independentemente da monta do dano, por padronização técnica.",
+      "C": "Classificar os danos como de pequena, média ou grande monta conforme a regulamentação do Contran, integrando essa classificação ao estado de conservação e à etapa de valoração.",
+      "D": "Substituir a avaliação do estado de conservação por uma única estimativa estritamente baseada na tabela FIPE, sem deságios, deixando a apuração dos danos para a seguradora."
+    }
+  },
+  {
+    "id": 702,
+    "alternativas": {
+      "A": "Deve-se atribuir valor zero ao veículo, por inexistência de referência na tabela FIPE.",
+      "B": "A avaliação fica obrigatoriamente sobrestada até a publicação de tabela oficial específica para o modelo importado.",
+      "C": "A avaliação deve ser feita exclusivamente com base no valor unilateralmente declarado pelo proprietário do veículo, sendo vedada qualquer comparação, analogia ou estimativa por metodologia alternativa.",
+      "D": "A avaliação pode ser feita por analogia com similares no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia tecnicamente adequada e justificada."
+    }
+  }
+]

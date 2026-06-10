@@ -8229,10 +8229,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em determinada perícia, o examinador identifica que a gravação do código identificador foi realizada originalmente a laser, e observa que o fraudador removeu a região marcada. Sobre as particularidades da gravação a laser frente às técnicas de restauração tradicionais, assinale a alternativa correta:",
     "alternativas": {
-      "A": "Nas gravações a laser, a recuperação é sempre possível pelo método de tratamento térmico, pois o aquecimento original já preparou o substrato para o relaxamento das tensões residuais.",
+      "A": "Nas gravações a laser, a recuperação é sempre possível pelo método de tratamento térmico, pois o aquecimento original do feixe já teria preparado o substrato para o relaxamento das tensões residuais e a recristalização.",
       "B": "A gravação a laser produz zona de deformação plástica com penetração superior àquela observada nas gravações por estampagem, o que favorece a restauração pelo reagente de Fry.",
       "C": "A zona termicamente afetada nas gravações a laser alcança cerca de 6 vezes a profundidade da cavidade, sendo a técnica de ataque químico a mais indicada para sua restauração.",
-      "D": "Na gravação a laser, o calor do feixe altera a microestrutura subjacente em uma zona termicamente afetada cuja profundidade varia de 2 a 25 µm abaixo da cavidade, o que torna a recuperação dos códigos suprimidos frequentemente impraticável."
+      "D": "Na gravação a laser, o calor do feixe cria zona termicamente afetada de 2 a 25 µm abaixo da cavidade, tornando a recuperação dos códigos suprimidos frequentemente impraticável."
     },
     "resposta_correta": "D",
     "justificativa": "Segundo o material: 'Nas gravações a laser, a quantidade de calor fornecida pelo feixe é capaz de fundir o material, bem como alterar a microestrutura subjacente à gravação, em um fenômeno conhecido como zona termicamente afetada, cuja profundidade varia de 2 a 25µm abaixo da cavidade da gravação. Em decorrência da pouca profundidade da penetração da zona afetada, a recuperação dos códigos suprimidos é frequentemente impraticável'.",
@@ -8247,8 +8247,8 @@
     "enunciado": "Os métodos de restauração de códigos identificadores obliterados são tradicionalmente classificados pela literatura pericial e baseiam-se em um pressuposto comum. Sobre esse pressuposto e a classificação dos métodos, assinale a alternativa CORRETA:",
     "alternativas": {
       "A": "O pressuposto é que a remoção mecânica jamais atinge a zona de deformação elástica, sendo essa a única zona explorada pelos métodos periciais para revelação dos caracteres.",
-      "B": "Os métodos baseiam-se no pressuposto de que a gravação original, ao deformar mecanicamente ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura do material, que podem ser explorados por diferentes técnicas mesmo após a supressão aparente dos caracteres.",
-      "C": "Os métodos são exclusivamente destrutivos, incluindo apenas o ataque químico, o ataque eletrolítico e o tratamento térmico, sem qualquer alternativa não destrutiva disponível na prática pericial.",
+      "B": "Os métodos pressupõem que a gravação original, ao deformar ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura, exploráveis por diferentes técnicas mesmo após a supressão aparente dos caracteres.",
+      "C": "Os métodos são exclusivamente destrutivos, incluindo apenas o ataque químico, o ataque eletrolítico e o tratamento térmico, sem qualquer alternativa não destrutiva disponível na prática pericial cotidiana dos institutos.",
       "D": "O pressuposto é que a tinta utilizada para preenchimento da cavidade reage quimicamente com o reagente aplicado, permitindo a revelação do código por contraste cromático na superfície polida."
     },
     "resposta_correta": "B",
@@ -8263,9 +8263,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "O ataque químico é o método mais amplamente utilizado pela perícia criminal para recuperação de códigos obliterados em substratos metálicos. Sobre o mecanismo de ação do ataque químico e o reagente comumente empregado em ligas de aço, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "O método se apoia no fato de que a área trabalhada a frio possui dureza igual à do metal circundante, sendo o contraste obtido apenas pela diferença de coloração depositada pelo reagente sobre a superfície limpa.",
+      "A": "O método se apoia no fato de que a área trabalhada a frio possui dureza igual à do metal circundante, sendo o contraste obtido apenas pela diferença de coloração depositada pelo reagente sobre a superfície previamente limpa e polida da peça metálica examinada pelo perito.",
       "B": "O reagente de Fry, utilizado para ligas de aço, é composto por 90 g de CuCl2, 120 ml de HCl e 100 ml de H2O, sendo sua aplicação realizada por imersão obrigatória da peça em recipiente fechado por 24 horas.",
-      "C": "O método explora a diferenciação na taxa de reação entre as áreas afetadas e as não afetadas pela marcação, tornando os caracteres removidos visíveis em razão da diferença na refletividade da luz; para ligas de aço, comumente se utiliza o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O), aplicado em algodão embebido.",
+      "C": "O método explora a diferença na taxa de reação entre áreas afetadas e não afetadas pela marcação, revelando os caracteres pela refletividade; em aço, usa-se o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O) em algodão embebido.",
       "D": "O ataque químico produz reação uniforme em toda a superfície metálica, sendo o contraste obtido apenas pela ação mecânica do algodão sobre a área tratada, e não pela diferença de comportamento do substrato."
     },
     "resposta_correta": "C",
@@ -8280,10 +8280,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Um perito recebe para exame o bloco de um motor com indícios de obliteração do número identificador. Considerando que o ferro fundido é o material tipicamente empregado em blocos de motores, o examinador opta pelo tratamento térmico como técnica de restauração. Sobre os fundamentos e procedimentos dessa técnica, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "O sucesso da técnica decorre da ausência de tensão residual abaixo da área deformada, o que permite ao calor produzir uma deformação adicional capaz de revelar os caracteres originais.",
+      "A": "O sucesso da técnica decorre da ausência de tensão residual abaixo da área deformada, o que permitiria ao calor produzir uma deformação adicional capaz de revelar, por contraste, os caracteres originais suprimidos do substrato metálico.",
       "B": "O método consiste em resfriar bruscamente a área examinada com nitrogênio líquido até a contração da estrutura cristalina, permitindo o reaparecimento dos caracteres por contraste térmico.",
       "C": "Após o aquecimento, a área deve ser polida com diamante e alumina até acabamento espelhado, sem qualquer remoção de óxidos, pois a camada oxidada é o próprio elemento de contraste utilizado na revelação.",
-      "D": "O sucesso da técnica deve-se à presença de tensão residual abaixo da área deformada; o método consiste na aplicação de calor até o metal enrubescer, com relaxamento das tensões residuais e recristalização, surgindo protuberância ao redor da deformação; após o aquecimento, a área deve ser suavemente lixada para remover óxidos."
+      "D": "O sucesso decorre da tensão residual abaixo da área deformada; aplica-se calor até o metal enrubescer, com relaxamento das tensões e recristalização, surgindo protuberância ao redor da deformação; depois lixa-se suavemente a área."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme o texto: 'Trata-se de uma técnica especialmente adequada para restauração de números obliterados em ferro fundido (normalmente utilizado em blocos de motores). O sucesso da técnica se deve à presença de tensão residual abaixo da área deformada. O método consiste na aplicação de calor na área estudada até o metal enrubescer. Como resultado, há o relaxamento das tensões residuais, com a recristalização da estrutura do metal, que permite o surgimento de protuberância na área ao redor da deformação. Após o aquecimento, a área deve ser suavemente lixada para remover camadas de óxido depositadas sobre os caracteres revelados'.",
@@ -8297,8 +8297,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a técnica de polimento como método de restauração de gravações em substratos metálicos, considere as afirmativas e assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "A técnica fundamenta-se no fato de que materiais com diferentes durezas são removidos em taxas diferenciadas, sendo o procedimento iniciado com a remoção de graxas, pintura e sujeira, seguido de polimento com abrasivo fino até obtenção de acabamento espelhado, podendo ser utilizados como agente polidor o diamante e a alumina.",
-      "B": "A técnica fundamenta-se na uniformidade de dureza entre a região marcada e o substrato circundante, sendo o objetivo do polimento eliminar essa uniformidade para revelar os caracteres.",
+      "A": "Materiais de durezas diferentes são removidos em taxas diferentes; inicia-se removendo graxas, pintura e sujeira e poli-se com abrasivo fino até acabamento espelhado, podendo-se usar diamante ou alumina como agente polidor.",
+      "B": "A técnica fundamenta-se na uniformidade de dureza entre a região marcada e o substrato circundante, sendo o objetivo do polimento eliminar por completo essa uniformidade para então revelar, por contraste óptico, os caracteres suprimidos.",
       "C": "O polimento deve ser realizado com abrasivo grosso, sem necessidade de remoção prévia de graxas e pinturas, sendo o acabamento espelhado contraindicado por mascarar os caracteres a serem revelados.",
       "D": "O polimento exige obrigatoriamente o uso de reagente de Fry como agente polidor, e seu uso é restrito a gravações por estampagem, sendo inadequado para gravações a laser."
     },
@@ -8331,8 +8331,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o deslocamento metodológico essencial que se impõe à perícia diante do cenário contemporâneo de ampla disponibilidade de equipamentos e insumos para fraude de códigos identificadores, assinale a alternativa que reflete a abordagem técnico-pericial CORRETA:",
     "alternativas": {
-      "A": "Diante de equipamentos modernos capazes de produzir alinhamento e repetibilidade, a inspeção visual superficial passou a ser suficiente para a conclusão pericial, dispensando comparação com padrões industriais.",
-      "B": "A avaliação pericial deve verificar a compatibilidade entre o método de gravação observado, o padrão industrial original do fabricante, a época de produção do veículo e as normas técnicas vigentes à época, pois equipamentos contemporâneos e gabaritos permitem adulterações visualmente regulares, exigindo análise criteriosa e comparativa.",
+      "A": "Diante de equipamentos modernos capazes de produzir alinhamento e repetibilidade, a inspeção visual superficial passou a ser suficiente para a conclusão pericial, dispensando qualquer comparação com padrões industriais do fabricante ou com a época de produção.",
+      "B": "A avaliação deve verificar a compatibilidade entre o método de gravação observado, o padrão industrial do fabricante, a época de produção e as normas vigentes, pois equipamentos atuais e gabaritos permitem adulterações visualmente regulares.",
       "C": "A presença de etiquetas com tipografia e layout semelhantes aos originais é, por si só, garantia de autenticidade, dispensando análises adicionais por parte do perito.",
       "D": "A análise deve restringir-se à verificação da existência física do número gravado, sendo irrelevante a confrontação com o padrão industrial do fabricante ou com a época de produção do veículo."
     },
@@ -8367,7 +8367,7 @@
     "alternativas": {
       "A": "I, II e III.",
       "B": "II, III e V.",
-      "C": "I, II, IV e V.",
+      "C": "Itens I, II, IV e V.",
       "D": "I, III, IV e V."
     },
     "resposta_correta": "D",
@@ -9420,8 +9420,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as zonas de deformação resultantes do processo de gravação por deformação no metal, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Apenas a zona de deformação elástica é permanente e serve de base para a restauração pericial.",
-      "B": "São duas zonas: a de deformação elástica (não permanente) e a de deformação plástica (permanente), sendo esta última explorada nas técnicas de restauração.",
+      "A": "Apenas a zona de deformação elástica é permanente no substrato e serve de base para a restauração pericial dos caracteres que foram obliterados.",
+      "B": "São duas zonas: a de deformação elástica (não permanente) e a de deformação plástica (permanente), explorada nas técnicas de restauração.",
       "C": "A zona de deformação plástica é temporária e desaparece logo após a gravação, restando apenas a elástica.",
       "D": "Apenas em gravações a laser surge a zona de deformação plástica; em gravações por deformação ela inexiste."
     },
@@ -9454,7 +9454,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Um perito recebe um bloco de motor de ferro fundido com a numeração obliterada. Considerando a indicação técnica dos métodos descritos no PVAT, qual técnica é especialmente adequada para esse caso?",
     "alternativas": {
-      "A": "Polimento com alumina até acabamento espelhado, por se tratar de ferro fundido.",
+      "A": "Polimento com alumina até acabamento espelhado, por se tratar de bloco de ferro fundido com baixa dureza superficial e boa resposta ao abrasivo fino.",
       "B": "Cavitação ultrassônica, único método indicado para ferro fundido conforme o PVAT.",
       "C": "Aplicação direta do reagente de Fry, sem necessidade de lixamento posterior.",
       "D": "Tratamento térmico, que se vale da tensão residual abaixo da área deformada, aplicando calor até o metal enrubescer."
@@ -9488,9 +9488,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Acerca do método de polimento para revelação de gravações suprimidas, é correto afirmar que:",
     "alternativas": {
-      "A": "Deve ser realizado diretamente sobre a peça suja, sem qualquer preparação, para preservar a zona de deformação plástica.",
+      "A": "Deve ser realizado diretamente sobre a peça suja, sem qualquer preparação ou limpeza prévia, a fim de preservar integralmente a zona de deformação plástica subjacente à marcação original.",
       "B": "É um método exclusivo para gravações por estampagem profunda, sendo ineficaz em gravações a laser.",
-      "C": "Prevê a remoção prévia de graxas, pintura e sujeira, seguida do polimento com abrasivo fino até acabamento espelhado, podendo-se usar diamante ou alumina, sendo relatados casos de sucesso inclusive em gravações a laser.",
+      "C": "Prevê a remoção de graxas, pintura e sujeira e o polimento com abrasivo fino até acabamento espelhado (diamante ou alumina), com casos de sucesso inclusive em gravações a laser.",
       "D": "Utiliza obrigatoriamente o reagente de Fry como agente polidor para criar contraste óptico."
     },
     "resposta_correta": "C",
@@ -9505,8 +9505,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Considerando a profundidade de penetração da zona de deformação plástica em ligas de aço, a profundidade regulamentar do VIN e a espessura usual das chapas automotivas mencionadas no PVAT, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A zona de deformação plástica em aço alcança até 2 vezes a profundidade da marcação, sendo facilmente removida por abrasão em chapas de 0,7 mm.",
-      "B": "A zona de deformação plástica em aço alcança até 6 vezes a profundidade da marcação; como o VIN tem 0,2 mm e a chapa cerca de 0,7 mm, a remoção completa dessa zona por abrasão é, em regra, praticamente inviável.",
+      "A": "A zona de deformação plástica em aço alcança até 2 vezes a profundidade da marcação, sendo, por isso, facilmente removida por simples abrasão superficial em chapas finas de cerca de 0,7 mm de espessura.",
+      "B": "A zona de deformação plástica em aço chega a 6 vezes a profundidade da marcação; com VIN de 0,2 mm e chapa de ~0,7 mm, remover completamente essa zona por abrasão é, em regra, inviável.",
       "C": "A profundidade regulamentar do VIN é de 0,7 mm e a espessura da chapa, de 0,2 mm, motivo pelo qual a obliteração é sempre total.",
       "D": "Em chapas de 0,7 mm, a zona termicamente afetada substitui a zona de deformação plástica, viabilizando a restauração apenas por tratamento térmico."
     },
@@ -9522,7 +9522,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Entre os equipamentos amplamente disponíveis no comércio e que constituem fator de risco para fraudes em códigos identificadores de veículos, o PVAT cita:",
     "alternativas": {
-      "A": "Tornos CNC e prensas hidráulicas de uso restrito à indústria automobilística.",
+      "A": "Tornos CNC e prensas hidráulicas de grande porte, de uso restrito à indústria automobilística e indisponíveis no comércio comum.",
       "B": "Apenas punção mecânica e estampagem industrial controlada.",
       "C": "Exclusivamente equipamentos de microscopia eletrônica de varredura e laser industrial.",
       "D": "Punção mecânica, micropercussão (dot peen), scribing, gravação eletrolítica e corrosão química com gabaritos."
@@ -9541,8 +9541,8 @@
     "alternativas": {
       "A": "I, III e IV.",
       "B": "I, II e III.",
-      "C": "II e IV.",
-      "D": "I e II."
+      "C": "Apenas II e IV.",
+      "D": "Apenas I e II."
     },
     "resposta_correta": "A",
     "justificativa": "Conforme Cap. 13 - Recursos utilizados na fraude de códigos identificadores do PDF PVAT - Módulo I.",
@@ -9556,9 +9556,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Durante perícia em um veículo apreendido, o perito constata que ele foi objeto de acidente recente, com deformações severas no monobloco e perda total da integridade estrutural dianteira. Considerando a orientação da Portaria Ditec/PF Nº 1.563 quanto à integração entre classificação de danos e avaliação do estado de conservação, qual é o procedimento tecnicamente correto a ser adotado pelo perito?",
     "alternativas": {
-      "A": "Desconsiderar a classificação de danos do Contran, por se referir a matéria exclusivamente administrativa, e atribuir um deságio único baseado apenas na faixa de 'bom estado'.",
+      "A": "Desconsiderar a classificação de danos do Contran, por se referir a matéria exclusivamente administrativa, e atribuir um deságio único baseado apenas na genérica faixa de 'bom estado' de conservação do veículo.",
       "B": "Aplicar deságio fixo de 50% em qualquer veículo sinistrado, independentemente da monta do dano, por padronização técnica.",
-      "C": "Classificar os danos como de pequena, média ou grande monta segundo a regulamentação específica do Contran, integrando essa classificação à avaliação do estado de conservação e influenciando diretamente a etapa de valoração.",
+      "C": "Classificar os danos como de pequena, média ou grande monta conforme a regulamentação do Contran, integrando essa classificação ao estado de conservação e à etapa de valoração.",
       "D": "Substituir a avaliação do estado de conservação por uma única estimativa estritamente baseada na tabela FIPE, sem deságios, deixando a apuração dos danos para a seguradora."
     },
     "resposta_correta": "C",
@@ -9575,8 +9575,8 @@
     "alternativas": {
       "A": "Deve-se atribuir valor zero ao veículo, por inexistência de referência na tabela FIPE.",
       "B": "A avaliação fica obrigatoriamente sobrestada até a publicação de tabela oficial específica para o modelo importado.",
-      "C": "A avaliação deve ser feita exclusivamente com base no valor declarado pelo proprietário, vedada qualquer comparação ou analogia.",
-      "D": "A avaliação pode ser feita por analogia com veículos similares disponíveis no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia que o perito considere tecnicamente mais adequada, desde que devidamente justificada."
+      "C": "A avaliação deve ser feita exclusivamente com base no valor unilateralmente declarado pelo proprietário do veículo, sendo vedada qualquer comparação, analogia ou estimativa por metodologia alternativa.",
+      "D": "A avaliação pode ser feita por analogia com similares no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia tecnicamente adequada e justificada."
     },
     "resposta_correta": "D",
     "justificativa": "A pág. 66 dispõe: 'Quando o veículo for estrangeiro e inexistir parâmetro direto no mercado nacional, a avaliação pode ser realizada por analogia com veículos similares disponíveis no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia que o perito considere tecnicamente mais adequada, desde que devidamente justificada'.",

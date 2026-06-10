@@ -1,0 +1,29 @@
+[
+  {
+    "id": 630,
+    "alternativas": {
+      "A": "Diante de equipamentos modernos capazes de produzir alinhamento e repetibilidade, a inspeção visual superficial passou a ser suficiente para a conclusão pericial, dispensando qualquer comparação com padrões industriais do fabricante ou com a época de produção.",
+      "B": "A avaliação deve verificar a compatibilidade entre o método de gravação observado, o padrão industrial do fabricante, a época de produção e as normas vigentes, pois equipamentos atuais e gabaritos permitem adulterações visualmente regulares.",
+      "C": "A presença de etiquetas com tipografia e layout semelhantes aos originais é, por si só, garantia de autenticidade, dispensando análises adicionais por parte do perito.",
+      "D": "A análise deve restringir-se à verificação da existência física do número gravado, sendo irrelevante a confrontação com o padrão industrial do fabricante ou com a época de produção do veículo."
+    }
+  },
+  {
+    "id": 699,
+    "alternativas": {
+      "A": "Tornos CNC e prensas hidráulicas de grande porte, de uso restrito à indústria automobilística e indisponíveis no comércio comum.",
+      "B": "Apenas punção mecânica e estampagem industrial controlada.",
+      "C": "Exclusivamente equipamentos de microscopia eletrônica de varredura e laser industrial.",
+      "D": "Punção mecânica, micropercussão (dot peen), scribing, gravação eletrolítica e corrosão química com gabaritos."
+    }
+  },
+  {
+    "id": 700,
+    "alternativas": {
+      "A": "I, III e IV.",
+      "B": "I, II e III.",
+      "C": "Apenas II e IV.",
+      "D": "Apenas I e II."
+    }
+  }
+]
