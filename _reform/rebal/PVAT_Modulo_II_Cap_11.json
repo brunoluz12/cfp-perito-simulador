@@ -1,0 +1,236 @@
+[
+  {
+    "id": 830,
+    "alternativas": {
+      "A": "O método foi desenvolvido por Albert Einstein durante a Primeira Guerra Mundial para cálculos relativísticos aplicados a projéteis balísticos, sendo somente mais tarde adaptado ao tráfego.",
+      "B": "Foi desenvolvido durante o Projeto Manhattan (1942-1945) por von Neumann, Ulam e Metropolis, recebendo o nome em referência ao cassino de Mônaco.",
+      "C": "Foi criado por Ronald Fisher no início do século XX, no contexto da estatística agronômica de Rothamsted, para experimentos em parcelas de cultivo.",
+      "D": "Surgiu nas décadas de 1980 e 1990 com Fonda e Bhavnani, especificamente para reconstrução de acidentes, não tendo aplicações anteriores em outras áreas científicas."
+    }
+  },
+  {
+    "id": 832,
+    "alternativas": {
+      "A": "Distribuição Uniforme, com limite inferior a=0,20 e limite superior b=1,20.",
+      "B": "Distribuição Normal (Gaussiana), com desvio-padrão de 0,05.",
+      "C": "Distribuição Triangular T(0,40; 0,60; 0,80).",
+      "D": "Distribuição Beta com parâmetros α=2 e β=5."
+    }
+  },
+  {
+    "id": 835,
+    "alternativas": {
+      "A": "Uniforme U(15; 25) m, sem necessidade de desvio-padrão.",
+      "B": "Triangular T(15; 18; 22) m, com moda em 18 m.",
+      "C": "Normal N(18,0 m; 0,5 m), com σ proposto por BARTLETT et al. (2002) de 0,5 m para medições com trena.",
+      "D": "Log-normal LN(18; 1), assumindo uma assimetria positiva natural para as distâncias medidas em campo."
+    }
+  },
+  {
+    "id": 836,
+    "alternativas": {
+      "A": "Apenas os itens I, II e V estão corretos.",
+      "B": "Todos os itens estão corretos.",
+      "C": "Apenas I, III e V.",
+      "D": "Apenas II, III e IV."
+    }
+  },
+  {
+    "id": 839,
+    "alternativas": {
+      "A": "Vt = Va + Vd + Vr, sendo a distribuição resultante obtida por soma analítica direta das três distribuições marginais de entrada do modelo.",
+      "B": "Vt = max(Va, Vd, Vr), considerando apenas o maior componente para não inflar artificialmente a velocidade.",
+      "C": "Vt = √(Va² + Vd² + Vr²); a distribuição de Vt sai automaticamente da simulação, sem derivação analítica das distribuições combinadas.",
+      "D": "Vt = (Va + Vd + Vr)/3, pois a velocidade total deve representar a média aritmética dos componentes."
+    }
+  },
+  {
+    "id": 840,
+    "alternativas": {
+      "A": "Incerteza aleatória e epistêmica são conceitos perfeitamente sinônimos no contexto pericial, ambas igualmente redutíveis com o simples aumento do número de iterações na simulação de Monte Carlo realizada.",
+      "B": "A incerteza aleatória é inerente ao fenômeno (ex.: variação do atrito na pista) e NÃO se reduz com mais medições; a epistêmica decorre da falta de conhecimento e pode ser reduzida com mais informações.",
+      "C": "A incerteza epistêmica é inerente ao fenômeno e não pode ser reduzida; a aleatória é completamente eliminada com mais medições.",
+      "D": "Nenhum dos dois tipos é capturado pelo MMC, motivo pelo qual a literatura recomenda usar apenas métodos determinísticos."
+    }
+  },
+  {
+    "id": 841,
+    "alternativas": {
+      "A": "Apenas I, II e V.",
+      "B": "Apenas II, III e IV.",
+      "C": "Apenas os itens I, III, IV e V estão corretos.",
+      "D": "Todos os itens estão corretos."
+    }
+  },
+  {
+    "id": 842,
+    "alternativas": {
+      "A": "Microsoft Excel exclusivamente, por sua interface amigável.",
+      "B": "@RISK (Palisade), por ser um software específico para análise de risco de nível profissional e corporativo.",
+      "C": "MATLAB, devido à licença gratuita disponibilizada pela ANP.",
+      "D": "Python, por ser gratuito, de código aberto, amplamente documentado e com código auditável."
+    }
+  },
+  {
+    "id": 843,
+    "alternativas": {
+      "A": "Apenas os itens III, IV e V do enunciado.",
+      "B": "Apenas I, II e IV.",
+      "C": "Apenas I, II, III e V.",
+      "D": "Todos os itens."
+    }
+  },
+  {
+    "id": 844,
+    "alternativas": {
+      "A": "Todos os itens estão corretos.",
+      "B": "Apenas os itens II, IV e V estão corretos.",
+      "C": "Apenas I, II, III e IV.",
+      "D": "Apenas I, III e V."
+    }
+  },
+  {
+    "id": 845,
+    "alternativas": {
+      "A": "Que a distribuição é praticamente simétrica, consistente com o uso de distribuições normais nos parâmetros de entrada.",
+      "B": "Que a distribuição é fortemente assimétrica à direita, plenamente consistente com uma distribuição log-normal dos resultados obtidos na simulação.",
+      "C": "Que houve erro grosseiro de programação, pois média e mediana NUNCA podem coincidir em MMC.",
+      "D": "Que houve viés de amostragem aleatória, exigindo aumento de n para 1 milhão de simulações."
+    }
+  },
+  {
+    "id": 846,
+    "alternativas": {
+      "A": "O valor mais provável da velocidade real do veículo, equivalente ao pico (moda) da função de densidade de probabilidade obtida na simulação.",
+      "B": "A velocidade mediana da distribuição, abaixo da qual 50% das simulações ocorreram.",
+      "C": "Valor abaixo do qual ocorreram apenas 5% das simulações, representando, para fins periciais, a estimativa conservadora mínima defensável.",
+      "D": "A velocidade máxima esperada, com 95% de probabilidade de ser ultrapassada."
+    }
+  },
+  {
+    "id": 847,
+    "alternativas": {
+      "A": "Itens II, III, IV e V.",
+      "B": "I, II, III e V.",
+      "C": "I, II, III e IV.",
+      "D": "I, III, IV e V."
+    }
+  },
+  {
+    "id": 849,
+    "alternativas": {
+      "A": "Se d e μ são variáveis determinísticas, V também o será, razão pela qual o Método de Monte Carlo é, nesse caso, totalmente inaplicável a essa forma funcional da equação de velocidade.",
+      "B": "Se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), V também é aleatória com P(V); o MMC determina P(V) sorteando n pares (di, μi) e calculando Vi = f(di, μi).",
+      "C": "O MMC exige que a função f seja sempre linear, sendo incompatível com a raiz quadrada presente na fórmula apresentada.",
+      "D": "A distribuição empírica dos Vi serve apenas como aproximação visual, sem caráter estatístico estimador de P(V)."
+    }
+  },
+  {
+    "id": 850,
+    "alternativas": {
+      "A": "É indicada para variáveis simétricas que podem assumir tanto valores positivos quanto negativos, como a aceleração relativa entre os dois veículos durante o impacto.",
+      "B": "É restrita ao intervalo [0;1] e usada apenas para coeficiente de atrito normalizado.",
+      "C": "É equivalente à distribuição uniforme quando aplicada a tempos, devendo ser preterida em laudo pericial.",
+      "D": "Indicada para variável positiva com assimetria à direita; típica de tempos, sendo muito útil para Tempos de Percepção-Reação (valores baixos mais prováveis que altos)."
+    }
+  },
+  {
+    "id": 851,
+    "alternativas": {
+      "A": "A probabilidade de o veículo trafegar dentro do limite legal de velocidade é altíssima, devendo o perito, por isso, atestar a plena compatibilidade da conduta com o limite da via.",
+      "B": "É necessário rodar nova simulação com n = 1.000.000 para concluir qualquer coisa sobre a compatibilidade com o limite.",
+      "C": "A interpretação probabilística é inválida porque média e mediana coincidem.",
+      "D": "A probabilidade de o veículo estar dentro do limite é inferior a 0,1%, o que, para fins periciais, torna praticamente excludente a hipótese de velocidade compatível com o limite."
+    }
+  },
+  {
+    "id": 852,
+    "alternativas": {
+      "A": "Em geral os parâmetros são tratados como independentes (razoável para asfalto normal); havendo suspeita de forte correlação (superfície muito heterogênea), métodos como a cópula de Pearson podem ser incorporados ao MMC.",
+      "B": "Em absolutamente todas as aplicações periciais, os parâmetros de entrada devem obrigatoriamente ser tratados como fortemente correlacionados entre si, sob pena de invalidação completa do resultado final da simulação de Monte Carlo.",
+      "C": "Correlações entre parâmetros são proibidas pela literatura, sendo considerado erro grave de método.",
+      "D": "A independência entre parâmetros sempre subestima a incerteza total."
+    }
+  },
+  {
+    "id": 853,
+    "alternativas": {
+      "A": "O Método de Monte Carlo não pode, em hipótese alguma, ser aplicado à análise temporal de eventos de trânsito, ficando restrito tão somente ao cálculo das velocidades dos veículos envolvidos no acidente periciado.",
+      "B": "O timing de colisão é calculado exclusivamente por métodos determinísticos clássicos, sendo o MMC obsoleto para esse fim.",
+      "C": "Além de velocidades, o MMC determina probabilisticamente o timing dos eventos (quando cada veículo ocupou o sítio de colisão), verificando relatos e reconstruindo a sequência com intervalos de confiança.",
+      "D": "A análise temporal pelo MMC exige obrigatoriamente uso de cópulas de Cholesky para qualquer caso prático."
+    }
+  },
+  {
+    "id": 854,
+    "alternativas": {
+      "A": "Qualquer software de Monte Carlo retornará automaticamente o melhor resultado possível, sem necessidade de qualquer avaliação técnica ou juízo crítico por parte do perito criminal responsável.",
+      "B": "A qualidade dos resultados depende fundamentalmente da qualidade e pertinência das distribuições de entrada, definidas pelo perito com base em conhecimento técnico e no exame das condições do acidente.",
+      "C": "A frase indica que o MMC não pode ser auditado por terceiros, mesmo com semente fixa.",
+      "D": "A advertência se aplica apenas a peritos com menos de cinco anos de experiência."
+    }
+  },
+  {
+    "id": 855,
+    "alternativas": {
+      "A": "Percentis P5 e P95.",
+      "B": "P10 e P90.",
+      "C": "P2,5 e P97,5.",
+      "D": "P1 e P99."
+    }
+  },
+  {
+    "id": 856,
+    "alternativas": {
+      "A": "Itens I, III, IV e V.",
+      "B": "I, II, III e V.",
+      "C": "II, III, IV e V.",
+      "D": "I, II, III e IV."
+    }
+  },
+  {
+    "id": 857,
+    "alternativas": {
+      "A": "É usada para variáveis cujo valor central é altamente provável, tendo como parâmetros a média (μ) e o desvio padrão (σ) da grandeza física analisada no exame pericial do acidente.",
+      "B": "É usada apenas para tempos de percepção-reação em estímulos esperados simples.",
+      "C": "É usada quando há total incerteza, com qualquer valor do intervalo igualmente plausível; parâmetros mínimo a e máximo b; ex.: velocidade de danos quando só se sabe estar entre 15 e 35 km/h.",
+      "D": "É usada apenas para variáveis limitadas no intervalo [0;1] com formas flexíveis."
+    }
+  },
+  {
+    "id": 858,
+    "alternativas": {
+      "A": "É obrigatório especificar previamente, e de forma explícita, a distribuição de probabilidade de Ec antes de qualquer cálculo do MMC, sob pena de invalidação completa do método de simulação.",
+      "B": "A energia cinética Ec deve ser modelada como log-normal independentemente da distribuição de V.",
+      "C": "Como Ec = ½mv², se V é normal, Ec será levemente assimétrica; no MMC isso é automático — basta sortear V normal e calcular Ec a cada iteração, sem especificar a distribuição de Ec.",
+      "D": "Por ser função quadrática, Ec sempre terá distribuição normal exatamente simétrica, igual à de V."
+    }
+  },
+  {
+    "id": 861,
+    "alternativas": {
+      "A": "O Excel não é aceito como ferramenta para MMC pericial; apenas Python é válido.",
+      "B": "O modelo proíbe expressamente a citação do software empregado, restringindo o conteúdo do laudo pericial à descrição da metodologia em termos puramente abstratos.",
+      "C": "O Excel deve ser usado apenas para tabelas, sendo proibido para sorteios aleatórios.",
+      "D": "Os cálculos foram feitos no Microsoft Excel, e a planilha utilizada está disponível para auditoria no Sistema Nacional de Criminalística."
+    }
+  },
+  {
+    "id": 863,
+    "alternativas": {
+      "A": "Apenas redes neurais convolucionais profundas e técnicas de aprendizado de máquina supervisionado.",
+      "B": "Apenas regressão linear simples por mínimos quadrados.",
+      "C": "Apenas análise fatorial de componentes principais (PCA).",
+      "D": "Matrizes de correlação e transformação de Cholesky, ou cópulas de dependência."
+    }
+  },
+  {
+    "id": 864,
+    "alternativas": {
+      "A": "O MMC permite comparar cenários hipotéticos (what-if analysis), o que viabiliza a análise rigorosa de velocidade excessiva × interceptação da Seção 11.7.",
+      "B": "É permitida apenas em colisões com vítima fatal, sendo vedada nos demais casos.",
+      "C": "Não é admissível em perícia, por se tratar de mera especulação contrafactual sem suporte estatístico.",
+      "D": "A análise de cenários equivale matematicamente à transformação de Cholesky, sendo idêntica, em todos os seus aspectos, à correlação estatística de parâmetros de entrada do modelo."
+    }
+  }
+]

@@ -11749,8 +11749,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Durante uma palestra sobre fundamentos históricos do Método de Monte Carlo para peritos em formação, o instrutor descreve o contexto da criação do método. Sobre a origem e desenvolvimento do MMC, conforme apresentado no capítulo, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "O método foi desenvolvido por Albert Einstein durante a Primeira Guerra Mundial para cálculos relativísticos em projéteis balísticos, sendo posteriormente adaptado para tráfego.",
-      "B": "Foi formalmente desenvolvido durante o Projeto Manhattan (1942-1945) pelos matemáticos John von Neumann, Stanislaw Ulam e Nicholas Metropolis, recebendo o nome em referência ao cassino de Mônaco.",
+      "A": "O método foi desenvolvido por Albert Einstein durante a Primeira Guerra Mundial para cálculos relativísticos aplicados a projéteis balísticos, sendo somente mais tarde adaptado ao tráfego.",
+      "B": "Foi desenvolvido durante o Projeto Manhattan (1942-1945) por von Neumann, Ulam e Metropolis, recebendo o nome em referência ao cassino de Mônaco.",
       "C": "Foi criado por Ronald Fisher no início do século XX, no contexto da estatística agronômica de Rothamsted, para experimentos em parcelas de cultivo.",
       "D": "Surgiu nas décadas de 1980 e 1990 com Fonda e Bhavnani, especificamente para reconstrução de acidentes, não tendo aplicações anteriores em outras áreas científicas."
     },
@@ -11783,7 +11783,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia em que o coeficiente de atrito (μ) será modelado para o MMC, o perito constata que as condições da superfície foram corretamente analisadas (tipo, desgaste, sujidades no dia do evento) e que existem valores aproximados conforme tabelas aplicadas ou medições realizadas com equipamento (drag sled, Vericom VC2000). De acordo com a Tabela 15 e a Seção 11.3.2, qual distribuição é recomendada para μ nessas condições, com qual desvio-padrão típico?",
     "alternativas": {
-      "A": "Distribuição Uniforme, com limites a=0,20 e b=1,20.",
+      "A": "Distribuição Uniforme, com limite inferior a=0,20 e limite superior b=1,20.",
       "B": "Distribuição Normal (Gaussiana), com desvio-padrão de 0,05.",
       "C": "Distribuição Triangular T(0,40; 0,60; 0,80).",
       "D": "Distribuição Beta com parâmetros α=2 e β=5."
@@ -11837,7 +11837,7 @@
       "A": "Uniforme U(15; 25) m, sem necessidade de desvio-padrão.",
       "B": "Triangular T(15; 18; 22) m, com moda em 18 m.",
       "C": "Normal N(18,0 m; 0,5 m), com σ proposto por BARTLETT et al. (2002) de 0,5 m para medições com trena.",
-      "D": "Log-normal LN(18; 1), assumindo assimetria positiva natural para distâncias."
+      "D": "Log-normal LN(18; 1), assumindo uma assimetria positiva natural para as distâncias medidas em campo."
     },
     "resposta_correta": "C",
     "justificativa": "A Tabela 18 traz para distância de frenagem 'Normal N (18.0 m; 0.5 m)' com a justificativa: 'Medida com trena metálica; extremos bem definidos; σ estimado como 2,8% de d (BARTLETT et al., 2002, propõem desvio-padrão de 0,5 m para medições de distância com trena).'",
@@ -11851,7 +11851,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o número de simulações necessário no MMC pericial, julgue os itens a seguir conforme a Seção 11.5:\n\nI. Para n ≥ 1.000, a média converge com precisão suficiente para laudos periciais (variação < 0,5 km/h).\nII. Para n ≥ 5.000, o desvio padrão e os percentis P5/P95 convergem adequadamente.\nIII. Para n ≥ 10.000, há convergência excelente para todos os estimadores, incluindo percentis extremos (P1, P99).\nIV. Para n > 100.000, o ganho marginal é mínimo, sendo desnecessário para aplicações periciais rotineiras.\nV. O valor padrão recomendado é n = 10.000, podendo subir para n = 50.000 quando se necessita de percentis extremos ou quando a distribuição é assimétrica.\n\nEstão CORRETOS:",
     "alternativas": {
-      "A": "Apenas I, II e V.",
+      "A": "Apenas os itens I, II e V estão corretos.",
       "B": "Todos os itens estão corretos.",
       "C": "Apenas I, III e V.",
       "D": "Apenas II, III e IV."
@@ -11902,9 +11902,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em uma colisão grave envolvendo capotamento, a perícia identifica três tipos de vestígios: marcas de frenagem (Va), de derrapagem (Vd) e de rolamento pós-capotamento (Vr). Conforme descrito na Seção 11.8 sobre MMC em colisões com múltiplos vestígios, qual a expressão correta da velocidade total (Vt) e como se comporta a distribuição resultante?",
     "alternativas": {
-      "A": "Vt = Va + Vd + Vr, e a distribuição resultante é obtida por soma analítica direta das três distribuições marginais.",
+      "A": "Vt = Va + Vd + Vr, sendo a distribuição resultante obtida por soma analítica direta das três distribuições marginais de entrada do modelo.",
       "B": "Vt = max(Va, Vd, Vr), considerando apenas o maior componente para não inflar artificialmente a velocidade.",
-      "C": "Vt = √(Va² + Vd² + Vr²), e a distribuição de Vt é obtida automaticamente pela simulação, sem necessidade de derivação analítica das distribuições combinadas.",
+      "C": "Vt = √(Va² + Vd² + Vr²); a distribuição de Vt sai automaticamente da simulação, sem derivação analítica das distribuições combinadas.",
       "D": "Vt = (Va + Vd + Vr)/3, pois a velocidade total deve representar a média aritmética dos componentes."
     },
     "resposta_correta": "C",
@@ -11919,8 +11919,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distinção entre incerteza aleatória e incerteza epistêmica no MMC pericial, descrita na Seção 11.10, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "Incerteza aleatória e epistêmica são sinônimos no contexto pericial, ambas redutíveis com aumento do número de simulações de Monte Carlo.",
-      "B": "A incerteza aleatória (variabilidade) é variação inerente ao fenômeno, como a variabilidade natural do coeficiente de atrito ao longo da pista, e NÃO é redutível por mais medições; já a incerteza epistêmica decorre da falta de conhecimento e pode ser reduzida com mais informações ou medições mais precisas.",
+      "A": "Incerteza aleatória e epistêmica são conceitos perfeitamente sinônimos no contexto pericial, ambas igualmente redutíveis com o simples aumento do número de iterações na simulação de Monte Carlo realizada.",
+      "B": "A incerteza aleatória é inerente ao fenômeno (ex.: variação do atrito na pista) e NÃO se reduz com mais medições; a epistêmica decorre da falta de conhecimento e pode ser reduzida com mais informações.",
       "C": "A incerteza epistêmica é inerente ao fenômeno e não pode ser reduzida; a aleatória é completamente eliminada com mais medições.",
       "D": "Nenhum dos dois tipos é capturado pelo MMC, motivo pelo qual a literatura recomenda usar apenas métodos determinísticos."
     },
@@ -11938,7 +11938,7 @@
     "alternativas": {
       "A": "Apenas I, II e V.",
       "B": "Apenas II, III e IV.",
-      "C": "Apenas I, III, IV e V.",
+      "C": "Apenas os itens I, III, IV e V estão corretos.",
       "D": "Todos os itens estão corretos."
     },
     "resposta_correta": "D",
@@ -11954,7 +11954,7 @@
     "enunciado": "De acordo com o capítulo, a Polícia Federal recomenda qual ferramenta para implementação do MMC em laudos periciais, considerando aspectos como custo, código auditável, reprodutibilidade e ampla documentação?",
     "alternativas": {
       "A": "Microsoft Excel exclusivamente, por sua interface amigável.",
-      "B": "@RISK (Palisade), por ser específico para análise de risco profissional.",
+      "B": "@RISK (Palisade), por ser um software específico para análise de risco de nível profissional e corporativo.",
       "C": "MATLAB, devido à licença gratuita disponibilizada pela ANP.",
       "D": "Python, por ser gratuito, de código aberto, amplamente documentado e com código auditável."
     },
@@ -11970,7 +11970,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as limitações e cuidados com o Método de Monte Carlo, conforme a Seção 11.14, julgue os itens:\n\nI. Se as distribuições de entrada forem mal especificadas (por exemplo, subestimando a variabilidade de μ), os intervalos de saída também serão inadequados.\nII. O MMC quantifica incerteza paramétrica, mas NÃO incerteza de modelo: se a fórmula de velocidade for inapropriada, o MMC não detectará isso.\nIII. Correlações não modeladas podem resultar em sub ou superestimação da incerteza total.\nIV. O MMC ELIMINA a necessidade de ensaios dinâmicos, sendo plenamente substituto destes.\nV. O resultado probabilístico requer interpretação cuidadosa no contexto jurídico: o tribunal deve entender o significado de '90% de confiança'.\n\nEstão CORRETOS:",
     "alternativas": {
-      "A": "Apenas III, IV e V.",
+      "A": "Apenas os itens III, IV e V do enunciado.",
       "B": "Apenas I, II e IV.",
       "C": "Apenas I, II, III e V.",
       "D": "Todos os itens."
@@ -11988,7 +11988,7 @@
     "enunciado": "Sobre a Tabela 17 (BARTLETT et al., 2002) que resume os tipos de distribuições probabilísticas para variáveis comuns em perícia de acidentes, julgue os itens:\n\nI. Para coeficiente de atrito estimado por tabela (sem evidência de centralidade), recomenda-se distribuição Uniforme.\nII. Para o raio de yawmark (marca de guinada/derrapagem lateral), recomenda-se distribuição Normal com σ ≈ 4,6% da média.\nIII. Para ângulos em campo, recomenda-se distribuição Normal com σ ≈ 0,56°.\nIV. Para TPR em condição complexa, recomenda-se distribuição log-normal, devido à assimetria à direita e ao limite inferior físico.\nV. Para Crush (deformação residual) usando o método CRASH3, recomenda-se distribuição Normal com σ elevado (~12,7 cm).\n\nEstão CORRETOS:",
     "alternativas": {
       "A": "Todos os itens estão corretos.",
-      "B": "Apenas II, IV e V.",
+      "B": "Apenas os itens II, IV e V estão corretos.",
       "C": "Apenas I, II, III e IV.",
       "D": "Apenas I, III e V."
     },
@@ -12004,8 +12004,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em um exemplo prático apresentado no capítulo (Tabela 19), com marcas de frenagem de 18 m em asfalto seco, a velocidade estimada pelo MMC apresenta os seguintes resultados: Média de 71,1 km/h; Mediana (P50) de 71,1 km/h; Desvio padrão de 3,7 km/h; P5 = 65,0 km/h; P95 = 77,1 km/h. Sobre a coincidência entre média e mediana, o que tal fato indica em termos pericial-probabilísticos?",
     "alternativas": {
-      "A": "Que a distribuição é praticamente simétrica, consistente com o uso de distribuição normal para os parâmetros de entrada.",
-      "B": "Que a distribuição é fortemente assimétrica à direita, consistente com log-normal.",
+      "A": "Que a distribuição é praticamente simétrica, consistente com o uso de distribuições normais nos parâmetros de entrada.",
+      "B": "Que a distribuição é fortemente assimétrica à direita, plenamente consistente com uma distribuição log-normal dos resultados obtidos na simulação.",
       "C": "Que houve erro grosseiro de programação, pois média e mediana NUNCA podem coincidir em MMC.",
       "D": "Que houve viés de amostragem aleatória, exigindo aumento de n para 1 milhão de simulações."
     },
@@ -12021,9 +12021,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "No exemplo da Tabela 19, o P5 (limite inferior do IC90%) é de 65,0 km/h. Conforme o significado pericial descrito, esse valor representa:",
     "alternativas": {
-      "A": "O valor mais provável da velocidade real do veículo, equivalente ao pico da função de densidade.",
+      "A": "O valor mais provável da velocidade real do veículo, equivalente ao pico (moda) da função de densidade de probabilidade obtida na simulação.",
       "B": "A velocidade mediana da distribuição, abaixo da qual 50% das simulações ocorreram.",
-      "C": "Um valor abaixo do qual ocorreram apenas 5% das simulações, representando, para fins periciais, a estimativa conservadora mínima defensável.",
+      "C": "Valor abaixo do qual ocorreram apenas 5% das simulações, representando, para fins periciais, a estimativa conservadora mínima defensável.",
       "D": "A velocidade máxima esperada, com 95% de probabilidade de ser ultrapassada."
     },
     "resposta_correta": "C",
@@ -12038,7 +12038,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Quanto aos quatro passos da implementação do MMC descritos na Seção 11.4, julgue os itens:\n\nI. Passo 1: Definir, para cada parâmetro com incerteza, o tipo de distribuição, os parâmetros (média, desvio, mínimo, máximo, moda) e a justificativa técnica.\nII. Passo 2: Para cada simulação i (de 1 a n), gerar conjunto de valores aleatórios de cada parâmetro, amostrados de suas distribuições; com n = 10.000, o tempo computacional é inferior a 1 segundo em notebook moderno.\nIII. Passo 3: Para cada conjunto de valores amostrados, calcular a velocidade resultante Vi usando as fórmulas periciais convencionais — cada simulação representa um 'mundo possível' compatível com os vestígios observados.\nIV. Passo 4: Construir as estatísticas (média, mediana, desvio, percentis, P(V > Vlimite)) a partir dos n valores Vi.\nV. A documentação das escolhas e justificativas técnicas pode ser omitida do laudo pericial, ficando apenas em rascunho do perito.\n\nEstão CORRETOS APENAS:",
     "alternativas": {
-      "A": "II, III, IV e V.",
+      "A": "Itens II, III, IV e V.",
       "B": "I, II, III e V.",
       "C": "I, II, III e IV.",
       "D": "I, III, IV e V."
@@ -12072,8 +12072,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "A formulação matemática apresentada na Seção 11.2.2 expressa a velocidade estimada em um acidente como função de vários parâmetros com incerteza, com a forma V = f(d, μ, α, Tp, ...) = 15,946·√(d × μ'). Sobre a aplicação probabilística desta função no MMC, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "Se d e μ são variáveis determinísticas, V também o é, sendo o MMC inaplicável a tal forma funcional.",
-      "B": "Se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), então V também é variável aleatória com distribuição P(V), e o MMC determina P(V) experimentalmente sorteando n pares (di, μi) e calculando Vi = f(di, μi) para cada par.",
+      "A": "Se d e μ são variáveis determinísticas, V também o será, razão pela qual o Método de Monte Carlo é, nesse caso, totalmente inaplicável a essa forma funcional da equação de velocidade.",
+      "B": "Se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), V também é aleatória com P(V); o MMC determina P(V) sorteando n pares (di, μi) e calculando Vi = f(di, μi).",
       "C": "O MMC exige que a função f seja sempre linear, sendo incompatível com a raiz quadrada presente na fórmula apresentada.",
       "D": "A distribuição empírica dos Vi serve apenas como aproximação visual, sem caráter estatístico estimador de P(V)."
     },
@@ -12089,10 +12089,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distribuição de probabilidade Log-normal LN(μ, σ) apresentada na Tabela 15, é CORRETO afirmar, no contexto pericial, que:",
     "alternativas": {
-      "A": "É indicada para variáveis simétricas que podem assumir valores positivos e negativos, como aceleração relativa.",
+      "A": "É indicada para variáveis simétricas que podem assumir tanto valores positivos quanto negativos, como a aceleração relativa entre os dois veículos durante o impacto.",
       "B": "É restrita ao intervalo [0;1] e usada apenas para coeficiente de atrito normalizado.",
       "C": "É equivalente à distribuição uniforme quando aplicada a tempos, devendo ser preterida em laudo pericial.",
-      "D": "É indicada para variável positiva com assimetria à direita; típica de tempos, sendo muito interessante seu uso para Tempos de Percepção-Reação (valores baixos mais prováveis que altos)."
+      "D": "Indicada para variável positiva com assimetria à direita; típica de tempos, sendo muito útil para Tempos de Percepção-Reação (valores baixos mais prováveis que altos)."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme a Tabela 15: a log-normal LN(μ, σ) é indicada para 'Variável positiva com assimetria à direita; típica de tempos' e tem como exemplo pericial 'Muito interessante o uso para Tempos de Percepção-Reação (p. ex.: valores baixos mais prováveis que altos).'",
@@ -12106,10 +12106,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "No exemplo da Tabela 19, a estatística P(V > 60 km/h) resulta em 95,2%, embora o texto explicativo na mesma linha mencione que 'em 99,9% das simulações, a velocidade estimada superou o limite regulamentado de 60 km/h'. Sobre o significado pericial dessa probabilidade alta, conforme a interpretação trazida pelo capítulo, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "A probabilidade de o veículo trafegar dentro do limite é altíssima, devendo o perito atestar compatibilidade com o limite.",
+      "A": "A probabilidade de o veículo trafegar dentro do limite legal de velocidade é altíssima, devendo o perito, por isso, atestar a plena compatibilidade da conduta com o limite da via.",
       "B": "É necessário rodar nova simulação com n = 1.000.000 para concluir qualquer coisa sobre a compatibilidade com o limite.",
       "C": "A interpretação probabilística é inválida porque média e mediana coincidem.",
-      "D": "A probabilidade de o veículo trafegar dentro do limite é inferior a 0,1%, valor que, para fins periciais, torna a hipótese de velocidade compatível com o limite praticamente excludente à luz dos vestígios analisados."
+      "D": "A probabilidade de o veículo estar dentro do limite é inferior a 0,1%, o que, para fins periciais, torna praticamente excludente a hipótese de velocidade compatível com o limite."
     },
     "resposta_correta": "D",
     "justificativa": "A Tabela 19 explica que 'A probabilidade de o veículo trafegar dentro do limite é inferior a 0,1% — valor que, para fins periciais, torna a hipótese de velocidade compatível com o limite praticamente excludente à luz dos vestígios analisados.'",
@@ -12123,8 +12123,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as considerações de correlação entre parâmetros descritas na Seção 11.9, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "Na maioria das aplicações periciais, os parâmetros são tratados como independentes, simplificação razoável para pistas de asfalto em condições normais; quando há razões para suspeitar de forte correlação (ex.: pistas com superfície muito heterogênea), métodos de correlação (como a cópula de Pearson) podem ser incorporados ao MMC.",
-      "B": "Em todas as aplicações periciais, os parâmetros devem obrigatoriamente ser tratados como fortemente correlacionados.",
+      "A": "Em geral os parâmetros são tratados como independentes (razoável para asfalto normal); havendo suspeita de forte correlação (superfície muito heterogênea), métodos como a cópula de Pearson podem ser incorporados ao MMC.",
+      "B": "Em absolutamente todas as aplicações periciais, os parâmetros de entrada devem obrigatoriamente ser tratados como fortemente correlacionados entre si, sob pena de invalidação completa do resultado final da simulação de Monte Carlo.",
       "C": "Correlações entre parâmetros são proibidas pela literatura, sendo considerado erro grave de método.",
       "D": "A independência entre parâmetros sempre subestima a incerteza total."
     },
@@ -12140,9 +12140,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a aplicação avançada do MMC para Timing de Colisão (análise temporal), descrita na Seção 11.13.2, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "O MMC não pode ser aplicado para análise temporal de eventos, sendo restrito ao cálculo de velocidades.",
+      "A": "O Método de Monte Carlo não pode, em hipótese alguma, ser aplicado à análise temporal de eventos de trânsito, ficando restrito tão somente ao cálculo das velocidades dos veículos envolvidos no acidente periciado.",
       "B": "O timing de colisão é calculado exclusivamente por métodos determinísticos clássicos, sendo o MMC obsoleto para esse fim.",
-      "C": "Além de calcular velocidades, o MMC pode ser aplicado para determinar probabilisticamente o timing dos eventos (em que momento exato cada veículo ocupou o sítio de colisão), permitindo verificar a consistência de relatos de testemunhas e reconstruir a sequência de eventos com intervalos de confiança temporais.",
+      "C": "Além de velocidades, o MMC determina probabilisticamente o timing dos eventos (quando cada veículo ocupou o sítio de colisão), verificando relatos e reconstruindo a sequência com intervalos de confiança.",
       "D": "A análise temporal pelo MMC exige obrigatoriamente uso de cópulas de Cholesky para qualquer caso prático."
     },
     "resposta_correta": "C",
@@ -12157,8 +12157,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à atenção destacada no capítulo de que o Método de Monte Carlo 'NÃO é uma caixa preta que produz resultados automáticos', é CORRETO afirmar que:",
     "alternativas": {
-      "A": "Qualquer software de MMC retornará automaticamente o melhor resultado, sem necessidade de avaliação técnica do perito.",
-      "B": "A qualidade dos resultados depende fundamentalmente da qualidade e pertinência das distribuições de entrada, que devem ser definidas pelo perito com base em seu conhecimento técnico e no exame cuidadoso das condições do acidente.",
+      "A": "Qualquer software de Monte Carlo retornará automaticamente o melhor resultado possível, sem necessidade de qualquer avaliação técnica ou juízo crítico por parte do perito criminal responsável.",
+      "B": "A qualidade dos resultados depende fundamentalmente da qualidade e pertinência das distribuições de entrada, definidas pelo perito com base em conhecimento técnico e no exame das condições do acidente.",
       "C": "A frase indica que o MMC não pode ser auditado por terceiros, mesmo com semente fixa.",
       "D": "A advertência se aplica apenas a peritos com menos de cinco anos de experiência."
     },
@@ -12174,7 +12174,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em laudo, o perito apresenta resultados do MMC com intervalo de confiança de 95% (em vez de 90%). Conforme o Passo 4 (Seção 11.4.4), quais são os percentis correspondentes aos limites do intervalo de confiança de 95%?",
     "alternativas": {
-      "A": "P5 e P95.",
+      "A": "Percentis P5 e P95.",
       "B": "P10 e P90.",
       "C": "P2,5 e P97,5.",
       "D": "P1 e P99."
@@ -12191,7 +12191,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distribuição da distância de frenagem descrita na Seção 11.3.1, julgue os itens:\n\nI. As principais fontes de incerteza incluem precisão do instrumento, dificuldade de identificar exatamente o início e o fim da marca, desgaste ou apagamento parcial da marca e variação ao longo da largura da marca.\nII. Para marcas bem preservadas e medidas com cuidado, distribui-se como Normal com σ proporcional ao comprimento (tipicamente σ ≈ 2 a 5% do valor medido).\nIII. Alguns pesquisadores também trazem como referência para o desvio-padrão o valor de 0,5 m.\nIV. Para marcas parcialmente apagadas ou com extremos imprecisos, a distribuição Uniforme em um intervalo é mais conservadora.\nV. A distribuição log-normal é a recomendação padrão para qualquer medição de comprimento, independentemente do estado da marca.\n\nEstão CORRETOS APENAS:",
     "alternativas": {
-      "A": "I, III, IV e V.",
+      "A": "Itens I, III, IV e V.",
       "B": "I, II, III e V.",
       "C": "II, III, IV e V.",
       "D": "I, II, III e IV."
@@ -12208,9 +12208,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o uso da distribuição Uniforme U(a, b) na Tabela 15 do capítulo, identifique a situação típica e o uso pericial correto:",
     "alternativas": {
-      "A": "É usada para variáveis com valor central altamente provável, parâmetros: média (μ) e desvio padrão (σ).",
+      "A": "É usada para variáveis cujo valor central é altamente provável, tendo como parâmetros a média (μ) e o desvio padrão (σ) da grandeza física analisada no exame pericial do acidente.",
       "B": "É usada apenas para tempos de percepção-reação em estímulos esperados simples.",
-      "C": "É usada quando há total incerteza, com qualquer valor no intervalo igualmente plausível; parâmetros mínimo a e máximo b; exemplo pericial: velocidade de danos quando só se sabe que está entre 15 e 35 km/h.",
+      "C": "É usada quando há total incerteza, com qualquer valor do intervalo igualmente plausível; parâmetros mínimo a e máximo b; ex.: velocidade de danos quando só se sabe estar entre 15 e 35 km/h.",
       "D": "É usada apenas para variáveis limitadas no intervalo [0;1] com formas flexíveis."
     },
     "resposta_correta": "C",
@@ -12225,9 +12225,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Conforme nota apresentada na Seção 11.3.4 (após a Tabela 17), considere a afirmação sobre a energia cinética Ec = ½mv². Sobre o tratamento da distribuição de Ec no MMC, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "É obrigatório especificar previamente a distribuição de Ec antes de qualquer cálculo do MMC, sob pena de invalidar o método.",
+      "A": "É obrigatório especificar previamente, e de forma explícita, a distribuição de probabilidade de Ec antes de qualquer cálculo do MMC, sob pena de invalidação completa do método de simulação.",
       "B": "A energia cinética Ec deve ser modelada como log-normal independentemente da distribuição de V.",
-      "C": "Como Ec = ½mv², se a velocidade segue distribuição normal, a energia cinética seguirá uma distribuição levemente assimétrica; no MMC isso é tratado automaticamente — basta sortear V com distribuição normal e calcular Ec a cada iteração, sem necessidade de especificar a distribuição de Ec diretamente.",
+      "C": "Como Ec = ½mv², se V é normal, Ec será levemente assimétrica; no MMC isso é automático — basta sortear V normal e calcular Ec a cada iteração, sem especificar a distribuição de Ec.",
       "D": "Por ser função quadrática, Ec sempre terá distribuição normal exatamente simétrica, igual à de V."
     },
     "resposta_correta": "C",
@@ -12277,9 +12277,9 @@
     "enunciado": "Em laudo pericial estruturado conforme o modelo de texto sugerido na Seção 11.11.1, o perito deve mencionar, entre outros pontos, o número de simulações, as distribuições de incerteza dos parâmetros e o software utilizado. Sobre o uso de Microsoft Excel descrito no modelo de redação, qual a recomendação específica apresentada?",
     "alternativas": {
       "A": "O Excel não é aceito como ferramenta para MMC pericial; apenas Python é válido.",
-      "B": "O modelo proíbe expressamente a citação do software, restringindo o laudo à metodologia abstrata.",
+      "B": "O modelo proíbe expressamente a citação do software empregado, restringindo o conteúdo do laudo pericial à descrição da metodologia em termos puramente abstratos.",
       "C": "O Excel deve ser usado apenas para tabelas, sendo proibido para sorteios aleatórios.",
-      "D": "Os cálculos foram realizados com o software Microsoft Excel, e a planilha utilizada encontra-se disponível para auditoria no Sistema Nacional de Criminalística."
+      "D": "Os cálculos foram feitos no Microsoft Excel, e a planilha utilizada está disponível para auditoria no Sistema Nacional de Criminalística."
     },
     "resposta_correta": "D",
     "justificativa": "O modelo de texto da Seção 11.11.1 afirma: 'Os cálculos foram realizados com o software Microsoft Excel, e a planilha utilizada encontra-se disponível para auditoria no Sistema Nacional de Criminalística.'",
@@ -12310,7 +12310,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em análise avançada de MMC com correlação de parâmetros (Seção 11.13.1), o capítulo cita técnicas matemáticas específicas que podem ser incorporadas ao método quando há correlação conhecida entre parâmetros. Quais são as técnicas mencionadas?",
     "alternativas": {
-      "A": "Apenas redes neurais convolucionais e aprendizado profundo.",
+      "A": "Apenas redes neurais convolucionais profundas e técnicas de aprendizado de máquina supervisionado.",
       "B": "Apenas regressão linear simples por mínimos quadrados.",
       "C": "Apenas análise fatorial de componentes principais (PCA).",
       "D": "Matrizes de correlação e transformação de Cholesky, ou cópulas de dependência."
@@ -12327,10 +12327,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em uma análise de cenário (what-if), o perito avalia: 'Se o veículo estivesse na velocidade regulamentar, qual seria a probabilidade de evitar o acidente?' e também 'Se os freios estivessem em perfeitas condições, qual seria a redução na distância de frenagem?'. Conforme a Seção 11.13.3, sobre esse tipo de análise de cenários é CORRETO afirmar que:",
     "alternativas": {
-      "A": "O MMC permite comparar cenários hipotéticos (what-if analysis), sendo essa análise o que permite a análise rigorosa de velocidade excessiva × interceptação descrita na Seção 11.7.",
+      "A": "O MMC permite comparar cenários hipotéticos (what-if analysis), o que viabiliza a análise rigorosa de velocidade excessiva × interceptação da Seção 11.7.",
       "B": "É permitida apenas em colisões com vítima fatal, sendo vedada nos demais casos.",
       "C": "Não é admissível em perícia, por se tratar de mera especulação contrafactual sem suporte estatístico.",
-      "D": "A análise de cenários equivale matematicamente à transformação de Cholesky, sendo idêntica à correlação de parâmetros."
+      "D": "A análise de cenários equivale matematicamente à transformação de Cholesky, sendo idêntica, em todos os seus aspectos, à correlação estatística de parâmetros de entrada do modelo."
     },
     "resposta_correta": "A",
     "justificativa": "A Seção 11.13.3 afirma: 'O MMC permite comparar cenários hipotéticos (what-if analysis) (...) Essa análise de cenários é o que permite a análise rigorosa de velocidade excessiva × interceptação descrita na seção 11.7.'",
