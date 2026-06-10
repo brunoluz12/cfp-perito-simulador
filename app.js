@@ -1979,6 +1979,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Documentação Pericial',
                 'Método de Monte Carlo Aplicado à Perícia'
             ]
+        },
+        'loc': {
+            path: 'LOC',
+            capitulos: [
+                'Introdução aos locais de crime',
+                'Metodologia do exame de local',
+                'Isolamento e preservação do local',
+                'Etapas de processamento do local',
+                'Documentação do local',
+                'Fotografia forense - conceitos básicos',
+                'Máquinas fotográficas',
+                'Fotografia na prática',
+                'Arquivos digitais',
+                'Captura da realidade (documentação 3D)',
+                'Escâneres a laser',
+                'Drones (RPA) na perícia de local',
+                'Vestígios e a dinâmica dos fatos',
+                'Vestígios químicos',
+                'Vestígios biológicos',
+                'Vestígios físicos',
+                'Microvestígios',
+                'Locais de crime contra o patrimônio',
+                'Locais de morte violenta',
+                'Desastres de massa (DVI)',
+                'O laudo pericial de local de crime'
+            ]
         }
     };
 
