@@ -22495,5 +22495,175 @@ const questoesDB = [
     "justificativa": "As amostras toxicológicas dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral, da subclávia e/ou cardíaco, fígado, conteúdo estomacal e urina quando presente), sendo a urina a matriz de preferência nos casos ante-mortem (p. 124-126). Isso valida A. B ignora a coleta ante-mortem. C contraria a orientação de não congelar o sangue (evitar hemólise), mantendo-o entre 4 e 8 °C. D contraria a vedação de tubos com gel separador, que adsorve drogas.",
     "referencia": "PDF LOC, p. 124-126",
     "nivel": "medio"
+  },
+  {
+    "id": 1450,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos cuidados gerais que antecedem a coleta de vestígios físicos, a regra de ouro é:",
+    "alternativas": {
+      "A": "coletar imediatamente o vestígio e só então, no laboratório, realizar a documentação.",
+      "B": "realizar, antes da coleta, o registro fotográfico, descritivo e topográfico de cada vestígio, mantendo a integridade individual e evitando contaminação por contato ou mistura.",
+      "C": "agrupar todos os vestígios em uma única embalagem para evitar extravios durante o transporte.",
+      "D": "dispensar o registro quando o vestígio estiver aderido à vítima, por já constar do exame cadavérico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Antes da coleta, deve-se realizar o registro fotográfico, descritivo e topográfico (localização) de cada vestígio, coletando com material adequado e mantendo a integridade individual, evitando contaminação por contato ou mistura (p. 129). Isso valida B. A inverte a ordem (registro antes da coleta). C agrupa vestígios, favorecendo a contaminação cruzada. D dispensa indevidamente o registro.",
+    "referencia": "PDF LOC, p. 129",
+    "nivel": "facil"
+  },
+  {
+    "id": 1451,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de objetos que possam conter impressões papilares, a orientação correta é:",
+    "alternativas": {
+      "A": "manusear o objeto livremente pelas superfícies centrais, onde as impressões são menos relevantes.",
+      "B": "manusear com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para coletar projéteis, que devem ser manuseados com luvas ou sacos plásticos.",
+      "C": "utilizar sempre pinças, inclusive para projéteis, a fim de jamais tocar qualquer vestígio.",
+      "D": "manusear sem luvas, desde que o objeto seja imediatamente lavado após a coleta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Objetos com impressões papilares devem ser manuseados com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para projéteis, que devem ser manuseados com luvas ou sacos plásticos (p. 130). Isso valida B. A manuseia justamente as superfícies que podem conter impressões. C aplica pinça também a projéteis, contrariando a exceção. D dispensa luvas e propõe lavar o objeto, destruindo vestígios.",
+    "referencia": "PDF LOC, p. 130",
+    "nivel": "medio"
+  },
+  {
+    "id": 1452,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta e acondicionamento de armas de fogo em local de crime, é correto afirmar que:",
+    "alternativas": {
+      "A": "a arma deve ser transportada municiada, para preservar a posição original dos cartuchos.",
+      "B": "havendo mais de uma arma, todas devem ser acondicionadas juntas, com a munição em embalagem à parte.",
+      "C": "deve-se ter cuidado com impressões papilares, evitar sulcos ou arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma arma, cada uma é acondicionada separadamente com seus cartuchos.",
+      "D": "a alma do cano pode ser limpa com escova metálica antes do envio, para facilitar o exame balístico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Deve-se cuidar das impressões papilares, evitar sulcos/arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma arma, cada uma vai separadamente com seus cartuchos (p. 130). Isso valida C. A contraria o transporte desmuniciado. B junta armas distintas e separa indevidamente a munição. D propõe limpar a alma do cano, o que comprometeria o exame balístico.",
+    "referencia": "PDF LOC, p. 130",
+    "nivel": "medio"
+  },
+  {
+    "id": 1453,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao coletar um projétil deformado com material aparentemente biológico incrustado, além de outros estojos metálicos presentes na cena, o perito deve:",
+    "alternativas": {
+      "A": "remover as incrustações do projétil para limpá-lo e acondicioná-lo junto com os estojos metálicos, economizando embalagens.",
+      "B": "acondicionar o projétil individualmente, envolto em material macio (como algodão), sem remover os resquícios impregnados, e não o misturar com outros objetos metálicos, que poderiam marcá-lo e prejudicar os exames balísticos.",
+      "C": "lavar o projétil e os estojos em conjunto, para remover contaminantes antes do envio.",
+      "D": "raspar a superfície do projétil para revelar as marcas de raiamento antes do acondicionamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Projéteis e estojos devem ser acondicionados individualmente, envoltos em material macio (algodão), sem remover os resquícios impregnados, evitando contatos/atritos com instrumentos metálicos; remover incrustações elimina provas e provoca ranhuras que inviabilizam o exame balístico, e misturar objetos metálicos pode marcar o projétil (p. 130-132). Isso valida B. A, C e D propõem remover incrustações, lavar ou raspar e misturar metálicos, condutas expressamente erradas.",
+    "referencia": "PDF LOC, p. 130-132",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1454,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de peças de roupa como vestígios físicos, recomenda-se:",
+    "alternativas": {
+      "A": "secá-las naturalmente e recolhê-las individualmente, evitando excesso de dobras.",
+      "B": "embalá-las ainda úmidas, juntas em um único saco plástico vedado.",
+      "C": "secá-las com auxílio de secador ou ao sol e dobrá-las várias vezes para reduzir o volume.",
+      "D": "lavá-las antes do acondicionamento para remover sujidades superficiais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As peças de roupa devem ser secas naturalmente e recolhidas individualmente, evitando excesso de dobras (p. 131). Isso valida A. B embala úmido e junto, favorecendo contaminação e degradação. C usa calor/sol (degradantes) e excesso de dobras. D propõe lavar, o que destruiria vestígios.",
+    "referencia": "PDF LOC, p. 131",
+    "nivel": "medio"
+  },
+  {
+    "id": 1455,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao fotografar uma marca de pegada em solo, sob sol forte de meio-dia, o perito avalia as condições de iluminação. Considerando as orientações da disciplina, é correto afirmar que:",
+    "alternativas": {
+      "A": "o meio-dia é o melhor horário, pois a luz vertical e intensa realça os relevos da marca.",
+      "B": "o ideal é fotografar pela manhã ou no final da tarde, quando os raios incidem em ângulo; fotografar ao meio-dia equivale a usar flash, saturando o vestígio de luz e achatando-o, e não se deve usar flash automático (em locais escuros, admite-se flash a cerca de 45° para acentuar relevos).",
+      "C": "deve-se usar sempre o flash automático para compensar a sombra do fotógrafo.",
+      "D": "a luminosidade fraca e difusa, como em ambiente de floresta, inviabiliza qualquer registro útil."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O melhor horário é a manhã ou o final da tarde, quando os raios de sol incidem em ângulo; fotografar ao meio-dia equivale a usar flash, saturando o vestígio e achatando-o; não se deve usar flash automático, admitindo-se, em locais muito escuros, flash a cerca de 45° para acentuar os relevos (p. 132-133). Isso valida B. A elogia o meio-dia, contrariando o texto. C recomenda flash automático, expressamente desaconselhado. D nega a utilidade da luz fraca e difusa, que funciona bem.",
+    "referencia": "PDF LOC, p. 132-133",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1456,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à coleta de marcas de pegadas e de pneus, é correto afirmar que:",
+    "alternativas": {
+      "A": "as marcas superficiais devem ser moldadas em gesso, enquanto as pressionadas são apenas fotografadas.",
+      "B": "as marcas superficiais são fotografadas junto com régua/escala (preferencialmente do tipo 'L'); as pressionadas são fotografadas com escala e também moldadas com material adequado, como gesso.",
+      "C": "tanto as superficiais quanto as pressionadas dispensam o uso de escala na fotografia.",
+      "D": "as marcas pressionadas devem ser apenas descritas, sem fotografia ou molde, para não danificá-las."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Marcas superficiais são fotografadas junto com régua/escala (preferencialmente tipo 'L'); marcas pressionadas são fotografadas com escala e também moldadas com material adequado (ex.: gesso, material odontológico) (p. 131). Isso valida B. A inverte os procedimentos. C dispensa a escala, que é obrigatória. D elimina fotografia e molde das pressionadas.",
+    "referencia": "PDF LOC, p. 131",
+    "nivel": "medio"
+  },
+  {
+    "id": 1457,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao fotografar uma marca de pneu para fins de confronto, quais elementos são obrigatórios e quais são facultativos na imagem?",
+    "alternativas": {
+      "A": "A escala é obrigatória na fotografia; a localização (ex.: coordenada de GPS) e o nome do fotógrafo são facultativos.",
+      "B": "A coordenada de GPS é obrigatória; a escala é facultativa.",
+      "C": "O nome do fotógrafo é obrigatório; a escala é dispensável quando se usa câmera digital.",
+      "D": "Nenhum elemento é obrigatório, ficando todos a critério do perito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A escala tem que constar da fotografia (obrigatória); a localização do vestígio (ex.: coordenada de GPS) e o nome do fotógrafo são facultativos (p. 133). Isso valida A. B e C tornam obrigatórios elementos facultativos e dispensam a escala, que é obrigatória. D nega a obrigatoriedade da escala.",
+    "referencia": "PDF LOC, p. 133",
+    "nivel": "facil"
+  },
+  {
+    "id": 1458,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma cena com vários projéteis e vítimas atingidas, o perito coleta os projéteis com a mão enluvada. Sobre o procedimento correto, é correto afirmar que:",
+    "alternativas": {
+      "A": "pode-se usar a mesma luva para coletar todos os projéteis, desde que enxaguada entre uma coleta e outra.",
+      "B": "não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria os projéteis com diferentes vestígios biológicos; deve-se trocar de luva a cada coleta.",
+      "C": "os projéteis devem ser coletados com pinça metálica, jamais com a mão enluvada.",
+      "D": "a contaminação por troca de luvas é irrelevante, pois o projétil já passou pelo corpo da vítima."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os projéteis são coletados com a própria mão usando luvas, mas, onde houver feridos/mortos por projéteis, não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria com diferentes vestígios biológicos — deve-se trocar de luva a cada coleta (p. 133). Isso valida B. A admite reuso da luva. C contraria a regra de não usar pinça em projéteis. D ignora o risco de contaminação cruzada de DNA.",
+    "referencia": "PDF LOC, p. 133",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1459,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a identificação e a etiquetagem dos vestígios físicos coletados, a disciplina orienta que:",
+    "alternativas": {
+      "A": "as inscrições devem ser feitas diretamente no corpo do próprio vestígio, para garantir o vínculo permanente.",
+      "B": "deve-se evitar marcação ou inscrição no corpo do próprio vestígio, fixando, sempre que possível, as etiquetas nos envelopes ou recipientes em que o vestígio é acondicionado.",
+      "C": "a etiquetagem é dispensável quando o vestígio é fotografado no local.",
+      "D": "basta numerar a embalagem, sendo desnecessário indicar tipo de vestígio, local e coletor."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deve-se evitar marcação ou inscrição no corpo do próprio vestígio, para preservar sua integridade, fixando, sempre que possível, as etiquetas/inscrições nos envelopes ou recipientes de acondicionamento (p. 134). Isso valida B. A contraria essa orientação ao inscrever no corpo do vestígio. C dispensa indevidamente a etiquetagem. D omite campos sugeridos (tipo, local, coletor, unidade).",
+    "referencia": "PDF LOC, p. 134",
+    "nivel": "medio"
   }
 ];
