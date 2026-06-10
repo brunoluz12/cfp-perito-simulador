@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOC — Capítulo 5: Documentação do Local</title>
+<link rel="stylesheet" href="../estilo_padrao.css">
+<style>
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; margin: 0; }
+  .container { max-width: 100%; margin: 0; background: #fff; padding: 28px 36px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+  .badge { display: inline-block; background: #2b6cb0; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 1px; padding: 5px 12px; border-radius: 4px; text-transform: uppercase; }
+  h1 { font-size: 28px; color: #1a365d; margin: 14px 0 4px; }
+  .subtitle { color: #718096; font-size: 15px; margin-bottom: 22px; }
+  .toc { background: #f0f5fa; border: 1px solid #d6e4f0; border-radius: 8px; padding: 16px 22px; margin-bottom: 26px; }
+  .toc strong { color: #2b6cb0; display: block; margin-bottom: 8px; font-size: 14px; text-transform: uppercase; letter-spacing: .5px; }
+  .toc ul { margin: 0; padding-left: 20px; columns: 2; }
+  .toc li { margin: 3px 0; }
+  .section { margin-bottom: 30px; }
+  h2 { font-size: 21px; color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; margin-top: 34px; }
+  h3 { font-size: 17px; color: #2c5282; margin-top: 22px; }
+  p { margin: 10px 0; }
+  .box-blue, .box-green, .box-orange, .box-purple, .box-red { border-radius: 8px; padding: 14px 18px; margin: 16px 0; border-left: 5px solid; }
+  .box-blue { background: #ebf4ff; border-color: #3182ce; }
+  .box-green { background: #f0fff4; border-color: #38a169; }
+  .box-orange { background: #fffaf0; border-color: #dd6b20; }
+  .box-purple { background: #faf5ff; border-color: #805ad5; }
+  .box-red { background: #fff5f5; border-color: #e53e3e; }
+  .box-blue strong, .box-green strong, .box-orange strong, .box-purple strong, .box-red strong { display: block; margin-bottom: 6px; }
+  .mnemonic { background: linear-gradient(135deg, #fef9e7, #fdebd0); border: 2px dashed #d68910; border-radius: 10px; padding: 16px 20px; margin: 18px 0; }
+  .mnemonic-title { font-weight: 800; color: #b9770e; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  th, td { border: 1px solid #cbd5e0; padding: 9px 12px; text-align: left; vertical-align: top; }
+  th { background: #2b6cb0; color: #fff; font-weight: 600; }
+  tr:nth-child(even) td { background: #f7fafc; }
+  .ref-pagina { font-size: 12px; color: #a0aec0; font-style: italic; }
+  .citacao { font-style: italic; background: #f7fafc; border-left: 4px solid #a0aec0; padding: 10px 16px; margin: 14px 0; color: #4a5568; }
+  .diagram { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+  .diagram-item { flex: 1; min-width: 130px; background: #edf2f7; border-radius: 8px; padding: 12px; text-align: center; font-size: 13px; }
+  .svg-figure { text-align: center; margin: 20px 0; }
+  .svg-figure svg { max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; }
+  .caption { font-size: 13px; color: #718096; font-style: italic; margin-top: 6px; }
+  ul.clean li, ol.clean li { margin: 6px 0; }
+  .arrow-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 16px 0; font-size: 14px; }
+  .arrow-flow .step { background: #2b6cb0; color: #fff; padding: 8px 14px; border-radius: 20px; font-weight: 600; }
+  .arrow-flow .arr { color: #2b6cb0; font-weight: 800; font-size: 18px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <span class="badge">LOC · LOCAIS DE CRIME</span>
+  <h1>Capítulo 5 — Documentação do Local</h1>
+  <p class="subtitle">Descrição narrativa · Fotografia forense · Croqui e métodos de medição · Divisão de tarefas na equipe <span class="ref-pagina">(LOC, p. 39–47)</span></p>
+
+  <div class="toc">
+    <strong>Neste capítulo</strong>
+    <ul>
+      <li>5.1 Descrição narrativa</li>
+      <li>5.2 Fotografia</li>
+      <li>5.2.1 Fotografias de vestígios</li>
+      <li>5.2.1.1 Registro fotográfico</li>
+      <li>5.2.1.2 Outras recomendações</li>
+      <li>5.3 Croqui</li>
+      <li>5.3.1 Triangulação</li>
+      <li>5.3.2 Coordenadas cartesianas</li>
+      <li>5.3.3 Coordenadas polares</li>
+      <li>5.3.4 Linha base</li>
+      <li>5.4 Sugestões práticas</li>
+      <li>5.5 Tarefas da equipe</li>
+    </ul>
+  </div>
+
+  <div class="box-blue">
+    <strong>Visão geral — por que documentar?</strong>
+    A documentação é a forma de <strong>perenizar a cena de crime</strong>, que é transitória e, uma vez liberada, jamais será recuperada no mesmo estado. São <strong>três instrumentos complementares</strong>, que se reforçam mutuamente: a <strong>descrição narrativa</strong> (texto), a <strong>fotografia</strong> (imagem) e o <strong>croqui</strong> (posicionamento/medidas). Nenhum substitui o outro.
+  </div>
+
+  <div class="mnemonic">
+    <div class="mnemonic-title">★ Mnemônico — os 3 pilares da documentação: "D-F-C"</div>
+    <strong>D</strong>escrição narrativa &nbsp;·&nbsp; <strong>F</strong>otografia &nbsp;·&nbsp; <strong>C</strong>roqui<br>
+    <em>Texto descreve, foto mostra, croqui posiciona.</em>
+  </div>
+
+  <!-- ============ 5.1 ============ -->
+  <div class="section">
+    <h2>5.1 Descrição narrativa</h2>
+    <p>É a descrição <strong>por escrito</strong> (podendo também ser registrada em <strong>áudio ou vídeo</strong>) de tudo que é observado no local. Deve ser feita seguindo uma ordem lógica, partindo <strong>do geral para o específico</strong> (do macroscópico para o particular), de modo que o leitor do laudo consiga "caminhar" mentalmente pela cena.</p>
+
+    <div class="arrow-flow">
+      <span class="step">Visão geral do local</span>
+      <span class="arr">→</span>
+      <span class="step">Ambientes / cômodos</span>
+      <span class="arr">→</span>
+      <span class="step">Vestígios específicos</span>
+    </div>
+
+    <div class="box-orange">
+      <strong>⚠ Regra de ouro</strong>
+      A descrição deve ser feita <strong>no próprio local</strong>, durante o processamento, e <strong>nunca de memória</strong> posteriormente. Detalhes se perdem rapidamente, e a memória é falha — a redação tardia gera lacunas irreparáveis no laudo.
+    </div>
+  </div>
+
+  <!-- ============ 5.2 ============ -->
+  <div class="section">
+    <h2>5.2 Fotografia</h2>
+    <p>O registro fotográfico deve ser <strong>iniciado o quanto antes</strong> e ser <strong>planejado</strong> — e não feito de forma aleatória. A sequência segue a mesma lógica da descrição narrativa: do amplo para o detalhe.</p>
+
+    <div class="arrow-flow">
+      <span class="step">Panorâmica / geral</span>
+      <span class="arr">→</span>
+      <span class="step">Média distância</span>
+      <span class="arr">→</span>
+      <span class="step">Aproximada (específica)</span>
+      <span class="arr">→</span>
+      <span class="step">Close (detalhe)</span>
+    </div>
+
+    <div class="box-green">
+      <strong>Planejamento (Figura 1 do material)</strong>
+      O fotógrafo planeja os disparos partindo de tomadas <strong>panorâmicas</strong>, que contextualizam o local, e vai <strong>fechando o enquadramento</strong> progressivamente até o close de cada vestígio. Isso garante que cada detalhe possa ser depois "localizado" dentro do contexto maior.
+    </div>
+  </div>
+
+  <!-- ============ 5.2.1 ============ -->
+  <div class="section">
+    <h3>5.2.1 Fotografias de vestígios</h3>
+    <p>O vestígio deve ser fotografado <strong>no local, antes de sua coleta</strong>. Podem ser tiradas quantas fotos forem necessárias (a decisão é do perito), mas a <strong>recomendação como regra geral é de, no mínimo, 3 fotografias de cada vestígio</strong>:</p>
+
+    <table>
+      <thead>
+        <tr><th style="width:60px;">Foto</th><th>Tipo</th><th>Finalidade / detalhe</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1ª</strong></td>
+          <td>Vestígio <strong>contextualizado</strong> no local</td>
+          <td>Mostra claramente o vestígio <strong>associado aos demais aspectos do local</strong> — onde ele está.</td>
+        </tr>
+        <tr>
+          <td><strong>2ª</strong></td>
+          <td>Close <strong>sem escala</strong></td>
+          <td>Tirada a curta distância para mostrar as características do vestígio. A ausência de escala é recomendada para análises futuras: já houve casos de a escala ser colocada indevidamente <strong>sobre outros vestígios menores</strong>, que só foram percebidos depois, ao se analisar a foto.</td>
+        </tr>
+        <tr>
+          <td><strong>3ª</strong></td>
+          <td>Close <strong>com escala</strong></td>
+          <td>Idêntica à anterior, mas com a escala (régua/testemunho métrico). Permite <strong>estimar o tamanho</strong> do vestígio e analisar sua grandeza futuramente por meio da foto.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="mnemonic">
+      <div class="mnemonic-title">★ Mnemônico — as 3 fotos do vestígio: "CON–SEM–COM"</div>
+      <strong>CON</strong>textualizada &nbsp;→&nbsp; close <strong>SEM</strong> escala &nbsp;→&nbsp; close <strong>COM</strong> escala<br>
+      <em>Por que duas em close? A "sem escala" protege contra a escala tapar outro vestígio; a "com escala" permite medir.</em>
+    </div>
+  </div>
+
+  <!-- ============ 5.2.1.1 ============ -->
+  <div class="section">
+    <h3>5.2.1.1 Registro fotográfico</h3>
+    <p>É uma <strong>tabela/formulário de controle</strong> que confere ao fotógrafo a certeza de que <strong>todos os vestígios foram fotografados de maneira adequada</strong>. Em locais com grande quantidade de fotos, a ausência desse registro causa confusão. O formulário ajuda a <strong>descrever, fotografar e controlar a coleta</strong> de cada vestígio.</p>
+
+    <div class="box-blue">
+      <strong>Exemplo de formulário de processamento (colunas)</strong>
+      <table>
+        <thead>
+          <tr><th>Nº do vestígio (marcador)</th><th>Descrição</th><th>Posicionado no croqui</th><th>Foto de contexto</th><th>Foto close s/ escala</th><th>Foto close c/ escala</th><th>Coletado</th><th>Amostra controle</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>45</td><td>Cartucho de arma de fogo cal. 9 mm</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>—</td></tr>
+          <tr><td>34</td><td>Mancha suspeita de ser sangue próxima à entrada</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td></tr>
+        </tbody>
+      </table>
+      <span class="ref-pagina">Note: o cartucho (45) não tem amostra-controle; a mancha de sangue (34) tem — pois precisa de superfície de comparação.</span>
+    </div>
+  </div>
+
+  <!-- ============ 5.2.1.2 ============ -->
+  <div class="section">
+    <h3>5.2.1.2 Outras recomendações</h3>
+    <ul class="clean">
+      <li>O registro <strong>minucioso dos pontos de acesso</strong> (portas, janelas, vias de escoamento, corredores) e das <strong>áreas adjacentes</strong> é fundamental para a contextualização e elaboração do laudo.</li>
+      <li>Avaliar, sempre que pertinente, o uso de <strong>fotografias aéreas</strong> — hoje facilitadas pelo uso de <strong>RPAs (Aeronaves Remotamente Pilotadas / Drones)</strong> — para uma <strong>visão macroscópica</strong> do local.</li>
+      <li>As fotografias devem ser capturadas, <strong>prioritariamente, ao nível dos olhos</strong>, reproduzindo a perspectiva natural de um observador ao adentrar a cena.</li>
+      <li>A tecnologia <strong>digital</strong> permite registro extensivo a baixo custo (armazenamento ínfimo frente à relevância da prova). <strong>Não se deve hesitar em fotografar</strong> elementos que, à primeira vista, pareçam irrelevantes.</li>
+    </ul>
+    <div class="box-red">
+      <strong>⚠ Oportunidade única</strong>
+      O perito detém, frequentemente, uma <strong>oportunidade única</strong> de acesso à cena preservada. A necessidade posterior de um detalhe <strong>não registrado</strong> pode representar uma <strong>lacuna irreparável</strong> na investigação. (Câmeras de filme ainda servem em contextos específicos de conservação de longo prazo, mas a agilidade do digital é soberana.)
+    </div>
+  </div>
+
+  <!-- ============ 5.3 ============ -->
+  <div class="section">
+    <h2>5.3 Croqui</h2>
+    <p>O propósito do croqui é <strong>registrar a posição dos vestígios</strong> no local de crime, de modo a contextualizá-los para futuras referências. Os métodos de medição para posicionar um vestígio material <strong>variam de local para local</strong>, e a escolha cabe ao profissional que o utilizará. A seguir, os quatro métodos.</p>
+
+    <div class="mnemonic">
+      <div class="mnemonic-title">★ Mnemônico — os 4 métodos do croqui: "TRI-CA-PO-LI"</div>
+      <strong>TRI</strong>angulação &nbsp;·&nbsp; coordenadas <strong>CA</strong>rtesianas &nbsp;·&nbsp; coordenadas <strong>PO</strong>lares &nbsp;·&nbsp; <strong>LI</strong>nha base
+    </div>
+
+    <table>
+      <thead>
+        <tr><th>Método</th><th>Como funciona</th><th>Indicado para</th><th>Referência(s)</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Triangulação</strong></td>
+          <td>Mede a distância do vestígio a partir de <strong>2 referenciais fixos</strong>.</td>
+          <td>Uso geral; mais usado pela simplicidade.</td>
+          <td>2 pontos fixos permanentes</td>
+        </tr>
+        <tr>
+          <td><strong>Coordenadas cartesianas</strong></td>
+          <td>Medições como em um plano X–Y (uma parede é o eixo X, outra o eixo Y).</td>
+          <td><strong>Áreas fechadas</strong> (ambientes internos).</td>
+          <td>2 paredes perpendiculares</td>
+        </tr>
+        <tr>
+          <td><strong>Coordenadas polares</strong></td>
+          <td>Mede <strong>distância + ângulo</strong> a partir de um único referencial.</td>
+          <td><strong>Áreas abertas</strong> (difícil ter 2º referencial).</td>
+          <td>1 ponto + 1 direção (ângulo)</td>
+        </tr>
+        <tr>
+          <td><strong>Linha base</strong></td>
+          <td>Uma trena é a "linha base"; outra mede o vestígio até ela <strong>ortogonalmente</strong>.</td>
+          <td>Vestígios <strong>concentrados em uma mesma direção</strong>.</td>
+          <td>1 linha de referência (trena)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ============ 5.3.1 ============ -->
+  <div class="section">
+    <h3>5.3.1 Método da triangulação</h3>
+    <p>Consiste em posicionar o vestígio obtendo sua distância a partir de <strong>dois referenciais fixos</strong>. Método muito usado pela <strong>simplicidade e facilidade de reprodução</strong> no croqui. São necessárias, no mínimo, <strong>duas pessoas</strong> para realizar as medidas.</p>
+    <div class="box-green">
+      <strong>Pontos fortes e limitações</strong>
+      <ul class="clean" style="margin:6px 0;">
+        <li><strong>Fortes:</strong> facilidade de utilização e precisão.</li>
+        <li><strong>Aspecto limitante:</strong> a escolha adequada de <strong>dois referenciais fixos permanentes</strong>, coerentes com o local e com os vestígios.</li>
+        <li>Objetos <strong>pequenos</strong> → apenas <strong>uma triangulação</strong>.</li>
+        <li>Objetos de <strong>tamanho considerável</strong> → <strong>duas triangulações</strong> (uma em cada extremidade), fornecendo posição, localização e até o <strong>tamanho</strong> do vestígio.</li>
+      </ul>
+    </div>
+
+    <div class="svg-figure">
+      <svg viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="10" width="340" height="200" fill="#fff" stroke="#cbd5e0"/>
+        <circle cx="45" cy="40" r="9" fill="#fff" stroke="#2b6cb0" stroke-width="2"/>
+        <circle cx="315" cy="40" r="9" fill="#fff" stroke="#2b6cb0" stroke-width="2"/>
+        <text x="45" y="30" font-size="10" text-anchor="middle" fill="#2b6cb0">Ref. A</text>
+        <text x="315" y="30" font-size="10" text-anchor="middle" fill="#2b6cb0">Ref. B</text>
+        <rect x="150" y="150" width="70" height="40" fill="#edf2f7" stroke="#4a5568"/>
+        <text x="185" y="205" font-size="10" text-anchor="middle" fill="#4a5568">vestígio</text>
+        <line x1="45" y1="40" x2="160" y2="155" stroke="#dd6b20" stroke-dasharray="4" stroke-width="1.5"/>
+        <line x1="315" y1="40" x2="210" y2="155" stroke="#dd6b20" stroke-dasharray="4" stroke-width="1.5"/>
+        <text x="95" y="105" font-size="10" fill="#dd6b20">8,0 m</text>
+        <text x="270" y="105" font-size="10" fill="#dd6b20">9,25 m</text>
+      </svg>
+      <div class="caption">Figura 2 — Método da triangulação: distâncias do vestígio a 2 referenciais fixos.</div>
+    </div>
+  </div>
+
+  <!-- ============ 5.3.2 ============ -->
+  <div class="section">
+    <h3>5.3.2 Método das coordenadas cartesianas</h3>
+    <p>Método bastante prático para <strong>áreas fechadas</strong>. São realizadas medições como em um <strong>plano cartesiano</strong>: uma das paredes pode ser o <strong>eixo X</strong> e a outra o <strong>eixo Y</strong>. Cada vestígio é localizado por um par de medidas perpendiculares às paredes.</p>
+    <div class="svg-figure">
+      <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+        <rect x="30" y="20" width="270" height="170" fill="#fff" stroke="#4a5568" stroke-width="2"/>
+        <line x1="30" y1="190" x2="300" y2="190" stroke="#2b6cb0" stroke-width="2"/>
+        <line x1="30" y1="20" x2="30" y2="190" stroke="#2b6cb0" stroke-width="2"/>
+        <circle cx="180" cy="190" r="5" fill="#1a365d"/>
+        <text x="120" y="205" font-size="10" fill="#2b6cb0">Referencial (origem)</text>
+        <circle cx="150" cy="90" r="6" fill="#dd6b20"/>
+        <line x1="30" y1="90" x2="150" y2="90" stroke="#dd6b20" stroke-dasharray="3"/>
+        <line x1="150" y1="190" x2="150" y2="90" stroke="#dd6b20" stroke-dasharray="3"/>
+        <text x="80" y="84" font-size="9" fill="#dd6b20">x = 5,7 m</text>
+        <text x="155" y="150" font-size="9" fill="#dd6b20">y = 6,9 m</text>
+      </svg>
+      <div class="caption">Figura 3 — Coordenadas cartesianas: par X–Y a partir das paredes (origem no canto).</div>
+    </div>
+  </div>
+
+  <!-- ============ 5.3.3 ============ -->
+  <div class="section">
+    <h3>5.3.3 Método das coordenadas polares</h3>
+    <p>Pode ser usado em <strong>áreas abertas</strong> nas quais é difícil estabelecer um segundo ponto de referencial. Cada vestígio é localizado por <strong>distância + ângulo</strong> a partir de um referencial.</p>
+    <ul class="clean">
+      <li>Se não houver referencial adequado (mesmo único), pode-se criar um <strong>referencial artificial</strong> — por exemplo, uma <strong>haste metálica enterrada</strong>, que poderá ser localizada depois com um <strong>detector de metais</strong>.</li>
+      <li>A medida dos <strong>ângulos</strong> pode ser feita a partir de uma linha escolhida (recriável depois) ou dos <strong>pontos cardeais</strong> (o <strong>Norte</strong> é o mais usual).</li>
+      <li>É importante deixar claro o <strong>método de medição do ângulo</strong> e a <strong>direção</strong> (sentido horário ou anti-horário).</li>
+      <li>O ângulo pode ser medido com uma <strong>bússola</strong> ou por <strong>cálculos matemáticos</strong> (mais difícil).</li>
+    </ul>
+    <div class="svg-figure">
+      <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="10" width="300" height="180" fill="#fff" stroke="#cbd5e0"/>
+        <circle cx="150" cy="120" r="6" fill="#1a365d"/>
+        <text x="150" y="145" font-size="10" text-anchor="middle" fill="#1a365d">Referencial</text>
+        <line x1="150" y1="120" x2="270" y2="120" stroke="#333" stroke-width="2"/>
+        <text x="275" y="124" font-size="11" font-weight="bold">N (0°)</text>
+        <line x1="150" y1="120" x2="240" y2="55" stroke="#805ad5" stroke-dasharray="4"/>
+        <line x1="150" y1="120" x2="60" y2="70" stroke="#805ad5" stroke-dasharray="4"/>
+        <text x="200" y="60" font-size="9" fill="#805ad5">8,3 m / 34°</text>
+        <text x="65" y="65" font-size="9" fill="#805ad5">5,9 m / 147°</text>
+      </svg>
+      <div class="caption">Figura 4 — Coordenadas polares: distância + ângulo medido a partir do Norte.</div>
+    </div>
+  </div>
+
+  <!-- ============ 5.3.4 ============ -->
+  <div class="section">
+    <h3>5.3.4 Método da linha base</h3>
+    <p>Usado quando há uma <strong>concentração de vestígios em uma mesma direção</strong>. Para praticidade e rapidez, usam-se <strong>duas trenas</strong>: uma serve como <strong>linha base</strong> e a outra mede a distância do vestígio até a linha base, <strong>sempre ortogonalmente</strong> (em ângulo reto).</p>
+    <div class="svg-figure">
+      <svg viewBox="0 0 360 160" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="10" width="340" height="140" fill="#fff" stroke="#cbd5e0"/>
+        <line x1="20" y1="80" x2="340" y2="80" stroke="#2b6cb0" stroke-width="2.5"/>
+        <text x="25" y="73" font-size="10" fill="#2b6cb0">linha base (trena 1)</text>
+        <rect x="90" y="40" width="9" height="9" fill="#dd6b20"/>
+        <line x1="94" y1="80" x2="94" y2="49" stroke="#dd6b20" stroke-dasharray="3"/>
+        <text x="100" y="45" font-size="8" fill="#dd6b20">x=10,7 y=1,7</text>
+        <rect x="160" y="100" width="9" height="9" fill="#dd6b20"/>
+        <line x1="164" y1="80" x2="164" y2="100" stroke="#dd6b20" stroke-dasharray="3"/>
+        <text x="170" y="118" font-size="8" fill="#dd6b20">x=10,1 y=-4,0</text>
+        <rect x="240" y="55" width="9" height="9" fill="#dd6b20"/>
+        <line x1="244" y1="80" x2="244" y2="64" stroke="#dd6b20" stroke-dasharray="3"/>
+        <text x="248" y="50" font-size="8" fill="#dd6b20">x=6,3 y=1,5</text>
+      </svg>
+      <div class="caption">Figura 5 — Método da linha base: medidas ortogonais (y) ao longo da linha base (x).</div>
+    </div>
+  </div>
+
+  <!-- ============ 5.4 ============ -->
+  <div class="section">
+    <h2>5.4 Sugestões práticas adicionais para o processamento</h2>
+    <ul class="clean">
+      <li>Prepare <strong>material de coleta e embalagem em quantidade suficiente</strong> — uma vez no local é trabalhoso encontrar material e equipamento adequados.</li>
+      <li>Prepare os <strong>formulários e materiais auxiliares</strong>: formulário inicial, registro fotográfico, papel milimetrado, prancheta, lápis, borracha, régua etc.</li>
+      <li>Se a cena necessitar de <strong>orientação externa de especialista</strong> (PCF ou não), assegure-se de poder contar com ele durante o processamento.</li>
+      <li><strong>Discuta os procedimentos de busca</strong> com a equipe <strong>antes da chegada</strong>, se possível.</li>
+      <li><strong>Identifique/contate</strong>, se possível, os responsáveis pelo local (isolamento/preservação) antes da chegada.</li>
+      <li><strong>Designe pessoal para tarefas específicas</strong> antes de chegar (fotografia, croqui, busca) para agilizar e não deixar tarefas pendentes. Sugestão de divisão: 1 chefe do local · 1 nas fotos · 1 no croqui · 1 catalogando. Se houver apenas 2 peritos — ou no pior caso 1 — lembre-se de cumprir <strong>todas</strong> as etapas.</li>
+      <li>Considere a <strong>segurança e o conforto</strong> da equipe (locais perigosos / clima adverso): roupa apropriada, comunicação, lanternas, capacetes, alimentação, transporte, assistência médica e equipamentos necessários.</li>
+      <li>Em locais de processamento <strong>prolongado</strong>, divida a equipe em <strong>turnos</strong>, mantendo sempre os registros/documentação dos procedimentos.</li>
+    </ul>
+  </div>
+
+  <!-- ============ 5.5 ============ -->
+  <div class="section">
+    <h2>5.5 Tarefas pertinentes aos integrantes da equipe</h2>
+
+    <div class="box-blue">
+      <strong>Cabe ao PCF chefe da equipe</strong>
+      <ul class="clean" style="margin:6px 0;">
+        <li>Estabelecer os <strong>contatos e a cadeia de comando</strong> com outros policiais/instituições presentes;</li>
+        <li>Anotar os dados do <strong>recebimento do local</strong>, das pessoas presentes e das condições do isolamento;</li>
+        <li>Preencher o <strong>formulário de local</strong>;</li>
+        <li>Fazer a <strong>descrição narrativa</strong>;</li>
+        <li>Realizar a <strong>busca preliminar</strong>;</li>
+        <li>Verificar as <strong>condições de segurança</strong> e de trabalho e, se o caso, providenciar os meios;</li>
+        <li>Organizar <strong>reuniões periódicas</strong> durante a busca;</li>
+        <li>Decidir quanto à <strong>liberação</strong> e entregar o local às autoridades competentes.</li>
+      </ul>
+    </div>
+
+    <div class="box-green">
+      <strong>Cabe ao perito incumbido de fotografar</strong>
+      <ul class="clean" style="margin:6px 0;">
+        <li><strong>Planejar</strong> o trabalho de fotografia;</li>
+        <li>Tirar fotos dos vestígios em <strong>"close" e contextualizados</strong>;</li>
+        <li>Preencher o <strong>controle das fotografias</strong>;</li>
+        <li><strong>Garantir que tudo foi fotografado</strong>.</li>
+      </ul>
+    </div>
+
+    <div class="box-purple">
+      <strong>Cabe ao perito incumbido do croqui</strong>
+      <ul class="clean" style="margin:6px 0;">
+        <li>Tomar as <strong>medidas de posicionamento</strong> dos vestígios;</li>
+        <li><strong>Solicitar ajuda</strong> (se for o caso — triangulação exige ≥2 pessoas);</li>
+        <li><strong>Documentar os vestígios</strong>, posicionando-os no contexto do local.</li>
+      </ul>
+    </div>
+
+    <div class="box-orange">
+      <strong>Cabe ao perito incumbido de catalogar os vestígios</strong>
+      <ul class="clean" style="margin:6px 0;">
+        <li>Fazer a <strong>correta descrição</strong> do que for encontrado;</li>
+        <li><strong>Verificar com o fotógrafo</strong> se o vestígio já foi fotografado.</li>
+      </ul>
+      <p style="margin:8px 0 0;"><em>Nessa tarefa, é importante <strong>não economizar na escrita</strong>: no momento do local sempre pensamos que já se fez muito, mas depois, na redação do laudo, poderão aparecer lacunas.</em></p>
+    </div>
+  </div>
+
+  <div class="citacao">
+    "O perito detém, frequentemente, uma oportunidade única de acesso à cena preservada; a necessidade posterior de um detalhe não registrado pode representar uma lacuna irreparável na investigação." <span class="ref-pagina">— LOC, p. 42</span>
+  </div>
+
+</div>
+
+<script>
+  function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+  }
+  window.addEventListener('load', sendHeight);
+  window.addEventListener('resize', sendHeight);
+  if (typeof MutationObserver !== 'undefined') {
+    var observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+  }
+</script>
+</body>
+</html>
