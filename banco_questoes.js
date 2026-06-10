@@ -20846,5 +20846,175 @@ const questoesDB = [
     "justificativa": "O chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido/encaminhado e os cuidados; a liberação ocorre geralmente de forma verbal e deve ser consignada em laudo, podendo ser por escrito se necessário (p. 37). Isso valida B. A dispensa indevidamente a chefia e o registro. C exige forma escrita e homologação judicial não previstas. D prolonga indevidamente a responsabilidade da perícia após a entrega formal.",
     "referencia": "PDF LOC, p. 37",
     "nivel": "medio"
+  },
+  {
+    "id": 1353,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "A documentação do local de crime apoia-se em três instrumentos complementares. Assinale a alternativa que os identifica corretamente:",
+    "alternativas": {
+      "A": "Descrição narrativa, fotografia e croqui, que se reforçam mutuamente, sem que um substitua o outro.",
+      "B": "Auto de prisão, laudo e relatório de inteligência, que se substituem conforme a complexidade do local.",
+      "C": "Fotografia, filmagem e reconhecimento visual, dispensando-se o registro escrito quando há imagens.",
+      "D": "Croqui, mandado de busca e cadeia de custódia, que constituem as três provas materiais do local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A documentação perenizada da cena apoia-se em três instrumentos complementares — descrição narrativa (texto), fotografia (imagem) e croqui (posicionamento/medidas) —, que se reforçam mutuamente e não se substituem (p. 39). Isso valida A. B, C e D listam documentos ou institutos de natureza diversa (peças processuais, reconhecimento visual, mandado, cadeia de custódia) que não correspondem aos três pilares da documentação.",
+    "referencia": "PDF LOC, p. 39",
+    "nivel": "facil"
+  },
+  {
+    "id": 1354,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a descrição narrativa do local de crime, é correto afirmar que:",
+    "alternativas": {
+      "A": "deve ser redigida posteriormente, na sede da unidade, com base na memória do perito e nas fotografias capturadas.",
+      "B": "deve ser feita no próprio local, durante o processamento, seguindo ordem lógica do geral para o específico, e nunca de memória.",
+      "C": "limita-se ao registro escrito, sendo vedado o uso de áudio ou vídeo como apoio à narrativa.",
+      "D": "deve partir do detalhe de cada vestígio para só então alcançar a visão geral do ambiente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A descrição narrativa deve ser feita no próprio local, durante o processamento, seguindo ordem lógica do geral para o específico (do macroscópico ao particular), e nunca de memória posteriormente, pois detalhes se perdem e a memória é falha (p. 39). Isso valida B. A contraria a regra de ouro de não redigir de memória. C nega a possibilidade de registro em áudio ou vídeo, expressamente admitida. D inverte a ordem lógica (do geral para o específico).",
+    "referencia": "PDF LOC, p. 39",
+    "nivel": "medio"
+  },
+  {
+    "id": 1355,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como regra geral, recomenda-se, no mínimo, três fotografias de cada vestígio: uma contextualizada, um close sem escala e um close com escala. A razão técnica para se registrar o close SEM escala, além daquele com escala, é:",
+    "alternativas": {
+      "A": "permitir a estimativa do tamanho do vestígio diretamente na fotografia, função que a escala dificultaria.",
+      "B": "atender exigência legal de que toda fotografia pericial seja capturada sem qualquer elemento métrico.",
+      "C": "evitar que a escala, colocada indevidamente, oculte outros vestígios menores que só venham a ser percebidos depois, ao se analisar a foto.",
+      "D": "substituir a fotografia contextualizada, dispensando o registro do vestígio associado aos demais aspectos do local."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O close sem escala é recomendado porque já houve casos de a escala ser colocada indevidamente sobre outros vestígios menores, que só foram percebidos depois ao se analisar a foto; assim, a foto sem escala protege contra essa ocultação, enquanto a com escala permite estimar o tamanho (p. 40-41). Isso valida C. A descreve a função do close com escala, não do sem escala. B inventa exigência legal inexistente. D confunde os papéis das fotos, pois a contextualizada tem finalidade própria (localizar o vestígio no conjunto).",
+    "referencia": "PDF LOC, p. 40-41",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1356,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "O chamado registro fotográfico, no contexto da documentação do local, corresponde a:",
+    "alternativas": {
+      "A": "uma tabela/formulário de controle que confere ao fotógrafo a certeza de que todos os vestígios foram fotografados de maneira adequada.",
+      "B": "ao conjunto de negativos e cópias em papel arquivados exclusivamente em câmeras de filme, vedado o uso de meio digital.",
+      "C": "ao laudo fotográfico autônomo, que substitui a descrição narrativa e o croqui do local.",
+      "D": "à autorização judicial necessária para a captação de imagens em ambientes internos da cena."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O registro fotográfico é uma tabela/formulário de controle que dá ao fotógrafo a certeza de que todos os vestígios foram fotografados adequadamente, ajudando a descrever, fotografar e controlar a coleta de cada vestígio, evitando confusão em locais com muitas fotos (p. 41). Isso valida A. B restringe indevidamente ao filme, contrariando o uso do digital. C confunde o instrumento de controle com um laudo substitutivo. D inventa exigência de autorização judicial.",
+    "referencia": "PDF LOC, p. 41",
+    "nivel": "medio"
+  },
+  {
+    "id": 1357,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "O croqui tem por propósito registrar a posição dos vestígios no local. Assinale a alternativa que reúne corretamente os métodos de medição utilizados para posicioná-los:",
+    "alternativas": {
+      "A": "Triangulação, coordenadas cartesianas, coordenadas polares e linha base.",
+      "B": "Espiral, linha, linha cruzada e quadrante.",
+      "C": "Panorâmica, média distância, aproximada e close.",
+      "D": "Contextualizada, sem escala, com escala e aérea."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os quatro métodos de medição para posicionar vestígios no croqui são triangulação, coordenadas cartesianas, coordenadas polares e linha base (p. 43-46), o que valida A. B corresponde aos padrões de busca (Cap. 4). C corresponde à sequência de enquadramentos fotográficos. D corresponde aos tipos de fotografias de vestígio, não a métodos de croqui.",
+    "referencia": "PDF LOC, p. 43-46",
+    "nivel": "facil"
+  },
+  {
+    "id": 1358,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime a céu aberto, em campo amplo, o perito tem dificuldade de estabelecer um segundo ponto de referência fixo para posicionar os vestígios. Considerando os métodos de croqui, a solução mais adequada é:",
+    "alternativas": {
+      "A": "empregar coordenadas cartesianas, adotando duas paredes perpendiculares como eixos X e Y.",
+      "B": "empregar coordenadas polares, posicionando cada vestígio por distância e ângulo a partir de um referencial — que, na falta de um natural, pode ser artificial, como uma haste metálica enterrada, depois localizável por detector de metais.",
+      "C": "empregar o método da linha base, indispensável sempre que houver um único referencial disponível.",
+      "D": "abandonar o croqui e basear o posicionamento exclusivamente nas fotografias panorâmicas do local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As coordenadas polares são indicadas para áreas abertas em que é difícil estabelecer um segundo referencial, localizando o vestígio por distância e ângulo a partir de um referencial; na falta de um referencial natural, pode-se criar um artificial, como uma haste metálica enterrada, depois localizável por detector de metais, medindo-se o ângulo a partir do Norte ou de uma linha recriável (p. 45). Isso valida B. A exige paredes (áreas fechadas), inexistentes no campo. C aplica-se a vestígios concentrados em uma mesma direção, não à ausência de segundo referencial. D abandona indevidamente o croqui.",
+    "referencia": "PDF LOC, p. 45",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1359,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o método da triangulação aplicado ao croqui, é correto afirmar que:",
+    "alternativas": {
+      "A": "posiciona o vestígio medindo sua distância a um único referencial, sendo dispensável a participação de mais de uma pessoa.",
+      "B": "posiciona o vestígio a partir de dois referenciais fixos; para objetos pequenos basta uma triangulação, e para objetos de tamanho considerável fazem-se duas (uma em cada extremidade), o que fornece também o tamanho do vestígio.",
+      "C": "é indicado exclusivamente para áreas abertas, substituindo as coordenadas polares quando há bússola disponível.",
+      "D": "exige a medição de distância e ângulo a partir do Norte, com auxílio de bússola ou de cálculos matemáticos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A triangulação posiciona o vestígio a partir de dois referenciais fixos; é muito usada pela simplicidade e exige no mínimo duas pessoas; para objetos pequenos basta uma triangulação, e para objetos de tamanho considerável fazem-se duas (uma em cada extremidade), fornecendo posição, localização e o tamanho do vestígio (p. 43-44). Isso valida B. A descreve, equivocadamente, um único referencial e dispensa o auxílio. C e D atribuem à triangulação características das coordenadas polares (ângulo, Norte, bússola).",
+    "referencia": "PDF LOC, p. 43-44",
+    "nivel": "medio"
+  },
+  {
+    "id": 1360,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao documentar um homicídio ocorrido no interior de um quarto, o perito decide posicionar cada vestígio por um par de medidas perpendiculares tomadas a partir de duas paredes contíguas, adotando uma como eixo X e outra como eixo Y. O método empregado e sua principal indicação são:",
+    "alternativas": {
+      "A": "coordenadas polares, indicadas para áreas abertas sem segundo referencial.",
+      "B": "linha base, indicada para vestígios concentrados em uma mesma direção.",
+      "C": "coordenadas cartesianas, indicadas para áreas fechadas (ambientes internos).",
+      "D": "triangulação, indicada para a medição a partir de dois pontos fixos quaisquer."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O método das coordenadas cartesianas realiza medições como em um plano X-Y — uma parede como eixo X e outra como eixo Y — e é bastante prático para áreas fechadas (ambientes internos), exatamente o caso do quarto descrito (p. 44-45). Isso valida C. A (polares) é para áreas abertas. B (linha base) atende vestígios concentrados em uma direção. D (triangulação) usa distâncias a dois referenciais, não o par perpendicular de eixos a partir de paredes.",
+    "referencia": "PDF LOC, p. 44-45",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1361,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "O método da linha base, utilizado na elaboração do croqui, caracteriza-se por:",
+    "alternativas": {
+      "A": "ser indicado para vestígios concentrados em uma mesma direção, empregando-se duas trenas — uma como linha base e outra para medir a distância do vestígio até ela, sempre ortogonalmente.",
+      "B": "medir a posição de cada vestígio por distância e ângulo a partir de um referencial único, com auxílio de bússola.",
+      "C": "exigir dois referenciais fixos permanentes e, no mínimo, duas pessoas para a tomada das medidas.",
+      "D": "ser aplicável apenas a ambientes internos, adotando-se duas paredes perpendiculares como eixos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O método da linha base é usado quando há concentração de vestígios em uma mesma direção, empregando-se duas trenas: uma como linha base e a outra para medir a distância do vestígio até ela, sempre ortogonalmente (em ângulo reto) (p. 46). Isso valida A. B descreve as coordenadas polares. C descreve a triangulação. D descreve as coordenadas cartesianas.",
+    "referencia": "PDF LOC, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 1362,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma equipe de quatro peritos, distribuem-se as tarefas de documentação do local. Considerando as atribuições descritas na disciplina, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Cabe ao perito do croqui garantir que todos os vestígios foram fotografados e preencher o controle das fotografias.",
+      "B": "Cabe ao PCF chefe da equipe estabelecer a cadeia de comando, fazer a descrição narrativa, realizar a busca preliminar e decidir quanto à liberação do local.",
+      "C": "Cabe ao perito incumbido de catalogar tomar as medidas de posicionamento dos vestígios e solicitar ajuda para a triangulação.",
+      "D": "Cabe ao perito fotógrafo entregar o local às autoridades competentes ao final do processamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Cabe ao PCF chefe da equipe estabelecer contatos e cadeia de comando, anotar dados do recebimento do local, preencher o formulário de local, fazer a descrição narrativa, realizar a busca preliminar, verificar condições de segurança, organizar reuniões periódicas e decidir quanto à liberação, entregando o local às autoridades (p. 46-47). Isso valida B. A descreve tarefa do fotógrafo (garantir/controlar fotos), não do croqui. C descreve tarefa do perito do croqui (medidas/triangulação), não do catalogador. D atribui ao fotógrafo a entrega do local, que é do chefe.",
+    "referencia": "PDF LOC, p. 46-47",
+    "nivel": "dificil"
   }
 ];
