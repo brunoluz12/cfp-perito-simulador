@@ -21186,5 +21186,175 @@ const questoesDB = [
     "justificativa": "No ambiente controlado, a mesa estativa (base com câmera fixa no topo e duas luminárias laterais) é ideal para fotografar documentos e objetos pequenos, e o mini estúdio (caixa difusora de luz) elimina sombras e reflexos (p. 53). Isso valida A. B restringe os recursos a tripé e flash automático. C cita instrumentos de croqui (haste e detector), alheios à fotografia em estúdio. D confunde elementos de escala/marcação com recursos de iluminação que eliminem sombras e reflexos.",
     "referencia": "PDF LOC, p. 53",
     "nivel": "dificil"
+  },
+  {
+    "id": 1373,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de máquinas fotográficas e seu uso pericial, é correto afirmar que:",
+    "alternativas": {
+      "A": "as câmeras amadoras do tipo 'aponte e dispare' permitem a troca de objetivas, equiparando-se às profissionais.",
+      "B": "as câmeras profissionais possuem objetivas intercambiáveis e permitem regular foco, abertura, velocidade do obturador e sensibilidade do sensor; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho.",
+      "C": "os smartphones substituem totalmente as câmeras profissionais, sendo desnecessário ao perito dominar as regulagens de uma câmera profissional.",
+      "D": "os drones (RPAs) servem apenas ao registro estático de detalhes, não permitindo a geração de ortomosaicos ou modelos 3D."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As câmeras profissionais têm objetivas intercambiáveis e permitem regular foco, abertura do diafragma, velocidade do obturador e sensibilidade do sensor; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho (p. 55-56). Isso valida B. A é falsa: as amadoras não trocam objetivas. C contraria o alerta de que é erro supor que os smartphones substituem totalmente as profissionais. D nega a geração de ortomosaicos, modelos 3D e nuvens de pontos a partir das fotos de drones.",
+    "referencia": "PDF LOC, p. 55-57",
+    "nivel": "medio"
+  },
+  {
+    "id": 1374,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os componentes da máquina fotográfica, qual controla a INTENSIDADE da luz que chega ao sensor e qual controla o TEMPO de exposição, respectivamente?",
+    "alternativas": {
+      "A": "O diafragma controla a intensidade da luz; o obturador controla o tempo de exposição.",
+      "B": "O obturador controla a intensidade da luz; o diafragma controla o tempo de exposição.",
+      "C": "O sensor controla a intensidade da luz; a objetiva controla o tempo de exposição.",
+      "D": "A objetiva controla a intensidade da luz; o sensor controla o tempo de exposição."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O diafragma controla a intensidade da luz que chega ao sensor (função análoga à da pupila), enquanto o obturador controla o tempo de exposição (p. 58-60). Isso valida A. B inverte as funções. C e D atribuem o controle de intensidade/tempo ao sensor e à objetiva, que têm funções distintas (captar a luz e direcioná-la, respectivamente).",
+    "referencia": "PDF LOC, p. 58-60",
+    "nivel": "facil"
+  },
+  {
+    "id": 1375,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito acopla uma objetiva de 50 mm (considerada 'normal' em full frame) a uma câmera com sensor DX da Nikon, cujo fator de conversão é 1,5. Qual a distância focal equivalente e o efeito prático sobre o enquadramento?",
+    "alternativas": {
+      "A": "33 mm equivalentes, passando a comportar-se como uma grande-angular.",
+      "B": "50 mm equivalentes, sem qualquer alteração, pois o fator de conversão não afeta objetivas normais.",
+      "C": "75 mm equivalentes, passando a funcionar como uma teleobjetiva moderada.",
+      "D": "100 mm equivalentes, passando a funcionar como uma teleobjetiva de longo alcance."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Para sensores DX da Nikon adota-se o fator de conversão 1,5, multiplicando-se a distância focal: 50 mm × 1,5 = 75 mm, de modo que a objetiva 'normal' passa a funcionar como teleobjetiva moderada (p. 62). Isso valida C. A (33 mm) corresponderia a uma divisão, não à multiplicação pelo fator. B ignora o efeito do sensor cropado. D resultaria de um fator 2,0, não aplicável ao sensor DX (1,5).",
+    "referencia": "PDF LOC, p. 62",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1376,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de sensores de imagem, é correto afirmar que:",
+    "alternativas": {
+      "A": "o CCD é o sensor mais utilizado em smartphones e câmeras profissionais, por ser rápido e energeticamente eficiente.",
+      "B": "o CMOS é o mais utilizado (em smartphones e profissionais), enquanto o CCD, mais sofisticado, oferece excelente controle de ruído, comum em aplicações científicas.",
+      "C": "o sCMOS é o sensor que apresenta pior desempenho em baixa luminosidade, gerando sempre imagens monocromáticas.",
+      "D": "a qualidade da imagem depende exclusivamente da resolução em megapixels, sendo irrelevante o tipo de sensor."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O CMOS é o sensor mais utilizado (smartphones e profissionais), rápido e eficiente; o CCD, mais sofisticado, tem excelente controle de ruído e é comum em aplicações científicas/de alta precisão (p. 58-59). Isso valida B. A atribui ao CCD a característica do CMOS. C distorce o sCMOS, que combina alta velocidade com baixo ruído. D contraria a ressalva de que não é só a resolução que define a qualidade — o tipo de sensor também importa.",
+    "referencia": "PDF LOC, p. 58-59",
+    "nivel": "medio"
+  },
+  {
+    "id": 1377,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para fotografar uma cena de crime garantindo que tanto os elementos próximos quanto os distantes fiquem nítidos (maior profundidade de campo), o perito deve ajustar a abertura do diafragma para:",
+    "alternativas": {
+      "A": "um número f menor, como f/1.4 ou f/2.8, pois aberturas maiores aumentam a profundidade de campo.",
+      "B": "um número f maior, como f/16 ou f/22, pois, sendo a relação inversa, número f maior significa abertura menor e maior profundidade de campo.",
+      "C": "o valor f/5.6, único capaz de proporcionar profundidade de campo, independentemente da iluminação.",
+      "D": "o modo de obturador eletrônico, que define a profundidade de campo sem relação com o diafragma."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Há relação inversa entre o número f e a abertura: quanto maior o número f (ex.: f/16, f/22), menor a abertura do diafragma e maior a profundidade de campo (região nítida antes e após o foco) (p. 62-63). Isso valida B. A inverte a relação (números f menores são grandes aberturas, com menor profundidade de campo). C fixa arbitrariamente um valor único. D atribui ao obturador a função do diafragma.",
+    "referencia": "PDF LOC, p. 62-63",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1378,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da sensibilidade do sensor (ISO), assinale a alternativa correta:",
+    "alternativas": {
+      "A": "ISO baixo (100–200) é ideal para ambientes claros; ISO elevado (1600–3200) é melhor para pouca luz, mas valores muito elevados tendem a gerar ruído na imagem.",
+      "B": "ISO elevado é ideal para ambientes muito iluminados, pois reduz a entrada de luz no sensor.",
+      "C": "o aumento do ISO não tem qualquer efeito sobre a qualidade da imagem, servindo apenas para nomear o arquivo.",
+      "D": "ISO baixo deve ser usado em ambientes escuros, pois amplifica o sinal captado pelo sensor."
+    },
+    "resposta_correta": "A",
+    "justificativa": "ISO baixo (100–200) é ideal para ambientes claros; ISO elevado (1600–3200) é melhor para pouca luz; valores muito elevados tendem a gerar ruído (pequenos grãos/pontos coloridos) (p. 59-60). Isso valida A. B inverte o uso do ISO elevado. C nega o efeito do ISO sobre a qualidade. D inverte a aplicação do ISO baixo.",
+    "referencia": "PDF LOC, p. 59-60",
+    "nivel": "medio"
+  },
+  {
+    "id": 1379,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito deseja ter controle direto sobre a profundidade de campo de suas fotografias, deixando que a câmera calcule automaticamente o tempo de exposição correspondente. Entre os modos de operação P, S, A e M, o mais adequado é o modo:",
+    "alternativas": {
+      "A": "P (multiprograma automático), pois a câmera define tanto a abertura quanto a velocidade.",
+      "B": "S (prioridade do obturador), pois o fotógrafo escolhe a velocidade e a câmera calcula a abertura.",
+      "C": "A (prioridade da abertura), pois o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente.",
+      "D": "M (manual), única opção em que é possível qualquer controle sobre a profundidade de campo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No modo A (prioridade da abertura), o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente, sendo indicado justamente para controlar a profundidade de campo (p. 67-68). Isso valida C. A (P) não permite escolher a abertura. B (S) prioriza a velocidade, indicada para controlar movimento. D (M) também permitiria, mas exige definir ambos os parâmetros, não sendo a opção que deixa a câmera calcular automaticamente o tempo.",
+    "referencia": "PDF LOC, p. 67-68",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1380,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para fotografar um ambiente interno restrito, registrando o maior campo possível da cena, qual tipo de objetiva é o mais indicado e qual sua principal limitação?",
+    "alternativas": {
+      "A": "A teleobjetiva (acima de 70 mm), que amplia o campo de visão sem distorções.",
+      "B": "A objetiva normal (cerca de 50 mm), que reproduz exatamente o campo de um ambiente fechado.",
+      "C": "A grande-angular (abaixo de 35 mm, ideal 24–28 mm), que capta campo amplo, mas pode distorcer as bordas da imagem.",
+      "D": "A teleobjetiva de 500 mm, ideal para ambientes internos por aproximar os objetos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A objetiva grande-angular (ângulo de visão maior que 65°, distância focal abaixo de 35 mm, ideal 24–28 mm) capta um campo amplo e é indicada para ambientes internos, mas pode distorcer as bordas da imagem (p. 60-61). Isso valida C. A e D referem-se a teleobjetivas, que estreitam o campo e aproximam objetos (a de 500 mm tem pouca utilidade pericial). B (normal) aproxima-se da perspectiva do olho humano, sem o campo amplo desejado.",
+    "referencia": "PDF LOC, p. 60-61",
+    "nivel": "medio"
+  },
+  {
+    "id": 1381,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma diligência, o perito precisa, em um momento, congelar a imagem de um disparo de arma de fogo e, em outro, registrar uma cena externa à noite com baixíssima luminosidade. Quanto ao ajuste do obturador, a orientação correta é:",
+    "alternativas": {
+      "A": "usar velocidade de obturação elevada (tempo curto, ex.: 1/1000 s) para congelar o disparo; e velocidade lenta (tempo longo) com apoio de tripé para a cena noturna.",
+      "B": "usar velocidade lenta para congelar o disparo e velocidade elevada, sem tripé, para a cena noturna.",
+      "C": "manter a mesma velocidade intermediária nas duas situações, pois o obturador não influencia o congelamento do movimento.",
+      "D": "desligar o obturador em ambos os casos, deixando o ISO controlar isoladamente o tempo de exposição."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A velocidade de obturação elevada (tempo curto, ex.: 1/1000 s) congela o movimento, sendo adequada para o disparo de arma; a velocidade lenta (tempo longo) é necessária em cenas com pouca luz, exigindo tripé para não tremer (p. 64-65). Isso valida A. B inverte as situações. C nega a influência do obturador sobre o congelamento. D propõe desligar o obturador, o que é incompatível com a captura controlada da imagem.",
+    "referencia": "PDF LOC, p. 64-65",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1382,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o triângulo de exposição e o balanço de branco, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "o triângulo de exposição é formado por ISO, obturador e diafragma, que devem ser regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin.",
+      "B": "o triângulo de exposição é composto por foco, zoom e resolução, sem relação com a luminosidade da foto.",
+      "C": "no balanço de branco, luz de baixa temperatura (≈ 2700–3000 K) é fria e azulada, enquanto a de alta temperatura é quente e amarelada.",
+      "D": "o ISO não integra o triângulo de exposição, que se restringe ao obturador e ao diafragma."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O triângulo de exposição é formado por ISO, obturador e diafragma, que controlam a luminosidade e devem ser regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin (p. 65-66). Isso valida A. B troca os elementos do triângulo. C inverte as temperaturas (baixa = quente/amarelada; alta = fria/azulada). D exclui indevidamente o ISO do triângulo de exposição.",
+    "referencia": "PDF LOC, p. 65-66",
+    "nivel": "medio"
   }
 ];
