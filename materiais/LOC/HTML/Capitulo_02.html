@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 2 - Metodologia de Investigação</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; }
+        .container { max-width: 100%; margin: 0; background: #fff; padding: 28px 36px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        .citacao { font-style: italic; color: #4a5568; border-left: 3px solid #cbd5e0; padding-left: 12px; margin: 10px 0; }
+        .diagram { display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0; justify-content: center; }
+        .diagram-item { flex: 1; min-width: 180px; background: #fff; border: 2px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
+        .diagram-item-title { font-weight: 700; color: #2b6cb0; margin-bottom: 8px; }
+        .svg-figure { text-align: center; margin: 25px 0; }
+        .svg-figure .caption { font-size: 0.85em; color: #718096; font-style: italic; margin-top: 8px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">LOC · LOCAIS DE CRIME</span>
+        <h1>Capítulo 2 — Metodologia de Investigação</h1>
+        <div class="subtitle">As perguntas a responder, a necessidade técnica e o trabalho em equipe</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec0">2. Metodologia: o que se busca responder</a></li>
+            <li><a href="#sec1">2.1 Necessidade técnica</a></li>
+            <li><a href="#sec2">2.2 O trabalho em equipe (papéis)</a></li>
+            <li><a href="#sec3">Síntese e mnemônicos</a></li>
+        </ul>
+    </div>
+
+    <div id="sec0" class="section">
+        <h2>2. Metodologia: o que se busca responder</h2>
+        <p>O trabalho de investigação em uma cena de crime é uma <strong>tarefa de equipe</strong> que envolve todos os integrantes da força policial. Quando presentes em um local, todos devem ter consciência de sua função e da quantidade de informações que podem ser obtidas. <span class="ref-pagina">(p. 19)</span></p>
+
+        <div class="box-blue">
+            <strong>As 7 perguntas a serem respondidas em um local:</strong>
+            <table>
+                <tr><th>Letra</th><th>Pergunta</th></tr>
+                <tr><td><strong>A</strong></td><td>O que ocorreu?</td></tr>
+                <tr><td><strong>B</strong></td><td>Onde?</td></tr>
+                <tr><td><strong>C</strong></td><td>Quando?</td></tr>
+                <tr><td><strong>D</strong></td><td>Qual o meio empregado?</td></tr>
+                <tr><td><strong>E</strong></td><td>De que forma foi utilizado?</td></tr>
+                <tr><td><strong>F</strong></td><td>Quem foi o autor?</td></tr>
+                <tr><td><strong>G</strong></td><td>Por quê?</td></tr>
+            </table>
+            Para responder, é preciso reunir o maior número possível de informações de <strong>entrevistas</strong> e dos <strong>vestígios materiais</strong>. Respondendo a todas, pode-se obter a <strong>autoria</strong> e até a <strong>motivação</strong> do crime. <span class="ref-pagina">(p. 19)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — as 7 perguntas (A→G)</span>
+            <p>"<strong>O</strong>correu, <strong>O</strong>nde, <strong>Q</strong>uando, com qual <strong>M</strong>eio, de que <strong>F</strong>orma, <strong>Q</strong>uem e por <strong>Q</strong>uê" — responder a todas leva à <strong>autoria + motivação</strong>.</p>
+            <span class="ref-pagina">(p. 19)</span>
+        </div>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>2.1 Necessidade técnica</h2>
+        <p>Além da <strong>necessidade legal</strong> do perito no local (vista no Cap. 1), há a <strong>necessidade técnica</strong>: o preparo para o trato de certos vestígios. Locais com vestígios <strong>biológicos, químicos</strong> ou outros que exigem conhecimento técnico para coleta demandam claramente o trabalho do perito. <span class="ref-pagina">(p. 19)</span></p>
+
+        <div class="box-green">
+            <strong>Informações de contexto do vestígio:</strong> o perito é treinado para estar atento a fatos que passariam despercebidos a outros policiais — o estabelecimento da <strong>dinâmica dos fatos</strong> e a <strong>contextualização dos vestígios</strong> no local. Um vestígio <strong>encontrado e coletado no local</strong> fornece muito mais informação ao perito do que o mesmo vestígio coletado por outro policial e apenas encaminhado para análise. <span class="ref-pagina">(p. 19)</span>
+        </div>
+
+        <p>O perito é o profissional <strong>habilitado legal e tecnicamente</strong> para o exame de local; o resultado dos exames é consignado em <strong>laudo pericial</strong>, elaborado por <strong>Peritos Criminais Federais lotados no Instituto Nacional de Criminalística (INC)</strong> ou nas unidades descentralizadas. <span class="ref-pagina">(p. 19-20)</span></p>
+
+        <div class="box-purple">
+            <strong>Impressões papilares — IN nº 188-DG/PF, de 10/12/2020:</strong> a realização de exames papiloscópicos e as atividades de coleta e levantamento de fragmentos papiloscópicos nos locais de crime são de <strong>responsabilidade dos papiloscopistas policiais federais</strong>, devendo ser realizadas de <strong>forma coordenada com a equipe pericial</strong>, para definir a melhor estratégia de exploração dos dados contidos em vestígio que ainda será submetido a exame. <span class="ref-pagina">(p. 20)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2.2 O trabalho em equipe</h2>
+        <p>Cada policial presente na cena de crime tem seu papel. No somatório de todos os papéis, tem-se um <strong>trabalho em equipe</strong> que culminará no sucesso da investigação. <span class="ref-pagina">(p. 20)</span></p>
+
+        <h3>2.2.1 Papel do Perito Criminal Federal</h3>
+        <div class="box-blue">
+            Responsável pelo <strong>processamento do local</strong>, que consiste em: <strong>(1)</strong> reavaliar o isolamento; <strong>(2)</strong> proceder à busca por vestígios e coletá-los adequadamente; <strong>(3)</strong> fazer os levantamentos <strong>fotográfico e descritivo</strong> e os <strong>croquis</strong>; <strong>(4)</strong> encaminhar, se necessário, os vestígios para análises; <strong>(5)</strong> elaborar o <strong>laudo de exame do local</strong>, descrevendo minuciosamente os vestígios, sua posição e contextualização. <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <h3>2.2.2 Papel do Delegado de Polícia Federal</h3>
+        <div class="box-green">
+            <strong>Responsável legal pelo isolamento e preservação</strong> do local (art. 6º do CPP). Cabe a ele o prosseguimento das investigações iniciadas no local; pode realizar entrevistas e obter informações para a estratégia da investigação. É também quem <strong>recebe o local após concluídas as análises</strong>. <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <h3>2.2.3 Papel do Agente de Polícia Federal</h3>
+        <p>Compõe a equipe de <strong>isolamento e preservação</strong> da área, podendo ajudar a perícia no processamento, se solicitado. Realiza <strong>entrevistas</strong> e busca por possíveis testemunhas. <span class="ref-pagina">(p. 20)</span></p>
+
+        <h3>2.2.4 Papel do Escrivão de Polícia Federal</h3>
+        <p>Apesar de não comparecer com muita frequência aos locais de crime, caso esteja presente, pode realizar as <strong>mesmas tarefas atribuídas ao agente</strong> de polícia federal. <span class="ref-pagina">(p. 21)</span></p>
+
+        <h3>2.2.5 Papel do Papiloscopista Policial Federal</h3>
+        <div class="box-purple">
+            Possui a atribuição de realizar a <strong>coleta de vestígios de impressões digitais</strong> do local. O levantamento deve ser feito na <strong>etapa da coleta de vestígios</strong> e <strong>coordenado</strong> com o restante dos trabalhos — o perito deve cuidar para que nenhuma etapa do processamento seja atropelada, buscando <strong>segurança na análise global da cena</strong>. <span class="ref-pagina">(p. 21)</span>
+        </div>
+
+        <table>
+            <tr><th>Integrante</th><th>Papel essencial no local</th></tr>
+            <tr><td><strong>Perito Criminal Federal</strong></td><td>Processa o local: isolamento (reavaliação), busca/coleta, foto + descrição + croqui, encaminhamento e laudo.</td></tr>
+            <tr><td><strong>Delegado de PF</strong></td><td>Responsável legal pelo isolamento/preservação (art. 6º CPP); conduz a investigação; recebe o local ao final.</td></tr>
+            <tr><td><strong>Agente de PF</strong></td><td>Isolamento e preservação; entrevistas; busca testemunhas; auxilia a perícia se solicitado.</td></tr>
+            <tr><td><strong>Escrivão de PF</strong></td><td>Pouco frequente; se presente, mesmas tarefas do agente.</td></tr>
+            <tr><td><strong>Papiloscopista Policial Federal</strong></td><td>Coleta de impressões digitais, na etapa de coleta, coordenada com a perícia.</td></tr>
+        </table>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>Síntese e mnemônicos</h2>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — equipe: "PE-DE-AG-ES-PA"</span>
+            <p><strong>PE</strong>rito (processa/laudo) · <strong>DE</strong>legado (responsável legal, art. 6º) · <strong>AG</strong>ente (isolamento/entrevistas) · <strong>ES</strong>crivão (supre o agente) · <strong>PA</strong>piloscopista (impressões digitais).</p>
+        </div>
+        <div class="box-green">
+            <strong>Conclusão:</strong> a investigação em local é metodológica e coletiva — responder às <strong>7 perguntas (A–G)</strong> exige unir informações de entrevistas e de vestígios; a <strong>necessidade técnica</strong> justifica o perito (que contextualiza o vestígio no local), e cada integrante da equipe tem papel definido, com destaque para o <strong>perito</strong> (processamento/laudo) e o <strong>delegado</strong> (responsável legal pela preservação). <span class="ref-pagina">(p. 19-21)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+}
+window.addEventListener('load', sendHeight);
+window.addEventListener('resize', sendHeight);
+if(typeof MutationObserver !== 'undefined') {
+    const observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+}
+</script>
+</body>
+</html>
