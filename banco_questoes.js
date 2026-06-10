@@ -22665,5 +22665,175 @@ const questoesDB = [
     "justificativa": "Deve-se evitar marcação ou inscrição no corpo do próprio vestígio, para preservar sua integridade, fixando, sempre que possível, as etiquetas/inscrições nos envelopes ou recipientes de acondicionamento (p. 134). Isso valida B. A contraria essa orientação ao inscrever no corpo do vestígio. C dispensa indevidamente a etiquetagem. D omite campos sugeridos (tipo, local, coletor, unidade).",
     "referencia": "PDF LOC, p. 134",
     "nivel": "medio"
+  },
+  {
+    "id": 1460,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao conceito de microvestígio e seu enquadramento jurídico, é correto afirmar que:",
+    "alternativas": {
+      "A": "a legislação brasileira não traz definição específica para 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, sobretudo quanto a materiais latentes e não visíveis.",
+      "B": "há definição legal expressa de microvestígio no CPP, com tamanho máximo previamente fixado.",
+      "C": "microvestígios não se enquadram no conceito legal de vestígio, por não serem visíveis a olho nu.",
+      "D": "o conceito de vestígio do art. 158-A exclui expressamente os materiais latentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Não há definição legal específica de 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, especialmente ao considerar materiais latentes e não visíveis (p. 135). Isso valida A. B afirma definição legal e tamanho fixos inexistentes. C exclui indevidamente os microvestígios. D contraria o conceito, que abrange o latente.",
+    "referencia": "PDF LOC, p. 135",
+    "nivel": "facil"
+  },
+  {
+    "id": 1461,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um fragmento de vidro é facilmente visto sobre um piso claro e homogêneo, mas torna-se imperceptível nos escombros de uma explosão. Esse exemplo ilustra que a classificação de um vestígio como 'micro':",
+    "alternativas": {
+      "A": "depende exclusivamente de sua dimensão física absoluta, independentemente do ambiente.",
+      "B": "não depende apenas da dimensão absoluta, mas também do contexto e da perceptibilidade, sendo central a noção de 'invisibilidade aparente', que exige elevado grau de atenção do perito.",
+      "C": "decorre unicamente da composição química do material, e não de sua visualização.",
+      "D": "é definida pela quantidade de vestígios presentes na cena, e não por sua visibilidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O termo não depende exclusivamente de uma dimensão física absoluta, mas também do contexto e da perceptibilidade; o mesmo fragmento de vidro pode ser visível em piso claro homogêneo e imperceptível em escombros heterogêneos. A característica central é a 'invisibilidade aparente', que exige elevado grau de atenção (p. 135). Isso valida B. A fixa-se só na dimensão absoluta. C e D trocam o critério por composição química ou quantidade.",
+    "referencia": "PDF LOC, p. 135",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1462,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na etapa de detecção e identificação de microvestígios, as buscas visuais são assistidas por técnicas de iluminação e ampliação. Entre os recursos utilizados, inclui-se:",
+    "alternativas": {
+      "A": "a iluminação oblíqua (para partículas superficiais e materiais reflexivos), luzes de diferentes comprimentos de onda, lupas/estereomicroscópio e fundos contrastantes.",
+      "B": "a aplicação de luminol em toda a cena, único método capaz de revelar microvestígios.",
+      "C": "a exposição direta ao sol do meio-dia, que satura a cena de luz e facilita a visualização.",
+      "D": "o uso exclusivo de raios X portáteis, dispensando qualquer iluminação visível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A detecção utiliza iluminação oblíqua (partículas superficiais aderidas e materiais reflexivos, como vidro e glitter), luzes de diferentes comprimentos de onda (tintas, fibras, cabelos, vidro), lupas iluminadas/estereomicroscópio e fundos contrastantes (p. 137). Isso valida A. B confunde com pesquisa de sangue (luminol). C contraria a recomendação de luz em ângulo (a luz vertical do meio-dia satura). D inventa um método exclusivo de raios X.",
+    "referencia": "PDF LOC, p. 137",
+    "nivel": "medio"
+  },
+  {
+    "id": 1463,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à estratégia de coleta de microvestígios, a disciplina estabelece que, quando viável:",
+    "alternativas": {
+      "A": "deve-se sempre coletar os microvestígios diretamente na cena, pois o ambiente do local oferece melhores condições que o laboratório.",
+      "B": "coletar o item inteiro é preferível — mesmo quando os vestígios já são visíveis —, pois reduz o risco de perda/contaminação e a coleta de microvestígios é mais eficiente e controlada em laboratório.",
+      "C": "deve-se descartar o item de suporte e coletar apenas os microvestígios isolados na cena.",
+      "D": "a coleta deve ser sempre feita por varredura a vácuo, por ser o método mais seletivo disponível."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quando viável, coletar o item inteiro é preferível, mesmo com vestígios já visíveis, pois reduz risco de perda/contaminação; como regra geral, a coleta de microvestígios é mais eficiente e controlada em laboratório (melhor iluminação, controle ambiental, equipamentos) e preserva o contexto (p. 138-139). Isso valida B. A inverte a vantagem do laboratório. C descarta o suporte, perdendo contexto. D trata a varredura a vácuo como seletiva, quando ela é o método menos seletivo.",
+    "referencia": "PDF LOC, p. 138-139",
+    "nivel": "medio"
+  },
+  {
+    "id": 1464,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os métodos de coleta de microvestígios em itens ou áreas, é correto afirmar que:",
+    "alternativas": {
+      "A": "o levantamento com fita adesiva é o método indicado para coletar tintas e polímeros, por preservar sua composição química.",
+      "B": "o levantamento com fita adesiva serve a microvestígios superficiais (fibras, partículas leves), mas NÃO é recomendado para tintas e polímeros (o adesivo pode interagir e alterá-los quimicamente); já a varredura a vácuo, por ser menos seletiva, deve ser usada após as técnicas mais direcionadas.",
+      "C": "a varredura a vácuo é o método mais seletivo, devendo ser sempre a primeira técnica empregada.",
+      "D": "as pinças devem ser usadas com pressão máxima para garantir a apreensão das partículas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O levantamento com fita adesiva é adequado a microvestígios superficiais, mas não é recomendado para tintas/polímeros, pois o adesivo pode interagir e alterá-los quimicamente; a varredura a vácuo é menos seletiva (coleta muito material estranho), devendo ser usada após técnicas mais direcionadas (p. 139-140). Isso valida B. A recomenda a fita para tintas/polímeros, justamente desaconselhada. C trata a varredura como seletiva e primeira opção. D recomenda pressão excessiva nas pinças, que danifica a morfologia.",
+    "referencia": "PDF LOC, p. 139-140",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1465,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de amostras-padrão (conhecidas) de microvestígios, como fragmentos de vidro de uma janela quebrada, recomenda-se:",
+    "alternativas": {
+      "A": "coletar um único fragmento, pois todos os pedaços de uma mesma janela são idênticos.",
+      "B": "coletar exemplares representativos de todas as variações da amostra conhecida e, no caso do vidro, marcar a orientação (face interna/externa).",
+      "C": "misturar os fragmentos-padrão com os fragmentos questionados, para facilitar o confronto.",
+      "D": "descartar a coleta de padrões, pois a comparação é feita apenas com os vestígios questionados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As amostras-padrão devem ser representativas de todas as variações da amostra conhecida; no caso de vidro de janela, deve-se marcar a orientação (face interna/externa) (p. 140-141). Isso valida B. A coleta um único fragmento, ignorando variações. C mistura padrão e questionado, comprometendo o confronto. D dispensa os padrões, essenciais à comparação.",
+    "referencia": "PDF LOC, p. 140-141",
+    "nivel": "medio"
+  },
+  {
+    "id": 1466,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à busca de microvestígios no corpo da vítima, a disciplina orienta que:",
+    "alternativas": {
+      "A": "a remoção de todos os vestígios do corpo deve ser feita obrigatoriamente na cena, sob pena de perda.",
+      "B": "a remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação, devendo-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado, preservando os sacos/materiais, que podem conter vestígios desprendidos no transporte.",
+      "C": "as mãos e os pés do cadáver não devem ser ensacados, para não comprometer o exame externo.",
+      "D": "os sacos utilizados no transporte do corpo devem ser descartados imediatamente, por não terem valor pericial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação; recomenda-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado, preservando os sacos/materiais, que podem conter vestígios desprendidos no transporte (p. 141). Isso valida B. A torna obrigatória a remoção na cena. C contraria o ensacamento de mãos e pés. D descarta sacos que podem conter vestígios.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "medio"
+  },
+  {
+    "id": 1467,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "No acondicionamento de microvestígios, distinguem-se a embalagem primária e a embalagem de segurança. A respeito delas, é correto afirmar que:",
+    "alternativas": {
+      "A": "a embalagem primária fica em contato direto com o vestígio (ex.: envelopes de papel, potes, microtubos tipo Eppendorf), enquanto a embalagem de segurança protege o recipiente primário e é a que possui numeração individualizada.",
+      "B": "a embalagem de segurança fica em contato direto com o vestígio, e a primária apenas a envolve externamente.",
+      "C": "a numeração individualizada deve constar da embalagem primária, e não da de segurança.",
+      "D": "ambas as embalagens podem ser reutilizadas de outros exames, desde que higienizadas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A embalagem primária é a que fica em contato direto com o vestígio (à prova de vazamentos, limpa, não utilizada — ex.: envelopes de papel, potes, microtubos tipo Eppendorf); a embalagem de segurança protege o recipiente primário e é a que possui numeração individualizada, resguardando a identidade do vestígio e o vínculo com o caso (p. 141-142). Isso valida A. B inverte as embalagens. C atribui a numeração à primária. D admite reutilização, contrária à exigência de material não utilizado.",
+    "referencia": "PDF LOC, p. 141-142",
+    "nivel": "facil"
+  },
+  {
+    "id": 1468,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao acondicionar um item molhado que será examinado e outro item que será analisado quanto a resíduos de líquidos inflamáveis, o perito deve observar que:",
+    "alternativas": {
+      "A": "ambos devem ser secos com auxílio de calor para acelerar o processo e evitar mofo.",
+      "B": "o item molhado comum deve ser seco ao ar o mais rápido possível, sem calor nem luz solar; porém, itens a serem examinados para resíduos líquidos inflamáveis (ou químicos, como alvejante) NÃO devem ser secos, pois a secagem causaria perda de evidências.",
+      "C": "ambos devem ser embalados ainda molhados em sacos plásticos vedados, sem qualquer secagem.",
+      "D": "o item para resíduos inflamáveis deve ser seco ao sol, e o item molhado comum, mantido úmido."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Itens molhados comuns devem ser secos ao ar o mais rápido possível, sem calor nem luz solar; contudo, itens a serem examinados para resíduos líquidos inflamáveis ou químicos (ex.: alvejante) NÃO devem ser secos, pois a secagem causaria perda de evidências (p. 142). Isso valida B. A usa calor, degradante. C não seca o item comum, favorecendo degradação. D inverte os procedimentos.",
+    "referencia": "PDF LOC, p. 142",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1469,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame de ajuste físico, que avalia se dois ou mais itens já estiveram unidos, é correto afirmar que:",
+    "alternativas": {
+      "A": "a ausência de ajuste físico implica, necessariamente, que os itens se originaram de fontes diferentes.",
+      "B": "os eventos de separação (quebras, cortes, rasgos) são reprodutíveis, o que torna o exame meramente indiciário.",
+      "C": "os eventos de separação não são reprodutíveis (geram características individuais); o ajuste positivo ocorre quando as características se realinham de maneira única e não esperada de ser replicada, mas a ausência de ajuste físico NÃO implica, necessariamente, que os itens venham de fontes diferentes.",
+      "D": "a perda de material nas bordas descarta automaticamente a possibilidade de ajuste físico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os eventos de separação não são reprodutíveis, gerando características individuais; o ajuste físico positivo ocorre quando as características se realinham de maneira única, não esperada de ser replicada; e, atenção, a ausência de ajuste físico NÃO implica, necessariamente, que os itens tenham se originado de fontes diferentes (p. 142-143). Isso valida C. A e D contrariam o texto (ausência não implica fontes diferentes; perda de material não descarta o ajuste). B afirma reprodutibilidade da separação, oposto do exposto.",
+    "referencia": "PDF LOC, p. 142-143",
+    "nivel": "medio"
   }
 ];
