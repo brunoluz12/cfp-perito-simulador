@@ -23005,5 +23005,209 @@ const questoesDB = [
     "justificativa": "No exame de veículos deve-se buscar violação da ignição (exposição/supressão de fios, ligação direta) e preservar registros de rastreamento, telemetria e câmeras veiculares; no CFTV, verifica-se a confiabilidade temporal (relógio do DVR/NVR); o roubo a caminhões dos Correios é uma das principais casuísticas da PF (p. 151-155). Isso valida A. B reduz indevidamente o exame veicular. C dispensa a verificação temporal do CFTV. D minimiza a casuística dos Correios, contrariando o texto.",
     "referencia": "PDF LOC, p. 151-155",
     "nivel": "medio"
+  },
+  {
+    "id": 1480,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame perinecroscópico, realizado no local de morte violenta, caracteriza-se por ser:",
+    "alternativas": {
+      "A": "o exame interno (necropsia) do cadáver, realizado pelo perito de local no próprio sítio do crime.",
+      "B": "o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa, sangue e material sob as unhas, sendo o cadáver o maior depositário de vestígios.",
+      "C": "a coleta de amostras para exame toxicológico realizada exclusivamente no IML.",
+      "D": "o levantamento fotográfico das vias de acesso, sem qualquer análise do corpo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O exame perinecroscópico é o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa (lesões em antebraços/mãos), sangue e material sob as unhas; o cadáver é o maior depositário de vestígios da cena (p. 157). Isso valida B. A confunde com a necropsia (exame interno, do médico-legista no IML). C e D restringem indevidamente o exame.",
+    "referencia": "PDF LOC, p. 157",
+    "nivel": "facil"
+  },
+  {
+    "id": 1481,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as lesões produzidas por instrumentos contundentes, a presença de 'pontes de tecido' no fundo da ferida é característica que:",
+    "alternativas": {
+      "A": "distingue a ferida contusa da ferida incisa (cortante), que apresenta bordas regulares e sem pontes de tecido.",
+      "B": "identifica a ferida incisa produzida por instrumento cortante de gume afiado.",
+      "C": "é exclusiva das feridas perfuro-incisas em 'casa de botão'.",
+      "D": "indica ferida punctória produzida por instrumento perfurante."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A ferida contusa apresenta bordas irregulares e pontes de tecido no fundo, sinal que a distingue da ferida incisa (cortante), de bordas regulares e nítidas, sem pontes de tecido (p. 158-160). Isso valida A. B descreve a ferida incisa, que não tem pontes. C e D referem-se a feridas perfuro-incisas e punctórias, com outras características.",
+    "referencia": "PDF LOC, p. 158-160",
+    "nivel": "medio"
+  },
+  {
+    "id": 1482,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às lesões por instrumentos cortantes na região do pescoço, é correto afirmar que:",
+    "alternativas": {
+      "A": "o esgorjamento é o corte na região posterior do pescoço, e o degolamento, na região anterior.",
+      "B": "o esgorjamento é o corte na região anterior do pescoço, e o degolamento, na região posterior.",
+      "C": "esgorjamento e degolamento são sinônimos e designam o corte lateral do pescoço.",
+      "D": "tanto o esgorjamento quanto o degolamento designam a decapitação completa."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Entre as lesões cortantes, o esgorjamento é o corte na região anterior do pescoço e o degolamento, na região posterior (p. 160). Isso valida B. A inverte as definições. C e D igualam indevidamente os termos ou os confundem com decapitação.",
+    "referencia": "PDF LOC, p. 160",
+    "nivel": "medio"
+  },
+  {
+    "id": 1483,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um cadáver, observa-se ferida com aspecto em 'casa de botão', com uma extremidade angular e outra arredondada. Considerando as lesões por instrumentos perfurocortantes, esse achado sugere:",
+    "alternativas": {
+      "A": "instrumento de dois gumes, pois ambas as extremidades seriam angulares.",
+      "B": "instrumento perfurante, cuja lesão é circular e desprovida de ângulos.",
+      "C": "instrumento perfurocortante de um gume — uma extremidade angular e outra arredondada —, lembrando que a forma sofre influência das linhas de clivagem de Langer.",
+      "D": "instrumento contundente, produzindo ferida com pontes de tecido."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A ferida perfuro-incisa em 'casa de botão' com uma extremidade angular e outra arredondada indica instrumento de um gume; com dois gumes, ambas as extremidades seriam angulares. A forma sofre influência das linhas de clivagem de Langer (p. 160-161). Isso valida C. A descreve o padrão de dois gumes. B e D descrevem feridas punctória e contusa, de morfologia distinta.",
+    "referencia": "PDF LOC, p. 160-161",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1484,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As feridas punctórias, produzidas por instrumentos perfurantes (prego, estilete, agulha), caracterizam-se por:",
+    "alternativas": {
+      "A": "forma circular ou ovalar, maior profundidade do que extensão, hemorragia externa escassa e extremidades desprovidas de ângulos.",
+      "B": "bordas regulares e nítidas, maior extensão do que profundidade, típicas do gume afiado.",
+      "C": "bordas irregulares com pontes de tecido e fraturas associadas.",
+      "D": "aspecto em 'casa de botão', com extremidades angulares."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As feridas punctórias têm forma circular ou ovalar (podendo ser puntiforme), maior profundidade do que extensão, hemorragia externa escassa ou ausente e extremidades desprovidas de ângulos (p. 161-162). Isso valida A. B descreve a ferida incisa. C descreve a ferida contusa. D descreve a ferida perfuro-incisa.",
+    "referencia": "PDF LOC, p. 161-162",
+    "nivel": "medio"
+  },
+  {
+    "id": 1485,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao examinar lesões por projétil de arma de fogo, o perito busca distinguir o orifício de entrada (OE) do orifício de saída (OS). É correto afirmar que:",
+    "alternativas": {
+      "A": "o OE é geralmente maior que o OS, com bordas evertidas e sem orla de contusão.",
+      "B": "a orla de contusão está invariavelmente presente no OE (independentemente da distância do disparo); o OE costuma ser menor, com bordas invaginadas, enquanto o OS é geralmente maior, com bordas evertidas e sem zonas de queimadura, esfumaçamento ou tatuagem.",
+      "C": "as zonas de chamuscamento, esfumaçamento e tatuagem são típicas do OS, e não do OE.",
+      "D": "tanto o OE quanto o OS apresentam sempre orla de enxugo e tatuagem."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A orla de contusão está invariavelmente presente no OE, independentemente da distância; o OE costuma ser menor, com bordas invaginadas, e o OS é geralmente maior, com bordas evertidas e sem zonas de queimadura, esfumaçamento ou tatuagem (p. 165-167). Isso valida B. A inverte tamanho/bordas e nega a orla de contusão. C atribui as zonas ao OS. D generaliza orla de enxugo e tatuagem para ambos os orifícios.",
+    "referencia": "PDF LOC, p. 165-167",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1486,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as zonas adjacentes ao orifício de entrada e os sinais de tiro encostado em arma de fogo, é correto afirmar que:",
+    "alternativas": {
+      "A": "a zona de esfumaçamento (fuligem) pode ser removida com tecido umedecido, enquanto a tatuagem (grânulos de pólvora incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é lesão típica de tiro encostado sobre região óssea.",
+      "B": "a tatuagem é facilmente removida com tecido umedecido, e o esfumaçamento permanece incrustado na pele.",
+      "C": "a Câmara de Mina de Hofmann ocorre apenas em disparos a longa distância, sem contato com a pele.",
+      "D": "as zonas de chamuscamento, esfumaçamento e tatuagem independem da distância do disparo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A zona de esfumaçamento (deposição de fuligem) pode ser removida com tecido umedecido; a tatuagem (grânulos de pólvora incombusta incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é lesão típica de tiro encostado sobre região óssea, com ruptura estrelada e evertida (p. 166-167). Isso valida A. B inverte a remoção. C nega o caráter de tiro encostado da Câmara de Hofmann. D contraria a dependência das zonas em relação à distância do disparo.",
+    "referencia": "PDF LOC, p. 166-167",
+    "nivel": "medio"
+  },
+  {
+    "id": 1487,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na cronotanatognose aplicada aos locais de crime, a respeito da rigidez cadavérica (rigor mortis), é correto afirmar que:",
+    "alternativas": {
+      "A": "instala-se imediatamente após a morte e permanece indefinidamente, sendo o sinal mais confiável isoladamente.",
+      "B": "instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas; ainda assim, a estimativa do tempo de morte nunca deve basear-se em um único sinal cadavérico.",
+      "C": "surge apenas após 36 horas e é o primeiro fenômeno cadavérico a se manifestar.",
+      "D": "desaparece em até 6 horas, sendo irrelevante para a estimativa do intervalo pós-morte."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A rigidez cadavérica instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas (início da decomposição); a determinação do tempo de morte nunca deve se basear em um único sinal cadavérico, exigindo avaliação conjunta (p. 168-170). Isso valida B. A, C e D apresentam tempos e premissas incorretos sobre a instalação e o desaparecimento do rigor mortis.",
+    "referencia": "PDF LOC, p. 168-170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1488,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os livores cadavéricos (livor mortis) fornecem informações relevantes ao exame do local. A respeito deles, é correto afirmar que:",
+    "alternativas": {
+      "A": "são manchas violáceas pelo acúmulo de sangue nas regiões mais declives, surgindo em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição em que o corpo foi encontrado podem indicar remoção ou manipulação posterior.",
+      "B": "são manchas que surgem nas regiões mais elevadas do corpo, por ação da gravidade invertida.",
+      "C": "aparecem somente após 24 horas e não guardam relação com a posição do cadáver.",
+      "D": "quando incompatíveis com a posição do corpo, confirmam que a morte foi natural."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os livores são manchas violáceas pelo acúmulo de sangue nas regiões mais declives (gravidade), surgindo em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição em que o corpo foi encontrado podem indicar remoção ou manipulação posterior (p. 170). Isso valida A. B inverte a localização (regiões declives, não elevadas). C nega a relação temporal e posicional. D extrai conclusão indevida sobre morte natural.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "medio"
+  },
+  {
+    "id": 1489,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na asfixia por instrumento constritor, o sulco característico do enforcamento apresenta-se, em geral:",
+    "alternativas": {
+      "A": "horizontal, contínuo (não interrompido), com bordos iguais.",
+      "B": "único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente (bordos desiguais).",
+      "C": "múltiplo, horizontal e simétrico, sem qualquer interrupção.",
+      "D": "ausente, pois o enforcamento não deixa sulco no pescoço."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No enforcamento, o sulco é em geral único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente (bordos desiguais) (p. 175). Isso valida B. A descreve o estrangulamento (horizontal, não interrompido, bordos iguais). C generaliza características do estrangulamento. D nega a existência do sulco, que é característico do enforcamento.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "medio"
+  },
+  {
+    "id": 1490,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de morte por asfixia, o perito precisa diferenciar enforcamento, estrangulamento e esganadura. Assinale a alternativa correta:",
+    "alternativas": {
+      "A": "no enforcamento o sulco é horizontal e não interrompido; no estrangulamento, oblíquo ascendente e interrompido; e na esganadura há sulco profundo e único.",
+      "B": "no enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento, em geral horizontal, não interrompido e de bordos iguais; e na esganadura não há sulco, observando-se escoriações e equimoses produzidas pela pressão de dedos e unhas no pescoço.",
+      "C": "nas três modalidades o sulco é idêntico, sendo impossível diferenciá-las pelo exame do pescoço.",
+      "D": "a esganadura produz sulco horizontal de bordos iguais, e o estrangulamento não deixa marcas externas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento é em geral horizontal, não interrompido e de bordos iguais; na esganadura (compressão por mãos/dedos) não há sulco, observando-se escoriações e equimoses pela pressão de dedos e unhas no pescoço (p. 175-176). Isso valida B. A inverte enforcamento e estrangulamento e atribui sulco à esganadura. C nega a possibilidade de diferenciação. D atribui sulco à esganadura e ignora as marcas do estrangulamento.",
+    "referencia": "PDF LOC, p. 175-176",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1491,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas recomendações técnicas por modalidade de morte, a presença de evidências relacionadas a um 'ritual de alívio' (cartas, bilhetes, objetos organizados) é observada em quase todas as modalidades e, no diagnóstico diferencial, costuma sugerir:",
+    "alternativas": {
+      "A": "homicídio doloso qualificado.",
+      "B": "suicídio.",
+      "C": "morte acidental por imprudência.",
+      "D": "morte natural sem intervenção de terceiros."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A presença de evidências de 'ritual de alívio' (cartas, bilhetes, objetos organizados) é observada em quase todas as modalidades de morte e, no diagnóstico diferencial entre homicídio, suicídio e acidente, é pista que sugere suicídio (p. 175-178). Isso valida B. A, C e D não correspondem ao significado atribuído a esse tipo de evidência.",
+    "referencia": "PDF LOC, p. 175-178",
+    "nivel": "facil"
   }
 ];
