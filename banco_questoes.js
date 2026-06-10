@@ -8111,9 +8111,9 @@ const questoesDB = [
     "enunciado": "Durante uma vistoria, um perito constata que o veículo apresenta a numeração do NIV completamente removida por instrumento abrasivo e percussão, sem qualquer gravação substituta. Antes de tipificar a conduta como adulteração, o examinador recorda que a Resolução Contran nº 11/1998, posteriormente alterada pelas Resoluções nº 113/2000 e nº 179/2005, traz disposição relevante sobre a hipótese de baixa do veículo. Considerando o PVAT - Módulo I, assinale a alternativa correta sobre o tema:",
     "alternativas": {
       "A": "A ausência do VIN, em qualquer hipótese, configura fraude penal autônoma, independentemente do destino administrativo do veículo.",
-      "B": "No caso de baixa do veículo, as partes do chassi que contenham a gravação do VIN devem ser recolhidas ao órgão executivo estadual de trânsito responsável pelo registro, e nessa circunstância a ausência do VIN não se configura fraude.",
+      "B": "Na baixa do veículo, as partes do chassi com a gravação do VIN devem ser recolhidas ao órgão executivo estadual de trânsito, e nessa circunstância a ausência do VIN não configura fraude.",
       "C": "A regulamentação determina que, mesmo após a baixa, o VIN deve ser preservado intacto no veículo, sendo qualquer remoção sempre considerada adulteração.",
-      "D": "A Resolução Contran nº 11/1998 transfere ao próprio proprietário, e não ao órgão de trânsito, a guarda das partes que contenham a gravação do VIN após a baixa do veículo."
+      "D": "A Resolução Contran nº 11/1998 transfere ao próprio proprietário, e não ao órgão de trânsito, a guarda das partes que contenham a gravação do VIN após a baixa definitiva do veículo do registro."
     },
     "resposta_correta": "B",
     "justificativa": "O texto da Seção 11.1 dispõe que 'a Resolução Contran nº 11/1998, posteriormente alterada pelas Resoluções nº 113/2000 e nº 179/2005, estabelece que, no caso de baixa do veículo, as partes do chassi que contenham a gravação do VIN devem ser recolhidas ao órgão executivo estadual de trânsito responsável pelo registro. Nessa circunstância, a ausência do VIN não se configura fraude'.",
@@ -8147,7 +8147,7 @@ const questoesDB = [
       "A": "Recobrimento da peça suporte; Sobreposição por chapa metálica; Substituição da peça suporte.",
       "B": "Regravação; Adulteração simples; Remontagem.",
       "C": "Sobreposição por chapa metálica; Recobrimento da peça suporte; Remontagem.",
-      "D": "Adulteração simples; Substituição da peça suporte; Ocultação e regravação em local distinto."
+      "D": "Adulteração simples; Substituição da peça suporte; Ocultação da numeração e regravação em local distinto do veículo."
     },
     "resposta_correta": "A",
     "justificativa": "A Seção 11.4 define recobrimento da peça suporte como 'recobrimento parcial ou total do NIV por massa plástica, solda etc., para posterior gravação de outra numeração'. A Seção 11.5 trata de sobreposição por chapa metálica como 'recobrimento do NIV por chapa metálica (utilizando solda ou material adesivo) com nova gravação'. A Seção 11.6 define substituição da peça suporte como 'substituição parcial ou total da região onde se encontra gravado o NIV. Também conhecida no meio policial como transplante ou implante'.",
@@ -8179,9 +8179,9 @@ const questoesDB = [
     "enunciado": "Em uma operação policial, foi apreendido um veículo no qual, após análise pericial detalhada, constatou-se que a cabine, proveniente de um veículo roubado, havia sido remontada sobre um chassi regular, aproveitando-se a gravação original do VIN deste último. Considerando as características dessa modalidade de adulteração conforme exposto no PVAT - Módulo I, é CORRETO afirmar que:",
     "alternativas": {
       "A": "Trata-se de sobreposição por chapa metálica, pois há fixação de uma estrutura sobre outra com finalidade fraudulenta.",
-      "B": "Trata-se de ocultação da numeração original e regravação em local distinto, dado que houve deslocamento físico do componente identificador para outra posição do veículo.",
+      "B": "Trata-se de ocultação da numeração original e regravação em local distinto, dado que houve deslocamento físico do componente identificador para outra posição da estrutura do veículo, com nova gravação.",
       "C": "Trata-se de substituição da peça suporte, pois há transplante completo do componente que contém o VIN para outro veículo.",
-      "D": "Trata-se de remontagem; como a gravação utilizada é original, as evidências da adulteração não podem ser identificadas na marcação em si, devendo ser buscadas em outros elementos subsidiários do veículo."
+      "D": "Trata-se de remontagem; como a gravação é original, as evidências não estão na marcação em si, devendo ser buscadas em elementos subsidiários do veículo."
     },
     "resposta_correta": "D",
     "justificativa": "A Seção 11.8 descreve a remontagem como 'aproveitamento de partes do veículo, como chassi ou monobloco, ou partes desses, onde se encontra a gravação original do VIN, para ser remontada em veículo produto de furto ou roubo' e adverte que 'devido a tratar-se de gravação original, as evidências da adulteração não podem ser identificadas na marcação em si, mas em outros elementos subsidiários'. A Figura 57 descreve exatamente o cenário do enunciado.",
@@ -8195,10 +8195,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um perito recebe um veículo em que, à primeira vista, o VIN do compartimento do motor parece íntegro e em local regulamentar. Ao aplicar solvente na região originalmente destinada à gravação, percebe marcas de abrasão e massa plástica, indicando que essa área foi recoberta e pintada, e que uma nova gravação foi efetuada em outra posição, distinta da original. Diante desse achado, e considerando as definições do PVAT - Módulo I, a conduta detectada caracteriza:",
     "alternativas": {
-      "A": "Ocultação da numeração original e regravação em local distinto, evidenciada por marcas de abrasão e massa plástica reveladas após aplicação de solvente.",
+      "A": "Ocultação da numeração original e regravação em local distinto, com marcas de abrasão e massa plástica reveladas pelo solvente.",
       "B": "Sobreposição por chapa metálica fixada por adesivo, com nova gravação no mesmo local.",
       "C": "Regravação simples sobre a gravação original, sem alteração de localização.",
-      "D": "Remontagem por aproveitamento de partes de veículo roubado, sem necessidade de recobrimento da área original."
+      "D": "Remontagem por aproveitamento de partes de veículo roubado, sem qualquer necessidade de recobrimento ou de tratamento da área de gravação original do componente."
     },
     "resposta_correta": "A",
     "justificativa": "A Seção 11.7 define o tipo como 'remoção da numeração original e regravação em local distinto'. A Figura 56 descreve precisamente o cenário: 'região do recobrimento após aplicação de solvente. As marcas de abrasão e a massa plástica denotam a adulteração'.",
@@ -9387,7 +9387,7 @@ const questoesDB = [
     "enunciado": "Em uma vistoria, o perito observa que o veículo apresenta o VIN gravado em região onde originalmente não existia gravação de fábrica. A região da peça suporte original foi previamente recoberta com massa plástica e pintada, ocultando a numeração original, enquanto a nova numeração foi inscrita em ponto distinto. Esse procedimento corresponde, conforme o Cap. 11, à modalidade:",
     "alternativas": {
       "A": "Ocultação da numeração original e regravação em local distinto.",
-      "B": "Recobrimento da peça suporte com regravação no mesmo local.",
+      "B": "Recobrimento da peça suporte com posterior regravação da numeração no mesmo local original.",
       "C": "Substituição da peça suporte.",
       "D": "Remontagem."
     },
@@ -9403,8 +9403,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a remontagem como modalidade de adulteração descrita no Cap. 11, assinale a alternativa correta:",
     "alternativas": {
-      "A": "Consiste no rebatimento de caracteres por sobreposição, alterando dígitos individuais como '5' para '6'.",
-      "B": "Caracteriza-se pelo aproveitamento de partes do veículo, como chassi ou monobloco, onde se encontra a gravação original do VIN, para ser remontada em veículo produto de furto ou roubo, sendo as evidências buscadas em elementos subsidiários e não na marcação em si.",
+      "A": "Consiste no rebatimento de caracteres por sobreposição, alterando dígitos individuais como '5' para '6', mediante deformação mecânica pontual e localizada sobre a gravação original já existente no chassi do veículo periciado.",
+      "B": "Caracteriza-se pelo aproveitamento de partes (chassi ou monobloco) com a gravação original do VIN, remontadas em veículo produto de furto/roubo; as evidências são buscadas em elementos subsidiários, não na marcação.",
       "C": "Consiste no recobrimento do NIV por chapa metálica fixada com solda ou adesivo, com gravação de nova identificação.",
       "D": "Corresponde à remoção abrasiva do VIN seguida de regravação no mesmo local e pintura final para ocultação dos vestígios."
     },
