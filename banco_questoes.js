@@ -22036,5 +22036,90 @@ const questoesDB = [
     "justificativa": "Nos voos automatizados, o perito informa o contorno da área e o software calcula uma rota otimizada; as fotos alimentam um software de fotogrametria (a PF usa muito o Agisoft Metashape Professional), gerando produtos 2D (ortofotos e modelos de elevação), 3D (que permitem cálculos de volume) e curvas de nível, úteis para determinar limites de APP e detectar edificação irregular em seu interior (p. 89-90). Isso valida A. B nega a automação da rota. C e D negam, respectivamente, os produtos gerados e o processamento por fotogrametria.",
     "referencia": "PDF LOC, p. 89-90",
     "nivel": "medio"
+  },
+  {
+    "id": 1423,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Princípio da Troca de Locard, fundamental na criminalística, é sintetizado pela máxima:",
+    "alternativas": {
+      "A": "'todo contato deixa uma marca'.",
+      "B": "'a confissão supre o exame de corpo de delito'.",
+      "C": "'na dúvida, deve-se favorecer o réu'.",
+      "D": "'a prova testemunhal prevalece sobre a prova material'."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Princípio da Troca de Locard, formulado por Edmond Locard, sintetiza-se na máxima de que 'todo contato deixa uma marca', de modo que toda interação entre pessoas, objetos ou superfícies resulta em transferência de materiais (p. 91). Isso valida A. B refere-se ao art. 158 do CPP. C enuncia o in dubio pro reo. D contraria a própria valorização da prova material na criminalística.",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "facil"
+  },
+  {
+    "id": 1424,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o conceito legal previsto no art. 158-A, § 3º, do CPP (incluído pela Lei nº 13.964/2019), vestígio é:",
+    "alternativas": {
+      "A": "apenas o objeto visível e já recolhido pela perícia, excluídos os materiais latentes.",
+      "B": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal.",
+      "C": "exclusivamente o material biológico apto a exame de DNA encontrado na cena.",
+      "D": "qualquer relato testemunhal que descreva a dinâmica da infração penal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 158-A, § 3º, do CPP define vestígio como 'todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal' (p. 91). Isso valida B. A exclui indevidamente os materiais latentes e os apenas constatados. C restringe o conceito ao material biológico. D confunde vestígio (material) com prova testemunhal (subjetiva).",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 1425,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A definição legal de vestígio admite que ele se apresente de diferentes formas. A distinção entre vestígio 'visível' e 'latente' indica que:",
+    "alternativas": {
+      "A": "o vestígio latente é sempre irrelevante, pois não pode ser submetido a exame pericial.",
+      "B": "somente vestígios visíveis integram o conceito legal, sendo os latentes meras suposições.",
+      "C": "o vestígio pode ser tanto material prontamente perceptível (visível) quanto material não prontamente perceptível (latente).",
+      "D": "vestígio latente é aquele já recolhido, e vestígio visível é aquele apenas constatado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A definição evidencia que o vestígio pode se apresentar de diferentes formas, incluindo materiais visíveis e aqueles que não são prontamente perceptíveis (latentes) (p. 91). Isso valida C. A e B negam relevância/existência aos latentes, contrariando o conceito legal. D confunde as categorias visível/latente com constatado/recolhido, que são critérios distintos da definição.",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 1426,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em locais de crime podem ser encontrados vestígios de diferentes naturezas. Assinale a alternativa que apresenta corretamente essas naturezas:",
+    "alternativas": {
+      "A": "Químicos, biológicos, físicos e microvestígios.",
+      "B": "Testemunhais, documentais, periciais e cautelares.",
+      "C": "Visíveis, invisíveis, móveis e imóveis.",
+      "D": "Diretos, indiretos, primários e secundários."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A disciplina classifica os vestígios encontrados em locais de crime nas naturezas químicos, biológicos, físicos e microvestígios (tratados, respectivamente, nos capítulos 14, 15, 16 e 17) (p. 91-92). Isso valida A. B mistura categorias de prova com naturezas de vestígio. C e D apresentam classificações que não correspondem às naturezas descritas no capítulo.",
+    "referencia": "PDF LOC, p. 91-92",
+    "nivel": "medio"
+  },
+  {
+    "id": 1427,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o Princípio da Troca de Locard e a finalidade do estudo dos vestígios, é correto afirmar que:",
+    "alternativas": {
+      "A": "como muitas transferências de material são imperceptíveis, conclui-se que os vestígios latentes não têm valor para a reconstrução dos fatos.",
+      "B": "a produção de vestígios independe da interação entre vítima, perpetrador e ambiente, decorrendo apenas do tipo penal praticado.",
+      "C": "toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, e a adequada identificação, coleta e preservação desses vestígios contribui para reconstruir a dinâmica dos fatos e estabelecer vínculos entre pessoas, objetos e ambientes.",
+      "D": "a reconstrução da dinâmica dos fatos baseia-se exclusivamente nas declarações das testemunhas, sendo os vestígios meramente ilustrativos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Princípio da Troca de Locard, toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, base para a formação dos vestígios; a adequada identificação, coleta e preservação desses vestígios contribui para reconstruir a dinâmica dos fatos e estabelecer vínculos entre pessoas, objetos e ambientes (p. 91-92). Isso valida C. A nega indevidamente o valor dos latentes. B contraria a dependência da interação. D subordina a reconstrução à prova testemunhal, contrariando o papel central dos vestígios.",
+    "referencia": "PDF LOC, p. 91-92",
+    "nivel": "dificil"
   }
 ];
