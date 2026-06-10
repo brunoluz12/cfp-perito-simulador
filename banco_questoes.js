@@ -21866,5 +21866,175 @@ const questoesDB = [
     "justificativa": "A resolução dos escâneres a laser ainda é insuficiente para os detalhes finos de uma cena (com exceção da luz estruturada), de modo que a tecnologia 3D não substitui a fotografia, sendo imprescindível o registro fotográfico do local para não perder informações e poder localizar/reposicionar um vestígio na nuvem de pontos (p. 83). Isso valida B. A e C tratam a fotografia como dispensável, contrariando o texto. D inverte a relação de resolução (a luz estruturada tem resolução superior à do laser).",
     "referencia": "PDF LOC, p. 83",
     "nivel": "dificil"
+  },
+  {
+    "id": 1413,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos tipos de drones (RPAs), é correto afirmar que:",
+    "alternativas": {
+      "A": "os de asa rotativa têm grande capacidade de manobra (param no ar, sobem na vertical), porém voo ineficiente e alcance limitado; os de asa fixa, como pequenos aviões, voam com eficiência elevada a maiores distâncias, com autonomia muito superior.",
+      "B": "os de asa fixa param no ar e sobem na vertical, sendo indicados para pequenas áreas, enquanto os de asa rotativa têm autonomia muito superior.",
+      "C": "ambos os tipos têm a mesma autonomia de voo, variando apenas na cor e no tamanho.",
+      "D": "os de asa rotativa são pequenos aviões de grande autonomia, e os de asa fixa só operam pairando sobre um ponto fixo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os drones de asa rotativa têm grande capacidade de manobra (param no ar, sobem/descem na vertical), mas voo ineficiente e alcance limitado; os de asa fixa, como pequenos aviões, voam com eficiência elevada a maiores velocidades e distâncias, com autonomia muito superior (p. 85-86). Isso valida A. B e D invertem as características. C nega a diferença de autonomia entre os tipos.",
+    "referencia": "PDF LOC, p. 85-86",
+    "nivel": "facil"
+  },
+  {
+    "id": 1414,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a redundância de motores nos drones de asa rotativa, é correto afirmar que:",
+    "alternativas": {
+      "A": "os quadricópteros (4 motores) possuem redundância total, sustentando o voo ainda que três motores falhem.",
+      "B": "os quadricópteros não têm redundância, de modo que a falha de um motor provoca a queda; já modelos de 6 ou 8 motores conseguem sustentar o voo mesmo com a falha de alguns.",
+      "C": "quanto menor o número de motores, maior a redundância, sendo o quadricóptero o mais seguro.",
+      "D": "a redundância depende apenas do peso do drone, e não do número de motores."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os quadricópteros (4 motores) não têm redundância: se um motor falha, a aeronave cai; modelos de 6 ou 8 motores sustentam o voo mesmo com a falha de alguns (p. 85). Isso valida B. A atribui redundância total ao quadricóptero. C inverte a relação (mais motores, mais redundância). D ignora o papel do número de motores na redundância.",
+    "referencia": "PDF LOC, p. 85",
+    "nivel": "medio"
+  },
+  {
+    "id": 1415,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe precisa sobrevoar uma vasta área de mata para localizar plantios ilícitos a grandes distâncias da base; em outra ocasião, precisa documentar de perto, com manobras precisas, uma pequena cena de crime urbana. A escolha de drones mais adequada é:",
+    "alternativas": {
+      "A": "asa fixa para a vasta área (maior autonomia e distância) e asa rotativa para a cena urbana (manobra precisa, parar no ar).",
+      "B": "asa rotativa para a vasta área (maior autonomia) e asa fixa para a cena urbana (pairar sobre um ponto).",
+      "C": "asa fixa para ambas as situações, por ser sempre superior à asa rotativa.",
+      "D": "asa rotativa para ambas, pois a autonomia é idêntica e a manobrabilidade é sempre preferível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O drone de asa fixa, com autonomia muito superior, é adequado a grandes extensões e distâncias (ex.: localizar roças); o de asa rotativa, com grande capacidade de manobra (parar no ar, subir na vertical), é adequado a cenas locais, apesar do alcance limitado (p. 85-86). Isso valida A. B inverte as aplicações. C e D generalizam indevidamente um único tipo para ambas as situações.",
+    "referencia": "PDF LOC, p. 85-86",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1416,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "No Brasil, a operação de drones é regulamentada por diversos órgãos. A exigência de que todo drone operando no país seja homologado, por envolver enlaces de rádio em seu controle, é de competência:",
+    "alternativas": {
+      "A": "da ANAC (Agência Nacional de Aviação Civil).",
+      "B": "do DECEA (Departamento de Controle do Espaço Aéreo).",
+      "C": "da ANATEL (Agência Nacional de Telecomunicações).",
+      "D": "da Polícia Federal, por meio do INC."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Como o controle dos drones envolve enlaces de rádio, todo drone operando no país deve ser homologado pela ANATEL (p. 87). Isso valida C. A ANAC cuida do espaço aéreo e das classes por peso (RBAC-E 94/2017). O DECEA cuida do controle do espaço aéreo (ICA 100-40, SARPAS). D não corresponde a órgão regulador da operação de drones.",
+    "referencia": "PDF LOC, p. 87",
+    "nivel": "medio"
+  },
+  {
+    "id": 1417,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pela RBAC-E 94/2017 da ANAC, os drones são divididos em três classes por peso. Um drone de segurança pública com peso inferior a 25 kg enquadra-se na:",
+    "alternativas": {
+      "A": "Classe 1 (acima de 150 kg), com o mesmo nível de exigência das demais aeronaves civis.",
+      "B": "Classe 2 (25 a 150 kg), com homologação e registro ligeiramente simplificados.",
+      "C": "Classe 3 (abaixo de 25 kg), que abrange praticamente todos os drones domésticos e de segurança pública e não exige habilitação do piloto nem aprovação do projeto, mas exige cadastro no SISANT.",
+      "D": "Classe 3 (abaixo de 25 kg), exigindo habilitação do piloto e aprovação prévia do projeto pela ANAC."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Classe 3 abrange os drones abaixo de 25 kg (praticamente todos os domésticos e de segurança pública); não exige habilitação do piloto nem aprovação do projeto, mas exige cadastro no SISANT (p. 87-88). Isso valida C. A (Classe 1) e B (Classe 2) correspondem a pesos maiores. D erra ao exigir habilitação e aprovação de projeto, justamente o que a Classe 3 dispensa.",
+    "referencia": "PDF LOC, p. 87-88",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1418,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao controle do espaço aéreo pelo DECEA, a regra geral aplicável aos voos civis de drones é que:",
+    "alternativas": {
+      "A": "todo voo civil deve ser previamente comunicado e autorizado por meio do sistema SARPAS.",
+      "B": "nenhum voo civil precisa de comunicação prévia, bastando a homologação pela ANATEL.",
+      "C": "os voos civis dependem de autorização do Congresso Nacional para cada decolagem.",
+      "D": "os voos civis estão dispensados de qualquer cadastro, desde que realizados durante o dia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A principal exigência do DECEA é que todo voo civil seja previamente comunicado e autorizado por meio do sistema SARPAS (p. 88). Isso valida A. B dispensa indevidamente a comunicação ao DECEA. C cria exigência inexistente (autorização do Congresso). D dispensa o cadastro sem amparo na norma.",
+    "referencia": "PDF LOC, p. 88",
+    "nivel": "medio"
+  },
+  {
+    "id": 1419,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe de perícia da Polícia Federal precisa realizar, em caráter operacional, um voo de drone sobre um local de crime. Quanto à exigência do SARPAS (DECEA), é correto afirmar que:",
+    "alternativas": {
+      "A": "o voo depende de prévia autorização do SARPAS em todos os casos, inclusive nas atividades operacionais de segurança pública.",
+      "B": "por se tratar de órgão de segurança pública em atividade operacional, o cadastro no SARPAS é apenas informativo, não dependendo de autorização para a execução; essa exceção, porém, não cobre voos de treinamento.",
+      "C": "os voos de órgãos de segurança pública estão totalmente dispensados de qualquer cadastro, inclusive em treinamentos.",
+      "D": "a exceção aplica-se exclusivamente aos voos de treinamento, exigindo-se autorização para as atividades operacionais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Para voos de órgãos de segurança pública em atividades operacionais, o cadastro no SARPAS é apenas informativo, não dependendo de autorização para serem executados; essa exceção não cobre voos de treinamento (p. 88). Isso valida B. A ignora a exceção. C amplia indevidamente a exceção também ao treinamento. D inverte a exceção (que é para atividade operacional, não treinamento).",
+    "referencia": "PDF LOC, p. 88",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1420,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os equipamentos que os drones podem carregar, as câmeras multiespectrais caracterizam-se por:",
+    "alternativas": {
+      "A": "capturar comprimentos de onda invisíveis ao olho humano, sendo muito usadas, por exemplo, para determinar a saúde de uma cultura vegetal.",
+      "B": "enxergar sob a copa das árvores, revelando o relevo do solo independentemente da vegetação.",
+      "C": "registrar apenas imagens em preto e branco, com resolução superior à das câmeras comuns.",
+      "D": "medir o tempo de voo de feixes de laser para gerar nuvens de pontos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As câmeras multiespectrais capturam comprimentos de onda invisíveis ao olho humano, sendo muito usadas na agricultura para determinar a saúde de uma cultura vegetal (p. 89). Isso valida A. B descreve o scanner Lidar. C inventa característica de preto e branco. D descreve o escâner a laser, não a câmera multiespectral.",
+    "referencia": "PDF LOC, p. 89",
+    "nivel": "medio"
+  },
+  {
+    "id": 1421,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma perícia ambiental, é necessário determinar o relevo do solo de uma área densamente coberta por vegetação. O equipamento embarcado em drone mais adequado a essa finalidade é:",
+    "alternativas": {
+      "A": "a câmera multiespectral, por capturar a saúde da cultura vegetal sobre o dossel.",
+      "B": "a câmera fotográfica comum de alta resolução, em voo automatizado de fotogrametria.",
+      "C": "o scanner 3D do tipo Lidar, capaz de enxergar sob a copa das árvores, penetrando entre as folhas e revelando o relevo do solo independentemente da vegetação.",
+      "D": "o passeio virtual 360°, que documenta o interior da mata por hotspots navegáveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os scanners 3D do tipo Lidar conseguem enxergar sob a copa das árvores, penetrando entre as folhas, e revelam o relevo do solo independentemente da vegetação (p. 89). Isso valida C. A (multiespectral) determina a saúde da cultura, não o relevo sob a vegetação. B (fotogrametria por fotos comuns) não penetra a copa. D (passeio 360°) não revela o relevo do solo sob a mata.",
+    "referencia": "PDF LOC, p. 89",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1422,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os voos automatizados e os produtos gerados a partir das imagens de drones, é correto afirmar que:",
+    "alternativas": {
+      "A": "o perito informa o contorno da área e o software calcula uma rota otimizada; as fotos alimentam softwares de fotogrametria, gerando produtos 2D (ortofotos e modelos de elevação), 3D (que permitem cálculo de volume) e curvas de nível, úteis, por exemplo, para delimitar Área de Preservação Permanente (APP).",
+      "B": "o perito deve pilotar manualmente cada trecho do voo, pois não há possibilidade de rota automatizada.",
+      "C": "os produtos gerados limitam-se a fotografias isoladas, não sendo possível obter modelos de elevação ou curvas de nível.",
+      "D": "as imagens não podem ser processadas por softwares de fotogrametria, sendo úteis apenas para visualização imediata em campo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Nos voos automatizados, o perito informa o contorno da área e o software calcula uma rota otimizada; as fotos alimentam um software de fotogrametria (a PF usa muito o Agisoft Metashape Professional), gerando produtos 2D (ortofotos e modelos de elevação), 3D (que permitem cálculos de volume) e curvas de nível, úteis para determinar limites de APP e detectar edificação irregular em seu interior (p. 89-90). Isso valida A. B nega a automação da rota. C e D negam, respectivamente, os produtos gerados e o processamento por fotogrametria.",
+    "referencia": "PDF LOC, p. 89-90",
+    "nivel": "medio"
   }
 ];
