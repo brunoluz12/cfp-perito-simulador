@@ -21356,5 +21356,141 @@ const questoesDB = [
     "justificativa": "O triângulo de exposição é formado por ISO, obturador e diafragma, que controlam a luminosidade e devem ser regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin (p. 65-66). Isso valida A. B troca os elementos do triângulo. C inverte as temperaturas (baixa = quente/amarelada; alta = fria/azulada). D exclui indevidamente o ISO do triângulo de exposição.",
     "referencia": "PDF LOC, p. 65-66",
     "nivel": "medio"
+  },
+  {
+    "id": 1383,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a fotografia na prática pericial, a disciplina sustenta que:",
+    "alternativas": {
+      "A": "a qualidade do equipamento é o fator determinante, sobrepondo-se à postura e à metodologia do perito.",
+      "B": "a postura do perito ao realizar o levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza.",
+      "C": "a técnica e o método são irrelevantes quando se dispõe de câmera profissional de última geração.",
+      "D": "o uso de smartphone inviabiliza qualquer registro com validade jurídica."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A disciplina afirma que 'a postura do perito ao realizar um levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza', pesando mais a técnica e o método que a máquina (p. 71). Isso valida B. A e C invertem essa lógica ao priorizar o equipamento. D nega valor ao smartphone, contrariando o capítulo anterior, que reconhece sua utilidade.",
+    "referencia": "PDF LOC, p. 71",
+    "nivel": "facil"
+  },
+  {
+    "id": 1384,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao fotografar pegadas e marcas de pneus em um local de crime, a recomendação técnica é posicionar a câmera:",
+    "alternativas": {
+      "A": "em ângulo de 45° em relação ao solo, para realçar o relevo da marca.",
+      "B": "ortogonalmente ao solo (perpendicular), para evitar distorções na imagem.",
+      "C": "ao nível dos olhos do fotógrafo, reproduzindo a perspectiva natural de observação.",
+      "D": "com a maior teleobjetiva disponível, a fim de aproximar a marca à distância."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pegadas e marcas de pneus devem ser fotografadas com a câmera em posição ortogonal ao solo (perpendicular), para evitar distorções (p. 72). Isso valida B. A (45°) e C (nível dos olhos) introduzem distorção de perspectiva indesejada na documentação dessas marcas. D confunde a recomendação de posicionamento com escolha de objetiva, irrelevante para a ortogonalidade exigida.",
+    "referencia": "PDF LOC, p. 72",
+    "nivel": "medio"
+  },
+  {
+    "id": 1385,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para contextualizar adequadamente um vestígio, a disciplina recomenda uma sequência de, no mínimo, três imagens. A ordem correta dessa sequência é:",
+    "alternativas": {
+      "A": "detalhe (close) → aproximando → ambiente.",
+      "B": "ambiente → aproximando → detalhe (close).",
+      "C": "aproximando → ambiente → detalhe (close).",
+      "D": "detalhe (close) → ambiente → aproximando."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A contextualização do vestígio segue a sequência de no mínimo três imagens: 1ª do ambiente, 2ª aproximando e 3ª de detalhe (close), sempre do amplo para o específico (p. 73). Isso valida B. A, C e D invertem ou embaralham essa ordem, contrariando a lógica do geral para o específico.",
+    "referencia": "PDF LOC, p. 73",
+    "nivel": "medio"
+  },
+  {
+    "id": 1386,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a documentação de uma cena com vários vestígios, o perito utiliza marcadores numerados (de cor chamativa e com régua integrada). Considerando a recomendação da disciplina quanto ao uso desses marcadores, é correto afirmar que:",
+    "alternativas": {
+      "A": "como regra geral, deve-se fotografar com e sem os marcadores, pois um marcador pode encobrir outro vestígio pequeno, como uma gota de sangue ou um estojo de munição.",
+      "B": "os marcadores devem permanecer em todas as fotografias, sendo desnecessário qualquer registro sem eles.",
+      "C": "os marcadores substituem a escala, dispensando o registro de fotos com testemunho métrico.",
+      "D": "o uso de marcadores é vedado em locais de crime, por comprometer a fidedignidade das imagens."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os marcadores numerados são úteis (cor chamativa e régua integrada), mas um marcador pode encobrir outro vestígio pequeno (gota de sangue, estojo de munição); por isso, como regra geral, fotografa-se com e sem marcadores (p. 73). Isso valida A. B ignora o risco de ocultação. C confunde marcador com escala. D veda indevidamente um acessório expressamente recomendado.",
+    "referencia": "PDF LOC, p. 73",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1387,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "A documentação fotográfica de locais de crime é considerada desafiadora principalmente porque:",
+    "alternativas": {
+      "A": "trata-se de ambiente controlado, em que o excesso de iluminação prejudica o registro.",
+      "B": "trata-se de ambiente não controlado e, geralmente, o registro não pode ser refeito em outro momento, exigindo acuidade e trabalho sem pressa.",
+      "C": "a legislação proíbe o uso de vídeo, restringindo o registro a poucas fotografias.",
+      "D": "o perito dispõe de tempo ilimitado para retornar à cena e complementar os registros quando necessário."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Documentar locais de crime é desafiador porque são ambientes não controlados e, em regra, o registro não pode ser refeito em outro momento, exigindo trabalho com acuidade e sem pressa (p. 73). Isso valida B. A inverte a natureza do ambiente (não controlado). C inventa proibição de vídeo, que é recomendado. D contraria a noção de oportunidade única do registro.",
+    "referencia": "PDF LOC, p. 73",
+    "nivel": "facil"
+  },
+  {
+    "id": 1388,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as dicas práticas para o registro fotográfico do local, inclui-se:",
+    "alternativas": {
+      "A": "registrar os vestígios embalados e lacrados, o que contribui para a cadeia de custódia, e fazer no mínimo duas fotos de cada posição.",
+      "B": "limitar-se a uma única fotografia por vestígio, para evitar excesso de arquivos na estação de trabalho.",
+      "C": "fotografar apenas após a coleta e o transporte dos vestígios ao laboratório, garantindo melhor iluminação.",
+      "D": "dispensar o uso de escalas, que poluem a imagem e dificultam a análise posterior."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Entre as dicas estão registrar os vestígios embalados e lacrados (o que garante a cadeia de custódia) e não economizar no número de fotos, fazendo no mínimo duas de cada posição (p. 72). Isso valida A. B contraria a recomendação de múltiplas fotos. C inverte a regra de fotografar no local antes da coleta. D dispensa indevidamente as escalas, expressamente recomendadas.",
+    "referencia": "PDF LOC, p. 72",
+    "nivel": "medio"
+  },
+  {
+    "id": 1389,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "A disciplina elenca características técnicas desejáveis para garantir a fidedignidade, integridade e validade jurídica do registro fotográfico. Assinale a alternativa que reúne corretamente algumas dessas características:",
+    "alternativas": {
+      "A": "Tempestividade, adequação técnica, contextualização em sequência lógica (do amplo para o específico) e respeito à cadeia de custódia.",
+      "B": "Aleatoriedade do enquadramento, registro tardio de memória e dispensa de escalas e marcadores.",
+      "C": "Cobertura restrita ao vestígio principal, uso exclusivo de teleobjetiva e edição posterior das cores.",
+      "D": "Prioridade ao número de pixels, independentemente da iluminação, da perspectiva e da cadeia de custódia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Entre as características técnicas desejáveis estão a tempestividade, a adequação técnica, a cobertura detalhada e ampla, a melhor técnica/iluminação/perspectiva (com escalas e marcadores), a contextualização em sequência lógica (do amplo para o específico) e o respeito à cadeia de custódia (p. 71-72). Isso valida A. B, C e D descrevem práticas contrárias (aleatoriedade, registro de memória, cobertura restrita, foco apenas em pixels) que negam tais características.",
+    "referencia": "PDF LOC, p. 71-72",
+    "nivel": "medio"
+  },
+  {
+    "id": 1390,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao documentar fotograficamente um homicídio em ambiente interno, o perito procura registrar a cena de modo que o leitor do laudo compreenda o posicionamento dos vestígios e a dinâmica do fato. Considerando as orientações da disciplina, a conduta mais adequada é:",
+    "alternativas": {
+      "A": "registrar uma única perspectiva da cena, priorizando a economia de arquivos, e concluir sobre a autoria a partir dos relatos das testemunhas.",
+      "B": "escolher os melhores ângulos, não economizar na quantidade de fotos, registrar o ambiente de vários ângulos e fazer ao menos duas fotos por perspectiva, escolhendo depois, na estação de trabalho, a mais adequada — tudo voltado a concluir sobre materialidade, dinâmica e autoria.",
+      "C": "fotografar somente os vestígios já coletados e embalados, dispensando o registro do ambiente e dos pontos de acesso.",
+      "D": "delegar integralmente o registro a terceiros não peritos, desde que utilizem câmera profissional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A disciplina orienta o perito a ter sensibilidade para escolher os melhores ângulos, não economizar na quantidade de fotos, registrar o ambiente de todos os ângulos e fazer ao menos duas fotos por perspectiva, escolhendo depois a mais adequada, tudo para permitir concluir sobre materialidade, dinâmica e autoria (p. 73). Isso valida B. A reduz o registro a uma perspectiva e baseia a autoria em relatos, contrariando o uso dos vestígios. C dispensa o registro do ambiente e dos acessos, essenciais à contextualização. D transfere indevidamente a função pericial a não peritos.",
+    "referencia": "PDF LOC, p. 73",
+    "nivel": "dificil"
   }
 ];
