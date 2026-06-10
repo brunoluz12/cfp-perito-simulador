@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOC — Capítulo 7: Máquinas Fotográficas</title>
+<link rel="stylesheet" href="../estilo_padrao.css">
+<style>
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; margin: 0; }
+  .container { max-width: 100%; margin: 0; background: #fff; padding: 28px 36px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+  .badge { display: inline-block; background: #2b6cb0; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 1px; padding: 5px 12px; border-radius: 4px; text-transform: uppercase; }
+  h1 { font-size: 28px; color: #1a365d; margin: 14px 0 4px; }
+  .subtitle { color: #718096; font-size: 15px; margin-bottom: 22px; }
+  .toc { background: #f0f5fa; border: 1px solid #d6e4f0; border-radius: 8px; padding: 16px 22px; margin-bottom: 26px; }
+  .toc strong { color: #2b6cb0; display: block; margin-bottom: 8px; font-size: 14px; text-transform: uppercase; letter-spacing: .5px; }
+  .toc ul { margin: 0; padding-left: 20px; columns: 2; }
+  .toc li { margin: 3px 0; }
+  .section { margin-bottom: 30px; }
+  h2 { font-size: 21px; color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; margin-top: 34px; }
+  h3 { font-size: 17px; color: #2c5282; margin-top: 22px; }
+  h4 { font-size: 15px; color: #4a5568; margin-top: 16px; }
+  p { margin: 10px 0; }
+  .box-blue, .box-green, .box-orange, .box-purple, .box-red { border-radius: 8px; padding: 14px 18px; margin: 16px 0; border-left: 5px solid; }
+  .box-blue { background: #ebf4ff; border-color: #3182ce; }
+  .box-green { background: #f0fff4; border-color: #38a169; }
+  .box-orange { background: #fffaf0; border-color: #dd6b20; }
+  .box-purple { background: #faf5ff; border-color: #805ad5; }
+  .box-red { background: #fff5f5; border-color: #e53e3e; }
+  .box-blue strong, .box-green strong, .box-orange strong, .box-purple strong, .box-red strong { display: block; margin-bottom: 6px; }
+  .mnemonic { background: linear-gradient(135deg, #fef9e7, #fdebd0); border: 2px dashed #d68910; border-radius: 10px; padding: 16px 20px; margin: 18px 0; }
+  .mnemonic-title { font-weight: 800; color: #b9770e; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  th, td { border: 1px solid #cbd5e0; padding: 9px 12px; text-align: left; vertical-align: top; }
+  th { background: #2b6cb0; color: #fff; font-weight: 600; }
+  tr:nth-child(even) td { background: #f7fafc; }
+  .ref-pagina { font-size: 12px; color: #a0aec0; font-style: italic; }
+  .citacao { font-style: italic; background: #f7fafc; border-left: 4px solid #a0aec0; padding: 10px 16px; margin: 14px 0; color: #4a5568; }
+  .svg-figure { text-align: center; margin: 20px 0; }
+  .svg-figure svg { max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; }
+  .caption { font-size: 13px; color: #718096; font-style: italic; margin-top: 6px; }
+  ul.clean li, ol.clean li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<div class="container">
+  <span class="badge">LOC · LOCAIS DE CRIME</span>
+  <h1>Capítulo 7 — Máquinas Fotográficas</h1>
+  <p class="subtitle">Profissionais, amadoras, smartphones e drones · Sensores e ISO · Objetivas · Diafragma e profundidade de campo · Obturador · Triângulo de exposição · Balanço de branco · Modos P/S/A/M <span class="ref-pagina">(LOC, p. 55–70)</span></p>
+
+  <div class="toc">
+    <strong>Neste capítulo</strong>
+    <ul>
+      <li>7.1 Máquinas profissionais</li>
+      <li>7.2 Máquinas amadoras</li>
+      <li>7.3 Smartphones</li>
+      <li>7.4 Drones</li>
+      <li>7.5 Componentes das máquinas</li>
+      <li>7.5.1 Sensores e ISO</li>
+      <li>7.5.2 Objetivas</li>
+      <li>7.5.2.5 Fator de conversão</li>
+      <li>7.5.2.6 Diafragma e profundidade de campo</li>
+      <li>7.5.3 Obturador</li>
+      <li>7.5.3.1 Triângulo de exposição</li>
+      <li>7.5.4 Balanço de branco</li>
+      <li>7.5.4 Ajustes e modos (P/S/A/M)</li>
+    </ul>
+  </div>
+
+  <div class="box-blue">
+    <strong>Visão geral</strong>
+    O perito dispõe de uma gama de máquinas. As <strong>profissionais</strong> produzem melhor qualidade, mas são mais volumosas e exigem mais conhecimento técnico. As <strong>amadoras/semiprofissionais</strong> vêm sendo substituídas pelos <strong>smartphones</strong>, práticos e de qualidade suficiente para muitas situações. O perito deve saber <strong>discernir o melhor equipamento para cada situação</strong>.
+  </div>
+
+  <!-- ====== 7.1–7.4 tipos ====== -->
+  <div class="section">
+    <h2>7.1 a 7.4 — Tipos de equipamento</h2>
+    <table>
+      <thead>
+        <tr><th>Tipo</th><th>Características</th><th>Uso pericial</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Profissionais</strong></td>
+          <td>Objetivas (lentes) de alta definição e <strong>intercambiáveis</strong>; sensores de alta qualidade; permitem regular foco, abertura do diafragma, velocidade do obturador e sensibilidade do sensor. Tipo <strong>DSLR</strong> (<em>Digital Single Lens Reflex</em>) usa espelho + pentaprisma para o visor mostrar exatamente o que será fotografado. Nova geração <strong>mirrorless</strong> (sem espelho, ex. Nikon Z6III): mais tecnológicas, menor peso, fotos mais rápidas. Aceitam flash acoplado. São caras.</td>
+          <td>Melhor qualidade</td>
+        </tr>
+        <tr>
+          <td><strong>Amadoras</strong></td>
+          <td>Tipo "aponte e dispare" (<em>point and shoot</em>), elevado grau de automação. Compactas estão em desuso (concorrência dos smartphones). <strong>Avançadas</strong> lembram as profissionais (mas <strong>não trocam objetivas</strong>) e algumas têm modo manual.</td>
+          <td>Limitado</td>
+        </tr>
+        <tr>
+          <td><strong>Smartphones</strong></td>
+          <td>Cada vez mais usados; câmeras evoluíram muito; práticos; qualidade satisfatória para a maioria das situações. <strong>Erro supor que substituem totalmente</strong> as profissionais → o perito deve dominar ao menos as regulagens básicas de uma câmera profissional.</td>
+          <td>Crescente</td>
+        </tr>
+        <tr>
+          <td><strong>Drones (RPAs)</strong></td>
+          <td>Já corriqueiros em perícias de local e ambientais; permitem perspectivas antes inacessíveis. Aplicativos transformam as fotos em <strong>ortomosaicos, modelos 3D e nuvens de pontos</strong>.</td>
+          <td>Visão aérea/3D</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ====== 7.5 componentes ====== -->
+  <div class="section">
+    <h2>7.5 Componentes das máquinas fotográficas</h2>
+    <p>O processo fotográfico digital envolve uma <strong>câmera escura</strong> com um <strong>sensor</strong> no interior e uma <strong>objetiva</strong> (conjunto de lentes) que direciona os raios de luz para o sensor. Todas possuem <strong>processadores</strong> que manipulam os arquivos antes de arquivá-los na mídia.</p>
+    <div class="diagram" style="display:flex;flex-wrap:wrap;gap:10px;margin:16px 0;">
+      <div style="flex:1;min-width:140px;background:#edf2f7;border-radius:8px;padding:12px;text-align:center;"><strong>Objetiva</strong><br><span style="font-size:13px;">conjunto de lentes; direciona a luz</span></div>
+      <div style="flex:1;min-width:140px;background:#edf2f7;border-radius:8px;padding:12px;text-align:center;"><strong>Diafragma</strong><br><span style="font-size:13px;">controla a <em>intensidade</em> da luz</span></div>
+      <div style="flex:1;min-width:140px;background:#edf2f7;border-radius:8px;padding:12px;text-align:center;"><strong>Obturador</strong><br><span style="font-size:13px;">controla o <em>tempo</em> de exposição</span></div>
+      <div style="flex:1;min-width:140px;background:#edf2f7;border-radius:8px;padding:12px;text-align:center;"><strong>Sensor</strong><br><span style="font-size:13px;">capta a luz; sensibilidade regulável (ISO)</span></div>
+    </div>
+  </div>
+
+  <!-- ====== 7.5.1 ====== -->
+  <div class="section">
+    <h3>7.5.1 Sensores e ISO</h3>
+    <p>O sensor capta os raios de luz, transformados em <strong>pulsos elétricos</strong>, processados e convertidos em arquivos digitais.</p>
+    <table>
+      <thead>
+        <tr><th>Sensor</th><th>Significado</th><th>Características</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>CMOS</strong></td><td><em>Complementary Metal-Oxide-Semiconductor</em></td><td>O <strong>mais utilizado</strong> (smartphones e profissionais, ex. Nikon D780). Rápido e energeticamente eficiente.</td></tr>
+        <tr><td><strong>sCMOS</strong></td><td><em>Scientific CMOS</em></td><td>Combina alta velocidade com baixo ruído. Em pouca luz, o sensor amplifica o sinal e surgem <strong>pontos coloridos (ruído)</strong>, perdendo qualidade.</td></tr>
+        <tr><td><strong>CCD</strong></td><td><em>Charge-Coupled Device</em></td><td>Mais sofisticado; <strong>excelente controle de ruído</strong>; comum em aplicações científicas / de alta precisão.</td></tr>
+      </tbody>
+    </table>
+    <div class="box-green">
+      <strong>Tamanho do sensor e resolução</strong>
+      <ul class="clean" style="margin:6px 0;">
+        <li>Sensores profissionais são <strong>maiores</strong> que os de smartphones e amadoras.</li>
+        <li><strong>Full frame:</strong> sensor de <strong>24 × 36 mm</strong> (equivale ao fotograma de um filme 35 mm). Ex.: Nikon D780.</li>
+        <li><strong>Resolução</strong> = quantidade de sensores individuais de luz (pixels), medida em <strong>milhões de pixels (MP)</strong>. Mais pixels → maior resolução.</li>
+        <li><strong>⚠ Não é só a resolução</strong> que define a qualidade — o <strong>tipo de sensor</strong> também é importante.</li>
+      </ul>
+    </div>
+    <div class="box-orange">
+      <strong>ISO (sensibilidade do sensor)</strong>
+      Medida em <strong>ISO</strong> (de <em>Organização Internacional de Padronização</em>). Faixa da Nikon D90: 200 a 3200.
+      <ul class="clean" style="margin:6px 0;">
+        <li><strong>ISO baixo (100–200):</strong> ideal para <strong>ambientes claros</strong>.</li>
+        <li><strong>ISO elevado (1600–3200):</strong> melhor para <strong>pouca luz</strong>.</li>
+        <li><strong>ISO muito elevado → ruído</strong> (pequenos grãos/pontos coloridos indesejados).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ====== 7.5.2 ====== -->
+  <div class="section">
+    <h3>7.5.2 Objetivas</h3>
+    <p>Classificadas pelo <strong>ângulo de visão</strong>. O foco automático (<em>autofocus</em>) pode, em máquinas profissionais, ser regulado de várias formas e até desabilitado.</p>
+    <table>
+      <thead>
+        <tr><th>Tipo de objetiva</th><th>Ângulo de visão</th><th>Distância focal (em full frame)</th><th>Efeito / uso</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Grande-angular</strong></td><td>&gt; 65° (diagonal)</td><td>&lt; 35 mm (ideal interno: 24–28 mm)</td><td>Campo amplo; objeto parece mais afastado; ideal em <strong>ambientes internos</strong>; pode <strong>distorcer as bordas</strong>.</td></tr>
+        <tr><td><strong>Normal</strong></td><td>~ 45° (diagonal)</td><td>~ 50 mm</td><td>Aproxima-se da <strong>perspectiva do olho humano</strong>.</td></tr>
+        <tr><td><strong>Teleobjetiva</strong></td><td>&lt; 30°</td><td>&gt; 70 mm (200 mm = média; 500 mm = assuntos muito distantes)</td><td>Aparenta <strong>aproximar</strong> o objeto. 500 mm: pássaros/esportes — <strong>pouca utilidade pericial</strong>.</td></tr>
+        <tr><td><strong>Zoom</strong></td><td>Variável</td><td>Distância focal variável (ex. <strong>24–105 mm</strong>)</td><td>Ideal pericial: variar de grande-angular a teleobjetiva moderada. <strong>24–100 mm é excelente pela versatilidade</strong>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="svg-figure">
+      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="320" height="180" fill="#fff"/>
+        <rect x="140" y="10" width="40" height="22" rx="3" fill="#4a5568"/>
+        <text x="160" y="25" font-size="9" text-anchor="middle" fill="#fff">câmera</text>
+        <polygon points="160,32 40,160 280,160" fill="#bee3f8" opacity="0.5"/>
+        <polygon points="160,32 80,160 240,160" fill="#90cdf4" opacity="0.6"/>
+        <polygon points="160,32 120,160 200,160" fill="#4299e1" opacity="0.7"/>
+        <text x="45" y="155" font-size="10" fill="#2b6cb0">110° grande-angular</text>
+        <text x="205" y="120" font-size="10" fill="#2b6cb0">46° normal</text>
+        <text x="165" y="150" font-size="10" fill="#1a365d">12° tele</text>
+      </svg>
+      <div class="caption">Figura 24/25 — Quanto menor o ângulo de visão, maior a "aproximação" (tele); quanto maior, mais amplo (grande-angular).</div>
+    </div>
+  </div>
+
+  <!-- ====== 7.5.2.5 ====== -->
+  <div class="section">
+    <h4>7.5.2.5 Fator de conversão (sensor "cropado")</h4>
+    <p>Quando o sensor é <strong>menor</strong> que o full frame (&lt; 24 × 36 mm), ele é chamado de <strong>"cropado" (recortado)</strong>. Por capturar apenas a <strong>parte central</strong> da imagem projetada, gera um campo de visão mais estreito → <strong>efeito de aproximação</strong>.</p>
+    <div class="box-purple">
+      <strong>Fator de conversão (ou de corte)</strong>
+      Para os sensores <strong>DX da Nikon</strong> (23,5 × 15,7 mm, ex. D70s) adota-se fator <strong>1,5</strong> (serve para boa parte das DSLR). <strong>Multiplica-se a distância focal por 1,5</strong> para achar a equivalente:
+      <ul class="clean" style="margin:6px 0;">
+        <li>Objetiva <strong>50 mm</strong> (normal em full frame) → na D70s = 50 × 1,5 = <strong>75 mm</strong> (passa a funcionar como teleobjetiva moderada).</li>
+        <li>Grande-angular de <strong>35 mm</strong> (full frame) → equivale a uma <strong>normal de 42 mm</strong> na D70s.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ====== 7.5.2.6 ====== -->
+  <div class="section">
+    <h4>7.5.2.6 Abertura do diafragma e profundidade de campo</h4>
+    <p>O <strong>diafragma</strong> controla a <strong>intensidade</strong> da luz que chega ao sensor — função análoga à da <strong>pupila</strong> do olho (com muita luz contrai-se; com pouca, dilata-se). Diafragma <strong>mais aberto</strong> → mais luz → o tempo de exposição pode ser menor (e vice-versa). <em>Analogia da torneira enchendo um balde: aberta enche rápido; quase fechada demora.</em></p>
+    <div class="box-red">
+      <strong>⚠ Números f (f-stop) — relação INVERSA</strong>
+      <strong>Quanto maior o número f, MENOR a abertura</strong> do diafragma:
+      <ul class="clean" style="margin:6px 0;">
+        <li><strong>Grandes aberturas:</strong> f/1.4, f/2.8, f/4</li>
+        <li><strong>Medianas:</strong> f/5.6, f/8, f/11</li>
+        <li><strong>Aberturas menores:</strong> f/16, f/22, f/32</li>
+      </ul>
+      <strong>Profundidade de campo</strong> = região nítida antes e após o foco principal. <strong>Quanto menor a abertura (número f maior), MAIOR a profundidade de campo.</strong>
+    </div>
+    <div class="mnemonic">
+      <div class="mnemonic-title">★ Macete — "f grande, tudo nítido"</div>
+      Número <strong>f grande</strong> = diafragma <strong>fechado</strong> = <strong>mais profundidade de campo</strong> (mais coisa em foco). Pense em "f de fechado".
+    </div>
+  </div>
+
+  <!-- ====== 7.5.3 ====== -->
+  <div class="section">
+    <h3>7.5.3 Obturador</h3>
+    <p>Componente que regula o <strong>tempo de exposição</strong> e, consequentemente, a quantidade de luz que chega ao sensor.</p>
+    <ul class="clean">
+      <li><strong>De cortina (mecânico):</strong> sistema que abre/fecha em diferentes velocidades.</li>
+      <li><strong>Eletrônico:</strong> ativa/desativa o sensor por tempo determinado; silencioso; evita desgaste de peças móveis. Mirrorless modernas (Sony A9 III, Nikon Z8/Z9) usam <strong>apenas</strong> eletrônico.</li>
+      <li><strong>Híbrido:</strong> combina os dois sistemas.</li>
+    </ul>
+    <div class="box-blue">
+      <strong>Velocidade de obturação</strong>
+      <ul class="clean" style="margin:6px 0;">
+        <li><strong>Elevada</strong> (tempo curto, ex. 1/1000s): congela o movimento → foto <strong>estática</strong> (ex.: disparo de arma).</li>
+        <li><strong>Lenta</strong> (tempo longo, alguns segundos): exige <strong>tripé</strong> para não ficar tremida (ex.: cena noturna).</li>
+      </ul>
+    </div>
+
+    <h4>7.5.3.1 Relação entre obturador, diafragma e ISO — o "triângulo de exposição"</h4>
+    <p>O obturador, o diafragma e o ISO são os <strong>três pilares</strong> que controlam a luminosidade da fotografia, e devem ser regulados de forma <strong>equilibrada</strong>. Ex.: ao aumentar o diafragma, compensa-se diminuindo o tempo de exposição (mais velocidade) ou diminuindo o ISO. As máquinas fazem esses cálculos automaticamente.</p>
+    <div class="svg-figure">
+      <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="150,30 40,170 260,170" fill="#5a67d8" opacity="0.85"/>
+        <text x="150" y="115" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">EXPOSIÇÃO</text>
+        <circle cx="150" cy="40" r="22" fill="#cbd5e0" opacity="0.6"/>
+        <circle cx="55" cy="165" r="22" fill="#bee3f8" opacity="0.6"/>
+        <circle cx="245" cy="165" r="22" fill="#fed7e2" opacity="0.6"/>
+        <text x="150" y="20" font-size="10" text-anchor="middle" fill="#2d3748" font-weight="bold">ISO (sensor)</text>
+        <text x="50" y="195" font-size="10" text-anchor="middle" fill="#2d3748" font-weight="bold">Obturador</text>
+        <text x="250" y="195" font-size="10" text-anchor="middle" fill="#2d3748" font-weight="bold">Diafragma</text>
+      </svg>
+      <div class="caption">Figura 36 — Triângulo de exposição: ISO + velocidade (obturador) + abertura (diafragma).</div>
+    </div>
+    <div class="mnemonic">
+      <div class="mnemonic-title">★ Mnemônico — triângulo de exposição: "I-O-D"</div>
+      <strong>I</strong>SO (sensor) &nbsp;·&nbsp; <strong>O</strong>bturador (tempo) &nbsp;·&nbsp; <strong>D</strong>iafragma (abertura) — os 3 controlam a luz.
+    </div>
+  </div>
+
+  <!-- ====== 7.5.4 ====== -->
+  <div class="section">
+    <h3>7.5.4 Balanço de branco (white balance)</h3>
+    <p>No processador, a máquina trata as imagens para adequá-las à <strong>temperatura de cor</strong> — fazendo com que uma foto feita sob luz quente ou fria tenha aspecto mais <strong>equilibrado</strong>. A temperatura da luz é medida em <strong>Kelvin (K)</strong>:</p>
+    <table>
+      <thead>
+        <tr><th>Temperatura</th><th>Tipo de luz</th><th>Exemplo</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Baixa (≈ 2700–3000 K)</strong></td><td>Luz <strong>quente</strong>, mais amarelada</td><td>Pôr do sol</td></tr>
+        <tr><td><strong>Intermediária (4000–4500 K)</strong></td><td>Luz mais <strong>equilibrada</strong></td><td>—</td></tr>
+        <tr><td><strong>Alta (5000–6500 K)</strong></td><td>Luz <strong>fria</strong>, tendendo ao azul</td><td>Maioria das lâmpadas LED</td></tr>
+      </tbody>
+    </table>
+
+    <h4>7.5.4.1 Ajustes iniciais sugeridos (Nikon D70s)</h4>
+    <p>A Nikon D70s é uma DSLR de 6,1 MP, sensor CCD formato DX (23,7 × 15,6 mm), robusta; obturador até 1/8000s; sincronização de flash 1/500s; ISO 200–1600. Ajustes básicos sugeridos:</p>
+    <table>
+      <tbody>
+        <tr><td>Qualidade de imagem</td><td><strong>JPEG FINE</strong></td></tr>
+        <tr><td>Tamanho da imagem</td><td><strong>L</strong> (large)</td></tr>
+        <tr><td>Balanço de brancos</td><td><strong>AUTO</strong></td></tr>
+        <tr><td>ISO</td><td><strong>AUTO</strong></td></tr>
+        <tr><td>Modo de disparo</td><td><strong>S</strong> (imagem-a-imagem) ou temporizador, se necessário</td></tr>
+        <tr><td>Modo de focagem</td><td><strong>AF</strong> (automática)</td></tr>
+        <tr><td>Zona de focagem</td><td><strong>CLOSEST SUBJCT</strong> (objeto mais próximo)</td></tr>
+      </tbody>
+    </table>
+
+    <h4>Modos de operação (anel superior esquerdo): P · S · A · M</h4>
+    <table>
+      <thead>
+        <tr><th>Modo</th><th>O fotógrafo escolhe</th><th>A máquina calcula</th><th>Quando usar</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>P</strong> — Multiprograma automático</td><td>Nada (aponta e dispara)</td><td>Velocidade + abertura (ambas)</td><td>Exposição ótima na <strong>maioria das situações</strong></td></tr>
+        <tr><td><strong>S</strong> — Prioridade do obturador</td><td>Tempo de exposição (velocidade)</td><td>Abertura correspondente</td><td>Controlar congelamento/borrão de movimento</td></tr>
+        <tr><td><strong>A</strong> — Prioridade da abertura</td><td>Abertura do diafragma</td><td>Tempo de exposição correspondente</td><td>Controlar a profundidade de campo</td></tr>
+        <tr><td><strong>M</strong> — Manual</td><td><strong>Ambos</strong> (abertura E tempo)</td><td>Nada</td><td>Controle total. Tempo de 30s a 1/8000s, ou aberto indefinidamente (<em>bulb</em>)</td></tr>
+      </tbody>
+    </table>
+    <div class="mnemonic">
+      <div class="mnemonic-title">★ Mnemônico — os 4 modos: "P-S-A-M"</div>
+      <strong>P</strong>rograma (tudo auto) → <strong>S</strong>peed/obturador (você escolhe a velocidade) → <strong>A</strong>bertura (você escolhe o diafragma) → <strong>M</strong>anual (você escolhe tudo).<br>
+      <em>S = Shutter (obturador); A = Aperture (abertura). Em S e A você prioriza UM, a máquina calcula o outro.</em>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function sendHeight() {
+    var height = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+  }
+  window.addEventListener('load', sendHeight);
+  window.addEventListener('resize', sendHeight);
+  if (typeof MutationObserver !== 'undefined') {
+    var observer = new MutationObserver(sendHeight);
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+  }
+</script>
+</body>
+</html>
