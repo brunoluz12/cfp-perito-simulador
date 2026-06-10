@@ -1,0 +1,128 @@
+[
+  {
+    "id": 606,
+    "alternativas": {
+      "A": "A confirmação da numeração da caixa de câmbio em veículos pesados depende exclusivamente de consulta ao Inmetro, único órgão competente para informar dados de agregados de transmissão e de outros conjuntos mecânicos.",
+      "B": "A numeração da caixa de câmbio é padronizada internacionalmente pela ISO 3779 e sempre apresenta 17 caracteres alfanuméricos, sendo de leitura direta no documento do veículo.",
+      "C": "Em veículos pesados, a caixa de câmbio tem valor técnico e costuma ter numeração própria gravada na carcaça ou em plaqueta, podendo constar em bancos oficiais ou ser confirmada por carta-laudo do fabricante.",
+      "D": "Em veículos pesados, a caixa de câmbio não recebe identificação própria, pois sua rastreabilidade decorre, indiretamente, do VIN gravado no chassi do veículo."
+    }
+  },
+  {
+    "id": 607,
+    "alternativas": {
+      "A": "As numerações dos eixos, do diferencial e de outros agregados estruturais não possuem qualquer relevância pericial, pois nunca são gravadas pelos fabricantes em peças destacáveis.",
+      "B": "Essas numerações têm importância especial em veículos pesados, reboques e semirreboques; embora nem sempre registradas nas bases públicas, podem ser rastreáveis por documentação do fabricante ou consultas especializadas.",
+      "C": "As numerações dos eixos, do diferencial e de outros agregados estruturais são sempre obrigatoriamente registradas, de forma sistemática, em todas as bases públicas do RENAVAM, dispensando consulta a documentação interna do fabricante.",
+      "D": "Tais numerações são utilizadas apenas para fins fiscais pela Receita Federal, sem qualquer aplicação técnica ou pericial em exames de identificação veicular."
+    }
+  },
+  {
+    "id": 608,
+    "alternativas": {
+      "A": "A carta-laudo é um documento administrativo emitido pelo Detran que substitui qualquer exame físico do veículo, dispensando inclusive a verificação do VIN gravado no chassi.",
+      "B": "A carta-laudo é o documento técnico em que a montadora informa os componentes originalmente montados no veículo — numerações, cores e datas —, podendo a confirmação exigir consulta a outros entes, como encarroçadoras.",
+      "C": "A carta-laudo é exigida apenas para veículos de competição e de coleção, não possuindo qualquer aplicação em automóveis de passageiros, motocicletas ou veículos de carga de uso comum no país.",
+      "D": "A carta-laudo é fornecida diretamente pelo proprietário do veículo, com base em suas declarações pessoais, e por isso possui valor probatório limitado em exames periciais."
+    }
+  },
+  {
+    "id": 609,
+    "alternativas": {
+      "A": "Os lacres e selos do tacógrafo constituem identificadores diretos e principais do veículo, equivalendo, para fins legais, ao próprio VIN gravado no chassi.",
+      "B": "Os lacres e selos são emitidos pelo fabricante do tacógrafo e somente podem ser consultados em bases proprietárias de acesso restrito ao fabricante, sem qualquer possibilidade de verificação externa por peritos ou órgãos públicos.",
+      "C": "Os lacres e selos do tacógrafo destinam-se exclusivamente ao controle fiscal de carga transportada, não possuindo qualquer relação com a análise pericial de identificação veicular.",
+      "D": "Embora não sejam identificadores diretos do veículo, fornecem elementos acessórios de contexto e podem ser consultados no site do Inmetro; lacre e selos servem para evidenciar intervenções no sistema de medição."
+    }
+  },
+  {
+    "id": 611,
+    "alternativas": {
+      "A": "Em muitos veículos modernos, vários módulos eletrônicos (motor, carroceria, painel) armazenam o VIN; a leitura eletrônica permite compará-lo ao gravado no chassi/monobloco, ajudando a detectar incongruências.",
+      "B": "A leitura eletrônica do VIN substitui integralmente a leitura física do número gravado na estrutura, sendo dispensável o exame físico do chassi ou do monobloco em veículos modernos.",
+      "C": "A leitura eletrônica do VIN só é possível no módulo de controle do motor; demais módulos eletrônicos do veículo não armazenam o VIN em sua memória, por restrição de fábrica.",
+      "D": "A leitura eletrônica do VIN está prevista expressamente como obrigatória pela ABNT NBR 6066:2022, que disciplinaria a forma, os parâmetros técnicos e os protocolos de armazenamento do VIN nos módulos eletrônicos automotivos de todas as montadoras."
+    }
+  },
+  {
+    "id": 612,
+    "alternativas": {
+      "A": "Tais marcações ocultas são padronizadas pelo Contran e constam de bases de dados oficiais abertas ao público, podendo ser livremente consultadas por qualquer cidadão pelos canais oficiais do RENAVAM.",
+      "B": "Essas marcações são acessíveis exclusivamente por meio do aplicativo VIO, ferramenta oficial utilizada para leitura e validação de informações ocultas em veículos modernos.",
+      "C": "Essas numerações têm finalidade restrita ao ambiente fabril do fabricante; seu acesso depende de conhecimento técnico, de documentação interna, de carta-laudo ou de métodos periciais específicos para localizá-las e interpretá-las.",
+      "D": "Por se tratarem de marcações secundárias, essas etiquetas em chicotes, mangueiras e airbags possuem valor pericial nulo, sendo totalmente irrelevantes em casos de fraudes sofisticadas em que o VIN principal já foi adulterado ou suprimido."
+    }
+  },
+  {
+    "id": 675,
+    "alternativas": {
+      "A": "Substitui o VIN gravado no chassi nas análises periciais em veículos pesados.",
+      "B": "Só pode ser confirmado mediante consulta a empresas encarroçadoras ou ao Inmetro.",
+      "C": "É elemento complementar de identificação e consta nos bancos de dados oficiais vinculados ao RENAVAM/BIN.",
+      "D": "Não possui valor probatório quando os sinais primários estão íntegros, sendo por isso dispensável o seu exame na perícia."
+    }
+  },
+  {
+    "id": 676,
+    "alternativas": {
+      "A": "Apenas câmbios Scania possuem numeração própria identificável, dada sua exclusividade em veículos pesados.",
+      "B": "A numeração da caixa de câmbio é padronizada entre os três fabricantes e gravada sempre em local idêntico na carcaça, com a mesma estrutura de caracteres definida em norma técnica.",
+      "C": "Por se tratar de agregado, a caixa de câmbio nunca consta em bancos de dados oficiais e só pode ser identificada por leitura eletrônica via scanner.",
+      "D": "Em veículos pesados, a caixa de câmbio costuma ter numeração própria na carcaça ou em plaqueta, que pode constar em bancos oficiais ou ser confirmada por carta-laudo ao fabricante."
+    }
+  },
+  {
+    "id": 677,
+    "alternativas": {
+      "A": "Tais numerações são sempre registradas de forma sistemática e obrigatória em todas as bases públicas do RENAVAM, dispensando, em qualquer hipótese, a consulta à documentação técnica do fabricante ou aos registros internos de produção.",
+      "B": "Eixos e diferencial não possuem qualquer numeração rastreável em reboques e semirreboques.",
+      "C": "Devem ser desconsiderados quando o VIN do chassi estiver íntegro, pois constituem dados redundantes sem valor probatório.",
+      "D": "São especialmente importantes em veículos pesados, reboques e semirreboques; embora nem sempre constem em bases públicas, podem ser rastreáveis por documentação do fabricante ou consultas especializadas."
+    }
+  },
+  {
+    "id": 678,
+    "alternativas": {
+      "A": "Documento técnico em que a montadora informa os componentes originalmente montados no veículo (numerações, cores, datas), aplicável quando os números não constam da BIN ou de bases integradas.",
+      "B": "É documento exigido obrigatoriamente pelo Contran em todo e qualquer exame de identificação veicular, independentemente do componente analisado ou do estado de conservação dos sinais identificadores.",
+      "C": "Substitui a leitura eletrônica do VIN via scanner em todos os casos, sendo emitida pelo Inmetro.",
+      "D": "Trata-se de laudo emitido pelo próprio perito ao final do exame, descrevendo as conclusões sobre os componentes."
+    }
+  },
+  {
+    "id": 679,
+    "alternativas": {
+      "A": "Os selos do tacógrafo são afixados exclusivamente pelo proprietário do veículo, sem qualquer participação do Inmetro ou de órgão metrológico, bastando a simples aposição manual dos adesivos no painel e no console do veículo.",
+      "B": "Os lacres do tacógrafo constituem identificadores diretos do veículo, equiparando-se ao VIN gravado no chassi.",
+      "C": "Selos adesivos ficam nas faces externas do aparelho e um lacre plástico no cabo do velocímetro; servem para evidenciar intervenções na medição e podem ser consultados no site do Inmetro.",
+      "D": "O lacre plástico fica instalado no módulo do motor e os adesivos em qualquer componente eletrônico do painel."
+    }
+  },
+  {
+    "id": 680,
+    "alternativas": {
+      "A": "I, III e IV.",
+      "B": "I, II e III.",
+      "C": "Somente II e IV.",
+      "D": "Somente I, II e IV."
+    }
+  },
+  {
+    "id": 681,
+    "alternativas": {
+      "A": "Dependem de conhecimento técnico, de documentação interna do fabricante, de carta-laudo ou de métodos periciais específicos, podendo ser decisivas mesmo com os identificadores oficiais adulterados.",
+      "B": "Como têm padronização normativa externa e pública, podem ser identificadas por simples consulta direta à Resolução nº 968/2022 e ao Anexo II do PVAT, dispensando documentação do fabricante ou métodos periciais específicos.",
+      "C": "Estão disponíveis em bases de dados públicas mantidas pelo Detran de cada estado.",
+      "D": "Constituem identificadores diretos e ostensivos do veículo, equivalendo ao VIN gravado no chassi."
+    }
+  },
+  {
+    "id": 682,
+    "alternativas": {
+      "A": "Apenas o módulo do motor armazena o VIN; demais módulos eletrônicos não possuem essa informação.",
+      "B": "Vários módulos eletrônicos (motor, carroceria, painel) armazenam o VIN; a leitura eletrônica permite compará-lo ao gravado no chassi/monobloco, ajudando a detectar incongruências.",
+      "C": "Substitui completamente a leitura física do VIN no chassi ou no monobloco, tornando dispensável qualquer comparação entre o número eletrônico e o número fisicamente gravado na estrutura.",
+      "D": "Só é aplicável em veículos pesados equipados com tacógrafo eletrônico ligado ao Inmetro."
+    }
+  }
+]

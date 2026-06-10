@@ -7923,9 +7923,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia de um caminhão pesado, o examinador busca confirmar a identidade do agregado de transmissão. Acerca da identificação da caixa de câmbio em veículos pesados e da forma de confirmação dos dados, conforme o Capítulo 9, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A confirmação da numeração da caixa de câmbio em veículos pesados depende exclusivamente de consulta ao Inmetro, único órgão competente para informar dados de agregados de transmissão.",
+      "A": "A confirmação da numeração da caixa de câmbio em veículos pesados depende exclusivamente de consulta ao Inmetro, único órgão competente para informar dados de agregados de transmissão e de outros conjuntos mecânicos.",
       "B": "A numeração da caixa de câmbio é padronizada internacionalmente pela ISO 3779 e sempre apresenta 17 caracteres alfanuméricos, sendo de leitura direta no documento do veículo.",
-      "C": "Em veículos pesados, a caixa de câmbio possui relevante valor técnico e é frequentemente identificada por numeração própria gravada na carcaça ou afixada por plaqueta, podendo constar em bancos de dados oficiais ou ser confirmada mediante consulta ao fabricante por meio de carta-laudo.",
+      "C": "Em veículos pesados, a caixa de câmbio tem valor técnico e costuma ter numeração própria gravada na carcaça ou em plaqueta, podendo constar em bancos oficiais ou ser confirmada por carta-laudo do fabricante.",
       "D": "Em veículos pesados, a caixa de câmbio não recebe identificação própria, pois sua rastreabilidade decorre, indiretamente, do VIN gravado no chassi do veículo."
     },
     "resposta_correta": "C",
@@ -7941,7 +7941,7 @@ const questoesDB = [
     "enunciado": "Considere a perícia em um conjunto rodoviário composto por cavalo mecânico e semirreboque. Sobre a identificação dos eixos, do diferencial e de outros agregados estruturais e o papel desses elementos na investigação pericial, assinale a alternativa correta.",
     "alternativas": {
       "A": "As numerações dos eixos, do diferencial e de outros agregados estruturais não possuem qualquer relevância pericial, pois nunca são gravadas pelos fabricantes em peças destacáveis.",
-      "B": "Essas numerações assumem importância especial, sobretudo em veículos pesados, reboques e semirreboques; embora nem sempre registradas de forma sistemática nas bases públicas, podem ser rastreáveis por documentação técnica do fabricante, registros internos de produção ou consultas especializadas.",
+      "B": "Essas numerações têm importância especial em veículos pesados, reboques e semirreboques; embora nem sempre registradas nas bases públicas, podem ser rastreáveis por documentação do fabricante ou consultas especializadas.",
       "C": "As numerações dos eixos, do diferencial e de outros agregados estruturais são sempre obrigatoriamente registradas, de forma sistemática, em todas as bases públicas do RENAVAM, dispensando consulta a documentação interna do fabricante.",
       "D": "Tais numerações são utilizadas apenas para fins fiscais pela Receita Federal, sem qualquer aplicação técnica ou pericial em exames de identificação veicular."
     },
@@ -7958,8 +7958,8 @@ const questoesDB = [
     "enunciado": "A respeito da carta-laudo emitida pelo fabricante, do papel de outros entes na confirmação de dados identificadores e da abordagem pericial integrada, assinale a alternativa correta com base no Capítulo 9.",
     "alternativas": {
       "A": "A carta-laudo é um documento administrativo emitido pelo Detran que substitui qualquer exame físico do veículo, dispensando inclusive a verificação do VIN gravado no chassi.",
-      "B": "A carta-laudo é o documento técnico no qual a montadora informa os componentes originalmente montados em um veículo específico, suas numerações, cores, datas de fabricação e demais características, podendo a confirmação ainda exigir consulta a outros entes como empresas encarroçadoras, fabricantes de implementos rodoviários ou órgãos responsáveis por sistemas específicos, como o tacógrafo.",
-      "C": "A carta-laudo é exigida apenas para veículos de competição e para veículos de coleção, não possuindo aplicação em automóveis de passageiros e veículos de carga.",
+      "B": "A carta-laudo é o documento técnico em que a montadora informa os componentes originalmente montados no veículo — numerações, cores e datas —, podendo a confirmação exigir consulta a outros entes, como encarroçadoras.",
+      "C": "A carta-laudo é exigida apenas para veículos de competição e de coleção, não possuindo qualquer aplicação em automóveis de passageiros, motocicletas ou veículos de carga de uso comum no país.",
       "D": "A carta-laudo é fornecida diretamente pelo proprietário do veículo, com base em suas declarações pessoais, e por isso possui valor probatório limitado em exames periciais."
     },
     "resposta_correta": "B",
@@ -7975,9 +7975,9 @@ const questoesDB = [
     "enunciado": "Em um exame pericial de um caminhão equipado com tacógrafo, o perito identifica selos adesivos nas faces externas do aparelho e um lacre plástico instalado no cabo do velocímetro, junto ao ponto de conexão com o câmbio. Sobre o papel pericial dos lacres e selos de aferição do tacógrafo, assinale a alternativa correta.",
     "alternativas": {
       "A": "Os lacres e selos do tacógrafo constituem identificadores diretos e principais do veículo, equivalendo, para fins legais, ao próprio VIN gravado no chassi.",
-      "B": "Os lacres e selos são emitidos pelo fabricante do tacógrafo e somente podem ser consultados em bases proprietárias de acesso restrito ao fabricante, sem possibilidade de verificação externa.",
+      "B": "Os lacres e selos são emitidos pelo fabricante do tacógrafo e somente podem ser consultados em bases proprietárias de acesso restrito ao fabricante, sem qualquer possibilidade de verificação externa por peritos ou órgãos públicos.",
       "C": "Os lacres e selos do tacógrafo destinam-se exclusivamente ao controle fiscal de carga transportada, não possuindo qualquer relação com a análise pericial de identificação veicular.",
-      "D": "Embora não constituam identificadores diretos do veículo, esses dados fornecem elementos acessórios de contexto para a análise pericial e podem ser consultados no site do Inmetro; a função do lacre e dos selos é evidenciar eventuais intervenções no sistema de medição."
+      "D": "Embora não sejam identificadores diretos do veículo, fornecem elementos acessórios de contexto e podem ser consultados no site do Inmetro; lacre e selos servem para evidenciar intervenções no sistema de medição."
     },
     "resposta_correta": "D",
     "justificativa": "O PDF afirma: 'São afixados selos adesivos nas faces externas do aparelho (...) e um lacre plástico é instalado no cabo do velocímetro, junto ao ponto de conexão com o câmbio (...), cuja função é evidenciar eventuais intervenções no sistema de medição. Embora não constituam identificadores diretos do veículo, esses dados fornecem elementos acessórios de contexto para a análise pericial e podem ser consultados no site do Inmetro'.",
@@ -8008,10 +8008,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Considere a seguinte situação hipotética: ao realizar exame em veículo de passeio recente, o perito criminal federal utiliza scanner automotivo compatível com os sistemas de diagnóstico e obtém, a partir do módulo de controle do motor, um número de identificação veicular que diverge daquele gravado no monobloco. Sobre a leitura eletrônica do VIN e sua aplicação pericial, conforme o Capítulo 9, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Em muitos veículos modernos, diversas unidades de controle eletrônico — como módulo do motor, módulo da carroceria e módulo do painel — armazenam o VIN em sua memória; a leitura eletrônica permite comparar o número armazenado nos módulos com aquele gravado no chassi ou monobloco, contribuindo para a detecção de incongruências.",
+      "A": "Em muitos veículos modernos, vários módulos eletrônicos (motor, carroceria, painel) armazenam o VIN; a leitura eletrônica permite compará-lo ao gravado no chassi/monobloco, ajudando a detectar incongruências.",
       "B": "A leitura eletrônica do VIN substitui integralmente a leitura física do número gravado na estrutura, sendo dispensável o exame físico do chassi ou do monobloco em veículos modernos.",
       "C": "A leitura eletrônica do VIN só é possível no módulo de controle do motor; demais módulos eletrônicos do veículo não armazenam o VIN em sua memória, por restrição de fábrica.",
-      "D": "A leitura eletrônica do VIN está prevista expressamente como obrigatória pela ABNT NBR 6066:2022, que disciplina a forma e os parâmetros técnicos de armazenamento do VIN em módulos eletrônicos automotivos."
+      "D": "A leitura eletrônica do VIN está prevista expressamente como obrigatória pela ABNT NBR 6066:2022, que disciplinaria a forma, os parâmetros técnicos e os protocolos de armazenamento do VIN nos módulos eletrônicos automotivos de todas as montadoras."
     },
     "resposta_correta": "A",
     "justificativa": "O PDF afirma: 'Diversas unidades de controle eletrônico — como o módulo do motor, o módulo da carroceria, o módulo do painel, entre outros — armazenam o VIN em sua memória como parte dos processos de configuração, validação e comunicação entre sistemas. A leitura eletrônica do VIN constitui importante ferramenta auxiliar na identificação veicular, pois permite comparar o número armazenado nos módulos com aquele gravado no chassi ou monobloco, contribuindo para a detecção de incongruências'.",
@@ -8027,8 +8027,8 @@ const questoesDB = [
     "alternativas": {
       "A": "Tais marcações ocultas são padronizadas pelo Contran e constam de bases de dados oficiais abertas ao público, podendo ser livremente consultadas por qualquer cidadão pelos canais oficiais do RENAVAM.",
       "B": "Essas marcações são acessíveis exclusivamente por meio do aplicativo VIO, ferramenta oficial utilizada para leitura e validação de informações ocultas em veículos modernos.",
-      "C": "Essas numerações possuem finalidade restrita ao ambiente fabril e pós-fabril do fabricante; o acesso a essas informações depende de conhecimento técnico especializado, de documentação interna do fabricante, de carta-laudo ou da aplicação de métodos periciais específicos capazes de localizá-las e interpretá-las corretamente.",
-      "D": "Por se tratarem de marcações secundárias, essas etiquetas em chicotes, mangueiras e airbags possuem valor pericial nulo, sendo irrelevantes em casos de fraudes sofisticadas onde o VIN principal foi adulterado."
+      "C": "Essas numerações têm finalidade restrita ao ambiente fabril do fabricante; seu acesso depende de conhecimento técnico, de documentação interna, de carta-laudo ou de métodos periciais específicos para localizá-las e interpretá-las.",
+      "D": "Por se tratarem de marcações secundárias, essas etiquetas em chicotes, mangueiras e airbags possuem valor pericial nulo, sendo totalmente irrelevantes em casos de fraudes sofisticadas em que o VIN principal já foi adulterado ou suprimido."
     },
     "resposta_correta": "C",
     "justificativa": "O PDF afirma: 'Tais numerações não possuem padronização normativa externa, não são divulgadas ao público e não constam de documentos de registro ou de bases de dados oficiais abertas, uma vez que sua finalidade é restrita ao ambiente fabril e pós-fabril do fabricante. O acesso a essas informações depende, portanto, de conhecimento técnico especializado, de documentação interna do fabricante, de carta-laudo ou da aplicação de métodos periciais específicos capazes de localizá-las e interpretá-las corretamente'. O aplicativo VIO, segundo o PDF, é usado para leitura do QR Code das placas, não dessas identificações ocultas.",
@@ -9117,7 +9117,7 @@ const questoesDB = [
       "A": "Substitui o VIN gravado no chassi nas análises periciais em veículos pesados.",
       "B": "Só pode ser confirmado mediante consulta a empresas encarroçadoras ou ao Inmetro.",
       "C": "É elemento complementar de identificação e consta nos bancos de dados oficiais vinculados ao RENAVAM/BIN.",
-      "D": "Não possui valor probatório quando os sinais primários estão íntegros, sendo dispensável seu exame."
+      "D": "Não possui valor probatório quando os sinais primários estão íntegros, sendo por isso dispensável o seu exame na perícia."
     },
     "resposta_correta": "C",
     "justificativa": "Página 39: o número do motor é 'utilizado como elemento complementar de identificação, que consta nos bancos de dados oficiais vinculados ao RENAVAM/BIN'.",
@@ -9132,9 +9132,9 @@ const questoesDB = [
     "enunciado": "Em perícia sobre veículo pesado, o perito identifica a numeração da caixa de câmbio em três veículos diferentes: um equipado com câmbio GM, outro Mercedes Benz e outro Scania. Com base no PVAT - Módulo I, qual afirmativa é correta?",
     "alternativas": {
       "A": "Apenas câmbios Scania possuem numeração própria identificável, dada sua exclusividade em veículos pesados.",
-      "B": "A numeração da caixa de câmbio é padronizada entre os três fabricantes, sempre gravada em local idêntico na carcaça.",
+      "B": "A numeração da caixa de câmbio é padronizada entre os três fabricantes e gravada sempre em local idêntico na carcaça, com a mesma estrutura de caracteres definida em norma técnica.",
       "C": "Por se tratar de agregado, a caixa de câmbio nunca consta em bancos de dados oficiais e só pode ser identificada por leitura eletrônica via scanner.",
-      "D": "Em veículos pesados, a caixa de câmbio é frequentemente identificada por numeração própria gravada na carcaça ou afixada por plaqueta, que pode constar em bancos oficiais ou ser confirmada por carta-laudo ao fabricante."
+      "D": "Em veículos pesados, a caixa de câmbio costuma ter numeração própria na carcaça ou em plaqueta, que pode constar em bancos oficiais ou ser confirmada por carta-laudo ao fabricante."
     },
     "resposta_correta": "D",
     "justificativa": "Página 39: em veículos pesados a caixa de câmbio possui numeração própria 'gravada na carcaça ou afixada por plaqueta, a qual pode constar em bancos de dados oficiais ou ser confirmada mediante consulta ao fabricante por meio de carta-laudo'.",
@@ -9148,10 +9148,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante a perícia em um reboque (semirreboque), o perito busca individualizar o conjunto e verifica numerações dos eixos, do diferencial e de outros agregados estruturais. Sobre esses elementos, conforme o PVAT - Módulo I, assinale a alternativa correta:",
     "alternativas": {
-      "A": "Tais numerações são sempre registradas sistematicamente nas bases públicas e dispensam consulta ao fabricante.",
+      "A": "Tais numerações são sempre registradas de forma sistemática e obrigatória em todas as bases públicas do RENAVAM, dispensando, em qualquer hipótese, a consulta à documentação técnica do fabricante ou aos registros internos de produção.",
       "B": "Eixos e diferencial não possuem qualquer numeração rastreável em reboques e semirreboques.",
       "C": "Devem ser desconsiderados quando o VIN do chassi estiver íntegro, pois constituem dados redundantes sem valor probatório.",
-      "D": "São especialmente importantes em veículos pesados, reboques e semirreboques, e, embora nem sempre constem em bases públicas, podem ser rastreáveis por documentação técnica do fabricante ou consultas especializadas."
+      "D": "São especialmente importantes em veículos pesados, reboques e semirreboques; embora nem sempre constem em bases públicas, podem ser rastreáveis por documentação do fabricante ou consultas especializadas."
     },
     "resposta_correta": "D",
     "justificativa": "Página 40: as numerações dos eixos, diferencial e agregados são especialmente importantes em pesados, reboques e semirreboques, e 'embora nem sempre registrados de forma sistemática nas bases públicas, tais números podem ser rastreáveis por documentação técnica do fabricante'.",
@@ -9165,8 +9165,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a carta-laudo emitida pelo fabricante, conforme o PVAT - Módulo I, é correto afirmar que:",
     "alternativas": {
-      "A": "Documento técnico no qual a montadora informa os componentes originalmente montados naquele veículo específico, suas numerações, cores, datas de fabricação e demais características relevantes, sendo aplicável quando os números não constam da BIN ou de bases integradas.",
-      "B": "É documento exigido obrigatoriamente pelo Contran em todo exame de identificação veicular, independentemente do componente analisado.",
+      "A": "Documento técnico em que a montadora informa os componentes originalmente montados no veículo (numerações, cores, datas), aplicável quando os números não constam da BIN ou de bases integradas.",
+      "B": "É documento exigido obrigatoriamente pelo Contran em todo e qualquer exame de identificação veicular, independentemente do componente analisado ou do estado de conservação dos sinais identificadores.",
       "C": "Substitui a leitura eletrônica do VIN via scanner em todos os casos, sendo emitida pelo Inmetro.",
       "D": "Trata-se de laudo emitido pelo próprio perito ao final do exame, descrevendo as conclusões sobre os componentes."
     },
@@ -9182,9 +9182,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em exame em veículo equipado com tacógrafo, o perito verifica os lacres e selos de aferição. Conforme o PVAT - Módulo I, é correto afirmar:",
     "alternativas": {
-      "A": "Os selos do tacógrafo são afixados exclusivamente pelo proprietário do veículo, sem participação do Inmetro.",
+      "A": "Os selos do tacógrafo são afixados exclusivamente pelo proprietário do veículo, sem qualquer participação do Inmetro ou de órgão metrológico, bastando a simples aposição manual dos adesivos no painel e no console do veículo.",
       "B": "Os lacres do tacógrafo constituem identificadores diretos do veículo, equiparando-se ao VIN gravado no chassi.",
-      "C": "São afixados selos adesivos nas faces externas do aparelho e um lacre plástico é instalado no cabo do velocímetro junto ao ponto de conexão com o câmbio; sua função é evidenciar eventuais intervenções no sistema de medição, e os dados podem ser consultados no site do Inmetro.",
+      "C": "Selos adesivos ficam nas faces externas do aparelho e um lacre plástico no cabo do velocímetro; servem para evidenciar intervenções na medição e podem ser consultados no site do Inmetro.",
       "D": "O lacre plástico fica instalado no módulo do motor e os adesivos em qualquer componente eletrônico do painel."
     },
     "resposta_correta": "C",
@@ -9201,8 +9201,8 @@ const questoesDB = [
     "alternativas": {
       "A": "I, III e IV.",
       "B": "I, II e III.",
-      "C": "II e IV.",
-      "D": "I, II e IV."
+      "C": "Somente II e IV.",
+      "D": "Somente I, II e IV."
     },
     "resposta_correta": "A",
     "justificativa": "Página 44: I, III e IV estão corretos; II está errado porque o texto afirma que essas numerações 'não se originam, necessariamente, de uma estratégia deliberada de incremento da segurança veicular, mas decorrem, em essência, de exigências operacionais, logísticas e de controle dos processos intermediários de fabricação'.",
@@ -9216,8 +9216,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em fraude sofisticada com adulteração de VIN, plaquetas e demais identificadores oficiais, o perito recorre às identificações ocultas. Sobre o acesso a essas marcações, conforme o PVAT - Módulo I:",
     "alternativas": {
-      "A": "Dependem de conhecimento técnico especializado, documentação interna do fabricante, carta-laudo ou métodos periciais específicos, e podem ser decisivas para confirmar a identidade mesmo quando os identificadores oficiais foram adulterados, suprimidos ou substituídos.",
-      "B": "Como têm padronização normativa externa, podem ser identificadas por consulta direta à Resolução nº 968/2022 e ao Anexo II do PVAT.",
+      "A": "Dependem de conhecimento técnico, de documentação interna do fabricante, de carta-laudo ou de métodos periciais específicos, podendo ser decisivas mesmo com os identificadores oficiais adulterados.",
+      "B": "Como têm padronização normativa externa e pública, podem ser identificadas por simples consulta direta à Resolução nº 968/2022 e ao Anexo II do PVAT, dispensando documentação do fabricante ou métodos periciais específicos.",
       "C": "Estão disponíveis em bases de dados públicas mantidas pelo Detran de cada estado.",
       "D": "Constituem identificadores diretos e ostensivos do veículo, equivalendo ao VIN gravado no chassi."
     },
@@ -9234,8 +9234,8 @@ const questoesDB = [
     "enunciado": "Sobre a leitura eletrônica do VIN por meio de scanner automotivo, conforme o PVAT - Módulo I, é correto afirmar:",
     "alternativas": {
       "A": "Apenas o módulo do motor armazena o VIN; demais módulos eletrônicos não possuem essa informação.",
-      "B": "Diversas unidades de controle eletrônico — como o módulo do motor, da carroceria e do painel — armazenam o VIN, e a leitura eletrônica permite comparar o número dos módulos com o gravado no chassi/monobloco, contribuindo para detectar incongruências.",
-      "C": "Substitui completamente a leitura física do VIN no chassi ou monobloco, dispensando comparação entre eles.",
+      "B": "Vários módulos eletrônicos (motor, carroceria, painel) armazenam o VIN; a leitura eletrônica permite compará-lo ao gravado no chassi/monobloco, ajudando a detectar incongruências.",
+      "C": "Substitui completamente a leitura física do VIN no chassi ou no monobloco, tornando dispensável qualquer comparação entre o número eletrônico e o número fisicamente gravado na estrutura.",
       "D": "Só é aplicável em veículos pesados equipados com tacógrafo eletrônico ligado ao Inmetro."
     },
     "resposta_correta": "B",
