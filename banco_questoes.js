@@ -22835,5 +22835,175 @@ const questoesDB = [
     "justificativa": "Os eventos de separação não são reprodutíveis, gerando características individuais; o ajuste físico positivo ocorre quando as características se realinham de maneira única, não esperada de ser replicada; e, atenção, a ausência de ajuste físico NÃO implica, necessariamente, que os itens tenham se originado de fontes diferentes (p. 142-143). Isso valida C. A e D contrariam o texto (ausência não implica fontes diferentes; perda de material não descarta o ajuste). B afirma reprodutibilidade da separação, oposto do exposto.",
     "referencia": "PDF LOC, p. 142-143",
     "nivel": "medio"
+  },
+  {
+    "id": 1470,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os crimes contra o patrimônio de competência da Polícia Federal são, em regra, aqueles cometidos contra:",
+    "alternativas": {
+      "A": "objetos, bens ou valores de órgãos da União (ministérios, autarquias, fundações e empresas públicas federais, como Caixa Econômica Federal e Correios), incluindo veículos oficiais e bens neles acondicionados.",
+      "B": "qualquer patrimônio particular, desde que o prejuízo ultrapasse determinado valor.",
+      "C": "bens de empresas privadas, independentemente de vínculo com a União.",
+      "D": "patrimônio de estados e municípios, ainda que sem qualquer interesse da União."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São de competência da PF os crimes contra objetos, bens ou valores de órgãos da União (ministérios, secretarias, autarquias, fundações e empresas públicas federais — ex.: Receita Federal, DNIT, ANEEL, Caixa Econômica Federal, Correios, UnB), incluindo veículos oficiais/viaturas e bens neles acondicionados (p. 145). Isso valida A. B, C e D estendem a competência a patrimônio particular, privado ou de estados/municípios sem interesse da União.",
+    "referencia": "PDF LOC, p. 145",
+    "nivel": "medio"
+  },
+  {
+    "id": 1471,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o crime de furto (art. 155 do CP) e seu tratamento pericial, é correto afirmar que:",
+    "alternativas": {
+      "A": "consiste em subtrair coisa alheia móvel mediante grave ameaça ou violência à pessoa.",
+      "B": "consiste em subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, exigindo dolo — não existindo furto culposo; a energia elétrica, com valor econômico, equipara-se à coisa móvel.",
+      "C": "admite modalidade culposa quando o agente, por descuido, leva consigo bem de terceiro.",
+      "D": "exige sempre o rompimento de obstáculo, sem o qual a conduta é atípica."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O furto (art. 155) é subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, mas com dolo; não existe furto culposo, e a energia elétrica (ou outra com valor econômico) equipara-se à coisa móvel (§3º) (p. 146). Isso valida B. A descreve o roubo (art. 157). C admite furto culposo, inexistente. D confunde o furto simples com a qualificadora de rompimento de obstáculo (§4º), que não é elemento essencial do tipo básico.",
+    "referencia": "PDF LOC, p. 146",
+    "nivel": "medio"
+  },
+  {
+    "id": 1472,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito é acionado para três cenas distintas: (i) subtração de equipamentos de um órgão federal mediante arrombamento da porta, sem ninguém presente; (ii) subtração de valores de um funcionário sob grave ameaça com arma; e (iii) pichação e quebra de vidraças de um prédio público, sem subtração de bens. A tipificação penal mais adequada é, respectivamente:",
+    "alternativas": {
+      "A": "roubo, furto e dano.",
+      "B": "dano, roubo e furto.",
+      "C": "furto qualificado (rompimento de obstáculo), roubo e dano.",
+      "D": "furto, dano e roubo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A subtração mediante arrombamento, sem violência à pessoa, é furto qualificado pelo rompimento de obstáculo (art. 155, §4º); a subtração sob grave ameaça com arma é roubo (art. 157); a destruição/deterioração de coisa alheia sem subtração é dano (art. 163) (p. 146-147). Isso valida C. A, B e D embaralham as tipificações, confundindo a presença ou ausência de violência/grave ameaça e de subtração de bens.",
+    "referencia": "PDF LOC, p. 146-147",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1473,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando, da violência empregada no roubo, resulta a morte da vítima, configura-se:",
+    "alternativas": {
+      "A": "furto qualificado, com pena de 2 a 8 anos.",
+      "B": "latrocínio (roubo qualificado pelo resultado morte), com pena de 24 a 30 anos.",
+      "C": "dano qualificado, com pena de 6 meses a 3 anos.",
+      "D": "roubo simples, com pena de 4 a 10 anos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quando da violência do roubo resulta morte, configura-se o latrocínio (roubo qualificado, art. 157, §3º), com pena de 24 a 30 anos (p. 147). Isso valida B. A trata de furto qualificado (sem morte/violência à pessoa). C refere-se ao dano qualificado. D é o roubo simples, sem o resultado morte.",
+    "referencia": "PDF LOC, p. 147",
+    "nivel": "medio"
+  },
+  {
+    "id": 1474,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "O crime de dano (art. 163 do CP) consiste em:",
+    "alternativas": {
+      "A": "subtrair coisa alheia móvel mediante fraude.",
+      "B": "destruir, inutilizar ou deteriorar coisa alheia, conduta que, por si só, não envolve furto nem roubo.",
+      "C": "subtrair coisa alheia mediante grave ameaça.",
+      "D": "apoderar-se de coisa achada sem comunicar a autoridade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O dano (art. 163) consiste em destruir, inutilizar ou deteriorar coisa alheia, conduta que, por si só, não envolve furto nem roubo (a doutrina majoritária entende não haver dano culposo) (p. 147). Isso valida B. A e C descrevem furto e roubo. D descreve apropriação de coisa achada, tipo diverso.",
+    "referencia": "PDF LOC, p. 147",
+    "nivel": "facil"
+  },
+  {
+    "id": 1475,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao periciar uma vidraça quebrada em um arrombamento, o perito observa uma abertura cônica cujo diâmetro é maior na superfície oposta ao choque. Esse achado, somado à posição dos fragmentos, indica que:",
+    "alternativas": {
+      "A": "trata-se de um cone de transfixação, típico de impactos de alta velocidade/energia (pedras arremessadas, disparos), com abertura maior na superfície oposta ao choque; os fragmentos, em geral, encontram-se do lado oposto ao ponto de impacto.",
+      "B": "o cone de transfixação indica impacto de baixa energia, com abertura maior no mesmo lado do choque.",
+      "C": "os fragmentos sempre se concentram no mesmo lado do impacto, independentemente da energia envolvida.",
+      "D": "a abertura cônica é incompatível com disparos de arma de fogo, indicando apenas dilatação térmica."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O cone de transfixação é típico de impactos de alta velocidade/energia (pedras arremessadas, disparos de arma de fogo) e apresenta abertura maior na superfície oposta ao choque; os fragmentos, em geral, encontram-se do lado oposto ao ponto de impacto (p. 149). Isso valida A. B inverte energia e lado da abertura. C contraria a regra dos fragmentos no lado oposto. D nega a relação do cone com disparos, justamente um exemplo clássico.",
+    "referencia": "PDF LOC, p. 149",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1476,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às fraturas em vidros decorrentes de impacto, é correto afirmar que:",
+    "alternativas": {
+      "A": "as rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão, enquanto as rupturas concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis, encontram-se no mesmo lado do impacto.",
+      "B": "as rupturas radiais surgem no mesmo lado do impacto, e as concêntricas, na superfície oposta.",
+      "C": "as rupturas concêntricas estão sempre presentes em qualquer tipo de vidro, independentemente da flexibilidade.",
+      "D": "ambas as rupturas se originam sempre na superfície oposta ao impacto, sem distinção de lado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão; as concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis (automóveis), encontram-se no mesmo lado do impacto (p. 149). Isso valida A. B inverte os lados. C afirma presença sempre das concêntricas, contrariando o texto. D iguala indevidamente a origem das duas rupturas.",
+    "referencia": "PDF LOC, p. 149",
+    "nivel": "medio"
+  },
+  {
+    "id": 1477,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao chegar a um suposto local de arrombamento, uma testemunha apresenta ao perito a versão de que houve invasão por uma janela. Considerando a postura pericial esperada, é correto afirmar que:",
+    "alternativas": {
+      "A": "o perito deve acolher a versão da testemunha como verdadeira, registrando-a diretamente no laudo como dinâmica do fato.",
+      "B": "o perito deve atuar com imparcialidade e ponderação, confirmando a versão apenas se ela for compatível com os respectivos vestígios materiais, considerando rotas alternativas de acesso/fuga e a possibilidade de a cena ter sido forjada (simulação de arrombamento).",
+      "C": "como não se sabe quem é vítima ou suspeito, o perito deve descartar todas as versões e basear-se apenas em depoimentos posteriores.",
+      "D": "o perito deve presumir a simulação em qualquer caso, concluindo sempre pela inexistência de arrombamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O perito deve usar imparcialidade e ponderação; uma versão de arrombamento só se confirma quando compatível com os respectivos vestígios materiais, devendo-se considerar rotas alternativas de acesso e fuga e a possibilidade de a cena ter sido forjada (alguns infratores simulam arrombamento para confundir a polícia) (p. 150). Isso valida B. A acolhe a versão sem confronto material. C descarta indevidamente as versões. D presume simulação de forma absoluta, sem base nos vestígios.",
+    "referencia": "PDF LOC, p. 150",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1478,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos vestígios normalmente encontrados em locais de roubo (assalto), é correto afirmar que:",
+    "alternativas": {
+      "A": "pela natureza do crime, é comum não se encontrarem muitos vestígios, ganhando especial importância as imagens de CFTV e de videomonitoramento urbano e de edificações vizinhas.",
+      "B": "os locais de roubo são, em regra, os mais ricos em vestígios materiais, dispensando o recurso a câmeras.",
+      "C": "o roubo deixa sempre marcas de arrombamento, que são seu principal vestígio.",
+      "D": "as imagens de CFTV não podem ser utilizadas como vestígio em locais de roubo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela própria natureza do crime, é comum não se encontrarem muitos vestígios nos locais de roubo, ganhando importância as imagens de CFTV (circuito interno) e de câmeras de videomonitoramento urbano e de edificações vizinhas (p. 148). Isso valida A. B contraria a escassez de vestígios. C confunde roubo com furto por arrombamento. D nega o valor das imagens de CFTV.",
+    "referencia": "PDF LOC, p. 148",
+    "nivel": "facil"
+  },
+  {
+    "id": 1479,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No procedimento pericial em veículos e na análise de sistemas de CFTV em edificações, é correto afirmar que:",
+    "alternativas": {
+      "A": "deve-se buscar sinais de violação do sistema de ignição (exposição de fios, tentativa de ligação direta) e preservar registros de rastreamento e telemetria; quanto ao CFTV, é necessário verificar a confiabilidade temporal (relógio do DVR/NVR), pois o roubo a caminhões dos Correios é uma das principais casuísticas da PF.",
+      "B": "o exame de veículos limita-se à conferência das placas, sendo dispensável a análise de ignição, rastreamento ou telemetria.",
+      "C": "as imagens de CFTV podem ser usadas sem qualquer verificação do horário registrado, pois o relógio do equipamento é sempre exato.",
+      "D": "o roubo a caminhões dos Correios é casuística rara e irrelevante para a Polícia Federal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No exame de veículos deve-se buscar violação da ignição (exposição/supressão de fios, ligação direta) e preservar registros de rastreamento, telemetria e câmeras veiculares; no CFTV, verifica-se a confiabilidade temporal (relógio do DVR/NVR); o roubo a caminhões dos Correios é uma das principais casuísticas da PF (p. 151-155). Isso valida A. B reduz indevidamente o exame veicular. C dispensa a verificação temporal do CFTV. D minimiza a casuística dos Correios, contrariando o texto.",
+    "referencia": "PDF LOC, p. 151-155",
+    "nivel": "medio"
   }
 ];
