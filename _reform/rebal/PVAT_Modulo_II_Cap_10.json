@@ -2,7 +2,7 @@
   {
     "id": 821,
     "alternativas": {
-      "A": "Compreende, nesta ordem: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho, Apelação e o Trânsito em Julgado da respectiva ação penal de trânsito.",
+      "A": "Compreende, nesta ordem: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho, Apelação e o Trânsito em Julgado da respectiva ação penal de trânsito investigada pela autoridade.",
       "B": "Compreende apenas a Identificação, o Histórico e a Conclusão, dispensadas as demais partes em laudos de tráfego.",
       "C": "Inclui obrigatoriamente o Parecer Jurídico da Autoridade Requisitante como sétima parte.",
       "D": "Compreende: Identificação; Histórico; Objetivo; Material examinado; Descrição do local e dos veículos; Análise e fundamentação técnica; Conclusão; e Croqui e fotografias."
@@ -29,7 +29,7 @@
   {
     "id": 826,
     "alternativas": {
-      "A": "É um software de código totalmente aberto e de uso livre por qualquer profissional da área pericial, acadêmica ou de engenharia de tráfego, sem qualquer restrição institucional.",
+      "A": "É um software de código totalmente aberto e de uso livre por qualquer profissional da área pericial, acadêmica ou de engenharia de tráfego, sem qualquer restrição institucional ou funcional de acesso.",
       "B": "Foi desenvolvido pela Criminalística da PF para análise de imagens; permite estimar velocidades médias de veículos a partir de imagens de câmeras; tem uso restrito a peritos criminais.",
       "C": "É uma plataforma estrangeira voltada exclusivamente ao cálculo de incertezas em acidentes envolvendo motocicletas.",
       "D": "Substitui integralmente o uso do EDR, dispensando consulta a dados do airbag/sistema de segurança."

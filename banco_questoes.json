@@ -11512,7 +11512,7 @@
     "enunciado": "Quanto à leitura pericial do tacógrafo de um veículo pesado envolvido em acidente, assinale a alternativa que apresenta procedimento CORRETO recomendado pelo material.",
     "alternativas": {
       "A": "Apreender o disco em uso no acidente, verificar a calibração do tacógrafo, identificar a hora e correlacioná-la com o registro de velocidade, e comparar com as marcas físicas de frenagem (validação cruzada).",
-      "B": "Basta confiar no relato do próprio motorista quanto à velocidade desenvolvida, sem necessidade de apreensão física do disco-diagrama ou de qualquer verificação da calibração do aparelho tacógrafo instalado.",
+      "B": "Basta confiar no relato do próprio motorista quanto à velocidade desenvolvida, sem necessidade de apreensão física do disco-diagrama ou de qualquer verificação da calibração do aparelho tacógrafo instalado no veículo pesado.",
       "C": "A leitura do disco-diagrama é definitiva e dispensa qualquer cruzamento com as marcas físicas de frenagem.",
       "D": "O tacógrafo é dispositivo opcional em veículos pesados, sendo seu uso apenas recomendado pelas montadoras."
     },
@@ -11596,7 +11596,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "A estrutura recomendada pelo INC/PF para laudos de acidentes de tráfego contém nove partes. Sobre essa estrutura, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "Compreende, nesta ordem: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho, Apelação e o Trânsito em Julgado da respectiva ação penal de trânsito.",
+      "A": "Compreende, nesta ordem: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho, Apelação e o Trânsito em Julgado da respectiva ação penal de trânsito investigada pela autoridade.",
       "B": "Compreende apenas a Identificação, o Histórico e a Conclusão, dispensadas as demais partes em laudos de tráfego.",
       "C": "Inclui obrigatoriamente o Parecer Jurídico da Autoridade Requisitante como sétima parte.",
       "D": "Compreende: Identificação; Histórico; Objetivo; Material examinado; Descrição do local e dos veículos; Análise e fundamentação técnica; Conclusão; e Croqui e fotografias."
@@ -11681,7 +11681,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "O software Peritus é citado no material como ferramenta tecnológica para uso pelo perito criminal federal. Sobre essa ferramenta, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "É um software de código totalmente aberto e de uso livre por qualquer profissional da área pericial, acadêmica ou de engenharia de tráfego, sem qualquer restrição institucional.",
+      "A": "É um software de código totalmente aberto e de uso livre por qualquer profissional da área pericial, acadêmica ou de engenharia de tráfego, sem qualquer restrição institucional ou funcional de acesso.",
       "B": "Foi desenvolvido pela Criminalística da PF para análise de imagens; permite estimar velocidades médias de veículos a partir de imagens de câmeras; tem uso restrito a peritos criminais.",
       "C": "É uma plataforma estrangeira voltada exclusivamente ao cálculo de incertezas em acidentes envolvendo motocicletas.",
       "D": "Substitui integralmente o uso do EDR, dispensando consulta a dados do airbag/sistema de segurança."
