@@ -335,11 +335,10 @@
       "A": "O sigilo se aplica de forma absoluta, inclusive em face do Poder Judiciário e do Ministério Público.",
       "B": "A divulgação antecipada de diligências é incentivada como forma de garantir o controle social da atividade policial.",
       "C": "A transparência é absoluta e impede qualquer restrição ao acesso público durante a investigação, sob pena de violação ao princípio republicano.",
-      "D": "Durante a fase de apuração, a investigação deve permanecer sob sigilo para garantir seu pleno desenvolvimento; no entanto, deve ser assegurado acesso irrestrito ao Poder Judiciário e ao Ministério Público, e, após documentados nos autos, os atos ficam acessíveis ao advogado do investigado, conforme a Súmula Vinculante nº 14 do STF.",
-      "E": "Concluídas as diligências, os atos investigativos permanecem em sigilo, inclusive em relação às partes do processo penal."
+      "D": "Durante a fase de apuração, a investigação deve permanecer sob sigilo para garantir seu pleno desenvolvimento; no entanto, deve ser assegurado acesso irrestrito ao Poder Judiciário e ao Ministério Público, e, após documentados nos autos, os atos ficam acessíveis ao advogado do investigado, conforme a Súmula Vinculante nº 14 do STF."
     },
     "resposta_correta": "D",
-    "justificativa": "O texto afirma: 'Durante a fase de apuração, a investigação deve permanecer sob sigilo... sem prejuízo do acesso irrestrito que deve ser assegurado ao Poder Judiciário e ao Ministério Público'. E: 'a transparência garante que, uma vez documentados e juntados aos autos do inquérito, os atos... fiquem acessíveis ao advogado do investigado... conforme a essência da Súmula Vinculante nº 14 do Supremo Tribunal Federal'.",
+    "justificativa": "O texto afirma: 'Durante a fase de apuração, a investigação deve permanecer sob sigilo... sem prejuízo do acesso irrestrito que deve ser assegurado ao Poder Judiciário e ao Ministério Público'. Ademais: 'a transparência garante que, uma vez documentados e juntados aos autos do inquérito, os atos... fiquem acessíveis ao advogado do investigado... conforme a essência da Súmula Vinculante nº 14 do Supremo Tribunal Federal'.",
     "referencia": "Cap. 4, Seção 4.3, p. 35-36"
   },
   {
@@ -352,11 +351,10 @@
       "A": "A finalidade primária da investigação policial é viabilizar o oferecimento de denúncia pelo Ministério Público.",
       "B": "O objetivo central da investigação policial é apurar, de forma lícita, técnica e imparcial, a verdade possível acerca da autoria, da materialidade e das circunstâncias do delito, assegurando a integridade e a preservação da cadeia de custódia das provas.",
       "C": "O objetivo da investigação policial é exclusivamente subsidiar o juízo condenatório, não se admitindo a exclusão da hipótese de crime.",
-      "D": "A investigação policial vincula-se à formação da opinio delicti, devendo orientar-se pela confirmação prévia de uma tese acusatória.",
-      "E": "O Ministério Público é quem conduz a investigação criminal por meio do inquérito policial, conforme o art. 2º, §1º, da Lei nº 12.830/2013."
+      "D": "A investigação policial vincula-se à formação da opinio delicti, devendo orientar-se pela confirmação prévia de uma tese acusatória."
     },
     "resposta_correta": "B",
-    "justificativa": "O texto afirma: 'seu objetivo central é apurar, de forma lícita, técnica e imparcial, a verdade possível acerca da autoria, da materialidade e das circunstâncias do delito, assegurando a integridade e a preservação da cadeia de custódia das provas'. E ressalta que viabilizar a denúncia 'não é finalidade primária da investigação policial'.",
+    "justificativa": "O texto afirma: 'seu objetivo central é apurar, de forma lícita, técnica e imparcial, a verdade possível acerca da autoria, da materialidade e das circunstâncias do delito, assegurando a integridade e a preservação da cadeia de custódia das provas'. O material ressalta que viabilizar a denúncia 'não é finalidade primária da investigação policial'.",
     "referencia": "Cap. 4, Seção 4.4, p. 37"
   },
   {
@@ -1339,11 +1337,10 @@
       "A": "o Estatuto da Advocacia garante prerrogativas como o acesso aos autos do inquérito (Súmula Vinculante 14 do STF), entrevista prévia e reservada com o cliente, presença em interrogatórios e inviolabilidade do escritório quando relacionado ao exercício profissional, devendo a atuação ocorrer dentro dos limites legais.",
       "B": "o advogado não possui qualquer prerrogativa na fase investigativa, sendo seu acesso aos autos restrito à fase processual.",
       "C": "o exercício das prerrogativas pelo defensor confunde-se com a possibilidade de ingerência direta na condução das diligências investigativas.",
-      "D": "a presença do advogado em interrogatórios depende sempre de autorização judicial específica.",
-      "E": "a defesa pode obstruir diligências regularmente determinadas pelo delegado quando considerá-las desnecessárias."
+      "D": "a presença do advogado em interrogatórios depende sempre de autorização judicial específica."
     },
     "resposta_correta": "A",
-    "justificativa": "Conforme o texto: 'O Estatuto da Advocacia (Lei nº 8.906/1994) garante prerrogativas como o acesso aos autos do inquérito, nos termos da Súmula Vinculante 14 do STF; a entrevista prévia e reservada com o cliente; a presença em interrogatórios; a inviolabilidade do escritório e dos instrumentos de trabalho, quando relacionados ao exercício profissional'. E ainda: 'O exercício dessas prerrogativas, entretanto, não se confunde com ingerência indevida na atividade investigativa.'",
+    "justificativa": "Conforme o texto: 'O Estatuto da Advocacia (Lei nº 8.906/1994) garante prerrogativas como o acesso aos autos do inquérito, nos termos da Súmula Vinculante 14 do STF; a entrevista prévia e reservada com o cliente; a presença em interrogatórios; a inviolabilidade do escritório e dos instrumentos de trabalho, quando relacionados ao exercício profissional'. O texto acrescenta: 'O exercício dessas prerrogativas, entretanto, não se confunde com ingerência indevida na atividade investigativa.'",
     "referencia": "Cap. 5, Seção 5.18, p. 98"
   },
   {
@@ -1552,11 +1549,10 @@
       "A": "distinguir hipótese investigativa de evidências concretas, testando hipóteses em vez de assumi-las como premissas verdadeiras.",
       "B": "aceitar materiais probatórios de fontes oficiais sem questionamento, em razão da presunção de legitimidade dos atos públicos.",
       "C": "registrar explicitamente as premissas, permitindo a revisão crítica e a auditabilidade da investigação.",
-      "D": "realizar validação cruzada com fontes independentes, como dados bancários, telemáticos e testemunhais.",
-      "E": "trabalhar com múltiplas hipóteses plausíveis, ampliando o espectro de diligências possíveis."
+      "D": "realizar validação cruzada com fontes independentes, como dados bancários, telemáticos e testemunhais."
     },
     "resposta_correta": "B",
-    "justificativa": "O item 6.5 lista as boas práticas (a, b, c, d) e adverte expressamente que \"suposições prima facie nunca devem ser realizadas e o material coletado nunca deve ser aceito sem questionamento\", contradizendo a alternativa E.",
+    "justificativa": "O item 6.5 lista as boas práticas (a, b, c, d) e adverte expressamente que 'suposições prima facie nunca devem ser realizadas e o material coletado nunca deve ser aceito sem questionamento', em consonância com a alternativa correta (B) e contrariando a ideia de aceitar suposições sem validação.",
     "referencia": "Cap. 6, Seção 6.5, p. 110-111"
   },
   {
@@ -1618,11 +1614,10 @@
       "A": "o suspeito vendeu as joias a terceiros.",
       "B": "o suspeito escondeu as joias em local ainda não descoberto.",
       "C": "o suspeito descartou as joias, jogando-as fora, trocando ou quebrando-as para fazer itens diferentes.",
-      "D": "o suspeito agiu mediante coação irresistível de organização criminosa transnacional especializada em receptação.",
-      "E": "o suspeito não cometeu o crime sozinho, podendo haver coautoria."
+      "D": "o suspeito agiu mediante coação irresistível de organização criminosa transnacional especializada em receptação."
     },
     "resposta_correta": "D",
-    "justificativa": "O item 6.7 apresenta como hipóteses exatamente as alternativas A, B, C, D e ainda a possibilidade de o suspeito não ter cometido o crime. A hipótese da alternativa E (coação por organização transnacional) não consta do exemplo.",
+    "justificativa": "Conforme o item 6.7, as hipóteses sugeridas para localizar o destino das joias incluem o suspeito ter vendido a terceiros (A), escondido em local ainda não descoberto (B), descartado, trocado ou quebrado as joias (C) e a possibilidade de não ter cometido o crime sozinho. A hipótese de coação irresistível de organização criminosa transnacional (alternativa D) NÃO consta entre as do exemplo, sendo, portanto, a que 'não se inclui'.",
     "referencia": "Cap. 6, Seção 6.7, p. 113"
   },
   {
