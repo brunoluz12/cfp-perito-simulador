@@ -22291,5 +22291,209 @@ const questoesDB = [
     "justificativa": "Recomenda-se identificar as amostras com etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando-as a um inquérito policial, item/lote ou local de origem, evitando extravios e confusões; a etiqueta inclui unidade/seção, número da amostra, quantidade, número do IPL, local de origem, data e responsável (p. 101). Isso valida A. B contraria o uso de etiquetas protegidas. C omite campos essenciais previstos. D deixa as amostras sem identificação, comprometendo a rastreabilidade e a cadeia de custódia.",
     "referencia": "PDF LOC, p. 101",
     "nivel": "facil"
+  },
+  {
+    "id": 1438,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os vestígios biológicos em locais de crime e o exame de DNA, é correto afirmar que:",
+    "alternativas": {
+      "A": "entre os vestígios biológicos mais observados estão sangue, sêmen, saliva, urina, cabelos, pelos, células descamativas e tecidos moles, e o exame de DNA é uma das ferramentas mais poderosas para identificar quem os produziu.",
+      "B": "vestígios biológicos só têm valor quando visíveis a olho nu e em grande quantidade.",
+      "C": "o exame de DNA exige sempre grandes quantidades de material íntegro, não sendo viável em material degradado.",
+      "D": "vestígios biológicos de origem animal não podem ser encontrados nem examinados em locais de crime."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Entre os vestígios biológicos mais observados estão sangue, sêmen, saliva, urina, cabelos, pelos, células descamativas e tecidos moles; o exame de DNA é uma das ferramentas mais poderosas da perícia para identificar quem produziu o vestígio (p. 103). Isso valida A. B nega valor a vestígios latentes/pequenos. C contraria os avanços que permitem exames a partir de quantidades cada vez menores e material degradado. D nega a possibilidade de vestígios biológicos de origem animal, expressamente admitida.",
+    "referencia": "PDF LOC, p. 103",
+    "nivel": "facil"
+  },
+  {
+    "id": 1439,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos fatores que degradam o DNA e à regra de ouro de acondicionamento, é correto afirmar que:",
+    "alternativas": {
+      "A": "umidade, calor, luz ultravioleta e agentes químicos (como o hipoclorito de sódio) degradam o DNA; vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão), e os que não podem ser secos vão em recipientes plásticos passíveis de refrigeração ou congelamento.",
+      "B": "o DNA é preservado pela umidade e pelo calor, devendo os vestígios ser mantidos em ambiente abafado.",
+      "C": "todos os vestígios biológicos devem ser embalados em sacos plásticos hermeticamente fechados, inclusive os úmidos passíveis de secagem.",
+      "D": "o hipoclorito de sódio é o agente recomendado para conservar o DNA dos vestígios coletados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Degradam o DNA: proliferação de microrganismos (umidade), calor, luz ultravioleta e agentes químicos, especialmente o hipoclorito de sódio (água sanitária). Vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão); os que não podem ser secos, em recipientes plásticos que permitam refrigeração ou congelamento (p. 104). Isso valida A. B inverte os fatores (umidade e calor degradam). C embala em plástico vestígios que deveriam ser secos em papel, favorecendo a proliferação microbiana. D trata um agente degradante como conservante.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1440,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os materiais de coleta e acondicionamento de vestígios biológicos, a disciplina estabelece que:",
+    "alternativas": {
+      "A": "podem ser reutilizados entre vestígios diferentes, desde que apenas limpos com água.",
+      "B": "as embalagens de papel devem ser sempre novas e os demais materiais, estéreis.",
+      "C": "qualquer embalagem improvisada é aceitável, pois o que importa é a rapidez da coleta.",
+      "D": "as embalagens plásticas são indicadas para todos os vestígios, inclusive os passíveis de secagem."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os materiais devem ser sempre NOVOS (embalagens de papel) ou ESTÉREIS (demais materiais), justamente para evitar contaminação do vestígio (p. 104). Isso valida B. A admite reutilização incompatível com a coleta de DNA. C aceita improvisação, contrariando a vedação de improvisar materiais. D generaliza o plástico, contrariando a regra de embalar em papel os vestígios passíveis de secagem.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "medio"
+  },
+  {
+    "id": 1441,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os testes preliminares (de cor) para pesquisa de sangue, como benzidina, TMB e fenolftaleína (Kastle Meyer), é correto afirmar que:",
+    "alternativas": {
+      "A": "são confirmatórios e provam, por si sós, a presença de sangue humano.",
+      "B": "têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e são incapazes de diferenciar sangue humano de animal.",
+      "C": "diferenciam com precisão sangue humano de sangue animal já no local de crime.",
+      "D": "devem ser realizados consumindo toda a amostra disponível para garantir a confiabilidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os testes preliminares de cor têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e são incapazes de diferenciar sangue humano de animal; devem ser feitos em pequena porção, preservando a maior quantidade possível para exames subsequentes (p. 107-108). Isso valida B. A e C atribuem caráter confirmatório/discriminatório inexistente. D contraria a orientação de usar pequena porção (e de não realizar o teste se a quantidade for mínima).",
+    "referencia": "PDF LOC, p. 107-108",
+    "nivel": "medio"
+  },
+  {
+    "id": 1442,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao aplicar o reagente de Kastle Meyer sobre o macerado de um fragmento (com peróxido de hidrogênio), bem como ao planejar o uso de luminol para varrer uma grande área, o perito deve considerar que:",
+    "alternativas": {
+      "A": "no Kastle Meyer, o resultado positivo é a coloração rósea intensa nos primeiros segundos; reações tardias ou ausência de cor indicam negativo; e, para o luminol/fluoresceína em grandes áreas, as amostras visíveis devem ser coletadas antes da aplicação.",
+      "B": "no Kastle Meyer, reações de cor tardias confirmam o resultado positivo; e o luminol deve ser aplicado antes de qualquer coleta de amostras visíveis.",
+      "C": "no Kastle Meyer, qualquer alteração de cor, mesmo após vários minutos, é positiva; e o luminol diferencia sangue humano de animal.",
+      "D": "no Kastle Meyer, a ausência de cor é positiva; e o luminol substitui integralmente a coleta de amostras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No reagente de Kastle Meyer, o positivo é a coloração rósea intensa nos primeiros segundos; reações tardias ou ausência de cor indicam negativo (p. 108). Para screening de grandes áreas com luminol/fluoresceína, deve-se coletar todas as amostras visíveis antes de aplicá-los (p. 108). Isso valida A. B e D invertem o critério de positividade e a ordem de coleta. C trata reações tardias como positivas e atribui ao luminol uma discriminação humano/animal inexistente.",
+    "referencia": "PDF LOC, p. 108",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1443,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das técnicas de coleta de vestígios biológicos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "a raspagem é a técnica preferencial para fluidos em qualquer superfície, sendo o suabe reservado a casos excepcionais.",
+      "B": "o suabe é a principal técnica para fluidos (sangue, sêmen, saliva) em manchas secas ou úmidas; a raspagem é usada em superfícies absorventes e irregulares somente quando não for possível o suabe; a seringa serve a amostras líquidas; e a pinça, a pelos, cabelos e fragmentos.",
+      "C": "a seringa é indicada para coletar pelos e cabelos, e a pinça, para poças de sangue líquido.",
+      "D": "todos os suportes móveis devem ser raspados no local, sendo vedado coletá-los inteiros."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O suabe é a principal técnica para fluidos em manchas secas ou úmidas; a raspagem aplica-se a superfícies absorventes e irregulares somente quando não for possível o suabe; a seringa serve a amostras líquidas (poças, urina); e a pinça, a pelos, cabelos, gomas, cigarros e fragmentos (p. 110-111). Isso valida B. A inverte a prioridade entre suabe e raspagem. C troca os usos de seringa e pinça. D contraria a regra de coletar inteiros os suportes móveis.",
+    "referencia": "PDF LOC, p. 110-111",
+    "nivel": "medio"
+  },
+  {
+    "id": 1444,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à secagem de amostras biológicas antes do acondicionamento, a orientação correta é:",
+    "alternativas": {
+      "A": "secar ao natural, ao abrigo da luz e do calor excessivo e protegida de contaminação, NÃO se utilizando secadores de cabelo, fornos ou exposição ao sol para acelerar o processo.",
+      "B": "acelerar a secagem com secador de cabelo ou forno, a fim de evitar a proliferação de microrganismos.",
+      "C": "expor a amostra diretamente ao sol, pois a radiação ultravioleta conserva o DNA.",
+      "D": "embalar a amostra ainda úmida em saco plástico vedado, deixando-a secar dentro da embalagem."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A secagem deve ser ao natural, ao abrigo da luz e do calor excessivo, protegida de contaminação, sem uso de secadores de cabelo, fornos ou exposição ao sol para acelerar (p. 111). Isso valida A. B e C empregam calor e luz UV, que degradam o DNA. D embala material úmido em plástico vedado, favorecendo a proliferação microbiana.",
+    "referencia": "PDF LOC, p. 111",
+    "nivel": "medio"
+  },
+  {
+    "id": 1445,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito coletou três materiais: (i) um suabe seco de mancha de sangue; (ii) sangue de pessoa viva em tubo com anticoagulante EDTA; e (iii) um fragmento de tecido mole. Quanto à preservação, a conduta correta é:",
+    "alternativas": {
+      "A": "manter os três sob congelamento a -20 °C, indistintamente.",
+      "B": "manter o suabe seco em temperatura ambiente; o sangue com EDTA refrigerado a cerca de 4 °C (sem congelar); e o tecido mole congelado a -20 °C, evitando descongelar e recongelar.",
+      "C": "manter o suabe seco refrigerado a 4 °C; o sangue com EDTA congelado a -20 °C; e o tecido mole em temperatura ambiente.",
+      "D": "manter os três em temperatura ambiente, desde que protegidos da luz."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Vestígios secos (como o suabe) são preservados em temperatura ambiente, evitando luz, calor e umidade; sangue de pessoa viva em tubo com EDTA vai ao refrigerador a cerca de 4 °C (não congelar); tecidos moles, fluidos líquidos, cabelos e pelos são congelados a -20 °C, evitando descongelar e recongelar (p. 112). Isso valida B. A congela inclusive o sangue com EDTA, que não deve ser congelado. C e D atribuem temperaturas incorretas às categorias.",
+    "referencia": "PDF LOC, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1446,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao recolher, em um local de homicídio, um projétil de arma de fogo que apresenta aparente material biológico aderido, o perito deve observar que:",
+    "alternativas": {
+      "A": "o projétil deve ser encaminhado primeiro à balística, pois o exame de DNA não se aplica a projéteis.",
+      "B": "a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza do exame balístico; acondiciona-se em embalagem de papel rígido, envolto em gaze/algodão para não prejudicar as marcas características.",
+      "C": "o projétil deve ser lavado para remover o sangue antes de qualquer exame, a fim de revelar as marcas de raiamento.",
+      "D": "o material biológico em projéteis é irrelevante, devendo o exame limitar-se sempre ao confronto balístico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Projéteis podem conter sangue/tecidos; a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza do exame balístico; acondiciona-se em embalagem de papel rígido, envolvido em gaze/algodão, para não prejudicar as marcas características (p. 119). Isso valida B. A e D negam a aplicabilidade/relevância do DNA. C propõe lavar o projétil, o que destruiria o vestígio biológico.",
+    "referencia": "PDF LOC, p. 119",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1447,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma ocorrência de agressão sexual, foi localizado um preservativo usado contendo sêmen. Quanto à coleta, a disciplina orienta:",
+    "alternativas": {
+      "A": "coletar um único suabe da parte externa, suficiente para identificar tanto a vítima quanto o agressor.",
+      "B": "coletar dois suabes — um da parte externa (células da vítima) e um da parte interna (células do agressor) —, acondicionados separadamente; o preservativo pode então ser fechado por nó e acondicionado em embalagem plástica, com refrigeração e congelamento a -20 °C.",
+      "C": "descartar o preservativo após o teste preliminar, pois não fornece material genético útil.",
+      "D": "coletar os dois suabes e acondicioná-los juntos no mesmo porta-suabe para facilitar o transporte."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No preservativo com sêmen, coletam-se dois suabes — um da parte externa (células da vítima) e um da interna (células do agressor) —, acondicionados separadamente em porta-suabes; em seguida, o preservativo pode ser fechado por nó e acondicionado em embalagem plástica, refrigerado e congelado a -20 °C (p. 113). Isso valida B. A coleta apenas um suabe externo, perdendo a distinção das fontes. C descarta material genético valioso. D acondiciona juntos os dois suabes, arriscando contaminação cruzada.",
+    "referencia": "PDF LOC, p. 113",
+    "nivel": "medio"
+  },
+  {
+    "id": 1448,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a coleta de amostra de referência de origem conhecida em pessoa viva, o método preferencial indicado pela disciplina é:",
+    "alternativas": {
+      "A": "o esfregaço da mucosa oral com suabe, friccionando a parte interna da bochecha por cerca de 15 segundos e coletando um suabe de cada bochecha, secos e acondicionados individualmente.",
+      "B": "a coleta de fios de cabelo e de células descamativas, por conterem grande quantidade de DNA.",
+      "C": "a punção cardíaca, por fornecer a maior quantidade de sangue possível.",
+      "D": "a raspagem de pele do antebraço, por ser indolor e de fácil execução."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O método preferencial de amostra de referência em pessoa viva é o esfregaço da mucosa oral com suabe: friccionar a parte interna da bochecha por cerca de 15 segundos, coletando um suabe de cada bochecha, secos e acondicionados individualmente; evitam-se referências como cabelos e células descamativas (pouco DNA) (p. 121). Isso valida A. B é justamente desaconselhada. C (punção cardíaca) aplica-se a cadáveres recentes, não a pessoa viva como método de referência. D não é o método indicado.",
+    "referencia": "PDF LOC, p. 121",
+    "nivel": "facil"
+  },
+  {
+    "id": 1449,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às amostras biológicas para análises toxicológicas, é correto afirmar que:",
+    "alternativas": {
+      "A": "dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral/subclávia/cardíaco, fígado, conteúdo estomacal e urina, quando presente), sendo a urina a matriz biológica de preferência nos casos ante-mortem.",
+      "B": "só podem ser realizadas a partir de amostras post-mortem, não havendo coleta em pessoas vivas.",
+      "C": "exigem que o sangue total seja congelado imediatamente após a coleta, para evitar a degradação das drogas.",
+      "D": "devem utilizar tubos com gel separador, que melhoram a recuperação das substâncias analisadas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As amostras toxicológicas dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral, da subclávia e/ou cardíaco, fígado, conteúdo estomacal e urina quando presente), sendo a urina a matriz de preferência nos casos ante-mortem (p. 124-126). Isso valida A. B ignora a coleta ante-mortem. C contraria a orientação de não congelar o sangue (evitar hemólise), mantendo-o entre 4 e 8 °C. D contraria a vedação de tubos com gel separador, que adsorve drogas.",
+    "referencia": "PDF LOC, p. 124-126",
+    "nivel": "medio"
   }
 ];
