@@ -1,0 +1,38 @@
+[
+  {
+    "id": 641,
+    "alternativas": {
+      "A": "Pesquisar o histórico da apreensão, consultar dados identificadores no Infoseg, RENAVAM ou BIN e estudar os padrões de gravação originais do fabricante.",
+      "B": "Aplicar solventes e revelação metalográfica no NIV para identificar a numeração original.",
+      "C": "Classificar o estado de conservação do veículo em bom, regular, ruim ou sucata e aplicar o respectivo deságio com base na tabela FIPE do mês de referência da apreensão do veículo.",
+      "D": "Elaborar o dossiê do caso e arquivar fotos em meio digital na rede da unidade de criminalística."
+    }
+  },
+  {
+    "id": 642,
+    "alternativas": {
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas os itens II e IV estão corretos.",
+      "C": "Os itens I, III, IV e V estão corretos.",
+      "D": "Apenas os itens I, III e V estão corretos."
+    }
+  },
+  {
+    "id": 711,
+    "alternativas": {
+      "A": "Primeiro o exame físico, com revelação metalográfica do VIN; depois o levantamento de dados prévios em sistemas; e por fim a análise de segurança do local.",
+      "B": "Primeiro o levantamento de dados prévios em sistemas; depois o descarregamento obrigatório do veículo e a revelação metalográfica do VIN no chassi; e, por fim, a análise de viabilidade, a segurança do local e a montagem do dossiê fotográfico final do exame pericial.",
+      "C": "Primeiro a análise de viabilidade (localização, chaves, segurança e salubridade do local); depois o levantamento de dados prévios (histórico da apreensão, Infoseg/RENAVAM/BIN, padrões do fabricante); por fim, o exame físico, confronto e valoração.",
+      "D": "Primeiro a descrição do veículo no laudo; depois as conclusões periciais; e por fim a análise de viabilidade e segurança do local."
+    }
+  },
+  {
+    "id": 712,
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "Itens I, III e V.",
+      "C": "Itens II, IV e V.",
+      "D": "Itens I, II e V."
+    }
+  }
+]

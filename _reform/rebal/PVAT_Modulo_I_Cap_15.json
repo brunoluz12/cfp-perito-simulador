@@ -1,0 +1,92 @@
+[
+  {
+    "id": 633,
+    "alternativas": {
+      "A": "Cavidade natural do veículo, dado que se trata de espaço estrutural já existente em caminhões baú de fábrica, sem qualquer sinal de adaptação.",
+      "B": "Compartimento adrede preparado, em razão dos sinais de adaptação intencional como cortes, soldas e mecanismos dissimulados.",
+      "C": "Reforço de suspensão, por se localizar na parte inferior da estrutura do veículo e ter finalidade de carga.",
+      "D": "Gerador de fumaça, por se tratar de adaptação independente das funções normais do veículo."
+    }
+  },
+  {
+    "id": 634,
+    "alternativas": {
+      "A": "Trata-se de dispositivo de comunicação clandestina dissimulado na suspensão, equiparável ao rádio oculto.",
+      "B": "Trata-se de adequação técnica voltada exclusivamente ao conforto do condutor em viagens de longas distâncias, sem qualquer relação com a prática de ilícitos ou com a ocultação de carga.",
+      "C": "Trata-se de adaptação destinada a dissimular a sobrecarga do transporte de ilícitos, dificultando a percepção imediata de excesso de peso em fiscalizações iniciais.",
+      "D": "Trata-se de cavidade natural do projeto original do veículo, não devendo ser descrita como intervenção ilícita."
+    }
+  },
+  {
+    "id": 636,
+    "alternativas": {
+      "A": "Caracteriza-se como rádio oculto, equipamento de comunicação clandestino, dissimulado e com integração não original aos sistemas do veículo.",
+      "B": "O achado integra a categoria 'reforço de suspensão', por se tratar de uma intervenção elétrica adicional instalada no console central do veículo.",
+      "C": "O equipamento deve ser descartado como evidência, por não constituir intervenção estrutural relevante ao laudo.",
+      "D": "Trata-se de cavidade natural do console, sem qualquer caracterização ilícita."
+    }
+  },
+  {
+    "id": 637,
+    "alternativas": {
+      "A": "Reforço de suspensão - dissimular a presença de sobrecarga decorrente do transporte de ilícitos.",
+      "B": "Compartimento adrede preparado - facilitar a perseguição policial empreendida pelo agente público em via.",
+      "C": "Gerador de fumaça - ocultação de substâncias na forração dos bancos.",
+      "D": "Rádio oculto - aumentar a capacidade de carga útil legal do veículo."
+    }
+  },
+  {
+    "id": 638,
+    "alternativas": {
+      "A": "Compartimento adrede preparado, em razão da clara finalidade ilícita do uso e da adaptação intencional do espaço para ocultação.",
+      "B": "Cavidade natural, por se tratar de espaço construtivo do veículo sem sinais de adaptação intencional.",
+      "C": "Gerador de fumaça com cavidade adaptada para transporte de drogas.",
+      "D": "Reforço estrutural dissimulado, dado o uso para ocultação no habitáculo."
+    }
+  },
+  {
+    "id": 703,
+    "alternativas": {
+      "A": "Cavidade natural do veículo, comum em caminhões do tipo baú e, por isso, sem qualquer relevância pericial para a caracterização de ilícito.",
+      "B": "Fundo falso, espécie de compartimento adrede preparado, com chapas adicionadas e soldas na porção anterior do compartimento de carga.",
+      "C": "Reforço de suspensão, voltado a dissimular sobrecarga decorrente do transporte de ilícitos.",
+      "D": "Gerador de fumaça, dispositivo instalado para dificultar perseguições policiais."
+    }
+  },
+  {
+    "id": 705,
+    "alternativas": {
+      "A": "Melhorar o conforto dos ocupantes em terrenos irregulares, sem qualquer relação com finalidades ilícitas.",
+      "B": "Permitir a comunicação clandestina entre os integrantes do grupo criminoso, substituindo por completo o uso de rádios transceptores e de telefones móveis durante o transporte da carga ilícita pelas rodovias.",
+      "C": "Liberar material particulado ou fumaça intensa em situações de abordagem policial, reduzindo a visibilidade do entorno.",
+      "D": "Elevar a sustentação/rigidez da suspensão mantendo a altura próxima à de um veículo descarregado, dificultando a percepção da carga adicional e a identificação da irregularidade."
+    }
+  },
+  {
+    "id": 706,
+    "alternativas": {
+      "A": "Rádio transceptor oculto, com integração não original aos sistemas do veículo e dissimulado em painel, console ou forrações do habitáculo.",
+      "B": "Reforço de suspensão dissimulado em compartimento eletrônico adicional, instalado de forma oculta sob o console central e a forração do veículo periciado.",
+      "C": "Cavidade natural do veículo, sem relevância probatória.",
+      "D": "Componente típico de fábrica, sendo a abordagem pericial dispensável."
+    }
+  },
+  {
+    "id": 707,
+    "alternativas": {
+      "A": "Como tais intervenções fogem do escopo da Portaria Ditec/PF Nº 1.563, o perito deve apenas mencioná-las brevemente em campo livre do laudo, sem aprofundar a respectiva descrição técnica ou fotográfica.",
+      "B": "A correta identificação e descrição dessas intervenções são fundamentais para caracterizar o contexto criminoso, fundamentar o laudo e permitir a adequada valoração probatória.",
+      "C": "Por se tratarem de adaptações reversíveis, sua descrição no laudo é considerada redundante, bastando o registro fotográfico.",
+      "D": "A análise técnica dessas modificações cabe exclusivamente ao setor de investigação policial, e não ao perito criminal federal."
+    }
+  },
+  {
+    "id": 708,
+    "alternativas": {
+      "A": "A primeira é compartimento adrede preparado (chapas adicionadas, soldas, mecanismos dissimulados); a segunda é cavidade natural (espaço já existente na estrutura, sem adaptação intencional).",
+      "B": "Ambas as situações configuram cavidades naturais, pois o esconderijo apenas aproveita espaços já previstos no projeto original de fábrica do veículo, sem qualquer intervenção física ou estrutural posterior.",
+      "C": "Ambas as situações configuram compartimentos adrede preparados, pois há ocultação de ilícitos.",
+      "D": "A primeira configura reforço de suspensão e a segunda, rádio transceptor oculto."
+    }
+  }
+]

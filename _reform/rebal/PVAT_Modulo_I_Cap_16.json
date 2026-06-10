@@ -1,0 +1,29 @@
+[
+  {
+    "id": 639,
+    "alternativas": {
+      "A": "WEBVIN - permite a consulta aos números de lacres instalados no cronotacógrafo do veículo.",
+      "B": "DELPHOS - sistema da Polícia Federal que dá acesso a registros periciais consolidados, com imagens e descrições de padrões legítimos e locais de gravação dos fabricantes.",
+      "C": "Sinesp/Infoseg - sistema de gestão de lacres do Inmetro, restrito a cronotacógrafos.",
+      "D": "Cartas-laudo - sistema oficial da Polícia Federal de uniformização de padrões de gravação, com nível de detalhe rigorosamente padronizado entre todas as montadoras e disponível em base pública."
+    }
+  },
+  {
+    "id": 640,
+    "alternativas": {
+      "A": "Inmetro - Cronotacógrafo, pois reúne dados de gravação de chassi, padrões dos fabricantes e o histórico completo de leilões do veículo.",
+      "B": "Sinapse, por concentrar imagens periciais de leilões judiciais.",
+      "C": "Sinesp/Infoseg, que armazena padrões de gravação dos fabricantes e registros de leilão.",
+      "D": "WEBVIN, que possibilita a obtenção de padrões e locais usuais de gravação, bem como a verificação de passagem do veículo por leilão."
+    }
+  },
+  {
+    "id": 710,
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "II, III e V.",
+      "C": "I, II, III e IV.",
+      "D": "Itens III, IV e V."
+    }
+  }
+]

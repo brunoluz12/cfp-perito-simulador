@@ -8382,7 +8382,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia realizada em caminhão baú apreendido em operação de combate ao tráfico, o perito identifica um espaço oculto sob o assoalho do compartimento de carga, com chapas adicionadas, soldas recentes e mecanismo de abertura dissimulado. Tecnicamente, segundo a doutrina do PVAT, este achado caracteriza-se como:",
     "alternativas": {
-      "A": "Cavidade natural do veículo, dado que se trata de espaço estrutural já existente em caminhões baú de fábrica.",
+      "A": "Cavidade natural do veículo, dado que se trata de espaço estrutural já existente em caminhões baú de fábrica, sem qualquer sinal de adaptação.",
       "B": "Compartimento adrede preparado, em razão dos sinais de adaptação intencional como cortes, soldas e mecanismos dissimulados.",
       "C": "Reforço de suspensão, por se localizar na parte inferior da estrutura do veículo e ter finalidade de carga.",
       "D": "Gerador de fumaça, por se tratar de adaptação independente das funções normais do veículo."
@@ -8400,8 +8400,8 @@
     "enunciado": "Durante a vistoria de uma caminhonete apreendida em rodovia federal, o perito constata a presença de molas duplas e calços instalados na suspensão, que mantêm a altura do veículo próxima dos parâmetros esperados para um veículo descarregado, mesmo quando submetido a peso significativo. Considerando a finalidade ilícita típica dessa intervenção descrita no PVAT, é CORRETO afirmar que:",
     "alternativas": {
       "A": "Trata-se de dispositivo de comunicação clandestina dissimulado na suspensão, equiparável ao rádio oculto.",
-      "B": "Trata-se de adequação técnica voltada ao conforto do condutor em longas distâncias, sem qualquer relação com a prática de ilícitos.",
-      "C": "Trata-se de adaptação destinada a dissimular a presença de sobrecarga decorrente do transporte de ilícitos, dificultando a percepção imediata de excesso de peso em fiscalizações iniciais.",
+      "B": "Trata-se de adequação técnica voltada exclusivamente ao conforto do condutor em viagens de longas distâncias, sem qualquer relação com a prática de ilícitos ou com a ocultação de carga.",
+      "C": "Trata-se de adaptação destinada a dissimular a sobrecarga do transporte de ilícitos, dificultando a percepção imediata de excesso de peso em fiscalizações iniciais.",
       "D": "Trata-se de cavidade natural do projeto original do veículo, não devendo ser descrita como intervenção ilícita."
     },
     "resposta_correta": "C",
@@ -8433,8 +8433,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em diligência policial, é apreendido um veículo no qual, embutido no console central e com fiação não conectada à arquitetura elétrica original do automóvel, encontra-se um transceptor de comunicação em frequência distinta da utilizada pelo rádio AM/FM de fábrica. Considerando o tratamento técnico-pericial dado a esse tipo de achado no PVAT, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "Caracteriza-se como rádio oculto, equipamento de comunicação clandestino frequentemente dissimulado e com integração não original aos sistemas do veículo.",
-      "B": "O achado integra a categoria 'reforço de suspensão', por ser uma intervenção elétrica adicional.",
+      "A": "Caracteriza-se como rádio oculto, equipamento de comunicação clandestino, dissimulado e com integração não original aos sistemas do veículo.",
+      "B": "O achado integra a categoria 'reforço de suspensão', por se tratar de uma intervenção elétrica adicional instalada no console central do veículo.",
       "C": "O equipamento deve ser descartado como evidência, por não constituir intervenção estrutural relevante ao laudo.",
       "D": "Trata-se de cavidade natural do console, sem qualquer caracterização ilícita."
     },
@@ -8451,7 +8451,7 @@
     "enunciado": "O PVAT - Módulo I aponta diferentes intervenções estruturais e funcionais voltadas à prática de ilícitos. Considerando a finalidade típica de cada uma, qual associação está CORRETA?",
     "alternativas": {
       "A": "Reforço de suspensão - dissimular a presença de sobrecarga decorrente do transporte de ilícitos.",
-      "B": "Compartimento adrede preparado - facilitar perseguição policial pelo agente público.",
+      "B": "Compartimento adrede preparado - facilitar a perseguição policial empreendida pelo agente público em via.",
       "C": "Gerador de fumaça - ocultação de substâncias na forração dos bancos.",
       "D": "Rádio oculto - aumentar a capacidade de carga útil legal do veículo."
     },
@@ -8467,7 +8467,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia em veículo de passeio, o perito encontra cocaína acondicionada na forração dos bancos traseiros, em local que, mesmo após retirada das embalagens, não apresenta cortes, soldas, chapas adicionadas nem mecanismos de abertura dissimulados, tratando-se de espaço já existente no projeto original do automóvel. Considerando a diferenciação técnica adotada pelo PVAT, este achado deve ser tecnicamente descrito como:",
     "alternativas": {
-      "A": "Compartimento adrede preparado, em razão da finalidade ilícita do uso.",
+      "A": "Compartimento adrede preparado, em razão da clara finalidade ilícita do uso e da adaptação intencional do espaço para ocultação.",
       "B": "Cavidade natural, por se tratar de espaço construtivo do veículo sem sinais de adaptação intencional.",
       "C": "Gerador de fumaça com cavidade adaptada para transporte de drogas.",
       "D": "Reforço estrutural dissimulado, dado o uso para ocultação no habitáculo."
@@ -8485,9 +8485,9 @@
     "enunciado": "Sobre os sistemas e fontes institucionais de consulta utilizados em perícia de identificação veicular, qual alternativa associa CORRETAMENTE o sistema à sua finalidade descrita no PVAT?",
     "alternativas": {
       "A": "WEBVIN - permite a consulta aos números de lacres instalados no cronotacógrafo do veículo.",
-      "B": "DELPHOS - sistema desenvolvido pela Polícia Federal que permite acesso a registros periciais consolidados, com imagens e descrições que auxiliam na identificação de padrões legítimos e locais de gravação adotados pelos fabricantes.",
+      "B": "DELPHOS - sistema da Polícia Federal que dá acesso a registros periciais consolidados, com imagens e descrições de padrões legítimos e locais de gravação dos fabricantes.",
       "C": "Sinesp/Infoseg - sistema de gestão de lacres do Inmetro, restrito a cronotacógrafos.",
-      "D": "Cartas-laudo - sistema oficial da Polícia Federal de uniformização de padrões de gravação, com nível de detalhe padronizado entre todas as montadoras."
+      "D": "Cartas-laudo - sistema oficial da Polícia Federal de uniformização de padrões de gravação, com nível de detalhe rigorosamente padronizado entre todas as montadoras e disponível em base pública."
     },
     "resposta_correta": "B",
     "justificativa": "Pág. 73: 'O DELPHOS, sistema desenvolvido pela Polícia Federal, permite o acesso a registros periciais consolidados, com imagens e descrições que auxiliam na identificação de padrões legítimos e locais de gravação adotados pelos fabricantes'. As demais associações estão erradas: WEBVIN trata de padrões/leilão; lacres são do Inmetro - Cronotacógrafo; cartas-laudo têm 'robustez e nível de detalhe variáveis conforme a política e os registros internos de cada montadora'.",
@@ -8501,7 +8501,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Durante o exame de um veículo cujo modelo é pouco conhecido pelo perito, este precisa verificar o padrão e o local usual de gravação do NIV, bem como confirmar se o automóvel passou anteriormente por leilão. Qual sistema, segundo o PVAT - Módulo I, é o adequado para essa finalidade específica?",
     "alternativas": {
-      "A": "Inmetro - Cronotacógrafo, pois reúne dados de gravação de chassi e histórico de leilões.",
+      "A": "Inmetro - Cronotacógrafo, pois reúne dados de gravação de chassi, padrões dos fabricantes e o histórico completo de leilões do veículo.",
       "B": "Sinapse, por concentrar imagens periciais de leilões judiciais.",
       "C": "Sinesp/Infoseg, que armazena padrões de gravação dos fabricantes e registros de leilão.",
       "D": "WEBVIN, que possibilita a obtenção de padrões e locais usuais de gravação, bem como a verificação de passagem do veículo por leilão."
@@ -8518,9 +8518,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "O perito criminal federal é designado para realizar perícia em veículo apreendido em operação contra organização criminosa. Antes de qualquer exame de campo, com base no procedimento estruturado pela Portaria Ditec/PF Nº 1.563, ele deve realizar o levantamento de dados prévios. Assinale a alternativa que descreve CORRETAMENTE atividades dessa etapa, conforme o PVAT - Módulo I:",
     "alternativas": {
-      "A": "Realizar pesquisa histórica das razões da apreensão, consultar dados identificadores nos sistemas Infoseg, RENAVAM ou BIN e estudar padrões de gravação originais do fabricante.",
+      "A": "Pesquisar o histórico da apreensão, consultar dados identificadores no Infoseg, RENAVAM ou BIN e estudar os padrões de gravação originais do fabricante.",
       "B": "Aplicar solventes e revelação metalográfica no NIV para identificar a numeração original.",
-      "C": "Classificar o estado de conservação do veículo em bom, regular, ruim ou sucata e aplicar deságio da tabela FIPE.",
+      "C": "Classificar o estado de conservação do veículo em bom, regular, ruim ou sucata e aplicar o respectivo deságio com base na tabela FIPE do mês de referência da apreensão do veículo.",
       "D": "Elaborar o dossiê do caso e arquivar fotos em meio digital na rede da unidade de criminalística."
     },
     "resposta_correta": "A",
@@ -8535,10 +8535,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Acerca das conclusões periciais e dos procedimentos finais previstos no Capítulo 17 do PVAT - Módulo I, considere as seguintes assertivas:\n\nI. O laudo pericial pode concluir de quatro formas: não identificação de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem possibilidade de identificar a original; ou inconclusão.\nII. Em casos de veículos carregados, o descarregamento deve ser sempre solicitado pelo perito, independentemente da necessidade para responder aos quesitos.\nIII. O laudo final deve conter, no mínimo, duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.\nIV. A descrição básica do veículo no laudo deve conter, no mínimo, a marca, o modelo, a versão, a cor, a espécie, o tipo, o ano de fabricação ou modelo e as placas ostentadas.\nV. Todas as transferências de custódia do veículo durante o processo devem ser devidamente documentadas.\n\nEstá CORRETA a alternativa:",
     "alternativas": {
-      "A": "Apenas I, II e III estão corretos.",
-      "B": "Apenas II e IV estão corretos.",
-      "C": "I, III, IV e V estão corretos; apenas II está incorreto.",
-      "D": "Apenas I, III e V estão corretos."
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas os itens II e IV estão corretos.",
+      "C": "Os itens I, III, IV e V estão corretos.",
+      "D": "Apenas os itens I, III e V estão corretos."
     },
     "resposta_correta": "C",
     "justificativa": "Pág. 76 confirma I (quatro formas de conclusão), III ('no mínimo, duas fotos gerais [...] placas, do NIV e do motor'), IV (descrição básica com marca, modelo, versão, cor, espécie, tipo, ano e placas) e V ('transferências de custódia [...] devem ser devidamente documentadas'). II é FALSO: 'o descarregamento só é solicitado se for imprescindível para responder aos quesitos'.",
@@ -9590,8 +9590,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em fiscalização de rodovia, um caminhão baú foi apreendido. O perito identifica, na porção anterior do compartimento de carga, uma divisória em chapa metálica soldada à estrutura original, criando um espaço fechado não previsto pelo fabricante. Conforme a tipologia descrita no PVAT - Módulo I, essa intervenção caracteriza:",
     "alternativas": {
-      "A": "Cavidade natural do veículo, comum em caminhões do tipo baú e sem relevância pericial.",
-      "B": "Fundo falso, espécie de compartimento adrede preparado, identificado pela presença de chapas adicionadas e soldas na porção anterior do compartimento de carga.",
+      "A": "Cavidade natural do veículo, comum em caminhões do tipo baú e, por isso, sem qualquer relevância pericial para a caracterização de ilícito.",
+      "B": "Fundo falso, espécie de compartimento adrede preparado, com chapas adicionadas e soldas na porção anterior do compartimento de carga.",
       "C": "Reforço de suspensão, voltado a dissimular sobrecarga decorrente do transporte de ilícitos.",
       "D": "Gerador de fumaça, dispositivo instalado para dificultar perseguições policiais."
     },
@@ -9625,9 +9625,9 @@
     "enunciado": "Durante perícia em camionete apreendida em operação contra o tráfico de drogas, o perito constata a instalação de molas duplas e calços nas suspensões dianteira e traseira, sem que o veículo apresentasse, no momento da abordagem, sinais visíveis de excesso de peso, apesar de transportar grande volume de mercadoria. Qual é a finalidade técnica dessa intervenção, conforme o PVAT - Módulo I?",
     "alternativas": {
       "A": "Melhorar o conforto dos ocupantes em terrenos irregulares, sem qualquer relação com finalidades ilícitas.",
-      "B": "Permitir a comunicação clandestina entre integrantes do grupo criminoso, substituindo o uso de rádios transceptores.",
+      "B": "Permitir a comunicação clandestina entre os integrantes do grupo criminoso, substituindo por completo o uso de rádios transceptores e de telefones móveis durante o transporte da carga ilícita pelas rodovias.",
       "C": "Liberar material particulado ou fumaça intensa em situações de abordagem policial, reduzindo a visibilidade do entorno.",
-      "D": "Elevar artificialmente a capacidade de sustentação ou rigidez da suspensão, mantendo a altura próxima aos parâmetros de um veículo descarregado, dificultando a percepção imediata da carga adicional e retardando a identificação da irregularidade pelos órgãos de controle."
+      "D": "Elevar a sustentação/rigidez da suspensão mantendo a altura próxima à de um veículo descarregado, dificultando a percepção da carga adicional e a identificação da irregularidade."
     },
     "resposta_correta": "D",
     "justificativa": "A pág. 69 explica que os reforços de suspensão 'elevam artificialmente a capacidade de sustentação ou rigidez da suspensão, busca-se manter a altura próxima aos parâmetros esperados para um veículo descarregado, dificultando a percepção imediata da carga adicional e retardando a identificação da irregularidade pelos órgãos de controle'. A alternativa D descreve geradores de fumaça (mesma página).",
@@ -9641,8 +9641,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em veículo apreendido em operação policial, foi localizado um dispositivo eletrônico dissimulado no painel, conectado por chicote elétrico não original e capaz de transmitir e receber comunicações em frequências reservadas. Conforme as categorias de intervenções descritas no PVAT - Módulo I, esse achado pericial corresponde a:",
     "alternativas": {
-      "A": "Rádio transceptor oculto, caracterizado por integração não original aos sistemas do veículo e por dissimulação em painel, console, forrações ou compartimentos do habitáculo.",
-      "B": "Reforço de suspensão dissimulado em compartimento eletrônico.",
+      "A": "Rádio transceptor oculto, com integração não original aos sistemas do veículo e dissimulado em painel, console ou forrações do habitáculo.",
+      "B": "Reforço de suspensão dissimulado em compartimento eletrônico adicional, instalado de forma oculta sob o console central e a forração do veículo periciado.",
       "C": "Cavidade natural do veículo, sem relevância probatória.",
       "D": "Componente típico de fábrica, sendo a abordagem pericial dispensável."
     },
@@ -9658,8 +9658,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a relevância pericial das intervenções estruturais e funcionais voltadas à prática de ilícitos, assinale a alternativa CORRETA conforme o PVAT - Módulo I:",
     "alternativas": {
-      "A": "Como tais intervenções fogem do escopo da Portaria Ditec/PF Nº 1.563, o perito deve apenas mencioná-las em campo livre, sem aprofundar a descrição técnica.",
-      "B": "A correta identificação e descrição técnica dessas intervenções são fundamentais para a caracterização do contexto criminoso, para a fundamentação do laudo pericial e para a adequada valoração probatória no âmbito da investigação.",
+      "A": "Como tais intervenções fogem do escopo da Portaria Ditec/PF Nº 1.563, o perito deve apenas mencioná-las brevemente em campo livre do laudo, sem aprofundar a respectiva descrição técnica ou fotográfica.",
+      "B": "A correta identificação e descrição dessas intervenções são fundamentais para caracterizar o contexto criminoso, fundamentar o laudo e permitir a adequada valoração probatória.",
       "C": "Por se tratarem de adaptações reversíveis, sua descrição no laudo é considerada redundante, bastando o registro fotográfico.",
       "D": "A análise técnica dessas modificações cabe exclusivamente ao setor de investigação policial, e não ao perito criminal federal."
     },
@@ -9675,8 +9675,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em um veículo apreendido, o perito encontrou, abaixo da carroceria, um espaço fechado por chapa adicional soldada, com mecanismo de abertura dissimulado por trava magnética acionada por chave eletrônica. Já em outro veículo, encontrou cocaína oculta atrás do painel corta-fogo original, sem qualquer adaptação estrutural. A distinção entre essas duas situações, conforme o PVAT - Módulo I, é:",
     "alternativas": {
-      "A": "A primeira é compartimento adrede preparado (apresenta sinais de adaptação, como chapas adicionadas, soldas e mecanismos dissimulados), enquanto a segunda é cavidade natural (espaço já existente na estrutura do veículo, sem adaptação intencional).",
-      "B": "Ambas as situações configuram cavidades naturais, pois o esconderijo aproveita espaços do projeto.",
+      "A": "A primeira é compartimento adrede preparado (chapas adicionadas, soldas, mecanismos dissimulados); a segunda é cavidade natural (espaço já existente na estrutura, sem adaptação intencional).",
+      "B": "Ambas as situações configuram cavidades naturais, pois o esconderijo apenas aproveita espaços já previstos no projeto original de fábrica do veículo, sem qualquer intervenção física ou estrutural posterior.",
       "C": "Ambas as situações configuram compartimentos adrede preparados, pois há ocultação de ilícitos.",
       "D": "A primeira configura reforço de suspensão e a segunda, rádio transceptor oculto."
     },
@@ -9712,7 +9712,7 @@
       "A": "I, II e V.",
       "B": "II, III e V.",
       "C": "I, II, III e IV.",
-      "D": "III, IV e V."
+      "D": "Itens III, IV e V."
     },
     "resposta_correta": "C",
     "justificativa": "A pág. 73 confirma os itens I, II, III e IV nos exatos termos. O item V é FALSO: o WEBVIN é descrito como sistema que fornece padrões/locais de gravação e verificação de leilão, sem qualquer menção a substituir o DELPHOS, que continua descrito como repositório de registros periciais consolidados da PF.",
@@ -9727,8 +9727,8 @@
     "enunciado": "Conforme o PVAT - Módulo I, fundamentado na Portaria Ditec/PF Nº 1.563, o procedimento de perícia em veículos terrestres é estruturado em etapas sequenciais. Considerando as etapas '17.1 Análise de viabilidade de atendimento e segurança', '17.2 Levantamento de dados prévios' e '17.3 Exame físico, confronto e valoração', assinale a alternativa que descreve CORRETAMENTE a ordem e o conteúdo dessas etapas:",
     "alternativas": {
       "A": "Primeiro o exame físico, com revelação metalográfica do VIN; depois o levantamento de dados prévios em sistemas; e por fim a análise de segurança do local.",
-      "B": "Primeiro o levantamento de dados prévios; depois o descarregamento obrigatório do veículo; e por fim a análise de viabilidade e segurança.",
-      "C": "Primeiro a análise de viabilidade (verificação da localização do veículo, disponibilidade das chaves, condições de segurança e salubridade do local); depois o levantamento de dados prévios (pesquisa histórica da apreensão, consulta a Infoseg/RENAVAM/BIN e estudo de padrões de gravação do fabricante); por fim, o exame físico, confronto e valoração, focado em identidade do veículo, estado de conservação/valoração e busca por alterações e adaptações.",
+      "B": "Primeiro o levantamento de dados prévios em sistemas; depois o descarregamento obrigatório do veículo e a revelação metalográfica do VIN no chassi; e, por fim, a análise de viabilidade, a segurança do local e a montagem do dossiê fotográfico final do exame pericial.",
+      "C": "Primeiro a análise de viabilidade (localização, chaves, segurança e salubridade do local); depois o levantamento de dados prévios (histórico da apreensão, Infoseg/RENAVAM/BIN, padrões do fabricante); por fim, o exame físico, confronto e valoração.",
       "D": "Primeiro a descrição do veículo no laudo; depois as conclusões periciais; e por fim a análise de viabilidade e segurança do local."
     },
     "resposta_correta": "C",
@@ -9744,9 +9744,9 @@
     "enunciado": "Sobre as etapas finais do procedimento de perícia previstas no PVAT - Módulo I, julgue os itens a seguir:\n\nI. A descrição básica do veículo no laudo deve conter, no mínimo, a marca, o modelo, a versão, a cor, a espécie, o tipo, o ano de fabricação ou o ano modelo e as placas ostentadas, sem prejuízo de outras características necessárias.\nII. O dossiê do caso, composto por fotos, consultas a sistemas e anotações técnicas, deve ser arquivado em meio digital na rede da unidade de criminalística.\nIII. O laudo final deve conter, no mínimo, duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.\nIV. As possíveis conclusões do laudo são: não identificação de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem possibilidade de identificar a original; ou inconclusão.\nV. Em veículos carregados, o descarregamento deve sempre ser solicitado, independentemente da pertinência aos quesitos, sendo desnecessária a documentação das transferências de custódia.\n\nEstão CORRETOS apenas os itens:",
     "alternativas": {
       "A": "I, II, III e IV.",
-      "B": "I, III e V.",
-      "C": "II, IV e V.",
-      "D": "I, II e V."
+      "B": "Itens I, III e V.",
+      "C": "Itens II, IV e V.",
+      "D": "Itens I, II e V."
     },
     "resposta_correta": "A",
     "justificativa": "A pág. 76 confirma I (descrição básica do veículo), II (dossiê do caso em meio digital), III (mínimo de duas fotos gerais, placas, NIV e motor) e IV (quatro possíveis conclusões). O item V é FALSO: o material expressa que 'em casos de veículos carregados, o descarregamento só é solicitado se for imprescindível para responder aos quesitos' e que 'todas as transferências de custódia do veículo durante o processo devem ser devidamente documentadas'.",
