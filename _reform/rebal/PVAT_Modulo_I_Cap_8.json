@@ -1,0 +1,65 @@
+[
+  {
+    "id": 601,
+    "alternativas": {
+      "A": "As marcações em vidros possuem padrão único universal definido pela ABNT NBR 6066:2022, o que permite ao perito interpretar diretamente o ano e o mês de fabricação sem necessidade de tabelas específicas por fabricante.",
+      "B": "As marcações nos vidros foram concebidas exclusivamente para fins periciais e investigativos, não possuindo função industrial ou de rastreabilidade no processo produtivo das vidraçarias automotivas.",
+      "C": "Os vidros automotivos costumam ser produzidos pouco antes do veículo, com diferença de meses e raramente acima de um ano; código com data posterior à do veículo é forte indicativo de substituição.",
+      "D": "A análise dos códigos de ano dos vidros, por sua natureza autônoma, deve ser feita de forma isolada, sem qualquer integração com o exame do VIN, das etiquetas de identificação, dos lacres ou de outros vestígios físicos presentes no veículo."
+    }
+  },
+  {
+    "id": 602,
+    "alternativas": {
+      "A": "I, III e V, apenas.",
+      "B": "I, II e III, apenas.",
+      "C": "II, IV e V, apenas.",
+      "D": "I, II, III, IV e V — todos corretos."
+    }
+  },
+  {
+    "id": 603,
+    "alternativas": {
+      "A": "A prática mais comum de adulteração em vidros é a substituição completa do componente, pois é a forma mais econômica e que não deixa vestígio cronológico relevante para a identificação pericial.",
+      "B": "O lixamento localizado seguido de polimento elimina por completo as alterações de planicidade e de microtopografia do vidro, não havendo qualquer possibilidade pericial de detecção da intervenção pelas distorções ópticas remanescentes.",
+      "C": "A regravação em vidros somente pode ser realizada por substituição completa, pois os processos abrasivos seriam impedidos pela alta dureza superficial e pela curvatura constante dos parabrisas modernos.",
+      "D": "A prática mais comum não é substituir o vidro, mas lixar a área da gravação original, polir e regravar por gravadores elétricos ou ataque químico com gabaritos; mesmo polido, persistem diferenças sutis de curvatura e reflexão."
+    }
+  },
+  {
+    "id": 604,
+    "alternativas": {
+      "A": "A substituição é evitada porque, além do alto custo e da troca trabalhosa, cria vestígio objetivo de anacronismo — descompasso entre a data do vidro e a do veículo —, indicativo de intervenção posterior.",
+      "B": "A substituição é evitada porque o vidro novo não possui qualquer codificação de data, o que tornaria evidente a intervenção em qualquer fiscalização administrativa de rotina.",
+      "C": "A substituição é a prática preferencial pelos criminosos, justamente porque elimina o anacronismo cronológico e faz o veículo passar a apresentar coerência temporal absoluta entre todos os seus componentes e vidros.",
+      "D": "A substituição é evitada apenas em razão de impedimentos legais previstos na Resolução Contran nº 968/2022, que veda a troca de vidros marcados após o registro do veículo no RENAVAM."
+    }
+  },
+  {
+    "id": 671,
+    "alternativas": {
+      "A": "Cumprimento de exigência da Resolução Contran nº 968/2022, que teria criado, de forma inédita, o sistema de marcação industrial de vidros automotivos.",
+      "B": "Fins industriais e de rastreabilidade do componente, embora tenham adquirido relevância pericial para verificação de coerência temporal.",
+      "C": "Identificação ostensiva do proprietário do veículo, em complemento ao VIN gravado no chassi e nas etiquetas.",
+      "D": "Substituição da regravação obrigatória do VIS, dispensando-a sempre que o vidro for do tipo laminado."
+    }
+  },
+  {
+    "id": 672,
+    "alternativas": {
+      "A": "O dígito '5' significa obrigatoriamente 2015, e os pontos posteriores ao número indicam o turno de fabricação do vidro.",
+      "B": "Existe padrão único e universal entre todos os fabricantes, de modo que a interpretação da data independe de tabelas específicas de cada montadora ou vidraçaria.",
+      "C": "O dígito '5' pode indicar 1995, 2005 ou 2015 (algarismo final do ano, cíclico) e os pontos antes do número indicam mês do primeiro semestre.",
+      "D": "Pontos posicionados antes do número indicam o segundo semestre (julho a dezembro), e pontos depois do número, o primeiro semestre."
+    }
+  },
+  {
+    "id": 673,
+    "alternativas": {
+      "A": "Não há indício relevante, pois vidros automotivos podem ser produzidos com qualquer defasagem em relação ao veículo, sem padrão temporal definido.",
+      "B": "O código do vidro deve ser interpretado isoladamente; portanto, basta concluir pela substituição, sem qualquer necessidade de exame conjunto com o VIN e as etiquetas de identificação.",
+      "C": "A defasagem de quatro anos só é relevante se acompanhada de adulteração do VIN gravado no próprio para-brisa.",
+      "D": "Como o vidro costuma ser produzido pouco antes do veículo (raramente acima de um ano), código posterior ao ano do veículo é forte indicativo de substituição do para-brisa."
+    }
+  }
+]

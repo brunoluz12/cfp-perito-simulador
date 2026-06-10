@@ -7838,10 +7838,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame pericial em um veículo automotor de procedência suspeita, o perito criminal federal observa que as marcações permanentes gravadas nas extremidades dos vidros automotivos trazem informações como fabricante, homologações (DOT/E code), tipo do vidro (laminado ou temperado), classificação de transparência (AS1) e códigos de data. Acerca da utilidade pericial dessas marcações e do princípio temporal aplicável, assinale a alternativa correta.",
     "alternativas": {
-      "A": "As marcações em vidros possuem padrão único universal definido pela ABNT NBR 6066:2022, o que permite ao perito interpretar diretamente o ano e mês de fabricação sem necessidade de tabelas específicas por fabricante.",
+      "A": "As marcações em vidros possuem padrão único universal definido pela ABNT NBR 6066:2022, o que permite ao perito interpretar diretamente o ano e o mês de fabricação sem necessidade de tabelas específicas por fabricante.",
       "B": "As marcações nos vidros foram concebidas exclusivamente para fins periciais e investigativos, não possuindo função industrial ou de rastreabilidade no processo produtivo das vidraçarias automotivas.",
-      "C": "Os vidros automotivos costumam ser produzidos pouco tempo antes da fabricação do veículo, geralmente com diferença de meses, raramente ultrapassando um ano; quando o código indica data posterior à fabricação do veículo, surge forte indicativo de substituição.",
-      "D": "A análise dos códigos de ano dos vidros, por sua natureza autônoma, deve ser feita de forma isolada, sem necessidade de integração com o exame do VIN, das etiquetas de identificação ou de outros vestígios físicos do veículo."
+      "C": "Os vidros automotivos costumam ser produzidos pouco antes do veículo, com diferença de meses e raramente acima de um ano; código com data posterior à do veículo é forte indicativo de substituição.",
+      "D": "A análise dos códigos de ano dos vidros, por sua natureza autônoma, deve ser feita de forma isolada, sem qualquer integração com o exame do VIN, das etiquetas de identificação, dos lacres ou de outros vestígios físicos presentes no veículo."
     },
     "resposta_correta": "C",
     "justificativa": "O PDF afirma expressamente: 'o vidro automotivo costuma ser produzido pouco tempo antes da fabricação do veículo, geralmente com diferença de meses, raramente ultrapassando um ano. Por isso, quando o código do vidro indica uma data posterior ao ano de fabricação do veículo, ou uma defasagem excessiva sem justificativa plausível, surge um forte indicativo de substituição do vidro.' O texto também rejeita expressamente a existência de 'um padrão único universal para a codificação do ano nos vidros'.",
@@ -7858,7 +7858,7 @@ const questoesDB = [
       "A": "I, III e V, apenas.",
       "B": "I, II e III, apenas.",
       "C": "II, IV e V, apenas.",
-      "D": "I, II, III, IV e V."
+      "D": "I, II, III, IV e V — todos corretos."
     },
     "resposta_correta": "B",
     "justificativa": "Os itens I, II e III decorrem diretamente do PDF: 'o número 5, por exemplo, pode representar 1995, 2005 ou 2015'; 'pontos antes do número se referem ao primeiro semestre (janeiro a junho), pontos depois do número referem-se ao segundo semestre'; 'marcadores indicam, em regra, o mês de fabricação, a campanha (...) e/ou o turno de fabricação'. O item IV está incorreto: 'Não existe um padrão único universal para a codificação do ano nos vidros. Cada fabricante possui autonomia para definir seu sistema'. O item V está incorreto: a obrigatoriedade existe 'desde a Resolução nº 659/1985, aperfeiçoada pela Resolução nº 691/1988'.",
@@ -7873,9 +7873,9 @@ const questoesDB = [
     "enunciado": "Em determinado exame de identificação veicular, o perito constata que a numeração do VIS nos vidros do veículo apresenta o código correto, porém observa, sob iluminação oblíqua e em ângulos rasantes, distorções ópticas locais em uma área específica do parabrisa, com ondulações nos reflexos de linhas retas distantes. Considerando o conteúdo do Capítulo 8.1 (Regravação em vidros), assinale a alternativa que melhor descreve a prática usual de adulteração e os vestígios esperados.",
     "alternativas": {
       "A": "A prática mais comum de adulteração em vidros é a substituição completa do componente, pois é a forma mais econômica e que não deixa vestígio cronológico relevante para a identificação pericial.",
-      "B": "O lixamento localizado seguido de polimento elimina por completo as alterações de planicidade e microtopografia do vidro, não havendo possibilidade pericial de detecção da intervenção pelas distorções ópticas.",
+      "B": "O lixamento localizado seguido de polimento elimina por completo as alterações de planicidade e de microtopografia do vidro, não havendo qualquer possibilidade pericial de detecção da intervenção pelas distorções ópticas remanescentes.",
       "C": "A regravação em vidros somente pode ser realizada por substituição completa, pois os processos abrasivos seriam impedidos pela alta dureza superficial e pela curvatura constante dos parabrisas modernos.",
-      "D": "A prática mais comum não é a substituição do vidro, mas o lixamento localizado da área de gravação original seguido de polimento e posterior regravação por gravadores elétricos (abrasivos/diamantados) ou por ataque químico com ácidos utilizando gabaritos; mesmo após o polimento, persistem diferenças sutis de curvatura, textura e índice de reflexão."
+      "D": "A prática mais comum não é substituir o vidro, mas lixar a área da gravação original, polir e regravar por gravadores elétricos ou ataque químico com gabaritos; mesmo polido, persistem diferenças sutis de curvatura e reflexão."
     },
     "resposta_correta": "D",
     "justificativa": "O PDF descreve: 'a prática mais comum nas adulterações não é a substituição do vidro, mas sim o lixamento localizado da área onde se encontrava a gravação original, seguido de polimento para mascarar a intervenção (...) e posterior regravação do código adulterado — geralmente por gravadores elétricos (abrasivos/diamantados) ou por ataque químico com ácidos utilizando gabaritos'. E ainda: 'Mesmo após polimento, a região trabalhada tende a apresentar diferenças sutis de curvatura, textura e índice de reflexão'.",
@@ -7889,9 +7889,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A substituição integral do vidro automotivo é apontada pelo material como uma alternativa teoricamente direta para eliminar a gravação original, mas raramente empregada pelos adulteradores. Assinale a alternativa que apresenta corretamente a razão técnica que torna essa substituição pouco vantajosa do ponto de vista do criminoso e o respectivo vestígio gerado.",
     "alternativas": {
-      "A": "A substituição é evitada porque, além do alto custo e da logística de troca, cria vestígio objetivo de anacronismo, com descompasso entre a data de fabricação do vidro e a do veículo, indicativo técnico relevante de intervenção posterior.",
+      "A": "A substituição é evitada porque, além do alto custo e da troca trabalhosa, cria vestígio objetivo de anacronismo — descompasso entre a data do vidro e a do veículo —, indicativo de intervenção posterior.",
       "B": "A substituição é evitada porque o vidro novo não possui qualquer codificação de data, o que tornaria evidente a intervenção em qualquer fiscalização administrativa de rotina.",
-      "C": "A substituição é a prática preferencial pelos criminosos, justamente porque elimina o anacronismo cronológico e o veículo passa a apresentar coerência temporal absoluta entre todos os seus componentes.",
+      "C": "A substituição é a prática preferencial pelos criminosos, justamente porque elimina o anacronismo cronológico e faz o veículo passar a apresentar coerência temporal absoluta entre todos os seus componentes e vidros.",
       "D": "A substituição é evitada apenas em razão de impedimentos legais previstos na Resolução Contran nº 968/2022, que veda a troca de vidros marcados após o registro do veículo no RENAVAM."
     },
     "resposta_correta": "A",
@@ -9046,10 +9046,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em inspeção pericial, o perito observa que um dos vidros laterais de um veículo apresenta, gravado em uma das extremidades, o seguinte conjunto: marca do fabricante, código 'DOT', classificação 'AS1' e um dígito numérico acompanhado de pontos. Conforme o PVAT - Módulo I, essas marcações foram concebidas originalmente para qual finalidade principal?",
     "alternativas": {
-      "A": "Cumprimento de exigência da Resolução Contran nº 968/2022, que criou o sistema de marcação industrial de vidros.",
+      "A": "Cumprimento de exigência da Resolução Contran nº 968/2022, que teria criado, de forma inédita, o sistema de marcação industrial de vidros automotivos.",
       "B": "Fins industriais e de rastreabilidade do componente, embora tenham adquirido relevância pericial para verificação de coerência temporal.",
-      "C": "Identificação ostensiva do proprietário do veículo, em complemento ao VIN gravado no chassi.",
-      "D": "Substituição da regravação obrigatória do VIS, dispensando-a quando o vidro for laminado."
+      "C": "Identificação ostensiva do proprietário do veículo, em complemento ao VIN gravado no chassi e nas etiquetas.",
+      "D": "Substituição da regravação obrigatória do VIS, dispensando-a sempre que o vidro for do tipo laminado."
     },
     "resposta_correta": "B",
     "justificativa": "Conforme a página 35, as marcações reúnem fabricante, homologações (DOT), tipo de vidro, classificação de transparência e código de data, e foram 'concebidas para fins industriais e de rastreabilidade, mas adquiriram grande relevância pericial' pela coerência temporal com o veículo.",
@@ -9063,9 +9063,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame de identificação veicular, o perito localiza, em um vidro lateral, o dígito '5' acompanhado de dois pontos posicionados antes do número. Sabendo que o veículo em questão foi fabricado em 2015, e considerando o sistema mais difundido de codificação descrito no PVAT - Módulo I, é correto afirmar que:",
     "alternativas": {
-      "A": "O dígito '5' obrigatoriamente significa 2015 e os pontos posteriores indicam o turno de fabricação do vidro.",
-      "B": "Existe padrão único universal entre fabricantes, de modo que a interpretação independe de tabelas específicas do fabricante.",
-      "C": "O dígito '5' pode representar 1995, 2005 ou 2015 (algarismo final do ano, repetido ciclicamente) e os pontos antes do número indicam mês do primeiro semestre.",
+      "A": "O dígito '5' significa obrigatoriamente 2015, e os pontos posteriores ao número indicam o turno de fabricação do vidro.",
+      "B": "Existe padrão único e universal entre todos os fabricantes, de modo que a interpretação da data independe de tabelas específicas de cada montadora ou vidraçaria.",
+      "C": "O dígito '5' pode indicar 1995, 2005 ou 2015 (algarismo final do ano, cíclico) e os pontos antes do número indicam mês do primeiro semestre.",
       "D": "Pontos posicionados antes do número indicam o segundo semestre (julho a dezembro), e pontos depois do número, o primeiro semestre."
     },
     "resposta_correta": "C",
@@ -9081,9 +9081,9 @@ const questoesDB = [
     "enunciado": "Em uma perícia, todos os vidros do veículo apresentam código de ano compatível com 2018, exceto o para-brisa, cujo código indica claramente 2022, sendo o veículo de fabricação 2018. O proprietário não apresentou justificativa documentada. Com base nos princípios práticos e periciais expostos no PVAT - Módulo I, qual a conclusão técnica mais adequada?",
     "alternativas": {
       "A": "Não há indício relevante, pois vidros automotivos podem ser produzidos com qualquer defasagem em relação ao veículo, sem padrão temporal definido.",
-      "B": "O código do vidro deve ser interpretado isoladamente; portanto, basta concluir a substituição sem necessidade de exame conjunto com VIN e etiquetas.",
+      "B": "O código do vidro deve ser interpretado isoladamente; portanto, basta concluir pela substituição, sem qualquer necessidade de exame conjunto com o VIN e as etiquetas de identificação.",
       "C": "A defasagem de quatro anos só é relevante se acompanhada de adulteração do VIN gravado no próprio para-brisa.",
-      "D": "Como o vidro automotivo costuma ser produzido pouco antes do veículo (raramente ultrapassando um ano), código posterior ao ano do veículo configura forte indicativo de substituição do para-brisa."
+      "D": "Como o vidro costuma ser produzido pouco antes do veículo (raramente acima de um ano), código posterior ao ano do veículo é forte indicativo de substituição do para-brisa."
     },
     "resposta_correta": "D",
     "justificativa": "Página 36: 'o vidro automotivo costuma ser produzido pouco tempo antes da fabricação do veículo, geralmente com diferença de meses, raramente ultrapassando um ano', e código posterior ao ano do veículo é 'forte indicativo de substituição do vidro'.",
