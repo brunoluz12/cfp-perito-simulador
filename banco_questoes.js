@@ -21492,5 +21492,107 @@ const questoesDB = [
     "justificativa": "A disciplina orienta o perito a ter sensibilidade para escolher os melhores ângulos, não economizar na quantidade de fotos, registrar o ambiente de todos os ângulos e fazer ao menos duas fotos por perspectiva, escolhendo depois a mais adequada, tudo para permitir concluir sobre materialidade, dinâmica e autoria (p. 73). Isso valida B. A reduz o registro a uma perspectiva e baseia a autoria em relatos, contrariando o uso dos vestígios. C dispensa o registro do ambiente e dos acessos, essenciais à contextualização. D transfere indevidamente a função pericial a não peritos.",
     "referencia": "PDF LOC, p. 73",
     "nivel": "dificil"
+  },
+  {
+    "id": 1391,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto dos arquivos digitais produzidos na atividade pericial, a função hash tem por finalidade:",
+    "alternativas": {
+      "A": "comprimir os arquivos de imagem para reduzir o espaço de armazenamento.",
+      "B": "gerar, para cada arquivo, uma sequência individualizadora de caracteres, garantindo a integridade dos dados e a cadeia de custódia.",
+      "C": "converter automaticamente os arquivos do formato RAW para JPEG, sem perda de qualidade.",
+      "D": "criptografar o conteúdo do arquivo, impedindo seu acesso por terceiros não autorizados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A função hash é um algoritmo de autenticação digital que gera, para cada arquivo, uma sequência individualizadora de caracteres, com o objetivo de garantir a integridade dos dados e a cadeia de custódia (p. 75). Isso valida B. A confunde hash com compressão. C confunde com conversão de formato. D confunde hash com criptografia — o hash não cifra o conteúdo, apenas o identifica de forma única.",
+    "referencia": "PDF LOC, p. 75",
+    "nivel": "facil"
+  },
+  {
+    "id": 1392,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "A função hash SHA-256, muito utilizada na Polícia Federal, caracteriza-se por:",
+    "alternativas": {
+      "A": "transformar qualquer arquivo digital em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits), de modo que a alteração de um único bit muda completamente o hash.",
+      "B": "gerar uma sequência de tamanho variável conforme o tamanho do arquivo de origem.",
+      "C": "produzir o mesmo resultado para arquivos diferentes, desde que tenham a mesma extensão.",
+      "D": "manter o hash inalterado ainda que se modifique parte do conteúdo do arquivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O SHA-256 transforma qualquer arquivo em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits); se um único bit muda, o hash muda completamente, o que prova a integridade (p. 75). Isso valida A. B contraria o tamanho fixo. C nega a unicidade (arquivos diferentes geram hashes diferentes). D contraria a sensibilidade do hash a qualquer alteração.",
+    "referencia": "PDF LOC, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 1393,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito precisa garantir a integridade de centenas de fotografias de um local, mas considera inviável inserir no laudo uma tabela com o hash de cada arquivo. A solução prática sugerida pela disciplina é:",
+    "alternativas": {
+      "A": "calcular o hash apenas da primeira e da última imagem da pasta, presumindo a integridade das demais.",
+      "B": "reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando-o no laudo.",
+      "C": "renomear todos os arquivos com numeração sequencial, dispensando o cálculo de hash.",
+      "D": "converter todas as imagens para JPEG, pois a compressão dispensa a verificação de integridade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa prática sugerida é reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando este no laudo (p. 75). Isso valida B. A presume indevidamente a integridade das demais imagens. C confunde renomeação com verificação de integridade. D contraria a necessidade de hash e ainda degrada a qualidade pela compressão JPEG.",
+    "referencia": "PDF LOC, p. 75",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1394,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o formato de imagem JPEG, é correto afirmar que:",
+    "alternativas": {
+      "A": "preserva os dados originais de luz e cor sem qualquer compressão ou perda, sendo o 'negativo digital'.",
+      "B": "é o mais comum para fotografia e gera arquivos leves por comprimir a imagem, mas, a cada novo salvamento, há nova compressão e a qualidade diminui cumulativamente.",
+      "C": "é um formato proprietário das fabricantes de câmeras, que exige software específico para abertura.",
+      "D": "gera arquivos pesados destinados a impressão e edição de alta qualidade, preservando todos os detalhes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O JPEG é o formato mais comum para fotografia, gera arquivos leves por comprimir a imagem (com pequena perda), mas a cada salvamento há nova compressão, diminuindo a qualidade cumulativamente (p. 75-76). Isso valida B. A descreve o RAW. C descreve característica do RAW proprietário. D descreve o TIFF.",
+    "referencia": "PDF LOC, p. 75-76",
+    "nivel": "medio"
+  },
+  {
+    "id": 1395,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Comparando os formatos TIFF e RAW de arquivos de imagem, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "ambos geram arquivos leves e são preferidos quando se busca economia de armazenamento.",
+      "B": "o TIFF é usado para impressão e edição de alta qualidade, preservando todos os detalhes (arquivos pesados); o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, em formatos muitas vezes proprietários.",
+      "C": "o RAW comprime a imagem com perda cumulativa de qualidade, enquanto o TIFF é o formato mais leve disponível.",
+      "D": "o TIFF preserva os dados originais sem qualquer processamento, ao passo que o RAW é destinado à publicação rápida na internet."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O TIFF é usado por profissionais para impressão e edição de alta qualidade, preservando todos os detalhes, com arquivos pesados; o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, sendo muitas vezes proprietário (p. 76). Isso valida B. A está errada porque ambos geram arquivos pesados. C atribui ao RAW a compressão com perda do JPEG. D inverte as características de TIFF e RAW.",
+    "referencia": "PDF LOC, p. 76",
+    "nivel": "medio"
+  },
+  {
+    "id": 1396,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encerrado um exame fotográfico, o perito avalia o que fazer com os arquivos de imagem produzidos. À luz das orientações sobre o dossiê, a conduta correta é:",
+    "alternativas": {
+      "A": "descartar os arquivos após a entrega do laudo, mantendo apenas as imagens efetivamente inseridas no documento.",
+      "B": "criar, para cada exame, um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda diante de contestações.",
+      "C": "encaminhar os arquivos originais ao juízo e apagar todas as cópias da unidade pericial.",
+      "D": "manter apenas o arquivo .txt com os hashes, descartando as imagens para economizar espaço."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os arquivos do registro fotográfico não devem ser descartados; é desejável que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda em caso de contestação (p. 76). Isso valida B. A e D propõem descarte indevido das imagens. C apaga as cópias da unidade, contrariando a manutenção do dossiê.",
+    "referencia": "PDF LOC, p. 76",
+    "nivel": "dificil"
   }
 ];
