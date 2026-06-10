@@ -23379,5 +23379,175 @@ const questoesDB = [
     "justificativa": "Recomendam-se dois debriefings: o diário, que analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI; e o geral, após a desmobilização, abrangendo questões operacionais e institucionais mais amplas (recomendando-se, neste, condução por profissional qualificado e imparcial) (p. 185-186). Isso valida A. B inverte os momentos. C nega a busca de imparcialidade no debriefing geral. D nega o propósito da revisão (aprender e aprimorar para operações futuras).",
     "referencia": "PDF LOC, p. 185-186",
     "nivel": "medio"
+  },
+  {
+    "id": 1502,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "O laudo pericial de local de crime pode ser definido como:",
+    "alternativas": {
+      "A": "a peça escrita que representa o relatório dos exames, na qual os peritos expõem o roteiro dos trabalhos, descrevem as técnicas e métodos, consignam o que observam, emitem a conclusão e, no caso dos exames de local, propõem a dinâmica dos fatos com base nos vestígios.",
+      "B": "o auto de prisão em flagrante lavrado pela autoridade policial no local do crime.",
+      "C": "o relatório de inteligência que reúne os depoimentos das testemunhas presentes.",
+      "D": "a portaria de instauração do inquérito policial assinada pelo delegado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O laudo pericial é a peça escrita que representa o relatório dos exames, na qual os peritos expõem o roteiro dos trabalhos, descrevem as técnicas e métodos científicos, consignam o que observam, emitem a conclusão e, nos exames de local, propõem a dinâmica dos fatos com base nos vestígios (p. 187). Isso valida A. B, C e D referem-se a documentos de natureza diversa (auto de prisão, relatório de inteligência, portaria de inquérito).",
+    "referencia": "PDF LOC, p. 187",
+    "nivel": "facil"
+  },
+  {
+    "id": 1503,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao prazo para elaboração do laudo pericial, o art. 160, parágrafo único, do CPP estabelece que:",
+    "alternativas": {
+      "A": "o prazo é de 30 dias, improrrogável.",
+      "B": "o prazo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos.",
+      "C": "o prazo é de 48 horas, contadas da requisição da autoridade.",
+      "D": "não há prazo legal para a elaboração do laudo pericial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 160, parágrafo único, do CPP estabelece que o prazo para elaboração do laudo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos (p. 188). Isso valida B. A, C e D apresentam prazos ou regimes incorretos.",
+    "referencia": "PDF LOC, p. 188",
+    "nivel": "medio"
+  },
+  {
+    "id": 1504,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 24 da Portaria DITEC/PF nº 1.192/2022, os tópicos do laudo dividem-se em obrigatórios e facultativos. Assinale a alternativa correta:",
+    "alternativas": {
+      "A": "São obrigatórios o preâmbulo, o objeto, o objetivo, o exame e a conclusão; são facultativos o resumo, o sumário (laudo com mais de 30 páginas ou quando a complexidade exigir) e o histórico.",
+      "B": "São obrigatórios o resumo, o sumário e o histórico; são facultativos o preâmbulo, o objeto e a conclusão.",
+      "C": "Todos os tópicos são obrigatórios, inclusive o resumo e o sumário, em qualquer laudo.",
+      "D": "O exame e a conclusão são facultativos, ficando a critério do perito incluí-los."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo art. 24 da Portaria DITEC/PF nº 1.192/2022, são obrigatórios: preâmbulo, objeto, objetivo, exame e conclusão; e facultativos: resumo, sumário (laudo com mais de 30 páginas ou quando a complexidade exigir) e histórico (p. 189). Isso valida A. B inverte obrigatórios e facultativos. C torna tudo obrigatório. D classifica como facultativos o exame e a conclusão, que são obrigatórios.",
+    "referencia": "PDF LOC, p. 189",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1505,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a realização do exame de corpo de delito, o art. 161 do CPP dispõe que:",
+    "alternativas": {
+      "A": "o exame só pode ser realizado em dias úteis e no horário comercial.",
+      "B": "o exame pode ser feito em qualquer dia e a qualquer hora, inclusive aos sábados, domingos, feriados e à noite.",
+      "C": "o exame depende de autorização judicial específica para ser realizado fora do horário forense.",
+      "D": "o exame só pode ser realizado após o decurso de 24 horas da ocorrência do fato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 161 do CPP autoriza que o exame de corpo de delito seja feito em qualquer dia e a qualquer hora (inclusive sábados, domingos, feriados e à noite), o que é importante porque, quanto mais próxima da ocorrência, maior a chance de sucesso da diligência (p. 188-189). Isso valida B. A, C e D criam restrições de dia, horário ou autorização inexistentes.",
+    "referencia": "PDF LOC, p. 188-189",
+    "nivel": "medio"
+  },
+  {
+    "id": 1506,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Polícia Federal, ao se aplicar o art. 178 do CPP (requisição do exame ao 'diretor da repartição'), entende-se por diretor da repartição:",
+    "alternativas": {
+      "A": "o juiz competente para o processo.",
+      "B": "o chefe do SETEC, nas Superintendências Regionais, ou o chefe do NUTEC, nas Delegacias.",
+      "C": "o Diretor-Geral da Polícia Federal, em qualquer caso.",
+      "D": "o promotor de justiça responsável pela denúncia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No âmbito da PF, o 'diretor da repartição' a que se refere o art. 178 do CPP é o chefe do SETEC, nas Superintendências Regionais, ou o chefe do NUTEC, nas Delegacias (os exames do Instituto Nacional de Criminalística são requisitados ao seu diretor) (p. 187). Isso valida B. A e D referem-se a autoridades judiciária e ministerial, não ao diretor da repartição pericial. C generaliza indevidamente para o Diretor-Geral.",
+    "referencia": "PDF LOC, p. 187",
+    "nivel": "medio"
+  },
+  {
+    "id": 1507,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na seção de dinâmica do evento do laudo, o CPP destaca a importância do estabelecimento da dinâmica em situações específicas. A respeito dos arts. 171 e 173 do CPP, é correto afirmar que:",
+    "alternativas": {
+      "A": "o art. 171 trata dos crimes cometidos com destruição/rompimento de obstáculo ou por escalada (indicar instrumentos, meios e época), e o art. 173 trata do incêndio (verificar causa, local de início, perigo, extensão e valor do dano).",
+      "B": "o art. 171 trata do incêndio, e o art. 173, do rompimento de obstáculo.",
+      "C": "ambos os artigos tratam exclusivamente da coleta de impressões digitais no local.",
+      "D": "os arts. 171 e 173 dispensam o perito de indicar os instrumentos e os meios empregados no crime."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 171 do CPP trata dos crimes cometidos com destruição/rompimento de obstáculo ou por escalada, exigindo que os peritos indiquem com que instrumentos, por que meios e em que época presumem ter sido o fato praticado; o art. 173 trata do incêndio (causa, local de início, perigo, extensão e valor do dano) (p. 194). Isso valida A. B inverte os artigos. C e D negam o conteúdo dos dispositivos.",
+    "referencia": "PDF LOC, p. 194",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1508,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o preâmbulo do laudo pericial, é correto afirmar que:",
+    "alternativas": {
+      "A": "a numeração dos laudos é sequencial, comum a todas as áreas e unidades de criminalística, e reinicia no primeiro dia de cada ano.",
+      "B": "cada perito adota uma numeração própria e independente, que nunca se reinicia.",
+      "C": "a numeração é definida pelo juízo competente no momento da juntada do laudo aos autos.",
+      "D": "o preâmbulo é tópico facultativo, podendo ser suprimido em laudos simples."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A numeração dos laudos é sequencial, comum a todas as áreas de perícia e a todas as unidades de criminalística, e se reinicia no primeiro dia de cada ano (p. 189-190). Isso valida A. B nega o caráter comum e sequencial e o reinício anual. C atribui a numeração ao juízo. D classifica o preâmbulo como facultativo, quando é tópico obrigatório.",
+    "referencia": "PDF LOC, p. 189-190",
+    "nivel": "medio"
+  },
+  {
+    "id": 1509,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à conclusão do laudo pericial, é correto afirmar que:",
+    "alternativas": {
+      "A": "deve ser sempre categórica, sendo vedado ao perito apresentar conclusão parcial ou registrar a impossibilidade de concluir.",
+      "B": "deve ser clara e objetiva, admitindo-se conclusão parcial (excluindo hipóteses) e, quando faltarem elementos, o registro fundamentado da impossibilidade de conclusão categórica.",
+      "C": "pode limitar-se a remeter o leitor às fotografias, sem texto conclusivo.",
+      "D": "deve repetir integralmente a seção de exames, sem síntese."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A conclusão deve ser clara e objetiva; quando os peritos não reúnem elementos suficientes, deve constar a impossibilidade de conclusão categórica e seus motivos, sendo também admissível a conclusão parcial, que exclui hipóteses e delimita o trabalho da investigação (p. 194-195). Isso valida B. A veda indevidamente a conclusão parcial/inconclusiva. C e D esvaziam a função sintética e objetiva da conclusão.",
+    "referencia": "PDF LOC, p. 194-195",
+    "nivel": "facil"
+  },
+  {
+    "id": 1510,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na seção de histórico do laudo, quanto ao isolamento e à preservação do local, o art. 11 da Instrução Técnica DITEC/DPF nº 20/2013 estabelece que:",
+    "alternativas": {
+      "A": "o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, devendo as condições de isolamento e preservação ser documentadas por fotografias e/ou filmagens.",
+      "B": "as alterações do estado das coisas não precisam constar do laudo, por serem irrelevantes à dinâmica.",
+      "C": "o registro do isolamento deve ser feito exclusivamente por escrito, sendo vedado o uso de fotografias ou filmagens.",
+      "D": "a documentação do isolamento é responsabilidade do delegado, não cabendo ao perito relatá-la no laudo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 11 da IT DITEC/DPF nº 20/2013 dispõe que o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, e que as condições de isolamento e preservação devem ser documentadas por fotografias e/ou filmagens (p. 190). Isso valida A. B dispensa indevidamente o relato das alterações. C veda fotografias/filmagens, contrariando a norma. D transfere ao delegado uma responsabilidade que é do perito no laudo.",
+    "referencia": "PDF LOC, p. 190",
+    "nivel": "medio"
+  },
+  {
+    "id": 1511,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na seção de exames do laudo, ao caracterizar o instrumento ou meio empregado na prática do crime (arma de fogo, chave falsa, veneno), o perito observa o disposto no art. 175 do CPP, segundo o qual:",
+    "alternativas": {
+      "A": "os instrumentos empregados para a prática da infração serão sujeitos a exame, a fim de se lhes verificar a natureza e a eficiência.",
+      "B": "os instrumentos do crime devem ser destruídos imediatamente após a apreensão, dispensado o exame.",
+      "C": "o exame dos instrumentos é facultativo e independe de qualquer verificação de eficiência.",
+      "D": "apenas armas de fogo podem ser submetidas a exame, excluídos os demais instrumentos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 175 do CPP dispõe que serão sujeitos a exame os instrumentos empregados para a prática da infração, a fim de se lhes verificar a natureza e a eficiência; na seção de vestígios/exames, atenção especial é dada à caracterização do instrumento ou meio empregado (p. 192-193). Isso valida A. B propõe destruição e dispensa do exame, contrariando a norma. C trata o exame como facultativo, sem verificação de eficiência. D restringe indevidamente o exame às armas de fogo.",
+    "referencia": "PDF LOC, p. 192-193",
+    "nivel": "dificil"
   }
 ];
