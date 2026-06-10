@@ -10441,7 +10441,7 @@
     "enunciado": "Em um acidente de tráfego, uma motorista freia bruscamente seu veículo ao avistar um obstáculo. Embora o veículo desacelere rapidamente, seu filho de 7 anos, que estava no banco traseiro sem cinto de segurança, é projetado em direção ao para-brisa. Considerando os Fundamentos de Mecânica Clássica apresentados pelo PVAT-Módulo II, qual das Leis de Newton melhor explica esse mecanismo de projétil que transforma ocupantes sem cinto em projéteis letais em uma colisão?",
     "alternativas": {
       "A": "Primeira Lei (Inércia), pois 'o corpo do ocupante continua em movimento após a parada brusca do veículo', evidenciando a importância do cinto de segurança.",
-      "B": "Segunda Lei (F = m.a), pois a força resultante sobre o ocupante é diretamente proporcional à sua massa e à desaceleração imposta pelo veículo.",
+      "B": "Segunda Lei (F = m.a), pois a força resultante sobre o ocupante é diretamente proporcional à sua massa e à desaceleração imposta pelo veículo na frenagem brusca.",
       "C": "Terceira Lei (Ação e Reação), pois o ocupante exerce sobre o veículo uma força igual e oposta àquela que o veículo exerce sobre ele.",
       "D": "Lei da Conservação da Quantidade de Movimento, exclusivamente, uma vez que durante a frenagem não há atuação de forças externas relevantes."
     },
@@ -10457,9 +10457,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Durante uma análise pericial de acidente, o perito observa duas viaturas com avarias correspondentes e simétricas nas áreas de impacto frontal. Conforme os fundamentos apresentados no PVAT-Módulo II, a análise das avarias por correspondência é uma aplicação direta de qual lei e por qual razão?",
     "alternativas": {
-      "A": "Da Primeira Lei de Newton, pois cada veículo tende a manter sua trajetória independente após o choque.",
+      "A": "Da Primeira Lei de Newton, pois cada veículo tende a manter inalterada a sua trajetória de forma independente após o choque, conservando o estado de movimento anterior ao impacto.",
       "B": "Da Segunda Lei de Newton, pois a aceleração observada em cada veículo é proporcional à sua respectiva massa.",
-      "C": "Da Terceira Lei de Newton, pois 'em uma colisão, ambos os veículos exercem forças iguais e opostas um sobre o outro – o que se manifesta nas avarias correspondentes e simétricas observadas nas áreas de impacto'.",
+      "C": "Da Terceira Lei de Newton, pois em uma colisão ambos os veículos exercem forças iguais e opostas um sobre o outro, o que se manifesta nas avarias correspondentes nas áreas de impacto.",
       "D": "Do Princípio da Conservação de Energia, pois toda a energia cinética é integralmente transformada em deformação simétrica."
     },
     "resposta_correta": "C",
@@ -10494,7 +10494,7 @@
       "A": "I, II e III.",
       "B": "II, IV e V.",
       "C": "I, II, III e IV.",
-      "D": "I, III, IV e V."
+      "D": "Itens I, III, IV e V."
     },
     "resposta_correta": "C",
     "justificativa": "Os itens I a IV reproduzem exatamente a Tabela 7 da Seção 5.1.2 (p. 30). O item V está errado pois a fórmula da Tabela 7 é 'V² = V0² − 2·a·S' (com sinal negativo, característico de desaceleração na frenagem), não a forma apresentada no item.",
@@ -10525,10 +10525,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Considerando as fórmulas apresentadas na Seção 5.2 do PVAT-Módulo II para a velocidade de arrastamento (Va), assinale a alternativa que apresenta CORRETAMENTE as expressões em m/s e em km/h, após a substituição de g = 9,81 m/s² e a conversão de unidades:",
     "alternativas": {
-      "A": "Va = 15,946.√(d.μ) [m/s]   e   Va = 4,4294.√(d.μ) [km/h].",
-      "B": "Va = 4,4294.√(d.μ) [m/s]   e   Va = 15,946.√(d.μ) [km/h].",
-      "C": "Va = 9,81.√(d.μ) [m/s]    e   Va = 35,316.√(d.μ) [km/h].",
-      "D": "Va = √(2.d.μ) [m/s]        e   Va = 3,6.√(d.μ) [km/h]."
+      "A": "Va = 15,946·√(d·μ) [m/s] e Va = 4,4294·√(d·μ) [km/h].",
+      "B": "Va = 4,4294·√(d·μ) [m/s] e Va = 15,946·√(d·μ) [km/h].",
+      "C": "Va = 9,81·√(d·μ) [m/s] e Va = 35,316·√(d·μ) [km/h].",
+      "D": "Va = √(2·d·μ) [m/s] e Va = 3,6·√(d·μ) [km/h], com d em metros."
     },
     "resposta_correta": "B",
     "justificativa": "A Seção 5.2 apresenta, após substituição de g = 9,81 m/s² e conversão para km/h, exatamente: 'Va = 4,4294.√(d.μ) [m/s]' e 'Va = 15,946.√(d.μ) [km/h]'.",
@@ -10576,9 +10576,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em uma perícia, o perito recebe pressão para utilizar uma tabela informal que correlaciona 'profundidade do amassamento em portas e para-choques' diretamente com 'velocidade em km/h', estimando a Velocidade de Danos (Vd) do veículo. À luz da Seção 5.3.1 do PVAT-Módulo II, qual é a conduta correta e respectiva justificativa?",
     "alternativas": {
-      "A": "Aceitar a tabela como prática consolidada, uma vez que o método CRASH foi oficialmente adotado no Brasil para esse fim.",
+      "A": "Aceitar a tabela como prática consolidada na perícia de acidentes, uma vez que o método CRASH foi oficialmente adotado e validado no Brasil exatamente para esse fim de correlação dano-velocidade.",
       "B": "Aplicar a tabela informal apenas se a perícia for em rodovia federal, conforme determinação do método CRASH3.",
-      "C": "Recusar o uso da tabela informal, pois 'tabelas que trazem valores referenciando \"X Km/h\" para um amassamento em um para-choque ou porta não devem ser utilizadas pelo perito, a não ser que exista alguma referência científica que corrobore tais valores'.",
+      "C": "Recusar o uso da tabela informal, pois tabelas que associam 'X km/h' a um amassamento em para-choque ou porta não devem ser usadas, salvo se houver referência científica que corrobore tais valores.",
       "D": "Substituir o cálculo de Vd pelo de Vr, já que tabelas de danos são sempre proibidas no Brasil."
     },
     "resposta_correta": "C",
@@ -10627,8 +10627,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Acerca das limitações das fórmulas de tempo de frenagem (Tfre) apresentadas na Seção 5.4 do PVAT-Módulo II, especialmente quanto ao chamado 'brake lag', assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "As fórmulas de Tfre apresentadas já incluem o tempo de percepção-reação e o brake lag, sendo desnecessário qualquer ajuste posterior.",
-      "B": "As fórmulas fornecem o tempo de frenagem puro, 'a partir do momento em que o sistema de freios está plenamente acionado', e não inclui o tempo de percepção-reação nem o brake lag, que adiciona aproximadamente 0,1 a 0,3 s antes da desaceleração plena se estabelecer.",
+      "A": "As fórmulas de Tfre apresentadas no material já incluem, em seu próprio resultado, tanto o tempo de percepção-reação quanto o brake lag, sendo desnecessário qualquer ajuste ou acréscimo posterior pelo perito.",
+      "B": "As fórmulas dão o tempo de frenagem puro, a partir do pleno acionamento dos freios, sem incluir o tempo de percepção-reação nem o brake lag (que adiciona cerca de 0,1 a 0,3 s antes da desaceleração plena).",
       "C": "O brake lag, na prática, adiciona aproximadamente de 1 a 3 segundos antes da desaceleração plena se estabelecer.",
       "D": "As fórmulas só são válidas se o brake lag for considerado igual a zero, pois qualquer valor positivo invalida a aplicação do MUV."
     },
@@ -10644,9 +10644,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em uma rodovia, um veículo perde a aderência ao realizar uma curva e prossegue aproximadamente em linha reta por inércia. Segundo a Seção 5.5 do PVAT-Módulo II, qual das alternativas abaixo descreve CORRETAMENTE o fenômeno físico envolvido nesse limite e a fórmula da velocidade-limite em curvas, em km/h?",
     "alternativas": {
-      "A": "O atrito longitudinal supera o atrito lateral, e a fórmula correta é Vlim = √(R / μ) [km/h].",
+      "A": "O atrito longitudinal supera o atrito lateral disponível no pneu, e a fórmula correta para a velocidade-limite na curva é Vlim = √(R / μ) [km/h], independentemente da massa.",
       "B": "A força centrífuga supera a aceleração da gravidade; a fórmula é Vlim = 4,4294 . √(R . μ) [km/h].",
-      "C": "A força centrípeta necessária para manter o veículo na trajetória circular supera a força de atrito lateral máxima disponível; a fórmula é Vlim = 11,27 . √(R . μ) [km/h].",
+      "C": "A força centrípeta para manter o veículo na trajetória circular supera o atrito lateral máximo disponível; a fórmula é Vlim = 11,27·√(R·μ) [km/h].",
       "D": "A componente do peso supera a componente normal, e a fórmula é Vlim = R . μ . g [km/h]."
     },
     "resposta_correta": "C",
@@ -10661,9 +10661,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Para determinar, no local do acidente, o raio de curvatura R de uma curva onde houve perda de controle, o perito utiliza o método da corda e da flecha descrito na Seção 5.5 do PVAT-Módulo II. Assinale a alternativa que apresenta CORRETAMENTE a fórmula e o significado dos parâmetros, conforme o texto:",
     "alternativas": {
-      "A": "R = 2.d / (d² + D²), em que D é o comprimento total da corda e d é a altura do veículo.",
+      "A": "R = 2·d / (d² + D²), em que D é o comprimento total da corda medida na borda externa da curva e d corresponde à altura livre do veículo periciado no momento da medição em campo.",
       "B": "R = (d + D)² / 2, em que d é o diâmetro da curva e D é a flecha máxima.",
-      "C": "R = (d² + D²) / (2.d), em que D é a metade do comprimento da corda medida entre dois pontos na borda interna da curva, e d é a flecha (distância perpendicular da corda ao arco, medida na metade da corda).",
+      "C": "R = (d² + D²)/(2·d), em que D é a metade da corda medida entre dois pontos da borda interna da curva e d é a flecha (distância perpendicular da corda ao arco, na metade da corda).",
       "D": "R = D² / (2.μ.d), em que μ é o coeficiente de atrito lateral da via."
     },
     "resposta_correta": "C",
@@ -10696,7 +10696,7 @@
     "enunciado": "Acerca da influência da superelevação na velocidade limite em curvas, conforme a Seção 5.5.1 do PVAT-Módulo II, julgue os itens a seguir.\n\nI – A fórmula corrigida é Vlim = √(g.R.(μ + tg θ)), em que 'tg θ' é a tangente do ângulo de superelevação.\nII – A taxa de superelevação é adimensional, tipicamente entre 0,06 e 0,12 para rodovias.\nIII – O máximo permitido no Brasil pelo Manual de Projetos Geométricos de Rodovias Rurais é de 12%.\nIV – Para perícia, a superelevação deve ser medida no local com instrumento adequado (nível de bolha ou inclinômetro).\nV – A superelevação aumenta a força centrífuga atuante e, portanto, reduz a velocidade limite em curvas.\n\nEstão corretos APENAS os itens:",
     "alternativas": {
       "A": "I, II, III e IV.",
-      "B": "II, IV e V.",
+      "B": "Apenas II, IV e V.",
       "C": "I, III e V.",
       "D": "I, II e V."
     },
@@ -10712,10 +10712,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Na investigação de uma colisão frontal entre dois veículos, o perito decide empregar o Princípio da Conservação da Quantidade de Movimento (PCQM) descrito na Seção 5.6 do PVAT-Módulo II. Assinale a alternativa que apresenta CORRETAMENTE a equação geral de conservação para a colisão entre os veículos 1 e 2 e a equação para uma colisão perfeitamente inelástica.",
     "alternativas": {
-      "A": "m1.V1pré − m2.V2pré = m1.V1pós − m2.V2pós ; (m1−m2).Vpós em colisão inelástica.",
-      "B": "m1.V1pré + m2.V2pré = m1.V1pós + m2.V2pós ; (m1+m2).Vpós em colisão perfeitamente inelástica.",
-      "C": "½.m1.V1² = ½.m2.V2² ; (m1+m2).Vpós² em colisão perfeitamente inelástica.",
-      "D": "m1.V1pré.μ = m2.V2pós.μ ; Vpós = (V1pré + V2pré)/2 em colisão perfeitamente inelástica."
+      "A": "m1·V1pré − m2·V2pré = m1·V1pós − m2·V2pós ; (m1−m2)·Vpós em colisão inelástica.",
+      "B": "m1·V1pré + m2·V2pré = m1·V1pós + m2·V2pós ; (m1+m2)·Vpós em colisão perfeitamente inelástica.",
+      "C": "½·m1·V1² = ½·m2·V2² ; (m1+m2)·Vpós² em colisão perfeitamente inelástica.",
+      "D": "m1·V1pré·μ = m2·V2pós·μ ; logo Vpós = (V1pré + V2pré)/2 em qualquer colisão perfeitamente inelástica."
     },
     "resposta_correta": "B",
     "justificativa": "A Seção 5.6 apresenta literalmente: 'm1.V1pré + m2.V2pré = m1.V1pós + m2.V2pós' e 'm1.V1pré + m2.V2pré = (m1+ m2).Vpós [colisão perfeitamente inelástica]'.",
@@ -10729,10 +10729,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Quanto às limitações e à aplicabilidade do PCQM, conforme a Seção 5.6 do PVAT-Módulo II, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "O PCQM é aplicável a quaisquer colisões, independentemente da força de atrito, das massas dos veículos ou do coeficiente de restituição.",
+      "A": "O PCQM é aplicável a quaisquer colisões, de forma irrestrita, independentemente da força de atrito atuante, das massas dos veículos envolvidos ou do valor do coeficiente de restituição do impacto.",
       "B": "O PCQM dispensa qualquer análise das direções de movimento dos veículos, bastando que se conheça a velocidade média do conjunto após a colisão.",
       "C": "O PCQM só pode ser aplicado se as velocidades pós-impacto forem desconhecidas e se a colisão for perfeitamente elástica.",
-      "D": "É aplicável quando a força de atrito pode ser desprezada durante o breve intervalo do impacto, requer conhecimento preciso das massas e direções, e só é aplicável quando o coeficiente de restituição pode ser estimado."
+      "D": "É aplicável quando a força de atrito pode ser desprezada no breve intervalo do impacto, exige conhecimento preciso das massas e direções e que o coeficiente de restituição possa ser estimado."
     },
     "resposta_correta": "D",
     "justificativa": "A Seção 5.6 (p. 36) afirma que o PCQM 'é aplicável quando a força de atrito pode ser desprezada durante o breve intervalo do impacto' e 'tem limitações importantes: requer conhecimento preciso das massas dos veículos e das direções de movimento, e só é aplicável quando o coeficiente de restituição pode ser estimado'.",
@@ -10747,7 +10747,7 @@
     "enunciado": "Sobre os fatores que influenciam o coeficiente de atrito (μ) descritos na Seção 5.7 do PVAT-Módulo II, considere as afirmações:\n\nI – O coeficiente de atrito depende do tipo e do estado de conservação do pavimento.\nII – O coeficiente de atrito independe da temperatura do pavimento, pois é considerado constante para asfalto.\nIII – O coeficiente de atrito tende a diminuir com o aumento da velocidade do veículo.\nIV – Estado e tipo de pneus (novo, desgastado, liso, com sulcos, mud terrain) influenciam o coeficiente.\nV – A condição da superfície (seco, molhado, com lama, com óleo, nevado, gelado) é fator irrelevante para o coeficiente de atrito.\n\nEstão corretos APENAS os itens:",
     "alternativas": {
       "A": "I, II e IV.",
-      "B": "III, IV e V.",
+      "B": "Itens III, IV e V.",
       "C": "II, III e V.",
       "D": "I, III e IV."
     },
@@ -10763,8 +10763,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a Seção 5.7 do PVAT-Módulo II, há um esclarecimento terminológico relevante entre 'coeficiente de atrito' e 'coeficiente de arrasto (drag factor)'. Sobre essa distinção, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "O coeficiente de atrito em sentido estrito é obtido em condições controladas, geralmente em ensaios laboratoriais, ao passo que o coeficiente de arrasto (drag factor), 'grandeza adimensional que expressa a desaceleração do veículo em frações da aceleração gravitacional', é mais preciso para a prática pericial e é diretamente mensurável por ensaios de frenagem no local.",
-      "B": "O coeficiente de arrasto somente é utilizado para veículos aéreos, não tendo qualquer aplicação na perícia de acidentes de tráfego em rodovias.",
+      "A": "O coeficiente de atrito (sentido estrito) vem de ensaios controlados/laboratoriais; o coeficiente de arrasto (drag factor) — adimensional, expressa a desaceleração em frações de g — é mais adequado à perícia e mensurável por frenagem no local.",
+      "B": "O coeficiente de arrasto (drag factor) somente é utilizado para o cálculo do desempenho de veículos aéreos e embarcações, não tendo absolutamente nenhuma aplicação na perícia de acidentes de tráfego em rodovias, vias urbanas e demais locais de acidente de trânsito periciados.",
       "C": "No Brasil, a literatura pericial proíbe expressamente o uso do termo 'coeficiente de atrito', exigindo sempre o emprego de 'coeficiente de arrasto' em laudos oficiais.",
       "D": "Coeficiente de atrito e coeficiente de arrasto são fisicamente idênticos e jamais podem ser confundidos ou empregados como sinônimos, mesmo na prática pericial brasileira."
     },
@@ -10783,7 +10783,7 @@
       "A": "Tp = 0,75 s, equivalente a 3/4 s.",
       "B": "Tp = 1,5 s, equivalente a 3/2 s.",
       "C": "Tp = 1,125 s, equivalente a 9/8 s.",
-      "D": "Tp = 2,5 s, equivalente a 5/2 s."
+      "D": "Tp = 2,5 s, equivalente a 5/2 de segundo."
     },
     "resposta_correta": "C",
     "justificativa": "A Tabela 9 da Seção 5.8 indica, para condutor normal com certo nível de atenção, intervalo de 1,00 a 1,50 s, observando que é 'mais utilizado em perícias (referência: 1,125 s = 9/8 s)'. A NOTA da p. 39 reforça: 'No Brasil, o valor de Tp = 1,125 s (9/8 s) é amplamente adotado em laudos periciais'.",
@@ -10799,7 +10799,7 @@
     "alternativas": {
       "A": "A distância percorrida pelo veículo durante o Tp (sem frenagem) é dada por Dpr = (V . Tp) . 3,6, com V em km/h.",
       "B": "A distância percorrida pelo veículo durante o Tp (sem frenagem) é dada por Dpr = (V . Tp) / 3,6 [metros, com V em km/h].",
-      "C": "Tp é um valor fixo de 1,125 s para qualquer situação, independentemente de fatores como fadiga, distração ou alcoolemia.",
+      "C": "Tp é um valor fixo de 1,125 s para qualquer situação, independentemente de fatores como fadiga, distração, sono ou alcoolemia do condutor.",
       "D": "O termo 'Tempo Psicotécnico' jamais é empregado como sinônimo de Tempo de Percepção-Reação na literatura pericial."
     },
     "resposta_correta": "B",
@@ -10815,7 +10815,7 @@
     "enunciado": "A respeito dos fatores que influenciam o tempo de percepção-reação (Tp), conforme listados no item 5.8 do PVAT-Módulo II, julgue os itens a seguir:\n\nI – Riscos antecipados (esperados) têm Tp menor que riscos inesperados.\nII – Fadiga, sono, álcool e drogas aumentam o Tp.\nIII – A complexidade da situação, com múltiplos estímulos simultâneos, tende a retardar a resposta do condutor.\nIV – Condutores mais velhos tendem a ter Tp ligeiramente maior.\nV – A distração (uso de celular, conversação intensa, operação de sistemas do veículo) reduz o Tp por aumentar o estado de alerta.\n\nEstão corretos APENAS os itens:",
     "alternativas": {
       "A": "II, IV e V.",
-      "B": "II, III, IV e V.",
+      "B": "Itens II, III, IV e V.",
       "C": "I, III e V.",
       "D": "I, II, III e IV."
     },

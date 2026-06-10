@@ -1,0 +1,146 @@
+[
+  {
+    "id": 753,
+    "alternativas": {
+      "A": "Primeira Lei (Inércia), pois 'o corpo do ocupante continua em movimento após a parada brusca do veículo', evidenciando a importância do cinto de segurança.",
+      "B": "Segunda Lei (F = m.a), pois a força resultante sobre o ocupante é diretamente proporcional à sua massa e à desaceleração imposta pelo veículo na frenagem brusca.",
+      "C": "Terceira Lei (Ação e Reação), pois o ocupante exerce sobre o veículo uma força igual e oposta àquela que o veículo exerce sobre ele.",
+      "D": "Lei da Conservação da Quantidade de Movimento, exclusivamente, uma vez que durante a frenagem não há atuação de forças externas relevantes."
+    }
+  },
+  {
+    "id": 754,
+    "alternativas": {
+      "A": "Da Primeira Lei de Newton, pois cada veículo tende a manter inalterada a sua trajetória de forma independente após o choque, conservando o estado de movimento anterior ao impacto.",
+      "B": "Da Segunda Lei de Newton, pois a aceleração observada em cada veículo é proporcional à sua respectiva massa.",
+      "C": "Da Terceira Lei de Newton, pois em uma colisão ambos os veículos exercem forças iguais e opostas um sobre o outro, o que se manifesta nas avarias correspondentes nas áreas de impacto.",
+      "D": "Do Princípio da Conservação de Energia, pois toda a energia cinética é integralmente transformada em deformação simétrica."
+    }
+  },
+  {
+    "id": 756,
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, IV e V.",
+      "C": "I, II, III e IV.",
+      "D": "Itens I, III, IV e V."
+    }
+  },
+  {
+    "id": 758,
+    "alternativas": {
+      "A": "Va = 15,946·√(d·μ) [m/s] e Va = 4,4294·√(d·μ) [km/h].",
+      "B": "Va = 4,4294·√(d·μ) [m/s] e Va = 15,946·√(d·μ) [km/h].",
+      "C": "Va = 9,81·√(d·μ) [m/s] e Va = 35,316·√(d·μ) [km/h].",
+      "D": "Va = √(2·d·μ) [m/s] e Va = 3,6·√(d·μ) [km/h], com d em metros."
+    }
+  },
+  {
+    "id": 761,
+    "alternativas": {
+      "A": "Aceitar a tabela como prática consolidada na perícia de acidentes, uma vez que o método CRASH foi oficialmente adotado e validado no Brasil exatamente para esse fim de correlação dano-velocidade.",
+      "B": "Aplicar a tabela informal apenas se a perícia for em rodovia federal, conforme determinação do método CRASH3.",
+      "C": "Recusar o uso da tabela informal, pois tabelas que associam 'X km/h' a um amassamento em para-choque ou porta não devem ser usadas, salvo se houver referência científica que corrobore tais valores.",
+      "D": "Substituir o cálculo de Vd pelo de Vr, já que tabelas de danos são sempre proibidas no Brasil."
+    }
+  },
+  {
+    "id": 764,
+    "alternativas": {
+      "A": "As fórmulas de Tfre apresentadas no material já incluem, em seu próprio resultado, tanto o tempo de percepção-reação quanto o brake lag, sendo desnecessário qualquer ajuste ou acréscimo posterior pelo perito.",
+      "B": "As fórmulas dão o tempo de frenagem puro, a partir do pleno acionamento dos freios, sem incluir o tempo de percepção-reação nem o brake lag (que adiciona cerca de 0,1 a 0,3 s antes da desaceleração plena).",
+      "C": "O brake lag, na prática, adiciona aproximadamente de 1 a 3 segundos antes da desaceleração plena se estabelecer.",
+      "D": "As fórmulas só são válidas se o brake lag for considerado igual a zero, pois qualquer valor positivo invalida a aplicação do MUV."
+    }
+  },
+  {
+    "id": 765,
+    "alternativas": {
+      "A": "O atrito longitudinal supera o atrito lateral disponível no pneu, e a fórmula correta para a velocidade-limite na curva é Vlim = √(R / μ) [km/h], independentemente da massa.",
+      "B": "A força centrífuga supera a aceleração da gravidade; a fórmula é Vlim = 4,4294 . √(R . μ) [km/h].",
+      "C": "A força centrípeta para manter o veículo na trajetória circular supera o atrito lateral máximo disponível; a fórmula é Vlim = 11,27·√(R·μ) [km/h].",
+      "D": "A componente do peso supera a componente normal, e a fórmula é Vlim = R . μ . g [km/h]."
+    }
+  },
+  {
+    "id": 766,
+    "alternativas": {
+      "A": "R = 2·d / (d² + D²), em que D é o comprimento total da corda medida na borda externa da curva e d corresponde à altura livre do veículo periciado no momento da medição em campo.",
+      "B": "R = (d + D)² / 2, em que d é o diâmetro da curva e D é a flecha máxima.",
+      "C": "R = (d² + D²)/(2·d), em que D é a metade da corda medida entre dois pontos da borda interna da curva e d é a flecha (distância perpendicular da corda ao arco, na metade da corda).",
+      "D": "R = D² / (2.μ.d), em que μ é o coeficiente de atrito lateral da via."
+    }
+  },
+  {
+    "id": 768,
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "Apenas II, IV e V.",
+      "C": "I, III e V.",
+      "D": "I, II e V."
+    }
+  },
+  {
+    "id": 769,
+    "alternativas": {
+      "A": "m1·V1pré − m2·V2pré = m1·V1pós − m2·V2pós ; (m1−m2)·Vpós em colisão inelástica.",
+      "B": "m1·V1pré + m2·V2pré = m1·V1pós + m2·V2pós ; (m1+m2)·Vpós em colisão perfeitamente inelástica.",
+      "C": "½·m1·V1² = ½·m2·V2² ; (m1+m2)·Vpós² em colisão perfeitamente inelástica.",
+      "D": "m1·V1pré·μ = m2·V2pós·μ ; logo Vpós = (V1pré + V2pré)/2 em qualquer colisão perfeitamente inelástica."
+    }
+  },
+  {
+    "id": 770,
+    "alternativas": {
+      "A": "O PCQM é aplicável a quaisquer colisões, de forma irrestrita, independentemente da força de atrito atuante, das massas dos veículos envolvidos ou do valor do coeficiente de restituição do impacto.",
+      "B": "O PCQM dispensa qualquer análise das direções de movimento dos veículos, bastando que se conheça a velocidade média do conjunto após a colisão.",
+      "C": "O PCQM só pode ser aplicado se as velocidades pós-impacto forem desconhecidas e se a colisão for perfeitamente elástica.",
+      "D": "É aplicável quando a força de atrito pode ser desprezada no breve intervalo do impacto, exige conhecimento preciso das massas e direções e que o coeficiente de restituição possa ser estimado."
+    }
+  },
+  {
+    "id": 771,
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "Itens III, IV e V.",
+      "C": "II, III e V.",
+      "D": "I, III e IV."
+    }
+  },
+  {
+    "id": 772,
+    "alternativas": {
+      "A": "O coeficiente de atrito (sentido estrito) vem de ensaios controlados/laboratoriais; o coeficiente de arrasto (drag factor) — adimensional, expressa a desaceleração em frações de g — é mais adequado à perícia e mensurável por frenagem no local.",
+      "B": "O coeficiente de arrasto (drag factor) somente é utilizado para o cálculo do desempenho de veículos aéreos e embarcações, não tendo absolutamente nenhuma aplicação na perícia de acidentes de tráfego em rodovias, vias urbanas e demais locais de acidente de trânsito periciados.",
+      "C": "No Brasil, a literatura pericial proíbe expressamente o uso do termo 'coeficiente de atrito', exigindo sempre o emprego de 'coeficiente de arrasto' em laudos oficiais.",
+      "D": "Coeficiente de atrito e coeficiente de arrasto são fisicamente idênticos e jamais podem ser confundidos ou empregados como sinônimos, mesmo na prática pericial brasileira."
+    }
+  },
+  {
+    "id": 773,
+    "alternativas": {
+      "A": "Tp = 0,75 s, equivalente a 3/4 s.",
+      "B": "Tp = 1,5 s, equivalente a 3/2 s.",
+      "C": "Tp = 1,125 s, equivalente a 9/8 s.",
+      "D": "Tp = 2,5 s, equivalente a 5/2 de segundo."
+    }
+  },
+  {
+    "id": 774,
+    "alternativas": {
+      "A": "A distância percorrida pelo veículo durante o Tp (sem frenagem) é dada por Dpr = (V . Tp) . 3,6, com V em km/h.",
+      "B": "A distância percorrida pelo veículo durante o Tp (sem frenagem) é dada por Dpr = (V . Tp) / 3,6 [metros, com V em km/h].",
+      "C": "Tp é um valor fixo de 1,125 s para qualquer situação, independentemente de fatores como fadiga, distração, sono ou alcoolemia do condutor.",
+      "D": "O termo 'Tempo Psicotécnico' jamais é empregado como sinônimo de Tempo de Percepção-Reação na literatura pericial."
+    }
+  },
+  {
+    "id": 775,
+    "alternativas": {
+      "A": "II, IV e V.",
+      "B": "Itens II, III, IV e V.",
+      "C": "I, III e V.",
+      "D": "I, II, III e IV."
+    }
+  }
+]
