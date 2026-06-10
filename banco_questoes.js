@@ -20166,5 +20166,175 @@ const questoesDB = [
     "justificativa": "Conforme o Anexo III (p. 89-90), a descrição corresponde ao item Fragmento de núcleo de projétil encamisado: núcleo de liga de chumbo, deformação em cogumelo por impacto, fragmento ósseo aderido e encaixe perfeito no encamisamento descrito em item separado, o que valida B. A é incorreta porque, embora se encaixe, núcleo e encamisamento estão separados, não constituindo projétil íntegro. C descreve estojo, item diverso (p. 89). D descreve a parte externa (encamisamento), enquanto o material em questão é o núcleo (parte interna de chumbo). E está errada porque o texto indica separação entre núcleo e encamisamento (descrito à parte), e não projétil semiencamisado com parte exposta aderida.",
     "referencia": "PDF, p. 89-90",
     "nivel": "dificil"
+  },
+  {
+    "id": 1313,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a definição constante da IN DG/PF nº 297/2024, que regulamenta a cadeia de custódia no âmbito da Polícia Federal, considera-se local de crime aquele:",
+    "alternativas": {
+      "A": "que abranja exclusivamente o ponto exato em que a vítima ou o objeto material do delito foi encontrado pela equipe policial.",
+      "B": "que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal.",
+      "C": "previamente delimitado por mandado judicial, restrito à área em que houve apreensão de bens relacionados ao fato.",
+      "D": "em que se planejou o delito, por concentrar as informações mais relevantes sobre a autoria e o modus operandi."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A IN DG/PF nº 297/2024 define local de crime como o 'local que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal' (p. 13), o que valida B. A está errada porque o conceito não se restringe a um ponto exato, abrangendo execução e resultado, no todo ou em parte. C confunde local de crime com a área de cumprimento de mandado. D corresponde a apenas um dos tipos de local de interesse (o local onde o crime foi planejado), e não à definição geral.",
+    "referencia": "PDF LOC, p. 13",
+    "nivel": "facil"
+  },
+  {
+    "id": 1314,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "O conceito doutrinário de local de crime formulado por Eraldo Rabelo é mais amplo que a noção intuitiva de 'ponto onde o fato ocorreu'. De acordo com essa concepção, o local de crime corresponde:",
+    "alternativas": {
+      "A": "ao espaço físico delimitado pelas paredes ou divisas do imóvel em que se deu a consumação do delito, excluídas as áreas externas.",
+      "B": "apenas ao trajeto percorrido pelo autor entre o planejamento e a execução do crime, desde que confirmado por prova testemunhal.",
+      "C": "à porção do espaço, num raio que tem por origem o ponto em que se constata o fato, abrangendo todos os lugares em que tenham sido praticados atos materiais, preliminares ou posteriores, diretamente relacionados ao delito.",
+      "D": "à soma dos locais que sofreram as consequências patrimoniais do crime, ainda que neles não se verifique qualquer ato de execução."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Rabelo define local de crime como 'a porção do espaço compreendida num raio que, tendo por origem o ponto no qual é constatado o fato, se estenda de modo a abranger todos os lugares em que, aparente, necessária ou presumivelmente, hajam sido praticados (...) os atos materiais, preliminares ou posteriores à consumação do delito e com este diretamente relacionados' (p. 13), o que confirma C. A restringe indevidamente o conceito ao interior de uma edificação. B reduz o conceito a um trajeto e condiciona à prova testemunhal. D confunde o conceito amplo com o tipo específico de local que sofreu as consequências do crime.",
+    "referencia": "PDF LOC, p. 13",
+    "nivel": "medio"
+  },
+  {
+    "id": 1315,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito dos dois tipos de informação presentes em um local de crime — as subjetivas e as oriundas dos vestígios materiais —, é correto afirmar que:",
+    "alternativas": {
+      "A": "as informações subjetivas, por derivarem do relato direto de quem presenciou o fato, possuem caráter objetivo e dispensam confirmação por elementos materiais.",
+      "B": "as informações oriundas de vestígios são de ordem interpretativa e pessoal, ao passo que os depoimentos constituem a fonte técnico-científica da investigação.",
+      "C": "ambas têm idêntico grau de confiabilidade, razão pela qual a perícia pode substituir o exame dos vestígios pela mera colheita de depoimentos.",
+      "D": "as informações de vestígios constituem fonte objetiva, baseada em princípios técnico-científicos, enquanto as subjetivas, de cunho interpretativo e por vezes incompletas, exigem cautela e confirmação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto distingue as informações subjetivas — 'de ordem interpretativa e de cunho pessoal, podendo até não refletir a verdade' e frequentemente incompletas, exigindo cautela e confirmação — das informações de vestígios, que constituem 'fonte objetiva', com análise 'mais precisa e segura, baseada em princípios técnico-científicos' (p. 14), o que valida D. A inverte a natureza das subjetivas (que não são objetivas nem dispensam confirmação). B troca os conceitos. C equipara indevidamente os depoimentos aos vestígios e admite que a perícia substitua o exame por depoimentos, contrariando a maior segurança da fonte objetiva.",
+    "referencia": "PDF LOC, p. 13-14",
+    "nivel": "medio"
+  },
+  {
+    "id": 1316,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "O chamado Princípio da Transferência, atribuído a Edmond Locard e aplicado aos locais de crime, estabelece que:",
+    "alternativas": {
+      "A": "todo vestígio coletado deve ser transferido imediatamente ao laboratório, sob pena de perda de seu valor probatório.",
+      "B": "existe sempre uma troca de vestígios entre os agentes delituosos e o ambiente, de modo que o criminoso deixa algo seu no local ou leva algo do local consigo.",
+      "C": "a responsabilidade pela guarda do vestígio se transfere automaticamente do perito para a autoridade judiciária no momento da apreensão.",
+      "D": "os vestígios materiais transferem-se exclusivamente da vítima para o autor, nunca em sentido inverso."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O Princípio da Transferência (Locard) afirma que 'em locais de crime existe sempre a troca de vestígios entre os agentes delituosos e o ambiente', pois 'o criminoso deixa algo seu no local ou leva algo do local consigo' (p. 14), o que valida B. A trata de logística de coleta, não do princípio. C descreve cadeia de custódia, instituto diverso. D restringe indevidamente a transferência a um único sentido, contrariando a ideia de troca recíproca.",
+    "referencia": "PDF LOC, p. 14",
+    "nivel": "facil"
+  },
+  {
+    "id": 1317,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe de investigação chega à cena de um homicídio antes dos peritos criminais. Um dos policiais pretende recolher de imediato a arma encontrada ao lado da vítima e levá-la à delegacia. À luz do art. 6º do Código de Processo Penal, a conduta correta da autoridade policial é:",
+    "alternativas": {
+      "A": "apreender desde logo todos os objetos relacionados ao fato, pois a preservação do local é incumbência exclusiva da perícia, e não da autoridade policial.",
+      "B": "dirigir-se ao local e providenciar para que não se alterem o estado e a conservação das coisas até a chegada dos peritos, apreendendo os objetos relacionados ao fato apenas após liberados pelos peritos criminais.",
+      "C": "isolar o local e aguardar autorização judicial específica para que qualquer objeto possa ser apreendido, ainda que os peritos já o tenham liberado.",
+      "D": "recolher os objetos de maior valor probatório e deixar os demais no local, registrando fotograficamente a cena antes da chegada dos peritos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 6º do CPP determina que a autoridade policial deve dirigir-se ao local, providenciando para que não se alterem o estado e a conservação das coisas até a chegada dos peritos (inciso I), e apreender os objetos que tiverem relação com o fato após liberados pelos peritos criminais (inciso II) (p. 14-15), o que valida B. A contraria o inciso II ao autorizar apreensão imediata. C cria exigência inexistente de autorização judicial após a liberação pericial. D admite recolhimento seletivo antes da liberação, alterando o estado das coisas em desacordo com o art. 6º e o art. 169 do CPP.",
+    "referencia": "PDF LOC, p. 14-15",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1318,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a exigência do exame de corpo de delito prevista no art. 158 do CPP em relação aos locais de crime, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Quando a infração deixar vestígios, o exame de corpo de delito é indispensável, não podendo a confissão do acusado supri-lo.",
+      "B": "A confissão espontânea do acusado supre o exame de corpo de delito, dispensando o processamento pericial do local.",
+      "C": "O exame de corpo de delito somente é exigível nos crimes contra a vida, sendo facultativo nas demais infrações que deixem vestígios.",
+      "D": "O exame de corpo de delito pode ser substituído integralmente por prova testemunhal sempre que houver duas ou mais testemunhas presenciais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 158 do CPP estabelece que, 'quando a infração deixar vestígios, será indispensável o exame de corpo de delito, direto ou indireto, não podendo supri-lo a confissão do acusado' (p. 14-15), o que valida A. B contraria expressamente o dispositivo, que veda a substituição pela confissão. C restringe indevidamente a exigência aos crimes contra a vida. D admite substituição por prova testemunhal, não autorizada pela norma quando a infração deixa vestígios.",
+    "referencia": "PDF LOC, p. 14-15",
+    "nivel": "medio"
+  },
+  {
+    "id": 1319,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "A disciplina classifica os locais de interesse da polícia em quatro tipos. O local em que o crime não ocorre necessariamente, mas no qual seus efeitos são percebidos e registrados, sendo especialmente importante para a constatação da materialidade, é denominado:",
+    "alternativas": {
+      "A": "local onde o crime foi planejado.",
+      "B": "local relacionado ao fato.",
+      "C": "local que sofreu as consequências do crime.",
+      "D": "local onde aconteceu o fato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O 'local que sofreu as consequências do crime' é aquele em que o crime não ocorre necessariamente, mas cujos efeitos são percebidos e registrados, sendo importante na constatação da materialidade — como no desvio de verbas de uma obra, em que a perícia constata se a estrada foi executada conforme o projeto (p. 15). Isso valida C. A (local planejado) fornece dados sobre autores e modus operandi. B (local relacionado) reúne informações adicionais. D (local onde aconteceu o fato) é o local típico, com grande quantidade de vestígios.",
+    "referencia": "PDF LOC, p. 15",
+    "nivel": "medio"
+  },
+  {
+    "id": 1320,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação sobre desvio de recursos em obra pública, a equipe identifica: (i) o trecho da estrada cuja execução não corresponde ao projeto; (ii) o escritório da construtora onde teriam sido arquitetadas as fraudes; e (iii) o hotel em que ocorreram os acertos de propina, com registros de hospedagem e imagens de CFTV. Considerando a classificação dos locais de interesse, é correto afirmar que:",
+    "alternativas": {
+      "A": "todos os três correspondem a locais onde aconteceu o fato, por concentrarem vestígios materiais diretos da execução do crime.",
+      "B": "o trecho da estrada é local que sofreu as consequências do crime; o escritório, local onde o crime foi planejado; e o hotel, local relacionado ao fato, sendo recomendável o mandado de busca para os dois últimos.",
+      "C": "o escritório e o hotel são locais que sofreram as consequências do crime, ao passo que o trecho da estrada é o local onde o crime foi planejado.",
+      "D": "apenas o hotel possui relevância pericial, pois os demais dependem exclusivamente de perícia contábil e não integram os locais de interesse da polícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O trecho da estrada enquadra-se como local que sofreu as consequências do crime (materialidade do desvio); o escritório da construtora, como local onde o crime foi planejado (autores e modus operandi); e o hotel, como local relacionado ao fato (informações adicionais, como CFTV e registros de hospedagem). A obtenção de vestígios nos locais planejado e relacionado depende, muitas vezes, de mandado de busca e apreensão (p. 15-16), o que valida B. A iguala todos ao local típico. C troca as classificações. D nega indevidamente a relevância dos demais locais de interesse.",
+    "referencia": "PDF LOC, p. 15-16",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1321,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os propósitos da investigação em locais de crime está assegurar a cadeia de custódia. Sobre esse instituto, é correto afirmar que:",
+    "alternativas": {
+      "A": "consiste em sucessão de eventos seguros e confiáveis, iniciada na cena do crime, destinada a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça.",
+      "B": "tem início apenas no laboratório de criminalística, momento em que o vestígio passa a ter relevância jurídica.",
+      "C": "é responsabilidade exclusiva do perito criminal, não alcançando os demais policiais que manuseiam as evidências.",
+      "D": "destina-se unicamente a registrar o deslocamento físico dos vestígios, sem relação com a sua integridade ou idoneidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A cadeia de custódia é definida como 'conjunto de procedimentos que consiste em uma sucessão de eventos seguros e confiáveis, iniciados na cena do crime, destinados a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça' (p. 17), o que valida A. B contraria o texto, que situa o início na cena do crime, e não no laboratório. C está errada porque o cuidado deve ser adotado por todos os policiais que manuseiem evidências. D reduz indevidamente o instituto ao mero registro de deslocamento, ignorando a finalidade de integridade e idoneidade.",
+    "referencia": "PDF LOC, p. 17",
+    "nivel": "medio"
+  },
+  {
+    "id": 1322,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso real citado na disciplina, um jornalista foi morto a tiros de espingarda calibre 12 dentro de um veículo. Cápsulas calibre 12 foram coletadas no local por policiais, e uma espingarda apreendida na casa de suspeito foi encaminhada ao Serviço de Balística Forense, cujo confronto resultou positivo. Ainda assim, no julgamento, o cartucho foi excluído como prova e o réu posto em liberdade. A razão técnico-jurídica determinante para esse desfecho foi:",
+    "alternativas": {
+      "A": "a inexistência de exame de local de crime, o que impediu vincular o cartucho ao fato investigado, ainda que o confronto balístico tenha sido positivo.",
+      "B": "a constatação de erro no confronto balístico realizado pelo Serviço de Balística Forense, que invalidou a vinculação entre a arma e o cartucho.",
+      "C": "a ausência de mandado de busca e apreensão para a coleta da espingarda na residência do suspeito.",
+      "D": "a coleta das cápsulas por peritos criminais, e não pela autoridade policial, em violação ao art. 6º do CPP."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No caso relatado, o perito de balística, lotado em Brasília, apenas recebera o cartucho e não comparecera ao local, não podendo vinculá-lo ao fato; como não houve exame de local de crime, o cartucho foi excluído como prova (com tudo que dele derivava) e o réu posto em liberdade por falta de provas (p. 18). Isso valida A. B é falsa, pois o confronto foi positivo e não foi invalidado. C trata de questão diversa (legalidade da apreensão), não apontada como causa. D inverte o caso, em que a coleta foi feita por policiais, sendo justamente a falta do exame pericial de local o problema.",
+    "referencia": "PDF LOC, p. 18",
+    "nivel": "dificil"
   }
 ];
