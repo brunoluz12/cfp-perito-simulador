@@ -9760,8 +9760,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um aluno recém-ingresso na Academia Nacional de Polícia (ANP), ao folhear o material didático do PVAT - Módulo II, questiona o instrutor sobre por que a Polícia Federal mantém uma disciplina robusta de perícia em acidentes de tráfego, sendo que a competência ordinária para homicídios e lesões corporais culposas em trânsito é das polícias civis estaduais. Considerando a Apresentação do caderno didático, assinale a alternativa que melhor responde ao questionamento.",
     "alternativas": {
-      "A": "Embora a frequência de atendimentos da PF nessa área seja menor que a das polícias estaduais, os casos que chegam à PF frequentemente envolvem alta complexidade técnica, repercussão institucional relevante e exigência de rigor metodológico elevado.",
-      "B": "A Polícia Federal possui competência originária para todos os acidentes ocorridos em rodovias federais, o que justifica plenamente a manutenção da disciplina.",
+      "A": "Embora a PF atenda menos casos que as polícias estaduais nessa área, os que lhe chegam costumam ter alta complexidade técnica, repercussão institucional e exigência de rigor metodológico elevado.",
+      "B": "A Polícia Federal possui competência originária para todos e quaisquer acidentes ocorridos em rodovias federais do país, o que, por si só, justifica plenamente a manutenção da disciplina na formação.",
       "C": "A disciplina é mantida exclusivamente como tradição histórica do Instituto Nacional de Criminalística, sem aplicação prática significativa nos dias atuais.",
       "D": "A PF atua de forma supletiva às polícias estaduais sempre que estas não conseguem realizar a perícia em até 48 horas, daí a necessidade de formação continuada."
     },
@@ -9794,9 +9794,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante uma palestra inaugural para novos peritos, um instrutor afirma que, apesar de todos os avanços, é praticamente impossível eliminar os acidentes de tráfego. Com base na Apresentação do PVAT - Módulo II, qual fundamentação melhor sustenta essa afirmação?",
     "alternativas": {
-      "A": "É intrínseco ao próprio comportamento humano e à estrutura física das vias e veículos as ocorrências de acidentes, apesar dos esforços das autoridades, da Engenharia de Tráfego, das campanhas educativas e da legislação mais rigorosa.",
+      "A": "As ocorrências de acidentes são intrínsecas ao comportamento humano e à estrutura física de vias e veículos, apesar dos esforços das autoridades, da Engenharia de Tráfego e da legislação mais rigorosa.",
       "B": "Os acidentes são inevitáveis exclusivamente porque a fiscalização eletrônica ainda não cobre 100% das vias urbanas e rurais brasileiras.",
-      "C": "A inevitabilidade dos acidentes decorre principalmente da ausência de uma legislação penal específica para o trânsito, o que será corrigido em breve.",
+      "C": "A inevitabilidade dos acidentes decorre principalmente da ausência de uma legislação penal específica e mais rigorosa para o trânsito, lacuna que, conforme se prevê, será corrigida em breve pelo legislador nacional.",
       "D": "Acidentes são inevitáveis pois nenhum veículo automotor moderno possui sistemas eletrônicos de segurança ativa, restando apenas a atuação reativa do condutor."
     },
     "resposta_correta": "A",
@@ -9811,10 +9811,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a posição da perícia em acidentes de tráfego na Criminalística brasileira, conforme exposto na Apresentação da apostila, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "A perícia em acidentes de tráfego ocupa posição secundária na Criminalística brasileira, sendo área de formação opcional para peritos criminais federais.",
+      "A": "A perícia em acidentes de tráfego ocupa posição secundária e periférica na Criminalística brasileira, sendo considerada área de formação meramente opcional e facultativa para os peritos criminais federais.",
       "B": "A perícia em acidentes de tráfego foi recentemente incorporada como área criminalística, sem tradição consolidada nos Institutos de Criminalística.",
       "C": "A perícia em acidentes de tráfego é matéria estritamente teórica, sendo o trabalho de campo delegado integralmente aos peritos das polícias rodoviárias.",
-      "D": "A perícia em acidentes de tráfego ocupa posição singular na Criminalística brasileira, sendo expressamente reconhecida pelos autores a tradição construída pelas gerações anteriores de peritos da PF nessa área."
+      "D": "A perícia em acidentes de tráfego ocupa posição singular na Criminalística brasileira, sendo reconhecida pelos autores a tradição construída pelas gerações anteriores de peritos da PF."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme a Apresentação: 'A perícia em acidentes de tráfego ocupa posição singular na Criminalística brasileira'. Ao final, declara-se que 'Os autores agradecem às gerações anteriores de peritos que construíram a tradição criminalística da PF nesta área'.",
@@ -9828,8 +9828,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um seminário sobre segurança viária, um expositor cita dados sobre o problema social dos acidentes de tráfego no Brasil mencionados no caderno didático do PVAT - Módulo II. Considerando exclusivamente os números apresentados na seção 2.1, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "O Brasil possui frota estimada em mais de 119 milhões de veículos; anualmente mais de 30.000 pessoas morrem nas vias e o custo econômico supera R$ 50 bilhões por ano segundo o IPEA.",
-      "B": "A frota brasileira é estimada em mais de 50 milhões de veículos, e os acidentes geram custo anual inferior a R$ 10 bilhões segundo o IPEA.",
+      "A": "O Brasil tem frota estimada em mais de 119 milhões de veículos; morrem mais de 30.000 pessoas por ano nas vias e o custo supera R$ 50 bilhões/ano, segundo o IPEA.",
+      "B": "A frota brasileira é estimada em pouco mais de 50 milhões de veículos, e os acidentes de trânsito geram, ao todo, um custo anual inferior a R$ 10 bilhões, conforme estimativas do IPEA.",
       "C": "A frota brasileira ultrapassa 200 milhões de veículos e o número anual de mortes em vias terrestres é inferior a 10.000, segundo o DATASUS.",
       "D": "O Brasil possui frota estimada em 119 milhões de veículos e os acidentes representam custo anual de aproximadamente R$ 5 bilhões, segundo o Ministério da Saúde."
     },
@@ -9862,10 +9862,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Considere o seguinte caso hipotético: um agente da Polícia Federal, durante deslocamento operacional autorizado, sofre acidente de trânsito ao colidir lateralmente com um veículo particular em uma avenida de Brasília. Não há óbito, mas há lesões corporais leves no condutor particular. Com base nas situações descritas na seção 2.2 do caderno didático, a competência pericial federal:",
     "alternativas": {
-      "A": "Está restrita à análise mecânica do veículo, sendo a dinâmica do acidente sempre periciada pela polícia científica estadual.",
+      "A": "Está restrita à análise mecânica do veículo, sendo a dinâmica do acidente sempre periciada pela polícia científica estadual competente, ainda que haja servidor federal envolvido.",
       "B": "Está afastada, pois acidentes em vias urbanas são sempre de competência das polícias civis estaduais, independentemente dos envolvidos.",
       "C": "Depende exclusivamente do interesse da Justiça Estadual em delegar o caso à PF, não havendo previsão expressa no caderno didático.",
-      "D": "Está presente, pois trata-se de servidor público federal em serviço, hipótese expressamente prevista para atuação primordial da perícia federal em acidentes de tráfego."
+      "D": "Está presente, pois é servidor público federal em serviço — hipótese expressamente prevista para a atuação primordial da perícia federal em acidentes."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme a seção 2.2: 'A atuação pericial da Polícia Federal em acidentes de tráfego ocorre, primordialmente, nas seguintes situações: (a) quando servidores públicos federais estiverem envolvidos no acidente e estiverem em serviço'.",
@@ -9881,7 +9881,7 @@ const questoesDB = [
     "alternativas": {
       "A": "I, II e V.",
       "B": "I, II, III e IV.",
-      "C": "II, III, IV e V.",
+      "C": "Itens II, III, IV e V.",
       "D": "I, III e V."
     },
     "resposta_correta": "B",
@@ -9896,7 +9896,7 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o objetivo central da perícia em acidente de tráfego, conforme exposto na seção 2.3 (Da Perícia Criminal à Prova Judicial), julgue os itens: I - O objetivo central da perícia é determinar a culpa ou inocência dos envolvidos, função atribuída ao perito criminal federal. II - O objetivo central é reconstituir, com base em evidências materiais, a dinâmica da ocorrência: como aconteceu, quais forças estavam em jogo, quais velocidades eram desenvolvidas e o que determinou o resultado final. III - A partir da reconstituição técnica, o operador do direito poderá fazer os juízos jurídicos pertinentes. IV - O laudo pericial constitui meio de prova de elevada força no âmbito da Justiça, dada a sua origem técnica e científica. V - O perito deve, sempre que possível, antecipar-se ao juiz e indicar expressamente no laudo o responsável criminal pelo evento. Estão CORRETOS apenas os itens:",
     "alternativas": {
-      "A": "I, II e III.",
+      "A": "Itens I, II e III.",
       "B": "I, III e V.",
       "C": "II, III e IV.",
       "D": "II, IV e V."
@@ -9913,8 +9913,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da peculiaridade da prova pericial em acidentes de tráfego em comparação com outras perícias criminais, conforme descrito na seção 2.3, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "Em acidentes de tráfego, normalmente o autor é desconhecido, cabendo ao perito identificá-lo a partir dos vestígios físicos.",
-      "B": "Na maioria das vezes, as partes envolvidas são identificadas desde o início da investigação, concentrando-se o papel do perito em determinar quem deu causa ao evento com base exclusivamente em vestígios materiais.",
+      "A": "Em acidentes de tráfego, normalmente o autor do evento é desconhecido, cabendo ao perito identificá-lo a partir da análise minuciosa dos vestígios físicos deixados no local e nos veículos.",
+      "B": "Em regra, as partes envolvidas já são identificadas desde o início, concentrando-se o papel do perito em determinar quem deu causa ao evento com base nos vestígios materiais.",
       "C": "Na perícia de acidentes, a confissão dos envolvidos é elemento determinante para a conclusão pericial, dispensando a análise material em casos confessados.",
       "D": "A perícia em acidentes de tráfego depende essencialmente de depoimentos de testemunhas oculares, pois os vestígios físicos são considerados acessórios."
     },
@@ -9930,8 +9930,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A seção 2.4 (Fundamentos Metodológicos da Perícia) afirma que a metodologia pericial em acidentes de tráfego fundamenta-se em três pilares interligados e indissociáveis. Assinale a alternativa que apresenta corretamente esses três pilares:",
     "alternativas": {
-      "A": "A intuição do perito experiente, a oitiva de testemunhas e a análise psicológica dos envolvidos.",
-      "B": "A observação sistemática dos vestígios no local, a aplicação de princípios científicos da Física e da Matemática na interpretação desses vestígios e o conhecimento da legislação de trânsito.",
+      "A": "A intuição do perito experiente, a oitiva detalhada das testemunhas presenciais e a análise do perfil psicológico de cada um dos envolvidos no acidente de trânsito.",
+      "B": "A observação sistemática dos vestígios, a aplicação de princípios da Física e da Matemática na sua interpretação e o conhecimento da legislação de trânsito.",
       "C": "A reprodução simulada do acidente, a coleta de imagens de câmeras e o cruzamento de informações com seguradoras.",
       "D": "A análise documental dos antecedentes dos condutores, o exame mecânico dos veículos e a entrevista das vítimas."
     },
@@ -9967,7 +9967,7 @@ const questoesDB = [
       "A": "I, II, III e IV.",
       "B": "I, II e V.",
       "C": "II, III e V.",
-      "D": "Todos os itens."
+      "D": "Todos os itens estão corretos."
     },
     "resposta_correta": "A",
     "justificativa": "Conforme a seção 2.5: o perito deve ser capaz de 'realizar levantamento pericial completo em locais de ocorrências de tráfego; calcular velocidades com base em vestígios físicos; quantificar as incertezas nas suas estimativas utilizando ferramentas probabilísticas modernas; estabelecer causas determinantes de acidentes de forma tecnicamente fundamentada; e redigir laudos periciais claros, objetivos e juridicamente adequados'. O item V é incorreto, pois a função de fixar responsabilidade criminal é do juiz.",

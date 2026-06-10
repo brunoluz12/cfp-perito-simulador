@@ -1,0 +1,65 @@
+[
+  {
+    "id": 717,
+    "alternativas": {
+      "A": "O Brasil tem frota estimada em mais de 119 milhões de veículos; morrem mais de 30.000 pessoas por ano nas vias e o custo supera R$ 50 bilhões/ano, segundo o IPEA.",
+      "B": "A frota brasileira é estimada em pouco mais de 50 milhões de veículos, e os acidentes de trânsito geram, ao todo, um custo anual inferior a R$ 10 bilhões, conforme estimativas do IPEA.",
+      "C": "A frota brasileira ultrapassa 200 milhões de veículos e o número anual de mortes em vias terrestres é inferior a 10.000, segundo o DATASUS.",
+      "D": "O Brasil possui frota estimada em 119 milhões de veículos e os acidentes representam custo anual de aproximadamente R$ 5 bilhões, segundo o Ministério da Saúde."
+    }
+  },
+  {
+    "id": 719,
+    "alternativas": {
+      "A": "Está restrita à análise mecânica do veículo, sendo a dinâmica do acidente sempre periciada pela polícia científica estadual competente, ainda que haja servidor federal envolvido.",
+      "B": "Está afastada, pois acidentes em vias urbanas são sempre de competência das polícias civis estaduais, independentemente dos envolvidos.",
+      "C": "Depende exclusivamente do interesse da Justiça Estadual em delegar o caso à PF, não havendo previsão expressa no caderno didático.",
+      "D": "Está presente, pois é servidor público federal em serviço — hipótese expressamente prevista para a atuação primordial da perícia federal em acidentes."
+    }
+  },
+  {
+    "id": 720,
+    "alternativas": {
+      "A": "I, II e V.",
+      "B": "I, II, III e IV.",
+      "C": "Itens II, III, IV e V.",
+      "D": "I, III e V."
+    }
+  },
+  {
+    "id": 721,
+    "alternativas": {
+      "A": "Itens I, II e III.",
+      "B": "I, III e V.",
+      "C": "II, III e IV.",
+      "D": "II, IV e V."
+    }
+  },
+  {
+    "id": 722,
+    "alternativas": {
+      "A": "Em acidentes de tráfego, normalmente o autor do evento é desconhecido, cabendo ao perito identificá-lo a partir da análise minuciosa dos vestígios físicos deixados no local e nos veículos.",
+      "B": "Em regra, as partes envolvidas já são identificadas desde o início, concentrando-se o papel do perito em determinar quem deu causa ao evento com base nos vestígios materiais.",
+      "C": "Na perícia de acidentes, a confissão dos envolvidos é elemento determinante para a conclusão pericial, dispensando a análise material em casos confessados.",
+      "D": "A perícia em acidentes de tráfego depende essencialmente de depoimentos de testemunhas oculares, pois os vestígios físicos são considerados acessórios."
+    }
+  },
+  {
+    "id": 723,
+    "alternativas": {
+      "A": "A intuição do perito experiente, a oitiva detalhada das testemunhas presenciais e a análise do perfil psicológico de cada um dos envolvidos no acidente de trânsito.",
+      "B": "A observação sistemática dos vestígios, a aplicação de princípios da Física e da Matemática na sua interpretação e o conhecimento da legislação de trânsito.",
+      "C": "A reprodução simulada do acidente, a coleta de imagens de câmeras e o cruzamento de informações com seguradoras.",
+      "D": "A análise documental dos antecedentes dos condutores, o exame mecânico dos veículos e a entrevista das vítimas."
+    }
+  },
+  {
+    "id": 725,
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "I, II e V.",
+      "C": "II, III e V.",
+      "D": "Todos os itens estão corretos."
+    }
+  }
+]

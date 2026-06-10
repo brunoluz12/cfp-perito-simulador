@@ -1,0 +1,29 @@
+[
+  {
+    "id": 713,
+    "alternativas": {
+      "A": "Embora a PF atenda menos casos que as polícias estaduais nessa área, os que lhe chegam costumam ter alta complexidade técnica, repercussão institucional e exigência de rigor metodológico elevado.",
+      "B": "A Polícia Federal possui competência originária para todos e quaisquer acidentes ocorridos em rodovias federais do país, o que, por si só, justifica plenamente a manutenção da disciplina na formação.",
+      "C": "A disciplina é mantida exclusivamente como tradição histórica do Instituto Nacional de Criminalística, sem aplicação prática significativa nos dias atuais.",
+      "D": "A PF atua de forma supletiva às polícias estaduais sempre que estas não conseguem realizar a perícia em até 48 horas, daí a necessidade de formação continuada."
+    }
+  },
+  {
+    "id": 715,
+    "alternativas": {
+      "A": "As ocorrências de acidentes são intrínsecas ao comportamento humano e à estrutura física de vias e veículos, apesar dos esforços das autoridades, da Engenharia de Tráfego e da legislação mais rigorosa.",
+      "B": "Os acidentes são inevitáveis exclusivamente porque a fiscalização eletrônica ainda não cobre 100% das vias urbanas e rurais brasileiras.",
+      "C": "A inevitabilidade dos acidentes decorre principalmente da ausência de uma legislação penal específica e mais rigorosa para o trânsito, lacuna que, conforme se prevê, será corrigida em breve pelo legislador nacional.",
+      "D": "Acidentes são inevitáveis pois nenhum veículo automotor moderno possui sistemas eletrônicos de segurança ativa, restando apenas a atuação reativa do condutor."
+    }
+  },
+  {
+    "id": 716,
+    "alternativas": {
+      "A": "A perícia em acidentes de tráfego ocupa posição secundária e periférica na Criminalística brasileira, sendo considerada área de formação meramente opcional e facultativa para os peritos criminais federais.",
+      "B": "A perícia em acidentes de tráfego foi recentemente incorporada como área criminalística, sem tradição consolidada nos Institutos de Criminalística.",
+      "C": "A perícia em acidentes de tráfego é matéria estritamente teórica, sendo o trabalho de campo delegado integralmente aos peritos das polícias rodoviárias.",
+      "D": "A perícia em acidentes de tráfego ocupa posição singular na Criminalística brasileira, sendo reconhecida pelos autores a tradição construída pelas gerações anteriores de peritos da PF."
+    }
+  }
+]
