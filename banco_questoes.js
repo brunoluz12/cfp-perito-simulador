@@ -23209,5 +23209,175 @@ const questoesDB = [
     "justificativa": "A presença de evidências de 'ritual de alívio' (cartas, bilhetes, objetos organizados) é observada em quase todas as modalidades de morte e, no diagnóstico diferencial entre homicídio, suicídio e acidente, é pista que sugere suicídio (p. 175-178). Isso valida B. A, C e D não correspondem ao significado atribuído a esse tipo de evidência.",
     "referencia": "PDF LOC, p. 175-178",
     "nivel": "facil"
+  },
+  {
+    "id": 1492,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O processo de Identificação de Vítimas de Desastres (DVI), alinhado às diretrizes da INTERPOL, é composto por cinco etapas principais. Assinale a alternativa que as apresenta:",
+    "alternativas": {
+      "A": "Local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação.",
+      "B": "Isolamento, fotografia, coleta, laudo e arquivamento.",
+      "C": "Preparação, chegada, busca, coleta e liberação.",
+      "D": "Inalação, contato, ingestão, injeção e descarte."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O processo DVI é composto por cinco etapas principais: local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação (p. 179). Isso valida A. B, C e D correspondem a etapas de outras matérias (processamento geral de local, rotas de exposição química), não ao processo DVI.",
+    "referencia": "PDF LOC, p. 179",
+    "nivel": "facil"
+  },
+  {
+    "id": 1493,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação dos desastres em massa segundo a população envolvida, um acidente de transporte aéreo de passageiros, com lista nominal previamente identificável, é exemplo de desastre:",
+    "alternativas": {
+      "A": "aberto, pois o número e a identidade das vítimas são inicialmente desconhecidos.",
+      "B": "fechado, pois as vítimas pertencem a um grupo previamente identificável (lista nominal).",
+      "C": "misto, por combinar características de desastres naturais e antropogênicos.",
+      "D": "natural, por decorrer de fenômeno da natureza sem interferência humana."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto à população envolvida, o desastre fechado é aquele em que as vítimas pertencem a grupo previamente identificável (lista nominal), como no transporte aéreo de passageiros (p. 179-180). Isso valida B. A descreve o desastre aberto (vítimas desconhecidas). C e D confundem com a classificação por natureza/causa (misto/natural).",
+    "referencia": "PDF LOC, p. 179-180",
+    "nivel": "medio"
+  },
+  {
+    "id": 1494,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na etapa de reconciliação do processo DVI, uma equipe obtém resultado positivo de impressão digital (papiloscopia) para um corpo, enquanto outro corpo só conta com reconhecimento visual feito por um familiar. Considerando os métodos de identificação, é correto afirmar que:",
+    "alternativas": {
+      "A": "o resultado papiloscópico positivo é suficiente para considerar o corpo identificado, pois papiloscopia, exame odontológico e DNA são métodos primários sem hierarquia entre si; já o reconhecimento visual não é considerado procedimento de identificação e é contraindicado em cenário DVI.",
+      "B": "o reconhecimento visual por familiar prevalece sobre a papiloscopia, por ser mais célere.",
+      "C": "é necessário o resultado positivo dos três métodos primários (papiloscopia, odontologia e DNA) simultaneamente para considerar um corpo identificado.",
+      "D": "a papiloscopia é método secundário, de modo que o resultado positivo apenas auxilia a triagem, sem identificar o corpo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os métodos primários (papiloscopia, exame odontológico e DNA) não têm hierarquia entre si, bastando o resultado positivo de apenas um para que o corpo seja considerado identificado; o reconhecimento visual não é considerado procedimento de identificação e é contraindicado em DVI (p. 184). Isso valida A. B prioriza indevidamente o reconhecimento visual. C exige os três simultaneamente, contrariando a ausência de hierarquia. D rebaixa a papiloscopia a método secundário.",
+    "referencia": "PDF LOC, p. 184",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1495,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Sistema de Comando de Incidentes (SCI), utilizado na etapa de local do processo DVI, é um modelo padronizado de gestão que:",
+    "alternativas": {
+      "A": "integra pessoas, recursos, procedimentos e comunicações sob estrutura organizacional única e flexível, com funções de comando, planejamento, operações, logística e administração/finanças.",
+      "B": "substitui a perícia de local por equipes militares exclusivas, sem coordenação interinstitucional.",
+      "C": "restringe-se à identificação genética das vítimas, sem relação com a gestão da resposta.",
+      "D": "é aplicável apenas a desastres naturais, não se prestando a eventos de origem humana."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O SCI é um modelo padronizado de gestão que integra pessoas, recursos, procedimentos e comunicações sob estrutura organizacional única e flexível, com funções de comando, planejamento, operações, logística e administração/finanças (p. 180-181). Isso valida A. B nega a coordenação interinstitucional. C confunde o SCI com a identificação genética. D restringe indevidamente sua aplicação aos desastres naturais.",
+    "referencia": "PDF LOC, p. 180-181",
+    "nivel": "medio"
+  },
+  {
+    "id": 1496,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na atividade de busca e recuperação de corpos em local de desastre, é correto afirmar que:",
+    "alternativas": {
+      "A": "os fragmentos de corpos devem ser considerados corpos independentes e armazenados separadamente, não se devendo tentar correlacionar fragmentos ou vestígios não vinculados ainda no local; preenche-se o Formulário de Recuperação de Corpos (FRC).",
+      "B": "fragmentos de um mesmo corpo devem ser reunidos e correlacionados ainda no local, antes do envio.",
+      "C": "todos os corpos devem ser acondicionados em um único saco coletivo para agilizar o transporte.",
+      "D": "os vestígios vinculados ao corpo devem ser sempre desvinculados e enviados em embalagem separada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os fragmentos devem ser considerados corpos independentes e armazenados separadamente, não se devendo tentar correlacionar fragmentos ou vestígios não vinculados ainda no local; o FRC documenta cada corpo e suas circunstâncias (p. 181-182). Isso valida A. B contraria a vedação de correlacionar fragmentos no local. C contraria o uso de sacos individuais. D contraria a regra de não desvincular vestígios vinculados (salvo risco de perda).",
+    "referencia": "PDF LOC, p. 181-182",
+    "nivel": "medio"
+  },
+  {
+    "id": 1497,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a etapa post mortem (PM) de um desastre em massa, a equipe discute a preservação dos corpos e os riscos sanitários. À luz das orientações da disciplina, é correto afirmar que:",
+    "alternativas": {
+      "A": "recomenda-se manter os corpos entre 4 °C e 6 °C, sendo o gelo comum a melhor opção de resfriamento; além disso, cadáveres de desastres representam alto risco de epidemias.",
+      "B": "recomenda-se o resfriamento entre 4 °C e 6 °C (congelamento apenas em armazenamento prolongado), sendo o gelo comum contraindicado; e, em regra, cadáveres de desastres NÃO representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias.",
+      "C": "os corpos devem ser sempre congelados de imediato, independentemente do tempo de armazenamento.",
+      "D": "o fluxo de necrotério permite retirar o corpo do armazenamento diversas vezes, conforme a necessidade de cada exame."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Recomenda-se o resfriamento entre 4 °C e 6 °C, com congelamento apenas em armazenamento prolongado, sendo o gelo comum contraindicado (danifica corpos/pertences); em regra, cadáveres de desastres não representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias (p. 183). Isso valida B. A recomenda gelo comum e afirma alto risco epidêmico. C generaliza o congelamento imediato. D contraria o fluxo sequencial, em que o corpo é retirado do armazenamento apenas uma vez.",
+    "referencia": "PDF LOC, p. 183",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1498,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A etapa ante mortem (AM) do processo DVI consiste na coleta de informações sobre pessoas desaparecidas. Sobre essa etapa, é correto afirmar que:",
+    "alternativas": {
+      "A": "baseia-se exclusivamente no exame dos corpos recuperados, sem participação de familiares.",
+      "B": "ocorre por duas frentes — entrevistas com familiares/amigos e busca de registros documentais (prontuários médicos e odontológicos, radiografias, impressões papiloscópicas e materiais biológicos de referência) —, sendo a coleta e o intercâmbio de dados de vítimas estrangeiras feitos por cooperação internacional, com apoio da INTERPOL.",
+      "C": "dispensa a construção de lista de vítimas, por ser tarefa da etapa de local.",
+      "D": "é conduzida sem qualquer cuidado com o acolhimento dos familiares, priorizando a celeridade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A etapa AM coleta dados de desaparecidos por duas frentes — entrevistas com familiares/amigos e busca de registros documentais (prontuários médicos e odontológicos, radiografias, impressões papiloscópicas e materiais biológicos de referência) —, e a coleta/intercâmbio de dados de vítimas estrangeiras se dá por cooperação internacional, com apoio da INTERPOL; é atividade central a construção da lista de vítimas, com abordagem humanizada (p. 183-184). Isso valida B. A confunde AM com PM. C nega a lista de vítimas. D ignora o acolhimento humanizado.",
+    "referencia": "PDF LOC, p. 183-184",
+    "nivel": "medio"
+  },
+  {
+    "id": 1499,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um cenário DVI, o reconhecimento visual de um corpo por familiar ou testemunha:",
+    "alternativas": {
+      "A": "é considerado método primário de identificação, equiparado ao DNA.",
+      "B": "não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI.",
+      "C": "é suficiente para a identificação, desde que confirmado por dois familiares.",
+      "D": "substitui o exame odontológico quando este não estiver disponível."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O reconhecimento visual por familiares ou testemunhas não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI (p. 184). Isso valida B. A e C tratam o reconhecimento visual como método válido/suficiente. D propõe substituição indevida do exame odontológico, que é método primário.",
+    "referencia": "PDF LOC, p. 184",
+    "nivel": "facil"
+  },
+  {
+    "id": 1500,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a classificação dos desastres quanto à natureza/causa, associe corretamente os exemplos: (i) terremoto e tsunami; (ii) atentado terrorista e rompimento de barragem; (iii) deslizamento de terra agravado por ocupação irregular.",
+    "alternativas": {
+      "A": "(i) naturais; (ii) não naturais/antropogênicos; (iii) mistos.",
+      "B": "(i) mistos; (ii) naturais; (iii) antropogênicos.",
+      "C": "(i) antropogênicos; (ii) mistos; (iii) naturais.",
+      "D": "(i) naturais; (ii) mistos; (iii) antropogênicos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Quanto à natureza/causa, são naturais os decorrentes de fenômenos da natureza sem interferência humana direta (terremoto, tsunami); não naturais/antropogênicos os resultantes de ação ou omissão humana (atentado terrorista, rompimento de barragem); e mistos quando fatores naturais são agravados por intervenção humana (deslizamento agravado por ocupação irregular) (p. 180). Isso valida A. B, C e D associam incorretamente os exemplos às categorias.",
+    "referencia": "PDF LOC, p. 180",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1501,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na etapa de revisão de ações e preparação do processo DVI, recomendam-se dois tipos de debriefing. Sobre eles, é correto afirmar que:",
+    "alternativas": {
+      "A": "o debriefing diário analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI, enquanto o debriefing geral ocorre após a desmobilização da operação, abrangendo questões operacionais e institucionais mais amplas.",
+      "B": "o debriefing diário ocorre apenas após a desmobilização, e o geral, durante as operações.",
+      "C": "ambos os debriefings devem ser conduzidos por pessoa diretamente envolvida e sem qualquer preocupação com imparcialidade.",
+      "D": "a revisão de ações é dispensável, pois cada desastre é único e não gera lições aplicáveis a operações futuras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Recomendam-se dois debriefings: o diário, que analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI; e o geral, após a desmobilização, abrangendo questões operacionais e institucionais mais amplas (recomendando-se, neste, condução por profissional qualificado e imparcial) (p. 185-186). Isso valida A. B inverte os momentos. C nega a busca de imparcialidade no debriefing geral. D nega o propósito da revisão (aprender e aprimorar para operações futuras).",
+    "referencia": "PDF LOC, p. 185-186",
+    "nivel": "medio"
   }
 ];
