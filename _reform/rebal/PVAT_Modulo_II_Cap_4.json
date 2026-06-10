@@ -1,0 +1,92 @@
+[
+  {
+    "id": 741,
+    "alternativas": {
+      "A": "O conhecimento da legislação de trânsito é considerado meramente opcional para o perito, pois sua atribuição se restringe ao plano técnico-físico do acidente, cabendo com exclusividade ao delegado de polícia conectar a conduta do condutor à norma de regência.",
+      "B": "O perito deve aplicar prioritariamente as Resoluções do DENATRAN, em detrimento das disposições do CTB, por serem normas mais específicas e técnicas para a reconstituição de acidentes.",
+      "C": "A Lei nº 9.503/1997 é apenas subsidiária ao Código Penal nas perícias de acidentes, sendo aplicada somente quando ausentes vítimas fatais ou lesionadas.",
+      "D": "O CTB e seus regulamentos (sobretudo as Resoluções do CONTRAN) definem os comportamentos esperados dos usuários das vias; ao associar uma causa determinante a uma infração, o perito conecta o plano técnico ao normativo, construindo o elemento técnico da prova."
+    }
+  },
+  {
+    "id": 742,
+    "alternativas": {
+      "A": "Art. 43 do CTB, que trata exclusivamente da observância dos limites máximos fixados em placas de regulamentação de velocidade.",
+      "B": "Art. 28 do CTB, que determina que o condutor deverá, a todo momento, ter domínio de seu veículo, dirigindo-o com atenção e cuidados indispensáveis à segurança do trânsito.",
+      "C": "Art. 26 do CTB, que dispõe sobre o dever específico de prestar socorro às vítimas em acidentes com lesão corporal.",
+      "D": "Art. 29, III, do CTB, que estabelece a regra geral de preferência de passagem para o veículo que se aproxima pela esquerda do condutor nos cruzamentos não sinalizados por placas ou agentes de trânsito."
+    }
+  },
+  {
+    "id": 743,
+    "alternativas": {
+      "A": "I, III e IV.",
+      "B": "II e III.",
+      "C": "I e II.",
+      "D": "Itens I, II e IV."
+    }
+  },
+  {
+    "id": 744,
+    "alternativas": {
+      "A": "Como a velocidade desenvolvida (95 km/h) era inferior ao limite legal (100 km/h), fica integralmente afastada qualquer possibilidade de a velocidade figurar como causa determinante, restando ao perito investigar apenas eventuais falhas mecânicas do veículo envolvido.",
+      "B": "Para fins periciais, 'velocidade excessiva' não se restringe a ultrapassar o limite da placa: pode haver velocidade inadequada às condições (chuva, neblina, pista molhada, curva), mesmo sem ultrapassar o limite absoluto, à luz do art. 43 do CTB.",
+      "C": "O art. 61 do CTB autoriza expressamente o condutor a manter-se no limite máximo independentemente das condições da via, cabendo ao perito apenas verificar o respeito ao valor numérico fixado em placa.",
+      "D": "O art. 43 do CTB somente se aplica quando há ultrapassagem comprovada do limite fixado pelo art. 61, funcionando como agravante específica para condutores reincidentes."
+    }
+  },
+  {
+    "id": 746,
+    "alternativas": {
+      "A": "O art. 32 do CTB proíbe ultrapassagens em curvas, aclives sem visibilidade, pontes, viadutos e travessias de pedestres; a ultrapassagem irregular em curva é causa determinante recorrente de colisão frontal, desde que o perito demonstre ter sido fator preponderante.",
+      "B": "A ultrapassagem em curva é admitida pelo CTB desde que o condutor sinalize previamente com os faróis altos, sendo proibida apenas em pontes e viadutos.",
+      "C": "Para configurar causa determinante, basta ao perito demonstrar que o veículo ultrapassador ocupou a faixa de sentido contrário, sendo de todo irrelevante qualquer análise sobre a preponderância dessa conduta em relação às demais circunstâncias concomitantes do evento.",
+      "D": "O art. 33 do CTB autoriza ultrapassagens nas proximidades de interseções desde que o condutor reduza a velocidade a, no máximo, 40 km/h."
+    }
+  },
+  {
+    "id": 748,
+    "alternativas": {
+      "A": "Caracteriza imprudência a omissão de cuidado pelo condutor, como deixar de verificar previamente os freios do veículo antes de iniciar a viagem, enquanto a negligência consistiria em uma ação temerária, como dirigir em velocidade claramente excessiva.",
+      "B": "A imperícia é a falta de aptidão técnica do condutor (ex.: não saber controlar o veículo em emergência), enquanto a imprudência se configura em ações temerárias, como dirigir em velocidade excessiva.",
+      "C": "O laudo pericial é o instrumento que estabelece formalmente a culpa do condutor, vinculando a decisão do juiz às modalidades culposas indicadas pelo perito.",
+      "D": "A modalidade dolosa é a mais frequente em acidentes de tráfego, dado o histórico estatístico de condutas intencionais ao volante apontado no material."
+    }
+  },
+  {
+    "id": 749,
+    "alternativas": {
+      "A": "Há crime de dano culposo a ser apurado, com obrigatória atuação da polícia judiciária e a consequente instauração de inquérito policial para apuração da autoria e da materialidade.",
+      "B": "O crime de dano (art. 163 do CP) admite a modalidade culposa no trânsito, devendo o perito atestar a culpa do condutor para fins de correta tipificação penal da conduta.",
+      "C": "Não há crime a apurar: o dano (art. 163 do CP) não admite modalidade culposa, restando a responsabilidade civil, cuja apuração não requer necessariamente a atuação da polícia judiciária.",
+      "D": "Configura-se crime de lesão corporal culposa por equiparação patrimonial, autorizando a abertura de procedimento criminal específico."
+    }
+  },
+  {
+    "id": 750,
+    "alternativas": {
+      "A": "Art. 192 do CTB (infração grave): obrigação de manter distância de segurança lateral e frontal, apontado como causa determinante em colisões traseiras e laterais.",
+      "B": "Art. 186 do CTB, referente a transitar pela contramão de direção em vias com sinalização, indicado como causa determinante em colisões frontais por invasão da faixa oposta.",
+      "C": "Art. 175 do CTB, infração grave, referente a manobra perigosa, arrancada brusca, derrapagem ou frenagem com deslizamento de pneus.",
+      "D": "Art. 214 do CTB, infração gravíssima, referente à preferência a pedestre ou veículo não motorizado em faixa de pedestres."
+    }
+  },
+  {
+    "id": 751,
+    "alternativas": {
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas os itens II, IV e V.",
+      "C": "Apenas os itens I, III e V.",
+      "D": "Todos os itens estão corretos."
+    }
+  },
+  {
+    "id": 752,
+    "alternativas": {
+      "A": "Quando o local se encontra violado, recomenda-se que o perito se abstenha por completo de elaborar o laudo, devolvendo os autos à autoridade requisitante por absoluta impossibilidade técnica de se chegar a quaisquer conclusões periciais seguras a respeito da dinâmica do evento.",
+      "B": "O descumprimento da obrigação de preservar o local pelo condutor envolvido em acidente com vítima constitui mera infração média, sem repercussão direta sobre a qualidade da prova pericial.",
+      "C": "A preservação do local cabe ao condutor envolvido em acidente com vítima e seu descumprimento é infração gravíssima; encontrado o local violado, o perito consigna isso no laudo, indicando os vestígios comprometidos e o efeito sobre as conclusões.",
+      "D": "A obrigação de preservar o local é dirigida exclusivamente aos agentes de trânsito e à polícia ostensiva, não recaindo sobre o condutor envolvido no acidente, ainda que haja vítima."
+    }
+  }
+]

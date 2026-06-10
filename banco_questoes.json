@@ -10016,7 +10016,7 @@
     "enunciado": "Sobre a classificação das vias urbanas pelo CTB, conforme a Tabela 1 da seção 3.2.1, assinale a alternativa em que o tipo de via e sua característica principal estão CORRETAMENTE associados:",
     "alternativas": {
       "A": "Via de Trânsito Rápido: interseções controladas por semáforos, com acesso direto a lotes lindeiros.",
-      "B": "Via Arterial: sem interseções em nível e sem acesso direto a lotes lindeiros, com limite padrão de 80 km/h.",
+      "B": "Via Arterial: sem interseções em nível e sem acesso direto a lotes lindeiros, com limite padrão de 80 km/h, igual ao das vias rápidas.",
       "C": "Via de Trânsito Rápido: sem interseções em nível e sem acesso direto a lotes lindeiros, com limite padrão de 80 km/h.",
       "D": "Via Coletora: acesso local, com interseções sem semáforos e limite padrão de 30 km/h."
     },
@@ -10035,7 +10035,7 @@
       "A": "I, II e IV.",
       "B": "II, III e IV.",
       "C": "I, II, III e V.",
-      "D": "Todos os itens."
+      "D": "Todos os itens estão corretos."
     },
     "resposta_correta": "C",
     "justificativa": "Conforme a Tabela 2 da seção 3.2.2: as vias rurais subdividem-se em rodovias (pavimentadas) e estradas (não pavimentadas); pista dupla 110 km/h para automóveis/camionetas/motocicletas e 90 km/h para demais; pista simples 100 km/h para automóveis e 90 km/h para demais; estrada 60 km/h para todos os tipos. O item IV está incorreto, pois a velocidade máxima em estrada é 60 km/h, não 80 km/h.",
@@ -10068,7 +10068,7 @@
     "alternativas": {
       "A": "É um subsistema de sinalização constituído por elementos pintados ou afixados sobre a pista.",
       "B": "É um obstáculo construído como separador de pistas, podendo ser gramado, pavimentado ou dotado de barreiras físicas.",
-      "C": "É o espaço na pista delimitado por linha contínua, destinado a manobras de ultrapassagem em rodovias de pista simples.",
+      "C": "É o espaço na pista delimitado por linha contínua, destinado às manobras de ultrapassagem em rodovias de pista simples e dupla.",
       "D": "É uma barreira de contenção lateral instalada em pontos críticos de rodovias para reduzir a gravidade de saídas de pista."
     },
     "resposta_correta": "D",
@@ -10083,9 +10083,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "A seção 3.4 transcreve a definição da ABNT para acidente de trânsito. Segundo essa definição, é CORRETO afirmar que acidente de trânsito é:",
     "alternativas": {
-      "A": "Todo evento não premeditado de que resulte dano em veículo ou na sua carga e/ou lesões em pessoas e/ou animais, em que pelo menos uma das partes está em movimento nas vias terrestres ou áreas abertas ao público.",
+      "A": "Evento não premeditado de que resulte dano a veículo ou carga e/ou lesões a pessoas e/ou animais, estando pelo menos uma das partes em movimento nas vias terrestres ou áreas abertas ao público.",
       "B": "Apenas as ocorrências com vítimas fatais em vias terrestres pavimentadas, excluindo-se danos materiais isolados.",
-      "C": "Qualquer colisão entre veículos automotores, independentemente do local de ocorrência, desde que haja lesões em pessoas.",
+      "C": "Qualquer colisão entre veículos automotores, independentemente do local de ocorrência, desde que haja lesões corporais em pessoas e a lavratura de boletim de ocorrência policial.",
       "D": "Todo evento premeditado de que resulte dano em veículo, ainda que sem vítimas, ocorrido exclusivamente em vias urbanas."
     },
     "resposta_correta": "A",
@@ -10117,10 +10117,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em uma colisão transversal (perpendicular) em cruzamento, o perito observa duas características marcantes nas marcas pneumáticas. Conforme descrito na Tabela 3 da seção 3.4.1, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "As marcas de frenagem do veículo abalroador são curvas e divergentes; as marcas do veículo abalroado são paralelas à sua trajetória original.",
+      "A": "As marcas de frenagem do veículo abalroador são curvas e divergentes em relação ao ponto de impacto; já as marcas do veículo abalroado mantêm-se paralelas à sua trajetória original, sem qualquer desvio lateral.",
       "B": "Ambos os veículos deixam exclusivamente marcas frontais retilíneas no sentido de seus respectivos deslocamentos, sem mudança de direção.",
       "C": "Não há marcas pneumáticas características em colisões transversais, sendo o vestígio principal apenas o estampamento metálico nos veículos.",
-      "D": "As marcas de frenagem do veículo abalroador são retas, paralelas, convergindo para o ponto de colisão; as marcas de derrapagem lateral do abalroado são perpendiculares ou oblíquas à sua trajetória original, resultantes do impulso transversal recebido."
+      "D": "As marcas do abalroador são retas e paralelas, convergindo para o ponto de colisão; as do abalroado são perpendiculares ou oblíquas à sua trajetória, resultantes do impulso transversal recebido."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme a Tabela 3 da seção 3.4.1, em colisão transversal/perpendicular: 'marcas de frenagem do veículo abalroador: retas, paralelas, convergindo para o ponto de colisão; marcas de derrapagem lateral do veículo abalroado: perpendiculares ou oblíquas à sua trajetória original, resultantes do impulso transversal recebido'.",
@@ -10134,10 +10134,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em um acidente, o veículo executou rotação completa em torno de seu eixo transversal horizontal, perdeu totalmente o contato das rodas com o pavimento durante o giro e, ao final, retornou à sua posição normal de operação sobre as rodas. Conforme a seção 3.4.2 da apostila, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "O evento deve ser classificado como capotamento, pois a posição final de repouso do veículo não determina a classificação - um veículo que capotou e retornou à posição normal ainda é registrado como capotamento.",
+      "A": "Deve ser classificado como capotamento: a posição final de repouso não determina a classificação — um veículo que capotou e voltou à posição normal ainda é capotamento.",
       "B": "O evento deve ser classificado como saída de pista, pois não houve repouso final invertido.",
       "C": "O evento deve ser classificado como tombamento, pois o veículo terminou apoiado sobre as rodas.",
-      "D": "O evento não constitui acidente de tráfego típico, devendo ser registrado como simples descontrole de direção."
+      "D": "O evento não constitui acidente de tráfego típico, devendo ser registrado apenas como simples descontrole momentâneo de direção, sem maiores repercussões periciais ou classificatórias."
     },
     "resposta_correta": "A",
     "justificativa": "Conforme a seção 3.4.2: 'É fundamental ressaltar que a posição final de repouso do veículo não determina a classificação como capotamento - um veículo que capotou e retornou à sua posição normal de operação sobre as rodas ainda é registrado como capotamento'.",
@@ -10153,7 +10153,7 @@
     "alternativas": {
       "A": "I, II e IV.",
       "B": "I, II, III e V.",
-      "C": "II, III e IV.",
+      "C": "Itens II, III e IV.",
       "D": "III, IV e V."
     },
     "resposta_correta": "B",
@@ -10168,9 +10168,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Um automóvel desgovernou em curva e ultrapassou os limites da pista de rolamento, descendo um talude. Durante a saída, colidiu apenas com pequenas vegetações e uma pedra de pequeno porte, antes de parar sem capotar. Conforme a seção 3.4.4, o evento deve ser classificado como:",
     "alternativas": {
-      "A": "Colisão com objeto fixo, em razão do contato com a pedra e vegetação.",
+      "A": "Colisão com objeto fixo, em razão do contato do veículo com a pedra e com a vegetação existentes no talude da rodovia.",
       "B": "Capotamento parcial, pois o veículo desceu o talude.",
-      "C": "Saída de pista, pois colisões com pequenas pedras ou vegetação de pequeno porte não descaracterizam o evento como saída de pista.",
+      "C": "Saída de pista, pois colisões com pequenas pedras ou vegetação de pequeno porte não descaracterizam o evento.",
       "D": "Atropelamento ambiental, categoria especial prevista no caderno didático."
     },
     "resposta_correta": "C",
@@ -10185,9 +10185,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o atropelamento como categoria especial de acidente de tráfego, conforme a seção 3.4.5, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "No atropelamento, a análise do cadáver é dispensável quando há testemunhas oculares, sendo o exame perinecroscópico restrito a casos sem identificação da vítima.",
-      "B": "O atropelamento envolve apenas pedestres, jamais ciclistas, sendo estes último categoria à parte na taxonomia da apostila.",
-      "C": "O atropelamento é a colisão entre um veículo em movimento e um pedestre ou ciclista, e a análise do cadáver (exame perinecroscópico) assume particular importância para a determinação da dinâmica.",
+      "A": "No atropelamento, a análise do cadáver é dispensável sempre que houver testemunhas oculares, ficando o exame perinecroscópico restrito aos casos em que não há identificação da vítima.",
+      "B": "O atropelamento envolve apenas pedestres, jamais ciclistas, sendo estes última categoria à parte na taxonomia da apostila.",
+      "C": "O atropelamento é a colisão entre veículo em movimento e pedestre ou ciclista; a análise do cadáver (exame perinecroscópico) tem particular importância para a determinação da dinâmica.",
       "D": "O atropelamento é definido como o contato entre um veículo parado e um pedestre em movimento, sendo categoria genérica de acidente de tráfego."
     },
     "resposta_correta": "C",
@@ -10221,7 +10221,7 @@
     "alternativas": {
       "A": "I, II e IV.",
       "B": "II, III e IV.",
-      "C": "III, IV e V.",
+      "C": "Itens III, IV e V.",
       "D": "I, II, III e V."
     },
     "resposta_correta": "D",
@@ -10236,10 +10236,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "O Código de Trânsito Brasileiro (CTB), instituído pela Lei nº 9.503/1997, é apontado pelo material do PVAT como instrumento normativo central para a atuação do perito criminal federal em acidentes de tráfego. Sobre o papel do CTB e dos regulamentos infralegais correlatos no trabalho pericial, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O conhecimento da legislação de trânsito é considerado opcional para o perito, pois sua atribuição se restringe ao plano técnico-físico do acidente, cabendo exclusivamente ao delegado conectar a conduta à norma.",
+      "A": "O conhecimento da legislação de trânsito é considerado meramente opcional para o perito, pois sua atribuição se restringe ao plano técnico-físico do acidente, cabendo com exclusividade ao delegado de polícia conectar a conduta do condutor à norma de regência.",
       "B": "O perito deve aplicar prioritariamente as Resoluções do DENATRAN, em detrimento das disposições do CTB, por serem normas mais específicas e técnicas para a reconstituição de acidentes.",
       "C": "A Lei nº 9.503/1997 é apenas subsidiária ao Código Penal nas perícias de acidentes, sendo aplicada somente quando ausentes vítimas fatais ou lesionadas.",
-      "D": "O CTB e seus regulamentos, especialmente as Resoluções do CONTRAN, definem os comportamentos esperados e admissíveis dos usuários das vias, e o perito, ao associar uma causa determinante a uma infração, conecta o plano técnico ao plano normativo, construindo o elemento técnico da prova."
+      "D": "O CTB e seus regulamentos (sobretudo as Resoluções do CONTRAN) definem os comportamentos esperados dos usuários das vias; ao associar uma causa determinante a uma infração, o perito conecta o plano técnico ao normativo, construindo o elemento técnico da prova."
     },
     "resposta_correta": "D",
     "justificativa": "O texto afirma que 'O CTB e seus regulamentos (especialmente as Resoluções do CONTRAN) definem os comportamentos esperados e admissíveis dos usuários das vias' e que, ao identificar a causa determinante associada a uma infração, o perito 'está conectando o plano técnico (o que ocorreu fisicamente) ao plano normativo (o que deveria ter ocorrido segundo a lei), construindo o elemento técnico da prova'. O conhecimento da legislação é 'condição sine qua non', não opcional.",
@@ -10256,7 +10256,7 @@
       "A": "Art. 43 do CTB, que trata exclusivamente da observância dos limites máximos fixados em placas de regulamentação de velocidade.",
       "B": "Art. 28 do CTB, que determina que o condutor deverá, a todo momento, ter domínio de seu veículo, dirigindo-o com atenção e cuidados indispensáveis à segurança do trânsito.",
       "C": "Art. 26 do CTB, que dispõe sobre o dever específico de prestar socorro às vítimas em acidentes com lesão corporal.",
-      "D": "Art. 29, III, do CTB, que estabelece a regra geral de preferência para o veículo que se aproxima pela esquerda do condutor em cruzamentos não sinalizados."
+      "D": "Art. 29, III, do CTB, que estabelece a regra geral de preferência de passagem para o veículo que se aproxima pela esquerda do condutor nos cruzamentos não sinalizados por placas ou agentes de trânsito."
     },
     "resposta_correta": "B",
     "justificativa": "Segundo o texto: 'O art. 28 determina que o condutor deverá, a todo momento, ter domínio de seu veículo, dirigindo-o com atenção e cuidados indispensáveis à segurança do trânsito. Esta norma é a base legal para a causa determinante ligada à perda de controle do veículo por qualquer razão – distração, sonolência, uso de substâncias entorpecentes ou velocidade inadequada'.",
@@ -10273,7 +10273,7 @@
       "A": "I, III e IV.",
       "B": "II e III.",
       "C": "I e II.",
-      "D": "I, II e IV."
+      "D": "Itens I, II e IV."
     },
     "resposta_correta": "A",
     "justificativa": "O texto estabelece: 'No caso de apenas um fluxo ser proveniente de rodovia, tem preferência o que estiver circulando por ela; No caso de rotatória, tem preferência o que estiver circulando por ela; Nos demais casos (cruzamentos urbanos não sinalizados), o que vier pela direita do condutor'. O item II inverte a regra (a preferência é de quem já circula na rotatória, não de quem ingressa), tornando-o falso. Os itens I, III e IV estão corretos, sendo o IV expressamente: 'O perito deve identificar qual veículo tinha preferência, verificar se ele de fato a exerceu e se o outro veículo respeitou a preferência alheia'.",
@@ -10287,8 +10287,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Durante perícia em acidente ocorrido em rodovia de pista simples, observou-se que o condutor desenvolvia 95 km/h em trecho com forte neblina e pista molhada, vindo a perder o controle do veículo. O limite de velocidade da via era de 100 km/h, conforme placas. Sobre o tratamento pericial do conceito de velocidade nesse caso, à luz do material do PVAT, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Como a velocidade desenvolvida (95 km/h) era inferior ao limite legal (100 km/h), fica afastada qualquer possibilidade de a velocidade figurar como causa determinante, restando ao perito investigar apenas falhas mecânicas.",
-      "B": "O conceito de 'velocidade excessiva' para fins periciais não se restringe à ultrapassagem do limite marcado em placa, podendo configurar-se velocidade inadequada para as condições de trânsito – como chuva, neblina, pista molhada ou curva acentuada – mesmo sem ultrapassagem do limite absoluto, com fundamento no art. 43 do CTB.",
+      "A": "Como a velocidade desenvolvida (95 km/h) era inferior ao limite legal (100 km/h), fica integralmente afastada qualquer possibilidade de a velocidade figurar como causa determinante, restando ao perito investigar apenas eventuais falhas mecânicas do veículo envolvido.",
+      "B": "Para fins periciais, 'velocidade excessiva' não se restringe a ultrapassar o limite da placa: pode haver velocidade inadequada às condições (chuva, neblina, pista molhada, curva), mesmo sem ultrapassar o limite absoluto, à luz do art. 43 do CTB.",
       "C": "O art. 61 do CTB autoriza expressamente o condutor a manter-se no limite máximo independentemente das condições da via, cabendo ao perito apenas verificar o respeito ao valor numérico fixado em placa.",
       "D": "O art. 43 do CTB somente se aplica quando há ultrapassagem comprovada do limite fixado pelo art. 61, funcionando como agravante específica para condutores reincidentes."
     },
@@ -10321,9 +10321,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em laudo pericial de colisão frontal ocorrida em rodovia, o perito apurou que o veículo A ultrapassou o veículo B em trecho de curva sem visibilidade, invadindo a faixa contrária no momento em que o veículo C trafegava em sentido oposto. Considerando o regime jurídico da ultrapassagem previsto nos arts. 29 a 32 do CTB, tal como exposto no material do PVAT, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O art. 32 do CTB proíbe ultrapassagens em curvas, aclives sem visibilidade, passagens de nível, pontes, viadutos e travessias de pedestres, sendo a ultrapassagem irregular em curva causa determinante recorrente de colisão frontal, desde que o perito demonstre que ela foi fator preponderante do acidente.",
+      "A": "O art. 32 do CTB proíbe ultrapassagens em curvas, aclives sem visibilidade, pontes, viadutos e travessias de pedestres; a ultrapassagem irregular em curva é causa determinante recorrente de colisão frontal, desde que o perito demonstre ter sido fator preponderante.",
       "B": "A ultrapassagem em curva é admitida pelo CTB desde que o condutor sinalize previamente com os faróis altos, sendo proibida apenas em pontes e viadutos.",
-      "C": "Para configurar causa determinante, basta ao perito demonstrar que o veículo ultrapassador ocupou a faixa contrária, sendo irrelevante a análise sobre a preponderância dessa conduta em relação às demais circunstâncias concomitantes.",
+      "C": "Para configurar causa determinante, basta ao perito demonstrar que o veículo ultrapassador ocupou a faixa de sentido contrário, sendo de todo irrelevante qualquer análise sobre a preponderância dessa conduta em relação às demais circunstâncias concomitantes do evento.",
       "D": "O art. 33 do CTB autoriza ultrapassagens nas proximidades de interseções desde que o condutor reduza a velocidade a, no máximo, 40 km/h."
     },
     "resposta_correta": "A",
@@ -10355,8 +10355,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da culpa penal nos crimes decorrentes de acidentes de tráfego e do papel do laudo pericial, conforme o material do PVAT, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Caracteriza imprudência a omissão de cuidado por parte do condutor, como deixar de verificar previamente os freios do veículo, enquanto a negligência consiste em ação temerária, como dirigir em velocidade excessiva.",
-      "B": "A imperícia traduz-se na falta de aptidão técnica do condutor, como não saber controlar o veículo em situação de emergência, ao passo que a imprudência configura-se em ações temerárias, como dirigir em velocidade excessiva.",
+      "A": "Caracteriza imprudência a omissão de cuidado pelo condutor, como deixar de verificar previamente os freios do veículo antes de iniciar a viagem, enquanto a negligência consistiria em uma ação temerária, como dirigir em velocidade claramente excessiva.",
+      "B": "A imperícia é a falta de aptidão técnica do condutor (ex.: não saber controlar o veículo em emergência), enquanto a imprudência se configura em ações temerárias, como dirigir em velocidade excessiva.",
       "C": "O laudo pericial é o instrumento que estabelece formalmente a culpa do condutor, vinculando a decisão do juiz às modalidades culposas indicadas pelo perito.",
       "D": "A modalidade dolosa é a mais frequente em acidentes de tráfego, dado o histórico estatístico de condutas intencionais ao volante apontado no material."
     },
@@ -10372,9 +10372,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em acidente de trânsito ocorrido em via urbana, dois veículos colidiram resultando exclusivamente em danos materiais nos automóveis, sem qualquer vítima. Os condutores não atuaram com dolo. Diante desse quadro, à luz da nota destacada no material do PVAT acerca dos aspectos penais do art. 163 do Código Penal, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Há crime de dano culposo a ser apurado, com obrigatória atuação da polícia judiciária e instauração de inquérito policial.",
-      "B": "O crime de dano (art. 163 do CP) admite a modalidade culposa, devendo o perito atestar a culpa do condutor para fins de tipificação.",
-      "C": "Não há crime a ser apurado, pois o crime de dano (art. 163 do CP) não admite a modalidade culposa, restando apenas a responsabilidade civil, cuja apuração não requer necessariamente a atuação da polícia judiciária.",
+      "A": "Há crime de dano culposo a ser apurado, com obrigatória atuação da polícia judiciária e a consequente instauração de inquérito policial para apuração da autoria e da materialidade.",
+      "B": "O crime de dano (art. 163 do CP) admite a modalidade culposa no trânsito, devendo o perito atestar a culpa do condutor para fins de correta tipificação penal da conduta.",
+      "C": "Não há crime a apurar: o dano (art. 163 do CP) não admite modalidade culposa, restando a responsabilidade civil, cuja apuração não requer necessariamente a atuação da polícia judiciária.",
       "D": "Configura-se crime de lesão corporal culposa por equiparação patrimonial, autorizando a abertura de procedimento criminal específico."
     },
     "resposta_correta": "C",
@@ -10389,8 +10389,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em laudo pericial de colisão traseira em via expressa urbana, o perito constatou que o veículo posterior trafegava a apenas 5 metros do veículo dianteiro a 70 km/h, distância manifestamente insuficiente para frenagem segura. Considerando a Tabela 6 do material do PVAT, qual dispositivo do CTB tipifica a infração mais diretamente correlacionada à causa determinante identificada?",
     "alternativas": {
-      "A": "Art. 192 do CTB, infração grave, referente à obrigação de manter distância de segurança lateral e frontal, apontado como causa determinante em colisões traseiras e laterais.",
-      "B": "Art. 186 do CTB, referente a transitar na contramão de direção, indicado como causa determinante em colisões frontais por invasão de faixa.",
+      "A": "Art. 192 do CTB (infração grave): obrigação de manter distância de segurança lateral e frontal, apontado como causa determinante em colisões traseiras e laterais.",
+      "B": "Art. 186 do CTB, referente a transitar pela contramão de direção em vias com sinalização, indicado como causa determinante em colisões frontais por invasão da faixa oposta.",
       "C": "Art. 175 do CTB, infração grave, referente a manobra perigosa, arrancada brusca, derrapagem ou frenagem com deslizamento de pneus.",
       "D": "Art. 214 do CTB, infração gravíssima, referente à preferência a pedestre ou veículo não motorizado em faixa de pedestres."
     },
@@ -10406,10 +10406,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as infrações de trânsito de maior relevância pericial sistematizadas na Tabela 6 do material do PVAT, julgue os itens a seguir:\n\nI. O art. 175 do CTB, classificado como infração grave, tipifica manobra perigosa, arrancada brusca, derrapagem ou frenagem com deslizamento de pneus, podendo indicar comportamento como causa determinante.\nII. O art. 176 do CTB, classificado como infração gravíssima, abrange condutas como não prestar socorro à vítima, não preservar o local e não se identificar, sendo relevante para a investigação e preservação dos vestígios.\nIII. O art. 186 do CTB, referente a transitar na contramão de direção, é apontado como causa determinante em colisões frontais por invasão de faixa.\nIV. O art. 244, I, do CTB, gravíssimo, tipifica a condução de motocicleta entre veículos em movimento (racha) e é relevante em acidentes envolvendo motocicletas.\nV. O art. 214 do CTB, gravíssimo, refere-se a não dar preferência a pedestre ou veículo não motorizado, sendo causa determinante em atropelamentos e colisões em faixa de pedestres.\n\nEstão CORRETOS:",
     "alternativas": {
-      "A": "Apenas os itens I, II e III.",
+      "A": "Apenas os itens I, II e III estão corretos.",
       "B": "Apenas os itens II, IV e V.",
       "C": "Apenas os itens I, III e V.",
-      "D": "Todos os itens (I, II, III, IV e V)."
+      "D": "Todos os itens estão corretos."
     },
     "resposta_correta": "D",
     "justificativa": "Todos os itens reproduzem fielmente o conteúdo da Tabela 6: art. 175 (manobra perigosa, grave); art. 176 (não prestar socorro, não preservar local, gravíssima); art. 186 (contramão, causa determinante em colisões frontais por invasão de faixa); art. 244, I (conduzir motocicleta entre veículos em movimento, gravíssima); art. 214 (não dar preferência a pedestre ou veículo não motorizado, causa determinante em atropelamentos e colisões em faixa de pedestres).",
@@ -10423,9 +10423,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Ao chegar a uma via de grande movimento para realizar perícia em acidente com vítima, a equipe constata que o local já se encontra parcialmente alterado, com remoção de veículos e limpeza superficial da pista antes da chegada dos peritos. Considerando as obrigações do condutor previstas no art. 176 do CTB e o procedimento pericial recomendado pelo material do PVAT, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Quando o local se encontra violado, recomenda-se que o perito se abstenha de elaborar laudo, devolvendo os autos à autoridade requisitante por impossibilidade técnica absoluta de conclusões.",
+      "A": "Quando o local se encontra violado, recomenda-se que o perito se abstenha por completo de elaborar o laudo, devolvendo os autos à autoridade requisitante por absoluta impossibilidade técnica de se chegar a quaisquer conclusões periciais seguras a respeito da dinâmica do evento.",
       "B": "O descumprimento da obrigação de preservar o local pelo condutor envolvido em acidente com vítima constitui mera infração média, sem repercussão direta sobre a qualidade da prova pericial.",
-      "C": "A obrigação de preservar o local é imposta ao condutor envolvido em acidente com vítima e seu descumprimento constitui infração gravíssima; cabendo ao perito, quando o local for encontrado violado, consignar expressamente essa circunstância no laudo, indicando quais vestígios podem ter sido comprometidos e em que medida as conclusões são afetadas.",
+      "C": "A preservação do local cabe ao condutor envolvido em acidente com vítima e seu descumprimento é infração gravíssima; encontrado o local violado, o perito consigna isso no laudo, indicando os vestígios comprometidos e o efeito sobre as conclusões.",
       "D": "A obrigação de preservar o local é dirigida exclusivamente aos agentes de trânsito e à polícia ostensiva, não recaindo sobre o condutor envolvido no acidente, ainda que haja vítima."
     },
     "resposta_correta": "C",

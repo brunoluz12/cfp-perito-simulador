@@ -1,0 +1,92 @@
+[
+  {
+    "id": 728,
+    "alternativas": {
+      "A": "Via de Trânsito Rápido: interseções controladas por semáforos, com acesso direto a lotes lindeiros.",
+      "B": "Via Arterial: sem interseções em nível e sem acesso direto a lotes lindeiros, com limite padrão de 80 km/h, igual ao das vias rápidas.",
+      "C": "Via de Trânsito Rápido: sem interseções em nível e sem acesso direto a lotes lindeiros, com limite padrão de 80 km/h.",
+      "D": "Via Coletora: acesso local, com interseções sem semáforos e limite padrão de 30 km/h."
+    }
+  },
+  {
+    "id": 729,
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e IV.",
+      "C": "I, II, III e V.",
+      "D": "Todos os itens estão corretos."
+    }
+  },
+  {
+    "id": 731,
+    "alternativas": {
+      "A": "É um subsistema de sinalização constituído por elementos pintados ou afixados sobre a pista.",
+      "B": "É um obstáculo construído como separador de pistas, podendo ser gramado, pavimentado ou dotado de barreiras físicas.",
+      "C": "É o espaço na pista delimitado por linha contínua, destinado às manobras de ultrapassagem em rodovias de pista simples e dupla.",
+      "D": "É uma barreira de contenção lateral instalada em pontos críticos de rodovias para reduzir a gravidade de saídas de pista."
+    }
+  },
+  {
+    "id": 732,
+    "alternativas": {
+      "A": "Evento não premeditado de que resulte dano a veículo ou carga e/ou lesões a pessoas e/ou animais, estando pelo menos uma das partes em movimento nas vias terrestres ou áreas abertas ao público.",
+      "B": "Apenas as ocorrências com vítimas fatais em vias terrestres pavimentadas, excluindo-se danos materiais isolados.",
+      "C": "Qualquer colisão entre veículos automotores, independentemente do local de ocorrência, desde que haja lesões corporais em pessoas e a lavratura de boletim de ocorrência policial.",
+      "D": "Todo evento premeditado de que resulte dano em veículo, ainda que sem vítimas, ocorrido exclusivamente em vias urbanas."
+    }
+  },
+  {
+    "id": 734,
+    "alternativas": {
+      "A": "As marcas de frenagem do veículo abalroador são curvas e divergentes em relação ao ponto de impacto; já as marcas do veículo abalroado mantêm-se paralelas à sua trajetória original, sem qualquer desvio lateral.",
+      "B": "Ambos os veículos deixam exclusivamente marcas frontais retilíneas no sentido de seus respectivos deslocamentos, sem mudança de direção.",
+      "C": "Não há marcas pneumáticas características em colisões transversais, sendo o vestígio principal apenas o estampamento metálico nos veículos.",
+      "D": "As marcas do abalroador são retas e paralelas, convergindo para o ponto de colisão; as do abalroado são perpendiculares ou oblíquas à sua trajetória, resultantes do impulso transversal recebido."
+    }
+  },
+  {
+    "id": 735,
+    "alternativas": {
+      "A": "Deve ser classificado como capotamento: a posição final de repouso não determina a classificação — um veículo que capotou e voltou à posição normal ainda é capotamento.",
+      "B": "O evento deve ser classificado como saída de pista, pois não houve repouso final invertido.",
+      "C": "O evento deve ser classificado como tombamento, pois o veículo terminou apoiado sobre as rodas.",
+      "D": "O evento não constitui acidente de tráfego típico, devendo ser registrado apenas como simples descontrole momentâneo de direção, sem maiores repercussões periciais ou classificatórias."
+    }
+  },
+  {
+    "id": 736,
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "I, II, III e V.",
+      "C": "Itens II, III e IV.",
+      "D": "III, IV e V."
+    }
+  },
+  {
+    "id": 737,
+    "alternativas": {
+      "A": "Colisão com objeto fixo, em razão do contato do veículo com a pedra e com a vegetação existentes no talude da rodovia.",
+      "B": "Capotamento parcial, pois o veículo desceu o talude.",
+      "C": "Saída de pista, pois colisões com pequenas pedras ou vegetação de pequeno porte não descaracterizam o evento.",
+      "D": "Atropelamento ambiental, categoria especial prevista no caderno didático."
+    }
+  },
+  {
+    "id": 738,
+    "alternativas": {
+      "A": "No atropelamento, a análise do cadáver é dispensável sempre que houver testemunhas oculares, ficando o exame perinecroscópico restrito aos casos em que não há identificação da vítima.",
+      "B": "O atropelamento envolve apenas pedestres, jamais ciclistas, sendo estes última categoria à parte na taxonomia da apostila.",
+      "C": "O atropelamento é a colisão entre veículo em movimento e pedestre ou ciclista; a análise do cadáver (exame perinecroscópico) tem particular importância para a determinação da dinâmica.",
+      "D": "O atropelamento é definido como o contato entre um veículo parado e um pedestre em movimento, sendo categoria genérica de acidente de tráfego."
+    }
+  },
+  {
+    "id": 740,
+    "alternativas": {
+      "A": "I, II e IV.",
+      "B": "II, III e IV.",
+      "C": "Itens III, IV e V.",
+      "D": "I, II, III e V."
+    }
+  }
+]
