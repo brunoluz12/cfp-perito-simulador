@@ -22121,5 +22121,175 @@ const questoesDB = [
     "justificativa": "Pelo Princípio da Troca de Locard, toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, base para a formação dos vestígios; a adequada identificação, coleta e preservação desses vestígios contribui para reconstruir a dinâmica dos fatos e estabelecer vínculos entre pessoas, objetos e ambientes (p. 91-92). Isso valida C. A nega indevidamente o valor dos latentes. B contraria a dependência da interação. D subordina a reconstrução à prova testemunhal, contrariando o papel central dos vestígios.",
     "referencia": "PDF LOC, p. 91-92",
     "nivel": "dificil"
+  },
+  {
+    "id": 1428,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de vestígios químicos, o profissional deve conhecer as rotas de exposição aos agentes. Assinale a alternativa que apresenta corretamente essas rotas:",
+    "alternativas": {
+      "A": "Inalação, contato com a pele, ingestão e injeção.",
+      "B": "Difusão, osmose, condução e convecção.",
+      "C": "Visão, olfato, tato e paladar.",
+      "D": "Combustão, oxidação, corrosão e detonação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As rotas de exposição aos agentes químicos são inalação (sistema respiratório), contato com a pele (absorção), ingestão (boca) e injeção (perfuração → corrente sanguínea) (p. 94-95). Isso valida A. B lista fenômenos físicos de transporte. C lista sentidos. D lista tipos de reação/risco, não rotas de exposição.",
+    "referencia": "PDF LOC, p. 94-95",
+    "nivel": "facil"
+  },
+  {
+    "id": 1429,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à proteção ao meio ambiente na coleta de vestígios químicos, é correto afirmar que:",
+    "alternativas": {
+      "A": "substâncias químicas podem ser despejadas em pias e banheiros, desde que diluídas em água.",
+      "B": "não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos.",
+      "C": "a mistura de substâncias químicas é livre, podendo ser feita pelo perito independentemente de orientação técnica.",
+      "D": "substâncias expostas à chuva e a ventos fortes devem ser removidas com prioridade máxima, mesmo sem cuidados adicionais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos que abastecem populações e espécies (p. 93). Isso valida B. A contraria a vedação de despejo em pias e banheiros. C nega a regra de só misturar quando instruído por profissional qualificado. D contraria a orientação de evitar remover substâncias expostas a chuva e ventos fortes.",
+    "referencia": "PDF LOC, p. 93",
+    "nivel": "medio"
+  },
+  {
+    "id": 1430,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A rota de exposição por injeção, no manuseio de vestígios químicos, caracteriza-se por:",
+    "alternativas": {
+      "A": "introdução do agente pelo sistema respiratório, na forma de vapores e aerossóis.",
+      "B": "absorção do agente pela pele íntegra, com efeitos sistêmicos como náuseas e tremores.",
+      "C": "entrada do agente por furadas de agulhas, cortes em vidros ou metais contaminados, atingindo diretamente a corrente sanguínea, recomendando-se o uso de luvas (eventualmente duas ou mais).",
+      "D": "ingestão acidental do agente, com danos à boca, garganta e aparelho digestivo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Na injeção, o agente entra por furadas de agulhas, cortes em vidros, metais ou objetos cortantes contaminados, atingindo diretamente a corrente sanguínea e espalhando-se rapidamente; recomenda-se trabalhar sempre com luvas e, se necessário, vestir as mãos com duas ou mais luvas (p. 95). Isso valida C. A descreve a inalação, B o contato com a pele e D a ingestão.",
+    "referencia": "PDF LOC, p. 95",
+    "nivel": "medio"
+  },
+  {
+    "id": 1431,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao adentrar um laboratório clandestino de refino de cocaína com recipientes não identificados, o perito deve avaliar os perigos químicos em campo. Considerando as diretrizes da disciplina, a conduta correta inclui:",
+    "alternativas": {
+      "A": "cheirar cuidadosamente os recipientes para identificar as substâncias pelo odor, agilizando a triagem.",
+      "B": "confiar exclusivamente nos rótulos dos frascos, dispensando outras fontes de informação.",
+      "C": "adotar postura conservadora diante de dúvidas, observar os elementos do GHS (pictogramas, advertências) e consultar a FISPQ, priorizando a identificação preliminar por aspectos observáveis, sem contato direto, e não inalar vapores para identificar substâncias.",
+      "D": "abrir rapidamente todos os recipientes com ferramentas metálicas, ainda que produzam faíscas, para acelerar a coleta."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As diretrizes orientam adotar postura conservadora diante de dúvidas, observar elementos do GHS (pictogramas, palavras de advertência, frases de perigo) e consultar a FISPQ, priorizar a identificação preliminar por aspectos observáveis sem contato direto e não inalar vapores ou odores para identificar substâncias (p. 96-97). Isso valida C. A viola a vedação de inalar para identificar. B contraria a orientação de não confiar exclusivamente no rótulo. D ignora a recomendação de usar instrumentos que não produzam faíscas e proceder de forma lenta e cautelosa.",
+    "referencia": "PDF LOC, p. 96-97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1432,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os riscos de substâncias comumente encontradas em laboratórios clandestinos, é correto afirmar que:",
+    "alternativas": {
+      "A": "recipientes vazios são sempre seguros, pois a ausência de conteúdo elimina qualquer risco de explosão.",
+      "B": "recipientes vazios podem conter vapores suficientes para provocar explosão, não se devendo usar chama próximo a eles; além disso, ácidos sulfúrico e clorídrico, em contato com metais, produzem gás hidrogênio, altamente explosivo.",
+      "C": "o permanganato de potássio é uma substância inerte, sem qualquer risco de reação.",
+      "D": "o hidróxido de amônio, por sua baixa inflamabilidade, jamais forma misturas perigosas com o ar."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Recipientes vazios podem conter vapores suficientes para provocar explosão (não usar chama próximo); ácidos sulfúrico e clorídrico, em contato com grande parte dos metais, produzem gás hidrogênio, altamente explosivo (p. 98-99). Isso valida B. A subestima o risco dos recipientes vazios. C é falsa: o permanganato é oxidante forte, podendo reagir explosivamente. D contraria a nota de que o hidróxido de amônio pode formar misturas explosivas com o ar em condições específicas.",
+    "referencia": "PDF LOC, p. 98-99",
+    "nivel": "medio"
+  },
+  {
+    "id": 1433,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito precisa acondicionar duas amostras: uma de solvente orgânico (acetona) e outra de solução de ácido fluorídrico. Considerando as recomendações de acondicionamento, a escolha correta dos invólucros é:",
+    "alternativas": {
+      "A": "frasco de vidro neutro âmbar de boca estreita para a acetona; frasco de plástico (polietileno) de boca estreita para o ácido fluorídrico, que não pode ser coletado em vidro.",
+      "B": "frasco de plástico de boca larga para a acetona; frasco de vidro âmbar para o ácido fluorídrico.",
+      "C": "frasco de vidro âmbar para ambas as substâncias, por ser o invólucro universal.",
+      "D": "saco plástico vedado com fita adesiva para a acetona; frasco de vidro de boca estreita para o ácido fluorídrico."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Solventes orgânicos como a acetona vão em frasco de vidro neutro âmbar de boca estreita; o ácido fluorídrico NÃO pode ser coletado em vidro (ataca o vidro), devendo ir em frasco de plástico (polietileno) de boca estreita, próprio para soluções aquosas de pH básico e para o ácido fluorídrico (p. 99-100). Isso valida A. B, C e D colocam o ácido fluorídrico em vidro ou destinam a acetona a invólucros inadequados (boca larga para sólidos ou saco plástico).",
+    "referencia": "PDF LOC, p. 99-100",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1434,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na técnica de amostragem de produtos homogêneos acondicionados em várias embalagens, a disciplina adota uma tabela (base UNODC) para definir o número de amostras. Se forem encontradas 64 embalagens homogêneas (10 < n ≤ 100), deve-se:",
+    "alternativas": {
+      "A": "retirar uma amostra de cada uma das 64 embalagens.",
+      "B": "escolher aleatoriamente 10 unidades e retirar uma amostra de cada.",
+      "C": "calcular a raiz quadrada de 64 (= 8 unidades) e amostrar apenas essas.",
+      "D": "coletar uma única amostra do conjunto, por se tratar de produto homogêneo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela tabela, quando 10 < n ≤ 100, escolhem-se aleatoriamente 10 unidades e retira-se uma amostra de cada (p. 100). Como 64 está nessa faixa, valida-se B. A corresponde à regra de n ≤ 10. C aplica a regra de n > 100 (√n), inadequada a 64. D contraria a metodologia de amostragem representativa.",
+    "referencia": "PDF LOC, p. 100",
+    "nivel": "medio"
+  },
+  {
+    "id": 1435,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma apreensão são localizadas 400 embalagens homogêneas de uma substância sólida e, em separado, um galão de éter com possível presença de peróxidos. Quanto à amostragem, é correto afirmar que:",
+    "alternativas": {
+      "A": "para as 400 embalagens, amostram-se aleatoriamente √400 = 20 unidades; e o éter com peróxidos não deve ser homogeneizado sem que antes os peróxidos sejam removidos.",
+      "B": "para as 400 embalagens, basta uma amostra de 10 unidades; e o éter deve sempre ser misturado vigorosamente antes da coleta.",
+      "C": "para as 400 embalagens, amostra-se cada unidade; e o éter pode ser homogeneizado normalmente, pois peróxidos são inertes.",
+      "D": "para as 400 embalagens, coleta-se uma única amostra; e o éter dispensa qualquer cuidado especial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Para n > 100, escolhem-se aleatoriamente √n unidades (√400 = 20) e retira-se uma amostra de cada (p. 100). Quanto aos líquidos, em regra se misturam bem antes de coletar, mas há exceção: éter com resíduos de peróxidos não deve ser homogeneizado sem antes remover os peróxidos (p. 100-101). Isso valida A. B e C aplicam regras de faixas erradas e ignoram/contrariam a exceção do éter. D adota amostra única, incompatível com a metodologia.",
+    "referencia": "PDF LOC, p. 100-101",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1436,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as quantidades mínimas de amostra recomendadas, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "para conteúdo sólido de 1 a 10 kg, a amostra mínima é de 100 gramas; para líquido de 1 a 10 L, a amostra mínima é de 200 ml.",
+      "B": "para conteúdo sólido de 1 a 10 kg, a amostra mínima é de 1 grama; para líquido, de 10 ml.",
+      "C": "tanto para sólidos quanto para líquidos, a amostra mínima é sempre de 2% da massa ou volume, independentemente da quantidade.",
+      "D": "para conteúdo sólido acima de 10 kg, deve-se coletar integralmente o material, sem percentuais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelas quantidades mínimas recomendadas, conteúdo sólido de 1 a 10 kg → amostra de 100 gramas; líquido de 1 a 10 L → 200 ml (p. 101). Isso valida A. B subdimensiona as quantidades. C ignora as faixas (o percentual de 1,5 a 2% aplica-se acima de 10 kg/10 L). D afirma coleta integral acima de 10 kg, quando o correto é 1,5 a 2% da massa.",
+    "referencia": "PDF LOC, p. 101",
+    "nivel": "medio"
+  },
+  {
+    "id": 1437,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à identificação das amostras de vestígios químicos coletadas, a disciplina recomenda:",
+    "alternativas": {
+      "A": "o uso de etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando a amostra ao inquérito, item/lote ou local de origem, para evitar extravios e confusões.",
+      "B": "inscrever os dados diretamente sobre o corpo do recipiente com caneta comum, dispensando etiquetas.",
+      "C": "identificar apenas o número do inquérito, sendo desnecessários quantidade, data e local de origem.",
+      "D": "manter as amostras sem identificação até a chegada ao laboratório, onde serão catalogadas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Recomenda-se identificar as amostras com etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando-as a um inquérito policial, item/lote ou local de origem, evitando extravios e confusões; a etiqueta inclui unidade/seção, número da amostra, quantidade, número do IPL, local de origem, data e responsável (p. 101). Isso valida A. B contraria o uso de etiquetas protegidas. C omite campos essenciais previstos. D deixa as amostras sem identificação, comprometendo a rastreabilidade e a cadeia de custódia.",
+    "referencia": "PDF LOC, p. 101",
+    "nivel": "facil"
   }
 ];
