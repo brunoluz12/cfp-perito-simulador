@@ -7238,11 +7238,10 @@ const questoesDB = [
       "A": "Por estar ausente a intenção de revenda ou de obtenção de vantagem ilícita, e por se tratar de mera tentativa de regularização do próprio bem, a conduta é penalmente atípica, remanescendo apenas eventual infração administrativa de trânsito.",
       "B": "A conduta é típica, pois a regravação realizada sem autorização legal da autoridade competente constitui ilícito penal, ainda que invocadas boa-fé ou intuito de regularização.",
       "C": "A conduta configura a forma culposa do art. 311, atenuada pelo propósito regularizador, uma vez que o agente agiu sem a diligência exigível ao não buscar previamente a autorização administrativa cabível.",
-      "D": "A tipicidade dependerá da demonstração pericial de prejuízo concreto a terceiros ou da efetiva colocação do veículo em circulação após a regravação dos caracteres do identificador.",
-      "E": "A boa-fé presumida e a finalidade declarada de regularização afastam o dolo específico exigido pelo tipo, de modo que a conduta de João não configura o crime do art. 311 do Código Penal."
+      "D": "A tipicidade dependerá da demonstração pericial de prejuízo concreto a terceiros ou da efetiva colocação do veículo em circulação após a regravação dos caracteres do identificador."
     },
     "resposta_correta": "B",
-    "justificativa": "Correta a alternativa B: o capítulo 2 afirma que a ausência de autorização 'converte a intervenção material no identificador em ilícito penal, ainda que realizada com alegações de boa-fé ou regularização' (p. 9-10). A e E erram porque a finalidade do agente é irrelevante para a configuração do tipo e a boa-fé/regularização não afasta o dolo nem a tipicidade. C erra porque não se pune a conduta culposa (crime exclusivamente doloso, p. 9). D erra porque se trata de crime formal, que se consuma com a simples prática da adulteração, independentemente de circulação ou de prejuízo concreto a terceiros (p. 9).",
+    "justificativa": "Correta a alternativa B: o capítulo 2 afirma que a ausência de autorização 'converte a intervenção material no identificador em ilícito penal, ainda que realizada com alegações de boa-fé ou regularização' (p. 9-10). A erra porque a finalidade do agente é irrelevante para a configuração do tipo e a boa-fé/regularização não afasta o dolo nem a tipicidade. C erra porque não se pune a conduta culposa (crime exclusivamente doloso, p. 9). D erra porque se trata de crime formal, que se consuma com a simples prática da adulteração, independentemente de circulação ou de prejuízo concreto a terceiros (p. 9).",
     "referencia": "Cap. 2, p. 9-10",
     "nivel": "medio"
   },
@@ -7256,11 +7255,10 @@ const questoesDB = [
       "A": "A tutela penal alcança exclusivamente o VIN e as placas de identificação, não atingindo agregados como motor, câmbio e carroceria, ainda que estes possuam numeração ou marcação própria destinada à identificação do bem.",
       "B": "Por ofender a fé pública, o tipo admite a modalidade culposa quando o agente atua com negligência grave na conservação dos sinais identificadores, hipótese em que a pena é proporcionalmente reduzida.",
       "C": "A pena cominada é de reclusão de três a seis anos e multa, exigindo-se o dolo, sendo a finalidade do agente irrelevante para a configuração do tipo.",
-      "D": "A pena cominada é de detenção de um a três anos e multa, patamar que reflete a natureza essencialmente patrimonial do delito e seu menor potencial ofensivo no sistema de identificação.",
-      "E": "A consumação do crime depende da efetiva circulação do veículo adulterado ou da produção de prejuízo concreto a terceiro, pois somente nessas hipóteses se aperfeiçoa a lesão à fé pública."
+      "D": "A pena cominada é de detenção de um a três anos e multa, patamar que reflete a natureza essencialmente patrimonial do delito e seu menor potencial ofensivo no sistema de identificação."
     },
     "resposta_correta": "C",
-    "justificativa": "Correta a alternativa C: o capítulo 2 dispõe que 'A pena cominada ao crime é de reclusão de três a seis anos e multa' (p. 10), que o crime possui natureza dolosa, não se punindo a conduta culposa, e que 'A finalidade do agente é irrelevante para a configuração do tipo' (p. 9). A erra porque o tipo abrange não só o VIN e placas, mas também motores, câmbios, carrocerias e outros agregados (p. 9). B erra porque não se pune a modalidade culposa (p. 9). D erra quanto à pena, que é de reclusão de três a seis anos. E erra porque se trata de crime formal, que se consuma com a simples adulteração, independentemente de circulação ou prejuízo (p. 9).",
+    "justificativa": "Correta a alternativa C: o capítulo 2 dispõe que 'A pena cominada ao crime é de reclusão de três a seis anos e multa' (p. 10), que o crime possui natureza dolosa, não se punindo a conduta culposa, e que 'A finalidade do agente é irrelevante para a configuração do tipo' (p. 9). A erra porque o tipo abrange não só o VIN e placas, mas também motores, câmbios, carrocerias e outros agregados (p. 9). B erra porque não se pune a modalidade culposa (p. 9). D erra quanto à pena, que é de reclusão de três a seis anos.",
     "referencia": "Cap. 2, p. 9-10",
     "nivel": "facil"
   },
@@ -7274,11 +7272,10 @@ const questoesDB = [
       "A": "A norma ISO 3779 foi publicada em 1977 e estabeleceu o VIN com 17 caracteres alfanuméricos; em 1981 esse padrão passou a ser exigido oficialmente nos Estados Unidos por determinação da NHTSA.",
       "B": "O padrão do VIN com 17 caracteres alfanuméricos foi originalmente concebido pela ABNT na NBR 6066 e, anos mais tarde, exportado aos Estados Unidos, onde foi tornado obrigatório pela NHTSA em 1981, por força de acordo internacional.",
       "C": "A norma ISO 3779 foi publicada em 1966 pelo GEIA, e os Estados Unidos passaram a adotar voluntariamente o padrão somente a partir da década de 1990, sem qualquer determinação obrigatória da NHTSA naquele período.",
-      "D": "O VIN de 17 caracteres surgiu da Resolução Contran nº 659/1985 e só posteriormente, já na década de 1990, foi incorporado pela ISO em norma técnica internacional editada para uniformizar a identificação.",
-      "E": "A ISO 3779 fixou o padrão em 1977, mas a obrigatoriedade nos Estados Unidos somente se concretizou em 1998, quando a NHTSA equiparou o sistema norte-americano às exigências brasileiras então vigentes."
+      "D": "O VIN de 17 caracteres surgiu da Resolução Contran nº 659/1985 e só posteriormente, já na década de 1990, foi incorporado pela ISO em norma técnica internacional editada para uniformizar a identificação."
     },
     "resposta_correta": "A",
-    "justificativa": "Conforme o capítulo 3, a ISO publica a norma ISO 3779 em 1977, estabelecendo o VIN com 17 caracteres alfanuméricos, e em 1981 esse padrão passa a ser adotado oficialmente nos Estados Unidos por determinação da NHTSA (alternativa A). Erram: B, pois a NBR 6066 (1980) apenas alinhou o Brasil à ISO 3779, não originou o padrão; C, pois a ISO 3779 é de 1977 (não 1966) e a obrigatoriedade nos EUA é de 1981; D, pois o padrão de 17 caracteres é da ISO 3779/1977, anterior à Resolução 659/1985; E, pois a obrigatoriedade nos EUA ocorreu em 1981, não em 1998.",
+    "justificativa": "Conforme o capítulo 3, a ISO publica a norma ISO 3779 em 1977, estabelecendo o VIN com 17 caracteres alfanuméricos, e em 1981 esse padrão passa a ser adotado oficialmente nos Estados Unidos por determinação da NHTSA (alternativa A). Erram: B, pois a NBR 6066 (1980) apenas alinhou o Brasil à ISO 3779, não originou o padrão; C, pois a ISO 3779 é de 1977 (não 1966) e a obrigatoriedade nos EUA é de 1981; D, pois o padrão de 17 caracteres é da ISO 3779/1977, anterior à Resolução 659/1985.",
     "referencia": "Cap. 3, p. 11",
     "nivel": "medio"
   },
@@ -7292,11 +7289,10 @@ const questoesDB = [
       "A": "Decreto-Lei nº 2.994/1941 (primeiro Código Nacional de Trânsito) — reconhece o número de chassi como elemento central da individualização do veículo, marcando a vinculação à estrutura física.",
       "B": "Resolução Contran nº 24/1998 — rompe com o paradigma puramente administrativo e introduz, pela primeira vez no ordenamento brasileiro, a noção de identificação estrutural por caracteres gravados.",
       "C": "Lei nº 5.108/1966 (novo Código Nacional de Trânsito) — reconhece o número de chassi como elemento central da individualização do veículo.",
-      "D": "Resolução Contran nº 659/1985 — institui o sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes e elementos ocultos, tudo articulado ao RENAVAM.",
-      "E": "ABNT NBR 6066/1980 — institui o primeiro Código Nacional de Trânsito e vincula a identificação veicular exclusivamente ao registro, ao licenciamento e ao uso de placas."
+      "D": "Resolução Contran nº 659/1985 — institui o sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes e elementos ocultos, tudo articulado ao RENAVAM."
     },
     "resposta_correta": "C",
-    "justificativa": "O capítulo 3 afirma que a Lei nº 5.108/1966 institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo (alternativa C). Erram: A, pois o CNT de 1941 vinculava a identificação à placa/registro/licenciamento, sem identificador estruturado; B, pois quem rompeu com o paradigma administrativo e introduziu a identificação estrutural foi a Resolução 659/1985, sendo a 24/1998 norma consolidadora; D, pois o sistema multidentificador é da Resolução 968/2022, não da 659/1985; E, pois a NBR 6066 padronizou o VIN de 17 caracteres no Brasil, não instituiu o primeiro CNT.",
+    "justificativa": "O capítulo 3 afirma que a Lei nº 5.108/1966 institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo (alternativa C). Erram: A, pois o CNT de 1941 vinculava a identificação à placa/registro/licenciamento, sem identificador estruturado; B, pois quem rompeu com o paradigma administrativo e introduziu a identificação estrutural foi a Resolução 659/1985, sendo a 24/1998 norma consolidadora; D, pois o sistema multidentificador é da Resolução 968/2022, não da 659/1985.",
     "referencia": "Cap. 3, p. 12",
     "nivel": "dificil"
   },
@@ -7310,11 +7306,10 @@ const questoesDB = [
       "A": "a norma mantém uma visão centrada exclusivamente no VIN, reforçando a primazia desse identificador único como sinal autossuficiente da identidade veicular, sem articulação com o RENAVAM.",
       "B": "a norma é dirigida apenas à identificação externa do veículo, isto é, às placas, deixando toda a identificação estrutural ao encargo de norma técnica específica editada pela ABNT.",
       "C": "a norma adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais, com forte integração ao RENAVAM.",
-      "D": "a norma revoga toda a legislação anterior sobre identificação e reduz o sistema brasileiro a uma única gravação obrigatória do VIN em ponto único do chassi, abandonando a lógica distribuída.",
-      "E": "a norma restringe a identificação distribuída apenas aos veículos de carga e de transporte coletivo, mantendo, para os automóveis de passeio, o modelo anterior centrado unicamente no número de chassi."
+      "D": "a norma revoga toda a legislação anterior sobre identificação e reduz o sistema brasileiro a uma única gravação obrigatória do VIN em ponto único do chassi, abandonando a lógica distribuída."
     },
     "resposta_correta": "C",
-    "justificativa": "Conforme o capítulo 3, a Resolução Contran nº 968/2022 abandona uma visão centrada exclusivamente no VIN e adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais, com a identificação tornando-se distribuída, rastreável e fortemente integrada ao RENAVAM (alternativa C). Erram A e D, pois a norma justamente abandona a centralidade exclusiva do VIN e adota modelo distribuído; B, pois trata da identificação estrutural, não apenas das placas; E, pois o material não restringe o sistema multidentificador a categorias de veículos.",
+    "justificativa": "Conforme o capítulo 3, a Resolução Contran nº 968/2022 abandona uma visão centrada exclusivamente no VIN e adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais, com a identificação tornando-se distribuída, rastreável e fortemente integrada ao RENAVAM (alternativa C). Erram A e D, pois a norma justamente abandona a centralidade exclusiva do VIN e adota modelo distribuído; B, pois trata da identificação estrutural, não apenas das placas.",
     "referencia": "Cap. 3, p. 12-13",
     "nivel": "facil"
   },
@@ -7328,11 +7323,10 @@ const questoesDB = [
       "A": "A Resolução nº 24/1998 foi pioneira ao prever a identificação por caracteres gravados em elemento estrutural, ao passo que a Resolução nº 659/1985 se limitou a disciplinar a confecção e a fixação das placas.",
       "B": "A Resolução nº 659/1985 foi o primeiro diploma infralegal a estruturar um modelo de identificação material e integrada, enquanto a Resolução nº 24/1998 consolidou e sistematizou o modelo já existente, alinhando-o ao CTB.",
       "C": "Ambas as resoluções tratam exclusivamente da identificação externa do veículo por placas, não abordando, em nenhum momento, a identificação por caracteres gravados em chassi ou em monobloco do veículo.",
-      "D": "A Resolução nº 691/1988 revogou integralmente o regime de identificação por gravação estrutural instituído em 1985, fazendo o sistema brasileiro retornar a uma lógica de controle puramente administrativo e fiscalizatório.",
-      "E": "A Resolução nº 24/1998 antecedeu cronologicamente a Resolução nº 659/1985 e, por isso, estabeleceu as bases técnicas que depois seriam apenas detalhadas pelo diploma de 1985 e por sua alteração de 1988."
+      "D": "A Resolução nº 691/1988 revogou integralmente o regime de identificação por gravação estrutural instituído em 1985, fazendo o sistema brasileiro retornar a uma lógica de controle puramente administrativo e fiscalizatório."
     },
     "resposta_correta": "B",
-    "justificativa": "O capítulo 3 indica que a Resolução nº 659/1985 representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação veicular de natureza material e integrada e que a Resolução nº 24/1998 funcionou como instrumento de organização, consolidação e sistematização de um modelo já existente, alinhando as práticas ao recém-instituído CTB (alternativa B). Erram: A e C, pois a 659/1985 já previa a gravação estrutural; D, pois a 691/1988 apenas alterou a 659/1985, não revogou o regime de gravação; E, pois a 24/1998 é posterior à 659/1985.",
+    "justificativa": "O capítulo 3 indica que a Resolução nº 659/1985 representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação veicular de natureza material e integrada e que a Resolução nº 24/1998 funcionou como instrumento de organização, consolidação e sistematização de um modelo já existente, alinhando as práticas ao recém-instituído CTB (alternativa B). Erram: A e C, pois a 659/1985 já previa a gravação estrutural; D, pois a 691/1988 apenas alterou a 659/1985, não revogou o regime de gravação.",
     "referencia": "Cap. 3, p. 12",
     "nivel": "medio"
   },
@@ -7346,11 +7340,10 @@ const questoesDB = [
       "A": "A camioneta integra a espécie de carga, por destinar-se ao transporte de mercadorias com PBT até 3,5 toneladas, ao passo que o caminhão-trator integra a espécie de competição, em razão de seu emprego típico em provas esportivas off-road de elevada exigência mecânica.",
       "B": "A camioneta integra a espécie de passageiros, limitada a até oito ocupantes, ao passo que o caminhão-trator integra a espécie de carga, por apresentar PBT superior a 3,5 toneladas e destinar-se ao transporte de mercadorias e materiais.",
       "C": "A camioneta integra a espécie mista, por combinar o transporte de pessoas e de carga no mesmo compartimento, e o caminhão-trator integra a espécie de tração, por destinar-se primordialmente a tracionar outros veículos, implementos ou equipamentos.",
-      "D": "Ambos integram a espécie especial, por possuírem destinação ou uso específico que justifica tratamento normativo diferenciado e não se enquadrarem com precisão nas demais categorias previstas pelo CTB.",
-      "E": "A camioneta integra a espécie de tração, por rebocar implementos agrícolas, e o caminhão-trator integra a espécie mista, por transportar simultaneamente o condutor e a carga acoplada à unidade tratora."
+      "D": "Ambos integram a espécie especial, por possuírem destinação ou uso específico que justifica tratamento normativo diferenciado e não se enquadrarem com precisão nas demais categorias previstas pelo CTB."
     },
     "resposta_correta": "C",
-    "justificativa": "Segundo o capítulo 4, na espécie mista inserem-se a camioneta (passageiros e carga no mesmo compartimento) e o utilitário (item 4.2.3). Já a espécie de tração reúne os veículos destinados primordialmente a tracionar outros veículos, implementos ou equipamentos, como o caminhão-trator e os tratores (item 4.2.5). A está errada: a caminhonete (com 'h'), e não a camioneta, é que integra a espécie de carga com PBT até 3,5 ton, e o caminhão-trator não é veículo de competição. B confunde a camioneta com automóvel/passageiros e o caminhão-trator com caminhão de carga. D atribui indevidamente a espécie especial a ambos. E inverte os enquadramentos de tração e mista.",
+    "justificativa": "Segundo o capítulo 4, na espécie mista inserem-se a camioneta (passageiros e carga no mesmo compartimento) e o utilitário (item 4.2.3). Já a espécie de tração reúne os veículos destinados primordialmente a tracionar outros veículos, implementos ou equipamentos, como o caminhão-trator e os tratores (item 4.2.5). A está errada: a caminhonete (com 'h'), e não a camioneta, é que integra a espécie de carga com PBT até 3,5 ton, e o caminhão-trator não é veículo de competição. B confunde a camioneta com automóvel/passageiros e o caminhão-trator com caminhão de carga. D atribui indevidamente a espécie especial a ambos.",
     "referencia": "Cap. 4, p. 17",
     "nivel": "medio"
   },
@@ -7398,11 +7391,10 @@ const questoesDB = [
       "A": "Ambas as espécies estão integralmente dispensadas de qualquer forma de identificação veicular, estrutural ou externa, em razão da finalidade não utilitária do bem e da ausência de circulação regular em vias públicas.",
       "B": "Na espécie de competição, a identificação obedece estritamente ao mesmo padrão técnico dos automotores comuns; na de coleção, exige-se a aposição de placa do padrão Mercosul com QR Code para fins de rastreamento histórico do veículo.",
       "C": "A espécie de competição admite regimes especiais de identificação, dispensas parciais de registro e licenciamento e restrições severas de circulação, enquanto na de coleção a identificação assume função adicional de preservação da originalidade.",
-      "D": "Os veículos de coleção devem ter o VIN suprimido do elemento estrutural para preservar a originalidade histórica, ao passo que os de competição mantêm a identificação estrutural intacta, mas ficam dispensados de placa externa de qualquer natureza.",
-      "E": "Em ambos os casos, a identificação veicular obedece estritamente ao mesmo padrão técnico aplicado a veículos automotores comuns, não se admitindo exceções, dispensas ou regimes próprios de registro e circulação para qualquer das espécies."
+      "D": "Os veículos de coleção devem ter o VIN suprimido do elemento estrutural para preservar a originalidade histórica, ao passo que os de competição mantêm a identificação estrutural intacta, mas ficam dispensados de placa externa de qualquer natureza."
     },
     "resposta_correta": "C",
-    "justificativa": "O capítulo 4 dispõe que a espécie de competição justifica regimes especiais ou excepcionais de identificação, dispensas parciais de registro e licenciamento e restrições severas de circulação (item 4.2.4, p. 17); e que, na espécie de coleção, a identificação veicular assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação (item 4.2.7, p. 18). A e E estão erradas porque o material não dispensa toda identificação nem exige padrão idêntico ao dos automotores comuns. B e D inventam exigências (QR Code Mercosul, supressão do VIN) não previstas no material.",
+    "justificativa": "O capítulo 4 dispõe que a espécie de competição justifica regimes especiais ou excepcionais de identificação, dispensas parciais de registro e licenciamento e restrições severas de circulação (item 4.2.4, p. 17); e que, na espécie de coleção, a identificação veicular assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação (item 4.2.7, p. 18). A está errada porque o material não dispensa toda identificação nem exige padrão idêntico ao dos automotores comuns. B e D inventam exigências (QR Code Mercosul, supressão do VIN) não previstas no material.",
     "referencia": "Cap. 4, p. 17-18",
     "nivel": "medio"
   },
@@ -7416,11 +7408,10 @@ const questoesDB = [
       "A": "Por se referirem a peças de reposição usuais, tais marcações não comprovam adulteração e, isoladamente, somente indicam manutenção corretiva, não devendo integrar a fundamentação do laudo.",
       "B": "As marcações em vidros e as etiquetas de cintos têm valor pericial, mas o código da bomba d'água é irrelevante, por não estar relacionado a lotes ou a períodos específicos de produção.",
       "C": "Marcações em vidros, etiquetas de cintos e códigos de bombas d'água atuam como marcadores temporais, e a convergência ou divergência dessas informações auxilia na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais.",
-      "D": "Esses elementos têm valor meramente acessório e jamais fundamentam conclusão pericial, pois apenas o VIN e a placa possuem validade jurídica para a identificação do veículo perante os sistemas administrativos.",
-      "E": "A análise desses elementos é vedada ao perito criminal, devendo ser realizada exclusivamente pelo fabricante, mediante requisição judicial e perícia complementar de natureza técnica especializada."
+      "D": "Esses elementos têm valor meramente acessório e jamais fundamentam conclusão pericial, pois apenas o VIN e a placa possuem validade jurídica para a identificação do veículo perante os sistemas administrativos."
     },
     "resposta_correta": "C",
-    "justificativa": "Correta a C: o capítulo 5 afirma que vidros apresentam marcações com fabricante e ano de produção e cintos trazem etiquetas com data de fabricação, e que 'a convergência ou divergência dessas informações pode auxiliar na identificação do período de fabricação do veículo e na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais', incluindo códigos de bombas d'água como marcadores temporais. A erra ao negar valor probatório a tais marcações, que o material reconhece como úteis na detecção de adulterações. B erra ao excluir a bomba d'água, expressamente citada entre os componentes vinculados a lotes e períodos de produção. D erra ao reduzi-los a valor acessório, pois o material lhes atribui valor pericial de corroboração. E erra porque o material insere essa análise no trabalho do perito, sem qualquer vedação ou exclusividade do fabricante.",
+    "justificativa": "Correta a C: o capítulo 5 afirma que vidros apresentam marcações com fabricante e ano de produção e cintos trazem etiquetas com data de fabricação, e que 'a convergência ou divergência dessas informações pode auxiliar na identificação do período de fabricação do veículo e na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais', incluindo códigos de bombas d'água como marcadores temporais. A erra ao negar valor probatório a tais marcações, que o material reconhece como úteis na detecção de adulterações. B erra ao excluir a bomba d'água, expressamente citada entre os componentes vinculados a lotes e períodos de produção. D erra ao reduzi-los a valor acessório, pois o material lhes atribui valor pericial de corroboração.",
     "referencia": "Cap. 5, p. 19-20",
     "nivel": "medio"
   },
@@ -7434,11 +7425,10 @@ const questoesDB = [
       "A": "Como o VIN e a placa são, em tese, suficientes para individualizar o veículo e raramente são objeto de fraude na prática, o exame pericial pode legitimamente limitar-se à conferência desses dois identificadores principais.",
       "B": "Os identificadores secundários e terciários, como os códigos próprios de motores, caixas de câmbio, eixos, cabines e carrocerias, substituem o VIN para fins de identificação oficial do veículo nos sistemas administrativos.",
       "C": "As características externas, como tipo de carroceria, número de portas, formato de lanternas e detalhes cromados, são irrelevantes para a identificação, devendo o perito desprezá-las e concentrar-se exclusivamente nos elementos mecânicos.",
-      "D": "Em tese o chassi e a placa individualizam o veículo, mas a recorrência de fraudes impõe a análise integrada de características externas, internas, mecânicas e documentais, sendo os identificadores secundários e terciários elementos de corroboração que verificam coerência temporal e indícios de substituição.",
-      "E": "As características construtivas e funcionais, como suspensão, freios e motorização, não seguem padrão definido pelo fabricante e variam livremente entre unidades de um mesmo modelo, razão pela qual não auxiliam na confirmação de compatibilidade."
+      "D": "Em tese o chassi e a placa individualizam o veículo, mas a recorrência de fraudes impõe a análise integrada de características externas, internas, mecânicas e documentais, sendo os identificadores secundários e terciários elementos de corroboração que verificam coerência temporal e indícios de substituição."
     },
     "resposta_correta": "D",
-    "justificativa": "Correta a D: o capítulo 5 afirma que, 'embora a numeração de chassi e a placa sejam, em tese, suficientes para individualizar um veículo, a realidade prática demonstra a recorrência de fraudes nesses dois elementos', impondo a 'análise integrada de características externas, internas, mecânicas e documentais', e descreve os identificadores secundários e terciários como 'elementos de corroboração' que verificam coerência temporal e indícios de substituição. A erra ao afirmar raridade de fraudes e ao autorizar o exame limitado aos dois identificadores principais, contrariando o ponto crítico do material. B erra porque os códigos secundários/terciários 'não substituem o VIN'. C erra porque as características externas são o primeiro nível de observação pericial e podem revelar incompatibilidades. E erra porque tais características possuem 'padrão definido pelo fabricante' e seguem lógica de produção vinculada a modelos e versões.",
+    "justificativa": "Correta a D: o capítulo 5 afirma que, 'embora a numeração de chassi e a placa sejam, em tese, suficientes para individualizar um veículo, a realidade prática demonstra a recorrência de fraudes nesses dois elementos', impondo a 'análise integrada de características externas, internas, mecânicas e documentais', e descreve os identificadores secundários e terciários como 'elementos de corroboração' que verificam coerência temporal e indícios de substituição. A erra ao afirmar raridade de fraudes e ao autorizar o exame limitado aos dois identificadores principais, contrariando o ponto crítico do material. B erra porque os códigos secundários/terciários 'não substituem o VIN'. C erra porque as características externas são o primeiro nível de observação pericial e podem revelar incompatibilidades.",
     "referencia": "Cap. 5, p. 19-20",
     "nivel": "dificil"
   },
@@ -7452,11 +7442,10 @@ const questoesDB = [
       "A": "decorre da Resolução Contran nº 729/2018, primeira norma a instituir o padrão Mercosul com indicação apenas do país e código serial único associado a QR Code de leitura obrigatória.",
       "B": "é próprio da Resolução Contran nº 969/2022, que consolidou o padrão Mercosul mantendo a vinculação visual da placa ao município e à Unidade da Federação de registro do veículo.",
       "C": "foi estabelecido pela Resolução Contran nº 231/2007, que disciplinou dimensões, tipologia dos caracteres, pintura, cores associadas às categorias, materiais, refletividade e dispositivos de lacração.",
-      "D": "é exclusivo de veículos oficiais, diplomáticos e consulares, sendo vedada sua adoção em veículos de propriedade particular no regime normativo então vigente no território nacional.",
-      "E": "originou-se da Resolução Contran nº 45/1998, que instituiu o padrão cinza nacional já com tarjetas de município e dispositivos eletrônicos de autenticação digital da placa."
+      "D": "é exclusivo de veículos oficiais, diplomáticos e consulares, sendo vedada sua adoção em veículos de propriedade particular no regime normativo então vigente no território nacional."
     },
     "resposta_correta": "C",
-    "justificativa": "Conforme a Seção 6.1, a Resolução nº 231/2007 estabeleceu o sistema baseado em três letras e quatro números, com tarjetas indicativas da UF e do município de registro, detalhando 'as dimensões físicas das placas, a tipologia dos caracteres, o sistema de pintura, as cores associadas às categorias de veículos, os materiais admitidos, os parâmetros de refletividade e os dispositivos de lacração' (alternativa C). A está errada: a Res. 729/2018 implantou o padrão Mercosul, não o modelo de três letras e quatro números com tarjetas e lacre físico. B inverte a evolução: a Res. 969/2022 (Mercosul) deixa de exibir município e UF, indicando apenas o país. D é falsa: o padrão alcançava também veículos particulares. E está incorreta: a Res. 45/1998 instituiu o padrão cinza, sem QR Code ou autenticação digital.",
+    "justificativa": "Conforme a Seção 6.1, a Resolução nº 231/2007 estabeleceu o sistema baseado em três letras e quatro números, com tarjetas indicativas da UF e do município de registro, detalhando 'as dimensões físicas das placas, a tipologia dos caracteres, o sistema de pintura, as cores associadas às categorias de veículos, os materiais admitidos, os parâmetros de refletividade e os dispositivos de lacração' (alternativa C). A está errada: a Res. 729/2018 implantou o padrão Mercosul, não o modelo de três letras e quatro números com tarjetas e lacre físico. B inverte a evolução: a Res. 969/2022 (Mercosul) deixa de exibir município e UF, indicando apenas o país. D é falsa: o padrão alcançava também veículos particulares.",
     "referencia": "Cap. 6, Seção 6.1, p. 22",
     "nivel": "facil"
   },
@@ -7487,11 +7476,10 @@ const questoesDB = [
       "A": "remontagem estrutural não autorizada, cuja caracterização depende exclusivamente da conferência do número da carroceria com o registro administrativo do proprietário legítimo.",
       "B": "clonagem de placas, consistente na reprodução indevida da placa externa de veículo legítimo, criando dissociação intencional entre a identificação externa e a gravada no chassi ou monobloco.",
       "C": "regravação autorizada de identificadores, regida pela Resolução nº 968/2022, que configura hipótese lícita de regularização administrativa quando há perda do número original do chassi.",
-      "D": "adulteração de etiqueta autocolante (ETA), restrita aos vidros e demais superfícies envidraçadas do veículo, independendo por completo da análise das placas de identificação externa.",
-      "E": "substituição regular de placa por alteração de categoria, prevista no regime da Resolução nº 231/2007, que exigia nova placa sempre que modificada a categoria do veículo registrado."
+      "D": "adulteração de etiqueta autocolante (ETA), restrita aos vidros e demais superfícies envidraçadas do veículo, independendo por completo da análise das placas de identificação externa."
     },
     "resposta_correta": "B",
-    "justificativa": "Conforme a Seção 6.3, 'A clonagem de placas consiste na reprodução indevida da placa de identificação externa de um veículo legítimo, com a finalidade de atribuir a outro veículo - geralmente de mesma marca, modelo e cor semelhantes - uma identidade aparente idêntica', criando 'uma dissociação intencional entre a identificação externa e a identificação obrigatória por caracteres gravados no chassi ou no monobloco' (alternativa B). As demais descrevem condutas diversas: remontagem estrutural (A), regravação administrativa (C), adulteração de etiqueta nos vidros (D) e substituição regular por mudança de categoria (E) não correspondem ao quadro fático de placa idêntica com chassi e monobloco distintos.",
+    "justificativa": "Conforme a Seção 6.3, 'A clonagem de placas consiste na reprodução indevida da placa de identificação externa de um veículo legítimo, com a finalidade de atribuir a outro veículo - geralmente de mesma marca, modelo e cor semelhantes - uma identidade aparente idêntica', criando 'uma dissociação intencional entre a identificação externa e a identificação obrigatória por caracteres gravados no chassi ou no monobloco' (alternativa B). As demais descrevem condutas diversas: remontagem estrutural (A), regravação administrativa (C) e adulteração de etiqueta nos vidros (D) não correspondem ao quadro fático de placa idêntica com chassi e monobloco distintos.",
     "referencia": "Cap. 6, Seção 6.3, p. 25-26",
     "nivel": "facil"
   },
@@ -7505,11 +7493,10 @@ const questoesDB = [
       "A": "corresponde ao código de cadastramento do fabricante da placa e da tarjeta, especificado pela Resolução nº 241/2007, gravado em superfície plana, em alto ou baixo relevo.",
       "B": "constitui o número de série do QR Code, elemento de rastreabilidade exclusivo do padrão Mercosul, exigido pela Resolução nº 969/2022 e verificável por meio do aplicativo VIO oficial.",
       "C": "representa o código WMI do fabricante do veículo, vinculado à norma ABNT NBR 6066:2022 e gravado obrigatoriamente no monobloco para individualização estrutural da unidade.",
-      "D": "é o lacre físico da placa traseira que, no regime então vigente, substituía qualquer outra forma de identificação do estampador credenciado perante o órgão executivo de trânsito.",
-      "E": "indica o código de jurisdição administrativa do município de registro, mantido fixo mesmo após mudança de domicílio do proprietário, nos termos da Resolução Contran nº 45/1998."
+      "D": "é o lacre físico da placa traseira que, no regime então vigente, substituía qualquer outra forma de identificação do estampador credenciado perante o órgão executivo de trânsito."
     },
     "resposta_correta": "A",
-    "justificativa": "Conforme a Seção 6.1, 'A Resolução 241/2007 [...] especificava o código de cadastramento do fabricante da placa e da tarjeta, composto por um número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo'; a Res. 231/2007 prevê a obrigatoriedade da gravação do registro do fabricante em superfície plana (alternativa A). B é falsa: o QR Code é do padrão Mercosul (Res. 969/2022), de natureza distinta. C confunde com o WMI do VIN, gravado no veículo, não na placa. D é incorreta: o lacre não substitui a identificação do estampador. E não encontra respaldo no texto, que descreve o elemento como código do fabricante da placa.",
+    "justificativa": "Conforme a Seção 6.1, 'A Resolução 241/2007 [...] especificava o código de cadastramento do fabricante da placa e da tarjeta, composto por um número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo'; a Res. 231/2007 prevê a obrigatoriedade da gravação do registro do fabricante em superfície plana (alternativa A). B é falsa: o QR Code é do padrão Mercosul (Res. 969/2022), de natureza distinta. C confunde com o WMI do VIN, gravado no veículo, não na placa. D é incorreta: o lacre não substitui a identificação do estampador.",
     "referencia": "Cap. 6, Seção 6.1, p. 22",
     "nivel": "medio"
   },
@@ -7540,11 +7527,10 @@ const questoesDB = [
       "A": "número do RENAVAM, CPF do proprietário, histórico de multas e situação do licenciamento, com identificação completa dos débitos administrativos pendentes do veículo.",
       "B": "número de série do QR Code, UF e município de estampagem, tipo da placa, situação administrativa, data e hora da estampagem e órgão responsável pela lacração.",
       "C": "número do motor, número do câmbio, número dos eixos e número da carroceria do veículo, todos correlacionados aos caracteres gravados no chassi ou monobloco da unidade.",
-      "D": "decomposição do número de identificação veicular em WMI, VDS e VIS, perfazendo as três seções dos dezessete caracteres exigidos pela norma técnica de marcação.",
-      "E": "apenas a marca, o modelo e a cor do veículo, suprimindo-se quaisquer dados da empresa estampadora em razão do sigilo industrial conferido aos fabricantes credenciados."
+      "D": "decomposição do número de identificação veicular em WMI, VDS e VIS, perfazendo as três seções dos dezessete caracteres exigidos pela norma técnica de marcação."
     },
     "resposta_correta": "B",
-    "justificativa": "Conforme a Seção 6.2, 'são apresentados os dados da estampagem da placa, que incluem o número de série do QR Code, a unidade federativa e o município onde a placa foi estampada, o tipo da placa (por exemplo, dianteira ou traseira), a situação administrativa da placa (ativa, cancelada etc.), a data e a hora da estampagem e o órgão responsável pela lacração' (alternativa B). A descreve dados de cadastro administrativo do veículo, não da estampagem. C e D referem-se a identificadores estruturais e ao VIN, distintos dos dados da estampagem. E é falsa, pois entre os dados retornados constam CNPJ e razão social da estampadora.",
+    "justificativa": "Conforme a Seção 6.2, 'são apresentados os dados da estampagem da placa, que incluem o número de série do QR Code, a unidade federativa e o município onde a placa foi estampada, o tipo da placa (por exemplo, dianteira ou traseira), a situação administrativa da placa (ativa, cancelada etc.), a data e a hora da estampagem e o órgão responsável pela lacração' (alternativa B). A descreve dados de cadastro administrativo do veículo, não da estampagem. C e D referem-se a identificadores estruturais e ao VIN, distintos dos dados da estampagem.",
     "referencia": "Cap. 6, Seção 6.2, p. 25",
     "nivel": "medio"
   },
@@ -8442,11 +8428,10 @@ const questoesDB = [
       "A": "Por ausência de circulação do veículo e de prejuízo concreto a terceiro, e tratando-se de simples regravação destinada à regularização do próprio bem, a conduta é atípica, configurando, no máximo, ilícito administrativo de trânsito.",
       "B": "A configuração do tipo exige finalidade específica de revenda ou de prática de outro ilícito, de modo que, ausente esse elemento subjetivo especial, o art. 311 não se aperfeiçoa na hipótese descrita.",
       "C": "Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da circulação do veículo ou de prejuízo a terceiros, sendo a finalidade do agente irrelevante.",
-      "D": "A regravação realizada sem autorização legal, ainda que sob alegação de boa-fé ou de regularização, configura conduta culposa do art. 311, punível a título de negligência diante da omissão do prévio pedido administrativo.",
-      "E": "A consumação fica diferida ao instante em que o veículo, já com o identificador regravado, é efetivamente colocado em circulação, momento em que se materializa a ofensa à autenticidade do sistema de identificação veicular."
+      "D": "A regravação realizada sem autorização legal, ainda que sob alegação de boa-fé ou de regularização, configura conduta culposa do art. 311, punível a título de negligência diante da omissão do prévio pedido administrativo."
     },
     "resposta_correta": "C",
-    "justificativa": "Correta a alternativa C: segundo o capítulo 2, 'Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da efetiva circulação do veículo ou da produção de prejuízo concreto a terceiros' e 'A finalidade do agente é irrelevante para a configuração do tipo' (p. 9). A erra porque a conduta é típica mesmo sem circulação ou prejuízo. B erra porque o tipo não exige elemento subjetivo especial (finalidade irrelevante, p. 9). D erra porque não se pune a conduta culposa, sendo o crime exclusivamente doloso (p. 9). E erra porque a consumação ocorre com a adulteração, e não com a circulação posterior (crime formal, p. 9).",
+    "justificativa": "Correta a alternativa C: segundo o capítulo 2, 'Trata-se de crime formal, que se consuma com a simples prática da adulteração, independentemente da efetiva circulação do veículo ou da produção de prejuízo concreto a terceiros' e 'A finalidade do agente é irrelevante para a configuração do tipo' (p. 9). A erra porque a conduta é típica mesmo sem circulação ou prejuízo. B erra porque o tipo não exige elemento subjetivo especial (finalidade irrelevante, p. 9). D erra porque não se pune a conduta culposa, sendo o crime exclusivamente doloso (p. 9).",
     "referencia": "Cap. 2, p. 9-10",
     "nivel": "medio"
   },
@@ -8460,11 +8445,10 @@ const questoesDB = [
       "A": "O bem jurídico é a incolumidade pública no trânsito, de modo que a tutela penal recai apenas sobre os componentes mecânicos cuja adulteração tenha impacto direto e demonstrável na segurança da circulação do veículo.",
       "B": "A tese é correta quanto ao bem jurídico, mas equivoca-se no objeto, pois, além do VIN, também os identificadores externos ostensivos, como a placa traseira lacrada, integram o patrimônio tutelado pela norma penal.",
       "C": "O bem jurídico tutelado é a fé pública e a autenticidade do sistema de identificação veicular, e o tipo abrange não só o VIN, mas também placas, motores, câmbios, carrocerias e outros agregados com numeração identificadora.",
-      "D": "O bem jurídico protegido é a livre concorrência no mercado automotivo, alcançando exclusivamente as adulterações praticadas com finalidade de revenda comercial do veículo a consumidor de boa-fé.",
-      "E": "O bem jurídico é o patrimônio do Estado, titular do sistema de registro, de sorte que o tipo recai unicamente sobre os documentos e registros administrativos, e não sobre os sinais físicos gravados no veículo."
+      "D": "O bem jurídico protegido é a livre concorrência no mercado automotivo, alcançando exclusivamente as adulterações praticadas com finalidade de revenda comercial do veículo a consumidor de boa-fé."
     },
     "resposta_correta": "C",
-    "justificativa": "Correta a alternativa C: o capítulo 2 afirma que o art. 311 'constitui um dos principais dispositivos penais de proteção à fé pública e à segurança do sistema de identificação veicular' e que 'o tipo penal abrange não só o VIN, mas também placas de identificação, motores, câmbios, carrocerias e outros agregados que possuam numeração ou marcação destinada à identificação' (p. 9); a tutela incide sobre o sinal identificador como instrumento de individualização do bem. A erra porque o bem jurídico não é a incolumidade no trânsito nem se restringe a componentes mecânicos. B, D e E erram ao reduzir indevidamente o bem jurídico (a patrimônio individual, livre concorrência ou patrimônio do Estado) e ao restringir o objeto material, contrariando a ampla abrangência prevista no material (p. 9).",
+    "justificativa": "Correta a alternativa C: o capítulo 2 afirma que o art. 311 'constitui um dos principais dispositivos penais de proteção à fé pública e à segurança do sistema de identificação veicular' e que 'o tipo penal abrange não só o VIN, mas também placas de identificação, motores, câmbios, carrocerias e outros agregados que possuam numeração ou marcação destinada à identificação' (p. 9). A erra porque o bem jurídico não é a incolumidade no trânsito nem se restringe a componentes mecânicos. B e D erram ao reduzir indevidamente o bem jurídico (a patrimônio individual ou livre concorrência) e ao restringir o objeto material, contrariando a ampla abrangência prevista no material (p. 9).",
     "referencia": "Cap. 2, p. 9",
     "nivel": "dificil"
   },
@@ -8495,11 +8479,10 @@ const questoesDB = [
       "A": "À Resolução Contran nº 24/1998, que, ao consolidar o sistema brasileiro, foi a primeira a prever a identificação por caracteres gravados em elemento estrutural do veículo.",
       "B": "À Resolução Contran nº 968/2022, que introduziu, em caráter inédito no país, a noção de identificação estrutural ao lado da tradicional identificação externa por placas.",
       "C": "Ao Decreto-Lei nº 3.651, de 1941, que tratou da identificação externa por meio de placas e, simultaneamente, do número de chassi como elemento central de individualização.",
-      "D": "À Lei nº 5.108, de 1966, que institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo.",
-      "E": "À ABNT NBR 6066, de 1980, que, ao alinhar o Brasil à ISO 3779, foi o marco que deslocou a identificação da placa para a estrutura física do veículo."
+      "D": "À Lei nº 5.108, de 1966, que institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo."
     },
     "resposta_correta": "D",
-    "justificativa": "O capítulo 3 destaca que a Lei nº 5.108/1966 institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo, representando a transição para uma identificação menos dependente da placa e mais vinculada à estrutura física (alternativa D). Erram: A, pois a 24/1998 consolidou modelo já existente; B, pois a 968/2022 representa a maturidade, não a transição inicial; C, pois o diploma de 1941 vinculava a identificação a placa/registro, sem chassi como elemento central; E, pois a NBR 6066 padronizou o VIN de 17 caracteres, não marcou a transição conceitual de 1966.",
+    "justificativa": "O capítulo 3 destaca que a Lei nº 5.108/1966 institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo, representando a transição para uma identificação menos dependente da placa e mais vinculada à estrutura física (alternativa D). Erram: A, pois a 24/1998 consolidou modelo já existente; B, pois a 968/2022 representa a maturidade, não a transição inicial; C, pois o diploma de 1941 vinculava a identificação a placa/registro, sem chassi como elemento central.",
     "referencia": "Cap. 3, p. 12",
     "nivel": "medio"
   },
@@ -8513,11 +8496,10 @@ const questoesDB = [
       "A": "A do primeiro, pois a norma reforça a centralidade exclusiva do VIN e mantém os demais elementos como meros desdobramentos acessórios, sem qualquer integração ao RENAVAM ou rastreabilidade distribuída.",
       "B": "A do primeiro, pois a norma se limita a sistematizar a gravação do VIN em chassi e monobloco, sem inovar quanto a outros elementos identificadores nem alterar a lógica anteriormente vigente no país.",
       "C": "A do segundo, mas apenas em relação aos veículos de competição e de coleção, mantendo-se, quanto aos demais, o modelo restrito ao VIN gravado em chassi e a respectivas exigências formais.",
-      "D": "A do segundo, pois a norma adota um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas, elementos ocultos e registros digitais), fortemente integrado ao RENAVAM.",
-      "E": "A do segundo, embora a integração ao RENAVAM e a rastreabilidade distribuída só passem a valer após a edição da Lei nº 14.562/2023, que teria conferido eficácia plena à resolução."
+      "D": "A do segundo, pois a norma adota um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas, elementos ocultos e registros digitais), fortemente integrado ao RENAVAM."
     },
     "resposta_correta": "D",
-    "justificativa": "Conforme o capítulo 3, a Resolução Contran nº 968/2022 abandona a visão centrada exclusivamente no VIN e adota um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais), distribuído, rastreável e fortemente integrado ao RENAVAM (alternativa D). Erram A e B, pois a norma não mantém a centralidade exclusiva do VIN; C, pois o material não restringe o modelo a categorias de veículos; E, pois a integração ao RENAVAM decorre da própria 968/2022, sendo a Lei 14.562/2023 norma de reforço penal.",
+    "justificativa": "Conforme o capítulo 3, a Resolução Contran nº 968/2022 abandona a visão centrada exclusivamente no VIN e adota um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais), distribuído, rastreável e fortemente integrado ao RENAVAM (alternativa D). Erram A e B, pois a norma não mantém a centralidade exclusiva do VIN; C, pois o material não restringe o modelo a categorias de veículos.",
     "referencia": "Cap. 3, p. 12-13",
     "nivel": "facil"
   },
@@ -8531,11 +8513,10 @@ const questoesDB = [
       "A": "o candidato acerta integralmente, pois somente a Resolução nº 24/1998 inaugura a identificação estrutural, ao passo que a Resolução nº 659/1985 teve natureza puramente administrativa e fiscalizatória.",
       "B": "o candidato acerta parcialmente, pois ambas as resoluções romperam o paradigma administrativo, mas apenas a alteração promovida pela Resolução nº 691/1988 introduziu a identificação em elemento estrutural.",
       "C": "o candidato erra, pois a Resolução nº 659/1985 já previa a identificação por caracteres gravados em elemento estrutural e rompeu com o paradigma administrativo, cabendo à Resolução nº 24/1998 papel consolidador.",
-      "D": "o candidato erra, pois nem a Resolução nº 659/1985 nem a Resolução nº 24/1998 previam identificação em elemento estrutural, exigência que só teria sido introduzida, em caráter inédito, pela Resolução Contran nº 968/2022.",
-      "E": "o candidato erra quanto às datas, mas acerta no mérito, pois foi efetivamente a ABNT NBR 6066, e não as resoluções do Contran, que inaugurou a identificação por caracteres gravados em elemento estrutural."
+      "D": "o candidato erra, pois nem a Resolução nº 659/1985 nem a Resolução nº 24/1998 previam identificação em elemento estrutural, exigência que só teria sido introduzida, em caráter inédito, pela Resolução Contran nº 968/2022."
     },
     "resposta_correta": "C",
-    "justificativa": "O capítulo 3 afirma que a Resolução nº 659/1985 representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação material e integrada, já prevendo a identificação por caracteres gravados em elemento estrutural e rompendo definitivamente com o paradigma puramente administrativo, enquanto a Resolução nº 24/1998 funcionou como instrumento de organização, consolidação e sistematização do modelo já existente (alternativa C). Erram A e B, pois a gravação estrutural é da 659/1985, não da 24/1998 nem isoladamente da 691/1988; D, pois a gravação estrutural antecede a 968/2022; E, pois a NBR 6066 padronizou o VIN, não instituiu o regime das resoluções do Contran.",
+    "justificativa": "O capítulo 3 afirma que a Resolução nº 659/1985 representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação material e integrada, já prevendo a identificação por caracteres gravados em elemento estrutural e rompendo definitivamente com o paradigma puramente administrativo, enquanto a Resolução nº 24/1998 funcionou como instrumento de organização, consolidação e sistematização do modelo já existente (alternativa C). Erram A e B, pois a gravação estrutural é da 659/1985, não da 24/1998 nem isoladamente da 691/1988; D, pois a gravação estrutural antecede a 968/2022.",
     "referencia": "Cap. 3, p. 12",
     "nivel": "dificil"
   },
@@ -8549,11 +8530,10 @@ const questoesDB = [
       "A": "Motocicleta de carga, em razão da configuração construtiva com dispositivos permanentes para acondicionamento de bens e do uso típico em serviços urbanos de entrega de mercadorias.",
       "B": "Ciclomotor, integrante da espécie de passageiros, em razão de tratar-se de veículo automotor de duas rodas com velocidade máxima de fabricação inferior a 50 km/h.",
       "C": "Quadriciclo de uso urbano restrito, por ser veículo automotor de pequeno porte concebido para deslocamentos curtos em perímetro urbano, integrando a espécie mista por conduzir condutor e carga.",
-      "D": "Motoneta, integrante da espécie de passageiros, por tratar-se de veículo de duas rodas com condutor na posição sentada.",
-      "E": "Triciclo de passageiros, por destinar-se primordialmente ao transporte de pessoas em posição sentada, ainda que sobre duas rodas dispostas em linha."
+      "D": "Motoneta, integrante da espécie de passageiros, por tratar-se de veículo de duas rodas com condutor na posição sentada."
     },
     "resposta_correta": "D",
-    "justificativa": "O capítulo 4, ao tratar da espécie de passageiros (item 4.2.1), descreve a motoneta como veículo de duas rodas com o condutor na posição sentada, distinguindo-a da motocicleta (condutor na posição montada). A posição sentada do condutor é o critério decisivo apresentado no material. A (motocicleta de carga) integra a espécie de carga e pressupõe condutor montado e dispositivos de acondicionamento; B (ciclomotor) seria definida pela velocidade inferior a 50 km/h, dado ausente no enunciado, que destaca a posição do condutor; C e E descrevem veículos de mais de duas rodas ou enquadramentos incompatíveis com o relatado.",
+    "justificativa": "O capítulo 4, ao tratar da espécie de passageiros (item 4.2.1), descreve a motoneta como veículo de duas rodas com o condutor na posição sentada, distinguindo-a da motocicleta (condutor na posição montada). A posição sentada do condutor é o critério decisivo apresentado no material. A (motocicleta de carga) integra a espécie de carga e pressupõe condutor montado e dispositivos de acondicionamento; B (ciclomotor) seria definida pela velocidade inferior a 50 km/h, dado ausente no enunciado, que destaca a posição do condutor; C descreve veículos de mais de duas rodas ou enquadramentos incompatíveis com o relatado.",
     "referencia": "Cap. 4, p. 15-16",
     "nivel": "dificil"
   },
@@ -8567,11 +8547,10 @@ const questoesDB = [
       "A": "A unidade tratora classifica-se como veículo da espécie de carga, na subespécie caminhão, e o implemento, por ser apoiado na tratora, classifica-se igualmente como reboque, de modo que ambos integram a mesma espécie de carga.",
       "B": "A unidade tratora classifica-se como espécie de tração, na subespécie caminhão-trator, enquanto o implemento, por apoiar-se na unidade tratora, classifica-se como semirreboque, integrando a espécie de carga.",
       "C": "A unidade tratora classifica-se como espécie mista, por conduzir simultaneamente pessoas e exercer tração, e o implemento classifica-se como espécie de competição, por atuar em regime de tracionamento esportivo.",
-      "D": "Tanto a unidade tratora quanto o implemento classificam-se como espécie especial, por se tratar de conjunto de transporte rodoviário de elevada tonelagem com destinação ou uso específico que justifica tratamento normativo diferenciado.",
-      "E": "A unidade tratora classifica-se como espécie de carga, por destinar-se ao transporte de mercadorias, e o implemento como reboque, por estar engatado atrás de um veículo automotor, integrando ambos a espécie de carga."
+      "D": "Tanto a unidade tratora quanto o implemento classificam-se como espécie especial, por se tratar de conjunto de transporte rodoviário de elevada tonelagem com destinação ou uso específico que justifica tratamento normativo diferenciado."
     },
     "resposta_correta": "B",
-    "justificativa": "O capítulo 4 inclui o caminhão-trator e os tratores na espécie de tração (item 4.2.5), definida como veículos destinados primordialmente a tracionar outros veículos, implementos ou equipamentos. O semirreboque é descrito (item 4.2.2) como veículo que se apoia na unidade tratora, integrando a espécie de carga, ao contrário do reboque, que é engatado atrás de um veículo automotor. Como o implemento se apoia na tratora, é semirreboque, e não reboque. A e E erram ao classificar a unidade tratora como carga e ao chamar o implemento de reboque; C e D atribuem espécies incorretas (mista/competição/especial).",
+    "justificativa": "O capítulo 4 inclui o caminhão-trator e os tratores na espécie de tração (item 4.2.5), definida como veículos destinados primordialmente a tracionar outros veículos, implementos ou equipamentos. O semirreboque é descrito (item 4.2.2) como veículo que se apoia na unidade tratora, integrando a espécie de carga, ao contrário do reboque, que é engatado atrás de um veículo automotor. Como o implemento se apoia na tratora, é semirreboque, e não reboque. A erra ao classificar a unidade tratora como carga e ao chamar o implemento de reboque; C e D atribuem espécies incorretas (mista/competição/especial).",
     "referencia": "Cap. 4, p. 16-17",
     "nivel": "medio"
   },
@@ -8585,11 +8564,10 @@ const questoesDB = [
       "A": "Perde relevância técnica, tornando-se dispensável a verificação dos sinais identificadores principais nesses veículos em razão de seu reconhecido valor histórico e cultural.",
       "B": "Assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação.",
       "C": "Equipara-se integralmente ao regime aplicável à espécie de competição, com dispensa de registro e de licenciamento e imposição de restrições severas de circulação em vias públicas.",
-      "D": "Passa a ser realizada exclusivamente por meio da placa de identificação externa, dispensando-se por completo a gravação de caracteres em qualquer elemento estrutural do veículo.",
-      "E": "Submete-se a regime técnico mais rigoroso do que o dos automotores comuns, exigindo-se nova regravação integral dos sinais identificadores para fins de atualização do valor histórico declarado."
+      "D": "Passa a ser realizada exclusivamente por meio da placa de identificação externa, dispensando-se por completo a gravação de caracteres em qualquer elemento estrutural do veículo."
     },
     "resposta_correta": "B",
-    "justificativa": "O capítulo 4, item 4.2.7, afirma que, na espécie de coleção, a identificação veicular assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação, sempre com atenção à manutenção da identidade histórica do bem (p. 18). A está errada porque a identificação não perde relevância; C confunde indevidamente coleção com competição; D e E inventam regimes (dispensa de gravação estrutural; regravação integral mais rigorosa) não previstos no material.",
+    "justificativa": "O capítulo 4, item 4.2.7, afirma que, na espécie de coleção, a identificação veicular assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação, sempre com atenção à manutenção da identidade histórica do bem (p. 18). A está errada porque a identificação não perde relevância; C confunde indevidamente coleção com competição; D inventa regime (dispensa de gravação estrutural) não previsto no material.",
     "referencia": "Cap. 4, p. 18",
     "nivel": "facil"
   },
@@ -8603,11 +8581,10 @@ const questoesDB = [
       "A": "À tração, que considera a forma de propulsão e distingue veículos automotores, de propulsão humana, de tração animal e reboques e semirreboques desprovidos de propulsão própria.",
       "B": "À espécie, que considera a finalidade predominante e distingue veículos de passageiros, de carga, mista, de competição, de tração, especial e de coleção, conforme o art. 96.",
       "C": "À categoria, que distingue veículos oficiais, diplomáticos, particulares, de aluguel e de aprendizagem, com repercussão direta no padrão de placas, na sinalização visual e nas prerrogativas ou restrições de circulação.",
-      "D": "Ao tipo de carroçaria, definido exclusivamente pela Portaria DENATRAN nº 1.207/2010, que constitui o único critério apto a relacionar a identidade física do veículo ao seu regime jurídico de uso e vinculação institucional.",
-      "E": "À homologação de transformação veicular, prevista na Portaria DENATRAN nº 1.207/2010, que vincula a identidade física do veículo às hipóteses de modificação sujeitas a homologação compulsória pela autoridade de trânsito."
+      "D": "Ao tipo de carroçaria, definido exclusivamente pela Portaria DENATRAN nº 1.207/2010, que constitui o único critério apto a relacionar a identidade física do veículo ao seu regime jurídico de uso e vinculação institucional."
     },
     "resposta_correta": "C",
-    "justificativa": "O item 4.3 do material define que a classificação quanto à categoria relaciona o veículo ao regime jurídico de uso e vinculação institucional, distinguindo veículos oficiais, diplomáticos, particulares, de aluguel e de aprendizagem, e que essa classificação repercute diretamente na identificação externa, especialmente no padrão de placas, na sinalização visual e nas prerrogativas ou restrições de circulação (p. 18). A (tração) trata da forma de propulsão; B (espécie) trata da finalidade predominante; D e E confundem critérios da Portaria DENATRAN 1.207/2010 (carroçaria e transformação veicular) com o vínculo jurídico-administrativo, que é objeto da categoria.",
+    "justificativa": "O item 4.3 do material define que a classificação quanto à categoria relaciona o veículo ao regime jurídico de uso e vinculação institucional, distinguindo veículos oficiais, diplomáticos, particulares, de aluguel e de aprendizagem, e que essa classificação repercute diretamente na identificação externa, especialmente no padrão de placas, na sinalização visual e nas prerrogativas ou restrições de circulação (p. 18). A (tração) trata da forma de propulsão; B (espécie) trata da finalidade predominante; D confunde critérios da Portaria DENATRAN 1.207/2010 (carroçaria/transformação veicular) com o vínculo jurídico-administrativo, que é objeto da categoria.",
     "referencia": "Cap. 4, p. 18",
     "nivel": "facil"
   },
@@ -8621,11 +8598,10 @@ const questoesDB = [
       "A": "I, IV e V, pois apenas esses três descrevem corretamente o tratamento conferido pelo material aos identificadores complementares e às limitações do exame.",
       "B": "II, III e V, dado que a análise integrada apenas complementa a conferência principal e dispensa o estudo dos processos industriais de fabricação.",
       "C": "I, II e IV.",
-      "D": "III, IV e V, uma vez que os códigos em vidros e cintos têm caráter decorativo e o exame se restringe ao VIN e à placa do veículo.",
-      "E": "I, III e IV, porque os módulos eletrônicos e os componentes auxiliares apenas decoram o veículo e não servem de marcadores temporais úteis."
+      "D": "III, IV e V, uma vez que os códigos em vidros e cintos têm caráter decorativo e o exame se restringe ao VIN e à placa do veículo."
     },
     "resposta_correta": "C",
-    "justificativa": "Correta a C (I, II e IV): o capítulo 5 confirma o item I ('recorrência de fraudes' no chassi e na placa, vedando o exame limitado), o item II ('análise integrada de características externas, internas, mecânicas e documentais... reduzindo o risco de conclusões equivocadas baseadas em sinais isolados') e o item IV ('números de bombas injetoras, códigos impressos em bombas d'água, etiquetas de radiadores, centrais eletrônicas, transmissões e até componentes do sistema de ar-condicionado... funcionando como marcadores temporais valiosos'). O item III é falso, pois o material afirma que 'os códigos presentes em vidros, cintos de segurança, airbags, módulos eletrônicos e componentes auxiliares também possuem valor pericial'. O item V é falso, pois a obra exige do perito familiaridade com 'processos industriais, catálogos de fabricantes, manuais técnicos e bases de dados especializadas'. Logo, erram A, B, D e E, por incluírem III e/ou V.",
+    "justificativa": "Correta a C (I, II e IV): o capítulo 5 confirma o item I ('recorrência de fraudes' no chassi e na placa, vedando o exame limitado), o item II ('análise integrada de características externas, internas, mecânicas e documentais... reduzindo o risco de conclusões equivocadas baseadas em sinais isolados') e o item IV ('números de bombas injetoras, códigos impressos em bombas d'água, etiquetas de radiadores, centrais eletrônicas, transmissões e até componentes do sistema de ar-condicionado... funcionando como marcadores temporais valiosos'). O item III é falso, pois o material afirma que 'os códigos presentes em vidros, cintos de segurança, airbags, módulos eletrônicos e componentes auxiliares também possuem valor pericial'. O item V é falso, pois a obra exige do perito familiaridade com 'processos industriais, catálogos de fabricantes, manuais técnicos e bases de dados especializadas'. Logo, erram A, B e D, por incluírem III e/ou V.",
     "referencia": "Cap. 5, p. 19-20",
     "nivel": "dificil"
   },
@@ -8639,11 +8615,10 @@ const questoesDB = [
       "A": "identificadores secundários e terciários, que funcionam como elementos de corroboração, permitindo verificar coerência temporal e indícios de substituição de peças.",
       "B": "sinais identificadores únicos e exclusivos, equivalentes ao VIN para todos os efeitos jurídicos e administrativos, prevalecendo sobre o chassi sempre que houver divergência entre eles.",
       "C": "marcadores temporais complementares, assim entendidos os componentes raramente adulterados, como bombas injetoras, radiadores e sistemas de ar-condicionado, vinculados a lotes e períodos de produção.",
-      "D": "identificadores ostensivos primários, vinculados exclusivamente à identificação externa do veículo por meio das placas e das inscrições visíveis na carroceria do automóvel.",
-      "E": "características externas de primeiro nível de observação pericial, tais como marca, modelo, cor, tipo de carroceria, faróis e rodas, comparáveis ao ano de fabricação declarado."
+      "D": "identificadores ostensivos primários, vinculados exclusivamente à identificação externa do veículo por meio das placas e das inscrições visíveis na carroceria do automóvel."
     },
     "resposta_correta": "A",
-    "justificativa": "Correta a A: o capítulo 5 afirma que 'um papel relevante é desempenhado pelos identificadores secundários e terciários, constituídos por numerações, códigos e etiquetas apostas em diversos componentes' (motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias) e que, 'embora esses códigos não substituam o VIN, eles funcionam como elementos de corroboração, permitindo verificar coerência temporal, compatibilidade entre conjuntos mecânicos e indícios de substituição ou reaproveitamento de peças'. B erra porque tais códigos não substituem nem equivalem ao VIN. C erra porque os marcadores temporais complementares são outra categoria (bombas, radiadores, centrais, ar-condicionado), não os componentes descritos no enunciado. D erra porque identificadores primários são VIN e placas, e não os códigos de componentes mecânicos. E erra porque as características externas são grupo distinto, de primeiro nível de observação, e não os identificadores secundários e terciários.",
+    "justificativa": "Correta a A: o capítulo 5 afirma que 'um papel relevante é desempenhado pelos identificadores secundários e terciários, constituídos por numerações, códigos e etiquetas apostas em diversos componentes' (motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias) e que, 'embora esses códigos não substituam o VIN, eles funcionam como elementos de corroboração, permitindo verificar coerência temporal, compatibilidade entre conjuntos mecânicos e indícios de substituição ou reaproveitamento de peças'. B erra porque tais códigos não substituem nem equivalem ao VIN. C erra porque os marcadores temporais complementares são outra categoria (bombas, radiadores, centrais, ar-condicionado), não os componentes descritos no enunciado. D erra porque identificadores primários são VIN e placas, e não os códigos de componentes mecânicos.",
     "referencia": "Cap. 5, p. 19",
     "nivel": "medio"
   },
@@ -8657,11 +8632,10 @@ const questoesDB = [
       "A": "a Lei nº 5.108/1966 (Código Nacional de Trânsito), que consolidou a placa como sinal identificador essencial e delegou ao poder público o controle do registro veicular.",
       "B": "o Decreto-Lei nº 3.651, de 25 de setembro de 1941.",
       "C": "o Decreto nº 62.127/1968, que regulamentou o Código Nacional de Trânsito e disciplinou em detalhe as especificações técnicas das placas dianteira e traseira dos veículos.",
-      "D": "a Resolução Contran nº 45/1998, responsável por instituir o modelo padronizado de placas no padrão cinza em âmbito nacional, uniformizando a identificação em todo o território.",
-      "E": "a Lei nº 9.503/1997 (CTB), que reafirmou a placa como elemento obrigatório de identificação e delegou ao Contran a competência para sua regulamentação técnica detalhada."
+      "D": "a Resolução Contran nº 45/1998, responsável por instituir o modelo padronizado de placas no padrão cinza em âmbito nacional, uniformizando a identificação em todo o território."
     },
     "resposta_correta": "B",
-    "justificativa": "O texto afirma: 'O Decreto-Lei nº 3.651, de 25 de setembro de 1941, já estabelecia a obrigatoriedade do registro e da identificação externa dos veículos automotores como instrumento de fiscalização e controle estatal, inaugurando a vinculação entre veículo, proprietário e poder público' (alternativa B). A Lei 5.108/1966 e o Decreto 62.127/1968 (A e C) apenas consolidaram a placa como sinal identificador essencial, em momento posterior. A Res. 45/1998 (D) instituiu o padrão cinza. A Lei 9.503/1997 (E) reafirmou a placa e delegou ao Contran a regulamentação, sem inaugurar a obrigatoriedade.",
+    "justificativa": "O texto afirma: 'O Decreto-Lei nº 3.651, de 25 de setembro de 1941, já estabelecia a obrigatoriedade do registro e da identificação externa dos veículos automotores como instrumento de fiscalização e controle estatal, inaugurando a vinculação entre veículo, proprietário e poder público' (alternativa B). A Lei 5.108/1966 e o Decreto 62.127/1968 (A e C) apenas consolidaram a placa como sinal identificador essencial, em momento posterior. A Res. 45/1998 (D) instituiu o padrão cinza.",
     "referencia": "Cap. 6, Seção 6 (introdução), p. 21",
     "nivel": "medio"
   },
@@ -8692,11 +8666,10 @@ const questoesDB = [
       "A": "A combinação alfanumérica de três letras e quatro números identificava a categoria do veículo, e a mudança de município de registro do proprietário exigia a substituição da placa.",
       "B": "A cor do fundo da placa identificava a categoria, e a alteração de categoria do veículo exigia a substituição da placa.",
       "C": "A tarjeta indicativa da Unidade da Federação identificava a categoria, e a transferência de propriedade do veículo a terceiro exigia obrigatoriamente a substituição da placa.",
-      "D": "O dispositivo de lacração da placa traseira identificava a categoria, e qualquer regravação dos caracteres do chassi exigia a imediata substituição da placa dianteira e traseira.",
-      "E": "A sigla do município gravada na tarjeta identificava a categoria, e a mudança de Unidade da Federação de domicílio do proprietário exigia a substituição integral da placa registrada."
+      "D": "O dispositivo de lacração da placa traseira identificava a categoria, e qualquer regravação dos caracteres do chassi exigia a imediata substituição da placa dianteira e traseira."
     },
     "resposta_correta": "B",
-    "justificativa": "Segundo o material, 'Nesse sistema anterior, a categoria do veículo era identificada principalmente pela cor do fundo da placa, mantendo-se fixa a combinação alfanumérica independentemente de mudanças de município, mas exigindo a substituição da placa em caso de alteração de categoria' (alternativa B). A está errada: a combinação alfanumérica era fixa e não identificava categoria; mudança de município não exigia substituição. C, D e E atribuem a função de identificação de categoria a elementos incorretos (tarjeta de UF, lacre, sigla de município) e vinculam a substituição a hipóteses não previstas no texto.",
+    "justificativa": "Segundo o material, 'Nesse sistema anterior, a categoria do veículo era identificada principalmente pela cor do fundo da placa, mantendo-se fixa a combinação alfanumérica independentemente de mudanças de município, mas exigindo a substituição da placa em caso de alteração de categoria' (alternativa B). A está errada: a combinação alfanumérica era fixa e não identificava categoria; mudança de município não exigia substituição. C e D atribuem a função de identificação de categoria a elementos incorretos (tarjeta de UF, lacre) e vinculam a substituição a hipóteses não previstas no texto.",
     "referencia": "Cap. 6, Seção 6.1, p. 22",
     "nivel": "medio"
   },
@@ -8710,11 +8683,10 @@ const questoesDB = [
       "A": "Sigla do município de registro, seguida do número de inscrição do fabricante no cadastro nacional e do ano completo de fabricação, gravado exclusivamente em baixo relevo na tarjeta.",
       "B": "Número de quatro algarismos, seguido da sigla da Unidade da Federação e do ano completo de fabricação, gravado em hot stamp na superfície refletiva da placa traseira do veículo.",
       "C": "Número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo.",
-      "D": "Dois algarismos identificadores do estampador, seguidos da sigla da Unidade da Federação e do ano completo de fabricação da placa, gravados obrigatoriamente em alto relevo.",
-      "E": "CNPJ completo do fabricante credenciado, seguido da razão social abreviada e dos dois últimos algarismos do ano de fabricação, gravado em superfície plana, em alto ou baixo relevo."
+      "D": "Dois algarismos identificadores do estampador, seguidos da sigla da Unidade da Federação e do ano completo de fabricação da placa, gravados obrigatoriamente em alto relevo."
     },
     "resposta_correta": "C",
-    "justificativa": "O texto descreve: 'A Resolução 241/2007 [...] especificava o código de cadastramento do fabricante da placa e da tarjeta, composto por um número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo' (alternativa C). As demais divergem em ao menos um elemento: quantidade de algarismos (B e D), ano completo em vez dos dois últimos algarismos (A, B e D), forma de gravação restrita (A e D) ou conteúdo do código (A e E, que confundem com sigla de município e CNPJ/razão social, próprios dos dados do fabricante no padrão Mercosul).",
+    "justificativa": "O texto descreve: 'A Resolução 241/2007 [...] especificava o código de cadastramento do fabricante da placa e da tarjeta, composto por um número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo' (alternativa C). As demais divergem em ao menos um elemento: quantidade de algarismos (B e D), ano completo em vez dos dois últimos algarismos (A, B e D), forma de gravação restrita (A e D) ou conteúdo do código (A, que confunde com sigla de município e CNPJ/razão social, próprios dos dados do fabricante no padrão Mercosul).",
     "referencia": "Cap. 6, Seção 6.1, p. 22",
     "nivel": "dificil"
   },
@@ -8728,11 +8700,10 @@ const questoesDB = [
       "A": "Manteve a indicação do nome do município e da Unidade da Federação de registro na placa, acrescentando-lhe apenas o emblema do Mercosul e a bandeira do país de origem.",
       "B": "Tornou facultativa a inserção do QR Code, que passou a ser exigido somente nas placas de veículos oficiais, diplomáticos e consulares, dispensando-o nos veículos de uso particular.",
       "C": "Adotou combinação puramente numérica de sete dígitos sequenciais, ampliando a capacidade do sistema e eliminando o uso de quaisquer caracteres alfabéticos na identificação.",
-      "D": "Eliminou o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais.",
-      "E": "Transferiu aos órgãos estaduais de trânsito o controle exclusivo da numeração do lacre físico, reforçando o foco da verificação pericial sobre a manipulação física da placa."
+      "D": "Eliminou o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais."
     },
     "resposta_correta": "D",
-    "justificativa": "O material dispõe: 'O modelo Mercosul elimina o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais, o que desloca o foco do controle da manipulação física para a rastreabilidade administrativa e tecnológica' (alternativa D). A é falsa: a placa Mercosul deixa de exibir município e UF, indicando apenas o país. B é incorreta: o QR Code é elemento de segurança obrigatório. C é falsa: a combinação é alfanumérica mista (três letras, um número, uma letra e três números). E contraria o texto, pois o foco desloca-se da manipulação física para a rastreabilidade digital.",
+    "justificativa": "O material dispõe: 'O modelo Mercosul elimina o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais, o que desloca o foco do controle da manipulação física para a rastreabilidade administrativa e tecnológica' (alternativa D). A é falsa: a placa Mercosul deixa de exibir município e UF, indicando apenas o país. B é incorreta: o QR Code é elemento de segurança obrigatório. C é falsa: a combinação é alfanumérica mista (três letras, um número, uma letra e três números).",
     "referencia": "Cap. 6, Seção 6.2, p. 23",
     "nivel": "facil"
   },
@@ -8746,11 +8717,10 @@ const questoesDB = [
       "A": "número de série do QR Code, UF e município de estampagem, tipo de placa, situação administrativa, data e hora da estampagem e órgão responsável pela lacração.",
       "B": "número do RENAVAM, CPF do proprietário, endereço completo do registro e histórico de transferências de propriedade do veículo perante o órgão executivo de trânsito competente.",
       "C": "histórico de multas, débitos pendentes, situação do licenciamento anual e relação de condutores habituais vinculados administrativamente ao veículo no cadastro nacional de trânsito.",
-      "D": "marca, modelo, cor do veículo e nome do proprietário atual, sem qualquer informação relativa à empresa estampadora credenciada ou aos parâmetros físicos da estampagem realizada.",
-      "E": "últimos dígitos do chassi, UF de jurisdição, município de registro, anos de fabricação e de modelo e cor do veículo, correspondentes aos dados atuais da unidade cadastrada."
+      "D": "marca, modelo, cor do veículo e nome do proprietário atual, sem qualquer informação relativa à empresa estampadora credenciada ou aos parâmetros físicos da estampagem realizada."
     },
     "resposta_correta": "A",
-    "justificativa": "O material detalha: 'são apresentados os dados da estampagem da placa, que incluem o número de série do QR Code, a unidade federativa e o município onde a placa foi estampada, o tipo da placa (por exemplo, dianteira ou traseira), a situação administrativa da placa (ativa, cancelada etc.), a data e a hora da estampagem e o órgão responsável pela lacração' (alternativa A). B e C descrevem dados administrativos não listados como dados da estampagem. D é incorreta, pois há dados do fabricante e da estampagem. E corresponde aos dados atuais do veículo, categoria distinta dos dados da estampagem.",
+    "justificativa": "O material detalha: 'são apresentados os dados da estampagem da placa, que incluem o número de série do QR Code, a unidade federativa e o município onde a placa foi estampada, o tipo da placa (por exemplo, dianteira ou traseira), a situação administrativa da placa (ativa, cancelada etc.), a data e a hora da estampagem e o órgão responsável pela lacração' (alternativa A). B e C descrevem dados administrativos não listados como dados da estampagem. D é incorreta, pois há dados do fabricante e da estampagem.",
     "referencia": "Cap. 6, Seção 6.2, p. 25",
     "nivel": "dificil"
   },

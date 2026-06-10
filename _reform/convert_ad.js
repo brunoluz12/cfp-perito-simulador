@@ -40,17 +40,28 @@ questoesDB.forEach((q, i) => {
   // manual tem precedência
   if (manual.has(q.id)) {
     const r = manual.get(q.id);
-    const alts = r.alternativas;
+    let alts, resp;
+    if (r.alternativas) {
+      // entrada completa: usa alternativas/resposta fornecidas (casos resposta=E ou reescrita)
+      alts = r.alternativas;
+      resp = r.resposta_correta;
+    } else {
+      // entrada leve {id, justificativa}: apenas remove E, mantém A-D do original
+      if (q.resposta_correta === 'E') { errors.push(`id ${q.id}: manual leve (sem alternativas) mas resposta=E — precisa de alternativas/resposta`); return; }
+      alts = { A: q.alternativas.A, B: q.alternativas.B, C: q.alternativas.C, D: q.alternativas.D };
+      resp = r.resposta_correta || q.resposta_correta;
+    }
     const kk = Object.keys(alts || {});
     const ok = ['A', 'B', 'C', 'D'].every(k => kk.includes(k)) && kk.length === 4;
     if (!ok) { errors.push(`id ${q.id}: manual sem A-D exatas`); return; }
-    if (!['A', 'B', 'C', 'D'].includes(r.resposta_correta) || !alts[r.resposta_correta]) { errors.push(`id ${q.id}: resposta_correta manual inválida`); return; }
+    if (!['A', 'B', 'C', 'D'].includes(resp) || !alts[resp]) { errors.push(`id ${q.id}: resposta_correta manual inválida`); return; }
+    if (r.justificativa == null) { errors.push(`id ${q.id}: manual sem justificativa`); return; }
     questoesDB[i] = {
       ...q,
       enunciado: r.enunciado != null ? r.enunciado : q.enunciado,
       alternativas: { A: alts.A, B: alts.B, C: alts.C, D: alts.D },
-      resposta_correta: r.resposta_correta,
-      justificativa: r.justificativa != null ? r.justificativa : q.justificativa,
+      resposta_correta: resp,
+      justificativa: r.justificativa,
       referencia: r.referencia != null ? r.referencia : q.referencia
     };
     manualApplied++;
