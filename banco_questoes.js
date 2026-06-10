@@ -20506,5 +20506,175 @@ const questoesDB = [
     "justificativa": "A coleta por não peritos não é a mais adequada: há necessidade legal de que a coleta se dê por meio de exame de corpo de delito (exame pericial) e necessidade técnica decorrente do preparo para o trato de vestígios biológicos, químicos e outros, além da contextualização do vestígio no local (p. 17, 19). Isso valida B. A e C subordinam indevidamente a coleta à celeridade ou ao mero registro fotográfico, sem suprir as necessidades legal e técnica. D nega a necessidade técnica justamente onde ela é mais evidente.",
     "referencia": "PDF LOC, p. 19-20",
     "nivel": "dificil"
+  },
+  {
+    "id": 1333,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na delimitação de um local de crime, distinguem-se o ambiente imediato e o ambiente mediato. Sobre essa distinção, é correto afirmar que:",
+    "alternativas": {
+      "A": "o ambiente mediato é aquele onde ocorreu o evento alvo da investigação, com a maior concentração de vestígios, devendo nele se concentrar os esforços de isolamento.",
+      "B": "o ambiente imediato é aquele onde ocorreu o evento alvo, presumindo-se a maior concentração de vestígios, sendo nele que os esforços de isolamento devem se concentrar.",
+      "C": "o ambiente imediato compreende apenas as adjacências do local, sem continuidade geográfica com a área em que o fato ocorreu.",
+      "D": "os ambientes imediato e mediato são geograficamente descontínuos, não havendo relação entre a área do fato e suas adjacências."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O ambiente imediato é aquele onde ocorreu o evento alvo da investigação, com a presumida maior concentração de vestígios, devendo nele se concentrar os esforços de isolamento; o ambiente mediato compreende as adjacências, com continuidade geográfica em relação ao imediato (p. 23). Isso valida B. A inverte os conceitos. C confunde o imediato com as adjacências. D nega a continuidade geográfica expressamente afirmada no texto.",
+    "referencia": "PDF LOC, p. 23",
+    "nivel": "facil"
+  },
+  {
+    "id": 1334,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a delimitação do perímetro de isolamento de um local de crime, a disciplina estabelece como regra prática que se deve:",
+    "alternativas": {
+      "A": "isolar a menor área possível, a fim de reduzir o transtorno a populares e o consumo de recursos da equipe.",
+      "B": "isolar exatamente a área em que a vítima ou o corpo de delito foi inicialmente localizado, evitando ampliações.",
+      "C": "isolar a maior área possível dentro do contexto e da situação, pois áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios.",
+      "D": "aguardar a chegada da perícia para só então delimitar fisicamente o perímetro, mantendo a área livre até esse momento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A regra prática é isolar a maior área possível dentro do contexto e da situação, porque áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios importantes (p. 24), o que valida C. A e B reduzem indevidamente a área, contrariando a regra. D contraria o dever do primeiro policial de providenciar a delimitação física antes da chegada da perícia.",
+    "referencia": "PDF LOC, p. 24",
+    "nivel": "medio"
+  },
+  {
+    "id": 1335,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à preservação, os locais de crime classificam-se em idôneos e inidôneos. Assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Idôneo é o local perturbado ou devassado após a prática da infração e antes da chegada dos peritos.",
+      "B": "Inidôneo é o local preservado exatamente na forma em que foi deixado pelo agente após a prática da infração.",
+      "C": "Idôneo é o local preservado na forma em que foi deixado pelo agente após a infração; inidôneo é o que foi perturbado ou devassado antes da chegada dos peritos.",
+      "D": "A classificação depende exclusivamente da gravidade do crime, sendo idôneos os locais de crimes contra a vida e inidôneos os demais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Locais idôneos (não violados) são os preservados na forma em que foram deixados pelo agente após a prática da infração; inidôneos (violados) são os perturbados ou devassados após a infração e antes da chegada dos peritos (p. 27). Isso valida C. A e B invertem as definições. D cria critério inexistente baseado na gravidade do crime.",
+    "referencia": "PDF LOC, p. 27",
+    "nivel": "facil"
+  },
+  {
+    "id": 1336,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um policial federal é o primeiro a chegar a um local de crime em que ainda não há delimitação física e há uma vítima ferida no chão. Considerando os procedimentos-padrão estudados, a conduta correta é:",
+    "alternativas": {
+      "A": "iniciar imediatamente a busca e a coleta de vestígios, antecipando-se ao trabalho da perícia para evitar a perda de material.",
+      "B": "providenciar o socorro e o tratamento médico da vítima, sem descuidar de verificar as condições de isolamento, delimitar a área, contatar os primeiros agentes e identificar pessoas com conhecimento do fato.",
+      "C": "aguardar a chegada dos peritos sem qualquer providência, pois a delimitação do local é atribuição exclusiva da Criminalística.",
+      "D": "remover a vítima e os objetos próximos para fora da área, a fim de preservar a cena exatamente como encontrada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Havendo vítima, a principal preocupação é providenciar socorro e tratamento médico (p. 24); ainda assim, os procedimentos-padrão do primeiro policial incluem verificar as condições do isolamento, providenciar a delimitação física, estabelecer contato com os primeiros agentes e identificar pessoas que conheçam o fato (p. 23). Isso valida B. A invade a atribuição pericial de busca e coleta. C nega as providências que cabem ao primeiro policial. D agrava a alteração da cena ao remover objetos, em desacordo com a preservação.",
+    "referencia": "PDF LOC, p. 23-24",
+    "nivel": "medio"
+  },
+  {
+    "id": 1337,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime de grande repercussão, diversos jornalistas se aproximam em busca de informações. Sobre o tratamento adequado à imprensa, conforme a disciplina, é correto afirmar que:",
+    "alternativas": {
+      "A": "deve-se impedir totalmente o acesso da imprensa à informação, pois qualquer divulgação compromete a investigação.",
+      "B": "cada policial presente pode prestar declarações conforme seu entendimento, garantindo pluralidade de versões à sociedade.",
+      "C": "a imprensa deve ser tratada com ética e profissionalismo, designando-se um único policial como porta-voz e evitando-se comentar hipóteses sobre o crime.",
+      "D": "as hipóteses iniciais sobre a autoria devem ser compartilhadas com a imprensa para acelerar a colaboração de testemunhas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A imprensa deve ser tratada com ética e profissionalismo; em local de grande repercussão, apenas um policial deve ser o porta-voz, e todos devem evitar falar sobre hipóteses do crime, pois a palavra de um policial é tida como o ponto de vista da polícia (p. 25-26). Isso valida C. A é exagerada, pois o papel da imprensa é informar a sociedade. B contraria a regra do porta-voz único. D é justamente o erro ilustrado pelo caso da escola, em que a divulgação de hipóteses depois desmentidas causou grave prejuízo.",
+    "referencia": "PDF LOC, p. 25-26",
+    "nivel": "medio"
+  },
+  {
+    "id": 1338,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após o isolamento de um local, prevê-se a possibilidade de iminente tempestade que pode destruir uma pegada deixada na areia, e não é possível cobri-la adequadamente. À luz do art. 169 do CPP e das orientações sobre intempéries climáticas, a conduta correta é:",
+    "alternativas": {
+      "A": "deixar o vestígio exposto e aguardar a perícia, ainda que ele venha a ser destruído, pois é vedado qualquer registro antes da chegada dos peritos.",
+      "B": "fotografar, medir e desenhar o croqui do vestígio, registrando-se posteriormente no laudo as alterações e suas consequências na dinâmica dos fatos.",
+      "C": "coletar e armazenar a pegada por qualquer meio disponível, sem necessidade de registro, já que a urgência afasta as formalidades legais.",
+      "D": "descartar o vestígio, pois pegadas em areia não possuem valor pericial e não justificam medidas de preservação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Diante de intempéries que ameacem o vestígio e não sendo possível cobri-lo, o bom senso recomenda fotografar, medir e desenhar o croqui; o art. 169 do CPP determina que os peritos registrem no laudo as alterações do estado das coisas e discutam suas consequências na dinâmica dos fatos (p. 27). Isso valida B. A sacrifica o vestígio sem qualquer registro. C dispensa indevidamente o registro das alterações. D nega, sem fundamento, o valor pericial de pegadas.",
+    "referencia": "PDF LOC, p. 27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1339,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o isolamento do local quando estão presentes outras forças policiais e autoridades, a disciplina orienta que:",
+    "alternativas": {
+      "A": "a presença de autoridades, por si só, autoriza o ingresso na área delimitada, dispensada qualquer orientação por parte dos policiais.",
+      "B": "independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, cabendo informar autoridades e mantê-las fora da área delimitada.",
+      "C": "havendo outra força policial responsável pela apuração, fica dispensado o isolamento até a chegada da respectiva perícia.",
+      "D": "as autoridades devem permanecer dentro do perímetro para acompanhar de perto o processamento e validar os atos da perícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma que, independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, e que cabe ao policial informar as autoridades sobre os procedimentos e mantê-las fora da área delimitada, pois muitas vezes não têm formação sobre processamento de local (p. 26). Isso valida B. A e D autorizam indevidamente o ingresso de autoridades. C dispensa o isolamento por haver outra força responsável, contrariando o texto.",
+    "referencia": "PDF LOC, p. 26",
+    "nivel": "medio"
+  },
+  {
+    "id": 1340,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das entrevistas realizadas no contexto do isolamento e da preservação do local, é correto afirmar que:",
+    "alternativas": {
+      "A": "destinam-se a obter informações subjetivas, com a maior quantidade possível de pessoas, devendo a iniciativa partir do policial e começar com o primeiro a chegar ao local.",
+      "B": "devem ser conduzidas exclusivamente pelos peritos, sendo vedado a militares e bombeiros prestar qualquer informação.",
+      "C": "limitam-se à coleta de informações objetivas extraídas diretamente dos vestígios materiais, sem participação de testemunhas.",
+      "D": "somente podem ter início após o encerramento do processamento pericial e a liberação do local pela autoridade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As entrevistas buscam as informações subjetivas sobre pessoas, coisas e fatos, com a maior quantidade possível de pessoas; a iniciativa parte do policial e deve começar com o primeiro a chegar ao local, sendo militares e bombeiros grandes fontes de informação e podendo os peritos também entrevistar (p. 28). Isso valida A. B exclui indevidamente militares e bombeiros. C confunde entrevistas (informação subjetiva) com a análise dos vestígios (objetiva). D inverte a ordem, pois as entrevistas começam com o primeiro a chegar, não ao final.",
+    "referencia": "PDF LOC, p. 28",
+    "nivel": "medio"
+  },
+  {
+    "id": 1341,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um crime ocorre na principal avenida de uma cidade, em horário de pico, e o isolamento amplo entra em conflito com o funcionamento do trânsito e do transporte coletivo. Simultaneamente, prevê-se chuva forte que pode comprometer vestígios a céu aberto. Sobre o enfrentamento dessas variáveis (dificuldades estruturais e intempéries), é correto afirmar que:",
+    "alternativas": {
+      "A": "existe regra rígida que determina a paralisação total dos serviços públicos até o término do processamento, independentemente do contexto.",
+      "B": "não havendo regra clara, prevalecem o bom senso, o diálogo e a capacidade de ouvir as corporações envolvidas; quanto aos vestígios ameaçados, cobre-se quando possível ou registra-se por foto, medida e croqui.",
+      "C": "a manutenção dos serviços públicos sempre prevalece, devendo a perícia abrir mão integralmente do isolamento em vias de grande movimento.",
+      "D": "a preservação dos vestígios deve ser abandonada diante de intempéries, pois materiais expostos perdem automaticamente o valor probatório."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto às dificuldades estruturais, não há regra clara, prevalecendo o bom senso, o diálogo e a capacidade de ouvir as corporações envolvidas (p. 27); quanto às intempéries, o bom senso pode determinar cobrir os vestígios e, não sendo possível, fotografar, medir e desenhar o croqui (p. 27). Isso valida B. A e C adotam soluções absolutas (paralisação total ou prevalência sempre dos serviços) incompatíveis com o bom senso preconizado. D abandona indevidamente a preservação, ignorando as alternativas de registro.",
+    "referencia": "PDF LOC, p. 27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1342,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "No isolamento de um local de crime já delimitado por fita, um familiar da vítima exige ingressar na área para acompanhar os trabalhos, enquanto uma autoridade pública, sem formação em processamento de local, também solicita acesso. Considerando o tratamento das diferentes variáveis do isolamento, a conduta correta do policial é:",
+    "alternativas": {
+      "A": "permitir o ingresso de ambos, desde que acompanhados por um agente, pois o vínculo familiar e a função pública afastam o risco de contaminação.",
+      "B": "franquear o acesso apenas à autoridade, em razão de seu cargo, mantendo o familiar fora do perímetro delimitado.",
+      "C": "manter ambos fora da área delimitada — o familiar, salvo necessidade urgente e comprovada, e a autoridade, a quem cabe informar os procedimentos —, preservando a idoneidade da cena.",
+      "D": "liberar a área para o familiar, por seu interesse legítimo, e impedir somente a autoridade, cuja presença não tem amparo legal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Parentes devem ser tratados com respeito, mas não podem penetrar na área delimitada, salvo necessidade urgente e comprovada (p. 26); autoridades, muitas vezes sem formação sobre processamento de local, devem ser informadas dos procedimentos e mantidas fora da área delimitada (p. 26). Logo, a conduta correta é manter ambos fora do perímetro, o que valida C. A e D autorizam indevidamente o ingresso por vínculo familiar. B admite o acesso da autoridade apenas pelo cargo, em desacordo com a orientação de mantê-la fora da área.",
+    "referencia": "PDF LOC, p. 26",
+    "nivel": "dificil"
   }
 ];
