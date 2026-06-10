@@ -1,0 +1,110 @@
+[
+  {
+    "id": 593,
+    "alternativas": {
+      "A": "Somente no para-choque dianteiro e no compartimento do porta-malas, com profundidade mínima de 1,0 mm e caracteres de altura não inferior a 10 mm em cada ponto.",
+      "B": "Exclusivamente nas placas dianteira e traseira e em ambos os para-brisas, mediante lacre estrutural e etiqueta autocolante destrutível afixada individualmente em cada um desses pontos de controle.",
+      "C": "Apenas no bloco do motor e na caixa de câmbio, ficando dispensada qualquer marcação nos vidros, na coluna da porta ou no assoalho do habitáculo.",
+      "D": "Assoalho sob um dos bancos dianteiros, coluna da porta dianteira direita, compartimento do motor, um para-brisa e um vidro traseiro e ao menos dois vidros de cada lado, exceto quebra-ventos."
+    }
+  },
+  {
+    "id": 594,
+    "alternativas": {
+      "A": "Abolir totalmente a gravação do VIN no chassi ou no monobloco, substituindo-a apenas por etiqueta autocolante destrutível afixada na coluna da porta dianteira do lado do passageiro.",
+      "B": "Suprimir a gravação no assoalho sob um dos bancos dianteiros e introduzir expressamente a identificação do ano de fabricação como item autônomo obrigatório.",
+      "C": "Suprimir a gravação na coluna da porta dianteira lateral direita e dispensar por completo a marcação dos vidros e do compartimento do motor.",
+      "D": "Eliminar a obrigatoriedade da segunda gravação de chassi em reboques e semirreboques, mantendo-se apenas uma gravação única na longarina esquerda."
+    }
+  },
+  {
+    "id": 595,
+    "alternativas": {
+      "A": "Para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, os caracteres do VIN devem ter altura mínima de 7 mm e ser gravados obrigatoriamente no bloco do motor e, de forma redundante, na caixa de câmbio, com profundidade mínima de 1,0 mm.",
+      "B": "A gravação principal do VIN dispensa qualquer segunda gravação, sendo proibido o uso de plaquetas metálicas destrutíveis ou de ETA como métodos alternativos de identificação.",
+      "C": "O VIN deve ser gravado com profundidade mínima de 0,2 mm, sendo o local preferencial o lado direito do chassi ou monobloco; a norma veda, em regra, a punção manual, salvo fabricantes de produção reduzida.",
+      "D": "Em reboques e semirreboques, a segunda gravação do VIN deve ser feita na longarina direita, com profundidade mínima de 1,0 mm, distinta da primeira gravação."
+    }
+  },
+  {
+    "id": 596,
+    "alternativas": {
+      "A": "Apenas os itens III, IV e V estão corretos.",
+      "B": "Apenas os itens I, II e V estão corretos.",
+      "C": "Apenas os itens II, III e V estão corretos.",
+      "D": "Estão corretos os itens I, II, III e IV."
+    }
+  },
+  {
+    "id": 597,
+    "alternativas": {
+      "A": "Deve ser expressa em dois algarismos, com profundidade mínima de 1,0 mm e altura mínima de 10 mm uniforme para todas as categorias de veículos, inclusive ciclomotores, motonetas, motocicletas, triciclos e quadriciclos.",
+      "B": "Pode ser gravada em qualquer ponto do veículo, sem qualquer exigência de altura ou de profundidade mínima dos caracteres empregados na gravação.",
+      "C": "Deve ser expressa em quatro algarismos, com profundidade mínima de 0,2 mm, altura mínima de 4 mm para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, e 7 mm para os demais veículos.",
+      "D": "Deve ser obrigatoriamente realizada apenas por etiqueta autocolante (ETA), sendo vedada a gravação direta no chassi ou no monobloco do veículo."
+    }
+  },
+  {
+    "id": 598,
+    "alternativas": {
+      "A": "O WMI corresponde aos oito últimos caracteres e identifica o ano de fabricação e a planta de montagem; o VDS, aos três primeiros, identifica o fabricante e o país de origem; e o VIS, aos seis caracteres centrais, descreve as características gerais do veículo.",
+      "B": "A norma aplica-se exclusivamente aos ciclomotores e às motocicletas, sendo todos os demais veículos disciplinados por regulamentação específica e diversa da ABNT NBR 6066.",
+      "C": "A norma permite o uso de todos os caracteres alfanuméricos do alfabeto latino, incluindo as letras I, O e Q, sem qualquer restrição de confusão visual.",
+      "D": "O WMI são os três primeiros caracteres (fabricante/montadora, área geográfica e país); o VDS, os seis seguintes (características gerais do veículo); e o VIS, os oito últimos, que individualizam o veículo, com o ano na 10ª posição e a planta na 11ª."
+    }
+  },
+  {
+    "id": 599,
+    "alternativas": {
+      "A": "A norma adota uma tabela cíclica de caracteres alfanuméricos para o ano de fabricação ou ano modelo na 10ª posição do VIN, devendo a interpretação ser contextualizada com o restante do VIN.",
+      "B": "Os caracteres da 10ª posição constituem uma sequência única que nunca se repete ao longo do tempo, garantindo a identificação inequívoca e definitiva do ano por todo o ciclo de vida útil da norma.",
+      "C": "Os caracteres I, O e Q são utilizados exclusivamente na 10ª posição para representar anos pares, em razão do contraste visual com os algarismos.",
+      "D": "A 10ª posição é facultativa e pode ser substituída, a critério do fabricante, por etiqueta autocolante afixada na coluna da porta dianteira."
+    }
+  },
+  {
+    "id": 600,
+    "alternativas": {
+      "A": "Sobre chassi, o VIN pode estar à direita e/ou à esquerda e nas faces superior, inferior ou lateral externa, conforme o projeto; nos monoblocos, surge em elementos como torre do amortecedor direito, soleira da porta, assoalho ou painel corta-fogo.",
+      "B": "Nos veículos com carroceria monobloco, a marcação do VIN só pode aparecer no para-choque dianteiro e no porta-malas; já nos montados sobre chassi, ela deve estar obrigatoriamente no teto e na coluna da direção, em local único e padronizado.",
+      "C": "Tanto em veículos com chassi quanto em monoblocos, o VIN é gravado exclusivamente no bloco do motor, sendo dispensada qualquer marcação estrutural.",
+      "D": "A ABNT NBR 6066:2022 proíbe variações de localização do VIN, exigindo sempre gravação na coluna da direção, independentemente do tipo construtivo do veículo."
+    }
+  },
+  {
+    "id": 664,
+    "alternativas": {
+      "A": "Suprimiu a gravação na coluna da porta dianteira lateral direita e dispensou por completo a identificação no compartimento do motor e nos vidros laterais do veículo.",
+      "B": "Determinou a substituição definitiva do VIN pela placa do padrão Mercosul como único identificador primário do veículo.",
+      "C": "Eliminou a obrigatoriedade de gravação no chassi para reboques e semirreboques, mantendo apenas etiquetas autocolantes destrutíveis.",
+      "D": "Suprimiu a gravação no assoalho sob um dos bancos dianteiros e introduziu expressamente a identificação do ano de fabricação como item autônomo obrigatório."
+    }
+  },
+  {
+    "id": 666,
+    "alternativas": {
+      "A": "Exclusivamente no chassi do veículo, sendo terminantemente vedada qualquer outra posição de gravação.",
+      "B": "No monobloco, no chassi, na cabine ou, no caso de ônibus e micro-ônibus, na carroceria.",
+      "C": "Apenas em etiqueta autocolante destrutível afixada no compartimento do motor.",
+      "D": "Exclusivamente nos vidros laterais traseiros, em formato de marca d'água."
+    }
+  },
+  {
+    "id": 668,
+    "alternativas": {
+      "A": "Corresponde aos três primeiros caracteres do VIN e identifica o fabricante, incluindo a área geográfica e o país de origem.",
+      "B": "É composta pelos oito últimos caracteres do VIN e individualiza cada veículo produzido, incluindo o ano de fabricação na 10ª posição e a planta de montagem na 11ª.",
+      "C": "Corresponde aos dois últimos caracteres e indica exclusivamente a planta de montagem e o número sequencial de produção.",
+      "D": "São os seis caracteres seguintes ao WMI e descrevem características gerais do veículo — tipo, modelo, carroceria ou propulsão —, conforme critério do fabricante."
+    }
+  },
+  {
+    "id": 670,
+    "alternativas": {
+      "A": "Apenas na longarina esquerda do veículo, imediatamente abaixo do assoalho do compartimento de porta-malas, em um único ponto de gravação padronizado para todos os modelos.",
+      "B": "Exclusivamente sob o banco dianteiro do motorista, conforme regra única e padronizada para todos os monoblocos.",
+      "C": "Apenas no bloco do motor, sempre justaposta à gravação do número de identificação do próprio motor.",
+      "D": "Em elementos estruturais como a torre do amortecedor direito, a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta-fogo ou o assoalho do porta-malas."
+    }
+  }
+]

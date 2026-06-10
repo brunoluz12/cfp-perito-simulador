@@ -7702,10 +7702,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame pericial em um automóvel fabricado em 1990, o perito precisa avaliar a conformidade da identificação veicular sob a Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988). Considerando os locais de identificação complementar pelos caracteres VIS exigidos por aquela norma para automóveis, é CORRETO afirmar que a gravação ou plaqueta era exigida, entre outros locais, em:",
     "alternativas": {
-      "A": "Somente no para-choque dianteiro e no porta-malas, com profundidade mínima de 1,0 mm.",
-      "B": "Exclusivamente na placa dianteira e na placa traseira, mediante lacre estrutural.",
-      "C": "Apenas no bloco do motor e na caixa de câmbio, dispensada qualquer marcação em vidros ou na coluna da porta.",
-      "D": "Assoalho do veículo sob um dos bancos dianteiros; coluna da porta dianteira lateral direita; compartimento do motor; um dos para-brisas e um dos vidros traseiros, quando existente; e pelo menos dois vidros de cada lado do veículo, excetuados os quebra-ventos."
+      "A": "Somente no para-choque dianteiro e no compartimento do porta-malas, com profundidade mínima de 1,0 mm e caracteres de altura não inferior a 10 mm em cada ponto.",
+      "B": "Exclusivamente nas placas dianteira e traseira e em ambos os para-brisas, mediante lacre estrutural e etiqueta autocolante destrutível afixada individualmente em cada um desses pontos de controle.",
+      "C": "Apenas no bloco do motor e na caixa de câmbio, ficando dispensada qualquer marcação nos vidros, na coluna da porta ou no assoalho do habitáculo.",
+      "D": "Assoalho sob um dos bancos dianteiros, coluna da porta dianteira direita, compartimento do motor, um para-brisa e um vidro traseiro e ao menos dois vidros de cada lado, exceto quebra-ventos."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme o capítulo 7.1, sob a Resolução nº 659/1985, a identificação complementar era exigida em: 'assoalho do veículo, sob um dos bancos dianteiros; coluna da porta dianteira lateral direita; compartimento do motor; um dos para-brisas e um dos vidros traseiros, quando existente; pelo menos dois vidros de cada lado do veículo, quando existentes, excetuados os quebra-ventos'.",
@@ -7719,10 +7719,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Comparando o regime da Resolução Contran nº 24/1998 com a anteriormente vigente Resolução nº 659/1985 (alterada pela 691/1988), em relação à identificação veicular obrigatória, é correto afirmar que as principais alterações introduzidas pela Resolução nº 24/1998 consistiram em:",
     "alternativas": {
-      "A": "Abolir totalmente a gravação do VIN no chassi ou monobloco, substituindo-a apenas por etiqueta autocolante na coluna da porta.",
+      "A": "Abolir totalmente a gravação do VIN no chassi ou no monobloco, substituindo-a apenas por etiqueta autocolante destrutível afixada na coluna da porta dianteira do lado do passageiro.",
       "B": "Suprimir a gravação no assoalho sob um dos bancos dianteiros e introduzir expressamente a identificação do ano de fabricação como item autônomo obrigatório.",
-      "C": "Suprimir a gravação na coluna da porta dianteira lateral direita e dispensar a marcação dos vidros.",
-      "D": "Eliminar a obrigatoriedade da segunda gravação de chassi em reboques e semirreboques, mantendo-se apenas uma gravação única."
+      "C": "Suprimir a gravação na coluna da porta dianteira lateral direita e dispensar por completo a marcação dos vidros e do compartimento do motor.",
+      "D": "Eliminar a obrigatoriedade da segunda gravação de chassi em reboques e semirreboques, mantendo-se apenas uma gravação única na longarina esquerda."
     },
     "resposta_correta": "B",
     "justificativa": "Conforme o capítulo 7.2: 'As principais alterações consistiram na supressão da gravação no assoalho sob um dos bancos dianteiros, e na introdução expressa da identificação do ano de fabricação como item autônomo obrigatório'. Foram preservadas a gravação na coluna da porta dianteira lateral direita, no compartimento do motor, nos vidros e a obrigatoriedade de duas gravações no chassi para reboques e semirreboques.",
@@ -7736,9 +7736,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A Resolução Contran nº 968/2022 estabelece o sistema atualmente vigente de identificação veicular. Sobre a gravação do VIN nos veículos, conforme essa norma, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "Para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, os caracteres do VIN devem ter altura mínima de 7 mm e ser gravados obrigatoriamente no bloco do motor.",
-      "B": "A gravação principal do VIN dispensa qualquer segunda gravação, sendo proibido o uso de plaquetas metálicas destrutíveis ou ETA como métodos alternativos.",
-      "C": "O VIN deve ser gravado com profundidade mínima de 0,2 mm, sendo o local preferencial o lado direito do chassi ou do monobloco, e a norma veda, como regra, a gravação por punção manual, excetuando fabricantes de produção reduzida.",
+      "A": "Para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, os caracteres do VIN devem ter altura mínima de 7 mm e ser gravados obrigatoriamente no bloco do motor e, de forma redundante, na caixa de câmbio, com profundidade mínima de 1,0 mm.",
+      "B": "A gravação principal do VIN dispensa qualquer segunda gravação, sendo proibido o uso de plaquetas metálicas destrutíveis ou de ETA como métodos alternativos de identificação.",
+      "C": "O VIN deve ser gravado com profundidade mínima de 0,2 mm, sendo o local preferencial o lado direito do chassi ou monobloco; a norma veda, em regra, a punção manual, salvo fabricantes de produção reduzida.",
       "D": "Em reboques e semirreboques, a segunda gravação do VIN deve ser feita na longarina direita, com profundidade mínima de 1,0 mm, distinta da primeira gravação."
     },
     "resposta_correta": "C",
@@ -7753,10 +7753,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A Resolução Contran nº 968/2022 prevê, de forma expressa, uma identificação oculta contendo o número VIN ou, alternativamente, o VIS, a ser gravada em local escolhido a critério do fabricante. Sobre essa identificação oculta, considere as opções de localização admitidas pela referida Resolução:\n\nI. No monobloco.\nII. No chassi.\nIII. Na cabine.\nIV. Na carroceria, nos casos de ônibus e micro-ônibus.\nV. Exclusivamente no para-choque dianteiro e nos vidros laterais, vedada qualquer outra localização.\n\nEstão CORRETAS apenas:",
     "alternativas": {
-      "A": "III, IV e V.",
-      "B": "I, II e V.",
-      "C": "II, III e V.",
-      "D": "I, II, III e IV."
+      "A": "Apenas os itens III, IV e V estão corretos.",
+      "B": "Apenas os itens I, II e V estão corretos.",
+      "C": "Apenas os itens II, III e V estão corretos.",
+      "D": "Estão corretos os itens I, II, III e IV."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme o capítulo 7.3, a identificação oculta 'deve ser gravada em local escolhido a critério do fabricante, dentre opções delimitadas pela própria Resolução, podendo situar-se: no monobloco; no chassi; na cabine; ou na carroceria, nos casos de ônibus e micro-ônibus'. O item V é falso, pois para-choque e vidros laterais não constam entre as opções admitidas para a identificação oculta.",
@@ -7770,10 +7770,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em exame pericial de um automóvel sob o regime da Resolução Contran nº 968/2022, o perito constata divergência na altura dos caracteres da gravação do ano de fabricação, realizada diretamente no monobloco, nas imediações do VIN. Sobre os parâmetros físicos exigidos pela referida Resolução para a gravação do ano de fabricação diretamente no chassi/monobloco, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "Deve ser expressa em dois algarismos, com profundidade mínima de 1,0 mm e altura mínima de 10 mm para todas as categorias de veículos.",
-      "B": "Pode ser gravada em qualquer ponto do veículo, sem exigência de altura ou profundidade mínima dos caracteres.",
+      "A": "Deve ser expressa em dois algarismos, com profundidade mínima de 1,0 mm e altura mínima de 10 mm uniforme para todas as categorias de veículos, inclusive ciclomotores, motonetas, motocicletas, triciclos e quadriciclos.",
+      "B": "Pode ser gravada em qualquer ponto do veículo, sem qualquer exigência de altura ou de profundidade mínima dos caracteres empregados na gravação.",
       "C": "Deve ser expressa em quatro algarismos, com profundidade mínima de 0,2 mm, altura mínima de 4 mm para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, e 7 mm para os demais veículos.",
-      "D": "Deve ser obrigatoriamente realizada apenas por etiqueta autocolante (ETA), sendo vedada a gravação direta no chassi ou monobloco."
+      "D": "Deve ser obrigatoriamente realizada apenas por etiqueta autocolante (ETA), sendo vedada a gravação direta no chassi ou no monobloco do veículo."
     },
     "resposta_correta": "C",
     "justificativa": "Conforme o capítulo 7.3: 'Quando a identificação for realizada por gravação direta no chassi ou monobloco, esta deve ocorrer nas imediações do VIN, ser expressa em quatro algarismos, observar profundidade mínima de 0,2 mm e atender às alturas mínimas dos caracteres, fixadas em 4 mm para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, e 7 mm para os demais veículos'.",
@@ -7787,10 +7787,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a norma ABNT NBR 6066:2022, o VIN é uma combinação obrigatória de 17 caracteres alfanuméricos estruturada em três seções distintas. A respeito da estrutura do VIN e dos caracteres permitidos, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "O WMI corresponde aos oito últimos caracteres e identifica o ano de fabricação; o VDS identifica o fabricante; e o VIS descreve características gerais do veículo.",
-      "B": "A norma aplica-se exclusivamente aos ciclomotores, sendo os demais veículos disciplinados por regulamentação específica.",
-      "C": "A norma permite o uso de todos os caracteres alfanuméricos, incluindo as letras I, O e Q, sem restrições.",
-      "D": "O WMI corresponde aos três primeiros caracteres e identifica o fabricante ou montadora, incluindo área geográfica e país; o VDS, aos seis caracteres subsequentes, descreve características gerais do veículo; e o VIS, aos oito últimos, individualiza o veículo, incluindo obrigatoriamente o ano na 10ª posição e a planta de montagem na 11ª posição."
+      "A": "O WMI corresponde aos oito últimos caracteres e identifica o ano de fabricação e a planta de montagem; o VDS, aos três primeiros, identifica o fabricante e o país de origem; e o VIS, aos seis caracteres centrais, descreve as características gerais do veículo.",
+      "B": "A norma aplica-se exclusivamente aos ciclomotores e às motocicletas, sendo todos os demais veículos disciplinados por regulamentação específica e diversa da ABNT NBR 6066.",
+      "C": "A norma permite o uso de todos os caracteres alfanuméricos do alfabeto latino, incluindo as letras I, O e Q, sem qualquer restrição de confusão visual.",
+      "D": "O WMI são os três primeiros caracteres (fabricante/montadora, área geográfica e país); o VDS, os seis seguintes (características gerais do veículo); e o VIS, os oito últimos, que individualizam o veículo, com o ano na 10ª posição e a planta na 11ª."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme o capítulo 7.4: 'WMI (World Manufacturer Identifier) - corresponde aos três primeiros caracteres e identifica o fabricante ou montadora, incluindo área geográfica e país; VDS (Vehicle Descriptor Section) - composta pelos seis caracteres subsequentes, descreve características gerais do veículo (...); VIS (Vehicle Indicator Section) - composta pelos oito últimos caracteres, individualiza cada veículo produzido, incluindo, obrigatoriamente, a identificação do ano (...) na 10ª posição do VIN, a planta de montagem na 11ª posição e o número sequencial de produção'. A norma também 'restringe o conjunto de caracteres permitidos, vedando o uso das letras I, O e Q' e exclui apenas os ciclomotores.",
@@ -7804,10 +7804,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a ABNT NBR 6066:2022, a 10ª posição do VIN representa o ano de fabricação ou ano modelo, por meio de uma tabela cíclica de caracteres alfanuméricos. Considerando o conjunto de caracteres permitido pela norma (que veda I, O e Q) e a natureza cíclica dessa codificação, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "A norma adota uma tabela cíclica de caracteres alfanuméricos para representar o ano de fabricação ou ano modelo na 10ª posição do VIN, sendo a interpretação contextualizada com o restante do VIN e demais elementos do veículo.",
-      "B": "Os caracteres da 10ª posição constituem uma sequência única e nunca se repetem, garantindo identificação inequívoca do ano por todo o ciclo de vida da norma.",
+      "A": "A norma adota uma tabela cíclica de caracteres alfanuméricos para o ano de fabricação ou ano modelo na 10ª posição do VIN, devendo a interpretação ser contextualizada com o restante do VIN.",
+      "B": "Os caracteres da 10ª posição constituem uma sequência única que nunca se repete ao longo do tempo, garantindo a identificação inequívoca e definitiva do ano por todo o ciclo de vida útil da norma.",
       "C": "Os caracteres I, O e Q são utilizados exclusivamente na 10ª posição para representar anos pares, em razão do contraste visual com os algarismos.",
-      "D": "A 10ª posição é facultativa, podendo ser substituída por etiqueta autocolante na coluna da porta dianteira."
+      "D": "A 10ª posição é facultativa e pode ser substituída, a critério do fabricante, por etiqueta autocolante afixada na coluna da porta dianteira."
     },
     "resposta_correta": "A",
     "justificativa": "Conforme o capítulo 7.4: 'Para a identificação do ano do veículo, prevista na 10ª posição do VIN, a norma adota uma tabela cíclica de caracteres alfanuméricos para representar o ano de fabricação ou ano modelo (Tabela 1)'. Também segundo a norma, 'a norma também restringe o conjunto de caracteres permitidos, vedando o uso das letras I, O e Q, a fim de evitar confusão visual com algarismos'.",
@@ -7821,8 +7821,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em exame pericial de um SUV com carroceria monobloco, o perito não localiza a gravação do VIN no compartimento do motor e precisa verificar outros locais possíveis em veículos com essa configuração construtiva. Sobre os locais de gravação do VIN nos veículos com carroceria monobloco e nos veículos montados sobre chassi, conforme o capítulo 7.5 do material, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "Nos veículos montados sobre chassi, o VIN pode estar no lado direito e/ou esquerdo, bem como nas faces superior, inferior ou lateral externa, a depender do projeto; nos monoblocos, a marcação aparece em elementos estruturais como torre do amortecedor do lado direito, soleira da porta, assoalho dianteiro ou traseiro, painel corta-fogo ou assoalho do porta-malas.",
-      "B": "Nos veículos com carroceria monobloco, a marcação do VIN só pode aparecer no para-choque dianteiro; nos veículos montados sobre chassi, deve estar obrigatoriamente no teto do veículo.",
+      "A": "Sobre chassi, o VIN pode estar à direita e/ou à esquerda e nas faces superior, inferior ou lateral externa, conforme o projeto; nos monoblocos, surge em elementos como torre do amortecedor direito, soleira da porta, assoalho ou painel corta-fogo.",
+      "B": "Nos veículos com carroceria monobloco, a marcação do VIN só pode aparecer no para-choque dianteiro e no porta-malas; já nos montados sobre chassi, ela deve estar obrigatoriamente no teto e na coluna da direção, em local único e padronizado.",
       "C": "Tanto em veículos com chassi quanto em monoblocos, o VIN é gravado exclusivamente no bloco do motor, sendo dispensada qualquer marcação estrutural.",
       "D": "A ABNT NBR 6066:2022 proíbe variações de localização do VIN, exigindo sempre gravação na coluna da direção, independentemente do tipo construtivo do veículo."
     },
@@ -8927,9 +8927,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Comparando-se a Resolução Contran nº 24/1998 com o regime anterior (Resolução nº 659/1985), assinale a alternativa que descreve corretamente as PRINCIPAIS alterações trazidas pela norma de 1998.",
     "alternativas": {
-      "A": "Suprimiu a gravação na coluna da porta dianteira lateral direita e dispensou a identificação no compartimento do motor.",
-      "B": "Determinou a substituição definitiva do VIN pela placa Mercosul como identificador primário.",
-      "C": "Eliminou a obrigatoriedade de gravação no chassi para reboques e semirreboques, mantendo apenas etiquetas.",
+      "A": "Suprimiu a gravação na coluna da porta dianteira lateral direita e dispensou por completo a identificação no compartimento do motor e nos vidros laterais do veículo.",
+      "B": "Determinou a substituição definitiva do VIN pela placa do padrão Mercosul como único identificador primário do veículo.",
+      "C": "Eliminou a obrigatoriedade de gravação no chassi para reboques e semirreboques, mantendo apenas etiquetas autocolantes destrutíveis.",
       "D": "Suprimiu a gravação no assoalho sob um dos bancos dianteiros e introduziu expressamente a identificação do ano de fabricação como item autônomo obrigatório."
     },
     "resposta_correta": "D",
@@ -8961,7 +8961,7 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A Resolução Contran nº 968/2022 estabelece uma identificação OCULTA de especial relevo pericial. Em qual local essa identificação oculta pode ser gravada, segundo opções delimitadas pela própria Resolução?",
     "alternativas": {
-      "A": "Exclusivamente no chassi, sendo vedada qualquer outra posição.",
+      "A": "Exclusivamente no chassi do veículo, sendo terminantemente vedada qualquer outra posição de gravação.",
       "B": "No monobloco, no chassi, na cabine ou, no caso de ônibus e micro-ônibus, na carroceria.",
       "C": "Apenas em etiqueta autocolante destrutível afixada no compartimento do motor.",
       "D": "Exclusivamente nos vidros laterais traseiros, em formato de marca d'água."
@@ -8995,10 +8995,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a ABNT NBR 6066:2022, o VIN é composto por três seções. Assinale a alternativa que descreve corretamente a seção VDS (Vehicle Descriptor Section).",
     "alternativas": {
-      "A": "Corresponde aos três primeiros caracteres e identifica o fabricante, incluindo área geográfica e país.",
-      "B": "É composta pelos oito últimos caracteres e individualiza cada veículo produzido, incluindo o ano na 10ª posição.",
-      "C": "Corresponde aos dois últimos caracteres e indica exclusivamente a planta de montagem e o número sequencial.",
-      "D": "É composta pelos seis caracteres subsequentes ao WMI e descreve características gerais do veículo, como tipo, modelo, carroceria ou sistema de propulsão, conforme critério do fabricante."
+      "A": "Corresponde aos três primeiros caracteres do VIN e identifica o fabricante, incluindo a área geográfica e o país de origem.",
+      "B": "É composta pelos oito últimos caracteres do VIN e individualiza cada veículo produzido, incluindo o ano de fabricação na 10ª posição e a planta de montagem na 11ª.",
+      "C": "Corresponde aos dois últimos caracteres e indica exclusivamente a planta de montagem e o número sequencial de produção.",
+      "D": "São os seis caracteres seguintes ao WMI e descrevem características gerais do veículo — tipo, modelo, carroceria ou propulsão —, conforme critério do fabricante."
     },
     "resposta_correta": "D",
     "justificativa": "O PDF descreve: 'VDS (Vehicle Descriptor Section) – composta pelos seis caracteres subsequentes, descreve características gerais do veículo, como tipo, modelo, carroceria ou sistema de propulsão, conforme critério do fabricante'.",
@@ -9029,10 +9029,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um veículo com carroceria monobloco submetido à perícia, onde o perito poderá encontrar a gravação do VIN, conforme as variações práticas indicadas pelo PDF?",
     "alternativas": {
-      "A": "Apenas na longarina esquerda, sob o assoalho do porta-malas.",
-      "B": "Exclusivamente sob o banco dianteiro do motorista, conforme regra única.",
-      "C": "Apenas no bloco do motor, junto à gravação do número do motor.",
-      "D": "Em elementos estruturais integrados, como a torre do amortecedor do lado direito (passageiro), a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta-fogo ou o assoalho do porta-malas."
+      "A": "Apenas na longarina esquerda do veículo, imediatamente abaixo do assoalho do compartimento de porta-malas, em um único ponto de gravação padronizado para todos os modelos.",
+      "B": "Exclusivamente sob o banco dianteiro do motorista, conforme regra única e padronizada para todos os monoblocos.",
+      "C": "Apenas no bloco do motor, sempre justaposta à gravação do número de identificação do próprio motor.",
+      "D": "Em elementos estruturais como a torre do amortecedor direito, a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta-fogo ou o assoalho do porta-malas."
     },
     "resposta_correta": "D",
     "justificativa": "O PDF afirma: 'nos veículos com carroceria monobloco, a marcação aparece em elementos estruturais integrados, como a torre do amortecedor do lado direito (passageiro), a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta‑fogo ou ainda o assoalho do porta‑malas'.",
