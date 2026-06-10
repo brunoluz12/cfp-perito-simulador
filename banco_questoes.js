@@ -20676,5 +20676,175 @@ const questoesDB = [
     "justificativa": "Parentes devem ser tratados com respeito, mas não podem penetrar na área delimitada, salvo necessidade urgente e comprovada (p. 26); autoridades, muitas vezes sem formação sobre processamento de local, devem ser informadas dos procedimentos e mantidas fora da área delimitada (p. 26). Logo, a conduta correta é manter ambos fora do perímetro, o que valida C. A e D autorizam indevidamente o ingresso por vínculo familiar. B admite o acesso da autoridade apenas pelo cargo, em desacordo com a orientação de mantê-la fora da área.",
     "referencia": "PDF LOC, p. 26",
     "nivel": "dificil"
+  },
+  {
+    "id": 1343,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "O processamento de um local de crime obedece a uma sequência de etapas. Assinale a alternativa que apresenta essas etapas na ordem correta:",
+    "alternativas": {
+      "A": "Preparação, chegada ao local, busca completa, coleta de vestígios, reunião final e liberação do local.",
+      "B": "Chegada ao local, preparação, coleta de vestígios, busca completa, liberação e reunião final.",
+      "C": "Coleta de vestígios, busca completa, preparação, chegada ao local, liberação e reunião final.",
+      "D": "Preparação, busca completa, chegada ao local, reunião final, coleta de vestígios e liberação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As etapas, na ordem, são: preparação, chegada ao local, busca completa, coleta de vestígios, reunião final e liberação do local (p. 29-37), o que valida A. B, C e D embaralham a sequência, invertendo, por exemplo, a coleta antes da busca completa ou a chegada antes da preparação, em desacordo com o roteiro apresentado.",
+    "referencia": "PDF LOC, p. 29-37",
+    "nivel": "facil"
+  },
+  {
+    "id": 1344,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na fase de preparação, o conhecimento prévio do tipo de local e de crime é relevante porque:",
+    "alternativas": {
+      "A": "permite ao perito dispensar o exame pericial sempre que o crime for de menor potencial ofensivo.",
+      "B": "define os possíveis vestígios, o material e o equipamento necessários e o tipo de apoio a ser solicitado, como o de especialistas em explosivos quando for o caso.",
+      "C": "autoriza a coleta imediata dos vestígios pela guarnição que primeiro chegar ao local.",
+      "D": "substitui a necessidade de planejamento de transporte e de meios de comunicação da equipe."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O conhecimento do tipo de local/crime define os possíveis vestígios, o material e o equipamento e o tipo de ajuda necessária — por exemplo, apoio de especialistas em bombas no caso de explosivos —, valendo o lema de que 'não se deve tentar resolver tudo sozinho' (p. 29). Isso valida B. A é falsa, pois não dispensa o exame pericial. C contraria a regra de que a coleta cabe ao perito após o devido processamento. D nega a importância do planejamento de transporte e comunicação, também tratados na preparação.",
+    "referencia": "PDF LOC, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 1345,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "A disciplina afirma que existe uma 'oportunidade única' no processamento de um local de crime. A principal fonte de erro associada a essa característica é:",
+    "alternativas": {
+      "A": "a ausência de cadeia única de comando entre os integrantes da equipe.",
+      "B": "a falta de meios de comunicação por rádio em cenas de grande extensão.",
+      "C": "a pressa, sentida sobretudo nas etapas de busca e de documentação.",
+      "D": "a realização de entrevistas com testemunhas antes da chegada da perícia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma que 'a pressa é a principal fonte de erro no processamento de um local', sentida sobretudo na busca e na documentação, devendo-se esclarecer que o trabalho não será rápido porque só existe uma oportunidade de processar o local adequadamente (p. 31-32). Isso valida C. A e B são fatores relevantes, mas não apontados como a principal fonte de erro. D descreve etapa útil para direcionar os trabalhos, não a fonte de erro.",
+    "referencia": "PDF LOC, p. 31-32",
+    "nivel": "facil"
+  },
+  {
+    "id": 1346,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a chegada ao local, são realizadas entrevistas com testemunhas e pessoas presentes antes da perícia. Sobre o aproveitamento dessas informações, é correto afirmar que:",
+    "alternativas": {
+      "A": "as informações subjetivas obtidas nas entrevistas integram diretamente as conclusões do laudo, com o mesmo peso dos vestígios materiais.",
+      "B": "as entrevistas servem para direcionar e agilizar os trabalhos, mas as informações subjetivas não são objeto de avaliação no laudo, no qual o perito considera apenas os vestígios.",
+      "C": "as entrevistas substituem a busca por vestígios sempre que houver testemunhas presenciais concordantes.",
+      "D": "as informações subjetivas só podem ser colhidas pelo perito-chefe, sendo vedada sua obtenção pelos demais membros da equipe."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As entrevistas podem ser feitas por qualquer membro da equipe e servem para direcionar e agilizar os trabalhos; contudo, as informações subjetivas não serão objeto de avaliação no laudo, pois o perito só considera os vestígios para suas conclusões, ainda que existam vestígios que comprovem o relato (p. 33). Isso valida B. A equipara indevidamente relato e vestígio nas conclusões. C dispensa a busca por vestígios. D restringe sem fundamento a entrevista ao perito-chefe.",
+    "referencia": "PDF LOC, p. 33",
+    "nivel": "medio"
+  },
+  {
+    "id": 1347,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a busca completa, ao localizar um vestígio relevante, o procedimento correto do perito é:",
+    "alternativas": {
+      "A": "coletá-lo e embalá-lo de imediato, para evitar sua perda ou contaminação antes do registro.",
+      "B": "marcá-lo, para que posteriormente seja descrito, fotografado e assinalado no croqui, conduzindo a busca do geral para o específico.",
+      "C": "removê-lo para a rota de entrada e saída, a fim de facilitar sua posterior fotografia em condições controladas.",
+      "D": "registrar apenas verbalmente a sua existência, dispensando fotografia e croqui quando se tratar de área visível."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A regra é que, ao encontrar um vestígio, ele seja marcado para depois ser descrito, fotografado e assinalado no croqui — nunca coletado de imediato —, conduzindo-se a busca do geral para o específico (p. 33-35). Isso valida B. A contraria a regra ao coletar antes do registro. C agrava a alteração da cena ao remover o vestígio. D dispensa indevidamente o registro fotográfico e o croqui.",
+    "referencia": "PDF LOC, p. 33-35",
+    "nivel": "medio"
+  },
+  {
+    "id": 1348,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe precisa buscar vestígios em uma área extensa e a céu aberto, contando com muitas pessoas. Para tornar a varredura mais completa, decide repeti-la em direção perpendicular à primeira. O padrão de busca empregado é o:",
+    "alternativas": {
+      "A": "padrão em espiral.",
+      "B": "padrão em quadrante.",
+      "C": "padrão em linha cruzada.",
+      "D": "padrão em linha simples."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O padrão em linha cruzada equivale à busca em linha repetida em uma segunda varredura perpendicular à primeira, sendo mais completa, porém mais trabalhosa (p. 34-35). Isso valida C. A (espiral) é indicada para áreas pequenas com poucas pessoas, da periferia ao centro. B (quadrante) divide a cena em A, B, C e D. D (linha simples) não inclui a segunda passagem perpendicular que caracteriza o caso descrito.",
+    "referencia": "PDF LOC, p. 34-35",
+    "nivel": "medio"
+  },
+  {
+    "id": 1349,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma cena pequena e com poucos profissionais disponíveis, qual padrão de busca é o mais indicado e como ele se desenvolve?",
+    "alternativas": {
+      "A": "O padrão em linha, com os profissionais a dois braços de distância e uma pessoa-base comandando a varredura.",
+      "B": "O padrão em quadrante, dividindo-se a cena em quatro setores e aplicando-se outra metodologia em cada um.",
+      "C": "O padrão em espiral, iniciando-se na periferia e contornando a cena até o ponto central, onde geralmente está a maioria dos vestígios.",
+      "D": "O padrão em linha cruzada, com duas varreduras perpendiculares para maior completude."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O padrão em espiral é indicado para área pequena e poucas pessoas, iniciando na periferia e contornando a cena até o ponto central, onde geralmente se concentra a maioria dos vestígios (p. 34). Isso valida C. A e D (linha e linha cruzada) destinam-se a áreas extensas com muitas pessoas. B (quadrante) é uma divisão setorial, não a indicada preferencialmente para cenas pequenas com poucos profissionais.",
+    "referencia": "PDF LOC, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1350,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao processar um homicídio em uma residência, o perito localiza uma mancha suspeita de sangue impregnada no carpete da sala. Considerando a coleta de vestígios e a noção de amostra controle (ou amostra padrão), a conduta tecnicamente adequada é:",
+    "alternativas": {
+      "A": "encaminhar o carpete inteiro ao laboratório, pois somente a remoção total do suporte garante a confiabilidade da análise.",
+      "B": "recortar e encaminhar apenas o trecho com a mancha, descartando-se qualquer coleta adicional do mesmo suporte.",
+      "C": "recortar o trecho com a mancha e, como regra geral, coletar também uma amostra do carpete isenta da mancha (amostra controle), pois ela pode ser necessária para uma análise conclusiva.",
+      "D": "aguardar manifestação do laboratório antes de qualquer coleta, mantendo o carpete no local até nova diligência."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quando o vestígio está impregnado em um suporte que não pode ser totalmente encaminhado, recorta-se o trecho com a mancha; para que a análise seja conclusiva, o laboratório pode precisar de uma amostra do suporte isenta da mancha (amostra controle/padrão). Como no local não se sabe se será necessária, a regra geral é coletá-la (p. 36-37). Isso valida C. A é inviável e desnecessária. B omite a amostra controle. D adia indevidamente a coleta, perdendo a oportunidade única do processamento.",
+    "referencia": "PDF LOC, p. 36-37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1351,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "A reunião final, que antecede a finalização do trabalho, tem como pauta central a pergunta 'Fizemos tudo o que era necessário para um processamento efetivo deste local?'. Entre os pontos a verificar nessa etapa, NÃO se inclui:",
+    "alternativas": {
+      "A": "se a documentação está devidamente preenchida e se todos os vestígios foram fotografados e posicionados no croqui.",
+      "B": "se os vestígios foram coletados adequadamente e se as amostras controle necessárias foram coletadas.",
+      "C": "se os vestígios estão embalados e identificados adequadamente e se há meios para transportá-los.",
+      "D": "se o indiciamento do suspeito foi formalizado e se a denúncia foi oferecida ao juízo competente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A reunião final verifica se a documentação está preenchida, se os vestígios foram fotografados e posicionados no croqui, se foram coletados adequadamente, se as amostras controle necessárias foram coletadas, se estão embalados e identificados e se há meios para transportá-los (p. 37). Logo, A, B e C correspondem a pontos da etapa. D não integra essa verificação, pois o indiciamento e a denúncia são atos da fase de persecução penal alheios ao processamento do local, o que torna D a alternativa correta (item que não se inclui).",
+    "referencia": "PDF LOC, p. 37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1352,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Concluído o processamento, procede-se à liberação do local. Sobre essa etapa, é correto afirmar que:",
+    "alternativas": {
+      "A": "a entrega do local deve ser feita por qualquer integrante da equipe, independentemente de chefia, e não precisa ser registrada.",
+      "B": "o chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido e os cuidados necessários, com a liberação consignada em laudo.",
+      "C": "a liberação somente é válida se realizada por escrito e homologada judicialmente antes da retirada da fita de isolamento.",
+      "D": "após a liberação, a responsabilidade pelo local permanece com a perícia até o encerramento do inquérito policial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido/encaminhado e os cuidados; a liberação ocorre geralmente de forma verbal e deve ser consignada em laudo, podendo ser por escrito se necessário (p. 37). Isso valida B. A dispensa indevidamente a chefia e o registro. C exige forma escrita e homologação judicial não previstas. D prolonga indevidamente a responsabilidade da perícia após a entrega formal.",
+    "referencia": "PDF LOC, p. 37",
+    "nivel": "medio"
   }
 ];
