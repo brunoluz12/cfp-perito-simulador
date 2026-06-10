@@ -40,17 +40,23 @@
     <div class="header">
         <span class="badge">IPO II</span>
         <h1>Capítulo 6 - O Uso da Inteligência Artificial como Apoio à Investigação</h1>
-        <div class="subtitle">Princípios, Engenharia de Prompt e de Contexto, e uso na Polícia Federal</div>
+        <div class="subtitle">Fundamentos da IA e dos LLMs, Princípios, Engenharia de Prompt e de Contexto, e uso na Polícia Federal</div>
+    </div>
+
+    <div class="box-orange">
+        <strong>⚠ Atualização do material (edição com atualização do PDF):</strong> Esta versão do Capítulo 6 incorpora as <strong>duas novas seções de fundamentos</strong> acrescentadas pela edição atualizada do caderno didático — <strong>6.1 Fundamentos da Inteligência Artificial</strong> e <strong>6.2 Fundamentos do LLM</strong>. Em razão disso, as seções já existentes foram <strong>renumeradas</strong>: Princípios Básicos passou a ser <strong>6.3</strong>; Engenharia de Prompt, <strong>6.4</strong>; Engenharia de Contexto, <strong>6.5</strong>; e Uso da IA pela PF, <strong>6.6</strong>. O conteúdo dessas seções permanece o mesmo, apenas deslocado nas páginas.
     </div>
 
     <div class="toc">
         <h3>Índice</h3>
         <ul>
             <li><a href="#sec0">0. Introdução: o que é Inteligência Artificial</a></li>
-            <li><a href="#sec1">6.1 Princípios Básicos do Uso da IA</a></li>
-            <li><a href="#sec2">6.2 Engenharia de Prompt</a></li>
-            <li><a href="#sec3">6.3 Engenharia de Contexto</a></li>
-            <li><a href="#sec4">6.4 Uso da IA pela Polícia Federal</a></li>
+            <li><a href="#secfia">6.1 Fundamentos da Inteligência Artificial (ML, DL, LLM; Turing) <span class="ref-pagina">NOVO</span></a></li>
+            <li><a href="#secllm">6.2 Fundamentos do LLM (Transformer, aplicações, processamento) <span class="ref-pagina">NOVO</span></a></li>
+            <li><a href="#sec1">6.3 Princípios Básicos do Uso da IA</a></li>
+            <li><a href="#sec2">6.4 Engenharia de Prompt</a></li>
+            <li><a href="#sec3">6.5 Engenharia de Contexto</a></li>
+            <li><a href="#sec4">6.6 Uso da IA pela Polícia Federal</a></li>
         </ul>
     </div>
 
@@ -102,11 +108,136 @@
         </div>
     </div>
 
-    <div id="sec1" class="section">
-        <h2>6.1 Princípios Básicos do Uso da Inteligência Artificial</h2>
+    <div id="secfia" class="section">
+        <h2>6.1 Fundamentos da Inteligência Artificial <span class="ref-pagina" style="font-size:0.5em;">(seção nova)</span></h2>
+
+        <h3>6.1.1 Definição de ML, DL e LLM — conceitos básicos de hierarquia</h3>
 
         <div class="box-blue">
-            <strong>Conceito-chave:</strong> O uso da IA em investigações policiais deve observar quatro princípios essenciais: <strong>legalidade, ética, confiabilidade e confidencialidade</strong>. <span class="ref-pagina">(p. 473-474)</span>
+            <strong>Ideia central:</strong> A Inteligência Artificial é uma área <strong>ampla</strong>. Dentro dela, destacam-se níveis crescentes de especialização, formando uma <strong>hierarquia</strong>: <strong>IA ⊃ ML ⊃ DL ⊃ LLM</strong>, em que cada nível agrega maior especialização e complexidade. <span class="ref-pagina">(p. 474)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Nível</th>
+                <th>Definição</th>
+            </tr>
+            <tr>
+                <td><strong>Machine Learning (ML)</strong><br>Aprendizado de máquina</td>
+                <td>Processo no qual algoritmos <strong>identificam padrões em dados</strong> e melhoram seu desempenho <strong>sem necessidade de programação explícita</strong> para cada tarefa. Exemplos: classificação de e-mails como spam; reconhecimento simples de padrões em texto ou números. <span class="ref-pagina">(p. 474)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Deep Learning (DL)</strong><br>Aprendizado profundo</td>
+                <td><strong>Subconjunto do ML</strong> que utiliza <strong>redes neurais artificiais profundas</strong>. Imita o funcionamento do cérebro humano por meio de várias camadas de processamento, permitindo reconhecer <strong>correlações complexas</strong> em grandes volumes de dados. É a base de sistemas avançados como reconhecimento de voz, imagens e os LLMs. <span class="ref-pagina">(p. 474)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Large Language Models (LLM)</strong><br>Modelos de linguagem de larga escala</td>
+                <td>Modelos treinados sobre <strong>vastos conjuntos de textos</strong>. Baseiam-se em arquiteturas de deep learning (como o <strong>Transformer</strong>) e atuam como <strong>sistemas de previsão estatística de palavras</strong>, permitindo a geração de textos coerentes, a resposta a perguntas e a execução de tarefas complexas de linguagem natural. <span class="ref-pagina">(p. 474)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: a "boneca russa" da IA</span>
+            <p><strong>IA ⊃ ML ⊃ DL ⊃ LLM</strong> — a IA contém o ML, que contém o DL, que contém os LLMs. Quanto mais "dentro", mais especializado e complexo.</p>
+        </div>
+
+        <div class="box-purple">
+            <strong>Transformer (nota 35):</strong> arquitetura criada para ajudar computadores a entenderem melhor textos e frases. Em vez de ler palavra por palavra na ordem, ela consegue <strong>olhar para toda a frase de uma vez</strong> e identificar quais partes são mais importantes — tornando o processo mais rápido e eficiente em tarefas como tradução, resumo ou geração de textos. <span class="ref-pagina">(p. 474, Figura 63)</span>
+        </div>
+
+        <h3>6.1.2 Da teoria de Turing à popularização dos LLMs</h3>
+
+        <p>O estudo sobre o conceito de "Inteligência Artificial" começou por volta de <strong>1950</strong>, quando <strong>Alan Turing</strong> propôs o <strong>jogo da imitação</strong> (conhecido como <strong>Teste de Turing</strong>) como forma de testar se máquinas poderiam pensar como humanos. <span class="ref-pagina">(p. 475)</span></p>
+
+        <div class="box-green">
+            Desde então, a IA evoluiu de sistemas simples para aplicações mais complexas, integrando-se gradualmente ao cotidiano: <strong>filtros antispam</strong> de e-mail, <strong>mecanismos de recomendação</strong>, <strong>algoritmos de redes sociais</strong>, <strong>assistentes de voz (Siri, Alexa)</strong>, sistemas de <strong>OCR</strong>, <strong>reconhecimento facial</strong>, <strong>tradutores automáticos</strong> etc. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>MARCO RECENTE (cai em prova!):</strong> Popularmente, considera-se que o grande marco recente ocorreu em <strong>2023</strong>, com o <strong>lançamento do ChatGPT</strong> ao grande público, inaugurando a <strong>era dos LLMs</strong> e consolidando a IA como ferramenta acessível, estratégica e presente em diversas áreas. <span class="ref-pagina">(p. 475)</span>
+        </div>
+    </div>
+
+    <div id="secllm" class="section">
+        <h2>6.2 Fundamentos do LLM (Large Language Model) <span class="ref-pagina" style="font-size:0.5em;">(seção nova)</span></h2>
+
+        <div class="box-blue">
+            <strong>O que são:</strong> Os LLMs são construídos a partir de <strong>redes neurais profundas</strong> e treinados em <strong>grandes volumes de texto</strong>. Seu funcionamento baseia-se na <strong>previsão da próxima palavra (token)</strong>, de acordo com o contexto fornecido. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Origem técnica:</strong> O desenvolvimento dos LLMs está diretamente ligado ao artigo <strong>"Attention is All You Need"</strong> (2017), publicado por engenheiros do <strong>Google</strong>, que apresentou a <strong>arquitetura Transformer</strong>, permitindo que redes neurais processassem linguagem de forma mais eficiente. Essa inovação viabilizou a criação de modelos como <strong>GPT</strong>, <strong>BERT</strong> e outros, treinados em bases textuais massivas. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>LLMs mais populares atualmente:</strong> <strong>GPT</strong> (OpenAI), <strong>Gemini</strong> (Google DeepMind), <strong>Gemma</strong> (Google), <strong>Claude</strong> (Anthropic), <strong>LLaMA</strong> (Meta), <strong>Qwen</strong> (Alibaba), <strong>DeepSeek</strong> (DeepSeek AI) e <strong>Grok</strong> (xAI), entre outros. Cada um tem particularidades em desempenho, abertura de código e aplicações, mas <strong>todos se fundamentam nos mesmos princípios da arquitetura Transformer</strong>. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <h3>6.2.1 Aplicações</h3>
+        <p>Um LLM funciona como um <strong>sistema estatístico avançado</strong>. Ele analisa sequências de palavras já vistas no treinamento e calcula <strong>probabilidades para prever a próxima palavra</strong> mais provável em determinado contexto. <span class="ref-pagina">(p. 475)</span></p>
+
+        <p>Essa capacidade permite uma ampla gama de usos:</p>
+        <ul>
+            <li>Responder <strong>perguntas objetivas</strong>;</li>
+            <li><strong>Resumir documentos</strong>;</li>
+            <li><strong>Gerar textos criativos</strong>;</li>
+            <li><strong>Escrever ou depurar códigos</strong> de programação.</li>
+        </ul>
+
+        <div class="box-red">
+            <strong>PONTO CRÍTICO:</strong> O modelo <strong>não "pensa"</strong> como um humano — ele <strong>estima a sequência mais plausível</strong> com base nos padrões aprendidos. Por isso, pode apoiar investigações criminais, <strong>desde que haja controle humano a todo tempo</strong>, especialmente no que se refere à <strong>sensibilidade dos dados</strong>. <span class="ref-pagina">(p. 475-476)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Token (nota 36):</strong> menor unidade de texto processada pelo sistema (palavra, parte de palavra ou símbolo). O LLM gera <strong>um token por vez</strong>, de forma sequencial, até formar a resposta completa. <span class="ref-pagina">(p. 475)</span>
+        </div>
+
+        <h3>6.2.2 Processamento</h3>
+        <p>O processamento interno de um LLM pode ser descrito em <strong>cinco etapas fundamentais</strong>: <span class="ref-pagina">(p. 476)</span></p>
+        <table>
+            <tr>
+                <th>Etapa</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>1. Tokenização</strong></td>
+                <td>O texto é <strong>segmentado em unidades menores</strong> (palavras, fragmentos ou símbolos) que podem ser processadas pelo modelo. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+            <tr>
+                <td><strong>2. Embeddings</strong></td>
+                <td>Cada token é convertido em um <strong>vetor numérico</strong> que representa seu significado em um espaço matemático multidimensional. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+            <tr>
+                <td><strong>3. Mecanismo de atenção</strong></td>
+                <td>O modelo atribui <strong>diferentes níveis de relevância</strong> a cada token dentro do contexto, capturando relações de curto e longo alcance entre palavras. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+            <tr>
+                <td><strong>4. Camadas empilhadas</strong></td>
+                <td>Sucessivas transformações <strong>refinam as representações</strong>, extraindo padrões cada vez mais abstratos e complexos. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+            <tr>
+                <td><strong>5. Autorregressão</strong></td>
+                <td>A geração ocorre de forma <strong>sequencial</strong>: o modelo produz um token de cada vez com base nos anteriores, construindo progressivamente a resposta. <span class="ref-pagina">(p. 476)</span></td>
+            </tr>
+        </table>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico: T-E-M-C-A (processamento do LLM)</span>
+            <ul>
+                <li><strong>T</strong>okenização</li>
+                <li><strong>E</strong>mbeddings</li>
+                <li><strong>M</strong>ecanismo de atenção</li>
+                <li><strong>C</strong>amadas empilhadas</li>
+                <li><strong>A</strong>utorregressão</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>6.3 Princípios Básicos do Uso da Inteligência Artificial (IA)</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> O uso da IA em investigações policiais deve observar quatro princípios essenciais: <strong>legalidade, ética, confiabilidade e confidencialidade</strong>. <span class="ref-pagina">(p. 476-477)</span>
         </div>
 
         <div class="mnemonic">
@@ -121,18 +252,18 @@
 
         <h3>Legalidade</h3>
         <div class="box-purple">
-            Consiste na plena adequação às normas vigentes, em especial à <strong>Portaria MJSP nº 961/2025</strong>, garantindo que todo processamento de dados siga parâmetros oficiais e regulamentados. <span class="ref-pagina">(p. 473)</span>
+            Consiste na plena adequação às normas vigentes, em especial à <strong>Portaria MJSP nº 961/2025</strong>, garantindo que todo processamento de dados siga parâmetros oficiais e regulamentados. <span class="ref-pagina">(p. 476)</span>
         </div>
 
         <h3>Ética</h3>
-        <p>É indispensável que o uso da IA seja pautado pela ética, que se refere à responsabilidade de garantir que sistemas automatizados sejam desenvolvidos e aplicados de forma <strong>justa, transparente e segura</strong>, respeitando os direitos fundamentais dos indivíduos. Inclui a proteção da privacidade, a não discriminação, a prestação de contas e a prevenção de danos. <span class="ref-pagina">(p. 473-474)</span></p>
+        <p>É indispensável que o uso da IA seja pautado pela ética, que se refere à responsabilidade de garantir que sistemas automatizados sejam desenvolvidos e aplicados de forma <strong>justa, transparente e segura</strong>, respeitando os direitos fundamentais dos indivíduos. Inclui a proteção da privacidade, a não discriminação, a prestação de contas e a prevenção de danos. <span class="ref-pagina">(p. 476-477)</span></p>
 
         <div class="box-orange">
-            No contexto institucional, especialmente em áreas sensíveis como segurança pública, o uso ético da IA exige <strong>rigor técnico e normativo</strong> para evitar vieses, assegurar a legalidade das decisões automatizadas e preservar a confiança da sociedade. A ética não é somente um valor abstrato, mas um <strong>imperativo operacional</strong> que orienta o uso legítimo e responsável da tecnologia. <span class="ref-pagina">(p. 474)</span>
+            No contexto institucional, especialmente em áreas sensíveis como segurança pública, o uso ético da IA exige <strong>rigor técnico e normativo</strong> para evitar vieses, assegurar a legalidade das decisões automatizadas e preservar a confiança da sociedade. A ética não é somente um valor abstrato, mas um <strong>imperativo operacional</strong> que orienta o uso legítimo e responsável da tecnologia. <span class="ref-pagina">(p. 477)</span>
         </div>
 
         <h3>Confiabilidade</h3>
-        <p>Diz respeito à capacidade do modelo em executar a tarefa com êxito. Envolve verificar se: <span class="ref-pagina">(p. 474)</span></p>
+        <p>Diz respeito à capacidade do modelo em executar a tarefa com êxito. Envolve verificar se: <span class="ref-pagina">(p. 477)</span></p>
         <ul>
             <li>O desempenho do sistema é adequado e a saída é confiável o suficiente para auxiliar na tarefa;</li>
             <li>A taxa de processamento (<strong>tokens por segundo</strong>) atende à demanda;</li>
@@ -140,15 +271,15 @@
             <li>Os algoritmos sejam <strong>auditáveis</strong>, garantindo que suas decisões possam ser reproduzidas e justificadas tecnicamente.</li>
         </ul>
         <div class="box-green">
-            Para instituições, isso significa que a IA deve ser integrada com <strong>supervisão humana e protocolos próprios de validação</strong>, além da conformidade com normas legais e éticas. <span class="ref-pagina">(p. 474)</span>
+            Para instituições, isso significa que a IA deve ser integrada com <strong>supervisão humana e protocolos próprios de validação</strong>, além da conformidade com normas legais e éticas. <span class="ref-pagina">(p. 477)</span>
         </div>
 
         <h3>Confidencialidade</h3>
         <div class="box-red">
-            <strong>PONTO CRÍTICO:</strong> O sigilo dos dados sensíveis deve ser preservado em qualquer circunstância. O processamento deve ocorrer somente em <strong>servidores seguros</strong>, considerando inclusive a <strong>anonimização</strong> das informações, quando necessário. <span class="ref-pagina">(p. 474)</span>
+            <strong>PONTO CRÍTICO:</strong> O sigilo dos dados sensíveis deve ser preservado em qualquer circunstância. O processamento deve ocorrer somente em <strong>servidores seguros</strong>, considerando inclusive a <strong>anonimização</strong> das informações, quando necessário. <span class="ref-pagina">(p. 477)</span>
         </div>
 
-        <p><strong>Anonimização (LGPD):</strong> é o processo técnico que torna <strong>irreversível</strong> a identificação de um indivíduo. Dados devidamente anonimizados deixam de ser considerados "dados pessoais". <span class="ref-pagina">(p. 474, nota 35)</span></p>
+        <p><strong>Anonimização (LGPD):</strong> é o processo técnico que torna <strong>irreversível</strong> a identificação de um indivíduo. Dados devidamente anonimizados deixam de ser considerados "dados pessoais". <span class="ref-pagina">(p. 477, nota 38)</span></p>
 
         <h3>Diferenças entre ambientes de uso</h3>
         <table>
@@ -158,53 +289,53 @@
             </tr>
             <tr>
                 <td><strong>Provedores gratuitos</strong> (ex.: Gemini API "free tier")</td>
-                <td>Podem coletar dados para aprimorar seus produtos. <span class="ref-pagina">(p. 474)</span></td>
+                <td>Podem coletar dados para aprimorar seus produtos. <span class="ref-pagina">(p. 477)</span></td>
             </tr>
             <tr>
                 <td><strong>Serviços pagos</strong> (ex.: plano corporativo OpenAI)</td>
-                <td>Asseguram que os dados não sejam usados para treinamento. <span class="ref-pagina">(p. 474)</span></td>
+                <td>Asseguram que os dados não sejam usados para treinamento. <span class="ref-pagina">(p. 477)</span></td>
             </tr>
             <tr>
                 <td><strong>Soluções institucionais</strong> (ex.: Microsoft Copilot Chat)</td>
-                <td>Proteção empresarial vinculada a termos de aditivos de proteção de dados. <span class="ref-pagina">(p. 474)</span></td>
+                <td>Proteção empresarial vinculada a termos de aditivos de proteção de dados. <span class="ref-pagina">(p. 477)</span></td>
             </tr>
             <tr>
                 <td><strong>Servidores locais</strong> (ex.: Ollama)</td>
-                <td>Mais controle sobre os dados — inferências 100% locais, sem risco de exposição na internet. <span class="ref-pagina">(p. 474)</span></td>
+                <td>Mais controle sobre os dados — inferências 100% locais, sem risco de exposição na internet. <span class="ref-pagina">(p. 477)</span></td>
             </tr>
         </table>
 
         <h3>Normativo aplicável (legalidade) - Portaria MJSP nº 961/2025</h3>
         <div class="box-blue">
-            <strong>Objeto:</strong> Estabelece diretrizes para o uso de soluções de tecnologia da informação, <strong>incluindo IA</strong>, em investigações criminais e atividades de inteligência de segurança pública. <span class="ref-pagina">(p. 475)</span>
+            <strong>Objeto:</strong> Estabelece diretrizes para o uso de soluções de tecnologia da informação, <strong>incluindo IA</strong>, em investigações criminais e atividades de inteligência de segurança pública. <span class="ref-pagina">(p. 478)</span>
         </div>
 
-        <p><strong>Aplicação:</strong> órgãos federais como <strong>Polícia Federal, PRF e Polícia Penal Federal</strong>, e entidades estaduais, distritais e municipais que utilizem recursos de fundos nacionais de segurança. <span class="ref-pagina">(p. 475)</span></p>
+        <p><strong>Aplicação:</strong> órgãos federais como <strong>Polícia Federal, PRF e Polícia Penal Federal</strong>, e entidades estaduais, distritais e municipais que utilizem recursos de fundos nacionais de segurança. <span class="ref-pagina">(p. 478)</span></p>
 
         <div class="box-purple">
-            <strong>Fundamentos da Portaria:</strong> legalidade, proporcionalidade, proteção de dados pessoais, integridade dos sistemas e transparência. Também enfatiza a <strong>integridade da cadeia de custódia da prova</strong>, a segurança da informação e a transparência no uso das tecnologias. <span class="ref-pagina">(p. 475)</span>
+            <strong>Fundamentos da Portaria:</strong> legalidade, proporcionalidade, proteção de dados pessoais, integridade dos sistemas e transparência. Também enfatiza a <strong>integridade da cadeia de custódia da prova</strong>, a segurança da informação e a transparência no uso das tecnologias. <span class="ref-pagina">(p. 478)</span>
         </div>
 
-        <p>A Portaria <strong>define conceitos essenciais</strong> como: dados pessoais e sensíveis, inteligência de segurança pública, investigação criminal, tratamento de dados e logs de acesso. Delimita o uso das tecnologias àquilo que for <strong>estritamente necessário</strong> para o cumprimento das atribuições legais, vedando o uso indiscriminado ou sem finalidade clara. <span class="ref-pagina">(p. 475)</span></p>
+        <p>A Portaria <strong>define conceitos essenciais</strong> como: dados pessoais e sensíveis, inteligência de segurança pública, investigação criminal, tratamento de dados e logs de acesso. Delimita o uso das tecnologias àquilo que for <strong>estritamente necessário</strong> para o cumprimento das atribuições legais, vedando o uso indiscriminado ou sem finalidade clara. <span class="ref-pagina">(p. 478)</span></p>
 
         <div class="box-orange">
-            <strong>Exigências de uso:</strong> proporcionalidade e <strong>revisão humana</strong> em casos de risco a direitos fundamentais. Órgãos gestores devem adotar medidas técnicas e administrativas como: controle de acesso, autenticação segura, auditorias periódicas, capacitação dos usuários e planos de contingência. <span class="ref-pagina">(p. 475)</span>
+            <strong>Exigências de uso:</strong> proporcionalidade e <strong>revisão humana</strong> em casos de risco a direitos fundamentais. Órgãos gestores devem adotar medidas técnicas e administrativas como: controle de acesso, autenticação segura, auditorias periódicas, capacitação dos usuários e planos de contingência. <span class="ref-pagina">(p. 478)</span>
         </div>
 
         <div class="box-red">
-            <strong>Responsabilização:</strong> a Portaria prevê responsabilização <strong>administrativa, civil e criminal</strong> em caso de uso indevido das tecnologias. <span class="ref-pagina">(p. 475)</span>
+            <strong>Responsabilização:</strong> a Portaria prevê responsabilização <strong>administrativa, civil e criminal</strong> em caso de uso indevido das tecnologias. <span class="ref-pagina">(p. 478)</span>
         </div>
     </div>
 
     <div id="sec2" class="section">
-        <h2>6.2 Engenharia de Prompt</h2>
+        <h2>6.4 Engenharia de Prompt</h2>
 
         <div class="box-blue">
-            <strong>Conceito:</strong> Engenharia de Prompt é o conjunto de técnicas utilizadas para <strong>estruturar as instruções</strong> fornecidas a um modelo de linguagem, influenciando diretamente a qualidade e a precisão das respostas. <span class="ref-pagina">(p. 475)</span>
+            <strong>Conceito:</strong> Engenharia de Prompt é o conjunto de técnicas utilizadas para <strong>estruturar as instruções</strong> fornecidas a um modelo de linguagem, influenciando diretamente a qualidade e a precisão das respostas. <span class="ref-pagina">(p. 478)</span>
         </div>
 
         <div class="box-green">
-            <strong>Ponto central:</strong> a IA <strong>não adivinha</strong> o que se deseja — ela interpreta a entrada textual e gera saídas conforme padrões aprendidos. Quanto melhor formulado o comando, maior a chance de obter respostas úteis, coerentes e dentro do esperado. <span class="ref-pagina">(p. 475)</span>
+            <strong>Ponto central:</strong> a IA <strong>não adivinha</strong> o que se deseja — ela interpreta a entrada textual e gera saídas conforme padrões aprendidos. Quanto melhor formulado o comando, maior a chance de obter respostas úteis, coerentes e dentro do esperado. <span class="ref-pagina">(p. 478)</span>
         </div>
 
         <h3>Métodos para orientar a geração de respostas</h3>
@@ -215,55 +346,55 @@
             </tr>
             <tr>
                 <td><strong>Zero-shot</strong></td>
-                <td>Somente descreve a tarefa, sem exemplos. <span class="ref-pagina">(p. 475)</span></td>
+                <td>Somente descreve a tarefa, sem exemplos. <span class="ref-pagina">(p. 478)</span></td>
             </tr>
             <tr>
                 <td><strong>Few-shot</strong></td>
-                <td>Inclui alguns exemplos de entrada e saída para guiar o modelo. <span class="ref-pagina">(p. 475)</span></td>
+                <td>Inclui alguns exemplos de entrada e saída para guiar o modelo. <span class="ref-pagina">(p. 478)</span></td>
             </tr>
             <tr>
                 <td><strong>Role prompting</strong></td>
-                <td>Atribui um papel específico ao modelo (ex.: "Você é um perito criminal"). <span class="ref-pagina">(p. 475)</span></td>
+                <td>Atribui um papel específico ao modelo (ex.: "Você é um perito criminal"). <span class="ref-pagina">(p. 478)</span></td>
             </tr>
             <tr>
                 <td><strong>Contextual prompting</strong></td>
-                <td>Acrescenta informações de fundo, delimitando escopo e contexto. <span class="ref-pagina">(p. 476)</span></td>
+                <td>Acrescenta informações de fundo, delimitando escopo e contexto. <span class="ref-pagina">(p. 479)</span></td>
             </tr>
             <tr>
                 <td><strong>Cadeia de Raciocínio (Chain of Thought - CoT)</strong></td>
-                <td>Solicita que o modelo explique <strong>passo a passo</strong>, tornando o raciocínio mais claro. <span class="ref-pagina">(p. 476)</span></td>
+                <td>Solicita que o modelo explique <strong>passo a passo</strong>, tornando o raciocínio mais claro. <span class="ref-pagina">(p. 479)</span></td>
             </tr>
             <tr>
                 <td><strong>Técnicas avançadas</strong></td>
-                <td><strong>Tree of Thoughts (ToT)</strong>, <strong>ReAct (Reason &amp; Act)</strong> e <strong>Self-consistency</strong> — ajudam a aumentar a robustez e reduzir vieses. <span class="ref-pagina">(p. 476)</span></td>
+                <td><strong>Tree of Thoughts (ToT)</strong>, <strong>ReAct (Reason &amp; Act)</strong> e <strong>Self-consistency</strong> — ajudam a aumentar a robustez e reduzir vieses. <span class="ref-pagina">(p. 479)</span></td>
             </tr>
         </table>
 
         <div class="box-orange">
-            <strong>Estrutura recomendada do prompt:</strong> segmentar as partes principais — <strong>objetivo, regras, contexto, público-alvo e saída esperada</strong>. Esse padrão aumenta a clareza e a rastreabilidade, especialmente em investigações criminais. <span class="ref-pagina">(p. 476)</span>
+            <strong>Estrutura recomendada do prompt:</strong> segmentar as partes principais — <strong>objetivo, regras, contexto, público-alvo e saída esperada</strong>. Esse padrão aumenta a clareza e a rastreabilidade, especialmente em investigações criminais. <span class="ref-pagina">(p. 479)</span>
         </div>
 
-        <h3>6.2.1 Estrutura do Prompt</h3>
-        <p>A forma como o prompt é estruturado impacta diretamente a interpretação e a qualidade da resposta. Duas formas bastante utilizadas são o <strong>Markdown</strong> e o <strong>XML</strong>. <span class="ref-pagina">(p. 476)</span></p>
+        <h3>6.4.1 Estrutura do Prompt</h3>
+        <p>A forma como o prompt é estruturado impacta diretamente a interpretação e a qualidade da resposta. Duas formas bastante utilizadas são o <strong>Markdown</strong> e o <strong>XML</strong>. <span class="ref-pagina">(p. 479)</span></p>
 
-        <h3>6.2.1.1 Uso de Markdown</h3>
+        <h3>6.4.1.1 Uso de Markdown</h3>
         <div class="box-purple">
-            Por padrão, a maioria dos LLMs organiza respostas em <strong>Markdown</strong>, linguagem de marcação leve amplamente utilizada em treinamentos de modelos. Sua principal vantagem é a <strong>simplicidade sintática</strong>, permitindo organizar o texto em títulos, listas, tabelas e blocos de código. <span class="ref-pagina">(p. 476)</span>
+            Por padrão, a maioria dos LLMs organiza respostas em <strong>Markdown</strong>, linguagem de marcação leve amplamente utilizada em treinamentos de modelos. Sua principal vantagem é a <strong>simplicidade sintática</strong>, permitindo organizar o texto em títulos, listas, tabelas e blocos de código. <span class="ref-pagina">(p. 479)</span>
         </div>
 
         <ul>
-            <li><strong>Títulos:</strong> iniciados por <code>#</code> (um <code>#</code> = nível 1, <code>##</code> = nível 2, etc.). <span class="ref-pagina">(p. 476)</span></li>
-            <li><strong>Listas:</strong> numeradas (<code>1.</code>, <code>2.</code>) ou com marcadores (<code>-</code>, <code>*</code>). <span class="ref-pagina">(p. 476)</span></li>
-            <li><strong>Ênfase:</strong> <code>**negrito**</code> e <code>*itálico*</code>. <span class="ref-pagina">(p. 476)</span></li>
-            <li><strong>Blocos de código:</strong> delimitados por crases triplas <code>```</code> (útil para trechos técnicos, exemplos de código ou estruturas de prompt). <span class="ref-pagina">(p. 476)</span></li>
+            <li><strong>Títulos:</strong> iniciados por <code>#</code> (um <code>#</code> = nível 1, <code>##</code> = nível 2, etc.). <span class="ref-pagina">(p. 479)</span></li>
+            <li><strong>Listas:</strong> numeradas (<code>1.</code>, <code>2.</code>) ou com marcadores (<code>-</code>, <code>*</code>). <span class="ref-pagina">(p. 479)</span></li>
+            <li><strong>Ênfase:</strong> <code>**negrito**</code> e <code>*itálico*</code>. <span class="ref-pagina">(p. 479)</span></li>
+            <li><strong>Blocos de código:</strong> delimitados por crases triplas <code>```</code> (útil para trechos técnicos, exemplos de código ou estruturas de prompt). <span class="ref-pagina">(p. 479)</span></li>
         </ul>
 
-        <h3>6.2.1.2 Uso de XML</h3>
+        <h3>6.4.1.2 Uso de XML</h3>
         <div class="box-blue">
-            Alternativa especialmente útil em prompts complexos (múltiplos componentes: contexto, instruções, exemplos, regras). Sugerida em guias como os da <strong>Anthropic</strong>, aumenta a precisão da interpretação do modelo ao <strong>separar de forma inequívoca</strong> cada parte do comando. <span class="ref-pagina">(p. 476)</span>
+            Alternativa especialmente útil em prompts complexos (múltiplos componentes: contexto, instruções, exemplos, regras). Sugerida em guias como os da <strong>Anthropic</strong>, aumenta a precisão da interpretação do modelo ao <strong>separar de forma inequívoca</strong> cada parte do comando. <span class="ref-pagina">(p. 479)</span>
         </div>
 
-        <p>Benefícios da segmentação por XML: <span class="ref-pagina">(p. 477)</span></p>
+        <p>Benefícios da segmentação por XML: <span class="ref-pagina">(p. 480)</span></p>
         <ul>
             <li><strong>Clareza</strong> – reduz ambiguidades;</li>
             <li><strong>Acurácia</strong> – evita confusão entre instruções e exemplos;</li>
@@ -281,14 +412,14 @@
             </ul>
         </div>
 
-        <p><strong>Sintaxe do XML:</strong> <span class="ref-pagina">(p. 477)</span></p>
+        <p><strong>Sintaxe do XML:</strong> <span class="ref-pagina">(p. 480)</span></p>
         <ul>
             <li><strong>Abertura e fechamento:</strong> <code>&lt;tag&gt;</code> e <code>&lt;/tag&gt;</code>.</li>
             <li><strong>Hierarquia:</strong> tags podem ser aninhadas, refletindo a estrutura lógica do conteúdo.</li>
             <li><strong>Semântica:</strong> recomenda-se que o nome da tag descreva o tipo de informação (ex.: <code>&lt;objetivo_geral&gt;</code>, <code>&lt;contexto&gt;</code>, <code>&lt;regras&gt;</code>).</li>
         </ul>
 
-        <h3>6.2.1.3 Comparativo entre Markdown e XML (Quadro 9)</h3>
+        <h3>6.4.1.3 Comparativo entre Markdown e XML (Quadro 9)</h3>
         <table>
             <tr>
                 <th>Markdown</th>
@@ -326,22 +457,22 @@
                 </td>
             </tr>
         </table>
-        <p class="ref-pagina">Quadro 9 - Estrutura do prompt (Markdown vs XML) (p. 477)</p>
+        <p class="ref-pagina">Quadro 9 - Estrutura do prompt (Markdown vs XML) (p. 480)</p>
 
         <div class="box-green">
-            <strong>Síntese:</strong> a Engenharia de Prompt é competência essencial ao investigador moderno. Dominar a construção estruturada de prompts com Markdown e XML garante <strong>maior confiabilidade, reduz riscos de "alucinações"</strong> e torna a interação com IA mais previsível e adequada às exigências normativas e operacionais. <span class="ref-pagina">(p. 478)</span>
+            <strong>Síntese:</strong> a Engenharia de Prompt é competência essencial ao investigador moderno. Dominar a construção estruturada de prompts com Markdown e XML garante <strong>maior confiabilidade, reduz riscos de "alucinações"</strong> e torna a interação com IA mais previsível e adequada às exigências normativas e operacionais. <span class="ref-pagina">(p. 481)</span>
         </div>
 
         <div class="box-red">
-            <strong>Alucinação (nota 37):</strong> fenômeno em que o modelo gera uma resposta que <strong>parece correta ou plausível, mas é falsa, imprecisa ou inventada</strong>. <span class="ref-pagina">(p. 478)</span>
+            <strong>Alucinação (nota 40):</strong> fenômeno em que o modelo gera uma resposta que <strong>parece correta ou plausível, mas é falsa, imprecisa ou inventada</strong>. <span class="ref-pagina">(p. 481)</span>
         </div>
     </div>
 
     <div id="sec3" class="section">
-        <h2>6.3 Engenharia de Contexto</h2>
+        <h2>6.5 Engenharia de Contexto</h2>
 
         <div class="box-blue">
-            <strong>Origem do termo:</strong> A expressão "Engenharia de Contexto" foi difundida por <strong>Andrej Karpathy</strong> (cientista da computação, ex-diretor de IA da Tesla e ex-pesquisador da OpenAI) para descrever uma evolução natural da engenharia de prompt. <span class="ref-pagina">(p. 478)</span>
+            <strong>Origem do termo:</strong> A expressão "Engenharia de Contexto" foi difundida por <strong>Andrej Karpathy</strong> (cientista da computação, ex-diretor de IA da Tesla e ex-pesquisador da OpenAI) para descrever uma evolução natural da engenharia de prompt. <span class="ref-pagina">(p. 481)</span>
         </div>
 
         <div class="box-purple">
@@ -350,16 +481,16 @@
                 <li><strong>Engenharia de Prompt</strong>: concentra-se em formular instruções claras e eficazes.</li>
                 <li><strong>Engenharia de Contexto</strong>: busca estruturar <strong>todo o ecossistema de informações</strong> que o modelo acessa durante a execução de uma tarefa.</li>
             </ul>
-            <span class="ref-pagina">(p. 478)</span>
+            <span class="ref-pagina">(p. 481)</span>
         </div>
 
-        <p><strong>Objetivo:</strong> preencher a <strong>janela de contexto</strong> com dados relevantes, <strong>na medida certa</strong>, evitando tanto lacunas quanto excesso de informação que possam comprometer a resposta. <span class="ref-pagina">(p. 478)</span></p>
+        <p><strong>Objetivo:</strong> preencher a <strong>janela de contexto</strong> com dados relevantes, <strong>na medida certa</strong>, evitando tanto lacunas quanto excesso de informação que possam comprometer a resposta. <span class="ref-pagina">(p. 481)</span></p>
 
         <div class="box-orange">
-            <strong>Janela de Contexto (nota 39):</strong> limite de <strong>memória temporária</strong> de um modelo de linguagem, medido em <strong>tokens</strong>. Define a quantidade máxima de informações processáveis em uma única interação, impactando diretamente a qualidade e a completude das respostas. <span class="ref-pagina">(p. 478)</span>
+            <strong>Janela de Contexto (nota 42):</strong> limite de <strong>memória temporária</strong> de um modelo de linguagem, medido em <strong>tokens</strong>. Define a quantidade máxima de informações processáveis em uma única interação, impactando diretamente a qualidade e a completude das respostas. <span class="ref-pagina">(p. 481)</span>
         </div>
 
-        <p>A abordagem envolve não somente a redação de instruções, mas também a <strong>seleção criteriosa de documentos, exemplos, regras e dados auxiliares</strong> apresentados ao modelo. Um contexto bem construído: <span class="ref-pagina">(p. 478)</span></p>
+        <p>A abordagem envolve não somente a redação de instruções, mas também a <strong>seleção criteriosa de documentos, exemplos, regras e dados auxiliares</strong> apresentados ao modelo. Um contexto bem construído: <span class="ref-pagina">(p. 481)</span></p>
         <ul>
             <li>Aumenta a precisão;</li>
             <li>Reduz a ocorrência de alucinações;</li>
@@ -368,7 +499,7 @@
         </ul>
 
         <div class="box-green">
-            A engenharia de contexto é uma disciplina mais <strong>abrangente</strong>, combinando elementos de organização da informação, curadoria de dados e controle técnico do fluxo de interação. <span class="ref-pagina">(p. 478)</span>
+            A engenharia de contexto é uma disciplina mais <strong>abrangente</strong>, combinando elementos de organização da informação, curadoria de dados e controle técnico do fluxo de interação. <span class="ref-pagina">(p. 481)</span>
         </div>
 
         <h3>Equilíbrio entre qualidade e quantidade</h3>
@@ -378,7 +509,7 @@
                 <li><strong>Informações insuficientes</strong> → respostas vagas ou imprecisas;</li>
                 <li><strong>Contexto excessivo</strong> → eleva custos operacionais e pode confundir o modelo.</li>
             </ul>
-            <span class="ref-pagina">(p. 478)</span>
+            <span class="ref-pagina">(p. 481)</span>
         </div>
 
         <h3>Técnicas aplicáveis</h3>
@@ -387,34 +518,34 @@
             <li><strong>Compressão de tokens</strong>;</li>
             <li><strong>Uso de memória persistente</strong>.</li>
         </ul>
-        <p class="ref-pagina">(p. 478)</p>
+        <p class="ref-pagina">(p. 481)</p>
 
         <div class="box-purple">
-            <strong>RAG (nota 40):</strong> técnica que combina modelos de linguagem com <strong>mecanismos de busca em bases externas</strong>. O LLM consulta documentos relevantes durante a geração da resposta, ampliando a precisão e atualidade das informações. <span class="ref-pagina">(p. 478)</span>
+            <strong>RAG (nota 43):</strong> técnica que combina modelos de linguagem com <strong>mecanismos de busca em bases externas</strong>. O LLM consulta documentos relevantes durante a geração da resposta, ampliando a precisão e atualidade das informações. <span class="ref-pagina">(p. 481)</span>
         </div>
 
         <div class="box-green">
-            <strong>Síntese:</strong> a engenharia de contexto <strong>complementa a engenharia de prompt</strong>, fornecendo a base necessária para que comandos curtos e objetivos gerem resultados robustos e adequados às necessidades investigativas e normativas. <span class="ref-pagina">(p. 478-479)</span>
+            <strong>Síntese:</strong> a engenharia de contexto <strong>complementa a engenharia de prompt</strong>, fornecendo a base necessária para que comandos curtos e objetivos gerem resultados robustos e adequados às necessidades investigativas e normativas. <span class="ref-pagina">(p. 481-482)</span>
         </div>
     </div>
 
     <div id="sec4" class="section">
-        <h2>6.4 Uso da IA pela Polícia Federal</h2>
+        <h2>6.6 Uso da IA pela Polícia Federal</h2>
 
         <div class="box-blue">
-            <strong>Histórico:</strong> A PF já faz uso de IA <strong>muito antes</strong> da popularização dos modelos de linguagem de larga escala (LLMs). Soluções especializadas são aplicadas em tarefas como: transcrição de áudios, reconhecimento de caracteres em documentos (OCR), classificação de imagens e identificação biométrica. <span class="ref-pagina">(p. 479)</span>
+            <strong>Histórico:</strong> A PF já faz uso de IA <strong>muito antes</strong> da popularização dos modelos de linguagem de larga escala (LLMs). Soluções especializadas são aplicadas em tarefas como: transcrição de áudios, reconhecimento de caracteres em documentos (OCR), classificação de imagens e identificação biométrica. <span class="ref-pagina">(p. 482)</span>
         </div>
 
-        <p>É inegável o salto no avanço das redes de <strong>IA generativa</strong>, trazendo mais possibilidades de aplicação de novos modelos à rotina de investigação. <span class="ref-pagina">(p. 479)</span></p>
+        <p>É inegável o salto no avanço das redes de <strong>IA generativa</strong>, trazendo mais possibilidades de aplicação de novos modelos à rotina de investigação. <span class="ref-pagina">(p. 482)</span></p>
 
         <h3>Casos de uso consolidados e em expansão</h3>
 
         <div class="box-orange">
-            <strong>Inquéritos policiais:</strong> uso de LLMs para organizar informações de <strong>autoria e materialidade</strong>, permitindo a geração de <strong>minutas de relatórios técnicos ou despachos</strong> com maior padronização e clareza. <span class="ref-pagina">(p. 479)</span>
+            <strong>Inquéritos policiais:</strong> uso de LLMs para organizar informações de <strong>autoria e materialidade</strong>, permitindo a geração de <strong>minutas de relatórios técnicos ou despachos</strong> com maior padronização e clareza. <span class="ref-pagina">(p. 482)</span>
         </div>
 
         <div class="box-orange">
-            <strong>Dados financeiros e de telecomunicações:</strong> modelos contextualizados com esquemas de investigação podem <strong>identificar padrões suspeitos</strong> e propor hipóteses de vínculos entre investigados. Técnicas de engenharia de contexto permitem alimentar o modelo com decisões judiciais, relatórios de inteligência e registros administrativos, reduzindo lacunas e alucinações. <span class="ref-pagina">(p. 479)</span>
+            <strong>Dados financeiros e de telecomunicações:</strong> modelos contextualizados com esquemas de investigação podem <strong>identificar padrões suspeitos</strong> e propor hipóteses de vínculos entre investigados. Técnicas de engenharia de contexto permitem alimentar o modelo com decisões judiciais, relatórios de inteligência e registros administrativos, reduzindo lacunas e alucinações. <span class="ref-pagina">(p. 482)</span>
         </div>
 
         <h3>Aplicações práticas na PF</h3>
@@ -425,59 +556,59 @@
             </tr>
             <tr>
                 <td><strong>Produção de IPJ</strong> (Informação de Polícia Judiciária)</td>
-                <td>Garante uniformidade na linguagem e conformidade com normas procedimentais. <span class="ref-pagina">(p. 479)</span></td>
+                <td>Garante uniformidade na linguagem e conformidade com normas procedimentais. <span class="ref-pagina">(p. 482)</span></td>
             </tr>
             <tr>
                 <td><strong>Classificação e análise de elementos de informação</strong></td>
-                <td>O modelo descreve a natureza dos dados, identifica partes envolvidas e sugere conclusões técnicas, sempre submetidas à <strong>revisão humana</strong>. <span class="ref-pagina">(p. 479)</span></td>
+                <td>O modelo descreve a natureza dos dados, identifica partes envolvidas e sugere conclusões técnicas, sempre submetidas à <strong>revisão humana</strong>. <span class="ref-pagina">(p. 482)</span></td>
             </tr>
             <tr>
                 <td><strong>Estruturação de dados / OCR</strong></td>
-                <td>Análise de mídias e documentos digitalizados, agilizando o trabalho de análise e permitindo buscas por palavras-chave em grandes volumes de provas digitais. <span class="ref-pagina">(p. 479)</span></td>
+                <td>Análise de mídias e documentos digitalizados, agilizando o trabalho de análise e permitindo buscas por palavras-chave em grandes volumes de provas digitais. <span class="ref-pagina">(p. 482)</span></td>
             </tr>
             <tr>
                 <td><strong>Análise exploratória de vínculos</strong></td>
-                <td>Investigações complexas (corrupção, lavagem de dinheiro, organizações criminosas), combinando IA generativa com linguagens de programação como <strong>Python</strong>. <span class="ref-pagina">(p. 479)</span></td>
+                <td>Investigações complexas (corrupção, lavagem de dinheiro, organizações criminosas), combinando IA generativa com linguagens de programação como <strong>Python</strong>. <span class="ref-pagina">(p. 482)</span></td>
             </tr>
             <tr>
                 <td><strong>Automações investigativas</strong></td>
-                <td><strong>Agentes autônomos</strong> que utilizam ferramentas adicionais para consultas em bases de dados, análise de padrões e produção de relatórios preliminares. <span class="ref-pagina">(p. 480)</span></td>
+                <td><strong>Agentes autônomos</strong> que utilizam ferramentas adicionais para consultas em bases de dados, análise de padrões e produção de relatórios preliminares. <span class="ref-pagina">(p. 483)</span></td>
             </tr>
         </table>
 
         <div class="box-red">
-            <strong>PONTO CRÍTICO:</strong> Esses usos estão sempre vinculados ao <strong>controle humano</strong> e às exigências da <strong>Portaria MJSP nº 961/2025</strong>, que estabelece que a IA deve ser <strong>instrumento auxiliar</strong>, com rastreabilidade, proporcionalidade e revisão obrigatória. A integração de LLMs ao trabalho policial <strong>não substitui o investigador</strong>, mas amplia sua capacidade analítica. <span class="ref-pagina">(p. 480)</span>
+            <strong>PONTO CRÍTICO:</strong> Esses usos estão sempre vinculados ao <strong>controle humano</strong> e às exigências da <strong>Portaria MJSP nº 961/2025</strong>, que estabelece que a IA deve ser <strong>instrumento auxiliar</strong>, com rastreabilidade, proporcionalidade e revisão obrigatória. A integração de LLMs ao trabalho policial <strong>não substitui o investigador</strong>, mas amplia sua capacidade analítica. <span class="ref-pagina">(p. 483)</span>
         </div>
 
-        <h3>6.4.1 Copilot</h3>
+        <h3>6.6.1 Copilot</h3>
 
         <div class="box-blue">
-            <strong>Definição:</strong> O <strong>Copilot</strong> é solução de IA desenvolvida com base na arquitetura <strong>GPT-4</strong>, projetada para atuar como <strong>assistente digital</strong> em ambientes profissionais e operacionais. Integrado ao ecossistema da Microsoft, compreende linguagem natural, interpreta contextos complexos e oferece respostas precisas, seguras e contextualizadas. <span class="ref-pagina">(p. 480)</span>
+            <strong>Definição:</strong> O <strong>Copilot</strong> é solução de IA desenvolvida com base na arquitetura <strong>GPT-4</strong>, projetada para atuar como <strong>assistente digital</strong> em ambientes profissionais e operacionais. Integrado ao ecossistema da Microsoft, compreende linguagem natural, interpreta contextos complexos e oferece respostas precisas, seguras e contextualizadas. <span class="ref-pagina">(p. 483)</span>
         </div>
 
         <h3>Aplicações na Polícia Federal</h3>
         <div class="box-purple">
-            <strong>Investigação:</strong> análise de documentos, cruzamento de dados, elaboração de relatórios e identificação de padrões em grandes volumes de informação. Sintetiza conteúdos e gera <em>insights</em>, contribuindo para a produção de inteligência, peças técnicas, estudos prospectivos e sínteses informativas com linguagem institucional. <span class="ref-pagina">(p. 480)</span>
+            <strong>Investigação:</strong> análise de documentos, cruzamento de dados, elaboração de relatórios e identificação de padrões em grandes volumes de informação. Sintetiza conteúdos e gera <em>insights</em>, contribuindo para a produção de inteligência, peças técnicas, estudos prospectivos e sínteses informativas com linguagem institucional. <span class="ref-pagina">(p. 483)</span>
         </div>
 
         <div class="box-purple">
-            <strong>Automação de tarefas rotineiras:</strong> organização de planilhas, geração de gráficos, tradução de documentos e revisão textual, liberando tempo para atividades de maior valor estratégico. <span class="ref-pagina">(p. 480)</span>
+            <strong>Automação de tarefas rotineiras:</strong> organização de planilhas, geração de gráficos, tradução de documentos e revisão textual, liberando tempo para atividades de maior valor estratégico. <span class="ref-pagina">(p. 483)</span>
         </div>
 
         <div class="box-purple">
-            <strong>Interpretação jurídica:</strong> contextualização de leis, decretos e regulamentos em situações práticas — aliado em áreas sensíveis como combate à <strong>lavagem de dinheiro, crimes cibernéticos e operações com ativos virtuais</strong>. <span class="ref-pagina">(p. 480)</span>
+            <strong>Interpretação jurídica:</strong> contextualização de leis, decretos e regulamentos em situações práticas — aliado em áreas sensíveis como combate à <strong>lavagem de dinheiro, crimes cibernéticos e operações com ativos virtuais</strong>. <span class="ref-pagina">(p. 483)</span>
         </div>
 
         <div class="box-green">
-            <strong>Aspecto técnico:</strong> opera com <strong>interação multimodal</strong> (texto, imagens, tabelas e comandos em linguagem natural). Respeita diretrizes rígidas de segurança e possui mecanismos de atualização contínua. Pode ser personalizado conforme as demandas de setores, disciplinas ou perfis operacionais. <span class="ref-pagina">(p. 480-481)</span>
+            <strong>Aspecto técnico:</strong> opera com <strong>interação multimodal</strong> (texto, imagens, tabelas e comandos em linguagem natural). Respeita diretrizes rígidas de segurança e possui mecanismos de atualização contínua. Pode ser personalizado conforme as demandas de setores, disciplinas ou perfis operacionais. <span class="ref-pagina">(p. 483-484)</span>
         </div>
 
         <div class="box-red">
-            <strong>LIMITE FUNDAMENTAL (cai em prova!):</strong> O Copilot <strong>NÃO substitui</strong> o juízo crítico, a experiência operacional ou a autoridade legal do policial. Seu uso deve ser orientado por critérios técnicos, supervisão institucional e respeito à legislação vigente. <strong>A IA é ferramenta de apoio, e não um agente decisório.</strong> <span class="ref-pagina">(p. 481)</span>
+            <strong>LIMITE FUNDAMENTAL (cai em prova!):</strong> O Copilot <strong>NÃO substitui</strong> o juízo crítico, a experiência operacional ou a autoridade legal do policial. Seu uso deve ser orientado por critérios técnicos, supervisão institucional e respeito à legislação vigente. <strong>A IA é ferramenta de apoio, e não um agente decisório.</strong> <span class="ref-pagina">(p. 484)</span>
         </div>
 
-        <h3>6.4.2 Acesso ao Copilot</h3>
-        <p>O policial federal com acesso institucional ao <strong>Microsoft 365</strong> pode utilizar o Copilot por diversos canais integrados às ferramentas corporativas da Microsoft. <span class="ref-pagina">(p. 481)</span></p>
+        <h3>6.6.2 Acesso ao Copilot</h3>
+        <p>O policial federal com acesso institucional ao <strong>Microsoft 365</strong> pode utilizar o Copilot por diversos canais integrados às ferramentas corporativas da Microsoft. <span class="ref-pagina">(p. 484)</span></p>
 
         <table>
             <tr>
@@ -486,25 +617,25 @@
             </tr>
             <tr>
                 <td><strong>Microsoft Teams</strong></td>
-                <td>Aba ou botão na interface principal — interações em linguagem natural para organização de reuniões, geração de atas, análise de mensagens e apoio à comunicação interna. <span class="ref-pagina">(p. 481)</span></td>
+                <td>Aba ou botão na interface principal — interações em linguagem natural para organização de reuniões, geração de atas, análise de mensagens e apoio à comunicação interna. <span class="ref-pagina">(p. 484)</span></td>
             </tr>
             <tr>
                 <td><strong>Navegador Microsoft Edge</strong></td>
-                <td>Botão no canto superior direito — útil para pesquisas assistidas, leitura de normativos e análise de conteúdo web. <span class="ref-pagina">(p. 481)</span></td>
+                <td>Botão no canto superior direito — útil para pesquisas assistidas, leitura de normativos e análise de conteúdo web. <span class="ref-pagina">(p. 484)</span></td>
             </tr>
             <tr>
                 <td><strong>Portal Microsoft 365 (office.com)</strong></td>
-                <td>Acesso com e-mail institucional. Disponível em Word, Excel, PowerPoint e Outlook online, com colaboração em tempo real em arquivos do OneDrive. <span class="ref-pagina">(p. 482)</span></td>
+                <td>Acesso com e-mail institucional. Disponível em Word, Excel, PowerPoint e Outlook online, com colaboração em tempo real em arquivos do OneDrive. <span class="ref-pagina">(p. 485)</span></td>
             </tr>
         </table>
 
         <div class="box-red">
-            <strong>USO PROTEGIDO - INDISPENSÁVEL:</strong> Para fins corporativos, o Copilot deve ser usado em <strong>ambiente PROTEGIDO</strong>. O servidor da PF deve entrar com login e senha corporativa e verificar se o escudo indicativo de proteção acusa a cor <strong>VERDE</strong> e os dizeres <strong>"PROTEÇÃO DE DADOS EMPRESARIAIS"</strong>. <span class="ref-pagina">(p. 482)</span>
+            <strong>USO PROTEGIDO - INDISPENSÁVEL:</strong> Para fins corporativos, o Copilot deve ser usado em <strong>ambiente PROTEGIDO</strong>. O servidor da PF deve entrar com login e senha corporativa e verificar se o escudo indicativo de proteção acusa a cor <strong>VERDE</strong> e os dizeres <strong>"PROTEÇÃO DE DADOS EMPRESARIAIS"</strong>. <span class="ref-pagina">(p. 485)</span>
         </div>
 
         <h3>Política da Microsoft - Proteção de Dados Empresariais (EDP)</h3>
         <div class="box-purple">
-            "Com a Proteção de Dados Empresariais (EDP), os <strong>prompts e respostas são protegidos pelos mesmos termos contratuais e compromissos</strong> amplamente confiáveis por nossos clientes para seus e-mails no Exchange e arquivos no SharePoint." <span class="ref-pagina">(p. 483)</span>
+            "Com a Proteção de Dados Empresariais (EDP), os <strong>prompts e respostas são protegidos pelos mesmos termos contratuais e compromissos</strong> amplamente confiáveis por nossos clientes para seus e-mails no Exchange e arquivos no SharePoint." <span class="ref-pagina">(p. 486)</span>
         </div>
 
         <table>
@@ -514,29 +645,31 @@
             </tr>
             <tr>
                 <td><strong>Proteção dos dados</strong></td>
-                <td>Criptografia em <strong>repouso e em trânsito</strong>, controles rigorosos de segurança física e <strong>isolamento de dados entre locatários</strong>. <span class="ref-pagina">(p. 483)</span></td>
+                <td>Criptografia em <strong>repouso e em trânsito</strong>, controles rigorosos de segurança física e <strong>isolamento de dados entre locatários</strong>. <span class="ref-pagina">(p. 486)</span></td>
             </tr>
             <tr>
                 <td><strong>Privacidade dos dados</strong></td>
-                <td>Dados não são usados exceto conforme instruções do cliente. Compromissos incluem suporte ao <strong>GDPR</strong>, à <strong>Fronteira de Dados da UE</strong>, à norma <strong>ISO/IEC 27018</strong> e ao Adendo de Proteção de Dados. <span class="ref-pagina">(p. 483)</span></td>
+                <td>Dados não são usados exceto conforme instruções do cliente. Compromissos incluem suporte ao <strong>GDPR</strong>, à <strong>Fronteira de Dados da UE</strong>, à norma <strong>ISO/IEC 27018</strong> e ao Adendo de Proteção de Dados. <span class="ref-pagina">(p. 486)</span></td>
             </tr>
             <tr>
                 <td><strong>Controles de acesso e políticas</strong></td>
-                <td>O Copilot respeita o modelo de identidade e permissões do cliente, herda rótulos de sensibilidade, aplica políticas de retenção, oferece suporte à auditoria de interações e segue configurações administrativas. <span class="ref-pagina">(p. 483)</span></td>
+                <td>O Copilot respeita o modelo de identidade e permissões do cliente, herda rótulos de sensibilidade, aplica políticas de retenção, oferece suporte à auditoria de interações e segue configurações administrativas. <span class="ref-pagina">(p. 486)</span></td>
             </tr>
             <tr>
                 <td><strong>Proteção contra riscos de IA</strong></td>
-                <td>Proteção contra <strong>conteúdo prejudicial</strong> e <strong>injeções de prompt</strong>. Para direitos autorais, oferece detecção de material protegido e o <strong>Compromisso de Direitos Autorais com o Cliente</strong>. <span class="ref-pagina">(p. 483)</span></td>
+                <td>Proteção contra <strong>conteúdo prejudicial</strong> e <strong>injeções de prompt</strong>. Para direitos autorais, oferece detecção de material protegido e o <strong>Compromisso de Direitos Autorais com o Cliente</strong>. <span class="ref-pagina">(p. 486)</span></td>
             </tr>
             <tr>
                 <td><strong>Dados não treinam modelos de base</strong></td>
-                <td>O Microsoft 365 Copilot Chat usa o contexto do usuário para criar respostas relevantes. <strong>Prompts, respostas e dados acessados via Microsoft Graph NÃO são usados para treinar modelos de base.</strong> <span class="ref-pagina">(p. 483)</span></td>
+                <td>O Microsoft 365 Copilot Chat usa o contexto do usuário para criar respostas relevantes. <strong>Prompts, respostas e dados acessados via Microsoft Graph NÃO são usados para treinar modelos de base.</strong> <span class="ref-pagina">(p. 486)</span></td>
             </tr>
         </table>
 
         <div class="mnemonic">
             <span class="mnemonic-title">Resumo final - Capítulo 6</span>
             <ul>
+                <li><strong>Fundamentos da IA</strong>: hierarquia IA ⊃ ML ⊃ DL ⊃ LLM; Turing (1950) → ChatGPT (2023)</li>
+                <li><strong>Fundamentos do LLM</strong>: Transformer ("Attention is All You Need", 2017); processamento <strong>T-E-M-C-A</strong> (Tokenização, Embeddings, Mecanismo de atenção, Camadas, Autorregressão)</li>
                 <li><strong>Princípios (LECC)</strong>: Legalidade, Ética, Confiabilidade, Confidencialidade</li>
                 <li><strong>Norma central</strong>: Portaria MJSP nº 961/2025 (revisão humana, proporcionalidade, cadeia de custódia)</li>
                 <li><strong>Eng. de Prompt</strong>: zero-shot, few-shot, role, contextual, CoT, ToT, ReAct, self-consistency</li>
