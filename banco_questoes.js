@@ -21594,5 +21594,141 @@ const questoesDB = [
     "justificativa": "Os arquivos do registro fotográfico não devem ser descartados; é desejável que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda em caso de contestação (p. 76). Isso valida B. A e D propõem descarte indevido das imagens. C apaga as cópias da unidade, contrariando a manutenção do dossiê.",
     "referencia": "PDF LOC, p. 76",
     "nivel": "dificil"
+  },
+  {
+    "id": 1397,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "As técnicas de captura da realidade classificam-se em passivas e ativas. O critério dessa classificação é:",
+    "alternativas": {
+      "A": "as passivas utilizam fotografias e dependem de luz (natural ou artificial), enquanto as ativas usam laser ou luz própria emitida pelo equipamento e não dependem de luz externa.",
+      "B": "as passivas empregam laser próprio, enquanto as ativas dependem exclusivamente da luz natural do ambiente.",
+      "C": "as passivas geram apenas produtos 3D, enquanto as ativas se limitam a imagens bidimensionais.",
+      "D": "as passivas exigem contato físico com o objeto, ao passo que as ativas operam à distância sem qualquer emissão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As técnicas passivas usam fotografias e, por isso, dependem de luz (natural ou artificial); as ativas usam laser ou padrões de luz emitidos pelo próprio equipamento, não dependendo de luz externa (p. 77-79). Isso valida A. B inverte os conceitos. C cria distinção falsa quanto a 2D/3D. D atribui às passivas o contato físico, que é característica de equipamentos mecânicos (ativos).",
+    "referencia": "PDF LOC, p. 77-79",
+    "nivel": "facil"
+  },
+  {
+    "id": 1398,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A fotogrametria, técnica passiva de captura da realidade, caracteriza-se por:",
+    "alternativas": {
+      "A": "emitir feixes de laser para calcular o tempo de voo e gerar uma nuvem de pontos.",
+      "B": "projetar padrões de luz sobre o objeto e capturar sua deformação, com altíssima resolução.",
+      "C": "combinar, por meio de softwares específicos, centenas ou milhares de fotos de um mesmo local ou objeto, gerando produtos como ortofotos (2D), modelos de elevação de terreno e produtos 3D.",
+      "D": "capturar o formato do objeto por contato físico, por meio de um braço articulado mecânico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A fotogrametria combina, com softwares específicos, centenas ou milhares de fotos de um mesmo local/objeto, gerando ortofotos (2D), modelos de elevação de terreno e produtos 3D (p. 78). Isso valida C. A descreve a técnica ativa a laser. B descreve a luz estruturada. D descreve o equipamento mecânico de contato.",
+    "referencia": "PDF LOC, p. 78",
+    "nivel": "medio"
+  },
+  {
+    "id": 1399,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os passeios virtuais com fotos 360°, modalidade de técnica passiva, geram produtos:",
+    "alternativas": {
+      "A": "semelhantes ao Google Street View, com hotspots a partir dos quais se enxerga ao redor em todos os ângulos e se navega para outros hotspots próximos.",
+      "B": "exclusivamente em formato de nuvem de pontos, obtidos por varredura a laser.",
+      "C": "consistentes em modelos 3D de objetos pequenos, como crânios, com alta resolução.",
+      "D": "de elevação de terreno, voltados ao mapeamento topográfico por contato mecânico."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os passeios virtuais com fotos 360° geram produtos semelhantes ao Google Street View: há hotspots em que se enxerga ao redor em todos os ângulos e a partir dos quais se navega para outros hotspots próximos (p. 77-78). Isso valida A. B descreve produto de técnica ativa a laser. C descreve resultado típico da luz estruturada. D confunde com produtos de fotogrametria/levantamento topográfico.",
+    "referencia": "PDF LOC, p. 77-78",
+    "nivel": "medio"
+  },
+  {
+    "id": 1400,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a técnica ativa de luz estruturada, é correto afirmar que:",
+    "alternativas": {
+      "A": "projeta padrões de luz no objeto e captura sua deformação, sendo excelente para capturar detalhes (alta resolução), porém lenta, de pequeno alcance e inadequada para locais ou objetos muito grandes.",
+      "B": "emite feixes de laser e calcula o tempo de voo, sendo ideal para grandes ambientes.",
+      "C": "depende exclusivamente da luz natural do ambiente, não podendo operar em locais escuros.",
+      "D": "captura o objeto por contato físico, dispensando qualquer projeção de luz."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A luz estruturada projeta padrões de luz no objeto e captura sua deformação; é excelente em capturar detalhes (alta resolução), porém demorada, de pequeno alcance e campo de visão reduzido, inadequada para locais maiores ou objetos grandes (p. 79). Isso valida A. B descreve o laser. C contraria a natureza ativa (luz própria, independente de luz externa). D descreve equipamento mecânico de contato.",
+    "referencia": "PDF LOC, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 1401,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os escâneres a laser (técnica ativa) funcionam emitindo um feixe e calculando seu tempo de retorno (tempo de voo) ou a diferença de fase de uma onda portadora (lidar). O produto típico gerado e a principal vantagem são, respectivamente:",
+    "alternativas": {
+      "A": "ortofotos 2D; máxima resolução de detalhe entre todas as técnicas.",
+      "B": "nuvem de pontos; grande alcance, ideal para a captura de grandes ambientes.",
+      "C": "passeios virtuais 360°; independência total de qualquer fonte de luz.",
+      "D": "modelos de elevação de terreno; dispensa de software de processamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os escâneres a laser capturam milhares ou milhões de pontos por segundo, gerando uma 'nuvem de pontos'; têm grande alcance, sendo ideais para a captura de grandes ambientes, embora com resolução final inferior à da luz estruturada (p. 79). Isso valida B. A confunde com produto da fotogrametria e atribui ao laser a maior resolução (que é da luz estruturada). C descreve produto passivo. D confunde com produto da fotogrametria e ignora o processamento.",
+    "referencia": "PDF LOC, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 1402,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito precisa documentar, com a maior riqueza de detalhes possível, um crânio de pequenas dimensões; em outra demanda, deve documentar tridimensionalmente uma edificação ampla que desabou. Considerando o trade-off entre as técnicas ativas, a escolha mais adequada é:",
+    "alternativas": {
+      "A": "luz estruturada para o crânio (muito detalhe, pequeno alcance) e laser para a edificação (grande alcance, menos detalhe).",
+      "B": "laser para o crânio (alta resolução em objetos pequenos) e luz estruturada para a edificação (grande alcance).",
+      "C": "fotogrametria passiva para o crânio e passeio virtual 360° para a edificação, pois as técnicas ativas não servem a esses casos.",
+      "D": "luz estruturada para ambos, por ser a técnica de maior alcance e maior resolução simultaneamente."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Há um trade-off entre detalhe e alcance: a luz estruturada oferece muito detalhe, mas pequeno alcance (ideal para objetos pequenos, como um crânio), enquanto o laser tem grande alcance com menos detalhe (ideal para grandes ambientes, como a edificação) (p. 79-80). Isso valida A. B inverte as aplicações. C descarta indevidamente as técnicas ativas, que são as apropriadas. D atribui à luz estruturada o maior alcance, que é característica do laser.",
+    "referencia": "PDF LOC, p. 79-80",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1403,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Além das técnicas ópticas, a disciplina menciona, entre as técnicas ativas, equipamentos que capturam o formato do objeto sem uso de ótica. Esses equipamentos:",
+    "alternativas": {
+      "A": "são de natureza mecânica e capturam o formato do objeto por contato físico, como um braço articulado.",
+      "B": "são de natureza passiva e dependem de iluminação artificial intensa para operar.",
+      "C": "utilizam exclusivamente fotografias 360° processadas por software de fotogrametria.",
+      "D": "empregam lidar para medir a diferença de fase da onda portadora à distância."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Entre as técnicas ativas, há equipamentos puramente mecânicos (não usam ótica) que capturam o formato do objeto por contato físico, como um braço articulado (p. 79). Isso valida A. B classifica-os erroneamente como passivos. C confunde com técnica passiva (fotogrametria/360°). D descreve a técnica óptica a laser (lidar), não a mecânica de contato.",
+    "referencia": "PDF LOC, p. 79",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1404,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O conceito de 'captura da realidade' adotado na disciplina refere-se a:",
+    "alternativas": {
+      "A": "um único método digital padronizado, de uso obrigatório em todo local de crime, baseado em varredura a laser.",
+      "B": "um conjunto de técnicas que documentam um cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais que podem ser analisadas, revistas e revisitadas em computador, das quais se extraem diversos produtos periciais.",
+      "C": "a substituição definitiva da fotografia forense pela modelagem tridimensional, vedando-se o uso de imagens 2D.",
+      "D": "a coleta física de vestígios para posterior digitalização exclusiva em laboratório."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A captura da realidade é um conjunto de técnicas que documentam cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais analisáveis, revistas e revisitáveis em computador, das quais se extraem diversos produtos com finalidades periciais (p. 77). Isso valida B. A reduz a um único método obrigatório. C nega indevidamente o uso de imagens 2D (as ortofotos são 2D). D confunde captura da realidade com coleta física de vestígios.",
+    "referencia": "PDF LOC, p. 77",
+    "nivel": "facil"
   }
 ];
