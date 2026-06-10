@@ -21730,5 +21730,141 @@ const questoesDB = [
     "justificativa": "A captura da realidade é um conjunto de técnicas que documentam cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais analisáveis, revistas e revisitáveis em computador, das quais se extraem diversos produtos com finalidades periciais (p. 77). Isso valida B. A reduz a um único método obrigatório. C nega indevidamente o uso de imagens 2D (as ortofotos são 2D). D confunde captura da realidade com coleta física de vestígios.",
     "referencia": "PDF LOC, p. 77",
     "nivel": "facil"
+  },
+  {
+    "id": 1405,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os escâneres a laser empregados na documentação de locais caracterizam-se por:",
+    "alternativas": {
+      "A": "digitalizar ambientes e objetos emitindo feixes de laser e medindo propriedades do seu retorno, tendo grande alcance, o que os torna adequados à captura de grandes ambientes e cenas de crime.",
+      "B": "capturar imagens fotográficas convencionais que dependem integralmente da luz ambiente.",
+      "C": "registrar exclusivamente objetos pequenos, com alcance limitado a poucos centímetros.",
+      "D": "operar apenas por contato físico com as superfícies, como os equipamentos mecânicos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os escâneres a laser digitalizam ambientes e objetos emitindo feixes de laser e medindo diferentes propriedades do retorno; têm grande alcance, sendo adequados à captura de grandes ambientes e cenas de crime, como edifícios e pontes inteiras (p. 81). Isso valida A. B confunde com técnica passiva (fotografia). C nega o grande alcance. D atribui ao laser a operação por contato dos equipamentos mecânicos.",
+    "referencia": "PDF LOC, p. 81",
+    "nivel": "facil"
+  },
+  {
+    "id": 1406,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos tipos de escâner a laser, é correto afirmar que:",
+    "alternativas": {
+      "A": "o escâner cinemático é fixado em tripé e produz nuvens de maior qualidade que o estacionário.",
+      "B": "o escâner estacionário opera em movimento constante na mão do operador, sendo o mais rápido.",
+      "C": "o escâner estacionário (fixado em tripé) gera nuvens de maior qualidade, porém é mais lento, enquanto o cinemático (transportado na mão ou em robôs) é mais versátil e rápido, mas com qualidade inferior.",
+      "D": "ambos os tipos exigem que o laser atravesse os objetos para capturar todo o ambiente em uma única tomada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O escâner estacionário, preso a tripé, gera nuvens de maior qualidade, porém é mais lento; o cinemático, transportado na mão ou em plataformas automatizadas (robôs), é mais versátil e rápido, mas com qualidade inferior (p. 81-82). Isso valida C. A e B invertem as características. D é falsa, pois o laser não atravessa objetos, exigindo várias capturas de pontos de vista diferentes.",
+    "referencia": "PDF LOC, p. 81-82",
+    "nivel": "medio"
+  },
+  {
+    "id": 1407,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "O processo de 'registro', no uso dos escâneres a laser, consiste em:",
+    "alternativas": {
+      "A": "anotar manualmente, em formulário, a posição de cada vestígio capturado pelo equipamento.",
+      "B": "alinhar em uma única nuvem de pontos os diferentes pontos de vista capturados; equipamentos modernos o fazem automaticamente, enquanto os antigos exigiam a instalação de alvos no ambiente.",
+      "C": "calcular o hash da nuvem de pontos para garantir a cadeia de custódia do arquivo digital.",
+      "D": "converter a nuvem de pontos em ortofotos 2D por meio de software de fotogrametria."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O 'registro' é o alinhamento, em uma única nuvem de pontos, dos diferentes pontos de vista capturados; equipamentos/softwares modernos fazem o registro automaticamente ao reposicionar o escâner, ao passo que os antigos exigiam a instalação de alvos no ambiente (p. 82). Isso valida B. A confunde com o preenchimento de formulário. C confunde com a função hash. D confunde com a fotogrametria.",
+    "referencia": "PDF LOC, p. 82",
+    "nivel": "medio"
+  },
+  {
+    "id": 1408,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao escanear com laser estacionário um ambiente interno complexo, com móveis e divisórias, o perito percebe que uma única tomada não cobre toda a cena. Considerando o funcionamento do equipamento, é correto afirmar que:",
+    "alternativas": {
+      "A": "como o laser não atravessa objetos, são necessárias várias capturas de pontos de vista diferentes, posteriormente combinadas; embora o laser seja monocromático, o equipamento tira fotos coloridas para colorir a nuvem de pontos com as cores reais.",
+      "B": "uma única tomada é sempre suficiente, pois o laser atravessa móveis e paredes, dispensando capturas adicionais.",
+      "C": "o equipamento não registra cores, de modo que a nuvem de pontos resultante é sempre exibida apenas em tons de cinza.",
+      "D": "a presença de móveis impede o uso do escâner, devendo a documentação ser feita exclusivamente por fotografia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Como o laser não atravessa objetos, ambientes complexos exigem várias capturas de pontos de vista diferentes, depois combinadas; apesar de o laser ser monocromático, o equipamento também tira fotos coloridas para colorir a nuvem de pontos com as cores reais (p. 81-82). Isso valida A. B afirma incorretamente que o laser atravessa objetos. C nega a coloração da nuvem com fotos reais. D exclui indevidamente o uso do escâner.",
+    "referencia": "PDF LOC, p. 81-82",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1409,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as vantagens do uso de produtos 3D obtidos por escâner a laser na atividade pericial, inclui-se:",
+    "alternativas": {
+      "A": "a sobreposição de imagens de CFTV ao modelo 3D, permitindo calcular a altura de suspeitos e medir trajetórias, bem como a reconstrução de trajetórias de disparos para estimar a posição do atirador.",
+      "B": "a dispensa total do registro fotográfico do local, uma vez que a resolução do escâner capta todos os detalhes finos da cena.",
+      "C": "a coleta automática e o acondicionamento dos vestígios físicos, sem intervenção do perito.",
+      "D": "a substituição do exame de corpo de delito por simulação computacional."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Entre as vantagens estão a reconstrução da cena a partir de imagens de CFTV sobrepostas ao modelo 3D (cálculo de altura de suspeitos, medição de trajetórias) e a reconstrução de trajetórias de disparos para determinar a posição de origem do atirador (p. 82-83). Isso valida A. B contraria a limitação de resolução, que torna imprescindível a fotografia. C e D atribuem ao 3D funções alheias (coleta física e exame de corpo de delito).",
+    "referencia": "PDF LOC, p. 82-83",
+    "nivel": "medio"
+  },
+  {
+    "id": 1410,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma das vantagens dos modelos 3D obtidos por escâner a laser é a obtenção de medidas. A respeito dessa vantagem, é correto afirmar que:",
+    "alternativas": {
+      "A": "permite obter, de forma trivial a partir do modelo 3D, medidas de comprimento, área e volume, inclusive de alvos irregulares como buracos e rochas.",
+      "B": "fornece apenas medidas lineares, sendo impossível calcular áreas ou volumes.",
+      "C": "exige que todas as mensurações sejam refeitas manualmente no local, sem aproveitamento do modelo.",
+      "D": "restringe-se à medição de objetos perfeitamente regulares, não se aplicando a formas irregulares."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O modelo 3D permite obter, de forma trivial, medidas de comprimento, área e volume, inclusive cálculos complexos de alvos irregulares como buracos e rochas (p. 82). Isso valida A. B e D restringem indevidamente as medidas. C contraria a vantagem de dispensar mensurações manuais no local, que podem ser feitas depois sobre o modelo.",
+    "referencia": "PDF LOC, p. 82",
+    "nivel": "facil"
+  },
+  {
+    "id": 1411,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as limitações e dificuldades do uso de escâneres a laser, a disciplina aponta a necessidade de preparar a cena. Essa dificuldade está relacionada a:",
+    "alternativas": {
+      "A": "objetos pretos e/ou brilhantes, que dificultam a captura, exigindo o uso de sprays para tornar as superfícies opacas e, em situações difíceis (como áreas de mata), a introdução de alvos.",
+      "B": "objetos coloridos, que devem ser pintados de preto antes do escaneamento para refletir melhor o laser.",
+      "C": "a iluminação do ambiente, que precisa ser intensa, pois o escâner a laser depende de luz externa para operar.",
+      "D": "a presença de qualquer fotografia no local, que interfere no funcionamento do feixe de laser."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A preparação da cena decorre da dificuldade com objetos pretos e/ou brilhantes, que demandam o uso de sprays para tornar as superfícies opacas, além da introdução de alvos em situações difíceis, como áreas de mata (p. 83). Isso valida A. B inverte a recomendação (não se pinta de preto). C é falsa, pois o escâner a laser é técnica ativa e não depende de luz externa. D não corresponde a qualquer limitação descrita.",
+    "referencia": "PDF LOC, p. 83",
+    "nivel": "medio"
+  },
+  {
+    "id": 1412,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as limitações de resolução dos escâneres a laser, qual a conclusão da disciplina sobre a relação entre a documentação 3D e a fotografia do local?",
+    "alternativas": {
+      "A": "A tecnologia 3D substitui plenamente a fotografia, que se torna dispensável quando se dispõe de escâner a laser.",
+      "B": "Como a resolução do escâner é insuficiente para detalhes finos (ressalvada a luz estruturada), a tecnologia 3D não substitui a fotografia, sendo imprescindível o registro fotográfico do local para não perder informações e poder reposicionar vestígios na nuvem de pontos.",
+      "C": "A fotografia só é necessária quando não se utiliza escâner cinemático, sendo dispensável no uso do estacionário.",
+      "D": "A resolução do laser é sempre superior à da luz estruturada, o que torna a fotografia redundante."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A resolução dos escâneres a laser ainda é insuficiente para os detalhes finos de uma cena (com exceção da luz estruturada), de modo que a tecnologia 3D não substitui a fotografia, sendo imprescindível o registro fotográfico do local para não perder informações e poder localizar/reposicionar um vestígio na nuvem de pontos (p. 83). Isso valida B. A e C tratam a fotografia como dispensável, contrariando o texto. D inverte a relação de resolução (a luz estruturada tem resolução superior à do laser).",
+    "referencia": "PDF LOC, p. 83",
+    "nivel": "dificil"
   }
 ];
