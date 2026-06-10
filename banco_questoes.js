@@ -10933,7 +10933,7 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em acidente envolvendo veículo evasor (fuga do local), o perito federal localiza posteriormente um automóvel suspeito em pátio policial. Quanto à identificação veicular, o PVAT - Módulo II afirma que o elemento MAIS SEGURO de identificação individual do veículo é:",
     "alternativas": {
-      "A": "A placa de identificação, registrada tanto na frente quanto na traseira do veículo.",
+      "A": "A placa de identificação do veículo, registrada tanto na sua dianteira quanto na traseira e conferida com o documento.",
       "B": "O número do motor, conferido com os bancos de dados do DETRAN.",
       "C": "O NIV/VIN (Número de Identificação Veicular), localizado no painel, na porta e em outros pontos.",
       "D": "A cor de fábrica do veículo, comparada com eventuais repinturas detectadas."
@@ -11019,9 +11019,9 @@ const questoesDB = [
     "enunciado": "Em saída de pista em curva, o perito localiza marcas pneumáticas com largura irregular, diferente da dimensão da banda de rodagem, sem os sulcos longitudinais do perfil do pneu e com traçado nitidamente curvo. Com base no PVAT - Módulo II, é CORRETO afirmar que tais marcas:",
     "alternativas": {
       "A": "São marcas de frenagem (skid marks), produzidas pelo travamento total dos pneus.",
-      "B": "São marcas de derrapagem (yaw marks), produzidas pelo deslocamento lateral dos pneus enquanto ainda estão em rotação, podendo indicar a trajetória do veículo pós-impacto.",
-      "C": "São marcas de uso do sistema ABS, intermitentes e seccionadas, de menor calibre que as marcas convencionais.",
-      "D": "São sulcagens produzidas por partes rígidas do veículo, com coeficiente de atrito metal sobre asfalto de μ ≈ 0,40."
+      "B": "São marcas de derrapagem (yaw marks), do deslocamento lateral dos pneus ainda em rotação, podendo indicar a trajetória do veículo pós-impacto.",
+      "C": "São marcas do sistema ABS, intermitentes e seccionadas, de menor calibre que as marcas convencionais de frenagem por travamento.",
+      "D": "São sulcagens produzidas por partes rígidas e metálicas do veículo, com coeficiente de atrito metal sobre asfalto da ordem de μ ≈ 0,40."
     },
     "resposta_correta": "B",
     "justificativa": "O texto descreve as Yaw Marks como 'Produzidas pelo deslocamento lateral dos pneus enquanto ainda estão em rotação', com 'Largura irregular, diferente da dimensão da banda de rodagem', 'Ausência dos sulcos longitudinais do perfil do pneu', 'Traçado frequentemente curvo' e que 'Podem indicar a trajetória do veículo pós-impacto'.",
@@ -11035,10 +11035,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as marcas de uso do sistema ABS (Anti-lock Braking System) descritas no PVAT - Módulo II, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "São marcas contínuas e de maior calibre que as marcas convencionais, escuras e com sulcos longitudinais bem definidos.",
+      "A": "São marcas contínuas e de maior calibre que as marcas convencionais de frenagem, bem escuras e com sulcos longitudinais profundos e nitidamente definidos ao longo de toda a sua extensão.",
       "B": "A presença de marcas ABS significa que o condutor não freou, pois o sistema impede o registro de qualquer marca pneumática.",
       "C": "São visíveis exclusivamente em pista seca, porque o sistema ABS deixa de operar em pista molhada.",
-      "D": "São intermitentes ou seccionadas, normalmente esbranquiçadas ou acinzentadas, de menor calibre, e o seu comprimento é uma subestimação da distância real de frenagem, não podendo ser utilizado diretamente nas fórmulas de velocidade sem correção."
+      "D": "São intermitentes/seccionadas, esbranquiçadas ou acinzentadas, de menor calibre; seu comprimento subestima a distância real de frenagem, não podendo ser usado nas fórmulas sem correção."
     },
     "resposta_correta": "D",
     "justificativa": "O texto descreve as marcas ABS como 'Intermitentes ou seccionadas', 'esbranquiçadas ou acinzentadas, menos escuras', 'De menor calibre' e 'Presentes mesmo em pista molhada'. A nota de atenção informa: 'O comprimento das marcas ABS é uma subestimação da distância real de frenagem e não pode ser utilizado diretamente nas fórmulas de velocidade sem correção'.",
@@ -11052,10 +11052,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em colisão frontal ocorrida em rodovia, o perito encontra grande quantidade de fragmentos de para-brisas (vidro laminado com fragmentos de fita longa), lascas de plástico de grade frontal, terra que estava aderida sob para-lamas e manchas de fluido no asfalto. Conforme o PVAT - Módulo II, qual a importância pericial desse conjunto de fragmentos?",
     "alternativas": {
-      "A": "Servem apenas como indicativo de gravidade do acidente, sem relação com a localização do sítio de colisão, pois fragmentos podem ser arremessados a distâncias imprevisíveis.",
+      "A": "Servem apenas como indicativo da gravidade do acidente, sem qualquer relação com a localização do sítio de colisão, pois os fragmentos costumam ser arremessados a distâncias grandes e totalmente imprevisíveis no cenário do acidente.",
       "B": "Os fragmentos de vidro temperado (cúbicos) provêm sempre do para-brisas, enquanto os fragmentos em fita longa provêm dos vidros laterais e traseiros.",
       "C": "Devem ser desconsiderados em colisões frontais, pois nesse tipo de impacto os fragmentos se distribuem aleatoriamente em todo o cenário.",
-      "D": "São vestígios de extremo valor para a determinação do sítio de colisão, pois tendem a se depositar próximos ao ponto de impacto por terem massa pequena e velocidade de projeção comparativamente baixa; a sobreposição de fragmentos de dois veículos em uma mesma área é forte indicação do sítio de colisão."
+      "D": "São vestígios de extremo valor para o sítio de colisão: de massa pequena e baixa velocidade de projeção, depositam-se próximos ao ponto de impacto; a sobreposição de fragmentos dos dois veículos indica o sítio."
     },
     "resposta_correta": "D",
     "justificativa": "O texto afirma: 'Os fragmentos desprendidos no momento da colisão são vestígios de extremo valor para a determinação do sítio de colisão, pois tendem a se depositar próximos ao ponto de impacto por terem massa pequena e velocidade de projeção comparativamente baixa' e 'A sobreposição de fragmentos de dois veículos em uma mesma área é forte indicação do sítio de colisão'. O para-brisas é laminado (fita longa) e os vidros laterais e traseiros são temperados (cúbicos).",
@@ -11069,9 +11069,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em capotamento ocorrido em rodovia, o perito identifica marcas na pavimentação produzidas pelo atrito de partes rígidas do veículo (rodas sem pneu, eixos, soleira, motor e colunas) com o asfalto. Conforme o PVAT - Módulo II, sobre essas marcas, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "São denominadas 'fricções' e o seu coeficiente de atrito é desconhecido, motivo pelo qual não auxiliam em cálculos de velocidade residual.",
+      "A": "São denominadas 'fricções' e o seu coeficiente de atrito é totalmente desconhecido, motivo pelo qual não auxiliam em nenhum cálculo de velocidade residual do veículo.",
       "B": "São denominadas 'skid marks' e se diferenciam das marcas pneumáticas apenas pela ausência de borracha depositada.",
-      "C": "São denominadas 'sulcagens' e permitem, entre outras coisas, calcular a velocidade residual, pois têm coeficiente de atrito bem determinado (metal sobre asfalto: μ ≈ 0,40).",
+      "C": "São as 'sulcagens'; permitem calcular a velocidade residual, pois têm coeficiente de atrito bem determinado (metal sobre asfalto, μ ≈ 0,40).",
       "D": "São denominadas 'yaw marks' por indicarem o deslocamento lateral do veículo durante o capotamento."
     },
     "resposta_correta": "C",
@@ -11103,8 +11103,8 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à documentação do local de acidentes de tráfego, conforme o PVAT - Módulo II, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "O croqui pode ser dispensado quando o laudo conter farta documentação fotográfica.",
-      "B": "As medições devem ser realizadas, preferencialmente, com trena metálica ou a laser, e medir a mesma distância mais de uma vez pode ajudar na aplicação do Método de Monte Carlo.",
+      "A": "O croqui do local pode ser inteiramente dispensado sempre que o laudo pericial contiver farta e detalhada documentação fotográfica do sítio do acidente e de todos os veículos envolvidos.",
+      "B": "As medições devem ser feitas, de preferência, com trena metálica ou a laser; medir a mesma distância mais de uma vez ajuda na aplicação do Método de Monte Carlo.",
       "C": "As coordenadas GPS para o Sítio de Colisão (SC) podem ser tomadas sem considerar a precisão do equipamento, pois a área envolvida é grande.",
       "D": "A descrição verbal de cada vestígio é dispensável quando há croqui em escala e fotografias do local."
     },
@@ -11121,8 +11121,8 @@ const questoesDB = [
     "enunciado": "Sobre o croqui pericial em acidentes de tráfego e os softwares que podem ser utilizados para sua elaboração, conforme o PVAT - Módulo II, é CORRETO afirmar que:",
     "alternativas": {
       "A": "O croqui é peça meramente ilustrativa e o seu nível de detalhamento pouco influencia a compreensão da dinâmica do acidente pelos operadores do direito.",
-      "B": "O croqui em escala consiste em planta baixa do local com todos os vestígios posicionados, com sistema de coordenadas e legenda, e pode ser elaborado com estação total, GPS ou software de preferência do perito, como Microsoft Visio, AutoCAD, PC-Crash, Virtual CRASH, entre outros.",
-      "C": "Apenas softwares de CAD especializados, como AutoCAD e DraftSight, são admitidos para elaboração de croquis periciais, sendo vedado o uso de ferramentas como LibreOffice Draw e Google Earth Pro.",
+      "B": "O croqui em escala é a planta baixa do local com todos os vestígios posicionados, sistema de coordenadas e legenda, podendo ser feito com estação total, GPS ou softwares como Visio, AutoCAD, PC-Crash ou Virtual CRASH.",
+      "C": "Apenas softwares de CAD especializados, como AutoCAD e DraftSight, são admitidos para a elaboração de croquis periciais, sendo terminantemente vedado o uso de ferramentas como LibreOffice Draw, Google Earth Pro ou similares.",
       "D": "O croqui é peça facultativa do laudo e, quando elaborado, deve ser feito sem o uso de softwares específicos, prevalecendo o desenho manual."
     },
     "resposta_correta": "B",
@@ -11137,9 +11137,9 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia de colisão lateral entre dois veículos, o perito identifica a 'sede' das avarias e busca extrair, a partir do estudo morfológico dessas deformações, informações sobre a dinâmica do impacto. Conforme o PVAT - Módulo II, assinale a alternativa CORRETA quanto ao que é possível determinar pela análise sistemática das avarias:",
     "alternativas": {
-      "A": "Os pontos de impacto e a sede das forças atuantes, a posição relativa dos veículos no momento do impacto, a direção e o sentido dos vetores de força e a 'velocidade de danos'.",
+      "A": "Os pontos de impacto e a sede das forças, a posição relativa dos veículos no impacto, a direção e o sentido dos vetores de força e a 'velocidade de danos'.",
       "B": "Apenas o tipo de pavimento da via no momento do impacto.",
-      "C": "A identidade dos condutores e a culpabilidade pelo evento, conclusões necessariamente extraídas da geometria das avarias.",
+      "C": "A identidade dos condutores e a culpabilidade pelo evento, conclusões que seriam necessariamente extraídas da geometria das avarias e da deformação observada nos veículos.",
       "D": "Apenas a cor original dos veículos e eventuais repinturas pré-existentes."
     },
     "resposta_correta": "A",

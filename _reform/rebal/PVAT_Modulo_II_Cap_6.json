@@ -1,0 +1,74 @@
+[
+  {
+    "id": 782,
+    "alternativas": {
+      "A": "A placa de identificação do veículo, registrada tanto na sua dianteira quanto na traseira e conferida com o documento.",
+      "B": "O número do motor, conferido com os bancos de dados do DETRAN.",
+      "C": "O NIV/VIN (Número de Identificação Veicular), localizado no painel, na porta e em outros pontos.",
+      "D": "A cor de fábrica do veículo, comparada com eventuais repinturas detectadas."
+    }
+  },
+  {
+    "id": 787,
+    "alternativas": {
+      "A": "São marcas de frenagem (skid marks), produzidas pelo travamento total dos pneus.",
+      "B": "São marcas de derrapagem (yaw marks), do deslocamento lateral dos pneus ainda em rotação, podendo indicar a trajetória do veículo pós-impacto.",
+      "C": "São marcas do sistema ABS, intermitentes e seccionadas, de menor calibre que as marcas convencionais de frenagem por travamento.",
+      "D": "São sulcagens produzidas por partes rígidas e metálicas do veículo, com coeficiente de atrito metal sobre asfalto da ordem de μ ≈ 0,40."
+    }
+  },
+  {
+    "id": 788,
+    "alternativas": {
+      "A": "São marcas contínuas e de maior calibre que as marcas convencionais de frenagem, bem escuras e com sulcos longitudinais profundos e nitidamente definidos ao longo de toda a sua extensão.",
+      "B": "A presença de marcas ABS significa que o condutor não freou, pois o sistema impede o registro de qualquer marca pneumática.",
+      "C": "São visíveis exclusivamente em pista seca, porque o sistema ABS deixa de operar em pista molhada.",
+      "D": "São intermitentes/seccionadas, esbranquiçadas ou acinzentadas, de menor calibre; seu comprimento subestima a distância real de frenagem, não podendo ser usado nas fórmulas sem correção."
+    }
+  },
+  {
+    "id": 789,
+    "alternativas": {
+      "A": "Servem apenas como indicativo da gravidade do acidente, sem qualquer relação com a localização do sítio de colisão, pois os fragmentos costumam ser arremessados a distâncias grandes e totalmente imprevisíveis no cenário do acidente.",
+      "B": "Os fragmentos de vidro temperado (cúbicos) provêm sempre do para-brisas, enquanto os fragmentos em fita longa provêm dos vidros laterais e traseiros.",
+      "C": "Devem ser desconsiderados em colisões frontais, pois nesse tipo de impacto os fragmentos se distribuem aleatoriamente em todo o cenário.",
+      "D": "São vestígios de extremo valor para o sítio de colisão: de massa pequena e baixa velocidade de projeção, depositam-se próximos ao ponto de impacto; a sobreposição de fragmentos dos dois veículos indica o sítio."
+    }
+  },
+  {
+    "id": 790,
+    "alternativas": {
+      "A": "São denominadas 'fricções' e o seu coeficiente de atrito é totalmente desconhecido, motivo pelo qual não auxiliam em nenhum cálculo de velocidade residual do veículo.",
+      "B": "São denominadas 'skid marks' e se diferenciam das marcas pneumáticas apenas pela ausência de borracha depositada.",
+      "C": "São as 'sulcagens'; permitem calcular a velocidade residual, pois têm coeficiente de atrito bem determinado (metal sobre asfalto, μ ≈ 0,40).",
+      "D": "São denominadas 'yaw marks' por indicarem o deslocamento lateral do veículo durante o capotamento."
+    }
+  },
+  {
+    "id": 792,
+    "alternativas": {
+      "A": "O croqui do local pode ser inteiramente dispensado sempre que o laudo pericial contiver farta e detalhada documentação fotográfica do sítio do acidente e de todos os veículos envolvidos.",
+      "B": "As medições devem ser feitas, de preferência, com trena metálica ou a laser; medir a mesma distância mais de uma vez ajuda na aplicação do Método de Monte Carlo.",
+      "C": "As coordenadas GPS para o Sítio de Colisão (SC) podem ser tomadas sem considerar a precisão do equipamento, pois a área envolvida é grande.",
+      "D": "A descrição verbal de cada vestígio é dispensável quando há croqui em escala e fotografias do local."
+    }
+  },
+  {
+    "id": 793,
+    "alternativas": {
+      "A": "O croqui é peça meramente ilustrativa e o seu nível de detalhamento pouco influencia a compreensão da dinâmica do acidente pelos operadores do direito.",
+      "B": "O croqui em escala é a planta baixa do local com todos os vestígios posicionados, sistema de coordenadas e legenda, podendo ser feito com estação total, GPS ou softwares como Visio, AutoCAD, PC-Crash ou Virtual CRASH.",
+      "C": "Apenas softwares de CAD especializados, como AutoCAD e DraftSight, são admitidos para a elaboração de croquis periciais, sendo terminantemente vedado o uso de ferramentas como LibreOffice Draw, Google Earth Pro ou similares.",
+      "D": "O croqui é peça facultativa do laudo e, quando elaborado, deve ser feito sem o uso de softwares específicos, prevalecendo o desenho manual."
+    }
+  },
+  {
+    "id": 794,
+    "alternativas": {
+      "A": "Os pontos de impacto e a sede das forças, a posição relativa dos veículos no impacto, a direção e o sentido dos vetores de força e a 'velocidade de danos'.",
+      "B": "Apenas o tipo de pavimento da via no momento do impacto.",
+      "C": "A identidade dos condutores e a culpabilidade pelo evento, conclusões que seriam necessariamente extraídas da geometria das avarias e da deformação observada nos veículos.",
+      "D": "Apenas a cor original dos veículos e eventuais repinturas pré-existentes."
+    }
+  }
+]
