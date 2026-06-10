@@ -1,0 +1,56 @@
+[
+  {
+    "id": 821,
+    "alternativas": {
+      "A": "Compreende, nesta ordem: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho, Apelação e o Trânsito em Julgado da respectiva ação penal de trânsito.",
+      "B": "Compreende apenas a Identificação, o Histórico e a Conclusão, dispensadas as demais partes em laudos de tráfego.",
+      "C": "Inclui obrigatoriamente o Parecer Jurídico da Autoridade Requisitante como sétima parte.",
+      "D": "Compreende: Identificação; Histórico; Objetivo; Material examinado; Descrição do local e dos veículos; Análise e fundamentação técnica; Conclusão; e Croqui e fotografias."
+    }
+  },
+  {
+    "id": 824,
+    "alternativas": {
+      "A": "Tomadas a distâncias de 30 a 100 metros, com o objetivo de permitir a compreensão do layout geral do local antes de se examinarem os detalhes de cada vestígio individualmente.",
+      "B": "Tomadas a distância média (5 a 20 m), com escala opcional, mostrando o posicionamento de cada vestígio em relação aos elementos da via.",
+      "C": "Tomadas em close (0,5 a 2 m), mostrando detalhes de cada vestígio (textura das marcas, tipo de avarias, fragmentos); é obrigatória a escala.",
+      "D": "Tomadas exclusivamente por drone, com altitude de voo entre 50 e 120 m, sendo desnecessária a escala."
+    }
+  },
+  {
+    "id": 825,
+    "alternativas": {
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas II, IV e V.",
+      "C": "Todos os itens estão corretos.",
+      "D": "Apenas I, III e V."
+    }
+  },
+  {
+    "id": 826,
+    "alternativas": {
+      "A": "É um software de código totalmente aberto e de uso livre por qualquer profissional da área pericial, acadêmica ou de engenharia de tráfego, sem qualquer restrição institucional.",
+      "B": "Foi desenvolvido pela Criminalística da PF para análise de imagens; permite estimar velocidades médias de veículos a partir de imagens de câmeras; tem uso restrito a peritos criminais.",
+      "C": "É uma plataforma estrangeira voltada exclusivamente ao cálculo de incertezas em acidentes envolvendo motocicletas.",
+      "D": "Substitui integralmente o uso do EDR, dispensando consulta a dados do airbag/sistema de segurança."
+    }
+  },
+  {
+    "id": 827,
+    "alternativas": {
+      "A": "Todos os itens são erros comuns citados.",
+      "B": "Apenas os itens II, IV e V estão corretos.",
+      "C": "Apenas I, III e IV.",
+      "D": "Apenas I e III."
+    }
+  },
+  {
+    "id": 828,
+    "alternativas": {
+      "A": "O laudo é documento público de elevada responsabilidade: conclusões imprecisas ou mal fundamentadas podem gerar impunidade ou condenação injusta de inocentes; a responsabilidade do perito (funcional, civil e criminal) é real.",
+      "B": "O laudo pericial é documento de caráter absolutamente sigiloso e sem qualquer efeito processual direto, podendo, por isso, ser livremente desconsiderado por qualquer das partes no curso do processo penal de trânsito, sem qualquer consequência.",
+      "C": "O laudo possui valor meramente opinativo, ficando o perito isento de qualquer responsabilidade sobre eventuais imprecisões.",
+      "D": "O laudo pericial só pode ser questionado pela autoridade policial requisitante e jamais pelo Ministério Público ou pelo Judiciário."
+    }
+  }
+]

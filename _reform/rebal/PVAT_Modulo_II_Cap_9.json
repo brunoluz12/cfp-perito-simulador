@@ -1,0 +1,38 @@
+[
+  {
+    "id": 815,
+    "alternativas": {
+      "A": "Todos os itens estão corretos.",
+      "B": "Apenas os itens II, III e IV estão corretos.",
+      "C": "Apenas I, III e V.",
+      "D": "Apenas I, II e V."
+    }
+  },
+  {
+    "id": 816,
+    "alternativas": {
+      "A": "Apreender o disco em uso no acidente, verificar a calibração do tacógrafo, identificar a hora e correlacioná-la com o registro de velocidade, e comparar com as marcas físicas de frenagem (validação cruzada).",
+      "B": "Basta confiar no relato do próprio motorista quanto à velocidade desenvolvida, sem necessidade de apreensão física do disco-diagrama ou de qualquer verificação da calibração do aparelho tacógrafo instalado.",
+      "C": "A leitura do disco-diagrama é definitiva e dispensa qualquer cruzamento com as marcas físicas de frenagem.",
+      "D": "O tacógrafo é dispositivo opcional em veículos pesados, sendo seu uso apenas recomendado pelas montadoras."
+    }
+  },
+  {
+    "id": 819,
+    "alternativas": {
+      "A": "Em colisões frontais com grande deformação (esmigalhamento), o método das marcas pneumáticas pré-colisão pode não bastar, recorrendo-se ao PCQM ou às tabelas de velocidade de danos.",
+      "B": "A velocidade de fechamento (soma das velocidades dos dois veículos) raramente supera 100 km/h, mesmo em rodovias de pista simples.",
+      "C": "A análise pericial deve se limitar à identificação do veículo que invadiu a faixa de sentido contrário, sendo de todo desnecessário apurar o motivo que levou à invasão da pista.",
+      "D": "Em qualquer colisão frontal, basta o exame do EDR (registrador de dados de evento) de apenas um dos veículos envolvidos para definir, com precisão, as velocidades individuais de ambos no instante do impacto."
+    }
+  },
+  {
+    "id": 820,
+    "alternativas": {
+      "A": "Apenas I e II.",
+      "B": "Apenas os itens I, III e V.",
+      "C": "Todas as afirmativas.",
+      "D": "Apenas II, IV e V."
+    }
+  }
+]

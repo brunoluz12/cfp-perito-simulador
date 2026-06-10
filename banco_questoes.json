@@ -11188,8 +11188,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Durante a reconstituição de um acidente de tráfego, o perito identifica diversos pontos-chave ao longo da trajetória dos veículos envolvidos. Sobre o conceito de sítio na perícia de acidentes de tráfego, conforme o material didático, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "Os sítios são pontos meramente teóricos, sem ligação direta com vestígios materiais, sendo definidos apenas pelo depoimento do condutor.",
-      "B": "Os sítios são pontos ou áreas-chave no espaço ao longo da trajetória dos veículos, representando momentos cruciais da sequência de eventos que levaram ao acidente, e sua reconstituição transforma medições de campo em conclusões periciais.",
+      "A": "Os sítios são pontos meramente teóricos, sem qualquer ligação direta com os vestígios materiais existentes no local, sendo definidos apenas a partir do depoimento prestado pelo condutor envolvido e das eventuais testemunhas presenciais.",
+      "B": "Os sítios são pontos-chave ao longo da trajetória dos veículos, representando momentos cruciais da sequência do acidente; reconstituí-los transforma medições de campo em conclusões periciais.",
       "C": "A cadeia de sítios inicia-se no Sítio de Colisão e percorre apenas a trajetória pós-impacto, até o repouso final do veículo.",
       "D": "A cadeia de sítios percorre exclusivamente o trecho entre o Sítio de Reação e o Sítio de Colisão, sendo os demais pontos irrelevantes para a perícia."
     },
@@ -11205,9 +11205,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em um laudo pericial, o perito precisa definir o Sítio de Percepção (SP) de um condutor. Considerando a natureza desse sítio, assinale a alternativa CORRETA quanto à sua identificação e cálculo.",
     "alternativas": {
-      "A": "Por sua natureza subjetiva (processo mental), o SP não pode ser diretamente identificado por vestígios físicos e deve ser calculado retroativamente a partir dos outros sítios, pela fórmula SP = SR − dpr.",
+      "A": "Por ser subjetivo (processo mental), o SP não é identificado por vestígios físicos, devendo ser calculado retroativamente a partir dos demais sítios (SP = SR − dpr).",
       "B": "O SP corresponde sempre ao início das marcas de frenagem visíveis no asfalto, em veículos com freios convencionais.",
-      "C": "O SP é identificado diretamente pelas marcas de derrapagem deixadas no pavimento, sendo a âncora física do processo de reconstituição.",
+      "C": "O SP é identificado diretamente pelas marcas de derrapagem deixadas no pavimento da via, sendo considerado a âncora física de todo o processo de reconstituição do acidente.",
       "D": "O SP é calculado somando-se ao Sítio de Reação a distância de frenagem, segundo SP = SR + dfre."
     },
     "resposta_correta": "A",
@@ -11222,10 +11222,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em uma cena de acidente, o perito identifica marcas intermitentes (gap marks) características de sistema ABS no pavimento, próximas ao início da trajetória de frenagem. Sobre o Sítio de Reação (SR) nessas circunstâncias, assinale a CORRETA.",
     "alternativas": {
-      "A": "Em manobras de desvio sem frenagem, o SR coincide obrigatoriamente com o Sítio de Colisão, pois não há marcas físicas anteriores ao impacto.",
+      "A": "Em manobras de desvio sem frenagem, o SR coincide obrigatoriamente com o Sítio de Colisão, pois nesse caso não há qualquer marca física registrada anteriormente ao ponto de impacto.",
       "B": "Para veículos com ABS, o SR deve ser calculado retroativamente, pois o sistema impede a formação de qualquer vestígio físico identificável.",
       "C": "O SR é sempre subjetivo, dependendo de uma estimativa mental do tempo de reação, não podendo ser identificado por vestígios materiais.",
-      "D": "Em veículos com ABS, o SR corresponde à área próxima ao início das marcas intermitentes; em veículos convencionais, corresponde ao início das marcas pretas; em manobras de desvio sem frenagem, pode ser identificado pela mudança de trajetória."
+      "D": "Com ABS, o SR fica próximo ao início das marcas intermitentes; em veículos convencionais, ao início das marcas pretas; em desvio sem frenagem, na mudança de trajetória."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme o texto: 'Para veículos com ABS, o sítio de reação corresponde à área próxima ao início das marcas intermitentes. Em manobras de desvio sem frenagem, o sítio de reação pode ser identificado por marcas de derrapagem ou pela mudança de trajetória'.",
@@ -11273,8 +11273,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o Sítio de Colisão (SC), considerado a área mais importante do levantamento de campo, assinale a alternativa CORRETA quanto às evidências que permitem sua identificação.",
     "alternativas": {
-      "A": "O SC é identificado exclusivamente pela posição final de repouso dos veículos envolvidos, conforme constatada pela perícia.",
-      "B": "O SC é identificado pela convergência de múltiplas evidências, como mudança brusca de direção nas marcas, concentração de fragmentos, início de sulcagens, manchas de fluidos, marcas de yaw iniciando no ponto de impacto e correspondência com as avarias.",
+      "A": "O SC é identificado exclusivamente pela posição final de repouso dos veículos envolvidos no acidente, tal como constatada pela equipe de perícia ao chegar e isolar por completo o local.",
+      "B": "O SC é identificado pela convergência de evidências: mudança brusca das marcas, concentração de fragmentos, início de sulcagens, manchas de fluidos e correspondência com as avarias.",
       "C": "O Sítio de Colisão e o sítio de impacto no veículo são conceitos equivalentes, podendo ser empregados indistintamente no laudo.",
       "D": "O SC é uma área no veículo, correspondente à sede das avarias na carroceria, e não no pavimento."
     },
@@ -11290,9 +11290,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "No exemplo completo de cálculo de sítios apresentado no material, considere um veículo com Vt = 80 km/h, μ = 0,80, marcas de frenagem de 25 m antes do impacto e Tp = 1,125 s. Sobre os resultados obtidos e a conclusão pericial, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "Como o SNE estaria a 50 m do SC e o SP estava a 36,45 m, conclui-se que o acidente seria inevitável mesmo a 60 km/h.",
+      "A": "Como o SNE estaria a 50 m do SC e o SP estava a 36,45 m do ponto, conclui-se que o acidente seria inevitável mesmo na velocidade regulamentar de 60 km/h.",
       "B": "O Sítio de Percepção encontra-se a 25 m do SC, coincidindo exatamente com o SNE calculado para a velocidade regulamentar.",
-      "C": "A velocidade absorvida pela frenagem (Va) resulta em aproximadamente 71,27 km/h e a velocidade no instante da colisão (Vic) é de aproximadamente 36,34 km/h.",
+      "C": "A velocidade absorvida na frenagem (Va) é ≈ 71,27 km/h e a velocidade no instante da colisão (Vic) é ≈ 36,34 km/h.",
       "D": "O tempo de frenagem (tfre) calculado é de aproximadamente 2,55 s, o que comprova ausência de excesso de velocidade."
     },
     "resposta_correta": "C",
@@ -11324,9 +11324,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "A formulação da causa determinante é o núcleo da conclusão do laudo pericial. Quanto à estrutura recomendada pelo material para o parágrafo descritivo da causa determinante, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "Deve incluir obrigatoriamente o nome do juiz competente e a tipificação penal proposta pelo perito.",
+      "A": "Deve incluir obrigatoriamente o nome do juiz competente para julgar a causa e a tipificação penal já proposta pelo perito criminal federal responsável pelo exame.",
       "B": "Deve conter exclusivamente o relato narrativo do que o condutor afirmou em depoimento, sem necessidade de vinculação com vestígios.",
-      "C": "Deve conter, em regra: o sujeito (o condutor identificado), o verbo (a ação ou omissão ilegal), a norma violada (regra do CTB infringida) e o resultado (colisão, capotamento, atropelamento nas circunstâncias descritas).",
+      "C": "Deve conter, em regra: o sujeito (condutor identificado), o verbo (ação/omissão ilegal), a norma do CTB violada e o resultado (colisão, capotamento, atropelamento).",
       "D": "Deve prescindir da indicação da norma do CTB violada, pois essa atribuição é exclusiva do Ministério Público."
     },
     "resposta_correta": "C",
@@ -11344,7 +11344,7 @@
       "A": "I, II e III.",
       "B": "II, IV e V.",
       "C": "I, II, III e V.",
-      "D": "I, III, IV e V."
+      "D": "Itens I, III, IV e V."
     },
     "resposta_correta": "C",
     "justificativa": "O item IV é incorreto, pois apontar culpa/responsabilidade jurídica é função do juiz e consta nos erros comuns (Cap. 10). Os demais reproduzem o texto: ausência de reação, ausência ou insuficiência de marcas, dpr fisicamente possível e formulação típica.",
@@ -11358,9 +11358,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em uma saída de pista em curva sem indicação de frenagem, o perito investiga a possibilidade de ausência de reação. Quais verificações o material indica como necessárias para essa hipótese?",
     "alternativas": {
-      "A": "Verificar se a placa do veículo é compatível com o cadastro do Denatran e se há transferência de tinta no obstáculo.",
+      "A": "Verificar se a placa do veículo é compatível com o cadastro do Denatran e se há transferência de tinta no obstáculo atingido pelo veículo durante a sua saída da pista de rolamento.",
       "B": "Verificar exclusivamente a calibração do tacógrafo e o disco-diagrama do veículo no momento do acidente.",
-      "C": "Verificar se havia sinalização adequada para a curva, se a visibilidade era suficiente, se há indicativos de sonolência (ausência total de marcas, inclusive pós-saída) e se a velocidade era compatível com o raio da curva.",
+      "C": "Verificar a sinalização da curva, a visibilidade, indícios de sonolência (ausência total de marcas, mesmo pós-saída) e se a velocidade era compatível com o raio da curva.",
       "D": "Verificar somente o tempo de permanência do condutor no veículo e a duração da viagem prévia."
     },
     "resposta_correta": "C",
@@ -11375,8 +11375,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distinção entre velocidade excessiva e velocidade inadequada como causas determinantes, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "A velocidade excessiva como causa determinante única aplica-se quando o veículo ultrapassa o limite da via e fica demonstrado que, na velocidade regulamentar, o acidente não teria ocorrido; a velocidade inadequada aplica-se quando o veículo não ultrapassa o limite absoluto, mas desenvolve velocidade incompatível com as condições do momento (pista molhada, visibilidade reduzida, tráfego intenso).",
-      "B": "A velocidade excessiva aplica-se apenas a vias urbanas; a velocidade inadequada, apenas a rodovias.",
+      "A": "A velocidade excessiva (causa única) ocorre quando o veículo ultrapassa o limite e se demonstra que, na velocidade regulamentar, o acidente não aconteceria; a inadequada, quando não ultrapassa o limite, mas é incompatível com as condições do momento.",
+      "B": "A velocidade excessiva aplica-se apenas e tão somente às vias urbanas dotadas de sinalização, ao passo que a velocidade inadequada aplica-se exclusivamente às rodovias federais e estaduais, conforme a respectiva classificação viária estabelecida pelo CTB.",
       "C": "Velocidade excessiva e velocidade inadequada são sinônimos, ambas aplicáveis sempre que o veículo ultrapasse o limite da via.",
       "D": "Ambas só se aplicam quando o perito também demonstra a alcoolemia do condutor, sem o que a causa não pode ser apontada."
     },
@@ -11393,7 +11393,7 @@
     "enunciado": "Em interceptação por mudança de faixa irregular, o perito deve apoiar a conclusão em vestígios materiais. Quais são esses vestígios típicos, segundo o material?",
     "alternativas": {
       "A": "Exclusivamente a leitura do disco-diagrama do tacógrafo, sem necessidade de outras evidências.",
-      "B": "Marcas de frenagem do tipo gap-skid em ambos os veículos e fragmentos centralizados na pista preferencial.",
+      "B": "Marcas de frenagem do tipo gap-skid em ambos os veículos envolvidos e fragmentos de vidro e plástico centralizados sobre a faixa de domínio da pista preferencial.",
       "C": "Apenas o depoimento das testemunhas presentes, dispensando-se análise dos vestígios físicos.",
       "D": "Marcas de derrapagem iniciando em uma faixa e estendendo-se para outra, avarias laterais correspondentes e fragmentos na região de impacto."
     },
@@ -11410,9 +11410,9 @@
     "enunciado": "Em interceptação ocorrida em cruzamento, quando há entrada irregular em via preferencial, o perito deve seguir uma sequência analítica. Assinale a alternativa que apresenta CORRETAMENTE as verificações necessárias.",
     "alternativas": {
       "A": "Identificar exclusivamente a placa do veículo evasor e correlacionar com o cadastro do Denatran.",
-      "B": "Identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (pela análise da posição das avarias, do SC e das trajetórias) e verificar se havia sinalização adequada.",
+      "B": "Identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (posição das avarias, SC e trajetórias) e verificar a sinalização.",
       "C": "Calcular apenas a velocidade de impacto do veículo preferencial, sem necessidade de verificar a sinalização.",
-      "D": "Determinar a culpa jurídica do condutor que ingressou na via preferencial, indicando a tipificação penal aplicável."
+      "D": "Determinar desde logo a culpa jurídica do condutor que ingressou na via preferencial, indicando inclusive a tipificação penal aplicável ao caso concreto no laudo."
     },
     "resposta_correta": "B",
     "justificativa": "Texto: 'O perito deve identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (pela análise da posição das avarias, do sítio de colisão e das trajetórias) e verificar se havia sinalização adequada'.",
@@ -11443,10 +11443,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "O comportamento perigoso como causa determinante exclusiva é reservado para casos extremos. Assinale a alternativa que apresenta exemplos CORRETOS desse tipo de causa, segundo o material.",
     "alternativas": {
-      "A": "Veículo trafegando na contramão em via de sentido único com meios-fios e sinalização clara; veículo avançando sobre calçada; condutor realizando sequência de colisões sem indicação de tentativa de parar.",
+      "A": "Trafegar na contramão em via de sentido único com meios-fios e sinalização clara; avançar sobre a calçada; realizar sequência de colisões sem qualquer indicação de tentativa de parar.",
       "B": "Veículo em ultrapassagem regular em local permitido com velocidade dentro do limite.",
       "C": "Veículo com pneu careca em via molhada e com baixa visibilidade.",
-      "D": "Veículo trafegando em velocidade superior em 5 km/h ao limite, em via de visibilidade plena e sem outros veículos."
+      "D": "Veículo trafegando em velocidade superior em apenas 5 km/h ao limite, em via de visibilidade plena, pista seca e sem a presença de quaisquer outros veículos ou pedestres nas imediações."
     },
     "resposta_correta": "A",
     "justificativa": "Texto: 'veículo trafegando na contramão em via de sentido único com meios-fios e sinalização clara; veículo avançando sobre calçada; condutor realizando sequência de colisões sem indicação de tentativa de parar'.",
@@ -11495,7 +11495,7 @@
     "enunciado": "Em perícia de acidente envolvendo caminhão, o material destaca particularidades dos veículos pesados. Considere os itens a seguir:\n\nI. Centro de gravidade mais alto, com maior propensão a tombamento em curvas e manobras bruscas.\nII. Distância de frenagem maior, devido à massa (sobretudo à posição do centro de massa do conjunto) e às diferenças nos sistemas de freios.\nIII. Estruturas mais rígidas produzem deformação diferenciada nas avarias do veículo menor na colisão.\nIV. Existência de ângulos mortos, relevantes em atropelamentos e colisões.\nV. O tacógrafo é obrigatório em caminhões e ônibus, conforme art. 105, II, do CTB.\n\nEstão CORRETOS:",
     "alternativas": {
       "A": "Todos os itens estão corretos.",
-      "B": "Apenas II, III e IV.",
+      "B": "Apenas os itens II, III e IV estão corretos.",
       "C": "Apenas I, III e V.",
       "D": "Apenas I, II e V."
     },
@@ -11511,8 +11511,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à leitura pericial do tacógrafo de um veículo pesado envolvido em acidente, assinale a alternativa que apresenta procedimento CORRETO recomendado pelo material.",
     "alternativas": {
-      "A": "O perito deve apreender o disco em uso no momento do acidente, verificar a calibração do tacógrafo, identificar a hora do acidente e correlacionar com o registro de velocidade, e comparar com as marcas físicas de frenagem para validação cruzada.",
-      "B": "Basta confiar no relato do motorista, sem necessidade de apreensão física do disco ou da verificação de calibração.",
+      "A": "Apreender o disco em uso no acidente, verificar a calibração do tacógrafo, identificar a hora e correlacioná-la com o registro de velocidade, e comparar com as marcas físicas de frenagem (validação cruzada).",
+      "B": "Basta confiar no relato do próprio motorista quanto à velocidade desenvolvida, sem necessidade de apreensão física do disco-diagrama ou de qualquer verificação da calibração do aparelho tacógrafo instalado.",
       "C": "A leitura do disco-diagrama é definitiva e dispensa qualquer cruzamento com as marcas físicas de frenagem.",
       "D": "O tacógrafo é dispositivo opcional em veículos pesados, sendo seu uso apenas recomendado pelas montadoras."
     },
@@ -11562,10 +11562,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre colisões frontais em rodovias, especialmente em pistas simples, considere a análise pericial que o material recomenda. Assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "Em colisões frontais com grande deformação estrutural (esmigalhamento), o método das marcas pneumáticas pré-colisão pode não ser suficiente, podendo-se recorrer ao método de conservação da quantidade de movimento ou às tabelas de velocidade de danos.",
+      "A": "Em colisões frontais com grande deformação (esmigalhamento), o método das marcas pneumáticas pré-colisão pode não bastar, recorrendo-se ao PCQM ou às tabelas de velocidade de danos.",
       "B": "A velocidade de fechamento (soma das velocidades dos dois veículos) raramente supera 100 km/h, mesmo em rodovias de pista simples.",
-      "C": "A análise pericial deve se limitar à identificação do veículo que invadiu a faixa contrária, sendo desnecessário apurar o motivo da invasão.",
-      "D": "Em qualquer colisão frontal, basta o exame do EDR de apenas um dos veículos para definir as velocidades individuais."
+      "C": "A análise pericial deve se limitar à identificação do veículo que invadiu a faixa de sentido contrário, sendo de todo desnecessário apurar o motivo que levou à invasão da pista.",
+      "D": "Em qualquer colisão frontal, basta o exame do EDR (registrador de dados de evento) de apenas um dos veículos envolvidos para definir, com precisão, as velocidades individuais de ambos no instante do impacto."
     },
     "resposta_correta": "A",
     "justificativa": "Texto: 'Em colisões frontais com grande deformação estrutural (esmigalhamento da frente dos veículos), o método das marcas pneumáticas pré-colisão pode não ser suficiente (...) Nestes casos, o método de conservação da quantidade de movimento (...) ou as tabelas de velocidade de danos tornam-se essenciais'.",
@@ -11580,7 +11580,7 @@
     "enunciado": "Em acidentes com fuga (hit-and-run), o perito deve adotar procedimentos específicos para coletar evidências do veículo evasor. Considere os itens:\n\nI. Coletar todos os fragmentos de tinta, plástico e vidro do veículo ausente.\nII. Analisar a transferência de tinta nas avarias do veículo atingido.\nIII. Registrar o padrão de fragmentos para identificar marca, modelo e ano aproximado do veículo evasor.\nIV. Solicitar análise cromática e espectroscópica da tinta para confronto com o veículo suspeito.\nV. A base de dados do Denatran/Senatran, combinada com catálogos de fragmentos de faróis e sinaleiras, permite em muitos casos restringir significativamente o universo de veículos suspeitos.\n\nEstão CORRETAS:",
     "alternativas": {
       "A": "Apenas I e II.",
-      "B": "Apenas I, III e V.",
+      "B": "Apenas os itens I, III e V.",
       "C": "Todas as afirmativas.",
       "D": "Apenas II, IV e V."
     },
@@ -11596,10 +11596,10 @@
     "tipo": "multipla_escolha",
     "enunciado": "A estrutura recomendada pelo INC/PF para laudos de acidentes de tráfego contém nove partes. Sobre essa estrutura, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "Compreende: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho e Apelação.",
+      "A": "Compreende, nesta ordem: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho, Apelação e o Trânsito em Julgado da respectiva ação penal de trânsito.",
       "B": "Compreende apenas a Identificação, o Histórico e a Conclusão, dispensadas as demais partes em laudos de tráfego.",
       "C": "Inclui obrigatoriamente o Parecer Jurídico da Autoridade Requisitante como sétima parte.",
-      "D": "Compreende: Identificação; Histórico; Objetivo; Material examinado; Descrição do local; Descrição dos veículos; Análise e fundamentação técnica; Conclusão; e Croqui e fotografias (anexados ou inseridos no corpo)."
+      "D": "Compreende: Identificação; Histórico; Objetivo; Material examinado; Descrição do local e dos veículos; Análise e fundamentação técnica; Conclusão; e Croqui e fotografias."
     },
     "resposta_correta": "D",
     "justificativa": "O texto enumera exatamente as nove partes: Identificação, Histórico, Objetivo, Material examinado, Descrição do local, Descrição dos veículos, Análise e fundamentação técnica, Conclusão e Croqui e fotografias.",
@@ -11647,9 +11647,9 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as Fotos de Identificação, último nível da progressão fotográfica recomendada, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "Tomadas a distâncias de 30 a 100 m, com o objetivo de permitir a compreensão do layout geral antes de examinar os detalhes.",
+      "A": "Tomadas a distâncias de 30 a 100 metros, com o objetivo de permitir a compreensão do layout geral do local antes de se examinarem os detalhes de cada vestígio individualmente.",
       "B": "Tomadas a distância média (5 a 20 m), com escala opcional, mostrando o posicionamento de cada vestígio em relação aos elementos da via.",
-      "C": "Tomadas em close (0,5 a 2 m), mostrando os detalhes de cada vestígio: textura das marcas pneumáticas, tipo das avarias, fragmentos individuais; é obrigatória a presença de escala.",
+      "C": "Tomadas em close (0,5 a 2 m), mostrando detalhes de cada vestígio (textura das marcas, tipo de avarias, fragmentos); é obrigatória a escala.",
       "D": "Tomadas exclusivamente por drone, com altitude de voo entre 50 e 120 m, sendo desnecessária a escala."
     },
     "resposta_correta": "C",
@@ -11664,7 +11664,7 @@
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a modernização tecnológica na documentação pericial (Tabela 14), considere os itens a seguir:\n\nI. O Scanner 3D a laser (FARO Focus) realiza levantamento tridimensional do local e dos veículos, com precisão milimétrica, mas tem custo elevado e tempo de processamento.\nII. A fotogrametria por drone permite mapeamento aéreo com modelagem 3D; é rápida e de baixo custo por uso, mas requer habilitação ANAC e é sensível ao vento.\nIII. Softwares PC-Crash/HVE permitem simulação dinâmica do acidente, com validação de hipóteses, mas requerem treinamento especializado e licenciamento.\nIV. O EDR (Event Data Recorder) fornece dados precisos de velocidade, freio e cinto, embora nem todos os veículos disponham dele e o acesso possa ser restrito.\nV. A plataforma eCrash é uma plataforma nacional para cálculos relacionados a acidentes de tráfego utilizando modelos estatísticos.\n\nEstão CORRETAS:",
     "alternativas": {
-      "A": "Apenas I, II e III.",
+      "A": "Apenas os itens I, II e III estão corretos.",
       "B": "Apenas II, IV e V.",
       "C": "Todos os itens estão corretos.",
       "D": "Apenas I, III e V."
@@ -11681,8 +11681,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "O software Peritus é citado no material como ferramenta tecnológica para uso pelo perito criminal federal. Sobre essa ferramenta, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "É um software de código aberto, de uso livre por qualquer profissional da área pericial.",
-      "B": "Foi desenvolvido pela Criminalística da Polícia Federal e é usado para análise de imagens, dentre outras aplicações; permite estimar velocidades médias dos veículos analisados por meio do uso de imagens de câmeras; tem uso restrito a peritos criminais.",
+      "A": "É um software de código totalmente aberto e de uso livre por qualquer profissional da área pericial, acadêmica ou de engenharia de tráfego, sem qualquer restrição institucional.",
+      "B": "Foi desenvolvido pela Criminalística da PF para análise de imagens; permite estimar velocidades médias de veículos a partir de imagens de câmeras; tem uso restrito a peritos criminais.",
       "C": "É uma plataforma estrangeira voltada exclusivamente ao cálculo de incertezas em acidentes envolvendo motocicletas.",
       "D": "Substitui integralmente o uso do EDR, dispensando consulta a dados do airbag/sistema de segurança."
     },
@@ -11698,8 +11698,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Em revisão de laudos periciais em acidentes de tráfego, são identificados erros recorrentes na formulação da conclusão. Considere os itens:\n\nI. Concluir sobre culpa ou responsabilidade jurídica (função exclusiva do juiz).\nII. Apontar causa determinante sem embasamento em vestígios materiais (conclusão baseada em depoimentos).\nIII. Usar linguagem vaga, como 'o veículo estava em alta velocidade', sem calcular a velocidade.\nIV. Confundir Sítio de Colisão com sítio de impacto no veículo.\nV. Apresentar a velocidade como valor exato sem mencionar o intervalo de incerteza.\n\nQuais desses itens são considerados ERROS comuns na conclusão pericial, conforme o material?",
     "alternativas": {
-      "A": "Todos os itens são erros comuns elencados pelo material.",
-      "B": "Apenas II, IV e V.",
+      "A": "Todos os itens são erros comuns citados.",
+      "B": "Apenas os itens II, IV e V estão corretos.",
       "C": "Apenas I, III e IV.",
       "D": "Apenas I e III."
     },
@@ -11715,8 +11715,8 @@
     "tipo": "multipla_escolha",
     "enunciado": "Ao final do capítulo de Documentação Pericial, o material adverte sobre a responsabilidade do perito criminal federal na elaboração do laudo. Assinale a alternativa que reproduz CORRETAMENTE essa advertência.",
     "alternativas": {
-      "A": "O laudo pericial é um documento público de elevada responsabilidade. Conclusões imprecisas, exageradas ou insuficientemente fundamentadas podem resultar em impunidade de infratores ou em condenação injusta de inocentes; a responsabilidade funcional, civil e criminal do perito é real e deve ser exercida com máximo rigor técnico e ético.",
-      "B": "O laudo pericial é documento sigiloso, sem efeito processual, podendo ser desconsiderado por qualquer das partes.",
+      "A": "O laudo é documento público de elevada responsabilidade: conclusões imprecisas ou mal fundamentadas podem gerar impunidade ou condenação injusta de inocentes; a responsabilidade do perito (funcional, civil e criminal) é real.",
+      "B": "O laudo pericial é documento de caráter absolutamente sigiloso e sem qualquer efeito processual direto, podendo, por isso, ser livremente desconsiderado por qualquer das partes no curso do processo penal de trânsito, sem qualquer consequência.",
       "C": "O laudo possui valor meramente opinativo, ficando o perito isento de qualquer responsabilidade sobre eventuais imprecisões.",
       "D": "O laudo pericial só pode ser questionado pela autoridade policial requisitante e jamais pelo Ministério Público ou pelo Judiciário."
     },

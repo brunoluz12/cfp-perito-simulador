@@ -1,0 +1,65 @@
+[
+  {
+    "id": 805,
+    "alternativas": {
+      "A": "Deve incluir obrigatoriamente o nome do juiz competente para julgar a causa e a tipificação penal já proposta pelo perito criminal federal responsável pelo exame.",
+      "B": "Deve conter exclusivamente o relato narrativo do que o condutor afirmou em depoimento, sem necessidade de vinculação com vestígios.",
+      "C": "Deve conter, em regra: o sujeito (condutor identificado), o verbo (ação/omissão ilegal), a norma do CTB violada e o resultado (colisão, capotamento, atropelamento).",
+      "D": "Deve prescindir da indicação da norma do CTB violada, pois essa atribuição é exclusiva do Ministério Público."
+    }
+  },
+  {
+    "id": 806,
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, IV e V.",
+      "C": "I, II, III e V.",
+      "D": "Itens I, III, IV e V."
+    }
+  },
+  {
+    "id": 807,
+    "alternativas": {
+      "A": "Verificar se a placa do veículo é compatível com o cadastro do Denatran e se há transferência de tinta no obstáculo atingido pelo veículo durante a sua saída da pista de rolamento.",
+      "B": "Verificar exclusivamente a calibração do tacógrafo e o disco-diagrama do veículo no momento do acidente.",
+      "C": "Verificar a sinalização da curva, a visibilidade, indícios de sonolência (ausência total de marcas, mesmo pós-saída) e se a velocidade era compatível com o raio da curva.",
+      "D": "Verificar somente o tempo de permanência do condutor no veículo e a duração da viagem prévia."
+    }
+  },
+  {
+    "id": 808,
+    "alternativas": {
+      "A": "A velocidade excessiva (causa única) ocorre quando o veículo ultrapassa o limite e se demonstra que, na velocidade regulamentar, o acidente não aconteceria; a inadequada, quando não ultrapassa o limite, mas é incompatível com as condições do momento.",
+      "B": "A velocidade excessiva aplica-se apenas e tão somente às vias urbanas dotadas de sinalização, ao passo que a velocidade inadequada aplica-se exclusivamente às rodovias federais e estaduais, conforme a respectiva classificação viária estabelecida pelo CTB.",
+      "C": "Velocidade excessiva e velocidade inadequada são sinônimos, ambas aplicáveis sempre que o veículo ultrapasse o limite da via.",
+      "D": "Ambas só se aplicam quando o perito também demonstra a alcoolemia do condutor, sem o que a causa não pode ser apontada."
+    }
+  },
+  {
+    "id": 809,
+    "alternativas": {
+      "A": "Exclusivamente a leitura do disco-diagrama do tacógrafo, sem necessidade de outras evidências.",
+      "B": "Marcas de frenagem do tipo gap-skid em ambos os veículos envolvidos e fragmentos de vidro e plástico centralizados sobre a faixa de domínio da pista preferencial.",
+      "C": "Apenas o depoimento das testemunhas presentes, dispensando-se análise dos vestígios físicos.",
+      "D": "Marcas de derrapagem iniciando em uma faixa e estendendo-se para outra, avarias laterais correspondentes e fragmentos na região de impacto."
+    }
+  },
+  {
+    "id": 810,
+    "alternativas": {
+      "A": "Identificar exclusivamente a placa do veículo evasor e correlacionar com o cadastro do Denatran.",
+      "B": "Identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (posição das avarias, SC e trajetórias) e verificar a sinalização.",
+      "C": "Calcular apenas a velocidade de impacto do veículo preferencial, sem necessidade de verificar a sinalização.",
+      "D": "Determinar desde logo a culpa jurídica do condutor que ingressou na via preferencial, indicando inclusive a tipificação penal aplicável ao caso concreto no laudo."
+    }
+  },
+  {
+    "id": 812,
+    "alternativas": {
+      "A": "Trafegar na contramão em via de sentido único com meios-fios e sinalização clara; avançar sobre a calçada; realizar sequência de colisões sem qualquer indicação de tentativa de parar.",
+      "B": "Veículo em ultrapassagem regular em local permitido com velocidade dentro do limite.",
+      "C": "Veículo com pneu careca em via molhada e com baixa visibilidade.",
+      "D": "Veículo trafegando em velocidade superior em apenas 5 km/h ao limite, em via de visibilidade plena, pista seca e sem a presença de quaisquer outros veículos ou pedestres nas imediações."
+    }
+  }
+]

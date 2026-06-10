@@ -1,0 +1,47 @@
+[
+  {
+    "id": 797,
+    "alternativas": {
+      "A": "Os sítios são pontos meramente teóricos, sem qualquer ligação direta com os vestígios materiais existentes no local, sendo definidos apenas a partir do depoimento prestado pelo condutor envolvido e das eventuais testemunhas presenciais.",
+      "B": "Os sítios são pontos-chave ao longo da trajetória dos veículos, representando momentos cruciais da sequência do acidente; reconstituí-los transforma medições de campo em conclusões periciais.",
+      "C": "A cadeia de sítios inicia-se no Sítio de Colisão e percorre apenas a trajetória pós-impacto, até o repouso final do veículo.",
+      "D": "A cadeia de sítios percorre exclusivamente o trecho entre o Sítio de Reação e o Sítio de Colisão, sendo os demais pontos irrelevantes para a perícia."
+    }
+  },
+  {
+    "id": 798,
+    "alternativas": {
+      "A": "Por ser subjetivo (processo mental), o SP não é identificado por vestígios físicos, devendo ser calculado retroativamente a partir dos demais sítios (SP = SR − dpr).",
+      "B": "O SP corresponde sempre ao início das marcas de frenagem visíveis no asfalto, em veículos com freios convencionais.",
+      "C": "O SP é identificado diretamente pelas marcas de derrapagem deixadas no pavimento da via, sendo considerado a âncora física de todo o processo de reconstituição do acidente.",
+      "D": "O SP é calculado somando-se ao Sítio de Reação a distância de frenagem, segundo SP = SR + dfre."
+    }
+  },
+  {
+    "id": 799,
+    "alternativas": {
+      "A": "Em manobras de desvio sem frenagem, o SR coincide obrigatoriamente com o Sítio de Colisão, pois nesse caso não há qualquer marca física registrada anteriormente ao ponto de impacto.",
+      "B": "Para veículos com ABS, o SR deve ser calculado retroativamente, pois o sistema impede a formação de qualquer vestígio físico identificável.",
+      "C": "O SR é sempre subjetivo, dependendo de uma estimativa mental do tempo de reação, não podendo ser identificado por vestígios materiais.",
+      "D": "Com ABS, o SR fica próximo ao início das marcas intermitentes; em veículos convencionais, ao início das marcas pretas; em desvio sem frenagem, na mudança de trajetória."
+    }
+  },
+  {
+    "id": 802,
+    "alternativas": {
+      "A": "O SC é identificado exclusivamente pela posição final de repouso dos veículos envolvidos no acidente, tal como constatada pela equipe de perícia ao chegar e isolar por completo o local.",
+      "B": "O SC é identificado pela convergência de evidências: mudança brusca das marcas, concentração de fragmentos, início de sulcagens, manchas de fluidos e correspondência com as avarias.",
+      "C": "O Sítio de Colisão e o sítio de impacto no veículo são conceitos equivalentes, podendo ser empregados indistintamente no laudo.",
+      "D": "O SC é uma área no veículo, correspondente à sede das avarias na carroceria, e não no pavimento."
+    }
+  },
+  {
+    "id": 803,
+    "alternativas": {
+      "A": "Como o SNE estaria a 50 m do SC e o SP estava a 36,45 m do ponto, conclui-se que o acidente seria inevitável mesmo na velocidade regulamentar de 60 km/h.",
+      "B": "O Sítio de Percepção encontra-se a 25 m do SC, coincidindo exatamente com o SNE calculado para a velocidade regulamentar.",
+      "C": "A velocidade absorvida na frenagem (Va) é ≈ 71,27 km/h e a velocidade no instante da colisão (Vic) é ≈ 36,34 km/h.",
+      "D": "O tempo de frenagem (tfre) calculado é de aproximadamente 2,55 s, o que comprova ausência de excesso de velocidade."
+    }
+  }
+]
