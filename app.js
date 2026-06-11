@@ -2115,20 +2115,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Ouve mensagens dos HTMLs carregados para ajustar a altura dinamicamente sem barra de rolagem
+    let resizeDebounce = null;
     window.addEventListener('message', (event) => {
         if (event.data && event.data.type === 'resize-iframe') {
             if (iframeContainer && iframeContainer.style.display !== 'none') {
                 const newHeight = event.data.height;
                 if (newHeight && newHeight > 50) {
-                    // Histerese "só cresce": evita o loop de redimensionamento (tremor)
-                    // causado pelo reflow da barra de rolagem. A altura nunca encolhe
-                    // dentro do mesmo capítulo; ao trocar de capítulo, lastHeight é
-                    // zerado (acima), permitindo medir o novo tamanho do zero.
-                    const last = parseFloat(iframe.dataset.lastHeight || '0');
-                    if (newHeight > last + 4) {
-                        iframe.dataset.lastHeight = String(newHeight);
+                    // Debounce: espera estabilizar antes de aplicar a altura
+                    clearTimeout(resizeDebounce);
+                    resizeDebounce = setTimeout(() => {
                         iframe.style.height = newHeight + 'px';
-                    }
+                    }, 150);
                 }
             }
         }

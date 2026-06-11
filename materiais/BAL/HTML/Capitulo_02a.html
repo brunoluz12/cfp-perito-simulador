@@ -384,21 +384,22 @@
 
 </div>
 <script>
-  function sendHeight() {
-    // Use the container's actual height, not scrollHeight which includes viewport
-    var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
-    var height = container.offsetHeight + 40; // 40px padding
-    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
-  }
-  window.addEventListener('load', function() {
-    // Small delay to ensure all images and styles are rendered
-    setTimeout(sendHeight, 100);
-  });
-  window.addEventListener('resize', sendHeight);
-  if (typeof MutationObserver !== 'undefined') {
-    var observer = new MutationObserver(sendHeight);
-    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
-  }
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
 </script>
 </body>
 </html>

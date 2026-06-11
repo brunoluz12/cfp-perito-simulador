@@ -3,24 +3,26 @@ const path = require('path');
 
 const materiaisDir = path.join(__dirname, 'materiais');
 
-const oldScriptPattern = /<script>\s*function sendHeight\(\)\s*\{[\s\S]*?<\/script>/g;
+// Match the entire sendHeight script block
+const oldScriptPattern = /<script>\s*\n?\s*function sendHeight\(\)\s*\{[\s\S]*?<\/script>/g;
 
 const newScript = `<script>
-  function sendHeight() {
-    // Use the container's actual height, not scrollHeight which includes viewport
-    var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
-    var height = container.offsetHeight + 40; // 40px padding
-    window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
-  }
-  window.addEventListener('load', function() {
-    // Small delay to ensure all images and styles are rendered
-    setTimeout(sendHeight, 100);
-  });
-  window.addEventListener('resize', sendHeight);
-  if (typeof MutationObserver !== 'undefined') {
-    var observer = new MutationObserver(sendHeight);
-    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
-  }
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
 </script>`;
 
 let totalFixed = 0;
@@ -36,23 +38,19 @@ function processDir(dir) {
             totalFiles++;
             let content = fs.readFileSync(fullPath, 'utf-8');
             if (oldScriptPattern.test(content)) {
-                oldScriptPattern.lastIndex = 0; // reset regex
+                oldScriptPattern.lastIndex = 0;
                 content = content.replace(oldScriptPattern, newScript);
                 fs.writeFileSync(fullPath, content, 'utf-8');
                 totalFixed++;
-                console.log('Fixed: ' + fullPath);
+                console.log('Fixed: ' + path.relative(__dirname, fullPath));
+            } else if (content.includes('sendHeight')) {
+                console.log('Has sendHeight but pattern miss: ' + path.relative(__dirname, fullPath));
             } else {
-                // Check if it has the sendHeight function at all
-                if (content.includes('sendHeight')) {
-                    console.log('Has sendHeight but pattern did not match: ' + fullPath);
-                } else {
-                    console.log('No sendHeight: ' + fullPath);
-                }
+                console.log('No sendHeight: ' + path.relative(__dirname, fullPath));
             }
         }
     }
 }
 
 processDir(materiaisDir);
-console.log('\nTotal HTML files: ' + totalFiles);
-console.log('Total fixed: ' + totalFixed);
+console.log('\\nTotal: ' + totalFiles + ', Fixed: ' + totalFixed);
