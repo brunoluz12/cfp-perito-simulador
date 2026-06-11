@@ -57,11 +57,10 @@ const questoesDB = [
       "A": "Se A é verdadeiro, então B também o é; A é verdadeiro; logo, B é verdadeiro.",
       "B": "Se A é verdadeiro, então B também o é; B é verdadeiro; logo, A é verdadeiro.",
       "C": "Se A é falso, então B é falso; A é falso; logo, B também é falso.",
-      "D": "Se A implica B e B implica C, então A implica C, independentemente de testes empíricos.",
-      "E": "Se A é verdadeiro, então B também o é; B não é verdadeiro; logo, A não é verdadeiro."
+      "D": "Se A é verdadeiro, então B também o é; B não é verdadeiro; logo, A não é verdadeiro."
     },
-    "resposta_correta": "E",
-    "justificativa": "O texto descreve o modus tollendo tollens nos seguintes termos: \"Se A é verdadeiro, então B também o é. B não é verdadeiro. Logo, A não é verdadeiro.\"",
+    "resposta_correta": "D",
+    "justificativa": "O texto descreve o modus tollendo tollens nos seguintes termos: 'Se A é verdadeiro, então B também o é. B não é verdadeiro. Logo, A não é verdadeiro.'",
     "referencia": "Cap. 3, Seção 3.1, p. 17"
   },
   {
@@ -106,11 +105,10 @@ const questoesDB = [
       "A": "Na ausência completa das fases de experimentação no senso comum, exclusivas da ciência.",
       "B": "No fato de o senso comum operar com hipóteses falseáveis, enquanto a ciência opera por intuição.",
       "C": "No fato de a ciência prescindir da etapa de delimitação do problema, presente apenas no senso comum.",
-      "D": "Na natureza dos objetos investigados, restrita a fenômenos físicos no caso da ciência.",
-      "E": "No grau de formalização, no rigor metodológico e na pretensão de generalização dos resultados."
+      "D": "No grau de formalização, no rigor metodológico e na pretensão de generalização dos resultados."
     },
-    "resposta_correta": "E",
-    "justificativa": "O texto conclui: \"embora senso comum e ciência compartilhem a mesma estrutura lógica fundamental (a passagem de uma situação problemática à sua resolução), distinguem-se quanto ao grau de formalização, ao rigor metodológico e à pretensão de generalização dos resultados\".",
+    "resposta_correta": "D",
+    "justificativa": "O texto conclui: 'embora senso comum e ciência compartilhem a mesma estrutura lógica fundamental (a passagem de uma situação problemática à sua resolução), distinguem-se quanto ao grau de formalização, ao rigor metodológico e à pretensão de generalização dos resultados'.",
     "referencia": "Cap. 3, Seção 3.2, p. 20"
   },
   {
@@ -187,10 +185,9 @@ const questoesDB = [
       "A": "Investigação criminal e investigação policial são expressões sinônimas, podendo ser empregadas indistintamente.",
       "B": "Investigação policial é o gênero, do qual investigação criminal seria uma espécie mais ampla, abrangendo o Ministério Público.",
       "C": "Não há distinção doutrinária entre as expressões, sendo a diferenciação apenas de cunho processual.",
-      "D": "A investigação policial é atividade exclusiva do Ministério Público, enquanto a investigação criminal cabe à polícia judiciária.",
-      "E": "Investigação criminal designa a atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos como o Ministério Público; já investigação policial é mais restrita e técnica, referindo-se especificamente à atuação da polícia judiciária."
+      "D": "Investigação criminal designa a atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos como o Ministério Público; já investigação policial é mais restrita e técnica, referindo-se especificamente à atuação da polícia judiciária."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma: 'A expressão investigação criminal designa a atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos, como o Ministério Público. Já o termo investigação policial é mais restrito e técnico, referindo-se especificamente à atuação da polícia judiciária'.",
     "referencia": "Cap. 4, Seção 4.1, p. 29"
   },
@@ -236,10 +233,9 @@ const questoesDB = [
       "A": "O princípio impõe a celeridade absoluta, ainda que em prejuízo da qualidade da apuração.",
       "B": "Relaciona-se exclusivamente à dimensão financeira, sem qualquer projeção sobre a dimensão temporal da investigação.",
       "C": "Impõe o uso máximo de recursos disponíveis, a fim de demonstrar o empenho institucional na apuração.",
-      "D": "Veda o uso de meios tecnológicos, por implicarem desperdício de recursos públicos.",
-      "E": "Atua como critério de equilíbrio entre celeridade e qualidade da apuração, projetando-se também sobre a dimensão temporal e exigindo prazo razoável compatível com a complexidade do caso."
+      "D": "Atua como critério de equilíbrio entre celeridade e qualidade da apuração, projetando-se também sobre a dimensão temporal e exigindo prazo razoável compatível com a complexidade do caso."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto descreve a economicidade como 'critério de equilíbrio entre celeridade e qualidade da apuração' e afirma que 'a economicidade também se projeta sobre a dimensão temporal da investigação: os procedimentos devem ser conduzidos dentro de um prazo razoável, compatível com a complexidade do caso'.",
     "referencia": "Cap. 4, Seção 4.2.2, p. 31-32"
   },
@@ -269,10 +265,9 @@ const questoesDB = [
       "A": "Basta que a diligência esteja formalmente autorizada por lei para que sua adoção seja considerada legítima.",
       "B": "Esses princípios são aplicáveis apenas quando há reserva de jurisdição, não incidindo sobre diligências dispensáveis de autorização judicial.",
       "C": "A necessidade exige a adoção da medida mais invasiva possível, a fim de obter o maior número de elementos probatórios.",
-      "D": "A proporcionalidade em sentido estrito refere-se ao tempo total da investigação, não à comparação entre benefícios e ônus.",
-      "E": "A proporcionalidade tradicionalmente desdobra-se em três dimensões: adequação, necessidade e proporcionalidade em sentido estrito, e o princípio da necessidade impõe a escolha do meio menos invasivo dentre os disponíveis e eficazes."
+      "D": "A proporcionalidade tradicionalmente desdobra-se em três dimensões: adequação, necessidade e proporcionalidade em sentido estrito, e o princípio da necessidade impõe a escolha do meio menos invasivo dentre os disponíveis e eficazes."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto explicita que a proporcionalidade 'desdobra-se em três dimensões: adequação... necessidade... e proporcionalidade em sentido estrito' e que 'O princípio da necessidade... impõe a escolha do meio menos invasivo dentre aqueles disponíveis e eficazes para atingir o resultado almejado'.",
     "referencia": "Cap. 4, Seção 4.2.7, p. 33-34"
   },
@@ -302,10 +297,9 @@ const questoesDB = [
       "A": "A exclusividade impede o controle externo da atividade policial pelo Ministério Público.",
       "B": "A investigação policial pode ser delegada a entidades privadas, desde que sob fiscalização do delegado de polícia.",
       "C": "Apenas a Polícia Federal detém atribuição constitucional exclusiva para investigar quaisquer infrações penais.",
-      "D": "O princípio admite a delegação das atividades investigativas a corporações com atribuições de segurança privada.",
-      "E": "A função investigativa é exercida com exclusividade pelos órgãos de polícia judiciária — Polícia Federal e Polícias Civis — conforme previsto na Constituição e nas leis processuais, não podendo ser transferida a entidades privadas."
+      "D": "A função investigativa é exercida com exclusividade pelos órgãos de polícia judiciária — Polícia Federal e Polícias Civis — conforme previsto na Constituição e nas leis processuais, não podendo ser transferida a entidades privadas."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto estabelece: 'A investigação policial constitui função típica do Estado e é exercida, com exclusividade, pelos órgãos de polícia judiciária — Polícia Federal e Polícias Civis, conforme previsto na Constituição e nas leis processuais. Essa competência não pode ser delegada... tampouco transferida a entidades privadas'.",
     "referencia": "Cap. 4, Seção 4.2.5, p. 33"
   },
@@ -431,10 +425,9 @@ const questoesDB = [
       "A": "O confisco alargado é instituto exclusivamente brasileiro, sem qualquer paralelo no direito comparado europeu.",
       "B": "A Convenção de Mérida tratou apenas da tipificação da corrupção, sem disciplinar a recuperação de ativos.",
       "C": "O confisco alargado dispensa qualquer investigação patrimonial, bastando indícios mínimos para sua aplicação imediata.",
-      "D": "A recuperação de ativos, no plano internacional, foi expressamente proibida pela Convenção de Mérida em prol da proteção patrimonial dos investigados.",
-      "E": "O confisco alargado permite alcançar patrimônio incongruente com a renda lícita do condenado, ainda que não demonstrada sua vinculação direta com fato criminoso específico, e foi incorporado em sintonia com a Convenção de Mérida; mecanismo já adotado em diversos países europeus."
+      "D": "O confisco alargado permite alcançar patrimônio incongruente com a renda lícita do condenado, ainda que não demonstrada sua vinculação direta com fato criminoso específico, e foi incorporado em sintonia com a Convenção de Mérida; mecanismo já adotado em diversos países europeus."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto diz: 'a centralidade da recuperação de ativos foi reafirmada pela Convenção de Mérida' e 'o ordenamento jurídico brasileiro incorporou instrumentos de descapitalização mais sofisticados, como o confisco alargado (art. 91-A do Código Penal), já adotado em diversos países europeus. Esse modelo permite alcançar patrimônio incongruente com a renda lícita do condenado, ainda que não demonstrada sua vinculação direta com um fato criminoso específico'.",
     "referencia": "Cap. 4, Seção 4.4.1, p. 42"
   },
@@ -640,10 +633,9 @@ const questoesDB = [
       "A": "Prévia requisição do Ministério Público, mesmo nos crimes incondicionados.",
       "B": "Representação expressa do ofendido como condição de procedibilidade.",
       "C": "Autorização judicial prévia, em razão da reserva de jurisdição investigativa.",
-      "D": "Manifestação favorável da chefia da unidade policial competente.",
-      "E": "Presença de elementos mínimos de plausibilidade, consubstanciados na justa causa."
+      "D": "Presença de elementos mínimos de plausibilidade, consubstanciados na justa causa."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "Conforme p. 58: 'impõe-se à autoridade policial o dever jurídico de instaurar o inquérito policial assim que tomar conhecimento de fato que, em tese, configure infração penal, desde que presentes elementos mínimos de plausibilidade, consubstanciados na denominada justa causa'.",
     "referencia": "Cap. 5, Seção 5.3, p. 58"
   },
@@ -657,10 +649,9 @@ const questoesDB = [
       "A": "Somente pode gerar instauração mediante prévia autorização judicial específica.",
       "B": "Por si só, é suficiente para a instauração imediata do inquérito policial, conforme entendimento do STF e do STJ.",
       "C": "Deve ser sempre descartada de plano, em razão da ausência de identificação do informante.",
-      "D": "Equipara-se à requisição do Ministério Público, possuindo natureza impositiva à autoridade policial.",
-      "E": "Não é suficiente, por si só, para instaurar o inquérito, sendo cabível verificação preliminar da procedência das informações."
+      "D": "Não é suficiente, por si só, para instaurar o inquérito, sendo cabível verificação preliminar da procedência das informações."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "Conforme p. 60: 'A notícia anônima, por si só, não é suficiente para instaurar inquérito policial, conforme entendimento consolidado no STF e no STJ. Ainda assim, ela não deve ser descartada de plano [...] A providência adequada é a verificação preliminar da procedência das informações'.",
     "referencia": "Cap. 5, Seção 5.3, p. 60"
   },
@@ -674,10 +665,9 @@ const questoesDB = [
       "A": "Possui natureza meramente sugestiva, podendo ser livremente descumprida pelo Delegado.",
       "B": "Substitui o requerimento do ofendido em todos os crimes de ação penal pública condicionada.",
       "C": "Vincula a autoridade policial sem qualquer possibilidade de discordância, ainda que se trate de fato evidentemente atípico.",
-      "D": "Exige sempre prévia autorização do Procurador-Geral para ser dirigida à Polícia Federal.",
-      "E": "Possui natureza impositiva, mas o Delegado pode se abster de instaurar quando houver ilegalidade manifesta, comunicando fundamentadamente as razões."
+      "D": "Possui natureza impositiva, mas o Delegado pode se abster de instaurar quando houver ilegalidade manifesta, comunicando fundamentadamente as razões."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "Conforme p. 59: 'a requisição possui natureza impositiva, razão pela qual, em regra, não pode ser ignorada pela autoridade policial. Todavia, quando a ilegalidade for manifesta [...] é legítimo que o Delegado se abstenha de instaurar o inquérito, comunicando ao requisitante, de forma fundamentada, as razões da impossibilidade jurídica de prosseguimento'.",
     "referencia": "Cap. 5, Seção 5.3, p. 59"
   },
@@ -707,10 +697,9 @@ const questoesDB = [
       "A": "A função de filtro processual contra acusações infundadas.",
       "B": "A função simbólica de reafirmação da confiança pública nas instituições.",
       "C": "A função de subsidiar exclusivamente o titular da ação penal na denúncia.",
-      "D": "A função de promover a redução da violência social e a paz pública.",
-      "E": "A busca pela elucidação de um fato oculto, supostamente criminoso, com a adequada reconstrução histórica."
+      "D": "A busca pela elucidação de um fato oculto, supostamente criminoso, com a adequada reconstrução histórica."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "Conforme p. 62: 'Por fim, a terceira dimensão — considerada nuclear — consiste na busca pela elucidação de um fato oculto, supostamente criminoso, com a adequada reconstrução histórica de suas circunstâncias pessoais e patrimoniais'.",
     "referencia": "Cap. 5, Seção 5.4, p. 62"
   },
@@ -868,10 +857,9 @@ const questoesDB = [
       "A": "Procedimento legislativo, em razão da possibilidade de instauração por requisição parlamentar.",
       "B": "Exclusivamente judicial, equiparado a processo em razão da incidência do contraditório pleno.",
       "C": "Exclusivamente administrativo, sendo-lhe plenamente aplicável a Lei nº 9.784/99.",
-      "D": "Processo civil de natureza preparatória, regido pelo CPC.",
-      "E": "Híbrida: procedimento administrativo (pela autoridade que o preside) e procedimento penal (pela legislação que o regulamenta)."
+      "D": "Híbrida: procedimento administrativo (pela autoridade que o preside) e procedimento penal (pela legislação que o regulamenta)."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "Conforme p. 73: 'O inquérito policial possui natureza jurídica híbrida' — sob a perspectiva da autoridade que o preside, 'possui natureza jurídica de procedimento administrativo'; sob a perspectiva da legislação que o regulamenta, 'também possui natureza jurídica de procedimento penal'.",
     "referencia": "Cap. 5, Seção 5.6, p. 73"
   },
@@ -1029,10 +1017,9 @@ const questoesDB = [
       "A": "depende sempre de decisão de órgão colegiado, à semelhança da magistratura e do Ministério Público.",
       "B": "permite a remoção arbitrária do delegado a qualquer tempo, independentemente de motivação.",
       "C": "veda totalmente qualquer deslocamento do delegado, sendo prerrogativa absoluta da autoridade policial.",
-      "D": "encontra previsão expressa na Constituição Federal, podendo ser afastada apenas por emenda constitucional.",
-      "E": "não possui estatura constitucional e a legislação não exige deliberação por órgão colegiado para a efetivação da remoção, salvo nas hipóteses vinculadas à apuração de infração disciplinar."
+      "D": "não possui estatura constitucional e a legislação não exige deliberação por órgão colegiado para a efetivação da remoção, salvo nas hipóteses vinculadas à apuração de infração disciplinar."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto explica: 'A relatividade dessa inamovibilidade manifesta-se sob dois aspectos centrais. Primeiro, porque não possui estatura constitucional. Segundo, porque a legislação não exige deliberação por órgão colegiado para a efetivação da remoção, salvo nas hipóteses em que a medida esteja vinculada à apuração de infração disciplinar'.",
     "referencia": "Cap. 5, Seção 5.10, p. 80"
   },
@@ -1254,11 +1241,10 @@ const questoesDB = [
       "A": "constitui usurpação da função pericial e enseja nulidade do procedimento investigativo.",
       "B": "é vedada em qualquer hipótese, pois somente o Perito Criminal Federal pode analisar elementos de natureza técnica.",
       "C": "substitui integralmente o exame pericial nas investigações conduzidas pela Polícia Federal.",
-      "D": "depende sempre de autorização judicial específica para cada análise realizada.",
-      "E": "pode ser legitimamente conduzida nas situações em que a perícia formal não for imperativa, sob a direção do delegado e no âmbito de suas atribuições gerais, resultando em documentos internos como informações de polícia judiciária."
+      "D": "pode ser legitimamente conduzida nas situações em que a perícia formal não for imperativa, sob a direção do delegado e no âmbito de suas atribuições gerais, resultando em documentos internos como informações de polícia judiciária."
     },
-    "resposta_correta": "E",
-    "justificativa": "Conforme o texto: 'a \"análise\" de elementos de interesse, que não demandem expertise técnico-científica formal ou certificação pericial, pode ser legitimamente conduzida por Escrivães e Agentes nas situações em que a perícia formal não for imperativa.' E ainda: '(eles) podem, sob a direção do delegado e no âmbito de suas atribuições gerais, examinar dados e informações atinentes à investigação. Essa análise resulta na elaboração de documentos internos, como informações de polícia judiciária'.",
+    "resposta_correta": "D",
+    "justificativa": "Conforme o texto: 'a análise de elementos de interesse, que não demandem expertise técnico-científica formal ou certificação pericial, pode ser legitimamente conduzida por Escrivães e Agentes nas situações em que a perícia formal não for imperativa.' Ademais: '(eles) podem, sob a direção do delegado e no âmbito de suas atribuições gerais, examinar dados e informações atinentes à investigação. Essa análise resulta na elaboração de documentos internos, como informações de polícia judiciária'.",
     "referencia": "Cap. 5, Seção 5.16, p. 93"
   },
   {
@@ -1271,11 +1257,10 @@ const questoesDB = [
       "A": "os cargos devem ser compreendidos como compartimentos estanques, isolados em suas funções específicas, para evitar usurpação de atribuições.",
       "B": "a Lei nº 9.266/1996 exige formação específica para todos os cargos da carreira policial federal.",
       "C": "a multiplicidade de saberes é dispensável, pois a investigação se desenvolve no trabalho solitário do delegado.",
-      "D": "apenas o delegado e o perito criminal possuem autonomia técnica para contribuir com a investigação, cabendo aos demais cargos apenas funções burocráticas.",
-      "E": "os cargos não devem ser compreendidos como compartimentos estanques, isolados em suas funções específicas, mas como partes integrantes de um mesmo organismo vivo, que só alcança sua plena eficiência quando todas as engrenagens se movem em harmonia."
+      "D": "os cargos não devem ser compreendidos como compartimentos estanques, isolados em suas funções específicas, mas como partes integrantes de um mesmo organismo vivo, que só alcança sua plena eficiência quando todas as engrenagens se movem em harmonia."
     },
-    "resposta_correta": "E",
-    "justificativa": "Conforme o texto: 'os cargos que não devem ser compreendidos como compartimentos estanques, isolados em suas funções específicas, mas como partes integrantes de um mesmo organismo vivo, que só alcança sua plena eficiência quando todas as engrenagens se movem em harmonia.'",
+    "resposta_correta": "D",
+    "justificativa": "Conforme o texto: 'os cargos não devem ser compreendidos como compartimentos estanques, isolados em suas funções específicas, mas como partes integrantes de um mesmo organismo vivo, que só alcança sua plena eficiência quando todas as engrenagens se movem em harmonia.'",
     "referencia": "Cap. 5, Seção 5.17, p. 96"
   },
   {
@@ -1320,10 +1305,9 @@ const questoesDB = [
       "A": "cabe ao Ministério Público dirigir a investigação conduzida pela autoridade policial, definindo a estratégia probatória.",
       "B": "as diligências sugeridas pelo Ministério Público possuem caráter vinculante durante todo o curso da investigação, devendo o delegado cumpri-las sem ressalvas.",
       "C": "o Ministério Público pode substituir o delegado na condução estratégica da investigação sempre que entender necessário.",
-      "D": "compete ao Ministério Público presidir o inquérito policial nos crimes de competência da Polícia Federal.",
-      "E": "a atuação do Ministério Público dá-se primordialmente por meio do controle externo da atividade policial, exercido na condição de fiscal da lei, não lhe cabendo dirigir a investigação, mas verificar sua regularidade."
+      "D": "a atuação do Ministério Público dá-se primordialmente por meio do controle externo da atividade policial, exercido na condição de fiscal da lei, não lhe cabendo dirigir a investigação, mas verificar sua regularidade."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "Conforme o texto: 'No que concerne ao Ministério Público, sua atuação no inquérito policial dá-se primordialmente por meio do controle externo da atividade policial, exercido na condição de fiscal da lei (custos legis). Não lhe cabe dirigir a investigação conduzida pela autoridade policial, mas verificar sua regularidade'.",
     "referencia": "Cap. 5, Seção 5.18, p. 97"
   },
@@ -1369,10 +1353,9 @@ const questoesDB = [
       "A": "o arquivamento sempre produz coisa julgada material, impedindo qualquer reabertura de investigação.",
       "B": "o arquivamento depende sempre de decisão do delegado de polícia, sem participação do Ministério Público ou do Judiciário.",
       "C": "a Súmula 524 do STF foi superada pelo Pacote Anticrime, não mais se aplicando ao arquivamento do inquérito policial.",
-      "D": "após o arquivamento judicial, o delegado poderá prosseguir nas investigações independentemente do surgimento de novas provas.",
-      "E": "o arquivamento, como regra, não faz coisa julgada material; contudo, o STF reconhece coisa julgada material quando o arquivamento estiver fundado na atipicidade da conduta, e o STJ amplia essa compreensão também para hipóteses de excludente de ilicitude."
+      "D": "o arquivamento, como regra, não faz coisa julgada material; contudo, o STF reconhece coisa julgada material quando o arquivamento estiver fundado na atipicidade da conduta, e o STJ amplia essa compreensão também para hipóteses de excludente de ilicitude."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "Conforme o texto: 'O arquivamento, como regra, não faz coisa julgada material. Contudo, o STF reconhece que haverá coisa julgada material quando o arquivamento estiver fundado na atipicidade da conduta; o STJ amplia essa compreensão também para hipóteses de excludente de ilicitude.' Ademais, conforme o art. 18 do CPP, 'o Delegado não poderá prosseguir nas investigações sem o surgimento de novas provas'.",
     "referencia": "Cap. 5, Seção 5.19, p. 100"
   },
@@ -1386,11 +1369,10 @@ const questoesDB = [
       "A": "trata-se de dom inato, intransmissível, que apenas alguns policiais possuem por afinidade natural com a curiosidade investigativa.",
       "B": "é função exclusiva do Ministério Público, cabendo à polícia apenas a execução de ordens recebidas pelo titular da ação penal.",
       "C": "consiste em um trilho rígido a ser seguido pelo investigador, sem espaço para indução ou criatividade diante de cenários inusitados.",
-      "D": "dispensa o raciocínio lógico-dedutivo, privilegiando a intuição e o tirocínio empírico do policial experiente.",
-      "E": "é uma atividade técnica pautada em ações aprendidas, sendo o ponto de partida do estudo a afirmação de que a investigação policial é algo que pode ser aprendido."
+      "D": "é uma atividade técnica pautada em ações aprendidas, sendo o ponto de partida do estudo a afirmação de que a investigação policial é algo que pode ser aprendido."
     },
-    "resposta_correta": "E",
-    "justificativa": "Conforme o item 6.2, a investigação policial é \"uma atividade técnica pautada em um conjunto de ações que são aprendidas pelo Policial Federal\", e \"o ponto de partida deste estudo é afirmar que investigação policial é algo que pode ser aprendido\".",
+    "resposta_correta": "D",
+    "justificativa": "Conforme o item 6.2, a investigação policial é 'uma atividade técnica pautada em um conjunto de ações que são aprendidas pelo Policial Federal', e 'o ponto de partida deste estudo é afirmar que investigação policial é algo que pode ser aprendido'.",
     "referencia": "Cap. 6, Seção 6.2, p. 101"
   },
   {
@@ -1419,11 +1401,10 @@ const questoesDB = [
       "A": "O policial deve vincular-se rigidamente ao tipo penal inicialmente fixado na portaria ou no auto de prisão em flagrante, sob pena de nulidade.",
       "B": "A coleta de informações deve ser indiscriminada nas fases iniciais, garantindo amplo acervo probatório, ainda que sem qualquer relação com o fato.",
       "C": "A análise abstrata da subsunção típica é fase definitiva e imutável, não podendo sofrer alteração após a portaria de instauração.",
-      "D": "A hipótese criminal deve ser obrigatoriamente enunciada formalmente no inquérito policial, sob pena de invalidade do procedimento.",
-      "E": "Dada a adaptabilidade da investigação, o policial não deve se prender ao tipo penal inicialmente fixado, devendo focar no fato penalmente relevante apresentado à análise."
+      "D": "Dada a adaptabilidade da investigação, o policial não deve se prender ao tipo penal inicialmente fixado, devendo focar no fato penalmente relevante apresentado à análise."
     },
-    "resposta_correta": "E",
-    "justificativa": "O item 6.3 estabelece que \"o policial não deve se prender ao tipo penal inicialmente fixado na portaria ou no auto de prisão em flagrante\" e que \"o foco do policial deverá ser sempre no fato penalmente relevante colocado à sua análise\", sendo que a enunciação formal da hipótese criminal não é obrigatória.",
+    "resposta_correta": "D",
+    "justificativa": "O item 6.3 estabelece que 'o policial não deve se prender ao tipo penal inicialmente fixado na portaria ou no auto de prisão em flagrante' e que 'o foco do policial deverá ser sempre no fato penalmente relevante colocado à sua análise', sendo que a enunciação formal da hipótese criminal não é obrigatória.",
     "referencia": "Cap. 6, Seção 6.3, p. 104"
   },
   {
@@ -1436,11 +1417,10 @@ const questoesDB = [
       "A": "exclusivamente os bens apreendidos por mandado judicial expedido durante o inquérito policial.",
       "B": "apenas os vestígios materiais coletados em cena de crime por peritos criminais federais.",
       "C": "somente os documentos e dados digitais formalmente arrecadados durante diligências de busca e apreensão.",
-      "D": "todo e qualquer dado coletado pela polícia, ainda que sem vínculo potencial com o fato apurado.",
-      "E": "os bens, vestígios, dados e informações arrecadados, apreendidos, coletados, derivados ou apresentados no curso do inquérito policial que possam contribuir para a identificação do autor ou para a comprovação da materialidade do delito."
+      "D": "os bens, vestígios, dados e informações arrecadados, apreendidos, coletados, derivados ou apresentados no curso do inquérito policial que possam contribuir para a identificação do autor ou para a comprovação da materialidade do delito."
     },
-    "resposta_correta": "E",
-    "justificativa": "O item 6.3 dispõe que, conforme a IN nº 255/2023, consideram-se elementos de interesse \"os bens, vestígios, dados e informações arrecadados, apreendidos, coletados, derivados ou apresentados no curso do inquérito policial (...) que possam contribuir para a identificação do autor ou para a comprovação da materialidade do delito\".",
+    "resposta_correta": "D",
+    "justificativa": "O item 6.3 dispõe que, conforme a IN nº 255/2023, consideram-se elementos de interesse 'os bens, vestígios, dados e informações arrecadados, apreendidos, coletados, derivados ou apresentados no curso do inquérito policial (...) que possam contribuir para a identificação do autor ou para a comprovação da materialidade do delito'.",
     "referencia": "Cap. 6, Seção 6.3, p. 104-105"
   },
   {
@@ -1581,11 +1561,10 @@ const questoesDB = [
       "A": "como a hipótese é provisória, é irrelevante que seja ancorada em fatos consistentes, bastando que seja plausível para o investigador.",
       "B": "nos estágios iniciais a hipótese substitui o tipo penal, dispensando posterior análise de subsunção típica.",
       "C": "a hipótese deve sempre ser baseada em estereótipos confiáveis sobre o perfil do autor do crime.",
-      "D": "o investigador deve preencher as lacunas com suposições para que a investigação não permaneça paralisada por ausência de cenário definido.",
-      "E": "hipóteses formuladas prematuramente, com base em dados frágeis, podem degenerar em meras conjecturas influenciadas por impressões pessoais ou estereótipos."
+      "D": "hipóteses formuladas prematuramente, com base em dados frágeis, podem degenerar em meras conjecturas influenciadas por impressões pessoais ou estereótipos."
     },
-    "resposta_correta": "E",
-    "justificativa": "O item 6.6 adverte que, nos estágios iniciais, \"Hipóteses formuladas prematuramente, com base em dados frágeis, podem degenerar em meras conjecturas influenciadas por impressões pessoais ou estereótipos, desviando o rumo da apuração\".",
+    "resposta_correta": "D",
+    "justificativa": "O item 6.6 adverte que, nos estágios iniciais, 'Hipóteses formuladas prematuramente, com base em dados frágeis, podem degenerar em meras conjecturas influenciadas por impressões pessoais ou estereótipos, desviando o rumo da apuração'.",
     "referencia": "Cap. 6, Seção 6.6, p. 112"
   },
   {
@@ -1742,10 +1721,9 @@ const questoesDB = [
       "A": "constituem compartimentos estanques e categorias excludentes, vedada a alternância entre eles no mesmo inquérito.",
       "B": "a investigação reativa só pode ser empregada após o esgotamento da via proativa, em caráter subsidiário.",
       "C": "a coexistência dos dois métodos no mesmo procedimento gera nulidade processual, por violação à ampla defesa.",
-      "D": "a investigação reativa não admite, em nenhuma hipótese, o emprego de técnicas de investigação encoberta.",
-      "E": "podem se sobrepor e complementar, sendo a definição entre um ou outro decorrente das circunstâncias fáticas, da disponibilidade de informações e da finalidade buscada."
+      "D": "podem se sobrepor e complementar, sendo a definição entre um ou outro decorrente das circunstâncias fáticas, da disponibilidade de informações e da finalidade buscada."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma que 'os dois métodos de investigação, proativa e reativa, podem se sobrepor' e que 'não devem ser compreendidos como compartimentos estanques ou categorias excludentes, mas como estratégias metodológicas que se complementam', decorrendo a definição 'das circunstâncias fáticas, da disponibilidade de informações e da finalidade buscada'.",
     "referencia": "Cap. 7, Seção 7.1.1, p. 123"
   },
@@ -1791,10 +1769,9 @@ const questoesDB = [
       "A": "a investigação deve ser conduzida no ritmo mais lento possível, a fim de assegurar a maturação da prova.",
       "B": "as decisões investigativas só podem ser tomadas após autorização judicial expressa, mesmo em situações de urgência.",
       "C": "a oportunidade de investigar caduca em 24 horas após o fato, devendo, depois disso, o caso ser arquivado.",
-      "D": "deve haver delonga calculada antes da chegada ao local de crime, para permitir reflexão sobre a melhor abordagem.",
-      "E": "o tempo é precioso para alcançar o máximo de informações sobre autoria, materialidade e circunstâncias do crime, pois essas informações vão desaparecendo ao longo do tempo."
+      "D": "o tempo é precioso para alcançar o máximo de informações sobre autoria, materialidade e circunstâncias do crime, pois essas informações vão desaparecendo ao longo do tempo."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto registra que 'no âmbito policial, o princípio da oportunidade prega que o tempo é precioso para alcançar o máximo de informações possíveis sobre a autoria, materialidade e circunstâncias de um crime, pois essas informações irão desaparecendo ao longo do tempo'.",
     "referencia": "Cap. 7, Seção 7.1.2, p. 125-126"
   },
@@ -1936,11 +1913,10 @@ const questoesDB = [
       "A": "centrar-se na utilização imediata de mandados de busca e apreensão, em detrimento de qualquer fase velada.",
       "B": "vincular-se à investigação patrimonial paralela, sob a lógica do 'follow the money'.",
       "C": "dispensar a fase de análise, em favor de ações operacionais imediatas e descoordenadas.",
-      "D": "consistir em um modelo de investigação puramente reativa, sem qualquer base em inteligência.",
-      "E": "promover o prolongamento da fase encoberta da investigação, com intensivo emprego de procedimentos como a interceptação telefônica, alargando-se a fase de análise."
+      "D": "promover o prolongamento da fase encoberta da investigação, com intensivo emprego de procedimentos como a interceptação telefônica, alargando-se a fase de análise."
     },
-    "resposta_correta": "E",
-    "justificativa": "O texto afirma que essa estratégia, considerada de 1ª. Geração (SILVA, 2017), 'foi muito influenciada pelas doutrinas de inteligência (Ciclo de Produção de Conhecimento) com intensivo emprego de procedimentos de técnicas como interceptação telefônica' e que 'há um alargamento da fase de análise, procurando obter elementos de prova para só então se executar a ação'.",
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que essa estratégia, considerada de 1ª Geração (SILVA, 2017), 'foi muito influenciada pelas doutrinas de inteligência (Ciclo de Produção de Conhecimento) com intensivo emprego de procedimentos de técnicas como interceptação telefônica' e que 'há um alargamento da fase de análise, procurando obter elementos de prova para só então se executar a ação'.",
     "referencia": "Cap. 7, Seção 7.2.3, p. 133"
   },
   {
@@ -1985,10 +1961,9 @@ const questoesDB = [
       "A": "uma criação doutrinária brasileira do Ministério Público Federal, posteriormente difundida à Polícia Federal.",
       "B": "uma exigência legal expressa do Código de Processo Penal de 1941.",
       "C": "uma diretriz exclusiva da NPIA britânica, equivalente ao Core Investigative Doctrine.",
-      "D": "um protocolo internacional vinculante editado pelas Nações Unidas.",
-      "E": "uma metodologia originária da atuação das Forças Armadas americanas, adequada à realidade da investigação policial e ao Estado democrático de direito."
+      "D": "uma metodologia originária da atuação das Forças Armadas americanas, adequada à realidade da investigação policial e ao Estado democrático de direito."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto registra que a origem do F3EAD 'remonta à atuação das Forças Armadas americanas' e que 'o método F3EAD adaptado tem sua origem justamente na adequação do método F3EAD à realidade da investigação policial e ao Estado democrático de direito'.",
     "referencia": "Cap. 7, Seção 7.3, p. 135-136"
   },
@@ -2050,10 +2025,9 @@ const questoesDB = [
       "A": "a privação da liberdade, isoladamente, basta para desarticular estruturas criminosas sofisticadas.",
       "B": "o rastreamento financeiro deve ocorrer apenas após o trânsito em julgado da sentença condenatória.",
       "C": "a investigação patrimonial só é cabível em crimes contra o sistema financeiro nacional.",
-      "D": "o foco da persecução penal deve recair exclusivamente sobre os executores diretos das infrações.",
-      "E": "a neutralização dos fluxos financeiros ilícitos constitui estratégia essencial de enfraquecimento estrutural das redes criminosas, atuando como instrumento de descapitalização do crime."
+      "D": "a neutralização dos fluxos financeiros ilícitos constitui estratégia essencial de enfraquecimento estrutural das redes criminosas, atuando como instrumento de descapitalização do crime."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma que, sob a lógica do 'follow the money', 'a neutralização dos fluxos financeiros ilícitos constitui estratégia essencial de enfraquecimento estrutural das redes criminosas' e atua como 'instrumento concreto de descapitalização do crime, impedindo o reinvestimento dos ativos em novas práticas ilícitas'.",
     "referencia": "Cap. 7, Seção 7.4, p. 137-138"
   },
@@ -2131,10 +2105,9 @@ const questoesDB = [
       "A": "trata-se de espécie de delação premiada admitida apenas em crimes contra o sistema financeiro.",
       "B": "dispensa qualquer análise de proporcionalidade entre a medida cautelar e o crime investigado.",
       "C": "corresponde à fase de exploração de dados (exploit) do método F3EAD adaptado.",
-      "D": "consiste no encaminhamento dos autos ao Ministério Público para oferecimento da denúncia.",
-      "E": "corresponde ao vínculo entre o patrimônio identificado e o produto/proveito do crime investigado, cuja demonstração é essencial para garantir a proporcionalidade e necessidade das medidas cautelares."
+      "D": "corresponde ao vínculo entre o patrimônio identificado e o produto/proveito do crime investigado, cuja demonstração é essencial para garantir a proporcionalidade e necessidade das medidas cautelares."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto explica que 'esse vínculo entre o patrimônio identificado e o produto/proveito do crime investigado é conhecido na doutrina e jurisprudência como referibilidade' e que 'a demonstração dessa referibilidade é essencial para garantir a proporcionalidade e a necessidade das medidas cautelares'.",
     "referencia": "Cap. 7, Seção 7.4.1, p. 146"
   },
@@ -2324,10 +2297,9 @@ const questoesDB = [
       "A": "Os indicadores setoriais correspondem a 80% e os transversais a 20%.",
       "B": "Os indicadores são definidos individualmente por cada unidade, sem percentual fixo.",
       "C": "Ambos os indicadores correspondem a 50% cada.",
-      "D": "Apenas os indicadores transversais são considerados no índice final.",
-      "E": "Os indicadores transversais correspondem a 80% e os setoriais a 20%."
+      "D": "Os indicadores transversais correspondem a 80% e os setoriais a 20%."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O caderno afirma: '(i) os indicadores transversais, os quais correspondem a 80% (oitenta por cento) do índice (...); (ii) os indicadores setoriais, que representam 20% (vinte por cento) do índice'.",
     "referencia": "Cap. 8, Seção 8.3, p. 157"
   },
@@ -2341,10 +2313,9 @@ const questoesDB = [
       "A": "O cumprimento de medidas investigativas sigilosas (ex.: interceptação telefônica) é, por si só, suficiente para caracterizar uma operação.",
       "B": "Toda investigação que envolva quebra de sigilo bancário é automaticamente considerada operação.",
       "C": "Apenas as operações coordenadas com a Polícia Civil estadual são contabilizadas.",
-      "D": "Operações somente existem após autorização expressa do Diretor-Geral.",
-      "E": "O cumprimento de mandados de medidas investigativas sigilosas não é suficiente para caracterizar uma operação; somente será plenamente contabilizada como operação após o cumprimento de medidas ostensivas, isto é, após sua deflagração."
+      "D": "O cumprimento de mandados de medidas investigativas sigilosas não é suficiente para caracterizar uma operação; somente será plenamente contabilizada como operação após o cumprimento de medidas ostensivas, isto é, após sua deflagração."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto é explícito: 'o cumprimento de mandados de medidas investigativas sigilosas (ex: interceptação telefônica), não é suficiente para caracterizar uma operação para fins estatísticos (...) mas somente será plenamente contabilizada como operação após o cumprimento de medidas ostensivas, isto é, após sua deflagração'.",
     "referencia": "Cap. 8, Seção 8.3, p. 157-158"
   },
@@ -2438,10 +2409,9 @@ const questoesDB = [
       "A": "Eliminação completa de qualquer risco em qualquer diligência policial.",
       "B": "Transferência integral do risco a outras instituições parceiras.",
       "C": "Suspensão de toda diligência que apresente qualquer grau de risco aos policiais.",
-      "D": "Punição posterior dos policiais que assumirem riscos não autorizados.",
-      "E": "Diminuição de incertezas, mostrando-se fundamental que as decisões sejam adotadas com base no máximo de informações alcançáveis, a fim de que tudo não se resuma a uma questão de sorte ou azar."
+      "D": "Diminuição de incertezas, mostrando-se fundamental que as decisões sejam adotadas com base no máximo de informações alcançáveis, a fim de que tudo não se resuma a uma questão de sorte ou azar."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma: 'é possível afirmar que o gerenciamento de riscos está relacionado à diminuição de incertezas. Nesse contexto, mostra-se fundamental que as decisões sejam adotadas com base no máximo de informações alcançáveis, a fim de que tudo não se resuma a uma questão de sorte ou azar'.",
     "referencia": "Cap. 8, Seção 8.4.3, p. 167-168"
   },
@@ -2471,10 +2441,9 @@ const questoesDB = [
       "A": "Deve ser realizada uma única vez, ao início, sem necessidade de revisão posterior.",
       "B": "Compete exclusivamente ao Núcleo de Análise, sendo vedada qualquer revisão pelo delegado.",
       "C": "Vale exclusivamente para operações deflagradas, não se aplicando a inquéritos em fase inicial.",
-      "D": "Deve ser submetida obrigatoriamente ao Ministério Público antes de cada diligência.",
-      "E": "Deve estar sujeita a revisões regulares para garantir que os riscos identificados foram gerenciados de forma adequada; se novos riscos forem identificados ou a natureza da investigação mudar significativamente, uma nova avaliação deve ser realizada."
+      "D": "Deve estar sujeita a revisões regulares para garantir que os riscos identificados foram gerenciados de forma adequada; se novos riscos forem identificados ou a natureza da investigação mudar significativamente, uma nova avaliação deve ser realizada."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma: 'durante o curso de uma investigação, a avaliação de risco deve estar sujeita a revisões regulares para garantir que os riscos identificados foram gerenciados de forma adequada. Se quaisquer novos riscos forem identificados ou a natureza da investigação mudar significativamente, uma nova avaliação de risco deve ser realizada'.",
     "referencia": "Cap. 8, Seção 8.4.3, p. 169-170"
   },
@@ -2616,10 +2585,9 @@ const questoesDB = [
       "A": "É absolutamente vedado postergar a lacração e o registro, ainda que haja risco operacional aos policiais.",
       "B": "A eleição do elemento de segurança (lacre, fita, saco) independe do princípio da proporcionalidade.",
       "C": "Os lacres numerados não servem como indicadores de inviolabilidade do material.",
-      "D": "As embalagens não desempenham função de preservação das características dos materiais, mas apenas de identificação.",
-      "E": "Embora todos os elementos devam ser acondicionados, lacrados e registrados, nada impede que tais providências sejam adiadas em caso de intercorrência como risco operacional, inexistência de embalagem ou ordem judicial."
+      "D": "Embora todos os elementos devam ser acondicionados, lacrados e registrados, nada impede que tais providências sejam adiadas em caso de intercorrência como risco operacional, inexistência de embalagem ou ordem judicial."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma que 'Embora todos os elementos de interesse da investigação devam ser acondicionados em embalagens próprias, lacrados e registrados, nada impede que tais providências sejam adiadas caso haja qualquer intercorrência que inviabilize a sua imediata execução, como situações de risco operacional à segurança dos policiais, inexistência de embalagem, ordem judicial, etc.'.",
     "referencia": "Cap. 8, Seção 8.8, p. 173"
   },
@@ -2649,11 +2617,10 @@ const questoesDB = [
       "A": "Casos que se solucionam por meio dos próprios elementos (auto solucionados), como nos flagrantes.",
       "B": "Casos cuja triagem inicial busca selecionar aqueles em que as condições de detecção parecem promissoras.",
       "C": "Casos que podem ser resolvidos com algum esforço investigativo.",
-      "D": "Casos que somente podem ser resolvidos com uma quantidade razoável de esforço ou que não podem ser resolvidos de qualquer forma.",
-      "E": "Casos que dependem exclusivamente da utilização de técnicas especiais de investigação previstas em lei."
+      "D": "Casos que dependem exclusivamente da utilização de técnicas especiais de investigação previstas em lei."
     },
-    "resposta_correta": "E",
-    "justificativa": "O texto descreve os três tipos de casos de Eck: 'i) os casos que se solucionam por meio dos próprios elementos (auto solucionados)... ii) casos que podem ser resolvidos com algum esforço investigativo; e iii) aqueles casos que somente podem ser resolvidos com uma quantidade razoável de esforço ou não podem ser resolvidos de qualquer forma'. A alternativa D introduz um critério não previsto no texto.",
+    "resposta_correta": "D",
+    "justificativa": "O texto descreve os três tipos de casos de Eck: 'i) os casos que se solucionam por meio dos próprios elementos (auto solucionados)... ii) casos que podem ser resolvidos com algum esforço investigativo; e iii) aqueles casos que somente podem ser resolvidos com uma quantidade razoável de esforço ou não podem ser resolvidos de qualquer forma'.",
     "referencia": "Cap. 8, Seção 8.9, p. 175"
   },
   {
@@ -2762,10 +2729,9 @@ const questoesDB = [
       "A": "A Coordenação-Geral de Repressão a Crimes Fazendários (CGFAZ/Dicor/PF).",
       "B": "A Coordenação de Repressão a Crimes Cibernéticos Relacionados ao Abuso Sexual Infantil (CCASI).",
       "C": "A Corregedoria-Geral de Polícia Federal.",
-      "D": "A Diretoria de Inteligência Policial (DIP).",
-      "E": "A Coordenação de Repressão a Fraudes Bancárias Eletrônicas (Cban/CGciber/Dciber/PF), no âmbito da Diretoria de Combate a Crimes Cibernéticos."
+      "D": "A Coordenação de Repressão a Fraudes Bancárias Eletrônicas (Cban/CGciber/Dciber/PF), no âmbito da Diretoria de Combate a Crimes Cibernéticos."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma: 'No âmbito do órgão central, dentro da estrutura da Diretoria de Combate a Crimes Cibernéticos, é a Coordenação de Repressão a Fraudes Bancárias Eletrônicas (Cban/CGciber/Dciber/PF) a unidade responsável pela alimentação e gestão da Base Tentáculos e interface com as instituições bancárias'.",
     "referencia": "Cap. 8, Seção 8.9.3, p. 185"
   },
@@ -2795,10 +2761,9 @@ const questoesDB = [
       "A": "O sistema RAPINA foi criado em janeiro de 2017, simultaneamente ao Projeto Prometheus.",
       "B": "O NCMEC é uma agência governamental norte-americana ligada diretamente ao Departamento de Justiça dos EUA.",
       "C": "O sistema RAPINA não permite priorizar casos, atuando exclusivamente como repositório passivo de dados.",
-      "D": "A criação do RAPINA reduziu, em termos qualitativos, a eficiência das investigações de combate ao abuso sexual infantil.",
-      "E": "Estima-se que a PF receba cerca de 2.500 reports por dia do NCMEC, demandando estratégia adequada de enfrentamento dessa criminalidade cibernética massiva."
+      "D": "Estima-se que a PF receba cerca de 2.500 reports por dia do NCMEC, demandando estratégia adequada de enfrentamento dessa criminalidade cibernética massiva."
     },
-    "resposta_correta": "E",
+    "resposta_correta": "D",
     "justificativa": "O texto afirma que 'Estima-se que a PF receba 2.500 reports por dia do NCMEC, o que requer uma estratégia adequada e eficiente de enfrentamento a este particular desafio da criminalidade cibernética massiva'. Também indica que o RAPINA foi criado em julho de 2020 (não 2017), que possibilita priorizar casos mais graves, que houve salto qualitativo nas investigações, e que o NCMEC é uma ONG, não agência governamental.",
     "referencia": "Cap. 8, Seção 8.9.4, p. 187"
   },
