@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1118,
+    "alternativas": {
+      "A": "estopim do tipo hidráulico, cuja queima lenta e uniforme, à base de pólvora negra impermeabilizada, é plenamente compatível com a composição química identificada nos fragmentos metálicos coletados no local.",
+      "B": "espoleta elétrica do tipo coluna, identificada de modo inequívoco pela presença obrigatória de dois fios condutores que formam uma ponte mantida em contato com o explosivo sensível encontrado nos fragmentos.",
+      "C": "sistema disparador de tubo de choque, dispositivo plástico flexível cujas paredes internas são revestidas justamente por azida de chumbo associada a alumínio em pó, conduzindo a chama a cerca de 1.000 m/s.",
+      "D": "cápsula explosiva exclusivamente elétrica, dotada de fio ponte que se incandesce por efeito Joule e inicia a carga primária de azida de chumbo somada à carga secundária de nitropenta contida no invólucro de alumínio.",
+      "E": "cápsula explosiva não-elétrica, com carga primária de azida de chumbo somada ao estifnato e carga secundária de nitropenta, alojada em invólucro metálico de cerca de 7 mm de diâmetro."
+    },
+    "justificativa": "A cápsula explosiva não-elétrica apresenta-se como pequeno cilindro metálico (Al ou Cu) de cerca de 7 mm de diâmetro, com carga primária de azida de chumbo + estifnato de chumbo (0,4 g) e carga secundária de nitropenta, Tetril ou RDX (0,8 g) (p. 29). Em A, o estopim é à base de pólvora, não dessas cargas sensíveis. Em B e D, a presença de fios condutores/fio ponte caracteriza a espoleta ELÉTRICA, não mencionada nos fragmentos. Em C, o tubo de choque é revestido por HMX + alumínio (p. 30), não por azida de chumbo, e não é um cilindro metálico."
+  },
+  {
+    "id": 1122,
+    "alternativas": {
+      "A": "Detonadores e demais explosivos podem ser armazenados conjuntamente no mesmo compartimento, desde que mantenham distância mínima de 50 cm entre si e estejam acondicionados em invólucros metálicos hermeticamente selados.",
+      "B": "É recomendado transportar as cápsulas explosivas elétricas no porta-luvas da viatura, ainda que esta possua radiotransmissores, desde que os fios condutores estejam previamente desencapados e unidos.",
+      "C": "Os detonadores elétricos devem ser colocados no chão com os fios cuidadosamente enrolados e mantidos separados entre si, justamente para evitar curto-circuito acidental durante o manuseio em campo.",
+      "D": "É permitido trabalhar com espoletas elétricas próximo à rede de alta tensão e em condições adversas de tempo, desde que se utilize equipamento de proteção individual dielétrico de classe 2 ou superior.",
+      "E": "Os detonadores devem ser separados dos explosivos no transporte e no armazenamento, nunca sendo armazenados a menos de 3 metros de quaisquer outros explosivos até estarem prontos para serem escorvados."
+    },
+    "justificativa": "São regras expressas: separar explosivos de detonadores no transporte e no armazenamento e nunca armazenar detonadores a menos de 3 metros de quaisquer outros explosivos até que estejam prontos para serem escorvados (p. 30). Em A, é vedado armazená-los conjuntamente. Em B, é vedado transportar cápsula elétrica no porta-luvas de viatura com radiotransmissor. Em C, os fios devem ser colocados já DESENROLADOS e CURTO-CIRCUITADOS (unidos), não enrolados e separados. Em D, é vedado o uso próximo à rede de alta tensão (indução eletromagnética) e em condições adversas de tempo."
+  },
+  {
+    "id": 1130,
+    "alternativas": {
+      "A": "Trata-se de mecanismo de tempo digital, cujo retardo é controlado com precisão por chip em circuito integrado previamente regulado pelo operador para fechar o contato no instante programado.",
+      "B": "Trata-se de mecanismo antimovimento, ativado quando a lâmina vibra em razão da movimentação do artefato e, por consequência, encosta no contato de espera, fechando o circuito de iniciação.",
+      "C": "Trata-se de mecanismo por pressão, no qual o peso externo aplicado sobre a lâmina vence a resistência mecânica do filamento tensor e, ao deslocá-la, estabelece o contato elétrico de espera que dá início à explosão, tal como ocorre nos dispositivos instalados sob assentos e tapetes.",
+      "D": "Trata-se de mecanismo por descompressão, ativado quando o reservatório é removido de sua posição original, o que fecha o contato elétrico responsável pela iniciação da carga explosiva.",
+      "E": "Trata-se de mecanismo de retardo químico, no qual a solução de cloreto cúprico corrói o filamento até que este se parta e a lâmina toque o contato de espera, apresentando tempos de acionamento muito variáveis."
+    },
+    "justificativa": "Conforme o PDF (p. 36-37), no retardo químico a solução de cloreto cúprico corrói o fio que tenciona a lâmina até que este se rompa e a lâmina toque o contato de espera, destacando-se que tais arranjos apresentam tempos de acionamento muito variáveis (alternativa E correta). As demais alternativas descrevem mecanismos distintos: tempo digital (A), antimovimento (B), pressão (C) e descompressão (D), incompatíveis com o vestígio da corrosão temporizada do filamento."
+  },
+  {
+    "id": 1135,
+    "alternativas": {
+      "A": "O sensor de capacitância depende exclusivamente do contato com sons audíveis ou ultrassônicos para sensibilizar a superfície metálica do objeto que se pretende proteger contra a remoção.",
+      "B": "O sistema anti-raio X desativa o circuito sempre que a fonte luminosa do ambiente é eliminada, razão pela qual é classificado pelo material como subtipo de mecanismo fotoelétrico inverso.",
+      "C": "O sistema acústico utiliza a superfície metálica do objeto protegido para ser sensibilizado ao mais leve toque, ao passo que o sensor de capacitância responde apenas a sons audíveis ou ultrassônicos.",
+      "D": "O sistema fotoelétrico é acionado apenas quando a luz é aplicada ao sensor, jamais operando pelo princípio inverso de eliminação da luz que incide sobre o elemento sensível do circuito.",
+      "E": "O sistema infravermelho pode detectar movimentos por meio de um feixe de raios infravermelhos ou pelo calor de um corpo ou de um motor."
+    },
+    "justificativa": "Conforme o PDF (p. 39-40), entre os outros mecanismos consta que o infravermelho pode detectar movimentos por meio de feixe de raios infravermelhos ou pelo calor de um corpo ou de um motor (alternativa E correta). A alternativa A é falsa, pois o sensor de capacitância sensibiliza-se ao mais leve toque, e não a sons. A alternativa B é falsa, pois o anti-raio X usa meio que intensifica a luz em um circuito, ativando célula fotoelétrica ao ser exposto a raio X. A alternativa C inverte os conceitos de acústico e de capacitância. A alternativa D é falsa, pois o sistema fotoelétrico aciona quando a luz é aplicada ou eliminada."
+  },
+  {
+    "id": 1156,
+    "alternativas": {
+      "A": "O plano de comunicação deve ser amplamente difundido a todos os ocupantes do prédio, e não restrito aos integrantes do plano de segurança, a fim de garantir transparência durante a ocorrência.",
+      "B": "A cadeia de comando torna-se dispensável quando a empresa já possui setor próprio de segurança patrimonial, o qual passa a concentrar, com exclusividade, todas as decisões operacionais relativas à ameaça.",
+      "C": "As rotas de evacuação devem permanecer fixas e amplamente divulgadas, de modo a constituir rotina estável e previsível que facilite o deslocamento ordenado de todos os ocupantes em caso de emergência.",
+      "D": "Os exercícios de vistoria e de evacuação somente devem ser realizados após a ocorrência de uma ameaça real, pois simulações prévias tenderiam a gerar pânico desnecessário entre os funcionários.",
+      "E": "A Assessoria de Risco é grupo especializado, formado por pessoas com visões distintas, que dividem a responsabilidade de avaliar o risco e de classificar a ameaça."
+    },
+    "justificativa": "Correta a alternativa E: a Assessoria de Risco é formada por pessoas com visões distintas, que dividem a responsabilidade de avaliar o risco e classificar a ameaça (p. 55). A está errada porque o plano de comunicação deve ser restrito aos integrantes do plano, sendo vital para evitar pânico. B está errada porque a cadeia de comando é ponto fundamental do plano. C está errada porque devem-se prever rodízios das rotas, evitando rotina previsível. D está errada porque os exercícios devem ser regularmente treinados e simulados (p. 55)."
+  },
+  {
+    "id": 1159,
+    "alternativas": {
+      "A": "Caracteriza ameaça real e específica, em que se conhece o motivo, autorizando a evacuação imediata total dos ocupantes, sem necessidade de qualquer vistoria prévia das instalações.",
+      "B": "Aplica-se exclusivamente às ameaças veiculadas por escrito, sendo as ameaças transmitidas por telefone sempre classificadas como verdes em razão de sua menor credibilidade intrínseca.",
+      "C": "Exige IPA e fato gerador concomitantes, configurando o grau máximo de risco da escala de cores e demandando a atuação imediata do esquadrão antibombas, dispensada a participação dos ocupantes.",
+      "D": "É a ameaça que deve ser apenas registrada e desconsiderada, sem qualquer providência operacional adicional, dada a ausência simultânea de IPA, de fato gerador e de precedentes.",
+      "E": "Não há IPA, mas existe fato gerador e a credibilidade é duvidosa; a ação envolve vistoria e, se necessário, evacuação parcial ou total, com vigilância crescente."
+    },
+    "justificativa": "Correta a alternativa E, conforme a Tabela 4 (p. 56): a âmbar não tem IPA, tem fato gerador e credibilidade duvidosa, com vistoria e eventual evacuação parcial ou total e vigilância crescente. A e C descrevem a vermelha. D descreve a verde. B está errada porque a classificação não distingue entre ameaça escrita e telefônica para fixar a cor (p. 56)."
+  },
+  {
+    "id": 1160,
+    "alternativas": {
+      "A": "A vistoria de rotina, também chamada de fiscalização, atinge eficácia superior a 90%, justamente por ser conduzida por equipe que se mantém em estado de alerta permanente nas áreas sob sua responsabilidade.",
+      "B": "A vistoria por equipe treinada dispensa o acompanhamento da segurança local ou de funcionário que conheça o ambiente, pois o preparo técnico dos integrantes supre o desconhecimento do local.",
+      "C": "A vistoria de rotina é a mais eficaz das três modalidades porque os fiscais, conhecendo bem suas áreas, inspecionam inclusive os locais sujos ou desagradáveis habitualmente negligenciados pelos demais.",
+      "D": "A vistoria por equipe treinada atinge cerca de 50% a 65% de eficácia, percentual reduzido que se explica pela falta de familiaridade dos integrantes com a disposição física do local vistoriado.",
+      "E": "A vistoria pelos próprios ocupantes alcança de 80% a 90% de eficácia, sendo recomendada pela doutrina na maioria dos casos."
+    },
+    "justificativa": "Correta a alternativa E: a vistoria pelos ocupantes alcança 80% a 90% de eficácia e é recomendada pela doutrina na maioria dos casos (p. 57). A e C estão erradas porque a vistoria de rotina atinge apenas 50% a 65% e não se realiza em estado de alerta, costumando negligenciar locais sujos. B está errada porque a equipe treinada deve ser acompanhada pela segurança local ou por funcionário do ambiente. D está errada porque a equipe treinada atinge acima de 90% (p. 57)."
+  },
+  {
+    "id": 1170,
+    "alternativas": {
+      "A": "Iniciar pela aproximação direta e frontal ao veículo, conduta que facilita a imediata visualização dos comandos do painel e a identificação de eventuais dispositivos de acionamento instalados na cabine.",
+      "B": "Acionar o sistema elétrico do automóvel para testar lanternas e faróis, de modo a verificar a integridade dos circuitos antes de proceder à inspeção visual externa da carroceria e dos para-choques.",
+      "C": "Ignorar a inspeção da parte inferior do veículo, pois o chassi e os espaços do assoalho não comportam vãos úteis para a ocultação de artefatos explosivos de qualquer dimensão.",
+      "D": "Iniciar a vistoria pela abertura do capô e pela inspeção minuciosa do bloco do motor, antes de qualquer observação externa, por ser esse o compartimento estatisticamente mais utilizado para a ocultação.",
+      "E": "Fazer observação prévia à distância com binóculos, aproximar-se em sentido diagonal e procurar sinais de arrombamento e resquícios de fitas, fios e marcas no solo."
+    },
+    "justificativa": "Correta a alternativa E: observação prévia à distância com binóculos, aproximação em sentido diagonal e atenção a sinais de entrada forçada e resquícios de fitas, fios, cordões e marcas no solo (p. 71). A contraria a aproximação diagonal. B é conduta perigosa não prevista. C ignora a recomendação de vistoria por baixo do veículo. D inverte a ordem prevista, que começa pela observação externa (p. 71-72)."
+  },
+  {
+    "id": 1174,
+    "alternativas": {
+      "A": "Cabine de comando, painéis de aviônica do cockpit e sistemas hidráulicos centrais da aeronave, por concentrarem componentes de difícil acesso e inspeção pela tripulação durante o voo regular.",
+      "B": "Compartimentos do motor, dutos de ventilação pressurizada e reservatórios de combustível das asas, regiões internas de grande volume que comportam a ocultação de cargas explosivas consideráveis.",
+      "C": "Asas, leme de direção e estabilizadores horizontais da aeronave, estruturas externas amplas que oferecem múltiplos vãos compatíveis com a fixação dissimulada de artefatos de médio porte.",
+      "D": "Reservatórios de oxigênio, máscaras de emergência acopladas e coletes salva-vidas alojados sob as poltronas, itens de uso eventual cuja inspeção costuma ser negligenciada pela tripulação de cabine.",
+      "E": "Trem de pouso, compartimentos de carga, lixeiras dos toaletes, embaixo das poltronas e bagageiros suspensos."
+    },
+    "justificativa": "Correta a alternativa E: a doutrina lista trem de pouso, compartimentos de carga, lixeiras dos toaletes, compartimentos de toalhas de papel, embaixo das poltronas e bagageiros suspensos (p. 73). A, B, C e D indicam estruturas que não constam como pontos preferenciais de ocultação na relação doutrinária (p. 73)."
+  },
+  {
+    "id": 1182,
+    "alternativas": {
+      "A": "categoria B, pois o local pode ser evacuado e o paciente removido, devendo aguardar-se o tempo de molho de 20 minutos antes de qualquer ação direta sobre o artefato encontrado.",
+      "B": "categoria C, pois há perigo mínimo ao pessoal envolvido, sendo a solução típica o contracarregamento com explosivo após a remoção segura do paciente para outra unidade.",
+      "C": "categoria B, pois a ameaça à vida é indireta, já que a evacuação prévia do local elimina o risco às pessoas, restando apenas a ameaça direta ao patrimônio do hospital.",
+      "D": "categoria A, devendo o técnico aguardar o tempo de molho de 20 minutos antes de qualquer aproximação, de modo a preservar a própria segurança diante do risco direto à vida.",
+      "E": "categoria A, com ameaça imediata e direta à vida, devendo as operações começar imediatamente, buscando-se transformá-lo em categoria B ou C."
+    },
+    "justificativa": "Conforme o item 9.4, a categoria A caracteriza-se pela ameaça imediata (direta) à vida, e o exemplo do Presidente na UTI é citado expressamente como categoria A, pois, se o artefato explodir, matará o presidente (p. 79). Nessas situações as operações devem começar imediatamente, sendo a primeira ação tentar transformar a categoria A em B ou C (p. 79) - alternativa E. As alternativas A, B e C erram a categoria. As alternativas A e D atribuem à categoria A o tempo de molho de 20 minutos, que é próprio da categoria B (p. 80)."
+  }
+]
