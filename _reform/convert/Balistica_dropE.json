@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1211,
+    "justificativa": "Conforme p. 9, o termo balística origina-se, provavelmente, da palavra latina baleare, que deriva do grego ballo, com o significado de atirar, arremessar (alternativa A). As demais opções atribuem etimologias falsas (balisticos, ballista, ballisticus) ou restringem indevidamente o significado original, vinculando-o apenas a armas de arremesso medievais (D) ou à mecânica interna das armas de fogo (C)."
+  },
+  {
+    "id": 1212,
+    "justificativa": "Segundo p. 9, a Balística Geral é parte da Física, compreendida no capítulo da Mecânica, e estuda o movimento dos projéteis (todo corpo que se desloca livre no espaço por impulso recebido); a Balística Forense, integrante da Criminalística, estuda armas de fogo, munição e efeitos dos disparos em sua relação com infrações penais (alternativa C). A alternativa A inverte os conceitos; B reduz indevidamente ambos a um mesmo objeto; D distorce os objetos e confunde a Terminal com a Medicina Legal."
+  },
+  {
+    "id": 1213,
+    "justificativa": "Conforme p. 9, a Balística Interna estuda a estrutura, os mecanismos, o funcionamento e as características das armas de fogo, bem como os fenômenos e efeitos ocorridos na arma, desde a detonação da espoleta, pela ação do sistema de percussão, até o momento em que o projétil sai do cano (alternativa D). A Externa só se inicia após a saída do cano (A); a Terminal trata dos efeitos no alvo (B); a Geral é ramo da Física, e não divisão da Forense (C)."
+  },
+  {
+    "id": 1215,
+    "justificativa": "Conforme p. 9, a Balística Terminal estuda os efeitos produzidos pelo projétil ao atingir o alvo; quando o alvo é humano, cabe à Medicina Legal o estudo dos vestígios intrínsecos (lesões traumáticas) e à Balística o estudo dos vestígios extrínsecos (resíduos de pólvora e projéteis), conforme expressamente delimitado (alternativa A). A alternativa B ignora a partilha de competência; C confunde a Terminal com a Externa; e D nega indevidamente a atuação da Balística em alvo humano."
+  },
+  {
+    "id": 1216,
+    "justificativa": "Conforme Rabello (1995), arma de fogo é o engenho mecânico dotado da propriedade de expelir projéteis utilizando a força expansiva dos gases da combustão da pólvora, incluindo-se, por definição, na categoria das armas de arremesso complexas (p. 12). B erra ao dispensar a carga de projeção, elemento essencial; C e D descrevem armas de arremesso simples e armas brancas/contundentes, não arma de fogo (p. 11-12)."
+  },
+  {
+    "id": 1218,
+    "justificativa": "O capítulo descreve o cartucho como unidade de munição completa formada por estojo, cápsula de espoletamento, projétil e propelente (carga de projeção) (p. 13). A inclui um componente da arma (cano) que não integra o cartucho; B mistura parte do estojo (culote), orifícios da espoleta (eventos) e do cano (raiamento); D cita bigorna e escorva (partes internas da espoleta) e o cano (parte da arma), não os quatro elementos constitutivos do cartucho."
+  },
+  {
+    "id": 1219,
+    "justificativa": "O capítulo afirma que o estojo é o elemento inerte do cartucho, pois não participa da combustão nem é expelido pelo cano (p. 15). A inverte a função (o elemento ativo é a carga de projeção); C confunde boca com culote (o culote é a extremidade posterior e espessa, onde fica a estampa da base; a parte anterior é a boca); D contradiz o conceito de elemento inerte (p. 15)."
+  },
+  {
+    "id": 1221,
+    "justificativa": "O capítulo descreve a cápsula de espoletamento como pequeno recipiente metálico, geralmente engastado como elemento separado na base do estojo nos cartuchos de fogo central, comunicando-se com o interior por orifícios chamados eventos (p. 15). B inverte a regra: o fogo circular NÃO possui cápsula diferenciada, com a escorva na borda oca do estojo; C é falsa, pois a espoleta inflama a carga de projeção, não a substitui; D nega a bigorna, estrutura rígida necessária a todos os tipos de espoleta como superfície de impacto do percussor (p. 16)."
+  },
+  {
+    "id": 1222,
+    "justificativa": "O texto indica que a mistura iniciadora contém o composto organometálico estifinato de chumbo, além de nitrato de bário, trissulfeto de antimônio e alumínio em pó, e que sua principal característica é a sensibilidade a choques mecânicos e à variação de pressão (p. 16). A é falsa: a composição varia de fábrica para fábrica; B confunde escorva com carga de projeção (esta é o elemento ativo de projeção); C descreve as pólvoras químicas (carga de projeção), não a escorva."
+  },
+  {
+    "id": 1223,
+    "justificativa": "Conforme o capítulo, os cartuchos de fogo circular não possuem cápsula de espoletamento como elemento diferenciado, pois a escorva se aloja na borda oca e ressaltada do próprio estojo, em contato direto com a carga de projeção (p. 15). A e C descrevem espoletas (Berdan, Boxer) e o alojamento central de cápsula, próprios do fogo central; D é falsa, pois também há carga de projeção (propelente) nos cartuchos de fogo circular."
+  },
+  {
+    "id": 1224,
+    "justificativa": "O capítulo define a carga de projeção como o elemento ativo do cartucho, combustível sólido granular capaz de se inflamar com grande velocidade, sem necessitar de oxigênio, produzindo grande quantidade de gases cuja expansão projeta o projétil pelo cano (p. 16). A confunde com o estojo (elemento inerte); B é falsa, pois a pólvora negra foi abandonada nas armas modernas após o advento da pólvora sem fumaça; D inverte os conceitos (base simples é só nitrocelulose; base dupla é nitrocelulose + nitroglicerina)."
+  },
+  {
+    "id": 1226,
+    "justificativa": "O capítulo esclarece que as pólvoras vivas são usadas em armas curtas, queimando intensa e rapidamente, pois o cano é pequeno e há menor tempo para imprimir velocidade ao projétil; já as progressivas, mais lentas, são para armas longas, de cano maior (p. 16). B e D invertem a relação (a progressiva é para armas longas; a viva, para curtas); C é falsa, pois o texto afirma que tanto a geometria dos grãos quanto a composição química determinam a velocidade de queima."
+  },
+  {
+    "id": 1227,
+    "justificativa": "Conforme p. 19, as armas de alma lisa têm superfície interna lisa e total ou parcialmente cilíndrica, sendo as espingardas o exemplo típico (alternativa C). A) atribui à alma raiada característica que é da alma lisa. D) as raiadas têm estrias paralelas e helicoidais, não exclusivamente longitudinais (p. 19-20). B) descaracteriza a alma mista, que possui dois canos (um liso e outro raiado) e não um único cano com regiões alternadas (p. 20-21)."
+  },
+  {
+    "id": 1228,
+    "justificativa": "Conforme p. 20, o raiamento no sentido horário é classificado como dextrógiro (D), portanto 6-D, e a função das raias é imprimir movimento de rotação ao projétil em seu eixo longitudinal, aumentando a estabilidade na trajetória (alternativa D). O sentido horário define D, não S (A e B). O raiamento não existe em alma lisa (B). A configuração descrita é de cano único raiado, não mista (C)."
+  },
+  {
+    "id": 1229,
+    "justificativa": "Conforme p. 20-21, armas de alma mista são exatamente aquelas que possuem um cano de alma lisa e outro de alma raiada, sendo o modelo Apache da Rossi citado como exemplo (alternativa A). B) e C) tomam indevidamente um único cano como definidor da classe. D) nega a existência da categoria mista, que é formalmente prevista."
+  },
+  {
+    "id": 1230,
+    "justificativa": "Conforme p. 21, armas de retrocarga são aquelas em que o carregamento se faz pela inserção do cartucho em câmara na parte posterior do cano, abrangendo a quase totalidade das armas modernas (alternativa B). A antecarga é o oposto e caiu em desuso após a invenção do cartucho (A e C). D) não corresponde a categoria do material."
+  },
+  {
+    "id": 1231,
+    "justificativa": "Conforme p. 22, o sistema por mecha é aquele em que a pólvora é inflamada por meio de um pavio, sendo expressamente classificado como obsoleto (alternativa D). O sistema por atrito envolve faísca, não pavio (A); a percussão extrínseca usa espoleta independente (B); a inflamação elétrica usa contato elétrico (C)."
+  },
+  {
+    "id": 1232,
+    "justificativa": "Conforme p. 23, a percussão intrínseca central possui a cápsula de espoletamento no centro da base do cartucho e é a mais utilizada nas armas modernas (alternativa B). A) descreve a percussão intrínseca, não a extrínseca. C) confunde-se com a percussão intrínseca radial, cuja mistura iniciadora está no ressalto oco da borda e cujo uso está praticamente restrito ao calibre .22 (p. 23). D) descreve a percussão indireta, e não a direta (p. 24)."
+  },
+  {
+    "id": 1233,
+    "justificativa": "Conforme p. 23, a percussão intrínseca radial (também anelar ou periférica, rimfire) é aquela em que a percussão ocorre na borda do cartucho, com mistura iniciadora no ressalto oco da base, estando praticamente restrita ao calibre .22 (alternativa B). Não é central, cuja cápsula fica no centro da base (A), nem extrínseca, cuja espoleta é independente (C). A classificação direta/indireta é ortogonal e não é definida pelo calibre (D)."
+  },
+  {
+    "id": 1234,
+    "justificativa": "Conforme p. 24, na percussão intrínseca direta o cão ou martelo possui pino percussor diretamente usinado ou afixado a seu corpo, sendo ele próprio o responsável pela percussão (alternativa A). Na indireta há um pino percussor flutuante alojado na armação/ferrolho que recebe e transmite a energia do cão (p. 24), de modo que C inverte as características. B) descreve impropriamente a indireta. D) descreve a percussão extrínseca (p. 22), não a indireta."
+  },
+  {
+    "id": 1235,
+    "justificativa": "Conforme p. 27, nas armas semiautomáticas a força muscular atua apenas no acionamento do gatilho e a energia dos gases efetua a repetição, realizando-se apenas um ciclo por acionamento (tiro intermitente) — exatamente o quadro descrito (alternativa C). Não é automática, que mantém a ciclagem enquanto o gatilho é pressionado (A); nem de repetição, cuja alimentação depende exclusivamente da força muscular (B, p. 26); nem de tiro unitário, que só comporta um cartucho na câmara (D, p. 25)."
+  },
+  {
+    "id": 1236,
+    "justificativa": "Conforme p. 27, na arma automática a força muscular atua apenas no primeiro disparo, e a energia dos gases mantém a ciclagem enquanto o gatilho estiver acionado e houver munição, configurando tiro contínuo ou em rajada (alternativa C). A) confunde automática com repetição. B) atribui à semiautomática o tiro contínuo, que é da automática, sendo a semiautomática de tiro intermitente. D) o seletor de rajadas é típico de armas classificadas como automáticas, não semiautomáticas."
+  },
+  {
+    "id": 1237,
+    "justificativa": "Conforme p. 27, o material determina expressamente que armas cujo seletor inclua, entre os modos, o automático devem ser classificadas como automáticas (alternativa B). Não cabe enquadramento como semiautomática (A), nem categoria mista (C), tampouco como repetição, pois a presença de seletor não altera o sistema de alimentação (D)."
+  },
+  {
+    "id": 1238,
+    "justificativa": "Conforme p. 28, o Decreto 11.615/2023 define arma de fogo de porte como a de dimensão e peso reduzidos, disparada com apenas uma das mãos (pistola, revólver, garrucha) — alternativa B. A) descreve arma portátil, não de porte. C) e D) confundem porte com portátil: no decreto, as portáteis ficaram restritas às armas longas, e as curtas foram equiparadas a armas de porte."
+  },
+  {
+    "id": 1239,
+    "justificativa": "Conforme p. 26, as armas de tiro unitário múltiplo podem ter vários canos (em geral dois, paralelos ou sobrepostos), cada um com sistema de disparo independente, comportando-se como par de armas unitárias simples acopladas a uma mesma coronha, a exemplo das espingardas de caça de dois canos e das garruchas (alternativa B). A) descreve outra configuração de tiro unitário. C) e D) confundem com repetição e semiautomática."
+  },
+  {
+    "id": 1240,
+    "justificativa": "Conforme p. 21, a antecarga é o carregamento pela boca do cano; conforme p. 22, na percussão extrínseca a espoleta é peça independente colocada sobre pequena chaminé que se comunica com o interior do cano por um ouvido, sendo percutida pelo cão e geralmente presente em armas de antecarga portáteis (alternativa C). A) e D) trocam antecarga por retrocarga e/ou extrínseca por intrínseca. B) confunde com percussão intrínseca radial."
+  },
+  {
+    "id": 1241,
+    "justificativa": "Conforme o item 2.4.1, o calibre real é uma medida exata e aferível, tomada na boca do cano, correspondente ao diâmetro interno da alma, determinada entre dois cheios diametralmente opostos do sistema de raias (p. 29) — alternativa B. A descreve calibre nominal (designação comercial); C confunde diâmetro do projétil com diâmetro da alma e atribui a aferição ao culote; D inverte a referência (a medida se dá entre cheios, não entre raias — entre raias obtém-se a maior dimensão, não o calibre real)."
+  },
+  {
+    "id": 1242,
+    "justificativa": "Conforme o item 2.4.1, quando o número de raias é par dois cheios ficam opostos; quando é ímpar, um cheio fica oposto a uma raia, devendo a medida ser tomada entre a superfície de um cheio e a delimitação entre um cheio e uma raia na posição oposta (p. 30) — alternativa C. A só vale para número par de raias; B inverte a referência (toma-se o cheio, não a raia); D inventa um procedimento de média não previsto."
+  },
+  {
+    "id": 1243,
+    "justificativa": "Conforme o item 2.4.2, o calibre nominal é sempre designativo de um tipo particular de munição e do tipo de arma que a utiliza, podendo haver diversos calibres nominais para um único calibre real (p. 30) — alternativa D. A é falsa, pois calibre nominal e real podem ter valores distintos; B inverte as definições (o aferível é o real; o designativo/comercial é o nominal); C confunde os conceitos com base em porte da arma."
+  },
+  {
+    "id": 1244,
+    "justificativa": "Conforme o item 2.4.2 e a Figura 30, projéteis de calibres nominais diferentes (.380 Auto, 9x19mm, .38 SPL e .357 Magnum) apresentam calibres reais similares, próximos de 9 mm (p. 30-31) — alternativa C. A nega expressamente o que o capítulo afirma; B é falsa, pois o emprego de cartuchos nominais diferentes pode causar danos à arma e ao atirador (p. 31); D confunde calibre real com classificação legal, que decorre da energia de disparo e das portarias conjuntas, não do diâmetro."
+  },
+  {
+    "id": 1245,
+    "justificativa": "Conforme o item 2.4.2, é desaconselhado alterar as características originais da arma para calçar cartuchos de calibres nominais diferentes daqueles para os quais foi concebida; o exemplo do .38 adaptado para .357 demonstra que o tambor não possui resistência para as pressões elevadas, podendo levar a acidentes graves (p. 31) — alternativa D. A invoca autorização legal inexistente; B e C contrariam o alerta expresso do capítulo, pois a proximidade dos calibres reais não neutraliza a elevação de pressão nem a fragilidade estrutural do tambor."
+  },
+  {
+    "id": 1246,
+    "justificativa": "Conforme o item 2.4.3, a legislação nacional estabeleceu a energia de disparo como critério de classificação em uso permitido ou restrito (Decreto nº 11.615/2023), e portarias conjuntas do Exército e da Polícia Federal listaram os calibres nominais correspondentes (p. 32) — alternativa B. A inventa critério baseado em milímetros; C restringe indevidamente o escopo das portarias conjuntas; D atribui prerrogativa exclusiva à PF, quando é conjunta com o Exército."
+  },
+  {
+    "id": 1247,
+    "justificativa": "Conforme o item 2.4.3, ponto de atenção para o perito criminal é que a maioria dos calibres nominais possui mais de uma designação, devendo consignar em Laudo se o calibre nominal da arma ou munição em análise é o mesmo que determinado calibre constante das tabelas das portarias conjuntas (p. 32) — alternativa C. A substitui indevidamente a análise da designação por medição do calibre real; B dispensa a correlação que o texto exige; D atribui ao perito função normativa que não lhe cabe."
+  },
+  {
+    "id": 1248,
+    "justificativa": "Conforme p. 33, as armas curtas raramente ultrapassam 30 cm, habitualmente pesam menos de 1 kg e apresentam mecanismos de disparo compactos, com ângulo anatômico entre coronha e cano que permite uso com uma só mão. B: inverte as dimensões e o peso. C: coronha alongada para apoio no ombro é característica de arma longa, não de arma curta. D: foram concebidas como armas portáteis de defesa individual para tiro a curta distância, preferivelmente à queima-roupa, e não como armas de assalto."
+  },
+  {
+    "id": 1249,
+    "justificativa": "Conforme p. 33-34, o revólver é a única arma em uso cujo cano não possui câmara de combustão, ocorrendo a deflagração fora dele, nas câmaras do tambor. A: o revólver é, em regra, arma de repetição NÃO automática (a rotação do tambor depende da força muscular do atirador). C: revólveres não apresentam culatra; a peça que obtura a parte posterior é denominada placa de obturação. D: o revólver é a única arma que NÃO está carregada quando há cartucho íntegro alinhado com o cano, pois o tambor sofre rotação previamente ao disparo."
+  },
+  {
+    "id": 1250,
+    "justificativa": "Conforme p. 36-37, no revólver de tambor reversível (armação articulada) a armação é quadro inteiriço e rígido, o tambor articula-se em suporte projetando-se para fora em arco, e a vareta do extrator, acionada pelo atirador, extrai simultaneamente os estojos, mas não de modo automático. A: na armação rígida com janela lateral a extração é individual e manual por vareta frontal, o que não corresponde à extração simultânea descrita. B: na armação de junta a extração é automática e simultânea por basculamento, não acionada manualmente pela vareta. C: revólver de armação rígida não tem o tambor retirado para extração, e a descrição é de extração simultânea."
+  },
+  {
+    "id": 1252,
+    "justificativa": "Conforme p. 38, a percussão intrínseca central tem cápsula de espoletamento no centro da base do cartucho (maioria dos revólveres atuais), e a percussão indireta significa que o cão transfere a energia por meio de pino percussor flutuante alojado na armação. A: a percussão radial não apresenta cápsula de espoletamento central. C: a percussão extrínseca é obsoleta e não envolve pino percussor flutuante na armação. D: os Lefaucheux são de percussão perpendicular, mas a descrição (cápsula central + pino flutuante) não corresponde a esse modelo."
+  },
+  {
+    "id": 1253,
+    "justificativa": "Conforme p. 38, os revólveres podem ser de extração manual (simples ou simultânea) ou de extração automática (apenas simultânea). A: a extração automática é apenas simultânea, não admitindo a forma simples. B: revólveres de armação rígida com janela lateral têm extração individual (simples) por vareta, e não simultânea. C: no tambor reversível a extração é simultânea, porém manual (acionada pelo atirador pela vareta), e não automática por basculamento."
+  },
+  {
+    "id": 1254,
+    "justificativa": "Conforme p. 39, tanto a semiautomática quanto a automática aproveitam os gases da detonação para a ciclagem; na semiautomática, cada disparo exige novo acionamento do gatilho. B: inverte os conceitos - quem dispara ininterruptamente enquanto o gatilho está pressionado é a automática. C: a semiautomática cicla automaticamente pelos gases, não dependendo de recarga manual. D: a conversão é possível e, em alguns modelos comerciais, oferecida como acessório de fábrica."
+  },
+  {
+    "id": 1256,
+    "justificativa": "Conforme p. 41, pistolas com cano afixado à armação e com cano afixado ao suporte do ferrolho são utilizadas em pistolas com culatra desaferrolhada, enquanto cano basculante e cano flutuante são típicos de pistolas com culatra aferrolhada. A: cano basculante e cano flutuante associam-se à culatra aferrolhada, não à desaferrolhada de pequenos calibres. B: o cano afixado à armação é próprio da culatra desaferrolhada, não da aferrolhada. D: o cano afixado ao ferrolho associa-se à culatra desaferrolhada, e não à aferrolhada."
+  },
+  {
+    "id": 1257,
+    "justificativa": "Conforme p. 42, pistolas de percussão direta não possuem cão (o próprio pino percussor é a peça armada, dotada de noz imobilizada pelo calço do gatilho e mantida sob tensão de mola), sendo exemplificadas pelas Glock e Walther P-99. A: a percussão indireta possui cão (caso das pistolas Taurus), permanecendo o pino percussor inerte - o que contraria a descrição. B: pistolas com cão são de percussão indireta, não correspondendo ao mecanismo sem cão descrito. D: a percussão extrínseca não se aplica a esse mecanismo nem é classificação atual."
+  },
+  {
+    "id": 1258,
+    "justificativa": "Conforme p. 33-34 e 39-40, o revólver possui várias câmaras de combustão no tambor, externamente ao cano (é a única arma cujo cano não possui câmara), ao passo que, na pistola, a câmara fica na parte posterior do próprio cano, sem raiamento, com acesso por rampa. A: o revólver é justamente a única arma cujo cano não possui câmara de combustão, não cabendo afirmar que ela integra o cano. B: o cone de forçamento não é câmara de combustão, e as pistolas não têm múltiplas câmaras no ferrolho. C: revólveres não possuem culatra (têm placa de obturação), e a câmara da pistola fica no cano, não na culatra."
+  },
+  {
+    "id": 1259,
+    "justificativa": "Conforme p. 33 e 39, o revólver é arma de repetição não automática (a rotação do tambor depende da força muscular exercida sobre o gatilho), enquanto a pistola aproveita os gases da detonação para efetuar a ciclagem, realimentando a câmara. A: inverte os conceitos - o revólver não é semiautomático e a pistola não é recarregada manualmente. B: o revólver não emprega os gases para a ciclagem, de modo que não compartilham o mesmo princípio funcional. D: a pistola não depende exclusivamente da força muscular, pois cicla pelos gases."
+  },
+  {
+    "id": 1260,
+    "justificativa": "Conforme p. 36-38, a armação rígida com janela lateral implica extração manual individual (simples) por vareta na parte frontal da câmara. Cão que fica imobilizado quando engatilhado e que também pode ser acionado por pressão contínua (dupla ação) caracteriza movimento duplo. Percussão intrínseca central direta significa cápsula no centro do cartucho e pino ligado diretamente ao cão. B: a armação de junta é articulada (não rígida) e tem extração automática simultânea, além de a descrição ser de percussão direta. C: tambor desmontável com extração automática simultânea e percussão radial não correspondem ao quadro descrito. D: o tambor reversível tem extração simultânea (não automática), e o movimento simples em ação simples exige engatilhamento manual, incompatível com a dupla ação descrita."
+  },
+  {
+    "id": 1261,
+    "justificativa": "Conforme p. 43, as armas longas têm comprimento acentuado devido às dimensões do cano e da coronha, não são consideradas armas de defesa pessoal, exigem o uso de ambas as mãos e do ombro, e destinam-se à caça, esporte ou tiro militar/policial (A correta). B erra ao classificá-las como armas portáteis de defesa pessoal e ao dispensar o apoio do ombro. C ignora o critério dimensional, que é central na definição. D é falsa, pois rifles, fuzis, carabinas e mosquetões têm alma raiada (não lisa)."
+  },
+  {
+    "id": 1263,
+    "justificativa": "Conforme p. 44, carabinas são armas longas, portáteis e de repetição, com carregador tubular abaixo do cano, alma raiada e comprimento menor que o dos rifles; o sistema lever action utiliza munição de fogo central, incluindo .44\" Magnum (C correta). A confunde rifle com fuzil, pois rifle de assalto é classificação anglo-saxônica para fuzil. B descreve erroneamente o mosquetão, que possui ferrolho e depósito na coronha, e não carregador tubular sob o cano. D erra porque espingarda tem alma lisa."
+  },
+  {
+    "id": 1264,
+    "justificativa": "Pelas pp. 43-45: o rifle tem cano raiado com mais de 20\"; a carabina tem cano raiado de menor comprimento que o do rifle; o fuzil é termo de origem latina (anglo-saxões usam assault-rifle); e o mosquetão tem ferrolho com depósito no interior da coronha (C correta). A inverte características de alma e funcionamento. B é falsa, pois fuzil e mosquetão também têm alma raiada. D erra ao tratar o mosquetão como arma de tiro único sem carregador, sendo ele arma de repetição com depósito na coronha."
+  },
+  {
+    "id": 1265,
+    "justificativa": "Conforme p. 45, mosquetões são armas longas de porte e de repetição, com cano de alma raiada de cerca de 30\", ferrolho com alavanca característica e depósito (carregador) localizado no interior da coronha (B correta). A erra porque a carabina tem cano de menor comprimento e carregador tubular abaixo do cano. C erra porque o rifle aferrolhado, embora raiado, não tem como elemento distintivo o depósito na coronha. D erra porque o fuzil utiliza carregador externo."
+  },
+  {
+    "id": 1266,
+    "justificativa": "Conforme pp. 45-46, espingarda, no Brasil, é qualquer arma longa, portátil e de alma lisa, podendo ter um ou mais canos paralelos ou sobrepostos; escopeta é termo restrito a espingardas de cano curto e grosso calibre (A correta). B inverte a regra, pois espingardas são de alma lisa, sendo a Slug Gun e armas mistas as exceções com raiamento. C é falsa, pois se admitem pump action e semiautomáticas. D inverte as características da escopeta."
+  },
+  {
+    "id": 1267,
+    "justificativa": "Conforme p. 47, o estojo de espingarda tem base metálica (geralmente de latão) e corpo cilíndrico de papelão ou plástico, com fechamento frontal por disco de papelão ou em fechamento estrela (D correta). A é falsa, pois o estojo não é integralmente metálico. B contraria a p. 46, pois cápsulas e cargas de propulsão não diferem substancialmente das de armas raiadas. C contraria a p. 47, pois na espingarda quem é impelido é a bucha, que impele os projéteis."
+  },
+  {
+    "id": 1268,
+    "justificativa": "Conforme p. 50, a bucha guarda relação com o calibre da arma de alma lisa, pois apresenta diâmetro similar ao calibre real, sendo sua coleta fundamental para a indicação do calibre nominal (D correta). A é falsa, pois a bucha tem valor pericial. B é falsa, pois os balins podem ter sido disparados por espingardas de calibres diversos. C é falsa, pois a denominação dos projéteis é arbitrária e variável (p. 47-48)."
+  },
+  {
+    "id": 1269,
+    "justificativa": "Conforme pp. 47-48, os cartuchos de espingarda são carregados com chumbos esféricos (balins) de dimensões e massas variáveis, com denominação arbitrária por números e letras, e podem, na prática, ser recarregados com diversos materiais, inclusive projéteis únicos chamados balotes (massa de até cerca de 30 g) (B correta). A contraria a possibilidade prática de recarga e a denominação arbitrária. C inverte o conceito, pois o balote é projétil único. D é falsa, pois os balins não têm diâmetro igual ao calibre real."
+  },
+  {
+    "id": 1270,
+    "justificativa": "Conforme pp. 48-49, o calibre real é medido na porção mediana do cano (nunca na câmara nem na boca, em razão do choke); o choke é a redução do diâmetro da boca, classificado em Full, Improved Modified, Modified, Improved Cylinder e Cylinder (D correta). A é falsa, pois o calibre real não é medido na boca e o choke não amplia o diâmetro. B inverte os tipos, pois Full é o de maior estrangulamento e Cylinder é o sem choke. C inverte os asteriscos (Full corresponde a um asterisco; Improved Cylinder, a três)."
+  },
+  {
+    "id": 1271,
+    "justificativa": "Conforme pp. 49-50, o calibre nominal em alma lisa é o número de esferas de chumbo de diâmetro igual ao do cano que podem ser obtidas de uma libra (453,6 g) de chumbo; o calibre 12 corresponde a calibre real de cerca de 18,5 mm, advertindo-se que isso não significa que a munição utilize esferas com esse diâmetro (C correta). A confunde calibre nominal com diâmetro em milímetros. B é falsa, pois o calibre não corresponde ao número de balins do cartucho. D inverte a lógica, pois quanto maior o número nominal, menor o calibre real (ex.: calibre 36 = 10,2 mm)."
+  },
+  {
+    "id": 1272,
+    "justificativa": "Conforme p. 51, todas as armas devem ser desmuniciadas (com retirada de pente e dos cartuchos/estojos das câmaras), seguindo-se o fechamento e o acionamento das travas de segurança. A: incorreta, pois antes deve-se verificar a necessidade de papiloscopia/DNA. C e D: incorretas, a munição pode ser acondicionada em embalagem primária junto com a arma no mesmo envelope."
+  },
+  {
+    "id": 1273,
+    "justificativa": "Conforme p. 51-52, a descrição inicia-se pelas características mais genéricas (tipo, marca, modelo, calibre e número de série) e torna-se paulatinamente mais específica até as características individuais. A: inverte a sequência correta. B: o tambor deve ser descrito quanto a tipo (reversível ou fixo), movimentação (horária ou anti-horária) e número de câmaras. C: o cano dos revólveres deve ser medido incluindo o cone de forçamento."
+  },
+  {
+    "id": 1274,
+    "justificativa": "Conforme p. 52, identifica-se se o funcionamento é simples ou duplo e o sistema de percussão como central ou radial e direto ou indireto, com identificação do percussor (fixo ou articulado) quando a percussão é direta. A: incorreta, central/radial e direto/indireto referem-se ao sistema de percussão. B: inverte (é na percussão direta que se distingue fixo ou articulado). D: incorreta, devem ser indicados o carregador e a capacidade."
+  },
+  {
+    "id": 1275,
+    "justificativa": "Conforme p. 52-53, a cunhagem a frio altera a estrutura metálica situada por baixo dos caracteres impressos, gerando vestígios latentes reveláveis por reagentes adequados. B: incorreta, há situações em que a revelação é infrutífera. C: incorreta, os procedimentos são infrutíferos quando a impressão foi feita por laser. D: incorreta, exige reagentes específicos conforme o metal."
+  },
+  {
+    "id": 1277,
+    "justificativa": "Conforme p. 54, os procedimentos são infrutíferos se a impressão não tiver sido por cunhagem a frio (como nos processos a laser) e caso a adulteração tenha sido tão profunda que destrua os vestígios latentes. A: incorreta, o material não anula os efeitos de adulteração profunda. B: incorreta, é justamente a cunhagem a frio que permite a revelação. C: incorreta, o caso infrutífero também ocorre em armas metálicas com impressão a laser ou adulteração profunda."
+  },
+  {
+    "id": 1278,
+    "justificativa": "Conforme p. 56, testam-se alimentação, percussão, extração e ejeção, observando-se a ciclagem; defeito é qualquer interrupção do tiro ou da cadência, exceto problemas com a munição. B: incorreta, havendo dúvida sobre a integridade, o teste deve ser remoto (estativas). C: incorreta, problemas com a munição constituem exceção. D: incorreta, deve-se determinar se o defeito é reprodutível ou esporádico."
+  },
+  {
+    "id": 1280,
+    "justificativa": "Conforme p. 58-59, qualquer disparo prévio do perito formará resíduos que darão positivo; por isso a análise de nitritos deve ser a primeira tarefa. A: incorreta, disparos prévios contaminam o resultado. C: incorreta, são duas soluções (A e B) mantidas separadas e sob refrigeração. D: incorreta, o resultado positivo é coloração rosa intenso (formação de nitrosaminas)."
+  },
+  {
+    "id": 1281,
+    "justificativa": "Conforme p. 58-60, a reação forma nitrosaminas de coloração rosa intenso, com duas soluções (A e B) mantidas em frascos independentes e gotejadas separadamente sobre o suporte. B: incorreta, são duas soluções separadas, não uma única. C: incorreta, em estojos lava-se três vezes com ácido acético a 5% e nas águas de lavagem goteja-se o reagente. D: incorreta, a cor é rosa; o violeta refere-se ao rodizonato (chumbo)."
+  },
+  {
+    "id": 1282,
+    "justificativa": "Conforme p. 60, a prova de Iturrioz usava parafina derretida para remover os nitritos das mãos, analisados com Griess, e foi abandonada pelas mesmas incertezas dos testes de recenticidade. B: incorreta, a técnica moderna usa MEV, não Griess sobre a pele. C: incorreta, baseava-se em nitritos, não em bário e antimônio. D: incorreta, foi abandonada por falsos-positivos decorrentes de contaminação com chumbo."
+  },
+  {
+    "id": 1283,
+    "justificativa": "Conforme p. 60, a MEV detecta partículas microscópicas de forma característica contendo metais da mistura iniciadora (chumbo, bário e antimônio), caracterizadas como provenientes unicamente de disparos. A: incorreta, detecta as partículas da mistura iniciadora, não nitritos/nitratos. B: incorreta, a lavagem com água e sabão elimina os resíduos. C: incorreta, as partículas têm forma característica, distinguível de poeiras comuns."
+  },
+  {
+    "id": 1284,
+    "justificativa": "Conforme p. 61-63, pressiona-se (não se esfrega nem se gira) com no mínimo 50 toques ou até a fita perder a cola; a cada nova coleta trocam-se as luvas ou lavam-se as mãos. B: incorreta, não se esfrega nem se gira. C: incorreta, recomenda-se um envelope para cada pessoa ou objeto de coleta. D: incorreta, deve-se usar luvas (ou mãos lavadas), e a coleta abrange várias áreas (mãos, rosto, pescoço, vestes etc.)."
+  },
+  {
+    "id": 1285,
+    "justificativa": "Conforme p. 61, cerca de 90% positivos imediatamente após os disparos; cerca de 60% após duas horas; a lavagem com água corrente leva ao limite de detecção e a com água e sabão elimina completamente. A: incorreta, a lavagem compromete fortemente o resultado. C: incorreta, inverte os percentuais. D: incorreta, a atitude do atirador influencia fortemente os resultados."
+  },
+  {
+    "id": 1286,
+    "justificativa": "Conforme p. 63, a zona de tatuagem é determinada por grãos de pólvora incombusta (microprojéteis), com disposição concêntrica em tiros perpendiculares ou elíptica em tiros inclinados. A: incorreta, a zona de chama dificilmente se estende além de 10 cm. B: incorreta, o esfumaçamento é fuligem/partículas, não grãos incombustos. D: incorreta, são fenômenos distintos."
+  },
+  {
+    "id": 1287,
+    "justificativa": "Conforme p. 63-64, o limite prático é de cerca de um metro sem vento e cerca de meio metro com vento; o cobre é revelado pela ditiooxamida (ácido rubeânico), com coloração verde. A: incorreta, o limite não é fixo e o Griess revela nitritos (rosa), não chumbo. B: incorreta, os nitritos são revelados pelo Griess (rosa) e os compostos sulfurados estão apenas na pólvora negra. C: incorreta, troca os reagentes."
+  },
+  {
+    "id": 1288,
+    "justificativa": "Conforme p. 64, obtêm-se anteparos padrões similares ao questionado, preparam-se quadrados de meio metro de lado, efetuam-se disparos a distâncias conhecidas (do tiro encostado até cerca de um metro, em intervalos regulares), revela-se em padrões e questionado e compara-se por semelhança. A: incorreta, a estimativa exige anteparos padrões. B: incorreta, parte-se do tiro encostado até cerca de um metro. D: incorreta, o padrão deve ter características iguais ou similares ao questionado."
+  },
+  {
+    "id": 1289,
+    "justificativa": "Conforme p. 60-61, os revólveres possuem zonas de escape intenso na junção do tambor com o cano; pistolas e espingardas, com câmaras herméticas, quase não apresentam zonas de escape intensas. A: incorreta, as espingardas não apresentam as maiores zonas de escape. C: incorreta, o escape relevante é o dos revólveres, na junção tambor-cano. D: incorreta, a distribuição depende do tipo de arma."
+  },
+  {
+    "id": 1291,
+    "justificativa": "Conforme p. 67, os testes de eficiência seguem a IT 15/2012-DITEC/DPF e a amostragem é permitida (A correta). B erra: os estojos do teste são descartados, não devolvidos (ressalvados padrões destinados a confronto/BNPB). C contraria a permissão de amostragem. D nega a importância do registro fotográfico prévio, que é especialmente necessário porque o material deixa de existir após o exame."
+  },
+  {
+    "id": 1292,
+    "justificativa": "Conforme p. 68, reprodutibilidade: a elevada pressão interna durante o disparo deforma plasticamente os elementos de munição, imprimindo padrão que se repete a cada disparo; unicidade: as marcas são geradas aleatoriamente nos processos de fabricação e uso, sendo únicas para cada arma (C correta). A atribui a unicidade apenas ao desgaste do cano. B inverte e distorce os dois conceitos. D restringe indevidamente as marcas ao raiamento."
+  },
+  {
+    "id": 1293,
+    "justificativa": "Conforme p. 68-69, nunca se deve extrair o projétil por ação direta de ferramentas metálicas (condenável o uso de alicates ou pinças), nem escrever ou marcar projéteis e estojos questionados; o procedimento correto é escavar porção do material e remeter o conjunto, lançando a identificação na embalagem primária/envelope de segurança (D correta). A e B usam ferramentas metálicas e ainda marcam a giz ou lavam o projétil. C marca o projétil a caneta."
+  },
+  {
+    "id": 1294,
+    "justificativa": "Conforme p. 68-69, os materiais devem ser separados conforme a região de coleta (câmara, tambor, tubo, pente, quadrante ou região do local) e acondicionados em embalagem primária e envelope de segurança; havendo pedido de DNA ou papiloscópico, a limpeza só deve ocorrer após a finalização desses exames (B correta). A, C e D realizam a limpeza prévia, contaminando os exames, e/ou dispensam indevidamente a separação."
+  },
+  {
+    "id": 1295,
+    "justificativa": "Conforme p. 70, a autenticidade é o mais importante requisito do padrão: é autêntico quando tem origem certa e inquestionável, com a certeza de ter sido colhido com a arma questionada, recomendando-se que o próprio perito realize a coleta (A correta). B descreve a contemporaneidade. C descreve a adequabilidade. D mistura a noção de quantidade."
+  },
+  {
+    "id": 1296,
+    "justificativa": "Conforme p. 70, na coleta de estojos padrões o cartucho deve ter a mesma marca, calibre e composição do estojo questionado, sendo importante enviar os cartuchos encontrados com a arma, especialmente quando ela for importada ou utilize munição recarregada (A correta). C ignora a identidade de marca/composição. B dispensa a identidade de marca (CBC). D ignora marca e composição e ainda recorre a recarga genérica."
+  },
+  {
+    "id": 1297,
+    "justificativa": "Conforme p. 71, a contemporaneidade impõe colher o padrão no menor lapso de tempo possível após a produção do material questionado, em razão do pequeno desgaste do cano a cada disparo; quanto à quantidade, não é possível precisá-la, sendo o ideal enviar a arma e, caso impossível, colher no mínimo quatro padrões (B correta). A inventa prazo de trinta dias. C fixa quantidade inexistente (dez). D atribui ao MP a definição e confunde contemporaneidade com envio simultâneo."
+  },
+  {
+    "id": 1298,
+    "justificativa": "Conforme p. 71-72, verificada a desobstrução, o cano, ainda que chumbado, não deve ser limpo previamente: os primeiros padrões são colhidos no estado em que se encontra e, se inadequados, efetuam-se disparos com projéteis semiencamisados ou totalmente encamisados para limpar o chumbamento, coletando-se novos padrões (C correta). A inverte a ordem ao limpar antes. B nega indevidamente a viabilidade do exame. D ignora a alternativa de limpeza por disparos encamisados."
+  },
+  {
+    "id": 1299,
+    "justificativa": "Conforme p. 74, se as características macroscópicas (de classe) forem concordantes, sugere-se o exame microscópico; bastando que apenas uma delas seja discordante, o perito já pode afirmar com certeza que o projétil questionado não foi expelido pelo cano da arma questionada, sem necessidade de confronto microscópico (D correta). A e C tratam a discordância como contornável ou meramente inconclusiva. B recorre a calibres distintos."
+  },
+  {
+    "id": 1300,
+    "justificativa": "Conforme p. 76, o confronto entre estojos pode ocorrer entre padrão e questionado ou entre dois ou mais questionados (para verificar se foram percutidos/deflagrados pela mesma arma); em espingardas (alma lisa) e em armas de alta energia (rifles e fuzis, cujo projétil pode perder-se ou fragmentar-se), a comparação é, na maioria dos casos, feita apenas nos estojos (A correta). C restringe o exame à percussão. B atribui falsamente alma raiada à espingarda. D nega o confronto entre questionados."
+  },
+  {
+    "id": 1301,
+    "justificativa": "Conforme p. 77-78, o Estatuto do Desarmamento previu cadastro pelo SINARM, jamais implementado; em 2019, a Lei nº 13.964 acrescentou o art. 34-A à Lei nº 10.826/2003, criando o BNPB, e o Decreto nº 10.711/2021 instituiu formalmente o BNPB, criou o SINAB e o Comitê Gestor no MJSP (D correta). A atribui ao Estatuto a criação do BNPB e data erroneamente a implementação. B inverte os diplomas e a gestão. C atribui a criação à Portaria DITEC/PF nº 1493/2024 (p. 79), que apenas regula o encaminhamento de vestígios."
+  },
+  {
+    "id": 1302,
+    "justificativa": "Conforme p. 78, o SINAB é rede nacional de laboratórios que integra a PF e as Polícias Científicas das UFs, com SIBs conectados por rede segura a um servidor central que hospeda o BNPB (B correta). A tecnologia (IBIS) foi escolhida por licitação internacional precedida de prova de conceito, e o sistema não exclui as polícias estaduais (A errada). C nega o servidor central. D suprime a análise humana, pois os HITs são listas a serem analisadas por peritos."
+  },
+  {
+    "id": 1303,
+    "justificativa": "Conforme p. 78-79, os elementos passam por triagem em microscópio comparador óptico, selecionando-se as peças com melhores marcas para inserção; as correlações são automáticas no servidor central, considerando compatibilidade de calibre e características de classe, e as listas são analisadas por peritos, com confirmação por comparação microscópica tradicional (B correta). A exige inserção total, contrariando a triagem. C nega o servidor central. D suprime a análise humana e a confirmação microscópica, indispensáveis."
+  },
+  {
+    "id": 1304,
+    "justificativa": "Conforme p. 79, o SINAB possibilitou milhares de ligações, inclusive sem requisição prévia ou indícios de autoria, deslocando a perícia da postura reativa para a proativa e servindo à identificação de séries criminosas, à atuação contra organizações criminosas e à integração federal-estadual (D correta). A nega essa mudança de paradigma e os vínculos interestaduais. B condiciona a atuação à requisição formal, expressamente afastada. C exagera ao substituir a investigação policial."
+  },
+  {
+    "id": 1305,
+    "justificativa": "Conforme p. 79-80, a Portaria DITEC/PF nº 1493/2024 padroniza procedimentos para encaminhamento de vestígios balísticos e padrões para cadastro no BNPB; em todas as unidades do Sistema Nacional de Criminalística, os peritos responsáveis por local de crime ou por exames em armas apreendidas devem basear-se em suas diretrizes para seleção, preparo, coleta e embalagem, encaminhando os materiais ao INC, responsável pela inserção e busca no BNPB (D correta). A atribui indevidamente a inserção/busca às unidades de origem. B restringe o alcance da portaria. C nega seu papel orientador na seleção e coleta."
+  },
+  {
+    "id": 1306,
+    "justificativa": "Conforme o Anexo II (p. 87), os reagentes listados são químicos e destinam-se à revelação de caracteres em diversos metais; alguns metais possuem mais de uma solução reveladora (variantes brando, agressivo e variante), empregadas geralmente de forma individual em função das características da superfície a tratar, o que valida B. A é incorreta porque a ação é química, não abrasiva/mecânica. C erra ao afirmar universalidade: a solução é selecionada conforme o metal (aço-carbono/titânio, aço inoxidável, alumínio, cobre). D inverte o conceito, pois as soluções são usadas individualmente, não em combinação obrigatória."
+  },
+  {
+    "id": 1307,
+    "justificativa": "Conforme o Anexo II (p. 87), o Reagente de HATCHER (variantes brando, agressivo e variante para armas novas) é indicado para AÇO-CARBONO ou TITÂNIO, material do ferrolho da Glock 26 descrito no Anexo I (p. 84), o que torna D correta. TUCKER (A), KELLER/Potervin & Bastien (B) e HUME ROTHERY (C) são indicados para ALUMÍNIO E SUAS LIGAS, não para aço-carbono."
+  },
+  {
+    "id": 1308,
+    "justificativa": "Conforme o Anexo II (p. 87), o Reagente de BESSEMAN & HAEMERS (brando e agressivo) é o indicado para AÇO INOXIDÁVEL, material do revólver descrito como ARMA 1 (p. 83), o que valida A. HATCHER (B) destina-se a AÇO-CARBONO ou TITÂNIO. HUME ROTHERY (C) destina-se a ALUMÍNIO E SUAS LIGAS, não a ligas ferrosas. A composição de D (cloreto férrico + ácido clorídrico + água destilada) corresponde à solução para COBRE E SUAS LIGAS (p. 88), não havendo solução universal para todas as ligas."
+  },
+  {
+    "id": 1309,
+    "justificativa": "Conforme as ARMAS 1, 2 e 3 (p. 83-85), o modelo de descrição contém os itens classificação, marca, modelo, calibre, número de série, número e sentido das raias, comprimento do cano, acabamento, massa, carregamento, coronha e mecanismo de disparo, o que torna C correta. A contraria o padrão, pois a massa é descrita com o tambor vazio ou sem carregador. B inverte a obrigatoriedade desses itens. D está errada porque o mecanismo de disparo é item próprio e distinto do acabamento."
+  },
+  {
+    "id": 1310,
+    "justificativa": "Conforme o Anexo I (p. 85), no item 10 (carregamento) da ARMA 3 (espingarda AYA modelo 53), consta carregamento manual, efetuado diretamente nas câmaras de combustão, por meio de basculamento do cano, o que valida B. A descreve modo típico de fuzis/carabinas de carregador. C descreve revólver (ARMA 1, p. 83). D descreve espingarda de bombeamento (pump-action), modelo distinto."
+  },
+  {
+    "id": 1311,
+    "justificativa": "Conforme o Anexo III (p. 89), deformações normais de raiamento 6D significam seis raias dextrógiras (sentido horário, D) impressas no projétil pelo cano da arma, sendo deformação normal e não acidental, o que valida C. A confunde com deformações acidentais (impacto/ricochete). B é fisicamente incorreta (o projétil não percorre a alma várias vezes). D inverte o sentido, pois D corresponde a dextrógiro, não a sinistrógiro."
+  },
+  {
+    "id": 1312,
+    "justificativa": "Conforme o Anexo III (p. 89-90), a descrição corresponde ao item Fragmento de núcleo de projétil encamisado: núcleo de liga de chumbo, deformação em cogumelo por impacto, fragmento ósseo aderido e encaixe perfeito no encamisamento descrito em item separado, o que valida B. A é incorreta porque, embora se encaixe, núcleo e encamisamento estão separados, não constituindo projétil íntegro. C descreve estojo, item diverso (p. 89). D descreve a parte externa (encamisamento), enquanto o material em questão é o núcleo (parte interna de chumbo)."
+  }
+]

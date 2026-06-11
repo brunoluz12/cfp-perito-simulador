@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1217,
+    "alternativas": {
+      "A": "Estojo metálico, cápsula de espoletamento e carga de projeção.",
+      "B": "Cano raiado, propelente sem fumaça e projétil encamisado.",
+      "C": "Aparato arremessador, cápsula de espoletamento e projétil.",
+      "D": "Mecanismo de disparo, espoleta tipo Boxer e ogiva.",
+      "E": "Aparato arremessador, carga de projeção e projétil."
+    },
+    "justificativa": "O capítulo lista expressamente como elementos essenciais o aparato arremessador (a arma propriamente dita), a carga de projeção e o projétil, advertindo que só há arma de fogo quando os três coexistem (p. 12). A, C e D substituem o aparato arremessador ou a carga de projeção por componentes do cartucho (estojo, cápsula/espoleta) ou exigem características não essenciais (cano raiado, projétil encamisado, espoleta Boxer), confundindo partes da arma com partes da munição."
+  },
+  {
+    "id": 1220,
+    "alternativas": {
+      "A": "Munição de revólver, sendo classificado como estojo do tipo rim, por possuir aro saliente no culote.",
+      "B": "Munição de pistola, sendo classificado como estojo do tipo rimless, por não possuir borda saliente.",
+      "C": "Munição de fogo circular, na qual a escorva se aloja na borda oca e ressaltada do próprio estojo.",
+      "D": "Munição de pistola de uso restrito, sendo classificado como estojo do tipo semi-rim por possuir borda semissaliente.",
+      "E": "Munição para armamentos de alta potência e pequeno calibre, sendo denominado estojo do tipo garrafa."
+    },
+    "justificativa": "Estojos com estrangulamento na parte frontal (próximo à boca) são denominados garrafas e empregados em armamentos de alta potência e pequeno calibre, como rifles 5,56 OTAN e 7,62 OTAN (p. 15). A, B e D referem-se aos tipos de culote (rim, semi-rim, rimless), que dizem respeito à borda posterior, e não ao formato frontal do estojo; C descreve sistema de ignição (fogo circular), não formato do estojo."
+  },
+  {
+    "id": 1225,
+    "alternativas": {
+      "A": "Trata-se de pólvora negra moderna, composta por salitre, carvão e enxofre, utilizada em rifles de pequeno calibre.",
+      "B": "Trata-se de mistura iniciadora típica das espoletas tipo Boxer empregadas em cartuchos de fogo circular.",
+      "C": "Trata-se de pólvora química sem fumaça de base simples, pois a nitroglicerina apenas atua como estabilizante da nitrocelulose.",
+      "D": "Trata-se de pólvora viva, exclusivamente compatível com armas longas de alta potência, devido à queima progressiva.",
+      "E": "Trata-se de pólvora química sem fumaça classificada como pólvora de base dupla."
+    },
+    "justificativa": "As pólvoras sem fumaça constituídas de nitrocelulose e nitroglicerina recebem a denominação de pólvora de base dupla (p. 16). A é incorreta: pólvora negra é salitre, carvão e enxofre; B confunde com a escorva (estifinato de chumbo, nitrato de bário etc.); C erra ao classificar como base simples (esta é constituída somente de nitrocelulose); D inverte os conceitos, pois pólvoras vivas são para armas curtas (queima rápida) e as progressivas, para armas longas (p. 16)."
+  },
+  {
+    "id": 1251,
+    "alternativas": {
+      "A": "Nos revólveres de movimento simples em ação simples, a pressão no gatilho desloca o cão para a retaguarda a cada disparo, dispensando engatilhamento prévio.",
+      "B": "Os revólveres de movimento duplo exigem obrigatoriamente o engatilhamento manual do cão antes de cada disparo, não admitindo acionamento por dupla ação.",
+      "C": "Nos revólveres de movimento simples em ação simples, a dupla ação torna-se acessível após o primeiro disparo, quando o cão passa a ser recuado pelos gases.",
+      "D": "Os revólveres de ação simples e os de ação dupla constituem categorias mutuamente excludentes, inexistindo arma que funcione indiferentemente em ambos os modos.",
+      "E": "Os revólveres de movimento simples em ação dupla são característicos de armas de cão escamoteado, pois o cão não se imobiliza na posição engatilhada."
+    },
+    "justificativa": "Conforme p. 38, os revólveres de movimento simples em ação dupla são característicos de cão escamoteado, pois o cão não fica imobilizado na posição engatilhada. A: descreve a ação dupla; na ação simples o cão precisa ser engatilhado manualmente antes do disparo. B: os revólveres de movimento duplo funcionam indiferentemente em ação simples OU dupla, não exigindo engatilhamento obrigatório. C: na ação simples não há ciclagem por gases nem dupla ação subsequente; o engatilhamento é sempre manual. D: os revólveres de movimento duplo justamente combinam ambos os modos, não sendo categorias excludentes."
+  },
+  {
+    "id": 1255,
+    "alternativas": {
+      "A": "Mantém a culatra permanentemente travada durante todo o ciclo de tiro, impedindo a abertura ainda que o projétil já tenha deixado a boca do cano.",
+      "B": "Visa antecipar a abertura da culatra logo após a deflagração, aproveitando a alta pressão interna do cano para impulsionar a ejeção do estojo.",
+      "C": "É típico de pistolas de pequeno calibre (.22, .25 e .32), nas quais apenas o estojo recua após a deflagração da carga propelente.",
+      "D": "Dispensa o uso de mola recuperadora, pois o desaferrolhamento ocorre exclusivamente por inércia do conjunto bloco-ferrolho durante o recuo do estojo.",
+      "E": "Tem por objetivo retardar a abertura da culatra até que o projétil saia do cano, reduzindo a pressão interna a níveis seguros antes da extração do estojo."
+    },
+    "justificativa": "Conforme p. 41, em pistolas com culatra aferrolhada o objetivo é retardar a abertura da culatra até o momento ótimo (após a saída completa do projétil), reduzindo a pressão a níveis seguros antes da extração. A: o aferrolhamento é temporário (retarda a abertura), não permanente; a culatra abre após a saída do projétil para permitir a ciclagem. B: inverte o conceito - busca-se retardar, e não antecipar, a abertura. C: a culatra desaferrolhada (e não a aferrolhada) é típica dos pequenos calibres. D: a mola recuperadora é parte essencial do mecanismo, não sendo dispensada."
+  },
+  {
+    "id": 1262,
+    "alternativas": {
+      "A": "Possui cano de alma lisa com mais de vinte polegadas de comprimento e sistema de alimentação obrigatoriamente automático por recuperação a gás, sendo destinado ao tiro de assalto.",
+      "B": "É arma curta de repetição, de cano de alma raiada, empregada como armamento militar de assalto em substituição definitiva ao fuzil nos conflitos modernos, em razão de sua maior cadência e facilidade de transporte pelo combatente.",
+      "C": "Diferencia-se das carabinas por possuir, obrigatoriamente, dois canos sobrepostos ou justapostos de alma raiada, com calibre limitado às variações do .22\" e alimentação realizada exclusivamente por meio de ferrolho de acionamento manual.",
+      "D": "Caracteriza-se por possuir ferrolho dotado de alavanca característica e depósito de munição alojado no interior da coronha, elementos construtivos que o distinguem com clareza do fuzil de assalto, dotado de carregador externo de alimentação frontal.",
+      "E": "É arma longa, portátil e de repetição, com cano de alma raiada de mais de vinte polegadas e sem limitação de calibre, admitindo alimentação por ferrolho, por alavanca ou sistemas semiautomáticos."
+    },
+    "justificativa": "Segundo p. 43, o termo rifle deriva de rifled (raiado/estriado) e refere-se a armas longas, portáteis, de repetição, com cano de alma raiada de mais de vinte polegadas, sem limitação de calibre, com alimentação por ferrolho, alavanca ou sistemas semiautomáticos (E correta). A erra ao afirmar alma lisa e alimentação obrigatoriamente automática. B confunde rifle com fuzil de assalto e o classifica como arma curta. C inverte características próprias de armas mistas/duplas. D descreve, na verdade, o mosquetão (ferrolho com depósito na coronha)."
+  },
+  {
+    "id": 1276,
+    "alternativas": {
+      "A": "O polimento prévio da área deve ser evitado, por remover a estrutura deformada que origina os caracteres latentes a serem revelados.",
+      "B": "O reagente deve ser aplicado diretamente sobre toda a superfície da arma, sem qualquer preparo prévio de proteção ou polimento, a fim de garantir que os vestígios latentes existentes no metal não sejam alterados pelo manuseio durante o exame.",
+      "C": "A fotografia deve registrar apenas o resultado final, evitando-se imagens intermediárias que possam confundir a análise interpretativa do laudo.",
+      "D": "Após a primeira tentativa malsucedida, o exame deve ser descartado, pois novas aplicações comprometem definitivamente os vestígios latentes.",
+      "E": "Antes da aplicação do reagente, as partes da arma sem relação com a área a ser revelada devem ser protegidas com generosa camada de graxa, dada a presença de ácidos voláteis corrosivos."
+    },
+    "justificativa": "Conforme p. 54, primeiramente protegem-se com generosa camada de graxa as partes da arma sem relação com a área a ser revelada, pois os reagentes possuem ácidos voláteis corrosivos. A: incorreta, o polimento prévio integra o procedimento e não destrói os vestígios subjacentes. B: incorreta, exige proteção e polimento prévios. C: incorreta, é conveniente fotografar todas as etapas. D: incorreta, caso a primeira tentativa não tenha sucesso, repete-se o processo."
+  },
+  {
+    "id": 1279,
+    "alternativas": {
+      "A": "Um resultado positivo comprova com segurança a ocorrência de disparos pela arma, dada a especificidade dos nitritos como produto exclusivo da combustão da pólvora.",
+      "B": "Os nitritos formados na combustão são quimicamente estáveis e seu tempo de degradação no interior da arma segue comportamento previsível e reprodutível.",
+      "C": "Os nitritos não são solúveis em água nem encontrados em fontes naturais ou artificiais, o que confere ao teste elevada especificidade pericial.",
+      "D": "Um resultado negativo comprova de modo conclusivo que a arma não foi disparada, ainda que tenha havido limpeza ou lavagem do cano antes do exame.",
+      "E": "Um resultado positivo não comprova que os nitritos detectados tenham origem em disparo da arma, e um resultado negativo não comprova que não houve disparos."
+    },
+    "justificativa": "Conforme p. 57-58, o resultado positivo não comprova disparo (a origem dos nitritos pode ser externa) e o resultado negativo não comprova ausência de disparos (limpeza, lavagem, antiguidade). A: incorreta. B: incorreta, os nitritos são instáveis e a degradação não é previsível nem reprodutível. C: incorreta, são muito solúveis em água e encontrados em urina, cinzas, fertilizantes e aditivos alimentares. D: incorreta, o negativo não é conclusivo, sobretudo após limpeza ou lavagem."
+  },
+  {
+    "id": 1290,
+    "alternativas": {
+      "A": "A descrição deve iniciar pelas características específicas, como a estampa de fundo e o número de lote, progredindo para o calibre nominal apenas ao final, de modo a assegurar precisão analítica desde o princípio do laudo.",
+      "B": "É vedado o agrupamento de cartuchos com características idênticas, devendo cada exemplar ser fotografado e descrito individualmente, ainda que isso torne o laudo extenso.",
+      "C": "O agrupamento por características é admitido apenas para estojos deflagrados, jamais para cartuchos íntegros, os quais, por serem objeto de teste de eficiência, exigem descrição individualizada e fotografia separada de cada unidade efetivamente recebida pela unidade pericial.",
+      "D": "A descrição dispensa o registro fotográfico da estampa de fundo e a indicação do número de lote, bastando a menção textual do calibre nominal e do fabricante, por se tratar de material que continuará existindo após o exame.",
+      "E": "Diante da recorrência de grande quantidade de cartuchos iguais, admite-se agrupá-los por calibre nominal, fabricante e tipo de projétil para fotografia e descrição, iniciada esta pelas características genéricas e seguindo para as específicas."
+    },
+    "justificativa": "Conforme p. 67, a descrição inicia-se pelas características genéricas e segue para as específicas, e, diante da recorrência de grande quantidade de cartuchos com mesmas características, é comum agrupá-los por calibre nominal, fabricante e tipo de projétil para fotografias e descrição (E correta). A inverte a ordem (genérica para específica). B nega o agrupamento expressamente admitido. C cria distinção inexistente entre cartuchos íntegros e estojos para fins de agrupamento. D nega o registro fotográfico, que é relevante."
+  }
+]
