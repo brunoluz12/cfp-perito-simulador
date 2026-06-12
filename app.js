@@ -229,10 +229,35 @@ class MultiSelect {
         this.optionsContainer = rootEl.querySelector('.multi-select-options');
         this.placeholder = opts.placeholder || 'Selecionar...';
         this.allLabel = opts.allLabel || 'Todos selecionados';
+        this.searchPlaceholder = opts.searchPlaceholder || 'Pesquisar...';
         this.onChange = opts.onChange || (() => {});
         this.options = [];
         this.selected = new Set();
+        this.filterText = '';
+        this._groupEls = new Map();
+        this._buildSearch();
         this._bind();
+    }
+
+    // Campo de busca dentro do dropdown (filtra as opções conforme digita)
+    _buildSearch() {
+        const wrap = document.createElement('div');
+        wrap.className = 'multi-select-search';
+        const icon = document.createElement('i');
+        icon.className = 'ph ph-magnifying-glass';
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.placeholder = this.searchPlaceholder;
+        input.autocomplete = 'off';
+        input.addEventListener('click', (e) => e.stopPropagation());
+        input.addEventListener('input', () => {
+            this.filterText = input.value.trim().toLowerCase();
+            this._renderOptions();
+        });
+        wrap.appendChild(icon);
+        wrap.appendChild(input);
+        this.searchInput = input;
+        this.dropdown.insertBefore(wrap, this.optionsContainer);
     }
 
     _bind() {
@@ -263,60 +288,130 @@ class MultiSelect {
         this._updateLabel();
     }
 
+    _matchesFilter(opt) {
+        if (!this.filterText) return true;
+        return opt.label.toLowerCase().includes(this.filterText)
+            || (opt.group || '').toLowerCase().includes(this.filterText);
+    }
+
+    _criarOpcao(opt) {
+        const label = document.createElement('label');
+        label.className = 'multi-select-option';
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.value = opt.value;
+        cb.checked = this.selected.has(opt.value);
+        const txt = document.createElement('span');
+        txt.className = 'opt-text';
+        txt.textContent = opt.label;
+        label.appendChild(cb);
+        label.appendChild(txt);
+        if (opt.count != null) {
+            const c = document.createElement('span');
+            c.className = 'opt-count';
+            c.textContent = opt.count;
+            label.appendChild(c);
+        }
+        cb.addEventListener('change', () => {
+            if (cb.checked) this.selected.add(opt.value);
+            else this.selected.delete(opt.value);
+            this._updateLabel();
+            this._refreshGroupHeaders();
+            this.onChange(this.getSelected());
+        });
+        return label;
+    }
+
     _renderOptions() {
         this.optionsContainer.innerHTML = '';
+        this._groupEls = new Map();
+
         if (this.options.length === 0) {
             this.optionsContainer.innerHTML = '<div class="multi-select-empty">Nenhuma opção disponível</div>';
             return;
         }
-        this.options.forEach(opt => {
-            const label = document.createElement('label');
-            label.className = 'multi-select-option';
-            const cb = document.createElement('input');
-            cb.type = 'checkbox';
-            cb.value = opt.value;
-            cb.checked = this.selected.has(opt.value);
-            const txt = document.createElement('span');
-            txt.className = 'opt-text';
-            txt.textContent = opt.label;
-            label.appendChild(cb);
-            label.appendChild(txt);
-            if (opt.count != null) {
-                const c = document.createElement('span');
-                c.className = 'opt-count';
-                c.textContent = opt.count;
-                label.appendChild(c);
-            }
-            cb.addEventListener('change', () => {
-                if (cb.checked) this.selected.add(opt.value);
-                else this.selected.delete(opt.value);
+        const visiveis = this.options.filter(o => this._matchesFilter(o));
+        if (visiveis.length === 0) {
+            this.optionsContainer.innerHTML = '<div class="multi-select-empty">Nada encontrado para a busca</div>';
+            return;
+        }
+
+        const grupos = [...new Set(this.options.map(o => o.group))];
+        const usarGrupos = grupos.length > 1 && grupos.some(g => g != null);
+
+        if (!usarGrupos) {
+            visiveis.forEach(opt => this.optionsContainer.appendChild(this._criarOpcao(opt)));
+            return;
+        }
+
+        grupos.forEach(g => {
+            const visiveisDoGrupo = visiveis.filter(o => o.group === g);
+            if (visiveisDoGrupo.length === 0) return;
+            const todosDoGrupo = this.options.filter(o => o.group === g);
+
+            // Cabeçalho do grupo com checkbox que marca/desmarca o grupo todo
+            const header = document.createElement('div');
+            header.className = 'multi-select-group-header';
+            const gcb = document.createElement('input');
+            gcb.type = 'checkbox';
+            gcb.className = 'ms-group-cb';
+            gcb.title = 'Marcar/desmarcar todos do grupo';
+            gcb.addEventListener('click', (e) => e.stopPropagation());
+            gcb.addEventListener('change', () => {
+                const marcar = gcb.checked;
+                todosDoGrupo.forEach(o => {
+                    if (marcar) this.selected.add(o.value);
+                    else this.selected.delete(o.value);
+                });
+                this._syncCheckboxes();
                 this._updateLabel();
                 this.onChange(this.getSelected());
             });
-            this.optionsContainer.appendChild(label);
+            const nome = document.createElement('span');
+            nome.textContent = g;
+            const cnt = document.createElement('span');
+            cnt.className = 'opt-count';
+            header.appendChild(gcb);
+            header.appendChild(nome);
+            header.appendChild(cnt);
+            this.optionsContainer.appendChild(header);
+            this._groupEls.set(g, { cb: gcb, cnt });
+
+            visiveisDoGrupo.forEach(opt => this.optionsContainer.appendChild(this._criarOpcao(opt)));
+        });
+
+        this._refreshGroupHeaders();
+    }
+
+    _refreshGroupHeaders() {
+        this._groupEls.forEach((els, g) => {
+            const todos = this.options.filter(o => o.group === g);
+            const sel = todos.filter(o => this.selected.has(o.value)).length;
+            els.cb.checked = sel > 0 && sel === todos.length;
+            els.cb.indeterminate = sel > 0 && sel < todos.length;
+            els.cnt.textContent = `${sel}/${todos.length}`;
         });
     }
 
     _updateLabel() {
         const n = this.selected.size;
         const total = this.options.length;
-        if (total === 0) {
+        if (total === 0 || n === 0) {
             this.label.textContent = this.placeholder;
             this.label.classList.add('is-placeholder');
-        } else if (n === 0) {
-            this.label.textContent = this.placeholder;
-            this.label.classList.add('is-placeholder');
-        } else if (n === total) {
-            this.label.textContent = this.allLabel;
-            this.label.classList.remove('is-placeholder');
-        } else if (n === 1) {
-            const v = [...this.selected][0];
-            const opt = this.options.find(o => o.value === v);
-            this.label.textContent = opt ? opt.label : v;
-            this.label.classList.remove('is-placeholder');
+            return;
+        }
+        this.label.classList.remove('is-placeholder');
+        if (n === total) {
+            this.label.textContent = `${this.allLabel} (${total})`;
+        } else if (n <= 2) {
+            const nomes = [...this.selected].map(v => {
+                const o = this.options.find(x => x.value === v);
+                return o ? o.label : v;
+            });
+            this.label.textContent = nomes.join(' · ');
         } else {
-            this.label.textContent = `${n} selecionado(s)`;
-            this.label.classList.remove('is-placeholder');
+            this.label.textContent = `${n} de ${total} selecionados`;
         }
     }
 
@@ -335,15 +430,32 @@ class MultiSelect {
         this.onChange(this.getSelected());
     }
     _syncCheckboxes() {
-        this.optionsContainer.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        this.optionsContainer.querySelectorAll('input[type="checkbox"]:not(.ms-group-cb)').forEach(cb => {
             cb.checked = this.selected.has(cb.value);
         });
+        this._refreshGroupHeaders();
     }
-    open() { this.root.classList.add('is-open'); }
+    open() {
+        this.root.classList.add('is-open');
+        // Limpa a busca a cada abertura, para começar sempre da lista completa
+        if (this.searchInput) {
+            if (this.filterText) {
+                this.filterText = '';
+                this.searchInput.value = '';
+                this._renderOptions();
+            }
+            // No desktop, já deixa a busca pronta para digitar
+            // (no celular evita abrir o teclado sem o usuário pedir)
+            if (window.matchMedia('(min-width: 900px)').matches) {
+                this.searchInput.focus();
+            }
+        }
+    }
     close() { this.root.classList.remove('is-open'); }
     toggle() {
         if (this.trigger.disabled) return;
-        this.root.classList.toggle('is-open');
+        if (this.root.classList.contains('is-open')) this.close();
+        else this.open();
     }
     setDisabled(disabled) {
         this.trigger.disabled = disabled;
@@ -370,11 +482,13 @@ function carregarBancoQuestoes() {
         msDisciplina = new MultiSelect(document.getElementById('ms-disciplina'), {
             placeholder: 'Selecione disciplinas...',
             allLabel: 'Todas as disciplinas',
+            searchPlaceholder: 'Pesquisar disciplina...',
             onChange: () => atualizarFiltroConteudo()
         });
         msConteudo = new MultiSelect(document.getElementById('ms-conteudo'), {
             placeholder: 'Todos (ou selecione específicos)',
-            allLabel: 'Todos os conteúdos'
+            allLabel: 'Todos os conteúdos',
+            searchPlaceholder: 'Pesquisar conteúdo ou disciplina...'
         });
 
         msDisciplina.setOptions(disciplinas.map(d => ({
@@ -808,13 +922,21 @@ function atualizarFiltroConteudo() {
         return;
     }
     msConteudo.setDisabled(false);
-    const questoes = bancoQuestoes.filter(q => disciplinas.includes(q.disciplina));
-    const conteudos = [...new Set(questoes.map(q => q.conteudo))].sort(naturalSort);
-    msConteudo.setOptions(conteudos.map(c => ({
-        value: c,
-        label: c,
-        count: questoes.filter(q => q.conteudo === c).length
-    })));
+    // Agrupado por disciplina: o valor carrega o par disciplina+conteúdo,
+    // assim conteúdos de nome igual em disciplinas diferentes não se confundem
+    const opcoes = [];
+    disciplinas.slice().sort().forEach(d => {
+        const qs = bancoQuestoes.filter(q => q.disciplina === d);
+        [...new Set(qs.map(q => q.conteudo))].sort(naturalSort).forEach(c => {
+            opcoes.push({
+                value: d + '||' + c,
+                label: c,
+                count: qs.filter(q => q.conteudo === c).length,
+                group: d
+            });
+        });
+    });
+    msConteudo.setOptions(opcoes);
 }
 
 // ==========================================
@@ -850,6 +972,7 @@ function inicializarMultiSelectSimulado() {
     msSimDisciplina = new MultiSelect(root, {
         placeholder: 'Selecione disciplinas...',
         allLabel: 'Todas as disciplinas',
+        searchPlaceholder: 'Pesquisar disciplina...',
         onChange: (selecionadas) => renderizarArvoreSimulado(selecionadas)
     });
     const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
@@ -1094,8 +1217,15 @@ function gerarCaderno(e) {
     let questoesFiltradas = bancoQuestoes.filter(q => disciplinas.includes(q.disciplina));
 
     // Se algum conteúdo foi selecionado, filtra por eles. Se nenhum, considera todos.
+    // Os valores vêm como "disciplina||conteúdo" (seleção precisa por par).
     if (conteudosSelecionados.length > 0) {
-        questoesFiltradas = questoesFiltradas.filter(q => conteudosSelecionados.includes(q.conteudo));
+        const pares = conteudosSelecionados.map(v => {
+            const sep = v.indexOf('||');
+            return sep === -1 ? [null, v] : [v.slice(0, sep), v.slice(sep + 2)];
+        });
+        questoesFiltradas = questoesFiltradas.filter(q =>
+            pares.some(([d, c]) => (d === null || q.disciplina === d) && q.conteudo === c)
+        );
     }
 
     if (apenasFavoritas) {
