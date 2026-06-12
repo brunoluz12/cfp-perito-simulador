@@ -173,9 +173,7 @@ async function tryLogin(username) {
     // Mostrar aba Admin se for admin
     if (isAdmin) {
         const tabAdmin = document.getElementById('tab-admin');
-        const tabAdminDivider = document.getElementById('admin-tab-divider');
         if (tabAdmin) tabAdmin.style.display = '';
-        if (tabAdminDivider) tabAdminDivider.style.display = '';
         carregarUsuariosAdmin(); // Carrega badge de pendentes
     }
     
