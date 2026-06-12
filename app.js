@@ -2447,6 +2447,158 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnCalendar = document.getElementById('btn-view-calendar');
     
     if(!agendaCargo || typeof agendaDados === 'undefined') return;
+
+    const hojeCardEl = document.getElementById('agenda-hoje-card');
+    const resumoEl = document.getElementById('agenda-resumo');
+    const btnMesPrev = document.getElementById('btn-mes-prev');
+    const btnMesNext = document.getElementById('btn-mes-next');
+    const btnMesHoje = document.getElementById('btn-mes-hoje');
+
+    // --- Cores e nomes amigáveis por prefixo do código da aula ---
+    const AGENDA_DISC = {
+        'CRI':     { nome: 'Criminalística',                 cor: '#3b82f6' },
+        'BBDF':    { nome: 'Biometria e BDs Forenses',       cor: '#06b6d4' },
+        'AT':      { nome: 'Armamento e Tiro',               cor: '#ef4444' },
+        'IPO':     { nome: 'Investigação Policial',          cor: '#8b5cf6' },
+        'TEAP':    { nome: 'Tópicos Especializados',         cor: '#f59e0b' },
+        'PVAT':    { nome: 'Veículos e Acidentes',           cor: '#10b981' },
+        'TO':      { nome: 'Técnicas Operacionais',          cor: '#475569' },
+        'SOP':     { nome: 'Socorrismo Policial',            cor: '#ec4899' },
+        'DPP':     { nome: 'Defesa Pessoal',                 cor: '#b45309' },
+        'TFP':     { nome: 'Treinamento Físico',             cor: '#65a30d' },
+        'DPP/TFP': { nome: 'Defesa Pessoal + Treino Físico', cor: '#b45309' },
+        'TFP/DPP': { nome: 'Treino Físico + Defesa Pessoal', cor: '#b45309' },
+        'PRO':     { nome: 'Produtos e Contratações',        cor: '#0ea5e9' },
+        'PPROC':   { nome: 'Produtos e Contratações',        cor: '#0ea5e9' },
+        'PCEB':    { nome: 'Explosivos e Balística',         cor: '#dc2626' },
+        'PPCEXB':  { nome: 'Explosivos e Balística',         cor: '#dc2626' },
+        'DOC':     { nome: 'Documentoscopia',                cor: '#7c3aed' },
+        'LOC':     { nome: 'Locais de Crime',                cor: '#059669' },
+        'ISDC':    { nome: 'Socioemocional e Diversidade',   cor: '#d946ef' },
+        'DO':      { nome: 'Direção Operacional',            cor: '#f97316' },
+        'APC':     { nome: 'Atividade Policial em Campo',    cor: '#84cc16' },
+        'IF':      { nome: 'Informática Forense',            cor: '#0891b2' },
+        'JEC':     { nome: 'Jornada de Criminalística',      cor: '#1d4ed8' }
+    };
+    const COR_EVENTO = '#94a3b8';
+
+    function agendaInfoAula(aulaStr) {
+        const s = String(aulaStr || '');
+        const head = (s.split(/[\s(]/)[0] || '').trim().toUpperCase();
+        if (/^(EVENTOS?|AA|AMAG|IEC)$/.test(head)) {
+            const nome = s.replace(/^EVENTOS?\s*-?\s*/i, '').trim() || 'Evento';
+            return { nome, cor: COR_EVENTO, codigo: '', isEvento: true };
+        }
+        const info = AGENDA_DISC[head];
+        return {
+            nome: info ? info.nome : head,
+            cor: info ? info.cor : '#64748b',
+            codigo: s,
+            isEvento: false
+        };
+    }
+
+    function corAlpha(hex, a) {
+        const n = parseInt(hex.slice(1), 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + a + ')';
+    }
+
+    // Bloco de aula colorido (usado na lista, no card Hoje e por dia)
+    function blocoHtml(b) {
+        const info = agendaInfoAula(b.aula);
+        const codigo = info.isEvento ? '' : `<span class="agenda-codigo">${info.codigo}</span>`;
+        return `
+            <div class="agenda-bloco" style="border-left-color: ${info.cor};">
+                <span class="agenda-horario"><i class="ph ph-clock"></i> ${b.horario}</span>
+                <span class="agenda-disc" title="${b.aula}"><span class="disc-dot" style="background: ${info.cor};"></span>${info.nome}</span>
+                ${codigo}
+            </div>
+        `;
+    }
+
+    // Card "HOJE" no topo (só quando o mês exibido é o mês corrente)
+    function renderHeroHoje(data, ehMesAtual, diaHoje) {
+        if (!hojeCardEl) return;
+        if (!ehMesAtual) { hojeCardEl.style.display = 'none'; return; }
+        const diaData = data.find(item => parseInt(item.dia, 10) === diaHoje);
+        const agora = new Date();
+        const dataFmt = agora.toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long' });
+        let corpo;
+        const qtd = diaData && diaData.blocos ? diaData.blocos.length : 0;
+        if (qtd > 0) {
+            corpo = diaData.blocos.map(blocoHtml).join('');
+        } else {
+            const prox = data.map(it => parseInt(it.dia, 10)).filter(d => d > diaHoje).sort((a, b) => a - b)[0];
+            corpo = `<p class="hoje-vazio"><i class="ph ph-coffee"></i> Sem aulas hoje.${prox ? ` Próxima aula no dia <strong>${prox}</strong>.` : ''}</p>`;
+        }
+        hojeCardEl.innerHTML = `
+            <div class="glass-panel agenda-hoje-hero">
+                <div class="hoje-hero-header">
+                    <span class="hoje-pill">HOJE</span>
+                    <strong class="hoje-data">${dataFmt}</strong>
+                    ${qtd ? `<span class="hoje-count">${qtd} bloco${qtd > 1 ? 's' : ''} de aula</span>` : ''}
+                </div>
+                <div class="agenda-card-body">${corpo}</div>
+            </div>
+        `;
+        hojeCardEl.style.display = 'block';
+    }
+
+    // Resumo do mês: chips com a contagem de blocos por disciplina
+    function renderResumoMes(data) {
+        if (!resumoEl) return;
+        const contagem = new Map();
+        data.forEach(dia => (dia.blocos || []).forEach(b => {
+            const info = agendaInfoAula(b.aula);
+            const key = info.isEvento ? '__EVENTO__' : info.nome;
+            const cur = contagem.get(key) || { nome: info.isEvento ? 'Eventos' : info.nome, cor: info.cor, n: 0 };
+            cur.n++;
+            contagem.set(key, cur);
+        }));
+        if (contagem.size === 0) { resumoEl.style.display = 'none'; return; }
+        const itens = [...contagem.values()].sort((a, b) => b.n - a.n);
+        resumoEl.innerHTML = `
+            <div class="glass-panel agenda-resumo-panel">
+                <span class="resumo-title"><i class="ph ph-chart-pie-slice"></i> Resumo do mês</span>
+                <div class="resumo-chips">
+                    ${itens.map(it => `<span class="resumo-chip" title="${it.n} bloco(s) de aula no mês"><span class="disc-dot" style="background: ${it.cor};"></span>${it.nome}<b>${it.n}</b></span>`).join('')}
+                </div>
+            </div>
+        `;
+        resumoEl.style.display = 'block';
+    }
+
+    // Navegação rápida de mês (setas e botão Hoje)
+    function atualizarBotoesMes() {
+        const opts = Array.from(agendaMes.options).filter(o => !o.disabled);
+        const i = opts.findIndex(o => o.value === agendaMes.value);
+        if (btnMesPrev) btnMesPrev.disabled = i <= 0;
+        if (btnMesNext) btnMesNext.disabled = i === -1 || i >= opts.length - 1;
+        if (btnMesHoje) btnMesHoje.disabled = !opts.some(o => o.value === currentMonthStr);
+    }
+
+    function moverMes(delta) {
+        const opts = Array.from(agendaMes.options).filter(o => !o.disabled);
+        const i = opts.findIndex(o => o.value === agendaMes.value);
+        const novo = i + delta;
+        if (i === -1 || novo < 0 || novo >= opts.length) return;
+        agendaMes.value = opts[novo].value;
+        renderAgenda();
+    }
+
+    if (btnMesPrev) btnMesPrev.addEventListener('click', () => moverMes(-1));
+    if (btnMesNext) btnMesNext.addEventListener('click', () => moverMes(1));
+    if (btnMesHoje) btnMesHoje.addEventListener('click', () => {
+        if (Array.from(agendaMes.options).some(o => o.value === currentMonthStr)) {
+            agendaMes.value = currentMonthStr;
+            renderAgenda();
+            setTimeout(() => {
+                const alvo = document.querySelector('#agenda-cards-container .agenda-hoje') ||
+                             document.querySelector('#agenda-calendar-container .calendar-day.hoje');
+                if (alvo) alvo.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 80);
+        }
+    });
     
     // Toggle de visões
     btnList.addEventListener('click', (e) => {
@@ -2474,6 +2626,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     if (agendaDados.cargos.length > 0) {
         agendaCargo.value = agendaDados.cargos[0].id;
+    }
+    // Com um único cargo, o seletor é redundante — esconde o campo
+    if (agendaDados.cargos.length <= 1) {
+        const cargoGroup = document.querySelector('.agenda-cargo-group');
+        if (cargoGroup) cargoGroup.style.display = 'none';
     }
     
     // Popular meses
@@ -2519,24 +2676,39 @@ document.addEventListener('DOMContentLoaded', () => {
         if(!data || data.length === 0) {
             agendaContainer.innerHTML = '<div class="glass-panel" style="text-align: center; color: var(--text-muted);">Nenhuma agenda encontrada para este mês.</div>';
             agendaCalendarContainer.innerHTML = '';
+            if (hojeCardEl) hojeCardEl.style.display = 'none';
+            if (resumoEl) resumoEl.style.display = 'none';
+            atualizarBotoesMes();
             return;
         }
         
+        // Datas de referência para marcar hoje/passado
+        const [mStrRef, yStrRef] = mesId.split('-');
+        const mesNumRef = parseInt(mStrRef, 10);
+        const anoNumRef = parseInt(yStrRef, 10);
+        const agora = new Date();
+        const inicioHoje = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate());
+        const ehMesAtual = (agora.getMonth() + 1 === mesNumRef) && (agora.getFullYear() === anoNumRef);
+        const diaHoje = agora.getDate();
+
+        renderHeroHoje(data, ehMesAtual, diaHoje);
+        renderResumoMes(data);
+
         data.forEach(dia => {
+            const diaNum = parseInt(dia.dia, 10);
+            const isHoje = ehMesAtual && diaNum === diaHoje;
+            const isPassado = new Date(anoNumRef, mesNumRef - 1, diaNum) < inicioHoje;
+            const statusBadge = isHoje
+                ? '<span class="agenda-dia-badge hoje-pill">HOJE</span>'
+                : (isPassado ? '<span class="agenda-dia-badge passado-pill"><i class="ph ph-check"></i> concluído</span>' : '');
             const card = document.createElement('div');
-            card.className = 'glass-panel agenda-card';
-            if(dia.blocos.some(b => b.destaque)) card.classList.add('destaque');
+            card.className = 'glass-panel agenda-card' + (isHoje ? ' agenda-hoje' : '') + (isPassado ? ' agenda-passado' : '');
             
-            let blocosHtml = dia.blocos.map(b => `
-                <div class="agenda-bloco">
-                    <span class="agenda-horario"><i class="ph ph-clock"></i> ${b.horario}</span>
-                    <span class="agenda-aula ${b.destaque ? 'destaque-text' : ''}">${b.aula}</span>
-                </div>
-            `).join('');
+            let blocosHtml = dia.blocos.map(blocoHtml).join('');
             
             card.innerHTML = `
                 <div class="agenda-card-header">
-                    <span class="dia-numero">Dia ${dia.dia}</span>
+                    <span class="dia-numero">Dia ${dia.dia} ${statusBadge}</span>
                     <span class="dia-semana">${dia.diaSemana}</span>
                 </div>
                 <div class="agenda-card-body">
@@ -2572,20 +2744,23 @@ document.addEventListener('DOMContentLoaded', () => {
             let classesHtml = '';
             if (diaData && diaData.blocos) {
                 diaData.blocos.forEach(b => {
+                    const info = agendaInfoAula(b.aula);
                     classesHtml += `
-                        <div class="calendar-event ${b.destaque ? 'evento-destaque' : ''}">
-                            <span class="horario">${b.horario}</span>
-                            <span class="aula">${b.aula}</span>
+                        <div class="calendar-event" style="border-left-color: ${info.cor}; background: ${corAlpha(info.cor, 0.12)}; color: ${info.cor};" title="${b.horario} — ${b.aula}">
+                            <span class="horario">${b.horario.split(' ')[0]}</span>
+                            <span class="aula">${info.nome}</span>
                         </div>
                     `;
                 });
             }
-            
-            const isDestaque = diaData && diaData.blocos.some(b => b.destaque) ? 'dia-destaque' : '';
-            
+
+            const isHojeCal = ehMesAtual && d === diaHoje;
+            const isPassadoCal = new Date(anoNumRef, mesNumRef - 1, d) < inicioHoje;
+            const classesDia = (isHojeCal ? ' hoje' : '') + (isPassadoCal ? ' passado' : '');
+
             calendarHtml += `
-                <div class="glass-panel calendar-day ${isDestaque}">
-                    <div class="calendar-day-number">${d}</div>
+                <div class="glass-panel calendar-day${classesDia}">
+                    <div class="calendar-day-number">${isHojeCal ? '<span class="cal-hoje-pill">HOJE</span> ' : ''}${d}</div>
                     <div class="calendar-events-container">
                         ${classesHtml}
                     </div>
@@ -2595,6 +2770,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         calendarHtml += '</div>';
         agendaCalendarContainer.innerHTML = calendarHtml;
+
+        atualizarBotoesMes();
     }
 });
 

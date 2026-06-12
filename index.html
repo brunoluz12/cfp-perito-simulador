@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=15">
+    <link rel="stylesheet" href="style.css?v=16">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -416,20 +416,25 @@
         <!-- TELA DE AGENDA -->
         <main id="agenda-view" class="view">
             <div class="glass-panel agenda-config-panel">
-                <div class="form-row">
-                    <div class="form-group">
+                <div class="agenda-toolbar">
+                    <div class="form-group agenda-cargo-group">
                         <label for="agenda-cargo-select"><i class="ph ph-briefcase"></i> Cargo</label>
                         <select id="agenda-cargo-select">
                             <option value="" disabled selected>Selecione o cargo</option>
                         </select>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group agenda-mes-group">
                         <label for="agenda-mes-select"><i class="ph ph-calendar"></i> Mês</label>
-                        <select id="agenda-mes-select" disabled>
-                            <option value="" disabled selected>Selecione o mês</option>
-                        </select>
+                        <div class="month-nav">
+                            <button id="btn-mes-prev" class="btn-secondary" type="button" aria-label="Mês anterior"><i class="ph ph-caret-left"></i></button>
+                            <select id="agenda-mes-select" disabled>
+                                <option value="" disabled selected>Selecione o mês</option>
+                            </select>
+                            <button id="btn-mes-next" class="btn-secondary" type="button" aria-label="Próximo mês"><i class="ph ph-caret-right"></i></button>
+                            <button id="btn-mes-hoje" class="btn-secondary btn-icon" type="button"><i class="ph ph-crosshair"></i> Hoje</button>
+                        </div>
                     </div>
-                    <div class="form-group" style="align-self: flex-end;">
+                    <div class="form-group agenda-view-group">
                         <div class="view-toggle">
                             <button id="btn-view-list" class="btn-toggle active"><i class="ph ph-list-dashes"></i> Lista</button>
                             <button id="btn-view-calendar" class="btn-toggle"><i class="ph ph-calendar-blank"></i> Calendário</button>
@@ -437,7 +442,10 @@
                     </div>
                 </div>
             </div>
-            
+
+            <div id="agenda-hoje-card" class="mt-4" style="display: none;"></div>
+            <div id="agenda-resumo" class="mt-4" style="display: none;"></div>
+
             <div id="agenda-cards-container" class="mt-4" style="display: flex; flex-direction: column; gap: 16px;">
                 <!-- Cards renderizados via JS -->
             </div>
@@ -714,7 +722,7 @@
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=36"></script>
     <script src="flashcards.js?v=1"></script>
-    <script src="app.js?v=31"></script>
+    <script src="app.js?v=32"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>

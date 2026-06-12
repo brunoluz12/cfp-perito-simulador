@@ -1993,6 +1993,212 @@ html.dark-mode #material-iframe {
 }
 
 /* ==========================================
+   AGENDA — TOOLBAR, HOJE, RESUMO E CORES
+   ========================================== */
+.agenda-toolbar {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.agenda-toolbar .form-group {
+    margin-bottom: 0;
+}
+.agenda-mes-group {
+    flex: 1;
+    min-width: 300px;
+}
+.month-nav {
+    display: flex;
+    gap: 6px;
+    align-items: stretch;
+}
+.month-nav select {
+    flex: 1;
+    min-width: 150px;
+}
+.month-nav .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+.month-nav button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* Card HOJE (hero) */
+.agenda-hoje-hero {
+    border: 1px solid rgba(59, 130, 246, 0.35);
+}
+.hoje-hero-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--panel-border);
+}
+.hoje-pill {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    padding: 3px 10px;
+    border-radius: 9999px;
+}
+.hoje-data {
+    font-size: 1.02rem;
+    text-transform: capitalize;
+    color: var(--text-main);
+}
+.hoje-count {
+    margin-left: auto;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.hoje-vazio {
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+}
+
+/* Resumo do mês */
+.agenda-resumo-panel {
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.resumo-title {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+.resumo-chips {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+.resumo-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-main);
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid var(--panel-border);
+    padding: 4px 10px;
+    border-radius: 9999px;
+}
+.resumo-chip b {
+    color: var(--text-muted);
+    font-weight: 700;
+}
+.disc-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* Blocos de aula coloridos por disciplina */
+.agenda-bloco {
+    border-left: 3px solid transparent;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.agenda-disc {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    color: var(--text-main);
+    flex: 1;
+    min-width: 0;
+}
+.agenda-codigo {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.04);
+    padding: 2px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+/* Estados do dia (lista) */
+.agenda-dia-badge {
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    margin-left: 6px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+}
+.agenda-dia-badge.hoje-pill {
+    background: var(--primary-color);
+    color: #fff;
+}
+.agenda-dia-badge.passado-pill {
+    background: rgba(16, 185, 129, 0.12);
+    color: var(--success-color);
+    text-transform: uppercase;
+}
+.agenda-card.agenda-hoje {
+    border: 1px solid rgba(59, 130, 246, 0.45);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12), var(--shadow-panel);
+}
+.agenda-card.agenda-passado {
+    opacity: 0.55;
+    transition: opacity 0.2s ease;
+}
+.agenda-card.agenda-passado:hover {
+    opacity: 1;
+}
+
+/* Estados do dia (calendário) */
+.calendar-day.hoje {
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+.calendar-day.passado {
+    opacity: 0.55;
+    transition: opacity 0.2s ease;
+}
+.calendar-day.passado:hover {
+    opacity: 1;
+}
+.cal-hoje-pill {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding: 1px 7px;
+    border-radius: 9999px;
+    float: left;
+}
+
+/* ==========================================
    TELA DE AGENDA - CALENDÁRIO
    ========================================== */
 #agenda-calendar-container {
@@ -3954,6 +4160,21 @@ html.dark-mode .agenda-config-panel {
     background: rgba(15, 23, 42, 0.5);
     border-color: rgba(255, 255, 255, 0.08);
 }
+html.dark-mode .agenda-card.agenda-hoje {
+    border-color: rgba(59, 130, 246, 0.55);
+}
+html.dark-mode .calendar-day.hoje {
+    border-color: var(--primary-color);
+}
+html.dark-mode .resumo-chip {
+    background: rgba(255, 255, 255, 0.05);
+}
+html.dark-mode .agenda-codigo {
+    background: rgba(255, 255, 255, 0.07);
+}
+html.dark-mode .agenda-hoje-hero {
+    border-color: rgba(59, 130, 246, 0.45);
+}
 
 /* Material iframe - mantém o iframe claro (conteúdo é estático),
    mas ajusta a borda do container */
@@ -4116,6 +4337,23 @@ html.dark-mode .option-letter {
     /* Cards de agenda - ajusta padding interno */
     #agenda-cards-container > div {
         font-size: 0.85rem;
+    }
+    .agenda-toolbar {
+        gap: 10px;
+    }
+    .agenda-mes-group {
+        min-width: 100%;
+    }
+    .month-nav .btn-secondary {
+        padding: 8px 10px;
+    }
+    /* No celular o código da aula fica no title; esconde para poupar espaço */
+    .agenda-codigo {
+        display: none;
+    }
+    .hoje-count {
+        width: 100%;
+        margin-left: 0;
     }
 
     /* CONTROLE */
