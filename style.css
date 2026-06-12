@@ -3873,13 +3873,43 @@ html.dark-mode .option-letter {
     .options-container .option-btn {
         padding: 10px 12px !important;
         font-size: 0.88rem;
+        min-height: 44px; /* alvo de toque confortável */
     }
     .action-panel {
         flex-direction: column;
         gap: 8px !important;
+        /* Barra de resposta sempre ao alcance do polegar em questões longas */
+        position: sticky;
+        bottom: 8px;
+        z-index: 50;
+        background: var(--panel-bg);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid var(--panel-border);
+        border-radius: var(--radius-md);
+        padding: 8px;
+        box-shadow: var(--shadow-panel);
     }
     .action-panel button {
         width: 100%;
+    }
+    .kbd-hint {
+        display: none; /* atalhos de teclado não se aplicam no celular */
+    }
+    .quiz-palette {
+        padding: 8px;
+        gap: 5px;
+    }
+    .palette-chip {
+        min-width: 36px;
+        height: 36px;
+    }
+    .reader-footer {
+        flex-direction: column;
+    }
+    .reader-footer button {
+        width: 100%;
+        justify-content: center;
     }
     .feedback-panel {
         padding: 16px;
