@@ -263,6 +263,10 @@
                 <button id="btn-finalizar-quiz" class="btn-secondary btn-icon">Encerrar <i class="ph ph-stop-circle"></i></button>
             </div>
 
+            <div id="quiz-palette" class="quiz-palette" style="display: none;">
+                <!-- Chips numerados gerados via JS -->
+            </div>
+
             <div class="glass-panel question-panel">
                 <div class="question-meta-wrapper">
                     <div class="question-meta">
@@ -275,40 +279,38 @@
                     </button>
                 </div>
                 <h3 id="q-enunciado" class="question-text">Carregando questão...</h3>
-                
+
                 <div id="q-alternativas" class="options-container">
                     <!-- Geradas dinamicamente -->
                 </div>
-                
-                <div class="action-panel mt-4" style="display: flex; gap: 12px;">
-                    <button id="btn-anterior" class="btn-secondary" style="display: none; flex: 1;"><i class="ph ph-arrow-left"></i> Anterior</button>
-                    <button id="btn-responder" class="btn-primary" style="flex: 2;" disabled>Responder</button>
-                </div>
-                
-                <div class="personal-notes-container mt-4">
-                    <div class="notes-header">
-                        <label for="q-comment"><i class="ph ph-note-pencil"></i> Meus Comentários</label>
-                        <span id="comment-status" class="status-msg"></span>
-                    </div>
-                    <textarea id="q-comment" class="custom-textarea" placeholder="Adicione uma anotação pessoal para revisar depois..."></textarea>
-                    <button id="btn-save-comment" class="btn-secondary btn-sm mt-2">Salvar Anotação</button>
-                </div>
-            </div>
 
-            <!-- Painel de Feedback (Justificativa) -->
-            <div id="feedback-panel" class="glass-panel feedback-panel hidden">
-                <div class="feedback-header">
-                    <h4 id="feedback-title"><i class="ph ph-check-circle"></i> Resposta Correta!</h4>
-                    <span id="feedback-gabarito" class="badge">Gabarito: C</span>
+                <div class="action-panel mt-4">
+                    <button id="btn-anterior" class="btn-secondary" style="display: none;"><i class="ph ph-arrow-left"></i> Anterior</button>
+                    <button id="btn-responder" class="btn-primary" disabled>Responder</button>
                 </div>
-                <div class="feedback-content">
-                    <p id="feedback-justificativa">Justificativa aqui.</p>
-                    <p class="referencia"><i class="ph ph-book-open"></i> Referência: <span id="feedback-referencia"></span></p>
+                <p class="kbd-hint">Atalhos: <kbd>A</kbd>–<kbd>D</kbd> seleciona · <kbd>Enter</kbd> responde e avança · <kbd>←</kbd> <kbd>→</kbd> navegam · duplo clique risca a alternativa</p>
+
+                <!-- Feedback (justificativa) — logo abaixo das alternativas -->
+                <div id="feedback-panel" class="feedback-panel hidden">
+                    <div class="feedback-header">
+                        <h4 id="feedback-title"><i class="ph ph-check-circle"></i> Resposta Correta!</h4>
+                        <span id="feedback-gabarito" class="badge">Gabarito: C</span>
+                    </div>
+                    <div class="feedback-content">
+                        <p id="feedback-justificativa">Justificativa aqui.</p>
+                        <p class="referencia"><i class="ph ph-book-open"></i> Referência: <span id="feedback-referencia"></span></p>
+                    </div>
+                    <div class="feedback-actions">
+                        <button id="btn-feedback-anterior" class="btn-secondary" style="display: none; margin-right: auto;"><i class="ph ph-arrow-left"></i> Anterior</button>
+                        <button id="btn-proxima" class="btn-primary" style="width: auto;">Próxima Questão <i class="ph ph-arrow-right"></i></button>
+                    </div>
                 </div>
-                <div class="feedback-actions">
-                    <button id="btn-feedback-anterior" class="btn-secondary" style="display: none; margin-right: auto;"><i class="ph ph-arrow-left"></i> Anterior</button>
-                    <button id="btn-proxima" class="btn-primary" style="width: auto;">Próxima Questão <i class="ph ph-arrow-right"></i></button>
-                </div>
+
+                <details id="notes-details" class="personal-notes-container mt-4">
+                    <summary class="notes-summary"><i class="ph ph-note-pencil"></i> Meus Comentários <span id="comment-status" class="status-msg"></span></summary>
+                    <textarea id="q-comment" class="custom-textarea mt-2" placeholder="Adicione uma anotação pessoal para revisar depois..."></textarea>
+                    <button id="btn-save-comment" class="btn-secondary btn-sm mt-2">Salvar Anotação</button>
+                </details>
             </div>
         </main>
         

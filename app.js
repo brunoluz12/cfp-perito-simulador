@@ -616,9 +616,105 @@ function showView(viewName) {
     views[viewName].classList.add('active');
 }
 
+// Limpa o estado de sessão das questões selecionadas. Os objetos do banco são
+// reutilizados entre cadernos — sem isso, uma questão respondida num caderno
+// anterior apareceria já respondida no caderno novo.
+function resetarEstadoSessao(questoes) {
+    questoes.forEach(q => {
+        delete q.foi_respondida_neste_simulado;
+        delete q.letra_escolhida_neste_simulado;
+        delete q.acertou_neste_simulado;
+    });
+}
+
+// ==========================================
+// PALETA DE QUESTÕES (navegação numerada do caderno)
+// ==========================================
+function atualizarPaleta() {
+    const wrap = document.getElementById('quiz-palette');
+    if (!wrap) return;
+    if (!simuladoAtual || simuladoAtual.length <= 1) {
+        wrap.style.display = 'none';
+        return;
+    }
+    wrap.style.display = 'flex';
+
+    // (Re)constrói os chips apenas quando o tamanho do caderno muda
+    if (wrap.childElementCount !== simuladoAtual.length) {
+        wrap.innerHTML = '';
+        simuladoAtual.forEach((_, i) => {
+            const chip = document.createElement('button');
+            chip.type = 'button';
+            chip.className = 'palette-chip';
+            chip.textContent = i + 1;
+            chip.addEventListener('click', () => {
+                questaoAtualIndex = i;
+                carregarQuestaoUI();
+            });
+            wrap.appendChild(chip);
+        });
+    }
+
+    Array.from(wrap.children).forEach((chip, i) => {
+        const q = simuladoAtual[i];
+        chip.classList.toggle('current', i === questaoAtualIndex);
+        chip.classList.toggle('answered-correct', !!q.foi_respondida_neste_simulado && !!q.acertou_neste_simulado);
+        chip.classList.toggle('answered-wrong', !!q.foi_respondida_neste_simulado && !q.acertou_neste_simulado);
+    });
+
+    const atual = wrap.children[questaoAtualIndex];
+    if (atual) atual.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+}
+
+// ==========================================
+// ATALHOS DE TECLADO NO QUIZ
+// A–D seleciona (C/E em certo-errado) · Enter responde/avança · ←/→ navegam
+// ==========================================
+function handleQuizKeydown(e) {
+    const quizView = views.quiz;
+    if (!quizView || !quizView.classList.contains('active')) return;
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || tag === 'select' || e.ctrlKey || e.metaKey || e.altKey) return;
+    // Enter com foco em botões de navegação (Voltar, Encerrar...) deixa o botão agir
+    if (e.key === 'Enter' && tag === 'button' && !e.target.classList.contains('option-btn')) return;
+
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q) return;
+
+    const feedbackVisivel = !document.getElementById('feedback-panel').classList.contains('hidden');
+    const key = e.key.toUpperCase();
+
+    if (['A', 'B', 'C', 'D', 'E'].includes(key) && e.key.length === 1) {
+        let alvo = key;
+        if (q.tipo === 'certo_errado') {
+            alvo = key === 'C' ? 'Certo' : (key === 'E' ? 'Errado' : null);
+        }
+        if (!alvo) return;
+        const btn = document.querySelector(`#q-alternativas .option-btn[data-valor="${alvo}"]`);
+        if (btn && !btn.disabled) {
+            selecionarOpcao(btn);
+            e.preventDefault();
+        }
+    } else if (e.key === 'Enter') {
+        const btnResponder = document.getElementById('btn-responder');
+        if (btnResponder.style.display !== 'none' && !btnResponder.disabled) {
+            verificarResposta();
+            e.preventDefault();
+        } else if (feedbackVisivel) {
+            proximaQuestao();
+            e.preventDefault();
+        }
+    } else if (e.key === 'ArrowLeft') {
+        questaoAnterior();
+    } else if (e.key === 'ArrowRight') {
+        if (feedbackVisivel) proximaQuestao();
+    }
+}
+
 // FLUXO DO SIMULADO
 function configurarEventos() {
     document.getElementById('config-form').addEventListener('submit', gerarCaderno);
+    document.addEventListener('keydown', handleQuizKeydown);
     
     // Busca por ID
     const btnBuscaId = document.getElementById('btn-busca-id');
@@ -635,6 +731,7 @@ function configurarEventos() {
             }
             
             simuladoAtual = [questao];
+            resetarEstadoSessao(simuladoAtual);
             questaoAtualIndex = 0;
             acertosSimulado = 0;
             errosSimulado = 0;
@@ -965,6 +1062,7 @@ function gerarSimuladoModal() {
     }
 
     simuladoAtual = todasSorteadas;
+    resetarEstadoSessao(simuladoAtual);
     questaoAtualIndex = 0;
     acertosSimulado = 0;
     errosSimulado = 0;
@@ -1038,6 +1136,7 @@ function gerarCaderno(e) {
     }
 
     // Resetar estado
+    resetarEstadoSessao(simuladoAtual);
     questaoAtualIndex = 0;
     acertosSimulado = 0;
     errosSimulado = 0;
@@ -1117,6 +1216,10 @@ function carregarQuestaoUI() {
     const commentBox = document.getElementById('q-comment');
     commentBox.value = comentarios[q.id] || '';
     document.getElementById('comment-status').classList.remove('show');
+
+    // Abre as anotações automaticamente apenas se a questão já tem comentário
+    const notesDetails = document.getElementById('notes-details');
+    if (notesDetails) notesDetails.open = !!comentarios[q.id];
     
     // Enunciado
     document.getElementById('q-enunciado').textContent = q.enunciado;
@@ -1178,7 +1281,9 @@ function carregarQuestaoUI() {
         }
         mostrarFeedback(q, q.acertou_neste_simulado);
     }
-    
+
+    atualizarPaleta();
+
     // Rolar para o topo
     window.scrollTo(0, 0);
 }
@@ -1276,7 +1381,8 @@ function verificarResposta() {
     }
     
     salvarEstatisticas();
-    
+    atualizarPaleta();
+
     // Mostrar feedback
     mostrarFeedback(q, isAcerto);
 }
@@ -1306,6 +1412,11 @@ function mostrarFeedback(q, isAcerto) {
     } else {
         btnProx.innerHTML = 'Próxima Questão <i class="ph ph-arrow-right"></i>';
     }
+
+    // Garante que a justificativa fique visível sem o usuário precisar rolar
+    setTimeout(() => {
+        panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 80);
 }
 
 function proximaQuestao() {

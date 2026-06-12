@@ -1102,14 +1102,99 @@ textarea:focus-visible {
     color: white;
 }
 
-/* FEEDBACK PANEL */
+/* AÇÕES DO QUIZ (Anterior / Responder) */
+.action-panel {
+    display: flex;
+    gap: 12px;
+}
+.action-panel #btn-anterior { flex: 1; }
+.action-panel #btn-responder { flex: 2; }
+
+/* Dica de atalhos de teclado */
+.kbd-hint {
+    margin-top: 12px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+.kbd-hint kbd {
+    background: rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--panel-border);
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-family: inherit;
+    font-size: 0.72rem;
+    font-weight: 600;
+}
+
+/* PALETA DE QUESTÕES (navegação numerada) */
+.quiz-palette {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-md);
+    scrollbar-width: thin;
+}
+.quiz-palette::-webkit-scrollbar { height: 5px; }
+.quiz-palette::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
+
+.palette-chip {
+    min-width: 32px;
+    height: 32px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--panel-border);
+    background: rgba(255, 255, 255, 0.7);
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.palette-chip:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.palette-chip.answered-correct {
+    background: var(--success-bg);
+    border-color: rgba(16, 185, 129, 0.35);
+    color: #047857;
+}
+.palette-chip.answered-wrong {
+    background: var(--error-bg);
+    border-color: rgba(239, 68, 68, 0.35);
+    color: #b91c1c;
+}
+.palette-chip.current {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+/* FEEDBACK PANEL — cartão interno logo abaixo das alternativas */
 .feedback-panel {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: var(--radius-md);
+    background: rgba(59, 130, 246, 0.05);
+    border: 1px solid var(--panel-border);
     border-left: 4px solid var(--primary-color);
     animation: slideUp 0.3s ease;
 }
 
-.feedback-panel.correct { border-left-color: var(--success-color); }
-.feedback-panel.wrong { border-left-color: var(--error-color); }
+.feedback-panel.correct {
+    border-left-color: var(--success-color);
+    background: rgba(16, 185, 129, 0.06);
+}
+.feedback-panel.wrong {
+    border-left-color: var(--error-color);
+    background: rgba(239, 68, 68, 0.05);
+}
 
 .feedback-panel.hidden {
     display: none;
@@ -1302,6 +1387,32 @@ textarea:focus-visible {
     border: 1px solid var(--panel-border);
     border-radius: var(--radius-md);
     padding: 16px;
+}
+
+/* Anotações como <details> recolhível */
+.notes-summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-main);
+    list-style: none;
+    user-select: none;
+}
+.notes-summary::-webkit-details-marker { display: none; }
+.notes-summary::after {
+    content: '\25BE';
+    margin-left: auto;
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+}
+details[open] > .notes-summary::after {
+    transform: rotate(180deg);
+}
+.notes-summary .status-msg {
+    margin-left: 4px;
 }
 
 .notes-header {
@@ -3481,10 +3592,28 @@ html.dark-mode .login-box {
 
 /* Quiz view */
 html.dark-mode .question-panel,
-html.dark-mode .feedback-panel,
 html.dark-mode .result-panel {
     background: var(--panel-bg);
     color: var(--text-main);
+}
+html.dark-mode .feedback-panel {
+    background: rgba(59, 130, 246, 0.08);
+    color: var(--text-main);
+}
+html.dark-mode .feedback-panel.correct { background: rgba(16, 185, 129, 0.1); }
+html.dark-mode .feedback-panel.wrong { background: rgba(239, 68, 68, 0.09); }
+
+/* Paleta de questões no dark */
+html.dark-mode .quiz-palette::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); }
+html.dark-mode .palette-chip {
+    background: rgba(15, 23, 42, 0.5);
+}
+html.dark-mode .palette-chip.answered-correct { color: #34d399; }
+html.dark-mode .palette-chip.answered-wrong { color: #f87171; }
+
+/* Kbd hints no dark */
+html.dark-mode .kbd-hint kbd {
+    background: rgba(255, 255, 255, 0.08);
 }
 html.dark-mode .progress-bar-bg {
     background: rgba(255, 255, 255, 0.08);
