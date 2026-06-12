@@ -301,6 +301,7 @@ class MultiSelect {
         cb.type = 'checkbox';
         cb.value = opt.value;
         cb.checked = this.selected.has(opt.value);
+        if (cb.checked) label.classList.add('is-checked');
         const txt = document.createElement('span');
         txt.className = 'opt-text';
         txt.textContent = opt.label;
@@ -310,11 +311,13 @@ class MultiSelect {
             const c = document.createElement('span');
             c.className = 'opt-count';
             c.textContent = opt.count;
+            c.title = opt.count + ' questões';
             label.appendChild(c);
         }
         cb.addEventListener('change', () => {
             if (cb.checked) this.selected.add(opt.value);
             else this.selected.delete(opt.value);
+            label.classList.toggle('is-checked', cb.checked);
             this._updateLabel();
             this._refreshGroupHeaders();
             this.onChange(this.getSelected());
@@ -432,6 +435,8 @@ class MultiSelect {
     _syncCheckboxes() {
         this.optionsContainer.querySelectorAll('input[type="checkbox"]:not(.ms-group-cb)').forEach(cb => {
             cb.checked = this.selected.has(cb.value);
+            const row = cb.closest('.multi-select-option');
+            if (row) row.classList.toggle('is-checked', cb.checked);
         });
         this._refreshGroupHeaders();
     }

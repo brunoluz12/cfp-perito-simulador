@@ -32,10 +32,15 @@
     padding: 0;
 }
 
+html {
+    /* clip (e não hidden) para não quebrar position: sticky */
+    overflow-x: clip;
+}
+
 body {
     font-family: var(--font-family);
     background-color: var(--bg-color);
-    background-image: 
+    background-image:
         radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.08) 0px, transparent 50%),
         radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.08) 0px, transparent 50%);
     background-attachment: fixed;
@@ -45,6 +50,7 @@ body {
     justify-content: center;
     padding: 20px;
     line-height: 1.6;
+    overflow-x: clip;
 }
 
 .app-container {
@@ -1759,11 +1765,10 @@ details[open] > .notes-summary::after {
 /* ==========================================
    TELA DE MATERIAIS — LEITOR
    ========================================== */
-/* Largura de leitura confortável (linhas muito largas cansam) */
-#material-view {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+/* Tela cheia: com a aba Materiais ativa, o app libera o limite de 1400px
+   e o leitor ocupa toda a largura da janela */
+.app-container:has(#material-view.active) {
+    max-width: none;
 }
 
 #material-iframe {
@@ -2250,28 +2255,51 @@ html.dark-mode #material-iframe {
     padding: 4px 4px 8px;
     border-bottom: 1px solid var(--panel-border);
     margin-bottom: 6px;
+    flex-shrink: 0;
 }
 .multi-select-actions button {
-    padding: 4px 10px;
+    flex: 1;
+    padding: 7px 10px;
     border-radius: var(--radius-sm);
-    background: rgba(0,0,0,0.04);
-    border: 1px solid var(--panel-border);
+    background: rgba(59, 130, 246, 0.07);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+    color: var(--primary-hover);
     font-size: 0.8rem;
+    font-weight: 600;
     cursor: pointer;
     font-family: var(--font-family);
 }
-.multi-select-actions button:hover { background: rgba(59, 130, 246, 0.1); }
+.multi-select-actions button:hover { background: rgba(59, 130, 246, 0.15); }
 .multi-select-option {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 8px 10px;
+    padding: 10px 12px;
+    margin: 2px 0;
     border-radius: var(--radius-sm);
+    border: 1px solid transparent;
     cursor: pointer;
-    transition: background 0.15s;
+    transition: background 0.15s, border-color 0.15s;
     font-size: 0.9rem;
 }
-.multi-select-option:hover { background: rgba(59, 130, 246, 0.08); }
+.multi-select-option:hover {
+    background: rgba(59, 130, 246, 0.07);
+    border-color: rgba(59, 130, 246, 0.18);
+}
+.multi-select-option .opt-text {
+    flex: 1;
+    line-height: 1.35;
+    color: var(--text-main);
+}
+/* Linha selecionada: destaque visível (fundo, borda e texto em azul) */
+.multi-select-option.is-checked {
+    background: rgba(59, 130, 246, 0.08);
+    border-color: rgba(59, 130, 246, 0.28);
+}
+.multi-select-option.is-checked .opt-text {
+    color: var(--primary-hover);
+    font-weight: 600;
+}
 .multi-select-option input[type="checkbox"],
 .conteudo-row input[type="checkbox"].sim-cb {
     appearance: none;
@@ -2319,9 +2347,19 @@ html.dark-mode #material-iframe {
 }
 .multi-select-option .opt-count {
     margin-left: auto;
+    background: rgba(100, 116, 139, 0.12);
     color: var(--text-muted);
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 9999px;
+    min-width: 36px;
+    text-align: center;
+    flex-shrink: 0;
+}
+.multi-select-option.is-checked .opt-count {
+    background: rgba(59, 130, 246, 0.15);
+    color: var(--primary-hover);
 }
 .multi-select-empty {
     padding: 16px;
@@ -3709,15 +3747,26 @@ html.dark-mode .multi-select-actions {
     border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 html.dark-mode .multi-select-actions button {
-    background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.1);
-    color: var(--text-main);
+    background: rgba(59, 130, 246, 0.12);
+    border-color: rgba(59, 130, 246, 0.25);
+    color: #93c5fd;
 }
 html.dark-mode .multi-select-actions button:hover {
-    background: rgba(59, 130, 246, 0.2);
+    background: rgba(59, 130, 246, 0.22);
 }
 html.dark-mode .multi-select-option:hover {
     background: rgba(59, 130, 246, 0.15);
+}
+html.dark-mode .multi-select-option .opt-count {
+    background: rgba(255, 255, 255, 0.08);
+}
+html.dark-mode .multi-select-option.is-checked {
+    background: rgba(59, 130, 246, 0.16);
+    border-color: rgba(59, 130, 246, 0.4);
+}
+html.dark-mode .multi-select-option.is-checked .opt-text,
+html.dark-mode .multi-select-option.is-checked .opt-count {
+    color: #93c5fd;
 }
 html.dark-mode .multi-select-option input[type="checkbox"],
 html.dark-mode .conteudo-row input[type="checkbox"].sim-cb {
