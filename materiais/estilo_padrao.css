@@ -1,0 +1,17 @@
+/* Estilo padrão compartilhado dos cadernos de material.
+   Cada capítulo tem o próprio <style> embutido (que prevalece); este arquivo
+   era referenciado por todos os capítulos mas não existia (404 silencioso).
+   Mantém apenas ajustes globais leves e seguros. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: rgba(59, 130, 246, 0.25);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

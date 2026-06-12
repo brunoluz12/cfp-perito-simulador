@@ -393,14 +393,23 @@
                 </div>
             </div>
             
-            <div class="mt-4 material-reader-container" style="display: none; width: 100%;">
-                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-                    <button id="btn-marcar-estudado" class="btn-secondary btn-sm" style="display: none;">
+            <div class="mt-4 material-reader-container" style="display: none;">
+                <div class="reader-toolbar glass-panel">
+                    <button id="btn-cap-anterior" class="btn-secondary btn-icon" type="button" disabled><i class="ph ph-caret-left"></i> Anterior</button>
+                    <div class="reader-title-wrap">
+                        <span id="reader-cap-title" class="reader-cap-title"></span>
+                        <span id="material-loading-status" style="display: none;"><i class="ph ph-spinner ph-spin"></i> Carregando caderno...</span>
+                    </div>
+                    <button id="btn-marcar-estudado" class="btn-secondary btn-sm" type="button" style="display: none;">
                         <i class="ph ph-check-circle"></i> <span id="btn-estudado-label">Marcar como Estudado</span>
                     </button>
-                    <span id="material-loading-status" style="display: none; color: var(--text-muted); font-size: 0.9rem; font-weight: 500;"><i class="ph ph-spinner ph-spin"></i> Carregando caderno...</span>
+                    <button id="btn-cap-proximo" class="btn-secondary btn-icon" type="button">Próximo <i class="ph ph-caret-right"></i></button>
                 </div>
-                <iframe id="material-iframe" src="" style="width: 100%; height: 200px; border: none; border-radius: var(--radius-lg); background: white; box-shadow: var(--shadow-glow);"></iframe>
+                <iframe id="material-iframe" src=""></iframe>
+                <div class="reader-footer">
+                    <button id="btn-cap-anterior-2" class="btn-secondary btn-icon" type="button"><i class="ph ph-caret-left"></i> Capítulo anterior</button>
+                    <button id="btn-cap-proximo-2" class="btn-primary btn-icon" type="button">Próximo capítulo <i class="ph ph-caret-right"></i></button>
+                </div>
             </div>
         </main>
         

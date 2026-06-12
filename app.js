@@ -1846,6 +1846,7 @@ function switchMainTab(tabName) {
     } else if (tabName === 'material') {
         if (tabMaterial) tabMaterial.classList.add('active');
         showView('material-view');
+        if (typeof window.restaurarUltimoMaterial === 'function') window.restaurarUltimoMaterial();
     } else if (tabName === 'agenda') {
         if (tabAgenda) tabAgenda.classList.add('active');
         showView('agenda-view');
@@ -2119,6 +2120,55 @@ document.addEventListener('DOMContentLoaded', () => {
 
     carregarMaterialEstudado();
 
+    // --- Navegação entre capítulos (Anterior / Próximo) ---
+    const btnCapPrev = document.getElementById('btn-cap-anterior');
+    const btnCapNext = document.getElementById('btn-cap-proximo');
+    const btnCapPrev2 = document.getElementById('btn-cap-anterior-2');
+    const btnCapNext2 = document.getElementById('btn-cap-proximo-2');
+    const readerTitle = document.getElementById('reader-cap-title');
+
+    function navegarCapitulo(delta) {
+        const opts = Array.from(matCap.options).filter(o => !o.disabled);
+        const atualIdx = opts.findIndex(o => o.value === matCap.value);
+        const novo = atualIdx + delta;
+        if (atualIdx === -1 || novo < 0 || novo >= opts.length) return;
+        matCap.value = opts[novo].value;
+        matCap.dispatchEvent(new Event('change'));
+    }
+
+    function atualizarNavCapitulos() {
+        const opts = Array.from(matCap.options).filter(o => !o.disabled);
+        const atualIdx = opts.findIndex(o => o.value === matCap.value);
+        const noInicio = atualIdx <= 0;
+        const noFim = atualIdx === -1 || atualIdx >= opts.length - 1;
+        [btnCapPrev, btnCapPrev2].forEach(b => { if (b) b.disabled = noInicio; });
+        [btnCapNext, btnCapNext2].forEach(b => { if (b) b.disabled = noFim; });
+        if (readerTitle) {
+            const sel = matCap.selectedOptions[0];
+            readerTitle.textContent = sel ? sel.textContent.replace(/^✅ /, '') : '';
+        }
+    }
+
+    [btnCapPrev, btnCapPrev2].forEach(b => { if (b) b.addEventListener('click', () => navegarCapitulo(-1)); });
+    [btnCapNext, btnCapNext2].forEach(b => { if (b) b.addEventListener('click', () => navegarCapitulo(1)); });
+
+    // --- Continuar de onde parou: restaura o último capítulo aberto ---
+    let materialRestaurado = false;
+    window.restaurarUltimoMaterial = function () {
+        if (materialRestaurado) return;
+        materialRestaurado = true;
+        if (matCap.value) return; // usuário já abriu algo nesta sessão
+        let saved = null;
+        try { saved = JSON.parse(localStorage.getItem('pcpr_material_last') || 'null'); } catch (e) {}
+        if (!saved || !materialData[saved.disc]) return;
+        matDisc.value = saved.disc;
+        matDisc.dispatchEvent(new Event('change'));
+        if (Array.from(matCap.options).some(o => o.value === saved.file)) {
+            matCap.value = saved.file;
+            matCap.dispatchEvent(new Event('change'));
+        }
+    };
+
     if(matDisc) {
         matDisc.addEventListener('change', () => {
             const disc = materialData[matDisc.value];
@@ -2199,9 +2249,17 @@ document.addEventListener('DOMContentLoaded', () => {
             };
             
             iframe.src = url;
-            
+
             // Atualiza o botão de estudado
             atualizarBotaoEstudado(matDisc.value, matCap.value);
+
+            // Navegação e título do leitor
+            atualizarNavCapitulos();
+
+            // Memoriza o último capítulo aberto ("continuar de onde parei")
+            try {
+                localStorage.setItem('pcpr_material_last', JSON.stringify({ disc: matDisc.value, file: matCap.value }));
+            } catch (e) {}
         });
     }
 
