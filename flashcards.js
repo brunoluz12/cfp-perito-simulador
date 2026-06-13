@@ -10,6 +10,24 @@ let isCardFlipped = false;
 let currentDeckFilter = null;
 let isFreeReview = false;
 
+// Lista de disciplinas para os baralhos: une as do banco de questões com as
+// que existem APENAS nos Materiais (ex.: Química Forense), lidas do seletor
+// de disciplinas dos Materiais. Assim nenhuma disciplina fica de fora.
+function fcGetDisciplinas() {
+    const set = new Set();
+    if (typeof bancoQuestoes !== 'undefined' && Array.isArray(bancoQuestoes)) {
+        bancoQuestoes.forEach(q => { if (q.disciplina) set.add(q.disciplina); });
+    }
+    const matSel = document.getElementById('material-disciplina-select');
+    if (matSel) {
+        Array.from(matSel.options).forEach(o => {
+            const txt = (o.textContent || '').replace(/^✅ /, '').trim();
+            if (o.value && txt) set.add(txt);
+        });
+    }
+    return [...set];
+}
+
 // Carregar flashcards
 function loadFlashcards() {
     const saved = localStorage.getItem('pcpr_flashcards');
@@ -268,13 +286,10 @@ function abrirModalNovoCard() {
     document.getElementById('fc-form-card').reset();
     document.getElementById('fc-card-id').value = '';
     
-    // Obter disciplinas do banco de questões (global app.js) e decks existentes
-    let disciplinas = [];
-    if (typeof bancoQuestoes !== 'undefined') {
-        disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))];
-    }
+    // Obter disciplinas (banco de questões + Materiais) e decks existentes
+    const disciplinas = fcGetDisciplinas();
     const existingDecks = flashcards.map(c => c.deck);
-    
+
     // Unir todas as opções únicas e ordenar
     const options = [...new Set([...disciplinas, ...existingDecks])].filter(Boolean).sort();
     
@@ -602,10 +617,7 @@ function abrirJanelaFlutuante() {
     document.getElementById('fc-selection-tooltip').style.display = 'none';
     
     const select = document.getElementById('fc-floating-deck');
-    let disciplinas = [];
-    if (typeof bancoQuestoes !== 'undefined') {
-        disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))];
-    }
+    const disciplinas = fcGetDisciplinas();
     const existingDecks = flashcards.map(c => c.deck);
     const options = [...new Set([...disciplinas, ...existingDecks])].filter(Boolean).sort();
     
