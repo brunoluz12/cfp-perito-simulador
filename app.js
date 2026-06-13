@@ -2270,6 +2270,41 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Mapeamento: chave do materialData → disciplina(s) no banco de questões
+    const materialToQuestoes = {
+        'criminalistica': ['Criminalística'],
+        'ipo': ['Investigação Policial (IPO)'],
+        'ipo_2': ['Investigação Policial II (IPO II)'],
+        'bal': ['PCEB - Balística Forense'],
+        'pceb': ['PCEB - Bombas e Explosivos'],
+        'quimica_forense': [],  // sem questões ainda
+        'pvat_mod_1': ['PVAT - Módulo I (Identificação Veicular)'],
+        'pvat_mod_2': ['PVAT - Módulo II (Acidentes de Tráfego)'],
+        'loc': ['LOC - Locais de Crime e suas Interfaces']
+    };
+
+    // Busca questões que correspondem a uma disciplina de material + capítulo
+    function buscarQuestoesDoCapitulo(discKey, capIndex) {
+        const discNames = materialToQuestoes[discKey] || [];
+        if (discNames.length === 0 || typeof bancoQuestoes === 'undefined') return [];
+
+        const caps = materialData[discKey]?.capitulos;
+        if (!caps || capIndex < 0 || capIndex >= caps.length) return [];
+
+        const capObj = caps[capIndex];
+        const capTitulo = typeof capObj === 'string' ? capObj : capObj.titulo;
+
+        // Extrai o número do capítulo do título
+        const capNumMatch = capTitulo.match(/(\d+)/);
+        const capNum = capNumMatch ? parseInt(capNumMatch[1]) : (capIndex + 1);
+
+        // Busca questões que são da mesma disciplina e cujo conteúdo menciona o mesmo número de capítulo
+        const capPrefix = `Cap. ${capNum} -`;
+        return bancoQuestoes.filter(q =>
+            discNames.includes(q.disciplina) && q.conteudo && q.conteudo.startsWith(capPrefix)
+        );
+    }
+
     carregarMaterialEstudado();
 
     // --- Disciplina concluída: todos os capítulos marcados como estudados ---
@@ -2429,6 +2464,50 @@ document.addEventListener('DOMContentLoaded', () => {
                         const tooltip = document.getElementById('fc-selection-tooltip');
                         if (tooltip) tooltip.style.display = 'none';
                     });
+
+                    // Injeta link "Praticar Questões" no final do material
+                    const currentDiscKey = matDisc.value;
+                    const currentFileName = matCap.value;
+                    const caps = materialData[currentDiscKey]?.capitulos || [];
+                    const capIdx = caps.findIndex((c, i) => {
+                        const arq = typeof c === 'string'
+                            ? `Capitulo_${String(i + 1).padStart(2, '0')}.html`
+                            : c.arquivo;
+                        return arq === currentFileName;
+                    });
+
+                    const questoesDoCapitulo = buscarQuestoesDoCapitulo(currentDiscKey, capIdx);
+                    if (questoesDoCapitulo.length > 0) {
+                        const container = doc.querySelector('.container') || doc.body;
+                        const linkDiv = doc.createElement('div');
+                        linkDiv.style.cssText = 'margin: 40px 0 20px; padding: 20px 24px; background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); border-radius: 12px; text-align: center; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);';
+                        linkDiv.innerHTML = `
+                            <div style="color: white; font-size: 18px; font-weight: 700; margin-bottom: 4px;">📝 Praticar Questões deste Capítulo</div>
+                            <div style="color: rgba(255,255,255,0.85); font-size: 14px;">${questoesDoCapitulo.length} questões disponíveis sobre este conteúdo</div>
+                        `;
+                        linkDiv.addEventListener('mouseenter', () => {
+                            linkDiv.style.transform = 'translateY(-2px)';
+                            linkDiv.style.boxShadow = '0 8px 25px rgba(37, 99, 235, 0.4)';
+                        });
+                        linkDiv.addEventListener('mouseleave', () => {
+                            linkDiv.style.transform = '';
+                            linkDiv.style.boxShadow = '0 4px 15px rgba(37, 99, 235, 0.3)';
+                        });
+                        linkDiv.addEventListener('click', () => {
+                            window.parent.postMessage({
+                                type: 'start-questoes-capitulo',
+                                discKey: currentDiscKey,
+                                capIndex: capIdx
+                            }, '*');
+                        });
+                        container.appendChild(linkDiv);
+
+                        // Recalcula altura após inserção
+                        setTimeout(() => {
+                            const h = container.offsetHeight + 40;
+                            window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+                        }, 200);
+                    }
                 } catch (err) {
                     console.warn("Iframe cross-origin block para seleção de texto:", err);
                 }
@@ -2482,6 +2561,36 @@ document.addEventListener('DOMContentLoaded', () => {
                     }, 150);
                 }
             }
+        }
+
+        // Handler: clicou em "Praticar Questões" dentro do material
+        if (event.data && event.data.type === 'start-questoes-capitulo') {
+            const { discKey, capIndex } = event.data;
+            const questoes = buscarQuestoesDoCapitulo(discKey, capIndex);
+            if (questoes.length === 0) {
+                alert('Nenhuma questão encontrada para este capítulo.');
+                return;
+            }
+
+            // Embaralha
+            const shuffled = [...questoes].sort(() => Math.random() - 0.5);
+
+            // Configura o caderno
+            simuladoAtual = shuffled;
+            resetarEstadoSessao(simuladoAtual);
+            questaoAtualIndex = 0;
+            acertosSimulado = 0;
+            errosSimulado = 0;
+
+            const discNames = materialToQuestoes[discKey] || [];
+            document.getElementById('quiz-disciplina-badge').textContent =
+                discNames.length === 1 ? discNames[0] : 'Questões do capítulo';
+
+            carregarQuestaoUI();
+            showView('quiz');
+
+            // Scroll para o topo
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     });
 });
