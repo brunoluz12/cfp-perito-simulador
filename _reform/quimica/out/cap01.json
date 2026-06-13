@@ -1,0 +1,198 @@
+[
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Considerando o conceito legal de droga adotado pela Lei nº 11.343/2006, qual das afirmativas está correta?",
+    "alternativas": {
+      "A": "São drogas as substâncias de estrutura química definida e dotadas de ação farmacológica conhecida, capazes de modificar ou explorar o sistema fisiológico em benefício do organismo receptor.",
+      "B": "São drogas todas as substâncias naturais ou sintéticas que modificam funções de um organismo vivo, com fins terapêuticos.",
+      "C": "São drogas apenas as substâncias nitrogenadas de origem vegetal com caráter básico e efeitos psicotrópicos.",
+      "D": "São drogas as substâncias ou produtos capazes de causar dependência, especificados em lei ou em listas atualizadas pelo Poder Executivo da União."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta reproduz o conceito legal da Lei nº 11.343/2006: substâncias/produtos capazes de causar dependência, especificados em lei ou nas listas do Poder Executivo (p. 8). A B descreve o conceito clássico (não o legal) de droga. A C é a definição de alcaloides. A D é a definição de fármaco.",
+    "referencia": "PDF Química Forense, p. 8",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Segundo o material, quais listas da Portaria nº 344/98-SVS/MS contêm as substâncias que são consideradas drogas para fins da Lei nº 11.343/06?",
+    "alternativas": {
+      "A": "Listas A, C e E da Portaria.",
+      "B": "Listas C, D e E da referida Portaria.",
+      "C": "Listas B, D e F da Portaria 344/98.",
+      "D": "Listas A, B e F."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material afirma expressamente que se consideram drogas as substâncias presentes nas listas A, B e F da Portaria nº 344/98 (p. 8; mnemônico 'A, B e F são droga!'). As demais combinações (A/C/E, B/D/F, C/D/E) misturam listas que não correspondem a essa regra.",
+    "referencia": "PDF Química Forense, p. 8",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Sobre a distinção entre drogas naturais e sintéticas apresentada no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A heroína deve ser classificada como droga natural, pois deriva da morfina, substância que é extraída diretamente de planta sem qualquer alteração da molécula original.",
+      "B": "Toda substância extraída e purificada por processos químicos passa a ser classificada como sintética.",
+      "C": "A extração ou purificação sem alterar a molécula mantém a droga natural; modificar a molécula a torna sintética.",
+      "D": "Drogas naturais são apenas as de origem vegetal, enquanto as de origem animal ou mineral são sintéticas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O critério do material é claro: extração/purificação sem alterar a molécula = natural; modificar a molécula = sintética (p. 8). A A está errada porque a heroína é sintética (obtida da morfina por modificação química). A B inverte o critério (purificar sem alterar não torna sintética). A D é falsa: naturais podem ser de plantas, animais ou minerais.",
+    "referencia": "PDF Química Forense, p. 8",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "No material, distingue-se adulterante de diluente em substâncias como a cocaína. Qual afirmativa está correta?",
+    "alternativas": {
+      "A": "O adulterante não tem qualquer ação farmacológica e serve apenas para aumentar a massa do produto comercializado.",
+      "B": "O diluente potencializa ou simula efeitos da droga no usuário por possuir ação farmacológica relevante.",
+      "C": "Tanto o adulterante quanto o diluente possuem atividade farmacológica relevante sobre o SNC do usuário.",
+      "D": "O adulterante tem efeito farmacológico que potencializa ou simula efeitos; o diluente não tem atividade farmacológica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material, adulterante tem ação farmacológica (potencializa/simula efeitos) e diluente é sem atividade farmacológica, servindo só para aumentar a massa (p. 10; mnemônico 'Adulterante Atua / Diluente Dilui'). A A e a B trocam as definições dos dois termos, e a C afirma erroneamente que ambos têm atividade farmacológica.",
+    "referencia": "PDF Química Forense, p. 10",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Relacione corretamente as Convenções internacionais sobre drogas com seus respectivos anos, conforme o material.",
+    "alternativas": {
+      "A": "1961 Convenção sobre Substâncias Psicotrópicas; 1971 Convenção Única sobre Entorpecentes; 1988 Tráfico Ilícito.",
+      "B": "1961 Convenção Única sobre Entorpecentes; 1971 Substâncias Psicotrópicas; 1988 Tráfico Ilícito.",
+      "C": "1961 Convenção contra o Tráfico Ilícito; 1971 Entorpecentes; 1988 Convenção sobre Substâncias Psicotrópicas.",
+      "D": "1961 Substâncias Psicotrópicas; 1971 Tráfico Ilícito; 1988 Convenção Única sobre Entorpecentes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material indica: 1961 = Convenção Única sobre Entorpecentes; 1971 = Substâncias Psicotrópicas; 1988 = Tráfico Ilícito (p. 10-11; mnemônico 'Entorpecente, Psicotrópico, Tráfico'). As alternativas A, C e D embaralham essa ordem dos anos com os temas.",
+    "referencia": "PDF Química Forense, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "De acordo com o art. 50 da Lei nº 11.343/06 e seus parágrafos, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O laudo de constatação da natureza e quantidade da droga é suficiente para a lavratura do auto de prisão em flagrante e o estabelecimento da materialidade do delito.",
+      "B": "Para a lavratura do flagrante exige-se o laudo definitivo, não bastando o laudo de constatação preliminar.",
+      "C": "O perito que subscreve o laudo de constatação fica impedido de participar da elaboração do laudo definitivo.",
+      "D": "Ocorrendo a prisão em flagrante, a autoridade de polícia judiciária fará imediatamente a comunicação ao juiz competente, remetendo cópia do auto lavrado, do qual será dada vista ao Ministério Público no prazo de 48 horas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o art. 50, §1º, o laudo de constatação da natureza e quantidade da droga é suficiente para a lavratura do flagrante e a materialidade (p. 11-12). A B contraria o §1º (basta o laudo de constatação). A C contraria o §2º (o subscritor NÃO fica impedido). A D erra o prazo, que é de 24 horas, não 48.",
+    "referencia": "PDF Química Forense, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Sobre as definições legais de entorpecente e psicotrópico adotadas pela Portaria nº 344/98, o material afirma que:",
+    "alternativas": {
+      "A": "as definições são distintas e tecnicamente perfeitas sob o ponto de vista da Farmacologia.",
+      "B": "entorpecente é definido apenas pela Convenção de 1988 e psicotrópico pela de 1961.",
+      "C": "psicotrópico exclui qualquer possibilidade de dependência física, restringindo-se à dependência psíquica.",
+      "D": "as definições são coincidentes, embora isso não seja correto do ponto de vista da Farmacologia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material afirma que as definições legais de entorpecente e psicotrópico na Portaria 344 são coincidentes, embora incorretas sob a Farmacologia (p. 13). A A contraria isso (não são farmacologicamente perfeitas). A B troca as convenções de referência (entorpecente liga-se à Convenção de 1961 e psicotrópico à de 1971). A C é falsa, pois ambas as definições mencionam dependência física OU psíquica.",
+    "referencia": "PDF Química Forense, p. 13",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Conforme o ponto crítico do material sobre a classificação da cocaína nas listas da Portaria nº 344/98, é correto afirmar que a cocaína:",
+    "alternativas": {
+      "A": "aparece como entorpecente (Lista F1), apesar de ser farmacologicamente estimulante.",
+      "B": "aparece como psicotrópica (Lista F2), em coerência com sua ação estimulante.",
+      "C": "aparece como substância precursora (Lista F3), por ser usada na síntese de outras drogas.",
+      "D": "aparece como anorexígena (Lista B2), por sua ação sobre o apetite."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material destaca que a cocaína é classificada como entorpecente (Lista F1) por seguir o primeiro tratado assinado pelo Brasil, apesar de ser farmacologicamente estimulante (p. 14). A B erra a lista (F1, não F2). A C confunde com a F3 (precursoras, ex.: fenilpropanolamina). A D associa indevidamente à B2 (anorexígenas).",
+    "referencia": "PDF Química Forense, p. 14",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Sobre a subdivisão da Lista F (substâncias de uso proscrito no Brasil) da Portaria nº 344/98, assinale a associação correta entre subdivisão e exemplo.",
+    "alternativas": {
+      "A": "F1 substâncias psicotrópicas (THC, MDMA); F2 substâncias entorpecentes (cocaína, heroína).",
+      "B": "F3 outras substâncias (estricnina, lindano); F4 substâncias precursoras (fenilpropanolamina).",
+      "C": "F2 substâncias precursoras (fenilpropanolamina); F3 substâncias entorpecentes (cocaína, heroína).",
+      "D": "F1 substâncias entorpecentes (cocaína, heroína); F2 substâncias psicotrópicas (THC, MDMA)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo material: F1 entorpecentes (cocaína, heroína); F2 psicotrópicas (THC, MDMA); F3 precursoras (fenilpropanolamina); F4 outras (estricnina, lindano) (p. 14, mnemônico da Lista F). A A inverte F1 e F2; a B inverte F3 e F4; a D desloca precursoras e entorpecentes para subdivisões erradas.",
+    "referencia": "PDF Química Forense, p. 14",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "No material, a classificação das drogas psicotrópicas quanto aos efeitos adota seis categorias. Qual conjunto corresponde a essa classificação?",
+    "alternativas": {
+      "A": "Estimulantes, canabinoides, opioides, sedativos e hipnóticos, dissociativos e alucinógenos.",
+      "B": "Estimulantes, alcaloides, diluentes, adulterantes, precursores e inalantes voláteis.",
+      "C": "Entorpecentes, psicotrópicos, fármacos, medicamentos, tóxicos, narcóticos e anestésicos.",
+      "D": "Naturais, sintéticas, anestésicos locais, anorexígenos, substâncias retinoicas e anabolizantes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material adota a classificação por efeitos psicotrópicos em seis categorias: estimulantes, canabinoides, opioides, sedativos e hipnóticos, dissociativos e alucinógenos (p. 15; mnemônico E·C·O·S·D·A). As demais alternativas misturam termos e listas (alcaloides, diluentes, retinoicos, anabolizantes etc.) que não compõem essa classificação por efeitos.",
+    "referencia": "PDF Química Forense, p. 15",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Conforme os conceitos de dependência apresentados no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A dependência física relaciona-se à falta de controle no uso e ao desejo intenso de obter prazer e alívio das tensões com a droga.",
+      "B": "A dependência psíquica caracteriza-se pela presença de tolerância somada à síndrome de abstinência por adaptação do organismo.",
+      "C": "A tolerância corresponde ao aparecimento de transtornos físicos intensos quando o uso da substância é bruscamente interrompido.",
+      "D": "A dependência física relaciona-se à tolerância e à síndrome de abstinência, por adaptação do organismo à droga."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo material, a dependência física relaciona-se a tolerância + síndrome de abstinência, por adaptação do organismo à droga (p. 16). A A descreve a dependência psíquica (falta de controle/fissura), não a física. A B troca: tolerância e abstinência caracterizam a dependência física. A C define síndrome de abstinência, e não tolerância (que é a resposta fisiológica diminuída para a mesma dose).",
+    "referencia": "PDF Química Forense, p. 16",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "No quadro de conceitos fundamentais do material, qual alternativa apresenta corretamente a definição do termo indicado?",
+    "alternativas": {
+      "A": "Fármaco é o produto farmacêutico terminado, com finalidade profilática ou curativa, que contém um ou mais princípios ativos associados a adjuvantes farmacotécnicos.",
+      "B": "Toxicologia é a ciência que estuda como os fármacos interagem com os organismos vivos em benefício do organismo receptor.",
+      "C": "Entorpecente, em sentido científico estrito, designa qualquer droga ilícita, sendo termo preciso e tecnicamente recomendado pela Farmacologia.",
+      "D": "Alcaloides são substâncias nitrogenadas, muitas ativas, encontradas predominantemente em plantas e com possível efeito psicotrópico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A definição de alcaloides está correta conforme o material: substâncias nitrogenadas, muitas ativas, predominantemente em plantas, com possível efeito psicotrópico (p. 9). A A descreve o medicamento, não o fármaco. A C inverte o material, que diz que 'entorpecente' é usado de forma imprecisa cientificamente. A D define farmacologia, não toxicologia (esta estuda os efeitos nocivos das substâncias).",
+    "referencia": "PDF Química Forense, p. 9",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Sobre o laudo preliminar de constatação em casos de drogas, conforme o ponto crítico do material, é correto afirmar que ele:",
+    "alternativas": {
+      "A": "só pode ser emitido por perito criminal oficial com formação acadêmica específica na área de Química.",
+      "B": "substitui integralmente o laudo definitivo, dispensando quaisquer exames posteriores sobre a droga apreendida.",
+      "C": "deve ser firmado obrigatoriamente por dois peritos oficiais, sob pena de nulidade do auto de flagrante.",
+      "D": "pode ser emitido por Peritos Criminais de qualquer área de formação, conforme a Lei nº 11.343/2006."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material afirma que o laudo preliminar de constatação pode ser emitido por Peritos Criminais de qualquer área de formação acadêmica, conforme a Lei nº 11.343/2006 (p. 7). A A contraria isso ao exigir formação em Química. A C inventa a exigência de dois peritos. A D é falsa, pois o laudo de constatação não substitui o definitivo (o §2º prevê a posterior elaboração do laudo definitivo).",
+    "referencia": "PDF Química Forense, p. 7",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "enunciado": "Considerando a definição de Química Forense apresentada no material, qual alternativa a descreve corretamente?",
+    "alternativas": {
+      "A": "Conjunto de normas que regula o comércio sanitário de medicamentos e insumos farmacêuticos.",
+      "B": "Ciência que estuda exclusivamente os efeitos nocivos das substâncias químicas sobre o organismo.",
+      "C": "Área restrita à análise laboratorial de drogas de abuso apreendidas em flagrante.",
+      "D": "Ramo da Perícia que processa, estuda e identifica os vestígios químicos de um crime."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material define Química Forense como o ramo da Perícia que processa/estuda/identifica os vestígios químicos de um crime (p. 7). A B descreve a toxicologia, não a Química Forense. A C é restritiva demais, pois a Química Forense é abrangente (alimentos, agrotóxicos, explosivos etc.). A D corresponde à finalidade de leis sanitárias (ex.: Lei nº 5.991/1973), não à definição da disciplina.",
+    "referencia": "PDF Química Forense, p. 7",
+    "nivel": "medio"
+  }
+]

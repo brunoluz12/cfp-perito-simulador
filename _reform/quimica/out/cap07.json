@@ -1,0 +1,212 @@
+[
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Nos termos da Lei n.º 11.343/2006, qual documento é essencial para a lavratura do auto de prisão em flagrante por tráfico de drogas?",
+    "alternativas": {
+      "A": "O laudo de constatação da natureza e quantidade da droga apreendida.",
+      "B": "O laudo de perícia criminal federal definitivo da droga apreendida.",
+      "C": "O cromatograma obtido por cromatografia gasosa acoplada a espectrometria de massas.",
+      "D": "O parecer técnico do Ministério Público sobre a materialidade do delito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o art. 50, § 1º, da Lei n.º 11.343/2006, para a lavratura do auto de prisão em flagrante é suficiente o laudo de constatação (preliminar) da natureza e quantidade da droga (p. 45 e 52). B erra: o laudo definitivo estabelece a composição depois, não é exigido para o flagrante. C erra: o cromatograma é etapa de exame definitivo, não do flagrante. D erra: o documento é o laudo de constatação firmado por perito oficial ou pessoa idônea, não um parecer do MP.",
+    "referencia": "PDF Química Forense, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "No teste de Scott modificado, a coloração que indica a presença de cocaína é:",
+    "alternativas": {
+      "A": "Vermelha.",
+      "B": "Azul.",
+      "C": "Verde.",
+      "D": "Violeta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo a Tabela 1, a cor azul indica a presença de cocaína no teste de Scott modificado (p. 46). A erra: avermelhada é a coloração do Fast Blue para canabinoides. C erra: chama verde está associada ao cloreto de etila (lança-perfume). D erra: violeta é característico de testes como Ehrlich (LSD) e Duquenois Levine (maconha).",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Os testes preliminares de identificação de drogas recomendados pela UNODC caracterizam-se por:",
+    "alternativas": {
+      "A": "Serem baseados em evolução de cor, simples, rápidos e indicativos.",
+      "B": "Estabelecerem de forma precisa e definitiva a composição do material.",
+      "C": "Exigirem obrigatoriamente instrumentação analítica de bancada como GC-MS.",
+      "D": "Substituírem o laudo definitivo sempre que o resultado for positivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma que os testes da UNODC são baseados em evolução de cor, simples, rápidos, práticos e de caráter apenas indicativo (p. 45 e 49). B erra: estabelecer a composição é função dos exames definitivos, não dos preliminares. C erra: os testes de cor não exigem GC-MS; são feitos com reagentes colorimétricos. D erra: havendo resultado positivo no preliminar, é necessária a realização dos exames definitivos.",
+    "referencia": "PDF Química Forense, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "De acordo com o art. 50, § 1º, da Lei n.º 11.343/2006, o laudo de constatação para fins de flagrante pode ser firmado:",
+    "alternativas": {
+      "A": "Exclusivamente por Perito Criminal Federal lotado em laboratório de química forense.",
+      "B": "Por perito oficial ou, na falta deste, por pessoa idônea.",
+      "C": "Por dois peritos oficiais em conjunto, sob pena de nulidade.",
+      "D": "Pela autoridade judiciária após manifestação do Ministério Público."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 50, § 1º, dispõe que é suficiente o laudo de constatação firmado por perito oficial ou, na falta deste, por pessoa idônea (p. 45 e 52); essa pessoa pode ser policial nomeado pela autoridade policial. A erra: a lei não restringe ao perito de laboratório, embora seja recomendado. C erra: não há exigência de dois peritos. D erra: o laudo não é firmado pelo juiz nem depende de manifestação do MP para o flagrante.",
+    "referencia": "PDF Química Forense, p. 52",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Para identificação preliminar de canabinoides (maconha e derivados), são utilizados os testes:",
+    "alternativas": {
+      "A": "Marquis e Simon, com cor laranja.",
+      "B": "Scott modificado e Ehrlich.",
+      "C": "Fast Blue e Duquenois Levine.",
+      "D": "Zimmerman e Dille-Koppanyi."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Tabela 1 indica, para maconha e derivados, o Fast Blue (coloração avermelhada) e o Duquenois Levine, com violeta na camada inferior clorofórmica (p. 46). A erra: Marquis e Simon detectam MDMA/MDA e anfetaminas. B erra: Scott detecta cocaína e Ehrlich detecta LSD. D erra: Zimmerman detecta benzodiazepínicos e Dille-Koppanyi detecta barbitúricos.",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Considerando os falsos positivos registrados na Tabela 1, quais substâncias podem gerar falso positivo no teste de Scott modificado para cocaína?",
+    "alternativas": {
+      "A": "Heroína, metadona e lidocaína.",
+      "B": "Patchouli e alguns óleos essenciais, como o de DL.",
+      "C": "Dihidro-LSD e certos sedativos.",
+      "D": "Alquil organoclorados diversos, como os do lança-perfume."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Tabela 1 registra, como falsos positivos do teste de Scott para cocaína, heroína, metadona e lidocaína, dentre outros (p. 46). B erra: patchouli e óleos essenciais são falsos positivos dos testes para maconha (Fast Blue / Duquenois Levine). C erra: dihidro-LSD é falso positivo do teste de Ehrlich (LSD). D erra: alquil organoclorados se comportam como o cloreto de etila nos testes de chama e de cloretos.",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Sobre o comportamento das anfetaminas e metanfetaminas no teste de Simon, é correto afirmar que:",
+    "alternativas": {
+      "A": "Tanto anfetaminas quanto metanfetaminas produzem cor azul escuro intenso.",
+      "B": "A metanfetamina produz cor negra, enquanto anfetaminas não produzem cor.",
+      "C": "A metanfetamina não produz cor, e anfetaminas diversas dão tons de azul.",
+      "D": "Nenhuma das duas reage no Simon, exigindo o teste de Marquis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Tabela 1 indica que, no teste de Simon, a metanfetamina não produz cor, ao passo que anfetaminas diversas produzem tons de azul (p. 46). A erra: a cor azul escuro intenso no Simon indica MDMA, e a metanfetamina não dá cor. B erra: é a metanfetamina que não produz cor, e a cor das anfetaminas é azul, não negra. D erra: anfetaminas diversas reagem produzindo tons de azul, então a afirmação é falsa.",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "No exame preliminar do cloreto de etila (lança-perfume), qual conjunto de resultados é descrito na Tabela 1?",
+    "alternativas": {
+      "A": "Chama azul, resíduo escuro e temperatura de ebulição de 78 °C.",
+      "B": "Chama verde, resíduo branco floculento e ebulição a 12 °C.",
+      "C": "Coloração violeta no teste de chama e ebulição a 100 °C.",
+      "D": "Chama vermelha, resíduo oleoso e temperatura de ebulição de 36 °C."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Tabela 1 indica, para o cloreto de etila, chama verde no teste de chama, resíduo sólido branco floculento (indicativo de cloretos) e temperatura de ebulição de 12 °C (p. 46-47). A, C e D erram porque alteram a cor da chama (verde), a natureza do resíduo (branco floculento) e a temperatura de ebulição correta (12 °C).",
+    "referencia": "PDF Química Forense, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Constitui PONTO CRÍTICO destacado no texto a estratégia de traficantes que adicionam sais de ferro (de coloração avermelhada) à cocaína de alta pureza. Qual o objetivo e a relação desses sais com os testes?",
+    "alternativas": {
+      "A": "Aumentar a pureza da cocaína, atuando como reagente confirmatório no teste de Marquis.",
+      "B": "Mascarar os exames preliminares de coloração, sendo interferentes do teste de Scott.",
+      "C": "Acelerar a evolução de cor azul no teste de Scott, evitando falsos negativos.",
+      "D": "Provocar chama verde no teste de chama, simulando a presença de cloreto de etila."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto destaca que traficantes adicionam sais de ferro (avermelhados) à cocaína de alta pureza para mascarar ou dificultar os exames preliminares baseados em reações de coloração, sendo os sais de ferro interferentes do teste de Scott (p. 49-50). A erra: não aumentam pureza nem atuam no Marquis. C erra: a intenção é dificultar, não acelerar a cor azul. D erra: o efeito relatado é interferência no Scott, não simulação de cloreto de etila.",
+    "referencia": "PDF Química Forense, p. 49",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Diante do crescimento de novas substâncias psicoativas (NSPs), o texto aponta como alternativa mais confiável aos testes de cor preliminares o uso de:",
+    "alternativas": {
+      "A": "Maior número de reagentes colorimétricos combinados em um único kit.",
+      "B": "Imunoensaios de campo de leitura visual.",
+      "C": "Instrumentação analítica portátil, como espectrômetro Raman ou FTIR.",
+      "D": "Microcristalização realizada no local da apreensão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma que, com o crescimento das NSPs, uma alternativa mais confiável é o uso de instrumentação analítica portátil, como o espectrômetro Raman ou o espectrofotômetro de FTIR, citando o Raman portátil ResQ (Rigaku) da PF (p. 48-49). A erra: o número de reagentes necessários é justamente o problema apontado. B e D erram: imunoensaios e microcristalização são métodos analíticos (categorias B e C), mas não são a alternativa portátil indicada para NSPs no texto.",
+    "referencia": "PDF Química Forense, p. 48",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Segundo os critérios de amostragem da IT n.º 06/2006-DITEC (Tabela 2), para um grupo com 150 unidades, o número de unidades a amostrar é:",
+    "alternativas": {
+      "A": "Todas as 150 unidades do grupo.",
+      "B": "10 unidades escolhidas aleatoriamente.",
+      "C": "13 unidades escolhidas aleatoriamente.",
+      "D": "75 unidades escolhidas aleatoriamente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela Tabela 2, quando n > 100 amostra-se √n, arredondando para o inteiro superior mais próximo (p. 51). Como √150 ≈ 12,25, arredonda-se para 13. A erra: amostrar todas só se n < 10. B erra: amostrar 10 só quando 10 ≤ n ≤ 100. D erra: não se usa metade das unidades, e sim a raiz quadrada arredondada para cima.",
+    "referencia": "PDF Química Forense, p. 51",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Conforme a Tabela 3, as quantidades mínimas de amostra por unidade para sólidos em geral e líquidos em geral são, respectivamente:",
+    "alternativas": {
+      "A": "2,0 g e 200 ml.",
+      "B": "5,0 g e 500 ml.",
+      "C": "200 mg e 20 ml.",
+      "D": "2,0 g e embalagem original."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Tabela 3 estabelece amostra mínima de 2,0 g (três colheres de sopa) para sólidos em geral e 200 ml (um copo) para líquidos em geral (p. 52). B e C erram nos valores. D erra: a embalagem original é o critério para líquido volátil (ex.: lança-perfume), não para líquidos em geral. Abaixo do mínimo, envia-se a unidade na totalidade.",
+    "referencia": "PDF Química Forense, p. 52",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Na classificação dos métodos analíticos por poder de discriminação (SWGDRUG / IT n.º 06/2006, Tabela 4), assinale a associação CORRETA entre método e categoria:",
+    "alternativas": {
+      "A": "Espectrometria de massas (EM) pertence à categoria C.",
+      "B": "Testes de cor e precipitação pertencem à categoria A.",
+      "C": "Espectrometria de massas (EM) pertence à categoria A.",
+      "D": "Cromatografia gasosa (CG) pertence à categoria A."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela Tabela 4, a espectrometria de massas (EM) está na categoria A, de maior poder de discriminação, junto com infravermelho, RMN, Raman e difratometria de raios X (p. 53). A erra: EM é categoria A, não C. B erra: testes de cor e precipitação são categoria C. D erra: a cromatografia gasosa (CG) é classificada na categoria B.",
+    "referencia": "PDF Química Forense, p. 53",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Pelas regras de combinação de métodos da IT n.º 06/2006, quando NÃO for realizado nenhum teste de categoria A, exige-se que sejam conduzidos:",
+    "alternativas": {
+      "A": "Ao menos três testes de outras categorias, sendo dois da B não relacionados.",
+      "B": "Pelo menos um único teste de categoria B isolado, desde que validado.",
+      "C": "Dois testes de categoria C combinados com um único teste de cor.",
+      "D": "Apenas dois testes de categoria A em equipamentos distintos e validados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A regra de combinação determina que, sem método de categoria A, devem ser conduzidos ao menos três testes de outras categorias, sendo dois deles da categoria B e não relacionados entre si (p. 54). B erra: um único teste B isolado é insuficiente. C erra: a exigência é de dois testes da B não relacionados, dentro de um total de três. D erra: a hipótese trata justamente da ausência de teste de categoria A.",
+    "referencia": "PDF Química Forense, p. 54",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "enunciado": "Sobre os equipamentos e o controle de qualidade nos exames definitivos, é correto afirmar que:",
+    "alternativas": {
+      "A": "O CG/EM analisa todas as substâncias da Portaria n.º 344-SVS/MS, pois nenhuma degrada no processo.",
+      "B": "O FTIR é técnica robusta, em geral mais barata e à temperatura ambiente, sem degradação térmica.",
+      "C": "A garantia de qualidade dispensa o uso de brancos e padrões sempre que se emprega HRMS de alta resolução.",
+      "D": "A contraprova deve ser descartada imediatamente após a emissão do laudo definitivo de perícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto descreve o FTIR como técnica robusta, normalmente mais barata que o CG/EM, com análises à temperatura ambiente e sem degradação térmica, embora dificultada em misturas com grupos funcionais na mesma região (p. 54). A erra: nem todas as substâncias podem ser analisadas em CG, pois algumas degradam no processo. C erra: o controle de qualidade exige padrões e brancos, sem exceção para HRMS. D erra: deve-se manter material como contraprova para eventual nova perícia, salvo quando quantidade ou conservação não permitirem (p. 55).",
+    "referencia": "PDF Química Forense, p. 54",
+    "nivel": "dificil"
+  }
+]

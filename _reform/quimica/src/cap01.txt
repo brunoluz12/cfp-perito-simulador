@@ -1,0 +1,471 @@
+Capítulo 1 - Conceitos Básicos sobre Química Forense
+
+PCEB · QUÍMICA FORENSE
+Capítulo 1 — Conceitos Básicos sobre Química Forense
+
+Terminologia, legislação, classificação e dependência
+
+Índice do Capítulo
+
+Apresentação — O que é Química Forense
+
+1.1 Terminologia e conceitos fundamentais
+
+1.2 Legislação pertinente sobre Química Forense
+
+As Listas da Portaria nº 344/98
+
+1.3 Estudo das drogas de uso abusivo (efeitos)
+
+1.4 Aspectos relacionados à dependência de drogas
+
+Síntese e Mnemônicos
+
+Apresentação — O que é Química Forense
+
+A Química Forense pode ser definida como o ramo da Perícia que processa/estuda/identifica os vestígios químicos de um crime. Trata-se de uma definição generalista, pois pode se referir tanto à apreensão de substâncias químicas quanto à análise de vestígios encontrados em locais de crime, por exemplo. (p. 7)
+
+Materiais que podem ser investigados: drogas de uso abusivo, medicamentos, fármacos, agrotóxicos, substâncias químicas sujeitas a controle, alimentos ou suplementos alimentares, combustíveis, explosivos, agroquímicos (agrotóxicos e fertilizantes), resíduos de incêndios, pós-explosões, contaminações ambientais e utensílios em contato com drogas. (p. 7)
+
+Essa lista mostra apenas parte da casuística real da Polícia Federal. Na última década cresceram em demanda áreas como análises de minerais e pedras preciosas, composição química de tintas em documentos, identificação de fibras e análises de alimentos. A Química Forense é uma das áreas mais abrangentes da Perícia Criminal, permitindo interfaces com áreas distintas como Meio Ambiente, Local de Crime e Documentoscopia. (p. 7)
+
+Foco do material: drogas de uso abusivo, produtos farmacêuticos e análises de agrotóxicos. Uma das mais importantes áreas é a análise de drogas de abuso — conhecer as principais drogas, os testes preliminares e a legislação sobre drogas é imprescindível aos policiais que atuam na repressão ao tráfico. O conhecimento sobre drogas de abuso passa por farmacologia, química e direito, além de ciências sociais (psicologia e sociologia). (p. 7)
+
+PONTO CRÍTICO (cai em prova!)
+
+O laudo preliminar de constatação pode ser emitido por Peritos Criminais de qualquer área de formação acadêmica, conforme previsto na Lei nº 11.343/2006. (p. 7)
+
+1.1 Terminologia e conceitos fundamentais
+
+Conceitos básicos fundamentais para o entendimento das drogas de abuso são discutidos a seguir. (p. 8)
+
+Droga
+
+Conceito clássico: "Qualquer substância natural ou sintética que, ao entrar em contato com um organismo vivo, pode modificar uma ou várias de suas funções; é uma substância química que tem ação biológica sobre as estruturas celulares do organismo, com fins terapêuticos ou não." (p. 8)
+
+Conceito legal (Lei nº 11.343/2006, de 26 de agosto de 2006): "Para fins desta Lei, consideram-se como drogas as substâncias ou produtos capazes de causar dependência, assim especificados em lei ou relacionados em listas atualizadas periodicamente pelo Poder Executivo da União." (p. 8)
+
+PONTO CRÍTICO (cai em prova!)
+
+Em relação às listas atualizadas periodicamente pelo Poder Executivo da União, consideram-se drogas as substâncias presentes nas listas "A", "B" e "F" da Portaria nº 344/98-SVS/MS. (p. 8)
+
+Drogas naturais e sintéticas
+
+Tipo
+Definição
+Exemplos
+
+Naturais
+
+Presentes em plantas, animais ou minerais (já existem na natureza). Podem ser usadas direto da fonte natural ou extraídas/purificadas por procedimentos químicos ou físicos, porém sem alteração da molécula original.
+
+Cocaína, THC, morfina, mescalina, psilocibina, DMT
+
+Sintéticas
+
+Obtidas por modificações químicas da estrutura de precursores naturais ou sintéticos; não existem na natureza, são criadas pelo homem por síntese química em laboratórios.
+
+LSD (do ácido lisérgico), MDMA (do safrol), heroína (da morfina), metadona, anfetaminas, barbitúricos, benzodiazepínicos, mefedrona, DOB
+
+(p. 8)
+
+NATURAL
+Existe na natureza
+Ex.: morfina, cocaína
+
+síntese química
+(modifica a molécula)
+
+SINTÉTICA
+Criada pelo homem
+Ex.: heroína, LSD, MDMA
+
+A extração/purificação SEM alterar a molécula = ainda natural. Modificar a molécula = sintética.
+
+Demais conceitos fundamentais
+
+Termo
+Definição (conforme o PDF)
+
+Fármaco
+Substância de estrutura química definida, dotada de ação farmacológica conhecida, capaz de modificar ou explorar o sistema fisiológico ou o estado patológico, em benefício do organismo receptor. (p. 8-9)
+
+Medicamento
+Produto farmacêutico, tecnicamente obtido ou elaborado, com finalidade profilática, curativa, paliativa ou para fins de diagnóstico. É uma forma farmacêutica terminada que contém um ou mais fármacos, geralmente em associação com adjuvantes farmacotécnicos. (p. 9)
+
+Farmacologia
+Ciência que estuda como os fármacos interagem com organismos vivos. (p. 9)
+
+Toxicologia
+Ciência que estuda os efeitos nocivos decorrentes das interações de substâncias químicas com os organismos. (p. 9)
+
+Tóxico
+Agente tóxico ou toxicante: substância química capaz de causar dano a um sistema biológico, alterando uma função ou levando-o à morte, sob determinadas condições de exposição. (p. 9)
+
+Psicotrópicos
+Termo genérico que designa drogas com efeitos significativos no sistema nervoso central (SNC), que afetam processos mentais, alterando a percepção, as emoções, o pensamento e o comportamento. (p. 9)
+
+Substâncias psicoativas
+Termo usado como sinônimo de psicotrópicos. O termo derivado "novas substâncias psicoativas" é muito utilizado atualmente: são substâncias não listadas na Convenção de Psicotrópicos de 1971 nem em suas atualizações. (p. 9)
+
+Alcaloides
+Substâncias nitrogenadas, muitas farmacologicamente ativas, encontradas predominantemente em plantas. Várias possuem caráter básico, podem apresentar efeitos psicotrópicos e ser facilmente isoladas de plantas por processos físico-químicos. (p. 9)
+
+Entorpecente
+Agente químico que produz estupor (narcose), coma ou insensibilidade à dor. Refere-se normalmente a opioides, denominados analgésicos narcóticos. Em uso coloquial ou jurídico é empregado de forma imprecisa (cientificamente) para designar drogas ilícitas; recomenda-se termo mais específico (ex.: analgésicos opioides e não opioides). (p. 10)
+
+Adulterantes
+Substâncias com efeito farmacológico, que podem potencializar ou simular algum dos efeitos das drogas de abuso (ex.: a cocaína) no usuário. (p. 10)
+
+Diluentes
+Substâncias sem atividade farmacológica, adicionadas para diluir drogas de abuso (ex.: a cocaína) e aumentar a massa do produto a ser comercializado. (p. 10)
+
+Sisnad
+Sistema Nacional de Políticas Públicas sobre Drogas. Visa ao cumprimento das finalidades do art. 3º da Lei Antidrogas: "articular, integrar, organizar e coordenar as atividades relacionadas com a prevenção do uso indevido, a atenção e a reinserção social de usuários e dependentes de drogas e a repressão da produção não autorizada e do tráfico ilícito de drogas". Regulamentado pelo Decreto nº 5.912, de 27 de setembro de 2006. (p. 10)
+
+Mnemônico — Adulterante × Diluente
+"Adulterante Atua" / "Diluente é Dono do peso".
+
+ADulterante = tem ação farmacológica (potencializa/simula efeitos). DIluente = sem atividade farmacológica, só DIlui e aumenta a massa. As letras iniciais coincidem: Atua / Dilui.
+
+Mnemônico — Fármaco × Medicamento
+Fármaco = Fórmula (estrutura química definida + ação farmacológica). Medicamento = produto Montado (forma farmacêutica terminada = um ou mais fármacos + adjuvantes).
+
+1.2 Legislação pertinente sobre Química Forense
+
+Diversos dispositivos legais, nacionais e internacionais, tratam de tráfico, porte, uso, repressão e controle de drogas e substâncias químicas relacionadas à produção e/ou adulteração de drogas. (p. 10)
+
+A) Convenções (internacionais)
+
+Item
+Convenção
+Ano
+Ratificação no Brasil
+
+A.1
+Convenção Única sobre Entorpecentes
+1961
+Decreto nº 54.216/64
+
+A.2
+Convenção sobre Substâncias Psicotrópicas
+1971
+Decreto nº 79.388/77
+
+A.3
+Convenção Contra o Tráfico Ilícito de Entorpecentes e Substâncias Psicotrópicas
+1988
+Decreto nº 154/91
+
+(p. 10-11)
+
+Mnemônico — Convenções (61 / 71 / 88)
+"Entorpecente, Psicotrópico, Tráfico" → 61, 71, 88.
+
+1961 = Entorpecentes (Única) · 1971 = Psicotrópicas · 1988 = Tráfico ilícito.
+
+B) Leis Específicas (drogas)
+
+Item
+Norma
+Conteúdo
+
+B.1
+Lei nº 11.343, de 23/08/2006
+A mais recente sobre drogas no Brasil. Institui o Sisnad; prescreve medidas de prevenção, atenção e reinserção social; estabelece normas para repressão à produção não autorizada e ao tráfico; define crimes. Art. 1º, parágrafo único: drogas = substâncias/produtos capazes de causar dependência, especificados em lei ou listas do Poder Executivo da União.
+
+B.2
+Portaria nº 344/98-SVS, de 12/05/1998
+Define substâncias e medicamentos sujeitos a controle especial (regulamenta a Lei nº 11.343/06). Regularmente atualizada por RDC da Anvisa; a mais recente citada é a RDC nº 1026, de 09/04/2026 (DOU de 13/04/2026).
+
+B.3
+Lei nº 10.357, de 27/12/2001
+Normas de controle e fiscalização sobre produtos químicos que direta ou indiretamente possam ser destinados à elaboração ilícita de substâncias entorpecentes, psicotrópicas ou que determinem dependência física ou psíquica.
+
+B.4
+Portaria nº 204/2022-MJSP, de 21/10/2022
+Regulamenta quais são as substâncias e em quais condições estão sujeitas ao controle disposto na Lei nº 10.357/01.
+
+B.5
+Lei nº 11.343/06, art. 50
+Normativos sobre testes preliminares (detalhe no Cap. 4) — ver ponto crítico abaixo.
+
+(p. 11)
+
+PONTO CRÍTICO — Art. 50 da Lei nº 11.343/06 (cai em prova!)
+Ocorrendo prisão em flagrante, a autoridade de polícia judiciária fará, imediatamente, comunicação ao juiz competente, remetendo cópia do auto lavrado, do qual será dada vista ao Ministério Público, em 24 horas.
+
+§ 1º Para a lavratura do auto de prisão em flagrante e estabelecimento da materialidade do delito, é suficiente o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea.
+
+§ 2º O perito que subscrever o laudo do § 1º não ficará impedido de participar da elaboração do laudo definitivo. (p. 11-12)
+
+C a F) Leis sobre produtos farmacêuticos, alimentos e atribuição da PF
+
+Item
+Norma
+Conteúdo
+
+C
+Lei nº 5.991, de 17/12/1973
+Dispõe sobre o Controle Sanitário do Comércio de Drogas, Medicamentos, Insumos Farmacêuticos e Correlatos.
+
+D
+Lei nº 6.360, de 23/09/1976
+Dispõe sobre a Vigilância Sanitária a que ficam sujeitos medicamentos, drogas, insumos farmacêuticos e correlatos, cosméticos, saneantes e outros produtos.
+
+E
+Lei nº 10.742, de 06/10/2003
+Define normas de regulação para o setor farmacêutico, cria a Câmara de Regulação do Mercado de Medicamentos (CMED) e altera a Lei nº 6.360/76.
+
+F
+Lei nº 12.894, de 17/12/2013
+Acrescentou inciso ao art. 1º da Lei nº 10.446/2002: havendo repercussão interestadual/internacional que exija repressão uniforme, a Polícia Federal poderá investigar, entre outras, a falsificação, corrupção, adulteração ou alteração de produto destinado a fins terapêuticos ou medicinais e sua venda (inclusive pela internet), depósito ou distribuição (art. 273 do Código Penal).
+
+(p. 12)
+
+G) Portaria nº 344/98-SVS — Definições legais
+
+Entorpecente (Portaria 344): "Substância que pode determinar dependência física ou psíquica relacionada, como tal, nas listas aprovadas pela Convenção Única sobre Entorpecentes, reproduzidas nos anexos deste Regulamento Técnico."
+
+Psicotrópico (Portaria 344): "Substância que pode determinar dependência física ou psíquica e relacionada, como tal, nas listas aprovadas pela Convenção sobre Substâncias Psicotrópicas, reproduzidas nos anexos deste Regulamento Técnico." (p. 13)
+
+PONTO CRÍTICO (cai em prova!)
+
+As definições legais de entorpecente e psicotrópico adotadas pela Portaria nº 344 são coincidentes, embora isso não seja correto do ponto de vista da Farmacologia. (p. 13)
+
+H a K) Código Penal e normas da Anvisa
+
+Item
+Norma
+Conteúdo
+
+H
+CP, art. 273 (redação da Lei nº 9.677/1998 — Lei dos Crimes Hediondos)
+Crime sujeito a reclusão e multa: "falsificar, corromper, adulterar ou alterar produto destinado a fins terapêuticos ou medicinais".
+
+I
+CP, art. 272 (redação da Lei nº 9.677/1998)
+Crime sujeito a reclusão e multa: "corromper, adulterar, falsificar ou alterar substância ou produto alimentício destinado a consumo, tornando-o nocivo à saúde ou reduzindo-lhe o valor nutritivo". Também alcança bebidas, com ou sem teor alcoólico.
+
+J
+RDCs e INs da Anvisa
+Tratam de medicamentos, produtos farmacêuticos, alimentos, suplementos, rotulagem, importação e controle sanitário. Destaques: RDC nº 243/2018 (requisitos sanitários de suplementos alimentares); IN nº 28/2018 (listas de constituintes, limites de uso e alegações para suplementos); RDC nº 429/2020 e IN nº 75/2020 (rotulagem nutricional de alimentos embalados).
+
+K
+Notas Técnicas
+NT nº 05/2010, nº 47/2010 e nº 4/2011-GGMED/ANVISA (alimentos); NT nº 23/2013-CPCON/GPFIMP/GGIMP/ANVISA (procedimentos para importação de produtos controlados por pessoa física).
+
+(p. 14-15)
+
+As Listas da Portaria nº 344/98 (Anexo I)
+
+O Anexo I traz as listas de substâncias químicas (fármacos, medicamentos e drogas de abuso) e plantas sujeitas a controle especial ou consideradas proscritas em todo território nacional. A Portaria estabelece os critérios de comercialização, o tipo de receituário, se o uso é restrito ao ambiente hospitalar e quais são as drogas de uso proscrito (proibido). (p. 13-14)
+
+Lista
+Conteúdo
+Tipo de receita / controle
+
+A1
+Substâncias entorpecentes
+Notificação de receita A
+
+A2
+Substâncias entorpecentes de uso permitido somente em concentrações especiais
+Notificação de receita A
+
+A3
+Substâncias psicotrópicas
+Notificação de receita A
+
+B1
+Substâncias psicotrópicas
+Notificação de receita B
+
+B2
+Substâncias psicotrópicas anorexígenas
+Notificação de receita B2
+
+C1
+Outras substâncias sujeitas a controle especial
+Receita de controle especial em duas vias
+
+C2
+Substâncias retinóicas
+Notificação de receita especial
+
+C3
+Substâncias imunossupressoras
+Notificação de receita especial
+
+C4
+Substâncias antirretrovirais
+Receituário do Programa DST/AIDS ou Receita de Controle Especial em duas vias
+
+C5
+Substâncias anabolizantes
+Receita de controle especial em duas vias
+
+D1
+Substâncias precursoras de entorpecentes e/ou psicotrópicas
+Receita médica sem retenção
+
+D2
+Insumos químicos usados como precursores para fabricação/síntese de entorpecentes e/ou psicotrópicos
+Controle do Ministério da Justiça
+
+E
+Plantas que podem originar substâncias entorpecentes e/ou psicotrópicas (termo "plantas proscritas" introduzido pela RDC nº 70, de 22/12/2009)
+—
+
+F
+Substâncias de uso proscrito no Brasil (subdividida em F1, F2, F3 e F4)
+
+F1
+Substâncias entorpecentes (ex.: cocaína, heroína)
+Uso proscrito (proibido)
+
+F2
+Substâncias psicotrópicas (ex.: THC, MDMA)
+Uso proscrito (proibido)
+
+F3
+Substâncias precursoras (fenilpropanolamina)
+Uso proscrito (proibido)
+
+F4
+Outras substâncias (ex.: estricnina, lindano)
+Uso proscrito (proibido)
+
+PONTO CRÍTICO (cai em prova!)
+
+A classificação das drogas segue o recomendado no primeiro tratado assinado pelo Brasil. Assim, a cocaína aparece classificada como entorpecente (Lista F1), apesar de ser farmacologicamente classificada como uma substância estimulante. (p. 14)
+
+Mnemônico — Lista F (proscritas) e suas filhas
+"F de proibido (Fora do Brasil)". A Lista F = uso proscrito. Suas 4 filhas:
+
+F1 = 1º Entorpecentes (cocaína, heroína) · F2 = Psico2trópicas (THC, MDMA) · F3 = pre3cursoras (fenilpropanolamina) · F4 = ou4tras (estricnina, lindano).
+
+Mnemônico — Lembrar quais listas SÃO "droga" para a Lei
+"A, B e F são droga!" — para a Lei nº 11.343/06, consideram-se drogas as substâncias das listas A, B e F da Portaria 344/98.
+
+1.3 Estudo das drogas de uso abusivo (classificação por efeitos)
+
+O local de ação de uma droga no organismo é diretamente responsável pelos efeitos produzidos, permitindo que uma mesma substância assuma mais de uma classificação farmacológica. A cocaína, por exemplo, em uso tópico (sobre a pele) produz desestímulo local, sendo classificada como anestésico local; ao atuar sobre o SNC, passa a apresentar atividade psicotrópica. (p. 15)
+
+As principais drogas de interesse criminal são as drogas psicotrópicas. Devido ao advento das novas substâncias psicoativas (NSP), existem diversas formas de classificação (EMCDDA — Observatório Europeu da Droga e da Toxicodependência; UNODC — Escritório das Nações Unidas sobre Drogas e Crime, entre outros). Neste material adota-se a classificação quanto aos efeitos psicotrópicos: (p. 15)
+
+a) Estimulantes
+
+b) Canabinoides
+
+c) Opioides
+
+d) Sedativos e hipnóticos
+
+e) Dissociativos
+
+f) Alucinógenos
+
+Esses critérios serão usados ao abordar as características específicas das drogas no Capítulo 2. Além dessas categorias, serão exemplificadas outras substâncias usadas como drogas de abuso, tais como os inalantes (ex.: lança-perfume, item 2.7.1). (p. 15)
+
+Mnemônico — Classes de efeito das drogas
+"Eu Conheço Os Seis Diferentes Alucinógenos":
+
+Estimulantes · Canabinoides · Opioides · Sedativos e hipnóticos · Dissociativos · Alucinógenos.
+
+1.4 Aspectos relacionados à dependência de drogas
+
+Dependência: condição humana em que o uso de uma droga se torna compulsivo, tornando-se prioritário em relação a outras necessidades. Caracteriza-se por um conjunto de sintomas cognitivos, comportamentais e fisiológicos que indicam que a pessoa não tem controle sobre o uso e continua fazendo uso apesar das consequências adversas. Apresenta elementos físicos e psíquicos. (p. 15-16)
+
+Componente
+Está relacionado a
+Caracterização
+
+Dependência física
+
+Tolerância + Síndrome de abstinência
+
+Se a pessoa cessar o uso da droga, sentir-se-á fisicamente mal, devido à adaptação do organismo à presença constante dela.
+
+Dependência psíquica
+
+Falta de controle no uso
+
+Desejo intenso de usar a droga; a pessoa usa periodicamente para sentir prazer, alívio das tensões ou evitar um desconforto emocional.
+
+(p. 16)
+
+Tolerância e síndrome de abstinência são fenômenos causados por uma alteração do SNC, decorrentes da presença de uma droga ou fármaco após exposição única ou repetida.
+
+Tolerância: resposta fisiológica diminuída para uma mesma dose de uma substância.
+
+Síndrome de abstinência: aparecimento de transtornos físicos intensos quando o uso da substância é interrompido.
+
+(p. 16)
+
+DEPENDÊNCIA
+
+FÍSICA
+organismo se adapta à droga
+
+PSÍQUICA
+falta de controle no uso
+
+Tolerância
+resposta diminuída
+
+Síndrome de abstinência
+transtornos ao cessar
+
+Fissura / desejo intenso
+prazer, alívio, evitar desconforto
+
+Dependência = FÍSICA [tolerância + síndrome de abstinência] + PSÍQUICA [falta de controle / fissura].
+
+Mnemônico — Os elementos da dependência
+"FÍsico = corpo (Tolerância + Abstinência) · PSÍquico = cabeça (falta de controle/fissura)".
+
+FÍsica → corpo sente (TA: Tolerância e Abstinência). PSÍquica → mente quer (desejo intenso de usar).
+
+Síntese e Mnemônicos
+
+Pontos-chave do capítulo:
+
+Química Forense = ramo da Perícia que processa/estuda/identifica vestígios químicos de um crime.
+
+Droga (Lei 11.343/06): substância/produto capaz de causar dependência, em lei ou nas listas A, B e F da Portaria 344/98.
+
+Natural = existe na natureza (extração não altera molécula); sintética = criada por síntese (modifica molécula).
+
+Adulterante tem ação farmacológica; diluente não tem (só aumenta a massa).
+
+Convenções: 1961 Entorpecentes · 1971 Psicotrópicas · 1988 Tráfico.
+
+Entorpecente e psicotrópico têm definição coincidente na Portaria 344 (incorreto na Farmacologia).
+
+Cocaína = entorpecente na lei (F1), mas estimulante na farmacologia.
+
+Laudo de constatação: suficiente para flagrante (art. 50 §1º); qualquer perito; o subscritor não fica impedido do laudo definitivo (§2º); vista ao MP em 24h.
+
+Dependência = física (tolerância + abstinência) + psíquica (falta de controle/fissura).
+
+Tema
+Mnemônico
+
+Adulterante × Diluente
+Adulterante Atua / Diluente Dilui
+
+Convenções 61/71/88
+Entorpecente · Psicotrópico · Tráfico
+
+Listas que são "droga"
+A, B e F são droga!
+
+Lista F (proscritas)
+F1 Entorpecentes · F2 Psicotrópicas · F3 Precursoras · F4 Outras
+
+Efeitos das drogas
+E·C·O·S·D·A (Estimulantes, Canabinoides, Opioides, Sedativos/hipnóticos, Dissociativos, Alucinógenos)
+
+Dependência
+FÍsica = corpo (Tolerância + Abstinência) · PSÍquica = mente (falta de controle)

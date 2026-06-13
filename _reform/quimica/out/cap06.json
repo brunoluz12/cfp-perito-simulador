@@ -1,0 +1,156 @@
+[
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "Conforme a definição adotada tanto pelas Nações Unidas quanto pela União Europeia, qual é o traço que caracteriza uma substância como Nova Substância Psicoativa (NSP)?",
+    "alternativas": {
+      "A": "Ter sido sintetizada em laboratório nos últimos cinco anos a partir de moléculas inéditas e raras.",
+      "B": "Ter potencial de abuso e não ser controlada pelas Convenções de 1961 e 1971, ameaçando a saúde.",
+      "C": "Estar listada nominalmente nas Convenções Únicas sobre Entorpecentes de 1961 e de 1971 da ONU.",
+      "D": "Ser obrigatoriamente vendida em sua forma pura, jamais em misturas com outras substâncias químicas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: as NSP são definidas como substâncias com potencial de abuso, puras ou em misturas, que não são controladas pelas Convenções de 1961 (Entorpecentes) nem de 1971 (Psicotrópicas), mas que podem representar ameaça à saúde pública. A) errada: 'novas' não significa recém-sintetizadas nem moléculas inéditas. C) errada: o traço definidor é justamente NÃO estar controlada por essas Convenções. D) errada: o texto admite expressamente a forma pura OU em preparações (misturas). (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "No contexto das NSP, o significado correto do termo \"novas\" é que essas substâncias:",
+    "alternativas": {
+      "A": "Foram necessariamente criadas ou sintetizadas nos últimos anos em laboratórios clandestinos.",
+      "B": "São moléculas inéditas, jamais identificadas anteriormente pela ciência ou pela literatura química.",
+      "C": "Estão disponíveis no mercado recentemente, não sendo necessariamente moléculas recém-criadas.",
+      "D": "Tornaram-se controladas recentemente pelas Convenções internacionais de 1961 e de 1971 da ONU."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: o texto destaca que 'novas' não se refere a substâncias criadas ou sintetizadas nos últimos anos, mas àquelas disponíveis no mercado recentemente. A) e B) erradas: contrariam diretamente esse esclarecimento, pois a molécula pode ser antiga. D) errada: o que define NSP é não estarem controladas pelas Convenções de 61 e 71. (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "O capítulo aponta três grupos de NSP que merecem destaque no Brasil em virtude do número e das características das apreensões. Esses três grupos são:",
+    "alternativas": {
+      "A": "Canabinoides sintéticos, catinonas sintéticas e feniletilaminas.",
+      "B": "Opioides sintéticos, benzodiazepínicos e barbitúricos de uso hospitalar.",
+      "C": "Canabinoides sintéticos, cocaína e anfetaminas tradicionais de rua.",
+      "D": "Catinonas sintéticas, LSD em selos e MDMA na forma clássica."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: o texto identifica canabinoides sintéticos, catinonas sintéticas e feniletilaminas como os três grupos de destaque (mnemônico CA-CA-FE). B) errada: opioides, benzodiazepínicos e barbitúricos não são citados como os grupos de destaque. C) e D) erradas: cocaína, anfetaminas, LSD e MDMA clássico são drogas tradicionais que as NSP mimetizam, e não grupos de NSP. (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "Sobre os canabinoides sintéticos descritos no capítulo, é correto afirmar que:",
+    "alternativas": {
+      "A": "Atuam como antagonistas dos receptores canabinoides, bloqueando os efeitos da Cannabis sativa.",
+      "B": "São agonistas dos receptores canabinoides e produzem efeitos semelhantes aos da Cannabis.",
+      "C": "São derivados estruturais da catinona e agem como estimulantes do sistema nervoso central.",
+      "D": "No Brasil, são encontrados exclusivamente na forma de soluções injetáveis de uso hospitalar."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: os canabinoides sintéticos são agonistas dos receptores canabinoides, com características estruturais que permitem se ligarem a esses receptores, produzindo efeitos semelhantes aos canabinoides da Cannabis sativa. A) errada: são agonistas, não antagonistas. C) errada: derivados da catinona e estimulantes descrevem as catinonas sintéticas. D) errada: no Brasil aparecem em misturas de ervas, papéis/selos, comprimidos (raro) e pó, não exclusivamente em soluções injetáveis. (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "As catinonas sintéticas são descritas no capítulo como compostos que:",
+    "alternativas": {
+      "A": "São agonistas dos receptores canabinoides e produzem efeitos semelhantes aos da maconha em ervas.",
+      "B": "Têm efeitos exclusivamente alucinógenos e são encontradas principalmente na forma de selos e papéis.",
+      "C": "São derivadas da catinona e agem como estimulantes, mimetizando cocaína, anfetamina e MDMA.",
+      "D": "Não atuam no sistema nervoso central, sendo totalmente desprovidas de qualquer potencial de abuso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: as catinonas sintéticas são derivadas estruturalmente da catinona, agem no SNC predominantemente como estimulantes (dopamina, norepinefrina e/ou serotonina) e mimetizam cocaína, anfetamina, metanfetamina e MDMA. A) errada: descreve canabinoides sintéticos. B) errada: 'efeitos alucinógenos' e 'principalmente selos' descrevem as feniletilaminas; catinonas aparecem em selos apenas em raros casos. D) errada: elas atuam no SNC e têm potencial de abuso. (p. 43-44)",
+    "referencia": "PDF Química Forense, p. 43–44",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "De acordo com o quadro comparativo dos três grupos, em qual forma de apresentação as feniletilaminas são PRINCIPALMENTE encontradas no Brasil?",
+    "alternativas": {
+      "A": "Selos.",
+      "B": "Misturas de ervas vegetais secas.",
+      "C": "Cristais passando-se por ecstasy.",
+      "D": "Soluções injetáveis de uso hospitalar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: as feniletilaminas são encontradas no Brasil sob a forma de pó, comprimidos, soluções e, principalmente, de selos. B) errada: as misturas de ervas são típicas dos canabinoides sintéticos. C) errada: os cristais passando-se por ecstasy caracterizam as catinonas sintéticas. D) errada: o texto cita soluções, mas não 'soluções injetáveis de uso hospitalar', e a forma principal são os selos. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "Quanto à base normativa de controle das substâncias de uso proscrito no Brasil, é correto afirmar que:",
+    "alternativas": {
+      "A": "O controle é feito apenas por leis federais do Congresso, sem qualquer participação da Anvisa.",
+      "B": "As proscritas constam das listas F do Anexo I da Portaria n.º 344/98, atualizadas por RDCs.",
+      "C": "As substâncias proscritas são definidas diretamente pelas Convenções da ONU de 1961 e de 1971.",
+      "D": "A Lei n.º 11.343/2006 revogou a Portaria n.º 344/98-SVS/MS, que deixou de ter qualquer validade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: as substâncias de uso proscrito são elencadas nas listas F do Anexo I da Portaria n.º 344/98-SVS/MS (conforme a Lei n.º 11.343/2006, art. 1º, p.ú., e art. 66), com anexos frequentemente atualizados por Resoluções da Diretoria Colegiada (RDC) da Anvisa. A) errada: a Anvisa participa ativamente por meio das RDCs. C) errada: as Convenções não definem diretamente as listas brasileiras. D) errada: a Portaria 344/98 continua vigente e é a base das listas. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "O capítulo destaca a chamada \"virada de 2016\" no controle de substâncias no Brasil. Qual mudança ela representou?",
+    "alternativas": {
+      "A": "A substituição definitiva das listas F nacionais por listas administradas exclusivamente pela ONU.",
+      "B": "A descriminalização dos canabinoides sintéticos por meio de uma resolução específica da Anvisa.",
+      "C": "A adoção, além da listagem nominal já existente, de classificação com abordagens mais genéricas.",
+      "D": "O abandono completo do sistema de listagem nominal, mantendo-se apenas o critério estrutural genérico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: até 2016 o Brasil adotava somente a listagem nominal e, diante do surgimento de novas drogas em velocidade superior à inclusão normativa, decidiu-se adotar TAMBÉM formas de classificação genéricas (estruturais). A) errada: as listas F nacionais não foram substituídas por listas da ONU. B) errada: a RDC 79/2016 proibiu canabinoides sintéticos, não os descriminalizou. D) errada: a listagem nominal não foi abandonada; a classificação genérica foi adicionada a ela. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "Considerando a linha do tempo das RDCs que incluíram classes estruturais na Lista F2 da Portaria n.º 344/1998, qual sequência relaciona corretamente RDC, ano e grupo de NSP?",
+    "alternativas": {
+      "A": "RDC 79/2016 (catinonas sintéticas) → RDC 175/2017 (feniletilaminas) → RDC 325/2019 (canabinoides sint.).",
+      "B": "RDC 325/2016 (canabinoides sint.) → RDC 175/2017 (catinonas sintéticas) → RDC 79/2019 (feniletilaminas).",
+      "C": "RDC 79/2016 (canabinoides sint.) → RDC 175/2017 (catinonas sint.) → RDC 325/2019 (feniletilaminas).",
+      "D": "RDC 175/2016 (feniletilaminas) → RDC 79/2017 (canabinoides sint.) → RDC 325/2019 (catinonas sintéticas)."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: a sequência é RDC 79 (2016, dez classes de canabinoides sintéticos) → RDC 175 (2017, catinonas sintéticas) → RDC 325 (2019, feniletilaminas); os números crescentes acompanham os anos crescentes. A) errada: troca os grupos associados às RDCs. B) e D) erradas: invertem os números/anos das RDCs e os grupos correspondentes. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "Sobre a RDC n.º 79, de 23 de maio de 2016, é correto afirmar que ela incluiu na Lista F2:",
+    "alternativas": {
+      "A": "Dez classes genéricas dos canabinoides sintéticos, proibindo substâncias que nelas se enquadrem.",
+      "B": "Uma única classe estrutural das feniletilaminas, sem previsão de qualquer isenção de controle nos adendos.",
+      "C": "A classe das catinonas sintéticas, listando nominalmente cada uma das substâncias derivadas da catinona.",
+      "D": "Todas as substâncias psicotrópicas já controladas pelas Convenções da ONU de 1961 e de 1971 em vigor."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: a RDC 79/2016 incluiu dez classes estruturais genéricas dos canabinoides sintéticos, passando a proibir quaisquer substâncias canabimiméticas que se enquadrem nessas classes, observadas as isenções de controle previstas nos adendos. B) errada: feniletilaminas entraram pela RDC 325/2019, e havia previsão de isenções. C) errada: catinonas entraram pela RDC 175/2017, e a abordagem foi genérica/estrutural, não listagem nominal. D) errada: a RDC tratou de NSP, não das substâncias já controladas pelas Convenções. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "enunciado": "A classificação genérica (estrutural) é apontada como especialmente eficiente no controle das NSP. Qual afirmativa explica corretamente o porquê dessa eficiência?",
+    "alternativas": {
+      "A": "Porque exige a listagem nominal individual de cada nova molécula antes que ela possa enfim ser proibida.",
+      "B": "Porque define um núcleo molecular com variações descritas, impedindo a burla por pequenas alterações.",
+      "C": "Porque transfere para a ONU a responsabilidade de identificar e nomear cada substância apreendida no Brasil.",
+      "D": "Porque libera do controle os subgrupos estruturais, concentrando a proibição apenas na molécula original."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: a classificação genérica define uma estrutura molecular nuclear e suas variações, permitindo proibir grupos e subgrupos de forma abrangente e antecipar o controle; isso é eficiente contra as NSP porque é comum sintetizar novas substâncias com pequenas alterações estruturais em moléculas já controladas para burlar o controle. A) errada: a abordagem genérica dispensa a listagem nominal de cada molécula. C) errada: a identificação não é transferida à ONU. D) errada: a abordagem amplia o controle a grupos e subgrupos, em vez de liberá-los. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "dificil"
+  }
+]

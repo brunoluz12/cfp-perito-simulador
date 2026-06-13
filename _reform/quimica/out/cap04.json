@@ -1,0 +1,184 @@
+[
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "O ópio é definido pelo texto como o suco leitoso (látex) extraído por meio de incisões nas cápsulas imaturas (frutos verdes) de qual vegetal?",
+    "alternativas": {
+      "A": "Papaver somniferum, da família Papaveraceae",
+      "B": "Erythroxylum coca, da família Erythroxylaceae",
+      "C": "Cannabis sativa, da família Cannabaceae",
+      "D": "Lophophora williamsii, da família Cactaceae"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto afirma que o ópio é o látex extraído das cápsulas imaturas do Papaver somniferum linneu (Família Papaveraceae), também chamada dormideira ou papoula (p. 31). A B erra porque Erythroxylum coca é a planta da cocaína, não do ópio. A C erra porque Cannabis sativa é a maconha. A D erra porque Lophophora williamsii é o peiote (mescalina), não a fonte do ópio.",
+    "referencia": "PDF Química Forense, p. 31",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Segundo o texto, qual é o alcaloide mais abundante do ópio bruto e seu respectivo teor aproximado?",
+    "alternativas": {
+      "A": "Narcotina (noscapina), com teor de cerca de 6%",
+      "B": "Codeína, com teor de cerca de 0,5%",
+      "C": "Morfina, com teor de cerca de 10%",
+      "D": "Tebaína, com teor de cerca de 0,2%"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto indica que a morfina é o alcaloide mais abundante do ópio, com teor de 10% (p. 31). A A erra porque a narcotina/noscapina está em 6%, abaixo da morfina. A B erra no teor e na abundância, pois a codeína está em 0,5%. A D erra porque a tebaína está em apenas 0,2%, sendo o menor dos citados.",
+    "referencia": "PDF Química Forense, p. 31",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "De acordo com o texto, a heroína é quimicamente conhecida como:",
+    "alternativas": {
+      "A": "Noscapina, alcaloide natural do ópio",
+      "B": "Diacetilmorfina, derivada da morfina",
+      "C": "Papaverina, alcaloide natural do ópio",
+      "D": "Tebaína, alcaloide natural do ópio"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o texto define a heroína como produto sintético derivado da morfina, também conhecida como diacetilmorfina (p. 32). A A (noscapina/narcotina), a C (papaverina) e a D (tebaína) erram porque são alcaloides naturais do ópio listados no texto, e não a denominação química da heroína.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Entre os efeitos atribuídos pelo texto às drogas opiáceas, está corretamente descrito:",
+    "alternativas": {
+      "A": "Taquicardia e aumento da frequência respiratória",
+      "B": "Bradicardia e depressão respiratória, com sono",
+      "C": "Aumento do apetite e agitação psicomotora",
+      "D": "Elevação da pressão arterial e euforia agressiva"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o texto lista bradicardia (redução dos batimentos) e diminuição da frequência respiratória (depressão respiratória) entre os efeitos opioides (p. 30). A A erra porque há bradicardia e depressão respiratória, e não taquicardia/aumento respiratório. A C erra porque o texto cita perda de apetite e relaxamento/sono, não aumento de apetite e agitação. A D erra porque os efeitos descritos são de bem-estar e relaxamento, sem menção a elevação pressórica ou euforia agressiva.",
+    "referencia": "PDF Química Forense, p. 30",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "O texto registra que a síntese da heroína ocorreu em 1874 com determinada finalidade. Qual era essa finalidade e qual fato posterior foi verificado?",
+    "alternativas": {
+      "A": "Obter um substituto da morfina capaz de evitar a dependência; depois constatou-se que sua dependência era muito maior",
+      "B": "Criar um anestésico geral mais potente para cirurgias; depois constatou-se que era totalmente ineficaz como analgésico clínico",
+      "C": "Desenvolver um antitússico isento de qualquer efeito sedativo; mais tarde constatou-se que não atuava de forma alguma sobre a tosse",
+      "D": "Produzir um estimulante potente do sistema nervoso central; depois constatou-se que provocava intensa bradicardia generalizada"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto afirma que a heroína foi sintetizada em 1874 buscando substituto da morfina para evitar a dependência, mas depois se verificou que causava dependência muito maior (p. 32). A B erra porque a busca era por substituto da morfina sem dependência, não um anestésico geral. A C erra porque a heroína chegou a ser comercializada em 1898 como medicamento contra a tosse, ou seja, atuava sobre a tosse. A D erra porque a heroína é opioide depressor, e a finalidade não era estimular o SNC.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Conforme o texto, a mistura de heroína com cocaína é conhecida pela denominação:",
+    "alternativas": {
+      "A": "Crack, mistura de heroína com cocaína fumada",
+      "B": "Merla, mistura de heroína com cocaína fumada",
+      "C": "Oxi, mistura de heroína com cocaína fumada",
+      "D": "Speedball, mistura de heroína com cocaína"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: o texto afirma que a heroína pode ser usada sozinha ou em associação com a cocaína, mistura conhecida como speedball (p. 32). A A (crack), a B (merla) e a C (oxi) erram porque não são citadas no texto como a associação heroína + cocaína descrita.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Sobre o enquadramento legal previsto na Portaria n.º 344/98-SVS/MS, segundo o texto, é correto afirmar:",
+    "alternativas": {
+      "A": "O ópio está na Lista F1 (uso proscrito) e a heroína na Lista A1 (entorpecentes)",
+      "B": "A morfina e a heroína integram a Lista B1 (substâncias psicotrópicas)",
+      "C": "A heroína é a única proscrita (F1); ópio e morfina são entorpecentes A1",
+      "D": "O ópio e a morfina estão na Lista E, das plantas proscritas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto destaca que a heroína é a única proscrita (Lista F1), enquanto ópio e morfina são entorpecentes da Lista A1 (p. 32-33). A A inverte os enquadramentos, pois o ópio é A1 e a heroína é F1. A B erra porque a Lista B1 é dos psicotrópicos (barbitúricos e tranquilizantes), não da morfina e heroína. A D erra porque a Lista E é da planta Papaver somniferum, e não do ópio ou da morfina.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Segundo o texto, a planta Papaver somniferum está incluída em qual lista da Portaria n.º 344/98-SVS/MS, e por qual norma essa lista foi atualizada?",
+    "alternativas": {
+      "A": "Lista A1 (entorpecentes), atualizada pela RDC n.º 70/2009 da Anvisa",
+      "B": "Lista E (plantas proscritas), atualizada pela RDC n.º 39/2012",
+      "C": "Lista B1 (psicotrópicas), atualizada pela RDC n.º 39/2012",
+      "D": "Lista F1 (uso proscrito), atualizada pela RDC n.º 70/2009 da Anvisa"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o texto afirma que o Papaver somniferum integra a Lista E (plantas proscritas que podem originar substâncias entorpecentes/psicotrópicas), atualizada pela RDC n.º 39 da Anvisa, de 9 de julho de 2012 (p. 32). A A erra porque a A1 é das substâncias entorpecentes (ópio, morfina), não da planta. A C erra porque a B1 é dos psicotrópicos. A D erra porque a F1 é da heroína, e a norma de atualização da Lista E é a RDC 39/2012, não a RDC 70/2009 (que trata da semente para fim alimentício).",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "De acordo com o texto, os barbitúricos atuam como depressores do SNC. Em razão dos elevados riscos e do surgimento dos benzodiazepínicos, seu uso ficou praticamente restrito a quais finalidades e fármacos?",
+    "alternativas": {
+      "A": "Tratamento da hipertensão (Tiopental) e como antitússico (fenobarbital)",
+      "B": "Ansiolítico de uso domiciliar (barbital/Veronal) e indutor do sono (Rohypnol)",
+      "C": "Tratamento da insônia (Gardenal) e como anestésico local em cirurgias bucais (barbital)",
+      "D": "Anticonvulsivante (fenobarbital/Gardenal) e pré-anestésico hospitalar (Tiopental)"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: o texto diz que o uso dos barbitúricos ficou restrito à ação anticonvulsivante (fenobarbital, Gardenal) e como pré-anestésico em hospitais (Tiopental) (p. 33). A A erra porque a finalidade restrita não é hipertensão nem antitússico. A B erra porque Rohypnol é benzodiazepínico (flunitrazepam), não barbitúrico, e o barbital/Veronal foi apenas o primeiro barbitúrico medicinal. A C erra porque o uso restrito não é insônia nem anestesia local.",
+    "referencia": "PDF Química Forense, p. 33",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Conforme o texto, o ácido barbitúrico, precursor dessa classe, foi obtido primeiramente em 1864, e o primeiro barbitúrico usado na medicina foi o barbital (Veronal) em 1903. A quem o texto atribui, respectivamente, essas obtenções?",
+    "alternativas": {
+      "A": "Adolf von Baeyer (1864) e, depois, Emil Fischer e Joseph von Mehring (1903)",
+      "B": "Emil Fischer (1864) e, depois, Adolf von Baeyer e von Mehring (1903)",
+      "C": "Joseph von Mehring (1864) e, depois, Adolf von Baeyer e Fischer (1903)",
+      "D": "Emil Fischer e Joseph von Mehring (1864) e, depois, somente Adolf von Baeyer (1903)"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto atribui a obtenção do ácido barbitúrico em 1864 a Adolf von Baeyer, e o barbital (Veronal) de 1903 a Emil Fischer e Joseph von Mehring (p. 33). As alternativas B, C e D erram porque trocam os autores ou as datas, atribuindo a Baeyer o barbital de 1903 e/ou a Fischer/Mehring o ácido barbitúrico de 1864, contrariando o texto.",
+    "referencia": "PDF Química Forense, p. 33",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "O texto associa o flunitrazepam (Rohypnol) a qual uso ilícito conhecido popularmente?",
+    "alternativas": {
+      "A": "Droga indutora do sono usada como droga de estupro no golpe \"boa noite, Cinderela\"",
+      "B": "Estimulante usado para potencializar de forma intensa os efeitos da cocaína fumada",
+      "C": "Anticonvulsivante desviado para o tratamento clandestino de quadros graves de epilepsia",
+      "D": "Antídoto largamente empregado para reverter as intoxicações agudas causadas por opioides"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto identifica o flunitrazepam (Rohypnol) como indutor do sono usado como droga de estupro no golpe \"boa noite, Cinderela\" (p. 34). A B erra porque o texto não o relaciona à potencialização da cocaína. A C erra porque o anticonvulsivante citado é o clonazepam (Rivotril), não o Rohypnol. A D erra porque o texto não descreve o flunitrazepam como antídoto de opioides.",
+    "referencia": "PDF Química Forense, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Segundo o texto, tanto os barbitúricos quanto os tranquilizantes (benzodiazepínicos) estão incluídos em qual lista da Portaria n.º 344/98-SVS/MS?",
+    "alternativas": {
+      "A": "Lista A1 — Substâncias Entorpecentes",
+      "B": "Lista E — Plantas Proscritas no Brasil",
+      "C": "Lista B1 — Substâncias Psicotrópicas",
+      "D": "Lista F1 — Substâncias de Uso Proscrito"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto afirma que tanto os barbitúricos quanto os tranquilizantes/benzodiazepínicos integram a Lista B1 das substâncias psicotrópicas (p. 34-35). A A erra porque a A1 reúne os entorpecentes (ópio, morfina). A B erra porque a Lista E é das plantas proscritas (Papaver somniferum). A D erra porque a F1 é de uso proscrito (heroína).",
+    "referencia": "PDF Química Forense, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "De acordo com o texto, qual princípio ativo tranquilizante é comercializado como Rivotril e tem indicação anticonvulsivante?",
+    "alternativas": {
+      "A": "Diazepam, comercializado como Valium",
+      "B": "Bromazepam, ansiolítico comercializado como Lexotan",
+      "C": "Clonazepam, comercializado como Rivotril",
+      "D": "Lorazepam, comercializado como Lorax"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto associa o clonazepam ao nome comercial Rivotril, com indicação anticonvulsivante (p. 34). A A erra porque o diazepam corresponde ao Valium e outros, não ao Rivotril. A B erra porque o bromazepam é o Lexotan. A D erra porque o lorazepam é o Lorax/Relax/Loril, não o Rivotril.",
+    "referencia": "PDF Química Forense, p. 34",
+    "nivel": "dificil"
+  }
+]

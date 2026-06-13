@@ -22991,5 +22991,1790 @@
     "justificativa": "O art. 175 do CPP dispõe que serão sujeitos a exame os instrumentos empregados para a prática da infração, a fim de se lhes verificar a natureza e a eficiência; na seção de vestígios/exames, atenção especial é dada à caracterização do instrumento ou meio empregado (p. 192-193). Isso valida A. B propõe destruição e dispensa do exame, contrariando a norma. C trata o exame como facultativo, sem verificação de eficiência. D restringe indevidamente o exame às armas de fogo.",
     "referencia": "PDF LOC, p. 192-193",
     "nivel": "dificil"
+  },
+  {
+    "id": 1512,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o conceito legal de droga adotado pela Lei nº 11.343/2006, qual das afirmativas está correta?",
+    "alternativas": {
+      "A": "São drogas as substâncias de estrutura química definida e dotadas de ação farmacológica conhecida, capazes de modificar ou explorar o sistema fisiológico em benefício do organismo receptor.",
+      "B": "São drogas todas as substâncias naturais ou sintéticas que modificam funções de um organismo vivo, com fins terapêuticos.",
+      "C": "São drogas apenas as substâncias nitrogenadas de origem vegetal com caráter básico e efeitos psicotrópicos.",
+      "D": "São drogas as substâncias ou produtos capazes de causar dependência, especificados em lei ou em listas atualizadas pelo Poder Executivo da União."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta reproduz o conceito legal da Lei nº 11.343/2006: substâncias/produtos capazes de causar dependência, especificados em lei ou nas listas do Poder Executivo (p. 8). A B descreve o conceito clássico (não o legal) de droga. A C é a definição de alcaloides. A D é a definição de fármaco.",
+    "referencia": "PDF Química Forense, p. 8",
+    "nivel": "medio"
+  },
+  {
+    "id": 1513,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o material, quais listas da Portaria nº 344/98-SVS/MS contêm as substâncias que são consideradas drogas para fins da Lei nº 11.343/06?",
+    "alternativas": {
+      "A": "Listas A, C e E da Portaria.",
+      "B": "Listas C, D e E da referida Portaria.",
+      "C": "Listas B, D e F da Portaria 344/98.",
+      "D": "Listas A, B e F."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material afirma expressamente que se consideram drogas as substâncias presentes nas listas A, B e F da Portaria nº 344/98 (p. 8; mnemônico 'A, B e F são droga!'). As demais combinações (A/C/E, B/D/F, C/D/E) misturam listas que não correspondem a essa regra.",
+    "referencia": "PDF Química Forense, p. 8",
+    "nivel": "facil"
+  },
+  {
+    "id": 1514,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre drogas naturais e sintéticas apresentada no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A heroína deve ser classificada como droga natural, pois deriva da morfina, substância que é extraída diretamente de planta sem qualquer alteração da molécula original.",
+      "B": "Toda substância extraída e purificada por processos químicos passa a ser classificada como sintética.",
+      "C": "A extração ou purificação sem alterar a molécula mantém a droga natural; modificar a molécula a torna sintética.",
+      "D": "Drogas naturais são apenas as de origem vegetal, enquanto as de origem animal ou mineral são sintéticas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O critério do material é claro: extração/purificação sem alterar a molécula = natural; modificar a molécula = sintética (p. 8). A A está errada porque a heroína é sintética (obtida da morfina por modificação química). A B inverte o critério (purificar sem alterar não torna sintética). A D é falsa: naturais podem ser de plantas, animais ou minerais.",
+    "referencia": "PDF Química Forense, p. 8",
+    "nivel": "medio"
+  },
+  {
+    "id": 1515,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No material, distingue-se adulterante de diluente em substâncias como a cocaína. Qual afirmativa está correta?",
+    "alternativas": {
+      "A": "O adulterante não tem qualquer ação farmacológica e serve apenas para aumentar a massa do produto comercializado.",
+      "B": "O diluente potencializa ou simula efeitos da droga no usuário por possuir ação farmacológica relevante.",
+      "C": "Tanto o adulterante quanto o diluente possuem atividade farmacológica relevante sobre o SNC do usuário.",
+      "D": "O adulterante tem efeito farmacológico que potencializa ou simula efeitos; o diluente não tem atividade farmacológica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material, adulterante tem ação farmacológica (potencializa/simula efeitos) e diluente é sem atividade farmacológica, servindo só para aumentar a massa (p. 10; mnemônico 'Adulterante Atua / Diluente Dilui'). A A e a B trocam as definições dos dois termos, e a C afirma erroneamente que ambos têm atividade farmacológica.",
+    "referencia": "PDF Química Forense, p. 10",
+    "nivel": "facil"
+  },
+  {
+    "id": 1516,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Relacione corretamente as Convenções internacionais sobre drogas com seus respectivos anos, conforme o material.",
+    "alternativas": {
+      "A": "1961 Convenção sobre Substâncias Psicotrópicas; 1971 Convenção Única sobre Entorpecentes; 1988 Tráfico Ilícito.",
+      "B": "1961 Convenção Única sobre Entorpecentes; 1971 Substâncias Psicotrópicas; 1988 Tráfico Ilícito.",
+      "C": "1961 Convenção contra o Tráfico Ilícito; 1971 Entorpecentes; 1988 Convenção sobre Substâncias Psicotrópicas.",
+      "D": "1961 Substâncias Psicotrópicas; 1971 Tráfico Ilícito; 1988 Convenção Única sobre Entorpecentes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material indica: 1961 = Convenção Única sobre Entorpecentes; 1971 = Substâncias Psicotrópicas; 1988 = Tráfico Ilícito (p. 10-11; mnemônico 'Entorpecente, Psicotrópico, Tráfico'). As alternativas A, C e D embaralham essa ordem dos anos com os temas.",
+    "referencia": "PDF Química Forense, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 1517,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o art. 50 da Lei nº 11.343/06 e seus parágrafos, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O laudo de constatação da natureza e quantidade da droga é suficiente para a lavratura do auto de prisão em flagrante e o estabelecimento da materialidade do delito.",
+      "B": "Para a lavratura do flagrante exige-se o laudo definitivo, não bastando o laudo de constatação preliminar.",
+      "C": "O perito que subscreve o laudo de constatação fica impedido de participar da elaboração do laudo definitivo.",
+      "D": "Ocorrendo a prisão em flagrante, a autoridade de polícia judiciária fará imediatamente a comunicação ao juiz competente, remetendo cópia do auto lavrado, do qual será dada vista ao Ministério Público no prazo de 48 horas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o art. 50, §1º, o laudo de constatação da natureza e quantidade da droga é suficiente para a lavratura do flagrante e a materialidade (p. 11-12). A B contraria o §1º (basta o laudo de constatação). A C contraria o §2º (o subscritor NÃO fica impedido). A D erra o prazo, que é de 24 horas, não 48.",
+    "referencia": "PDF Química Forense, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 1518,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as definições legais de entorpecente e psicotrópico adotadas pela Portaria nº 344/98, o material afirma que:",
+    "alternativas": {
+      "A": "as definições são distintas e tecnicamente perfeitas sob o ponto de vista da Farmacologia.",
+      "B": "entorpecente é definido apenas pela Convenção de 1988 e psicotrópico pela de 1961.",
+      "C": "psicotrópico exclui qualquer possibilidade de dependência física, restringindo-se à dependência psíquica.",
+      "D": "as definições são coincidentes, embora isso não seja correto do ponto de vista da Farmacologia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material afirma que as definições legais de entorpecente e psicotrópico na Portaria 344 são coincidentes, embora incorretas sob a Farmacologia (p. 13). A A contraria isso (não são farmacologicamente perfeitas). A B troca as convenções de referência (entorpecente liga-se à Convenção de 1961 e psicotrópico à de 1971). A C é falsa, pois ambas as definições mencionam dependência física OU psíquica.",
+    "referencia": "PDF Química Forense, p. 13",
+    "nivel": "medio"
+  },
+  {
+    "id": 1519,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o ponto crítico do material sobre a classificação da cocaína nas listas da Portaria nº 344/98, é correto afirmar que a cocaína:",
+    "alternativas": {
+      "A": "aparece como entorpecente (Lista F1), apesar de ser farmacologicamente estimulante.",
+      "B": "aparece como psicotrópica (Lista F2), em coerência com sua ação estimulante.",
+      "C": "aparece como substância precursora (Lista F3), por ser usada na síntese de outras drogas.",
+      "D": "aparece como anorexígena (Lista B2), por sua ação sobre o apetite."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material destaca que a cocaína é classificada como entorpecente (Lista F1) por seguir o primeiro tratado assinado pelo Brasil, apesar de ser farmacologicamente estimulante (p. 14). A B erra a lista (F1, não F2). A C confunde com a F3 (precursoras, ex.: fenilpropanolamina). A D associa indevidamente à B2 (anorexígenas).",
+    "referencia": "PDF Química Forense, p. 14",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1520,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a subdivisão da Lista F (substâncias de uso proscrito no Brasil) da Portaria nº 344/98, assinale a associação correta entre subdivisão e exemplo.",
+    "alternativas": {
+      "A": "F1 substâncias psicotrópicas (THC, MDMA); F2 substâncias entorpecentes (cocaína, heroína).",
+      "B": "F3 outras substâncias (estricnina, lindano); F4 substâncias precursoras (fenilpropanolamina).",
+      "C": "F2 substâncias precursoras (fenilpropanolamina); F3 substâncias entorpecentes (cocaína, heroína).",
+      "D": "F1 substâncias entorpecentes (cocaína, heroína); F2 substâncias psicotrópicas (THC, MDMA)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo material: F1 entorpecentes (cocaína, heroína); F2 psicotrópicas (THC, MDMA); F3 precursoras (fenilpropanolamina); F4 outras (estricnina, lindano) (p. 14, mnemônico da Lista F). A A inverte F1 e F2; a B inverte F3 e F4; a D desloca precursoras e entorpecentes para subdivisões erradas.",
+    "referencia": "PDF Química Forense, p. 14",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1521,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No material, a classificação das drogas psicotrópicas quanto aos efeitos adota seis categorias. Qual conjunto corresponde a essa classificação?",
+    "alternativas": {
+      "A": "Estimulantes, canabinoides, opioides, sedativos e hipnóticos, dissociativos e alucinógenos.",
+      "B": "Estimulantes, alcaloides, diluentes, adulterantes, precursores e inalantes voláteis.",
+      "C": "Entorpecentes, psicotrópicos, fármacos, medicamentos, tóxicos, narcóticos e anestésicos.",
+      "D": "Naturais, sintéticas, anestésicos locais, anorexígenos, substâncias retinoicas e anabolizantes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material adota a classificação por efeitos psicotrópicos em seis categorias: estimulantes, canabinoides, opioides, sedativos e hipnóticos, dissociativos e alucinógenos (p. 15; mnemônico E·C·O·S·D·A). As demais alternativas misturam termos e listas (alcaloides, diluentes, retinoicos, anabolizantes etc.) que não compõem essa classificação por efeitos.",
+    "referencia": "PDF Química Forense, p. 15",
+    "nivel": "facil"
+  },
+  {
+    "id": 1522,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme os conceitos de dependência apresentados no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A dependência física relaciona-se à falta de controle no uso e ao desejo intenso de obter prazer e alívio das tensões com a droga.",
+      "B": "A dependência psíquica caracteriza-se pela presença de tolerância somada à síndrome de abstinência por adaptação do organismo.",
+      "C": "A tolerância corresponde ao aparecimento de transtornos físicos intensos quando o uso da substância é bruscamente interrompido.",
+      "D": "A dependência física relaciona-se à tolerância e à síndrome de abstinência, por adaptação do organismo à droga."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo material, a dependência física relaciona-se a tolerância + síndrome de abstinência, por adaptação do organismo à droga (p. 16). A A descreve a dependência psíquica (falta de controle/fissura), não a física. A B troca: tolerância e abstinência caracterizam a dependência física. A C define síndrome de abstinência, e não tolerância (que é a resposta fisiológica diminuída para a mesma dose).",
+    "referencia": "PDF Química Forense, p. 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 1523,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No quadro de conceitos fundamentais do material, qual alternativa apresenta corretamente a definição do termo indicado?",
+    "alternativas": {
+      "A": "Fármaco é o produto farmacêutico terminado, com finalidade profilática ou curativa, que contém um ou mais princípios ativos associados a adjuvantes farmacotécnicos.",
+      "B": "Toxicologia é a ciência que estuda como os fármacos interagem com os organismos vivos em benefício do organismo receptor.",
+      "C": "Entorpecente, em sentido científico estrito, designa qualquer droga ilícita, sendo termo preciso e tecnicamente recomendado pela Farmacologia.",
+      "D": "Alcaloides são substâncias nitrogenadas, muitas ativas, encontradas predominantemente em plantas e com possível efeito psicotrópico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A definição de alcaloides está correta conforme o material: substâncias nitrogenadas, muitas ativas, predominantemente em plantas, com possível efeito psicotrópico (p. 9). A A descreve o medicamento, não o fármaco. A C inverte o material, que diz que 'entorpecente' é usado de forma imprecisa cientificamente. A D define farmacologia, não toxicologia (esta estuda os efeitos nocivos das substâncias).",
+    "referencia": "PDF Química Forense, p. 9",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1524,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o laudo preliminar de constatação em casos de drogas, conforme o ponto crítico do material, é correto afirmar que ele:",
+    "alternativas": {
+      "A": "só pode ser emitido por perito criminal oficial com formação acadêmica específica na área de Química.",
+      "B": "substitui integralmente o laudo definitivo, dispensando quaisquer exames posteriores sobre a droga apreendida.",
+      "C": "deve ser firmado obrigatoriamente por dois peritos oficiais, sob pena de nulidade do auto de flagrante.",
+      "D": "pode ser emitido por Peritos Criminais de qualquer área de formação, conforme a Lei nº 11.343/2006."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material afirma que o laudo preliminar de constatação pode ser emitido por Peritos Criminais de qualquer área de formação acadêmica, conforme a Lei nº 11.343/2006 (p. 7). A A contraria isso ao exigir formação em Química. A C inventa a exigência de dois peritos. A D é falsa, pois o laudo de constatação não substitui o definitivo (o §2º prevê a posterior elaboração do laudo definitivo).",
+    "referencia": "PDF Química Forense, p. 7",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1525,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a definição de Química Forense apresentada no material, qual alternativa a descreve corretamente?",
+    "alternativas": {
+      "A": "Conjunto de normas que regula o comércio sanitário de medicamentos e insumos farmacêuticos.",
+      "B": "Ciência que estuda exclusivamente os efeitos nocivos das substâncias químicas sobre o organismo.",
+      "C": "Área restrita à análise laboratorial de drogas de abuso apreendidas em flagrante.",
+      "D": "Ramo da Perícia que processa, estuda e identifica os vestígios químicos de um crime."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material define Química Forense como o ramo da Perícia que processa/estuda/identifica os vestígios químicos de um crime (p. 7). A B descreve a toxicologia, não a Química Forense. A C é restritiva demais, pois a Química Forense é abrangente (alimentos, agrotóxicos, explosivos etc.). A D corresponde à finalidade de leis sanitárias (ex.: Lei nº 5.991/1973), não à definição da disciplina.",
+    "referencia": "PDF Química Forense, p. 7",
+    "nivel": "medio"
+  },
+  {
+    "id": 1526,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o material, os estimulantes são drogas que provocam elevação da atividade orgânica. Qual é o mecanismo central que define essa classe?",
+    "alternativas": {
+      "A": "Bloqueiam a condução nervosa sem alterar a atividade orgânica",
+      "B": "Deprimem o trabalho do sistema nervoso central (SNC)",
+      "C": "Atuam apenas no sistema nervoso periférico, poupando o SNC",
+      "D": "Aumentam o trabalho do sistema nervoso central (SNC)"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Segundo o texto, estimulantes elevam a atividade orgânica por aumentar o trabalho do SNC. B inverte o efeito (depressão). C restringe ao sistema periférico, contrariando a definição centrada no SNC. D nega a elevação da atividade orgânica que caracteriza a classe. (p. 17)",
+    "referencia": "PDF Química Forense, p. 17",
+    "nivel": "facil"
+  },
+  {
+    "id": 1527,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os efeitos adversos do uso de estimulantes descritos no material, encontra-se uma alteração ocular característica. Qual é ela?",
+    "alternativas": {
+      "A": "Constrição das pupilas (miose), com forte lacrimejamento",
+      "B": "Queda da pressão intraocular, sem qualquer alteração pupilar",
+      "C": "Visão dupla persistente, com queda discreta das pálpebras",
+      "D": "Dilatação das pupilas, alteração conhecida como midríase"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material lista a dilatação das pupilas (midríase) entre os efeitos adversos dos estimulantes. A descreve miose, o oposto da midríase citada. C e D apresentam alterações não mencionadas no rol de efeitos adversos do texto. (p. 17)",
+    "referencia": "PDF Química Forense, p. 17",
+    "nivel": "facil"
+  },
+  {
+    "id": 1528,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a planta coca, a que família e gênero botânicos ela pertence, segundo o material?",
+    "alternativas": {
+      "A": "Família Papaveraceae e gênero Papaver",
+      "B": "Família Cannabaceae e gênero Cannabis",
+      "C": "Família Solanaceae e gênero Nicotiana",
+      "D": "Família Erythroxylaceae e gênero Erythroxylum"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que a coca pertence à família Erythroxylaceae e ao gênero Erythroxylum. A corresponde à papoula, B à maconha e D ao tabaco, plantas de outras famílias e gêneros não relacionados à coca. (p. 17)",
+    "referencia": "PDF Química Forense, p. 17",
+    "nivel": "facil"
+  },
+  {
+    "id": 1529,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Embora existam cerca de 250 espécies de Erythroxylum, o material destaca quais delas como possuidoras de cocaína suficiente para exploração ilícita?",
+    "alternativas": {
+      "A": "Apenas a Erythroxylum coca, única espécie com qualquer teor",
+      "B": "A Erythroxylum coca e a Erythroxylum novogranatense",
+      "C": "Todas as cerca de 250 espécies conhecidas do gênero",
+      "D": "Somente a variedade Ipadú da Erythroxylum coca, de baixo teor"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material indica que somente duas espécies possuem cocaína suficiente para exploração ilícita: E. coca e E. novogranatense. A erra ao reduzir a uma só espécie e negar teor às demais. C generaliza para todas as 250 espécies. D cita justamente a variedade de baixo teor, não utilizada como matéria-prima. (p. 17)",
+    "referencia": "PDF Química Forense, p. 17",
+    "nivel": "medio"
+  },
+  {
+    "id": 1530,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material aponta como ponto crítico de prova qual variedade apresenta o maior teor de cocaína na folha e a respectiva faixa percentual. Assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A variedade Ipadú da coca, com teor de 0,5% a 1,2% ou mais",
+      "B": "A Erythroxylum novogranatense, com teor sempre superior a 5%",
+      "C": "Qualquer folha de coca, com teor fixo de exatamente 1,2%",
+      "D": "A Erythroxylum coca, variedade coca, com teor de 0,5% a 1,2%"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto destaca que as folhas de E. coca, variedade coca, são as de maior teor, podendo conter de 0,5% a 1,2% ou mais. A atribui esse teor à variedade Ipadú, que na verdade tem baixo teor. B inventa um percentual e a espécie. D fixa erroneamente o teor como valor único e invariável. (p. 18)",
+    "referencia": "PDF Química Forense, p. 18",
+    "nivel": "medio"
+  },
+  {
+    "id": 1531,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "A variedade Ipadú (Epadu/Patu) da Erythroxylum coca é mencionada no material. O que a caracteriza quanto ao uso na produção de cocaína?",
+    "alternativas": {
+      "A": "Tem baixo teor de cocaína e não vem sendo usada como matéria-prima",
+      "B": "É a variedade preferida pelos traficantes, por seu altíssimo teor",
+      "C": "Não contém qualquer alcaloide, sendo distinta da própria planta coca",
+      "D": "É exclusiva dos Andes e totalmente desconhecida na região amazônica"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material afirma que a variedade Ipadú possui baixo teor de cocaína e não tem sido utilizada como matéria-prima na produção da droga. B contraria o baixo teor. C nega que ela contenha cocaína, embora o texto a inclua entre as folhas de coca. D erra a origem, pois o texto a diz nativa da região amazônica. (p. 18)",
+    "referencia": "PDF Química Forense, p. 18",
+    "nivel": "medio"
+  },
+  {
+    "id": 1532,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos métodos ilícitos mais comuns de obtenção da cocaína a partir das folhas de coca, o material descreve que são realizados predominantemente por meio de:",
+    "alternativas": {
+      "A": "Síntese laboratorial automatizada em indústrias químicas regulares",
+      "B": "Destilação fracionada do alcaloide em colunas industriais de refino",
+      "C": "Fermentação biológica controlada das folhas em biorreatores fechados",
+      "D": "Técnicas extrativistas rudimentares conduzidas no meio da floresta"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que, embora existam métodos sintéticos de alto rendimento, os processos ilícitos mais comuns envolvem técnicas extrativistas a partir das folhas, com instrumentos rudimentares e utensílios domésticos em meio à floresta. A descreve o método sintético industrial, que não é o mais comum no contexto ilícito. C e D citam processos não mencionados no material. (p. 18)",
+    "referencia": "PDF Química Forense, p. 18",
+    "nivel": "medio"
+  },
+  {
+    "id": 1533,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a tabela de formas de apresentação, qual delas é um SAL de cocaína e apresenta a faixa de pureza de 92% a 98%?",
+    "alternativas": {
+      "A": "Crack, cocaína base livre apresentada em forma de pedras",
+      "B": "Pasta base de cocaína, primeiro produto da extração",
+      "C": "Cloridrato de cocaína, sal obtido com ácido clorídrico",
+      "D": "Merla, cocaína base em pasta com alto teor de água"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O material classifica o cloridrato de cocaína como sal, com teor de 92% a 98%, obtido pela reação da cocaína base com HCl. Crack (A) é base livre, com 70% a 90% ou mais. Pasta base (B) e merla (D) são bases livres, ambas na faixa de ~30% a 70%. (p. 19)",
+    "referencia": "PDF Química Forense, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 1534,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "A merla é descrita no material com uma característica física peculiar que a distingue das demais formas de cocaína base. Qual é ela?",
+    "alternativas": {
+      "A": "Apresenta-se em cristais transparentes de altíssima pureza",
+      "B": "Apresenta-se em pedras de coloração bege pardacento, de alta pureza",
+      "C": "É um pó cristalino branco, solúvel em água e destinado à injeção",
+      "D": "É uma pasta de cor branca, por conter elevado teor de água"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material descreve a merla como cocaína base em pasta de cor branca por conter alto teor de água, com teor de ~30% a 70%. A confunde com o free-base (cristais brancos). C descreve o cloridrato (pó cristalino, sal, injetável). D descreve o crack (pedras bege/bege pardacento). (p. 19)",
+    "referencia": "PDF Química Forense, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 1535,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material registra que a obtenção da cocaína base pura a partir da pasta base envolve uma etapa de oxidação. Qual reagente é citado e qual seu efeito sobre os alcaloides minoritários?",
+    "alternativas": {
+      "A": "Oxidação com éter etílico, que eleva o teor de cinamoilcocaína na pasta",
+      "B": "Oxidação com ácido clorídrico, que precipita o cloridrato em solventes",
+      "C": "Redução com hidróxido de sódio, que converte o sal em base livre",
+      "D": "Oxidação com permanganato de potássio, que remove a cinamoilcocaína"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que a pasta base é purificada por oxidação com permanganato de potássio, removendo a cis/trans-cinamoilcocaína, gerando cocaína base com teor >= 90%. B descreve a formação do cloridrato (sal), não a purificação por oxidação. C trata da conversão sal/base com NaOH, que não é oxidação para purificar. D inventa um efeito do éter etílico, que é solvente de precipitação. (p. 19)",
+    "referencia": "PDF Química Forense, p. 19",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1536,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base nas formas de uso descritas no material, qual forma da cocaína pode ser administrada de modo INJETÁVEL e por que?",
+    "alternativas": {
+      "A": "O crack, por ser uma cocaína base livre de alta pureza",
+      "B": "A pasta base, por conter elevado teor de água em sua composição",
+      "C": "A cocaína base, por ser solúvel em diversos solventes orgânicos",
+      "D": "O cloridrato de cocaína, por ser um sal solúvel em água"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto especifica que apenas o cloridrato de cocaína é injetável, por ser solúvel em água (forma de sal). A, B e D são formas de cocaína base, fumadas; as bases livres são solúveis em solventes orgânicos e não na água, não servindo para injeção. (p. 20)",
+    "referencia": "PDF Química Forense, p. 20",
+    "nivel": "medio"
+  },
+  {
+    "id": 1537,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material apresenta as reações ácido-base envolvidas na purificação da cocaína. Qual reação representa corretamente a formação do cloridrato de cocaína descrita no texto?",
+    "alternativas": {
+      "A": "Cocaína base + água produzindo diretamente o cloridrato de cocaína",
+      "B": "Cloridrato de cocaína + NaOH produzindo cocaína base + HCl concentrado",
+      "C": "NaOH + HCl produzindo NaCl (cloreto de sódio) mais água (H2O)",
+      "D": "Cocaína base (alcaloide) + HCl produzindo cocaína-Cl (cloridrato)"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material descreve a reação cocaína base + HCl produzindo cocaína-Cl (cloridrato de cocaína). C é uma reação citada no texto, mas representa a neutralização entre NaOH e HCl gerando NaCl e água, não a formação do cloridrato. B inverte e distorce os produtos. D é falsa, pois o cloridrato se forma pela adição de HCl (meio ácido), não de água. (p. 20)",
+    "referencia": "PDF Química Forense, p. 20",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1538,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Projeto PeQui, citado no material, é uma iniciativa estratégica da Polícia Federal. O que significa a sigla e quais são seus objetivos principais?",
+    "alternativas": {
+      "A": "Pesquisa Química; visa apenas quantificar adulterantes em apreensões",
+      "B": "Perfil Químico de Drogas; visa a origem geográfica e correlacionar casos",
+      "C": "Perícia Quantitativa; tem por fim único calcular a pureza do cloridrato",
+      "D": "Programa Educacional Químico; visa treinar peritos em extrativismo"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto define PeQui como Perfil Químico de Drogas, projeto da PF desde 2007, cujos objetivos principais são determinar a origem geográfica das drogas e estabelecer correlação entre apreensões. A, C e D apresentam significados de sigla e finalidades que não constam no material. (p. 21)",
+    "referencia": "PDF Química Forense, p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 1539,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um ponto crítico do material diz respeito ao enquadramento legal da cocaína. Embora seja farmacologicamente um estimulante, em que lista da Portaria nº 344/98-SVS/MS ela é classificada?",
+    "alternativas": {
+      "A": "Lista A3, como substância psicotrópica de uso controlado",
+      "B": "Lista E, por ser planta proscrita originadora de entorpecentes",
+      "C": "Lista B2, como substância psicotrópica anorexígena sujeita a receita",
+      "D": "Lista F1, como substância entorpecente de uso proscrito no Brasil"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material destaca que a cocaína, apesar de farmacologicamente estimulante, é legalmente entorpecente, integrando a Lista F1 (uso proscrito). A (A3) refere-se à anfetamina. B (Lista E) refere-se à planta Erythroxylum coca, não à substância cocaína. D (B2) refere-se aos anorexígenos. (p. 21)",
+    "referencia": "PDF Química Forense, p. 21",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1540,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao enquadramento legal das anfetaminas, o material alerta que anfetamina e metanfetamina recebem tratamentos distintos. Assinale a opção correta.",
+    "alternativas": {
+      "A": "A anfetamina está na Lista A3 e a metanfetamina na Lista F2 (proscrita)",
+      "B": "Ambas estão na Lista F1, como entorpecentes de uso proscrito no Brasil",
+      "C": "A anfetamina está na Lista F2 (proscrita) e a metanfetamina na Lista A3",
+      "D": "Ambas estão na Lista B2, como anorexígenas sujeitas a Notificação de Receita"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto distingue: anfetamina na Lista A3 (uso permitido, porém controlado, Notificação de Receita A) e metanfetamina na Lista F2 (proscrita). B coloca ambas em F1 (lista da cocaína). C inverte as listas das duas substâncias. D as enquadra como anorexígenas (B2), o que não corresponde ao material. (p. 22-23)",
+    "referencia": "PDF Química Forense, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1541,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o ecstasy (MDMA/MDA), o material traz dados históricos e legais. Assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A MDMA surgiu em 1912, em pesquisa da Merck, e MDMA e MDA estão na Lista F2",
+      "B": "A MDMA foi sintetizada por Shulgin em 1912 e está na Lista A3 de uso controlado",
+      "C": "A MDA é mais recente que a MDMA e produz efeitos bem mais brandos e fugazes",
+      "D": "O ecstasy passou a ser usado como droga de abuso já em 1910, na cidade de Ibiza"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material indica que a MDMA surgiu em 1912 em pesquisa da Merck e que MDMA e MDA integram a Lista F2 (psicotrópicas proscritas). B erra: Shulgin a redescobriu em 1960, e ela é proscrita (F2), não A3. C inverte, pois a MDA é mais antiga (1910) e de efeitos mais intensos e duradouros. D confunde datas e local: o uso de abuso estourou no final dos anos 80, em Ibiza. (p. 24-25)",
+    "referencia": "PDF Química Forense, p. 24",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1542,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Existem três espécies distintas do gênero Cannabis. Qual delas é apontada no texto como a mais popular nas Américas?",
+    "alternativas": {
+      "A": "Cannabis indica, a mais difundida no mundo todo",
+      "B": "Cannabis sativa linneu, popular nas Américas",
+      "C": "Cannabis ruderalis, de cultivo predominante",
+      "D": "Cannabis afghanica, de clima tropical seco"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que existem três espécies (sativa, indica e ruderalis) e que a mais popular nas Américas é a Cannabis sativa linneu (p. 25-27). A errada (indica) é uma das três espécies, mas não a mais popular nas Américas. C errada: ruderalis também é espécie do gênero, porém não a mais popular nas Américas. D errada: 'afghanica' não consta entre as três espécies citadas (sativa, indica, ruderalis).",
+    "referencia": "PDF Química Forense, p. 25",
+    "nivel": "facil"
+  },
+  {
+    "id": 1543,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os compostos canabinoides da maconha, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O CBD (canabidiol) é o principal componente psicoativo da maconha.",
+      "B": "O CBN (canabinol) é o composto de uso medicinal, incluído na Lista C1.",
+      "C": "O THC (delta-9-tetra-hidrocanabinol) é o psicoativo da maconha.",
+      "D": "Os três canabinoides principais da maconha são THC, CBD e cafeína."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto afirma que o THC (delta-9-trans-tetrahidrocanabinol) é o principal componente psicoativo da maconha (p. 26-27). A errada: o componente psicoativo é o THC, não o CBD; o CBD está ligado ao uso medicinal. B errada: o composto associado ao uso medicinal/Lista C1 é o CBD, não o CBN. D errada: os três canabinoides principais são THC, CBN e CBD; cafeína não é canabinoide.",
+    "referencia": "PDF Química Forense, p. 26",
+    "nivel": "facil"
+  },
+  {
+    "id": 1544,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o texto, em que parte da planta de maconha se concentra a maior quantidade de princípios ativos?",
+    "alternativas": {
+      "A": "Nas raízes e no caule lenhoso da robusta planta masculina.",
+      "B": "Nas folhas e, sobretudo, nas inflorescências femininas.",
+      "C": "De forma exclusiva no abundante pólen da planta masculina.",
+      "D": "Nas sementes ovais e maduras dos cachos femininos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que, embora todas as partes contenham substâncias psicoativas, a maior concentração está nas folhas e principalmente nas inflorescências dos espécimes femininos (sinsemilla) (p. 25-27). A errada: não são raízes/caule da planta masculina. C errada: o pólen é produzido pela planta masculina, mas não é onde se concentra a maior quantidade de ativos. D errada: a maior concentração está nas inflorescências femininas, não nas sementes.",
+    "referencia": "PDF Química Forense, p. 25",
+    "nivel": "medio"
+  },
+  {
+    "id": 1545,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto destaca como ponto crítico que a concentração de THC na planta de maconha (vegetal bruto) varia em qual faixa?",
+    "alternativas": {
+      "A": "0,5% a 4%",
+      "B": "9% a 27%",
+      "C": "cerca de 10%",
+      "D": "20% a 80%"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto indica que a concentração de THC na planta varia de 0,5% a 4% (p. 26-27). B errada: 9% a 27% é a faixa do skunk. C errada: cerca de 10% é o teor do haxixe. D errada: 20% a 80% é a faixa do óleo de haxixe.",
+    "referencia": "PDF Química Forense, p. 26",
+    "nivel": "medio"
+  },
+  {
+    "id": 1546,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "O skunk é descrito no texto como um híbrido de cannabis. Qual característica corresponde corretamente ao que foi descrito?",
+    "alternativas": {
+      "A": "É um derivado resinoso obtido por extração com solventes, em tabletes escuros e oleosos de odor forte.",
+      "B": "Resulta do cruzamento entre variedades de cannabis, com teor de THC maior e floração indoor em 2 meses.",
+      "C": "Possui teor de THC inferior ao da planta comum e, por esse motivo, é comercializado como produto medicinal legal.",
+      "D": "É a forma ingerida da maconha, preparada em tinturas alcoólicas à base de folhas e flores secas da planta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto descreve o skunk como plantas com concentração maior de THC, derivadas do cruzamento entre variedades de cannabis, com ciclo de floração completado em cerca de dois meses via tecnologia de cultivo (p. 27-28). A errada: a substância resinosa em tabletes obtida por extração é o haxixe, não o skunk. C errada: o skunk tem teor de THC maior (9% a 27%), não inferior. D errada: tinturas alcoólicas são uma forma de uso ingerida, não o skunk.",
+    "referencia": "PDF Química Forense, p. 27",
+    "nivel": "medio"
+  },
+  {
+    "id": 1547,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando os teores de THC apresentados no texto, qual é a ordem crescente correta entre os materiais?",
+    "alternativas": {
+      "A": "Óleo de haxixe < skunk < haxixe < planta bruta",
+      "B": "Haxixe < planta < óleo de haxixe < skunk",
+      "C": "Planta < haxixe < skunk < óleo de haxixe",
+      "D": "Skunk < óleo de haxixe < planta < haxixe"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto traz a régua comparativa planta (0,5-4%) < haxixe (~10%) < skunk (9-27%) < óleo de haxixe (20-80%) (p. 28). A errada: inverte completamente a ordem. B errada: posiciona haxixe abaixo da planta e troca skunk com óleo. D errada: coloca skunk como menor teor e planta acima do haxixe, contrariando a régua.",
+    "referencia": "PDF Química Forense, p. 28",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1548,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, a concentração de THC no óleo de haxixe situa-se geralmente em qual faixa?",
+    "alternativas": {
+      "A": "0,5% a 4%",
+      "B": "cerca de 10%",
+      "C": "9% a 27%",
+      "D": "20% a 80%"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta D: o texto afirma que a concentração de THC no óleo de haxixe situa-se, geralmente, na faixa de 20% a 80% (p. 28). A errada: 0,5% a 4% é o teor do vegetal bruto. B errada: cerca de 10% é o teor do haxixe. C errada: 9% a 27% é a faixa do skunk.",
+    "referencia": "PDF Química Forense, p. 28",
+    "nivel": "medio"
+  },
+  {
+    "id": 1549,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o haxixe descrito no texto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É uma substância resinosa marrom escura ou preta, da extração das partes superiores da cannabis.",
+      "B": "É obtido exclusivamente da planta masculina de cannabis, nunca da feminina, por extração resinosa.",
+      "C": "Possui teor de THC inferior ao do vegetal bruto, em torno de 1%, sendo a forma mais fraca da droga.",
+      "D": "Apresenta-se sempre líquido e oleoso, de odor característico, jamais sob a forma de tabletes ou bolotas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto descreve o haxixe como substância resinosa de coloração marrom escura ou preta, derivada da extração das partes superiores do vegetal de cannabis (p. 28). B errada: o haxixe pode derivar do vegetal feminino ou do masculino, não exclusivamente do masculino. C errada: o haxixe tem teor de THC de cerca de 10%, superior ao vegetal bruto (0,5-4%). D errada: o haxixe apresenta-se sob a forma de tabletes ou bolotas escuras; a forma líquida oleosa com odor característico é o óleo de haxixe.",
+    "referencia": "PDF Química Forense, p. 28",
+    "nivel": "medio"
+  },
+  {
+    "id": 1550,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos efeitos da cannabis descritos no texto, qual associação entre dosagem e efeito está correta?",
+    "alternativas": {
+      "A": "Baixas dosagens de THC tendem a provocar intensos efeitos alucinógenos, paranoia e falhas de memória.",
+      "B": "Dosagens maiores de THC produzem apenas sensação de bem-estar, relaxamento e aumento de apetite.",
+      "C": "Baixas dosagens de THC dão bem-estar e relaxamento; dosagens maiores causam falhas de memória.",
+      "D": "Os efeitos independem por completo da dosagem e da qualidade da planta de cannabis que é consumida."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto associa baixas dosagens a bem-estar, relaxamento e alteração da percepção, e dosagens maiores a falhas de atenção/memória, alucinação e paranoia (p. 29). A errada: efeitos alucinógenos e paranoia são de dosagens maiores, não baixas. B errada: bem-estar e apetite são efeitos de baixas dosagens, não de dosagens maiores. D errada: o texto afirma expressamente que os efeitos dependem da dosagem e da qualidade da planta.",
+    "referencia": "PDF Química Forense, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 1551,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme os aspectos legais descritos no texto, em quais listas estão enquadrados, respectivamente, a Cannabis sativa L. (planta), o THC e o CBD?",
+    "alternativas": {
+      "A": "Lista E, Lista F2 e Lista C1.",
+      "B": "Lista F2, Lista E e Lista A3.",
+      "C": "Lista C1, Lista A3 e Lista E.",
+      "D": "Lista A3, Lista C1 e Lista F2."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto enquadra Cannabis sativa L. na Lista E (plantas proscritas), o THC na Lista F2 (psicotrópicas proscritas) e o CBD na Lista C1 (controle especial) (p. 30). B errada: troca as listas da planta e do THC e atribui A3 ao CBD. C errada: inverte as associações, colocando a planta como C1. D errada: associa a planta à A3 e o THC à C1, contrariando o texto.",
+    "referencia": "PDF Química Forense, p. 30",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1552,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, qual norma viabilizou o registro do primeiro medicamento à base de CBD e THC no Brasil, e como se chama esse medicamento?",
+    "alternativas": {
+      "A": "A RDC n.º 03/2015, que incluiu o CBD na Lista C1, viabilizou o registro do medicamento Sativex no Brasil.",
+      "B": "A RDC n.º 130/2016 incluiu derivados de Cannabis no adendo 2 da Lista A3, viabilizando o Mevatyl.",
+      "C": "A RDC n.º 39/2012, que atualizou a Lista E das plantas proscritas, viabilizou o registro do Mevatyl.",
+      "D": "A recente RDC n.º 1.015/2026 viabilizou o registro do primeiro medicamento brasileiro, o Mevatyl."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que a RDC n.º 130/2016 incluiu medicamentos com derivados de Cannabis (com até 30 mg/mL de THC e CBD) no adendo 2 da Lista A3 e viabilizou o registro do primeiro medicamento à base de CBD e THC no Brasil, o Mevatyl (p. 30). A errada: a RDC 03/2015 tratou da inclusão do CBD na Lista C1, não do registro do medicamento, que se chama Mevatyl. C errada: a RDC 39/2012 atualizou a Portaria/Lista E da planta, não viabilizou o registro do medicamento. D errada: a RDC 1.015/2026 é o novo marco regulatório recente, mas o registro do primeiro medicamento (Mevatyl) decorreu da RDC 130/2016.",
+    "referencia": "PDF Química Forense, p. 30",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1553,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base na descrição botânica da planta de maconha apresentada no texto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Pertence à família Cannabaceae, é unissexuada e dioica, atingindo de 1,5 m a 3,0 m de altura.",
+      "B": "Pertence à família Solanaceae, é hermafrodita e pode atingir até 10 m de altura na fase adulta.",
+      "C": "Suas folhas possuem sempre número par de folíolos, de bordas lisas e sem pelos em ambas as faces.",
+      "D": "É uma planta monoica, na qual o mesmo espécime produz tanto o pólen quanto as sementes ovais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto descreve as plantas do gênero Cannabis como arbustos da família Cannabaceae, unissexuadas e dioicas, podendo atingir de 1,5 m a 3,0 m de altura (p. 25-27). B errada: a família é Cannabaceae, não Solanaceae, e a planta é unissexuada/dioica (não hermafrodita) com altura de 1,5 a 3,0 m. C errada: o número de folíolos é ímpar (3, 5, 7 e até 11) e as bordas são serrilhadas e cobertas por pelos na face superior. D errada: a planta é dioica (sexos separados em plantas distintas), não monoica; a planta feminina produz as sementes e a masculina, o pólen.",
+    "referencia": "PDF Química Forense, p. 25",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1554,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O ópio é definido pelo texto como o suco leitoso (látex) extraído por meio de incisões nas cápsulas imaturas (frutos verdes) de qual vegetal?",
+    "alternativas": {
+      "A": "Papaver somniferum, da família Papaveraceae",
+      "B": "Erythroxylum coca, da família Erythroxylaceae",
+      "C": "Cannabis sativa, da família Cannabaceae",
+      "D": "Lophophora williamsii, da família Cactaceae"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto afirma que o ópio é o látex extraído das cápsulas imaturas do Papaver somniferum linneu (Família Papaveraceae), também chamada dormideira ou papoula (p. 31). A B erra porque Erythroxylum coca é a planta da cocaína, não do ópio. A C erra porque Cannabis sativa é a maconha. A D erra porque Lophophora williamsii é o peiote (mescalina), não a fonte do ópio.",
+    "referencia": "PDF Química Forense, p. 31",
+    "nivel": "facil"
+  },
+  {
+    "id": 1555,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, qual é o alcaloide mais abundante do ópio bruto e seu respectivo teor aproximado?",
+    "alternativas": {
+      "A": "Narcotina (noscapina), com teor de cerca de 6%",
+      "B": "Codeína, com teor de cerca de 0,5%",
+      "C": "Morfina, com teor de cerca de 10%",
+      "D": "Tebaína, com teor de cerca de 0,2%"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto indica que a morfina é o alcaloide mais abundante do ópio, com teor de 10% (p. 31). A A erra porque a narcotina/noscapina está em 6%, abaixo da morfina. A B erra no teor e na abundância, pois a codeína está em 0,5%. A D erra porque a tebaína está em apenas 0,2%, sendo o menor dos citados.",
+    "referencia": "PDF Química Forense, p. 31",
+    "nivel": "facil"
+  },
+  {
+    "id": 1556,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o texto, a heroína é quimicamente conhecida como:",
+    "alternativas": {
+      "A": "Noscapina, alcaloide natural do ópio",
+      "B": "Diacetilmorfina, derivada da morfina",
+      "C": "Papaverina, alcaloide natural do ópio",
+      "D": "Tebaína, alcaloide natural do ópio"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o texto define a heroína como produto sintético derivado da morfina, também conhecida como diacetilmorfina (p. 32). A A (noscapina/narcotina), a C (papaverina) e a D (tebaína) erram porque são alcaloides naturais do ópio listados no texto, e não a denominação química da heroína.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "facil"
+  },
+  {
+    "id": 1557,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os efeitos atribuídos pelo texto às drogas opiáceas, está corretamente descrito:",
+    "alternativas": {
+      "A": "Taquicardia e aumento da frequência respiratória",
+      "B": "Bradicardia e depressão respiratória, com sono",
+      "C": "Aumento do apetite e agitação psicomotora",
+      "D": "Elevação da pressão arterial e euforia agressiva"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o texto lista bradicardia (redução dos batimentos) e diminuição da frequência respiratória (depressão respiratória) entre os efeitos opioides (p. 30). A A erra porque há bradicardia e depressão respiratória, e não taquicardia/aumento respiratório. A C erra porque o texto cita perda de apetite e relaxamento/sono, não aumento de apetite e agitação. A D erra porque os efeitos descritos são de bem-estar e relaxamento, sem menção a elevação pressórica ou euforia agressiva.",
+    "referencia": "PDF Química Forense, p. 30",
+    "nivel": "medio"
+  },
+  {
+    "id": 1558,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto registra que a síntese da heroína ocorreu em 1874 com determinada finalidade. Qual era essa finalidade e qual fato posterior foi verificado?",
+    "alternativas": {
+      "A": "Obter um substituto da morfina capaz de evitar a dependência; depois constatou-se que sua dependência era muito maior",
+      "B": "Criar um anestésico geral mais potente para cirurgias; depois constatou-se que era totalmente ineficaz como analgésico clínico",
+      "C": "Desenvolver um antitússico isento de qualquer efeito sedativo; mais tarde constatou-se que não atuava de forma alguma sobre a tosse",
+      "D": "Produzir um estimulante potente do sistema nervoso central; depois constatou-se que provocava intensa bradicardia generalizada"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto afirma que a heroína foi sintetizada em 1874 buscando substituto da morfina para evitar a dependência, mas depois se verificou que causava dependência muito maior (p. 32). A B erra porque a busca era por substituto da morfina sem dependência, não um anestésico geral. A C erra porque a heroína chegou a ser comercializada em 1898 como medicamento contra a tosse, ou seja, atuava sobre a tosse. A D erra porque a heroína é opioide depressor, e a finalidade não era estimular o SNC.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "medio"
+  },
+  {
+    "id": 1559,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o texto, a mistura de heroína com cocaína é conhecida pela denominação:",
+    "alternativas": {
+      "A": "Crack, mistura de heroína com cocaína fumada",
+      "B": "Merla, mistura de heroína com cocaína fumada",
+      "C": "Oxi, mistura de heroína com cocaína fumada",
+      "D": "Speedball, mistura de heroína com cocaína"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: o texto afirma que a heroína pode ser usada sozinha ou em associação com a cocaína, mistura conhecida como speedball (p. 32). A A (crack), a B (merla) e a C (oxi) erram porque não são citadas no texto como a associação heroína + cocaína descrita.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "medio"
+  },
+  {
+    "id": 1560,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o enquadramento legal previsto na Portaria n.º 344/98-SVS/MS, segundo o texto, é correto afirmar:",
+    "alternativas": {
+      "A": "O ópio está na Lista F1 (uso proscrito) e a heroína na Lista A1 (entorpecentes)",
+      "B": "A morfina e a heroína integram a Lista B1 (substâncias psicotrópicas)",
+      "C": "A heroína é a única proscrita (F1); ópio e morfina são entorpecentes A1",
+      "D": "O ópio e a morfina estão na Lista E, das plantas proscritas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto destaca que a heroína é a única proscrita (Lista F1), enquanto ópio e morfina são entorpecentes da Lista A1 (p. 32-33). A A inverte os enquadramentos, pois o ópio é A1 e a heroína é F1. A B erra porque a Lista B1 é dos psicotrópicos (barbitúricos e tranquilizantes), não da morfina e heroína. A D erra porque a Lista E é da planta Papaver somniferum, e não do ópio ou da morfina.",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1561,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, a planta Papaver somniferum está incluída em qual lista da Portaria n.º 344/98-SVS/MS, e por qual norma essa lista foi atualizada?",
+    "alternativas": {
+      "A": "Lista A1 (entorpecentes), atualizada pela RDC n.º 70/2009 da Anvisa",
+      "B": "Lista E (plantas proscritas), atualizada pela RDC n.º 39/2012",
+      "C": "Lista B1 (psicotrópicas), atualizada pela RDC n.º 39/2012",
+      "D": "Lista F1 (uso proscrito), atualizada pela RDC n.º 70/2009 da Anvisa"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o texto afirma que o Papaver somniferum integra a Lista E (plantas proscritas que podem originar substâncias entorpecentes/psicotrópicas), atualizada pela RDC n.º 39 da Anvisa, de 9 de julho de 2012 (p. 32). A A erra porque a A1 é das substâncias entorpecentes (ópio, morfina), não da planta. A C erra porque a B1 é dos psicotrópicos. A D erra porque a F1 é da heroína, e a norma de atualização da Lista E é a RDC 39/2012, não a RDC 70/2009 (que trata da semente para fim alimentício).",
+    "referencia": "PDF Química Forense, p. 32",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1562,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o texto, os barbitúricos atuam como depressores do SNC. Em razão dos elevados riscos e do surgimento dos benzodiazepínicos, seu uso ficou praticamente restrito a quais finalidades e fármacos?",
+    "alternativas": {
+      "A": "Tratamento da hipertensão (Tiopental) e como antitússico (fenobarbital)",
+      "B": "Ansiolítico de uso domiciliar (barbital/Veronal) e indutor do sono (Rohypnol)",
+      "C": "Tratamento da insônia (Gardenal) e como anestésico local em cirurgias bucais (barbital)",
+      "D": "Anticonvulsivante (fenobarbital/Gardenal) e pré-anestésico hospitalar (Tiopental)"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: o texto diz que o uso dos barbitúricos ficou restrito à ação anticonvulsivante (fenobarbital, Gardenal) e como pré-anestésico em hospitais (Tiopental) (p. 33). A A erra porque a finalidade restrita não é hipertensão nem antitússico. A B erra porque Rohypnol é benzodiazepínico (flunitrazepam), não barbitúrico, e o barbital/Veronal foi apenas o primeiro barbitúrico medicinal. A C erra porque o uso restrito não é insônia nem anestesia local.",
+    "referencia": "PDF Química Forense, p. 33",
+    "nivel": "medio"
+  },
+  {
+    "id": 1563,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o texto, o ácido barbitúrico, precursor dessa classe, foi obtido primeiramente em 1864, e o primeiro barbitúrico usado na medicina foi o barbital (Veronal) em 1903. A quem o texto atribui, respectivamente, essas obtenções?",
+    "alternativas": {
+      "A": "Adolf von Baeyer (1864) e, depois, Emil Fischer e Joseph von Mehring (1903)",
+      "B": "Emil Fischer (1864) e, depois, Adolf von Baeyer e von Mehring (1903)",
+      "C": "Joseph von Mehring (1864) e, depois, Adolf von Baeyer e Fischer (1903)",
+      "D": "Emil Fischer e Joseph von Mehring (1864) e, depois, somente Adolf von Baeyer (1903)"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto atribui a obtenção do ácido barbitúrico em 1864 a Adolf von Baeyer, e o barbital (Veronal) de 1903 a Emil Fischer e Joseph von Mehring (p. 33). As alternativas B, C e D erram porque trocam os autores ou as datas, atribuindo a Baeyer o barbital de 1903 e/ou a Fischer/Mehring o ácido barbitúrico de 1864, contrariando o texto.",
+    "referencia": "PDF Química Forense, p. 33",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1564,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto associa o flunitrazepam (Rohypnol) a qual uso ilícito conhecido popularmente?",
+    "alternativas": {
+      "A": "Droga indutora do sono usada como droga de estupro no golpe \"boa noite, Cinderela\"",
+      "B": "Estimulante usado para potencializar de forma intensa os efeitos da cocaína fumada",
+      "C": "Anticonvulsivante desviado para o tratamento clandestino de quadros graves de epilepsia",
+      "D": "Antídoto largamente empregado para reverter as intoxicações agudas causadas por opioides"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto identifica o flunitrazepam (Rohypnol) como indutor do sono usado como droga de estupro no golpe \"boa noite, Cinderela\" (p. 34). A B erra porque o texto não o relaciona à potencialização da cocaína. A C erra porque o anticonvulsivante citado é o clonazepam (Rivotril), não o Rohypnol. A D erra porque o texto não descreve o flunitrazepam como antídoto de opioides.",
+    "referencia": "PDF Química Forense, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1565,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, tanto os barbitúricos quanto os tranquilizantes (benzodiazepínicos) estão incluídos em qual lista da Portaria n.º 344/98-SVS/MS?",
+    "alternativas": {
+      "A": "Lista A1 — Substâncias Entorpecentes",
+      "B": "Lista E — Plantas Proscritas no Brasil",
+      "C": "Lista B1 — Substâncias Psicotrópicas",
+      "D": "Lista F1 — Substâncias de Uso Proscrito"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto afirma que tanto os barbitúricos quanto os tranquilizantes/benzodiazepínicos integram a Lista B1 das substâncias psicotrópicas (p. 34-35). A A erra porque a A1 reúne os entorpecentes (ópio, morfina). A B erra porque a Lista E é das plantas proscritas (Papaver somniferum). A D erra porque a F1 é de uso proscrito (heroína).",
+    "referencia": "PDF Química Forense, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1566,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o texto, qual princípio ativo tranquilizante é comercializado como Rivotril e tem indicação anticonvulsivante?",
+    "alternativas": {
+      "A": "Diazepam, comercializado como Valium",
+      "B": "Bromazepam, ansiolítico comercializado como Lexotan",
+      "C": "Clonazepam, comercializado como Rivotril",
+      "D": "Lorazepam, comercializado como Lorax"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto associa o clonazepam ao nome comercial Rivotril, com indicação anticonvulsivante (p. 34). A A erra porque o diazepam corresponde ao Valium e outros, não ao Rivotril. A B erra porque o bromazepam é o Lexotan. A D erra porque o lorazepam é o Lorax/Relax/Loril, não o Rivotril.",
+    "referencia": "PDF Química Forense, p. 34",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1567,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "O LSD (dietilamida do ácido lisérgico) é uma das drogas alucinógenas mais conhecidas. Sobre sua origem e síntese, é correto afirmar que foi sintetizado:",
+    "alternativas": {
+      "A": "em 1938 pelo químico suíço Albert Hoffmann, no laboratório Sandoz, a partir do ácido lisérgico extraído do fungo Claviceps purpurea.",
+      "B": "em 1948 pelo químico alemão Albert Hoffmann, no laboratório Bayer, a partir do ácido lisérgico extraído do cogumelo Psilocybe mexicana.",
+      "C": "em 1938 pelo químico suíço Albert Hoffmann, no laboratório Sandoz, a partir da harmina extraída do cipó mariri.",
+      "D": "em 1938 pelo químico francês Albert Hoffmann, no laboratório Sandoz, a partir da psilocibina extraída do centeio."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto afirma que o LSD foi sintetizado em 1938 pelo químico suíço Albert Hoffmann, do laboratório Sandoz, usando como matéria-prima o ácido lisérgico obtido de extratos do fungo parasitário do centeio Claviceps purpurea (p. 36). B erra o ano (1948), a nacionalidade (alemão), o laboratório (Bayer) e a matéria-prima (cogumelo). C erra a matéria-prima, pois a harmina vem do cipó mariri da ayahuasca, não do LSD. D erra a nacionalidade (suíço, não francês) e a matéria-prima (ácido lisérgico, não psilocibina).",
+    "referencia": "PDF Química Forense, p. 36",
+    "nivel": "facil"
+  },
+  {
+    "id": 1568,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "A fenciclidina (PCP), conhecida como \"pó de anjo\" ou peace pill, possui características que costumam ser cobradas em prova. Assinale a alternativa correta sobre essa substância.",
+    "alternativas": {
+      "A": "É uma droga natural extraída de cogumelos, classificada como alucinógeno puro e incluída na Lista F2 — Uso Proscrito.",
+      "B": "É uma droga sintética desenvolvida como anestésico, classificada como dissociativo e incluída na Lista A3.",
+      "C": "É um insumo químico de uso laboratorial, classificado como inalante e incluído na Lista D2, sob controle da Polícia Federal.",
+      "D": "É um alcaloide natural extraído de sementes vegetais, classificado como dissociativo e incluído na Lista B1 da ANVISA."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o PCP é uma droga sintética desenvolvida como anestésico, classificada como dissociativo, e está na Lista A3 (psicotrópicas sujeitas a notificação de receita \"A\") da Portaria n.º 344/98 (p. 35-36). A erra ao chamá-lo de natural e de Lista F2 (essa é do LSD/psilocibina/DMT). C confunde o PCP com inalantes e a Lista D2 (insumos como éter/clorofórmio). D descreve a DMT (alcaloide natural de sementes), não o PCP, e a Lista B1 refere-se ao cloreto de etila.",
+    "referencia": "PDF Química Forense, p. 35",
+    "nivel": "medio"
+  },
+  {
+    "id": 1569,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a dosagem e os efeitos do LSD descritos no texto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A dose ínfima de cerca de 200 miligramas é suficiente para produzir efeitos em um homem de 70 kg.",
+      "B": "Os primeiros efeitos surgem imediatamente após a administração, sem período de latência.",
+      "C": "Para um homem de 70 kg, bastam apenas 20 microgramas para produzir os efeitos alucinógenos.",
+      "D": "O efeito mais marcante é a midríase permanente, que persiste por toda a vida do usuário."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto destaca que a dosagem é da ordem de microgramas e que, para um homem de 70 kg, bastam apenas 20 microgramas para produzir os efeitos alucinógenos (p. 36). A erra a unidade e o valor (são 20 microgramas, não 200 miligramas). B erra porque há período de latência de 30 a 40 minutos antes dos primeiros efeitos (p. 37). D erra porque o efeito mais marcante é o flashback, e a midríase é um efeito inicial, não permanente.",
+    "referencia": "PDF Química Forense, p. 36",
+    "nivel": "facil"
+  },
+  {
+    "id": 1570,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "O fenômeno conhecido como flashback é apontado no texto como o efeito mais marcante do LSD. A explicação para esse fenômeno é que, uma vez administrado, o LSD pode:",
+    "alternativas": {
+      "A": "ser totalmente eliminado pelos rins em poucas horas, impedindo de vez qualquer efeito posterior ao usuário.",
+      "B": "transformar-se em harmina nos tecidos hepáticos, intensificando de forma progressiva a midríase a cada novo uso.",
+      "C": "ficar armazenado nos tecidos gordurosos, provocando novos efeitos alucinógenos em momento posterior.",
+      "D": "permanecer ligado aos receptores do SNC de forma irreversível, causando alucinações contínuas e ininterruptas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto define o flashback como o fenômeno em que o LSD, uma vez administrado, pode ficar armazenado nos tecidos gordurosos, podendo provocar novos efeitos alucinógenos a qualquer momento posterior (p. 37). A contradiz o conceito, pois o armazenamento é justamente o que permite efeitos posteriores. B inventa uma transformação em harmina (substância da ayahuasca), inexistente no texto. D erra ao falar em alucinações contínuas e ininterruptas, enquanto o flashback são novos efeitos episódicos a qualquer momento.",
+    "referencia": "PDF Química Forense, p. 37",
+    "nivel": "medio"
+  },
+  {
+    "id": 1571,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "A psilocibina é um alcaloide alucinógeno extraído de cogumelos. De acordo com o texto, assinale a alternativa correta sobre essa substância.",
+    "alternativas": {
+      "A": "É extraída de espécies como Psilocybe mexicana e Stropharia cubensis, usada por Astecas e Maias, com ação parecida à do LSD.",
+      "B": "É extraída do fungo Claviceps purpurea, foi usada por Astecas e Maias e tem ação bem mais intensa e duradoura que a do LSD light.",
+      "C": "É extraída de espécies como Piptadenia peregrina, foi usada pelos povos andinos e não possui qualquer semelhança com o LSD.",
+      "D": "É extraída de espécies como Banisteriopsis caapi, foi usada na Europa medieval e tem ação alucinógena idêntica à do PCP."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto indica que a psilocibina é extraída do Psilocybe mexicana e do Stropharia cubensis, foi muito usada por Astecas e Maias em rituais místicos, e tem ação semelhante à do LSD, porém com intensidade inferior (\"LSD light\") (p. 37-38). B erra a fonte (Claviceps purpurea é do LSD) e a intensidade (é menor que a do LSD). C erra a fonte (Piptadenia peregrina é fonte de DMT) e nega a semelhança com o LSD, que existe. D erra a fonte (Banisteriopsis caapi é o cipó mariri da ayahuasca) e a comparação (semelhante ao LSD, não ao PCP).",
+    "referencia": "PDF Química Forense, p. 37",
+    "nivel": "medio"
+  },
+  {
+    "id": 1572,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ayahuasca (chá de Santo Daime) resulta da combinação de duas classes de substâncias naturais provenientes de plantas distintas. Assinale a alternativa que associa corretamente cada planta à substância que fornece.",
+    "alternativas": {
+      "A": "A Psychotria viridis (chacrona) fornece harmina e harmalina, enquanto a Banisteriopsis caapi (cipó mariri) fornece o DMT.",
+      "B": "A Psychotria viridis (chacrona) fornece o DMT, enquanto a Banisteriopsis caapi (cipó mariri) fornece harmina e harmalina.",
+      "C": "Ambas as plantas, a chacrona e o cipó mariri, fornecem exclusivamente o DMT, que então se combina e se concentra no chá.",
+      "D": "A Psychotria viridis (chacrona) fornece a psilocibina, enquanto a Banisteriopsis caapi (cipó mariri) fornece o ácido lisérgico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto e o ponto crítico esclarecem que a chacrona (Psychotria viridis) é fonte de DMT, e o cipó mariri (Banisteriopsis caapi) é fonte de harmina e harmalina (p. 39). A inverte as fontes. C erra porque o cipó mariri fornece harmina/harmalina, não DMT, e o chá combina duas classes distintas de substâncias. D inventa psilocibina e ácido lisérgico, que não compõem a ayahuasca.",
+    "referencia": "PDF Química Forense, p. 39",
+    "nivel": "medio"
+  },
+  {
+    "id": 1573,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a DMT (dimetiltriptamina) e o enquadramento legal da ayahuasca, considere as informações do texto e assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A DMT é uma substância sintética e seu uso religioso na ayahuasca a retira em definitivo da Lista F2 da Portaria n.º 344/98.",
+      "B": "A DMT é um alcaloide natural de vegetais; embora o CONAD tenha regulado o uso religioso da ayahuasca, ela permanece na Lista F2.",
+      "C": "A DMT é um alcaloide natural, e a Resolução n.º 1-CONAD/2010 transferiu a substância para a Lista A3 — notificação de receita.",
+      "D": "A DMT é um insumo químico controlado pela Polícia Federal (Lista D2) e seu uso religioso é proibido em todo o território nacional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que a DMT é um alcaloide natural extraído de sementes e folhas de diversos vegetais (p. 38) e que, embora o CONAD tenha regulamentado o uso religioso da ayahuasca (Resoluções 4/2004 e 1/2010), a DMT em si permanece na Lista F2 — Uso Proscrito (p. 39-40). A erra ao chamar a DMT de sintética e ao dizer que o uso religioso a retira da Lista F2. C erra porque a DMT permanece na F2, não foi transferida para a A3. D confunde a DMT (F2) com insumos da Lista D2 e nega o uso religioso regulamentado.",
+    "referencia": "PDF Química Forense, p. 39",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1574,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "O preparo conhecido popularmente como \"cheirinho da loló\" é citado no texto entre as formas mais comuns de uso de inalantes. Sua composição corresponde a uma mistura de:",
+    "alternativas": {
+      "A": "acetona, acetato de etila, nafta e essências.",
+      "B": "tolueno, benzeno, acetona e essências.",
+      "C": "cloreto de etila, harmina, álcool e freon.",
+      "D": "éter etílico, clorofórmio, álcool e essências."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: o texto descreve a \"loló\" como uma mistura contendo éter etílico, clorofórmio, álcool e essências (p. 41). B mistura solventes de cola de aviação (tolueno, benzeno) e removedor (acetona), que não compõem a loló. C inclui cloreto de etila (lança-perfume), harmina (substância da ayahuasca) e freon (aerossóis), nenhum dos quais faz parte da loló. D lista solventes de removedor de esmalte e fluido de isqueiro, que não correspondem à composição da loló.",
+    "referencia": "PDF Química Forense, p. 41",
+    "nivel": "facil"
+  },
+  {
+    "id": 1575,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "O cloreto de etila (cloroetano), base do lança-perfume, possui propriedades físico-químicas frequentemente cobradas em prova. Assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nas CNTP é um líquido oleoso e viscoso, mais denso que a água, não inflamável e que produz chama azul ao queimar.",
+      "B": "Nas CNTP é um gás; sob pressão é líquido incolor, ferve a 12 ºC, menos denso que a água e inflamável, com chama verde.",
+      "C": "Nas CNTP é um sólido cristalino branco que sublima a 12 ºC, mais denso que a água e que produz chama verde ao queimar.",
+      "D": "Nas CNTP é um gás incolor com ebulição a 120 ºC, mais denso que a água e não inflamável, sem coloração característica de chama."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o ponto crítico do texto indica que, nas CNTP, o cloreto de etila é um gás; acondicionado sob pressão, apresenta-se como líquido incolor, com ebulição de 12 ºC, menos denso que a água, inflamável, produzindo chama verde (p. 42). A erra ao descrevê-lo como líquido oleoso, mais denso e não inflamável de chama azul. C erra ao chamá-lo de sólido e mais denso que a água. D erra a temperatura de ebulição (12 ºC, não 120 ºC), a densidade e a inflamabilidade/chama.",
+    "referencia": "PDF Química Forense, p. 42",
+    "nivel": "medio"
+  },
+  {
+    "id": 1576,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao enquadramento legal das substâncias do capítulo na Portaria n.º 344/98-SVS/MS e em suas atualizações, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O LSD, a psilocibina e a DMT estão todos incluídos na Lista F2 — Substâncias Psicotrópicas de Uso Proscrito no Brasil.",
+      "B": "A fenciclidina (PCP) e o LSD estão ambos incluídos na Lista A3 — psicotrópicas sujeitas à notificação de receita \"A\".",
+      "C": "O éter etílico e o clorofórmio estão incluídos na Lista F2 — Uso Proscrito, sob controle da ANVISA.",
+      "D": "O cloreto de etila está incluído apenas na Lista A3, sendo de uso livre e irrestrito para fins médicos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto e a tabela de enquadramento confirmam que LSD, psilocibina e DMT estão todos na Lista F2 — Uso Proscrito no Brasil (p. 37, 38, 39 e tabela p. 36-42). B erra porque o LSD está na F2, não na A3 (só o PCP está na A3). C erra porque éter e clorofórmio estão na Lista D2 (insumos químicos), sob controle da Polícia Federal, não na F2. D erra porque o cloreto de etila está nas Listas D2 e B1 e tem uso proscrito para fins médicos, não livre.",
+    "referencia": "PDF Química Forense, p. 36",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1577,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "O éter etílico e o clorofórmio, citados entre os solventes psicoativos usados de forma abusiva, possuem enquadramento legal específico. De acordo com o texto, essas substâncias:",
+    "alternativas": {
+      "A": "estão na Lista B1 da ANVISA, têm uso proscrito e jamais tiveram qualquer aplicação anestésica conhecida na medicina.",
+      "B": "estão na Lista F2 — Uso Proscrito no Brasil, e seu controle cabe de forma exclusiva à ANVISA, sem participação da PF.",
+      "C": "estão na Lista D2 — Insumos Químicos, sob controle da Polícia Federal (Portaria 204/2022), e já foram anestésicos.",
+      "D": "não constam de nenhuma lista de controle oficial, por serem produtos de livre comércio doméstico e venda em farmácias."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto afirma que éter e clorofórmio estão na Lista D2 (insumos químicos para fabricação/síntese de entorpecentes), sob controle do MJSP e, conforme a Portaria n.º 204/2022-MJSP, da Polícia Federal, e que ambos já foram usados como anestésicos por suas propriedades sedativas (p. 41). A erra a lista (D2, não B1) e nega o uso anestésico, que de fato ocorreu. B erra a lista (D2, não F2) e o controle (Polícia Federal/MJSP). D contraria o texto, pois ambos constam da Lista D2.",
+    "referencia": "PDF Química Forense, p. 41",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1578,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as plantas empregadas no preparo da ayahuasca e suas características botânicas descritas no texto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A Banisteriopsis caapi (cipó mariri), também chamada iagê ou caapi, é uma trepadeira robusta de 30 m ou mais, do rio Negro.",
+      "B": "A Psychotria viridis (chacrona) é uma trepadeira robusta de 30 m de altura que cresce na região do rio Negro e fornece harmina e harmalina.",
+      "C": "A Banisteriopsis caapi (cipó mariri) é um arbusto baixo de 3 m a 4 m de caule lenhoso, típico da floresta amazônica, e é a fonte de DMT.",
+      "D": "Tanto a chacrona quanto o cipó mariri são substituíveis pela Peganum harmala (Syrian rue), única fonte conhecida de DMT no preparo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto descreve a Banisteriopsis caapi (cipó mariri), também chamada iagê ou caapi, como trepadeira robusta de 30 m ou mais de altura, com habitat natural na região do rio Negro (p. 39). B erra ao descrever a chacrona como trepadeira de 30 m: a chacrona é um arbusto de 3 m a 4 m, e quem fornece harmina/harmalina é o cipó mariri. C inverte as características (o arbusto de 3-4 m é a chacrona) e a fonte (o cipó mariri fornece harmina/harmalina, não DMT). D erra porque a Peganum harmala é fonte de harmina e harmalina, não de DMT, e não substitui ambas as plantas.",
+    "referencia": "PDF Química Forense, p. 39",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1579,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a definição adotada tanto pelas Nações Unidas quanto pela União Europeia, qual é o traço que caracteriza uma substância como Nova Substância Psicoativa (NSP)?",
+    "alternativas": {
+      "A": "Ter sido sintetizada em laboratório nos últimos cinco anos a partir de moléculas inéditas e raras.",
+      "B": "Ter potencial de abuso e não ser controlada pelas Convenções de 1961 e 1971, ameaçando a saúde.",
+      "C": "Estar listada nominalmente nas Convenções Únicas sobre Entorpecentes de 1961 e de 1971 da ONU.",
+      "D": "Ser obrigatoriamente vendida em sua forma pura, jamais em misturas com outras substâncias químicas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: as NSP são definidas como substâncias com potencial de abuso, puras ou em misturas, que não são controladas pelas Convenções de 1961 (Entorpecentes) nem de 1971 (Psicotrópicas), mas que podem representar ameaça à saúde pública. A) errada: 'novas' não significa recém-sintetizadas nem moléculas inéditas. C) errada: o traço definidor é justamente NÃO estar controlada por essas Convenções. D) errada: o texto admite expressamente a forma pura OU em preparações (misturas). (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "facil"
+  },
+  {
+    "id": 1580,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto das NSP, o significado correto do termo \"novas\" é que essas substâncias:",
+    "alternativas": {
+      "A": "Foram necessariamente criadas ou sintetizadas nos últimos anos em laboratórios clandestinos.",
+      "B": "São moléculas inéditas, jamais identificadas anteriormente pela ciência ou pela literatura química.",
+      "C": "Estão disponíveis no mercado recentemente, não sendo necessariamente moléculas recém-criadas.",
+      "D": "Tornaram-se controladas recentemente pelas Convenções internacionais de 1961 e de 1971 da ONU."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: o texto destaca que 'novas' não se refere a substâncias criadas ou sintetizadas nos últimos anos, mas àquelas disponíveis no mercado recentemente. A) e B) erradas: contrariam diretamente esse esclarecimento, pois a molécula pode ser antiga. D) errada: o que define NSP é não estarem controladas pelas Convenções de 61 e 71. (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "facil"
+  },
+  {
+    "id": 1581,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O capítulo aponta três grupos de NSP que merecem destaque no Brasil em virtude do número e das características das apreensões. Esses três grupos são:",
+    "alternativas": {
+      "A": "Canabinoides sintéticos, catinonas sintéticas e feniletilaminas.",
+      "B": "Opioides sintéticos, benzodiazepínicos e barbitúricos de uso hospitalar.",
+      "C": "Canabinoides sintéticos, cocaína e anfetaminas tradicionais de rua.",
+      "D": "Catinonas sintéticas, LSD em selos e MDMA na forma clássica."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: o texto identifica canabinoides sintéticos, catinonas sintéticas e feniletilaminas como os três grupos de destaque (mnemônico CA-CA-FE). B) errada: opioides, benzodiazepínicos e barbitúricos não são citados como os grupos de destaque. C) e D) erradas: cocaína, anfetaminas, LSD e MDMA clássico são drogas tradicionais que as NSP mimetizam, e não grupos de NSP. (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 1582,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os canabinoides sintéticos descritos no capítulo, é correto afirmar que:",
+    "alternativas": {
+      "A": "Atuam como antagonistas dos receptores canabinoides, bloqueando os efeitos da Cannabis sativa.",
+      "B": "São agonistas dos receptores canabinoides e produzem efeitos semelhantes aos da Cannabis.",
+      "C": "São derivados estruturais da catinona e agem como estimulantes do sistema nervoso central.",
+      "D": "No Brasil, são encontrados exclusivamente na forma de soluções injetáveis de uso hospitalar."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: os canabinoides sintéticos são agonistas dos receptores canabinoides, com características estruturais que permitem se ligarem a esses receptores, produzindo efeitos semelhantes aos canabinoides da Cannabis sativa. A) errada: são agonistas, não antagonistas. C) errada: derivados da catinona e estimulantes descrevem as catinonas sintéticas. D) errada: no Brasil aparecem em misturas de ervas, papéis/selos, comprimidos (raro) e pó, não exclusivamente em soluções injetáveis. (p. 43)",
+    "referencia": "PDF Química Forense, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 1583,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "As catinonas sintéticas são descritas no capítulo como compostos que:",
+    "alternativas": {
+      "A": "São agonistas dos receptores canabinoides e produzem efeitos semelhantes aos da maconha em ervas.",
+      "B": "Têm efeitos exclusivamente alucinógenos e são encontradas principalmente na forma de selos e papéis.",
+      "C": "São derivadas da catinona e agem como estimulantes, mimetizando cocaína, anfetamina e MDMA.",
+      "D": "Não atuam no sistema nervoso central, sendo totalmente desprovidas de qualquer potencial de abuso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: as catinonas sintéticas são derivadas estruturalmente da catinona, agem no SNC predominantemente como estimulantes (dopamina, norepinefrina e/ou serotonina) e mimetizam cocaína, anfetamina, metanfetamina e MDMA. A) errada: descreve canabinoides sintéticos. B) errada: 'efeitos alucinógenos' e 'principalmente selos' descrevem as feniletilaminas; catinonas aparecem em selos apenas em raros casos. D) errada: elas atuam no SNC e têm potencial de abuso. (p. 43-44)",
+    "referencia": "PDF Química Forense, p. 43–44",
+    "nivel": "medio"
+  },
+  {
+    "id": 1584,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o quadro comparativo dos três grupos, em qual forma de apresentação as feniletilaminas são PRINCIPALMENTE encontradas no Brasil?",
+    "alternativas": {
+      "A": "Selos.",
+      "B": "Misturas de ervas vegetais secas.",
+      "C": "Cristais passando-se por ecstasy.",
+      "D": "Soluções injetáveis de uso hospitalar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: as feniletilaminas são encontradas no Brasil sob a forma de pó, comprimidos, soluções e, principalmente, de selos. B) errada: as misturas de ervas são típicas dos canabinoides sintéticos. C) errada: os cristais passando-se por ecstasy caracterizam as catinonas sintéticas. D) errada: o texto cita soluções, mas não 'soluções injetáveis de uso hospitalar', e a forma principal são os selos. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 1585,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à base normativa de controle das substâncias de uso proscrito no Brasil, é correto afirmar que:",
+    "alternativas": {
+      "A": "O controle é feito apenas por leis federais do Congresso, sem qualquer participação da Anvisa.",
+      "B": "As proscritas constam das listas F do Anexo I da Portaria n.º 344/98, atualizadas por RDCs.",
+      "C": "As substâncias proscritas são definidas diretamente pelas Convenções da ONU de 1961 e de 1971.",
+      "D": "A Lei n.º 11.343/2006 revogou a Portaria n.º 344/98-SVS/MS, que deixou de ter qualquer validade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: as substâncias de uso proscrito são elencadas nas listas F do Anexo I da Portaria n.º 344/98-SVS/MS (conforme a Lei n.º 11.343/2006, art. 1º, p.ú., e art. 66), com anexos frequentemente atualizados por Resoluções da Diretoria Colegiada (RDC) da Anvisa. A) errada: a Anvisa participa ativamente por meio das RDCs. C) errada: as Convenções não definem diretamente as listas brasileiras. D) errada: a Portaria 344/98 continua vigente e é a base das listas. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 1586,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O capítulo destaca a chamada \"virada de 2016\" no controle de substâncias no Brasil. Qual mudança ela representou?",
+    "alternativas": {
+      "A": "A substituição definitiva das listas F nacionais por listas administradas exclusivamente pela ONU.",
+      "B": "A descriminalização dos canabinoides sintéticos por meio de uma resolução específica da Anvisa.",
+      "C": "A adoção, além da listagem nominal já existente, de classificação com abordagens mais genéricas.",
+      "D": "O abandono completo do sistema de listagem nominal, mantendo-se apenas o critério estrutural genérico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: até 2016 o Brasil adotava somente a listagem nominal e, diante do surgimento de novas drogas em velocidade superior à inclusão normativa, decidiu-se adotar TAMBÉM formas de classificação genéricas (estruturais). A) errada: as listas F nacionais não foram substituídas por listas da ONU. B) errada: a RDC 79/2016 proibiu canabinoides sintéticos, não os descriminalizou. D) errada: a listagem nominal não foi abandonada; a classificação genérica foi adicionada a ela. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 1587,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a linha do tempo das RDCs que incluíram classes estruturais na Lista F2 da Portaria n.º 344/1998, qual sequência relaciona corretamente RDC, ano e grupo de NSP?",
+    "alternativas": {
+      "A": "RDC 79/2016 (catinonas sintéticas) → RDC 175/2017 (feniletilaminas) → RDC 325/2019 (canabinoides sint.).",
+      "B": "RDC 325/2016 (canabinoides sint.) → RDC 175/2017 (catinonas sintéticas) → RDC 79/2019 (feniletilaminas).",
+      "C": "RDC 79/2016 (canabinoides sint.) → RDC 175/2017 (catinonas sint.) → RDC 325/2019 (feniletilaminas).",
+      "D": "RDC 175/2016 (feniletilaminas) → RDC 79/2017 (canabinoides sint.) → RDC 325/2019 (catinonas sintéticas)."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: a sequência é RDC 79 (2016, dez classes de canabinoides sintéticos) → RDC 175 (2017, catinonas sintéticas) → RDC 325 (2019, feniletilaminas); os números crescentes acompanham os anos crescentes. A) errada: troca os grupos associados às RDCs. B) e D) erradas: invertem os números/anos das RDCs e os grupos correspondentes. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1588,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a RDC n.º 79, de 23 de maio de 2016, é correto afirmar que ela incluiu na Lista F2:",
+    "alternativas": {
+      "A": "Dez classes genéricas dos canabinoides sintéticos, proibindo substâncias que nelas se enquadrem.",
+      "B": "Uma única classe estrutural das feniletilaminas, sem previsão de qualquer isenção de controle nos adendos.",
+      "C": "A classe das catinonas sintéticas, listando nominalmente cada uma das substâncias derivadas da catinona.",
+      "D": "Todas as substâncias psicotrópicas já controladas pelas Convenções da ONU de 1961 e de 1971 em vigor."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: a RDC 79/2016 incluiu dez classes estruturais genéricas dos canabinoides sintéticos, passando a proibir quaisquer substâncias canabimiméticas que se enquadrem nessas classes, observadas as isenções de controle previstas nos adendos. B) errada: feniletilaminas entraram pela RDC 325/2019, e havia previsão de isenções. C) errada: catinonas entraram pela RDC 175/2017, e a abordagem foi genérica/estrutural, não listagem nominal. D) errada: a RDC tratou de NSP, não das substâncias já controladas pelas Convenções. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1589,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A classificação genérica (estrutural) é apontada como especialmente eficiente no controle das NSP. Qual afirmativa explica corretamente o porquê dessa eficiência?",
+    "alternativas": {
+      "A": "Porque exige a listagem nominal individual de cada nova molécula antes que ela possa enfim ser proibida.",
+      "B": "Porque define um núcleo molecular com variações descritas, impedindo a burla por pequenas alterações.",
+      "C": "Porque transfere para a ONU a responsabilidade de identificar e nomear cada substância apreendida no Brasil.",
+      "D": "Porque libera do controle os subgrupos estruturais, concentrando a proibição apenas na molécula original."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: a classificação genérica define uma estrutura molecular nuclear e suas variações, permitindo proibir grupos e subgrupos de forma abrangente e antecipar o controle; isso é eficiente contra as NSP porque é comum sintetizar novas substâncias com pequenas alterações estruturais em moléculas já controladas para burlar o controle. A) errada: a abordagem genérica dispensa a listagem nominal de cada molécula. C) errada: a identificação não é transferida à ONU. D) errada: a abordagem amplia o controle a grupos e subgrupos, em vez de liberá-los. (p. 44)",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1590,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos termos da Lei n.º 11.343/2006, qual documento é essencial para a lavratura do auto de prisão em flagrante por tráfico de drogas?",
+    "alternativas": {
+      "A": "O laudo de constatação da natureza e quantidade da droga apreendida.",
+      "B": "O laudo de perícia criminal federal definitivo da droga apreendida.",
+      "C": "O cromatograma obtido por cromatografia gasosa acoplada a espectrometria de massas.",
+      "D": "O parecer técnico do Ministério Público sobre a materialidade do delito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o art. 50, § 1º, da Lei n.º 11.343/2006, para a lavratura do auto de prisão em flagrante é suficiente o laudo de constatação (preliminar) da natureza e quantidade da droga (p. 45 e 52). B erra: o laudo definitivo estabelece a composição depois, não é exigido para o flagrante. C erra: o cromatograma é etapa de exame definitivo, não do flagrante. D erra: o documento é o laudo de constatação firmado por perito oficial ou pessoa idônea, não um parecer do MP.",
+    "referencia": "PDF Química Forense, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "id": 1591,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "No teste de Scott modificado, a coloração que indica a presença de cocaína é:",
+    "alternativas": {
+      "A": "Vermelha.",
+      "B": "Azul.",
+      "C": "Verde.",
+      "D": "Violeta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo a Tabela 1, a cor azul indica a presença de cocaína no teste de Scott modificado (p. 46). A erra: avermelhada é a coloração do Fast Blue para canabinoides. C erra: chama verde está associada ao cloreto de etila (lança-perfume). D erra: violeta é característico de testes como Ehrlich (LSD) e Duquenois Levine (maconha).",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "facil"
+  },
+  {
+    "id": 1592,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os testes preliminares de identificação de drogas recomendados pela UNODC caracterizam-se por:",
+    "alternativas": {
+      "A": "Serem baseados em evolução de cor, simples, rápidos e indicativos.",
+      "B": "Estabelecerem de forma precisa e definitiva a composição do material.",
+      "C": "Exigirem obrigatoriamente instrumentação analítica de bancada como GC-MS.",
+      "D": "Substituírem o laudo definitivo sempre que o resultado for positivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma que os testes da UNODC são baseados em evolução de cor, simples, rápidos, práticos e de caráter apenas indicativo (p. 45 e 49). B erra: estabelecer a composição é função dos exames definitivos, não dos preliminares. C erra: os testes de cor não exigem GC-MS; são feitos com reagentes colorimétricos. D erra: havendo resultado positivo no preliminar, é necessária a realização dos exames definitivos.",
+    "referencia": "PDF Química Forense, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "id": 1593,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o art. 50, § 1º, da Lei n.º 11.343/2006, o laudo de constatação para fins de flagrante pode ser firmado:",
+    "alternativas": {
+      "A": "Exclusivamente por Perito Criminal Federal lotado em laboratório de química forense.",
+      "B": "Por perito oficial ou, na falta deste, por pessoa idônea.",
+      "C": "Por dois peritos oficiais em conjunto, sob pena de nulidade.",
+      "D": "Pela autoridade judiciária após manifestação do Ministério Público."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 50, § 1º, dispõe que é suficiente o laudo de constatação firmado por perito oficial ou, na falta deste, por pessoa idônea (p. 45 e 52); essa pessoa pode ser policial nomeado pela autoridade policial. A erra: a lei não restringe ao perito de laboratório, embora seja recomendado. C erra: não há exigência de dois peritos. D erra: o laudo não é firmado pelo juiz nem depende de manifestação do MP para o flagrante.",
+    "referencia": "PDF Química Forense, p. 52",
+    "nivel": "medio"
+  },
+  {
+    "id": 1594,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para identificação preliminar de canabinoides (maconha e derivados), são utilizados os testes:",
+    "alternativas": {
+      "A": "Marquis e Simon, com cor laranja.",
+      "B": "Scott modificado e Ehrlich.",
+      "C": "Fast Blue e Duquenois Levine.",
+      "D": "Zimmerman e Dille-Koppanyi."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Tabela 1 indica, para maconha e derivados, o Fast Blue (coloração avermelhada) e o Duquenois Levine, com violeta na camada inferior clorofórmica (p. 46). A erra: Marquis e Simon detectam MDMA/MDA e anfetaminas. B erra: Scott detecta cocaína e Ehrlich detecta LSD. D erra: Zimmerman detecta benzodiazepínicos e Dille-Koppanyi detecta barbitúricos.",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 1595,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando os falsos positivos registrados na Tabela 1, quais substâncias podem gerar falso positivo no teste de Scott modificado para cocaína?",
+    "alternativas": {
+      "A": "Heroína, metadona e lidocaína.",
+      "B": "Patchouli e alguns óleos essenciais, como o de DL.",
+      "C": "Dihidro-LSD e certos sedativos.",
+      "D": "Alquil organoclorados diversos, como os do lança-perfume."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Tabela 1 registra, como falsos positivos do teste de Scott para cocaína, heroína, metadona e lidocaína, dentre outros (p. 46). B erra: patchouli e óleos essenciais são falsos positivos dos testes para maconha (Fast Blue / Duquenois Levine). C erra: dihidro-LSD é falso positivo do teste de Ehrlich (LSD). D erra: alquil organoclorados se comportam como o cloreto de etila nos testes de chama e de cloretos.",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 1596,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o comportamento das anfetaminas e metanfetaminas no teste de Simon, é correto afirmar que:",
+    "alternativas": {
+      "A": "Tanto anfetaminas quanto metanfetaminas produzem cor azul escuro intenso.",
+      "B": "A metanfetamina produz cor negra, enquanto anfetaminas não produzem cor.",
+      "C": "A metanfetamina não produz cor, e anfetaminas diversas dão tons de azul.",
+      "D": "Nenhuma das duas reage no Simon, exigindo o teste de Marquis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Tabela 1 indica que, no teste de Simon, a metanfetamina não produz cor, ao passo que anfetaminas diversas produzem tons de azul (p. 46). A erra: a cor azul escuro intenso no Simon indica MDMA, e a metanfetamina não dá cor. B erra: é a metanfetamina que não produz cor, e a cor das anfetaminas é azul, não negra. D erra: anfetaminas diversas reagem produzindo tons de azul, então a afirmação é falsa.",
+    "referencia": "PDF Química Forense, p. 46",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1597,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame preliminar do cloreto de etila (lança-perfume), qual conjunto de resultados é descrito na Tabela 1?",
+    "alternativas": {
+      "A": "Chama azul, resíduo escuro e temperatura de ebulição de 78 °C.",
+      "B": "Chama verde, resíduo branco floculento e ebulição a 12 °C.",
+      "C": "Coloração violeta no teste de chama e ebulição a 100 °C.",
+      "D": "Chama vermelha, resíduo oleoso e temperatura de ebulição de 36 °C."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Tabela 1 indica, para o cloreto de etila, chama verde no teste de chama, resíduo sólido branco floculento (indicativo de cloretos) e temperatura de ebulição de 12 °C (p. 46-47). A, C e D erram porque alteram a cor da chama (verde), a natureza do resíduo (branco floculento) e a temperatura de ebulição correta (12 °C).",
+    "referencia": "PDF Química Forense, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 1598,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Constitui PONTO CRÍTICO destacado no texto a estratégia de traficantes que adicionam sais de ferro (de coloração avermelhada) à cocaína de alta pureza. Qual o objetivo e a relação desses sais com os testes?",
+    "alternativas": {
+      "A": "Aumentar a pureza da cocaína, atuando como reagente confirmatório no teste de Marquis.",
+      "B": "Mascarar os exames preliminares de coloração, sendo interferentes do teste de Scott.",
+      "C": "Acelerar a evolução de cor azul no teste de Scott, evitando falsos negativos.",
+      "D": "Provocar chama verde no teste de chama, simulando a presença de cloreto de etila."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto destaca que traficantes adicionam sais de ferro (avermelhados) à cocaína de alta pureza para mascarar ou dificultar os exames preliminares baseados em reações de coloração, sendo os sais de ferro interferentes do teste de Scott (p. 49-50). A erra: não aumentam pureza nem atuam no Marquis. C erra: a intenção é dificultar, não acelerar a cor azul. D erra: o efeito relatado é interferência no Scott, não simulação de cloreto de etila.",
+    "referencia": "PDF Química Forense, p. 49",
+    "nivel": "medio"
+  },
+  {
+    "id": 1599,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante do crescimento de novas substâncias psicoativas (NSPs), o texto aponta como alternativa mais confiável aos testes de cor preliminares o uso de:",
+    "alternativas": {
+      "A": "Maior número de reagentes colorimétricos combinados em um único kit.",
+      "B": "Imunoensaios de campo de leitura visual.",
+      "C": "Instrumentação analítica portátil, como espectrômetro Raman ou FTIR.",
+      "D": "Microcristalização realizada no local da apreensão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto afirma que, com o crescimento das NSPs, uma alternativa mais confiável é o uso de instrumentação analítica portátil, como o espectrômetro Raman ou o espectrofotômetro de FTIR, citando o Raman portátil ResQ (Rigaku) da PF (p. 48-49). A erra: o número de reagentes necessários é justamente o problema apontado. B e D erram: imunoensaios e microcristalização são métodos analíticos (categorias B e C), mas não são a alternativa portátil indicada para NSPs no texto.",
+    "referencia": "PDF Química Forense, p. 48",
+    "nivel": "medio"
+  },
+  {
+    "id": 1600,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo os critérios de amostragem da IT n.º 06/2006-DITEC (Tabela 2), para um grupo com 150 unidades, o número de unidades a amostrar é:",
+    "alternativas": {
+      "A": "Todas as 150 unidades do grupo.",
+      "B": "10 unidades escolhidas aleatoriamente.",
+      "C": "13 unidades escolhidas aleatoriamente.",
+      "D": "75 unidades escolhidas aleatoriamente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela Tabela 2, quando n > 100 amostra-se √n, arredondando para o inteiro superior mais próximo (p. 51). Como √150 ≈ 12,25, arredonda-se para 13. A erra: amostrar todas só se n < 10. B erra: amostrar 10 só quando 10 ≤ n ≤ 100. D erra: não se usa metade das unidades, e sim a raiz quadrada arredondada para cima.",
+    "referencia": "PDF Química Forense, p. 51",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1601,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a Tabela 3, as quantidades mínimas de amostra por unidade para sólidos em geral e líquidos em geral são, respectivamente:",
+    "alternativas": {
+      "A": "2,0 g e 200 ml.",
+      "B": "5,0 g e 500 ml.",
+      "C": "200 mg e 20 ml.",
+      "D": "2,0 g e embalagem original."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Tabela 3 estabelece amostra mínima de 2,0 g (três colheres de sopa) para sólidos em geral e 200 ml (um copo) para líquidos em geral (p. 52). B e C erram nos valores. D erra: a embalagem original é o critério para líquido volátil (ex.: lança-perfume), não para líquidos em geral. Abaixo do mínimo, envia-se a unidade na totalidade.",
+    "referencia": "PDF Química Forense, p. 52",
+    "nivel": "medio"
+  },
+  {
+    "id": 1602,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação dos métodos analíticos por poder de discriminação (SWGDRUG / IT n.º 06/2006, Tabela 4), assinale a associação CORRETA entre método e categoria:",
+    "alternativas": {
+      "A": "Espectrometria de massas (EM) pertence à categoria C.",
+      "B": "Testes de cor e precipitação pertencem à categoria A.",
+      "C": "Espectrometria de massas (EM) pertence à categoria A.",
+      "D": "Cromatografia gasosa (CG) pertence à categoria A."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela Tabela 4, a espectrometria de massas (EM) está na categoria A, de maior poder de discriminação, junto com infravermelho, RMN, Raman e difratometria de raios X (p. 53). A erra: EM é categoria A, não C. B erra: testes de cor e precipitação são categoria C. D erra: a cromatografia gasosa (CG) é classificada na categoria B.",
+    "referencia": "PDF Química Forense, p. 53",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1603,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pelas regras de combinação de métodos da IT n.º 06/2006, quando NÃO for realizado nenhum teste de categoria A, exige-se que sejam conduzidos:",
+    "alternativas": {
+      "A": "Ao menos três testes de outras categorias, sendo dois da B não relacionados.",
+      "B": "Pelo menos um único teste de categoria B isolado, desde que validado.",
+      "C": "Dois testes de categoria C combinados com um único teste de cor.",
+      "D": "Apenas dois testes de categoria A em equipamentos distintos e validados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A regra de combinação determina que, sem método de categoria A, devem ser conduzidos ao menos três testes de outras categorias, sendo dois deles da categoria B e não relacionados entre si (p. 54). B erra: um único teste B isolado é insuficiente. C erra: a exigência é de dois testes da B não relacionados, dentro de um total de três. D erra: a hipótese trata justamente da ausência de teste de categoria A.",
+    "referencia": "PDF Química Forense, p. 54",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1604,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os equipamentos e o controle de qualidade nos exames definitivos, é correto afirmar que:",
+    "alternativas": {
+      "A": "O CG/EM analisa todas as substâncias da Portaria n.º 344-SVS/MS, pois nenhuma degrada no processo.",
+      "B": "O FTIR é técnica robusta, em geral mais barata e à temperatura ambiente, sem degradação térmica.",
+      "C": "A garantia de qualidade dispensa o uso de brancos e padrões sempre que se emprega HRMS de alta resolução.",
+      "D": "A contraprova deve ser descartada imediatamente após a emissão do laudo definitivo de perícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto descreve o FTIR como técnica robusta, normalmente mais barata que o CG/EM, com análises à temperatura ambiente e sem degradação térmica, embora dificultada em misturas com grupos funcionais na mesma região (p. 54). A erra: nem todas as substâncias podem ser analisadas em CG, pois algumas degradam no processo. C erra: o controle de qualidade exige padrões e brancos, sem exceção para HRMS. D erra: deve-se manter material como contraprova para eventual nova perícia, salvo quando quantidade ou conservação não permitirem (p. 55).",
+    "referencia": "PDF Química Forense, p. 54",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1605,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No teste preliminar para morfina, codeína e heroína realizado com os reagentes 1A + 1B (Teste n.º 1), qual coloração indica a presença dessas substâncias?",
+    "alternativas": {
+      "A": "Coloração verde-amarelada à verde-clara",
+      "B": "Coloração azul intensa, como no teste de Scott",
+      "C": "Precipitado amarelo leitoso após adição de água",
+      "D": "Coloração de violeta à púrpura-avermelhado"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: o Teste n.º 1 (reagentes 1A + 1B) para opioides resulta em coloração de violeta à púrpura-avermelhado, que indica morfina, codeína ou heroína (p. 57). Erra B: o azul é a cor do teste de Scott (cocaína) e do teste de Simon (metanfetamina/MDMA), não dos opioides. Erra C: o precipitado amarelo leitoso é o resultado do teste de Tanred/Mayer para cocaína. Erra D: o verde-amarelado à verde, no teste de Marquis, indica DMA ou DOB, não opioides.",
+    "referencia": "PDF Química Forense, p. 57",
+    "nivel": "facil"
+  },
+  {
+    "id": 1606,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O teste de Scott acidificado (reagente 5) é usado como teste preliminar para cocaína. Sobre a confiabilidade desse teste, é correto afirmar que:",
+    "alternativas": {
+      "A": "É um teste definitivo, dispensando exames confirmatórios quando dá positivo.",
+      "B": "Não é definitivo, pois metadona, heroína e lidocaína também dão cor azul nele.",
+      "C": "Só dá positivo para cocaína pura, sendo negativo para qualquer substância semelhante.",
+      "D": "Apresenta cor vermelha exclusivamente na presença de cocaína, sem falsos positivos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto adverte que o teste de Scott NÃO é definitivo, pois metadona, heroína, lidocaína e outros compostos também dão cor azul, exigindo exames e laudo definitivos (p. 59). Erra A: justamente por não ser definitivo, são necessários exames confirmatórios. Erra C: substâncias quimicamente semelhantes como lidocaína e cafeína podem resultar positivo. Erra D: a cor do teste de Scott é azul, não vermelha.",
+    "referencia": "PDF Química Forense, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "id": 1607,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual teste preliminar utiliza o reagente 9 (reagente de Ehrlich) e produz, em alguns minutos, coloração violeta indicativa de uma substância específica?",
+    "alternativas": {
+      "A": "Teste para barbitúricos, com violeta indicando Dille-Koppanyi.",
+      "B": "Teste para cannabis, com cor violeta na camada de clorofórmio.",
+      "C": "Teste para LSD, com a cor violeta surgindo em poucos minutos.",
+      "D": "Teste para benzodiazepínicos, com violeta indicando diazepam."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o teste de Ehrlich (reagente 9) produz cor violeta que aparece em alguns minutos, indicando a possível presença de LSD (p. 61). Erra A: barbitúricos são detectados pelo teste de Dille-Koppanyi (reagentes 10A + 10B), com cor púrpura-avermelhada. Erra B: a cor violeta na camada inferior de clorofórmio é do teste de Duquenois Levine para cannabis (reagentes 4A + 4B + 4C). Erra D: benzodiazepínicos usam o teste de Zimmerman (reagentes 23A + 23B), cor púrpura avermelhada.",
+    "referencia": "PDF Química Forense, p. 61",
+    "nivel": "medio"
+  },
+  {
+    "id": 1608,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No Teste n.º 2 para opioides (reagente 3 — ácido nítrico), a distinção entre heroína, morfina e codeína é feita pela observação da evolução das cores. Qual resultado indica a possível presença de HEROÍNA?",
+    "alternativas": {
+      "A": "Cor laranja que rapidamente vira vermelha e depois amarela.",
+      "B": "Cor amarela que se torna lentamente verde-claro.",
+      "C": "Cor laranja que lentamente se torna amarela.",
+      "D": "Cor vermelha estável que não se altera com o tempo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: com o reagente 3 (ácido nítrico), a cor amarela que vira lentamente verde-claro indica possível presença de heroína (p. 57-58). Erra A: laranja que se torna rapidamente vermelha e depois lentamente amarela indica morfina. Erra C: laranja que lentamente se torna amarela indica codeína. Erra D: a cor vermelha estável corresponde ao Teste n.º 3 com sulfato férrico (reagente 2), indicativo de morfina, não a esse procedimento.",
+    "referencia": "PDF Química Forense, p. 57",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1609,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para cannabis, o texto apresenta dois testes preliminares. Assinale a alternativa que associa corretamente o teste, os reagentes e o resultado.",
+    "alternativas": {
+      "A": "Teste de Duquenois Levine (4A + 4B + 4C): precipitado branco cristalino.",
+      "B": "Teste do Fast Blue B Salt (reagente 6 + Fast Blue B Salt): cor azul.",
+      "C": "Teste de Duquenois Levine (4A + 4B + 4C): cor violeta na camada inferior de clorofórmio.",
+      "D": "Teste do Fast Blue B Salt (reagente 6 + Fast Blue B Salt): cor verde na camada superior."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: no teste de Duquenois Levine (reagentes 4A + 4B + 4C), a cor violeta na camada inferior (clorofórmio) indica cannabis (p. 58). Erra A: precipitado branco cristalino é resultado do teste de iodeto de sódio para cloreto de etila, não de Duquenois. Erra B: o Fast Blue B Salt resulta em cor avermelhada ou violácea, não azul. Erra D: o Fast Blue B Salt não produz cor verde na camada superior; o resultado é avermelhado/violáceo.",
+    "referencia": "PDF Química Forense, p. 58",
+    "nivel": "medio"
+  },
+  {
+    "id": 1610,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O reagente 5, utilizado no teste de Scott acidificado, é preparado a partir de uma combinação de soluções. Qual a composição correta desse reagente?",
+    "alternativas": {
+      "A": "Acetato de cobalto em metanol com isopropilamina como base diluente.",
+      "B": "Sulfato férrico dissolvido em água destilada, sem outro aditivo.",
+      "C": "Nitroprussiato de sódio com acetaldeído e carbonato de sódio em água.",
+      "D": "Cloreto de cobalto II e tiocianato de potássio, em ácido acético."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: o reagente 5 (teste de Scott) é preparado misturando soluções de cloreto de cobalto II hexahidratado e tiocianato de potássio, com adição de água destilada e ácido acético glacial (p. 63-64). Erra B: sulfato férrico em água é o reagente 2 (Teste n.º 3 para morfina). Erra C: nitroprussiato de sódio, acetaldeído e carbonato de sódio são os reagentes 8A, 8B e 8C do teste de Simon. Erra D: acetato de cobalto em metanol (10A) e isopropilamina (10B) compõem o teste de Dille-Koppanyi.",
+    "referencia": "PDF Química Forense, p. 63",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1611,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No teste de ácido sulfúrico (reagente 1B) aplicado a anfetamina e metanfetamina, qual é o resultado esperado e sua finalidade?",
+    "alternativas": {
+      "A": "Cor azul intensa, confirmando a presença de metanfetamina pura.",
+      "B": "Cor laranja que se torna marrom, confirmando a anfetamina.",
+      "C": "Nenhuma cor surge, ajudando a diferenciá-las dos derivados.",
+      "D": "Coloração preta imediata, indicando o MDMA, o conhecido êxtase."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: no teste com ácido sulfúrico (reagente 1B), não deve aparecer nenhuma cor na presença de anfetamina e metanfetamina, e essa ausência de cor é útil para diferenciá-las de outros derivados anfetamínicos, que produzem cores diversas (p. 61). Erra A: a cor azul corresponde ao teste de Simon (8A+8B+8C). Erra B: laranja que se torna marrom é o resultado do teste de Marquis (1A+1B). Erra D: a coloração preta no teste de Marquis indica MDMA, e não ocorre no teste isolado de ácido sulfúrico.",
+    "referencia": "PDF Química Forense, p. 61",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1612,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os testes de Dille-Koppanyi e de Zimmerman produzem ambos coloração púrpura-avermelhada. Como o texto orienta distingui-los, e a que drogas correspondem, respectivamente?",
+    "alternativas": {
+      "A": "Distinguem-se pela cor final; Dille-Koppanyi indica LSD e Zimmerman indica a cocaína.",
+      "B": "Pelos reagentes: Dille-Koppanyi indica barbitúricos e Zimmerman, benzodiazepínicos.",
+      "C": "Distinguem-se pelo tempo de reação observado, embora ambos indiquem barbitúricos.",
+      "D": "Distinguem-se pelo odor; Dille-Koppanyi indica cannabis e Zimmerman indica anfetaminas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: a coloração púrpura-avermelhada aparece em mais de um teste, devendo a distinção ser feita pelos reagentes usados; Dille-Koppanyi (reagentes 10A + 10B) indica barbitúricos e Zimmerman (reagentes 23A + 23B) indica diazepam e benzodiazepínicos (p. 62). Erra A: a cor é a mesma nos dois, e nenhum deles é para LSD (Ehrlich) ou cocaína (Scott). Erra C: Zimmerman não indica barbitúricos, e sim benzodiazepínicos. Erra D: cannabis e anfetaminas têm testes próprios distintos desses dois.",
+    "referencia": "PDF Química Forense, p. 62",
+    "nivel": "medio"
+  },
+  {
+    "id": 1613,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual teste preliminar para cocaína baseia-se na comparação de ODOR e não em coloração, exigindo um reagente de referência?",
+    "alternativas": {
+      "A": "Teste de Tanred / Mayer (reagente 7), por precipitado leitoso.",
+      "B": "Teste de Scott acidificado (reagente 5), por coloração azul.",
+      "C": "Teste de benzoato de metila (reagente 6, comparado ao 21).",
+      "D": "Teste de Ehrlich (reagente 9), por coloração violeta."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o teste de benzoato de metila usa o reagente 6 e compara o odor da amostra com o do reagente 21 (referência de odor); como parte da população não sente o odor, é necessário ter o reagente de referência (p. 59). Erra A: o teste de Tanred/Mayer baseia-se em precipitado amarelo leitoso, não em odor. Erra B: o teste de Scott baseia-se em coloração azul. Erra D: o teste de Ehrlich é colorimétrico (cor violeta) e é destinado ao LSD, não à cocaína.",
+    "referencia": "PDF Química Forense, p. 59",
+    "nivel": "facil"
+  },
+  {
+    "id": 1614,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O teste de Simon (reagentes 8A + 8B + 8C) produz cor azul indicativa de metanfetamina ou MDMA. Qual a composição correta dos três reagentes desse teste, na ordem 8A, 8B e 8C?",
+    "alternativas": {
+      "A": "Vanilina em etanol; ácido clorídrico concentrado; clorofórmio.",
+      "B": "Sulfato de cobre II; ácido acético 1%; hidróxido de sódio 2M.",
+      "C": "Formaldeído em ácido acético; ácido sulfúrico; clorofórmio.",
+      "D": "Nitroprussiato de sódio; acetaldeído puro; carbonato de sódio."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: no teste de Simon, o reagente 8A é solução de nitroprussiato de sódio, o 8B é acetaldeído e o 8C é solução de carbonato de sódio (p. 64). Erra B: sulfato de cobre II, ácido acético 1% e hidróxido de sódio compõem o teste Chen-Kao (reagentes 13A, 13B e 13C) para efedrina/pseudoefedrina. Erra C: formaldeído em ácido acético (1A) e ácido sulfúrico (1B) pertencem ao teste de Marquis. Erra D: vanilina em etanol (4A), ácido clorídrico (4B) e clorofórmio (4C) compõem o teste de Duquenois Levine.",
+    "referencia": "PDF Química Forense, p. 64",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1615,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para cloreto de etila, o texto descreve dois testes preliminares com reagentes distintos. Assinale a associação correta entre reagente e resultado observado.",
+    "alternativas": {
+      "A": "Iodeto de sódio (reagente 12): coloração azul que surge de imediato.",
+      "B": "Nitrato de prata (reagente 11): coloração violeta intensa.",
+      "C": "Nitrato de prata (reagente 11): turvação branca lenta.",
+      "D": "Iodeto de sódio (reagente 12): precipitado amarelo leitoso e denso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: no teste de precipitação com nitrato de prata (reagente 11), um precipitado ou turvação branca que aparece lentamente indica a presença de cloreto de etila (p. 62). Erra A: o iodeto de sódio (reagente 12) gera precipitado branco cristalino, não cor azul. Erra B: o nitrato de prata produz turvação branca, não cor violeta. Erra D: o precipitado amarelo leitoso é resultado do teste de Tanred/Mayer para cocaína, não do iodeto de sódio.",
+    "referencia": "PDF Química Forense, p. 62",
+    "nivel": "medio"
+  },
+  {
+    "id": 1616,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No teste de Marquis (reagentes 1A + 1B) aplicado a anfetaminas e derivados, qual coloração indica a possível presença de MDMA (3,4-metilenodioximetanfetamina)?",
+    "alternativas": {
+      "A": "Coloração amarela à marrom-amarelado.",
+      "B": "Cor laranja que se torna marrom.",
+      "C": "Cor verde-amarelada evoluindo à verde.",
+      "D": "Coloração preta no resultado do teste."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: no teste de Marquis, a coloração preta indica possível presença de MDMA, N-etilanfetamina ou N-OH MDA (p. 60). Erra B: laranja que se torna marrom indica anfetamina ou metanfetamina. Erra C: verde-amarelada à verde indica DMA ou DOB. Erra D: amarela à marrom-amarelado indica 2,5-dimetoxi-4-etilanfetamina, e não MDMA.",
+    "referencia": "PDF Química Forense, p. 60",
+    "nivel": "medio"
   }
 ]

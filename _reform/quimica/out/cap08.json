@@ -1,0 +1,170 @@
+[
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "No teste preliminar para morfina, codeína e heroína realizado com os reagentes 1A + 1B (Teste n.º 1), qual coloração indica a presença dessas substâncias?",
+    "alternativas": {
+      "A": "Coloração verde-amarelada à verde-clara",
+      "B": "Coloração azul intensa, como no teste de Scott",
+      "C": "Precipitado amarelo leitoso após adição de água",
+      "D": "Coloração de violeta à púrpura-avermelhado"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: o Teste n.º 1 (reagentes 1A + 1B) para opioides resulta em coloração de violeta à púrpura-avermelhado, que indica morfina, codeína ou heroína (p. 57). Erra B: o azul é a cor do teste de Scott (cocaína) e do teste de Simon (metanfetamina/MDMA), não dos opioides. Erra C: o precipitado amarelo leitoso é o resultado do teste de Tanred/Mayer para cocaína. Erra D: o verde-amarelado à verde, no teste de Marquis, indica DMA ou DOB, não opioides.",
+    "referencia": "PDF Química Forense, p. 57",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "O teste de Scott acidificado (reagente 5) é usado como teste preliminar para cocaína. Sobre a confiabilidade desse teste, é correto afirmar que:",
+    "alternativas": {
+      "A": "É um teste definitivo, dispensando exames confirmatórios quando dá positivo.",
+      "B": "Não é definitivo, pois metadona, heroína e lidocaína também dão cor azul nele.",
+      "C": "Só dá positivo para cocaína pura, sendo negativo para qualquer substância semelhante.",
+      "D": "Apresenta cor vermelha exclusivamente na presença de cocaína, sem falsos positivos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto adverte que o teste de Scott NÃO é definitivo, pois metadona, heroína, lidocaína e outros compostos também dão cor azul, exigindo exames e laudo definitivos (p. 59). Erra A: justamente por não ser definitivo, são necessários exames confirmatórios. Erra C: substâncias quimicamente semelhantes como lidocaína e cafeína podem resultar positivo. Erra D: a cor do teste de Scott é azul, não vermelha.",
+    "referencia": "PDF Química Forense, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "Qual teste preliminar utiliza o reagente 9 (reagente de Ehrlich) e produz, em alguns minutos, coloração violeta indicativa de uma substância específica?",
+    "alternativas": {
+      "A": "Teste para barbitúricos, com violeta indicando Dille-Koppanyi.",
+      "B": "Teste para cannabis, com cor violeta na camada de clorofórmio.",
+      "C": "Teste para LSD, com a cor violeta surgindo em poucos minutos.",
+      "D": "Teste para benzodiazepínicos, com violeta indicando diazepam."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o teste de Ehrlich (reagente 9) produz cor violeta que aparece em alguns minutos, indicando a possível presença de LSD (p. 61). Erra A: barbitúricos são detectados pelo teste de Dille-Koppanyi (reagentes 10A + 10B), com cor púrpura-avermelhada. Erra B: a cor violeta na camada inferior de clorofórmio é do teste de Duquenois Levine para cannabis (reagentes 4A + 4B + 4C). Erra D: benzodiazepínicos usam o teste de Zimmerman (reagentes 23A + 23B), cor púrpura avermelhada.",
+    "referencia": "PDF Química Forense, p. 61",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "No Teste n.º 2 para opioides (reagente 3 — ácido nítrico), a distinção entre heroína, morfina e codeína é feita pela observação da evolução das cores. Qual resultado indica a possível presença de HEROÍNA?",
+    "alternativas": {
+      "A": "Cor laranja que rapidamente vira vermelha e depois amarela.",
+      "B": "Cor amarela que se torna lentamente verde-claro.",
+      "C": "Cor laranja que lentamente se torna amarela.",
+      "D": "Cor vermelha estável que não se altera com o tempo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: com o reagente 3 (ácido nítrico), a cor amarela que vira lentamente verde-claro indica possível presença de heroína (p. 57-58). Erra A: laranja que se torna rapidamente vermelha e depois lentamente amarela indica morfina. Erra C: laranja que lentamente se torna amarela indica codeína. Erra D: a cor vermelha estável corresponde ao Teste n.º 3 com sulfato férrico (reagente 2), indicativo de morfina, não a esse procedimento.",
+    "referencia": "PDF Química Forense, p. 57",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "Para cannabis, o texto apresenta dois testes preliminares. Assinale a alternativa que associa corretamente o teste, os reagentes e o resultado.",
+    "alternativas": {
+      "A": "Teste de Duquenois Levine (4A + 4B + 4C): precipitado branco cristalino.",
+      "B": "Teste do Fast Blue B Salt (reagente 6 + Fast Blue B Salt): cor azul.",
+      "C": "Teste de Duquenois Levine (4A + 4B + 4C): cor violeta na camada inferior de clorofórmio.",
+      "D": "Teste do Fast Blue B Salt (reagente 6 + Fast Blue B Salt): cor verde na camada superior."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: no teste de Duquenois Levine (reagentes 4A + 4B + 4C), a cor violeta na camada inferior (clorofórmio) indica cannabis (p. 58). Erra A: precipitado branco cristalino é resultado do teste de iodeto de sódio para cloreto de etila, não de Duquenois. Erra B: o Fast Blue B Salt resulta em cor avermelhada ou violácea, não azul. Erra D: o Fast Blue B Salt não produz cor verde na camada superior; o resultado é avermelhado/violáceo.",
+    "referencia": "PDF Química Forense, p. 58",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "O reagente 5, utilizado no teste de Scott acidificado, é preparado a partir de uma combinação de soluções. Qual a composição correta desse reagente?",
+    "alternativas": {
+      "A": "Acetato de cobalto em metanol com isopropilamina como base diluente.",
+      "B": "Sulfato férrico dissolvido em água destilada, sem outro aditivo.",
+      "C": "Nitroprussiato de sódio com acetaldeído e carbonato de sódio em água.",
+      "D": "Cloreto de cobalto II e tiocianato de potássio, em ácido acético."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: o reagente 5 (teste de Scott) é preparado misturando soluções de cloreto de cobalto II hexahidratado e tiocianato de potássio, com adição de água destilada e ácido acético glacial (p. 63-64). Erra B: sulfato férrico em água é o reagente 2 (Teste n.º 3 para morfina). Erra C: nitroprussiato de sódio, acetaldeído e carbonato de sódio são os reagentes 8A, 8B e 8C do teste de Simon. Erra D: acetato de cobalto em metanol (10A) e isopropilamina (10B) compõem o teste de Dille-Koppanyi.",
+    "referencia": "PDF Química Forense, p. 63",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "No teste de ácido sulfúrico (reagente 1B) aplicado a anfetamina e metanfetamina, qual é o resultado esperado e sua finalidade?",
+    "alternativas": {
+      "A": "Cor azul intensa, confirmando a presença de metanfetamina pura.",
+      "B": "Cor laranja que se torna marrom, confirmando a anfetamina.",
+      "C": "Nenhuma cor surge, ajudando a diferenciá-las dos derivados.",
+      "D": "Coloração preta imediata, indicando o MDMA, o conhecido êxtase."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: no teste com ácido sulfúrico (reagente 1B), não deve aparecer nenhuma cor na presença de anfetamina e metanfetamina, e essa ausência de cor é útil para diferenciá-las de outros derivados anfetamínicos, que produzem cores diversas (p. 61). Erra A: a cor azul corresponde ao teste de Simon (8A+8B+8C). Erra B: laranja que se torna marrom é o resultado do teste de Marquis (1A+1B). Erra D: a coloração preta no teste de Marquis indica MDMA, e não ocorre no teste isolado de ácido sulfúrico.",
+    "referencia": "PDF Química Forense, p. 61",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "Os testes de Dille-Koppanyi e de Zimmerman produzem ambos coloração púrpura-avermelhada. Como o texto orienta distingui-los, e a que drogas correspondem, respectivamente?",
+    "alternativas": {
+      "A": "Distinguem-se pela cor final; Dille-Koppanyi indica LSD e Zimmerman indica a cocaína.",
+      "B": "Pelos reagentes: Dille-Koppanyi indica barbitúricos e Zimmerman, benzodiazepínicos.",
+      "C": "Distinguem-se pelo tempo de reação observado, embora ambos indiquem barbitúricos.",
+      "D": "Distinguem-se pelo odor; Dille-Koppanyi indica cannabis e Zimmerman indica anfetaminas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: a coloração púrpura-avermelhada aparece em mais de um teste, devendo a distinção ser feita pelos reagentes usados; Dille-Koppanyi (reagentes 10A + 10B) indica barbitúricos e Zimmerman (reagentes 23A + 23B) indica diazepam e benzodiazepínicos (p. 62). Erra A: a cor é a mesma nos dois, e nenhum deles é para LSD (Ehrlich) ou cocaína (Scott). Erra C: Zimmerman não indica barbitúricos, e sim benzodiazepínicos. Erra D: cannabis e anfetaminas têm testes próprios distintos desses dois.",
+    "referencia": "PDF Química Forense, p. 62",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "Qual teste preliminar para cocaína baseia-se na comparação de ODOR e não em coloração, exigindo um reagente de referência?",
+    "alternativas": {
+      "A": "Teste de Tanred / Mayer (reagente 7), por precipitado leitoso.",
+      "B": "Teste de Scott acidificado (reagente 5), por coloração azul.",
+      "C": "Teste de benzoato de metila (reagente 6, comparado ao 21).",
+      "D": "Teste de Ehrlich (reagente 9), por coloração violeta."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o teste de benzoato de metila usa o reagente 6 e compara o odor da amostra com o do reagente 21 (referência de odor); como parte da população não sente o odor, é necessário ter o reagente de referência (p. 59). Erra A: o teste de Tanred/Mayer baseia-se em precipitado amarelo leitoso, não em odor. Erra B: o teste de Scott baseia-se em coloração azul. Erra D: o teste de Ehrlich é colorimétrico (cor violeta) e é destinado ao LSD, não à cocaína.",
+    "referencia": "PDF Química Forense, p. 59",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "O teste de Simon (reagentes 8A + 8B + 8C) produz cor azul indicativa de metanfetamina ou MDMA. Qual a composição correta dos três reagentes desse teste, na ordem 8A, 8B e 8C?",
+    "alternativas": {
+      "A": "Vanilina em etanol; ácido clorídrico concentrado; clorofórmio.",
+      "B": "Sulfato de cobre II; ácido acético 1%; hidróxido de sódio 2M.",
+      "C": "Formaldeído em ácido acético; ácido sulfúrico; clorofórmio.",
+      "D": "Nitroprussiato de sódio; acetaldeído puro; carbonato de sódio."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: no teste de Simon, o reagente 8A é solução de nitroprussiato de sódio, o 8B é acetaldeído e o 8C é solução de carbonato de sódio (p. 64). Erra B: sulfato de cobre II, ácido acético 1% e hidróxido de sódio compõem o teste Chen-Kao (reagentes 13A, 13B e 13C) para efedrina/pseudoefedrina. Erra C: formaldeído em ácido acético (1A) e ácido sulfúrico (1B) pertencem ao teste de Marquis. Erra D: vanilina em etanol (4A), ácido clorídrico (4B) e clorofórmio (4C) compõem o teste de Duquenois Levine.",
+    "referencia": "PDF Química Forense, p. 64",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "Para cloreto de etila, o texto descreve dois testes preliminares com reagentes distintos. Assinale a associação correta entre reagente e resultado observado.",
+    "alternativas": {
+      "A": "Iodeto de sódio (reagente 12): coloração azul que surge de imediato.",
+      "B": "Nitrato de prata (reagente 11): coloração violeta intensa.",
+      "C": "Nitrato de prata (reagente 11): turvação branca lenta.",
+      "D": "Iodeto de sódio (reagente 12): precipitado amarelo leitoso e denso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: no teste de precipitação com nitrato de prata (reagente 11), um precipitado ou turvação branca que aparece lentamente indica a presença de cloreto de etila (p. 62). Erra A: o iodeto de sódio (reagente 12) gera precipitado branco cristalino, não cor azul. Erra B: o nitrato de prata produz turvação branca, não cor violeta. Erra D: o precipitado amarelo leitoso é resultado do teste de Tanred/Mayer para cocaína, não do iodeto de sódio.",
+    "referencia": "PDF Química Forense, p. 62",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "enunciado": "No teste de Marquis (reagentes 1A + 1B) aplicado a anfetaminas e derivados, qual coloração indica a possível presença de MDMA (3,4-metilenodioximetanfetamina)?",
+    "alternativas": {
+      "A": "Coloração amarela à marrom-amarelado.",
+      "B": "Cor laranja que se torna marrom.",
+      "C": "Cor verde-amarelada evoluindo à verde.",
+      "D": "Coloração preta no resultado do teste."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta A: no teste de Marquis, a coloração preta indica possível presença de MDMA, N-etilanfetamina ou N-OH MDA (p. 60). Erra B: laranja que se torna marrom indica anfetamina ou metanfetamina. Erra C: verde-amarelada à verde indica DMA ou DOB. Erra D: amarela à marrom-amarelado indica 2,5-dimetoxi-4-etilanfetamina, e não MDMA.",
+    "referencia": "PDF Química Forense, p. 60",
+    "nivel": "medio"
+  }
+]

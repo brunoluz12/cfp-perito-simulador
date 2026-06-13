@@ -1,0 +1,459 @@
+Capítulo 7 - Testes Preliminares e Definitivos
+
+PCEB · QUÍMICA FORENSE
+Capítulo 7 — Testes Preliminares e Definitivos
+
+Laudo de constatação, amostragem, testes de cor e métodos definitivos
+
+Índice
+
+4.1 Testes Preliminares: conceito, exigência legal e aplicação prática
+
+Tabela 1 — Testes preliminares por droga/grupo
+
+Kits comerciais e instrumentação portátil
+
+4.2 Elaboração do laudo preliminar e amostragem
+
+4.3 Testes definitivos (categorias A, B e C)
+
+Síntese e Mnemônicos
+
+4.1 Testes Preliminares: conceito, exigência legal e aplicação prática (p. 45)
+
+Conceito e exigência legal. Nos termos da Lei n.º 11.343/2006 (Lei de Drogas), é essencial para a lavratura do auto de prisão em flagrante a existência do laudo de constatação da natureza e quantidade da droga apreendida, devendo ser realizado por Perito Oficial e, somente na falta deste, por pessoa idônea. Essa pessoa pode ser um policial, após ser nomeado pela autoridade policial. (p. 45)
+
+É altamente recomendado que esses testes sejam realizados por Peritos Criminais Federais e, dependendo da complexidade do caso, até por Peritos Criminais Federais da área de laboratório, devido a aspectos relacionados com amostragem, formas de disfarce de drogas e possível mistura de substâncias diversas com as drogas proscritas, que podem agir como interferentes nos testes preliminares. (p. 45)
+
+Prazo de 24 horas. Nos casos em que a logística necessária para que o perito faça o teste (deslocamento do perito até o material suspeito ou vice-versa) ponha em risco o prazo legal de 24 horas — o que poderia, em tese, prejudicar a lavratura do auto de prisão e apreensão —, os testes preliminares podem ser realizados por policial nomeado pela autoridade policial. (p. 45)
+
+A existência do laudo preliminar e quem pode emiti-lo está definido na Lei n.º 11.343/2006 e em dispositivos legais correlatos (Código de Processo Penal — CPP). Entretanto, não há regulamentação a respeito de como esse laudo preliminar deve ser elaborado. A Perícia da Polícia Federal baseia-se em modelos e guias de organismos internacionalmente reconhecidos — como o UNODC (United Nations Office on Drugs and Crime — Escritório das Nações Unidas sobre Drogas e Crime) — e na literatura científica especializada, para orientar os trabalhos do laudo preliminar e do laudo definitivo de drogas. (p. 45)
+
+Testes da UNODC. Os testes recomendados pela UNODC são baseados em evolução de cor. São testes simples, rápidos, práticos e originam bons indícios sobre a natureza do material apreendido. (p. 45)
+
+Apreensão
+material suspeito
+
+Teste preliminar
+Laudo de constatação
+prazo: 24 h
+
+Teste definitivo
+Laudo de perícia
+criminal federal
+
+Fluxo pericial: da apreensão ao laudo definitivo. O preliminar (constatação) viabiliza o flagrante em até 24 h; o definitivo estabelece a composição.
+
+Tabela 1 — Testes preliminares para identificação de drogas (p. 46-47)
+
+Tabela de testes preliminares para identificação de drogas, com resultados indicativos, possíveis interferentes e registros de falsos positivos.
+
+Droga ou grupo de drogas
+
+Teste preliminar
+
+Resultado
+
+Interferente(s)
+
+Falsos positivos
+
+Cocaína
+
+Scott modificado
+
+Cor azul indica a presença de cocaína.
+
+Compostos metálicos, ex.: sais de ferro.
+
+Heroína, metadona, lidocaína, dentre outros.
+
+Maconha e derivados
+
+Fast Blue
+
+Coloração avermelhada indica canabinoides.
+
+Idade da amostra.
+
+Patchouli e alguns óleos essenciais (kit comercial DL).
+
+Duquenois Levine (DL)
+
+Violeta na camada inferior (clorofórmica) indica presença de canabinoides.
+
+Idade da amostra.
+
+Patchouli e alguns óleos essenciais (kit comercial DL).
+
+MDMA / MDA
+
+Simon
+
+Coloração azul escuro intenso indica MDMA.
+
+Não identificados.
+
+Certos medicamentos podem reagir similarmente.
+
+Marquis
+
+Cor negra ou púrpura indica MDMA ou MDA.
+
+Não identificados.
+
+Não identificados.
+
+Anfetaminas / metanfetaminas
+
+Marquis
+
+Cor laranja que tende para marrom indica presença de anfetaminas ou metanfetaminas.
+
+Não identificados.
+
+Não identificados.
+
+Simon
+
+Metanfetamina não produz cor; anfetaminas diversas produzem tons de azul.
+
+Não identificados.
+
+Não identificados.
+
+Ópio / morfina / codeína / heroína
+
+Marquis
+
+Cor violeta à púrpura-avermelhada indica a presença de opioides.
+
+Não identificados.
+
+Não identificados.
+
+LSD
+
+Ehrlich
+
+Cor violeta que aparece após alguns minutos indica presença de LSD.
+
+Não identificados.
+
+Dihidro-LSD.
+
+Benzodiazepínicos
+
+Zimmerman
+
+Cor púrpura-avermelhada ou rosa indica a presença de benzodiazepínicos.
+
+Não identificados.
+
+Não identificados.
+
+Barbitúricos
+
+Dille-Koppanyi
+
+Cor púrpura avermelhada indica a presença de barbitúricos.
+
+Não identificados.
+
+Não identificados.
+
+Cloreto de etila (lança-perfume)
+
+Teste de chama
+
+Ao queimar produz uma chama verde.
+
+Não identificados.
+
+Alguns alquil organoclorados podem se comportar da mesma forma.
+
+Teste para cloretos
+
+O resíduo da chama produz sólido branco floculento, indicativo para cloretos.
+
+Não identificados.
+
+Alguns alquil organoclorados podem se comportar da mesma forma.
+
+Teste de ponto de ebulição
+
+Temperatura de ebulição de 12 °C.
+
+Não identificados.
+
+Não identificados.
+
+No Apêndice 1 são delineados os procedimentos para testes preliminares envolvendo diversas drogas de abuso. As formas de preparo dos reagentes utilizados nos testes de coloração são mostradas no Apêndice 2. (p. 47)
+
+🎨 Mnemônico — cores dos testes de cor
+Scott = azul → cocaína · Marquis = roxo/preto → opioides e MDMA · Ehrlich = violeta (após minutos) → LSD · Dille-Koppanyi → barbitúricos · Zimmerman → benzodiazepínicos · Fast Blue / Duquenois Levine → maconha · Simon → MDMA / anfetaminas (metanfetamina não dá cor no Simon).
+
+Kits comerciais e instrumentação portátil (p. 48-49)
+
+Em unidades de criminalística descentralizadas e em diversos procedimentos policiais podem ser utilizados também kits comerciais para identificação de drogas. Um exemplo é o kit “Mistral Security”, capaz de detectar preliminarmente cocaína (C), heroína (H), maconha (cannabis, 1 e 2), ecstasy e metanfetamina (M) e drogas de espectro geral (D4D). Esse tipo de abordagem traz vantagens, como maior portabilidade e a possibilidade de difundir uma ferramenta de investigação policial mais simples e de uso abrangente após aquisição centralizada. (p. 48)
+
+Com o crescimento de casos de novas substâncias psicoativas (NSPs), os peritos enfrentam problemas na realização de testes preliminares adequados, pois o número de reagentes necessários para cobrir essas drogas é imenso. Uma alternativa mais confiável é o uso de instrumentação analítica portátil, tais como o espectrômetro Raman ou o espectrofotômetro de FTIR (ver item 4.3). A Polícia Federal dispõe, por exemplo, de modelo de Raman portátil (ResQ™, Rigaku) para exames preliminares. (p. 48-49)
+
+Observações práticas (cuidados na execução).
+
+Quando não for possível a realização dos exames preliminares de constatação, o material deve ser encaminhado diretamente para o exame definitivo.
+
+Os exames preliminares devem ser acompanhados de um teste em branco, isto é, uma amostra que não contenha a droga investigada.
+
+Usar utensílios limpos e secos em materiais distintos ou apreendidos de indivíduos diferentes, para evitar contaminação cruzada.
+
+Os testes preliminares são apenas de caráter indicativo; deve-se considerar todas as variáveis que provocaram o teste (aspectos operacionais, suspeitas, busca e apreensão etc.).
+
+Drogas misturadas com bebidas, comidas e substâncias diversas podem gerar falsos positivos; em amostras complexas, a presença de Perito Criminal Federal com formação laboratorial pode evitar equívocos.
+
+(p. 49)
+
+PONTO CRÍTICO (cai em prova!) — Traficantes adicionam sais de ferro (materiais de coloração avermelhada) à cocaína de alta pureza para mascarar / dificultar os exames preliminares baseados em reações de coloração. Os sais de ferro são interferentes do teste de Scott. (p. 49-50)
+
+4.2 Elaboração do laudo preliminar: precauções, aspectos formais e amostragem (p. 50-52)
+
+Base normativa. A Instrução Técnica n.º 006/2006-GAB/DITEC, de 27 de julho de 2006, dispõe sobre a padronização de procedimentos e métodos para exames químico-analíticos na perícia criminal de laboratório. Também traz orientações sobre critérios de amostragem, testes preliminares recomendados em drogas de abuso, nos adulterantes mais comuns e em reagentes químicos de laboratórios de refino/produção de drogas. (p. 50)
+
+O Perito Criminal Federal designado para um exame preliminar deve, primeiramente, estar ciente de que — independentemente do tipo de droga — são necessários cuidados de segurança no manuseio de qualquer substância, para garantir sua própria segurança e a de sua equipe (detalhados na disciplina Locais de Crime). (p. 50)
+
+O registro fotográfico e a descrição de possíveis logomarcas em drogas proscritas podem relacionar apreensões realizadas em lugares e momentos diferentes (projeto de Perfil Químico de Drogas — PeQui, coordenado pela CGPRE e DITEC/INC). (p. 50)
+
+Amostragem — critérios e número de unidades
+
+A amostragem deve seguir critérios aceitos (ex.: os sugeridos na IT n.º 06/2006-DITEC). Quanto melhor a amostragem, mais representativa ela será do total apreendido. A partir da inspeção visual de cada unidade, separam-se em grupos os produtos com características em comum: embalagens (desenhos, logomarcas, número de lote); estado físico (sólido, líquido, gasoso); apresentação (cor, textura, granulação); testes químicos preliminares (narcotestes, papel de pH). Dentro de cada grupo, determina-se o número de unidades a amostrar conforme a Tabela 2. (p. 50-51)
+
+Tabela 2 — Número de unidades a amostrar (IT n.º 06/2006-DITEC) (p. 51)
+
+Número total de unidades de um grupo (n)
+
+Número de unidades a serem amostradas
+
+Se n < 10
+
+Amostrar todas as unidades do grupo.
+
+Se 10 ≤ n ≤ 100
+
+Amostrar 10 unidades do grupo, escolhidas aleatoriamente.
+
+Se n > 100
+
+Amostrar √n unidades do grupo, escolhidas aleatoriamente. O resultado de √n deve ser arredondado para o número inteiro superior mais próximo.
+
+Grupo de n unidades
+Quanto vale n?
+
+n < 10
+amostrar TODAS
+
+10 ≤ n ≤ 100
+amostrar 10
+
+n > 100
+amostrar √n (arred. p/ cima)
+
+Árvore de decisão da amostragem segundo a IT n.º 06/2006-DITEC.
+
+Regras especiais de coleta:
+
+Líquido heterogêneo em recipiente transparente: retirar uma amostra de cada fase.
+
+Líquido em recipiente que não permite visualização (opaco): coletar em pelo menos três pontos (superfície, meio e fundo).
+
+Resíduos em suporte (ex.: cocaína em balança ou pano de filtragem): não realizar amostragem — encaminhar o suporte na totalidade em embalagem adequada para exame definitivo. Se o suporte não puder ser transportado, coletar vestígios suficientes para análise.
+
+(p. 51)
+
+Tabela 3 — Quantidades mínimas de amostra por unidade (p. 52)
+
+Tipo de produto
+
+Amostra mínima por unidade*
+
+Sólidos em geral
+
+2,0 g (três colheres de sopa).
+
+Líquidos em geral
+
+200 ml (um copo).
+
+Líquido volátil (ex.: lança-perfume)
+
+Embalagem original.
+
+(p. 52) *Caso a unidade a ser amostrada possua quantidade menor que a mínima da tabela, a unidade deverá ser enviada na sua totalidade.
+
+PONTO CRÍTICO (cai em prova!) — Decore os números:
+
+Amostragem: n < 10 → todas · 10 ≤ n ≤ 100 → 10 · n > 100 → √n (arredondar para cima).
+
+Quantidade mínima: sólidos = 2,0 g (três colheres de sopa) · líquidos = 200 ml (um copo) · líquido volátil = embalagem original.
+
+Confecção do laudo preliminar e enquadramento legal
+
+O resultado dos exames preliminares deve ser relatado no laudo preliminar de constatação, documento previsto na Lei n.º 11.343/2006, art. 50. (p. 52)
+
+Art. 50 da Lei n.º 11.343/2006 (citação literal):
+
+"Art. 50. Ocorrendo prisão em flagrante, a autoridade de polícia judiciária fará, imediatamente, comunicação ao juiz competente, remetendo-lhe cópia do auto lavrado, do qual será dada vista ao órgão do Ministério Público, em 24 (vinte e quatro) horas.
+
+§ 1º Para efeito da lavratura do auto de prisão em flagrante e estabelecimento da materialidade do delito, é suficiente o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea.
+
+§ 2º O perito que subscrever o laudo a que se refere o § 1º deste artigo não ficará impedido de participar da elaboração do laudo definitivo."
+
+(p. 52)
+
+O laudo preliminar de constatação deve ser claro e conciso, relatando as características observadas no exame visual e o peso aferido, especificando se é o peso líquido (substâncias descontadas as embalagens/invólucros — preferencialmente) ou peso bruto (com embalagem/invólucro), quando as circunstâncias não permitirem aferir o peso líquido no momento do flagrante. (p. 52)
+
+Padronização do laudo. O preâmbulo do laudo preliminar de constatação, na Polícia Federal, está regulamentado pela Portaria n.º 002/2007-GAB/INC (16/01/2007). A padronização de formato e diagramação foi regulamentada pela Portaria n.º 2.048/2011-DG/DPF (10/01/2011). Devem ser relatados no texto os resultados dos exames preliminares e as quantidades separadas para os exames definitivos, sendo aconselhável citar o enquadramento legal das substâncias investigadas. (p. 52)
+
+4.3 Testes definitivos em drogas de uso abusivo (p. 53-55)
+
+Conceito. Havendo resultado positivo nos exames preliminares, é necessária a realização dos exames definitivos, que estabelecem de forma mais precisa a composição do material apreendido. O resultado é relatado no laudo de perícia criminal federal. (p. 53)
+
+Nada impede que materiais com resultado negativo no preliminar sejam encaminhados para exames definitivos, devido a fatores como suspeita de adição de interferentes, complexidade da matriz, inexistência de testes para substâncias específicas ou para dirimir dúvidas no processo investigativo. (p. 53)
+
+Uma das formas de elaborar os laudos definitivos é seguir a Instrução Técnica n.º 06/2006-SEPLAB/INC/DITEC (27/07/2006), que se baseou nos métodos preconizados pelo SWGDRUG (Scientific Working Group for the Analysis of Seized Drugs). As recomendações dividem os exames, conforme seu poder de discriminação, em três categorias (A, B e C). (p. 53)
+
+Tabela 4 — Classificação dos métodos analíticos por poder de discriminação (SWGDRUG / IT n.º 06/2006) (p. 53)
+
+Categoria A
+
+Categoria B
+
+Categoria C
+
+Infravermelho (IV)
+
+Eletroforese capilar (EC)
+
+Testes de cor e precipitação
+
+Espectrometria de massas (EM)
+
+Cromatografia gasosa (CG)
+
+Espectroscopia de fluorescência
+
+Ressonância magnética nuclear (RMN)
+
+Espectrometria de mobilidade de íons
+
+Imunoensaios
+
+Espectroscopia Raman
+
+Cromatografia líquida de alta eficiência (CLAE)
+
+Propriedades físicas e físico-químicas
+
+Difratometria de raios X
+
+Microcristalização
+
+Espectroscopia ultravioleta-visível (UV/visível)
+
+—
+
+Marcadores farmacológicos
+
+—
+
+—
+
+Cromatografia de camada delgada (CCD)
+
+—
+
+—
+
+Apenas cannabis: exame botânico morfológico
+
+—
+
+Regras de combinação (IT n.º 06/2006)
+
+PONTO CRÍTICO (cai em prova!) — Regras de combinação A/B/C:
+
+Quando se usa um método validado do tipo A: deve ser realizado ao menos um teste de outra categoria (A, B ou C).
+
+Quando não for realizado teste de categoria A: devem ser conduzidos ao menos três testes de outras categorias, sendo que dois deles devem ser da categoria B (mas não relacionados entre si).
+
+Análise macroscópica e microscópica da cannabis pode ser considerada teste da categoria B.
+
+Botânicos podem identificar a planta do gênero cannabis (e material vegetal relacionado) usando somente as características morfológicas da planta.
+
+Técnicas hifenadas (CG/EM ou CLAE/DAD-UV) são consideradas técnicas separadas (desde que validadas).
+
+(p. 54)
+
+🧪 Mnemônico — combinação de métodos
+Com método A → A + pelo menos 1 (A, B ou C).
+
+Sem método A → 3 testes, sendo 2 da B (não relacionados entre si).
+
+Equipamentos e controle de qualidade
+
+Num laboratório de química forense (LQF) da PF com CG/EM (cromatógrafo gasoso acoplado a espectrômetro de massas) é possível identificar diversas drogas listadas na Portaria n.º 344-SVS/MS; contudo, nem todas as substâncias podem ser analisadas em condições normais de CG — algumas podem degradar no processo. (p. 54)
+
+Outro equipamento comum é o FTIR (infravermelho com transformada rápida de Fourier): técnica robusta, normalmente mais barata que o CG/EM, com análises à temperatura ambiente (sem degradação térmica), mas dificultada em misturas de compostos com grupos funcionais na mesma região de interesse. (p. 54)
+
+Alguns LQF dispõem de equipamentos de maior poder de discriminação, como HRMS (espectrômetros de massa de alta resolução) e MS/MS (espectrometria de massas em tandem), muito úteis na identificação de NSPs. Para drogas comuns (cocaína, maconha), a CCD (cromatografia de camada delgada) gera resultados confiáveis. (p. 54)
+
+Garantia e controle de qualidade / Contraprova. A confiabilidade é alcançada com procedimentos de garantia e controle de qualidade: uso de duas amostras para análise, controles de padrões e brancos. Deve-se manter material como contraprova para eventual nova perícia (salvo quando a quantidade ou conservação não permitirem). Todos os registros de laboratório (fotografias, cromatograma, fichas de análises) devem ser arquivados, de forma que os resultados sejam passíveis de revisão. Em caso de dúvida, novo exame pode ser requerido pelo Ministério Público ou Poder Judiciário. (p. 55)
+
+Síntese e Mnemônicos
+
+📦 Mnemônico — amostragem
+"<10 tudo / 10-100 dez / >100 raiz de n" (e √n arredonda para cima).
+
+⚖️ Mnemônico — quantidades mínimas
+Sólido = 2,0 g (3 colheres de sopa) · Líquido = 200 ml (1 copo) · Volátil = embalagem original.
+
+🩸 Mnemônico — cocaína e Scott
+Scott → azul → cocaína; mas sais de ferro (avermelhados) mascaram o teste; falsos positivos: heroína, metadona, lidocaína.
+
+Tema
+Ponto-chave
+
+Exigência legal
+Lei 11.343/2006: laudo de constatação para o flagrante; Perito Oficial ou, na falta, pessoa idônea (policial nomeado); prazo de 24 h.
+
+Natureza dos testes
+UNODC: evolução de cor; simples, rápidos, práticos; caráter apenas indicativo.
+
+Cores principais
+Scott=azul (cocaína); Marquis=negra/púrpura/violeta (MDMA, anfetaminas, opioides); Ehrlich=violeta (LSD); Zimmerman (benzo); Dille-Koppanyi (barbitúricos); Fast Blue/Duquenois (maconha).
+
+Lança-perfume (cloreto de etila)
+Chama verde; resíduo branco floculento (cloretos); ebulição a 12 °C.
+
+Cuidados práticos
+Teste em branco; utensílios limpos e secos; evitar contaminação cruzada; sais de ferro mascaram cocaína.
+
+Amostragem (Tab. 2)
+n<10 → todas; 10≤n≤100 → 10; n>100 → √n (arredondar p/ cima).
+
+Quantidades mínimas (Tab. 3)
+Sólido 2,0 g; líquido 200 ml; volátil embalagem original; abaixo do mínimo → enviar tudo.
+
+Laudo preliminar
+IT 006/2006-GAB/DITEC; art. 50 (Lei 11.343/2006); peso líquido vs bruto; Portarias 002/2007-GAB/INC e 2.048/2011-DG/DPF.
+
+Testes definitivos
+Laudo de perícia; IT 06/2006 (base SWGDRUG); categorias A, B, C (Tab. 4).
+
+Regras de combinação
+Com A: +1 (A/B/C). Sem A: 3 testes, sendo 2 da B não relacionados. Hifenadas contam separadas. Cannabis macro/micro = B.
+
+Equipamentos
+CG/EM, FTIR (mais barato, sem degradação térmica), HRMS, MS/MS (NSPs), CCD.
+
+Qualidade / contraprova
+Duas amostras, padrões e brancos; manter contraprova; arquivar registros; novo exame por MP ou Judiciário em caso de dúvida.

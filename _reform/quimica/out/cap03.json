@@ -1,0 +1,170 @@
+[
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Existem três espécies distintas do gênero Cannabis. Qual delas é apontada no texto como a mais popular nas Américas?",
+    "alternativas": {
+      "A": "Cannabis indica, a mais difundida no mundo todo",
+      "B": "Cannabis sativa linneu, popular nas Américas",
+      "C": "Cannabis ruderalis, de cultivo predominante",
+      "D": "Cannabis afghanica, de clima tropical seco"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que existem três espécies (sativa, indica e ruderalis) e que a mais popular nas Américas é a Cannabis sativa linneu (p. 25-27). A errada (indica) é uma das três espécies, mas não a mais popular nas Américas. C errada: ruderalis também é espécie do gênero, porém não a mais popular nas Américas. D errada: 'afghanica' não consta entre as três espécies citadas (sativa, indica, ruderalis).",
+    "referencia": "PDF Química Forense, p. 25",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Sobre os compostos canabinoides da maconha, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O CBD (canabidiol) é o principal componente psicoativo da maconha.",
+      "B": "O CBN (canabinol) é o composto de uso medicinal, incluído na Lista C1.",
+      "C": "O THC (delta-9-tetra-hidrocanabinol) é o psicoativo da maconha.",
+      "D": "Os três canabinoides principais da maconha são THC, CBD e cafeína."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto afirma que o THC (delta-9-trans-tetrahidrocanabinol) é o principal componente psicoativo da maconha (p. 26-27). A errada: o componente psicoativo é o THC, não o CBD; o CBD está ligado ao uso medicinal. B errada: o composto associado ao uso medicinal/Lista C1 é o CBD, não o CBN. D errada: os três canabinoides principais são THC, CBN e CBD; cafeína não é canabinoide.",
+    "referencia": "PDF Química Forense, p. 26",
+    "nivel": "facil"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "De acordo com o texto, em que parte da planta de maconha se concentra a maior quantidade de princípios ativos?",
+    "alternativas": {
+      "A": "Nas raízes e no caule lenhoso da robusta planta masculina.",
+      "B": "Nas folhas e, sobretudo, nas inflorescências femininas.",
+      "C": "De forma exclusiva no abundante pólen da planta masculina.",
+      "D": "Nas sementes ovais e maduras dos cachos femininos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que, embora todas as partes contenham substâncias psicoativas, a maior concentração está nas folhas e principalmente nas inflorescências dos espécimes femininos (sinsemilla) (p. 25-27). A errada: não são raízes/caule da planta masculina. C errada: o pólen é produzido pela planta masculina, mas não é onde se concentra a maior quantidade de ativos. D errada: a maior concentração está nas inflorescências femininas, não nas sementes.",
+    "referencia": "PDF Química Forense, p. 25",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "O texto destaca como ponto crítico que a concentração de THC na planta de maconha (vegetal bruto) varia em qual faixa?",
+    "alternativas": {
+      "A": "0,5% a 4%",
+      "B": "9% a 27%",
+      "C": "cerca de 10%",
+      "D": "20% a 80%"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto indica que a concentração de THC na planta varia de 0,5% a 4% (p. 26-27). B errada: 9% a 27% é a faixa do skunk. C errada: cerca de 10% é o teor do haxixe. D errada: 20% a 80% é a faixa do óleo de haxixe.",
+    "referencia": "PDF Química Forense, p. 26",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "O skunk é descrito no texto como um híbrido de cannabis. Qual característica corresponde corretamente ao que foi descrito?",
+    "alternativas": {
+      "A": "É um derivado resinoso obtido por extração com solventes, em tabletes escuros e oleosos de odor forte.",
+      "B": "Resulta do cruzamento entre variedades de cannabis, com teor de THC maior e floração indoor em 2 meses.",
+      "C": "Possui teor de THC inferior ao da planta comum e, por esse motivo, é comercializado como produto medicinal legal.",
+      "D": "É a forma ingerida da maconha, preparada em tinturas alcoólicas à base de folhas e flores secas da planta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto descreve o skunk como plantas com concentração maior de THC, derivadas do cruzamento entre variedades de cannabis, com ciclo de floração completado em cerca de dois meses via tecnologia de cultivo (p. 27-28). A errada: a substância resinosa em tabletes obtida por extração é o haxixe, não o skunk. C errada: o skunk tem teor de THC maior (9% a 27%), não inferior. D errada: tinturas alcoólicas são uma forma de uso ingerida, não o skunk.",
+    "referencia": "PDF Química Forense, p. 27",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Considerando os teores de THC apresentados no texto, qual é a ordem crescente correta entre os materiais?",
+    "alternativas": {
+      "A": "Óleo de haxixe < skunk < haxixe < planta bruta",
+      "B": "Haxixe < planta < óleo de haxixe < skunk",
+      "C": "Planta < haxixe < skunk < óleo de haxixe",
+      "D": "Skunk < óleo de haxixe < planta < haxixe"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto traz a régua comparativa planta (0,5-4%) < haxixe (~10%) < skunk (9-27%) < óleo de haxixe (20-80%) (p. 28). A errada: inverte completamente a ordem. B errada: posiciona haxixe abaixo da planta e troca skunk com óleo. D errada: coloca skunk como menor teor e planta acima do haxixe, contrariando a régua.",
+    "referencia": "PDF Química Forense, p. 28",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Segundo o texto, a concentração de THC no óleo de haxixe situa-se geralmente em qual faixa?",
+    "alternativas": {
+      "A": "0,5% a 4%",
+      "B": "cerca de 10%",
+      "C": "9% a 27%",
+      "D": "20% a 80%"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta D: o texto afirma que a concentração de THC no óleo de haxixe situa-se, geralmente, na faixa de 20% a 80% (p. 28). A errada: 0,5% a 4% é o teor do vegetal bruto. B errada: cerca de 10% é o teor do haxixe. C errada: 9% a 27% é a faixa do skunk.",
+    "referencia": "PDF Química Forense, p. 28",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Sobre o haxixe descrito no texto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É uma substância resinosa marrom escura ou preta, da extração das partes superiores da cannabis.",
+      "B": "É obtido exclusivamente da planta masculina de cannabis, nunca da feminina, por extração resinosa.",
+      "C": "Possui teor de THC inferior ao do vegetal bruto, em torno de 1%, sendo a forma mais fraca da droga.",
+      "D": "Apresenta-se sempre líquido e oleoso, de odor característico, jamais sob a forma de tabletes ou bolotas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto descreve o haxixe como substância resinosa de coloração marrom escura ou preta, derivada da extração das partes superiores do vegetal de cannabis (p. 28). B errada: o haxixe pode derivar do vegetal feminino ou do masculino, não exclusivamente do masculino. C errada: o haxixe tem teor de THC de cerca de 10%, superior ao vegetal bruto (0,5-4%). D errada: o haxixe apresenta-se sob a forma de tabletes ou bolotas escuras; a forma líquida oleosa com odor característico é o óleo de haxixe.",
+    "referencia": "PDF Química Forense, p. 28",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Em relação aos efeitos da cannabis descritos no texto, qual associação entre dosagem e efeito está correta?",
+    "alternativas": {
+      "A": "Baixas dosagens de THC tendem a provocar intensos efeitos alucinógenos, paranoia e falhas de memória.",
+      "B": "Dosagens maiores de THC produzem apenas sensação de bem-estar, relaxamento e aumento de apetite.",
+      "C": "Baixas dosagens de THC dão bem-estar e relaxamento; dosagens maiores causam falhas de memória.",
+      "D": "Os efeitos independem por completo da dosagem e da qualidade da planta de cannabis que é consumida."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta C: o texto associa baixas dosagens a bem-estar, relaxamento e alteração da percepção, e dosagens maiores a falhas de atenção/memória, alucinação e paranoia (p. 29). A errada: efeitos alucinógenos e paranoia são de dosagens maiores, não baixas. B errada: bem-estar e apetite são efeitos de baixas dosagens, não de dosagens maiores. D errada: o texto afirma expressamente que os efeitos dependem da dosagem e da qualidade da planta.",
+    "referencia": "PDF Química Forense, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Conforme os aspectos legais descritos no texto, em quais listas estão enquadrados, respectivamente, a Cannabis sativa L. (planta), o THC e o CBD?",
+    "alternativas": {
+      "A": "Lista E, Lista F2 e Lista C1.",
+      "B": "Lista F2, Lista E e Lista A3.",
+      "C": "Lista C1, Lista A3 e Lista E.",
+      "D": "Lista A3, Lista C1 e Lista F2."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto enquadra Cannabis sativa L. na Lista E (plantas proscritas), o THC na Lista F2 (psicotrópicas proscritas) e o CBD na Lista C1 (controle especial) (p. 30). B errada: troca as listas da planta e do THC e atribui A3 ao CBD. C errada: inverte as associações, colocando a planta como C1. D errada: associa a planta à A3 e o THC à C1, contrariando o texto.",
+    "referencia": "PDF Química Forense, p. 30",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Segundo o texto, qual norma viabilizou o registro do primeiro medicamento à base de CBD e THC no Brasil, e como se chama esse medicamento?",
+    "alternativas": {
+      "A": "A RDC n.º 03/2015, que incluiu o CBD na Lista C1, viabilizou o registro do medicamento Sativex no Brasil.",
+      "B": "A RDC n.º 130/2016 incluiu derivados de Cannabis no adendo 2 da Lista A3, viabilizando o Mevatyl.",
+      "C": "A RDC n.º 39/2012, que atualizou a Lista E das plantas proscritas, viabilizou o registro do Mevatyl.",
+      "D": "A recente RDC n.º 1.015/2026 viabilizou o registro do primeiro medicamento brasileiro, o Mevatyl."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que a RDC n.º 130/2016 incluiu medicamentos com derivados de Cannabis (com até 30 mg/mL de THC e CBD) no adendo 2 da Lista A3 e viabilizou o registro do primeiro medicamento à base de CBD e THC no Brasil, o Mevatyl (p. 30). A errada: a RDC 03/2015 tratou da inclusão do CBD na Lista C1, não do registro do medicamento, que se chama Mevatyl. C errada: a RDC 39/2012 atualizou a Portaria/Lista E da planta, não viabilizou o registro do medicamento. D errada: a RDC 1.015/2026 é o novo marco regulatório recente, mas o registro do primeiro medicamento (Mevatyl) decorreu da RDC 130/2016.",
+    "referencia": "PDF Química Forense, p. 30",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Com base na descrição botânica da planta de maconha apresentada no texto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Pertence à família Cannabaceae, é unissexuada e dioica, atingindo de 1,5 m a 3,0 m de altura.",
+      "B": "Pertence à família Solanaceae, é hermafrodita e pode atingir até 10 m de altura na fase adulta.",
+      "C": "Suas folhas possuem sempre número par de folíolos, de bordas lisas e sem pelos em ambas as faces.",
+      "D": "É uma planta monoica, na qual o mesmo espécime produz tanto o pólen quanto as sementes ovais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta A: o texto descreve as plantas do gênero Cannabis como arbustos da família Cannabaceae, unissexuadas e dioicas, podendo atingir de 1,5 m a 3,0 m de altura (p. 25-27). B errada: a família é Cannabaceae, não Solanaceae, e a planta é unissexuada/dioica (não hermafrodita) com altura de 1,5 a 3,0 m. C errada: o número de folíolos é ímpar (3, 5, 7 e até 11) e as bordas são serrilhadas e cobertas por pelos na face superior. D errada: a planta é dioica (sexos separados em plantas distintas), não monoica; a planta feminina produz as sementes e a masculina, o pólen.",
+    "referencia": "PDF Química Forense, p. 25",
+    "nivel": "dificil"
+  }
+]

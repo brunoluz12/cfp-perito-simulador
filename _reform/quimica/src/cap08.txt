@@ -1,0 +1,498 @@
+Apêndices - Testes e Reagentes
+
+PCEB · QUÍMICA FORENSE
+Apêndices — Testes Preliminares e Reagentes
+
+Procedimentos passo a passo e preparo dos reagentes químicos
+
+Índice
+
+Apêndice 1 — Testes preliminares por substância (p. 57–62)
+
+Morfina, Codeína e Heroína
+
+Cannabis (maconha e derivados)
+
+Cocaína
+
+Anfetamina / Metanfetamina
+
+LSD
+
+Barbitúricos
+
+Diazepam e benzodiazepínicos
+
+Cloreto de etila
+
+Apêndice 2 — Preparação dos reagentes químicos (p. 63–66)
+
+Tabela completa de reagentes numerados
+
+Síntese — Teste → Reagente → Cor → Droga
+
+Apêndice 1 — Testes Preliminares para drogas de abuso (p. 57)
+
+Morfina, Codeína e Heroína (p. 57–58)
+
+Teste n.º 1 (reagentes 1A + 1B)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar uma gota do reagente 1A.
+
+Adicionar três gotas do reagente 1B.
+
+RESULTADO: uma coloração de violeta à púrpura-avermelhado indica a presença de morfina, codeína ou heroína. (p. 57)
+
+Teste n.º 2 (reagente 3 — ácido nítrico)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar uma gota do reagente 3.
+
+RESULTADO (distinção pelas cores):
+
+Cor amarela que vira lentamente verde-claro → possível presença de heroína.
+
+Cor laranja que se torna rapidamente vermelha e logo lentamente se torna amarelo → possível presença de morfina.
+
+Cor laranja que lentamente se torna amarela → provável presença de codeína.
+
+(p. 57–58)
+
+Teste n.º 3 (reagente 2 — sulfato férrico)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar uma gota do reagente 2.
+
+RESULTADO: a cor vermelha indica a provável presença de morfina. (p. 58)
+
+Fig. 1 — Reação colorimétrica em placa de spot indicando presença de opioides (morfina, codeína ou heroína). (p. 57)
+
+Cannabis (maconha e derivados) (p. 58)
+
+Teste n.º 1 — Teste do Fast Blue "B" Salt (reagente 6 + Fast Blue B Salt)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em um tubo de ensaio.
+
+Adicionar 15 gotas (0,7 ml) do reagente 6 e agitar o tubo durante um minuto.
+
+Adicionar uma pequena quantidade (do tamanho de uma cabeça de fósforo) do reagente "Fast Blue B Salt", agitar e deixar em repouso 2–3 minutos.
+
+CUIDADO CANCERÍGENO: o reagente "Fast Blue B Salt" é cancerígeno. (p. 58)
+
+RESULTADO: cor avermelhada ou violácea indica a presença de cannabis. (p. 58)
+
+Teste n.º 2 — Teste de Duquenois Levine (reagentes 4A + 4B + 4C)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em um tubo de ensaio.
+
+Adicionar 10 gotas (0,5 ml) do reagente 4A e agitar o tubo durante um minuto.
+
+Adicionar 10 gotas (0,5 ml) do reagente 4B, agitar durante uns segundos e deixar em repouso alguns minutos.
+
+Se ao final de 2–3 minutos aparecer alguma cor, adicionar 10 gotas do reagente 4C e agitar suavemente a mistura.
+
+RESULTADO: cor violeta na camada inferior (clorofórmio) indica a presença de cannabis. (p. 58)
+
+Cocaína (p. 59–60)
+
+Teste n.º 1 — Teste de Scott acidificado (reagente 5)
+
+Procedimento:
+
+Colocar uma pequena quantidade (do tamanho de uma cabeça de fósforo) da substância suspeita em uma placa de spot.
+
+Moer a amostra com um bastão de vidro ou uma espátula.
+
+Adicionar uma gota do reagente 5.
+
+RESULTADO: o aparecimento de cor azul indica a possível presença de cocaína. (p. 59)
+
+NÃO É DEFINITIVO: a metadona, heroína, lidocaína e alguns outros compostos também apresentam cor azul neste teste, portanto ele não pode ser definitivo. São necessários exames definitivos e a emissão de laudo definitivo, pois o teste preliminar pode resultar positivo para substâncias diversas da cocaína, porém quimicamente semelhantes (como a lidocaína e a cafeína). (p. 59)
+
+Teste n.º 2 — Teste de benzoato de metila (reagente 6, comparar com reagente 21)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em um tubo de ensaio.
+
+Adicionar aproximadamente dez gotas do reagente 6.
+
+Agitar o tubo de ensaio durante dez segundos.
+
+Comparar o odor com o do reagente 21 (referência).
+
+RESULTADO: se o odor da amostra é igual ao da amostra de benzoato de metila tomada como referência, isto indica a provável presença de cocaína. (p. 59)
+
+Observação: parte da população não sente o odor de benzoato de metila. Por essa razão, é necessário ter o reagente de referência (reagente 21). (p. 59)
+
+Teste n.º 3 — Teste de Tanred / Mayer (reagente 7)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em um tubo de ensaio.
+
+Adicionar cinco gotas de água e agitar o tubo durante alguns segundos.
+
+Adicionar duas gotas do reagente 7.
+
+RESULTADO: se se formar um precipitado amarelo leitoso indica a possível presença de cocaína. (p. 60)
+
+Fig. 2 — Reação colorimétrica em placa de spot indicando presença de cocaína. (p. 59)
+
+Anfetamina / Metanfetamina (derivados e análogos) (p. 60–61)
+
+Teste n.º 1 — Teste de Marquis (reagentes 1A + 1B)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar uma gota do reagente 1A.
+
+Adicionar duas gotas do reagente 1B.
+
+RESULTADO (variações de cor):
+
+Cor laranja que se torna marrom → possível presença de anfetamina ou metanfetamina.
+
+Coloração amarela à marrom-amarelado → provável presença de 2,5-dimetoxi-4-etilanfetamina.
+
+Cor verde-amarelada à verde → possível presença de 2,5-dimetoxi-anfetamina (DMA) ou 2,5-dimetóxi-4-bromoanfetamina (DOB).
+
+Coloração preta → possível presença de 3,4-metilenodioximetanfetamina (MDMA) ou N-etilanfetamina ou N-hidroxietilanfetamina (N-OH MDA).
+
+(p. 60)
+
+Obs.: ecstasy ou êxtase é um dos nomes vulgares de MDMA. Entretanto, atualmente, a denominação de êxtase tem sido estendida a outros compostos anfetamínicos/alucinógenos que apresentam estrutura química semelhante. (p. 60)
+
+Teste n.º 2 — Teste de ácido sulfúrico (reagente 1B)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar duas gotas do reagente 1B.
+
+RESULTADO: não deve aparecer nenhuma cor na presença de anfetamina e metanfetamina. (p. 61)
+
+Obs.: este reagente é útil para diferenciar a anfetamina e a metanfetamina de outros derivados; a anfetamina e a metanfetamina não produzem nenhuma cor com estes reagentes, enquanto muitos outros derivados anfetamínicos reagem produzindo diversas cores. (p. 61)
+
+Teste n.º 3 — Teste de Simon (reagentes 8A + 8B + 8C)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar uma gota do reagente 8A.
+
+Adicionar uma gota do reagente 8B.
+
+Adicionar uma gota do reagente 8C.
+
+RESULTADO: cor azul indica a possível presença de metanfetamina ou MDMA (êxtase). (p. 61)
+
+Fig. 3 — Reação do teste de Marquis indicando possível presença de anfetaminas, metanfetaminas ou compostos correlatos. (p. 60)
+
+LSD (p. 61)
+
+Teste n.º 1 — Teste de Ehrlich (reagente 9)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar duas gotas do reagente 9.
+
+RESULTADO: cor violeta que aparece em alguns minutos indica a possível presença de LSD. (p. 61)
+
+Barbitúricos (p. 61–62)
+
+Teste n.º 1 — Teste de Dille-Koppanyi (reagentes 10A + 10B)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar três gotas do reagente 10A.
+
+Adicionar três gotas do reagente 10B.
+
+RESULTADO: cor púrpura-avermelhada indica a possível presença de barbitúricos. (p. 62)
+
+Diazepam e outros derivados benzodiazepínicos (p. 62)
+
+Teste n.º 1 — Teste de Zimmerman (reagentes 23A + 23B)
+
+Procedimento:
+
+Colocar uma pequena quantidade da substância suspeita em uma placa de spot.
+
+Adicionar três gotas do reagente 23A.
+
+Adicionar três gotas do reagente 23B.
+
+RESULTADO: cor púrpura avermelhada indica a possível presença de diazepam e alguns derivados benzodiazepínicos. (p. 62)
+
+Cloreto de etila (p. 62)
+
+Teste n.º 1 — Precipitação com nitrato de prata (reagente 11)
+
+Procedimento:
+
+Colocar 2 ml do reagente 11 num tubo de ensaio.
+
+Adicionar duas a três gotas do líquido suspeito. Agitar suavemente.
+
+RESULTADO: um precipitado ou turvação branca que aparece lentamente indica a presença de cloreto de etila. (p. 62)
+
+Teste n.º 2 — Teste do iodeto de sódio (reagente 12)
+
+Procedimento:
+
+Colocar 1 ml do reagente 12 em um tubo de ensaio.
+
+Adicionar duas a três gotas do líquido suspeito. Agitar suavemente e deixar em repouso por alguns minutos.
+
+RESULTADO: um precipitado branco cristalino que aparece lentamente indica a presença de cloreto de etila. (p. 62)
+
+Mnemônico 1 — Teste → Droga
+S-M-E-D-Z: Scott = cocaína · Marquis = opioides e anfetaminas · Ehrlich = LSD · Dille-Koppanyi = barbitúricos · Zimmerman = benzodiazepínicos.
+
+Mnemônico 2 — Cannabis tem dois testes
+"Fast & Duquenois": Fast Blue B Salt (avermelhada/violácea, CUIDADO CANCERÍGENO) e Duquenois Levine (violeta na camada inferior de clorofórmio) → ambos para cannabis.
+
+Mnemônico 3 — A cor "azul" enigmática
+Azul aparece em dois lugares: Scott (cocaína — mas não definitivo) e Simon (metanfetamina/MDMA). No ácido sulfúrico a anfetamina e a metanfetamina não dão cor — a ausência de cor é a "pista".
+
+Mnemônico 4 — Púrpura-avermelhada repetida
+A coloração púrpura-avermelhada aparece em três testes: opioides (Teste 1), barbitúricos (Dille-Koppanyi) e benzodiazepínicos (Zimmerman). Distinga pelos reagentes usados.
+
+Paleta: Teste → Cor → Droga
+
+Scott
+Azul
+Cocaína
+
+Marquis
+Laranja→marrom / violeta
+Opioides / Anfetaminas
+
+Ehrlich
+Violeta
+LSD
+
+Simon
+Azul
+Metanf. / MDMA
+
+Dille-Koppanyi
+Púrpura-avermelhada
+Barbitúricos
+
+Zimmerman
+Púrpura avermelhada
+Benzodiazepínicos
+
+Fast Blue / Duquenois
+Avermelhada/violácea · violeta
+Cannabis
+
+Prata / Iodeto
+Precipitado branco
+Cloreto de etila
+
+Atenção: Scott (azul) NÃO é definitivo — metadona, heroína e lidocaína também dão azul.
+No ácido sulfúrico (reagente 1B), anfetamina e metanfetamina NÃO produzem cor.
+
+Paleta de cores associando cada teste preliminar à cor de resultado e à droga correspondente (p. 57–62).
+
+Apêndice 2 — Preparação dos Reagentes Químicos (p. 63–66)
+
+Reagentes numerados utilizados nos testes preliminares, com suas composições e modo de preparo, exatamente como descritos no PDF.
+
+Reagente nº
+Composição / Preparo
+
+1A
+Solução de formaldeído em ácido acético (adiciona-se 8 a 10 gotas de solução de formaldeído 37% em 10 ml de ácido acético glacial). (p. 63)
+
+1B
+Ácido sulfúrico concentrado. (p. 63)
+
+2
+Sulfato férrico (dissolve-se 5 g de sulfato férrico em 100 ml de água). (p. 63)
+
+3
+Ácido nítrico concentrado. (p. 63)
+
+4A
+Reagente de Duquenois Levine (dissolve-se 2 g de vanilina em 100 ml de etanol 95%, então adiciona-se 2,5 ml de acetaldeído). (p. 63)
+
+4B
+Ácido clorídrico concentrado. (p. 63)
+
+4C
+Clorofórmio. (p. 63)
+
+5
+Teste de Scott — misturar em balão volumétrico de 100 ml soluções de cloreto de cobalto II hexahidratado (1 g em 3 ml de água) e tiocianato de potássio (1,5 g em 3 ml de água) e acrescentar 90 ml de água destilada. Em seguida adicionar 1 ml de ácido acético glacial e por fim completar o volume com água destilada. (p. 63–64)
+
+6
+Hidróxido de potássio em metanol (dissolve-se 5 g de hidróxido de potássio em 100 ml de etanol absoluto). (p. 63–64)
+
+7
+Reativo de Tanred (solução de 13,5 g de cloreto de mercúrio II, 33,2 g de iodeto de potássio, 200 ml de ácido acético glacial e 1000 ml de água destilada). (p. 64)
+
+8A
+Solução de nitroprussiato de sódio (dissolve-se 0,9 g de nitroprussiato de sódio em 90 ml de água). (p. 64)
+
+8B
+Acetaldeído. (p. 64)
+
+8C
+Solução de carbonato de sódio (dissolve-se 2 g de carbonato de sódio em 100 ml de água). (p. 64)
+
+9
+Reagente de Ehrlich (dissolve-se 1 g de benzaldeído 4-dimetilamina em 10 ml de metanol, então cuidadosamente adiciona-se 10 ml do ácido orto-fosfórico concentrado). (p. 65)
+
+10A
+Solução de acetato de cobalto em metanol (dissolve-se 0,1 g de tetrahidreto de acetato de cobalto (II) em 100 ml de metanol absoluto, então adiciona-se 0,2 ml de ácido acético glacial). (p. 65)
+
+10B
+Solução de isopropilamina em metanol (mistura-se 5 ml de isopropilamina com 95 ml de metanol absoluto). (p. 65)
+
+11
+Solução de nitrato de prata 2% em etanol (dissolve-se 2 g de nitrato de prata em 100 ml de etanol 95%). (p. 65)
+
+12
+Solução de iodeto de sódio em etanol (dissolve-se 2 g de NaI em 100 ml de acetona). (p. 65)
+
+13A
+Teste Chen-Kao (efedrina/pseudoefedrina) — solução aquosa de ácido acético 1%. (p. 66)
+
+13B
+Solução de sulfato de cobre II (dissolve-se 1 g de CuSO₄ (II) em 100 ml de água). (p. 66)
+
+13C
+Solução de hidróxido de sódio 2M (dissolve-se 8 g de NaOH em 100 ml de água). (p. 66)
+
+20
+Solução de fenolftaleína (solução formada por 1 g de fenolftaleína, 50 ml de etanol 96% e 100 ml de água destilada) — usada no teste de carbonatos e bicarbonatos. (p. 66)
+
+21
+Benzoato de metila (referência de odor para o teste de cocaína). (p. 64)
+
+23A
+Solução alcoólica de 1,3-dinitrobenzeno (dissolve-se 1,0 g de 1,3-dinitrobenzeno em 100 ml de metanol). (p. 65)
+
+23B
+Solução de hidróxido de potássio (dissolve-se 15 g de hidróxido de potássio em 100 ml de água). (p. 65)
+
+Testes adicionais citados no Apêndice 2:
+
+Efedrina / Pseudoefedrina — Teste Chen-Kao: usa os reagentes 13A (ácido acético 1%), 13B (sulfato de cobre II) e 13C (hidróxido de sódio 2M). (p. 66)
+
+Carbonatos e bicarbonatos: usa o reagente 4B (ácido clorídrico concentrado) e o reagente 20 (solução de fenolftaleína). (p. 66)
+
+Síntese — Teste → Reagente → Cor → Droga (p. 57–62)
+
+Teste
+Reagente(s)
+Cor / Resultado
+Droga indicada
+
+Teste n.º 1 (opioides)
+1A + 1B
+Violeta à púrpura-avermelhado
+Morfina, codeína ou heroína
+
+Teste n.º 2 (ácido nítrico)
+3
+Cores distintas (amarelo→verde / laranja→vermelho→amarelo / laranja→amarelo)
+Heroína / morfina / codeína
+
+Teste n.º 3 (sulfato férrico)
+2
+Vermelha
+Morfina
+
+Fast Blue "B" Salt
+6 + Fast Blue B Salt (cancerígeno)
+Avermelhada ou violácea
+Cannabis
+
+Duquenois Levine
+4A + 4B + 4C
+Violeta na camada inferior (clorofórmio)
+Cannabis
+
+Scott acidificado
+5
+Azul (não definitivo)
+Cocaína
+
+Benzoato de metila
+6 (comparar com 21)
+Odor igual ao da referência
+Cocaína
+
+Tanred / Mayer
+7
+Precipitado amarelo leitoso
+Cocaína
+
+Marquis
+1A + 1B
+Laranja→marrom (e variações p/ DOB, DMA, MDMA)
+Anfetamina / metanfetamina e derivados
+
+Ácido sulfúrico
+1B
+Nenhuma cor
+Anfetamina e metanfetamina (diferenciação)
+
+Simon
+8A + 8B + 8C
+Azul
+Metanfetamina ou MDMA (êxtase)
+
+Ehrlich
+9
+Violeta (em alguns minutos)
+LSD
+
+Dille-Koppanyi
+10A + 10B
+Púrpura-avermelhada
+Barbitúricos
+
+Zimmerman
+23A + 23B
+Púrpura avermelhada
+Diazepam / benzodiazepínicos
+
+Nitrato de prata
+11
+Precipitado / turvação branca
+Cloreto de etila
+
+Iodeto de sódio
+12
+Precipitado branco cristalino
+Cloreto de etila
+
+Ponto-chave para a prova: os testes preliminares (colorimétricos) são presuntivos. A confirmação inequívoca da droga exige exames definitivos e laudo definitivo, especialmente porque substâncias quimicamente semelhantes (como lidocaína e cafeína) podem dar resultado positivo no teste de Scott. (p. 59)

@@ -1,0 +1,228 @@
+Capítulo 6 - Novas Substâncias Psicoativas
+
+PCEB · QUÍMICA FORENSE
+Capítulo 6 — Novas Substâncias Psicoativas (NSP)
+
+Canabinoides sintéticos, catinonas sintéticas e feniletilaminas
+
+Índice
+
+1. O que são as Novas Substâncias Psicoativas (NSP)
+
+2. Os três grupos de destaque no Brasil
+
+3. Questões legais e o controle das NSP
+
+4. A classificação genérica (estrutural)
+
+5. Síntese e Mnemônicos
+
+1. O que são as Novas Substâncias Psicoativas (NSP)
+
+Definição (ONU e União Europeia). Novas substâncias psicoativas (NSP), conforme definição adotada tanto pelas Nações Unidas quanto pela União Europeia, são substâncias com potencial de abuso, seja na forma pura ou em preparações (misturas), que não são controladas nos termos da Convenção Única sobre Entorpecentes de 1961 ou pela Convenção sobre Substâncias Psicotrópicas de 1971, mas que podem representar uma ameaça à saúde pública. (p. 43)
+
+PONTO CRÍTICO (cai em prova!)
+
+O traço que define uma NSP é justamente não estar controlada pelas Convenções de 1961 (Entorpecentes) nem de 1971 (Psicotrópicas). Atenção também ao significado do termo "novas": ele não se refere necessariamente a substâncias criadas ou sintetizadas nos últimos anos, mas sim às substâncias disponíveis no mercado recentemente. (p. 43)
+
+Risco à saúde pública. Muitas NSP apresentam efeitos similares aos de substâncias controladas internacionalmente, sendo vendidas como tais, o que leva os usuários ao desconhecimento sobre o que realmente estão usando. Por isso, ressalta-se que as NSP representam um grande risco à saúde pública. (p. 43)
+
+Mnemônico — "NOVAS no mercado, não recém-criadas"
+"Novas" = novas no mercado recentemente, e não necessariamente moléculas inéditas. O critério que une todas as NSP é serem não controladas pelas Convenções de 61 e 71.
+
+2. Os três grupos de destaque no Brasil
+
+O termo novas substâncias psicoativas abrange diversos grupos de compostos. Três grupos merecem destaque em virtude do número e das características das apreensões no Brasil: canabinoides sintéticos, catinonas sintéticas e feniletilaminas. (p. 43)
+
+Mnemônico — "CA-CA-FE"
+CAnabinoides sintéticos · CAtinonas sintéticas · FEniletilaminas — os três grupos de NSP de destaque no Brasil.
+
+Canabinoides sintéticos
+
+Agonistas dos receptores canabinoides
+
+Catinonas sintéticas
+
+Estimulantes derivados da catinona
+
+Feniletilaminas
+
+Alucinógenos e/ou estimulantes
+
+2.1 Canabinoides sintéticos
+
+São agonistas dos receptores canabinoides, possuindo características estruturais que permitem que se liguem a receptores canabinoides conhecidos, podendo produzir efeitos semelhantes aos canabinoides presentes na planta Cannabis sativa (maconha). Foram detectados inicialmente em materiais vegetais. No Brasil, além de serem encontrados em misturas de ervas, também aparecem em papéis ou selos (nos quais tradicionalmente se espera encontrar a substância LSD), em comprimidos (raro) e em pó. (p. 43)
+
+2.2 Catinonas sintéticas
+
+São compostos derivados estruturalmente da substância catinona. Agem no sistema nervoso central predominantemente como estimulantes, mediando as ações de dopamina, norepinefrina e/ou serotonina, mimetizando efeitos de drogas tradicionais como cocaína, anfetamina, metanfetamina e MDMA. São encontradas no Brasil na forma de sólidos (cristais ou pó) e comprimidos, em uma tentativa de se passar pela droga conhecida como ecstasy, e, em raros casos, em selos. (p. 43–44)
+
+2.3 Feniletilaminas
+
+Classe de substâncias com conhecidos efeitos psicoativos alucinógenos e/ou estimulantes. Podem mimetizar os efeitos de drogas clássicas como o MDMA, a cocaína e até mesmo o LSD. No Brasil, são encontradas sob a forma de pó, comprimidos, soluções e, principalmente, de selos. (p. 44)
+
+2.4 Quadro comparativo dos três grupos
+
+Grupo
+
+Como age / o que mimetiza
+
+Formas de apresentação no Brasil
+
+Canabinoides sintéticos
+
+Agonistas dos receptores canabinoides; efeitos semelhantes aos canabinoides da Cannabis sativa (maconha)
+
+Materiais vegetais / misturas de ervas; papéis ou selos (onde se espera LSD); comprimidos (raro); pó
+
+Catinonas sintéticas
+
+Derivadas da catinona; estimulantes (dopamina, norepinefrina e/ou serotonina); mimetizam cocaína, anfetamina, metanfetamina e MDMA
+
+Sólidos (cristais ou pó) e comprimidos (passando-se por ecstasy); em raros casos, selos
+
+Feniletilaminas
+
+Efeitos alucinógenos e/ou estimulantes; mimetizam MDMA, cocaína e até LSD
+
+Pó, comprimidos, soluções e, principalmente, selos
+
+3. Questões legais e o controle das NSP
+
+Base normativa. No Brasil, as substâncias de uso proscrito são elencadas nas listas F do Anexo I da Portaria n.º 344/98-SVS/MS, conforme a Lei n.º 11.343/2006, art. 1º, parágrafo único, e art. 66. Os anexos dessa portaria são frequentemente atualizados por meio de Resoluções da Diretoria Colegiada (RDC) da Agência Nacional de Vigilância Sanitária — Anvisa. (p. 44)
+
+PONTO CRÍTICO (cai em prova!) — A virada de 2016
+
+Até 2016, o Brasil adotava somente o tradicional sistema de listagem nominal para controlar as substâncias entorpecentes ou psicotrópicas. Com o surgimento crescente de novas drogas em velocidade superior à inclusão dessas substâncias nos instrumentos normativos do País, decidiu-se adotar também formas de classificação com abordagens mais genéricas (estruturais). (p. 44)
+
+3.1 Linha do tempo das RDCs (inclusões na Lista F2)
+
+RDC
+
+Data / Ano
+
+Classe estrutural incluída na Lista F2
+
+RDC n.º 79
+
+23 de maio de 2016
+
+Dez classes estruturais genéricas do grupo dos canabinoides sintéticos
+
+RDC n.º 175
+
+15 de setembro de 2017
+
+Classe das catinonas sintéticas
+
+RDC n.º 325
+
+DOU de 4 de dezembro de 2019
+
+Classe estrutural das feniletilaminas
+
+Resumo das inclusões. A Lista F2 (Lista de Substâncias Psicotrópicas de Uso Proscrito) da Portaria n.º 344/1998 passou a contemplar, sucessivamente: canabinoides sintéticos (RDC 79/2016, dez classes), catinonas sintéticas (RDC 175/2017) e feniletilaminas (RDC 325/2019). Com a RDC 79, passaram a ser proibidas quaisquer substâncias canabimiméticas que se enquadrem nas classes estruturais descritas, observadas as isenções de controle previstas nos adendos. (p. 44)
+
+2016
+RDC 79
+Canabinoides
+sintéticos
+(10 classes)
+
+2017
+RDC 175
+Catinonas
+sintéticas
+
+2019
+RDC 325
+Feniletilaminas
+
+Linha do tempo das inclusões na Lista F2 da Portaria n.º 344/1998: RDC 79/2016 (canabinoides sintéticos, 10 classes) → RDC 175/2017 (catinonas sintéticas) → RDC 325/2019 (feniletilaminas).
+
+Mnemônico — Ordem das RDCs "79 → 175 → 325"
+79 (2016) Canabinoides → 175 (2017) Catinonas → 325 (2019) Feniletilaminas. Números crescentes acompanham os anos crescentes: 79 < 175 < 325.
+
+4. A classificação genérica (estrutural)
+
+Como funciona. A classificação genérica define uma estrutura molecular nuclear e aponta variações particulares nessa estrutura que especificam as substâncias que devem ser controladas, permitindo a proibição de grupos e subgrupos de substâncias de maneira abrangente, a fim de antecipar o controle sobre novas substâncias que porventura venham a surgir. (p. 44)
+
+Por que é eficiente contra as NSP. Esse tipo de classificação é especialmente eficiente para NSP, pois é comum a síntese de novas substâncias por meio de pequenas alterações estruturais em moléculas já controladas, com o objetivo de burlar as medidas de controle impostas às moléculas originais. (p. 44)
+
+Estrutura
+nuclear
+
+Variação 1
+Variação 2
+Variação 3
+Variação 4
+
+Núcleo + variações descritas = classe genérica controlada (grupos e subgrupos)
+
+Esquema da classificação genérica: uma molécula nuclear com variações descritas define toda uma classe controlada, antecipando o controle de novas moléculas obtidas por pequenas alterações estruturais.
+
+Mnemônico — "Núcleo + variações = classe inteira"
+Em vez de listar nome por nome, a Anvisa controla um núcleo molecular com suas variações — assim, basta o traficante mexer um pouco na molécula que ela já cai na classe proibida. Por isso a abordagem genérica vence as NSP.
+
+5. Síntese e Mnemônicos
+
+O essencial do capítulo:
+
+NSP (ONU e UE): substâncias com potencial de abuso, puras ou em misturas, não controladas pelas Convenções de 1961 nem de 1971, com possível ameaça à saúde pública.
+
+"Novas" = novas no mercado, não necessariamente recém-criadas.
+
+Três grupos de destaque no Brasil: canabinoides sintéticos, catinonas sintéticas e feniletilaminas (CA-CA-FE).
+
+Base legal: listas F da Portaria 344/98; Lei 11.343/2006, art. 1º, p.ú. e art. 66; atualizações por RDC da Anvisa.
+
+Até 2016: só listagem nominal → depois, adoção também da classificação genérica/estrutural.
+
+RDCs (Lista F2): 79/2016 canabinoides → 175/2017 catinonas → 325/2019 feniletilaminas.
+
+Tópico
+
+Ponto-chave para a prova
+
+Definição de NSP
+
+Potencial de abuso, puras ou em misturas, não controladas pelas Convenções de 1961 e 1971; ameaça à saúde pública (def. ONU e UE)
+
+Termo "novas"
+
+Disponíveis no mercado recentemente — não necessariamente moléculas recém-criadas
+
+Risco
+
+Vendidas como drogas conhecidas; usuário não sabe o que usa
+
+Canabinoides sintéticos
+
+Agonistas dos receptores canabinoides; ervas, selos (LSD), comprimidos (raro), pó
+
+Catinonas sintéticas
+
+Derivadas da catinona; estimulantes; cristais/pó, comprimidos (ecstasy), raros selos
+
+Feniletilaminas
+
+Alucinógenas/estimulantes; pó, comprimidos, soluções e principalmente selos
+
+Base legal
+
+Listas F da Portaria 344/98; Lei 11.343/2006 (art. 1º, p.ú.; art. 66); RDCs da Anvisa
+
+Virada de 2016
+
+Listagem nominal → também classificação genérica/estrutural
+
+RDCs (ordem)
+
+79/2016 (canabinoides, 10 classes) → 175/2017 (catinonas) → 325/2019 (feniletilaminas)
+
+Classificação genérica
+
+Núcleo molecular + variações = classe controlada; antecipa o controle e impede burla por pequenas alterações estruturais
+
+Mnemônico final — Onde aparecem os SELOS
+Selos aparecem nos três grupos, mas com peso diferente: canabinoides (onde se "esperava" LSD), catinonas (raros) e feniletilaminas (principalmente selos).
