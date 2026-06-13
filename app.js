@@ -1994,6 +1994,7 @@ function switchMainTab(tabName) {
         if (tabMaterial) tabMaterial.classList.add('active');
         showView('material-view');
         if (typeof window.restaurarUltimoMaterial === 'function') window.restaurarUltimoMaterial();
+        if (typeof window.atualizarEstiloDisciplinasMateriais === 'function') window.atualizarEstiloDisciplinasMateriais();
     } else if (tabName === 'agenda') {
         if (tabAgenda) tabAgenda.classList.add('active');
         showView('agenda-view');
@@ -2271,6 +2272,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
     carregarMaterialEstudado();
 
+    // --- Disciplina concluída: todos os capítulos marcados como estudados ---
+    function arquivoDoCapitulo(cap, idx) {
+        if (typeof cap === 'string') {
+            return `Capitulo_${String(idx + 1).padStart(2, '0')}.html`;
+        }
+        return cap.arquivo;
+    }
+    function disciplinaConcluida(discValue) {
+        const disc = materialData[discValue];
+        if (!disc || !Array.isArray(disc.capitulos) || disc.capitulos.length === 0) return false;
+        return disc.capitulos.every((cap, idx) =>
+            !!materialEstudado[getMaterialKey(discValue, arquivoDoCapitulo(cap, idx))]);
+    }
+    // Aplica ✅ + verde nas disciplinas 100% concluídas (lista suspensa)
+    function atualizarEstiloDisciplinas() {
+        if (!matDisc) return;
+        Array.from(matDisc.options).forEach(opt => {
+            if (!opt.value || opt.disabled) return;
+            const base = opt.textContent.replace(/^✅ /, '');
+            if (disciplinaConcluida(opt.value)) {
+                opt.textContent = '✅ ' + base;
+                opt.style.color = '#10b981';
+                opt.style.fontWeight = '600';
+            } else {
+                opt.textContent = base;
+                opt.style.color = '';
+                opt.style.fontWeight = '';
+            }
+        });
+    }
+    // Exposto para o switchMainTab atualizar ao abrir a aba Materiais
+    window.atualizarEstiloDisciplinasMateriais = atualizarEstiloDisciplinas;
+    atualizarEstiloDisciplinas();
+
     // --- Navegação entre capítulos (Anterior / Próximo) ---
     const btnCapPrev = document.getElementById('btn-cap-anterior');
     const btnCapNext = document.getElementById('btn-cap-proximo');
@@ -2429,6 +2464,7 @@ document.addEventListener('DOMContentLoaded', () => {
             salvarMaterialEstudado();
             atualizarBotaoEstudado(matDisc.value, matCap.value);
             atualizarEstiloOpcoes(matCap, matDisc.value);
+            atualizarEstiloDisciplinas();
         });
     }
 
