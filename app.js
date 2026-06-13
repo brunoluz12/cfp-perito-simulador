@@ -27,6 +27,7 @@ let errosSimulado = 0;
 let favoritos = [];
 let comentarios = {};
 let historicoQuestoes = {};
+let anotacoes = [];
 
 // ESTATÍSTICAS LOCAIS
 let stats = {
@@ -45,6 +46,7 @@ const views = {
     'agenda-view': document.getElementById('agenda-view'),
     'psico-view': document.getElementById('psico-view'),
     'flashcards-view': document.getElementById('flashcards-view'),
+    'notes-view': document.getElementById('notes-view'),
     'admin-view': document.getElementById('admin-view')
 };
 
@@ -134,6 +136,7 @@ async function tryLogin(username) {
         localStorage.removeItem('pcpr_agenda_aplicada');
         localStorage.removeItem('pcpr_material_studied');
         localStorage.removeItem('pcpr_flashcards');
+        localStorage.removeItem('pcpr_notes');
     }
     
     // Carregar dados da nuvem
@@ -154,6 +157,7 @@ async function tryLogin(username) {
                 if (result.data.flashcards) {
                     localStorage.setItem('pcpr_flashcards', JSON.stringify(result.data.flashcards));
                 }
+                if (result.data.anotacoes) localStorage.setItem('pcpr_notes', JSON.stringify(result.data.anotacoes));
             }
         }
     } catch (e) {
@@ -201,7 +205,8 @@ function requestCloudSync() {
             progresso: progressoCurso,
             agendaAplicada: agendaAplicada,
             materialEstudado: materialEstudado,
-            flashcards: (typeof flashcards !== 'undefined' ? flashcards : [])
+            flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
+            anotacoes: anotacoes
         };
         
         try {
@@ -528,12 +533,17 @@ function carregarEstatisticas() {
 function carregarDadosPessoais() {
     const savedFav = localStorage.getItem('pcpr_favorites');
     if (savedFav) favoritos = JSON.parse(savedFav);
-    
+
     const savedCom = localStorage.getItem('pcpr_comments');
     if (savedCom) comentarios = JSON.parse(savedCom);
-    
+
     const savedHist = localStorage.getItem('pcpr_history');
     if (savedHist) historicoQuestoes = JSON.parse(savedHist);
+
+    try {
+        anotacoes = JSON.parse(localStorage.getItem('pcpr_notes') || '[]');
+        if (!Array.isArray(anotacoes)) anotacoes = [];
+    } catch (e) { anotacoes = []; }
 }
 
 function salvarFavoritos() {
@@ -1962,14 +1972,16 @@ function switchMainTab(tabName) {
     const tabAgenda = document.getElementById('tab-agenda');
     const tabPsico = document.getElementById('tab-psico');
     const tabFlashcards = document.getElementById('tab-flashcards');
+    const tabNotes = document.getElementById('tab-notes');
     const tabAdmin = document.getElementById('tab-admin');
-    
+
     if (tabSimulador) tabSimulador.classList.remove('active');
     if (tabControle) tabControle.classList.remove('active');
     if (tabMaterial) tabMaterial.classList.remove('active');
     if (tabAgenda) tabAgenda.classList.remove('active');
     if (tabPsico) tabPsico.classList.remove('active');
     if (tabFlashcards) tabFlashcards.classList.remove('active');
+    if (tabNotes) tabNotes.classList.remove('active');
     if (tabAdmin) tabAdmin.classList.remove('active');
     
     if (tabName === 'simulador') {
@@ -1992,6 +2004,10 @@ function switchMainTab(tabName) {
         if (tabFlashcards) tabFlashcards.classList.add('active');
         showView('flashcards-view');
         if (typeof renderFlashcardDashboard === 'function') renderFlashcardDashboard();
+    } else if (tabName === 'notes') {
+        if (tabNotes) tabNotes.classList.add('active');
+        showView('notes-view');
+        if (typeof abrirAnotacoes === 'function') abrirAnotacoes();
     } else if (tabName === 'admin') {
         if (tabAdmin) tabAdmin.classList.add('active');
         showView('admin-view');
@@ -2955,4 +2971,299 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnRefresh) {
         btnRefresh.addEventListener('click', () => carregarUsuariosAdmin());
     }
+});
+
+// ==========================================
+// ANOTAÇÕES — editor rich text + lista filtrável
+// (estado global `anotacoes` declarado no topo; sincroniza na nuvem)
+// ==========================================
+let notesEditId = null;
+let notesDiscPopulated = false;
+let notesSavedRange = null;
+
+function salvarAnotacoesStore() {
+    localStorage.setItem('pcpr_notes', JSON.stringify(anotacoes));
+    requestCloudSync();
+}
+
+function notesEsc(s) {
+    return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function notesFmtData(ts) {
+    if (!ts) return '';
+    try {
+        return new Date(ts).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+    } catch (e) { return ''; }
+}
+
+function notesDisciplinas() {
+    if (!Array.isArray(bancoQuestoes)) return [];
+    return [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
+}
+function notesConteudos(disc) {
+    if (!disc || !Array.isArray(bancoQuestoes)) return [];
+    return [...new Set(bancoQuestoes.filter(q => q.disciplina === disc).map(q => q.conteudo))].sort(naturalSort);
+}
+
+function notesFillDisc(sel, todasLabel) {
+    sel.innerHTML = '';
+    const opt0 = document.createElement('option');
+    opt0.value = ''; opt0.textContent = todasLabel;
+    sel.appendChild(opt0);
+    notesDisciplinas().forEach(d => {
+        const o = document.createElement('option');
+        o.value = d; o.textContent = d;
+        sel.appendChild(o);
+    });
+}
+function notesFillConteudo(sel, disc, todosLabel, valorSel) {
+    const conts = notesConteudos(disc);
+    sel.innerHTML = '';
+    const opt0 = document.createElement('option');
+    opt0.value = ''; opt0.textContent = todosLabel;
+    sel.appendChild(opt0);
+    conts.forEach(c => {
+        const o = document.createElement('option');
+        o.value = c; o.textContent = c;
+        if (c === valorSel) o.selected = true;
+        sel.appendChild(o);
+    });
+    sel.disabled = conts.length === 0;
+}
+
+// Aberta ao entrar na aba: popula selects (uma vez) e mostra a lista
+function abrirAnotacoes() {
+    if (!notesDiscPopulated && Array.isArray(bancoQuestoes) && bancoQuestoes.length) {
+        notesFillDisc(document.getElementById('notes-filtro-disciplina'), 'Todas as disciplinas');
+        notesFillDisc(document.getElementById('note-disciplina'), '— Sem disciplina —');
+        notesDiscPopulated = true;
+    }
+    document.getElementById('notes-editor-area').style.display = 'none';
+    document.getElementById('notes-list-area').style.display = 'block';
+    renderNotesList();
+}
+
+function renderNotesList() {
+    const cont = document.getElementById('notes-list');
+    if (!cont) return;
+    const termo = (document.getElementById('notes-busca').value || '').trim().toLowerCase();
+    const fDisc = document.getElementById('notes-filtro-disciplina').value;
+    const fCont = document.getElementById('notes-filtro-conteudo').value;
+
+    let lista = anotacoes.slice().sort((a, b) => (b.atualizadoEm || 0) - (a.atualizadoEm || 0));
+    if (fDisc) lista = lista.filter(n => n.disciplina === fDisc);
+    if (fCont) lista = lista.filter(n => n.conteudo === fCont);
+    if (termo) lista = lista.filter(n =>
+        (n.titulo || '').toLowerCase().includes(termo) ||
+        (n.texto || '').toLowerCase().includes(termo));
+
+    if (lista.length === 0) {
+        const vazioGeral = anotacoes.length === 0;
+        cont.innerHTML = `<div class="notes-empty"><i class="ph ph-note-blank"></i>${vazioGeral
+            ? 'Você ainda não tem anotações.<br>Clique em <strong>Nova Anotação</strong> para começar.'
+            : 'Nenhuma anotação encontrada com os filtros atuais.'}</div>`;
+        return;
+    }
+
+    cont.innerHTML = '';
+    lista.forEach(n => {
+        const card = document.createElement('div');
+        card.className = 'note-card';
+        const tags = [];
+        if (n.disciplina) tags.push(`<span class="note-tag"><i class="ph ph-book-open"></i>${notesEsc(n.disciplina)}</span>`);
+        if (n.conteudo) tags.push(`<span class="note-tag conteudo">${notesEsc(n.conteudo)}</span>`);
+        const snippet = (n.texto || '').slice(0, 180);
+        card.innerHTML = `
+            <div class="note-card-title">${notesEsc(n.titulo || 'Sem título')}</div>
+            ${tags.length ? `<div class="note-card-tags">${tags.join('')}</div>` : ''}
+            <div class="note-card-snippet">${snippet ? notesEsc(snippet) : '<em>(sem texto)</em>'}</div>
+            <div class="note-card-footer">
+                <span class="note-card-date"><i class="ph ph-clock"></i> ${notesFmtData(n.atualizadoEm)}</span>
+                <div class="note-card-actions">
+                    <button title="Editar" data-edit="${n.id}"><i class="ph ph-pencil-simple"></i></button>
+                    <button class="danger" title="Excluir" data-del="${n.id}"><i class="ph ph-trash"></i></button>
+                </div>
+            </div>`;
+        card.addEventListener('click', (e) => {
+            if (e.target.closest('[data-del]')) { e.stopPropagation(); notesExcluir(n.id); return; }
+            notesAbrirEditor(n.id);
+        });
+        cont.appendChild(card);
+    });
+}
+
+function notesAbrirEditor(id) {
+    notesEditId = id || null;
+    const note = id ? anotacoes.find(n => n.id === id) : null;
+
+    document.getElementById('notes-list-area').style.display = 'none';
+    document.getElementById('notes-editor-area').style.display = 'block';
+    document.getElementById('btn-notes-excluir').style.display = note ? 'inline-flex' : 'none';
+
+    const titulo = document.getElementById('note-titulo');
+    const selDisc = document.getElementById('note-disciplina');
+    const selCont = document.getElementById('note-conteudo');
+    const editor = document.getElementById('note-editor');
+
+    titulo.value = note ? (note.titulo || '') : '';
+    selDisc.value = note && note.disciplina ? note.disciplina : '';
+    notesFillConteudo(selCont, selDisc.value, '— Opcional —', note ? note.conteudo : '');
+    editor.innerHTML = note ? (note.html || '') : '';
+    notesSavedRange = null;
+
+    window.scrollTo(0, 0);
+    titulo.focus();
+}
+
+function notesFecharEditor() {
+    notesEditId = null;
+    abrirAnotacoes();
+}
+
+function notesSalvar() {
+    const titulo = document.getElementById('note-titulo').value.trim();
+    const editor = document.getElementById('note-editor');
+    const html = editor.innerHTML;
+    const texto = (editor.textContent || '').replace(/\s+/g, ' ').trim();
+
+    if (!titulo && !texto) {
+        alert('Escreva ao menos um título ou um conteúdo para salvar a anotação.');
+        return;
+    }
+    const disc = document.getElementById('note-disciplina').value;
+    const cont = document.getElementById('note-conteudo').value;
+    const agora = Date.now();
+
+    if (notesEditId) {
+        const n = anotacoes.find(x => x.id === notesEditId);
+        if (n) {
+            n.titulo = titulo || 'Sem título';
+            n.disciplina = disc; n.conteudo = cont;
+            n.html = html; n.texto = texto;
+            n.atualizadoEm = agora;
+        }
+    } else {
+        anotacoes.push({
+            id: 'n_' + agora.toString(36) + Math.random().toString(36).slice(2, 7),
+            titulo: titulo || 'Sem título',
+            disciplina: disc, conteudo: cont,
+            html: html, texto: texto,
+            criadoEm: agora, atualizadoEm: agora
+        });
+    }
+    salvarAnotacoesStore();
+
+    const status = document.getElementById('notes-editor-titulo-status');
+    if (status) {
+        status.textContent = 'Anotação salva!';
+        status.classList.add('show');
+        setTimeout(() => status.classList.remove('show'), 1600);
+    }
+    notesFecharEditor();
+}
+
+function notesExcluir(id) {
+    const n = anotacoes.find(x => x.id === id);
+    if (!n) return;
+    if (!confirm(`Excluir a anotação "${n.titulo || 'Sem título'}"? Esta ação não pode ser desfeita.`)) return;
+    anotacoes = anotacoes.filter(x => x.id !== id);
+    salvarAnotacoesStore();
+    if (notesEditId === id) notesFecharEditor();
+    else renderNotesList();
+}
+
+// --- Rich text (execCommand com restauração de seleção) ---
+function notesExecRT(cmd, value) {
+    const editor = document.getElementById('note-editor');
+    editor.focus();
+    if (notesSavedRange) {
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(notesSavedRange);
+    }
+    try { document.execCommand(cmd, false, value == null ? null : value); } catch (e) {}
+    notesAtualizarBotoesRT();
+}
+
+function notesAtualizarBotoesRT() {
+    document.querySelectorAll('#rt-toolbar .rt-btn[data-cmd]').forEach(btn => {
+        let active = false;
+        try { active = document.queryCommandState(btn.dataset.cmd); } catch (e) {}
+        btn.classList.toggle('active', active);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const novaBtn = document.getElementById('btn-nova-anotacao');
+    if (!novaBtn) return;
+
+    novaBtn.addEventListener('click', () => notesAbrirEditor(null));
+    document.getElementById('btn-notes-voltar').addEventListener('click', notesFecharEditor);
+    document.getElementById('btn-notes-salvar').addEventListener('click', notesSalvar);
+    document.getElementById('btn-notes-excluir').addEventListener('click', () => { if (notesEditId) notesExcluir(notesEditId); });
+
+    // Filtros
+    const busca = document.getElementById('notes-busca');
+    const fDisc = document.getElementById('notes-filtro-disciplina');
+    const fCont = document.getElementById('notes-filtro-conteudo');
+    busca.addEventListener('input', renderNotesList);
+    fDisc.addEventListener('change', () => {
+        notesFillConteudo(fCont, fDisc.value, 'Todos os conteúdos', '');
+        renderNotesList();
+    });
+    fCont.addEventListener('change', renderNotesList);
+    document.getElementById('notes-filtro-limpar').addEventListener('click', () => {
+        busca.value = '';
+        fDisc.value = '';
+        fCont.innerHTML = '<option value="">Todos os conteúdos</option>';
+        fCont.disabled = true;
+        renderNotesList();
+    });
+
+    // Editor: disciplina -> conteúdo
+    const eDisc = document.getElementById('note-disciplina');
+    const eCont = document.getElementById('note-conteudo');
+    eDisc.addEventListener('change', () => notesFillConteudo(eCont, eDisc.value, '— Opcional —', ''));
+
+    // Barra de ferramentas rich text
+    const toolbar = document.getElementById('rt-toolbar');
+    // Mantém a seleção no editor ao clicar nos botões (não nos selects/inputs de cor)
+    toolbar.addEventListener('mousedown', (e) => {
+        if (e.target.closest('.rt-btn')) e.preventDefault();
+    });
+    toolbar.querySelectorAll('.rt-btn[data-cmd]').forEach(btn =>
+        btn.addEventListener('click', () => notesExecRT(btn.dataset.cmd)));
+    toolbar.querySelectorAll('.rt-btn[data-block]').forEach(btn =>
+        btn.addEventListener('click', () => notesExecRT('formatBlock', btn.dataset.block)));
+    const fmt = document.getElementById('rt-format');
+    fmt.addEventListener('change', () => { notesExecRT('formatBlock', fmt.value); fmt.selectedIndex = 0; });
+    document.getElementById('rt-forecolor').addEventListener('input', (e) => notesExecRT('foreColor', e.target.value));
+    document.getElementById('rt-hilite').addEventListener('input', (e) => notesExecRT('hiliteColor', e.target.value));
+    const linkBtn = toolbar.querySelector('[data-action="link"]');
+    if (linkBtn) linkBtn.addEventListener('click', () => {
+        const url = prompt('Endereço do link (inclua https://):', 'https://');
+        if (url) notesExecRT('createLink', url);
+    });
+
+    const editor = document.getElementById('note-editor');
+    editor.addEventListener('keyup', notesAtualizarBotoesRT);
+    editor.addEventListener('mouseup', notesAtualizarBotoesRT);
+    editor.addEventListener('blur', () => {
+        if (!editor.textContent.trim() && !editor.querySelector('img')) editor.innerHTML = '';
+    });
+    editor.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') { e.preventDefault(); notesSalvar(); }
+    });
+
+    // Memoriza a seleção atual dentro do editor (para aplicar cor/formato sem perdê-la)
+    document.addEventListener('selectionchange', () => {
+        const ed = document.getElementById('note-editor');
+        if (!ed) return;
+        const sel = window.getSelection();
+        if (sel && sel.rangeCount && ed.contains(sel.anchorNode)) {
+            notesSavedRange = sel.getRangeAt(0).cloneRange();
+        }
+    });
 });

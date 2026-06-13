@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=16">
+    <link rel="stylesheet" href="style.css?v=17">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -50,6 +50,7 @@
                 <button type="button" id="tab-agenda" class="tab-link" onclick="switchMainTab('agenda')"><i class="ph ph-calendar-blank"></i> Agenda</button>
                 <button type="button" id="tab-psico" class="tab-link" onclick="switchMainTab('psico')"><i class="ph ph-brain"></i> Testes</button>
                 <button type="button" id="tab-flashcards" class="tab-link" onclick="switchMainTab('flashcards')"><i class="ph ph-cards"></i> Flash Cards</button>
+                <button type="button" id="tab-notes" class="tab-link" onclick="switchMainTab('notes')"><i class="ph ph-note-pencil"></i> Anotações</button>
                 <button type="button" id="tab-controle" class="tab-link" onclick="switchMainTab('controle')"><i class="ph ph-list-checks"></i> Controle</button>
                 <button type="button" id="tab-admin" class="tab-link" onclick="switchMainTab('admin')" style="display: none;"><i class="ph ph-shield-star"></i> Admin <span id="admin-pending-badge" class="admin-badge" style="display: none;">0</span></button>
             </nav>
@@ -560,6 +561,112 @@
                 </div>
             </div>
         </main>
+
+        <!-- TELA DE ANOTAÇÕES -->
+        <main id="notes-view" class="view">
+            <!-- LISTA -->
+            <div id="notes-list-area">
+                <div class="glass-panel notes-toolbar">
+                    <div class="notes-toolbar-top">
+                        <h2><i class="ph ph-note-pencil"></i> Minhas Anotações</h2>
+                        <button id="btn-nova-anotacao" class="btn-primary" type="button"><i class="ph ph-plus"></i> Nova Anotação</button>
+                    </div>
+                    <div class="notes-filters">
+                        <div class="notes-search">
+                            <i class="ph ph-magnifying-glass"></i>
+                            <input type="text" id="notes-busca" placeholder="Pesquisar no título ou no conteúdo..." autocomplete="off">
+                        </div>
+                        <select id="notes-filtro-disciplina" class="notes-filter-select">
+                            <option value="">Todas as disciplinas</option>
+                        </select>
+                        <select id="notes-filtro-conteudo" class="notes-filter-select" disabled>
+                            <option value="">Todos os conteúdos</option>
+                        </select>
+                        <button id="notes-filtro-limpar" class="btn-secondary btn-sm" type="button"><i class="ph ph-x"></i> Limpar</button>
+                    </div>
+                </div>
+                <div id="notes-list" class="notes-list">
+                    <!-- Cards renderizados via JS -->
+                </div>
+            </div>
+
+            <!-- EDITOR -->
+            <div id="notes-editor-area" class="glass-panel" style="display: none;">
+                <div class="notes-editor-header">
+                    <button id="btn-notes-voltar" class="btn-secondary btn-icon" type="button"><i class="ph ph-arrow-left"></i> Voltar</button>
+                    <span id="notes-editor-titulo-status" class="notes-editor-status"></span>
+                    <div class="notes-editor-header-actions">
+                        <button id="btn-notes-excluir" class="btn-text error-text" type="button" style="display: none;"><i class="ph ph-trash"></i> Excluir</button>
+                        <button id="btn-notes-salvar" class="btn-primary" type="button"><i class="ph ph-check-circle"></i> Salvar</button>
+                    </div>
+                </div>
+
+                <input type="text" id="note-titulo" class="note-titulo-input" placeholder="Título da anotação" autocomplete="off">
+
+                <div class="note-meta-row">
+                    <div class="form-group">
+                        <label for="note-disciplina"><i class="ph ph-book-open"></i> Disciplina</label>
+                        <select id="note-disciplina">
+                            <option value="">— Sem disciplina —</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="note-conteudo"><i class="ph ph-list-bullets"></i> Conteúdo</label>
+                        <select id="note-conteudo" disabled>
+                            <option value="">— Selecione a disciplina —</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Barra de ferramentas do editor rich text -->
+                <div class="rt-toolbar" id="rt-toolbar">
+                    <div class="rt-group">
+                        <button type="button" class="rt-btn" data-cmd="undo" title="Desfazer (Ctrl+Z)"><i class="ph ph-arrow-counter-clockwise"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="redo" title="Refazer (Ctrl+Y)"><i class="ph ph-arrow-clockwise"></i></button>
+                    </div>
+                    <div class="rt-group">
+                        <select class="rt-block" id="rt-format" title="Estilo do parágrafo">
+                            <option value="P">Texto normal</option>
+                            <option value="H2">Título grande</option>
+                            <option value="H3">Título médio</option>
+                            <option value="H4">Título pequeno</option>
+                            <option value="PRE">Código</option>
+                        </select>
+                    </div>
+                    <div class="rt-group">
+                        <button type="button" class="rt-btn" data-cmd="bold" title="Negrito (Ctrl+B)"><i class="ph ph-text-b"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="italic" title="Itálico (Ctrl+I)"><i class="ph ph-text-italic"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="underline" title="Sublinhado (Ctrl+U)"><i class="ph ph-text-underline"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="strikeThrough" title="Tachado"><i class="ph ph-text-strikethrough"></i></button>
+                    </div>
+                    <div class="rt-group">
+                        <label class="rt-color" title="Cor do texto">
+                            <i class="ph ph-text-aa"></i>
+                            <input type="color" id="rt-forecolor" value="#1e293b">
+                        </label>
+                        <label class="rt-color" title="Marca-texto">
+                            <i class="ph ph-highlighter"></i>
+                            <input type="color" id="rt-hilite" value="#fff59d">
+                        </label>
+                    </div>
+                    <div class="rt-group">
+                        <button type="button" class="rt-btn" data-cmd="insertUnorderedList" title="Lista com marcadores"><i class="ph ph-list-bullets"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="insertOrderedList" title="Lista numerada"><i class="ph ph-list-numbers"></i></button>
+                        <button type="button" class="rt-btn" data-block="BLOCKQUOTE" title="Citação"><i class="ph ph-quotes"></i></button>
+                    </div>
+                    <div class="rt-group">
+                        <button type="button" class="rt-btn" data-cmd="justifyLeft" title="Alinhar à esquerda"><i class="ph ph-text-align-left"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="justifyCenter" title="Centralizar"><i class="ph ph-text-align-center"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="justifyRight" title="Alinhar à direita"><i class="ph ph-text-align-right"></i></button>
+                    </div>
+                    <div class="rt-group">
+                        <button type="button" class="rt-btn" data-action="link" title="Inserir link"><i class="ph ph-link"></i></button>
+                        <button type="button" class="rt-btn" data-cmd="removeFormat" title="Limpar formatação"><i class="ph ph-eraser"></i></button>
+                    </div>
+                </div>
+                <div id="note-editor" class="rt-editor" contenteditable="true" spellcheck="true" data-placeholder="Escreva sua anotação aqui..."></div>
+            </div>
+        </main>
     </div>
 
     <!-- MODAL: Gerar Simulado -->
@@ -722,7 +829,7 @@
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=36"></script>
     <script src="flashcards.js?v=1"></script>
-    <script src="app.js?v=32"></script>
+    <script src="app.js?v=33"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>
