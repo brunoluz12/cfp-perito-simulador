@@ -2277,7 +2277,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'ipo_2': ['Investigação Policial II (IPO II)'],
         'bal': ['PCEB - Balística Forense'],
         'pceb': ['PCEB - Bombas e Explosivos'],
-        'quimica_forense': [],  // sem questões ainda
+        'quimica_forense': ['PCEB - Química Forense'],
         'pvat_mod_1': ['PVAT - Módulo I (Identificação Veicular)'],
         'pvat_mod_2': ['PVAT - Módulo II (Acidentes de Tráfego)'],
         'loc': ['LOC - Locais de Crime e suas Interfaces']
