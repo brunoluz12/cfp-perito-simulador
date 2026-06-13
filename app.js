@@ -2980,6 +2980,27 @@ document.addEventListener('DOMContentLoaded', () => {
 let notesEditId = null;
 let notesDiscPopulated = false;
 let notesSavedRange = null;
+let notesView = 'list'; // 'list' (padrão) | 'cards'
+try { const v = localStorage.getItem('pcpr_notes_view'); if (v === 'cards' || v === 'list') notesView = v; } catch (e) {}
+
+// Aplica o modo de visualização (lista detalhada x cards) ao container e aos botões
+function notesAplicarView() {
+    const cont = document.getElementById('notes-list');
+    if (cont) {
+        cont.classList.toggle('as-list', notesView === 'list');
+        cont.classList.toggle('as-cards', notesView === 'cards');
+    }
+    const bl = document.getElementById('btn-notes-view-list');
+    const bc = document.getElementById('btn-notes-view-cards');
+    if (bl) bl.classList.toggle('active', notesView === 'list');
+    if (bc) bc.classList.toggle('active', notesView === 'cards');
+}
+
+function notesSetView(v) {
+    notesView = (v === 'cards') ? 'cards' : 'list';
+    try { localStorage.setItem('pcpr_notes_view', notesView); } catch (e) {}
+    notesAplicarView();
+}
 
 function salvarAnotacoesStore() {
     localStorage.setItem('pcpr_notes', JSON.stringify(anotacoes));
@@ -3042,6 +3063,7 @@ function abrirAnotacoes() {
     }
     document.getElementById('notes-editor-area').style.display = 'none';
     document.getElementById('notes-list-area').style.display = 'block';
+    notesAplicarView();
     renderNotesList();
 }
 
@@ -3059,6 +3081,8 @@ function renderNotesList() {
         (n.titulo || '').toLowerCase().includes(termo) ||
         (n.texto || '').toLowerCase().includes(termo));
 
+    notesAplicarView();
+
     if (lista.length === 0) {
         const vazioGeral = anotacoes.length === 0;
         cont.innerHTML = `<div class="notes-empty"><i class="ph ph-note-blank"></i>${vazioGeral
@@ -3074,11 +3098,13 @@ function renderNotesList() {
         const tags = [];
         if (n.disciplina) tags.push(`<span class="note-tag"><i class="ph ph-book-open"></i>${notesEsc(n.disciplina)}</span>`);
         if (n.conteudo) tags.push(`<span class="note-tag conteudo">${notesEsc(n.conteudo)}</span>`);
-        const snippet = (n.texto || '').slice(0, 180);
+        const snippet = (n.texto || '').slice(0, 220);
         card.innerHTML = `
-            <div class="note-card-title">${notesEsc(n.titulo || 'Sem título')}</div>
-            ${tags.length ? `<div class="note-card-tags">${tags.join('')}</div>` : ''}
-            <div class="note-card-snippet">${snippet ? notesEsc(snippet) : '<em>(sem texto)</em>'}</div>
+            <div class="note-card-main">
+                <div class="note-card-title">${notesEsc(n.titulo || 'Sem título')}</div>
+                ${tags.length ? `<div class="note-card-tags">${tags.join('')}</div>` : ''}
+                <div class="note-card-snippet">${snippet ? notesEsc(snippet) : '<em>(sem texto)</em>'}</div>
+            </div>
             <div class="note-card-footer">
                 <span class="note-card-date"><i class="ph ph-clock"></i> ${notesFmtData(n.atualizadoEm)}</span>
                 <div class="note-card-actions">
@@ -3200,6 +3226,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!novaBtn) return;
 
     novaBtn.addEventListener('click', () => notesAbrirEditor(null));
+    document.getElementById('btn-notes-view-list').addEventListener('click', () => notesSetView('list'));
+    document.getElementById('btn-notes-view-cards').addEventListener('click', () => notesSetView('cards'));
     document.getElementById('btn-notes-voltar').addEventListener('click', notesFecharEditor);
     document.getElementById('btn-notes-salvar').addEventListener('click', notesSalvar);
     document.getElementById('btn-notes-excluir').addEventListener('click', () => { if (notesEditId) notesExcluir(notesEditId); });

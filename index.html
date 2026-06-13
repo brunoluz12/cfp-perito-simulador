@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=17">
+    <link rel="stylesheet" href="style.css?v=18">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -569,7 +569,13 @@
                 <div class="glass-panel notes-toolbar">
                     <div class="notes-toolbar-top">
                         <h2><i class="ph ph-note-pencil"></i> Minhas Anotações</h2>
-                        <button id="btn-nova-anotacao" class="btn-primary" type="button"><i class="ph ph-plus"></i> Nova Anotação</button>
+                        <div class="notes-toolbar-actions">
+                            <div class="view-toggle" id="notes-view-toggle">
+                                <button id="btn-notes-view-list" class="btn-toggle active" type="button"><i class="ph ph-list-dashes"></i> Lista</button>
+                                <button id="btn-notes-view-cards" class="btn-toggle" type="button"><i class="ph ph-squares-four"></i> Cards</button>
+                            </div>
+                            <button id="btn-nova-anotacao" class="btn-primary" type="button"><i class="ph ph-plus"></i> Nova Anotação</button>
+                        </div>
                     </div>
                     <div class="notes-filters">
                         <div class="notes-search">
@@ -829,7 +835,7 @@
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=36"></script>
     <script src="flashcards.js?v=1"></script>
-    <script src="app.js?v=33"></script>
+    <script src="app.js?v=34"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>
