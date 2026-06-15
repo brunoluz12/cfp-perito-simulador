@@ -1832,10 +1832,9 @@ details[open] > .notes-summary::after {
     cursor: not-allowed;
 }
 
-/* No dark, suaviza o "flash" branco do material */
-html.dark-mode #material-iframe {
-    filter: brightness(0.94);
-}
+/* O tema escuro do material é aplicado DENTRO do iframe (ver
+   aplicarTemaIframeMaterial em app.js); não filtramos o iframe por fora
+   para não empilhar filtros. */
 
 /* TELA DE AGENDA */
 

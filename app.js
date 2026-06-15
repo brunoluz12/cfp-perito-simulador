@@ -8,6 +8,32 @@ function toggleTheme() {
     try {
         localStorage.setItem('pcpr_theme', isDark ? 'dark' : 'light');
     } catch (e) {}
+    // Reflete o tema no conteúdo do material (iframe) caso esteja aberto
+    if (typeof aplicarTemaIframeMaterial === 'function') aplicarTemaIframeMaterial();
+}
+
+// Aplica/remove o modo escuro DENTRO do iframe do material (documento próprio,
+// que não herda o dark-mode do app). Usa inversão de luminância preservando o
+// matiz das cores; fotos (img/video) são reinvertidas para não ficarem negativas.
+function aplicarTemaIframeMaterial() {
+    const iframe = document.getElementById('material-iframe');
+    if (!iframe) return;
+    let doc;
+    try { doc = iframe.contentDocument || (iframe.contentWindow && iframe.contentWindow.document); }
+    catch (e) { return; } // cross-origin — ignora
+    if (!doc || !doc.documentElement) return;
+
+    let st = doc.getElementById('__mat_dark_style');
+    if (!st) {
+        st = doc.createElement('style');
+        st.id = '__mat_dark_style';
+        st.textContent =
+            'html.mat-dark{filter:invert(0.9) hue-rotate(180deg);background-color:#0f172a !important;}' +
+            'html.mat-dark img,html.mat-dark video{filter:invert(1) hue-rotate(180deg);}';
+        (doc.head || doc.documentElement).appendChild(st);
+    }
+    const dark = document.documentElement.classList.contains('dark-mode');
+    doc.documentElement.classList.toggle('mat-dark', dark);
 }
 
 // VARIÁVEIS GLOBAIS
@@ -2433,7 +2459,10 @@ document.addEventListener('DOMContentLoaded', () => {
             iframe.onload = () => {
                 statusMsg.style.display = 'none';
                 iframe.style.opacity = '1';
-                
+
+                // Aplica o tema (claro/escuro) ao conteúdo do material
+                aplicarTemaIframeMaterial();
+
                 // Lógica de seleção de texto para flashcards
                 try {
                     const doc = iframe.contentDocument || iframe.contentWindow.document;
