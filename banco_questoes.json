@@ -7013,40 +7013,6 @@
     "nivel": "facil"
   },
   {
-    "id": 577,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma aula sobre a evolução normativa da identificação veicular, discute-se em que momento o padrão internacional do VIN de 17 caracteres alfanuméricos foi formalmente estabelecido e quando passou a ser exigido oficialmente nos Estados Unidos. Com base no material didático, assinale a alternativa tecnicamente correta.",
-    "alternativas": {
-      "A": "A norma ISO 3779 foi publicada em 1977 e estabeleceu o VIN com 17 caracteres alfanuméricos; em 1981 esse padrão passou a ser exigido oficialmente nos Estados Unidos por determinação da NHTSA.",
-      "B": "O padrão do VIN com 17 caracteres alfanuméricos foi originalmente concebido pela ABNT na NBR 6066 e, anos mais tarde, exportado aos Estados Unidos, onde foi tornado obrigatório pela NHTSA em 1981, por força de acordo internacional.",
-      "C": "A norma ISO 3779 foi publicada em 1966 pelo GEIA, e os Estados Unidos passaram a adotar voluntariamente o padrão somente a partir da década de 1990, sem qualquer determinação obrigatória da NHTSA naquele período.",
-      "D": "O VIN de 17 caracteres surgiu da Resolução Contran nº 659/1985 e só posteriormente, já na década de 1990, foi incorporado pela ISO em norma técnica internacional editada para uniformizar a identificação."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o capítulo 3, a ISO publica a norma ISO 3779 em 1977, estabelecendo o VIN com 17 caracteres alfanuméricos, e em 1981 esse padrão passa a ser adotado oficialmente nos Estados Unidos por determinação da NHTSA (alternativa A). Erram: B, pois a NBR 6066 (1980) apenas alinhou o Brasil à ISO 3779, não originou o padrão; C, pois a ISO 3779 é de 1977 (não 1966) e a obrigatoriedade nos EUA é de 1981; D, pois o padrão de 17 caracteres é da ISO 3779/1977, anterior à Resolução 659/1985.",
-    "referencia": "Cap. 3, p. 11",
-    "nivel": "medio"
-  },
-  {
-    "id": 578,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
-    "tipo": "multipla_escolha",
-    "enunciado": "Considerando a sequência histórica da regulamentação da identificação veicular no Brasil descrita no Módulo I, assinale a alternativa que apresenta a correta correspondência entre o marco normativo e a contribuição que lhe é característica.",
-    "alternativas": {
-      "A": "Decreto-Lei nº 2.994/1941 (primeiro Código Nacional de Trânsito) — reconhece o número de chassi como elemento central da individualização do veículo, marcando a vinculação à estrutura física.",
-      "B": "Resolução Contran nº 24/1998 — rompe com o paradigma puramente administrativo e introduz, pela primeira vez no ordenamento brasileiro, a noção de identificação estrutural por caracteres gravados.",
-      "C": "Lei nº 5.108/1966 (novo Código Nacional de Trânsito) — reconhece o número de chassi como elemento central da individualização do veículo.",
-      "D": "Resolução Contran nº 659/1985 — institui o sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes e elementos ocultos, tudo articulado ao RENAVAM."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O capítulo 3 afirma que a Lei nº 5.108/1966 institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo (alternativa C). Erram: A, pois o CNT de 1941 vinculava a identificação à placa/registro/licenciamento, sem identificador estruturado; B, pois quem rompeu com o paradigma administrativo e introduziu a identificação estrutural foi a Resolução 659/1985, sendo a 24/1998 norma consolidadora; D, pois o sistema multidentificador é da Resolução 968/2022, não da 659/1985.",
-    "referencia": "Cap. 3, p. 12",
-    "nivel": "dificil"
-  },
-  {
     "id": 579,
     "disciplina": "PVAT - Módulo I (Identificação Veicular)",
     "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
@@ -11311,23 +11277,6 @@
     "resposta_correta": "B",
     "justificativa": "O capítulo afirma textualmente que, em vez de afirmar 'a velocidade era de 73 km/h', o perito pode afirmar com rigor científico 'a velocidade era de 73 km/h com 90% de probabilidade no intervalo de 65 a 82 km/h', o que é tecnicamente mais honesto e juridicamente mais robusto.",
     "referencia": "Cap. 11, Seção 11.1, p. 67",
-    "nivel": "facil"
-  },
-  {
-    "id": 830,
-    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
-    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante uma palestra sobre fundamentos históricos do Método de Monte Carlo para peritos em formação, o instrutor descreve o contexto da criação do método. Sobre a origem e desenvolvimento do MMC, conforme apresentado no capítulo, é CORRETO afirmar que:",
-    "alternativas": {
-      "A": "O método foi desenvolvido por Albert Einstein durante a Primeira Guerra Mundial para cálculos relativísticos aplicados a projéteis balísticos, sendo somente mais tarde adaptado ao tráfego.",
-      "B": "Foi desenvolvido durante o Projeto Manhattan (1942-1945) por von Neumann, Ulam e Metropolis, recebendo o nome em referência ao cassino de Mônaco.",
-      "C": "Foi criado por Ronald Fisher no início do século XX, no contexto da estatística agronômica de Rothamsted, para experimentos em parcelas de cultivo.",
-      "D": "Surgiu nas décadas de 1980 e 1990 com Fonda e Bhavnani, especificamente para reconstrução de acidentes, não tendo aplicações anteriores em outras áreas científicas."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma que 'O Método de Monte Carlo foi formalmente desenvolvido durante o Projeto Manhattan (desenvolvimento da bomba atômica, 1942-1945) pelos matemáticos John von Neumann, Stanislaw Ulam e Nicholas Metropolis' e que o nome 'Monte Carlo' foi proposto por Metropolis em referência ao cassino de Mônaco.",
-    "referencia": "Cap. 11, Seção 11.2.1, p. 67-68",
     "nivel": "facil"
   },
   {
@@ -23384,23 +23333,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1541,
-    "disciplina": "PCEB - Química Forense",
-    "conteudo": "Cap. 2 - Estimulantes",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o ecstasy (MDMA/MDA), o material traz dados históricos e legais. Assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A MDMA surgiu em 1912, em pesquisa da Merck, e MDMA e MDA estão na Lista F2",
-      "B": "A MDMA foi sintetizada por Shulgin em 1912 e está na Lista A3 de uso controlado",
-      "C": "A MDA é mais recente que a MDMA e produz efeitos bem mais brandos e fugazes",
-      "D": "O ecstasy passou a ser usado como droga de abuso já em 1910, na cidade de Ibiza"
-    },
-    "resposta_correta": "A",
-    "justificativa": "O material indica que a MDMA surgiu em 1912 em pesquisa da Merck e que MDMA e MDA integram a Lista F2 (psicotrópicas proscritas). B erra: Shulgin a redescobriu em 1960, e ela é proscrita (F2), não A3. C inverte, pois a MDA é mais antiga (1910) e de efeitos mais intensos e duradouros. D confunde datas e local: o uso de abuso estourou no final dos anos 80, em Ibiza. (p. 24-25)",
-    "referencia": "PDF Química Forense, p. 24",
-    "nivel": "dificil"
-  },
-  {
     "id": 1542,
     "disciplina": "PCEB - Química Forense",
     "conteudo": "Cap. 3 - Canabinoides",
@@ -23758,23 +23690,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1563,
-    "disciplina": "PCEB - Química Forense",
-    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o texto, o ácido barbitúrico, precursor dessa classe, foi obtido primeiramente em 1864, e o primeiro barbitúrico usado na medicina foi o barbital (Veronal) em 1903. A quem o texto atribui, respectivamente, essas obtenções?",
-    "alternativas": {
-      "A": "Adolf von Baeyer (1864) e, depois, Emil Fischer e Joseph von Mehring (1903)",
-      "B": "Emil Fischer (1864) e, depois, Adolf von Baeyer e von Mehring (1903)",
-      "C": "Joseph von Mehring (1864) e, depois, Adolf von Baeyer e Fischer (1903)",
-      "D": "Emil Fischer e Joseph von Mehring (1864) e, depois, somente Adolf von Baeyer (1903)"
-    },
-    "resposta_correta": "A",
-    "justificativa": "Correta a A: o texto atribui a obtenção do ácido barbitúrico em 1864 a Adolf von Baeyer, e o barbital (Veronal) de 1903 a Emil Fischer e Joseph von Mehring (p. 33). As alternativas B, C e D erram porque trocam os autores ou as datas, atribuindo a Baeyer o barbital de 1903 e/ou a Fischer/Mehring o ácido barbitúrico de 1864, contrariando o texto.",
-    "referencia": "PDF Química Forense, p. 33",
-    "nivel": "dificil"
-  },
-  {
     "id": 1564,
     "disciplina": "PCEB - Química Forense",
     "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
@@ -23824,23 +23739,6 @@
     "justificativa": "Correta a C: o texto associa o clonazepam ao nome comercial Rivotril, com indicação anticonvulsivante (p. 34). A A erra porque o diazepam corresponde ao Valium e outros, não ao Rivotril. A B erra porque o bromazepam é o Lexotan. A D erra porque o lorazepam é o Lorax/Relax/Loril, não o Rivotril.",
     "referencia": "PDF Química Forense, p. 34",
     "nivel": "dificil"
-  },
-  {
-    "id": 1567,
-    "disciplina": "PCEB - Química Forense",
-    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
-    "tipo": "multipla_escolha",
-    "enunciado": "O LSD (dietilamida do ácido lisérgico) é uma das drogas alucinógenas mais conhecidas. Sobre sua origem e síntese, é correto afirmar que foi sintetizado:",
-    "alternativas": {
-      "A": "em 1938 pelo químico suíço Albert Hoffmann, no laboratório Sandoz, a partir do ácido lisérgico extraído do fungo Claviceps purpurea.",
-      "B": "em 1948 pelo químico alemão Albert Hoffmann, no laboratório Bayer, a partir do ácido lisérgico extraído do cogumelo Psilocybe mexicana.",
-      "C": "em 1938 pelo químico suíço Albert Hoffmann, no laboratório Sandoz, a partir da harmina extraída do cipó mariri.",
-      "D": "em 1938 pelo químico francês Albert Hoffmann, no laboratório Sandoz, a partir da psilocibina extraída do centeio."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Correta A: o texto afirma que o LSD foi sintetizado em 1938 pelo químico suíço Albert Hoffmann, do laboratório Sandoz, usando como matéria-prima o ácido lisérgico obtido de extratos do fungo parasitário do centeio Claviceps purpurea (p. 36). B erra o ano (1948), a nacionalidade (alemão), o laboratório (Bayer) e a matéria-prima (cogumelo). C erra a matéria-prima, pois a harmina vem do cipó mariri da ayahuasca, não do LSD. D erra a nacionalidade (suíço, não francês) e a matéria-prima (ácido lisérgico, não psilocibina).",
-    "referencia": "PDF Química Forense, p. 36",
-    "nivel": "facil"
   },
   {
     "id": 1568,
@@ -24164,23 +24062,6 @@
     "justificativa": "A correta é a C: até 2016 o Brasil adotava somente a listagem nominal e, diante do surgimento de novas drogas em velocidade superior à inclusão normativa, decidiu-se adotar TAMBÉM formas de classificação genéricas (estruturais). A) errada: as listas F nacionais não foram substituídas por listas da ONU. B) errada: a RDC 79/2016 proibiu canabinoides sintéticos, não os descriminalizou. D) errada: a listagem nominal não foi abandonada; a classificação genérica foi adicionada a ela. (p. 44)",
     "referencia": "PDF Química Forense, p. 44",
     "nivel": "medio"
-  },
-  {
-    "id": 1587,
-    "disciplina": "PCEB - Química Forense",
-    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Considerando a linha do tempo das RDCs que incluíram classes estruturais na Lista F2 da Portaria n.º 344/1998, qual sequência relaciona corretamente RDC, ano e grupo de NSP?",
-    "alternativas": {
-      "A": "RDC 79/2016 (catinonas sintéticas) → RDC 175/2017 (feniletilaminas) → RDC 325/2019 (canabinoides sint.).",
-      "B": "RDC 325/2016 (canabinoides sint.) → RDC 175/2017 (catinonas sintéticas) → RDC 79/2019 (feniletilaminas).",
-      "C": "RDC 79/2016 (canabinoides sint.) → RDC 175/2017 (catinonas sint.) → RDC 325/2019 (feniletilaminas).",
-      "D": "RDC 175/2016 (feniletilaminas) → RDC 79/2017 (canabinoides sint.) → RDC 325/2019 (catinonas sintéticas)."
-    },
-    "resposta_correta": "C",
-    "justificativa": "A correta é a C: a sequência é RDC 79 (2016, dez classes de canabinoides sintéticos) → RDC 175 (2017, catinonas sintéticas) → RDC 325 (2019, feniletilaminas); os números crescentes acompanham os anos crescentes. A) errada: troca os grupos associados às RDCs. B) e D) erradas: invertem os números/anos das RDCs e os grupos correspondentes. (p. 44)",
-    "referencia": "PDF Química Forense, p. 44",
-    "nivel": "dificil"
   },
   {
     "id": 1588,
