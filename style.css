@@ -5180,7 +5180,26 @@ html.dark-mode .rt-toolbar { background: rgba(255,255,255,0.03); }
 html.dark-mode .rt-block { background: rgba(15, 23, 42, 0.6); border-color: rgba(255,255,255,0.1); color: var(--text-main); }
 html.dark-mode .rt-btn { color: var(--text-main); }
 html.dark-mode .rt-btn:hover { background: rgba(59, 130, 246, 0.18); }
-/* O conteúdo da nota permanece em "papel" claro mesmo no dark, para leitura confortável */
+/* Área de edição da anotação acompanha o modo escuro (cores escolhidas pelo
+   usuário no texto via inline-style permanecem como ele definiu). */
+html.dark-mode .rt-editor {
+    background: rgba(15, 23, 42, 0.6);
+    color: #e2e8f0;
+}
+html.dark-mode .rt-editor:focus { box-shadow: inset 0 0 0 2px rgba(59, 130, 246, 0.35); }
+html.dark-mode .rt-editor:empty::before { color: #64748b; }
+html.dark-mode .rt-editor h2 { color: #93c5fd; }
+html.dark-mode .rt-editor h3 { color: #bfdbfe; }
+html.dark-mode .rt-editor h4 { color: #cbd5e1; }
+html.dark-mode .rt-editor a { color: #93c5fd; }
+html.dark-mode .rt-editor blockquote {
+    background: rgba(255, 255, 255, 0.04);
+    border-left-color: #475569;
+    color: #cbd5e1;
+}
+/* Trechos com marca-texto (fundo claro aplicado pelo usuário): mantém texto
+   escuro para não sumir o contraste sobre o realce. */
+html.dark-mode .rt-editor [style*="background-color"] { color: #1e293b; }
 
 @media (max-width: 768px) {
     .note-meta-row { grid-template-columns: 1fr; }
