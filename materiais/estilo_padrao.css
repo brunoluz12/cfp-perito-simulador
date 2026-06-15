@@ -15,3 +15,15 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Figuras extraídas do PDF (imagens reais) — usado em todos os capítulos */
+figure.fig-pdf { margin: 24px auto; text-align: center; max-width: 540px; }
+figure.fig-pdf img {
+    width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 8px;
+    background: #fff; padding: 8px; box-sizing: border-box;
+}
+figure.fig-pdf figcaption {
+    font-size: 0.85em; color: #718096; font-style: italic; margin-top: 8px; line-height: 1.4;
+}
+.fig-row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; margin: 24px 0; }
+.fig-row figure.fig-pdf { flex: 1 1 240px; max-width: 300px; margin: 0; }
