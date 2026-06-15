@@ -1,0 +1,106 @@
+[
+ {
+  "page": 21,
+  "xref": 45,
+  "file": "p021_45.png",
+  "w": 616,
+  "h": 486,
+  "caption": "Figura 1 – Croqui parcial de um acidente em um cruzamento sinalizado com o veículo V1 a uma velocidade média durante o evento de 40 km/h e seu conduto"
+ },
+ {
+  "page": 31,
+  "xref": 71,
+  "file": "p031_71.png",
+  "w": 1482,
+  "h": 881,
+  "caption": "Figura 2 – Gráfico mostrando as distâncias em que veículos em diferentes velocidades com diferentes coeficientes de arrasto (atrito) se deslocam após "
+ },
+ {
+  "page": 34,
+  "xref": 80,
+  "file": "p034_80.png",
+  "w": 1782,
+  "h": 881,
+  "caption": "Figura 3 - Diagrama Velocidade × Tempo mostrando as fases de percepção, reação e fre­"
+ },
+ {
+  "page": 35,
+  "xref": 86,
+  "file": "p035_86.jpeg",
+  "w": 834,
+  "h": 693,
+  "caption": "Figura 4 – Medindo o raio de uma curva."
+ },
+ {
+  "page": 36,
+  "xref": 90,
+  "file": "p036_90.jpeg",
+  "w": 986,
+  "h": 319,
+  "caption": "5.7 Coeficientes de Atrito"
+ },
+ {
+  "page": 37,
+  "xref": 94,
+  "file": "p037_94.png",
+  "w": 1784,
+  "h": 1030,
+  "caption": "Figura 6 - Faixas de coeficientes de atrito para diferentes superfícies e condições."
+ },
+ {
+  "page": 41,
+  "xref": 105,
+  "file": "p041_105.png",
+  "w": 798,
+  "h": 1785,
+  "caption": "Figura 7 - Fluxograma para a realização do trabalho da equipe de análise pericial em busca da elucidação da dinâmica do acidente de tráfego."
+ },
+ {
+  "page": 45,
+  "xref": 116,
+  "file": "p045_116.png",
+  "w": 834,
+  "h": 466,
+  "caption": "Figura 8 – Croqui de localização dos danos em um automóvel."
+ },
+ {
+  "page": 46,
+  "xref": 120,
+  "file": "p046_120.png",
+  "w": 2085,
+  "h": 595,
+  "caption": "Figura 9: Tipos de marcas pneumáticas: frenagem (esq.), derrapagem (centro) e ABS (dir.)."
+ },
+ {
+  "page": 64,
+  "xref": 159,
+  "file": "p064_159.jpeg",
+  "w": 767,
+  "h": 427,
+  "caption": "Figura 10 – Exemplo de croqui de um acidente de tráfego onde houve uma colisão frontal de um automóvel com um caminhão (imagem gentilmente cedida pelo"
+ },
+ {
+  "page": 71,
+  "xref": 176,
+  "file": "p071_176.png",
+  "w": 2084,
+  "h": 741,
+  "caption": "Figura 11: Distribuições de entrada (distância e coeficiente de atrito) e distribuição resultante de velocidade."
+ },
+ {
+  "page": 76,
+  "xref": 189,
+  "file": "p076_189.png",
+  "w": 1785,
+  "h": 739,
+  "caption": "Figura 12 – Convergência da média e do desvio padrão com o número de simulações."
+ },
+ {
+  "page": 77,
+  "xref": 194,
+  "file": "p077_194.png",
+  "w": 1484,
+  "h": 879,
+  "caption": "Figura 13 – Tornado Chart: análise de sensibilidade da velocidade calculada."
+ }
+]
