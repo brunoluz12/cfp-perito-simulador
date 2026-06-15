@@ -1,0 +1,171 @@
+[
+  {
+    "id": 489,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "enunciado": "Perito Criminal Federal recebe em carga requisição de exame de natureza complexa, cuja conclusão demandará prazo significativamente superior ao previsto no art. 160 do CPP. À luz do CPP e da IN DG/PF nº 255/2023, bem como das boas práticas de gestão da criminalística federal, assinale a alternativa que descreve corretamente o tratamento dos prazos de elaboração do laudo pericial.",
+    "alternativas": {
+      "A": "O art. 160 do CPP foi tacitamente revogado pela IN 255/2023, que instituiu prazo único de 30 dias para todos os laudos, admitida prorrogação automática a critério exclusivo do perito designado, sem necessidade de comunicação ao requisitante.",
+      "B": "O laudo deve ser elaborado no prazo máximo de 10 dias, prorrogável em casos excepcionais a requerimento dos peritos (art. 160 do CPP); a IN 255/2023 (art. 58) prevê a prorrogação mediante solicitação fundamentada, com indicação de prazo estimado para conclusão da perícia.",
+      "C": "O laudo deve ser elaborado em até 10 dias corridos, prazo improrrogável, sob pena de nulidade do exame e de responsabilização funcional do perito designado, salvo motivo de força maior reconhecido pelo juízo.",
+      "D": "O prazo de 10 dias conta-se da data do exame in loco e pode ser prorrogado pelo gestor da unidade independentemente de comunicação ao requisitante, conforme expressamente disposto no art. 58 da IN 255/2023."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 492,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "enunciado": "Delegado de Polícia Federal, no curso de inquérito policial em circunscrição da SR/PE, decide encaminhar requisição de exame pericial diretamente a unidade de criminalística vinculada a outra Superintendência, sob o argumento de maior expertise técnica daquela unidade. À luz da IN DG/PF nº 255/2023, em especial dos arts. 55 e 62, assinale a alternativa correta acerca do procedimento adotado.",
+    "alternativas": {
+      "A": "O procedimento é regular, pois a IN 255/2023 faculta ao requisitante eleger livremente a unidade de criminalística de maior expertise para atender à requisição, independentemente da circunscrição.",
+      "B": "O procedimento é regular desde que haja prévia anuência do Diretor Técnico-Científico, ficando dispensada a observância da circunscrição sempre que se tratar de exame de natureza complexa.",
+      "C": "O procedimento é irregular apenas quanto à eventual ausência do termo de apreensão; no tocante à escolha da unidade, a IN 255/2023 confere autonomia plena ao delegado requisitante.",
+      "D": "O procedimento é irregular, pois, nos termos do art. 55 da IN 255/2023, as requisições de exame devem ser dirigidas ao chefe da unidade de perícia criminal federal da circunscrição a que estiver vinculada, acompanhadas dos termos de apreensão e distribuídas imediatamente aos peritos."
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "id": 555,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "enunciado": "Ao discutir a evolução normativa internacional das ciências forenses, um perito criminal federal afirma que a série ISO 21043 nasceu para suprir lacunas da ISO/IEC 17025 no contexto pericial. Considerando os referenciais expostos no Capítulo 10, assinale a alternativa correta acerca da distinção entre a série ISO 21043 e a ISO/IEC 17025.",
+    "alternativas": {
+      "A": "a ISO 21043 foi elaborada por iniciativa direta do PCAST norte-americano, em substituição integral aos antigos Scientific Working Groups (SWGs), e possui caráter plenamente cogente, sobrepondo-se de pleno direito às leis internas de cada um dos países signatários.",
+      "B": "a ISO/IEC 17025 trata da competência de laboratórios de ensaio e calibração, mas não aborda especificidades periciais como interpretação e comunicação ao sistema de justiça, lacuna que motivou a ISO 21043 (ISO/TC 272); ademais, nesta não há acreditação.",
+      "C": "tanto a ISO 21043 quanto a ISO/IEC 17025 conferem acreditação a laboratórios forenses, sendo a primeira voltada à fase analítica e a segunda à fase interpretativa, formando um sistema dual de certificação.",
+      "D": "a série ISO 21043 substituiu definitivamente a ISO/IEC 17025 no contexto pericial, tornando-se o único referencial de acreditação reconhecido pelo ILAC para laboratórios forenses, inclusive no Brasil, pelo CGCRE/Inmetro."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 557,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "enunciado": "A Lei nº 13.964/2019 (Pacote Anticrime) incluiu no Código de Processo Penal os arts. 158-A a 158-F, disciplinando expressamente a cadeia de custódia. No âmbito da Polícia Federal, a regulamentação foi complementada pela IN DG/PF nº 297/2024 e por normativos da DITEC. Com base no Capítulo 11, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A cadeia de custódia inicia-se com a preservação do local ou ao se detectar vestígio em local de crime ou no corpo da vítima, formalizando-se fixação, coleta, acondicionamento e transporte no TCV, adotado pela PF a partir da IN DG/PF nº 297/2024.",
+      "B": "A cadeia de custódia, conforme a Lei nº 13.964/2019, tem início somente quando o vestígio é entregue na secretaria da unidade de criminalística, ocasião em que se realiza a primeira conferência e se inicia a documentação cronológica do material.",
+      "C": "A Lei nº 13.964/2019 estabelece que a cadeia de custódia é gerenciada exclusivamente pelo sistema ePol, cabendo ao Siscrim apenas a emissão do laudo pericial e o arquivamento da requisição após a conclusão do exame.",
+      "D": "A cadeia de custódia interna inicia-se com o reconhecimento dos vestígios no local de crime e encerra-se com a deslacração da embalagem pela secretaria, sendo o TCV o documento que substitui a ficha de acompanhamento do vestígio prevista na IN nº 163/2020 – DG/PF."
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "id": 580,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "enunciado": "Acerca da Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988) e da Resolução Contran nº 24/1998, conforme apresentadas no contexto histórico-normativo da identificação veicular, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A Resolução nº 24/1998 foi pioneira ao prever a identificação por caracteres gravados em elemento estrutural, ao passo que a Resolução nº 659/1985 se limitou a disciplinar a confecção e a fixação das placas.",
+      "B": "A Resolução nº 659/1985 foi o primeiro diploma infralegal a estruturar um modelo de identificação material e integrada, enquanto a Resolução nº 24/1998 consolidou e sistematizou o modelo já existente, alinhando-o ao CTB.",
+      "C": "Ambas as resoluções tratam exclusivamente da identificação externa do veículo por placas, não abordando, em nenhum momento, a identificação por caracteres gravados em chassi ou em monobloco do veículo.",
+      "D": "A Resolução nº 691/1988 revogou integralmente o regime de identificação por gravação estrutural instituído em 1985, fazendo o sistema brasileiro retornar a uma lógica de controle puramente administrativo e fiscalizatório."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 587,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "enunciado": "Durante fiscalização de rotina, um Perito Criminal Federal examina automóvel cuja placa traseira apresenta combinação de três letras seguidas de quatro algarismos, tarjetas indicativas da Unidade da Federação e do município de registro, além de lacre físico fixado à estrutura. Considerando o regime normativo que historicamente fundamentou esse modelo de Placa de Identificação Veicular (PIV) no Brasil, esse padrão",
+    "alternativas": {
+      "A": "decorre da Resolução Contran nº 729/2018, primeira norma a instituir o padrão Mercosul com indicação apenas do país e código serial único associado a QR Code de leitura obrigatória.",
+      "B": "é próprio da Resolução Contran nº 969/2022, que consolidou o padrão Mercosul mantendo a vinculação visual da placa ao município e à Unidade da Federação de registro do veículo.",
+      "C": "foi estabelecido pela Resolução Contran nº 231/2007, que disciplinou dimensões, tipologia dos caracteres, pintura, cores associadas às categorias, materiais, refletividade e dispositivos de lacração.",
+      "D": "é exclusivo de veículos oficiais, diplomáticos e consulares, sendo vedada sua adoção em veículos de propriedade particular no regime normativo então vigente no território nacional."
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "id": 590,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "enunciado": "Em laudo pericial sobre veículo emplacado em 2010, o perito identifica, em superfície plana da placa e da tarjeta, um código composto por número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em relevo. Sobre esse elemento, é correto afirmar que",
+    "alternativas": {
+      "A": "corresponde ao código de cadastramento do fabricante da placa e da tarjeta, especificado pela Resolução nº 241/2007, gravado em superfície plana, em alto ou baixo relevo.",
+      "B": "constitui o número de série do QR Code, elemento de rastreabilidade exclusivo do padrão Mercosul, exigido pela Resolução nº 969/2022 e verificável por meio do aplicativo VIO oficial.",
+      "C": "representa o código WMI do fabricante do veículo, vinculado à norma ABNT NBR 6066:2022 e gravado obrigatoriamente no monobloco para individualização estrutural da unidade.",
+      "D": "é o lacre físico da placa traseira que, no regime então vigente, substituía qualquer outra forma de identificação do estampador credenciado perante o órgão executivo de trânsito."
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "id": 648,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "enunciado": "Ao examinar um veículo de fabricação nacional do final da década de 1960 submetido a perícia, o perito federal precisa contextualizar o momento em que o ordenamento brasileiro deixou de tratar a identificação veicular como questão puramente atrelada à placa, ao registro e ao licenciamento, passando a reconhecer a estrutura física do veículo como elemento central de individualização. Conforme o material didático, esse movimento de transição é mais corretamente associado a qual marco normativo?",
+    "alternativas": {
+      "A": "À Resolução Contran nº 24/1998, que, ao consolidar o sistema brasileiro, foi a primeira a prever a identificação por caracteres gravados em elemento estrutural do veículo.",
+      "B": "À Resolução Contran nº 968/2022, que introduziu, em caráter inédito no país, a noção de identificação estrutural ao lado da tradicional identificação externa por placas.",
+      "C": "Ao Decreto-Lei nº 3.651, de 1941, que tratou da identificação externa por meio de placas e, simultaneamente, do número de chassi como elemento central de individualização.",
+      "D": "À Lei nº 5.108, de 1966, que institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo."
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "id": 650,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "enunciado": "Um candidato a perito sustenta, em prova oral, que a Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988) teria caráter meramente administrativo e fiscalizatório, sem qualquer rompimento de paradigma em relação às normas anteriores, e que a Resolução Contran nº 24/1998 teria sido a verdadeira responsável por instituir, pela primeira vez, a identificação por caracteres gravados em elemento estrutural. Confrontando essa fala com o material didático, é correto afirmar que:",
+    "alternativas": {
+      "A": "o candidato acerta integralmente, pois somente a Resolução nº 24/1998 inaugura a identificação estrutural, ao passo que a Resolução nº 659/1985 teve natureza puramente administrativa e fiscalizatória.",
+      "B": "o candidato acerta parcialmente, pois ambas as resoluções romperam o paradigma administrativo, mas apenas a alteração promovida pela Resolução nº 691/1988 introduziu a identificação em elemento estrutural.",
+      "C": "o candidato erra, pois a Resolução nº 659/1985 já previa a identificação por caracteres gravados em elemento estrutural e rompeu com o paradigma administrativo, cabendo à Resolução nº 24/1998 papel consolidador.",
+      "D": "o candidato erra, pois nem a Resolução nº 659/1985 nem a Resolução nº 24/1998 previam identificação em elemento estrutural, exigência que só teria sido introduzida, em caráter inédito, pela Resolução Contran nº 968/2022."
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "id": 657,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "enunciado": "Em análise sobre a evolução normativa da identificação externa veicular no Brasil, o diploma legal apontado pelo material como pioneiro ao estabelecer a obrigatoriedade do registro e da identificação externa dos veículos automotores, inaugurando a vinculação entre veículo, proprietário e poder público, é",
+    "alternativas": {
+      "A": "a Lei nº 5.108/1966 (Código Nacional de Trânsito), que consolidou a placa como sinal identificador essencial e delegou ao poder público o controle do registro veicular.",
+      "B": "o Decreto-Lei nº 3.651, de 25 de setembro de 1941.",
+      "C": "o Decreto nº 62.127/1968, que regulamentou o Código Nacional de Trânsito e disciplinou em detalhe as especificações técnicas das placas dianteira e traseira dos veículos.",
+      "D": "a Resolução Contran nº 45/1998, responsável por instituir o modelo padronizado de placas no padrão cinza em âmbito nacional, uniformizando a identificação em todo o território."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 1301,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Acerca da evolução legislativa que disciplina os bancos de dados balísticos no Brasil, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Banco Nacional de Perfis Balísticos (BNPB) foi criado originalmente pelo Estatuto do Desarmamento (Lei nº 10.826/2003) e plenamente implementado já em 2004, sob gestão do SINARM.",
+      "B": "O SINAB foi criado pela Lei nº 13.964/2019 e o BNPB pelo Decreto nº 10.711/2021, ambos sob gestão direta do SINARM e sem comitê gestor próprio no Ministério da Justiça e Segurança Pública.",
+      "C": "O BNPB e o SINAB foram ambos criados, de forma originária e simultânea, pela Portaria DITEC/PF nº 1493/2024, que dispõe sobre a padronização de procedimentos para o encaminhamento de vestígios balísticos e de padrões de arma de fogo ao banco.",
+      "D": "A Lei nº 13.964/2019 acrescentou o art. 34-A à Lei nº 10.826/2003, criando o BNPB para armazenar perfis de projéteis e estojos relacionados a crimes; posteriormente, o Decreto nº 10.711/2021 instituiu formalmente o BNPB e criou o SINAB."
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "id": 1552,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "enunciado": "Segundo o texto, qual norma viabilizou o registro do primeiro medicamento à base de CBD e THC no Brasil, e como se chama esse medicamento?",
+    "alternativas": {
+      "A": "A RDC n.º 03/2015, que incluiu o CBD na Lista C1, viabilizou o registro do medicamento Sativex no Brasil.",
+      "B": "A RDC n.º 130/2016 incluiu derivados de Cannabis no adendo 2 da Lista A3, viabilizando o Mevatyl.",
+      "C": "A RDC n.º 39/2012, que atualizou a Lista E das plantas proscritas, viabilizou o registro do Mevatyl.",
+      "D": "A recente RDC n.º 1.015/2026 viabilizou o registro do primeiro medicamento brasileiro, o Mevatyl."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 1561,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "enunciado": "Segundo o texto, a planta Papaver somniferum está incluída em qual lista da Portaria n.º 344/98-SVS/MS, e por qual norma essa lista foi atualizada?",
+    "alternativas": {
+      "A": "Lista A1 (entorpecentes), atualizada pela RDC n.º 70/2009 da Anvisa",
+      "B": "Lista E (plantas proscritas), atualizada pela RDC n.º 39/2012",
+      "C": "Lista B1 (psicotrópicas), atualizada pela RDC n.º 39/2012",
+      "D": "Lista F1 (uso proscrito), atualizada pela RDC n.º 70/2009 da Anvisa"
+    },
+    "resposta_correta": "B"
+  }
+]

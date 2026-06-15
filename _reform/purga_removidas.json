@@ -219,5 +219,158 @@
     "justificativa": "A correta é a C: a sequência é RDC 79 (2016, dez classes de canabinoides sintéticos) → RDC 175 (2017, catinonas sintéticas) → RDC 325 (2019, feniletilaminas); os números crescentes acompanham os anos crescentes. A) errada: troca os grupos associados às RDCs. B) e D) erradas: invertem os números/anos das RDCs e os grupos correspondentes. (p. 44)",
     "referencia": "PDF Química Forense, p. 44",
     "nivel": "dificil"
+  },
+  {
+    "id": 580,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988) e da Resolução Contran nº 24/1998, conforme apresentadas no contexto histórico-normativo da identificação veicular, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A Resolução nº 24/1998 foi pioneira ao prever a identificação por caracteres gravados em elemento estrutural, ao passo que a Resolução nº 659/1985 se limitou a disciplinar a confecção e a fixação das placas.",
+      "B": "A Resolução nº 659/1985 foi o primeiro diploma infralegal a estruturar um modelo de identificação material e integrada, enquanto a Resolução nº 24/1998 consolidou e sistematizou o modelo já existente, alinhando-o ao CTB.",
+      "C": "Ambas as resoluções tratam exclusivamente da identificação externa do veículo por placas, não abordando, em nenhum momento, a identificação por caracteres gravados em chassi ou em monobloco do veículo.",
+      "D": "A Resolução nº 691/1988 revogou integralmente o regime de identificação por gravação estrutural instituído em 1985, fazendo o sistema brasileiro retornar a uma lógica de controle puramente administrativo e fiscalizatório."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O capítulo 3 indica que a Resolução nº 659/1985 representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação veicular de natureza material e integrada e que a Resolução nº 24/1998 funcionou como instrumento de organização, consolidação e sistematização de um modelo já existente, alinhando as práticas ao recém-instituído CTB (alternativa B). Erram: A e C, pois a 659/1985 já previa a gravação estrutural; D, pois a 691/1988 apenas alterou a 659/1985, não revogou o regime de gravação.",
+    "referencia": "Cap. 3, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 587,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante fiscalização de rotina, um Perito Criminal Federal examina automóvel cuja placa traseira apresenta combinação de três letras seguidas de quatro algarismos, tarjetas indicativas da Unidade da Federação e do município de registro, além de lacre físico fixado à estrutura. Considerando o regime normativo que historicamente fundamentou esse modelo de Placa de Identificação Veicular (PIV) no Brasil, esse padrão",
+    "alternativas": {
+      "A": "decorre da Resolução Contran nº 729/2018, primeira norma a instituir o padrão Mercosul com indicação apenas do país e código serial único associado a QR Code de leitura obrigatória.",
+      "B": "é próprio da Resolução Contran nº 969/2022, que consolidou o padrão Mercosul mantendo a vinculação visual da placa ao município e à Unidade da Federação de registro do veículo.",
+      "C": "foi estabelecido pela Resolução Contran nº 231/2007, que disciplinou dimensões, tipologia dos caracteres, pintura, cores associadas às categorias, materiais, refletividade e dispositivos de lacração.",
+      "D": "é exclusivo de veículos oficiais, diplomáticos e consulares, sendo vedada sua adoção em veículos de propriedade particular no regime normativo então vigente no território nacional."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Seção 6.1, a Resolução nº 231/2007 estabeleceu o sistema baseado em três letras e quatro números, com tarjetas indicativas da UF e do município de registro, detalhando 'as dimensões físicas das placas, a tipologia dos caracteres, o sistema de pintura, as cores associadas às categorias de veículos, os materiais admitidos, os parâmetros de refletividade e os dispositivos de lacração' (alternativa C). A está errada: a Res. 729/2018 implantou o padrão Mercosul, não o modelo de três letras e quatro números com tarjetas e lacre físico. B inverte a evolução: a Res. 969/2022 (Mercosul) deixa de exibir município e UF, indicando apenas o país. D é falsa: o padrão alcançava também veículos particulares.",
+    "referencia": "Cap. 6, Seção 6.1, p. 22",
+    "nivel": "facil"
+  },
+  {
+    "id": 647,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em palestra sobre a evolução normativa da identificação veicular, um perito federal faz as seguintes afirmações sobre marcos históricos mundiais e brasileiros tratados no material. Julgue os itens: I — Em escala global, os primeiros esforços sistemáticos de padronização da identificação veicular surgem no pós-guerra, com início do uso do VIN nos Estados Unidos ainda na década de 1950. II — Na fase inicial, o VIN já obedecia a um padrão único quanto a tamanho, formato e conteúdo, definido em comum acordo entre os fabricantes norte-americanos. III — A consolidação de padrão técnico internacional ocorre no final da década de 1970, quando a ISO publica, em 1977, a norma ISO 3779, estabelecendo o VIN com 17 caracteres alfanuméricos. IV — Em 1981, o padrão de 17 caracteres passa a ser adotado oficialmente nos Estados Unidos por determinação da NHTSA. V — O Código Nacional de Trânsito de 1941, instituído pelo Decreto-Lei nº 2.994, já previa identificador veicular estruturado equivalente ao conceito moderno de VIN. Estão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I, III e IV.",
+      "B": "I, II e III.",
+      "C": "III, IV e V.",
+      "D": "II, IV e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O capítulo 3 confirma os itens I (primeiros esforços no pós-guerra, com uso do VIN nos EUA na década de 1950), III (ISO 3779 de 1977, com VIN de 17 caracteres) e IV (adoção oficial nos EUA em 1981 por determinação da NHTSA), correspondendo à alternativa A. O item II é falso, pois nesse estágio inicial o VIN não obedecia a padrão único, variando em tamanho, formato e conteúdo conforme o fabricante. O item V é falso, pois no CNT de 1941 ainda não havia menção a identificador estruturado equivalente ao VIN moderno. As demais alternativas incluem itens falsos (II e/ou V).",
+    "referencia": "Cap. 3, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 648,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao examinar um veículo de fabricação nacional do final da década de 1960 submetido a perícia, o perito federal precisa contextualizar o momento em que o ordenamento brasileiro deixou de tratar a identificação veicular como questão puramente atrelada à placa, ao registro e ao licenciamento, passando a reconhecer a estrutura física do veículo como elemento central de individualização. Conforme o material didático, esse movimento de transição é mais corretamente associado a qual marco normativo?",
+    "alternativas": {
+      "A": "À Resolução Contran nº 24/1998, que, ao consolidar o sistema brasileiro, foi a primeira a prever a identificação por caracteres gravados em elemento estrutural do veículo.",
+      "B": "À Resolução Contran nº 968/2022, que introduziu, em caráter inédito no país, a noção de identificação estrutural ao lado da tradicional identificação externa por placas.",
+      "C": "Ao Decreto-Lei nº 3.651, de 1941, que tratou da identificação externa por meio de placas e, simultaneamente, do número de chassi como elemento central de individualização.",
+      "D": "À Lei nº 5.108, de 1966, que institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O capítulo 3 destaca que a Lei nº 5.108/1966 institui novo Código Nacional de Trânsito e reconhece o número de chassi como elemento central da individualização do veículo, representando a transição para uma identificação menos dependente da placa e mais vinculada à estrutura física (alternativa D). Erram: A, pois a 24/1998 consolidou modelo já existente; B, pois a 968/2022 representa a maturidade, não a transição inicial; C, pois o diploma de 1941 vinculava a identificação a placa/registro, sem chassi como elemento central.",
+    "referencia": "Cap. 3, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 650,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um candidato a perito sustenta, em prova oral, que a Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988) teria caráter meramente administrativo e fiscalizatório, sem qualquer rompimento de paradigma em relação às normas anteriores, e que a Resolução Contran nº 24/1998 teria sido a verdadeira responsável por instituir, pela primeira vez, a identificação por caracteres gravados em elemento estrutural. Confrontando essa fala com o material didático, é correto afirmar que:",
+    "alternativas": {
+      "A": "o candidato acerta integralmente, pois somente a Resolução nº 24/1998 inaugura a identificação estrutural, ao passo que a Resolução nº 659/1985 teve natureza puramente administrativa e fiscalizatória.",
+      "B": "o candidato acerta parcialmente, pois ambas as resoluções romperam o paradigma administrativo, mas apenas a alteração promovida pela Resolução nº 691/1988 introduziu a identificação em elemento estrutural.",
+      "C": "o candidato erra, pois a Resolução nº 659/1985 já previa a identificação por caracteres gravados em elemento estrutural e rompeu com o paradigma administrativo, cabendo à Resolução nº 24/1998 papel consolidador.",
+      "D": "o candidato erra, pois nem a Resolução nº 659/1985 nem a Resolução nº 24/1998 previam identificação em elemento estrutural, exigência que só teria sido introduzida, em caráter inédito, pela Resolução Contran nº 968/2022."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O capítulo 3 afirma que a Resolução nº 659/1985 representa o primeiro diploma infralegal brasileiro a estruturar um modelo de identificação material e integrada, já prevendo a identificação por caracteres gravados em elemento estrutural e rompendo definitivamente com o paradigma puramente administrativo, enquanto a Resolução nº 24/1998 funcionou como instrumento de organização, consolidação e sistematização do modelo já existente (alternativa C). Erram A e B, pois a gravação estrutural é da 659/1985, não da 24/1998 nem isoladamente da 691/1988; D, pois a gravação estrutural antecede a 968/2022.",
+    "referencia": "Cap. 3, p. 12",
+    "nivel": "dificil"
+  },
+  {
+    "id": 657,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em análise sobre a evolução normativa da identificação externa veicular no Brasil, o diploma legal apontado pelo material como pioneiro ao estabelecer a obrigatoriedade do registro e da identificação externa dos veículos automotores, inaugurando a vinculação entre veículo, proprietário e poder público, é",
+    "alternativas": {
+      "A": "a Lei nº 5.108/1966 (Código Nacional de Trânsito), que consolidou a placa como sinal identificador essencial e delegou ao poder público o controle do registro veicular.",
+      "B": "o Decreto-Lei nº 3.651, de 25 de setembro de 1941.",
+      "C": "o Decreto nº 62.127/1968, que regulamentou o Código Nacional de Trânsito e disciplinou em detalhe as especificações técnicas das placas dianteira e traseira dos veículos.",
+      "D": "a Resolução Contran nº 45/1998, responsável por instituir o modelo padronizado de placas no padrão cinza em âmbito nacional, uniformizando a identificação em todo o território."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'O Decreto-Lei nº 3.651, de 25 de setembro de 1941, já estabelecia a obrigatoriedade do registro e da identificação externa dos veículos automotores como instrumento de fiscalização e controle estatal, inaugurando a vinculação entre veículo, proprietário e poder público' (alternativa B). A Lei 5.108/1966 e o Decreto 62.127/1968 (A e C) apenas consolidaram a placa como sinal identificador essencial, em momento posterior. A Res. 45/1998 (D) instituiu o padrão cinza.",
+    "referencia": "Cap. 6, Seção 6 (introdução), p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 1301,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da evolução legislativa que disciplina os bancos de dados balísticos no Brasil, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Banco Nacional de Perfis Balísticos (BNPB) foi criado originalmente pelo Estatuto do Desarmamento (Lei nº 10.826/2003) e plenamente implementado já em 2004, sob gestão do SINARM.",
+      "B": "O SINAB foi criado pela Lei nº 13.964/2019 e o BNPB pelo Decreto nº 10.711/2021, ambos sob gestão direta do SINARM e sem comitê gestor próprio no Ministério da Justiça e Segurança Pública.",
+      "C": "O BNPB e o SINAB foram ambos criados, de forma originária e simultânea, pela Portaria DITEC/PF nº 1493/2024, que dispõe sobre a padronização de procedimentos para o encaminhamento de vestígios balísticos e de padrões de arma de fogo ao banco.",
+      "D": "A Lei nº 13.964/2019 acrescentou o art. 34-A à Lei nº 10.826/2003, criando o BNPB para armazenar perfis de projéteis e estojos relacionados a crimes; posteriormente, o Decreto nº 10.711/2021 instituiu formalmente o BNPB e criou o SINAB."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme p. 77-78, o Estatuto do Desarmamento previu cadastro pelo SINARM, jamais implementado; em 2019, a Lei nº 13.964 acrescentou o art. 34-A à Lei nº 10.826/2003, criando o BNPB, e o Decreto nº 10.711/2021 instituiu formalmente o BNPB, criou o SINAB e o Comitê Gestor no MJSP (D correta). A atribui ao Estatuto a criação do BNPB e data erroneamente a implementação. B inverte os diplomas e a gestão. C atribui a criação à Portaria DITEC/PF nº 1493/2024 (p. 79), que apenas regula o encaminhamento de vestígios.",
+    "referencia": "PDF, p. 77-79",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1364,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 6 - Fotografia forense - conceitos básicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na evolução histórica da fotografia, a contribuição de Louis Jacques Mandé Daguerre foi especialmente importante por:",
+    "alternativas": {
+      "A": "reduzir o tempo de exposição a segundos, viabilizando o retrato instantâneo de pessoas.",
+      "B": "introduzir a imagem negativa em papel e vidro, que permitia a produção de várias cópias.",
+      "C": "resolver o problema da durabilidade das imagens por meio de um processo de fixação das chapas em solução salina, desenvolvendo o daguerreótipo.",
+      "D": "criar a primeira câmera primitiva e fixar uma imagem grosseira após horas de exposição."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Daguerre resolveu o problema da durabilidade com um processo de fixação — mergulhar as chapas em solução salina — e desenvolveu o daguerreótipo, imagem que não podia ser copiada, mas comercialmente viável (p. 49). Isso valida C. A e B referem-se a contribuições posteriores (Talbot e outros), que reduziram o tempo de exposição e introduziram o negativo com várias cópias. D corresponde a Niépce, autor da câmera primitiva com imagem de pouca durabilidade.",
+    "referencia": "PDF LOC, p. 49",
+    "nivel": "medio"
+  },
+  {
+    "id": 1552,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, qual norma viabilizou o registro do primeiro medicamento à base de CBD e THC no Brasil, e como se chama esse medicamento?",
+    "alternativas": {
+      "A": "A RDC n.º 03/2015, que incluiu o CBD na Lista C1, viabilizou o registro do medicamento Sativex no Brasil.",
+      "B": "A RDC n.º 130/2016 incluiu derivados de Cannabis no adendo 2 da Lista A3, viabilizando o Mevatyl.",
+      "C": "A RDC n.º 39/2012, que atualizou a Lista E das plantas proscritas, viabilizou o registro do Mevatyl.",
+      "D": "A recente RDC n.º 1.015/2026 viabilizou o registro do primeiro medicamento brasileiro, o Mevatyl."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta B: o texto afirma que a RDC n.º 130/2016 incluiu medicamentos com derivados de Cannabis (com até 30 mg/mL de THC e CBD) no adendo 2 da Lista A3 e viabilizou o registro do primeiro medicamento à base de CBD e THC no Brasil, o Mevatyl (p. 30). A errada: a RDC 03/2015 tratou da inclusão do CBD na Lista C1, não do registro do medicamento, que se chama Mevatyl. C errada: a RDC 39/2012 atualizou a Portaria/Lista E da planta, não viabilizou o registro do medicamento. D errada: a RDC 1.015/2026 é o novo marco regulatório recente, mas o registro do primeiro medicamento (Mevatyl) decorreu da RDC 130/2016.",
+    "referencia": "PDF Química Forense, p. 30",
+    "nivel": "dificil"
   }
 ]
