@@ -1,0 +1,104 @@
+[
+  {
+    "id": 412,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma aula sobre a história da Criminalística, o professor descreve duas contribuições: (i) o autor que publicou, em 1891, a primeira descrição compreensiva do uso de evidência física na solução de crimes, a quem se atribui ainda a criação do termo Criminalística, em 1893, com a publicação do Tratado de Criminalística; e (ii) o autor que, em 1813, publicou um Tratado de Toxicologia Geral, considerado o pai da toxicologia moderna e o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen. Os autores corretamente associados a essas contribuições são, respectivamente:",
+    "alternativas": {
+      "A": "Alphonse Bertillon e Mathieu Orfila.",
+      "B": "Hans Gross e Karl Landsteiner.",
+      "C": "Hans Gross e Mathieu Orfila.",
+      "D": "Juan Vucetich e Henry Faulds."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C. O texto registra que 'Em 1891, o alemão Hans Gross (...) publicou o livro Investigação Criminal, a primeira descrição compreensiva do uso de evidência física na solução de crimes', e a ele se atribui a criação do termo Criminalística em 1893, com o Tratado de Criminalística; e que 'Em 1813, Mathieu Orfila (...) publicou um Tratado de Toxicologia Geral. Ele é considerado o pai da toxicologia moderna (...) e foi o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen.' A erra ao atribuir a primeira contribuição a Bertillon (criador da antropometria, 1883). B erra ao associar a segunda contribuição a Landsteiner (grupos sanguíneos, 1900). D troca por autores ligados às impressões digitais (Vucetich, Faulds).",
+    "referencia": "Cap. 2, Introdução, p. 17-18",
+    "nivel": "medio"
+  },
+  {
+    "id": 414,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma palestra, afirma-se que, no Brasil, a história da Criminalística tem origem na Medicina Legal e que seu marco inaugural ocorreu no final do século XIX, na Bahia, com um catedrático que, ao assumir em 1891 a cátedra de Medicina Legal da Faculdade de Medicina da Bahia, estruturou em Salvador o primeiro grande serviço pericial organizado do país, influenciado por Cesare Lombroso e introdutor da antropologia criminal e da antropometria judicial de Bertillon. Esse catedrático e os discípulos que levaram a Medicina Legal científica, respectivamente, ao Rio de Janeiro e a São Paulo são:",
+    "alternativas": {
+      "A": "Nina Rodrigues; Afrânio Peixoto (Rio de Janeiro) e Oscar Freire (São Paulo).",
+      "B": "Raimundo Nina Rodrigues; Oscar Freire (Rio de Janeiro) e Afrânio Peixoto (São Paulo).",
+      "C": "Oscar Freire; Afrânio Peixoto, no Rio de Janeiro, e Raimundo Nina Rodrigues, em São Paulo.",
+      "D": "Afrânio Peixoto; Oscar Freire (Rio de Janeiro) e Nina Rodrigues (São Paulo)."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto afirma que 'O marco inaugural dessa trajetória ocorreu na Bahia, no final do século XIX, com a atuação de Raimundo Nina Rodrigues. Ao assumir, em 1891, a cátedra de Medicina Legal da Faculdade de Medicina da Bahia (...) estruturou, em Salvador, o primeiro grande serviço pericial organizado do Brasil.' E que, entre seus discípulos, 'destacam-se Afrânio Peixoto, que teve atuação decisiva na organização dos serviços médico-legais no Rio de Janeiro, e Oscar Freire, cuja influência foi determinante para a consolidação da Medicina Legal científica em São Paulo.' B inverte as cidades dos discípulos. C e D trocam o catedrático inaugural (Nina Rodrigues) por discípulos seus.",
+    "referencia": "Cap. 2, Seção 2.1, p. 19-20",
+    "nivel": "medio"
+  },
+  {
+    "id": 416,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em reunião institucional, discutem-se dois marcos da consolidação da Criminalística no Brasil: (i) o congresso em que foi oficialmente adotada a denominação 'Criminalística' em substituição ao termo 'Polícia Técnica'; e (ii) a inauguração, em Brasília, do Instituto de Criminalística vinculado ao Departamento Federal de Segurança Pública, que posteriormente daria origem ao Instituto Nacional de Criminalística. Esses eventos ocorreram, respectivamente, em:",
+    "alternativas": {
+      "A": "1947 (I Congresso Nacional de Polícia Técnica, em São Paulo) e 1962 (inauguração em Brasília).",
+      "B": "1962 (I Congresso Nacional de Polícia Técnica, em São Paulo) e 1991 (inauguração em Brasília).",
+      "C": "1893 (publicação do Tratado de Criminalística) e 1947 (inauguração em Brasília).",
+      "D": "1891 (cátedra de Nina Rodrigues, na Bahia) e 1947 (I Congresso Nacional de Polícia Técnica)."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A. O texto afirma que 'Um importante marco institucional ocorreu em 1947, durante a realização, em São Paulo, do I Congresso Nacional de Polícia Técnica, ocasião em que foi oficialmente adotada a denominação Criminalística em substituição ao termo Polícia Técnica', e que 'em 1962, com a inauguração, em Brasília, do Instituto de Criminalística vinculado ao Departamento Federal de Segurança Pública (...) foram lançadas as bases da moderna perícia criminal federal'. B troca a data do congresso (era 1947, não 1962) e da inauguração. C e D confundem os marcos com datas de outros eventos (Tratado de Criminalística de Gross e cátedra de Nina Rodrigues).",
+    "referencia": "Cap. 2, Seção 2.1, p. 20-21",
+    "nivel": "facil"
+  },
+  {
+    "id": 536,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um estudante de Criminalística confunde os precursores da ciência forense e suas respectivas contribuições. Com base no histórico apresentado no Cap. 2, assinale a associação CORRETA:",
+    "alternativas": {
+      "A": "Alphonse Bertillon foi o magistrado austríaco que, em 1893, publicou o Tratado de Criminalística, a quem se atribui a criação do termo Criminalística.",
+      "B": "Hans Gross, oficial britânico do serviço de registro civil indiano, teria sido o primeiro a empregar digitais de polegares como substituto das assinaturas de pessoas analfabetas em contratos.",
+      "C": "Juan Vucetich, renomado pesquisador da polícia argentina, inventou a antropometria judiciária, o que permitiu a primeira identificação de um criminoso reincidente já no ano de 1883.",
+      "D": "Mathieu Orfila publicou, em 1813, o Tratado de Toxicologia Geral, é tido como pai da toxicologia moderna e foi o primeiro a usar o microscópio em sangue e manchas de sêmen."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D. O Cap. 2 afirma que, em 1813, 'Mathieu Orfila (...) publicou um Tratado de Toxicologia Geral. Ele é considerado o pai da toxicologia moderna' e 'foi o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen'. A erra: o Tratado de Criminalística (1893) e a criação do termo são atribuídos a Hans Gross, não a Bertillon. B erra: quem usou digitais de polegares como substituto de assinaturas foi Sir William Herschel — Hans Gross foi magistrado/professor austríaco. C erra: a antropometria foi inventada por Alphonse Bertillon (1883); Vucetich desenvolveu a classificação datiloscópica para a América Latina.",
+    "referencia": "Cap. 2, p. 17-18",
+    "nivel": "medio"
+  },
+  {
+    "id": 537,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em debate acadêmico sobre as origens da Criminalística, dois alunos discutem o termo 'Criminalística', sua autoria e a diferença em relação à Criminologia. Com base no Cap. 2, julgue os itens:\n\nI. Foi Cesare Lombroso, em 1893, na Itália, quem cunhou o termo 'Criminalística' ao publicar o Tratado de Criminalística.\nII. Hans Gross, magistrado e professor de direito criminal da Universidade de Graz, publicou em 1891 o livro Investigação Criminal, sendo-lhe atribuída a criação do termo Criminalística em 1893.\nIII. A Criminologia estuda o delito como fenômeno individual e social, fornecendo elementos para a Política Penal, enquanto a Criminalística visa à comprovação da materialidade do delito e à identificação dos criminosos e seu modus operandi.\nIV. No Brasil, foi durante o I Congresso Nacional de Polícia Técnica, em 1947, em São Paulo, que se adotou oficialmente a denominação Criminalística em substituição ao termo Polícia Técnica.\nV. Nina Rodrigues, ao assumir em 1891 a cátedra de Medicina Legal da Faculdade de Medicina da Bahia, foi influenciado por Lombroso e introduziu no Brasil a antropologia criminal e a antropometria de Bertillon.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III, IV e V.",
+      "C": "III, IV e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B (II, III, IV e V). O Cap. 2 atribui a criação do termo Criminalística (1893, Tratado de Criminalística) a Hans Gross, e não a Cesare Lombroso, o que torna o item I incorreto e elimina A e D. Os demais itens reproduzem fielmente o texto: Gross, magistrado e professor em Graz, publicou Investigação Criminal em 1891 (item II); a distinção entre Criminologia (delito como fenômeno individual e social, base da Política Penal) e Criminalística (materialidade e modus operandi) (item III); a adoção oficial do termo Criminalística no I Congresso Nacional de Polícia Técnica de 1947, em São Paulo (item IV); e a atuação de Nina Rodrigues, influenciado por Lombroso, introduzindo a antropologia criminal e a antropometria de Bertillon (item V). Como II e V são corretos, fica excluída a alternativa C.",
+    "referencia": "Cap. 2, Seções 2.1 e 2.2, p. 18-21",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1516,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Relacione corretamente as Convenções internacionais sobre drogas com seus respectivos anos, conforme o material.",
+    "alternativas": {
+      "A": "1961 Convenção sobre Substâncias Psicotrópicas; 1971 Convenção Única sobre Entorpecentes; 1988 Tráfico Ilícito.",
+      "B": "1961 Convenção Única sobre Entorpecentes; 1971 Substâncias Psicotrópicas; 1988 Tráfico Ilícito.",
+      "C": "1961 Convenção contra o Tráfico Ilícito; 1971 Entorpecentes; 1988 Convenção sobre Substâncias Psicotrópicas.",
+      "D": "1961 Substâncias Psicotrópicas; 1971 Tráfico Ilícito; 1988 Convenção Única sobre Entorpecentes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material indica: 1961 = Convenção Única sobre Entorpecentes; 1971 = Substâncias Psicotrópicas; 1988 = Tráfico Ilícito (p. 10-11; mnemônico 'Entorpecente, Psicotrópico, Tráfico'). As alternativas A, C e D embaralham essa ordem dos anos com os temas.",
+    "referencia": "PDF Química Forense, p. 11",
+    "nivel": "medio"
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 412,
+    "disciplina": "Criminalística",
+    "motivos": [
+      "NOME:alts_nome=4",
+      "NOME:enun"
+    ],
+    "enunciado": "Em uma aula sobre a história da Criminalística, o professor descreve duas contribuições: (i) o autor que publicou, em 1891, a primeira descrição compreensiva do uso de evidência física na solução de crimes, a quem se atribui ainda a criação do termo Criminalística, em 1893, com a publicação do Tratado de Criminalística; e (ii) o autor que, em 1813, publicou um Tratado de Toxicologia Geral, considerado o pai da toxicologia moderna e o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen. Os autores corretamente associados a essas contribuições são, respectivamente:",
+    "alternativas": {
+      "A": "Alphonse Bertillon e Mathieu Orfila.",
+      "B": "Hans Gross e Karl Landsteiner.",
+      "C": "Hans Gross e Mathieu Orfila.",
+      "D": "Juan Vucetich e Henry Faulds."
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "id": 431,
+    "disciplina": "Criminalística",
+    "motivos": [
+      "DATA:enun"
+    ],
+    "enunciado": "Durante perícia em local de homicídio, um Perito Criminal Federal — que anos antes fora contratado pela família da vítima para emitir parecer técnico extrajudicial em caso diverso — omite deliberadamente do laudo a presença de vestígios indicativos de legítima defesa do acusado, com a intenção de favorecer a tese acusatória. Sobre a tipificação penal da conduta, à luz do art. 342 do CP e do Cap. 4, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A conduta não configura crime de falsa perícia, pois a contratação anterior do agente como parecerista extrajudicial de uma das partes descaracteriza, de modo absoluto e definitivo, a sua condição de perito oficial no caso ora periciado.",
+      "B": "A conduta configura falsa perícia (art. 342 do CP), pois o agente atua oficialmente como Perito Criminal Federal e age com dolo, sendo a omissão de vestígios apta a fraudar a verdade.",
+      "C": "A conduta não configura crime, pois a falsa perícia exige a produção de afirmação falsa, sendo a mera omissão de dados conduta atípica para fins do art. 342 do CP.",
+      "D": "A conduta configura apenas infração disciplinar de natureza administrativa, uma vez que o crime de falsa perícia somente se perfaz mediante reiteração de condutas pelo mesmo perito."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 461,
+    "disciplina": "Criminalística",
+    "motivos": [
+      "NOME:alts_nome=4"
+    ],
+    "enunciado": "Em um laudo de confronto datiloscópico, o perito declara: 'na minha opinião, seria impossível obter as semelhanças observadas entre a impressão questionada e o padrão do investigado caso a impressão questionada tivesse sido produzida por outra pessoa'. Em outro laudo, com base em imagens de CFTV, registra que 'estima-se que o veículo trafegava a 70 ± 5 km/h'. Segundo a ISO 21043-4, esses dois trechos correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "Razão de Verossimilhança e Explicação.",
+      "B": "Explicação e Razão de Verossimilhança.",
+      "C": "Razão de Verossimilhança e Estimativa.",
+      "D": "Opinião Categórica e Estimativa."
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "id": 537,
+    "disciplina": "Criminalística",
+    "motivos": [
+      "NOME:enun"
+    ],
+    "enunciado": "Em debate acadêmico sobre as origens da Criminalística, dois alunos discutem o termo 'Criminalística', sua autoria e a diferença em relação à Criminologia. Com base no Cap. 2, julgue os itens:\n\nI. Foi Cesare Lombroso, em 1893, na Itália, quem cunhou o termo 'Criminalística' ao publicar o Tratado de Criminalística.\nII. Hans Gross, magistrado e professor de direito criminal da Universidade de Graz, publicou em 1891 o livro Investigação Criminal, sendo-lhe atribuída a criação do termo Criminalística em 1893.\nIII. A Criminologia estuda o delito como fenômeno individual e social, fornecendo elementos para a Política Penal, enquanto a Criminalística visa à comprovação da materialidade do delito e à identificação dos criminosos e seu modus operandi.\nIV. No Brasil, foi durante o I Congresso Nacional de Polícia Técnica, em 1947, em São Paulo, que se adotou oficialmente a denominação Criminalística em substituição ao termo Polícia Técnica.\nV. Nina Rodrigues, ao assumir em 1891 a cátedra de Medicina Legal da Faculdade de Medicina da Bahia, foi influenciado por Lombroso e introduziu no Brasil a antropologia criminal e a antropometria de Bertillon.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III, IV e V.",
+      "C": "III, IV e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 588,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "motivos": [
+      "NOME:alts_nome=3"
+    ],
+    "enunciado": "Em exame pericial de veículo emplacado sob o regime da Resolução Contran nº 969/2022 (padrão Mercosul), o perito utiliza o aplicativo VIO para leitura do QR Code da placa traseira. Acerca desse procedimento e do sistema instituído pela referida Resolução, julgue os itens a seguir.\n\nI. A placa Mercosul adota combinação alfanumérica mista, alternando três letras, um número, uma letra e três números, ampliando a capacidade de séries disponíveis.\nII. O número de série obtido pela leitura do QR Code pode ser consultado no Portal de Serviços da Senatran, retornando dados atuais como placa vigente, últimos dígitos do chassi, UF de jurisdição, município, marca, modelo, anos de fabricação e modelo e cor do veículo.\nIII. A placa do padrão Mercosul passa a exibir de forma destacada o nome do município e a Unidade da Federação de registro, em substituição às antigas tarjetas geográficas.\nIV. O modelo Mercosul mantém integralmente o lacre físico tradicional como principal mecanismo de controle contra manipulação, sem qualquer forma de rastreabilidade digital ou autenticação eletrônica da placa.\n\nEstão corretos apenas os itens",
+    "alternativas": {
+      "A": "I e II.",
+      "B": "I, II e III.",
+      "C": "II e IV.",
+      "D": "III e IV."
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "id": 696,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "motivos": [
+      "NOME:alts_nome=3"
+    ],
+    "enunciado": "Sobre o reagente de Fry, utilizado no ataque químico em ligas de aço, julgue os itens:\nI. Sua composição corresponde a 90 g de CuCl2, 120 ml de HCl e 100 ml de H2O.\nII. A aplicação pode ser feita com algodão embebido sobre o local original da gravação.\nIII. Atua de modo uniforme em toda a superfície, sem distinguir áreas trabalhadas a frio das demais.\nEstá(ão) correto(s):",
+    "alternativas": {
+      "A": "Apenas I e II.",
+      "B": "Apenas II e III.",
+      "C": "Apenas I e III.",
+      "D": "I, II e III."
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "id": 747,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "motivos": [
+      "NOME:alts_nome=3"
+    ],
+    "enunciado": "Em perícia de atropelamento ocorrido em via urbana, é fundamental analisar as condições da travessia do pedestre. Sobre os direitos e deveres de pedestres previstos nos arts. 68 a 70 do CTB, conforme o material do PVAT, julgue os itens:\n\nI. O art. 70 assegura prioridade de passagem ao pedestre que estiver atravessando a via sobre as faixas delimitadas.\nII. O art. 69 exige que, para cruzar a via fora de faixas, o pedestre o faça paralelamente ao eixo da via, evitando a travessia perpendicular.\nIII. Os dispositivos dos arts. 68 a 70 são fundamentais para identificar a causa determinante nos atropelamentos – se foi a ausência de reação do condutor, a velocidade excessiva ou a entrada inopinada do pedestre.\nIV. As regras dos arts. 68 a 70 são irrelevantes ao laudo pericial, pois a aferição da culpa do pedestre cabe exclusivamente à esfera cível.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II e IV.",
+      "C": "I e III.",
+      "D": "III e IV."
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "id": 784,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "motivos": [
+      "NOME:alts_nome=4"
+    ],
+    "enunciado": "Conforme a Tabela 11 do PVAT - Módulo II, sobre sugestão de legendas para a localização de danos em veículos, considere uma avaria situada na parte ou porção mediana da lateral esquerda do automóvel. A legenda correta para essa localização, segundo a nomenclatura padronizada apresentada, é:",
+    "alternativas": {
+      "A": "LDM.",
+      "B": "LEM.",
+      "C": "PAM.",
+      "D": "AAE."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 1591,
+    "disciplina": "PCEB - Química Forense",
+    "motivos": [
+      "NOME:alts_nome=4"
+    ],
+    "enunciado": "No teste de Scott modificado, a coloração que indica a presença de cocaína é:",
+    "alternativas": {
+      "A": "Vermelha.",
+      "B": "Azul.",
+      "C": "Verde.",
+      "D": "Violeta."
+    },
+    "resposta_correta": "B"
+  }
+]

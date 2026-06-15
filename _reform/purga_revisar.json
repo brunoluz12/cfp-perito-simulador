@@ -1,0 +1,50 @@
+[
+  {
+    "id": 412,
+    "disciplina": "Criminalística",
+    "enunciado": "Em uma aula sobre a história da Criminalística, o professor descreve duas contribuições: (i) o autor que publicou, em 1891, a primeira descrição compreensiva do uso de evidência física na solução de crimes, a quem se atribui ainda a criação do termo Criminalística, em 1893, com a publicação do Tratado de Criminalística; e (ii) o autor que, em 1813, publicou um Tratado de Toxicologia Geral, considerado o pai da toxicologia moderna e o primeiro a usar o microscópio na avaliação de sangue e manchas de sêmen. Os autores corretamente associados a essas contribuições são, respectivamente:",
+    "alternativas": {
+      "A": "Alphonse Bertillon e Mathieu Orfila.",
+      "B": "Hans Gross e Karl Landsteiner.",
+      "C": "Hans Gross e Mathieu Orfila.",
+      "D": "Juan Vucetich e Henry Faulds."
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "id": 418,
+    "disciplina": "Criminalística",
+    "enunciado": "No I Congresso Nacional de Polícia Técnica (1947), a Criminalística foi definida como a 'disciplina que tem por objetivo o reconhecimento e a interpretação dos indícios materiais extrínsecos relativos ao crime ou à identidade do criminoso', cabendo os exames dos vestígios intrínsecos (na pessoa) à Medicina Legal. Examinando essa definição à luz dos conceitos atuais, é correto afirmar que:",
+    "alternativas": {
+      "A": "Talvez adequada àquele tempo, ela não expressa toda a missão da moderna Criminalística, hoje multidisciplinar, com Física, Química, Biologia, Engenharia, Informática e Medicina, entre outras.",
+      "B": "Essa definição expressa por completo a missão e o campo de ação da moderna Criminalística, sendo aplicada até hoje, sem qualquer alteração, por toda a Perícia Criminal Federal e estadual brasileira.",
+      "C": "Essa definição permanece plenamente atual quanto ao escopo, tendo sido apenas ampliada para incluir, além dos vestígios extrínsecos, também os exames psiquiátricos e sociológicos do criminoso reincidente.",
+      "D": "Essa definição extinguiu a Medicina Legal, que deixou de existir como ramo do conhecimento aplicado ao Direito após o congresso de 1947."
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "id": 537,
+    "disciplina": "Criminalística",
+    "enunciado": "Em debate acadêmico sobre as origens da Criminalística, dois alunos discutem o termo 'Criminalística', sua autoria e a diferença em relação à Criminologia. Com base no Cap. 2, julgue os itens:\n\nI. Foi Cesare Lombroso, em 1893, na Itália, quem cunhou o termo 'Criminalística' ao publicar o Tratado de Criminalística.\nII. Hans Gross, magistrado e professor de direito criminal da Universidade de Graz, publicou em 1891 o livro Investigação Criminal, sendo-lhe atribuída a criação do termo Criminalística em 1893.\nIII. A Criminologia estuda o delito como fenômeno individual e social, fornecendo elementos para a Política Penal, enquanto a Criminalística visa à comprovação da materialidade do delito e à identificação dos criminosos e seu modus operandi.\nIV. No Brasil, foi durante o I Congresso Nacional de Polícia Técnica, em 1947, em São Paulo, que se adotou oficialmente a denominação Criminalística em substituição ao termo Polícia Técnica.\nV. Nina Rodrigues, ao assumir em 1891 a cátedra de Medicina Legal da Faculdade de Medicina da Bahia, foi influenciado por Lombroso e introduziu no Brasil a antropologia criminal e a antropometria de Bertillon.\n\nEstão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "I, II e III.",
+      "B": "II, III, IV e V.",
+      "C": "III, IV e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "id": 721,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "enunciado": "Sobre o objetivo central da perícia em acidente de tráfego, conforme exposto na seção 2.3 (Da Perícia Criminal à Prova Judicial), julgue os itens: I - O objetivo central da perícia é determinar a culpa ou inocência dos envolvidos, função atribuída ao perito criminal federal. II - O objetivo central é reconstituir, com base em evidências materiais, a dinâmica da ocorrência: como aconteceu, quais forças estavam em jogo, quais velocidades eram desenvolvidas e o que determinou o resultado final. III - A partir da reconstituição técnica, o operador do direito poderá fazer os juízos jurídicos pertinentes. IV - O laudo pericial constitui meio de prova de elevada força no âmbito da Justiça, dada a sua origem técnica e científica. V - O perito deve, sempre que possível, antecipar-se ao juiz e indicar expressamente no laudo o responsável criminal pelo evento. Estão CORRETOS apenas os itens:",
+    "alternativas": {
+      "A": "Itens I, II e III.",
+      "B": "I, III e V.",
+      "C": "II, III e IV.",
+      "D": "II, IV e V."
+    },
+    "resposta_correta": "C"
+  }
+]
