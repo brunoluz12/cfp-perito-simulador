@@ -1365,6 +1365,33 @@ textarea:focus-visible {
     margin-bottom: 0;
 }
 
+.question-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Botão de excluir questão (somente admin) */
+.delete-question-btn {
+    font-size: 1.4rem;
+    color: var(--text-muted);
+    background: none;
+    border: 1px solid var(--panel-border);
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+}
+.delete-question-btn:hover {
+    color: var(--error-color);
+    background: var(--error-bg);
+    border-color: rgba(239, 68, 68, 0.35);
+}
+.delete-question-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .favorite-btn {
     font-size: 1.5rem;
     color: var(--text-muted);

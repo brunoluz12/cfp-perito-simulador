@@ -38,6 +38,8 @@ function aplicarTemaIframeMaterial() {
 
 // VARIÁVEIS GLOBAIS
 let bancoQuestoes = [];
+// IDs de questões excluídas pelo admin (lista global no servidor; filtrada ao carregar)
+let questoesExcluidasSet = new Set();
 
 // Ordenação natural: Cap. 1, Cap. 2, ..., Cap. 10 (e não Cap. 1, Cap. 10, Cap. 2)
 function naturalSort(a, b) {
@@ -208,6 +210,7 @@ async function tryLogin(username) {
     }
     
     // Iniciar fluxo normal do App
+    await carregarQuestoesExcluidas(); // antes de montar a base, para já filtrar
     carregarBancoQuestoes();
     carregarDadosPessoais();
     carregarEstatisticas();
@@ -502,6 +505,20 @@ class MultiSelect {
 let msDisciplina = null;
 let msConteudo = null;
 
+// Carrega a lista global de questões excluídas pelo admin (fail-safe)
+async function carregarQuestoesExcluidas() {
+    try {
+        const resp = await fetch('/api/questions');
+        if (resp.ok) {
+            const json = await resp.json();
+            questoesExcluidasSet = new Set((json.deleted || []).map(Number));
+        }
+    } catch (e) {
+        // API indisponível (uso local) — sem filtro de exclusão
+        questoesExcluidasSet = new Set();
+    }
+}
+
 // CARREGAMENTO DE DADOS
 function carregarBancoQuestoes() {
     try {
@@ -509,7 +526,8 @@ function carregarBancoQuestoes() {
             throw new Error('Variável questoesDB não encontrada. Verifique se o banco_questoes.js está correto.');
         }
 
-        bancoQuestoes = questoesDB;
+        // Filtra as questões excluídas globalmente pelo admin
+        bancoQuestoes = questoesDB.filter(q => !questoesExcluidasSet.has(q.id));
 
         // Extrai disciplinas únicas (ordenadas)
         const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
@@ -940,6 +958,8 @@ function configurarEventos() {
     }
     
     document.getElementById('btn-favorite').addEventListener('click', toggleFavorite);
+    const btnExcluirQ = document.getElementById('btn-excluir-questao');
+    if (btnExcluirQ) btnExcluirQ.addEventListener('click', excluirQuestaoAtual);
     document.getElementById('btn-save-comment').addEventListener('click', salvarAnotacaoQuestao);
     
     const chkOcultar = document.getElementById('filtro-ocultar-respondidas');
@@ -1374,6 +1394,10 @@ function carregarQuestaoUI() {
         spanTentativas.style.display = 'none';
     }
     
+    // Botão de exclusão (somente admin)
+    const btnExcluir = document.getElementById('btn-excluir-questao');
+    if (btnExcluir) btnExcluir.style.display = isAdmin ? 'inline-flex' : 'none';
+
     // Favoritos e Comentários
     const btnFav = document.getElementById('btn-favorite');
     if (favoritos.includes(q.id)) {
@@ -1653,6 +1677,55 @@ function toggleFavorite(e) {
         btnFav.innerHTML = '<i class="ph-fill ph-star"></i>';
     }
     salvarFavoritos();
+}
+
+// ADMIN: exclui a questão atual da base (lista global no servidor) com confirmação
+async function excluirQuestaoAtual() {
+    if (!isAdmin) return;
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q) return;
+
+    const trecho = (q.enunciado || '').slice(0, 140);
+    if (!confirm(`Excluir a questão ID ${q.id} (${q.disciplina}) da base de questões?\n\n"${trecho}..."\n\nEla deixará de aparecer para todos os usuários. (Você pode recriar depois.)`)) {
+        return;
+    }
+
+    const btn = document.getElementById('btn-excluir-questao');
+    if (btn) btn.disabled = true;
+
+    let persistiu = false;
+    try {
+        const resp = await fetch('/api/questions', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'X-Admin': ADMIN_USER },
+            body: JSON.stringify({ action: 'delete', id: q.id })
+        });
+        persistiu = resp.ok;
+    } catch (e) {
+        persistiu = false;
+    }
+
+    // Atualiza o estado local (no Vercel já persistiu no servidor; localmente fica só em memória)
+    questoesExcluidasSet.add(q.id);
+    bancoQuestoes = bancoQuestoes.filter(x => x.id !== q.id);
+    simuladoAtual.splice(questaoAtualIndex, 1);
+    atualizarTelaDashboard();
+    if (btn) btn.disabled = false;
+
+    if (!persistiu) {
+        alert('Atenção: a exclusão foi aplicada apenas nesta sessão (servidor indisponível). No site publicado a exclusão é permanente.');
+    }
+
+    // Avança a navegação do caderno
+    if (simuladoAtual.length === 0) {
+        alert('Questão excluída. Não há mais questões neste caderno.');
+        showView('dashboard');
+        return;
+    }
+    if (questaoAtualIndex >= simuladoAtual.length) {
+        questaoAtualIndex = simuladoAtual.length - 1;
+    }
+    carregarQuestaoUI();
 }
 
 function salvarAnotacaoQuestao(e) {

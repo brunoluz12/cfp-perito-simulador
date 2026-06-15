@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=20">
+    <link rel="stylesheet" href="style.css?v=21">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -275,9 +275,14 @@
                         <span id="q-id" class="badge subtle">ID</span>
                         <span id="q-tentativas" class="badge subtle" style="display: none; background: rgba(59, 130, 246, 0.1); color: var(--primary-color);">Resolvida: 0x</span>
                     </div>
-                    <button id="btn-favorite" class="btn-icon favorite-btn tooltip" data-tooltip="Favoritar Questão">
-                        <i class="ph ph-star"></i>
-                    </button>
+                    <div class="question-actions">
+                        <button id="btn-excluir-questao" class="btn-icon delete-question-btn tooltip" data-tooltip="Excluir questão da base (admin)" style="display: none;">
+                            <i class="ph ph-trash"></i>
+                        </button>
+                        <button id="btn-favorite" class="btn-icon favorite-btn tooltip" data-tooltip="Favoritar Questão">
+                            <i class="ph ph-star"></i>
+                        </button>
+                    </div>
                 </div>
                 <h3 id="q-enunciado" class="question-text">Carregando questão...</h3>
 
@@ -835,7 +840,7 @@
     <script src="agenda_dados.js?v=10"></script>
     <script src="banco_questoes.js?v=40"></script>
     <script src="flashcards.js?v=2"></script>
-    <script src="app.js?v=38"></script>
+    <script src="app.js?v=39"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>
