@@ -67,6 +67,12 @@
                     <i class="ph ph-trend-up" style="color: var(--accent-color);"></i>
                     <span id="header-taxa">0%</span>
                 </div>
+                  <select id="global-cargo-filter" class="cargo-select tooltip" data-tooltip="Filtrar por Cargo" onchange="alterarCargoGlobal()">
+                      <option value="todos">Todos os Cargos</option>
+                      <option value="perito">Perito</option>
+                      <option value="delegado">Delegado</option>
+                      <option value="escrivao">Escrivão</option>
+                  </select>
                   <button id="btn-sync-cloud" class="theme-toggle tooltip" data-tooltip="Sincronizar com a Nuvem" onclick="syncLocalWithCloud()" aria-label="Sincronizar Progresso">
                       <i class="ph ph-cloud-arrows"></i>
                   </button>

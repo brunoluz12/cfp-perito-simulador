@@ -3,6 +3,115 @@
 // ==========================================
 const VERCEL_API_URL = window.location.protocol === 'file:' ? 'https://cfp-perito-simulador.vercel.app' : '';
 
+// ==========================================
+// FILTRO GLOBAL DE CARGO
+// ==========================================
+let cargoAtual = 'todos';
+try {
+    const savedCargo = localStorage.getItem('pcpr_cargo');
+    if (savedCargo) cargoAtual = savedCargo;
+} catch (e) {}
+
+// Executado no carregamento da página para definir o valor no HTML
+document.addEventListener('DOMContentLoaded', () => {
+    const sel = document.getElementById('global-cargo-filter');
+    if (sel) sel.value = cargoAtual;
+});
+
+function alterarCargoGlobal() {
+    const sel = document.getElementById('global-cargo-filter');
+    if (sel) {
+        cargoAtual = sel.value;
+        try { localStorage.setItem('pcpr_cargo', cargoAtual); } catch (e) {}
+        
+        // Disparar atualizações em toda a interface
+        if (typeof atualizarFiltrosDeDisciplina === 'function') {
+            atualizarFiltrosDeDisciplina();
+        }
+    }
+}
+
+function disciplinaPermitidaParaCargo(disciplina) {
+    if (!disciplina) return true;
+    if (cargoAtual === 'todos') return true;
+
+    const dUpper = disciplina.toUpperCase();
+    
+    // Regras
+    const isIPO2 = dUpper.includes('IPO 2') || dUpper.includes('IPO II');
+    const isPeritoEspecifico = dUpper.includes('CRIMINALÍSTICA') || 
+                               dUpper.includes('IPO 3') || dUpper.includes('IPO III') || 
+                               dUpper.includes('PCEB') || 
+                               dUpper.includes('PVAT') || 
+                               dUpper.includes('LOCAL DE CRIME');
+    
+    if (cargoAtual === 'perito') {
+        if (isIPO2) return false;
+        return true; 
+    }
+    
+    if (cargoAtual === 'delegado' || cargoAtual === 'escrivao') {
+        if (isPeritoEspecifico) return false;
+        return true; 
+    }
+    
+    return true;
+}
+
+function atualizarFiltrosDeDisciplina() {
+    // 1. Banco de Questões (msDisciplina)
+    if (typeof msDisciplina !== 'undefined' && msDisciplina && typeof bancoQuestoes !== 'undefined') {
+        const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort(naturalSort);
+        msDisciplina.setOptions(disciplinas
+            .filter(d => disciplinaPermitidaParaCargo(d))
+            .map(d => ({
+            value: d,
+            label: d,
+            count: bancoQuestoes.filter(q => q.disciplina === d).length
+        })));
+        msDisciplina.selectNone();
+    }
+    
+    // 2. Simulado (msSimDisciplina)
+    if (typeof msSimDisciplina !== 'undefined' && msSimDisciplina && typeof bancoQuestoes !== 'undefined') {
+        const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort(naturalSort);
+        msSimDisciplina.setOptions(disciplinas
+            .filter(d => disciplinaPermitidaParaCargo(d))
+            .map(d => ({
+            value: d,
+            label: d,
+            count: bancoQuestoes.filter(q => q.disciplina === d).length
+        })));
+        msSimDisciplina.selectNone();
+    }
+    
+    // 3. Materiais
+    const selMat = document.getElementById('material-disciplina-select');
+    if (selMat) {
+        Array.from(selMat.options).forEach(opt => {
+            if (!opt.value) return; // pular placeholder
+            opt.style.display = disciplinaPermitidaParaCargo(opt.text) ? '' : 'none';
+        });
+        if (selMat.selectedOptions[0] && selMat.selectedOptions[0].style.display === 'none') {
+            selMat.value = '';
+            if (typeof filtrarMateriais === 'function') filtrarMateriais();
+        }
+    }
+    
+    // 4. Notas
+    const fDisc = document.getElementById('notes-filtro-disciplina');
+    const nDisc = document.getElementById('note-disciplina');
+    if (fDisc && typeof notesFillDisc === 'function') notesFillDisc(fDisc, 'Todas as disciplinas');
+    if (nDisc && typeof notesFillDisc === 'function') notesFillDisc(nDisc, '- Sem disciplina -');
+    
+    // 5. Flashcards
+    if (typeof fcToggleCustomDeck === 'function' && typeof fcRenderDecksSelect === 'function') {
+        fcRenderDecksSelect();
+    }
+}
+
+
+
 // O tema inicial já é aplicado no <head> via inline script,
 // para evitar "flash" de tema claro ao abrir no modo escuro.
 function toggleTheme() {
@@ -672,7 +781,9 @@ function carregarBancoQuestoes() {
             searchPlaceholder: 'Pesquisar conteúdo ou disciplina...'
         });
 
-        msDisciplina.setOptions(disciplinas.map(d => ({
+        msDisciplina.setOptions(disciplinas
+            .filter(d => disciplinaPermitidaParaCargo(d))
+            .map(d => ({
             value: d,
             label: d,
             count: bancoQuestoes.filter(q => q.disciplina === d).length
@@ -1164,7 +1275,9 @@ function inicializarMultiSelectSimulado() {
         onChange: (selecionadas) => renderizarArvoreSimulado(selecionadas)
     });
     const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
-    msSimDisciplina.setOptions(disciplinas.map(d => ({
+    msSimDisciplina.setOptions(disciplinas
+        .filter(d => disciplinaPermitidaParaCargo(d))
+        .map(d => ({
         value: d,
         label: d,
         count: bancoQuestoes.filter(q => q.disciplina === d).length
@@ -3410,7 +3523,7 @@ function notesFmtData(ts) {
 
 function notesDisciplinas() {
     if (!Array.isArray(bancoQuestoes)) return [];
-    return [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
+    return [...new Set(bancoQuestoes.map(q => q.disciplina))].filter(d => disciplinaPermitidaParaCargo(d)).sort();
 }
 function notesConteudos(disc) {
     if (!disc || !Array.isArray(bancoQuestoes)) return [];

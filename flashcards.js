@@ -25,7 +25,7 @@ function fcGetDisciplinas() {
             if (o.value && txt) set.add(txt);
         });
     }
-    return [...set];
+    return [...set].filter(d => typeof disciplinaPermitidaParaCargo === 'function' ? disciplinaPermitidaParaCargo(d) : true);
 }
 
 // Carregar flashcards
