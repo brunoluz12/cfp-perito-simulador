@@ -999,6 +999,9 @@ function atualizarTelaDashboard() {
 }
 
 function atualizarHeaderStats() {
+    const elAcertos = document.getElementById('header-acertos');
+    if (!elAcertos) return; // Removido do layout
+
     document.getElementById('header-acertos').textContent = stats.totalAcertos;
     document.getElementById('header-erros').textContent = stats.totalErros;
     

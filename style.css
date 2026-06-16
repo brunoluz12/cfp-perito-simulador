@@ -55,8 +55,8 @@ body {
 
 .app-container {
     width: 100%;
-    /* Removido max-width para ocupar toda a tela, mas com max-width bem grande para não quebrar em telas ultrawide */
-    max-width: 1400px;
+    /* Removido max-width para ocupar toda a tela, conforme solicitado */
+    max-width: none;
     display: flex;
     flex-direction: column;
     gap: 24px;

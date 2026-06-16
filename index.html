@@ -55,26 +55,14 @@
                 <button type="button" id="tab-admin" class="tab-link" onclick="switchMainTab('admin')" style="display: none;"><i class="ph ph-shield-star"></i> Admin <span id="admin-pending-badge" class="admin-badge" style="display: none;">0</span></button>
             </nav>
             <div class="user-stats">
-                <div class="stat-badge tooltip" data-tooltip="Total de Acertos">
-                    <i class="ph ph-check-circle" style="color: var(--success-color);"></i>
-                    <span id="header-acertos">0</span>
-                </div>
-                <div class="stat-badge tooltip" data-tooltip="Total de Erros">
-                    <i class="ph ph-x-circle" style="color: var(--error-color);"></i>
-                    <span id="header-erros">0</span>
-                </div>
-                <div class="stat-badge tooltip" data-tooltip="Taxa de Acerto Geral">
-                    <i class="ph ph-trend-up" style="color: var(--accent-color);"></i>
-                    <span id="header-taxa">0%</span>
-                </div>
                   <select id="global-cargo-filter" class="cargo-select tooltip" data-tooltip="Filtrar por Cargo" onchange="alterarCargoGlobal()">
                       <option value="todos">Todos os Cargos</option>
                       <option value="perito">Perito</option>
                       <option value="delegado">Delegado</option>
                       <option value="escrivao">Escrivão</option>
                   </select>
-                  <button id="btn-sync-cloud" class="theme-toggle tooltip" data-tooltip="Sincronizar com a Nuvem" onclick="syncLocalWithCloud()" aria-label="Sincronizar Progresso">
-                      <i class="ph ph-cloud-arrows"></i>
+                  <button id="btn-sync-cloud" class="theme-toggle tooltip" style="font-size: 1rem; display: inline-flex; align-items: center; gap: 6px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--border-color);" data-tooltip="Sincronizar Progresso com a Nuvem" onclick="syncLocalWithCloud()" aria-label="Sincronizar Progresso">
+                      <i class="ph ph-cloud-arrows"></i> <span style="font-size: 0.9rem; font-weight: 500;">Nuvem</span>
                   </button>
                   <button id="btn-theme-toggle" class="theme-toggle tooltip" data-tooltip="Alternar modo escuro/claro" onclick="toggleTheme()" aria-label="Alternar tema">
                     <i class="ph ph-moon theme-icon-dark"></i>
