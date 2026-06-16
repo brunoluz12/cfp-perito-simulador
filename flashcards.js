@@ -15,8 +15,9 @@ let isFreeReview = false;
 // de disciplinas dos Materiais. Assim nenhuma disciplina fica de fora.
 function fcGetDisciplinas() {
     const set = new Set();
-    if (typeof bancoQuestoes !== 'undefined' && Array.isArray(bancoQuestoes)) {
-        bancoQuestoes.forEach(q => { if (q.disciplina) set.add(q.disciplina); });
+    const banco = window.bancoQuestoes || (typeof bancoQuestoes !== 'undefined' ? bancoQuestoes : []);
+    if (Array.isArray(banco)) {
+        banco.forEach(q => { if (q.disciplina) set.add(q.disciplina); });
     }
     const matSel = document.getElementById('material-disciplina-select');
     if (matSel) {
@@ -25,7 +26,19 @@ function fcGetDisciplinas() {
             if (o.value && txt) set.add(txt);
         });
     }
-    return [...set].filter(d => typeof disciplinaPermitidaParaCargo === 'function' ? disciplinaPermitidaParaCargo(d) : true);
+    return [...set].filter(d => {
+        try {
+            if (typeof window.disciplinaPermitidaParaCargo === 'function') {
+                return window.disciplinaPermitidaParaCargo(d);
+            }
+            if (typeof disciplinaPermitidaParaCargo === 'function') {
+                return disciplinaPermitidaParaCargo(d);
+            }
+        } catch (e) {
+            console.error("Erro ao filtrar disciplina:", e);
+        }
+        return true;
+    });
 }
 
 // Carregar flashcards

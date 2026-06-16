@@ -764,6 +764,7 @@ function carregarBancoQuestoes() {
 
         // Filtra as questões excluídas globalmente pelo admin
         bancoQuestoes = questoesDB.filter(q => !questoesExcluidasSet.has(q.id));
+        window.bancoQuestoes = bancoQuestoes; // Expose globally for flashcards.js
 
         // Extrai disciplinas únicas (ordenadas)
         const disciplinas = [...new Set(bancoQuestoes.map(q => q.disciplina))].sort();
