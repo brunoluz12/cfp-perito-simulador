@@ -2633,6 +2633,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'criminalistica': ['Criminalística'],
         'ipo': ['Investigação Policial (IPO)'],
         'ipo_2': ['Investigação Policial II (IPO II)'],
+        'ipo_3': ['Investigação Policial III (IPO III)'],
         'bal': ['PCEB - Balística Forense'],
         'pceb': ['PCEB - Bombas e Explosivos'],
         'quimica_forense': ['PCEB - Química Forense'],

@@ -25660,5 +25660,447 @@ const questoesDB = [
     "justificativa": "Correta: C. A p. 192 detalha que o R403b-Extrato apresenta descrição, data, valor e saldo dos lançamentos, e que o R403c-Dados cadastrais traz os dados cadastrais e o perfil dos investidores que operam nos mercados à vista, derivativos e balcão com CCP. A erra porque é o R403b (Extrato), e não o R403a, que apresenta o saldo; e o R403b inclui também o valor. B erra porque a movimentação com descrição, data e valor é do R403a (Movimento diário), não do R403c, que traz dados cadastrais e perfil. D erra porque as variações têm conteúdos distintos (movimento diário, extrato e dados cadastrais), e não apenas períodos diferentes (p. 192).",
     "referencia": "PDF IPO II, p. 192",
     "nivel": "dificil"
+  },
+  {
+    "id": 1691,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando os conceitos aplicáveis ao planejamento operacional, qual deles corresponde ao desencadeamento da fase ostensiva de uma investigação classificada como operação policial, abrangendo o cumprimento de mandados de busca e apreensão ou de prisão, sem prejuízo de outras medidas cabíveis?",
+    "alternativas": {
+      "A": "Deflagração de operação policial.",
+      "B": "Tática policial, executada conforme a linha de ação.",
+      "C": "Missão policial atribuída à equipe pela Ordem de Mobilização.",
+      "D": "Linha de ação traçada como estratégia da operação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 11, deflagração é o desencadeamento da fase ostensiva de uma investigação classificada como operação policial, abrangendo o cumprimento de mandados de busca e apreensão ou de prisão, sem prejuízo de outras medidas (A correta). B está errada porque a tática policial é a forma como a linha de ação deve ser executada, com o detalhamento do emprego dos recursos disponíveis (p. 12). C está errada porque a missão policial é a diligência ou o conjunto de diligências atribuídas a um policial ou equipe (p. 12). D está errada porque a linha de ação é a estratégia traçada para alcançar o fim pretendido (p. 12).",
+    "referencia": "PDF IPO III, p. 11",
+    "nivel": "facil"
+  },
+  {
+    "id": 1692,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o normativo que regulamenta o Índice de Produtividade Operacional (IPO), em qual situação se configura operação de polícia judiciária decorrente de complexidade extraordinária de execução, independentemente do cumprimento de mandados judiciais?",
+    "alternativas": {
+      "A": "No cumprimento de mandado obtido por decisão judicial, durante a investigação, do qual resulte restrição ostensiva de direito do investigado, hipótese essa decorrente de mandados judiciais.",
+      "B": "Na erradicação de plantio de cultivo ilícito, na reintegração de posse ou em qualquer ação que resulte no resgate de vítima.",
+      "C": "Em qualquer diligência de polícia administrativa praticada no desempenho das atividades de vigilância.",
+      "D": "Na simples lavratura de prisão em flagrante delito sem participação de outro órgão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a p. 11, a operação de polícia judiciária por complexidade extraordinária se configura, independentemente de mandados judiciais, em ações específicas como erradicação de plantio de cultivo ilícito, reintegração de posse, desintrusão de invasores, repressão ao trabalho análogo ao de escravo em conjunto com outro órgão ou qualquer ação que resulte no resgate de vítima (B correta). A está errada porque descreve a hipótese decorrente do cumprimento de mandados judiciais, não a de complexidade extraordinária (p. 11). C está errada porque polícia administrativa não configura, por si, operação de polícia judiciária (p. 11). D está errada porque a mera prisão em flagrante não é elencada como hipótese de complexidade extraordinária (p. 11).",
+    "referencia": "PDF IPO III, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 1693,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a missão policial, conforme os conceitos aplicáveis do planejamento operacional, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É o espaço geográfico onde se realiza a ação ou operação policial, devendo ser preciso e factível.",
+      "B": "É o documento que formaliza o planejamento operacional e reúne todos os elementos necessários, como situação, objetivo, área de atuação, linha de ação, tática policial e prazos.",
+      "C": "É determinada pela Ordem de Mobilização (OM), e seus resultados são informados à autoridade determinante no Relatório de Missão Policial (RMP).",
+      "D": "É o resultado que se pretende alcançar com a ação ou operação policial, devendo ser coerente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 12, a missão policial é a diligência ou o conjunto de diligências atribuídas a um policial ou equipe, sendo determinada pela Ordem de Mobilização (OM) e seus resultados informados à autoridade determinante no Relatório de Missão Policial (RMP) (C correta). A está errada porque descreve a área de atuação (espaço geográfico), e a exigência de ser preciso e factível é do objetivo (p. 12). B está errada porque descreve o plano operacional (p. 12). D está errada porque descreve o objetivo (p. 12).",
+    "referencia": "PDF IPO III, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 1694,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o texto, qual documento formaliza o planejamento operacional e deve conter todos os elementos necessários ao planejamento de uma operação policial, como situação, objetivo, área de atuação, linha de ação, tática policial, prazos e os recursos a serem empregados?",
+    "alternativas": {
+      "A": "Relatório de Missão Policial (RMP).",
+      "B": "Ordem de Mobilização (OM).",
+      "C": "Informação de Polícia Judiciária.",
+      "D": "Plano operacional."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a p. 12, o plano operacional é o documento que formaliza o planejamento operacional e deve conter todos os elementos necessários, como situação, objetivo, área de atuação, linha de ação, tática policial, prazos e os recursos humanos, materiais e financeiros (D correta). A está errada porque o RMP é o documento em que os resultados da missão são informados à autoridade determinante (p. 12). B está errada porque a OM é o instrumento que determina a missão policial (p. 12). C está errada porque a Informação de Polícia Judiciária é um dos meios de comunicação de resultados, e não o documento que formaliza o planejamento (p. 12).",
+    "referencia": "PDF IPO III, p. 12",
+    "nivel": "facil"
+  },
+  {
+    "id": 1695,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do histórico da temática na Polícia Federal, qual fato é apontado como diretamente relacionado ao crescente número de operações de polícia judiciária a partir de 2014?",
+    "alternativas": {
+      "A": "A criação da rede RECUPERA, composta por representantes das secretarias do Ministério da Justiça e Segurança Pública e de policiais civis e federais de todos os Estados.",
+      "B": "A edição da Lei nº 9.296/1996, primeira legislação regulamentadora das interceptações das comunicações telefônicas, telemáticas e ambientais.",
+      "C": "A atuação da instituição como polícia política durante o regime de exceção instalado a partir de 1964, com ênfase em ações de ordem política e social.",
+      "D": "A edição da Lei nº 12.850/2013, que ampliou os meios de produção de prova e detalhou a colaboração premiada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a p. 16, o impacto da Lei nº 12.850/2013 está relacionado ao crescente número de operações a partir de 2014, um ano após sua edição, saltando de 301 operações em 2013 para 390 em 2014, pois a lei ampliou os meios de produção de prova e detalhou a colaboração premiada (D correta). A está errada porque a rede RECUPERA foi criada em 2023, ligada à investigação patrimonial, e não ao aumento de operações de 2014 (p. 17). B está errada porque a Lei nº 9.296/1996 marca os primeiros passos das técnicas modernas na repressão a drogas, não o salto de operações de 2014 (p. 13). C está errada porque a atuação como polícia política refere-se à década de 1964, fase inicial do histórico (p. 12).",
+    "referencia": "PDF IPO III, p. 16",
+    "nivel": "medio"
+  },
+  {
+    "id": 1696,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base no histórico da temática, assinale a alternativa que descreve corretamente a evolução das fases de atuação investigativa da Polícia Federal.",
+    "alternativas": {
+      "A": "A partir de 1964, o foco era a repressão ao tráfico internacional de drogas, impulsionada pelo surgimento de organizações criminosas estruturadas, como os cartéis de Cali e Medellín, na Colômbia.",
+      "B": "A década de 1980 caracterizou-se pela atuação como braço policial das Forças Armadas, com ênfase em ordem política e social.",
+      "C": "A partir do ano 2000, com o rompimento de fronteiras pelo crime organizado, a prioridade passou a ser o aperfeiçoamento da inteligência policial.",
+      "D": "A descapitalização das organizações criminosas surgiu apenas em 2023, com a publicação da Política Nacional de Recuperação de Ativos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 14, a partir do ano 2000, com o rompimento de fronteiras pelo crime organizado e pela lavagem de ativos, a prioridade da PF passou a ser o aperfeiçoamento da inteligência policial (C correta). A está errada porque inverte as fases: o foco no tráfico internacional e os cartéis de Cali e Medellín são da década de 1980, não de 1964 (p. 13). B está errada porque a atuação como braço das Forças Armadas e a ênfase em ordem política e social datam de 1964, não da década de 1980 (p. 12). D está errada porque a estratégia de descapitalização foi incorporada especialmente a partir de 2004, sendo que 2023 marca a criação da rede RECUPERA e 2025 a Política Nacional de Recuperação de Ativos (p. 17).",
+    "referencia": "PDF IPO III, p. 14",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1697,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à importância do planejamento operacional e sua distinção do planejamento estratégico, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O planejamento estratégico é elaborado nos mais elevados níveis hierárquicos, com objetivos de longo prazo, e o planejamento operacional é uma das principais ferramentas para atingir os objetivos do estratégico.",
+      "B": "O planejamento operacional é elaborado nos mais elevados níveis hierárquicos da instituição, visa a objetivos de longo prazo e busca o aumento da eficiência institucional de acordo com as diretrizes previamente estabelecidas.",
+      "C": "Tanto as ações rotineiras quanto as operações policiais sempre demandam a formalização do planejamento operacional.",
+      "D": "O planejamento estratégico e o planejamento operacional confundem-se, pois ambos visam à consecução imediata dos fins de uma operação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme as p. 18 e 19, o planejamento estratégico é elaborado nos mais elevados níveis hierárquicos, com objetivos de longo prazo, e o operacional constitui uma das principais ferramentas para atingir os objetivos do estratégico (A correta). B está errada porque atribui ao operacional características do estratégico (p. 19). C está errada porque o planejamento de ações rotineiras pode ser feito de forma simplificada e até mentalmente; somente as operações policiais sempre demandam a formalização (p. 19). D está errada porque o texto afirma expressamente que os dois não se confundem (p. 19).",
+    "referencia": "PDF IPO III, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 1698,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "O planejamento operacional divide-se em seis etapas. Na etapa de aprovação e autorização do plano operacional, em regra, a quem cabe, respectivamente, a aprovação e a autorização?",
+    "alternativas": {
+      "A": "A aprovação cabe ao gestor regional e a autorização, à chefia imediata.",
+      "B": "Tanto a aprovação quanto a autorização cabem ao gestor regional.",
+      "C": "A aprovação cabe à chefia imediata e a autorização, ao gestor regional.",
+      "D": "A aprovação cabe à autoridade judicial e a autorização, à chefia imediata."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 20, na etapa de aprovação e autorização do plano operacional, em regra, a aprovação cabe à chefia imediata e a autorização cabe ao gestor regional (C correta). A está errada porque inverte as atribuições (p. 20). B está errada porque a aprovação não cabe ao gestor regional, mas à chefia imediata (p. 20). D está errada porque a aprovação não cabe à autoridade judicial, mas à chefia imediata, e a autorização ao gestor regional (p. 20).",
+    "referencia": "PDF IPO III, p. 20",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1699,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os métodos organizacionais aplicados ao planejamento das operações policiais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O método 5W2H, também chamado de Heptâmetro de Quintiliano, é de aplicação obrigatória e única no planejamento de toda operação de polícia judiciária.",
+      "B": "No ciclo PDCA, o núcleo C (check) correlaciona-se à avaliação do planejamento operacional.",
+      "C": "O método F3EAD adaptado tem origem nas forças armadas norte-americanas e busca retardar o ritmo operacional, ampliando a chamada espiral investigativa.",
+      "D": "No ciclo PDCA, o núcleo P (plan) correlaciona-se ao desencadeamento da operação, e o núcleo D (do), ao exame de situação e à definição da linha de ação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme as p. 21 e 22, o ciclo PDCA divide-se em planejar (plan), executar (do), verificar (check) e agir corretivamente (action), correlacionando-se o núcleo C (check) à avaliação do planejamento operacional (B correta). A está errada porque não existe método único ou de aplicação obrigatória: os métodos são ferramentas de apoio usadas conforme a conveniência (p. 21). C está errada porque o F3EAD adaptado gera o conceito de aceleração do ritmo operacional, comprimindo a espiral investigativa, e não o contrário (p. 22 e 23). D está errada porque inverte os núcleos: o P (plan) liga-se ao exame de situação e à definição da linha de ação, e o D (do) ao desencadeamento da operação (p. 22).",
+    "referencia": "PDF IPO III, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1700,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 158-A do Código de Processo Penal, incluído pela Lei nº 13.964/2019, como é definida a cadeia de custódia?",
+    "alternativas": {
+      "A": "Conjunto de procedimentos de polícia administrativa voltados exclusivamente à guarda de bens apreendidos em depósitos oficiais.",
+      "B": "Conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte.",
+      "C": "Conjunto de exames periciais realizados sobre o vestígio com o objetivo de produzir o laudo destinado a instruir a denúncia oferecida pelo Ministério Público.",
+      "D": "Conjunto de ações de preservação e isolamento do local de crime realizadas exclusivamente pela autoridade judiciária competente até a chegada da equipe de perícia oficial, com posterior remessa dos vestígios diretamente ao cartório judicial para guarda."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: o art. 158-A do CPP define cadeia de custódia como o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte (p. 25, 28). A) está errada porque a cadeia de custódia não é restrita à guarda em depósitos nem é atividade meramente administrativa; abrange todo o histórico do vestígio (p. 25-26). C) está errada porque o conceito não se limita aos exames periciais, mas a todos os procedimentos de documentação e rastreamento (p. 25). D) está errada porque a preservação do local é apenas o marco de início (art. 158-A, §1º) e é atribuição da autoridade policial/perito, não da autoridade judiciária (p. 28).",
+    "referencia": "PDF IPO III, p. 25",
+    "nivel": "medio"
+  },
+  {
+    "id": 1701,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Polícia Federal, quais são os princípios que, especificamente, orientam a cadeia de custódia, além daqueles aplicáveis à atividade de polícia judiciária?",
+    "alternativas": {
+      "A": "Os princípios da publicidade e da indisponibilidade, que asseguram acesso amplo aos registros e impedem a renúncia à guarda dos vestígios.",
+      "B": "Os princípios da oficialidade e da oportunidade, que conferem ao delegado de polícia ampla discricionariedade para escolher livremente quais vestígios e elementos de interesse merecem ou não ser formalmente documentados nos sistemas oficiais da instituição.",
+      "C": "Os princípios da documentação e da mesmidade: a documentação assegura a rastreabilidade dos atos e a mesmidade garante que o elemento analisado seja o mesmo que foi arrecadado, evitando contaminações ou substituições indevidas.",
+      "D": "Os princípios da economicidade e da eficiência, voltados a reduzir custos de armazenamento e a acelerar o descarte dos vestígios examinados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: o texto afirma que os princípios que orientam a cadeia de custódia na PF são os da documentação e da mesmidade, além dos aplicáveis à polícia judiciária; a documentação assegura a rastreabilidade dos atos e a mesmidade garante que o elemento analisado seja o mesmo que foi arrecadado, evitando contaminações ou substituições indevidas (p. 26). A) está errada porque publicidade e indisponibilidade não são os princípios apontados pelo texto. B) está errada porque oficialidade e oportunidade não constam, e o registro dos vestígios é obrigatório, não discricionário. D) está errada porque economicidade e eficiência não são os princípios indicados; o foco é rastreabilidade e mesmidade (p. 26).",
+    "referencia": "PDF IPO III, p. 26",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1702,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a IN nº 297/2024-DG/PF, qual hipótese funciona como cláusula de abrangência para o início da cadeia de custódia, cobrindo situações não previstas nos demais incisos, como recebimento informal ou achados fortuitos durante diligências?",
+    "alternativas": {
+      "A": "A coleta, arrecadação ou apreensão em razão de situação flagrancial ou execução de busca pessoal ou domiciliar.",
+      "B": "A recepção por policial federal, quando o elemento de interesse é apresentado por terceiros.",
+      "C": "A preservação, arrecadação ou coleta em local de crime.",
+      "D": "A posse do elemento de interesse por policial federal, nos demais casos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é a D: o texto identifica o inciso IV (posse por policial federal, nos demais casos) como cláusula de abrangência, que cobre situações não previstas nos incisos anteriores, como recebimento informal ou achados fortuitos durante diligências (p. 27-28). A) está errada porque o inciso I se refere especificamente a flagrante ou busca pessoal/domiciliar, situações já delimitadas (p. 27). B) está errada porque o inciso II trata apenas da apresentação por terceiros, hipótese específica (p. 27). C) está errada porque o inciso III se refere à atuação em local de crime, também hipótese específica (p. 27).",
+    "referencia": "PDF IPO III, p. 27",
+    "nivel": "medio"
+  },
+  {
+    "id": 1703,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a IN nº 297/2024-DG/PF, como se distinguem os locais de processamento e os locais de armazenamento dos elementos de interesse?",
+    "alternativas": {
+      "A": "Os locais de processamento são aqueles em que os elementos são analisados, examinados ou permanecem transitoriamente para encaminhamento a outro local; os locais de armazenamento são destinados a guardar os elementos até o encaminhamento a outro local na PF ou o encerramento da cadeia de custódia.",
+      "B": "Os locais de processamento destinam-se à guarda definitiva e permanente dos vestígios após a conclusão da perícia, enquanto os locais de armazenamento servem apenas para a triagem inicial e a classificação dos itens recém-coletados em ações operacionais.",
+      "C": "Ambos exigem autorização judicial prévia para a entrada de qualquer servidor, sendo vedado o acesso da chefia da unidade sem decisão do juiz competente.",
+      "D": "Os locais de armazenamento abrangem necessariamente os laboratórios e as salas de perícia onde os exames técnico-científicos são executados pelos peritos, ao passo que os locais de processamento se restringem aos depósitos das unidades e à central de custódia de vestígios destinada à guarda definitiva dos materiais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: o texto define locais de processamento como aqueles em que os elementos são analisados, examinados ou permanecem transitoriamente para encaminhamento a outro local (laboratórios, salas de perícia, ambientes operacionais e de análise), e locais de armazenamento como os destinados a guardar os elementos até o encaminhamento a outro local na PF ou o encerramento da cadeia de custódia (p. 28). B) está errada porque inverte e distorce os conceitos: o processamento não é guarda definitiva e o armazenamento não é mera triagem. C) está errada porque o acesso ao local de armazenamento depende de autorização da chefia da unidade, não de decisão judicial (p. 29). D) está errada porque inverte as definições: laboratórios e salas de perícia são locais de processamento, e depósitos e central de custódia são de armazenamento (p. 28-29).",
+    "referencia": "PDF IPO III, p. 28",
+    "nivel": "medio"
+  },
+  {
+    "id": 1704,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 13 da IN nº 297/2024-DG/PF, os elementos de interesse coletados ou apreendidos no inquérito policial serão registrados no sistema oficial de polícia judiciária. Qual das informações abaixo NÃO está entre os campos obrigatórios elencados nesse artigo?",
+    "alternativas": {
+      "A": "As informações individualizadoras, tais como natureza ou tipo, quantidade e descrição.",
+      "B": "Os números dos lacres utilizados.",
+      "C": "A indicação do laudo pericial conclusivo e do resultado dos exames complementares realizados sobre o vestígio.",
+      "D": "As movimentações, com identificação da unidade, do custodiante, data e hora, até o encerramento da cadeia de custódia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: o art. 13 da IN nº 297/2024-DG/PF lista as informações individualizadoras (inciso I), os números dos lacres (inciso II), as movimentações (inciso III), a nomeação de depositário fiel (inciso IV) e o local de armazenamento (inciso V); a indicação do laudo pericial conclusivo e resultado de exames complementares NÃO consta entre esses campos (p. 30). A) está errada como resposta porque as informações individualizadoras são exigidas pelo inciso I. B) está errada como resposta porque os números dos lacres são exigidos pelo inciso II. D) está errada como resposta porque as movimentações com identificação de unidade, custodiante, data e hora são exigidas pelo inciso III (p. 30).",
+    "referencia": "PDF IPO III, p. 30",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1705,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 158-B do Código de Processo Penal, incluído pela Lei nº 13.964/2019, qual alternativa descreve corretamente uma das etapas da cadeia de custódia do vestígio?",
+    "alternativas": {
+      "A": "Reconhecimento: ato de recolher o vestígio que será submetido à análise pericial, respeitando suas características e natureza.",
+      "B": "Isolamento: ato de evitar que se altere o estado das coisas, devendo isolar e preservar o ambiente imediato, mediato e relacionado aos vestígios e local de crime.",
+      "C": "Acondicionamento: ato de distinguir um elemento como de potencial interesse para a produção da prova pericial.",
+      "D": "Descarte: exame pericial em si, com a manipulação do vestígio de acordo com a metodologia adequada às suas características biológicas, físicas e químicas, a fim de se obter o resultado desejado, formalizado em laudo produzido por perito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é a B: conforme o art. 158-B, II, do CPP, isolamento é o ato de evitar que se altere o estado das coisas, devendo isolar e preservar o ambiente imediato, mediato e relacionado aos vestígios e local de crime (p. 34). A) está errada porque o conceito descrito (recolher o vestígio para análise) é o de coleta (inciso IV), e não de reconhecimento, que é distinguir um elemento como de potencial interesse pericial (inciso I) (p. 34). C) está errada porque o conceito descrito é o de reconhecimento (inciso I), e não de acondicionamento, que é embalar individualizadamente o vestígio (inciso V) (p. 34). D) está errada porque o conceito descrito (exame pericial em si) é o de processamento (inciso VIII), e não de descarte, que é a liberação do vestígio respeitada a legislação (inciso X) (p. 34-35).",
+    "referencia": "PDF IPO III, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1706,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a central de custódia e a coleta dos vestígios à luz dos arts. 158-C, 158-E e 158-F do Código de Processo Penal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A coleta dos vestígios deverá ser realizada exclusivamente por delegado de polícia, que dará o encaminhamento à central de custódia.",
+      "B": "É permitida a remoção de vestígios de locais de crime antes da liberação pelo perito responsável, desde que registrada na ficha de acompanhamento.",
+      "C": "Caso a central de custódia não possua espaço ou condições de armazenar determinado material, o próprio perito criminal decidirá, de forma autônoma e independentemente de qualquer requerimento ou formalização, o local de depósito mais conveniente para a guarda do vestígio.",
+      "D": "Todos os Institutos de Criminalística deverão ter uma central de custódia destinada à guarda e controle dos vestígios, com gestão vinculada diretamente ao órgão central de perícia oficial de natureza criminal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é a D: o art. 158-E do CPP determina que todos os Institutos de Criminalística deverão ter uma central de custódia destinada à guarda e controle dos vestígios, e sua gestão deve ser vinculada diretamente ao órgão central de perícia oficial de natureza criminal (p. 38). A) está errada porque, conforme o art. 158-C, a coleta deve ser realizada preferencialmente por perito oficial (não exclusivamente por delegado) (p. 37). B) está errada porque o art. 158-C, §2º, proíbe a remoção de vestígios de locais de crime antes da liberação pelo perito responsável, tipificando a conduta como fraude processual (p. 37). C) está errada porque, pelo parágrafo único do art. 158-F, cabe à autoridade policial ou judiciária determinar as condições de depósito em local diverso, mediante requerimento do diretor do órgão central de perícia, e não decisão autônoma e informal do perito (p. 39).",
+    "referencia": "PDF IPO III, p. 38",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1707,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à cadeia de custódia dos demais elementos de interesse (não disciplinados como vestígios), conforme a IN nº 297/2024-DG/PF, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os possíveis elementos de interesse encontrados em ações de busca ou local de crime serão registrados em auto circunstanciado de arrecadação ou em termo de apreensão, preferencialmente de forma individualizada.",
+      "B": "Os elementos de interesse apreendidos jamais poderão permanecer com terceiros, sendo vedada, em qualquer hipótese, a figura do depositário fiel.",
+      "C": "O auto circunstanciado de busca e arrecadação pode ser preenchido de forma sucinta, sendo dispensável a descrição de detalhes que permitam a identificação inequívoca do item.",
+      "D": "A cadeia de custódia dos demais elementos de interesse contempla, de forma obrigatória e sem qualquer flexibilidade, todas as etapas de reconhecimento, isolamento, fixação e processamento pericial, ainda que o elemento não tenha sido submetido a exame técnico-científico."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: o texto afirma que os possíveis elementos de interesse encontrados em ações de busca ou local de crime serão registrados em auto circunstanciado de arrecadação ou em termo de apreensão, preferencialmente de forma individualizada (p. 39). B) está errada porque o encaminhamento para armazenamento ou processamento é a regra, salvo nos casos de depositário fiel, hipótese expressamente reconhecida (p. 40). C) está errada porque o auto circunstanciado deve ser preenchido de forma legível e conter descrição de detalhes relevantes e identificação inequívoca do item arrecadado (p. 39). D) está errada porque a cadeia de custódia dos demais elementos pode contemplar etapas como arrecadação, transporte, triagem, apreensão, guarda e destinação final, com flexibilidade conforme a natureza do elemento, e não as etapas obrigatórias e rígidas descritas (p. 39).",
+    "referencia": "PDF IPO III, p. 39",
+    "nivel": "facil"
+  },
+  {
+    "id": 1708,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a IN nº 297/2024-DG/PF, qual das situações abaixo encerra a cadeia de custódia do elemento de interesse no âmbito da Polícia Federal?",
+    "alternativas": {
+      "A": "O simples encaminhamento do vestígio à perícia para a realização de exames técnico-científicos.",
+      "B": "A nomeação de depositário fiel para a guarda do bem apreendido durante o curso do inquérito.",
+      "C": "O consumo total do vestígio durante a realização de exame.",
+      "D": "O rompimento do lacre da embalagem para conferência do material pelo servidor da Polícia Federal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: entre as hipóteses de encerramento da cadeia de custódia previstas na IN nº 297/2024-DG/PF está o consumo total do vestígio durante a realização de exame (inciso V), situação comum em exames laboratoriais (p. 40-41). A) está errada porque o encaminhamento à perícia é etapa do fluxo da cadeia de custódia, não seu encerramento (p. 32-33). B) está errada porque a nomeação de depositário fiel é apenas uma forma de guarda durante o curso do procedimento, não causa de encerramento (p. 30, 40). D) está errada porque o rompimento de lacre para conferência é procedimento registrado e seguido de novo acondicionamento, não encerra a custódia (p. 32).",
+    "referencia": "PDF IPO III, p. 40",
+    "nivel": "facil"
+  },
+  {
+    "id": 1709,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o planejamento de uma operação ostensiva, a equipe de coordenação registra na ficha de alvo a existência de armas registradas em nome do investigado, histórico de violência e riscos referentes à forma de ingresso na residência. Qual princípio do planejamento operacional fundamenta diretamente essa providência?",
+    "alternativas": {
+      "A": "Princípio da segurança, voltado à minimização dos riscos da operação e à proteção de pessoas, informações, instalações e equipamentos.",
+      "B": "Princípio da economicidade, que se traduz na escolha que melhor racionaliza a aplicação dos recursos humanos, materiais e financeiros disponíveis, sem comprometer a eficiência da ação policial.",
+      "C": "Princípio da objetividade, que orienta o planejamento pelo objetivo central da investigação, evitando iniciativas dispersas e a arrecadação de materiais desnecessários ao escopo da apuração.",
+      "D": "Princípio da flexibilidade, que consiste na aptidão para adequar a execução da operação a circunstâncias imprevistas, sem afastamento de protocolos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é A: o texto afirma que a equipe coordenadora deve expor à equipe de cumprimento os dados relevantes para a observância do princípio da segurança, assinalando nas fichas de alvo a existência de armas registradas, histórico de violência e riscos quanto à forma de ingresso (p. 45). B está errada porque descreve a economicidade (racionalização de recursos), e não a prevenção de riscos (p. 47). C está errada porque descreve a objetividade (foco no objetivo central e arrecadação só do que é útil), p. 47-48. D está errada porque descreve a flexibilidade (adaptação a imprevistos), p. 45.",
+    "referencia": "PDF IPO III, p. 45",
+    "nivel": "facil"
+  },
+  {
+    "id": 1710,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "O art. 74, II, da IN DG/PF nº 255/2023 prevê que os executores exibirão e lerão o mandado ao morador antes de ingressarem no local, ressalvadas as hipóteses de potencial confronto, risco à integridade física ou frustração da diligência, casos em que o mandado será lido tão logo seja afastado o perigo. Segundo o texto, o que essa ressalva demonstra?",
+    "alternativas": {
+      "A": "Que a flexibilidade é o princípio orientador de toda atividade policial, sobrepondo-se às formalidades processuais em qualquer situação.",
+      "B": "Que a coordenação dos trabalhos prevalece sobre a leitura do mandado para garantir o cumprimento simultâneo das medidas.",
+      "C": "Que a primazia da segurança autoriza a flexibilização do procedimento em situações de risco, prevalecendo a proteção da integridade física como valor maior.",
+      "D": "Que a disciplina exige o cumprimento rigoroso do horário de leitura do mandado, sem qualquer relativização das formalidades."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é C: o texto usa o art. 74, II como exemplo de concretização do princípio da segurança, afirmando que a proteção da integridade física prevalece como valor maior e autoriza a flexibilização do procedimento em situações de risco (p. 44). A está errada porque inverte conceitos: quem é orientador de toda atividade policial é a segurança, não a flexibilidade (p. 43-44). B está errada porque a coordenação trata da integração das ações e do cumprimento simultâneo, não da leitura do mandado em situação de risco (p. 48-49). D está errada porque a disciplina trata do cumprimento rigoroso do plano, e o exemplo justamente admite a relativização da formalidade em favor da segurança (p. 44).",
+    "referencia": "PDF IPO III, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 1711,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "A inclusão de policial feminina quando houver alvo do sexo feminino, ou de policial bilíngue em situações que envolvam estrangeiros, na composição das equipes, constitui aplicação de qual princípio do planejamento operacional?",
+    "alternativas": {
+      "A": "Princípio da coordenação.",
+      "B": "Princípio da universalidade.",
+      "C": "Princípio da unidade.",
+      "D": "Princípio da disciplina."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é B: o texto situa a inclusão de policial feminina e de policial bilíngue, conforme o perfil dos alvos e ambientes, como exemplo do princípio da universalidade, que busca o mais amplo conhecimento das circunstâncias que permeiam a operação e abrange a composição das equipes (p. 46). A está errada porque a coordenação trata da integração das ações de diversas áreas e instituições sob comando da PF (p. 48-49). C está errada porque a unidade trata da convergência de todas as ações para um único resultado (p. 49). D está errada porque a disciplina trata do cumprimento rigoroso dos protocolos e do plano traçado (p. 50).",
+    "referencia": "PDF IPO III, p. 46",
+    "nivel": "facil"
+  },
+  {
+    "id": 1712,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, além de funcionar como salvaguarda contra gastos públicos desnecessários, o princípio da economicidade também atua como freio à utilização indiscriminada de medidas invasivas. Qual é o objetivo apontado para esse segundo papel do princípio?",
+    "alternativas": {
+      "A": "Concentrar os esforços apenas nos pontos de real interesse da investigação, evitando a verificação de fatos secundários alheios ao escopo investigativo e a exposição de pessoas a riscos injustificados.",
+      "B": "Assegurar que todas as ações se desenvolvam de maneira integrada e orientada pelos mesmos objetivos, evitando atuações isoladas ou desconexas entre as diversas áreas envolvidas.",
+      "C": "Garantir a capacidade de adaptação a cenários imprevistos sem prejuízo da legalidade e da proporcionalidade.",
+      "D": "Impedir que instrumentos de restrição de direitos, concebidos para situações específicas, passem a ser aplicados de forma rotineira e banalizada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é D: o texto afirma que o objetivo desse papel da economicidade é impedir que instrumentos de restrição de direitos, concebidos para situações específicas, passem a ser aplicados de forma rotineira e banalizada, o que comprometeria sua legitimidade e subverteria sua natureza cautelar (p. 47). A está errada porque descreve a objetividade (concentração no objetivo central e nos pontos de real interesse), p. 47-48. B está errada porque descreve a coordenação (integração das ações), p. 48. C está errada porque descreve a flexibilidade (adaptação a imprevistos), p. 45.",
+    "referencia": "PDF IPO III, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 1713,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma busca e apreensão, a equipe de cumprimento compreende corretamente o enunciado investigativo e arrecada exclusivamente os elementos efetivamente úteis à investigação, evitando a arrecadação de materiais sem relação com os fatos apurados, conforme reforça o art. 82 da IN DG/PF nº 255/2023. Que princípio do planejamento operacional está sendo concretizado?",
+    "alternativas": {
+      "A": "Princípio da objetividade.",
+      "B": "Princípio da segurança.",
+      "C": "Princípio da flexibilidade.",
+      "D": "Princípio da universalidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é A: o texto vincula ao princípio da objetividade o dever de compreender corretamente o enunciado investigativo e de arrecadar apenas o que é de interesse, citando o art. 82 da IN 255/2023 (p. 48). B está errada porque a segurança trata da minimização de riscos e da proteção de pessoas e elementos (p. 43-45). C está errada porque a flexibilidade trata da adaptação a circunstâncias imprevistas (p. 45). D está errada porque a universalidade trata do mais amplo conhecimento das circunstâncias da operação e do planejamento abrangente, e não da restrição da arrecadação ao que é útil (p. 46).",
+    "referencia": "PDF IPO III, p. 48",
+    "nivel": "medio"
+  },
+  {
+    "id": 1714,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto destaca que o horário de deflagração de uma operação deve ser rigorosamente seguido, visando ao cumprimento simultâneo das medidas, sem a ciência dos alvos por cumprimento fora da hora prevista, e que, mesmo com a participação de outras instituições, a condução dos trabalhos caberá sempre à Polícia Federal. Esses dois aspectos ilustram qual princípio?",
+    "alternativas": {
+      "A": "Princípio da unidade, segundo o qual todas as ações, ainda que fragmentadas, destinam-se a alcançar um único resultado, considerado atingido apenas ao término da operação.",
+      "B": "Princípio da coordenação, que assegura o desenvolvimento integrado e harmônico das ações entre diversas áreas e instituições, cabendo a condução sempre à Polícia Federal.",
+      "C": "Princípio da economicidade, que conduz à otimização dos recursos humanos, materiais e financeiros sem comprometer a segurança e a eficiência.",
+      "D": "Princípio da disciplina, que funciona como espinha dorsal da execução do plano e fortalece a hierarquia institucional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é B: tanto o cumprimento simultâneo no horário rigoroso quanto a regra de que a condução cabe sempre à PF são apresentados pelo texto como aplicações do princípio da coordenação, que torna o trabalho eficiente e harmônico entre diversas áreas e instituições (p. 48-49). A está errada porque a unidade trata da convergência das ações para um único resultado ao término da operação, conceito distinto da integração coordenada (p. 49). C está errada porque descreve a economicidade (otimização de recursos), p. 47. D está errada porque descreve a disciplina (sustentação à execução e hierarquia), p. 50.",
+    "referencia": "PDF IPO III, p. 48",
+    "nivel": "medio"
+  },
+  {
+    "id": 1715,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto descreve um princípio que pode ser vislumbrado em três aspectos: unidade de comando, unidade de objetivo e integração das partes, sintetizando-se na ideia de que deve haver um só comando, um só objetivo e uma só direção de esforços. A que princípio se referem esses três aspectos e qual a noção central que os une?",
+    "alternativas": {
+      "A": "Ao princípio da disciplina, segundo o qual cada integrante deve seguir rigorosamente os protocolos estabelecidos para evitar improvisações e reduzir o risco de falhas na execução.",
+      "B": "Ao princípio da coordenação, segundo o qual diversas áreas e instituições atuam de forma integrada e harmônica sob a condução da Polícia Federal, evitando conflitos.",
+      "C": "Ao princípio da unidade, segundo o qual todas as ações, ainda que fragmentadas, destinam-se a um único resultado, atingido apenas ao término da operação.",
+      "D": "Ao princípio da universalidade, segundo o qual o planejamento deve englobar todos os aspectos capazes de interferir no desenvolvimento da operação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é C: o texto atribui ao princípio da unidade os três aspectos (unidade de comando, unidade de objetivo e integração das partes) e a síntese de um só comando, um só objetivo e uma só direção de esforços, com a missão considerada cumprida apenas ao término da operação (p. 49-50). A está errada porque descreve a disciplina (seguir protocolos, evitar improvisações), p. 50. B está errada porque descreve a coordenação (atuação integrada sob condução da PF), conceito próximo mas distinto da unidade (p. 48-49). D está errada porque descreve a universalidade (planejamento abrangente de todos os aspectos), p. 46.",
+    "referencia": "PDF IPO III, p. 49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1716,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto afirma que a flexibilidade conecta-se ao princípio da oportunidade, que reforça a natureza dinâmica da apuração ao buscar evitar a perda ou adulteração de elementos probatórios. São apontados como exemplos práticos da flexibilidade a antecipação da deflagração diante de risco iminente de fuga e a realização de diligência em dia ou horário incomuns. Considerando o texto, assinale a afirmação correta sobre o princípio da flexibilidade.",
+    "alternativas": {
+      "A": "A flexibilidade representa o afastamento dos protocolos sempre que a complexidade do caso exigir respostas rápidas do corpo policial.",
+      "B": "A flexibilidade é a aptidão para adequar a execução da operação a circunstâncias imprevistas, sem afastamento de protocolos e sem prejuízo da legalidade e da proporcionalidade.",
+      "C": "A flexibilidade impõe a rigorosa observância de horários e protocolos como espinha dorsal da execução, evitando qualquer improvisação.",
+      "D": "A flexibilidade traduz-se na busca do mais amplo conhecimento das circunstâncias que permeiam a operação policial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é B: o texto define a flexibilidade como a aptidão para adequar a execução a circunstâncias imprevistas, afirmando expressamente que ela não representa afastamento de protocolos e deve respeitar a legalidade e a proporcionalidade (p. 45-46). A está errada porque contraria o texto, que nega que a flexibilidade signifique afastamento de protocolos (p. 45). C está errada porque descreve a disciplina (espinha dorsal, rigor de horários, sem improvisação), p. 50. D está errada porque descreve a universalidade (mais amplo conhecimento das circunstâncias), p. 46.",
+    "referencia": "PDF IPO III, p. 45",
+    "nivel": "dificil"
   }
 ];
