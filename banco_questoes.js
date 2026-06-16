@@ -24402,5 +24402,1263 @@ const questoesDB = [
     "justificativa": "Correta A: no teste de Marquis, a coloração preta indica possível presença de MDMA, N-etilanfetamina ou N-OH MDA (p. 60). Erra B: laranja que se torna marrom indica anfetamina ou metanfetamina. Erra C: verde-amarelada à verde indica DMA ou DOB. Erra D: amarela à marrom-amarelado indica 2,5-dimetoxi-4-etilanfetamina, e não MDMA.",
     "referencia": "PDF Química Forense, p. 60",
     "nivel": "medio"
+  },
+  {
+    "id": 1617,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a apuração de um homicídio, a equipe de investigação reúne elementos que indicam que o autor inicialmente identificado, na verdade, não teve participação no fato. Diante dessa situação, à luz da finalidade da investigação policial descrita no material, é correto afirmar que:",
+    "alternativas": {
+      "A": "o termo 'esclarecimento' não se restringe à comprovação de autoria e materialidade, abrangendo a constatação de que não houve crime ou de que o autor não é o inicialmente apontado",
+      "B": "a investigação deve necessariamente confirmar a hipótese inicial de autoria, pois sua função institucional é comprovar a culpa do suspeito que foi originalmente identificado nos autos",
+      "C": "constatado que o suspeito inicial não foi o autor, a atividade investigativa perde por completo o seu objeto e deve ser imediatamente arquivada, sem novas diligências",
+      "D": "o esclarecimento da autoria é finalidade exclusiva da fase judicial, cabendo à investigação policial apenas a coleta de objetos materiais relacionados ao fato"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 19, a investigação visa obter dados para o esclarecimento de autoria, materialidade, circunstâncias e recuperação de ativos, sendo destacado que 'esclarecimento' não se restringe à comprovação do fato e dos autores, pois por vezes se identifica que não houve crime ou que o autor não é a pessoa inicialmente identificada (A correta). B erra ao reduzir a investigação à confirmação da hipótese inicial, contrariando justamente a ideia de que ela pode afastar a autoria suposta. C erra pois afastar o suspeito inicial não encerra o objeto: a investigação segue para esclarecer o fato. D erra ao restringir o esclarecimento de autoria à fase judicial, que é função própria da investigação policial.",
+    "referencia": "PDF IPO II, p. 19",
+    "nivel": "facil"
+  },
+  {
+    "id": 1618,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma investigação sobre fraude empresarial, percebe-se que documentos contábeis essenciais à apuração estão em poder do contador da empresa investigada, profissional que não tem relação direta com o fato criminoso. Sobre essa circunstância, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "como o contador não participou do crime, os dados de interesse em seu poder não podem ser utilizados na investigação, ainda que se mostrem relevantes à apuração",
+      "B": "dados de interesse podem estar em poder de terceiros sem relação direta com o fato, que ainda assim detêm informações úteis à instrução da investigação",
+      "C": "toda pessoa que detenha documentos de interesse para a apuração passa automaticamente à condição de suspeita de ter praticado o fato investigado",
+      "D": "a obtenção de dados que estejam em poder de terceiros é vedada à polícia judiciária, que só pode atuar sobre a vítima, a testemunha e o suspeito do fato"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A p. 19 registra a possibilidade de dados de interesse para a apuração estarem em poder de terceiros, que podem não ter relação direta com o fato, mas detêm documentos ou outro tipo de informação de interesse (cita o contador como exemplo) para instrução de uma linha de investigação (B correta). A erra pois a ausência de participação no crime não impede o uso dos dados relevantes detidos pelo terceiro. C erra ao confundir detentor de dado com suspeito, condições distintas no material. D erra pois o material expressamente admite que dados estejam com terceiros, não limitando a atuação a vítima, testemunha e suspeito.",
+    "referencia": "PDF IPO II, p. 19",
+    "nivel": "facil"
+  },
+  {
+    "id": 1619,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao classificar as técnicas de investigação policial adotadas na disciplina, o material divide-as em ações ordinárias e ações extraordinárias. Sobre a base e os efeitos dessa distinção, é correto afirmar que:",
+    "alternativas": {
+      "A": "a distinção apoia-se no escalonamento da atuação estatal na relativização de direitos fundamentais, sendo relevante a existência ou não de ordem judicial autorizando a técnica; os meios ordinários podem ser empregados de imediato e os extraordinários dependem de autorização judicial e têm caráter excepcional",
+      "B": "a distinção fundamenta-se exclusivamente no custo financeiro de cada técnica, sendo ordinárias as mais baratas e extraordinárias as que exigem maior dispêndio de recursos materiais",
+      "C": "tanto as técnicas ordinárias quanto as extraordinárias dependem de prévia autorização judicial, diferenciando-se apenas pelo grau de complexidade operacional envolvido",
+      "D": "os meios extraordinários, por serem a primeira linha de atuação do investigador, podem ser empregados de imediato, ao passo que os ordinários exigem decisão judicial fundamentada"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme as p. 19-20, a base da distinção está no escalonamento da atuação estatal na relativização dos direitos fundamentais, sendo relevante a existência ou não de ordem judicial; os meios ordinários podem ser empregados de imediato (respeitada a legislação) e os extraordinários (interceptação, quebra de sigilo, infiltração) dependem de autorização judicial e têm caráter excepcional (A correta). B erra pois o critério não é o custo, mas a relativização de direitos e a ordem judicial. C erra pois as ordinárias justamente não exigem autorização judicial prévia. D inverte os conceitos: a primeira linha de atuação são os meios ordinários, e os extraordinários é que dependem de decisão judicial.",
+    "referencia": "PDF IPO II, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 1620,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em treinamento sobre a atuação investigativa na Polícia Federal, discute-se como as técnicas ordinárias e extraordinárias se relacionam na prática e qual a natureza da classificação entre elas. Conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "na Polícia Federal, as técnicas ordinárias e extraordinárias são realizadas de forma estanque e sequencial, exigindo-se o encerramento de todas as ordinárias antes de qualquer extraordinária",
+      "B": "a classificação entre ordinárias e extraordinárias possui valor normativo cogente, de modo que a inobservância da ordem de aplicação acarreta, por si só, nulidade da prova",
+      "C": "na Polícia Federal as técnicas ordinárias e extraordinárias são realizadas integradamente pela equipe de investigação, comprimindo a espiral de obtenção de provas; a classificação tem natureza precipuamente didática, enfatizando-se na prática a seleção adequada da técnica ao caso concreto",
+      "D": "por ter natureza didática, a classificação dispensa o investigador de observar os princípios orientadores ao escolher a técnica, bastando a livre conveniência da equipe"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A p. 20 afirma que na Polícia Federal as técnicas ordinárias e extraordinárias são realizadas integradamente pela equipe, comprimindo a espiral de obtenção de provas e tornando a atividade mais célere e eficaz, e que a classificação tem natureza precipuamente didática, enfatizando-se a seleção adequada da técnica ao caso concreto com base nos princípios orientadores (C correta). A erra ao descrever atuação estanque e sequencial, oposto da realização integrada. B erra pois a classificação é didática, não cogente. D erra pois, embora didática, a seleção da técnica deve sempre observar os princípios orientadores do Módulo I.",
+    "referencia": "PDF IPO II, p. 20",
+    "nivel": "medio"
+  },
+  {
+    "id": 1621,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe investiga crime cujo período de ocorrência se situa entre 2015 e 2016. Ao planejar diligências, percebe que técnicas como identificação de testemunhas, recuperação de imagens de CFTV e acesso a bases de concessionárias provavelmente serão ineficazes. Sobre o princípio que orienta essa avaliação na seleção de técnicas, é correto afirmar que:",
+    "alternativas": {
+      "A": "trata-se do princípio da legalidade estrita, que veda o emprego de qualquer técnica investigativa sobre fatos que tenham ocorrido há mais de cinco anos da instauração",
+      "B": "trata-se do princípio da oportunidade, pois uma técnica pode ser crucial enquanto outras se mostram inócuas, podendo o momento de aplicação ter se perdido",
+      "C": "trata-se do princípio da indisponibilidade, que obriga a equipe a aplicar todas as técnicas disponíveis, independentemente de sua eficácia previsível no caso concreto",
+      "D": "trata-se do princípio da proporcionalidade, que impõe a escolha sempre da técnica mais intrusiva para suprir a perda temporal das fontes de prova já vislumbradas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A p. 21 trata do princípio da oportunidade, indicando que, diante do cenário posto, uma técnica pode ser crucial e outras inócuas, e usa exatamente o exemplo do crime ocorrido entre 2015 e 2016, no qual técnicas como identificação de testemunhas, recuperação de imagens de CFTV e acesso a bases de concessionárias poderiam ser ineficazes porque o momento de aplicação pode ter se perdido (B correta). A erra ao inventar vedação por prazo de cinco anos, inexistente no material. C erra pois o próprio exemplo demonstra que técnicas inócuas tendem a ser dispensadas, não obrigatórias. D erra pois o material orienta a atuação menos intrusiva, não a escolha sistemática da técnica mais invasiva.",
+    "referencia": "PDF IPO II, p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 1622,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Grande parte de uma investigação envolve o manejo de dados sensíveis, protegidos ou não por sigilo legal. Conforme a estratégia institucional descrita no material para o tratamento desses dados, é correto afirmar que ela deve contemplar:",
+    "alternativas": {
+      "A": "a livre divulgação dos dados entre os diversos órgãos parceiros, a fim de acelerar ao máximo a apuração, dispensando-se quaisquer formalidades nos autos do inquérito",
+      "B": "a coleta nos parâmetros legais, o armazenamento com cadeia de custódia e medidas de segurança e a formalização nos autos por instrumentos adequados",
+      "C": "exclusivamente o armazenamento criptografado dos dados, sendo dispensável tanto a observância de parâmetros legais na coleta quanto a posterior formalização nos autos",
+      "D": "a coleta dos dados independentemente de previsão legal, desde que posteriormente sejam formalizados por instrumento adequado e mantidos sob sigilo durante a apuração"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A p. 22 estabelece que o tratamento de dados sensíveis deve obedecer a estratégia institucional que contemple coleta nos parâmetros legais, armazenamento com observância à cadeia de custódia e medidas de segurança, e formalização nos autos por instrumentos adequados (auto de apreensão, termo de depoimento, informações de polícia judiciária) (B correta). A erra ao propor livre divulgação e dispensa de formalização, contrariando a cadeia de custódia e a formalização exigidas. C erra ao reduzir a estratégia ao armazenamento e dispensar coleta legal e formalização. D erra ao admitir coleta sem previsão legal, contrariando a exigência de coleta nos parâmetros legais.",
+    "referencia": "PDF IPO II, p. 22",
+    "nivel": "medio"
+  },
+  {
+    "id": 1623,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao representar o processo investigativo como um projeto, o material descreve etapas de coleta de provas e adverte que provas mais invasivas só podem ser admitidas após esgotadas as diligências menos intrusivas. Considerando esse percurso, é correto afirmar que:",
+    "alternativas": {
+      "A": "o percurso é estritamente linear e composto de fases estanques, de modo que, uma vez iniciada uma etapa, fica vedado retornar à etapa anterior ou realizar qualquer ajuste de rota",
+      "B": "as cautelares pessoais e reais, por serem as medidas menos invasivas do percurso, constituem o primeiro passo da investigação, antecedendo a própria obtenção de meios ordinários de prova",
+      "C": "o processo se desenvolve em espiral, com fases não estanques e padrões probatórios mínimos e crescentes, sendo as provas mais invasivas admitidas só após esgotadas as menos intrusivas",
+      "D": "a instauração consiste no relatório final que é encaminhado ao Poder Judiciário ou ao Ministério Público, ato que encerra de modo definitivo o ciclo investigativo do projeto"
+    },
+    "resposta_correta": "C",
+    "justificativa": "As p. 22-23 descrevem o processo em espiral (e não linear), com as etapas de instauração, obtenção de meios ordinários de prova, cautelares probatórias, cautelares pessoais e reais e conclusão, ressaltando que as fases não são estanques (admitem sobreposições e ajustes) e que se observam padrões probatórios mínimos e crescentes, com provas mais invasivas só após esgotadas as menos intrusivas (C correta). A erra ao afirmar percurso linear e fases estanques, expressamente negado. B erra pois cautelares pessoais e reais são medidas restritivas (mais invasivas), não o primeiro passo. D erra pois a instauração é a identificação do fato típico e delimitação da hipótese, ao passo que o relatório final corresponde à conclusão.",
+    "referencia": "PDF IPO II, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1624,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 2 - Ação de Obtenção de Elementos de Informação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao planejar uma investigação complexa, a equipe pondera o momento de adotar busca e apreensão e eventual prisão preventiva. Conforme as ponderações apresentadas no material sobre os efeitos da antecipação dessas medidas, é correto afirmar que:",
+    "alternativas": {
+      "A": "deferida a busca e apreensão a investigação passa à fase ostensiva, com provável pressão da defesa pela restituição dos bens; já a prisão preventiva força a antecipação da conclusão do inquérito",
+      "B": "a busca e apreensão, por ser técnica ordinária, dispensa a prévia autorização judicial e em nada interfere no caráter sigiloso ou ostensivo em que se desenvolve a investigação policial federal",
+      "C": "a decretação da prisão preventiva amplia o prazo legal de conclusão do inquérito, permitindo à equipe estender de modo praticamente indefinido as suas diligências enquanto o investigado permanece preso",
+      "D": "após o deferimento da medida de busca e apreensão é vedado ao Poder Judiciário restituir os bens apreendidos, ainda que a investigação se prolongue muito além de um tempo razoável"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A p. 23 ensina que, optando-se pela busca e apreensão após autorização judicial, a investigação passa à fase ostensiva, sendo provável a pressão dos defensores pela restituição de bens, com a Justiça por vezes liberando-os se a apuração não se concluir em tempo razoável (medido pela complexidade); e que a antecipação de cautelares pessoais, como a prisão preventiva, força a antecipação da conclusão do inquérito, ante o prazo legal para réu preso (A correta). B erra pois a busca e apreensão depende de autorização judicial e leva a investigação à fase ostensiva. C inverte o efeito: a prisão preventiva encurta (antecipa) a conclusão por força do prazo legal, não permite estender indefinidamente. D erra pois o material afirma ser comum a Justiça liberar os bens quando a investigação se prolonga.",
+    "referencia": "PDF IPO II, p. 23",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1625,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto adverte que é fundamental distinguir o uso legítimo da OSINT de práticas que ultrapassam os limites legais. A esse respeito, é correto afirmar que:",
+    "alternativas": {
+      "A": "qualquer dado disponível na internet pode ser coletado licitamente, mesmo que obtido mediante acesso não autorizado a sistemas, desde que destinado à investigação criminal em curso na Polícia Federal",
+      "B": "a coleta de dados verdadeiramente públicos é lícita, mas métodos que envolvam invasão de sistemas informatizados configuram excesso, podendo invalidar a prova e caracterizar crime",
+      "C": "por ser meio ordinário, a OSINT autoriza o investigador a acessar sistemas protegidos por sigilo, dispensada a autorização judicial, ainda que mediante superação de barreiras de segurança",
+      "D": "a invasão de sistemas informatizados para coleta de dados é tolerada na fase preliminar do inquérito, pois apenas o eventual uso do material em juízo poderia caracterizar conduta ilícita"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: a p. 26 afirma que a coleta de dados verdadeiramente públicos é lícita e amplamente aceita, ao passo que a utilização de métodos que envolvam invasão de sistemas informatizados configura excesso, podendo invalidar a prova e até caracterizar crime. A erra porque a invasão de sistemas não é tolerada, ainda que para fins de investigação. C erra porque a OSINT, mesmo sendo meio ordinário, restringe-se a dados de caráter público e não autoriza acesso a sistemas protegidos por sigilo (p. 26). D erra porque a invasão não é tolerada nem na fase preliminar; ela já configura excesso e pode caracterizar crime, independentemente do uso em juízo.",
+    "referencia": "PDF IPO II, p. 26",
+    "nivel": "medio"
+  },
+  {
+    "id": 1626,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da investigação policial, a doutrina recomenda que a OSINT seja compreendida não como simples consulta a dados públicos, mas como uma prática técnico-profissional. Essa concepção implica que a atividade exija, primordialmente:",
+    "alternativas": {
+      "A": "planejamento, análise crítica, validação da confiabilidade e documentação de cada etapa da coleta",
+      "B": "autorização judicial prévia, dada a natureza sigilosa dos dados que são acessados pelo investigador",
+      "C": "a substituição dos demais meios ordinários de investigação, em razão de sua maior eficiência probatória",
+      "D": "o emprego restrito a investigações que já estejam amparadas por medidas extraordinárias em andamento"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: a p. 26 afirma que OSINT deve ser compreendida como prática técnico-profissional, que exige planejamento, análise crítica, validação da confiabilidade e documentação de cada etapa da coleta. B erra porque as informações são de caráter público, livremente consultáveis sem necessidade de autorização judicial (p. 26). C erra porque o texto afirma que o emprego de fontes abertas não substitui os demais meios, constituindo um pilar de eficiência e economicidade (p. 26). D erra porque a OSINT funciona muitas vezes como etapa inicial, antes da adoção de medidas extraordinárias, e não como atividade dependente delas (p. 26).",
+    "referencia": "PDF IPO II, p. 26",
+    "nivel": "facil"
+  },
+  {
+    "id": 1627,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "As fontes abertas, para fins investigativos, são organizadas em quatro grandes grupos. A consulta a diários oficiais, portais da transparência, sistemas de consulta processual de tribunais (PJe, e-SAJ) e conselhos profissionais (OAB, CRM, CREA) corresponde à categoria de fontes:",
+    "alternativas": {
+      "A": "digitais e plataformas da internet, como motores de busca e redes sociais abertas",
+      "B": "especializadas e setoriais",
+      "C": "governamentais e registros oficiais",
+      "D": "tradicionais"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: a p. 27 classifica diários oficiais, portais da transparência, sistemas de consulta processual de tribunais (PJe, e-SAJ) e conselhos profissionais (OAB, CRM, CREA) como fontes governamentais e registros oficiais. A erra porque fontes digitais e plataformas da internet abrangem motores de busca, ferramentas de arquivamento, redes sociais e busca reversa de imagens (p. 27). B erra porque fontes especializadas e setoriais englobam dados ambientais, de transportes/logística e de infraestrutura digital (p. 27). D erra porque fontes tradicionais compreendem jornais impressos, revistas, televisão, rádio e publicações acadêmicas (p. 28).",
+    "referencia": "PDF IPO II, p. 27",
+    "nivel": "facil"
+  },
+  {
+    "id": 1628,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação sobre facção criminosa, o investigado nega vínculo com o grupo e alega ter rompido relações em 2022. A equipe localiza, em canal aberto, clipe musical em que o investigado aparece ao lado de membros já identificados, e precisa demonstrar de forma técnica a data de publicação do vídeo para contraditar a versão. A ferramenta adequada para validar temporalmente o conteúdo e identificar eventual reuso é:",
+    "alternativas": {
+      "A": "a Ad Library do Meta, que verifica os anúncios veiculados no Facebook e no Instagram pela página investigada",
+      "B": "a Wayback Machine, que arquiva cópias estáticas navegáveis de páginas removidas",
+      "C": "o TinEye, ferramenta de geolocalização de endereços IP utilizada em diligências",
+      "D": "o YouTube DataViewer, que extrai o horário de upload e as miniaturas de vídeos no YouTube"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: a p. 29 indica o YouTube DataViewer como ferramenta que extrai horário de upload e miniaturas de vídeos no YouTube, útil para validação temporal e identificação de reuso de conteúdo, exatamente o caso descrito (exemplo da p. 30). A erra porque a Ad Library do Meta verifica anúncios em Facebook e Instagram, identificando campanhas e financiamentos, não a data de upload de vídeos (p. 29). B erra porque a Wayback Machine arquiva e recupera páginas da web, não valida horário de upload de vídeos do YouTube (p. 29). C erra porque o TinEye é ferramenta de pesquisa reversa de imagens, e não de geolocalização de IPs (p. 30).",
+    "referencia": "PDF IPO II, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 1629,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre meios ordinários e meios extraordinários de investigação e a posição das pesquisas em fontes abertas nesse quadro, é correto afirmar que:",
+    "alternativas": {
+      "A": "os meios ordinários podem ser empregados de imediato, independentemente de apreciação judicial e respeitada a legislação vigente, ao passo que os extraordinários, como interceptações e quebras de sigilo, dependem de autorização judicial e têm caráter excepcional",
+      "B": "tanto os meios ordinários quanto os extraordinários dependem de prévia autorização judicial, distinguindo-se apenas pelo grau de complexidade técnica envolvido",
+      "C": "as pesquisas em fontes abertas integram os meios extraordinários, pois sua utilização pressupõe quebra de sigilo telemático",
+      "D": "os meios ordinários, por serem de menor complexidade, não se prestam a robustecer provas em inquéritos já instaurados, limitando-se à abertura de procedimentos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: as p. 25-26 explicam que os meios ordinários podem ser empregados de imediato, independentemente de apreciação judicial e respeitada a legislação, enquanto os extraordinários (interceptações telefônicas, quebra de sigilo bancário, infiltrações) dependem de autorização judicial e possuem caráter excepcional. B erra porque os meios ordinários não dependem de autorização judicial prévia (p. 25). C erra porque a OSINT é arrolada entre os principais meios ordinários e dispensa autorização judicial (p. 25 e 26). D erra porque os meios ordinários servem tanto para subsidiar a abertura de procedimentos quanto para robustecer provas em inquéritos já instaurados (p. 25).",
+    "referencia": "PDF IPO II, p. 25",
+    "nivel": "medio"
+  },
+  {
+    "id": 1630,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto destaca que o exemplo de uso integrado de ferramentas deve observar cautelas para que os elementos coletados tenham validade. Entre as cautelas expressamente recomendadas ao final do uso integrado de ferramentas, inclui-se:",
+    "alternativas": {
+      "A": "obter autorização judicial prévia para a captura de telas de páginas de acesso público",
+      "B": "observar os parâmetros aplicáveis da IN 299/2025, que assegura a cadeia de custódia dos elementos digitais coletados",
+      "C": "dispensar a avaliação da confiabilidade da fonte, desde que o dado conste de portal governamental",
+      "D": "armazenar o material exclusivamente em repositório pessoal do investigador responsável, para que se preserve o sigilo da diligência em andamento"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: a p. 30 recomenda observar os parâmetros aplicáveis da IN 299/2025, que assegura a cadeia de custódia dos elementos digitais coletados. A erra porque a captura de telas de páginas públicas não exige autorização judicial; a recomendação é documentar a captura com data, hora e links (p. 30). C erra porque o texto recomenda justamente avaliar a confiabilidade da fonte antes de utilizar o dado em informações de polícia judiciária ou relatórios (p. 30). D erra porque a boa prática prevê armazenamento em repositório institucional seguro, e não pessoal (p. 32).",
+    "referencia": "PDF IPO II, p. 30",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1631,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A equipe da Polícia Federal investiga fraude em licitação e teme que o site oficial da empresa contratada seja alterado ou que páginas com a lista de contratos públicos sejam removidas após a deflagração da operação. Diante da necessidade de recuperar conteúdos já alterados ou removidos e de preservar instantaneamente versões estáticas das páginas, as ferramentas adequadas são, respectivamente:",
+    "alternativas": {
+      "A": "InVID-WeVerify, ferramenta destinada à quebra de vídeos em quadros e à análise de metadados, e YouTube DataViewer, voltado à extração do horário de upload e das miniaturas de vídeos no YouTube",
+      "B": "Google Street View, para visualizar imóveis, e Yandex, para realizar busca reversa de imagens",
+      "C": "Wayback Machine, que arquiva cópias de páginas em diferentes datas permitindo recuperar conteúdos removidos, e Archive.today, que gera instantaneamente cópias estáticas e navegáveis",
+      "D": "registro.br, para consulta de domínios, e MaxMind, para a geolocalização de endereços IP"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: a p. 29 descreve a Wayback Machine como serviço que arquiva cópias de páginas em diferentes datas, permitindo recuperar conteúdos removidos ou alterados, e o Archive.today como ferramenta que gera instantaneamente cópias estáticas e navegáveis, garantindo preservação mesmo em caso de exclusão. A erra porque InVID-WeVerify e YouTube DataViewer destinam-se à análise/validação de imagens e vídeos, não à preservação de páginas (p. 29). B erra porque Street View e Yandex servem à geolocalização e à busca reversa de imagens (p. 30). D erra porque registro.br e MaxMind são fontes de infraestrutura digital (domínios e geolocalização de IPs), e não de preservação de páginas (p. 27).",
+    "referencia": "PDF IPO II, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 1632,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 3 - Meios Ordinários: Pesquisas em Fontes Abertas (OSINT)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o valor probatório e o papel das pesquisas em fontes abertas no ciclo investigativo, conforme exposto nos exemplos operacionais, é correto afirmar que:",
+    "alternativas": {
+      "A": "a coleta em fontes abertas é suficiente, por si só, para deferir medidas extraordinárias como a quebra de sigilo bancário, dispensando o cruzamento com bases oficiais",
+      "B": "os achados em fontes abertas têm valor probatório autônomo e definitivo, não devendo ser confrontados com outros meios, a fim de preservar a sua imparcialidade",
+      "C": "por se tratarem de informações públicas, os dados de fontes abertas não podem servir de lastro a representações por medidas extraordinárias de investigação",
+      "D": "a coleta em fontes abertas constitui etapa preliminar essencial que não se esgota em si mesma, e seu valor cresce à medida que os achados são confrontados e validados em bancos de dados oficiais, fundamentando medidas extraordinárias"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: as p. 31-32 afirmam que a coleta em fontes abertas constitui etapa preliminar essencial que não se esgota em si mesma, e que seu valor cresce à medida que os achados são confrontados e validados em bancos de dados oficiais, servindo de lastro para medidas extraordinárias. A erra porque o texto enfatiza que a OSINT não se basta sozinha e que sua integração com bancos de dados oficiais fornece o lastro robusto (p. 31). B erra porque o texto recomenda justamente o confronto e a validação dos achados, não atribuindo a eles valor autônomo e definitivo (p. 32). C erra porque os dados de fontes abertas permitem fundamentar, com maior segurança jurídica, o requerimento de medidas extraordinárias (p. 32).",
+    "referencia": "PDF IPO II, p. 31",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1633,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação sobre organização criminosa, um investigador realiza consulta direta a dados cadastrais e patrimoniais de um alvo em base oficial à qual a Polícia Federal tem acesso por convênio. Um colega afirma que tal consulta configuraria quebra de sigilo e exigiria prévia autorização judicial. À luz da distinção doutrinária apresentada no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A simples consulta a base cujo acesso é legitimado por lei ou convênio não se confunde com quebra de sigilo, instituto reservado a medidas cautelares judiciais.",
+      "B": "Toda consulta a banco de dados que contenha informações cadastrais e patrimoniais de pessoa determinada caracteriza quebra de sigilo e depende de prévia autorização judicial, independentemente da existência de convênio.",
+      "C": "A consulta a bancos conveniados equivale a quebra de sigilo apenas quando os dados forem patrimoniais, dispensando-se a autorização judicial somente quando os dados consultados forem meramente cadastrais.",
+      "D": "A distinção entre simples consulta e quebra de sigilo é irrelevante na fase de inquérito, pois ambos os institutos possuem a mesma natureza jurídica e estão sujeitos à reserva de jurisdição."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: o material (p. 34) afirma que o investigador deve ter clareza de que a simples consulta nao pode ser confundida com quebra de sigilo - instituto reservado a medidas cautelares judiciais -, mas sim como exploracao de bases cujo acesso institucional e legitimado por lei ou convenio. B erra ao equiparar consulta a quebra de sigilo e exigir autorizacao judicial, contrariando p. 33 (esses bancos sao acessiveis mediante convenios ou autorizacoes internas, nao dependendo de previa autorizacao judicial). C inventa um criterio (cadastral x patrimonial) inexistente no texto. D nega a distincao que o proprio material destaca como essencial. Referencia: p. 33-34.",
+    "referencia": "PDF IPO II, p. 34",
+    "nivel": "medio"
+  },
+  {
+    "id": 1634,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o material, as pesquisas em bancos de dados cumprem três funções principais no ciclo investigativo. Assinale a alternativa que reúne corretamente essas funções.",
+    "alternativas": {
+      "A": "Substituição definitiva das fontes abertas no ciclo investigativo, dispensa de qualquer cooperação interinstitucional e antecipação dos efeitos da sentença penal condenatória.",
+      "B": "Quebra de sigilo bancário do alvo, interceptação telemática autônoma e identificação biométrica compulsória de todos os suspeitos arrolados na investigação.",
+      "C": "Corroboração de indícios de fontes abertas, ampliação da abrangência informativa e preparação para medidas extraordinárias.",
+      "D": "Geração automática de prova pericial com valor de coisa julgada, dispensa do contraditório e arquivamento sumário do inquérito por decisão da própria autoridade policial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: a p. 34 lista exatamente as tres funcoes - corroboracao de indicios levantados em fontes abertas, ampliacao da abrangencia informativa (dados nao disponiveis ao publico) e preparacao para medidas extraordinarias (fornecendo elementos para justificar pedidos de quebra de sigilo ou cooperacao). A erra porque os bancos nao substituem as fontes abertas, mas as complementam (p. 34, sao elo intermediario). B confunde funcoes das pesquisas com medidas extraordinarias propriamente ditas (quebra de sigilo e interceptacao). D atribui efeitos juridicos (prova pericial automatica, dispensa de contraditorio) inexistentes no texto. Referencia: p. 34.",
+    "referencia": "PDF IPO II, p. 34",
+    "nivel": "facil"
+  },
+  {
+    "id": 1635,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a apuração de vínculos societários e fiscais de empresas suspeitas de fraude, o investigador precisa acessar bancos de dados conveniados administrativos e cadastrais. Considerando os exemplos apresentados no material, assinale a alternativa que associa corretamente a base à informação que ela fornece.",
+    "alternativas": {
+      "A": "O CNIS (Cadastro Nacional de Informações Sociais) é a base que fornece, prioritariamente, dados sobre movimentação aérea e logística de transportes do investigado.",
+      "B": "O CAR (Cadastro Ambiental Rural) é a base destinada a fornecer o histórico previdenciário e os vínculos laborais do investigado ao longo do tempo.",
+      "C": "O Caged (Cadastro Geral de Empregados e Desempregados) é a base que fornece informações detalhadas sobre imóveis rurais e sobre o uso do solo.",
+      "D": "A Receita Federal do Brasil (RFB) fornece dados de CPF, CNPJ, situação fiscal e quadro societário."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D: a p. 35 indica que a Receita Federal do Brasil (RFB) fornece CPF, CNPJ, situacao fiscal e quadro societario. A erra: movimentacao aerea e logistica de transportes e o ATSG, nao o CNIS (que traz historico previdenciario e vinculos laborais). B erra: historico previdenciario e do CNIS, e nao do CAR (que traz informacoes sobre imoveis rurais e uso do solo). C erra: informacoes sobre imoveis rurais sao do CAR, enquanto o Caged traz vinculos empregaticios. Referencia: p. 35.",
+    "referencia": "PDF IPO II, p. 35",
+    "nivel": "medio"
+  },
+  {
+    "id": 1636,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação de crime financeiro com indícios de lavagem de dinheiro, a equipe precisa obter relatórios sobre movimentações financeiras atípicas e, separadamente, identificar os vínculos entre o investigado e instituições financeiras. Considerando os bancos de dados de inteligência financeira descritos no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Sei-C (Coaf) permite solicitar relatórios de inteligência financeira (RIFs) sobre movimentações atípicas, e o CCS-Bacen indica os vínculos com instituições financeiras.",
+      "B": "O CCS-Bacen é o sistema que permite solicitar relatórios de inteligência financeira sobre movimentações atípicas, ao passo que o Sei-C limita-se a registrar os antecedentes criminais do investigado e seus dados de qualificação.",
+      "C": "Tanto o Sei-C quanto o CCS-Bacen são sistemas oficiais de interceptação de sinais telefônicos e telemáticos da Polícia Federal, voltados à captação de comunicações em tempo real.",
+      "D": "O Sei-C e o CCS-Bacen são classificados como bancos de dados policiais de segurança pública, agregando antecedentes, ocorrências e dados criminais de indivíduos consultados na investigação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: a p. 35-36 descreve o Sei-C (Coaf) como sistema que permite a solicitacao de relatorios de inteligencia financeira (RIFs) sobre movimentacoes financeiras atipicas, e o CCS-Bacen (Cadastro de Clientes do Sistema Financeiro Nacional) como base de vinculos entre pessoas fisicas/juridicas e instituicoes financeiras. B inverte as funcoes das duas bases. C confunde com o SIS-2 (interceptacao de sinais), que e outro sistema (p. 38). D classifica indevidamente esses bancos como policiais de seguranca publica (Infoseg, Interpol etc., p. 35), quando sao de inteligencia financeira. Referencia: p. 35-36.",
+    "referencia": "PDF IPO II, p. 36",
+    "nivel": "medio"
+  },
+  {
+    "id": 1637,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "O investigador necessita realizar consulta integrada de informações criminais, dados de veículos, armas, condutores, mandados de prisão (BNMP/CNJ), além de dados da Interpol e boletins de ocorrências. Considerando os bancos de dados policiais e de segurança pública descritos no material, qual base atende a essa demanda?",
+    "alternativas": {
+      "A": "O CAR, base de natureza ambiental que, segundo o material, centraliza informações criminais, antecedentes e mandados de prisão expedidos no país.",
+      "B": "O Infoseg, base da Senasp que reúne dados criminais, veículos, armas, condutores, mandados de prisão (BNMP/CNJ), Interpol e boletins de ocorrências.",
+      "C": "O Sei-C do Coaf, sistema de inteligência financeira que, no material, é apresentado como voltado à consulta de antecedentes criminais, veículos e armas de fogo.",
+      "D": "As juntas comerciais, sistemas que, conforme o material, reúnem dados criminais, antecedentes pessoais e mecanismos de cooperação policial internacional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: a p. 35 descreve o Infoseg como base da Secretaria Nacional de Seguranca Publica (Senasp) que permite consulta de dados criminais, veiculos, armas, condutores, pessoa fisica e juridica da Receita, Interpol, mandados de prisao (BNMP/CNJ), boletins de ocorrencias etc. A erra: o CAR e cadastro ambiental rural (p. 35), nao reune informacoes criminais. C erra: o Sei-C e de inteligencia financeira do Coaf (p. 35-36), nao consulta antecedentes e veiculos. D erra: as juntas comerciais trazem dados basicos de empresas (p. 35), nao dados criminais. Referencia: p. 35.",
+    "referencia": "PDF IPO II, p. 35",
+    "nivel": "medio"
+  },
+  {
+    "id": 1638,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os bancos de dados internos da Polícia Federal voltados à atividade criminal e operacional descritos no material, assinale a alternativa correta quanto à finalidade dos sistemas.",
+    "alternativas": {
+      "A": "O SINAPSE é o sistema oficial de interceptação de sinais da PF, voltado à interceptação de dados telemáticos e telefônicos no curso das investigações criminais.",
+      "B": "O NEXO é um mero mecanismo de busca textual nos moldes do Google e do Yahoo, não dispondo de funcionalidade para geração de dossiês integrados a partir de múltiplas fontes.",
+      "C": "O TENTÁCULOS é o sistema responsável pela emissão e pela consulta de passaportes, contendo dados cadastrais, endereço, fotografia e telefone do titular.",
+      "D": "O e-POL é o sistema de polícia judiciária da PF, voltado ao controle de procedimentos policiais e à geração de documentos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D: a p. 38 descreve o e-POL como sistema de policia judiciaria da PF, para controle de procedimentos policiais, gestao e geracao de documentos e tarefas, possibilitando acompanhar as fases da investigacao, realizar pesquisas e produzir pecas. A erra: o sistema oficial de interceptacao de sinais e o SIS-2 (p. 38), nao o SINAPSE (que e mecanismo de busca textual). B erra: o NEXO reune bancos de dados da PF e de outros orgaos e gera dossies integrados (p. 37); quem e busca textual nos moldes Google/Yahoo e o SINAPSE. C erra: o TENTACULOS e plataforma sobre fraudes bancarias eletronicas e golpes digitais (p. 38); a emissao/consulta de passaporte e o SINPA. Referencia: p. 37-38.",
+    "referencia": "PDF IPO II, p. 38",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1639,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um servidor da PF precisa consultar dados sobre armas de fogo e dados pessoais de seus proprietários. O material descreve o SINARM com determinadas características. Assinale a alternativa correta sobre esse sistema.",
+    "alternativas": {
+      "A": "O SINARM permite consulta a dados sobre armas de fogo, inclusive dados pessoais dos proprietários, com acesso pelo Sistema CGTI, e não acessa os dados do SIGMA.",
+      "B": "O SINARM é o sistema cuja finalidade, segundo o material, é gerenciar as autorizações de residência e as regularizações migratórias de estrangeiros que vivem no Brasil.",
+      "C": "O SINARM é apresentado como um portal com interface para mais de quarenta sistemas da PF, cujos acessos dependem do nível de permissão atribuído a cada usuário.",
+      "D": "O SINARM acessa diretamente os dados do SIGMA e, por isso, dispensa o uso do Sistema CGTI para a realização de consultas relativas às armas de fogo registradas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: a p. 36 descreve o SINARM (Sistema Nacional de Armas) como sistema que permite consulta a dados sobre armas de fogo, inclusive dados pessoais dos proprietarios, com acesso pelo Sistema CGTI, e que nao acessa os dados do SIGMA. B descreve o SISMIGRA (autorizacoes de residencia e regularizacoes migratorias, p. 36). C descreve o PF-Catalogo (portal com mais de 40 sistemas, p. 37). D contraria o texto, que afirma expressamente que o SINARM nao acessa os dados do SIGMA e que o acesso e feito pelo Sistema CGTI. Referencia: p. 36.",
+    "referencia": "PDF IPO II, p. 36",
+    "nivel": "medio"
+  },
+  {
+    "id": 1640,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do modelo associativo do Qlik Sense, que utiliza três estados de cor para indicar o relacionamento entre os dados, assinale a alternativa que descreve corretamente o significado das cores.",
+    "alternativas": {
+      "A": "Verde indica os valores excluídos da seleção; branco indica os valores que foram efetivamente selecionados; cinza indica os valores disponíveis e relacionados à seleção feita.",
+      "B": "Verde indica valores selecionados; branco, valores disponíveis relacionados à seleção; cinza, valores não relacionados.",
+      "C": "Verde indica os valores não relacionados à seleção; branco indica os valores que foram selecionados pelo usuário; cinza indica os valores disponíveis e ainda associáveis à análise.",
+      "D": "Verde indica os valores disponíveis e relacionados; branco indica os valores excluídos da análise; cinza indica os valores que foram efetivamente selecionados pelo analista."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: a p. 39 (e reforco na p. 43) estabelece que no modelo associativo do Qlik Sense o verde representa valores selecionados, o branco representa valores disponiveis relacionados a selecao e o cinza representa valores nao relacionados (excluidos). A, C e D embaralham o significado das tres cores, contrariando a correspondencia exata definida no material. Referencia: p. 39.",
+    "referencia": "PDF IPO II, p. 39",
+    "nivel": "facil"
+  },
+  {
+    "id": 1641,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "A APF organiza a estrutura de um aplicativo no Qlik Sense Desktop e precisa compreender seus componentes e o comportamento das seleções. Considerando o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As seleções feitas em uma pasta permanecem isoladas, não afetando as demais visualizações do aplicativo, o que preserva a total independência de cada uma das análises realizadas pelo usuário.",
+      "B": "O Qlik Sense Desktop realiza salvamento automático e contínuo do aplicativo, de modo que se torna desnecessário ao analista salvar manualmente o trabalho após a conclusão de cada análise.",
+      "C": "Os objetos (.qvf) são as subdivisões internas do aplicativo, enquanto as pastas correspondem aos arquivos que efetivamente armazenam os dados brutos e as visualizações geradas na ferramenta.",
+      "D": "Os aplicativos (.qvf) contêm os dados e as visualizações; as pastas organizam as visualizações e podem ser públicas ou privadas; os objetos são os elementos visuais, como tabelas, gráficos e mapas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D: a p. 40 descreve os tres elementos do Qlik Sense - aplicativos (.qvf), que contem dados e visualizacoes; pastas, subdivisoes onde as visualizacoes sao organizadas (publicas ou privadas); e objetos, elementos visuais (tabelas, graficos, paineis de filtro, mapas, indicadores). A contraria a p. 45, segundo a qual as selecoes sao globais e afetam todas as pastas (dinamica associativa). B contraria a p. 46, que adverte expressamente que nao ha salvamento automatico (salve frequentemente). C inverte os conceitos: o .qvf e o aplicativo, nao o objeto, e quem armazena dados/visualizacoes e o aplicativo. Referencia: p. 40 e 45-46.",
+    "referencia": "PDF IPO II, p. 40",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1642,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 4 - Meios Ordinários: Pesquisa em Bancos de Dados",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao analisar dados de um inquérito no Qlik Sense, o policial aplica um conjunto de filtros por CPF/CNPJ e deseja preservar e reaproveitar esse estado de seleção, além de evitar alterações acidentais. Considerando os recursos e a dinâmica associativa descritos no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A trava de filtro, acionada pelo ícone de cadeado, serve para excluir definitivamente os dados não relacionados do aplicativo, apagando-os de forma permanente da base de dados carregada.",
+      "B": "Os marcadores impedem que as seleções afetem outras pastas, suspendendo, durante a análise, a dinâmica associativa que constitui o principal diferencial da ferramenta.",
+      "C": "Os marcadores salvam estados de seleção para retorno posterior, e a trava de filtro evita alterações acidentais.",
+      "D": "Como as seleções no Qlik Sense são locais a cada pasta, filtrar por um CPF em uma pasta não altera as visualizações das demais, razão pela qual se recomenda manter os filtros entre análises distintas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: a p. 44 explica que os marcadores permitem salvar estados especificos de selecao, reutilizaveis a qualquer momento para retornar ao mesmo estado de analise, e que a trava de filtro (icone de cadeado) evita alteracoes acidentais. A erra: a trava de filtro nao apaga dados da base, apenas impede alteracoes nas selecoes. B erra: os marcadores nao suspendem a dinamica associativa; eles salvam estados de selecao. D contraria a p. 45, segundo a qual as selecoes sao globais (afetam todas as pastas) e a p. 46, que recomenda limpar os filtros antes de iniciar nova analise. Referencia: p. 44-46.",
+    "referencia": "PDF IPO II, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1643,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a Instrução Normativa DG/PF nº 245/2023, a Polícia Federal pode receber duas modalidades de RIF. Acerca da distinção entre o RIF de ofício (ou espontâneo) e o RIF de intercâmbio, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O RIF de intercâmbio é elaborado pelo Coaf por iniciativa própria, ao passo que o RIF de ofício pressupõe sempre solicitação formal prévia da autoridade policial designada para o caso.",
+      "B": "O RIF de ofício somente pode ser elaborado mediante proposta de intercâmbio formulada previamente pela autoridade policial competente, não havendo qualquer iniciativa autônoma do próprio Coaf na sua confecção.",
+      "C": "O RIF de intercâmbio é elaborado pelo Coaf em resposta a solicitação formal do Delegado de Polícia Federal, e sua utilização fica restrita ao procedimento para o qual foi solicitado, ou somente para fins de inteligência.",
+      "D": "O RIF de ofício não admite, em nenhuma hipótese, utilização como notícia de fato para a instauração de inquérito policial, nem como peça de informação em inquéritos já instaurados, servindo apenas e exclusivamente para fins de inteligência da Polícia Federal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: o RIF de intercâmbio é encaminhado pelo Coaf em resposta a solicitação formal do Delegado de Polícia Federal (ou policial designado), no âmbito de inquérito ou outro procedimento de polícia judiciária, sendo sua utilização restrita ao procedimento para o qual foi solicitado, ou somente para fins de inteligência (p. 51). A inverte os conceitos: é o RIF de ofício/espontâneo que decorre da iniciativa do próprio Coaf, e o de intercâmbio que pressupõe solicitação (p. 51). B erra porque o RIF de ofício é elaborado por iniciativa do próprio Coaf, e não mediante proposta da PF (p. 51). D erra porque o RIF de ofício pode ser utilizado como notícia de fato para instauração de inquérito, como peça de informação em inquéritos já instaurados, ou exclusivamente para fins de inteligência (p. 51).",
+    "referencia": "PDF IPO II, p. 51",
+    "nivel": "medio"
+  },
+  {
+    "id": 1644,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "As comunicações obrigatórias enviadas ao Coaf pelas pessoas obrigadas podem ser divididas em dois grandes grupos: a Comunicação de Operação Suspeita (COS) e a Comunicação de Operações em Espécie (COE). Sobre essa distinção, é correto afirmar que:",
+    "alternativas": {
+      "A": "ambas dependem de uma análise subjetiva por parte do comunicante, que avalia, caso a caso, se existem indícios concretos de lavagem de dinheiro antes de efetuar a comunicação ao Coaf.",
+      "B": "a COS depende de análise do comunicante quanto às circunstâncias suspeitas, enquanto a COE independe de análise, sendo enviada quando operações em espécie ultrapassam os limites fixados em norma.",
+      "C": "a COE depende de análise das circunstâncias suspeitas pelo comunicante, ao passo que a COS é automática e obrigatória sempre que ultrapassado o limite legal de valor previsto na norma de regência.",
+      "D": "ambas são geradas automaticamente pelo sistema do Coaf, sem qualquer participação ou avaliação prévia das pessoas obrigadas a comunicar as operações financeiras de seus clientes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: a COS é encaminhada quando as pessoas obrigadas identificam, nas operações de seus clientes, características e circunstâncias suspeitas, dependendo de análise por parte dos comunicantes; já a COE é encaminhada quando se identificam operações em espécie que ultrapassam os limites fixados na norma legal, independendo de análise ou de qualquer consideração do comunicante (p. 56). A erra porque a COE independe de análise. C inverte os conceitos (atribui à COE a análise e à COS o critério automático de valor). D erra porque as comunicações são enviadas pelas próprias pessoas obrigadas, e não geradas automaticamente pelo Coaf (p. 56).",
+    "referencia": "PDF IPO II, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 1645,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um RIF recebido pela Polícia Federal por intermédio do Coaf contém informações oriundas de unidade de inteligência financeira (UIF) estrangeira. À luz da IN DG/PF nº 245/2023 e dos compromissos internacionais firmados pelo Brasil, qual o tratamento correto a ser dado a esse relatório?",
+    "alternativas": {
+      "A": "Deve ser utilizado exclusivamente para fins de inteligência, não se admitindo sua juntada ou menção em inquéritos sem prévia autorização da UIF estrangeira, podendo orientar diligências por vias próprias.",
+      "B": "Pode ser mencionado em inquérito desde que a fonte estrangeira seja expressamente indicada nos autos do procedimento, ficando dispensada, nesse caso, qualquer autorização da unidade estrangeira de origem.",
+      "C": "Deve ser juntado integralmente ao inquérito policial, uma vez que informações de UIF estrangeira possuem exatamente o mesmo valor probatório das informações financeiras produzidas em território nacional.",
+      "D": "Pode ser convertido automaticamente em prova judicial após o decurso do prazo de cooperação previsto nos acordos multilaterais firmados pelo Brasil, independentemente de qualquer manifestação ou autorização prévia da UIF estrangeira que figura como fonte original da informação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o RIF que contenha informações de UIF estrangeira deve ser utilizado exclusivamente para fins de inteligência, não se admitindo sua juntada ou menção em inquéritos sem a prévia autorização da UIF estrangeira; tais informações não podem, em regra, ser utilizadas diretamente como prova, mas devem orientar diligências por vias próprias e autônomas ou por canais formais de cooperação (p. 54-55). B erra porque a mera indicação da fonte não dispensa a autorização prévia da UIF estrangeira. C erra porque a juntada integral é vedada sem autorização. D erra porque não há conversão automática em prova por decurso de prazo; exige-se autorização prévia, cooperação jurídica internacional ou medidas investigativas alternativas (art. 12 da IN 245/2023, p. 55).",
+    "referencia": "PDF IPO II, p. 55",
+    "nivel": "medio"
+  },
+  {
+    "id": 1646,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a natureza jurídica do RIF e seus limites de utilização como elemento de prova na persecução penal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O RIF equivale a prova judicial autônoma, dispensando, por sua origem técnica e oficial no Coaf, o cotejo com outras diligências para fundamentar a condenação criminal do investigado.",
+      "B": "Por ser produto elaborado pelo Coaf, o RIF goza de presunção absoluta de veracidade, não podendo ser questionado, no caso concreto, quanto à sua admissibilidade probatória pelo Poder Judiciário.",
+      "C": "O RIF, em si, não equivale à prova judicial, mas é um insumo de inteligência que deve ser confrontado com outras diligências para compor a narrativa investigativa de forma válida.",
+      "D": "O RIF só pode ser empregado para fins estatísticos e de produção de dados gerenciais, sendo vedada, por força de lei, qualquer utilização investigativa desse documento pela autoridade policial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: o texto afirma expressamente que o RIF, em si, não equivale à prova judicial, mas representa um insumo de inteligência que deve ser confrontado com outras diligências para compor a narrativa investigativa de forma válida perante o Poder Judiciário; em resumo, o RIF orienta e a prova é construída pelo policial (p. 52, 58, 60). A erra porque o RIF não é prova autônoma. B erra porque não há presunção absoluta de veracidade e a admissibilidade probatória permanece sujeita a controle judicial individualizado. D erra porque o RIF é legítimo e relevante para a investigação, admitindo-se inclusive seu uso como notícia de fato (p. 52).",
+    "referencia": "PDF IPO II, p. 52",
+    "nivel": "facil"
+  },
+  {
+    "id": 1647,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A prática institucional recomenda que o RIF não seja juntado integralmente aos autos do inquérito. Sobre o procedimento mais adequado de tratamento e formalização do RIF na Polícia Federal, é correto afirmar que:",
+    "alternativas": {
+      "A": "o RIF deve ser anexado por inteiro ao inquérito, com todas as comunicações recebidas pelo Coaf, a fim de garantir a mais ampla transparência e o pleno acesso de todas as partes ao seu conteúdo.",
+      "B": "o conteúdo do RIF pode ser livremente compartilhado fora dos limites funcionais da equipe, desde que o compartilhamento ocorra entre órgãos públicos com atribuição correlata na persecução penal.",
+      "C": "o RIF deve ser tratado como conclusão probatória definitiva da investigação, encerrando, com a sua simples juntada, a necessidade de realização de novas diligências de corroboração pela equipe.",
+      "D": "o procedimento adequado consiste em registrar a referência ao RIF (número, data e origem) e elaborar uma Informação de Polícia Judiciária (IPJ) com a análise própria da equipe."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: o procedimento mais adequado consiste em registrar a referência ao RIF (número, data e origem) e elaborar uma IPJ com a análise própria da equipe, descrevendo os achados relevantes, metodologia que preserva o sigilo, evita expor comunicações sem relação com os fatos e impede a inclusão indevida de terceiros (p. 58). A erra porque a prática institucional recomenda que o documento não seja juntado integralmente aos autos (p. 58). B erra porque o conteúdo do RIF não deve ser compartilhado fora dos limites funcionais (p. 58). C erra porque o RIF deve ser tratado como ponto de partida para novas diligências, e não como conclusão probatória (p. 58).",
+    "referencia": "PDF IPO II, p. 58",
+    "nivel": "facil"
+  },
+  {
+    "id": 1648,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A cadeia de produção do RIF pelo Coaf segue etapas sucessivas, desde a entrada das informações até a disseminação do relatório. Assinale a alternativa que descreve corretamente essa cadeia.",
+    "alternativas": {
+      "A": "Recebimento das comunicações enviadas pelas pessoas obrigadas; consolidação interna no banco de dados do Coaf; análise técnica para identificação de padrões atípicos; e elaboração e disseminação do RIF.",
+      "B": "Decisão judicial prévia autorizando o Coaf a coletar os dados financeiros; coleta direta realizada nas instituições financeiras pelo próprio Coaf; e remessa automática e imediata às autoridades policiais competentes.",
+      "C": "Requisição obrigatória formulada pelo Ministério Público; análise técnica conduzida diretamente pelo Banco Central do Brasil; e disseminação do relatório restrita às Comissões Parlamentares de Inquérito instaladas.",
+      "D": "Elaboração do RIF pelas próprias instituições financeiras comunicantes; homologação do relatório pelo Poder Judiciário competente; e posterior arquivamento no Coaf, sem qualquer disseminação a órgãos externos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: a cadeia de produção do RIF envolve o recebimento das comunicações enviadas pelas pessoas obrigadas, a consolidação interna no banco de dados do Coaf, a análise técnica para identificação de padrões atípicos ou suspeitos e cruzamento de informações, e a elaboração e disseminação do RIF, de forma espontânea ou por intercâmbio (p. 52). B erra porque não há exigência de decisão judicial prévia para o Coaf produzir o RIF, nem coleta direta às instituições pelo próprio Coaf nessa cadeia. C erra porque o RIF não depende de requisição obrigatória do MP nem de análise pelo Banco Central, e sua disseminação não se restringe a CPIs. D erra porque o RIF é elaborado e disseminado pelo Coaf, e não confeccionado pelas instituições financeiras nem homologado pelo Judiciário (p. 52).",
+    "referencia": "PDF IPO II, p. 52",
+    "nivel": "medio"
+  },
+  {
+    "id": 1649,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No plano jurisprudencial, antes da decisão liminar do Tema 1404, o tratamento do compartilhamento dos RIFs já havia sido objeto de pronunciamentos dos tribunais superiores. Acerca desse panorama jurisprudencial descrito no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Tanto o STF quanto o STJ firmaram entendimento idêntico no sentido de que a requisição direta de RIF por autoridade investigativa, sem decisão judicial, é sempre legítima e dispensa formalidades.",
+      "B": "O STF, no Tema 990 (RE 1.055.941), declarou inconstitucional qualquer espécie de compartilhamento de RIF entre o Coaf e os órgãos de persecução penal, ainda que respeitados o sigilo e a formalidade.",
+      "C": "O STJ reconheceu de forma definitiva a legitimidade do compartilhamento dos relatórios sem qualquer autorização judicial, ao passo que o STF, em sentido diametralmente oposto, passou a exigir, em todo e qualquer caso, prévia ordem judicial para a realização de qualquer espécie de compartilhamento de RIF.",
+      "D": "O STF, no Tema 990, reconheceu a legitimidade do compartilhamento dos RIFs de intercâmbio, sem autorização judicial prévia, respeitados formalidade e sigilo; já o STJ, em algumas oportunidades, entendeu sem respaldo a requisição direta sem decisão judicial."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: no Tema 990 (RE 1.055.941), o STF reconheceu a legitimidade do compartilhamento dos RIFs de intercâmbio pelo Coaf com órgãos de persecução penal, sem necessidade de autorização judicial prévia, desde que respeitados os requisitos de formalidade e sigilo; já o STJ, em algumas oportunidades, decidiu que a requisição direta de RIF por autoridades investigativas, sem decisão judicial, não encontra respaldo legal (p. 52). A erra porque os entendimentos descritos não são idênticos. B erra porque o STF reconheceu a legitimidade do compartilhamento (não o declarou inconstitucional). C inverte as posições atribuídas a cada tribunal (p. 52).",
+    "referencia": "PDF IPO II, p. 52",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1650,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 5 - Análise de Relatórios de Inteligência Financeira (RIF)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Polícia Federal pode receber RIF por intermédio do Ministério Público, em expediente acompanhado de requisição para instauração de inquérito (art. 13 da IN 245/2023). Sobre o procedimento aplicável a essa hipótese, assinale a alternativa incorreta.",
+    "alternativas": {
+      "A": "Presume-se que a comunicação havida entre o Coaf e o Ministério Público tenha ocorrido por meio formal e sigiloso, em consonância com a natureza reservada do insumo de inteligência financeira e com o tratamento previsto na normativa interna da Polícia Federal aplicável à espécie.",
+      "B": "Se o RIF recebido do Ministério Público contiver informações de UIF estrangeira, ainda assim poderá fundamentar normalmente a instauração de procedimento de polícia judiciária, sem qualquer ressalva.",
+      "C": "O expediente deve ser submetido à Corregedoria Regional, que o converterá em Notícia-Crime em Verificação (NCV), com diligências preliminares, comunicando o fato ao Ministério Público.",
+      "D": "O delegado destinatário deve certificar-se de que recebeu todos os arquivos que compõem o RIF: a versão em PDF e as planilhas em formato .csv (comunicações, envolvidos e ocorrências)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A questão pede a alternativa incorreta, que é a B: se o RIF recebido do Ministério Público contiver informações de UIF estrangeira, NÃO poderá fundamentar a instauração de procedimento de polícia judiciária, devendo ser devolvido ao MP com observações sobre as limitações de uso e solicitação de reconsideração (p. 55-56) - logo, a afirmação de que poderia fundamentar normalmente, sem ressalva, está incorreta. As demais estão corretas: A reproduz a presunção de comunicação formal e sigilosa entre Coaf e MP (p. 55); C descreve corretamente a submissão à Corregedoria Regional e a conversão em NCV (p. 55); D reproduz o dever de certificar o recebimento da versão em PDF e das planilhas .csv de comunicações, envolvidos e ocorrências (p. 55).",
+    "referencia": "PDF IPO II, p. 55",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1651,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A suíte i2 é composta por aplicações distintas, cada uma com finalidade específica, que podem operar de forma independente ou integrada. Sobre as três principais ferramentas da suíte i2, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O i2 iBase é a ferramenta central da suíte, baseada na web, voltada à criação dos diagramas de análise de vínculos a partir de dados brutos.",
+      "B": "O i2 Analysis Hub funciona como banco de dados próprio do i2, projetado desde o início para armazenar e gerenciar grandes volumes de dados de forma estruturada e relacional na máquina local de cada usuário.",
+      "C": "O i2 Analyst's Notebook é a ferramenta central e foco do curso, um aplicativo desktop instalado na máquina do usuário, cuja função primária é criar diagramas de análise de vínculos.",
+      "D": "O i2 Analyst's Notebook é um ambiente de inteligência baseado na web, com arquitetura moderna focada no trabalho em equipe em tempo real."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: conforme a p. 72, o Analyst's Notebook é a ferramenta central e foco do curso, um aplicativo desktop instalado na máquina do usuário, cuja função primária é criar diagramas de análise de vínculos. A erra porque a ferramenta central é o Analyst's Notebook (não o iBase), e o iBase é um banco de dados, não uma ferramenta web de criação de diagramas (p. 72). B erra ao confundir o Analysis Hub com o iBase; quem funciona como banco de dados estruturado e relacional é o iBase, enquanto o Analysis Hub é um ambiente de inteligência baseado na web (p. 72). D erra porque o ambiente baseado na web focado em trabalho em equipe em tempo real é o Analysis Hub, e não o Analyst's Notebook, que é desktop (p. 72).",
+    "referencia": "PDF IPO II, p. 72",
+    "nivel": "medio"
+  },
+  {
+    "id": 1652,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto distingue o i2 das ferramentas genéricas de visualização e descreve sua capacidade de processamento e seus recursos analíticos. Sobre a especialização investigativa e as funcionalidades do programa i2, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Por ser uma ferramenta genérica de visualização adaptada ao contexto policial somente após seu lançamento, o i2 não dispõe de terminologia própria nem de símbolos específicos para entidades investigativas.",
+      "B": "A especialização do i2 manifesta-se em biblioteca de símbolos para entidades investigativas, tipos de vínculos pré-configurados para relacionamentos criminais e funcionalidades como cálculos de conexões, identificação de caminhos e análises geográfica e temporal.",
+      "C": "A escalabilidade do i2 limita-se a casos simples com poucas entidades, sendo inadequado para investigações que envolvam registros telefônicos com milhões de ligações ou extratos com milhares de transações.",
+      "D": "As funcionalidades analíticas do i2 restringem-se à visualização estática dos diagramas, não abrangendo a detecção de padrões nem a realização de análises quantitativas sobre a rede."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: a p. 71 indica que a especialização do i2 se manifesta na biblioteca de símbolos específicos para entidades investigativas, em tipos de vínculos pré-configurados para relacionamentos criminais e em funcionalidades analíticas como cálculos de conexões, identificação de caminhos, detecção de padrões e análises geográfica e temporal. A erra porque o i2 foi projetado desde o início especificamente para investigação criminal, incorporando terminologia e símbolos próprios, justamente diferenciando-se das ferramentas genéricas (p. 71). C erra porque a escalabilidade é apresentada como fundamental, lidando desde casos simples até milhares de elementos, milhões de ligações e milhares de transações (p. 71). D erra porque o i2 realiza análises quantitativas e detecção de padrões que complementam a análise visual, não se restringindo à visualização estática (p. 71).",
+    "referencia": "PDF IPO II, p. 71",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1653,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material descreve os métodos tradicionais de mapeamento de conexões e a evolução para ferramentas computacionais especializadas. Sobre essa evolução das ferramentas de análise investigativa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os métodos tradicionais já permitiam a aplicação de métricas quantitativas e a realização de análises avançadas sobre a rede mapeada, tendo sido substituídos apenas em razão do elevado custo dos materiais físicos, como fotografias, barbantes e fichas de papel, empregados na sua confecção pelas equipes.",
+      "B": "As ferramentas computacionais especializadas, embora mais modernas, reduziram a capacidade de processar grandes volumes de dados em comparação aos métodos manuais.",
+      "C": "A principal vantagem dos métodos tradicionais era a facilidade de criação de backups seguros e o compartilhamento ágil entre equipes de investigadores.",
+      "D": "Os métodos tradicionais, como quadros com fotografias conectadas por barbantes e fichas de papel, apresentavam fragilidade física, dificuldade de backup e de compartilhamento, e não permitiam análises quantitativas sobre a rede mapeada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D: a p. 70 descreve que os métodos tradicionais (quadros com fotos e barbantes, post-its, fichas de papel) apresentavam fragilidade física, impossibilidade de backups seguros, dificuldade de compartilhamento e não permitiam análises quantitativas ou aplicação de métricas. A erra porque exatamente a impossibilidade de análises quantitativas era uma das limitações dos métodos tradicionais (p. 70). B erra porque as ferramentas computacionais aumentaram, e não reduziram, a capacidade de processar grandes volumes de dados (p. 70). C erra porque a dificuldade de backup e de compartilhamento eram limitações dos métodos tradicionais, não vantagens (p. 70).",
+    "referencia": "PDF IPO II, p. 70",
+    "nivel": "facil"
+  },
+  {
+    "id": 1654,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Independentemente da ferramenta em uso, o i2 organiza as informações por meio de dois componentes fundamentais. Considerando o exemplo das entidades \"João da Silva\" e \"Clarisse Ferreira da Silva\" ligadas por \"Casados\", assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os dois componentes fundamentais são entidades e vínculos; as entidades representam coisas reais (como pessoas) e o vínculo representa o tipo de relacionamento entre elas, sendo \"Casados\", no exemplo, o vínculo.",
+      "B": "Os dois componentes fundamentais do i2 são os ícones e as etiquetas; nesse exemplo, \"João da Silva\" e \"Clarisse Ferreira da Silva\" seriam os ícones e a expressão \"Casados\" seria a etiqueta do diagrama, exibida abaixo de cada um deles.",
+      "C": "Os dois componentes fundamentais são entidades e atributos; \"Casados\" seria um atributo compartilhado pelas duas entidades, e não um elemento de ligação entre elas.",
+      "D": "Os dois componentes fundamentais são identidade e direção; no exemplo, as duas pessoas representam direções e \"Casados\" representa a identidade do par."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: conforme a p. 72, o i2 organiza as informações por meio de entidades e vínculos; as entidades representam coisas reais e o vínculo representa o tipo de relacionamento entre elas, sendo no exemplo \"João da Silva\" e \"Clarisse Ferreira da Silva\" as entidades e \"Casados\" o vínculo. B erra porque ícone e etiqueta são partes de uma entidade, não os dois componentes fundamentais do i2 (p. 72-73). C erra porque \"Casados\" é o vínculo (relacionamento entre as entidades), e atributos são informações internas de cada entidade, não o elemento de ligação (p. 72). D erra porque identidade e direção não são os dois componentes fundamentais: identidade é parte de uma entidade e direção é componente de um vínculo (p. 72-73).",
+    "referencia": "PDF IPO II, p. 72",
+    "nivel": "facil"
+  },
+  {
+    "id": 1655,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A APF Souza, ao montar um diagrama no i2 Analyst's Notebook, deseja inserir informações como profissão, data de nascimento e apelidos dos investigados, de modo a poder, posteriormente, filtrar \"todos os empresários\" em um diagrama com centenas de entidades. À luz do material, esses dados devem ser registrados como qual parte da entidade, e por quê?",
+    "alternativas": {
+      "A": "Como etiqueta, pois, sendo o texto que aparece logo abaixo do ícone para identificar a entidade, é justamente ela que concentra todas as informações adicionais e características descritivas da entidade para fins de filtragem e pesquisa automática no diagrama.",
+      "B": "Como atributos, pois além de informações adicionais sobre a entidade, são fundamentais para os recursos analíticos da ferramenta, viabilizando pesquisas e filtros impraticáveis se feitos \"no olho\".",
+      "C": "Como ícone, pois a representação gráfica é o que permite ao software agrupar entidades por profissão e aplicar filtros quantitativos.",
+      "D": "Como identidade, pois é o código exclusivo que individualiza a entidade e, simultaneamente, armazena seus atributos descritivos para pesquisa."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: a p. 73 define atributos como informações adicionais e características (data de nascimento, profissão, documentos, apelidos), ressaltando que não servem só para análise visual, mas são fundamentais para os recursos analíticos, permitindo pesquisas e filtros (ex.: \"encontrar todos os empresários\") impraticáveis \"no olho\" em diagramas grandes. A erra porque a etiqueta é apenas uma breve descrição textual abaixo do ícone, não o repositório das informações adicionais filtráveis (p. 73). C erra porque o ícone é representação gráfica para identificação visual rápida, não o mecanismo de filtragem por atributos (p. 73). D erra porque a identidade é o código único que individualiza a entidade, distinta dos atributos descritivos usados em filtros (p. 73).",
+    "referencia": "PDF IPO II, p. 73",
+    "nivel": "medio"
+  },
+  {
+    "id": 1656,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material trata a identidade como o elemento mais crítico e fundamental de qualquer entidade em um diagrama de análise de vínculos. Sobre a identidade e a importância de sua padronização, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A identidade é exibida diretamente no diagrama, ao lado do ícone, justamente para que o investigador possa conferir visualmente a unicidade de cada entidade.",
+      "B": "A padronização de identidades é dispensável, pois o i2 reconhece automaticamente como o mesmo objeto entidades com pequenas variações de formatação.",
+      "C": "Sem identidade padronizada, variações de grafia, formatos de documentos ou erros parciais fazem a mesma pessoa ou empresa aparecer fragmentada em múltiplas entidades, ocultando conexões essenciais e comprometendo a identificação de padrões criminosos.",
+      "D": "A identidade tem função meramente estética, pois sua definição não influencia se o diagrama refletirá fielmente a realidade investigada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: as p. 73-74 explicam que, no contexto investigativo, a mesma pessoa ou empresa pode surgir com variações de grafia, formatos distintos ou informações parcialmente incorretas, e que sem identidade padronizada essas variações geram entidades separadas, fragmentando informações que deveriam estar consolidadas e ocultando conexões. A erra porque a identidade permanece \"embutida\" na entidade e não aparece diretamente no diagrama (comparada ao CPF que não fica estampado na testa); quem é visível é a etiqueta (p. 73-74). B erra porque pequenas variações de formatação fazem o software tratar a mesma entidade como objetos distintos, exatamente o motivo de a padronização ser fundamental (p. 74). D erra porque a definição adequada da identidade determina se o diagrama refletirá fielmente a realidade ou apresentará visão distorcida (p. 74).",
+    "referencia": "PDF IPO II, p. 74",
+    "nivel": "medio"
+  },
+  {
+    "id": 1657,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um diagrama do i2 Analyst's Notebook, a APF Lima representa uma transação financeira por meio de uma seta ligando duas contas, com a etiqueta \"saque de R$ 50 mil\". Sobre os componentes do vínculo e a interpretação de sua direção, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os componentes principais do vínculo são etiqueta e direção; a etiqueta descreve a natureza da ligação e a direção, indicada por seta, é interpretada sempre da origem para o destino.",
+      "B": "Os componentes principais do vínculo são o ícone e a identidade; assim como ocorre com as entidades, cada vínculo recebe um código exclusivo, e a interpretação do fluxo da transação representada ocorre sempre do destino para a origem da seta desenhada no diagrama.",
+      "C": "A direção do vínculo serve apenas para fins estéticos e não interfere na interpretação do relacionamento, como na indicação de quem é pai e quem é filho.",
+      "D": "O vínculo possui etiqueta e identidade própria, sendo a identidade o que permite distinguir transações idênticas entre as mesmas entidades."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: a p. 77-78 indica que os componentes principais de um vínculo são etiqueta e direção; a etiqueta descreve a natureza da ligação (ex.: \"saque de R$ 50 mil\") e a direção, mostrada por uma seta, é sempre interpretada da origem para o destino. B erra porque ícone e identidade não são componentes do vínculo, e a interpretação é da origem para o destino, não o inverso (p. 78). C erra porque a direção não é meramente estética: ela mostra o fluxo e ajuda a interpretar corretamente a relação, como indicar quem é pai e quem é filho (p. 78). D erra porque, intencionalmente, os vínculos não possuem identidade, justamente para permitir registrar múltiplas interações idênticas entre as mesmas entidades (p. 78).",
+    "referencia": "PDF IPO II, p. 78",
+    "nivel": "medio"
+  },
+  {
+    "id": 1658,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 6 - Meios Ordinários: Análise de Vínculos (Suíte i2)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material aponta uma característica fundamental dos vínculos: a ausência de identidade. Considerando uma investigação em que um suspeito realiza, no mesmo dia, vários PIX de valor idêntico para outra pessoa, qual a finalidade dessa ausência de identidade nos vínculos?",
+    "alternativas": {
+      "A": "Impedir o registro de mais de uma interação entre o mesmo par de entidades, de modo que, no exemplo, todos os vários PIX de valor idêntico realizados no mesmo dia sejam obrigatoriamente consolidados em um único vínculo agregado entre as duas pessoas.",
+      "B": "Permitir que múltiplas interações idênticas entre as mesmas entidades sejam registradas livremente, pois, se cada transação tivesse identidade única baseada nesses dados, somente a primeira poderia ser registrada.",
+      "C": "Permitir que o software individualize cada vínculo por meio de um código exclusivo, do mesmo modo que faz com as entidades.",
+      "D": "Assegurar que a direção da seta seja descartada quando houver mais de uma transação entre as mesmas entidades."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: a p. 78 afirma que os vínculos não possuem identidade de forma intencional, para permitir que múltiplas interações idênticas entre as duas entidades sejam registradas livremente; o exemplo dos vários PIX de mesmo valor no mesmo dia mostra que, se cada transação tivesse identidade única baseada nesses dados, só a primeira poderia ser registrada. A erra porque a finalidade é justamente permitir registrar várias interações idênticas, não consolidá-las nem impedi-las (p. 78). C erra porque, ao contrário das entidades, os vínculos não possuem identidade nem código exclusivo (p. 78). D erra porque a ausência de identidade não tem relação com descartar a direção da seta, que continua representando o fluxo da origem para o destino (p. 78).",
+    "referencia": "PDF IPO II, p. 78",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1659,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O § 3º do art. 2º da Instrução Normativa nº 255/2023-DG/PF enuncia que as formas previstas para os procedimentos de polícia judiciária não existem como fins em si mesmas, mas como meios de se garantir a busca da verdade processualmente qualificada. À luz desse princípio, é correto afirmar que:",
+    "alternativas": {
+      "A": "a observância integral das formalidades burocráticas prevalece sobre a finalidade investigativa, ainda que o rigor formal inviabilize a apuração dos fatos",
+      "B": "os atos formais devem ser empregados com finalidade investigativa, para que a apuração seja eficaz, legítima e válida, sem que excessos formais a comprometam",
+      "C": "a busca da verdade autoriza o afastamento dos direitos fundamentais e do devido processo legal sempre que a forma se mostrar um obstáculo à investigação",
+      "D": "as formalidades constituem fins em si mesmas, de modo que seu descumprimento, ainda que irrelevante, sempre invalida o ato praticado"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: reproduz o sentido do § 3º do art. 2º da IN 255/2023, segundo o qual as formas são meios para a verdade processualmente qualificada, devendo ser usadas com finalidade investigativa, sem excessos formais que comprometam a efetividade (p. 126). A inverte o princípio, ao colocar a forma burocrática acima da finalidade. C erra porque a norma reforça o respeito aos direitos fundamentais e ao devido processo legal, não seu afastamento. D contraria o texto, que nega serem as formas fins em si mesmas (p. 126).",
+    "referencia": "PDF IPO II, p. 126",
+    "nivel": "medio"
+  },
+  {
+    "id": 1660,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao formato e ao registro dos procedimentos de polícia judiciária, o art. 4º da Instrução Normativa nº 255/2023-DG/PF determina que:",
+    "alternativas": {
+      "A": "o cadastramento dos procedimentos no sistema oficial é facultativo, cabendo à autoridade escolher entre o meio físico e o digital",
+      "B": "os procedimentos serão preferencialmente físicos, admitindo-se o formato digital apenas em delegacias previamente autorizadas pela Direção-Geral",
+      "C": "os procedimentos terão formato digital e serão cadastrados como casos no sistema oficial, institucionalizando os sistemas informatizados de registro e gestão",
+      "D": "apenas os inquéritos policiais terão formato digital, mantendo-se os demais procedimentos em meio físico para preservar a cadeia de custódia"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o art. 4º da IN 255/2023 estabelece que os procedimentos de polícia judiciária terão formato digital e serão cadastrados como casos no sistema oficial, tornando os sistemas informatizados ferramenta obrigatória de registro, acompanhamento e gestão (p. 126). A erra porque o cadastramento e o formato digital são obrigatórios, não facultativos. B erra ao afirmar preferência pelo físico e restrição do digital. D restringe indevidamente a regra apenas a inquéritos, quando a norma alcança todos os procedimentos (p. 126).",
+    "referencia": "PDF IPO II, p. 126",
+    "nivel": "facil"
+  },
+  {
+    "id": 1661,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina distingue os relatórios produzidos na atividade de polícia judiciária em informativos (expositivos) e argumentativos (valorativos). Sobre essa classificação aplicada à Informação de Polícia Judiciária (IPJ), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O relatório expositivo e o argumentativo distinguem-se unicamente pela extensão do texto, sendo idêntico o método de raciocínio empregado em ambos",
+      "B": "O relatório informativo exige, de forma predominante, o exercício de crítica e a emissão de juízos de valor pelo redator sobre os dados levantados",
+      "C": "A simples identificação do endereço de um investigado por consulta a bancos de dados deve ser registrada em IPJ de natureza argumentativa, dada a complexidade da diligência",
+      "D": "O relatório argumentativo apresenta dados em cotejo com outros elementos, analisa criticamente os fatos e apresenta conclusões, geralmente por método dedutivo (caráter valorativo)"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: o texto define o relatório argumentativo (valorativo) como aquele que apresenta dados em cotejo com outros elementos, analisa criticamente os fatos e apresenta conclusões, geralmente por método dedutivo (p. 134). B inverte os conceitos: o relatório informativo é objetivo, sem exercício predominante de crítica. C erra porque a mera identificação de endereço é exemplo de IPJ informativa/expositiva. A erra porque a distinção é de natureza (objetivo x valorativo), não de mera extensão (p. 134).",
+    "referencia": "PDF IPO II, p. 134",
+    "nivel": "medio"
+  },
+  {
+    "id": 1662,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na estrutura da IPJ de natureza argumentativa, a doutrina recomenda especial cuidado para não se confundir o objeto com o objetivo do documento. A respeito da seção Objeto, é correto afirmar que:",
+    "alternativas": {
+      "A": "é a pessoa, coisa ou conjunto de dados sobre os quais incide a análise, exigindo identificação pormenorizada e observância da cadeia de custódia",
+      "B": "consiste na declaração da hipótese investigativa que orienta a análise, indicando se os elementos a confirmam ou a refutam",
+      "C": "destina-se a apresentar, em tabela padronizada, o número e o tipo do procedimento, o destinatário e o remetente da IPJ",
+      "D": "constitui o núcleo valorativo do documento, em que o redator examina criticamente os elementos e formula conclusões pelo método dedutivo"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o Objeto é a pessoa, coisa ou conjunto de dados sobre os quais incide a análise, exigindo identificação pormenorizada, origem institucional, meio de investigação e forma de coleta, com observância da cadeia de custódia (p. 137-138). B descreve elemento das Considerações Finais (hipótese e sua confirmação/refutação). C descreve a seção Dados do Procedimento. D descreve a seção Análise, núcleo valorativo da IPJ (p. 138-139).",
+    "referencia": "PDF IPO II, p. 137",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1663,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A redação das peças de polícia judiciária deve observar a característica da concisão. Sobre o alcance desse atributo na redação policial, é correto afirmar que:",
+    "alternativas": {
+      "A": "impõe a transcrição de todos os dados coletados, ainda que irrelevantes, a fim de preservar integralmente a cadeia de custódia da informação",
+      "B": "consiste em manter o foco no essencial à diligência, evitando dados que não contribuam para o esclarecimento, conforme o crime investigado",
+      "C": "exige que o redator registre suas impressões pessoais sobre os fatos, de modo a contextualizar emocionalmente o leitor da peça",
+      "D": "determina que a peça seja sempre a mais curta possível, suprimindo circunstâncias e desdobramentos do fato independentemente do crime apurado"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: a concisão é manter o foco no essencial da diligência e evitar assuntos que não contribuam para a elucidação, ressaltando-se que um dado irrelevante para um crime pode ser imprescindível para outro (ex.: mídias em tráfico de drogas x crime contra direitos autorais) (p. 128-129). A erra porque a concisão justamente afasta dados irrelevantes. C confunde concisão com o que a objetividade e a impessoalidade vedam (impressões pessoais). D reduz a concisão a brevidade absoluta, ignorando que a relevância depende do tipo de crime (p. 129).",
+    "referencia": "PDF IPO II, p. 128",
+    "nivel": "medio"
+  },
+  {
+    "id": 1664,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a formalização do exame pericial segundo a IN 255/2023-DG/PF e a atuação das Unidades Técnico-Científicas, é correto afirmar que:",
+    "alternativas": {
+      "A": "o exame pericial deve obrigatoriamente ser realizado na mesma Unidade Técnico-Científica que recebeu a requisição, vedada qualquer redistribuição entre unidades",
+      "B": "as requisições de exame são dirigidas diretamente ao juízo competente, que as encaminha aos peritos após o término do inquérito policial",
+      "C": "embora requisitado à unidade da própria circunscrição, o exame não é necessariamente realizado nela, pois o Sistema Nacional de Criminalística o redistribui",
+      "D": "em situações de flagrância ou urgência, é vedada a apresentação imediata de laudo, devendo o resultado aguardar a tramitação ordinária da requisição"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o texto afirma que os exames devem ser requisitados à unidade da própria circunscrição, mas não serão necessariamente realizados nela, pois o Sistema Nacional de Criminalística (SNC) os distribui buscando otimização de recursos, eficiência e excelência científica (p. 133-134). A contraria a redistribuição expressamente prevista. B erra porque as requisições são dirigidas ao chefe da unidade de perícia criminal federal competente, não ao juízo. D inverte o texto: em flagrância ou urgência admite-se a apresentação imediata de laudo (p. 133).",
+    "referencia": "PDF IPO II, p. 133",
+    "nivel": "medio"
+  },
+  {
+    "id": 1665,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina recomenda, na redação da IPJ, a técnica denominada 'comentário x apresentação'. Acerca dessa técnica, é correto afirmar que ela consiste em:",
+    "alternativas": {
+      "A": "transcrever integralmente os dados brutos exportados dos sistemas e, ao final, anexar comentários da defesa e do Ministério Público sobre cada elemento",
+      "B": "apresentar primeiro a conclusão do redator e, somente depois, os comentários que justificam a hipótese, dispensando a exposição dos dados de origem",
+      "C": "substituir a apresentação dos dados no corpo do documento por remissões do tipo 'conforme consta no anexo', acompanhadas de comentário sobre sua relevância",
+      "D": "contextualizar brevemente o elemento, explicando sua relevância investigativa, e em seguida expor o dado em si por transcrição, imagem, tabela ou outro formato"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: a técnica 'comentário x apresentação' consiste em primeiro comentar (contextualizar a relevância do elemento) e depois apresentar o dado em si, por transcrição, imagem, tabela ou outro formato (p. 135-136 e 139). A descreve uma má prática (anexar dados brutos sem tratamento). B inverte a lógica, pois o comentário precede e contextualiza, não dispensa, a apresentação do dado. C corresponde à má prática de remissão genérica 'conforme consta no anexo' (p. 149-150).",
+    "referencia": "PDF IPO II, p. 136",
+    "nivel": "medio"
+  },
+  {
+    "id": 1666,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a confecção de IPJ de natureza argumentativa, o policial federal se depara com elementos relevantes que estão fora do escopo da análise demandada (encontro fortuito). Segundo as boas práticas indicadas no material, o redator deve:",
+    "alternativas": {
+      "A": "registrar tais elementos, preferencialmente em documento apartado, após reunião com a equipe para definir a estratégia de apresentação",
+      "B": "ignorar os elementos por completo, uma vez que dados fora do escopo da análise não podem ser aproveitados em nenhuma hipótese",
+      "C": "inseri-los imediatamente na seção Considerações Finais como conclusão principal da IPJ, independentemente de alinhamento com a equipe",
+      "D": "encaminhá-los diretamente ao Ministério Público sem qualquer registro formal no procedimento investigativo, para preservar o sigilo"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto orienta que os encontros fortuitos (elementos relevantes fora do escopo) devem ser registrados, preferencialmente em documento apartado, após reunião com a equipe investigativa para definição da estratégia de apresentação (p. 143). B erra porque o material determina o registro do dado, não seu descarte. C erra ao inserir o achado como conclusão da própria IPJ e dispensar a deliberação em equipe. D erra porque a formalização (registro) é exigida, não o envio informal (p. 143).",
+    "referencia": "PDF IPO II, p. 143",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1667,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as más práticas a serem evitadas na produção de IPJ, o material aponta o uso excessivo de jargões ou siglas sem explicação. A respeito dessa orientação, é correto afirmar que:",
+    "alternativas": {
+      "A": "o emprego de siglas e jargões técnicos é livre, pois a IPJ destina-se exclusivamente a leitores internos da Polícia Federal que dominam o vocabulário",
+      "B": "as siglas devem ser explicadas na primeira menção e os jargões usados com parcimônia, garantindo a inteligibilidade do documento a todos os operadores",
+      "C": "é recomendável substituir integralmente as siglas por links textuais extensos que remetam aos sistemas de origem, dispensando explicação no corpo do texto",
+      "D": "o uso de siglas é terminantemente proibido na IPJ, ainda que amplamente compreendidas no contexto institucional"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o material recomenda explicar a sigla na primeira menção e usar jargões com parcimônia, garantindo que o documento seja inteligível para todos os destinatários (Ministério Público, Judiciário, defesa) (p. 150-151). A erra porque a IPJ pode subsidiar diversos operadores externos, não apenas internos. C erra porque inserir links textuais extensos sem explicação é também má prática. D exagera: o uso de siglas é admitido, desde que explicadas na primeira menção (p. 150-151).",
+    "referencia": "PDF IPO II, p. 150",
+    "nivel": "facil"
+  },
+  {
+    "id": 1668,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Lei nº 12.850/2013 prevê a obrigatoriedade de lavratura de auto circunstanciado ao término da ação controlada. Sobre a natureza dessa técnica e a função do referido documento, é correto afirmar que:",
+    "alternativas": {
+      "A": "a ação controlada consiste na entrada antecipada e imediata da força policial, sendo o auto circunstanciado dispensável quando há prisão em flagrante",
+      "B": "o auto circunstanciado na ação controlada é elaborado antes do início da diligência, para autorizar previamente o retardamento da intervenção estatal",
+      "C": "consiste em retardar a intervenção estatal para monitorar a atividade criminosa; o auto circunstanciado, lavrado ao término, documenta a operação",
+      "D": "a ação controlada prescinde de qualquer documentação formal, bastando a comunicação verbal ao juízo competente ao final da operação"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: o art. 8º, § 4º, da Lei 12.850/2013 exige a elaboração de auto circunstanciado ao término da ação controlada, técnica que consiste em retardar a intervenção estatal para monitorar a atividade criminosa, reforçando o controle judicial e ministerial (p. 151-152). A erra ao defini-la como entrada imediata e ao dispensar o auto. B erra porque o auto é lavrado ao término, não antes. D erra porque a lei exige expressamente a lavratura do auto, afastando a mera comunicação verbal (p. 151-152).",
+    "referencia": "PDF IPO II, p. 152",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1669,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em diligência de busca e apreensão domiciliar realizada sem mandado judicial, com consentimento do morador, a entrada forçada ocorre embora haja pessoas no imóvel. À luz dos parâmetros de formalização do auto circunstanciado previstos na IN 255/2023-DG/PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "havendo consentimento do morador, dispensam-se a presença de testemunhas e a justificativa da entrada forçada no auto circunstanciado",
+      "B": "o auto circunstanciado limita-se a descrever os bens apreendidos, sendo vedado consignar nele os fundamentos jurídicos da diligência",
+      "C": "a justificativa da entrada forçada deve constar apenas no termo de consentimento, dispensando-se sua menção no auto circunstanciado",
+      "D": "a entrada forçada havendo pessoas no imóvel deve ser justificada no auto, que registra atos materiais e fundamentos jurídicos da execução"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: o material determina que, quando a entrada forçada ocorrer mesmo havendo pessoas no imóvel, essa excepcionalidade deve ser justificada no auto circunstanciado, que assume também a função de explicitar os fundamentos jurídicos da execução, além de registrar os atos materiais (p. 152). A erra porque a presença de duas testemunhas (preferencialmente não policiais) é exigida mesmo com consentimento. B erra porque o auto deve explicitar fundamentos jurídicos. C erra porque a justificativa deve constar no próprio auto (p. 152).",
+    "referencia": "PDF IPO II, p. 152",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1670,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 10 - Formalização dos Dados (IPJ, Auto Circunstanciado)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A IN 255/2023-DG/PF prevê a formalização das audiências realizadas no âmbito da Polícia Federal. Sobre a classificação dessas audiências e os atos que as registram, é correto afirmar que:",
+    "alternativas": {
+      "A": "depoimentos: testemunhas sob compromisso; declarações: dispensados do compromisso; interrogatórios: indiciados; acareações: oitiva conjunta de versões conflitantes",
+      "B": "os interrogatórios destinam-se às testemunhas sob compromisso, ao passo que os depoimentos são tomados dos indiciados, dispensando-se em ambos qualquer registro formal",
+      "C": "as declarações são tomadas exclusivamente de indiciados sob compromisso de dizer a verdade, enquanto a acareação se restringe à oitiva isolada de uma única testemunha",
+      "D": "todas as audiências exigem confronto direto entre as partes, de modo que o depoimento de testemunha só é válido se simultâneo ao interrogatório do indiciado"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o material classifica as audiências em depoimentos (testemunhas sob compromisso), declarações (suspeitos/pessoas dispensadas do compromisso), interrogatórios (indiciados) e acareações (oitiva conjunta de pessoas com versões conflitantes) (p. 131-132). B troca os destinatários de interrogatório e depoimento e erra ao dispensar registro formal. C erra porque declarações dispensam o compromisso e a acareação é oitiva conjunta, não isolada. D erra porque não há exigência de confronto simultâneo (p. 132).",
+    "referencia": "PDF IPO II, p. 131",
+    "nivel": "medio"
+  },
+  {
+    "id": 1671,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 11 - Meios Extraordinários - Introdução e Poder de Representação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os meios extraordinários (ou especiais) de investigação distinguem-se dos meios ordinários por uma característica essencial apontada no material. Assinale a alternativa que indica corretamente essa nota distintiva.",
+    "alternativas": {
+      "A": "Implicam maior grau de invasividade em direitos fundamentais, sobretudo os relacionados à intimidade, ao sigilo das comunicações, à vida privada e ao patrimônio.",
+      "B": "Dispensam a demonstração de necessidade, adequação e proporcionalidade, por se destinarem a crimes de maior gravidade.",
+      "C": "Substituem definitivamente os meios ordinários assim que são adotados, pois a sua maior eficácia probatória torna inteiramente desnecessário, em qualquer hipótese, o retorno posterior às diligências iniciais já realizadas.",
+      "D": "Independem de elementos concretos prévios, bastando a suspeita genérica de envolvimento do investigado em organização criminosa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: o texto afirma que os meios especiais ou extraordinários 'se diferenciam dos primeiros por implicarem maior grau de invasividade em direitos fundamentais, sobretudo os relacionados à intimidade, ao sigilo de comunicações, à vida privada e ao patrimônio' (p. 155). B erra porque a adoção desses meios 'somente se justifica quando presentes elementos concretos que demonstrem sua necessidade, adequação e proporcionalidade' (p. 155). C erra porque a investigação opera em ciclos, retornando aos meios ordinários para qualificar as descobertas (p. 157). D erra porque é justamente exigida a presença de elementos concretos prévios, e não suspeita genérica (p. 155).",
+    "referencia": "PDF IPO II, p. 155",
+    "nivel": "facil"
+  },
+  {
+    "id": 1672,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 11 - Meios Extraordinários - Introdução e Poder de Representação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do poder de representação da autoridade policial federal, conforme descrito no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de simples formalidade processual cartorária, cuja ausência não gera consequências sobre a validade das provas obtidas.",
+      "B": "Consiste na faculdade jurídica do delegado de polícia de solicitar diretamente ao Poder Judiciário a adoção de medida considerada indispensável ao avanço da investigação, mediante exposição fundamentada dos indícios.",
+      "C": "Autoriza o próprio delegado a decretar, sem intervenção judicial, as medidas invasivas sobre direitos constitucionalmente protegidos quando houver urgência.",
+      "D": "Destina-se exclusivamente à obtenção de dados cadastrais junto a provedores de internet e operadoras de telefonia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: o poder de representação 'consiste na faculdade jurídica disposta ao delegado de polícia federal de solicitar diretamente ao Poder Judiciário a adoção da medida considerada indispensável ao avanço da investigação', devendo expor de forma clara e fundamentada os indícios existentes (p. 155). A erra porque a representação 'não deve ser compreendida como simples formalidade processual, mas sim como um ato de responsabilidade e de garantia da legalidade da investigação' (p. 156), e o cuidado na fundamentação é essencial para evitar nulidades (p. 156). C erra porque cabe ao juiz a decisão final sobre a adoção da medida, sob reserva de jurisdição (p. 157), não havendo decretação autônoma pelo delegado. D erra porque o acesso a dados cadastrais é hipótese de requisição direta (sem autorização judicial), e não de representação (p. 157).",
+    "referencia": "PDF IPO II, p. 155",
+    "nivel": "medio"
+  },
+  {
+    "id": 1673,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 11 - Meios Extraordinários - Introdução e Poder de Representação",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Delegado de Polícia Federal Antunes investiga organização criminosa e precisa decidir entre requisitar diretamente uma informação ou representar ao Poder Judiciário. Segundo os critérios do material, ele deverá recorrer à representação judicial, e não à mera requisição, quando a medida pretendida for:",
+    "alternativas": {
+      "A": "a obtenção de dados meramente cadastrais de assinante diretamente junto a provedor de internet ou operadora de telefonia, nos termos do art. 15 do Marco Civil da Internet, por se tratar de informação não amparada por sigilo de maior intensidade.",
+      "B": "a solicitação de informações constantes de bancos de dados de órgãos públicos acessíveis por prerrogativa do cargo.",
+      "C": "a interceptação telefônica do investigado, por importar em restrição a direito constitucionalmente assegurado submetido à reserva de jurisdição.",
+      "D": "a consulta a fontes abertas, como vínculos identificados em redes sociais do alvo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: a representação judicial é exigida sempre que a medida importar restrição de direitos constitucionalmente assegurados, como o sigilo telefônico, hipótese sujeita ao controle jurisdicional (reserva de jurisdição) (p. 157). A erra porque o acesso a dados cadastrais em provedores é exemplo de requisição direta, sem necessidade de autorização judicial prévia (art. 15 do Marco Civil da Internet, p. 157). B erra porque a requisição de informações de órgãos públicos também dispensa autorização judicial (p. 157). D erra porque a consulta a fontes abertas é técnica ordinária, menos invasiva, que não demanda representação (p. 158).",
+    "referencia": "PDF IPO II, p. 157",
+    "nivel": "medio"
+  },
+  {
+    "id": 1674,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 11 - Meios Extraordinários - Introdução e Poder de Representação",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material descreve o desenvolvimento da investigação como um movimento que alterna meios ordinários e extraordinários. Sobre essa dinâmica de integração de técnicas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O fluxo é estritamente linear: esgotados os meios ordinários, passa-se de forma definitiva aos extraordinários, sem retorno à fase inicial.",
+      "B": "Cumpridas as medidas extraordinárias deferidas, a investigação retorna aos meios ordinários para qualificar, corroborar ou refutar os novos elementos surgidos, em ciclos interativos.",
+      "C": "As novas representações, após o retorno aos meios ordinários, devem obrigatoriamente repetir todas as medidas invasivas já adotadas anteriormente.",
+      "D": "A expansão da malha de investigados deve ser maximizada indefinidamente, em movimento de constante ampliação, devendo-se evitar a fixação de marcos de corte ou o desmembramento de ramificações periféricas que possam limitar o alcance da apuração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: quando as respostas das medidas judiciais chegam, surgem novos nomes, contas, terminais e endereços, e 'a investigação retorna aos meios ordinários — novas oitivas, diligências externas, consultas a bancos de dados, coleta de CFTV — para qualificar, corroborar ou refutar as hipóteses criminais', avançando em ciclos (p. 157 e p. 159). A erra porque o próprio texto adverte que 'esse fluxo não é linear' (p. 157). C erra porque as novas representações 'não precisam repetir todas as medidas já adotadas' (p. 159). D erra porque o material afirma ser contraproducente 'abraçar o mundo' e recomenda estabelecer critérios de priorização e definir marcos de corte (p. 159).",
+    "referencia": "PDF IPO II, p. 157",
+    "nivel": "medio"
+  },
+  {
+    "id": 1675,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 11 - Meios Extraordinários - Introdução e Poder de Representação",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Delegada de Polícia Federal Queiroz precisa decidir se representa por determinada medida extraordinária. O material adverte que certas representações não devem ser propostas mesmo quando juridicamente cabíveis. Assinale a alternativa que reúne corretamente os fatores técnicos que devem orientar essa decisão discricionária.",
+    "alternativas": {
+      "A": "Deve-se representar por medida inexequível pela plataforma, desde que haja indícios suficientes, pois a limitação técnica da empresa não afeta a pertinência jurídica do pedido.",
+      "B": "A decisão é vinculada e independe do estágio do inquérito, dos prazos judiciais e da capacidade analítica da unidade, bastando a presença de justa causa.",
+      "C": "As escolhas são técnicas, motivadas e discricionárias, devendo considerar o estágio do inquérito, o número de alvos, os prazos judiciais, as janelas operacionais e a capacidade analítica da unidade, evitando-se medidas inexequíveis, inúteis no tempo disponível ou inassimiláveis internamente.",
+      "D": "Recomenda-se representar simultaneamente por todas as medidas possíveis, ainda que o volume de dados resultante supere a capacidade dos investigadores da delegacia, a fim de assegurar a contemporaneidade da prova."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: o material afirma que 'essas escolhas são técnicas, motivadas e discricionárias, e devem considerar o estágio do inquérito, o número de alvos, os prazos judiciais, as janelas operacionais e a capacidade analítica da unidade', não adiantando representar por medida inexequível pela plataforma, inútil no tempo disponível ou inassimilável internamente (p. 159). A erra porque o texto adverte que 'não adianta representar por medida inexequível pela plataforma/empresa (limitação técnica)' (p. 159). B erra porque a decisão é justamente discricionária e dependente desses fatores, não vinculada (p. 159). D erra porque representar por medida 'inassimilável internamente (volume de dados superior à capacidade dos investigadores da delegacia)' é desaconselhado (p. 159).",
+    "referencia": "PDF IPO II, p. 159",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1676,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 11 - Meios Extraordinários - Introdução e Poder de Representação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a função institucional do poder de representação e o regime jurídico das medidas judiciais de investigação, analise as proposições. I — O poder de representação cumpre função de controle e equilíbrio, permitindo atuação eficaz contra a criminalidade ao mesmo tempo em que submete tal atuação à supervisão do Poder Judiciário. II — As técnicas especiais, como interceptação de comunicações, infiltração policial e afastamento de sigilos, devem ser precedidas de autorização judicial fundamentada, observados os princípios da legalidade, proporcionalidade e necessidade. III — Cada espécie de representação judicial deve ser precedida da demonstração de justa causa, isto é, da existência de elementos concretos que indiquem a prática de infração penal e a necessidade da medida. Assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas as proposições I e III estão corretas.",
+      "B": "Apenas a proposição II está correta.",
+      "C": "Apenas as proposições I e II estão corretas.",
+      "D": "As proposições I, II e III estão corretas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a letra D: todas as proposições refletem o material. I corresponde ao trecho segundo o qual o poder de representação 'cumpre uma função de controle e equilíbrio', possibilitando atuação eficaz da Polícia Federal e, ao mesmo tempo, assegurando submissão à supervisão do Poder Judiciário (p. 156). II reproduz a exigência de que técnicas como interceptação de comunicações, infiltração policial e afastamento de sigilos sejam 'sempre precedidas de autorização judicial devidamente fundamentada, observando os princípios da legalidade, proporcionalidade e necessidade' (p. 160). III corresponde à exigência de demonstração de 'justa causa, isto é, a existência de elementos concretos que indiquem a prática de infração penal e a necessidade da medida para a obtenção de prova' (p. 160). Por estarem as três corretas, ficam afastadas as letras A, B e C, que excluem indevidamente uma ou mais proposições verdadeiras.",
+    "referencia": "PDF IPO II, p. 160",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1677,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "O afastamento do sigilo financeiro abrange diferentes espécies, conforme a natureza da operação ou da instituição envolvida. A respeito dessas espécies, é correto afirmar que:",
+    "alternativas": {
+      "A": "o sigilo de ativos virtuais alcança operações com criptomoedas e tokens, incluindo endereços de carteira (wallets) e vínculos com contas bancárias.",
+      "B": "o sigilo bancário em sentido estrito compreende exclusivamente as faturas, os limites, o histórico de compras e os parcelamentos dos cartões de crédito do investigado.",
+      "C": "as movimentações em contas digitais e carteiras virtuais de fintechs estão excluídas do conceito de sigilo financeiro, por não envolverem instituição bancária tradicional autorizada.",
+      "D": "os dados declarados à Receita Federal, como rendimentos, bens e direitos, jamais podem ser acessados por representação judicial, ainda que haja reflexos financeiros relevantes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: a p. 162 inclui, entre as espécies de sigilo financeiro, o sigilo de ativos virtuais, que alcança operações com criptomoedas e tokens digitais, abrangendo dados de cadastro, histórico de transações, endereços de carteira (wallets), valores convertidos e vínculos com contas bancárias ou plataformas de pagamento. B erra porque faturas, limites e histórico de compras integram o sigilo de cartões de crédito, e não o sigilo bancário em sentido estrito, que trata de contas, poupança, aplicações, câmbio e abertura de conta (p. 162). C erra porque a p. 162 prevê expressamente o sigilo de instituições de pagamento e fintechs, abrangendo contas digitais e carteiras virtuais. D erra porque o sigilo fiscal com reflexos financeiros é acessível mediante representação judicial ou requisição administrativa nos termos da legislação tributária (p. 163).",
+    "referencia": "PDF IPO II, p. 162",
+    "nivel": "medio"
+  },
+  {
+    "id": 1678,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Cadastro de Clientes do Sistema Financeiro Nacional (CCS), tratado nos regramentos do Banco Central, é instrumento relevante no contexto do afastamento de sigilo. Sobre sua natureza, é correto afirmar que:",
+    "alternativas": {
+      "A": "o CCS permite o acesso direto ao conteúdo das movimentações financeiras dos correntistas e de seus procuradores, configurando, por si só, quebra de sigilo bancário.",
+      "B": "o CCS é instrumento de rastreamento preliminar que identifica vínculos entre pessoas e instituições, sem dar acesso ao conteúdo das movimentações.",
+      "C": "o acesso ao CCS por autoridades competentes, como o Poder Judiciário e a polícia judiciária, depende sempre de prévia e específica autorização judicial.",
+      "D": "o CCS foi criado para substituir o exame de extratos bancários, dispensando o afastamento judicial do sigilo nas investigações criminais em curso."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: a p. 166 esclarece que o CCS é instrumento essencial para identificar vínculos entre pessoas físicas ou jurídicas e instituições financeiras, sem permitir acesso direto ao conteúdo das movimentações, ou seja, não representa quebra de sigilo bancário, mas sim ferramenta de rastreamento preliminar. A erra ao afirmar acesso ao conteúdo das movimentações e quebra de sigilo, contrariando a p. 166. C erra porque a p. 167 reforça que o CCS atende solicitações de autoridades legalmente competentes (Judiciário, MP, polícia judiciária e Receita Federal) sem necessidade de autorização judicial, justamente por não haver acesso a dados protegidos por sigilo. D erra porque o CCS não substitui o exame de extratos nem dispensa o afastamento judicial; é apenas rastreamento de vínculos (p. 166).",
+    "referencia": "PDF IPO II, p. 166",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1679,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Carta-Circular nº 3.454/2010 do Banco Central padronizou a prestação de informações bancárias em casos de afastamento de sigilo. Acerca dos arquivos eletrônicos por ela previstos, é correto afirmar que:",
+    "alternativas": {
+      "A": "as informações eram prestadas em arquivo único, contendo de forma consolidada agências, contas, titulares e lançamentos.",
+      "B": "o arquivo TITULARES destinava-se a registrar apenas os lançamentos financeiros das contas investigadas, sem identificação das pessoas.",
+      "C": "as informações eram prestadas em cinco arquivos eletrônicos, entre eles AGENCIAS, CONTAS, TITULARES, EXTRATO e ORIGEM-DESTINO.",
+      "D": "o arquivo ORIGEM-DESTINO identificava exclusivamente as agências mantenedoras das contas investigadas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: a p. 168 indica que, conforme a Carta-Circular nº 3.454/2010, as informações devem ser prestadas em cinco arquivos eletrônicos, denominados AGENCIAS, CONTAS, TITULARES, EXTRATO e ORIGEM-DESTINO (p. 168-169). A erra porque não se trata de arquivo único, mas de cinco arquivos distintos (p. 168). B erra porque o arquivo TITULARES identifica as pessoas naturais ou jurídicas, titulares, representantes legais e procuradores das contas; os lançamentos ficam no arquivo EXTRATO (p. 169). D erra porque o arquivo ORIGEM-DESTINO identifica a origem ou o destino de recursos relacionados a um lançamento informado no arquivo EXTRATO, e não agências (p. 169).",
+    "referencia": "PDF IPO II, p. 169",
+    "nivel": "facil"
+  },
+  {
+    "id": 1680,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Instrução Normativa BCB nº 636/2025, evolução da Carta-Circular nº 3.454/2010, alterou o leiaute de prestação de informações bancárias. Sobre as inovações por ela trazidas, é correto afirmar que:",
+    "alternativas": {
+      "A": "reduziu o número de arquivos exigidos e dispensou as corretoras e as distribuidoras de qualquer obrigação de prestar informações às autoridades competentes.",
+      "B": "manteve o foco exclusivo nas contas bancárias tradicionais, sem alcançar as corretoras (CTVM) e as distribuidoras (DTVM) de títulos e valores mobiliários.",
+      "C": "passou a permitir o livre fornecimento das informações por e-mail, sem qualquer padronização técnica do formato dos arquivos transmitidos.",
+      "D": "ampliou o detalhamento, com onze tipos de arquivos eletrônicos e integração das corretoras ao padrão SINACOR."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: a p. 171 registra que a IN nº 636/2025 introduz onze tipos de arquivos eletrônicos, com campos específicos e instruções técnicas detalhadas, e exige que corretoras e distribuidoras utilizem o padrão do SINACOR para os arquivos específicos, o que não era previsto na norma anterior. A erra porque a IN ampliou (e não reduziu) o detalhamento e incluiu arquivos específicos para CTVM/DTVM (p. 170-171). B erra porque a nova norma passou a alcançar corretoras e distribuidoras de títulos e valores mobiliários (p. 170-172). C erra porque a IN definiu especificações técnicas rigorosas (formato .txt, padrão ASCII, separadores, formatos de data, hora e valores), justamente padronizando o envio (p. 171).",
+    "referencia": "PDF IPO II, p. 171",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1681,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Polícia Federal, a Instrução Normativa nº 168-DG/PF, de 18 de junho de 2020, disciplina o afastamento de sigilo bancário e o uso do sistema SimbaPF. Acerca dessa norma, é correto afirmar que:",
+    "alternativas": {
+      "A": "constatada a necessidade, o delegado deverá representar ao Poder Judiciário e registrar o inquérito no Simba-PF, gerando o código identificador do caso.",
+      "B": "qualquer policial federal, independentemente do cargo que ocupe na unidade, está autorizado a criar o caso e a elaborar a representação no Simba-PF.",
+      "C": "a norma dispensa a utilização do Simba quando a investigação envolver crime de lavagem de dinheiro, por já existir fluxo próprio de dados no âmbito do Coaf.",
+      "D": "o uso do Simba-PF é meramente facultativo, cabendo ao delegado optar pelo encaminhamento dos dados por e-mail diretamente às instituições financeiras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: a p. 173 reproduz o art. 2º da IN nº 168-DG/PF (constatada a necessidade de afastamento, o delegado deverá representar ao Poder Judiciário) e o art. 3º (o delegado deverá efetuar o registro do inquérito no Simba-PF, gerando o código identificador do caso). B erra porque a criação do caso e a elaboração da representação são etapas restritas aos delegados de Polícia Federal (p. 175). C erra porque não há, no texto, exceção que dispense o Simba em casos de lavagem de dinheiro; ao contrário, a IN traz a obrigatoriedade de uso do Simba (p. 173). D erra porque o uso do Simba é obrigatório, não facultativo, e a transmissão se dá pelos módulos do próprio sistema (p. 173-174).",
+    "referencia": "PDF IPO II, p. 173",
+    "nivel": "medio"
+  },
+  {
+    "id": 1682,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a Instrução Normativa nº 168-DG/PF, a representação ao Poder Judiciário pelo afastamento de sigilo bancário deve observar requisitos mínimos para viabilizar a remessa dos dados via Simba. A respeito desses requisitos, é correto afirmar que a representação deve conter:",
+    "alternativas": {
+      "A": "a indicação do banco de destino dos recursos e o saldo atualizado de todas as contas investigadas, na data do protocolo, sob pena de indeferimento liminar pelo juízo.",
+      "B": "o código identificador do caso gerado no Simba-PF, a solicitação para que esse código seja citado na decisão e o pedido de validação e transmissão dos dados via módulos do Simba.",
+      "C": "a transcrição integral de todos os tipos de lançamento previstos na Carta-Circular nº 3.454/2010 e a relação completa dos hashes dos arquivos que serão recebidos.",
+      "D": "a autorização administrativa prévia do Banco Central do Brasil para o acesso ao Cadastro de Clientes do Sistema Financeiro Nacional (CCS) dos investigados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: o art. 4º da IN nº 168-DG/PF determina que a representação contenha o código identificador do caso gerado no Simba-PF e a solicitação para que esse código seja citado na decisão judicial (p. 174); o art. 6º exige o pedido expresso para que conste da decisão que as instituições financeiras façam a validação e a transmissão dos dados via Internet, utilizando os módulos Validador bancário Simba e Transmissor bancário Simba (p. 174). A erra porque a representação é prévia à obtenção dos dados, sendo impossível indicar de antemão banco de destino e saldo das contas. C erra porque a transcrição dos tipos de lançamento e a relação de hashes não compõem os requisitos da representação; os hashes integram o pacote de atendimento recebido (p. 180-181). D erra porque o acesso ao CCS por autoridade competente não exige autorização do Banco Central (p. 167).",
+    "referencia": "PDF IPO II, p. 174",
+    "nivel": "medio"
+  },
+  {
+    "id": 1683,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na etapa de criação do caso no Simba, é atribuída à investigação uma numeração, também denominada Número de Cooperação Técnica. Acerca dessa numeração e da criação do caso, é correto afirmar que:",
+    "alternativas": {
+      "A": "o número segue o formato 999-SIGLA-999999-99 e, na PF, inicia-se com '002' e a sigla 'PF', como em 002-PF-006403-99.",
+      "B": "o número é gerado livremente pelo delegado responsável, que escolhe a sigla e o sequencial conforme a unidade em que estiver lotado no momento.",
+      "C": "a criação do caso pode ser feita por qualquer servidor da unidade, inclusive escrivães e agentes, bastando o acesso ao e-mail institucional da Polícia Federal.",
+      "D": "o delegado pode vincular o caso a unidades de qualquer Unidade da Federação, independentemente de sua lotação que esteja cadastrada no sistema Simba."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: a p. 175 explica que, ao criar o caso, este recebe uma numeração (Número de Cooperação Técnica) no formato 999-SIGLA-999999-99, sendo que, no caso da PF, os três primeiros dígitos são '002' e a sigla 'PF', seguidos de sequencial numérico e dois dígitos verificadores, citando o exemplo 002-PF-006403-99. B erra porque o número é atribuído pelo Simba (número de controle), não escolhido livremente pelo delegado (p. 175). C erra porque a criação do caso e a elaboração da representação são restritas aos delegados de Polícia Federal (p. 175). D erra porque o delegado só consegue vincular o caso às unidades da PF de sua UF de lotação, devendo, se necessário, atualizar sua lotação no Simba (p. 175).",
+    "referencia": "PDF IPO II, p. 175",
+    "nivel": "facil"
+  },
+  {
+    "id": 1684,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 12 - Afastamento do Sigilo Bancário",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após o recebimento do Atendimento tipo B (Bancário), o Simba disponibiliza relatórios analíticos que apoiam a validação dos dados. A respeito do relatório R302, é correto afirmar que:",
+    "alternativas": {
+      "A": "consiste em arquivo de hash gerado para a conferência da integridade dos dados do atendimento recebido, sem trazer qualquer informação sobre as contas bancárias.",
+      "B": "destina-se exclusivamente a listar os investigados cujo sigilo bancário foi efetivamente afastado pela decisão judicial proferida no caso em apuração.",
+      "C": "apresenta os dados das contas recebidas, com consulta em tela e exportação em PDF e CSV, indicando o percentual de identificação das transações.",
+      "D": "detalha as movimentações com origem e destino das transações e é o relatório mais completo, com trinta e oito campos disponíveis no formato CSV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: a p. 184 indica que o R302 (Contas bancárias recebidas) apresenta dados sobre as contas bancárias recebidas, com dados em tela para conferência e consulta, podendo ser exportado em PDF e CSV, sendo que o formato PDF apresenta o percentual de identificação das transações que ocorreram nas contas (p. 184-185). A erra porque o R302 traz dados das contas recebidas, não sendo arquivo de hash de integridade. B erra porque a listagem dos investigados com afastamento decretado é fornecida pela decisão judicial e por relatórios como o R401c, e não pelo R302 (p. 177; p. 188). D erra porque a descrição de movimentações com origem/destino e os trinta e oito campos em CSV correspondem ao relatório R304, e não ao R302 (p. 185-186).",
+    "referencia": "PDF IPO II, p. 184",
+    "nivel": "medio"
+  },
+  {
+    "id": 1685,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 13 - Análise de Dados Bancários",
+    "tipo": "multipla_escolha",
+    "enunciado": "No procedimento de análise de dados bancários no Simba, antes que o investigador inicie efetivamente a análise das movimentações, o material recebido das instituições financeiras deve passar por validação. A respeito desse procedimento, é correto afirmar que:",
+    "alternativas": {
+      "A": "a validação é de responsabilidade da equipe de investigação e visa verificar a correspondência integral e exata dos dados em relação ao esperado, bem como a consistência qualitativa dos dados, como datas, sobreposições e níveis de identificação.",
+      "B": "a validação é executada automaticamente pelo Simba no momento da recepção dos arquivos, dispensando qualquer conferência por parte da equipe de investigação.",
+      "C": "a validação é atribuição exclusiva da instituição financeira remetente, que atesta a integridade e a correspondência integral dos dados em relação à decisão judicial antes de transmiti-los à equipe que presidirá a análise no Simba.",
+      "D": "a validação restringe-se à verificação quantitativa do número de lançamentos, não alcançando aspectos qualitativos como sobreposição de datas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta: A. Conforme a p. 195, a validação é procedimento de responsabilidade da equipe de investigação e tem por objetivo verificar a correspondência integral e exata dos dados em relação ao esperado (considerando a decisão judicial) e a consistência dos dados em seu aspecto qualitativo (consistência de datas, sobreposições, níveis de identificação etc.). B erra porque o texto atribui a validação à equipe de investigação, e não a um processo automático do sistema. C erra porque a responsabilidade é da equipe de investigação, não da instituição financeira. D erra porque a validação alcança expressamente o aspecto qualitativo, incluindo sobreposições e consistência de datas (p. 195).",
+    "referencia": "PDF IPO II, p. 195",
+    "nivel": "medio"
+  },
+  {
+    "id": 1686,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 13 - Análise de Dados Bancários",
+    "tipo": "multipla_escolha",
+    "enunciado": "O DPF Moreira instaurou inquérito policial e pretende que sua equipe analise no próprio Simba os dados bancários decorrentes de afastamento de sigilo. Sobre a criação do caso e a concessão de acesso à equipe nesse sistema, é correto afirmar que:",
+    "alternativas": {
+      "A": "qualquer membro da equipe de investigação previamente cadastrado pode criar o caso no Simba, cabendo à autoridade policial apenas homologar o acesso posteriormente.",
+      "B": "apenas a autoridade policial pode criar o caso no Simba e conceder acesso à equipe que analisará os dados bancários.",
+      "C": "a criação do caso compete à instituição financeira que transmitiu os dados, e a concessão de acesso à equipe é feita diretamente pelo juízo competente.",
+      "D": "o caso é criado automaticamente pelo Simba a partir da decisão judicial, sendo o acesso liberado de forma irrestrita a todos os usuários da unidade policial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta: B. A p. 193 destaca expressamente que apenas a autoridade policial (que preside o inquérito) pode criar o caso no Simba e conceder acesso à equipe que analisará os dados bancários. A erra porque a criação e a concessão de acesso são privativas da autoridade policial, não de qualquer membro da equipe. C erra porque a instituição financeira apenas transmite os dados; a criação do caso é da autoridade policial, e a concessão de acesso não é feita pelo juízo. D erra porque o caso não é criado automaticamente nem o acesso é irrestrito; depende de ato da autoridade policial (p. 193).",
+    "referencia": "PDF IPO II, p. 193",
+    "nivel": "facil"
+  },
+  {
+    "id": 1687,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 13 - Análise de Dados Bancários",
+    "tipo": "multipla_escolha",
+    "enunciado": "Concluída a validação dos dados, a equipe de investigação inicia a análise propriamente dita no Simba. Sobre os procedimentos e premissas dessa etapa, é correto afirmar que:",
+    "alternativas": {
+      "A": "a análise deve ser conduzida de forma exploratória e desvinculada do inquérito, pois o estudo prévio dos autos tende a enviesar a leitura dos dados bancários.",
+      "B": "os quesitos norteadores são dispensáveis quando o volume de dados é elevado, pois nesse cenário a leitura integral dos lançamentos substitui a definição de focos de análise.",
+      "C": "é de suma importância o estudo prévio do inquérito policial e a apresentação de quesitos pela autoridade policial em conjunto com a equipe, servindo tais quesitos como estrutura basilar para manter o foco durante a análise.",
+      "D": "as pesquisas devem ser realizadas exclusivamente em planilhas eletrônicas externas e em softwares de visualização de vínculos, uma vez que o Simba não disponibiliza, em seu próprio ambiente, qualquer relatório para consulta direta dos dados encaminhados pelas instituições financeiras."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta: C. A p. 197 afirma a suma importância do estudo prévio do inquérito policial e a essencialidade de que a autoridade policial, em conjunto com a equipe, apresente quesitos norteadores, que servem como estrutura basilar para manter o foco durante a análise. A erra porque o texto recomenda justamente o estudo prévio dos autos para conhecer a investigação e seus atores. B erra porque os quesitos norteadores são essenciais exatamente porque os dados trazem vasta gama de informações, ajudando a manter o foco. D erra porque o Simba disponibiliza a aba Consultas/Relatórios, na qual o policial acessa os dados das instituições financeiras (p. 197).",
+    "referencia": "PDF IPO II, p. 197",
+    "nivel": "medio"
+  },
+  {
+    "id": 1688,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 13 - Análise de Dados Bancários",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao acessar os dados oriundos das instituições financeiras na aba Consultas/Relatórios do Simba, o policial depara-se com diferentes relatórios. Sobre os dois principais relatórios mencionados e o detalhamento que oferecem, é correto afirmar que:",
+    "alternativas": {
+      "A": "o R302-Contas Bancárias é o relatório que traz dados detalhados das transações, incluindo origem e destino dos recursos.",
+      "B": "o R304-Origem/Destino limita-se a relacionar os dados cadastrais dos titulares, sem informar valores ou movimentações.",
+      "C": "o R302 e o R304 são relatórios inteiramente redundantes, que apresentam exatamente as mesmas informações sobre contas e transações, diferindo apenas quanto ao formato de exportação e à ordem em que os lançamentos são exibidos ao policial.",
+      "D": "os dois principais relatórios são o R302-Contas Bancárias e o R304-Origem/Destino, sendo o R304 o que traz dados detalhados sobre as transações bancárias, incluindo sua origem/destino."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta: D. A p. 197 indica que os dois principais relatórios são o R302-Contas Bancárias e o R304-Origem/Destino, sendo o R304 o que traz dados detalhados sobre as transações bancárias, incluindo sua origem/destino. A erra porque é o R304 (e não o R302) que detalha as transações com origem/destino. B erra porque o R304 traz justamente os dados detalhados das transações, e não apenas dados cadastrais. C erra porque os relatórios não são redundantes: o R304 é o que detalha as transações com origem/destino (p. 197).",
+    "referencia": "PDF IPO II, p. 197",
+    "nivel": "medio"
+  },
+  {
+    "id": 1689,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 13 - Análise de Dados Bancários",
+    "tipo": "multipla_escolha",
+    "enunciado": "A APF Bento utiliza o relatório R304-Origem/Destino no Simba e precisa restringir a seleção das contas bancárias antes de gerar os resultados. Sobre os passos obrigatórios de acesso ao R304 e as opções de seleção disponíveis, é correto afirmar que:",
+    "alternativas": {
+      "A": "o acesso ao R304 exige dois passos obrigatórios: no Passo 1 selecionam-se os atendimentos vinculados ao caso e, no Passo 2, as contas bancárias contidas nesses atendimentos, podendo-se escolher pessoas vinculadas, vínculo entre pessoas e contas, instituições financeiras, tipo de conta e um tratamento para repetição de contas.",
+      "B": "o R304 é acessado em passo único, no qual o sistema seleciona automaticamente todas as contas do caso, sem possibilidade de filtragem por instituição financeira ou tipo de conta.",
+      "C": "no Passo 1 selecionam-se as contas bancárias e, no Passo 2, definem-se os filtros de período de movimentação e valor da transação, não havendo seleção de atendimentos.",
+      "D": "o Passo 2 permite escolher apenas o nome do remetente e do destinatário, não sendo possível tratar a repetição de contas nem filtrar por vínculo entre pessoas e contas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta: A. As p. 197-198 descrevem dois passos obrigatórios: no Passo 1 selecionam-se os atendimentos vinculados ao caso e, no Passo 2, as contas bancárias contidas nos atendimentos, podendo o policial escolher pessoas vinculadas às contas, vínculo entre pessoas e contas, instituições financeiras, tipo de conta, contas bancárias e um tratamento para repetição de contas. B erra porque o acesso exige dois passos obrigatórios e admite filtragem (inclusive por instituição financeira e tipo de conta). C erra porque é no Passo 1 que se selecionam os atendimentos (e não as contas), e os filtros de período/valor situam-se nos passos seguintes do fluxo. D erra porque o Passo 2 abrange a escolha de vínculo entre pessoas e contas e o tratamento para repetição de contas, entre outros (p. 198).",
+    "referencia": "PDF IPO II, p. 198",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1690,
+    "disciplina": "Investigação Policial II (IPO II)",
+    "conteudo": "Cap. 13 - Análise de Dados Bancários",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os dados de atendimento de corretoras podem ser consolidados e exportados no Simba por meio de três variações do relatório R403. Sobre essas variações, é correto afirmar que:",
+    "alternativas": {
+      "A": "o R403a (Movimento diário) é o único que apresenta o saldo acumulado dos lançamentos da conta corrente dos investidores, ao passo que o R403b (Extrato) traz tão somente a descrição e a data dos lançamentos, sem indicar o valor de cada movimentação realizada na conta.",
+      "B": "o R403c (Dados cadastrais) apresenta a movimentação da conta corrente com descrição, data e valor dos lançamentos, ao passo que o R403a traz o perfil dos investidores.",
+      "C": "o R403b (Extrato) apresenta descrição, data, valor e saldo dos lançamentos, enquanto o R403c (Dados cadastrais) traz os dados cadastrais e o perfil dos investidores que operam nos mercados à vista, derivativos e balcão com CCP.",
+      "D": "as três variações do R403 apresentam o mesmo conteúdo, diferindo somente quanto ao período de movimentação abrangido por cada uma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta: C. A p. 192 detalha que o R403b-Extrato apresenta descrição, data, valor e saldo dos lançamentos, e que o R403c-Dados cadastrais traz os dados cadastrais e o perfil dos investidores que operam nos mercados à vista, derivativos e balcão com CCP. A erra porque é o R403b (Extrato), e não o R403a, que apresenta o saldo; e o R403b inclui também o valor. B erra porque a movimentação com descrição, data e valor é do R403a (Movimento diário), não do R403c, que traz dados cadastrais e perfil. D erra porque as variações têm conteúdos distintos (movimento diário, extrato e dados cadastrais), e não apenas períodos diferentes (p. 192).",
+    "referencia": "PDF IPO II, p. 192",
+    "nivel": "dificil"
   }
 ];
