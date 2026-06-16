@@ -1,6 +1,8 @@
 // ==========================================
 // TEMA (modo escuro / claro)
 // ==========================================
+const VERCEL_API_URL = window.location.protocol === 'file:' ? 'https://cfp-perito-simulador.vercel.app' : '';
+
 // O tema inicial já é aplicado no <head> via inline script,
 // para evitar "flash" de tema claro ao abrir no modo escuro.
 function toggleTheme() {
@@ -169,7 +171,7 @@ async function tryLogin(username) {
     
     // Carregar dados da nuvem
     try {
-        const response = await fetch(`/api/load?username=${encodeURIComponent(user)}`);
+        const response = await fetch(`${VERCEL_API_URL}/api/load?username=${encodeURIComponent(user)}`);
         
         if (response.ok) {
             const result = await response.json();
@@ -193,30 +195,41 @@ async function tryLogin(username) {
     }
     
     // Garantir que a variável em memória flashcards seja atualizada
-    if (typeof loadFlashcards === 'function') loadFlashcards();
-    
-    currentUser = user;
-    localStorage.setItem('pcpr_current_user', user);
-    
-    // Ocultar login e mostrar app
-    document.getElementById('login-overlay').classList.add('hidden');
-    document.getElementById('main-app-container').style.display = 'block';
-    
-    // Mostrar aba Admin se for admin
-    if (isAdmin) {
-        const tabAdmin = document.getElementById('tab-admin');
-        if (tabAdmin) tabAdmin.style.display = '';
-        carregarUsuariosAdmin(); // Carrega badge de pendentes
+    if (typeof loadFlashcards === 'function') {
+        try { loadFlashcards(); } catch(e) { console.error("Erro no loadFlashcards", e); }
     }
     
-    // Iniciar fluxo normal do App
-    await carregarQuestoesExcluidas(); // antes de montar a base, para já filtrar
-    carregarBancoQuestoes();
-    carregarDadosPessoais();
-    carregarEstatisticas();
-    atualizarHeaderStats();
-    configurarEventos();
-    carregarControleCurso();
+    try {
+        currentUser = user;
+        localStorage.setItem('pcpr_current_user', user);
+        
+        // Ocultar login e mostrar app
+        document.getElementById('login-overlay').classList.add('hidden');
+        document.getElementById('main-app-container').style.display = 'block';
+        
+        // Mostrar aba Admin se for admin
+        if (isAdmin) {
+            const tabAdmin = document.getElementById('tab-admin');
+            if (tabAdmin) tabAdmin.style.display = '';
+            carregarUsuariosAdmin(); // Carrega badge de pendentes
+        }
+        
+        // Iniciar fluxo normal do App
+        await carregarQuestoesExcluidas(); // antes de montar a base, para já filtrar
+        carregarBancoQuestoes();
+        carregarDadosPessoais();
+        carregarEstatisticas();
+        atualizarHeaderStats();
+        configurarEventos();
+        carregarControleCurso();
+    } catch (criticalError) {
+        console.error("Erro crítico ao tentar inicializar o app:", criticalError);
+        alert("Erro ao iniciar o aplicativo: " + criticalError.message);
+        
+        // Forçar a entrada mesmo com erro
+        document.getElementById('login-overlay').classList.add('hidden');
+        document.getElementById('main-app-container').style.display = 'block';
+    }
 }
 
 function requestCloudSync() {
@@ -239,7 +252,7 @@ function requestCloudSync() {
         };
         
         try {
-            await fetch('/api/save', {
+            await fetch(`${VERCEL_API_URL}/api/save`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ username: currentUser, data: payload })
@@ -249,6 +262,120 @@ function requestCloudSync() {
             console.error("Falha ao salvar na nuvem", e);
         }
     }, 2000); // 2 segundos de debounce para não spammar requisições
+}
+
+// ==========================================
+// SINCRONIZAÇÃO MANUAL
+// ==========================================
+async function syncLocalWithCloud() {
+    if (!currentUser) return;
+    
+    const btn = document.getElementById('btn-sync-cloud');
+    if (btn) {
+        btn.classList.add('syncing');
+        btn.innerHTML = '<i class="ph ph-spinner ph-spin"></i>';
+    }
+
+    try {
+        // 1. Baixa da Nuvem
+        const response = await fetch(`${VERCEL_API_URL}/api/load?username=${encodeURIComponent(currentUser)}`);
+        if (!response.ok) throw new Error('Falha ao baixar da nuvem');
+        
+        const result = await response.json();
+        const cloudData = result.data || {};
+        
+        // 2. Coleta Local
+        const localData = {
+            stats: JSON.parse(localStorage.getItem('pcpr_stats') || 'null'),
+            favoritos: JSON.parse(localStorage.getItem('pcpr_favorites') || '[]'),
+            comentarios: JSON.parse(localStorage.getItem('pcpr_comments') || '{}'),
+            historico: JSON.parse(localStorage.getItem('pcpr_history') || '{}'),
+            progresso: JSON.parse(localStorage.getItem('pcpr_course_progress') || '{}'),
+            agendaAplicada: JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'),
+            materialEstudado: JSON.parse(localStorage.getItem('pcpr_material_studied') || '{}'),
+            flashcards: JSON.parse(localStorage.getItem('pcpr_flashcards') || '{}'),
+            anotacoes: JSON.parse(localStorage.getItem('pcpr_notes') || '[]')
+        };
+
+        // 3. Merge Inteligente
+        // Historico: Junta as chaves
+        const mergedHistorico = { ...cloudData.historico, ...localData.historico };
+        
+        // Favoritos: array unique
+        const mergedFavoritos = [...new Set([...(cloudData.favoritos || []), ...(localData.favoritos || [])])];
+        
+        // Comentarios: Object assign
+        const mergedComentarios = { ...cloudData.comentarios, ...localData.comentarios };
+        
+        // Material estudado: Object assign
+        const mergedMaterial = { ...cloudData.materialEstudado, ...localData.materialEstudado };
+        
+        // Progresso curso: sum ou assign (simplificado)
+        const mergedProgresso = { ...cloudData.progresso, ...localData.progresso };
+
+        // Agenda
+        const mergedAgenda = { ...cloudData.agendaAplicada, ...localData.agendaAplicada };
+
+        // Flashcards
+        const mergedFlashcards = { ...cloudData.flashcards, ...localData.flashcards };
+        
+        // Anotações: array concatenado com desduplicação por id (simplificado)
+        const cNotes = Array.isArray(cloudData.anotacoes) ? cloudData.anotacoes : [];
+        const lNotes = Array.isArray(localData.anotacoes) ? localData.anotacoes : [];
+        const allNotes = [...cNotes, ...lNotes];
+        const mergedAnotacoes = [];
+        const noteIds = new Set();
+        allNotes.forEach(n => {
+            if (!noteIds.has(n.id)) {
+                noteIds.add(n.id);
+                mergedAnotacoes.push(n);
+            }
+        });
+
+        // Atualiza memória e localStorage
+        localStorage.setItem('pcpr_history', JSON.stringify(mergedHistorico));
+        localStorage.setItem('pcpr_favorites', JSON.stringify(mergedFavoritos));
+        localStorage.setItem('pcpr_comments', JSON.stringify(mergedComentarios));
+        localStorage.setItem('pcpr_material_studied', JSON.stringify(mergedMaterial));
+        localStorage.setItem('pcpr_course_progress', JSON.stringify(mergedProgresso));
+        localStorage.setItem('pcpr_agenda_aplicada', JSON.stringify(mergedAgenda));
+        localStorage.setItem('pcpr_flashcards', JSON.stringify(mergedFlashcards));
+        localStorage.setItem('pcpr_notes', JSON.stringify(mergedAnotacoes));
+        
+        // Recalcular stats
+        stats = null; // force recalc on reload
+
+        // 4. Envia para a nuvem
+        const payload = {
+            stats: null, // Let app recalc
+            favoritos: mergedFavoritos,
+            comentarios: mergedComentarios,
+            historico: mergedHistorico,
+            progresso: mergedProgresso,
+            agendaAplicada: mergedAgenda,
+            materialEstudado: mergedMaterial,
+            flashcards: mergedFlashcards,
+            anotacoes: mergedAnotacoes
+        };
+        
+        await fetch(`${VERCEL_API_URL}/api/save`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username: currentUser, data: payload })
+        });
+        
+        alert("Sincronização concluída com sucesso!");
+        window.location.reload(); // Recarrega para aplicar os dados
+        
+    } catch (e) {
+        console.error("Erro na sincronização:", e);
+        alert("Erro ao sincronizar. Verifique sua conexão.");
+    } finally {
+        if (btn) {
+            btn.classList.remove('syncing');
+            btn.innerHTML = '<i class="ph ph-cloud-arrows"></i>';
+        }
+    }
 }
 
 // ==========================================
