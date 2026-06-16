@@ -83,6 +83,7 @@ module.exports = async (req, res) => {
           status: data?.status || 'pending',
           requestedAt: data?.requestedAt || null,
           approvedAt: data?.approvedAt || null,
+          lastAccessAt: data?.lastAccessAt || null,
           stats: userStats ? {
             totalResolvidas: userStats.totalResolvidas || 0,
             totalAcertos: userStats.totalAcertos || 0,

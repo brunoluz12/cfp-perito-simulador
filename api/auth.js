@@ -37,12 +37,18 @@ module.exports = async (req, res) => {
       if (typeof data === 'string') {
         try { data = JSON.parse(data); } catch(e) {}
       }
+      
+      // Update last access
+      data.lastAccessAt = new Date().toISOString();
+      await redis.set(key, JSON.stringify(data));
+      
       return res.status(200).json({ status: data.status || 'pending' });
     } else {
       // Novo usuário: criar registro pendente
       const newRecord = {
         status: 'pending',
-        requestedAt: new Date().toISOString()
+        requestedAt: new Date().toISOString(),
+        lastAccessAt: new Date().toISOString()
       };
       await redis.set(key, JSON.stringify(newRecord));
       return res.status(200).json({ status: 'pending' });

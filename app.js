@@ -3314,7 +3314,7 @@ function getAdminSortValue(u, col) {
             const r = u.stats ? u.stats.totalResolvidas : 0;
             const a = u.stats ? u.stats.totalAcertos : 0;
             return r > 0 ? Math.round((a / r) * 100) : 0;
-        case 'solicitacao': return u.requestedAt || '';
+        case 'ultimo_acesso': return u.lastAccessAt || '';
         default: return '';
     }
 }
@@ -3355,7 +3355,7 @@ function renderAdminTable() {
         { key: 'acertos', label: 'Acertos' },
         { key: 'erros', label: 'Erros' },
         { key: 'taxa', label: 'Taxa' },
-        { key: 'solicitacao', label: 'Solicitação' }
+        { key: 'ultimo_acesso', label: 'Último Acesso' }
     ];
 
     let html = `<table class="admin-table">
@@ -3370,7 +3370,7 @@ function renderAdminTable() {
     sorted.forEach(u => {
         const statusClass = u.status === 'approved' ? 'status-approved' : u.status === 'blocked' ? 'status-blocked' : 'status-pending';
         const statusLabel = u.status === 'approved' ? 'Aprovado' : u.status === 'blocked' ? 'Bloqueado' : 'Pendente';
-        const reqDate = u.requestedAt ? new Date(u.requestedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
+        const reqDate = u.lastAccessAt ? new Date(u.lastAccessAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '-';
 
         const resolvidas = u.stats ? u.stats.totalResolvidas : 0;
         const acertos = u.stats ? u.stats.totalAcertos : 0;
