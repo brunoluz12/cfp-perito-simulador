@@ -26102,5 +26102,889 @@
     "justificativa": "A correta é B: o texto define a flexibilidade como a aptidão para adequar a execução a circunstâncias imprevistas, afirmando expressamente que ela não representa afastamento de protocolos e deve respeitar a legalidade e a proporcionalidade (p. 45-46). A está errada porque contraria o texto, que nega que a flexibilidade signifique afastamento de protocolos (p. 45). C está errada porque descreve a disciplina (espinha dorsal, rigor de horários, sem improvisação), p. 50. D está errada porque descreve a universalidade (mais amplo conhecimento das circunstâncias), p. 46.",
     "referencia": "PDF IPO III, p. 45",
     "nivel": "dificil"
+  },
+  {
+    "id": 1717,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina e a jurisprudência brasileiras diferenciam as medidas cautelares em probatórias, pessoais e reais. Sobre essa classificação, é correto afirmar que:",
+    "alternativas": {
+      "A": "as cautelares probatórias destinam-se a assegurar a colheita e a preservação de elementos de prova, como interceptações e quebras de sigilo.",
+      "B": "as cautelares pessoais recaem sobre bens, direitos ou valores vinculados ao crime, com vistas à reparação do dano e ao confisco.",
+      "C": "as cautelares reais voltam-se sempre à restrição da liberdade do indivíduo, abrangendo a prisão preventiva, a prisão temporária e as medidas cautelares diversas da prisão previstas no art. 319 do CPP.",
+      "D": "as cautelares probatórias têm por objeto imediato a restrição patrimonial do investigado, e não a produção de prova."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é A: o texto define as medidas cautelares probatórias como destinadas a assegurar a colheita e preservação de elementos de prova (interceptações, busca e apreensão, quebras de sigilo etc.), p. 53. B está errada porque inverte conceitos: recair sobre bens, direitos ou valores com vistas à reparação e ao confisco é a definição das cautelares reais ou patrimoniais, não das pessoais (p. 53). C está errada porque a restrição da liberdade (prisão preventiva, temporária e medidas diversas do art. 319) caracteriza as cautelares pessoais, e não as reais (p. 53). D está errada porque as probatórias têm por objeto imediato a produção e salvaguarda de elementos de convicção, não a restrição patrimonial (p. 54).",
+    "referencia": "PDF IPO III, p. 53",
+    "nivel": "facil"
+  },
+  {
+    "id": 1718,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao planejar o cumprimento de uma busca e apreensão (art. 240 do CPP) na residência de um alvo, o delegado dispõe apenas do endereço retornado por consulta a sistemas. Conforme o texto, qual é a providência correta antes da deflagração?",
+    "alternativas": {
+      "A": "Confiar na pesquisa em sistemas, pois a base oficial é prova suficiente e atual da localização do alvo, o que dispensa por completo a realização de outras diligências preparatórias.",
+      "B": "Confirmar previamente endereços e dados do alvo com diligências complementares de vigilância e entrevistas, levantando também a existência de armas, ficha criminal e número de pessoas no local.",
+      "C": "Aguardar a apreensão do dispositivo eletrônico do investigado para só então confirmar o endereço, uma vez que tais aparelhos concentram as informações essenciais de toda a investigação em curso.",
+      "D": "Solicitar autorização judicial específica de acesso a mídias, requisito que o texto aponta como indispensável para a validade da busca domiciliar."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é B: o texto adverte que o cumprimento da busca e apreensão exige confirmação prévia de endereços e dados do alvo, não bastando a simples pesquisa em sistemas, sendo necessário complementar com vigilância, entrevistas ou outros meios, incluindo informações como existência de armas, ficha criminal e quantidade de pessoas no local (p. 54). A está errada porque o texto afirma expressamente que a simples pesquisa em sistemas não é suficiente e que cadastros podem estar desatualizados (p. 54). C está errada porque a apreensão de dispositivos é recomendação ligada à busca pessoal, não condição para confirmar o endereço (p. 54-55). D está errada porque a autorização para acesso a mídias é medida distinta, relativa à leitura de dados de aparelhos apreendidos, e não requisito de validade da busca (p. 55).",
+    "referencia": "PDF IPO III, p. 54",
+    "nivel": "medio"
+  },
+  {
+    "id": 1719,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a busca pessoal prevista no art. 244 do CPP e sua articulação com a busca domiciliar, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A busca pessoal só pode ser realizada após a obtenção de autorização judicial específica, ainda que já exista fundada suspeita de que o investigado esteja na posse de objeto ilícito relacionado à infração apurada.",
+      "B": "A busca pessoal substitui a busca domiciliar sempre que o investigado não estiver em casa no momento da diligência, tornando-se dispensável o ingresso no imóvel.",
+      "C": "A busca pessoal é cabível quando houver fundada suspeita de posse de objeto ilícito, recomendando-se que acompanhe os pedidos de busca domiciliar para garantir a apreensão de aparelhos que o investigado porte consigo.",
+      "D": "A busca pessoal independe de qualquer suspeita concreta, podendo ser realizada de forma genérica contra qualquer pessoa presente no local."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é C: o texto define a busca pessoal (art. 244 do CPP) como cabível quando houver fundada suspeita de posse de objeto ilícito e recomenda que acompanhe os pedidos de busca domiciliar, garantindo a apreensão de aparelhos que o investigado possa portar consigo, ainda que não esteja em casa (p. 54-55). A está errada porque a busca pessoal pressupõe fundada suspeita, e o texto não a condiciona a autorização judicial específica como na busca domiciliar (p. 54). B está errada porque a busca pessoal complementa a domiciliar, não a substitui (p. 54-55). D está errada porque o pressuposto legal é a fundada suspeita de posse de objeto ilícito, afastando a busca genérica e indistinta (p. 54).",
+    "referencia": "PDF IPO III, p. 54",
+    "nivel": "medio"
+  },
+  {
+    "id": 1720,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao fundamentar uma representação por prisão preventiva (CPP, art. 312), o delegado deve demonstrar o periculum libertatis. De acordo com o texto, esse pressuposto se expressa em quais hipóteses?",
+    "alternativas": {
+      "A": "Imprescindibilidade da medida para as investigações do inquérito, ausência de residência fixa do indiciado e fundadas razões de autoria ou participação em crimes específicos listados em lei.",
+      "B": "Prova da materialidade do delito e indícios suficientes de autoria, elementos que constituem o suporte probatório mínimo exigido para o oferecimento da representação cautelar.",
+      "C": "Crime doloso com pena máxima superior a 4 anos, reincidência em crime doloso e dúvida sobre a identidade civil do preso.",
+      "D": "Garantia da ordem pública, garantia da ordem econômica, conveniência da instrução criminal e asseguramento da aplicação da lei penal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é D: o texto indica que o periculum libertatis se expressa em quatro hipóteses do art. 312 do CPP — garantia da ordem pública, garantia da ordem econômica, conveniência da instrução criminal e asseguramento da aplicação da lei penal (p. 59-60). A está errada porque imprescindibilidade às investigações, ausência de residência fixa e fundadas razões de autoria em crimes específicos são requisitos da prisão temporária (Lei 7.960/89), p. 61-62. B está errada porque prova da materialidade e indícios de autoria constituem o fumus comissi delicti, e não o periculum libertatis (p. 59). C está errada porque pena máxima superior a 4 anos, reincidência e dúvida sobre identidade civil são as hipóteses de cabimento do art. 313 do CPP, e não as do periculum (p. 60).",
+    "referencia": "PDF IPO III, p. 59",
+    "nivel": "medio"
+  },
+  {
+    "id": 1721,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O art. 313 do CPP delimita as hipóteses de cabimento da prisão preventiva quanto à natureza do crime e à condição do agente. Segundo o texto, são hipóteses previstas nesse dispositivo:",
+    "alternativas": {
+      "A": "Risco de fuga, risco de reiteração criminosa e risco de coação a testemunhas.",
+      "B": "Modus operandi com uso reiterado de violência ou grave ameaça, participação em organização criminosa e a natureza, quantidade e variedade de drogas, armas ou munições apreendidas.",
+      "C": "Crimes dolosos com pena máxima superior a 4 anos, reincidência em crime doloso ou dúvida sobre a identidade civil do preso.",
+      "D": "Prática reiterada de infrações, fuga ou perigo de fuga e perigo de perturbação da coleta da prova."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é C: o texto afirma que o art. 313 do CPP delimita as hipóteses de cabimento da preventiva: crimes dolosos com pena máxima superior a 4 anos; reincidência em crime doloso; ou dúvida sobre a identidade civil do preso (p. 60). A está errada porque risco de fuga, de reiteração e de coação são desdobramentos do periculum libertatis do art. 312, ligados à necessidade da medida, e não às hipóteses de cabimento do art. 313 (p. 59-60). B está errada porque modus operandi, participação em organização criminosa e variedade de drogas/armas são os critérios objetivos de aferição de periculosidade do §3º do art. 312, incluído pela Lei 15.272/2025 (p. 60). D está errada porque prática reiterada, fuga e perigo de perturbação da prova integram o rol do art. 310, §5º, que recomenda a conversão do flagrante em preventiva (p. 56-57).",
+    "referencia": "PDF IPO III, p. 60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1722,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A prisão temporária é regida pela Lei n.º 7.960/1989 e diferencia-se da prisão preventiva. Considerando o regime descrito no texto para investigações na Justiça Federal, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Pode ser decretada em qualquer crime doloso com pena superior a 4 anos, tem prazo de 15 dias prorrogáveis por igual período e finalidade precípua de garantir a ordem pública e a ordem econômica.",
+      "B": "É cabível apenas nos crimes expressamente listados em lei, com prazo de 5 dias prorrogáveis por igual período, ou 30 + 30 dias em crimes hediondos e equiparados.",
+      "C": "Independe de previsão legal específica de crimes, tem prazo único e improrrogável de 5 dias e pode funcionar como punição antecipada do investigado.",
+      "D": "Aplica-se a todo crime hediondo, com prazo de 10 dias prorrogáveis por mais 15 dias, e dispensa a demonstração de imprescindibilidade da medida para a investigação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é B: o texto afirma que a prisão temporária (Lei 7.960/1989) é cabível apenas nos crimes expressamente listados em lei, com prazos rígidos de 5 dias prorrogáveis por igual período, ou 30 + 30 dias em crimes hediondos e equiparados, e finalidade estritamente investigativa, não servindo como punição antecipada (p. 61-62). A está errada porque a temporária não cabe em qualquer crime e não tem prazo de 15 dias (esse é o prazo do inquérito com preso preventivo na Justiça Federal) nem finalidade de garantir a ordem pública (p. 61). C está errada porque a temporária depende de previsão legal de crimes, é prorrogável e jamais serve como punição antecipada (p. 61-62). D está errada porque o prazo de 10 dias prorrogáveis por mais 15 é o do inquérito com preso na Justiça Estadual, não o da temporária, e a medida exige demonstração de imprescindibilidade (p. 61-62).",
+    "referencia": "PDF IPO III, p. 61",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1723,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O STF e o STJ consolidaram que a prisão deve ser a ultima ratio. Ao representar por prisão preventiva, qual ônus argumentativo o texto atribui ao delegado em relação às medidas cautelares diversas da prisão (art. 319 do CPP)?",
+    "alternativas": {
+      "A": "Demonstrar tão somente a gravidade abstrata do delito investigado, circunstância que o texto considera suficiente, por si só, para afastar as medidas diversas e justificar a segregação cautelar.",
+      "B": "Limitar-se a listar genericamente os riscos decorrentes da liberdade do investigado, sem necessidade de qualquer cotejo com alternativas, pois a escolha caberia exclusivamente ao juiz da causa.",
+      "C": "Aguardar que o juiz, de ofício, avalie e aplique as medidas diversas, cabendo ao delegado apenas indicar na representação os endereços e as rotinas do investigado.",
+      "D": "Justificar concretamente por que as medidas diversas (art. 319) não seriam suficientes, conforme o art. 282, §6º, do CPP."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é D: o texto afirma que, sendo a prisão a ultima ratio, o delegado deve justificar por que as medidas diversas do art. 319 não seriam suficientes (art. 282, §6º, do CPP), comparando alternativas e expondo sua insuficiência no caso concreto (p. 56-57 e p. 60-61). A está errada porque o §4º do art. 312 (Lei 15.272/2025) torna incabível a preventiva com base em gravidade abstrata, exigindo periculosidade concreta (p. 60). B está errada porque a jurisprudência exige fundamentação concreta e individualizada, vedando representações genéricas, e impõe ao delegado o cotejo com as alternativas (p. 56-57). C está errada porque o ônus de justificar a inadequação das medidas diversas recai sobre o delegado ao representar, não se limitando a aspectos logísticos (p. 60-61).",
+    "referencia": "PDF IPO III, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 1724,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto compara o standard probatório exigido nas cautelares pessoais e nas cautelares reais. Sobre essa distinção, é correto afirmar que:",
+    "alternativas": {
+      "A": "ambas exigem prova plena e idêntico standard probatório, por restringirem direitos fundamentais de igual estatura.",
+      "B": "as cautelares reais exigem standard probatório mais elevado do que as pessoais, uma vez que, segundo o texto, o patrimônio seria bem juridicamente mais protegido do que a própria liberdade individual.",
+      "C": "as cautelares pessoais exigem standard mais elevado, enquanto as reais admitem standard mais brando, bastando juízo de probabilidade de vinculação dos bens ao delito.",
+      "D": "as cautelares reais somente podem ser decretadas após o trânsito em julgado da sentença condenatória, sendo expressamente vedada qualquer decretação ainda na fase pré-processual da investigação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é C: o texto afirma que as cautelares pessoais restringem a liberdade e exigem standard probatório mais elevado, ao passo que as reais restringem o patrimônio e admitem standard mais brando, bastando um juízo de probabilidade de que os bens derivem ou sejam utilizados no delito (STJ, RHC 51.531/RS), p. 57-58. A está errada porque os standards não são idênticos: o das reais é mais brando, com foco na plausibilidade de vinculação (p. 58). B está errada porque inverte a relação: são as pessoais, e não as reais, que exigem standard mais elevado (p. 58). D está errada porque o texto registra que STJ e STF reconhecem que as cautelares reais podem ser decretadas ainda na fase pré-processual, por representação do delegado (p. 57).",
+    "referencia": "PDF IPO III, p. 57",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1725,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao representar por medidas constritivas de patrimônio (cautelares reais), o delegado deve observar determinados requisitos e o momento adequado de execução. Conforme o texto, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O delegado deve demonstrar indícios razoáveis de que o bem é produto, proveito ou instrumento do crime, a necessidade da constrição e a proporcionalidade da medida.",
+      "B": "O bloqueio de bens deve ser efetivado bem antes da deflagração da operação, ainda na fase inicial da investigação, com o objetivo de garantir tempo hábil para o cumprimento das ordens junto aos cartórios.",
+      "C": "A constrição patrimonial exige prova plena e cabal da origem ilícita dos bens atingidos, não bastando a mera existência de indícios consistentes para a decretação da medida assecuratória.",
+      "D": "A representação deve buscar atingir o maior número possível de bens do investigado, independentemente de qualquer vínculo com a infração penal apurada, de modo a maximizar a futura reparação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é A: o texto afirma que o delegado, ao representar, deve demonstrar indícios razoáveis de que o bem é produto, proveito ou instrumento do crime, a necessidade da constrição para assegurar reparação/confisco e a proporcionalidade da medida, atingindo apenas o necessário e sem excesso (p. 66). B está errada porque o texto recomenda que a indisponibilidade ocorra de modo sincronizado à ação ostensiva, no momento da deflagração — nem antes, para preservar o sigilo, nem depois, para evitar a dissipação dos bens (p. 66-68). C está errada porque a jurisprudência consolidou que o standard é mais brando que nas cautelares pessoais, bastando indícios consistentes, sem necessidade de prova plena (p. 66). D está errada porque o texto exige proporcionalidade e vínculo do bem à infração, vedando excessos (p. 66).",
+    "referencia": "PDF IPO III, p. 65",
+    "nivel": "facil"
+  },
+  {
+    "id": 1726,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No planejamento de uma ação em local de interesse, uma equipe projetada cumpre formalmente o mandado de busca e apreensão, porém sem obter os dados de interesse para a investigação ou arrecadando grande quantidade de material sem nexo com o foco da apuração. À luz do texto, como se descreve essa situação quanto ao mérito e ao objetivo da ação?",
+    "alternativas": {
+      "A": "A equipe deixou de cumprir o objetivo imediato, embora tenha atingido o mérito da ação ao recompor os fatos investigados.",
+      "B": "A equipe cumpriu o objetivo da ação (a missão imediata), mas não perseguiu o mérito, atuando como mera executora da diligência.",
+      "C": "A equipe atingiu simultaneamente o mérito e o objetivo, pois o cumprimento formal do mandado satisfaz ambos os conceitos.",
+      "D": "A equipe não cumpriu nem o objetivo nem o mérito, pois a arrecadação de material sem nexo invalida a diligência."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é B: o texto afirma que uma equipe projetada pode cumprir o objetivo sem perseguir o mérito da ação, atuando como mera executora, quando cumpre formalmente o mandado sem obter os dados de interesse ou arrecada material sem nexo com o foco (p. 73). A está errada porque inverte os conceitos: o objetivo (missão imediata) foi cumprido, e o mérito (recompor os fatos e verificar a existência de crime) é que não foi atingido (p. 72-73). C está errada porque o próprio texto distingue mérito de objetivo, afirmando que o cumprimento formal do mandado não equivale a atingir o mérito (p. 73). D está errada porque o objetivo imediato (cumprir o mandado) foi efetivamente cumprido, e o texto não afirma que a arrecadação sem nexo invalide a diligência (p. 73).",
+    "referencia": "PDF IPO III, p. 73",
+    "nivel": "medio"
+  },
+  {
+    "id": 1727,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma ação cujo objetivo imediato é o cumprimento de mandado de busca e apreensão, identifica-se maior risco à segurança dos policiais, optando-se pelo emprego de grupos táticos e pela entrada rápida no ambiente para evitar a destruição de provas. Segundo a sistematização dos aspectos operacionais, a definição de COMO o mandado será cumprido corresponde a:",
+    "alternativas": {
+      "A": "à técnica empregada.",
+      "B": "ao mérito da ação.",
+      "C": "à tática.",
+      "D": "ao procedimento previsto no art. 240 e ss. do CPP."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é C: o texto exemplifica que a tática é a definição de como o mandado será cumprido, podendo envolver o uso de grupos táticos ou a entrada rápida diante do risco de ocultação ou destruição de provas (p. 74). A está errada porque a técnica, naquele exemplo, é a própria busca e apreensão, e não o modo de execução (p. 74). B está errada porque o mérito é o objeto da investigação (linhas investigativas e dados do inquérito), não o modo de cumprir o mandado (p. 72). D está errada porque os procedimentos são as diretrizes do SEOP, os dispositivos normativos da PF e das leis (art. 240 e ss. do CPP) e a jurisprudência, não a definição de como cumprir o mandado no caso concreto (p. 74).",
+    "referencia": "PDF IPO III, p. 74",
+    "nivel": "medio"
+  },
+  {
+    "id": 1728,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a ficha de alvo, principal documento entregue às equipes projetadas, o que o texto estabelece a respeito de seu conteúdo e de sua suficiência?",
+    "alternativas": {
+      "A": "É o documento sintético com informações básicas sobre o investigado e o mérito da ação, mas, a depender da estratégia, pode não bastar, caso em que se usa o documento suporte.",
+      "B": "É o documento que circunstancia todos os fatos relevantes ocorridos durante o cumprimento da ordem judicial de busca, sendo sempre suficiente, por si só, para contextualizar integralmente a apuração às equipes.",
+      "C": "É o documento no qual o morador, na presença de duas testemunhas, autoriza o ingresso dos policiais e a realização da busca no imóvel.",
+      "D": "É o primeiro documento da pasta física, que contém a identificação da equipe, seus componentes e os telefones de contato de cada integrante."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é A: o texto define a ficha de alvo como o documento sintético com informações básicas sobre o investigado e o mérito da ação e adverte que, a depender da estratégia dos aspectos operacionais, ela pode não ser suficiente, caso em que se usa o documento suporte (p. 74-75). B está errada porque descreve o auto circunstanciado de busca e arrecadação (p. 76). C está errada porque descreve o termo de consentimento de busca (p. 76). D está errada porque descreve a folha de rosto, que é o primeiro documento da pasta física (p. 75).",
+    "referencia": "PDF IPO III, p. 74",
+    "nivel": "facil"
+  },
+  {
+    "id": 1729,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a busca, a equipe encontra um endereço do suspeito cuja numeração diverge da que consta no mandado, não havendo tempo hábil para nova representação judicial. Qual documento o texto indica como útil para viabilizar o ingresso e a busca nesse imóvel, em homenagem ao princípio da oportunidade?",
+    "alternativas": {
+      "A": "O auto circunstanciado de busca e arrecadação, que registra todos os fatos relevantes ocorridos durante o cumprimento da ordem judicial de busca.",
+      "B": "A certidão para testemunha, fornecida às testemunhas do povo que acompanharam o ato e atesta sua presença no dia, hora e local da diligência.",
+      "C": "O termo de fiel depositário, no qual se formaliza a guarda dos bens apreendidos por pessoa designada para conservá-los.",
+      "D": "O termo de consentimento de busca."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é D: o texto aponta o termo de consentimento de busca, assinado pelo responsável ou morador na presença de duas testemunhas, como útil exatamente quando a equipe encontra outro endereço ou a numeração diverge da do mandado, sem tempo para nova representação (princípio da oportunidade) (p. 76). A está errada porque o auto circunstanciado de busca e arrecadação apenas registra os fatos relevantes ocorridos durante o cumprimento da ordem, não autorizando o ingresso (p. 76). B está errada porque a certidão para testemunha apenas atesta a presença da testemunha do povo no dia, hora e local da diligência (p. 76). C está errada porque o termo de fiel depositário não trata da autorização de ingresso em imóvel diverso (p. 75-76).",
+    "referencia": "PDF IPO III, p. 76",
+    "nivel": "medio"
+  },
+  {
+    "id": 1730,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No planejamento das equipes e recrutamento, o texto fornece um parâmetro de referência sobre a composição de uma equipe policial \"padrão\". Assinale a alternativa correta sobre essa composição e seu caráter.",
+    "alternativas": {
+      "A": "É composta por quatro policiais — um Delegado, um Escrivão e dois Agentes de Polícia Federal — e constitui número fixo e obrigatório, inderrogável para toda e qualquer equipe de cumprimento de mandados.",
+      "B": "É composta por quatro policiais — um Delegado, um Escrivão e dois Agentes —, mas é mera referência, a ser avaliada conforme os riscos e o tipo de serviço.",
+      "C": "É composta por três policiais — um Delegado e dois Agentes —, número que pode ser reduzido a critério da coordenação da deflagração.",
+      "D": "É composta exclusivamente por integrantes da equipe de investigação originária, vedada a incorporação de outros policiais recrutados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A correta é B: o texto afirma que a equipe \"padrão\" é composta por quatro policiais (um Delegado, um Escrivão e dois Agentes de Polícia Federal), mas ressalva que esse valor é mera referência, devendo ser avaliado concretamente pelos planejadores conforme os riscos e o tipo de serviço (p. 78). A está errada porque o texto expressamente trata o número como referência, não como valor fixo e obrigatório (p. 78). C está errada porque a composição padrão é de quatro policiais, incluindo um Escrivão, e não três (p. 78). D está errada porque o planejamento prevê o recrutamento de efetivo e a incorporação de outros policiais às equipes, não havendo a vedação descrita (p. 78-80).",
+    "referencia": "PDF IPO III, p. 78",
+    "nivel": "facil"
+  },
+  {
+    "id": 1731,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para modernizar a gestão operacional e otimizar recursos, a Polícia Federal desenvolveu o sistema GPOL. O texto faz uma ressalva importante para distingui-lo de outro sistema. Qual é a delimitação correta?",
+    "alternativas": {
+      "A": "O GPOL tem foco exclusivo na etapa de deflagração e não se confunde com o SIGACrim, sistema oficial de registro e gerenciamento das operações.",
+      "B": "O GPOL é o sistema oficial de registro e gerenciamento das operações policiais, ao passo que o SIGACrim se limita ao mero agendamento da data da deflagração e à distribuição dos recursos.",
+      "C": "O GPOL e o SIGACrim são apenas denominações distintas do mesmo sistema integrado, empregadas de forma indistinta em todas as etapas do planejamento da deflagração.",
+      "D": "O GPOL destina-se ao planejamento de recursos financeiros, enquanto o SIGACrim trata da mobilização do efetivo e da formação das equipes de cumprimento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é A: o texto afirma que o GPOL foi desenvolvido com foco exclusivo na etapa de deflagração (agendar a data, planejar a mobilização, formar equipes e distribuir recursos) e não deve ser confundido com o SIGACrim, sistema oficial para registro e gerenciamento das operações (p. 79). B está errada porque inverte os papéis: o SIGACrim é o sistema de registro e gerenciamento, e o GPOL é que cuida da deflagração, inclusive do agendamento da data (p. 79). C está errada porque o texto expressamente diferencia os dois sistemas (p. 79). D está errada porque o GPOL não se restringe a recursos financeiros, e a mobilização do efetivo e a formação de equipes são funções do próprio GPOL, não do SIGACrim (p. 79).",
+    "referencia": "PDF IPO III, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 1732,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentro do planejamento da execução, o texto prevê a realização do debriefing. Considerando sua finalidade e o momento em que ocorre, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É a reunião realizada na véspera ou no dia da operação, em que se entregam os documentos, pastas e malotes e se concentra o efetivo imediatamente antes da ação policial.",
+      "B": "É o documento sintético entregue às equipes projetadas, no qual constam os objetivos específicos da busca e apreensão a serem executados de forma seletiva no local.",
+      "C": "É a reunião prévia conduzida pelos coordenadores regionais para nivelamento do conhecimento das equipes projetadas antes do desencadeamento das ações simultâneas.",
+      "D": "É a reunião realizada após a deflagração, conduzida pela coordenação com o efetivo, para apresentar resultados e coletar críticas e sugestões."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é D: o texto define o debriefing como a reunião realizada após a deflagração, conduzida pela equipe de coordenação com o efetivo participante, para apresentar resultados e coletar críticas e sugestões, em revisão estratégica que visa aprimorar futuras operações (p. 82). A está errada porque descreve o briefing, momento de entrega de documentos e concentração do efetivo antes da ação (p. 84). B está errada porque descreve elemento da ficha de alvo (objetivos específicos da busca seletiva), e não uma reunião (p. 76). C está errada porque descreve a reunião prévia de coordenação para nivelamento, conduzida pelos coordenadores regionais (p. 85).",
+    "referencia": "PDF IPO III, p. 82",
+    "nivel": "facil"
+  },
+  {
+    "id": 1733,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em razão da natureza sigilosa de uma investigação em curso, a equipe opta pela compartimentação das informações em detrimento da divulgação mais ampla do mérito da ação durante o briefing. Segundo o texto, qual a consequência desse prestígio à compartimentação para as equipes de cumprimento dos mandados?",
+    "alternativas": {
+      "A": "As equipes de cumprimento passam a ter autonomia total para adotar quaisquer medidas não previstas que surjam no local, o que amplia o aproveitamento da ação e potencializa o princípio da oportunidade durante a diligência.",
+      "B": "O engajamento e a compreensão das equipes aumentam, pois a restrição de dados reduz a sobrecarga de informações irrelevantes durante o briefing.",
+      "C": "As equipes atuarão com limitações na adoção de outras medidas não previstas que surjam, fragilizando o princípio da oportunidade, podendo o aproveitamento da ação não ser total.",
+      "D": "O cumprimento dos objetivos da missão é assegurado integralmente, pois a compartimentação preserva o sigilo sem qualquer custo operacional."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é C: o texto afirma que, optando-se pela compartimentação em detrimento da divulgação ampla do mérito, as equipes de cumprimento atuarão com limitações na adoção de outras medidas não previstas que surjam, fragilizando o princípio da oportunidade, e o aproveitamento poderá não ser total, pois nem todo o conhecimento foi transmitido (p. 83-84). A está errada porque a compartimentação reduz a autonomia para medidas não previstas, e não a amplia (p. 84). B está errada porque o texto associa o engajamento e a compreensão à quantidade e qualidade das informações repassadas, de modo que a compartimentação tende a reduzi-los (p. 83). D está errada porque o texto reconhece o custo operacional da compartimentação (limitação e aproveitamento não integral), não assegurando o cumprimento integral dos objetivos (p. 84).",
+    "referencia": "PDF IPO III, p. 83",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1734,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No curso de uma operação especial de polícia judiciária com múltiplas ações em locais de interesse, designam-se coordenadores regionais e realiza-se reunião prévia de coordenação para nivelamento. Sobre o papel desses coordenadores e o eventual uso da plataforma oficial de comunicação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os coordenadores regionais limitam-se a registrar a operação no SIGACrim, sendo-lhes vedado repassar o mérito da ação e os aspectos operacionais às equipes projetadas no momento da reunião de nivelamento.",
+      "B": "Com a plataforma oficial de comunicação, dispensa-se por completo a figura dos coordenadores regionais, inclusive quanto aos aspectos da execução no dia da deflagração das ações simultâneas.",
+      "C": "Os coordenadores regionais assumem exclusivamente a definição do mérito da ação, cabendo às equipes projetadas decidir, por conta própria, sobre viaturas, encaminhamento de presos, salas de procedimentos e demais aspectos logísticos da deflagração.",
+      "D": "Os coordenadores regionais repassam às equipes o mérito, os aspectos operacionais, a documentação e a execução; com a plataforma oficial, a equipe de investigação pode repassar tais elementos, restando aos coordenadores apenas a execução."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é D: o texto afirma que são os coordenadores regionais que repassam às equipes projetadas o mérito da ação, os aspectos operacionais, a documentação e a execução, incutindo o propósito da missão, e que, com a plataforma oficial, a própria equipe de investigação e/ou execução pode repassar esses elementos, ficando aos coordenadores apenas os aspectos da execução (viaturas, encaminhamento de presos, salas de procedimentos) (p. 85). A está errada porque o repasse do mérito é justamente atribuição dos coordenadores regionais, e o SIGACrim não é mencionado nessa função (p. 85). B está errada porque, mesmo com a plataforma, permanecem a cargo dos coordenadores os aspectos referentes à execução no dia da deflagração (p. 85). C está errada porque inverte as atribuições: os aspectos de execução (viaturas, presos, salas) ficam com os coordenadores, não com as equipes projetadas (p. 85).",
+    "referencia": "PDF IPO III, p. 85",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1735,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o início da ação, no cumprimento de um mandado de busca e apreensão domiciliar, uma equipe da Polícia Federal precisa definir o horário do ingresso. Considerando o art. 5º, inciso XI, da Constituição Federal e o art. 22, §1º, inciso III, da Lei de Abuso de Autoridade, assinale a alternativa correta sobre a possibilidade de cumprimento.",
+    "alternativas": {
+      "A": "O cumprimento deve ocorrer durante o dia, entre as 6 e as 18 horas, podendo estender-se noite adentro, mas não começar após o pôr do sol.",
+      "B": "O cumprimento somente pode ocorrer exatamente às 6 horas da manhã, sendo nula qualquer diligência iniciada em horário distinto, ainda que dentro do período diurno.",
+      "C": "O cumprimento pode ser iniciado a qualquer momento do dia ou da noite, inclusive na madrugada, desde que haja autorização judicial expressa que justifique o ingresso durante o período noturno.",
+      "D": "O cumprimento pode começar após o pôr do sol, contanto que seja integralmente encerrado até as 18 horas do dia seguinte ao da deflagração."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 87, em atenção ao art. 5º, XI, da CF e ao art. 22, §1º, III, da Lei de Abuso de Autoridade, o cumprimento dos mandados de busca e apreensão deve ocorrer durante o dia, entre as 6 e as 18 horas, podendo se estender noite adentro, mas não começar após o pôr do sol (vide STJ, AgRg no RHC 168319/SP) (A correta). B está errada porque, embora em regra as deflagrações ocorram às 6 horas, é possível o cumprimento em outros horários do dia, a depender do caso concreto (p. 87). C está errada porque o início após o pôr do sol não é admitido, ainda que para o período noturno (p. 87). D está errada porque o limite é até as 18 horas e o ato não pode começar após o pôr do sol (p. 87).",
+    "referencia": "PDF IPO III, p. 87",
+    "nivel": "medio"
+  },
+  {
+    "id": 1736,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como procedimento padrão no início da ação, antes de ingressarem no imóvel, os policiais se anunciam ao morador, mostram e leem o mandado judicial (CPP, art. 245) e o intimam a abrir a porta. Em que hipótese a leitura do mandado poderá ocorrer somente após a entrada da equipe no imóvel?",
+    "alternativas": {
+      "A": "Quando o morador estiver acompanhado de advogado constituído no momento do ingresso.",
+      "B": "Quando a diligência for cumprida em endereço situado em estado com fuso-horário distinto do da coordenação.",
+      "C": "Quando o risco da diligência ou a periculosidade dos habitantes assim o exigir.",
+      "D": "Quando não houver, nas proximidades, duas testemunhas presenciais disponíveis para acompanhar o ato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 87, embora o procedimento padrão seja anunciar-se e ler o mandado antes do ingresso (CPP, art. 245), quando o risco da diligência ou a periculosidade dos habitantes o exigir, a leitura do mandado poderá ocorrer após a entrada da equipe no imóvel (C correta). A está errada porque a presença de advogado não desloca o momento da leitura do mandado (p. 89). B está errada porque o fuso-horário distinto se relaciona ao horário da deflagração, não ao momento da leitura do mandado (p. 87). D está errada porque a ausência de testemunhas nas proximidades faz com que os próprios policiais figurem como testemunhas no auto, sem relação com a leitura do mandado (p. 88).",
+    "referencia": "PDF IPO III, p. 87",
+    "nivel": "medio"
+  },
+  {
+    "id": 1737,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No início da formalização de documentos, a equipe não localizou nem arrecadou qualquer item no local de interesse. Como deve proceder quanto ao Auto Circunstanciado de Busca e Arrecadação?",
+    "alternativas": {
+      "A": "Fica dispensada a formalização do auto, uma vez que nada foi arrecadado, bastando a anotação resumida do fato em Informação Policial específica encaminhada à coordenação.",
+      "B": "Deve formalizar o auto, colher a assinatura do responsável e das testemunhas e consignar que nada foi arrecadado, registrando eventuais ocorrências verificadas.",
+      "C": "Deve apenas registrar verbalmente o fato à coordenação, que decidirá, ao final da operação, sobre a necessidade ou não de produzir qualquer documento escrito.",
+      "D": "Deve substituir o auto pelo Termo de Consentimento de Busca, no qual constará que nada foi encontrado no local de interesse."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a p. 90, o fato de nada ter sido localizado e arrecadado não afasta a obrigação de formalizar o Auto Circunstanciado de Busca e Arrecadação e colher a assinatura do responsável e das testemunhas, devendo constar que nada foi arrecadado e consignadas eventuais ocorrências verificadas (B correta). A está errada porque a formalização do auto é obrigatória mesmo nada tendo sido arrecadado (p. 90). C está errada porque o registro verbal não substitui a documentação obrigatória (p. 90-91). D está errada porque o Termo de Consentimento de Busca não substitui o auto circunstanciado (p. 90).",
+    "referencia": "PDF IPO III, p. 90",
+    "nivel": "facil"
+  },
+  {
+    "id": 1738,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os cuidados com a coleta de elementos de interesse, especialmente eletrônicos que possam conter dados, como smartphones e pen drives, assinale a alternativa correta conforme a IN 255/2023.",
+    "alternativas": {
+      "A": "Diversos elementos de interesse de mesma natureza podem ser registrados em um único item da apreensão, desde que acondicionados em conjunto no mesmo invólucro lacrado e identificados por uma única etiqueta.",
+      "B": "Os smartphones devem ser mantidos ligados e com sinal ativo durante todo o trajeto até a base operacional, a fim de preservar os dados voláteis armazenados na memória do aparelho.",
+      "C": "Cada item deve ser descrito separadamente e acondicionado em invólucro lacrado, sempre que sua natureza permitir, sendo vedado registrar diferentes elementos no mesmo item.",
+      "D": "A arrecadação deve ser a mais ampla possível, recolhendo-se todos os documentos e mídias encontrados no local, ainda que sem qualquer relação com os fatos que estão sendo investigados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 91, cada eletrônico deve ser descrito separadamente e acondicionado em envelope lacrado; a IN 255/2023 veda o registro de diferentes elementos de interesse no mesmo item da apreensão (parágrafo único, art. 139) e determina o acondicionamento em invólucro lacrado sempre que sua natureza permitir (inciso I, art. 140) (C correta). A está errada porque é justamente vedado registrar diferentes elementos no mesmo item (p. 91). B está errada porque o smartphone deve ser protegido com papel alumínio ou bolsa de Faraday para evitar a transmissão de sinal (p. 91-92). D está errada porque deve-se evitar a arrecadação indiscriminada de itens sem relação com os fatos investigados (p. 91).",
+    "referencia": "PDF IPO III, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 1739,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao cumprir mandado de busca e apreensão, a equipe se depara com situação flagrancial conexa ao fato principal. Sobre a identificação dessa situação e a destinação do material relacionado, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O material que tiver relação direta com o flagrante deverá ser apreendido de forma apartada, no procedimento flagrancial, ainda que tenha constado no mesmo Auto Circunstanciado de Arrecadação.",
+      "B": "O flagrante por ato infracional praticado por menor de idade será, em regra, lavrado pela própria Polícia Federal, salvo decisão expressa em sentido diverso por parte da coordenação de execução.",
+      "C": "A prisão em flagrante, por não ser de atribuição da Polícia Federal sempre que o crime constatado for diverso do objeto da investigação, deverá obrigatoriamente ser encaminhada à Polícia Civil.",
+      "D": "A identificação do flagrante dispensa o registro no Auto Circunstanciado e nas demais peças produzidas, bastando, para todos os fins, a lavratura do respectivo Auto de Prisão em Flagrante."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 93, o material que tiver relação direta com o flagrante deverá ser apreendido de forma apartada, no âmbito do procedimento flagrancial, ainda que tenha constado no mesmo Auto Circunstanciado de Arrecadação (A correta). B está errada porque o flagrante por ato infracional praticado por menor será encaminhado à Polícia Civil, impreterivelmente (p. 93). C está errada porque, em regra, a prisão em flagrante é lavrada pela Polícia Federal, ainda que o crime não seja de sua atribuição, salvo critério da coordenação (p. 93). D está errada porque a identificação do flagrante deve ser pormenorizada no Auto Circunstanciado, na Informação de Polícia Judiciária e no Relatório de Diligência, sem prejuízo do Auto de Prisão em Flagrante (p. 93).",
+    "referencia": "PDF IPO III, p. 93",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1740,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cumprimento de mandado de busca e apreensão, identifica-se crime de menor potencial ofensivo. Sobre o termo circunstanciado de ocorrência (TCO) e os parâmetros da Instrução Normativa nº 255/2023, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O TCO pode ser lavrado tanto em situação flagrancial quanto em situação não flagrancial, sendo, em qualquer dos casos, dispensada a instauração de inquérito policial por portaria.",
+      "B": "Por se tratar de infração de menor potencial ofensivo de apuração simplificada, é obrigatório o indiciamento do autor já no momento da lavratura do próprio TCO.",
+      "C": "O TCO somente pode ser lavrado em situação de flagrante; nas hipóteses não flagranciais, instaura-se inquérito policial por portaria, sendo vedado o indiciamento por crimes dessa natureza.",
+      "D": "O TCO destina-se às infrações cuja pena máxima não ultrapasse quatro anos, cumulada ou não com multa, conforme prevê o art. 69 da Lei nº 9.099/1995."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 94, segundo a IN nº 255/2023, o TCO somente pode ser lavrado em situação de flagrante (art. 99); nas hipóteses não flagranciais, deve-se instaurar inquérito policial por portaria, com menção de que se trata de infração de menor potencial ofensivo (art. 99, §1º), sendo vedado o indiciamento por crimes dessa natureza (art. 99, §2º) (C correta). A está errada porque, na hipótese não flagrancial, é exigida a instauração de inquérito policial por portaria (p. 94). B está errada porque é vedado o indiciamento por crimes dessa natureza (p. 94). D está errada porque, conforme o art. 69 da Lei nº 9.099/1995, a infração de menor potencial ofensivo é aquela cuja pena máxima não ultrapassa dois anos, cumulada ou não com multa (p. 94).",
+    "referencia": "PDF IPO III, p. 94",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1741,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No curso do cumprimento do mandado, a equipe enfrenta resistência por parte de investigados, resultando em lesão corporal decorrente de oposição à intervenção policial. Considerando as diretrizes de uso seletivo da força e o tratamento da ocorrência, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Constatada a resistência, admite-se a lavratura de auto de resistência pela própria equipe, dispensando-se a remessa do caso à Corregedoria.",
+      "B": "Os policiais devem agir de forma proporcional, priorizando meios menos letais quando possível, e o fato deve ser objeto de inquérito policial próprio, não se admitindo auto de resistência.",
+      "C": "O uso da força pode prosseguir até a conclusão total da busca, ainda que haja feridos no local, cujo socorro somente será providenciado pela equipe ao final da diligência.",
+      "D": "A presença de excludentes de ilicitude ou de culpabilidade, quando alegada, autoriza o arquivamento imediato da ocorrência no próprio local, sem inquérito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme as p. 95-96, os policiais devem agir de forma proporcional, segundo as diretrizes de uso seletivo da força, priorizando, quando possível, meios menos letais; o fato relacionado à resistência deverá ser objeto de inquérito policial próprio, não sendo admitida a lavratura de auto de resistência, devendo a ocorrência ser encaminhada à Corregedoria (art. 16 da IN 255/2023) (B correta). A está errada porque não se admite a lavratura de auto de resistência e a ocorrência deve ser encaminhada à Corregedoria (p. 96). C está errada porque, atingido o restabelecimento da segurança, ato contínuo deve-se providenciar o socorro aos feridos antes de dar continuidade à busca (p. 95). D está errada porque a presença de excludentes de ilicitude ou culpabilidade deve ser verificada em sede de inquérito policial (p. 96).",
+    "referencia": "PDF IPO III, p. 95",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1742,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encerradas as buscas, a equipe entrega o material apreendido à equipe cartorária. Sobre a entrega do material apreendido e dos respectivos documentos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A equipe cartorária deve receber os materiais parceladamente, à medida que cada lote for chegando, mesmo que a totalidade dos itens previstos na lista de conferência ainda não tenha sido apresentada.",
+      "B": "Comprovada a entrega de um bem por simples anotação interna da própria equipe de deflagração, a responsabilidade pelo material transfere-se automaticamente ao destinatário, ainda que não haja qualquer registro dessa movimentação no sistema eletrônico.",
+      "C": "A liberação do efetivo das equipes é automática assim que cada uma delas conclui as suas buscas no respectivo local de interesse, independentemente de autorização da coordenação de execução da operação.",
+      "D": "A equipe cartorária só deve receber os materiais quando a totalidade dos itens for apresentada, evitando-se a entrega de bem sem comprovação no sistema, sob pena de o item seguir sob responsabilidade da equipe."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme as p. 97-98, a equipe cartorária deve controlar o recebimento em lista de conferência específica e somente receber os materiais quando a totalidade dos itens previstos for apresentada; deve-se evitar a entrega de bem sem comprovação no sistema, pois bens movimentados sem essa diligência continuam sob responsabilidade da equipe de deflagração (D correta). A está errada porque o recebimento só ocorre quando a totalidade dos itens é apresentada (p. 98). B está errada porque, sem comprovação no sistema, o bem permanece sob responsabilidade da equipe de deflagração (p. 98). C está errada porque a liberação do efetivo só se dá com autorização da coordenação de execução, devendo o efetivo permanecer de prontidão (p. 98).",
+    "referencia": "PDF IPO III, p. 97",
+    "nivel": "medio"
+  },
+  {
+    "id": 1743,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o debriefing realizado após o desencadeamento da ação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É uma reunião que pode ser realizada no dia seguinte à ação, com todas as equipes participantes, para verificar aspectos operacionais, a documentação e a execução, podendo-se utilizar a Ficha de Avaliação.",
+      "B": "É a reunião de caráter obrigatório, realizada no próprio local de interesse imediatamente após o encerramento da busca, destinada exclusivamente a colher a assinatura das testemunhas presenciais do ato.",
+      "C": "É o procedimento administrativo pelo qual a coordenação de execução define previamente, antes da deflagração, qual equipe será responsável pela lavratura de eventual prisão em flagrante no curso da operação.",
+      "D": "É a etapa de entrega do material apreendido à equipe cartorária, mediante conferência item a item por meio de checklist específico, com a posterior liberação do efetivo da operação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme as p. 98-99, o debriefing é uma reunião que pode ser realizada no dia seguinte ao desencadeamento da ação, com todas as equipes que participaram, sendo o momento de verificar os aspectos operacionais, a documentação e a execução, podendo ser disponibilizada a Ficha de Avaliação (A correta). B está errada porque o debriefing não ocorre no local de interesse imediatamente após a busca, nem se destina a colher assinatura de testemunhas (p. 98). C está errada porque a definição prévia do responsável pela lavratura de flagrante é tema do item de situação flagrancial, não do debriefing (p. 93). D está errada porque a entrega do material à equipe cartorária mediante checklist é objeto do item 6.1.7, não do debriefing (p. 97).",
+    "referencia": "PDF IPO III, p. 98",
+    "nivel": "facil"
+  },
+  {
+    "id": 1744,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Exploração de Documentos e Mídias (Domex) é um processo que percorre as ações de busca, arrecadação e apreensão. Sobre a finalidade desse processo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Visa identificar, coletar e explorar documentos físicos e dados de mídias e dispositivos computacionais, a fim de obter provas de materialidade, autoria e circunstâncias do crime investigado.",
+      "B": "Restringe-se à mera custódia física dos equipamentos apreendidos no local, sem qualquer atividade de triagem, seleção ou análise do conteúdo, que seriam tarefas reservadas exclusivamente à fase processual sob o crivo do contraditório.",
+      "C": "Tem por objetivo único promover a apreensão integral de absolutamente todo o material existente no local de busca, independentemente de sua pertinência ou relação com o objeto e os fatos da investigação em curso.",
+      "D": "Destina-se apenas à digitalização e ao arquivamento de documentos em papel, não alcançando os dados provenientes de mídias, computadores e dispositivos móveis, que ficam a cargo de outra etapa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 101, o Domex é o processo que visa identificar, coletar e explorar documentos físicos e dados provenientes de mídias e dispositivos computacionais ao longo das ações de busca, arrecadação e apreensão, com o propósito de obter provas de materialidade, autoria e circunstâncias do crime objeto da investigação (A correta). B está errada porque o Domex não se limita à custódia física, abrangendo também a seleção e exploração do conteúdo (p. 101). C está errada porque o objetivo é justamente evitar a arrecadação de elevado volume de material não relacionado ao objeto da investigação, por meio da triagem (p. 101). D está errada porque o Domex alcança expressamente dados de mídias e dispositivos computacionais, não apenas documentos em papel (p. 101).",
+    "referencia": "PDF IPO III, p. 101",
+    "nivel": "facil"
+  },
+  {
+    "id": 1745,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No planejamento do Domex, define-se um responsável para atuar desde o planejamento até a conclusão das explorações pós-buscas. A respeito do momento de início do processo de Domex e do papel da área técnico-científica (Utecs, Setecs, Ditec), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Domex só se inicia após a deflagração da operação, exatamente no momento em que a equipe projetada ingressa no local de interesse, sendo vedada qualquer definição prévia de critérios ou de estratégias de exploração ainda na etapa de planejamento.",
+      "B": "O Domex se inicia ainda no planejamento, e a área técnico-científica escolhe o método e as ferramentas de hardware e software adequadas à estratégia da ação.",
+      "C": "O Domex se inicia apenas na fase de exploração realizada na base policial após o término das buscas, cabendo à área técnico-científica tão somente a emissão do laudo pericial final, sem participação no planejamento da ação.",
+      "D": "O Domex se inicia no planejamento, mas a área técnico-científica fica terminantemente proibida de definir termos de pesquisa ou de estabelecer perfis de processamento de dados em qualquer hipótese, por serem atribuições privativas da equipe de investigação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme as pp. 101-102, o processo de Domex se inicia ainda no planejamento das operações, quando são definidos critérios e procedimentos, e a participação da área técnico-científica (Utecs, Setecs, Ditec) envolve a escolha do método e das ferramentas de hardware e software adequadas ao enfoque (estratégia) da ação (B correta). A está errada porque o Domex começa no planejamento, e não apenas no ingresso ao local (p. 101). C está errada porque o Domex não se inicia apenas na base, e a atuação técnico-científica não se resume ao laudo final (pp. 101-102). D está errada porque a área técnico-científica atua em conjunto com a equipe de investigação para definir perfis de processamento e, excepcionalmente, definir termos de pesquisa (p. 102).",
+    "referencia": "PDF IPO III, p. 101",
+    "nivel": "medio"
+  },
+  {
+    "id": 1746,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de maior porte, com parque tecnológico complexo, o responsável técnico avalia a possibilidade de emitir relatórios de interesse de um sistema específico da empresa, com auxílio do setor de informática, em vez de arrecadar os servidores que hospedam tal sistema. Qual a diferença prática entre as duas opções?",
+    "alternativas": {
+      "A": "Arrecadar os servidores que hospedam o sistema torna os dados disponíveis para exploração imediatamente, ao passo que a emissão de relatórios de interesse exige sempre a realização de perícia complexa, com maior prazo de conclusão das análises.",
+      "B": "As duas opções produzem exatamente o mesmo resultado e idêntico prazo de exploração, sendo a escolha entre elas inteiramente indiferente do ponto de vista da disponibilidade e do tratamento dos dados de interesse.",
+      "C": "Emitir relatórios é sempre vedado, pois descaracteriza por completo a cadeia de custódia do material, razão pela qual a arrecadação física e integral dos servidores é tida como obrigatória em todos os locais de maior porte.",
+      "D": "Emitir os relatórios torna os dados disponíveis para exploração imediatamente, enquanto arrecadar os servidores implica posterior perícia complexa, com maior prazo de conclusão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a p. 103, ao se optar por emitir relatórios de interesse de um sistema específico da empresa, os dados ficam disponíveis para exploração imediatamente; já no caso de arrecadar os servidores, os dados deverão passar por perícia complexa, com maior prazo de conclusão (D correta). A está errada porque inverte os efeitos: a disponibilidade imediata é da emissão de relatórios, não da arrecadação dos servidores (p. 103). B está errada porque as opções têm efeitos distintos quanto à disponibilidade e ao prazo (p. 103). C está errada porque a emissão de relatórios não é vedada nem a arrecadação integral é sempre obrigatória; trata-se de opção do responsável técnico (p. 103).",
+    "referencia": "PDF IPO III, p. 103",
+    "nivel": "medio"
+  },
+  {
+    "id": 1747,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na análise de risco realizada durante o planejamento do Domex, deve-se considerar a possibilidade de perda de dados. Segundo o texto, essa perda pode decorrer não apenas da ação de pessoas em torno do fato investigado, mas também de características técnicas dos próprios equipamentos. Qual fenômeno técnico ilustra essa segunda hipótese?",
+    "alternativas": {
+      "A": "A simples conexão de um disco rígido magnético a uma fonte de energia provoca, por si só, a sobrescrita automática e irreversível de todos os seus setores de dados, ainda que o equipamento não chegue a ser inicializado pelo sistema operacional.",
+      "B": "Aparelhos celulares e SSDs, quando ligados, realizam tarefas de manutenção em segundo plano (garbage collection, flush, purge) que podem resultar na exclusão permanente de dados.",
+      "C": "Monitores, teclados e demais periféricos, quando energizados, gravam em sua própria memória interna cópias integrais dos dados exibidos na tela, razão pela qual devem ser sempre apreendidos com prioridade máxima sobre os discos rígidos.",
+      "D": "A retirada do cartão SIM de um aparelho celular desencadeia automaticamente rotinas internas de criptografia e formatação que apagam todo o conteúdo armazenado na memória interna do dispositivo móvel apreendido."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a p. 103, a possibilidade de perda de dados pode ocorrer tanto pela ação das pessoas quanto pela exploração no local, e aparelhos celulares e SSDs, quando ligados, realizam tarefas de manutenção em segundo plano (garbage collection, flush, purge) que podem resultar na exclusão permanente de dados, o que deve ser ponderado na análise de riscos (B correta). A está errada porque o texto não atribui à mera energização de HD magnético a sobrescrita automática de setores (p. 103). C está errada porque dispositivos de entrada e saída, como monitores e teclados, em regra não devem ser apreendidos e não constam como causa de perda de dados (pp. 103 e 105). D está errada porque o texto não associa a retirada do SIM a apagamento por criptografia; ao contrário, recomenda a retirada e afixação do SIM (pp. 103, 107-108).",
+    "referencia": "PDF IPO III, p. 103",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1748,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a busca e coleta, antes de manusear qualquer material, a equipe deve preservar os dados e registrar o local. Entre as providências de preservação descritas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Recomenda-se permitir que pessoas estranhas à equipe policial projetada, como funcionários do setor de informática da empresa, manuseiem livremente os documentos e equipamentos, pois são quem melhor conhece os sistemas internos do local.",
+      "B": "Como os roteadores não armazenam dados de interesse, devem ser mantidos ligados e conectados durante toda a diligência, a fim de preservar eventuais conexões remotas que possam vir a ser úteis à investigação em curso.",
+      "C": "Deve-se interromper conexões de rede existentes, desligando roteadores de wi-fi e de internet e colocando os celulares em modo avião, pois por meio delas dados podem ser apagados remotamente.",
+      "D": "Mídias de armazenamento de tamanho reduzido, como pen drives, CDs e DVDs, devem ser deixadas no exato local em que se encontram até o término da diligência, por serem itens notoriamente difíceis de serem ocultados pelos investigados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 104, deve-se interromper conexões de rede eventualmente existentes, por meio das quais dados podem ser apagados remotamente, o que inclui desligar roteadores de wi-fi e de internet e colocar os celulares em modo avião (ou off-line), seguindo as orientações da coordenação (C correta). A está errada porque se deve impedir que pessoas estranhas à equipe policial projetada manipulem documentos e equipamentos de informática (p. 104). B está errada porque o objetivo é justamente interromper as conexões para evitar apagamento remoto de dados (p. 104). D está errada porque aparelhos celulares, CDs, DVDs, pen drives e mídias de tamanho reduzido são fáceis de serem ocultados, exigindo atenção (p. 104).",
+    "referencia": "PDF IPO III, p. 104",
+    "nivel": "medio"
+  },
+  {
+    "id": 1749,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao arrecadar computadores de mesa e notebooks, a equipe deve considerar a presença crescente de criptografia baseada em hardware. Sobre o procedimento correto quanto ao disco rígido e à máquina ligada, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em razão de criptografias como o BitLocker (TPM), deve-se em regra arrecadar o equipamento por inteiro; e, como regra geral na perícia forense digital, NÃO se deve desligar abruptamente um computador portátil ligado, preservando a memória volátil (RAM).",
+      "B": "Deve-se sempre retirar e apreender tão somente o disco rígido, descartando o gabinete ou a carcaça do portátil, ainda quando houver criptografia do tipo BitLocker baseada em hardware TPM, pois isso reduz o volume de material transportado à base.",
+      "C": "Computadores portáteis encontrados ligados devem ser imediatamente desligados de forma abrupta, retirando-se a bateria ou o cabo de energia da tomada, com o intuito de impedir a continuidade de processos em execução que poderiam, de outro modo, vir a alterar os dados gravados no disco rígido do equipamento.",
+      "D": "Impressoras, teclados, monitores e demais periféricos de entrada e saída devem ser sempre apreendidos em conjunto com o computador, por integrarem a memória permanente do equipamento e armazenarem cópias dos dados nele processados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme as pp. 105-106, devido à criptografia baseada em hardware (como o BitLocker com TPM), deve-se arrecadar o equipamento por inteiro, e a regra geral em perícia forense digital é NÃO desligar um computador portátil ligado, pois o desligamento abrupto pode causar perda de evidências críticas na memória volátil (RAM) (A correta). B está errada porque apreender somente o disco rígido inviabiliza a extração quando há criptografia por hardware; só se pode retirá-lo se for possível verificar que não está criptografado (p. 105). C está errada porque desligar de forma abrupta é justamente o que se deve evitar (p. 105). D está errada porque dispositivos de entrada e saída, como impressoras, teclados e monitores, em regra não devem ser apreendidos, salvo questionamento específico sobre seu uso (p. 105).",
+    "referencia": "PDF IPO III, p. 105",
+    "nivel": "medio"
+  },
+  {
+    "id": 1750,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para auxiliar a triagem e a extração de dados computacionais no local de interesse, Peritos Criminais Federais desenvolveram uma ferramenta específica. Sobre o IPED Triage e seu uso, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No modo Triage, o IPED executa o reconhecimento óptico de caracteres (OCR) e realiza rotinas de carving para recuperar fragmentos de arquivos apagados ou corrompidos no disco, o que amplia bastante a profundidade e a duração da análise inicial no local.",
+      "B": "O IPED Triage monta os discos rígidos do computador alvo em modo de leitura e escrita, permitindo que a equipe altere e edite os dados originais para fins de indexação e marcação dos arquivos de maior interesse para a investigação.",
+      "C": "É uma adaptação do IPED, integrada a uma distribuição forense Linux, que monta os discos em modo somente leitura; para casos de abuso sexual infantojuvenil, via de regra não é o mais indicado, destacando-se o CSAM-Triage e o LED.",
+      "D": "O IPED Triage é justamente a ferramenta mais indicada para os casos envolvendo abuso sexual infantojuvenil, pois processa exclusivamente arquivos de imagens e vídeos com módulos de inteligência artificial e bases de hash de material conhecido."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme as pp. 106-107, o IPED Triage é uma adaptação da ferramenta pericial IPED integrada a uma distribuição forense Linux, montando os discos rígidos no modo somente para leitura para prevenir alteração dos dados originais; e, via de regra, não é o mais indicado para casos de abuso sexual infantojuvenil, destacando-se o IPED no modo CSAM-Triage e o LED (Localizador de Evidências Digitais) (C correta). A está errada porque, no modo Triage, o IPED não executa OCR nem rotinas de carving, justamente para reduzir a duração da análise (p. 106). B está errada porque os discos são montados em modo somente leitura, prevenindo alteração dos dados (p. 106). D está errada porque, para abuso sexual infantojuvenil, são indicados o CSAM-Triage e o LED, e não o IPED Triage padrão (pp. 106-107).",
+    "referencia": "PDF IPO III, p. 106",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1751,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No 2º cenário de apreensão de aparelho celular (aparelho LIGADO e investigado NÃO fornece a senha), a equipe pode se valer da técnica de extração AFU (After First Unlock). Qual é o fundamento dessa técnica e o cuidado recomendado?",
+    "alternativas": {
+      "A": "A AFU baseia-se no fato de que o desligamento imediato do aparelho preserva indefinidamente na memória as chaves de criptografia, razão pela qual se recomenda desligá-lo assim que apreendido e mantê-lo desligado até a chegada à unidade de apoio de extração de dados.",
+      "B": "A AFU exige, como passo prévio indispensável, a remoção da senha de bloqueio no próprio local da busca, procedimento tido como inteiramente seguro e isento de qualquer risco de perda de dados ou de alteração de artefatos relevantes do aparelho.",
+      "C": "A AFU depende de o aparelho ser submetido à ferramenta de extração somente após o completo esgotamento da bateria, momento em que as chaves de criptografia se estabilizam de forma permanente na memória interna do dispositivo móvel.",
+      "D": "A AFU baseia-se no fato de as chaves de criptografia poderem ser encontradas na memória após o primeiro desbloqueio; por isso, recomenda-se manter o aparelho ligado, em faraday bag, e entregá-lo à unidade de extração o quanto antes."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme as pp. 109-110, a extração AFU (After First Unlock) baseia-se no fato de as chaves de criptografia poderem ser encontradas na memória após o primeiro desbloqueio, permitindo o acesso aos arquivos; por isso, recomenda-se avaliar manter o aparelho ligado, acondicionado em faraday bag, e entregá-lo à unidade de apoio de extração com a maior brevidade possível, antes que a bateria se esgote ou ocorra bloqueio automático (D correta). A está errada porque desligar o aparelho não preserva o estado AFU; ao contrário, no 2º cenário recomenda-se não desligá-lo (pp. 109-110). B está errada porque não é recomendável remover a senha de bloqueio no local, por haver potencial de perda de dados e alteração de artefatos (p. 109). C está errada porque o esgotamento da bateria ou a perda de sinal pode levar ao bloqueio e à perda do estado AFU, devendo a extração ser o mais breve possível (p. 110).",
+    "referencia": "PDF IPO III, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1752,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os métodos de exploração de mídias computacionais e os cuidados na cópia de dados, embalagem e identificação do material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Há basicamente quatro métodos de exploração de dados, sendo o envio para a Perícia o método mais demorado, porém o que apresenta os resultados mais profundos.",
+      "B": "A exploração e a obtenção de dados realizadas no próprio local de busca constituem o método mais demorado de todos, porém o mais profundo, superando inclusive em profundidade de resultados o envio dos materiais apreendidos para exames periciais.",
+      "C": "A mídia que irá receber os dados copiados no local pode conter resquícios de dados anteriores de outras operações, sendo de todo dispensável que esteja previamente limpa, formatada ou que seja original de fábrica (a chamada mídia virgem).",
+      "D": "Documentos em papel encontrados em móveis, caixas, pastas ou cômodos distintos devem ser reunidos e misturados em uma única embalagem comum, a fim de facilitar e agilizar o transporte de todo o material arrecadado até a base policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme as pp. 114-115, há basicamente quatro métodos de exploração de dados (exploração no próprio local; arrecadação para triagem na base; disponibilização em SARD; e envio para exames periciais), sendo o envio para a Perícia o método mais demorado, dada a centralização das demandas, porém o que apresenta os resultados mais profundos (A correta). B está errada porque a exploração no local está entre os métodos mais rápidos, porém menos profundos, não o mais demorado nem o mais profundo (p. 114). C está errada porque a mídia que receberá os dados deve estar limpa, sem resquícios de dados anteriores, de preferência original de fábrica ('virgem') (p. 112). D está errada porque documentos de móveis, caixas ou cômodos distintos devem permanecer separados em diferentes embalagens, não misturados (p. 112).",
+    "referencia": "PDF IPO III, p. 114",
+    "nivel": "facil"
+  },
+  {
+    "id": 1753,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encerrada a fase ostensiva de uma operação de polícia judiciária, a equipe de cartório repassa os malotes lacrados à equipe de investigação. Antes de iniciar a triagem, qual ato deve ser rigorosamente documentado e registrado em sistema oficial, com nome e matrícula de quem o realizou, data, local e finalidade, para preservar a cadeia de custódia?",
+    "alternativas": {
+      "A": "O encaminhamento dos arquivos digitais ao sistema de análise remota de dados (SARD).",
+      "B": "O rompimento dos lacres dos malotes recebidos.",
+      "C": "A nomeação do fiel depositário responsável pela guarda dos bens.",
+      "D": "A elaboração da requisição de exame pericial à unidade de criminalística."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme as p. 118-119, o procedimento começa com o rompimento dos lacres, ato que deve ser rigorosamente documentado, constando dos autos e registrado em sistema oficial de polícia judiciária com nome e matrícula de quem realizou, data, local e finalidade (B correta). A está errada porque o encaminhamento ao SARD ocorre, quando cabível, para extração de dados de mídias, não sendo o ato documentado com esses dados na abertura (p. 118). C está errada porque a nomeação de fiel depositário pertence à administração de bens, não à triagem (p. 123). D está errada porque a requisição de exame pericial é etapa posterior, voltada ao material já destinado à perícia (p. 119).",
+    "referencia": "PDF IPO III, p. 118",
+    "nivel": "facil"
+  },
+  {
+    "id": 1754,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a primeira triagem do material apreendido, os policiais devem organizá-lo dividindo-o em três grupos principais, conforme sua destinação imediata. Assinale a alternativa que indica corretamente esses três grupos.",
+    "alternativas": {
+      "A": "Material para perícia, material para análise e material para restituição.",
+      "B": "Material para perícia, material para alienação antecipada e material para perdimento definitivo.",
+      "C": "Material para SARD, material para o escrivão do feito e material para o fiel depositário.",
+      "D": "Material para Registro Especial de Destinação, material para apenso e material para Registros Especiais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 119, na triagem inicial os materiais apreendidos são divididos em três grupos principais, conforme sua destinação imediata: I. material para perícia; II. material para análise; III. material para restituição (A correta). B está errada porque alienação antecipada e perdimento definitivo são destinações finais de bens administrados, não grupos da triagem (p. 123-124). C está errada porque o envio ao SARD, ao escrivão ou ao fiel depositário não constitui a tríade de triagem (p. 118-123). D está errada porque Registro Especial de Destinação, apenso e Registros Especiais são formas de organização documental ou de bens, não grupos da triagem (p. 117-121).",
+    "referencia": "PDF IPO III, p. 119",
+    "nivel": "facil"
+  },
+  {
+    "id": 1755,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os critérios de triagem, em qual situação um material apreendido poderá ser destinado à restituição imediata, dispensando análise posterior?",
+    "alternativas": {
+      "A": "Sempre que o item for um equipamento de armazenamento de dados, como mídias, HDs ou telefones celulares, ainda que de inegável interesse probatório para o esclarecimento dos fatos investigados na operação.",
+      "B": "Sempre que houver dúvida sobre a propriedade do bem, hipótese em que a restituição resolve a controvérsia de titularidade.",
+      "C": "Somente quando se tratar de material de notório desinteresse para a investigação, que dispense qualquer análise posterior e sobre cuja propriedade não reste dúvida.",
+      "D": "Quando o material exigir conhecimento técnico-científico especializado para sua correta interpretação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 119, somente deverão ser destinados à restituição imediata os materiais de notório desinteresse para a investigação, que dispensem qualquer análise posterior e sobre cuja propriedade não reste qualquer dúvida (C correta). A está errada porque mídias, HDs e celulares são exemplos de material para perícia, e itens de interesse não vão para restituição imediata (p. 119). B está errada porque, havendo dúvida sobre a propriedade, justamente não cabe a restituição imediata (p. 119). D está errada porque a necessidade de conhecimento técnico-científico caracteriza material para perícia, não para restituição (p. 119).",
+    "referencia": "PDF IPO III, p. 119",
+    "nivel": "medio"
+  },
+  {
+    "id": 1756,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe de investigação separou, na triagem, equipamentos de armazenamento de dados, documentos e substâncias que exigem conhecimento especializado, encaminhando-os para perícia. Acerca da formalização desse encaminhamento à unidade de criminalística, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É feito por requisição de exame pericial, na qual devem constar quesitos objetivos, devendo cada item ser identificado conforme sua numeração no termo de apreensão.",
+      "B": "É feito por despacho do presidente da investigação que distribui os materiais entre os policiais da própria equipe para exame direto.",
+      "C": "É feito mediante Termo de Fiel Depositário, que transfere a guarda técnica do material ao perito responsável até a conclusão do laudo.",
+      "D": "Dispensa quesitos e numeração, bastando o envio em bloco do material para que a própria unidade de criminalística defina, com total autonomia, tanto os pontos a examinar quanto a ordem de prioridade dos exames."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 119, o encaminhamento à unidade de criminalística é formalizado por requisição de exame pericial, na qual devem constar quesitos objetivos, devendo cada item ser identificado conforme sua numeração no respectivo termo de apreensão, o que garante o controle e rastreamento (A correta). B está errada porque o despacho que distribui materiais aos próprios policiais refere-se ao material para análise, não ao material para perícia (p. 120). C está errada porque o Termo de Fiel Depositário diz respeito à guarda de bens na administração patrimonial, não ao envio à perícia (p. 123). D está errada porque os quesitos e a numeração são exigidos, e a ordem de prioridade cabe ao presidente da investigação, alinhada ao responsável pela unidade criminalística (p. 119-120).",
+    "referencia": "PDF IPO III, p. 119",
+    "nivel": "medio"
+  },
+  {
+    "id": 1757,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os resultados do exame do material destinado à análise direta pela equipe de investigação são consolidados em um relatório técnico. Conforme o capítulo, como esse documento é formalmente denominado e qual sua base normativa?",
+    "alternativas": {
+      "A": "Auto Circunstanciado de Busca e Arrecadação, com base no art. 245 do Código de Processo Penal.",
+      "B": "Informação de Polícia Judiciária, com base no art. 63, § 1º, II, da IN 255/2023.",
+      "C": "Requisição de Exame Pericial, com base na Instrução de Serviço nº 008/2011 - DITEC/PF.",
+      "D": "Termo de Fiel Depositário, com base no art. 161 da Instrução Normativa nº 255/2023-DG/PF."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a p. 120, os resultados da análise direta são consolidados em um relatório técnico, formalmente uma Informação de Polícia Judiciária (art. 63, § 1º, II, da IN 255/2023) (B correta). A está errada porque o Auto Circunstanciado de Busca e Arrecadação documenta a busca em si, não a análise consolidada (p. 120). C está errada porque a IS nº 008/2011 - DITEC/PF trata das regras de priorização de atendimento pericial, não da denominação do relatório de análise (p. 120). D está errada porque o art. 161 da IN nº 255/2023-DG/PF fundamenta a nomeação de fiel depositário, tema da administração de bens (p. 123).",
+    "referencia": "PDF IPO III, p. 120",
+    "nivel": "medio"
+  },
+  {
+    "id": 1758,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao analisar diretamente o material apreendido, a equipe identifica indícios de um crime diverso daquele que motivou a operação. No contexto do tratamento pós-ação, esse fenômeno e a conduta esperada da equipe correspondem a:",
+    "alternativas": {
+      "A": "Espelhamento; a equipe deve realizar nova cópia forense do dispositivo original antes de prosseguir com qualquer análise.",
+      "B": "Serendipidade; a equipe deve adotar os procedimentos necessários para a devida apuração do crime identificado.",
+      "C": "Serendipidade; a equipe deve descartar o achado, pois está fora do escopo da portaria de instauração e da representação policial.",
+      "D": "Perdimento; a equipe deve encaminhar imediatamente o bem à SENAD para alienação antecipada em favor da União."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme as p. 120-121, a identificação de outros crimes a partir da análise é o fenômeno conhecido como serendipidade, hipótese em que deverão ser adotados os procedimentos necessários para a devida apuração (B correta). A está errada porque espelhamento (cópia forense) é boa prática de preservação de mídias, não o nome do fenômeno descrito (p. 121). C está errada porque, embora a análise deva manter foco no escopo, o achado de novo crime não é descartado, mas apurado (p. 120-121). D está errada porque perdimento e alienação antecipada pela SENAD pertencem à administração de bens, não ao tratamento de novos indícios criminais (p. 122-123).",
+    "referencia": "PDF IPO III, p. 120",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1759,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No pilar de administração de bens, o capítulo descreve a atuação da Secretaria Nacional de Políticas sobre Drogas e Gestão de Ativos (SENAD). Sobre a evolução de sua competência, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Até 2019, limitava-se aos ativos apreendidos por crimes da Lei de Drogas (Lei nº 11.343/2006); o Decreto nº 9.662/2019 ampliou suas atribuições, tornando-a, na prática, agência central de gestão de ativos da União.",
+      "B": "Sua competência sempre abrangeu todos os ativos objeto de perdimento em favor da União, independentemente do crime, desde a edição da Lei de Drogas (Lei nº 11.343/2006).",
+      "C": "O Decreto nº 9.662/2019 restringiu sua atuação exclusivamente aos crimes de drogas, retirando-lhe qualquer competência sobre os demais ativos objeto de perdimento em favor da União.",
+      "D": "Sua competência decorre do art. 161 da IN nº 255/2023-DG/PF, que a autoriza a nomear fiéis depositários para os bens apreendidos pela Polícia Federal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 122, até 2019 a competência da SENAD limitava-se aos ativos apreendidos em decorrência dos crimes da Lei de Drogas (Lei nº 11.343/2006), e o Decreto nº 9.662, de 1º de janeiro de 2019, ampliou substancialmente suas atribuições, transformando-a na prática em agência central de gestão de ativos para a União (A correta). B está errada porque a abrangência ampla é posterior ao Decreto de 2019, não existindo desde a Lei de Drogas (p. 122). C está errada porque o Decreto ampliou, e não restringiu, a competência da SENAD (p. 122). D está errada porque o art. 161 da IN nº 255/2023-DG/PF trata da nomeação de fiel depositário pelo Delegado de Polícia Federal, não da competência da SENAD (p. 123).",
+    "referencia": "PDF IPO III, p. 122",
+    "nivel": "medio"
+  },
+  {
+    "id": 1760,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma operação, são apreendidos maquinários pesados em garimpo e semoventes (gado) cujo transporte e armazenamento em sede policial se mostram inviáveis. Conforme o art. 161 da Instrução Normativa nº 255/2023-DG/PF, qual é a providência cabível e quem detém a prerrogativa de adotá-la?",
+    "alternativas": {
+      "A": "A remoção compulsória ao depósito da Polícia Federal, prerrogativa do escrivão do feito, que ficará incumbido de carregar e disponibilizar os bens removidos no módulo de bens e custódia do ePol.",
+      "B": "A alienação antecipada imediata, prerrogativa exclusiva do Conselho Federal de Administração (CFA), independentemente de autorização judicial.",
+      "C": "O encaminhamento dos bens à perícia, prerrogativa do responsável pela unidade de criminalística local, para definição da ordem de prioridade.",
+      "D": "A nomeação de fiel depositário, formalizada por Termo de Fiel Depositário, prerrogativa do Delegado de Polícia Federal quando o bem não puder ser transportado ou guardado em sede policial."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme as p. 123-124, o art. 161 da IN nº 255/2023-DG/PF confere ao Delegado de Polícia Federal a prerrogativa de nomear fiel depositário quando o bem não puder ser transportado ou guardado em sede policial, formalizada por Termo de Fiel Depositário, medida aplicável a maquinários pesados em garimpos e semoventes, entre outros (D correta). A está errada porque, sendo inviável a remoção, não cabe transporte compulsório, e o escrivão apenas carrega informações no ePol (p. 121, 123). B está errada porque a alienação é atividade complexa apoiada pela SENAD, e o CFA apoia a gestão de estabelecimentos, não detendo prerrogativa exclusiva de alienar sem autorização judicial (p. 122-123). C está errada porque o envio à perícia destina-se a material que exige exame técnico-científico, não à guarda de bens de grande porte (p. 119).",
+    "referencia": "PDF IPO III, p. 123",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1761,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma investigação, o Delegado de Polícia Federal cogita devolver a um investigado um veículo apreendido sobre o qual ainda recaem dúvidas quanto à propriedade e que pode interessar à prova. Considerando as regras da restituição de coisas apreendidas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A restituição pode ser deferida desde logo pela autoridade policial, pois, uma vez formalizado o termo de restituição e juntado aos autos do procedimento, ficam automaticamente superadas eventuais dúvidas sobre a propriedade e o interesse do bem para a prova.",
+      "B": "A restituição não é cabível enquanto persistirem dúvidas, pois antes de transitar em julgado a sentença final as coisas apreendidas não poderão ser restituídas enquanto interessarem ao processo.",
+      "C": "A restituição independe de qualquer triagem prévia, bastando que o reclamante apresente nota fiscal do bem para que o delegado proceda à devolução imediata.",
+      "D": "A restituição, por envolver veículo, somente poderá ser determinada pelo juízo competente, jamais pela autoridade policial no âmbito do inquérito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme as p. 127-128, a restituição só é determinada quando não houver qualquer dúvida sobre o direito do reclamante, e a legislação processual penal é clara ao afirmar que, antes de transitar em julgado a sentença final, as coisas apreendidas não poderão ser restituídas enquanto interessarem ao processo (artigo 118 do CPP) (B correta). A está errada porque o termo de restituição (art. 120 CPP) apenas formaliza o ato, não supre a exigência de inexistência de dúvidas (p. 127). C está errada porque o material passa por triagem prévia, devendo ser restituídos apenas os itens que notoriamente não interessam à investigação e sobre os quais não pairam dúvidas quanto à propriedade (p. 127). D está errada porque, no âmbito do inquérito policial, a competência para a devolução é do Delegado de Polícia Federal, quando não houver dúvida sobre o direito do reclamante (p. 127).",
+    "referencia": "PDF IPO III, p. 127",
+    "nivel": "medio"
+  },
+  {
+    "id": 1762,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a formalização e a competência para a restituição de bens apreendidos no âmbito do inquérito policial, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A restituição compete exclusivamente ao Ministério Público, cabendo ao delegado apenas executar a entrega física do bem após manifestação ministerial.",
+      "B": "A restituição prescinde de qualquer documentação, bastando a entrega do bem ao reclamante mediante recibo informal arquivado na unidade.",
+      "C": "A restituição, no inquérito policial, é de competência do Delegado de Polícia Federal e se formaliza por meio de um termo de restituição juntado aos autos do procedimento (artigo 120 do CPP).",
+      "D": "A restituição depende sempre de prévia autorização judicial, sendo vedado ao delegado devolver qualquer bem antes do trânsito em julgado, ainda que inexista dúvida sobre a propriedade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 127, no âmbito do inquérito policial a competência para a devolução é do Delegado de Polícia Federal, e a devolução se formaliza por meio de um termo de restituição que será juntado aos autos do procedimento (artigo 120 CPP) (C correta). A está errada porque a competência, no inquérito, é da autoridade policial, e não do Ministério Público (p. 127). B está errada porque a restituição exige a formalização do termo de restituição juntado aos autos (p. 127). D está errada porque o delegado pode determinar a restituição quando não houver dúvida sobre o direito do reclamante, sendo a autorização judicial prévia apenas recomendada em operações de grande porte, não uma exigência geral (p. 127).",
+    "referencia": "PDF IPO III, p. 127",
+    "nivel": "facil"
+  },
+  {
+    "id": 1763,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação de crime previsto na Lei de Drogas (Lei nº 11.343/2006), o defensor do acusado, sem que este compareça, requer a restituição de um bem apreendido. Como deve ser tratado o pedido?",
+    "alternativas": {
+      "A": "O pedido deve ser conhecido normalmente, pois a representação por advogado constituído supre a presença física do interessado em qualquer hipótese.",
+      "B": "O pedido deve ser indeferido de plano e em definitivo, pois a Lei de Drogas veda totalmente a restituição de bens apreendidos durante a investigação.",
+      "C": "O pedido pode ser conhecido e processado normalmente desde que o bem reclamado já tenha sido submetido a perícia e não mais interesse à prova, hipótese em que se dispensa, excepcionalmente, a presença pessoal do acusado.",
+      "D": "O pedido não será conhecido, pois, nas investigações relacionadas a crimes da Lei nº 11.343/2006, nenhum pedido de restituição será conhecido sem o comparecimento pessoal do acusado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a p. 128, no contexto específico de investigações relacionadas a crimes previstos na Lei de Drogas (Lei nº 11.343/2006), a legislação impõe uma condição adicional: nenhum pedido de restituição será conhecido sem o comparecimento pessoal do acusado (D correta). A está errada porque a exigência é de comparecimento pessoal do acusado, não suprível pela atuação do defensor (p. 128). B está errada porque a lei não veda totalmente a restituição, apenas condiciona o conhecimento do pedido ao comparecimento pessoal do acusado (p. 128). C está errada porque a realização da perícia não dispensa o comparecimento pessoal exigido pela Lei de Drogas (p. 128).",
+    "referencia": "PDF IPO III, p. 128",
+    "nivel": "medio"
+  },
+  {
+    "id": 1764,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "O ordenamento jurídico brasileiro prevê duas modalidades de alienação de bens constritos na esfera criminal: a definitiva e a antecipada. Assinale a alternativa que distingue corretamente essas modalidades.",
+    "alternativas": {
+      "A": "A definitiva, amparada no art. 133 do CPP, alcança bens cujo perdimento foi decretado em sentença irrecorrível; a antecipada ocorre antes do trânsito em julgado da sentença penal condenatória.",
+      "B": "A alienação definitiva é a venda de bens que ocorre antes do trânsito em julgado da sentença penal condenatória, ao passo que a antecipada somente é cabível após o perdimento decretado em sentença condenatória irrecorrível, nos termos do art. 133 do CPP.",
+      "C": "Ambas as modalidades de alienação somente podem ocorrer após o trânsito em julgado da sentença final, diferenciando-se apenas quanto ao órgão estatal responsável pela realização da venda do bem constrito.",
+      "D": "A alienação antecipada tem amparo no art. 133 do CPP e exige, como condição, que o bem apreendido não tenha sido reclamado no prazo de 30 dias contados da data da apreensão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 128, a alienação definitiva encontra amparo no art. 133 do CPP, sendo cabível para os bens cujo perdimento tenha sido decretado em sentença condenatória irrecorrível ou para os itens apreendidos que não tenham sido reclamados no prazo de 90 dias contados do trânsito em julgado da sentença final (artigo 123 do CPP); já a alienação antecipada é a venda de bens que ocorre antes do trânsito em julgado da sentença penal condenatória (A correta). B está errada porque inverte os conceitos: é a antecipada que ocorre antes do trânsito em julgado (p. 128). C está errada porque a alienação antecipada ocorre justamente antes do trânsito em julgado, e não após (p. 128). D está errada porque o art. 133 do CPP ampara a alienação definitiva, e o prazo de 90 dias (art. 123) conta-se do trânsito em julgado da sentença final, não da apreensão (p. 128).",
+    "referencia": "PDF IPO III, p. 128",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1765,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os requisitos legais para que ocorra a alienação antecipada de bens apreendidos, prevista como regra geral no art. 144-A do Código de Processo Penal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Basta a apreensão regular do bem e a representação da autoridade policial, dispensando-se decisão judicial quando o bem estiver sujeito a deterioração.",
+      "B": "A alienação antecipada independe de manifestação do Ministério Público e de autorização judicial, sendo suficiente, para o seu deferimento, a prévia autorização administrativa do Superintendente Regional da Polícia Federal ou do Diretor da respectiva área.",
+      "C": "São necessários a apreensão regular do bem em procedimento de polícia judiciária, a representação da autoridade policial ao juízo competente e a autorização judicial, esta proferida após a manifestação do Ministério Público.",
+      "D": "A alienação antecipada pode ser determinada diretamente pelo delegado de polícia, desde que comunique o juízo posteriormente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme as p. 130-131, para que a alienação antecipada ocorra são necessários: a apreensão do bem (regularmente apreendido em procedimento de polícia judiciária), a representação da autoridade policial ao juízo competente (demonstrando o cabimento e a necessidade da medida) e a autorização judicial que a autorize, após a manifestação do Ministério Público (C correta). A está errada porque a alienação depende de decisão judicial, não bastando apreensão e representação (p. 130). B está errada porque a decisão judicial é proferida após a manifestação do Ministério Público, e não mediante autorização do Superintendente Regional (p. 130-131). D está errada porque a medida depende de autorização judicial, não podendo ser determinada diretamente pelo delegado (p. 130).",
+    "referencia": "PDF IPO III, p. 130",
+    "nivel": "facil"
+  },
+  {
+    "id": 1766,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação de tráfico de drogas, a autoridade de polícia judiciária apreende veículos, embarcações e aeronaves utilizados na prática do crime. Sobre as hipóteses de cabimento da alienação antecipada e o tratamento mais célere previsto na legislação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A alienação antecipada do art. 144-A do CPP só é cabível para bens de difícil manutenção, como semoventes e máquinas de grande porte, não alcançando veículos, embarcações e aeronaves.",
+      "B": "A Lei nº 11.343/2006 determina que a autoridade de polícia judiciária comunique imediatamente ao juízo a apreensão desses bens, e o juiz terá o prazo de 30 dias para determinar a sua alienação.",
+      "C": "A Lei nº 11.343/2006 confere ao delegado de polícia o prazo de 90 dias para alienar diretamente os bens apreendidos, independentemente de comunicação ao juízo.",
+      "D": "A alienação antecipada de bens apreendidos em crimes de tráfico depende de prévio trânsito em julgado, sendo vedada a venda antecipada nessa espécie de crime."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme as p. 132-133, para crimes relacionados ao tráfico de drogas a Lei nº 11.343/2006 determina que a autoridade de polícia judiciária comunique imediatamente ao juízo a apreensão de veículos, embarcações, aeronaves e outros bens utilizados na prática do crime, cabendo ao juiz o prazo de 30 dias para determinar a alienação desses bens, visando à descapitalização do narcotráfico (B correta). A está errada porque o art. 144-A do CPP é cabível tanto para bens sujeitos a deterioração ou depreciação (como veículos, embarcações e aeronaves) quanto para bens de difícil manutenção (p. 132). C está errada porque o prazo de 30 dias é do juiz para determinar a alienação, sendo exigida a comunicação imediata ao juízo, e não venda direta pelo delegado (p. 133). D está errada porque a alienação antecipada ocorre antes do trânsito em julgado, sendo a Lei de Drogas ainda mais célere nessa matéria (p. 133).",
+    "referencia": "PDF IPO III, p. 132",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1767,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "O uso de bens apreendidos por órgãos e entidades foi modernizado pela Lei nº 13.964/2019, que inseriu o art. 133-A no CPP, autorizando o juiz a permitir, constatado o interesse público, a utilização do bem por determinados órgãos. Sobre a regra de prioridade prevista nesse dispositivo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O órgão de segurança pública que participou das ações de investigação ou repressão que levaram à constrição do bem terá preferência na sua utilização.",
+      "B": "A preferência na utilização do bem é sempre da Força Nacional de Segurança Pública, independentemente do órgão que tenha realizado a constrição.",
+      "C": "O uso do bem ocorre de forma automática após a apreensão, dispensando autorização judicial, desde que destinado a órgão de segurança pública.",
+      "D": "A preferência cabe ao sistema prisional e ao sistema socioeducativo, que têm prioridade sobre os demais órgãos de segurança pública na utilização do bem."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme as p. 131-132, o § 1º do art. 133-A do CPP estabelece que o órgão de segurança pública que participou das ações de investigação ou repressão que levaram à constrição do bem terá preferência na sua utilização, valorizando o trabalho investigativo (A correta). B está errada porque a Força Nacional, embora figure entre os órgãos autorizados, não tem preferência geral; a preferência é do órgão que participou da constrição (p. 131-132). C está errada porque o uso não ocorre de forma automática, dependendo de autorização expressa do juiz competente, precedida de representação da autoridade policial ou do Ministério Público (p. 132). D está errada porque a preferência é do órgão que participou das ações que levaram à constrição, e não do sistema prisional ou socioeducativo (p. 132).",
+    "referencia": "PDF IPO III, p. 131",
+    "nivel": "medio"
+  },
+  {
+    "id": 1768,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a conclusão da investigação e o Relatório Final do inquérito policial, especialmente no que tange à destinação de coisas apreendidas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Relatório Final pode ser meramente remissivo das diligências realizadas, bastando indicar as peças já produzidas sem análise técnico-jurídica autônoma.",
+      "B": "A deflagração da operação é considerada o produto mais importante do esforço investigativo, sendo o Relatório Final mera formalidade dispensável quando a operação obteve repercussão.",
+      "C": "Na parte patrimonial, deve a autoridade policial demonstrar a referibilidade e classificar os bens, sendo que o confisco alargado (art. 91-A do CP) pode ser cogitado para qualquer crime, sem limite de pena.",
+      "D": "A procrastinação injustificada da investigação, além de condenar a ação policial à ineficácia, pode configurar o crime previsto no art. 31 da Lei nº 13.869/2019 (Lei de Abuso de Autoridade)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a p. 135, a procrastinação injustificada da investigação, além de condenar a ação policial à ineficácia, pode configurar o crime previsto no art. 31 da Lei nº 13.869/2019 (Lei de Abuso de Autoridade) (D correta). A está errada porque, segundo a IN 255/2023, é vedada a apresentação de relatório final meramente remissivo das diligências realizadas, consistindo o relatório em análise técnico-jurídica (p. 134). B está errada porque o produto mais importante do esforço investigativo é o Relatório Final, possuindo a deflagração papel instrumental (p. 133). C está errada porque o confisco alargado (art. 91-A do CP) pressupõe que o crime apurado tenha pena máxima superior a 6 (seis) anos, havendo, portanto, limite de pena (p. 134).",
+    "referencia": "PDF IPO III, p. 135",
+    "nivel": "dificil"
   }
 ]
