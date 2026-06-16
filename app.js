@@ -2303,6 +2303,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 { titulo: 'Capítulo 8 - Aspectos Finais', arquivo: 'Capitulo_08.html' }
             ]
         },
+        'ipo_3': {
+            path: 'IPO_3',
+            capitulos: [
+                { titulo: 'Introdução - IPO III e o Manual de Planejamento Operacional', arquivo: 'Capitulo_00.html' },
+                { titulo: 'Capítulo 1 - Doutrina de Planejamento Operacional', arquivo: 'Capitulo_01.html' },
+                { titulo: 'Capítulo 2 - Cadeia de Custódia', arquivo: 'Capitulo_02.html' },
+                { titulo: 'Capítulo 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva', arquivo: 'Capitulo_03.html' },
+                { titulo: 'Capítulo 4 - Representações para a Deflagração de Operação Policial', arquivo: 'Capitulo_04.html' },
+                { titulo: 'Capítulo 5 - Preparação da Ação', arquivo: 'Capitulo_05.html' },
+                { titulo: 'Capítulo 6 - Desencadeamento da Ação', arquivo: 'Capitulo_06.html' },
+                { titulo: 'Capítulo 7 - Exploração de Documentos e Mídias (DOMEX)', arquivo: 'Capitulo_07.html' },
+                { titulo: 'Capítulo 8 - Tratamento Pós-Ação', arquivo: 'Capitulo_08.html' },
+                { titulo: 'Capítulo 9 - Destinação de Coisas Apreendidas (e Conclusão)', arquivo: 'Capitulo_09.html' }
+            ]
+        },
         'pvat_mod_1': {
             path: 'PVAT_MOD_1',
             capitulos: [

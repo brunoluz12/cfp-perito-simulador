@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploração de Documentos e Mídias (DOMEX) - IPO III</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO III</span>
+        <h1>Capítulo 7 - Exploração de Documentos e Mídias (DOMEX)</h1>
+        <div class="subtitle">Introdução, planejamento, busca e coleta, embalagem/transporte e exploração de documentos e mídias computacionais</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">7.1 Introdução ao DOMEX</a></li>
+            <li><a href="#sec2">7.2 Planejamento</a></li>
+            <li><a href="#sec3">7.3 Busca e coleta de documentos e mídias</a></li>
+            <li><a href="#sec3-1">7.3.1 Computadores de mesa e notebooks</a></li>
+            <li><a href="#sec3-1-1">7.3.1.1 Ferramenta de exploração e extração no local</a></li>
+            <li><a href="#sec3-2">7.3.2 Mídias avulsas e dispositivos móveis</a></li>
+            <li><a href="#sec3-3">7.3.3 Cópia de dados</a></li>
+            <li><a href="#sec3-4">7.3.4 Identificação e registro</a></li>
+            <li><a href="#sec4">7.4 Embalagens e transportes</a></li>
+            <li><a href="#sec5">7.5 Exploração de documentos</a></li>
+            <li><a href="#sec6">7.6 Exploração de mídias computacionais</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>7.1 Introdução ao DOMEX</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> A <strong>Exploração de Documentos e Mídias</strong> (Domex ou <em>Document and Media Exploitation</em>) é um processo que visa <strong>identificar, coletar e explorar</strong> documentos físicos e dados provenientes de mídias e dispositivos computacionais ao longo das ações de busca, arrecadação e apreensão, com o propósito de obter <strong>provas de materialidade, autoria e circunstâncias</strong> do crime objeto da investigação. <span class="ref-pagina">(p. 101)</span>
+        </div>
+
+        <p>O <strong>grande volume e a diversidade das fontes de dados</strong> e informações encontradas durante as buscas são um desafio cada vez maior para as investigações policiais. A arrecadação e a posterior apreensão de um elevado volume de dados e materiais <strong>não relacionados</strong> ao objeto da investigação dificultam a identificação de informações relevantes e têm <strong>impacto negativo no prazo</strong> para a realização de exames periciais (quando necessários) e na conclusão das investigações, inviabilizando o aproveitamento do <strong>princípio da oportunidade</strong>. <span class="ref-pagina">(p. 101)</span></p>
+
+        <div class="box-orange">
+            <strong>Início precoce do processo:</strong> Por isso, o processo de Domex <strong>se inicia ainda no planejamento</strong> das operações, quando são definidos critérios e procedimentos visando maximizar a <strong>eficiência e a eficácia</strong> da exploração de documentos e mídias, bem como estratégias a serem adotadas nas fases de busca, processamento e exploração do material. <span class="ref-pagina">(p. 101)</span>
+        </div>
+
+        <p>Durante todo o processo, são dedicados cuidados especiais à <strong>manutenção da cadeia de custódia</strong>, à <strong>identificação da origem</strong> das informações utilizadas e à <strong>preservação da integridade</strong> dos dados coletados. <span class="ref-pagina">(p. 101)</span></p>
+
+        <div class="box-blue">
+            <strong>Triagem - procedimento-chave:</strong> Um procedimento chave do Domex é a <strong>triagem</strong> do material - a <strong>seleção do material de interesse e dos dados relevantes</strong>, descartando o excesso de material porventura arrecadado. No caso de dados computacionais, a triagem pode ser realizada com apoio de <strong>ferramentas de software</strong> adequadas à indexação e pesquisa dos dados, resultando em um conjunto <strong>menor e de maior qualidade</strong> de materiais, que será processado e explorado de forma mais célere e produtiva. <span class="ref-pagina">(p. 101)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Ponto crítico - autorização judicial:</strong> É importante constar na <strong>decisão judicial</strong> a <strong>autorização expressa de exploração do material de interesse no local das buscas</strong>, a fim de que sejam arrecadados <strong>apenas os itens relevantes</strong> para a investigação. <span class="ref-pagina">(p. 101)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Pressuposto da exploração no local:</strong> A exploração do material durante as buscas "pressupõe a disponibilização de informações sobre a investigação para a equipe que realizará a exploração", sendo recomendável, por exemplo, a realização de <strong>briefings mais detalhados</strong> e que o <strong>Documento Suporte</strong> contenha dados suficientes para o cumprimento do mérito da ação (Manual de Planejamento Operacional, p. 102). <span class="ref-pagina">(p. 101)</span>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>7.2 Planejamento</h2>
+
+        <div class="box-orange">
+            <strong>Inserção no planejamento da ação:</strong> É necessário que o Domex esteja inserido no contexto do planejamento da ação de eventual cumprimento de mandado de busca, com o fim de <strong>ponderar custos e benefícios</strong> das ações de exploração previstas, <strong>racionalizar o uso dos recursos</strong> humanos e técnicos e <strong>evitar que essas ações sejam infrutíferas ou superdimensionadas</strong>. <span class="ref-pagina">(p. 102)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Responsável designado:</strong> Para isso, deve-se <strong>designar um responsável</strong> para atuar <strong>desde o planejamento até a conclusão das explorações pós-buscas</strong> (<strong>Instrução Normativa n.º 299/2025-DG/PF</strong>). <span class="ref-pagina">(p. 102)</span>
+        </div>
+
+        <p>A previsão de exploração do material pela equipe de cumprimento de mandados pode trazer <strong>vantagens</strong>: facilitar a triagem do que foi apreendido pela equipe de investigação, acelerar as atividades de análise pós-deflagração e até auxiliar na <strong>representação por novas medidas cautelares</strong>. Por outro lado, deve-se ter em mente a necessidade de haver <strong>condições de tempo e de logística</strong> para permitir que essa exploração seja bem-feita. <span class="ref-pagina">(p. 102)</span></p>
+
+        <h3>Participação da área técnico-científica</h3>
+
+        <div class="box-blue">
+            <strong>Quem participa:</strong> No contexto do Domex, a participação da <strong>área técnico-científica</strong> - <strong>Utecs</strong>, Setores Técnico-Científicos (<strong>Setecs</strong>) e Diretoria Técnico-Científica (<strong>Ditec</strong>) - no planejamento envolve: <span class="ref-pagina">(p. 102)</span>
+        </div>
+
+        <ul>
+            <li>escolha do <strong>método</strong> e das <strong>ferramentas de hardware e software</strong> adequadas ao enfoque (estratégia) a ser dado à ação no local de interesse;</li>
+            <li>orientações sobre as <strong>técnicas, táticas e procedimentos</strong> empregados para atender ao mérito da ação em cada tipo de local;</li>
+            <li>identificar <strong>riscos</strong> e reduzir a chance de <strong>imprevistos técnicos</strong>;</li>
+            <li>atuar em conjunto com a <strong>equipe de investigação originária</strong> para definir <strong>perfis de processamento</strong> adequados à triagem de dados e, <strong>excepcionalmente, definir termos de pesquisa</strong>. <span class="ref-pagina">(p. 102)</span></li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Conhecimento do objeto:</strong> Todos os que participarem do planejamento das atividades de Domex deverão ter <strong>conhecimento do objeto da investigação</strong> e de quais provas são necessárias para alcançar os elementos de <strong>autoria, materialidade e circunstâncias</strong> que permitam reconstituir o fato investigado da forma mais próxima da <strong>verdade real</strong>. <span class="ref-pagina">(p. 102)</span>
+        </div>
+
+        <p>Além disso, dados específicos sobre as <strong>pessoas e empresas</strong> relacionadas ao fato devem ser disponibilizados, para que o responsável técnico analise a eventual necessidade de definir um conjunto de <strong>termos de busca</strong> a serem utilizados no software de pesquisa, para identificação rápida de dados de interesse. <span class="ref-pagina">(p. 102)</span></p>
+
+        <h3>Estratégias conforme o local de interesse</h3>
+
+        <p>Quanto aos locais de interesse (busca e apreensão, local de crime etc.), <strong>diferentes ambientes requerem diferentes estratégias</strong> para a identificação e coleta de documentos e mídias. <strong>Residências e empresas</strong> de variados portes apresentam desafios próprios que podem <strong>restringir as opções de triagem e de coleta</strong> dos dados. <span class="ref-pagina">(p. 102-103)</span></p>
+
+        <div class="box-purple">
+            <strong>Locais de maior porte:</strong> Em locais de maior porte, com parque tecnológico mais complexo, pode haver necessidade de <strong>convocar o auxílio do setor de informática da própria empresa</strong> para obter acesso a sistemas internos, coletar dados ou gerar relatórios. Pode-se optar por <strong>emitir os relatórios de interesse de um sistema específico</strong> em vez de arrecadar os servidores que o hospedam. No primeiro caso, os dados estarão disponíveis <strong>imediatamente</strong>; no segundo, deverão passar por <strong>perícia complexa, com maior prazo de conclusão</strong>. <span class="ref-pagina">(p. 103)</span>
+        </div>
+
+        <h3>Análise de risco do local</h3>
+
+        <p>De posse de informações sobre o perfil de cada local e das pessoas relacionadas ao ambiente-alvo, o <strong>responsável técnico</strong> da atividade de Domex poderá realizar a <strong>análise de risco do local</strong>, indicando a possibilidade de <strong>perda de dados</strong> por ação das pessoas em torno do fato, ou indicar a necessidade de <strong>participação de peritos criminais de informática</strong> em locais de maior complexidade. Cabe também ao responsável técnico avaliar a <strong>viabilidade técnica</strong> de realização de exploração dos dados no local, que depende de <strong>recursos computacionais imprevisíveis</strong> (utiliza computadores do próprio local), o que tem impacto direto sobre a <strong>duração da busca e coleta</strong>. <span class="ref-pagina">(p. 103)</span></p>
+
+        <div class="box-red">
+            <strong>Atenção - perda de dados:</strong> A possibilidade de perda de dados pode ocorrer tanto pela <strong>ação das pessoas</strong> quanto pela <strong>exploração dos dados no local</strong>. <strong>Aparelhos celulares e SSDs</strong>, quando ligados, realizam tarefas de manutenção em segundo plano (<em>garbage collection</em>, <em>flush</em>, <em>purge</em>) que podem resultar na <strong>exclusão permanente de dados</strong> - isso deve ser ponderado na análise de riscos durante o planejamento. <span class="ref-pagina">(p. 103)</span>
+        </div>
+
+        <p>Considerando o volume esperado de material a explorar, a equipe de investigação pode definir <strong>núcleos prioritários</strong> de pessoas e empresas que exijam maior rigor na exploração, definindo o <strong>perfil de processamento</strong> dos dados segundo a <strong>ordem de prioridade</strong> estabelecida. <span class="ref-pagina">(p. 103)</span></p>
+
+        <h3>Triagem e exploração na unidade policial (base)</h3>
+
+        <div class="box-green">
+            <strong>Recursos na base:</strong> No caso de triagem e exploração na unidade policial da deflagração, deve-se garantir a disponibilidade de recursos: <strong>espaço físico</strong> para as equipes, <strong>computadores e softwares</strong> para processamento e exploração, e <strong>espaço de armazenamento</strong> dos dados selecionados, considerando a quantidade de equipes envolvidas. Nesse ambiente preparado de triagem, deve-se considerar a <strong>orientação e auxílio de peritos criminais da área de informática</strong>, a fim de assegurar a eficácia da triagem realizada pelos policiais das equipes projetadas. <span class="ref-pagina">(p. 103)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Definir também o que NÃO é escopo:</strong> Como a exploração no local visa obter elementos de prova de autoria, materialidade e circunstâncias, também é importante indicar <strong>de forma clara aquilo que não é escopo</strong> da investigação policial e que, portanto, <strong>não deve ser arrecadado</strong>. De posse das informações para instruir as buscas e do material de apoio, as equipes poderão realizar a próxima fase: a <strong>busca e coleta</strong> de documentos e mídias. <span class="ref-pagina">(p. 103-104)</span>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>7.3 Busca e coleta de documentos e mídias</h2>
+
+        <div class="box-blue">
+            <strong>Início da cadeia de custódia:</strong> A coleta e o manuseio apropriados de documentos e mídias são essenciais para o sucesso do Domex. Esse é o <strong>início da cadeia de custódia</strong> de materiais que poderão ser utilizados para esclarecer os fatos. O registro adequado da <strong>origem do material</strong> e de todo o seu caminho nas fases posteriores torna <strong>transparente a proveniência</strong> das informações produzidas nos relatórios de análise e nos laudos periciais. <span class="ref-pagina">(p. 104)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Impedir ocultação, adulteração ou destruição:</strong> Após a entrada da equipe, é preciso estar atento a qualquer tentativa de <strong>ocultar, adulterar ou destruir</strong> dados e documentos. Deve-se <strong>impedir que pessoas estranhas à equipe policial projetada manipulem</strong> documentos e equipamentos de informática presentes no local. <strong>Aparelhos celulares, CDs, DVDs, pen drives</strong> e mídias de armazenamento de tamanho reduzido são fáceis de ocultar. <span class="ref-pagina">(p. 104)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Interromper conexões de rede:</strong> Alguns materiais podem ser danificados ou ter seus dados apagados em segundos. Outra providência é <strong>interromper conexões de rede</strong> por meio das quais dados podem ser apagados remotamente: <strong>desligar roteadores de wi-fi e de internet</strong> e <strong>colocar os celulares em modo avião (ou off-line)</strong>, seguindo as orientações da equipe de coordenação. <span class="ref-pagina">(p. 104)</span>
+        </div>
+
+        <h3>Registro do local antes do manuseio</h3>
+
+        <p>O <strong>registro cuidadoso do local antes de manusear qualquer material</strong> é fundamental para documentar com precisão onde e como ele foi encontrado. É importante identificar os ambientes que compõem o local: <span class="ref-pagina">(p. 104)</span></p>
+        <ul>
+            <li><strong>Empresas:</strong> identificar o nome da sala, sua numeração e andar, e o nome dos <strong>funcionários de cada estação de trabalho</strong>.</li>
+            <li><strong>Residências:</strong> identificar as <strong>pessoas associadas a cada cômodo</strong> e ao seu conteúdo. <span class="ref-pagina">(p. 104)</span></li>
+        </ul>
+
+        <p>É necessário também <strong>verificar os arredores</strong> do local para o caso de tentativa de ocultação e destruição de documentos e mídias - por exemplo, <strong>sob janelas, telhados, vasos sanitários e até caixas d'água</strong>. <strong>Fotografias e vídeos</strong> também podem ser utilizados para registrar indícios de ocultação, danos ou destruição de objetos de interesse. <span class="ref-pagina">(p. 104)</span></p>
+
+        <div class="box-orange">
+            <strong>Materiais perigosos:</strong> Se durante a exploração forem encontrados <strong>materiais perigosos ou contaminantes</strong>, é necessário comunicar à coordenação da operação para que sejam realizados <strong>procedimentos específicos por equipes capacitadas</strong>, tais como a seleção de material de interesse. <span class="ref-pagina">(p. 104)</span>
+        </div>
+
+        <h3>Avaliação e priorização ainda no local</h3>
+
+        <p>Considerando as prioridades e os objetivos da busca definidos no planejamento, o material arrecadado deve ser avaliado, <strong>ainda no local</strong>, quanto à sua <strong>pertinência e relevância</strong>, bem como à <strong>priorização</strong> do seu processamento e análise. Assim, por exemplo, os dados do celular de um <strong>suspeito prioritário</strong> poderão ser disponibilizados para exploração com maior celeridade, em vez de aguardarem o processamento de itens de menor interesse. <span class="ref-pagina">(p. 105)</span></p>
+
+        <div class="box-purple">
+            <strong>Mandado abrangente, interesse específico:</strong> Há casos em que o mandado abrange <strong>toda a empresa</strong>, apesar de o interesse principal estar, por exemplo, no <strong>setor de contabilidade</strong>. Nesses casos, deve-se atentar à arrecadação dos computadores que contenham os dados de interesse, como <strong>servidores e computadores da diretoria ou da presidência</strong>. <span class="ref-pagina">(p. 105)</span>
+        </div>
+    </div>
+
+    <div id="sec3-1" class="section">
+        <h2>7.3.1 Computadores de mesa e notebooks</h2>
+
+        <div class="box-blue">
+            <strong>Onde estão os dados:</strong> As informações de interesse estão geralmente armazenadas na <strong>memória permanente</strong> desses equipamentos, ou seja, no <strong>disco rígido (HD)</strong>. <span class="ref-pagina">(p. 105)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Ponto crítico - criptografia de hardware:</strong> Devido à presença crescente de <strong>criptografia baseada em hardware</strong>, deve-se <strong>arrecadar o equipamento por inteiro</strong> (notebooks/laptops; e gabinetes, no caso de desktops). Criptografias como o <strong>BitLocker</strong>, que utilizam hardware <strong>TPM (Trusted Platform Module)</strong>, vêm se tornando padrão de fábrica em computadores com Windows; nesses casos, <strong>apreender somente o disco rígido inviabiliza a extração dos dados</strong> pela Perícia Criminal. <span class="ref-pagina">(p. 105)</span>
+        </div>
+
+        <p>Somente quando for possível verificar que o <strong>HD não está criptografado</strong> é que se pode retirá-lo do gabinete ou do computador portátil e apreendê-lo separadamente. Sempre que possível, deve ser realizado o <strong>procedimento de recuperação da chave do BitLocker</strong> ou utilizado o recurso <strong>"Suspender Proteção do BitLocker"</strong>. <span class="ref-pagina">(p. 105)</span></p>
+
+        <div class="box-orange">
+            <strong>Periféricos:</strong> Dispositivos de entrada e saída - <strong>impressoras, teclados, monitores e outros periféricos</strong> - <strong>não devem ser apreendidos</strong>, exceto se houver questionamento específico sobre seu uso. Ex.: uma <strong>impressora</strong> pode ser necessária para a perícia determinar se um documento foi impresso nela, como no caso de <strong>papel-moeda falso</strong>. <span class="ref-pagina">(p. 105)</span>
+        </div>
+
+        <h3>Memória volátil (RAM) e equipamentos ligados</h3>
+
+        <div class="box-red">
+            <strong>ATENÇÃO - não desligar:</strong> Em perícia forense digital, a <strong>regra geral é NÃO desligar</strong> um computador portátil apreendido que esteja <strong>ligado</strong>. Desligá-lo de forma abrupta pode causar a <strong>perda de evidências críticas e irrecuperáveis</strong>. Isso decorre da necessidade de <strong>preservação da memória volátil (RAM)</strong>. <span class="ref-pagina">(p. 105-106)</span>
+        </div>
+
+        <p>A memória volátil armazena informações temporárias que podem ser imprescindíveis à investigação, tais como: <span class="ref-pagina">(p. 106)</span></p>
+        <ul>
+            <li>a) Dados de <strong>processos e programas em execução</strong>;</li>
+            <li>b) <strong>Chaves de criptografia e senhas</strong> de acesso;</li>
+            <li>c) <strong>Comunicações recentes</strong> (chats, e-mails não salvos);</li>
+            <li>d) <strong>Histórico de atividades e comandos</strong> recentes. <span class="ref-pagina">(p. 106)</span></li>
+        </ul>
+
+        <div class="box-green">
+            <strong>Procedimento:</strong> Inicialmente, <strong>isolar o aparelho de qualquer rede</strong> (desligar o Wi-Fi e desconectar o cabo de rede). Em seguida, fazer uso de <strong>ferramentas e métodos forenses de aquisição de memória volátil</strong> antes de qualquer outra ação. <span class="ref-pagina">(p. 106)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Após a exploração:</strong> Os computadores a serem apreendidos devem ser <strong>preferencialmente colocados em estado de hibernação</strong>, para manterem seu estado atual. Caso não seja possível, devem ser <strong>desligados</strong>. Se possível, deve-se encaminhar <strong>com os cabos de conexão e carregadores</strong>. <span class="ref-pagina">(p. 106)</span>
+        </div>
+    </div>
+
+    <div id="sec3-1-1" class="section">
+        <h2>7.3.1.1 Ferramenta para exploração e extração de dados no local</h2>
+
+        <div class="box-blue">
+            <strong>IPED Triage:</strong> Para auxiliar as equipes projetadas, Peritos Criminais Federais desenvolveram uma ferramenta específica. O <strong>IPED Triage</strong> é uma <strong>adaptação da ferramenta pericial IPED</strong>, integrada a uma <strong>distribuição forense do sistema operacional Linux</strong>. Foi criado para permitir <strong>triagens rápidas</strong> em equipamentos de informática e posterior <strong>extração dos dados selecionados</strong>. <span class="ref-pagina">(p. 106)</span>
+        </div>
+
+        <p>No <strong>modo Triage</strong>, o IPED passa a analisar <strong>apenas pastas e formatos de arquivos previamente definidos</strong>, ignorando outros tipos menos relevantes para a fase inicial, com o objetivo de <strong>reduzir o tempo de execução</strong> em relação à versão padrão. <span class="ref-pagina">(p. 106)</span></p>
+
+        <div class="box-orange">
+            <strong>Limitações do modo Triage:</strong> Nesse modo, o IPED <strong>não executa OCR</strong> e <strong>não recupera fragmentos de arquivos apagados</strong> - ou seja, <strong>não executa rotinas de carving</strong> (recuperação de dados apagados ou fragmentados no disco), o que <strong>reduz significativamente a duração</strong> da análise inicial. <span class="ref-pagina">(p. 106)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Como funciona:</strong> O computador a explorar deve ser <strong>inicializado por um pen drive com o IPED Triage</strong>, gravado com sistema Linux. Após a inicialização, executa-se o atalho <strong>"IPED-TRIAGE"</strong> da área de trabalho, que automaticamente <strong>monta os discos rígidos no modo somente para leitura</strong>, prevenindo a alteração, ainda que acidental, dos dados originais. <span class="ref-pagina">(p. 106)</span>
+        </div>
+
+        <p>Apesar da facilidade de uso, o sucesso na execução do IPED Triage <strong>depende da configuração da máquina</strong> a ser explorada, podendo levar um <strong>tempo considerável</strong>. Deve-se evitar situações que coloquem a equipe em risco ou comprometam a integridade do material a ser obtido na arrecadação. <span class="ref-pagina">(p. 106-107)</span></p>
+
+        <h3>Casos de abuso sexual infantojuvenil</h3>
+
+        <div class="box-red">
+            <strong>IPED Triage não é o mais indicado:</strong> Via de regra, o uso do IPED Triage <strong>não é o mais indicado</strong> para buscas e apreensões envolvendo <strong>abuso sexual infantojuvenil</strong>, em que normalmente é necessário <strong>inspecionar arquivos de imagens e vídeos</strong>. Para esses casos, destacam-se duas ferramentas. <span class="ref-pagina">(p. 107)</span>
+        </div>
+
+        <ul>
+            <li><strong>IPED no modo CSAM-Triage:</strong> processa <strong>somente arquivos de imagens e vídeos</strong> e usa <strong>módulos de IA e bases de hash conhecidas</strong> para ajudar a identificação do material de interesse. <span class="ref-pagina">(p. 107)</span></li>
+            <li><strong>LED (Localizador de Evidências Digitais):</strong> focado na <strong>rapidez na varredura</strong>, para <strong>minimizar o tempo gasto no local</strong>; procura por arquivos/pastas cujos nomes ou conteúdos contenham <strong>termos relacionados a abuso sexual infantojuvenil</strong>, além de <strong>artefatos relevantes</strong> de programas comumente usados por abusadores e buscas por <strong>hashes</strong> a partir de bases de arquivos conhecidos, entre outras funcionalidades. <span class="ref-pagina">(p. 107)</span></li>
+        </ul>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Ferramentas de exploração no local</span>
+            <ul>
+                <li><strong>IPED Triage</strong> - triagem rápida geral (Linux em pen drive, disco em modo somente leitura; sem OCR, sem carving)</li>
+                <li><strong>IPED CSAM-Triage</strong> - só imagens/vídeos + IA + hash (abuso infantojuvenil)</li>
+                <li><strong>LED</strong> - varredura rápida por termos, artefatos e hashes (abuso infantojuvenil)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3-2" class="section">
+        <h2>7.3.2 Mídias avulsas e dispositivos móveis</h2>
+
+        <p>Além de <strong>pen drives, CDs, DVDs, cartões de memória, chip de celular e dispositivos móveis</strong> (tablets, celulares, smartphones), é preciso atenção para <strong>mídias de armazenamento pouco usuais</strong>, como <strong>máquinas fotográficas, filmadoras, gravadores digitais e pen drives em formatos incomuns</strong> (chaveiros, canivetes, bichos de pelúcia etc.). Sempre que possível, ao apreender uma mídia pouco usual, devem ser arrecadados também seus <strong>acessórios</strong>, como cabos para leitura de dados. <span class="ref-pagina">(p. 107)</span></p>
+
+        <div class="box-orange">
+            <strong>O que evitar apreender:</strong> Deve ser evitada a apreensão de mídias que <strong>claramente não possuam dados relevantes</strong>, como <strong>CDs e DVDs originais</strong> contendo músicas, filmes ou instalação de programas. <span class="ref-pagina">(p. 107)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Fitas de backup:</strong> Por conterem <strong>grande volume de dados</strong> muitas vezes já contidos nos demais materiais, só devem ser arrecadadas se houver <strong>interesse específico</strong> (um sistema ou intervalo de tempo) definido pela coordenação. Por exigirem <strong>hardware específico</strong>, sempre que possível deve-se <strong>copiar os dados de interesse</strong> com o equipamento disponível no próprio local ou, em último caso, <strong>arrecadar também a unidade de leitura de fitas</strong>. <span class="ref-pagina">(p. 107)</span>
+        </div>
+
+        <h3>Dispositivos móveis - cuidados iniciais</h3>
+
+        <div class="box-orange">
+            <strong>Modo avião e senhas:</strong> <strong>Celulares, tablets e smartphones</strong> devem ser colocados em <strong>modo avião assim que possível pelo primeiro policial</strong> que os manuseie, para assegurar a integridade dos dados e da cadeia de custódia. Deve-se <strong>verificar junto aos detentores a existência de senhas</strong> de acesso ao aparelho e a aplicativos específicos (como o WhatsApp). <span class="ref-pagina">(p. 107)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Registro das senhas:</strong> As senhas devem ser <strong>anotadas no auto circunstanciado de busca e arrecadação</strong> para, posteriormente, serem registradas no <strong>Termo de Apreensão</strong>, juntamente com o registro do <strong>consentimento do proprietário</strong> quanto ao fornecimento da senha do seu aparelho. <span class="ref-pagina">(p. 107-108)</span>
+        </div>
+
+        <h3>Os cinco cenários de apreensão de aparelho celular</h3>
+
+        <div class="box-blue">
+            <strong>Fundamento e ressalva:</strong> De acordo com o <strong>Manual de Planejamento Operacional</strong> (pp. 182-185, anexo), é possível identificar <strong>cinco cenários distintos</strong> no momento da apreensão do aparelho celular. Em razão da <strong>contínua evolução dos mecanismos de segurança</strong> dos fabricantes e do desenvolvimento de novas capacidades das ferramentas de extração, <strong>tais cenários estão sujeitos a alterações a qualquer momento</strong>. É necessário sempre se informar se houve alteração nos procedimentos preconizados antes de participar de ações de Busca e Apreensão envolvendo celulares. <span class="ref-pagina">(p. 108)</span>
+        </div>
+
+        <h4 style="color:#2d3748;">1º Cenário: aparelho LIGADO e investigado FORNECE a senha</h4>
+        <ol type="a">
+            <li><strong>Testar</strong> se a senha funciona;</li>
+            <li>Colocar em <strong>modo avião</strong> e confirmar se as conexões (wi-fi, bluetooth etc.) foram efetivamente desabilitadas;</li>
+            <li>Verificar a presença de <strong>senhas específicas de aplicativos</strong> de interesse (WhatsApp, Wickr, Telegram etc.) e <strong>descrevê-las nos documentos de apreensão</strong>;</li>
+            <li><strong>Retirar o(s) cartão(ões) SIM</strong> e afixá-lo(s) com etiqueta adesiva no próprio aparelho, <strong>evitando o contato da cola com os contatos do SIM</strong>;</li>
+            <li><strong>Desligar</strong> o aparelho;</li>
+            <li><strong>Registrar a senha</strong> para o caso de necessidade de utilização em outro equipamento ou aplicativo. <span class="ref-pagina">(p. 108)</span></li>
+        </ol>
+
+        <div class="box-orange">
+            <strong>ATENÇÃO - Smart Lock/Unlock:</strong> Há métodos de desbloqueio (<strong>Smart Lock/Unlock</strong>) que não exigem a senha caso o dispositivo esteja em determinada <strong>localização geográfica (GeoFence)</strong> ou com <strong>conexões sem fio pré-estabelecidas</strong> (Wi-Fi ou bluetooth) ativas. Como os mandados são cumpridos em residências/escritórios dos donos - que podem se enquadrar nessas condições de desbloqueio sem senha (condições que não ocorrerão após a apreensão, nas bases de extrações avançadas) - a <strong>presença de senha deve ser verificada nas configurações</strong> do aparelho. <span class="ref-pagina">(p. 108)</span>
+        </div>
+
+        <p>Ter acesso à senha do dispositivo pode permitir <strong>desbloquear outros telefones do mesmo proprietário</strong> e acessar mais informações. <span class="ref-pagina">(p. 109)</span></p>
+
+        <div class="box-red">
+            <strong>Não remover a senha no local:</strong> Não é recomendável <strong>remover a senha de bloqueio no local</strong>, por se tratar de ação com potencial de <strong>perda de dados</strong> e/ou alteração de artefatos relevantes. Ex.: em <strong>iPhones</strong>, a remoção da senha pode ocasionar apagamento de informações do <strong>Apple Wallet</strong>. <span class="ref-pagina">(p. 109)</span>
+        </div>
+
+        <h4 style="color:#2d3748;">2º Cenário: aparelho LIGADO e investigado NÃO fornece a senha</h4>
+        <ol type="a">
+            <li>Caso o dono esteja utilizando o aparelho, tentar <strong>apreendê-lo antes que seja possível o bloqueio</strong>; tentar retirar a opção de bloqueio por senha, se possível;</li>
+            <li>Verificar se <strong>outras pessoas na residência conhecem a senha</strong> do aparelho ou de outros dispositivos (como tablets);</li>
+            <li>Retirar o(s) <strong>cartão(ões) SIM</strong> e afixá-lo(s) com etiqueta no aparelho, evitando contato da cola com os contatos do SIM;</li>
+            <li>Colocar em <strong>modo avião</strong> e confirmar desabilitação das conexões (wi-fi, bluetooth etc.);</li>
+            <li><strong>Não desligue</strong> o aparelho;</li>
+            <li>Caso o alvo tenha <strong>grande valor operacional</strong>, manter ligado com <strong>bateria externa (Power Bank)</strong>;</li>
+            <li>Acondicionar o material em uma <strong>faraday bag</strong> ou embrulhar em <strong>folha de papel alumínio</strong>. <span class="ref-pagina">(p. 109)</span></li>
+        </ol>
+
+        <div class="box-orange">
+            <strong>ATENÇÃO - extração AFU (After First Unlock):</strong> Dispositivos já <strong>desbloqueados pelo usuário ao menos uma vez após o reinício</strong> podem ter seus dados acessados por <strong>AFU</strong>: as chaves de criptografia podem estar na memória após o primeiro desbloqueio, permitindo o acesso aos arquivos. A equipe deve avaliar se é viável <strong>manter o aparelho ligado</strong>, <strong>sem retirar os cartões SIM</strong>, acondicionando em <strong>faraday bag</strong> e <strong>entregando à unidade de apoio de extração o mais brevemente possível</strong> - antes que a bateria se esgote ou que algum mecanismo de proteção realize o bloqueio automático, o que pode ocorrer em <strong>poucas horas após o aparelho ficar sem sinal</strong>. <span class="ref-pagina">(p. 109)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Bateria externa dentro da faraday bag:</strong> Versões mais recentes do <strong>iOS e Android</strong> têm mecanismos que <strong>reiniciam o aparelho ou bloqueiam a tela</strong> após algumas horas do último desbloqueio ou de ficarem offline, podendo <strong>perder o estado AFU</strong>. Quanto antes o aparelho for submetido à ferramenta de extração, maior a chance de sucesso no desbloqueio. Se usada bateria externa, ela deve ser acondicionada <strong>junto com o celular dentro do dispositivo de proteção eletromagnética</strong>, pois, caso contrário, o <strong>cabo de carregamento poderá funcionar como antena</strong>. <span class="ref-pagina">(p. 109-110)</span>
+        </div>
+
+        <h4 style="color:#2d3748;">3º Cenário: aparelho DESLIGADO e investigado FORNECE a senha</h4>
+        <ol type="a">
+            <li>Retirar o <strong>cartão SIM</strong> e afixá-lo com etiqueta no aparelho, evitando contato da cola com os contatos do SIM;</li>
+            <li><strong>Ligar</strong> o aparelho;</li>
+            <li><strong>Testar</strong> a senha;</li>
+            <li>Seguir os passos dos <strong>cenários anteriores para aparelhos ligados</strong>, escolhendo o cenário adequado conforme a senha esteja <strong>correta ou incorreta</strong>. <span class="ref-pagina">(p. 110)</span></li>
+        </ol>
+
+        <div class="box-red">
+            <strong>Cuidado ao ligar:</strong> Alguns aparelhos podem estar configurados para <strong>não desligar ou entrar em modo avião sem a digitação da senha</strong>. Essa possibilidade deve ser ponderada antes de ligar o aparelho para testar a senha, pois implicará a necessidade de <strong>faraday bag e powerbank</strong>. Além disso, enquanto ligado, o celular fica <strong>suscetível ao recebimento de comandos remotos de wipe</strong>. <span class="ref-pagina">(p. 110)</span>
+        </div>
+
+        <h4 style="color:#2d3748;">4º Cenário: aparelho DESLIGADO e investigado NÃO fornece a senha</h4>
+        <ol type="a">
+            <li>Retirar o(s) <strong>cartão(ões) SIM</strong> e afixá-lo(s) com etiqueta no aparelho, evitando contato da cola com os contatos do SIM;</li>
+            <li>Verificar se <strong>outras pessoas na residência conhecem a senha</strong> do aparelho ou de outros dispositivos móveis (como tablets), <strong>anotando possíveis senhas candidatas</strong> para teste em <strong>ambiente pericial controlado</strong>. <span class="ref-pagina">(p. 110)</span></li>
+        </ol>
+
+        <h4 style="color:#2d3748;">5º Cenário: aparelho LIGADO e SEM senha aparente</h4>
+        <ol type="a">
+            <li>Verificar se o aparelho <strong>possui senha ativada nas configurações</strong>, pois pode estar em ambiente com <strong>smartlock ativado</strong>, mantendo-se desbloqueado enquanto está naquele local físico ou conectado a um dispositivo presente apenas no local da Busca e Apreensão; <span class="ref-pagina">(p. 110-111)</span></li>
+            <li>Caso haja senha nas configurações (mesmo desbloqueado) e o investigado não a forneça, o policial deve:
+                <ol type="1">
+                    <li>Tentar <strong>manter o aparelho ligado, tocando a tela de tempos em tempos</strong>, evitando o bloqueio automático;</li>
+                    <li>Conectar o aparelho a uma <strong>fonte de energia externa (Power Bank)</strong>, evitando o descarregamento;</li>
+                    <li>Retirar a opção de <strong>autobloqueio</strong>, se possível, e de <strong>desligamento da tela</strong>;</li>
+                    <li>Colocar em <strong>modo avião</strong> e confirmar desabilitação das conexões (wi-fi, bluetooth etc.);</li>
+                    <li>Levar o aparelho <strong>imediatamente à unidade de apoio de extração</strong> de dados. <span class="ref-pagina">(p. 111)</span></li>
+                </ol>
+            </li>
+        </ol>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Resumo dos 5 cenários (celular)</span>
+            <table>
+                <tr><th>Cenário</th><th>Estado</th><th>Senha</th><th>Conduta central</th></tr>
+                <tr><td>1º</td><td>Ligado</td><td>Fornece</td><td>Testar, modo avião, retirar SIM, desligar, registrar senha</td></tr>
+                <tr><td>2º</td><td>Ligado</td><td>Não fornece</td><td>NÃO desligar; modo avião; SIM; faraday bag/alumínio; powerbank se alto valor (AFU)</td></tr>
+                <tr><td>3º</td><td>Desligado</td><td>Fornece</td><td>Retirar SIM, ligar, testar e seguir cenários de ligado</td></tr>
+                <tr><td>4º</td><td>Desligado</td><td>Não fornece</td><td>Retirar SIM; anotar senhas candidatas para ambiente pericial</td></tr>
+                <tr><td>5º</td><td>Ligado</td><td>Sem senha aparente</td><td>Checar smartlock; manter ligado, powerbank, sem autobloqueio, modo avião, levar à extração</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="sec3-3" class="section">
+        <h2>7.3.3 Cópia de dados</h2>
+
+        <div class="box-blue">
+            <strong>Quando copiar:</strong> Nos casos estabelecidos no planejamento, bem como quando houver <strong>inviabilidade legal ou técnica</strong> à arrecadação de equipamentos e mídias, poderão ser efetuadas <strong>cópias dos dados existentes no local</strong>. A extração de dados pode ainda ser realizada para <strong>reduzir o volume de material apreendido</strong>. <span class="ref-pagina">(p. 111)</span>
+        </div>
+
+        <p>Esse tipo de apreensão é indicado principalmente quando os dados estão armazenados em <strong>computadores de grande porte</strong> ou em <strong>repositório na rede da empresa</strong>. Pode-se, por exemplo, copiar a <strong>caixa postal de e-mails de um usuário específico</strong>, evitando a apreensão de todo o servidor de mensagens da empresa. <span class="ref-pagina">(p. 111)</span></p>
+
+        <div class="box-orange">
+            <strong>Requisitos para extração no local:</strong> A extração de dados no local só deve ser realizada quando houver: <span class="ref-pagina">(p. 111)</span>
+            <ol type="a">
+                <li><strong>segurança operacional</strong>;</li>
+                <li>disponibilidade de <strong>mídias de tipo e capacidade adequados</strong> para armazenar os dados;</li>
+                <li>disponibilidade de <strong>equipamentos e softwares adequados</strong>; e</li>
+                <li>disponibilidade de <strong>recursos humanos</strong> para realizar as cópias em <strong>tempo hábil</strong> - dependendo do volume, o processo pode levar <strong>horas ou dias</strong>.</li>
+            </ol>
+        </div>
+
+        <div class="box-red">
+            <strong>Perda de contexto:</strong> A extração de um conjunto específico de dados de uma mídia implica a <strong>perda de informações sobre o seu contexto</strong>, o que pode dificultar o esclarecimento de questionamentos sobre circunstâncias relacionadas a eles. <span class="ref-pagina">(p. 111)</span>
+        </div>
+
+        <p>Por exemplo, um documento em um disco rígido com Windows possui <strong>diversos registros associados</strong> que permitem identificar como ele foi criado e quem era o usuário naquele momento; se tiver sido <strong>copiado para o HD</strong>, os registros podem indicar de onde foi recebido. Caso seja feita a <strong>extração do documento em vez da apreensão integral do suporte</strong>, tudo isso é perdido, devendo ser ponderado o <strong>impacto na robustez probatória</strong> do documento obtido. <span class="ref-pagina">(p. 111-112)</span></p>
+
+        <div class="box-orange">
+            <strong>Mídia de destino limpa:</strong> A mídia que irá receber os dados deve estar <strong>limpa, sem resquícios de dados anteriores</strong>, de preferência <strong>original de fábrica ("virgem")</strong>. <span class="ref-pagina">(p. 112)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Não misturar origens:</strong> Os dados coletados de cada computador ou mídia devem estar <strong>bem identificados quanto à origem</strong>. É importante <strong>não misturar dados de computadores, usuários ou salas distintas</strong>; caso contrário, torna-se difícil determinar com segurança a proveniência. <span class="ref-pagina">(p. 112)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Hash de integridade:</strong> Os dados a serem apreendidos devem ser submetidos a <strong>funções unidirecionais de resumo (hash)</strong>, visando a futuras verificações de integridade. Idealmente, o <strong>hash dos dados apreendidos deve constar no auto circunstanciado</strong> da ação. (O conceito de funções de hash e seu funcionamento constam da matéria de criminalística.) <span class="ref-pagina">(p. 112)</span>
+        </div>
+    </div>
+
+    <div id="sec3-4" class="section">
+        <h2>7.3.4 Identificação e registro</h2>
+
+        <div class="box-blue">
+            <strong>Finalidade:</strong> A identificação adequada dos materiais no local de busca será utilizada ao longo de todo o processo para o <strong>controle e rastreamento</strong> do material apreendido. Por isso, é importante <strong>registrar no auto o local exato</strong> em que cada item foi encontrado. <span class="ref-pagina">(p. 112)</span>
+        </div>
+
+        <p>A descrição dos materiais deve ser <strong>detalhada de forma a identificar univocamente</strong> o item apreendido. Para isso, além das características externas (<strong>marca, modelo e cor</strong>), são utilizados os <strong>números de série</strong> dos equipamentos e mídias. <span class="ref-pagina">(p. 112)</span></p>
+
+        <div class="box-orange">
+            <strong>Documentos em papel:</strong> No caso de documentos, deve-se descrever sua <strong>aparência geral</strong> e quaisquer <strong>títulos ou dados</strong> que permitam distingui-los. Preconiza-se que documentos encontrados em <strong>móveis, caixas, pastas ou cômodos distintos permaneçam separados em diferentes embalagens</strong> - <strong>não se devem misturar documentos de ambientes distintos</strong>, que podem estar associados a pessoas diferentes. Todo cuidado deve ser tomado para <strong>não danificar, adulterar ou desfigurar</strong> documentos. <span class="ref-pagina">(p. 112)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Etiquetagem e anotações:</strong> Etiquetas identificadoras devem, <strong>preferencialmente, ser afixadas sobre o equipamento em si, não sobre as embalagens</strong>. Anotações adicionais, como <strong>senhas de sistemas e códigos de acesso de celulares</strong>, devem constar no <strong>auto circunstanciado, no termo de apreensão e na etiqueta</strong> do material. <span class="ref-pagina">(p. 112)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>7.4 Embalagens e transportes</h2>
+
+        <div class="box-blue">
+            <strong>Cuidados na transferência:</strong> A transferência de material arrecadado para a base exige cuidados relativos à <strong>embalagem e ao transporte</strong>. Uma embalagem adequada ajudará a <strong>preservar os materiais</strong> para exploração, futura análise ou eventual perícia. A equipe deve utilizar o <strong>material de apoio disponibilizado pela coordenação</strong> da operação. <span class="ref-pagina">(p. 112-113)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Materiais frágeis:</strong> Tanto os documentos em papel quanto as mídias de armazenamento são considerados <strong>materiais frágeis</strong>, em termos <strong>mecânicos, eletrônicos e magnéticos</strong>. Devem ser manuseados com cuidado para evitar danos que causem a perda de dados. <span class="ref-pagina">(p. 113)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Boas práticas de embalagem:</strong> <span class="ref-pagina">(p. 113)</span>
+            <ul>
+                <li>Sempre que possível, <strong>separar os materiais em embalagens diferentes</strong>, com preferência por <strong>plásticos transparentes</strong>;</li>
+                <li><strong>Discos rígidos</strong> devem ser acondicionados em <strong>embalagens próprias</strong>; na falta delas, fazer <strong>proteção improvisada</strong> (papelão ou plástico-bolha);</li>
+                <li><strong>Cabos de dados, carregadores e acessórios</strong> devem ser embalados <strong>junto com o equipamento correspondente</strong>;</li>
+                <li>Os <strong>discos rígidos removidos de um mesmo gabinete</strong> devem ser embalados e <strong>lacrados em um único volume</strong>;</li>
+                <li><strong>Mídias removíveis</strong> podem ser <strong>agrupadas por tipo</strong>, desde que <strong>não se misturem mídias de ambientes distintos</strong> ou relacionadas a diferentes pessoas.</li>
+            </ul>
+        </div>
+
+        <div class="box-red">
+            <strong>Registro obrigatório:</strong> O importante é que <strong>tudo fique registrado no auto circunstanciado</strong> relativo à ação. <span class="ref-pagina">(p. 113)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>7.5 Exploração de documentos</h2>
+
+        <div class="box-blue">
+            <strong>Objetivo:</strong> Com base nas informações passadas no planejamento, a exploração dos documentos visa <strong>identificar e extrair informações de interesse</strong> ainda durante o desencadeamento da ação - por exemplo, informações de <strong>contato ou localização</strong> de pessoa, que apontem para <strong>novos locais</strong> a serem explorados, ou que indiquem <strong>atualidade no relacionamento ou nos contatos</strong> entre integrantes de suposta associação criminosa. <span class="ref-pagina">(p. 113)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Documento suporte e briefing:</strong> É essencial que as <strong>informações mais relevantes</strong> da investigação constem no <strong>documento suporte</strong> e sejam exploradas no <strong>briefing</strong>, para que as equipes realizem a triagem e a exploração do material apreendido com a <strong>maior acuracidade possível</strong>. <span class="ref-pagina">(p. 113)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Digitalização e OCR:</strong> Os documentos podem ser <strong>digitalizados com scanner</strong> e armazenados em meio digital. Deve-se assegurar <strong>qualidade suficiente</strong> e que permita o <strong>reconhecimento óptico de caracteres (OCR)</strong> para extrair o texto da imagem. Esse texto pode ser <strong>indexado e pesquisado</strong> por ferramentas de análise. <span class="ref-pagina">(p. 113)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>OCR não é perfeito:</strong> Cabe lembrar que o processo de OCR <strong>não é perfeito</strong>, podendo ser necessário realizar <strong>correções manuais</strong> no texto identificado. Os documentos digitalizados devem ser <strong>armazenados separadamente dos dados coletados no local</strong>, para que não se confunda a sua origem. <span class="ref-pagina">(p. 113-114)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Originais para perícia:</strong> Caso haja necessidade de esclarecimento pericial, como <strong>análise de assinaturas e adulterações</strong>, é importante que os <strong>documentos originais sejam apreendidos</strong>. <span class="ref-pagina">(p. 114)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>7.6 Exploração de mídias computacionais</h2>
+
+        <div class="box-blue">
+            <strong>Fatores que definem a abordagem:</strong> Em uma mesma operação, os materiais podem ser explorados de <strong>maneiras distintas</strong>, dependendo de: <span class="ref-pagina">(p. 114)</span>
+            <ul>
+                <li>importância/relevância da atuação da <strong>pessoa física ou jurídica</strong> nos fatos;</li>
+                <li>nível de <strong>conhecimento e sofisticação computacional</strong>;</li>
+                <li>quão <strong>amplas ou específicas</strong> são as informações buscadas;</li>
+                <li><strong>risco e condições técnicas</strong> do local;</li>
+                <li>disponibilidade de <strong>tempo, recursos humanos e recursos computacionais</strong>.</li>
+            </ul>
+        </div>
+
+        <h3>Os quatro métodos de exploração de dados</h3>
+
+        <div class="box-purple">
+            <strong>Há, basicamente, quatro métodos de exploração de dados:</strong> <span class="ref-pagina">(p. 114)</span>
+            <ol type="a">
+                <li>exploração e obtenção de dados <strong>no próprio local de busca</strong>;</li>
+                <li>arrecadação de materiais no local para <strong>triagem e exploração na base policial</strong>;</li>
+                <li>apreensão dos materiais e disponibilização em um <strong>Sistema de Análise Remota de Dados (SARD)</strong> ou similar; e</li>
+                <li>apreensão dos materiais e <strong>envio para exames periciais</strong>.</li>
+            </ol>
+            Os <strong>dois primeiros</strong> são os métodos <strong>mais rápidos, porém menos profundos</strong>.
+        </div>
+
+        <div class="box-green">
+            <strong>SARD:</strong> Permite <strong>combinar o conhecimento dos analistas sobre o contexto</strong> da investigação com o <strong>conhecimento técnico da Perícia de Informática</strong> sobre o tratamento de artefatos digitais, potencializando os achados. Possibilita recursos adicionais como serviços de <strong>Inteligência Artificial</strong> para análise de imagens (ex.: Abuso Sexual Infantojuvenil) e <strong>transcrição dos áudios do WhatsApp</strong>, e verificação em <strong>bases de dados de arquivos conhecidos (KFF)</strong> para detecção de <strong>malware e material de Abuso Sexual Infantojuvenil</strong>. Exige, porém, <strong>infraestrutura de TI adequada</strong> para armazenamento, processamento e disponibilização remota de grandes volumes. <span class="ref-pagina">(p. 114)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Envio para a Perícia - mais demorado, mais profundo:</strong> É o método <strong>mais demorado</strong>, dada a centralização das demandas em um número menor de policiais especializados, porém o que apresenta os <strong>resultados mais profundos</strong>. Por meio de técnicas e ferramentas especializadas, busca: <span class="ref-pagina">(p. 114-115)</span>
+            <ul>
+                <li><strong>acesso a dados criptografados</strong>, identificando aqueles que não estejam à vista plena (<strong>esteganografia</strong>);</li>
+                <li><strong>esclarecer questionamentos sobre autoria</strong> e outras ações cometidas por meio de <strong>acessos remotos não autorizados</strong>;</li>
+                <li><strong>recuperar arquivos (ou mensagens) apagados ou corrompidos</strong>;</li>
+                <li><strong>determinar comportamentos específicos de usuários</strong> (compartilhamento de arquivos, visualização de imagens, acesso a sites etc.).</li>
+            </ul>
+        </div>
+
+        <div class="box-orange">
+            <strong>Combinação de métodos:</strong> Cada opção apresenta <strong>vantagens e riscos</strong> associados, sendo possível adotar <strong>mais de uma</strong> em uma mesma operação que envolva mais de uma ação de exploração em local de interesse. A <strong>equipe de investigação originária</strong> deve estar plenamente ciente dessas vantagens e riscos ao definir quais opções utilizar. <span class="ref-pagina">(p. 115)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Palavras-chave prévias:</strong> É importante que a equipe de investigação estabeleça, <strong>previamente, palavras-chave</strong> a serem buscadas durante a exploração de mídias computacionais, visando <strong>otimizar as triagens</strong>. <span class="ref-pagina">(p. 115)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Métodos de exploração - rapidez x profundidade</span>
+            <ul>
+                <li><strong>No local</strong> e <strong>na base</strong> - mais rápidos, menos profundos</li>
+                <li><strong>SARD</strong> - une contexto do analista + perícia; IA, transcrição de áudios, KFF</li>
+                <li><strong>Perícia</strong> - mais demorado, mais profundo (criptografia, esteganografia, recuperação de apagados, comportamento do usuário)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 1 - Doutrina de Planejamento Operacional</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO III</span>
+        <h1>Capítulo 1 - Doutrina de Planejamento Operacional</h1>
+        <div class="subtitle">Conceitos aplicáveis, histórico, importância, etapas e métodos organizacionais do planejamento operacional</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Conceitos aplicáveis</a></li>
+            <li><a href="#sec2">2. Histórico da temática</a></li>
+            <li><a href="#sec3">3. Importância do planejamento operacional</a></li>
+            <li><a href="#sec4">4. Etapas do planejamento operacional</a></li>
+            <li><a href="#sec5">5. Métodos organizacionais</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Conceitos aplicáveis</h2>
+
+        <p>Para que o estudo da apostila de Investigação Policial III seja plenamente aproveitado, é essencial compreender alguns conceitos básicos. Eles funcionam como um <strong>alicerce</strong>, oferecendo a linguagem técnica comum e a lógica necessária para entender o planejamento e a execução das ações policiais. Com essa base inicial, será possível acompanhar, de forma completa e integrada, o conteúdo que será apresentado a seguir. <span class="ref-pagina">(p. 11)</span></p>
+
+        <div class="box-blue">
+            <strong>Ação policial:</strong> é a ação praticada no desempenho das atividades de polícia administrativa ou judiciária. <span class="ref-pagina">(p. 11)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Deflagração de operação policial:</strong> deflagração é o <strong>desencadeamento da fase ostensiva</strong> de uma investigação classificada como operação policial, abrangendo o cumprimento de <strong>mandados de busca e apreensão</strong> ou <strong>mandados de prisão</strong>, sem prejuízo de outras medidas cabíveis. <span class="ref-pagina">(p. 11)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Operação de Polícia Judiciária:</strong> é a operação policial que demanda a aplicação integrada de <strong>conhecimentos, técnicas e recursos especializados</strong>. Em outras palavras, consiste no conjunto de procedimentos coordenados pela polícia judiciária, que atende ao cumprimento de mandados judiciais ou possui <strong>complexidade extraordinária</strong> em sua execução. <span class="ref-pagina">(p. 11)</span>
+        </div>
+
+        <p>Segundo o normativo que regulamenta o <strong>Índice de Produtividade Operacional (IPO)</strong>, configura-se operação de polícia judiciária em duas hipóteses: <span class="ref-pagina">(p. 11)</span></p>
+
+        <ul>
+            <li><strong>Decorrente do cumprimento de mandados judiciais:</strong> quando, durante a investigação, ocorrer o cumprimento de mandado obtido por decisão judicial do qual resulte <strong>restrição ostensiva de direito do investigado</strong>.</li>
+            <li><strong>Decorrente da complexidade extraordinária de execução:</strong> quando, <strong>independentemente do cumprimento de mandados judiciais</strong>, ocorrer uma das ações específicas listadas abaixo.</li>
+        </ul>
+
+        <div class="box-orange">
+            <strong>Ações específicas que configuram operação por complexidade extraordinária</strong> (independentemente de mandado): <span class="ref-pagina">(p. 11)</span>
+            <ul>
+                <li>erradicação de plantio de cultivo ilícito;</li>
+                <li>reintegração de posse;</li>
+                <li>desintrusão de invasores ou destruição de maquinário empregado em atividade de exploração, em caso de crime ambiental;</li>
+                <li>repressão ao trabalho análogo ao de escravo em conjunto com outro órgão; ou</li>
+                <li>qualquer ação que resulte no resgate de vítima.</li>
+            </ul>
+        </div>
+
+        <div class="box-blue">
+            <strong>Situação:</strong> é o <strong>estado atual</strong> e o conjunto de <strong>circunstâncias</strong> que podem interferir no desenvolvimento da ação ou operação policial. Engloba aspectos geográficos, políticos, econômicos, sociais, criminais, culturais, bem como os recursos humanos, materiais e financeiros disponíveis. <span class="ref-pagina">(p. 11-12)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Objetivo:</strong> é o <strong>resultado que se pretende alcançar</strong> com a realização da ação ou operação policial. Deve ser <strong>preciso, coerente e factível</strong>. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Área de atuação:</strong> é o <strong>espaço geográfico</strong> onde é realizada a ação ou operação policial. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Linha de ação:</strong> é a <strong>estratégia traçada</strong> para alcançar o fim que se pretende com a ação ou operação policial. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Tática policial:</strong> é a <strong>forma como a linha de ação deve ser executada</strong>, com o detalhamento do emprego dos recursos disponíveis na área de atuação. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Missão policial:</strong> é a diligência ou o conjunto de diligências atribuídas a um determinado policial ou a uma equipe de policiais. Deve ser <strong>clara e precisa</strong>, permitindo sua exata compreensão. É determinada pela <strong>Ordem de Mobilização (OM)</strong>, sendo os resultados informados à autoridade determinante no <strong>Relatório de Missão Policial (RMP)</strong> e, conforme o caso, na informação policial ou na informação de polícia judiciária. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Plano operacional:</strong> é o <strong>documento que formaliza o planejamento operacional</strong>. Deve conter todos os elementos necessários ao planejamento de uma operação policial, como situação, objetivo, área de atuação, linha de ação, tática policial, prazos, além dos recursos humanos, materiais e financeiros a serem empregados. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Os 10 conceitos aplicáveis</span>
+            <ul>
+                <li><strong>a)</strong> Ação policial</li>
+                <li><strong>b)</strong> Deflagração de operação policial</li>
+                <li><strong>c)</strong> Operação de Polícia Judiciária</li>
+                <li><strong>d)</strong> Situação</li>
+                <li><strong>e)</strong> Objetivo</li>
+                <li><strong>f)</strong> Área de atuação</li>
+                <li><strong>g)</strong> Linha de ação</li>
+                <li><strong>h)</strong> Tática policial</li>
+                <li><strong>i)</strong> Missão policial (OM &rarr; RMP)</li>
+                <li><strong>j)</strong> Plano operacional</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Histórico da temática</h2>
+
+        <div class="box-purple">
+            <strong>Visão de conjunto:</strong> Na história da Polícia Federal podem ser identificadas <strong>fases distintas</strong> relacionadas ao emprego de técnicas de investigação policial, denotando a predominância de determinados métodos, de acordo com as diretrizes administrativas da instituição em cada momento. <span class="ref-pagina">(p. 12)</span>
+        </div>
+
+        <h3>2.1. A partir de 1964 - polícia política e combate ao contrabando</h3>
+
+        <p>Tomando-se como marco inicial os idos de <strong>1964</strong>, verifica-se que naquela década a Polícia Federal atuou como <strong>polícia política</strong> ou como <strong>braço policial das Forças Armadas</strong>, em função do regime de exceção que se instalou no Brasil. Predominava a atuação com ênfase nas ações de polícia de ordem política e social. <span class="ref-pagina">(p. 12)</span></p>
+
+        <p>Como consequência de uma política protecionista do Estado, a atuação passou a ser centrada no <strong>combate ao contrabando e ao descaminho</strong>, notadamente de bebidas, soja, café e cigarros. Naquela conjuntura, os policiais federais receberam treinamento mais intenso das técnicas de <strong>vigilância e interrogatório</strong>, além do conhecimento voltado para o <strong>recrutamento de informantes</strong>. Isso fez com que as investigações focassem principalmente na apreensão do produto do crime, com a lavratura da prisão em flagrante delito, metodologia que por vezes <strong>não alcançava o núcleo principal do grupo criminoso</strong>. <span class="ref-pagina">(p. 12-13)</span></p>
+
+        <h3>2.2. Década de 1980 - repressão ao tráfico de drogas</h3>
+
+        <p>A década de <strong>1980</strong> caracterizou-se pela <strong>mudança da vertente investigativa</strong>: o foco passou a ser a repressão ao tráfico ilícito de drogas, notadamente ao <strong>tráfico internacional</strong>, diante do aumento considerável dessa atividade, ocasionado pelo surgimento de organizações criminosas estruturadas — fenômeno observado especialmente na Colômbia, com os <strong>cartéis de Cali e Medellín</strong>, bem como no Peru e na Bolívia. <span class="ref-pagina">(p. 13)</span></p>
+
+        <p>Os <strong>Estados Unidos da América</strong> incentivavam o combate ao tráfico de drogas e, por meio de acordos de cooperação internacionais, difundiram técnicas modernas de investigação, dando origem às primeiras equipes efetivamente operacionais das então <strong>Delegacias de Repressão a Entorpecentes (DRE)</strong>. <span class="ref-pagina">(p. 13)</span></p>
+
+        <p>No Brasil, os investimentos em infraestrutura de comunicações e transportes — sobretudo o incremento da malha rodoviária e a construção de novos portos e aeroportos — favoreceram o surgimento de rotas de exportação de drogas ilícitas, levando o País a ser visto internacionalmente como <strong>corredor de tráfico</strong> de drogas produzidas nos países andinos. <span class="ref-pagina">(p. 13)</span></p>
+
+        <h3>2.3. Década de 1990 - inteligência, análise financeira e legislações</h3>
+
+        <p>O conjunto desses fatores fez com que as equipes de repressão a drogas saíssem na <strong>vanguarda das modernas técnicas de investigação</strong>, principalmente a partir de <strong>1996</strong>, com a edição da primeira legislação regulamentadora das interceptações das comunicações. Surgiram os primeiros "escritórios" de inteligência, constatando-se uma gradativa diminuição do emprego de informantes e das atividades de vigilância. <span class="ref-pagina">(p. 13)</span></p>
+
+        <p>Ainda em meados da década de 1990, a Polícia Federal avançava em outra seara investigativa, voltada à <strong>análise de documentos e de dados financeiros</strong>. Nesse contexto deu-se origem à <strong>Divisão de Combate ao Crime Organizado e Inquéritos Especiais (DCOIE)</strong>, na qual preponderava a análise de documentos e de movimentações bancárias, o que levou ao descortinamento de vultosas fraudes fiscais e financeiras, notadamente com a descoberta dos canais de <strong>evasão de divisas</strong>. <span class="ref-pagina">(p. 13)</span></p>
+
+        <div class="box-purple">
+            <strong>Fundamento normativo - legislações que deram contorno ao trabalho investigativo:</strong> <span class="ref-pagina">(p. 13)</span>
+            <ul>
+                <li><strong>Lei nº 9.296/1996</strong> — afastamento de sigilos telefônico, telemático e ambiental;</li>
+                <li><strong>Lei nº 9.034/1995</strong> (já revogada) — combate ao crime organizado;</li>
+                <li><strong>Lei nº 9.613/1998</strong> — lavagem de ativos.</li>
+            </ul>
+            Tais normativos trouxeram novos tipos penais e, principalmente, <strong>regulamentaram as técnicas especiais de investigação</strong>, contribuindo para os primeiros passos no enfrentamento de organizações criminosas complexas.
+        </div>
+
+        <h3>2.4. A partir de 2000 - o binômio planejamento operacional + inteligência</h3>
+
+        <p>A partir do ano <strong>2000</strong>, com a nova dinâmica da informação e do conhecimento — caracterizada pela movimentação constante e rápida das comunicações e pelo fluxo de capitais pelo mundo —, a polícia se viu obrigada a mudar mais uma vez o foco investigativo. As organizações criminosas se entranharam no aparato estatal; o crime organizado e a lavagem de ativos romperam fronteiras, que passaram a ser enxergadas como <strong>linhas virtuais</strong>. A prioridade passou a ser o aperfeiçoamento da <strong>inteligência policial</strong> para fazer frente a essa nova criminalidade. <span class="ref-pagina">(p. 14)</span></p>
+
+        <p>A Polícia Federal enfrentava ainda as consequências do período em que foram restringidos os concursos públicos, o que interrompeu a oxigenação dos quadros. Foi preciso adequar o ensino policial e dotar a <strong>Academia Nacional de Polícia</strong> dos meios necessários à formação de novos policiais, com nova estrutura curricular. Essas medidas possibilitaram a <strong>renovação de dois terços do efetivo em apenas cinco anos</strong>. <span class="ref-pagina">(p. 14)</span></p>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> O <strong>binômio planejamento operacional e inteligência policial</strong> passou a ser o escopo principal da capacitação dos policiais, com investimento permanente no aperfeiçoamento das técnicas operacionais e investigativas e na aquisição de equipamentos inovadores. A PF passou a desenvolver investigações mais abrangentes, com foco na <strong>identificação e desestruturação de toda a rede criminosa</strong>, e aprimorou a coleta e análise de provas mediante a utilização simultânea de todos os recursos investigativos disponíveis. <span class="ref-pagina">(p. 14)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Resultados expressivos:</strong> Do princípio de <strong>2003 até dezembro de 2008</strong>, foram executadas <strong>713 operações policiais</strong>, que resultaram na prisão de <strong>mais de 10.000 pessoas</strong> — mais de duas operações policiais por semana, acompanhadas diuturnamente pela sociedade. <span class="ref-pagina">(p. 14)</span>
+        </div>
+
+        <p>A evidência institucional trouxe reconhecimento junto à população. Na pesquisa <em>"A imagem das instituições públicas brasileiras"</em>, da <strong>Associação dos Magistrados Brasileiros (AMB)</strong>, publicada em <strong>setembro de 2007</strong>, a Polícia Federal foi considerada a instituição com <strong>maior grau de confiança</strong> da população brasileira, alcançando <strong>75,5% de confiabilidade</strong>, à frente das Forças Armadas (74,7%), dos Juizados de Pequenas Causas (71,8%) e de outras instituições como imprensa, órgãos do Poder Judiciário, casas legislativas e partidos políticos. <span class="ref-pagina">(p. 14-15)</span></p>
+
+        <p>Na mesma pesquisa, à pergunta "Qual instituição deve ser a mais relevante no combate à corrupção?", <strong>25,1%</strong> dos entrevistados apontaram a Polícia Federal, enquanto <strong>22,8%</strong> indicaram o Ministério Público e <strong>12,9%</strong> mencionaram a sociedade civil. <span class="ref-pagina">(p. 15)</span></p>
+
+        <p>Nos idos de <strong>2008</strong>, a Polícia Federal já tinha desempenho comparado ao das melhores polícias do mundo, estendendo investigações a outros continentes, dentro do conceito de mundo globalizado e da compreensão de que a <strong>cooperação policial</strong> é imprescindível para o enfrentamento incondicional ao crime organizado transnacional. <span class="ref-pagina">(p. 15)</span></p>
+
+        <h3>2.5. A reação jurisprudencial e o foco na qualidade da prova</h3>
+
+        <p>Em decorrência da contundência do trabalho e de sua ampla exposição pelos meios de comunicação, houve <strong>reação de alguns segmentos da sociedade</strong>, notadamente de parte da comunidade jurídica. Reflexo disso foi o surgimento de nova orientação jurisprudencial, tendente a <strong>limitar a concessão de medidas investigativas e coercitivas</strong> postuladas pela PF. <span class="ref-pagina">(p. 15)</span></p>
+
+        <p>Com as mudanças de entendimentos e decisões nos Tribunais Superiores acerca de elementos de provas colhidas na esfera policial, <strong>inclusive com anulações de grandes operações</strong>, as equipes foram compelidas a buscar outros modelos e estratégias, passando a <strong>restringir, desde o início, a abrangência de alvos</strong> e a delimitação das hipóteses de ocorrência dos crimes investigados. <span class="ref-pagina">(p. 15)</span></p>
+
+        <div class="box-orange">
+            <strong>Atenção - virada metodológica:</strong> Diante desse cenário, a instituição aprimorou, com maior rigor, as técnicas e metodologias aplicadas ao planejamento policial, conferindo <strong>especial destaque à qualidade da prova e à adequação jurídica dos instrumentos empregados</strong>. <span class="ref-pagina">(p. 15)</span>
+        </div>
+
+        <p>Como consequência positiva, as operações passaram a buscar, desde o início, <strong>indícios de materialidade e autoria mais robustos</strong>. As medidas cautelares de <strong>busca e apreensão</strong> tornaram-se mais relevantes e, por vezes, passaram a ser requeridas já na <strong>fase inicial das investigações</strong> — em contraste com a estratégia anterior, que aguardava a compreensão quase integral do caso (muitas vezes por meio de interceptação telefônica) para somente então executar medidas ostensivas. <span class="ref-pagina">(p. 15-16)</span></p>
+
+        <p>Essa <strong>antecipação das buscas e apreensões</strong>, com aprofundamento da exploração dos locais de interesse, fortaleceu as operações, especialmente quanto à configuração de materialidade delitiva, pois permite localizar elementos de interesse diretamente no ambiente do investigado: valores em espécie e outros ativos recebidos de forma ilícita, anotações em escritórios, registros de contabilidade do tráfico, divisões de propinas, mensagens com orientações para a prática de ilícitos e versões de documentos fraudados, entre outros. Superada a análise desses materiais, em tempo hábil e da forma apropriada, mostrou-se possível e eficiente <strong>conectar uma fase investigativa a outra</strong>, em modelo sequencial que ficou consagrado na <strong>Operação Lava Jato</strong>. <span class="ref-pagina">(p. 16)</span></p>
+
+        <h3>2.6. A Lei nº 12.850/2013 e a "investigação qualificada"</h3>
+
+        <div class="box-purple">
+            <strong>Fundamento normativo:</strong> Dificilmente haveria a proliferação de operações com a mesma abordagem sem a edição da <strong>Lei nº 12.850/2013</strong>, que trouxe novas possibilidades investigativas para toda a polícia judiciária, ampliando o conjunto de meios de produção de prova. Mesmo técnicas já conhecidas, como a <strong>colaboração premiada</strong>, tiveram melhor detalhamento de seus procedimentos. <span class="ref-pagina">(p. 16)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Impacto numérico das operações de polícia judiciária da PF</strong> (Relatório de Gestão do Exercício de 2017): <span class="ref-pagina">(p. 16)</span>
+            <ul>
+                <li><strong>2013:</strong> 301 operações</li>
+                <li><strong>2014:</strong> 390 operações (um ano após a edição da Lei)</li>
+                <li><strong>2015:</strong> 516 operações</li>
+                <li><strong>2016:</strong> 550 operações</li>
+                <li><strong>2017:</strong> 538 operações</li>
+            </ul>
+            Esses patamares mantiveram-se até <strong>2019</strong>.
+        </div>
+
+        <p>A partir da Lei nº 12.850/2013, diante de estruturas criminosas cada vez mais complexas e da necessidade de relatórios cada vez mais robustos e consistentes, os investigadores passaram a realizar o <strong>máximo de diligências e técnicas de forma simultânea</strong>, combinando os novos meios de produção de provas com diligências de execução direta pela equipe policial. <span class="ref-pagina">(p. 16)</span></p>
+
+        <div class="box-blue">
+            <strong>Investigação qualificada:</strong> resultado do esforço com uso de <strong>múltiplas camadas investigativas</strong>, na qual as conclusões sobre a ocorrência de um fato ou sobre os elementos de um delito podem ser <strong>confirmadas por várias vias investigativas</strong>, conferindo maior segurança ao resultado final, fortalecendo o conjunto probatório e ampliando as possibilidades de esclarecimento quanto à autoria delitiva. <span class="ref-pagina">(p. 16-17)</span>
+        </div>
+
+        <h3>2.7. Descapitalização das organizações criminosas e recuperação de ativos</h3>
+
+        <p>Paralelamente à qualificação da investigação, houve a incorporação da estratégia de <strong>descapitalização das organizações criminosas</strong> por intermédio da investigação criminal, especialmente a partir de <strong>2004</strong>, com a especialização das Varas Criminais de lavagem de dinheiro na Justiça Federal e das Delegacias, Núcleos e Grupos especializados em lavagem de dinheiro na Polícia Federal. <span class="ref-pagina">(p. 17)</span></p>
+
+        <p>O crescimento da <strong>investigação patrimonial</strong> como estratégia de repressão foi potencializado a partir de <strong>2023</strong>, com a criação da rede <strong>RECUPERA</strong> pelo MJSP (Portaria MJSP nº 533/2023), composta por representantes de todas as secretarias do Ministério da Justiça e Segurança Pública e por policiais civis e federais de todos os Estados. A partir de encontros técnicos e capacitações conjuntas, foi desenvolvida metodologia específica que abrange desde a fase inicial de investigação — com identificação do produto e proveito da prática ilícita — até a fase operacional ostensiva de <strong>apreensão, administração, alienação e destinação</strong> desses bens ilícitos. <span class="ref-pagina">(p. 17)</span></p>
+
+        <div class="box-purple">
+            <strong>Marcos normativos da recuperação de ativos:</strong> <span class="ref-pagina">(p. 17)</span>
+            <ul>
+                <li><strong>Portaria MJSP nº 533/2023</strong> — criação da rede RECUPERA;</li>
+                <li><strong>Portaria DICOR/PF nº 66, de 22 de fevereiro de 2024</strong> — normas para criação dos Grupos de Trabalho para a Recuperação de Ativos e Repressão à Lavagem de Dinheiro (<strong>GRALs</strong>) no âmbito da PF;</li>
+                <li><strong>Portaria MJSP nº 870/2025</strong> — institucionalização, em 2025, de uma <strong>Política Nacional de Recuperação de Ativos</strong>, colocando o Brasil na vanguarda do tema.</li>
+            </ul>
+        </div>
+
+        <p>Esse movimento impactou inclusive a <strong>Instrução Normativa nº 255/2023-DG/PF</strong>, que regulamenta a atividade de polícia judiciária no âmbito da PF. Com a alteração promovida pela <strong>IN DG/PF nº 308, de 14 de abril de 2025</strong>, passou-se a prever como objetivo do inquérito policial — e, portanto, da investigação policial — a <strong>promoção da recuperação de ativos</strong> nos crimes com repercussão econômica. <span class="ref-pagina">(p. 17)</span></p>
+
+        <h3>2.8. Revisão de métodos investigativos e novos limites legais</h3>
+
+        <p>Outro movimento relevante decorreu da <strong>modificação de entendimentos consagrados sobre competência jurisdicional</strong>, que resultou na anulação de inúmeras operações policiais de grande visibilidade social. A validade de determinados métodos passou a ser revista, como a <strong>condução coercitiva</strong> — amplamente utilizada durante a deflagração de operações —, e a abrangência de alguns meios de prova foi reduzida, a exemplo da <strong>colaboração premiada</strong>, que passou a ser definitivamente desconsiderada quando não acompanhada de outros elementos robustos de corroboração probatória. <span class="ref-pagina">(p. 17)</span></p>
+
+        <div class="box-red">
+            <strong>Ponto crítico - alterações legislativas restritivas:</strong> <span class="ref-pagina">(p. 18)</span>
+            <ul>
+                <li><strong>Lei nº 13.869/2019</strong> — introduziu novos enquadramentos para o crime de <strong>abuso de autoridade</strong>, ampliando sua incidência sobre as condutas de quem atua na persecução penal;</li>
+                <li><strong>Lei nº 14.365/2022</strong> — alterou dispositivos do Estatuto da Advocacia e da OAB, criando <strong>novos requisitos de buscas em escritórios de advocacia</strong>, além de uma série de embaraços à arrecadação e à análise dos materiais apreendidos.</li>
+            </ul>
+            Tais circunstâncias passaram a exigir <strong>maior planejamento e zelo redobrado</strong> dos policiais, gerando novos desafios para a atividade de polícia judiciária.
+        </div>
+
+        <p>Restou evidenciado que determinados posicionamentos adotados durante a investigação e a deflagração de operações podem <strong>extrapolar a anulação de um inquérito específico</strong>, sendo capazes de alterar entendimentos jurisprudenciais consolidados e influenciar a edição de legislações que asfixiam a capacidade investigativa — reveses que reverberam em todo o sistema de persecução penal brasileiro e que imprimem o tom e a responsabilidade que devem sempre orientar o investigador e a instituição. <span class="ref-pagina">(p. 18)</span></p>
+
+        <p>Dessa forma, torna-se premente <strong>revisar e atualizar o modelo de gestão das operações de polícia judiciária</strong>, em conjunto com a adoção de novos mecanismos institucionais que coíbam desvios e excessos. Busca-se conferir maior destaque à <strong>ética e à responsabilidade social</strong> da atuação policial, tema prioritário entre os programas estratégicos do <strong>Projeto de Transformação Organizacional - Nova PF 80</strong>. <span class="ref-pagina">(p. 18)</span></p>
+
+        <div class="box-green">
+            <strong>Trinômio da revisão da doutrina de planejamento operacional</strong> — deverá ser perseguido por todos os servidores: <span class="ref-pagina">(p. 18)</span>
+            <ol>
+                <li>qualidade, autonomia e responsabilidade;</li>
+                <li>supervisão e controle (de qualidade);</li>
+                <li>foco no resultado (desempenho), e não no esforço.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Importância do planejamento operacional</h2>
+
+        <p>Nas atividades desempenhadas pelo ser humano, é possível identificar <strong>procedimentos sistematizados de forma sequencial</strong> que buscam facilitar a execução de atos com vistas ao alcance de determinado objetivo. Muitas vezes, tais procedimentos são realizados de forma mecânica e inconsciente, como consequência de hábitos adquiridos. Certo é que eles podem ser aperfeiçoados para se obter resultados mais objetivos e eficientes — e isso é possível por meio do <strong>planejamento</strong>. <span class="ref-pagina">(p. 18)</span></p>
+
+        <div class="box-green">
+            <strong>Boa prática:</strong> Na área de segurança pública não é diferente. As instituições policiais que investem no planejamento operacional de suas unidades <strong>evitam o improviso</strong> e apresentam resultados diferenciados e mais eficazes. Para tanto, é imperioso o uso de ferramentas que auxiliem no exame da realidade, na elaboração de diagnósticos, na avaliação de alternativas e na construção de um referencial futuro, estruturando o caminho adequado para se alcançar o objetivo almejado. <span class="ref-pagina">(p. 18-19)</span>
+        </div>
+
+        <h3>3.1. Planejamento estratégico x planejamento operacional</h3>
+
+        <p>No âmbito da Polícia Federal, esse processo é desenvolvido mediante metodologias de planejamento, ora voltadas para ações estratégicas, ora para ações operacionais. <span class="ref-pagina">(p. 19)</span></p>
+
+        <table>
+            <tr>
+                <th>Planejamento estratégico</th>
+                <th>Planejamento operacional</th>
+            </tr>
+            <tr>
+                <td>Elaborado nos <strong>mais elevados níveis hierárquicos</strong> da instituição, com objetivos de <strong>longo prazo</strong>, visando ao aumento da eficiência institucional, conforme as diretrizes estabelecidas.</td>
+                <td>Constitui, em última análise, <strong>uma das principais ferramentas para atingir os objetivos do planejamento estratégico</strong>. Não se confunde com este.</td>
+            </tr>
+        </table>
+
+        <div class="box-blue">
+            <strong>Conceito-chave - planejamento operacional:</strong> é uma <strong>atividade ordenada e sistematizada</strong> que visa estabelecer a estratégia necessária à consecução dos fins pretendidos em uma ação ou operação policial, a partir da <strong>análise da situação fática</strong> e da <strong>previsão de respostas adequadas aos seus possíveis desdobramentos</strong>, otimizando os recursos disponíveis. <span class="ref-pagina">(p. 19)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> Na Polícia Federal, <strong>tanto as ações como as operações policiais demandam planejamento prévio</strong>. O planejamento de <strong>ações rotineiras</strong> pode ser feito de forma simplificada e até mentalmente. Já as <strong>operações policiais</strong>, em razão de sua dimensão e complexidade, <strong>sempre demandam a formalização</strong> do planejamento operacional. <span class="ref-pagina">(p. 19)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Etapas do planejamento operacional</h2>
+
+        <p>O planejamento operacional pode ser dividido em <strong>seis etapas</strong>. <span class="ref-pagina">(p. 19)</span></p>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">As 6 etapas do planejamento operacional</span>
+            <ol>
+                <li><strong>Exame de situação</strong></li>
+                <li><strong>Definição da linha de ação</strong></li>
+                <li><strong>Elaboração do plano operacional</strong></li>
+                <li><strong>Aprovação e autorização do plano operacional</strong></li>
+                <li><strong>Deflagração da operação policial</strong></li>
+                <li><strong>Avaliação do planejamento operacional</strong></li>
+            </ol>
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção - sequência não é rígida:</strong> Embora apresentadas de forma didática e sequencial, na prática nem sempre é possível segui-las de maneira rígida ou totalmente linear. As circunstâncias da investigação e as necessidades operacionais impõem <strong>ajustes, sobreposições ou até a execução simultânea</strong> de fases distintas. Ainda assim, a divisão em etapas é fundamental para fins de estudo e compreensão. <span class="ref-pagina">(p. 19-20)</span>
+        </div>
+
+        <h3>a) Exame de situação</h3>
+        <p>Consiste na <strong>coleta, análise e síntese dos dados</strong> que compõem a situação (estado atual e conjunto de circunstâncias que podem interferir no desenvolvimento da ação ou operação policial). É o <strong>levantamento preliminar dos fatos</strong>, no qual a aplicação de métodos organizacionais como o <strong>5W2H</strong> (o quê, quem, onde, quando, por quê, como e quanto) pode apresentar grande utilidade. Etapa inicial do planejamento, nela são identificadas e analisadas as circunstâncias <strong>geográficas, políticas, econômicas, sociais, criminais e culturais</strong> da área de atuação, bem como os demais elementos que possam interferir no planejamento e na execução. <span class="ref-pagina">(p. 20)</span></p>
+
+        <h3>b) Definição da linha de ação</h3>
+        <p>Consiste na <strong>escolha da estratégia mais adequada</strong> para alcançar o objetivo da investigação. A linha de ação deverá ser definida com base em <strong>critérios de conveniência e oportunidade</strong>, bem como na análise dos recursos disponíveis, devendo sempre ser <strong>compatível com o objeto da investigação</strong>. <span class="ref-pagina">(p. 20)</span></p>
+
+        <h3>c) Elaboração do plano operacional</h3>
+        <p>É a <strong>formalização, em documento próprio</strong>, do planejamento operacional. O plano deve ser claro, preciso e conter todos os elementos que envolvam a operação, oportunidade na qual deverão ser <strong>destacados os prazos</strong> e <strong>definidos os recursos humanos, materiais e financeiros</strong> necessários. <span class="ref-pagina">(p. 20)</span></p>
+
+        <div class="box-orange">
+            <strong>Requisito:</strong> A elaboração do plano operacional é <strong>indispensável</strong> no planejamento das operações de polícia judiciária. <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <h3>d) Aprovação e autorização do plano operacional</h3>
+        <p>Trata-se da <strong>submissão do plano às autoridades policiais competentes</strong>, que avaliarão a oportunidade, a conveniência, o conteúdo e a possibilidade de disponibilização dos meios necessários para viabilizar a operação. <span class="ref-pagina">(p. 20)</span></p>
+
+        <div class="box-blue">
+            <strong>Regra de competência:</strong> Em regra, a <strong>aprovação cabe à chefia imediata</strong> e a <strong>autorização, ao gestor regional</strong>. <span class="ref-pagina">(p. 20)</span>
+        </div>
+
+        <h3>e) Deflagração da operação policial</h3>
+        <p>Após a aprovação da chefia imediata e a autorização do gestor regional, o plano operacional será <strong>colocado em prática</strong>. Nessa etapa, são executadas as medidas previamente planejadas, com a execução das ações policiais. <span class="ref-pagina">(p. 20)</span></p>
+
+        <h3>f) Avaliação do planejamento operacional</h3>
+        <p>Destina-se à <strong>aferição de todas as circunstâncias</strong> ocorridas no processo de planejamento e execução da operação. Pode ser realizada por meio de <strong>reunião com o efetivo empregado</strong>, bem como por <strong>formulários e sistemas próprios de gestão</strong>. <span class="ref-pagina">(p. 20-21)</span></p>
+
+        <div class="box-green">
+            <strong>Objetivo da avaliação:</strong> angariar subsídios para o <strong>aperfeiçoamento de operações futuras</strong>, evitando a repetição de erros ou falhas. <span class="ref-pagina">(p. 21)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Métodos organizacionais</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> Os métodos organizacionais desempenham papel essencial no planejamento e na execução das operações policiais, pois oferecem instrumentos capazes de conferir <strong>ordem, clareza e objetividade</strong> ao trabalho do investigador. Por meio deles, é possível estruturar ideias, organizar informações e estabelecer prioridades, aumentando a eficiência na busca do objetivo final. <span class="ref-pagina">(p. 21)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Atenção:</strong> <strong>Não existe um método único ou de aplicação obrigatória</strong>. Trata-se de <strong>ferramentas de apoio</strong>, sugestões que podem ser utilizadas de acordo com a conveniência da investigação e a experiência do responsável pelo planejamento. Destacam-se alguns modelos amplamente empregados em processos de gestão organizacional e adaptados ao contexto da atividade policial. <span class="ref-pagina">(p. 21)</span>
+        </div>
+
+        <h3>a) Método 5W2H (Heptâmetro de Quintiliano)</h3>
+        <p>Traduz-se em sete questionamentos. A utilização do método facilita a elaboração do planejamento de ações e operações policiais, pois viabiliza <strong>descrever atividades e programas que devem ser claramente definidos</strong> para atingir o resultado pretendido. <span class="ref-pagina">(p. 21)</span></p>
+
+        <table>
+            <tr>
+                <th>Sigla</th>
+                <th>Questionamento</th>
+            </tr>
+            <tr><td><strong>What</strong></td><td>O quê</td></tr>
+            <tr><td><strong>Who</strong></td><td>Quem</td></tr>
+            <tr><td><strong>Where</strong></td><td>Onde</td></tr>
+            <tr><td><strong>When</strong></td><td>Quando</td></tr>
+            <tr><td><strong>Why</strong></td><td>Por quê</td></tr>
+            <tr><td><strong>How</strong></td><td>Como</td></tr>
+            <tr><td><strong>How much</strong></td><td>Quanto</td></tr>
+        </table>
+
+        <h3>b) Método PDCA (ciclo de desenvolvimento)</h3>
+        <p>A ferramenta de gestão conhecida como <strong>ciclo PDCA</strong>, ou ciclo de desenvolvimento, é outra metodologia que, a exemplo do 5W2H, pode ser aplicada ao planejamento de operações policiais. Objetiva tornar mais claros e eficientes os processos envolvidos na execução da gestão e se divide em <strong>quatro núcleos</strong>: planejar (<em>plan</em>), executar (<em>do</em>), verificar (<em>check</em>) e agir corretivamente (<em>action</em>). É possível identificar esses núcleos no desenvolvimento do planejamento operacional. <span class="ref-pagina">(p. 21-22)</span></p>
+
+        <table>
+            <tr>
+                <th>Núcleo PDCA</th>
+                <th>Correlação no planejamento operacional</th>
+            </tr>
+            <tr>
+                <td><strong>P (plan) - planejar</strong></td>
+                <td>Exame de situação e consequente definição da linha de ação.</td>
+            </tr>
+            <tr>
+                <td><strong>D (do) - executar</strong></td>
+                <td>Desencadeamento da operação.</td>
+            </tr>
+            <tr>
+                <td><strong>C (check) - verificar</strong></td>
+                <td>Avaliação do planejamento operacional.</td>
+            </tr>
+            <tr>
+                <td><strong>A (action) - agir corretivamente</strong></td>
+                <td>Ações corretivas e solução de circunstâncias não previstas no curso da operação policial.</td>
+            </tr>
+        </table>
+
+        <h3>c) Método F3EAD adaptado</h3>
+        <p>Método de investigação policial que a PF começou a usar com mais intensidade a partir de <strong>2016</strong>, revelando-se mais uma opção à disposição do presidente da investigação quanto à forma de condução dos trabalhos, inclusive na deflagração de operações policiais. Sua origem remonta à atuação das <strong>forças armadas norte-americanas</strong>. <span class="ref-pagina">(p. 22)</span></p>
+
+        <div class="box-purple">
+            <strong>Composição do método - "fusão" de duas lógicas:</strong> consiste na fusão do <strong>método de localização e neutralização</strong> com o <strong>caminho da atividade de inteligência</strong>, gerando o conceito de <strong>aceleração do ritmo operacional</strong>: <span class="ref-pagina">(p. 22)</span>
+            <ul>
+                <li><strong>F3 (os "3Fs"):</strong> <em>find, fix, finish</em> — localização do alvo, delimitação de sua área de atuação e finalização;</li>
+                <li><strong>EAD:</strong> <em>exploit, analyze, disseminate</em> — obtenção, reunião, análise dos dados e difusão.</li>
+            </ul>
+        </div>
+
+        <p>O <strong>F3EAD adaptado</strong> tem sua origem na adequação do método F3EAD à realidade da investigação policial e ao <strong>Estado Democrático de Direito</strong>. Uma forma de visualizar sua aplicação na deflagração de uma operação é quando se concede <strong>maior autonomia e consciência da investigação à equipe de cumprimento de mandados</strong>. <span class="ref-pagina">(p. 22)</span></p>
+
+        <p>Com base nas informações passadas no <strong>briefing</strong>, os policiais envolvidos em buscas e prisões podem analisar documentos, aparelhos telefônicos e mídias <strong>durante a deflagração</strong>, identificando e extraindo informações de interesse ainda durante o desencadeamento da ação. Disso resulta a elaboração de <strong>Informação de Polícia Judiciária</strong> e de <strong>Relatório de Diligências</strong> capazes de subsidiar novas ações — até mesmo no dia da deflagração — em observância ao <strong>princípio da oportunidade</strong>. <span class="ref-pagina">(p. 22-23)</span></p>
+
+        <div class="box-green">
+            <strong>Síntese do F3EAD adaptado:</strong> o reflexo dessa metodologia no planejamento de operações tem por foco <strong>esclarecer o fato criminoso prestigiando a ação</strong> (ou <em>finish</em>), por meio da realização rápida das etapas da investigação no menor tempo possível, <strong>comprimindo a espiral investigativa</strong>. <span class="ref-pagina">(p. 23)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

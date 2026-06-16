@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadeia de Custódia - IPO III</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.5em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 10px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; font-weight: bold; }
+        .mnemonic-title { color: #b7791f; font-size: 1.2em; margin-bottom: 10px; display: block; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">IPO III</span>
+        <h1>Capítulo 2 - Cadeia de Custódia</h1>
+        <div class="subtitle">Definição, princípios, início na PF, registros e movimentações, cadeia de custódia dos vestígios e encerramento</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#sec1">1. Visão geral e importância da cadeia de custódia</a></li>
+            <li><a href="#sec2">2. Definição, princípios e objeto</a></li>
+            <li><a href="#sec3">3. Início da cadeia de custódia na Polícia Federal</a></li>
+            <li><a href="#sec4">4. Dos locais de processamento e armazenamento</a></li>
+            <li><a href="#sec5">5. Dos registros e movimentações</a></li>
+            <li><a href="#sec6">6. Da cadeia de custódia dos vestígios</a></li>
+            <li><a href="#sec7">7. Da cadeia de custódia dos demais elementos de interesse</a></li>
+            <li><a href="#sec8">8. Do encerramento da cadeia de custódia na PF</a></li>
+            <li><a href="#sec9">9. Das disposições finais</a></li>
+        </ul>
+    </div>
+
+    <div id="sec1" class="section">
+        <h2>1. Visão geral e importância da cadeia de custódia</h2>
+
+        <div class="box-blue">
+            <strong>Conceito-chave:</strong> A preservação da cadeia de custódia é a <strong>forma de garantia de que os vestígios coletados em uma ocorrência terão sua integridade preservada</strong>, subsidiando sua validade jurídica e possibilitando sua utilização de forma legítima em juízo. É de <strong>importância absoluta</strong> para o trabalho policial. <span class="ref-pagina">(p. 25)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Ponto crítico:</strong> Qualquer falha na observância da cadeia de custódia pode resultar na <strong>anulação da prova material obtida</strong>, podendo comprometer meses de investigação e permitindo que todo um esforço operacional seja perdido. <span class="ref-pagina">(p. 25)</span>
+        </div>
+
+        <p>Diante de tamanha relevância prática para a persecução penal e dos riscos decorrentes de sua inobservância, a Polícia Federal consolidou instrumentos normativos específicos que reforçam e detalham os procedimentos aplicáveis à matéria. <span class="ref-pagina">(p. 25)</span></p>
+
+        <div class="box-purple">
+            <strong>Fundamento normativo (instrumentos específicos da PF):</strong>
+            <ul>
+                <li><strong>IN nº 297/2024-DG/PF</strong>, de 25 de novembro de 2024 — estabelece procedimentos gerais relativos à cadeia de custódia no âmbito da Polícia Federal.</li>
+                <li><strong>IN nº 299/2025-DG/PF</strong>, de 24 de fevereiro de 2025 — dispõe sobre diretrizes específicas sobre a cadeia de custódia de <strong>dados digitais</strong> no âmbito da Polícia Federal.</li>
+            </ul>
+            <span class="ref-pagina">(p. 25)</span>
+        </div>
+
+        <p>Neste capítulo são abordadas definições, princípios, características, diferenciações, normativos, casuísticas e cuidados relacionados a esta temática — pontos fundamentais de conhecimento a todos os policiais federais, dada a importância da observância da cadeia de custódia para a persecução penal e, mais especificamente, para a investigação policial. <span class="ref-pagina">(p. 25)</span></p>
+    </div>
+
+    <div id="sec2" class="section">
+        <h2>2. Definição, princípios e objeto</h2>
+
+        <div class="box-blue">
+            <strong>Definição (âmbito da Polícia Federal):</strong> A cadeia de custódia é considerada como o <strong>conjunto de ações realizadas para manter e documentar a história cronológica dos vestígios e demais elementos de interesse do inquérito policial</strong>. Essa definição assegura que os itens coletados tenham sua integridade preservada e possam ser utilizados como prova válida em juízo. <span class="ref-pagina">(p. 25)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Definição legal (CPP) — após a Lei nº 13.964/2019:</strong>
+            <p><strong>Art. 158-A.</strong> (...) o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para <strong>rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte</strong>.</p>
+            <span class="ref-pagina">(p. 25)</span>
+        </div>
+
+        <p>O histórico da cadeia de custódia é obtido pela análise do conjunto da documentação dos vestígios e demais elementos de interesse, incluindo os <strong>registros realizados nos sistemas oficiais da Polícia Federal</strong>, obrigatórios a partir da entrada em vigor da IN nº 297/2024-DG/PF, objetivando a formalização e a rastreabilidade dos procedimentos, tanto para fins legais quanto para controle interno. <span class="ref-pagina">(p. 25-26)</span></p>
+
+        <h3>Elementos de interesse</h3>
+        <div class="box-blue">
+            <strong>Elementos de interesse</strong> são os <strong>bens, vestígios, dados e informações</strong> que tenham sido arrecadados, apreendidos, coletados, derivados ou amostrados, apresentados ou obtidos <strong>por iniciativa do delegado de polícia federal</strong> no curso do inquérito policial, tais como materiais, objetos, substâncias, sinais, marcas, documentos e dados digitais. <span class="ref-pagina">(p. 26)</span>
+        </div>
+        <p>O conceito abrange uma variedade de itens que podem ser utilizados como prova, desde objetos físicos até dados digitais. A <strong>iniciativa do delegado</strong> é central na arrecadação desses elementos, o que reforça sua responsabilidade na condução do inquérito. <span class="ref-pagina">(p. 26)</span></p>
+
+        <h3>Vestígio</h3>
+        <div class="box-blue">
+            <strong>Vestígio</strong> (conforme o <strong>art. 158-A, §3º, do CPP</strong>): abrange <strong>todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que guarde relação com a infração penal</strong>. <span class="ref-pagina">(p. 26)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Quem coleta e como (art. 23 da IN nº 297/2024):</strong> A coleta de vestígios, seja no local de crime ou no corpo da vítima, deve ser realizada <strong>preferencialmente por perito criminal federal</strong> ou, tratando-se de vestígios papiloscópicos, por <strong>papiloscopista policial federal</strong>. Os materiais coletados devem ser acondicionados em recipiente adequado, devidamente <strong>lacrado</strong> e, preferencialmente, de forma <strong>individualizada</strong>, com o preenchimento do respectivo <strong>termo de coleta de vestígio</strong>, nos termos do <strong>art. 23 da IN nº 297/2024</strong> da Polícia Federal. <span class="ref-pagina">(p. 26)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Flexibilização para dados digitais:</strong> No caso de dados e informações armazenados em <strong>celulares, tablets e similares ou em servidores remotos</strong>, entre outros, a extração poderá ser realizada por <strong>qualquer servidor policial, a critério do delegado de polícia federal</strong>, flexibilizando a atuação operacional, especialmente em situações que exigem agilidade, sem comprometer a legalidade do procedimento. <span class="ref-pagina">(p. 26)</span>
+        </div>
+
+        <p>A cadeia de custódia dos elementos de interesse em formato digital, tratados na perícia como <strong>vestígios digitais</strong>, foi disciplinada em normativo próprio (<strong>IN nº 299/2025-DG/PF</strong>), respeitados os princípios, objetivos e diretrizes previstos na <strong>IN nº 297/2024-DG/PF</strong>. Ao reconhecer a especificidade dos dados digitais e prever regulamentação própria, a PF reforça o alinhamento com os princípios gerais da norma e demonstra a crescente relevância da prova digital para a persecução penal. <span class="ref-pagina">(p. 26)</span></p>
+
+        <h3>Princípios e objetivo</h3>
+        <div class="box-purple">
+            <strong>Princípios que orientam a cadeia de custódia na PF:</strong>
+            <ul>
+                <li><strong>Documentação</strong> — assegura a rastreabilidade dos atos.</li>
+                <li><strong>Mesmidade</strong> — garante que o elemento analisado seja o mesmo que foi arrecadado, evitando contaminações ou substituições indevidas.</li>
+                <li>Além daqueles <strong>aplicáveis à atividade de polícia judiciária</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 26)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Objetivo (âmbito da PF):</strong> Assegurar a <strong>rastreabilidade, a identidade, o histórico de posse e a integridade</strong> dos vestígios e demais elementos de interesse. Esses pilares são essenciais para que os vestígios possam ser utilizados como prova legítima e confiável no processo penal. <span class="ref-pagina">(p. 26-27)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">Âncoras: princípios e objetivos</span>
+            <ul>
+                <li><strong>Princípios:</strong> Documentação + Mesmidade (+ os de polícia judiciária)</li>
+                <li><strong>Objetivos (4 pilares):</strong> Rastreabilidade · Identidade · Histórico de posse · Integridade</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sec3" class="section">
+        <h2>3. Início da cadeia de custódia na Polícia Federal</h2>
+
+        <div class="box-blue">
+            <strong>Momento inicial (âmbito da PF):</strong> Define-se como aquele em que o <strong>elemento de interesse tem seu primeiro contato com a atividade policial</strong>, marcando o início formal dos procedimentos destinados à sua preservação, rastreabilidade e integridade probatória. Isso é crucial para garantir a rastreabilidade desde o primeiro ato, evitando questionamentos sobre a origem ou manipulação indevida da prova. <span class="ref-pagina">(p. 27)</span>
+        </div>
+
+        <p>De acordo com a <strong>IN 297/2024-DG/PF</strong> (art. 5º), a cadeia de custódia do elemento de interesse, no âmbito da PF, tem início: <span class="ref-pagina">(p. 27)</span></p>
+
+        <div class="box-purple">
+            <strong>Incisos do art. 5º (início da cadeia de custódia — IN 297/2024-DG/PF):</strong>
+            <ul>
+                <li><strong>I</strong> - com a sua <strong>coleta, arrecadação ou apreensão</strong> em razão de situação flagrancial ou execução de busca pessoal ou domiciliar;</li>
+                <li><strong>II</strong> - com a sua <strong>recepção por policial federal, quando apresentado por terceiros</strong>;</li>
+                <li><strong>III</strong> - com a sua <strong>preservação, arrecadação ou coleta em local de crime</strong>;</li>
+                <li><strong>IV</strong> - com a sua <strong>posse por policial federal, nos demais casos</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 27)</span>
+        </div>
+
+        <p><strong>Sobre o inciso I:</strong> reforça a importância de documentar imediatamente os vestígios obtidos em ações operacionais. A <strong>arrecadação</strong> se dá durante a realização de alguma ação operacional e é formalizada no local de interesse, seguida pela <strong>apreensão</strong> propriamente dita, realizada em sistema oficial de polícia judiciária. Tal procedimento pode ocorrer em situações de flagrante delito ou durante deflagração de operação policial (cumprimento de busca pessoal ou domiciliar). <span class="ref-pagina">(p. 27)</span></p>
+
+        <p><strong>Sobre o inciso II:</strong> quando o elemento é apresentado por terceiros, a cadeia se inicia no momento da recepção pelo policial federal, e a IN exige o controle e o registro formal desta apresentação. Refere-se a casos em que cidadãos, vítimas ou outros órgãos entregam materiais diretamente a policiais federais. <span class="ref-pagina">(p. 27)</span></p>
+
+        <p><strong>Sobre o inciso III:</strong> a coleta em local de crime marca o início da cadeia de custódia de vestígios, destacando a atuação técnica e cuidadosa da equipe policial no local. <span class="ref-pagina">(p. 27)</span></p>
+
+        <p><strong>Sobre o inciso IV:</strong> funciona como <strong>cláusula de abrangência</strong>, cobrindo situações não previstas nos incisos anteriores, como recebimento informal ou achados fortuitos durante diligências. <span class="ref-pagina">(p. 27-28)</span></p>
+
+        <div class="box-purple">
+            <strong>Fundamento legal (CPP — Art. 158-A, incluído pela Lei nº 13.964/2019):</strong>
+            <p><strong>Caput.</strong> Considera-se cadeia de custódia o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte.</p>
+            <p><strong>§ 1º</strong> O início da cadeia de custódia dá-se com a <strong>preservação do local de crime</strong> ou com <strong>procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio</strong>.</p>
+            <p><strong>§ 2º</strong> O agente público que reconhecer um elemento como de potencial interesse para a produção da prova pericial <strong>fica responsável por sua preservação</strong>.</p>
+            <p><strong>§ 3º</strong> Vestígio é todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal.</p>
+            <span class="ref-pagina">(p. 28)</span>
+        </div>
+    </div>
+
+    <div id="sec4" class="section">
+        <h2>4. Dos locais de processamento e armazenamento</h2>
+
+        <div class="box-blue">
+            <strong>Classificação (IN 297/2024-DG/PF):</strong> Os locais onde são custodiados os elementos de interesse são classificados como de <strong>processamento</strong> ou de <strong>armazenamento</strong>. Essa classificação organiza o fluxo dos elementos, garantindo que cada etapa — da análise até a guarda — seja realizada em ambiente apropriado e com controle documental adequado. <span class="ref-pagina">(p. 28)</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Tipo de local</th>
+                <th>Definição</th>
+            </tr>
+            <tr>
+                <td><strong>Processamento</strong></td>
+                <td>Aqueles nos quais os elementos de interesse são <strong>analisados, examinados ou permanecem transitoriamente</strong> para encaminhamento a outro local. Inclui laboratórios, salas de perícia ou ambientes operacionais e de análise da própria Unidade. A transitoriedade exige atenção especial à documentação e à rastreabilidade.</td>
+            </tr>
+            <tr>
+                <td><strong>Armazenamento</strong></td>
+                <td>Aqueles destinados a <strong>guardar</strong> os elementos de interesse, até o encaminhamento a outro local na PF ou encerramento da cadeia de custódia. Exigem controle físico e documental, com segurança, integridade e preservação dos vestígios.</td>
+            </tr>
+        </table>
+        <p class="ref-pagina">(p. 28)</p>
+
+        <div class="box-purple">
+            <strong>O que são considerados locais de armazenamento:</strong> os <strong>depósitos das unidades</strong> (com os espaços a estes vinculados), a <strong>central de custódia de vestígios</strong> e as <strong>custódias locais de vestígios</strong> a esta vinculadas. Essa padronização facilita a gestão e o controle interno e permite a rastreabilidade institucional dos elementos custodiados. <span class="ref-pagina">(p. 29)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Elementos de grandes dimensões ou perigosos:</strong> no caso de elemento de interesse de grandes dimensões, perigoso, ou que por outra razão não possa ser armazenado nos locais previstos inicialmente, será providenciada <strong>estrutura ou espaço apropriado</strong>, devidamente <strong>cadastrado no sistema oficial de polícia judiciária com sua localização exata</strong>, garantindo controle e segurança mesmo fora dos ambientes convencionais. <span class="ref-pagina">(p. 29)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Acesso controlado:</strong> O acesso ao local de armazenamento depende de <strong>autorização da chefia da unidade a que se vincula ou responsável por ela designado</strong>, evitando manipulações indevidas e preservando a integridade dos vestígios e demais elementos de interesse. <span class="ref-pagina">(p. 29)</span>
+        </div>
+
+        <p>Com a finalidade de evitar perdas, deterioração, danos e contaminação, bem como minimizar riscos à segurança e à saúde das pessoas, o armazenamento de vestígios e demais elementos que, por sua natureza, exijam condições especiais deve observar, quando necessário, o <strong>distanciamento ou a separação de ambientes</strong>, bem como <strong>estruturas de armazenamento específicas</strong>. Essa orientação é fundamental para evitar contaminações cruzadas e preservar a validade da prova. <span class="ref-pagina">(p. 29)</span></p>
+
+        <div class="box-green">
+            <strong>Cadastro institucional:</strong> Os locais nos quais são armazenados os elementos de interesse serão cadastrados no sistema oficial de polícia judiciária como <strong>unidades de custódia</strong>, devidamente vinculadas a unidades formais da estrutura da PF, permitindo auditoria, rastreabilidade e responsabilização. No sistema oficial — <strong>ePOL</strong>, em seu <strong>"Módulo de Bens"</strong> — é possível cadastrar tantas Unidades de Custódia quantas forem necessárias. <span class="ref-pagina">(p. 29)</span>
+        </div>
+    </div>
+
+    <div id="sec5" class="section">
+        <h2>5. Dos registros e movimentações</h2>
+
+        <div class="box-blue">
+            <strong>Marco inicial dos registros:</strong> O início dos registros da cadeia de custódia se dá com a elaboração do <strong>termo de coleta de vestígio</strong>, de <strong>auto circunstanciado de arrecadação</strong> ou <strong>termo de apreensão</strong>, garantindo que, desde o primeiro contato com o vestígio, haja documentação oficial, reforçando a rastreabilidade e a legalidade da prova. <span class="ref-pagina">(p. 29-30)</span>
+        </div>
+
+        <p>Nos casos do <strong>art. 5º, caput, incisos II e IV, da IN 297/2024-DG/PF</strong> (inciso II — recepção por policial federal, quando apresentado por terceiros; inciso IV — posse por policial federal, nos demais casos), os registros têm início com a <strong>formalização da recepção do elemento de interesse nos autos do inquérito policial ou outro procedimento de polícia judiciária</strong>. Isso assegura que inclusive os elementos recebidos de terceiros ou em situações não flagranciais cumpram igualmente os requisitos da cadeia de custódia. <span class="ref-pagina">(p. 30)</span></p>
+
+        <div class="box-purple">
+            <strong>Art. 13 da IN 297/2024-DG/PF — campos obrigatórios do registro no sistema oficial:</strong>
+            <ul>
+                <li><strong>I</strong> - as <strong>informações individualizadoras</strong>, tais como natureza ou tipo, quantidade e descrição;</li>
+                <li><strong>II</strong> - os <strong>números dos lacres</strong> utilizados;</li>
+                <li><strong>III</strong> - as <strong>movimentações</strong>, com identificação da unidade, do custodiante, data e hora em que foram realizadas, até o encerramento da cadeia de custódia;</li>
+                <li><strong>IV</strong> - <strong>nomeação de depositário fiel</strong>, com informações sobre data e hora em que foi realizada; e</li>
+                <li><strong>V</strong> - <strong>local de armazenamento</strong>, com detalhes sobre a localização interna.</li>
+            </ul>
+            <span class="ref-pagina">(p. 30)</span>
+        </div>
+
+        <p>A individualização por tipo, quantidade e descrição evita que itens distintos sejam registrados de forma conjunta. O registro dos números dos lacres assegura a integridade física do elemento e permite verificar indícios de violação da embalagem. A documentação das movimentações (unidades, custodiantes, data e hora) permite rastrear todo o percurso até o encerramento da cadeia. Nos casos de <strong>nomeação de depositário fiel</strong>, as informações devem ser bastante precisas, com o máximo de detalhes (data, hora e circunstâncias em que o bem se encontrava). O detalhamento do local de armazenamento garante que o vestígio possa ser localizado com precisão, evitando extravios ou acessos indevidos. <span class="ref-pagina">(p. 30-31)</span></p>
+
+        <div class="box-green">
+            <strong>Registro posterior (flexibilidade):</strong> Em caso de impossibilidade de lançamento imediato, os registros deverão ser realizados <strong>na primeira oportunidade</strong>, com referência à <strong>data em que o evento ocorreu</strong> e demais informações relevantes, preservando o histórico cronológico do vestígio. <span class="ref-pagina">(p. 31)</span>
+        </div>
+
+        <div class="box-blue">
+            <strong>Custodiante:</strong> é o <strong>responsável pela guarda e integridade do elemento de interesse</strong> até a sua transferência formal a outro custodiante ou a um local de armazenamento ou processamento, reforçando a responsabilização individual. <span class="ref-pagina">(p. 31)</span>
+        </div>
+
+        <h3>Encaminhamento a local de armazenamento ou processamento</h3>
+        <div class="box-orange">
+            <strong>Requisitos:</strong> os elementos de interesse encaminhados por policial federal a um local de armazenamento ou processamento da PF deverão estar:
+            <ul>
+                <li><strong>I</strong> - <strong>embalados adequadamente em invólucros lacrados</strong> e acondicionados de forma individualizada; e</li>
+                <li><strong>II</strong> - <strong>identificados</strong>, com informações sobre o número do procedimento policial, o número do termo de coleta de vestígio ou de apreensão, e do elemento a que corresponde, sua natureza e quantidade, o número do lacre correspondente e o número do ofício de encaminhamento ou destinação.</li>
+            </ul>
+            <span class="ref-pagina">(p. 31)</span>
+        </div>
+        <p>A exigência de embalagens lacradas e acondicionadas individualmente facilita a identificação e evita contaminações cruzadas. A identificação completa do elemento e sua documentação associada asseguram que não haja dúvidas sobre origem e destino, tratando-se de procedimento completamente auditável. <span class="ref-pagina">(p. 31)</span></p>
+
+        <div class="box-green">
+            <strong>Exceção justificada:</strong> Na impossibilidade de embalar adequadamente em invólucros lacrados e acondicionados de forma individualizada, deverá ser <strong>registrado o motivo do não atendimento</strong>, permitindo exceções no acondicionamento desde que devidamente justificadas e registradas, mantendo a transparência e o controle. <span class="ref-pagina">(p. 31)</span>
+        </div>
+
+        <h3>Embalagens para armazenamento</h3>
+        <div class="box-purple">
+            <strong>As embalagens que acondicionam os elementos encaminhados para armazenamento devem:</strong>
+            <ul>
+                <li><strong>I</strong> - possuir <strong>grau de resistência adequado</strong> e espaço para o registro de informações sobre seu conteúdo;</li>
+                <li><strong>II</strong> - permitir a utilização de <strong>lacre com numeração unívoca</strong>; e</li>
+                <li><strong>III</strong> - ser <strong>transparentes</strong>, sempre que possível e de acordo com as características dos materiais.</li>
+            </ul>
+            <span class="ref-pagina">(p. 31)</span>
+        </div>
+
+        <p>A <strong>Diretoria Técnico-Científica</strong> pode definir recomendação com especificações técnicas de modelos e padrões de recipientes, etiquetas, selos e lacres para uso na cadeia de custódia, de forma a garantir características como resistência, espaço para informações e transparência, visando à segurança e à praticidade na manipulação e conferência dos elementos. <span class="ref-pagina">(p. 32)</span></p>
+
+        <h3>Movimentação e itens que não admitem embalagem</h3>
+        <p>Os elementos de interesse deverão estar acondicionados em embalagens devidamente <strong>lacradas e identificadas de forma inequívoca</strong>, salvo quando sua natureza não permitir, para a movimentação entre locais de processamento e armazenamento. Como exemplo do que a natureza não permite, citam-se objetos de grande volume, como máquinas industriais diversas. Nesses casos, deve-se realizar a <strong>aposição de etiqueta ou cartaz</strong>, com dados identificadores únicos do respectivo item, garantindo a rastreabilidade mesmo fora da embalagem de segurança. <span class="ref-pagina">(p. 32)</span></p>
+
+        <div class="box-orange">
+            <strong>Recebimento no destino:</strong> O recebimento de elementos de interesse no local de destino se dará <strong>após a conferência dos registros</strong>, essencial para validar a integridade do elemento e evitar falhas no controle. Nos casos de elementos de grandes dimensões, perigosos ou que não possam ser armazenados em local previsto, deve-se identificá-los com a aposição de etiqueta ou cartaz com dados identificadores únicos. <span class="ref-pagina">(p. 32)</span>
+        </div>
+
+        <h3>Abertura de embalagem e rompimento de lacre</h3>
+        <div class="box-red">
+            <strong>Ponto crítico — abertura da embalagem lacrada:</strong> A embalagem lacrada <strong>somente será aberta por servidor da Polícia Federal</strong> para conferência do material, triagem, análise ou realização de exames técnico-científicos — evitando-se que os itens sejam abertos para finalidade diversa das prescritas na IN. O <strong>rompimento de lacre constará dos autos do inquérito policial</strong> e será registrado em sistema oficial de polícia judiciária com informações sobre <strong>nome e matrícula de quem realizou, data, local e finalidade</strong>. <span class="ref-pagina">(p. 32)</span>
+        </div>
+
+        <p>Com a implementação do <strong>Módulo de Bens do ePol</strong>, essa tarefa tornou-se mais prática, garantindo transparência e rastreabilidade. O <strong>lacre rompido deverá ser acondicionado no interior da nova embalagem</strong>, preservando a evidência da integridade anterior e permitindo auditoria. Quando o vestígio é encaminhado para a perícia, ele é cadastrado no <strong>Sistema Nacional de Gestão de Atividades de Criminalística - SISCRIM</strong>. <span class="ref-pagina">(p. 32)</span></p>
+
+        <h3>Desmembramento de itens e amostragem</h3>
+        <p>Os elementos de interesse que, devido às suas características, forem <strong>desmembrados em partes</strong> e acondicionados em embalagens distintas, sem prejuízo da sua integridade, deverão ter <strong>cada parte associada a um novo bem ou material</strong> nos sistemas oficiais da PF. No novo item será informado o <strong>número ou código original</strong> para permitir seu rastreamento. As partes serão acondicionadas em embalagens distintas, sempre que possível, lacradas com numeração individualizada e com a devida atualização da descrição física nos respectivos sistemas. <span class="ref-pagina">(p. 32-33)</span></p>
+
+        <div class="box-purple">
+            <strong>Sistemas oficiais:</strong> <strong>ePOL e SISCRIM</strong> permitem o desmembramento de itens em partes, exigindo que cada parte seja registrada como novo item, mantendo vínculo com o original. A vinculação ao código original permite rastrear a origem de cada parte, essencial para manter a cadeia de custódia intacta. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Amostragem:</strong> quando necessária a amostragem do elemento de interesse, o policial federal deve registrar no sistema oficial as <strong>amostras como itens desmembrados do total da apreensão</strong>, controladas pela nova numeração gerada. A amostragem visa assegurar a <strong>representatividade</strong> do vestígio apresentado para exame pericial, considerando as especificidades de sua natureza e forma de apresentação. O acondicionamento das amostras deve ser feito em embalagem com <strong>lacre e numeração individualizada e inequívoca</strong>, capaz de manter os padrões de segurança e rastreabilidade dos itens originais. <span class="ref-pagina">(p. 33)</span>
+        </div>
+    </div>
+
+    <div id="sec6" class="section">
+        <h2>6. Da cadeia de custódia dos vestígios</h2>
+
+        <div class="box-blue">
+            <strong>Etapas (IN nº 297/2024-DG/PF):</strong> A cadeia de custódia dos vestígios pode compreender, <strong>integralmente ou em parte</strong>, as etapas de <strong>reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte</strong>, reconhecendo a flexibilidade na aplicação das etapas, importante para adaptar os procedimentos às circunstâncias específicas de cada caso. <span class="ref-pagina">(p. 33)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Fundamento legal — Art. 158-B do CPP (Incluído pela Lei nº 13.964/2019):</strong> A cadeia de custódia compreende o rastreamento do vestígio nas seguintes etapas:
+            <ul>
+                <li><strong>I - reconhecimento:</strong> ato de distinguir um elemento como de potencial interesse para a produção da prova pericial;</li>
+                <li><strong>II - isolamento:</strong> ato de evitar que se altere o estado das coisas, devendo isolar e preservar o ambiente imediato, mediato e relacionado aos vestígios e local de crime;</li>
+                <li><strong>III - fixação:</strong> descrição detalhada do vestígio conforme se encontra no local de crime ou no corpo de delito, e a sua posição na área de exames, podendo ser ilustrada por fotografias, filmagens ou croqui, sendo indispensável a sua descrição no laudo pericial produzido pelo perito responsável pelo atendimento;</li>
+                <li><strong>IV - coleta:</strong> ato de recolher o vestígio que será submetido à análise pericial, respeitando suas características e natureza;</li>
+                <li><strong>V - acondicionamento:</strong> procedimento por meio do qual cada vestígio coletado é embalado de forma individualizada, de acordo com suas características físicas, químicas e biológicas, para posterior análise, com anotação da data, hora e nome de quem realizou a coleta e o acondicionamento;</li>
+                <li><strong>VI - transporte:</strong> ato de transferir o vestígio de um local para o outro, utilizando as condições adequadas (embalagens, veículos, temperatura, entre outras), de modo a garantir a manutenção de suas características originais, bem como o controle de sua posse;</li>
+                <li><strong>VII - recebimento:</strong> ato formal de transferência da posse do vestígio, que deve ser documentado com, no mínimo, informações referentes ao número de procedimento e unidade de polícia judiciária relacionada, local de origem, nome de quem transportou o vestígio, código de rastreamento, natureza do exame, tipo do vestígio, protocolo, assinatura e identificação de quem o recebeu;</li>
+                <li><strong>VIII - processamento:</strong> exame pericial em si, manipulação do vestígio de acordo com a metodologia adequada às suas características biológicas, físicas e químicas, a fim de se obter o resultado desejado, que deverá ser formalizado em laudo produzido por perito;</li>
+                <li><strong>IX - armazenamento:</strong> procedimento referente à guarda, em condições adequadas, do material a ser processado, guardado para realização de contraperícia, descartado ou transportado, com vinculação ao número do laudo correspondente;</li>
+                <li><strong>X - descarte:</strong> procedimento referente à liberação do vestígio, respeitando a legislação vigente e, quando pertinente, mediante autorização judicial.</li>
+            </ul>
+            <span class="ref-pagina">(p. 33-35)</span>
+        </div>
+
+        <div class="mnemonic">
+            <span class="mnemonic-title">As 10 etapas (art. 158-B do CPP)</span>
+            Reconhecimento → Isolamento → Fixação → Coleta → Acondicionamento → Transporte → Recebimento → Processamento → Armazenamento → Descarte
+        </div>
+
+        <h3>Definições complementares (vestígio e local de crime)</h3>
+        <div class="box-blue">
+            <strong>Vestígio (CPP):</strong> todo objeto, visível ou latente, constatado ou recolhido, que se relacione à infração penal.<br>
+            <strong>Local de crime (IN nº 297/2024-DG/PF):</strong> local que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal. <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <p>A coleta do vestígio será formalizada no respectivo <strong>termo de coleta</strong> que, posteriormente, será encaminhado ao <strong>Delegado de Polícia Federal presidente do inquérito policial</strong>, garantindo rastreabilidade e responsabilidade documental. Todas as etapas serão realizadas de forma a minimizar a possibilidade de degradação, contaminação ou perda dos vestígios. <span class="ref-pagina">(p. 35)</span></p>
+
+        <h3>Preservação do local de crime</h3>
+        <div class="box-orange">
+            <strong>Preservação:</strong> O Delegado de Polícia Federal, ou policial federal por ele designado, deverá adotar as cautelas necessárias para a preservação do local de crime. Entende-se por <strong>preservação</strong> o <strong>isolamento do local de crime e demais ações voltadas à não violação</strong>, salvo interferências relacionadas a <strong>medidas indispensáveis de segurança e socorro</strong>, até a chegada da perícia. <span class="ref-pagina">(p. 35)</span>
+        </div>
+
+        <p>Requisitada a perícia, o <strong>Perito Criminal Federal</strong>, ao chegar ao local do crime, deverá verificar as condições de isolamento, adequando-as quando necessário, e fornecer orientações técnicas para minimizar perdas, degradação, contaminação ou alteração dos vestígios. As orientações técnicas referentes ao isolamento para minimizar perdas, degradação ou alteração dos <strong>vestígios papiloscópicos</strong> serão fornecidas por <strong>Papiloscopista Policial Federal</strong>, promovendo atuação integrada e técnica. <span class="ref-pagina">(p. 35)</span></p>
+
+        <div class="box-green">
+            <strong>Falta ou deficiência de isolamento:</strong> não justifica a não realização de exames periciais necessários. Nesse caso, deverão ser <strong>registradas em documento técnico-científico as alterações do estado das coisas e as consequências das alterações na dinâmica dos fatos</strong>. Garante-se, assim, que a prova não seja descartada por falhas iniciais, mas exige-se documentação rigorosa das alterações. Finalizada a coleta dos vestígios, o local será liberado para eventual arrecadação dos demais elementos de interesse. <span class="ref-pagina">(p. 35-36)</span>
+        </div>
+
+        <p>Os <strong>Peritos Criminais Federais e Papiloscopistas Policiais Federais</strong> consignarão nos respectivos documentos técnico-científicos a <strong>fixação dos vestígios</strong> por meio de descrições, fotografias, croquis ou filmagens, dentre outras formas, fortalecendo a documentação da prova e sua análise posterior. <span class="ref-pagina">(p. 36)</span></p>
+
+        <h3>Coleta, acondicionamento, transporte e contraprova</h3>
+        <p>A coleta de vestígios em local de crime ou no corpo da vítima será realizada <strong>preferencialmente por Perito Criminal Federal</strong> ou, no caso de vestígios papiloscópicos, por <strong>Papiloscopista Policial Federal</strong>, com acondicionamento em recipiente apropriado, lacrado, preferencialmente de forma individualizada e inequívoca, com o preenchimento do respectivo <strong>termo de coleta de vestígio</strong>. O acondicionamento tem como objetivo a proteção do vestígio, bem como a segurança e a saúde pessoal, e deverá ser feito de forma a preservar sua integridade. <span class="ref-pagina">(p. 36)</span></p>
+
+        <p>Os vestígios coletados, conforme sua natureza, serão transportados para o local de armazenamento ou processamento respectivo, observando que diferentes tipos de vestígios exigem diferentes formas de tratamento e armazenamento. <span class="ref-pagina">(p. 36)</span></p>
+
+        <div class="box-purple">
+            <strong>Amostras de contraprova:</strong> serão coletadas nos casos previstos em lei, por <strong>determinação do Delegado de Polícia Federal ou do juiz</strong>, ou, quando necessário, de acordo com orientação técnica da <strong>Diretoria Técnico-Científica</strong>, garantindo o direito à contraprova (essencial à ampla defesa e ao contraditório). A cadeia de custódia da amostra de contraprova <strong>seguirá o mesmo rigor da amostra de prova</strong>. <span class="ref-pagina">(p. 36)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Rompimento de lacre na perícia:</strong> seguirá o procedimento descrito no <strong>art. 16, § 1º e § 2º da IN nº 297/2025-DG/PF</strong>, e as informações deverão constar na <strong>ficha de acompanhamento de vestígio</strong>, mantendo controle rigoroso sobre qualquer violação de lacre. <span class="ref-pagina">(p. 36)</span>
+        </div>
+
+        <h3>Destino pós-perícia</h3>
+        <p>Finalizado o exame pericial, o vestígio e o lacre inicial serão acondicionados em novo recipiente ou embalagem lacrada, para encaminhamento à <strong>central de custódia de vestígios ou custódia local de vestígios</strong>, onde deverão permanecer, <strong>salvo quando</strong>: <span class="ref-pagina">(p. 36)</span></p>
+
+        <div class="box-purple">
+            <strong>Exceções (não permanência na central/custódia local):</strong>
+            <ul>
+                <li><strong>I</strong> - tenham sido <strong>totalmente consumidos nos exames</strong>;</li>
+                <li><strong>II</strong> - houver <strong>determinação para armazenamento em local diverso</strong>;</li>
+                <li><strong>III</strong> - for determinada a sua <strong>destruição ou restituição</strong>;</li>
+                <li><strong>IV</strong> - se tratar de <strong>material perigoso que exija descarte imediato</strong>; ou</li>
+                <li><strong>V</strong> - por sua natureza, nele <strong>não possam permanecer</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 37)</span>
+        </div>
+
+        <p>Após a emissão do documento técnico-científico, os eventuais <strong>suportes dos vestígios</strong> serão remetidos do local em que estiverem para o <strong>depósito vinculado da unidade requisitante</strong>. Nos casos de vestígios submetidos à amostragem, a <strong>amostra de contraprova deverá permanecer na central de custódia ou custódia local de vestígios</strong> e o restante do material será encaminhado para o depósito vinculado à unidade requisitante. Caso seja necessária a guarda do vestígio em local diverso, o Perito Criminal Federal deverá comunicar ao <strong>Delegado de Polícia Federal, presidente do inquérito policial</strong>. <span class="ref-pagina">(p. 37)</span></p>
+
+        <h3>Fundamento legal — arts. 158-C a 158-F do CPP</h3>
+        <div class="box-purple">
+            <strong>Art. 158-C (Incluído pela Lei nº 13.964/2019):</strong> A coleta dos vestígios deverá ser realizada <strong>preferencialmente por perito oficial</strong>, que dará o encaminhamento necessário para a central de custódia, mesmo quando for necessária a realização de exames complementares.
+            <p><strong>§ 1º</strong> Todos vestígios coletados no decurso do inquérito ou processo devem ser tratados como descrito nesta Lei, ficando órgão central de perícia oficial de natureza criminal responsável por detalhar a forma do seu cumprimento.</p>
+            <span class="ref-pagina">(p. 37)</span>
+        </div>
+
+        <div class="box-red">
+            <strong>Ponto crítico — Art. 158-C, § 2º (CPP):</strong> É <strong>proibida a entrada em locais isolados</strong> bem como a <strong>remoção de quaisquer vestígios de locais de crime antes da liberação por parte do perito responsável</strong>, sendo tipificada como <strong>fraude processual</strong> a sua realização. <span class="ref-pagina">(p. 37-38)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Art. 158-D (Incluído pela Lei nº 13.964/2019):</strong> O recipiente para acondicionamento do vestígio será determinado pela natureza do material.
+            <ul>
+                <li><strong>§ 1º</strong> Todos os recipientes deverão ser selados com lacres, com <strong>numeração individualizada</strong>, de forma a garantir a inviolabilidade e a idoneidade do vestígio durante o transporte.</li>
+                <li><strong>§ 2º</strong> O recipiente deverá individualizar o vestígio, preservar suas características, impedir contaminação e vazamento, ter grau de resistência adequado e espaço para registro de informações sobre seu conteúdo.</li>
+                <li><strong>§ 3º</strong> O recipiente só poderá ser aberto pelo <strong>perito que vai proceder à análise</strong> e, motivadamente, por pessoa autorizada.</li>
+                <li><strong>§ 4º</strong> Após cada rompimento de lacre, deve-se fazer constar na <strong>ficha de acompanhamento de vestígio</strong> o nome e a matrícula do responsável, a data, o local, a finalidade, bem como as informações referentes ao novo lacre utilizado.</li>
+                <li><strong>§ 5º</strong> O <strong>lacre rompido</strong> deverá ser acondicionado no interior do novo recipiente.</li>
+            </ul>
+            <span class="ref-pagina">(p. 38)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Art. 158-E (Incluído pela Lei nº 13.964/2019) — central de custódia:</strong> Todos os Institutos de Criminalística deverão ter uma central de custódia destinada à guarda e controle dos vestígios, e sua gestão deve ser vinculada diretamente ao órgão central de perícia oficial de natureza criminal.
+            <ul>
+                <li><strong>§ 1º</strong> Toda central de custódia deve possuir os serviços de protocolo, com local para conferência, recepção, devolução de materiais e documentos, possibilitando a seleção, a classificação e a distribuição de materiais, devendo ser um espaço seguro e apresentar condições ambientais que não interfiram nas características do vestígio.</li>
+                <li><strong>§ 2º</strong> Na central de custódia, a entrada e a saída de vestígio deverão ser protocoladas, consignando-se informações sobre a ocorrência no inquérito que a eles se relacionam.</li>
+                <li><strong>§ 3º</strong> Todas as pessoas que tiverem acesso ao vestígio armazenado deverão ser identificadas e deverão ser registradas a data e a hora do acesso.</li>
+                <li><strong>§ 4º</strong> Por ocasião da tramitação do vestígio armazenado, todas as ações deverão ser registradas, consignando-se a identificação do responsável pela tramitação, a destinação, a data e horário da ação.</li>
+            </ul>
+            <span class="ref-pagina">(p. 38-39)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Art. 158-F (Incluído pela Lei nº 13.964/2019):</strong> Após a realização da perícia, o material deverá ser devolvido à central de custódia, devendo nela permanecer.
+            <p><strong>Parágrafo único.</strong> Caso a central de custódia não possua espaço ou condições de armazenar determinado material, deverá a <strong>autoridade policial ou judiciária determinar as condições de depósito</strong> do referido material em local diverso, mediante <strong>requerimento do diretor do órgão central de perícia oficial de natureza criminal</strong>. <span class="ref-pagina">(p. 39)</span></p>
+        </div>
+    </div>
+
+    <div id="sec7" class="section">
+        <h2>7. Da cadeia de custódia dos demais elementos de interesse</h2>
+
+        <div class="box-blue">
+            <strong>Etapas possíveis:</strong> A cadeia de custódia dos demais elementos de interesse (não disciplinados como vestígios), a depender do seu início — conforme <strong>art. 5º da IN nº 297/2024-DG/PF</strong> — e da natureza do elemento, pode contemplar as etapas de <strong>arrecadação, transporte, triagem, apreensão, carregamento, disponibilização nos autos do inquérito policial, encaminhamento, processamento, guarda e destinação final</strong>. <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <p>Amplia-se, assim, o conceito de cadeia de custódia para além dos vestígios, incluindo objetos e documentos que possam ter relevância para a investigação. A flexibilidade nas etapas permite adaptação conforme o tipo de elemento e o contexto da apreensão. <span class="ref-pagina">(p. 39)</span></p>
+
+        <div class="box-orange">
+            <strong>Registro inicial:</strong> Os possíveis elementos de interesse encontrados em ações de busca ou local de crime serão registrados em <strong>auto circunstanciado de arrecadação</strong> ou em <strong>termo de apreensão</strong>, preferencialmente de forma individualizada. O auto circunstanciado de busca e arrecadação deve ser preenchido de forma <strong>legível</strong> e conter descrição de detalhes relevantes para a investigação e identificação inequívoca do item arrecadado. <span class="ref-pagina">(p. 39)</span>
+        </div>
+
+        <p>Os elementos de interesse deverão ser acondicionados de forma a preservar suas características originais e possibilitar o transporte seguro, evitando alegações de adulteração ou danos. <span class="ref-pagina">(p. 39-40)</span></p>
+
+        <div class="box-purple">
+            <strong>Encaminhamento nos casos do art. 5º, caput, incisos II e IV (IN nº 297/2024-DG/PF):</strong> o responsável pelo recebimento deverá encaminhar o elemento de interesse:
+            <ul>
+                <li><strong>I</strong> - ao <strong>Delegado de Polícia Federal que preside a investigação</strong> para análise e eventual formalização da apreensão, <strong>quando houver procedimento de polícia judiciária instaurado</strong>; ou</li>
+                <li><strong>II</strong> - à <strong>Corregedoria Geral, Corregedoria Regional ou chefia da Delegacia Descentralizada</strong>, conforme atribuição, <strong>quando não houver inquérito ou outro procedimento de polícia judiciária instaurado</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 40)</span>
+        </div>
+
+        <p>Ficam delimitadas claramente as responsabilidades conforme o estágio da investigação, evitando lacunas na custódia. No caso de <strong>recebimento em regime de plantão</strong>, o delegado de Polícia Federal plantonista deverá proceder de forma a garantir a continuidade e uniformidade no tratamento dos elementos, mesmo fora do horário regular. <span class="ref-pagina">(p. 40)</span></p>
+
+        <div class="box-orange">
+            <strong>Termo de apreensão:</strong> deve <strong>individualizar cada elemento de interesse em item específico</strong>, com informação sobre a quantidade e descrição que possibilite sua identificação. Os elementos apreendidos deverão ser acondicionados em <strong>invólucro lacrado</strong>, medida de segurança que protege contra manipulações indevidas. <span class="ref-pagina">(p. 40)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Encaminhamento dos itens apreendidos:</strong> após registrados no sistema oficial de polícia judiciária, deverão ser encaminhados para local de armazenamento ou processamento, <strong>salvo nos casos de depositário fiel</strong> (situações em que o item pode permanecer com terceiros sob responsabilidade legal). <span class="ref-pagina">(p. 40)</span>
+        </div>
+    </div>
+
+    <div id="sec8" class="section">
+        <h2>8. Do encerramento da cadeia de custódia na Polícia Federal</h2>
+
+        <div class="box-purple">
+            <strong>Hipóteses de encerramento (IN nº 297/2024-DG/PF):</strong> A cadeia de custódia do elemento de interesse, no âmbito da PF, será encerrada:
+            <ul>
+                <li><strong>I</strong> - com a <strong>transferência ou destinação definitiva para outro órgão</strong>;</li>
+                <li><strong>II</strong> - com a <strong>restituição ao proprietário</strong>, na forma da lei;</li>
+                <li><strong>III</strong> - com o <strong>descarte ou destruição</strong>;</li>
+                <li><strong>IV</strong> - com o <strong>perdimento ou autorização de uso, por decisão judicial</strong>; ou</li>
+                <li><strong>V</strong> - com o <strong>consumo total do vestígio durante a realização de exame</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 40)</span>
+        </div>
+
+        <p>Quando o elemento é repassado a outro ente público, encerra-se a responsabilidade da PF sobre sua guarda, desde que formalizado. A devolução legal ao proprietário encerra a cadeia, mas exige decisão judicial ou autorização legal. O descarte de itens sem valor probatório ou a destruição (de drogas, por exemplo), desde que haja autorização formal e registro, também encerram a cadeia. O <strong>perdimento</strong> transfere a posse ao Estado; a <strong>autorização de uso</strong> (como veículos ou imóveis) também encerra a guarda original; e o <strong>consumo total do vestígio durante o exame</strong> (comum em exames laboratoriais) encerra igualmente a cadeia daquele vestígio. <span class="ref-pagina">(p. 41)</span></p>
+
+        <div class="box-orange">
+            <strong>Destinação dos elementos apreendidos:</strong> deverá seguir o disposto na <strong>Instrução Normativa DG/PF nº 255, de 20 de julho de 2023</strong>, sobre Polícia Judiciária, garantindo uniformidade e legalidade nos procedimentos de destinação. <span class="ref-pagina">(p. 41)</span>
+        </div>
+
+        <div class="box-purple">
+            <strong>Elemento ainda sob custódia ao concluir o inquérito policial:</strong>
+            <ul>
+                <li><strong>I</strong> - o <strong>vestígio permanecerá na central de custódia de vestígios ou custódia local de vestígios</strong>, conforme atribuição, de acordo com o <strong>art. 158-F do CPP</strong>; ou</li>
+                <li><strong>II</strong> - nos demais casos, <strong>acompanhará os autos do inquérito policial</strong>, conforme <strong>art. 11 do CPP</strong>.</li>
+            </ul>
+            <span class="ref-pagina">(p. 41)</span>
+        </div>
+
+        <p>A hipótese I alinha-se ao <strong>art. 158-F do CPP</strong>, que trata da preservação dos vestígios mesmo após o encerramento da investigação, garantindo disponibilidade para eventual reexame. A hipótese II reflete o procedimento padrão do <strong>art. 11 do CPP</strong>, permitindo que objetos e documentos sejam analisados pelo Judiciário junto com os autos. <span class="ref-pagina">(p. 41)</span></p>
+    </div>
+
+    <div id="sec9" class="section">
+        <h2>9. Das disposições finais</h2>
+
+        <p>Dada a especificidade técnica da temática, a <strong>IN nº 297/2024-DG/PF</strong> dispôs que a <strong>Portaria da Diretoria Técnico-Científica (DITEC/PF)</strong> regulamentará os seguintes pontos: <span class="ref-pagina">(p. 41)</span></p>
+
+        <div class="box-purple">
+            <strong>Portaria da DITEC/PF — regulamentará:</strong>
+            <ul>
+                <li><strong>I</strong> - detalhamento do funcionamento dos locais de custódia subordinados administrativa ou tecnicamente ao <strong>Instituto Nacional de Criminalística</strong>;</li>
+                <li><strong>II</strong> - procedimentos específicos de coleta, acondicionamento, controle e gestão de vestígios; e</li>
+                <li><strong>III</strong> - procedimentos de coleta, acondicionamento, controle e gestão de vestígios em razão de sua natureza.</li>
+            </ul>
+            <span class="ref-pagina">(p. 41-42)</span>
+        </div>
+
+        <p>Tal regulamentação garante diretrizes claras e padronizadas, respeitando a estrutura técnica do <strong>Instituto Nacional de Criminalística - INC</strong>, uma vez que vestígios de diferentes áreas da perícia (geologia, química, genética, engenharia, meio ambiente, medicina, informática, contabilidade etc.) exigem abordagens distintas, reforçando a especialização inerente a cada área da criminalística. Além disso, a <strong>Diretoria Técnico-Científica</strong> elaborará recomendação com especificações técnicas de modelos e padrões de recipientes, etiquetas, selos e lacres para uso na cadeia de custódia. <span class="ref-pagina">(p. 42)</span></p>
+
+        <div class="box-purple">
+            <strong>Portaria da Diretoria de Polícia Administrativa — disporá sobre:</strong>
+            <ul>
+                <li><strong>I</strong> - detalhamento do funcionamento dos locais de custódia subordinados administrativa ou tecnicamente ao <strong>Instituto Nacional de Identificação</strong>; e</li>
+                <li><strong>II</strong> - procedimentos específicos de coleta, acondicionamento, controle e gestão de <strong>vestígios papiloscópicos</strong> e demais elementos de interesse relacionados à sua atribuição, encaminhados ao Instituto Nacional de Identificação e suas projeções regionais.</li>
+            </ul>
+            <span class="ref-pagina">(p. 42)</span>
+        </div>
+
+        <div class="box-orange">
+            <strong>Casos omissos:</strong> os casos omissos da <strong>IN nº 297/2024-DG/PF</strong> serão dirimidos pela <strong>Corregedoria-Geral</strong>, que centraliza a resolução de lacunas normativas, garantindo coerência e autoridade nas decisões sobre situações não previstas. <span class="ref-pagina">(p. 42)</span>
+        </div>
+
+        <div class="box-green">
+            <strong>Síntese final:</strong> A <strong>IN nº 297/2024</strong> representa um avanço significativo na padronização dos procedimentos investigativos da Polícia Federal, especialmente em um cenário de crescente digitalização das provas. Ao estabelecer regras claras para coleta, preservação, transferência e análise dos vestígios e demais elementos de interesse, a norma fortalece a segurança jurídica das investigações e contribui para a efetividade da persecução penal. Sua aplicação rigorosa é essencial para garantir que as provas obtidas sejam válidas, confiáveis e admissíveis judicialmente. <span class="ref-pagina">(p. 42)</span>
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>
