@@ -38,12 +38,14 @@ function disciplinaPermitidaParaCargo(disciplina) {
     const dUpper = disciplina.toUpperCase();
     
     // Regras
-    const isIPO2 = dUpper.includes('IPO 2') || dUpper.includes('IPO II');
+    const isIPO2 = dUpper.includes('IPO 2') || dUpper.includes('IPO II)') || dUpper.includes('IPO II -');
     const isPeritoEspecifico = dUpper.includes('CRIMINALÍSTICA') || 
                                dUpper.includes('IPO 3') || dUpper.includes('IPO III') || 
                                dUpper.includes('PCEB') || 
                                dUpper.includes('PVAT') || 
-                               dUpper.includes('LOCAL DE CRIME');
+                               dUpper.includes('LOCAL DE CRIME') ||
+                               dUpper.includes('LOCAIS DE CRIME') ||
+                               dUpper.includes('LOC -');
     
     if (cargoAtual === 'perito') {
         if (isIPO2) return false;
