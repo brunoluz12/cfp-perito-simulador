@@ -416,46 +416,80 @@ async function syncLocalWithCloud() {
             anotacoes: JSON.parse(localStorage.getItem('pcpr_notes') || '[]')
         };
 
-        // 3. Merge Inteligente
-        // Historico: Junta as chaves
-        const mergedHistorico = { ...cloudData.historico, ...localData.historico };
-        
-        // Favoritos: array unique
-        const mergedFavoritos = [...new Set([...(cloudData.favoritos || []), ...(localData.favoritos || [])])];
-        
-        // Comentarios: Object assign
-        const mergedComentarios = { ...cloudData.comentarios, ...localData.comentarios };
-        
-        // Material estudado: Object assign
-        const mergedMaterial = { ...cloudData.materialEstudado, ...localData.materialEstudado };
-        
-        // Progresso curso: sum ou assign (simplificado)
-        const mergedProgresso = { ...cloudData.progresso, ...localData.progresso };
+        // 3. Merge Inteligente (UNION: nunca perde dados de nenhum lado)
 
-        // Agenda
-        const mergedAgenda = { ...cloudData.agendaAplicada, ...localData.agendaAplicada };
-
-        // Flashcards: array com deduplicação por ID (mais recente ganha)
-        const cCards = Array.isArray(cloudData.flashcards) ? cloudData.flashcards : [];
-        const lCards = Array.isArray(localData.flashcards) ? localData.flashcards : [];
-        const allCards = [...cCards, ...lCards];
-        const cardMap = new Map();
-        // Percorre em ordem: os locais sobrescrevem os da nuvem (local é mais recente)
-        allCards.forEach(c => { if (c && c.id) cardMap.set(c.id, c); });
-        const mergedFlashcards = Array.from(cardMap.values());
-        
-        // Anotações: array concatenado com desduplicação por id (simplificado)
-        const cNotes = Array.isArray(cloudData.anotacoes) ? cloudData.anotacoes : [];
-        const lNotes = Array.isArray(localData.anotacoes) ? localData.anotacoes : [];
-        const allNotes = [...cNotes, ...lNotes];
-        const mergedAnotacoes = [];
-        const noteIds = new Set();
-        allNotes.forEach(n => {
-            if (!noteIds.has(n.id)) {
-                noteIds.add(n.id);
-                mergedAnotacoes.push(n);
+        // --- Histórico de Questões ---
+        // Cada chave é um ID de questão. O status é preservado seguindo: se existe em algum lado, mantemos.
+        // Se os dois lados tem status diferente, priorizamos 'acerto' (já acertou = após aprender).
+        const cHist = cloudData.historico || {};
+        const lHist = localData.historico || {};
+        const mergedHistorico = { ...cHist };
+        Object.keys(lHist).forEach(id => {
+            const c = cHist[id]; // dado na nuvem
+            const l = lHist[id]; // dado local
+            if (!c) {
+                // Não existe na nuvem: inclui do local
+                mergedHistorico[id] = l;
+            } else {
+                // Existe nos dois: preferência para 'acerto' (não regredimos aprendizado)
+                const cStatus = typeof c === 'string' ? c : c.status;
+                const lStatus = typeof l === 'string' ? l : l.status;
+                if (lStatus === 'acerto' || cStatus !== 'acerto') {
+                    // Local ganha se ele acertou, ou se nenhum dos dois acertou
+                    mergedHistorico[id] = l;
+                }
+                // Senão mantém o da nuvem (que já está lá)
             }
         });
+        
+        // --- Favoritos: união de arrays sem duplicata ---
+        const mergedFavoritos = [...new Set([...(cloudData.favoritos || []), ...(localData.favoritos || [])])];
+        
+        // --- Comentários: união de chaves. Se a mesma questão tiver comentário nos dois, o local é mais novo ---
+        const mergedComentarios = { ...(cloudData.comentarios || {}), ...(localData.comentarios || {}) };
+        
+        // --- Material Estudado: UNION aditiva ---
+        // Regra: se foi marcado como estudado em QUALQUER lado, fica marcado como estudado.
+        // Não desmarcamos o que já foi feito.
+        const cMat = cloudData.materialEstudado || {};
+        const lMat = localData.materialEstudado || {};
+        const mergedMaterial = { ...cMat }; // Começa com tudo da nuvem
+        Object.keys(lMat).forEach(key => {
+            if (lMat[key]) {
+                // Se o local marcou como estudado, garante que está marcado
+                mergedMaterial[key] = true;
+            }
+            // Não removemos o que já existe na nuvem (não sobrescrevemos com 'false')
+        });
+        
+        // --- Progresso do Curso: UNION (pega o mais avançado de cada campo) ---
+        const cProg = cloudData.progresso || {};
+        const lProg = localData.progresso || {};
+        const mergedProgresso = { ...cProg };
+        Object.keys(lProg).forEach(key => {
+            if (!(key in mergedProgresso) || lProg[key] > mergedProgresso[key]) {
+                mergedProgresso[key] = lProg[key];
+            }
+        });
+
+        // --- Agenda ---
+        const mergedAgenda = { ...(cloudData.agendaAplicada || {}), ...(localData.agendaAplicada || {}) };
+
+        // --- Flashcards: união de arrays por ID, local ganha em conflito (mais recente) ---
+        const cCards = Array.isArray(cloudData.flashcards) ? cloudData.flashcards : [];
+        const lCards = Array.isArray(localData.flashcards) ? localData.flashcards : [];
+        const cardMap = new Map();
+        cCards.forEach(c => { if (c && c.id) cardMap.set(c.id, c); });
+        lCards.forEach(c => { if (c && c.id) cardMap.set(c.id, c); }); // local sobrescreve nuvem
+        const mergedFlashcards = Array.from(cardMap.values());
+        
+        // --- Anotações: união por ID, local ganha em conflito (mais recente) ---
+        const cNotes = Array.isArray(cloudData.anotacoes) ? cloudData.anotacoes : [];
+        const lNotes = Array.isArray(localData.anotacoes) ? localData.anotacoes : [];
+        const noteMap = new Map();
+        cNotes.forEach(n => { if (n && n.id) noteMap.set(n.id, n); });
+        lNotes.forEach(n => { if (n && n.id) noteMap.set(n.id, n); }); // local sobrescreve nuvem
+        const mergedAnotacoes = Array.from(noteMap.values());
 
         // Atualiza memória e localStorage
         localStorage.setItem('pcpr_history', JSON.stringify(mergedHistorico));
