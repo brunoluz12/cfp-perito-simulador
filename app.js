@@ -59,6 +59,8 @@ function disciplinaPermitidaParaCargo(disciplina) {
     
     return true;
 }
+// Expose to window for flashcards.js (loaded before app.js DOMContentLoaded)
+window.disciplinaPermitidaParaCargo = disciplinaPermitidaParaCargo;
 
 function atualizarFiltrosDeDisciplina() {
     // 1. Banco de Questões (msDisciplina)
@@ -296,7 +298,13 @@ async function tryLogin(username) {
                 if (result.data.agendaAplicada) localStorage.setItem('pcpr_agenda_aplicada', JSON.stringify(result.data.agendaAplicada));
                 if (result.data.materialEstudado) localStorage.setItem('pcpr_material_studied', JSON.stringify(result.data.materialEstudado));
                 if (result.data.flashcards) {
-                    localStorage.setItem('pcpr_flashcards', JSON.stringify(result.data.flashcards));
+                    // Garantir que flashcards é sempre um array
+                    const fcData = Array.isArray(result.data.flashcards)
+                        ? result.data.flashcards
+                        : Object.values(result.data.flashcards || {});
+                    if (fcData.length > 0) {
+                        localStorage.setItem('pcpr_flashcards', JSON.stringify(fcData));
+                    }
                 }
                 if (result.data.anotacoes) localStorage.setItem('pcpr_notes', JSON.stringify(result.data.anotacoes));
             }
@@ -404,7 +412,7 @@ async function syncLocalWithCloud() {
             progresso: JSON.parse(localStorage.getItem('pcpr_course_progress') || '{}'),
             agendaAplicada: JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'),
             materialEstudado: JSON.parse(localStorage.getItem('pcpr_material_studied') || '{}'),
-            flashcards: JSON.parse(localStorage.getItem('pcpr_flashcards') || '{}'),
+            flashcards: JSON.parse(localStorage.getItem('pcpr_flashcards') || '[]'),
             anotacoes: JSON.parse(localStorage.getItem('pcpr_notes') || '[]')
         };
 
@@ -427,8 +435,14 @@ async function syncLocalWithCloud() {
         // Agenda
         const mergedAgenda = { ...cloudData.agendaAplicada, ...localData.agendaAplicada };
 
-        // Flashcards
-        const mergedFlashcards = { ...cloudData.flashcards, ...localData.flashcards };
+        // Flashcards: array com deduplicação por ID (mais recente ganha)
+        const cCards = Array.isArray(cloudData.flashcards) ? cloudData.flashcards : [];
+        const lCards = Array.isArray(localData.flashcards) ? localData.flashcards : [];
+        const allCards = [...cCards, ...lCards];
+        const cardMap = new Map();
+        // Percorre em ordem: os locais sobrescrevem os da nuvem (local é mais recente)
+        allCards.forEach(c => { if (c && c.id) cardMap.set(c.id, c); });
+        const mergedFlashcards = Array.from(cardMap.values());
         
         // Anotações: array concatenado com desduplicação por id (simplificado)
         const cNotes = Array.isArray(cloudData.anotacoes) ? cloudData.anotacoes : [];
@@ -476,6 +490,12 @@ async function syncLocalWithCloud() {
         });
         
         alert("Sincronização concluída com sucesso!");
+        
+        // Atualizar a UI dos flashcards sem precisar recarregar
+        if (typeof loadFlashcards === 'function') {
+            try { loadFlashcards(); } catch(e) {}
+        }
+        
         window.location.reload(); // Recarrega para aplicar os dados
         
     } catch (e) {
