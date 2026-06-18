@@ -2486,7 +2486,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const iframe = document.getElementById('material-iframe');
     const statusMsg = document.getElementById('material-loading-status');
     const btnEstudado = document.getElementById('btn-marcar-estudado');
-    
+
+    // Referência ao botão "Marcar como Estudado" injetado no fim do capítulo (espelha o do topo)
+    let btnEstudadoInjetado = null;
+    const estilizarBtnEstudadoInjetado = (studied) => {
+        if (!btnEstudadoInjetado) return;
+        if (studied) {
+            btnEstudadoInjetado.style.background = 'linear-gradient(135deg, #047857 0%, #10b981 100%)';
+            btnEstudadoInjetado.innerHTML = '<div style="color:#fff;font-size:17px;font-weight:700;">✔ Capítulo Estudado</div><div style="color:rgba(255,255,255,0.88);font-size:13px;">Clique para desmarcar</div>';
+        } else {
+            btnEstudadoInjetado.style.background = 'linear-gradient(135deg, #334155 0%, #475569 100%)';
+            btnEstudadoInjetado.innerHTML = '<div style="color:#fff;font-size:17px;font-weight:700;">✓ Marcar como Estudado</div><div style="color:rgba(255,255,255,0.88);font-size:13px;">Concluir este capítulo sem voltar ao topo</div>';
+        }
+    };
+
     const materialData = {
         'criminalistica': {
             path: 'CRIMINALISTICA',
@@ -2839,7 +2852,8 @@ document.addEventListener('DOMContentLoaded', () => {
             iframeContainer.style.display = 'block';
             statusMsg.style.display = 'inline-block';
             iframe.style.opacity = '0.4';
-            
+            btnEstudadoInjetado = null; // evita referência ao botão do capítulo anterior
+
             // Força o iframe a ficar pequeno para não herdar a altura gigante do capítulo anterior
             iframe.style.height = '200px';
             // Reseta a referência do último tamanho conhecido
@@ -2882,6 +2896,30 @@ document.addEventListener('DOMContentLoaded', () => {
                         const tooltip = document.getElementById('fc-selection-tooltip');
                         if (tooltip) tooltip.style.display = 'none';
                     });
+
+                    // Injeta botão "Marcar como Estudado" no final do material (espelha o do topo)
+                    const containerEst = doc.querySelector('.container') || doc.body;
+                    const btnEst = doc.createElement('div');
+                    btnEst.style.cssText = 'margin: 40px 0 10px; padding: 18px 24px; border-radius: 12px; text-align: center; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 15px rgba(0,0,0,0.18);';
+                    btnEstudadoInjetado = btnEst;
+                    estilizarBtnEstudadoInjetado(!!materialEstudado[getMaterialKey(matDisc.value, matCap.value)]);
+                    btnEst.addEventListener('mouseenter', () => { btnEst.style.transform = 'translateY(-2px)'; });
+                    btnEst.addEventListener('mouseleave', () => { btnEst.style.transform = ''; });
+                    btnEst.addEventListener('click', () => {
+                        if (!matDisc.value || !matCap.value) return;
+                        const key = getMaterialKey(matDisc.value, matCap.value);
+                        if (materialEstudado[key]) delete materialEstudado[key]; else materialEstudado[key] = true;
+                        salvarMaterialEstudado();
+                        atualizarBotaoEstudado(matDisc.value, matCap.value);
+                        atualizarEstiloOpcoes(matCap, matDisc.value);
+                        atualizarEstiloDisciplinas();
+                        estilizarBtnEstudadoInjetado(!!materialEstudado[key]);
+                    });
+                    containerEst.appendChild(btnEst);
+                    setTimeout(() => {
+                        const h = containerEst.offsetHeight + 40;
+                        window.parent.postMessage({ type: 'resize-iframe', height: h }, '*');
+                    }, 200);
 
                     // Injeta link "Praticar Questões" no final do material
                     const currentDiscKey = matDisc.value;
@@ -2962,6 +3000,7 @@ document.addEventListener('DOMContentLoaded', () => {
             atualizarBotaoEstudado(matDisc.value, matCap.value);
             atualizarEstiloOpcoes(matCap, matDisc.value);
             atualizarEstiloDisciplinas();
+            estilizarBtnEstudadoInjetado(!!materialEstudado[key]);
         });
     }
 
