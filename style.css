@@ -4350,9 +4350,11 @@ html.dark-mode .option-letter {
     .agenda-config-panel {
         padding: 14px;
     }
+    /* No celular/tablet o iframe cresce com a altura do conteúdo (definida via JS)
+       e quem rola é a PÁGINA. Não fixar a altura: rolagem interna de iframe não
+       funciona bem por toque no mobile. (Desktop >900px usa a mesma altura dinâmica.) */
     .material-reader-container iframe {
-        height: calc(100vh - 240px) !important;
-        min-height: 400px;
+        min-height: 50vh;
     }
 
     /* AGENDA */
