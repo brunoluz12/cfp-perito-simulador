@@ -351,9 +351,12 @@ async function tryLogin(username) {
     }
 }
 
+let syncPending = false;
+
 function requestCloudSync() {
     if (!currentUser) return;
     if (syncTimeout) clearTimeout(syncTimeout);
+    syncPending = true;
     
     syncTimeout = setTimeout(async () => {
         let agendaAplicada = {};
@@ -377,11 +380,20 @@ function requestCloudSync() {
                 body: JSON.stringify({ username: currentUser, data: payload })
             });
             console.log("Progresso salvo na nuvem!");
+            syncPending = false;
         } catch (e) {
             console.error("Falha ao salvar na nuvem", e);
         }
     }, 2000); // 2 segundos de debounce para não spammar requisições
 }
+
+// Avisar antes de fechar a aba se houver sync pendente
+window.addEventListener('beforeunload', (e) => {
+    if (syncPending) {
+        e.preventDefault();
+        e.returnValue = 'Seu progresso ainda está sendo salvo na nuvem. Aguarde um momento antes de fechar.';
+    }
+});
 
 // ==========================================
 // SINCRONIZAÇÃO MANUAL
@@ -3604,9 +3616,32 @@ function notesSetView(v) {
     notesAplicarView();
 }
 
-function salvarAnotacoesStore() {
+async function salvarAnotacoesStore() {
     localStorage.setItem('pcpr_notes', JSON.stringify(anotacoes));
-    requestCloudSync();
+    // Anotações são salvas imediatamente na nuvem (sem debounce)
+    // para evitar perda de dados ao fechar o browser
+    if (!currentUser) return;
+    try {
+        const payload = {
+            stats: stats,
+            favoritos: favoritos,
+            comentarios: comentarios,
+            historico: historicoQuestoes,
+            progresso: progressoCurso,
+            agendaAplicada: JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'),
+            materialEstudado: materialEstudado,
+            flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
+            anotacoes: anotacoes
+        };
+        await fetch(`${VERCEL_API_URL}/api/save`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username: currentUser, data: payload })
+        });
+        console.log('Anotação salva na nuvem!');
+    } catch (e) {
+        console.error('Falha ao salvar anotação na nuvem. Dado seguro no localStorage.', e);
+    }
 }
 
 function notesEsc(s) {
