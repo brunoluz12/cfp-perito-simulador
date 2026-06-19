@@ -28312,5 +28312,498 @@ const questoesDB = [
     "justificativa": "Correta a A: identificado patrimônio incompatível com a renda lícita e tendo o crime pena máxima superior a 6 anos, a análise subsidia futuro pedido de confisco alargado (art. 91-A do CP); a procrastinação injustificada da investigação pode configurar o crime do art. 31 da Lei nº 13.869/2019 - Abuso de Autoridade (p. 134-135). A B erra: o delegado não decreta perdimento, e é vedado relatório meramente remissivo. A C troca pena máxima por mínima e admite relatório remissivo, vedado pela IN 255/2023. A D erra o limite de pena (é superior a 6, não a 8 anos) e nega indevidamente a repercussão penal da demora. (p. 134-135)",
     "referencia": "PDF IPO III, p. 134-135",
     "nivel": "dificil"
+  },
+  {
+    "id": 1847,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Deputado Federal aposentou-se do mandato em 2023. Em 2024, o Ministério Público Federal noticia crime supostamente praticado por ele em 2021, durante o exercício parlamentar e em razão da função. Considerando o critério da atualidade firmado pelo STF e sua atualização jurisprudencial, qual a situação da prerrogativa de foro?",
+    "alternativas": {
+      "A": "A prerrogativa de foro permanece e atrai a competência do tribunal, pois o delito foi praticado durante o exercício do cargo e em razão dele, ainda que o inquérito tenha início depois de cessado o mandato parlamentar.",
+      "B": "A prerrogativa de foro cessa de modo automático com a aposentadoria do parlamentar, devendo o feito tramitar na primeira instância, porque o foro só subsiste enquanto a autoridade permanece efetivamente no exercício do cargo público.",
+      "C": "A prerrogativa de foro se mantém porque ela acompanha permanentemente a pessoa que um dia exerceu mandato eletivo, independentemente de o crime ter ou não relação funcional com o cargo então ocupado.",
+      "D": "A prerrogativa de foro só subsistiria se o inquérito já estivesse instaurado antes da aposentadoria; como a apuração começou após a saída do cargo, a competência desloca-se de imediato à primeira instância."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: na AP 937 QO o STF restringiu o foro a crimes cometidos durante o exercício do cargo e em razão da função, e a atualização jurisprudencial firmou que a prerrogativa permanece mesmo após o término do mandato, desde que o delito tenha sido praticado durante o exercício da função e em razão dela, ainda que o inquérito ou a ação penal sejam iniciados depois de cessado o cargo. A B está errada porque trata a cessação como automática com a saída do cargo, o que não corresponde à tese atual (o foro permanece quando há relação funcional). A C erra ao afirmar que o foro acompanha permanentemente a pessoa independentemente de relação funcional, ignorando o requisito de que o crime seja praticado em razão da função. A D erra ao condicionar a manutenção do foro à instauração do inquérito antes da saída do cargo, exatamente o que a atualização jurisprudencial afastou.",
+    "referencia": "Cap. 5, Seção 5.20.1 — Foro por Prerrogativa de Função",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1848,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Antes de iniciar qualquer apuração, a autoridade policial recebe notícia-crime que já revela o envolvimento de pessoa detentora de foro perante tribunal superior. Conforme o art. 15 da IN nº 255/2023-DG/PF, qual o encaminhamento correto?",
+    "alternativas": {
+      "A": "Instaurar desde logo o inquérito na própria unidade local e produzir as diligências iniciais cabíveis, comunicando o tribunal superior apenas ao final, no momento em que já houver elementos mínimos de autoria e de materialidade aptos a embasar o relatório conclusivo.",
+      "B": "Representar ao juízo de primeira instância para que este conduza a instrução probatória inicial e, somente após colher as primeiras provas, decline a competência ao tribunal superior por meio de guia de remessa.",
+      "C": "Quando a competência for de tribunal superior (STF/STJ), encaminhar o procedimento à CINQ — Coordenação de Inquéritos nos Tribunais Superiores —, unidade específica da PF para esses casos, em vez de instaurar inquérito comum na unidade local.",
+      "D": "Remeter a notícia-crime diretamente ao Ministério Público com foro, pois compete a este, e não à Polícia Federal, decidir sobre o encaminhamento e a autorização de qualquer ato investigativo perante o tribunal superior competente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: identificado, antes da apuração, que a notícia-crime envolve pessoa com foro em tribunal superior, o procedimento deve seguir para a unidade específica da PF — a CINQ —, nos termos do art. 15 da IN nº 255/2023-DG/PF. A A está errada porque instaura inquérito e produz diligências sem autorização do tribunal competente, o que é vedado nessa hipótese. A B erra ao deslocar a instrução probatória inicial à primeira instância, que não tem competência sobre o detentor de foro. A D confunde a hipótese: o encaminhamento ao Ministério Público é a regra para membros do MP; quando a competência é de tribunal superior, o caminho é a CINQ.",
+    "referencia": "Cap. 5, Seção 5.20.2 — Foro por Prerrogativa de Função",
+    "nivel": "medio"
+  },
+  {
+    "id": 1849,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante investigação já em andamento sobre desvio de verbas, surge indício de participação de autoridade com foro em tribunal superior. Antes de qualquer providência formal de declínio, e ainda sem autorização do tribunal, a equipe realiza uma busca e apreensão e ouve testemunhas. Qual a consequência jurídica desses atos?",
+    "alternativas": {
+      "A": "Os atos são válidos porque foram praticados em investigação previamente instaurada de forma regular, sendo suficiente que a autoridade comunique o tribunal competente em momento posterior à realização das diligências já produzidas.",
+      "B": "Os atos são nulos, pois, identificado o foro, a investigação deve permanecer suspensa até a decisão de declínio, e atos investigativos praticados após a identificação, sem autorização do tribunal competente, não produzem efeitos válidos.",
+      "C": "Os atos são anuláveis apenas em relação à autoridade detentora de foro, permanecendo plenamente válidos quanto aos demais investigados, cabendo ao próprio delegado promover o desmembramento e separar o que aproveita a cada um.",
+      "D": "Os atos são válidos desde que ratificados pelo juízo de primeira instância inicialmente competente, que detém poderes para convalidar as diligências antes de remeter os autos, por declínio, ao tribunal superior competente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: identificado o foro no curso da investigação, deve haver imediata paralisação dos atos investigativos, e a investigação permanece suspensa até a decisão de declínio; atos praticados após a identificação do foro, sem autorização do tribunal competente, são nulos. A A erra ao admitir comunicação posterior e validar diligências feitas sem autorização. A C confunde institutos: o desmembramento (separar quem tem e quem não tem foro) cabe ao próprio tribunal superior, não ao delegado, e a nulidade decorre da ausência de autorização. A D erra porque o juízo de primeira instância não tem competência para convalidar atos relativos a quem detém foro em tribunal superior.",
+    "referencia": "Cap. 5, Seção 5.20.3 — Foro por Prerrogativa de Função",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1850,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o fluxo de atuação da CINQ/CGRC/Dicor/PF perante o STF e o STJ, disciplinado pela Portaria DG/PF nº 17.832/2023 e pelo art. 132 da IN 270/2023, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Nas investigações do STF a CINQ delega de imediato às unidades descentralizadas e, nas do STJ, conduz pessoalmente as apurações, sem possibilidade de delegação, pois a especialização do STJ exige concentração da atividade na coordenação central.",
+      "B": "Tanto nas investigações vinculadas ao STF quanto nas vinculadas ao STJ a CINQ delega, por padrão, a condução das apurações às superintendências regionais descentralizadas, reservando-se a si apenas a função de supervisão técnica e a edição de orientações gerais aplicáveis indistintamente a todos os casos.",
+      "C": "Nas investigações vinculadas ao STF as apurações são conduzidas na própria CINQ, só excepcionalmente delegadas a unidades descentralizadas; já nas vinculadas ao STJ a CINQ pode delegar diretamente a unidades descentralizadas sob sua coordenação e supervisão técnica.",
+      "D": "A delegação feita pela CINQ tem caráter definitivo e irrevogável uma vez formalizada, de modo que, após o ato de delegação à unidade descentralizada, a coordenação central não pode retomar a condução nem revisar a atuação da unidade delegada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: no fluxo da CINQ, as investigações do STF são conduzidas na própria CINQ, só excepcionalmente delegadas a unidades descentralizadas, enquanto nas do STJ a CINQ pode delegar diretamente a unidades descentralizadas sob sua coordenação e supervisão técnica. A A inverte os fluxos do STF e do STJ. A B erra ao generalizar a delegação como padrão para o STF, contrariando a concentração na CINQ nesses casos. A D contraria o texto, segundo o qual a delegação tem caráter precário e pode ser revogada a qualquer tempo pelo Diretor do Dicor após consulta à Corregedoria-Geral.",
+    "referencia": "Cap. 5, Seção 5.20.4 — Foro por Prerrogativa de Função",
+    "nivel": "medio"
+  },
+  {
+    "id": 1851,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação que tramita perante tribunal superior, a equipe pretende, ainda sem manifestação do tribunal, dar início a diligências. Sobre os limites à atuação antes da autorização formal, segundo a disciplina da CINQ, é correto afirmar:",
+    "alternativas": {
+      "A": "É admitida a prática de atos investigativos preparatórios antes da autorização do tribunal, desde que não impliquem medidas sujeitas à reserva de jurisdição, como interceptações telefônicas, buscas domiciliares e prisões cautelares.",
+      "B": "Em todos os casos não pode haver qualquer ato investigativo antes da autorização formal do tribunal competente, ressalvado apenas o uso de fontes abertas, que independe de prévia manifestação do tribunal para ser realizado.",
+      "C": "A autorização formal do tribunal é exigida somente para investigações vinculadas ao STF; nas demais, conduzidas sob coordenação da CINQ, basta a ciência da coordenação central para que se iniciem regularmente os atos investigativos.",
+      "D": "A vedação a atos investigativos prévios alcança inclusive a consulta a fontes abertas, de modo que nenhuma providência, ainda que baseada em dados públicos, pode ser adotada antes de o tribunal competente autorizar formalmente a apuração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: em todos os casos não pode haver qualquer ato investigativo antes da autorização formal do tribunal competente, salvo o uso de fontes abertas. A A erra ao liberar atos preparatórios não sujeitos à reserva de jurisdição, pois a vedação abrange qualquer ato investigativo (exceto fontes abertas). A C cria distinção inexistente entre STF e demais casos quanto à exigência de autorização. A D erra ao estender a vedação às fontes abertas, justamente a ressalva prevista no material.",
+    "referencia": "Cap. 5, Seção 5.20.4 — Foro por Prerrogativa de Função",
+    "nivel": "medio"
+  },
+  {
+    "id": 1852,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em regra, a supervisão exercida pelo Ministro Relator durante a fase investigativa de inquérito que tramita em tribunal superior NÃO inclui qual das atribuições abaixo?",
+    "alternativas": {
+      "A": "A apreciação de pedidos sujeitos à reserva de jurisdição requeridos no curso da apuração, como representações por busca e apreensão, por interceptação telefônica e por prisões cautelares do investigado.",
+      "B": "A autorização judicial prévia para a instauração da investigação criminal, alcançando inclusive a deflagração da fase preliminar de apuração conduzida sob a competência do tribunal superior competente.",
+      "C": "A avaliação de eventuais requerimentos de arquivamento da apuração e também a análise dos pedidos de prorrogação de prazo que forem formulados ao longo da investigação que tramita perante o tribunal superior competente.",
+      "D": "A definição autônoma e direta de todas as diligências a serem realizadas pela equipe policial, substituindo as escolhas técnicas que ordinariamente caberiam à autoridade encarregada de conduzir a apuração."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: a supervisão do Ministro Relator abrange, em regra, a autorização prévia para instaurar a investigação (inclusive a fase preliminar), a análise de prorrogação de prazo, a apreciação de pedidos sujeitos à reserva de jurisdição (busca e apreensão, interceptação, prisões cautelares) e a avaliação de requerimentos de arquivamento; ela NÃO inclui a definição autônoma e direta de todas as diligências, que extrapola a supervisão. As alternativas A, B e C descrevem corretamente atribuições que integram essa supervisão, segundo o material, e por isso não respondem ao que se pede (a hipótese excluída).",
+    "referencia": "Cap. 5, Seção 5.20.5 — Foro por Prerrogativa de Função",
+    "nivel": "facil"
+  },
+  {
+    "id": 1853,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Apura-se crime atribuído a magistrado de tribunal, situação enquadrada nas categorias especiais de foro. Sobre quem conduz a apuração e o papel da Polícia Federal, conforme a LOMAN (art. 33, parágrafo único) e o material, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A investigação é conduzida pelo próprio Poder Judiciário, atuando o Relator como presidente do inquérito em função equivalente à do delegado, e a PF só pode atuar mediante delegação expressa do Relator, limitada às diligências determinadas.",
+      "B": "A investigação compete originariamente à Polícia Federal, que a conduz com plena autonomia técnica como em qualquer outro inquérito comum, cabendo ao Relator apenas decidir sobre as medidas cautelares sujeitas à reserva de jurisdição que surgirem ao longo da apuração.",
+      "C": "A investigação é conduzida pelo Ministério Público, ao qual o inquérito deve ser remetido para que o Procurador-Geral conduza pessoalmente ou designe outro membro, ficando a PF impedida de atuar em qualquer hipótese no caso.",
+      "D": "A investigação é conduzida pelo Poder Judiciário e, por ter natureza de inquérito judicial, adquire caráter processual; por isso, a PF, quando delegada, atua sem os limites próprios da fase pré-processual administrativa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: tratando-se de magistrados (e equiparados — Tribunais e Conselhos de Contas), a investigação é conduzida pelo próprio Poder Judiciário, com o Relator atuando como presidente do inquérito, em função equivalente à do delegado; a PF só atua mediante delegação expressa do Relator, limitada às diligências determinadas. A B erra ao atribuir a condução originária à PF com autonomia técnica plena. A C confunde a categoria de magistrados com a de membros do MP (remessa ao Procurador-Geral). A D erra ao afirmar que a natureza se torna processual: embora chamada de inquérito judicial, a natureza permanece pré-processual e administrativa.",
+    "referencia": "Cap. 5, Seção 5.20.6 — Foro por Prerrogativa de Função",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1854,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em três investigações distintas, a Polícia Federal pretende formalizar indiciamento de: (1) um Ministro de Estado; (2) um magistrado de tribunal; (3) um membro do Ministério Público. Sobre a possibilidade de indiciamento pela PF em cada caso, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "É permitido indiciar o Ministro de Estado, vedado indiciar o magistrado e exigida autorização prévia do tribunal para indiciar o membro do MP, pois a Lei Orgânica do MP apenas condiciona, mas não proíbe, o indiciamento de seus membros.",
+      "B": "É vedado indiciar o Ministro de Estado sem autorização judicial prévia, permitido indiciar o magistrado independentemente do Relator e proibido indiciar o membro do MP, conforme a Lei 12.830/2013 aplicada a detentores comuns de foro.",
+      "C": "É exigida autorização expressa do Relator para indiciar qualquer das três autoridades mencionadas, dado o caráter especial do foro por prerrogativa de função, sendo essa a regra uniforme aplicável a detentores comuns, a magistrados e a membros do Ministério Público.",
+      "D": "É permitido indiciar o Ministro de Estado sem autorização judicial prévia; o magistrado só pode ser indiciado com autorização expressa do Relator; e é proibido indiciar o membro do Ministério Público, por vedação da Lei Orgânica Nacional do MP."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a D: detentores comuns de foro (como Ministro de Estado) podem ser indiciados pela PF sem autorização judicial prévia (Lei 12.830/2013; caso do Inquérito 4.261/DF); magistrados (e equiparados) só com autorização expressa do Relator; e membros do MP têm indiciamento proibido pelo art. 41, II, da Lei Orgânica Nacional do MP. A A erra ao inverter os regimes de magistrado e membro do MP. A B erra ao exigir autorização para detentor comum e ao liberar o indiciamento de magistrado sem o Relator. A C erra ao uniformizar a exigência de autorização do Relator para todos, ignorando que detentores comuns dispensam autorização e que membros do MP têm vedação absoluta.",
+    "referencia": "Cap. 5, Seção 5.20.7 — Foro por Prerrogativa de Função",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1855,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um inquérito instaurado pela Polícia Federal investiga indiciado que se encontra preso. Esgotado o prazo legal sem conclusão das diligências, a autoridade policial representa pela continuidade do feito. Considerando o regime de prazos da Justiça Federal previsto no art. 66 da Lei nº 5.010/1966, qual é o prazo inicial para conclusão do inquérito e a respectiva prorrogação admitida em relação ao indiciado preso?",
+    "alternativas": {
+      "A": "O prazo inicial é de 15 dias, admitida prorrogação por mais 15 dias por uma única vez, mediante autorização judicial e demonstração da necessidade das diligências.",
+      "B": "O prazo inicial é de 10 dias, admitida prorrogação por mais 10 dias por uma única vez, observando-se a regra geral do art. 10, caput, do Código de Processo Penal.",
+      "C": "O prazo inicial é de 30 dias, admitidas sucessivas prorrogações desde que devidamente justificadas, em razão da maior complexidade ordinária dos delitos sujeitos à competência da Justiça Federal.",
+      "D": "O prazo inicial é de 20 dias, admitida prorrogação por igual período, conforme a disciplina aplicável aos inquéritos conduzidos no âmbito da Justiça Militar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: na Justiça Federal/Polícia Federal o prazo do inquérito com indiciado preso é de 15 dias, prorrogável por mais 15 dias uma única vez (art. 66 da Lei nº 5.010/1966). A alternativa B descreve a regra geral da Justiça Estadual para preso (10 dias, art. 10, caput, do CPP), não o regime federal. A alternativa C traz o prazo de 30 dias com prorrogações sucessivas, que corresponde ao indiciado solto, e não ao preso. A alternativa D apresenta o prazo de 20 dias com prorrogação por igual período, que é o regime da Justiça Militar (CPPM, art. 20), inaplicável aqui.",
+    "referencia": "Cap. 5, Seção 5.21.1 — Prazos de Duração do Inquérito",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1856,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em investigação regida pela Lei de Drogas (Lei nº 11.343/2006), a autoridade policial precisa estimar os prazos de duração do inquérito conforme a situação do investigado. De acordo com o art. 51 dessa lei, quais são os prazos para indiciado preso e para indiciado solto e a regra de prorrogação aplicável?",
+    "alternativas": {
+      "A": "Preso, 10 dias; solto, 30 dias, admitidas prorrogações sucessivas justificadas, seguindo-se a regra geral do Código de Processo Penal para os crimes comuns.",
+      "B": "Preso, 30 dias; solto, 90 dias, podendo cada prazo ser prorrogado pelo mesmo período, uma vez, tanto para o investigado preso quanto para o solto.",
+      "C": "Preso, 15 dias; solto, 30 dias, admitida para o preso uma única prorrogação por mais 15 dias, conforme o regime próprio dos inquéritos federais.",
+      "D": "Preso, 20 dias; solto, 40 dias, admitida ao investigado solto prorrogação por igual período, na forma prevista para os inquéritos da Justiça Militar."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: pelo art. 51 da Lei nº 11.343/2006, o inquérito tem prazo de 30 dias se o indiciado estiver preso e 90 dias se estiver solto, podendo ser prorrogado pelo mesmo período, uma vez, em qualquer das hipóteses. A alternativa A reproduz a regra geral do CPP (10 dias preso / 30 dias solto), não a Lei de Drogas. A alternativa C traz o regime da Justiça Federal (15 dias preso, +15 uma vez / 30 dias solto). A alternativa D corresponde ao regime da Justiça Militar (20 dias preso / 40 dias solto, com igual período para o solto).",
+    "referencia": "Cap. 5, Seção 5.21.1 — Prazos de Duração do Inquérito",
+    "nivel": "medio"
+  },
+  {
+    "id": 1857,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com o investigado preso, a autoridade policial representa ao Juiz das Garantias pela prorrogação do inquérito, sendo o Ministério Público previamente ouvido. À luz do art. 3º-B, VIII e § 2º, do CPP e do entendimento firmado pelo STF nas ADIs 6298 e 6305, qual afirmação está correta sobre essa prorrogação?",
+    "alternativas": {
+      "A": "O Juiz das Garantias pode prorrogar o inquérito por até 15 dias e, embora a redação literal mencione uma única vez, o STF admitiu novas prorrogações fundamentadas diante de elementos concretos e da complexidade do caso.",
+      "B": "O Juiz das Garantias pode prorrogar o inquérito por até 30 dias, prazo prorrogável de forma automática e sucessiva sempre que a autoridade policial assim requerer, independentemente de manifestação prévia do Ministério Público.",
+      "C": "O Juiz das Garantias pode prorrogar o inquérito por até 15 dias uma única e definitiva vez, vedada pelo STF qualquer nova prorrogação, ainda que demonstradas a necessidade e a complexidade da investigação.",
+      "D": "A prorrogação do inquérito com investigado preso independe de decisão do Juiz das Garantias, bastando despacho da própria autoridade policial, ouvido o Ministério Público apenas para fins de controle externo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: o art. 3º-B, VIII e § 2º, do CPP autoriza o Juiz das Garantias, mediante representação da autoridade policial e ouvido o MP, a prorrogar o inquérito por até 15 dias; embora a redação literal diga uma única vez, o STF (ADIs 6298 e 6305) firmou que o juiz pode reconhecer, de forma fundamentada, a necessidade de novas prorrogações diante de elementos concretos e da complexidade. A alternativa B inventa prazo de 30 dias, prorrogação automática e dispensa do MP. A alternativa C contraria o STF ao vedar qualquer nova prorrogação. A alternativa D dispensa indevidamente a decisão judicial, exigida no caso de investigado preso.",
+    "referencia": "Cap. 5, Seção 5.21.2 — Prazos de Duração do Inquérito",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1858,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Esgotado o prazo legal sem conclusão da investigação, a IN nº 255/2023, que disciplina internamente o controle de prazos na Polícia Federal, atribui providências específicas ao Escrivão de Polícia Federal. Conforme o art. 37 dessa instrução normativa e seus parágrafos, qual conjunto de medidas e prazo está corretamente descrito?",
+    "alternativas": {
+      "A": "Cabe ao Escrivão arquivar provisoriamente os autos e aguardar manifestação do Juiz das Garantias, que fixará novo prazo de 15 dias, renovável uma única vez por decisão fundamentada do magistrado, sob pena de extinção.",
+      "B": "Cabe ao Escrivão remeter os autos ao Ministério Público para que este assuma desde logo a presidência do inquérito, fixando-se novo prazo de 60 dias, renovável enquanto perdurarem diligências pendentes de cumprimento.",
+      "C": "Cabe ao Escrivão carregar no sistema do órgão judiciário as peças disponibilizadas, certificar as diligências pendentes e notificar o Ministério Público; fixa-se novo prazo de 90 dias, renovável por igual período ao expirar.",
+      "D": "Cabe ao Escrivão suspender de imediato o curso do inquérito e comunicar o fato à corregedoria do órgão, que estabelecerá novo prazo de 30 dias, findo o qual os autos serão obrigatoriamente arquivados de ofício pela autoridade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: pelo art. 37 da IN nº 255/2023, não concluída a investigação no prazo legal, o Escrivão de Polícia Federal deve carregar no sistema do órgão judiciário as peças disponibilizadas, certificar as diligências pendentes e notificar o MP para controle externo; o § 1º fixa novo prazo de 90 dias, e o § 2º determina que, expirado sem encerramento, o procedimento se repita, atualizando-se o vencimento por igual período. As alternativas A, B e D apresentam providências (arquivamento provisório, remessa ao MP para presidir o inquérito, suspensão pela corregedoria) e prazos (15, 60 e 30 dias) que não constam da norma.",
+    "referencia": "Cap. 5, Seção 5.21.3 — Prazos de Duração do Inquérito",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1859,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A contagem do prazo de duração do inquérito varia conforme a situação do investigado. Sobre as regras de contagem aplicáveis ao investigado preso e ao investigado solto no processo penal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Para o preso, conta-se como prazo processual, excluído o dia de início e computado em dias úteis; para o solto, conta-se como prazo material, em dias corridos, incluído o primeiro dia da respectiva contagem.",
+      "B": "Para o preso, conta-se em dias úteis a partir do primeiro dia subsequente ao da prisão; para o solto, conta-se em dias corridos, incluído o dia de início, por se tratar de prazo de natureza material.",
+      "C": "Para ambos, preso e solto, a contagem segue integralmente a regra do Código de Processo Civil, computando-se apenas os dias úteis e excluindo-se o dia de início do respectivo prazo do inquérito.",
+      "D": "Para o preso, conta-se como prazo material, incluído o dia de início e em dias corridos; para o solto, conta-se como processual, começando no primeiro dia útil subsequente, mas ainda em dias corridos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: para o investigado preso a contagem é de direito material, incluindo o dia de início, desconsiderando frações de dia, em dias corridos; para o solto a contagem é de direito processual penal, iniciando-se no primeiro dia útil subsequente, mas ainda em dias corridos (e não úteis, diferentemente do CPC). A alternativa A inverte as naturezas e introduz dias úteis para o preso. A alternativa B inverte as regras de início e troca a contagem do solto pela do preso. A alternativa C erra ao aplicar a regra de dias úteis do CPC a ambos.",
+    "referencia": "Cap. 5, Seção 5.21.4 — Prazos de Duração do Inquérito",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1860,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A prorrogação do prazo do inquérito, embora juridicamente possível, encontra limites na razoabilidade e pode gerar responsabilização do delegado. Sobre esses limites e a tipificação do art. 31 da Lei nº 13.869/2019 (Lei de Abuso de Autoridade), qual afirmação está correta?",
+    "alternativas": {
+      "A": "A prorrogação não pode se perpetuar de forma injustificada e exige despacho fundamentado; estender injustificadamente a investigação, procrastinando-a em prejuízo do investigado, configura crime de abuso de autoridade.",
+      "B": "A prorrogação pode ser determinada livremente e quantas vezes quiser o delegado, sem necessidade de qualquer despacho fundamentado, pois o art. 31 da Lei nº 13.869/2019 só pune a recusa em instaurar o inquérito, jamais a sua extensão no tempo.",
+      "C": "A prorrogação irrazoável acarreta tão somente sanção de natureza administrativa ao delegado, jamais responsabilização penal, pois a Lei de Abuso de Autoridade exige a comprovação de resultado lesivo efetivo ao patrimônio do investigado.",
+      "D": "A prorrogação deve observar a complexidade do caso, mas, uma vez deferida pelo juiz competente, fica inteiramente imune a qualquer controle posterior, não podendo a procrastinação dos autos render ensejo a apuração por abuso de autoridade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a alternativa A: a prorrogação não pode se perpetuar de forma injustificada, desnecessária ou desproporcional, devendo observar a espécie do delito, a complexidade do caso e despacho fundamentado do delegado indicando as diligências; estender injustificadamente a investigação, procrastinando-a em prejuízo do investigado, é crime do art. 31 da Lei nº 13.869/2019. A alternativa B é falsa porque o art. 31 tipifica justamente a extensão injustificada e a prorrogação exige despacho fundamentado. A alternativa C nega indevidamente a responsabilização penal. A alternativa D afirma erroneamente que o deferimento judicial imuniza o delegado de apuração por abuso.",
+    "referencia": "Cap. 5, Seção 5.21.5 — Prazos de Duração do Inquérito",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1861,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em inquérito que ultrapassou os prazos legais, discute-se a consequência do excesso de prazo conforme a situação do investigado. À luz da jurisprudência pacífica e das regras sobre duração do inquérito, qual afirmação está correta?",
+    "alternativas": {
+      "A": "Estando o investigado preso, o excesso de prazo enseja a anulação do inquérito e a exclusão de todas as provas já produzidas, ainda que colhidas dentro do prazo legal originário.",
+      "B": "Estando o investigado solto, o excesso de prazo invalida o inquérito como um todo, impedindo o oferecimento da denúncia com base nos elementos de informação já reunidos.",
+      "C": "Estando o investigado preso, o excesso de prazo pode ensejar o relaxamento da prisão, mas não invalida a investigação em si nem as provas já colhidas durante o procedimento.",
+      "D": "Tanto para o preso quanto para o solto, o excesso de prazo gera nulidade absoluta da investigação, sem prejuízo apenas dos atos de instrução praticados perante a autoridade judiciária."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: para o investigado preso, o excesso de prazo pode ensejar o relaxamento da prisão, mas não invalida a investigação em si nem as provas já colhidas. A alternativa A erra ao afirmar anulação do inquérito e exclusão das provas. A alternativa B é incorreta porque, para o investigado solto, a jurisprudência é pacífica no sentido de que o excesso de prazo não invalida o inquérito. A alternativa D contraria essas premissas ao sustentar nulidade absoluta da investigação em ambas as situações.",
+    "referencia": "Cap. 5, Seção 5.21.6 — Prazos de Duração do Inquérito",
+    "nivel": "medio"
+  },
+  {
+    "id": 1862,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A duração do inquérito policial decorre diretamente da garantia constitucional da razoável duração do processo. Sobre o fundamento constitucional dos prazos de conclusão do inquérito, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os prazos do inquérito decorrem do princípio do contraditório e da ampla defesa, previsto no art. 5º, LV, da CF/88, plenamente incidente já na fase investigativa preliminar.",
+      "B": "Os prazos do inquérito concretizam a duração razoável do processo, garantia expressa no art. 5º, LXXVIII, da CF/88, aplicada também à fase de investigação policial.",
+      "C": "Os prazos do inquérito derivam da garantia do devido processo legal, do art. 5º, LIV, da CF/88, sendo inaplicável à investigação qualquer ideia de duração razoável do feito.",
+      "D": "Os prazos do inquérito fundam-se na vedação às provas ilícitas, do art. 5º, LVI, da CF/88, voltada a delimitar o tempo de coleta de elementos pela autoridade policial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: os procedimentos de polícia judiciária devem concluir-se em prazo razoável, em aplicação direta do art. 5º, LXXVIII, da CF/88 (duração razoável do processo), estendida à investigação policial. A alternativa A atribui o fundamento ao contraditório e à ampla defesa (art. 5º, LV), que não regem a fixação dos prazos do inquérito. A alternativa C invoca o devido processo legal (art. 5º, LIV) e nega a aplicação da duração razoável à investigação, o que é incorreto. A alternativa D associa os prazos à vedação de provas ilícitas (art. 5º, LVI), sem relação com o tema.",
+    "referencia": "Cap. 5, Seção 5.21 — Prazos de Duração do Inquérito",
+    "nivel": "facil"
+  },
+  {
+    "id": 1863,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de elementos de uma investigação, o Caderno Didático IPO distingue, dentro do item 6.3, as fontes de obtenção (6.3.1) dos formatos do material probatório (6.3.2). Considerando especificamente o que se entende por formato do material probatório, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Refere-se à origem de onde o elemento provém, abrangendo pessoas (vítimas, testemunhas e suspeitos), locais e sistemas geradores passivos de dados dos quais o material é extraído pela equipe.",
+      "B": "Refere-se à forma sob a qual o material se apresenta, podendo ser tangível ou intangível, tais como declarações, documentos, mídias digitais e objetos físicos.",
+      "C": "Refere-se à decisão da acusação sobre quais elementos coletados serão efetivamente selecionados para servir de prova no momento do oferecimento da denúncia, ficando os demais arquivados.",
+      "D": "Refere-se à janela temporal inicial em que as primeiras medidas são adotadas para preservar vestígios, identificar testemunhas e evitar a perda de dados decisivos para a apuração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B está correta porque, conforme o item 6.3.2, o formato é a forma sob a qual o material se apresenta, podendo ser tangível ou intangível (declarações, documentos, mídias digitais, objetos físicos). A alternativa A está errada porque descreve as fontes de obtenção (item 6.3.1 — pessoas, locais e sistemas geradores), e não o formato. A alternativa C está errada porque descreve a seleção de elementos pela acusação (item 6.3.4 — formalização e transparência), não o formato do material. A alternativa D está errada porque descreve o princípio da 'hora de ouro' (item 6.3.3), relativo ao tempo, e não ao formato.",
+    "referencia": "Cap. 6, Seção 6.3.2 — Formatos do material probatório",
+    "nivel": "medio"
+  },
+  {
+    "id": 1864,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante diligência, a equipe da Polícia Federal arrecada, na cena do crime, uma arma de fogo, vestígios biológicos, gravações de CFTV e o depoimento de uma testemunha presencial. Ao classificar esse acervo conforme o item 6.3.2 do Caderno Didático IPO, é correto afirmar que:",
+    "alternativas": {
+      "A": "Todos os elementos arrecadados pertencem necessariamente à categoria do material intangível, pois apenas o objeto físico, isoladamente considerado, configura material de natureza tangível para fins probatórios nos autos.",
+      "B": "Os elementos arrecadados, embora distintos quanto à fonte de origem, recebem todos a mesma e única classificação de sistema gerador passivo de dados a partir do momento em que ingressam validamente nos autos do inquérito.",
+      "C": "O material probatório pode ser tangível ou intangível, de modo que tanto os objetos físicos quanto as declarações, as mídias digitais e os vestígios biológicos integram seus formatos possíveis.",
+      "D": "Somente o depoimento da testemunha constitui material probatório em sentido próprio, pois os objetos e as mídias dependem de posterior conversão em prova pela acusação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa C está correta porque o item 6.3.2 prevê que o material pode ser tangível ou intangível, incluindo declarações, documentos, mídias digitais e objetos físicos (armas, biologia, química), de forma que todos os itens arrecadados configuram formatos possíveis. A alternativa A está errada porque inverte os conceitos: nem todos os elementos são intangíveis, e o objeto físico não é o único tangível. A alternativa B está errada porque confunde formato com fonte de obtenção (6.3.1), tratando 'sistema gerador' como categoria classificatória do acervo. A alternativa D está errada porque o material probatório não se restringe às declarações, e nenhum dos formatos depende de conversão pela acusação para existir como tal.",
+    "referencia": "Cap. 6, Seção 6.3.2 — Formatos do material probatório",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1865,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O item 6.3.2 do Caderno Didático IPO, ao tratar dos formatos do material probatório, condiciona expressamente a validade jurídica desse material à observância de um requisito. Acerca desse requisito e de sua relação com o formato do material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A validade jurídica do material decorre, em essência, da adoção do princípio da hora de ouro, que assegura a coleta imediata dos vestígios e, com isso, torna dispensável a documentação formal posterior dos elementos obtidos.",
+      "B": "A validade jurídica do material decorre da escolha, feita pela acusação, dos elementos reputados efetivamente úteis à denúncia, restando todos os demais excluídos do conjunto probatório a ser disponibilizado às partes.",
+      "C": "A validade jurídica do material depende exclusivamente da fonte de obtenção, de modo que são considerados válidos apenas os elementos provenientes de sistemas geradores passivos, como CFTV e registros bancários.",
+      "D": "A validade jurídica do material, qualquer que seja o seu formato, exige a estrita observância da cadeia de custódia, justamente para preservar a integridade e a rastreabilidade do elemento coletado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A alternativa D está correta porque o item 6.3.2 afirma que o material (tangível ou intangível) 'exige estrita observância da cadeia de custódia para garantir validade jurídica'. A alternativa A está errada porque a hora de ouro (6.3.3) trata da tempestividade da coleta, e a formalização documental é dever expresso (6.3.4), não dispensável. A alternativa B está errada porque a seleção pela acusação (6.3.4) não é o que confere validade jurídica ao material. A alternativa C está errada porque a validade não depende exclusivamente da fonte, e os sistemas geradores são apenas uma das fontes (6.3.1), não a única válida.",
+    "referencia": "Cap. 6, Seção 6.3.2 — Formatos do material probatório",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1866,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um curso de formação, um instrutor sustenta que 'os formatos do material probatório se resumem aos documentos e às declarações, pois somente o que é tangível e palpável pode ser tratado como prova nos autos'. Confrontando essa afirmação com o item 6.3.2 do Caderno Didático IPO, é correto afirmar que:",
+    "alternativas": {
+      "A": "A afirmação está incorreta, pois o material probatório também pode ser intangível, abrangendo, além de documentos e declarações, mídias digitais, imagens, áudio e impressões digitais.",
+      "B": "A afirmação está parcialmente correta, pois, embora existam formatos intangíveis, somente os documentos e as declarações dispensam a observância da cadeia de custódia.",
+      "C": "A afirmação está correta, porquanto o material intangível, como áudios e imagens, não se enquadra entre os formatos do material probatório admitidos pelo Caderno Didático.",
+      "D": "A afirmação está incorreta, pois os formatos do material probatório, na verdade, correspondem às pessoas, aos locais e aos sistemas geradores de onde os elementos são extraídos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A alternativa A está correta porque o item 6.3.2 estabelece que o material pode ser tangível ou intangível, incluindo declarações, documentos, mídias digitais, objetos físicos, impressões digitais, imagens e áudio. A alternativa B está errada porque a observância da cadeia de custódia é exigida para todo o material, qualquer que seja o formato. A alternativa C está errada porque áudios e imagens são expressamente citados como formatos. A alternativa D está errada porque confunde formato com fonte de obtenção (6.3.1 — pessoas, locais e sistemas geradores).",
+    "referencia": "Cap. 6, Seção 6.3.2 — Formatos do material probatório",
+    "nivel": "medio"
+  },
+  {
+    "id": 1867,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o Caderno Didático IPO, ao tratar do desenvolvimento da estratégia de investigação, afirma-se que a estratégia indica os caminhos e atividades para a obtenção de dados e a elucidação do crime. A partir dessa premissa, é correto afirmar que a estratégia investigativa:",
+    "alternativas": {
+      "A": "é selecionada de acordo com o delito apurado, de modo que crimes distintos exigem técnicas distintas, não se intimando por ofício membros de facção para apurar tráfico como se faria em um simples furto.",
+      "B": "deve ser previamente padronizada e aplicada de forma idêntica a todos os delitos, pois a uniformização das técnicas é o que garante a igualdade de tratamento e a previsibilidade exigida da atividade de polícia judiciária moderna.",
+      "C": "consiste em um rol taxativo de diligências fixado em lei, do qual o investigador não pode se afastar ainda que o caso concreto recomende a adoção de outras providências.",
+      "D": "limita-se à descrição abstrata do crime, não abrangendo a definição dos caminhos e das atividades concretas para a obtenção de dados e a elucidação dos fatos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: o texto define a estratégia como o conjunto de caminhos e atividades para obter dados e elucidar o crime, sendo SELECIONADA de acordo com o delito; o próprio Caderno exemplifica que não se intima por ofício membros do PCC para investigar tráfico, pois isso exige técnicas diferentes de um simples furto. B está errada porque contraria justamente a ideia de seleção conforme o delito: a estratégia não é padronizada/uniforme, e sim adaptada a cada tipo de crime. C está errada porque a estratégia não é um rol taxativo fixado em lei, mas a definição dos caminhos investigativos conforme o caso. D está errada porque inverte o conceito: a estratégia não se limita a descrever o crime, e sim a indicar as atividades concretas para a obtenção de dados e a elucidação do delito.",
+    "referencia": "Cap. 7, Seção 7.2 — Desenvolvimento da estratégia de investigação",
+    "nivel": "medio"
+  },
+  {
+    "id": 1868,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Caderno Didático IPO organiza o desenvolvimento da estratégia de investigação em torno de três bases: a cena ou local do crime, as declarações de vítimas e testemunhas e a coleta/análise de dados com ações encobertas. Sobre o fundamento que orienta cada uma dessas bases, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A base da cena do crime apoia-se na validação cruzada de relatos, ao passo que a base das declarações se apoia no monitoramento estruturado e no amadurecimento probatório das fontes orais.",
+      "B": "A base das declarações sustenta-se no princípio de Locard, enquanto a base da cena do crime se sustenta na localização rápida das fontes primárias para evitar a contaminação do relato.",
+      "C": "A base da cena do crime apoia-se no princípio de Locard, a das declarações na atuação proativa para localizar e validar fontes primárias, e a de dados/ações encobertas no monitoramento estruturado e no amadurecimento probatório.",
+      "D": "As três bases compartilham um único e idêntico fundamento, qual seja a produção qualificada de dados por meio de diligências veladas e monitoramento, distinguindo-se entre si apenas pelo órgão policial competente para executá-las em cada fase da apuração."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a letra C: o texto associa expressamente a base da cena/local do crime ao princípio de Locard (todo contato deixa rastro); a base das declarações à atuação policial proativa para localizar rapidamente vítimas e testemunhas (fontes primárias) e validar o relato; e a base de dados/ações encobertas ao monitoramento estruturado e ao amadurecimento probatório. A está errada porque troca os fundamentos: a validação cruzada de relatos pertence às declarações, e o monitoramento estruturado pertence às ações encobertas. B está errada porque inverte Locard (que é da cena, não das declarações) e a localização rápida das fontes (que é das declarações, não da cena). D está errada porque as três bases NÃO têm fundamento idêntico; a produção qualificada de dados por diligências veladas é própria apenas das ações encobertas.",
+    "referencia": "Cap. 7, Seção 7.2 — Desenvolvimento da estratégia de investigação",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1869,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe de investigação avalia, diante de uma organização criminosa complexa, qual base estratégica privilegiar. Considerando a distinção feita pelo Caderno Didático IPO entre as bases da cena do crime, das declarações e da coleta/análise de dados com ações encobertas, é correto afirmar que:",
+    "alternativas": {
+      "A": "a estratégia de ações encobertas, focada na produção qualificada de dados por diligências veladas, é apresentada como a ideal para organizações criminosas complexas, baseando-se no monitoramento estruturado.",
+      "B": "a base da cena do crime é apresentada como a mais indicada para organizações complexas, pois a preservação e o exame acurado do local permitem recolher de imediato todos os indícios físicos, biológicos, químicos e pessoais da estrutura criminosa investigada.",
+      "C": "a base das declarações de vítimas e testemunhas é a única adequada às organizações complexas, já que tais fontes primárias dispensam validação e confronto com outras provas.",
+      "D": "para organizações complexas recomenda-se retomar a estratégia de 1ª Geração, estendendo ao máximo o período encoberto sem recurso a ações ostensivas de busca e apreensão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a letra A: o texto afirma que a estratégia de ações encobertas foca na produção qualificada de dados por meio de diligências veladas, sendo IDEAL para organizações criminosas complexas, com lógica de monitoramento estruturado e amadurecimento probatório. B está errada porque a base da cena do crime trata de indícios deixados no local segundo Locard, não sendo apresentada como a indicada para desarticular organizações complexas. C está errada porque o texto diz justamente o contrário: todo relato deve ser validado e confrontado com outras provas, não dispensa validação. D está errada porque a estratégia de 1ª Geração, que estendia excessivamente o período encoberto, foi superada: atualmente usa-se a busca e apreensão (ação ostensiva) para destravar janelas de oportunidade em ciclo virtuoso.",
+    "referencia": "Cap. 7, Seção 7.2 — Desenvolvimento da estratégia de investigação",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1870,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a evolução da estratégia baseada na coleta e análise de dados e ações encobertas, conforme exposto no Caderno Didático IPO, e a forma como ela se articula com as ações ostensivas na investigação moderna, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "na estratégia de 1ª Geração, a busca e apreensão já funcionava como ação cirúrgica inicial destinada exclusivamente a destravar janelas de oportunidade, sem qualquer prolongamento da fase encoberta da investigação ao longo do tempo.",
+      "B": "atualmente emprega-se a busca e apreensão para destravar janelas de oportunidade, em que uma ação ostensiva gera dados que geram novas ações, num ciclo virtuoso de que a Operação Lava Jato é exemplo.",
+      "C": "a investigação moderna substituiu por completo as ações encobertas pelas ações ostensivas, abandonando os ciclos velados de monitoramento em favor exclusivo de medidas de busca e apreensão.",
+      "D": "os ciclos velados de monitoramento e as ações cirúrgicas ostensivas são estratégias incompatíveis entre si, de modo que a investigação deve optar por apenas uma delas ao longo de toda a apuração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a letra B: o texto descreve que, atualmente, usa-se a estratégia de busca e apreensão para destravar janelas de oportunidade, em que uma ação ostensiva gera dados que geram novas ações em um ciclo virtuoso, citando expressamente a Operação Lava Jato como exemplo. A está errada porque a 1ª Geração caracterizava-se justamente por ESTENDER excessivamente o período encoberto, e não por usar a busca e apreensão como ação cirúrgica para destravar oportunidades (isso é a estratégia atual). C está errada porque a investigação moderna não substituiu nem abandonou as ações encobertas; ela COMBINA ciclos velados e ações cirúrgicas. D está errada porque o texto afirma o oposto: a combinação de ciclos velados e ações cirúrgicas é que compõe as estratégias da investigação moderna, sendo, portanto, complementares.",
+    "referencia": "Cap. 7, Seção 7.2 — Desenvolvimento da estratégia de investigação",
+    "nivel": "medio"
+  },
+  {
+    "id": 1871,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encerrado o cumprimento dos mandados, a equipe retorna à base operacional para realizar a finalização da ação e a formalização dos documentos. Nessa etapa, são apreendidos joias, dinheiro, obras de arte e veículos. Conforme o material, qual é o tratamento adequado a esses bens de valor?",
+    "alternativas": {
+      "A": "Devem aguardar a reunião de debriefing do dia seguinte para que a coordenação delibere, em conjunto com as equipes, sobre a melhor forma de destinação dos bens de valor.",
+      "B": "Devem ser destinados imediatamente pelas equipes, conforme orientações da coordenação da operação, a fim de evitar danos e extravios que prejudiquem a lisura da ação.",
+      "C": "Devem ser mantidos sob a guarda da própria equipe de deflagração até o encerramento do inquérito, quando o juiz competente definirá a destinação de cada bem de valor.",
+      "D": "Devem ser entregues diretamente ao fiel depositário indicado pelo responsável pelo local, dispensada qualquer comprovação no sistema enquanto durarem as diligências."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a p. 96 (item 6.1.6), objetos de valor como joias, dinheiro, obras de arte e veículos deverão ser destinados imediatamente pelas equipes, conforme orientações da coordenação da operação, a fim de evitar danos e extravios que prejudiquem a lisura da ação (B correta). A está errada porque a destinação é imediata, não condicionada ao debriefing, que ademais é reunião de avaliação e nem sempre ocorre. C está errada porque não cabe à equipe manter os bens sob guarda até o fim do inquérito; a destinação é imediata e segue orientação da coordenação. D está errada porque a entrega de bem exige comprovação no sistema — bens movimentados sem essa diligência continuam sob responsabilidade da equipe de deflagração (p. 98).",
+    "referencia": "PDF IPO III, p. 96",
+    "nivel": "medio"
+  },
+  {
+    "id": 1872,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Realizadas as diligências e formalizada a documentação, o material apreendido é entregue à equipe cartorária, que encaminha materiais a unidades de depósito, à perícia, a agências bancárias e a fiel depositário. Sobre a comprovação dessas movimentações, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A comprovação da movimentação é exigida apenas para dinheiro e veículos; demais materiais podem ser encaminhados ao destinatário mediante simples registro verbal à coordenação da operação.",
+      "B": "A comprovação só pode ser feita de forma eletrônica pelo ePol, de modo que, sendo inviável o recebimento eletrônico, a movimentação deverá ser adiada até a regularização do sistema.",
+      "C": "A comprovação pode ser física, por ofícios ou guias, ou eletrônica pelo ePol, e a entrega de bem sem comprovação no sistema mantém o material sob responsabilidade da equipe de deflagração.",
+      "D": "A comprovação da movimentação cabe exclusivamente à equipe de investigação, que recebe os bens da equipe cartorária e assume integralmente a guarda dos materiais a partir desse momento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a p. 97-98 (item 6.1.7), a comprovação da movimentação pode ser física (ofícios ou guias de encaminhamento) ou eletrônica (recebimento de bens ou cautelas pelo ePol); o que deve ser evitado é a entrega de bem sem comprovação no sistema, pois todos os bens movimentados ou destinados sem essa diligência continuam sob responsabilidade da equipe de deflagração (C correta). A está errada porque a comprovação é exigida para a movimentação de materiais em geral, não só dinheiro e veículos. B está errada porque, sendo inviável o ePol, admite-se a comprovação física (carregamento de ofícios ou guias no registro especial), não havendo adiamento. D está errada porque a comprovação cabe a quem movimenta o bem (equipe de deflagração/cartório) e a equipe cartorária só recebe quando a totalidade dos itens for apresentada.",
+    "referencia": "PDF IPO III, p. 97",
+    "nivel": "medio"
+  },
+  {
+    "id": 1873,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o recebimento do material apreendido pela equipe cartorária e a posterior liberação do efetivo ao final da operação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A equipe cartorária só deve receber os materiais quando a totalidade dos itens previstos for apresentada, e a liberação do efetivo depende da autorização da coordenação de execução.",
+      "B": "A equipe cartorária recebe os materiais parcialmente, conforme cada item é conferido, e a liberação do efetivo ocorre automaticamente assim que cada equipe conclui suas próprias diligências.",
+      "C": "A equipe cartorária controla o recebimento, mas a guarda da lista de conferência cabe à coordenação, sendo vedado às equipes projetadas reter cópia da relação dos itens entregues.",
+      "D": "A equipe cartorária entrega o material diretamente à perícia, e a liberação do efetivo é decidida pelo chefe de cada equipe projetada, independentemente da coordenação de execução."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 98 (item 6.1.7), a equipe cartorária controla o recebimento em lista de conferência e somente deve receber os materiais quando a totalidade dos itens previstos for apresentada; a liberação do efetivo só se dará com a autorização da coordenação de execução da operação (A correta). B está errada porque o recebimento ocorre com a totalidade dos itens (não parcial) e a liberação não é automática, depende de autorização. C está errada porque se sugere justamente que a equipe projetada guarde a lista de conferência recebida, a fim de evitar questionamentos posteriores. D está errada porque a equipe cartorária promove a entrega do material à equipe de investigação (não diretamente à perícia) e a liberação cabe à coordenação de execução, não ao chefe de cada equipe.",
+    "referencia": "PDF IPO III, p. 97",
+    "nivel": "medio"
+  },
+  {
+    "id": 1874,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na fase de identificação e registro dos materiais coletados no local de busca, a equipe precisa descrever e etiquetar os itens apreendidos. Conforme o material de Domex, assinale a alternativa correta sobre esse procedimento.",
+    "alternativas": {
+      "A": "A descrição pode se limitar às características externas, como marca, modelo e cor, dispensando-se o número de série dos equipamentos e mídias por já constarem das notas fiscais do investigado.",
+      "B": "As etiquetas identificadoras devem, preferencialmente, ser afixadas sobre as embalagens dos itens, e não sobre o equipamento em si, para evitar a deterioração das superfícies dos aparelhos.",
+      "C": "Documentos em papel encontrados em móveis, caixas ou cômodos distintos podem ser agrupados em uma única embalagem, desde que pertençam ao mesmo local de busca, ainda que de pessoas diferentes.",
+      "D": "A descrição deve identificar univocamente o item, valendo-se de marca, modelo, cor e números de série, e as etiquetas identificadoras devem, preferencialmente, ser afixadas sobre o próprio equipamento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a p. 112 (item 7.3.4), a descrição deve identificar univocamente o item, utilizando, além de características externas como marca, modelo e cor, os números de série dos equipamentos e mídias; e as etiquetas identificadoras devem, preferencialmente, ser afixadas sobre o equipamento em si, não sobre as embalagens (D correta). A está errada porque o número de série integra a descrição que individualiza o item, não sendo dispensável. B está errada porque inverte a regra: a etiqueta vai preferencialmente sobre o equipamento, não sobre a embalagem. C está errada porque documentos em papel de móveis, caixas, pastas ou cômodos distintos devem permanecer separados em diferentes embalagens, não se misturando documentos de ambientes distintos associados a pessoas diferentes.",
+    "referencia": "PDF IPO III, p. 112",
+    "nivel": "medio"
+  },
+  {
+    "id": 1875,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Concluída a arrecadação, a equipe prepara a transferência do material à base, cuidando das embalagens e do transporte. Considerando que documentos em papel e mídias são materiais frágeis, assinale a alternativa correta sobre essa etapa.",
+    "alternativas": {
+      "A": "Os materiais devem, sempre que possível, ser separados em embalagens diferentes, e os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume.",
+      "B": "Os cabos de dados e carregadores devem ser embalados em volume separado do equipamento correspondente, a fim de evitar que o atrito mecânico durante o transporte danifique as mídias.",
+      "C": "As mídias removíveis devem sempre ser agrupadas por tipo em uma única embalagem, ainda que provenientes de ambientes distintos, pois isso facilita a triagem posterior na base operacional.",
+      "D": "Os discos rígidos, por serem frágeis, dispensam embalagem própria, bastando o uso de plásticos opacos para impedir a identificação visual do conteúdo durante o trajeto até a base."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a p. 112-113 (item 7.4), sempre que possível os materiais devem ser separados em embalagens diferentes, dando-se preferência a plásticos transparentes, e os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume (A correta). B está errada porque os cabos de dados, carregadores e demais acessórios devem ser embalados juntamente com o equipamento correspondente. C está errada porque as mídias removíveis podem ser agrupadas por tipo desde que não se misturem mídias de ambientes distintos ou relacionadas a pessoas diferentes — o agrupamento não é irrestrito. D está errada porque os discos rígidos devem ser acondicionados em embalagens próprias e, na falta delas, em proteção improvisada (papelão ou plástico-bolha); a preferência, ademais, é por plásticos transparentes, não opacos.",
+    "referencia": "PDF IPO III, p. 112",
+    "nivel": "medio"
   }
 ];
