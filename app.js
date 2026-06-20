@@ -112,6 +112,9 @@ function atualizarFiltrosDeDisciplina() {
     if (typeof fcToggleCustomDeck === 'function' && typeof fcRenderDecksSelect === 'function') {
         fcRenderDecksSelect();
     }
+
+    // 6. Estatísticas / Dashboard — refletir o cargo nos indicadores e na lista por capítulo
+    if (typeof atualizarTelaDashboard === 'function') atualizarTelaDashboard();
 }
 
 
@@ -925,9 +928,10 @@ function calcularEstatisticasPorCapitulo() {
 
     const statsPorDisc = {};
 
-    // Conta TODAS as questões do banco (total + status)
+    // Conta as questões do banco (total + status), respeitando o filtro de cargo
     bancoQuestoes.forEach(q => {
         const disc = q.disciplina || "Sem Disciplina";
+        if (!disciplinaPermitidaParaCargo(disc)) return;
         const cap = q.conteudo || q.capitulo || "Geral";
 
         if (!statsPorDisc[disc]) {
@@ -1046,15 +1050,35 @@ function calcularEstatisticasPorCapitulo() {
 }
 
 function atualizarTelaDashboard() {
-    document.getElementById('stat-total-resolvidas').textContent = stats.totalResolvidas;
-    document.getElementById('stat-total-acertos').textContent = stats.totalAcertos;
-    document.getElementById('stat-total-erros').textContent = stats.totalErros;
+    // Por padrão usa os contadores globais. Se houver filtro de cargo ativo,
+    // recalcula os totais considerando apenas as disciplinas permitidas ao cargo.
+    let totalResolvidas = stats.totalResolvidas;
+    let totalAcertos = stats.totalAcertos;
+    let totalErros = stats.totalErros;
+    let totalBanco = Array.isArray(bancoQuestoes) ? bancoQuestoes.length : 0;
+
+    if (typeof cargoAtual !== 'undefined' && cargoAtual !== 'todos' && Array.isArray(bancoQuestoes)) {
+        totalResolvidas = 0; totalAcertos = 0; totalErros = 0; totalBanco = 0;
+        bancoQuestoes.forEach(q => {
+            if (!disciplinaPermitidaParaCargo(q.disciplina)) return;
+            totalBanco++;
+            const hist = historicoQuestoes[q.id];
+            if (hist && hist.status) {
+                totalResolvidas++;
+                if (hist.status === 'acerto') totalAcertos++;
+                else if (hist.status === 'erro') totalErros++;
+            }
+        });
+    }
+
+    document.getElementById('stat-total-resolvidas').textContent = totalResolvidas;
+    document.getElementById('stat-total-acertos').textContent = totalAcertos;
+    document.getElementById('stat-total-erros').textContent = totalErros;
 
     // Novos indicadores: total no banco, faltam, taxa
-    const totalBanco = Array.isArray(bancoQuestoes) ? bancoQuestoes.length : 0;
-    const faltam = Math.max(0, totalBanco - stats.totalResolvidas);
-    const taxa = (stats.totalAcertos + stats.totalErros) > 0
-        ? Math.round((stats.totalAcertos / (stats.totalAcertos + stats.totalErros)) * 100)
+    const faltam = Math.max(0, totalBanco - totalResolvidas);
+    const taxa = (totalAcertos + totalErros) > 0
+        ? Math.round((totalAcertos / (totalAcertos + totalErros)) * 100)
         : 0;
 
     const elFaltam = document.getElementById('stat-total-faltam');
