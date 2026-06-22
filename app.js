@@ -216,11 +216,18 @@ document.addEventListener('DOMContentLoaded', () => {
     inputUser.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') tryLogin(inputUser.value);
     });
+
+    // Manter logado: se já houve login aprovado neste navegador, restaura a sessão
+    // automaticamente, sem precisar digitar de novo. O controle de acesso
+    // (pendente/bloqueado) continua sendo revalidado pela API dentro de tryLogin.
+    if (savedUser && savedUser.trim().length >= 2) {
+        tryLogin(savedUser, true);
+    }
 });
 
-async function tryLogin(username) {
+async function tryLogin(username, autoRestore = false) {
     if (!username || username.trim().length < 2) {
-        alert("Digite um nome válido com pelo menos 2 caracteres.");
+        if (!autoRestore) alert("Digite um nome válido com pelo menos 2 caracteres.");
         return;
     }
     
@@ -285,10 +292,12 @@ async function tryLogin(username) {
         localStorage.removeItem('pcpr_notes');
     }
     
-    // Carregar dados da nuvem
-    try {
+    // Carregar dados da nuvem (na restauração de sessão isto é pulado: usamos os
+    // dados locais deste navegador — rápido e funciona offline. A sincronização
+    // entre dispositivos continua disponível no botão da nuvem.)
+    if (!autoRestore) try {
         const response = await fetch(`${VERCEL_API_URL}/api/load?username=${encodeURIComponent(user)}`);
-        
+
         if (response.ok) {
             const result = await response.json();
             if (result.data) {
