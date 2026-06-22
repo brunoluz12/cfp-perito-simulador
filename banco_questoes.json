@@ -28805,5 +28805,770 @@
     "justificativa": "Conforme a p. 112-113 (item 7.4), sempre que possível os materiais devem ser separados em embalagens diferentes, dando-se preferência a plásticos transparentes, e os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume (A correta). B está errada porque os cabos de dados, carregadores e demais acessórios devem ser embalados juntamente com o equipamento correspondente. C está errada porque as mídias removíveis podem ser agrupadas por tipo desde que não se misturem mídias de ambientes distintos ou relacionadas a pessoas diferentes — o agrupamento não é irrestrito. D está errada porque os discos rígidos devem ser acondicionados em embalagens próprias e, na falta delas, em proteção improvisada (papelão ou plástico-bolha); a preferência, ademais, é por plásticos transparentes, não opacos.",
     "referencia": "PDF IPO III, p. 112",
     "nivel": "medio"
+  },
+  {
+    "id": 1876,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um seminário sobre os fundamentos epistemológicos da investigação policial, quatro participantes resumem aspectos da concepção de ciência de Karl Popper adotada institucionalmente. Considerando as conclusões popperianas sobre a investigação científica expostas no Caderno, assinale a alternativa que descreve corretamente um desses aspectos:",
+    "alternativas": {
+      "A": "A finalidade da investigação é alcançar a verdade real e absoluta dos fatos, núcleo que diferencia a produção científica do conhecimento meramente conjectural e provisório.",
+      "B": "As regras metodológicas têm justificação pragmática, e não teórica, não podendo ser concebidas de forma dissociada do caso concreto em que são empregadas.",
+      "C": "O problema deve ser formulado de modo objetivo e preciso, condição cuja ausência confere à investigação o caráter de um processo conduzido no vazio metodológico, mas igualmente científico.",
+      "D": "A hipótese que resiste a testes rigorosos converte-se em teoria verdadeira, encerrando-se quanto a ela a necessidade de submetê-la a novos esforços de refutação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Entre as conclusões popperianas, consta que as regras metodológicas possuem justificação pragmática (não teórica) e não podem ser concebidas dissociadas do caso concreto; logo, a resposta é B. A inverte a finalidade descrita no Caderno: Popper busca uma verdade formal aproximada e corrigível, afastando-se justamente da noção de verdade real/absoluta, de modo que apontar a verdade absoluta como finalidade troca a concepção popperiana por aquela que ele rejeita. C acerta a exigência de um problema objetivo e preciso, mas comete erro conceitual ao afirmar que a investigação no vazio metodológico seria 'igualmente científica' — o texto sustenta o oposto: a investigação não prospera no vazio metodológico, sendo a formulação precisa do problema condição para que ela seja científica. D contraria o critério de corroboração: uma hipótese que resiste aos testes não se torna verdadeira nem fica imune a novos testes, sendo apenas corroborada provisoriamente, pois a ciência permanece em contínua reconstrução e aberta à refutação.",
+    "referencia": "Cap. 3, Seção 3.1 — Teoria de Karl Popper",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1877,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um instrutor distingue, na obra de John Dewey, as cinco etapas fundamentais comuns a toda investigação (mnemônico SI-LO-SU-EN-SO) e os seis estágios do padrão geral de investigação (mnemônico Re-De-For-A-Ve-C). Sobre essa diferenciação e o caráter do percurso investigativo em Dewey, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "As cinco etapas comuns descrevem um percurso rígido e estritamente linear, ao passo que os seis estágios do padrão geral admitem retornos a fases anteriores conforme a investigação avança.",
+      "B": "Tanto as cinco etapas comuns quanto os seis estágios reservam a delimitação precisa do problema como momento inicial, do qual emerge, em seguida, o reconhecimento da situação indeterminada.",
+      "C": "A localização do problema, presente entre as cinco etapas comuns, corresponde, no padrão geral, ao estágio de delimitação precisa do problema, situado após o reconhecimento da situação indeterminada.",
+      "D": "A sugestão de solução, entre as cinco etapas, equivale, no padrão geral, ao estágio de análise das consequências lógicas das hipóteses, etapa que antecede a própria formulação das hipóteses explicativas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Nas cinco etapas comuns (SI-LO-SU-EN-SO), a localização do problema sucede a situação indeterminada; no padrão geral (Re-De-For-A-Ve-C), o reconhecimento da situação indeterminada precede a delimitação precisa do problema (instituição do problema). A localização do problema e a delimitação precisa exprimem o mesmo momento lógico em cada lista, daí a correção de C. A erra ao atribuir linearidade rígida à investigação: o Caderno afirma que o percurso ocorre de forma flexível e adaptativa, não estritamente linear, exigindo retornos a fases anteriores — caráter que vale para o processo investigativo deweyano como um todo, e não apenas para um dos esquemas. B inverte a ordem lógica: o reconhecimento da situação indeterminada é o ponto de partida e a delimitação do problema vem depois, jamais o contrário, pois a indeterminação é anterior à instituição do problema. D inverte a sequência interna do padrão: a formulação de hipóteses explicativas antecede a análise de suas consequências lógicas, de modo que a sugestão de solução corresponde à formulação, e não à análise.",
+    "referencia": "Cap. 3, Seção 3.4 — Padrão de Investigação de Dewey",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1878,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao comparar os referenciais teóricos da investigação científica adotados pela doutrina institucional, um candidato precisa atribuir corretamente cada noção ao seu autor — Karl Popper ou John Dewey — e à respectiva função no método. Assinale a alternativa em que a atribuição está integralmente correta:",
+    "alternativas": {
+      "A": "Para Dewey, a investigação científica é um aperfeiçoamento sistemático da investigação do senso comum, e a lógica corresponde ao estudo das operações efetivas que compõem o ato de investigar.",
+      "B": "Para Dewey, a lógica é um conjunto imutável e abstrato de regras formais, anterior à experiência concreta, do qual o investigador deduz a verdade definitiva da hipótese por meio do modus tollendo tollens.",
+      "C": "Para Popper, o critério que separa a ciência da não-ciência é a situação indeterminada, que precisa ser instituída como problema antes de a hipótese ser exposta a testes cruciais de refutação.",
+      "D": "Para Dewey, o critério da falseabilidade é o que separa a ciência da não-ciência, exigindo hipóteses ousadas e testes cruciais voltados à eliminação do erro pela inferência dedutiva."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São de Dewey tanto a tese da continuidade evolutiva (a investigação científica como aperfeiçoamento sistêmico da do senso comum, sem ruptura total) quanto a concepção instrumental e pragmática da lógica como estudo das operações efetivas do investigar; por isso, a resposta é A. B descreve uma concepção de lógica que é exatamente o oposto da de Dewey (para quem a lógica não é conjunto imutável e abstrato anterior à experiência) e ainda lhe acopla o modus tollendo tollens, que é instrumento dedutivo popperiano voltado à refutação, e não à dedução da verdade definitiva da hipótese. C mistura indevidamente os autores: a situação indeterminada e a instituição do problema estruturam o padrão de Dewey, ao passo que o critério que separa ciência de não-ciência em Popper é a falseabilidade, e não a indeterminação. D atribui a Dewey o critério da falseabilidade, que é de Popper — a separação entre ciência e não-ciência e os testes cruciais pertencem à teoria popperiana, não à deweyana.",
+    "referencia": "Cap. 3, Seção 3.3 — Lógica na Teoria de Investigação de Dewey",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1879,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma operação complexa, o delegado depara-se com quatro situações simultâneas e precisa identificar qual princípio da investigação policial rege cada decisão: (i) recusa-se a terceirizar diligências a uma empresa privada de segurança contratada pela vítima; (ii) determina que todas as linhas investigativas convirjam para a elucidação integral do fato, sem fragmentar a apuração em apurações estanques; (iii) concentra os recursos nos alvos efetivamente pertinentes aos fatos, descartando linhas dispersivas; (iv) ajusta o cronograma para obter o melhor resultado com o menor dispêndio de pessoal e equipamentos. Assinale a alternativa que atribui corretamente o princípio a cada situação:",
+    "alternativas": {
+      "A": "(i) exclusividade; (ii) unidade; (iii) objetividade; (iv) economicidade.",
+      "B": "(i) exclusividade; (ii) objetividade; (iii) unidade; (iv) economicidade.",
+      "C": "(i) disciplina; (ii) unidade; (iii) economicidade; (iv) objetividade.",
+      "D": "(i) impessoalidade; (ii) objetividade; (iii) unidade; (iv) proporcionalidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A recusa de delegar a apuração a entidade privada decorre da exclusividade (função típica do Estado, exercida pelas polícias judiciárias, indelegável a particulares); a convergência de todas as diligências para a elucidação do fato como um todo é a unidade (processo único e integrado); a concentração nos alvos pertinentes, evitando dispersões, é a objetividade; e o melhor resultado com o menor dispêndio de recursos é a economicidade — exatamente a combinação de A. B inverte objetividade e unidade: em (ii) o que está descrito (convergência/integração) é unidade, e em (iii) (foco nos alvos pertinentes) é objetividade; B troca os rótulos desses dois institutos vizinhos. C erra duas atribuições: (i) não é disciplina (que diz respeito à hierarquia interna e ao cumprimento de ordens pela equipe, não à vedação de delegação a terceiros) e ainda inverte economicidade com objetividade em (iii) e (iv). D atribui a (i) a impessoalidade (que trata de isenção/imparcialidade, não da titularidade estatal exclusiva da apuração) e rotula (iv) como proporcionalidade (adequação/necessidade/proporcionalidade em sentido estrito, filtro contra excessos), quando a boa gestão de recursos com menor dispêndio é economicidade.",
+    "referencia": "Cap. 4, Seção 4.2 — Princípios",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1880,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um analista compara, ponto a ponto, a atividade de inteligência policial e a atividade de polícia judiciária (investigação), valendo-se do quadro comparativo do Caderno. Considerando as características de cada atividade quanto ao controle externo, à cadeia de custódia da informação, à noção de verdade adotada e aos documentos típicos produzidos, assinale a alternativa em que TODAS as correspondências estão tecnicamente corretas:",
+    "alternativas": {
+      "A": "Na inteligência, o controle externo cabe ao Ministério Público e a verdade é aferida conforme os meios admitidos em Direito; na investigação, o controle externo cabe ao Poder Legislativo e a verdade decorre do estado da mente do analista.",
+      "B": "Na inteligência, há pleno compromisso com a origem da informação na cadeia de custódia e os documentos típicos são a Informação de Polícia Judiciária e o Auto Circunstanciado; na investigação, não há compromisso com a origem e o documento típico é o Relatório de Inteligência.",
+      "C": "Na inteligência, o controle externo é exercido pelo Poder Legislativo e não há compromisso com a origem da informação; na investigação, o controle externo é do Ministério Público e o valor probatório depende da licitude desde a origem.",
+      "D": "Na inteligência, a verdade é construída de acordo com os meios admitidos em Direito e o destino é o processo penal; na investigação, a verdade é aferida conforme o estado da mente e o destino é o processo decisório do gestor."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo quadro do Caderno, na inteligência o controle externo é do Poder Legislativo (CCAI) e não há compromisso com a origem da informação, ao passo que na investigação o controle externo é do Ministério Público e o valor probatório depende da licitude desde a origem — o que torna C integralmente correta. A inverte os controles externos (atribui ao MP a inteligência e ao Legislativo a investigação) e troca a noção de verdade, pois é a inteligência que opera 'conforme o estado da mente' e a investigação que se vincula aos meios admitidos em Direito. B inverte a cadeia de custódia e os documentos: é a investigação (não a inteligência) que exige compromisso com a origem/licitude e cujos documentos são a IPJ e o Auto Circunstanciado, ao passo que o Relatório de Inteligência é documento da atividade de inteligência. D inverte tanto a verdade quanto o destino: a verdade conforme os meios admitidos em Direito e o destino 'processo penal' são da investigação, enquanto a verdade 'conforme o estado da mente' e o destino 'processo decisório' são da inteligência.",
+    "referencia": "Cap. 4, Seção 4.6 — Diferença entre investigação policial e inteligência policial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1881,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma aula sobre a evolução histórica da investigação criminal e sobre a recuperação de ativos, o instrutor pede que se identifique a única afirmação tecnicamente correta, combinando os marcos históricos do Caderno com a disciplina contemporânea da descapitalização do crime. Assinale-a:",
+    "alternativas": {
+      "A": "Eugène-François Vidocq é apontado como o Pai da Ciência da Investigação Criminal, ao passo que o confisco alargado, previsto no art. 91-A do Código Penal, alcança o patrimônio incongruente com a renda lícita do agente.",
+      "B": "Hans Gross dirigiu a Sûreté e introduziu agentes infiltrados, ao passo que o ciclo da recuperação de ativos compreende cinco etapas: identificar, apreender, administrar, alienar e destinar.",
+      "C": "Joseph Fouché desenvolveu o método abdutivo de inferência, ao passo que a Instrução Normativa nº 255/2023-DG/PF elevou a recuperação de ativos a objetivo tático-operacional da investigação.",
+      "D": "Hans Gross é apontado como o Pai da Ciência da Investigação Criminal, ao passo que o confisco alargado, previsto no art. 91-A do Código Penal, permite alcançar o patrimônio incongruente com a renda lícita do agente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O Caderno aponta Hans Gross como o Pai da Ciência da Investigação Criminal e descreve o confisco alargado (art. 91-A do CP) como instrumento apto a alcançar o patrimônio incongruente com a renda lícita — ambas as proposições de D estão corretas. A acerta a segunda parte (confisco alargado), mas erra a primeira: o Pai da Ciência da Investigação Criminal é Hans Gross, não Vidocq (a quem o Caderno atribui a direção da Sûreté, com agentes infiltrados e informantes). B troca os papéis históricos: foi Vidocq, e não Hans Gross, quem dirigiu a Sûreté e introduziu agentes infiltrados — embora a descrição do ciclo RECUPERA (identificar, apreender, administrar, alienar e destinar) esteja correta, a primeira parte inviabiliza a alternativa. C atribui a Fouché o método abdutivo de inferência, que o Caderno credita a Charles Sanders Peirce — Fouché estruturou a Gendarmerie, catalogação de criminosos e vigilância; ainda que a parte sobre a IN nº 255/2023 esteja correta, a atribuição histórica está errada.",
+    "referencia": "Cap. 4, Seção 4.4.1 — A Recuperação de ativos como objetivo da investigação policial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1882,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Inquérito da Polícia Federal já em andamento sobre desvio de verbas revela, no curso das diligências, indícios de participação de pessoa detentora de foro perante tribunal superior. A autoridade policial precisa definir as providências cabíveis e a repartição de competências entre os atores envolvidos. Considerando a disciplina do foro por prerrogativa de função e o fluxo da CINQ, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Surgido o envolvimento de pessoa com foro no curso do feito, a autoridade policial deve remeter desde logo a notícia-crime e os documentos diretamente ao tribunal superior, sem representar ao juízo inicialmente competente, pois nesse caso já não há competência prévia a ser declinada.",
+      "B": "A autoridade policial deve paralisar os atos investigativos e representar ao juízo inicialmente competente para que decline a competência, cabendo ao tribunal superior — e não ao delegado — promover o desmembramento entre quem tem e quem não tem foro.",
+      "C": "Cabe à própria autoridade policial promover o desmembramento, prosseguindo na apuração quanto aos investigados sem foro e remetendo à CINQ a parcela relativa ao detentor de prerrogativa, desde que aceito o declínio pelo tribunal superior.",
+      "D": "A delegação de diligências feita pela CINQ às unidades descentralizadas tem caráter definitivo após o aceite do tribunal superior, de modo que, uma vez delegada a investigação, o Diretor do Dicor não pode mais revogá-la durante o curso do feito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quando o foro surge no curso de investigação já em andamento (identificação DEPOIS), o procedimento correto é paralisar os atos, representar ao juízo inicialmente competente para que decline a competência ao tribunal superior e, aceito o declínio, encaminhar à CINQ; e o desmembramento entre quem tem e quem não tem foro cabe ao próprio tribunal superior, não ao delegado — exatamente o que afirma B. A descreve a hipótese de identificação ANTES do início da apuração (remessa imediata ao Judiciário/MP), regra que não se aplica quando a investigação já está em andamento, pois aqui existe juízo competente cuja declinação precisa ser provocada. C inverte a competência para o desmembramento: ele é atribuição do tribunal superior, e não da autoridade policial, que não pode cindir a investigação por conta própria. D contraria a natureza precária da delegação: a delegação da CINQ pode ser revogada a qualquer tempo pelo Diretor do Dicor, após consulta à Corregedoria-Geral, não sendo definitiva.",
+    "referencia": "Cap. 5, Seção 5.20.3 — Aprofundamento — Foro por Prerrogativa de Função (Identificação DEPOIS de iniciada a investigação)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1883,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em quatro inquéritos distintos, a autoridade policial precisa fixar os prazos de conclusão e o regime de prorrogação conforme a legislação aplicável a cada caso: crime contra a economia popular (Lei nº 1.521/1951), apuração na Justiça Militar (CPPM), tráfico de drogas (Lei nº 11.343/2006) e crime federal comum (Lei nº 5.010/1966). Sobre esses regimes de prazos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Nos crimes contra a economia popular, o prazo é de 10 dias para o investigado preso e de 30 dias para o solto, admitindo-se, quanto ao solto, prorrogações sucessivas justificadas, à semelhança do regime geral do CPP.",
+      "B": "Na Justiça Militar, os prazos são de 15 dias para o preso e 30 dias para o solto, podendo o prazo relativo ao preso ser prorrogado uma única vez por mais 15 dias, tal como ocorre no inquérito da Justiça Federal.",
+      "C": "Na Lei de Drogas, o prazo é de 30 dias para o preso e 90 dias para o solto, sendo a prorrogação admitida por prazo indeterminado e por quantas vezes forem justificadamente necessárias, conforme a maior ou menor complexidade do feito investigado.",
+      "D": "Na Justiça Federal, o inquérito com indiciado preso conclui-se em 15 dias, prorrogáveis por mais 15 por uma vez, ao passo que, na Lei de Drogas, o prazo do preso é de 30 dias, prorrogável por igual período uma única vez."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O regime da Justiça Federal (art. 66 da Lei nº 5.010/1966) prevê 15 dias para o preso, com prorrogação de +15 dias por uma vez, e a Lei de Drogas (art. 51 da Lei nº 11.343/2006) prevê 30 dias para o preso, prorrogável pelo mesmo período uma única vez — combinação exata de D. A erra quanto à economia popular: o prazo é de 10 dias tanto para preso quanto para solto, e não 30 dias para o solto, não havendo previsão expressa de prorrogação (a doutrina a admite só excepcionalmente para o solto), de modo que a assertiva troca esse regime pelo do CPP geral. B atribui à Justiça Militar prazos que não são os seus: no CPPM (art. 20) os prazos são de 20 dias para o preso e 40 dias para o solto, prorrogando-se por igual período apenas o do solto, e não o do preso — a alternativa importa indevidamente os números e a lógica de prorrogação da Justiça Federal. C distorce a regra da Lei de Drogas: a prorrogação se dá pelo mesmo período e uma única vez, não por prazo indeterminado nem por número ilimitado de vezes.",
+    "referencia": "Cap. 5, Seção 5.21.1 — Aprofundamento — Prazos de Duração do Inquérito (Tabela comparativa — Prazos por legislação)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1884,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 5 - Inquérito Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante curso de atualização, discutem-se as características do inquérito policial sistematizadas pela Polícia Federal (mnemônico \"O SITIÃO\") e seus reflexos práticos na atuação da autoridade. Considerando a distinção técnica entre indisponibilidade, obrigatoriedade e discricionariedade, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Pela característica da obrigatoriedade, diante de notícia de crime de ação penal pública incondicionada a instauração é não só obrigatória como também automática, ficando a autoridade policial vinculada à simples comunicação do fato, prescindindo-se de juízo prévio acerca de indícios e da existência de justa causa mínima.",
+      "B": "A discricionariedade da autoridade na escolha e na ordem das diligências é plena também quanto aos crimes que deixam vestígio, hipótese em que o delegado pode, fundamentadamente, substituir o exame de corpo de delito por outros elementos de convicção que repute igualmente suficientes ao deslinde do caso.",
+      "C": "Pela característica da indisponibilidade, a autoridade policial não pode determinar o arquivamento dos autos do inquérito (art. 17 do CPP), competindo a promoção do arquivamento ao Ministério Público ou ao Judiciário, de sorte que o delegado relata e encaminha, mas não arquiva.",
+      "D": "Como o inquérito é indisponível, também a autoridade policial fica impedida de avocar ou redistribuir o feito, providência que, por igual razão, ficaria reservada à decisão judicial fundamentada no interesse público, sendo vedada por ato da própria autoridade administrativa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A indisponibilidade significa que a autoridade policial não pode mandar arquivar os autos do inquérito (art. 17 do CPP); quem promove o arquivamento é o MP ou o Judiciário, cabendo ao delegado relatar e encaminhar, jamais arquivar — exatamente o conteúdo de C. A erra ao confundir obrigatoriedade com automaticidade: a instauração é, de regra, obrigatória, mas NÃO automática, pois a autoridade realiza análise técnica prévia sobre indícios e justa causa, não ficando vinculada à simples comunicação. B desvirtua a exceção à discricionariedade: nos crimes que deixam vestígio a perícia (corpo de delito) é justamente obrigatória, de modo que o delegado não pode substituí-la livremente por outros elementos — a alternativa inverte a regra ao tratar como espaço de livre escolha aquilo que é exceção restritiva da discricionariedade. D mistura indevidamente institutos: o limite à avocação/redistribuição decorre do princípio do delegado natural (art. 2º, § 4º, da Lei nº 12.830/2013), que admite a medida por decisão administrativa devidamente fundamentada no interesse público, e não da indisponibilidade nem de exclusiva decisão judicial.",
+    "referencia": "Cap. 5, Seção 5.5 — Características (Indisponível / Obrigatório)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1885,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma apuração de organização criminosa, o investigador identifica em si próprio quatro tendências cognitivas distintas ao longo dos trabalhos. Considerando as armadilhas e vieses descritos na metodologia da investigação policial, assinale a alternativa em que a tendência está corretamente nomeada de acordo com a conduta efetivamente praticada:",
+    "alternativas": {
+      "A": "Ao priorizar os elementos que reforçam a tese inicial e relegar os indícios que a contrariam, o investigador incorre na generalização indevida, deduzindo de um caso particular uma regra aplicável ao conjunto dos envolvidos.",
+      "B": "Ao reduzir um esquema de lavagem composto por múltiplas camadas societárias a uma explicação única e linear, o investigador incorre no viés de confirmação, tratando como certo o que ainda não foi materialmente provado.",
+      "C": "Ao deixar de ouvir moradores sob o argumento de que 'ninguém fala nada nesse bairro', o investigador incorre na generalização indevida, projetando sobre a vizinhança um comportamento atribuído a poucos.",
+      "D": "Ao aceitar como demonstrada a participação de um suspeito antes de produzida prova material a respeito, o investigador incorre na simplificação exagerada, delimitando em termos simplórios um fato de elevada complexidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Deixar de ouvir testemunhas porque 'ninguém fala nada nesse bairro' é o exemplo textual de generalização indevida ('se alguns são, todos são'), que deduz erroneamente de um caso particular para a coletividade; logo, a resposta é C. A descreve a conduta do viés de confirmação (visão antecipada): focar nos elementos que confirmam a hipótese inicial e ignorar provas em contrário — mas a nomeia como 'generalização indevida', trocando um viés por outro. B descreve corretamente a simplificação exagerada (delimitar fatos complexos em explicações simplórias), porém a rotula como 'viés de confirmação' e ainda lhe acopla a definição de 'tomar suposições como certas', misturando institutos distintos. D descreve a conduta de 'tomar suposições como certas' (acreditar no que ainda não foi materialmente provado), mas a nomeia como 'simplificação exagerada', invertendo a correspondência entre conduta e viés.",
+    "referencia": "Cap. 6, Seção 6.5 — Atenção ao risco de vieses condicionados",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1886,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao confeccionar a hipótese criminal em inquérito sobre desvio de verbas federais, o Delegado distribui as informações disponíveis pelos elementos do mnemônico T-L-A-P-V-C. Sobre a função de cada elemento da hipótese criminal e suas consequências, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O elemento 'verbo' tem por consequência a definição do foro por prerrogativa de função e da prescrição, sendo o núcleo a partir do qual se afere a competência territorial da apuração.",
+      "B": "O elemento 'autoria/coautoria' constitui o elemento fulcral da hipótese, de modo que, ausente o núcleo da conduta, remanesce a justa causa para investigar a pessoa em vez do fato.",
+      "C": "O elemento 'participação' delimita o modo de execução do crime e a incidência de atenuantes e agravantes, enquanto as 'circunstâncias' definem o grau de auxílio prestado por cada agente ao resultado.",
+      "D": "O elemento 'tempo' do fato tem por consequência a definição da prescrição e a utilidade de certas técnicas, ao passo que o 'local' implica a fixação da jurisdição e da unidade responsável."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme os elementos da hipótese criminal, o 'tempo' define a prescrição e a utilidade de técnicas (lapso temporal) e o 'local' define a jurisdição e a unidade responsável; ambas as atribuições estão corretas em D. A troca as consequências: a definição do foro por prerrogativa e da prescrição decorre da 'autoria/coautoria', não do 'verbo' — o verbo é o núcleo vital cuja ausência retira a justa causa, e não o critério de competência territorial. B inverte conceitos centrais: o elemento fulcral é o 'verbo' (sem ele investiga-se ilegalmente a pessoa, e não o fato), e não a 'autoria'; ademais, ausente o verbo desaparece — e não remanesce — a justa causa. C inverte as definições de dois elementos: a 'participação' é que exprime o grau de auxílio no crime, ao passo que as 'circunstâncias' é que abrangem o modo de execução, atenuantes e agravantes.",
+    "referencia": "Cap. 6, Seção 6.8.1 — Elementos da hipótese criminal",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1887,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao assumir inquérito instaurado por seu antecessor, o Delegado promove a releitura crítica de todo o material já produzido antes de decidir as próximas diligências. Considerando a avaliação do material reunido e a dinâmica do ciclo investigativo, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A avaliação do material deve ocorrer em 'tempo lento', com distanciamento crítico, e o ciclo investigativo opera em espiral — coleta, avaliação, decisão, execução e nova avaliação — até a responsabilização penal ou o arquivamento.",
+      "B": "A avaliação do material reunido encerra-se com a primeira atribuição de significado aos elementos coletados, pois o ciclo investigativo é linear e se conclui assim que a hipótese inicial é confirmada pela diligência subsequente que se segue.",
+      "C": "A avaliação do material deve ser feita sob a lógica da 'hora de ouro', priorizando a velocidade da decisão sobre o distanciamento crítico, dado que o tempo figura como o principal inimigo da prova durante a apuração inteira.",
+      "D": "A avaliação do material reunido orienta-se pela falseabilidade da hipótese criminal, de modo que cada elemento coletado passa a ter por função própria confirmar ou refutar o núcleo verbal da conduta concretamente investigada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Caderno determina que o material seja submetido a avaliação contínua em 'tempo lento' (distanciamento crítico) e que a investigação opere num processo interativo em espiral — coleta, avaliação de significado, tomada de decisão, execução e nova avaliação — até obter provas para responsabilização penal ou o arquivamento; logo, A está correta. B contraria a natureza do ciclo: a avaliação é contínua e em espiral, não se encerrando na primeira atribuição de significado nem se esgotando com a confirmação da hipótese inicial, pois a espiral pressupõe reavaliações sucessivas. C confunde institutos de seções distintas: a lógica da 'hora de ouro' (velocidade, item 6.3.3) é própria das primeiras medidas de coleta, enquanto a avaliação do material (item 6.4) exige o 'tempo lento' e o distanciamento crítico, e não a primazia da velocidade. D restringe indevidamente a função da avaliação: o exame contínuo busca decidir o que cada elemento prova e que diligência se justifica, orientando todo o esforço investigativo, e não se limita a confirmar ou refutar o núcleo verbal, que é só um dos elementos da hipótese criminal.",
+    "referencia": "Cap. 6, Seção 6.4 — A avaliação do material reunido",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1888,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma unidade da Polícia Federal, discute-se a qual fase estrutural da investigação pertence cada conjunto de providências adotadas no início de uma apuração. Considerando as fases sucessivas e interdependentes descritas no Caderno IPO — instigação, avaliação preliminar, instauração (avaliação investigativa), instrução probatória e conclusão — assinale a alternativa que atribui corretamente a providência à respectiva fase:",
+    "alternativas": {
+      "A": "A delimitação do objeto, a correlação da conduta ao tipo penal e a definição das linhas de investigação a partir das variáveis tempo, local e autoria integram a avaliação preliminar, momento que antecede a formalização do procedimento.",
+      "B": "A aferição da plausibilidade, da relevância, da confiabilidade e da admissibilidade da informação compõe a fase de instigação, primeiro contato com a notícia do fato por meio de atendimento, requisição ou descoberta acidental.",
+      "C": "A coleta sistemática de provas voltada a testar as hipóteses formuladas constitui a avaliação investigativa, etapa em que se formaliza o procedimento por portaria ou por auto de prisão em flagrante.",
+      "D": "A análise da plausibilidade, relevância, confiabilidade e admissibilidade, somada à adoção de medidas urgentes para evitar perda de provas, integra a avaliação preliminar, anterior à formalização do procedimento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A avaliação preliminar é a fase em que se examinam plausibilidade, relevância, confiabilidade e admissibilidade da informação e em que se adotam, com urgência, medidas para evitar a perda de provas (princípio da oportunidade), antes de o procedimento ser formalizado — exatamente o descrito em D. A está errada porque a delimitação do objeto, a correlação da conduta ao tipo penal e a definição das linhas de investigação pelas variáveis (tempo, local, autoria, participação, circunstâncias e verbo) pertencem à instauração (avaliação investigativa), e não à avaliação preliminar; o distrator desloca a providência para a fase imediatamente anterior. B troca o conteúdo das fases: os critérios de plausibilidade/relevância/confiabilidade/admissibilidade são da avaliação preliminar, ao passo que a instigação é apenas o primeiro contato com a notícia do fato (atendimento, requisição, descoberta acidental), sem esse juízo de admissibilidade. C confunde a instrução probatória com a instauração: a coleta sistemática de provas para testar hipóteses é a instrução probatória (momento nuclear), enquanto a formalização por portaria ou por auto de prisão em flagrante caracteriza a instauração — o distrator funde duas fases distintas.",
+    "referencia": "Cap. 7, Seção 7.1.2 — Fases da investigação",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1889,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao planejar a apuração de uma organização criminosa complexa, o delegado avalia as bases estratégicas descritas no Caderno IPO e a evolução da estratégia fundada na coleta e análise de dados e ações encobertas. Sobre essa estratégia e seu modo de articulação com as ações ostensivas, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A estratégia baseada na cena ou local do crime ampara-se no princípio de Locard e, por privilegiar o exame de indícios físicos e biológicos, é a base eleita para a desarticulação de organizações criminosas dedicadas a crimes financeiros de longa duração.",
+      "B": "A estratégia atual emprega a busca e apreensão para destravar janelas de oportunidade, de modo que a ação ostensiva gera dados que ensejam novas ações, em um ciclo virtuoso que combina diligências veladas e ações cirúrgicas.",
+      "C": "A estratégia de 1ª Geração caracteriza-se por encurtar ao máximo o período encoberto, deflagrando ações ostensivas imediatas tão logo surjam os primeiros indícios, em oposição ao amadurecimento probatório das ações encobertas.",
+      "D": "A estratégia baseada em declarações de vítimas e testemunhas, por fornecer as fontes primárias da apuração, dispensa a validação dos relatos por outras provas quando colhidos com rapidez, antes de eventual contaminação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A estratégia moderna fundada na coleta e análise de dados utiliza a busca e apreensão para destravar janelas de oportunidade: a ação ostensiva produz dados que geram novas ações, num ciclo virtuoso que combina ciclos velados e ações cirúrgicas — precisamente o que afirma B. A está conceitualmente errada porque a desarticulação de organizações criminosas complexas e crimes financeiros de longa duração apoia-se na coleta/análise de dados e ações encobertas (monitoramento estruturado e amadurecimento probatório), e não na estratégia da cena do crime, cujo foco é o exame de indícios no local; o distrator atribui à base de Locard uma função que é de outra base. C inverte a definição da estratégia de 1ª Geração: ela estendia excessivamente o período encoberto (influência das doutrinas de inteligência), e não o encurtava; afirmar deflagração ostensiva imediata troca o conceito pelo seu oposto. D contraria a regra de que todo relato de vítima ou testemunha deve ser validado e confrontado com outras provas — a rapidez na colheita evita contaminação, mas não dispensa a validação, de modo que o distrator suprime requisito essencial da estratégia baseada em declarações.",
+    "referencia": "Cap. 7, Seção 7.2.3 — Estratégia baseada na coleta e análise de dados e ações encobertas",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1890,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um delegado correlaciona as etapas-base do método investigativo (Fato, Hipótese, Checagem, Conclusão) às fases do ciclo F3EAD adaptado, conforme o quadro do Caderno IPO. Sobre essa correspondência e o conteúdo de cada fase, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A etapa de Hipótese corresponde, no F3EAD adaptado, ao Fix, atividade de localização do alvo, ao passo que a Checagem corresponde ao Find, voltado a delimitar a área e os contatos do investigado.",
+      "B": "A fase de Exploit & Analyze antecede o Finish, pois a exploração e a análise dos dados orientam a decisão sobre a deflagração das prisões e buscas, situando-se a Conclusão na etapa de Disseminate.",
+      "C": "A etapa de Checagem corresponde ao Fix, voltado a fixar e delimitar a área e os contatos do alvo, enquanto o Finish abrange a ação operacional de prisões e buscas e a Conclusão equivale ao Disseminate.",
+      "D": "O Fato é pressuposto da instauração e corresponde ao Find, enquanto a Conclusão equivale ao Exploit & Analyze, etapa em que se exploram os dados apreendidos e se relatam os resultados aos órgãos competentes."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No quadro do F3EAD adaptado, a Checagem corresponde ao Fix (fixar/delimitar a área e os contatos do alvo), o Finish é a ação operacional de prisões e buscas, e a Conclusão equivale ao Disseminate (difundir/relatar os resultados) — correspondência integralmente correta em C. A inverte Find e Fix e desloca as etapas-base: a Hipótese corresponde ao Find (encontrar/localizar o alvo) e a Checagem ao Fix (delimitar área e contatos), de modo que o distrator atribui a cada sigla a função da outra. B subverte a ordem do ciclo: o Finish (ação: prisões e buscas) antecede o Exploit & Analyze (exploração e análise dos dados apreendidos), pois só se exploram dados após a ação operacional — afirmar que a análise antecede o Finish inverte a sequência F-F-F-E-A-D. D erra em duas atribuições: o Fato é pressuposto da instauração, mas o Find corresponde à Hipótese, não ao Fato; e a Conclusão equivale ao Disseminate (difusão/relato dos resultados), e não ao Exploit & Analyze, que se refere à exploração e análise do material apreendido.",
+    "referencia": "Cap. 7, Seção 7.3 — F3EAD adaptado como método de investigação policial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1891,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um delegado de polícia federal precisa custear, com urgência e em sigilo operacional, despesas extraordinárias de uma diligência de campo em investigação proativa sobre tráfico de drogas. Em paralelo, conduz um inquérito de lesão corporal leve, no qual pretende racionalizar a mobilização de meios. Considerando a disciplina do Caderno Didático IPO sobre gerenciamento de recursos materiais e a base normativa nele indicada, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A intimação por meios eletrônicos como aplicativos de mensagens ou telefone, adequada ao caso de lesão corporal leve, encontra previsão no art. 140 da IN nº 255/2023, o mesmo dispositivo que disciplina a etiquetagem de vestígios no âmbito da cadeia de custódia.",
+      "B": "As despesas extraordinárias e urgentes feitas sob sigilo operacional são custeadas pelo Suprimento de Fundos do tipo sigiloso, instituto da IN nº 215-DG/PF, distinto da economia de meios dos casos simples.",
+      "C": "A alocação de esforço correspondente à gravidade do caso decorre do princípio da economicidade, de modo que, na lesão corporal leve, a estruturação de um projeto investigativo é a medida indicada para assegurar a eficiência da apuração.",
+      "D": "A tríade que orienta o sucesso investigativo é composta por planejamento, execução e controle, cabendo a essa última etapa definir, desde o início, a intensidade dos recursos materiais a serem mobilizados em cada inquérito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O Caderno indica que despesas extraordinárias/urgentes em sigilo operacional são custeadas pelo Suprimento de Fundos do tipo sigiloso (IN nº 215-DG/PF), instituto diverso da economia de meios reservada aos casos simples; logo, a correta é B. A erra na base normativa: a intimação por WhatsApp/telefone nos casos simples está no art. 39 da IN nº 255/2023, e não no art. 140 — este último trata da etiquetagem na cadeia de custódia, de modo que a alternativa troca um dispositivo pelo outro. C inverte a consequência da eficiência: justamente por se alocar esforço proporcional à gravidade, o caso simples (lesão leve) reclama economia de meios, ao passo que os projetos investigativos se destinam aos casos complexos, de forma que estruturar um projeto para uma lesão leve contraria a economicidade invocada. D desfigura a tríade do texto, que é planejamento, organização e controle (não 'execução'), e ainda atribui ao controle a função de dimensionar inicialmente os recursos, papel que cabe ao planejamento conforme a complexidade do caso.",
+    "referencia": "Cap. 8, Seção 8.4.1 — Gerenciamento de recursos materiais",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1892,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para fins de aferição do Índice de Produtividade Operacional, uma unidade da Polícia Federal registra no Sigacrim três conjuntos de ações: (i) cumprimento de medida cautelar de sequestro de bens, sem qualquer mandado de prisão associado; (ii) cumprimento isolado de medida sigilosa, sem deflagração ostensiva; (iii) ação proativa que resultou em apreensão de drogas, mas que não se enquadra como operação de polícia judiciária. Conforme a Portaria DG/PF nº 18.900/2023, tal como exposta no Caderno Didático IPO, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O conjunto (i) não configura operação de polícia judiciária, pois a contagem por cumprimento de mandados ostensivos pressupõe necessariamente a existência de mandado de prisão deflagrando a ação.",
+      "B": "O conjunto (iii) é caracterizado como operação de polícia judiciária por ações de complexidade extraordinária, enquadrando-se entre as hipóteses do mnemônico TERRA por gerar apreensão relevante.",
+      "C": "O conjunto (i) configura operação de polícia judiciária ainda que ausente mandado de prisão, ao passo que o conjunto (iii) é tratado como evento operacional, pontuando em alguns índices do IPO.",
+      "D": "O conjunto (ii) é computado como operação de polícia judiciária por cumprimento de mandados ostensivos, pois a medida cautelar judicial sigilosa e isolada já integra, por si, a aferição do índice."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo o texto, as medidas cautelares constritivas de patrimônio (sequestro de bens) contam como operação de polícia judiciária mesmo sem mandado de prisão, enquanto as ações proativas que resultam em prisões/apreensões, mas não se enquadram como operação de polícia judiciária, são tratadas como eventos operacionais que pontuam em alguns índices do IPO; daí a correção de C. A erra ao condicionar a contagem do conjunto (i) à existência de mandado de prisão: o próprio texto excepciona o sequestro de bens, que conta sem mandado prisional. B desloca o conjunto (iii) para a hipótese de complexidade extraordinária: o mnemônico TERRA abrange trabalho escravo, erradicação de plantio, resgate de vítima, reintegração de posse e ação ambiental, não a apreensão proativa de drogas, que se classifica como evento operacional. D contraria a regra de que medidas sigilosas isoladas não contam — só ingressam na aferição quando deflagram a operação de forma ostensiva.",
+    "referencia": "Cap. 8, Seção 8.3 — Índice de Produtividade Operacional - IPO",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1893,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma unidade da Polícia Federal, discute-se a estrutura de controle a que se sujeita a atividade investigativa e o papel do delegado na priorização das apurações sob sua responsabilidade. Considerando o que o Caderno Didático IPO expõe sobre controle da investigação e gerenciamento das ações, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O controle interno da investigação é exercido por corregedorias e chefias, enquanto o Tribunal de Contas da União e a Controladoria-Geral da União integram, ao lado das chefias, o rol dos órgãos de controle interno.",
+      "B": "O controle externo da investigação abrange o Ministério Público, o Tribunal de Contas da União, a Controladoria-Geral da União, o Poder Judiciário e a sociedade, ficando o controle interno restrito ao Ministério Público em sua função fiscalizadora.",
+      "C": "A definição de prioridades na carga de investigações compete às corregedorias, no exercício do controle interno, cabendo ao delegado executar a ordem de preferência por elas previamente estabelecida.",
+      "D": "O delegado, na condição de presidente do inquérito, atua como gerente e estabelece prioridades na carga de investigações, ao passo que o controle externo da atividade é exercido por Ministério Público, TCU, CGU, Poder Judiciário e sociedade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que o delegado, presidente do inquérito, funciona como gerente e estabelece prioridades na carga de investigações, canalizando forças aos projetos prioritários, e que o controle externo é exercido por MP, TCU, CGU, judiciário e sociedade; por isso, a correta é D. A erra ao classificar TCU e CGU como controle interno: o texto os situa no controle externo, reservando ao controle interno as corregedorias e chefias. B inverte parcialmente a divisão: embora acerte os integrantes do controle externo, restringe equivocadamente o controle interno ao Ministério Público, quando este é órgão de controle externo e o interno cabe a corregedorias e chefias. C transfere às corregedorias a fixação de prioridades, atribuição que o texto confere ao delegado como gerente das ações, de modo que reduzir o delegado a mero executor da ordem definida por aquele órgão troca o titular da função de priorização.",
+    "referencia": "Cap. 8, Seção 8.5 — Controle da investigação",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1894,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma operação de polícia judiciária, o presidente da investigação registra em documento próprio: o conjunto de circunstâncias geográficas e criminais que cercam o alvo; o resultado que se quer obter com a diligência; a estratégia geral escolhida para chegar a esse resultado; e o detalhamento de como os recursos serão empregados na área de atuação. Em seguida, atribui a uma equipe específica a tarefa de cumprir um mandado de prisão, com instruções claras a serem reportadas em relatório próprio. Relacionando os conceitos aplicáveis, a tarefa atribuída à equipe e o documento que reúne todos os elementos anteriores correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "linha de ação e plano operacional, pois a tarefa traduz a estratégia eleita e o documento consolida os recursos a empregar.",
+      "B": "missão policial e plano operacional, pois a tarefa é a diligência atribuída à equipe e o documento formaliza o planejamento.",
+      "C": "tática policial e ordem de mobilização, pois a tarefa detalha o emprego de recursos e o documento determina a diligência da equipe.",
+      "D": "missão policial e relatório de missão policial, pois a tarefa é a diligência atribuída e o documento reúne os elementos do planejamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A diligência ou o conjunto de diligências atribuídas a um policial ou equipe é a missão policial, determinada pela Ordem de Mobilização e reportada em Relatório de Missão Policial; o documento que reúne situação, objetivo, área de atuação, linha de ação, tática policial, prazos e recursos é o plano operacional. Logo, a resposta é B. A está errada porque a tarefa atribuída à equipe não é a linha de ação (esta é a estratégia traçada, não uma diligência atribuída a alguém). C confunde dois institutos: chama a tarefa de tática policial (que é a forma de executar a linha de ação, com detalhamento de recursos, e não a diligência atribuída) e troca o plano operacional pela Ordem de Mobilização (que é o ato que determina a missão, não o documento que consolida o planejamento). D acerta a missão policial, mas erra o segundo conceito ao chamar o documento consolidador de Relatório de Missão Policial — este é o documento em que os resultados da missão são informados à autoridade, não o que reúne os elementos do planejamento.",
+    "referencia": "PDF IPO III, p. 11",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1895,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encerrada a fase de coleta, análise e síntese dos dados que compõem o estado atual e as circunstâncias que podem interferir na operação, a equipe precisa avançar para a fase seguinte do planejamento operacional. Nessa fase seguinte, a autoridade pondera, entre os caminhos possíveis para alcançar o objetivo da investigação, aquele mais adequado, decidindo com base em critérios de conveniência e oportunidade e na análise dos recursos disponíveis, de modo compatível com o objeto da investigação. A fase descrita ao final e o critério que a orienta correspondem a:",
+    "alternativas": {
+      "A": "elaboração do plano operacional, orientada pela formalização, em documento próprio, de prazos e recursos humanos, materiais e financeiros.",
+      "B": "exame de situação, orientado pela identificação das circunstâncias geográficas, políticas, econômicas, sociais, criminais e culturais da área de atuação.",
+      "C": "definição da linha de ação, orientada por critérios de conveniência e oportunidade e pela análise dos recursos disponíveis.",
+      "D": "aprovação e autorização do plano operacional, orientada pela avaliação da oportunidade, da conveniência e da disponibilização dos meios."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A fase descrita ao final — escolha da estratégia mais adequada para alcançar o objetivo, com base em conveniência e oportunidade e na análise dos recursos, compatível com o objeto da investigação — é a definição da linha de ação. Por isso, a resposta é C. A está errada porque a elaboração do plano operacional é a formalização documental posterior, e não o ato de escolher a estratégia. B descreve corretamente a etapa anterior (exame de situação), que o enunciado já encerrou, não a fase seguinte pedida. D incorre em erro de fase: a aprovação e autorização também envolvem oportunidade e conveniência, mas ocorrem depois da elaboração do plano, quando este é submetido às autoridades competentes (chefia imediata aprova; gestor regional autoriza), e não logo após o exame de situação.",
+    "referencia": "PDF IPO III, p. 20",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1896,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a deflagração de uma operação, a equipe de cumprimento de mandados recebe maior autonomia e consciência da investigação a partir do briefing; ao explorar documentos e aparelhos no próprio local, identifica e extrai informações de interesse ainda durante o desencadeamento, elaborando peças capazes de subsidiar novas ações no mesmo dia, em observância ao princípio da oportunidade. Conforme o texto, esse modo de conduzir os trabalhos corresponde a qual método organizacional e qual é a sua lógica central?",
+    "alternativas": {
+      "A": "F3EAD adaptado, que funde a localização e neutralização do alvo com o caminho da inteligência, prestigiando a ação e comprimindo a espiral investigativa.",
+      "B": "ciclo PDCA, cujo núcleo de execução é acionado no desencadeamento da operação para verificar e corrigir as circunstâncias não previstas que surgirem no curso da ação policial.",
+      "C": "método 5W2H, que organiza os dados do levantamento preliminar mediante questionamentos sobre o quê, quem, onde, quando, por quê, como e quanto.",
+      "D": "F3EAD adaptado, que reúne os questionamentos do heptâmetro de Quintiliano para acelerar o ritmo operacional já na fase ostensiva da operação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O método F3EAD adaptado consiste na fusão do método de localização e neutralização (find, fix, finish) com o caminho da atividade de inteligência (exploit, analyze, disseminate), gerando aceleração do ritmo operacional; sua aplicação na deflagração se dá ao conceder autonomia à equipe para explorar material no local e subsidiar novas ações no mesmo dia, comprimindo a espiral investigativa e prestigiando a ação (finish). Por isso, a resposta é A. B troca o método: o ciclo PDCA correlaciona o núcleo D (do) ao desencadeamento, mas a verificação e a correção pertencem aos núcleos C (check) e A (action), associados à avaliação posterior, e não descrevem a exploração de material no local pela própria equipe. C identifica indevidamente o 5W2H, que é ferramenta de levantamento preliminar (exame de situação), e não a metodologia de exploração durante a deflagração. D nomeia corretamente o F3EAD adaptado, mas atribui a ele a lógica do 5W2H (heptâmetro de Quintiliano), confundindo a fusão localização-inteligência com o conjunto de questionamentos do outro método.",
+    "referencia": "PDF IPO III, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1897,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um cidadão comparece à Polícia Federal e entrega a um policial federal um pen drive que afirma conter provas de um crime, sem que exista, ainda, inquérito ou outro procedimento de polícia judiciária instaurado. Conforme a IN nº 297/2024-DG/PF, qual a relação entre o início da cadeia de custódia e o início dos registros formais nessa situação?",
+    "alternativas": {
+      "A": "A cadeia de custódia inicia-se com a instauração do inquérito policial, e os registros formais coincidem com esse mesmo marco, pois antes da instauração inexistiria elemento de interesse a documentar nos autos do procedimento de polícia judiciária.",
+      "B": "A cadeia de custódia inicia-se com a preservação do local de crime, e os registros formais têm início com o auto circunstanciado de arrecadação que documenta a apresentação espontânea feita pelo terceiro à autoridade policial.",
+      "C": "A cadeia de custódia inicia-se com a recepção do elemento pelo policial federal, e os registros formais têm início com a formalização dessa recepção nos autos do inquérito ou de outro procedimento de polícia judiciária.",
+      "D": "A cadeia de custódia inicia-se com a posse do elemento pelo policial federal, como cláusula de abrangência, e os registros formais têm início com a elaboração do termo de coleta de vestígio lavrado no exato momento da entrega."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a alternativa C: pelo art. 5º, II, da IN nº 297/2024-DG/PF, o elemento apresentado por terceiros tem início de cadeia de custódia com a recepção por policial federal; e os registros, nos casos dos incisos II e IV, têm início com a formalização da recepção do elemento de interesse nos autos do inquérito policial ou outro procedimento de polícia judiciária, distinguindo-se assim o marco da custódia (recepção) do marco dos registros (formalização nos autos). A está errada porque o início da cadeia de custódia não depende da instauração de inquérito — dá-se já na recepção pelo policial federal, antes de qualquer procedimento. B está errada porque atribui o início à preservação de local de crime (inciso III), inaplicável à entrega por terceiro, e confunde o auto circunstanciado de arrecadação (próprio de arrecadação em ação operacional) com a formalização da recepção nos autos. D está errada porque troca a hipótese de início: apresentação por terceiro é o inciso II (recepção), não a posse residual do inciso IV; além disso, o termo de coleta de vestígio é o marco de registro de vestígios coletados, não de elemento apresentado por terceiro.",
+    "referencia": "PDF IPO III, p. 27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1898,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 158-B do Código de Processo Penal, incluído pela Lei nº 13.964/2019, cada etapa da cadeia de custódia possui um ato definidor próprio. Considerando a discriminação entre as etapas, assinale a alternativa que associa corretamente a etapa ao seu ato definidor.",
+    "alternativas": {
+      "A": "O recebimento é o procedimento pelo qual cada vestígio coletado é embalado de forma individualizada, conforme suas características físicas, químicas e biológicas, com anotação da data, hora e nome de quem realizou a coleta.",
+      "B": "O armazenamento é o procedimento referente à guarda, em condições adequadas, do material a ser processado, guardado para contraperícia, descartado ou transportado, com vinculação ao número do laudo correspondente.",
+      "C": "O processamento é o ato formal de transferência da posse do vestígio, documentado com informações sobre número de procedimento, local de origem, nome de quem o transportou e identificação de quem o recebeu.",
+      "D": "O acondicionamento é o ato de transferir o vestígio de um local para outro em condições adequadas de embalagem, veículo e temperatura, de modo a garantir a manutenção de suas características originais e o controle de sua posse."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a alternativa B: o art. 158-B, IX, do CPP define armazenamento exatamente como a guarda, em condições adequadas, do material a ser processado, guardado para contraperícia, descartado ou transportado, com vinculação ao número do laudo correspondente. A está errada porque descreve o acondicionamento (inciso V), e não o recebimento; o recebimento (inciso VII) é a transferência formal da posse do vestígio com documentação específica. C está errada porque descreve o recebimento (inciso VII), e não o processamento; processamento (inciso VIII) é o exame pericial em si, a manipulação do vestígio conforme metodologia adequada, formalizado em laudo. D está errada porque descreve o transporte (inciso VI), e não o acondicionamento; acondicionamento (inciso V) é a embalagem individualizada do vestígio com anotação de data, hora e nome de quem coletou.",
+    "referencia": "PDF IPO III, p. 34",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1899,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a triagem de um vestígio já acondicionado, um servidor da Polícia Federal precisa abrir a embalagem lacrada para realizar exame técnico-científico, rompendo o lacre original. Conforme o art. 158-D do Código de Processo Penal e a IN nº 297/2024-DG/PF, qual o procedimento correto quanto à abertura, ao registro do rompimento e à destinação do lacre rompido?",
+    "alternativas": {
+      "A": "A embalagem pode ser aberta tão só pelo perito que procederá à análise; o rompimento será registrado em sistema oficial com nome e matrícula, data, local e finalidade, e o lacre rompido será descartado após o registro fotográfico, ficando dispensada a sua guarda.",
+      "B": "A embalagem pode ser aberta por qualquer servidor a critério do custodiante; o rompimento prescinde de registro nos autos quando feito para mera conferência, e o lacre rompido será arquivado em separado na ficha de acompanhamento do vestígio.",
+      "C": "A embalagem pode ser aberta por servidor da Polícia Federal para qualquer finalidade institucional de seu interesse; o rompimento será registrado tão somente na ficha de acompanhamento, sem que conste dos autos, e o lacre rompido será reaproveitado mediante nova numeração unívoca.",
+      "D": "A embalagem pode ser aberta por servidor da Polícia Federal para conferência, triagem, análise ou exame; o rompimento constará dos autos e será registrado em sistema oficial com nome e matrícula, data, local e finalidade, e o lacre rompido será acondicionado na nova embalagem."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Correta a alternativa D: a IN nº 297/2024-DG/PF prevê que a embalagem lacrada somente será aberta por servidor da Polícia Federal para conferência, triagem, análise ou realização de exames técnico-científicos; o rompimento de lacre constará dos autos do inquérito e será registrado em sistema oficial com nome e matrícula de quem realizou, data, local e finalidade; e o lacre rompido deverá ser acondicionado no interior da nova embalagem (art. 158-D, §5º, do CPP). A está errada porque a restrição de abertura apenas ao perito é regra do recipiente do vestígio no CPP (art. 158-D, §3º), e, sobretudo, inverte a destinação do lacre rompido: ele deve ser guardado no interior do novo recipiente, não descartado. B está errada porque o rompimento de lacre não é dispensado de registro nos autos mesmo na conferência, e o lacre rompido não é apenas arquivado em separado, mas acondicionado dentro da nova embalagem. C está errada porque a abertura tem finalidades delimitadas (não 'qualquer finalidade'), o rompimento deve constar dos autos, e o lacre rompido não é reaproveitado — cada recipiente recebe lacre com numeração individualizada nova.",
+    "referencia": "PDF IPO III, p. 37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1900,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em determinada unidade, a deflagração de buscas e apreensões domiciliares passou a ser representada e empregada como rotina mesmo em investigações de menor complexidade, banalizando-se o uso de medidas restritivas concebidas para situações específicas e de comprovada necessidade. Um delegado adverte que essa prática subverte a natureza cautelar dessas medidas e compromete sua legitimidade, defendendo que tais instrumentos sejam reservados aos casos em que realmente se justificam. À luz dos princípios do planejamento operacional descritos no texto, qual deles fundamenta de forma direta e própria a advertência feita?",
+    "alternativas": {
+      "A": "Princípio da objetividade, pois concentra os esforços e as equipes nos pontos de real interesse para a investigação, evitando a verificação de fatos secundários alheios ao escopo investigativo.",
+      "B": "Princípio da segurança, pois condiciona o início e o prosseguimento da atividade ostensiva à minimização dos riscos e à proteção da integridade física das pessoas envolvidas.",
+      "C": "Princípio da economicidade, pois, além de salvaguardar contra gastos públicos desnecessários, atua como freio à utilização indiscriminada de medidas invasivas e de caráter excepcional.",
+      "D": "Princípio da universalidade, pois exige que o planejamento considere os aspectos que possam interferir no desenvolvimento da operação, ampliando o conhecimento das circunstâncias do caso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A correta é a C: o texto atribui expressamente à economicidade um segundo papel, além de evitar gastos desnecessários, qual seja o de funcionar como freio à utilização indiscriminada de medidas invasivas e de caráter excepcional, impedindo que instrumentos concebidos para situações específicas sejam aplicados de forma rotineira e banalizada, o que comprometeria sua legitimidade e subverteria sua natureza cautelar — exatamente o teor da advertência. A) descreve corretamente a objetividade (concentração no escopo e evitar fatos secundários), mas esse princípio trata do foco da apuração, não do controle sobre a banalização de medidas excepcionais. B) descreve corretamente a segurança (minimização de riscos e proteção da integridade física), instituto diverso do invocado. D) descreve corretamente a universalidade (amplo conhecimento das circunstâncias da operação), que também não se confunde com o freio ao uso indiscriminado de medidas restritivas.",
+    "referencia": "PDF IPO III, p. 47",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1901,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma operação de grande porte, várias equipes (inteligência, logística, operacional e perícia) atuam em frentes distintas. Uma delas conclui com êxito o seu mandado e, satisfeita, considera sua missão integralmente cumprida e o resultado já alcançado. O coordenador corrige o entendimento: enquanto as demais frentes não se encerrarem, a missão não está cumprida, pois as ações fragmentadas convergem para um único resultado, alcançado ao término da operação, e não ao final de cada ação isolada. Qual princípio do planejamento operacional o coordenador invoca e qual a noção que o sintetiza?",
+    "alternativas": {
+      "A": "Princípio da unidade, segundo o qual as ações praticadas, ainda que fragmentadas, destinam-se a um único resultado, devendo haver um só comando, um só objetivo e uma só direção de esforços, de modo que a missão se cumpre ao término da operação.",
+      "B": "Princípio da coordenação, segundo o qual as ações devem se desenvolver de maneira integrada e, ainda que participem outras instituições, a condução dos trabalhos cabe à Polícia Federal, na condição de destinatária das ordens judiciais.",
+      "C": "Princípio da disciplina, segundo o qual se presume que as ações estabelecidas serão rigorosamente atendidas, funcionando como espinha dorsal que garante a execução do plano com segurança e previsibilidade.",
+      "D": "Princípio da objetividade, segundo o qual os esforços devem ser concentrados e as equipes direcionadas aos pontos de real interesse, evitando a dispersão do foco investigativo e a arrecadação de materiais desnecessários."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A correta é a A: o texto define a unidade como a ideia de que as ações praticadas, ainda que fragmentadas, destinam-se a alcançar um único resultado, considerando-se a missão cumprida ao término da operação e não ao final de cada ação isolada, sintetizando-se em um só comando, um só objetivo e uma só direção de esforços. B) descreve corretamente a coordenação (atuação integrada e condução pela PF como destinatária das ordens judiciais), princípio vizinho que se preocupa com a articulação entre áreas e instituições, e não com a noção de que o resultado se realiza ao final do todo. C) descreve corretamente a disciplina (cumprimento rigoroso do que foi estabelecido como espinha dorsal da execução), instituto diverso. D) descreve corretamente a objetividade (concentração no foco e não arrecadação de material desnecessário), que tampouco corresponde à ideia de convergência das ações para um resultado único.",
+    "referencia": "PDF IPO III, p. 49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1902,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a deflagração, surge um imprevisto não contemplado no plano: uma equipe encontra dificuldade que exige redistribuição de tarefas. Diante disso, os integrantes reagem de forma controlada, mantêm os horários, a guarda dos bens e a manutenção dos equipamentos conforme determinado, e aguardam as diretrizes da equipe de coordenação, chefiada pelo Delegado presidente do inquérito, em vez de improvisarem de modo desordenado. O texto utiliza precisamente esse tipo de situação para ilustrar um princípio. Qual é ele e por quê?",
+    "alternativas": {
+      "A": "Princípio da segurança, porque a reação controlada e a guarda dos equipamentos visam minimizar riscos e resguardar a integridade física dos integrantes da equipe, condicionando o prosseguimento da atividade ostensiva.",
+      "B": "Princípio da universalidade, porque o amplo conhecimento prévio das circunstâncias da operação permite antecipar imprevistos e já contemplar, na fase de planejamento, a redistribuição de tarefas, a composição das equipes e os recursos logísticos necessários ao caso concreto.",
+      "C": "Princípio da flexibilidade, porque a aptidão para readequar as equipes em campo diante de circunstâncias imprevistas assegura a continuidade e a eficácia da ação, sem afastamento dos protocolos.",
+      "D": "Princípio da disciplina, porque presume o cumprimento rigoroso do que foi determinado e prepara os policiais para reagirem de forma controlada e conforme as diretrizes da equipe de coordenação, evitando o improviso caótico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A correta é a D: o texto trata a disciplina como aquilo que prepara os policiais para reagirem de forma controlada e em conformidade com as diretrizes — em vez de cederem ao improviso caótico — mesmo diante de imprevistos, presumindo o cumprimento rigoroso do que foi determinado (horários, manutenção de equipamentos, guarda de bens) e atribuindo à equipe de coordenação, chefiada pelo Delegado presidente do inquérito, as diretrizes do cumprimento e as determinações não previstas. C) descreve corretamente a flexibilidade (readequação das equipes em campo diante de circunstâncias imprevistas, sem afastar protocolos): é o distrator mais próximo, pois também lida com imprevistos, mas o foco da flexibilidade é a adaptação da execução, ao passo que a disciplina é o que canaliza essa reação dentro das diretrizes e da hierarquia, sendo esse o enquadramento que o texto dá ao exemplo da reação controlada sob a coordenação. A) descreve corretamente a segurança (minimização de riscos e proteção da integridade), instituto diverso. B) descreve corretamente a universalidade (amplo conhecimento prévio das circunstâncias da operação), que se situa no planejamento e não na reação disciplinada ao imprevisto durante a execução.",
+    "referencia": "PDF IPO III, p. 50",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1903,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em representação por prisão preventiva, o delegado descreve o modus operandi com uso reiterado de grave ameaça e a participação do investigado em organização criminosa, mas o crime apurado tem pena máxima de 3 anos e o agente é primário. Considerando a sistemática dos arts. 312 e 313 do CPP, com as inovações da Lei nº 15.272/2025, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os elementos narrados (modus operandi e participação em organização criminosa) integram o art. 312, §3º, e, por configurarem a periculosidade do agente, suprem a ausência de hipótese de cabimento, autorizando a decretação da preventiva.",
+      "B": "Os elementos narrados servem à aferição da periculosidade para a garantia da ordem pública (art. 312, §3º), mas, ausente hipótese de cabimento do art. 313, falta requisito autônomo que viabilize a preventiva nesse caso.",
+      "C": "A pena máxima de 3 anos é indiferente, pois o art. 313 tem por conteúdo a demonstração do fumus comissi delicti e do periculum libertatis, satisfeitos pela gravidade concreta exposta na representação.",
+      "D": "Por se tratar de agente primário, incide a vedação do art. 312, §4º, que impede a decretação da preventiva quando a gravidade do delito for invocada de modo abstrato, ainda que demonstrada a periculosidade concreta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto separa dois planos. O art. 312 (com o §3º incluído pela Lei nº 15.272/2025) trata dos FUNDAMENTOS/finalidades e dos critérios objetivos de aferição da periculosidade (modus operandi, participação em organização criminosa, natureza/quantidade/variedade de drogas e armas, receio de reiteração). Já o art. 313 trata das HIPÓTESES DE CABIMENTO: crimes dolosos com pena máxima superior a 4 anos; reincidência em crime doloso; ou dúvida sobre a identidade civil. Logo, B está correta: os fatos narrados servem ao §3º (periculosidade/ordem pública), mas, com pena máxima de 3 anos e réu primário, não há hipótese de cabimento do art. 313, faltando requisito autônomo. A está errada porque confunde os planos: a periculosidade do art. 312, §3º não substitui nem supre a exigência de cabimento do art. 313, que é requisito distinto. C está errada porque inverte o conteúdo do art. 313, atribuindo-lhe o conteúdo do art. 312 (fumus/periculum) e tratando a pena como irrelevante, quando é justamente o limite de 4 anos que o art. 313 estabelece. D está errada porque deturpa o art. 312, §4º: este veda a preventiva fundada em gravidade ABSTRATA do delito, e não pela primariedade do agente; aqui a periculosidade foi concretamente demonstrada, de modo que o §4º não seria o obstáculo, e sim a ausência de cabimento do art. 313.",
+    "referencia": "PDF IPO III, p. 60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1904,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um indiciado é preso em flagrante por crime praticado com violência contra a pessoa e responde a inquérito anterior em curso. Ao representar pela conversão do flagrante em preventiva, o delegado precisa indicar a base normativa correta dos institutos invocados. Considerando o regime introduzido pela Lei nº 15.272/2025, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A prática de infração com violência contra a pessoa e a existência de inquérito em curso são circunstâncias do art. 312, §3º, que vinculam o juiz a examiná-las quando decidir sobre a conversão do flagrante em preventiva.",
+      "B": "Tais circunstâncias compõem o rol do art. 310, §5º, e a obrigação de o juiz examiná-las ao decidir sobre a conversão decorre do mesmo §5º, que reúne o rol e o respectivo dever de apreciação.",
+      "C": "Tais circunstâncias integram o rol que recomenda a conversão do flagrante em preventiva (art. 310, §5º), enquanto o dever de o juiz examiná-las ao decidir sobre essa conversão está previsto no art. 310, §6º.",
+      "D": "A violência contra a pessoa enseja a aplicação do art. 313, e a existência de inquérito anterior recomenda a conversão pelo art. 310, §6º, cabendo ao juiz examinar de ofício ambos os fundamentos ao analisar o flagrante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto é preciso na repartição dos parágrafos do art. 310: o §5º (incluído pela Lei nº 15.272/2025) elenca o ROL de circunstâncias que recomendam a conversão da prisão em flagrante em preventiva, entre elas a prática de infração com violência ou grave ameaça contra a pessoa e a prática de nova infração na pendência de inquérito ou ação penal; já o §6º estabelece o DEVER de o juiz examiná-las quando for decidir sobre a conversão. Por isso C está correta (rol no §5º; obrigação de exame no §6º). B está errada porque concentra o rol e o dever de exame no mesmo §5º, ignorando que o dever do juiz está no §6º. A está errada porque atribui as circunstâncias da conversão ao art. 312, §3º (critérios de aferição da periculosidade para a preventiva em geral) e a vinculação do juiz ao §3º, confundindo dois dispositivos distintos. D está errada porque mistura institutos: o art. 313 cuida das hipóteses de cabimento da preventiva (pena, reincidência, identidade), não da violência como gatilho de conversão, e o art. 310, §6º traz o dever de exame, não o rol que 'recomenda a conversão'.",
+    "referencia": "PDF IPO III, p. 57",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1905,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "No planejamento de uma deflagração, o delegado pondera entre prisão preventiva, prisão temporária, medidas cautelares diversas da prisão e medidas constritivas de patrimônio. Sobre a base legal e o regime de cada instituto, conforme o capítulo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A prisão temporária funda-se na Lei nº 7.960/1989, é cabível nos crimes expressamente listados em lei e tem prazo de 5 dias prorrogáveis por igual período, ou de 30 + 30 dias em crimes hediondos e equiparados.",
+      "B": "A prisão preventiva funda-se na Lei nº 7.960/1989 e a temporária nos arts. 311 e seguintes do CPP, distinguindo-se porque a temporária independe de rol de crimes para sua decretação.",
+      "C": "As medidas cautelares diversas da prisão, previstas no art. 312 do CPP, exigem o mesmo standard de periculum libertatis da preventiva, razão pela qual seu descumprimento é incapaz de autorizar a decretação da prisão preventiva.",
+      "D": "As medidas constritivas de patrimônio, por recaírem sobre bens, exigem standard probatório mais elevado que as cautelares pessoais, demandando prova plena da origem ilícita antes de qualquer bloqueio."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto fixa expressamente o regime da temporária: base legal na Lei nº 7.960/1989, cabimento apenas nos crimes expressamente listados em lei e prazos rígidos de 5 dias prorrogáveis por igual período, ou 30 + 30 dias em crimes hediondos e equiparados. Assim, A está correta. B inverte as bases legais: a prisão preventiva é que se funda no CPP (arts. 311 e seguintes) e a temporária na Lei nº 7.960/1989; além disso, é justamente a temporária que depende de rol de crimes, não o contrário. C contém dois erros conceituais: as medidas diversas da prisão estão no art. 319 do CPP (não no art. 312, que cuida da preventiva) e exigem periculum libertatis em MENOR grau que a preventiva; ademais, o texto afirma que a violação dessas medidas PODE ensejar a decretação da preventiva, de modo que o descumprimento não é inócuo. D inverte o standard probatório: o texto diz que as cautelares reais/patrimoniais admitem standard MAIS BRANDO que as pessoais, bastando indícios consistentes (não prova plena) de vinculação do bem ao crime.",
+    "referencia": "PDF IPO III, p. 62",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1906,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma operação de polícia judiciária, a equipe de investigação originária realiza, em sequência, as seguintes deliberações de planejamento: (1) define que a estratégia da ação será privilegiar a entrada rápida no ambiente, com emprego de grupo tático, diante do risco de destruição de provas; (2) decide entregar à equipe projetada, além da ficha de alvo, um registro escrito com diagramas de vínculos e linha do tempo do cenário investigativo; (3) transmite à equipe projetada a consciência das linhas investigativas, da robustez dos elementos já contidos nos autos e das provas que se busca obter. Considerando a sistematização do planejamento da ação em local de interesse, as deliberações (1), (2) e (3) correspondem, respectivamente, às fases de:",
+    "alternativas": {
+      "A": "mérito da ação; aspectos operacionais; documentação.",
+      "B": "aspectos operacionais; mérito da ação; documentação.",
+      "C": "documentação; aspectos operacionais; mérito da ação.",
+      "D": "aspectos operacionais; documentação; mérito da ação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto sistematiza o planejamento em quatro fases didáticas: mérito, aspectos operacionais, documentação e execução. A deliberação (1) é típica dos ASPECTOS OPERACIONAIS, pois define o enfoque/estratégia e a tática de como a ação será cumprida (entrada rápida, grupo tático diante de risco de destruição de provas). A deliberação (2) é DOCUMENTAÇÃO: o registro escrito com diagramas de vínculos e linha do tempo, entregue quando a ficha de alvo não basta, é o documento suporte. A deliberação (3) é o MÉRITO da ação: transmitir às equipes a consciência das linhas investigativas, da robustez/fragilidade dos elementos dos autos e das provas buscadas. Logo a ordem é aspectos operacionais; documentação; mérito (D). A inverte: trata (1) como mérito (mas (1) é estratégia/tática, não a transmissão das linhas investigativas) e (2) como aspectos operacionais (quando descrever documento suporte é documentação). B acerta (2) parcialmente, mas troca (1) e (3) — classifica a estratégia tática como aspectos operacionais corretamente apenas na aparência, porém realoca o mérito como segunda fase e a documentação por último, conflitando com a descrição de (2) como registro escrito (documentação) e (3) como repasse das linhas (mérito). C erra ao classificar a estratégia/tática (1) como documentação e a transmissão das linhas investigativas (3) como mérito apenas na terceira posição, desalinhando a correspondência exigida.",
+    "referencia": "PDF IPO III, p. 72",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1907,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o briefing de uma operação, um instrutor responde a quatro perguntas formuladas por integrantes das equipes projetadas: (I) \"Quais são os alvos e suas particularidades, e o que se pretende alcançar com a operação?\"; (II) \"Quais são os riscos envolvidos e as medidas de segurança que serão adotadas?\"; (III) \"De que forma cada documento será preenchido?\"; (IV) \"Quais são os cuidados com a cadeia de custódia ao arrecadar e apreender?\". Conforme a estruturação do briefing apresentada no texto, essas quatro perguntas dizem respeito, respectivamente, a:",
+    "alternativas": {
+      "A": "ao mérito da ação; à execução; à formalização de documentos; aos aspectos operacionais.",
+      "B": "aos aspectos operacionais; ao mérito da ação; à execução; à formalização de documentos.",
+      "C": "ao mérito da ação; aos aspectos operacionais; à formalização de documentos; à execução.",
+      "D": "ao mérito da ação; aos aspectos operacionais; à execução; à formalização de documentos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No briefing, o texto associa cada aspecto a perguntas específicas. (I) alvos, particularidades e o que se pretende alcançar = MÉRITO DA AÇÃO ('o que se pretende alcançar', alvos e suas particularidades). (II) riscos envolvidos e medidas de segurança = ASPECTOS OPERACIONAIS ('como a operação será realizada? quais os riscos? quais medidas de segurança?'). (III) como os documentos serão preenchidos = FORMALIZAÇÃO DE DOCUMENTOS ('quais documentos são necessários e como serão preenchidos'). (IV) cuidados com a cadeia de custódia ao arrecadar e apreender = EXECUÇÃO ('como cada equipe executará a missão, o que arrecadar e apreender, cuidados com a cadeia de custódia'). A sequência correta é mérito; aspectos operacionais; documentos; execução (C). A erra ao classificar (II) sobre riscos/segurança como execução e (IV) sobre cadeia de custódia como aspectos operacionais, invertendo os dois institutos. B desloca o mérito para a segunda pergunta, atribuindo a (I) os aspectos operacionais, contrariando o vínculo entre 'o que se pretende alcançar/alvos' e o mérito. D acerta (I) e (II), mas troca (III) e (IV): preenchimento de documentos é formalização de documentos, não execução, e a cadeia de custódia integra a execução, não a documentação.",
+    "referencia": "PDF IPO III, p. 83",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1908,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma operação especial de polícia judiciária, com desencadeamento simultâneo de múltiplas ações em locais de interesse distribuídas por vários Estados, a equipe de investigação avalia como transmitir o propósito da missão às equipes de cumprimento de mandados. Cogita-se a designação de coordenadores regionais e, alternativamente, o uso da plataforma oficial de comunicação. Considerando a reunião prévia de coordenação para nivelamento e a divisão de funções descritas no texto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Com o uso da plataforma oficial pela própria equipe de investigação para repassar mérito, aspectos operacionais e documentação, os coordenadores regionais ficam dispensados, transferindo-se a divisão de funções entre as equipes ao chefe de cada equipe projetada.",
+      "B": "Na ausência da plataforma oficial, cabe aos coordenadores regionais repassar às equipes projetadas o mérito da ação, os aspectos operacionais, a documentação e a execução, incutindo nelas o propósito da missão e cuidando da execução no dia da deflagração.",
+      "C": "A reunião de nivelamento substitui o briefing das equipes projetadas, de modo que o repasse do mérito da ação aos executores se esgota no encontro entre os coordenadores regionais e a equipe de investigação originária.",
+      "D": "A divisão de funções entre as equipes deve ser fixada pelos coordenadores regionais segundo o mérito da ação, e não conforme o objetivo imediato, já que é o mérito, e não o objetivo, que delimita a missão de cada equipe."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma que, na operação especial com múltiplas ações, os coordenadores regionais são quem repassam às equipes projetadas o mérito da ação, os aspectos operacionais, a documentação e a execução, assumindo a missão de incutir o propósito da missão e cuidando dos aspectos de execução no dia da deflagração (B). O uso da plataforma oficial é apresentado como possibilidade que altera essa repartição, não como pressuposto. A erra no efeito: com a plataforma, a própria equipe de investigação/execução pode repassar mérito, aspectos operacionais e documentação, ficando aos coordenadores regionais APENAS os aspectos de execução propriamente dita (viaturas, encaminhamento de presos, salas); os coordenadores não são dispensados nem a divisão de funções migra para os chefes de equipe. C erra ao confundir institutos: a reunião de nivelamento ocorre entre coordenadores e equipe de investigação para que aqueles, depois, repassem o conhecimento às equipes projetadas — ela não substitui o briefing das executoras nem esgota o repasse do mérito. D inverte o critério da divisão de funções: o texto estabelece que as funções são divididas considerando o OBJETIVO IMEDIATO de cada equipe (cumprimento de mandado, custódia, interrogatório, flagrante), embora sempre tendo em conta o mérito, que é mais amplo; o mérito não é o critério de repartição das funções.",
+    "referencia": "PDF IPO III, p. 85",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1909,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No cumprimento de mandado de busca e apreensão, a equipe da Polícia Federal depara-se com situação flagrancial e procede à prisão (CPP, art. 301). A coordenação de execução havia definido previamente as responsabilidades pela lavratura dos flagrantes na operação. Considerando a disciplina do desencadeamento da ação quanto à lavratura, à atribuição e à destinação do material relacionado ao flagrante, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A lavratura do flagrante compete ao plantão regular da unidade para a qual o preso é encaminhado, prevalecendo essa atribuição ainda que a coordenação de execução tenha designado previamente equipe específica para a função no planejamento da operação, e o material com relação direta com o flagrante é mantido no mesmo Auto Circunstanciado de Arrecadação da busca, vedado o seu desmembramento para procedimento apartado.",
+      "B": "Em regra, a prisão em flagrante é lavrada pela Polícia Federal, mesmo que o crime não seja de sua atribuição, salvo encaminhamento à Polícia Civil a critério da coordenação; o ato infracional praticado por menor é encaminhado à Polícia Civil, e o material com relação direta com o flagrante é apreendido de forma apartada no procedimento flagrancial.",
+      "C": "A prisão em flagrante é lavrada pela Polícia Civil quando o crime não for de atribuição da Polícia Federal, e o ato infracional praticado por menor pode ser lavrado pela própria equipe de cumprimento de mandado, desde que o material relacionado ao flagrante seja apreendido de forma apartada no procedimento flagrancial.",
+      "D": "A Polícia Federal lavra o flagrante na hipótese de crime de sua atribuição; nos demais casos, encaminha à Polícia Civil, inclusive o ato infracional praticado por menor, e o material com relação direta com o flagrante permanece no Auto Circunstanciado de Arrecadação, sem apreensão apartada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto fixa que, em regra, a prisão em flagrante deve ser lavrada pela Polícia Federal, ainda que o crime não seja necessariamente de sua atribuição, salvo se, a critério da coordenação, for sugerido o encaminhamento à Polícia Civil; que o flagrante por ato infracional (praticado por menor) é encaminhado à Polícia Civil, impreterivelmente; e que o material com relação direta com o flagrante deve ser apreendido de forma apartada, no âmbito do procedimento flagrancial, ainda que tenha constado no mesmo Auto Circunstanciado de Arrecadação (B). A erra ao tomar o plantão como atribuição prevalecente: o texto lista três responsáveis possíveis (a própria equipe de cumprimento, equipe especialmente designada, ou o sobreaviso/plantão), definidos previamente pela coordenação, e a regra geral de autoria é a PF; além disso, inverte a destinação do material, pois o que tem relação direta com o flagrante deve ser apreendido apartadamente, não vedado o desmembramento. C inverte a regra de atribuição (faz da PC a regra para crime fora da atribuição da PF, quando a regra é a própria PF lavrar) e contraria a destinação obrigatória do ato infracional, que é encaminhado à PC, não lavrável pela equipe de cumprimento. D restringe indevidamente a atuação da PF aos crimes de sua atribuição (a PF lavra mesmo que o crime não seja de sua atribuição) e erra a destinação do material, que deve ser apreendido de forma apartada no procedimento flagrancial.",
+    "referencia": "PDF IPO III, p. 93",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1910,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cumprimento de mandado de busca e apreensão, identifica-se infração penal de menor potencial ofensivo e cogita-se a lavratura de termo circunstanciado de ocorrência (TCO). Considerando o art. 69 da Lei nº 9.099/1995, o entendimento do STF (ADIs nº 6.245 e 6.264) e os parâmetros da Instrução Normativa nº 255/2023, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Consideram-se de menor potencial ofensivo as infrações cuja pena máxima não ultrapasse dois anos, cumulada ou não com multa; o TCO pode ser lavrado mesmo fora de situação de flagrante, hipótese em que se admite o indiciamento do autor pela infração de menor potencial ofensivo.",
+      "B": "A lavratura do TCO constitui atividade exclusiva de polícia judiciária, de modo que as polícias ostensivas não podem confeccioná-lo; nas hipóteses não flagranciais, instaura-se inquérito por portaria, sendo permitido o indiciamento por infração de menor potencial ofensivo.",
+      "C": "Consideram-se de menor potencial ofensivo as infrações cuja pena máxima não ultrapasse dois anos, cumulada ou não com multa; o TCO pressupõe situação de flagrante, devendo-se, nas hipóteses não flagranciais, instaurar inquérito por portaria com menção de tratar-se de infração de menor potencial ofensivo, sendo vedado o indiciamento.",
+      "D": "O STF firmou que a lavratura do TCO é atividade privativa de polícia judiciária, vedada às polícias ostensivas; considera-se de menor potencial ofensivo a infração cuja pena máxima não ultrapasse quatro anos, e o prazo máximo para a lavratura do termo é de quarenta e oito horas, com envio imediato ao juízo competente após a sua confecção pela autoridade policial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto define a infração de menor potencial ofensivo como aquela cuja pena máxima não ultrapasse dois anos, cumulada ou não com multa (art. 69 da Lei nº 9.099/1995). Pela IN nº 255/2023, o TCO pressupõe situação de flagrante (art. 99); nas hipóteses não flagranciais, instaura-se inquérito policial por portaria, com menção de que se trata de infração de menor potencial ofensivo (art. 99, §1º); e é vedado o indiciamento por crimes dessa natureza (art. 99, §2º) — exatamente o que afirma C. A erra ao admitir a lavratura do TCO fora do flagrante (a IN exige situação de flagrante) e ao permitir o indiciamento, que é vedado pela norma. B contraria o STF, que firmou (ADIs nº 6.245 e 6.264) que a lavratura do TCO não configura atividade exclusiva de polícia judiciária, admitindo também as polícias ostensivas, e ainda erra ao autorizar o indiciamento. D inverte o entendimento do STF (que afastou a exclusividade) e troca os parâmetros objetivos: a pena máxima de referência é de dois anos, não quatro, e o prazo de lavratura é de vinte e quatro horas (art. 101), não quarenta e oito.",
+    "referencia": "PDF IPO III, p. 94",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1911,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No curso do cumprimento do mandado de busca e apreensão, a equipe enfrenta resistência de investigados e emprega a força para restabelecer a segurança do local, resultando em lesão corporal por oposição à intervenção policial. Considerando as diretrizes de uso seletivo da força e o tratamento da ocorrência conforme o art. 16 da IN nº 255/2023, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O uso da força independe de proporcionalidade quando há resistência, podendo a equipe priorizar a continuidade da busca; havendo morte por oposição à intervenção policial, basta o registro no Auto Circunstanciado de Arrecadação, dispensando-se a perícia de local de crime e o isolamento da área.",
+      "B": "Atingido o restabelecimento da segurança, prossegue-se imediatamente a busca, adiando-se o socorro aos feridos para o término da diligência; a presença de excludentes de ilicitude é reconhecida pela própria equipe no local, mediante lavratura de auto de resistência, dispensado o inquérito próprio.",
+      "C": "Constatada lesão corporal por oposição à intervenção policial, a ocorrência é resolvida no próprio local por meio de auto de resistência lavrado pela equipe, sendo desnecessária a instauração de inquérito próprio; havendo morte decorrente de oposição à intervenção, dispensa-se a observância do art. 14-A do CPP em favor dos policiais envolvidos na ação.",
+      "D": "Restabelecida a segurança do local, deve-se providenciar o socorro a eventuais feridos antes de prosseguir a busca; a presença de excludentes de ilicitude ou de culpabilidade é verificada em inquérito policial próprio, não se admitindo a lavratura de auto de resistência, encaminhando-se a ocorrência à Corregedoria."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto determina que o uso da força seja proporcional à necessidade de restabelecimento da segurança e que, atingido esse objetivo, ato contínuo, seja providenciado o socorro a eventuais feridos antes de se dar continuidade ao cumprimento do mandado. A presença das excludentes de ilicitude ou de culpabilidade deve ser verificada em sede de inquérito policial (próprio), não sendo admitida a lavratura de auto de resistência, devendo a ocorrência ser encaminhada à Corregedoria nos termos do art. 16 da IN nº 255/2023 — o que corresponde a D. A nega a proporcionalidade exigida (o uso da força deve ser proporcional e priorizar meios menos letais) e dispensa indevidamente a perícia de local de crime e o isolamento da área, imprescindíveis nos casos de tentativa de homicídio ou morte, salvo impossibilidade por circunstâncias de segurança. B inverte a sequência (o socorro precede a continuidade da busca, não o contrário) e contraria a vedação ao auto de resistência, além de atribuir à própria equipe o reconhecimento das excludentes, que cabe ao inquérito. C repete a vedação invertida ao admitir o auto de resistência e dispensar o inquérito próprio, e ainda afasta o art. 14-A do CPP, cuja observância é imperativa nos casos de morte por oposição à intervenção policial.",
+    "referencia": "PDF IPO III, p. 95",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1912,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma busca e apreensão, a equipe localiza, sobre a mesma escrivaninha, um notebook com Windows ligado e em uso, exibindo na tela uma sessão de chat ativa, e, ao lado, um desktop desligado cujo gabinete contém um disco rígido. O responsável técnico confirma que o disco do desktop está protegido por BitLocker com TPM e que o notebook não apresenta indícios de criptografia. Considerando os procedimentos de coleta do Domex, assinale a alternativa que descreve a conduta tecnicamente correta para cada equipamento.",
+    "alternativas": {
+      "A": "No notebook ligado, isolar o aparelho da rede e adquirir a memória volátil com método forense; no desktop, arrecadar o gabinete por inteiro, pois extrair o disco isolado com BitLocker/TPM inviabilizaria a extração pela perícia.",
+      "B": "No notebook ligado, desligá-lo de imediato para preservar o conteúdo gravado em disco e impedir alterações antes da coleta; no desktop, retirar o disco rígido do gabinete e apreendê-lo de forma separada, por estar a máquina já desligada e o disco em condição de ser lacrado.",
+      "C": "No notebook ligado, colocá-lo em hibernação para então adquirir a memória volátil; no desktop, arrecadar o gabinete por inteiro porque a presença de TPM autoriza a perícia a recuperar a chave a partir do próprio disco isolado.",
+      "D": "No notebook ligado, retirar o disco e apreendê-lo em separado após confirmada a ausência de criptografia; no desktop, suspender a proteção do BitLocker e, feito isso, apreender o disco rígido já descriptografado, dispensada a arrecadação do gabinete."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A regra geral é NÃO desligar de forma abrupta um computador ligado, sob pena de perda de evidências críticas e irrecuperáveis da memória volátil (RAM) — dados de processos em execução, chaves de criptografia, comunicações recentes; deve-se primeiro isolar o aparelho de qualquer rede (desligar Wi-Fi e cabo) e, em seguida, adquirir a memória volátil com método forense antes de qualquer outra ação. Quanto ao desktop, com BitLocker apoiado em TPM, apreender somente o disco rígido inviabiliza a extração pela perícia, devendo-se arrecadar o gabinete por inteiro — exatamente o que A descreve. B erra duplamente: manda desligar o notebook de imediato (conduta vedada pela regra de preservação da RAM) e autoriza apreender o disco isolado mesmo havendo criptografia — a retirada do HD só é admitida quando se verifica que ele NÃO está criptografado. C confunde institutos: hibernação é a providência preferencial APÓS a exploração para apreender a máquina, não um passo prévio à aquisição de RAM; e atribui falsamente ao TPM a virtude de permitir recuperar a chave a partir do disco isolado, justamente o cenário que o texto diz inviabilizar a extração. D inverte os casos: propõe retirar o disco do equipamento ligado (quando se deve preservar a RAM antes de tudo) e, no disco com BitLocker, suspender a proteção e apreender apenas o HD; embora 'Suspender Proteção do BitLocker' seja recurso recomendado, a orientação é arrecadar o equipamento por inteiro diante de criptografia por hardware, não apreender o disco em separado.",
+    "referencia": "PDF IPO III, p. 105",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1913,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a apreensão de aparelhos celulares, a equipe se depara com duas situações: no aparelho X, encontrado LIGADO, o investigado se recusa a fornecer a senha; no aparelho Y, encontrado DESLIGADO, o investigado fornece a senha. Sobre os cartões SIM e o estado de energia dos aparelhos, e considerando os cinco cenários do Manual de Planejamento Operacional, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em ambos os aparelhos os cartões SIM devem ser retirados e o aparelho mantido ligado com bateria externa; no X, em razão de seu valor operacional, e no Y, porque ligá-lo é etapa obrigatória prevista para o cenário de aparelho que se encontrava desligado, com idêntico tratamento de energia.",
+      "B": "No aparelho X, deve-se ligá-lo para testar a senha candidata obtida com terceiros; no aparelho Y, por estar desligado, retirar o SIM e anotar a senha para teste posterior em ambiente pericial, sem ligá-lo.",
+      "C": "No aparelho X, retiram-se os cartões SIM e NÃO se desliga o aparelho, podendo mantê-lo ligado com power bank se houver valor operacional; no aparelho Y, retira-se o SIM, liga-se o aparelho e testa-se a senha fornecida.",
+      "D": "No aparelho X, deve-se desligá-lo após colocá-lo em modo avião, para evitar comandos remotos de wipe; no aparelho Y, mantê-lo desligado e limitar-se a anotar a senha, já que ligar exporia o aparelho a bloqueio automático."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O aparelho X corresponde ao 2º cenário (LIGADO e investigado NÃO fornece a senha): retiram-se os cartões SIM, coloca-se em modo avião e expressamente NÃO se desliga o aparelho ('Não desligue o aparelho'); caso o alvo apresente grande valor operacional, mantém-se ligado com auxílio de bateria externa (power bank), acondicionando em faraday bag/papel alumínio. O aparelho Y corresponde ao 3º cenário (DESLIGADO e investigado FORNECE a senha): retira-se o SIM, liga-se o aparelho e testa-se a senha, seguindo depois os passos dos cenários de aparelho ligado. C reproduz fielmente ambos. A erra ao mandar manter o aparelho Y ligado pela mesma lógica de 'valor operacional' do X e ao afirmar que ligar é etapa obrigatória — no 3º cenário liga-se para testar a senha fornecida, e o texto adverte que alguns aparelhos exigem senha para desligar/entrar em modo avião, o que deve ser ponderado antes de ligar, não sendo um automatismo. B inverte os cenários: tentar ligar para testar 'senha candidata obtida com terceiros' é conduta do aparelho com senha não fornecida (e o teste de senhas candidatas de terceiros é feito em ambiente pericial controlado, 4º cenário), ao passo que no aparelho Y a senha foi fornecida pelo próprio dono, devendo ser testada após ligar. D contraria o 2º cenário ao mandar desligar o aparelho X (o texto determina justamente NÃO desligar) e ignora que, no 3º cenário, ligar o aparelho Y é o procedimento previsto para testar a senha fornecida.",
+    "referencia": "PDF IPO III, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1914,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Por inviabilidade técnica de arrecadar todo o servidor, a equipe decide copiar no local a caixa postal de e-mails de um usuário específico para uma mídia externa e, ao final, embalar os materiais já arrecadados na residência: dois discos rígidos retirados de um mesmo gabinete e três pen drives provenientes de cômodos distintos. Sobre a cópia de dados, a identificação/registro e a embalagem desse material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A extração de um conjunto específico de dados preserva o contexto do material de origem; a mídia de destino pode conter dados anteriores desde que identificada; e os dois discos do mesmo gabinete devem ser embalados em volumes separados para individualizá-los.",
+      "B": "A extração de dados implica perda de informações de contexto do material de origem, com possível impacto probatório; a mídia de destino deve estar limpa, preferencialmente virgem; e os dois discos do mesmo gabinete devem ser embalados e lacrados em um único volume.",
+      "C": "A cópia da caixa postal preserva o valor probatório do material tal como na apreensão integral do suporte; os dados devem ser submetidos a função de hash para verificação futura; e os três pen drives, por serem do mesmo tipo, devem ser agrupados em um único volume, ainda que de cômodos distintos.",
+      "D": "A extração no local dispensa cuidados com o contexto, pois este é recuperável na perícia; a etiqueta identificadora deve ser afixada preferencialmente sobre a embalagem, e não sobre o equipamento; e os pen drives de cômodos distintos podem ser misturados desde que do mesmo tipo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto é expresso: a extração de um conjunto específico de dados de uma mídia implica perda de informações sobre o seu contexto (registros do sistema que indicam como o arquivo foi criado, por quem, de onde foi recebido), o que pode dificultar esclarecimentos e deve ser ponderado quanto ao impacto na robustez probatória; a mídia que receberá os dados deve estar limpa, sem resquícios de dados anteriores, de preferência original de fábrica ('virgem'); e os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume. B reúne corretamente os três pontos. A erra nos três: afirma que a extração preserva o contexto (o texto diz que o perde), admite mídia de destino com dados anteriores (deve estar limpa/virgem) e manda separar em volumes os discos do mesmo gabinete (devem ir em volume único). C acerta o detalhe do hash (os dados a apreender são submetidos a funções de resumo para verificação de integridade), mas erra ao dizer que a cópia 'preserva integralmente o valor probatório' — há perda de contexto — e ao autorizar agrupar pen drives de cômodos distintos: mídias removíveis só podem ser agrupadas por tipo desde que não se misturem mídias de ambientes distintos ou de pessoas diferentes. D contraria o texto ao dispensar o cuidado com o contexto, ao inverter a regra da etiqueta — que deve ser afixada preferencialmente sobre o próprio equipamento, não sobre a embalagem — e ao permitir misturar mídias de cômodos distintos só pela coincidência de tipo.",
+    "referencia": "PDF IPO III, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1915,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na triagem pós-ação, a equipe se depara com quatro itens apreendidos de um mesmo alvo: (i) um HD externo cujo conteúdo precisa ser extraído por meio técnico-científico; (ii) uma planilha contábil impressa, legível e relacionada aos fatos, que a equipe pode examinar por si; (iii) um aparelho celular bloqueado; e (iv) um relógio comum, sem relação com a apuração e de propriedade incontroversa do titular. Conforme os critérios de destinação imediata do material, qual classificação está tecnicamente correta?",
+    "alternativas": {
+      "A": "A planilha contábil impressa segue para perícia, pois documento arrecadado em operação demanda exame técnico-científico que confirme sua autenticidade antes de ser examinado pela própria equipe.",
+      "B": "O relógio comum integra o material para análise, pois itens de propriedade incontroversa devem ser examinados pela equipe para confirmar a ausência de interesse antes de qualquer devolução.",
+      "C": "O HD externo e o celular bloqueado seguem para perícia, a planilha impressa compõe o material para análise e o relógio comum é destinado à restituição imediata.",
+      "D": "O HD externo compõe o material para análise, já que a equipe pode acessar seus dados pelo SARD, enquanto o celular bloqueado segue para perícia por exigir desbloqueio especializado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Correta a C: equipamentos de armazenamento de dados (HD) e telefones celulares demandam conhecimento especializado e integram o material para perícia (8.1.2); a planilha impressa, legível e diretamente examinável pela equipe, é material para análise (8.1.3); e o relógio, de notório desinteresse, que dispensa análise posterior e sobre cuja propriedade não há dúvida, vai à restituição imediata (8.1.1). A é errada: o texto não exige que todo documento vá à perícia — documentos só seguem para perícia quando demandam interpretação técnico-científica ou para preservar a cadeia de custódia; uma planilha legível e relacionada aos fatos é examinada pela própria equipe. B é errada: justamente por ser de notório desinteresse e propriedade incontroversa, o item dispensa qualquer análise posterior e se destina à restituição imediata, não ao material para análise. D inverte os institutos: o HD é material para perícia (equipamento de armazenamento de dados), e o SARD é o sistema em que a perícia disponibiliza os dados extraídos para acesso remoto da equipe, não um meio de a própria equipe acessar o original como material para análise.",
+    "referencia": "PDF IPO III, p. 119",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1916,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma operação de combate a organização criminosa, são constritos: um estabelecimento comercial em funcionamento, semoventes (gado) em fazenda remota e diversos imóveis e veículos cuja alienação será judicializada. O presidente da investigação precisa articular os mecanismos adequados de administração de bens. Considerando os papéis da SENAD, do fiel depositário e do Registro Especial de Destinação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A SENAD, com apoio do Conselho Federal de Administração (CFA), pode gerir o estabelecimento usado para a prática de crimes a fim de preservar seu valor, ao passo que os semoventes em fazenda remota comportam fiel depositário pela inviabilidade de remoção.",
+      "B": "Os semoventes devem ser entregues à SENAD para gestão e alienação em favor da União, enquanto o estabelecimento comercial em funcionamento reclama a nomeação de fiel depositário, por ser inviável paralisar suas atividades durante a custódia do bem constrito.",
+      "C": "O Registro Especial de Destinação é o instrumento próprio para formalizar os atos de investigação patrimonial dos imóveis e veículos, em paralelo ao inquérito, cabendo abrir um registro único que abranja os investigados para concentrar a alienação em bloco.",
+      "D": "A nomeação de fiel depositário cabe ao presidente da investigação ainda que não seja delegado, e abrange semoventes e estabelecimento, dispensando o Registro Especial de Destinação quando os bens já estão apreendidos e prontos para a alienação direta."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Correta a A: o texto afirma que a SENAD poderá, inclusive com apoio do CFA, gerir e administrar estabelecimentos utilizados para a prática de crimes, mantendo seu valor econômico (8.2.1); e que os semoventes são exemplo clássico de bem cuja remoção/armazenamento em sede policial é inviável, comportando a nomeação de fiel depositário (8.2.2). B inverte os institutos: o estabelecimento que não pode ter atividades paralisadas é exatamente uma hipótese de gestão (apta ao apoio da SENAD), e o texto cita os semoventes como caso típico de fiel depositário — não o contrário. C confunde os dois registros: o Registro Especial de Destinação serve para destinação e alienação de ativo já apreendido, ao passo que os atos de investigação patrimonial em paralelo ao inquérito são formalizados no Registro Especial de Recuperação de Ativos (nota de rodapé); além disso, o texto sugere a abertura de um registro por investigado, não um único para todos. D erra na competência: a prerrogativa de nomear fiel depositário é do Delegado de Polícia Federal (art. 161 da IN nº 255/2023-DG/PF), e não do presidente da investigação como tal, sendo que o Registro Especial de Destinação tem função própria de viabilizar a destinação/alienação, não dispensável pela mera aptidão à alienação.",
+    "referencia": "PDF IPO III, p. 122",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1917,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Recebidos da equipe de cartório os malotes lacrados, mediante registro de transferência da custódia, a equipe de investigação conduz o tratamento do material. Considerando a sequência e as cautelas do procedimento pós-ação, assinale a alternativa que descreve corretamente uma dessas etapas.",
+    "alternativas": {
+      "A": "A transferência da custódia dos malotes da equipe de cartório para a equipe de investigação é registrada no sistema de análise remota de dados (SARD), ferramenta destinada também ao controle dos rompimentos de lacre.",
+      "B": "Concluída a análise direta, o material e as informações produzidas são carregados no ePol pelo escrivão do feito, ficando a disponibilização e a juntada aos autos do inquérito condicionadas à ordem do delegado.",
+      "C": "O rompimento dos lacres precede a abertura dos malotes e, em seguida, executa-se a triagem, deixando a conferência do conteúdo com os respectivos termos de apreensão para o momento posterior à separação em material para perícia, análise e restituição.",
+      "D": "A análise de mídias e dispositivos eletrônicos deve recair sobre os dispositivos originais para assegurar a autenticidade dos dados, reservando-se as cópias forenses para a hipótese de contraprova requerida pela defesa."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Correta a B: o texto determina que, ao término dos trabalhos, as informações produzidas e o material analisado, organizado e etiquetado por alvo e local, são entregues ao escrivão do feito para carregamento no ePol e, somente após ordem do delegado, são disponibilizados, isto é, juntados aos autos (8.1.3). A erra a ferramenta: a transferência da custódia dos malotes é registrada no sistema ePol, não no SARD — este serve para extração e disponibilização de dados de mídias digitais para análise remota. C inverte a ordem das etapas: imediatamente após a abertura (rompimento de lacre), confere-se o conteúdo com os termos de apreensão e só então se executa a triagem nos três grupos — a conferência antecede a triagem, não a sucede. D inverte a boa prática: a análise deve recair, sempre que possível, sobre cópias forenses (espelhamentos), e não sobre os dispositivos originais, justamente para preservar a integridade do material original para eventuais contraprovas ou perícias futuras.",
+    "referencia": "PDF IPO III, p. 121",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1918,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em duas investigações distintas, o Delegado de Polícia Federal depara-se com situações de venda de bens constritos. No caso A, pretende-se vender, ainda no curso do feito e antes de qualquer sentença, uma embarcação de alto custo de manutenção e depreciação acelerada. No caso B, discute-se a venda de bens cujo perdimento já foi decretado em sentença condenatória irrecorrível e de itens apreendidos que não foram reclamados no prazo legal após o trânsito em julgado. Considerando a distinção entre as modalidades de alienação de bens na esfera criminal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No caso A aplica-se o art. 133 do CPP e, no caso B, o art. 144-A do CPP, pois a venda anterior à sentença encontra amparo na regra do perdimento decretado e a venda posterior ao trânsito em julgado depende de representação policial específica e de prévia oitiva.",
+      "B": "No caso A aplica-se o art. 144-A do CPP, alienação antecipada; no caso B, o art. 133 do CPP, alienação definitiva, cabível após perdimento em sentença irrecorrível ou para bens não reclamados em 90 dias do trânsito em julgado.",
+      "C": "Ambos os casos configuram alienação antecipada do art. 144-A do CPP, distinguindo-se pelo prazo: venda imediata no caso A e venda após o decurso de 90 dias contados do trânsito em julgado no caso B, conforme prevê o art. 123 do CPP.",
+      "D": "No caso A aplica-se o art. 133-A do CPP, que autoriza o uso do bem antes da sentença; no caso B, o art. 133 do CPP, restrito aos bens cujo perdimento foi decretado, sem alcançar os itens não reclamados no prazo legal após o trânsito em julgado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto distingue duas modalidades: a alienação ANTECIPADA, que é a venda de bens apreendidos ANTES do trânsito em julgado da sentença penal condenatória (caso A: embarcação de alto custo e depreciação acelerada, em pleno curso do feito), com amparo no art. 144-A do CPP; e a alienação DEFINITIVA, prevista no art. 133 do CPP, cabível para bens cujo perdimento tenha sido decretado em sentença condenatória irrecorrível, ou para itens apreendidos não reclamados no prazo de 90 dias contados do trânsito em julgado da sentença final (art. 123 do CPP) — exatamente o caso B. Logo, B está correta. A inverte os fundamentos: atribui o art. 133 ao caso anterior à sentença e o art. 144-A ao posterior, trocando a base legal de cada modalidade. C erra ao enquadrar ambos como antecipada e tratar a diferença como mero prazo, quando o caso B é alienação DEFINITIVA (pressupõe trânsito em julgado/perdimento) e não antecipada. D confunde institutos ao invocar o art. 133-A — que trata do USO de bens por órgãos, não de venda — para o caso A, e ainda restringe indevidamente o art. 133, excluindo os bens não reclamados, que estão expressamente abrangidos pela alienação definitiva.",
+    "referencia": "PDF IPO III, p. 128",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1919,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe da Polícia Federal apreende, em operação, um veículo de boa conservação cujo emprego no patrulhamento é desejado pela própria unidade que conduziu a investigação. O Delegado avalia representar pelo uso do bem com base no art. 133-A do CPP, inserido pela Lei nº 13.964/2019. Sobre a regra de prioridade, os pressupostos da medida e os seus efeitos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O uso do bem opera-se de forma automática em favor do órgão de segurança que efetuou a apreensão, dispensada autorização judicial, e converte-se em transferência definitiva tão logo o juiz constate o interesse público na utilização, sem necessidade de aguardar a sentença condenatória.",
+      "B": "A preferência na utilização cabe ao órgão indicado pelo Ministério Público em sua manifestação, exigindo-se prévia representação da autoridade policial e decisão judicial, operando-se a transferência definitiva do bem ao órgão já no momento em que concedida a autorização de uso.",
+      "C": "O órgão que participou das ações de investigação ou repressão que levaram à constrição tem preferência na utilização, mas o uso depende de autorização judicial precedida de representação, e a transferência definitiva só ocorre após o trânsito em julgado da condenação com perdimento.",
+      "D": "A constatação do interesse público pelo juiz autoriza desde logo a transferência definitiva do bem ao órgão que participou da investigação, independentemente de sentença condenatória, ficando o uso provisório restrito às hipóteses em que não haja perdimento decretado no curso do feito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O art. 133-A do CPP estabelece a regra geral do uso de bens. O §1º fixa a prioridade: o órgão de segurança pública que PARTICIPOU das ações de investigação ou repressão que levaram à constrição do bem terá PREFERÊNCIA na sua utilização (C). O texto é expresso ao afirmar que o uso NÃO ocorre de forma automática, dependendo de autorização expressa do juiz competente, sempre precedida de representação da autoridade policial ou do Ministério Público; e que a transferência DEFINITIVA ao patrimônio do órgão somente pode ocorrer APÓS o trânsito em julgado da sentença penal condenatória que decreta o perdimento do bem (o uso é, a princípio, provisório). A erra em três pontos conceituais: o uso não é automático, exige autorização judicial e não se converte em transferência definitiva pela mera constatação do interesse público. B troca o titular da preferência: esta é do órgão que participou da investigação/repressão, e não do indicado pelo MP; além disso, antecipa a transferência definitiva para o momento da autorização de uso. D inverte o efeito ao admitir transferência definitiva independentemente de sentença condenatória, quando o texto a condiciona ao trânsito em julgado com perdimento.",
+    "referencia": "PDF IPO III, p. 131",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1920,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Aproximando-se a conclusão de um inquérito que apura crime com pena máxima superior a seis anos, o Delegado de Polícia Federal pondera sobre dois ativos: (I) uma lancha de alto valor que sofre depreciação acelerada e gera elevados custos de guarda, mas que ainda interessa à prova; e (II) o patrimônio do investigado, incompatível com sua renda lícita declarada. Considerando as regras de restituição e de alienação antecipada e os deveres ligados à conclusão da investigação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Por ainda interessar à prova, a lancha não pode ser objeto de qualquer medida de venda antes da sentença, devendo permanecer custodiada em depósito até o trânsito em julgado; e o patrimônio incompatível, identificado na conclusão, fundamenta desde logo a restituição dos bens excedentes ao investigado, por presunção de origem lícita.",
+      "B": "Como a lancha ainda interessa à prova, cabe a sua restituição imediata ao investigado para cessar os custos de guarda e a depreciação; e o patrimônio incompatível subsidia, na conclusão, o pedido de confisco alargado do art. 91-A do CP, desde que o crime apurado tenha pena máxima superior a seis anos.",
+      "C": "A lancha deve ser restituída ao investigado independentemente do interesse probatório, pois a restituição prevalece sobre a alienação como destinação preferencial; e o patrimônio incompatível, por si só, autoriza a alienação antecipada dos bens, dispensada a demonstração de referibilidade ao crime apurado.",
+      "D": "A lancha não pode ser restituída enquanto interessar à prova (art. 118 do CPP), mas, diante da depreciação e dos custos de guarda, cabe a alienação antecipada do art. 144-A do CPP; e o patrimônio incompatível subsidia futuro confisco alargado (art. 91-A do CP), por ter o crime pena máxima superior a seis anos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "São duas camadas. Quanto à lancha: a restituição está vedada porque, antes do trânsito em julgado, as coisas apreendidas não podem ser restituídas enquanto interessarem ao processo (art. 118 do CPP); contudo, isso não impede a alienação ANTECIPADA do art. 144-A do CPP, justamente cabível para bens sujeitos a deterioração/depreciação ou de difícil/onerosa manutenção, transformando o ativo em recurso depositado em conta judicial. Quanto ao patrimônio: o texto afirma que, identificado patrimônio incompatível com a renda lícita declarada e tendo o crime pena máxima superior a 6 anos, a análise subsidiará FUTURO pedido de confisco alargado, nos termos do art. 91-A do CP. Logo D está correta. A erra ao afirmar que nenhuma venda é possível antes da sentença (ignora a alienação antecipada) e ao tratar o patrimônio incompatível como fundamento de restituição de bens ao investigado, quando ele subsidia o confisco alargado. B contém erro frontal: bem que ainda interessa à prova NÃO pode ser restituído (art. 118), de modo que a 'restituição imediata' é incabível, embora acerte o confisco alargado. C erra ao afirmar que a restituição prevalece e ocorre independentemente do interesse probatório (contraria o art. 118) e ao dispensar a demonstração de referibilidade/nexo, requisito expressamente exigido para as medidas patrimoniais.",
+    "referencia": "PDF IPO III, p. 134",
+    "nivel": "dificil"
   }
 ]
