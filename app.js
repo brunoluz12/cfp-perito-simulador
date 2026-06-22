@@ -516,12 +516,20 @@ async function syncLocalWithCloud() {
         localStorage.setItem('pcpr_flashcards', JSON.stringify(mergedFlashcards));
         localStorage.setItem('pcpr_notes', JSON.stringify(mergedAnotacoes));
         
-        // Recalcular stats
-        stats = null; // force recalc on reload
+        // Recalcula os totais a partir do histórico mesclado (mantém os indicadores
+        // do dashboard consistentes com o histórico após o merge).
+        const statsRecalc = { totalResolvidas: 0, totalAcertos: 0, totalErros: 0 };
+        Object.values(mergedHistorico).forEach(h => {
+            const st = typeof h === 'string' ? h : (h && h.status);
+            if (st === 'acerto') { statsRecalc.totalResolvidas++; statsRecalc.totalAcertos++; }
+            else if (st === 'erro') { statsRecalc.totalResolvidas++; statsRecalc.totalErros++; }
+        });
+        stats = statsRecalc;
+        localStorage.setItem('pcpr_stats', JSON.stringify(statsRecalc));
 
         // 4. Envia para a nuvem
         const payload = {
-            stats: null, // Let app recalc
+            stats: statsRecalc,
             favoritos: mergedFavoritos,
             comentarios: mergedComentarios,
             historico: mergedHistorico,
@@ -531,22 +539,26 @@ async function syncLocalWithCloud() {
             flashcards: mergedFlashcards,
             anotacoes: mergedAnotacoes
         };
-        
+
         await fetch(`${VERCEL_API_URL}/api/save`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username: currentUser, data: payload })
         });
-        
+
+        // Reaplica os dados mesclados na interface SEM recarregar a página.
+        // (O window.location.reload() anterior reiniciava o app e caía na tela de
+        //  login — era esse o "logout" após a sincronização.)
+        try { carregarDadosPessoais(); } catch (e) {}              // favoritos, comentários, histórico, anotações
+        try { if (typeof carregarMaterialEstudado === 'function') carregarMaterialEstudado(); } catch (e) {}
+        try { progressoCurso = JSON.parse(localStorage.getItem('pcpr_course_progress') || '{}'); } catch (e) {}
+        try { if (typeof renderizarGridControle === 'function') renderizarGridControle(); } catch (e) {}
+        try { if (typeof loadFlashcards === 'function') loadFlashcards(); } catch (e) {}
+        try { atualizarTelaDashboard(); } catch (e) {}             // indicadores + lista por capítulo
+        try { atualizarHeaderStats(); } catch (e) {}
+
         alert("Sincronização concluída com sucesso!");
-        
-        // Atualizar a UI dos flashcards sem precisar recarregar
-        if (typeof loadFlashcards === 'function') {
-            try { loadFlashcards(); } catch(e) {}
-        }
-        
-        window.location.reload(); // Recarrega para aplicar os dados
-        
+
     } catch (e) {
         console.error("Erro na sincronização:", e);
         alert("Erro ao sincronizar. Verifique sua conexão.");
