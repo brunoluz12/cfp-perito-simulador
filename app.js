@@ -1290,7 +1290,7 @@ function configurarEventos() {
     const btnSimGenerate = document.getElementById('btn-sim-generate');
     if (btnSimGenerate) btnSimGenerate.addEventListener('click', gerarSimuladoModal);
     const simTotal = document.getElementById('sim-total-input');
-    if (simTotal) simTotal.addEventListener('input', atualizarResumoSimulado);
+    if (simTotal) simTotal.addEventListener('input', distribuirQuantidadesSimulado);
     const overlay = document.getElementById('simulado-modal');
     if (overlay) overlay.addEventListener('click', (e) => {
         if (e.target === overlay) fecharModalSimulado();
@@ -1463,20 +1463,18 @@ function renderizarArvoreSimulado(disciplinasSelecionadas) {
             rows.forEach(r => {
                 const cb = r.querySelector('.sim-cb');
                 const qty = r.querySelector('.sim-qty');
-                const max = parseInt(r.dataset.max, 10);
                 if (action === 'all') {
                     cb.checked = true;
                     qty.disabled = false;
-                    if (parseInt(qty.value, 10) === 0) qty.value = Math.min(5, max);
                     r.classList.add('is-selected');
                 } else {
                     cb.checked = false;
                     qty.disabled = true;
-                    qty.value = '0';
                     r.classList.remove('is-selected');
                 }
             });
-            atualizarResumoSimulado();
+            // Redistribui o total do simulado entre os conteúdos selecionados
+            distribuirQuantidadesSimulado();
         });
 
         group.appendChild(header);
@@ -1509,27 +1507,32 @@ function renderizarArvoreSimulado(disciplinasSelecionadas) {
             const qty = document.createElement('input');
             qty.type = 'number';
             qty.min = '0';
-            qty.max = String(total);
+            qty.max = String(Math.min(5, total));
             qty.value = '0';
             qty.className = 'sim-qty';
             qty.disabled = true;
 
             cb.addEventListener('change', () => {
                 qty.disabled = !cb.checked;
-                if (cb.checked) {
-                    row.classList.add('is-selected');
-                    if (parseInt(qty.value, 10) === 0) qty.value = Math.min(5, total);
-                } else {
-                    row.classList.remove('is-selected');
-                    qty.value = '0';
-                }
-                atualizarResumoSimulado();
+                row.classList.toggle('is-selected', cb.checked);
+                // Redistribui o total entre os conteúdos selecionados (proporcional, teto 5)
+                distribuirQuantidadesSimulado();
             });
 
             qty.addEventListener('input', () => {
                 let v = parseInt(qty.value, 10);
                 if (isNaN(v) || v < 0) v = 0;
-                if (v > total) v = total;
+                // Teto de 5 por conteúdo (ou o total disponível, se menor)
+                const capConteudo = Math.min(5, total);
+                if (v > capConteudo) v = capConteudo;
+                // Não deixa a soma ultrapassar o total do simulado
+                const alvo = parseInt(document.getElementById('sim-total-input').value, 10) || 0;
+                let somaOutros = 0;
+                document.querySelectorAll('#simulado-tree .conteudo-row').forEach(r2 => {
+                    if (r2 === row) return;
+                    if (r2.querySelector('.sim-cb').checked) somaOutros += parseInt(r2.querySelector('.sim-qty').value, 10) || 0;
+                });
+                if (somaOutros + v > alvo) v = Math.max(0, alvo - somaOutros);
                 qty.value = String(v);
                 atualizarResumoSimulado();
             });
@@ -1544,6 +1547,51 @@ function renderizarArvoreSimulado(disciplinasSelecionadas) {
         tree.appendChild(group);
     });
 
+    atualizarResumoSimulado();
+}
+
+// Distribui o total do simulado entre os conteúdos SELECIONADOS, de forma
+// proporcional à quantidade de questões disponíveis em cada um, com teto de
+// 5 por conteúdo e somando no máximo o total pedido. Usa o método de maior
+// média (D'Hondt): a cada passo dá +1 ao conteúdo com maior disponível/(atual+1),
+// respeitando o teto — o que evita que um capítulo com muitas questões domine.
+function distribuirQuantidadesSimulado() {
+    const target = parseInt(document.getElementById('sim-total-input').value, 10) || 0;
+    const rows = Array.from(document.querySelectorAll('#simulado-tree .conteudo-row'));
+    const sel = [];
+    rows.forEach(r => {
+        const qtyEl = r.querySelector('.sim-qty');
+        if (r.querySelector('.sim-cb').checked) {
+            const max = parseInt(r.dataset.max, 10) || 0;
+            sel.push({ qtyEl, peso: max, cap: Math.min(5, max), q: 0 });
+        } else {
+            qtyEl.value = '0';
+        }
+    });
+    if (sel.length) {
+        let restante = Math.min(target, sel.reduce((s, o) => s + o.cap, 0));
+        // 1) Garante ao menos 1 questão por conteúdo selecionado (se o total permitir),
+        //    para que todo conteúdo marcado apareça no simulado.
+        for (const o of sel) {
+            if (restante <= 0) break;
+            if (o.cap > 0) { o.q = 1; restante--; }
+        }
+        // 2) Distribui o restante proporcionalmente (maior média), respeitando o teto.
+        while (restante > 0) {
+            let melhor = null;
+            for (const o of sel) {
+                if (o.q >= o.cap) continue;
+                const media = o.peso / (o.q + 1);
+                if (!melhor || media > melhor.media || (media === melhor.media && o.q < melhor.o.q)) {
+                    melhor = { o, media };
+                }
+            }
+            if (!melhor) break; // todos no teto
+            melhor.o.q++;
+            restante--;
+        }
+        sel.forEach(o => { o.qtyEl.value = String(o.q); });
+    }
     atualizarResumoSimulado();
 }
 
@@ -1564,8 +1612,10 @@ function atualizarResumoSimulado() {
 
     const summary = document.getElementById('simulado-summary');
     const btnGen = document.getElementById('btn-sim-generate');
-    const valido = soma > 0 && soma === target;
-    summary.classList.toggle('is-error', !valido && soma > 0);
+    // Válido enquanto houver questões e a soma não passar do total pedido.
+    // (O teto de 5 por conteúdo pode deixar a soma abaixo do total — é permitido.)
+    const valido = soma > 0 && soma <= target;
+    summary.classList.toggle('is-error', soma > target);
     btnGen.disabled = !valido;
 }
 
