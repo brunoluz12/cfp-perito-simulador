@@ -3885,7 +3885,11 @@ function notesExcluir(id) {
 // --- Rich text (execCommand com restauração de seleção) ---
 function notesExecRT(cmd, value) {
     const editor = document.getElementById('note-editor');
-    editor.focus();
+    // Guarda a rolagem para restaurar depois (evita o "pulo" para o topo da página
+    // ao focar/aplicar formatação num editor alto que rola por dentro).
+    const winY = window.scrollY;
+    const edTop = editor.scrollTop;
+    editor.focus({ preventScroll: true });
     if (notesSavedRange) {
         const sel = window.getSelection();
         sel.removeAllRanges();
@@ -3893,6 +3897,9 @@ function notesExecRT(cmd, value) {
     }
     try { document.execCommand(cmd, false, value == null ? null : value); } catch (e) {}
     notesAtualizarBotoesRT();
+    // Restaura a posição de rolagem (a janela não deve saltar; o editor mantém o ponto)
+    editor.scrollTop = edTop;
+    if (window.scrollY !== winY) window.scrollTo({ top: winY });
 }
 
 function notesAtualizarBotoesRT() {
@@ -3939,18 +3946,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Barra de ferramentas rich text
     const toolbar = document.getElementById('rt-toolbar');
-    // Mantém a seleção no editor ao clicar nos botões (não nos selects/inputs de cor)
+    // Mantém a seleção no editor ao clicar nos botões/amostras (não nos inputs de cor)
     toolbar.addEventListener('mousedown', (e) => {
-        if (e.target.closest('.rt-btn')) e.preventDefault();
+        if (e.target.closest('.rt-btn, .rt-swatch')) e.preventDefault();
     });
     toolbar.querySelectorAll('.rt-btn[data-cmd]').forEach(btn =>
         btn.addEventListener('click', () => notesExecRT(btn.dataset.cmd)));
     toolbar.querySelectorAll('.rt-btn[data-block]').forEach(btn =>
         btn.addEventListener('click', () => notesExecRT('formatBlock', btn.dataset.block)));
+    // Amostras de cor (texto e marca-texto) — aplicação em 1 clique
+    toolbar.querySelectorAll('.rt-swatch[data-cmd]').forEach(btn =>
+        btn.addEventListener('click', () => notesExecRT(btn.dataset.cmd, btn.dataset.color)));
     const fmt = document.getElementById('rt-format');
     fmt.addEventListener('change', () => { notesExecRT('formatBlock', fmt.value); fmt.selectedIndex = 0; });
-    document.getElementById('rt-forecolor').addEventListener('input', (e) => notesExecRT('foreColor', e.target.value));
-    document.getElementById('rt-hilite').addEventListener('input', (e) => notesExecRT('hiliteColor', e.target.value));
+    // 'change' (e não 'input') aplica a cor uma única vez, ao confirmar no seletor
+    document.getElementById('rt-forecolor').addEventListener('change', (e) => notesExecRT('foreColor', e.target.value));
+    document.getElementById('rt-hilite').addEventListener('change', (e) => notesExecRT('hiliteColor', e.target.value));
     const linkBtn = toolbar.querySelector('[data-action="link"]');
     if (linkBtn) linkBtn.addEventListener('click', () => {
         const url = prompt('Endereço do link (inclua https://):', 'https://');

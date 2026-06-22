@@ -5153,6 +5153,35 @@ html.dark-mode .fc-premium-textarea:focus {
     cursor: pointer;
 }
 
+/* Amostras rápidas de cor (texto e marca-texto) */
+.rt-group.rt-colors { align-items: center; gap: 3px; }
+.rt-color-ico {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    padding: 0 1px;
+}
+.rt-swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.12s ease;
+}
+.rt-swatch:hover { transform: scale(1.15); }
+.rt-swatch-none {
+    background: var(--panel-bg, #fff);
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+html.dark-mode .rt-swatch { border-color: rgba(255, 255, 255, 0.3); }
+
 /* Área editável */
 .rt-editor {
     min-height: 320px;
