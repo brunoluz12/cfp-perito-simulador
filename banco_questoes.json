@@ -3056,198 +3056,6 @@
     "referencia": "Cap. 7, Seção 7.4.1, p. 141-142"
   },
   {
-    "id": 377,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Polícia Federal adota diferentes modelos organizacionais para conduzir investigações, sendo que cada um possui características próprias quanto à reatividade, estrutura e duração. Considerando os quatro modelos básicos de unidades descritos no Caderno Didático IPO (unidades generalistas; grandes equipes de inquérito; unidades especializadas em investigações de caráter proativo; e atuação em regime de força-tarefa), assinale a alternativa correta:",
-    "alternativas": {
-      "A": "As unidades especializadas em investigações proativas surgiram especialmente nos anos 2000, voltadas exclusivamente à repressão a crimes cibernéticos, sendo descabida sua utilização em matéria de tráfico internacional de drogas ou crimes financeiros.",
-      "B": "O modelo de unidade adotado pela Polícia Federal determina, por si só, o método investigativo a ser empregado, sendo vedado a uma unidade especializada conduzir investigações a partir de fatos concretos reportados individualmente, sob pena de descaracterização do modelo proativo.",
-      "C": "As grandes equipes de inquérito caracterizam-se pela perenidade institucional, mantendo sua estrutura mesmo após o encerramento das apurações, em razão da natureza estratégica e da especialização exigida para o enfrentamento de crimes graves.",
-      "D": "As unidades generalistas e as grandes equipes de inquérito estão mais frequentemente associadas a uma lógica investigativa de natureza reativa, enquanto as unidades especializadas e as forças-tarefa tendem a adotar uma postura mais estruturada e estratégica, embora tal correlação não seja rígida nem automática, podendo unidades generalistas lançar mão de técnicas de monitoramento de alvos e unidades especializadas iniciar apurações a partir de fatos concretos."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o Caderno Didático: 'as unidades generalistas e as grandes equipes de inquérito estão mais frequentemente associadas a uma lógica investigativa de natureza reativa, enquanto as unidades especializadas e as forças-tarefa tendem a adotar uma postura mais estruturada e estratégica. Contudo, essa correlação não é rígida nem automática' e 'o modelo de unidade não determina, por si só, o método investigativo empregado'. As grandes equipes de inquérito têm caráter temporário, e as unidades proativas surgiram nos anos 1990, especialmente no tráfico de drogas.",
-    "referencia": "Cap. 8, Seção 8.1, p. 149-150"
-  },
-  {
-    "id": 378,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre as unidades generalistas da Polícia Federal e o tratamento das notícias de fato, conforme a Instrução Normativa DG/PF nº 255/2023 e o Caderno Didático IPO, é correto afirmar que:",
-    "alternativas": {
-      "A": "A notícia de fato não flagrancial será imediatamente convertida em inquérito policial, sem necessidade de análise prévia de plausibilidade, tipicidade ou atribuição da Polícia Federal.",
-      "B": "Nas unidades generalistas, os delegados de polícia federal atuam diretamente apenas com peritos criminais, ficando os escrivães restritos ao núcleo de análise.",
-      "C": "A notícia de fato não flagrancial será cadastrada como registro de fato no sistema oficial de polícia judiciária, e, verificada a plausibilidade, a tipicidade da conduta e a atribuição da PF, poderá ser convertida em notícia-crime, notícia-crime em verificação ou registro especial para posterior instauração de inquérito policial.",
-      "D": "Nas unidades generalistas, os núcleos operacionais e os núcleos de análise operam de forma rigidamente compartimentada, sendo vedado o intercâmbio de policiais entre setores, mesmo em caso de complexidade da apuração."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O Caderno explica que 'A notícia de fato não flagrancial será cadastrada como registro de fato no sistema oficial de polícia judiciária' e que, 'verificada a plausibilidade, a tipicidade da conduta e a atribuição da Polícia Federal (...) o registro de fato poderá ser convertido em (i) notícia-crime, (ii) notícia-crime em verificação ou (iii) registro especial (art. 12 da IN 255/2023-DG/PF), para posterior instauração de inquérito policial'. As divisões internas não são estanques.",
-    "referencia": "Cap. 8, Seção 8.1.1, p. 150-151"
-  },
-  {
-    "id": 379,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "Julgue os itens a seguir, relativos às forças-tarefa e ao modelo da Força Integrada de Combate ao Crime Organizado (FICCO), conforme o Caderno Didático IPO:\n\nI. O dever constitucional da PF de atuar na repressão de crimes interestaduais ou que exijam repressão uniforme decorre do art. 144, §1º, inciso I, da CF, regulamentado pela Lei nº 10.446/2002.\nII. As FICCOs foram instituídas em todos os Estados da Federação e funcionam mediante Acordos de Cooperação Técnica (ACTs), integrando Polícia Federal, Polícia Civil, Polícia Militar, Polícia Rodoviária Federal e Secretaria Nacional de Políticas Penais.\nIII. A Lei nº 10.446/2002 traz rol taxativo e imutável de infrações passíveis de apuração pela PF, não admitindo ampliação por lei posterior.\nIV. As Forças-Tarefas de Segurança Pública (FTSP) substituíram, em 2024, o modelo da FICCO como instrumento atual de integração interinstitucional.\n\nEstão corretos APENAS os itens:",
-    "alternativas": {
-      "A": "I e II.",
-      "B": "I, III e IV.",
-      "C": "II e IV.",
-      "D": "III e IV."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O Caderno afirma: 'O dever constitucional de atuar na repressão de crimes interestaduais ou que exijam repressão uniforme decorre do artigo 144, §1º, inciso I, da Constituição Federal' (item I correto). Sobre FICCO: 'Instituídas em todos os Estados da Federação, as FICCOs funcionam mediante Acordos de Cooperação Técnica (ACTs), integrando Polícia Federal, Polícia Civil, Polícia Militar, Polícia Rodoviária Federal e Secretaria Nacional de Políticas Penais' (item II correto). O item III é falso, pois 'o rol de crimes estaduais passíveis de investigação pela Polícia Federal vem sendo progressivamente ampliado'. O item IV é falso: as FTSP foram modelo anterior, sendo a FICCO o modelo atual.",
-    "referencia": "Cap. 8, Seção 8.1.4, p. 154-155"
-  },
-  {
-    "id": 380,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "No tocante à supervisão estratégica das investigações no âmbito central da Polícia Federal, conforme a IN 270/2023-DG/PF (alterada pela IN 286/2024), assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A Diretoria de Combate a Crimes Cibernéticos (DCIBER/PF) possui, dentre suas unidades temáticas, a Coordenação de Repressão a Fraudes Bancárias Eletrônicas (CBAN), a Coordenação de Repressão a Crimes de Alta Tecnologia (CCAT) e a Coordenação de Repressão a Crimes Cibernéticos Relacionados ao Abuso Sexual Infantojuvenil (CCASI), além da recém-criada URCOD, voltada a crimes cibernéticos de ódio.",
-      "B": "A Polícia Federal estrutura-se, no âmbito central, em duas diretorias finalísticas: a Dicor e a Dciber, sendo as matérias ambientais distribuídas entre ambas, sem unidade própria.",
-      "C": "A Diretoria da Amazônia e Meio Ambiente (DAMAZ/PF) possui quatro coordenações-gerais, idênticas às da Dicor, sendo competente para apurar exclusivamente crimes ocorridos na região Norte do país.",
-      "D": "A supervisão temática das investigações compete exclusivamente à Dicor, cabendo às demais diretorias apenas funções administrativas e logísticas, sem unidades próprias de inteligência."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o Caderno: 'a Diretoria de Combate a Crimes Cibernéticos (DCIBER/PF) possui (...) as seguintes unidades temáticas: Coordenação de Repressão a Fraudes Bancárias Eletrônicas - CBAN; Coordenação de Repressão a Crimes de Alta Tecnologia - CCAT; Coordenação de Repressão a Crimes Cibernéticos Relacionados ao Abuso Sexual Infantojuvenil - CCASI'. Adicionalmente, 'foi criada (...) a Unidade de Repressão a Crimes Cibernéticos de Ódio (URCOD/CGCIBER/DCIBER/PF), cuja institucionalização formal está em andamento'. A PF estrutura-se em três diretorias (Dicor, Damaz, Dciber), e cada uma possui unidades próprias de inteligência e gestão estratégica.",
-    "referencia": "Cap. 8, Seção 8.2, p. 155-156"
-  },
-  {
-    "id": 381,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o Índice de Produtividade Operacional (IPO) da Polícia Federal, instituído pela Portaria DG/PF nº 18.900/2023, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "O IPO é composto exclusivamente por indicadores setoriais, definidos discricionariamente por cada diretoria de polícia judiciária, sem padronização institucional.",
-      "B": "Os indicadores transversais correspondem a 20% do índice e os indicadores setoriais a 80%, refletindo o caráter especializado de cada diretoria de polícia judiciária.",
-      "C": "O cálculo do IPO utiliza atualmente os dados estruturados de indicadores operacionais do sistema QOPS, abandonado pela Polícia Federal a partir de 2024 com a migração para o ePol.",
-      "D": "O IPO possui dois tipos de indicadores: os transversais, que correspondem a 80% do índice e refletem aspectos fundamentais comuns a todas as unidades avaliadas, e os setoriais, que representam 20% do índice, selecionados com base nas particularidades, diretrizes e atribuições de cada diretoria de polícia judiciária."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O Caderno é expresso: 'o IPO (...) possui dois tipos de indicadores: (i) os indicadores transversais, os quais correspondem a 80% (oitenta por cento) do índice e têm por objetivo refletir os aspectos fundamentais e comuns a todas as unidades avaliadas (...); (ii) os indicadores setoriais, que representam 20% (vinte por cento) do índice, selecionados com base nas particularidades, diretrizes e atribuições de cada diretoria de polícia judiciária'. O sistema atual usado é o Palas Pandora desde 2018, não o QOPS.",
-    "referencia": "Cap. 8, Seção 8.3, p. 156-157"
-  },
-  {
-    "id": 382,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Portaria DG/PF nº 18.900/2023 estabelece duas possibilidades de enquadramento de um conjunto de ações policiais como operação de polícia judiciária para fins de cálculo do IPO. Considerando essa disciplina, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "Configuram operação de polícia judiciária decorrente de complexidade extraordinária de execução, independentemente do cumprimento de mandados judiciais, hipóteses como erradicação de plantio de cultivo ilícito, reintegração de posse, desintrusão de invasores em crime ambiental, repressão ao trabalho análogo ao de escravo em conjunto com outro órgão ou qualquer ação que resulte no resgate de vítima.",
-      "B": "O cumprimento exclusivamente de mandados de interceptação telefônica, por se tratar de medida judicial sigilosa, é suficiente, por si só, para caracterizar uma operação policial para fins estatísticos do IPO, independentemente da deflagração de medidas ostensivas.",
-      "C": "As ações proativas da PF que resultem em prisões ou apreensões e que não se enquadrem na definição de operações policiais não são consideradas eventos operacionais e nunca influem no IPO.",
-      "D": "Investigações em que foram cumpridas medidas judiciais constritivas de patrimônio, como sequestro de bens e valores, jamais poderão ser consideradas operações se não houver expedição concomitante de mandados de busca ou de prisão."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o art. 16 da Portaria, citado no Caderno: 'Configura-se operação de polícia judiciária decorrente da complexidade extraordinária de execução quando, independente do cumprimento de mandados judiciais, ocorrer uma das seguintes ações específicas: I - erradicação de plantio de cultivo ilícito; II - reintegração de posse; III - desintrusão de invasores ou destruição de maquinário (...); IV - repressão ao trabalho análogo ao de escravo em conjunto com outro órgão; ou V - qualquer ação que resulte no resgate de vítima'. O cumprimento de medida sigilosa não basta; medidas constritivas de patrimônio podem caracterizar operação; e eventos operacionais podem influir em alguns indicadores do IPO.",
-    "referencia": "Cap. 8, Seção 8.3, p. 158-159"
-  },
-  {
-    "id": 383,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "O delegado de polícia federal recebe sua carga de inquéritos e deve discernir entre procedimentos rotineiros e prioritários. Conforme o Caderno Didático IPO, sobre a gestão de recursos nesse contexto, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "Em todos os inquéritos policiais, independentemente da complexidade, devem ser empregados recursos extraordinários, com a mesma intensidade, em homenagem ao princípio da igualdade.",
-      "B": "As denominadas grandes operações da Polícia Federal sempre se iniciam com grande quantidade de policiais alocados desde o nascedouro da investigação, o que assegura sua efetividade.",
-      "C": "Nos casos de tratamento especial, a investigação assume a feição de um autêntico projeto, ou seja, a alocação de recursos humanos, financeiros e materiais especiais por um determinado período para a consecução de um objetivo específico, podendo o delegado chefe da delegacia descentralizada, o DRPJ ou mesmo os diretores da Dicor, Damaz e Dciber atuarem como patrocinadores do projeto.",
-      "D": "Casos de tratamento comum e casos massivos demandam, em regra, a utilização de meios extraordinários de investigação, em razão da elevada sensibilidade dos suspeitos e da grande repercussão política e social."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O Caderno afirma: 'Aqui, a investigação assume a feição de um autêntico projeto, ou seja, a alocação de recursos humanos, financeiros e materiais especiais por um determinado período para a consecução de um objetivo específico'. E ainda: 'os diretores de Combate à Corrupção e ao Crime Organizado e à Corrupção (Dicor), da Amazônia e Meio Ambiente (Damaz) e de Combate a Crimes Cibernéticos (Dciber) poderão atuar como patrocinadores do projeto de investigação'. Nenhuma operação começa com grande quantidade de policiais, e casos comuns/massivos não demandam meios extraordinários.",
-    "referencia": "Cap. 8, Seção 8.4.1, p. 162-163"
-  },
-  {
-    "id": 384,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o gerenciamento de pessoas na investigação policial, especialmente quanto à distinção entre chefiar e liderar, conforme o Caderno Didático IPO (com referência à obra de Hunter), assinale a alternativa correta:",
-    "alternativas": {
-      "A": "Chefiar e liderar são expressões sinônimas no contexto da investigação policial, referindo-se ambas à faculdade legal de forçar ou compelir o subordinado ao cumprimento da ordem, em razão da hierarquia funcional.",
-      "B": "O chefe é o detentor do poder, faculdade de forçar ou compelir alguém a fazer sua vontade em razão de sua posição ou força, ao passo que liderança é a habilidade de influenciar pessoas para trabalharem entusiasticamente visando a atingir os objetivos identificados como sendo para o bem comum; segundo Hunter, líder é alguém que identifica e satisfaz as necessidades legítimas de seus liderados e remove barreiras para que possam exercer suas funções.",
-      "C": "A liderança, conforme o Caderno, prescinde da identificação das necessidades dos liderados, bastando o domínio técnico-jurídico do delegado de polícia federal para que a equipe atue com entusiasmo.",
-      "D": "A teoria DISC, citada no Caderno, divide as personalidades em quatro perfis (dominantes, comunicadores, estabilidade e conformidade) e foi consagrada como o único método científico aceito pela Polícia Federal para a obrigatória classificação de equipes investigativas."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O Caderno é explícito: 'O chefe é o detentor do poder, que é a faculdade de forçar ou compelir alguém a fazer sua vontade, por causa de sua posição ou força, mesmo que a pessoa preferisse não o fazer. Já a liderança é a habilidade de influenciar pessoas para trabalharem entusiasticamente visando a atingir os objetivos identificados como sendo para o bem comum'. E: 'HUNTER menciona que o líder é alguém que identifica e satisfaz as necessidades legítimas de seus liderados e remove todas as barreiras para que possam exercer suas funções'. A teoria DISC é apenas uma das ferramentas disponíveis, não obrigatória.",
-    "referencia": "Cap. 8, Seção 8.4.2, p. 166-167"
-  },
-  {
-    "id": 385,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "Julgue os itens a seguir sobre a cadeia de custódia, conforme o Caderno Didático IPO e o art. 140 da IN nº 255/2023:\n\nI. A cadeia de custódia é o conjunto de registros cronológicos escritos capazes de garantir a identidade e a integridade de um material a partir de sua identificação em um local de interesse para uma investigação.\nII. A responsabilidade pela manutenção da cadeia de custódia é exclusiva do perito criminal, não recaindo sobre os demais policiais que tenham contato com o material.\nIII. A forma mais simples e usual de implementação de cadeias de custódia envolve a utilização de lacres numerados e de embalagens identificadas com etiquetas contendo, no mínimo, o número único identificador, o número do procedimento de polícia judiciária e sua referência no termo de apreensão.\nIV. Embora todos os elementos devam ser acondicionados, lacrados e registrados, nada impede que tais providências sejam adiadas em situações como risco operacional à segurança dos policiais, inexistência de embalagem ou ordem judicial.\n\nEstão corretos APENAS os itens:",
-    "alternativas": {
-      "A": "I, II e III.",
-      "B": "I, III e IV.",
-      "C": "I, II e IV.",
-      "D": "II, III e IV."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O Caderno define a cadeia de custódia como 'o conjunto de registros cronológicos escritos capazes de garantir a identidade e a integridade de um material (...) a partir de sua identificação em um local de interesse' (I correto). Sobre a forma usual: 'utilização de lacres numerados e de embalagens (...) identificados com etiquetas (...) contendo, no mínimo, o número único identificador, o número do procedimento de polícia judiciária e sua referência no termo de apreensão' (III correto). E: 'nada impede que tais providências sejam adiadas caso haja qualquer intercorrência (...) como situações de risco operacional à segurança dos policiais, inexistência de embalagem, ordem judicial, etc.' (IV correto). O item II é falso: 'a responsabilidade pela manutenção da cadeia de custódia é de todos os policiais que têm algum tipo de contato com o material'.",
-    "referencia": "Cap. 8, Seção 8.8, p. 172-173"
-  },
-  {
-    "id": 386,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o conceito e as características dos crimes massivos, conforme o Caderno Didático IPO, e considerando a contribuição teórica de Eck (1983) sobre triagem de casos, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "Crimes massivos são exclusivamente aqueles cometidos sem contato físico entre autor e vítima, como fraudes bancárias eletrônicas, sendo afastado tal conceito quando há proximidade física entre autor e vítima, como no tráfico varejista de drogas.",
-      "B": "Crimes massivos são ocorrências repetidas de uma prática delitiva em determinada área e período, cujo grande volume inviabiliza a apuração formal de cada fato individualmente; e a classificação de Eck divide os casos em três tipos: (i) auto solucionados, (ii) os que podem ser resolvidos com algum esforço investigativo e (iii) aqueles que somente podem ser resolvidos com quantidade razoável de esforço ou não podem ser resolvidos.",
-      "C": "Conforme Eck (1983), todos os casos devem receber idêntica quantidade de recursos investigativos, sendo vedada qualquer triagem por probabilidade de resolução, sob pena de violação do princípio da obrigatoriedade.",
-      "D": "Crimes massivos são sempre cometidos por organizações criminosas estruturadas internacionalmente, exigindo, por força legal, a instauração individualizada de inquérito policial para cada ocorrência, sem possibilidade de tratamento coletivo."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O Caderno define: 'Crimes massivos são ocorrências repetidas de uma prática delitiva em determinada área e determinado período, cujo grande volume inviabiliza a apuração formal de cada fato individualmente'. E sobre Eck: 'Eck (1983) sugeriu a classificação de três tipos de casos: i) os casos que se solucionam por meio dos próprios elementos (auto solucionados) (...); ii) casos que podem ser resolvidos com algum esforço investigativo; e iii) aqueles casos que somente podem ser resolvidos com uma quantidade razoável de esforço ou não podem ser resolvidos de qualquer forma'. Crimes massivos abrangem tanto modalidades sem contato (fraudes) quanto com contato (tráfico de varejo).",
-    "referencia": "Cap. 8, Seção 8.9, p. 174-175"
-  },
-  {
-    "id": 387,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Programa Prometheus, regulamentado pela Portaria nº 19.022/2024-DG/PF, prevê a possibilidade de manifestação pelo arquivamento de notícia-crime mediante inclusão de dados nas bases do próprio sistema. Sobre essa possibilidade e suas vedações, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A manifestação pelo arquivamento mediante inclusão de dados nas bases do Prometheus pode ser realizada livremente em qualquer hipótese, inclusive quando houver indícios de participação de agentes públicos ou quando os fatos tiverem sido praticados com violência ou grave ameaça contra pessoa.",
-      "B": "A Portaria nº 19.022/2024 estabelece novos parâmetros vinculantes para o princípio da insignificância, criando, por ato infralegal, valores objetivos a partir dos quais a conduta deixa de ser típica.",
-      "C": "A manifestação pelo arquivamento é admitida quando não houver linha investigativa viável ou quando não for recomendável investigação individualizada, sendo vedada, entre outras hipóteses, quando houver indícios de participação de agentes públicos, quando os fatos tiverem sido praticados com violência ou grave ameaça contra pessoa (ressalvados os delitos patrimoniais contra os Correios) ou quando o prejuízo direto à União for superior a R$ 40.000,00.",
-      "D": "O tratamento especial pelo Prometheus pode ser utilizado para justificar a não realização de prisão em flagrante, em razão da política de racionalização de recursos investigativos."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o art. 10 da Portaria nº 19.022/2024 citado no Caderno: 'A manifestação pelo arquivamento (...) será admitida quando não houver linha investigativa viável ou quando não for recomendável investigação individualizada, sendo, no entanto, vedada nas seguintes hipóteses: I - se houver indícios de participação de agentes públicos; II - se os fatos tiverem sido praticados com violência ou grave ameaça contra pessoa, ressalvados os delitos patrimoniais contra os Correios; (...) IV - quando o prejuízo econômico, fiscal, financeiro ou patrimonial direto da União for superior a R$ 40.000,00'. O Caderno também ressalta que a Portaria 'não tem o objetivo e sequer a legitimidade para estabelecer novos parâmetros para o princípio da insignificância' e que o art. 15, §3º veda usar o Prometheus para justificar a não realização de prisão em flagrante.",
-    "referencia": "Cap. 8, Seção 8.9.2, p. 181-182"
-  },
-  {
-    "id": 388,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre as estratégias de tratamento de crimes massivos pela Polícia Federal, especialmente o Projeto TENTÁCULOS e o Sistema RAPINA, é correto afirmar que:",
-    "alternativas": {
-      "A": "O Sistema RAPINA é ferramenta corporativa da Polícia Federal voltada ao tratamento de fraudes bancárias eletrônicas, recebendo dados diretamente da Caixa Econômica Federal e da Febraban por meio de Acordos de Cooperação Técnica.",
-      "B": "O Projeto TENTÁCULOS é gerido pela Coordenação de Repressão a Crimes Cibernéticos Relacionados ao Abuso Sexual Infantojuvenil (CCASI), sendo voltado ao tratamento de reports do NCMEC sobre exploração sexual infantil.",
-      "C": "Tanto o Projeto TENTÁCULOS quanto o Sistema RAPINA limitam-se a armazenar notícias-crime, sendo vedado o uso de ferramentas de análise de vínculos, inteligência artificial ou dashboards analíticos para o correlacionamento de dados.",
-      "D": "O Projeto TENTÁCULOS centraliza notícias-crime de fraudes bancárias eletrônicas em repositório único (Base Nacional de Fraudes Bancárias Eletrônicas), sendo gerido pela Cban/CGciber/Dciber/PF, ao passo que o Sistema RAPINA, gerido pela CCASI/CGciber/Dciber/PF, é ferramenta de armazenamento, análise e cruzamento de informações sobre abuso sexual infantil contidas em relatórios compartilhados pelo NCMEC."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O Caderno afirma sobre o Tentáculos: 'a Coordenação de Repressão a Fraudes Bancárias Eletrônicas (Cban/CGciber/Dciber/PF) [é] a unidade responsável pela alimentação e gestão da Base Tentáculos' e que centraliza notícias-crime da CAIXA e da Febraban na 'Base Nacional de Fraudes Bancárias Eletrônicas (Base Tentáculos)'. Sobre o RAPINA: 'O sistema RAPINA é uma ferramenta tecnológica corporativa da Polícia Federal (...) de armazenamento, análise e cruzamento de informações relativas ao abuso sexual infantil, contidas nos relatórios compartilhados pela organização não governamental americana chamada NCMEC', sendo gerido pela CCASI/CGCIBER/DCIBER/PF. As alternativas A e B trocam os escopos dos sistemas, e o item C contraria o uso de IA e dashboards descritos no Caderno.",
-    "referencia": "Cap. 8, Seções 8.9.3 e 8.9.4, p. 183-186"
-  },
-  {
     "id": 389,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 3 - Teoria da Investigação",
@@ -29266,6 +29074,40 @@
     "resposta_correta": "C",
     "justificativa": "Conforme o Caderno (Seção 7.4): o confisco alargado (art. 91-A do CP) incide sobre a diferença patrimonial incompatível com a renda lícita do condenado, deve ser requerido expressamente pelo MP na denúncia e foca crimes com pena máxima superior a 6 anos (C). A erra porque a incidência sobre a diferença patrimonial incompatível é do confisco alargado, não do tradicional (produto/proveito direto). B e D erram porque o confisco por equivalência recai sobre bens de valor correspondente justamente quando o ativo original não é achado ou foi dissipado.",
     "referencia": "Cap. 7, Seção 7.4 — Modalidades de confisco",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1994,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os modelos de gerenciamento de investigações, conforme o Caderno (Cap. 8), é correto afirmar que:",
+    "alternativas": {
+      "A": "Os quatro modelos de unidades são generalistas, especializadas proativas, grandes equipes de inquéritos e forças-tarefa; o modelo, por si só, não determina o método investigativo.",
+      "B": "Existe um único modelo organizacional de unidade, que determina rigidamente o método investigativo a ser empregado em cada caso concreto pela autoridade policial.",
+      "C": "As grandes equipes de inquéritos são unidades proativas de caráter permanente, voltadas a crimes invisíveis e organizados, como o tráfico de drogas e os crimes cibernéticos contínuos.",
+      "D": "As unidades generalistas dedicam-se a crimes invisíveis e organizados, como o tráfico de drogas, o garimpo ilegal e os crimes cibernéticos contínuos de larga escala."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Caderno (Seção 8.1, mnemônico FUGG): a estrutura opera a partir de quatro modelos básicos — Forças-tarefa, Unidades especializadas proativas, Grandes equipes de inquéritos e unidades Generalistas —, e o modelo de unidade não determina, por si só, o método investigativo (A). B erra porque há quatro modelos, não um. C erra porque as grandes equipes de inquéritos são reativas e de caráter temporário. D erra porque as generalistas recebem notícias de crime em geral, não se restringindo a crimes invisíveis/organizados (próprios das unidades proativas).",
+    "referencia": "Cap. 8, Seção 8.1 — Modelos de gerenciamento",
+    "nivel": "medio"
+  },
+  {
+    "id": 1995,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 8 - Gerenciamento das Investigações",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a supervisão estratégica das investigações no âmbito central da Polícia Federal (IN 270/2023), conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "A DICOR é a única diretoria responsável pela gestão estratégica das investigações no âmbito central, inexistindo diretorias temáticas próprias na atual estrutura da Polícia Federal.",
+      "B": "A gestão estratégica divide-se em três diretorias: DICOR (crime organizado e corrupção), DAMAZ (Amazônia e meio ambiente) e DCIBER (crimes cibernéticos).",
+      "C": "A DCIBER é a diretoria responsável pela repressão aos crimes ambientais na Amazônia, ao passo que a DAMAZ cuida dos crimes cibernéticos e das fraudes bancárias praticadas em rede.",
+      "D": "A DAMAZ subdivide-se em coordenações de fraudes bancárias, alta tecnologia e abuso sexual infantojuvenil cometido por meio da internet."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Caderno (Seção 8.2, IN 270/2023): o âmbito central divide-se em três diretorias de gestão estratégica — DICOR (investigação e combate ao crime organizado e à corrupção), DAMAZ (Amazônia e meio ambiente) e DCIBER (combate a crimes cibernéticos) — alternativa B. A erra porque há três diretorias, não apenas a DICOR. C inverte as atribuições (Amazônia/meio ambiente é da DAMAZ; cibernéticos da DCIBER). D erra porque as coordenações de fraudes bancárias, alta tecnologia e abuso sexual infantojuvenil pela internet são da DCIBER.",
+    "referencia": "Cap. 8, Seção 8.2 — Supervisão das investigações",
     "nivel": "dificil"
   }
 ]
