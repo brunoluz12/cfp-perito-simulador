@@ -29177,5 +29177,56 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 1.1.1): o MP e o juiz podem requisitar a instauração do inquérito, mas ele não se inicia imediatamente, pois há um controle de legalidade pelo delegado para evitar constrangimentos ilegais (A). B erra porque há controle de legalidade. C erra porque tanto o MP quanto o juiz podem requisitar. D erra porque, na notitia criminis, o delegado manda instaurar após verificar a procedência das informações (art. 5º, § 3º, CPP).",
     "referencia": "Cap. 1, Seção 1.1.1 — Inquérito policial",
     "nivel": "medio"
+  },
+  {
+    "id": 2000,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a formação da Criminalística no Brasil e o papel de Nina Rodrigues, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Afrânio Peixoto foi o responsável por estruturar o primeiro grande serviço pericial organizado do país, na Bahia, ao assumir a cátedra de Medicina Legal ainda no final do século XIX.",
+      "B": "Nina Rodrigues estruturou o primeiro grande serviço pericial organizado do Brasil na cátedra de Medicina Legal de Salvador, formando discípulos como Afrânio Peixoto e Oscar Freire.",
+      "C": "A Criminalística brasileira nasceu de forma independente da Medicina Legal, que pouco contribuiu cientificamente para a investigação criminal ao longo de sua história no país.",
+      "D": "Oscar Freire teve atuação decisiva para consolidar os serviços periciais no Rio de Janeiro, ao passo que Afrânio Peixoto foi o determinante para a consolidação dos serviços em São Paulo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 2.1): o marco inaugural foi Raimundo Nina Rodrigues, que ao assumir a cátedra de Medicina Legal em Salvador (1891) estruturou o primeiro grande serviço pericial organizado do Brasil, influenciado por Lombroso, e formou discípulos como Afrânio Peixoto e Oscar Freire (B). A erra porque o estruturador foi Nina Rodrigues, não Afrânio Peixoto. C erra porque a Criminalística brasileira tem origem intrínseca na Medicina Legal. D inverte: Afrânio Peixoto atuou no Rio de Janeiro e Oscar Freire em São Paulo.",
+    "referencia": "Cap. 2, Seção 2.1 — Formação no Brasil (Nina Rodrigues)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2001,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os atributos essenciais dos exames periciais (mnemônico COR-TIP), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A clareza é um atributo de natureza técnica que exige o uso de termos técnicos no laudo, ainda que a conclusão se torne incompreensível para os leigos.",
+      "B": "A tempestividade impõe a máxima velocidade possível na entrega do laudo pericial, ainda que isso se dê em evidente prejuízo da precisão e da segurança do exame.",
+      "C": "A imparcialidade é atributo atitudinal (sem atrelamento à acusação ou à defesa), e a tempestividade busca o equilíbrio entre a precisão e o tempo do exame.",
+      "D": "O rigor técnico-científico é um atributo de natureza atitudinal e dispensa a pesquisa em fontes científicas formais, bastando para tanto a experiência pessoal acumulada pelo perito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 2.3, COR-TIP): a imparcialidade é atributo atitudinal — trabalho livre de preconceitos e sem atrelamento à acusação ou à defesa — e a tempestividade (atributo técnico) busca o equilíbrio entre a precisão e o tempo do exame, para não perder o princípio da oportunidade (C). A erra porque a clareza é atitudinal e a conclusão deve ser clara aos leigos. B erra porque a tempestividade é equilíbrio, não velocidade a qualquer custo. D erra porque o rigor é técnico e exige pesquisa em fontes científicas formais.",
+    "referencia": "Cap. 2, Seção 2.3 — Atributos dos exames periciais",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2002,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o assistente técnico na perícia criminal (Lei nº 11.690/08), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O assistente técnico atua de forma simultânea ao perito oficial, acompanhando passo a passo a realização dos exames desde a etapa inicial no local do crime.",
+      "B": "A indicação de assistente técnico independe de admissão pelo juiz, podendo a parte interessada nomeá-lo livremente, antes mesmo do início dos exames oficiais.",
+      "C": "Com a possibilidade de indicação de assistentes técnicos pelas partes, o rigor técnico-científico da perícia oficial tornou-se dispensável e menos relevante para o processo penal.",
+      "D": "A atuação do assistente técnico dá-se a partir de sua admissão pelo juiz e após a conclusão dos exames pelo perito oficial (art. 159, §§ 3º e 4º, do CPP)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2.3): com a Lei nº 11.690/08, a atuação do assistente técnico dá-se a partir de sua admissão pelo juiz e após a conclusão dos exames pelo perito oficial (art. 159, §§ 3º e 4º, do CPP) — alternativa D. A e B erram porque o assistente não atua simultaneamente nem antes dos exames oficiais, dependendo de admissão judicial. C erra porque o rigor técnico-científico tornou-se ainda mais essencial, por ficar sujeito a contestação técnica.",
+    "referencia": "Cap. 2, Seção 2.3 — Assistente técnico",
+    "nivel": "medio"
   }
 ];
