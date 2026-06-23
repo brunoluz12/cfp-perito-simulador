@@ -349,6 +349,7 @@ async function tryLogin(username, autoRestore = false) {
         await carregarQuestoesExcluidas(); // antes de montar a base, para já filtrar
         carregarBancoQuestoes();
         carregarDadosPessoais();
+        limparHistoricoOrfao(); // remove do histórico/stats as resoluções de questões que não existem mais na base
         carregarEstatisticas();
         atualizarHeaderStats();
         configurarEventos();
@@ -903,6 +904,35 @@ function carregarEstatisticas() {
         stats = JSON.parse(savedStats);
     }
     atualizarTelaDashboard();
+}
+
+// Remove do histórico (e recomputa as estatísticas) as resoluções de questões que
+// NÃO existem mais na base — ex.: as questões de "data" que foram excluídas. Atua
+// apenas nos dados do próprio usuário (histórico local, que é sincronizado depois);
+// preserva todas as resoluções de questões que continuam na base.
+function limparHistoricoOrfao() {
+    if (typeof questoesDB === 'undefined' || !Array.isArray(questoesDB) || questoesDB.length < 50) return 0;
+    if (!historicoQuestoes || typeof historicoQuestoes !== 'object') return 0;
+    const validos = new Set(questoesDB.map(q => String(q.id)));
+    let removidas = 0;
+    Object.keys(historicoQuestoes).forEach(id => {
+        if (!validos.has(String(id))) { delete historicoQuestoes[id]; removidas++; }
+    });
+    if (removidas > 0) {
+        // Recomputa os contadores a partir do histórico já limpo
+        const novo = { totalResolvidas: 0, totalAcertos: 0, totalErros: 0 };
+        Object.values(historicoQuestoes).forEach(h => {
+            const st = typeof h === 'string' ? h : (h && h.status);
+            if (st === 'acerto') { novo.totalResolvidas++; novo.totalAcertos++; }
+            else if (st === 'erro') { novo.totalResolvidas++; novo.totalErros++; }
+        });
+        stats = novo;
+        try { localStorage.setItem('pcpr_history', JSON.stringify(historicoQuestoes)); } catch (e) {}
+        try { localStorage.setItem('pcpr_stats', JSON.stringify(stats)); } catch (e) {}
+        if (typeof requestCloudSync === 'function') requestCloudSync(); // propaga a limpeza para a nuvem
+        console.log('Estatísticas: removidas ' + removidas + ' resolução(ões) de questões que não estão mais na base.');
+    }
+    return removidas;
 }
 
 function carregarDadosPessoais() {
