@@ -25747,23 +25747,6 @@ const questoesDB = [
     "nivel": "medio"
   },
   {
-    "id": 1696,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
-    "tipo": "multipla_escolha",
-    "enunciado": "Com base no histórico da temática, assinale a alternativa que descreve corretamente a evolução das fases de atuação investigativa da Polícia Federal.",
-    "alternativas": {
-      "A": "A partir de 1964, o foco era a repressão ao tráfico internacional de drogas, impulsionada pelo surgimento de organizações criminosas estruturadas, como os cartéis de Cali e Medellín, na Colômbia.",
-      "B": "A década de 1980 caracterizou-se pela atuação como braço policial das Forças Armadas, com ênfase em ordem política e social.",
-      "C": "A partir do ano 2000, com o rompimento de fronteiras pelo crime organizado, a prioridade passou a ser o aperfeiçoamento da inteligência policial.",
-      "D": "A descapitalização das organizações criminosas surgiu apenas em 2023, com a publicação da Política Nacional de Recuperação de Ativos."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme a p. 14, a partir do ano 2000, com o rompimento de fronteiras pelo crime organizado e pela lavagem de ativos, a prioridade da PF passou a ser o aperfeiçoamento da inteligência policial (C correta). A está errada porque inverte as fases: o foco no tráfico internacional e os cartéis de Cali e Medellín são da década de 1980, não de 1964 (p. 13). B está errada porque a atuação como braço das Forças Armadas e a ênfase em ordem política e social datam de 1964, não da década de 1980 (p. 12). D está errada porque a estratégia de descapitalização foi incorporada especialmente a partir de 2004, sendo que 2023 marca a criação da rede RECUPERA e 2025 a Política Nacional de Recuperação de Ativos (p. 17).",
-    "referencia": "PDF IPO III, p. 14",
-    "nivel": "dificil"
-  },
-  {
     "id": 1697,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
@@ -27005,23 +26988,6 @@ const questoesDB = [
     "nivel": "facil"
   },
   {
-    "id": 1772,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
-    "tipo": "multipla_escolha",
-    "enunciado": "A respeito do histórico da temática na Polícia Federal, o texto associa a edição de uma lei ao crescente número de operações de polícia judiciária a partir de 2014, com o salto de 301 operações em 2013 para 390 em 2014. A qual lei o texto atribui esse impacto e qual instituto ela melhor detalhou?",
-    "alternativas": {
-      "A": "À Lei nº 9.296/1996, que afastou os sigilos telefônico, telemático e ambiental e regulamentou, de forma inédita, o instituto da interceptação das comunicações telefônicas.",
-      "B": "À Lei nº 9.613/1998, que tratou da lavagem de ativos e detalhou os procedimentos da colaboração premiada, possibilitando sua ampla aplicação pela polícia judiciária.",
-      "C": "À Lei nº 9.034/1995, já revogada, de combate ao crime organizado, que trouxe novos tipos penais e detalhou os procedimentos da medida de colaboração premiada.",
-      "D": "À Lei nº 12.850/2013, que ampliou os meios de produção de prova e, mesmo quanto a técnicas já conhecidas, como a colaboração premiada, detalhou melhor seus procedimentos."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta a D: o texto relaciona o crescimento das operações a partir de 2014 à edição da Lei nº 12.850/2013, que ampliou o conjunto de meios de produção de prova e, mesmo no caso de técnicas já conhecidas como a colaboração premiada, trouxe melhor detalhamento em seus procedimentos (p. 16). A erra ao atribuir o salto de 2014 à Lei nº 9.296/1996, que o texto associa ao afastamento de sigilos em meados dos anos 1990. B erra: a Lei nº 9.613/1998 trata da lavagem de ativos, mas não é a norma à qual o texto vincula o detalhamento da colaboração premiada e o salto de 2014. C erra: a Lei nº 9.034/1995, já revogada, é citada como de combate ao crime organizado, não como a que melhor detalhou a colaboração premiada (p. 16).",
-    "referencia": "PDF IPO III, p. 16",
-    "nivel": "medio"
-  },
-  {
     "id": 1773,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
@@ -27070,23 +27036,6 @@ const questoesDB = [
     "resposta_correta": "D",
     "justificativa": "Correta a D: o exame de situação consiste na coleta, análise e síntese dos dados que compõem a situação, identificando circunstâncias geográficas, criminais e sociais da área de atuação, etapa em que o 5W2H (Heptâmetro de Quintiliano: o quê, quem, onde, quando, por quê, como e quanto) é útil (p. 20 e 21). A erra na etapa (linha de ação é a escolha da estratégia) e no método (PDCA é planejar-executar-verificar-agir). B erra na etapa (a avaliação ocorre após a operação) e afirma incorretamente que o 5W2H seria obrigatório, pois o texto diz não haver método de aplicação obrigatória. C erra na etapa (elaboração do plano é formalização documental) e no método (F3EAD é o de localização/neutralização mais inteligência) (p. 20 a 22).",
     "referencia": "PDF IPO III, p. 20",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1776,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme a correlação que o texto estabelece entre o ciclo PDCA e as etapas do planejamento operacional, assinale a alternativa que associa corretamente o núcleo do ciclo à respectiva etapa ou momento.",
-    "alternativas": {
-      "A": "O núcleo D (do) corresponde à avaliação do planejamento operacional, momento de aferição das circunstâncias ocorridas durante a execução da operação.",
-      "B": "O núcleo C (check) corresponde ao desencadeamento da operação, com a efetiva execução em campo das medidas que foram previamente planejadas pela equipe responsável.",
-      "C": "O núcleo A (action) corresponde às ações corretivas e à solução de circunstâncias não previstas no curso da operação policial desencadeada pela equipe.",
-      "D": "O núcleo P (plan) corresponde à elaboração e à aprovação do plano operacional, com a submissão do documento às autoridades policiais competentes."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a C: o texto afirma que o núcleo A (action) revela-se nas ações corretivas e na solução de circunstâncias não previstas no curso da operação policial (p. 22). A erra: o D (do) corresponde ao desencadeamento da operação, não à avaliação. B erra: o C (check) corresponde à avaliação do planejamento operacional, não ao desencadeamento. D erra: o P (plan) corresponde ao exame de situação e à consequente definição da linha de ação, não à elaboração/aprovação do plano (p. 22).",
-    "referencia": "PDF IPO III, p. 22",
     "nivel": "dificil"
   },
   {
@@ -29096,23 +29045,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 1896,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante a deflagração de uma operação, a equipe de cumprimento de mandados recebe maior autonomia e consciência da investigação a partir do briefing; ao explorar documentos e aparelhos no próprio local, identifica e extrai informações de interesse ainda durante o desencadeamento, elaborando peças capazes de subsidiar novas ações no mesmo dia, em observância ao princípio da oportunidade. Conforme o texto, esse modo de conduzir os trabalhos corresponde a qual método organizacional e qual é a sua lógica central?",
-    "alternativas": {
-      "A": "F3EAD adaptado, que funde a localização e neutralização do alvo com o caminho da inteligência, prestigiando a ação e comprimindo a espiral investigativa.",
-      "B": "ciclo PDCA, cujo núcleo de execução é acionado no desencadeamento da operação para verificar e corrigir as circunstâncias não previstas que surgirem no curso da ação policial.",
-      "C": "método 5W2H, que organiza os dados do levantamento preliminar mediante questionamentos sobre o quê, quem, onde, quando, por quê, como e quanto.",
-      "D": "F3EAD adaptado, que reúne os questionamentos do heptâmetro de Quintiliano para acelerar o ritmo operacional já na fase ostensiva da operação."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O método F3EAD adaptado consiste na fusão do método de localização e neutralização (find, fix, finish) com o caminho da atividade de inteligência (exploit, analyze, disseminate), gerando aceleração do ritmo operacional; sua aplicação na deflagração se dá ao conceder autonomia à equipe para explorar material no local e subsidiar novas ações no mesmo dia, comprimindo a espiral investigativa e prestigiando a ação (finish). Por isso, a resposta é A. B troca o método: o ciclo PDCA correlaciona o núcleo D (do) ao desencadeamento, mas a verificação e a correção pertencem aos núcleos C (check) e A (action), associados à avaliação posterior, e não descrevem a exploração de material no local pela própria equipe. C identifica indevidamente o 5W2H, que é ferramenta de levantamento preliminar (exame de situação), e não a metodologia de exploração durante a deflagração. D nomeia corretamente o F3EAD adaptado, mas atribui a ele a lógica do 5W2H (heptâmetro de Quintiliano), confundindo a fusão localização-inteligência com o conjunto de questionamentos do outro método.",
-    "referencia": "PDF IPO III, p. 22",
-    "nivel": "dificil"
-  },
-  {
     "id": 1897,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 2 - Cadeia de Custódia",
@@ -29621,5 +29553,124 @@ const questoesDB = [
     "justificativa": "Conforme o material (p. 108-111): o aparelho I corresponde ao 2º cenário (ligado, sem a senha) — não se desliga; coloca-se em modo avião; retira-se o SIM; usa-se faraday bag; e, havendo alto valor operacional, mantém-se ligado com power bank, pela possibilidade de extração AFU. O aparelho II corresponde ao 3º cenário (desligado, com a senha fornecida) — retira-se o SIM, liga-se e testa-se a senha, seguindo então os cenários de aparelho ligado. Logo, a correta é D. A erra ao desligar o aparelho I (perde-se o estado AFU). B erra ao desligar ambos. C erra porque não se remove a senha no local (risco de perda de dados) e porque, no II, com a senha fornecida, deve-se ligar e testar.",
     "referencia": "PDF IPO III, p. 109",
     "nivel": "dificil"
+  },
+  {
+    "id": 1928,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme os conceitos aplicáveis ao planejamento operacional, assinale a alternativa que associa corretamente o conceito à sua definição:",
+    "alternativas": {
+      "A": "Objetivo é o resultado que se pretende alcançar com a ação ou operação policial, devendo ser preciso, coerente e factível.",
+      "B": "Área de atuação é a forma como a linha de ação deve ser executada, com o detalhamento do emprego dos recursos disponíveis.",
+      "C": "Ação policial é o documento que formaliza o planejamento operacional, reunindo situação, objetivo, área de atuação, prazos e recursos.",
+      "D": "Tática policial é o espaço geográfico onde se realiza a ação ou a operação policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 11-12): objetivo é o resultado que se pretende alcançar, preciso, coerente e factível (A — correta). B descreve a tática policial (forma de executar a linha de ação), não a área de atuação. C descreve o plano operacional (documento que formaliza o planejamento), não a ação policial. D descreve a área de atuação (espaço geográfico), não a tática policial.",
+    "referencia": "PDF IPO III, p. 12",
+    "nivel": "medio"
+  },
+  {
+    "id": 1929,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a fase da investigação policial na Polícia Federal a partir de meados da década de 1990, conforme o histórico apresentado, é correto afirmar que:",
+    "alternativas": {
+      "A": "O foco principal passou a ser a repressão ao tráfico internacional de drogas, com a criação das primeiras equipes operacionais das Delegacias de Repressão a Entorpecentes (DRE).",
+      "B": "A PF avançou na análise de documentos e de dados financeiros, originando a DCOIE, que levou ao descortinamento de vultosas fraudes e dos canais de evasão de divisas.",
+      "C": "Predominou a atuação como polícia de ordem política e social, com ênfase em técnicas de vigilância, interrogatório e recrutamento de informantes.",
+      "D": "Consolidou-se o binômio planejamento operacional e inteligência policial como escopo principal da capacitação dos policiais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 13), em meados dos anos 1990 a PF avançou na análise de documentos e de dados financeiros, originando a DCOIE, com descoberta de fraudes e canais de evasão de divisas (B — correta). A descreve a década de 1980 (repressão ao tráfico, DRE). C descreve a fase a partir de 1964 (polícia política/social). D descreve a fase a partir de 2000 (binômio planejamento + inteligência).",
+    "referencia": "PDF IPO III, p. 13",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1930,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "A estratégia de descapitalização das organizações criminosas ganhou força recente na Polícia Federal. Conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A rede RECUPERA foi criada pela Lei nº 12.850/2013, mesmo diploma que detalhou os procedimentos da colaboração premiada.",
+      "B": "A investigação patrimonial foi restringida à fase processual, ficando vedada a identificação do produto do crime na fase inicial do inquérito.",
+      "C": "A rede RECUPERA (Portaria MJSP nº 533/2023) impulsionou a investigação patrimonial, e a IN DG/PF nº 308/2025 passou a prever a promoção da recuperação de ativos como objetivo do inquérito.",
+      "D": "Os Grupos de Trabalho para Recuperação de Ativos e Repressão à Lavagem de Dinheiro (GRALs) teriam sido instituídos no âmbito do Ministério Público estadual e das corregedorias, sem participação da Polícia Federal nas ações de recuperação de bens ilícitos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 17): a rede RECUPERA foi criada pela Portaria MJSP nº 533/2023 e a IN DG/PF nº 308/2025 passou a prever a promoção da recuperação de ativos como objetivo do inquérito (C — correta). A erra a origem (RECUPERA decorre de portaria, não da Lei 12.850/2013). B erra porque a recuperação alcança desde a fase inicial da investigação. D erra porque os GRALs foram instituídos no âmbito da PF (Portaria DICOR/PF nº 66/2024).",
+    "referencia": "PDF IPO III, p. 17",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1931,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material aponta alterações legislativas que impuseram maior cautela à atividade de polícia judiciária. Sobre elas, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Lei nº 13.869/2019 criou novos requisitos e embaraços para a realização de buscas e para a análise de materiais apreendidos em escritórios de advocacia.",
+      "B": "A Lei nº 14.365/2022 introduziu novos enquadramentos para o crime de abuso de autoridade sobre as condutas de quem atua na persecução penal.",
+      "C": "Ambas as leis ampliaram os meios de produção de prova e as técnicas especiais de investigação à disposição da polícia judiciária, facilitando a deflagração de operações e a arrecadação de provas em escritórios e empresas.",
+      "D": "A Lei nº 13.869/2019 ampliou o crime de abuso de autoridade sobre a persecução penal, e a Lei nº 14.365/2022 criou novos requisitos para buscas em escritórios de advocacia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (p. 18): a Lei nº 13.869/2019 ampliou o crime de abuso de autoridade sobre a persecução penal, e a Lei nº 14.365/2022 alterou o Estatuto da Advocacia, criando novos requisitos de buscas em escritórios de advocacia (D — correta). A e B invertem os objetos das duas leis. C erra porque ambas têm caráter restritivo (impõem cautelas), não ampliam os meios de prova.",
+    "referencia": "PDF IPO III, p. 18",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1932,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à exigência de planejamento na Polícia Federal, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Tanto as ações quanto as operações policiais demandam planejamento prévio; as ações rotineiras admitem planejamento simplificado, mas as operações exigem a sua formalização.",
+      "B": "As ações rotineiras independem de planejamento prévio, que fica reservado às operações de maior porte com cumprimento de mandados judiciais.",
+      "C": "O planejamento operacional confunde-se com o planejamento estratégico, ambos elaborados nos mais elevados níveis hierárquicos da instituição e voltados a objetivos de longo prazo.",
+      "D": "A formalização do planejamento é dispensável nas operações de polícia judiciária, bastando o registro mental pela equipe responsável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 19): tanto as ações como as operações demandam planejamento prévio; as ações rotineiras podem ser planejadas de forma simplificada (até mentalmente), mas as operações, por sua dimensão e complexidade, demandam a formalização do planejamento (A — correta). B erra porque as ações rotineiras também demandam planejamento. C erra porque o planejamento operacional não se confunde com o estratégico (este é de longo prazo e dos níveis mais elevados). D erra porque a formalização é indispensável nas operações de polícia judiciária.",
+    "referencia": "PDF IPO III, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 1933,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as seis etapas do planejamento operacional, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Devem ser seguidas de forma rígida e estritamente linear, vedadas a sobreposição e a execução simultânea de fases distintas.",
+      "B": "A elaboração do plano operacional é indispensável nas operações de polícia judiciária, embora a sequência das etapas admita ajustes, sobreposições e execução simultânea.",
+      "C": "A etapa inicial é a definição da linha de ação, seguida do exame de situação e, então, da deflagração da operação policial.",
+      "D": "A avaliação do planejamento operacional é a etapa inicial, destinada à coleta, à análise e à síntese dos dados que compõem o estado atual e as circunstâncias da operação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 19-20): a elaboração do plano operacional é indispensável nas operações de polícia judiciária e, embora as seis etapas sejam apresentadas de forma sequencial, admitem ajustes, sobreposições ou execução simultânea (B — correta). A erra porque a sequência não é rígida. C erra a ordem: a etapa inicial é o exame de situação, e a definição da linha de ação vem depois. D erra porque a avaliação é a última etapa; quem coleta e sintetiza os dados da situação é o exame de situação (etapa inicial).",
+    "referencia": "PDF IPO III, p. 20",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1934,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 1 - Doutrina de Planejamento Operacional",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os métodos organizacionais aplicados ao planejamento operacional, conforme o material, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Os métodos têm aplicação obrigatória e uniforme, devendo o investigador empregar simultaneamente o 5W2H, o PDCA e o F3EAD em cada operação policial planejada.",
+      "B": "O método 5W2H, também chamado de ciclo de desenvolvimento, divide-se em quatro núcleos: planejar, executar, verificar e agir corretivamente.",
+      "C": "O método 5W2H (heptâmetro de Quintiliano) traduz-se em sete questionamentos: o quê, quem, onde, quando, por quê, como e quanto.",
+      "D": "O método F3EAD tem origem em metodologias de gestão empresarial e substitui o exame de situação na primeira etapa do planejamento operacional."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 21-22): o 5W2H (heptâmetro de Quintiliano) traduz-se em sete questionamentos — o quê, quem, onde, quando, por quê, como e quanto (C — correta). A erra porque não há método único ou de aplicação obrigatória; são ferramentas de apoio. B confunde o 5W2H com o PDCA (este, sim, é o ciclo de desenvolvimento de quatro núcleos). D erra a origem do F3EAD (forças armadas norte-americanas) e o seu papel (não substitui o exame de situação).",
+    "referencia": "PDF IPO III, p. 21",
+    "nivel": "medio"
   }
 ];
