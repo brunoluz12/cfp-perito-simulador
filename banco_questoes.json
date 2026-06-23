@@ -28994,57 +28994,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1903,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em representação por prisão preventiva, o delegado descreve o modus operandi com uso reiterado de grave ameaça e a participação do investigado em organização criminosa, mas o crime apurado tem pena máxima de 3 anos e o agente é primário. Considerando a sistemática dos arts. 312 e 313 do CPP, com as inovações da Lei nº 15.272/2025, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "Os elementos narrados (modus operandi e participação em organização criminosa) integram o art. 312, §3º, e, por configurarem a periculosidade do agente, suprem a ausência de hipótese de cabimento, autorizando a decretação da preventiva.",
-      "B": "Os elementos narrados servem à aferição da periculosidade para a garantia da ordem pública (art. 312, §3º), mas, ausente hipótese de cabimento do art. 313, falta requisito autônomo que viabilize a preventiva nesse caso.",
-      "C": "A pena máxima de 3 anos é indiferente, pois o art. 313 tem por conteúdo a demonstração do fumus comissi delicti e do periculum libertatis, satisfeitos pela gravidade concreta exposta na representação.",
-      "D": "Por se tratar de agente primário, incide a vedação do art. 312, §4º, que impede a decretação da preventiva quando a gravidade do delito for invocada de modo abstrato, ainda que demonstrada a periculosidade concreta."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto separa dois planos. O art. 312 (com o §3º incluído pela Lei nº 15.272/2025) trata dos FUNDAMENTOS/finalidades e dos critérios objetivos de aferição da periculosidade (modus operandi, participação em organização criminosa, natureza/quantidade/variedade de drogas e armas, receio de reiteração). Já o art. 313 trata das HIPÓTESES DE CABIMENTO: crimes dolosos com pena máxima superior a 4 anos; reincidência em crime doloso; ou dúvida sobre a identidade civil. Logo, B está correta: os fatos narrados servem ao §3º (periculosidade/ordem pública), mas, com pena máxima de 3 anos e réu primário, não há hipótese de cabimento do art. 313, faltando requisito autônomo. A está errada porque confunde os planos: a periculosidade do art. 312, §3º não substitui nem supre a exigência de cabimento do art. 313, que é requisito distinto. C está errada porque inverte o conteúdo do art. 313, atribuindo-lhe o conteúdo do art. 312 (fumus/periculum) e tratando a pena como irrelevante, quando é justamente o limite de 4 anos que o art. 313 estabelece. D está errada porque deturpa o art. 312, §4º: este veda a preventiva fundada em gravidade ABSTRATA do delito, e não pela primariedade do agente; aqui a periculosidade foi concretamente demonstrada, de modo que o §4º não seria o obstáculo, e sim a ausência de cabimento do art. 313.",
-    "referencia": "PDF IPO III, p. 60",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1904,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Um indiciado é preso em flagrante por crime praticado com violência contra a pessoa e responde a inquérito anterior em curso. Ao representar pela conversão do flagrante em preventiva, o delegado precisa indicar a base normativa correta dos institutos invocados. Considerando o regime introduzido pela Lei nº 15.272/2025, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A prática de infração com violência contra a pessoa e a existência de inquérito em curso são circunstâncias do art. 312, §3º, que vinculam o juiz a examiná-las quando decidir sobre a conversão do flagrante em preventiva.",
-      "B": "Tais circunstâncias compõem o rol do art. 310, §5º, e a obrigação de o juiz examiná-las ao decidir sobre a conversão decorre do mesmo §5º, que reúne o rol e o respectivo dever de apreciação.",
-      "C": "Tais circunstâncias integram o rol que recomenda a conversão do flagrante em preventiva (art. 310, §5º), enquanto o dever de o juiz examiná-las ao decidir sobre essa conversão está previsto no art. 310, §6º.",
-      "D": "A violência contra a pessoa enseja a aplicação do art. 313, e a existência de inquérito anterior recomenda a conversão pelo art. 310, §6º, cabendo ao juiz examinar de ofício ambos os fundamentos ao analisar o flagrante."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto é preciso na repartição dos parágrafos do art. 310: o §5º (incluído pela Lei nº 15.272/2025) elenca o ROL de circunstâncias que recomendam a conversão da prisão em flagrante em preventiva, entre elas a prática de infração com violência ou grave ameaça contra a pessoa e a prática de nova infração na pendência de inquérito ou ação penal; já o §6º estabelece o DEVER de o juiz examiná-las quando for decidir sobre a conversão. Por isso C está correta (rol no §5º; obrigação de exame no §6º). B está errada porque concentra o rol e o dever de exame no mesmo §5º, ignorando que o dever do juiz está no §6º. A está errada porque atribui as circunstâncias da conversão ao art. 312, §3º (critérios de aferição da periculosidade para a preventiva em geral) e a vinculação do juiz ao §3º, confundindo dois dispositivos distintos. D está errada porque mistura institutos: o art. 313 cuida das hipóteses de cabimento da preventiva (pena, reincidência, identidade), não da violência como gatilho de conversão, e o art. 310, §6º traz o dever de exame, não o rol que 'recomenda a conversão'.",
-    "referencia": "PDF IPO III, p. 57",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1905,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "No planejamento de uma deflagração, o delegado pondera entre prisão preventiva, prisão temporária, medidas cautelares diversas da prisão e medidas constritivas de patrimônio. Sobre a base legal e o regime de cada instituto, conforme o capítulo, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A prisão temporária funda-se na Lei nº 7.960/1989, é cabível nos crimes expressamente listados em lei e tem prazo de 5 dias prorrogáveis por igual período, ou de 30 + 30 dias em crimes hediondos e equiparados.",
-      "B": "A prisão preventiva funda-se na Lei nº 7.960/1989 e a temporária nos arts. 311 e seguintes do CPP, distinguindo-se porque a temporária independe de rol de crimes para sua decretação.",
-      "C": "As medidas cautelares diversas da prisão, previstas no art. 312 do CPP, exigem o mesmo standard de periculum libertatis da preventiva, razão pela qual seu descumprimento é incapaz de autorizar a decretação da prisão preventiva.",
-      "D": "As medidas constritivas de patrimônio, por recaírem sobre bens, exigem standard probatório mais elevado que as cautelares pessoais, demandando prova plena da origem ilícita antes de qualquer bloqueio."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto fixa expressamente o regime da temporária: base legal na Lei nº 7.960/1989, cabimento apenas nos crimes expressamente listados em lei e prazos rígidos de 5 dias prorrogáveis por igual período, ou 30 + 30 dias em crimes hediondos e equiparados. Assim, A está correta. B inverte as bases legais: a prisão preventiva é que se funda no CPP (arts. 311 e seguintes) e a temporária na Lei nº 7.960/1989; além disso, é justamente a temporária que depende de rol de crimes, não o contrário. C contém dois erros conceituais: as medidas diversas da prisão estão no art. 319 do CPP (não no art. 312, que cuida da preventiva) e exigem periculum libertatis em MENOR grau que a preventiva; ademais, o texto afirma que a violação dessas medidas PODE ensejar a decretação da preventiva, de modo que o descumprimento não é inócuo. D inverte o standard probatório: o texto diz que as cautelares reais/patrimoniais admitem standard MAIS BRANDO que as pessoais, bastando indícios consistentes (não prova plena) de vinculação do bem ao crime.",
-    "referencia": "PDF IPO III, p. 62",
-    "nivel": "dificil"
-  },
-  {
     "id": 1906,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 5 - Preparação da Ação",
@@ -29739,6 +29688,108 @@
     "resposta_correta": "A",
     "justificativa": "Conforme o material (p. 44-45): a segurança abrange a integridade física das pessoas (policiais e terceiros) e a devida obtenção dos elementos de interesse, e deve ser observada tanto pela equipe de cumprimento quanto pela de coordenação (A). B erra porque o alcance vai além dos policiais. C erra porque a equipe de cumprimento também avalia os riscos no local. D erra porque nenhuma atividade ostensiva pode ser iniciada ou prosseguir sem a observância da segurança.",
     "referencia": "PDF IPO III, p. 45",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1948,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as medidas cautelares probatórias que podem ser representadas para a deflagração, o material inclui o monitoramento simultâneo e o acesso a ativos virtuais. Sobre elas, é correto afirmar que:",
+    "alternativas": {
+      "A": "O monitoramento em tempo real, telemático ou ambiental, deve cessar imediatamente antes do início do cumprimento dos mandados, a fim de não contaminar a coleta das provas no local.",
+      "B": "O acesso a ativos virtuais limita-se ao rastreamento de carteiras, sendo vedados o bloqueio e a transferência de criptomoedas vinculadas ao crime, por ausência de previsão legal específica na legislação processual penal em vigor.",
+      "C": "O monitoramento pode ser executado concomitantemente ao cumprimento dos mandados, e a medida sobre ativos virtuais visa bloquear, rastrear ou transferir criptomoedas vinculadas ao crime.",
+      "D": "Tais medidas dispensam representação prévia, por estarem abrangidas de modo automático pelo mandado de busca e apreensão domiciliar."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 55-56): o monitoramento em tempo real pode ser autorizado para execução concomitante ao cumprimento dos mandados, ampliando a coleta de provas, e a medida sobre ativos virtuais visa bloquear, rastrear ou transferir criptomoedas vinculadas ao crime (C). A erra porque o monitoramento é justamente simultâneo, não anterior. B erra porque o bloqueio e a transferência são admitidos. D erra porque se recomenda representação prévia específica para essas medidas.",
+    "referencia": "PDF IPO III, p. 55",
+    "nivel": "medio"
+  },
+  {
+    "id": 1949,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A Lei nº 15.358/2026 (Marco Legal do Combate ao Crime Organizado) prevê medidas assecuratórias cautelares contra integrantes de organização criminosa ultraviolenta, facção, grupo paramilitar ou milícia. Conforme o art. 6º, é correto afirmar que:",
+    "alternativas": {
+      "A": "É vedado o bloqueio de ativos digitais ou virtuais, restringindo-se as medidas assecuratórias a bens móveis e imóveis e a valores mantidos no território nacional.",
+      "B": "Admite-se a proibição de transferências eletrônicas, inclusive Pix e operações em corretoras de criptoativos, sem autorização judicial, com comunicação obrigatória ao Coaf e ao Banco Central.",
+      "C": "O afastamento cautelar de cargo, emprego ou função pressupõe a perda da remuneração do investigado enquanto durar a investigação.",
+      "D": "As medidas assecuratórias alcançam pessoas físicas, ficando excluída a possibilidade de intervenção judicial na pessoa jurídica eventualmente beneficiada pela organização criminosa ultraviolenta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o art. 6º da Lei nº 15.358/2026 (p. 58-59): admite-se a proibição de instrumentos de transferência eletrônica, inclusive Pix e operações em corretoras de criptoativos, sem autorização judicial expressa, com comunicação obrigatória ao Coaf, ao Banco Central, à CVM, à Susep e à Receita Federal (B). A erra porque o bloqueio de ativos digitais/virtuais é expressamente previsto (inclusive no exterior). C erra porque o afastamento se dá sem prejuízo da remuneração. D erra porque o art. 10 prevê a intervenção judicial na pessoa jurídica beneficiada.",
+    "referencia": "PDF IPO III, p. 58",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1950,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as medidas cautelares diversas da prisão (art. 319 do CPP), conforme o material, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Exigem a demonstração de periculum libertatis em grau idêntico ao exigido para a decretação da prisão preventiva, não havendo distinção quanto à intensidade do risco.",
+      "B": "A monitoração eletrônica e o recolhimento domiciliar no período noturno não integram o rol do art. 319, por configurarem modalidades de prisão cautelar antecipada.",
+      "C": "São aplicáveis independentemente da demonstração de fumus comissi delicti, bastando a indicação de um risco genérico e abstrato à ordem pública local.",
+      "D": "Incluem o comparecimento periódico em juízo, a proibição de contato com pessoas determinadas, o recolhimento domiciliar noturno, a fiança e a monitoração eletrônica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o art. 319 do CPP (p. 64), o rol inclui comparecimento periódico em juízo, proibição de acesso/contato, proibição de ausentar-se da comarca, recolhimento domiciliar noturno, suspensão de função, internação provisória, fiança e monitoração eletrônica (D). A erra porque o periculum exigido é de grau menor que o da preventiva. B erra porque a monitoração eletrônica e o recolhimento domiciliar integram o rol. C erra porque ainda se exige o fumus comissi delicti.",
+    "referencia": "PDF IPO III, p. 64",
+    "nivel": "medio"
+  },
+  {
+    "id": 1951,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "As cautelares reais recaem sobre o patrimônio. Sobre as medidas assecuratórias clássicas do CPP, é correto afirmar que:",
+    "alternativas": {
+      "A": "O sequestro (art. 125) recai sobre bens adquiridos com os proventos da infração; o arresto (art. 136) e a hipoteca legal (art. 134) asseguram a reparação do dano e os efeitos da condenação.",
+      "B": "A hipoteca legal (art. 134) recai sobre os bens adquiridos diretamente com o produto do crime, dispensando a demonstração de origem lícita.",
+      "C": "As cautelares reais exigem standard probatório mais elevado que as pessoais, dada a definitividade da constrição imposta sobre o patrimônio do investigado.",
+      "D": "As cautelares reais só podem ser decretadas na fase processual, após o recebimento da denúncia pelo juízo competente, sendo vedada a representação do delegado durante o inquérito, ainda que haja fortes indícios de vinculação dos bens ao crime."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 57): o sequestro (arts. 125 e ss.) recai sobre bens adquiridos com proventos da infração, ao passo que o arresto (art. 136) e a hipoteca legal (art. 134) visam assegurar a reparação do dano e os efeitos da condenação (A). B confunde a hipoteca legal com o sequestro. C erra porque o standard das reais é mais brando que o das pessoais. D erra porque as cautelares reais podem ser decretadas ainda na fase pré-processual, por representação do delegado.",
+    "referencia": "PDF IPO III, p. 57",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1952,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a IN 255/2023, sobre o papel do Delegado de Polícia Federal nas representações por medidas cautelares, é correto afirmar que:",
+    "alternativas": {
+      "A": "Atua como mero executor das ordens emanadas do Ministério Público, a quem cabe, com exclusividade, a iniciativa e a fundamentação das medidas cautelares pessoais e reais na fase de inquérito policial.",
+      "B": "A iniciativa e a fundamentação das medidas cautelares, pessoais ou reais, são prerrogativas do Delegado, que atua como garantidor da legalidade e da proporcionalidade.",
+      "C": "Depende de autorização prévia do gestor regional para então representar por medidas cautelares ao juízo competente durante a investigação.",
+      "D": "Fica impedido de representar por medidas cautelares reais, cuja iniciativa é reservada ao Ministério Público e à Fazenda Pública interessada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 56), a iniciativa e a fundamentação das medidas cautelares — pessoais ou reais — são prerrogativas do Delegado, que não é mero executor, mas autoridade que avalia, formula e representa ao Judiciário como garantidor da legalidade, da proporcionalidade e da eficácia investigativa (B). A, C e D erram porque retiram do Delegado essa prerrogativa (atribuindo-a ao MP, condicionando-a ao gestor regional ou afastando-a quanto às reais).",
+    "referencia": "PDF IPO III, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 1953,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os prazos e as hipóteses de cabimento da prisão temporária (Lei nº 7.960/1989), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O prazo é fixo de 5 dias, improrrogáveis, seja qual for a natureza do crime investigado, vedada a prorrogação pelo juízo.",
+      "B": "Cabe em crime de natureza diversa, desde que o investigado não possua residência fixa ou não forneça elementos para a sua identificação civil.",
+      "C": "O prazo é de 5 dias, prorrogáveis por igual período, ou de 30 + 30 dias em crimes hediondos, cabível quando imprescindível às investigações ou havendo dúvida sobre a identidade.",
+      "D": "A prisão temporária pode ser decretada também na fase processual, após o oferecimento da denúncia pelo Ministério Público, para assegurar a regularidade da instrução criminal e evitar a reiteração delitiva ao longo do processo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 61-62): a temporária tem prazo de 5 dias, prorrogáveis por igual período, ou de 30 + 30 dias em crimes hediondos e equiparados, sendo cabível quando imprescindível às investigações, quando o indiciado não tiver residência fixa/identificação, ou diante de fundadas razões de autoria em crimes específicos (C). A erra porque há prorrogação e prazo diferenciado para hediondos. B erra porque o cabimento exige rol taxativo de crimes, não 'crime de natureza diversa'. D erra porque a temporária é cabível apenas na fase de investigação.",
+    "referencia": "PDF IPO III, p. 62",
     "nivel": "dificil"
   }
 ]
