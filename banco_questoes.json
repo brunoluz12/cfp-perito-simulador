@@ -26801,23 +26801,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1762,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a formalização e a competência para a restituição de bens apreendidos no âmbito do inquérito policial, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A restituição compete exclusivamente ao Ministério Público, cabendo ao delegado apenas executar a entrega física do bem após manifestação ministerial.",
-      "B": "A restituição prescinde de qualquer documentação, bastando a entrega do bem ao reclamante mediante recibo informal arquivado na unidade.",
-      "C": "A restituição, no inquérito policial, é de competência do Delegado de Polícia Federal e se formaliza por meio de um termo de restituição juntado aos autos do procedimento (artigo 120 do CPP).",
-      "D": "A restituição depende sempre de prévia autorização judicial, sendo vedado ao delegado devolver qualquer bem antes do trânsito em julgado, ainda que inexista dúvida sobre a propriedade."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme a p. 127, no âmbito do inquérito policial a competência para a devolução é do Delegado de Polícia Federal, e a devolução se formaliza por meio de um termo de restituição que será juntado aos autos do procedimento (artigo 120 CPP) (C correta). A está errada porque a competência, no inquérito, é da autoridade policial, e não do Ministério Público (p. 127). B está errada porque a restituição exige a formalização do termo de restituição juntado aos autos (p. 127). D está errada porque o delegado pode determinar a restituição quando não houver dúvida sobre o direito do reclamante, sendo a autorização judicial prévia apenas recomendada em operações de grande porte, não uma exigência geral (p. 127).",
-    "referencia": "PDF IPO III, p. 127",
-    "nivel": "facil"
-  },
-  {
     "id": 1763,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
@@ -27818,23 +27801,6 @@
     "resposta_correta": "B",
     "justificativa": "Correta a B: a alienação antecipada é a venda antes do trânsito em julgado, cabível para bens sujeitos a deterioração/depreciação (como embarcações), feita por representação ao juízo, transformando o ativo em recurso depositado em conta judicial remunerada e preservando o valor econômico (p. 128, 130). A A erra: o art. 118 do CPP veda a restituição enquanto as coisas interessarem ao processo, e aqui o bem ainda interessa à prova (p. 127). A C confunde com a alienação definitiva do art. 133, que pressupõe perdimento em sentença irrecorrível ou bens não reclamados em 90 dias do trânsito em julgado (art. 123) - não cabível antes da sentença (p. 128). A D inventa restituição mediante caução e ignora a vedação do art. 118. (p. 127-128, 130)",
     "referencia": "PDF IPO III, p. 127-130",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1840,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
-    "tipo": "multipla_escolha",
-    "enunciado": "O ordenamento prevê a alienação definitiva e a alienação antecipada de bens constritos na esfera criminal. Sobre o fundamento legal e os pressupostos de cada modalidade, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A alienação definitiva tem amparo no art. 144-A do CPP e ocorre antes do trânsito em julgado; a antecipada baseia-se no art. 133 do CPP e pressupõe o perdimento decretado em sentença condenatória irrecorrível.",
-      "B": "Ambas as modalidades exigem o trânsito em julgado da sentença condenatória, distinguindo-se apenas pelo órgão competente: a definitiva cabe ao juízo e a antecipada cabe diretamente à autoridade policial que preside a investigação.",
-      "C": "A alienação definitiva ampara-se no art. 133 do CPP e pressupõe perdimento em sentença irrecorrível ou bens não reclamados em 90 dias do trânsito em julgado; a antecipada, do art. 144-A, ocorre antes do trânsito em julgado.",
-      "D": "A alienação definitiva alcança apenas bens de terceiro de boa-fé não indiciado; a antecipada, prevista no art. 120 do CPP, destina-se exclusivamente a numerário e moeda estrangeira apreendidos durante a investigação policial."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a C: a alienação definitiva tem amparo no art. 133 do CPP, cabível para bens cujo perdimento foi decretado em sentença condenatória irrecorrível, ou para itens não reclamados em 90 dias contados do trânsito em julgado (art. 123); a antecipada, regra geral do art. 144-A, é a venda antes do trânsito em julgado (p. 128, 130). A A inverte os artigos (atribui o 144-A à definitiva e o 133 à antecipada). A B erra ao exigir trânsito em julgado para ambas e ao dar competência de venda à autoridade policial, quando a alienação depende de autorização judicial. A D inventa restrições inexistentes e confunde o art. 120 (termo de restituição) com alienação. (p. 128, 130)",
-    "referencia": "PDF IPO III, p. 128-130",
     "nivel": "dificil"
   },
   {
@@ -28994,23 +28960,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1919,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
-    "tipo": "multipla_escolha",
-    "enunciado": "Uma equipe da Polícia Federal apreende, em operação, um veículo de boa conservação cujo emprego no patrulhamento é desejado pela própria unidade que conduziu a investigação. O Delegado avalia representar pelo uso do bem com base no art. 133-A do CPP, inserido pela Lei nº 13.964/2019. Sobre a regra de prioridade, os pressupostos da medida e os seus efeitos, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "O uso do bem opera-se de forma automática em favor do órgão de segurança que efetuou a apreensão, dispensada autorização judicial, e converte-se em transferência definitiva tão logo o juiz constate o interesse público na utilização, sem necessidade de aguardar a sentença condenatória.",
-      "B": "A preferência na utilização cabe ao órgão indicado pelo Ministério Público em sua manifestação, exigindo-se prévia representação da autoridade policial e decisão judicial, operando-se a transferência definitiva do bem ao órgão já no momento em que concedida a autorização de uso.",
-      "C": "O órgão que participou das ações de investigação ou repressão que levaram à constrição tem preferência na utilização, mas o uso depende de autorização judicial precedida de representação, e a transferência definitiva só ocorre após o trânsito em julgado da condenação com perdimento.",
-      "D": "A constatação do interesse público pelo juiz autoriza desde logo a transferência definitiva do bem ao órgão que participou da investigação, independentemente de sentença condenatória, ficando o uso provisório restrito às hipóteses em que não haja perdimento decretado no curso do feito."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O art. 133-A do CPP estabelece a regra geral do uso de bens. O §1º fixa a prioridade: o órgão de segurança pública que PARTICIPOU das ações de investigação ou repressão que levaram à constrição do bem terá PREFERÊNCIA na sua utilização (C). O texto é expresso ao afirmar que o uso NÃO ocorre de forma automática, dependendo de autorização expressa do juiz competente, sempre precedida de representação da autoridade policial ou do Ministério Público; e que a transferência DEFINITIVA ao patrimônio do órgão somente pode ocorrer APÓS o trânsito em julgado da sentença penal condenatória que decreta o perdimento do bem (o uso é, a princípio, provisório). A erra em três pontos conceituais: o uso não é automático, exige autorização judicial e não se converte em transferência definitiva pela mera constatação do interesse público. B troca o titular da preferência: esta é do órgão que participou da investigação/repressão, e não do indicado pelo MP; além disso, antecipa a transferência definitiva para o momento da autorização de uso. D inverte o efeito ao admitir transferência definitiva independentemente de sentença condenatória, quando o texto a condiciona ao trânsito em julgado com perdimento.",
-    "referencia": "PDF IPO III, p. 131",
-    "nivel": "dificil"
-  },
-  {
     "id": 1920,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
@@ -29892,6 +29841,108 @@
     "resposta_correta": "C",
     "justificativa": "Conforme o material (p. 120): como é comum o reforço de policiais alheios ao caso, é boa prática a leitura prévia da portaria de instauração e da representação, e a Informação de Polícia Judiciária pode ser organizada por investigado, local de busca ou tema (C). A erra porque a organização por investigado/local/tema é recomendada. B erra porque se recomenda o conhecimento prévio do caso, não o desconhecimento. D erra porque a análise direta é iniciada por despacho do presidente da investigação.",
     "referencia": "PDF IPO III, p. 120",
+    "nivel": "medio"
+  },
+  {
+    "id": 1972,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à destinação de instrumentos do crime e de objetos de interesse à prova, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os objetos de interesse à prova devem, em regra, acompanhar fisicamente os autos do inquérito quando da remessa ao Judiciário, inexistindo exceções a essa diretriz processual.",
+      "B": "Um instrumento do crime que também seja um vestígio deve ser remetido fisicamente ao Poder Judiciário antes mesmo da realização da perícia, dispensando-se o seu acautelamento na central de custódia da unidade de criminalística responsável.",
+      "C": "A Resolução nº 780/2022 do CJF determina a destruição dos vestígios logo após o exame pericial, ficando vedado o seu acautelamento na central de custódia da unidade policial.",
+      "D": "Em regra os objetos de interesse acompanham os autos; mas o instrumento que também é vestígio vai à perícia e permanece na central de custódia (Resolução 780/2022-CJF), não acompanhando o procedimento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (p. 125): a regra geral é que os instrumentos do crime e objetos de interesse acompanhem os autos; contudo, se o instrumento também for vestígio (ex.: arma que demanda exame balístico, celular com dados), vai à perícia e depois permanece na central de custódia (Resolução 780/2022-CJF), não acompanhando fisicamente o procedimento (D). A erra porque há exceção (vestígios). B erra porque o vestígio vai à perícia e à central de custódia. C erra porque os vestígios são acautelados, não destruídos.",
+    "referencia": "PDF IPO III, p. 125",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1973,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a IN 255/2023-DG/PF (arts. 149 a 158), assinale a alternativa que associa corretamente o bem apreendido à sua destinação:",
+    "alternativas": {
+      "A": "Armas de fogo e munições, após a elaboração do respectivo laudo pericial, são encaminhadas para acautelamento na Caixa Econômica Federal, à disposição do juízo.",
+      "B": "Moeda nacional falsa, após o laudo pericial, é encaminhada ao Banco do Brasil para a sua imediata reposição em circulação no mercado.",
+      "C": "Elementos de contrabando ou descaminho e veículos de transporte são encaminhados à Secretaria da Receita Federal do Brasil.",
+      "D": "Joias, pedras e metais preciosos são encaminhados ao Comando do Exército, para guarda em paiol até a decisão final do juízo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a IN 255/2023-DG/PF (p. 126): elementos de contrabando/descaminho e veículos de transporte são encaminhados à Secretaria da Receita Federal do Brasil (C). A erra porque armas e munições, após laudo, vão ao Comando do Exército (não à CEF). B erra porque a moeda nacional falsa, após laudo, é encaminhada ao Banco Central. D erra porque joias, pedras e metais preciosos são acautelados na Caixa Econômica Federal.",
+    "referencia": "PDF IPO III, p. 126",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1974,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a destinação de bens em crimes ambientais, conforme a IN 255/2023-DG/PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os animais serão prioritariamente libertados em seu habitat ou, quando inviável, entregues a zoológicos ou entidades assemelhadas, sob responsabilidade de técnicos habilitados.",
+      "B": "Os produtos perecíveis e as madeiras apreendidas serão obrigatoriamente incinerados de imediato pela autoridade, ficando vedada a sua doação a instituições científicas ou beneficentes.",
+      "C": "Os animais apreendidos serão encaminhados à Secretaria da Receita Federal para alienação em leilão público de bens.",
+      "D": "A destinação em crimes ambientais dispensa registro em termo próprio, por se tratar de medida de urgência adotada no local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a IN 255/2023-DG/PF (p. 126): os animais serão prioritariamente libertados em seu habitat ou, quando inviável ou não recomendável, entregues a jardins zoológicos, fundações ou entidades assemelhadas, sob responsabilidade de técnicos habilitados (A). B erra porque os produtos perecíveis e madeiras são doados a instituições beneficentes. C erra quanto ao destino dos animais. D erra porque a destinação é registrada em termo próprio.",
+    "referencia": "PDF IPO III, p. 126",
+    "nivel": "medio"
+  },
+  {
+    "id": 1975,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a destinação de drogas apreendidas, conforme a IN 255/2023-DG/PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "A droga apreendida deve acompanhar integralmente os autos do inquérito policial até o trânsito em julgado da ação penal, vedada a sua destruição na fase pré-processual.",
+      "B": "Após o laudo de constatação preliminar, o delegado representa pela destruição imediata, resguardada a contraprova, que fica em custódia até o trânsito em julgado.",
+      "C": "Havendo apreensão de drogas sem prisão em flagrante, a incineração do material fica vedada antes da prolação da sentença penal condenatória de primeiro grau.",
+      "D": "A destruição da droga dispensa laudo prévio, bastando a decisão do delegado de polícia federal que preside a investigação criminal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a IN 255/2023-DG/PF (p. 127): após o laudo de constatação preliminar, o delegado representa ao juízo pela destruição imediata da droga, resguardada a contraprova, que permanece em custódia até o trânsito em julgado (B). A erra porque a droga não acompanha os autos até o trânsito em julgado (destrói-se com resguardo da contraprova). C erra porque, sem prisão em flagrante, o delegado determina a incineração em até trinta dias. D erra porque há laudo de constatação preliminar.",
+    "referencia": "PDF IPO III, p. 127",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1976,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a alienação antecipada de bens e o respectivo Registro Especial (RE), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A alienação antecipada só pode ser formalizada nos autos do inquérito principal, sendo vedada a abertura de registro especial apartado para a destinação do bem.",
+      "B": "No âmbito judicial, a representação da autoridade policial é distribuída no próprio procedimento principal em que o bem foi apreendido, e não em processo apartado.",
+      "C": "Visa evitar a desvalorização dos ativos, com o produto em conta judicial remunerada; recomenda-se um Registro Especial apartado e, no Judiciário, processo incidental ao de origem.",
+      "D": "O valor obtido com a alienação antecipada do bem é incorporado de imediato ao patrimônio da própria Polícia Federal, independentemente de decisão judicial ou de prestação de contas ao juízo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 128-129): a alienação antecipada visa evitar a desvalorização/deterioração dos ativos, com o produto depositado em conta judicial remunerada; recomenda-se a instauração de um Registro Especial apartado no ePol e, no âmbito judicial, a distribuição em processo incidental ao procedimento de origem, nunca no principal (C). A e B erram porque o RE é apartado e o processo judicial é incidental. D erra porque o valor fica à disposição do juízo, não é incorporado à PF.",
+    "referencia": "PDF IPO III, p. 128",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1977,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a restituição de bens apreendidos no inquérito policial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Em operações de grande porte, recomenda-se pedido ao juízo para autorizar previamente a restituição, sendo boa prática aguardar a conclusão da análise do material para uma única devolução por investigado.",
+      "B": "A restituição deve ser feita item a item, à medida que cada bem é analisado, ficando vedada a concentração das devoluções em um único ato por investigado.",
+      "C": "Concluída a perícia sobre o objeto apreendido, ele deve ser restituído de imediato ao reclamante, sendo desnecessário ponderar sobre a eventual realização de contraprova futura.",
+      "D": "A restituição pode ser realizada ainda que persista dúvida sobre a propriedade do bem, bastando a mera alegação verbal do reclamante no próprio ato da devolução pela autoridade policial que preside o inquérito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 127-128): em operações de grande porte, recomenda-se que o delegado formule pedido expresso ao juízo para autorizar previamente a restituição (segurança jurídica), sendo boa prática aguardar a conclusão da análise de todo o material para realizar uma única restituição por investigado (A). B erra porque se prefere a restituição única. C erra porque, mesmo após a perícia, deve-se ponderar sobre a contraprova. D erra porque a restituição exige ausência de dúvida sobre a propriedade.",
+    "referencia": "PDF IPO III, p. 127",
     "nivel": "medio"
   }
 ]
