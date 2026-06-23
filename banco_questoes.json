@@ -5294,40 +5294,6 @@
     "nivel": "medio"
   },
   {
-    "id": 538,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Perito Criminal Federal em regime de sobreaviso é acionado, na madrugada, para um homicídio em flagrante, com o suspeito preso no local. A equipe de delegados pressiona pela conclusão imediata do laudo de constatação para fundamentar a lavratura do auto de prisão, alegando que o prazo de apresentação do preso ao juiz se esgota. Sobre as prioridades e a conduta esperada do perito, conforme o Cap. 3, assinale a opção correta.",
-    "alternativas": {
-      "A": "Diante da urgência da diligência, o perito deve ceder à pressão tática exercida pela equipe e priorizar a celeridade sobre a preservação dos vestígios, pois o flagrante rege-se pelo princípio da oportunidade e a cadeia de custódia só passa a ser exigível na fase laboratorial.",
-      "B": "O laudo de constatação preliminar costuma ser requisito legal para o auto de prisão; ainda assim, a urgência jamais se sobrepõe à cadeia de custódia nem ao método científico de coleta.",
-      "C": "Em regime de sobreaviso, o perito tem ampla autonomia para recusar o atendimento de flagrantes ocorridos na madrugada, pois sua atuação restringe-se ao expediente regular, cabendo ao Delegado nomear perito ad hoc para o laudo de constatação.",
-      "D": "O laudo de constatação preliminar em flagrante não é exigido por lei, constituindo medida meramente facultativa, a ser eventualmente realizada apenas após a finalização do exame de local e o fechamento integral da cadeia de custódia dos vestígios."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a letra B: o Cap. 3 afirma que \"a intervenção pericial rápida — como a confecção de laudos de constatação preliminares — é frequentemente um requisito legal indispensável para fundamentar a lavratura do auto de prisão\" e que \"a urgência operacional jamais se sobreponha à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente\". A é falsa porque a celeridade não supera a preservação dos vestígios e a cadeia de custódia inicia-se ainda em campo. C é falsa porque o sobreaviso destina-se exatamente ao atendimento fora do expediente, não autorizando recusa. D é falsa porque o laudo preliminar é, com frequência, requisito legal para o auto de prisão.",
-    "referencia": "Cap. 3, Seção 3.3, p. 29",
-    "nivel": "medio"
-  },
-  {
-    "id": 539,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em palestra sobre o papel da Criminalística no Estado Democrático de Direito, o palestrante afirma que a ciência forense não se restringe a ser ferramenta de apoio, mas eleva-se à condição de garantidora da Justiça e dos Direitos Humanos. Conforme o exposto no Cap. 3, assinale a opção que reflete com maior precisão essa concepção.",
-    "alternativas": {
-      "A": "A função garantidora da perícia decorre essencialmente da vinculação hierárquica do perito ao Ministério Público, único órgão estatal capaz de assegurar plena imparcialidade processual aos resultados periciais produzidos.",
-      "B": "O caráter garantidor da atividade é assegurado pela vinculação direta da perícia ao Delegado de Polícia, autoridade que orienta a metodologia analítica e valida cientificamente todas as conclusões alcançadas pelo perito.",
-      "C": "A função garantidora restringe-se ao oferecimento de pareceres jurídicos sobre dolo, culpa e autoria do fato, permitindo ao perito suprir eventuais lacunas decisórias do magistrado em casos de difícil convencimento.",
-      "D": "A perícia é ferramenta central de controle e validação da investigação; ao submeter a hipótese acusatória ao crivo do método e documentá-la em laudo transparente, o perito previne arbitrariedades e condenações injustas."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta a letra D: o Cap. 3 afirma que 'a perícia não opera como um mero apêndice da polícia judiciária, mas sim como a ferramenta central de controle e validação da investigação criminal' e que, 'ao confirmar ou refutar uma hipótese criminal de forma técnica, documentando seu raciocínio lógico em um Laudo de Perícia Criminal Federal preciso e metodologicamente transparente, o perito previne arbitrariedades e condenações injustas'. A é falsa porque inexiste vínculo hierárquico ao Ministério Público. B é falsa porque o Delegado não orienta a metodologia nem valida as conclusões, sob pena de ferir a autonomia pericial. C é falsa porque o perito não emite pareceres jurídicos sobre dolo, culpa e autoria nem supre o convencimento do magistrado.",
-    "referencia": "Cap. 3, Seções 3.2 e 3.6, p. 28 e 31-32",
-    "nivel": "dificil"
-  },
-  {
     "id": 540,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 4 - O Perito",
@@ -29227,6 +29193,57 @@
     "resposta_correta": "D",
     "justificativa": "Conforme o material (Seção 2.3): com a Lei nº 11.690/08, a atuação do assistente técnico dá-se a partir de sua admissão pelo juiz e após a conclusão dos exames pelo perito oficial (art. 159, §§ 3º e 4º, do CPP) — alternativa D. A e B erram porque o assistente não atua simultaneamente nem antes dos exames oficiais, dependendo de admissão judicial. C erra porque o rigor técnico-científico tornou-se ainda mais essencial, por ficar sujeito a contestação técnica.",
     "referencia": "Cap. 2, Seção 2.3 — Assistente técnico",
+    "nivel": "medio"
+  },
+  {
+    "id": 2003,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a dualidade jurídica do Perito Criminal Federal, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Administrativamente é servidor público policial (vinculado à DITEC) e, processualmente, é auxiliar da jurisdição, sujeito a impedimento e suspeição (arts. 275 a 281 do CPP).",
+      "B": "Por ser auxiliar direto da jurisdição, o perito criminal subordina-se hierarquicamente ao juiz também na sua gestão administrativa e na sua atuação funcional cotidiana dentro do órgão policial.",
+      "C": "As regras de impedimento e de suspeição não se aplicam ao perito criminal, por se tratar de servidor público policial integrado, e não de magistrado togado.",
+      "D": "O perito vincula-se à esfera administrativa, sem possuir natureza processual em sua atuação como produtor da prova material no inquérito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 1): o perito tem dupla natureza — administrativamente é servidor público policial, vinculado à DITEC na regulação técnica, e processualmente é auxiliar direto da jurisdição, submetendo-se às regras de impedimento e suspeição (arts. 275 a 281 do CPP) — alternativa A. B erra porque a subordinação ao juiz é processual, não administrativa/funcional. C erra porque as regras de impedimento e suspeição aplicam-se ao perito. D erra porque ele possui também natureza processual.",
+    "referencia": "Cap. 3, Seção 3.1 — Dualidade jurídica do perito",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2004,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o viés cognitivo e o ceticismo metodológico na atuação pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O perito deve ancorar as suas inferências técnicas na presunção de culpa do investigado, alinhando-as cuidadosamente às expectativas externas da equipe de investigação.",
+      "B": "O viés cognitivo é um desvio consciente e deliberado de racionalidade no julgamento, facilmente controlado pela mera boa intenção e pela experiência acumulada do perito.",
+      "C": "O viés cognitivo é o desvio inconsciente de racionalidade causado por expectativas ou pressões; o ceticismo metodológico ancora as inferências nas propriedades mensuráveis do vestígio.",
+      "D": "Pressões processuais por produtividade legitimariam que o perito adaptasse as suas conclusões técnicas ao resultado que é previamente esperado pela própria equipe de investigação criminal responsável pelo caso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 2): o viés cognitivo é o desvio inconsciente de racionalidade no julgamento, provocado por expectativas externas ou pressões processuais; contra ele, o perito aplica o ceticismo metodológico, ancorando as inferências apenas nas propriedades mensuráveis do vestígio, jamais na presunção de culpa (C). A e D erram porque o perito não pode ancorar-se na presunção de culpa nem adaptar conclusões a expectativas. B erra porque o viés é inconsciente, não controlado por mera boa intenção.",
+    "referencia": "Cap. 3, Seção 3.2 — Viés cognitivo e ceticismo metodológico",
+    "nivel": "medio"
+  },
+  {
+    "id": 2005,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do Laudo Pericial Criminal Federal (Portaria nº 1.192/2022-DITEC/PF), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O Histórico é um elemento textual obrigatório do laudo pericial e confunde-se com a descrição detalhada da metodologia que foi empregada na realização dos exames.",
+      "B": "O Histórico é elemento facultativo que registra fatos conjunturais da requisição ou do exame (ex.: interrupções, condições climáticas), não se confundindo com a metodologia.",
+      "C": "O perito está dispensado de registrar no corpo do laudo a destinação final de cada vestígio examinado, por ser matéria estranha à conclusão pericial e própria, em tese, da cadeia de custódia documental.",
+      "D": "Os elementos textuais obrigatórios do laudo resumem-se ao preâmbulo e à conclusão, ficando dispensados o objeto, o objetivo e a seção de exame do documento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 5): o Histórico é elemento textual facultativo (inserido após o preâmbulo) que registra fatos conjunturais da requisição ou do exame — interrupções, condições climáticas impeditivas, atrasos logísticos — e não se confunde com a metodologia (B). A erra porque é facultativo e distinto da metodologia. C erra porque o art. 63 da Portaria obriga o perito a registrar no laudo a destinação de cada vestígio. D erra porque os elementos obrigatórios são preâmbulo, objeto, objetivo, exame e conclusão (POOEC).",
+    "referencia": "Cap. 3, Seção 3.5 — Estrutura do laudo e Histórico",
     "nivel": "medio"
   }
 ]
