@@ -2752,38 +2752,6 @@
     "referencia": "Cap. 8, Seção 8.9.4, p. 187"
   },
   {
-    "id": 317,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante palestra acadêmica, um professor afirma que o inquérito policial brasileiro deveria ser classificado como procedimento 'inquisitorial', em razão da ausência de contraditório pleno em sua condução. Um aluno discorda e sustenta que a expressão 'inquisitório' é tecnicamente inadequada, devendo o inquérito ser compreendido sob outra perspectiva, mais alinhada à Constituição de 1988. Com base na doutrina institucional apresentada no material didático, assinale a alternativa que melhor justifica a posição do aluno:",
-    "alternativas": {
-      "A": "A expressão 'inquisitório' carrega forte carga histórica associada aos Tribunais do Santo Ofício, sendo mais adequado compreender o inquérito como procedimento apuratório de natureza administrativa, voltado à formação de elementos informativos, mas estruturado dentro de balizas constitucionais claras, admitindo-se formas mitigadas de contraditório a partir da ciência formal do investigado.",
-      "B": "O aluno está equivocado, pois o termo 'inquisitorial' permanece tecnicamente correto e reflete fielmente a natureza do inquérito, que se desenvolve sem qualquer forma de contraditório, ainda que mitigado.",
-      "C": "O aluno está correto porque a Constituição de 1988 impôs ao inquérito policial o contraditório pleno desde o seu nascedouro, em moldes idênticos ao processo judicial, razão pela qual o termo 'inquisitório' deixou de ter qualquer aplicabilidade.",
-      "D": "O aluno está correto apenas em parte, pois embora a expressão 'inquisitório' seja inadequada, o inquérito policial permanece sendo procedimento sem qualquer espaço para garantias defensivas, dada sua natureza estritamente preparatória."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o material: 'A própria expressão \"inquisitório\" revela-se tecnicamente inadequada e conceitualmente problemática, pois carrega forte carga histórica associada aos Tribunais do Santo Ofício'. E ainda: 'Mostra-se, portanto, mais adequado compreendê-lo como procedimento apuratório de natureza administrativa, voltado à formação de elementos informativos, mas estruturado dentro de balizas constitucionais claras'. Além disso, 'Admite-se, no âmbito do inquérito policial, a presença de formas mitigadas de contraditório a partir do momento em que o investigado toma ciência formal'.",
-    "referencia": "Cap. 5, Seção 5.2.1, p. 56-57"
-  },
-  {
-    "id": 318,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Ministério Público Federal requisita ao Delegado de Polícia Federal a instauração de inquérito policial para apurar suposto crime de descaminho. Ao analisar a requisição, o Delegado verifica que o fato narrado configura crime cuja punibilidade já foi extinta pela prescrição da pretensão punitiva, de forma manifesta e sem necessidade de exame fático-probatório aprofundado. Considerando as orientações do Caderno Didático IPO e a IN nº 255/2023, qual seria a conduta juridicamente adequada do Delegado?",
-    "alternativas": {
-      "A": "O Delegado, em razão do caráter impositivo da requisição ministerial, é obrigado a instaurar o inquérito policial em qualquer hipótese, ainda que verifique manifesta ilegalidade, podendo apenas, posteriormente, representar pelo arquivamento ao juízo competente.",
-      "B": "O Delegado deve instaurar o inquérito imediatamente e, em despacho posterior, declarar a extinção da punibilidade, encerrando o procedimento sem necessidade de comunicação ao Ministério Público.",
-      "C": "O Delegado deve devolver a requisição ao Ministério Público com a recomendação de arquivamento direto, sem qualquer instauração ou revisão administrativa interna, em razão de sua autonomia técnico-jurídica absoluta.",
-      "D": "O Delegado, embora a requisição em regra possua natureza impositiva, pode legitimamente se abster de instaurar o inquérito quando a ilegalidade for manifesta, comunicando ao requisitante de forma fundamentada; conforme art. 14, § 1º, da IN nº 255/2023, em caso de divergência, o caso é submetido a instâncias internas de revisão, sendo o inquérito instaurado pela autoridade designada caso a requisição seja mantida."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto afirma: 'quando a ilegalidade for manifesta — por exemplo, quando se trate de fato evidentemente atípico, crime prescrito ou situação que, sem exame aprofundado, revela ausência de justa causa — é legítimo que o Delegado se abstenha de instaurar o inquérito, comunicando ao requisitante, de forma fundamentada'. E: 'Conforme o art. 14, § 1º, quando houver discordância fundamentada, o caso deve ser remetido para nova apreciação do requisitante. Persistindo a requisição [...] e, mantida a requisição ao final, o inquérito será instaurado pela autoridade policial designada.'",
-    "referencia": "Cap. 5, Seção 5.3, p. 59"
-  },
-  {
     "id": 319,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial",
@@ -2798,54 +2766,6 @@
     "resposta_correta": "B",
     "justificativa": "Item I incorreto: 'A notícia anônima, por si só, não é suficiente para instaurar inquérito policial [...] A providência adequada é a verificação preliminar'. Item II correto: 'A notícia de fato não flagrancial pode ser cadastrada como registro de fato no sistema oficial de polícia judiciária (EPOL)'. Item III correto: 'o registro pode ser convertido em notícia-crime, notícia-crime em verificação ou registro especial, seguindo então para distribuição'. Item IV correto: 'A vítima, ou quem legalmente a represente, pode requerer a instauração do inquérito [...] Esse requerimento constitui modalidade qualificada de notitia criminis'.",
     "referencia": "Cap. 5, Seção 5.3, p. 59-60"
-  },
-  {
-    "id": 320,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma sustentação oral durante audiência, um advogado afirma que o inquérito policial é procedimento absolutamente dispensável, citando o art. 39, § 5º, do CPP como regra geral do sistema brasileiro. O Promotor de Justiça, baseando-se na nova doutrina apresentada no Caderno Didático IPO, refuta essa tese. Qual argumentação melhor sustenta a posição do Promotor?",
-    "alternativas": {
-      "A": "A doutrina clássica está correta ao afirmar a dispensabilidade do inquérito como regra geral, devendo o Promotor reconhecer essa posição majoritária e abandonar sua tese.",
-      "B": "O inquérito policial é absolutamente indispensável em todos os casos sem exceção, sendo nula qualquer ação penal proposta sem prévio inquérito policial formalmente instaurado pela Polícia Federal ou Civil.",
-      "C": "A regra é a indispensabilidade do inquérito policial enquanto procedimento pré-processual da persecução penal, sendo equivocado classificar um instituto jurídico com base em sua exceção; a hipótese do art. 39, § 5º, está circunscrita às ações penais públicas condicionadas à representação, e a prática demonstra que a expressiva maioria dos processos penais é precedida por investigação policial formalmente constituída.",
-      "D": "O inquérito policial é dispensável em todos os crimes de ação penal pública incondicionada, sendo obrigatório apenas nos crimes de ação penal privada."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Texto literal: 'a regra é a indispensabilidade do inquérito policial enquanto procedimento pré-processual da persecução penal. Importante pontuar que não se pode classificar ou compreender a natureza jurídica de um instituto jurídico com base em sua exceção'. E: 'a hipótese de dispensabilidade do inquérito está claramente circunscrita às ações penais públicas condicionadas à representação'. E: 'a prática demonstra que a expressiva maioria dos processos penais é precedida por investigação policial formalmente constituída'.",
-    "referencia": "Cap. 5, Seção 5.5.2, p. 64-65"
-  },
-  {
-    "id": 321,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Determinado advogado, regularmente constituído por investigado em inquérito policial sigiloso, comparece à Delegacia da Polícia Federal e requer vista integral dos autos. O Delegado verifica que o inquérito contém: (a) interceptação telefônica em curso ainda não documentada; (b) representação por busca e apreensão já cumprida e juntada aos autos; e (c) representação por prisão preventiva ainda não analisada pelo Poder Judiciário. Com base na Súmula Vinculante nº 14 do STF, no art. 7º, XIV e §§ 10-12 da Lei nº 8.906/1994 e na IN nº 255/2023, qual conduta do Delegado é juridicamente adequada?",
-    "alternativas": {
-      "A": "Deve franquear acesso integral a todos os documentos e diligências, em curso ou não, sob pena de cometer crime de abuso de autoridade, pois o direito do advogado é absoluto e não admite limitações.",
-      "B": "Deve negar acesso integral ao caderno investigativo, em razão do sigilo decretado, pois a Súmula Vinculante 14 não se aplica a inquéritos sigilosos.",
-      "C": "Deve franquear acesso a todos os elementos formalizados e em curso, exceto aos relacionados à prisão preventiva, pois apenas esta medida cautelar afeta a liberdade do investigado.",
-      "D": "Deve franquear acesso apenas à representação por busca e apreensão já cumprida e juntada aos autos, negando-se a vista da interceptação telefônica em curso e da representação por prisão preventiva ainda não analisada, pois somente atos já perfeitos, acabados e juntados ao inquérito podem ser objeto de vista, ressalvadas as diligências em andamento."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Texto: 'somente atos já perfeitos e acabados e cuja juntada aos autos do inquérito foi determinada pelo Delegado de Polícia Federal podem ser objeto de vista pelo advogado de defesa do investigado. Diligências em curso e as ainda não materializadas não podem ter seu acesso franqueado'. E: 'interceptações telefônicas em curso, representações por prisão e busca e apreensão ainda não analisadas pelo Poder Judiciário ou deferidas e não cumpridas [...] não podem ser desvendadas ao investigado'.",
-    "referencia": "Cap. 5, Seção 5.5.3, p. 67-68"
-  },
-  {
-    "id": 322,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Após meses conduzindo inquérito policial complexo sobre crime contra o sistema financeiro nacional, o Delegado de Polícia Federal conclui que não há justa causa para o prosseguimento da investigação. Diante dessa convicção técnica, ele profere despacho determinando o arquivamento dos autos e os mantém em cartório, sem qualquer outra providência. Considerando o regime jurídico do inquérito policial e a alteração promovida pela Lei nº 13.964/2019, é correto afirmar:",
-    "alternativas": {
-      "A": "A conduta do Delegado está correta, pois sua autonomia técnico-jurídica lhe permite, fundamentadamente, determinar o arquivamento do inquérito quando ausente justa causa, dispensando manifestação posterior do Ministério Público.",
-      "B": "A conduta do Delegado é parcialmente correta, devendo apenas comunicar a decisão de arquivamento à vítima e ao investigado, sem necessidade de submeter os autos ao Ministério Público.",
-      "C": "O inquérito policial é procedimento indisponível para o Delegado de Polícia: uma vez instaurado, não pode ser arquivado por iniciativa da autoridade policial; ainda que entenda pela inexistência de justa causa, deverá elaborar relatório final fundamentado e remeter os autos à autoridade competente (Ministério Público ou Poder Judiciário) para as providências cabíveis.",
-      "D": "O Delegado poderia arquivar o inquérito desde que houvesse concordância expressa do superior hierárquico imediato, dispensando-se a manifestação do Ministério Público."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Texto: 'O inquérito policial é procedimento indisponível para o Delegado de Polícia. Uma vez instaurado, não pode ser arquivado por iniciativa da autoridade policial, cabendo essa decisão ao Ministério Público'. E: 'ainda que o Delegado de Polícia entenda pela inexistência de justa causa para prosseguimento da investigação, não lhe compete determinar o arquivamento. Nessa hipótese, deverá elaborar relatório final fundamentado e remeter os autos à autoridade competente'.",
-    "referencia": "Cap. 5, Seção 5.5.4, p. 69"
   },
   {
     "id": 323,
@@ -2912,54 +2832,6 @@
     "referencia": "Cap. 5, Seção 5.9, p. 78-79"
   },
   {
-    "id": 327,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Um Delegado de Polícia Federal lotado em município de pequeno porte é removido para outra unidade após desavenças com chefia política local. O ato de remoção foi fundamentado de forma genérica, com referência abstrata a 'necessidade administrativa', sem demonstração concreta de motivos. À luz da inamovibilidade relativa do delegado, prevista no art. 2º, § 5º, da Lei nº 12.830/2013, e da doutrina apresentada no material, qual afirmação é juridicamente correta?",
-    "alternativas": {
-      "A": "A inamovibilidade do Delegado possui natureza relativa, decorrente do art. 2º, § 5º, da Lei nº 12.830/2013, exigindo motivação explícita, concreta e orientada pelo interesse público; remoções por pressões políticas, conveniências pessoais ou retaliações configuram desvio de finalidade e podem ser impugnadas judicialmente, notadamente por Mandado de Segurança.",
-      "B": "A remoção é plenamente válida, pois a inamovibilidade do delegado é apenas uma construção doutrinária, sem qualquer respaldo normativo na legislação infraconstitucional brasileira.",
-      "C": "A inamovibilidade do Delegado de Polícia Federal é absoluta e possui estatura constitucional, equiparável à dos magistrados e membros do Ministério Público, sendo nulo qualquer ato de remoção sem deliberação de órgão colegiado.",
-      "D": "A inamovibilidade do Delegado exige, em todas as hipóteses, deliberação de órgão colegiado para sua relativização, conforme regra paralela à dos magistrados, ainda que isso não esteja previsto expressamente em lei."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Texto: 'A inamovibilidade do Delegado de Polícia Federal possui natureza relativa [...] a proteção conferida ao delegado decorre de norma infraconstitucional, especificamente do art. 2º, § 5º, da Lei nº 12.830/2013'. E: 'a remoção arbitrária viola a prerrogativa de inamovibilidade relativa, pois o ato administrativo [...] deve estar amparado em motivação explícita, concreta e orientada pelo interesse público'. E: 'não se qualifica como interesse público legítimo a remoção motivada por pressões políticas, conveniências pessoais, retaliações [...] a medida pode ser impugnada judicialmente, notadamente por meio de Mandado de Segurança'.",
-    "referencia": "Cap. 5, Seção 5.10, p. 80-81"
-  },
-  {
-    "id": 328,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em palestra sobre a finalidade do inquérito policial, são apresentadas três dimensões fundamentais que justificam sua existência no sistema de justiça criminal, conforme leciona Aury Lopes Jr. Sobre essas dimensões, considere as afirmativas:\nI. A função de filtro processual atua como mecanismo de contenção contrária a acusações infundadas, protegendo o investigado contra denúncias temerárias e racionalizando a atividade jurisdicional.\nII. A função simbólica reflete a reação estatal à prática delitiva, contribuindo para a reafirmação da confiança pública nas instituições e para a credibilidade do sistema de justiça criminal.\nIII. A busca do fato oculto consiste, exclusivamente, na identificação da autoria do delito, sendo irrelevantes os aspectos patrimoniais para fins de eventual identificação e recuperação de ativos.\nIV. Para a doutrina processual penal mais moderna, a finalidade material do inquérito policial concentra-se na preservação da imparcialidade, na observância do princípio da economicidade e na sua utilização como instrumento apto a promover a eficiência da justiça criminal.\nÉ correto o que se afirma em:",
-    "alternativas": {
-      "A": "I, II e IV, apenas.",
-      "B": "I, III e IV, apenas.",
-      "C": "II, III e IV, apenas.",
-      "D": "I, II e III, apenas."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Item I correto: 'A primeira dimensão refere-se ao papel do inquérito como mecanismo de contenção contrária a acusações infundadas'. Item II correto: 'A segunda dimensão diz respeito à sua função simbólica [...] contribui para a reafirmação da confiança pública nas instituições'. Item III INCORRETO: a busca do fato oculto envolve aspectos pessoais E patrimoniais — 'viabilizar, quando cabível, a identificação e recuperação de ativos provenientes da atividade ilícita'. Item IV correto: 'para a doutrina processual penal mais moderna, a finalidade material do inquérito policial concentra-se na preservação da imparcialidade, na observância do princípio da economicidade e na sua utilização como instrumento apto a promover a eficiência da justiça criminal'.",
-    "referencia": "Cap. 5, Seção 5.4, p. 61-63"
-  },
-  {
-    "id": 329,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Determinado Delegado de Polícia Federal, ao presidir inquérito sobre crime de homicídio cuja vítima já foi necropsiada e cujo corpo permitiu a coleta de vestígios, decide, com base em sua autonomia técnico-jurídica, deixar de determinar a realização do exame de corpo de delito, considerando suficientes outros elementos probatórios coligidos. Com base na disciplina apresentada no Caderno Didático IPO sobre presidência e discricionariedade do inquérito policial, é correto afirmar que:",
-    "alternativas": {
-      "A": "A conduta do Delegado é compatível com sua ampla discricionariedade, pois é livre para deixar de determinar qualquer perícia, ainda que se trate de crime não transeunte com vestígios disponíveis.",
-      "B": "A conduta é correta, pois nos crimes contra a vida o exame de corpo de delito é facultativo, podendo ser substituído por prova testemunhal ou documental a critério exclusivo da autoridade policial.",
-      "C": "A discricionariedade da autoridade policial é absoluta no inquérito policial, não admitindo qualquer exceção, pois o Delegado decide livremente sobre todas as diligências, inclusive quanto à dispensa de exames periciais obrigatórios.",
-      "D": "A discricionariedade da autoridade policial é excepcionada nos casos de crimes não transeuntes (que deixam vestígios), pois, nestes casos, o Delegado de Polícia Federal, em regra, deve determinar a realização do exame de corpo de delito, sendo a exceção restrita aos casos em que os vestígios já desapareceram."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Texto: 'a discricionariedade da autoridade policial é excepcionada nos casos de crimes não transeuntes (que deixam vestígios), pois, nestes casos, o Delegado de Polícia Federal, em regra, deve determinar a realização do exame de corpo de delito. A exceção fica por conta dos casos em que os vestígios já desapareceram'.",
-    "referencia": "Cap. 5, Seção 5.8, p. 76-77"
-  },
-  {
     "id": 330,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial",
@@ -2976,22 +2848,6 @@
     "referencia": "Cap. 5, Introdução e Seção 5.1, p. 50-53"
   },
   {
-    "id": 331,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em determinada Superintendência Regional, o Superintendente determina, por mero interesse pessoal e em retaliação ao Delegado responsável, a substituição imediata do delegado que conduzia investigação de relevância nacional. Posteriormente, em outro caso, o mesmo Superintendente determina a redistribuição de inquérito, sob fundamentação expressa, em razão de comprovada inércia investigativa e descumprimento reiterado de prazos. Analisando ambas as situações sob a ótica do princípio do delegado natural, é correto afirmar:",
-    "alternativas": {
-      "A": "A primeira conduta (substituição arbitrária) viola o princípio do delegado natural, pois substituições arbitrárias e ingerências por motivações casuísticas comprometem a estabilidade institucional, a efetividade e a credibilidade da investigação; já a segunda (redistribuição fundamentada em inércia e descumprimento de prazos) está em conformidade com o art. 2º, § 4º, da Lei nº 12.830/2013, que admite a redistribuição por despacho fundamentado em motivos de interesse público ou inobservância de procedimentos previstos em regulamento.",
-      "B": "Ambas as condutas são plenamente válidas, pois o Superintendente, no exercício do poder hierárquico, pode redistribuir inquéritos independentemente de motivação concreta ou observância de critérios objetivos.",
-      "C": "Ambas as condutas violam o princípio do delegado natural, pois a inamovibilidade do delegado é absoluta e não admite redistribuição em hipótese alguma, ainda que fundamentada em irregularidades concretas.",
-      "D": "Apenas a segunda conduta viola o princípio do delegado natural, pois a redistribuição é sempre vedada, ainda que fundamentada em interesse público; a primeira é válida porque decorre do mero poder hierárquico do Superintendente."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Texto: 'É incompatível com o modelo constitucional de persecução penal que o delegado regularmente investido na atribuição para determinado feito seja afastado de forma arbitrária ou por motivações casuísticas'. E: 'art. 2º, § 4º, da Lei nº 12.830/2013 estabelece que o inquérito policial [...] somente poderá ser avocado ou redistribuído por superior hierárquico mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância de procedimentos [...] Exemplificativamente, situações como injustificada inércia investigativa, descumprimento reiterado de prazos [...] podem ensejar providências dessa natureza'.",
-    "referencia": "Cap. 5, Seção 5.9, p. 78-79"
-  },
-  {
     "id": 332,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 5 - Inquérito Policial",
@@ -3006,150 +2862,6 @@
     "resposta_correta": "C",
     "justificativa": "Texto: 'o art. 5º, §2º, do Código de Processo Penal confere ao Delegado de Polícia a possibilidade expressa de indeferir requerimentos de abertura de inquérito quando ausentes os pressupostos legais, decisão que deve ser fundamentada e comunicada ao requerente. Exemplos práticos de indeferimento incluem hipóteses de atipicidade (como aplicação do princípio da insignificância)'. E: 'diante da negativa do Delegado [...] o requisitante pode interpor recurso administrativo perante o chefe de polícia [...] No âmbito da Polícia Federal, caberia inicialmente recurso dirigido a quem proferiu a decisão e, ausente reconsideração, o envio ao superior hierárquico ou corregedor regional, nos termos do art. 11, da IN n.º 255/2023'.",
     "referencia": "Cap. 5, Seção 5.5.6, p. 70-71"
-  },
-  {
-    "id": 333,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Delegado de Polícia Federal João, ao conduzir um inquérito sobre um crime de descaminho, recebe orientação verbal do seu superior hierárquico para indiciar imediatamente determinado investigado, sem que tenham sido finalizadas as diligências em curso. João entende que ainda não há elementos técnicos suficientes para tal ato. Considerando a doutrina contemporânea sobre a autonomia técnico-jurídica do Delegado de Polícia Federal, é correto afirmar que:",
-    "alternativas": {
-      "A": "João deve obedecer à orientação, pois o Delegado de Polícia Federal está integralmente subordinado, em todos os planos, à estrutura hierárquica e disciplinar do Poder Executivo, inclusive quanto ao conteúdo jurídico de seus atos.",
-      "B": "João deve obedecer à orientação, pois a Lei nº 12.830/2013 expressamente revogou o livre convencimento técnico-jurídico do Delegado, conforme decidido pelo STF na ADI 5.579.",
-      "C": "João possui independência funcional constitucionalmente equiparável à de juízes e promotores, podendo recusar inclusive ordens administrativas legítimas relacionadas à organização do serviço.",
-      "D": "João possui autonomia técnico-jurídica para analisar fatos e direito e adotar as providências que reputar adequadas, sem subordinação às vontades pessoais de superiores quanto ao conteúdo jurídico das decisões proferidas no inquérito sob sua presidência, embora deva observar a estrutura hierárquica em matéria de organização do serviço."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O Cap. 5 explica: 'a autoridade policial não está sujeita às vontades pessoais de seus superiores hierárquicos no tocante ao conteúdo jurídico das decisões que profere no âmbito do inquérito sob sua presidência. Trata-se, portanto, de reconhecer-lhe autonomia técnico-jurídica' e, ao mesmo tempo, 'a autonomia técnico-jurídica não autoriza o descumprimento de ordens administrativas legítimas relacionadas à organização do serviço, distribuição de tarefas ou gestão da unidade'.",
-    "referencia": "Cap. 5, Seção 5.11, p. 81"
-  },
-  {
-    "id": 334,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o julgamento da ADI 5.579 pelo Supremo Tribunal Federal e seus reflexos na autonomia da polícia judiciária, julgue os itens abaixo:\nI. O STF declarou inconstitucional norma estadual que atribuía autonomia funcional a delegados, peritos e demais integrantes da polícia judiciária.\nII. A Corte entendeu que tal previsão colidiria com a estrutura constitucional que subordina administrativamente a polícia ao Poder Executivo e preserva o poder de requisição do Ministério Público.\nIII. No mesmo julgamento, o STF afastou qualquer dever de atuação técnica independente por parte dos delegados, em razão da subordinação hierárquica integral.\nIV. A Corte enfatizou que delegados e demais servidores da polícia judiciária devem exercer suas funções com rigor técnico e independência profissional, vedando-se ingerências ilegítimas no conteúdo de seus atos.\nV. Consolidou-se a noção de independência técnica como decorrência implícita do modelo constitucional, ainda que ausente autonomia funcional formal.\nÉ correto o que se afirma em:",
-    "alternativas": {
-      "A": "II, III e IV, apenas.",
-      "B": "I, III e V, apenas.",
-      "C": "I, II, IV e V, apenas.",
-      "D": "I, II e III, apenas."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma: 'O Supremo Tribunal Federal enfrentou a matéria no julgamento da ADI 5.579, ao declarar inconstitucional norma estadual que atribuía autonomia funcional a delegados...' e 'a inexistência de autonomia funcional formal não afasta o dever, e a prerrogativa, de atuação técnica independente. A Corte enfatizou que delegados e demais servidores da polícia judiciária devem exercer suas funções com rigor técnico e independência profissional... Consolidou-se, assim, a noção de independência técnica como decorrência implícita do modelo constitucional.' O item III contradiz expressamente o texto.",
-    "referencia": "Cap. 5, Seção 5.11, p. 82"
-  },
-  {
-    "id": 335,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante investigação sobre crime de tráfico de drogas, o Delegado de Polícia Federal Carlos identifica a necessidade urgente de representar diretamente ao Poder Judiciário por interceptação telefônica e busca e apreensão domiciliar, sem submissão prévia ao Ministério Público. Determinado doutrinador sustenta que o Delegado não teria legitimidade para postular diretamente ao Judiciário. À luz da jurisprudência do STF e da doutrina contemporânea sobre a capacidade postulatória, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A polícia judiciária detém legitimidade para pleitear diretamente ao Judiciário a concessão de medidas cautelares, como interceptações telefônicas, prisões cautelares e buscas e apreensões, independentemente de prévia concordância do Ministério Público, tratando-se de capacidade postulatória imprópria.",
-      "B": "A capacidade postulatória do Delegado só é admitida na fase processual, jamais na fase pré-processual, em razão do princípio do sistema acusatório.",
-      "C": "O Delegado não detém capacidade postulatória, devendo necessariamente submeter a representação ao Ministério Público para que este, na qualidade de única parte legítima, dirija o pedido ao Judiciário.",
-      "D": "A capacidade postulatória do Delegado configura usurpação da função acusatória do Ministério Público, conforme decidido pelo STF na ADI 5.508."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'Eugênio Pacelli de Oliveira... afirma que a polícia judiciária detém legitimidade para pleitear diretamente ao Judiciário a concessão de medidas cautelares, como interceptações telefônicas, prisões cautelares e buscas e apreensões, independentemente de prévia concordância do Ministério Público' e classifica como 'verdadeira capacidade postulatória imprópria'. A ADI 5.508 reafirmou essa legitimidade.",
-    "referencia": "Cap. 5, Seção 5.12, p. 83-84"
-  },
-  {
-    "id": 336,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Delegada Mariana, ao conduzir investigação sobre crime de estelionato, conclui pela existência de elementos suficientes de autoria e materialidade quanto ao investigado Pedro e pretende formalizar o indiciamento. Considerando a disciplina do poder de indiciamento e suas formalidades, é correto afirmar que:",
-    "alternativas": {
-      "A": "O indiciamento é ato discricionário do magistrado, que pode determinar à autoridade policial a sua realização, conforme entendimento pacífico do STF.",
-      "B": "O indiciamento pode ser realizado pelo Ministério Público, em substituição ao Delegado, quando este se mostrar omisso, com base no controle externo da atividade policial.",
-      "C": "Trata-se de ato formal de imputação privativo de Delegado de Polícia Federal, realizado por meio de despacho devidamente fundamentado ou no bojo do relatório final, que pode ser direto ou indireto, podendo ser cancelado, alterado ou aditado no caso de surgimento de novos indícios.",
-      "D": "O indiciamento exige a comunicação prévia ao juiz das garantias, sob pena de nulidade do ato, conforme disciplinado pela Lei nº 12.830/2013."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma: 'Trata-se de ato formal de imputação privativo de Delegado de Polícia Federal, feito por meio de despacho devidamente fundamentado (ou no bojo do relatório final)... O indiciamento pode ser direto... ou indireto...' e 'há a possibilidade de o indiciamento ser cancelado, alterado ou aditado no caso de surgimento de novos indícios'. O STF, no caso Edson Fachin, cassou decisão judicial que determinava à autoridade policial o indiciamento.",
-    "referencia": "Cap. 5, Seção 5.13, p. 84-86"
-  },
-  {
-    "id": 337,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a atuação da Polícia Federal em investigações que envolvem autoridades com prerrogativa de foro, julgue os itens abaixo:\nI. A Polícia Federal pode iniciar quaisquer diligências investigativas contra magistrados sem autorização do Tribunal competente, desde que limitadas a fontes abertas e à própria notícia-crime.\nII. A Coordenação de Inquéritos nos Tribunais Superiores (CINQ) é responsável por acompanhar e controlar investigações que tramitam no STF e no STJ.\nIII. O indiciamento de membros do Ministério Público é expressamente vedado pela Lei Orgânica Nacional do Ministério Público.\nIV. A investigação contra magistrados é, em regra, conduzida pelo próprio Poder Judiciário, podendo ser delegada à Polícia Federal pelo Ministro ou Desembargador Relator.\nV. A prerrogativa de foro se aplica apenas enquanto o agente estiver no exercício do cargo, sendo automaticamente extinta após o término da função, ainda que o crime tenha sido praticado em razão dela.\nÉ correto o que se afirma em:",
-    "alternativas": {
-      "A": "I, III e IV, apenas.",
-      "B": "II, III e IV, apenas.",
-      "C": "II e V, apenas.",
-      "D": "II, III e V, apenas."
-    },
-    "resposta_correta": "B",
-    "justificativa": "II - 'à CINQ, na qualidade de Coordenação de Inquéritos nos tribunais superiores, o acompanhamento e o controle dos procedimentos'. III - 'A Lei Orgânica Nacional do Ministério Público, em seu art. 41, inciso II, estabelece expressamente a proibição do indiciamento de seus membros'. IV - 'a condução da investigação criminal é de competência do Poder Judiciário... a atuação da Polícia Federal ocorre exclusivamente mediante delegação do Relator'. I é falsa - 'não deve haver qualquer ato investigativo antes da investigação ser formalmente autorizada pelo tribunal competente, salvo eventual utilização de informações obtidas em fontes abertas ou já contidas na notícia crime' (não se trata de diligências). V é falsa - HC 232.627/DF: 'a prerrogativa de foro... subsiste mesmo após o afastamento do cargo'.",
-    "referencia": "Cap. 5, Seção 5.14, p. 86-90"
-  },
-  {
-    "id": 338,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante o curso de um inquérito policial sobre desvio de recursos, o Delegado de Polícia Federal identifica indícios de participação de um Desembargador de Tribunal Regional Federal. Considerando os procedimentos previstos para esta situação, qual a conduta correta a ser adotada pela autoridade policial?",
-    "alternativas": {
-      "A": "Prosseguir com as investigações normalmente, indiciando o Desembargador ao final, com base no princípio da autonomia técnico-jurídica do Delegado de Polícia Federal.",
-      "B": "Determinar a imediata paralisação das investigações em relação ao Desembargador e representar perante o juízo inicialmente competente para solicitar o declínio de competência ao tribunal superior, mantendo as investigações suspensas até a decisão de declínio.",
-      "C": "Remeter os autos diretamente ao Conselho Nacional de Justiça (CNJ), que possui competência originária para investigação de magistrados.",
-      "D": "Solicitar autorização ao Procurador-Geral da República para prosseguir com as investigações, considerando o foro por prerrogativa de função."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma: 'Quando for identificado o envolvimento de pessoa detentora de foro depois do início da investigação, a autoridade policial deverá determinar a imediata paralisação das investigações e representar perante o juízo inicialmente competente para solicitar o declínio de competência ao tribunal superior... a investigação deverá permanecer suspensa até que a decisão de declínio de competência seja proferida pelo juízo de origem.'",
-    "referencia": "Cap. 5, Seção 5.14, p. 88-89"
-  },
-  {
-    "id": 339,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma investigação complexa envolvendo organização criminosa especializada em contrabando, o Delegado Roberto avalia a utilização de diversas técnicas investigativas. Sobre a distinção entre diligências policiais comuns (ordinárias) e especiais (extraordinárias), assinale a alternativa correta:",
-    "alternativas": {
-      "A": "As diligências comuns incluem a interceptação de comunicações telefônicas e a infiltração de agentes, por serem técnicas rotineiras da polícia judiciária federal.",
-      "B": "As diligências especiais, caracterizadas por maior complexidade e potencial invasividade, incluem a colaboração premiada, a captação ambiental, a ação controlada, a interceptação telefônica e telemática, o afastamento dos sigilos bancário, fiscal e financeiro, e a infiltração de agentes, com previsão regra no art. 3º da Lei nº 12.850/2013.",
-      "C": "As diligências comuns estão previstas integralmente na Lei nº 12.850/2013, enquanto as especiais encontram disciplina no art. 6º do CPP.",
-      "D": "A oitiva de testemunhas, o interrogatório do investigado e a acareação são consideradas diligências especiais por exigirem cláusula de reserva de jurisdição."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto explica: 'as diligências policiais especiais... caracterizam-se por maior complexidade, potencial invasividade ou especificidade procedimental. Inserem-se nesse rol a colaboração premiada, a captação ambiental de sinais eletromagnéticos, ópticos ou acústicos, a ação controlada, a interceptação de comunicações telefônicas e telemáticas, o afastamento dos sigilos bancário, fiscal e financeiro, bem como a infiltração de agentes. Essas técnicas encontram previsão, em regra, no art. 3º da Lei nº 12.850/2013'.",
-    "referencia": "Cap. 5, Seção 5.15, p. 91"
-  },
-  {
-    "id": 340,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Numa investigação de tráfico internacional de drogas, o Escrivão de Polícia Federal Lucas, formado em Ciências Contábeis, é designado pelo Delegado para examinar planilhas financeiras apreendidas e elaborar informação de polícia judiciária detalhando o fluxo de valores identificado. Considerando a distinção entre análise e perícia, e a cooperação funcional entre os cargos da PF, é correto afirmar que:",
-    "alternativas": {
-      "A": "A conduta é ilegal, pois qualquer exame de elementos investigativos exige certificação pericial formal e somente pode ser conduzido por Perito Criminal Federal ou Papiloscopista Policial Federal.",
-      "B": "A conduta configura usurpação das atribuições do Perito Criminal Federal, gerando nulidade absoluta de eventual prova produzida.",
-      "C": "A análise de elementos de interesse, que não demande expertise técnico-científica formal ou certificação pericial, pode ser legitimamente conduzida por Escrivães e Agentes, sob a direção do Delegado, resultando em documentos internos como informações de polícia judiciária que subsidiam as decisões.",
-      "D": "A conduta somente seria válida se previamente autorizada pelo juiz das garantias, conforme cláusula de reserva de jurisdição."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma: 'a \"análise\" de elementos de interesse, que não demandem expertise técnico-científica formal ou certificação pericial, pode ser legitimamente conduzida por Escrivães e Agentes nas situações em que a perícia formal não for imperativa. Assim, um escrivão com especialidade em contabilidade... podem, sob a direção do delegado e no âmbito de suas atribuições gerais, examinar dados e informações atinentes à investigação. Essa análise resulta na elaboração de documentos internos, como informações de polícia judiciária'.",
-    "referencia": "Cap. 5, Seção 5.16, p. 93"
-  },
-  {
-    "id": 341,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre as atribuições dos diversos cargos da Polícia Federal em uma hipotética investigação de tráfico internacional de drogas, considere:\nI. Ao Delegado de Polícia Federal compete instaurar o inquérito, representar por medidas cautelares como interceptação telefônica e prisão preventiva, coordenar eventual ação controlada e supervisionar diligências.\nII. Ao Escrivão de Polícia Federal cabe lavrar autos de prisão em flagrante, termos de apreensão, controlar prazos legais, organizar os autos e zelar pela regularidade formal do inquérito.\nIII. Ao Papiloscopista Policial Federal compete exclusivamente a realização de exames toxicológicos definitivos na substância apreendida e a perícia em aparelhos celulares.\nIV. Ao Agente de Polícia Federal compete a coleta de informações de inteligência, realização de vigilâncias e acompanhamentos, cumprimento de mandados judiciais e análise preliminar de dados telemáticos e financeiros.\nV. Ao Perito Criminal Federal cabe a coleta e o confronto de impressões digitais em embalagens da droga, bem como a identificação civil e criminal dos envolvidos.\nÉ correto o que se afirma em:",
-    "alternativas": {
-      "A": "I, II e IV, apenas.",
-      "B": "I, III e V, apenas.",
-      "C": "II, III e IV, apenas.",
-      "D": "I, II, IV e V, apenas."
-    },
-    "resposta_correta": "A",
-    "justificativa": "I, II e IV correspondem fielmente ao texto. III está errado: o exame toxicológico definitivo e a perícia em celulares competem ao Perito Criminal Federal, e não ao Papiloscopista. V está errado: a coleta e confronto de impressões digitais e a identificação civil e criminal competem ao Papiloscopista, não ao Perito.",
-    "referencia": "Cap. 5, Seção 5.17, p. 94-95"
   },
   {
     "id": 342,
@@ -3182,22 +2894,6 @@
     "resposta_correta": "C",
     "justificativa": "O texto afirma: 'sua atuação no inquérito policial dá-se primordialmente por meio do controle externo da atividade policial, exercido na condição de fiscal da lei (custos legis). Não lhe cabe dirigir a investigação conduzida pela autoridade policial... As diligências sugeridas pelo Ministério Público possuem, em regra, caráter opinativo durante o curso da investigação. Nos termos do art. 16 do CPP, a requisição de diligências complementares ocorre após o relatório final'.",
     "referencia": "Cap. 5, Seção 5.18, p. 97"
-  },
-  {
-    "id": 344,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Ao concluir um inquérito policial complexo sobre crimes contra o sistema financeiro nacional, o Delegado de Polícia Federal Ricardo elabora relatório final no qual se limita a enumerar cronologicamente as diligências realizadas, sem qualquer análise crítica do conjunto informativo produzido. Sobre o relatório final do inquérito policial e essa conduta, é correto afirmar que:",
-    "alternativas": {
-      "A": "A conduta de Ricardo é adequada, pois o art. 10, § 1º, do CPP determina apenas a descrição das diligências realizadas, sendo vedado ao Delegado emitir juízo de valor no relatório.",
-      "B": "O encerramento do inquérito policial pressupõe necessariamente a colheita exitosa de elementos suficientes de autoria e materialidade, não podendo o Delegado concluir o inquérito sem confirmação da hipótese inicial.",
-      "C": "O relatório final é peça meramente formal, dispensando-se análise dos fatos, uma vez que tal análise compete exclusivamente ao Ministério Público.",
-      "D": "O relatório final deve consistir em verdadeira análise técnico-jurídica da investigação, contemplando o fato investigado, a adequação típica, antijuridicidade, culpabilidade, punibilidade, diligências realizadas, materialidade, autoria, reflexos patrimoniais e conclusões, sendo expressamente vedada pelo art. 85 da IN nº 255/2023 a elaboração de relatório meramente remissivo."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto afirma: 'Nos termos do art. 85 da IN nº 255/2023-DG/PF, o relatório final deve consistir em verdadeira análise técnico-jurídica da investigação' contemplando os elementos listados, e 'A norma expressamente veda a elaboração de relatório meramente remissivo, que se limite a enumerar atos praticados, sem análise crítica do conjunto informativo produzido'.",
-    "referencia": "Cap. 5, Seção 5.19, p. 98-99"
   },
   {
     "id": 345,
@@ -28258,23 +27954,6 @@
     "resposta_correta": "D",
     "justificativa": "O Caderno aponta Hans Gross como o Pai da Ciência da Investigação Criminal e descreve o confisco alargado (art. 91-A do CP) como instrumento apto a alcançar o patrimônio incongruente com a renda lícita — ambas as proposições de D estão corretas. A acerta a segunda parte (confisco alargado), mas erra a primeira: o Pai da Ciência da Investigação Criminal é Hans Gross, não Vidocq (a quem o Caderno atribui a direção da Sûreté, com agentes infiltrados e informantes). B troca os papéis históricos: foi Vidocq, e não Hans Gross, quem dirigiu a Sûreté e introduziu agentes infiltrados — embora a descrição do ciclo RECUPERA (identificar, apreender, administrar, alienar e destinar) esteja correta, a primeira parte inviabiliza a alternativa. C atribui a Fouché o método abdutivo de inferência, que o Caderno credita a Charles Sanders Peirce — Fouché estruturou a Gendarmerie, catalogação de criminosos e vigilância; ainda que a parte sobre a IN nº 255/2023 esteja correta, a atribuição histórica está errada.",
     "referencia": "Cap. 4, Seção 4.4.1 — A Recuperação de ativos como objetivo da investigação policial",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1882,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 5 - Inquérito Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Inquérito da Polícia Federal já em andamento sobre desvio de verbas revela, no curso das diligências, indícios de participação de pessoa detentora de foro perante tribunal superior. A autoridade policial precisa definir as providências cabíveis e a repartição de competências entre os atores envolvidos. Considerando a disciplina do foro por prerrogativa de função e o fluxo da CINQ, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "Surgido o envolvimento de pessoa com foro no curso do feito, a autoridade policial deve remeter desde logo a notícia-crime e os documentos diretamente ao tribunal superior, sem representar ao juízo inicialmente competente, pois nesse caso já não há competência prévia a ser declinada.",
-      "B": "A autoridade policial deve paralisar os atos investigativos e representar ao juízo inicialmente competente para que decline a competência, cabendo ao tribunal superior — e não ao delegado — promover o desmembramento entre quem tem e quem não tem foro.",
-      "C": "Cabe à própria autoridade policial promover o desmembramento, prosseguindo na apuração quanto aos investigados sem foro e remetendo à CINQ a parcela relativa ao detentor de prerrogativa, desde que aceito o declínio pelo tribunal superior.",
-      "D": "A delegação de diligências feita pela CINQ às unidades descentralizadas tem caráter definitivo após o aceite do tribunal superior, de modo que, uma vez delegada a investigação, o Diretor do Dicor não pode mais revogá-la durante o curso do feito."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Quando o foro surge no curso de investigação já em andamento (identificação DEPOIS), o procedimento correto é paralisar os atos, representar ao juízo inicialmente competente para que decline a competência ao tribunal superior e, aceito o declínio, encaminhar à CINQ; e o desmembramento entre quem tem e quem não tem foro cabe ao próprio tribunal superior, não ao delegado — exatamente o que afirma B. A descreve a hipótese de identificação ANTES do início da apuração (remessa imediata ao Judiciário/MP), regra que não se aplica quando a investigação já está em andamento, pois aqui existe juízo competente cuja declinação precisa ser provocada. C inverte a competência para o desmembramento: ele é atribuição do tribunal superior, e não da autoridade policial, que não pode cindir a investigação por conta própria. D contraria a natureza precária da delegação: a delegação da CINQ pode ser revogada a qualquer tempo pelo Diretor do Dicor, após consulta à Corregedoria-Geral, não sendo definitiva.",
-    "referencia": "Cap. 5, Seção 5.20.3 — Aprofundamento — Foro por Prerrogativa de Função (Identificação DEPOIS de iniciada a investigação)",
     "nivel": "dificil"
   },
   {
