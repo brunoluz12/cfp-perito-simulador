@@ -3296,54 +3296,6 @@ const questoesDB = [
     "referencia": "Cap. 4, Seção 4.4.1, p. 39-41"
   },
   {
-    "id": 351,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante a fase ostensiva de operação policial, equipe da imprensa solicita acesso integral aos autos do inquérito ainda em curso, alegando interesse público. O delegado, considerando a existência de diligências sigilosas em andamento, nega o acesso amplo, mas garante ao advogado constituído pelo investigado acesso aos elementos já documentados. Sobre as características da investigação policial — em particular, sigilo e transparência — é CORRETO afirmar:",
-    "alternativas": {
-      "A": "A transparência durante toda a apuração é absoluta, devendo todos os atos investigativos, mesmo em curso, ser franqueados à imprensa e à sociedade em geral, sob pena de violação do princípio republicano.",
-      "B": "O sigilo investigativo opõe-se ao Poder Judiciário e ao Ministério Público, que somente podem acessar os autos após a conclusão das diligências e a apresentação do relatório final.",
-      "C": "A sigilosidade dos atos do inquérito é definitiva e oponível inclusive à defesa técnica, mesmo após a documentação formal dos atos investigativos nos autos, em razão da Súmula Vinculante nº 14 do STF.",
-      "D": "Durante a fase de apuração, a investigação deve permanecer sob sigilo para garantir seu desenvolvimento, sendo a transparência temporariamente adiada ou restringida, sem prejuízo do acesso irrestrito do Poder Judiciário e do Ministério Público e do direito de acesso do advogado aos elementos já documentados."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O PDF afirma: 'Durante a fase de apuração, a investigação deve permanecer sob sigilo para garantir seu pleno desenvolvimento (...) Por essa razão, enquanto os trabalhos estão em andamento, a transparência é temporariamente adiada ou restringida, sem prejuízo do acesso irrestrito que deve ser assegurado ao Poder Judiciário e ao Ministério Público.' E que a Súmula Vinculante nº 14 do STF garante ao defensor 'acesso amplo aos elementos de prova que, já documentados em procedimento investigatório'.",
-    "referencia": "Cap. 4, Seção 4.3, p. 35-36"
-  },
-  {
-    "id": 352,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "O delegado de polícia, ao planejar diligência destinada à obtenção de documentos contábeis em poder do investigado, identifica que tais documentos podem ser obtidos voluntariamente, mediante simples requisição direta ao investigado ou à empresa, sem necessidade de ingresso forçado no estabelecimento. Apesar disso, opta diretamente pela representação por busca e apreensão domiciliar, sem cogitar a medida menos invasiva. Tal conduta afronta diretamente:",
-    "alternativas": {
-      "A": "O princípio da unidade, que impõe que cada diligência seja analisada isoladamente em sua eficácia probatória.",
-      "B": "Os princípios da proporcionalidade e da necessidade, pois deve ser escolhido o meio menos invasivo entre os disponíveis e eficazes para atingir o resultado almejado, atuando como filtro de contenção do poder estatal.",
-      "C": "O princípio da economicidade, exclusivamente, que veda o emprego de medidas caras quando outras de menor custo financeiro estiverem disponíveis.",
-      "D": "O princípio da exclusividade, segundo o qual a investigação somente pode ser realizada por órgãos públicos."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O PDF dispõe expressamente: 'se a obtenção de determinado elemento probatório puder ocorrer por meio de requisição de documentos ou de oitiva voluntária, não se justifica, de imediato, a adoção de medida mais invasiva, como busca domiciliar.' E afirma que a necessidade 'impõe a escolha do meio menos invasivo dentre aqueles disponíveis e eficazes para atingir o resultado almejado'.",
-    "referencia": "Cap. 4, Seção 4.2.7, p. 33-34"
-  },
-  {
-    "id": 353,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante a apuração de crime patrimonial, o delegado conduz a investigação colhendo elementos que indiquem a autoria e a materialidade, mas também aqueles que possam favorecer o investigado, como álibis e excludentes de ilicitude. Posteriormente, é questionado por interlocutor externo por 'não confirmar a tese acusatória' e 'agir como defensor do suspeito'. Sobre a conduta do delegado, à luz do princípio da impessoalidade (ou isenção institucional), é correto afirmar:",
-    "alternativas": {
-      "A": "A conduta do delegado é equivocada, pois a investigação policial deve necessariamente confirmar a tese acusatória, sob pena de comprometer a opinio delicti do Ministério Público.",
-      "B": "A conduta é parcialmente correta, mas, em caso de dúvida razoável, o delegado deve dar prevalência aos elementos acusatórios, dada a natureza repressiva da polícia judiciária.",
-      "C": "A conduta do delegado é correta, pois a autoridade policial não atua como órgão de acusação nem como órgão de defesa; sua função é esclarecer os fatos, investigando tanto circunstâncias que possam indicar autoria e materialidade quanto aquelas que eventualmente favoreçam o investigado.",
-      "D": "A vinculação a teses pré-concebidas é admitida pela impessoalidade, desde que apoiada em indícios mínimos colhidos no início da apuração."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O PDF afirma: 'A autoridade policial não atua como órgão de acusação nem como órgão de defesa; sua função é esclarecer os fatos, colhendo elementos informativos de maneira equilibrada e técnica. Isso significa investigar tanto as circunstâncias que possam indicar autoria e materialidade quanto aquelas que eventualmente favoreçam o investigado.' Ainda: 'A vinculação da investigação a teses pré-concebidas (...) compromete sua legitimidade'.",
-    "referencia": "Cap. 4, Seção 4.2.8, p. 34"
-  },
-  {
     "id": 354,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 4 - Investigação Policial",
@@ -3360,86 +3312,6 @@ const questoesDB = [
     "referencia": "Cap. 4, Seção 4.6, p. 45-47"
   },
   {
-    "id": 355,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em ambiente acadêmico, debate-se a natureza institucional da investigação policial no Brasil. Um dos participantes sustenta que a apuração de infrações penais pode ser realizada de modo concorrente por entidades privadas de segurança contratadas pela vítima, desde que se observem os direitos fundamentais. Outro participante refuta, lembrando ser a investigação policial função típica do Estado. Considerando o princípio da exclusividade, é correto afirmar que:",
-    "alternativas": {
-      "A": "A exclusividade é princípio meramente programático, sendo lícita a investigação por entidades privadas desde que respeitados os direitos fundamentais dos investigados.",
-      "B": "A exclusividade da investigação é prerrogativa absoluta da Polícia Federal, sendo vedado às Polícias Civis estaduais realizar qualquer atividade investigativa.",
-      "C": "A investigação policial constitui função típica do Estado, exercida com exclusividade pelos órgãos de polícia judiciária — Polícia Federal e Polícias Civis —, não podendo ser delegada a instituições sem atribuição legal nem transferida a entidades privadas.",
-      "D": "A investigação policial pode ser delegada a entidades privadas que atuem em parceria com órgãos públicos, mediante contrato administrativo, com fundamento no princípio da eficiência."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O PDF dispõe: 'A investigação policial constitui função típica do Estado e é exercida, com exclusividade, pelos órgãos de polícia judiciária — Polícia Federal e Polícias Civis (...) Essa competência não pode ser delegada a instituições que não detenham atribuição legal para a atividade investigativa, tampouco transferida a entidades privadas.'",
-    "referencia": "Cap. 4, Seção 4.2.5, p. 33"
-  },
-  {
-    "id": 356,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Equipe da Polícia Federal investiga inicialmente um furto simples, mas, no curso das diligências, obtém indícios de receptação organizada envolvendo cadeia criminosa interestadual. Em razão disso, redireciona as diligências, redefine alvos e incorpora novas técnicas investigativas. Tal postura, sob o aspecto das características da investigação policial, evidencia diretamente o atributo da:",
-    "alternativas": {
-      "A": "Separação de funções, pois cada ator do sistema de justiça criminal exerce papel específico, e a polícia, ao perceber a evolução do crime, transfere a apuração ao Ministério Público.",
-      "B": "Sigilo no desenvolvimento, pois somente sob sigilo é possível reorientar diligências sem alertar suspeitos.",
-      "C": "Transparência nos resultados, pois a evolução das hipóteses investigativas deve ser tornada pública sempre que houver redirecionamento da apuração.",
-      "D": "Adaptabilidade, principal característica da investigação policial, na medida em que o procedimento investigativo é dinâmico e sensível às variações do caso concreto, reorganizando-se conforme evoluem as circunstâncias fáticas."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O PDF afirma: 'A adaptabilidade destaca-se como a principal característica da investigação policial, na medida em que o procedimento investigativo é dinâmico e sensível às variações do caso concreto (...) Na prática, por exemplo, um investigador pode iniciar apurando um furto simples, mas, no decorrer da apuração, descobrir indícios de receptação e, então, redirecionar os esforços para identificar a cadeia criminosa.'",
-    "referencia": "Cap. 4, Seção 4.3, p. 35"
-  },
-  {
-    "id": 357,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o Trinômio da Investigação Policial (qualidade da prova, responsabilidade e autonomia) previsto no Manual de Planejamento Operacional, julgue os itens:\n\nI. A qualidade da prova exige produção por meios lícitos, com consistência técnica e rigorosa observância da cadeia de custódia, assegurando plena admissibilidade em juízo.\nII. A autonomia da polícia judiciária é ilimitada, porquanto consubstancia independência técnico-operacional protegida de qualquer ingerência, normativa, operacional ou moral.\nIII. A responsabilidade representa o dever de agir com zelo, proporcionalidade e respeito aos direitos fundamentais, configurando contrapeso natural da autonomia.\nIV. Os limites normativos abrangem cláusulas constitucionais de reserva de jurisdição (como inviolabilidade do domicílio e sigilo bancário), restrições legais e diretrizes infralegais como protocolos operacionais.\n\nEstão corretos os itens:",
-    "alternativas": {
-      "A": "I, II e III, apenas.",
-      "B": "II, III e IV, apenas.",
-      "C": "I, III e IV, apenas.",
-      "D": "I, II e IV, apenas."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O PDF afirma que a autonomia 'encontra limites normativos, operacionais e morais, que são intrínsecos à legitimidade da investigação. Não existe atividade ilimitada em um Estado Democrático de Direito', tornando o item II incorreto. Os demais itens estão expressamente respaldados no texto: qualidade da prova com cadeia de custódia, responsabilidade como contrapeso da autonomia, e limites normativos abrangendo reserva de jurisdição, leis e protocolos infralegais.",
-    "referencia": "Cap. 4, Seção 4.5, p. 42-43"
-  },
-  {
-    "id": 358,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em palestra sobre a evolução da investigação criminal, expositor afirma que diversos personagens e instituições foram fundamentais para sua consolidação histórica. À luz do conteúdo apresentado no Capítulo 4 do Caderno Didático, assinale a alternativa CORRETA:",
-    "alternativas": {
-      "A": "Joseph Fouché, ministro da polícia no período napoleônico, é amplamente reconhecido como fundador do primeiro órgão de polícia investigativa moderna, tendo introduzido a infiltração de agentes e o uso sistemático de informantes.",
-      "B": "Hans Gross é considerado o pai da Ciência da Investigação Criminal e sistematizou conhecimentos técnicos e metodológicos aplicáveis à investigação criminal, conferindo-lhe caráter científico e estruturado.",
-      "C": "Charles Sanders Peirce desenvolveu o sistema antropométrico de identificação de criminosos, base lógica do raciocínio policial até os dias atuais.",
-      "D": "A Polícia Metropolitana de Londres, criada em 1812, dirigida por Eugène-François Vidocq, foi marco da institucionalização da polícia investigativa moderna na Inglaterra."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O PDF afirma: 'A consolidação desses saberes encontrou síntese na obra de Hans Gross (1847-1915), considerado o pai da Ciência da Investigação Criminal, que sistematizou conhecimentos técnicos e metodológicos aplicáveis à investigação criminal, contribuindo para conferir-lhe caráter científico e estruturado.' Vidocq dirigiu a Sûreté francesa (1812), Peirce desenvolveu o método abdutivo (não o antropométrico, atribuído a Bertillon), e a Polícia Metropolitana de Londres foi criada em 1829.",
-    "referencia": "Cap. 4, Seção 4.1, p. 25-26"
-  },
-  {
-    "id": 359,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Determinado promotor de justiça sustenta que os termos 'investigação criminal' e 'investigação policial' são plenamente sinônimos, podendo ser utilizados indistintamente. Considerando o entendimento adotado pela doutrina contemporânea da Polícia Federal, conforme exposto no Caderno Didático, é correto afirmar:",
-    "alternativas": {
-      "A": "Os termos são sinônimos, pois ambos designam exclusivamente a atividade da polícia judiciária na apuração de infrações penais.",
-      "B": "A expressão 'investigação criminal' designa a atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos, como o Ministério Público; já 'investigação policial' é mais restrita e técnica, referindo-se especificamente à atuação da polícia judiciária.",
-      "C": "Investigação policial é o termo mais amplo, abrangendo qualquer atividade de apuração realizada por qualquer órgão estatal, inclusive o Ministério Público.",
-      "D": "Investigação policial e investigação criminal diferenciam-se pelo objeto: a primeira apura crimes comuns e a segunda apura apenas crimes contra a Administração Pública."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O PDF afirma: 'embora muitos autores utilizem os termos investigação criminal e investigação policial como sinônimos, a doutrina contemporânea da Polícia Federal optou por diferenciá-los. A expressão investigação criminal designa a atividade ampla de apuração de infrações penais, que pode ser realizada por outros órgãos, como o Ministério Público. Já o termo investigação policial é mais restrito e técnico, referindo-se especificamente à atuação da polícia judiciária.'",
-    "referencia": "Cap. 4, Seção 4.1, p. 29"
-  },
-  {
     "id": 360,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 4 - Investigação Policial",
@@ -3454,70 +3326,6 @@ const questoesDB = [
     "resposta_correta": "A",
     "justificativa": "O PDF afirma: 'O princípio da objetividade orienta a investigação policial a manter-se fiel ao escopo definido, evitando dispersões (...) Ser objetivo significa concentrar esforços naquilo que efetivamente guarda pertinência com os fatos apurados (...) A objetividade cumpre, assim, dupla função: de um lado, assegura a racionalização dos recursos públicos, evitando diligências desnecessárias ou de baixo valor probatório; de outro, preserva a qualidade do material produzido, evitando a coleta de informações irrelevantes'.",
     "referencia": "Cap. 4, Seção 4.2.3, p. 32"
-  },
-  {
-    "id": 361,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre o objetivo da investigação policial, à luz do art. 2º, §1º, da Lei nº 12.830/2013 e da doutrina exposta no Capítulo 4, assinale a alternativa CORRETA:",
-    "alternativas": {
-      "A": "A investigação policial tem como objetivo primário viabilizar o oferecimento de denúncia pelo Ministério Público, vinculando-se à formação da opinio delicti.",
-      "B": "A investigação policial visa exclusivamente à obtenção de decreto condenatório, devendo o delegado conduzi-la sob viés de confirmação da tese acusatória.",
-      "C": "O objetivo central da investigação policial é apurar, de forma lícita, técnica e imparcial, a verdade possível acerca da autoria, da materialidade e das circunstâncias do delito, assegurando a integridade e a preservação da cadeia de custódia das provas, buscando uma verdade judicializável.",
-      "D": "A investigação policial tem como única finalidade subsidiar a propositura da ação penal, não produzindo qualquer efeito extrapenal de natureza civil ou administrativa."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O PDF afirma: 'seu objetivo central é apurar, de forma lícita, técnica e imparcial, a verdade possível acerca da autoria, da materialidade e das circunstâncias do delito, assegurando a integridade e a preservação da cadeia de custódia das provas.' E: 'Busca-se, com a investigação policial, a construção de uma verdade apta a ser submetida ao crivo judicial, isto é, uma verdade judicializável.' Esclarece ainda que 'viabilizar o oferecimento de denúncia pelo Ministério Público não é finalidade primária da investigação policial'.",
-    "referencia": "Cap. 4, Seção 4.4, p. 37-38"
-  },
-  {
-    "id": 362,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca das diferenças entre inteligência policial e investigação policial conforme o quadro comparativo exposto no Capítulo 4, julgue os itens:\n\nI. O pressuposto da inteligência policial é a demanda informacional, enquanto o da polícia judiciária é a infração penal.\nII. O controle externo da atividade de inteligência é exercido pelo Poder Legislativo, por meio da Comissão Mista de Controle da Atividade de Inteligência (CCAI); já o controle externo da polícia judiciária é exercido pelo Ministério Público.\nIII. Quanto à cadeia de custódia da informação, a inteligência policial está plenamente comprometida com a origem da informação, enquanto a investigação policial não exige esse compromisso.\nIV. A finalidade da inteligência é obter e produzir informações para auxiliar o gestor na tomada de decisões, ao passo que a finalidade da investigação policial é a produção de prova (materialidade, autoria e circunstâncias de infração penal).\n\nEstão corretos os itens:",
-    "alternativas": {
-      "A": "I, II e IV, apenas.",
-      "B": "I, III e IV, apenas.",
-      "C": "II, III e IV, apenas.",
-      "D": "I, II, III e IV."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O PDF afirma, no quadro comparativo: a inteligência policial 'Não há compromisso com a origem' da informação, enquanto a polícia judiciária tem o valor probatório dependente 'da legitimidade e licitude da informação desde sua origem' — o item III inverte essa relação. Os demais itens correspondem ao quadro: pressuposto (demanda informacional x infração penal), controle externo (CCAI x MP) e finalidades.",
-    "referencia": "Cap. 4, Seção 4.6, Tabela 1, p. 46"
-  },
-  {
-    "id": 363,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Equipe policial conduz, simultaneamente, várias diligências em uma investigação complexa: oitivas, perícias, quebras de sigilo e cumprimento de mandados. Um servidor recém-empossado argumenta que cada diligência deve ser avaliada de forma isolada, conforme sua eficácia individual, e descartada quando não produzir, por si só, prova robusta. Tal entendimento é INCORRETO porque contraria diretamente o princípio:",
-    "alternativas": {
-      "A": "Da unidade, segundo o qual a investigação policial deve ser compreendida como processo único e integrado, em que todas as diligências, ainda que fragmentadas ou executadas em momentos distintos, convergem para um mesmo objetivo, sendo nenhuma medida investigativa analisada isoladamente.",
-      "B": "Da economicidade, segundo o qual cada diligência deve produzir resultado financeiro positivo, sob pena de ser descartada.",
-      "C": "Da legalidade, pois somente diligências previstas em lei podem ser realizadas, e qualquer uma considerada ineficaz é automaticamente ilegal.",
-      "D": "Da impessoalidade, segundo o qual a análise individualizada de cada diligência caracterizaria favorecimento ou perseguição."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O PDF afirma: 'O princípio da unidade estabelece que a investigação policial deve ser compreendida como um processo único e integrado, em que todas as diligências, ainda que fragmentadas ou executadas em momentos distintos, convergem para um mesmo objetivo (...) Assim, nenhuma medida investigativa deve ser analisada isoladamente, mas como parte de um conjunto articulado que só se completa ao final do procedimento.'",
-    "referencia": "Cap. 4, Seção 4.2.4, p. 32-33"
-  },
-  {
-    "id": 364,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 4 - Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Caderno Didático destaca que, ao retirar o lucro do crime, a recuperação de ativos exerce papel estratégico na repressão e prevenção da criminalidade organizada. Considere as seguintes assertivas sobre os efeitos preventivos da recuperação de ativos e o instituto do confisco alargado (art. 91-A do Código Penal):",
-    "alternativas": {
-      "A": "O confisco alargado permite alcançar patrimônio incongruente com a renda lícita do condenado, ainda que não demonstrada sua vinculação direta com um fato criminoso específico, exigindo investigação patrimonial qualificada, estruturada e paralela à apuração dos fatos típicos.",
-      "B": "O confisco alargado exige, em todos os casos, demonstração da vinculação direta de cada bem com fato criminoso específico, sendo vedada a constrição de patrimônio cuja origem não é comprovada.",
-      "C": "A recuperação de ativos não produz efeitos preventivos, configurando medida exclusivamente repressiva e voltada à indenização das vítimas.",
-      "D": "O fundamento da recuperação de ativos reside apenas na obrigação de indenizar o dano causado, não havendo previsão legal de perda do produto ou proveito do crime no ordenamento jurídico brasileiro."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O PDF afirma: 'o ordenamento jurídico brasileiro incorporou instrumentos de descapitalização mais sofisticados, como o confisco alargado (art. 91-A do Código Penal) (...) Esse modelo permite alcançar patrimônio incongruente com a renda lícita do condenado, ainda que não demonstrada sua vinculação direta com um fato criminoso específico. (...) Para que tal mecanismo produza efeitos concretos, impõe-se a realização de investigação patrimonial qualificada, estruturada e paralela à apuração dos fatos típicos, voltada especificamente à recuperação de ativos.'",
-    "referencia": "Cap. 4, Seção 4.4.1, p. 42"
   },
   {
     "id": 365,
@@ -29998,5 +29806,73 @@ const questoesDB = [
     "justificativa": "Conforme o Caderno (Introdução): a investigação policial, apesar de objeto próprio e regime jurídico específico, não opera em vazio metodológico, inspirando-se nos padrões racionais de produção de conhecimento da ciência, sobretudo em Karl Popper e John Dewey (B). A erra porque a doutrina buscou sólida fundamentação na filosofia da ciência. C erra porque há diálogo com a teoria da investigação científica. D erra porque os referenciais orientam a própria investigação policial.",
     "referencia": "Cap. 3, Introdução — Teoria da Investigação",
     "nivel": "dificil"
+  },
+  {
+    "id": 1984,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as figuras históricas da investigação criminal, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "Eugène-François Vidocq é apontado pelo Caderno como o Pai da Ciência da Investigação Criminal, por ter sistematizado os conhecimentos técnicos e metodológicos da área.",
+      "B": "Charles Sanders Peirce desenvolveu o método abdutivo (base do raciocínio policial), e Joseph Fouché, ministro de Napoleão, foi pioneiro na estruturação da Gendarmerie francesa.",
+      "C": "Joseph Fouché dirigiu a Sûreté, em 1812, e introduziu o uso de agentes infiltrados e de informantes na atividade investigativa.",
+      "D": "Hans Gross desenvolveu o método abdutivo de inferência criminal, que foi posteriormente aplicado por Charles Sanders Peirce na criação da Polícia Metropolitana de Londres, no ano de 1829."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Caderno (Seção 4.1): Charles Sanders Peirce desenvolveu o método abdutivo de inferência (base do raciocínio policial), e Joseph Fouché, ministro de Napoleão, foi pioneiro na estruturação da Gendarmerie e na catalogação de criminosos (B). A erra porque o Pai da Ciência da Investigação Criminal é Hans Gross. C erra porque foi Vidocq quem dirigiu a Sûreté (1812). D erra porque o método abdutivo é de Peirce, e a Polícia Metropolitana de Londres (1829) não decorre dele.",
+    "referencia": "Cap. 4, Seção 4.1 — Evolução histórica",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1985,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as características estruturantes da investigação policial, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "O controle da atividade investigativa é interno, exercido pela Corregedoria, inexistindo fiscalização externa sobre a polícia judiciária.",
+      "B": "Pela separação de funções, cabe à própria polícia judiciária investigar e também acusar, reservando-se ao Ministério Público o controle externo da atividade.",
+      "C": "A investigação sujeita-se a controles internos (Corregedoria) e externos (MP, TCU, CGU, sociedade), e a separação de funções reserva à polícia investigar, ao MP acusar e ao juiz julgar.",
+      "D": "A separação de funções concentra na autoridade policial as atribuições de investigar, de acusar e de decidir sobre a prisão do investigado, com o objetivo de conferir maior celeridade ao feito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Caderno (Seção 4.3): a investigação sujeita-se a controles internos (Corregedoria) e externos (MP, TCU, CGU e sociedade), e a separação de funções reserva à polícia investigar, ao MP acusar, à defesa proteger e ao juiz julgar (C). A erra porque há fiscalização externa. B e D erram porque a polícia não acusa nem decide sobre a prisão — a separação de funções evita justamente a concentração de poder.",
+    "referencia": "Cap. 4, Seção 4.3 — Características",
+    "nivel": "medio"
+  },
+  {
+    "id": 1986,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a evolução da investigação policial no Brasil, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "O CPP de 1941 consolidou o inquérito policial (cujo primeiro surgimento data de 1871) sob a responsabilidade da polícia judiciária, em modelo que se aproxima do common law inglês.",
+      "B": "O inquérito policial surgiu com a Constituição de 1988, que atribuiu a sua presidência ao Ministério Público brasileiro.",
+      "C": "O modelo brasileiro de investigação filia-se ao sistema da civil law francês, no qual a apuração das infrações penais é conduzida por um juiz de instrução.",
+      "D": "Em seus primórdios, o Brasil já distinguia nitidamente as funções do juiz e as da polícia judiciária, separação que teria sido posteriormente extinta pelo Código de Processo Penal de 1941."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Caderno (Seção 4.1): o CPP de 1941 consolidou o inquérito policial (primeiro surgimento em 1871) sob a responsabilidade da polícia judiciária, em modelo que se aproxima do common law inglês quanto à apuração das infrações (A). B erra porque o inquérito é anterior a 1988 e não é presidido pelo MP. C erra porque o modelo aproxima-se do common law, não do juiz de instrução. D erra porque, nos primórdios, não havia distinção nítida entre juiz e polícia judiciária.",
+    "referencia": "Cap. 4, Seção 4.1 — Investigação policial no Brasil",
+    "nivel": "medio"
+  },
+  {
+    "id": 1987,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 4 - Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a natureza da verdade buscada e o papel da investigação policial, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "A investigação policial busca alcançar a verdade real e absoluta dos fatos apurados, tornando-se ela definitiva e insuscetível de revisão posterior pelas instâncias judiciais.",
+      "B": "A investigação policial constitui um fim em si mesma, esgotando-se com a mera colheita de elementos informativos pela autoridade de polícia judiciária.",
+      "C": "A verdade buscada é meramente formal e desvinculada dos fatos, bastando a observância do procedimento previsto em lei.",
+      "D": "A investigação busca uma verdade de natureza formal, aproximada e passível de revisão, atuando como filtro processual para evitar acusações infundadas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Caderno (Seções 4.1 e 4.4): a investigação policial busca uma verdade de natureza formal, aproximada e passível de revisão, e atua como 'filtro processual' para evitar acusações infundadas (D). A erra porque a verdade não é absoluta/definitiva, mas aproximada e revisável. B erra porque a investigação é instrumental, não um fim em si. C erra porque a verdade formal não é desvinculada dos fatos, devendo apurá-los de forma lícita.",
+    "referencia": "Cap. 4, Seção 4.4 — Objetivos",
+    "nivel": "medio"
   }
 ];
