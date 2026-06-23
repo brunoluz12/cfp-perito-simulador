@@ -26682,40 +26682,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 1751,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
-    "tipo": "multipla_escolha",
-    "enunciado": "No 2º cenário de apreensão de aparelho celular (aparelho LIGADO e investigado NÃO fornece a senha), a equipe pode se valer da técnica de extração AFU (After First Unlock). Qual é o fundamento dessa técnica e o cuidado recomendado?",
-    "alternativas": {
-      "A": "A AFU baseia-se no fato de que o desligamento imediato do aparelho preserva indefinidamente na memória as chaves de criptografia, razão pela qual se recomenda desligá-lo assim que apreendido e mantê-lo desligado até a chegada à unidade de apoio de extração de dados.",
-      "B": "A AFU exige, como passo prévio indispensável, a remoção da senha de bloqueio no próprio local da busca, procedimento tido como inteiramente seguro e isento de qualquer risco de perda de dados ou de alteração de artefatos relevantes do aparelho.",
-      "C": "A AFU depende de o aparelho ser submetido à ferramenta de extração somente após o completo esgotamento da bateria, momento em que as chaves de criptografia se estabilizam de forma permanente na memória interna do dispositivo móvel.",
-      "D": "A AFU baseia-se no fato de as chaves de criptografia poderem ser encontradas na memória após o primeiro desbloqueio; por isso, recomenda-se manter o aparelho ligado, em faraday bag, e entregá-lo à unidade de extração o quanto antes."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme as pp. 109-110, a extração AFU (After First Unlock) baseia-se no fato de as chaves de criptografia poderem ser encontradas na memória após o primeiro desbloqueio, permitindo o acesso aos arquivos; por isso, recomenda-se avaliar manter o aparelho ligado, acondicionado em faraday bag, e entregá-lo à unidade de apoio de extração com a maior brevidade possível, antes que a bateria se esgote ou ocorra bloqueio automático (D correta). A está errada porque desligar o aparelho não preserva o estado AFU; ao contrário, no 2º cenário recomenda-se não desligá-lo (pp. 109-110). B está errada porque não é recomendável remover a senha de bloqueio no local, por haver potencial de perda de dados e alteração de artefatos (p. 109). C está errada porque o esgotamento da bateria ou a perda de sinal pode levar ao bloqueio e à perda do estado AFU, devendo a extração ser o mais breve possível (p. 110).",
-    "referencia": "PDF IPO III, p. 109",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1752,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre os métodos de exploração de mídias computacionais e os cuidados na cópia de dados, embalagem e identificação do material, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "Há basicamente quatro métodos de exploração de dados, sendo o envio para a Perícia o método mais demorado, porém o que apresenta os resultados mais profundos.",
-      "B": "A exploração e a obtenção de dados realizadas no próprio local de busca constituem o método mais demorado de todos, porém o mais profundo, superando inclusive em profundidade de resultados o envio dos materiais apreendidos para exames periciais.",
-      "C": "A mídia que irá receber os dados copiados no local pode conter resquícios de dados anteriores de outras operações, sendo de todo dispensável que esteja previamente limpa, formatada ou que seja original de fábrica (a chamada mídia virgem).",
-      "D": "Documentos em papel encontrados em móveis, caixas, pastas ou cômodos distintos devem ser reunidos e misturados em uma única embalagem comum, a fim de facilitar e agilizar o transporte de todo o material arrecadado até a base policial."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme as pp. 114-115, há basicamente quatro métodos de exploração de dados (exploração no próprio local; arrecadação para triagem na base; disponibilização em SARD; e envio para exames periciais), sendo o envio para a Perícia o método mais demorado, dada a centralização das demandas, porém o que apresenta os resultados mais profundos (A correta). B está errada porque a exploração no local está entre os métodos mais rápidos, porém menos profundos, não o mais demorado nem o mais profundo (p. 114). C está errada porque a mídia que receberá os dados deve estar limpa, sem resquícios de dados anteriores, de preferência original de fábrica ('virgem') (p. 112). D está errada porque documentos de móveis, caixas ou cômodos distintos devem permanecer separados em diferentes embalagens, não misturados (p. 112).",
-    "referencia": "PDF IPO III, p. 114",
-    "nivel": "facil"
-  },
-  {
     "id": 1753,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 8 - Tratamento Pós-Ação",
@@ -28022,23 +27988,6 @@ const questoesDB = [
     "resposta_correta": "A",
     "justificativa": "Correta a A: o texto determina que os discos rígidos removidos de um mesmo gabinete sejam embalados e lacrados em um único volume; que cabos de dados, carregadores e acessórios sejam embalados junto do equipamento correspondente; e que mídias removíveis podem ser agrupadas por tipo, desde que não se misturem mídias de ambientes distintos ou de pessoas diferentes (p. 113). A B contraria ao mandar separar os discos de um mesmo gabinete e agrupar pen drives ignorando o cômodo. A C admite volume único para tudo, contrariando a preferência por embalagens diferentes e separação por origem. A D manda embalar cabos/carregadores separados do equipamento e mistura pen drives de cômodos distintos com discos, ambos vedados. (p. 113)",
     "referencia": "PDF IPO III, p. 113",
-    "nivel": "medio"
-  },
-  {
-    "id": 1830,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Definindo a abordagem de exploração de mídias computacionais, a equipe pondera entre disponibilizar os materiais em um Sistema de Análise Remota de Dados (SARD) e enviá-los para exames periciais. Sobre as características desses métodos, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "O SARD é o método mais demorado por centralizar as demandas em poucos especialistas, ao passo que o envio à perícia é o mais rápido, embora menos profundo, por dispensar infraestrutura de TI de grande porte.",
-      "B": "Tanto o SARD quanto o envio à perícia são considerados métodos rápidos e superficiais, ao contrário da exploração no próprio local e da triagem na base policial, que produzem os resultados mais profundos da investigação.",
-      "C": "O envio à perícia e o SARD produzem resultados equivalentes em profundidade, diferindo apenas quanto à localização física do processamento dos artefatos digitais; por isso, ambos dispensam o estabelecimento prévio de palavras-chave a serem buscadas na exploração.",
-      "D": "O envio à perícia é o método mais demorado, porém de resultados mais profundos (acesso a dados criptografados, recuperação de apagados); o SARD combina o contexto dos analistas com a técnica pericial, mas exige infraestrutura de TI adequada."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta a D: o texto afirma que o envio para a Perícia é o método mais demorado (pela centralização em poucos especialistas), porém o que apresenta resultados mais profundos, como acesso a dados criptografados, recuperação de arquivos apagados/corrompidos e identificação de comportamentos; e que o SARD combina o conhecimento dos analistas sobre o contexto com a técnica da Perícia, mas exige infraestrutura de TI adequada (p. 114). A A inverte: quem é demorado e profundo é a perícia, não o SARD. A B classifica SARD e perícia como rápidos/superficiais, quando os métodos rápidos e menos profundos são a exploração no local e a triagem na base. A C iguala os métodos e dispensa palavras-chave, que o texto recomenda estabelecer previamente. (p. 114)",
-    "referencia": "PDF IPO III, p. 114",
     "nivel": "medio"
   },
   {
@@ -29453,23 +29402,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 1914,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Por inviabilidade técnica de arrecadar todo o servidor, a equipe decide copiar no local a caixa postal de e-mails de um usuário específico para uma mídia externa e, ao final, embalar os materiais já arrecadados na residência: dois discos rígidos retirados de um mesmo gabinete e três pen drives provenientes de cômodos distintos. Sobre a cópia de dados, a identificação/registro e a embalagem desse material, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A extração de um conjunto específico de dados preserva o contexto do material de origem; a mídia de destino pode conter dados anteriores desde que identificada; e os dois discos do mesmo gabinete devem ser embalados em volumes separados para individualizá-los.",
-      "B": "A extração de dados implica perda de informações de contexto do material de origem, com possível impacto probatório; a mídia de destino deve estar limpa, preferencialmente virgem; e os dois discos do mesmo gabinete devem ser embalados e lacrados em um único volume.",
-      "C": "A cópia da caixa postal preserva o valor probatório do material tal como na apreensão integral do suporte; os dados devem ser submetidos a função de hash para verificação futura; e os três pen drives, por serem do mesmo tipo, devem ser agrupados em um único volume, ainda que de cômodos distintos.",
-      "D": "A extração no local dispensa cuidados com o contexto, pois este é recuperável na perícia; a etiqueta identificadora deve ser afixada preferencialmente sobre a embalagem, e não sobre o equipamento; e os pen drives de cômodos distintos podem ser misturados desde que do mesmo tipo."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto é expresso: a extração de um conjunto específico de dados de uma mídia implica perda de informações sobre o seu contexto (registros do sistema que indicam como o arquivo foi criado, por quem, de onde foi recebido), o que pode dificultar esclarecimentos e deve ser ponderado quanto ao impacto na robustez probatória; a mídia que receberá os dados deve estar limpa, sem resquícios de dados anteriores, de preferência original de fábrica ('virgem'); e os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume. B reúne corretamente os três pontos. A erra nos três: afirma que a extração preserva o contexto (o texto diz que o perde), admite mídia de destino com dados anteriores (deve estar limpa/virgem) e manda separar em volumes os discos do mesmo gabinete (devem ir em volume único). C acerta o detalhe do hash (os dados a apreender são submetidos a funções de resumo para verificação de integridade), mas erra ao dizer que a cópia 'preserva integralmente o valor probatório' — há perda de contexto — e ao autorizar agrupar pen drives de cômodos distintos: mídias removíveis só podem ser agrupadas por tipo desde que não se misturem mídias de ambientes distintos ou de pessoas diferentes. D contraria o texto ao dispensar o cuidado com o contexto, ao inverter a regra da etiqueta — que deve ser afixada preferencialmente sobre o próprio equipamento, não sobre a embalagem — e ao permitir misturar mídias de cômodos distintos só pela coincidência de tipo.",
-    "referencia": "PDF IPO III, p. 112",
-    "nivel": "dificil"
-  },
-  {
     "id": 1915,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 8 - Tratamento Pós-Ação",
@@ -29569,6 +29501,125 @@ const questoesDB = [
     "resposta_correta": "D",
     "justificativa": "São duas camadas. Quanto à lancha: a restituição está vedada porque, antes do trânsito em julgado, as coisas apreendidas não podem ser restituídas enquanto interessarem ao processo (art. 118 do CPP); contudo, isso não impede a alienação ANTECIPADA do art. 144-A do CPP, justamente cabível para bens sujeitos a deterioração/depreciação ou de difícil/onerosa manutenção, transformando o ativo em recurso depositado em conta judicial. Quanto ao patrimônio: o texto afirma que, identificado patrimônio incompatível com a renda lícita declarada e tendo o crime pena máxima superior a 6 anos, a análise subsidiará FUTURO pedido de confisco alargado, nos termos do art. 91-A do CP. Logo D está correta. A erra ao afirmar que nenhuma venda é possível antes da sentença (ignora a alienação antecipada) e ao tratar o patrimônio incompatível como fundamento de restituição de bens ao investigado, quando ele subsidia o confisco alargado. B contém erro frontal: bem que ainda interessa à prova NÃO pode ser restituído (art. 118), de modo que a 'restituição imediata' é incabível, embora acerte o confisco alargado. C erra ao afirmar que a restituição prevalece e ocorre independentemente do interesse probatório (contraria o art. 118) e ao dispensar a demonstração de referibilidade/nexo, requisito expressamente exigido para as medidas patrimoniais.",
     "referencia": "PDF IPO III, p. 134",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1921,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No planejamento do Domex, a área técnico-científica (Utecs, Setecs e Ditec) participa de várias frentes. Assinale a atribuição que NÃO corresponde a essa participação no planejamento, segundo o material:",
+    "alternativas": {
+      "A": "Escolher o método e as ferramentas de hardware e software adequadas ao enfoque a ser dado à ação no local de interesse.",
+      "B": "Identificar riscos e reduzir a chance de imprevistos técnicos, além de orientar sobre as técnicas, táticas e procedimentos empregados em cada tipo de local.",
+      "C": "Decidir o valor probatório de cada elemento e definir, no planejamento, quais provas embasarão a denúncia a ser oferecida pelo Ministério Público.",
+      "D": "Atuar com a equipe de investigação para definir perfis de processamento adequados à triagem e, excepcionalmente, termos de pesquisa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 102), a participação da área técnico-científica no planejamento envolve: escolher método e ferramentas (A); orientar sobre técnicas, táticas e procedimentos e identificar riscos/imprevistos (B); e atuar com a equipe para definir perfis de processamento e, excepcionalmente, termos de pesquisa (D). Decidir o valor probatório e o conteúdo da denúncia (C) NÃO é atribuição dessa área no Domex — o oferecimento da denúncia é função do Ministério Público —, por isso C é a que não corresponde.",
+    "referencia": "PDF IPO III, p. 102",
+    "nivel": "medio"
+  },
+  {
+    "id": 1922,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a exploração no local de busca, a equipe encontra materiais aparentemente perigosos ou contaminantes. Conforme o material, a conduta adequada é:",
+    "alternativas": {
+      "A": "Prosseguir normalmente a coleta, acondicionando os materiais perigosos junto aos demais itens, em um único volume lacrado, para preservar a cadeia de custódia do conjunto.",
+      "B": "Comunicar à coordenação da operação, para que procedimentos específicos sejam realizados por equipes capacitadas, inclusive a seleção do material de interesse.",
+      "C": "Descartar de imediato os materiais, por não integrarem o objeto da investigação, registrando o descarte no auto circunstanciado.",
+      "D": "Interromper a diligência e devolver o mandado ao juízo, ante a inviabilidade técnica superveniente da busca."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Segundo o material (p. 104), encontrados materiais perigosos ou contaminantes, deve-se comunicar à coordenação da operação para que equipes capacitadas realizem procedimentos específicos, como a seleção do material de interesse (B). Não se acondicionam junto aos demais itens (A), não se descartam (C) e não há devolução do mandado por isso (D).",
+    "referencia": "PDF IPO III, p. 104",
+    "nivel": "facil"
+  },
+  {
+    "id": 1923,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao apreender um computador que está ligado, preserva-se a memória volátil (RAM) antes de qualquer outra ação, pois ela guarda informações imprescindíveis. Assinale a opção que NÃO corresponde a um tipo de informação tipicamente preservado na memória volátil, segundo o material:",
+    "alternativas": {
+      "A": "O conteúdo integral e permanente dos arquivos gravados no disco rígido (HD) do equipamento.",
+      "B": "Chaves de criptografia e senhas de acesso utilizadas na sessão em andamento.",
+      "C": "Dados de processos e de programas que estão em execução no equipamento.",
+      "D": "Comunicações recentes, como chats e e-mails ainda não salvos, e o histórico de atividades e comandos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 106), a memória volátil (RAM) armazena informações temporárias: dados de processos e programas em execução (C); chaves de criptografia e senhas (B); e comunicações recentes e histórico de atividades/comandos (D). O conteúdo permanente dos arquivos fica no disco rígido — a memória permanente —, e não na RAM; por isso A é o que NÃO corresponde à memória volátil.",
+    "referencia": "PDF IPO III, p. 106",
+    "nivel": "medio"
+  },
+  {
+    "id": 1924,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma busca por crime de abuso sexual infantojuvenil, a equipe precisa inspecionar, no local, grande volume de imagens e vídeos. Considerando as ferramentas de triagem descritas no material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Recomendam-se o IPED em modo CSAM-Triage (processa imagens e vídeos com IA e bases de hash) e o LED, voltado à varredura rápida por termos e hashes conhecidos.",
+      "B": "O IPED Triage padrão é o preferencial nesses casos, pois executa OCR e rotinas de carving para recuperar do disco as imagens e os vídeos que tenham sido apagados pelo investigado.",
+      "C": "O LED destina-se à aquisição da memória volátil do computador e deve ser executado antes da triagem de imagens no local.",
+      "D": "A inspeção de imagens no local cabe ao IPED Triage padrão, reservando-se o CSAM-Triage para recuperar arquivos apagados já na base policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 106-107), para abuso sexual infantojuvenil, em que se inspecionam imagens e vídeos, o IPED Triage comum não é o mais indicado; recomendam-se o IPED CSAM-Triage (processa só imagens/vídeos, com IA e bases de hash conhecidas) e o LED (varredura rápida por termos, artefatos e hashes) — alternativa A. B erra porque o IPED Triage não executa OCR nem carving. C confunde o LED com aquisição de memória volátil. D inverte as funções das ferramentas.",
+    "referencia": "PDF IPO III, p. 107",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1925,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material indica que há, basicamente, quatro métodos de exploração de dados. Sobre eles, é correto afirmar que:",
+    "alternativas": {
+      "A": "O envio para exames periciais é o método mais rápido, porque concentra a demanda em um número menor de policiais especializados na atividade.",
+      "B": "A exploração no próprio local e a triagem/exploração na base policial são os métodos mais rápidos, porém menos profundos.",
+      "C": "A exploração no próprio local oferece os resultados mais profundos, por ocorrer com o equipamento ainda em seu estado original de uso.",
+      "D": "A disponibilização em SARD entrega resultados de profundidade equivalente à perícia, em tempo menor, tornando o envio à perícia dispensável."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 114-115), os quatro métodos são: exploração no próprio local; triagem/exploração na base policial; disponibilização em SARD; e envio à perícia. Os dois primeiros são os mais rápidos, porém menos profundos (B). O envio à perícia é o mais demorado, mas o mais profundo — o que afasta A e C. D erra porque o SARD não substitui a perícia nem entrega a mesma profundidade.",
+    "referencia": "PDF IPO III, p. 114",
+    "nivel": "medio"
+  },
+  {
+    "id": 1926,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Sistema de Análise Remota de Dados (SARD) é um dos métodos de exploração previstos. Conforme o material, qual afirmação o descreve corretamente?",
+    "alternativas": {
+      "A": "Permite a exploração imediata dos dados no próprio local da busca, dispensando infraestrutura de TI dedicada a armazenamento e processamento.",
+      "B": "Realiza a triagem de forma integralmente automática, dispensando o estabelecimento prévio de palavras-chave pela equipe de investigação.",
+      "C": "Combina o conhecimento do analista sobre o contexto com o da Perícia, oferecendo recursos como IA para imagens, transcrição de áudios e verificação em bases de hash (KFF).",
+      "D": "Recupera arquivos apagados ou corrompidos, acessa dados criptografados e identifica conteúdos ocultos por esteganografia, sendo, por isso, apontado no material como o método de maior profundidade dentre os quatro métodos de exploração de dados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 114), o SARD combina o conhecimento do analista sobre o contexto da investigação com o conhecimento técnico da Perícia, com recursos como IA para análise de imagens, transcrição de áudios do WhatsApp e verificação em bases de arquivos conhecidos (KFF) — alternativa C. Exige infraestrutura de TI adequada, o que afasta A. B erra porque se recomenda estabelecer previamente palavras-chave. D descreve o método de envio à perícia (o mais profundo), e não o SARD.",
+    "referencia": "PDF IPO III, p. 114",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1927,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Numa mesma operação, a equipe apreende: (I) um celular LIGADO cujo dono se recusa a fornecer a senha; e (II) um celular DESLIGADO cuja senha foi fornecida. Sobre a conduta adequada em cada caso, é correto afirmar que:",
+    "alternativas": {
+      "A": "No aparelho I, retira-se o SIM e desliga-se o aparelho imediatamente, para evitar comandos remotos de wipe e o esgotamento da bateria; no aparelho II, por já estar desligado, não se deve ligá-lo no local, encaminhando-o lacrado diretamente à perícia para teste em ambiente controlado.",
+      "B": "Em ambos os aparelhos a conduta é desligá-los logo após a apreensão e retirar os cartões SIM, encaminhando-os à perícia para extração posterior.",
+      "C": "No aparelho I, deve-se remover a senha de bloqueio ainda no local para assegurar o acesso; no aparelho II, mantê-lo desligado e anotar senhas candidatas.",
+      "D": "No aparelho I, não se desliga: coloca-se em modo avião, retira-se o SIM e, havendo alto valor operacional, mantém-se ligado com power bank em faraday bag (extração AFU); no aparelho II, retira-se o SIM, liga-se e testa-se a senha fornecida."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (p. 108-111): o aparelho I corresponde ao 2º cenário (ligado, sem a senha) — não se desliga; coloca-se em modo avião; retira-se o SIM; usa-se faraday bag; e, havendo alto valor operacional, mantém-se ligado com power bank, pela possibilidade de extração AFU. O aparelho II corresponde ao 3º cenário (desligado, com a senha fornecida) — retira-se o SIM, liga-se e testa-se a senha, seguindo então os cenários de aparelho ligado. Logo, a correta é D. A erra ao desligar o aparelho I (perde-se o estado AFU). B erra ao desligar ambos. C erra porque não se remove a senha no local (risco de perda de dados) e porque, no II, com a senha fornecida, deve-se ligar e testar.",
+    "referencia": "PDF IPO III, p. 109",
     "nivel": "dificil"
   }
 ];
