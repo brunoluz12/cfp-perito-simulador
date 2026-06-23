@@ -96,22 +96,6 @@
     "referencia": "Cap. 3, Seção 3.2, p. 19"
   },
   {
-    "id": 7,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme Dewey, as etapas comuns às investigações do senso comum e científica incluem a situação indeterminada, a localização do problema, a sugestão de solução, o ensaio/experimentação e a solução. A diferença essencial entre essas duas investigações reside:",
-    "alternativas": {
-      "A": "Na ausência completa das fases de experimentação no senso comum, exclusivas da ciência.",
-      "B": "No fato de o senso comum operar com hipóteses falseáveis, enquanto a ciência opera por intuição.",
-      "C": "No fato de a ciência prescindir da etapa de delimitação do problema, presente apenas no senso comum.",
-      "D": "No grau de formalização, no rigor metodológico e na pretensão de generalização dos resultados."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto conclui: 'embora senso comum e ciência compartilhem a mesma estrutura lógica fundamental (a passagem de uma situação problemática à sua resolução), distinguem-se quanto ao grau de formalização, ao rigor metodológico e à pretensão de generalização dos resultados'.",
-    "referencia": "Cap. 3, Seção 3.2, p. 20"
-  },
-  {
     "id": 8,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 3 - Teoria da Investigação",
@@ -3936,22 +3920,6 @@
     "referencia": "Cap. 3, Seção 3.1, p. 17-18"
   },
   {
-    "id": 390,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em treinamento na Academia Nacional de Polícia, instrutor expõe que, segundo John Dewey, 'investigar consiste na transformação dirigida ou controlada de uma situação indeterminada em uma situação de tal modo determinada nas distinções e relações que a constituem, que convertam os elementos da situação original em um todo unificado'. Em seguida, o instrutor problematiza a relação entre situação indeterminada e problema. Considerando o padrão de investigação de Dewey, em especial a instituição do problema, é correto afirmar que:",
-    "alternativas": {
-      "A": "O problema precisa ser instituído: a situação indeterminada somente se torna verdadeiramente problemática quando é delimitada como objeto de investigação, sendo a formulação do problema o critério de seleção das hipóteses e dos dados relevantes.",
-      "B": "A simples existência de uma situação indeterminada já constitui, por si só, um problema científico, bastando ao investigador observar passivamente os fatos para que estes se reorganizem em um quadro coerente.",
-      "C": "Para Dewey, o problema é totalmente independente do horizonte prévio de experiências e conhecimentos acumulados, devendo o investigador iniciar a apuração em estado de total neutralidade epistemológica.",
-      "D": "O padrão investigativo deweyano é estritamente linear e dedutivo, não admitindo retorno a fases anteriores, reformulação de hipóteses ou redefinição do problema ao longo do processo."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Cap. 3, p. 22: 'a simples indeterminação não constitui, por si só, um problema. Para Dewey, o problema precisa ser instituído. Isso significa que a situação indeterminada somente se torna verdadeiramente problemática quando é delimitada como objeto de investigação'; e 'o problema funciona, assim, como verdadeiro critério de seleção e organização das hipóteses e das estruturas conceituais'. A alternativa A descreve observação passiva, rejeitada pelo texto ('não ocorre de forma passiva; trata-se de um processo ativo'). C contradiz a p. 22 ('toda investigação parte de um horizonte prévio de experiências'). D é incorreta pois, conforme p. 23, 'o processo não é linear. Muitas vezes é necessário retornar a fases anteriores'.",
-    "referencia": "Cap. 3, Seção 3.4, p. 21-23"
-  },
-  {
     "id": 391,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 3 - Teoria da Investigação",
@@ -3966,22 +3934,6 @@
     "resposta_correta": "C",
     "justificativa": "Cap. 3, p. 19: 'Tal distinção, contudo, não representa uma ruptura, mas uma continuidade evolutiva: a investigação científica seria um aperfeiçoamento e uma sistematização da investigação comum' (item II correto, item I incorreto). p. 20: Dewey descreve etapas comuns a ambos os tipos ('a) situação indeterminada (problemática); b) localização do problema; c) sugestão de solução; d) o ensaio ou experimentação; e) solução (...)') e afirma que 'embora senso comum e ciência compartilhem a mesma estrutura lógica fundamental (...) distinguem-se quanto ao grau de formalização, ao rigor metodológico e à pretensão de generalização dos resultados' (item III correto). p. 19: a investigação do senso comum 'cumpre sua função de garantir a sobrevivência e o bem-estar' (item IV incorreto).",
     "referencia": "Cap. 3, Seção 3.2, p. 19-20"
-  },
-  {
-    "id": 392,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 3 - Teoria da Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em palestra acadêmica, o expositor afirma que, para John Dewey, 'a lógica não é concebida como um conjunto abstrato, fixo e imutável de regras formais, desligadas da experiência concreta, mas corresponde ao estudo das operações efetivas que compõem o próprio processo investigativo'. Considerando essa concepção pragmatista da lógica na teoria de Dewey, sua relação com a linguagem e seu caráter experimental, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A lógica antecede a investigação como um sistema rígido de normas a ser aplicado mecanicamente, sendo um fim em si mesma, dissociada da resolução de problemas reais.",
-      "B": "A lógica é estritamente individual e mental, não comportando dimensão social, simbólica ou cultural; cada investigador deve construí-la isoladamente, sem interação com a comunidade.",
-      "C": "A lógica é instrumento dedutivo puro, defendida por correntes racionalistas, e seu valor reside na coerência formal interna, independentemente da eficácia prática na resolução de problemas concretos.",
-      "D": "A lógica é instrumento prático e dinâmico, ligado à resolução de problemas reais; emerge da prática investigativa bem-sucedida, é socialmente compartilhada por meio da linguagem, e é experimental, pois uma hipótese só adquire valor quando testada — sendo mantida provisoriamente se contribuir para resolver o problema, ou descartada/modificada caso contrário."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Cap. 3, p. 20-21: 'a lógica não antecede a investigação como um sistema rígido de normas a ser aplicado mecanicamente; ela emerge da prática investigativa bem-sucedida'; 'é entendida como uma ferramenta instrumental, sempre ligada à resolução de problemas reais. Ela não é um fim em si, mas um meio'; 'a lógica de Dewey é inseparável do caráter social da investigação. Não é somente uma operação mental individual, mas um processo culturalmente compartilhado'; 'A lógica também é vista como um processo experimental: uma hipótese só adquire valor quando testada na prática. Se a hipótese contribui para resolver o problema (...) ela é mantida provisoriamente; caso contrário é descartada ou modificada.' As alternativas A, B e C contradizem frontalmente esses trechos.",
-    "referencia": "Cap. 3, Seção 3.3, p. 20-21"
   },
   {
     "id": 393,
@@ -29944,5 +29896,107 @@
     "justificativa": "Conforme o material (p. 127-128): em operações de grande porte, recomenda-se que o delegado formule pedido expresso ao juízo para autorizar previamente a restituição (segurança jurídica), sendo boa prática aguardar a conclusão da análise de todo o material para realizar uma única restituição por investigado (A). B erra porque se prefere a restituição única. C erra porque, mesmo após a perícia, deve-se ponderar sobre a contraprova. D erra porque a restituição exige ausência de dúvida sobre a propriedade.",
     "referencia": "PDF IPO III, p. 127",
     "nivel": "medio"
+  },
+  {
+    "id": 1978,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a concepção de ciência de Karl Popper exposta no Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "A ciência tem início na observação neutra e desinteressada da realidade, da qual emergem, por indução, as leis gerais e universais que explicam os fenômenos naturais investigados.",
+      "B": "Uma hipótese que resiste aos testes de refutação torna-se verdadeira em sentido absoluto, encerrando definitivamente a investigação científica sobre o tema.",
+      "C": "A ciência avança por tentativa e erro: parte de um problema, propõe soluções provisórias e busca ativamente refutá-las, num método crítico e autocorretivo.",
+      "D": "O critério da falseabilidade exige que o pesquisador busque ativamente casos positivos que confirmem a teoria proposta, evitando submetê-la a testes severos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Caderno (Seção 3.1): para Popper, a ciência não começa na observação neutra, mas na dúvida; avança por tentativa e erro, partindo de um problema, propondo soluções provisórias e buscando refutá-las (método crítico e autocorretivo) — alternativa C. A erra porque a ciência não nasce da observação indutiva neutra. B erra porque a hipótese que resiste é apenas corroborada provisoriamente, não verdadeira em sentido absoluto. D erra porque se buscam evidências que refutem (não que confirmem) a teoria.",
+    "referencia": "Cap. 3, Seção 3.1 — Teoria de Karl Popper",
+    "nivel": "medio"
+  },
+  {
+    "id": 1979,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a lógica na teoria da investigação de John Dewey, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "É um conjunto imutável e abstrato de regras formais, anterior e independente da prática investigativa concreta dos sujeitos.",
+      "B": "É instrumental e pragmática, e a linguagem tem papel central por permitir ensaiar mentalmente ações e antecipar resultados; tem ainda caráter social e experimental.",
+      "C": "Tem natureza estritamente individual e mental, sendo a linguagem irrelevante para a formulação, o compartilhamento e o teste das hipóteses de trabalho.",
+      "D": "Dispensa a verificação prática das hipóteses formuladas, que passam a valer por sua mera coerência formal interna, independentemente de experimentação empírica posterior."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Caderno (Seção 3.3): para Dewey, a lógica é o estudo das operações efetivas da investigação — instrumental e pragmática —, com papel central da linguagem (que permite ensaiar mentalmente ações e antecipar resultados) e caráter social e experimental (B). A erra porque a lógica não é imutável nem anterior à prática. C erra porque a linguagem é central, e a lógica tem caráter social. D erra porque toda hipótese só ganha valor ao ser testada na prática.",
+    "referencia": "Cap. 3, Seção 3.3 — Lógica de Dewey",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1980,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em Dewey, o Caderno apresenta as cinco etapas comuns a toda investigação (SI-LO-SU-EN-SO) e os seis estágios do padrão de investigação (Re-De-For-A-Ve-C). Sobre eles, é correto afirmar que:",
+    "alternativas": {
+      "A": "São exatamente a mesma lista de fases, com nomes diferentes atribuídos às cinco etapas idênticas que compõem o processo de investigar.",
+      "B": "As cinco etapas comuns restringem-se à investigação científica, ao passo que os seis estágios do padrão aplicam-se ao senso comum.",
+      "C": "Os seis estágios do padrão de investigação excluem a fase de verificação experimental, por ela ser própria da investigação científica controlada conduzida em laboratório, e não do senso comum.",
+      "D": "As cinco etapas comuns (SI-LO-SU-EN-SO) sintetizam a estrutura compartilhada, e os seis estágios (Re-De-For-A-Ve-C) detalham o padrão, flexível e não estritamente linear."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Caderno (Seções 3.2 e 3.4): as cinco etapas comuns (situação indeterminada, localização, sugestão, ensaio, solução) sintetizam a estrutura lógica compartilhada por toda investigação, enquanto os seis estágios (reconhecimento, delimitação, formulação, análise, verificação e conclusão) detalham o padrão proposto por Dewey, que é flexível e não estritamente linear (D). A erra porque não são a mesma lista. B erra porque as etapas comuns valem para ambas. C erra porque os estágios incluem a verificação experimental.",
+    "referencia": "Cap. 3, Seção 3.4 — Padrão de Dewey",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1981,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme Dewey, ao distinguir a investigação do senso comum da científica, é correto afirmar que:",
+    "alternativas": {
+      "A": "A do senso comum tem caráter prático, imediato e guiado por hábitos e tradições, enquanto a científica é metódica, autocorretiva e passível de replicação.",
+      "B": "A investigação do senso comum é um processo metódico, consciente, controlado e passível de replicação, ao passo que a científica é espontânea, intuitiva e guiada por hábitos.",
+      "C": "Há ruptura total entre ambas, inexistindo continuidade entre a investigação do senso comum e a investigação científica.",
+      "D": "Ambas buscam, de igual modo e com o mesmo rigor, abstrair, quantificar e universalizar os fenômenos investigados na realidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Caderno (Seção 3.2): a investigação do senso comum é prática, imediata, situacional e guiada por hábitos/tradições, ao passo que a científica é sistemática, metódica, autocorretiva e passível de replicação (A). B inverte as características. C erra porque há continuidade evolutiva (a científica é aperfeiçoamento da do senso comum), não ruptura total. D erra porque abstrair, quantificar e universalizar é próprio da investigação científica.",
+    "referencia": "Cap. 3, Seção 3.2 — Senso Comum x Científica",
+    "nivel": "medio"
+  },
+  {
+    "id": 1982,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a aplicação do padrão de Dewey à investigação policial, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "O conhecimento produzido pela investigação policial constitui a verdade absoluta e definitiva dos fatos apurados, tornando-se insuscetível de revisão posterior.",
+      "B": "O padrão de investigação de Dewey mostra-se incompatível com a investigação criminal, por se tratar de método exclusivo das ciências naturais e experimentais conduzidas em ambiente de laboratório.",
+      "C": "O percurso da dúvida à conclusão fundamentada confere objetividade, gerando uma 'confiança racional' na resposta, funcional e aberta à revisão diante de novas evidências.",
+      "D": "A estruturação do percurso investigativo é dispensável, pois a objetividade da apuração decorre da intuição pessoal do delegado de polícia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Caderno (Seção 3.4, conclusão): o padrão de Dewey confere maior objetividade à investigação policial ao estruturar o percurso da dúvida inicial à conclusão fundamentada; o conhecimento gerado não é verdade absoluta, mas uma 'confiança racional', funcional e aberta à revisão diante de novas evidências (C). A erra porque o conhecimento é revisável. B erra porque o padrão é aplicável à investigação criminal. D erra porque a estruturação do percurso é justamente o que confere objetividade.",
+    "referencia": "Cap. 3, Seção 3.4 — Aplicação na Investigação Policial",
+    "nivel": "medio"
+  },
+  {
+    "id": 1983,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 3 - Teoria da Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os fundamentos teóricos da investigação policial, conforme a introdução do Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "A doutrina institucional da investigação policial foi construída de modo puramente intuitivo e pragmático, sem fundamentação na filosofia da ciência ou na teoria da investigação científica moderna.",
+      "B": "A investigação policial, embora com objeto e regime próprios, não opera em vazio metodológico, inspirando-se nos padrões racionais da ciência (Popper e Dewey).",
+      "C": "A investigação policial adota um método inteiramente próprio e isolado, sem diálogo com a teoria da investigação científica desenvolvida pela filosofia da ciência.",
+      "D": "Os referenciais de Popper e Dewey aplicam-se à fase processual penal, não alcançando a investigação conduzida pela polícia judiciária."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Caderno (Introdução): a investigação policial, apesar de objeto próprio e regime jurídico específico, não opera em vazio metodológico, inspirando-se nos padrões racionais de produção de conhecimento da ciência, sobretudo em Karl Popper e John Dewey (B). A erra porque a doutrina buscou sólida fundamentação na filosofia da ciência. C erra porque há diálogo com a teoria da investigação científica. D erra porque os referenciais orientam a própria investigação policial.",
+    "referencia": "Cap. 3, Introdução — Teoria da Investigação",
+    "nivel": "dificil"
   }
 ]
