@@ -27124,23 +27124,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1782,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 2 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "O art. 158-E do Código de Processo Penal, incluído pela Lei nº 13.964/2019, disciplina a central de custódia. Sobre os serviços e os registros que essa central deve assegurar, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A central deve possuir serviços de protocolo, mas a entrada e a saída de vestígio dispensam protocolo quando o acesso for feito pelo próprio perito que conduzirá a análise pericial do material armazenado.",
-      "B": "A central de custódia destina-se exclusivamente ao descarte de vestígios totalmente consumidos em exames laboratoriais, mediante prévia autorização judicial específica e posterior registro circunstanciado nos autos do inquérito policial e na ficha de acompanhamento.",
-      "C": "A central tem sua gestão vinculada diretamente à autoridade policial que preside o inquérito, a quem cabe autorizar a entrada e a saída de cada vestígio armazenado, bem como identificar todas as pessoas que a ele tiverem acesso.",
-      "D": "A central deve possuir serviços de protocolo, com local para conferência, recepção e devolução de materiais, sendo a entrada e a saída de vestígio protocoladas, com identificação de todas as pessoas que tiverem acesso e registro da data e hora."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta a letra D: o art. 158-E, § 1º, do CPP exige que a central possua serviços de protocolo, com local para conferência, recepção e devolução de materiais; o § 2º exige que a entrada e a saída de vestígio sejam protocoladas; e o § 3º determina que todas as pessoas que tiverem acesso ao vestígio armazenado sejam identificadas, com registro de data e hora do acesso (p. 38-39). A está errada porque o § 2º exige que toda entrada e saída de vestígio seja protocolada, sem exceção para o acesso pelo perito. B está errada porque a central destina-se à guarda e ao controle dos vestígios, não exclusivamente ao descarte. C está errada porque o caput do art. 158-E vincula a gestão da central diretamente ao órgão central de perícia oficial de natureza criminal, e não à autoridade policial.",
-    "referencia": "PDF IPO III, p. 38",
-    "nivel": "dificil"
-  },
-  {
     "id": 1783,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 2 - Cadeia de Custódia",
@@ -27158,23 +27141,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1784,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 2 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "A IN nº 297/2024-DG/PF classifica os locais que custodiam elementos de interesse em locais de processamento e locais de armazenamento. Considerando essa classificação, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "São locais de processamento os depósitos das unidades e a central de custódia de vestígios, destinados a guardar os elementos; ao passo que os laboratórios e as salas de perícia, onde ocorre o exame, são considerados locais de armazenamento.",
-      "B": "Tanto os laboratórios e salas de perícia quanto os depósitos das unidades são classificados como locais de armazenamento, pois todos eles destinam-se a guardar os elementos até o encerramento da cadeia de custódia ou o encaminhamento a outro local.",
-      "C": "São locais de processamento aqueles em que os elementos são analisados, examinados ou permanecem transitoriamente, como laboratórios e salas de perícia; e de armazenamento os destinados a guardá-los, como os depósitos das unidades e a central de custódia.",
-      "D": "A classificação entre processamento e armazenamento é meramente administrativa e não impõe controle documental próprio a cada etapa, salvo na hipótese de elementos de grandes dimensões ou de natureza perigosa, que exigem cadastro no sistema oficial com a localização exata."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a letra C: o texto define como locais de processamento aqueles em que os elementos são analisados, examinados ou permanecem transitoriamente para encaminhamento a outro local (laboratórios, salas de perícia, ambientes operacionais e de análise); e como locais de armazenamento os destinados a guardar os elementos, considerando-se tais os depósitos das unidades, a central de custódia de vestígios e as custódias locais a esta vinculadas (p. 28-29). A está errada porque inverte os conceitos, tratando depósitos e central como processamento e laboratórios como armazenamento. B está errada porque laboratórios são locais de processamento, não de armazenamento. D está errada porque a classificação tem efeito prático de controle documental adequado em cada etapa, não sendo meramente administrativa.",
-    "referencia": "PDF IPO III, p. 28",
-    "nivel": "dificil"
-  },
-  {
     "id": 1785,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 2 - Cadeia de Custódia",
@@ -27190,23 +27156,6 @@
     "justificativa": "Correta a letra C: o texto estabelece que a coleta de vestígios deve ser feita preferencialmente por perito criminal federal ou, em se tratando de vestígios papiloscópicos, por papiloscopista policial federal; e que, no caso de dados armazenados em celulares, tablets e similares ou em servidores remotos, a extração poderá ser realizada por qualquer servidor policial, a critério do delegado (p. 26). A está errada porque a coleta de vestígios em local de crime é feita preferencialmente por perito/papiloscopista, não por qualquer servidor. B está errada porque a extração de dados em dispositivos pode ser feita por qualquer servidor a critério do delegado, não sendo exclusiva do perito. D está errada porque a coleta de vestígios papiloscópicos cabe preferencialmente ao papiloscopista, não privativamente ao perito criminal.",
     "referencia": "PDF IPO III, p. 26",
     "nivel": "medio"
-  },
-  {
-    "id": 1786,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 2 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Os princípios que orientam a cadeia de custódia na Polícia Federal são os da documentação e da mesmidade, além daqueles aplicáveis à atividade de polícia judiciária. Sobre esses dois princípios, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A documentação garante que o elemento analisado seja o mesmo que foi arrecadado, enquanto a mesmidade assegura a rastreabilidade cronológica de todos os atos praticados ao longo da custódia do vestígio.",
-      "B": "A documentação assegura a rastreabilidade dos atos, enquanto a mesmidade garante que o elemento analisado seja o mesmo que foi arrecadado, evitando contaminações ou substituições.",
-      "C": "Ambos os princípios visam, exclusivamente, ao controle de acesso aos locais de armazenamento, mediante autorização da chefia da unidade a que se vinculam ou de responsável por ela designado.",
-      "D": "A mesmidade refere-se ao dever de registro tempestivo nos sistemas oficiais, e a documentação ao isolamento do local de crime até a chegada da equipe pericial responsável pelos exames."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a letra B: o texto afirma que a documentação assegura a rastreabilidade dos atos, enquanto a mesmidade garante que o elemento analisado seja o mesmo que foi arrecadado, evitando contaminações ou substituições indevidas (p. 26). A está errada porque inverte os conceitos, atribuindo à documentação o papel da mesmidade e vice-versa. C está errada porque os princípios não se limitam ao controle de acesso aos locais de armazenamento, que é medida específica de segurança. D está errada porque confunde a mesmidade com o dever de registro e a documentação com o isolamento do local, deturpando ambos os conceitos.",
-    "referencia": "PDF IPO III, p. 26",
-    "nivel": "facil"
   },
   {
     "id": 1787,
@@ -29062,23 +29011,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1898,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 2 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Conforme o art. 158-B do Código de Processo Penal, incluído pela Lei nº 13.964/2019, cada etapa da cadeia de custódia possui um ato definidor próprio. Considerando a discriminação entre as etapas, assinale a alternativa que associa corretamente a etapa ao seu ato definidor.",
-    "alternativas": {
-      "A": "O recebimento é o procedimento pelo qual cada vestígio coletado é embalado de forma individualizada, conforme suas características físicas, químicas e biológicas, com anotação da data, hora e nome de quem realizou a coleta.",
-      "B": "O armazenamento é o procedimento referente à guarda, em condições adequadas, do material a ser processado, guardado para contraperícia, descartado ou transportado, com vinculação ao número do laudo correspondente.",
-      "C": "O processamento é o ato formal de transferência da posse do vestígio, documentado com informações sobre número de procedimento, local de origem, nome de quem o transportou e identificação de quem o recebeu.",
-      "D": "O acondicionamento é o ato de transferir o vestígio de um local para outro em condições adequadas de embalagem, veículo e temperatura, de modo a garantir a manutenção de suas características originais e o controle de sua posse."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a alternativa B: o art. 158-B, IX, do CPP define armazenamento exatamente como a guarda, em condições adequadas, do material a ser processado, guardado para contraperícia, descartado ou transportado, com vinculação ao número do laudo correspondente. A está errada porque descreve o acondicionamento (inciso V), e não o recebimento; o recebimento (inciso VII) é a transferência formal da posse do vestígio com documentação específica. C está errada porque descreve o recebimento (inciso VII), e não o processamento; processamento (inciso VIII) é o exame pericial em si, a manipulação do vestígio conforme metodologia adequada, formalizado em laudo. D está errada porque descreve o transporte (inciso VI), e não o acondicionamento; acondicionamento (inciso V) é a embalagem individualizada do vestígio com anotação de data, hora e nome de quem coletou.",
-    "referencia": "PDF IPO III, p. 34",
-    "nivel": "dificil"
-  },
-  {
     "id": 1899,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 2 - Cadeia de Custódia",
@@ -29671,6 +29603,125 @@
     "resposta_correta": "C",
     "justificativa": "Conforme o material (p. 21-22): o 5W2H (heptâmetro de Quintiliano) traduz-se em sete questionamentos — o quê, quem, onde, quando, por quê, como e quanto (C — correta). A erra porque não há método único ou de aplicação obrigatória; são ferramentas de apoio. B confunde o 5W2H com o PDCA (este, sim, é o ciclo de desenvolvimento de quatro núcleos). D erra a origem do F3EAD (forças armadas norte-americanas) e o seu papel (não substitui o exame de situação).",
     "referencia": "PDF IPO III, p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 1935,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 158-A, § 3º, do Código de Processo Penal, o que se entende por vestígio?",
+    "alternativas": {
+      "A": "Todo elemento de interesse encontrado em ação de busca, registrado em auto circunstanciado de arrecadação ou em termo de apreensão pela equipe policial.",
+      "B": "Todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que guarde relação com a infração penal.",
+      "C": "O conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do elemento de prova.",
+      "D": "O local que se configura como da ocorrência da execução ou do resultado, no todo ou em parte, de infração penal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o art. 158-A, § 3º, do CPP (p. 26), vestígio é todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que guarde relação com a infração penal (B). A descreve o registro dos demais elementos de interesse, não a definição de vestígio. C é a definição de cadeia de custódia (art. 158-A, caput). D é a definição de local de crime (IN nº 297/2024-DG/PF).",
+    "referencia": "PDF IPO III, p. 26",
+    "nivel": "medio"
+  },
+  {
+    "id": 1936,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A cadeia de custódia dos vestígios (art. 158-B do CPP) compreende dez etapas. Assinale a alternativa que indica procedimentos que NÃO correspondem a essas etapas:",
+    "alternativas": {
+      "A": "Reconhecimento e isolamento.",
+      "B": "Coleta e acondicionamento.",
+      "C": "Apreensão e indiciamento.",
+      "D": "Recebimento e descarte."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As dez etapas do art. 158-B do CPP são: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte (p. 33-35). Logo, A, B e D indicam etapas válidas. A apreensão é etapa própria dos DEMAIS elementos de interesse (art. 5º da IN nº 297/2024-DG/PF), e o indiciamento é ato do inquérito, não etapa da cadeia de custódia do vestígio — por isso C é a alternativa correta.",
+    "referencia": "PDF IPO III, p. 34",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1937,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um elemento de interesse que não é vestígio (por exemplo, um documento) é recebido por policial federal. Conforme a IN nº 297/2024-DG/PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "Suas etapas são idênticas às dos vestígios e seguem a mesma ordem do art. 158-B do CPP: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte.",
+      "B": "O registro inicial é feito por termo de coleta de vestígio, ainda que se trate de documento ou objeto sem natureza pericial.",
+      "C": "Havendo inquérito policial instaurado, o elemento é encaminhado à Corregedoria; não havendo, ao Delegado que preside a investigação.",
+      "D": "Havendo procedimento de polícia judiciária instaurado, encaminha-se ao Delegado que preside a investigação; não havendo, à Corregedoria ou à chefia da delegacia descentralizada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o art. 5º da IN nº 297/2024-DG/PF (p. 39-40), havendo procedimento de polícia judiciária instaurado, o elemento é encaminhado ao Delegado que preside a investigação; não havendo, à Corregedoria (Geral ou Regional) ou à chefia da delegacia descentralizada (D). C inverte essa regra. A erra porque os demais elementos têm etapas próprias (arrecadação, transporte, triagem, apreensão, carregamento, disponibilização, encaminhamento, processamento, guarda e destinação final), não as dos vestígios. B erra porque o registro inicial se dá por auto circunstanciado de arrecadação ou termo de apreensão.",
+    "referencia": "PDF IPO III, p. 40",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1938,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o acondicionamento do vestígio e seus recipientes, conforme o art. 158-D do Código de Processo Penal, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os recipientes devem ser selados com lacres de numeração individualizada e só podem ser abertos pelo perito que fará a análise ou, motivadamente, por pessoa autorizada.",
+      "B": "Um único recipiente pode acondicionar diversos vestígios distintos, desde que guardem relação com a mesma infração penal.",
+      "C": "Após o rompimento, o lacre deve ser descartado, registrando-se na ficha de acompanhamento as informações do novo lacre que passa a ser utilizado no recipiente.",
+      "D": "O recipiente pode ser aberto por servidor administrativo para conferência de rotina, dispensando-se o registro do rompimento na ficha de acompanhamento do vestígio e o uso de novo lacre."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o art. 158-D do CPP (p. 38): os recipientes são selados com lacres de numeração individualizada (§ 1º) e só podem ser abertos pelo perito que vai proceder à análise ou, motivadamente, por pessoa autorizada (§ 3º) — alternativa A. B erra porque o recipiente deve individualizar o vestígio (§ 2º). C erra porque o lacre rompido deve ser acondicionado no interior do novo recipiente (§ 5º), e não descartado. D erra porque cada rompimento de lacre deve constar da ficha de acompanhamento, com responsável, data, local e finalidade (§ 4º).",
+    "referencia": "PDF IPO III, p. 38",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1939,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a amostragem de vestígios e a amostra de contraprova, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A amostra de contraprova segue rigor reduzido em relação à amostra de prova, por destinar-se ao reexame requerido pela defesa em ambiente diverso.",
+      "B": "A amostragem dispensa o desmembramento e a geração de nova numeração, bastando manter o vestígio em sua embalagem original.",
+      "C": "As amostras de contraprova são coletadas por determinação do Delegado de Polícia Federal ou do juiz, ou conforme orientação técnica da Ditec, e seguem o mesmo rigor da amostra de prova.",
+      "D": "Concluído o exame, a amostra de contraprova é descartada de imediato, ao passo que o restante do material apreendido permanece indefinidamente na central de custódia de vestígios, sem encaminhamento ao depósito da unidade requisitante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 33 e p. 36): as amostras de contraprova são coletadas por determinação do Delegado de Polícia Federal ou do juiz, ou conforme orientação técnica da Diretoria Técnico-Científica, e a cadeia de custódia da contraprova segue o mesmo rigor da amostra de prova (C). A erra porque o rigor é o mesmo, não reduzido. B erra porque as amostras são registradas como itens desmembrados, com nova numeração individualizada. D erra porque é a amostra de contraprova que permanece na central de custódia, e o restante do material é encaminhado ao depósito vinculado à unidade requisitante.",
+    "referencia": "PDF IPO III, p. 36",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1940,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a IN nº 297/2024-DG/PF, assinale a situação que NÃO constitui hipótese de encerramento da cadeia de custódia do elemento de interesse na Polícia Federal:",
+    "alternativas": {
+      "A": "A restituição ao proprietário, na forma da lei, mediante decisão judicial ou autorização legal.",
+      "B": "O encaminhamento do vestígio à central de custódia após o exame pericial.",
+      "C": "O perdimento ou a autorização de uso por decisão judicial.",
+      "D": "O consumo total do vestígio durante a realização de exame."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a IN nº 297/2024-DG/PF (p. 40), a cadeia de custódia encerra-se com: transferência/destinação definitiva a outro órgão; restituição ao proprietário (A); descarte ou destruição; perdimento ou autorização de uso por decisão judicial (C); ou consumo total do vestígio no exame (D). O encaminhamento à central de custódia após o exame (B) NÃO encerra a cadeia — ao contrário, mantém o vestígio sob custódia (art. 158-F do CPP); por isso B é a alternativa correta.",
+    "referencia": "PDF IPO III, p. 40",
+    "nivel": "medio"
+  },
+  {
+    "id": 1941,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a preservação do local de crime e a coleta de vestígios, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A falta ou deficiência de isolamento não impede a realização dos exames periciais necessários; as alterações do estado das coisas devem ser registradas em documento técnico-científico.",
+      "B": "Constatada falha no isolamento, os exames periciais ficam prejudicados e o vestígio deve ser descartado, por perda de confiabilidade.",
+      "C": "A coleta de vestígios em local de crime cabe, em regra, ao Delegado de Polícia Federal, que pode delegá-la a outro policial presente no momento da diligência.",
+      "D": "A preservação do local compete à perícia desde o primeiro momento, não cabendo ao Delegado de Polícia Federal adotar cautelas de isolamento ou socorro antes da chegada do perito responsável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 35-36): a falta ou deficiência de isolamento não justifica a não realização dos exames periciais necessários, devendo as alterações do estado das coisas e suas consequências ser registradas em documento técnico-científico (A). B erra porque a falha não leva ao descarte do vestígio. C erra porque a coleta é feita preferencialmente por Perito Criminal Federal (e, em vestígios papiloscópicos, por Papiloscopista). D erra porque o Delegado de Polícia Federal, ou policial por ele designado, deve adotar as cautelas de preservação do local, ressalvadas medidas de segurança e socorro, até a chegada da perícia.",
+    "referencia": "PDF IPO III, p. 35",
     "nivel": "medio"
   }
 ]
