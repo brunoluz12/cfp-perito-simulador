@@ -26512,23 +26512,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 1742,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 6 - Desencadeamento da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Encerradas as buscas, a equipe entrega o material apreendido à equipe cartorária. Sobre a entrega do material apreendido e dos respectivos documentos, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A equipe cartorária deve receber os materiais parceladamente, à medida que cada lote for chegando, mesmo que a totalidade dos itens previstos na lista de conferência ainda não tenha sido apresentada.",
-      "B": "Comprovada a entrega de um bem por simples anotação interna da própria equipe de deflagração, a responsabilidade pelo material transfere-se automaticamente ao destinatário, ainda que não haja qualquer registro dessa movimentação no sistema eletrônico.",
-      "C": "A liberação do efetivo das equipes é automática assim que cada uma delas conclui as suas buscas no respectivo local de interesse, independentemente de autorização da coordenação de execução da operação.",
-      "D": "A equipe cartorária só deve receber os materiais quando a totalidade dos itens for apresentada, evitando-se a entrega de bem sem comprovação no sistema, sob pena de o item seguir sob responsabilidade da equipe."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme as p. 97-98, a equipe cartorária deve controlar o recebimento em lista de conferência específica e somente receber os materiais quando a totalidade dos itens previstos for apresentada; deve-se evitar a entrega de bem sem comprovação no sistema, pois bens movimentados sem essa diligência continuam sob responsabilidade da equipe de deflagração (D correta). A está errada porque o recebimento só ocorre quando a totalidade dos itens é apresentada (p. 98). B está errada porque, sem comprovação no sistema, o bem permanece sob responsabilidade da equipe de deflagração (p. 98). C está errada porque a liberação do efetivo só se dá com autorização da coordenação de execução, devendo o efetivo permanecer de prontidão (p. 98).",
-    "referencia": "PDF IPO III, p. 97",
-    "nivel": "medio"
-  },
-  {
     "id": 1743,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 6 - Desencadeamento da Ação",
@@ -27566,40 +27549,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 1816,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 6 - Desencadeamento da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Ao final de uma busca domiciliar, a equipe não localizou nem arrecadou qualquer item de interesse no imóvel. Além disso, percebeu indícios de que o local havia sido previamente \"limpo\" para evitar a colheita de provas. No tocante à formalização de documentos, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "Como nada foi arrecadado, fica dispensada a lavratura do Auto Circunstanciado de Busca e Arrecadação, bastando registrar o resultado negativo em singela Informação de Polícia Judiciária assinada pelo chefe da equipe.",
-      "B": "A equipe deve lavrar o Auto Circunstanciado consignando que nada foi arrecadado e, diante dos indícios de limpeza prévia, verificar a existência de câmeras de vigilância ou testemunhas de movimentações anormais.",
-      "C": "A equipe deve lavrar o Auto Circunstanciado, dispensada, porém, a coleta da assinatura do responsável e das testemunhas, uma vez que tais assinaturas só são exigíveis quando há efetiva apreensão de bens.",
-      "D": "A equipe deve aguardar nova ordem judicial para registrar a suspeita de supressão de provas, pois a apuração de eventual fraude processual extrapola o objeto do mandado de busca originalmente cumprido."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a B: o texto afirma que o fato de nada ter sido localizado não afasta a obrigação de formalizar o Auto Circunstanciado e colher a assinatura do responsável e das testemunhas, devendo constar que nada foi arrecadado; e, havendo indícios de limpeza prévia, deve-se verificar câmeras de vigilância no local ou proximidades, ou informações de testemunhas sobre movimentações anormais (p. 90-91). A A dispensa indevidamente o Auto Circunstanciado. A C dispensa indevidamente as assinaturas, que o texto exige mesmo sem arrecadação. A D inventa necessidade de nova ordem judicial; o texto manda registrar os fatos no próprio auto circunstanciado. (p. 90-91)",
-    "referencia": "PDF IPO III, p. 90",
-    "nivel": "medio"
-  },
-  {
-    "id": 1817,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 6 - Desencadeamento da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante a arrecadação, a equipe apreende, em um mesmo cômodo, dois smartphones e um pen drive pertencentes ao investigado. Um policial sugere lançar os três aparelhos sob um único item no auto de apreensão e acondicioná-los juntos em um só envelope, para agilizar. Considerando a IN 255/2023 e os cuidados com a coleta de elementos eletrônicos, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "É possível registrar os três aparelhos em um único item, desde que cada um receba etiqueta própria com numeração sequencial, pois a IN 255/2023 só exige individualização e acondicionamento separado para vestígios biológicos sujeitos a perícia papiloscópica ou genética.",
-      "B": "É admitido o acondicionamento conjunto dos eletrônicos em um único invólucro lacrado, desde que o número total de itens conste do auto, pois a individualização só é exigível no momento posterior da extração de dados pela perícia.",
-      "C": "É vedado registrar diferentes elementos de interesse no mesmo item da apreensão; cada aparelho deve ser descrito separadamente e acondicionado em invólucro lacrado, recomendando-se ainda proteger o smartphone com material que bloqueie sinal.",
-      "D": "É vedado apreender simultaneamente aparelhos de naturezas distintas no mesmo ato, devendo o pen drive e os smartphones ser objeto de autos circunstanciados separados, lavrados por equipes distintas para preservar a custódia."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a C: a IN 255/2023 veda o registro de diferentes elementos de interesse no mesmo item da apreensão (parágrafo único do art. 139) e determina o acondicionamento em invólucro lacrado, sempre que a natureza permitir (art. 140, I); o texto exige que cada item seja descrito separadamente e, no caso de smartphones, recomenda protegê-los com papel alumínio ou bolsa de Faraday para bloquear sinal (p. 91-92). A A inventa a possibilidade de item único com etiquetas e restringe a regra a vestígios papiloscópicos ou genéticos. A B posterga a individualização para a fase de extração, contrariando a exigência na arrecadação. A D inventa vedação a apreender aparelhos de naturezas distintas no mesmo ato e exigência de autos por equipes distintas. (p. 91-92)",
-    "referencia": "PDF IPO III, p. 91",
-    "nivel": "dificil"
-  },
-  {
     "id": 1818,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 6 - Desencadeamento da Ação",
@@ -27615,57 +27564,6 @@ const questoesDB = [
     "justificativa": "Correta a B: o texto afirma que a destruição de celulares, computadores e documentos ao perceber a chegada da polícia pode caracterizar fraude processual (art. 347 do CP) ou o crime do art. 2º, §1º, da Lei nº 12.850/2013, caso a investigação verse sobre organização criminosa; e que o material com relação direta ao flagrante deve ser apreendido de forma apartada, no procedimento flagrancial, ainda que tenha constado no mesmo Auto Circunstanciado (p. 92-93). A A trata a destruição como atípica e dispensa a apreensão apartada. A C afirma incidência exclusiva e obrigatória da fraude processual (o texto usa \"pode\" e admite a Lei nº 12.850) e dispensa o auto de prisão em flagrante. A D posterga indevidamente a apuração e manda unificar o material, contrariando a apreensão apartada. (p. 92-93)",
     "referencia": "PDF IPO III, p. 93",
     "nivel": "dificil"
-  },
-  {
-    "id": 1819,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 6 - Desencadeamento da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "No curso de busca e apreensão, a equipe da Polícia Federal flagra o investigado na posse de pequena quantidade de entorpecente para uso pessoal (art. 28 da Lei nº 11.343/2006). A coordenação orienta a lavratura de TCO. Considerando os parâmetros da Instrução Normativa nº 255/2023 e a Lei nº 9.099/1995, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "O TCO pode ser lavrado tanto em situação de flagrante quanto fora dela; nas hipóteses não flagranciais, dispensa-se a instauração de inquérito, bastando o registro sucinto do fato e o posterior indiciamento do autor pelo crime de menor potencial ofensivo.",
-      "B": "O TCO, previsto no art. 69 da Lei nº 9.099/1995, somente pode ser lavrado em situação de flagrante; nas hipóteses não flagranciais, instaura-se inquérito por portaria com menção à infração de menor potencial ofensivo, sendo vedado o indiciamento nesses crimes.",
-      "C": "O TCO destina-se a infrações cuja pena máxima não ultrapasse quatro anos, cumulada ou não com multa, e, por decisão do STF, somente pode ser lavrado pela própria polícia judiciária, vedada sua confecção pelas polícias ostensivas, ainda que em situação de flagrante.",
-      "D": "O TCO deve ser lavrado no prazo máximo de quarenta e oito horas, com remessa ao Ministério Público; é obrigatório o indiciamento do autor e, nas hipóteses não flagranciais, admite-se sua lavratura direta sem instauração de inquérito policial."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a B: a IN 255/2023 fixa que o TCO (art. 69 da Lei nº 9.099/1995) somente pode ser lavrado em situação de flagrante (art. 99); nas hipóteses não flagranciais, instaura-se inquérito policial por portaria com menção de que se trata de infração de menor potencial ofensivo (art. 99, §1º), sendo vedado o indiciamento nesses crimes (art. 99, §2º) (p. 94). A A dispensa indevidamente o inquérito fora do flagrante e admite indiciamento, ambos vedados. A C troca o limite de pena (é dois anos, não quatro) e contraria o STF, que admitiu a lavratura pelas polícias ostensivas (ADIs 6.245 e 6.264). A D altera o prazo (são 24 horas, com envio ao juízo), torna obrigatório o indiciamento e dispensa o inquérito fora do flagrante. (p. 94)",
-    "referencia": "PDF IPO III, p. 94",
-    "nivel": "medio"
-  },
-  {
-    "id": 1820,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 6 - Desencadeamento da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante a deflagração, um investigado oferece resistência à equipe e, no uso da força para restabelecer a segurança, sofre lesões corporais decorrentes da oposição à intervenção policial. Considerando as diretrizes de uso seletivo da força e o tratamento da ocorrência, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "O uso da força deve cessar tão logo restabelecida a segurança do local, providenciando-se o socorro aos feridos antes de prosseguir a busca; a resistência será objeto de inquérito policial próprio, vedada a lavratura de auto de resistência.",
-      "B": "O uso da força pode prosseguir até a conclusão integral da busca, ainda que já restabelecida a segurança; havendo lesão, lavra-se auto de resistência e a ocorrência é encaminhada de imediato ao Ministério Público para arquivamento.",
-      "C": "O uso da força, por ser ato de autoridade, dispensa proporcionalidade quando há oposição; a lesão decorrente deve ser registrada apenas no Auto Circunstanciado, sendo desnecessário inquérito próprio se ausentes excludentes de ilicitude.",
-      "D": "O uso da força deve priorizar meios menos letais e, havendo lesão, lavra-se auto de resistência reconhecendo desde logo a presença de excludente de ilicitude, dispensando-se o exame de corpo de delito sempre que o lesionado for o próprio investigado, e não o policial."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Correta a A: o texto determina que o uso da força seja proporcional ao restabelecimento da segurança do local e que, atingido esse objetivo, providencie-se o socorro aos feridos antes de prosseguir a busca (p. 95); a resistência deve ser objeto de inquérito policial próprio, e a IN 255/2023 (art. 16) veda a lavratura de auto de resistência, encaminhando-se a ocorrência à Corregedoria (p. 95-96). A B permite uso da força após restabelecida a segurança e prevê auto de resistência e arquivamento, todos contrários ao texto. A C dispensa proporcionalidade e inquérito próprio, contrariando o uso seletivo da força. A D admite auto de resistência (vedado) e dispensa o exame de corpo de delito, que o texto exige havendo lesão. (p. 95-96)",
-    "referencia": "PDF IPO III, p. 95",
-    "nivel": "medio"
-  },
-  {
-    "id": 1821,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 6 - Desencadeamento da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Finalizadas as buscas, a equipe projetada retorna à base e entrega o material apreendido à equipe cartorária, faltando, porém, dois itens da lista de conferência. Em seguida, a chefe pretende liberar de imediato todo o efetivo. Sobre a entrega do material, a conferência e a liberação do efetivo, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A equipe cartorária pode receber o material mesmo incompleto, registrando a pendência; e a liberação do efetivo é prerrogativa autônoma da chefe da equipe projetada, independentemente de autorização da coordenação de execução.",
-      "B": "A equipe cartorária deve recusar o recebimento parcial, exigindo a totalidade dos itens previstos antes de receber o material; e a liberação do efetivo só ocorre com autorização da coordenação de execução, mantendo-se todos de prontidão.",
-      "C": "A equipe cartorária deve receber o material e ela própria suprir os itens faltantes mediante nova diligência ao local; e a chefe pode liberar metade do efetivo, mantendo a outra de sobreaviso até o encerramento do debriefing.",
-      "D": "A equipe cartorária recebe o material e passa a assumir a responsabilidade integral pelos itens que não foram entregues; a liberação do efetivo cabe ao delegado dos autos principais, vedado o reaproveitamento de equipes já finalizadas para reforço de outras."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a B: o texto dispõe que a equipe cartorária deve controlar o recebimento em lista de conferência específica e somente deverá receber os materiais quando a totalidade dos itens previstos for apresentada (p. 98); e que a liberação do efetivo somente se dará com autorização da coordenação de execução, devendo todos permanecer de prontidão até a liberação final (p. 98). A A admite recebimento incompleto e atribui a liberação à chefe da equipe, contrariando o texto. A C inventa que a cartorária supriria os itens faltantes e libera metade do efetivo. A D transfere à cartorária a responsabilidade pelos itens não entregues (que continua com a equipe de deflagração) e veda o reaproveitamento de equipes, que o texto expressamente admite. (p. 98)",
-    "referencia": "PDF IPO III, p. 98",
-    "nivel": "medio"
   },
   {
     "id": 1822,
@@ -29841,6 +29739,108 @@ const questoesDB = [
     "resposta_correta": "C",
     "justificativa": "Conforme o material (p. 85-86): com a plataforma oficial de comunicação, a própria equipe de investigação/execução pode repassar o mérito, os aspectos operacionais, a documentação e a execução, ficando os coordenadores regionais apenas com os aspectos da execução propriamente dita (C). A erra porque os coordenadores regionais são designados em operações especiais com múltiplas ações, não em ação isolada. B erra porque o Teams permite trabalho colaborativo e compartilhamento seguro de arquivos. D erra porque cada equipe pode ter canais próprios e restritos para compartimentação.",
     "referencia": "PDF IPO III, p. 85",
+    "nivel": "medio"
+  },
+  {
+    "id": 1960,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cumprimento de mandado de busca domiciliar, é necessário arrombar a porta de entrada. Conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O arrombamento de portas é ilegítimo, configurando crime de dano, ainda que indispensável ao cumprimento do mandado de busca.",
+      "B": "O arrombamento é legítimo (art. 245, § 2º, do CPP), devendo constar do Auto Circunstanciado de Busca e Apreensão, acompanhado de sua justificativa.",
+      "C": "O arrombamento dispensa registro no auto, bastando a comunicação verbal ao juízo que expediu o mandado de busca.",
+      "D": "Não havendo pessoas no local arrombado, a equipe pode deixá-lo aberto ao final da diligência, por não ser atribuição policial zelar pelo fechamento do imóvel após a busca."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 88): o arrombamento de portas é legítimo nos termos do art. 245, § 2º, do CPP, e deve constar do Auto Circunstanciado de Busca e Apreensão, com a respectiva justificativa (B). A erra porque o arrombamento é lícito. C erra porque há registro obrigatório no auto. D erra porque, não havendo pessoas no local (art. 245, § 4º), a equipe deve assegurar condições mínimas para o fechamento do local antes de deixá-lo.",
+    "referencia": "PDF IPO III, p. 88",
+    "nivel": "medio"
+  },
+  {
+    "id": 1961,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a busca, há discussão sobre a presença do advogado e do representante da OAB. Conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A presença de representante da OAB é facultativa nas buscas em escritório de advocacia, não afetando a validade do ato a sua eventual ausência durante a diligência.",
+      "B": "Se o representante da OAB não comparecer ao local designado, a diligência fica suspensa até a sua efetiva chegada ao endereço da busca.",
+      "C": "Nas buscas em escritório de advocacia, a presença de representante da OAB é obrigatória, sob pena de nulidade; seu não comparecimento, uma vez registrado, não impede a diligência.",
+      "D": "O advogado patrono, uma vez autorizado a ingressar no imóvel, pode interromper a diligência policial e determinar a imediata devolução dos itens que considere irregularmente arrecadados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 89): nas buscas em escritório de advocacia, é imprescindível a presença de representante da Comissão de Prerrogativas da OAB, sob pena de nulidade do ato; caso não compareça, registra-se a ausência, sem impedir a diligência (C). A erra porque a presença é obrigatória nesses casos. B erra porque a ausência não suspende a diligência. D erra porque o advogado não interfere no trabalho policial, devendo peticionar ao presidente do inquérito ou ao juiz.",
+    "referencia": "PDF IPO III, p. 89",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1962,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao apreender smartphones durante a busca, uma diligência adicional recomendada no material é:",
+    "alternativas": {
+      "A": "Protegê-los com papel alumínio ou bolsas de Faraday, para bloquear a transmissão de sinal (celular, Wi-Fi, Bluetooth) no trajeto até a base.",
+      "B": "Mantê-los ligados e conectados à rede, para preservar as mensagens que forem recebidas durante o transporte do material à base operacional.",
+      "C": "Registrar os aparelhos em um único item da apreensão, a fim de agilizar o acondicionamento na base e a posterior análise pericial do material.",
+      "D": "Remover imediatamente os chips e formatar a memória dos aparelhos ainda no local, para impedir o acesso remoto aos dados durante o transporte."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 91-92): recomenda-se proteger os smartphones com papel alumínio, tecidos de blindagem ou bolsas de Faraday (princípio da Gaiola de Faraday), bloqueando a transmissão de sinal no trajeto até a base (A). B erra porque manter o aparelho conectado expõe a alteração/apagamento remoto. C erra porque é vedado registrar diferentes elementos no mesmo item (art. 139 da IN 255). D erra porque formatar a memória destruiria a própria prova.",
+    "referencia": "PDF IPO III, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 1963,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a identificação de situações flagranciais no cumprimento de mandados, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A possibilidade de ocorrência de flagrante não é objeto de análise prévia pela equipe, por ser evento imprevisível e alheio ao planejamento da operação.",
+      "B": "A prisão em flagrante, nesses casos, deve ser lavrada pela Polícia Civil, por se tratar de crime diverso daquele que é objeto da investigação federal.",
+      "C": "A destruição de celulares e documentos pelo suspeito ao perceber a chegada da polícia é conduta penalmente atípica, por ausência de previsão legal específica para a hipótese no ordenamento penal vigente.",
+      "D": "São hipóteses comuns de flagrante por crime permanente o porte ilegal de arma (Lei 10.826), o acondicionamento de drogas (Lei 11.343) e a lavagem de capitais (Lei 9.613)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (p. 92): são hipóteses comuns de flagrante (crimes permanentes) o porte/posse ilegal de arma de fogo (Lei 10.826/2003), o acondicionamento de drogas (Lei 11.343/2006) e a lavagem de capitais (Lei 9.613/1998) — alternativa D. A erra porque a alta probabilidade de flagrante deve constar da ficha de alvo. B erra porque, em regra, a prisão em flagrante é lavrada pela própria Polícia Federal. C erra porque a destruição de provas pode caracterizar fraude processual (art. 347 do CP) ou o art. 2º, § 1º, da Lei 12.850/2013.",
+    "referencia": "PDF IPO III, p. 92",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1964,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No curso de uma operação, há resistência armada e um suspeito morre em confronto com a equipe. Conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Deve-se lavrar auto de resistência no local, dispensando-se a instauração de inquérito próprio sobre o fato decorrente da intervenção policial.",
+      "B": "Não se admite a lavratura de auto de resistência; o fato é apurado em inquérito próprio (encaminhado à Corregedoria), com perícia de local e observância do art. 14-A do CPP.",
+      "C": "A perícia de local é dispensável, por se tratar de morte decorrente de intervenção policial presumidamente legítima, bastando o relato da equipe no auto.",
+      "D": "As excludentes de ilicitude ou de culpabilidade devem ser reconhecidas de imediato pela própria equipe no local dos fatos, o que encerra desde logo a apuração da ocorrência."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 95-96): não se admite a lavratura de auto de resistência (art. 16 da IN 255/2023), devendo a ocorrência ser encaminhada à Corregedoria e apurada em inquérito policial próprio; em caso de morte, é imprescindível a perícia de local (com isolamento), observados os direitos do art. 14-A do CPP (B). A erra porque o auto de resistência é vedado e há IP próprio. C erra porque a perícia é imprescindível. D erra porque as excludentes são verificadas em sede de inquérito, não no local.",
+    "referencia": "PDF IPO III, p. 95",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1965,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 6 - Desencadeamento da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o debriefing e a Ficha de Avaliação da operação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Ficha de Avaliação contempla três eixos — operacionais, de documentação e de execução —, podendo ser encaminhada de forma virtual (ex.: Google Forms) quando inviável a reunião presencial.",
+      "B": "O debriefing antecede a deflagração e destina-se a instruir as equipes sobre o mérito da ação e os aspectos operacionais a observar.",
+      "C": "A Ficha de Avaliação restringe-se a apurar responsabilidades disciplinares dos policiais que tenham cometido falhas durante a execução da operação.",
+      "D": "O debriefing é obrigatório e deve ser realizado de forma presencial com o efetivo, ficando vedado o uso de formulários eletrônicos ou virtuais para a coleta das impressões das equipes participantes da deflagração."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 98-99): a Ficha de Avaliação do debriefing avalia três eixos — aspectos operacionais, de documentação e referentes à execução —, podendo ser encaminhada de forma virtual (ex.: Google Forms) quando inviável a reunião presencial (A). B descreve o briefing (que antecede a ação), não o debriefing (posterior). C erra porque a finalidade é o aperfeiçoamento da gestão e do planejamento, não a apuração disciplinar. D erra porque se admite o uso de formulários virtuais.",
+    "referencia": "PDF IPO III, p. 99",
     "nivel": "medio"
   }
 ];
