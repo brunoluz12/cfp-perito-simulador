@@ -3504,166 +3504,6 @@
     "referencia": "Cap. 8, Seções 8.1, 8.1.2 e 8.1.3, p. 149-153 (transversal com Cap. 7 - estratégias reativa/proativa)"
   },
   {
-    "id": 397,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Após anos de serviço, o Delegado Federal Marcos se notabilizou por conduzir suas investigações com base em uma elevada intuição, declarando frequentemente aos colegas que decisões importantes do inquérito eram tomadas com base em 'palpites', 'reação instintiva' ou 'faro investigativo' apurado pela longa experiência. Ele defende que cada policial possui um modo próprio de investigar e que tal subjetividade é a essência do bom trabalho policial. Considerando o que dispõe o Caderno Didático de IPO acerca da conceituação da Metodologia da Investigação Policial, é correto afirmar que:",
-    "alternativas": {
-      "A": "A postura do Delegado Marcos está plenamente alinhada à doutrina institucional, pois o caderno didático reconhece que o tirocínio investigativo se aprende exclusivamente na prática, dependendo da eficiência e da experiência pessoal de cada policial, sendo o método uma trilha individual e intransferível.",
-      "B": "Embora não haja, em princípio, nada de errado em seguir palpites ou reações instintivas, o investigador deve prestar contas de suas decisões a outras pessoas, como vítimas, testemunhas, supervisores e parceiros do sistema de justiça criminal, sendo que o método protege a instituição, o investigador e as pessoas em torno dos fatos, na medida em que afasta 'achismos' e pessoalidades.",
-      "C": "A intuição e a criatividade do investigador são incompatíveis com o método policial, razão pela qual o caderno didático adota integralmente o raciocínio indutivo como única forma legítima de conduzir o inquérito, vedando o uso de heurísticas ou regras práticas desenvolvidas na experiência funcional.",
-      "D": "A adoção de método pela polícia é exigência meramente formal, voltada à organização interna, sem repercussão na proteção do investigador, uma vez que a responsabilização funcional do policial decorre apenas da legalidade estrita dos atos praticados, e não da demonstração de apego a rotinas institucionalmente preconizadas."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma: 'Em princípio, pode não haver nada de errado em seguir palpites ou reações instintivas, mas o investigador deve prestar contas de suas decisões a outras pessoas, incluindo vítimas, testemunhas, supervisores e parceiros do sistema de justiça criminal.' Também afirma que 'O método protege o investigador, porquanto o seguimento de rotinas investigativas predefinidas e transparentes blinda a equipe incumbida da investigação' e que o método afasta 'achismos' ou pessoalidades.",
-    "referencia": "Cap. 6, Seção 6.2, p. 102-103"
-  },
-  {
-    "id": 398,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante o atendimento a uma ocorrência de homicídio em um galpão abandonado, a equipe de Polícia Federal preserva o local. Antes da liberação, os peritos criminais federais e os papiloscopistas realizam a primeira avaliação técnica dos vestígios. Posteriormente, surge dúvida sobre a apreensão de uma caixa contendo documentos rasgados e de uma garrafa de bebida encontrada a alguns metros do corpo, cuja conexão imediata com o fato não está clara. A equipe questiona se deve coletar tais itens. Diante das normas e princípios da metodologia da investigação policial, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "Tendo em vista que o vínculo dos itens com o fato ainda não é claro, deve-se aguardar a evolução das diligências para somente então retornar ao local e providenciar a coleta, pois o caderno didático veda a apreensão de elementos cuja relevância investigativa não esteja previamente demonstrada.",
-      "B": "A decisão sobre quais objetos serão formalmente apreendidos após a liberação do local cabe exclusivamente aos peritos criminais federais, em virtude de sua atribuição técnica de avaliação dos vestígios, sendo o Delegado de Polícia Federal vinculado a essa decisão pericial.",
-      "C": "Em razão da fase inicial e da imprecisão sobre a dinâmica dos fatos, recomenda-se postura prudente, sendo que, havendo amparo legal, deve-se proceder à coleta e preservação do material potencialmente relacionado ao caso, cabendo ao Delegado de Polícia Federal, após a liberação do local pelos peritos, decidir quais objetos serão formalmente apreendidos, podendo ainda determinar a arrecadação de outros itens pertinentes.",
-      "D": "A coleta deve restringir-se rigorosamente aos itens já identificados como prova da materialidade ou autoria, evitando-se a apreensão de objetos cuja relevância probatória não esteja consolidada, sob pena de comprometer a cadeia de custódia e a admissibilidade processual do material reunido."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o texto: 'Nessas hipóteses, recomenda-se postura prudente: sempre que houver amparo legal, deve-se proceder à coleta e à preservação do material potencialmente relacionado ao caso, evitando a perda de elementos que possam, posteriormente, revelar-se decisivos. A experiência demonstra que aquilo que parece irrelevante no início pode adquirir significado probatório à medida que a investigação evolui.' E ainda: 'Após a liberação do local, nos termos do art. 6º, II, do CPP, caberá ao Delegado de Polícia Federal decidir quais objetos serão formalmente apreendidos, podendo ainda determinar a arrecadação de outros itens considerados pertinentes.'",
-    "referencia": "Cap. 6, Seções 6.3 e 6.3.1, p. 104-105"
-  },
-  {
-    "id": 399,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Equipe da Polícia Federal é acionada para apurar furto qualificado em agência da Caixa Econômica Federal. As primeiras horas após o fato revelam-se tumultuadas: há testemunhas dispersando-se, imagens de CFTV externas que podem ser sobrescritas e vestígios biológicos sujeitos a degradação. Pressionado pelo tempo, o Delegado precisa decidir como orientar a equipe. À luz do princípio da 'hora de ouro' (golden hour) e dos limites materiais da coleta probatória, é correto afirmar que:",
-    "alternativas": {
-      "A": "Cada evento produz um conjunto finito de vestígios e testemunhos, devendo o investigador maximizar a coleta de material probatório possível, especialmente nas fases iniciais; ainda que nem todo elemento coletado seja aproveitado como prova em juízo, tais elementos possuem relevância investigativa e devem ser adequadamente registrados e formalizados.",
-      "B": "O princípio da hora de ouro aplica-se apenas a crimes contra a pessoa, em razão da volatilidade dos vestígios biológicos, não havendo previsão doutrinária de sua aplicação a crimes patrimoniais como o furto, nos quais a coleta pode ser realizada com maior dilação temporal.",
-      "C": "A quantidade de material gerado por um crime é sempre constante, independentemente de o delito ter sido planejado ou improvisado, do grau de experiência do autor ou do número de envolvidos, razão pela qual a hora de ouro busca apenas otimizar a fase de avaliação técnica do material já coletado.",
-      "D": "O princípio da hora de ouro determina que apenas os elementos com aptidão direta de figurarem como prova em juízo devem ser coletados nas primeiras horas, em razão dos filtros de admissibilidade processual, devendo o investigador desprezar boatos e informações indiretas para preservar a cadeia de custódia."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto afirma: 'Cada evento produz um conjunto finito de vestígios e testemunhos. Por isso, o objetivo do investigador deve ser maximizar a coleta de material probatório possível, especialmente nas fases iniciais. O chamado princípio da golden hour (hora de ouro) indica que as primeiras medidas adotadas após o fato são decisivas para preservar vestígios, identificar testemunhas e evitar a perda de dados.' E ainda: 'nem todo elemento coletado será, ao final, aproveitado como prova em juízo... Não obstante, tais elementos possuem relevância investigativa... impõe-se o seu adequado registro e formalização'.",
-    "referencia": "Cap. 6, Seção 6.3.3, p. 106"
-  },
-  {
-    "id": 400,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em apuração complexa envolvendo organização criminosa, a equipe de investigação reuniu, ao longo de seis meses, vasto acervo de interceptações telemáticas, relatórios de análise financeira e depoimentos. Ao final, o Ministério Público seleciona, para subsidiar a denúncia, apenas parte desse material, deixando de utilizar diversas peças que considerou irrelevantes. A defesa requer, então, acesso à integralidade do material reunido, inclusive aquele descartado pela acusação. À luz da metodologia da investigação policial e do dever de transparência, é correto afirmar que:",
-    "alternativas": {
-      "A": "O acesso da defesa deve restringir-se aos elementos efetivamente utilizados pela acusação, pois o material descartado pelo Ministério Público perde, automaticamente, valor jurídico, não integrando o acervo informacional sujeito ao contraditório.",
-      "B": "Cabe exclusivamente ao Delegado de Polícia, na qualidade de presidente do inquérito, decidir quais peças do acervo serão disponibilizadas às partes, podendo restringir o acesso da defesa àqueles elementos que entender estratégicos para a apuração em curso.",
-      "C": "Todo material reunido deve ser formalmente documentado e disponibilizado às partes, cabendo ao Ministério Público selecionar os elementos que sustentam a acusação e à defesa ter acesso também ao material não utilizado, em observância ao contraditório e à paridade de armas.",
-      "D": "Como o conjunto de elementos efetivamente utilizado como prova tende a ser menor que o total coletado, o material descartado deve ser eliminado ao final do inquérito, evitando-se a sobrecarga dos autos e a confusão das partes com dados sem aptidão probatória."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Texto literal: 'Contudo, todo material reunido deve ser formalmente documentado e disponibilizado às partes, cabendo ao Ministério Público selecionar os elementos que sustentam a acusação e à defesa ter acesso também ao material não utilizado, em observância ao contraditório e à paridade de armas.'",
-    "referencia": "Cap. 6, Seção 6.3.4, p. 107"
-  },
-  {
-    "id": 401,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Delegado Pedro, ao receber um inquérito instaurado por seu antecessor para apurar fraudes em licitação, percebe que, apesar das diligências realizadas, há sinais de que linhas alternativas não foram exploradas. Ele convoca a equipe e propõe um momento de reflexão em 'tempo lento', com revisão formal do conjunto probatório já produzido, antes de decidir pela representação de medidas cautelares invasivas contra um suspeito identificado. Considerando a avaliação do material reunido pela investigação, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A reavaliação formal do conjunto probatório só se justifica quando há indícios de erro grave nas diligências realizadas, sendo desaconselhável o exame em 'tempo lento' nos casos em que o investigador percebe linearidade aparente na solução, sob pena de retardo injustificável da apuração.",
-      "B": "A representação por medidas cautelares invasivas pode ser realizada com base em juízos de probabilidade construídos pelo investigador, ainda que ausentes elementos concretos de materialidade e autoria, desde que a equipe entenda ser estratégico para o avanço da apuração.",
-      "C": "A avaliação contínua do acervo informacional compete primordialmente aos policiais analistas especializados, que substituem o Delegado de Polícia na definição das técnicas de produção de prova a serem empregadas no aprofundamento da apuração, conferindo unidade e direção estratégica à investigação.",
-      "D": "Ainda que o caso aparente solução clara e linear, recomenda-se postura reflexiva, com reavaliação formal do conjunto probatório, sendo que a adoção de medidas como vigilância eletrônica e representações por cautelares pressupõe motivos razoáveis de suspeita alicerçados em elementos concretos e juridicamente relevantes, aptos a indicar a materialidade delitiva e a possível autoria."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O texto afirma: 'Ainda que, em um primeiro momento, o caso aparente indicar uma solução clara e linear, recomenda-se que o investigador adote postura reflexiva, procedendo à reavaliação formal do conjunto probatório já produzido.' E ainda: 'A adoção de tais providências pressupõe a existência de motivos razoáveis de suspeita, alicerçados em elementos concretos e juridicamente relevantes, aptos a indicar a materialidade delitiva e a possível autoria.'",
-    "referencia": "Cap. 6, Seção 6.4, p. 107-108"
-  },
-  {
-    "id": 402,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma investigação sobre tráfico internacional de drogas, o Delegado Rafael chega à cena de um roubo a uma agência bancária próxima ao local de uma diligência e, por suposição de que 'ninguém prestará informações úteis em bairros desse perfil', decide não procurar testemunhas nas proximidades. Posteriormente, antecipa a hipótese de que o autor é membro da facção investigada e passa a coletar apenas materiais que confirmam essa suspeita. Tais condutas, à luz do tópico sobre vieses cognitivos condicionados pelos investigadores, demonstram:",
-    "alternativas": {
-      "A": "Uma legítima aplicação do tirocínio investigativo, pois o policial experiente está autorizado a filtrar previamente as fontes de informação com base em sua percepção pessoal sobre lugares e perfis sociais, otimizando recursos da investigação.",
-      "B": "Conduta tecnicamente correta apenas quanto à coleta seletiva de material confirmatório da hipótese, pois a doutrina recomenda o trabalho com hipótese única para preservar a coerência da investigação, sendo censurável apenas a omissão na busca de testemunhas.",
-      "C": "Falhas decorrentes de percepções pessoais e de fechamento prematuro, pois quando os investigadores desenvolvem visão antecipada sobre o ocorrido ou o responsável, podem concentrar-se somente no material que confirma esse enfoque, ignorando linhas alternativas, devendo, ao contrário, manter abordagem aberta e objetiva e estar preparados para desafiar seu próprio raciocínio.",
-      "D": "Erro metodológico apenas quanto à omissão na busca por testemunhas, pois a concentração em material que confirme a hipótese inicial é prática validada como mecanismo de eficiência investigativa, desde que registrada formalmente nos autos."
-    },
-    "resposta_correta": "C",
-    "justificativa": "O texto afirma: 'Há ocasiões em que as decisões tomadas pelos investigadores são inconscientemente afetadas por percepções pessoais... um investigador comparece à cena de um roubo a uma agência bancária e decide não procurar testemunhas nas proximidades por supor que ninguém prestará informações que valham a pena.' E ainda: 'Se os investigadores desenvolverem uma visão antecipada do que ocorreu ou de quem é o responsável... existe também o perigo de eles se concentrarem somente no material que confirma esse enfoque.'",
-    "referencia": "Cap. 6, Seção 6.5, p. 109"
-  },
-  {
-    "id": 403,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Considerando o que dispõe o Caderno Didático de IPO sobre boas práticas para mitigar vieses cognitivos na investigação policial, julgue os itens a seguir:\n\nI. Hipóteses investigativas podem surgir de padrões ou casos anteriores, mas devem ser testadas, não assumidas como premissas verdadeiras ou refutadas sem confronto com o material coletado.\nII. O trabalho com múltiplas hipóteses alternativas, dotadas de plausibilidade fática, reduz o risco de direcionamento indevido e evita o 'fechamento prematuro' da investigação.\nIII. O registro explícito de premissas é prática a ser evitada, pois compromete o sigilo investigativo e expõe a estratégia da equipe à crítica indevida de outros integrantes do sistema de justiça.\nIV. A validação cruzada com fontes independentes — como dados bancários, telemáticos e testemunhais — reduz o risco de generalizações indevidas baseadas em evidências isoladas.\nV. Fontes de material probatório aparentemente de confiabilidade inquestionável jamais podem ser tratadas como falhas, devendo o investigador aceitá-las sem questionamento, sob pena de paralisação da apuração.\n\nEstão CORRETOS apenas os itens:",
-    "alternativas": {
-      "A": "I, II e IV.",
-      "B": "I, III e V.",
-      "C": "II, III e IV.",
-      "D": "I, IV e V."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O texto lista como boas práticas: 'a) Distinguir hipótese investigativa de evidências concretas. Hipóteses podem surgir de padrões ou casos anteriores, mas devem ser testadas, não assumidas como premissas verdadeiras ou refutadas sem um confronto com o material coletado; b) Trabalhar com múltiplas hipóteses... evitar o \"fechamento prematuro\"; c) Registrar explicitamente as premissas (item III está errado); d) Validação cruzada. Confirmar inferências com fontes independentes'. Ademais: 'fontes de material probatório que, à primeira vista, parecem ser de confiabilidade inquestionável podem, na verdade, ser falhas' (item V errado). Corretos: I, II e IV.",
-    "referencia": "Cap. 6, Seção 6.5, p. 110-111"
-  },
-  {
-    "id": 404,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma apuração de furto qualificado, um suspeito é preso após identificação por impressão digital na cena do crime, mas as joias subtraídas não são localizadas em sua residência. O Delegado, sem confissão e sem indicação direta da destinação dos bens, decide formular hipóteses sobre onde o material referente às joias pode ser encontrado: vendidas a terceiros, escondidas em local não descoberto, descartadas por outros meios, crime cometido em coautoria, ou inocência do suspeito (com explicação plausível para a impressão digital). Sobre o papel das hipóteses investigativas no caso, é correto afirmar:",
-    "alternativas": {
-      "A": "A formulação simultânea de hipóteses contraditórias — como a culpabilidade e a inocência do suspeito — compromete a coerência metodológica do inquérito e deve ser evitada, pois a hipótese investigativa, uma vez delineada, funciona como conclusão provisória que orienta linearmente as próximas diligências.",
-      "B": "A hipótese é uma explicação provisória, plausível e falseável, que funciona como ponto de partida para novas verificações e como instrumento de trabalho que orienta a investigação, não sendo conclusão; a partir do mesmo conjunto de informações, podem ser construídas interpretações alternativas, sendo o confronto entre hipóteses concorrentes essencial para testar a solidez da análise.",
-      "C": "As hipóteses devem ser construídas livremente, mesmo sem ancoragem em fatos consistentes, pois o objetivo principal é estimular a criatividade do investigador nas fases iniciais, quando ainda há pouca informação, permitindo o preenchimento de lacunas com suposições e impressões pessoais.",
-      "D": "Em razão da inexistência de informações específicas sobre o paradeiro das joias, recomenda-se ao investigador suspender a apuração até que novos dados surjam espontaneamente, pois a formulação de hipóteses sem base empírica robusta caracteriza conjectura proibida pela doutrina institucional."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto define: 'Hipótese pode ser definida como uma explicação provisória para um conjunto de fatos considerados plausíveis, funcionando como ponto de partida para novas verificações... A hipótese não é uma conclusão, mas um instrumento de trabalho que orienta a investigação.' E ainda: 'A partir do mesmo conjunto de informações, podem ser construídas interpretações alternativas. O confronto entre hipóteses concorrentes permite testar a solidez da análise realizada, evitando conclusões precipitadas.'",
-    "referencia": "Cap. 6, Seções 6.6 e 6.7, p. 111-113"
-  },
-  {
-    "id": 405,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em investigação sobre desvio de verbas federais, ao analisar os autos para confeccionar a hipótese criminal, o Delegado verifica que dispõe de informações sobre o local (município federal), as circunstâncias e o tempo do fato, mas inexistem dados objetivos sobre o núcleo verbal — a conduta concretamente atribuída a alguém. Considerando a Instrução Técnica 01/2018-Dicor/PF e os elementos da hipótese criminal, é correto afirmar que:",
-    "alternativas": {
-      "A": "Como o local, as circunstâncias e o tempo já estão delimitados, é viável a condução do inquérito mesmo sem a definição do núcleo verbal, pois a hipótese criminal admite o preenchimento progressivo de seus elementos ao longo da apuração, sendo o verbo o último a ser identificado em razão de sua maior complexidade.",
-      "B": "A ordem de apresentação dos elementos da hipótese criminal (tempo, local, autoria/coautoria, participação, núcleo verbal e circunstâncias) implica hierarquização rígida, sendo o tempo o elemento que, quando ausente, inviabiliza a condução de uma investigação cética, técnica e profissional.",
-      "C": "Ausentes informações concretas sobre o núcleo verbal, deve o Delegado representar por medidas cautelares invasivas voltadas a identificar a conduta dos suspeitos, pois somente assim será possível superar a lacuna e instaurar formalmente o inquérito policial.",
-      "D": "Por mais incipiente que seja uma investigação, ela deverá apresentar, obrigatoriamente, ao menos a ação/núcleo verbal, em consonância com algum dos tipos penais existentes no ordenamento jurídico brasileiro; sem isso, inexiste justa causa para a condução do procedimento apuratório, pois sem o verbo estaria se investigando 'pessoa' e não 'fato'."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Texto literal: 'Apesar de tal afirmação, por mais incipiente que seja uma investigação, ela deverá apresentar, obrigatoriamente, ao menos a ação/núcleo verbal, sendo que o núcleo verbal deverá estar em consonância com algum dos tipos penais existentes no ordenamento jurídico brasileiro. Caso contrário, inexiste justa causa para a condução do procedimento apuratório no âmbito policial.' E: 'é o único elemento que quando ausente inviabiliza a condução de uma investigação cética, técnica e profissional, pois nesse caso estaria se investigando \"pessoa\" e não fato.'",
-    "referencia": "Cap. 6, Seção 6.8.1, p. 116-117"
-  },
-  {
-    "id": 406,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em apuração de crime financeiro complexo, o Delegado precisa estruturar a hipótese criminal nos termos da doutrina institucional da Polícia Federal. Acerca das características, funções e elementos da hipótese criminal, julgue os itens a seguir:\n\nI. Conforme a Instrução Técnica 01/2018-Dicor/PF, a hipótese criminal tem como características a clareza, a falseabilidade e a provisoriedade.\nII. A hipótese criminal tem por funções nortear o esforço investigativo, permitindo ao delegado planejar a condução dos trabalhos, identificar lacunas e meios necessários, adequados e proporcionais; e delimitar o problema, evitando que as diligências se afastem do escopo investigativo objetivamente definido.\nIII. Lacuna pode ser conceituada como aquilo que falta ser provado em sede de inquérito policial, confundindo-se com a ausência de indícios probatórios de corroboração já levantados pela investigação.\nIV. A enunciação da hipótese criminal deve ser feita a partir dos elementos existentes no inquérito policial, não decorrendo de 'aposta', 'instinto' ou 'faro' do investigador, mas da elaboração mental do delegado quanto à correta atribuição de sentido aos elementos coligidos.\nV. O elemento 'local' da hipótese criminal implica e define a jurisdição da apuração, além de indicar a unidade responsável pela apuração, conforme normativos internos da Polícia Federal.\n\nEstão CORRETOS apenas os itens:",
-    "alternativas": {
-      "A": "I, II e III.",
-      "B": "II, III e V.",
-      "C": "I, III, IV e V.",
-      "D": "I, II, IV e V."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Item I correto: 'a hipótese criminal tem como características: (i) clareza; (ii) falseabilidade; (iii) provisoriedade'. Item II correto: o texto descreve exatamente essas duas funções. Item III ERRADO: 'A definição de lacuna indica que esta não pode ser confundida com a ausência de indícios probatórios de corroboração... lacuna não é o que falta ser provado, é aquilo que não é possível enunciar'. Item IV correto: 'a hipotética enunciação categórica não surge de uma \"aposta\", de um \"instinto\", \"faro\" ou tirocínio do investigador, mas da (e)laboração mental do delegado'. Item V correto: 'local: implica e define a jurisdição da apuração, além de indicar a unidade responsável pela apuração'. Corretos: I, II, IV e V.",
-    "referencia": "Cap. 6, Seções 6.8 e 6.8.1, p. 115-116"
-  },
-  {
     "id": 407,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
@@ -27668,40 +27508,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1865,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "O item 6.3.2 do Caderno Didático IPO, ao tratar dos formatos do material probatório, condiciona expressamente a validade jurídica desse material à observância de um requisito. Acerca desse requisito e de sua relação com o formato do material, é correto afirmar que:",
-    "alternativas": {
-      "A": "A validade jurídica do material decorre, em essência, da adoção do princípio da hora de ouro, que assegura a coleta imediata dos vestígios e, com isso, torna dispensável a documentação formal posterior dos elementos obtidos.",
-      "B": "A validade jurídica do material decorre da escolha, feita pela acusação, dos elementos reputados efetivamente úteis à denúncia, restando todos os demais excluídos do conjunto probatório a ser disponibilizado às partes.",
-      "C": "A validade jurídica do material depende exclusivamente da fonte de obtenção, de modo que são considerados válidos apenas os elementos provenientes de sistemas geradores passivos, como CFTV e registros bancários.",
-      "D": "A validade jurídica do material, qualquer que seja o seu formato, exige a estrita observância da cadeia de custódia, justamente para preservar a integridade e a rastreabilidade do elemento coletado."
-    },
-    "resposta_correta": "D",
-    "justificativa": "A alternativa D está correta porque o item 6.3.2 afirma que o material (tangível ou intangível) 'exige estrita observância da cadeia de custódia para garantir validade jurídica'. A alternativa A está errada porque a hora de ouro (6.3.3) trata da tempestividade da coleta, e a formalização documental é dever expresso (6.3.4), não dispensável. A alternativa B está errada porque a seleção pela acusação (6.3.4) não é o que confere validade jurídica ao material. A alternativa C está errada porque a validade não depende exclusivamente da fonte, e os sistemas geradores são apenas uma das fontes (6.3.1), não a única válida.",
-    "referencia": "Cap. 6, Seção 6.3.2 — Formatos do material probatório",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1866,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em um curso de formação, um instrutor sustenta que 'os formatos do material probatório se resumem aos documentos e às declarações, pois somente o que é tangível e palpável pode ser tratado como prova nos autos'. Confrontando essa afirmação com o item 6.3.2 do Caderno Didático IPO, é correto afirmar que:",
-    "alternativas": {
-      "A": "A afirmação está incorreta, pois o material probatório também pode ser intangível, abrangendo, além de documentos e declarações, mídias digitais, imagens, áudio e impressões digitais.",
-      "B": "A afirmação está parcialmente correta, pois, embora existam formatos intangíveis, somente os documentos e as declarações dispensam a observância da cadeia de custódia.",
-      "C": "A afirmação está correta, porquanto o material intangível, como áudios e imagens, não se enquadra entre os formatos do material probatório admitidos pelo Caderno Didático.",
-      "D": "A afirmação está incorreta, pois os formatos do material probatório, na verdade, correspondem às pessoas, aos locais e aos sistemas geradores de onde os elementos são extraídos."
-    },
-    "resposta_correta": "A",
-    "justificativa": "A alternativa A está correta porque o item 6.3.2 estabelece que o material pode ser tangível ou intangível, incluindo declarações, documentos, mídias digitais, objetos físicos, impressões digitais, imagens e áudio. A alternativa B está errada porque a observância da cadeia de custódia é exigida para todo o material, qualquer que seja o formato. A alternativa C está errada porque áudios e imagens são expressamente citados como formatos. A alternativa D está errada porque confunde formato com fonte de obtenção (6.3.1 — pessoas, locais e sistemas geradores).",
-    "referencia": "Cap. 6, Seção 6.3.2 — Formatos do material probatório",
-    "nivel": "medio"
-  },
-  {
     "id": 1867,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
@@ -29553,5 +29359,73 @@
     "justificativa": "Conforme o Caderno (Seções 4.1 e 4.4): a investigação policial busca uma verdade de natureza formal, aproximada e passível de revisão, e atua como 'filtro processual' para evitar acusações infundadas (D). A erra porque a verdade não é absoluta/definitiva, mas aproximada e revisável. B erra porque a investigação é instrumental, não um fim em si. C erra porque a verdade formal não é desvinculada dos fatos, devendo apurá-los de forma lícita.",
     "referencia": "Cap. 4, Seção 4.4 — Objetivos",
     "nivel": "medio"
+  },
+  {
+    "id": 1988,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a importância da metodologia na investigação policial, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "O inquérito policial é o método, ao passo que a metodologia constitui o mero instrumento formal de documentação dos atos da apuração.",
+      "B": "Sem método, a investigação tende à dispersão, a achismos e a vieses; com método, há organização das hipóteses, racionalização de recursos e respeito à cadeia de custódia.",
+      "C": "A tradição puramente prática (o tirocínio aprendido na rua) é suficiente para a tomada de decisão, dispensando a adoção de método na condução da investigação.",
+      "D": "O método deve ser compreendido como um trilho rígido e imutável da apuração, do qual o investigador não pode se afastar ainda que surjam novos dados relevantes no decorrer da investigação criminal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Caderno (Seção 6.1): uma investigação sem método tende à dispersão de esforços, a achismos e à contaminação por vieses cognitivos; o método permite a organização lógica das hipóteses, a racionalização de recursos e o respeito à cadeia de custódia (B). A inverte os conceitos (o inquérito é o instrumento formal; o método é o caminho). C erra porque a tradição puramente prática gera limitações. D erra porque o método é 'caminho, não trilho' — a investigação é adaptável.",
+    "referencia": "Cap. 6, Seção 6.1 — Introdução",
+    "nivel": "medio"
+  },
+  {
+    "id": 1989,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o Caderno, as fontes de obtenção de material probatório na investigação podem ser agrupadas em:",
+    "alternativas": {
+      "A": "Pessoas (vítimas, testemunhas e suspeitos), tidas como as únicas fontes capazes de fornecer material probatório válido para a investigação criminal.",
+      "B": "Documentos públicos e privados reunidos ao longo da apuração, com a exclusão das fontes humanas e também dos vestígios materiais encontrados nos locais de crime examinados.",
+      "C": "Os sistemas geradores de dados, como CFTV, registros telefônicos e extratos bancários, considerados fontes prioritárias em relação a pessoas e locais de crime.",
+      "D": "Pessoas (vítimas, testemunhas, suspeitos), locais (cena do crime e ambientes dos investigados) e sistemas geradores de dados (CFTV, registros telefônicos, extratos)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o Caderno (Seção 6.3.1): as fontes de obtenção de material probatório agrupam-se em Pessoas (vítimas, testemunhas e suspeitos), Locais (cena do crime e ambientes utilizados pelos investigados) e Sistemas Geradores de dados (CFTV, registros telefônicos, extratos bancários) — alternativa D. A, B e C erram por restringir as fontes a apenas uma das categorias ou por excluir indevidamente as demais.",
+    "referencia": "Cap. 6, Seção 6.3.1 — Fontes de material probatório",
+    "nivel": "medio"
+  },
+  {
+    "id": 1990,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a avaliação do material reunido na investigação, conforme o Caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "A avaliação é contínua, em 'tempo lento' (distanciamento crítico), em ciclo/espiral: coletar, avaliar, decidir, executar e reavaliar, até a responsabilização ou o arquivamento.",
+      "B": "A avaliação do material probatório é feita uma única vez, ao final da investigação, no momento da elaboração do relatório final pela autoridade policial.",
+      "C": "A avaliação do material deve ser célere e imediata ('tempo rápido'), evitando o distanciamento crítico, que atrasa a realização das diligências necessárias.",
+      "D": "O ciclo investigativo é estritamente linear e encerra-se já na primeira coleta de materiais, não admitindo novos retornos a fases anteriores ao longo da apuração criminal conduzida pela autoridade policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Caderno (Seção 6.4): a avaliação do material é contínua, feita em 'tempo lento' (distanciamento crítico), operando num ciclo/espiral — coleta, avaliação de significado, tomada de decisão, execução e nova avaliação — até obter provas para a responsabilização penal ou o arquivamento (A). B erra porque a avaliação é contínua, não única. C erra porque o 'tempo lento' (distanciamento crítico) é recomendado. D erra porque o ciclo é em espiral, com retornos a fases anteriores.",
+    "referencia": "Cap. 6, Seção 6.4 — Avaliação do material",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1991,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 6 - Metodologia da Investigação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características da hipótese criminal, conforme o Caderno (mnemônico C-P-F), é correto afirmar que:",
+    "alternativas": {
+      "A": "São a coerência, a permanência e a formalidade, devendo a hipótese criminal ser tratada como definitiva e imutável desde a sua formulação inicial.",
+      "B": "A hipótese criminal deve ser uma conclusão firme e definitiva sobre os fatos apurados, e não um instrumento provisório de trabalho do investigador.",
+      "C": "São a clareza, a provisoriedade e a falseabilidade: a hipótese é instrumento de trabalho, provisório e passível de ser testado e descartado.",
+      "D": "A falseabilidade é dispensável na hipótese criminal, pois ela não precisa ser submetida a testes ou diligências que possam, eventualmente, refutá-la no curso da apuração."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Caderno (Seção 6.8, mnemônico C-P-F): as características da hipótese criminal são clareza, provisoriedade e falseabilidade — a hipótese é instrumento de trabalho, provisório e passível de ser testado, fortalecido ou descartado (C). A e B erram porque a hipótese não é definitiva nem imutável, mas provisória. D erra porque a falseabilidade é justamente uma de suas características essenciais.",
+    "referencia": "Cap. 6, Seção 6.8 — Modelos de hipótese criminal",
+    "nivel": "dificil"
   }
 ]
