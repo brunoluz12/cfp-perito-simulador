@@ -29109,5 +29109,73 @@ const questoesDB = [
     "justificativa": "Conforme o Caderno (Seção 8.2, IN 270/2023): o âmbito central divide-se em três diretorias de gestão estratégica — DICOR (investigação e combate ao crime organizado e à corrupção), DAMAZ (Amazônia e meio ambiente) e DCIBER (combate a crimes cibernéticos) — alternativa B. A erra porque há três diretorias, não apenas a DICOR. C inverte as atribuições (Amazônia/meio ambiente é da DAMAZ; cibernéticos da DCIBER). D erra porque as coordenações de fraudes bancárias, alta tecnologia e abuso sexual infantojuvenil pela internet são da DCIBER.",
     "referencia": "Cap. 8, Seção 8.2 — Supervisão das investigações",
     "nivel": "dificil"
+  },
+  {
+    "id": 1996,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os órgãos de segurança pública previstos no art. 144 da Constituição, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As guardas municipais integram o rol do art. 144 da Constituição como órgãos de polícia judiciária responsáveis pela investigação criminal nos municípios.",
+      "B": "O Corpo de Bombeiros Militar não integra o rol constitucional dos órgãos de segurança pública do art. 144, por exercer atividade meramente administrativa.",
+      "C": "O rol abrange a PF, a PRF, a PFF, as Polícias Civis, as Militares e os Corpos de Bombeiros, além das Polícias Penais (incluídas pela EC 104/2019).",
+      "D": "As Polícias Penais federal, estaduais e distrital foram incluídas no rol dos órgãos de segurança pública pela própria Constituição de 1988, já em sua redação originária."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 1, art. 144 da CF): os órgãos de segurança pública são Polícia Federal, Polícia Rodoviária Federal, Polícia Ferroviária Federal, Polícias Civis, Polícias Militares e Corpos de Bombeiros Militares, e as Polícias Penais federal, estaduais e distrital — estas incluídas pela EC 104/2019 (C). A erra porque as guardas municipais não integram esse rol como polícia judiciária. B erra porque os Corpos de Bombeiros Militares integram o rol. D erra porque as Polícias Penais foram incluídas pela EC 104/2019, não na redação originária.",
+    "referencia": "Cap. 1, Seção 1 — Órgãos de segurança pública",
+    "nivel": "medio"
+  },
+  {
+    "id": 1997,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à (in)dispensabilidade e à obrigatoriedade do inquérito policial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O inquérito policial é indispensável ao oferecimento da denúncia, ainda que o Ministério Público já disponha de elementos de prova suficientes obtidos por outras vias de apuração.",
+      "B": "O inquérito policial é facultativo para o delegado de polícia, que pode deixar de instaurá-lo mesmo ao tomar conhecimento direto de uma infração penal de ação penal pública incondicionada.",
+      "C": "Nas infrações penais de menor potencial ofensivo, o inquérito policial é obrigatório e não pode ser substituído por outro instrumento de documentação dos fatos apurados.",
+      "D": "Dispensável para a denúncia se o MP já dispõe de elementos suficientes, mas obrigatório para o delegado; nos crimes de menor potencial ofensivo, é substituído pelo TCO (Lei 9.099/95)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 1.1.1): o inquérito é dispensável para a denúncia quando o MP já dispõe de elementos suficientes (materialidade e indícios de autoria) por outras vias, mas é obrigatório para o delegado ao tomar conhecimento da infração (princípio da oficiosidade); nas infrações de menor potencial ofensivo, a Lei 9.099/95 o torna dispensável, substituindo-o pelo TCO (D). A erra porque é dispensável nessa hipótese. B erra porque é obrigatório para o delegado. C erra porque, nas IMPO, cede lugar ao TCO.",
+    "referencia": "Cap. 1, Seção 1.1.1 — Inquérito policial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1998,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as atribuições da Polícia Federal previstas no art. 144, § 1º, da Constituição, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Cabe à PF exercer as funções de polícia marítima, aeroportuária e de fronteiras de forma necessariamente conjunta e compartilhada com a Polícia Rodoviária Federal.",
+      "B": "Cabe à PF exercer, com exclusividade, as funções de polícia judiciária da União, além de polícia marítima, aeroportuária e de fronteiras.",
+      "C": "A repressão ao tráfico ilícito de drogas e ao contrabando é atribuição da PF, exercida com a exclusão de outros órgãos públicos nas suas respectivas áreas de competência fazendária.",
+      "D": "A PF apura as infrações penais em detrimento de bens e serviços da União, mas não alcança aquelas de repercussão interestadual ou internacional que exijam repressão uniforme."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 1.2, art. 144, § 1º): a PF exerce, com exclusividade, as funções de polícia judiciária da União (inciso IV) e exerce as funções de polícia marítima, aeroportuária e de fronteiras (inciso III) — alternativa B. A erra porque a polícia marítima/aeroportuária/de fronteiras é da PF, não compartilhada com a PRF. C erra porque a repressão ao tráfico e contrabando é feita 'sem prejuízo da ação fazendária e de outros órgãos'. D erra porque a PF também apura infrações de repercussão interestadual ou internacional que exijam repressão uniforme.",
+    "referencia": "Cap. 1, Seção 1.2 — A Polícia Federal",
+    "nivel": "medio"
+  },
+  {
+    "id": 1999,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a requisição de instauração de inquérito policial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Ministério Público e juiz podem requisitar a instauração; ainda assim, o inquérito não se inicia automaticamente, pois cabe ao delegado o controle de legalidade do pedido.",
+      "B": "A requisição do Ministério Público vincula plenamente o delegado, que deve instaurar o inquérito de imediato, sem realizar juízo prévio de legalidade sobre o pedido formulado.",
+      "C": "Cabe ao juiz, com a exclusão do Ministério Público, requisitar a instauração de inquérito policial nas infrações penais de ação penal pública.",
+      "D": "A notícia-crime feita por pessoa do povo obriga o delegado a instaurar o inquérito policial de imediato, independentemente da prévia verificação da procedência das informações que lhe foram prestadas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 1.1.1): o MP e o juiz podem requisitar a instauração do inquérito, mas ele não se inicia imediatamente, pois há um controle de legalidade pelo delegado para evitar constrangimentos ilegais (A). B erra porque há controle de legalidade. C erra porque tanto o MP quanto o juiz podem requisitar. D erra porque, na notitia criminis, o delegado manda instaurar após verificar a procedência das informações (art. 5º, § 3º, CPP).",
+    "referencia": "Cap. 1, Seção 1.1.1 — Inquérito policial",
+    "nivel": "medio"
   }
 ];
