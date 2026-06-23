@@ -27379,23 +27379,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1804,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 5 - Preparação da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Um delegado, ao instruir uma equipe projetada, esclarece que aquilo que ela deve perseguir não se esgota na prisão a ser efetuada, mas envolve a obtenção de dados que permitam recompor os acontecimentos, verificar a existência ou não de crime e indicar seus autores, conforme a linha delineada pela equipe originária. Considerando a distinção feita pelo texto entre mérito e objetivo da ação, a descrição apresentada pelo delegado corresponde a qual conceito e por quê?",
-    "alternativas": {
-      "A": "Ao mérito da ação, porque ele é mais amplo que o objetivo e abrange a obtenção de dados para recompor os fatos e apurar autoria, segundo a linha da equipe originária.",
-      "B": "Ao objetivo da ação, porque ele traduz a missão imediata a ser cumprida pela equipe no local de interesse, tais como a prisão, a busca e a apreensão ou a oitiva previamente determinada.",
-      "C": "Ao propósito da missão, que se restringe ao conhecimento dos aspectos operacionais e à definição das técnicas e táticas a serem empregadas pela equipe.",
-      "D": "À ficha de alvo, documento sintético que reúne as informações básicas do investigado e antecede a definição da estratégia da equipe de cumprimento."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Correta a A: o texto define o mérito da ação como algo mais amplo que o objetivo, envolvendo a obtenção de dados com o fim de recompor os acontecimentos dos fatos, verificar a existência ou não de crime e indicar seus autores, conforme a linha delineada pela equipe de investigação originária (p. 72-73). A B descreve o objetivo da ação, que se refere ao cumprimento da missão imediata (prisão, busca e apreensão etc.), exatamente o instituto vizinho do qual o mérito não se confunde (p. 72). A C distorce o propósito da missão, que é o conhecimento do mérito, dos aspectos operacionais, da documentação e da execução, e não algo restrito aos aspectos operacionais (p. 71-72). A D define a ficha de alvo, documento, e não o conceito perseguido (p. 74). (p. 72-73)",
-    "referencia": "PDF IPO III, p. 73",
-    "nivel": "dificil"
-  },
-  {
     "id": 1805,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 5 - Preparação da Ação",
@@ -29011,40 +28994,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1907,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 5 - Preparação da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante o briefing de uma operação, um instrutor responde a quatro perguntas formuladas por integrantes das equipes projetadas: (I) \"Quais são os alvos e suas particularidades, e o que se pretende alcançar com a operação?\"; (II) \"Quais são os riscos envolvidos e as medidas de segurança que serão adotadas?\"; (III) \"De que forma cada documento será preenchido?\"; (IV) \"Quais são os cuidados com a cadeia de custódia ao arrecadar e apreender?\". Conforme a estruturação do briefing apresentada no texto, essas quatro perguntas dizem respeito, respectivamente, a:",
-    "alternativas": {
-      "A": "ao mérito da ação; à execução; à formalização de documentos; aos aspectos operacionais.",
-      "B": "aos aspectos operacionais; ao mérito da ação; à execução; à formalização de documentos.",
-      "C": "ao mérito da ação; aos aspectos operacionais; à formalização de documentos; à execução.",
-      "D": "ao mérito da ação; aos aspectos operacionais; à execução; à formalização de documentos."
-    },
-    "resposta_correta": "C",
-    "justificativa": "No briefing, o texto associa cada aspecto a perguntas específicas. (I) alvos, particularidades e o que se pretende alcançar = MÉRITO DA AÇÃO ('o que se pretende alcançar', alvos e suas particularidades). (II) riscos envolvidos e medidas de segurança = ASPECTOS OPERACIONAIS ('como a operação será realizada? quais os riscos? quais medidas de segurança?'). (III) como os documentos serão preenchidos = FORMALIZAÇÃO DE DOCUMENTOS ('quais documentos são necessários e como serão preenchidos'). (IV) cuidados com a cadeia de custódia ao arrecadar e apreender = EXECUÇÃO ('como cada equipe executará a missão, o que arrecadar e apreender, cuidados com a cadeia de custódia'). A sequência correta é mérito; aspectos operacionais; documentos; execução (C). A erra ao classificar (II) sobre riscos/segurança como execução e (IV) sobre cadeia de custódia como aspectos operacionais, invertendo os dois institutos. B desloca o mérito para a segunda pergunta, atribuindo a (I) os aspectos operacionais, contrariando o vínculo entre 'o que se pretende alcançar/alvos' e o mérito. D acerta (I) e (II), mas troca (III) e (IV): preenchimento de documentos é formalização de documentos, não execução, e a cadeia de custódia integra a execução, não a documentação.",
-    "referencia": "PDF IPO III, p. 83",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1908,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 5 - Preparação da Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma operação especial de polícia judiciária, com desencadeamento simultâneo de múltiplas ações em locais de interesse distribuídas por vários Estados, a equipe de investigação avalia como transmitir o propósito da missão às equipes de cumprimento de mandados. Cogita-se a designação de coordenadores regionais e, alternativamente, o uso da plataforma oficial de comunicação. Considerando a reunião prévia de coordenação para nivelamento e a divisão de funções descritas no texto, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "Com o uso da plataforma oficial pela própria equipe de investigação para repassar mérito, aspectos operacionais e documentação, os coordenadores regionais ficam dispensados, transferindo-se a divisão de funções entre as equipes ao chefe de cada equipe projetada.",
-      "B": "Na ausência da plataforma oficial, cabe aos coordenadores regionais repassar às equipes projetadas o mérito da ação, os aspectos operacionais, a documentação e a execução, incutindo nelas o propósito da missão e cuidando da execução no dia da deflagração.",
-      "C": "A reunião de nivelamento substitui o briefing das equipes projetadas, de modo que o repasse do mérito da ação aos executores se esgota no encontro entre os coordenadores regionais e a equipe de investigação originária.",
-      "D": "A divisão de funções entre as equipes deve ser fixada pelos coordenadores regionais segundo o mérito da ação, e não conforme o objetivo imediato, já que é o mérito, e não o objetivo, que delimita a missão de cada equipe."
-    },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma que, na operação especial com múltiplas ações, os coordenadores regionais são quem repassam às equipes projetadas o mérito da ação, os aspectos operacionais, a documentação e a execução, assumindo a missão de incutir o propósito da missão e cuidando dos aspectos de execução no dia da deflagração (B). O uso da plataforma oficial é apresentado como possibilidade que altera essa repartição, não como pressuposto. A erra no efeito: com a plataforma, a própria equipe de investigação/execução pode repassar mérito, aspectos operacionais e documentação, ficando aos coordenadores regionais APENAS os aspectos de execução propriamente dita (viaturas, encaminhamento de presos, salas); os coordenadores não são dispensados nem a divisão de funções migra para os chefes de equipe. C erra ao confundir institutos: a reunião de nivelamento ocorre entre coordenadores e equipe de investigação para que aqueles, depois, repassem o conhecimento às equipes projetadas — ela não substitui o briefing das executoras nem esgota o repasse do mérito. D inverte o critério da divisão de funções: o texto estabelece que as funções são divididas considerando o OBJETIVO IMEDIATO de cada equipe (cumprimento de mandado, custódia, interrogatório, flagrante), embora sempre tendo em conta o mérito, que é mais amplo; o mérito não é o critério de repartição das funções.",
-    "referencia": "PDF IPO III, p. 85",
-    "nivel": "dificil"
-  },
-  {
     "id": 1909,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 6 - Desencadeamento da Ação",
@@ -29791,5 +29740,107 @@
     "justificativa": "Conforme o material (p. 61-62): a temporária tem prazo de 5 dias, prorrogáveis por igual período, ou de 30 + 30 dias em crimes hediondos e equiparados, sendo cabível quando imprescindível às investigações, quando o indiciado não tiver residência fixa/identificação, ou diante de fundadas razões de autoria em crimes específicos (C). A erra porque há prorrogação e prazo diferenciado para hediondos. B erra porque o cabimento exige rol taxativo de crimes, não 'crime de natureza diversa'. D erra porque a temporária é cabível apenas na fase de investigação.",
     "referencia": "PDF IPO III, p. 62",
     "nivel": "dificil"
+  },
+  {
+    "id": 1954,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o material, o êxito de uma operação em local de interesse assenta-se em três elementos essenciais. São eles:",
+    "alternativas": {
+      "A": "Planejamento minucioso, formalização do plano operacional e instrução clara das equipes envolvidas.",
+      "B": "Compartimentação das informações, redução do efetivo empregado e atuação isolada de cada equipe projetada.",
+      "C": "Antecipação da deflagração, dispensa do briefing e concentração das decisões operacionais em uma única autoridade.",
+      "D": "Ampla divulgação pública prévia da operação, terceirização integral da logística de transporte e flexibilização dos registros da cadeia de custódia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 71), os três elementos essenciais do êxito são: planejamento minucioso, formalização do plano operacional e instrução clara das equipes envolvidas (A). B, C e D apresentam fatores que contrariam a doutrina de planejamento operacional (atuação isolada, dispensa de briefing e divulgação pública prévia comprometeriam segurança, coesão e sigilo).",
+    "referencia": "PDF IPO III, p. 71",
+    "nivel": "medio"
+  },
+  {
+    "id": 1955,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o planejamento da ação e a equipe de coordenação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A participação de peritos e papiloscopistas no planejamento da ação é vedada, por comprometer o sigilo necessário à fase ostensiva da investigação.",
+      "B": "A equipe de coordenação deve ser constituída no próprio dia da deflagração, para preservar o sigilo, e ser liderada pelo escrivão de plantão da unidade.",
+      "C": "Recomenda-se a participação de áreas técnicas (perito, papiloscopista) no planejamento, e a equipe de coordenação é liderada por Delegado e constituída com antecedência suficiente.",
+      "D": "A composição e o prazo de organização da equipe de coordenação independem da dimensão, da complexidade e da especificidade da ação, sendo integralmente padronizados em norma interna."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 71-72): recomenda-se a participação de áreas técnicas (perito, papiloscopista) no planejamento, e a equipe de coordenação deve ser liderada por Delegado de Polícia Federal e constituída com antecedência suficiente (C). A erra porque a participação técnica é recomendada, não vedada. B erra porque a equipe é montada com antecedência e liderada por Delegado. D erra porque a composição e o prazo são proporcionais à dimensão, complexidade e especificidade da ação.",
+    "referencia": "PDF IPO III, p. 72",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1956,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No planejamento da execução (5.1.4), o material trata dos recursos e da logística da deflagração. Sobre esses pilares, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os recursos financeiros restringem-se ao pagamento de diárias, não se admitindo a disponibilização de Suprimento de Fundos para a deflagração da operação.",
+      "B": "Os recursos financeiros incluem o Suprimento de Fundos, e a logística da deflagração abrange bases operacionais, transporte do efetivo, hospedagem e os horários de cumprimento.",
+      "C": "A logística da deflagração limita-se à escolha do armamento e do vestuário das equipes, sem alcançar a seleção de bases, o transporte ou a hospedagem do efetivo.",
+      "D": "Recomenda-se evitar o contato com o Juízo no dia da deflagração, para não comprometer o sigilo de eventuais novos mandados, ainda que isso restrinja o aproveitamento de oportunidades surgidas durante a ação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 81-82): os recursos financeiros têm como destaque o Suprimento de Fundos, e a logística da deflagração abrange seleção de bases, transporte do efetivo, hospedagem/alimentação, local do briefing e horários de cumprimento (B). A erra porque o Suprimento de Fundos é justamente previsto. C confunde logística com recursos materiais (armamento/vestuário). D erra porque se recomenda manter contato com o Juízo, ante a possibilidade de novos mandados.",
+    "referencia": "PDF IPO III, p. 82",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1957,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a realização do briefing e a participação de órgãos parceiros, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A participação de órgãos parceiros, como CGU, RFB e IBAMA, é obrigatória nas operações interinstitucionais, dispensando-se a análise da necessidade de conhecer e da preservação do sigilo da investigação em curso.",
+      "B": "O briefing deve ser realizado de modo presencial, ficando vedada a transmissão remota a equipes de outros Estados ou de locais distantes.",
+      "C": "A entrega efetiva das pastas, documentos e malotes às equipes ocorre após o término da operação, já na fase de debriefing conduzida pela coordenação.",
+      "D": "A participação de órgãos parceiros pauta-se pelo princípio da necessidade de conhecer, e admite-se a transmissão remota do briefing a equipes distantes, atentando-se ao fuso horário."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (p. 84): a participação de órgãos parceiros pauta-se pelo princípio da necessidade de conhecer, e admite-se a transmissão remota do briefing a equipes que não possam comparecer ou de outros Estados, atentando-se ao fuso horário (D). A erra porque a participação dos parceiros é filtrada pela necessidade de conhecer. B erra porque a transmissão remota é admitida. C erra porque a entrega das pastas e malotes ocorre no briefing (antes da ação), não no debriefing.",
+    "referencia": "PDF IPO III, p. 84",
+    "nivel": "medio"
+  },
+  {
+    "id": 1958,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a divisão das funções entre as equipes (5.2.1), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As divisões consideram o objetivo imediato de cada ação (prisão, busca, custódia), sem perder de vista o mérito, que é mais amplo e visa corroborar, refutar ou modificar os fatos apurados.",
+      "B": "O objetivo imediato de cada equipe confunde-se com o mérito da ação, ambos esgotando-se no cumprimento do respectivo mandado pela equipe projetada.",
+      "C": "Estabelecidas as funções, não se admitem reuniões de instrução distintas, devendo as equipes receber o mesmo grau de informação sobre a investigação.",
+      "D": "A divisão de funções dispensa o repasse do propósito da missão às equipes, bastando informar a cada uma o seu objetivo específico e os procedimentos do respectivo cumprimento, sem ciência do contexto investigativo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 84-85): as divisões de funções consideram o objetivo imediato de cada ação (cumprimento de mandado, custódia, interrogatório etc.), mas sempre tendo em conta o mérito da ação, que é mais amplo e busca corroborar, refutar ou modificar os fatos apurados (A). B erra porque objetivo imediato e mérito não se confundem. C erra porque o chefe pode organizar reuniões de instrução distintas conforme o grau de conhecimento. D erra porque o briefing visa justamente repassar o propósito da missão.",
+    "referencia": "PDF IPO III, p. 85",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1959,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a reunião prévia de coordenação para nivelamento (5.2.2) e o uso de plataformas de comunicação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os coordenadores regionais devem ser designados em operação policial, ainda que se trate de uma única ação isolada em local de interesse, sem múltiplas frentes.",
+      "B": "O Microsoft Teams presta-se à mera troca de mensagens, não sendo recomendável para o compartilhamento de arquivos sigilosos produzidos durante a operação.",
+      "C": "Com a plataforma oficial, a própria equipe de investigação pode repassar o mérito, os aspectos operacionais e a documentação, cabendo aos coordenadores regionais a execução propriamente dita.",
+      "D": "Cada equipe deve concentrar as comunicações em um único canal comum aos recrutados, ficando proibida a criação de canais próprios e restritos para tratar de assuntos que demandem compartimentação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 85-86): com a plataforma oficial de comunicação, a própria equipe de investigação/execução pode repassar o mérito, os aspectos operacionais, a documentação e a execução, ficando os coordenadores regionais apenas com os aspectos da execução propriamente dita (C). A erra porque os coordenadores regionais são designados em operações especiais com múltiplas ações, não em ação isolada. B erra porque o Teams permite trabalho colaborativo e compartilhamento seguro de arquivos. D erra porque cada equipe pode ter canais próprios e restritos para compartimentação.",
+    "referencia": "PDF IPO III, p. 85",
+    "nivel": "medio"
   }
 ]
