@@ -27804,40 +27804,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1837,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a ampliação da competência da SENAD na gestão de ativos e as normas a ela associadas, considere uma situação em que se discute apoiar o Judiciário na alienação antecipada de bens objeto de crime não relacionado a drogas. Assinale a alternativa correta.",
-    "alternativas": {
-      "A": "Até 2019 a competência da SENAD se limitava aos ativos da Lei de Drogas (Lei nº 11.343/2006); o Decreto nº 9.662/2019 a ampliou, e a Resolução nº 356/2020 do CNJ autoriza o Judiciário a buscar seu apoio na gestão e alienação.",
-      "B": "Desde a Lei nº 11.343/2006 a SENAD já detinha competência sobre quaisquer ativos de perdimento; o Decreto nº 9.662/2019 apenas a renomeou, e a Resolução nº 356/2020 do CNJ restringiu seu apoio à alienação definitiva.",
-      "C": "A competência da SENAD foi ampliada pela Instrução Normativa nº 255/2023-DG/PF, que a tornou agência central de gestão de ativos, ficando o apoio do CNJ por meio da Resolução nº 356/2020 limitado aos crimes da Lei de Drogas.",
-      "D": "O Decreto nº 9.662/2019 ampliou a competência da SENAD apenas para a administração de bens, vedando sua atuação na alienação; a Resolução nº 356/2020 do CNJ, por sua vez, autoriza somente a alienação após o trânsito em julgado."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Correta a A: o texto indica que até 2019 a competência da SENAD se restringia aos ativos da Lei nº 11.343/2006; o Decreto nº 9.662/2019 ampliou substancialmente suas atribuições, e a Resolução nº 356/2020 do CNJ autoriza o Judiciário a buscar seu apoio na gestão e alienação de ativos, inclusive antecipada (p. 122-123). A B afirma competência ampla desde 2006 e restringe o apoio à alienação definitiva, contrariando o texto. A C troca o marco normativo pela IN 255/2023 e limita o apoio à Lei de Drogas. A D nega à SENAD a alienação e restringe a Resolução à alienação após trânsito em julgado, o que o texto não estabelece. (p. 122-123)",
-    "referencia": "PDF IPO III, p. 123",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1838,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Um veículo de grande porte apreendido foi removido para depósito da Polícia Federal. Meses depois, um fato superveniente passa a dificultar a manutenção e a custódia do bem na sede policial. Conforme o capítulo, como deve proceder o Delegado de Polícia Federal responsável pelo caso?",
-    "alternativas": {
-      "A": "Deve restituir compulsoriamente o bem ao proprietário, pois a superveniência de dificuldade na custódia faz cessar o interesse da investigação e impede a manutenção da constrição sobre o veículo apreendido.",
-      "B": "Deve manter o bem no depósito policial até a destinação final, já que a nomeação de fiel depositário só é admitida no momento do cumprimento do mandado, sendo vedada quando o bem já está sob custódia da Polícia Federal.",
-      "C": "Deve avaliar a possibilidade de nomear um fiel depositário para a guarda e conservação do bem, caso não sejam viáveis as hipóteses de alienação antecipada ou de restituição do bem ao seu proprietário.",
-      "D": "Deve transferir imediatamente o bem à SENAD para alienação antecipada, independentemente de decisão judicial, por ser este o único desfecho cabível quando a custódia do veículo se torna inviável na sede policial."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a C: o texto prevê que, surgindo fato superveniente que dificulte a manutenção do bem já em custódia, o Delegado responsável deve avaliar a possibilidade de nomear fiel depositário para guarda e conservação, caso não sejam viáveis a alienação antecipada ou a restituição ao proprietário (p. 123-124). A A impõe restituição compulsória, não prevista. A B nega a nomeação após o bem estar sob custódia, contrariando a hipótese expressa de fato superveniente. A D obriga a transferência à SENAD sem decisão judicial e como único desfecho, o que o texto não estabelece. (p. 123-124)",
-    "referencia": "PDF IPO III, p. 124",
-    "nivel": "medio"
-  },
-  {
     "id": 1839,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
@@ -29011,23 +28977,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1917,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Recebidos da equipe de cartório os malotes lacrados, mediante registro de transferência da custódia, a equipe de investigação conduz o tratamento do material. Considerando a sequência e as cautelas do procedimento pós-ação, assinale a alternativa que descreve corretamente uma dessas etapas.",
-    "alternativas": {
-      "A": "A transferência da custódia dos malotes da equipe de cartório para a equipe de investigação é registrada no sistema de análise remota de dados (SARD), ferramenta destinada também ao controle dos rompimentos de lacre.",
-      "B": "Concluída a análise direta, o material e as informações produzidas são carregados no ePol pelo escrivão do feito, ficando a disponibilização e a juntada aos autos do inquérito condicionadas à ordem do delegado.",
-      "C": "O rompimento dos lacres precede a abertura dos malotes e, em seguida, executa-se a triagem, deixando a conferência do conteúdo com os respectivos termos de apreensão para o momento posterior à separação em material para perícia, análise e restituição.",
-      "D": "A análise de mídias e dispositivos eletrônicos deve recair sobre os dispositivos originais para assegurar a autenticidade dos dados, reservando-se as cópias forenses para a hipótese de contraprova requerida pela defesa."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a B: o texto determina que, ao término dos trabalhos, as informações produzidas e o material analisado, organizado e etiquetado por alvo e local, são entregues ao escrivão do feito para carregamento no ePol e, somente após ordem do delegado, são disponibilizados, isto é, juntados aos autos (8.1.3). A erra a ferramenta: a transferência da custódia dos malotes é registrada no sistema ePol, não no SARD — este serve para extração e disponibilização de dados de mídias digitais para análise remota. C inverte a ordem das etapas: imediatamente após a abertura (rompimento de lacre), confere-se o conteúdo com os termos de apreensão e só então se executa a triagem nos três grupos — a conferência antecede a triagem, não a sucede. D inverte a boa prática: a análise deve recair, sempre que possível, sobre cópias forenses (espelhamentos), e não sobre os dispositivos originais, justamente para preservar a integridade do material original para eventuais contraprovas ou perícias futuras.",
-    "referencia": "PDF IPO III, p. 121",
-    "nivel": "dificil"
-  },
-  {
     "id": 1918,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
@@ -29841,6 +29790,108 @@
     "resposta_correta": "A",
     "justificativa": "Conforme o material (p. 98-99): a Ficha de Avaliação do debriefing avalia três eixos — aspectos operacionais, de documentação e referentes à execução —, podendo ser encaminhada de forma virtual (ex.: Google Forms) quando inviável a reunião presencial (A). B descreve o briefing (que antecede a ação), não o debriefing (posterior). C erra porque a finalidade é o aperfeiçoamento da gestão e do planejamento, não a apuração disciplinar. D erra porque se admite o uso de formulários virtuais.",
     "referencia": "PDF IPO III, p. 99",
+    "nivel": "medio"
+  },
+  {
+    "id": 1966,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o tratamento pós-ação na operação de polícia judiciária, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A deflagração é um fim em si mesma, esgotando-se o trabalho investigativo com o mero cumprimento dos mandados de busca e de prisão expedidos.",
+      "B": "O tratamento pós-ação resume-se à análise probatória do material apreendido, não abrangendo a administração dos bens e valores constritos na operação.",
+      "C": "A deflagração tem papel instrumental, e o tratamento pós-ação desenvolve-se em duas frentes: a análise do material apreendido e a administração dos bens constritos.",
+      "D": "A administração dos bens constritos compete ao setor de criminalística da unidade policial, cabendo ao presidente da investigação a mera análise probatória do material apreendido em campo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 117-118): a deflagração não é um fim em si mesma, possuindo papel instrumental, e o tratamento pós-ação desenvolve-se em duas frentes — a análise do material apreendido (produzir provas) e a correta administração dos bens constritos (preservar o valor dos ativos) — alternativa C. A erra porque a deflagração é instrumental. B erra porque a administração de bens é a segunda frente. D erra porque a gestão dos bens recai sobre o presidente da investigação.",
+    "referencia": "PDF IPO III, p. 117",
+    "nivel": "medio"
+  },
+  {
+    "id": 1967,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o material destinado à perícia na fase pós-ação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A demanda pericial só deve ser considerada após a deflagração da operação policial, sendo tecnicamente inadequado envolver a unidade de criminalística ainda na fase de planejamento operacional da ação.",
+      "B": "A demanda pericial deve ser antevista no planejamento, com interação entre investigação e perícia, e os laudos devem ser concluídos em tempo hábil, antes do encerramento da instrução.",
+      "C": "O encaminhamento à criminalística independe de quesitos, bastando a remessa física dos itens apreendidos para um exame genérico do material.",
+      "D": "A ordem de prioridade dos exames dentro da investigação é fixada livremente pela equipe, sem necessidade de alinhamento com o responsável pela unidade de criminalística local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 119): a demanda pericial deve ser antevista já no planejamento (com interação entre a equipe de investigação e a perícia), e os laudos devem ser concluídos em tempo hábil, preferencialmente antes do encerramento da instrução do inquérito (B). A erra porque a perícia deve ser envolvida no planejamento. C erra porque a requisição de exame deve conter quesitos objetivos. D erra porque a ordem de prioridade é alinhada com o responsável pela unidade de criminalística.",
+    "referencia": "PDF IPO III, p. 119",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1968,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a abertura de malotes e a triagem inicial do material apreendido, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Após o rompimento documentado dos lacres, o conteúdo é conferido com os termos de apreensão, e os materiais são mantidos separados por alvo, com cópia do termo junto ao lote.",
+      "B": "O rompimento dos lacres dispensa registro nos autos, desde que realizado por policial da própria equipe de investigação responsável pela análise.",
+      "C": "Os materiais de diferentes alvos podem ser reunidos em um mesmo recipiente plástico, desde que devidamente etiquetados, para agilizar a distribuição e o exame pelos analistas da equipe de investigação.",
+      "D": "A conferência do conteúdo do malote com os respectivos termos de apreensão é dispensável quando o material é recebido lacrado da equipe de cartório."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 118-119): após o rompimento dos lacres (documentado nos autos), o conteúdo de cada malote é conferido com os termos de apreensão, e, como boa prática de preservação da cadeia de custódia, os materiais são mantidos separados por alvo, com cópia do termo junto a cada lote (A). B erra porque o rompimento deve ser registrado. C erra porque não se devem misturar materiais de alvos distintos. D erra porque a conferência com os termos de apreensão é etapa necessária.",
+    "referencia": "PDF IPO III, p. 118",
+    "nivel": "medio"
+  },
+  {
+    "id": 1969,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os registros especiais utilizados na administração de bens, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O Registro Especial de Destinação e o Registro Especial de Recuperação de Ativos são termos sinônimos, formalizando exatamente o mesmo procedimento administrativo de gestão de bens.",
+      "B": "O Registro Especial de Destinação formaliza os atos de investigação patrimonial que correm em paralelo ao inquérito policial de autoria e materialidade.",
+      "C": "Recomenda-se a abertura de um único Registro Especial de Destinação para o conjunto de investigados da operação, a fim de concentrar a alienação dos ativos em um só bloco processual.",
+      "D": "O Registro Especial de Destinação formaliza, em autos próprios, a destinação e alienação do ativo apreendido, não se confundindo com o Registro Especial de Recuperação de Ativos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (p. 121-122): o Registro Especial de Destinação formaliza, em autos próprios, a destinação e a alienação do ativo já apreendido, e não se confunde com o Registro Especial de Recuperação de Ativos, em que se formalizam os atos de investigação patrimonial paralelos ao inquérito (D). A erra porque não são sinônimos. B descreve o Registro Especial de Recuperação de Ativos, não o de Destinação. C erra porque se recomenda um Registro Especial de Destinação por investigado, para evitar embaraços na alienação.",
+    "referencia": "PDF IPO III, p. 121",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1970,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o momento de planejamento da administração dos bens a serem constritos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Deve ser definida após a efetiva apreensão dos bens de interesse, momento em que se conhece a sua real dimensão, natureza e valor de mercado.",
+      "B": "Deve ser vislumbrada e planejada, quando possível, já na fase pré-operacional, pois costuma exigir alinhamento prévio entre instituições, entidades ou particulares.",
+      "C": "Cabe integralmente à SENAD, sem participação do presidente da investigação na definição da destinação e da guarda dos ativos constritos na operação.",
+      "D": "É dispensável o planejamento prévio para bens de grande porte, cuja guarda se resolve, em regra, com a simples remoção e o armazenamento em depósito mantido pela Polícia Federal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 122): a administração dos bens deve ser vislumbrada e planejada, quando possível, já na fase pré-operacional, pois muitas vezes exige alinhamento prévio entre diferentes instituições, entidades ou particulares — não sendo aconselhável promover esses atos após a apreensão (B). A erra porque o planejamento é prévio. C erra porque a gestão recai sobre o presidente da investigação (a SENAD atua como agência central). D erra porque bens de grande porte demandam planejamento (inclusive fiel depositário).",
+    "referencia": "PDF IPO III, p. 122",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1971,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 8 - Tratamento Pós-Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise direta do material pela equipe de investigação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Informação de Polícia Judiciária resultante da análise deve ser organizada estritamente em ordem cronológica de apreensão dos itens, sendo vedada a divisão por investigado, local ou tema.",
+      "B": "Policiais de reforço, alheios ao caso, devem analisar o material sem acesso prévio à portaria de instauração e à representação policial, a fim de preservar a sua imparcialidade na apuração dos fatos investigados.",
+      "C": "Recomenda-se que policiais de reforço façam a leitura prévia da portaria de instauração e da representação, e a Informação de Polícia Judiciária pode ser organizada por investigado, local ou tema.",
+      "D": "A análise direta independe de despacho do presidente da investigação, podendo cada policial definir livremente as suas próprias prioridades de exame."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (p. 120): como é comum o reforço de policiais alheios ao caso, é boa prática a leitura prévia da portaria de instauração e da representação, e a Informação de Polícia Judiciária pode ser organizada por investigado, local de busca ou tema (C). A erra porque a organização por investigado/local/tema é recomendada. B erra porque se recomenda o conhecimento prévio do caso, não o desconhecimento. D erra porque a análise direta é iniciada por despacho do presidente da investigação.",
+    "referencia": "PDF IPO III, p. 120",
     "nivel": "medio"
   }
 ]
