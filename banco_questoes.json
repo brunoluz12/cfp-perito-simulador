@@ -3024,70 +3024,6 @@
     "referencia": "Cap. 4, Seção 4.2.3, p. 32"
   },
   {
-    "id": 365,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma unidade da Polícia Federal, três delegados discutem o método investigativo a ser adotado. O Delegado A defende que a investigação deve ser sempre centrada na pessoa do investigado, mapeando seu histórico para encontrar algum ilícito que possa ser-lhe imputado. O Delegado B afirma que a investigação proativa, por se iniciar a partir de análise de inteligência, dispensa o requisito da causa provável e admite a chamada fishing expedition. O Delegado C sustenta que tanto a investigação proativa quanto a reativa devem estar ancoradas em fatos determinados, sob pena de violação ao princípio da impessoalidade. Considerando o que dispõe o Caderno Didático IPO acerca dos métodos de investigação, é correto afirmar que:",
-    "alternativas": {
-      "A": "Apenas o Delegado B está correto, pois a investigação proativa, por se basear em informações de inteligência, prescinde de justa causa e autoriza expressamente as chamadas 'pescarias probatórias' como técnica especial de polícia judiciária.",
-      "B": "Os Delegados A e B estão corretos, pois a investigação proativa caracteriza-se justamente pela persecução subjetiva voltada a 'procurar algo criminoso' em determinada pessoa, sendo plenamente admitida no ordenamento jurídico brasileiro.",
-      "C": "Apenas o Delegado C está correto, pois mesmo na investigação proativa a Polícia Federal deve sempre se basear na investigação de fatos e não de pessoas, não se confundindo com a investigação prospectiva, na qual se inicia persecução subjetiva baseada em fatos pregressos para construir perfil suspeito.",
-      "D": "Os Delegados A e C estão corretos, pois a investigação policial centrada em pessoas é admissível quando se trata de organizações criminosas, sendo essa a essência do método proativo adotado pela Polícia Federal a partir de 2016."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o capítulo: 'mesmo na investigação proativa, a Polícia Federal deve sempre se basear na investigação de fatos e não de pessoas, pois a investigação proativa não se confunde com investigação prospectiva. Por investigação prospectiva entende-se aquela em que não há causa provável... inicia-se uma persecução subjetiva, baseada em fatos pregressos e informações fragmentárias que possam construir um perfil suspeito'. A investigação prospectiva e a fishing expedition não podem ser aceitas no ordenamento jurídico brasileiro.",
-    "referencia": "Cap. 7, Seção 7.1.1, p. 122-123"
-  },
-  {
-    "id": 366,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "A equipe da Delegacia de Repressão a Entorpecentes recebe relatório de análise produzido a partir de ferramentas de business intelligence (BI), apontando vínculos entre ocorrências esparsas que indicam a atuação de organização criminosa dedicada ao tráfico interestadual. Diante desse cenário, com base na doutrina da polícia britânica (Core Investigative Doctrine) acolhida no Caderno Didático IPO, a investigação a ser desencadeada classifica-se como:",
-    "alternativas": {
-      "A": "Proativa, pois decorre da detecção de eventos criminosos em andamento ou que ocorrerão em futuro imediato, iniciada a partir de análise de inteligência e uso de ferramentas de BI para identificar vínculos e desarticular grupos criminosos organizados.",
-      "B": "Prospectiva, pois parte da análise de dados fragmentários sobre indivíduos, caracterizando-se pela ausência de justa causa e por violar o princípio da impessoalidade.",
-      "C": "Reativa, uma vez que se origina de informações já consolidadas em sistemas, equiparáveis à notícia-crime tradicional, dispensando o uso de técnicas especiais de polícia judiciária.",
-      "D": "Mista de primeira geração, técnica em desuso na Polícia Federal desde 2016, caracterizada pelo alargamento exclusivo da fase ostensiva da investigação e pela rejeição do método F3EAD."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Segundo o capítulo: 'a investigação proativa se dá a partir da detecção de eventos criminosos que estão ocorrendo naquele momento ou que vão ocorrer em um futuro imediato... O tipo proativo geralmente começa com uma análise de informações de inteligência... utilizando ferramentas de business intelligence (BI) que tornam possível converter dados brutos... em insights para utilização em investigações policiais relevantes e destinadas a desarticular grupos criminosos organizados'.",
-    "referencia": "Cap. 7, Seção 7.1.1, p. 121"
-  },
-  {
-    "id": 367,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Julgue os itens a seguir, relativos às etapas mínimas do método investigativo segundo o Caderno Didático IPO:\nI. Toda investigação policial deverá ter origem em um fato; a ausência de fato certo e minimamente delimitado torna a investigação centrada em pessoas, prática vedada à polícia judiciária profissional.\nII. A formulação de hipótese é dispensável quando se trata de investigação proativa, pois nessa modalidade a coleta de dados sobre o investigado substitui a delimitação prévia do problema.\nIII. A checagem é etapa essencial para validar dados colhidos e pode, inclusive, conduzir a investigação ao seu fim precípuo de evitar acusações infundadas, quando as provas apontarem para inexistência do fato ou negação de autoria.\nIV. A conclusão, em regra, encerra a investigação, reunindo elementos que possibilitarão o esclarecimento dos fatos e permitirão a instauração ou não de uma ação penal.\nEstão corretos APENAS os itens:",
-    "alternativas": {
-      "A": "I, II e III.",
-      "B": "I, II e IV.",
-      "C": "II, III e IV.",
-      "D": "I, III e IV."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O capítulo enumera as etapas: (a) Fato — 'A ausência de um fato certo e minimamente delimitado... tornará a investigação centrada em pessoas'; (b) Hipótese — 'A investigação sem a formulação de hipótese conduz a uma investigação prospectiva, que arrasta tudo e todos em flagrante desrespeito aos direitos fundamentais' (logo o item II está incorreto); (c) Checagem — 'evitar a formulação de acusações infundadas e a proteção de direitos, quando as provas apontarem para a inexistência do fato ou a negação de autoria'; (d) Conclusão — 'encerra a investigação, tornando-a eficaz e útil ao atingimento de seu fim'.",
-    "referencia": "Cap. 7, Seção 7.1, p. 120"
-  },
-  {
-    "id": 368,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Policiais federais comparecem a local de homicídio ocorrido há aproximadamente uma hora. O delegado, recém-chegado à unidade, defende postergar a oitiva de testemunhas para o dia seguinte, alegando ser desnecessária a coleta imediata, e propõe formalizar apenas o registro do fato. Considerando o princípio investigativo da oportunidade e as orientações do Caderno Didático IPO para a fase inicial da investigação, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A conduta do delegado é tecnicamente correta, pois a oitiva imediata pode contaminar a memória de testemunhas, sendo mais prudente aguardar pelo menos 24 horas para colher relatos mais ponderados.",
-      "B": "A conduta do delegado é correta sob a ótica da economia processual, pois eventuais imagens de CFTV permanecem armazenadas por longos períodos e podem ser recuperadas a qualquer tempo, sem prejuízo à investigação.",
-      "C": "A conduta é tecnicamente equivocada, pois as primeiras horas são fundamentais para obtenção de materiais e relatos; testemunhas podem esquecer detalhes, imagens de CFTV podem ser sobrescritas em curto período, e a primeira oportunidade de localizar material pode ser a única.",
-      "D": "A conduta é parcialmente correta, pois o princípio da oportunidade aplica-se apenas a crimes em flagrante, não se estendendo a homicídios consumados antes da chegada da equipe."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Segundo o capítulo: 'As primeiras horas da investigação são fundamentais para a obtenção de materiais e relatos... À medida que o tempo passa, aumentam as chances de possíveis testemunhas esquecerem fatos ou detalhes importantes... imagens de câmeras de segurança que se sobrescrevem em um período muito curto de tempo e que, portanto, se não forem obtidas imediatamente, talvez nunca mais sejam'. Ressalta também que 'A primeira oportunidade de localizar e recolher material pode ser a única oportunidade'.",
-    "referencia": "Cap. 7, Seção 7.1.2 (alínea b), p. 125-126"
-  },
-  {
     "id": 369,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
@@ -3104,38 +3040,6 @@
     "referencia": "Cap. 7, Seção 7.1.2 (alínea b), p. 125"
   },
   {
-    "id": 370,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em investigação sobre organização criminosa dedicada ao tráfico internacional de drogas, a equipe da PF realiza as seguintes etapas sucessivas: (1) identifica remessas e atuação reiterada de suspeitos que encaminham entorpecentes ao exterior; (2) delimita rede de contatos, rotas e fluxos financeiros via monitoramento e medidas cautelares; (3) desencadeia ação coordenada com mandados de prisão e busca; (4) submete o material apreendido a extração e exploração técnica; (5) realiza análise aprofundada para identificar novos alvos; (6) difunde qualificadamente as informações aos órgãos competentes. Tais fases correspondem, respectivamente, no método F3EAD adaptado, a:",
-    "alternativas": {
-      "A": "Find, Fix, Exploit, Finish, Disseminate e Analyze.",
-      "B": "Fix, Find, Finish, Analyze, Exploit e Disseminate.",
-      "C": "Find, Finish, Fix, Analyze, Exploit e Disseminate.",
-      "D": "Find, Fix, Finish, Exploit, Analyze e Disseminate."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O capítulo descreve exatamente esse exemplo: identificação de remessas (find); delimitação da rede mediante monitoramento (fix); ação coordenada de prisão e busca (finish); extração e exploração técnica de dados (exploit); análise aprofundada (analyze); difusão qualificada (disseminate).",
-    "referencia": "Cap. 7, Seção 7.3, p. 136-137"
-  },
-  {
-    "id": 371,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Considerando a estratégia de investigação baseada na coleta e análise de dados e seu contraste com modelos mais expeditos, julgue os itens a seguir:\nI. A estratégia denominada de 1ª Geração foi muito influenciada pelas doutrinas de inteligência (Ciclo de Produção de Conhecimento), com intensivo emprego da interceptação telefônica e alargamento da fase de análise.\nII. A principal forma de exteriorização da estratégia mais expedita reside no emprego da ferramenta de busca e apreensão, traduzindo-se em uma das técnicas mais intrusivas permitidas pelo Estado na vida do cidadão.\nIII. A Operação Lava Jato é exemplo clássico de aplicação da estratégia de 1ª Geração, pois centrou-se exclusivamente na fase encoberta com interceptações telefônicas, sem realização de mandados de busca e apreensão.\nIV. No regime jurídico brasileiro, apenas o delegado de polícia e o representante do Ministério Público podem postular a busca e apreensão, sendo que somente à polícia judiciária incumbe dar-lhe cumprimento.\nEstão corretos APENAS os itens:",
-    "alternativas": {
-      "A": "I, II e III.",
-      "B": "I, II e IV.",
-      "C": "II, III e IV.",
-      "D": "I, III e IV."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Os itens I, II e IV refletem fielmente o texto. O item III está incorreto: a Lava Jato é citada como exemplo clássico da estratégia mais expedita baseada em sucessivos mandados de busca e apreensão, e não da estratégia de 1ª Geração. Conforme o capítulo: 'A denominada Operação Lava Jato pode ser citada como um exemplo clássico da adoção dessa estratégia. Com efeito, ao longo dessa operação policial, a PF foi vista atuando no cumprimento de centenas de mandados de busca e apreensão'.",
-    "referencia": "Cap. 7, Seção 7.2.3, p. 133-134"
-  },
-  {
     "id": 372,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
@@ -3150,70 +3054,6 @@
     "resposta_correta": "A",
     "justificativa": "O capítulo dispõe: 'O Registro Especial de Recuperação de Ativos é uma das espécies de Registro Especial prevista na IN 255/2023 que tem como finalidade precípua a identificação, individualização e localização de bens, valores e direitos de pessoas, físicas ou jurídicas, de interesse da investigação policial ou de interpostas pessoas a elas associadas... O RE-RA deve ser criado no ePol por despacho do delegado de polícia federal, na primeira oportunidade possível, sempre que o crime investigado tiver repercussão econômica'. Também: 'o RE-RA não se confunde com outros procedimentos do tipo Registro Especial, a exemplo daqueles criados para formalização de medidas de cunho probatório'.",
     "referencia": "Cap. 7, Seção 7.4.1, p. 141-142"
-  },
-  {
-    "id": 373,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "A partir da introdução do confisco alargado no art. 91-A do Código Penal, a Polícia Federal passou a desenvolver técnicas específicas para subsidiar a perda de bens incompatíveis com a renda lícita do investigado. Considerando que o § 3º do art. 91-A determina que a perda deverá ser requerida expressamente pelo Ministério Público por ocasião do oferecimento da denúncia, com indicação da diferença patrimonial apurada, conclui-se que:",
-    "alternativas": {
-      "A": "A acusação pode formular pedido genérico de confisco alargado, postergando para a fase de execução penal a apuração concreta da diferença patrimonial, sendo dispensável a investigação patrimonial na etapa extraprocessual.",
-      "B": "A investigação patrimonial somente pode ser realizada após a sentença condenatória de primeiro grau, vedada sua produção na fase de inquérito por violação ao sigilo fiscal e bancário.",
-      "C": "O confisco alargado prescinde de investigação patrimonial prévia, pois decorre automaticamente da sentença condenatória, independentemente de pedido do Ministério Público.",
-      "D": "É indispensável que a acusação já disponha, na fase pré-processual, de elementos concretos capazes de demonstrar a desproporção entre o patrimônio do investigado e seus rendimentos lícitos, evidenciando-se a necessidade de realização de investigação patrimonial ainda na etapa extraprocessual, sob pena de inviabilizar a própria incidência do instituto."
-    },
-    "resposta_correta": "D",
-    "justificativa": "O capítulo afirma: 'o § 3º do art. 91-A do Código Penal determina que a perda deverá ser requerida expressamente pelo Ministério Público por ocasião do oferecimento da denúncia, com a indicação da diferença patrimonial apurada. Isso significa que a acusação não pode formular pedido genérico ou posterior, sendo indispensável que já disponha, na fase pré-processual, de elementos concretos capazes de demonstrar a desproporção... Tal requisito... evidência, de maneira inequívoca, a necessidade de realização de investigação patrimonial ainda na etapa extraprocessual'.",
-    "referencia": "Cap. 7, Seção 7.4, p. 139"
-  },
-  {
-    "id": 374,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em investigação patrimonial autônoma instaurada por meio de Registro Especial de Recuperação de Ativos, a equipe identifica bens em nome do investigado, mas não consegue estabelecer relação direta entre tais bens e o crime apurado. Diante dessa ausência de vínculo direto, com base no Caderno Didático IPO, o delegado deverá:",
-    "alternativas": {
-      "A": "Arquivar imediatamente o RE-RA, pois sem a demonstração da referibilidade entre o bem e o crime investigado não há qualquer possibilidade de constrição patrimonial dos ativos identificados.",
-      "B": "Determinar a apreensão automática de todos os bens identificados, independentemente de referibilidade, em razão do princípio da máxima efetividade da recuperação de ativos.",
-      "C": "Avaliar o cabimento da utilização de institutos como o sequestro por equivalência ou o confisco alargado, mesmo nos casos em que não se identificar a referibilidade entre o bem e o crime investigado.",
-      "D": "Remeter o procedimento ao Ministério Público para que este, com exclusividade, decida sobre a constrição, sendo vedado ao delegado avaliar a aplicação de institutos como o confisco alargado."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme o capítulo: 'Esse vínculo entre o patrimônio identificado e o produto/proveito do crime investigado é conhecido na doutrina e jurisprudência como referibilidade... Nos casos em que não se identificar a referibilidade entre o bem e o crime investigado, ainda assim o delegado de polícia federal deverá avaliar o cabimento da utilização de institutos previstos no código penal como o sequestro por equivalência ou o confisco alargado'.",
-    "referencia": "Cap. 7, Seção 7.4.1, p. 146"
-  },
-  {
-    "id": 375,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma cena de homicídio, o primeiro policial federal a chegar ao local observa, além do corpo da vítima, guimbas de cigarro, registros de CFTV de estabelecimento vizinho, possíveis impressões papiloscópicas em uma porta e resíduos químicos no chão. Considerando a estratégia investigativa baseada na cena ou local do crime e o princípio formulado por Edmond Locard, é correto afirmar que:",
-    "alternativas": {
-      "A": "Cada contato humano tem potencial de deixar rastro mínimo; o policial deve conhecer os diversos tipos de vestígios passíveis de coleta (físicos, biológicos, químicos, pessoais e outras substâncias), compreender as razões da arrecadação de cada objeto e ter clareza quanto à divisão de atribuições com a perícia criminal e papiloscopistas.",
-      "B": "Apenas os elementos biológicos (sangue, sêmen, saliva) constituem vestígios juridicamente relevantes para a investigação, sendo dispensável a coleta de elementos físicos, químicos ou registros de CFTV.",
-      "C": "O princípio de Locard pressupõe que vestígios podem ser desconsiderados se não forem evidentes, sendo materiais aparentemente secundários (como guimbas de cigarro e registros de CFTV) irrelevantes para a apuração de autoria e materialidade.",
-      "D": "O policial deve restringir-se ao isolamento e à preservação da área, abstendo-se de quaisquer outras providências, uma vez que toda atuação no local é atribuição exclusiva da perícia criminal e dos papiloscopistas."
-    },
-    "resposta_correta": "A",
-    "justificativa": "O capítulo expõe: 'cada contato humano tem o potencial de deixar um rastro mínimo... os policiais devem possuir conhecimento técnico acerca dos diversos tipos de vestígios passíveis de coleta no local de crime, incluindo, desde elementos mais evidentes, como o corpo da vítima, até materiais aparentemente secundários, como guimbas de cigarro, registros de sistemas de circuito fechado de televisão (CFTV) e impressões papiloscópicas. Impõe-se, ainda, que compreendam as razões que justificaram a arrecadação de cada objeto... é imprescindível que tenham clareza quanto à divisão de atribuições entre os diferentes profissionais que atuam no local, notadamente no que se refere às atividades desempenhadas pela perícia criminal e pelos papiloscopistas'. Os tipos elencados são: físicos, biológicos, químicos, pessoais e outras substâncias.",
-    "referencia": "Cap. 7, Seção 7.2.1, p. 130-131"
-  },
-  {
-    "id": 376,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "A respeito da estratégia investigativa baseada em ações encobertas e sua articulação com as demais estratégias previstas no Caderno Didático IPO, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A estratégia baseada em ações encobertas exclui automaticamente as demais estratégias investigativas, sendo incompatível, por exemplo, com a estratégia baseada na coleta e análise de dados ou com o método F3EAD adaptado.",
-      "B": "Tal estratégia atribui centralidade à fase de análise e à produção qualificada de dados, deslocando a atividade investigativa do paradigma reativo imediato para uma lógica de infiltração informacional, monitoramento estruturado e amadurecimento probatório, frequentemente articulando-se com as demais estratégias conforme a natureza do delito e o estágio da investigação.",
-      "C": "Trata-se de estratégia aplicável apenas à criminalidade ordinária e massiva, sendo inadequada para crimes de maior complexidade como tráfico em larga escala, lavagem de capitais e organizações criminosas violentas.",
-      "D": "A estratégia baseada em ações encobertas é incompatível com o Estado democrático de direito e foi expressamente abandonada pela Polícia Federal, sendo substituída integralmente pelo método F3EAD adaptado a partir de 2016."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme o capítulo: 'Trata-se de modelo estratégico que atribui centralidade à fase de análise e à produção qualificada de dados... a atividade investigativa desloca-se do paradigma reativo imediato para uma lógica de infiltração informacional, monitoramento estruturado e amadurecimento probatório'. Acrescenta: 'a estratégia baseada em ações encobertas não exclui as demais estratégias investigativas. Ao contrário, frequentemente se articula com elas, havendo predominância de uma ou outra conforme a natureza do delito e o estágio da investigação'. É indicada justamente para crimes de maior complexidade.",
-    "referencia": "Cap. 7, Seção 7.2.3.1, p. 134-135"
   },
   {
     "id": 377,
@@ -27525,40 +27365,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1868,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Caderno Didático IPO organiza o desenvolvimento da estratégia de investigação em torno de três bases: a cena ou local do crime, as declarações de vítimas e testemunhas e a coleta/análise de dados com ações encobertas. Sobre o fundamento que orienta cada uma dessas bases, assinale a alternativa correta:",
-    "alternativas": {
-      "A": "A base da cena do crime apoia-se na validação cruzada de relatos, ao passo que a base das declarações se apoia no monitoramento estruturado e no amadurecimento probatório das fontes orais.",
-      "B": "A base das declarações sustenta-se no princípio de Locard, enquanto a base da cena do crime se sustenta na localização rápida das fontes primárias para evitar a contaminação do relato.",
-      "C": "A base da cena do crime apoia-se no princípio de Locard, a das declarações na atuação proativa para localizar e validar fontes primárias, e a de dados/ações encobertas no monitoramento estruturado e no amadurecimento probatório.",
-      "D": "As três bases compartilham um único e idêntico fundamento, qual seja a produção qualificada de dados por meio de diligências veladas e monitoramento, distinguindo-se entre si apenas pelo órgão policial competente para executá-las em cada fase da apuração."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a letra C: o texto associa expressamente a base da cena/local do crime ao princípio de Locard (todo contato deixa rastro); a base das declarações à atuação policial proativa para localizar rapidamente vítimas e testemunhas (fontes primárias) e validar o relato; e a base de dados/ações encobertas ao monitoramento estruturado e ao amadurecimento probatório. A está errada porque troca os fundamentos: a validação cruzada de relatos pertence às declarações, e o monitoramento estruturado pertence às ações encobertas. B está errada porque inverte Locard (que é da cena, não das declarações) e a localização rápida das fontes (que é das declarações, não da cena). D está errada porque as três bases NÃO têm fundamento idêntico; a produção qualificada de dados por diligências veladas é própria apenas das ações encobertas.",
-    "referencia": "Cap. 7, Seção 7.2 — Desenvolvimento da estratégia de investigação",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1869,
-    "disciplina": "Investigação Policial (IPO)",
-    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
-    "tipo": "multipla_escolha",
-    "enunciado": "Uma equipe de investigação avalia, diante de uma organização criminosa complexa, qual base estratégica privilegiar. Considerando a distinção feita pelo Caderno Didático IPO entre as bases da cena do crime, das declarações e da coleta/análise de dados com ações encobertas, é correto afirmar que:",
-    "alternativas": {
-      "A": "a estratégia de ações encobertas, focada na produção qualificada de dados por diligências veladas, é apresentada como a ideal para organizações criminosas complexas, baseando-se no monitoramento estruturado.",
-      "B": "a base da cena do crime é apresentada como a mais indicada para organizações complexas, pois a preservação e o exame acurado do local permitem recolher de imediato todos os indícios físicos, biológicos, químicos e pessoais da estrutura criminosa investigada.",
-      "C": "a base das declarações de vítimas e testemunhas é a única adequada às organizações complexas, já que tais fontes primárias dispensam validação e confronto com outras provas.",
-      "D": "para organizações complexas recomenda-se retomar a estratégia de 1ª Geração, estendendo ao máximo o período encoberto sem recurso a ações ostensivas de busca e apreensão."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Correta a letra A: o texto afirma que a estratégia de ações encobertas foca na produção qualificada de dados por meio de diligências veladas, sendo IDEAL para organizações criminosas complexas, com lógica de monitoramento estruturado e amadurecimento probatório. B está errada porque a base da cena do crime trata de indícios deixados no local segundo Locard, não sendo apresentada como a indicada para desarticular organizações complexas. C está errada porque o texto diz justamente o contrário: todo relato deve ser validado e confrontado com outras provas, não dispensa validação. D está errada porque a estratégia de 1ª Geração, que estendia excessivamente o período encoberto, foi superada: atualmente usa-se a busca e apreensão (ação ostensiva) para destravar janelas de oportunidade em ciclo virtuoso.",
-    "referencia": "Cap. 7, Seção 7.2 — Desenvolvimento da estratégia de investigação",
-    "nivel": "dificil"
-  },
-  {
     "id": 1870,
     "disciplina": "Investigação Policial (IPO)",
     "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
@@ -29426,6 +29232,40 @@
     "resposta_correta": "C",
     "justificativa": "Conforme o Caderno (Seção 6.8, mnemônico C-P-F): as características da hipótese criminal são clareza, provisoriedade e falseabilidade — a hipótese é instrumento de trabalho, provisório e passível de ser testado, fortalecido ou descartado (C). A e B erram porque a hipótese não é definitiva nem imutável, mas provisória. D erra porque a falseabilidade é justamente uma de suas características essenciais.",
     "referencia": "Cap. 6, Seção 6.8 — Modelos de hipótese criminal",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1992,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as fases estruturais da investigação policial, conforme o Caderno (Cap. 7), é correto afirmar que:",
+    "alternativas": {
+      "A": "A instrução probatória é a fase inicial, de mero contato com a notícia do fato, anterior à própria avaliação preliminar de plausibilidade, relevância e confiabilidade.",
+      "B": "A sequência é: instigação, avaliação preliminar, instauração, instrução probatória e conclusão, sendo a instrução probatória o momento nuclear de coleta de provas.",
+      "C": "A avaliação preliminar e a instauração constituem uma só fase, formalizada por Auto de Prisão em Flagrante, sem possibilidade de uso da Portaria.",
+      "D": "A fase de conclusão antecede a instrução probatória, pois é o relatório final que orienta e direciona a posterior coleta sistemática das provas no inquérito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o Caderno (Seção 7.1.2): as fases estruturais sucessivas e interdependentes são instigação/incitação, avaliação preliminar, instauração (avaliação investigativa), instrução probatória e conclusão; a instrução probatória é o momento nuclear de coleta sistemática de provas (B). A erra porque a fase inicial é a instigação, não a instrução. C erra porque a instauração formaliza-se, em regra, por Portaria (ou APF) e é distinta da avaliação preliminar. D erra porque a conclusão (relatório final) é a última fase.",
+    "referencia": "Cap. 7, Seção 7.1.2 — Fases da investigação",
+    "nivel": "medio"
+  },
+  {
+    "id": 1993,
+    "disciplina": "Investigação Policial (IPO)",
+    "conteudo": "Cap. 7 - Estratégias para Nortear a Investigação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as modalidades de confisco previstas no ordenamento, conforme o Caderno (Cap. 7), é correto afirmar que:",
+    "alternativas": {
+      "A": "O confisco tradicional (art. 91, II, 'b', do CP) incide sobre a diferença patrimonial que se mostre incompatível com a renda lícita declarada pelo condenado ao longo dos anos de sua vida pregressa.",
+      "B": "O confisco por equivalência exige que o ativo original do crime tenha sido localizado e apreendido, recaindo a constrição sobre esse mesmo bem.",
+      "C": "O confisco alargado (art. 91-A do CP) recai sobre a diferença patrimonial incompatível com a renda lícita do condenado e deve ser expressamente requerido pelo MP na denúncia.",
+      "D": "O confisco por equivalência alcança o produto direto do crime, sendo vedado o confisco de bens de valor correspondente quando o ativo original não é encontrado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o Caderno (Seção 7.4): o confisco alargado (art. 91-A do CP) incide sobre a diferença patrimonial incompatível com a renda lícita do condenado, deve ser requerido expressamente pelo MP na denúncia e foca crimes com pena máxima superior a 6 anos (C). A erra porque a incidência sobre a diferença patrimonial incompatível é do confisco alargado, não do tradicional (produto/proveito direto). B e D erram porque o confisco por equivalência recai sobre bens de valor correspondente justamente quando o ativo original não é achado ou foi dissipado.",
+    "referencia": "Cap. 7, Seção 7.4 — Modalidades de confisco",
     "nivel": "dificil"
   }
 ]
