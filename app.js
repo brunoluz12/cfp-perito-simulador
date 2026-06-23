@@ -3870,16 +3870,59 @@ function renderNotesList() {
             <div class="note-card-footer">
                 <span class="note-card-date"><i class="ph ph-clock"></i> ${notesFmtData(n.atualizadoEm)}</span>
                 <div class="note-card-actions">
+                    <button title="Visualizar (abre em nova aba)" data-view="${n.id}"><i class="ph ph-eye"></i></button>
                     <button title="Editar" data-edit="${n.id}"><i class="ph ph-pencil-simple"></i></button>
                     <button class="danger" title="Excluir" data-del="${n.id}"><i class="ph ph-trash"></i></button>
                 </div>
             </div>`;
         card.addEventListener('click', (e) => {
             if (e.target.closest('[data-del]')) { e.stopPropagation(); notesExcluir(n.id); return; }
+            if (e.target.closest('[data-view]')) { e.stopPropagation(); notesAbrirVisualizacao(n.id); return; }
             notesAbrirEditor(n.id);
         });
         cont.appendChild(card);
     });
+}
+
+// Abre a anotação para LEITURA (sem editar), num documento próprio em nova aba.
+function notesAbrirVisualizacao(id) {
+    const note = anotacoes.find(n => n.id === id);
+    if (!note) return;
+    const titulo = note.titulo || 'Anotação';
+    const tags = [];
+    if (note.disciplina) tags.push(note.disciplina);
+    if (note.conteudo) tags.push(note.conteudo);
+    const corpo = note.html || (note.texto ? '<p>' + notesEsc(note.texto) + '</p>' : '<p><em>(sem conteúdo)</em></p>');
+    const docHtml = `<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${notesEsc(titulo)}</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1e293b; background: #f1f5f9; margin: 0; padding: 24px; }
+  .wrap { max-width: 820px; margin: 0 auto; background: #fff; border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); padding: 32px 40px; }
+  h1 { font-size: 1.85rem; margin: 0 0 8px; color: #0f172a; }
+  .meta { color: #64748b; font-size: .85rem; margin-bottom: 18px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .tag { background: #eef2ff; color: #3730a3; border-radius: 999px; padding: 3px 10px; font-weight: 600; }
+  hr { border: none; border-top: 1px solid #e2e8f0; margin: 16px 0 24px; }
+  .corpo { font-size: 1.02rem; }
+  .corpo img { max-width: 100%; height: auto; border-radius: 8px; }
+  .corpo blockquote { border-left: 4px solid #cbd5e1; margin: 12px 0; padding: 4px 16px; color: #475569; }
+  .corpo a { color: #2563eb; }
+  .corpo table { border-collapse: collapse; }
+  .corpo td, .corpo th { border: 1px solid #e2e8f0; padding: 8px; }
+  @media print { body { background: #fff; padding: 0; } .wrap { box-shadow: none; max-width: none; } }
+</style></head>
+<body><div class="wrap">
+  <h1>${notesEsc(titulo)}</h1>
+  <div class="meta">${tags.map(t => '<span class="tag">' + notesEsc(t) + '</span>').join('')}<span><i></i>Atualizada em ${notesFmtData(note.atualizadoEm)}</span></div>
+  <hr>
+  <div class="corpo">${corpo}</div>
+</div></body></html>`;
+    const blob = new Blob([docHtml], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const win = window.open(url, '_blank');
+    if (!win) { alert('Não foi possível abrir a aba (verifique o bloqueador de pop-ups).'); }
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 
 function notesAbrirEditor(id) {
