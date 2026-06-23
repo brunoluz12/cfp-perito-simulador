@@ -27158,23 +27158,6 @@ const questoesDB = [
     "nivel": "medio"
   },
   {
-    "id": 1787,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante uma busca e apreensão, o delegado percebe que o volume de documentos no imóvel é enorme e que arrecadar tudo geraria sobrecarga indevida à equipe investigadora, que teria de analisar dados irrelevantes. Por isso, determina que sejam triados e recolhidos apenas os elementos efetivamente úteis à investigação, conforme o art. 82 da IN DG/PF nº 255/2023. Embora essa conduta também economize tempo e recursos, qual princípio a fundamenta de forma direta e própria?",
-    "alternativas": {
-      "A": "Princípio da unidade, pois assegura que todas as ações praticadas, ainda que fragmentadas, convirjam para um único resultado final ao término da operação.",
-      "B": "Princípio da economicidade, pois se traduz na escolha que melhor racionaliza a aplicação dos recursos humanos, materiais e financeiros disponíveis.",
-      "C": "Princípio da universalidade, pois busca o mais amplo conhecimento possível das circunstâncias que permeiam toda a operação policial.",
-      "D": "Princípio da objetividade, pois exige concentrar os esforços nos objetos efetivamente relevantes à apreensão, evitando a dispersão do foco."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta a D: o texto vincula expressamente o art. 82 da IN 255/2023 e o ato de \"arrecadar apenas o que efetivamente for de interesse para a investigação\" ao princípio da objetividade, que manda concentrar as equipes nos objetos efetivamente relevantes e evitar a arrecadação de materiais desnecessários (p. 48). A B descreve corretamente a economicidade (racionalização de recursos, p. 47), que é um efeito reflexo, mas não é o princípio próprio dessa triagem; o enunciado adverte que, apesar de economizar recursos, o fundamento direto é outro. A C define a universalidade (amplo conhecimento das circunstâncias, p. 46), inaplicável à fase de seleção do que arrecadar. A A define a unidade (convergência das ações para um só resultado, p. 49-50), sem relação com a triagem de material. (p. 48)",
-    "referencia": "PDF IPO III, p. 48",
-    "nivel": "dificil"
-  },
-  {
     "id": 1788,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
@@ -27206,40 +27189,6 @@ const questoesDB = [
     "resposta_correta": "D",
     "justificativa": "Correta a D: o texto, ao tratar do princípio da coordenação, afirma que ainda que haja participação de outras instituições a coordenação dos trabalhos caberá sempre à Polícia Federal, por ser a destinatária das ordens judiciais, e usa o horário de deflagração simultânea como exemplo do mesmo princípio (p. 48-49). A A inventa critério de contingente e desloca para a economicidade (p. 47), que trata de racionalização de recursos, não de comando. A B inventa rodízio e cita a universalidade (amplo conhecimento dos fatos, p. 46). A C atribui a condução ao juiz, o que contraria o texto, e cita a segurança (p. 43-44), inaplicável à definição de comando. (p. 49)",
     "referencia": "PDF IPO III, p. 49",
-    "nivel": "medio"
-  },
-  {
-    "id": 1790,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
-    "tipo": "multipla_escolha",
-    "enunciado": "Diante do risco iminente de fuga do investigado principal, a autoridade antecipa a deflagração da operação; em outra frente, decide realizar a diligência em um domingo de madrugada para surpreender os alvos e reduzir as chances de ocultação de provas. Sobre o princípio que o texto invoca para justificar essas decisões, assinale a afirmação correta.",
-    "alternativas": {
-      "A": "O princípio da flexibilidade representa o afastamento dos protocolos diante da urgência, autorizando a equipe a agir sem observância da legalidade e da proporcionalidade enquanto durar o risco.",
-      "B": "O princípio da flexibilidade é a aptidão para adequar a execução da operação a circunstâncias imprevistas, sem prejuízo da legalidade, conectando-se ao princípio da oportunidade.",
-      "C": "Trata-se do princípio da segurança, que impõe a minimização dos riscos à integridade física de policiais e terceiros como condição para iniciar ou prosseguir a atividade ostensiva.",
-      "D": "Trata-se do princípio da disciplina, que funciona como a espinha dorsal a garantir que o plano traçado seja efetivamente executado com previsibilidade e sem improvisos caóticos."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a B: o texto aponta a antecipação da deflagração por risco de fuga e a diligência em dia/horário incomuns como exemplos práticos da flexibilidade, definida como aptidão para adequar a execução a circunstâncias imprevistas, sem prejuízo da legalidade e da proporcionalidade, e ligada ao princípio da oportunidade (p. 45-46). A A é o erro conceitual típico: a flexibilidade NÃO representa afastamento de protocolos nem da legalidade — o texto é expresso nesse ponto. A C descreve a segurança (p. 43-44) e a D descreve a disciplina (p. 50-51), ambos princípios diversos do exemplificado. (p. 46)",
-    "referencia": "PDF IPO III, p. 46",
-    "nivel": "dificil"
-  },
-  {
-    "id": 1791,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
-    "tipo": "multipla_escolha",
-    "enunciado": "No cumprimento de um mandado de busca domiciliar, a equipe constata, ao se aproximar, situação de potencial confronto e risco grave à integridade física dos policiais. Com base no art. 74, II, da IN DG/PF nº 255/2023 e no princípio que o fundamenta, qual conduta é juridicamente correta?",
-    "alternativas": {
-      "A": "A equipe deve aguardar do lado de fora a chegada de reforço judicial, pois sem a leitura prévia do mandado o ingresso é nulo de pleno direito.",
-      "B": "A equipe pode ingressar e a leitura e exibição do mandado serão feitas tão logo afastado o perigo, pois a segurança dos envolvidos prevalece e flexibiliza a formalidade.",
-      "C": "A equipe deve cancelar a diligência e representar por nova autorização, em respeito ao princípio da economicidade, que veda a banalização de medidas invasivas e excepcionais.",
-      "D": "A equipe deve realizar imediatamente a leitura do mandado mesmo sob risco, pois a cadeia de custódia e os protocolos de legalidade prevalecem sobre qualquer outro valor na diligência."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta a B: o art. 74, II, da IN 255/2023 ressalva as hipóteses de potencial confronto ou risco à integridade física, em que o mandado será lido e exibido tão logo afastado o perigo; o texto trata isso como concretização do princípio da segurança, que prevalece como valor maior e autoriza a flexibilização do procedimento (p. 44-45). A A inventa nulidade e exigência de reforço judicial, inexistentes no texto. A C inverte o sentido da economicidade (que trata de racionalização de recursos e freio à banalização de medidas, p. 47) e contraria a continuidade da diligência. A D contraria frontalmente o texto, que afirma que entre os aspectos formais — inclusive cadeia de custódia — a prioridade recai sobre a segurança dos envolvidos. (p. 44)",
-    "referencia": "PDF IPO III, p. 44",
     "nivel": "medio"
   },
   {
@@ -27275,23 +27224,6 @@ const questoesDB = [
     "justificativa": "Correta a B: a ideia de que o objetivo só se considera atingido ao término da operação (e não ao final de cada ação isolada) e a síntese \"um só comando, um só objetivo e uma só direção de esforços\", desdobrada em unidade de comando, de objetivo e integração das partes, definem o princípio da unidade (p. 49-50). A A descreve a coordenação (harmonização e prevenção de conflitos entre áreas, p. 48-49), princípio correlato mas distinto. A C descreve a disciplina (cumprimento rigoroso de protocolos, p. 50-51). A D descreve a objetividade (concentração nos pontos de real interesse, p. 47-48). (p. 50)",
     "referencia": "PDF IPO III, p. 50",
     "nivel": "medio"
-  },
-  {
-    "id": 1794,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
-    "tipo": "multipla_escolha",
-    "enunciado": "O texto afirma que o princípio da economicidade, além de funcionar como salvaguarda contra gastos públicos desnecessários, atua como freio à utilização indiscriminada de medidas invasivas e de caráter excepcional. Qual é o objetivo apontado para esse segundo papel?",
-    "alternativas": {
-      "A": "Garantir o mais amplo e atualizado conhecimento de todas as circunstâncias que possam interferir na operação policial, conforme orienta o bom planejamento operacional.",
-      "B": "Assegurar que todas as ações da operação se desenvolvam de forma integrada, harmônica e sob um mesmo comando central, evitando conflitos entre as equipes.",
-      "C": "Concentrar os esforços e direcionar as equipes apenas aos pontos de real interesse para a investigação que está em curso naquele momento.",
-      "D": "Impedir que instrumentos de restrição de direitos, próprios de situações específicas e de necessidade comprovada, sejam aplicados de forma rotineira."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta a D: o texto diz que esse segundo papel da economicidade visa impedir que instrumentos de restrição de direitos, próprios de situações específicas e de comprovada necessidade, sejam aplicados de forma rotineira e banalizada, o que subverteria sua natureza cautelar (p. 47). A A descreve a universalidade (p. 46), a B descreve a unidade/coordenação (p. 48-50) e a C descreve a objetividade (p. 48), todos princípios diversos. (p. 47)",
-    "referencia": "PDF IPO III, p. 47",
-    "nivel": "facil"
   },
   {
     "id": 1795,
@@ -29045,23 +28977,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 1901,
-    "disciplina": "Investigação Policial III (IPO III)",
-    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma operação de grande porte, várias equipes (inteligência, logística, operacional e perícia) atuam em frentes distintas. Uma delas conclui com êxito o seu mandado e, satisfeita, considera sua missão integralmente cumprida e o resultado já alcançado. O coordenador corrige o entendimento: enquanto as demais frentes não se encerrarem, a missão não está cumprida, pois as ações fragmentadas convergem para um único resultado, alcançado ao término da operação, e não ao final de cada ação isolada. Qual princípio do planejamento operacional o coordenador invoca e qual a noção que o sintetiza?",
-    "alternativas": {
-      "A": "Princípio da unidade, segundo o qual as ações praticadas, ainda que fragmentadas, destinam-se a um único resultado, devendo haver um só comando, um só objetivo e uma só direção de esforços, de modo que a missão se cumpre ao término da operação.",
-      "B": "Princípio da coordenação, segundo o qual as ações devem se desenvolver de maneira integrada e, ainda que participem outras instituições, a condução dos trabalhos cabe à Polícia Federal, na condição de destinatária das ordens judiciais.",
-      "C": "Princípio da disciplina, segundo o qual se presume que as ações estabelecidas serão rigorosamente atendidas, funcionando como espinha dorsal que garante a execução do plano com segurança e previsibilidade.",
-      "D": "Princípio da objetividade, segundo o qual os esforços devem ser concentrados e as equipes direcionadas aos pontos de real interesse, evitando a dispersão do foco investigativo e a arrecadação de materiais desnecessários."
-    },
-    "resposta_correta": "A",
-    "justificativa": "A correta é a A: o texto define a unidade como a ideia de que as ações praticadas, ainda que fragmentadas, destinam-se a alcançar um único resultado, considerando-se a missão cumprida ao término da operação e não ao final de cada ação isolada, sintetizando-se em um só comando, um só objetivo e uma só direção de esforços. B) descreve corretamente a coordenação (atuação integrada e condução pela PF como destinatária das ordens judiciais), princípio vizinho que se preocupa com a articulação entre áreas e instituições, e não com a noção de que o resultado se realiza ao final do todo. C) descreve corretamente a disciplina (cumprimento rigoroso do que foi estabelecido como espinha dorsal da execução), instituto diverso. D) descreve corretamente a objetividade (concentração no foco e não arrecadação de material desnecessário), que tampouco corresponde à ideia de convergência das ações para um resultado único.",
-    "referencia": "PDF IPO III, p. 49",
-    "nivel": "dificil"
-  },
-  {
     "id": 1902,
     "disciplina": "Investigação Policial III (IPO III)",
     "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
@@ -29723,5 +29638,107 @@ const questoesDB = [
     "justificativa": "Conforme o material (p. 35-36): a falta ou deficiência de isolamento não justifica a não realização dos exames periciais necessários, devendo as alterações do estado das coisas e suas consequências ser registradas em documento técnico-científico (A). B erra porque a falha não leva ao descarte do vestígio. C erra porque a coleta é feita preferencialmente por Perito Criminal Federal (e, em vestígios papiloscópicos, por Papiloscopista). D erra porque o Delegado de Polícia Federal, ou policial por ele designado, deve adotar as cautelas de preservação do local, ressalvadas medidas de segurança e socorro, até a chegada da perícia.",
     "referencia": "PDF IPO III, p. 35",
     "nivel": "medio"
+  },
+  {
+    "id": 1942,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a origem e a função das premissas (princípios) que balizam a atividade investigatória ostensiva, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Têm origem em decisões dos Tribunais Superiores sobre nulidades, sem correspondência em atos normativos internos da Polícia Federal ou em manuais.",
+      "B": "Foram lapidados a partir da IN DG/PF nº 255/2023 e do Manual de Planejamento Operacional de 2024, conciliando a eficácia da persecução com os direitos e garantias individuais.",
+      "C": "Destinam-se a ampliar a discricionariedade policial na execução de medidas cautelares restritivas, dispensando a tutela jurisdicional e afastando os parâmetros jurídicos estritos da atuação.",
+      "D": "Restringem-se à fase sigilosa da investigação e não alcançam a deflagração da operação ostensiva."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (p. 43), os princípios foram lapidados a partir da exegese da IN DG/PF nº 255/2023 e constam do Manual de Planejamento Operacional de 2024, conciliando a eficácia da persecução penal com o respeito aos direitos e garantias individuais (B). A erra a origem (há previsão normativa interna). C erra porque os princípios servem para que a relativização de direitos não vire arbitrariedade, vinculando-se à tutela jurisdicional. D erra porque incidem com força máxima justamente na deflagração da operação ostensiva.",
+    "referencia": "PDF IPO III, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 1943,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "O art. 74 da IN DG/PF nº 255/2023 disciplina a execução do mandado de busca domiciliar. Sobre suas exigências, é correto afirmar que:",
+    "alternativas": {
+      "A": "A busca deve ser realizada na presença de duas testemunhas, exigindo-se que ambas sejam policiais federais integrantes da equipe de cumprimento, vedada a participação de terceiros estranhos à corporação no ato.",
+      "B": "A leitura do mandado ao morador é dispensada de modo geral, bastando a entrega de cópia ao final da diligência, independentemente de risco.",
+      "C": "Finda a diligência, a entrega de cópia do mandado ao morador fica a critério da equipe de cumprimento, tratando-se de medida meramente facultativa quando há recusa em assinar.",
+      "D": "A busca será feita na presença de duas testemunhas, preferencialmente não policiais, e, finda a diligência, será entregue cópia do mandado ao morador, mediante recibo ou registro da negativa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o art. 74 da IN DG/PF nº 255/2023 (p. 44): a busca se faz na presença de duas testemunhas, preferencialmente não policiais (inciso I), e, finda a diligência, entrega-se cópia do mandado ao morador mediante recibo ou registro da negativa (inciso III) — alternativa D. A erra porque as testemunhas são preferencialmente NÃO policiais. B erra porque a leitura prévia é a regra, só flexibilizada em hipóteses de risco (inciso II). C erra porque a entrega de cópia ao final é exigência, não faculdade.",
+    "referencia": "PDF IPO III, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1944,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "O princípio da universalidade, conforme o material, traduz-se essencialmente em:",
+    "alternativas": {
+      "A": "Buscar o mais amplo conhecimento das circunstâncias que permeiam a operação, considerando os múltiplos aspectos que possam interferir em seu desenvolvimento.",
+      "B": "Concentrar os esforços nos objetos efetivamente relevantes à apreensão, evitando a arrecadação de materiais desnecessários e a dispersão do foco investigativo.",
+      "C": "Minimizar os riscos da operação, com proteção das pessoas e preservação das informações, instalações e equipamentos envolvidos.",
+      "D": "Otimizar os recursos humanos, materiais e financeiros, sem comprometer a eficiência da ação ou operação policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 46), a universalidade traduz-se na busca do mais amplo conhecimento das circunstâncias que permeiam a operação, considerando os aspectos que possam interferir em seu desenvolvimento (A). B descreve a objetividade (foco no relevante). C descreve a segurança (minimização de riscos). D descreve a economicidade (otimização de recursos).",
+    "referencia": "PDF IPO III, p. 46",
+    "nivel": "medio"
+  },
+  {
+    "id": 1945,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 2º da IN DG/PF nº 255/2023, que arrola a economicidade entre os princípios das atividades de polícia judiciária, é correto afirmar que:",
+    "alternativas": {
+      "A": "As formas previstas para os procedimentos constituem fins em si mesmas, devendo ser rigorosamente observadas ainda que isso prejudique a busca da verdade processualmente qualificada no caso concreto.",
+      "B": "A alocação dos recursos pessoais e materiais deve ser linear e idêntica nos diversos procedimentos, independentemente da gravidade ou da complexidade dos fatos investigados.",
+      "C": "Os procedimentos devem ser concluídos em prazo razoável, e os recursos alocados conforme o melhor resultado estratégico possível, segundo a gravidade e a complexidade dos fatos.",
+      "D": "A economicidade afasta os princípios da eficiência e da proporcionalidade, por com eles ser incompatível na gestão dos recursos públicos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o art. 2º da IN DG/PF nº 255/2023 (p. 47): os procedimentos serão concluídos em prazo razoável (§1º) e a alocação de recursos atenderá ao melhor resultado estratégico possível, consideradas a gravidade e a complexidade dos fatos (§2º) — alternativa C. A erra porque as formas não existem como fins em si mesmas, mas como meios da busca da verdade (§3º). B erra porque a alocação não é linear, mas estratégica. D erra porque a economicidade convive com a eficiência e a proporcionalidade, também arroladas no caput.",
+    "referencia": "PDF IPO III, p. 47",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1946,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "O art. 82 da IN DG/PF nº 255/2023 concretiza o princípio da objetividade na arrecadação de documentos e mídias. Conforme esse dispositivo, é correto afirmar que:",
+    "alternativas": {
+      "A": "A integralidade do material encontrado no local deve ser arrecadada de imediato pela equipe, deixando-se a triagem do que é relevante para a fase posterior de análise na unidade policial de origem da investigação.",
+      "B": "Cabe ao delegado, ou a servidores por ele designados, revisar e triar documentos e mídias para arrecadar o que for de interesse, fotografando-se os elementos no sistema oficial.",
+      "C": "É vedado fotografar ou filmar os elementos de interesse arrecadados, por representar risco à cadeia de custódia do material.",
+      "D": "A triagem do material compete à perícia criminal, não cabendo à autoridade policial revisar os documentos e mídias no local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o art. 82 da IN DG/PF nº 255/2023 (p. 48): cabe ao delegado, ou aos servidores por ele designados, revisar e triar os documentos e mídias para arrecadar o que efetivamente for de interesse, e, sempre que possível, os elementos serão fotografados ou filmados, com as imagens incluídas no sistema oficial (B). A erra porque a triagem se faz para arrecadar apenas o de interesse, não para levar tudo. C erra porque o dispositivo determina justamente fotografar/filmar. D erra porque a revisão e triagem cabem à autoridade policial.",
+    "referencia": "PDF IPO III, p. 48",
+    "nivel": "dificil"
+  },
+  {
+    "id": 1947,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 3 - Premissas Balizadoras da Atividade Investigatória Ostensiva",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o alcance do princípio da segurança e a quem incumbe observá-lo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Abrange a integridade física das pessoas e a devida obtenção dos elementos de interesse, e deve ser observado tanto pela equipe de cumprimento (projetada) quanto pela equipe de coordenação.",
+      "B": "Restringe-se à proteção da integridade física dos policiais, não alcançando terceiros nem a preservação dos elementos de prova a serem coletados.",
+      "C": "Compete à equipe de coordenação, que assinala os riscos nas fichas de alvo, ficando a equipe de cumprimento eximida de avaliá-los no momento da entrada.",
+      "D": "Por ser um princípio meramente orientador da atividade ostensiva, admite que operações sejam iniciadas e prossigam sem a sua observância quando houver urgência na deflagração, em razão do risco de fuga do investigado principal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (p. 44-45): a segurança abrange a integridade física das pessoas (policiais e terceiros) e a devida obtenção dos elementos de interesse, e deve ser observada tanto pela equipe de cumprimento quanto pela de coordenação (A). B erra porque o alcance vai além dos policiais. C erra porque a equipe de cumprimento também avalia os riscos no local. D erra porque nenhuma atividade ostensiva pode ser iniciada ou prosseguir sem a observância da segurança.",
+    "referencia": "PDF IPO III, p. 45",
+    "nivel": "dificil"
   }
 ];
