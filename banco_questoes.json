@@ -29466,5 +29466,56 @@
     "justificativa": "Conforme o material (Seções 17.2 e 17.3): Odds(H|E) = Odds(H) × razão de verossimilhança; o perito avalia a evidência e entrega a razão de verossimilhança (força probatória técnica), enquanto o julgador integra essa informação com as odds a priori (informações prévias) para chegar à posteriori (D). A erra porque o perito não calcula a probabilidade de culpa. B erra porque a evidência modifica, mas não determina sozinha a conclusão. C erra porque as odds a priori são multiplicadas pela RV, não divididas.",
     "referencia": "Cap. 17, Seção 17.2 — Teorema de Bayes (perito x julgador)",
     "nivel": "dificil"
+  },
+  {
+    "id": 2042,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as divisões didáticas da Balística Forense (mnemônico I-E-T), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Balística Interna estuda o projétil desde a sua saída do cano da arma de fogo até a sua parada final, analisando a sua trajetória, a sua velocidade e a sua energia cinética.",
+      "B": "A Interna vai da detonação da espoleta à saída do projétil do cano; a Externa, da saída do cano à parada final; a Terminal, dos efeitos do projétil ao atingir o alvo.",
+      "C": "A Balística Terminal estuda os fenômenos e os efeitos ocorridos na arma desde a percussão da espoleta até a saída do projétil pelo cano da arma.",
+      "D": "A Balística Externa estuda unicamente a estrutura e os mecanismos de funcionamento internos das armas de fogo que são apreendidas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 3, mnemônico I-E-T): a Balística Interna vai da detonação da espoleta até a saída do projétil do cano; a Externa, da saída do cano até a parada final (trajetória, velocidade, energia, alcances); e a Terminal estuda os efeitos do projétil ao atingir o alvo (B). A descreve a Externa, não a Interna. C descreve a Interna, não a Terminal. D descreve a Interna, não a Externa.",
+    "referencia": "PDF, p. 9",
+    "nivel": "medio"
+  },
+  {
+    "id": 2043,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os campos de estudo da Balística Forense, em especial a identificação das armas de fogo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A identificação imediata da arma de fogo consiste no confronto dos vestígios que foram impressos em estojos e em projéteis por ela disparados ou deflagrados durante o exame pericial.",
+      "B": "A caracterização da arma de fogo limita-se a verificar se o armamento está ou não apto a efetuar um disparo eficiente no momento.",
+      "C": "A identificação mediata compara vestígios impressos pelo armamento em estojos e projéteis (confronto balístico); a imediata determina as características do armamento.",
+      "D": "A regeneração de elementos identificadores determina o calibre, a procedência e a energia das munições recarregadas que foram apreendidas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 4.2): a identificação divide-se em imediata (determinação das características do armamento) e mediata (comparação dos vestígios impressos pelo armamento em estojos e projéteis — o confronto balístico) — alternativa C. A erra porque o confronto de vestígios em estojos/projéteis é a identificação mediata. B descreve a verificação de eficiência, não a caracterização. D descreve os exames em munições, não a regeneração.",
+    "referencia": "PDF, p. 10",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2044,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a autonomia da Balística e seus campos de estudo (mnemônico C-I-V-R-E-E), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Balística permanece, ainda hoje, como uma mera subárea dependente da Medicina Legal, sem ter desenvolvido os seus próprios métodos de investigação e de pesquisa científica criminal.",
+      "B": "A regeneração de elementos identificadores é o campo que cuida da determinação dos efeitos de impactos de projéteis em diferentes tipos de alvos.",
+      "C": "Os exames em munições e seus elementos restringem-se a determinar a marca e o número de série das armas de fogo apreendidas na investigação.",
+      "D": "A Balística é hoje disciplina autônoma da Criminalística; a regeneração revela marca/modelo/série removidos ou adulterados, e os exames em munições apontam recarga."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 1.1, 4.4 e 4.5): a Balística, embora oriunda da Medicina Legal, desenvolveu métodos próprios e é hoje disciplina autônoma da Criminalística; a regeneração de elementos identificadores revela marca, modelo, procedência e número de série removidos ou adulterados, e os exames em munições apontam elementos indicativos de recarga (D). A erra porque a Balística é autônoma. B descreve os efeitos de impactos, não a regeneração. C erra porque os exames em munições tratam de calibre, procedência e eficiência das munições.",
+    "referencia": "PDF, p. 10",
+    "nivel": "medio"
   }
 ]
