@@ -5430,23 +5430,6 @@
     "nivel": "medio"
   },
   {
-    "id": 570,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 17 - Inferência lógica",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em um caso de homicídio, o perito analisa um perfil genético encontrado no local e compara-o com o perfil do suspeito. Sob a hipótese de que o suspeito é a fonte do material, a probabilidade da coincidência observada é considerada igual a 1. Sob a hipótese alternativa de que a fonte é outra pessoa qualquer da população, a probabilidade da coincidência é estimada em 1 em 10 milhões. Considerando o conceito de razão de verossimilhança apresentado no Capítulo 17, assinale a alternativa CORRETA quanto à interpretação dessa LR pelo perito.",
-    "alternativas": {
-      "A": "A razão de verossimilhança é de aproximadamente 10 milhões e indica que a probabilidade de o suspeito ser a fonte do DNA é de 10 milhões para 1, podendo ser apresentada como prova de identificação.",
-      "B": "A razão de verossimilhança é de aproximadamente 10 milhões e significa que a evidência observada é cerca de 10 milhões de vezes mais provável sob a hipótese de que o suspeito é a fonte do que sob a hipótese de que outra pessoa o seja, sem afirmar diretamente a probabilidade de culpa.",
-      "C": "A razão de verossimilhança é de aproximadamente 1 em 10 milhões e indica que a evidência é extremamente improvável, devendo ser desconsiderada do laudo.",
-      "D": "A razão de verossimilhança é igual a 1, pois a probabilidade sob a hipótese do suspeito ser a fonte foi assumida como certa, neutralizando o valor da evidência."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme Cap. 17, item 17.3 (p. 148): a LR é Pr(E|H)/Pr(E|H_barra). Com Pr(E|H)=1 e Pr(E|H_barra)=1/10.000.000, a LR é de aproximadamente 10 milhões, indicando que a evidencia e [aprox. 10 milhoes] de vezes mais provavel sob a hipotese de que o suspeito e a fonte. A alternativa A comete a falacia da transposicao do condicional (confundir Pr(E|H) com Pr(H|E)) e usa o termo identificacao, expressamente desaconselhado no texto.",
-    "referencia": "Cap. 17, Seção 17.3, p. 17",
-    "nivel": "facil"
-  },
-  {
     "id": 571,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 17 - Inferência lógica",
@@ -29449,5 +29432,39 @@
     "justificativa": "Conforme o material (Seção 16.6, mnemônico HOEDC): o laudo organiza-se em Histórico, Objeto, Exame, Discussão e Conclusão; na Discussão o perito interpreta os resultados à luz das hipóteses (onde a cadeia de raciocínio se torna visível), e a Conclusão é a resposta objetiva, clara e proporcional, respondendo aos quesitos (D). A descreve o Exame, não a Conclusão. B descreve o Objeto, não o Histórico. C erra porque a Discussão é justamente o espaço da interpretação.",
     "referencia": "Cap. 16, Seção 16.6 — Laudo como produto científico (HOEDC)",
     "nivel": "medio"
+  },
+  {
+    "id": 2040,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as leis da probabilidade (mnemônico LAM-P), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Pela lei dos Limites, uma probabilidade condicional pode assumir valores negativos ou mesmo superiores a 1, a depender da força da evidência considerada no caso.",
+      "B": "A lei da Adição (soma das probabilidades) aplica-se a eventos em geral, ainda que eles não sejam mutuamente exclusivos entre si no espaço amostral analisado.",
+      "C": "Pela lei da Multiplicação, a probabilidade conjunta de eventos independentes é o produto de suas probabilidades; pela Adição, somam-se as de eventos mutuamente exclusivos.",
+      "D": "A lei da Probabilidade Total afirma que uma probabilidade condicional equivale ao produto de duas probabilidades a priori que sejam idênticas entre si no cálculo final realizado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 17.1, mnemônico LAM-P): pela lei da Multiplicação, a probabilidade conjunta de eventos independentes é o produto de suas probabilidades, e pela lei da Adição, para eventos mutuamente exclusivos, as probabilidades se somam (C). A erra porque, pela lei dos Limites, a probabilidade varia entre 0 e 1. B erra porque a Adição (soma simples) exige eventos mutuamente exclusivos. D erra porque a Probabilidade Total é a soma de produtos condicionais sobre eventos exclusivos e exaustivos.",
+    "referencia": "Cap. 17, Seção 17.1 — Leis da probabilidade (LAM-P)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2041,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o Teorema de Bayes e a divisão de papéis entre perito e julgador, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Cabe ao perito criminal calcular diretamente a probabilidade de culpa (posteriori) do acusado, a partir das informações prévias existentes no caso concreto.",
+      "B": "A razão de verossimilhança, considerada isoladamente, já determina a conclusão final sobre a autoria do delito, dispensando por completo as informações prévias do caso.",
+      "C": "As odds a posteriori são obtidas dividindo-se as odds a priori pela razão de verossimilhança da evidência pericial analisada no caso concreto.",
+      "D": "Odds(H|E) = Odds(H) × razão de verossimilhança; o perito entrega a RV (força da evidência), e o julgador integra a priori para chegar à posteriori."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 17.2 e 17.3): Odds(H|E) = Odds(H) × razão de verossimilhança; o perito avalia a evidência e entrega a razão de verossimilhança (força probatória técnica), enquanto o julgador integra essa informação com as odds a priori (informações prévias) para chegar à posteriori (D). A erra porque o perito não calcula a probabilidade de culpa. B erra porque a evidência modifica, mas não determina sozinha a conclusão. C erra porque as odds a priori são multiplicadas pela RV, não divididas.",
+    "referencia": "Cap. 17, Seção 17.2 — Teorema de Bayes (perito x julgador)",
+    "nivel": "dificil"
   }
 ]
