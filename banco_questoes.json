@@ -29908,5 +29908,39 @@
     "justificativa": "Conforme o material (Seção 5.1): se o artefato puder ser interpretado, o canhão d'água deve atingir os fios, as baterias ou o mecanismo de acionamento (se não, busca-se a maior área de varredura); o ângulo em relação à tampa é de 45° no tubo de PVC e de 15° no tubo de ferro (D). A inverte os ângulos. B erra porque a maior área de varredura é para quando NÃO se interpreta o artefato. C erra porque o ângulo varia conforme o material do tubo.",
     "referencia": "PDF, p. 42",
     "nivel": "dificil"
+  },
+  {
+    "id": 2071,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os indicadores de suspeição em correspondências (bombas postais), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "São indicadores de suspeição: peso acima de ~25 g ou mal distribuído, espessura superior a ~5 mm e odor de amêndoas (associado a C2, C3 e Semtex).",
+      "B": "Considera-se suspeito o pacote postal que tenha peso inferior a 5 g e espessura acima de 2 cm, apresentando ainda um odor cítrico bastante característico.",
+      "C": "O odor de amêndoas exalado por uma correspondência indica a presença de pólvora negra comum em seu interior, sem risco relevante de alto explosivo associado.",
+      "D": "A espessura e o peso da correspondência são irrelevantes para a triagem, importando tão só o remetente que vem declarado no envelope recebido."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 4, valores numéricos): são indicadores de suspeição o peso acima de 25 g ou mal distribuído, a espessura superior a 5 mm e o odor de amêndoas (associado a explosivos como C2, C3 e Semtex) — alternativa A. B inverte os valores e o odor. C erra porque o odor de amêndoas remete a altos explosivos, não a pólvora negra. D erra porque peso e espessura são justamente indicadores relevantes de suspeição.",
+    "referencia": "PDF, p. 46",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2072,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as medidas preventivas de segurança no caso de bombas postais, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Diante de uma carta-bomba suspeita, a primeira medida a adotar é tentar desarmá-la com bastante cuidado, a fim de preservar os vestígios para a perícia.",
+      "B": "Recomenda-se submergir de imediato a correspondência suspeita em um recipiente com água, para neutralizar com segurança o eventual artefato explosivo.",
+      "C": "Deve-se manter o local rigorosamente fechado, com as portas e as janelas bem trancadas, para conter uma eventual explosão do artefato postal.",
+      "D": "Não abrir nem desarmar; transportar para área remota; abrir portas e janelas; evacuar e isolar; não colocar na água; cercar com sacos de areia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 7, item 6.1): entre as medidas preventivas estão não abrir nem nunca desarmar a correspondência, transportá-la para área remota, abrir portas e janelas, evacuar e isolar o local, NÃO colocá-la na água (pode ativar o circuito elétrico ou iniciar reações químicas) e cercá-la com sacos de areia (D). A e B contrariam as regras (não desarmar; não colocar na água). C erra porque se devem abrir portas e janelas, não trancá-las.",
+    "referencia": "PDF, p. 47",
+    "nivel": "medio"
   }
 ]
