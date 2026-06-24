@@ -29568,5 +29568,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 2.3.3): na percussão intrínseca CENTRAL a cápsula fica embutida no centro da base do cartucho (permite recarga); na RADIAL (anelar/rimfire, restrita ao .22) a percussão ocorre na borda; e na percussão DIRETA o próprio cão/martelo (com pino usinado) percute a espoleta (D). A erra porque a cápsula no centro é da central, não da radial. B descreve a percussão intrínseca, não a extrínseca (espoleta separada). C descreve a percussão indireta, não a direta.",
     "referencia": "PDF, p. 23",
     "nivel": "dificil"
+  },
+  {
+    "id": 2049,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o calibre real em armas de alma raiada, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "É o diâmetro interno da alma, medido na boca do cano em mm (cheio a cheio); com raias ímpares, mede-se de um cheio à borda do cheio oposto.",
+      "B": "É a designação comercial do tipo particular de munição que a arma de fogo utiliza, gravada na base do culote do cartucho disparado.",
+      "C": "Deve ser medido entre duas raias diametralmente opostas do cano da arma de fogo, e não entre dois cheios da alma raiada que está sendo examinada.",
+      "D": "Para cada calibre real há um único calibre nominal correspondente, inexistindo equivalências entre calibres nominais distintos no mercado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 2.4.1): o calibre real é o diâmetro interno da alma, tomado na boca do cano e expresso em milímetros, correspondendo à menor dimensão da alma (medida entre dois cheios diametralmente opostos); com número ímpar de raias, mede-se da superfície de um cheio até a delimitação entre cheio e raia opostos (A). B descreve o calibre nominal. C erra porque se mede entre cheios, não entre raias. D erra porque há diversos calibres nominais para um único calibre real.",
+    "referencia": "PDF, p. 29-30",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2050,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o calibre nominal e os riscos de adaptação de calibres, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Adaptar um revólver .38 para disparar .357 é perigoso: o tambor do .38 não suporta as pressões do .357, podendo explodir; o calibre nominal é designação comercial.",
+      "B": "O calibre nominal é uma medida física exata e aferível, expressa em milímetros, tomada na boca do cano da arma de fogo que foi examinada.",
+      "C": "É plenamente seguro e até mesmo recomendável adaptar a arma de fogo para que ela calce cartuchos de calibres nominais diferentes daqueles originais previstos de fábrica.",
+      "D": "Cada arma admite um único calibre nominal de munição, não havendo correspondência entre os calibres nominais imperiais e os calibres métricos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 2.4.2): o calibre nominal é a designação comercial do tipo de munição/arma (havendo diversos nominais para um mesmo real); adaptar um revólver .38 para disparar .357 (alongando a câmara) é perigoso, pois o tambor do .38 não resiste às pressões elevadas do .357, podendo explodir e ferir o atirador (A). B descreve o calibre real. C erra porque a adaptação é desaconselhada e perigosa. D erra porque há correspondência entre calibres imperiais e métricos (ex.: .380 Auto = 9 mm Curto).",
+    "referencia": "PDF, p. 31",
+    "nivel": "medio"
   }
 ];
