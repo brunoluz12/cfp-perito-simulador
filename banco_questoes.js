@@ -30180,5 +30180,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 2.1.3): tanto a MDMA quanto a MDA estão incluídas na Lista F2 (Substâncias Psicotrópicas de Uso Proscrito); a MDA tem mecanismo de ação similar ao da MDMA, porém com efeitos mais intensos e duradouros (C). A erra porque a MDA é mais intensa (não mais branda) e ambas são F2. B erra porque MDMA e MDA são F2, não A3 nem de venda livre. D erra porque o ecstasy se apresenta usualmente em comprimidos com chancelas, de uso oral.",
     "referencia": "PDF Química Forense, p. 24-25",
     "nivel": "dificil"
+  },
+  {
+    "id": 2087,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os compostos canabinoides da maconha (THC, CBN, CBD), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O CBD (canabidiol) é o principal componente psicoativo da maconha, sendo o responsável direto pela maior parte dos seus efeitos psicoativos.",
+      "B": "A concentração de THC na planta de maconha é fixa em torno de 27%, independentemente das condições de cultivo e de armazenamento.",
+      "C": "O CBN (canabinol) é o composto canabinoide de uso medicinal reconhecido, estando incluído na Lista C1 da Portaria 344/98-SVS.",
+      "D": "São THC (delta-9, principal psicoativo), CBN (canabinol) e CBD (canabidiol, uso medicinal/Lista C1); na planta, o THC varia de 0,5% a 4%."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 3): os principais canabinoides são o THC (delta-9-trans-tetrahidrocanabinol, principal componente psicoativo), o CBN (canabinol) e o CBD (canabidiol, de uso medicinal, Lista C1); a concentração de THC na planta varia de 0,5% a 4% (D). A erra porque o psicoativo principal é o THC, não o CBD. B erra porque a concentração na planta é 0,5%-4% e depende de vários fatores. C confunde CBN com CBD (o de uso medicinal é o CBD).",
+    "referencia": "PDF Química Forense, p. 26-27",
+    "nivel": "medio"
+  },
+  {
+    "id": 2088,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 3 - Canabinoides",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os teores de THC nas diferentes formas da cannabis, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O óleo de haxixe possui o menor teor de THC entre as formas da cannabis, situando-se na faixa de 0,5% a 4% do vegetal bruto.",
+      "B": "O haxixe é a forma da cannabis com a maior concentração de THC, superando com folga o óleo de haxixe e também o skunk cultivado.",
+      "C": "A planta bruta de maconha possui um teor de THC bastante superior ao do skunk e também ao do haxixe resinoso escuro.",
+      "D": "Ordem crescente de THC: planta (0,5-4%), haxixe (~10%), skunk (9-27%) e óleo de haxixe (20-80%), o mais concentrado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 3, 5 e 6): em ordem crescente de teor de THC, têm-se a planta/vegetal bruto (0,5% a 4%), o haxixe (cerca de 10%), o skunk (9% a 27%) e o óleo de haxixe (20% a 80%), sendo este o mais concentrado (D). A erra porque o óleo de haxixe é o mais concentrado, não o menos. B erra porque o óleo de haxixe supera o haxixe. C erra porque a planta bruta tem o menor teor entre eles.",
+    "referencia": "PDF Química Forense, p. 28",
+    "nivel": "dificil"
   }
 ];
