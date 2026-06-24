@@ -5413,40 +5413,6 @@ const questoesDB = [
     "nivel": "facil"
   },
   {
-    "id": 564,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Biblioteca Digital da Criminalística (BDCRIM) é o repositório oficial de normas e documentos da criminalística da Polícia Federal, contemplando, entre outros conteúdos, o acervo de normas expedidas pela Diretoria Técnico-Científica e pelo Instituto Nacional de Criminalística, bem como os documentos do Sistema de Gestão da Qualidade do SNC. A respeito da BDCRIM, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "A BDCRIM é atualmente acessível tanto pela internet, em acesso público, quanto pela intranet da PF, bastando, na área restrita, autenticação com senha do domínio PF.",
-      "B": "A BDCRIM é mantida pelo Instituto Nacional de Criminalística (INC) e seu acesso é franqueado ao público externo mediante cadastro prévio no portal da Polícia Federal.",
-      "C": "A BDCRIM é acessível apenas pela intranet da Polícia Federal, com senha do domínio PF, e sua atualização e manutenção estão atribuídas à Diretoria Técnico-Científica, conforme a Portaria DITEC/PF nº 1368/2024.",
-      "D": "A BDCRIM substitui as publicações oficiais dos atos normativos no Diário Oficial da União, conferindo validade jurídica autônoma aos documentos nela publicados."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a letra C: conforme o Cap. 13, Seção 13.1, p. 91, a BDCRIM é atualmente acessível apenas pela intranet da PF, com senha do domínio PF, e sua atualização e manutenção competem à DITEC (Portaria DITEC/PF nº 1368/2024). A erra ao admitir acesso público pela internet. B erra ao atribuir a manutenção ao INC e franquear acesso ao público externo. D é falsa: a BDCRIM/Guia ENCRIM não substituem as publicações oficiais (p. 94), que conservam a validade jurídica.",
-    "referencia": "Cap. 13, p. 91",
-    "nivel": "facil"
-  },
-  {
-    "id": 565,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "A respeito das Instruções de Serviço nº 7/2011-DITEC/DPF, nº 8/2011-DITEC/DPF e nº 25/2019, que tratam da distribuição de requisições, da designação de peritos, da análise de viabilidade e da criticidade no âmbito da criminalística da PF, julgue os itens a seguir como CERTOS (C) ou ERRADOS (E):\n\nI. A designação de perito criminal federal para atendimento de requisição pode ser feita por meio do SISCRIM ou, em caráter excepcional, por sistema diverso, desde que devidamente justificada pelo gestor da unidade.\nII. Os usuários do SISCRIM que mantenham requisição de exame sem o cadastramento de objetos de exame ou sem a realização de análise de viabilidade há mais de 10 dias terão funcionalidades do sistema parcialmente bloqueadas.\nIII. Identificadas inconformidades quanto a materiais e quesitos, o perito comunica formalmente o gestor, que encaminha ao requisitante; não apresentada resposta de adequação em 30 dias, o perito deve encaminhar a requisição e o respectivo material ao gestor, para providências.\nIV. A gestão da fila de atendimento nas unidades de criminalística é feita pelo chefe da unidade, observando, salvo situações excepcionais, a cronologia de cadastro das requisições dentro de cada criticidade (alta, média ou baixa).\n\nAssinale a alternativa com a sequência correta.",
-    "alternativas": {
-      "A": "C, E, C, E.",
-      "B": "C, C, E, C.",
-      "C": "E, C, C, C.",
-      "D": "E, E, C, C."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Sequência correta E, C, C, C (letra C). Item I ERRADO (Cap. 13, Seção 13.5.1, p. 97): a designação é exclusivamente pelo SISCRIM, sendo vedada por sistema diverso. Item II CERTO (p. 97): bloqueio parcial após mais de 10 dias sem cadastramento de objetos ou sem análise de viabilidade. Item III CERTO (Seção 13.5.2, p. 98, art. 21, §2º): não apresentada adequação em 30 dias, encaminha-se ao gestor para providências. Item IV CERTO (p. 99): a gestão da fila cabe ao chefe da unidade, pela cronologia de cadastro dentro de cada criticidade (alta, média ou baixa), salvo situações excepcionais. A, B e D erram nessa sequência (A afirma o item III errado; B afirma o item I certo e o III errado; D afirma o item II errado).",
-    "referencia": "Cap. 13, p. 91",
-    "nivel": "dificil"
-  },
-  {
     "id": 566,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
@@ -29397,6 +29363,40 @@ const questoesDB = [
     "resposta_correta": "C",
     "justificativa": "Conforme o material (Seção 7): o MED (Mecanismo de Equalização de Demandas) redistribui pendências de forma compulsória e nacional entre as unidades, apoiado em painéis de BI, e a DITEC define metas para as Unidades de Criminalística, não metas individuais (C). A erra porque não há metas individuais. B erra porque a redistribuição é nacional e compulsória. D erra porque a meta admite, no máximo, 5% de pendências vencidas, não 50%.",
     "referencia": "Cap. 12, Seção 12.7 — Gestão de demandas (MED e metas)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2032,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de normativos da Criminalística e suas autoridades expedidoras, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A IN é ato privativo do Diretor-Geral; após o Decreto 12.002/2024, só se publicam Portarias, Instruções Normativas e Resoluções, mantida a eficácia das normas anteriores.",
+      "B": "A Instrução Normativa (IN) pode ser expedida por chefe de unidade pericial ou por coordenador, no limite de suas respectivas atribuições funcionais regulamentares.",
+      "C": "O Decreto 12.002/2024 revogou e retirou de imediato a eficácia das antigas Instruções Técnicas e das Orientações Técnicas que haviam sido editadas anteriormente pela perícia.",
+      "D": "As Instruções de Serviço (IS) e as Instruções Técnicas (IT) continuam sendo editadas normalmente após 2022, sem restrição relevante de competência das autoridades expedidoras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 13.3): a Instrução Normativa (IN) é ato privativo do Diretor-Geral, e o Decreto 12.002/2024 passou a admitir a publicação apenas de Portarias, Instruções Normativas e Resoluções, garantindo, porém, a eficácia das normas anteriores (IT, OT, IS) — alternativa A. B erra porque a IN é privativa do Diretor-Geral. C erra porque o decreto preservou a eficácia das normas anteriores. D erra porque IS e IT não são mais editadas desde 2022.",
+    "referencia": "Cap. 13, Seção 13.3 — Tipos de normativos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2033,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as requisições de exame na IN DG/PF nº 255/2023, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As requisições de exame pericial são dirigidas diretamente ao perito criminal federal previamente escolhido pela autoridade policial requisitante.",
+      "B": "As requisições são dirigidas ao chefe da unidade de perícia, com os termos de apreensão e distribuídas de imediato aos peritos; o laudo sobe ao SISCRIM e segue ao ePol.",
+      "C": "Em flagrantes ou em operações urgentes, havendo limitação técnica para o atendimento, o perito pode simplesmente deixar de atender, sem necessidade de comunicar o delegado.",
+      "D": "O laudo pericial é inserido diretamente no sistema ePol pelo próprio delegado de polícia, sem necessidade de passar antes pelo SISCRIM da perícia criminal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 13.4, arts. 55 e 62 da IN 255/2023): as requisições são dirigidas ao chefe da unidade de perícia da circunscrição, acompanhadas dos termos de apreensão e distribuídas imediatamente aos peritos; o perito faz o upload do laudo no SISCRIM, que o envia ao ePol (B). A erra porque a requisição vai ao chefe da unidade, não ao perito escolhido. C erra porque, havendo limitação, o perito deve apresentar de imediato ao delegado documento consignando a impossibilidade. D erra porque o laudo passa pelo SISCRIM.",
+    "referencia": "Cap. 13, Seção 13.4 — IN 255/2023 (requisições)",
     "nivel": "medio"
   }
 ];
