@@ -29517,5 +29517,39 @@
     "justificativa": "Conforme o material (Seções 1.1, 4.4 e 4.5): a Balística, embora oriunda da Medicina Legal, desenvolveu métodos próprios e é hoje disciplina autônoma da Criminalística; a regeneração de elementos identificadores revela marca, modelo, procedência e número de série removidos ou adulterados, e os exames em munições apontam elementos indicativos de recarga (D). A erra porque a Balística é autônoma. B descreve os efeitos de impactos, não a regeneração. C erra porque os exames em munições tratam de calibre, procedência e eficiência das munições.",
     "referencia": "PDF, p. 10",
     "nivel": "medio"
+  },
+  {
+    "id": 2045,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito e a classificação geral das armas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Uma arma de fogo é classificada doutrinariamente como uma arma própria de arremesso simples, por ser lançada diretamente pela mão do próprio atirador no alvo.",
+      "B": "Armas próprias são concebidas para essa finalidade (arma de fogo, espada); impróprias não o foram (chave de fenda); a de fogo é de arremesso complexa.",
+      "C": "Armas impróprias são aquelas que foram projetadas especificamente com a finalidade de ataque ou de defesa, como os punhais e os revólveres modernos.",
+      "D": "As armas de arremesso complexas dispensam o uso de um aparato lançador, sendo o projétil arremessado diretamente pela mão do atirador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (contexto inicial): armas próprias são as concebidas para essa finalidade (espada, arma de fogo) e impróprias as que não o foram (garfo, chave de fenda); a arma de fogo é uma arma de arremesso complexa, pois usa um aparato lançador para expelir projéteis substituíveis (B). A erra porque a arma de fogo é de arremesso complexa, não simples. C inverte (punhais/revólveres são armas próprias). D erra porque as de arremesso complexa têm aparato lançador.",
+    "referencia": "PDF, p. 11",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2046,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o tratamento legal das armas de fogo (Lei nº 10.826/2003), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Lei 10.826/2003 traz, em seu próprio texto, a definição legal completa e exaustiva daquilo que se considera arma de fogo no ordenamento brasileiro.",
+      "B": "A Lei 10.826/2003 trata tão só da fabricação industrial de munições, não cuidando do porte nem da posse de armas de fogo pelos cidadãos.",
+      "C": "Dispõe sobre registro, posse, porte e comercialização de armas e munição, mas não conceitua arma de fogo, deixando essa delimitação aos seus regulamentos.",
+      "D": "A definição de arma de fogo, no Brasil, é fixada de forma direta e expressa pela Constituição Federal de 1988, e não por lei ordinária ou por regulamento infralegal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 2.1): a Lei 10.826/2003 dispõe sobre o registro, a posse, o porte e a comercialização de armas de fogo e munição, além dos crimes relacionados, mas não conceitua o que é arma de fogo — delegando essa delimitação (e a diferenciação para armas de pressão, réplicas e simulacros) aos seus regulamentos (C). A erra porque a lei não define arma de fogo. B erra porque a lei trata de porte e posse. D erra porque a definição não está na Constituição.",
+    "referencia": "PDF, p. 12",
+    "nivel": "medio"
   }
 ]
