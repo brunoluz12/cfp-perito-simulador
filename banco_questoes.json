@@ -5311,23 +5311,6 @@
     "nivel": "facil"
   },
   {
-    "id": 548,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 7 - Indícios",
-    "tipo": "multipla_escolha",
-    "enunciado": "Há meses, dois vizinhos mantinham rixa pública com frequentes ameaças mútuas, fato amplamente conhecido na vizinhança. Um deles é encontrado morto por disparos de arma de fogo nas proximidades da casa do outro. Posteriormente, apreende-se na residência do desafeto uma arma de fogo de calibre equivalente ao dos projéteis extraídos do corpo da vítima, e exames balísticos confirmam que os disparos partiram daquela arma específica. Sobre a natureza probatória desses elementos, conforme o Cap. 7 (Indícios), é correto afirmar:",
-    "alternativas": {
-      "A": "As ameaças e brigas, embora não sejam vestígios materiais, são indícios circunstanciais; o exame balístico positivo prova que a arma efetuou os disparos, mas não prova que foi o proprietário quem os realizou.",
-      "B": "As ameaças públicas e as brigas constantes entre os vizinhos constituem verdadeiros vestígios circunstanciais, enquanto o exame balístico positivo configura, isoladamente e por si só, prova plena da autoria do disparo pelo dono da arma, dispensando qualquer demonstração da ação concreta do suspeito.",
-      "C": "Por não serem representadas por vestígios materiais recolhidos na cena, as ameaças e brigas públicas não podem jamais ser consideradas indícios para os fins do art. 239 do CPP, devendo ser integralmente desprezadas pelo julgador na formação do seu convencimento motivado.",
-      "D": "O conjunto descrito configura prova direta, material e plena da autoria do crime de homicídio, dispensando por completo quaisquer outras diligências investigativas, em razão da forte afinidade existente entre os elementos coligidos e o fato apurado."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Correta a alternativa A: o Cap. 7 (pp. 49-50) registra que indícios podem ser representados por vestígios materiais OU por circunstâncias (caso das ameaças e brigas públicas) e conclui que, mesmo com a balística positiva, não se prova que o dono da arma realizou os disparos, pois a arma poderia ter sido subtraída; os indícios de autoria são fortes, mas não definitivos. A alternativa B erra ao classificar ameaças/brigas como vestígios e ao tratar a balística como prova plena de autoria. A alternativa C contraria o art. 239 do CPP e o capítulo, pois o indício pode ser circunstancial e conserva valor probatório. A alternativa D erra ao afirmar prova plena e direta da autoria, ignorando que a prova da ação do suspeito ainda é necessária.",
-    "referencia": "Cap. 7, p. 7",
-    "nivel": "medio"
-  },
-  {
     "id": 549,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 7 - Indícios",
@@ -29278,6 +29261,57 @@
     "resposta_correta": "D",
     "justificativa": "Conforme o material (Seção 2, mnemônico FIV): os vestígios classificam-se em Forjados (plantados intencionalmente para desviar o foco), Ilusórios (presentes no local por acaso, sem relação) e Verdadeiros (ligados à ação ou omissão do autor); ressalta-se que até o vestígio forjado deve ser analisado, pois pode revelar pista do verdadeiro autor (D). A erra porque o forjado não deve ser descartado. B confunde ilusório com forjado. C erra porque a distinção é difícil no início dos trabalhos.",
     "referencia": "Cap. 6, Seção 2 — Relação com o fato (FIV)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2015,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de indícios (materiais e circunstanciais), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os indícios devem, por exigência legal expressa, estar embasados em vestígios materiais consolidados na cena do crime, sob pena de invalidade processual da prova produzida.",
+      "B": "Indícios materiais baseiam-se em vestígios consolidados (arma, digital); os circunstanciais, em circunstâncias provadas (ameaças públicas), com peso pela indução lógica.",
+      "C": "Os indícios circunstanciais, por serem imateriais e não palpáveis, deixam de possuir peso processual relevante na formação do convencimento do juiz.",
+      "D": "Ameaças públicas e brigas recentes entre os envolvidos, por serem fatos imateriais, não podem ser consideradas indícios de espécie alguma no processo penal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 2): os indícios materiais baseiam-se em vestígios materiais consolidados (ex.: arma apreendida, digital na cena), e os circunstanciais baseiam-se em circunstâncias factuais provadas (ex.: ameaças públicas, brigas), com peso processual pela indução lógica (B). A erra porque nem todo indício precisa de vestígio material. C e D erram porque os circunstanciais (ameaças, intrigas) podem configurar fortes indícios, ainda que imateriais.",
+    "referencia": "Cap. 7, Seção 2 — Indícios materiais e circunstanciais",
+    "nivel": "medio"
+  },
+  {
+    "id": 2016,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a valoração do indício na doutrina (Rocha e Malatesta), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Para Malatesta, o indício merece a chamada 'apoteose', devendo ser tratado como prova absoluta e irrefutável da autoria do delito que se investiga.",
+      "B": "Para Rocha, o valor probatório do indício independe por completo de sua afinidade ou relação com o crime ou com o seu respectivo autor.",
+      "C": "Malatesta recomenda a chamada 'excomunhão maior' do indício, por considerá-lo prova inteiramente inútil e imprestável à formação do convencimento do juiz no processo penal.",
+      "D": "Para Malatesta, o indício é argumento probatório que deduz o desconhecido do conhecido por causalidade, sem merecer a 'apoteose' nem a 'excomunhão maior'."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4): para Malatesta, o indício é o argumento probatório que deduz o desconhecido do conhecido por meio da relação de causalidade e não merece nem a 'apoteose' (idolatrá-lo como prova absoluta) nem a 'excomunhão maior' (desprezá-lo como inútil) — alternativa D. A e C representam justamente os extremos que Malatesta condena. B erra porque, para Rocha, o valor do indício está em razão da maior ou menor afinidade de relação com o crime ou com o autor.",
+    "referencia": "Cap. 7, Seção 4 — Doutrina (Rocha e Malatesta)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2017,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 7 - Indícios",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exemplo da rixa, comprovado por balística que os projéteis saíram da arma apreendida na casa do suspeito, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Está cabalmente provado que o próprio suspeito efetuou os disparos contra a vítima, o que autoriza, por si só, a imediata prolação de sua condenação criminal.",
+      "B": "Há forte indício de autoria, mas ainda não definitivo, pois a arma poderia ter sido furtada por terceiro; é preciso provar a ação do suspeito.",
+      "C": "O exame de balística, por ser prova material plena, elimina os indícios e dispensa por completo a demonstração da ação do suspeito no caso.",
+      "D": "Os indícios circunstanciais (as ameaças públicas) deixam de ter valor após a realização da perícia balística, que passa a substituí-los integralmente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 3, 'O Limite do Indício e da Prova'): mesmo comprovado que a arma do suspeito efetuou os disparos, os indícios de autoria são fortes, mas ainda não definitivos, pois a arma poderia ter sido furtada por terceiro — é preciso ainda provar a ação do suspeito para condenar (B). A erra porque não está provada a ação do suspeito. C e D erram porque a prova material não elimina nem substitui os indícios, que se somam ao conjunto probatório.",
+    "referencia": "Cap. 7, Seção 3 — Limite do indício de autoria",
     "nivel": "medio"
   }
 ]
