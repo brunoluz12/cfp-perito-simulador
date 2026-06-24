@@ -30010,5 +30010,39 @@
     "justificativa": "Conforme o material (Seção 8.3): o PTI (Positive Target Identification) ou IPA (Identificação Positiva do Alvo) é a informação não pública referente ao alvo (nome, cargo, setor, atividade), que indica conhecimento singular ou em primeira mão do agente, sendo fator de enorme relevância para classificar a ameaça (C). A erra porque o IPA se refere ao alvo, não ao autor. B erra porque o IPA é justamente fator relevante. D erra porque ameaça com IPA, fato gerador e especificidade é vermelha (real), não verde.",
     "referencia": "PDF, p. 56",
     "nivel": "dificil"
+  },
+  {
+    "id": 2077,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a sequência de eventos no atendimento a uma ocorrência com artefato explosivo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A sequência segue: verificar equipamentos, chegar ao local, estabelecer perímetro, montar posto de controle, entrevistar testemunhas, observar e avaliar.",
+      "B": "A primeira providência da equipe, ao ser acionada, é entrar imediatamente em contato direto com o artefato explosivo, antes mesmo de estabelecer o perímetro de isolamento.",
+      "C": "O posto de controle deve ser montado depois da coleta dos vestígios e da completa liberação do local da ocorrência atendida pela equipe.",
+      "D": "Estabelecer o perímetro de segurança é a última etapa da sequência de eventos, realizada depois da avaliação final do artefato suspeito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 9.3, 7 passos): a sequência é verificar equipamentos, chegar ao local, estabelecer perímetro, montar posto de controle, entrevistar testemunhas, observar e fazer uma avaliação (A). B erra porque não se entra de imediato em contato com o artefato — primeiro estabelecem-se perímetro e posto. C erra porque o posto de controle é montado no início, não após a coleta de vestígios. D erra porque o perímetro é uma das primeiras etapas, não a última.",
+    "referencia": "PDF, p. 76-77",
+    "nivel": "medio"
+  },
+  {
+    "id": 2078,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 9 - Procedimentos de Reação a Bombas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a categorização do incidente (A, B e C) na reação a bombas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na categoria B, deve-se agir de imediato sobre o artefato explosivo, sem período de espera, pois nela haveria ameaça direta e iminente à vida das pessoas presentes.",
+      "B": "A categoria C representa uma ameaça imediata e direta à vida, exigindo a transformação urgente do incidente para a categoria A.",
+      "C": "Após uma técnica ativa em incidente de categoria B, deve-se aproximar de imediato do artefato para confirmar a sua efetiva neutralização.",
+      "D": "A: ameaça direta à vida (agir já); B: indireta à vida/direta ao patrimônio (métodos remotos, 'molho' de 20 min); C: sem grande perigo (contracarregar)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 9.4): a categoria A é ameaça direta à vida (agir imediatamente, buscando reduzir a B ou C); a B é ameaça indireta à vida e direta ao patrimônio (usar métodos remotos, como a técnica da corda, e respeitar o 'tempo de molho' de 20 min após técnica ativa); a C não apresenta grande perigo (solução usual: contracarregar com explosivo) — alternativa D. A descreve a categoria A, não a B. B descreve a A, não a C. C erra porque, na B, espera-se o tempo de molho antes de se aproximar.",
+    "referencia": "PDF, p. 79-80",
+    "nivel": "dificil"
   }
 ]
