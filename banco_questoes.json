@@ -5328,23 +5328,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 550,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 8 - Exame pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca dos prazos e horários aplicáveis aos exames periciais, conforme o Cap. 8 da Criminalística e os arts. 160, 161 e 162 do CPP, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "O exame de corpo de delito somente pode ser realizado em dias úteis e em horário comercial, salvo autorização expressa do juiz competente, em razão do princípio da reserva de jurisdição.",
-      "B": "A autópsia será feita pelo menos doze horas depois do óbito, prazo absoluto e inderrogável, ainda que evidentes os sinais de morte aferidos pelos peritos no exame externo do cadáver.",
-      "C": "É vedada a realização de perícia de corpo de delito aos sábados, domingos e feriados, bem como no período da madrugada, salvo determinação judicial em sentido contrário fundamentada no risco de perda dos vestígios.",
-      "D": "O prazo para elaboração do laudo pericial é de dez dias, prorrogável em casos excepcionais, a requerimento fundamentado dos peritos, sem que o CPP fixe limite legal para tal prorrogação."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o PDF (Cap. 8, Seção 8.1, p. 51): o prazo do laudo é de dez dias, prorrogável em casos excepcionais a requerimento fundamentado dos peritos (art. 160, parágrafo único), sem limite legal definido para a prorrogação (alternativa D). A alternativa A é incorreta, pois o art. 161 permite o exame em qualquer dia e hora. A alternativa B erra o prazo da autópsia (seis horas, e não doze) e nega a antecipação pela evidência dos sinais de morte (art. 162). A alternativa C contraria o art. 161, que autoriza o exame em sábados, domingos, feriados e madrugada.",
-    "referencia": "Cap. 8, Seção 8.1, p. 51",
-    "nivel": "medio"
-  },
-  {
     "id": 551,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 8 - Exame pericial",
@@ -29313,5 +29296,56 @@
     "justificativa": "Conforme o material (Seção 3, 'O Limite do Indício e da Prova'): mesmo comprovado que a arma do suspeito efetuou os disparos, os indícios de autoria são fortes, mas ainda não definitivos, pois a arma poderia ter sido furtada por terceiro — é preciso ainda provar a ação do suspeito para condenar (B). A erra porque não está provada a ação do suspeito. C e D erram porque a prova material não elimina nem substitui os indícios, que se somam ao conjunto probatório.",
     "referencia": "Cap. 7, Seção 3 — Limite do indício de autoria",
     "nivel": "medio"
+  },
+  {
+    "id": 2018,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a avaliação de coisas no exame pericial (art. 172 do CPP), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A avaliação pericial recai unicamente sobre coisas íntegras, excluindo-se de plano as coisas que tenham sido destruídas, deterioradas ou o próprio produto do crime apurado.",
+      "B": "Quando não houver acesso direto aos objetos avaliados, a avaliação pericial é integralmente dispensada, por impossibilidade material de se aferir o prejuízo efetivamente causado.",
+      "C": "O perito pode adotar livremente o critério de avaliação que entender pertinente, ficando dispensado de relatá-lo expressamente no corpo do laudo pericial.",
+      "D": "Podem ser avaliadas coisas destruídas, deterioradas e o produto do crime; sem acesso aos objetos, a avaliação é indireta, devendo o perito relatar o critério usado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 8.3, art. 172 do CPP): podem ser avaliadas coisas destruídas, deterioradas e o produto do crime; não sendo possível o acesso aos objetos, a avaliação é feita de forma indireta (com dados dos autos ou diligências), devendo o perito obrigatoriamente relatar o critério utilizado (D). A erra porque também se avaliam coisas destruídas/deterioradas. B erra porque a avaliação não é dispensada, mas feita de forma indireta. C erra porque o perito deve relatar o critério.",
+    "referencia": "Cap. 8, Seção 8.3 — Avaliação de coisas",
+    "nivel": "medio"
+  },
+  {
+    "id": 2019,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as perícias em locais de crime, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Compete privativamente aos peritos criminais, e não ao delegado de polícia, providenciar o isolamento do local de crime até a efetiva chegada da equipe de perícia oficial designada.",
+      "B": "As alterações no estado das coisas, uma vez ocorridas no local, dispensam o registro no laudo pericial, por não influírem na reconstrução da dinâmica dos fatos.",
+      "C": "A autoridade deve providenciar para que não se altere o estado das coisas até a chegada dos peritos (art. 169 do CPP), e o delegado deve isolar o local (art. 6º, I).",
+      "D": "O registro de eventuais alterações do estado do local no corpo do laudo é meramente facultativo, ficando ao critério discricionário do perito criminal responsável."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 8.7): a autoridade deve providenciar imediatamente para que não se altere o estado das coisas até a chegada dos peritos (art. 169 do CPP), e é obrigação do delegado dirigir-se ao local para providenciar o isolamento (art. 6º, I, do CPP) — alternativa C. A erra porque o isolamento cabe ao delegado. B e D erram porque os peritos devem registrar no laudo as alterações do estado das coisas e discutir suas consequências na dinâmica dos fatos.",
+    "referencia": "Cap. 8, Seção 8.7 — Perícias em locais de crime",
+    "nivel": "medio"
+  },
+  {
+    "id": 2020,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 8 - Exame pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o exame grafotécnico e o material gráfico padrão (art. 174 do CPP), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na ausência de escritos preexistentes suficientes, é expressamente vedado à autoridade determinar que a pessoa escreva de próprio punho o que lhe for ditado.",
+      "B": "O padrão gráfico para confronto dispensa os requisitos de autenticidade e de contemporaneidade, bastando a simples quantidade de material gráfico coletado para o exame.",
+      "C": "Documentos reconhecidos pelo próprio autor ou validados em juízo ficam impedidos de servir de padrão para o confronto grafotécnico que se pretende realizar no curso do exame pericial.",
+      "D": "O padrão gráfico exige autenticidade, adequabilidade, contemporaneidade e quantidade; sem escritos suficientes, a pessoa pode ser intimada a escrever o ditado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 8.5, art. 174 do CPP): o material gráfico padrão deve atender aos requisitos Autenticidade, Adequabilidade, Contemporaneidade e Quantidade (A-A-C-Q); não havendo escritos suficientes, a autoridade mandará a pessoa escrever de próprio punho o que lhe for ditado (D). A erra porque o ditado é expressamente previsto. B erra porque autenticidade e contemporaneidade são requisitos exigidos. C erra porque documentos reconhecidos ou validados judicialmente podem servir de padrão.",
+    "referencia": "Cap. 8, Seção 8.5 — Exame grafotécnico",
+    "nivel": "dificil"
   }
 ]
