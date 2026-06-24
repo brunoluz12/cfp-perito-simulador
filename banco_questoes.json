@@ -29687,5 +29687,39 @@
     "justificativa": "Conforme o material (Seção 5.5.2): a detecção de resíduos nas mãos é um indício que pode diferenciar suicídio de homicídio, mas não pode constituir a única prova material; nos revólveres há zonas de escape intenso na junção tambor-cano, enquanto pistolas e espingardas quase não as têm (câmaras herméticas) — alternativa C. A erra porque não é prova plena isolada. B inverte (o revólver é que tem escape intenso). D erra porque Iturrioz e rodizonato foram abandonadas, prevalecendo a MEV (Pb-Ba-Sb).",
     "referencia": "PDF, p. 60-61",
     "nivel": "medio"
+  },
+  {
+    "id": 2057,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os requisitos dos padrões em Balística Forense (mnemônico A-A-C-Q), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O requisito mais importante dos padrões é a quantidade coletada; recomenda-se, em regra, o envio de no mínimo dez padrões coletados para cada uma das armas questionadas.",
+      "B": "A contemporaneidade dos padrões é irrelevante, pois o cano da arma não sofre desgaste algum entre os disparos sucessivos realizados ao longo do tempo.",
+      "C": "Autênticos (origem certa — o mais importante), adequados (mesmo tipo de cartucho), contemporâneos (menor lapso) e em quantidade (mín. 4; ideal enviar a arma).",
+      "D": "A adequabilidade exige que o padrão tenha o mesmo calibre nominal, sendo irrelevante a composição ou a forma do projétil padrão que será coletado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 6.3.3, A-A-C-Q): os padrões devem ser autênticos (origem certa e inquestionável — o requisito mais importante), adequados (mesmo tipo/marca/calibre/composição do questionado), contemporâneos (menor lapso possível, pois o cano se desgasta a cada disparo) e em quantidade suficiente (mínimo de 4; o ideal é enviar a própria arma) — alternativa C. A erra porque o mais importante é a autenticidade. B erra porque há desgaste do cano. D erra porque a adequabilidade exige também composição e forma similares.",
+    "referencia": "PDF, p. 70-71",
+    "nivel": "medio"
+  },
+  {
+    "id": 2058,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o confronto balístico em projéteis, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As deformações acidentais (resultantes do impacto contra objetos resistentes) são as mais importantes para o confronto balístico, por se reproduzirem facilmente em laboratório pericial.",
+      "B": "Se uma única característica de classe (calibre real, número ou orientação das raias) for concordante, conclui-se de imediato que o projétil saiu daquela arma.",
+      "C": "Usam-se as deformações normais (do cano); se uma característica de classe (calibre real, nº/orientação das raias) discordar, exclui-se a arma sem confronto microscópico.",
+      "D": "Projéteis que estejam intensamente deformados ou completamente fragmentados tornam-se inúteis ao confronto e podem ser descartados de plano pela perícia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 6.3.4.1): no confronto usam-se as deformações NORMAIS (impressas pela passagem no cano), não as acidentais (do impacto, irreproduzíveis); no exame macroscópico das características de classe (calibre real, número e orientação — dextrógira/sinistrógira — das raias), se apenas uma for discordante, exclui-se a arma com certeza, dispensando o exame microscópico (C). A inverte (as normais é que importam). B erra porque a concordância de classe apenas justifica o exame microscópico. D erra porque mesmo projéteis muito deformados/fragmentados podem ser confrontados.",
+    "referencia": "PDF, p. 74-75",
+    "nivel": "dificil"
   }
 ]
