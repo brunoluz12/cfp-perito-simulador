@@ -30877,5 +30877,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 1 e 2): a apostila representa uma atualização e ampliação substancial dos materiais didáticos originalmente desenvolvidos pelo Instituto Nacional de Criminalística (INC) da PF para os cursos de formação de Peritos Criminais Federais na Academia Nacional de Polícia (ANP); e a ocorrência de acidentes é intrínseca ao próprio comportamento humano e à estrutura física das vias e veículos (C). A erra porque a apostila deriva do material do INC. B erra porque os acidentes não decorrem só de falhas mecânicas. D erra porque o trânsito permanece um problema complexo apesar dos esforços.",
     "referencia": "Cap. 1, p. 9",
     "nivel": "facil"
+  },
+  {
+    "id": 2135,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a repartição de competências na perícia de acidentes de trânsito, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os crimes de homicídio e de lesão corporal culposos no trânsito são, em regra geral, da competência ordinária da Justiça Federal brasileira.",
+      "B": "A Polícia Federal atua na perícia de praticamente a totalidade dos acidentes de trânsito com vítimas que ocorrem no amplo território nacional.",
+      "C": "A PF atua unicamente quando há patrimônio da União envolvido, e não em razão de servidor federal em serviço no acidente de trânsito.",
+      "D": "Homicídio/lesão culposos de trânsito cabem à Justiça Estadual; a PF atua em hipóteses específicas, resumidas no mnemônico S-P-C-L."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2.2): os crimes de homicídio culposo e lesões corporais culposas decorrentes de acidentes de trânsito são, em regra, da competência da Justiça Estadual (investigados pelas polícias civis e científicas estaduais e do DF); a Polícia Federal atua em situações específicas e delimitadas — Servidor federal em serviço, Patrimônio da União, Conexão com investigação da PF e Lei expressa (S-P-C-L) — alternativa D. A erra porque a competência ordinária é estadual. B erra porque a PF atua em hipóteses delimitadas. C erra porque o servidor federal em serviço também é hipótese de atuação.",
+    "referencia": "Cap. 2, Seção 2.2, p. 11-12",
+    "nivel": "medio"
+  },
+  {
+    "id": 2136,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os princípios do trabalho pericial em acidentes de tráfego, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As conclusões periciais independem por completo de evidências materiais, bastando para tanto a convicção pessoal do próprio perito criminal.",
+      "B": "A reprodutibilidade significa que cada perito chegará a um resultado necessariamente diferente, conforme a sua experiência pessoal acumulada na carreira.",
+      "C": "Cada conclusão deve ancorar-se em evidências materiais e ser passível de verificação por outro expert (reprodutibilidade da prova científica).",
+      "D": "A imparcialidade exige que o perito determine, ao final do exame, a culpa ou a inocência de cada um dos envolvidos no acidente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 2.4): os princípios do trabalho pericial são objetividade, imparcialidade e reprodutibilidade; toda conclusão pericial deve estar ancorada em evidências materiais e ser passível de verificação por outro expert da área — característica essencial da prova científica em um Estado Democrático de Direito (C). A erra porque as conclusões dependem de evidências materiais. B erra porque a reprodutibilidade implica que outro expert chegue ao mesmo resultado. D erra porque determinar culpa/inocência é função do juiz, não do perito.",
+    "referencia": "Cap. 2, Seção 2.4, p. 12",
+    "nivel": "medio"
   }
 ];
