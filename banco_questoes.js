@@ -29874,5 +29874,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 4.1 a 4.4): o mecanismo de pressão aciona ao se aplicar peso (ex.: sentar-se); a descompressão, ao remover um objeto ou a pressão (típico de carta-bomba ao abrir algo); a tensão, quando um cabo de tropeço é rompido/tracionado; e a tração, por um puxão que solta um pino previamente armado (A). B descreve a pressão, não a descompressão. C descreve a pressão, não a tensão. D erra porque pressão e descompressão são opostos (aplicar x remover força).",
     "referencia": "PDF, p. 33-35",
     "nivel": "dificil"
+  },
+  {
+    "id": 2069,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre técnicas passivas e ativas de desativação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A criogenia (resfriamento drástico e rápido) e o exame por meio de raios X são exemplos de técnicas ativas de desativação de artefatos explosivos improvisados.",
+      "B": "Passivas (raios X, auscultação, criogenia) não alteram o artefato; as ativas (canhão d'água, corda, cargas) podem ativá-lo e visam cortar o circuito de fogo.",
+      "C": "O uso do canhão d'água e das cargas especiais classifica-se, segundo o material, entre as técnicas passivas de exame do artefato suspeito.",
+      "D": "A regra geral de segurança recomenda permanecer o maior tempo possível nas proximidades do objeto suspeito durante a desativação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (visão geral): técnicas PASSIVAS não provocam alterações físico-químicas no artefato (barreiras, auscultação, raios X, fibroscópio, criogenia), enquanto as ATIVAS podem ativá-lo e têm por objetivo interromper o circuito de fogo (técnica da corda, canhão d'água, cargas especiais, chama, contracarga) — alternativa B. A erra porque criogenia e raios X são passivas. C erra porque canhão d'água e cargas especiais são ativas. D erra porque a regra é permanecer o MENOR tempo possível.",
+    "referencia": "PDF, p. 41",
+    "nivel": "medio"
+  },
+  {
+    "id": 2070,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o posicionamento do disruptor (canhão d'água) na desativação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Em tubo de PVC, o canhão d'água deve ser posicionado a 15° da tampa (cap); já em tubo de ferro, deve ser posicionado a 45° da tampa.",
+      "B": "O canhão d'água deve, em regra, mirar a maior área de varredura possível, ainda que o artefato suspeito já possa ser plenamente interpretado pela equipe.",
+      "C": "O ângulo de posicionamento do canhão d'água independe do material do tubo, sendo fixado invariavelmente em 30° nos casos de desativação de artefatos.",
+      "D": "Se o artefato for interpretável, mira-se fios/baterias/mecanismo; o ângulo é de 45° em tubo de PVC e de 15° em tubo de ferro."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 5.1): se o artefato puder ser interpretado, o canhão d'água deve atingir os fios, as baterias ou o mecanismo de acionamento (se não, busca-se a maior área de varredura); o ângulo em relação à tampa é de 45° no tubo de PVC e de 15° no tubo de ferro (D). A inverte os ângulos. B erra porque a maior área de varredura é para quando NÃO se interpreta o artefato. C erra porque o ângulo varia conforme o material do tubo.",
+    "referencia": "PDF, p. 42",
+    "nivel": "dificil"
   }
 ];
