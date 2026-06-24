@@ -7266,23 +7266,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 691,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 11 - Tipos de Adulteração no VIN",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em uma vistoria, o perito observa que o veículo apresenta o VIN gravado em região onde originalmente não existia gravação de fábrica. A região da peça suporte original foi previamente recoberta com massa plástica e pintada, ocultando a numeração original, enquanto a nova numeração foi inscrita em ponto distinto. Esse procedimento corresponde, conforme o Cap. 11, à modalidade:",
-    "alternativas": {
-      "A": "Ocultação da numeração original e regravação em local distinto.",
-      "B": "Recobrimento da peça suporte com posterior regravação da numeração no mesmo local original.",
-      "C": "Substituição da peça suporte.",
-      "D": "Remontagem."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme item 11.7 (p. 54), a ocultação da numeração original e regravação em local distinto consiste na 'remoção da numeração original e regravação em local distinto', sendo ilustrada (Figura 55) com 'recobrimento da peça suporte com massa plástica e pintura para regravação em local distinto'.",
-    "referencia": "Cap. 11, p. 54",
-    "nivel": "dificil"
-  },
-  {
     "id": 692,
     "disciplina": "PVAT - Módulo I (Identificação Veicular)",
     "conteudo": "Cap. 11 - Tipos de Adulteração no VIN",
@@ -30655,6 +30638,40 @@ const questoesDB = [
     "resposta_correta": "A",
     "justificativa": "Conforme o material (Seção 5): o laser grava por ablação térmica, sem contato, gerando uma zona termicamente afetada muito limitada, sem deslocamento plástico do substrato nem bordas elevadas (marcação essencialmente superficial); isso confere bom aspecto visual, mas menor robustez a remoções mecânicas e reduz a resposta aos métodos clássicos de restauração pericial (A). B e C erram porque o laser não deforma plasticamente nem tem zona profunda. D erra porque a marcação superficial confere MENOR robustez (não maior).",
     "referencia": "Cap. 10, Seção 10.4, p. 48-49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2119,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 11 - Tipos de Adulteração no VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a modalidade de adulteração simples (11.3), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na adulteração simples, recobre-se o NIV original com uma chapa metálica devidamente soldada e grava-se uma nova numeração sobre essa chapa aplicada.",
+      "B": "A adulteração simples consiste na substituição total ou parcial da longarina onde o NIV se encontra gravado, prática conhecida como transplante.",
+      "C": "Na adulteração simples, um ou mais caracteres são alterados por rebatimento/sobreposição, gerando a leitura de outro caractere (ex.: 3→8, 5→6, F→E).",
+      "D": "A adulteração simples exige a remoção completa do NIV original e a sua posterior regravação em um local distinto do veículo automotor."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 11.3): na adulteração simples, um ou mais caracteres têm sua configuração alterada por rebatimento por sobreposição, dando origem à leitura de outro caractere (exemplos: 3→8, 5→6, F→E, P→R) — alternativa C. A descreve a sobreposição por chapa (11.5). B descreve a substituição da peça suporte (11.6). D descreve a ocultação e regravação em local distinto (11.7).",
+    "referencia": "Cap. 11, Seção 11.3, p. 52",
+    "nivel": "medio"
+  },
+  {
+    "id": 2120,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 11 - Tipos de Adulteração no VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as modalidades de recobrimento, sobreposição por chapa e substituição da peça suporte, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A sobreposição por chapa metálica é a modalidade que é conhecida no meio policial como 'transplante' ou 'implante' da peça suporte do veículo automotor periciado.",
+      "B": "No recobrimento da peça suporte, substitui-se integralmente a região do NIV por outra peça proveniente de um veículo doador clandestino.",
+      "C": "Na substituição da peça suporte, o NIV é tão só coberto por uma camada de massa plástica, sem a troca da peça metálica original do veículo.",
+      "D": "Recobrimento = cobrir o NIV com massa/solda e regravar; chapa = chapa soldada/colada com nova gravação; substituição da peça suporte = 'transplante/implante'."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 11.4 a 11.6): o recobrimento da peça suporte cobre o NIV com massa plástica/solda para posterior regravação; a sobreposição por chapa metálica recobre o NIV com uma chapa (soldada ou colada) e nova gravação; e a substituição da peça suporte (troca da região do NIV) é conhecida no meio policial como 'transplante' ou 'implante' (D). A erra porque 'transplante' é a substituição (11.6), não a chapa. B descreve a substituição, não o recobrimento. C descreve o recobrimento, não a substituição.",
+    "referencia": "Cap. 11, Seções 11.4-11.6, p. 52-53",
     "nivel": "dificil"
   }
 ];
