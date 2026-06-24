@@ -29653,5 +29653,39 @@
     "justificativa": "Conforme o material (Seção 4.4): o mosquetão é arma de fogo longa, de porte e de repetição, com alma raiada (cano ~30\") e calibres de alta energia; possui carregador (depósito) no interior da coronha e ferrolho de alavanca, que extrai os estojos deflagrados no recuo e realimenta a arma ao ser empurrado para frente (A). B erra porque é arma longa, raiada e de repetição. C erra porque o depósito fica na coronha. D erra porque o ferrolho é justamente o mecanismo de extração/realimentação (acionado manualmente).",
     "referencia": "PDF, p. 45",
     "nivel": "dificil"
+  },
+  {
+    "id": 2055,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o zoneamento característico impresso no anteparo por disparo a curta distância (mnemônico CHA-ES-TA), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A zona de chama, produzida pela pólvora incombusta incrustada no alvo, dispõe-se concentricamente quando o tiro é perpendicular ao anteparo atingido.",
+      "B": "A zona de tatuagem é constituída por fuligem e por pequenas partículas de combustão da pólvora que ficam impregnadas na superfície do anteparo.",
+      "C": "Da boca do cano para fora: chama (gases quentes, até ~10 cm), esfumaçamento (fuligem) e tatuagem (pólvora incombusta, concêntrica ou elíptica).",
+      "D": "A zona de esfumaçamento decorre dos gases expelidos em alta temperatura e raramente é detectável além de dez centímetros da boca do cano."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 5.5.4, CHA-ES-TA): a zona de CHAMA decorre dos gases quentes (efeitos até ~10 cm); a de ESFUMAÇAMENTO, da fuligem/partículas de combustão (informa tipo de pólvora e ângulo); e a de TATUAGEM, dos grãos de pólvora incombusta incrustados (dispostos concentricamente no tiro perpendicular ou elípticos no inclinado) — alternativa C. A confunde chama com tatuagem. B confunde tatuagem com esfumaçamento. D confunde esfumaçamento com chama.",
+    "referencia": "PDF, p. 63",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2056,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os resíduos de disparo nas mãos do atirador, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A presença de resíduos de disparo nas mãos do investigado constitui, por si só, prova material plena e suficiente da autoria do disparo.",
+      "B": "As pistolas e as espingardas possuem zonas de escape de gases bem mais intensas do que os revólveres, justamente por terem câmaras herméticas.",
+      "C": "É indício (diferencia suicídio de homicídio), mas não pode ser a única prova; no revólver o escape é intenso na junção tambor-cano, e a pistola é hermética.",
+      "D": "A prova de Iturrioz e a reação com rodizonato de sódio são, atualmente, as técnicas oficiais de eleição para a detecção de resíduos de disparo nas mãos do atirador investigado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 5.5.2): a detecção de resíduos nas mãos é um indício que pode diferenciar suicídio de homicídio, mas não pode constituir a única prova material; nos revólveres há zonas de escape intenso na junção tambor-cano, enquanto pistolas e espingardas quase não as têm (câmaras herméticas) — alternativa C. A erra porque não é prova plena isolada. B inverte (o revólver é que tem escape intenso). D erra porque Iturrioz e rodizonato foram abandonadas, prevalecendo a MEV (Pb-Ba-Sb).",
+    "referencia": "PDF, p. 60-61",
+    "nivel": "medio"
   }
 ]
