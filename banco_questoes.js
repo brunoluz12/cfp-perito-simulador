@@ -30809,5 +30809,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 4 a 6): o WEBVIN fornece padrões e locais usuais de gravação e verifica a passagem do veículo por leilão; o Inmetro-cronotacógrafo permite consulta bidirecional de lacres (veículo→lacre e lacre→veículo); e as cartas-laudo trazem informações obtidas diretamente dos fabricantes, com robustez e detalhe variáveis (A). B erra porque o registro de lacres é do Inmetro. C erra porque a consulta do Inmetro é bidirecional. D erra porque as cartas-laudo vêm do fabricante, não de bases abertas.",
     "referencia": "Cap. 16, p. 73",
     "nivel": "dificil"
+  },
+  {
+    "id": 2131,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 17 - Procedimento de perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do procedimento de perícia veicular (6 etapas) e os pilares do exame físico, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O procedimento de perícia em veículos terrestres não possui um marco normativo claramente definido, ficando inteiramente a critério de cada perito designado.",
+      "B": "Pela Portaria Ditec/PF 1.563/2025 há 6 etapas (VI-LE-EX-DE-RE-CO); o exame físico tem 3 pilares (ID-EV-AL: identidade, conservação/valoração, alterações).",
+      "C": "A primeira etapa do procedimento pericial é a conclusão do laudo, que é seguida pela posterior análise de viabilidade do atendimento.",
+      "D": "Os três pilares do exame físico são a pesquisa histórica, a consulta a bancos de dados e o estudo de padrões do fabricante do veículo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Visão geral e 17.3): com base na Portaria Ditec/PF nº 1.563/2025, o procedimento estrutura-se em 6 etapas — Viabilidade, Levantamento prévio, Exame físico, Descrição, Registros e Conclusões (VI-LE-EX-DE-RE-CO); e o exame físico (17.3) assenta-se em 3 pilares: Identidade, Estado de conservação/Valoração e Alterações/adaptações (ID-EV-AL) — alternativa B. A erra porque há marco normativo (a Portaria). C erra porque a viabilidade é a 1ª etapa e a conclusão é a última. D confunde os 3 pilares com os dados prévios (P-C-E).",
+    "referencia": "Cap. 17, p. 75-76",
+    "nivel": "medio"
+  },
+  {
+    "id": 2132,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 17 - Procedimento de perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as conclusões periciais e as observações finais do procedimento (descarregamento e cadeia de custódia), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O laudo pericial veicular admite só duas conclusões possíveis: a adulteração confirmada ou então a inconclusão do exame técnico realizado.",
+      "B": "Em veículos carregados, o descarregamento da carga é solicitado de forma rotineira pelo perito, independentemente dos quesitos a serem respondidos no laudo.",
+      "C": "As transferências de custódia do veículo ao longo do processo pericial dispensam a documentação formal específica em laudo.",
+      "D": "Quatro conclusões (NEG / OK-ID / OK-?? / INC); o descarregamento só se solicita se imprescindível aos quesitos, e a transferência de custódia é documentada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (17.6 e observações finais): o laudo pode concluir de quatro formas — sem evidências de adulteração (NEG), adulteração confirmada com identificação da real (OK-ID), adulteração confirmada sem identificação da real (OK-??) e inconclusão (INC); em veículos carregados, o descarregamento só é solicitado se for imprescindível para responder aos quesitos; e todas as transferências de custódia devem ser documentadas (D). A erra porque são quatro conclusões. B erra porque o descarregamento só ocorre se imprescindível. C erra porque a cadeia de custódia exige documentação.",
+    "referencia": "Cap. 17, Seção 17.6, p. 76",
+    "nivel": "dificil"
   }
 ];
