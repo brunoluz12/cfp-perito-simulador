@@ -14321,23 +14321,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1103,
-    "disciplina": "PCEB - Bombas e Explosivos",
-    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca da classificação dos explosivos quanto à velocidade de detonação e do posicionamento de cada classe na cadeia de fogo, assinale a opção correta.",
-    "alternativas": {
-      "A": "Os baixos explosivos, ou deflagrantes, apresentam combustão lenta e progressiva, com velocidades de até 1.000 m/s, como a pólvora negra, cuja velocidade é de cerca de 300 m/s.",
-      "B": "Os altos explosivos primários situam-se no final da cadeia de fogo e, por sua elevada brisância, dispensam carga inicial para que sua iniciação ocorra de modo confiável.",
-      "C": "Os altos explosivos secundários, à exceção do TNT, somente detonam quando confinados, condição imprescindível para que atinjam a sua máxima relação pressão-tempo.",
-      "D": "A pólvora negra é classificada como alto explosivo secundário, em virtude de sua elevada relação pressão-tempo e da brisância compatível com a dos explosivos de ruptura."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme p. 16-17, baixos explosivos têm combustão lenta e progressiva até 1.000 m/s, como a pólvora negra (~300 m/s) (A correta). Os altos primários são intermediários/iniciadores, não estão no final da cadeia, e são sensíveis (B errada). Os altos secundários não necessitam de confinamento (C errada). A pólvora negra é baixo explosivo (D errada).",
-    "referencia": "PDF, p. 16-17",
-    "nivel": "medio"
-  },
-  {
     "id": 1104,
     "disciplina": "PCEB - Bombas e Explosivos",
     "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
@@ -29788,6 +29771,40 @@
     "resposta_correta": "D",
     "justificativa": "Conforme o material (Seção 4.3): a PF aplica conhecimentos sobre explosivos em cinco frentes — segurança de dignitários, segurança da aviação civil (aeroportuária), locais sob ameaça de bomba em instalações públicas federais, operações policiais especiais e perícias em locais de explosão —, com inter-relacionamento entre Inteligência Policial, Defesa Institucional e Criminalística (D). A e B erram porque a atuação é ampla e inclui prevenção, dignitários e aviação. C erra porque a integração entre segmentos é necessária.",
     "referencia": "PDF, p. 13",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2063,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de explosão (mnemônico M-Q-A) e a ordem da explosão, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A explosão de 1ª ordem (também chamada de baixa ordem) é aquela em que restam resíduos de explosivo não consumido no local.",
+      "B": "Mecânica (pressão supera a resistência, ex.: caldeira), química (explosivos comerciais) e atômica (fusão/fissão); na de 1ª ordem o explosivo é totalmente consumido.",
+      "C": "A explosão química resulta diretamente da fusão ou da fissão do núcleo do átomo, com a transformação direta de matéria em energia.",
+      "D": "A explosão mecânica decorre de uma reação química que converte, de forma extremamente rápida, substâncias sólidas ou líquidas em gases de grande volume e altíssima pressão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 2.1, M-Q-A): a explosão mecânica ocorre quando a pressão supera a resistência estrutural (ex.: caldeira); a química converte rapidamente sólidos/líquidos em gases (todos os explosivos comerciais são químicos); e a atômica resulta de fusão/fissão nuclear. Na explosão de 1ª ordem (alta ordem), o explosivo é totalmente consumido (B). A erra porque a 1ª ordem é alta e total. C confunde química com atômica. D confunde mecânica com química.",
+    "referencia": "PDF, p. 15",
+    "nivel": "medio"
+  },
+  {
+    "id": 2064,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os efeitos de uma explosão, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os efeitos primários de uma explosão variam conforme os fatores do ambiente onde ela ocorre, ao contrário dos secundários, que permanecem fixos e invariáveis.",
+      "B": "São primários a onda de pressão, a fragmentação e o térmico; o efeito Monroe (bazuca) decorre da convergência de ondas de choque a um ponto, usado em implosões.",
+      "C": "O deslocamento de ar (concussão) gera uma onda de pressão positiva, sem a fase posterior de pressão negativa, que não chega a ser destrutiva.",
+      "D": "As ondas de choque de uma explosão não conseguem detonar cargas explosivas próximas, sendo, portanto, totalmente irrelevantes para o funcionamento dos detonadores."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 2.7): os efeitos primários são a onda de pressão explosiva, a fragmentação e o efeito térmico-incendiário (os secundários é que variam com o ambiente); o efeito Monroe (ou bazuca) decorre da convergência de várias ondas de choque para um mesmo ponto, sendo usado em implosões (B). A inverte (são os secundários que variam). C erra porque há fase de pressão negativa, também destrutiva. D erra porque a onda de choque detona cargas próximas por simpatia — princípio dos detonadores.",
+    "referencia": "PDF, p. 23-24",
     "nivel": "dificil"
   }
 ]
