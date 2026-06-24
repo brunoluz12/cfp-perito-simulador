@@ -30724,5 +30724,39 @@
     "justificativa": "Conforme o material (Seção 5): o deslocamento metodológico essencial impõe que a mera presença de número/etiqueta/caracteres não equivale à autenticidade; a avaliação pericial deve verificar a compatibilidade entre o método de gravação observado e o padrão industrial original do fabricante, a época de produção do veículo e as normas técnicas vigentes à época (C). A erra porque presença não é autenticidade. B erra porque a inspeção visual superficial é insuficiente. D erra porque equipamentos atuais e gabaritos permitem adulterações visualmente regulares (alinhadas).",
     "referencia": "Cap. 13, p. 64",
     "nivel": "dificil"
+  },
+  {
+    "id": 2125,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 14 - Avaliação do estado de conservação do veículo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a premissa e os exames externo e interno na avaliação do estado de conservação, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Restringe-se ao estado aparente (vistoria visual qualificada, sem desmontagem); o exame externo segue PC-AV-DA-OX e o interno, BA-FO-PA-RE.",
+      "B": "A avaliação do estado de conservação exige a desmontagem completa e o teste funcional de cada componente mecânico e elétrico do veículo que foi periciado.",
+      "C": "O exame externo do veículo limita-se à simples leitura do hodômetro e à conferência do número do chassi gravado na estrutura metálica.",
+      "D": "O exame interno compreende a verificação da pintura, da carroceria e dos sinais de oxidação metálica externa do automóvel periciado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 1 a 3): a avaliação considera exclusivamente o estado de conservação aparente, por inspeção visual qualificada, sem desmontagens ou testes funcionais (salvo determinação expressa); o exame externo analisa pintura, carroceria, avarias, danos de acidente e oxidação (PC-AV-DA-OX) e o interno analisa bancos, forrações, painel e revestimentos (BA-FO-PA-RE) — alternativa A. B erra porque, em regra, não há desmontagem nem teste funcional. C reduz indevidamente o exame externo. D atribui itens do exame externo ao interno.",
+    "referencia": "Cap. 14, p. 65",
+    "nivel": "medio"
+  },
+  {
+    "id": 2126,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 14 - Avaliação do estado de conservação do veículo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação do estado de conservação e os deságios proporcionais, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As quatro categorias obrigatórias do estado de conservação do veículo são: ótimo, bom, regular e também ruim, conforme a metodologia descrita.",
+      "B": "Classifica-se em Bom/Regular/Ruim/Sucata; sobre a FIPE aplicam-se deságios: bom 10-20%, regular 20-50%, mau 50-70%, sucata 70-95%.",
+      "C": "O deságio orientativo aplicável a um veículo que foi classificado como sucata situa-se entre 10% e 20% do valor de referência adotado.",
+      "D": "A classificação de veículos sinistrados em danos de pequena, média ou grande monta não influencia a etapa de valoração do bem periciado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seções 4, 6 e 7): o estado de conservação é classificado obrigatoriamente em Bom, Regular, Ruim ou Sucata (B-R-R-S); sobre o valor de referência (Tabela FIPE ou similar) aplicam-se deságios proporcionais — bom 10-20%, regular/dano de pequena monta 20-50%, mau/média monta 50-70% e sucata/grande monta 70-95% (B). A erra porque as categorias são bom/regular/ruim/sucata (não 'ótimo'). C erra porque a sucata sofre deságio de 70-95% (não 10-20%). D erra porque a monta do sinistro influencia diretamente a valoração.",
+    "referencia": "Cap. 14, p. 65-66",
+    "nivel": "dificil"
   }
 ]
