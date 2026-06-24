@@ -5430,40 +5430,6 @@ const questoesDB = [
     "nivel": "medio"
   },
   {
-    "id": 568,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em laboratório de perícia criminal, o setor de garantia da qualidade audita dois conceitos centrais para a confiabilidade dos exames: a reprodutibilidade e a robustez metodológica. Durante a auditoria, discute-se a definição operacional adequada de cada conceito e as práticas institucionais que os sustentam. Com base no Capítulo 16, assinale a alternativa CORRETA.",
-    "alternativas": {
-      "A": "Reprodutibilidade significa que o método mantém resultados consistentes mesmo diante de pequenas variações inevitáveis nas condições experimentais, enquanto robustez é a capacidade de outro perito repetir o exame e chegar a resultados plenamente compatíveis.",
-      "B": "Reprodutibilidade é outro profissional, com métodos equivalentes e documentação completa, obter resultados compatíveis ao repetir o exame; robustez é o método manter-se consistente diante de pequenas variações das condições.",
-      "C": "Reprodutibilidade e robustez são rigorosamente sinônimos na ciência forense, ambos descrevendo a capacidade de o método não falhar diante de variações experimentais, sendo a distinção entre eles meramente terminológica e didática.",
-      "D": "A robustez metodológica dispensa por completo qualquer validação prévia, desde que o método seja amplamente utilizado na rotina pericial, sendo a reprodutibilidade secundária quando o perito que assinou o laudo for bastante experiente."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme a Seção 16.5 (Reprodutibilidade e Robustez Metodológica), reprodutibilidade é a capacidade de outros profissionais, com métodos equivalentes e documentação completa que garanta rastreabilidade, obterem resultados compatíveis ao repetir o exame; robustez é a capacidade de o método produzir resultados consistentes mesmo diante de pequenas variações nas condições experimentais (flutuações de temperatura, lotes de reagentes) — exatamente o que descreve a alternativa B. A alternativa A inverte os conceitos; a C iguala-os indevidamente; a D dispensa validação e desconsidera a reprodutibilidade.",
-    "referencia": "Cap. 16, Seção 16.5, p. 140-141",
-    "nivel": "medio"
-  },
-  {
-    "id": 569,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 16 - O Método científico na prática pericial",
-    "tipo": "julgue_itens",
-    "enunciado": "O Capítulo 16 ressalta que os vieses cognitivos são limitações sistemáticas universais do funcionamento cognitivo humano, presentes mesmo em especialistas experientes, e que podem comprometer a objetividade pericial, demandando medidas estruturais de mitigação. Julgue os itens a seguir.\n\nI. O viés de ancoragem ocorre quando a primeira informação recebida (por exemplo, uma suspeita preliminar do inquérito ou um relato informal) exerce influência desproporcional sobre os julgamentos subsequentes do perito, dificultando a consideração imparcial das informações posteriores.\nII. O viés de confirmação consiste na tendência de buscar, valorizar ou recordar com mais facilidade evidências que reforcem a hipótese previamente adotada, minimizando os dados contrários, decorrendo, em regra, de má-fé ou negligência do perito.\nIII. Estratégias como exames cegos ou parcialmente cegos e o sequenciamento controlado de informações visam reduzir vieses contextuais ao restringir o acesso do perito a dados não pertinentes ao exame e ao definir a ordem em que as informações lhe são fornecidas.\nIV. O viés retrospectivo (hindsight) leva o observador a perceber, depois de ocorrido um evento, que o resultado era previsível ou óbvio, distorcendo a avaliação das decisões e alternativas disponíveis no momento original.\nV. O viés de autoridade consiste em atribuir maior credibilidade a uma informação simplesmente porque ela provém de um superior, de colega antigo ou de instituição prestigiada, sem o devido escrutínio crítico.\n\nEstão CORRETOS apenas os itens:",
-    "alternativas": {
-      "A": "I, II, III e IV.",
-      "B": "I, II, IV e V.",
-      "C": "I, III, IV e V.",
-      "D": "II, III, IV e V."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme a Seção 16.5, o item II está INCORRETO ao afirmar que o viés de confirmação decorre, em regra, de má-fé ou negligência: o texto é expresso ao dizer que os vieses cognitivos independem de negligência ou má-fé, constituindo características universais do funcionamento cognitivo humano, presentes mesmo em especialistas experientes. Os itens I (ancoragem), III (exames cegos e sequenciamento controlado), IV (viés retrospectivo) e V (viés de autoridade) reproduzem fielmente o texto. Logo, estão corretos apenas I, III, IV e V (alternativa C). As demais alternativas incluem o item II (falso) ou excluem itens verdadeiros.",
-    "referencia": "Cap. 16, Seção 16.5, p. 139-140",
-    "nivel": "dificil"
-  },
-  {
     "id": 570,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 17 - Inferência lógica",
@@ -29449,5 +29415,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 15.2, mnemônico S-M-D-C L-A-R-E): a tramitação segue receber a Solicitação e os Materiais, Deslacrar, Cadastrar os objetos de exame, gerar/elaborar e Assinar o Laudo, Relacrar os materiais (com novo lacre, mantido o histórico do anterior) e Encaminhar — sem qualquer ato físico sem registro síncrono no sistema (D). A erra porque o deslacre exige registro síncrono. B erra porque se usa um novo lacre, preservando o histórico. C erra porque o recebimento antecede a elaboração do laudo.",
     "referencia": "Cap. 15, Seção 15.2 — Emissão de laudo (tramitação)",
     "nivel": "dificil"
+  },
+  {
+    "id": 2038,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as formas de raciocínio científico na perícia (mnemônico DIA), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A dedução leva a conclusão necessária; a indução, a conclusão provável (dos particulares à regra geral); e a abdução, à explicação plausível dos vestígios.",
+      "B": "A indução parte de princípios gerais para os casos particulares, gerando uma conclusão de natureza necessária e verdadeira quando as premissas também o são.",
+      "C": "A abdução conduz a uma conclusão de natureza necessária e absoluta, idêntica àquela que é obtida pela via do raciocínio dedutivo aplicado ao caso.",
+      "D": "No ciclo típico de investigação científica, é a indução que gera as hipóteses iniciais, e a abdução deriva, a partir delas, as previsões testáveis."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 16.4, mnemônico DIA): a dedução vai dos princípios gerais aos casos particulares, gerando conclusão necessária/verdadeira (se as premissas o forem); a indução vai dos fatos particulares à regra geral, gerando conclusão provável; e a abdução formula a melhor explicação possível para os vestígios, gerando conclusão plausível (A). B descreve a dedução, não a indução. C erra porque a abdução é plausível, não necessária. D inverte: a abdução gera as hipóteses iniciais e a dedução deriva as previsões testáveis.",
+    "referencia": "Cap. 16, Seção 16.4 — Formas de raciocínio (DIA)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2039,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 16 - O Método científico na prática pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do laudo pericial como produto científico (mnemônico HOEDC), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Conclusão do laudo é a seção em que o perito detalha minuciosamente os métodos, os equipamentos e os controles de qualidade que foram empregados no exame.",
+      "B": "O Histórico do laudo é a seção que descreve os vestígios submetidos à análise pericial, com as suas características, a sua origem e as suas condições.",
+      "C": "A Discussão do laudo limita-se a repetir, de forma objetiva, a resposta aos quesitos formulados, sem que haja a devida interpretação dos resultados obtidos no exame.",
+      "D": "As partes são Histórico, Objeto, Exame, Discussão e Conclusão; na Discussão o perito interpreta os resultados, e a Conclusão responde objetivamente aos quesitos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 16.6, mnemônico HOEDC): o laudo organiza-se em Histórico, Objeto, Exame, Discussão e Conclusão; na Discussão o perito interpreta os resultados à luz das hipóteses (onde a cadeia de raciocínio se torna visível), e a Conclusão é a resposta objetiva, clara e proporcional, respondendo aos quesitos (D). A descreve o Exame, não a Conclusão. B descreve o Objeto, não o Histórico. C erra porque a Discussão é justamente o espaço da interpretação.",
+    "referencia": "Cap. 16, Seção 16.6 — Laudo como produto científico (HOEDC)",
+    "nivel": "medio"
   }
 ];
