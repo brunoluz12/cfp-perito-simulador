@@ -5379,40 +5379,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 555,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Ao discutir a evolução normativa internacional das ciências forenses, um perito criminal federal afirma que a série ISO 21043 nasceu para suprir lacunas da ISO/IEC 17025 no contexto pericial. Considerando os referenciais expostos no Capítulo 10, assinale a alternativa correta acerca da distinção entre a série ISO 21043 e a ISO/IEC 17025.",
-    "alternativas": {
-      "A": "a ISO 21043 foi elaborada por iniciativa direta do PCAST norte-americano, em substituição integral aos antigos Scientific Working Groups (SWGs), e possui caráter plenamente cogente, sobrepondo-se de pleno direito às leis internas de cada um dos países signatários.",
-      "B": "a ISO/IEC 17025 trata da competência de laboratórios de ensaio e calibração, mas não aborda especificidades periciais como interpretação e comunicação ao sistema de justiça, lacuna que motivou a ISO 21043 (ISO/TC 272); ademais, nesta não há acreditação.",
-      "C": "tanto a ISO 21043 quanto a ISO/IEC 17025 conferem acreditação a laboratórios forenses, sendo a primeira voltada à fase analítica e a segunda à fase interpretativa, formando um sistema dual de certificação.",
-      "D": "a série ISO 21043 substituiu definitivamente a ISO/IEC 17025 no contexto pericial, tornando-se o único referencial de acreditação reconhecido pelo ILAC para laboratórios forenses, inclusive no Brasil, pelo CGCRE/Inmetro."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Correta: B. Conforme p. 62, a ISO/IEC 17025 é voltada à competência de laboratórios de ensaio e calibração, sem abordar interpretação de resultados e comunicação ao sistema de justiça, lacuna preenchida pela ISO 21043 (ISO/TC 272); o texto destaca que não existe acreditação nas normas ISO 21043. A está errada porque a ISO 21043 foi elaborada pelo ISO/TC 272, não pelo PCAST, e não tem caráter cogente. C e D estão erradas porque as normas ISO 21043 não conferem acreditação.",
-    "referencia": "Cap. 10, p. 62",
-    "nivel": "medio"
-  },
-  {
-    "id": 556,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca dos referenciais internacionais relevantes para a ciência forense além da série ISO 21043, julgue os itens a seguir:\n\nI - A OSAC, criada em 2014 pelo NIST, reestruturou os Scientific Working Groups (SWGs) e publica standards e guidelines, sendo os primeiros de caráter normativo e os segundos de caráter recomendatório.\nII - A ENFSI, no âmbito europeu, publica Best Practice Manuals por disciplina e o ENFSI Guideline for Evaluative Reporting in Forensic Science, cuja abordagem foi incorporada às ISO 21043-4 e 21043-5.\nIII - A Declaração de Sidney constitui documento normativo cogente que estabelece princípios fundamentais da ciência forense, de observância obrigatória para laboratórios acreditados pelo ILAC.\nIV - Para evidências digitais, a ISO 21043-3 remete expressamente à ISO/IEC 27037:2012, norma específica para identificação, coleta, aquisição e preservação de evidência digital.\n\nEstão corretos apenas os itens:",
-    "alternativas": {
-      "A": "I, II e III.",
-      "B": "I, III e IV.",
-      "C": "II, III e IV.",
-      "D": "I, II e IV."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta: D (I, II e IV). Conforme pp. 66-67: a OSAC foi criada em 2014 pelo NIST, reestruturando os SWGs, e publica standards (normativo) e guidelines (recomendatório) — I correto; a ENFSI publica Best Practice Manuals e o Guideline for Evaluative Reporting, incorporado às ISO 21043-4 e 21043-5 — II correto; a ISO 21043-3 remete à ISO/IEC 27037:2012 para evidências digitais — IV correto. O item III está errado porque a Declaração de Sidney (p. 67-68) NÃO é documento normativo nem cogente, mas marco conceitual cujos princípios apenas informam a ISO 21043.",
-    "referencia": "Cap. 10, p. 66-67",
-    "nivel": "dificil"
-  },
-  {
     "id": 557,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 11 - Cadeia de Custódia",
@@ -29380,6 +29346,57 @@
     "resposta_correta": "B",
     "justificativa": "Conforme o material (Seção 2, mnemônico P-E-C): o laudo estrutura-se em Preâmbulo, Exposição/Discussão e Conclusão, e o seu valor reside única e exclusivamente no conteúdo técnico, científico, objetivo e claro — não no prestígio da instituição nem no nome do perito (B). A erra porque a numeração reinicia no primeiro dia de cada ano. C erra porque a conclusão deve ser objetiva e sintética. D erra porque o valor está no conteúdo, não no prestígio.",
     "referencia": "Cap. 9, Seção 9.2 — Estrutura do laudo (P-E-C)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2024,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a ISO 21043-1 (Vocabulário) e os níveis de raciocínio pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os três níveis de raciocínio são observação, interpretação e opinião (OIO); o conceito de 'Cena' da ISO foi nacionalizado, no Brasil, como 'Corpo de Delito'.",
+      "B": "A 'opinião' corresponde ao dado que é diretamente e concretamente constatado na análise, ao passo que a 'observação' é a conclusão técnica final formulada pelo perito.",
+      "C": "O conceito internacional de 'Cena' da ISO foi adotado no Brasil em substituição ao termo 'Corpo de Delito', que teria sido abandonado pelo Código de Processo Penal.",
+      "D": "Os níveis de raciocínio pericial resumem-se à observação e à opinião, sem uma etapa intermediária de interpretação técnica e lógica dos dados constatados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 3, mnemônico OIO): os três níveis de raciocínio pericial são Observação (o que é diretamente constatado), Interpretação (atribuir significado técnico/lógico) e Opinião (conclusão final), e o conceito de 'Cena' da ISO foi nacionalizado, em conformidade ao CPP, como 'Corpo de Delito' (A). B inverte os conceitos de observação e opinião. C erra porque o CPP manteve o termo 'Corpo de Delito'. D erra porque há a etapa intermediária de interpretação.",
+    "referencia": "Cap. 10, Seção 10.1.1 — ISO 21043-1 (Vocabulário)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2025,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os subtipos de análise da ISO 21043-3 (mnemônico CQAR), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Quantificação é o subtipo de análise que responde à pergunta 'o que é o item?', como, por exemplo, saber que um pó branco apreendido em local de tráfico é cocaína.",
+      "B": "Os subtipos são Classificação/Identificação ('o que é?'), Quantificação ('quanto tem?'), Avaliação de Origem ('de onde vem?') e Reconstrução ('o que aconteceu?').",
+      "C": "A Reconstrução é o subtipo de análise que responde à pergunta 'quanto tem do item?', como medir a concentração de etanol presente no sangue da vítima.",
+      "D": "A Avaliação de Origem é o subtipo que responde à pergunta 'o que aconteceu com o item?', como analisar os padrões de manchas de sangue no local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 4, mnemônico CQAR): os quatro subtipos de análise são Classificação/Identificação ('o que é o item?'), Quantificação ('quanto tem do item?'), Avaliação de Origem ('de onde vem o item?') e Reconstrução ('o que aconteceu com o item?') — alternativa B. A erra porque saber que o pó é cocaína é Classificação/Identificação. C confunde Reconstrução com Quantificação. D confunde Avaliação de Origem com Reconstrução.",
+    "referencia": "Cap. 10, Seção 10.1.2 — ISO 21043-3 (Análise)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2026,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação de relatórios (ISO 21043-5) e a sua adoção pela Polícia Federal, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A classificação da ISO (Preliminar, Final, Complementar, Corrigido, Obsoletado) não foi adotada pela PF, que adota dois tipos: Laudo de Constatação e Laudo de Perícia Criminal Federal.",
+      "B": "A Polícia Federal brasileira adotou integralmente as cinco categorias de relatórios forenses que são previstas pela norma internacional ISO 21043-5 de relato.",
+      "C": "A ISO 21043-5 prevê uma única e exclusiva categoria de relatório pericial, o laudo final, não havendo previsão alguma de relatórios preliminares, complementares, corrigidos ou obsoletados.",
+      "D": "Os Laudos Preliminares de Constatação, no âmbito da Polícia Federal, destinam-se prioritariamente ao confronto balístico de projéteis e às armas de fogo apreendidas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 6): a classificação de relatórios da ISO (Preliminar, Final, Complementar, Corrigido/Amended, Obsoletado/Withdrawn) não foi adotada pela Criminalística da PF, que estrutura apenas Laudos Preliminares de Constatação e Laudos de Perícia Criminal Federal (A). B erra porque a PF não adotou as cinco categorias. C erra porque a ISO prevê várias categorias. D erra porque os laudos preliminares destinam-se prioritariamente à constatação de drogas, não ao confronto balístico.",
+    "referencia": "Cap. 10, Seção 10.1.4 — ISO 21043-5 (Relato)",
     "nivel": "medio"
   }
 ]
