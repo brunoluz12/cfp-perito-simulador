@@ -30146,5 +30146,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 1.1): fármaco é a substância de estrutura química definida e ação farmacológica conhecida; medicamento é o produto/forma farmacêutica terminada, contendo um ou mais fármacos com adjuvantes; e as novas substâncias psicoativas (NSP) são as NÃO listadas na Convenção de Psicotrópicos de 1971 nem em suas atualizações (C). A inverte fármaco e medicamento. B erra porque as NSP são as não listadas. D erra porque os alcaloides são nitrogenados e de origem predominantemente vegetal.",
     "referencia": "PDF Química Forense, p. 9",
     "nivel": "dificil"
+  },
+  {
+    "id": 2085,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os anorexígenos (anoréticos), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os anorexígenos pertencem à Lista F2 (substâncias psicotrópicas de uso proscrito), sendo vedada por completo a sua comercialização no território nacional brasileiro.",
+      "B": "Substitutos das anfetaminas, reduzem o apetite e integram a Lista B2 (Receita 'B2'); a Lei 13.454/2017 autorizou quatro deles, entre os quais a sibutramina.",
+      "C": "Os anorexígenos atuam estimulando o apetite e são empregados no tratamento da desnutrição grave, estando incluídos na Lista A3 de psicotrópicos.",
+      "D": "A Lei nº 13.454/2017 proibiu, em definitivo, a produção, a comercialização e o consumo dos anorexígenos que existem no país."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 2.1.2.2): os anorexígenos surgiram como substitutos terapêuticos das anfetaminas para diminuir/abolir o apetite (tratamento da obesidade), integram a Lista B2 (Notificação de Receita 'B2') e a Lei nº 13.454/2017 autorizou a produção/comercialização/consumo, sob receita B2, de sibutramina, anfepramona, femproporex e mazindol (B). A erra porque os anorexígenos são B2, não F2. C erra porque eles reduzem (não estimulam) o apetite. D erra porque a Lei 13.454/2017 autorizou (não proibiu) os quatro anorexígenos.",
+    "referencia": "PDF Química Forense, p. 23",
+    "nivel": "medio"
+  },
+  {
+    "id": 2086,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 2 - Estimulantes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o ecstasy (MDMA e MDA), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A MDA possui efeitos consideravelmente mais brandos e fugazes do que a MDMA, sendo ela a única das duas substâncias incluída na Lista F2.",
+      "B": "A MDMA pertence à Lista A3 (substância controlada, com Receita 'A'), ao passo que a MDA é considerada de venda livre no território brasileiro.",
+      "C": "MDMA e MDA são da Lista F2 (psicotrópicos proscritos); a MDA tem mecanismo similar ao da MDMA, porém com efeitos mais intensos e duradouros.",
+      "D": "O ecstasy é apresentado, em regra, como cristais incolores destinados ao uso injetável, não existindo a sua forma em comprimidos chancelados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 2.1.3): tanto a MDMA quanto a MDA estão incluídas na Lista F2 (Substâncias Psicotrópicas de Uso Proscrito); a MDA tem mecanismo de ação similar ao da MDMA, porém com efeitos mais intensos e duradouros (C). A erra porque a MDA é mais intensa (não mais branda) e ambas são F2. B erra porque MDMA e MDA são F2, não A3 nem de venda livre. D erra porque o ecstasy se apresenta usualmente em comprimidos com chancelas, de uso oral.",
+    "referencia": "PDF Química Forense, p. 24-25",
+    "nivel": "dificil"
   }
 ];
