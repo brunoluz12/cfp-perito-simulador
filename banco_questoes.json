@@ -30418,5 +30418,39 @@
     "justificativa": "Conforme o material (Seção 5): quando o veículo integra o cenário do crime, o exame é classificado como perícia de local de crime (foco na dinâmica do fato e na interação agente-vítima-instrumento), e não como perícia veicular (que trata o veículo como objeto autônomo); essa distinção tem implicações sobre o objeto pericial, os quesitos, a metodologia, os vestígios priorizados e a estrutura do laudo (D). A e C invertem os conceitos. B erra porque a distinção não é meramente acadêmica.",
     "referencia": "Cap. 1, p. 7-8",
     "nivel": "dificil"
+  },
+  {
+    "id": 2101,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o elemento subjetivo do crime de adulteração de sinal identificador (art. 311 do CP), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "É doloso (consciência e vontade de adulterar) e não admite forma culposa; a finalidade do agente (revenda, uso próprio, ocultar crime) é irrelevante para a tipificação.",
+      "B": "O crime do art. 311 admite a forma culposa quando a adulteração do sinal identificador decorre de mera negligência ou imprudência do proprietário ou do condutor do veículo.",
+      "C": "A tipificação do art. 311 depende da comprovação efetiva de que o agente visava especificamente à revenda do veículo que foi adulterado.",
+      "D": "O crime do art. 311 configura-se unicamente quando a adulteração é praticada com a finalidade de cometer outro crime mais grave."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 4): o crime do art. 311 é doloso (exige consciência e vontade de adulterar) e não se pune a conduta culposa; a finalidade do agente (revenda, uso próprio, atividade ilícita, fraude administrativa ou ocultação de crime) é irrelevante para a configuração do delito (A). B erra porque não há forma culposa. C e D erram porque a finalidade específica é irrelevante: o crime se configura independentemente dela.",
+    "referencia": "Cap. 2, p. 9",
+    "nivel": "medio"
+  },
+  {
+    "id": 2102,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 2 - Identificação veicular no Código Penal Brasileiro",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o bem jurídico tutelado e a distinção entre adulteração e regravação autorizada (art. 311 do CP), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A regravação que seja realizada com a devida autorização da autoridade competente configura, ainda assim, o crime de adulteração previsto no art. 311.",
+      "B": "O bem jurídico tutelado pelo art. 311 do CP é unicamente o patrimônio econômico do proprietário do veículo automotor que foi adulterado.",
+      "C": "A alegação de boa-fé ou de mera intenção de regularizar o veículo afasta por completo a ilicitude penal da intervenção material feita sem a autorização legal da autoridade competente.",
+      "D": "O bem jurídico é a autenticidade do sistema de identificação (ordem pública); a regravação autorizada não é crime, mas a intervenção sem autorização é ilícita, mesmo com boa-fé."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 3 e 5): o bem jurídico tutelado é a autenticidade do sistema de identificação veicular, ofensiva à ordem pública quando violada; a regravação feita com autorização da autoridade competente não configura crime, mas a intervenção material sem autorização é ilícito penal, ainda que alegada boa-fé ou intenção de regularizar (D). A erra porque a regravação autorizada não é crime. B erra porque o bem jurídico é a fé pública/autenticidade, não o patrimônio. C erra porque a boa-fé não afasta a ilicitude.",
+    "referencia": "Cap. 2, p. 9-10",
+    "nivel": "dificil"
   }
 ]
