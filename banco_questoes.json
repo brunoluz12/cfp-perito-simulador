@@ -30537,5 +30537,39 @@
     "justificativa": "Conforme o material (Seções 5 a 7): vidros, cintos, airbags e módulos trazem datas/lotes de fabricação que funcionam como marcadores temporais; e, como o VIN e a placa sofrem fraudes recorrentes, o trabalho pericial não pode se limitar a eles, exigindo análise integrada (externa, estrutural, funcional e documental) — alternativa B. A erra porque VIN/placa sofrem fraudes e não dispensam os demais elementos. C erra porque esses componentes são raramente adulterados (por isso valem como marcadores). D erra porque a convergência/divergência de datas ajuda a detectar remontagens e sinistros.",
     "referencia": "Cap. 5, p. 20",
     "nivel": "dificil"
+  },
+  {
+    "id": 2109,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o QR Code da placa Mercosul, o aplicativo VIO e a consulta Senatran, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O QR Code das placas Mercosul é lido pelo aplicativo Senatran, que retorna de imediato e diretamente o nome completo do proprietário atual registrado do veículo automotor.",
+      "B": "O aplicativo VIO substitui por completo a consulta ao Portal Senatran, dispensando-se o uso do número de série como chave de consulta da placa.",
+      "C": "O QR Code da placa não possui função de segurança, servindo tão só como um elemento meramente decorativo padronizado pela norma vigente.",
+      "D": "É lido pelo app VIO (retorna o número de série, chave de consulta); com ele consulta-se o Portal Senatran, que retorna dados do veículo, da estampagem e do fabricante."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4): o QR Code (elemento de segurança e rastreabilidade) é lido pelo aplicativo oficial VIO, que retorna o número de série (chave de consulta); com esse número, consulta-se o Portal de Serviços da Senatran, que retorna os dados atuais do veículo, os dados da estampagem da placa e os dados do fabricante credenciado (D). A erra porque a leitura é pelo VIO e não retorna o nome do proprietário. B erra porque o VIO não substitui a consulta Senatran. C erra porque o QR Code é elemento de segurança.",
+    "referencia": "Cap. 6, Seção 6.2, p. 24-25",
+    "nivel": "medio"
+  },
+  {
+    "id": 2110,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 6 - Placas de Identificação Veicular (PIV)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a clonagem de placas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A clonagem de placas atinge unicamente o sistema de controle estatal, não produzindo efeito algum sobre os terceiros de boa-fé envolvidos.",
+      "B": "A clonagem de placas é facilmente detectada na fiscalização de rotina, pois utiliza placas claramente falsas e sem vínculo aparente com registros administrativos válidos no sistema.",
+      "C": "Na clonagem, há plena coincidência entre a placa e os caracteres gravados no chassi do veículo, o que dificulta sobremaneira a fraude.",
+      "D": "Reproduz a placa de veículo legítimo, criando dissociação entre a identificação externa e os caracteres do chassi; atinge terceiros de boa-fé e exige análise integrada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 5): a clonagem reproduz indevidamente a placa de um veículo legítimo, criando dissociação intencional entre a identificação externa e a identificação obrigatória por caracteres gravados no chassi/monobloco; atinge terceiros de boa-fé (cujos veículos passam a ser vinculados a ilícitos) e sua detecção exige correlação entre elementos externos e estruturais e verificação dos elementos de segurança (D). A erra porque há efeito sobre terceiros de boa-fé. B erra porque a clonagem usa placas aparentemente regulares, sendo difícil detectá-la. C erra porque a clonagem cria dissociação (não coincidência) com o chassi.",
+    "referencia": "Cap. 6, Seção 6.2, p. 25-26",
+    "nivel": "dificil"
   }
 ]
