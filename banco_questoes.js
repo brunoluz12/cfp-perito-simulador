@@ -29721,5 +29721,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 6.3.4.1): no confronto usam-se as deformações NORMAIS (impressas pela passagem no cano), não as acidentais (do impacto, irreproduzíveis); no exame macroscópico das características de classe (calibre real, número e orientação — dextrógira/sinistrógira — das raias), se apenas uma for discordante, exclui-se a arma com certeza, dispensando o exame microscópico (C). A inverte (as normais é que importam). B erra porque a concordância de classe apenas justifica o exame microscópico. D erra porque mesmo projéteis muito deformados/fragmentados podem ser confrontados.",
     "referencia": "PDF, p. 74-75",
     "nivel": "dificil"
+  },
+  {
+    "id": 2059,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as soluções reveladoras de caracteres por tipo de metal (Anexo II), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Aço-carbono/titânio → HATCHER; aço inox → BESSEMAN & HAEMERS; alumínio → KELLER/TUCKER; os reagentes agressivos (mais ácido) são para armas em mau estado.",
+      "B": "O reagente HATCHER (brando ou agressivo) destina-se especificamente à revelação de caracteres suprimidos no alumínio e em suas diversas ligas metálicas.",
+      "C": "Os reagentes agressivos, por conterem uma menor concentração de ácido em sua composição, são indicados para as armas novas e em bom estado de conservação.",
+      "D": "Há um único reagente revelador universal, aplicável de forma indistinta aos diversos metais componentes da arma de fogo que está sendo examinada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Anexo II): para aço-carbono/titânio usa-se o reagente HATCHER; para aço inoxidável, o BESSEMAN & HAEMERS; para alumínio e ligas, KELLER (Potervin & Bastien), TUCKER e HUME ROTHERY; e os reagentes agressivos (maior concentração de ácido) são reservados às armas em mau estado (A). B erra porque o HATCHER é para aço-carbono/titânio. C erra porque os agressivos têm MAIOR concentração de ácido. D erra porque o reagente varia conforme o metal.",
+    "referencia": "PDF, p. 87-88",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2060,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a notação empregada na descrição pericial de projéteis (Anexo III), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na descrição pericial de projéteis, a notação '6D' indica um projétil de calibre nominal 6 mm que apresenta uma deformação de natureza dupla.",
+      "B": "A sigla ETOG, empregada em laudo pericial, designa um projétil de chumbo nu, totalmente desprovido de encamisamento metálico externo.",
+      "C": "As deformações em forma de cogumelo (reversão dos bordos de expansão) decorrem da passagem normal do projétil pelo interior do cano da arma examinada no laboratório.",
+      "D": "'6D' indica seis raias dextrógiras (deformação normal do cano); ETOG designa projétil totalmente encamisado; o cogumelo é deformação acidental de impacto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Anexo III): a notação de raiamento '6D' significa seis raias dextrógiras (deformação normal impressa pelo cano); ETOG designa projétil ogival totalmente encamisado; e as deformações em forma de cogumelo (amassamento/reversão de bordos) são acidentais, advindas de impacto contra objeto resistente (D). A erra porque '6D' é raiamento, não calibre. B erra porque ETOG é totalmente encamisado, não chumbo nu. C erra porque o cogumelo é deformação acidental, não normal.",
+    "referencia": "PDF, p. 89",
+    "nivel": "medio"
   }
 ];
