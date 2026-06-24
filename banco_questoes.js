@@ -30911,5 +30911,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 2.4): os princípios do trabalho pericial são objetividade, imparcialidade e reprodutibilidade; toda conclusão pericial deve estar ancorada em evidências materiais e ser passível de verificação por outro expert da área — característica essencial da prova científica em um Estado Democrático de Direito (C). A erra porque as conclusões dependem de evidências materiais. B erra porque a reprodutibilidade implica que outro expert chegue ao mesmo resultado. D erra porque determinar culpa/inocência é função do juiz, não do perito.",
     "referencia": "Cap. 2, Seção 2.4, p. 12",
     "nivel": "medio"
+  },
+  {
+    "id": 2137,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das vias e os limites de velocidade padrão (sem sinalização), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Urbanas (sem sinalização): rápida 80, arterial 60, coletora 40, local 30 km/h (RACL); a estrada não pavimentada tem máxima de 60 km/h.",
+      "B": "Na ausência de sinalização específica, a via local urbana admite a velocidade máxima padrão de 60 km/h para automóveis.",
+      "C": "A via arterial urbana caracteriza-se pela total ausência de interseções em nível e de acesso direto aos lotes lindeiros já existentes na região.",
+      "D": "As estradas, por serem rurais, possuem velocidade máxima padrão superior à das rodovias pavimentadas de pista dupla."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 3.2): os limites urbanos padrão do CTB são via de trânsito rápida 80, arterial 60, coletora 40 e local 30 km/h (mnemônico RACL 8-6-4-3); a estrada (via rural não pavimentada) tem máxima padrão de 60 km/h (A). B erra porque a via local é 30 km/h (não 60). C descreve a via de trânsito rápido (não a arterial, que tem interseções e acesso a lotes). D erra porque a estrada (60 km/h) é inferior à rodovia de pista dupla (110/90 km/h).",
+    "referencia": "Cap. 3, Seção 3.2, p. 15-16",
+    "nivel": "medio"
+  },
+  {
+    "id": 2138,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os sítios periciais e sua sequência (SA-SP-SR-SNE-SC-SRF), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na sequência SA-SP-SR-SNE-SC-SRF, o SNE é aquele a partir do qual não se evita o acidente, mesmo iniciada a reação (DPR + frenagem).",
+      "B": "O Sítio de Reação (SR) é o local exato onde os veículos e as pessoas envolvidas param logo após a ocorrência do acidente de trânsito.",
+      "C": "O Sítio de Colisão (SC) é a área da via onde o condutor percebeu pela primeira vez o perigo que era iminente na pista.",
+      "D": "O Sítio de Repouso Final (SRF) corresponde ao local de início das marcas de frenagem ou de derrapagem na pista."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 3.5): a sequência cronológica é Sítio do Acidente, de Percepção, de Reação, de Não Escapada, de Colisão e de Repouso Final (SA-SP-SR-SNE-SC-SRF); o Sítio de Não Escapada (SNE) é o local a partir do qual não seria possível evitar o acidente mesmo iniciando a reação, calculado como DPR + distância de frenagem completa (A). B confunde SR com SRF. C confunde SC com SP (percepção). D confunde SRF com SR (início das marcas de frenagem).",
+    "referencia": "Cap. 3, Seção 3.5, p. 19-20",
+    "nivel": "medio"
   }
 ];
