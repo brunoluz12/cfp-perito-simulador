@@ -30503,5 +30503,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 4.3, mnemônico O-D-P-A-A): as categorias são oficiais, diplomáticos, particulares, de aluguel e de aprendizagem; relacionam-se ao regime jurídico de uso e vinculação institucional, repercutindo na identificação externa, no padrão de placas, na sinalização visual e nas prerrogativas/restrições de circulação (A). B e C erram porque há cinco categorias, incluindo diplomáticos, de aluguel e de aprendizagem. D erra porque a categoria diz respeito ao regime jurídico e repercute nas placas.",
     "referencia": "Cap. 4, p. 18",
     "nivel": "dificil"
+  },
+  {
+    "id": 2107,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 5 - Conjunto ampliado de características identificadoras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os quatro grupos de características identificadoras (mnemônico E-E-F-D), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As características identificadoras dividem-se unicamente em externas e documentais, não havendo grupos de natureza estrutural ou funcional do veículo.",
+      "B": "Quatro grupos (E-E-F-D): externas (marca, cor), estruturais (chassi, longarinas), funcionais (suspensão, freios) e documentais (registros, dados administrativos).",
+      "C": "As características estruturais do veículo compreendem basicamente a marca, a cor e a carroceria externa diretamente observável do veículo automotor que é periciado em campo.",
+      "D": "O conjunto ampliado de características é incapaz de distinguir um veículo de outro quando há fraude nos seus identificadores principais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 1, mnemônico E-E-F-D): as características dividem-se em externas (marca, cor, faróis, rodas), estruturais (chassi, monobloco, longarinas, cabine), funcionais (suspensão, freios, motorização, transmissão) e documentais (registros, documentos, dados administrativos) — alternativa B. A erra porque há quatro grupos, não dois. C confunde estruturais com externas. D erra porque o conjunto permite justamente distinguir veículos mesmo havendo fraude nos identificadores principais.",
+    "referencia": "Cap. 5, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 2108,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 5 - Conjunto ampliado de características identificadoras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os marcadores temporais e a análise integrada na identificação veicular, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Por serem plenamente suficientes e raramente fraudados na prática, o VIN e a placa dispensam por completo a análise dos demais elementos do veículo.",
+      "B": "Vidros, cintos e airbags trazem datas/lotes que servem de marcadores temporais; como VIN e placa sofrem fraudes recorrentes, exige-se análise integrada.",
+      "C": "Componentes como as bombas injetoras e os radiadores são justamente os mais visados nas adulterações, razão pela qual não servem como marcadores temporais.",
+      "D": "A convergência de datas entre os vidros, os cintos e os módulos eletrônicos é totalmente irrelevante para detectar remontagens ou sinistros no veículo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seções 5 a 7): vidros, cintos, airbags e módulos trazem datas/lotes de fabricação que funcionam como marcadores temporais; e, como o VIN e a placa sofrem fraudes recorrentes, o trabalho pericial não pode se limitar a eles, exigindo análise integrada (externa, estrutural, funcional e documental) — alternativa B. A erra porque VIN/placa sofrem fraudes e não dispensam os demais elementos. C erra porque esses componentes são raramente adulterados (por isso valem como marcadores). D erra porque a convergência/divergência de datas ajuda a detectar remontagens e sinistros.",
+    "referencia": "Cap. 5, p. 20",
+    "nivel": "dificil"
   }
 ];
