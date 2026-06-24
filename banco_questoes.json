@@ -29976,5 +29976,39 @@
     "justificativa": "Conforme o material (Seções 5 e 6): em locais abertos inspecionam-se os pontos por onde a comitiva passa (pontes, viadutos, palanques, laterais das pistas — preferidas por franco-atiradores), criando-se um segundo trajeto e evitando hábitos diários; e os critérios de escolha do local da bomba são acesso/ocultação do artefato, ocultação do agente (não ser visto) e dano máximo (A-O-D) — alternativa D. A erra porque o foco é o trajeto da comitiva. B erra porque se cria rota alternativa e evitam-se hábitos. C inverte (as laterais são as preferidas).",
     "referencia": "PDF, p. 49-50",
     "nivel": "medio"
+  },
+  {
+    "id": 2075,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação da ameaça de bomba pela nomenclatura internacional de cores, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A ameaça classificada como VERDE exige a evacuação imediata e total das instalações da empresa, por se tratar de uma ameaça tida como efetivamente real e específica.",
+      "B": "A ameaça ÂMBAR deve ser simplesmente registrada e de imediato desconsiderada, sem necessidade de realizar vistoria no local ameaçado.",
+      "C": "Verde: registrar e desconsiderar; âmbar: vistoria e eventual evacuação; vermelha: ameaça real, com evacuação imediata; o registro da ameaça é obrigatório.",
+      "D": "A ameaça VERMELHA é aquela que não apresenta IPA e tampouco um fato gerador, possuindo credibilidade bastante duvidosa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 8.3, Tabela 4): a ameaça VERDE é registrada e desconsiderada (sem IPA, sem fato gerador); a ÂMBAR enseja vistoria e eventual evacuação, com vigilância crescente (há fato gerador, credibilidade duvidosa); a VERMELHA é real e específica, com evacuação imediata; e o registro da ameaça é sempre obrigatório (C). A descreve a vermelha, não a verde. B descreve a verde, não a âmbar. D descreve a verde/âmbar, não a vermelha.",
+    "referencia": "PDF, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 2076,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 8 - Ameaça de Bomba",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o PTI/IPA na classificação da ameaça de bomba, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O PTI/IPA refere-se à identificação positiva do autor anônimo da ameaça de bomba, geralmente obtida por meio do rastreamento da chamada telefônica feita.",
+      "B": "A presença de IPA (Identificação Positiva do Alvo) na ameaça é totalmente irrelevante para a definição da sua classificação de risco pela assessoria.",
+      "C": "O IPA (Identificação Positiva do Alvo) é a informação não pública sobre o alvo (nome, cargo, setor) que indica conhecimento singular do agente da ameaça.",
+      "D": "Havendo IPA, fato gerador e especificidade, a ameaça é classificada como verde e simplesmente desconsiderada pela assessoria de risco da empresa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 8.3): o PTI (Positive Target Identification) ou IPA (Identificação Positiva do Alvo) é a informação não pública referente ao alvo (nome, cargo, setor, atividade), que indica conhecimento singular ou em primeira mão do agente, sendo fator de enorme relevância para classificar a ameaça (C). A erra porque o IPA se refere ao alvo, não ao autor. B erra porque o IPA é justamente fator relevante. D erra porque ameaça com IPA, fato gerador e especificidade é vermelha (real), não verde.",
+    "referencia": "PDF, p. 56",
+    "nivel": "dificil"
   }
 ]
