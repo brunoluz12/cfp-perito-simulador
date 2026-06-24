@@ -5294,23 +5294,6 @@ const questoesDB = [
     "nivel": "medio"
   },
   {
-    "id": 546,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 6 - Teoria dos vestígios",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em homicídio ocorrido em residência, a equipe pericial documenta: (i) diversas impressões digitais em um copo sobre a mesa, deixadas por encanador que ali prestara serviço horas antes do crime e que, apurou-se, não guardam qualquer relação com a dinâmica do fato; (ii) uma carteira de identidade com foto de terceira pessoa, posicionada de modo ostensivo junto ao corpo, supostamente deixada pelo autor para incriminar desafeto da vítima; e (iii) um projétil deflagrado incrustado na parede, proveniente da arma empregada no disparo letal. Conforme a classificação dos vestígios quanto à sua relação com os fatos (Cap. 6), os itens (i), (ii) e (iii) configuram, respectivamente, vestígios:",
-    "alternativas": {
-      "A": "relativos, absolutos e verdadeiros.",
-      "B": "forjados, ilusórios e verdadeiros.",
-      "C": "ilusórios, forjados e absolutos.",
-      "D": "ilusórios, forjados e verdadeiros."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Na classificação quanto à relação com o fato (Cap. 6, Seção 6.1, p. 47): ilusórios são os que, apesar de receberem atenção inicial, ao final não têm relação com o crime, estando no local por acaso (as impressões do encanador, anteriores ao fato); forjados são os plantados intencionalmente pelo autor para desviar a investigação (a carteira do desafeto); verdadeiros são os resultantes da ação ou omissão do autor (o projétil do disparo letal). Logo, ilusórios, forjados e verdadeiros (alternativa D). As alternativas A e C inserem indevidamente 'relativos' e 'absolutos', que são categorias da classificação quanto à origem (Seção 6.2, p. 48), e não quanto à relação com o fato. A alternativa B inverte ilusórios e forjados nos dois primeiros itens.",
-    "referencia": "Cap. 6, Seção 6.1, p. 47",
-    "nivel": "medio"
-  },
-  {
     "id": 547,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
@@ -29244,6 +29227,57 @@ const questoesDB = [
     "resposta_correta": "B",
     "justificativa": "Conforme o material (Seção 3): quando a infração deixa vestígios, o exame de corpo de delito (direto ou indireto) é indispensável e não pode ser suprido pela confissão do acusado (art. 158 do CPP) — alternativa B. A erra porque a confissão não supre o exame. C erra porque o corpo de delito abrange os sinais da atividade do delinquente, o produto da infração e o corpus instrumentorum. D erra porque a ausência gera nulidade do processo (art. 564 do CPP).",
     "referencia": "Cap. 5, Seção 3 — Corpo de delito",
+    "nivel": "medio"
+  },
+  {
+    "id": 2012,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação dos vestígios pela origem (mnemônico AR), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os vestígios absolutos guardam relação de natureza indireta com a sua fonte ou origem, exigindo um raciocínio lógico externo adicional para que sejam vinculados ao agente do fato investigado.",
+      "B": "O agente de vestígios é, em regra, o próprio ser humano, excluindo-se animais, objetos e instrumentos como possíveis fontes de vestígios materiais.",
+      "C": "Os absolutos permitem relação direta com a fonte (ex.: impressão digital, estojo e a respectiva arma); os relativos só a estabelecem de forma indireta (ex.: caneta genérica).",
+      "D": "Uma caneta genérica, sem gravação do nome do proprietário, encontrada no local do furto, é classificada como um vestígio de origem absoluta e identificável."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 3, mnemônico AR): os vestígios absolutos permitem relação direta e absoluta com a fonte (ex.: impressões digitais, estojo de munição e a arma), enquanto os relativos só a estabelecem de forma indireta (ex.: caneta genérica sem identificação) — alternativa C. A inverte (a relação indireta é do relativo). B erra porque o agente de vestígios pode ser homem, animal, objeto ou instrumento. D erra porque a caneta genérica é vestígio relativo, não absoluto.",
+    "referencia": "Cap. 6, Seção 3 — Origem dos vestígios (AR)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2013,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o tratamento dado a um vestígio relativo (ex.: caneta genérica sem identificação), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Deve ser recolhido e examinado, pois pode servir de suporte para outro vestígio de natureza absoluta, como uma impressão digital deixada em sua superfície.",
+      "B": "Pode ser descartado de imediato pela equipe pericial no local, por não guardar relação direta e identificável com a sua origem ou fonte material.",
+      "C": "Converte-se automaticamente em um vestígio de natureza absoluta pelo simples fato de ter sido encontrado e recolhido no local do crime investigado.",
+      "D": "Deve ser remetido diretamente ao Poder Judiciário, sem a realização de exame pericial prévio no local, por possuir valor probatório autônomo e de caráter absoluto e definitivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 3, 'Suporte de Vestígios'): o vestígio relativo deve ser recolhido e receber atenção na perícia, pois pode servir de suporte para outro vestígio de natureza absoluta, como uma impressão digital deixada sobre a sua superfície (A). B erra porque não deve ser descartado. C erra porque não há conversão automática em absoluto. D erra porque o vestígio relativo não tem valor probatório autônomo nem dispensa exame.",
+    "referencia": "Cap. 6, Seção 3 — Suporte de vestígios",
+    "nivel": "medio"
+  },
+  {
+    "id": 2014,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 6 - Teoria dos vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos vestígios quanto à relação com o fato (mnemônico FIV), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O vestígio forjado, justamente por ter sido plantado para desviar o rumo da investigação, deve ser de imediato descartado e ignorado pela equipe de perícia.",
+      "B": "O vestígio ilusório é aquele plantado intencionalmente pelo autor do crime com o objetivo de mudar a direção dos trabalhos de investigação policial.",
+      "C": "Os vestígios verdadeiros são facilmente distinguíveis dos ilusórios e dos forjados já desde o início dos trabalhos periciais realizados no local.",
+      "D": "Forjados são plantados para desviar o foco; ilusórios estão no local por acaso; verdadeiros ligam-se à ação do autor — e até o forjado deve ser analisado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2, mnemônico FIV): os vestígios classificam-se em Forjados (plantados intencionalmente para desviar o foco), Ilusórios (presentes no local por acaso, sem relação) e Verdadeiros (ligados à ação ou omissão do autor); ressalta-se que até o vestígio forjado deve ser analisado, pois pode revelar pista do verdadeiro autor (D). A erra porque o forjado não deve ser descartado. B confunde ilusório com forjado. C erra porque a distinção é difícil no início dos trabalhos.",
+    "referencia": "Cap. 6, Seção 2 — Relação com o fato (FIV)",
     "nivel": "medio"
   }
 ];
