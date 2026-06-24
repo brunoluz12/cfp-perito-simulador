@@ -5413,23 +5413,6 @@ const questoesDB = [
     "nivel": "facil"
   },
   {
-    "id": 566,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
-    "tipo": "multipla_escolha",
-    "enunciado": "O SISCRIM atribui aos documentos e materiais diferentes formas de identificacao para fins de rastreabilidade, gestao da cadeia de custodia e consulta pelos peritos criminais federais. Considerando o disposto no Cap. 14, sobre identificacao, busca rapida e o chamado 'Acerto Eletronico' no SISCRIM, assinale a alternativa CORRETA:",
-    "alternativas": {
-      "A": "Os documentos recebidos pela pericia e cadastrados no SISCRIM recebem uma identificacao propria do sistema (numero de registro), composta por numeros sequenciais da propria unidade de criminalistica, e o sistema disponibiliza, ainda, um numero unico e sequencial de todo o sistema, utilizado para geracao de codigos de barras e para a busca rapida, valido para documentos, materiais, pessoas, unidades e grupos.",
-      "B": "O numero de registro dos documentos recebidos pela pericia e gerado nacionalmente, sendo unico e sequencial em todo o SISCRIM, motivo pelo qual dispensa a identificacao por tipo, numero, ano e unidade emissora.",
-      "C": "A identificacao dos materiais no SISCRIM e feita exclusivamente por meio do numero do lacre fisico apresentado pelo requisitante, nao havendo numero de registro proprio para o material no sistema.",
-      "D": "O Acerto Eletronico consiste no procedimento por meio do qual o escrivao de policia federal valida, no SISCRIM, a entrega dos materiais a unidade de criminalistica, sendo condicao previa a designacao do perito."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme cap. 14, p. 108-109: 'Os documentos recebidos pela pericia e cadastrados no SISCRIM recebem uma identificacao propria do sistema, a qual e o numero de registro, composta por numeros sequenciais da propria unidade de criminalistica'. Tambem: 'Uma terceira forma de identificacao e a utilizacao de um numero unico e sequencial de todo o sistema, utilizado para a geracao de codigos de barras, valido para documentos, materiais, pessoas, unidades, grupos etc. E a forma mais facil de encontrar um item usando a barra de pesquisa rapida do sistema'. A alternativa D atribui ao escrivao funcao inexistente no texto; os materiais possuem numero de registro proprio (p. 109).",
-    "referencia": "Cap. 14, p. 14",
-    "nivel": "medio"
-  },
-  {
     "id": 567,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
@@ -29397,6 +29380,40 @@ const questoesDB = [
     "resposta_correta": "B",
     "justificativa": "Conforme o material (Seção 13.4, arts. 55 e 62 da IN 255/2023): as requisições são dirigidas ao chefe da unidade de perícia da circunscrição, acompanhadas dos termos de apreensão e distribuídas imediatamente aos peritos; o perito faz o upload do laudo no SISCRIM, que o envia ao ePol (B). A erra porque a requisição vai ao chefe da unidade, não ao perito escolhido. C erra porque, havendo limitação, o perito deve apresentar de imediato ao delegado documento consignando a impossibilidade. D erra porque o laudo passa pelo SISCRIM.",
     "referencia": "Cap. 13, Seção 13.4 — IN 255/2023 (requisições)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2034,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os conceitos de lotação e localização no SISCRIM, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Lotação e localização são conceitos idênticos no âmbito do SISCRIM, ambos indicando o vínculo administrativo formal do servidor com a sua unidade.",
+      "B": "Lotação é o vínculo administrativo formal; localização é a unidade à qual o servidor se vincula para movimentação e emissão de documentos, podendo divergir da lotação.",
+      "C": "Localização refere-se ao vínculo administrativo formal do servidor, ao passo que a lotação serve à emissão de documentos e à movimentação no sistema SISCRIM.",
+      "D": "A localização do servidor não pode divergir da sua lotação administrativa formal, ainda que ele esteja cumprindo missões de apoio temporário em outra unidade de criminalística do país."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 1): a lotação corresponde à unidade com a qual o servidor tem vínculo administrativo formal, enquanto a localização indica a unidade de criminalística à qual ele se vincula para efeitos de movimentação e emissão de documentos, podendo divergir da lotação em missões de apoio temporário (B). A erra porque os conceitos são distintos. C inverte os conceitos. D erra porque a localização pode divergir da lotação.",
+    "referencia": "Cap. 14, Seção 14.1 — Lotação x Localização",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2035,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os conceitos básicos do SISCRIM e sua relação com o ePol, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "No SISCRIM, os 'materiais' correspondem aos 'bens' do ePol, e as 'tarefas' do ePol equivalem aos 'Despachos ePol', mantida a numeração.",
+      "B": "Órgão externo, no SISCRIM, é uma unidade que componha a estrutura organizacional da própria Polícia Federal, como a SETEC, o INC e a DRE.",
+      "C": "Procedimento, no âmbito do SISCRIM, é a subunidade interna criada para apoiar a gestão das atividades, como o GPINF (informática) e o GPCONT (contábil).",
+      "D": "Os 'bens' previstos no sistema ePol correspondem aos 'documentos' cadastrados no SISCRIM, e não propriamente aos materiais periciais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 1): no ePol, o conceito de 'bens' engloba o de 'materiais' do SISCRIM, e as 'tarefas' do ePol recebem, no SISCRIM, o nome de 'Despacho ePol', mantendo a numeração (A). B erra porque órgão externo é o que NÃO é PF (TRF, MPF, Ibama). C erra porque a subunidade de apoio é o 'Grupo de Funcionários'; procedimento é o processo/investigação vinculado. D erra porque os bens correspondem aos materiais, não aos documentos.",
+    "referencia": "Cap. 14, Seção 14.1 — Conceitos básicos",
     "nivel": "medio"
   }
 ];
