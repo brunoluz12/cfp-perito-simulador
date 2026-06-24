@@ -30044,5 +30044,39 @@
     "justificativa": "Conforme o material (Seção 9.4): a categoria A é ameaça direta à vida (agir imediatamente, buscando reduzir a B ou C); a B é ameaça indireta à vida e direta ao patrimônio (usar métodos remotos, como a técnica da corda, e respeitar o 'tempo de molho' de 20 min após técnica ativa); a C não apresenta grande perigo (solução usual: contracarregar com explosivo) — alternativa D. A descreve a categoria A, não a B. B descreve a A, não a C. C erra porque, na B, espera-se o tempo de molho antes de se aproximar.",
     "referencia": "PDF, p. 79-80",
     "nivel": "dificil"
+  },
+  {
+    "id": 2079,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o estabelecimento dos perímetros em perícia de local de explosão, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O perímetro externo deve ser marcado exatamente sobre o ponto preciso onde foi encontrado o vestígio mais distante durante o levantamento preliminar do local examinado.",
+      "B": "O perímetro interno deve ser estabelecido no limite mais externo da área, o mais longe possível do centro da explosão que ocorreu.",
+      "C": "O levantamento preliminar do local deve ser feito pelo maior número possível de pessoas, dispensando-se a presença de um especialista em bombas.",
+      "D": "O perímetro externo fica a 1,5× a maior distância de vestígio do levantamento (ex.: vestígio a 10 m → perímetro a 15 m); o interno cerca o centro da explosão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Levantamento preliminar e perímetros): o perímetro externo é marcado em ponto 50% maior (1,5×) que a distância entre o centro da explosão e o vestígio mais distante encontrado no levantamento preliminar (ex.: 10 m → 15 m); e o perímetro interno é estabelecido ao redor do centro da explosão (D). A erra porque o externo fica 50% além do vestígio mais distante. B erra porque o interno cerca o centro, não o limite externo. C erra porque o preliminar é feito pelo menor número de pessoas, com especialista em bombas.",
+    "referencia": "PDF, p. 85-86",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2080,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 10 - Perícia em Local de Explosão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os padrões de busca de vestígios em locais de explosão (E-R-Q-F), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Espiral (ambientes menores), rede (dividido com fitas), quadrante/zona/setor (grandes áreas) e fileiras/linhas (equipe alinhada a braços abertos).",
+      "B": "O padrão de busca em espiral é o mais indicado para grandes áreas abertas, devendo iniciar-se diretamente pelo limite do perímetro externo da cena.",
+      "C": "No padrão de busca em fileiras, os membros do grupo posicionam-se a grande distância uns dos outros, sem sinalização ao restante do grupo ao achar um vestígio.",
+      "D": "O padrão de busca em rede consiste em vasculhar livremente a área da cena, sem a necessidade de dividir ou marcar o local com fitas, cordas ou barbantes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Padrões de busca, E-R-Q-F): espiral (parte do centro, para ambientes menores como uma sala); rede (o local é dividido e marcado com fitas/cordas/barbantes e identificado); quadrante/zona/setor (para grandes áreas abertas); e fileiras/linhas (grandes áreas, equipe alinhada a braços abertos, gritando 'PARE!' ao achar vestígio) — alternativa A. B erra porque a espiral é para ambientes menores e parte do centro. C erra porque na fileira há sinalização ('PARE!'). D erra porque a rede exige dividir e marcar o local.",
+    "referencia": "PDF, p. 87-88",
+    "nivel": "medio"
   }
 ]
