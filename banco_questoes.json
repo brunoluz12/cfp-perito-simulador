@@ -29840,5 +29840,39 @@
     "justificativa": "Conforme o material (Seções 3.2 e 3.3): a cápsula não-elétrica é um cilindro de alumínio ou cobre, aberto numa extremidade para a introdução do estopim, fixado com amolgador; já a elétrica funciona pelo aquecimento de um fio ponte por efeito Joule até a incandescência, podendo ser com ou sem retardo (B). A erra porque o estopim/amolgador é da não-elétrica. C atribui o efeito Joule (elétrica) à não-elétrica. D inverte as cargas (primária = azida + estifnato; secundária = nitropenta/Tetril/RDX).",
     "referencia": "PDF, p. 29",
     "nivel": "dificil"
+  },
+  {
+    "id": 2067,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os princípios básicos do mecanismo de acionamento (mnemônico M-Q-E-C), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O princípio elétrico de acionamento de artefatos baseia-se na reação exotérmica incendiária produzida entre compostos químicos que se unem.",
+      "B": "O princípio mecânico de acionamento vale-se do efeito Joule, no qual a corrente elétrica aquece um condutor até conseguir iniciar o explosivo.",
+      "C": "São mecânico (choque/fricção/percussão), químico (reação exotérmica), elétrico (efeito Joule) e combinado; o artefato exige ao menos um mecanismo e a carga.",
+      "D": "Um artefato explosivo eficaz dispensa por completo o mecanismo de acionamento, bastando para tanto a simples presença da carga explosiva principal já devidamente montada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Introdução, M-Q-E-C): os princípios de acionamento são mecânico (sensibilidade a choque/fricção/percussão), químico (reação exotérmica incendiária), elétrico (efeito Joule) e combinado; e todo artefato eficaz exige ao menos um mecanismo de acionamento e a carga explosiva (C). A troca os conceitos (a reação exotérmica é do princípio químico). B atribui o efeito Joule (elétrico) ao mecânico. D erra porque o mecanismo de acionamento é indispensável.",
+    "referencia": "PDF, p. 33",
+    "nivel": "medio"
+  },
+  {
+    "id": 2068,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 4 - Mecanismos de Acionamento",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os mecanismos de acionamento por pressão, descompressão, tensão e tração, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Pressão: aplicar peso; descompressão: remover objeto/pressão (carta-bomba ao abrir); tensão: cabo de tropeço rompido; tração: puxão que solta o pino.",
+      "B": "O mecanismo de descompressão é acionado justamente quando alguém se senta sobre um assento, fechando o circuito elétrico e provocando a explosão imediata.",
+      "C": "O mecanismo de tensão (cabo de tropeço) é acionado pela simples aplicação de peso sobre o dispositivo enterrado, tal como ocorre nas minas antitanque.",
+      "D": "Os mecanismos de pressão e de descompressão são exatamente idênticos entre si, ambos acionados pela aplicação direta de força sobre o corpo do artefato explosivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 4.1 a 4.4): o mecanismo de pressão aciona ao se aplicar peso (ex.: sentar-se); a descompressão, ao remover um objeto ou a pressão (típico de carta-bomba ao abrir algo); a tensão, quando um cabo de tropeço é rompido/tracionado; e a tração, por um puxão que solta um pino previamente armado (A). B descreve a pressão, não a descompressão. C descreve a pressão, não a tensão. D erra porque pressão e descompressão são opostos (aplicar x remover força).",
+    "referencia": "PDF, p. 33-35",
+    "nivel": "dificil"
   }
 ]
