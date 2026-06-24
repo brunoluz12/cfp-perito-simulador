@@ -30622,5 +30622,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Leitura eletrônica do VIN e mnemônico M-C-E-C-C): em veículos modernos o VIN também é armazenado em módulos eletrônicos (motor, carroceria, painel), podendo ser lido por scanner e comparado ao gravado no chassi/monobloco para detectar incongruências; os identificadores secundários compreendem Motor, Câmbio, Eixos, Carroceria/cabine e Componentes seriados (M-C-E-C-C) — alternativa D. A erra porque a leitura eletrônica é própria dos veículos modernos. B erra porque os secundários abrangem vários componentes. C erra porque a comparação módulos x chassi é justamente o que detecta fraudes.",
     "referencia": "Cap. 9, p. 45",
     "nivel": "medio"
+  },
+  {
+    "id": 2117,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as técnicas industriais de gravação do VIN (mnemônico E-M-S-L), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Estampagem (deformação, bordas elevadas), micropercussão (agulha em pontos), scribing (remoção por fresa, traço contínuo) e laser (ablação térmica, superficial).",
+      "B": "A micropercussão remove o material do substrato com o uso de fresas de metal duro em rotação, produzindo um traço único, contínuo e bastante profundo no próprio metal.",
+      "C": "A estampagem grava o VIN sem contato físico, por meio de ablação térmica do feixe, sem deformar plasticamente o substrato metálico da peça.",
+      "D": "O scribing forma os caracteres do VIN pela sucessão de pontos individuais que são impactados consecutivamente por uma agulha dura."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 2 a 5, mnemônico E-M-S-L): a estampagem deforma plasticamente o metal (bordas levemente elevadas); a micropercussão usa uma agulha que impacta o substrato formando pontos; o scribing remove material com fresas/cortadores de diamante (marcas contínuas); e o laser grava por ablação térmica, sem contato e de forma superficial (A). B descreve o scribing, não a micropercussão. C descreve o laser, não a estampagem. D descreve a micropercussão, não o scribing.",
+    "referencia": "Cap. 10, Seção 10.1, p. 47-48",
+    "nivel": "medio"
+  },
+  {
+    "id": 2118,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 10 - Processos Industriais de Gravação do VIN",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a gravação a laser do VIN e suas implicações periciais, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Grava por ablação térmica (zona afetada limitada, superficial, sem deformação plástica nem bordas elevadas), o que reduz a resposta à restauração pericial clássica.",
+      "B": "A gravação a laser provoca uma intensa deformação plástica do substrato metálico, com a formação de bordas bastante elevadas e nítidas ao redor dos caracteres gravados.",
+      "C": "A profundidade da zona termicamente afetada pelo laser é muito maior do que a das estampagens, o que aumenta a sua resposta aos métodos de restauração.",
+      "D": "Por ser essencialmente superficial, a gravação a laser apresenta maior robustez frente a remoções mecânicas do que a estampagem por deformação plástica."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 5): o laser grava por ablação térmica, sem contato, gerando uma zona termicamente afetada muito limitada, sem deslocamento plástico do substrato nem bordas elevadas (marcação essencialmente superficial); isso confere bom aspecto visual, mas menor robustez a remoções mecânicas e reduz a resposta aos métodos clássicos de restauração pericial (A). B e C erram porque o laser não deforma plasticamente nem tem zona profunda. D erra porque a marcação superficial confere MENOR robustez (não maior).",
+    "referencia": "Cap. 10, Seção 10.4, p. 48-49",
+    "nivel": "dificil"
   }
 ];
