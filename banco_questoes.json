@@ -30469,5 +30469,39 @@
     "justificativa": "Conforme o material (Seção 9): a Lei nº 14.562/2023 reforça a proteção penal dos sinais identificadores, reconhecendo a centralidade desse sistema para a segurança jurídica, o controle estatal e a repressão à criminalidade associada a veículos (B). A erra porque a lei reforça (não reduz) a proteção penal. C erra porque há repercussão penal. D erra porque a identificação se consolidou como elemento juridicamente protegido, não mero instrumento administrativo.",
     "referencia": "Cap. 3, p. 13",
     "nivel": "medio"
+  },
+  {
+    "id": 2105,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos veículos prevista no art. 96 do CTB (mnemônico T-E-C), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O art. 96 do CTB classifica os veículos quanto à tração, espécie e categoria (T-E-C); essa tripla define juridicamente o veículo e as regras de identificação.",
+      "B": "O art. 96 do CTB classifica os veículos unicamente quanto à espécie e quanto à cor predominante da sua lataria externa.",
+      "C": "A classificação quanto à categoria do veículo relaciona-se diretamente ao tipo de combustível utilizado e à potência do motor instalado de fábrica no automóvel.",
+      "D": "A classificação quanto à tração do veículo considera o regime jurídico de uso e a vinculação institucional do bem automotor."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (introdução, art. 96 do CTB, mnemônico T-E-C): a classificação é tripla — quanto à tração, à espécie e à categoria — e define juridicamente o que é o veículo no sistema de trânsito, delimitando as regras de identificação aplicáveis (A). B erra porque a classificação é tripla (tração, espécie, categoria), não por cor. C erra porque a categoria diz respeito ao regime jurídico de uso, não a combustível/potência. D erra porque é a categoria (não a tração) que considera o regime jurídico de uso.",
+    "referencia": "Cap. 4, p. 15",
+    "nivel": "medio"
+  },
+  {
+    "id": 2106,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 4 - Classificação dos veículos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos veículos quanto à categoria (mnemônico O-D-P-A-A), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "São oficiais, diplomáticos, particulares, de aluguel e de aprendizagem (O-D-P-A-A); relacionam-se ao regime jurídico de uso e repercutem no padrão de placas e na sinalização.",
+      "B": "As categorias dos veículos limitam-se às oficiais e às particulares, não havendo previsão legal de veículos diplomáticos, de aluguel ou de aprendizagem no sistema nacional de trânsito.",
+      "C": "A categoria 'de aprendizagem' não existe no CTB, sendo a classificação por categoria composta unicamente por quatro tipos distintos de veículos.",
+      "D": "A classificação por categoria do veículo refere-se à sua forma de propulsão (tração) e não tem repercussão alguma no padrão das placas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 4.3, mnemônico O-D-P-A-A): as categorias são oficiais, diplomáticos, particulares, de aluguel e de aprendizagem; relacionam-se ao regime jurídico de uso e vinculação institucional, repercutindo na identificação externa, no padrão de placas, na sinalização visual e nas prerrogativas/restrições de circulação (A). B e C erram porque há cinco categorias, incluindo diplomáticos, de aluguel e de aprendizagem. D erra porque a categoria diz respeito ao regime jurídico e repercute nas placas.",
+    "referencia": "Cap. 4, p. 18",
+    "nivel": "dificil"
   }
 ]
