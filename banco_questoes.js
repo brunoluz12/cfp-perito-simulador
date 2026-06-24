@@ -5379,40 +5379,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 557,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Lei nº 13.964/2019 (Pacote Anticrime) incluiu no Código de Processo Penal os arts. 158-A a 158-F, disciplinando expressamente a cadeia de custódia. No âmbito da Polícia Federal, a regulamentação foi complementada pela IN DG/PF nº 297/2024 e por normativos da DITEC. Com base no Capítulo 11, assinale a alternativa CORRETA.",
-    "alternativas": {
-      "A": "A cadeia de custódia inicia-se com a preservação do local ou ao se detectar vestígio em local de crime ou no corpo da vítima, formalizando-se fixação, coleta, acondicionamento e transporte no TCV, adotado pela PF a partir da IN DG/PF nº 297/2024.",
-      "B": "A cadeia de custódia, conforme a Lei nº 13.964/2019, tem início somente quando o vestígio é entregue na secretaria da unidade de criminalística, ocasião em que se realiza a primeira conferência e se inicia a documentação cronológica do material.",
-      "C": "A Lei nº 13.964/2019 estabelece que a cadeia de custódia é gerenciada exclusivamente pelo sistema ePol, cabendo ao Siscrim apenas a emissão do laudo pericial e o arquivamento da requisição após a conclusão do exame.",
-      "D": "A cadeia de custódia interna inicia-se com o reconhecimento dos vestígios no local de crime e encerra-se com a deslacração da embalagem pela secretaria, sendo o TCV o documento que substitui a ficha de acompanhamento do vestígio prevista na IN nº 163/2020 – DG/PF."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme p. 69-70: a Lei nº 13.964/2019 estabelece que a cadeia de custódia inicia com a preservação do local de crime ou com procedimentos em que se detecte vestígio em local de crime ou no corpo da vítima, e as ações de fixação, coleta, acondicionamento e transporte são formalizadas no Termo de Coleta de Vestígio (TCV), adotado pela PF a partir da IN DG/PF nº 297/2024 (alternativa A). B está errada porque o início não se dá na secretaria, mas no reconhecimento do vestígio. C está errada porque a gestão na unidade se dá sobretudo pelo Siscrim, e não exclusivamente pelo ePol. D está errada porque a fase interna não se inicia no local de crime (isso é externa) e o TCV não substitui a ficha de acompanhamento da IN nº 163/2020.",
-    "referencia": "Cap. 11, p. 69-70",
-    "nivel": "medio"
-  },
-  {
-    "id": 558,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 11 - Cadeia de Custódia",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca das embalagens de segurança, da disciplina do art. 158-D do CPP (Lei nº 13.964/2019) e dos procedimentos da Proposta de alteração da Instrução de Serviço nº 07/2011 – DITEC/PF, julgue os itens:\n\nI - Todos os recipientes deverão ser selados com lacres de numeração individualizada, de forma a garantir a inviolabilidade e a idoneidade do vestígio durante o transporte.\nII - O recipiente deverá individualizar o vestígio, preservar suas características, impedir contaminação e vazamento, ter grau de resistência adequado e dispor de espaço para registro de informações sobre seu conteúdo.\nIII - Documentos encaminhados à perícia que compõem os autos do inquérito, com informações que não necessitam de acondicionamento especial para preservar características, integridade, originalidade, historicidade e rastreabilidade, tais como das áreas de contabilidade, de engenharia ou de meio ambiente, não precisam ser acondicionados em recipiente lacrado e com numeração individualizada.\nIV - Vestígios que cheguem à secretaria sem acondicionamento individualizado em recipiente apropriado e selado com lacre numerado devem ser recusados de plano, sob pena de quebra da cadeia de custódia, vedada qualquer abertura na presença do responsável pela entrega.\n\nEstão corretos APENAS os itens:",
-    "alternativas": {
-      "A": "I e II.",
-      "B": "II, III e IV.",
-      "C": "I, II e III.",
-      "D": "I, III e IV."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 73-74: os itens I, II e III reproduzem fielmente o art. 158-D, §§ 1º e 2º, e a Proposta de alteração da IS nº 07/2011 (lacre individualizado; requisitos do recipiente; dispensa de recipiente lacrado para documentos das áreas contábil, de engenharia ou de meio ambiente que não exijam conservação especial). O item IV está errado: o vestígio sem acondicionamento individualizado NÃO é recusado de plano; deve ser recebido após a abertura da embalagem e a conferência do material na presença e sob observação do responsável pela entrega, sendo então acondicionado pela secretaria em recipiente lacrado com nova numeração. Logo, corretos apenas I, II e III (alternativa C). As alternativas A, B e D excluem item correto ou incluem o item IV.",
-    "referencia": "Cap. 11, p. 73-74",
-    "nivel": "dificil"
-  },
-  {
     "id": 559,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
@@ -29397,6 +29363,57 @@ const questoesDB = [
     "resposta_correta": "A",
     "justificativa": "Conforme o material (Seção 6): a classificação de relatórios da ISO (Preliminar, Final, Complementar, Corrigido/Amended, Obsoletado/Withdrawn) não foi adotada pela Criminalística da PF, que estrutura apenas Laudos Preliminares de Constatação e Laudos de Perícia Criminal Federal (A). B erra porque a PF não adotou as cinco categorias. C erra porque a ISO prevê várias categorias. D erra porque os laudos preliminares destinam-se prioritariamente à constatação de drogas, não ao confronto balístico.",
     "referencia": "Cap. 10, Seção 10.1.4 — ISO 21043-5 (Relato)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2027,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as embalagens de segurança na cadeia de custódia (art. 158-D), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A escolha da embalagem de segurança independe por completo da natureza do material acondicionado, bastando que o recipiente utilizado seja minimamente resistente.",
+      "B": "Os recipientes de segurança podem ser selados com lacres de numeração genérica, comum a um mesmo lote de vestígios coletados durante a diligência policial.",
+      "C": "Cabe ao recipiente, em essência, individualizar o vestígio, sendo dispensável que ele impeça a contaminação ou o vazamento do material nele acondicionado.",
+      "D": "A embalagem é determinada pela natureza do material, e os recipientes devem ser selados com lacres de numeração individualizada, garantindo inviolabilidade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 6, art. 158-D): a embalagem é determinada pela natureza do material e todos os recipientes devem ser selados com lacres de numeração individualizada, garantindo inviolabilidade e idoneidade no transporte (D). A erra porque a embalagem é determinada pela natureza do material. B erra porque o lacre tem numeração individualizada, não genérica. C erra porque o recipiente também deve preservar características, impedir contaminação e vazamento.",
+    "referencia": "Cap. 11, Seção 11.4 — Embalagens de segurança (art. 158-D)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2028,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as fases externa e interna da cadeia de custódia, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A cadeia de custódia interna abrange desde a própria coleta do vestígio no local de crime até o seu posterior envio para a unidade de criminalística responsável pelo exame.",
+      "B": "A externa vai da coleta até o envio para análise (formalizada no TCV); a interna documenta no Siscrim as movimentações dentro da unidade, do recebimento ao destino.",
+      "C": "Tanto a cadeia externa quanto a interna dispensam o registro documental contínuo da posse do vestígio durante a sua tramitação.",
+      "D": "A cadeia externa é documentada unicamente no Siscrim, ao passo que a interna se vale do Termo de Coleta de Vestígio (TCV) para o seu registro."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seções 2 e 3): a cadeia externa abrange os eventos desde a coleta/arrecadação do vestígio até o seu envio para análise (formalizada no Termo de Coleta de Vestígio — TCV), enquanto a interna documenta no Siscrim as movimentações dentro da unidade, do recebimento ao destino final (B). A descreve a externa, não a interna. C erra porque ambas exigem registro contínuo da posse. D inverte os instrumentos (TCV é da externa; o Siscrim, da interna).",
+    "referencia": "Cap. 11, Seção 11.2 — Cadeia externa e interna",
+    "nivel": "medio"
+  },
+  {
+    "id": 2029,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 11 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o recebimento de vestígio com embalagem irregular, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O vestígio que chega à secretaria sem lacre ou sem numeração deve ser de plano recusado e devolvido, sendo vedado por completo o seu recebimento pela unidade pericial responsável.",
+      "B": "O vestígio com embalagem irregular pode ser recebido e armazenado sem abertura, sem conferência e sem o registro de eventuais inconsistências encontradas.",
+      "C": "Documentos contábeis, ambientais ou de engenharia exigem, sem exceção, recipiente lacrado e com numeração individualizada para o seu recebimento na unidade.",
+      "D": "O vestígio sem lacre só é recebido após abertura e conferência na presença do responsável pela entrega, seguindo-se o acondicionamento adequado e o registro no Siscrim."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 6): o vestígio que chega sem embalagem apropriada, sem lacre ou numeração só será recebido após abertura e conferência na presença e sob observação do responsável pela entrega, providenciando-se depois o acondicionamento adequado em recipiente lacrado e o registro no Siscrim (D). A erra porque não há recusa automática. B erra porque exige abertura, conferência e registro. C erra porque documentos contábeis/ambientais sem necessidade de conservação especial dispensam recipiente lacrado.",
+    "referencia": "Cap. 11, Seção 11.4 — Embalagem irregular",
     "nivel": "medio"
   }
 ];
