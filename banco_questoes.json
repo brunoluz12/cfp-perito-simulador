@@ -6654,23 +6654,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 649,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em discussão técnica sobre a maturidade do modelo brasileiro de identificação veicular, dois peritos divergem sobre o alcance conceitual da Resolução Contran nº 968/2022. O primeiro sustenta que a norma mantém uma visão centrada exclusivamente no VIN, acrescentando apenas exigências formais de gravação. O segundo afirma o contrário. Considerando a descrição do material didático sobre essa resolução, qual posição é tecnicamente correta?",
-    "alternativas": {
-      "A": "A do primeiro, pois a norma reforça a centralidade exclusiva do VIN e mantém os demais elementos como meros desdobramentos acessórios, sem qualquer integração ao RENAVAM ou rastreabilidade distribuída.",
-      "B": "A do primeiro, pois a norma se limita a sistematizar a gravação do VIN em chassi e monobloco, sem inovar quanto a outros elementos identificadores nem alterar a lógica anteriormente vigente no país.",
-      "C": "A do segundo, mas apenas em relação aos veículos de competição e de coleção, mantendo-se, quanto aos demais, o modelo restrito ao VIN gravado em chassi e a respectivas exigências formais.",
-      "D": "A do segundo, pois a norma adota um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas, elementos ocultos e registros digitais), fortemente integrado ao RENAVAM."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o capítulo 3, a Resolução Contran nº 968/2022 abandona a visão centrada exclusivamente no VIN e adota um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais), distribuído, rastreável e fortemente integrado ao RENAVAM (alternativa D). Erram A e B, pois a norma não mantém a centralidade exclusiva do VIN; C, pois o material não restringe o modelo a categorias de veículos.",
-    "referencia": "Cap. 3, p. 12-13",
-    "nivel": "facil"
-  },
-  {
     "id": 651,
     "disciplina": "PVAT - Módulo I (Identificação Veicular)",
     "conteudo": "Cap. 4 - Classificação dos veículos",
@@ -30452,5 +30435,39 @@
     "justificativa": "Conforme o material (Seções 3 e 5): o bem jurídico tutelado é a autenticidade do sistema de identificação veicular, ofensiva à ordem pública quando violada; a regravação feita com autorização da autoridade competente não configura crime, mas a intervenção material sem autorização é ilícito penal, ainda que alegada boa-fé ou intenção de regularizar (D). A erra porque a regravação autorizada não é crime. B erra porque o bem jurídico é a fé pública/autenticidade, não o patrimônio. C erra porque a boa-fé não afasta a ilicitude.",
     "referencia": "Cap. 2, p. 9-10",
     "nivel": "dificil"
+  },
+  {
+    "id": 2103,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Resolução Contran nº 968/2022 e o modelo brasileiro de identificação veicular, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Abandona o foco exclusivo no VIN e adota um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas, ocultos e digitais), integrado ao RENAVAM.",
+      "B": "A Resolução 968/2022 manteve o modelo brasileiro centrado unicamente no número do chassi (VIN), sem prever outros pontos materiais de identificação física do veículo automotor.",
+      "C": "O sistema multidentificador da Resolução 968/2022 restringe-se ao chassi e ao motor do veículo, excluindo o câmbio, os eixos e os registros digitais.",
+      "D": "A Resolução 968/2022 desvincula por completo a identificação veicular do RENAVAM, tornando-a um registro meramente isolado e de alcance local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 8): a Resolução Contran nº 968/2022 representa a maturidade do modelo, abandonando a visão centrada exclusivamente no VIN e adotando um sistema multidentificador (chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais), distribuído, rastreável e integrado ao RENAVAM (A). B erra porque o modelo deixou de ser centrado só no chassi. C erra porque o sistema abrange vários elementos além de chassi e motor. D erra porque a identificação é integrada (não desvinculada) ao RENAVAM.",
+    "referencia": "Cap. 3, p. 13",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2104,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 3 - Evolução histórica e normativa no Brasil",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Lei nº 14.562/2023 e a proteção dos sinais identificadores, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Lei nº 14.562/2023 reduziu significativamente a proteção penal dos sinais identificadores, descriminalizando diversas condutas que antes eram penalmente punidas no país.",
+      "B": "Reforça a proteção penal dos sinais identificadores, reconhecendo a centralidade do sistema para a segurança jurídica e a repressão à criminalidade veicular.",
+      "C": "A Lei nº 14.562/2023 trata unicamente de aspectos administrativos do licenciamento dos veículos, sem repercussão alguma na esfera penal.",
+      "D": "A identificação veicular, após a Lei nº 14.562/2023, voltou a ser tratada como mero instrumento administrativo, desprovido de proteção jurídica."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 9): a Lei nº 14.562/2023 reforça a proteção penal dos sinais identificadores, reconhecendo a centralidade desse sistema para a segurança jurídica, o controle estatal e a repressão à criminalidade associada a veículos (B). A erra porque a lei reforça (não reduz) a proteção penal. C erra porque há repercussão penal. D erra porque a identificação se consolidou como elemento juridicamente protegido, não mero instrumento administrativo.",
+    "referencia": "Cap. 3, p. 13",
+    "nivel": "medio"
   }
 ]
