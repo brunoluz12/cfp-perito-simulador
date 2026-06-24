@@ -7079,23 +7079,6 @@ const questoesDB = [
     "nivel": "medio"
   },
   {
-    "id": 678,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 9 - Peças com dados identificadores",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre a carta-laudo emitida pelo fabricante, conforme o PVAT - Módulo I, é correto afirmar que:",
-    "alternativas": {
-      "A": "Documento técnico em que a montadora informa os componentes originalmente montados no veículo (numerações, cores, datas), aplicável quando os números não constam da BIN ou de bases integradas.",
-      "B": "É documento exigido obrigatoriamente pelo Contran em todo e qualquer exame de identificação veicular, independentemente do componente analisado ou do estado de conservação dos sinais identificadores.",
-      "C": "Substitui a leitura eletrônica do VIN via scanner em todos os casos, sendo emitida pelo Inmetro.",
-      "D": "Trata-se de laudo emitido pelo próprio perito ao final do exame, descrevendo as conclusões sobre os componentes."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Página 42: 'cartalaudo emitida pelo fabricante, documento técnico no qual a montadora informa os componentes originalmente montados naquele veículo específico, suas numerações, cores, datas de fabricação e demais características relevantes'.",
-    "referencia": "Cap. 9, p. 42",
-    "nivel": "medio"
-  },
-  {
     "id": 679,
     "disciplina": "PVAT - Módulo I (Identificação Veicular)",
     "conteudo": "Cap. 9 - Peças com dados identificadores",
@@ -7111,23 +7094,6 @@ const questoesDB = [
     "justificativa": "Página 43: selos adesivos nas faces externas, lacre plástico no cabo do velocímetro junto ao câmbio, função de evidenciar intervenções, consultáveis no site do Inmetro; o texto afirma expressamente que 'não constituem identificadores diretos do veículo'.",
     "referencia": "Cap. 9, p. 43",
     "nivel": "medio"
-  },
-  {
-    "id": 680,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 9 - Peças com dados identificadores",
-    "tipo": "multipla_escolha",
-    "enunciado": "Sobre as identificações ocultas tratadas no item 9.1 do PVAT - Módulo I, julgue:\nI. Embora a Resolução nº 968/2022 tenha passado a prever expressamente a obrigatoriedade de gravação de identificação oculta, esse tipo de registro já era empregado pela indústria automotiva antes de sua edição.\nII. Tais numerações originam-se, em essência, de uma estratégia deliberada da indústria de incrementar a segurança veicular contra fraudes.\nIII. Estão localizadas em pontos não ostensivos do chassi, monobloco, carroceria, cabine ou em componentes estruturais e agregados, sendo gravadas, em regra, antes mesmo da aplicação do VIN definitivo.\nIV. Não possuem padronização normativa externa, não são divulgadas ao público e não constam de bases de dados oficiais abertas.\nEstão corretos APENAS os itens:",
-    "alternativas": {
-      "A": "I, III e IV.",
-      "B": "I, II e III.",
-      "C": "Somente II e IV.",
-      "D": "Somente I, II e IV."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Página 44: I, III e IV estão corretos; II está errado porque o texto afirma que essas numerações 'não se originam, necessariamente, de uma estratégia deliberada de incremento da segurança veicular, mas decorrem, em essência, de exigências operacionais, logísticas e de controle dos processos intermediários de fabricação'.",
-    "referencia": "Cap. 9, p. 44",
-    "nivel": "dificil"
   },
   {
     "id": 681,
@@ -30622,5 +30588,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 5 e 6): em regra os adulteradores não substituem o vidro (alto custo e o anacronismo entre as datas do vidro e do veículo seria detectável), preferindo lixar, polir e regravar o código; isso deixa vestígios físicos — alteração de planicidade/microtopografia que distorce imagens refletidas (ondulações), evidenciada por inspeção visual sob iluminação oblíqua (A). B erra porque a substituição integral é onerosa e detectável, não a mais comum. C erra porque há vestígios. D erra porque a inspeção visual qualificada (luz oblíqua) detecta os vestígios.",
     "referencia": "Cap. 8, Seção 8.1, p. 36-38",
     "nivel": "dificil"
+  },
+  {
+    "id": 2115,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 9 - Peças com dados identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a origem e as características das identificações ocultas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As identificações ocultas surgem unicamente de uma estratégia deliberada de segurança veicular que foi criada pela Resolução nº 968/2022.",
+      "B": "Surgem de exigências operacionais/logísticas (rastreabilidade, sequenciamento), em regra antes do VIN definitivo; sem padronização externa, têm valor pericial em fraudes.",
+      "C": "As identificações ocultas são padronizadas por norma técnica externa e constam das bases de dados oficiais abertas, sendo de livre consulta pública nos sistemas oficiais de trânsito do país.",
+      "D": "As identificações ocultas são aplicadas após o VIN definitivo e amplamente divulgadas ao público em geral pelo fabricante do veículo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 9.1): as identificações ocultas surgem de exigências operacionais, logísticas e de controle da fabricação (rastreabilidade interna, sequenciamento de montagem, controle de qualidade) — não necessariamente de estratégia de segurança —, sendo em regra gravadas antes do VIN definitivo; não têm padronização externa nem constam de bases abertas, mas têm grande valor pericial em fraudes sofisticadas (B). A erra porque já existiam antes da 968/2022 e não decorrem só de segurança. C e D erram porque não são padronizadas/divulgadas ao público.",
+    "referencia": "Cap. 9, Seção 9.1, p. 44-45",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2116,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 9 - Peças com dados identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a leitura eletrônica do VIN e os identificadores secundários (M-C-E-C-C), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A leitura eletrônica do VIN só é tecnicamente possível em veículos antigos, que ainda não dispõem de módulos eletrônicos de diagnóstico embarcados de fábrica.",
+      "B": "Os identificadores secundários (mnemônico M-C-E-C-C) restringem-se ao número do motor, não abrangendo o câmbio, os eixos ou a carroceria do veículo.",
+      "C": "O VIN armazenado nos módulos eletrônicos não pode ser comparado àquele gravado no chassi, por se tratarem de dados completamente independentes.",
+      "D": "O VIN é lido por scanner nos módulos (motor, carroceria, painel) e comparado ao do chassi para detectar incongruências; os secundários seguem o M-C-E-C-C."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Leitura eletrônica do VIN e mnemônico M-C-E-C-C): em veículos modernos o VIN também é armazenado em módulos eletrônicos (motor, carroceria, painel), podendo ser lido por scanner e comparado ao gravado no chassi/monobloco para detectar incongruências; os identificadores secundários compreendem Motor, Câmbio, Eixos, Carroceria/cabine e Componentes seriados (M-C-E-C-C) — alternativa D. A erra porque a leitura eletrônica é própria dos veículos modernos. B erra porque os secundários abrangem vários componentes. C erra porque a comparação módulos x chassi é justamente o que detecta fraudes.",
+    "referencia": "Cap. 9, p. 45",
+    "nivel": "medio"
   }
 ];
