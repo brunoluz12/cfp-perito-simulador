@@ -29942,5 +29942,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 7, item 6.1): entre as medidas preventivas estão não abrir nem nunca desarmar a correspondência, transportá-la para área remota, abrir portas e janelas, evacuar e isolar o local, NÃO colocá-la na água (pode ativar o circuito elétrico ou iniciar reações químicas) e cercá-la com sacos de areia (D). A e B contrariam as regras (não desarmar; não colocar na água). C erra porque se devem abrir portas e janelas, não trancá-las.",
     "referencia": "PDF, p. 47",
     "nivel": "medio"
+  },
+  {
+    "id": 2073,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre perigos naturais e perigos intencionais nas inspeções, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Lustres mal presos, piso excessivamente encerado e dobras nos tapetes são considerados, segundo o texto, exemplos de perigos intencionais.",
+      "B": "Os perigos intencionais independem de modificações recentes feitas no ambiente, decorrendo de falhas estruturais que já eram antigas e preexistentes no local inspecionado.",
+      "C": "Naturais: lustres mal presos, piso encerado, tapetes dobrados; intencionais: modificações recentes (vasos, elétrica, som), sendo os toaletes os locais preferidos.",
+      "D": "Os toaletes são apontados pelo texto como os locais menos prováveis e improváveis para a colocação intencional de artefatos explosivos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 4): são perigos naturais lustres mal presos, piso encerado e dobras em tapetes; os intencionais ligam-se a modificações recentes no ambiente (vasos, instalações elétricas, aparelhagem de som, etc.), sendo os toaletes apontados como os locais preferidos para a colocação de artefatos (C). A erra porque lustres/piso/tapetes são perigos naturais. B erra porque os intencionais ligam-se a modificações recentes. D erra porque os toaletes são os preferidos, não os menos prováveis.",
+    "referencia": "PDF, p. 49",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2074,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a inspeção em locais abertos e os critérios de escolha do local de colocação de bombas (A-O-D), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Em locais abertos, a inspeção de segurança deve concentrar-se principalmente nas áreas que se encontram mais distantes do trajeto previsto para o deslocamento da comitiva.",
+      "B": "Recomenda-se manter o mesmo trajeto diário da comitiva, evitando-se a criação de rotas alternativas de deslocamento para a segurança.",
+      "C": "As laterais das pistas são apontadas pelo texto como os pontos menos visados e evitados pelos franco-atiradores em atentados.",
+      "D": "Inspecionam-se pontes, viadutos e laterais das pistas (preferidas por franco-atiradores); a escolha do local da bomba visa acesso/ocultação, não ser visto e dano máximo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 5 e 6): em locais abertos inspecionam-se os pontos por onde a comitiva passa (pontes, viadutos, palanques, laterais das pistas — preferidas por franco-atiradores), criando-se um segundo trajeto e evitando hábitos diários; e os critérios de escolha do local da bomba são acesso/ocultação do artefato, ocultação do agente (não ser visto) e dano máximo (A-O-D) — alternativa D. A erra porque o foco é o trajeto da comitiva. B erra porque se cria rota alternativa e evitam-se hábitos. C inverte (as laterais são as preferidas).",
+    "referencia": "PDF, p. 49-50",
+    "nivel": "medio"
   }
 ];
