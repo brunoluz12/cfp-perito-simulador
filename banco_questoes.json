@@ -30384,5 +30384,39 @@
     "justificativa": "Conforme o material (Apêndice 1, Cocaína): o teste de Scott acidificado dá cor azul, mas NÃO é definitivo, pois metadona, heroína, lidocaína e cafeína também produzem azul; já o teste de Tanred/Mayer forma um precipitado amarelo leitoso (A). B erra porque o Scott não é definitivo. C erra porque o Tanred dá precipitado amarelo leitoso, não azul-violácea. D erra porque o benzoato de metila se baseia em odor (não cor), e parte da população não o percebe.",
     "referencia": "PDF Química Forense, p. 59-60",
     "nivel": "dificil"
+  },
+  {
+    "id": 2099,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 1 - Introdução geral à identificação veicular",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a definição institucional e o campo de atuação da perícia veicular no SNC, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A perícia veicular restringe-se, no âmbito do SNC, à mera análise das adulterações dos elementos identificadores do veículo automotor.",
+      "B": "A perícia veicular confunde-se, em essência, com as vistorias administrativas e com as inspeções formais de trânsito realizadas nos veículos.",
+      "C": "Os objetivos da perícia veicular limitam-se à descrição e à identificação do bem examinado, sem avaliar o seu estado de conservação, os danos ou as modificações sofridas.",
+      "D": "Abrange descrição, identificação, individualização, conservação, danos, modificações facilitadoras de crime e questões técnicas; não se restringe a adulterações."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 2 e 3, mnemônico D-I-I-CE-DA-MOD-Q): a perícia veicular tem por objetivos a descrição, a identificação, a individualização, a caracterização do estado de conservação, a constatação de danos, o reconhecimento de modificações facilitadoras de crime e demais questões técnicas; ela não se restringe a adulterações nem se confunde com vistorias administrativas ou inspeções formais (D). A, B e C erram por reduzir indevidamente o escopo da perícia veicular.",
+    "referencia": "Cap. 1, p. 7",
+    "nivel": "medio"
+  },
+  {
+    "id": 2100,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 1 - Introdução geral à identificação veicular",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre perícia veicular e perícia de local de crime, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Um veículo examinado como parte do cenário de um crime é, ainda assim, classificado como uma perícia veicular de objeto autônomo.",
+      "B": "A distinção entre a perícia veicular e a perícia de local de crime é meramente acadêmica e terminológica, sem implicações práticas relevantes.",
+      "C": "Na perícia de local de crime que envolve um veículo, o foco principal é a identidade e o estado de conservação do bem, tomado como objeto pericial autônomo e independente.",
+      "D": "Veículo como parte do local = perícia de local (foco na dinâmica do fato), não perícia veicular (objeto autônomo); a distinção afeta quesitos, metodologia e laudo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 5): quando o veículo integra o cenário do crime, o exame é classificado como perícia de local de crime (foco na dinâmica do fato e na interação agente-vítima-instrumento), e não como perícia veicular (que trata o veículo como objeto autônomo); essa distinção tem implicações sobre o objeto pericial, os quesitos, a metodologia, os vestígios priorizados e a estrutura do laudo (D). A e C invertem os conceitos. B erra porque a distinção não é meramente acadêmica.",
+    "referencia": "Cap. 1, p. 7-8",
+    "nivel": "dificil"
   }
 ]
