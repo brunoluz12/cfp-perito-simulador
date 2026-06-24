@@ -30350,5 +30350,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 4.3): os exames definitivos estabelecem com mais precisão a composição do material, sendo o resultado relatado no laudo de perícia criminal federal; mesmo material com preliminar negativo pode ser encaminhado ao definitivo (suspeita de interferentes, matriz complexa, etc.); e deve-se manter contraprova, com uso de controles de padrões e brancos (D). A erra porque o negativo pode ir ao definitivo. B erra porque o definitivo vai no laudo de perícia, não no de constatação. C erra porque a contraprova deve ser preservada.",
     "referencia": "PDF Química Forense, p. 53-55",
     "nivel": "medio"
+  },
+  {
+    "id": 2097,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os testes preliminares para cannabis, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Há dois testes: Fast Blue B Salt (cor avermelhada/violácea; reagente cancerígeno) e Duquenois-Levine (cor violeta na camada inferior de clorofórmio).",
+      "B": "O teste de Duquenois-Levine para a cannabis resulta no aparecimento de uma cor azul na camada aquosa superior do tubo de ensaio utilizado no exame pericial preliminar.",
+      "C": "O reagente Fast Blue B Salt é completamente inócuo à saúde e resulta em uma cor verde intensa na presença de cannabis na amostra analisada.",
+      "D": "Para a cannabis utiliza-se unicamente o teste de Scott acidificado, que produz um resultado final de coloração azul bastante intensa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Apêndice 1, Cannabis): há dois testes preliminares — o do Fast Blue B Salt (resultado de cor avermelhada ou violácea; reagente cancerígeno) e o de Duquenois-Levine (cor violeta na camada inferior de clorofórmio) — alternativa A. B erra porque o Duquenois-Levine dá violeta na camada de clorofórmio (inferior). C erra porque o Fast Blue B Salt é cancerígeno e dá cor avermelhada/violácea. D erra porque o Scott é teste para cocaína, não para cannabis.",
+    "referencia": "PDF Química Forense, p. 58",
+    "nivel": "medio"
+  },
+  {
+    "id": 2098,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 8 - Apêndices (Testes e Reagentes)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os testes preliminares para cocaína, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O Scott (azul) para cocaína não é definitivo, pois metadona, heroína, lidocaína e cafeína também dão azul; o Tanred/Mayer forma precipitado amarelo leitoso.",
+      "B": "O resultado de cor azul no teste de Scott é tido como definitivo e próprio da cocaína, dispensando o exame definitivo posterior no laboratório forense.",
+      "C": "O teste de Tanred/Mayer para a cocaína resulta em uma coloração azul-violácea bastante intensa, idêntica àquela que é produzida no próprio teste de Scott acidificado.",
+      "D": "O teste do benzoato de metila baseia-se na cor verde que é produzida na amostra, sendo ela perceptível pela população em geral sem exceções."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Apêndice 1, Cocaína): o teste de Scott acidificado dá cor azul, mas NÃO é definitivo, pois metadona, heroína, lidocaína e cafeína também produzem azul; já o teste de Tanred/Mayer forma um precipitado amarelo leitoso (A). B erra porque o Scott não é definitivo. C erra porque o Tanred dá precipitado amarelo leitoso, não azul-violácea. D erra porque o benzoato de metila se baseia em odor (não cor), e parte da população não o percebe.",
+    "referencia": "PDF Química Forense, p. 59-60",
+    "nivel": "dificil"
   }
 ];
