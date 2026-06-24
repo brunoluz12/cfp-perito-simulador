@@ -29415,5 +29415,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 1): no ePol, o conceito de 'bens' engloba o de 'materiais' do SISCRIM, e as 'tarefas' do ePol recebem, no SISCRIM, o nome de 'Despacho ePol', mantendo a numeração (A). B erra porque órgão externo é o que NÃO é PF (TRF, MPF, Ibama). C erra porque a subunidade de apoio é o 'Grupo de Funcionários'; procedimento é o processo/investigação vinculado. D erra porque os bens correspondem aos materiais, não aos documentos.",
     "referencia": "Cap. 14, Seção 14.1 — Conceitos básicos",
     "nivel": "medio"
+  },
+  {
+    "id": 2036,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os modos de acesso (login) ao SISCRIM, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O acesso ao SISCRIM dá-se unicamente por usuário e senha institucionais do servidor, não se admitindo o uso de certificado digital como forma de autenticação.",
+      "B": "O acesso pode dar-se por usuário/senha ou por certificado digital (ICP-Brasil); recomenda-se o certificado, que já habilita as assinaturas dos laudos.",
+      "C": "O certificado digital presta-se à visualização de laudos já emitidos, sendo incapaz de habilitar a assinatura digital do perito no sistema.",
+      "D": "O login por certificado digital dispensa as credenciais institucionais e passou a ser o único meio aceito para o acesso de peritos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 15.1): o acesso pode ser feito por usuário/senha (credenciais institucionais) ou por certificado digital no padrão ICP-Brasil (token ou e-CPF); recomenda-se o certificado, pois é mais seguro e já habilita o perito para as assinaturas digitais dos laudos (B). A erra porque o certificado é admitido. C erra porque o certificado habilita as assinaturas. D erra porque o usuário/senha continua sendo um meio válido de acesso.",
+    "referencia": "Cap. 15, Seção 15.1 — Acesso ao SISCRIM (login)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2037,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a sequência de tramitação para emissão de laudo no SISCRIM, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os materiais podem ser deslacrados antes mesmo do registro síncrono no SISCRIM, desde que sejam relacrados com o mesmo lacre original ao final do exame pericial.",
+      "B": "Concluído o exame, os vestígios são reacondicionados com o mesmo lacre que havia sido rompido, descartando-se o histórico do lacre anterior no sistema.",
+      "C": "A elaboração do laudo pericial precede o recebimento da solicitação e dos materiais, otimizando assim o fluxo de trabalho diário do perito criminal.",
+      "D": "A tramitação segue: receber Solicitação e Materiais, Deslacrar, Cadastrar, elaborar e Assinar o Laudo, Relacrar com novo lacre e Encaminhar."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 15.2, mnemônico S-M-D-C L-A-R-E): a tramitação segue receber a Solicitação e os Materiais, Deslacrar, Cadastrar os objetos de exame, gerar/elaborar e Assinar o Laudo, Relacrar os materiais (com novo lacre, mantido o histórico do anterior) e Encaminhar — sem qualquer ato físico sem registro síncrono no sistema (D). A erra porque o deslacre exige registro síncrono. B erra porque se usa um novo lacre, preservando o histórico. C erra porque o recebimento antecede a elaboração do laudo.",
+    "referencia": "Cap. 15, Seção 15.2 — Emissão de laudo (tramitação)",
+    "nivel": "dificil"
   }
 ];
