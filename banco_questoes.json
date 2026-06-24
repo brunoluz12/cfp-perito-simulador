@@ -29806,5 +29806,39 @@
     "justificativa": "Conforme o material (Seção 2.7): os efeitos primários são a onda de pressão explosiva, a fragmentação e o efeito térmico-incendiário (os secundários é que variam com o ambiente); o efeito Monroe (ou bazuca) decorre da convergência de várias ondas de choque para um mesmo ponto, sendo usado em implosões (B). A inverte (são os secundários que variam). C erra porque há fase de pressão negativa, também destrutiva. D erra porque a onda de choque detona cargas próximas por simpatia — princípio dos detonadores.",
     "referencia": "PDF, p. 23-24",
     "nivel": "dificil"
+  },
+  {
+    "id": 2065,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os estopins e as regras de segurança no seu uso (mnemônico H-C-M-R), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O estopim de mecha, empregado na pirotecnia, é o de queima mais lenta entre os tipos existentes, ficando bem à frente do estopim hidráulico subaquático usado em água.",
+      "B": "Em uma mesma carga explosiva, recomenda-se o uso de um único estopim por economia, dispensando-se por completo a redundância de segurança.",
+      "C": "Hidráulico (subaquático), comum, mecha (pirotecnia) e rastilho (mais rápido que a mecha); usam-se dois estopins de igual comprimento por carga explosiva.",
+      "D": "Em caso de falha do estopim, deve-se aproximar imediatamente da carga explosiva para verificar a causa do problema e corrigi-la sem demora."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 3.1, H-C-M-R): os estopins classificam-se em hidráulico (subaquático), comum, mecha (pirotecnia) e rastilho (mais rápido que a mecha); por segurança, usam-se sempre dois estopins de igual comprimento para uma mesma carga (C). A erra porque o estopim de mecha é rápido (8 s/m), não o mais lento. B erra porque se usam dois estopins, não um. D erra porque, em caso de falha, deve-se esperar cerca de 20 minutos antes de se aproximar.",
+    "referencia": "PDF, p. 29",
+    "nivel": "medio"
+  },
+  {
+    "id": 2066,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as cápsulas explosivas (detonadores) não-elétricas e elétricas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na cápsula explosiva elétrica, o estopim é fixado à extremidade aberta do cilindro metálico por meio de uma ferramenta específica denominada amolgador.",
+      "B": "A não-elétrica é cilindro de Al/Cu no qual o estopim é fixado com amolgador; na elétrica, o fio ponte aquece por efeito Joule, com ou sem retardo.",
+      "C": "A cápsula explosiva não-elétrica funciona pelo aquecimento de um fio ponte por efeito Joule até a incandescência, dispensando o uso de estopim.",
+      "D": "As cápsulas elétricas empregam carga primária de nitropenta e carga secundária de azida de chumbo com estifnato, segundo o material apresentado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seções 3.2 e 3.3): a cápsula não-elétrica é um cilindro de alumínio ou cobre, aberto numa extremidade para a introdução do estopim, fixado com amolgador; já a elétrica funciona pelo aquecimento de um fio ponte por efeito Joule até a incandescência, podendo ser com ou sem retardo (B). A erra porque o estopim/amolgador é da não-elétrica. C atribui o efeito Joule (elétrica) à não-elétrica. D inverte as cargas (primária = azida + estifnato; secundária = nitropenta/Tetril/RDX).",
+    "referencia": "PDF, p. 29",
+    "nivel": "dificil"
   }
 ]
