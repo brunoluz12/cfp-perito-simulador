@@ -30248,5 +30248,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 5 a 8): sedativos e hipnóticos são depressores do SNC (usados como sedativos, hipnóticos, anticonvulsivantes, pré-anestésicos, etc.), e tanto os barbitúricos quanto os benzodiazepínicos/tranquilizantes integram a Lista B1 das substâncias psicotrópicas (A). B erra porque os tranquilizantes são depressores, não estimulantes, e são B1. C inverte (o Rohypnol/flunitrazepam é a 'boa noite, Cinderela'; o Rivotril/clonazepam é anticonvulsivante). D erra porque ambos são da Lista B1.",
     "referencia": "PDF Química Forense, p. 33-35",
     "nivel": "dificil"
+  },
+  {
+    "id": 2091,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o cloreto de etila (lança-perfume), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O cloreto de etila (lança-perfume) é um potente estimulante do sistema nervoso central e tem o seu uso médico amplamente permitido no Brasil atual.",
+      "B": "Nas condições normais de temperatura e pressão, o cloreto de etila é um sólido cristalino, inflamável e que produz uma chama de coloração azulada.",
+      "C": "O cloreto de etila integra unicamente a Lista A3, tendo o seu uso controlado por meio de Notificação de Receita 'A' especial.",
+      "D": "É um gás nas CNTP, líquido sob pressão, ferve a ~12 °C, inflamável com chama verde; é depressor do SNC e está nas Listas D2 e B1 (proscrito)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 7): o cloreto de etila (cloroetano) é um gás nas CNTP que, sob pressão, se apresenta como líquido incolor (ebulição a ~12 °C), inflamável com chama verde; é depressor do SNC e está incluído nas Listas D2 (insumos) e B1 (psicotrópicas), sendo proscrito (D). A erra porque é depressor (não estimulante) e proscrito. B erra porque é gás (não sólido) e a chama é verde. C erra porque integra as Listas D2 e B1, não a A3.",
+    "referencia": "PDF Química Forense, p. 42",
+    "nivel": "medio"
+  },
+  {
+    "id": 2092,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 5 - Dissociativos, Alucinógenos e Outras",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o enquadramento legal das substâncias deste capítulo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O LSD, a psilocibina e a DMT integram, em conjunto, a Lista A3 de substâncias de uso controlado por meio de receita médica especial.",
+      "B": "O éter etílico e o clorofórmio são substâncias psicotrópicas proscritas (Lista F2), controladas diretamente pela Anvisa em âmbito nacional, conforme o material apresentado.",
+      "C": "A regulamentação do uso religioso da ayahuasca, pelo CONAD, retirou definitivamente a DMT da Lista F2 de uso proscrito no Brasil.",
+      "D": "LSD, psilocibina e DMT na Lista F2 (proscritas); éter e clorofórmio na D2 (insumos, controle da PF); a ayahuasca tem uso religioso permitido, mas a DMT segue na F2."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 8): LSD, psilocibina e DMT estão na Lista F2 (uso proscrito); éter etílico e clorofórmio, na Lista D2 (insumos químicos, controle da Polícia Federal); e o uso religioso da ayahuasca é regulamentado (Resoluções CONAD), mas a DMT em si permanece na Lista F2 (D). A erra porque LSD/psilocibina/DMT são F2, não A3. B erra porque éter e clorofórmio são D2 (insumos), não F2. C erra porque a DMT continua na F2 apesar do uso religioso da ayahuasca.",
+    "referencia": "PDF Química Forense, p. 36-42",
+    "nivel": "dificil"
   }
 ];
