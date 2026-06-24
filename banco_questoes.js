@@ -30112,5 +30112,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Anexo 1): o procedimento padrão é conectar o detonador à linha para só então conectá-lo à carga principal; e toda explosão com iniciação elétrica ou tubo de choque é precedida do grito de alerta 'Atenção, linha quente!', seguido da contagem regressiva (A). B erra porque não se deve recolher nada na área de detonação (inclusive na espera). C erra porque, em explosão acidental, todos retornam à área de segurança. D inverte a ordem (primeiro à linha, depois à carga).",
     "referencia": "PDF, p. 95",
     "nivel": "medio"
+  },
+  {
+    "id": 2083,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as convenções internacionais relativas a drogas (mnemônico 61/71/88), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Convenção Única sobre Entorpecentes é do ano de 1971, ao passo que a Convenção sobre Substâncias Psicotrópicas é do ano de 1961.",
+      "B": "1961 = Convenção Única sobre Entorpecentes; 1971 = Substâncias Psicotrópicas; 1988 = Tráfico Ilícito de Entorpecentes e Psicotrópicos (E-P-T → 61/71/88).",
+      "C": "As três principais convenções internacionais sobre drogas datam, respectivamente, dos anos de 1971, 1988 e 2006, segundo o material apresentado.",
+      "D": "A Convenção de 1988 trata unicamente das substâncias psicotrópicas, não abrangendo de modo algum a questão do tráfico ilícito internacional de entorpecentes e drogas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 1.2, mnemônico E-P-T): a Convenção Única sobre Entorpecentes é de 1961, a Convenção sobre Substâncias Psicotrópicas é de 1971 e a Convenção Contra o Tráfico Ilícito de Entorpecentes e Substâncias Psicotrópicas é de 1988 (B). A inverte os anos de 1961 e 1971. C erra os anos (não há convenção de 2006 nesse rol). D erra porque a de 1988 trata justamente do tráfico ilícito.",
+    "referencia": "PDF Química Forense, p. 10-11",
+    "nivel": "medio"
+  },
+  {
+    "id": 2084,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 1 - Conceitos Básicos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os conceitos fundamentais da Química Forense (fármaco, medicamento, NSP e alcaloides), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Medicamento é a substância de estrutura química definida e de ação farmacológica conhecida, ao passo que o fármaco seria o produto farmacêutico já terminado.",
+      "B": "As novas substâncias psicoativas (NSP) são justamente aquelas que já se encontram listadas na Convenção de Psicotrópicos de 1971 e em suas atualizações posteriores.",
+      "C": "Fármaco tem estrutura definida e ação farmacológica; medicamento é a forma farmacêutica terminada (fármaco + adjuvantes); as NSP não constam da Convenção de 1971.",
+      "D": "Os alcaloides são substâncias isentas de nitrogênio, desprovidas de efeito psicotrópico, encontradas predominantemente em produtos de origem sintética industrial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 1.1): fármaco é a substância de estrutura química definida e ação farmacológica conhecida; medicamento é o produto/forma farmacêutica terminada, contendo um ou mais fármacos com adjuvantes; e as novas substâncias psicoativas (NSP) são as NÃO listadas na Convenção de Psicotrópicos de 1971 nem em suas atualizações (C). A inverte fármaco e medicamento. B erra porque as NSP são as não listadas. D erra porque os alcaloides são nitrogenados e de origem predominantemente vegetal.",
+    "referencia": "PDF Química Forense, p. 9",
+    "nivel": "dificil"
   }
 ];
