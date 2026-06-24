@@ -16956,23 +16956,6 @@
     "nivel": "medio"
   },
   {
-    "id": 1259,
-    "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
-    "tipo": "multipla_escolha",
-    "enunciado": "Ao esclarecer ao Delegado a distinção entre revólver e pistola semiautomática, o perito deve apontar a diferença essencial quanto ao mecanismo de funcionamento e à fonte de energia empregada na ciclagem. Acerca dessa distinção, assinale a opção correta.",
-    "alternativas": {
-      "A": "O revólver é arma semiautomática, na qual o tambor gira pelos gases da detonação; a pistola é arma de repetição não automática, recarregada manualmente após cada disparo.",
-      "B": "Revólver e pistola compartilham o mesmo princípio funcional de ciclagem por aproveitamento dos gases propelentes da detonação, diferenciando-se apenas pelo número de câmaras de combustão e pela posição relativa do percussor.",
-      "C": "O revólver é arma de repetição não automática, que usa a força muscular do atirador para a ciclagem, ao passo que a pistola aproveita os gases da detonação para realimentar a câmara.",
-      "D": "Em ambas as armas a ciclagem depende exclusivamente da força muscular do atirador, residindo a diferença apenas na posição relativa do percussor em relação à câmara."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 33 e 39, o revólver é arma de repetição não automática (a rotação do tambor depende da força muscular exercida sobre o gatilho), enquanto a pistola aproveita os gases da detonação para efetuar a ciclagem, realimentando a câmara. A: inverte os conceitos - o revólver não é semiautomático e a pistola não é recarregada manualmente. B: o revólver não emprega os gases para a ciclagem, de modo que não compartilham o mesmo princípio funcional. D: a pistola não depende exclusivamente da força muscular, pois cicla pelos gases.",
-    "referencia": "PDF, p. 33, 39",
-    "nivel": "facil"
-  },
-  {
     "id": 1260,
     "disciplina": "PCEB - Balística Forense",
     "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
@@ -29602,5 +29585,39 @@
     "justificativa": "Conforme o material (Seção 2.4.2): o calibre nominal é a designação comercial do tipo de munição/arma (havendo diversos nominais para um mesmo real); adaptar um revólver .38 para disparar .357 (alongando a câmara) é perigoso, pois o tambor do .38 não resiste às pressões elevadas do .357, podendo explodir e ferir o atirador (A). B descreve o calibre real. C erra porque a adaptação é desaconselhada e perigosa. D erra porque há correspondência entre calibres imperiais e métricos (ex.: .380 Auto = 9 mm Curto).",
     "referencia": "PDF, p. 31",
     "nivel": "medio"
+  },
+  {
+    "id": 2051,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características fundamentais das armas curtas (mnemônico PLM-A), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As armas curtas caracterizam-se por possuir grandes dimensões e peso bastante superior a um quilograma, o que exige o uso das duas mãos do atirador.",
+      "B": "Têm pequenas dimensões (até ~30 cm; cano até 15 cm), são leves (até 1 kg), com mecanismos compactos e angulação anatômica coronha-cano para uso com uma mão.",
+      "C": "A angulação anatômica existente entre a coronha e o cano das armas curtas destina-se justamente a impedir o disparo com uma só das mãos do atirador experiente.",
+      "D": "As armas curtas foram concebidas originalmente para o tiro de precisão a longas distâncias, em substituição direta aos fuzis de assalto militares."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Introdução, mnemônico PLM-A): as armas curtas têm pequenas dimensões (raramente acima de 30 cm, cano até ~15 cm), são leves (peso inferior a ~1 kg), apresentam mecanismos de disparo compactos e angulação anatômica entre coronha e cano, que permite o uso com uma só mão (B). A erra porque são pequenas e leves. C erra porque a angulação permite (não impede) o uso com uma mão. D erra porque foram concebidas para tiro a curta distância.",
+    "referencia": "PDF, p. 33",
+    "nivel": "medio"
+  },
+  {
+    "id": 2052,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as particularidades notáveis do revólver, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "É a única arma cujo cano não tem câmara de combustão, a única não carregada com cartucho alinhado ao cano e a única sem culatra (possui placa de obturação).",
+      "B": "No revólver, as câmaras de combustão localizam-se dentro do próprio cano da arma, exatamente à semelhança do que ocorre nas pistolas semiautomáticas modernas.",
+      "C": "O revólver possui culatra fixa e encontra-se carregado quando houver um cartucho íntegro diretamente alinhado ao cano da arma examinada pelo perito.",
+      "D": "O revólver é uma arma de repetição automática, que aproveita a energia dos gases da combustão para girar o tambor e realinhar as câmaras de tiro."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 3.1): o revólver é a única arma em uso cujo cano não possui câmara de combustão (a deflagração ocorre no tambor), a única que NÃO está carregada quando há cartucho íntegro alinhado ao cano (pois o tambor gira antes do disparo) e a única sem culatra — a peça que segura os cartuchos no tambor é a placa de obturação (A). B erra porque as câmaras ficam no tambor, não no cano. C erra porque, com cartucho alinhado, o revólver ainda não está pronto (o tambor gira antes). D erra porque o revólver é de repetição não automática.",
+    "referencia": "PDF, p. 33-34",
+    "nivel": "dificil"
   }
 ]
