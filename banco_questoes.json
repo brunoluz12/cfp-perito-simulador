@@ -30078,5 +30078,39 @@
     "justificativa": "Conforme o material (Padrões de busca, E-R-Q-F): espiral (parte do centro, para ambientes menores como uma sala); rede (o local é dividido e marcado com fitas/cordas/barbantes e identificado); quadrante/zona/setor (para grandes áreas abertas); e fileiras/linhas (grandes áreas, equipe alinhada a braços abertos, gritando 'PARE!' ao achar vestígio) — alternativa A. B erra porque a espiral é para ambientes menores e parte do centro. C erra porque na fileira há sinalização ('PARE!'). D erra porque a rede exige dividir e marcar o local.",
     "referencia": "PDF, p. 87-88",
     "nivel": "medio"
+  },
+  {
+    "id": 2081,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a queima de explosivos (Anexo 2), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na queima de explosivos, recomenda-se prioritariamente o uso de gasolina e de álcool combustível, justamente por possuírem ponto de fulgor mais baixo.",
+      "B": "O limite máximo de queima por vez é estabelecido em 10 kg de dinamite e em 3 kg de cordel detonante, conforme expressamente indicado no material.",
+      "C": "Na destruição por chama de dinamites gelatinosas, deve-se queimar a massa explosiva ainda dentro do seu invólucro plástico totalmente fechado.",
+      "D": "Combustível: querosene de aviação, querosene e diesel (fulgor baixo); evitam-se gasolina e álcool; até 3 kg de dinamite e 10 kg de cordel por vez."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Anexo 2): o combustível recomendado é, nessa ordem, querosene de aviação, querosene e óleo diesel (pontos de fulgor mais baixos que os explosivos); evitam-se gasolina e álcool (fulgor alto, risco de explosão); e os limites por queima são 3 kg de dinamite e 10 kg de cordel (D). A erra porque gasolina e álcool devem ser evitados. B inverte os limites (3 kg dinamite, 10 kg cordel). C erra porque se deve abrir o invólucro e queimar massa e plástico separadamente.",
+    "referencia": "PDF, p. 97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2082,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 11 - Anexos e Legislação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as regras de segurança na área de testes (Anexo 1), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Conecta-se o detonador à linha e só então à carga principal; cada explosão elétrica/tubo de choque é precedida do grito 'Atenção, linha quente!'.",
+      "B": "É permitido aos alunos recolher livremente os resíduos existentes na área de detonação durante o período de espera logo após a explosão.",
+      "C": "Em caso de explosão acidental na área de testes, os alunos devem permanecer no local exato em que se encontram, aguardando ali as instruções do professor.",
+      "D": "O procedimento padrão manda conectar o detonador primeiramente à carga principal e só depois conectá-lo à linha de fogo do circuito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Anexo 1): o procedimento padrão é conectar o detonador à linha para só então conectá-lo à carga principal; e toda explosão com iniciação elétrica ou tubo de choque é precedida do grito de alerta 'Atenção, linha quente!', seguido da contagem regressiva (A). B erra porque não se deve recolher nada na área de detonação (inclusive na espera). C erra porque, em explosão acidental, todos retornam à área de segurança. D inverte a ordem (primeiro à linha, depois à carga).",
+    "referencia": "PDF, p. 95",
+    "nivel": "medio"
   }
 ]
