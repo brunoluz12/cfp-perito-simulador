@@ -30775,5 +30775,39 @@
     "justificativa": "Conforme o material (Seções 6 e 7): o gerador de fumaça é adaptação que libera material particulado/fumaça intensa para reduzir a visibilidade e dificultar perseguições policiais (finalidade de fuga); o rádio oculto é equipamento de comunicação clandestina, dissimulado no painel, console, forrações ou compartimentos ocultos do habitáculo (C). A e B trocam as funções dos dois dispositivos. D erra porque ambos têm integração NÃO original aos sistemas do veículo, alheia à sua função normal.",
     "referencia": "Cap. 15, p. 69-70",
     "nivel": "dificil"
+  },
+  {
+    "id": 2129,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 16 - Sistemas para consulta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conjunto de sistemas para consulta (SI-DE-WE-IN-CA) e o DELPHOS, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "São SI-DE-WE-IN-CA (Sinesp, DELPHOS, WEBVIN, Inmetro, cartas-laudo); o DELPHOS é o único desenvolvido pela PF, com registros periciais consolidados.",
+      "B": "O DELPHOS é um sistema que foi desenvolvido pelo Inmetro especificamente para a consulta de lacres de cronotacógrafo instalados nos veículos pesados.",
+      "C": "O Sinesp/Infoseg é o único sistema que é mencionado no material como sendo desenvolvido diretamente pela própria Polícia Federal.",
+      "D": "As cartas-laudo são plenamente padronizadas entre os diversos fabricantes do mercado, apresentando idêntico nível de detalhe e robustez."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 1 a 7, mnemônico SI-DE-WE-IN-CA): o conjunto articulado de fontes compreende Sinesp/Infoseg e Sinapse, DELPHOS, WEBVIN, Inmetro-cronotacógrafo e cartas-laudo; o DELPHOS é o único sistema mencionado como desenvolvido pela própria Polícia Federal, dando acesso a registros periciais consolidados com imagens e descrições (A). B erra porque o DELPHOS é da PF (não do Inmetro). C erra porque é o DELPHOS (não o Sinesp) que é da PF. D erra porque as cartas-laudo não têm padronização entre fabricantes.",
+    "referencia": "Cap. 16, p. 73",
+    "nivel": "medio"
+  },
+  {
+    "id": 2130,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 16 - Sistemas para consulta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o WEBVIN, o Inmetro-cronotacógrafo e as cartas-laudo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "WEBVIN: padrões/locais e leilão; Inmetro: consulta bidirecional de lacres (veículo↔lacre); cartas-laudo: dados do fabricante, robustez variável.",
+      "B": "O WEBVIN é um sistema que foi desenvolvido pela Polícia Federal especialmente para o registro nacional dos lacres do cronotacógrafo dos veículos.",
+      "C": "O Inmetro-cronotacógrafo possibilita unicamente a consulta do tipo veículo para lacre, e não a sua forma inversa, de lacre para o veículo periciado.",
+      "D": "As cartas-laudo dispensam por completo o contato com o fabricante, uma vez que constam de bases de dados públicas, abertas e de consulta livre."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 4 a 6): o WEBVIN fornece padrões e locais usuais de gravação e verifica a passagem do veículo por leilão; o Inmetro-cronotacógrafo permite consulta bidirecional de lacres (veículo→lacre e lacre→veículo); e as cartas-laudo trazem informações obtidas diretamente dos fabricantes, com robustez e detalhe variáveis (A). B erra porque o registro de lacres é do Inmetro. C erra porque a consulta do Inmetro é bidirecional. D erra porque as cartas-laudo vêm do fabricante, não de bases abertas.",
+    "referencia": "Cap. 16, p. 73",
+    "nivel": "dificil"
   }
 ]
