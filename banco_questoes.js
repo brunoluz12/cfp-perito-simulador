@@ -7317,23 +7317,6 @@ const questoesDB = [
     "nivel": "facil"
   },
   {
-    "id": 695,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 12 - Restauração da gravação em metal",
-    "tipo": "multipla_escolha",
-    "enunciado": "Um perito recebe um bloco de motor de ferro fundido com a numeração obliterada. Considerando a indicação técnica dos métodos descritos no PVAT, qual técnica é especialmente adequada para esse caso?",
-    "alternativas": {
-      "A": "Polimento com alumina até acabamento espelhado, por se tratar de bloco de ferro fundido com baixa dureza superficial e boa resposta ao abrasivo fino.",
-      "B": "Cavitação ultrassônica, único método indicado para ferro fundido conforme o PVAT.",
-      "C": "Aplicação direta do reagente de Fry, sem necessidade de lixamento posterior.",
-      "D": "Tratamento térmico, que se vale da tensão residual abaixo da área deformada, aplicando calor até o metal enrubescer."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
-    "referencia": "Cap. 12 - Restauração da gravação em metal",
-    "nivel": "medio"
-  },
-  {
     "id": 696,
     "disciplina": "PVAT - Módulo I (Identificação Veicular)",
     "conteudo": "Cap. 12 - Restauração da gravação em metal",
@@ -30673,5 +30656,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 11.4 a 11.6): o recobrimento da peça suporte cobre o NIV com massa plástica/solda para posterior regravação; a sobreposição por chapa metálica recobre o NIV com uma chapa (soldada ou colada) e nova gravação; e a substituição da peça suporte (troca da região do NIV) é conhecida no meio policial como 'transplante' ou 'implante' (D). A erra porque 'transplante' é a substituição (11.6), não a chapa. B descreve a substituição, não o recobrimento. C descreve o recobrimento, não a substituição.",
     "referencia": "Cap. 11, Seções 11.4-11.6, p. 52-53",
     "nivel": "dificil"
+  },
+  {
+    "id": 2121,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os níveis de obliteração e a possibilidade de restauração da gravação em metal, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Quando a obliteração consome por inteiro a zona de deformação plástica do metal, a restauração pericial do código original ainda é considerada plenamente possível.",
+      "B": "O aquecimento do metal que cause o rearranjo das discordâncias ou a recristalização da estrutura favorece e facilita bastante a recuperação do código original obliterado pela fraude.",
+      "C": "Na obliteração parcial (limalhas ou tinta nas cavidades), exige-se ataque químico com reagente de Fry para que se revele o código original do veículo.",
+      "D": "Parcial recupera-se com solventes; mais profunda (zona plástica preservada) restaura-se por técnicas; consumida a zona plástica ou com recristalização, é irreversível."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2): na obliteração parcial, a simples limpeza com solventes recupera o código; quando mais profunda, mas com a zona de deformação plástica preservada, a restauração é efetiva por técnicas periciais; consumida a zona plástica (ou havendo aquecimento que cause recristalização), a restauração torna-se impossível (D). A erra porque, consumida a zona plástica, não há restauração. B erra porque a recristalização inviabiliza (não favorece) a recuperação. C erra porque a obliteração parcial se resolve com solventes.",
+    "referencia": "Cap. 12, p. 57-58",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2122,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 12 - Restauração da gravação em metal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a restauração em gravações a laser e os métodos de restauração, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A zona afetada do laser é rasa (2-25 µm), tornando a restauração frequentemente impraticável; o PDF foca em ataque químico, tratamento térmico e polimento (A-T-P).",
+      "B": "Na gravação a laser, a zona termicamente afetada é muito profunda no metal, o que torna a sua restauração pericial bastante fácil e rotineira.",
+      "C": "Os métodos de restauração baseiam-se em adicionar novo material metálico ao substrato para reconstruir fisicamente os caracteres que foram removidos durante a fraude.",
+      "D": "O PDF desenvolve em detalhe a cavitação ultrassônica e os sistemas magnéticos como sendo os métodos principais de restauração pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 3 e 4): na gravação a laser, a zona termicamente afetada tem profundidade de apenas 2 a 25 µm, o que torna a recuperação frequentemente impraticável; embora a lista inclua vários métodos (químico, eletrolítico, térmico, cavitação, magnéticos, polimento), o texto desenvolve especificamente o ataque químico, o tratamento térmico e o polimento — A-T-P (A). B erra porque a zona do laser é rasa. C erra porque os métodos exploram vestígios na estrutura (não adicionam material). D erra porque o foco é A-T-P, não cavitação/magnéticos.",
+    "referencia": "Cap. 12, p. 58-59",
+    "nivel": "medio"
   }
 ];
