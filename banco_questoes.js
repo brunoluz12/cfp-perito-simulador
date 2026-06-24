@@ -30945,5 +30945,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 3.5): a sequência cronológica é Sítio do Acidente, de Percepção, de Reação, de Não Escapada, de Colisão e de Repouso Final (SA-SP-SR-SNE-SC-SRF); o Sítio de Não Escapada (SNE) é o local a partir do qual não seria possível evitar o acidente mesmo iniciando a reação, calculado como DPR + distância de frenagem completa (A). B confunde SR com SRF. C confunde SC com SP (percepção). D confunde SRF com SR (início das marcas de frenagem).",
     "referencia": "Cap. 3, Seção 3.5, p. 19-20",
     "nivel": "medio"
+  },
+  {
+    "id": 2139,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as modalidades de culpa penal (mnemônico I-N-I) nos acidentes de trânsito, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A negligência é a prática de uma ação temerária pelo condutor do veículo, como dirigir em uma velocidade que é manifestamente excessiva para a via urbana.",
+      "B": "A imperícia é a omissão de um dever objetivo de cuidado, como deixar de verificar os freios do veículo antes de conduzi-lo na via.",
+      "C": "A imprudência é a falta de aptidão técnica para conduzir, como não saber controlar o veículo automotor em uma situação de emergência.",
+      "D": "Imprudência = ação temerária (faz o que não devia); negligência = omissão de cuidado (deixa de fazer); imperícia = falta de técnica (não sabe fazer)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4.3, mnemônico I-N-I): a imprudência é a ação temerária (faz o que não devia, ex.: velocidade excessiva); a negligência é a omissão de um dever de cuidado (deixa de fazer, ex.: não verificar os freios); e a imperícia é a falta de aptidão técnica (não sabe fazer, ex.: não controlar o veículo em emergência) — alternativa D. A confunde negligência com imprudência. B confunde imperícia com negligência. C confunde imprudência com imperícia.",
+    "referencia": "Cap. 4, Seção 4.3, p. 26",
+    "nivel": "medio"
+  },
+  {
+    "id": 2140,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as obrigações do condutor no local do acidente (art. 176 do CTB), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O condutor envolvido em acidente com vítima pode remover livremente os veículos da via antes da chegada da perícia, sem penalidade administrativa alguma.",
+      "B": "O art. 176 do CTB obriga a preservar o local e facilitar a perícia; descumprir é infração gravíssima e pode prejudicar a prova pericial.",
+      "C": "A preservação do local do acidente é uma mera recomendação técnica, sem previsão de infração de trânsito para o seu descumprimento pelo condutor.",
+      "D": "O descumprimento do dever de preservar o local do acidente configura, no máximo, uma infração de trânsito de natureza leve."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 4.5): o art. 176 do CTB impõe ao condutor envolvido em acidente com vítima a obrigação de preservar o local e facilitar os trabalhos da polícia e da perícia; o descumprimento constitui infração gravíssima e pode prejudicar substancialmente a qualidade da prova pericial (B). A erra porque a remoção indevida descumpre o dever de preservação. C e D erram porque o descumprimento é infração gravíssima (não mera recomendação nem infração leve).",
+    "referencia": "Cap. 4, Seção 4.5, p. 27",
+    "nivel": "medio"
   }
 ];
