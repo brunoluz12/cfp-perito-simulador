@@ -5362,23 +5362,6 @@ const questoesDB = [
     "nivel": "facil"
   },
   {
-    "id": 553,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 9 - Laudo Pericial",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante operação de combate ao tráfico, o delegado de polícia federal lavra Auto de Prisão em Flagrante por crime da Lei nº 11.343/2006, sendo necessário, antes da lavratura do APF, examinar a substância apreendida. Sobre o laudo de exame de constatação preliminar, conforme o item 9.2 do Cap. 9, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "Trata-se de exame preliminar previsto na Lei de Entorpecentes, que pode ser realizado por um só perito ou, na sua falta, por qualquer pessoa com capacitação técnica nomeada pelo delegado; se feito por perito oficial, este não fica impedido de realizar o exame definitivo.",
-      "B": "Somente pode ser realizado por dois peritos oficiais, sob pena de nulidade do flagrante, vedada a nomeação de pessoa diversa para o ato.",
-      "C": "É modalidade de exame pericial aplicável a todos os crimes que deixam vestígios e exigem flagrante, não se restringindo aos crimes da Lei de Entorpecentes.",
-      "D": "Embora previsto na Lei nº 11.343/2006, substitui integralmente o laudo definitivo, sendo dispensável novo exame pericial para fins de julgamento do réu."
-    },
-    "resposta_correta": "A",
-    "justificativa": "Conforme o PDF (Cap. 9, Seção 4, p. 59): no APF com base na Lei nº 11.343/2006, o exame prévio pode ser feito por um só perito ou, na falta, por qualquer pessoa com capacitação técnica nomeada pelo delegado; se feito por perito oficial, ele não fica impedido de realizar o exame definitivo, indispensável para o julgamento; e este é o único caso de exame pericial preliminar previsto em lei. Por isso A está correta. B erra ao exigir dois peritos e ao vedar a nomeação de terceiro capacitado. C erra ao estender o exame a todos os crimes, contrariando a restrição à Lei de Drogas. D erra ao afirmar que o preliminar substitui o definitivo.",
-    "referencia": "Cap. 9, Seção 9.2, p. 59",
-    "nivel": "medio"
-  },
-  {
     "id": 554,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 9 - Laudo Pericial",
@@ -29347,5 +29330,56 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 8.5, art. 174 do CPP): o material gráfico padrão deve atender aos requisitos Autenticidade, Adequabilidade, Contemporaneidade e Quantidade (A-A-C-Q); não havendo escritos suficientes, a autoridade mandará a pessoa escrever de próprio punho o que lhe for ditado (D). A erra porque o ditado é expressamente previsto. B erra porque autenticidade e contemporaneidade são requisitos exigidos. C erra porque documentos reconhecidos ou validados judicialmente podem servir de padrão.",
     "referencia": "Cap. 8, Seção 8.5 — Exame grafotécnico",
     "nivel": "dificil"
+  },
+  {
+    "id": 2021,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o laudo pericial e o art. 160 do CPP, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O laudo será elaborado no prazo máximo de 10 dias, prorrogável excepcionalmente a requerimento dos peritos; sua elaboração cabe aos que realizaram os exames.",
+      "B": "O prazo de elaboração do laudo pericial confunde-se com o prazo de conclusão do inquérito policial, sendo ambos os prazos legalmente improrrogáveis pela autoridade.",
+      "C": "O laudo pode ser elaborado por servidor diverso da unidade pericial, ainda que ele não tenha realizado pessoalmente os exames periciais que o embasam.",
+      "D": "A prorrogação do prazo de elaboração do laudo pericial depende de requerimento da autoridade policial requisitante, sendo vedada a iniciativa dos próprios peritos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 1, art. 160 do CPP): o laudo pericial será elaborado no prazo máximo de 10 dias, prorrogável em casos excepcionais a requerimento dos peritos, e a sua elaboração cabe imperativamente aos peritos que efetivamente realizaram os exames (A). B erra porque o prazo do laudo não se confunde com o de conclusão do inquérito e é prorrogável. C erra porque o laudo cabe a quem realizou os exames. D erra porque a prorrogação é requerida pelos peritos.",
+    "referencia": "Cap. 9, Seção 9.1 — Conceito e fundamento (art. 160)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2022,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o laudo de exame de constatação preliminar (Lei nº 11.343/2006), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O laudo de constatação preliminar exige a assinatura de, no mínimo, dois peritos oficiais devidamente concursados, à semelhança do que ocorre com o laudo definitivo toxicológico de drogas.",
+      "B": "O perito que assina o laudo de constatação preliminar fica, por força de lei, impedido de realizar o laudo definitivo toxicológico posteriormente no mesmo feito.",
+      "C": "Pode ser assinado por um único perito oficial (ou, na falta deste, por pessoa com capacitação técnica nomeada pelo delegado), e o signatário não fica impedido do laudo definitivo.",
+      "D": "Constitui uma entre as várias hipóteses de exame pericial preliminar que se encontram expressamente previstas na atual legislação processual penal brasileira."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 4): o laudo de constatação preliminar pode ser assinado por um único perito oficial e, na falta deste, por pessoa com capacitação técnica nomeada pelo delegado; o perito que o assina não fica impedido de realizar o laudo definitivo posterior (C). A erra porque basta um perito. B erra porque não há impedimento. D erra porque este é o único caso de exame pericial preliminar previsto na legislação processual penal.",
+    "referencia": "Cap. 9, Seção 9.4 — Constatação preliminar",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2023,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 9 - Laudo Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura e o valor do laudo pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A numeração dos laudos periciais é contínua e perpétua, não reiniciando a contagem a cada novo ano civil dentro do sistema nacional de gestão.",
+      "B": "O laudo estrutura-se em preâmbulo, exposição/discussão e conclusão (P-E-C), e seu valor reside no conteúdo técnico, não no prestígio da instituição ou do perito.",
+      "C": "A conclusão do laudo pericial deve ser extensa e bastante detalhada, repetindo integralmente a exposição e a discussão dos métodos científicos empregados.",
+      "D": "O valor do laudo decorre, sobretudo, do prestígio da instituição pericial e do renome do perito que o assina, e não propriamente do seu conteúdo técnico-científico produzido."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 2, mnemônico P-E-C): o laudo estrutura-se em Preâmbulo, Exposição/Discussão e Conclusão, e o seu valor reside única e exclusivamente no conteúdo técnico, científico, objetivo e claro — não no prestígio da instituição nem no nome do perito (B). A erra porque a numeração reinicia no primeiro dia de cada ano. C erra porque a conclusão deve ser objetiva e sintética. D erra porque o valor está no conteúdo, não no prestígio.",
+    "referencia": "Cap. 9, Seção 9.2 — Estrutura do laudo (P-E-C)",
+    "nivel": "medio"
   }
 ];
