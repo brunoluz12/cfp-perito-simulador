@@ -5294,40 +5294,6 @@
     "nivel": "medio"
   },
   {
-    "id": 544,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante operação da Polícia Federal em área de garimpo ilegal às margens de um rio, os peritos criminais não conseguiram comparecer ao local antes de forte enchente, que destruiu as escavações, dragas e demais sinais da exploração mineral. Remanesceram, contudo, relatórios circunstanciados da equipe de fiscalização do IBAMA, fotografias aéreas, croquis e termos de apreensão. Diante do quadro, a autoridade policial requisitou exame de corpo de delito com base nesse acervo documental. Considerando a sistemática do CPP e o exposto sobre corpo de delito indireto, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "O exame de corpo de delito indireto é terminantemente vedado nos crimes ambientais, devendo a prova testemunhal suprir de forma integral a ausência do exame direto, nos exatos termos do art. 167 do CPP.",
-      "B": "Em razão da total inexistência de vestígios materiais remanescentes na cena, a confissão do garimpeiro flagranteado supre, por si só, a ausência do exame de corpo de delito, na forma do art. 158 do CPP.",
-      "C": "O exame indireto é admissível quando impossível o direto, cabendo aos peritos buscar no acervo documental os dados necessários à conclusão, ainda que nem sempre com êxito.",
-      "D": "O exame de corpo de delito indireto somente é cabível nos crimes contra o patrimônio em que a Receita Federal tenha destinado as mercadorias antes da perícia, sendo essa a única hipótese admitida pela doutrina pátria."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Correta a alternativa C: conforme a Seção 5.1.1 (p. 44-45), o exame indireto é aceito quando impossível o direto, apoiando-se em fotografias, informações seguras, documentos ou outros elementos levantados pelos peritos, cabendo a eles a busca de todos os dados necessários à conclusão pericial, o que nem sempre será conseguido; o texto cita justamente o exemplo de exploração mineral clandestina em margens de rios, com vestígios destruídos por enchentes. A alternativa A erra ao vedar o exame indireto em crimes ambientais. A alternativa B contraria o art. 158 do CPP, segundo o qual a confissão do acusado não supre o exame de corpo de delito. A alternativa D restringe indevidamente o exame indireto a uma única hipótese, sendo o caso do garimpo outro exemplo expresso.",
-    "referencia": "Cap. 5, Seção 5.1.1, p. 5",
-    "nivel": "medio"
-  },
-  {
-    "id": 545,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 5 - A prova",
-    "tipo": "multipla_escolha",
-    "enunciado": "Acerca da classificação das provas adotada por Paulo Rangel (2002), apresentada no Capítulo 5, julgue os itens a seguir:\n\nI. Quanto ao objeto, o álibi é classificado como prova direta, pois demonstra de forma imediata a inocência do acusado, sem necessidade de processo lógico de construção.\nII. Quanto ao sujeito, são consideradas provas reais o sêmen, o sangue, a impressão digital e a arma de fogo, por serem oriundas de coisas ou vestígios relacionados ao crime.\nIII. Quanto à forma, a prova material somente assume essa qualidade depois de os vestígios serem examinados e interpretados pela Criminalística; antes disso, são apenas matéria-prima da produção da prova.\nIV. Há autores que negam a existência de prova indireta, sustentando que toda prova é direta em relação ao que é imediatamente provado, e classificam o álibi como prova negativa de autoria.\n\nEstão corretos apenas os itens:",
-    "alternativas": {
-      "A": "Apenas os itens I e II.",
-      "B": "Apenas os itens I, III e IV.",
-      "C": "Apenas os itens II e IV.",
-      "D": "Os itens II, III e IV."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Correta a alternativa D (II, III e IV). Item I incorreto: o álibi é exemplo clássico de prova INDIRETA (subitem 5.3.1, b, p. 45-46), e não direta. Item II correto (subitem 5.3.2, b, p. 46): sêmen, sangue, impressão digital e arma são provas reais. Item III correto (subitem 5.3.3, c, p. 46): os vestígios são matéria-prima e só se tornam prova material após examinados e interpretados pela Criminalística. Item IV correto (final do subitem 5.3.1, p. 46): há autores que negam a prova indireta e classificam o álibi como prova negativa de autoria. As demais alternativas falham por incluírem o item I incorreto (A, B) ou por excluírem o item III correto (C).",
-    "referencia": "Cap. 5, Seção 5.3.1, p. 45-46",
-    "nivel": "dificil"
-  },
-  {
     "id": 546,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 6 - Teoria dos vestígios",
@@ -29227,6 +29193,57 @@
     "resposta_correta": "C",
     "justificativa": "Conforme o material (Seção 4.5.2): o crime de falsa perícia (art. 342 do CP) exige dolo — a intenção de produzir o erro e fraudar a verdade —, e o assistente técnico não o comete, por não ser perito e por defender o interesse de quem o contratou (C). A erra porque exige dolo, não culpa. B erra porque o assistente técnico não comete o crime. D erra porque o perito oficial está sujeito às penas do art. 342, não imune.",
     "referencia": "Cap. 4, Seção 4.5.2 — Falsa perícia",
+    "nivel": "medio"
+  },
+  {
+    "id": 2009,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as fontes de informação para o esclarecimento do crime (CO-TE-VE), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A confissão, por emanar do próprio autor do fato, é prova plena e indivisível, prevalecendo sobre as demais provas reunidas no curso da instrução criminal.",
+      "B": "A confissão é divisível e retratável e só vale se coerente com as demais provas (arts. 197 e 200 do CPP); os vestígios, depois de examinados, tornam-se 'testemunhas silenciosas'.",
+      "C": "A prova testemunhal é uma fonte objetiva e praticamente infalível, imune a esquecimentos, ao medo de represálias por parte dos acusados ou mesmo a eventuais mentiras das pessoas.",
+      "D": "Os vestígios materiais já constituem, por si sós, verdadeira prova material, independentemente de exame técnico-científico posterior realizado pela Criminalística."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 2, CO-TE-VE): a confissão é divisível e retratável (art. 200 do CPP) e só tem valor se coerente com as demais provas (art. 197); os vestígios materiais, quando analisados pela Criminalística, transformam-se em 'testemunhas silenciosas que não mentem' (B). A erra porque a confissão é precária, divisível e não prevalece. C erra porque a testemunha é subjetiva e falível. D erra porque o vestígio só vira prova material após exame técnico-científico.",
+    "referencia": "Cap. 5, Seção 2 — Fontes de informação (CO-TE-VE)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2010,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o sistema de provas no processo penal brasileiro, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Não há hierarquia entre as provas lícitas, e a condenação exige juízo de certeza quanto à autoria — a mais leve suspeita já impede a condenação (in dubio pro reo).",
+      "B": "Vigora uma rígida hierarquia probatória no sistema penal, na qual o exame pericial prevalece de forma automática sobre a prova testemunhal e sobre a confissão do acusado.",
+      "C": "Para impor a condenação, basta ao juiz formar um juízo de mera probabilidade quanto à autoria do delito, dispensando-se a exigência de certeza.",
+      "D": "São plenamente admitidas no processo penal as provas obtidas por meios ilícitos, desde que se mostrem relevantes para a descoberta da verdade real dos fatos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 1): no sistema penal brasileiro não há hierarquia entre as provas obtidas por meios lícitos, e a condenação exige juízo de certeza quanto à autoria — a mais leve suspeita impede a condenação (in dubio pro reo), aceitando-se juízos de certeza, jamais de mera probabilidade (A). B erra porque não há hierarquia de provas. C erra porque se exige certeza, não probabilidade. D erra porque as provas devem ser obtidas por meios lícitos.",
+    "referencia": "Cap. 5, Seção 1 — Conceito de prova",
+    "nivel": "medio"
+  },
+  {
+    "id": 2011,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 5 - A prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o corpo de delito e o exame de corpo de delito, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A confissão do acusado supre integralmente o exame de corpo de delito nas infrações penais que deixam vestígios, dispensando-se a realização da perícia.",
+      "B": "Quando a infração deixa vestígios, o exame de corpo de delito é indispensável (art. 158 do CPP) e não pode ser suprido pela confissão do acusado.",
+      "C": "O corpo de delito limita-se ao resultado ou ao produto da infração penal, sem abranger os instrumentos (corpus instrumentorum) utilizados pelo delinquente.",
+      "D": "A ausência do exame de corpo de delito nos crimes que deixam vestígios é mera irregularidade processual, sem repercussão relevante sobre a validade do processo penal instaurado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 3): quando a infração deixa vestígios, o exame de corpo de delito (direto ou indireto) é indispensável e não pode ser suprido pela confissão do acusado (art. 158 do CPP) — alternativa B. A erra porque a confissão não supre o exame. C erra porque o corpo de delito abrange os sinais da atividade do delinquente, o produto da infração e o corpus instrumentorum. D erra porque a ausência gera nulidade do processo (art. 564 do CPP).",
+    "referencia": "Cap. 5, Seção 3 — Corpo de delito",
     "nivel": "medio"
   }
 ]
