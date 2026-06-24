@@ -30316,5 +30316,39 @@
     "justificativa": "Conforme o material (Seção 4): a classificação genérica define uma estrutura molecular nuclear e aponta variações nela, permitindo controlar grupos e subgrupos de substâncias de forma abrangente e antecipar o controle de novas moléculas — abordagem eficiente porque as NSP costumam surgir de pequenas alterações em moléculas já controladas, para burlar o controle (D). A erra porque ela não lista nome por nome. B erra porque ela é justamente eficaz contra as NSP. C erra porque controla também as variações descritas, não só o núcleo.",
     "referencia": "PDF Química Forense, p. 44",
     "nivel": "dificil"
+  },
+  {
+    "id": 2095,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos métodos analíticos por poder de discriminação (SWGDRUG / IT 06/2006), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os testes de cor e os imunoensaios pertencem à categoria A, justamente a de maior poder de discriminação entre os métodos analíticos disponíveis.",
+      "B": "A espectroscopia UV/visível e os testes de precipitação integram a categoria B, dotada de poder de discriminação meramente intermediário entre os métodos.",
+      "C": "A cromatografia gasosa (CG) e a CLAE são classificadas na categoria A, que é a de maior poder discriminatório segundo o grupo SWGDRUG.",
+      "D": "A categoria A (maior poder) inclui infravermelho, espectrometria de massas, RMN, Raman e difração de raios X; os testes de cor estão na categoria C."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4.3, Tabela 4): a categoria A (maior poder de discriminação) reúne infravermelho, espectrometria de massas, RMN, espectroscopia Raman e difratometria de raios X; a B inclui CG, CLAE, eletroforese capilar, CCD e microcristalização; e a C (menor poder) reúne testes de cor/precipitação, UV/visível e imunoensaios (D). A erra porque testes de cor/imunoensaios são categoria C. B erra porque UV/visível e precipitação são C. C erra porque CG e CLAE são categoria B.",
+    "referencia": "PDF Química Forense, p. 53",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2096,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 7 - Testes Preliminares e Definitivos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os testes definitivos em drogas de uso abusivo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Material com resultado negativo no teste preliminar não pode, em hipótese alguma, ser encaminhado para a realização de um exame definitivo posterior no laboratório de química forense.",
+      "B": "O resultado dos exames definitivos das drogas é relatado no próprio laudo de constatação preliminar elaborado por ocasião do flagrante.",
+      "C": "A contraprova é totalmente dispensável, pois a emissão do laudo definitivo encerra a possibilidade de uma nova perícia no material apreendido.",
+      "D": "Os definitivos estabelecem a composição (laudo de perícia criminal); material com preliminar negativo pode ir a definitivo; deve-se preservar contraprova (padrões e brancos)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4.3): os exames definitivos estabelecem com mais precisão a composição do material, sendo o resultado relatado no laudo de perícia criminal federal; mesmo material com preliminar negativo pode ser encaminhado ao definitivo (suspeita de interferentes, matriz complexa, etc.); e deve-se manter contraprova, com uso de controles de padrões e brancos (D). A erra porque o negativo pode ir ao definitivo. B erra porque o definitivo vai no laudo de perícia, não no de constatação. C erra porque a contraprova deve ser preservada.",
+    "referencia": "PDF Química Forense, p. 53-55",
+    "nivel": "medio"
   }
 ]
