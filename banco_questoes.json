@@ -16599,23 +16599,6 @@
     "nivel": "dificil"
   },
   {
-    "id": 1237,
-    "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em apreensão policial, recolheu-se um fuzil dotado de chave seletora que permite ao atirador escolher entre tiro semiautomático, rajada de três tiros, rajada de cinco tiros e rajada contínua. Quanto à classificação por funcionamento, esse fuzil deve ser enquadrado como arma:",
-    "alternativas": {
-      "A": "semiautomática, pois um dos modos disponíveis no seletor de tiro é justamente o tiro intermitente.",
-      "B": "automática, pois entre os modos disponíveis figura o modo automático (rajada contínua), o que basta para essa classificação.",
-      "C": "mista quanto ao funcionamento, devendo ser enquadrada simultaneamente como semiautomática e automática para fins criminalísticos.",
-      "D": "de repetição, pois a presença de chave seletora indica que o sistema de alimentação demanda intervenção mecânica manual do atirador."
-    },
-    "resposta_correta": "B",
-    "justificativa": "Conforme p. 27, o material determina expressamente que armas cujo seletor inclua, entre os modos, o automático devem ser classificadas como automáticas (alternativa B). Não cabe enquadramento como semiautomática (A), nem categoria mista (C), tampouco como repetição, pois a presença de seletor não altera o sistema de alimentação (D).",
-    "referencia": "PDF, p. 27",
-    "nivel": "medio"
-  },
-  {
     "id": 1238,
     "disciplina": "PCEB - Balística Forense",
     "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
@@ -29551,5 +29534,39 @@
     "justificativa": "Conforme o material (Seção 2.1): a Lei 10.826/2003 dispõe sobre o registro, a posse, o porte e a comercialização de armas de fogo e munição, além dos crimes relacionados, mas não conceitua o que é arma de fogo — delegando essa delimitação (e a diferenciação para armas de pressão, réplicas e simulacros) aos seus regulamentos (C). A erra porque a lei não define arma de fogo. B erra porque a lei trata de porte e posse. D erra porque a definição não está na Constituição.",
     "referencia": "PDF, p. 12",
     "nivel": "medio"
+  },
+  {
+    "id": 2047,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação das armas de fogo pelo sistema de carregamento, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Nas de antecarga, o carregamento é feito pela boca do cano (hoje em desuso, restando armas artesanais); nas de retrocarga, insere-se o cartucho na culatra.",
+      "B": "Nas armas de retrocarga, tanto o propelente quanto o projétil são introduzidos pela boca do cano, sistema que prevalece nas armas de fogo modernas atuais.",
+      "C": "As armas de antecarga compreendem a quase totalidade das armas de fogo modernas, a exemplo dos revólveres, das pistolas e das espingardas de uso comum atual.",
+      "D": "A classificação das armas em antecarga e retrocarga refere-se diretamente ao tipo de raiamento existente na alma do cano da arma de fogo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 2.3.2): nas armas de antecarga, o carregamento do propelente e do projétil é feito pela boca do cano (sistema em desuso, com exemplos remanescentes em armas artesanais), e nas de retrocarga o cartucho é inserido em câmara na parte posterior do cano/culatra (quase totalidade das armas modernas) — alternativa A. B inverte (a introdução pela boca é da antecarga). C erra porque é a retrocarga que abrange as armas modernas. D erra porque o critério é o local de carregamento, não o raiamento.",
+    "referencia": "PDF, p. 21",
+    "nivel": "medio"
+  },
+  {
+    "id": 2048,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das armas de fogo quanto ao sistema de inflamação por percussão, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Na percussão intrínseca radial (rimfire), a cápsula de espoletamento fica embutida bem no centro da base do cartucho de munição que será disparado.",
+      "B": "Na percussão extrínseca, a espoleta encontra-se incorporada diretamente à própria estrutura do cartucho de munição da arma de retrocarga.",
+      "C": "Na percussão direta, o cão transfere a sua energia cinética para um pino percussor flutuante que se encontra afixado ao ferrolho ou à armação da arma de fogo examinada.",
+      "D": "Na central a cápsula fica no centro da base (permite recarga); na radial (.22, rimfire), a percussão se dá na borda; na direta, o próprio cão percute a espoleta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2.3.3): na percussão intrínseca CENTRAL a cápsula fica embutida no centro da base do cartucho (permite recarga); na RADIAL (anelar/rimfire, restrita ao .22) a percussão ocorre na borda; e na percussão DIRETA o próprio cão/martelo (com pino usinado) percute a espoleta (D). A erra porque a cápsula no centro é da central, não da radial. B descreve a percussão intrínseca, não a extrínseca (espoleta separada). C descreve a percussão indireta, não a direta.",
+    "referencia": "PDF, p. 23",
+    "nivel": "dificil"
   }
 ]
