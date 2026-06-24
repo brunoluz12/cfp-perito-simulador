@@ -5787,23 +5787,6 @@ const questoesDB = [
     "nivel": "medio"
   },
   {
-    "id": 596,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 7 - Número de Identificação Veicular (VIN)",
-    "tipo": "multipla_escolha",
-    "enunciado": "A Resolução Contran nº 968/2022 prevê, de forma expressa, uma identificação oculta contendo o número VIN ou, alternativamente, o VIS, a ser gravada em local escolhido a critério do fabricante. Sobre essa identificação oculta, considere as opções de localização admitidas pela referida Resolução:\n\nI. No monobloco.\nII. No chassi.\nIII. Na cabine.\nIV. Na carroceria, nos casos de ônibus e micro-ônibus.\nV. Exclusivamente no para-choque dianteiro e nos vidros laterais, vedada qualquer outra localização.\n\nEstão CORRETAS apenas:",
-    "alternativas": {
-      "A": "Apenas os itens III, IV e V estão corretos.",
-      "B": "Apenas os itens I, II e V estão corretos.",
-      "C": "Apenas os itens II, III e V estão corretos.",
-      "D": "Estão corretos os itens I, II, III e IV."
-    },
-    "resposta_correta": "D",
-    "justificativa": "Conforme o capítulo 7.3, a identificação oculta 'deve ser gravada em local escolhido a critério do fabricante, dentre opções delimitadas pela própria Resolução, podendo situar-se: no monobloco; no chassi; na cabine; ou na carroceria, nos casos de ônibus e micro-ônibus'. O item V é falso, pois para-choque e vidros laterais não constam entre as opções admitidas para a identificação oculta.",
-    "referencia": "Cap. 7, Seção 7.3, p. 30",
-    "nivel": "dificil"
-  },
-  {
     "id": 597,
     "disciplina": "PVAT - Módulo I (Identificação Veicular)",
     "conteudo": "Cap. 7 - Número de Identificação Veicular (VIN)",
@@ -30570,6 +30553,40 @@ const questoesDB = [
     "resposta_correta": "D",
     "justificativa": "Conforme o material (Seção 5): a clonagem reproduz indevidamente a placa de um veículo legítimo, criando dissociação intencional entre a identificação externa e a identificação obrigatória por caracteres gravados no chassi/monobloco; atinge terceiros de boa-fé (cujos veículos passam a ser vinculados a ilícitos) e sua detecção exige correlação entre elementos externos e estruturais e verificação dos elementos de segurança (D). A erra porque há efeito sobre terceiros de boa-fé. B erra porque a clonagem usa placas aparentemente regulares, sendo difícil detectá-la. C erra porque a clonagem cria dissociação (não coincidência) com o chassi.",
     "referencia": "Cap. 6, Seção 6.2, p. 25-26",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2111,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 7 - Número de Identificação Veicular (VIN)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do VIN segundo a ABNT NBR 6066:2022, é correto afirmar que:",
+    "alternativas": {
+      "A": "17 caracteres em 3 seções: WMI (fabricante/país), VDS (características) e VIS (individualiza; 10ª = ano, 11ª = planta); vedadas as letras I, O e Q.",
+      "B": "O VIN é composto de 17 caracteres divididos em duas seções, a WMI e a VDS, não existindo a seção final que se denomina VIS no padrão normativo brasileiro atual.",
+      "C": "A seção WMI (que vai da 1ª à 9ª posição do VIN) é a que descreve as características gerais do veículo, como o seu tipo e a sua carroceria.",
+      "D": "As letras I, O e Q são de uso obrigatório no VIN, justamente por facilitarem a leitura visual dos caracteres alfanuméricos gravados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 5.1): o VIN tem 17 caracteres em 3 seções — WMI (1ª-3ª: fabricante/montadora, área geográfica e país), VDS (4ª-9ª: características gerais) e VIS (10ª-17ª: individualiza cada veículo, com ano na 10ª posição e planta na 11ª); a norma veda as letras I, O e Q (A). B erra porque há três seções (incluindo a VIS). C erra porque o WMI são as 3 primeiras posições (não 1ª-9ª). D erra porque I, O e Q são vedadas, não obrigatórias.",
+    "referencia": "Cap. 7, Seção 7.4, p. 32",
+    "nivel": "medio"
+  },
+  {
+    "id": 2112,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 7 - Número de Identificação Veicular (VIN)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os parâmetros de gravação e a aplicação da ABNT NBR 6066:2022, é correto afirmar que:",
+    "alternativas": {
+      "A": "Altura mínima de 7 mm (gravação direta) ou 4 mm (plaqueta); profundidade mínima de 0,2 mm; exclui ciclomotores; divisores não constam na documentação.",
+      "B": "A norma técnica NBR 6066:2022 aplica-se inclusive aos ciclomotores, que devem seguir exatamente a mesma estrutura de VIN dos automóveis comuns.",
+      "C": "A altura mínima dos caracteres do VIN é de 4 mm quando ele é gravado diretamente no veículo e de 7 mm quando consta em plaqueta fixada.",
+      "D": "Os divisores físicos do VIN devem obrigatoriamente constar também na documentação do veículo, apresentados em linha única e contínua no documento oficial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 5.2): a altura mínima dos caracteres é de 7 mm quando gravados diretamente no veículo e de 4 mm quando em plaqueta; a profundidade mínima é de 0,2 mm; a norma exclui os ciclomotores (regulamentação específica); e os divisores físicos podem existir no veículo, mas não devem constar na documentação (onde o VIN vai em linha única) — alternativa A. B erra porque exclui ciclomotores. C inverte as alturas (7 mm direto, 4 mm plaqueta). D erra porque os divisores não constam na documentação.",
+    "referencia": "Cap. 7, Seção 7.4, p. 32-33",
     "nivel": "dificil"
   }
 ];
