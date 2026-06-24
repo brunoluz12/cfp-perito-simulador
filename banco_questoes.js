@@ -5379,40 +5379,6 @@ const questoesDB = [
     "nivel": "dificil"
   },
   {
-    "id": 559,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "No âmbito do Sistema Nacional de Criminalística, toda requisição de exame, ao ser registrada no SISCRIM, deve ter seu indicador de criticidade preenchido, conforme a Instrução de Serviço nº 08/2011-DITEC/PF. Considerando os critérios objetivos previstos no Cap. 12, item 12.3.5, assinale a alternativa que apresenta hipótese de criticidade ALTA.",
-    "alternativas": {
-      "A": "Requisições que contenham materiais suscetíveis a alterações em suas propriedades, pelo tempo ou pelas condições de armazenamento, capazes de prejudicar ou comprometer os exames a longo prazo.",
-      "B": "Requisições em que os exames possam ser considerados essenciais para efetuar prisões, fundamentar mandado de busca e apreensão ou iniciar operações.",
-      "C": "Requisições relativas a réu ou indiciado presos, aguardando o resultado de exame para a decisão quanto à manutenção da prisão.",
-      "D": "Requisições oriundas de unidades em fluxo de saneamento, com pendências cujos prazos estejam prestes a vencer e que aguardem plano de ação."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 82 (item 12.3.5), a criticidade ALTA abrange: (a) réu ou indiciado preso aguardando resultado para decisão de manutenção da prisão; (b) processos com prioridade legal/repercussão social; e (c) materiais sujeitos a degradação ou contaminação imediatas. A alternativa C descreve exatamente a hipótese (a). A (alterações a longo prazo) e B (exames essenciais a prisões/operações) descrevem criticidade MÉDIA. D (fluxo de saneamento) não integra os critérios de criticidade ALTA.",
-    "referencia": "Cap. 12, Seção 12.3.5, p. 82",
-    "nivel": "facil"
-  },
-  {
-    "id": 560,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Durante reunião de gestão, um chefe de unidade de criminalística explica que requisições de áreas distintas podem ser comparadas em termos de esforço pericial graças a um sistema parametrizado. Considerando o conceito de complexidade das requisições de exame (item 12.3.6) e o tratamento dado pelo SISCRIM, assinale a alternativa CORRETA.",
-    "alternativas": {
-      "A": "O indicador de complexidade é atribuído pelo perito após a conclusão do laudo, com base em sua percepção subjetiva, e expresso em horas-perito, não permitindo comparação entre áreas de exame distintas.",
-      "B": "A complexidade é calculada pelo SISCRIM exclusivamente em função da área de exame a que pertence a requisição, sem considerar a quantidade e o tipo de vestígios envolvidos, e seu valor é obrigatoriamente validado de forma individual, em cada requisição, por um perito ponto focal antes do arquivamento do expediente.",
-      "C": "O esforço unitário (1 ponto) da pontuação de complexidade equivale ao esforço de todo o processo do Exame de Extração Forense de Dados de um telefone celular, e a parametrização permite comparar trabalhos periciais entre áreas distintas ou entre casuísticas distintas de uma mesma área.",
-      "D": "Como a complexidade calculada pelo sistema pode divergir da complexidade percebida pelo perito, o SISCRIM exige justificativa formal sempre que a divergência ultrapassar 5%, mediante avaliação de conformidade obrigatória."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme p. 83 (item 12.3.6), o esforço unitário (1 ponto) equivale ao Exame de Extração Forense de Dados de um celular, e a parametrização permite comparar diferentes trabalhos periciais entre áreas e casuísticas distintas (alternativa C). O indicador é calculado pelo sistema a partir de informações de OE e parâmetros previamente definidos, e não atribuído subjetivamente (afasta A). B erra ao ignorar quantidade/tipo de vestígios e ao impor validação individual obrigatória. D erra ao criar limite de 5% inexistente.",
-    "referencia": "Cap. 12, Seção 12.3.6, p. 83",
-    "nivel": "medio"
-  },
-  {
     "id": 561,
     "disciplina": "Criminalística",
     "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
@@ -5428,23 +5394,6 @@ const questoesDB = [
     "justificativa": "Conforme pp. 85-86 (itens 12.5.1 e 12.6), a FTDE é calculada a partir do módulo Agenda do SISCRIM e a FTDE da unidade é a soma das FTDEs dos peritos lotados (alternativa A). O MED utiliza demanda, produção, estoque E FTDE para fornecer informações, e a redistribuição é combinada entre chefias - não automática por gatilho percentual (afasta B). C erra ao ignorar afastamentos/atividades extra-laudo e ao atribuir a FTDE ao RH. D erra ao excluir a FTDE do Painel BI do MED.",
     "referencia": "Cap. 12, p. 85-86",
     "nivel": "medio"
-  },
-  {
-    "id": 562,
-    "disciplina": "Criminalística",
-    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "O Indicador da Criminalística (ICRIM) consolida em nota única, de 0 a 10, o desempenho das unidades de criminalística em relação às metas definidas pela DITEC. Com base no item 12.8 e nas metas vigentes descritas no item 12.7, julgue os itens:\n\nI. O ICRIM é composto por três componentes com pesos distintos: C1 (20%) referente à meta de quantidade de pendências fora do prazo máximo, C2 (30%) referente à meta de produtividade e C3 (50%) referente à meta de tempo médio de atendimento.\nII. A meta de produtividade estabelece que as UCs devem produzir, em média, 250 pontos de complexidade para cada unidade de FTDE.\nIII. A meta de quantidade de pendências acima do prazo máximo determina que as UCs devem possuir, no máximo, 5% de suas pendências acima do prazo máximo de atendimento.\nIV. As metas definidas pela DITEC são desdobradas em metas individuais para cada perito criminal federal, vinculadas ao desempenho funcional e refletidas no ICRIM individual disponível no Painel BI do Perito.\n\nEstão CORRETOS apenas os itens:",
-    "alternativas": {
-      "A": "I, II e IV.",
-      "B": "II, III e IV.",
-      "C": "I, II e III.",
-      "D": "I, III e IV."
-    },
-    "resposta_correta": "C",
-    "justificativa": "Conforme pp. 86-88: os componentes do ICRIM (C1=20%, C2=30%, C3=50%) e sua vinculação às três metas estão corretos (item I); a meta de produtividade é de 250 pontos de complexidade por FTDE (item II); a meta de pendências fora do prazo máximo é de no máximo 5% (item III). O item IV está ERRADO: o texto afirma expressamente que NÃO existem metas individuais definidas pela DITEC (p. 87). Logo, estão corretos apenas I, II e III (alternativa C).",
-    "referencia": "Cap. 12, p. 86-88",
-    "nivel": "dificil"
   },
   {
     "id": 563,
@@ -29414,6 +29363,40 @@ const questoesDB = [
     "resposta_correta": "D",
     "justificativa": "Conforme o material (Seção 6): o vestígio que chega sem embalagem apropriada, sem lacre ou numeração só será recebido após abertura e conferência na presença e sob observação do responsável pela entrega, providenciando-se depois o acondicionamento adequado em recipiente lacrado e o registro no Siscrim (D). A erra porque não há recusa automática. B erra porque exige abertura, conferência e registro. C erra porque documentos contábeis/ambientais sem necessidade de conservação especial dispensam recipiente lacrado.",
     "referencia": "Cap. 11, Seção 11.4 — Embalagem irregular",
+    "nivel": "medio"
+  },
+  {
+    "id": 2030,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre 'Material' e 'Vestígio' no SISCRIM, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Material custodiado no SISCRIM é, em regra, sinônimo de vestígio, constituindo o foco principal do exame criminalístico que é realizado pela perícia oficial.",
+      "B": "Aeronaves, navios e imóveis periciados ficam sob a guarda física da perícia, sendo regularmente cadastrados como material sob custódia no sistema SISCRIM.",
+      "C": "Há material que não é vestígio (mídia para espelhamento, padrão para confronto) e há vestígio que não é material no SISCRIM (aeronaves, imóveis, locais de crime).",
+      "D": "Padrão para confronto e material de apoio ao exame são classificados como vestígios no sistema SISCRIM, por constituírem o foco principal do exame pericial criminal realizado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 6): nem todo material é vestígio (mídia para espelhamento, material de apoio e padrão para confronto são custodiados, mas não são o foco do exame), e nem todo vestígio é material no SISCRIM (aeronaves, navios, imóveis, veículos em pátios de terceiros e locais de crime são periciados, mas não ficam sob guarda física) — alternativa C. A e D erram porque padrão/apoio não são vestígios. B erra porque aeronaves e imóveis não ficam sob guarda física da perícia.",
+    "referencia": "Cap. 12, Seção 12.6 — Material e custódia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2031,
+    "disciplina": "Criminalística",
+    "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a gestão de demandas da Criminalística (MED e metas), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A DITEC/PF define metas individuais de produtividade e de tempo médio de atendimento para cada perito criminal federal lotado na unidade.",
+      "B": "O MED redistribui as pendências unicamente dentro da própria unidade de criminalística, sendo expressamente vedada a redistribuição nacional e compulsória entre as diferentes unidades.",
+      "C": "O MED redistribui pendências de forma compulsória e nacional entre as unidades; e a DITEC define metas para as Unidades de Criminalística, não para peritos individuais.",
+      "D": "A meta de pendências vencidas admite que a unidade de criminalística mantenha até 50% das suas pendências estourando o prazo máximo de atendimento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 7): o MED (Mecanismo de Equalização de Demandas) redistribui pendências de forma compulsória e nacional entre as unidades, apoiado em painéis de BI, e a DITEC define metas para as Unidades de Criminalística, não metas individuais (C). A erra porque não há metas individuais. B erra porque a redistribuição é nacional e compulsória. D erra porque a meta admite, no máximo, 5% de pendências vencidas, não 50%.",
+    "referencia": "Cap. 12, Seção 12.7 — Gestão de demandas (MED e metas)",
     "nivel": "medio"
   }
 ];
