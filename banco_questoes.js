@@ -29619,5 +29619,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 3.1): o revólver é a única arma em uso cujo cano não possui câmara de combustão (a deflagração ocorre no tambor), a única que NÃO está carregada quando há cartucho íntegro alinhado ao cano (pois o tambor gira antes do disparo) e a única sem culatra — a peça que segura os cartuchos no tambor é a placa de obturação (A). B erra porque as câmaras ficam no tambor, não no cano. C erra porque, com cartucho alinhado, o revólver ainda não está pronto (o tambor gira antes). D erra porque o revólver é de repetição não automática.",
     "referencia": "PDF, p. 33-34",
     "nivel": "dificil"
+  },
+  {
+    "id": 2053,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a visão geral das armas de fogo longas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As armas longas são, em regra, consideradas armas de defesa pessoal individual, projetadas especificamente para o tiro a curtíssima distância e à queima-roupa do alvo.",
+      "B": "Não são armas de defesa pessoal e exigem ambas as mãos e o ombro; suas categorias atuais são rifle, fuzil, carabina, mosquetão e espingarda (R-F-C-M-E).",
+      "C": "Entre as categorias de armas longas utilizadas na atualidade incluem-se também o revólver e a pistola semiautomática de grande porte e calibre.",
+      "D": "As armas longas destinam-se unicamente ao tiro esportivo recreativo, sendo vedado por lei o seu uso militar ou policial em operações."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (visão geral, mnemônico R-F-C-M-E): as armas longas têm comprimento acentuado, NÃO são consideradas armas de defesa pessoal e seu uso requer ambas as mãos e o ombro; as principais categorias atuais são rifle, fuzil, carabina, mosquetão e espingarda (B). A erra porque não são de defesa pessoal. C erra porque revólver e pistola são armas curtas. D erra porque também servem ao tiro militar/policial e à caça, não só ao esporte.",
+    "referencia": "PDF, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 2054,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o mosquetão, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "É arma longa, de porte e de repetição, com alma raiada e calibre de alta energia; o depósito fica na coronha e o ferrolho extrai os estojos e realimenta a arma.",
+      "B": "É uma arma curta de defesa pessoal, dotada de alma lisa e de tiro único, não possuindo carregador ou depósito interno de cartuchos para realimentação.",
+      "C": "No mosquetão, o depósito de cartuchos localiza-se externamente, acoplado logo à frente do guarda-mato, exatamente à semelhança do que ocorre nas pistolas modernas.",
+      "D": "O mosquetão dispensa o uso do ferrolho, pois a extração dos estojos e a realimentação da câmara ocorrem de forma automática pela energia dos gases."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 4.4): o mosquetão é arma de fogo longa, de porte e de repetição, com alma raiada (cano ~30\") e calibres de alta energia; possui carregador (depósito) no interior da coronha e ferrolho de alavanca, que extrai os estojos deflagrados no recuo e realimenta a arma ao ser empurrado para frente (A). B erra porque é arma longa, raiada e de repetição. C erra porque o depósito fica na coronha. D erra porque o ferrolho é justamente o mecanismo de extração/realimentação (acionado manualmente).",
+    "referencia": "PDF, p. 45",
+    "nivel": "dificil"
   }
 ];
