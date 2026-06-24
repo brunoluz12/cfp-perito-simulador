@@ -30843,5 +30843,39 @@
     "justificativa": "Conforme o material (17.6 e observações finais): o laudo pode concluir de quatro formas — sem evidências de adulteração (NEG), adulteração confirmada com identificação da real (OK-ID), adulteração confirmada sem identificação da real (OK-??) e inconclusão (INC); em veículos carregados, o descarregamento só é solicitado se for imprescindível para responder aos quesitos; e todas as transferências de custódia devem ser documentadas (D). A erra porque são quatro conclusões. B erra porque o descarregamento só ocorre se imprescindível. C erra porque a cadeia de custódia exige documentação.",
     "referencia": "Cap. 17, Seção 17.6, p. 76",
     "nivel": "dificil"
+  },
+  {
+    "id": 2133,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 1 - Apresentação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a apresentação do material, sobre o papel do Método de Monte Carlo (MMC) na reconstrução de acidentes, é correto afirmar que:",
+    "alternativas": {
+      "A": "O MMC fornece ao juízo um único valor pontual de velocidade, desprovido de uma medida objetiva da incerteza envolvida no cálculo.",
+      "B": "Reflete tendência internacional ao quantificar a incerteza: dá ao juízo não só um valor pontual, mas distribuição probabilística com intervalo de confiança.",
+      "C": "O MMC é uma técnica puramente determinística, que dispensa por completo a análise estatística da incerteza nas estimativas periciais de velocidade dos veículos.",
+      "D": "O Método de Monte Carlo é tratado na apostila como um tema marginal, exposto em um breve apêndice de referência ao final do material."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 5): a inclusão de um capítulo extenso sobre o MMC reflete a tendência internacional na perícia de acidentes — a necessidade de quantificar a incerteza das estimativas, fornecendo ao juízo não apenas um valor pontual, mas uma distribuição probabilística que expressa o intervalo de confiança das conclusões periciais (B). A e C erram porque o MMC é justamente probabilístico (não pontual/determinístico). D erra porque o MMC é o capítulo central da apostila, não um tema marginal.",
+    "referencia": "Cap. 1, p. 9",
+    "nivel": "medio"
+  },
+  {
+    "id": 2134,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 1 - Apresentação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a apresentação do material, sobre a origem da apostila e a natureza dos acidentes de trânsito, é correto afirmar que:",
+    "alternativas": {
+      "A": "A apostila é um material inteiramente original e inédito, sem relação com os conteúdos anteriormente preparados pelo INC da Polícia Federal.",
+      "B": "Os acidentes de trânsito decorrem só de falhas mecânicas dos veículos, sendo totalmente alheios ao comportamento humano dos condutores.",
+      "C": "Atualiza/amplia materiais do INC/PF usados na formação de PCF na ANP; os acidentes são intrínsecos ao comportamento humano e à estrutura de vias e veículos.",
+      "D": "O trânsito deixou de ser um problema complexo após o recente endurecimento da legislação de trânsito e o reforço da fiscalização viária nas grandes cidades brasileiras."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seções 1 e 2): a apostila representa uma atualização e ampliação substancial dos materiais didáticos originalmente desenvolvidos pelo Instituto Nacional de Criminalística (INC) da PF para os cursos de formação de Peritos Criminais Federais na Academia Nacional de Polícia (ANP); e a ocorrência de acidentes é intrínseca ao próprio comportamento humano e à estrutura física das vias e veículos (C). A erra porque a apostila deriva do material do INC. B erra porque os acidentes não decorrem só de falhas mecânicas. D erra porque o trânsito permanece um problema complexo apesar dos esforços.",
+    "referencia": "Cap. 1, p. 9",
+    "nivel": "facil"
   }
 ]
