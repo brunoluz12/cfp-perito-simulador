@@ -29755,5 +29755,39 @@
     "justificativa": "Conforme o material (Anexo III): a notação de raiamento '6D' significa seis raias dextrógiras (deformação normal impressa pelo cano); ETOG designa projétil ogival totalmente encamisado; e as deformações em forma de cogumelo (amassamento/reversão de bordos) são acidentais, advindas de impacto contra objeto resistente (D). A erra porque '6D' é raiamento, não calibre. B erra porque ETOG é totalmente encamisado, não chumbo nu. C erra porque o cogumelo é deformação acidental, não normal.",
     "referencia": "PDF, p. 89",
     "nivel": "medio"
+  },
+  {
+    "id": 2061,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 1 - Contextualização (Terrorismo)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o enfrentamento ao uso criminoso de explosivos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O enfrentamento ao uso criminoso de explosivos apoia-se unicamente na constante aquisição de equipamentos especiais de última geração tecnológica.",
+      "B": "O tripé do enfrentamento ao uso criminoso de explosivos dispensa a especialização do pessoal, bastando o conhecimento técnico e os equipamentos especiais.",
+      "C": "O enfrentamento apoia-se num tripé: pessoal especializado, conhecimento técnico atualizado e equipamentos especiais.",
+      "D": "O conhecimento do contexto histórico e da evolução do uso de explosivos como ferramenta criminosa é irrelevante para o trabalho do especialista da área."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 1): o combate a ações criminosas com explosivos requer um tripé — pessoal especializado, conhecimento técnico atualizado e uso de equipamentos especiais (C). A erra porque o tripé não se resume a equipamentos. B erra porque a especialização de pessoal é um dos pilares. D erra porque o material destaca que é interessante o especialista conhecer o contexto e a evolução dessa atividade.",
+    "referencia": "PDF, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 2062,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 1 - Contextualização (Terrorismo)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as frentes de atuação da Polícia Federal envolvendo explosivos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As atividades da PF que envolvem explosivos restringem-se às perícias realizadas em locais de explosão, não havendo atuação de natureza preventiva nesse campo.",
+      "B": "A segurança de dignitários e a segurança da aviação civil estão inteiramente fora do escopo de atuação da PF no enfrentamento ao uso de explosivos.",
+      "C": "O enfrentamento ao uso criminoso de explosivos dispensa o inter-relacionamento entre segmentos como a Inteligência Policial, a Defesa Institucional e a própria Criminalística da PF.",
+      "D": "A PF atua em cinco frentes: dignitários, aviação civil, ameaça de bomba, operações especiais e perícias em locais de explosão, integrando Inteligência, Defesa e Criminalística."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4.3): a PF aplica conhecimentos sobre explosivos em cinco frentes — segurança de dignitários, segurança da aviação civil (aeroportuária), locais sob ameaça de bomba em instalações públicas federais, operações policiais especiais e perícias em locais de explosão —, com inter-relacionamento entre Inteligência Policial, Defesa Institucional e Criminalística (D). A e B erram porque a atuação é ampla e inclui prevenção, dignitários e aviação. C erra porque a integração entre segmentos é necessária.",
+    "referencia": "PDF, p. 13",
+    "nivel": "dificil"
   }
 ]
