@@ -30690,5 +30690,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 3 e 4): na gravação a laser, a zona termicamente afetada tem profundidade de apenas 2 a 25 µm, o que torna a recuperação frequentemente impraticável; embora a lista inclua vários métodos (químico, eletrolítico, térmico, cavitação, magnéticos, polimento), o texto desenvolve especificamente o ataque químico, o tratamento térmico e o polimento — A-T-P (A). B erra porque a zona do laser é rasa. C erra porque os métodos exploram vestígios na estrutura (não adicionam material). D erra porque o foco é A-T-P, não cavitação/magnéticos.",
     "referencia": "Cap. 12, p. 58-59",
     "nivel": "medio"
+  },
+  {
+    "id": 2123,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os vetores de risco e os recursos disponíveis para a fraude de códigos identificadores, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os equipamentos para a regravação fraudulenta do VIN restringem-se à punção mecânica manual, sendo eles de difícil acesso no comércio eletrônico atual.",
+      "B": "As gravações fraudulentas realizadas em vidros exigem o uso de equipamentos industriais caros e de aquisição rigidamente controlada por lei federal.",
+      "C": "São equipamentos para regravar o VIN (P.M.S.E.C.), gravação em vidros (canetas/pasta corrosiva) e etiquetas (autocolantes/plaquetas), de fácil acesso.",
+      "D": "As etiquetas de identificação que foram adulteradas são facilmente distinguíveis das originais por meio de uma simples inspeção visual superficial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seções 2 a 4 e mnemônicos): os três vetores de risco são os equipamentos para regravar o VIN (P.M.S.E.C.: punção mecânica, micropercussão/dot peen, scribing, gravação eletrolítica e corrosão química com gabaritos), a gravação em vidros (canetas diamantadas/rotativas e pasta corrosiva com gabarito) e as etiquetas de identificação (autocolantes, plaquetas adesivas), todos amplamente acessíveis no comércio (C). A erra porque há vários equipamentos acessíveis. B erra porque os recursos para vidros são baratos e disponíveis. D erra porque as etiquetas adulteradas imitam as originais, dificultando a detecção visual.",
+    "referencia": "Cap. 13, p. 63-64",
+    "nivel": "medio"
+  },
+  {
+    "id": 2124,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 13 - Recursos utilizados na fraude de códigos identificadores",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o deslocamento metodológico essencial na perícia ('Presença ≠ Autenticidade'), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A mera presença de um número gravado, de uma etiqueta aplicada ou de caracteres nos vidros equivale, por si só, à plena autenticidade do veículo periciado pela equipe.",
+      "B": "A inspeção visual superficial é, em regra, suficiente para detectar as adulterações feitas com equipamentos contemporâneos e com o uso de gabaritos.",
+      "C": "Presença não equivale a autenticidade: verifica-se a compatibilidade do método de gravação com o padrão do fabricante, a época de produção e as normas vigentes.",
+      "D": "Adulterações feitas com o uso de gabaritos resultam invariavelmente em alinhamento irregular, sendo, por isso, facilmente detectáveis pelo perito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 5): o deslocamento metodológico essencial impõe que a mera presença de número/etiqueta/caracteres não equivale à autenticidade; a avaliação pericial deve verificar a compatibilidade entre o método de gravação observado e o padrão industrial original do fabricante, a época de produção do veículo e as normas técnicas vigentes à época (C). A erra porque presença não é autenticidade. B erra porque a inspeção visual superficial é insuficiente. D erra porque equipamentos atuais e gabaritos permitem adulterações visualmente regulares (alinhadas).",
+    "referencia": "Cap. 13, p. 64",
+    "nivel": "dificil"
   }
 ];
