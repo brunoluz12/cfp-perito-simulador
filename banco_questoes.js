@@ -30214,5 +30214,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seções 3, 5 e 6): em ordem crescente de teor de THC, têm-se a planta/vegetal bruto (0,5% a 4%), o haxixe (cerca de 10%), o skunk (9% a 27%) e o óleo de haxixe (20% a 80%), sendo este o mais concentrado (D). A erra porque o óleo de haxixe é o mais concentrado, não o menos. B erra porque o óleo de haxixe supera o haxixe. C erra porque a planta bruta tem o menor teor entre eles.",
     "referencia": "PDF Química Forense, p. 28",
     "nivel": "dificil"
+  },
+  {
+    "id": 2089,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os barbitúricos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os barbitúricos substituíram os benzodiazepínicos no tratamento médico atual, por serem considerados bem mais seguros e isentos de risco de dependência física.",
+      "B": "Os barbitúricos pertencem à Lista A3 (substância controlada, com Receita 'A'), sendo considerados de uso livre e seguro na atualidade médica.",
+      "C": "O uso atual dos barbitúricos restringe-se ao tratamento da ansiedade leve, sendo eles os ansiolíticos de primeira escolha na clínica médica.",
+      "D": "Depressores do SNC da Lista B1; pelos riscos e pelos benzodiazepínicos, restringiram-se ao fenobarbital (anticonvulsivante) e ao Tiopental (pré-anestésico)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 6): os barbitúricos são depressores do SNC/hipnosedativos da Lista B1; em razão dos elevados riscos (dependência e abstinência potencialmente fatal) e do surgimento dos benzodiazepínicos, seu uso ficou praticamente restrito ao fenobarbital (Gardenal, anticonvulsivante) e ao Tiopental (pré-anestésico) — alternativa D. A inverte (foram os benzodiazepínicos que os substituíram). B erra porque são Lista B1, não A3, e não são de uso livre. C erra porque não são ansiolíticos de primeira escolha.",
+    "referencia": "PDF Química Forense, p. 33-34",
+    "nivel": "medio"
+  },
+  {
+    "id": 2090,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 4 - Opioides e Sedativos/Hipnóticos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os sedativos/hipnóticos e seu enquadramento legal, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "São depressores do SNC (usos: sedativo, hipnótico, anticonvulsivante, pré-anestésico); na Lista B1 figuram tanto os barbitúricos quanto os benzodiazepínicos.",
+      "B": "Os tranquilizantes (benzodiazepínicos) são, na verdade, estimulantes do SNC, integrando a Lista A3 das substâncias anfetamínicas controladas.",
+      "C": "O flunitrazepam (Rohypnol) é um anticonvulsivante de uso estritamente hospitalar, ao passo que o clonazepam (Rivotril) é a conhecida droga 'boa noite, Cinderela'.",
+      "D": "Barbitúricos e benzodiazepínicos pertencem a listas distintas: os primeiros à Lista B1 e os segundos à Lista F2 de uso proscrito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 5 a 8): sedativos e hipnóticos são depressores do SNC (usados como sedativos, hipnóticos, anticonvulsivantes, pré-anestésicos, etc.), e tanto os barbitúricos quanto os benzodiazepínicos/tranquilizantes integram a Lista B1 das substâncias psicotrópicas (A). B erra porque os tranquilizantes são depressores, não estimulantes, e são B1. C inverte (o Rohypnol/flunitrazepam é a 'boa noite, Cinderela'; o Rivotril/clonazepam é anticonvulsivante). D erra porque ambos são da Lista B1.",
+    "referencia": "PDF Química Forense, p. 33-35",
+    "nivel": "dificil"
   }
 ];
