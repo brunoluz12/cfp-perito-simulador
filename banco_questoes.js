@@ -7436,23 +7436,6 @@ const questoesDB = [
     "nivel": "facil"
   },
   {
-    "id": 703,
-    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
-    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
-    "tipo": "multipla_escolha",
-    "enunciado": "Em fiscalização de rodovia, um caminhão baú foi apreendido. O perito identifica, na porção anterior do compartimento de carga, uma divisória em chapa metálica soldada à estrutura original, criando um espaço fechado não previsto pelo fabricante. Conforme a tipologia descrita no PVAT - Módulo I, essa intervenção caracteriza:",
-    "alternativas": {
-      "A": "Cavidade natural do veículo, comum em caminhões do tipo baú e, por isso, sem qualquer relevância pericial para a caracterização de ilícito.",
-      "B": "Fundo falso, espécie de compartimento adrede preparado, com chapas adicionadas e soldas na porção anterior do compartimento de carga.",
-      "C": "Reforço de suspensão, voltado a dissimular sobrecarga decorrente do transporte de ilícitos.",
-      "D": "Gerador de fumaça, dispositivo instalado para dificultar perseguições policiais."
-    },
-    "resposta_correta": "B",
-    "justificativa": "As págs. 67-68 descrevem 'compartimentos adrede preparados' como intervenções intencionais para criar espaços ocultos, identificados por 'cortes, soldas, chapas adicionadas, mecanismos de abertura dissimulados ou incongruências estruturais', e citam expressamente a Figura 77 como 'fundo falso na porção anterior do compartimento de carga de um caminhão baú'.",
-    "referencia": "Cap. 15, p. 67-68",
-    "nivel": "facil"
-  },
-  {
     "id": 704,
     "disciplina": "PVAT - Módulo I (Identificação Veicular)",
     "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
@@ -30757,6 +30740,40 @@ const questoesDB = [
     "resposta_correta": "B",
     "justificativa": "Conforme o material (Seções 4, 6 e 7): o estado de conservação é classificado obrigatoriamente em Bom, Regular, Ruim ou Sucata (B-R-R-S); sobre o valor de referência (Tabela FIPE ou similar) aplicam-se deságios proporcionais — bom 10-20%, regular/dano de pequena monta 20-50%, mau/média monta 50-70% e sucata/grande monta 70-95% (B). A erra porque as categorias são bom/regular/ruim/sucata (não 'ótimo'). C erra porque a sucata sofre deságio de 70-95% (não 10-20%). D erra porque a monta do sinistro influencia diretamente a valoração.",
     "referencia": "Cap. 14, p. 65-66",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2127,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as finalidades das intervenções ilícitas (O-F-C-D) e os tipos identificados (CARG-FUGA-COM), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As finalidades das intervenções estruturais ilícitas resumem-se basicamente à ocultação de drogas no porta-malas do veículo apreendido.",
+      "B": "O reforço de suspensão do veículo tem por finalidade primordial a comunicação clandestina entre os criminosos durante o transporte da carga.",
+      "C": "São O-F-C-D (Ocultação, Fuga, Comunicação, Dissimulação); os tipos são CARG (compartimentos/suspensão), FUGA (fumaça) e COM (rádio oculto).",
+      "D": "Os geradores de fumaça destinam-se, sobretudo, a dissimular a sobrecarga decorrente do transporte de mercadorias ilícitas pelo veículo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seções 2 e 8): as quatro finalidades ilícitas são Ocultação de ilícitos, Facilitação de Fuga, Comunicação clandestina e Dissimulação de atividades criminosas (O-F-C-D); e os tipos agrupam-se em CARGa oculta (compartimentos adrede e reforços de suspensão), FUGA (geradores de fumaça) e COMunicação clandestina (rádio oculto) — alternativa C. A reduz indevidamente as finalidades. B troca a função do reforço de suspensão (que dissimula sobrecarga). D atribui ao gerador de fumaça a função do reforço de suspensão.",
+    "referencia": "Cap. 15, p. 67-71",
+    "nivel": "medio"
+  },
+  {
+    "id": 2128,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 15 - Intervenções estruturais e funcionais voltadas à prática de ilícitos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os geradores de fumaça e o rádio oculto como intervenções funcionais, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os geradores de fumaça são equipamentos de comunicação clandestina que ficam dissimulados no painel e no console do habitáculo do veículo.",
+      "B": "O rádio oculto é o dispositivo que libera intenso material particulado com o objetivo de dificultar as perseguições policiais em rodovia.",
+      "C": "O gerador de fumaça libera particulado para dificultar perseguições (fuga); o rádio oculto é comunicação clandestina no painel/console/forrações.",
+      "D": "Tanto o gerador de fumaça quanto o rádio oculto integram-se de forma original aos sistemas elétricos instalados de fábrica no veículo automotor periciado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seções 6 e 7): o gerador de fumaça é adaptação que libera material particulado/fumaça intensa para reduzir a visibilidade e dificultar perseguições policiais (finalidade de fuga); o rádio oculto é equipamento de comunicação clandestina, dissimulado no painel, console, forrações ou compartimentos ocultos do habitáculo (C). A e B trocam as funções dos dois dispositivos. D erra porque ambos têm integração NÃO original aos sistemas do veículo, alheia à sua função normal.",
+    "referencia": "Cap. 15, p. 69-70",
     "nivel": "dificil"
   }
 ];
