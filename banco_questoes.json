@@ -30588,5 +30588,39 @@
     "justificativa": "Conforme o material (Seção 5.2): a altura mínima dos caracteres é de 7 mm quando gravados diretamente no veículo e de 4 mm quando em plaqueta; a profundidade mínima é de 0,2 mm; a norma exclui os ciclomotores (regulamentação específica); e os divisores físicos podem existir no veículo, mas não devem constar na documentação (onde o VIN vai em linha única) — alternativa A. B erra porque exclui ciclomotores. C inverte as alturas (7 mm direto, 4 mm plaqueta). D erra porque os divisores não constam na documentação.",
     "referencia": "Cap. 7, Seção 7.4, p. 32-33",
     "nivel": "dificil"
+  },
+  {
+    "id": 2113,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 8 - Vidros",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a codificação do ano nos vidros e o princípio temporal de interpretação pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O ano é um dígito final cíclico (ex.: '5' = 1995/2005/2015); pontos antes = 1º semestre, depois = 2º; data posterior à do veículo indica substituição.",
+      "B": "Pontos colocados antes do dígito do ano no vidro indicam o segundo semestre, e os colocados depois do dígito indicam o primeiro semestre de fabricação.",
+      "C": "Existe um padrão único e universal de codificação do ano nos vidros automotivos, idêntico entre os diversos fabricantes do mercado nacional.",
+      "D": "Um vidro com data de fabricação muito posterior à do veículo é algo tecnicamente esperado e que não indica substituição do componente."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 3 e 4): o ano do vidro é indicado por um dígito final cíclico (o '5' pode ser 1995, 2005 ou 2015); pontos antes do número indicam o 1º semestre e depois, o 2º; como o vidro é produzido pouco antes do veículo, uma data posterior à fabricação do veículo (ou defasagem excessiva) é forte indicativo de substituição (A). B inverte os semestres. C erra porque não há padrão único (cada fabricante define o seu). D erra porque data posterior indica substituição.",
+    "referencia": "Cap. 8, p. 36",
+    "nivel": "medio"
+  },
+  {
+    "id": 2114,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Cap. 8 - Vidros",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a adulteração da gravação em vidros e seus vestígios físicos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Em regra não se substitui o vidro (custo e anacronismo); adultera-se por lixamento, polimento e regravação, deixando distorção do reflexo, vista sob luz oblíqua.",
+      "B": "A forma mais comum de adulteração do vidro é a sua substituição integral, por ser uma alternativa muito barata e por não deixar vestígios objetivos para o perito criminal.",
+      "C": "O lixamento e o polimento da área gravada não deixam vestígio algum detectável na superfície do vidro que foi periciado pela equipe.",
+      "D": "Os vestígios da regravação dependem de análise química laboratorial do vidro, não bastando a inspeção visual sob iluminação oblíqua do componente."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 5 e 6): em regra os adulteradores não substituem o vidro (alto custo e o anacronismo entre as datas do vidro e do veículo seria detectável), preferindo lixar, polir e regravar o código; isso deixa vestígios físicos — alteração de planicidade/microtopografia que distorce imagens refletidas (ondulações), evidenciada por inspeção visual sob iluminação oblíqua (A). B erra porque a substituição integral é onerosa e detectável, não a mais comum. C erra porque há vestígios. D erra porque a inspeção visual qualificada (luz oblíqua) detecta os vestígios.",
+    "referencia": "Cap. 8, Seção 8.1, p. 36-38",
+    "nivel": "dificil"
   }
 ]
