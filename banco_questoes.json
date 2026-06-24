@@ -30282,5 +30282,39 @@
     "justificativa": "Conforme o material (Seção 8): LSD, psilocibina e DMT estão na Lista F2 (uso proscrito); éter etílico e clorofórmio, na Lista D2 (insumos químicos, controle da Polícia Federal); e o uso religioso da ayahuasca é regulamentado (Resoluções CONAD), mas a DMT em si permanece na Lista F2 (D). A erra porque LSD/psilocibina/DMT são F2, não A3. B erra porque éter e clorofórmio são D2 (insumos), não F2. C erra porque a DMT continua na F2 apesar do uso religioso da ayahuasca.",
     "referencia": "PDF Química Forense, p. 36-42",
     "nivel": "dificil"
+  },
+  {
+    "id": 2093,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os três grupos de NSP de destaque no Brasil (mnemônico CA-CA-FE), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os canabinoides sintéticos são, na verdade, estimulantes derivados da substância catinona, sendo encontrados sobretudo na forma de cristais sólidos e de pó branco fino.",
+      "B": "As feniletilaminas são agonistas dos receptores canabinoides, mimetizando diretamente os efeitos da planta Cannabis sativa (a maconha).",
+      "C": "As catinonas sintéticas possuem efeitos unicamente alucinógenos e são encontradas tão só em materiais vegetais e em misturas de ervas.",
+      "D": "Canabinoides sintéticos (agonistas canabinoides), catinonas sintéticas (estimulantes, mimetizam cocaína/MDMA) e feniletilaminas (alucinógenas/estimulantes, em selos)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2, CA-CA-FE): os três grupos de destaque são os canabinoides sintéticos (agonistas dos receptores canabinoides, com efeitos semelhantes à Cannabis), as catinonas sintéticas (derivadas da catinona, estimulantes, que mimetizam cocaína, anfetamina e MDMA) e as feniletilaminas (alucinógenas/estimulantes, encontradas principalmente em selos) — alternativa D. A descreve as catinonas, não os canabinoides. B descreve os canabinoides, não as feniletilaminas. C erra porque as catinonas são estimulantes, em cristais/pó/comprimidos.",
+    "referencia": "PDF Química Forense, p. 43-44",
+    "nivel": "medio"
+  },
+  {
+    "id": 2094,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "Cap. 6 - Novas Substâncias Psicoativas (NSP)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação genérica (estrutural) das substâncias controladas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A classificação genérica lista nominalmente cada nova substância psicoativa, uma a uma, à medida que ela vai surgindo no mercado ilícito de drogas.",
+      "B": "A classificação genérica mostra-se totalmente ineficaz contra as NSP, pois não consegue alcançar as moléculas obtidas por pequenas alterações estruturais.",
+      "C": "A classificação genérica controla unicamente a estrutura molecular nuclear, deixando inteiramente livres as suas diversas variações estruturais possíveis.",
+      "D": "Define uma estrutura molecular nuclear e suas variações, controlando grupos e subgrupos de uma vez e antecipando o controle de novas moléculas alteradas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4): a classificação genérica define uma estrutura molecular nuclear e aponta variações nela, permitindo controlar grupos e subgrupos de substâncias de forma abrangente e antecipar o controle de novas moléculas — abordagem eficiente porque as NSP costumam surgir de pequenas alterações em moléculas já controladas, para burlar o controle (D). A erra porque ela não lista nome por nome. B erra porque ela é justamente eficaz contra as NSP. C erra porque controla também as variações descritas, não só o núcleo.",
+    "referencia": "PDF Química Forense, p. 44",
+    "nivel": "dificil"
   }
 ]
