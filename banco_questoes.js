@@ -31047,5 +31047,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 6.4.3): o estado dos sistemas ativos de segurança pode ser causa do acidente (falha mecânica) ou atenuante das lesões; o tacógrafo/registrador de dados, em caminhões e ônibus, é lido para a reconstituição de velocidade e tempo (D). A erra porque o estado dos sistemas é relevante (pode ser causa ou atenuante). B erra porque airbags/cintos também atuam como atenuantes das lesões. C erra porque o tacógrafo auxilia a reconstituição.",
     "referencia": "Cap. 6, Seção 6.4.3, p. 45",
     "nivel": "medio"
+  },
+  {
+    "id": 2145,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre o Sítio de Percepção (SP) e o Sítio de Reação (SR), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O SP é subjetivo, não identificável por vestígios e calculado retroativamente (SP = SR − dpr); o SR aparece no início das marcas de frenagem, identificável no campo.",
+      "B": "O Sítio de Percepção (SP) é o local identificado diretamente no campo pelo início das marcas de frenagem deixadas pelo veículo na pista, no exato momento da reação do condutor.",
+      "C": "O Sítio de Reação (SR) é subjetivo e, por isso, não pode ser identificado por vestígios físicos deixados no local do acidente.",
+      "D": "Tanto o SP quanto o SR são calculados de forma retroativa, sem apoio em vestígios físicos do local do acidente de trânsito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seções 7.2 e 7.3): o Sítio de Percepção (SP) tem natureza subjetiva (processo mental), não pode ser identificado por vestígios físicos e é calculado retroativamente (SP = SR − dpr); já o Sítio de Reação (SR) materializa-se no início das marcas de frenagem (ou da manobra), podendo ser identificado diretamente no campo, sendo a âncora da reconstituição (A). B e C trocam as naturezas do SP e do SR. D erra porque o SR é identificável fisicamente.",
+    "referencia": "Cap. 7, Seções 7.2 e 7.3, p. 51-52",
+    "nivel": "medio"
+  },
+  {
+    "id": 2146,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o Sítio de Colisão (SC) e sua distinção do sítio de impacto no veículo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O Sítio de Colisão (SC) e o sítio de impacto no veículo são conceitos totalmente idênticos e plenamente intercambiáveis entre si.",
+      "B": "O sítio de impacto no veículo é uma área que se localiza diretamente sobre o pavimento da via pública, e não propriamente na carroceria do automóvel periciado.",
+      "C": "O SC é área no pavimento (fragmentos, mudança de direção das marcas, sulcagens); o sítio de impacto é a sede das avarias — confundi-los é erro grave.",
+      "D": "O Sítio de Colisão é determinado a partir de uma única evidência isolada, que é a concentração de fragmentos de vidro na pista."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 7.6): o Sítio de Colisão (SC) é uma área no pavimento, identificada pela convergência de múltiplas evidências (mudança brusca de direção das marcas, concentração de fragmentos, início de sulcagens, manchas de fluidos, yaw marks); o sítio de impacto no veículo é a sede das avarias na carroceria — e confundir esses conceitos é um erro pericial grave (C). A e B confundem/trocam os dois conceitos. D erra porque o SC é identificado pela convergência de várias evidências, não por uma única.",
+    "referencia": "Cap. 7, Seção 7.6, p. 53",
+    "nivel": "dificil"
   }
 ];
