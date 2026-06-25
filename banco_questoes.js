@@ -31829,5 +31829,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 19.2.7): o rigor mortis instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas; livores incompatíveis com a posição em que o corpo foi encontrado indicam remoção/manipulação posterior; e a regra de ouro determina que a estimativa do tempo de morte nunca se baseie em um único sinal cadavérico (D). A erra na cronologia do rigor. B erra porque a incompatibilidade (não a compatibilidade) indica remoção. C contraria a regra de ouro.",
     "referencia": "PDF LOC, p. 168-170",
     "nivel": "medio"
+  },
+  {
+    "id": 2191,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as cinco etapas do processo de Identificação de Vítimas de Desastres (DVI), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A primeira etapa do processo DVI é a reconciliação dos dados, que é seguida pela coleta ante mortem das informações.",
+      "B": "A etapa ante mortem (AM) precede, na ordem natural do processo de identificação, a própria etapa post mortem (PM) na sequência do DVI.",
+      "C": "As cinco etapas do DVI, na ordem, são: local, post mortem (PM), ante mortem (AM), reconciliação (confronto) e revisão de ações.",
+      "D": "O processo DVI dispensa por completo a etapa de reconciliação quando o desastre é do tipo fechado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Conceito e processo DVI): as cinco etapas, na ordem, são (1) local, (2) post mortem (PM), (3) ante mortem (AM), (4) reconciliação/confronto e (5) revisão de ações e preparação (C). A erra porque a 1ª etapa é a de local (não a reconciliação). B erra porque a PM precede a AM. D erra porque a reconciliação (confronto AM × PM) é etapa essencial em qualquer desastre.",
+    "referencia": "PDF LOC, p. 179",
+    "nivel": "medio"
+  },
+  {
+    "id": 2192,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 20 - Desastres de massa (DVI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a preservação dos corpos na etapa post mortem de um DVI, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Para preservar os corpos em um cenário de DVI, recomenda-se o uso de gelo comum em grande abundância depositado diretamente sobre cada corpo.",
+      "B": "Os cadáveres de desastres em massa representam um alto risco de epidemias, exigindo o seu rápido isolamento sanitário.",
+      "C": "A preservação dos corpos exige o congelamento imediato a -20 °C logo na chegada ao necrotério de campanha.",
+      "D": "Resfriamento a 4-6 °C (congelar só em armazenamento prolongado); gelo comum contraindicado; cadáveres sem risco significativo de epidemia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 20.3): a preservação recomenda resfriamento entre 4 °C e 6 °C (congelamento apenas em armazenamento prolongado); o gelo comum é contraindicado (danifica corpos e pertences); e há o mito derrubado de que cadáveres de desastres NÃO representam risco significativo de epidemias (os óbitos decorrem de traumas, não de doenças infectocontagiosas) — alternativa D. A erra porque o gelo comum é contraindicado. B erra porque não há risco significativo de epidemia. C erra porque, em regra, resfria-se a 4-6 °C (não se congela de imediato).",
+    "referencia": "PDF LOC, p. 183",
+    "nivel": "dificil"
   }
 ];
