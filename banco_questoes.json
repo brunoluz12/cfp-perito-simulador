@@ -31489,5 +31489,39 @@
     "justificativa": "Conforme o material (Seção 9.2): os arquivos de um registro fotográfico não devem ser descartados; recomenda-se que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens (arquivado no computador e/ou em rede), pois ele é útil em caso de laudo complementar e serve de salvaguarda do perito em caso de contestação (D). A e C erram porque os arquivos devem ser mantidos. B erra porque a utilidade vai além da suspeita de adulteração (também o laudo complementar).",
     "referencia": "PDF LOC, p. 76",
     "nivel": "medio"
+  },
+  {
+    "id": 2171,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das técnicas de captura da realidade (passivas × ativas), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As técnicas passivas de captura da realidade usam laser ou a luz própria do equipamento, não dependendo da luz externa do ambiente da cena de crime.",
+      "B": "A fotogrametria é uma técnica ativa que dispensa o uso de fotografias para gerar os seus modelos tridimensionais.",
+      "C": "As técnicas ativas de captura dependem necessariamente da luz natural ou artificial presente no ambiente da cena.",
+      "D": "As passivas usam fotografias e dependem de luz (360°, fotogrametria → ortofotos/3D); as ativas usam laser/luz própria e não dependem de luz externa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (classificação-mestra): as técnicas passivas usam fotografias e, portanto, dependem de luz natural ou artificial (ex.: passeios virtuais 360° e fotogrametria, que combina centenas de fotos para gerar ortofotos 2D e modelos 3D); as técnicas ativas usam laser ou luz própria emitida pelo equipamento, não dependendo de luz externa ('ativa traz a própria luz') — alternativa D. A e C trocam as definições (laser/luz própria são das ativas). B erra porque a fotogrametria é passiva e usa fotos.",
+    "referencia": "PDF LOC, p. 77-79",
+    "nivel": "medio"
+  },
+  {
+    "id": 2172,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 10 - Captura da realidade (documentação 3D)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o trade-off entre a luz estruturada e o escâner a laser (técnicas ativas), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A luz estruturada possui um maior alcance e é, por isso mesmo, a técnica que se indica para a documentação de grandes ambientes e de edificações inteiras.",
+      "B": "O escâner a laser é o que gera os modelos de maior resolução e mais detalhe do que os de luz estruturada.",
+      "C": "A luz estruturada é a que produz a chamada 'nuvem de pontos' e é mais rápida no trabalho do que o laser.",
+      "D": "A luz estruturada dá maior detalhe, mas pequeno alcance (crânio); o laser tem grande alcance e rapidez (nuvem de pontos), mas menor resolução."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (quadro comparativo): a luz estruturada projeta padrões de luz e oferece maior resolução/detalhe, mas tem pequeno alcance e é lenta (ideal para objetos pequenos, como um crânio); o escâner a laser (tempo de voo/lidar) tem grande alcance e alta velocidade (milhões de pontos/s, gerando a 'nuvem de pontos'), porém resolução inferior (ideal para grandes ambientes) — alternativa D. A, B e C trocam as características das duas técnicas.",
+    "referencia": "PDF LOC, p. 79-80",
+    "nivel": "dificil"
   }
 ]
