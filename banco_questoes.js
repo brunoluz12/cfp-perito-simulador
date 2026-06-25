@@ -31795,5 +31795,39 @@ const questoesDB = [
     "justificativa": "Conforme o material: ao chegar ao local, o perito não sabe quem é vítima, testemunha ou suspeito, devendo agir com imparcialidade e ponderação; uma versão de arrombamento apresentada por testemunhas deve ser confirmada pela ocorrência dos respectivos vestígios materiais; e, como alguns infratores forjam a cena, devem-se sempre considerar rotas alternativas de acesso e fuga (D). A erra porque a versão precisa ser confirmada pelos vestígios. B erra porque o perito não sabe de início os papéis. C erra porque a hipótese de cena forjada deve ser considerada (não descartada).",
     "referencia": "PDF LOC, p. 145",
     "nivel": "dificil"
+  },
+  {
+    "id": 2189,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os orifícios de entrada e de saída em lesões por projétil de arma de fogo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O orifício de saída do projétil é, via de regra, menor que o orifício de entrada e apresenta bordas invaginadas para dentro.",
+      "B": "A tatuagem (grânulos de pólvora incombusta) e o esfumaçamento por fuligem aparecem tipicamente ao redor do orifício de saída do projétil que foi disparado.",
+      "C": "A orla de contusão aparece no orifício de entrada unicamente quando o disparo é feito a curta distância da vítima.",
+      "D": "Entrada: menor, bordas invaginadas, orla de contusão invariavelmente presente; saída: maior, bordas evertidas, sem esfumaçamento/tatuagem."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 19.2.6.1): o orifício de entrada é em geral menor, com bordas invaginadas (de fora para dentro) e orla de contusão sempre presente (independe da distância); as zonas de chamuscamento, esfumaçamento e tatuagem aparecem na entrada conforme a distância do disparo. O orifício de saída é geralmente maior, com bordas evertidas (para fora) e NÃO apresenta zonas de queimadura, esfumaçamento, tatuagem nem enxugo (D). A inverte (saída é maior, bordas evertidas). B erra porque tatuagem/esfumaçamento são da entrada. C erra porque a orla de contusão está sempre presente.",
+    "referencia": "PDF LOC, p. 166-167",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2190,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a cronotanatognose e os fenômenos cadavéricos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O rigor mortis instala-se de forma imediata logo após a morte e desaparece por completo em cerca de seis horas.",
+      "B": "Os livores cadavéricos que sejam plenamente compatíveis com a posição final do corpo indicam que houve a remoção posterior do cadáver da cena.",
+      "C": "A determinação do tempo de morte deve basear-se em um único sinal cadavérico, aquele que se mostrar mais evidente.",
+      "D": "Rigor mortis: instala 2-3 h, máximo ~12 h, some 24-36 h; livores incompatíveis com a posição indicam remoção; não se usa um único sinal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 19.2.7): o rigor mortis instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas; livores incompatíveis com a posição em que o corpo foi encontrado indicam remoção/manipulação posterior; e a regra de ouro determina que a estimativa do tempo de morte nunca se baseie em um único sinal cadavérico (D). A erra na cronologia do rigor. B erra porque a incompatibilidade (não a compatibilidade) indica remoção. C contraria a regra de ouro.",
+    "referencia": "PDF LOC, p. 168-170",
+    "nivel": "medio"
   }
 ];
