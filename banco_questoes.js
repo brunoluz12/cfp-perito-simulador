@@ -31693,5 +31693,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 15.1.8): os vestígios secos preservam-se em temperatura ambiente (evitando luz, calor e umidade); o sangue de pessoa viva em tubo com EDTA vai ao refrigerador a ~4 °C (não se congela); e tecidos moles, fluidos líquidos, cabelos e pelos devem ser congelados a -20 °C (evitando descongelar/recongelar) — alternativa D. A erra porque o sangue vivo com EDTA é refrigerado (não congelado). B erra porque os secos ficam em temperatura ambiente. C erra porque tecidos moles/líquidos são congelados a -20 °C.",
     "referencia": "PDF LOC, p. 112",
     "nivel": "dificil"
+  },
+  {
+    "id": 2183,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta e o acondicionamento de armas de fogo e projéteis, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As armas de fogo devem ser transportadas municiadas e prontas, a fim de preservar a exata posição original dos seus cartuchos no tambor ou carregador.",
+      "B": "Os projéteis devem ser coletados com o uso de uma pinça metálica firme, a fim de evitar a sua contaminação.",
+      "C": "Os resíduos de materiais que ficam impregnados no projétil devem ser removidos por completo antes do seu acondicionamento.",
+      "D": "A arma vai desmuniciada (sem sulcar a alma do cano), com cartuchos na mesma caixa; o projétil vai em material macio (algodão), sem remover resíduos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 16.1): a arma deve ser transportada sempre desmuniciada, evitando-se sulcos/arranhões na 'alma' do cano, e acondicionada com seus cartuchos na mesma embalagem (cada arma separada); o projétil é manuseado com luvas/saco (não com pinça), acondicionado individualmente envolto em material macio (algodão), sem remover os resíduos impregnados (D). A erra porque a arma vai desmuniciada. B erra porque o projétil é a exceção ao uso de pinça. C erra porque os resíduos não devem ser removidos.",
+    "referencia": "PDF LOC, p. 130-131",
+    "nivel": "medio"
+  },
+  {
+    "id": 2184,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a técnica de fotografar marcas de pegadas e de pneus, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A melhor luz para se fotografar uma pegada é a luz forte do sol do meio-dia, que acaba iluminando o vestígio inteiro de forma bem uniforme.",
+      "B": "Deve-se utilizar invariavelmente o flash automático da câmera fotográfica para acentuar os relevos da pegada no solo arenoso.",
+      "C": "A fotografia da pegada deve ser feita em um ângulo bastante oblíquo em relação ao solo, para realçar a sua profundidade real.",
+      "D": "Luz natural em ângulo (manhã/tarde, não meio-dia); perpendicular; escala obrigatória; flash automático satura e é evitado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 16.2): fotografa-se com luz natural incidindo em ângulo (manhã ou final da tarde — ao meio-dia a luz satura e achata o vestígio), perpendicularmente à marca (foto em ângulo distorce as medidas), sem fazer sombra e com escala obrigatória (GPS e fotógrafo facultativos); o flash automático satura o vestígio e deve ser evitado (em locais escuros, flash a ~45° para acentuar relevos) — alternativa D. A e B erram (meio-dia/flash automático saturam). C erra porque a foto deve ser perpendicular, não oblíqua.",
+    "referencia": "PDF LOC, p. 132-133",
+    "nivel": "dificil"
   }
 ];
