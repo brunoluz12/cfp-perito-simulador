@@ -31761,5 +31761,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 17.3.3.1): quando viável, coletar o item inteiro é preferível, mesmo que os vestígios já sejam visíveis na superfície, pois reduz o risco de perda/contaminação na cena, preserva o contexto e amplia as possibilidades de exame — já que a coleta de microvestígios é, em regra, mais eficiente e controlada em laboratório (melhor iluminação, controle ambiental, equipamentos) — alternativa D. A e C contrariam a preferência pela coleta do item inteiro. B erra porque a coleta é mais controlada em laboratório (não na cena).",
     "referencia": "PDF LOC, p. 139",
     "nivel": "dificil"
+  },
+  {
+    "id": 2187,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as definições penais dos crimes contra o patrimônio, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O crime de furto (art. 155 do Código Penal) é a subtração de coisa alheia móvel cometida mediante grave ameaça ou violência direta contra a pessoa da vítima.",
+      "B": "O crime de roubo (art. 157 do CP) é a subtração de coisa móvel alheia sem o uso de violência ou de grave ameaça.",
+      "C": "O latrocínio é definido como a modalidade culposa do crime de furto qualificado pelo arrombamento de obstáculo.",
+      "D": "Furto (art. 155) subtrai sem violência/ameaça (não há furto culposo); roubo (art. 157) emprega violência/ameaça; o roubo com morte é o latrocínio."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Definições penais): o furto (art. 155) é a subtração de coisa alheia móvel sem violência nem grave ameaça, exigindo dolo (não há furto culposo); o roubo (art. 157) emprega grave ameaça ou violência à pessoa; e o roubo do qual resulta morte configura o latrocínio (pena 24 a 30 anos) — alternativa D. A descreve o roubo (não o furto). B descreve o furto (não o roubo). C erra porque o latrocínio é o roubo com resultado morte (não modalidade culposa de furto).",
+    "referencia": "PDF LOC, p. 145-147",
+    "nivel": "medio"
+  },
+  {
+    "id": 2188,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a postura do perito diante de um suposto local de crime contra o patrimônio, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A versão de arrombamento que é apresentada pelas testemunhas do fato dispensa por completo a sua confirmação pelos vestígios materiais existentes no local.",
+      "B": "Ao chegar ao local de crime, o perito já sabe com plena certeza quem é a vítima e quem é o suspeito do fato.",
+      "C": "O perito deve descartar de plano a hipótese de a cena de crime ter sido forjada para confundir a investigação policial.",
+      "D": "Atua-se com imparcialidade: a versão de arrombamento deve ser confirmada pelos vestígios; consideram-se cenas forjadas e rotas alternativas de fuga."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material: ao chegar ao local, o perito não sabe quem é vítima, testemunha ou suspeito, devendo agir com imparcialidade e ponderação; uma versão de arrombamento apresentada por testemunhas deve ser confirmada pela ocorrência dos respectivos vestígios materiais; e, como alguns infratores forjam a cena, devem-se sempre considerar rotas alternativas de acesso e fuga (D). A erra porque a versão precisa ser confirmada pelos vestígios. B erra porque o perito não sabe de início os papéis. C erra porque a hipótese de cena forjada deve ser considerada (não descartada).",
+    "referencia": "PDF LOC, p. 145",
+    "nivel": "dificil"
   }
 ];
