@@ -31557,5 +31557,39 @@
     "justificativa": "Conforme o material (limitações e conclusão): a resolução dos escâneres a laser ainda não é suficiente para os detalhes finos de uma cena de crime (exceção: luz estruturada), de modo que a tecnologia 3D NÃO substitui a fotografia, sendo imprescindível um bom registro fotográfico; além disso, objetos pretos e/ou brilhantes dificultam o escaneamento e exigem preparo da cena (sprays para torná-los opacos) — alternativa D. A e B erram porque a 3D não substitui a foto (resolução insuficiente). C erra porque pretos/brilhantes são difíceis (não fáceis).",
     "referencia": "PDF LOC, p. 83",
     "nivel": "dificil"
+  },
+  {
+    "id": 2175,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os órgãos que regulamentam o uso de drones no Brasil (mnemônico A-A-D), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A ANAC é o órgão responsável por realizar a homologação dos enlaces de rádio de cada drone que opera no país atualmente.",
+      "B": "O DECEA é o órgão que define as três classes de drones por peso, conforme estabelece a RBAC-E 94/2017.",
+      "C": "A ANATEL é o órgão que controla o espaço aéreo brasileiro por meio do sistema SARPAS de autorização.",
+      "D": "São A-A-D: ANATEL homologa o rádio; ANAC regula por peso (RBAC-E 94/2017); DECEA controla o espaço aéreo (SARPAS)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 12.2): a ANATEL homologa os drones por envolverem enlaces de rádio; a ANAC regula o uso do espaço aéreo, classificando os drones em três classes por peso (RBAC-E 94/2017); e o DECEA controla o espaço aéreo, exigindo o cadastro/autorização via SARPAS (A-A-D) — alternativa D. A atribui à ANAC a função da ANATEL. B atribui ao DECEA a função da ANAC. C atribui à ANATEL a função do DECEA.",
+    "referencia": "PDF LOC, p. 87-88",
+    "nivel": "medio"
+  },
+  {
+    "id": 2176,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 12 - Drones (RPA) na perícia de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a exigência do SARPAS (DECEA) e a exceção dos órgãos de segurança pública, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os voos de drones dos órgãos de segurança pública dependem invariavelmente de prévia autorização obtida no sistema SARPAS que é controlado pelo DECEA.",
+      "B": "A exceção do SARPAS para os órgãos de segurança pública abrange também os voos de treinamento realizados pela equipe.",
+      "C": "O voo civil de drone é, em geral, isento de comunicação prévia ao DECEA por meio do sistema SARPAS.",
+      "D": "Em regra o voo civil exige autorização via SARPAS; voos de segurança pública operacionais têm cadastro só informativo, sem depender de autorização."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 12.2): como regra, todo voo civil deve ser previamente comunicado e autorizado pelo DECEA via SARPAS; a exceção são os voos dos órgãos de segurança pública em atividades operacionais (não abrange treinamento), para os quais o cadastro no SARPAS é apenas informativo, não dependendo de autorização para serem executados (D). A erra porque há a exceção operacional. B erra porque a exceção não cobre treinamento. C erra porque o voo civil, em regra, depende do SARPAS.",
+    "referencia": "PDF LOC, p. 88",
+    "nivel": "dificil"
   }
 ]
