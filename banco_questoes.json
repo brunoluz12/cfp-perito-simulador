@@ -31455,5 +31455,39 @@
     "justificativa": "Conforme o material (Seção 8.2): a contextualização do vestígio usa uma sequência de no mínimo três imagens (ambiente → aproximando → detalhe/close); os marcadores numerados têm cor de destaque e régua integrada, mas como um marcador pode encobrir outro vestígio pequeno (gota de sangue, estojo), a regra é fotografar com e sem marcadores (D). A erra porque o marcador pode encobrir vestígio. B erra porque são no mínimo 3 imagens. C erra porque pegadas/pneus se fotografam em ângulo ortogonal (não oblíquo).",
     "referencia": "PDF LOC, p. 72-73",
     "nivel": "dificil"
+  },
+  {
+    "id": 2169,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a função hash SHA-256 e o registro de muitos arquivos no laudo, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O SHA-256 gera uma sequência de caracteres de tamanho bastante variável, que muda conforme o tamanho total do arquivo digital que foi periciado.",
+      "B": "Para muitos arquivos, é tido como obrigatório inserir no laudo uma tabela com o hash individual de cada um deles, sem exceção.",
+      "C": "O SHA-256 gera 64 caracteres hex (256 bits); para muitos arquivos, gera-se um .txt com a relação dos hashes, consignando só o hash do .txt.",
+      "D": "Alterar um único bit do arquivo digital não modifica em nada o seu hash, que permanece exatamente o mesmo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 9.1): o SHA-256 transforma qualquer arquivo em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits); quando há muitos arquivos, em vez de tabelar o hash de todos, pode-se reuni-los em uma pasta, gerar um .txt com a relação dos hashes e calcular/consignar no laudo apenas o hash desse .txt (C). A erra porque a sequência é fixa (não variável). B erra porque há a alternativa do .txt. D erra porque qualquer alteração de bit muda completamente o hash.",
+    "referencia": "PDF LOC, p. 75",
+    "nivel": "medio"
+  },
+  {
+    "id": 2170,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 9 - Arquivos digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o dossiê do registro fotográfico, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os arquivos do registro fotográfico do local devem ser inteiramente descartados logo após a entrega definitiva do laudo pericial.",
+      "B": "O dossiê fotográfico tem utilidade unicamente quando há suspeita concreta de adulteração das imagens periciais.",
+      "C": "É expressamente vedado ao perito criminal federal manter cópias dos arquivos de imagem após a conclusão do exame.",
+      "D": "Os arquivos não se descartam; cria-se um dossiê por exame, útil para laudo complementar e como salvaguarda em contestação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 9.2): os arquivos de um registro fotográfico não devem ser descartados; recomenda-se que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens (arquivado no computador e/ou em rede), pois ele é útil em caso de laudo complementar e serve de salvaguarda do perito em caso de contestação (D). A e C erram porque os arquivos devem ser mantidos. B erra porque a utilidade vai além da suspeita de adulteração (também o laudo complementar).",
+    "referencia": "PDF LOC, p. 76",
+    "nivel": "medio"
   }
 ]
