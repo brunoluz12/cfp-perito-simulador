@@ -31217,5 +31217,39 @@
     "justificativa": "Conforme o material (Seção 1.4): os quatro propósitos são Conhecer os fatos, obter Provas, assegurar a Cadeia de Custódia e atender à Necessidade Legal; a cadeia de custódia é a sucessão de eventos seguros iniciados na cena do crime, destinada a garantir a integridade e a idoneidade do vestígio até seu uso pela Justiça (D). A erra porque a cadeia inicia-se na cena (não no laboratório). B contraria a máxima ('é preciso provar com vestígios'). C erra porque a coleta exige exame de corpo de delito (necessidade legal).",
     "referencia": "PDF LOC, p. 16-18",
     "nivel": "dificil"
+  },
+  {
+    "id": 2155,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 2 - Metodologia do exame de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as sete perguntas que a investigação em local de crime busca responder (A→G), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As sete perguntas a responder no local restringem-se basicamente a 'o que ocorreu' e a 'quem foi o autor' do fato.",
+      "B": "Responder às sete perguntas do local baseia-se unicamente nos depoimentos que são prestados pelas testemunhas do fato.",
+      "C": "A motivação do crime (a pergunta 'por quê') não integra o rol das perguntas que devem ser respondidas no local de crime que está sob exame pericial.",
+      "D": "São sete (A→G): o que ocorreu, onde, quando, qual o meio, de que forma, quem foi o autor e por quê; respondê-las leva à autoria e à motivação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2): as sete perguntas (A→G) são 'o que ocorreu', 'onde', 'quando', 'qual o meio empregado', 'de que forma foi utilizado', 'quem foi o autor' e 'por quê'; para respondê-las reúnem-se informações de entrevistas e dos vestígios materiais, e respondendo a todas pode-se obter a autoria e até a motivação do crime (D). A reduz indevidamente o rol. B erra porque também se usam os vestígios materiais. C erra porque o 'por quê' (motivação) é a pergunta G.",
+    "referencia": "PDF LOC, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 2156,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 2 - Metodologia do exame de local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os papéis da equipe no local de crime (mnemônico PE-DE-AG-ES-PA), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O responsável legal pelo isolamento e pela preservação do local de crime é o Perito Criminal Federal que foi designado para o caso.",
+      "B": "A coleta dos vestígios de impressões digitais encontrados no local de crime é atribuição do Perito Criminal Federal, e não do papiloscopista policial federal designado.",
+      "C": "Cabe ao Delegado de Polícia Federal processar tecnicamente o local de crime e elaborar o respectivo laudo pericial de exame.",
+      "D": "PE-DE-AG-ES-PA: o Perito processa e faz o laudo; o Delegado é responsável legal pela preservação (art. 6º) e recebe o local; o Papiloscopista coleta impressões."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 2.2): o Perito Criminal processa o local (busca/coleta, foto/descrição/croqui, encaminhamento e laudo); o Delegado é o responsável legal pelo isolamento e preservação (art. 6º do CPP) e recebe o local ao final; o Agente atua no isolamento/entrevistas; o Escrivão supre o agente; e o Papiloscopista coleta as impressões digitais (PE-DE-AG-ES-PA) — alternativa D. A e C atribuem ao perito/delegado papéis trocados. B erra porque as impressões digitais são do papiloscopista.",
+    "referencia": "PDF LOC, p. 20-21",
+    "nivel": "dificil"
   }
 ]
