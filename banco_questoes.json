@@ -31523,5 +31523,39 @@
     "justificativa": "Conforme o material (quadro comparativo): a luz estruturada projeta padrões de luz e oferece maior resolução/detalhe, mas tem pequeno alcance e é lenta (ideal para objetos pequenos, como um crânio); o escâner a laser (tempo de voo/lidar) tem grande alcance e alta velocidade (milhões de pontos/s, gerando a 'nuvem de pontos'), porém resolução inferior (ideal para grandes ambientes) — alternativa D. A, B e C trocam as características das duas técnicas.",
     "referencia": "PDF LOC, p. 79-80",
     "nivel": "dificil"
+  },
+  {
+    "id": 2173,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de escâner a laser (estacionário × cinemático) e o processo de 'registro', conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O escâner do tipo estacionário funciona em movimento constante, sendo transportado na própria mão do operador ou por meio de plataformas robóticas automatizadas.",
+      "B": "O escâner do tipo cinemático é o que gera uma nuvem de pontos de qualidade nitidamente superior à do escâner estacionário.",
+      "C": "O 'registro' é o processo de colorir a nuvem de pontos monocromática com as cores reais que foram captadas em fotografias.",
+      "D": "O estacionário (tripé) dá mais qualidade mas é lento, exigindo 'registro'; o cinemático (mão/robô) é mais rápido e versátil, porém de qualidade inferior."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 11.1): o escâner estacionário fica preso a um tripé, oferece maior qualidade, é mais lento e, como o laser não atravessa objetos, exige várias capturas combinadas pelo 'registro' (alinhamento das nuvens); o cinemático funciona em movimento (mão/robô), sendo mais rápido e versátil, porém com nuvem de qualidade inferior (D). A descreve o cinemático (não o estacionário). B inverte (o estacionário é que tem mais qualidade). C define 'registro' incorretamente (é o alinhamento das nuvens, não a coloração).",
+    "referencia": "PDF LOC, p. 81-82",
+    "nivel": "medio"
+  },
+  {
+    "id": 2174,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 11 - Escâneres a laser",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as limitações da documentação 3D a laser, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A documentação 3D feita a laser substitui por completo a necessidade do registro fotográfico do local de crime.",
+      "B": "A resolução atual dos escâneres a laser já é considerada plenamente suficiente para captar os mais finos detalhes de uma cena de crime, ainda que complexa.",
+      "C": "Objetos pretos e brilhantes são os mais fáceis de escanear, dispensando a preparação prévia da superfície.",
+      "D": "A 3D não substitui a foto (resolução insuficiente para detalhes finos), sendo imprescindível o registro fotográfico; pretos/brilhantes exigem preparo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (limitações e conclusão): a resolução dos escâneres a laser ainda não é suficiente para os detalhes finos de uma cena de crime (exceção: luz estruturada), de modo que a tecnologia 3D NÃO substitui a fotografia, sendo imprescindível um bom registro fotográfico; além disso, objetos pretos e/ou brilhantes dificultam o escaneamento e exigem preparo da cena (sprays para torná-los opacos) — alternativa D. A e B erram porque a 3D não substitui a foto (resolução insuficiente). C erra porque pretos/brilhantes são difíceis (não fáceis).",
+    "referencia": "PDF LOC, p. 83",
+    "nivel": "dificil"
   }
 ]
