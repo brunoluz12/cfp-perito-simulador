@@ -31727,5 +31727,39 @@
     "justificativa": "Conforme o material (Seção 16.2): fotografa-se com luz natural incidindo em ângulo (manhã ou final da tarde — ao meio-dia a luz satura e achata o vestígio), perpendicularmente à marca (foto em ângulo distorce as medidas), sem fazer sombra e com escala obrigatória (GPS e fotógrafo facultativos); o flash automático satura o vestígio e deve ser evitado (em locais escuros, flash a ~45° para acentuar relevos) — alternativa D. A e B erram (meio-dia/flash automático saturam). C erra porque a foto deve ser perpendicular, não oblíqua.",
     "referencia": "PDF LOC, p. 132-133",
     "nivel": "dificil"
+  },
+  {
+    "id": 2185,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os métodos de coleta de microvestígios em itens ou áreas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A fita adesiva é considerada o método mais recomendado para a coleta de tintas e de materiais poliméricos diversos na cena de crime examinada.",
+      "B": "A varredura a vácuo é um método bastante seletivo, devendo ser aplicado logo antes das técnicas mais direcionadas.",
+      "C": "As pinças são as indicadas para coletar os microvestígios que são invisíveis e não detectáveis na cena de crime.",
+      "D": "Pinça = particulado visível; fita = superficiais (não tintas/polímeros); vácuo = menos seletivo, usado após as técnicas direcionadas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 17.3.3.2): a pinça coleta material particulado visível (fibras, fragmentos, cabelos); o levantamento com fita adesiva serve a microvestígios superficiais, mas NÃO é recomendado para tintas/polímeros (o adesivo pode alterá-los quimicamente); e a varredura a vácuo é menos seletiva (coleta muito material estranho), devendo ser usada após as técnicas mais direcionadas (D). A erra porque a fita não serve a tintas/polímeros. B erra porque o vácuo é pouco seletivo e usado depois. C erra porque as pinças coletam material visível.",
+    "referencia": "PDF LOC, p. 139-140",
+    "nivel": "medio"
+  },
+  {
+    "id": 2186,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estratégia de coletar o item inteiro na busca de microvestígios, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Quando os vestígios já são visíveis na superfície do item, deve-se invariavelmente coletá-los na própria cena, evitando levar o item inteiro ao laboratório.",
+      "B": "A coleta de microvestígios é, via de regra, mais eficiente e mais controlada na própria cena do crime do que no laboratório.",
+      "C": "A coleta do item inteiro deve ser evitada, por aumentar bastante o risco de perda dos microvestígios na cena.",
+      "D": "Quando viável, coletar o item inteiro é preferível (mesmo com vestígios visíveis): preserva o contexto e a coleta é mais eficiente no laboratório."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 17.3.3.1): quando viável, coletar o item inteiro é preferível, mesmo que os vestígios já sejam visíveis na superfície, pois reduz o risco de perda/contaminação na cena, preserva o contexto e amplia as possibilidades de exame — já que a coleta de microvestígios é, em regra, mais eficiente e controlada em laboratório (melhor iluminação, controle ambiental, equipamentos) — alternativa D. A e C contrariam a preferência pela coleta do item inteiro. B erra porque a coleta é mais controlada em laboratório (não na cena).",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
   }
 ]
