@@ -31625,5 +31625,39 @@ const questoesDB = [
     "justificativa": "Conforme o material: os vestígios podem ser de quatro naturezas — químicos (Cap. 14), biológicos (Cap. 15), físicos (Cap. 16) e microvestígios (Cap. 17); a adequada identificação, coleta e preservação garante sua integridade e possibilita análises confiáveis, contribuindo para a reconstrução da dinâmica dos fatos e o estabelecimento de vínculos entre pessoas, objetos e ambientes (D). A reduz indevidamente o rol. B erra porque microvestígios podem demandar técnicas específicas. C erra porque a coleta influencia diretamente a reconstrução da dinâmica.",
     "referencia": "PDF LOC, p. 91-92",
     "nivel": "medio"
+  },
+  {
+    "id": 2179,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as rotas de exposição aos agentes químicos (mnemônico I-PI-IN-IN), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A rota de injeção ocorre pela introdução de produtos tóxicos unicamente pelo sistema respiratório do profissional.",
+      "B": "A rota de inalação se dá por furadas de agulha e por cortes em vidros e metais contaminados no local.",
+      "C": "A exposição por ingestão de agentes é prevenida principalmente com o uso de máscaras respiratórias apropriadas e bem ajustadas ao rosto do perito.",
+      "D": "São quatro (I-PI-IN-IN): inalação (respiração), pele (absorção), ingestão (boca) e injeção (perfuração que leva o agente ao sangue)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 14.2): as quatro rotas de exposição são inalação (sistema respiratório), contato com a pele (absorção), ingestão (boca/aparelho digestivo) e injeção (furadas de agulha, cortes em vidros/metais, levando o agente direto à corrente sanguínea) — I-PI-IN-IN (D). A descreve a inalação (não a injeção). B descreve a injeção (não a inalação). C erra porque a ingestão se previne lavando as mãos e não levando alimentos à área (não com máscara).",
+    "referencia": "PDF LOC, p. 95",
+    "nivel": "medio"
+  },
+  {
+    "id": 2180,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o acondicionamento de amostras químicas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O ácido fluorídrico deve obrigatoriamente ser coletado em um frasco de vidro âmbar de boca estreita e com tampa externa rosqueada de plástico resistente.",
+      "B": "As substâncias sólidas devem ser acondicionadas, em regra, em frasco de vidro neutro de boca estreita e cor âmbar.",
+      "C": "Os solventes orgânicos diversos são acondicionados em frasco de plástico (polietileno) de boca larga e tampa dupla.",
+      "D": "Vidro âmbar boca estreita = solventes orgânicos e soluções neutras/ácidas; plástico boca larga = sólidos; o ácido fluorídrico NÃO vai em vidro (ataca-o)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 14.5): o frasco de vidro neutro âmbar de boca estreita é indicado para solventes orgânicos e soluções aquosas de pH neutro ou ácido; o frasco de plástico (polietileno) de boca larga, para sólidos; e o de plástico de boca estreita, para soluções básicas e para o ácido fluorídrico — que NÃO pode ser coletado em vidro, pois ataca o vidro (D). A erra porque o fluorídrico não vai em vidro. B atribui aos sólidos o invólucro dos solventes. C atribui aos solventes o invólucro dos sólidos.",
+    "referencia": "PDF LOC, p. 100-101",
+    "nivel": "dificil"
   }
 ];
