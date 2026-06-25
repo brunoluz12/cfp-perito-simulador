@@ -31387,5 +31387,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 6.3.2): a fotografia como instrumento serve de meio de prova ou de ilustração do laudo — esse é o escopo da Fotografia Forense; já a fotografia como objeto é o próprio material a ser examinado (uma foto impressa em exame documentoscópico ou um arquivo digital em exame de audiovisual), o que NÃO integra o escopo da Fotografia Forense (D). A e B trocam os conceitos (o material examinado é o objeto, não o instrumento). C erra porque a distinção existe e é relevante.",
     "referencia": "PDF LOC, p. 51-52",
     "nivel": "dificil"
+  },
+  {
+    "id": 2165,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os modos de operação da câmera (P-S-A-M), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "No modo M (Manual), a própria máquina calcula automaticamente tanto a abertura quanto o tempo de exposição da foto.",
+      "B": "No modo A (prioridade da abertura), o fotógrafo é quem escolhe a velocidade do obturador, cabendo à máquina calcular a abertura adequada do diafragma da lente.",
+      "C": "No modo P (multiprograma automático), o fotógrafo deve escolher manualmente a abertura do diafragma da objetiva.",
+      "D": "No S o fotógrafo escolhe a velocidade (controle do movimento) e a máquina calcula a abertura; no A escolhe a abertura e a máquina calcula o tempo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (modos P-S-A-M): no modo S (prioridade do obturador) o fotógrafo define o tempo/velocidade (para controlar o congelamento/borrão do movimento) e a máquina calcula a abertura; no modo A (prioridade da abertura) o fotógrafo define a abertura (para controlar a profundidade de campo) e a máquina calcula o tempo (D). A erra porque no M o fotógrafo escolhe ambos. B inverte (em A escolhe-se a abertura, não a velocidade). C erra porque no P a máquina define tudo.",
+    "referencia": "PDF LOC, p. 65-67",
+    "nivel": "medio"
+  },
+  {
+    "id": 2166,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 7 - Máquinas fotográficas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a temperatura de cor e o balanço de branco, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Uma luz de temperatura alta (cerca de 6000 K) é considerada uma luz quente, de tom bastante amarelado.",
+      "B": "O pôr do sol corresponde a uma luz fria, de temperatura de cor próxima aos 6500 K na escala.",
+      "C": "A temperatura de cor da luz ambiente é medida em lúmens, e não na escala de graus Kelvin que é usualmente adotada na fotografia forense.",
+      "D": "Mede-se em Kelvin: luz quente/amarelada tem temperatura baixa (≈ 2700-3000 K) e luz fria/azulada tem temperatura alta (≈ 5000-6500 K)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 7.5.4): a temperatura de cor da luz é medida em Kelvin (K); temperaturas baixas (≈ 2700-3000 K) correspondem à luz quente, mais amarelada (ex.: pôr do sol), e temperaturas altas (≈ 5000-6500 K) à luz fria, tendendo ao azul (ex.: lâmpadas LED) — alternativa D. A erra porque temperatura alta é luz fria/azulada. B erra porque o pôr do sol é luz quente/baixa. C erra porque a medida é em Kelvin (não em lúmens).",
+    "referencia": "PDF LOC, p. 65",
+    "nivel": "dificil"
   }
 ];
