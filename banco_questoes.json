@@ -31081,5 +31081,39 @@
     "justificativa": "Conforme o material (Seção 7.6): o Sítio de Colisão (SC) é uma área no pavimento, identificada pela convergência de múltiplas evidências (mudança brusca de direção das marcas, concentração de fragmentos, início de sulcagens, manchas de fluidos, yaw marks); o sítio de impacto no veículo é a sede das avarias na carroceria — e confundir esses conceitos é um erro pericial grave (C). A e B confundem/trocam os dois conceitos. D erra porque o SC é identificado pela convergência de várias evidências, não por uma única.",
     "referencia": "Cap. 7, Seção 7.6, p. 53",
     "nivel": "dificil"
+  },
+  {
+    "id": 2147,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as causas determinantes na saída de pista isolada e na invasão de faixa de sentido contrário, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A saída de pista isolada do veículo (sem colisão prévia) tem como sua causa determinante mais comum a execução de uma ultrapassagem indevida em curva fechada da rodovia.",
+      "B": "A invasão de faixa de sentido contrário é considerada a causa determinante mais típica das colisões traseiras entre os veículos em rodovias.",
+      "C": "A falha mecânica (como o estouro de pneu ou a falha na direção) não é considerada uma causa possível de saída de pista isolada.",
+      "D": "Saída de pista/capotamento isolados decorrem de velocidade em curva, falha mecânica, sonolência ou álcool; a invasão de faixa contrária causa colisões frontais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seções 8.5 e 8.6): a saída de pista, o capotamento e o tombamento isolados (sem colisão prévia) têm como causas mais frequentes o excesso/inadequação de velocidade (especialmente em curvas), a falha mecânica (estouro de pneu, falha na direção), a sonolência e a condução sob efeito de álcool/drogas; e a invasão de faixa de sentido contrário é causa determinante em colisões frontais (D). A descreve a invasão de faixa (não a saída de pista). B erra porque a invasão de faixa causa colisões frontais (não traseiras). C erra porque a falha mecânica é causa típica.",
+    "referencia": "Cap. 8, Seções 8.5 e 8.6, p. 57",
+    "nivel": "medio"
+  },
+  {
+    "id": 2148,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as causas concorrentes e seu tratamento no laudo pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Há concorrência quando ambos praticaram atos ilegais sem peso preponderante; o laudo afirma a concorrência ou declara não haver causa única, remetendo ao Judiciário.",
+      "B": "Na hipótese de uma causa concorrente, o perito criminal deverá obrigatoriamente eleger um único responsável principal pelo grave acidente de trânsito que ocorreu na via.",
+      "C": "A causa concorrente ocorre quando só um dos envolvidos no acidente praticou um ato ilegal relevante para o evento.",
+      "D": "Identificada uma causa concorrente, o perito determina, no laudo, o exato grau de culpa de cada um dos envolvidos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 8.8): há causa concorrente quando ambos os envolvidos praticaram atos ilegais que contribuíram para o acidente, sem que seja possível atribuir peso preponderante a um deles; no laudo, o perito deve afirmar expressamente a concorrência (descrevendo a conduta ilegal de cada um) ou declarar que não é possível oferecer causa determinante única, remetendo ao Poder Judiciário a ponderação das responsabilidades (A). B e D erram porque determinar responsável/grau de culpa é função do juiz. C erra porque a concorrência pressupõe atos ilegais de ambos.",
+    "referencia": "Cap. 8, Seção 8.8, p. 58",
+    "nivel": "medio"
   }
 ]
