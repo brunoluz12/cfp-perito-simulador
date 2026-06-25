@@ -31421,5 +31421,39 @@
     "justificativa": "Conforme o material (Seção 7.5.4): a temperatura de cor da luz é medida em Kelvin (K); temperaturas baixas (≈ 2700-3000 K) correspondem à luz quente, mais amarelada (ex.: pôr do sol), e temperaturas altas (≈ 5000-6500 K) à luz fria, tendendo ao azul (ex.: lâmpadas LED) — alternativa D. A erra porque temperatura alta é luz fria/azulada. B erra porque o pôr do sol é luz quente/baixa. C erra porque a medida é em Kelvin (não em lúmens).",
     "referencia": "PDF LOC, p. 65",
     "nivel": "dificil"
+  },
+  {
+    "id": 2167,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características técnicas desejáveis do registro fotográfico pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A tempestividade do registro fotográfico significa fotografar o vestígio só depois da sua coleta e embalagem final.",
+      "B": "A sequência lógica das fotos do local de crime deve partir invariavelmente do específico (close) para o amplo (o ambiente geral da cena).",
+      "C": "A tempestividade exige registro em tempo oportuno (cena transitória); as imagens são armazenadas com segurança, na cadeia de custódia.",
+      "D": "O respeito à cadeia de custódia das imagens é algo irrelevante, bastando ao perito a boa qualidade técnica da foto."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 8.1): a tempestividade significa registrar em tempo oportuno, pois a cena é transitória; e o respeito à cadeia de custódia impõe que as imagens sejam armazenadas com segurança, para garantir sua idoneidade (C). A erra porque a tempestividade exige fotografar o vestígio no local, antes da coleta. B erra porque a sequência vai do amplo para o específico (não o contrário). D erra porque a cadeia de custódia das imagens é essencial.",
+    "referencia": "PDF LOC, p. 71-72",
+    "nivel": "medio"
+  },
+  {
+    "id": 2168,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 8 - Fotografia na prática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a contextualização do vestígio e o uso de marcadores numerados, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os marcadores numerados não chegam a encobrir outros vestígios menores em hipótese alguma, o que dispensa de vez as fotos feitas pelo perito sem eles.",
+      "B": "A contextualização adequada do vestígio exige uma única imagem em close, voltada ao detalhe principal do objeto.",
+      "C": "As pegadas e as marcas de pneus devem ser fotografadas em um ângulo oblíquo em relação ao solo, a fim de realçar o seu relevo.",
+      "D": "Contextualização: 3 imagens (ambiente → aproximando → close); marcadores têm régua, mas podem encobrir vestígio pequeno → fotografa-se com e sem eles."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 8.2): a contextualização do vestígio usa uma sequência de no mínimo três imagens (ambiente → aproximando → detalhe/close); os marcadores numerados têm cor de destaque e régua integrada, mas como um marcador pode encobrir outro vestígio pequeno (gota de sangue, estojo), a regra é fotografar com e sem marcadores (D). A erra porque o marcador pode encobrir vestígio. B erra porque são no mínimo 3 imagens. C erra porque pegadas/pneus se fotografam em ângulo ortogonal (não oblíquo).",
+    "referencia": "PDF LOC, p. 72-73",
+    "nivel": "dificil"
   }
 ]
