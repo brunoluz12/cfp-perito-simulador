@@ -31149,5 +31149,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 9.5): as colisões frontais são as mais letais em termos de velocidade de fechamento, que é a soma das velocidades dos dois veículos e pode superar 200 km/h em rodovias de pista simples (C). A erra porque a velocidade de fechamento é a soma (não a diferença) das velocidades. B erra porque a análise deve identificar qual veículo invadiu a faixa contrária. D erra porque as frontais são as mais letais (alta velocidade de fechamento).",
     "referencia": "Cap. 9, Seção 9.5, p. 61",
     "nivel": "medio"
+  },
+  {
+    "id": 2151,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do laudo pericial recomendada pelo INC/PF (I-H-O-M-L-V-A-C-CF), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A primeira parte da estrutura do laudo recomendada pelo INC/PF é a Conclusão, que é seguida diretamente pelo Histórico da ocorrência.",
+      "B": "A parte de Análise e fundamentação técnica é totalmente dispensável no laudo pericial, bastando ao perito apresentar diretamente a sua conclusão final ao juízo.",
+      "C": "O croqui e as fotografias do local não integram a estrutura recomendada do laudo pericial, sendo peças meramente acessórias.",
+      "D": "A estrutura recomendada (9 partes, I-H-O-M-L-V-A-C-CF): Identificação, Histórico, Objetivo, Material, Local, Veículos, Análise, Conclusão, Croqui/Fotos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 10.1): a estrutura recomendada pelo INC/PF tem nove partes, na ordem Identificação, Histórico, Objetivo, Material examinado, Descrição do Local, Descrição dos Veículos, Análise e fundamentação técnica, Conclusão e Croqui/Fotografias (I-H-O-M-L-V-A-C-CF) — alternativa D. A erra porque a Identificação é a 1ª parte (a Conclusão é a 8ª). B erra porque a Análise é parte essencial. C erra porque croqui e fotos integram a estrutura.",
+    "referencia": "Cap. 10, Seção 10.1, p. 63",
+    "nivel": "medio"
+  },
+  {
+    "id": 2152,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os requisitos obrigatórios do croqui pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O croqui pericial do acidente de trânsito dispensa por completo a indicação do Norte geográfico e da escala que foi efetivamente utilizada no desenho.",
+      "B": "São obrigatórios no croqui a escala, o Norte geográfico, o ponto de referência permanente, a legenda, as medidas e o Sítio de Colisão identificado.",
+      "C": "O Sítio de Colisão (SC) não precisa ser identificado no croqui pericial, por ser um elemento irrelevante à análise.",
+      "D": "A legenda completa dos símbolos e as medidas dos vestígios são considerados elementos facultativos no croqui pericial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 10.2): são requisitos obrigatórios do croqui a escala indicada (ou 'sem escala'), o Norte geográfico, o(s) ponto(s) de referência permanente, a legenda completa, as medidas dos elementos significativos, as marcas pneumáticas medidas, as posições dos veículos e o Sítio de Colisão (SC) identificado (B). A e D erram porque escala, Norte, legenda e medidas são obrigatórios. C erra porque o SC deve ser identificado no croqui.",
+    "referencia": "Cap. 10, Seção 10.2, p. 63-64",
+    "nivel": "medio"
   }
 ];
