@@ -31863,5 +31863,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 20.3): a preservação recomenda resfriamento entre 4 °C e 6 °C (congelamento apenas em armazenamento prolongado); o gelo comum é contraindicado (danifica corpos e pertences); e há o mito derrubado de que cadáveres de desastres NÃO representam risco significativo de epidemias (os óbitos decorrem de traumas, não de doenças infectocontagiosas) — alternativa D. A erra porque o gelo comum é contraindicado. B erra porque não há risco significativo de epidemia. C erra porque, em regra, resfria-se a 4-6 °C (não se congela de imediato).",
     "referencia": "PDF LOC, p. 183",
     "nivel": "dificil"
+  },
+  {
+    "id": 2193,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do laudo pericial (art. 24 da Portaria DITEC/PF nº 1.192/2022), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O histórico do laudo pericial de local é um item considerado obrigatório, conforme o disposto no §1º do art. 24 da Portaria DITEC/PF.",
+      "B": "A conclusão é considerada um item meramente facultativo do laudo pericial de local de crime, nos exatos termos da norma vigente.",
+      "C": "Obrigatórios: preâmbulo, objeto, objetivo, exame, conclusão (Pré-Ob-Ob-Ex-Con); facultativos: resumo, sumário (>30 págs) e histórico.",
+      "D": "O sumário é considerado obrigatório em laudos periciais, independentemente do seu número total de páginas examinadas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (art. 24, §§1º e 2º): os itens obrigatórios são preâmbulo, objeto, objetivo, exame e conclusão (mnemônico Pré-Ob-Ob-Ex-Con); são facultativos o resumo, o sumário (exigível em laudo com mais de 30 páginas ou quando a complexidade exigir) e o histórico (C). A e D erram porque histórico e sumário são facultativos. B erra porque a conclusão é item obrigatório.",
+    "referencia": "PDF LOC, p. 189",
+    "nivel": "medio"
+  },
+  {
+    "id": 2194,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 21 - O laudo pericial de local de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os artigos do CPP relevantes para o laudo de local de crime, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O art. 169 do Código de Processo Penal trata da requisição da perícia feita pela autoridade policial diretamente ao diretor da repartição.",
+      "B": "O art. 173 do CPP é o que disciplina os crimes cometidos com rompimento de obstáculo ou com escalada.",
+      "C": "O prazo geral para a elaboração do laudo pericial é de 30 dias corridos, conforme o art. 160 do CPP.",
+      "D": "No CPP: art. 160 (laudo, prazo 10 dias); art. 171 (rompimento de obstáculo/escalada); art. 173 (incêndio); art. 175 (instrumentos)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Artigos do CPP para fixar): art. 160 (laudo e prazo de 10 dias); art. 171 (crimes com destruição/rompimento de obstáculo ou escalada); art. 173 (incêndio); art. 175 (instrumentos do crime). A alternativa D reúne corretamente essas correspondências. A erra porque o art. 169 trata de fotos/desenhos (a requisição ao diretor é o art. 178). B erra porque o rompimento de obstáculo/escalada é o art. 171 (não o 173). C erra porque o prazo do art. 160 é de 10 dias (não 30).",
+    "referencia": "PDF LOC, p. 188-194",
+    "nivel": "dificil"
   }
 ];
