@@ -31353,5 +31353,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 5.3): os quatro métodos são triangulação (distância a partir de 2 referenciais fixos), coordenadas cartesianas (plano X-Y; áreas fechadas, com 2 paredes perpendiculares), coordenadas polares (distância + ângulo a partir de 1 referencial; áreas abertas) e linha base (uma trena de referência e medida ortogonal do vestígio até ela) — TRI-CA-PO-LI (D). A descreve as cartesianas (não as polares). B descreve as polares (não a triangulação). C descreve as polares (não as cartesianas).",
     "referencia": "PDF LOC, p. 43-46",
     "nivel": "dificil"
+  },
+  {
+    "id": 2163,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 6 - Fotografia forense - conceitos básicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a fotografia forense como ilustração do laudo e como meio de prova, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A fotografia usada como meio de prova exige tão só o rigor documental, limitando-se a registrar as dimensões e a localização exata do objeto que está sendo periciado.",
+      "B": "A fotografia destinada à ilustração do laudo é a que demonstra as conclusões sobre a materialidade e a autoria do fato.",
+      "C": "Tanto a foto de ilustração quanto a de meio de prova exigem idêntico nível mínimo de rigor técnico do perito.",
+      "D": "A ilustração registra características do objeto (rigor documental); o meio de prova demonstra conclusões sobre materialidade/dinâmica/autoria (máximo rigor)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 6.3.1): a fotografia de ilustração do laudo apenas registra as características do objeto (dimensões, localização) com rigor documental; já a fotografia como meio de prova demonstra as conclusões sobre a materialidade, a dinâmica ou a autoria do fato, exigindo o máximo rigor técnico possível (D). A e B trocam as funções (rigor máximo é da prova; demonstrar conclusões é da prova). C erra porque o rigor exigido difere entre as duas funções.",
+    "referencia": "PDF LOC, p. 50-51",
+    "nivel": "medio"
+  },
+  {
+    "id": 2164,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 6 - Fotografia forense - conceitos básicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a fotografia como instrumento versus a fotografia como objeto de exame, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A fotografia tomada como objeto de exame (por exemplo, uma foto impressa que é periciada) integra plenamente o escopo de estudo da Fotografia Forense atual.",
+      "B": "A fotografia tida como instrumento é, na verdade, o próprio material a ser examinado, como um arquivo digital de uma câmera de segurança.",
+      "C": "Não existe, na prática pericial, distinção relevante entre a fotografia usada como instrumento e aquela que é o objeto do exame.",
+      "D": "Como instrumento, a foto é prova/ilustração (escopo forense); como objeto, é o próprio material examinado (documentoscopia, audiovisual) — fora do escopo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 6.3.2): a fotografia como instrumento serve de meio de prova ou de ilustração do laudo — esse é o escopo da Fotografia Forense; já a fotografia como objeto é o próprio material a ser examinado (uma foto impressa em exame documentoscópico ou um arquivo digital em exame de audiovisual), o que NÃO integra o escopo da Fotografia Forense (D). A e B trocam os conceitos (o material examinado é o objeto, não o instrumento). C erra porque a distinção existe e é relevante.",
+    "referencia": "PDF LOC, p. 51-52",
+    "nivel": "dificil"
   }
 ];
