@@ -31319,5 +31319,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 4.4): a coleta só ocorre depois que o vestígio foi posicionado, fotografado e (se possível) descrito; quando o vestígio está impregnado em um suporte que não pode ser totalmente encaminhado (ex.: mancha no carpete), recolhe-se o pedaço com a mancha e, como regra geral, também a amostra controle/padrão (uma porção do suporte isenta da mancha) — alternativa D. A erra porque a coleta não é imediata. B erra porque a amostra controle é justamente recomendada nesse caso. C erra porque parte dos vestígios fica a cargo do delegado para apreensão.",
     "referencia": "PDF LOC, p. 36-37",
     "nivel": "dificil"
+  },
+  {
+    "id": 2161,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as fotografias de cada vestígio (mnemônico CON-SEM-COM), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "De cada vestígio do local são tiradas só duas fotos: uma contextualizada e uma única foto em close já com a escala métrica devidamente posicionada.",
+      "B": "A foto em close sem escala é dispensável, bastando ao perito a foto contextualizada e a foto em close com escala.",
+      "C": "A escala métrica deve ser posicionada já na primeira foto, a contextualizada, de cada um dos vestígios do local.",
+      "D": "São três (CON-SEM-COM): contextualizada, close sem escala (evita que a escala oculte outro vestígio) e close com escala (permite medir)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 5.2): cada vestígio é fotografado em três tomadas — contextualizada, close sem escala e close com escala (CON-SEM-COM); a foto close SEM escala é recomendada porque já houve casos de a escala ser colocada sobre outro vestígio menor, só percebido depois na análise; a foto close COM escala permite estimar o tamanho (D). A e B erram porque são três fotos, sendo a 'close sem escala' importante. C erra porque a escala vai apenas na foto 'com escala' (não na contextualizada).",
+    "referencia": "PDF LOC, p. 41",
+    "nivel": "medio"
+  },
+  {
+    "id": 2162,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 5 - Documentação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os quatro métodos de posicionamento de vestígios no croqui (mnemônico TRI-CA-PO-LI), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As coordenadas polares são o método indicado para as áreas fechadas, medindo-se a posição em relação a duas paredes perpendiculares entre si no ambiente interno examinado.",
+      "B": "A triangulação posiciona o vestígio medindo a sua distância e o seu ângulo a partir de um único referencial fixo escolhido.",
+      "C": "As coordenadas cartesianas são indicadas para as áreas abertas, onde é difícil obter um segundo referencial fixo para a medição.",
+      "D": "São (TRI-CA-PO-LI): triangulação (2 referenciais), cartesianas (X-Y, áreas fechadas), polares (distância+ângulo, áreas abertas) e linha base (ortogonal a uma trena)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 5.3): os quatro métodos são triangulação (distância a partir de 2 referenciais fixos), coordenadas cartesianas (plano X-Y; áreas fechadas, com 2 paredes perpendiculares), coordenadas polares (distância + ângulo a partir de 1 referencial; áreas abertas) e linha base (uma trena de referência e medida ortogonal do vestígio até ela) — TRI-CA-PO-LI (D). A descreve as cartesianas (não as polares). B descreve as polares (não a triangulação). C descreve as polares (não as cartesianas).",
+    "referencia": "PDF LOC, p. 43-46",
+    "nivel": "dificil"
   }
 ];
