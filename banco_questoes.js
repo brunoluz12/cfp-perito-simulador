@@ -31013,5 +31013,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 5.3.1): a Velocidade de Danos (Vd) corresponde à energia cinética dissipada na deformação inelástica (permanente) das estruturas e é o componente mais difícil de calcular com precisão, pois depende das propriedades mecânicas dos materiais, das geometrias de impacto e da rigidez estrutural de cada veículo (B). A erra porque a mais difícil é Vd (não Va). C confunde Vr (residual) com a definição de Vd. D descreve a Va (arrastamento), obtida das marcas pré-colisão.",
     "referencia": "Cap. 5, Seção 5.3.1, p. 32",
     "nivel": "dificil"
+  },
+  {
+    "id": 2143,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os critérios de análise das avarias dos veículos (mnemônico L-T-I-O-C-R), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O critério da Intensidade da avaria é o que revela se o dano observado é proveniente do acidente em apuração ou se já era pré-existente no veículo periciado.",
+      "B": "O critério da Localização da avaria é o que indica diretamente a profundidade e a extensão do amassamento sofrido pela lataria do veículo.",
+      "C": "São Localização, Tipo, Intensidade, Orientação, Correspondência, Recentidade (L-T-I-O-C-R); a Recentidade distingue avaria do acidente da pré-existente.",
+      "D": "O critério da Correspondência da avaria é o que indica a natureza e a intensidade da força que foi aplicada sobre o veículo periciado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 6.4.2, Tabela 10 e mnemônico): os critérios de análise da avaria são Localização, Tipo, Intensidade, Orientação, Correspondência e Recentidade (L-T-I-O-C-R); a Recentidade (ferrugem, oxidação, poeira nas bordas) revela se a avaria é do acidente ou pré-existente (C). A confunde Intensidade com Recentidade. B confunde Localização com Intensidade (profundidade/extensão). D confunde Correspondência com Tipo (natureza/intensidade da força).",
+    "referencia": "Cap. 6, Seção 6.4.2, p. 44-45",
+    "nivel": "medio"
+  },
+  {
+    "id": 2144,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise dos sistemas de segurança e das condições mecânicas dos veículos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O estado dos sistemas de segurança do veículo é considerado totalmente irrelevante para a análise pericial das circunstâncias em que ocorreu o acidente de trânsito.",
+      "B": "Os airbags e os cintos de segurança interessam à perícia unicamente quando funcionam como a causa direta do acidente.",
+      "C": "O tacógrafo é um dispositivo dispensável na perícia de caminhões e de ônibus, por não auxiliar em nada a reconstituição.",
+      "D": "O estado dos sistemas pode ser causa do acidente (falha) ou atenuante das lesões; o tacógrafo (caminhões/ônibus) auxilia a reconstituir velocidade e tempo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 6.4.3): o estado dos sistemas ativos de segurança pode ser causa do acidente (falha mecânica) ou atenuante das lesões; o tacógrafo/registrador de dados, em caminhões e ônibus, é lido para a reconstituição de velocidade e tempo (D). A erra porque o estado dos sistemas é relevante (pode ser causa ou atenuante). B erra porque airbags/cintos também atuam como atenuantes das lesões. C erra porque o tacógrafo auxilia a reconstituição.",
+    "referencia": "Cap. 6, Seção 6.4.3, p. 45",
+    "nivel": "medio"
   }
 ];
