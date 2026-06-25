@@ -31659,5 +31659,39 @@
     "justificativa": "Conforme o material (Seção 14.5): o frasco de vidro neutro âmbar de boca estreita é indicado para solventes orgânicos e soluções aquosas de pH neutro ou ácido; o frasco de plástico (polietileno) de boca larga, para sólidos; e o de plástico de boca estreita, para soluções básicas e para o ácido fluorídrico — que NÃO pode ser coletado em vidro, pois ataca o vidro (D). A erra porque o fluorídrico não vai em vidro. B atribui aos sólidos o invólucro dos solventes. C atribui aos solventes o invólucro dos sólidos.",
     "referencia": "PDF LOC, p. 100-101",
     "nivel": "dificil"
+  },
+  {
+    "id": 2181,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a 'regra de ouro' do acondicionamento de vestígios biológicos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os vestígios que podem ser secos devem ser acondicionados em recipientes plásticos hermeticamente fechados e completamente vedados contra o ar.",
+      "B": "Os vestígios que não podem ser secos devem ir em envelopes de papelão que sejam permeáveis ao ar ambiente.",
+      "C": "Secáveis: embalagens opacas/permeáveis ao ar (papel); não secáveis: plástico para refrigeração/congelamento; materiais novos ou estéreis.",
+      "D": "Pode-se reutilizar embalagens já usadas, desde que estejam limpas, para acondicionar os vestígios biológicos coletados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 15.1.1, regra de ouro): os vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (envelopes, sacos e caixas de papel/papelão); os que não podem ser secos vão em recipientes plásticos que não vazem e permitam refrigeração ou congelamento; e os materiais devem ser sempre novos (papel) ou estéreis (demais) — alternativa C. A e B invertem (papel para secos, plástico para não-secos). D erra porque os materiais devem ser novos/estéreis, não reutilizados.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "medio"
+  },
+  {
+    "id": 2182,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a temperatura de preservação dos vestígios biológicos, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O sangue de uma pessoa viva colhido em tubo com anticoagulante EDTA deve ser congelado a -20 °C.",
+      "B": "Os vestígios secos (manchas secas, ossos e dentes recolhidos) devem ser congelados a -20 °C para a sua adequada preservação posterior no laboratório.",
+      "C": "Os tecidos moles e os fluidos líquidos devem ser mantidos só em temperatura ambiente, ao abrigo da luz.",
+      "D": "Secos: temperatura ambiente; sangue vivo com EDTA: geladeira ~4 °C (não congelar); tecidos moles/líquidos/pelos: freezer a -20 °C."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 15.1.8): os vestígios secos preservam-se em temperatura ambiente (evitando luz, calor e umidade); o sangue de pessoa viva em tubo com EDTA vai ao refrigerador a ~4 °C (não se congela); e tecidos moles, fluidos líquidos, cabelos e pelos devem ser congelados a -20 °C (evitando descongelar/recongelar) — alternativa D. A erra porque o sangue vivo com EDTA é refrigerado (não congelado). B erra porque os secos ficam em temperatura ambiente. C erra porque tecidos moles/líquidos são congelados a -20 °C.",
+    "referencia": "PDF LOC, p. 112",
+    "nivel": "dificil"
   }
 ]
