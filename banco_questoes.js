@@ -31115,5 +31115,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 8.8): há causa concorrente quando ambos os envolvidos praticaram atos ilegais que contribuíram para o acidente, sem que seja possível atribuir peso preponderante a um deles; no laudo, o perito deve afirmar expressamente a concorrência (descrevendo a conduta ilegal de cada um) ou declarar que não é possível oferecer causa determinante única, remetendo ao Poder Judiciário a ponderação das responsabilidades (A). B e D erram porque determinar responsável/grau de culpa é função do juiz. C erra porque a concorrência pressupõe atos ilegais de ambos.",
     "referencia": "Cap. 8, Seção 8.8, p. 58",
     "nivel": "medio"
+  },
+  {
+    "id": 2149,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a dinâmica e os vestígios em acidentes com motocicletas, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Em quedas de motocicleta, o condutor e a própria motocicleta deslizam invariavelmente juntos, mantendo uma única e idêntica trajetória final ao longo da pista.",
+      "B": "Condutor e motocicleta podem deslizar separadamente, com maiores distâncias pós-queda; a avaria no capacete indica o ponto de impacto e a direção da força.",
+      "C": "A avaria no capacete do condutor não apresenta utilidade pericial para a determinação do ponto de impacto da cabeça do motociclista.",
+      "D": "A motocicleta tombada produz marcas que são idênticas às marcas de frenagem convencional de um automóvel de passeio."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 9.3): em acidentes com motocicletas, o condutor e a motocicleta podem deslizar separadamente, resultando em maiores distâncias de deslizamento pós-queda; a avaria no capacete indica o ponto de impacto da cabeça e a direção da força, e a moto tombada produz marcas de arrasto distintas das marcas de frenagem convencional (B). A erra porque condutor e moto podem deslizar separadamente. C erra porque o capacete tem utilidade pericial. D erra porque as marcas de arrasto da moto tombada são distintas das de frenagem.",
+    "referencia": "Cap. 9, Seção 9.3, p. 60",
+    "nivel": "medio"
+  },
+  {
+    "id": 2150,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as colisões frontais em rodovias e a velocidade de fechamento, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A velocidade de fechamento de uma colisão frontal corresponde à simples diferença aritmética entre as velocidades dos dois veículos que se envolveram.",
+      "B": "Em colisões frontais, a análise pericial dispensa por completo a tarefa de identificar qual dos veículos invadiu a faixa contrária.",
+      "C": "A velocidade de fechamento é a soma das velocidades dos dois veículos, podendo superar 200 km/h em pista simples (as frontais são as mais letais).",
+      "D": "As colisões frontais são consideradas as colisões menos letais, pois a sua velocidade de fechamento costuma ser tipicamente bastante baixa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 9.5): as colisões frontais são as mais letais em termos de velocidade de fechamento, que é a soma das velocidades dos dois veículos e pode superar 200 km/h em rodovias de pista simples (C). A erra porque a velocidade de fechamento é a soma (não a diferença) das velocidades. B erra porque a análise deve identificar qual veículo invadiu a faixa contrária. D erra porque as frontais são as mais letais (alta velocidade de fechamento).",
+    "referencia": "Cap. 9, Seção 9.5, p. 61",
+    "nivel": "medio"
   }
 ];
