@@ -31591,5 +31591,39 @@
     "justificativa": "Conforme o material (Seção 12.2): como regra, todo voo civil deve ser previamente comunicado e autorizado pelo DECEA via SARPAS; a exceção são os voos dos órgãos de segurança pública em atividades operacionais (não abrange treinamento), para os quais o cadastro no SARPAS é apenas informativo, não dependendo de autorização para serem executados (D). A erra porque há a exceção operacional. B erra porque a exceção não cobre treinamento. C erra porque o voo civil, em regra, depende do SARPAS.",
     "referencia": "PDF LOC, p. 88",
     "nivel": "dificil"
+  },
+  {
+    "id": 2177,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito legal de vestígio e a distinção entre visível e latente, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Só os materiais visíveis a olho nu é que podem ser considerados vestígios, conforme a definição legal vigente no país.",
+      "B": "O vestígio latente é aquele que, embora plenamente visível, não guarda relação direta com a infração penal apurada.",
+      "C": "A definição legal de vestígio foi introduzida pela antiga Lei nº 11.690/2008, constando expressamente do art. 6º do Código de Processo Penal brasileiro.",
+      "D": "Pelo art. 158-A, §3º do CPP, vestígio é objeto/material bruto, visível ou latente, ligado à infração — o latente não é prontamente perceptível."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material: o art. 158-A, §3º do CPP (incluído pela Lei nº 13.964/2019) define vestígio como todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal; o vestígio latente é aquele que não é prontamente perceptível (D). A erra porque os latentes também são vestígios. B erra porque o latente é justamente o que não é prontamente perceptível. C erra na lei/artigo (é a Lei 13.964/2019, art. 158-A).",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 2178,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as naturezas dos vestígios e sua importância pericial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As únicas naturezas de vestígio que são reconhecidas no local de crime são os vestígios químicos e os biológicos.",
+      "B": "Os microvestígios são, em regra, visíveis a olho nu, dispensando o uso de técnicas específicas de detecção.",
+      "C": "A identificação e a coleta correta dos vestígios encontrados no local de crime não influenciam em nada a reconstrução da dinâmica dos fatos que estão sendo investigados.",
+      "D": "Há 4 naturezas (químicos, biológicos, físicos, microvestígios); a coleta adequada ajuda a reconstruir a dinâmica e a firmar vínculos pessoas/objetos/ambientes."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material: os vestígios podem ser de quatro naturezas — químicos (Cap. 14), biológicos (Cap. 15), físicos (Cap. 16) e microvestígios (Cap. 17); a adequada identificação, coleta e preservação garante sua integridade e possibilita análises confiáveis, contribuindo para a reconstrução da dinâmica dos fatos e o estabelecimento de vínculos entre pessoas, objetos e ambientes (D). A reduz indevidamente o rol. B erra porque microvestígios podem demandar técnicas específicas. C erra porque a coleta influencia diretamente a reconstrução da dinâmica.",
+    "referencia": "PDF LOC, p. 91-92",
+    "nivel": "medio"
   }
 ]
