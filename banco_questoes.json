@@ -30979,5 +30979,39 @@
     "justificativa": "Conforme o material (Seção 4.5): o art. 176 do CTB impõe ao condutor envolvido em acidente com vítima a obrigação de preservar o local e facilitar os trabalhos da polícia e da perícia; o descumprimento constitui infração gravíssima e pode prejudicar substancialmente a qualidade da prova pericial (B). A erra porque a remoção indevida descumpre o dever de preservação. C e D erram porque o descumprimento é infração gravíssima (não mera recomendação nem infração leve).",
     "referencia": "Cap. 4, Seção 4.5, p. 27",
     "nivel": "medio"
+  },
+  {
+    "id": 2141,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 5 - Física Aplicada aos Acidentes de Tráfego",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a energia cinética e sua relação com a velocidade na análise de acidentes, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A energia cinética de um veículo é diretamente proporcional à sua velocidade, de modo que dobrar a velocidade simplesmente dobra a energia envolvida.",
+      "B": "A energia cinética de um veículo independe por completo da sua velocidade, dependendo só da massa do veículo automotor envolvido.",
+      "C": "A energia cinética (Ec = ½mv²) é proporcional ao quadrado da velocidade; assim, ao dobrar a velocidade, a energia torna-se quatro vezes maior.",
+      "D": "A energia cinética é proporcional à raiz quadrada da velocidade, crescendo de forma muito lenta com o aumento da rapidez do veículo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme o material (Seção 5.2): a energia cinética é dada por Ec = ½mv², sendo proporcional ao quadrado da velocidade; logo, ao dobrar a velocidade, a energia cinética (e, consequentemente, o trabalho de frenagem necessário) torna-se quatro vezes maior (C). A erra porque a relação é quadrática (não linear). B erra porque a energia cinética depende da velocidade. D erra porque a energia cresce com o quadrado (não com a raiz quadrada) da velocidade.",
+    "referencia": "Cap. 5, Seção 5.2, p. 31",
+    "nivel": "medio"
+  },
+  {
+    "id": 2142,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 5 - Física Aplicada aos Acidentes de Tráfego",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Velocidade de Danos (Vd) no método das parcelas de velocidade, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A Velocidade de Arrastamento (Va) é considerada a parcela mais difícil de calcular com precisão na reconstituição do acidente.",
+      "B": "A Velocidade de Danos (Vd) é a mais difícil de calcular, pois depende das propriedades dos materiais, da geometria de impacto e da rigidez de cada veículo.",
+      "C": "A Velocidade Residual (Vr) corresponde à parcela de energia que é dissipada na deformação permanente das estruturas metálicas dos veículos envolvidos na colisão.",
+      "D": "A Velocidade de Danos (Vd) é obtida diretamente a partir das marcas de frenagem deixadas antes da colisão entre os veículos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o material (Seção 5.3.1): a Velocidade de Danos (Vd) corresponde à energia cinética dissipada na deformação inelástica (permanente) das estruturas e é o componente mais difícil de calcular com precisão, pois depende das propriedades mecânicas dos materiais, das geometrias de impacto e da rigidez estrutural de cada veículo (B). A erra porque a mais difícil é Vd (não Va). C confunde Vr (residual) com a definição de Vd. D descreve a Va (arrastamento), obtida das marcas pré-colisão.",
+    "referencia": "Cap. 5, Seção 5.3.1, p. 32",
+    "nivel": "dificil"
   }
 ]
