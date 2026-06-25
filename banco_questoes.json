@@ -31251,5 +31251,39 @@
     "justificativa": "Conforme o material (Seção 2.2): o Perito Criminal processa o local (busca/coleta, foto/descrição/croqui, encaminhamento e laudo); o Delegado é o responsável legal pelo isolamento e preservação (art. 6º do CPP) e recebe o local ao final; o Agente atua no isolamento/entrevistas; o Escrivão supre o agente; e o Papiloscopista coleta as impressões digitais (PE-DE-AG-ES-PA) — alternativa D. A e C atribuem ao perito/delegado papéis trocados. B erra porque as impressões digitais são do papiloscopista.",
     "referencia": "PDF LOC, p. 20-21",
     "nivel": "dificil"
+  },
+  {
+    "id": 2157,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os dois ambientes de um local de crime (imediato e mediato), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O ambiente mediato é o local onde efetivamente ocorreu o evento alvo da investigação, devendo concentrar os principais esforços de isolamento da cena de crime.",
+      "B": "O ambiente imediato corresponde tão só às adjacências distantes do local onde efetivamente se deu o fato investigado.",
+      "C": "Os esforços de isolamento devem se concentrar primordialmente no ambiente mediato, e não no ambiente imediato do local.",
+      "D": "O imediato é onde ocorreu o evento (maior concentração de vestígios, foco do isolamento); o mediato compreende as adjacências, com continuidade geográfica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 3): o ambiente imediato é onde ocorreu o evento alvo, presumindo-se a maior concentração de vestígios, devendo ali se concentrar os esforços de isolamento; o ambiente mediato compreende as adjacências (área intermediária), havendo continuidade geográfica com o imediato (D). A e C trocam imediato por mediato. B erra porque o imediato é o local do fato (não as adjacências distantes).",
+    "referencia": "PDF LOC, p. 23",
+    "nivel": "medio"
+  },
+  {
+    "id": 2158,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 3 - Isolamento e preservação do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as variáveis que interferem no isolamento do local (mnemônico I-P-V-P-A-O-D-I), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As variáveis que dificultam o isolamento do local de crime restringem-se basicamente à imprensa e aos populares que estejam presentes no entorno imediato.",
+      "B": "As intempéries climáticas não são consideradas variáveis relevantes para o adequado isolamento do local de crime examinado.",
+      "C": "Diante dos parentes da vítima, a regra geral adotada é a de permitir o seu livre acesso à área que foi delimitada pela equipe.",
+      "D": "As variáveis (I-P-V-P-A-O-D-I) são imprensa, populares, vítimas, parentes, autoridades, outras forças policiais, dificuldades estruturais e intempéries."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 3.3): as variáveis que interferem no isolamento são Imprensa, Populares, Vítimas, Parentes, Autoridades, Outras forças policiais, Dificuldades estruturais e Intempéries climáticas (I-P-V-P-A-O-D-I) — alternativa D. A reduz indevidamente o rol. B erra porque as intempéries são uma das variáveis (item 3.3.8). C erra porque os parentes, em regra, não podem penetrar na área delimitada (salvo necessidade urgente e comprovada).",
+    "referencia": "PDF LOC, p. 24-27",
+    "nivel": "dificil"
   }
 ]
