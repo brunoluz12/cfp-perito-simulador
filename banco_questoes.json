@@ -31183,5 +31183,39 @@
     "justificativa": "Conforme o material (Seção 10.2): são requisitos obrigatórios do croqui a escala indicada (ou 'sem escala'), o Norte geográfico, o(s) ponto(s) de referência permanente, a legenda completa, as medidas dos elementos significativos, as marcas pneumáticas medidas, as posições dos veículos e o Sítio de Colisão (SC) identificado (B). A e D erram porque escala, Norte, legenda e medidas são obrigatórios. C erra porque o SC deve ser identificado no croqui.",
     "referencia": "Cap. 10, Seção 10.2, p. 63-64",
     "nivel": "medio"
+  },
+  {
+    "id": 2153,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos locais de interesse da polícia (mnemônico A-C-P-R), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O 'local onde aconteceu o fato' é aquele que possui poucos vestígios materiais e que raramente chega a ser processado pela equipe de Criminalística designada para a região.",
+      "B": "O 'local planejado' do crime é aquele em que se constata diretamente a materialidade do delito, como a obra que foi executada.",
+      "C": "O 'local relacionado ao fato' é o local de crime típico, sendo o objeto central de estudo da presente disciplina pericial.",
+      "D": "São (A-C-P-R): onde Aconteceu o fato (típico), o das Consequências (materialidade), o Planejado (autores/modus operandi) e o Relacionado (informações adicionais)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 1.3): os quatro locais de interesse são o local onde Aconteceu o fato (local típico, com grande quantidade de vestígios), o que sofreu as Consequências do crime (constatação da materialidade), o local onde foi Planejado (autores e modus operandi) e o Relacionado ao fato (informações adicionais) — A-C-P-R (D). A erra porque o local típico tem grande quantidade de vestígios. B descreve o local das consequências (não o planejado). C descreve o local típico (não o relacionado).",
+    "referencia": "PDF LOC, p. 15-16",
+    "nivel": "medio"
+  },
+  {
+    "id": 2154,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 1 - Introdução aos locais de crime",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os propósitos da investigação em locais de crime e a cadeia de custódia, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A cadeia de custódia tem o seu início no laboratório pericial, logo após a chegada das amostras que foram coletadas.",
+      "B": "Para a Criminalística, basta ao perito saber o que de fato ocorreu, sendo dispensável provar isso por meio dos vestígios materiais que foram coletados na cena.",
+      "C": "A coleta de vestígios feita por policiais não peritos é a forma legalmente mais adequada de se processar um local de crime.",
+      "D": "São quatro propósitos (Conhecer, Provar, Custódia, Lei); a cadeia de custódia inicia-se na cena e garante a idoneidade do vestígio até o uso pela Justiça."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 1.4): os quatro propósitos são Conhecer os fatos, obter Provas, assegurar a Cadeia de Custódia e atender à Necessidade Legal; a cadeia de custódia é a sucessão de eventos seguros iniciados na cena do crime, destinada a garantir a integridade e a idoneidade do vestígio até seu uso pela Justiça (D). A erra porque a cadeia inicia-se na cena (não no laboratório). B contraria a máxima ('é preciso provar com vestígios'). C erra porque a coleta exige exame de corpo de delito (necessidade legal).",
+    "referencia": "PDF LOC, p. 16-18",
+    "nivel": "dificil"
   }
 ]
