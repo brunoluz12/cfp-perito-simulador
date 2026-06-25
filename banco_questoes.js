@@ -31285,5 +31285,39 @@ const questoesDB = [
     "justificativa": "Conforme o material (Seção 3.3): as variáveis que interferem no isolamento são Imprensa, Populares, Vítimas, Parentes, Autoridades, Outras forças policiais, Dificuldades estruturais e Intempéries climáticas (I-P-V-P-A-O-D-I) — alternativa D. A reduz indevidamente o rol. B erra porque as intempéries são uma das variáveis (item 3.3.8). C erra porque os parentes, em regra, não podem penetrar na área delimitada (salvo necessidade urgente e comprovada).",
     "referencia": "PDF LOC, p. 24-27",
     "nivel": "dificil"
+  },
+  {
+    "id": 2159,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os padrões de busca de vestígios utilizados no processamento do local, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A espiral serve a área pequena/poucas pessoas (periferia ao centro); a linha, a área extensa/muitas pessoas (a dois braços, parando ao grito de 'alto').",
+      "B": "A busca em espiral é a que se indica para as áreas mais extensas, que contam com um grande número de profissionais disponíveis na equipe pericial designada.",
+      "C": "A busca em linha cruzada é menos completa do que a busca em linha simples, por examinar a área uma só vez ao longo do trabalho.",
+      "D": "A busca por quadrantes consiste em percorrer a cena por inteiro em círculos concêntricos, da periferia até o ponto central da área."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o material (Seção 4.3): a busca em espiral é indicada para área pequena e com poucas pessoas, iniciando na periferia e contornando até o ponto central; a busca em linha é para área extensa e com muitas pessoas, com os profissionais a dois braços de distância, parando a linha ao grito de 'alto' quando se acha um vestígio (A). B inverte (espiral é para área pequena). C erra porque a linha cruzada repete a busca perpendicular, sendo MAIS completa. D descreve a espiral (não o quadrante, que divide a cena em A/B/C/D).",
+    "referencia": "PDF LOC, p. 34-35",
+    "nivel": "medio"
+  },
+  {
+    "id": 2160,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 4 - Etapas de processamento do local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta de vestígios e a amostra controle, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O vestígio deve ser coletado imediatamente ao ser localizado pela equipe, antes mesmo de ser fotografado ou posicionado no croqui.",
+      "B": "A amostra controle é totalmente desnecessária quando o vestígio está impregnado em um suporte físico que não pode ser encaminhado ao laboratório de análise.",
+      "C": "A totalidade dos vestígios do local de crime é coletada unicamente pelo perito criminal federal responsável.",
+      "D": "Coleta-se após posicionar/fotografar/descrever; vestígio impregnado em suporte não removível (carpete) → a regra é coletar também a amostra controle."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o material (Seção 4.4): a coleta só ocorre depois que o vestígio foi posicionado, fotografado e (se possível) descrito; quando o vestígio está impregnado em um suporte que não pode ser totalmente encaminhado (ex.: mancha no carpete), recolhe-se o pedaço com a mancha e, como regra geral, também a amostra controle/padrão (uma porção do suporte isenta da mancha) — alternativa D. A erra porque a coleta não é imediata. B erra porque a amostra controle é justamente recomendada nesse caso. C erra porque parte dos vestígios fica a cargo do delegado para apreensão.",
+    "referencia": "PDF LOC, p. 36-37",
+    "nivel": "dificil"
   }
 ];
