@@ -444,8 +444,10 @@ async function syncLocalWithCloud() {
         // 3. Merge Inteligente (UNION: nunca perde dados de nenhum lado)
 
         // --- Histórico de Questões ---
-        // Cada chave é um ID de questão. O status é preservado seguindo: se existe em algum lado, mantemos.
-        // Se os dois lados tem status diferente, priorizamos 'acerto' (já acertou = após aprender).
+        // Cada chave é um ID de questão. Se existe em algum lado, mantemos. Como cada
+        // entrada agora acumula o total de resoluções (tentativas), em conflito ficamos
+        // com o lado que tiver MAIS tentativas (mais prática registrada); empatando,
+        // priorizamos 'acerto' para não regredir o aprendizado.
         const cHist = cloudData.historico || {};
         const lHist = localData.historico || {};
         const mergedHistorico = { ...cHist };
@@ -456,12 +458,15 @@ async function syncLocalWithCloud() {
                 // Não existe na nuvem: inclui do local
                 mergedHistorico[id] = l;
             } else {
-                // Existe nos dois: preferência para 'acerto' (não regredimos aprendizado)
-                const cStatus = typeof c === 'string' ? c : c.status;
-                const lStatus = typeof l === 'string' ? l : l.status;
-                if (lStatus === 'acerto' || cStatus !== 'acerto') {
-                    // Local ganha se ele acertou, ou se nenhum dos dois acertou
+                const cR = resolucoesDaEntrada(c);
+                const lR = resolucoesDaEntrada(l);
+                if (lR.tentativas > cR.tentativas) {
                     mergedHistorico[id] = l;
+                } else if (lR.tentativas === cR.tentativas) {
+                    // Empate em tentativas: preferência para 'acerto'
+                    const lStatus = typeof l === 'string' ? l : l.status;
+                    const cStatus = typeof c === 'string' ? c : c.status;
+                    if (lStatus === 'acerto' || cStatus !== 'acerto') mergedHistorico[id] = l;
                 }
                 // Senão mantém o da nuvem (que já está lá)
             }
@@ -526,14 +531,10 @@ async function syncLocalWithCloud() {
         localStorage.setItem('pcpr_flashcards', JSON.stringify(mergedFlashcards));
         localStorage.setItem('pcpr_notes', JSON.stringify(mergedAnotacoes));
         
-        // Recalcula os totais a partir do histórico mesclado (mantém os indicadores
-        // do dashboard consistentes com o histórico após o merge).
-        const statsRecalc = { totalResolvidas: 0, totalAcertos: 0, totalErros: 0 };
-        Object.values(mergedHistorico).forEach(h => {
-            const st = typeof h === 'string' ? h : (h && h.status);
-            if (st === 'acerto') { statsRecalc.totalResolvidas++; statsRecalc.totalAcertos++; }
-            else if (st === 'erro') { statsRecalc.totalResolvidas++; statsRecalc.totalErros++; }
-        });
+        // Recalcula os totais (total de resoluções/tentativas) a partir do histórico
+        // mesclado, mantendo os indicadores consistentes após o merge.
+        const tMerge = somarMapaResolucoes(mergedHistorico);
+        const statsRecalc = { totalResolvidas: tMerge.resolucoes, totalAcertos: tMerge.acertos, totalErros: tMerge.erros };
         stats = statsRecalc;
         localStorage.setItem('pcpr_stats', JSON.stringify(statsRecalc));
 
@@ -899,10 +900,12 @@ function carregarBancoQuestoes() {
 
 // GESTÃO DE ESTATÍSTICAS
 function carregarEstatisticas() {
-    const savedStats = localStorage.getItem('pcpr_stats');
-    if (savedStats) {
-        stats = JSON.parse(savedStats);
-    }
+    // Os contadores globais refletem o TOTAL de resoluções (tentativas). Recalcula
+    // a partir do histórico já carregado para corrigir valores antigos salvos com
+    // a contagem por questões distintas.
+    const t = somarMapaResolucoes(historicoQuestoes);
+    stats = { totalResolvidas: t.resolucoes, totalAcertos: t.acertos, totalErros: t.erros };
+    try { localStorage.setItem('pcpr_stats', JSON.stringify(stats)); } catch (e) {}
     atualizarTelaDashboard();
 }
 
@@ -919,14 +922,9 @@ function limparHistoricoOrfao() {
         if (!validos.has(String(id))) { delete historicoQuestoes[id]; removidas++; }
     });
     if (removidas > 0) {
-        // Recomputa os contadores a partir do histórico já limpo
-        const novo = { totalResolvidas: 0, totalAcertos: 0, totalErros: 0 };
-        Object.values(historicoQuestoes).forEach(h => {
-            const st = typeof h === 'string' ? h : (h && h.status);
-            if (st === 'acerto') { novo.totalResolvidas++; novo.totalAcertos++; }
-            else if (st === 'erro') { novo.totalResolvidas++; novo.totalErros++; }
-        });
-        stats = novo;
+        // Recomputa os contadores (total de resoluções) a partir do histórico já limpo
+        const t = somarMapaResolucoes(historicoQuestoes);
+        stats = { totalResolvidas: t.resolucoes, totalAcertos: t.acertos, totalErros: t.erros };
         try { localStorage.setItem('pcpr_history', JSON.stringify(historicoQuestoes)); } catch (e) {}
         try { localStorage.setItem('pcpr_stats', JSON.stringify(stats)); } catch (e) {}
         if (typeof requestCloudSync === 'function') requestCloudSync(); // propaga a limpeza para a nuvem
@@ -973,6 +971,53 @@ function salvarEstatisticas() {
     requestCloudSync();
 }
 
+// ===== Resoluções (tentativas) =====
+// O painel conta o TOTAL de resoluções: cada resposta conta, inclusive ao
+// reresolver a mesma questão. Cada entrada do histórico guarda { status,
+// tentativas, acertos, erros }. Entradas antigas (string, ou objeto sem
+// acertos/erros) são normalizadas aqui na leitura — não é preciso migrar o
+// dado já salvo; as colunas acertos/erros legadas são estimadas pelo status.
+function resolucoesDaEntrada(h) {
+    if (typeof h === 'string') {
+        return { tentativas: h ? 1 : 0, acertos: h === 'acerto' ? 1 : 0, erros: h === 'erro' ? 1 : 0, temStatus: !!h };
+    }
+    if (!h) return { tentativas: 0, acertos: 0, erros: 0, temStatus: false };
+    const tentativas = typeof h.tentativas === 'number' ? h.tentativas : (h.status ? 1 : 0);
+    const acertos = typeof h.acertos === 'number' ? h.acertos : (h.status === 'acerto' ? tentativas : 0);
+    const erros = typeof h.erros === 'number' ? h.erros : (h.status === 'erro' ? tentativas : 0);
+    return { tentativas, acertos, erros, temStatus: !!h.status };
+}
+
+// Soma as resoluções de um mapa de histórico (sem filtro de cargo).
+// distintas = nº de questões diferentes já respondidas (usado em "Faltam"/cobertura).
+function somarMapaResolucoes(mapa) {
+    let resolucoes = 0, acertos = 0, erros = 0, distintas = 0;
+    Object.values(mapa || {}).forEach(h => {
+        const r = resolucoesDaEntrada(h);
+        if (r.tentativas <= 0 && !r.temStatus) return;
+        resolucoes += r.tentativas; acertos += r.acertos; erros += r.erros; distintas += 1;
+    });
+    return { resolucoes, acertos, erros, distintas };
+}
+
+// Soma as resoluções do histórico atual. Com respeitarCargo=true, considera só
+// as questões cuja disciplina é permitida ao cargo selecionado.
+function somarResolucoes(respeitarCargo) {
+    const filtrar = respeitarCargo && typeof cargoAtual !== 'undefined' && cargoAtual !== 'todos';
+    if (!filtrar) return somarMapaResolucoes(historicoQuestoes);
+    const discPorId = new Map();
+    if (Array.isArray(bancoQuestoes)) bancoQuestoes.forEach(q => discPorId.set(String(q.id), q.disciplina));
+    let resolucoes = 0, acertos = 0, erros = 0, distintas = 0;
+    Object.keys(historicoQuestoes).forEach(id => {
+        const disc = discPorId.get(String(id));
+        if (disc === undefined || !disciplinaPermitidaParaCargo(disc)) return;
+        const r = resolucoesDaEntrada(historicoQuestoes[id]);
+        if (r.tentativas <= 0 && !r.temStatus) return;
+        resolucoes += r.tentativas; acertos += r.acertos; erros += r.erros; distintas += 1;
+    });
+    return { resolucoes, acertos, erros, distintas };
+}
+
 function calcularEstatisticasPorCapitulo() {
     const container = document.getElementById('chapter-stats-list');
     if (!container) return;
@@ -996,18 +1041,16 @@ function calcularEstatisticasPorCapitulo() {
         statsPorDisc[disc].total++;
         statsPorDisc[disc].conteudos[cap].total++;
 
-        // Resolvidas/acertos/erros — só se tiver histórico
-        const hist = historicoQuestoes[q.id];
-        if (hist && hist.status) {
+        // resolvidas = cobertura (questões distintas respondidas, p/ a barra e "faltam");
+        // acertos/erros = total de tentativas (cada resposta conta).
+        const r = resolucoesDaEntrada(historicoQuestoes[q.id]);
+        if (r.tentativas > 0 || r.temStatus) {
             statsPorDisc[disc].resolvidas++;
             statsPorDisc[disc].conteudos[cap].resolvidas++;
-            if (hist.status === 'acerto') {
-                statsPorDisc[disc].acertos++;
-                statsPorDisc[disc].conteudos[cap].acertos++;
-            } else if (hist.status === 'erro') {
-                statsPorDisc[disc].erros++;
-                statsPorDisc[disc].conteudos[cap].erros++;
-            }
+            statsPorDisc[disc].acertos += r.acertos;
+            statsPorDisc[disc].conteudos[cap].acertos += r.acertos;
+            statsPorDisc[disc].erros += r.erros;
+            statsPorDisc[disc].conteudos[cap].erros += r.erros;
         }
     });
 
@@ -1024,7 +1067,7 @@ function calcularEstatisticasPorCapitulo() {
         const dStats = statsPorDisc[disc];
         const pendentes = dStats.total - dStats.resolvidas;
         const pctResolvido = dStats.total > 0 ? Math.round((dStats.resolvidas / dStats.total) * 100) : 0;
-        const taxaAcerto = dStats.resolvidas > 0 ? Math.round((dStats.acertos / dStats.resolvidas) * 100) : 0;
+        const taxaAcerto = (dStats.acertos + dStats.erros) > 0 ? Math.round((dStats.acertos / (dStats.acertos + dStats.erros)) * 100) : 0;
 
         const item = document.createElement('div');
         item.className = 'accordion-item';
@@ -1061,7 +1104,7 @@ function calcularEstatisticasPorCapitulo() {
             const cStats = dStats.conteudos[cap];
             const cPend = cStats.total - cStats.resolvidas;
             const cPctRes = cStats.total > 0 ? Math.round((cStats.resolvidas / cStats.total) * 100) : 0;
-            const cTaxa = cStats.resolvidas > 0 ? Math.round((cStats.acertos / cStats.resolvidas) * 100) : 0;
+            const cTaxa = (cStats.acertos + cStats.erros) > 0 ? Math.round((cStats.acertos / (cStats.acertos + cStats.erros)) * 100) : 0;
 
             const capItem = document.createElement('div');
             capItem.className = 'chapter-stat-item';
@@ -1101,33 +1144,26 @@ function calcularEstatisticasPorCapitulo() {
 }
 
 function atualizarTelaDashboard() {
-    // Por padrão usa os contadores globais. Se houver filtro de cargo ativo,
-    // recalcula os totais considerando apenas as disciplinas permitidas ao cargo.
-    let totalResolvidas = stats.totalResolvidas;
-    let totalAcertos = stats.totalAcertos;
-    let totalErros = stats.totalErros;
-    let totalBanco = Array.isArray(bancoQuestoes) ? bancoQuestoes.length : 0;
+    // "Resolvidas" = total de resoluções (cada resposta conta, inclusive ao
+    // reresolver). "Faltam" = questões do banco ainda não respondidas (cobertura,
+    // por isso usa o nº de questões DISTINTAS já respondidas). Respeita o cargo.
+    const totais = somarResolucoes(true);
+    const totalResolvidas = totais.resolucoes;
+    const totalAcertos = totais.acertos;
+    const totalErros = totais.erros;
+    const distintasResolvidas = totais.distintas;
 
+    let totalBanco = Array.isArray(bancoQuestoes) ? bancoQuestoes.length : 0;
     if (typeof cargoAtual !== 'undefined' && cargoAtual !== 'todos' && Array.isArray(bancoQuestoes)) {
-        totalResolvidas = 0; totalAcertos = 0; totalErros = 0; totalBanco = 0;
-        bancoQuestoes.forEach(q => {
-            if (!disciplinaPermitidaParaCargo(q.disciplina)) return;
-            totalBanco++;
-            const hist = historicoQuestoes[q.id];
-            if (hist && hist.status) {
-                totalResolvidas++;
-                if (hist.status === 'acerto') totalAcertos++;
-                else if (hist.status === 'erro') totalErros++;
-            }
-        });
+        totalBanco = bancoQuestoes.filter(q => disciplinaPermitidaParaCargo(q.disciplina)).length;
     }
 
     document.getElementById('stat-total-resolvidas').textContent = totalResolvidas;
     document.getElementById('stat-total-acertos').textContent = totalAcertos;
     document.getElementById('stat-total-erros').textContent = totalErros;
 
-    // Novos indicadores: total no banco, faltam, taxa
-    const faltam = Math.max(0, totalBanco - totalResolvidas);
+    // Novos indicadores: total no banco, faltam (cobertura), taxa
+    const faltam = Math.max(0, totalBanco - distintasResolvidas);
     const taxa = (totalAcertos + totalErros) > 0
         ? Math.round((totalAcertos / (totalAcertos + totalErros)) * 100)
         : 0;
@@ -1981,17 +2017,23 @@ function verificarResposta() {
     q.letra_escolhida_neste_simulado = letraEscolhida;
     q.acertou_neste_simulado = isAcerto;
     
-    // Migrar formato antigo ou inicializar novo
+    // Migrar formato antigo ou inicializar novo (cada entrada conta tentativas,
+    // acertos e erros para que o total de resoluções some cada resposta).
     let histAtual = historicoQuestoes[q.id];
     if (typeof histAtual === 'string') {
-        histAtual = { status: histAtual, tentativas: 1 };
+        histAtual = { status: histAtual, tentativas: 1, acertos: histAtual === 'acerto' ? 1 : 0, erros: histAtual === 'erro' ? 1 : 0 };
     } else if (!histAtual) {
-        histAtual = { status: '', tentativas: 0 };
+        histAtual = { status: '', tentativas: 0, acertos: 0, erros: 0 };
+    } else {
+        // objeto legado sem acertos/erros: estima pelo status antes de somar a nova tentativa
+        if (typeof histAtual.acertos !== 'number') histAtual.acertos = histAtual.status === 'acerto' ? (histAtual.tentativas || 0) : 0;
+        if (typeof histAtual.erros !== 'number') histAtual.erros = histAtual.status === 'erro' ? (histAtual.tentativas || 0) : 0;
     }
-    
+
     histAtual.status = isAcerto ? 'acerto' : 'erro';
     histAtual.tentativas += 1;
-    
+    if (isAcerto) histAtual.acertos += 1; else histAtual.erros += 1;
+
     historicoQuestoes[q.id] = histAtual;
     salvarHistorico();
     
