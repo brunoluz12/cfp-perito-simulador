@@ -1267,6 +1267,12 @@ function atualizarPaleta() {
 function handleQuizKeydown(e) {
     const quizView = views.quiz;
     if (!quizView || !quizView.classList.contains('active')) return;
+    // Com o modal de estatísticas aberto: ESC fecha e os atalhos do quiz ficam inertes.
+    const qstatsModal = document.getElementById('modal-qstats');
+    if (qstatsModal && qstatsModal.classList.contains('is-open')) {
+        if (e.key === 'Escape') { fecharEstatisticasQuestao(); e.preventDefault(); }
+        return;
+    }
     const tag = (e.target.tagName || '').toLowerCase();
     if (tag === 'input' || tag === 'textarea' || tag === 'select' || e.ctrlKey || e.metaKey || e.altKey) return;
     // Enter com foco em botões de navegação (Voltar, Encerrar...) deixa o botão agir
@@ -1381,6 +1387,12 @@ function configurarEventos() {
     document.getElementById('btn-favorite').addEventListener('click', toggleFavorite);
     const btnExcluirQ = document.getElementById('btn-excluir-questao');
     if (btnExcluirQ) btnExcluirQ.addEventListener('click', excluirQuestaoAtual);
+    const btnStatsQ = document.getElementById('btn-stats-questao');
+    if (btnStatsQ) btnStatsQ.addEventListener('click', abrirEstatisticasQuestao);
+    const qstatsClose = document.getElementById('modal-qstats-close');
+    if (qstatsClose) qstatsClose.addEventListener('click', fecharEstatisticasQuestao);
+    const qstatsOverlay = document.getElementById('modal-qstats');
+    if (qstatsOverlay) qstatsOverlay.addEventListener('click', (e) => { if (e.target === qstatsOverlay) fecharEstatisticasQuestao(); });
     document.getElementById('btn-save-comment').addEventListener('click', salvarAnotacaoQuestao);
     
     const chkOcultar = document.getElementById('filtro-ocultar-respondidas');
@@ -2034,8 +2046,19 @@ function verificarResposta() {
     histAtual.tentativas += 1;
     if (isAcerto) histAtual.acertos += 1; else histAtual.erros += 1;
 
+    // Log detalhado das minhas resoluções (data/hora, letra marcada, acertou?).
+    // Campos curtos (t/l/a) p/ economizar espaço; mantém só as últimas 100.
+    if (!Array.isArray(histAtual.log)) histAtual.log = [];
+    histAtual.log.push({ t: Date.now(), l: letraEscolhida, a: isAcerto });
+    if (histAtual.log.length > 100) histAtual.log = histAtual.log.slice(-100);
+
     historicoQuestoes[q.id] = histAtual;
     salvarHistorico();
+
+    // Registra a resolução no agregado anônimo da questão (distribuição de
+    // respostas + taxa de acerto de todos os alunos). Fire-and-forget: se a API
+    // estiver indisponível (uso local/offline), não atrapalha a resposta.
+    registrarResolucaoAgregada(q.id, letraEscolhida, isAcerto);
     
     // Atualizar Estatísticas Locais
     stats.totalResolvidas++;
@@ -2205,6 +2228,127 @@ async function excluirQuestaoAtual() {
         questaoAtualIndex = simuladoAtual.length - 1;
     }
     carregarQuestaoUI();
+}
+
+// ==========================================
+// ESTATÍSTICAS DA QUESTÃO (distribuição entre alunos + minhas resoluções)
+// ==========================================
+
+// Envia (fire-and-forget) a resolução ao agregado anônimo da questão. Se a API
+// estiver indisponível (uso local/offline), apenas ignora — não trava a resposta.
+function registrarResolucaoAgregada(id, letra, acerto) {
+    try {
+        fetch(`${VERCEL_API_URL}/api/qstats`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id, letra, acerto })
+        }).catch(() => {});
+    } catch (e) { /* offline/local: ignora */ }
+}
+
+function fecharEstatisticasQuestao() {
+    const overlay = document.getElementById('modal-qstats');
+    if (!overlay) return;
+    overlay.classList.remove('is-open');
+    overlay.setAttribute('aria-hidden', 'true');
+}
+
+async function abrirEstatisticasQuestao() {
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q) return;
+    const overlay = document.getElementById('modal-qstats');
+    if (!overlay) return;
+
+    overlay.classList.add('is-open');
+    overlay.setAttribute('aria-hidden', 'false');
+
+    const elDist = document.getElementById('qstats-distribuicao');
+    const elTaxa = document.getElementById('qstats-taxa');
+    const elMinhas = document.getElementById('qstats-minhas');
+
+    elDist.innerHTML = '<p class="qstats-loading"><i class="ph ph-spinner ph-spin"></i> Carregando estatísticas dos alunos...</p>';
+    elTaxa.textContent = '';
+
+    // Minhas resoluções (local, sempre disponível)
+    renderMinhasResolucoes(q, elMinhas);
+
+    // Agregado entre alunos (servidor)
+    let agg = null;
+    try {
+        const resp = await fetch(`${VERCEL_API_URL}/api/qstats?id=${encodeURIComponent(q.id)}`);
+        if (resp.ok) agg = await resp.json();
+    } catch (e) { agg = null; }
+
+    renderDistribuicao(q, agg, elDist, elTaxa);
+}
+
+function renderDistribuicao(q, agg, elDist, elTaxa) {
+    if (!agg) {
+        elDist.innerHTML = '<p class="qstats-empty">Não foi possível carregar as estatísticas dos alunos agora.</p>';
+        elTaxa.textContent = '';
+        return;
+    }
+    const total = agg.total || 0;
+    if (total === 0) {
+        elDist.innerHTML = '<p class="qstats-empty">Ainda não há resoluções de alunos nesta questão. A contagem começa a partir de agora.</p>';
+        elTaxa.textContent = '';
+        return;
+    }
+    const correta = q.resposta_correta;
+    const letras = ['A', 'B', 'C', 'D'].filter(L => q.alternativas && q.alternativas[L] !== undefined);
+    let html = '';
+    letras.forEach(L => {
+        const n = agg[L] || 0;
+        const pct = Math.round((n / total) * 100);
+        const isCorreta = L === correta;
+        html += `
+            <div class="qstats-bar-row ${isCorreta ? 'is-correct' : ''}">
+                <span class="qstats-bar-letra">${L}${isCorreta ? ' <i class="ph ph-check-circle"></i>' : ''}</span>
+                <div class="qstats-bar-track"><div class="qstats-bar-fill" style="width:${pct}%;"></div></div>
+                <span class="qstats-bar-num">${pct}% <small>(${n})</small></span>
+            </div>`;
+    });
+    elDist.innerHTML = html;
+
+    const taxa = Math.round((agg.acertos / total) * 100);
+    elTaxa.innerHTML = `<i class="ph ph-target"></i> Taxa de acerto: <strong>${taxa}%</strong> <small>(${agg.acertos}/${total} resoluções)</small>`;
+}
+
+function renderMinhasResolucoes(q, el) {
+    const h = historicoQuestoes[q.id];
+    const r = resolucoesDaEntrada(h);
+    const log = (h && Array.isArray(h.log)) ? h.log.slice() : [];
+    log.sort((a, b) => (b.t || 0) - (a.t || 0));
+
+    const header = `<div class="qstats-minhas-head"><i class="ph ph-clock-counter-clockwise"></i> Minhas resoluções: <strong>${r.tentativas}</strong></div>`;
+
+    if (log.length === 0) {
+        const extra = r.tentativas > 0
+            ? '<p class="qstats-empty">Você já resolveu esta questão, mas o registro com data/hora só passou a ser guardado a partir de agora.</p>'
+            : '<p class="qstats-empty">Você ainda não resolveu esta questão.</p>';
+        el.innerHTML = header + extra;
+        return;
+    }
+
+    let nota = '';
+    if (r.tentativas > log.length) {
+        nota = `<p class="qstats-note">Mostrando as últimas ${log.length} resoluções (registro detalhado a partir de agora).</p>`;
+    }
+
+    let rows = '';
+    log.forEach(item => {
+        const d = new Date(item.t || 0);
+        const data = isNaN(d.getTime()) ? '—' : d.toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+        const ok = !!item.a;
+        rows += `
+            <li class="qstats-res-item ${ok ? 'ok' : 'err'}">
+                <i class="ph ${ok ? 'ph-check-circle' : 'ph-x-circle'} qstats-res-icon"></i>
+                <span class="qstats-res-data">${data}</span>
+                <span class="qstats-res-letra">Marcou ${item.l || '—'}</span>
+                <span class="qstats-res-status">${ok ? 'Acertou' : 'Errou'}</span>
+            </li>`;
+    });
+    el.innerHTML = header + nota + `<ul class="qstats-res-list">${rows}</ul>`;
 }
 
 function salvarAnotacaoQuestao(e) {
