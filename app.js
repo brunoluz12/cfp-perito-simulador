@@ -408,6 +408,66 @@ window.addEventListener('beforeunload', (e) => {
     }
 });
 
+// Encerrar a sessão (logout). Envia o progresso pendente para a nuvem antes de
+// sair e só então limpa os dados locais, para nunca perder o que ainda não subiu.
+async function logout() {
+    if (!confirm('Deseja sair da sua conta?\n\nSeu progresso será salvo na nuvem antes de sair.')) return;
+
+    let savedOk = true;
+
+    // Envia imediatamente qualquer progresso pendente (ignora o debounce de 2s)
+    if (currentUser) {
+        if (syncTimeout) { clearTimeout(syncTimeout); syncTimeout = null; }
+        try {
+            let agendaAplicada = {};
+            try { agendaAplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'); } catch (e) {}
+            await fetch(`${VERCEL_API_URL}/api/save`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username: currentUser, data: {
+                    stats: stats,
+                    favoritos: favoritos,
+                    comentarios: comentarios,
+                    historico: historicoQuestoes,
+                    progresso: progressoCurso,
+                    agendaAplicada: agendaAplicada,
+                    materialEstudado: materialEstudado,
+                    flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
+                    anotacoes: anotacoes
+                }})
+            });
+        } catch (e) {
+            savedOk = false;
+            console.error('Falha ao salvar na nuvem durante o logout', e);
+        }
+    }
+
+    // Sempre remove o marcador de auto-login para de fato deslogar.
+    localStorage.removeItem('pcpr_current_user');
+
+    // Só limpa os dados locais do usuário se o backup na nuvem foi confirmado,
+    // para nunca perder progresso que ainda não subiu (ex.: offline / uso local).
+    if (savedOk) {
+        localStorage.removeItem('pcpr_stats');
+        localStorage.removeItem('pcpr_favorites');
+        localStorage.removeItem('pcpr_comments');
+        localStorage.removeItem('pcpr_history');
+        localStorage.removeItem('pcpr_course_progress');
+        localStorage.removeItem('pcpr_agenda_aplicada');
+        localStorage.removeItem('pcpr_material_studied');
+        localStorage.removeItem('pcpr_flashcards');
+        localStorage.removeItem('pcpr_notes');
+    } else {
+        alert('Não foi possível confirmar o backup na nuvem. Seus dados locais foram mantidos neste navegador.');
+    }
+
+    // Evita o aviso de "progresso ainda sendo salvo" ao recarregar.
+    syncPending = false;
+
+    // Volta para a tela de login.
+    location.reload();
+}
+
 // ==========================================
 // SINCRONIZAÇÃO MANUAL
 // ==========================================
