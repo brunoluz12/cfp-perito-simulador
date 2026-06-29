@@ -3403,6 +3403,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Botão "Abrir em nova aba": abre o capítulo atual num documento próprio,
+    // apenas para leitura (mesma fonte servida na plataforma).
+    const btnAbrirAba = document.getElementById('btn-abrir-material-aba');
+    if (btnAbrirAba) {
+        btnAbrirAba.addEventListener('click', () => {
+            if (!matDisc.value || !matCap.value) {
+                alert('Selecione uma disciplina e um capítulo antes de abrir em nova aba.');
+                return;
+            }
+            const folder = materialData[matDisc.value].path;
+            const url = `materiais/${folder}/HTML/${matCap.value}`;
+            const win = window.open(url, '_blank');
+            if (!win) alert('Não foi possível abrir a aba (verifique o bloqueador de pop-ups).');
+        });
+    }
+
     // Ouve mensagens dos HTMLs carregados para ajustar a altura dinamicamente sem barra de rolagem
     let resizeDebounce = null;
     window.addEventListener('message', (event) => {
