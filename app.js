@@ -1368,6 +1368,9 @@ function handleQuizKeydown(e) {
         questaoAnterior();
     } else if (e.key === 'ArrowRight') {
         if (feedbackVisivel) proximaQuestao();
+    } else if (key === 'R') {
+        questaoAleatoria();
+        e.preventDefault();
     }
 }
 
@@ -2183,6 +2186,19 @@ function proximaQuestao() {
     } else {
         finalizarSimulado();
     }
+}
+
+// Salta para uma questão aleatória do caderno atual (atalho: tecla R), em vez de
+// seguir a ordem. Evita repetir a questão que já está na tela.
+function questaoAleatoria() {
+    const n = simuladoAtual.length;
+    if (n <= 1) { proximaQuestao(); return; }
+    let novo = questaoAtualIndex;
+    while (novo === questaoAtualIndex) {
+        novo = Math.floor(Math.random() * n);
+    }
+    questaoAtualIndex = novo;
+    carregarQuestaoUI();
 }
 
 function questaoAnterior() {
