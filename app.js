@@ -3415,7 +3415,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const folder = materialData[matDisc.value].path;
             const url = `materiais/${folder}/HTML/${matCap.value}`;
             const win = window.open(url, '_blank');
-            if (!win) alert('Não foi possível abrir a aba (verifique o bloqueador de pop-ups).');
+            if (!win) { alert('Não foi possível abrir a aba (verifique o bloqueador de pop-ups).'); return; }
+
+            // O HTML do material define "body { overflow-y: hidden }" — pensado para o
+            // iframe da plataforma (onde a altura é controlada pelo pai). Numa aba isolada
+            // isso impede a rolagem, então liberamos o scroll do documento (mesma origem).
+            const liberarScroll = () => {
+                try {
+                    const d = win.document;
+                    if (d && d.body) {
+                        d.body.style.overflowY = 'auto';
+                        d.documentElement.style.overflowY = 'auto';
+                    }
+                } catch (e) {}
+            };
+            try { win.addEventListener('load', liberarScroll); } catch (e) {}
+            // Fallbacks para cobrir corridas de tempo do carregamento da nova aba.
+            [200, 600, 1200].forEach(t => setTimeout(liberarScroll, t));
         });
     }
 
