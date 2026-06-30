@@ -1,0 +1,72 @@
+[
+  {
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "enunciado": "Sobre os conceitos básicos do SISCRIM, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Lotação é a unidade de criminalística em que o servidor está vinculado para efeitos de movimentação e emissão de documentos; e localização é o vínculo administrativo formal de gestão de pessoal.",
+      "B": "Carga indica que o documento ou material foi efetivamente recebido pelo destinatário, encerrando a responsabilidade do remetente já no ato do encaminhamento realizado dentro do sistema.",
+      "C": "Tarefa é o conceito do ePol que engloba os 'materiais' do SISCRIM; e 'bens' é a nomenclatura dos comandos do ePol recebidos no SISCRIM com o nome de Despacho ePol, mantida a numeração.",
+      "D": "Lotação é o vínculo administrativo formal do servidor (gestão de pessoal); localização indica a unidade à qual ele está vinculado para movimentação e emissão de documentos, podendo divergir em apoio temporário."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 14 (14.5.1), lotação é o vínculo administrativo formal (gestão de pessoal) e localização é a unidade para movimentação/emissão de documentos, podendo divergir em apoio temporário. A tese que inverte lotação e localização erra. A de que a carga indica recebimento efetivo erra (só reflete a alteração sistêmica). A que inverte 'tarefa' e 'bens' erra (tarefa = comando do ePol/Despacho ePol; bens = materiais).",
+    "referencia": "Cap. 14, Seção 14.5.1, p. 101-102",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "enunciado": "Sobre o módulo de documentos do SISCRIM e a finalidade 'solicitação de exame', conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As finalidades do documento externo são apenas 'solicitação de exame' e 'encaminhamento'; e a área de exame, a criticidade e a publicidade restrita são definidas posteriormente, já no módulo de materiais vinculados, e não no cadastro do documento externo recebido pela unidade.",
+      "B": "A designação é o ato pelo qual a secretaria recebe fisicamente o material e o lacra, sem atribuição formal de responsabilidade a um perito determinado para o atendimento da requisição.",
+      "C": "As finalidades incluem solicitação de exame, encaminhamento, reiteração e finalidade diversa; para a solicitação definem-se requisitante, área (classes/subclasses), criticidade e publicidade restrita; a designação atribui ao perito a responsabilidade pelo atendimento.",
+      "D": "A criticidade e a área de exame são definidas apenas no módulo de materiais, não integrando os dados próprios da solicitação de exame registrada no módulo de documentos do sistema."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 14 (14.2), as finalidades são solicitação de exame, encaminhamento, reiteração e finalidade diversa; a solicitação define dados do requisitante, área (classes/subclasses), criticidade e publicidade restrita; e a designação atribui formalmente a responsabilidade ao perito. A tese que reduz finalidades e dados erra. A de que designação é recebimento físico pela secretaria erra. A de que criticidade/área ficam só no módulo de materiais erra.",
+    "referencia": "Cap. 14, Seção 14.2, p. 104-105",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "enunciado": "Sobre as formas de identificação e a movimentação no SISCRIM, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O número de registro é atribuído apenas aos documentos emitidos originalmente pela unidade, jamais aos materiais encaminhados para exame pericial e mantidos sob a custódia da perícia até a sua devolução ou descarte ao final do procedimento.",
+      "B": "A movimentação se conclui no instante do encaminhamento na origem, independentemente de confirmação de recebimento no destino, bastando a alteração da carga no sistema informatizado.",
+      "C": "O número único sequencial (código de barras) é válido apenas para documentos, não se aplicando a materiais, pessoas, unidades ou grupos de funcionários cadastrados no sistema da perícia.",
+      "D": "A identificação única do documento é tipo, número, ano e unidade emissora; o número de registro vale para documentos recebidos e materiais; e há um número único sequencial (código de barras) válido para documentos, materiais, pessoas e unidades."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 14 (14.4), a identificação única é tipo + número + ano + unidade emissora; o número de registro vale para documentos recebidos e materiais; e o número único sequencial (código de barras) vale para documentos, materiais, pessoas e unidades. A tese de que o número de registro não se aplica a materiais erra. A de que a movimentação se conclui no encaminhamento erra (exige confirmação de recebimento). A que limita o número único a documentos erra.",
+    "referencia": "Cap. 14, Seção 14.4, p. 107-109",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "enunciado": "Sobre o fluxo típico de atendimento de uma requisição no SISCRIM, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A requisição é considerada efetivamente atendida no momento da entrega do laudo ao requisitante, ficando dispensado o posterior arquivamento da requisição no sistema informatizado da perícia.",
+      "B": "O desmembramento de materiais é vedado no fluxo, devendo cada requisição manter os materiais agrupados em registro único até a conclusão dos exames, vedada igualmente a criação de cópias autônomas da requisição original.",
+      "C": "Não se admite a criação de cópias da requisição, ainda que o atendimento envolva mais de uma Unidade de Criminalística ou áreas de exame distintas entre si dentro do mesmo procedimento.",
+      "D": "Na geração do laudo cadastram-se os signatários com os percentuais de participação e a eventual atuação de perito revisor; a entrega ao requisitante serve às métricas; e a requisição só é efetivamente atendida quando arquivada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 14 (14.5), na geração do laudo cadastram-se signatários com percentuais de participação e eventual perito revisor; a data de entrega serve às métricas; e a requisição só é efetivamente atendida quando arquivada. A tese de que a entrega encerra o atendimento erra (exige arquivamento). A do desmembramento vedado erra. A de que não se admitem cópias erra.",
+    "referencia": "Cap. 14, Seção 14.5, p. 111-113",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 14 - Sistema Nacional de Gestão de Atividades de Criminalística (SISCRIM)",
+    "enunciado": "Sobre a assinatura digital de laudos no SISCRIM, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A assinatura digital no padrão ICP-Brasil é facultativa, podendo o laudo ser entregue sem assinatura quando houver urgência operacional no atendimento de flagrantes ou de operações policiais.",
+      "B": "A assinatura digital garante apenas a autoria do documento, não sendo apta a verificar a integridade do laudo após a aposição da assinatura pelo perito responsável pelo seu conteúdo.",
+      "C": "O certificado digital necessário é emitido diretamente pela DITEC, dispensada qualquer solicitação à área de tecnologia da informação da Polícia Federal por meio de chamado específico.",
+      "D": "A assinatura digital padrão ICP-Brasil é obrigatória, assegurando a autoria e a verificação de que o documento não sofreu alteração após a assinatura; o certificado é obtido por chamado no CITSmart - DTI/PF."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 14 (14.6), a assinatura digital ICP-Brasil é obrigatória, garante autoria e integridade (ausência de alteração após a assinatura), e o certificado é obtido por chamado no CITSmart - DTI/PF. A tese de que é facultativa erra. A de que só garante autoria (não a integridade) erra. A de que o certificado é emitido pela DITEC erra.",
+    "referencia": "Cap. 14, Seção 14.6, p. 114",
+    "nivel": "dificil"
+  }
+]

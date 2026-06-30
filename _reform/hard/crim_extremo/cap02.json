@@ -1,0 +1,72 @@
+[
+  {
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "enunciado": "Sobre os marcos históricos precursores da Criminalística, conforme a linha do tempo do material, assinale a correspondência correta.",
+    "alternativas": {
+      "A": "Hans Gross, da Scotland Yard, realizou em 1835 a primeira comparação balística para incriminar um assassino, com base em defeito visível na bala submetida a um molde.",
+      "B": "Mathieu Orfila, professor em Paris, publicou em 1813 um Tratado de Toxicologia Geral, é tido como pai da toxicologia moderna e foi o primeiro a usar o microscópio em sangue e sêmen.",
+      "C": "Alphonse Bertillon desenvolveu, na Argentina, o sistema de classificação de impressões digitais adotado na América Latina, em substituição definitiva à antropometria criminal.",
+      "D": "Juan Vucetich, magistrado austríaco, publicou em 1891 o livro Investigação Criminal e é creditado pela criação do termo Criminalística em seu tratado de 1893."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pelo Cap. 2, Orfila publicou o Tratado de Toxicologia Geral (1813), é o pai da toxicologia moderna e o primeiro a usar o microscópio em sangue/sêmen. A correspondência com Hans Gross na comparação balística de 1835 está errada: essa foi de Henry Goddard (Scotland Yard). A de Bertillon erra: o sistema de digitais latino-americano é de Juan Vucetich; Bertillon criou a antropometria. A de Vucetich erra: 'Investigação Criminal' (1891) e o termo Criminalística (1893) são de Hans Gross.",
+    "referencia": "Cap. 2, Introdução, p. 18",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "enunciado": "A respeito da formação da Criminalística no Brasil, da Medicina Legal à Polícia Científica, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A denominação Criminalística foi adotada no Brasil em 1893, com a publicação por Hans Gross do primeiro tratado da disciplina, durante o I Congresso Nacional de Polícia Técnica.",
+      "B": "O Instituto de Criminalística inaugurado em Brasília, em 1962, já nasceu como Instituto Nacional de Criminalística, vinculado diretamente à Diretoria Técnico-Científica da PF.",
+      "C": "O marco inaugural ocorreu em São Paulo, com Oscar Freire, que ao assumir a cátedra de Medicina Legal em 1891 estruturou o primeiro grande serviço pericial organizado do país.",
+      "D": "O marco inaugural ocorreu na Bahia, com Nina Rodrigues (cátedra em 1891), que estruturou o primeiro grande serviço pericial e formou discípulos como Afrânio Peixoto e Oscar Freire."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 2 (2.1), o marco foi na Bahia, com Nina Rodrigues (1891), que formou Afrânio Peixoto (RJ) e Oscar Freire (SP). A tese de 1893/Hans Gross confunde fatos: a denominação foi adotada em 1947, no I Congresso Nacional de Polícia Técnica (SP); 1893 é a obra de Gross na Alemanha. A do Instituto de 1962 erra: ele era vinculado ao Departamento Federal de Segurança Pública e só depois deu origem ao INC. A de São Paulo/Oscar Freire erra na praça e no autor.",
+    "referencia": "Cap. 2, Seção 2.1, p. 20-21",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "enunciado": "A definição de Criminalística do I Congresso Nacional de Polícia Técnica (1947) e a definição moderna (RABELO, 1996) diferem em ponto essencial. Assinale a alternativa que descreve corretamente essa diferença.",
+    "alternativas": {
+      "A": "A definição de 1947 limitava a Criminalística aos indícios materiais extrínsecos, deixando os vestígios intrínsecos à Medicina Legal; a moderna é abrangente, nela se compreendendo até a Medicina Legal.",
+      "B": "A definição de 1947 já incluía expressamente a Medicina Legal como ramo da Criminalística, ao passo que a definição moderna a excluiu, reservando-lhe os vestígios intrínsecos na pessoa.",
+      "C": "Ambas as definições restringem a Criminalística aos vestígios intrínsecos na pessoa, divergindo apenas quanto à autonomia institucional e administrativa da perícia oficial.",
+      "D": "A definição moderna restringe a Criminalística aos crimes contra a pessoa, enquanto a de 1947 já a concebia como disciplina multidisciplinar aplicável a qualquer espécie de delito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo Cap. 2 (2.2), a definição de 1947 tratava dos indícios materiais extrínsecos, atribuindo os vestígios intrínsecos (na pessoa) à Medicina Legal; a moderna é abrangente e, segundo Rabelo, até a Medicina Legal nela se compreende. A tese de que a de 1947 incluía a Medicina Legal inverte o sentido (foi ela que a separou). A tese de que ambas se restringem ao intrínseco erra quanto à definição moderna. A tese de que a moderna se restringe a crimes contra a pessoa inverte o caráter das duas.",
+    "referencia": "Cap. 2, Seção 2.2, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "enunciado": "Sobre a distinção entre Criminologia e Criminalística e o caráter da disciplina, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A Criminologia objetiva a comprovação da materialidade do delito e a identificação do modus operandi, sem se ocupar do aspecto sociológico do crime e de seus fatores sociais.",
+      "B": "Criminologia e Criminalística são termos sinônimos, pois ambas têm por objeto o estudo interpretativo do delito e dos fatores individuais e sociais a ele relacionados.",
+      "C": "A Criminalística é multidisciplinar e, além de recorrer a ciências tradicionais, desenvolveu ramos próprios, como a Balística Forense, a Documentoscopia, a Merceologia e a Grafotecnia.",
+      "D": "A Criminalística estuda o delito como fenômeno individual e social, fornecendo os elementos para a orientação da política penal do Estado e a prevenção da criminalidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 2 (2.2), a Criminalística é multidisciplinar e desenvolveu ramos próprios (Balística Forense, Documentoscopia, Merceologia, Grafotecnia). A tese que atribui à Criminologia a comprovação da materialidade/modus operandi inverte papéis (isso é da Criminalística). A tese da sinonímia erra. A tese de que a Criminalística estuda o crime como fenômeno social e orienta a política penal descreve, na verdade, a Criminologia.",
+    "referencia": "Cap. 2, Seção 2.2, p. 22",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - A Criminalística – História",
+    "enunciado": "Sobre as razões históricas do surgimento da Criminalística no século XIX e a evolução da prova, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A confissão consolidou-se como 'rainha das provas', e foi justamente o seu prestígio crescente que estimulou o desenvolvimento da análise científica dos vestígios materiais.",
+      "B": "O desenvolvimento social simplificou as relações e reduziu os conflitos, diminuindo a necessidade da prova material e privilegiando, no século XIX, a prova testemunhal.",
+      "C": "A investigação de fraudes documentais pela análise da escrita surgiu na América Latina, no século XX, dando origem aos campos da Grafoscopia e da Documentoscopia.",
+      "D": "A desmoralização da confissão, a fragilidade da prova testemunhal e a repulsa social à arbitrariedade pressionaram pela criação de área especializada na análise dos vestígios materiais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 2, a desmoralização da confissão, a fragilidade da prova testemunhal e a repulsa à arbitrariedade criaram a necessidade de área especializada nos vestígios. A tese do prestígio da confissão erra: ela foi desmoralizada, perdeu o status de 'rainha das provas'. A tese da simplificação das relações erra: o desenvolvimento torna as relações mais complexas e aumenta os conflitos. A tese sobre fraudes documentais erra na origem/época: surgiu na Europa (Inglaterra e França), no século XIX.",
+    "referencia": "Cap. 2, Introdução, p. 18-19",
+    "nivel": "dificil"
+  }
+]

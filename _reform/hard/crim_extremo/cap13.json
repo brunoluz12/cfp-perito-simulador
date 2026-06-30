@@ -1,0 +1,72 @@
+[
+  {
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "enunciado": "Sobre os tipos de atos normativos da Criminalística e o Decreto nº 12.002/2024, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A Orientação Técnica (OT) é expedida exclusivamente pelo Diretor-Geral; e a Instrução Normativa (IN) pelos diretores, coordenadores e superintendentes regionais, nos limites de suas atribuições, vedada a expedição pelo Diretor Técnico-Científico.",
+      "B": "Com o Decreto nº 12.002/2024, as Instruções Técnicas, Orientações Técnicas e Instruções de Serviço anteriores perderam de imediato a eficácia, sendo revogadas de pleno direito no âmbito da PF.",
+      "C": "A Instrução de Serviço (IS) continua a ser editada normalmente após 2022, sendo o principal instrumento normativo expedido pelo Diretor Técnico-Científico para disciplinar a perícia criminal.",
+      "D": "A IN é expedida exclusivamente pelo Diretor-Geral; IT e OT não são mais editadas desde 2022, mas as anteriores continuam vigentes; e o Decreto nº 12.002/2024 admite hoje apenas portarias, INs e resoluções, mantida a eficácia das anteriores."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 13 (13.3), a IN é exclusiva do Diretor-Geral; IT e OT não são mais editadas desde 2022, mas as anteriores valem; e o Decreto 12.002/2024 admite apenas portarias, INs e resoluções, mantendo a eficácia das normas anteriores. A tese que troca expedidores (OT pelo DG; IN por diretores) erra. A da perda imediata de eficácia erra. A da IS ainda editada após 2022 erra.",
+    "referencia": "Cap. 13, Seção 13.3, p. 94-96",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "enunciado": "Sobre a BDCRIM, o Guia ENCRIM e os prazos de elaboração do laudo, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Guia ENCRIM substitui as publicações oficiais dos atos normativos no Diário Oficial e na BDCRIM, possuindo força normativa autônoma e vinculante, dispensada a publicação dos atos em diário oficial ou em boletim de serviço da Polícia Federal.",
+      "B": "A BDCRIM é acessível livremente pela internet a qualquer cidadão; e a sua atualização e manutenção competem à Corregedoria-Geral da Polícia Federal, conforme normativo interno específico.",
+      "C": "A IN DG/PF nº 255/2023 fixa prazo improrrogável de 30 dias para o laudo, afastando integralmente a regra do art. 160 do CPP quanto à prorrogação a requerimento dos peritos designados.",
+      "D": "A BDCRIM é o repositório oficial, acessível apenas pela intranet (atualização da DITEC, Portaria nº 1368/2024); o Guia ENCRIM é mera compilação e não substitui as publicações oficiais; e o prazo do laudo segue o art. 160 do CPP e a IN nº 255/2023."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 13 (13.1 a 13.3), a BDCRIM é o repositório oficial acessível pela intranet (Portaria 1368/2024); o Guia ENCRIM é mera compilação que não substitui as publicações oficiais; e o prazo do laudo segue o art. 160 do CPP e a IN 255/2023. A tese de que o Guia substitui as publicações erra. A do acesso pela internet e manutenção pela Corregedoria erra. A do prazo improrrogável de 30 dias erra.",
+    "referencia": "Cap. 13, Seções 13.1 a 13.3, p. 92-95",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "enunciado": "A Instrução Normativa DG/PF nº 255/2023 regulamenta a polícia judiciária da PF. Sobre as requisições de exame (art. 55) e a tramitação do laudo (art. 62), conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As requisições podem ser dirigidas a qualquer unidade de perícia do país, devendo o laudo ser remetido em papel diretamente ao requisitante logo após a sua emissão e assinatura pelo perito.",
+      "B": "Em flagrantes e operações de urgência, havendo limitação técnica, o perito deve simplesmente deixar de atender, sem qualquer comunicação ao delegado de polícia federal responsável pela ocorrência e pela lavratura do auto de prisão em flagrante.",
+      "C": "O art. 62 determina que o perito faça o upload do laudo diretamente no ePol, cabendo ao delegado de polícia federal retransmiti-lo ao SISCRIM para fins de arquivamento e controle estatístico.",
+      "D": "As requisições serão dirigidas ao chefe da unidade de perícia da circunscrição, acompanhadas dos termos de apreensão e distribuídas imediatamente aos peritos; o perito carrega o laudo no SISCRIM, que o envia ao ePol."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 13 (13.4), o art. 55 manda dirigir as requisições ao chefe da unidade da circunscrição, com os termos de apreensão, e distribuí-las imediatamente aos peritos; pelo art. 62, o perito faz o upload no SISCRIM, que envia ao ePol. A tese de dirigir a qualquer unidade e remeter em papel erra. A de deixar de atender sem comunicar erra (deve apresentar documento ao delegado). A que inverte o fluxo (upload no ePol) erra.",
+    "referencia": "Cap. 13, Seção 13.4, p. 96-97",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "enunciado": "Sobre a distribuição de requisições (IS nº 7/2011), a análise de viabilidade e a criticidade (IS nº 8/2011), conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A designação de peritos pode ser feita por qualquer sistema, e a análise de viabilidade deve ser concluída em 30 dias, sob pena de bloqueio total das funcionalidades do usuário, inclusive a emissão de novos laudos e a designação de outros peritos.",
+      "B": "A fila de atendimento é ordenada exclusivamente pela ordem cronológica de cadastro, independentemente da criticidade das requisições que aguardam atendimento na unidade de criminalística.",
+      "C": "Havendo inconformidades na requisição, o requisitante tem prazo de 10 dias para apresentar adequação, findo o qual a perícia é automaticamente arquivada, sem necessidade de providências do gestor.",
+      "D": "A fila é gerida pelo chefe da unidade, por cronologia dentro de cada criticidade; a análise de viabilidade tem prazo de 10 dias; e há bloqueio parcial após 10 dias sem cadastrar objetos ou sem fazer a análise de viabilidade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 13 (13.5), a fila é gerida pelo chefe da unidade, por cronologia dentro de cada criticidade; a análise de viabilidade tem prazo de 10 dias; e há bloqueio parcial após 10 dias sem objetos/análise. A tese da designação por qualquer sistema e viabilidade em 30 dias erra (designação só pelo Siscrim; viabilidade em 10 dias). A da fila só por cronologia erra (primeiro a criticidade). A do prazo de adequação em 10 dias com arquivamento automático erra (são 30 dias e o gestor toma providências).",
+    "referencia": "Cap. 13, Seções 13.5.1 a 13.5.3, p. 97-99",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
+    "enunciado": "Sobre a segurança na perícia criminal e a ordem de prioridade em exames de local, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A ordem de prioridade é: 1ª preservação dos vestígios; 2ª socorro aos feridos; 3ª manutenção da segurança da equipe policial e da população presente no local de crime examinado.",
+      "B": "O socorro aos feridos jamais pode prevalecer sobre a preservação dos vestígios, ainda que haja risco concreto e iminente de morte da vítima encontrada com vida no local de crime.",
+      "C": "O acesso ao laboratório de química é franqueado a todos os servidores da unidade, dispensado o uso de equipamentos de proteção individual durante a realização dos exames laboratoriais.",
+      "D": "A ordem é: 1ª manutenção da segurança; 2ª socorro aos feridos; 3ª preservação dos vestígios — devendo o socorro, quando necessário, sobrepor-se à preservação, com o mínimo de perda de provas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 13 (13.5.3), a ordem é: 1ª segurança, 2ª socorro aos feridos, 3ª preservação dos vestígios, podendo o socorro sobrepor-se à preservação, com o mínimo de perda de provas. A tese que inverte a ordem erra. A de que o socorro nunca prevalece sobre a preservação erra. A do laboratório de química com acesso livre e sem EPIs erra.",
+    "referencia": "Cap. 13, Seção 13.5.3, p. 100-101",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "enunciado": "Sobre as três grandes abordagens da probabilidade, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A abordagem frequentista define probabilidade como o limite da frequência relativa em um número infinito de repetições, mas não se aplica a eventos únicos, como a probabilidade de o suspeito ser o autor.",
+      "B": "A abordagem clássica aplica-se a qualquer situação, inclusive sem simetria natural, por definir a probabilidade de modo não circular e plenamente objetivo a partir dos resultados equiprováveis.",
+      "C": "A abordagem bayesiana (subjetiva) exclui o condicionamento à informação disponível, produzindo sempre o mesmo valor entre indivíduos distintos diante do mesmo evento ou da mesma proposição.",
+      "D": "A abordagem frequentista é a mais adequada para eventos únicos, pois prescinde de um conjunto de repetições equivalentes do experimento considerado na análise pericial dos vestígios."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo Cap. 17 (17.1), a frequentista define probabilidade como limite da frequência relativa em infinitas repetições e não se aplica a eventos únicos. A tese da clássica como universal e não circular erra (ela é circular e inaplicável sem simetria). A da bayesiana sem condicionamento erra (é grau de crença dada a informação, podendo variar entre indivíduos). A da frequentista para eventos únicos contradiz a sua limitação.",
+    "referencia": "Cap. 17, Seção 17.1, p. 145-146",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "enunciado": "Sobre as leis da probabilidade apresentadas no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Pela lei da multiplicação, para eventos quaisquer, Pr(J e K | E) = Pr(J|E) + Pr(K|E), independentemente de qualquer relação de dependência entre os eventos J e K considerados.",
+      "B": "Pela primeira lei, a probabilidade pode assumir valores negativos em certos casos, desde que se observe a condição de que Pr(H|H) seja sempre igual a 0 no condicionamento adotado.",
+      "C": "Pela lei da probabilidade total, Pr(H) é obtida multiplicando-se as probabilidades condicionais de H em relação a eventos que não sejam mutuamente exclusivos nem exaustivos entre si.",
+      "D": "Pela lei da adição, para eventos mutuamente exclusivos, Pr(G ou H | E) = Pr(G|E) + Pr(H|E), de onde decorre a regra do complemento Pr(H̄|E) = 1 - Pr(H|E)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 17 (17.1), a lei da adição (eventos mutuamente exclusivos) dá Pr(G ou H | E) = Pr(G|E) + Pr(H|E), de onde decorre Pr(H̄|E) = 1 - Pr(H|E). A tese da multiplicação como soma erra (é Pr(J|E) × Pr(K|J, E)). A dos valores negativos erra (a probabilidade vai de 0 a 1 e Pr(H|H) = 1). A da probabilidade total por multiplicação sobre eventos não exclusivos erra (é soma de produtos sobre eventos exclusivos e exaustivos).",
+    "referencia": "Cap. 17, Seção 17.1, p. 146-147",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "enunciado": "Sobre as odds, o Teorema de Bayes e a razão de verossimilhança, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As odds de uma hipótese H são dadas por Pr(H|E) × Pr(H̄|E), e o Teorema de Bayes estabelece que o estado final de crença é a soma do estado inicial com a força da evidência observada.",
+      "B": "A razão de verossimilhança é Pr(H|E) / Pr(H̄|E) e mede diretamente a probabilidade de a hipótese ser verdadeira dada a evidência observada no caso concreto submetido a exame.",
+      "C": "No Teorema de Bayes, o estado final de crença independe do estado inicial (priori), dependendo apenas e exclusivamente da razão de verossimilhança calculada a partir da evidência.",
+      "D": "As odds são a razão Pr(H|E) / Pr(H̄|E); por Bayes, Odds(H|E) = Odds(H) × [Pr(E|H) / Pr(E|H̄)], em que o termo entre colchetes é a razão de verossimilhança (a força da evidência)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 17 (17.2 e 17.3), odds = Pr(H|E)/Pr(H̄|E) e, por Bayes, Odds(H|E) = Odds(H) × [Pr(E|H)/Pr(E|H̄)], sendo o colchete a razão de verossimilhança. A tese das odds como produto e Bayes como soma erra. A que confunde a razão de verossimilhança com as odds erra. A de que o estado final independe da priori erra.",
+    "referencia": "Cap. 17, Seções 17.2 e 17.3, p. 147-148",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "enunciado": "Um perito conclui que a coincidência entre o perfil genético do vestígio e o do suspeito tem probabilidade aproximada de 1 sob a hipótese de que o suspeito é a fonte e de 1 em um milhão sob a hipótese de uma pessoa aleatória. Sobre a interpretação e a comunicação desse resultado, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A razão de verossimilhança é de 1 em um milhão, e dela se conclui diretamente a probabilidade de culpa do suspeito no processo penal em curso perante o juízo competente.",
+      "B": "Compete ao perito, com base na razão de verossimilhança, fixar a probabilidade de o suspeito ser o autor do crime, integrando as informações prévias do caso e enunciando ao juízo a probabilidade final de culpa.",
+      "C": "A afirmação de que 'a probabilidade de o suspeito não ser a fonte é de 1 em um milhão' é tecnicamente correta e equivale a Pr(E|H_defesa), expressando a força probatória da evidência.",
+      "D": "A razão de verossimilhança é de aproximadamente um milhão; afirmar, a partir dela, que 'a probabilidade de o suspeito não ser a fonte é de 1 em um milhão' incorre na falácia da transposição do condicional."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 17 (17.3 e 17.4), a razão de verossimilhança é ~1 milhão; transpor isso para 'probabilidade de o suspeito não ser a fonte = 1 em um milhão' é a falácia da transposição do condicional (confundir Pr(E|H) com Pr(H|E)). A tese da RV = 1 em um milhão e inferência de culpa erra. A de que cabe ao perito fixar a probabilidade de autoria erra (isso é do julgador). A de que a inversão é tecnicamente correta erra.",
+    "referencia": "Cap. 17, Seções 17.3 e 17.4, p. 148-149",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 17 - Inferência lógica",
+    "enunciado": "Sobre a comunicação da evidência pericial, o uso de escalas verbais e a noção de individualização, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As escalas verbais (ex.: 'evidência moderada', 'forte', 'muito forte') devem ser usadas isoladamente, dispensando os valores numéricos, por serem mais objetivas e claras ao destinatário do laudo.",
+      "B": "A abordagem moderna reforça a individualização categórica, por ser plenamente compatível com a interpretação probabilística rigorosa, mesmo nos exames de perfis genéticos de alta discriminação.",
+      "C": "Expressões categóricas como 'identificação' e 'correspondência absoluta' são recomendadas, pois refletem a natureza da evidência e devem substituir as razões de verossimilhança nos laudos periciais, sendo vedado o uso de escalas verbais qualitativas no relato.",
+      "D": "A comunicação desloca o foco para 'qual hipótese explica melhor o evento?'; recomenda-se acompanhar as expressões verbais dos valores numéricos da razão de verossimilhança; e a individualização é incompatível com a interpretação probabilística rigorosa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 17 (17.4), a comunicação desloca o foco para 'qual hipótese explica melhor o evento?', recomenda acompanhar as expressões verbais dos valores numéricos da razão de verossimilhança, e a individualização é incompatível com a interpretação probabilística rigorosa. A tese das escalas verbais isoladas erra (devem vir com números). A do reforço da individualização categórica erra. A de recomendar expressões categóricas erra.",
+    "referencia": "Cap. 17, Seção 17.4, p. 149-151",
+    "nivel": "dificil"
+  }
+]

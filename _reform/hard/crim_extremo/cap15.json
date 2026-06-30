@@ -1,0 +1,72 @@
+[
+  {
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "enunciado": "Sobre os modos de acesso ao SISCRIM apresentados na aula prática, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O acesso só é possível por usuário e senha, sendo o certificado digital utilizado exclusivamente para a leitura de laudos não sigilosos disponíveis no repositório do sistema da perícia.",
+      "B": "O login por certificado digital impede a posterior assinatura digital de laudos, exigindo nova autenticação por usuário e senha institucionais especificamente para a etapa de assinatura.",
+      "C": "O acesso por certificado digital dispensa qualquer vínculo com o padrão ICP-Brasil, bastando o uso de usuário e senha institucionais do servidor para autenticação e posterior assinatura.",
+      "D": "O acesso pode ser feito por usuário/senha ou por certificado digital; o login por certificado, além de mais seguro, já habilita o perito para as assinaturas digitais dos laudos no sistema."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 15 (15.1), há login por usuário/senha e por certificado digital, sendo este mais seguro e já habilitando o perito para as assinaturas digitais dos laudos. A tese de que só há usuário/senha erra. A de que o certificado impede a assinatura erra (ele a viabiliza). A de que dispensa o padrão ICP-Brasil erra.",
+    "referencia": "Cap. 15, Seção 15.1, p. 116",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "enunciado": "Recebidos a solicitação e os materiais (vestígios) na carga do perito, conforme a sequência de etapas de emissão de laudo do material, a ordem correta das ações seguintes é:",
+    "alternativas": {
+      "A": "relacrar os materiais; cadastrar os objetos de exame; deslacrar os materiais; elaborar o laudo; e, por fim, encaminhar à chefia.",
+      "B": "deslacrar os materiais; cadastrar os objetos de exame relacionados; elaborar o laudo; relacrar os materiais; e encaminhar laudo e materiais à chefia.",
+      "C": "elaborar o laudo; deslacrar os materiais; encaminhar à chefia; cadastrar os objetos de exame; e, ao final, relacrar os materiais examinados.",
+      "D": "cadastrar os objetos de exame; encaminhar à chefia; deslacrar os materiais; elaborar o laudo; e relacrar os materiais examinados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pelo Cap. 15 (15.2), após receber solicitação e materiais, a sequência é: deslacrar materiais, cadastrar objetos de exame, elaborar o laudo, relacrar os materiais e, por fim, encaminhar laudo e materiais à chefia. A ordem que relacra antes de deslacrar erra. A que elabora o laudo antes de deslacrar e encaminha antes de cadastrar/relacrar erra. A que encaminha antes de elaborar o laudo erra.",
+    "referencia": "Cap. 15, Seção 15.2, p. 124-133",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "enunciado": "Sobre a etapa de deslacração e relacração de materiais na emissão do laudo, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Ao deslacrar, o perito não precisa conferir o lacre anterior; e, ao relacrar, o lacre rompido deve ser descartado e o seu número apagado do sistema, por já não ter mais utilidade processual.",
+      "B": "A deslacração e a relacração são registradas apenas fisicamente, sem necessidade de registro no SISCRIM, desde que executadas pelo mesmo perito responsável pelos exames, dispensada a anexação de ficha de acompanhamento do vestígio.",
+      "C": "A relacração ocorre antes da elaboração do laudo, para que o material já saia da carga do perito enquanto o documento ainda está sendo redigido, agilizando a devolução à secretaria da unidade.",
+      "D": "Ao deslacrar, o perito confere se a integridade do lacre anterior condiz com o sistema; concluídos os exames, gera-se novo lacre na relacração, registrando-se seu número e mantendo-se o histórico do lacre rompido."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 15 (15.2), ao deslacrar o perito confere a integridade do lacre anterior com o sistema; após os exames, na relacração gera-se novo lacre, registra-se seu número e mantém-se o histórico do lacre rompido. A tese de não conferir o lacre e apagar o número erra. A do registro só físico erra. A de relacrar antes de elaborar o laudo erra (a relacração é posterior).",
+    "referencia": "Cap. 15, Seção 15.2, p. 125-133",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "enunciado": "Sobre o cadastramento de objetos de exame relacionados aos materiais, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Cada material apreendido corresponde sempre a um único objeto de exame, sendo vedado individualizar os elementos contidos em um mesmo invólucro recebido e custodiado pela perícia.",
+      "B": "Um único material pode conter múltiplos elementos a periciar (por exemplo, um invólucro com três celulares), cabendo ao perito individualizar e cadastrar cada objeto de exame separadamente.",
+      "C": "O cadastramento dos objetos de exame é feito após a emissão e o envio do laudo ao requisitante, apenas para fins estatísticos e de aferição da produtividade da unidade de criminalística.",
+      "D": "Os objetos de exame são cadastrados automaticamente pelo sistema no momento do recebimento dos materiais, sem qualquer intervenção do perito designado para o atendimento da requisição."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pelo Cap. 15 (15.2), um único material pode conter vários elementos a periciar (ex.: invólucro com três celulares), devendo o perito individualizar e cadastrar cada objeto de exame. A tese do material como objeto único erra. A do cadastramento após o envio do laudo erra (precede a elaboração). A do cadastramento automático erra (é feito pelo perito).",
+    "referencia": "Cap. 15, Seção 15.2, p. 126-127",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Aula prática (SISCRIM)",
+    "enunciado": "Sobre os widgets e recursos da tela inicial do SISCRIM apresentados na aula prática, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A tela inicial limita-se ao widget de pendências, não havendo recursos de produção, de materiais ou de plantão/sobreaviso disponíveis ao perito no painel inicial do sistema da criminalística.",
+      "B": "O organograma do SNC e o organograma da DITEC não integram a seção de Recursos Humanos, estando disponíveis apenas para o administrador do sistema e para os chefes das unidades regionais.",
+      "C": "O widget de materiais destina-se exclusivamente à consulta de aniversariantes do mês, não tendo qualquer relação com a cadeia de custódia dos vestígios sob a responsabilidade do perito.",
+      "D": "Há widgets de pendências, produção, materiais, dados do usuário e contato, plantão/sobreaviso e avisos, além de Recursos Humanos com agenda de funcionário, grupos e organogramas (DITEC e SNC)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 15 (15.1), a aula prática apresenta widgets de pendências, produção, materiais, dados do usuário/contato, plantão/sobreaviso e avisos, além de Recursos Humanos com agenda, grupos e organogramas (DITEC e SNC). A tese que limita a tela a pendências erra. A de que os organogramas não integram Recursos Humanos erra. A de que o widget de materiais é só para aniversariantes erra.",
+    "referencia": "Cap. 15, Seção 15.1, p. 116-123",
+    "nivel": "dificil"
+  }
+]

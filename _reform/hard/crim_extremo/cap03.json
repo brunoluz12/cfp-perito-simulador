@@ -1,0 +1,72 @@
+[
+  {
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "enunciado": "Sobre a natureza jurídica da função do Perito Criminal Federal e os diplomas que a estruturam, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A autonomia técnica do perito decorre diretamente do art. 159 do CPP, dispensando legislação específica da categoria, e o CPC/2015 tem aplicação principal e imediata, não subsidiária.",
+      "B": "A subordinação administrativa do perito à Polícia Federal alcança a escolha dos métodos analíticos e o teor das conclusões, desde que respeitada a vinculação técnica à DITEC.",
+      "C": "A Lei nº 12.030/2009 fundamenta a atividade pericial, com autonomia técnica, científica e funcional; subsidiariamente aplica-se o CPC/2015, que trata o perito como auxiliar da Justiça.",
+      "D": "As hipóteses de impedimento e suspeição dos magistrados não se estendem ao perito, por ser servidor policial sujeito apenas à hierarquia administrativa da Polícia Federal e à sua chefia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 3 (3.1), a Lei nº 12.030/2009 fundamenta a autonomia técnica, científica e funcional, e o CPC/2015 aplica-se subsidiariamente (perito como auxiliar da Justiça). A tese de que a autonomia decorre do art. 159 e que o CPC é principal erra (há lei específica; o CPC é subsidiário). A tese de que a subordinação alcança métodos e conclusões erra (jamais os alcança). A tese de que impedimento/suspeição não se estendem ao perito erra: os arts. 275 a 281 do CPP os estendem.",
+    "referencia": "Cap. 3, Seção 3.1, p. 27-28",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "enunciado": "Comunicada ao perito 'forte suspeita' contra um indivíduo durante um homicídio, sobre o ciclo da prova, a formulação de hipóteses e o viés cognitivo, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na Criminalística, formular hipóteses confunde-se com presumir a culpa, sendo legítimo ao perito incorporar a tese acusatória da equipe para orientar e direcionar os exames laboratoriais.",
+      "B": "A formulação de hipótese não se confunde com presunção de culpa; o perito verifica tecnicamente as hipóteses fáticas geradas pelos vestígios, com ceticismo metodológico em propriedades mensuráveis.",
+      "C": "O viés cognitivo é o desvio consciente e deliberado de racionalidade, decorrente de má-fé do perito, e por isso, em regra, configura o crime de falsa perícia previsto no Código Penal.",
+      "D": "Para preservar a imparcialidade, o perito deve recusar-se a formular qualquer hipótese, limitando-se a descrever os vestígios encontrados sem submetê-los a qualquer espécie de teste."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pelo Cap. 3 (3.2), formular hipótese não se confunde com presunção de culpa: o perito verifica tecnicamente as hipóteses fáticas (dinâmica e materialidade) geradas pelos vestígios, com ceticismo metodológico. A tese que equipara hipótese a presunção de culpa erra. A tese do viés 'consciente e deliberado' erra: o viés é desvio inconsciente. A tese de não formular hipóteses erra, pois o ciclo da prova inclui formular e testar hipóteses.",
+    "referencia": "Cap. 3, Seção 3.2, p. 28-29",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "enunciado": "Considere os quesitos: (i) 'Houve dolo do agente?'; (ii) 'O veículo trafegava acima do limite de velocidade?'. À luz do princípio da interpretação avaliativa e dos limites da atuação pericial, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Ambos os quesitos são adequados, pois ao perito incumbe responder a indagações jurídicas e técnicas para formar diretamente a convicção do magistrado sobre os fatos apurados.",
+      "B": "O quesito (i) é o tecnicamente adequado por ser mais amplo, enquanto o quesito (ii) deve ser recusado por ser excessivamente específico e restritivo ao objeto do exame pericial.",
+      "C": "Ambos os quesitos são inexequíveis, pois o perito não pode estabelecer hipóteses testáveis a partir de premissas formuladas pela autoridade requisitante no curso da investigação.",
+      "D": "O quesito (i) é inexequível, por exigir opinião categórica para além dos limites factuais da ciência, ao passo que o quesito (ii) estabelece uma hipótese testável e isenta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 3 (3.4), quesitos genéricos ou estritamente jurídicos ('houve dolo?') são inexequíveis (o perito não emite opinião categórica fora dos limites da ciência), enquanto o quesito de clareza técnica (velocidade) é hipótese testável e isenta. A tese de que ambos são adequados erra (o perito não responde a quesito jurídico). A que prefere o (i) inverte a adequação. A que diz ambos inexequíveis erra, pois o perito deve transformar premissas claras em hipóteses testáveis.",
+    "referencia": "Cap. 3, Seção 3.4, p. 30-31",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "enunciado": "Conforme a Portaria nº 1.192/2022-DITEC/PF, citada no material, sobre os elementos textuais do Laudo de Perícia Criminal Federal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São obrigatórios o preâmbulo, o objeto, o objetivo, o exame e a conclusão; o 'Histórico' é elemento facultativo, que pode aparecer logo após o preâmbulo do laudo pericial.",
+      "B": "O 'Histórico' é elemento obrigatório e destina-se a registrar a metodologia técnica e os equipamentos utilizados na análise dos vestígios examinados pelo perito designado.",
+      "C": "São obrigatórios apenas o preâmbulo, o exame e a conclusão, sendo o objeto e o objetivo facultativos por integrarem, em regra, a discussão dos resultados das análises realizadas.",
+      "D": "O registro da destinação final de cada vestígio examinado é facultativo e, quando feito, deve constar do preâmbulo do laudo, antes da descrição detalhada do objeto pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo Cap. 3 (3.5), a Portaria 1.192/2022 fixa como obrigatórios preâmbulo, objeto, objetivo, exame e conclusão, sendo o 'Histórico' facultativo (pode vir após o preâmbulo). A tese do Histórico obrigatório/metodologia erra: ele é facultativo e registra ocorrências conjunturais (interrupções, clima, atrasos). A tese que exclui objeto e objetivo do rol obrigatório erra. A tese do registro facultativo da destinação no preâmbulo erra: é obrigatório (art. 63) e fica na conclusão/resposta aos quesitos.",
+    "referencia": "Cap. 3, Seção 3.5, p. 31",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
+    "enunciado": "Sobre a complementaridade funcional na Polícia Federal e a relação do perito com a autoridade requisitante, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Delegado de Polícia Federal, ao requisitar perícia, exerce faculdade discricionária, podendo inclusive direcionar os métodos analíticos a serem empregados pelo perito no exame.",
+      "B": "Compete ao perito presidir o inquérito e coordenar a investigação, cabendo aos agentes e escrivães a produção da prova técnica e a guarda dos vestígios materiais coletados no local.",
+      "C": "A requisição de perícia é ato vinculado ao art. 158 do CPP, e a subordinação do perito na organização circunscreve-se à gestão administrativa, sem alcançar métodos ou conclusões.",
+      "D": "A perícia funciona como mero apêndice da polícia judiciária, sem qualquer função de controle ou de validação da investigação criminal e das hipóteses de trabalho da equipe."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 3 (3.1 e 3.2), a requisição é ato vinculado (art. 158) e a subordinação do perito limita-se à gestão administrativa, sem alcançar métodos/conclusões. A tese da faculdade discricionária e do direcionamento de métodos erra. A tese de que o perito preside o inquérito inverte papéis (quem preside é o delegado; o perito produz a prova técnica). A tese do 'mero apêndice' erra, pois a perícia é ferramenta central de controle e validação.",
+    "referencia": "Cap. 3, Seções 3.1 e 3.2, p. 28-29",
+    "nivel": "dificil"
+  }
+]
