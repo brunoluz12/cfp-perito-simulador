@@ -1,0 +1,80 @@
+[
+  {
+    "id": 409,
+    "enunciado": "Um cidadão comparece à Delegacia de Polícia Federal e comunica verbalmente a prática de crime de ação penal pública. Em seguida, o Ministério Público requisita a instauração de inquérito sobre o mesmo fato, e o Delegado verifica indícios de ilegalidade na condução do procedimento. Julgue os itens:\n\nI. Recebida a notitia criminis do cidadão, o Delegado deve instaurar o inquérito de imediato, reservando a verificação da procedência das informações para o curso da apuração.\nII. A requisição do Ministério Público, por seu caráter vinculante, deflagra o inquérito, cabendo eventual controle de legalidade ao Poder Judiciário, e não ao Delegado.\nIII. O Delegado deve atuar como primeiro garantidor da legalidade da investigação preliminar, sob pena de tornar-se coator da liberdade alheia.\nIV. Se deixa de atuar por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP); se atua em excesso, com manifesta má-fé e proveito pessoal, pode caracterizar-se o abuso de poder.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I e III.",
+      "B": "I, II e IV.",
+      "C": "II e IV.",
+      "D": "III e IV."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 1 (1.1.1), o item I é falso: o art. 5º, §3º, do CPP exige verificar a procedência das informações ANTES de instaurar, não depois. O item II é falso: o controle de legalidade da requisição cabe ao próprio Delegado (primeiro garantidor), sem prejuízo do juízo. Os itens III e IV são verdadeiros (garantidor da legalidade; prevaricação por omissão e abuso de poder por excesso). Logo, apenas III e IV.",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 15"
+  },
+  {
+    "id": 1996,
+    "enunciado": "Sobre os órgãos de segurança pública previstos no art. 144 da Constituição, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "As guardas municipais integram o rol do art. 144 e, nessa condição, exercem o policiamento ostensivo do patrimônio municipal e a apuração das infrações penais ali ocorridas.",
+      "B": "O Corpo de Bombeiros Militar figura no art. 144 como órgão de defesa civil, não se qualificando como órgão de segurança pública para os fins do referido dispositivo constitucional.",
+      "C": "O rol abrange a PF, a PRF, a PFF, as Polícias Civis, as Militares e os Corpos de Bombeiros, além das Polícias Penais (incluídas pela EC 104/2019).",
+      "D": "As Polícias Penais federal, estaduais e distrital constam do rol dos órgãos de segurança pública desde a redação originária da Constituição de 1988."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 1, o art. 144 abrange PF, PRF, PFF, Polícias Civis, Militares e Corpos de Bombeiros, além das Polícias Penais (EC 104/2019). A tese das guardas apurarem infrações erra: elas protegem o patrimônio municipal, sem função de polícia judiciária. A que exclui o Corpo de Bombeiros da segurança pública erra: ele integra o rol. A que situa as Polícias Penais na redação originária de 1988 erra: foram incluídas pela EC 104/2019.",
+    "referencia": "Cap. 1, Introdução, p. 13"
+  },
+  {
+    "id": 1997,
+    "enunciado": "Quanto à (in)dispensabilidade e à obrigatoriedade do inquérito policial, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "O inquérito é indispensável ao oferecimento da denúncia, ainda que o Ministério Público já disponha de outros elementos de prova suficientes para embasá-la.",
+      "B": "O inquérito é obrigatório para o delegado que toma conhecimento de infração de ação pública e também constitui condição para o oferecimento da denúncia pelo Ministério Público, que dele não pode prescindir ainda que disponha de outros elementos de prova.",
+      "C": "Nas infrações de menor potencial ofensivo, o inquérito é substituído pelo termo circunstanciado, cuja lavratura compete privativamente ao Ministério Público.",
+      "D": "Dispensável para a denúncia quando o Ministério Público já dispõe de elementos suficientes, mas obrigatório para o delegado; nos crimes de menor potencial ofensivo, é substituído pelo TCO (Lei 9.099/95)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 1, o inquérito é dispensável à denúncia quando o MP já tem elementos, mas obrigatório para o delegado após conhecer a infração; nas de menor potencial ofensivo, cabe o TCO. A tese da indispensabilidade à denúncia erra. A que o torna condição da denúncia erra (é dispensável para ela). A que atribui o TCO privativamente ao MP erra: sua lavratura é da autoridade policial.",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 15"
+  },
+  {
+    "id": 2195,
+    "enunciado": "No contexto de inserção da Criminalística, sobre a natureza das funções policiais do art. 144 da CF, assinale a afirmação tecnicamente correta.",
+    "alternativas": {
+      "A": "A polícia de função judiciária tem caráter repressivo e entra em ação após a prática da infração, com a missão de recolher os elementos que possibilitem a instauração da ação penal.",
+      "B": "A polícia administrativa, de caráter preventivo e ostensivo, é exercida pelas polícias civis, que atuam na manutenção da ordem pública antes da consumação do delito investigado.",
+      "C": "As guardas municipais, integrando o art. 144, exercem o policiamento ostensivo do patrimônio municipal e a apuração das infrações penais nele ocorridas na respectiva circunscrição.",
+      "D": "A polícia judiciária, de caráter repressivo, atua após o crime, tendo por missão precípua a preservação da ordem pública e da incolumidade das pessoas e do patrimônio."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o Cap. 1, a polícia de função judiciária é repressiva e atua após a infração, para recolher elementos à ação penal. A tese que atribui a polícia administrativa (preventiva/ostensiva) às polícias civis erra: ela é exercida por PM, rodoviária e ferroviária. A das guardas municipais apurarem infrações erra: protegem o patrimônio municipal, sem polícia judiciária. A última confunde a missão da polícia judiciária (apurar/recolher elementos) com a finalidade geral da segurança pública (preservar a ordem e a incolumidade).",
+    "referencia": "Cap. 1, Introdução e Seção 1.1, p. 13-14"
+  },
+  {
+    "id": 2198,
+    "enunciado": "Um delegado deixa de instaurar inquérito por sentimento pessoal de antipatia ao noticiante; em caso análogo, outro atua em excesso, com manifesta má-fé e em busca de proveito pessoal. Sobre a responsabilização, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Deixar de atuar por sentimento pessoal configura prevaricação; atuar em excesso, por sua vez, insere-se na discricionariedade do delegado quanto à conveniência de instaurar o inquérito.",
+      "B": "Deixar de atuar por sentimento pessoal caracteriza abuso de autoridade (Lei nº 4.898/65); atuar em excesso, com má-fé e proveito pessoal, configura a prevaricação do art. 319 do CP.",
+      "C": "As duas condutas amoldam-se ao crime de prevaricação (art. 319 do CP), por derivarem de interesse ou sentimento pessoal do agente no exercício da função de polícia judiciária.",
+      "D": "Deixar de atuar por sentimento pessoal pode configurar prevaricação (art. 319 do CP); atuar em excesso, com manifesta má-fé e busca de proveito pessoal, pode caracterizar abuso de poder."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 1 (1.1.1): a omissão por sentimento pessoal pode gerar prevaricação (art. 319 do CP); o excesso com má-fé e proveito pessoal pode configurar abuso de poder. A tese que trata o excesso como discricionariedade erra (há responsabilização). A que enquadra a omissão como abuso e o excesso como prevaricação inverte os institutos. A que reduz ambas à prevaricação ignora o excesso.",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 15"
+  },
+  {
+    "id": 2199,
+    "enunciado": "Acerca das atribuições constitucionais da Polícia Federal (art. 144, §1º, da CF) na inserção da Criminalística, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Compete-lhe apurar infrações de repercussão interestadual ou internacional que exijam repressão uniforme e exercer, com exclusividade, as funções de polícia judiciária da União.",
+      "B": "Compete-lhe apurar, com exclusividade, as infrações de repercussão interestadual, cabendo às polícias civis dos Estados as de repercussão internacional que exijam repressão uniforme.",
+      "C": "Compete-lhe apurar as infrações praticadas em detrimento de bens da União, ficando a repressão ao contrabando e ao descaminho reservada à ação fazendária e a outros órgãos.",
+      "D": "Compete-lhe exercer as funções de polícia marítima, aeroportuária e de fronteiras, cabendo-lhe ainda o policiamento ostensivo das rodovias federais em todo o território nacional."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo art. 144, §1º, da CF (Cap. 1), cabe à PF apurar infrações de repercussão interestadual/internacional com repressão uniforme e exercer com exclusividade a polícia judiciária da União. A tese que divide interestadual/internacional entre PF e polícias civis erra (ambas são da PF). A que reserva o contrabando/descaminho à ação fazendária erra: a PF os previne e reprime, sem prejuízo daquela ação. A do policiamento ostensivo das rodovias erra: essa é atribuição da Polícia Rodoviária Federal.",
+    "referencia": "Cap. 1, Seção 1.2, p. 15-16"
+  }
+]

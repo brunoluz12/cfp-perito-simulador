@@ -3190,15 +3190,15 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
     "tipo": "multipla_escolha",
-    "enunciado": "Um cidadão comparece à Delegacia de Polícia Federal e comunica verbalmente a prática de crime de ação penal pública. Em seguida, o Ministério Público requisita formalmente a instauração de inquérito sobre o mesmo fato, e o Delegado verifica indícios de ilegalidade na condução do procedimento. Sobre essa situação, julgue os itens a seguir:\n\nI. O simples encaminhamento da notitia criminis pelo cidadão obriga automaticamente o Delegado a instaurar o inquérito, sem qualquer controle de legalidade.\nII. A requisição do Ministério Público inicia imediatamente o inquérito policial, não havendo possibilidade de controle de legalidade pelo Delegado nem por intervenção judicial.\nIII. O Delegado deve atuar como o primeiro garantidor da legalidade do procedimento de investigação preliminar, sob pena de tornar-se coator da liberdade alheia.\nIV. Se o Delegado deixa de atuar por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP); se atua em excesso, com manifesta má-fé, em busca de proveito pessoal, pode caracterizar-se o abuso de autoridade.\n\nEstão corretos apenas os itens:",
+    "enunciado": "Um cidadão comparece à Delegacia de Polícia Federal e comunica verbalmente a prática de crime de ação penal pública. Em seguida, o Ministério Público requisita a instauração de inquérito sobre o mesmo fato, e o Delegado verifica indícios de ilegalidade na condução do procedimento. Julgue os itens:\n\nI. Recebida a notitia criminis do cidadão, o Delegado deve instaurar o inquérito de imediato, reservando a verificação da procedência das informações para o curso da apuração.\nII. A requisição do Ministério Público, por seu caráter vinculante, deflagra o inquérito, cabendo eventual controle de legalidade ao Poder Judiciário, e não ao Delegado.\nIII. O Delegado deve atuar como primeiro garantidor da legalidade da investigação preliminar, sob pena de tornar-se coator da liberdade alheia.\nIV. Se deixa de atuar por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP); se atua em excesso, com manifesta má-fé e proveito pessoal, pode caracterizar-se o abuso de poder.\n\nEstão corretos apenas os itens:",
     "alternativas": {
-      "A": "I e II, pois tanto a notícia do cidadão quanto a requisição ministerial vinculam o Delegado, que deve instaurar de imediato o inquérito sem qualquer juízo prévio de legalidade sobre o procedimento.",
-      "B": "II e III, pois a requisição do Ministério Público inicia imediatamente o inquérito e o Delegado, embora vinculado, ainda figura como garantidor da legalidade da investigação preliminar.",
-      "C": "I, III e IV, pois o encaminhamento da notícia obriga a instauração imediata e o Delegado responde por prevaricação ou abuso de autoridade conforme deixe de atuar ou atue em excesso no curso do procedimento.",
+      "A": "I e III.",
+      "B": "I, II e IV.",
+      "C": "II e IV.",
       "D": "III e IV."
     },
     "resposta_correta": "D",
-    "justificativa": "O texto afirma que 'não é o simples encaminhamento que irá gerar um inquérito policial e nem se inicia o inquérito policial imediatamente pela requisição (não há vedação a um controle de legalidade da requisição)', o que torna I e II incorretos. E que o Delegado 'deve ser o primeiro garantidor da legalidade do procedimento de investigação preliminar, para não ser o coator da liberdade alheia. Se deixa de atuar, por sentimento pessoal, pode incorrer em prevaricação (art. 319 do CP); se atua em excesso, com manifesta má-fé, em busca de proveito pessoal, pode haver a figura do abuso de poder'. Logo, somente III e IV estão corretos (D). As demais alternativas incluem I e/ou II, que são falsos.",
+    "justificativa": "Pelo Cap. 1 (1.1.1), o item I é falso: o art. 5º, §3º, do CPP exige verificar a procedência das informações ANTES de instaurar, não depois. O item II é falso: o controle de legalidade da requisição cabe ao próprio Delegado (primeiro garantidor), sem prejuízo do juízo. Os itens III e IV são verdadeiros (garantidor da legalidade; prevaricação por omissão e abuso de poder por excesso). Logo, apenas III e IV.",
     "referencia": "Cap. 1, Seção 1.1.1, p. 15",
     "nivel": "dificil"
   },
@@ -3224,16 +3224,16 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
-    "enunciado": "Em um congresso internacional sobre a história das ciências forenses, debate-se quando, de fato, a investigação criminal assumiu caráter técnico-científico formal e quais campos do conhecimento, antes do século XIX, já contribuíam de forma sistemática para a elucidação de crimes. Com base no material da disciplina, assinale a afirmação correta.",
+    "enunciado": "Em um congresso internacional sobre a história das ciências forenses, debate-se quando a investigação criminal assumiu caráter técnico-científico formal e quais campos do conhecimento, antes do século XIX, já contribuíam de forma sistemática para a elucidação de crimes. Com base no material, assinale a afirmação correta.",
     "alternativas": {
       "A": "A fase técnico-científica formal é bem recente; até o século XIX, praticamente só a Medicina emprestava conhecimentos científicos à investigação de alguns crimes, os perpetrados contra a integridade física humana.",
-      "B": "A fase técnico-científica formal da investigação policial é bem recente; até o final do século XIX, praticamente apenas a Química emprestava seus conhecimentos à investigação, sobretudo nos crimes patrimoniais e nos casos de envenenamento por arsênico.",
-      "C": "A fase técnico-científica formal já estava plenamente consolidada na Roma Antiga, quando o jurista Quintiliano, por volta do ano 1000, passou a aplicar rotineiramente impressões digitais a todos os crimes praticados contra o patrimônio.",
-      "D": "Antes do século XIX, Medicina, Química e Física já atuavam conjuntamente e de forma sistemática na investigação criminal, configurando uma fase técnico-científica plenamente estabelecida."
+      "B": "A fase técnico-científica formal remonta à Roma Antiga, quando Quintiliano empregou digitais ensanguentadas para inocentar um cego acusado da morte da própria mãe perante os tribunais romanos.",
+      "C": "Antes do século XIX, além da Medicina, também a Química já contribuía de forma sistemática para a investigação criminal, sobretudo nos exames toxicológicos de casos de envenenamento por arsênico.",
+      "D": "Até o final do século XIX, além da Medicina, a Física e a Biologia já atuavam de forma sistemática na elucidação de crimes patrimoniais, configurando uma fase técnico-científica bem estabelecida."
     },
     "resposta_correta": "A",
-    "justificativa": "Correta a alternativa A: o texto afirma que 'Formalmente, a fase técnico-científica da investigação policial é bem recente. Até o século XIX, praticamente, apenas a Medicina emprestava seus conhecimentos científicos à investigação de alguns crimes, precisamente, aqueles perpetrados contra a integridade física do ser humano.' B erra ao trocar Medicina por Química como campo central anterior ao século XIX. C é falsa: Quintiliano foi advogado romano e o uso de digitais ensanguentadas foi episódico, não rotineiro, e não consolidou nenhuma fase técnico-científica. D é falsa porque, até o século XIX, não havia atuação sistemática conjunta dessas ciências.",
-    "referencia": "Cap. 2, Introdução, p. 17",
+    "justificativa": "Pelo Cap. 2, a fase técnico-científica formal é recente; até o século XIX praticamente só a Medicina contribuía cientificamente, nos crimes contra a integridade física. A menção a Quintiliano é um fato real da linha do tempo, mas não representa uma 'fase técnico-científica formal' consolidada na Roma Antiga. A Química só passou a contribuir sistematicamente depois (Orfila, 1813). Física e Biologia atuando sistematicamente antes do século XIX também é incorreto.",
+    "referencia": "Cap. 2, Introdução, p. 18",
     "nivel": "facil"
   },
   {
@@ -3292,16 +3292,16 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
-    "enunciado": "No I Congresso Nacional de Polícia Técnica (1947), a Criminalística foi definida como a 'disciplina que tem por objetivo o reconhecimento e a interpretação dos indícios materiais extrínsecos relativos ao crime ou à identidade do criminoso', cabendo os exames dos vestígios intrínsecos (na pessoa) à Medicina Legal. Examinando essa definição à luz dos conceitos atuais, é correto afirmar que:",
+    "enunciado": "No I Congresso Nacional de Polícia Técnica (1947), a Criminalística foi definida como a 'disciplina que tem por objetivo o reconhecimento e a interpretação dos indícios materiais extrínsecos relativos ao crime ou à identidade do criminoso', cabendo os exames dos vestígios intrínsecos (na pessoa) à Medicina Legal. À luz dos conceitos atuais, é correto afirmar que:",
     "alternativas": {
       "A": "Talvez adequada àquele tempo, ela não expressa toda a missão da moderna Criminalística, hoje multidisciplinar, com Física, Química, Biologia, Engenharia, Informática e Medicina, entre outras.",
-      "B": "Essa definição expressa por completo a missão e o campo de ação da moderna Criminalística, sendo aplicada até hoje, sem qualquer alteração, por toda a Perícia Criminal Federal e estadual brasileira.",
-      "C": "Essa definição permanece plenamente atual quanto ao escopo, tendo sido apenas ampliada para incluir, além dos vestígios extrínsecos, também os exames psiquiátricos e sociológicos do criminoso reincidente.",
-      "D": "Essa definição extinguiu a Medicina Legal, que deixou de existir como ramo do conhecimento aplicado ao Direito após o congresso de 1947."
+      "B": "Concebida para a realidade de 1947, essa definição permanece integralmente adotada pela Perícia Criminal Federal, que a mantém como o conceito oficial e vigente de Criminalística.",
+      "C": "A definição permanece atual quanto ao escopo, tendo sido apenas ampliada para incluir, além dos vestígios extrínsecos, os exames psiquiátricos e sociológicos do criminoso reincidente.",
+      "D": "Ao reservar à Medicina Legal os vestígios intrínsecos, a definição de 1947 desmembrou-a da Criminalística, de modo que a Medicina Legal não é considerada ramo da Criminalística nem na definição moderna."
     },
     "resposta_correta": "A",
-    "justificativa": "Correta a alternativa A. O texto registra que 'Essa definição, talvez adequada àquele tempo, não expressa por completo a missão e o campo de ação da moderna Criminalística. A Criminalística de que falavam os congressistas de 1947 era muito voltada para os crimes contra a pessoa (...). Hoje (...) a Criminalística (...) é multidisciplinar, lança mão de conhecimentos científicos de campos diversos' — Física, Química, Biologia, Contabilidade, Engenharia, Informática, Agronomia e Medicina, entre outros. B é falsa porque a definição de 1947 não é mais aplicada sem alterações. C inventa a inclusão de exames psiquiátricos/sociológicos, que pertencem ao campo sociológico estranho à criminalística. D é falsa: a Medicina Legal não foi extinta — é hoje ramo da Criminalística.",
-    "referencia": "Cap. 2, Seção 2.2, p. 21-22",
+    "justificativa": "Pelo Cap. 2 (2.2), a definição de 1947 não expressa a missão da moderna Criminalística, hoje multidisciplinar. A tese de que ela permanece integralmente adotada erra (foi superada). A da ampliação para exames psiquiátricos/sociológicos erra (não é o objeto da Criminalística). A de que a Medicina Legal não é ramo da Criminalística nem hoje erra: na definição moderna (Rabelo), a Medicina Legal está compreendida na Criminalística.",
+    "referencia": "Cap. 2, Seção 2.2, p. 22",
     "nivel": "medio"
   },
   {
@@ -3309,16 +3309,16 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 2 - A Criminalística – História",
     "tipo": "multipla_escolha",
-    "enunciado": "Em exame cadavérico realizado isoladamente, o legista descreve a trajetória de entrada e saída de um projétil e conclui, com base apenas nesse dado, que o tiro foi disparado 'de cima para baixo'. Posteriormente, apura-se que a vítima pilotava uma motocicleta no momento do disparo — fato que altera a interpretação possível da trajetória. Esse exemplo, citado no texto, ilustra principalmente qual aspecto da Criminalística moderna?",
+    "enunciado": "Em exame cadavérico realizado isoladamente, o legista descreve a trajetória de entrada e saída de um projétil e conclui, com base apenas nesse dado, que o tiro foi disparado 'de cima para baixo'. Depois, apura-se que a vítima pilotava uma motocicleta no momento do disparo — fato que altera a interpretação da trajetória. Esse exemplo, citado no texto, ilustra principalmente qual aspecto da Criminalística moderna?",
     "alternativas": {
       "A": "A necessidade de equipe multidisciplinar atuando em conjunto desde o local de crime, dando coerência aos diversos vestígios, sem o que conclusões isoladas podem se mostrar equivocadas.",
-      "B": "A primazia absoluta da Medicina Legal sobre todos os demais ramos da Criminalística, pois somente o médico-legista estaria habilitado a interpretar trajetórias de projétil com plena validade técnica e jurídica.",
-      "C": "A suficiência do exame cadavérico completo, que torna dispensável o exame do local de crime, já que a Medicina Legal supre integralmente os demais ramos.",
-      "D": "A recomendação de que a Criminalística se restrinja à análise dos vestígios intrínsecos, deixando o exame do local de crime aos investigadores não periciais."
+      "B": "A repartição de competências pela qual a interpretação da trajetória do projétil cabe ao médico-legista, ficando os demais peritos restritos à documentação do local, sem incursão na dinâmica do disparo.",
+      "C": "A suficiência do exame cadavérico para estabelecer a dinâmica completa do disparo, cabendo ao exame de local apenas confirmar posteriormente a conclusão já firmada pelo legista no laudo.",
+      "D": "A conveniência de firmar a conclusão sobre a trajetória com base nos achados internos do cadáver, por serem menos sujeitos a alteração e a contaminação do que os vestígios do local de crime."
     },
     "resposta_correta": "A",
-    "justificativa": "Correta a alternativa A. O texto afirma que 'a Medicina e a Odontologia Forense fazem parte da equipe multidisciplinar que permite a atuação em conjunto desde o momento do exame do local de crime, trazendo muito mais coerência e correlação entre os resultados dos exames dos diversos tipos de vestígios encontrados', e exemplifica que a informação isolada da trajetória 'poderia levar a uma conclusão equivocada (...). Porém, se no local de crime fosse constatado que a vítima estava pilotando uma moto no momento do tiro, a conclusão poderia ser diferente'. B e C contrariam o texto, que defende a integração — e não a primazia ou suficiência isolada da Medicina Legal. D inverte a função da Criminalística no exame de local.",
-    "referencia": "Cap. 2, Seção 2.2, p. 22",
+    "justificativa": "Pelo Cap. 2 (2.2), o exemplo mostra a necessidade da equipe multidisciplinar atuando desde o local, sob pena de a conclusão isolada (tiro 'de cima para baixo') se revelar equivocada quando integrada ao contexto (vítima em moto). A repartição estanque de competências contraria a integração. A suficiência do exame cadavérico isolado é justamente o que o exemplo refuta. Firmar a trajetória só pelos achados internos ignora o contexto do local, que altera a interpretação.",
+    "referencia": "Cap. 2, Seção 2.2, p. 22-23",
     "nivel": "dificil"
   },
   {
@@ -28522,14 +28522,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os órgãos de segurança pública previstos no art. 144 da Constituição, conforme o material, é correto afirmar que:",
     "alternativas": {
-      "A": "As guardas municipais integram o rol do art. 144 da Constituição como órgãos de polícia judiciária responsáveis pela investigação criminal nos municípios.",
-      "B": "O Corpo de Bombeiros Militar não integra o rol constitucional dos órgãos de segurança pública do art. 144, por exercer atividade meramente administrativa.",
+      "A": "As guardas municipais integram o rol do art. 144 e, nessa condição, exercem o policiamento ostensivo do patrimônio municipal e a apuração das infrações penais ali ocorridas.",
+      "B": "O Corpo de Bombeiros Militar figura no art. 144 como órgão de defesa civil, não se qualificando como órgão de segurança pública para os fins do referido dispositivo constitucional.",
       "C": "O rol abrange a PF, a PRF, a PFF, as Polícias Civis, as Militares e os Corpos de Bombeiros, além das Polícias Penais (incluídas pela EC 104/2019).",
-      "D": "As Polícias Penais federal, estaduais e distrital foram incluídas no rol dos órgãos de segurança pública pela própria Constituição de 1988, já em sua redação originária."
+      "D": "As Polícias Penais federal, estaduais e distrital constam do rol dos órgãos de segurança pública desde a redação originária da Constituição de 1988."
     },
     "resposta_correta": "C",
-    "justificativa": "Conforme o material (Seção 1, art. 144 da CF): os órgãos de segurança pública são Polícia Federal, Polícia Rodoviária Federal, Polícia Ferroviária Federal, Polícias Civis, Polícias Militares e Corpos de Bombeiros Militares, e as Polícias Penais federal, estaduais e distrital — estas incluídas pela EC 104/2019 (C). A erra porque as guardas municipais não integram esse rol como polícia judiciária. B erra porque os Corpos de Bombeiros Militares integram o rol. D erra porque as Polícias Penais foram incluídas pela EC 104/2019, não na redação originária.",
-    "referencia": "Cap. 1, Seção 1 — Órgãos de segurança pública",
+    "justificativa": "Pelo Cap. 1, o art. 144 abrange PF, PRF, PFF, Polícias Civis, Militares e Corpos de Bombeiros, além das Polícias Penais (EC 104/2019). A tese das guardas apurarem infrações erra: elas protegem o patrimônio municipal, sem função de polícia judiciária. A que exclui o Corpo de Bombeiros da segurança pública erra: ele integra o rol. A que situa as Polícias Penais na redação originária de 1988 erra: foram incluídas pela EC 104/2019.",
+    "referencia": "Cap. 1, Introdução, p. 13",
     "nivel": "medio"
   },
   {
@@ -28539,14 +28539,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à (in)dispensabilidade e à obrigatoriedade do inquérito policial, conforme o material, é correto afirmar que:",
     "alternativas": {
-      "A": "O inquérito policial é indispensável ao oferecimento da denúncia, ainda que o Ministério Público já disponha de elementos de prova suficientes obtidos por outras vias de apuração.",
-      "B": "O inquérito policial é facultativo para o delegado de polícia, que pode deixar de instaurá-lo mesmo ao tomar conhecimento direto de uma infração penal de ação penal pública incondicionada.",
-      "C": "Nas infrações penais de menor potencial ofensivo, o inquérito policial é obrigatório e não pode ser substituído por outro instrumento de documentação dos fatos apurados.",
-      "D": "Dispensável para a denúncia se o MP já dispõe de elementos suficientes, mas obrigatório para o delegado; nos crimes de menor potencial ofensivo, é substituído pelo TCO (Lei 9.099/95)."
+      "A": "O inquérito é indispensável ao oferecimento da denúncia, ainda que o Ministério Público já disponha de outros elementos de prova suficientes para embasá-la.",
+      "B": "O inquérito é obrigatório para o delegado que toma conhecimento de infração de ação pública e também constitui condição para o oferecimento da denúncia pelo Ministério Público, que dele não pode prescindir ainda que disponha de outros elementos de prova.",
+      "C": "Nas infrações de menor potencial ofensivo, o inquérito é substituído pelo termo circunstanciado, cuja lavratura compete privativamente ao Ministério Público.",
+      "D": "Dispensável para a denúncia quando o Ministério Público já dispõe de elementos suficientes, mas obrigatório para o delegado; nos crimes de menor potencial ofensivo, é substituído pelo TCO (Lei 9.099/95)."
     },
     "resposta_correta": "D",
-    "justificativa": "Conforme o material (Seção 1.1.1): o inquérito é dispensável para a denúncia quando o MP já dispõe de elementos suficientes (materialidade e indícios de autoria) por outras vias, mas é obrigatório para o delegado ao tomar conhecimento da infração (princípio da oficiosidade); nas infrações de menor potencial ofensivo, a Lei 9.099/95 o torna dispensável, substituindo-o pelo TCO (D). A erra porque é dispensável nessa hipótese. B erra porque é obrigatório para o delegado. C erra porque, nas IMPO, cede lugar ao TCO.",
-    "referencia": "Cap. 1, Seção 1.1.1 — Inquérito policial",
+    "justificativa": "Pelo Cap. 1, o inquérito é dispensável à denúncia quando o MP já tem elementos, mas obrigatório para o delegado após conhecer a infração; nas de menor potencial ofensivo, cabe o TCO. A tese da indispensabilidade à denúncia erra. A que o torna condição da denúncia erra (é dispensável para ela). A que atribui o TCO privativamente ao MP erra: sua lavratura é da autoridade policial.",
+    "referencia": "Cap. 1, Seção 1.1.1, p. 15",
     "nivel": "dificil"
   },
   {
@@ -31906,12 +31906,12 @@ const questoesDB = [
     "enunciado": "No contexto de inserção da Criminalística, sobre a natureza das funções policiais do art. 144 da CF, assinale a afirmação tecnicamente correta.",
     "alternativas": {
       "A": "A polícia de função judiciária tem caráter repressivo e entra em ação após a prática da infração, com a missão de recolher os elementos que possibilitem a instauração da ação penal.",
-      "B": "A polícia administrativa, de caráter repressivo, é atribuição das polícias civis, às quais compete a apuração das infrações penais e da respectiva autoria após a consumação do delito.",
-      "C": "As guardas municipais, no exercício da função de polícia judiciária, encarregam-se da apuração das infrações penais ocorridas na circunscrição territorial do respectivo município.",
-      "D": "A polícia judiciária tem caráter preventivo e ostensivo, atuando antes da consumação do delito para preservar a ordem pública e a incolumidade das pessoas e do patrimônio público."
+      "B": "A polícia administrativa, de caráter preventivo e ostensivo, é exercida pelas polícias civis, que atuam na manutenção da ordem pública antes da consumação do delito investigado.",
+      "C": "As guardas municipais, integrando o art. 144, exercem o policiamento ostensivo do patrimônio municipal e a apuração das infrações penais nele ocorridas na respectiva circunscrição.",
+      "D": "A polícia judiciária, de caráter repressivo, atua após o crime, tendo por missão precípua a preservação da ordem pública e da incolumidade das pessoas e do patrimônio."
     },
     "resposta_correta": "A",
-    "justificativa": "Conforme o Cap. 1, a polícia de função judiciária é repressiva e atua após a infração, para recolher elementos à ação penal. A tese da polícia administrativa como repressiva a cargo das civis inverte a natureza (a administrativa é preventiva/ostensiva — PM, rodoviária e ferroviária — e as civis exercem polícia judiciária). A das guardas municipais erra o instituto: são força ostensiva de proteção do patrimônio dos municípios. A que atribui à polícia judiciária caráter preventivo/ostensivo inverte a sua natureza, que é repressiva e posterior ao crime.",
+    "justificativa": "Conforme o Cap. 1, a polícia de função judiciária é repressiva e atua após a infração, para recolher elementos à ação penal. A tese que atribui a polícia administrativa (preventiva/ostensiva) às polícias civis erra: ela é exercida por PM, rodoviária e ferroviária. A das guardas municipais apurarem infrações erra: protegem o patrimônio municipal, sem polícia judiciária. A última confunde a missão da polícia judiciária (apurar/recolher elementos) com a finalidade geral da segurança pública (preservar a ordem e a incolumidade).",
     "referencia": "Cap. 1, Introdução e Seção 1.1, p. 13-14",
     "nivel": "dificil"
   },
@@ -31956,13 +31956,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um delegado deixa de instaurar inquérito por sentimento pessoal de antipatia ao noticiante; em caso análogo, outro atua em excesso, com manifesta má-fé e em busca de proveito pessoal. Sobre a responsabilização, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "As duas condutas inserem-se na margem de conveniência do delegado quanto a instaurar ou não o inquérito, afastando-se, por isso, a responsabilização penal do agente público.",
+      "A": "Deixar de atuar por sentimento pessoal configura prevaricação; atuar em excesso, por sua vez, insere-se na discricionariedade do delegado quanto à conveniência de instaurar o inquérito.",
       "B": "Deixar de atuar por sentimento pessoal caracteriza abuso de autoridade (Lei nº 4.898/65); atuar em excesso, com má-fé e proveito pessoal, configura a prevaricação do art. 319 do CP.",
       "C": "As duas condutas amoldam-se ao crime de prevaricação (art. 319 do CP), por derivarem de interesse ou sentimento pessoal do agente no exercício da função de polícia judiciária.",
       "D": "Deixar de atuar por sentimento pessoal pode configurar prevaricação (art. 319 do CP); atuar em excesso, com manifesta má-fé e busca de proveito pessoal, pode caracterizar abuso de poder."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 1 (1.1.1): deixar de atuar por sentimento pessoal pode gerar prevaricação (art. 319 do CP); atuar em excesso, com má-fé e proveito pessoal, pode configurar abuso de poder. A tese que enquadra a omissão como abuso e o excesso como prevaricação inverte os institutos. A que reduz ambas à prevaricação ignora o excesso. A que afasta a responsabilização por conveniência erra: a atuação não é de livre conveniência e há responsabilização possível.",
+    "justificativa": "Pelo Cap. 1 (1.1.1): a omissão por sentimento pessoal pode gerar prevaricação (art. 319 do CP); o excesso com má-fé e proveito pessoal pode configurar abuso de poder. A tese que trata o excesso como discricionariedade erra (há responsabilização). A que enquadra a omissão como abuso e o excesso como prevaricação inverte os institutos. A que reduz ambas à prevaricação ignora o excesso.",
     "referencia": "Cap. 1, Seção 1.1.1, p. 15",
     "nivel": "dificil"
   },
@@ -31974,12 +31974,12 @@ const questoesDB = [
     "enunciado": "Acerca das atribuições constitucionais da Polícia Federal (art. 144, §1º, da CF) na inserção da Criminalística, assinale a alternativa correta.",
     "alternativas": {
       "A": "Compete-lhe apurar infrações de repercussão interestadual ou internacional que exijam repressão uniforme e exercer, com exclusividade, as funções de polícia judiciária da União.",
-      "B": "Compete-lhe exercer, com exclusividade, a apuração das infrações penais ocorridas no território nacional, inclusive daquelas afetas à competência das polícias civis dos Estados.",
+      "B": "Compete-lhe apurar, com exclusividade, as infrações de repercussão interestadual, cabendo às polícias civis dos Estados as de repercussão internacional que exijam repressão uniforme.",
       "C": "Compete-lhe apurar as infrações praticadas em detrimento de bens da União, ficando a repressão ao contrabando e ao descaminho reservada à ação fazendária e a outros órgãos.",
-      "D": "Compete-lhe exercer as funções de polícia marítima, aeroportuária e de fronteiras, cabendo-lhe também a prevenção ostensiva do tráfico de drogas em todo o território nacional."
+      "D": "Compete-lhe exercer as funções de polícia marítima, aeroportuária e de fronteiras, cabendo-lhe ainda o policiamento ostensivo das rodovias federais em todo o território nacional."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo art. 144, §1º, da CF (Cap. 1), cabe à PF apurar infrações de repercussão interestadual/internacional com repressão uniforme e exercer com exclusividade a polícia judiciária da União. A tese que reserva o contrabando/descaminho à ação fazendária erra: a PF os previne e reprime, sem prejuízo daquela ação. A que lhe atribui a apuração das infrações de competência das civis erra o âmbito de atuação. A da prevenção ostensiva do tráfico erra a função: a PF previne e reprime o tráfico, mas a atuação ostensiva é própria das polícias militares.",
+    "justificativa": "Pelo art. 144, §1º, da CF (Cap. 1), cabe à PF apurar infrações de repercussão interestadual/internacional com repressão uniforme e exercer com exclusividade a polícia judiciária da União. A tese que divide interestadual/internacional entre PF e polícias civis erra (ambas são da PF). A que reserva o contrabando/descaminho à ação fazendária erra: a PF os previne e reprime, sem prejuízo daquela ação. A do policiamento ostensivo das rodovias erra: essa é atribuição da Polícia Rodoviária Federal.",
     "referencia": "Cap. 1, Seção 1.2, p. 15-16",
     "nivel": "dificil"
   },

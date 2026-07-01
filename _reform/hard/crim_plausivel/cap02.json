@@ -1,0 +1,41 @@
+[
+  {
+    "id": 411,
+    "enunciado": "Em um congresso internacional sobre a história das ciências forenses, debate-se quando a investigação criminal assumiu caráter técnico-científico formal e quais campos do conhecimento, antes do século XIX, já contribuíam de forma sistemática para a elucidação de crimes. Com base no material, assinale a afirmação correta.",
+    "alternativas": {
+      "A": "A fase técnico-científica formal é bem recente; até o século XIX, praticamente só a Medicina emprestava conhecimentos científicos à investigação de alguns crimes, os perpetrados contra a integridade física humana.",
+      "B": "A fase técnico-científica formal remonta à Roma Antiga, quando Quintiliano empregou digitais ensanguentadas para inocentar um cego acusado da morte da própria mãe perante os tribunais romanos.",
+      "C": "Antes do século XIX, além da Medicina, também a Química já contribuía de forma sistemática para a investigação criminal, sobretudo nos exames toxicológicos de casos de envenenamento por arsênico.",
+      "D": "Até o final do século XIX, além da Medicina, a Física e a Biologia já atuavam de forma sistemática na elucidação de crimes patrimoniais, configurando uma fase técnico-científica bem estabelecida."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo Cap. 2, a fase técnico-científica formal é recente; até o século XIX praticamente só a Medicina contribuía cientificamente, nos crimes contra a integridade física. A menção a Quintiliano é um fato real da linha do tempo, mas não representa uma 'fase técnico-científica formal' consolidada na Roma Antiga. A Química só passou a contribuir sistematicamente depois (Orfila, 1813). Física e Biologia atuando sistematicamente antes do século XIX também é incorreto.",
+    "referencia": "Cap. 2, Introdução, p. 18"
+  },
+  {
+    "id": 418,
+    "enunciado": "No I Congresso Nacional de Polícia Técnica (1947), a Criminalística foi definida como a 'disciplina que tem por objetivo o reconhecimento e a interpretação dos indícios materiais extrínsecos relativos ao crime ou à identidade do criminoso', cabendo os exames dos vestígios intrínsecos (na pessoa) à Medicina Legal. À luz dos conceitos atuais, é correto afirmar que:",
+    "alternativas": {
+      "A": "Talvez adequada àquele tempo, ela não expressa toda a missão da moderna Criminalística, hoje multidisciplinar, com Física, Química, Biologia, Engenharia, Informática e Medicina, entre outras.",
+      "B": "Concebida para a realidade de 1947, essa definição permanece integralmente adotada pela Perícia Criminal Federal, que a mantém como o conceito oficial e vigente de Criminalística.",
+      "C": "A definição permanece atual quanto ao escopo, tendo sido apenas ampliada para incluir, além dos vestígios extrínsecos, os exames psiquiátricos e sociológicos do criminoso reincidente.",
+      "D": "Ao reservar à Medicina Legal os vestígios intrínsecos, a definição de 1947 desmembrou-a da Criminalística, de modo que a Medicina Legal não é considerada ramo da Criminalística nem na definição moderna."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo Cap. 2 (2.2), a definição de 1947 não expressa a missão da moderna Criminalística, hoje multidisciplinar. A tese de que ela permanece integralmente adotada erra (foi superada). A da ampliação para exames psiquiátricos/sociológicos erra (não é o objeto da Criminalística). A de que a Medicina Legal não é ramo da Criminalística nem hoje erra: na definição moderna (Rabelo), a Medicina Legal está compreendida na Criminalística.",
+    "referencia": "Cap. 2, Seção 2.2, p. 22"
+  },
+  {
+    "id": 419,
+    "enunciado": "Em exame cadavérico realizado isoladamente, o legista descreve a trajetória de entrada e saída de um projétil e conclui, com base apenas nesse dado, que o tiro foi disparado 'de cima para baixo'. Depois, apura-se que a vítima pilotava uma motocicleta no momento do disparo — fato que altera a interpretação da trajetória. Esse exemplo, citado no texto, ilustra principalmente qual aspecto da Criminalística moderna?",
+    "alternativas": {
+      "A": "A necessidade de equipe multidisciplinar atuando em conjunto desde o local de crime, dando coerência aos diversos vestígios, sem o que conclusões isoladas podem se mostrar equivocadas.",
+      "B": "A repartição de competências pela qual a interpretação da trajetória do projétil cabe ao médico-legista, ficando os demais peritos restritos à documentação do local, sem incursão na dinâmica do disparo.",
+      "C": "A suficiência do exame cadavérico para estabelecer a dinâmica completa do disparo, cabendo ao exame de local apenas confirmar posteriormente a conclusão já firmada pelo legista no laudo.",
+      "D": "A conveniência de firmar a conclusão sobre a trajetória com base nos achados internos do cadáver, por serem menos sujeitos a alteração e a contaminação do que os vestígios do local de crime."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo Cap. 2 (2.2), o exemplo mostra a necessidade da equipe multidisciplinar atuando desde o local, sob pena de a conclusão isolada (tiro 'de cima para baixo') se revelar equivocada quando integrada ao contexto (vítima em moto). A repartição estanque de competências contraria a integração. A suficiência do exame cadavérico isolado é justamente o que o exemplo refuta. Firmar a trajetória só pelos achados internos ignora o contexto do local, que altera a interpretação.",
+    "referencia": "Cap. 2, Seção 2.2, p. 22-23"
+  }
+]
