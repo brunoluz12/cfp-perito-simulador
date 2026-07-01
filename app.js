@@ -4203,8 +4203,9 @@ function notesAbrirVisualizacao(id) {
   .corpo img { max-width: 100%; height: auto; border-radius: 8px; }
   .corpo blockquote { border-left: 4px solid #cbd5e1; margin: 12px 0; padding: 4px 16px; color: #475569; }
   .corpo a { color: #2563eb; }
-  .corpo table { border-collapse: collapse; }
-  .corpo td, .corpo th { border: 1px solid #e2e8f0; padding: 8px; }
+  .corpo { overflow-wrap: anywhere; }
+  .corpo table { display: block; width: max-content; max-width: 100%; overflow-x: auto; border-collapse: collapse; -webkit-overflow-scrolling: touch; }
+  .corpo td, .corpo th { border: 1px solid #e2e8f0; padding: 8px; overflow-wrap: anywhere; }
   @media print { body { background: #fff; padding: 0; } .wrap { box-shadow: none; max-width: none; } }
 </style></head>
 <body><div class="wrap">
