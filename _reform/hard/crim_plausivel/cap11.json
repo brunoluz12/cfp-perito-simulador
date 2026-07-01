@@ -1,0 +1,41 @@
+[
+  {
+    "id": 2027,
+    "enunciado": "Sobre as embalagens de segurança na cadeia de custódia (art. 158-D), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A escolha da embalagem orienta-se pela disponibilidade de recipientes na unidade, e não pela natureza do material, desde que assegurada a resistência mínima do invólucro utilizado no acondicionamento.",
+      "B": "Os recipientes são selados com lacres cuja numeração identifica o lote de vestígios coletados na mesma diligência, medida que assegura a rastreabilidade do conjunto apreendido.",
+      "C": "O recipiente deve individualizar o vestígio e preservar as suas características, admitindo-se, para materiais secos e estáveis, dispensar a vedação contra contaminação e vazamento.",
+      "D": "A embalagem é determinada pela natureza do material, e os recipientes devem ser selados com lacres de numeração individualizada, garantindo a inviolabilidade e a idoneidade do vestígio."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo art. 158-D do CPP (Cap. 11), a embalagem é determinada pela natureza do material e os lacres têm numeração individualizada, garantindo inviolabilidade. A tese da escolha pela disponibilidade erra (é pela natureza). A do lacre por lote erra (a numeração é individualizada, por vestígio). A que dispensa a vedação contra contaminação/vazamento erra: o recipiente deve impedir contaminação e vazamento.",
+    "referencia": "Cap. 11, Seção 6, p. 73-74"
+  },
+  {
+    "id": 467,
+    "enunciado": "Concluídos os exames periciais sobre vestígios coletados em local de crime processado por perito criminal federal, surge dúvida quanto à destinação dos materiais examinados e do lacre inicial. Considerando a Mensagem Oficial-Circular da DITEC/PF de 5 de março de 2020 e as práticas do Capítulo 11, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O lacre inicial, após aberto, é substituído por novo lacre e descartado, cabendo ao perito acondicionar o material examinado em recipiente lacrado com nova numeração registrada no Siscrim.",
+      "B": "Findos os exames, os materiais examinados são devolvidos à autoridade requisitante, e os vestígios coletados em local de crime são encaminhados ao setor de arquivo da unidade para guarda documental.",
+      "C": "O material e o lacre inicial vão para novo recipiente lacrado; vestígios de local de crime ficam sob custódia da unidade até a destinação final e os demais são devolvidos com o laudo.",
+      "D": "Os materiais examinados e o lacre inicial são acondicionados em novo recipiente lacrado; os vestígios, inclusive os de local de crime, retornam à autoridade requisitante junto com o laudo, arquivada a respectiva requisição de perícia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 11 (Seção 4), o material e o lacre inicial são acondicionados em novo recipiente lacrado; os vestígios de local de crime permanecem sob custódia da unidade até a destinação final, e os demais são devolvidos com o laudo. Descartar o lacre inicial erra (ele é conservado/acondicionado). Enviar os de local de crime ao arquivo, ou devolvê-los todos à autoridade, erra: eles ficam sob custódia da unidade.",
+    "referencia": "Cap. 11, Seção 4, p. 71-72"
+  },
+  {
+    "id": 2248,
+    "enunciado": "Sobre a cadeia de custódia interna e a destinação dos vestígios após o laudo, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na recepção, a secretaria realiza a primeira conferência e, estando o recipiente lacrado e com numeração individualizada, procede à deslacração para conferir o conteúdo antes de registrar o material no Siscrim.",
+      "B": "Na recepção, vindo o vestígio lacrado, a secretaria confere os dados sem deslacrar; a ficha (IN 163/2020) registra o rompimento de lacres; e, faltando espaço, o gestor requer providências ao dirigente local (art. 158-F, parágrafo único).",
+      "C": "Concluído o laudo, os vestígios coletados em local de crime são devolvidos à autoridade requisitante junto com o laudo, permanecendo na central de custódia apenas os demais materiais examinados, conforme a destinação registrada no Siscrim pelo perito responsável pelo caso.",
+      "D": "A ficha de acompanhamento do vestígio (IN 163/2020) registra o rompimento de lacres e as novas numerações, sendo anexada ao material antes do seu ingresso na unidade de perícia criminal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pelo Cap. 11 (Seção 4), na recepção a secretaria confere os dados sem deslacrar; a ficha (IN 163/2020) registra o rompimento de lacres; e, faltando espaço, o gestor requer providências ao dirigente local (art. 158-F, §ún.). Deslacrar na recepção erra. Devolver os vestígios de local de crime (mantendo os demais) inverte a regra: os de local de crime é que permanecem sob custódia. Anexar a ficha 'antes do ingresso' erra: é após o ingresso na unidade.",
+    "referencia": "Cap. 11, Seção 4, p. 70-72"
+  }
+]
