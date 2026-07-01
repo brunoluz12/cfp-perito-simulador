@@ -3049,7 +3049,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Avaliação do estado de conservação do veículo',
                 'Intervenções estruturais e funcionais voltadas à prática de ilícitos',
                 'Sistemas para consulta',
-                'Procedimento de perícia'
+                'Procedimento de perícia',
+                'Revisão Estratégica: Normas e "Decoreba"'
             ]
         },
         'pvat_mod_2': {

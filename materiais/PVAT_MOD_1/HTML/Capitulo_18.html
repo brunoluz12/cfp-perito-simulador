@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 18 - Revisão Estratégica: Normas e Decoreba</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.3em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .ref-pagina { color: #718096; font-size: 0.85em; font-style: italic; }
+        /* Fluxogramas */
+        .flow { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 24px 0; }
+        .flow-step { background: #ebf8ff; border: 2px solid #3182ce; border-radius: 8px; padding: 10px 16px; text-align: center; max-width: 720px; font-weight: 600; color: #2c5282; }
+        .flow-arrow { color: #a0aec0; font-size: 1.6em; line-height: 1; margin: 4px 0; }
+        .flow-branch { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; align-items: stretch; margin: 8px 0; }
+        .flow-col { flex: 1; min-width: 230px; border-radius: 8px; padding: 14px; }
+        .flow-col h4 { margin: 0 0 8px; font-size: 1.05em; }
+        .flow-col ul { margin: 0; padding-left: 18px; }
+        .flow-col li { margin-bottom: 5px; }
+        .col-a { background: #ebf8ff; border: 2px solid #3182ce; }
+        .col-b { background: #f0fff4; border: 2px solid #38a169; }
+        .col-c { background: #fffaf0; border: 2px solid #dd6b20; }
+        .col-d { background: #faf5ff; border: 2px solid #805ad5; }
+        .vin-visual { display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; margin: 20px 0; font-family: monospace; }
+        .vin-block { padding: 10px 14px; border-radius: 6px; text-align: center; min-width: 150px; }
+        .vin-wmi { background: #ebf8ff; border: 2px solid #3182ce; }
+        .vin-vds { background: #f0fff4; border: 2px solid #38a169; }
+        .vin-vis { background: #fffaf0; border: 2px solid #dd6b20; }
+        .vin-block small { display:block; font-family:'Inter',sans-serif; color:#555; font-weight:600; margin-top:4px; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo I</span>
+        <h1>Capítulo 18 - Revisão Estratégica: Normas e "Decoreba"</h1>
+        <div class="subtitle">Identificação Veicular · pontos de maior incidência em prova</div>
+    </div>
+
+    <div class="box-red">
+        <span class="box-title">Como usar este capítulo</span>
+        <p>Este é um <strong>resumo de revisão</strong> que reúne, em um só lugar, os pontos normativos que mais exigem memorização (Res. 24/98, NBR 6066, Res. 968/22, métodos de gravação e a Portaria DITEC/PF nº 1563/2025), com <strong>mnemônicos</strong> e <strong>fluxogramas</strong>. Todo o conteúdo é extraído da apostila do Módulo I e da própria Portaria. As indicações <span class="ref-pagina">(p. X)</span> remetem à apostila.</p>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#evolucao">1. Fluxograma da evolução normativa</a></li>
+            <li><a href="#res24">2. Resolução CONTRAN nº 24/98 — o que mudou</a></li>
+            <li><a href="#nbr">3. NBR 6066:2022 — estrutura do VIN (17 caracteres)</a></li>
+            <li><a href="#tabela">4. Tabela do 10º dígito (ano-modelo)</a></li>
+            <li><a href="#res968">5. Resolução CONTRAN nº 968/22 (vigente) — decoreba</a></li>
+            <li><a href="#eta">6. ETA e identificação oculta (fluxogramas)</a></li>
+            <li><a href="#agregados">7. Motor, câmbio e tacógrafo (peça × etiqueta)</a></li>
+            <li><a href="#metodos">8. Métodos de gravação do VIN (fluxograma)</a></li>
+            <li><a href="#portaria">9. Portaria DITEC/PF nº 1563/2025</a></li>
+            <li><a href="#mnemonicos">10. Painel de mnemônicos</a></li>
+        </ul>
+    </div>
+
+    <!-- 1 -->
+    <div id="evolucao" class="section">
+        <h2>1. Fluxograma da evolução normativa</h2>
+        <p>A perícia é <strong>vinculada às regras vigentes à época</strong> da fabricação/registro do veículo — por isso é preciso dominar as fases sucessivas. <span class="ref-pagina">(p. 27)</span></p>
+        <div class="flow">
+            <div class="flow-step">NBR 6066:1980 — fundamentos da padronização do nº de chassi (profundidade mín. 0,2 mm)</div>
+            <div class="flow-arrow">▼</div>
+            <div class="flow-step">Res. CONTRAN nº 659/1985 (alterada pela 691/1988) — gravação do VIN no chassi/monobloco + VIS complementar</div>
+            <div class="flow-arrow">▼</div>
+            <div class="flow-step">Res. CONTRAN nº 24/1998 — mantém o núcleo; suprime a gravação no assoalho sob o banco; cria o ano de fabricação como item autônomo</div>
+            <div class="flow-arrow">▼</div>
+            <div class="flow-step">NBR 6066:2022 (18/05/2022) + Res. CONTRAN nº 968/2022 (vigente) — sistema integrado e identificação oculta obrigatória</div>
+        </div>
+        <div class="box-blue">
+            <span class="box-title">659/1985 (base, alterada pela 691/1988) — onde ficava o VIS <span class="ref-pagina">(p. 27)</span></span>
+            <p>Gravação principal do VIN no chassi/monobloco (mín. 1 ponto, NBR 6066:1980, 0,2 mm) + <strong>VIS</strong> (10ª a 18ª posições) por gravação, plaqueta (colada/soldada/rebitada) ou etiqueta autocolante <strong>destrutível</strong>, nos locais: assoalho sob um dos bancos dianteiros; coluna da porta dianteira lateral direita; compartimento do motor; um para-brisa e um vidro traseiro; ao menos dois vidros de cada lado (exceto quebra-ventos). Duas ou três rodas (salvo ciclomotor): mín. 2 pontos; reboques/semirreboques: 2 gravações no chassi.</p>
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div id="res24" class="section">
+        <h2>2. Resolução CONTRAN nº 24/1998 — o que mudou</h2>
+        <p>Em relação ao regime anterior, a Res. 24/98 <strong>manteve</strong> os elementos centrais (VIN no chassi/monobloco + VIS na coluna da porta dianteira direita, no compartimento do motor e nos vidros; duas gravações no chassi para reboques/semirreboques) e trouxe duas alterações principais. <span class="ref-pagina">(p. 28)</span></p>
+        <div class="flow-branch">
+            <div class="flow-col col-c">
+                <h4>➖ SUPRIMIU</h4>
+                <ul><li>A gravação no <strong>assoalho sob um dos bancos dianteiros</strong>.</li></ul>
+            </div>
+            <div class="flow-col col-b">
+                <h4>➕ INTRODUZIU</h4>
+                <ul><li>A identificação do <strong>ano de fabricação</strong> como <strong>item autônomo obrigatório</strong>.</li></ul>
+            </div>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — 24/98: "SAI o banco, ENTRA o ano"</span>
+            <strong>S</strong>uprime o assoalho sob o banco · <strong>A</strong>no de fabricação vira item autônomo.
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div id="nbr" class="section">
+        <h2>3. NBR 6066:2022 — estrutura do VIN (17 caracteres)</h2>
+        <p>A NBR 6066:2022 (em vigor desde 18/05/2022) padroniza o VIN e define-o como combinação obrigatória de <span class="destaque">17 caracteres alfanuméricos</span>, em <strong>3 seções</strong>. Aplica-se aos automotores e rebocados, <strong>excluindo os ciclomotores</strong> (regulamentação específica). <span class="ref-pagina">(p. 31)</span></p>
+        <div class="vin-visual">
+            <div class="vin-block vin-wmi"><strong>1 2 3</strong><small>WMI (3)<br>fabricante / país / área geográfica</small></div>
+            <div class="vin-block vin-vds"><strong>4 5 6 7 8 9</strong><small>VDS (6)<br>características gerais do veículo</small></div>
+            <div class="vin-block vin-vis"><strong>10 · 11 · 12–17</strong><small>VIS (8)<br>individualização do veículo</small></div>
+        </div>
+        <table>
+            <tr><th>Seção</th><th>Posições</th><th>Função</th></tr>
+            <tr><td><strong>WMI</strong> (World Manufacturer Identifier)</td><td>1 a 3</td><td>Identifica o fabricante/montadora (área geográfica e país). WMI tem validade mínima de 30 anos; a ABNT administra no Brasil.</td></tr>
+            <tr><td><strong>VDS</strong> (Vehicle Descriptor Section)</td><td>4 a 9</td><td>Descreve características gerais (tipo, modelo, carroceria, propulsão), conforme o fabricante.</td></tr>
+            <tr><td><strong>VIS</strong> (Vehicle Indicator Section)</td><td>10 a 17</td><td>Individualiza cada veículo. <span class="destaque">10ª = ano</span> (fabricação/modelo); <strong>11ª = planta de montagem</strong>; demais = nº sequencial de produção.</td></tr>
+        </table>
+        <div class="box-red">
+            <span class="box-title">Letras proibidas e forma</span>
+            <p>São <strong>vedadas as letras I, O e Q</strong> (confusão com algarismos). No documento, o VIN vai em <strong>linha única, sem divisores</strong>; no veículo, admitem-se divisores físicos (que não se confundam com caracteres). Gravação em 1 ou 2 linhas, <strong>sem espaços e sem omitir seção</strong>. <span class="ref-pagina">(p. 32-33)</span></p>
+        </div>
+        <div class="box-green">
+            <span class="box-title">Parâmetros físicos (NBR 6066:2022)</span>
+            <p>Profundidade <strong>mínima 0,2 mm</strong>. Altura mínima dos caracteres: <strong>7 mm</strong> quando gravado diretamente no veículo; <strong>4 mm</strong> quando em plaqueta. Fixação: gravação direta em componente estrutural não removível (chassi/monobloco) <em>ou</em> plaqueta permanentemente incorporada — em ambos, alto ou baixo relevo. <span class="ref-pagina">(p. 32-33)</span></p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — estrutura "3-6-8" e "IOQ fora"</span>
+            <strong>WMI 3 · VDS 6 · VIS 8 = 17.</strong> "Some 3+6+8". · <strong>Proibidas: I, O, Q.</strong> · <strong>10 = ano</strong>, <strong>11 = planta</strong>. · Profundidade <strong>0,2 mm</strong>; altura <strong>7</strong> (veículo) / <strong>4</strong> (plaqueta).
+        </div>
+    </div>
+
+    <!-- 4 -->
+    <div id="tabela" class="section">
+        <h2>4. Tabela do 10º dígito (ano-modelo)</h2>
+        <p>A 10ª posição do VIN indica o ano (fabricação/modelo) por meio de uma <strong>tabela cíclica</strong> de caracteres alfanuméricos (Tabela 1 da apostila; padrão NBR 6066/ISO 3779, ciclo de ~30 anos). Reprodução dos códigos mais recentes: <span class="ref-pagina">(p. 32)</span></p>
+        <table>
+            <tr><th>Cód.</th><th>Ano</th><th>Cód.</th><th>Ano</th><th>Cód.</th><th>Ano</th></tr>
+            <tr><td>A</td><td>2010</td><td>H</td><td>2017</td><td>R</td><td>2024</td></tr>
+            <tr><td>B</td><td>2011</td><td>J</td><td>2018</td><td>S</td><td>2025</td></tr>
+            <tr><td>C</td><td>2012</td><td>K</td><td>2019</td><td>T</td><td>2026</td></tr>
+            <tr><td>D</td><td>2013</td><td>L</td><td>2020</td><td>V</td><td>2027</td></tr>
+            <tr><td>E</td><td>2014</td><td>M</td><td>2021</td><td>W</td><td>2028</td></tr>
+            <tr><td>F</td><td>2015</td><td>N</td><td>2022</td><td>X</td><td>2029</td></tr>
+            <tr><td>G</td><td>2016</td><td>P</td><td>2023</td><td>Y</td><td>2030</td></tr>
+        </table>
+        <div class="box-orange">
+            <span class="box-title">Regras da tabela cíclica</span>
+            <p>Os anos <strong>2001 a 2009</strong> usam os algarismos <strong>1 a 9</strong>. Nas letras do ano, além de I, O e Q, <strong>não</strong> se usam <strong>U, Z</strong> nem o zero. Como o ciclo é de ~30 anos, um mesmo código se repete (ex.: <strong>A</strong> = 1980, 2010, 2040) — por isso a leitura do ano depende do conjunto (VIS/planta) e do confronto com a base de dados.</p>
+        </div>
+    </div>
+
+    <!-- 5 -->
+    <div id="res968" class="section">
+        <h2>5. Resolução CONTRAN nº 968/2022 (vigente) — decoreba</h2>
+        <p>A Res. 968/22 (art. 114 do CTB) consolida as regras e institui um <strong>sistema integrado</strong>, cumulativo e complementar: <strong>VIN + agregados</strong> (motor, câmbio, eixos, cabine, carroceria) <strong>+ ETA + vidros + plaquetas + identificação oculta</strong>. <span class="ref-pagina">(p. 28-30)</span></p>
+        <div class="box-blue">
+            <span class="box-title">VIN — o identificador primário</span>
+            <ul>
+                <li><strong>Gravação direta obrigatória</strong> no chassi/monobloco. <strong>Local preferencial: lado direito</strong> do chassi/monobloco.</li>
+                <li>Profundidade <strong>mín. 0,2 mm</strong>. Motos/ciclomotor/motoneta/triciclo/quadriciclo: altura <strong>mín. 4 mm</strong>, na coluna de suporte da direção ou no chassi. Reboques/semirreboques: 2ª gravação na <strong>longarina esquerda</strong>.</li>
+                <li>Chassi/monobloco <strong>não metálico</strong> → plaqueta metálica incorporada/moldada na fabricação, destrutível.</li>
+                <li><span class="destaque">Veda, como regra, a punção manual</span> (exceção: fabricantes de produção reduzida).</li>
+                <li>Exige uma <strong>2ª gravação do VIN por método alternativo</strong>: alto relevo, baixo relevo, plaqueta metálica destrutível ou ETA.</li>
+            </ul>
+        </div>
+        <div class="box-green">
+            <span class="box-title">Ano de fabricação (obrigatório)</span>
+            <p>Integra os sinais gravados no chassi/monobloco. Formas admitidas: ETA, plaqueta metálica destrutível, ou <strong>etiqueta destrutível única</strong> (ano + VIN/VIS). Se por gravação direta: nas <strong>imediações do VIN</strong>, em <strong>4 algarismos</strong>, profundidade 0,2 mm, altura 4 mm (motos) / 7 mm (demais).</p>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">VIS nos vidros</span>
+            <p>Em <strong>um para-brisa</strong> e <strong>um vidro traseiro</strong> (quando existentes) + <strong>ao menos dois vidros de cada lado</strong>, <strong>excluídos os quebra-ventos</strong>. (Regra mantida desde a 659/85.) <span class="ref-pagina">(p. 29, 35)</span></p>
+        </div>
+    </div>
+
+    <!-- 6 -->
+    <div id="eta" class="section">
+        <h2>6. ETA e identificação oculta (fluxogramas)</h2>
+        <h3>6.1. ETA — Etiqueta autocolante (Tipo) de segurança</h3>
+        <p>A ETA é etiqueta autocolante de segurança usada para portar VIN/VIS e o ano. Onde afixar depende da categoria: <span class="ref-pagina">(p. 29)</span></p>
+        <div class="flow-branch">
+            <div class="flow-col col-a">
+                <h4>Motos e afins</h4>
+                <p>(ciclomotor, motoneta, motocicleta, triciclo, quadriciclo)</p>
+                <ul><li><strong>Sob o assento</strong> ou na <strong>porção dianteira</strong> do veículo.</li></ul>
+            </div>
+            <div class="flow-col col-b">
+                <h4>Demais automotores</h4>
+                <ul><li>Uma ETA na <strong>coluna da porta dianteira direita</strong>;</li><li>outra no <strong>compartimento do motor</strong> (quando existir).</li></ul>
+            </div>
+            <div class="flow-col col-c">
+                <h4>Reboques / semirreboques</h4>
+                <ul><li>Em <strong>uma das longarinas</strong>, em local distinto das gravações do VIN;</li><li>admite-se substituir por <strong>plaqueta metálica</strong>.</li></ul>
+            </div>
+        </div>
+        <h3>6.2. Identificação oculta (obrigatória com a 968/22)</h3>
+        <p>Contém o <strong>VIN ou, alternativamente, o VIS</strong>, gravada em local <strong>a critério do fabricante</strong>, dentre as opções delimitadas pela Resolução. Certas categorias são <strong>dispensadas</strong>. <span class="ref-pagina">(p. 29-30, 44)</span></p>
+        <div class="flow-branch">
+            <div class="flow-col col-d"><h4>Onde pode estar</h4><ul>
+                <li>no <strong>monobloco</strong>;</li>
+                <li>no <strong>chassi</strong>;</li>
+                <li>na <strong>cabine</strong>; ou</li>
+                <li>na <strong>carroceria</strong> (ônibus e micro-ônibus).</li>
+            </ul></div>
+            <div class="flow-col col-a"><h4>Natureza (importa para a perícia)</h4><ul>
+                <li>Nasce da <strong>rastreabilidade interna</strong> da fábrica (logística, sequenciamento, qualidade) — em geral gravada <strong>antes do VIN definitivo</strong>.</li>
+                <li><strong>Sem padronização externa</strong>; não consta em bases oficiais abertas.</li>
+                <li>Decisiva em <strong>fraudes sofisticadas</strong>: individualiza o veículo mesmo com VIN/plaquetas adulterados.</li>
+            </ul></div>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — oculta: "Mo-Cha-Ca-Ca"</span>
+            <strong>Mo</strong>nobloco · <strong>Cha</strong>ssi · <strong>Ca</strong>bine · <strong>Ca</strong>rroceria (ônibus/micro-ônibus). Conteúdo: <strong>VIN ou VIS</strong>; local <strong>à escolha do fabricante</strong>.
+        </div>
+    </div>
+
+    <!-- 7 -->
+    <div id="agregados" class="section">
+        <h2>7. Motor, câmbio e tacógrafo (peça × etiqueta)</h2>
+        <div class="box-blue">
+            <span class="box-title">Motor</span>
+            <p>Numeração gravada <strong>diretamente no bloco</strong> do motor, em local de fácil acesso/visualização após a montagem (alto ou baixo relevo). Se <strong>não</strong> houver visibilidade direta → replicar no compartimento por <strong>etiqueta/plaqueta destrutível</strong>. Motos e afins: exigem <strong>2ª gravação</strong> do nº do motor em etiqueta/plaqueta. Motor elétrico: no bloco/carcaça/componente de tração (plaqueta destrutível). <span class="ref-pagina">(p. 30)</span></p>
+        </div>
+        <div class="box-green">
+            <span class="box-title">Câmbio, eixos, cabine e carroceria</span>
+            <p>Regra: <strong>prioriza-se a gravação DIRETA na peça</strong>, admitindo-se soluções alternativas (etiqueta/plaqueta) quando justificadas pelas características construtivas. Ou seja, o número do câmbio é, preferencialmente, <strong>gravado na própria peça</strong> (não em etiqueta). <span class="ref-pagina">(p. 30, 39)</span></p>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">Tacógrafo — selos e lacres (Inmetro)</span>
+            <p>Quando presente: <strong>selos adesivos</strong> nas <strong>faces externas</strong> do aparelho + um <strong>lacre plástico</strong> no <strong>cabo do velocímetro</strong>, junto ao ponto de conexão com o câmbio — função de evidenciar intervenções no sistema de medição. Não são identificadores diretos, mas são dados acessórios; consultáveis no site do <strong>Inmetro</strong>. <span class="ref-pagina">(p. 42)</span></p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — peça × etiqueta</span>
+            Regra-mãe da 968/22: <strong>"grava na peça; etiqueta só quando não dá"</strong>. Motor no <strong>bloco</strong>; câmbio/eixos/cabine/carroceria <strong>direto na peça</strong>. Tacógrafo: selo adesivo (faces) + lacre plástico (cabo do velocímetro).
+        </div>
+    </div>
+
+    <!-- 8 -->
+    <div id="metodos" class="section">
+        <h2>8. Métodos de gravação do VIN (fluxograma)</h2>
+        <p>Os métodos <strong>variam conforme o substrato</strong> e a planta de montagem — <strong>não são padronizados</strong> entre montadoras. Classificam-se por dois princípios físicos: <span class="ref-pagina">(p. 47-48)</span></p>
+        <div class="flow">
+            <div class="flow-step">Processos industriais de gravação do VIN</div>
+            <div class="flow-arrow">▼</div>
+            <div class="flow-branch">
+                <div class="flow-col col-a">
+                    <h4>Por DEFORMAÇÃO</h4>
+                    <ul>
+                        <li><strong>Estampagem</strong> (a frio): prensa, punção ou rolo. Deformação plástica; altera a estrutura cristalina; bordas levemente elevadas. Prensa/rolo = uniforme; punção manual = pequenos desalinhamentos.</li>
+                        <li><strong>Micropercussão / marcação por agulha</strong>: agulha dura impacta em sequência; pontos formam os caracteres. Serve em superfícies planas, côncavas ou convexas.</li>
+                    </ul>
+                </div>
+                <div class="flow-col col-c">
+                    <h4>Por REMOÇÃO</h4>
+                    <ul>
+                        <li><strong>Escrita mecânica (scribing)</strong>: fresa de metal duro, cortador de diamante ou pino endurecido removem material. Marcas profundas, suaves e contínuas.</li>
+                        <li><strong>Gravação a laser</strong>: sem contato, por ablação térmica; gera <strong>zona termicamente afetada (ZTA)</strong>. Marcação superficial, sem ressalto; <strong>menor robustez</strong> e menor resposta à restauração pericial.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — métodos: "DEForma × REMove"</span>
+            <strong>DEF</strong>ormação = <strong>E</strong>stampagem + Micro<strong>P</strong>ercussão (agulha). · <strong>REM</strong>oção = <strong>S</strong>cribing + <strong>L</strong>aser. Laser = ZTA, superficial, difícil de restaurar.
+        </div>
+        <div class="box-red">
+            <span class="box-title">Regravação fraudulenta × baixa regular</span>
+            <p><strong>Regravação (fraude)</strong>: remoção parcial/total do VIN (abrasão) + nova gravação + pintura para ocultar — um dos métodos mais usados por criminosos. <strong>Não é fraude</strong> a ausência do VIN decorrente de <strong>baixa do veículo</strong> (Res. 11/1998, alt. 113/2000 e 179/2005): as partes do chassi com o VIN são recolhidas ao órgão executivo de trânsito. <span class="ref-pagina">(p. 51-52)</span></p>
+        </div>
+    </div>
+
+    <!-- 9 -->
+    <div id="portaria" class="section">
+        <h2>9. Portaria DITEC/PF nº 1563/2025 (Exames Veiculares)</h2>
+        <p>Padroniza os procedimentos de perícia em veículos terrestres no SNC. Revogou a IT nº 21/2014-DITEC/DPF (art. 54). Casos omissos → <strong>INC</strong> (art. 53). Estrutura: Cap. I Finalidade · II Terminologia · III Análise de viabilidade · IV Atos preparatórios · V Exames · VI Disposições finais.</p>
+        <div class="box-blue">
+            <span class="box-title">Exame da identidade do veículo (Cap. V)</span>
+            <ul>
+                <li><strong>Art. 20</strong> — comparar os identificadores com a <strong>BIN</strong>, analisando no mínimo: <strong>placas + NIV (chassi/monobloco) + número do motor</strong> (justificando eventual inviabilidade).</li>
+                <li><strong>Art. 22</strong> — avaliação do NIV por <strong>exame ótico</strong>: alinhamento, espaçamento, forma, calibre e profundidade dos caracteres.</li>
+                <li><strong>Art. 23</strong> — <strong>aplicar solvente</strong> no local do NIV e no entorno (comportamento da tinta/indícios de adulteração); pode ser dispensado se a chance de fraude for irrisória.</li>
+                <li><strong>Art. 24</strong> — havendo suspeita, empregar <strong>técnicas de revelação de caracteres</strong>.</li>
+                <li><strong>Art. 26</strong> — pedir <strong>carta-laudo</strong> à montadora (agregado fora da BIN; adulteração do NIV sem revelação; outros casos).</li>
+            </ul>
+        </div>
+        <h3>9.1. Conclusão do laudo quanto à identificação (Art. 29) — decisão</h3>
+        <div class="flow">
+            <div class="flow-step">Formada (ou não) a convicção "para além da dúvida razoável" (art. 20)</div>
+            <div class="flow-arrow">▼</div>
+            <div class="flow-branch">
+                <div class="flow-col col-b"><h4>I — Sem adulteração</h4><p>Convicção de que os identificadores <strong>não</strong> foram adulterados.</p></div>
+                <div class="flow-col col-c"><h4>II — Adulterado + identidade real</h4><p>Houve adulteração e <strong>foi possível</strong> apontar a identidade real (prioritariamente por revelação de caracteres).</p></div>
+                <div class="flow-col col-c"><h4>III — Adulterado, sem identidade</h4><p>Houve adulteração, mas <strong>sem êxito</strong> na identificação da numeração original.</p></div>
+                <div class="flow-col col-d"><h4>IV — Inconclusão</h4><p><strong>Não</strong> foi possível concluir por integridade nem por adulteração; expor os achados.</p></div>
+            </div>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">Detalhes que caem</span>
+            <p>Conclusão I → o laudo cita/ilustra <strong>apenas PIVs, NIV e nº do motor</strong> (divergências de outros agregados vão em documento diverso arquivado no dossiê — art. 30). Conclusões II/III → registrar no laudo, de forma <strong>genérica</strong>, que a identificação decorreu de exames adicionais; o detalhamento vai em documento à parte (art. 31). PIV traseira: checar o <strong>lacre</strong> e usar a expressão <strong>"aparentemente"</strong> na integridade; no padrão Mercosul, avaliar o <strong>QR Code</strong> (art. 21).</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — Art. 29: "SIM / ACHOU / NÃO ACHOU / NÃO SEI"</span>
+            <strong>I</strong> sem adulteração · <strong>II</strong> adulterado e achou a identidade · <strong>III</strong> adulterado e não achou · <strong>IV</strong> inconclusivo. Base mínima do art. 20: <strong>"Placa, NIV e Motor" (PNM)</strong>.
+        </div>
+    </div>
+
+    <!-- 10 -->
+    <div id="mnemonicos" class="section">
+        <h2>10. Painel de mnemônicos</h2>
+        <table>
+            <tr><th>Tema</th><th>Mnemônico / número-chave</th></tr>
+            <tr><td>Estrutura do VIN</td><td><strong>3-6-8 = 17</strong> (WMI-VDS-VIS); letras proibidas <strong>I, O, Q</strong>.</td></tr>
+            <tr><td>Posições especiais do VIS</td><td><strong>10 = ano</strong>, <strong>11 = planta</strong> de montagem, resto = sequencial.</td></tr>
+            <tr><td>Física da gravação</td><td>Profundidade <strong>0,2 mm</strong>; altura <strong>7 mm</strong> (veículo) / <strong>4 mm</strong> (plaqueta).</td></tr>
+            <tr><td>Res. 24/98</td><td>"SAI o banco (assoalho), ENTRA o ano".</td></tr>
+            <tr><td>Res. 968/22 — VIN</td><td>Direta no chassi, <strong>lado direito</strong>; veda punção manual; 2ª gravação por método alternativo.</td></tr>
+            <tr><td>Identificação oculta</td><td>"Mo-Cha-Ca-Ca" (Monobloco, Chassi, Cabine, Carroceria); VIN <strong>ou</strong> VIS.</td></tr>
+            <tr><td>Métodos de gravação</td><td>"DEForma (Estampagem, Micropercussão) × REMove (Scribing, Laser)".</td></tr>
+            <tr><td>Portaria 1563/25 — base do exame</td><td>"PNM": <strong>P</strong>laca, <strong>N</strong>IV, <strong>M</strong>otor (art. 20) + solvente (art. 23).</td></tr>
+            <tr><td>Portaria 1563/25 — conclusão</td><td>Art. 29: 4 saídas (I sem / II achou / III não achou / IV inconclusivo).</td></tr>
+        </table>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body></html>
