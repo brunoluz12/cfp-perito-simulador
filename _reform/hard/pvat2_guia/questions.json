@@ -1,0 +1,450 @@
+[
+  {
+    "sec": "1. Fundamentos",
+    "enunciado": "Sobre a definição de Acidente de Trânsito adotada pela padronização da ABNT e a doutrina pericial da Polícia Federal, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A doutrina pericial busca a verdade real por meio da prova material, tomando os depoimentos como subsídio de caráter complementar.",
+      "B": "O evento caracteriza-se por ser não premeditado e exige que ao menos uma das partes esteja em movimento em via terrestre ou área aberta ao público.",
+      "C": "Configura-se com dano ao veículo ou à sua carga, ou ainda com lesões em pessoas ou em animais, decorrentes do evento.",
+      "D": "Para restar configurado, exige-se lesão corporal em ao menos uma pessoa, não bastando o dano puramente material ao veículo ou à carga."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A definição da ABNT abrange dano em veículo ou na carga E/OU lesões em pessoas e/ou animais — ou seja, o dano puramente material já configura o acidente, sendo falsa a exigência de lesão corporal (D). As demais reproduzem corretamente a definição (não premeditado, ao menos uma parte em movimento, via terrestre/área aberta) e a doutrina da verdade real por prova material.",
+    "referencia": "Cap. 12, Seção 1",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "1. Fundamentos",
+    "enunciado": "Ao periciar um acidente, o perito dispõe de depoimentos de testemunhas parcialmente divergentes e de um conjunto de vestígios materiais. Considerando a diretriz metodológica do material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A reconstrução da trajetória, o cálculo de velocidades e a determinação do sítio de impacto apoiam-se na evidência física, servindo os depoimentos de subsídio complementar.",
+      "B": "Depoimentos harmônicos entre si adquirem valor equivalente ao dos vestígios materiais na hipótese de serem corroborados por dois ou mais declarantes que tenham presenciado diretamente toda a dinâmica do evento.",
+      "C": "Havendo divergência entre a prova testemunhal e a material, prevalece a versão do condutor que detinha a preferência de passagem.",
+      "D": "A análise dinâmica pode prescindir dos vestígios materiais quando os depoimentos tiverem sido colhidos sob contraditório."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A diretriz metodológica determina que a análise dinâmica e técnica se funde exclusivamente em vestígios materiais, cabendo aos depoimentos papel apenas complementar (A). As demais elevam indevidamente a prova testemunhal ao patamar da material ou dispensam os vestígios, contrariando a diretriz.",
+    "referencia": "Cap. 12, Seção 1",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "1. Fundamentos",
+    "enunciado": "O material fixa o conceito de 'unidade de tráfego' para fins de análise pericial. Assinale a alternativa que corresponde a esse conceito.",
+    "alternativas": {
+      "A": "As partes que se encontravam em movimento no momento do sinistro, desconsiderados os elementos então em repouso.",
+      "B": "O conjunto formado por todos os veículos e pessoas que compartilhavam a mesma faixa de rolamento no instante imediatamente anterior ao impacto.",
+      "C": "Cada veículo automotor, pedestre, veículo de tração animal, veículo de propulsão humana ou animal de porte isolado envolvido no evento.",
+      "D": "Os veículos automotores e os de propulsão humana que estivessem regularmente habilitados a circular na via."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A unidade de tráfego é considerada individualmente: cada veículo automotor, pedestre, veículo de tração animal, veículo de propulsão humana ou animal de porte isolado envolvido no evento (C). As demais restringem indevidamente o rol (a elementos em movimento, a uma faixa, ou a habilitados).",
+    "referencia": "Cap. 12, Seção 1",
+    "nivel": "medio"
+  },
+  {
+    "sec": "2. Vias e limites",
+    "enunciado": "Em uma via urbana desprovida de sinalização de velocidade, o perito constata a presença de interseções semaforizadas e de acesso aos lotes lindeiros. Aplicando o Art. 61 do CTB, a classificação da via e o limite correspondente são:",
+    "alternativas": {
+      "A": "Via de trânsito rápido, 80 km/h.",
+      "B": "Via arterial, 60 km/h.",
+      "C": "Via coletora, 40 km/h.",
+      "D": "Via local, 30 km/h."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A via arterial caracteriza-se justamente por interseções semaforizadas e acesso aos lotes lindeiros, com limite de 60 km/h na ausência de sinalização (B). Trânsito rápido (80) não tem interseções em nível nem acesso direto a lotes; coletora (40) coleta e distribui o trânsito; local (30) tem interseções não semaforizadas.",
+    "referencia": "Cap. 12, Seção 2",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "2. Vias e limites",
+    "enunciado": "Um caminhão trafega em rodovia de pista simples que não dispõe de sinalização regulamentadora de velocidade. Conforme o Art. 61 do CTB, o limite aplicável é:",
+    "alternativas": {
+      "A": "110 km/h.",
+      "B": "100 km/h.",
+      "C": "80 km/h.",
+      "D": "90 km/h."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Em rodovia de pista simples, o limite para os 'demais veículos' (categoria do caminhão) é de 90 km/h (D). O valor de 100 km/h aplica-se a automóveis, camionetas e motocicletas em pista simples; 110 km/h é o limite dessas categorias em pista dupla.",
+    "referencia": "Cap. 12, Seção 2",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "2. Vias e limites",
+    "enunciado": "Acerca da classificação das vias e dos limites de velocidade do Art. 61 do CTB, aplicáveis na ausência de sinalização, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Na estrada, entendida como via rural não pavimentada, o limite é de 90 km/h para todos os veículos.",
+      "B": "Na via de trânsito rápido, sem interseções em nível e sem acesso direto a lotes, o limite é de 80 km/h.",
+      "C": "Nas rodovias de pista dupla, automóveis, camionetas e motocicletas observam 110 km/h, e os demais veículos, 90 km/h.",
+      "D": "A via coletora, destinada a coletar e distribuir o trânsito, tem limite de 40 km/h."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A estrada (via rural não pavimentada) tem limite de 60 km/h para todos os veículos, e não 90 km/h — por isso (A) é a incorreta. As demais reproduzem corretamente os limites: trânsito rápido 80, pista dupla 110/90 e coletora 40.",
+    "referencia": "Cap. 12, Seção 2",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "3. Componentes da via",
+    "enunciado": "Ao descrever o cenário no laudo, o perito deve empregar com precisão a terminologia dos componentes da via. Assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A pista é a marca aplicada diretamente sobre o pavimento para orientar a circulação de veículos.",
+      "B": "O acostamento é a parte da via adjacente à pista, destinada à parada de emergência ou à circulação de pedestres onde não houver calçada.",
+      "C": "A faixa de rolamento é a parte da via, geralmente elevada, destinada prioritariamente aos pedestres.",
+      "D": "A calçada é a subdivisão longitudinal da pista destinada à circulação de uma única fila de veículos que trafegam no mesmo sentido."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O acostamento é a parte adjacente à pista, para parada de emergência ou circulação de pedestres na falta de calçada (B). Em (A) descreve-se a sinalização horizontal; em (C), a calçada; em (D), a faixa de rolamento — todas atribuídas ao componente errado.",
+    "referencia": "Cap. 12, Seção 3",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "3. Componentes da via",
+    "enunciado": "Sobre os componentes físicos da via e sua terminologia, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A sinalização vertical compreende placas de regulamentação, advertência ou indicação, fixadas ao lado ou suspensas sobre a via.",
+      "B": "A faixa de rolamento é a subdivisão longitudinal da pista destinada à circulação de uma única fila de veículos.",
+      "C": "A sinalização horizontal abrange marcas, linhas e símbolos aplicados diretamente sobre o pavimento.",
+      "D": "A pista é a parte da via, geralmente elevada, delimitada por separadores e destinada prioritariamente aos pedestres."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A descrição de (D) mistura pista com calçada: a pista é a superfície destinada à circulação de veículos, delimitada por separadores ou desníveis — quem é 'geralmente elevada e destinada aos pedestres' é a calçada. As demais estão corretas.",
+    "referencia": "Cap. 12, Seção 3",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "3. Componentes da via",
+    "enunciado": "Em uma rodovia pavimentada sem calçada, existe, ao lado da pista, uma faixa destinada à parada de emergência dos veículos. Sobre a terminologia aplicável a essa faixa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se da calçada, por ser a área lateral à pista destinada aos pedestres.",
+      "B": "Trata-se de canteiro, elemento separador que delimita a pista.",
+      "C": "Trata-se do acostamento, que, na ausência de calçada, também serve à circulação de pedestres.",
+      "D": "Trata-se de faixa de rolamento adicional, pois integra a superfície de circulação de veículos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A faixa adjacente à pista para parada de emergência é o acostamento, que serve também à circulação de pedestres onde não há calçada (C). Não é calçada (destinada prioritariamente a pedestres e geralmente elevada), nem canteiro (separador), nem faixa de rolamento (fila de veículos em circulação).",
+    "referencia": "Cap. 12, Seção 3",
+    "nivel": "medio"
+  },
+  {
+    "sec": "4. Taxonomia",
+    "enunciado": "Sobre a tipificação das colisões apresentada no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na colisão traseira, a parte anterior de um veículo atinge a parte posterior de outro.",
+      "B": "Na colisão frontal, as laterais de ambos os veículos entram em contato.",
+      "C": "Na colisão lateral, a parte anterior de um veículo atinge a parte posterior do outro.",
+      "D": "A colisão com objeto fixo não se enquadra entre as espécies de colisão, por faltar outra unidade de tráfego."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Na colisão traseira, a parte anterior de um veículo atinge a posterior de outro (A). A frontal ocorre entre as partes anteriores (não as laterais); a lateral, entre as laterais de ambos; e a colisão com objeto fixo é expressamente arrolada como espécie de colisão.",
+    "referencia": "Cap. 12, Seção 4",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "4. Taxonomia",
+    "enunciado": "Após o sinistro, um veículo é encontrado apoiado sobre uma de suas laterais, tendo girado aproximadamente 90° em torno do eixo longitudinal horizontal. Segundo a taxonomia do material, o evento classifica-se como:",
+    "alternativas": {
+      "A": "Capotamento, em razão da rotação em torno do eixo longitudinal.",
+      "B": "Saída de pista, por abandono da superfície de rolamento sem colisão.",
+      "C": "Capotamento, dado o giro superior a 90° em torno do eixo transversal, com sucessivas mudanças da face de apoio do veículo sobre o solo.",
+      "D": "Tombamento, caracterizado por rotação de cerca de 90° em torno do eixo longitudinal horizontal, com repouso sobre a lateral."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O tombamento é a rotação de aproximadamente 90° em torno do eixo longitudinal horizontal, com o veículo em repouso sobre uma lateral (D). O capotamento pressupõe semigiro ou giros superiores a 90°; a saída de pista não envolve o giro descrito.",
+    "referencia": "Cap. 12, Seção 4",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "4. Taxonomia",
+    "enunciado": "A respeito da taxonomia dos acidentes de tráfego, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O capotamento envolve semigiro ou giros completos, superiores a 90°, em torno do eixo transversal ou longitudinal.",
+      "B": "O tombamento pressupõe giros completos em torno do eixo transversal, com repouso do veículo sobre o teto.",
+      "C": "A saída de pista consiste no abandono da superfície de rolamento sem colisão com obstáculos externos, ressalvados o meio-fio e pequenas estruturas como balizadores e tachões.",
+      "D": "Na colisão lateral há contato entre as laterais de ambos os veículos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O tombamento é a rotação de aproximadamente 90° em torno do eixo longitudinal horizontal, com repouso sobre a lateral — e não giros completos em torno do eixo transversal com repouso sobre o teto (isso aproxima-se do capotamento). Logo, (B) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 12, Seção 4",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "5. Vestígios e avarias",
+    "enunciado": "Em um local de acidente sob chuva, o perito observa marcas pneumáticas esbranquiçadas dispostas no sentido do deslocamento do veículo. Sobre as marcas pneumáticas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As marcas de derrapagem decorrem do travamento das rodas e reproduzem fielmente os sulcos do pneu no sentido longitudinal, preservando o desenho da banda de rodagem ao longo de toda a marca.",
+      "B": "Em pista seca, as marcas de frenagem tendem ao esbranquiçado, pela ausência de água que dissolva a borracha.",
+      "C": "As marcas de frenagem decorrem do travamento total ou parcial das rodas e, em pista molhada, tendem a apresentar-se esbranquiçadas pela remoção da película de sujidade e água.",
+      "D": "As marcas de frenagem, por resultarem de deslocamento lateral, dispõem-se transversalmente ao sentido de deslocamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As marcas de frenagem (skid marks) resultam do travamento total ou parcial das rodas; em pista molhada tendem a ser esbranquiçadas (limpeza da película de sujidade/água) e em pista seca, escuras (borracha fundida). São longitudinais. (A) troca frenagem por derrapagem e inverte a reprodução dos sulcos; (B) inverte seco/molhado; (D) atribui à frenagem o comportamento da derrapagem.",
+    "referencia": "Cap. 12, Seção 5",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "5. Vestígios e avarias",
+    "enunciado": "As marcas de derrapagem (yaw marks) distinguem-se das demais marcas pneumáticas por apresentarem:",
+    "alternativas": {
+      "A": "Calibre irregular e ausência de reprodução dos sulcos originais no sentido longitudinal, dispondo-se transversalmente ao deslocamento.",
+      "B": "Coloração escura e uniforme, decorrente da borracha fundida em pista seca.",
+      "C": "Orientação longitudinal, acompanhando o eixo de deslocamento do veículo.",
+      "D": "Origem no travamento total das rodas, sem influência da atuação no freio ou no acelerador, de modo que a inclinação das marcas permanece constante em toda a extensão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As yaw marks resultam do deslocamento lateral do pneu: têm calibre irregular, não reproduzem os sulcos originais no sentido longitudinal e dispõem-se transversalmente, com inclinação variável conforme o condutor esteja no freio, no acelerador ou 'livre' (A). As demais descrevem características da frenagem ou negam a influência do controle do condutor.",
+    "referencia": "Cap. 12, Seção 5",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "5. Vestígios e avarias",
+    "enunciado": "Na inspeção da lataria, o perito identifica, na chapa metálica, uma impressão que reproduz fidedignamente os contornos do obstáculo contra o qual o veículo colidiu. Essa avaria denomina-se:",
+    "alternativas": {
+      "A": "Empenamento, alteração da geometria estrutural por torção ou flexão.",
+      "B": "Estampamento, impressão que reproduz fidedignamente os contornos do obstáculo.",
+      "C": "Mossa, deformação de contornos suaves por corpo flácido ou deformável.",
+      "D": "Sanfonamento, deformação por compressão em que a chapa se dobra repetidamente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O estampamento é a impressão na chapa que reproduz fidedignamente os contornos do obstáculo (B). Empenamento é torção/flexão da estrutura; mossa é deformação de contornos suaves (corpo flácido/deformável); sanfonamento é o dobramento repetido por compressão (fole).",
+    "referencia": "Cap. 12, Seção 5",
+    "nivel": "medio"
+  },
+  {
+    "sec": "5. Vestígios e avarias",
+    "enunciado": "Sobre os tipos de avaria e o critério de recentidade, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O sanfonamento é a deformação por compressão em que a chapa se dobra repetidamente, à maneira de um fole.",
+      "B": "A mossa apresenta contornos suaves e sugere impacto por corpo flácido ou deformável.",
+      "C": "O empenamento consiste na alteração da geometria estrutural por torção ou flexão.",
+      "D": "Bordas suavizadas e superfícies oxidadas no metal exposto indicam avaria contemporânea ao evento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Bordas suavizadas e oxidação do metal exposto indicam avarias PRÉVIAS; os danos recentes exibem bordas nítidas e ausência de oxidação — por isso (D) é a incorreta. As definições de sanfonamento, mossa e empenamento estão corretas.",
+    "referencia": "Cap. 12, Seção 5",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "6. Sítios periciais",
+    "enunciado": "Na segmentação da cronologia espacial do acidente, o perito busca delimitar a área da via em que o condutor detecta o perigo iminente e inicia o processamento da informação visualizada. Essa área corresponde ao:",
+    "alternativas": {
+      "A": "Sítio de Repouso Final, onde o condutor detecta o perigo iminente.",
+      "B": "Sítio de Reação, onde ocorre a principal interação física entre os elementos e unidades de tráfego envolvidos no evento.",
+      "C": "Sítio de Percepção, onde o condutor detecta o perigo e inicia o processamento da informação.",
+      "D": "Sítio de Não Escapada, onde o condutor inicia a manobra evasiva."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O Sítio de Percepção (SP) é a área em que o condutor detecta o perigo iminente e inicia o processamento mental da informação (C). As demais atribuem essa descrição a sítios distintos (reação, repouso final, não escapada), com definições trocadas.",
+    "referencia": "Cap. 12, Seção 6",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "6. Sítios periciais",
+    "enunciado": "A respeito do Sítio de Colisão (SC) e sua distinção em relação ao Sítio do Acidente, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O SC é a área restrita onde ocorreu a principal interação física, não se confundindo com o Sítio do Acidente.",
+      "B": "O SC corresponde a toda a área examinada pelo perito, inclusive elementos distantes que influenciaram o fato.",
+      "C": "O SC coincide com o Sítio de Repouso Final das unidades de tráfego após o evento.",
+      "D": "O SC delimita a região a partir da qual o acidente se torna fisicamente inevitável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Sítio de Colisão é a área restrita da principal interação física, que não se confunde com o Sítio do Acidente (este engloba toda a área examinada, inclusive elementos distantes) — alternativa (A). (B) descreve o Sítio do Acidente; (C), o Repouso Final; (D), o Sítio de Não Escapada.",
+    "referencia": "Cap. 12, Seção 6",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "6. Sítios periciais",
+    "enunciado": "Sobre o Sítio de Não Escapada e a Distância Mínima de Escapada (DME), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A DME corresponde à distância de frenagem, medida a partir do início do travamento das rodas.",
+      "B": "Em uma das formas de análise mais aplicadas, a DME resulta da soma da distância de percepção-reação com a distância de frenagem necessária à parada segura.",
+      "C": "O Sítio de Não Escapada coincide com o ponto em que as unidades atingem o repouso final.",
+      "D": "A DME é a distância medida entre o Sítio de Percepção e o Sítio de Repouso Final, abrangendo todo o percurso do veículo desde o alerta visual até a imobilização."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Em uma das formas de análise mais aplicadas, a DME é a soma da distância de percepção-reação com a distância de frenagem necessária à parada segura (B). Reduzi-la só à frenagem (A), coincidi-la com o repouso final (C) ou defini-la como SP→SRF (D) contraria o material.",
+    "referencia": "Cap. 12, Seção 6",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "6. Sítios periciais",
+    "enunciado": "Acerca dos sítios periciais do acidente, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "No Sítio de Reação inicia-se a ação evasiva (frenagem, desvio) após o tempo de processamento mental.",
+      "B": "O Sítio de Repouso Final é a posição das unidades, dentro do Sítio do Acidente, após as interações do sinistro.",
+      "C": "O Sítio de Colisão engloba toda a área examinada pelo perito, inclusive elementos distantes que influenciaram o fato.",
+      "D": "No Sítio de Percepção o condutor detecta o perigo iminente e inicia o processamento da informação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quem engloba toda a área examinada (inclusive elementos distantes) é o Sítio do Acidente, não o Sítio de Colisão, que é a área restrita da interação física — por isso (C) é a incorreta. As demais descrevem corretamente os sítios de reação, repouso final e percepção.",
+    "referencia": "Cap. 12, Seção 6",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "7. Física",
+    "enunciado": "O perito precisa estimar a velocidade de um veículo a partir da distância percorrida em uma frenagem, sem dispor do tempo do movimento. Entre as equações do formulário, a adequada a essa situação é:",
+    "alternativas": {
+      "A": "v_m = Δs / Δt.",
+      "B": "v = v₀ + a·t.",
+      "C": "s = v₀·t + ½·a·t².",
+      "D": "v² = v₀² + 2·a·s."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A equação de Torricelli (v² = v₀² + 2·a·s) relaciona velocidades, aceleração e deslocamento sem envolver o tempo (D). As demais dependem explicitamente do tempo (Δt ou t).",
+    "referencia": "Cap. 12, Seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "7. Física",
+    "enunciado": "Na frenagem de um veículo até a parada total, o perito relaciona a energia cinética dissipada com o trabalho da força de atrito. A igualdade que expressa essa relação, conforme o formulário, é:",
+    "alternativas": {
+      "A": "E_c = F_at · d.",
+      "B": "E_c = μ · N.",
+      "C": "E_c = ½ · F_at · d².",
+      "D": "W = ½ · m · v · d."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Em frenagens, a energia cinética iguala-se ao trabalho da força de atrito: E_c = F_at · d (A). μ·N é a própria força de atrito (F_at), não a energia; as demais igualdades não constam do formulário e são dimensionalmente incorretas.",
+    "referencia": "Cap. 12, Seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "7. Física",
+    "enunciado": "Aplicando a fórmula física validada do tempo de frenagem por desaceleração constante (T_f = V₀ / (μ·g)), estime o tempo de frenagem de um veículo que trafegava a 108 km/h em asfalto seco (µ = 0,75), adotando g = 9,81 m/s².",
+    "alternativas": {
+      "A": "Aproximadamente 14,7 s.",
+      "B": "Aproximadamente 4,1 s.",
+      "C": "Aproximadamente 3,1 s.",
+      "D": "Aproximadamente 1,1 s."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Convertendo 108 km/h ÷ 3,6 = 30 m/s. T_f = V₀/(µ·g) = 30 / (0,75 × 9,81) = 30 / 7,3575 ≈ 4,1 s (B). O valor de 14,7 s resulta de esquecer a conversão para m/s; 3,1 s, de usar µ = 1,0; 1,1 s é o tempo de percepção-reação, alheio ao cálculo.",
+    "referencia": "Cap. 12, Seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "7. Física",
+    "enunciado": "Para determinar a velocidade-limite de um veículo em uma curva dotada de superelevação (e), o perito deve empregar a expressão:",
+    "alternativas": {
+      "A": "V_max = √(μ · g · R).",
+      "B": "V_max = (e + μ) · g · R.",
+      "C": "V_max = √[ (e − μ) · g · R / (1 + e·μ) ].",
+      "D": "V_max = √[ (e + μ) · g · R / (1 − e·μ) ]."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Com superelevação, V_max = √[ (e + μ)·g·R / (1 − e·μ) ] (D). A expressão √(μ·g·R) vale para curva SEM superelevação; (B) omite a raiz; (C) inverte os sinais de (e ± μ) e do denominador.",
+    "referencia": "Cap. 12, Seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "7. Física",
+    "enunciado": "Sobre a aplicação do princípio da conservação da quantidade de movimento às colisões, conforme o formulário, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No eixo da linha de impacto, m₁·v₁ᵢ + m₂·v₂ᵢ = m₁·v₁f + m₂·v₂f.",
+      "B": "A energia cinética total do sistema mantém-se inalterada mesmo nas colisões inelásticas.",
+      "C": "A conservação da quantidade de movimento pressupõe igualdade entre as massas dos veículos envolvidos.",
+      "D": "O princípio incide sobre a direção transversal à linha de impacto, e não sobre a longitudinal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A conservação da quantidade de movimento nas colisões, no eixo da linha de impacto, é m₁v₁ᵢ + m₂v₂ᵢ = m₁v₁f + m₂v₂f (A). A energia cinética não se conserva em colisões inelásticas; o princípio não exige massas iguais e é aplicado no eixo da linha de impacto.",
+    "referencia": "Cap. 12, Seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "7. Física",
+    "enunciado": "A respeito da decomposição da velocidade em componentes e das noções de velocidade de danos (V_d) e velocidade residual (V_r), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A velocidade de danos (V_d) é estimada a partir das marcas e vestígios deixados após a colisão, sendo obtida por cálculos físicos aplicados ao pós-impacto.",
+      "B": "A velocidade residual (V_r) relaciona-se à energia necessária para produzir os danos observados, sendo obtida essencialmente por métodos empíricos de comparação.",
+      "C": "A velocidade total pode ser obtida por V = √(V_d² + V_r²), combinando a velocidade de danos e a residual.",
+      "D": "As componentes longitudinal e transversal da velocidade somam-se aritmeticamente para compor a velocidade total."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A velocidade total resulta da composição da velocidade de danos e da residual: V = √(V_d² + V_r²) (C). A V_d relaciona-se à energia necessária para produzir os danos (métodos empíricos) e a V_r é estimada pelas marcas e vestígios após a colisão (cálculos físicos) — (A) e (B) invertem essas definições. As componentes perpendiculares combinam-se pela raiz da soma dos quadrados, não por soma aritmética (D).",
+    "referencia": "Cap. 12, Seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "8. Parâmetros",
+    "enunciado": "Não tendo sido realizados testes de campo, o perito adota o valor médio normatizado para o tempo de percepção-reação. Esse valor é:",
+    "alternativas": {
+      "A": "0,75 s, independentemente das condições do condutor.",
+      "B": "1,125 s, variável conforme as condições do condutor, da via e da visibilidade.",
+      "C": "2,5 s, correspondente ao tempo total de frenagem até a completa imobilização do veículo.",
+      "D": "1,5 s, reservado às vias rurais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O valor médio de percepção-reação é 1,125 s, variando conforme condições do condutor, da via e da visibilidade no momento do acidente (B). Os demais valores e as respectivas justificativas não constam do material.",
+    "referencia": "Cap. 12, Seção 8",
+    "nivel": "medio"
+  },
+  {
+    "sec": "8. Parâmetros",
+    "enunciado": "Sem ensaios locais disponíveis, o perito precisa adotar o coeficiente de atrito para um trecho de asfalto molhado. O intervalo de referência é:",
+    "alternativas": {
+      "A": "0,20 a 0,35.",
+      "B": "0,90 a 1,00.",
+      "C": "0,45 a 0,65, conforme o estado de conservação.",
+      "D": "0,70 a 0,80, conforme o estado de conservação e a textura do revestimento asfáltico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Em asfalto molhado, o fator de arrasto/coeficiente de atrito situa-se em torno de 0,45 a 0,65, conforme a conservação (C). O intervalo de 0,70 a 0,80 refere-se ao asfalto seco; os demais valores não constam do material.",
+    "referencia": "Cap. 12, Seção 8",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "8. Parâmetros",
+    "enunciado": "Acerca dos parâmetros biomecânicos e de atrito adotados na perícia, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O tempo de percepção-reação é um valor fixo de 1,125 s, insensível às condições de visibilidade e do condutor.",
+      "B": "Os parâmetros normatizados devem ser adotados na ausência de testes de campo, diante da impossibilidade de mensuração direta das condições no local.",
+      "C": "Em asfalto seco, o coeficiente de atrito situa-se entre 0,70 e 0,80, conforme a conservação.",
+      "D": "Em asfalto molhado, o coeficiente de atrito varia aproximadamente de 0,45 a 0,65."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O tempo de percepção-reação de 1,125 s é um valor MÉDIO que varia conforme condições do condutor, da via e da visibilidade — não um valor fixo e insensível a essas condições; logo (A) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 12, Seção 8",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "9. Causa determinante",
+    "enunciado": "No exame de um acidente, o perito precisa apontar sua causa determinante. Conforme o material, esse conceito corresponde:",
+    "alternativas": {
+      "A": "À infração administrativa de maior gravidade cometida por qualquer dos envolvidos, ainda que sem relação direta com o desfecho do sinistro.",
+      "B": "Ao conjunto de todos os fatores que contribuíram, em igual medida, para o resultado.",
+      "C": "À conduta atribuível ao condutor que sofreu as lesões de maior extensão.",
+      "D": "Ao fator primordial sem o qual o acidente não teria ocorrido, ou ao elemento preponderante que propiciou o evento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A causa determinante é o fator primordial sem o qual o acidente não teria ocorrido, ou o elemento preponderante que propiciou o evento (D). Não se confunde com a infração mais grave, com a divisão igualitária de todos os fatores, nem com a conduta do mais lesionado.",
+    "referencia": "Cap. 12, Seção 9",
+    "nivel": "medio"
+  },
+  {
+    "sec": "9. Causa determinante",
+    "enunciado": "Um veículo sem preferência intercepta a trajetória de outro que trafegava acima do limite. Os cálculos demonstram que a colisão ocorreria ainda que o veículo preferencial estivesse na velocidade regulamentar. Sobre a causa determinante, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A causa determinante é a velocidade excessiva, pois o excesso comprovado converte-se, por si, em causa do resultado.",
+      "B": "A ausência de preferência torna-se irrelevante diante do excesso de velocidade comprovado.",
+      "C": "A causa determinante é a interceptação de trajetória (falta de preferência), figurando a velocidade excessiva como fator agravante ou infração administrativa.",
+      "D": "Ambas as condutas dividem, em partes iguais, a condição de causa determinante, não sendo possível apontar um fator preponderante entre elas no contexto examinado pela perícia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Se a colisão seria inevitável mesmo na velocidade permitida, a causa determinante é a interceptação de trajetória (falta de preferência), e a velocidade excessiva passa a ser fator agravante ou infração administrativa (C). O excesso não se converte automaticamente em causa determinante, nem torna a preferência irrelevante, nem impõe divisão igualitária.",
+    "referencia": "Cap. 12, Seção 9",
+    "nivel": "dificil"
+  },
+  {
+    "sec": "9. Causa determinante",
+    "enunciado": "Sobre a análise da causa determinante em cenário de interceptação de trajetória, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Para que a velocidade excessiva seja causa determinante, o perito deve demonstrar que, na velocidade regulamentar, o acidente teria sido evitado.",
+      "B": "Comprovado o excesso de velocidade, este assume a condição de causa determinante independentemente do resultado dos cálculos de evitabilidade.",
+      "C": "Se a colisão se mostrar inevitável mesmo na velocidade permitida, a causa determinante desloca-se para a interceptação de trajetória.",
+      "D": "A velocidade excessiva pode ser classificada como fator agravante ou infração administrativa quando não for a causa determinante."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A qualificação da velocidade excessiva como causa determinante depende justamente dos cálculos de evitabilidade — não é automática pela só comprovação do excesso; por isso (B) é a incorreta. As demais reproduzem corretamente o raciocínio (prova da evitabilidade, deslocamento para a interceptação e classificação como agravante/infração).",
+    "referencia": "Cap. 12, Seção 9",
+    "nivel": "dificil"
+  }
+]
