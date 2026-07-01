@@ -3343,15 +3343,15 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
     "tipo": "multipla_escolha",
-    "enunciado": "Em um plantão, o Delegado de Polícia Federal determina ao Perito Criminal Federal que troque o método analítico empregado em determinado laudo, alegando que a investigação tática carece de uma \"conclusão mais firme\" para amparar a tese acusatória. O perito recusa-se, invocando sua autonomia. À luz do regime jurídico-funcional da função pericial e do diploma legal que a fundamenta, assinale a opção correta.",
+    "enunciado": "Em um plantão, o Delegado de Polícia Federal determina ao Perito Criminal Federal que troque o método analítico empregado em determinado laudo, alegando que a investigação carece de uma conclusão mais firme para amparar a tese acusatória. O perito recusa-se, invocando sua autonomia. À luz do regime jurídico-funcional da função pericial, assinale a opção correta.",
     "alternativas": {
-      "A": "A autonomia do perito é exclusivamente de natureza científica, razão pela qual cabe à autoridade que preside o inquérito policial definir e fixar os métodos analíticos sempre que a apuração demandar maior celeridade, eficiência ou produtividade no plantão.",
+      "A": "A autonomia do perito é exclusivamente científica; a fixação dos métodos analíticos, por integrar a direção da investigação, compete à autoridade que preside o inquérito policial no caso.",
       "B": "A Lei n.º 12.030/2009 fundamenta a perícia criminal e assegura autonomia técnica, científica e funcional, de modo que a subordinação do perito é apenas administrativa, sem alcançar métodos nem conclusões.",
-      "C": "Por força do poder de presidência do inquérito policial, o Delegado detém hierarquia plena e irrestrita sobre o perito, podendo determinar tanto a metodologia analítica quanto o próprio teor das conclusões periciais, ressalvada apenas a vedação à fraude documental.",
-      "D": "A autonomia técnica do perito é garantida pela Lei n.º 12.030/2009, mas cede diante de requisição fundamentada da autoridade policial, que poderá redirecionar a metodologia adotada sempre que os prazos do inquérito estiverem comprometidos por circunstâncias excepcionais."
+      "C": "O poder de presidência do inquérito confere ao Delegado a prerrogativa de definir a metodologia analítica do exame, embora não alcance o teor final das conclusões periciais registradas no laudo.",
+      "D": "A autonomia técnica do perito cede diante de requisição fundamentada da autoridade, que poderá redirecionar a metodologia adotada sempre que os prazos do inquérito estiverem comprometidos por circunstâncias excepcionais."
     },
     "resposta_correta": "B",
-    "justificativa": "Correta a letra B: a Lei n.º 12.030/2009 constitui o fundamento jurídico da atividade pericial criminal e garante plena autonomia técnica, científica e funcional, de modo que a subordinação do perito no interior da organização policial circunscreve-se à gestão administrativa, jamais se estendendo à escolha dos métodos analíticos ou às conclusões exaradas nos laudos. A é falsa porque a autonomia não é apenas científica e o Delegado não define métodos por pressão de produtividade. C é falsa porque a presidência do inquérito não confere hierarquia técnica sobre métodos e conclusões. D é falsa porque a autonomia não cede diante de requisição nem de prazos do inquérito.",
+    "justificativa": "Pelo Cap. 3 (3.1), a Lei 12.030/2009 assegura autonomia técnica, científica e funcional; a subordinação é apenas administrativa, sem alcançar métodos nem conclusões. As teses de que a autonomia é 'só científica' e de que o Delegado fixa a metodologia (ainda que não as conclusões) erram: os métodos também são protegidos. A de que a autonomia cede a requisição fundamentada por prazo erra: método e conclusão não sofrem ingerência.",
     "referencia": "Cap. 3, Seção 3.1, p. 27-28",
     "nivel": "medio"
   },
@@ -3379,14 +3379,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em flagrante relacionado a tráfico de drogas, o Perito Criminal Federal é acionado em regime de sobreaviso para confeccionar laudo de constatação preliminar, indispensável à lavratura do auto de prisão. Ao chegar, constata que policiais movimentam objetos da cena de forma desordenada, sob intensa pressão de tempo. Conforme a atuação operacional descrita no Capítulo, a conduta pericial tecnicamente correta é",
     "alternativas": {
-      "A": "interagir de modo assertivo com a equipe, orientar os isolamentos e balizar a atuação tática, de sorte que a urgência jamais se sobreponha à cadeia de custódia nem ao método científico.",
-      "B": "priorizar a redação imediata e integral do laudo, sem qualquer interferência na atuação tática, uma vez que, no flagrante, a urgência operacional prevalece de forma absoluta sobre o método científico de coleta dos vestígios.",
-      "C": "abster-se de toda e qualquer atuação em campo e aguardar passivamente o transporte dos vestígios até o laboratório central, pois o regime de sobreaviso veda expressamente a realização de exames presenciais na cena.",
-      "D": "recusar-se a atuar até a chegada formal do Delegado de Polícia ao local, já que, em regime de sobreaviso, o perito não possui qualquer autoridade para orientar a equipe que guarnece a cena do crime."
+      "A": "interagir de modo assertivo com a equipe, orientar os isolamentos e balizar a atuação tática, de sorte que a urgência não se sobreponha à cadeia de custódia nem ao método científico.",
+      "B": "priorizar a redação imediata do laudo de constatação, sem interferir na atuação tática, pois a análise da cena competirá à equipe de perícia de local em diligência posterior ao flagrante.",
+      "C": "orientar somente o isolamento externo do perímetro, abstendo-se de balizar a coleta, que, no flagrante, fica a cargo da autoridade policial condutora da prisão em razão da urgência.",
+      "D": "documentar a cena por fotografias e aguardar o encaminhamento dos vestígios ao laboratório, deixando a orientação da equipe para o perito que venha a assumir o caso na fase seguinte."
     },
     "resposta_correta": "A",
-    "justificativa": "Correta a letra A: o texto afirma que \"a interação do perito com a equipe de policiais que guarnece o local deve ser assertiva, mesmo sob forte restrição temporal e pressão investigativa inerente aos flagrantes; o profissional deve orientar os isolamentos e balizar a atuação tática, garantindo que a urgência operacional jamais se sobreponha à preservação da cadeia de custódia e ao rigor do método científico na coleta da prova silente\". B é falsa porque a urgência jamais se sobrepõe ao método. C é falsa porque o sobreaviso não veda exames presenciais — ao contrário, demanda atuação ágil em campo. D é falsa porque o perito tem autonomia e dever de balizar a cena sem aguardar o Delegado.",
-    "referencia": "Cap. 3, Seção 3.3, p. 29",
+    "justificativa": "Pelo Cap. 3 (3.3), o perito deve interagir assertivamente, orientar o isolamento e balizar a atuação tática, sem que a urgência se sobreponha à cadeia de custódia e ao método. As demais fracionam ou terceirizam essa atuação: deixar a análise da cena para diligência posterior, restringir-se ao isolamento externo ou apenas fotografar e aguardar contrariam o dever de controlar a cena e preservar os vestígios no próprio flagrante.",
+    "referencia": "Cap. 3, Seção 3.3, p. 29-30",
     "nivel": "medio"
   },
   {
@@ -3394,16 +3394,16 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
     "tipo": "multipla_escolha",
-    "enunciado": "Em requisição de perícia de acidente de trânsito, a Autoridade Policial formula os quesitos: (i) \"houve dolo do condutor?\"; (ii) \"quem é o culpado pelo acidente?\"; (iii) \"o veículo estava acima do limite de velocidade da via no momento do impacto?\". O perito avalia a viabilidade técnica de cada questionamento. Com base no princípio da interpretação avaliativa e na função dos quesitos, assinale a opção correta.",
+    "enunciado": "Em requisição de perícia de acidente de trânsito, a Autoridade Policial formula os quesitos: (i) 'houve dolo do condutor?'; (ii) 'quem é o culpado pelo acidente?'; (iii) 'o veículo estava acima do limite de velocidade da via no momento do impacto?'. Com base no princípio da interpretação avaliativa e na função dos quesitos, assinale a opção correta.",
     "alternativas": {
-      "A": "Os três quesitos são integralmente exequíveis, pois cabe ao perito responder a qualquer indagação formulada pela autoridade requisitante, inclusive sobre dolo e culpa, desde que fundamente tecnicamente a resposta apresentada.",
-      "B": "Todos os quesitos são inexequíveis, uma vez que nenhuma análise pericial é tecnicamente capaz de aferir, com base em vestígios materiais, a velocidade de um veículo no exato momento do impacto.",
-      "C": "Apenas o quesito (i) é inexequível, porque \"dolo\" é categoria estritamente jurídica; já o quesito (ii), referente à culpa, é tecnicamente viável sempre que houver reconstituição completa da dinâmica do sinistro.",
+      "A": "Os três quesitos são exequíveis, pois cabe ao perito responder a qualquer indagação da autoridade, inclusive sobre dolo e culpa, desde que fundamente tecnicamente a resposta apresentada no laudo.",
+      "B": "Os quesitos (i) e (iii) são exequíveis, porque tanto o dolo quanto a velocidade decorrem da dinâmica do sinistro, sendo inexequível apenas o quesito (ii), relativo à culpa pelo acidente.",
+      "C": "Apenas o quesito (i) é inexequível, porque 'dolo' é categoria estritamente jurídica; já o quesito (ii), sobre a culpa, é viável sempre que houver reconstituição completa da dinâmica do sinistro.",
       "D": "Os quesitos (i) e (ii) são genéricos ou estritamente jurídicos e, por isso, inexequíveis; o quesito (iii) é técnico, material, testável e isento."
     },
     "resposta_correta": "D",
-    "justificativa": "Correta a letra D: o texto afirma que 'formulações genéricas ou estritamente jurídicas (por exemplo, houve dolo? ou quem é o culpado?) criam quesitos inexequíveis, pois o perito não pode emitir opiniões categóricas para além dos limites factuais da ciência', ao passo que 'um quesito dotado de clareza técnica (como perguntar objetivamente se o carro estava acima do limite de velocidade) estabelece uma hipótese testável e isenta'. A é falsa porque o perito não responde a indagações sobre dolo e culpa. B é falsa porque a velocidade é justamente o quesito viável. C é falsa porque o quesito sobre culpa é igualmente inexequível, por envolver juízo jurídico.",
-    "referencia": "Cap. 3, Seção 3.4, p. 30",
+    "justificativa": "Pelo Cap. 3 (3.4), 'houve dolo?' e 'quem é o culpado?' são indagações jurídicas/genéricas, inexequíveis pelo perito; já a velocidade é hipótese técnica, testável e isenta. A tese de responder a qualquer quesito (inclusive dolo/culpa) erra. A que classifica o dolo como exequível erra (é categoria jurídica). A que trata a culpa como viável com reconstituição erra (culpa é juízo jurídico).",
+    "referencia": "Cap. 3, Seção 3.4, p. 30-31",
     "nivel": "medio"
   },
   {
@@ -3428,16 +3428,16 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 3 - A atuação técnica do Perito e a integração científica na investigação",
     "tipo": "multipla_escolha",
-    "enunciado": "Em palestra sobre o papel da ciência forense no Estado Democrático de Direito, um professor sustenta que a integração científica não é mero apoio acessório à investigação, mas garantia de Direitos Humanos e de Justiça, citando a função preventiva da perícia em face de arbitrariedades e condenações injustas. Conforme o texto, assinale a opção correta.",
+    "enunciado": "Em palestra sobre o papel da ciência forense no Estado Democrático de Direito, um professor sustenta que a integração científica não é mero apoio acessório à investigação, mas garantia de Direitos Humanos e de Justiça, com função preventiva em face de arbitrariedades e condenações injustas. Conforme o texto, assinale a opção correta.",
     "alternativas": {
-      "A": "A retirada da liberdade ou do patrimônio de um indivíduo, no Estado Democrático de Direito, justifica-se ainda que ausentes provas isentas, bastando a convicção íntima da autoridade requisitante do feito para legitimar plenamente a constrição imposta.",
-      "B": "A defesa intransigente da autonomia pericial é inteiramente dispensável, pois a verdade material já se encontra suficientemente garantida pela oitiva de testemunhas e pela confissão espontânea do próprio investigado nos autos.",
-      "C": "A ciência forense é ferramenta meramente acessória, sem qualquer impacto relevante sobre os Direitos Humanos, restringindo-se a apoiar, reforçar e legitimar a tese acusatória previamente formulada pelo Estado persecutor.",
+      "A": "No Estado Democrático de Direito, a constrição da liberdade admite-se com base em juízo de probabilidade da autoria, dispensada a prova material sempre que a prova testemunhal se mostrar robusta e coerente.",
+      "B": "A integração científica reforça a investigação, mas a autonomia pericial tem papel secundário, pois a verdade material resulta principalmente da confissão e da prova testemunhal colhidas no inquérito.",
+      "C": "A ciência forense legitima a prova estatal, cabendo-lhe sobretudo confirmar tecnicamente a hipótese acusatória previamente formulada pela autoridade que preside a investigação, sem função de refutá-la ou de controlar a legalidade da atividade investigativa desenvolvida.",
       "D": "No Estado Democrático de Direito, a constrição da liberdade ou do patrimônio só se justifica mediante provas isentas; ao confirmar ou refutar tecnicamente a hipótese em laudo transparente, o perito previne arbitrariedades, e sua autonomia blinda o sistema penal."
     },
     "resposta_correta": "D",
-    "justificativa": "Correta a letra D: o texto afirma que \"num Estado Democrático de Direito, a retirada da liberdade ou do patrimônio de um indivíduo só se justifica mediante provas isentas, imparciais e verdadeiras\" e que, \"ao confirmar ou refutar uma hipótese criminal de forma técnica, documentando seu raciocínio lógico em um laudo preciso e metodologicamente transparente, o perito previne arbitrariedades e condenações injustas; a defesa intransigente da autonomia pericial representa a blindagem do próprio sistema penal\". A é falsa porque a constrição exige provas isentas, não bastando a convicção íntima da autoridade. B é falsa porque a autonomia pericial é indispensável, não dispensável. C é falsa porque a ciência forense eleva-se à condição de garantidora da Justiça e dos Direitos Humanos.",
-    "referencia": "Cap. 3, Seção 3.6, p. 31-32",
+    "justificativa": "Pelo Cap. 3 (3.6), a constrição só se justifica com provas isentas; o perito, ao confirmar ou refutar tecnicamente a hipótese, previne arbitrariedades, e a autonomia blinda o sistema penal. A tese de constrição por probabilidade/prova testemunhal robusta erra (exige-se prova isenta e certeza). A do papel secundário da autonomia erra. A de que à perícia cabe sobretudo confirmar a acusação erra: ela confirma OU refuta, com imparcialidade.",
+    "referencia": "Cap. 3, Seção 3.6, p. 32-33",
     "nivel": "dificil"
   },
   {
@@ -28658,14 +28658,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o viés cognitivo e o ceticismo metodológico na atuação pericial, conforme o material, é correto afirmar que:",
     "alternativas": {
-      "A": "O perito deve ancorar as suas inferências técnicas na presunção de culpa do investigado, alinhando-as cuidadosamente às expectativas externas da equipe de investigação.",
-      "B": "O viés cognitivo é um desvio consciente e deliberado de racionalidade no julgamento, facilmente controlado pela mera boa intenção e pela experiência acumulada do perito.",
+      "A": "O perito neutraliza o viés submetendo as suas inferências à validação da autoridade requisitante antes de concluir, o que assegura o alinhamento entre a perícia e a linha de investigação.",
+      "B": "O viés cognitivo é um desvio consciente e deliberado de racionalidade no julgamento, facilmente controlado pela mera boa intenção e pela experiência acumulada pelo perito ao longo da carreira.",
       "C": "O viés cognitivo é o desvio inconsciente de racionalidade causado por expectativas ou pressões; o ceticismo metodológico ancora as inferências nas propriedades mensuráveis do vestígio.",
-      "D": "Pressões processuais por produtividade legitimariam que o perito adaptasse as suas conclusões técnicas ao resultado que é previamente esperado pela própria equipe de investigação criminal responsável pelo caso."
+      "D": "O ceticismo metodológico consiste em o perito adotar a hipótese de maior consenso na equipe de investigação, reduzindo divergências e conferindo maior firmeza à conclusão do laudo."
     },
     "resposta_correta": "C",
-    "justificativa": "Conforme o material (Seção 2): o viés cognitivo é o desvio inconsciente de racionalidade no julgamento, provocado por expectativas externas ou pressões processuais; contra ele, o perito aplica o ceticismo metodológico, ancorando as inferências apenas nas propriedades mensuráveis do vestígio, jamais na presunção de culpa (C). A e D erram porque o perito não pode ancorar-se na presunção de culpa nem adaptar conclusões a expectativas. B erra porque o viés é inconsciente, não controlado por mera boa intenção.",
-    "referencia": "Cap. 3, Seção 3.2 — Viés cognitivo e ceticismo metodológico",
+    "justificativa": "Pelo Cap. 3 (3.2), o viés cognitivo é o desvio inconsciente de racionalidade (por expectativas/pressões), e o ceticismo metodológico ancora as inferências nas propriedades mensuráveis do vestígio. A neutralização por validação da autoridade erra (o alinhamento à investigação é justamente fonte de viés). O viés como desvio 'consciente' controlável por boa intenção erra. Definir ceticismo como adotar a hipótese de consenso da equipe erra (é o oposto).",
+    "referencia": "Cap. 3, Seção 3.2, p. 28-29",
     "nivel": "medio"
   },
   {
@@ -32092,13 +32092,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Comunicada ao perito 'forte suspeita' contra um indivíduo durante um homicídio, sobre o ciclo da prova, a formulação de hipóteses e o viés cognitivo, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Na Criminalística, formular hipóteses confunde-se com presumir a culpa, sendo legítimo ao perito incorporar a tese acusatória da equipe para orientar e direcionar os exames laboratoriais.",
-      "B": "Para preservar a imparcialidade, o perito deve abster-se de formular hipóteses, limitando-se a descrever os vestígios encontrados e a registrar suas medidas, sem submetê-los a teste.",
-      "C": "O viés cognitivo é o desvio consciente e deliberado de racionalidade, decorrente de má-fé do perito, e por isso, em regra, configura o crime de falsa perícia previsto no Código Penal.",
+      "A": "O perito pode formular hipóteses, mas deve submetê-las ao delegado para validação antes de testá-las, garantindo o alinhamento com a linha investigativa adotada no inquérito.",
+      "B": "A imparcialidade exige que o perito receba todas as informações do caso antes do exame, inclusive a suspeita da equipe, para direcionar desde logo a busca dos vestígios relevantes.",
+      "C": "O viés cognitivo é um desvio consciente e deliberado de racionalidade, decorrente de má-fé do perito, e por isso, em regra, configura o crime de falsa perícia previsto no Código Penal.",
       "D": "A formulação de hipótese não se confunde com presunção de culpa; o perito verifica tecnicamente as hipóteses fáticas geradas pelos vestígios, com ceticismo metodológico em propriedades mensuráveis."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 3 (3.2), formular hipótese não se confunde com presunção de culpa: o perito verifica tecnicamente as hipóteses fáticas (dinâmica e materialidade) geradas pelos vestígios, com ceticismo metodológico. A tese que equipara hipótese a presunção de culpa erra. A que diz ser o viés consciente e deliberado erra: o viés é desvio inconsciente. A que manda o perito abster-se de hipóteses erra, pois o ciclo da prova inclui formular e testar hipóteses.",
+    "justificativa": "Pelo Cap. 3 (3.2), formular hipótese não é presumir culpa: o perito verifica tecnicamente as hipóteses fáticas geradas pelos vestígios, com ceticismo metodológico. Submeter as hipóteses ao delegado para validação erra (compromete a autonomia). Receber a suspeita da equipe para direcionar a busca erra (é fonte de viés; recomenda-se sequenciamento controlado). O viés como desvio 'consciente'/falsa perícia erra (é inconsciente).",
     "referencia": "Cap. 3, Seção 3.2, p. 28-29",
     "nivel": "dificil"
   },
@@ -32144,12 +32144,12 @@ const questoesDB = [
     "enunciado": "Sobre a complementaridade funcional na Polícia Federal e a relação do perito com a autoridade requisitante, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "O Delegado de Polícia Federal, ao requisitar perícia, exerce faculdade discricionária, podendo inclusive direcionar os métodos analíticos a serem empregados pelo perito no exame requisitado.",
-      "B": "Compete ao perito presidir o inquérito e coordenar a investigação, cabendo aos agentes e escrivães a produção da prova técnica e a guarda dos vestígios materiais coletados no local.",
+      "B": "Compete ao perito, além de produzir a prova técnica, coordenar as diligências investigativas e a oitiva das testemunhas relacionadas ao vestígio examinado no curso do inquérito policial.",
       "C": "A requisição de perícia é ato vinculado ao art. 158 do CPP, e a subordinação do perito na organização circunscreve-se à gestão administrativa, sem alcançar métodos ou conclusões.",
-      "D": "A perícia funciona como mero apêndice da polícia judiciária, desprovida de função de controle ou de validação da investigação criminal e das hipóteses de trabalho conduzidas pela equipe."
+      "D": "A perícia integra a investigação como órgão de assessoramento da autoridade policial, cabendo-lhe adequar as conclusões às necessidades da linha de investigação conduzida pelo delegado."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 3 (3.1 e 3.2), a requisição é ato vinculado (art. 158) e a subordinação do perito limita-se à gestão administrativa, sem alcançar métodos/conclusões. A tese da faculdade discricionária e do direcionamento de métodos erra. A que põe o perito a presidir o inquérito inverte papéis (quem preside é o delegado; o perito produz a prova técnica). A do 'mero apêndice' erra, pois a perícia é ferramenta central de controle e validação.",
+    "justificativa": "Pelo Cap. 3 (3.1 e 3.2), a requisição é ato vinculado (art. 158) e a subordinação do perito limita-se à gestão administrativa, sem alcançar métodos/conclusões. A faculdade discricionária de direcionar métodos erra. Atribuir ao perito a coordenação de diligências e oitivas erra (é do delegado/agentes). Tratar a perícia como assessoramento que adequa conclusões à investigação erra: ela controla e valida, com autonomia.",
     "referencia": "Cap. 3, Seções 3.1 e 3.2, p. 28-29",
     "nivel": "dificil"
   },
