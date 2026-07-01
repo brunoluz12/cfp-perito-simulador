@@ -1,0 +1,44 @@
+[
+  {
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "enunciado": "Na ISO 21043-4, sobre os tipos de opiniões que o perito pode formular na interpretação, assinale a alternativa que conceitua corretamente a opinião categórica.",
+    "alternativas": {
+      "A": "É a expressão da razão entre a probabilidade das observações sob duas hipóteses concorrentes, podendo ser apresentada de forma qualitativa ou quantitativa, com base em modelos estatísticos ou no julgamento profissional do perito.",
+      "B": "É usada quando o perito julga que seria impossível obter as observações caso qualquer hipótese alternativa fosse verdadeira, não podendo ser expressa como um fato.",
+      "C": "Consiste na formulação de hipóteses destinadas a explicar o que aconteceu, podendo o perito ranqueá-las, ou não, segundo a ordem de probabilidade que atribui a cada uma delas.",
+      "D": "Corresponde a um valor aproximado, com margem de erro, obtido pelo perito após a interpretação investigativa, como a velocidade de um veículo estimada a partir de imagens de CFTV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pelo Cap. 10 (ISO 21043-4), a opinião categórica é usada quando o perito julga impossível obter as observações caso qualquer hipótese alternativa fosse verdadeira, e não pode ser expressa como fato. A definição de razão entre probabilidades sob duas hipóteses é a razão de verossimilhança. A de formular hipóteses para explicar o que aconteceu é a das explicações. A de valor aproximado com margem de erro após interpretação investigativa é a das estimativas.",
+    "referencia": "Cap. 10, Seção 10.1 (ISO 21043-4) — Tipos de opiniões, p. 65",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "enunciado": "Ainda sobre os tipos de opiniões formuladas na interpretação (ISO 21043-4), a razão de verossimilhança (likelihood ratio) é corretamente definida como:",
+    "alternativas": {
+      "A": "a hipótese que o perito formula para tentar explicar o que aconteceu no caso concreto, podendo ou não ranqueá-la por ordem de probabilidade conforme os dados de que dispõe no momento.",
+      "B": "a opinião empregada quando o perito julga impossível obter as observações caso qualquer hipótese alternativa fosse verdadeira, vedada a sua expressão como um fato da natureza.",
+      "C": "a razão entre a probabilidade das observações se H1 fosse verdadeira e a probabilidade das observações se H2 fosse verdadeira, podendo ser qualitativa ou quantitativa.",
+      "D": "o valor aproximado, com margem de erro, obtido pelo perito após a interpretação investigativa do conjunto de vestígios examinados, como no exame de imagens de circuito de CFTV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 10 (ISO 21043-4), a razão de verossimilhança é a razão entre a probabilidade das observações se H1 fosse verdadeira e se H2 fosse verdadeira, podendo ser qualitativa ou quantitativa. A definição de hipótese para explicar o que aconteceu é a das explicações. A de impossibilidade sob qualquer hipótese alternativa é a da opinião categórica. A de valor aproximado com margem de erro após interpretação investigativa é a das estimativas.",
+    "referencia": "Cap. 10, Seção 10.1 (ISO 21043-4) — Tipos de opiniões, p. 65",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
+    "enunciado": "Com base no exame de imagens de CFTV, o perito conclui que o veículo trafegava a 70 ± 5 km/h. Na tipologia de opiniões da ISO 21043-4, essa conclusão constitui:",
+    "alternativas": {
+      "A": "uma opinião categórica, pois afirma ser impossível obter aquelas observações caso o veículo estivesse trafegando em qualquer outra faixa de velocidade no momento do registro.",
+      "B": "uma estimativa, feita após a interpretação investigativa e expressa como um valor aproximado acompanhado de margem de erro.",
+      "C": "uma razão de verossimilhança, por comparar a probabilidade das observações registradas sob duas hipóteses de velocidade mutuamente concorrentes e excludentes.",
+      "D": "uma explicação, por consistir em hipótese destinada a esclarecer o que aconteceu, necessariamente ranqueada por ordem de probabilidade pelo perito responsável."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pelo Cap. 10 (ISO 21043-4), estimativas são valores obtidos após a interpretação investigativa, expressos de forma aproximada com margem de erro — exatamente o caso dos 70 ± 5 km/h por CFTV. Não é opinião categórica (esta afirma a impossibilidade das observações sob qualquer hipótese alternativa). Não é razão de verossimilhança (que compara probabilidades das observações sob H1 e H2). Não é explicação (hipótese para esclarecer o que aconteceu).",
+    "referencia": "Cap. 10, Seção 10.1 (ISO 21043-4) — Tipos de opiniões, p. 65",
+    "nivel": "dificil"
+  }
+]
