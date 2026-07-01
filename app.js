@@ -3066,7 +3066,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Causas Determinantes dos Acidentes de Tráfego',
                 'Casos Especiais na Perícia de Acidentes de Tráfego',
                 'Documentação Pericial',
-                'Método de Monte Carlo Aplicado à Perícia'
+                'Método de Monte Carlo Aplicado à Perícia',
+                'Guia de Estudo Estruturado (Resumo Completo)'
             ]
         },
         'loc': {

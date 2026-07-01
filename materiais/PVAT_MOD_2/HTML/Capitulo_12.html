@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 12 - Guia de Estudo Estruturado (Acidentes de Tráfego)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+        /* Cartões de fórmulas */
+        .formula-grid { display: flex; flex-wrap: wrap; gap: 16px; margin: 20px 0; }
+        .fcard { flex: 1; min-width: 280px; border-radius: 8px; border: 2px solid #cbd5e1; overflow: hidden; }
+        .fcard h4 { margin: 0; padding: 10px 14px; color: #fff; font-size: 1.02em; }
+        .fcard .fbody { padding: 12px 14px; }
+        .fc1 h4 { background: #3182ce; } .fc2 h4 { background: #38a169; } .fc3 h4 { background: #805ad5; }
+        .fc4 h4 { background: #dd6b20; } .fc5 h4 { background: #e53e3e; } .fc6 h4 { background: #2b6cb0; }
+        .fc7 h4 { background: #2c7a7b; }
+        .eq { font-family: 'Cambria Math', 'Georgia', serif; font-size: 1.15em; margin: 8px 0; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+        .eq .lbl { font-family: 'Inter', sans-serif; font-size: 0.8em; color: #4a5568; font-weight: 600; min-width: 130px; }
+        .frac { display: inline-flex; flex-direction: column; text-align: center; vertical-align: middle; }
+        .frac .num { border-bottom: 1.6px solid #2d3748; padding: 0 6px; }
+        .frac .den { padding: 0 6px; }
+        .sqrt { border-top: 1.6px solid #2d3748; padding: 2px 4px 0; }
+        .rad::before { content: "√"; font-size: 1.1em; }
+        .legenda { font-size: 0.85em; color: #4a5568; margin-top: 8px; }
+        .legenda b { color: #2d3748; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">PVAT - Módulo II</span>
+        <h1>Capítulo 12 - Guia de Estudo Estruturado</h1>
+        <div class="subtitle">Perícia em Acidentes de Tráfego · resumo completo para leitura e memorização</div>
+    </div>
+
+    <div class="box-blue">
+        <p>Este capítulo reorganiza, <strong>sem perda de conteúdo</strong>, o guia de estudo de Perícia em Acidentes de Tráfego. Consolida os fundamentos técnicos, normativos e físicos essenciais para a atuação do Perito Criminal Federal na reconstrução de acidentes, com o rigor científico da Criminalística e a observância estrita do <strong>Código de Trânsito Brasileiro (CTB)</strong> e das normas da <strong>ABNT</strong>. Estruturado em boxes, tabelas e mnemônicos para facilitar a leitura e a decoreba.</p>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">1. Fundamentos e Conceitos Iniciais</a></li>
+            <li><a href="#s2">2. Classificação das Vias e Limites de Velocidade</a></li>
+            <li><a href="#s3">3. Componentes Físicos da Via</a></li>
+            <li><a href="#s4">4. Taxonomia e Tipificação de Acidentes</a></li>
+            <li><a href="#s5">5. Análise Técnica de Vestígios e Avarias</a></li>
+            <li><a href="#s6">6. Dinâmica Pericial: Sítios do Acidente</a></li>
+            <li><a href="#s7">7. Física Aplicada: Formulário Técnico de Velocidade</a></li>
+            <li><a href="#s8">8. Parâmetros Biomecânicos e de Atrito</a></li>
+            <li><a href="#s9">9. Causa Determinante e Análise de Interceptação</a></li>
+            <li><a href="#s10">10. Painel de mnemônicos</a></li>
+        </ul>
+    </div>
+
+    <!-- 1 -->
+    <div id="s1" class="section">
+        <h2>1. Fundamentos e Conceitos Iniciais</h2>
+        <p>A doutrina pericial adotada pela Polícia Federal fundamenta-se na busca da <strong>verdade real</strong> por meio da <strong>prova material</strong>.</p>
+        <div class="box-green">
+            <span class="box-title">Definição de Acidente de Trânsito (padronização ABNT)</span>
+            <p>"Todo evento <strong>não premeditado</strong> de que resulte <strong>dano em veículo ou na sua carga e/ou lesões em pessoas e/ou animais</strong>, em que <strong>pelo menos uma das partes está em movimento</strong> nas vias terrestres ou áreas abertas ao público."</p>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">Diretriz Metodológica</span>
+            <p>O perito deve fundamentar sua análise dinâmica e técnica <strong>única e exclusivamente em vestígios materiais</strong>. Embora depoimentos possam ser consultados de forma <strong>complementar</strong>, a reconstrução fidedigna da trajetória, o cálculo de velocidades e a determinação do sítio de impacto dependem <strong>exclusivamente da evidência física</strong>.</p>
+        </div>
+        <div class="box-blue">
+            <span class="box-title">Unidade de Tráfego</span>
+            <p>Para fins de análise, o perito deve considerar como unidade de tráfego <strong>cada</strong>: veículo automotor; pedestre; veículo de tração animal; veículo de propulsão humana; ou animal de porte isolado envolvido no evento.</p>
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div id="s2" class="section">
+        <h2>2. Classificação das Vias e Limites de Velocidade</h2>
+        <p>Na <strong>ausência de sinalização regulamentadora</strong>, o perito deve aplicar os limites de velocidade estabelecidos pelo <strong>Art. 61 do CTB</strong>.</p>
+        <h3>Vias Urbanas</h3>
+        <table>
+            <tr><th>Tipo de Via</th><th>Característica Principal</th><th>Velocidade Máxima</th></tr>
+            <tr><td>Trânsito Rápido</td><td>Sem interseções em nível e sem acesso direto a lotes.</td><td><strong>80 km/h</strong></td></tr>
+            <tr><td>Arterial</td><td>Interseções semaforizadas e acesso aos lotes lindeiros.</td><td><strong>60 km/h</strong></td></tr>
+            <tr><td>Coletora</td><td>Destinada a coletar e distribuir o trânsito.</td><td><strong>40 km/h</strong></td></tr>
+            <tr><td>Local</td><td>Áreas restritas com interseções não semaforizadas.</td><td><strong>30 km/h</strong></td></tr>
+        </table>
+        <h3>Vias Rurais</h3>
+        <table>
+            <tr><th>Tipo de Via</th><th>Categoria de Veículo</th><th>Velocidade Máxima</th></tr>
+            <tr><td>Rodovia (Pista Dupla)</td><td>Automóveis, Camionetas e Motocicletas</td><td><strong>110 km/h</strong></td></tr>
+            <tr><td>Rodovia (Pista Dupla)</td><td>Demais Veículos</td><td><strong>90 km/h</strong></td></tr>
+            <tr><td>Rodovia (Pista Simples)</td><td>Automóveis, Camionetas e Motocicletas</td><td><strong>100 km/h</strong></td></tr>
+            <tr><td>Rodovia (Pista Simples)</td><td>Demais Veículos</td><td><strong>90 km/h</strong></td></tr>
+            <tr><td>Estrada (via rural <strong>não pavimentada</strong>)</td><td>Todos os veículos</td><td><strong>60 km/h</strong></td></tr>
+        </table>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — velocidades urbanas: "R-A-C-L = 80-60-40-30"</span>
+            <strong>R</strong>ápido 80 · <strong>A</strong>rterial 60 · <strong>C</strong>oletora 40 · <strong>L</strong>ocal 30 (cai de 20 em 20). Rurais: pista dupla <strong>110/90</strong>, simples <strong>100/90</strong>, estrada (terra) <strong>60</strong>.
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div id="s3" class="section">
+        <h2>3. Componentes Físicos da Via</h2>
+        <p>A descrição do cenário no laudo pericial exige precisão terminológica:</p>
+        <table>
+            <tr><th>Componente</th><th>Definição</th></tr>
+            <tr><td><strong>Pista</strong></td><td>Superfície da via destinada à circulação de veículos, delimitada por elementos separadores ou desníveis (calçadas, canteiros).</td></tr>
+            <tr><td><strong>Faixa de Rolamento</strong></td><td>Subdivisão longitudinal da pista, destinada à circulação de uma <strong>única fila</strong> de veículos.</td></tr>
+            <tr><td><strong>Acostamento</strong></td><td>Parte da via adjacente à pista, destinada à parada de emergência ou à circulação de pedestres onde não houver calçada.</td></tr>
+            <tr><td><strong>Calçada</strong></td><td>Parte da via, geralmente elevada, destinada <strong>prioritariamente aos pedestres</strong>.</td></tr>
+            <tr><td><strong>Sinalização Vertical</strong></td><td>Placas de regulamentação, advertência ou indicação fixadas ao lado ou suspensas sobre a via.</td></tr>
+            <tr><td><strong>Sinalização Horizontal</strong></td><td>Marcas, linhas e símbolos pintados ou aplicados diretamente sobre o pavimento.</td></tr>
+        </table>
+    </div>
+
+    <!-- 4 -->
+    <div id="s4" class="section">
+        <h2>4. Taxonomia e Tipificação de Acidentes</h2>
+        <div class="box-blue">
+            <span class="box-title">Colisão</span>
+            <p>Impacto entre unidades de tráfego ou obstáculos. Classifica-se como:</p>
+            <ul>
+                <li><strong>A) Frontal</strong> — partes anteriores;</li>
+                <li><strong>B) Traseira</strong> — parte anterior de um contra a posterior de outro;</li>
+                <li><strong>C) Lateral</strong> — laterais de ambos os veículos;</li>
+                <li><strong>D) Com objeto fixo.</strong></li>
+            </ul>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">Tombamento × Capotamento (pegadinha clássica)</span>
+            <ul>
+                <li><strong>Tombamento:</strong> rotação de <strong>aproximadamente 90º</strong> em torno do <strong>eixo longitudinal horizontal</strong>, resultando no repouso do veículo <strong>sobre uma de suas laterais</strong>.</li>
+                <li><strong>Capotamento:</strong> semigiro ou giros completos (<strong>superior a 90º</strong>) em torno do eixo <strong>transversal ou longitudinal</strong> do veículo.</li>
+            </ul>
+        </div>
+        <div class="box-green">
+            <span class="box-title">Saída de Pista</span>
+            <p>Abandono da superfície de rolamento <strong>sem colisão</strong> com obstáculos externos — ressalvados o meio-fio e pequenas estruturas da via (balizadores, tachões).</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — "Tombou = deita (~90º, lateral); Capotou = vira (&gt;90º)"</span>
+            <strong>Tombamento</strong>: até ~90º, para sobre a lateral. <strong>Capotamento</strong>: passa de 90º (semigiro/giros), eixo transversal <em>ou</em> longitudinal.
+        </div>
+    </div>
+
+    <!-- 5 -->
+    <div id="s5" class="section">
+        <h2>5. Análise Técnica de Vestígios e Avarias</h2>
+        <h3>5.1. Marcas Pneumáticas</h3>
+        <p>O perito deve distinguir a natureza do esforço pneumático sobre o pavimento:</p>
+        <table>
+            <tr><th>Marca</th><th>Origem</th><th>Características</th></tr>
+            <tr>
+                <td><strong>Frenagem</strong><br>(<em>Skid Marks</em>)</td>
+                <td>Travamento <strong>total ou parcial</strong> das rodas.</td>
+                <td>Em pista <strong>seca</strong>: coloração <strong>escura</strong> (incrustação de borracha fundida). Em pista <strong>molhada</strong>: tendem a ser <strong>esbranquiçadas</strong> (limpeza da película de sujidade e água). Costumam ser <strong>longitudinais</strong>, no sentido do deslocamento.</td>
+            </tr>
+            <tr>
+                <td><strong>Derrapagem</strong><br>(<em>Yaw Marks</em>)</td>
+                <td>Deslocamento <strong>lateral</strong> do pneu.</td>
+                <td><strong>Calibre irregular</strong> e <strong>ausência</strong> de reprodução dos sulcos originais no sentido longitudinal. Costumam ser <strong>transversais</strong> ao sentido de deslocamento (arrastando), com diferentes graus de inclinação conforme o condutor estivesse no freio, no acelerador ou "livre".</td>
+            </tr>
+        </table>
+        <h3>5.2. Tipos de Avarias</h3>
+        <table>
+            <tr><th>Avaria</th><th>Definição</th></tr>
+            <tr><td><strong>Estampamento</strong></td><td>Impressão na chapa metálica que <strong>reproduz fidedignamente</strong> os contornos do obstáculo.</td></tr>
+            <tr><td><strong>Sanfonamento</strong></td><td>Deformação por <strong>compressão</strong> em que a chapa se dobra repetidamente (fole).</td></tr>
+            <tr><td><strong>Empenamento</strong></td><td>Alteração da geometria estrutural por <strong>torção ou flexão</strong>.</td></tr>
+            <tr><td><strong>Mossa</strong></td><td>Deformação de <strong>contornos suaves</strong>, indicativa de impacto por corpo flácido ou deformável.</td></tr>
+            <tr><td><strong>Quebramento</strong></td><td>Quebra de estruturas inteiras ou parciais.</td></tr>
+            <tr><td><strong>Arrancamento</strong></td><td>Arrancamento de peças inteiras que fazem parte da estrutura física do veículo.</td></tr>
+        </table>
+        <div class="box-red">
+            <span class="box-title">5.3. Critério de Recentidade</span>
+            <p>Para determinar se uma avaria é <strong>contemporânea ao evento</strong>, observar: o <strong>estado de oxidação</strong> do metal exposto, a presença de <strong>poeira</strong> e o <strong>arredondamento das bordas</strong>. Bordas <strong>nítidas</strong> e <strong>ausência de oxidação</strong> → danos <strong>recentes</strong>. Bordas <strong>suavizadas</strong> e <strong>oxidadas</strong> → avarias <strong>prévias</strong>.</p>
+        </div>
+    </div>
+
+    <!-- 6 -->
+    <div id="s6" class="section">
+        <h2>6. Dinâmica Pericial: Sítios do Acidente</h2>
+        <p>A cronologia espacial deve ser segmentada para a reconstrução lógica da dinâmica:</p>
+        <table>
+            <tr><th>Sigla</th><th>Sítio</th><th>Definição</th></tr>
+            <tr><td><strong>SP</strong></td><td>Sítio de Percepção</td><td>Área na via onde o condutor <strong>detecta o perigo iminente</strong> e inicia o processamento da informação visualizada.</td></tr>
+            <tr><td><strong>SR</strong></td><td>Sítio de Reação</td><td>Área na via onde se inicia a <strong>ação evasiva</strong> (frenagem, desvio etc.) após o tempo de processamento mental.</td></tr>
+            <tr><td><strong>SC</strong></td><td>Sítio de Colisão / Impacto</td><td>Área <strong>restrita</strong> onde ocorreu a principal interação física entre os elementos.</td></tr>
+            <tr><td><strong>SNE</strong> / DME</td><td>Sítio de Não Escapada</td><td>Área na via a partir da qual o acidente pode tornar-se <strong>fisicamente inevitável</strong>.</td></tr>
+            <tr><td><strong>SRF</strong></td><td>Sítio de Repouso Final</td><td>Posição das unidades dentro do Sítio do Acidente <strong>após</strong> as interações do sinistro.</td></tr>
+        </table>
+        <div class="box-red">
+            <span class="box-title">Nota Pedagógica — SC ≠ Sítio do Acidente</span>
+            <p>O <strong>Sítio de Colisão (SC)</strong> é a área restrita da interação física. <strong>Não</strong> confundir com o <strong>Sítio do Acidente</strong>, que engloba <strong>toda a área examinada</strong> pelo perito, inclusive elementos distantes que influenciaram o fato.</p>
+        </div>
+        <div class="box-blue">
+            <span class="box-title">Distância Mínima de Escapada (DME)</span>
+            <p>Numa das formas de análise mais aplicadas, a DME é obtida pela <strong>soma</strong> da <strong>distância de percepção-reação</strong> com a <strong>distância de frenagem</strong> (necessária para a parada segura do veículo).</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — sequência dos sítios: "P → R → C → NE → RF"</span>
+            <strong>P</strong>ercepção → <strong>R</strong>eação → <strong>C</strong>olisão → <strong>N</strong>ão <strong>E</strong>scapada → <strong>R</strong>epouso <strong>F</strong>inal. DME = percepção-reação + frenagem.
+        </div>
+    </div>
+
+    <!-- 7 -->
+    <div id="s7" class="section">
+        <h2>7. Física Aplicada: Formulário Técnico de Velocidade</h2>
+        <p>Resumo de fórmulas (Física Aplicada · Metodologia Pericial · Método de Monte Carlo).</p>
+        <div class="formula-grid">
+            <div class="fcard fc1">
+                <h4>1. Cinemática (MRU e MRUV)</h4>
+                <div class="fbody">
+                    <div class="eq"><span class="lbl">Velocidade média</span> v<sub>m</sub> = <span class="frac"><span class="num">Δs</span><span class="den">Δt</span></span></div>
+                    <div class="eq"><span class="lbl">Velocidade (MRUV)</span> v = v<sub>0</sub> + a·t</div>
+                    <div class="eq"><span class="lbl">Espaço (MRU)</span> s = v·t</div>
+                    <div class="eq"><span class="lbl">Espaço (MRUV)</span> s = v<sub>0</sub>·t + ½·a·t²</div>
+                    <div class="eq"><span class="lbl">Torricelli (sem o tempo)</span> v² = v<sub>0</sub>² + 2·a·s</div>
+                    <div class="legenda"><b>Onde:</b> s = espaço (m); v = velocidade final (m/s); v<sub>0</sub> = velocidade inicial (m/s); a = aceleração (m/s²); t = tempo (s).</div>
+                </div>
+            </div>
+            <div class="fcard fc2">
+                <h4>2. Leis de Newton (aplicadas)</h4>
+                <div class="fbody">
+                    <p><strong>1ª Lei (Inércia):</strong> um corpo em repouso tende a permanecer em repouso e um corpo em movimento tende a permanecer em movimento retilíneo e uniforme, a menos que uma força resultante aja sobre ele.</p>
+                    <div class="eq"><span class="lbl">2ª Lei (Fundamental da Dinâmica)</span> ΣF = m·a</div>
+                    <p><strong>3ª Lei (Ação e Reação):</strong> a toda ação corresponde uma reação de mesma intensidade, mesma direção e sentido oposto.</p>
+                    <div class="legenda"><b>Onde:</b> F = força resultante (N); m = massa (kg); a = aceleração (m/s²).</div>
+                </div>
+            </div>
+            <div class="fcard fc3">
+                <h4>3. Energia e Trabalho</h4>
+                <div class="fbody">
+                    <div class="eq"><span class="lbl">Energia Cinética</span> E<sub>c</sub> = ½·m·v²</div>
+                    <div class="eq"><span class="lbl">Trabalho da força de atrito (frenagem)</span> W = F<sub>at</sub>·d</div>
+                    <div class="eq"><span class="lbl">Em frenagens</span> E<sub>c</sub> = F<sub>at</sub>·d</div>
+                    <div class="eq"><span class="lbl">Força de Atrito</span> F<sub>at</sub> = μ·N</div>
+                    <div class="legenda"><b>Onde:</b> E<sub>c</sub> = energia cinética (J); W = trabalho (J); F<sub>at</sub> = força de atrito (N); d = distância (m); m = massa (kg); v = velocidade (m/s); μ = coeficiente de atrito; N = força normal (N).</div>
+                </div>
+            </div>
+            <div class="fcard fc4">
+                <h4>4. Velocidade Total e Componentes</h4>
+                <div class="fbody">
+                    <p>A velocidade total (V) pode ser decomposta em componentes <strong>perpendiculares</strong>:</p>
+                    <div class="eq"><span class="lbl">Componentes</span> V = <span class="rad"></span><span class="sqrt">V<sub>l</sub>² + V<sub>t</sub>²</span></div>
+                    <div class="eq"><span class="lbl">Danos × Residual</span> V = <span class="rad"></span><span class="sqrt">V<sub>d</sub>² + V<sub>r</sub>²</span></div>
+                    <div class="legenda">
+                        <b>V<sub>l</sub></b> = componente longitudinal (m/s); <b>V<sub>t</sub></b> = componente transversal (m/s).<br>
+                        <b>Velocidade de Danos (V<sub>d</sub>)</b>: relacionada à energia necessária para produzir os danos observados (obtida por métodos <strong>empíricos</strong>).<br>
+                        <b>Velocidade Residual (V<sub>r</sub>)</b>: estimada a partir das marcas e vestígios deixados <strong>após</strong> a colisão (obtida por <strong>cálculos físicos</strong>).
+                    </div>
+                </div>
+            </div>
+            <div class="fcard fc5">
+                <h4>5. Tempo de Frenagem</h4>
+                <div class="fbody">
+                    <div class="eq"><span class="lbl">Fórmula adotada no Caderno (seção 5.4)</span> T<sub>fre</sub> = <span class="frac"><span class="num">7,2 · Df</span><span class="den">V<sub>ic</sub> + V</span></span></div>
+                    <div class="legenda"><b>T<sub>fre</sub></b> = tempo de frenagem (s); <b>Df</b> = distância de frenagem (m); <b>V<sub>ic</sub></b> = velocidade inicial (km/h); <b>V</b> = velocidade final (km/h).</div>
+                    <div class="eq" style="margin-top:14px"><span class="lbl">Fórmula física validada (desaceleração constante)</span> T<sub>f</sub> = <span class="frac"><span class="num">V<sub>0</sub></span><span class="den">μ·g</span></span></div>
+                    <div class="legenda"><b>T<sub>f</sub></b> = tempo de frenagem (s); <b>V<sub>0</sub></b> = velocidade inicial (m/s); <b>μ</b> = coef. de atrito pneu/pista; <b>g</b> = 9,81 m/s².</div>
+                    <div class="box-orange" style="margin-top:12px"><strong>Conversão:</strong> V(m/s) = V(km/h) ÷ 3,6</div>
+                </div>
+            </div>
+            <div class="fcard fc6">
+                <h4>6. Velocidade Limite em Curvas</h4>
+                <div class="fbody">
+                    <div class="eq"><span class="lbl">Sem superelevação</span> V<sub>max</sub> = <span class="rad"></span><span class="sqrt">μ·g·R</span></div>
+                    <div class="eq"><span class="lbl">Com superelevação (e)</span> V<sub>max</sub> = <span class="rad"></span><span class="sqrt"><span class="frac"><span class="num">(e + μ)·g·R</span><span class="den">1 − e·μ</span></span></span></div>
+                    <div class="legenda"><b>μ</b> = coef. de atrito lateral; <b>g</b> = 9,81 m/s²; <b>R</b> = raio da curva (m); <b>e</b> = taxa de superelevação (m/m).</div>
+                    <div class="box-blue" style="margin-top:12px"><strong>Conversão:</strong> V(km/h) = V(m/s) × 3,6</div>
+                </div>
+            </div>
+            <div class="fcard fc7">
+                <h4>7. Conservação da Quantidade de Movimento</h4>
+                <div class="fbody">
+                    <p>Em colisões, no <strong>eixo da linha de impacto</strong>:</p>
+                    <div class="eq" style="font-size:1.25em">m<sub>1</sub>v<sub>1i</sub> + m<sub>2</sub>v<sub>2i</sub> = m<sub>1</sub>v<sub>1f</sub> + m<sub>2</sub>v<sub>2f</sub></div>
+                    <div class="legenda"><b>m<sub>1</sub>, m<sub>2</sub></b> = massas dos veículos (kg); <b>v<sub>1i</sub>, v<sub>2i</sub></b> = velocidades iniciais (m/s); <b>v<sub>1f</sub>, v<sub>2f</sub></b> = velocidades finais (m/s).</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8 -->
+    <div id="s8" class="section">
+        <h2>8. Parâmetros Biomecânicos e de Atrito</h2>
+        <p>Na <strong>ausência de testes de campo</strong>, o perito deve adotar os parâmetros normatizados pelos estudos científicos:</p>
+        <div class="box-purple">
+            <span class="box-title">Tempo de Percepção-Reação (ou Percepção-resposta)</span>
+            <p>Valor médio de <span class="destaque">1,125 s</span>. O valor varia conforme as condições do condutor, da via, a visibilidade do local no momento do acidente etc.</p>
+        </div>
+        <div class="box-green">
+            <span class="box-title">Fator de arrasto médio — Coeficientes de Atrito (µ)</span>
+            <table>
+                <tr><th>Superfície</th><th>Coeficiente de atrito (µ)</th></tr>
+                <tr><td>Asfalto <strong>Seco</strong></td><td><strong>0,7 – 0,8</strong> (conforme estado de conservação)</td></tr>
+                <tr><td>Asfalto <strong>Molhado</strong></td><td><strong>0,45 – 0,65</strong> (conforme estado de conservação)</td></tr>
+            </table>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — números de ouro</span>
+            Percepção-reação = <strong>1,125 s</strong>. Atrito: <strong>seco 0,7–0,8</strong>; <strong>molhado 0,45–0,65</strong>. g = <strong>9,81 m/s²</strong>. Conversão: <strong>÷3,6</strong> (km/h→m/s) e <strong>×3,6</strong> (m/s→km/h).
+        </div>
+    </div>
+
+    <!-- 9 -->
+    <div id="s9" class="section">
+        <h2>9. Causa Determinante e Análise de Interceptação</h2>
+        <div class="box-blue">
+            <span class="box-title">Definição</span>
+            <p>A <strong>Causa Determinante</strong> é o <strong>fator primordial sem o qual o acidente não teria ocorrido</strong>, ou o elemento <strong>preponderante</strong> que propiciou o evento.</p>
+        </div>
+        <p><strong>Exemplo — Velocidade Excessiva vs. Interceptação:</strong> o perito deve avaliar se o excesso de velocidade de um veículo <strong>com preferência de passagem</strong> é apenas uma <strong>infração administrativa</strong> ou se assume o status de <strong>causa determinante</strong>.</p>
+        <div class="box-red">
+            <span class="box-title">Nota do Instrutor (raciocínio decisivo)</span>
+            <p>Para que a velocidade excessiva seja a <strong>causa determinante</strong> num cenário de interceptação, o perito deve <strong>provar tecnicamente</strong> que, caso o veículo trafegasse na velocidade regulamentar, <strong>o acidente teria sido evitado</strong>.</p>
+            <p>Se os cálculos demonstrarem que a colisão <strong>seria inevitável mesmo na velocidade permitida</strong>, a causa determinante será a <strong>interceptação de trajetória</strong> (falta de preferência), e a velocidade excessiva é classificada apenas como <strong>fator agravante ou infração administrativa</strong>.</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — teste da causa determinante</span>
+            Pergunte: <strong>"Na velocidade legal, evitaria?"</strong> → SIM: velocidade = causa determinante. → NÃO (colisão inevitável): interceptação = causa determinante; velocidade = só agravante/infração.
+        </div>
+    </div>
+
+    <!-- 10 -->
+    <div id="s10" class="section">
+        <h2>10. Painel de mnemônicos</h2>
+        <table>
+            <tr><th>Tema</th><th>Chave de memória</th></tr>
+            <tr><td>Velocidades urbanas (Art. 61)</td><td>"R-A-C-L = 80-60-40-30".</td></tr>
+            <tr><td>Velocidades rurais</td><td>Pista dupla 110/90 · pista simples 100/90 · estrada (terra) 60.</td></tr>
+            <tr><td>Tombamento × Capotamento</td><td>Tombou = deita (~90º, lateral); Capotou = vira (&gt;90º).</td></tr>
+            <tr><td>Marcas de pneu</td><td>Frenagem (skid) = longitudinal; Derrapagem (yaw) = transversal.</td></tr>
+            <tr><td>Recentidade da avaria</td><td>Recente = borda nítida, sem oxidação; antiga = borda suave, oxidada.</td></tr>
+            <tr><td>Sítios do acidente</td><td>P → R → C → NE → RF; DME = percepção-reação + frenagem.</td></tr>
+            <tr><td>Números de ouro</td><td>Percepção-reação 1,125 s · atrito seco 0,7–0,8 / molhado 0,45–0,65 · g = 9,81 · ÷3,6 e ×3,6.</td></tr>
+            <tr><td>Causa determinante</td><td>"Na velocidade legal, evitaria?" define se a velocidade é causa ou só agravante.</td></tr>
+        </table>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>
