@@ -6,10 +6,10 @@
       "A": "Vestígio é a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias relacionadas ao delito.",
       "B": "Vestígio é o conjunto dos elementos materiais resultantes da prática do crime, com todas as circunstâncias, ligados imediatamente à consumação criminosa e à sua exteriorização física.",
       "C": "Vestígio é todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal, servindo de matéria-prima na produção da prova material.",
-      "D": "Vestígio é o objeto que, após examinado e interpretado pela perícia, constitui por definição a própria prova material da infração penal apurada no procedimento investigativo."
+      "D": "Vestígio é o objeto que, após examinado e interpretado pela perícia, constitui por definição a própria prova material da infração penal apurada no procedimento investigativo instaurado."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 6, o art. 158-A define vestígio como objeto/material bruto, visível ou latente, constatado ou recolhido, relacionado à infração; para a Criminalística é matéria-prima da prova. A definição de 'circunstância que autoriza concluir outra' é de indício (art. 239). A de 'conjunto de elementos materiais com circunstâncias' é de corpo de delito. A tese de que o vestígio já é prova erra: ele só vira prova após examinado/interpretado.",
+    "justificativa": "Pelo Cap. 6, o art. 158-A define vestígio como objeto/material bruto, visível ou latente, constatado ou recolhido, relacionado à infração; para a Criminalística é matéria-prima da prova. A definição de 'circunstância que autoriza concluir outra' é de indício (art. 239). A de 'conjunto de elementos materiais com circunstâncias' é de corpo de delito. A que trata o vestígio como já sendo a prova erra: ele só vira prova após examinado/interpretado.",
     "referencia": "Cap. 6, Introdução, p. 47-48",
     "nivel": "dificil"
   },
@@ -23,7 +23,7 @@
       "D": "vestígio forjado (o documento) e vestígio verdadeiro (a marca de ferramenta)."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 6 (6.1), forjado é o plantado intencionalmente pelo autor para desviar a investigação (o documento), e ilusório é o que recebe atenção inicial mas, ao final, não tem relação com o fato (a marca de ferramenta). As demais combinações ou invertem forjado e ilusório, ou tratam como verdadeiro um vestígio plantado/sem relação — o que contraria as definições.",
+    "justificativa": "Pelo Cap. 6 (6.1), forjado é o plantado intencionalmente pelo autor para desviar a investigação (o documento), e ilusório é o que recebe atenção inicial mas, ao final, não tem relação com o fato (a marca de ferramenta). As demais combinações ou invertem forjado e ilusório, ou tratam como verdadeiro um vestígio plantado ou sem relação — o que contraria as definições.",
     "referencia": "Cap. 6, Seção 6.1, p. 48",
     "nivel": "dificil"
   },
@@ -32,12 +32,12 @@
     "enunciado": "Sobre a classificação dos vestígios quanto à origem, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "Uma cápsula de munição encontrada no local é vestígio relativo, pois a Criminalística não consegue estabelecer relação direta entre a cápsula e a arma que efetuou o disparo.",
-      "B": "Uma caneta sem identificação encontrada no local de um furto é vestígio absoluto, pois permite estabelecer relação direta e imediata com a sua origem ou fonte produtora.",
-      "C": "O agente ou origem do vestígio é sempre o ser humano, não se admitindo que animais, objetos ou instrumentos figurem como agentes de vestígios materiais em local de crime.",
-      "D": "Vestígio absoluto é o que permite relação direta com sua origem (como impressões digitais e manchas de sangue), enquanto o relativo só admite relação estabelecida de forma indireta."
+      "B": "Uma caneta sem identificação encontrada no local de um furto é vestígio absoluto, pois permite estabelecer relação direta e imediata com a sua origem ou fonte produtora identificável.",
+      "C": "O agente ou a origem do vestígio é o ser humano, ficando de fora dessa noção os animais, os objetos e os instrumentos que provocam vestígios materiais no ambiente examinado.",
+      "D": "Vestígio absoluto é o que permite relação direta com sua origem (como impressões digitais e manchas de sangue), enquanto o relativo admite relação estabelecida de forma indireta."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 6 (6.2), absoluto é o vestígio com relação direta com a origem (digitais, sangue) e relativo o que só admite relação indireta. A tese da cápsula como relativo erra: a cápsula é absoluto (a Criminalística estabelece relação direta com a arma). A tese da caneta sem identificação como absoluto erra (é relativo). A tese de que a origem é sempre humana erra: animais, objetos e instrumentos também são agentes de vestígios.",
+    "justificativa": "Pelo Cap. 6 (6.2), absoluto é o vestígio com relação direta com a origem (digitais, sangue) e relativo o que admite relação indireta. A tese da cápsula como relativo erra: a cápsula é absoluto (a Criminalística estabelece relação direta com a arma). A da caneta sem identificação como absoluto erra (é relativo). A que restringe a origem ao ser humano erra: animais, objetos e instrumentos também são agentes de vestígios.",
     "referencia": "Cap. 6, Seção 6.2, p. 48-49",
     "nivel": "dificil"
   },
@@ -45,13 +45,13 @@
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "enunciado": "Sobre a conduta do perito diante da dificuldade de diferenciar, no início dos trabalhos, vestígios verdadeiros, ilusórios e forjados, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Identificado um vestígio aparentemente forjado, deve o perito descartá-lo de imediato, por se presumir que ele não guarda qualquer relação com o fato em apuração no local.",
-      "B": "O perito deve concentrar a análise exclusivamente no vestígio que, de início, se mostre mais relevante, a fim de otimizar o tempo da diligência e a celeridade da investigação.",
-      "C": "A presença de vestígios forjados afasta a necessidade de investigar os demais, por indicar que o local de crime foi integralmente adulterado pelo autor antes da chegada da perícia.",
+      "A": "Identificado um vestígio aparentemente forjado, deve o perito descartá-lo de imediato, por se presumir que ele é irrelevante para o fato em apuração no local de crime examinado.",
+      "B": "O perito deve concentrar a análise no vestígio que, de início, se mostre mais relevante, a fim de otimizar o tempo da diligência e a celeridade da investigação criminal em curso.",
+      "C": "A presença de vestígios forjados afasta a necessidade de investigar os demais, por indicar que o local de crime foi adulterado pelo autor antes da chegada da equipe pericial.",
       "D": "Nenhum detalhe deve ser desprezado, devendo tudo ser investigado, sem se seguir uma única pista; mesmo o forjado deve ser investigado, pois pode evidenciar pista do verdadeiro autor."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 6 (6.1), como é difícil diferenciar de início, nada deve ser desprezado, tudo deve ser investigado e não se deve seguir uma só pista; o forjado deve ser investigado porque pode evidenciar o verdadeiro autor. A tese de descartar o forjado erra. A de concentrar-se numa só pista é justamente o que se deve evitar. A de que o forjado dispensa a investigação dos demais erra.",
+    "justificativa": "Pelo Cap. 6 (6.1), como é difícil diferenciar de início, nada deve ser desprezado, tudo deve ser investigado e não se deve seguir uma só pista; o forjado deve ser investigado porque pode evidenciar o verdadeiro autor. A tese de descartar o forjado erra. A de concentrar-se numa só pista é o que se deve evitar. A de que o forjado dispensa investigar os demais erra.",
     "referencia": "Cap. 6, Seção 6.1, p. 48",
     "nivel": "dificil"
   },
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 6 - Teoria dos vestígios",
     "enunciado": "Considere: (i) uma ponta de faca encontrada ao lado de uma gaveta arrombada com essa mesma faca; (ii) uma caneta sem nome do proprietário achada no local de um furto. Quanto à origem, classificam-se respectivamente como:",
     "alternativas": {
-      "A": "ambos absolutos, pois tanto a faca quanto a caneta guardam relação direta e imediata com a sua origem prontamente identificável pela perícia criminal.",
-      "B": "absoluto e relativo, pois a ponta de faca guarda relação direta com a origem, ao passo que a caneta sem identificação só permite relação estabelecida de forma indireta.",
-      "C": "relativo e absoluto, pois a ponta de faca exige confronto indireto, enquanto a caneta identifica de imediato o seu legítimo proprietário a partir de suas características.",
-      "D": "ambos relativos, já que nenhum objeto inanimado pode ser classificado como vestígio absoluto, condição reservada exclusivamente às marcas deixadas pelo corpo humano."
+      "A": "ambos absolutos, pois tanto a faca quanto a caneta guardam relação direta e imediata com a sua origem prontamente identificável pela perícia criminal no exame do local.",
+      "B": "absoluto e relativo, pois a ponta de faca guarda relação direta com a origem, ao passo que a caneta sem identificação admite relação estabelecida apenas de forma indireta.",
+      "C": "relativo e absoluto, pois a ponta de faca exige confronto indireto, enquanto a caneta identifica de imediato o seu legítimo proprietário a partir das suas características materiais.",
+      "D": "ambos relativos, pois a classificação de vestígio absoluto fica reservada às marcas deixadas pelo corpo humano, como as impressões digitais e as manchas de sangue no local."
     },
     "resposta_correta": "B",
-    "justificativa": "Pelo Cap. 6 (6.2), a ponta de faca que se encaixa na gaveta arrombada é vestígio absoluto (relação direta), e a caneta sem identificação é relativo (relação indireta). A tese 'ambos absolutos' erra (a caneta é relativa). A 'relativo e absoluto' inverte. A 'ambos relativos' erra, pois objetos inanimados podem ser absolutos (a própria faca, cápsula de munição).",
+    "justificativa": "Pelo Cap. 6 (6.2), a ponta de faca que se encaixa na gaveta arrombada é vestígio absoluto (relação direta), e a caneta sem identificação é relativo (relação indireta). A tese 'ambos absolutos' erra (a caneta é relativa). A 'relativo e absoluto' inverte. A 'ambos relativos' erra, pois objetos inanimados podem ser absolutos (a própria faca, a cápsula de munição).",
     "referencia": "Cap. 6, Seção 6.2, p. 48-49",
     "nivel": "dificil"
   }

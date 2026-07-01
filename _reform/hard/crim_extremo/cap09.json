@@ -3,13 +3,13 @@
     "conteudo": "Cap. 9 - Laudo Pericial",
     "enunciado": "Sobre a numeração dos laudos no Sistema Nacional de Gestão da Criminalística, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A numeração é própria de cada área pericial, reinicia-se no aniversário de criação da unidade e o número é reservado no primeiro dia de realização efetiva dos exames periciais.",
+      "A": "A numeração é própria de cada área pericial, reinicia-se no aniversário de criação da unidade e o número é reservado no primeiro dia de realização efetiva dos exames periciais do caso.",
       "B": "A numeração é sequencial por perito, reinicia-se a cada novo procedimento instaurado e o número é reservado no momento do recebimento da requisição de exame pela secretaria da unidade.",
-      "C": "A numeração é comum a todas as áreas, jamais se reinicia ao longo dos anos e o número é reservado na data de designação do perito responsável pelo atendimento da requisição.",
+      "C": "A numeração é comum a todas as áreas, mantém-se contínua ao longo dos anos e o número é reservado na data de designação do perito responsável pelo atendimento da requisição de exame.",
       "D": "A numeração é sequencial, comum a todas as áreas periciais e reinicia-se no primeiro dia de cada ano, devendo o número ser reservado no dia em que o documento for liberado."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 9, a numeração é sequencial, comum a todas as áreas, reinicia-se no 1º dia de cada ano e o número é reservado no dia da liberação, independentemente dos dias dos exames. A tese da numeração por área e reinício no aniversário erra. A da numeração por perito reservada no recebimento erra. A de que jamais se reinicia erra.",
+    "justificativa": "Pelo Cap. 9, a numeração é sequencial, comum a todas as áreas, reinicia-se no 1º dia de cada ano e o número é reservado no dia da liberação, independentemente dos dias dos exames. A tese da numeração por área e reinício no aniversário erra. A da numeração por perito reservada no recebimento erra. A que a diz contínua ao longo dos anos e reservada na designação erra.",
     "referencia": "Cap. 9, p. 58",
     "nivel": "dificil"
   },
@@ -18,12 +18,12 @@
     "enunciado": "Sobre o sistema liberatório e a importância do laudo (art. 182 do CPP), conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "O juiz não ficará adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo no todo ou em parte, e poderá requerer esclarecimentos, determinar complementação ou nova perícia por outros peritos.",
-      "B": "O juiz fica adstrito ao laudo pericial, somente podendo afastá-lo mediante nova perícia obrigatoriamente determinada de ofício no curso da instrução criminal, com novos peritos nomeados.",
+      "B": "O juiz fica vinculado ao laudo pericial, cabendo-lhe afastá-lo por meio de nova perícia determinada de ofício no curso da instrução criminal, com a nomeação de outros peritos oficiais.",
       "C": "O sistema liberatório autoriza o juiz a substituir as conclusões técnicas do laudo por sua própria avaliação científica direta dos vestígios materiais examinados no curso da apuração.",
-      "D": "Rejeitado o laudo, o juiz fica impedido de determinar nova perícia, devendo decidir com base exclusivamente na prova testemunhal e documental produzida ao longo do processo penal."
+      "D": "Rejeitado o laudo, o juiz decide com base na prova testemunhal e documental dos autos, sem poder determinar a realização de nova perícia por outros peritos no curso do processo penal."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 9 (9.1), o art. 182 consagra o sistema liberatório: o juiz não fica adstrito ao laudo (aceita ou rejeita, no todo ou em parte) e pode requerer esclarecimentos, complementação ou nova perícia. A tese de que fica adstrito erra. A de que substitui a análise por avaliação científica própria dos vestígios erra. A de que não pode determinar nova perícia erra.",
+    "justificativa": "Pelo Cap. 9 (9.1), o art. 182 consagra o sistema liberatório: o juiz não fica adstrito ao laudo (aceita ou rejeita, no todo ou em parte) e pode requerer esclarecimentos, complementação ou nova perícia. A tese de que fica vinculado erra. A que o autoriza a substituir a análise por avaliação científica própria dos vestígios erra. A que o impede de determinar nova perícia erra.",
     "referencia": "Cap. 9, Seção 9.1, p. 58-59",
     "nivel": "dificil"
   },
@@ -31,13 +31,13 @@
     "conteudo": "Cap. 9 - Laudo Pericial",
     "enunciado": "Sobre o laudo de exame de constatação preliminar previsto na Lei nº 11.343/2006, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O exame preliminar exige no mínimo dois peritos oficiais para a sua validade; e quem o assina fica impedido de realizar o exame definitivo posterior, por força da garantia do contraditório.",
-      "B": "O exame preliminar é apenas um entre vários casos de exame pericial preliminar previstos na legislação processual penal; e deve ser sempre realizado por dois peritos oficiais nomeados.",
+      "A": "O exame preliminar reclama a atuação de dois peritos oficiais para a sua validade, e quem o assina fica impedido de realizar o exame definitivo posterior, por força da garantia do contraditório.",
+      "B": "O exame preliminar figura entre os vários casos de exame pericial preliminar previstos na legislação processual penal e reclama a atuação de dois peritos oficiais nomeados pelo juízo criminal.",
       "C": "O exame preliminar pode ser feito por um perito ou, na falta, por pessoa capacitada nomeada pelo delegado; quem o assina não fica impedido de fazer o definitivo, sendo o único caso de exame preliminar em lei.",
-      "D": "O perito que assina o laudo preliminar fica obrigatoriamente impedido de elaborar o definitivo; e, na falta de perito oficial, o exame não pode ser feito por pessoa com mera capacitação técnica."
+      "D": "O perito que assina o laudo preliminar fica impedido de elaborar o definitivo, e, na falta de perito oficial, o exame não é confiado a pessoa que detenha mera capacitação técnica para o encargo."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 9 (9.2), o exame preliminar de drogas pode ser feito por um só perito ou, na falta, por pessoa capacitada nomeada pelo delegado; o perito oficial que o assina não fica impedido de fazer o definitivo, e este é o único caso de exame preliminar em lei. As teses que exigem dois peritos e afirmam impedimento erram; a que diz haver vários casos erra (é o único).",
+    "justificativa": "Pelo Cap. 9 (9.2), o exame preliminar de drogas pode ser feito por um só perito ou, na falta, por pessoa capacitada nomeada pelo delegado; o perito oficial que o assina não fica impedido de fazer o definitivo, e este é o único caso de exame preliminar em lei. As teses que reclamam dois peritos e afirmam impedimento erram; a que o diz um entre vários casos erra (é o único).",
     "referencia": "Cap. 9, Seção 9.2, p. 59",
     "nivel": "dificil"
   },
@@ -45,13 +45,13 @@
     "conteudo": "Cap. 9 - Laudo Pericial",
     "enunciado": "Sobre o parecer técnico e a informação como documentos correlatos ao laudo, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O parecer técnico exige sempre a assinatura de dois peritos; e, quando elaborado por determinação judicial para esclarecer laudo anterior, pode ser firmado por peritos distintos dos signatários originais.",
-      "B": "A informação exige sempre a assinatura de dois peritos; e destina-se a comunicar ao requisitante a conclusão técnica final do exame pericial efetivamente realizado pela unidade.",
-      "C": "A informação é o documento por meio do qual o perito esclarece a conclusão de laudo já expedido; e deve ser obrigatoriamente assinada pelos mesmos signatários da via original do documento.",
+      "A": "O parecer técnico reclama a assinatura de dois peritos e, quando elaborado por determinação judicial para esclarecer laudo anterior, pode ser firmado por peritos distintos dos signatários originais.",
+      "B": "A informação reclama a assinatura de dois peritos e destina-se a comunicar ao requisitante a conclusão técnica final do exame pericial efetivamente realizado pela unidade de criminalística.",
+      "C": "A informação é o documento pelo qual o perito esclarece a conclusão de laudo já expedido, devendo ser assinada pelos mesmos peritos signatários da via original do documento pericial.",
       "D": "O parecer técnico pode ser feito por um ou mais peritos, conforme a complexidade; quando elaborado por determinação judicial para esclarecer o laudo, deve ser feito pelos peritos signatários do original."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 9 (9.3 e 9.4), o parecer técnico pode ser feito por um ou mais peritos conforme a complexidade; para esclarecer laudo, deve ser feito pelos signatários originais. A tese que exige dois peritos e admite peritos distintos erra. A de que a informação exige dois peritos e comunica a conclusão final erra (não exige dois e serve à comunicação com requisitante/chefia). A que confunde informação com parecer de esclarecimento erra.",
+    "justificativa": "Pelo Cap. 9 (9.3 e 9.4), o parecer técnico pode ser feito por um ou mais peritos conforme a complexidade; para esclarecer laudo, deve ser feito pelos signatários originais. A tese que exige dois peritos e admite peritos distintos erra. A de que a informação exige dois peritos e comunica a conclusão final erra (não exige dois e serve à comunicação com requisitante/chefia). A que confunde a informação com o parecer de esclarecimento erra.",
     "referencia": "Cap. 9, Seções 9.3 e 9.4, p. 59-60",
     "nivel": "dificil"
   },
@@ -59,9 +59,9 @@
     "conteudo": "Cap. 9 - Laudo Pericial",
     "enunciado": "Quanto às partes mínimas e ao valor do laudo pericial, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O laudo vale primordialmente pelo prestígio da instituição que o emite; o conteúdo técnico-científico é apenas elemento secundário na composição da sua força probatória perante o juízo.",
+      "A": "O laudo vale primordialmente pelo prestígio da instituição que o emite, figurando o conteúdo técnico-científico como elemento secundário na composição da sua força probatória perante o juízo.",
       "B": "Para a maioria dos doutrinadores o laudo deve conter, no mínimo, preâmbulo, exposição/discussão e conclusão, e vale pelo conteúdo técnico-científico, não pelo prestígio ou nome dos peritos.",
-      "C": "A conclusão deve ser sempre extensa e detalhada, confundindo-se com a exposição e a discussão dos exames, de modo a reforçar a fundamentação técnica das análises realizadas pelo perito.",
+      "C": "A conclusão do laudo deve ser extensa e detalhada, confundindo-se com a exposição e a discussão dos exames realizados, de modo a reforçar a fundamentação técnica das análises periciais.",
       "D": "A responsabilidade pela elaboração do laudo é do diretor da repartição que designou os peritos, e não dos peritos que efetivamente realizaram os exames periciais que embasaram o documento."
     },
     "resposta_correta": "B",

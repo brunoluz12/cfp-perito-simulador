@@ -3,13 +3,13 @@
     "conteudo": "Cap. 8 - Exame pericial",
     "enunciado": "Sobre os prazos e horários do exame pericial no CPP, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O exame de corpo de delito só pode ser realizado em dias úteis e no horário forense regular, e o laudo tem prazo improrrogável de 10 dias, contado da requisição da autoridade (art. 160).",
-      "B": "A autópsia será feita pelo menos 10 horas depois do óbito, salvo evidência dos sinais de morte, e o laudo pericial tem prazo de 6 dias, prorrogável uma única vez a critério do juízo.",
-      "C": "O prazo de 10 dias para o laudo coincide com o prazo de conclusão do inquérito policial, contado da instauração, sendo ambos improrrogáveis por expressa disposição da lei processual.",
+      "A": "O exame de corpo de delito é realizado em dias úteis e no horário forense regular, e o laudo tem prazo de 10 dias contado da requisição, sem previsão de prorrogação (art. 160).",
+      "B": "A autópsia será feita ao menos 10 horas depois do óbito, salvo evidência dos sinais de morte, e o laudo pericial tem prazo de 6 dias, prorrogável uma vez a critério do juízo criminal, contado o prazo a partir da instauração do inquérito policial.",
+      "C": "O prazo de 10 dias para o laudo coincide com o prazo de conclusão do inquérito policial, sendo contado a partir da instauração do procedimento investigativo pela autoridade policial.",
       "D": "O exame pode ser realizado em qualquer dia e a qualquer hora (art. 161); o laudo tem prazo de 10 dias, prorrogável em casos excepcionais a requerimento dos peritos, sem limite no CPP."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 8 (8.1), o art. 161 permite o exame em qualquer dia e hora; o laudo tem 10 dias (art. 160, §ún.), prorrogável em casos excepcionais a requerimento dos peritos, sem limite no CPP. A tese dos 'dias úteis/horário forense' e prazo improrrogável erra. A do prazo da autópsia em 10 horas e laudo de 6 dias erra. A que iguala o prazo do laudo ao do inquérito erra.",
+    "justificativa": "Pelo Cap. 8 (8.1), o art. 161 permite o exame em qualquer dia e hora; o laudo tem 10 dias (art. 160, §ún.), prorrogável em casos excepcionais a requerimento dos peritos, sem limite no CPP. A tese dos dias úteis/horário forense e da ausência de prorrogação erra. A do prazo da autópsia em 10 horas e do laudo em 6 dias erra. A que iguala o prazo do laudo ao do inquérito erra.",
     "referencia": "Cap. 8, Seção 8.1, p. 51-52",
     "nivel": "dificil"
   },
@@ -18,12 +18,12 @@
     "enunciado": "Sobre a autópsia e o exame externo do cadáver (art. 162 do CPP), conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "A autópsia será feita ao menos 6 horas após o óbito, salvo evidência dos sinais de morte; na morte violenta, basta o exame externo se não houver infração a apurar ou as lesões externas permitirem precisar a causa.",
-      "B": "A autópsia será feita pelo menos 24 horas depois do óbito, prazo improrrogável que não admite exceção ainda que sejam evidentes os sinais de morte no cadáver submetido a exame pericial.",
-      "C": "Nos casos de morte violenta é sempre obrigatório o exame interno completo do cadáver, sendo vedado o simples exame externo, ainda que as lesões externas permitam precisar com segurança a causa da morte e a dinâmica do evento lesivo.",
-      "D": "A decisão de realizar apenas o exame externo do cadáver cabe à autoridade policial que requisitou a perícia, e não ao perito médico-legista responsável pela sua efetiva realização técnica."
+      "B": "A autópsia será feita ao menos 24 horas depois do óbito, prazo que se aplica inclusive quando já evidentes os sinais de morte no cadáver submetido a exame pericial pelo legista designado.",
+      "C": "Nos casos de morte violenta, impõe-se o exame interno completo do cadáver mesmo quando as lesões externas já permitam precisar com segurança a causa da morte e a dinâmica do evento lesivo.",
+      "D": "A decisão de realizar o exame externo do cadáver cabe à autoridade policial que requisitou a perícia, e não ao perito médico-legista responsável pela sua realização, ainda que os sinais de morte já se mostrem evidentes ao exame."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 8 (8.1), o art. 162 fixa a autópsia ao menos 6 horas após o óbito, salvo sinais evidentes, e no §ún. basta o exame externo na morte violenta sem infração a apurar ou quando as lesões externas permitirem precisar a causa. A tese das 24 horas sem exceção erra. A do exame interno sempre obrigatório erra. A de que a decisão é da autoridade erra: cabe ao perito médico-legista (ou PCF de Medicina).",
+    "justificativa": "Pelo Cap. 8 (8.1), o art. 162 fixa a autópsia ao menos 6 horas após o óbito, salvo sinais evidentes, e no §ún. basta o exame externo na morte violenta sem infração a apurar ou quando as lesões externas permitirem precisar a causa. A tese das 24 horas aplicáveis mesmo com sinais evidentes erra. A que impõe o exame interno mesmo com a causa já precisada erra. A que dá a decisão à autoridade erra: cabe ao perito médico-legista (ou PCF de Medicina).",
     "referencia": "Cap. 8, Seção 8.1, p. 51-52",
     "nivel": "dificil"
   },
@@ -31,13 +31,13 @@
     "conteudo": "Cap. 8 - Exame pericial",
     "enunciado": "Sobre as ilustrações dos laudos e a fotografia de cadáveres (arts. 169, 170 e 164 do CPP), conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A fotografia dos cadáveres na posição em que forem encontrados é mera prerrogativa do perito (art. 169), ao passo que ilustrar o laudo com fotografias é imposição legal obrigatória (art. 164), não dependendo da vontade do perito ou do delegado.",
+      "A": "A fotografia dos cadáveres na posição em que forem encontrados é mera prerrogativa do perito (art. 169), ao passo que ilustrar o laudo com fotografias é imposição legal obrigatória (art. 164), independente da vontade do perito ou do delegado.",
       "B": "A conservação de parte do material analisado para eventual contraprova é exigência do art. 164 e fica restrita às perícias de local de crime praticado contra a vida da vítima identificada.",
       "C": "Ilustrar o laudo é prerrogativa do perito (art. 169); no laboratório, o art. 170 manda ilustrar sempre que conveniente e conservar parte do material; o art. 164 impõe fotografar os cadáveres na posição encontrada.",
-      "D": "O art. 170 dispensa, nas perícias de laboratório, qualquer ilustração e também a conservação de material, por se tratar de exames realizados em ambiente técnico plenamente controlado."
+      "D": "O art. 170 afasta, nas perícias de laboratório, a ilustração dos laudos e a conservação de parte do material, por serem exames realizados em ambiente técnico controlado pela unidade."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 8 (8.2): ilustrar o laudo é prerrogativa (art. 169); nas perícias de laboratório o art. 170 manda ilustrar 'sempre que conveniente' e conservar parte do material; o art. 164 impõe que cadáveres sejam sempre fotografados na posição encontrada. A tese que inverte os artigos (foto do cadáver = 169; ilustração = 164) erra. A da conservação no art. 164 erra (é o art. 170). A de que o art. 170 dispensa ilustração/conservação erra.",
+    "justificativa": "Pelo Cap. 8 (8.2): ilustrar o laudo é prerrogativa (art. 169); nas perícias de laboratório o art. 170 manda ilustrar 'sempre que conveniente' e conservar parte do material; o art. 164 impõe que cadáveres sejam sempre fotografados na posição encontrada. A tese que inverte os artigos (foto do cadáver = 169; ilustração = 164) erra. A que põe a conservação no art. 164 erra (é o art. 170). A que diz o art. 170 afastar ilustração/conservação erra.",
     "referencia": "Cap. 8, Seção 8.2, p. 52-53",
     "nivel": "dificil"
   },
@@ -60,12 +60,12 @@
     "enunciado": "Sobre o exame grafotécnico (art. 174 do CPP) e a requisição/quesitação, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "Não havendo escritos suficientes, a autoridade mandará a pessoa escrever o que lhe for ditado; estando ela ausente, mas em lugar certo, a diligência poderá ser feita por precatória.",
-      "B": "Para o confronto grafotécnico só podem servir documentos produzidos no curso do processo, vedado o uso de documentos reconhecidos pela pessoa ou existentes em arquivos públicos oficiais.",
-      "C": "A solicitação da perícia é ato discricionário da autoridade; nos crimes que deixam vestígios, a confissão do acusado supre o exame de corpo de delito tido por indispensável pela lei.",
-      "D": "O exame grafotécnico dispensa a confrontação com padrão gráfico, bastando a análise isolada do documento questionado para concluir com segurança sobre a autoria do escrito examinado."
+      "B": "Para o confronto grafotécnico servem os documentos produzidos no curso do processo, ficando de fora os documentos reconhecidos pela pessoa ou existentes em arquivos públicos oficiais.",
+      "C": "A solicitação da perícia é ato discricionário da autoridade; nos crimes que deixam vestígios, a confissão do acusado supre o exame de corpo de delito tido por indispensável pela lei processual.",
+      "D": "O exame grafotécnico conclui sobre a autoria a partir da análise isolada do documento questionado, sem necessidade de confronto com material gráfico padrão fornecido pela pessoa investigada."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 8 (8.5 e 8.8), no art. 174, IV, não havendo escritos suficientes a autoridade manda a pessoa escrever o ditado, e, ausente mas em lugar certo, a diligência se faz por precatória. A tese que só admite documentos do processo erra (podem servir documentos reconhecidos, judicialmente reconhecidos ou de arquivos públicos). A da solicitação discricionária/confissão que supre erra (ato vinculado, art. 158). A que dispensa o padrão gráfico erra.",
+    "justificativa": "Pelo Cap. 8 (8.5 e 8.8), no art. 174, IV, não havendo escritos suficientes a autoridade manda a pessoa escrever o ditado, e, ausente mas em lugar certo, a diligência se faz por precatória. A tese que restringe o confronto aos documentos do processo erra (servem documentos reconhecidos, judicialmente reconhecidos ou de arquivos públicos). A da solicitação discricionária/confissão que supre erra (ato vinculado, art. 158). A que dispensa o padrão gráfico erra.",
     "referencia": "Cap. 8, Seções 8.5 e 8.8, p. 53-55",
     "nivel": "dificil"
   }

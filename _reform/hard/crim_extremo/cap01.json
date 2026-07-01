@@ -4,12 +4,12 @@
     "enunciado": "No contexto de inserção da Criminalística, sobre a natureza das funções policiais do art. 144 da CF, assinale a afirmação tecnicamente correta.",
     "alternativas": {
       "A": "A polícia de função judiciária tem caráter repressivo e entra em ação após a prática da infração, com a missão de recolher os elementos que possibilitem a instauração da ação penal.",
-      "B": "A polícia administrativa, de natureza repressiva, é exercida pelas polícias civis, às quais incumbe a apuração das infrações penais e da respectiva autoria após a consumação do delito.",
-      "C": "As guardas municipais integram o rol de órgãos incumbidos da função de polícia judiciária, cabendo-lhes a apuração das infrações penais ocorridas na circunscrição territorial do município.",
+      "B": "A polícia administrativa, de caráter repressivo, é atribuição das polícias civis, às quais compete a apuração das infrações penais e da respectiva autoria após a consumação do delito.",
+      "C": "As guardas municipais, no exercício da função de polícia judiciária, encarregam-se da apuração das infrações penais ocorridas na circunscrição territorial do respectivo município.",
       "D": "A polícia judiciária tem caráter preventivo e ostensivo, atuando antes da consumação do delito para preservar a ordem pública e a incolumidade das pessoas e do patrimônio público."
     },
     "resposta_correta": "A",
-    "justificativa": "Conforme o Cap. 1, a polícia de função judiciária é repressiva e atua após a infração, para recolher elementos à ação penal. A tese de que a polícia administrativa é repressiva e cabe às civis está errada: a administrativa é preventiva/ostensiva (PM, rodoviária e ferroviária) e quem apura é a polícia judiciária. A tese das guardas municipais erra: elas são força ostensiva voltada à proteção do patrimônio dos municípios, não exercendo polícia judiciária. A tese de que a polícia judiciária é preventiva/ostensiva inverte a sua natureza, que é repressiva e posterior ao crime.",
+    "justificativa": "Conforme o Cap. 1, a polícia de função judiciária é repressiva e atua após a infração, para recolher elementos à ação penal. A tese da polícia administrativa como repressiva a cargo das civis inverte a natureza (a administrativa é preventiva/ostensiva — PM, rodoviária e ferroviária — e as civis exercem polícia judiciária). A das guardas municipais erra o instituto: são força ostensiva de proteção do patrimônio dos municípios. A que atribui à polícia judiciária caráter preventivo/ostensivo inverte a sua natureza, que é repressiva e posterior ao crime.",
     "referencia": "Cap. 1, Introdução e Seção 1.1, p. 13-14",
     "nivel": "dificil"
   },
@@ -18,12 +18,12 @@
     "enunciado": "Sobre os conceitos de materialidade e autoria e a relação com a prova material, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "A materialidade corresponde à identificação de quem praticou o fato, enquanto a autoria consiste na demonstração de que o crime efetivamente ocorreu no mundo dos fatos investigados.",
-      "B": "A materialidade confunde-se com a prova material do crime, correspondendo ambas ao elemento subjetivo do tipo penal a ser demonstrado pericialmente no curso da apuração.",
+      "B": "A materialidade equivale à prova material do crime, correspondendo ambas ao elemento subjetivo do tipo penal a ser demonstrado pericialmente no curso da apuração criminal.",
       "C": "A materialidade é o elemento objetivo do tipo penal — a ocorrência da conduta vedada pela lei —, de modo que, no homicídio, ela é a morte e, no furto, a subtração da coisa.",
-      "D": "Comprovada a materialidade, a condenação independe de certeza quanto à autoria, bastando que esta seja demonstrada por mera probabilidade extraída dos vestígios examinados."
+      "D": "Comprovada a materialidade, a autoria pode ser firmada com base em juízo de probabilidade extraído dos vestígios, ainda que remanesça alguma dúvida sobre quem praticou o fato."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 1, materialidade é o elemento objetivo do tipo (a efetivação do crime): no homicídio é a morte e no furto a subtração. A tese que define materialidade como 'quem praticou' inverte os conceitos (isso é autoria). A tese de que materialidade = prova material e seria elemento subjetivo erra duplamente: é elemento objetivo e não se confunde com a prova material. A tese de que a autoria pode assentar em probabilidade erra: o juiz não condena havendo a menor dúvida quanto à autoria — exige-se certeza.",
+    "justificativa": "Pelo Cap. 1, materialidade é o elemento objetivo do tipo (a efetivação do crime): no homicídio é a morte e no furto a subtração. A tese que define materialidade como 'quem praticou' inverte os conceitos (isso é autoria). A que iguala materialidade a prova material e a trata como elemento subjetivo erra duas vezes: é elemento objetivo e não se confunde com a prova material. A que admite autoria por probabilidade erra: o juiz não condena havendo dúvida quanto à autoria — exige-se certeza.",
     "referencia": "Cap. 1, Seção 1.1, p. 13-14",
     "nivel": "dificil"
   },
@@ -31,13 +31,13 @@
     "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
     "enunciado": "Um Delegado de Polícia Federal recebe (i) comunicação verbal de um cidadão noticiando crime de ação penal pública e (ii) requisição do Ministério Público para instaurar inquérito sobre fato diverso. Conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Ambas as hipóteses deflagram automaticamente o inquérito, ficando o delegado vinculado e sem margem para aferir a procedência da comunicação ou a legalidade da requisição ministerial.",
-      "B": "A comunicação verbal do cidadão, por si só, não obriga a instauração imediata, ao passo que a requisição ministerial deflagra o inquérito de pleno direito, vedado qualquer controle de legalidade.",
-      "C": "Tanto a comunicação quanto a requisição podem ser substituídas por termo circunstanciado de ocorrência, independentemente do potencial ofensivo da infração penal noticiada à autoridade.",
+      "A": "As duas situações obrigam o delegado a instaurar o inquérito de imediato, cabendo a aferição da procedência das informações a momento posterior à formalização da instauração.",
+      "B": "A comunicação do cidadão não obriga a instauração imediata, ao passo que a requisição ministerial deflagra o inquérito de pleno direito, competindo o controle de legalidade ao Ministério Público.",
+      "C": "Tanto a comunicação quanto a requisição podem ser substituídas por termo circunstanciado de ocorrência, ainda que se trate de crime apenado com reclusão e de maior potencial ofensivo.",
       "D": "Verificada a procedência das informações, o delegado mandará instaurar inquérito; quanto à requisição, cabe controle de legalidade, atuando ele como primeiro garantidor da legalidade."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 1 (1.1.1), o art. 5º, §3º, do CPP exige verificar a procedência das informações antes de instaurar, e a requisição não inicia o inquérito de imediato, cabendo controle de legalidade, sendo o delegado o primeiro garantidor da legalidade. A tese da instauração automática e vinculação absoluta erra. A tese de que a requisição deflagra de pleno direito sem controle de legalidade também erra. A tese da substituição por termo circunstanciado erra porque isso só cabe nas infrações de menor potencial ofensivo.",
+    "justificativa": "Pelo Cap. 1 (1.1.1), o art. 5º, §3º, do CPP exige verificar a procedência das informações antes de instaurar, e a requisição não inicia o inquérito de imediato, cabendo controle de legalidade, sendo o delegado o primeiro garantidor da legalidade. A tese da instauração imediata com aferição posterior inverte a ordem legal. A que entrega o controle de legalidade ao Ministério Público erra o titular desse controle (é o delegado, sem prejuízo do juízo). A do termo circunstanciado erra o cabimento: ele se destina às infrações de menor potencial ofensivo.",
     "referencia": "Cap. 1, Seção 1.1.1, p. 15",
     "nivel": "dificil"
   },
@@ -46,12 +46,12 @@
     "enunciado": "Um delegado deixa de instaurar inquérito por sentimento pessoal de antipatia ao noticiante; em caso análogo, outro atua em excesso, com manifesta má-fé e em busca de proveito pessoal. Sobre a responsabilização, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "Deixar de atuar por sentimento pessoal pode configurar prevaricação (art. 319 do CP); atuar em excesso, com manifesta má-fé e busca de proveito pessoal, pode caracterizar abuso de poder.",
-      "B": "Deixar de atuar por sentimento pessoal configura abuso de autoridade (Lei nº 4.898/65); atuar em excesso, com má-fé e proveito pessoal, caracteriza a prevaricação prevista no art. 319 do CP.",
-      "C": "Ambas as condutas amoldam-se ao crime de prevaricação (art. 319 do CP), por derivarem de interesse ou sentimento pessoal do agente público no exercício regular de sua função.",
-      "D": "Nenhuma das condutas enseja responsabilização penal, pois a decisão de instaurar ou não o inquérito insere-se na discricionariedade plena conferida ao delegado de polícia federal."
+      "B": "Deixar de atuar por sentimento pessoal caracteriza abuso de autoridade (Lei nº 4.898/65); atuar em excesso, com má-fé e proveito pessoal, configura a prevaricação do art. 319 do CP.",
+      "C": "As duas condutas amoldam-se ao crime de prevaricação (art. 319 do CP), por derivarem de interesse ou sentimento pessoal do agente no exercício da função de polícia judiciária.",
+      "D": "As duas condutas inserem-se na margem de conveniência do delegado quanto a instaurar ou não o inquérito, afastando-se, por isso, a responsabilização penal do agente público."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 1 (1.1.1): deixar de atuar por sentimento pessoal pode gerar prevaricação (art. 319 do CP); atuar em excesso, com má-fé e proveito pessoal, pode configurar abuso de poder. A tese que enquadra a omissão como abuso e o excesso como prevaricação inverte os institutos. A tese que reduz tudo à prevaricação ignora o excesso. A tese da irresponsabilidade por discricionariedade plena erra, pois a atuação não é de discricionariedade plena.",
+    "justificativa": "Pelo Cap. 1 (1.1.1): deixar de atuar por sentimento pessoal pode gerar prevaricação (art. 319 do CP); atuar em excesso, com má-fé e proveito pessoal, pode configurar abuso de poder. A tese que enquadra a omissão como abuso e o excesso como prevaricação inverte os institutos. A que reduz ambas à prevaricação ignora o excesso. A que afasta a responsabilização por conveniência erra: a atuação não é de livre conveniência e há responsabilização possível.",
     "referencia": "Cap. 1, Seção 1.1.1, p. 15",
     "nivel": "dificil"
   },
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 1 - Contexto de inserção da Criminalística: A Polícia Judiciária",
     "enunciado": "Acerca das atribuições constitucionais da Polícia Federal (art. 144, §1º, da CF) na inserção da Criminalística, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Compete-lhe apurar com exclusividade as infrações em detrimento de bens da União, vedada a atuação no contrabando e descaminho, reservada à ação fazendária e a outros órgãos públicos.",
-      "B": "Compete-lhe exercer, em concorrência com as polícias civis dos Estados, as funções de polícia judiciária da União, repartindo-se a competência conforme a circunscrição territorial do fato.",
+      "A": "Compete-lhe apurar as infrações praticadas em detrimento de bens da União, ficando a repressão ao contrabando e ao descaminho reservada à ação fazendária e a outros órgãos.",
+      "B": "Compete-lhe exercer, com exclusividade, a apuração das infrações penais ocorridas no território nacional, inclusive daquelas afetas à competência das polícias civis dos Estados.",
       "C": "Compete-lhe apurar infrações de repercussão interestadual ou internacional que exijam repressão uniforme e exercer, com exclusividade, as funções de polícia judiciária da União.",
-      "D": "Compete-lhe exercer as funções de polícia marítima, aeroportuária e de fronteiras, bem como, com exclusividade, a prevenção ostensiva do tráfico de drogas em todo o território nacional."
+      "D": "Compete-lhe exercer as funções de polícia marítima, aeroportuária e de fronteiras, cabendo-lhe também a prevenção ostensiva do tráfico de drogas em todo o território nacional."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo art. 144, §1º, da CF (Cap. 1), cabe à PF apurar infrações de repercussão interestadual/internacional com repressão uniforme e exercer com exclusividade a polícia judiciária da União. A tese que veda a atuação no contrabando/descaminho erra: a PF previne e reprime o tráfico, o contrabando e o descaminho, sem prejuízo da ação fazendária. A tese da concorrência com as polícias civis erra, pois a polícia judiciária da União é exclusiva da PF. A tese da prevenção 'com exclusividade' do tráfico erra, pois a repressão a drogas se dá sem prejuízo de outros órgãos.",
+    "justificativa": "Pelo art. 144, §1º, da CF (Cap. 1), cabe à PF apurar infrações de repercussão interestadual/internacional com repressão uniforme e exercer com exclusividade a polícia judiciária da União. A tese que reserva o contrabando/descaminho à ação fazendária erra: a PF os previne e reprime, sem prejuízo daquela ação. A que lhe atribui a apuração das infrações de competência das civis erra o âmbito de atuação. A da prevenção ostensiva do tráfico erra a função: a PF previne e reprime o tráfico, mas a atuação ostensiva é própria das polícias militares.",
     "referencia": "Cap. 1, Seção 1.2, p. 15-16",
     "nivel": "dificil"
   }

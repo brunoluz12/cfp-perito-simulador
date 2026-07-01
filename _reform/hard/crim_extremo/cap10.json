@@ -3,9 +3,9 @@
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "enunciado": "Sobre a série ISO 21043 e sua relação com a ISO/IEC 17025, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A ISO/IEC 17025 é a norma específica das ciências forenses, e a série ISO 21043 limita-se a estabelecer requisitos de calibração de equipamentos de laboratório usados na perícia criminal, sem tratar de interpretação ou de relato pericial.",
-      "B": "A série ISO 21043 prevê processo formal de acreditação dos laboratórios forenses e, por ser consenso internacional, sobrepõe-se às leis e aos normativos internos de cada país que a adota.",
-      "C": "A série ISO 21043 foi elaborada pela INTERPOL e substitui integralmente a ISO/IEC 17025 nos laboratórios periciais, inclusive quanto aos requisitos de competência laboratorial.",
+      "A": "A ISO/IEC 17025 é a norma específica das ciências forenses, e a série ISO 21043 cuida da calibração de equipamentos de laboratório usados na perícia criminal, sem tratar de interpretação ou relato.",
+      "B": "A série ISO 21043 institui processo formal de acreditação dos laboratórios forenses e, por representar consenso internacional, sobrepõe-se às leis e aos normativos internos de cada país.",
+      "C": "A série ISO 21043 foi elaborada pela INTERPOL e substitui a ISO/IEC 17025 nos laboratórios periciais, inclusive quanto aos requisitos de competência laboratorial ali previstos.",
       "D": "A série ISO 21043 é do comitê ISO/TC 272 e dedica-se às ciências forenses, ao contrário da ISO/IEC 17025, que não aborda aspectos próprios da perícia, como a interpretação e a comunicação ao sistema de justiça."
     },
     "resposta_correta": "D",
@@ -45,13 +45,13 @@
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "enunciado": "Sobre os modos de interpretação e os tipos de opinião na ISO 21043-4, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A interpretação avaliativa parte das observações, sem proposições iniciais, para gerar hipóteses, enquanto a interpretação investigativa exige ao menos duas proposições concorrentes de início.",
-      "B": "As opiniões categóricas podem ser apresentadas como declarações de um fato da natureza, por expressarem certeza científica absoluta sobre a origem e a identidade do vestígio analisado.",
-      "C": "As razões de verossimilhança somente podem ser expressas de forma quantitativa, sendo vedada a sua expressão qualitativa nos laudos periciais e nos pareceres técnicos correlatos.",
+      "A": "A interpretação avaliativa parte das observações, sem proposições iniciais, para gerar hipóteses, enquanto a interpretação investigativa se apoia em duas proposições concorrentes formuladas de início.",
+      "B": "As opiniões categóricas podem ser apresentadas como declarações de um fato da natureza, por expressarem a certeza científica alcançada quanto à origem do vestígio pelo perito examinador.",
+      "C": "As razões de verossimilhança admitem expressão quantitativa, ficando de fora a sua expressão qualitativa nos laudos periciais e nos pareceres técnicos elaborados pelo perito criminal.",
       "D": "A interpretação investigativa parte das observações, sem proposições iniciais; a avaliativa parte de proposições mutuamente excludentes, relevantes, explícitas e específicas, com ao menos duas concorrentes."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 10 (ISO 21043-4), a interpretação investigativa parte das observações sem proposições iniciais (gera hipóteses), e a avaliativa parte de proposições mutuamente excludentes, relevantes, explícitas e específicas, com ao menos duas concorrentes. A tese que inverte os dois modos erra. A de que opiniões categóricas podem ser apresentadas como fato erra. A de que a razão de verossimilhança só é quantitativa erra (pode ser qualitativa ou quantitativa).",
+    "justificativa": "Pelo Cap. 10 (ISO 21043-4), a interpretação investigativa parte das observações sem proposições iniciais (gera hipóteses), e a avaliativa parte de proposições mutuamente excludentes, relevantes, explícitas e específicas, com ao menos duas concorrentes. A tese que inverte os dois modos erra. A de que opiniões categóricas podem ser apresentadas como fato erra. A de que a razão de verossimilhança deixa de fora a expressão qualitativa erra (pode ser qualitativa ou quantitativa).",
     "referencia": "Cap. 10, Seção 10.1 (ISO 21043-4), p. 64-66",
     "nivel": "dificil"
   },
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 10 - Regulamentação internacional da Criminalística",
     "enunciado": "Sobre a classificação dos relatos na ISO 21043-5 e outros referenciais internacionais, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A classificação dos relatos da ISO (preliminar, final, complementar, corrigido e obsoletado) foi integralmente adotada pela Criminalística Federal, em substituição aos laudos de perícia criminal.",
+      "A": "A classificação dos relatos da ISO (preliminar, final, complementar, corrigido e obsoletado) foi adotada pela Criminalística Federal, em substituição aos laudos de perícia criminal atualmente previstos.",
       "B": "A classificação de relatos da ISO 21043-5 não foi adotada pela Criminalística Federal, que prevê apenas Laudos Preliminares de Constatação (drogas) e Laudos de Perícia Criminal Federal.",
       "C": "O ILAC coordena a acreditação laboratorial, sendo a Declaração de Sidney (2022) o documento que estabelece o processo de acreditação a ser seguido no Brasil pelo CGCRE/Inmetro.",
       "D": "A ISO/IEC 27037:2012, voltada a evidências digitais, é a norma que define o vocabulário forense, substituindo a ISO 21043-1 no âmbito do Sistema Nacional de Criminalística da PF."
     },
     "resposta_correta": "B",
-    "justificativa": "Pelo Cap. 10 (ISO 21043-5), a classificação de relatos (preliminar/final/complementar/corrigido/obsoletado) não foi adotada pela Criminalística Federal, que prevê só Laudos Preliminares de Constatação e Laudos de Perícia Criminal Federal. A tese da adoção integral erra. A do ILAC/Declaração de Sidney confunde institutos (o ILAC coordena a acreditação; Sidney é marco conceitual/filosófico). A da ISO/IEC 27037 como vocabulário erra (trata de evidências digitais).",
+    "justificativa": "Pelo Cap. 10 (ISO 21043-5), a classificação de relatos (preliminar/final/complementar/corrigido/obsoletado) não foi adotada pela Criminalística Federal, que prevê só Laudos Preliminares de Constatação e Laudos de Perícia Criminal Federal. A tese da adoção erra. A do ILAC/Declaração de Sidney confunde institutos (o ILAC coordena a acreditação; Sidney é marco conceitual/filosófico). A da ISO/IEC 27037 como vocabulário erra (trata de evidências digitais).",
     "referencia": "Cap. 10, Seções 10.1 e 10.2, p. 66-68",
     "nivel": "dificil"
   }

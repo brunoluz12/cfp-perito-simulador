@@ -3,13 +3,13 @@
     "conteudo": "Cap. 7 - Indícios",
     "enunciado": "Conforme a definição legal de indício (art. 239 do CPP) e a distinção entre indício e vestígio, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Indício é todo objeto ou material bruto, visível ou latente, que se relaciona à infração penal e serve de matéria-prima à produção da prova material pela perícia oficial.",
+      "A": "Indício é todo objeto ou material bruto, visível ou latente, que se relaciona à infração penal e serve de matéria-prima à produção da prova material pela perícia oficial competente.",
       "B": "Indício é a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias.",
       "C": "Indício e vestígio são termos sinônimos, ambos designando os elementos materiais resultantes da conduta criminosa e ligados imediatamente à consumação do delito apurado.",
-      "D": "Indício é necessariamente representado por vestígio material, não podendo decorrer de circunstâncias desprovidas de qualquer suporte físico perceptível no local do crime."
+      "D": "Indício é representado por vestígio material, não decorrendo de circunstâncias desprovidas de suporte físico perceptível no local onde ocorreu a infração penal investigada."
     },
     "resposta_correta": "B",
-    "justificativa": "Pelo Cap. 7, o art. 239 define indício como circunstância conhecida e provada que, tendo relação com o fato, autoriza, por indução, concluir-se a existência de outra. A definição de 'objeto/material bruto' é de vestígio (art. 158-A). A tese da sinonímia erra. A tese de que o indício exige vestígio material erra: pode decorrer de circunstâncias (ex.: ameaças públicas).",
+    "justificativa": "Pelo Cap. 7, o art. 239 define indício como circunstância conhecida e provada que, tendo relação com o fato, autoriza, por indução, concluir-se a existência de outra. A definição de 'objeto/material bruto' é de vestígio (art. 158-A). A da sinonímia erra. A que exige vestígio material para o indício erra: o indício pode decorrer de circunstâncias (ex.: ameaças públicas).",
     "referencia": "Cap. 7, Introdução, p. 51",
     "nivel": "dificil"
   },
@@ -18,9 +18,9 @@
     "enunciado": "Em rixa entre vizinhos com frequentes ameaças públicas, um deles é encontrado morto por disparos perto da casa do outro. Coletam-se projéteis de calibre equivalente ao de arma apreendida na casa do suspeito e, depois, a balística comprova que os projéteis foram disparados por aquela arma. Conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "As ameaças e brigas são indícios circunstanciais; a comprovação balística de que a arma disparou os projéteis é prova material, mas ainda não prova que o suspeito efetuou os disparos.",
-      "B": "As ameaças públicas e as brigas constituem prova material direta da autoria, tornando dispensáveis os exames balísticos sobre os projéteis coletados no corpo da vítima fatal.",
-      "C": "A equivalência de calibre, por si só, é prova plena da autoria, tornando definitivos os indícios desde o momento da apreensão da arma de fogo na residência do suspeito investigado.",
-      "D": "Comprovado que a arma disparou os projéteis, está automaticamente provado que o dono da arma realizou os disparos, encerrando-se de imediato a investigação quanto à autoria do crime."
+      "B": "As ameaças públicas e as brigas constituem prova material direta da autoria, suficiente para a condenação do suspeito ainda antes da realização dos exames balísticos sobre os projéteis.",
+      "C": "A equivalência de calibre já constitui prova plena da autoria do homicídio, tornando definitivos os indícios desde o momento da apreensão da arma na residência do suspeito investigado.",
+      "D": "Comprovado que a arma disparou os projéteis, fica provado que o dono da arma realizou os disparos, encerrando-se a investigação quanto à autoria do crime imputado ao suspeito."
     },
     "resposta_correta": "A",
     "justificativa": "Pelo Cap. 7, as ameaças/brigas são indícios circunstanciais; a balística prova que a arma disparou, mas não que o suspeito disparou (a arma poderia ter sido roubada). A tese das ameaças como prova material direta erra. A da equivalência de calibre como prova plena erra. A de que provar que a arma disparou prova quem disparou erra.",
@@ -31,13 +31,13 @@
     "conteudo": "Cap. 7 - Indícios",
     "enunciado": "Sobre a natureza e o valor probatório do indício, conforme a doutrina citada no material (Rocha; Malatesta), assinale a alternativa correta.",
     "alternativas": {
-      "A": "O valor do indício é sempre absoluto e independe da maior ou menor afinidade de relação entre o fato e o crime ou o seu autor, conforme o entendimento doutrinário dominante.",
-      "B": "Segundo Malatesta, os indícios merecem a apoteose probatória, equiparando-se, por si sós, à prova plena da autoria do delito imputado ao acusado no processo criminal.",
+      "A": "O valor do indício é fixo e predeterminado, sem relação com a maior ou menor afinidade entre o fato e o crime ou o seu autor, conforme o entendimento doutrinário majoritário.",
+      "B": "Segundo Malatesta, os indícios merecem a apoteose probatória, equiparando-se à prova plena da autoria do delito imputado ao acusado no curso do processo criminal instaurado.",
       "C": "O indício é o argumento que deduz o desconhecido do conhecido pela relação de causalidade, e seu valor está na maior ou menor afinidade de relação do fato com o crime ou seu autor.",
-      "D": "O indício deduz o conhecido a partir do desconhecido, prescindindo de qualquer relação de causalidade entre a circunstância provada e a conclusão a que se pretende chegar."
+      "D": "O indício deduz o conhecido a partir do desconhecido, prescindindo de relação de causalidade entre a circunstância provada e a conclusão a que se pretende chegar na investigação."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 7, Malatesta define indício como o que deduz o desconhecido do conhecido pela relação de causalidade, e Rocha aponta que seu valor está na afinidade de relação do fato com o crime ou autor. A tese do valor absoluto erra. A da 'apoteose' erra: Malatesta diz que não merecem a apoteose nem a excomunhão. A que inverte a dedução (conhecido a partir do desconhecido, sem causalidade) erra.",
+    "justificativa": "Pelo Cap. 7, Malatesta define indício como o que deduz o desconhecido do conhecido pela relação de causalidade, e Rocha aponta que seu valor está na afinidade de relação do fato com o crime ou autor. A tese do valor fixo/sem relação com a afinidade erra. A da 'apoteose' erra: Malatesta diz que não merecem a apoteose nem a excomunhão. A que inverte a dedução (conhecido a partir do desconhecido, sem causalidade) erra.",
     "referencia": "Cap. 7, Introdução, p. 51",
     "nivel": "dificil"
   },
@@ -45,10 +45,10 @@
     "conteudo": "Cap. 7 - Indícios",
     "enunciado": "Diferenciando indício e vestígio quanto à forma de manifestação, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Tanto o indício quanto o vestígio dependem necessariamente de suporte material para existirem e para produzirem efeitos jurídicos no curso do processo penal instaurado.",
-      "B": "O vestígio é sempre uma suspeita fundamentada de caráter circunstancial, ao passo que o indício é sempre um elemento material concretamente recolhido no local de crime examinado.",
-      "C": "O indício, por ser suspeita fundamentada, equivale à prova plena, enquanto o vestígio é mero elemento informativo desprovido de qualquer valor probatório no processo penal.",
-      "D": "O indício pode manifestar-se por meio de vestígios materiais ou de circunstâncias, podendo, muitas vezes, não ser representado por vestígios materiais perceptíveis no local."
+      "A": "O indício e o vestígio dependem de suporte material para existirem e para produzirem efeitos jurídicos no curso do processo penal instaurado a partir da notícia do crime.",
+      "B": "O vestígio é uma suspeita fundamentada de caráter circunstancial, ao passo que o indício é um elemento material concretamente recolhido no local de crime pela equipe de perícia.",
+      "C": "O indício, por ser suspeita fundamentada, equivale à prova plena, enquanto o vestígio é mero elemento informativo, sem valor probatório no processo penal em que é apresentado.",
+      "D": "O indício pode manifestar-se por meio de vestígios materiais ou de circunstâncias, podendo, muitas vezes, não ser representado por vestígios materiais perceptíveis no local do fato."
     },
     "resposta_correta": "D",
     "justificativa": "Pelo Cap. 7, o indício é suspeita fundamentada que pode manifestar-se por vestígios materiais ou por circunstâncias, muitas vezes sem vestígio material. A tese de que ambos exigem suporte material erra (o indício pode ser circunstancial). A que inverte vestígio e indício erra. A que equipara indício a prova plena e nega valor ao vestígio erra.",
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 7 - Indícios",
     "enunciado": "No exemplo da arma apreendida e dos projéteis, mesmo após a comprovação balística os indícios de autoria são fortes, porém não definitivos. A razão técnica, conforme o material, é que:",
     "alternativas": {
-      "A": "a prova balística é inadmissível como prova material no processo penal, servindo apenas como indício circunstancial de reforço da hipótese inicial formulada pela investigação.",
-      "B": "os indícios, por definição legal, jamais podem fundamentar a convicção judicial, independentemente de seu grau de afinidade com o fato e com a autoria que se pretende provar.",
-      "C": "a comprovação da materialidade do disparo equivale à comprovação da autoria, faltando apenas a formalização documental do laudo pericial respectivo nos autos do inquérito.",
+      "A": "a prova balística é inadmissível como prova material no processo penal, servindo de simples indício circunstancial de reforço da hipótese inicial formulada pela investigação policial.",
+      "B": "os indícios, por definição legal, não fundamentam a convicção judicial, pouco importando o seu grau de afinidade com o fato apurado e com a autoria que se pretende atribuir ao réu.",
+      "C": "a comprovação da materialidade do disparo equivale à comprovação da autoria, faltando somente a formalização documental do laudo pericial respectivo nos autos do inquérito policial.",
       "D": "as provas não são plenas: comprovou-se que a arma disparou os projéteis, mas ainda é preciso provar que o suspeito realizou o disparo, pois a arma poderia ter sido subtraída."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 7, os indícios de autoria são fortes mas não definitivos porque as provas não são plenas: provou-se que a arma disparou, não que o suspeito disparou (a arma poderia ter sido roubada). A tese da inadmissibilidade da balística erra (é prova material válida). A de que indícios nunca fundamentam convicção erra. A de que materialidade do disparo equivale a autoria erra.",
+    "justificativa": "Pelo Cap. 7, os indícios de autoria são fortes mas não definitivos porque as provas não são plenas: provou-se que a arma disparou, não que o suspeito disparou (a arma poderia ter sido roubada). A tese da inadmissibilidade da balística erra (é prova material válida). A de que indícios não fundamentam convicção erra. A de que materialidade do disparo equivale a autoria erra.",
     "referencia": "Cap. 7, Introdução, p. 51",
     "nivel": "dificil"
   }

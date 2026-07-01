@@ -3,9 +3,9 @@
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "enunciado": "Sobre o ciclo científico aplicado à perícia, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O ciclo é uma sequência linear e irreversível que vai da observação à conclusão, sem qualquer possibilidade de retorno a etapas anteriores já cumpridas no curso do exame pericial.",
-      "B": "A observação pericial equipara-se à observação cotidiana, guiada pela intuição, dispensando protocolos técnicos, documentação e rastreabilidade dos vestígios recolhidos no local de crime.",
-      "C": "Na etapa de avaliação dos resultados, as hipóteses corroboradas tornam-se definitivamente comprovadas, encerrando-se qualquer possibilidade de revisão posterior diante de novos dados.",
+      "A": "O ciclo é uma sequência linear e irreversível que vai da observação à conclusão, sem retorno a etapas anteriores já cumpridas no curso do exame pericial realizado pela equipe.",
+      "B": "A observação pericial equipara-se à observação cotidiana, guiada pela intuição, à margem de protocolos técnicos, de documentação e da rastreabilidade dos vestígios recolhidos no local.",
+      "C": "Na etapa de avaliação dos resultados, as hipóteses corroboradas tornam-se definitivamente comprovadas, encerrando-se a possibilidade de revisão posterior diante de novos dados obtidos.",
       "D": "O ciclo compreende observação, formulação de hipóteses, testagem e avaliação dos resultados, sendo iterativo: novas informações podem exigir o retorno a etapas anteriores e a repetição de exames."
     },
     "resposta_correta": "D",
@@ -17,13 +17,13 @@
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "enunciado": "Sobre os conceitos de testabilidade e falseabilidade, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Uma hipótese é científica quando, mesmo dependendo apenas de crenças ou de intenções ocultas que não deixam rastros, mantém coerência interna e lógica entre as suas proposições.",
-      "B": "A falseabilidade significa que a ciência alcança certeza absoluta sobre hipóteses que resistem aos testes, tornando-as definitivamente comprovadas e dispensando qualquer revisão diante de novos dados ou métodos.",
-      "C": "A falseabilidade impõe que o perito afirme sempre mais do que os dados permitem, a fim de oferecer conclusões categóricas e seguras ao juízo, reforçando a força probatória do laudo.",
+      "A": "Uma hipótese é científica quando, embora apoiada em crenças ou em intenções ocultas que não deixam rastros, mantém coerência interna e lógica entre as suas proposições formuladas.",
+      "B": "A falseabilidade significa que a ciência alcança certeza sobre as hipóteses que resistem aos testes, tornando-as definitivamente comprovadas e imunes a revisão diante de novos dados.",
+      "C": "A falseabilidade impõe que o perito afirme mais do que os dados permitem, a fim de oferecer conclusões categóricas e seguras ao juízo, transmitindo uma certeza científica superior à efetivamente sustentada pelos dados do exame.",
       "D": "Ser testável é gerar previsões confrontáveis com dados (que apoiem ou contradigam a hipótese); ser falseável é admitir observações que a contradigam — e a ciência forense avança pela eliminação progressiva de hipóteses inadequadas."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 16 (16.2 e 16.3), testável é gerar previsões confrontáveis com dados (que apoiem ou contradigam), falseável é admitir observações/experimentos que a contradigam, e a ciência forense avança pela eliminação progressiva de hipóteses inadequadas. A tese de hipótese baseada só em crenças erra (não é científica). A da certeza absoluta erra (o conhecimento é provisório). A de afirmar mais do que os dados permitem erra.",
+    "justificativa": "Pelo Cap. 16 (16.2 e 16.3), testável é gerar previsões confrontáveis com dados (que apoiem ou contradigam), falseável é admitir observações/experimentos que a contradigam, e a ciência forense avança pela eliminação progressiva de hipóteses inadequadas. A tese de hipótese apoiada em crenças erra (não é científica). A da certeza que torna a hipótese imune a revisão erra (o conhecimento é provisório). A de afirmar mais do que os dados permitem erra.",
     "referencia": "Cap. 16, Seções 16.2 e 16.3, p. 136-138",
     "nivel": "dificil"
   },
@@ -32,8 +32,8 @@
     "enunciado": "Sobre as formas de raciocínio científico e sua integração na prática pericial, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "O raciocínio dedutivo parte de fatos particulares para generalizações prováveis, ao passo que o indutivo parte de princípios gerais para chegar a conclusões necessárias em casos específicos.",
-      "B": "A abdução produz conclusões necessárias e verdadeiras, enquanto a dedução produz apenas conclusões plausíveis sobre a melhor explicação possível para os dados observados pelo perito.",
-      "C": "No ciclo investigativo típico, a indução gera as hipóteses iniciais, a abdução deriva as previsões testáveis e a dedução avalia os padrões empíricos, sendo a conclusão abdutiva sempre necessária e verdadeira.",
+      "B": "A abdução produz conclusões necessárias e verdadeiras, enquanto a dedução produz conclusões plausíveis sobre a melhor explicação possível para os dados observados pelo perito no exame.",
+      "C": "No ciclo investigativo típico, a indução gera as hipóteses iniciais, a abdução deriva as previsões testáveis e a dedução avalia os padrões empíricos observados ao longo dos exames realizados, cabendo à abdução a verificação empírica das previsões formuladas pelo perito.",
       "D": "A abdução gera as hipóteses iniciais; a dedução deriva delas previsões testáveis; e a indução avalia padrões empíricos — sendo a conclusão indutiva provável e a dedutiva necessária (se verdadeiras as premissas)."
     },
     "resposta_correta": "D",
@@ -45,9 +45,9 @@
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "enunciado": "Sobre os vieses cognitivos e as estratégias de mitigação na perícia, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O viés de ancoragem é a tendência a buscar e valorizar evidências que confirmem uma hipótese prévia, ignorando os dados que a contradizem, sendo essa a principal estratégia institucional de mitigação de vieses na perícia.",
-      "B": "Os vieses cognitivos decorrem necessariamente de negligência ou má-fé do perito, sendo inexistentes em especialistas experientes e devidamente treinados nas metodologias da área.",
-      "C": "A revisão por pares e os exames cegos são incapazes de reduzir vieses, que só se neutralizam pela experiência individual e pela boa intenção do perito responsável pelo exame realizado.",
+      "A": "O viés de ancoragem é a tendência a buscar e valorizar evidências que confirmem uma hipótese prévia, ignorando os dados que a contradizem ao longo da análise pericial dos vestígios.",
+      "B": "Os vieses cognitivos decorrem de negligência ou má-fé do perito, sendo inexistentes em especialistas experientes e devidamente treinados nas metodologias forenses da sua área de atuação.",
+      "C": "A revisão por pares e os exames cegos são incapazes de reduzir vieses, que se neutralizam pela experiência individual e pela boa intenção do perito, sem que medidas estruturais da instituição interfiram no resultado do trabalho pericial.",
       "D": "O viés de confirmação é valorizar evidências que confirmem hipótese prévia; entre as estratégias de mitigação estão exames cegos, sequenciamento controlado de informações, registro prévio, revisão por pares e protocolos padronizados."
     },
     "resposta_correta": "D",
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 16 - O Método científico na prática pericial",
     "enunciado": "Sobre reprodutibilidade, robustez e validação metodológica, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Reprodutibilidade é a capacidade de um método produzir resultados consistentes diante de pequenas variações nas condições experimentais; e robustez é a obtenção de resultados compatíveis por outros profissionais ao repetir o exame com métodos equivalentes e documentação rastreável.",
-      "B": "A validação metodológica dispensa a avaliação da especificidade e dos limites de detecção, bastando aferir a rapidez e a praticidade operacional do método empregado no exame pericial.",
-      "C": "A cadeia de raciocínio científico pode ser rompida em qualquer ponto sem prejuízo da força probatória, desde que a conclusão final seja apresentada de forma categórica e assertiva ao juízo.",
+      "A": "Reprodutibilidade é a capacidade de um método produzir resultados consistentes diante de pequenas variações nas condições experimentais; e robustez é a obtenção de resultados compatíveis por outros profissionais ao repetir o exame com métodos equivalentes e documentação rastreável de todas as etapas do processo.",
+      "B": "A validação metodológica deixa de fora a especificidade e os limites de detecção, satisfazendo-se com a aferição da rapidez e da praticidade operacional do método empregado no exame.",
+      "C": "A cadeia de raciocínio científico pode ser rompida em um de seus pontos sem prejuízo da força probatória, desde que a conclusão final seja apresentada de forma categórica ao juízo criminal.",
       "D": "Reprodutibilidade é obter resultados compatíveis por outros profissionais com métodos equivalentes (exige documentação rastreável); robustez é a consistência diante de pequenas variações; e a validação avalia precisão, exatidão, sensibilidade, especificidade e limites de detecção."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 16 (16.5), reprodutibilidade é obter resultados compatíveis por outros profissionais com métodos equivalentes (exige documentação rastreável); robustez é a consistência diante de pequenas variações; e a validação avalia precisão, exatidão, sensibilidade, especificidade e limites de detecção. A tese que inverte reprodutibilidade e robustez erra. A que dispensa especificidade/limites de detecção erra. A de que a cadeia de raciocínio pode romper-se sem prejuízo erra.",
+    "justificativa": "Pelo Cap. 16 (16.5), reprodutibilidade é obter resultados compatíveis por outros profissionais com métodos equivalentes (exige documentação rastreável); robustez é a consistência diante de pequenas variações; e a validação avalia precisão, exatidão, sensibilidade, especificidade e limites de detecção. A tese que inverte reprodutibilidade e robustez erra. A que deixa de fora especificidade/limites de detecção erra. A de que a cadeia de raciocínio pode romper-se sem prejuízo erra.",
     "referencia": "Cap. 16, Seção 16.5, p. 140-142",
     "nivel": "dificil"
   }

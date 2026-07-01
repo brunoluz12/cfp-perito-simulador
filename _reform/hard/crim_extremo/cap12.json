@@ -4,12 +4,12 @@
     "enunciado": "Sobre a DITEC/PF e o SISCRIM, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "O SISCRIM é o sistema voltado ao fluxo do inquérito policial, enquanto o ePol é o sistema específico da Criminalística para o controle da cadeia de custódia dos vestígios examinados.",
-      "B": "A DITEC é o órgão central da perícia (Decreto nº 11.348/2023, art. 51); a DPCRIM coordena o desenvolvimento e a manutenção do SISCRIM, sistema 100% em software livre, com servidores em Brasília.",
-      "C": "A DITEC tem atribuições fixadas na Lei nº 12.030/2009, e o SISCRIM é software proprietário instalado individualmente em cada estação de trabalho dos peritos das unidades de criminalística.",
-      "D": "O SISCRIM recebe do ePol as requisições de exame, mas não lhe encaminha os laudos, por questões de sigilo, sendo a entrega ao requisitante feita em papel ou por protocolo eletrônico avulso."
+      "B": "A DITEC é o órgão central da perícia (Decreto nº 11.348/2023, art. 51); a DPCRIM coordena o desenvolvimento e a manutenção do SISCRIM, sistema baseado em software livre, com servidores em Brasília.",
+      "C": "A DITEC tem atribuições fixadas na Lei nº 12.030/2009, e o SISCRIM é software proprietário instalado em cada estação de trabalho dos peritos das unidades de criminalística do país.",
+      "D": "O SISCRIM recebe do ePol as requisições de exame, mas os laudos são entregues ao requisitante em papel, por questões de sigilo, não havendo devolução dos documentos ao sistema ePol."
     },
     "resposta_correta": "B",
-    "justificativa": "Pelo Cap. 12, a DITEC é o órgão central (Decreto 11.348/2023, art. 51), a DPCRIM coordena o SISCRIM (100% software livre, servidores em Brasília). A tese que inverte SISCRIM e ePol erra. A do diploma (Lei 12.030/2009) e software proprietário instalado erra. A de que o SISCRIM não encaminha laudos ao ePol erra (ele encaminha).",
+    "justificativa": "Pelo Cap. 12, a DITEC é o órgão central (Decreto 11.348/2023, art. 51), a DPCRIM coordena o SISCRIM (software livre, servidores em Brasília). A tese que inverte SISCRIM e ePol erra. A do diploma (Lei 12.030/2009) e do software proprietário instalado erra. A de que os laudos não retornam ao ePol erra (o SISCRIM os encaminha ao ePol).",
     "referencia": "Cap. 12, Seções 12 e 12.1, p. 77-78",
     "nivel": "dificil"
   },
@@ -17,13 +17,13 @@
     "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
     "enunciado": "Sobre os conceitos de gestão no SISCRIM (pendência, demanda e situações), conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Demanda é a requisição registrada e ainda não finalizada; e pendência mede o volume total de requisições de exame recebidas em determinado período de apuração pela unidade de criminalística.",
-      "B": "Das 17 situações possíveis de um expediente, 12 são alimentadas manualmente pelo usuário e 5 são inferidas e atribuídas automaticamente pelo sistema a partir do fluxo de atendimento.",
-      "C": "A requisição deixa de ser pendência tão logo o laudo é numerado, ainda que não tenha sido arquivada, devolvida ou cancelada no sistema, encerrando-se a responsabilidade do perito.",
-      "D": "Pendência é a requisição registrada e não finalizada (só deixa de sê-lo se arquivada, devolvida ou cancelada); demanda é o conjunto de solicitações de exame de um período, pendentes ou arquivadas."
+      "A": "Demanda é a requisição registrada e ainda não finalizada, enquanto pendência mede o volume total de requisições de exame recebidas em determinado período de apuração pela unidade.",
+      "B": "Das 17 situações possíveis de um expediente, 12 são alimentadas manualmente pelo usuário e 5 são inferidas e atribuídas pelo próprio sistema a partir do fluxo de atendimento da requisição.",
+      "C": "A requisição deixa de ser pendência tão logo o laudo é numerado, mesmo que ainda não tenha sido arquivada, devolvida ou cancelada no sistema informatizado da criminalística.",
+      "D": "Pendência é a requisição registrada e não finalizada (deixa de sê-lo quando arquivada, devolvida ou cancelada); demanda é o conjunto de solicitações de exame de um período, pendentes ou arquivadas."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 12 (12.3), pendência é a requisição registrada e não finalizada (só deixa de sê-lo se arquivada/devolvida/cancelada), e demanda é o conjunto de solicitações de exame de um período. A tese que inverte pendência e demanda erra. A que inverte os números das situações (são 12 automáticas e 5 manuais) erra. A de que a numeração do laudo encerra a pendência erra.",
+    "justificativa": "Pelo Cap. 12 (12.3), pendência é a requisição registrada e não finalizada (deixa de sê-lo se arquivada/devolvida/cancelada), e demanda é o conjunto de solicitações de exame de um período. A tese que inverte pendência e demanda erra. A que inverte os números das situações (são 12 automáticas e 5 manuais) erra. A de que a numeração do laudo encerra a pendência erra.",
     "referencia": "Cap. 12, Seção 12.3, p. 80-82",
     "nivel": "dificil"
   },
@@ -31,10 +31,10 @@
     "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
     "enunciado": "Sobre a criticidade e a complexidade das requisições de exame, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A criticidade mede o esforço pericial em pontos de complexidade, ao passo que a complexidade indica a urgência da requisição (alta, média ou baixa) no atendimento pela unidade de criminalística.",
-      "B": "Réu preso aguardando exame para decisão sobre a prisão é hipótese de criticidade média; e materiais sujeitos a degradação ou contaminação imediata são classificados como de criticidade baixa.",
+      "A": "A criticidade mede o esforço pericial em pontos de complexidade, ao passo que a complexidade indica a urgência da requisição (alta, média ou baixa) para o atendimento pela unidade de criminalística.",
+      "B": "Réu preso aguardando exame para decisão sobre a prisão é hipótese de criticidade média, e materiais sujeitos a degradação ou contaminação imediata são de criticidade baixa no atendimento.",
       "C": "A criticidade indica a priorização (alta, média ou baixa) e a complexidade mede o esforço em pontos, sendo 1 ponto equivalente ao processo de Exame de Extração Forense de Dados de um celular.",
-      "D": "O indicador de complexidade é preenchido manualmente pelo gestor da unidade, independentemente dos objetos de exame informados pelo perito responsável pelo atendimento da requisição."
+      "D": "O indicador de complexidade é preenchido manualmente pelo gestor da unidade, à margem dos objetos de exame informados pelo perito responsável pelo atendimento da requisição de exame."
     },
     "resposta_correta": "C",
     "justificativa": "Pelo Cap. 12 (12.3), a criticidade indica priorização (alta/média/baixa) e a complexidade mede o esforço em pontos (1 ponto = Exame de Extração Forense de Dados de um celular). A tese que inverte criticidade e complexidade erra. A que classifica réu preso como média e degradação imediata como baixa erra (ambos são alta). A do preenchimento manual pelo gestor erra (a complexidade é calculada pelo sistema a partir dos OE).",
@@ -45,8 +45,8 @@
     "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
     "enunciado": "Sobre a distinção entre 'material' e 'vestígio' no SISCRIM, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Todo material registrado no SISCRIM é necessariamente um vestígio, e todo vestígio é obrigatoriamente registrado como material no sistema, havendo coincidência plena entre os dois conceitos.",
-      "B": "Locais de crime e imóveis são registrados como material no SISCRIM, pois ficam sob a guarda física da perícia durante toda a realização dos exames periciais e até a destinação final.",
+      "A": "Todo material registrado no SISCRIM é um vestígio, e todo vestígio encontra registro como material no sistema, havendo coincidência entre os dois conceitos adotados na gestão pericial.",
+      "B": "Locais de crime e imóveis são registrados como material no SISCRIM, pois ficam sob a guarda física da perícia durante a realização dos exames periciais e até a sua destinação final.",
       "C": "Material de apoio, padrão para confronto e mídia para espelhamento são classificados como vestígios, por integrarem o foco principal do exame pericial e a cadeia de custódia do caso.",
       "D": "Nem todo material é vestígio (ex.: mídia para espelhamento, material de apoio, padrão) e nem todo vestígio é material no SISCRIM (ex.: aeronaves, navios, imóveis, locais de crime)."
     },
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 12 - Gestão da Criminalística na PF e principais conceitos",
     "enunciado": "Sobre as metas da Criminalística e o Indicador da Criminalística (ICRIM), conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A DITEC define metas individuais por perito; e o ICRIM, nota de 0 a 10, atribui o maior peso (50%) à meta de produtividade das unidades de criminalística, medida em pontos de complexidade.",
-      "B": "O prazo crítico corresponde a 50% além do prazo máximo de atendimento; e as requisições em acompanhamento especial são contabilizadas como vencidas para a meta de pendências da unidade.",
-      "C": "A meta de produtividade exige produção média de 250 pontos de complexidade por unidade de criminalística, independentemente da força de trabalho disponível para exames (FTDE) da unidade.",
-      "D": "As metas são das Unidades (≤5% de pendências vencidas; 250 pontos por FTDE; tempo médio por área), e o ICRIM (0 a 10) pondera C1 20%, C2 30% e C3 50%, sendo o tempo médio o de maior peso."
+      "A": "A DITEC define metas individuais por perito, e o ICRIM, nota de 0 a 10, atribui o maior peso (50%) à meta de produtividade das unidades, medida em pontos de complexidade por FTDE.",
+      "B": "O prazo crítico corresponde a 50% além do prazo máximo de atendimento, e as requisições em acompanhamento especial são contabilizadas como vencidas para a meta de pendências da unidade.",
+      "C": "A meta de produtividade exige produção média de 250 pontos de complexidade por unidade de criminalística, à margem da força de trabalho disponível para exames (FTDE) de cada unidade.",
+      "D": "As metas são das Unidades (até 5% de pendências vencidas; 250 pontos por FTDE; tempo médio por área), e o ICRIM (0 a 10) pondera C1 20%, C2 30% e C3 50%, com maior peso ao tempo médio."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 12 (12.7 e 12.8), as metas são das UCs (≤5% de pendências vencidas; 250 pontos por FTDE; tempo médio por área), e o ICRIM pondera C1 20%, C2 30% e C3 50% (tempo médio com maior peso). A tese de metas individuais e maior peso à produtividade erra. A do prazo crítico de 50% e acompanhamento especial como vencido erra (é 25% e não é contabilizado). A de produtividade por unidade (não por FTDE) erra.",
+    "justificativa": "Pelo Cap. 12 (12.7 e 12.8), as metas são das UCs (até 5% de pendências vencidas; 250 pontos por FTDE; tempo médio por área), e o ICRIM pondera C1 20%, C2 30% e C3 50% (tempo médio com maior peso). A tese de metas individuais e maior peso à produtividade erra. A do prazo crítico de 50% e acompanhamento especial como vencido erra (é 25% e não é contabilizado). A da produtividade por unidade, à margem da FTDE, erra.",
     "referencia": "Cap. 12, Seções 12.7 e 12.8, p. 86-88",
     "nivel": "dificil"
   }

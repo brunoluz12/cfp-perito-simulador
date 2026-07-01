@@ -3,13 +3,13 @@
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "enunciado": "Sobre os conceitos normativos de cadeia de custódia (Lei nº 13.964/2019; IN DG/PF nº 297/2024; Manual de Boas Práticas), conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A Lei nº 13.964/2019 limita a cadeia ao período entre a coleta e a entrega do laudo, excluindo o descarte; e o MBP (item 138) determina o gerenciamento exclusivamente por registros em papel.",
-      "B": "A IN DG/PF nº 297/2024 restringe a cadeia de custódia exclusivamente aos vestígios biológicos, excluindo os demais elementos de interesse do inquérito; e a Lei nº 13.964/2019 só a inicia no recebimento pela unidade.",
+      "A": "A Lei nº 13.964/2019 limita a cadeia ao período entre a coleta e a entrega do laudo, excluindo o descarte; e o MBP (item 138) atribui o gerenciamento da cadeia aos registros em papel da unidade.",
+      "B": "A IN DG/PF nº 297/2024 restringe a cadeia de custódia aos vestígios de natureza biológica, deixando de fora os demais elementos de interesse do inquérito; e a Lei nº 13.964/2019 a inicia no recebimento do material.",
       "C": "A Lei nº 13.964/2019 define a cadeia do reconhecimento ao descarte; a IN DG/PF nº 297/2024 (art. 2º) abrange vestígios e demais elementos de interesse do inquérito; e o MBP (item 138) aponta o gerenciamento sobretudo pelo Siscrim.",
-      "D": "O MBP (item 138) determina o gerenciamento da cadeia em papel; e a Lei nº 13.964/2019 a define apenas até a emissão do laudo, sem alcançar a destinação final do vestígio examinado."
+      "D": "O MBP (item 138) situa o gerenciamento da cadeia nos registros em papel; e a Lei nº 13.964/2019 a define até a emissão do laudo, sem alcançar a destinação final do vestígio examinado no caso."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 11, a Lei 13.964/2019 define a cadeia do reconhecimento ao descarte; a IN 297/2024 (art. 2º) abrange vestígios e demais elementos de interesse do inquérito; e o MBP (item 138) aponta o gerenciamento sobretudo pelo Siscrim. A tese que exclui o descarte e impõe papel erra. A que restringe a IN a vestígios biológicos erra. A do gerenciamento só em papel e cadeia até o laudo erra.",
+    "justificativa": "Pelo Cap. 11, a Lei 13.964/2019 define a cadeia do reconhecimento ao descarte; a IN 297/2024 (art. 2º) abrange vestígios e demais elementos de interesse do inquérito; e o MBP (item 138) aponta o gerenciamento sobretudo pelo Siscrim. A tese que exclui o descarte e põe o gerenciamento em papel erra. A que restringe a IN a vestígios biológicos erra. A que limita a cadeia à emissão do laudo erra.",
     "referencia": "Cap. 11, Seção 1, p. 69-70",
     "nivel": "dificil"
   },
@@ -17,9 +17,9 @@
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "enunciado": "Sobre a distinção entre cadeia de custódia externa e interna, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A externa documenta as movimentações do vestígio dentro da unidade de Criminalística, do recebimento à conclusão dos exames; a interna abrange a coleta no local e o transporte até a unidade, sem que haja registro contínuo do controle de posse do vestígio.",
-      "B": "A interna abrange a coleta no local de crime e o transporte até a unidade pericial; a externa cuida apenas das movimentações internas dentro do laboratório forense durante a análise.",
-      "C": "Tanto a externa quanto a interna referem-se exclusivamente aos procedimentos posteriores à conclusão dos exames periciais e à emissão do respectivo laudo de perícia criminal federal.",
+      "A": "A externa documenta as movimentações do vestígio dentro da unidade de Criminalística, do recebimento à conclusão dos exames; a interna abrange a coleta no local e o transporte até a unidade, sem registro contínuo do controle de posse.",
+      "B": "A interna abrange a coleta no local de crime e o transporte até a unidade pericial; a externa cuida das movimentações internas dentro do laboratório forense durante a fase de análise.",
+      "C": "Tanto a externa quanto a interna referem-se aos procedimentos posteriores à conclusão dos exames periciais e à emissão do respectivo laudo de perícia criminal federal pela unidade.",
       "D": "A externa compreende a sequência de eventos da arrecadação/coleta do vestígio até o envio para análise; a interna documenta as movimentações na Criminalística, do recebimento à conclusão dos exames (devolução ou descarte)."
     },
     "resposta_correta": "D",
@@ -31,13 +31,13 @@
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "enunciado": "Sobre as etapas da cadeia de custódia externa (Lei nº 13.964/2019) e a documentação das ações, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Os vestígios são acondicionados conjuntamente em uma única embalagem, independentemente de suas características; e as ações de coleta são formalizadas apenas no laudo definitivo, sendo dispensável o Termo de Coleta de Vestígio previsto na IN DG/PF nº 297/2024.",
+      "A": "Os vestígios de naturezas diversas são acondicionados juntos em uma mesma embalagem; e as ações de coleta são formalizadas no laudo pericial definitivo, e não em Termo de Coleta de Vestígio próprio, conforme a sistemática de acondicionamento adotada na unidade de criminalística.",
       "B": "A cadeia externa inicia-se com a designação do perito responsável e a segunda conferência da embalagem já na unidade de perícia criminal, antes do transporte do material ao laboratório.",
-      "C": "A documentação das ações de coleta é facultativa, bastando a numeração do lacre; e o transporte dispensa cuidados específicos por já estar o vestígio devidamente lacrado na origem.",
+      "C": "A documentação das ações de coleta é facultativa, satisfeita com a numeração do lacre; e o transporte não reclama cuidados específicos, por já estar o vestígio lacrado na origem da coleta.",
       "D": "Os vestígios são acondicionados separadamente conforme suas características físicas, biológicas e químicas (art. 158-B, V); e as ações de fixação, coleta, acondicionamento e transporte são formalizadas no Termo de Coleta de Vestígio (TCV)."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 11 (Seção 3), os vestígios são acondicionados separadamente conforme características físicas, biológicas e químicas (art. 158-B, V), e as ações de fixação/coleta/acondicionamento/transporte são formalizadas no TCV. A tese do acondicionamento conjunto erra. A que inicia a externa com designação/2ª conferência confunde com a cadeia interna. A que torna a documentação facultativa erra.",
+    "justificativa": "Pelo Cap. 11 (Seção 3), os vestígios são acondicionados separadamente conforme características físicas, biológicas e químicas (art. 158-B, V), e as ações de fixação/coleta/acondicionamento/transporte são formalizadas no TCV. A tese do acondicionamento conjunto e da formalização no laudo erra. A que inicia a externa com designação/2ª conferência confunde com a cadeia interna. A que torna a documentação facultativa erra.",
     "referencia": "Cap. 11, Seção 3, p. 70-71",
     "nivel": "dificil"
   },
@@ -45,13 +45,13 @@
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "enunciado": "Sobre a cadeia de custódia interna e a destinação dos vestígios após o laudo, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Ao receber vestígio lacrado e numerado, a secretaria deve deslacrá-lo na recepção para conferência integral do conteúdo; e o novo lacre só é registrado depois de concluídos os exames, dispensada a anexação da ficha de acompanhamento do vestígio.",
-      "B": "O rompimento de lacres dispensa registro em ficha de acompanhamento, bastando anotação informal no corpo do laudo; e a falta de espaço na central de custódia autoriza o descarte imediato.",
-      "C": "Concluídos os exames, o material é descartado de imediato pelo perito; e é vedado o armazenamento na Central de Custódia de Vestígios ou nas custódias locais de vestígios da unidade.",
+      "A": "Ao receber vestígio lacrado e numerado, a secretaria deve deslacrá-lo na recepção para conferência integral do conteúdo; e o novo lacre é registrado após concluídos os exames, sem ficha de acompanhamento, providência tida por desnecessária quando o exame é feito pelo mesmo perito designado.",
+      "B": "O rompimento de lacres é registrado por anotação informal no corpo do laudo, e a falta de espaço na central de custódia autoriza o descarte imediato do material que foi examinado pelo perito.",
+      "C": "Concluídos os exames, o material é descartado de imediato pelo perito, não se admitindo o seu armazenamento na Central de Custódia de Vestígios ou nas custódias locais de vestígios da unidade.",
       "D": "Na recepção, vindo o vestígio lacrado, a secretaria confere os dados sem deslacrar; a ficha (IN 163/2020) registra o rompimento de lacres; e, faltando espaço, o gestor requer providências ao dirigente local (art. 158-F, parágrafo único)."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 11 (Seção 4), a secretaria confere os dados sem deslacrar; a IN 163/2020 prevê ficha de acompanhamento para registrar o rompimento de lacres; e a falta de espaço leva o gestor a requerer providências ao dirigente local (art. 158-F, §ún.). A tese de deslacrar na recepção erra. A que dispensa a ficha de acompanhamento e autoriza descarte erra. A do descarte imediato erra (há armazenamento na CCV/CLV).",
+    "justificativa": "Pelo Cap. 11 (Seção 4), a secretaria confere os dados sem deslacrar; a IN 163/2020 prevê ficha de acompanhamento para registrar o rompimento de lacres; e a falta de espaço leva o gestor a requerer providências ao dirigente local (art. 158-F, §ún.). A tese de deslacrar na recepção erra. A da anotação informal e do descarte por falta de espaço erra. A do descarte imediato erra (há armazenamento na CCV/CLV).",
     "referencia": "Cap. 11, Seção 4, p. 70-72",
     "nivel": "dificil"
   },
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 11 - Cadeia de Custódia",
     "enunciado": "Sobre as embalagens de segurança (art. 158-D do CPP) e a figura do assistente técnico, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A embalagem é determinada pela disponibilidade da unidade, e não pela natureza do material; e é dispensável a numeração individualizada do lacre em qualquer hipótese de acondicionamento.",
-      "B": "A figura do assistente técnico foi inserida no processo penal pela Lei nº 13.964/2019; e cabe a ele, exclusivamente, a coleta dos vestígios no local de crime, ao lado do perito oficial, sendo-lhe vedado tecer críticas ao laudo pericial produzido.",
-      "C": "Documentos das áreas contábil, ambiental ou de engenharia exigem, sem exceção, recipiente lacrado com numeração individualizada, ainda que não demandem qualquer conservação especial.",
+      "A": "A embalagem é determinada pela disponibilidade da unidade, e não pela natureza do material; e a numeração individualizada do lacre é providência facultativa no acondicionamento do vestígio.",
+      "B": "A figura do assistente técnico foi inserida no processo penal pela Lei nº 13.964/2019; e cabe a ele, no local de crime, a coleta dos vestígios ao lado do perito oficial, e não a crítica ao laudo, tarefa reservada ao perito oficial que preside a coleta no local.",
+      "C": "Documentos das áreas contábil, ambiental ou de engenharia exigem recipiente lacrado com numeração individualizada, mesmo quando não demandem conservação especial para a sua integridade.",
       "D": "Os recipientes devem ser selados com lacres de numeração individualizada, salvo documentos contábeis, ambientais ou de engenharia que não exijam conservação especial; o assistente técnico foi inserido pela Lei nº 11.690/2008."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 11 (Seções 6 e 7), o art. 158-D exige lacres com numeração individualizada, com exceção dos documentos contábeis/ambientais/de engenharia que não exijam conservação especial; e o assistente técnico foi inserido pela Lei nº 11.690/2008. A tese da embalagem pela disponibilidade erra (é pela natureza do material). A da inserção pela Lei 13.964/2019 e função de coleta erra. A que nega a exceção dos documentos erra.",
+    "justificativa": "Pelo Cap. 11 (Seções 6 e 7), o art. 158-D exige lacres com numeração individualizada, com exceção dos documentos contábeis/ambientais/de engenharia que não exijam conservação especial; e o assistente técnico foi inserido pela Lei nº 11.690/2008. A tese da embalagem pela disponibilidade erra (é pela natureza do material). A da inserção pela Lei 13.964/2019 e função de coleta erra (a função é analisar a cadeia e criticar o laudo). A que exige lacre para aqueles documentos erra (há exceção).",
     "referencia": "Cap. 11, Seções 6 e 7, p. 73-75",
     "nivel": "dificil"
   }

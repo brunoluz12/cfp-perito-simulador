@@ -3,13 +3,13 @@
     "conteudo": "Cap. 4 - O Perito",
     "enunciado": "Sobre o perito oficial e o perito não oficial (ad hoc) no processo penal, conforme o art. 159 do CPP e o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Tanto o perito oficial quanto o não oficial atuam mediante prestação de compromisso de bem e fielmente desempenhar o encargo, exigência comum a ambos por força do art. 159 do CPP.",
-      "B": "Na falta de perito oficial, basta uma pessoa idônea com habilitação técnica, dispensado o diploma de curso superior, dada a excepcionalidade e a urgência da medida no caso concreto.",
+      "A": "O perito oficial e o não oficial atuam mediante prestação de compromisso de bem e fielmente desempenhar o encargo, exigência comum a ambos por força do art. 159 do CPP.",
+      "B": "Na falta de perito oficial, o exame pode ser realizado por uma pessoa idônea com habilitação técnica, admitida a sua nomeação ainda que sem diploma de curso superior.",
       "C": "O exame de corpo de delito será feito por perito oficial com diploma superior; na falta dele, por duas pessoas idôneas, com diploma de curso superior, que prestarão compromisso.",
       "D": "A nomeação de perito não oficial pode ser feita pelo delegado, pela autoridade judiciária ou pelas próprias partes do processo, desde que comprovada a falta de perito oficial disponível."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 4 (4.1 e 4.2) e art. 159 do CPP: perito oficial com diploma de curso superior e, na falta, 2 pessoas idôneas com diploma de curso superior que prestam compromisso. A tese do compromisso comum erra: o oficial é dispensado de compromisso (investido por lei). A tese de uma pessoa sem diploma erra (exigem-se 2 pessoas e diploma). A tese da nomeação pelas partes erra: é ato exclusivo do delegado ou da autoridade judiciária.",
+    "justificativa": "Pelo Cap. 4 (4.1 e 4.2) e art. 159 do CPP: perito oficial com diploma de curso superior e, na falta, 2 pessoas idôneas com diploma de curso superior que prestam compromisso. A tese do compromisso comum erra: o oficial é dispensado de compromisso (investido por lei). A da nomeação de uma pessoa sem diploma erra (exigem-se 2 pessoas e diploma). A da nomeação pelas partes erra: é ato do delegado ou da autoridade judiciária.",
     "referencia": "Cap. 4, Seções 4.1 e 4.2, p. 34-35",
     "nivel": "dificil"
   },
@@ -19,11 +19,11 @@
     "alternativas": {
       "A": "Na maior parte do país (16 estados) a perícia é vinculada às Secretarias de Segurança Pública; em 11 estados integra a Polícia Civil; há uma única vinculação direta ao governador (Amapá).",
       "B": "Na maior parte do país (16 estados) a perícia integra a estrutura da Polícia Civil, e em 11 estados é vinculada diretamente às Secretarias de Segurança Pública dos respectivos estados.",
-      "C": "Em todos os estados a perícia é vinculada diretamente às Secretarias de Segurança Pública, ressalvada uma única exceção, em que ela se vincula à estrutura interna da Polícia Civil.",
+      "C": "A perícia é vinculada às Secretarias de Segurança Pública na totalidade dos estados, ressalvada uma situação em que ela se vincula à estrutura interna da Polícia Civil (Amapá).",
       "D": "A perícia é vinculada ao governador na maioria dos estados, restando 16 unidades ligadas às Secretarias de Segurança Pública e 11 unidades ligadas à estrutura da Polícia Civil estadual."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 4 (4.1), 16 estados vinculam a perícia às SSP, 11 a mantêm na Polícia Civil e há uma única vinculação direta ao governador (Amapá). A tese que inverte os números (Polícia Civil=16, SSP=11) erra. A tese de 'todos os estados nas SSP' erra (não é em todos; a exceção é o governador). A tese da vinculação ao governador na maioria erra (é caso único).",
+    "justificativa": "Pelo Cap. 4 (4.1), 16 estados vinculam a perícia às SSP, 11 a mantêm na Polícia Civil e há uma única vinculação direta ao governador (Amapá). A tese que inverte os números (Polícia Civil=16, SSP=11) erra. A que fala em totalidade dos estados nas SSP erra (não é em todos, e a exceção é a vinculação ao governador, não à Polícia Civil). A que põe o governador como regra na maioria erra (é caso único).",
     "referencia": "Cap. 4, Seção 4.1, p. 34",
     "nivel": "dificil"
   },
@@ -31,13 +31,13 @@
     "conteudo": "Cap. 4 - O Perito",
     "enunciado": "Acerca da disciplina judiciária, do impedimento e da suspeição aplicáveis ao perito (arts. 275 a 281 do CPP), conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Ser amigo íntimo ou inimigo capital de uma das partes é causa de impedimento do perito; ter atuado anteriormente no processo como testemunha é causa de suspeição do perito designado.",
-      "B": "As causas de suspeição decorrem de vínculos objetivos predeterminados em lei, enquanto o impedimento depende da análise subjetiva da afetividade do perito diante do caso concreto.",
-      "C": "O perito não oficial não se sujeita à disciplina judiciária, por não ser investido em cargo público, respondendo apenas civilmente por eventuais falhas técnicas em seu trabalho.",
+      "A": "Ser amigo íntimo ou inimigo capital de uma das partes é causa de impedimento do perito; ter atuado antes no processo como testemunha é causa de suspeição do perito designado.",
+      "B": "As causas de suspeição decorrem de vínculos objetivos predeterminados em lei, ao passo que o impedimento depende da análise subjetiva da afetividade do perito no caso concreto.",
+      "C": "O perito não oficial fica fora da disciplina judiciária, por não ser investido em cargo público, respondendo no plano cível por eventuais falhas técnicas em seu trabalho pericial.",
       "D": "O perito, ainda quando não oficial, está sujeito à disciplina judiciária, sendo-lhe extensivas, no que couber, as regras de suspeição dos juízes (art. 280 do CPP)."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 4 (4.5), o perito, ainda que não oficial, sujeita-se à disciplina judiciária, com extensão das regras de suspeição dos juízes (art. 280). A tese amizade=impedimento e testemunha=suspeição inverte os institutos (amizade/inimizade é suspeição; ter sido testemunha é impedimento). A tese que liga suspeição a vínculos objetivos e impedimento à afetividade inverte a lógica. A tese de que o não oficial não se sujeita à disciplina judiciária erra.",
+    "justificativa": "Pelo Cap. 4 (4.5), o perito, ainda que não oficial, sujeita-se à disciplina judiciária, com extensão das regras de suspeição dos juízes (art. 280). A tese amizade=impedimento e testemunha=suspeição inverte os institutos (amizade/inimizade é suspeição; ter sido testemunha é impedimento). A que liga suspeição a vínculos objetivos e impedimento à afetividade inverte a lógica. A que exclui o não oficial da disciplina judiciária erra.",
     "referencia": "Cap. 4, Seção 4.5, p. 37-38",
     "nivel": "dificil"
   },
@@ -45,13 +45,13 @@
     "conteudo": "Cap. 4 - O Perito",
     "enunciado": "Sobre a falsa perícia (art. 342 do Código Penal) e o alcance da responsabilização, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Configura-se a falsa perícia ainda que o erro do perito seja meramente culposo, dada a relevância da prova material para a formação da convicção do magistrado no processo penal.",
-      "B": "Exige-se a intenção de produzir o erro; não se enquadram no art. 342 do CP quem não seja perito oficial ou nomeado, como os que fornecem pareceres técnicos às partes.",
-      "C": "Respondem por falsa perícia tanto os peritos oficiais e nomeados quanto os profissionais contratados pelas partes que fornecem pareceres técnicos no curso do processo cível.",
-      "D": "O crime de falsa perícia é próprio do perito oficial, não alcançando o perito ad hoc nomeado pelo delegado de polícia ou pela autoridade judiciária no curso do feito."
+      "A": "Configura-se a falsa perícia mesmo quando o erro do perito é meramente culposo, dada a relevância da prova material para a formação da convicção do magistrado no processo penal.",
+      "B": "Exige-se a intenção de produzir o erro; ficam fora do art. 342 do CP aqueles que não sejam perito oficial ou nomeado, como os que fornecem pareceres técnicos às partes.",
+      "C": "Respondem por falsa perícia os peritos oficiais e nomeados e também os profissionais contratados pelas partes que fornecem pareceres técnicos no curso do processo cível.",
+      "D": "O crime de falsa perícia é próprio do perito oficial, não alcançando o perito ad hoc nomeado pelo delegado de polícia ou pela autoridade judiciária no curso do procedimento."
     },
     "resposta_correta": "B",
-    "justificativa": "Pelo Cap. 4 (4.5.2), o art. 342 do CP exige intenção de produzir o erro e não alcança quem não seja perito oficial ou nomeado (ex.: contratados que dão pareceres às partes). A tese do erro culposo erra (exige-se dolo). A tese que inclui os contratados das partes erra. A tese de que só o oficial responde erra: o perito nomeado (ad hoc) também responde.",
+    "justificativa": "Pelo Cap. 4 (4.5.2), o art. 342 do CP exige intenção de produzir o erro e não alcança quem não seja perito oficial ou nomeado (ex.: contratados que dão pareceres às partes). A tese do erro culposo erra (exige-se dolo). A que inclui os contratados das partes erra. A que restringe o crime ao perito oficial erra: o perito nomeado (ad hoc) também responde.",
     "referencia": "Cap. 4, Seção 4.5.2, p. 39",
     "nivel": "dificil"
   },
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 4 - O Perito",
     "enunciado": "Sobre o perito no processo civil em contraste com o processo penal, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "No processo civil existe órgão oficial de perícia mantido pelo Estado, à semelhança do que ocorre na esfera penal com os institutos de criminalística oficiais das unidades federativas.",
-      "B": "No processo civil, por ausência de órgão oficial, é vedada às partes a indicação de assistentes técnicos para acompanhar e criticar o trabalho do perito do juízo nomeado.",
-      "C": "Quando o exame versar sobre autenticidade ou falsidade de documento, o juiz cível está proibido de recorrer a técnicos de estabelecimentos oficiais especializados na matéria.",
+      "A": "No processo civil existe órgão oficial de perícia mantido pelo Estado, à semelhança do que ocorre na esfera penal com os institutos de criminalística das unidades federativas.",
+      "B": "No processo civil, por ausência de órgão oficial, a indicação de assistentes técnicos compete ao juízo da causa, e não às partes litigantes que integram a demanda.",
+      "C": "Quando o exame versar sobre autenticidade ou falsidade de documento, o juiz cível fica impedido de recorrer a técnicos de estabelecimentos oficiais especializados na matéria.",
       "D": "No processo civil não há perito oficial; os peritos são nomeados pelo juiz, atuam sob compromisso e fazem jus a honorários, podendo as partes indicar assistentes técnicos."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 4 (4.3), no cível não há perito oficial; os peritos são nomeados pelo juiz, atuam sob compromisso, recebem honorários e as partes podem indicar assistentes técnicos. A tese do órgão oficial cível erra (o Estado não o oferece). A tese que veda assistentes técnicos erra (são admitidos). A tese da proibição de usar técnicos oficiais em exame de documento erra: nesses casos o juiz deve, de preferência, escolhê-los.",
+    "justificativa": "Pelo Cap. 4 (4.3), no cível não há perito oficial; os peritos são nomeados pelo juiz, atuam sob compromisso, recebem honorários e as partes podem indicar assistentes técnicos. A tese do órgão oficial cível erra (o Estado não o oferece). A que atribui ao juízo a indicação de assistentes técnicos erra: são indicados pelas partes. A que impede o juiz de usar técnicos oficiais em exame de documento erra: nesses casos ele deve, de preferência, escolhê-los.",
     "referencia": "Cap. 4, Seção 4.3, p. 35-36",
     "nivel": "dificil"
   }

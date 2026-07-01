@@ -4,12 +4,12 @@
     "enunciado": "Sobre o sistema probatório penal brasileiro e o valor da confissão, conforme o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "Não há hierarquia das provas; a confissão é divisível e retratável, e seu valor afere-se pelos mesmos critérios dos demais elementos, devendo o juiz confrontá-la com as demais provas.",
-      "B": "Vigora a hierarquia das provas, ocupando a confissão posição superior, razão pela qual prevalece sobre a prova material em caso de divergência entre os elementos colhidos nos autos.",
-      "C": "A confissão é indivisível e irretratável, vinculando o juiz quanto à parte admitida pelo acusado, ainda que essa parte se mostre inverossímil diante das demais provas do processo.",
+      "B": "Vigora a hierarquia das provas, com a confissão em posição superior, razão pela qual ela prevalece sobre a prova material em caso de divergência entre os elementos colhidos.",
+      "C": "A confissão é indivisível e irretratável, vinculando o juiz quanto à parte admitida pelo acusado, mesmo quando essa parte se mostre inverossímil diante das demais provas.",
       "D": "Embora não haja hierarquia das provas, a confissão do acusado supre o exame de corpo de delito nas infrações que deixam vestígios materiais perceptíveis pelos sentidos humanos."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 5, não há hierarquia das provas; a confissão é divisível e retratável (art. 200) e seu valor é aferido como o dos demais elementos, confrontada com as outras provas (art. 197). A tese da hierarquia/primazia da confissão erra. A tese da indivisibilidade/irretratabilidade erra (é divisível e retratável). A tese de que a confissão supre o corpo de delito erra (art. 158 do CPP).",
+    "justificativa": "Pelo Cap. 5, não há hierarquia das provas; a confissão é divisível e retratável (art. 200) e seu valor é aferido como o dos demais elementos, confrontada com as outras provas (art. 197). A tese da hierarquia/primazia da confissão erra. A da indivisibilidade/irretratabilidade erra (é divisível e retratável). A de que a confissão supre o corpo de delito erra (art. 158 do CPP).",
     "referencia": "Cap. 5, Introdução, p. 42-43",
     "nivel": "dificil"
   },
@@ -18,12 +18,12 @@
     "enunciado": "Sobre o corpo de delito e o exame indireto, conforme os arts. 158, 167 e 564 do CPP e o material, assinale a alternativa correta.",
     "alternativas": {
       "A": "Desaparecidos os vestígios, a confissão do acusado poderá suprir a falta do exame de corpo de delito, nos termos expressos do art. 167 do Código de Processo Penal em vigor.",
-      "B": "O exame de corpo de delito indireto pode ser realizado livremente, à escolha do perito, ainda quando seja possível o exame direto, por conferir maior celeridade à apuração dos fatos.",
-      "C": "A falta de exame de corpo de delito nos crimes que deixam vestígios constitui mera irregularidade, sanável a qualquer tempo, sem qualquer repercussão sobre a validade do processo penal.",
+      "B": "O exame de corpo de delito indireto pode ser realizado à escolha do perito mesmo quando viável o exame direto, por conferir maior celeridade à apuração dos fatos investigados.",
+      "C": "A falta de exame de corpo de delito nos crimes que deixam vestígios é mera irregularidade, sanável a qualquer tempo, sem repercussão sobre a validade do processo penal instaurado.",
       "D": "A ausência do exame nos crimes que deixam vestígios é causa de nulidade (art. 564), salvo o art. 167, em que, desaparecidos os vestígios, a prova testemunhal poderá suprir a falta."
     },
     "resposta_correta": "D",
-    "justificativa": "Pelo Cap. 5 (5.1 e 5.1.1), a falta do exame nos crimes que deixam vestígios gera nulidade (art. 564), salvo o art. 167, em que a prova testemunhal supre a falta. A tese de que a confissão supre erra (quem supre é a prova testemunhal). A tese do exame indireto 'livre' erra (só cabe quando impossível o direto). A tese da mera irregularidade erra (pode gerar nulidade).",
+    "justificativa": "Pelo Cap. 5 (5.1 e 5.1.1), a falta do exame nos crimes que deixam vestígios gera nulidade (art. 564), salvo o art. 167, em que a prova testemunhal supre a falta. A tese de que a confissão supre erra (quem supre é a prova testemunhal). A do exame indireto por conveniência erra (só cabe quando inviável o direto). A da mera irregularidade erra (pode gerar nulidade).",
     "referencia": "Cap. 5, Seções 5.1 e 5.1.1, p. 44-45",
     "nivel": "dificil"
   },
@@ -31,13 +31,13 @@
     "conteudo": "Cap. 5 - A prova",
     "enunciado": "Conforme a definição de corpo de delito apresentada no material (Florian, citado por José Frederico Marques), o corpo de delito abrange:",
     "alternativas": {
-      "A": "exclusivamente o resultado ou produto da infração penal, excluídos os meios empregados pelo delinquente e os sinais materiais da sua atividade deixados no local do crime.",
-      "B": "apenas os vestígios intrínsecos localizados na pessoa da vítima, objeto próprio e exclusivo da Medicina Legal no exame cadavérico realizado pelo perito médico-legista designado.",
+      "A": "o resultado ou produto da infração penal, excluídos dessa noção os meios empregados pelo delinquente e os sinais materiais da sua atividade deixados no local do crime.",
+      "B": "os vestígios intrínsecos localizados na pessoa da vítima, objeto próprio da Medicina Legal no exame cadavérico realizado pelo perito médico-legista designado para o caso.",
       "C": "os sinais da atividade do delinquente, o resultado ou produto da infração e o corpus instrumentorum, isto é, os meios empregados pelo delinquente na prática do crime.",
-      "D": "tão somente os elementos materiais reunidos em um único local de crime, onde se consumou a infração, excluídos quaisquer vestígios dispersos em outros locais relacionados ao fato."
+      "D": "os elementos materiais reunidos em um único local de crime, onde se consumou a infração, ficando de fora os vestígios porventura dispersos em outros locais relacionados ao fato."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 5 (5.1), o corpo de delito abrange os sinais da atividade do delinquente, o resultado/produto da infração e o corpus instrumentorum (meios empregados). A tese 'só o produto' exclui indevidamente os meios e os sinais. A tese dos vestígios intrínsecos confunde com a Medicina Legal. A tese do 'único local' erra, pois os vestígios podem não estar em um só local.",
+    "justificativa": "Pelo Cap. 5 (5.1), o corpo de delito abrange os sinais da atividade do delinquente, o resultado/produto da infração e o corpus instrumentorum (meios empregados). A tese que reduz ao produto exclui indevidamente os meios e os sinais. A dos vestígios intrínsecos confunde com a Medicina Legal. A do 'único local' erra, pois os vestígios podem não estar em um só local.",
     "referencia": "Cap. 5, Seção 5.1, p. 44",
     "nivel": "dificil"
   },
@@ -47,11 +47,11 @@
     "alternativas": {
       "A": "Quanto à forma, a prova material é a produzida pelo exame dos vestígios (corpo de delito e demais perícias); quanto ao objeto, o laudo pericial é classificado como prova direta.",
       "B": "Quanto ao sujeito, as provas reais são as derivadas do conhecimento pessoal do indivíduo, como o reconhecimento de pessoas e o depoimento das testemunhas prestado em juízo.",
-      "C": "O laudo pericial é prova indireta quanto ao objeto, pois exige processo lógico de construção para relacionar o vestígio examinado ao fato que se pretende efetivamente provar.",
-      "D": "O álibi é classificado, sem qualquer divergência doutrinária, como prova direta quanto ao objeto, por demonstrar por si só a inocência do acusado no processo criminal em curso."
+      "C": "O laudo pericial é prova indireta quanto ao objeto, pois demanda processo lógico de construção para relacionar o vestígio examinado ao fato que se pretende efetivamente provar.",
+      "D": "O álibi é classificado, sem divergência doutrinária, como prova direta quanto ao objeto, por demonstrar por si a inocência do acusado no processo criminal em curso perante o juízo."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo Cap. 5 (5.3), quanto à forma, a prova material é a produzida pelo exame dos vestígios; quanto ao objeto, o laudo é prova direta. A tese das provas reais como 'conhecimento pessoal' erra (isso são provas pessoais; reais vêm de coisas/vestígios). A tese do laudo como prova indireta erra. A tese do álibi como prova direta sem divergência erra: o álibi é exemplo de prova indireta, havendo divergência doutrinária.",
+    "justificativa": "Pelo Cap. 5 (5.3), quanto à forma, a prova material é a produzida pelo exame dos vestígios; quanto ao objeto, o laudo é prova direta. A tese das provas reais como 'conhecimento pessoal' erra (isso são provas pessoais; reais vêm de coisas/vestígios). A do laudo como prova indireta erra. A do álibi como prova direta sem divergência erra: o álibi é exemplo de prova indireta, havendo divergência doutrinária.",
     "referencia": "Cap. 5, Seção 5.3, p. 45-47",
     "nivel": "dificil"
   },
@@ -59,13 +59,13 @@
     "conteudo": "Cap. 5 - A prova",
     "enunciado": "Sobre as fontes de informação que podem contribuir para esclarecer um crime, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Os vestígios materiais já constituem, por si sós, prova material acabada, independentemente de exame e de interpretação técnica realizados pela Criminalística oficial competente.",
+      "A": "Os vestígios materiais constituem, por si mesmos, prova material acabada, ainda antes de examinados e interpretados tecnicamente pela Criminalística oficial competente.",
       "B": "São três as fontes básicas — a confissão, a testemunha e o rastro de elementos materiais —, tornando-se os vestígios prova material somente após examinados e interpretados.",
-      "C": "A prova testemunhal é a fonte mais confiável e objetiva de todas, pois independe da visão subjetiva de quem a presta e não está sujeita a falhas de memória ou a pressões externas.",
+      "C": "A prova testemunhal é a fonte mais confiável e objetiva, pois independe da visão subjetiva de quem a presta e fica imune a falhas de memória ou a pressões externas ao processo.",
       "D": "A confissão, por sua robustez probatória intrínseca, dispensa o confronto com as demais provas do processo, prevalecendo sobre elas no momento do julgamento da causa criminal."
     },
     "resposta_correta": "B",
-    "justificativa": "Pelo Cap. 5, há três fontes básicas (confissão, testemunha e rastro material), e os vestígios só se tornam prova material após examinados/interpretados. A tese de que o vestígio já é prova erra (é matéria-prima). A tese da testemunha 'mais confiável e objetiva' erra (depende da visão subjetiva). A tese da confissão que dispensa confronto erra (art. 197 do CPP).",
+    "justificativa": "Pelo Cap. 5, há três fontes básicas (confissão, testemunha e rastro material), e os vestígios só se tornam prova material após examinados/interpretados. A tese de que o vestígio já é prova erra (é matéria-prima). A da testemunha como fonte mais confiável e objetiva erra (depende da visão subjetiva). A da confissão que dispensa confronto erra (art. 197 do CPP).",
     "referencia": "Cap. 5, Introdução, p. 42-43",
     "nivel": "dificil"
   }
