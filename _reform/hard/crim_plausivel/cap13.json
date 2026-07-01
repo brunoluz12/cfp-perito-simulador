@@ -1,0 +1,15 @@
+[
+  {
+    "id": 488,
+    "enunciado": "Unidade de perícia criminal federal iniciou a implantação de Sistema de Gestão da Qualidade (SGQ) baseado na ABNT NBR ISO 9001:2015. Sobre os benefícios potenciais da adoção do SGQ, conforme a referida norma reproduzida no material, julgue os itens a seguir:\n\nI. Capacidade de prover consistentemente produtos e serviços que atendam aos requisitos do cliente e aos requisitos estatutários e regulamentares aplicáveis.\nII. Certificação compulsória da unidade pelo Inmetro como condição de validade jurídica dos laudos periciais por ela emitidos.\nIII. Facilitação de oportunidades para aumentar a satisfação do cliente.\nIV. Abordagem dos riscos e oportunidades associados ao contexto e aos objetivos da organização.\nV. Capacidade de demonstrar conformidade com requisitos especificados de sistemas de gestão da qualidade.\n\nAssinale a alternativa que contém APENAS os itens que correspondem a benefícios potenciais previstos na norma.",
+    "alternativas": {
+      "A": "I, II, III e IV.",
+      "B": "II, III, IV e V.",
+      "C": "I, II, IV e V.",
+      "D": "I, III, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 13 (13.1), a ABNT NBR ISO 9001:2015 lista como benefícios potenciais: prover consistentemente produtos/serviços conformes (I), aumentar a satisfação do cliente (III), abordar riscos e oportunidades (IV) e demonstrar conformidade (V). O item II é falso: a norma não impõe 'certificação compulsória pelo Inmetro como condição de validade dos laudos' — a certificação é meta a ser buscada, não requisito de validade jurídica. Logo, apenas I, III, IV e V.",
+    "referencia": "Cap. 13, Seção 13.1, p. 92"
+  }
+]

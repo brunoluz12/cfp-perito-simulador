@@ -4314,14 +4314,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O perito Ricardo possui em sua carga uma requisição cuja análise envolve material biológico extremamente raro, exigindo procedimento experimental ainda em validação metodológica, de modo que o prazo convencional de atendimento se mostrou inviável. Sobre o instituto do 'acompanhamento especial' previsto no Cap. 12, assinale a alternativa CORRETA.",
     "alternativas": {
-      "A": "O próprio perito responsável pode, mediante despacho fundamentado no SISCRIM, colocar a pendência em acompanhamento especial, devendo apenas comunicar formalmente o chefe imediato após o registro.",
-      "B": "É decidido exclusivamente pela corregedoria, após detida avaliação das justificativas formais apresentadas pela UC, e implica suspensão automática e por prazo indeterminado dos prazos de qualquer requisição vinculada à mesma operação policial, independentemente da área de exame envolvida.",
-      "C": "As requisições em acompanhamento especial continuam sendo contabilizadas como pendências vencidas para efeitos da meta 1, mas ficam isentas dos efeitos dos prazos críticos enquanto durar o acompanhamento.",
-      "D": "O chefe imediato, ao receber a comunicação do perito, fundamenta o pedido, estima uma data para conclusão dos exames e o formaliza via SEI; o pedido é avaliado pelo INC, que pode colocar a pendência em acompanhamento especial e registrar a data limite, não sendo tais requisições contabilizadas como vencidas para a meta 1 nem para os prazos críticos."
+      "A": "O próprio perito responsável pode, mediante despacho fundamentado no SISCRIM, colocar a pendência em acompanhamento especial, bastando comunicar formalmente o chefe imediato após o registro do ato.",
+      "B": "O chefe imediato coloca a pendência em acompanhamento especial e comunica o INC apenas para fins de registro estatístico, ficando os prazos daquela requisição suspensos a partir do despacho da chefia.",
+      "C": "As requisições em acompanhamento especial continuam contabilizadas como pendências vencidas para efeitos da meta 1, ficando isentas apenas dos efeitos dos prazos críticos enquanto durar o acompanhamento, ainda que o INC tenha registrado nova data limite para a conclusão dos exames.",
+      "D": "O chefe imediato, ao receber a comunicação do perito, fundamenta o pedido, estima data para a conclusão e o formaliza via SEI; o INC avalia e pode colocar a pendência em acompanhamento especial, não sendo tais requisições contabilizadas como vencidas para a meta 1 nem para os prazos críticos."
     },
     "resposta_correta": "D",
-    "justificativa": "Conforme o Cap. 12, item 12.7.3 (p. 87-88): o perito comunica o chefe imediato, que solicita ao órgão central, fundamenta o pedido, estima data de conclusão e formaliza via SEI; o processo é avaliado pelo INC, e as requisições em acompanhamento especial NÃO são contabilizadas como vencidas para a meta 1 nem para os prazos críticos (alternativa D). A erra ao atribuir a decisão ao próprio perito. B erra ao atribuí-la à corregedoria com suspensão automática de toda a operação. C erra ao manter a contabilização como vencida na meta 1.",
-    "referencia": "Cap. 12, Seção 12.7.3, p. 87-88",
+    "justificativa": "Pelo Cap. 12 (12.7.3), o chefe imediato fundamenta o pedido, estima a data e formaliza via SEI; quem decide é o INC, e essas requisições não contam como vencidas para a meta 1 nem para os prazos críticos. A tese de que o próprio perito decide erra. A de que o chefe decide e apenas comunica o INC erra (a decisão é do INC). A de que continuam contabilizadas como vencidas erra.",
+    "referencia": "Cap. 12, Seção 12.7.3, p. 88",
     "nivel": "medio"
   },
   {
@@ -4482,7 +4482,7 @@ const questoesDB = [
     "disciplina": "Criminalística",
     "conteudo": "Cap. 13 - Normativos e boas práticas da Gestão da Criminalística",
     "tipo": "multipla_escolha",
-    "enunciado": "Unidade de perícia criminal federal iniciou a implantação de Sistema de Gestão da Qualidade (SGQ) baseado na ABNT NBR ISO 9001:2015. Sobre os benefícios potenciais da adoção do SGQ, conforme a referida norma reproduzida no material, julgue os itens a seguir:\n\nI. Capacidade de prover consistentemente produtos e serviços que atendam aos requisitos do cliente e aos requisitos estatutários e regulamentares aplicáveis.\nII. Obrigatoriedade de redução de, no mínimo, 50% no tempo médio de atendimento das requisições periciais, fixada como meta institucional vinculante.\nIII. Facilitação de oportunidades para aumentar a satisfação do cliente.\nIV. Abordagem dos riscos e oportunidades associados ao contexto e aos objetivos da organização.\nV. Capacidade de demonstrar conformidade com requisitos especificados de sistemas de gestão da qualidade.\n\nAssinale a alternativa que contém APENAS os itens que correspondem a benefícios potenciais previstos na norma.",
+    "enunciado": "Unidade de perícia criminal federal iniciou a implantação de Sistema de Gestão da Qualidade (SGQ) baseado na ABNT NBR ISO 9001:2015. Sobre os benefícios potenciais da adoção do SGQ, conforme a referida norma reproduzida no material, julgue os itens a seguir:\n\nI. Capacidade de prover consistentemente produtos e serviços que atendam aos requisitos do cliente e aos requisitos estatutários e regulamentares aplicáveis.\nII. Certificação compulsória da unidade pelo Inmetro como condição de validade jurídica dos laudos periciais por ela emitidos.\nIII. Facilitação de oportunidades para aumentar a satisfação do cliente.\nIV. Abordagem dos riscos e oportunidades associados ao contexto e aos objetivos da organização.\nV. Capacidade de demonstrar conformidade com requisitos especificados de sistemas de gestão da qualidade.\n\nAssinale a alternativa que contém APENAS os itens que correspondem a benefícios potenciais previstos na norma.",
     "alternativas": {
       "A": "I, II, III e IV.",
       "B": "II, III, IV e V.",
@@ -4490,8 +4490,8 @@ const questoesDB = [
       "D": "I, III, IV e V."
     },
     "resposta_correta": "D",
-    "justificativa": "Correta a letra D (I, III, IV e V): conforme o Cap. 13, Seção 13.1, p. 91, esses são exatamente os benefícios potenciais do SGQ segundo a ISO 9001:2015. O item II é inventado — a norma não fixa qualquer meta numérica de redução de tempo médio de atendimento. Por conterem o item II falso, as alternativas A e C estão incorretas (ambas o incluem); a alternativa B exclui o item I, que é verdadeiro.",
-    "referencia": "Cap. 13, Seção 13.1, p. 91",
+    "justificativa": "Pelo Cap. 13 (13.1), a ABNT NBR ISO 9001:2015 lista como benefícios potenciais: prover consistentemente produtos/serviços conformes (I), aumentar a satisfação do cliente (III), abordar riscos e oportunidades (IV) e demonstrar conformidade (V). O item II é falso: a norma não impõe 'certificação compulsória pelo Inmetro como condição de validade dos laudos' — a certificação é meta a ser buscada, não requisito de validade jurídica. Logo, apenas I, III, IV e V.",
+    "referencia": "Cap. 13, Seção 13.1, p. 92",
     "nivel": "medio"
   },
   {
@@ -29100,14 +29100,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distinção entre 'Material' e 'Vestígio' no SISCRIM, conforme o material, é correto afirmar que:",
     "alternativas": {
-      "A": "Material custodiado no SISCRIM é, em regra, sinônimo de vestígio, constituindo o foco principal do exame criminalístico que é realizado pela perícia oficial.",
-      "B": "Aeronaves, navios e imóveis periciados ficam sob a guarda física da perícia, sendo regularmente cadastrados como material sob custódia no sistema SISCRIM.",
+      "A": "Todo material registrado no SISCRIM contém vestígio, ainda que nem todo vestígio do crime chegue a ser cadastrado como material sob a custódia da unidade de criminalística.",
+      "B": "Aeronaves, navios e imóveis periciados ficam sob a guarda física da perícia, sendo regularmente cadastrados como material sob custódia no sistema SISCRIM durante o exame.",
       "C": "Há material que não é vestígio (mídia para espelhamento, padrão para confronto) e há vestígio que não é material no SISCRIM (aeronaves, imóveis, locais de crime).",
       "D": "Padrão para confronto e material de apoio ao exame são classificados como vestígios no sistema SISCRIM, por constituírem o foco principal do exame pericial criminal realizado."
     },
     "resposta_correta": "C",
-    "justificativa": "Conforme o material (Seção 6): nem todo material é vestígio (mídia para espelhamento, material de apoio e padrão para confronto são custodiados, mas não são o foco do exame), e nem todo vestígio é material no SISCRIM (aeronaves, navios, imóveis, veículos em pátios de terceiros e locais de crime são periciados, mas não ficam sob guarda física) — alternativa C. A e D erram porque padrão/apoio não são vestígios. B erra porque aeronaves e imóveis não ficam sob guarda física da perícia.",
-    "referencia": "Cap. 12, Seção 12.6 — Material e custódia",
+    "justificativa": "Pelo Cap. 12 (12.4), há material que não é vestígio (mídia para espelhamento, padrão) e vestígio que não é material no SISCRIM (aeronaves, imóveis, locais de crime). A tese de que todo material contém vestígio erra (apoio/padrão/mídia não contêm). A de que aeronaves/navios/imóveis ficam sob guarda física e são cadastrados como material erra. A de que padrão/apoio são vestígios erra: não são o foco do exame.",
+    "referencia": "Cap. 12, Seção 12.4, p. 84-85",
     "nivel": "dificil"
   },
   {
@@ -29117,14 +29117,14 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a gestão de demandas da Criminalística (MED e metas), conforme o material, é correto afirmar que:",
     "alternativas": {
-      "A": "A DITEC/PF define metas individuais de produtividade e de tempo médio de atendimento para cada perito criminal federal lotado na unidade.",
-      "B": "O MED redistribui as pendências unicamente dentro da própria unidade de criminalística, sendo expressamente vedada a redistribuição nacional e compulsória entre as diferentes unidades.",
+      "A": "A DITEC/PF define metas individuais de produtividade e de tempo médio de atendimento para cada perito criminal federal lotado na unidade de criminalística.",
+      "B": "O MED redistribui as pendências dentro da própria unidade de criminalística, cabendo à redistribuição nacional entre unidades depender de autorização judicial prévia.",
       "C": "O MED redistribui pendências de forma compulsória e nacional entre as unidades; e a DITEC define metas para as Unidades de Criminalística, não para peritos individuais.",
-      "D": "A meta de pendências vencidas admite que a unidade de criminalística mantenha até 50% das suas pendências estourando o prazo máximo de atendimento."
+      "D": "A meta de pendências vencidas admite que a unidade de criminalística mantenha até 25% das suas pendências acima do prazo máximo de atendimento definido pela DITEC."
     },
     "resposta_correta": "C",
-    "justificativa": "Conforme o material (Seção 7): o MED (Mecanismo de Equalização de Demandas) redistribui pendências de forma compulsória e nacional entre as unidades, apoiado em painéis de BI, e a DITEC define metas para as Unidades de Criminalística, não metas individuais (C). A erra porque não há metas individuais. B erra porque a redistribuição é nacional e compulsória. D erra porque a meta admite, no máximo, 5% de pendências vencidas, não 50%.",
-    "referencia": "Cap. 12, Seção 12.7 — Gestão de demandas (MED e metas)",
+    "justificativa": "Pelo Cap. 12 (12.6 e 12.7), o MED redistribui pendências de forma compulsória e nacional (Portaria 12.248/2020), e a DITEC define metas para as UCs, não para peritos. A tese das metas individuais erra. A de que o MED atua só dentro da unidade e depende de autorização judicial erra. A do teto de 25% de pendências vencidas erra: a meta é de, no máximo, 5%.",
+    "referencia": "Cap. 12, Seções 12.6 e 12.7, p. 86-87",
     "nivel": "medio"
   },
   {
@@ -32891,13 +32891,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a distinção entre 'material' e 'vestígio' no SISCRIM, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Todo material registrado no SISCRIM é um vestígio, e todo vestígio encontra registro como material no sistema, havendo coincidência entre os dois conceitos adotados na gestão pericial.",
+      "A": "Todo vestígio recolhido é registrado como material no SISCRIM, embora nem todo material cadastrado constitua efetivamente um vestígio do crime apurado pela perícia.",
       "B": "Locais de crime e imóveis são registrados como material no SISCRIM, pois ficam sob a guarda física da perícia durante a realização dos exames periciais e até a sua destinação final.",
       "C": "Nem todo material é vestígio (ex.: mídia para espelhamento, material de apoio, padrão) e nem todo vestígio é material no SISCRIM (ex.: aeronaves, navios, imóveis, locais de crime).",
       "D": "Material de apoio, padrão para confronto e mídia para espelhamento são classificados como vestígios, por integrarem o foco principal do exame pericial e a cadeia de custódia do caso."
     },
     "resposta_correta": "C",
-    "justificativa": "Pelo Cap. 12 (12.4), nem todo material é vestígio (mídia para espelhamento, apoio, padrão) e nem todo vestígio é material no SISCRIM (aeronaves, navios, imóveis, locais de crime não ficam sob guarda física). A tese da coincidência dos conceitos erra. A de que locais de crime e imóveis são material erra. A de que apoio/padrão/mídia de espelhamento são vestígios erra.",
+    "justificativa": "Pelo Cap. 12 (12.4), nem todo material é vestígio (mídia para espelhamento, apoio, padrão) e nem todo vestígio é material no SISCRIM (aeronaves, navios, imóveis, locais de crime). A tese de que todo vestígio é registrado como material erra (locais de crime, aeronaves não o são). A de que locais de crime/imóveis são material erra. A de que apoio/padrão/mídia são vestígios erra.",
     "referencia": "Cap. 12, Seção 12.4, p. 84-85",
     "nivel": "dificil"
   },

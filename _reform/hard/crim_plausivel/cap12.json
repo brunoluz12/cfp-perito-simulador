@@ -1,0 +1,54 @@
+[
+  {
+    "id": 478,
+    "enunciado": "O perito Ricardo possui em sua carga uma requisição cuja análise envolve material biológico extremamente raro, exigindo procedimento experimental ainda em validação metodológica, de modo que o prazo convencional de atendimento se mostrou inviável. Sobre o instituto do 'acompanhamento especial' previsto no Cap. 12, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O próprio perito responsável pode, mediante despacho fundamentado no SISCRIM, colocar a pendência em acompanhamento especial, bastando comunicar formalmente o chefe imediato após o registro do ato.",
+      "B": "O chefe imediato coloca a pendência em acompanhamento especial e comunica o INC apenas para fins de registro estatístico, ficando os prazos daquela requisição suspensos a partir do despacho da chefia.",
+      "C": "As requisições em acompanhamento especial continuam contabilizadas como pendências vencidas para efeitos da meta 1, ficando isentas apenas dos efeitos dos prazos críticos enquanto durar o acompanhamento, ainda que o INC tenha registrado nova data limite para a conclusão dos exames.",
+      "D": "O chefe imediato, ao receber a comunicação do perito, fundamenta o pedido, estima data para a conclusão e o formaliza via SEI; o INC avalia e pode colocar a pendência em acompanhamento especial, não sendo tais requisições contabilizadas como vencidas para a meta 1 nem para os prazos críticos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Cap. 12 (12.7.3), o chefe imediato fundamenta o pedido, estima a data e formaliza via SEI; quem decide é o INC, e essas requisições não contam como vencidas para a meta 1 nem para os prazos críticos. A tese de que o próprio perito decide erra. A de que o chefe decide e apenas comunica o INC erra (a decisão é do INC). A de que continuam contabilizadas como vencidas erra.",
+    "referencia": "Cap. 12, Seção 12.7.3, p. 88"
+  },
+  {
+    "id": 2030,
+    "enunciado": "Sobre a distinção entre 'Material' e 'Vestígio' no SISCRIM, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "Todo material registrado no SISCRIM contém vestígio, ainda que nem todo vestígio do crime chegue a ser cadastrado como material sob a custódia da unidade de criminalística.",
+      "B": "Aeronaves, navios e imóveis periciados ficam sob a guarda física da perícia, sendo regularmente cadastrados como material sob custódia no sistema SISCRIM durante o exame.",
+      "C": "Há material que não é vestígio (mídia para espelhamento, padrão para confronto) e há vestígio que não é material no SISCRIM (aeronaves, imóveis, locais de crime).",
+      "D": "Padrão para confronto e material de apoio ao exame são classificados como vestígios no sistema SISCRIM, por constituírem o foco principal do exame pericial criminal realizado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 12 (12.4), há material que não é vestígio (mídia para espelhamento, padrão) e vestígio que não é material no SISCRIM (aeronaves, imóveis, locais de crime). A tese de que todo material contém vestígio erra (apoio/padrão/mídia não contêm). A de que aeronaves/navios/imóveis ficam sob guarda física e são cadastrados como material erra. A de que padrão/apoio são vestígios erra: não são o foco do exame.",
+    "referencia": "Cap. 12, Seção 12.4, p. 84-85"
+  },
+  {
+    "id": 2031,
+    "enunciado": "Sobre a gestão de demandas da Criminalística (MED e metas), conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "A DITEC/PF define metas individuais de produtividade e de tempo médio de atendimento para cada perito criminal federal lotado na unidade de criminalística.",
+      "B": "O MED redistribui as pendências dentro da própria unidade de criminalística, cabendo à redistribuição nacional entre unidades depender de autorização judicial prévia.",
+      "C": "O MED redistribui pendências de forma compulsória e nacional entre as unidades; e a DITEC define metas para as Unidades de Criminalística, não para peritos individuais.",
+      "D": "A meta de pendências vencidas admite que a unidade de criminalística mantenha até 25% das suas pendências acima do prazo máximo de atendimento definido pela DITEC."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 12 (12.6 e 12.7), o MED redistribui pendências de forma compulsória e nacional (Portaria 12.248/2020), e a DITEC define metas para as UCs, não para peritos. A tese das metas individuais erra. A de que o MED atua só dentro da unidade e depende de autorização judicial erra. A do teto de 25% de pendências vencidas erra: a meta é de, no máximo, 5%.",
+    "referencia": "Cap. 12, Seções 12.6 e 12.7, p. 86-87"
+  },
+  {
+    "id": 2253,
+    "enunciado": "Sobre a distinção entre 'material' e 'vestígio' no SISCRIM, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Todo vestígio recolhido é registrado como material no SISCRIM, embora nem todo material cadastrado constitua efetivamente um vestígio do crime apurado pela perícia.",
+      "B": "Locais de crime e imóveis são registrados como material no SISCRIM, pois ficam sob a guarda física da perícia durante a realização dos exames periciais e até a sua destinação final.",
+      "C": "Nem todo material é vestígio (ex.: mídia para espelhamento, material de apoio, padrão) e nem todo vestígio é material no SISCRIM (ex.: aeronaves, navios, imóveis, locais de crime).",
+      "D": "Material de apoio, padrão para confronto e mídia para espelhamento são classificados como vestígios, por integrarem o foco principal do exame pericial e a cadeia de custódia do caso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pelo Cap. 12 (12.4), nem todo material é vestígio (mídia para espelhamento, apoio, padrão) e nem todo vestígio é material no SISCRIM (aeronaves, navios, imóveis, locais de crime). A tese de que todo vestígio é registrado como material erra (locais de crime, aeronaves não o são). A de que locais de crime/imóveis são material erra. A de que apoio/padrão/mídia são vestígios erra.",
+    "referencia": "Cap. 12, Seção 12.4, p. 84-85"
+  }
+]
