@@ -1,0 +1,699 @@
+[
+  {
+    "id": 713,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 1 - Apresentação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um aluno recém-ingresso na Academia Nacional de Polícia (ANP), ao folhear o material didático do PVAT - Módulo II, questiona o instrutor sobre por que a Polícia Federal mantém uma disciplina robusta de perícia em acidentes de tráfego, sendo que a competência ordinária para homicídios e lesões corporais culposas em trânsito é das polícias civis estaduais. Considerando a Apresentação do caderno didático, assinale a alternativa que melhor responde ao questionamento.",
+    "alternativas": {
+      "A": "Embora a PF atenda menos casos que as polícias estaduais nessa área, os que lhe chegam costumam ter alta complexidade técnica, repercussão institucional e exigência de rigor metodológico elevado.",
+      "B": "A Polícia Federal possui competência originária para todos e quaisquer acidentes ocorridos em rodovias federais do país, o que, por si só, justifica plenamente a manutenção da disciplina na formação.",
+      "C": "A disciplina é mantida exclusivamente como tradição histórica do Instituto Nacional de Criminalística, sem aplicação prática significativa nos dias atuais.",
+      "D": "A PF atua de forma supletiva às polícias estaduais sempre que estas não conseguem realizar a perícia em até 48 horas, daí a necessidade de formação continuada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a Apresentação: 'Embora a frequência de atendimentos da Polícia Federal nessa área seja menor que a das polícias civis estaduais — que detêm competência ordinária para os delitos de homicídio e lesão corporal culposa —, os casos que chegam à PF frequentemente envolvem alta complexidade técnica, repercussão institucional relevante e exigência de rigor metodológico elevado'.",
+    "referencia": "Cap. 1, p. 9",
+    "nivel": "facil"
+  },
+  {
+    "id": 715,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 1 - Apresentação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma palestra inaugural para novos peritos, um instrutor afirma que, apesar de todos os avanços, é praticamente impossível eliminar os acidentes de tráfego. Com base na Apresentação do PVAT - Módulo II, qual fundamentação melhor sustenta essa afirmação?",
+    "alternativas": {
+      "A": "As ocorrências de acidentes são intrínsecas ao comportamento humano e à estrutura física de vias e veículos, apesar dos esforços das autoridades, da Engenharia de Tráfego e da legislação mais rigorosa.",
+      "B": "Os acidentes são inevitáveis exclusivamente porque a fiscalização eletrônica ainda não cobre 100% das vias urbanas e rurais brasileiras.",
+      "C": "A inevitabilidade dos acidentes decorre principalmente da ausência de uma legislação penal específica e mais rigorosa para o trânsito, lacuna que, conforme se prevê, será corrigida em breve pelo legislador nacional.",
+      "D": "Acidentes são inevitáveis pois nenhum veículo automotor moderno possui sistemas eletrônicos de segurança ativa, restando apenas a atuação reativa do condutor."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a Apresentação: 'Apesar dos esforços das autoridades, que contam com o apoio da Engenharia de Tráfego, das campanhas educativas, da legislação atual mais rigorosa e da atuação dos órgãos fiscalizadores, é intrínseco ao próprio comportamento humano e à estrutura física das vias e veículos as ocorrências de acidentes'.",
+    "referencia": "Cap. 1, p. 9",
+    "nivel": "medio"
+  },
+  {
+    "id": 719,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 2 - Contexto Atual",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere o seguinte caso hipotético: um agente da Polícia Federal, durante deslocamento operacional autorizado, sofre acidente de trânsito ao colidir lateralmente com um veículo particular em uma avenida de Brasília. Não há óbito, mas há lesões corporais leves no condutor particular. Com base nas situações descritas na seção 2.2 do caderno didático, a competência pericial federal:",
+    "alternativas": {
+      "A": "Está restrita à análise mecânica do veículo, sendo a dinâmica do acidente sempre periciada pela polícia científica estadual competente, ainda que haja servidor federal envolvido.",
+      "B": "Está afastada, pois acidentes em vias urbanas são sempre de competência das polícias civis estaduais, independentemente dos envolvidos.",
+      "C": "Depende exclusivamente do interesse da Justiça Estadual em delegar o caso à PF, não havendo previsão expressa no caderno didático.",
+      "D": "Está presente, pois é servidor público federal em serviço — hipótese expressamente prevista para a atuação primordial da perícia federal em acidentes."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a seção 2.2: 'A atuação pericial da Polícia Federal em acidentes de tráfego ocorre, primordialmente, nas seguintes situações: (a) quando servidores públicos federais estiverem envolvidos no acidente e estiverem em serviço'.",
+    "referencia": "Cap. 2, Seção 2.2, p. 11",
+    "nivel": "medio"
+  },
+  {
+    "id": 726,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A seção 3.1 da apostila enfatiza a importância da terminologia padronizada na perícia em acidentes de tráfego. Sobre esse tema, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A padronização terminológica é meramente recomendável, não havendo prejuízo para o laudo caso o perito utilize termos populares ou regionais.",
+      "B": "A padronização terminológica é condição indispensável para a comunicação científica e jurídica eficaz, pois termos imprecisos podem gerar contradições processuais e prejudicar o entendimento do laudo.",
+      "C": "A padronização terminológica é exclusivamente normativa, sendo o Código de Trânsito Brasileiro a única fonte de definições aceita nos laudos periciais, vedando-se o uso de definições consagradas pelos Institutos de Criminalística.",
+      "D": "A padronização terminológica restringe a liberdade técnica do perito, devendo ser observada apenas em casos de grande repercussão midiática."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a seção 3.1: 'A padronização terminológica é condição indispensável para a comunicação científica e jurídica eficaz. No campo da perícia em acidentes de tráfego, termos imprecisos ou utilizados de forma inconsistente podem gerar contradições processuais e prejudicar o entendimento do laudo pericial'.",
+    "referencia": "Cap. 3, Seção 3.1, p. 15",
+    "nivel": "facil"
+  },
+  {
+    "id": 732,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A seção 3.4 transcreve a definição da ABNT para acidente de trânsito. Segundo essa definição, é CORRETO afirmar que acidente de trânsito é:",
+    "alternativas": {
+      "A": "Evento não premeditado de que resulte dano a veículo ou carga e/ou lesões a pessoas e/ou animais, estando pelo menos uma das partes em movimento nas vias terrestres ou áreas abertas ao público.",
+      "B": "Apenas as ocorrências com vítimas fatais em vias terrestres pavimentadas, excluindo-se danos materiais isolados.",
+      "C": "Qualquer colisão entre veículos automotores, independentemente do local de ocorrência, desde que haja lesões corporais em pessoas e a lavratura de boletim de ocorrência policial.",
+      "D": "Todo evento premeditado de que resulte dano em veículo, ainda que sem vítimas, ocorrido exclusivamente em vias urbanas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme a seção 3.4: 'A ABNT define acidente de trânsito como todo evento não premeditado de que resulte dano em veículo ou na sua carga e/ou lesões em pessoas e/ou animais, em que pelo menos uma das partes está em movimento nas vias terrestres ou áreas abertas ao público'.",
+    "referencia": "Cap. 3, Seção 3.4, p. 17",
+    "nivel": "medio"
+  },
+  {
+    "id": 734,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma colisão transversal (perpendicular) em cruzamento, o perito observa duas características marcantes nas marcas pneumáticas. Conforme descrito na Tabela 3 da seção 3.4.1, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "As marcas de frenagem do veículo abalroador são curvas e divergentes em relação ao ponto de impacto; já as marcas do veículo abalroado mantêm-se paralelas à sua trajetória original, sem qualquer desvio lateral.",
+      "B": "Ambos os veículos deixam exclusivamente marcas frontais retilíneas no sentido de seus respectivos deslocamentos, sem mudança de direção.",
+      "C": "Não há marcas pneumáticas características em colisões transversais, sendo o vestígio principal apenas o estampamento metálico nos veículos.",
+      "D": "As marcas do abalroador são retas e paralelas, convergindo para o ponto de colisão; as do abalroado são perpendiculares ou oblíquas à sua trajetória, resultantes do impulso transversal recebido."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme a Tabela 3 da seção 3.4.1, em colisão transversal/perpendicular: 'marcas de frenagem do veículo abalroador: retas, paralelas, convergindo para o ponto de colisão; marcas de derrapagem lateral do veículo abalroado: perpendiculares ou oblíquas à sua trajetória original, resultantes do impulso transversal recebido'.",
+    "referencia": "Cap. 3, Seção 3.4.1, p. 18",
+    "nivel": "dificil"
+  },
+  {
+    "id": 738,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 3 - Conceitos Fundamentais e Terminologia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o atropelamento como categoria especial de acidente de tráfego, conforme a seção 3.4.5, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "No atropelamento, a análise do cadáver é dispensável sempre que houver testemunhas oculares, ficando o exame perinecroscópico restrito aos casos em que não há identificação da vítima.",
+      "B": "O atropelamento envolve apenas pedestres, jamais ciclistas, sendo estes última categoria à parte na taxonomia da apostila.",
+      "C": "O atropelamento é a colisão entre veículo em movimento e pedestre ou ciclista; a análise do cadáver (exame perinecroscópico) tem particular importância para a determinação da dinâmica.",
+      "D": "O atropelamento é definido como o contato entre um veículo parado e um pedestre em movimento, sendo categoria genérica de acidente de tráfego."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a seção 3.4.5: 'O atropelamento é a colisão entre um veículo em movimento e um pedestre ou ciclista. Constitui categoria especial de acidente de tráfego em que a análise do cadáver (exame perinecroscópico) assume particular importância para a determinação da dinâmica – sentido de deslocamento do pedestre, ponto de impacto inicial no veículo, trajetória de projeção e posição de repouso final'.",
+    "referencia": "Cap. 3, Seção 3.4.5, p. 19",
+    "nivel": "medio"
+  },
+  {
+    "id": 744,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em acidente ocorrido em rodovia de pista simples, observou-se que o condutor desenvolvia 95 km/h em trecho com forte neblina e pista molhada, vindo a perder o controle do veículo. O limite de velocidade da via era de 100 km/h, conforme placas. Sobre o tratamento pericial do conceito de velocidade nesse caso, à luz do material do PVAT, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Como a velocidade desenvolvida (95 km/h) era inferior ao limite legal (100 km/h), fica integralmente afastada qualquer possibilidade de a velocidade figurar como causa determinante, restando ao perito investigar apenas eventuais falhas mecânicas do veículo envolvido.",
+      "B": "Para fins periciais, 'velocidade excessiva' não se restringe a ultrapassar o limite da placa: pode haver velocidade inadequada às condições (chuva, neblina, pista molhada, curva), mesmo sem ultrapassar o limite absoluto, à luz do art. 43 do CTB.",
+      "C": "O art. 61 do CTB autoriza expressamente o condutor a manter-se no limite máximo independentemente das condições da via, cabendo ao perito apenas verificar o respeito ao valor numérico fixado em placa.",
+      "D": "O art. 43 do CTB somente se aplica quando há ultrapassagem comprovada do limite fixado pelo art. 61, funcionando como agravante específica para condutores reincidentes."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o texto: 'o art. 43 impõe ao condutor a obrigação de adaptar sua velocidade às condições do momento, mesmo que esta seja inferior ao limite legal – o que fundamenta causas determinantes por velocidade inadequada mesmo quando o veículo não ultrapassava o limite'. E ainda: 'Um veículo pode desenvolver velocidade inadequada para as condições de trânsito – chuva, neblina, pista molhada, curva acentuada, área escolar – sem ultrapassar o limite absoluto'.",
+    "referencia": "Cap. 4, Seção 4.2.3, p. 24",
+    "nivel": "medio"
+  },
+  {
+    "id": 751,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 4 - Legislação de Trânsito Aplicada à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as infrações de trânsito de maior relevância pericial sistematizadas na Tabela 6 do material do PVAT, julgue os itens a seguir:\n\nI. O art. 175 do CTB, classificado como infração grave, tipifica manobra perigosa, arrancada brusca, derrapagem ou frenagem com deslizamento de pneus, podendo indicar comportamento como causa determinante.\nII. O art. 176 do CTB, classificado como infração gravíssima, abrange condutas como não prestar socorro à vítima, não preservar o local e não se identificar, sendo relevante para a investigação e preservação dos vestígios.\nIII. O art. 186 do CTB, referente a transitar na contramão de direção, é apontado como causa determinante em colisões frontais por invasão de faixa.\nIV. O art. 244, I, do CTB, gravíssimo, tipifica a condução de motocicleta entre veículos em movimento (racha) e é relevante em acidentes envolvendo motocicletas.\nV. O art. 214 do CTB, gravíssimo, refere-se a não dar preferência a pedestre ou veículo não motorizado, sendo causa determinante em atropelamentos e colisões em faixa de pedestres.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas os itens II, IV e V.",
+      "C": "Apenas os itens I, III e V.",
+      "D": "Todos os itens estão corretos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todos os itens reproduzem fielmente o conteúdo da Tabela 6: art. 175 (manobra perigosa, grave); art. 176 (não prestar socorro, não preservar local, gravíssima); art. 186 (contramão, causa determinante em colisões frontais por invasão de faixa); art. 244, I (conduzir motocicleta entre veículos em movimento, gravíssima); art. 214 (não dar preferência a pedestre ou veículo não motorizado, causa determinante em atropelamentos e colisões em faixa de pedestres).",
+    "referencia": "Cap. 4, Seção 4.4, Tabela 6, p. 26-27",
+    "nivel": "dificil"
+  },
+  {
+    "id": 761,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 5 - Física Aplicada aos Acidentes de Tráfego",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma perícia, o perito recebe pressão para utilizar uma tabela informal que correlaciona 'profundidade do amassamento em portas e para-choques' diretamente com 'velocidade em km/h', estimando a Velocidade de Danos (Vd) do veículo. À luz da Seção 5.3.1 do PVAT-Módulo II, qual é a conduta correta e respectiva justificativa?",
+    "alternativas": {
+      "A": "Aceitar a tabela como prática consolidada na perícia de acidentes, uma vez que o método CRASH foi oficialmente adotado e validado no Brasil exatamente para esse fim de correlação dano-velocidade.",
+      "B": "Aplicar a tabela informal apenas se a perícia for em rodovia federal, conforme determinação do método CRASH3.",
+      "C": "Recusar o uso da tabela informal, pois tabelas que associam 'X km/h' a um amassamento em para-choque ou porta não devem ser usadas, salvo se houver referência científica que corrobore tais valores.",
+      "D": "Substituir o cálculo de Vd pelo de Vr, já que tabelas de danos são sempre proibidas no Brasil."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Seção 5.3.1 (p. 32-33) afirma que o uso simplificado do método CRASH no Brasil 'não é um método científico recomendado, pois não traz resultados que sejam verificáveis', e adverte que 'tabelas que trazem valores referenciando \"X Km/h\" para um amassamento em um para-choque ou porta não devem ser utilizadas pelo perito, a não ser que exista alguma referência científica que corrobore tais valores'.",
+    "referencia": "Cap. 5, Seção 5.3.1, p. 32-33",
+    "nivel": "dificil"
+  },
+  {
+    "id": 772,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 5 - Física Aplicada aos Acidentes de Tráfego",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a Seção 5.7 do PVAT-Módulo II, há um esclarecimento terminológico relevante entre 'coeficiente de atrito' e 'coeficiente de arrasto (drag factor)'. Sobre essa distinção, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O coeficiente de atrito (sentido estrito) vem de ensaios controlados/laboratoriais; o coeficiente de arrasto (drag factor) — adimensional, expressa a desaceleração em frações de g — é mais adequado à perícia e mensurável por frenagem no local.",
+      "B": "O coeficiente de arrasto (drag factor) somente é utilizado para o cálculo do desempenho de veículos aéreos e embarcações, não tendo absolutamente nenhuma aplicação na perícia de acidentes de tráfego em rodovias, vias urbanas e demais locais de acidente de trânsito periciados.",
+      "C": "No Brasil, a literatura pericial proíbe expressamente o uso do termo 'coeficiente de atrito', exigindo sempre o emprego de 'coeficiente de arrasto' em laudos oficiais.",
+      "D": "Coeficiente de atrito e coeficiente de arrasto são fisicamente idênticos e jamais podem ser confundidos ou empregados como sinônimos, mesmo na prática pericial brasileira."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Seção 5.7 esclarece que o coeficiente de atrito em sentido estrito é o obtido 'em condições controladas, geralmente em ensaios laboratoriais', enquanto o coeficiente de arrasto 'expressa a desaceleração do veículo em frações da aceleração gravitacional e que é diretamente mensurável por ensaios de frenagem no local'. O próprio texto observa que, por convenção brasileira, ambos os termos 'são empregados como sinônimos, sendo o primeiro de uso predominante'.",
+    "referencia": "Cap. 5, Seção 5.7, p. 37",
+    "nivel": "dificil"
+  },
+  {
+    "id": 781,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial sobre colisão ocorrida em cruzamento sinalizado por semáforos, o perito precisa registrar a sinalização presente na área do acidente. Considerando as orientações do PVAT - Módulo II sobre a análise da sinalização, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A sinalização horizontal (faixas e setas direcionais) é dispensável no registro pericial, pois apenas a vertical influi na dinâmica do acidente.",
+      "B": "A ausência de sinalização em local onde seria obrigatória não constitui dado pericial relevante, pois trata-se de matéria administrativa.",
+      "C": "Devem ser registradas apenas as sinalizações regulamentadoras e de advertência, ficando excluídas as de indicação.",
+      "D": "Em relação a semáforos, deve-se verificar existência, funcionamento e programação, incluindo o ciclo e o tempo de amarelo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto lista expressamente: 'Semáforos: existência, funcionamento e programação (ciclo, tempo de amarelo)'. Toda a sinalização (regulamentadora, advertência e indicação) deve ser registrada, inclusive a 'Ausência de sinalização em local onde seria obrigatória'.",
+    "referencia": "Cap. 6, Seção 6.3.2, p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 783,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise de avarias em veículos envolvidos em acidente de tráfego, o PVAT - Módulo II apresenta critérios sistemáticos que permitem extrair informações periciais. Julgue os itens a seguir:\n\nI. O critério 'Localização' revela as áreas de atuação das forças entre os veículos ou entre o veículo e o objeto fixo, sobretudo onde houve o maior impacto.\nII. O critério 'Intensidade' (leve, moderada, severa) permite a estimativa da velocidade de danos (Vd), com uso de metodologias como CRASH3.\nIII. O critério 'Correspondência' refere-se à compatibilidade entre as avarias de dois veículos que colidiram, confirmando que aqueles veículos colidiram entre si.\nIV. O critério 'Recentidade' avalia presença ou ausência de ferrugem, oxidação e poeira nas bordas das avarias, distinguindo se a avaria é do acidente em questão ou pré-existente.\nV. O critério 'Tipo' inclui amassamento, dilaceramento, empenamento, arrancamento, estampamento, sanfonamento, mossa e quebramento.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, III e V.",
+      "B": "Apenas II, IV e V.",
+      "C": "Apenas I, II, III e IV.",
+      "D": "I, II, III, IV e V."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todos os itens correspondem literalmente à Tabela 10 do PVAT - Módulo II, que descreve os critérios de Localização, Tipo, Intensidade, Orientação, Correspondência e Recentidade na análise das avarias.",
+    "referencia": "Cap. 6, Seção 6.4.2, Tabela 10, p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 785,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise dos sistemas de segurança e condições mecânicas dos veículos, descrita no PVAT - Módulo II, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Em caminhões e ônibus, o tacógrafo/registrador de dados pode ser lido para reconstituição de velocidade e tempo.",
+      "B": "O estado dos sistemas ativos de segurança somente pode atenuar a gravidade das lesões, jamais sendo causa do acidente.",
+      "C": "O teste estático simples do pedal de freio é vedado pelo manual pericial, devendo a análise ocorrer apenas com bancada laboratorial.",
+      "D": "A análise de pneus deve restringir-se à banda de rodagem, sendo dispensáveis a calibragem e o desgaste irregular."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'Tacógrafo/registrador de dados: leitura para reconstituição de velocidade e tempo (em caminhões e ônibus)'. O sistema pode ser 'tanto causa do acidente (falha mecânica) quanto atenuante'. Quanto aos freios, o texto admite 'um teste estático simples'.",
+    "referencia": "Cap. 6, Seção 6.4.3, p. 45",
+    "nivel": "medio"
+  },
+  {
+    "id": 789,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em colisão frontal ocorrida em rodovia, o perito encontra grande quantidade de fragmentos de para-brisas (vidro laminado com fragmentos de fita longa), lascas de plástico de grade frontal, terra que estava aderida sob para-lamas e manchas de fluido no asfalto. Conforme o PVAT - Módulo II, qual a importância pericial desse conjunto de fragmentos?",
+    "alternativas": {
+      "A": "Servem apenas como indicativo da gravidade do acidente, sem qualquer relação com a localização do sítio de colisão, pois os fragmentos costumam ser arremessados a distâncias grandes e totalmente imprevisíveis no cenário do acidente.",
+      "B": "Os fragmentos de vidro temperado (cúbicos) provêm sempre do para-brisas, enquanto os fragmentos em fita longa provêm dos vidros laterais e traseiros.",
+      "C": "Devem ser desconsiderados em colisões frontais, pois nesse tipo de impacto os fragmentos se distribuem aleatoriamente em todo o cenário.",
+      "D": "São vestígios de extremo valor para o sítio de colisão: de massa pequena e baixa velocidade de projeção, depositam-se próximos ao ponto de impacto; a sobreposição de fragmentos dos dois veículos indica o sítio."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma: 'Os fragmentos desprendidos no momento da colisão são vestígios de extremo valor para a determinação do sítio de colisão, pois tendem a se depositar próximos ao ponto de impacto por terem massa pequena e velocidade de projeção comparativamente baixa' e 'A sobreposição de fragmentos de dois veículos em uma mesma área é forte indicação do sítio de colisão'. O para-brisas é laminado (fita longa) e os vidros laterais e traseiros são temperados (cúbicos).",
+    "referencia": "Cap. 6, Seção 6.5.1 Fragmentos, p. 47",
+    "nivel": "medio"
+  },
+  {
+    "id": 791,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre cadáveres, vítimas, sangue e fluidos como vestígios no sítio do acidente, conforme o PVAT - Módulo II, julgue os itens:\n\nI. Em atropelamentos, a posição do cadáver, as lesões encontradas no exame perinecroscópico e as vestes da vítima são elementos periciais valiosos.\nII. A assimetria das lesões e a posição de repouso podem indicar o sentido de deslocamento do pedestre (direita para esquerda ou vice-versa).\nIII. A altura do primeiro ponto de impacto no veículo pode ser estimada pela distribuição das lesões.\nIV. A velocidade aproximada pode ser inferida pelo alcance de projeção do corpo atropelado.\nV. Manchas de sangue e fluidos veiculares ajudam a determinar os locais de repouso pós-impacto e a identificar se vazamentos foram instantâneos (impacto) ou crônicos (preexistentes).\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "I, II, III, IV e V.",
+      "B": "Apenas III, IV e V.",
+      "C": "Apenas I, II, IV e V.",
+      "D": "Apenas I, II e III."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens correspondem ao texto: 'Sentido de deslocamento do pedestre (...) pela assimetria das lesões e pela posição de repouso'; 'Altura do primeiro ponto de impacto no veículo (pela distribuição de lesões)'; 'Velocidade aproximada pelo alcance de projeção do corpo atropelado'; e a 'localização e extensão de manchas de sangue e fluidos veiculares podem ajudar a determinar os locais de repouso pós-impacto (...) e a identificar se vazamentos foram instantâneos (impacto) ou crônicos (preexistentes)'.",
+    "referencia": "Cap. 6, Seções 6.5.3 e 6.5.4, p. 48",
+    "nivel": "medio"
+  },
+  {
+    "id": 794,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de colisão lateral entre dois veículos, o perito identifica a 'sede' das avarias e busca extrair, a partir do estudo morfológico dessas deformações, informações sobre a dinâmica do impacto. Conforme o PVAT - Módulo II, assinale a alternativa CORRETA quanto ao que é possível determinar pela análise sistemática das avarias:",
+    "alternativas": {
+      "A": "Os pontos de impacto e a sede das forças, a posição relativa dos veículos no impacto, a direção e o sentido dos vetores de força e a 'velocidade de danos'.",
+      "B": "Apenas o tipo de pavimento da via no momento do impacto.",
+      "C": "A identidade dos condutores e a culpabilidade pelo evento, conclusões que seriam necessariamente extraídas da geometria das avarias e da deformação observada nos veículos.",
+      "D": "Apenas a cor original dos veículos e eventuais repinturas pré-existentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'A análise sistemática das avarias permite determinar: os pontos de impacto e a sede das forças atuantes; a posição relativa dos veículos no momento do impacto; a direção e o sentido dos vetores de força; e a velocidade de danos'.",
+    "referencia": "Cap. 6, Seção 6.4.2, p. 44",
+    "nivel": "medio"
+  },
+  {
+    "id": 795,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 6 - Análise Pericial do Local",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as sulcagens, fricções e a determinação do sítio de colisão (SC), e ainda sobre os métodos de amarração para localização dos vestígios, o PVAT - Módulo II afirma que:\n\nI. Sulcagens são marcas produzidas na pavimentação pelo atrito de partes rígidas do veículo (não os pneus) com o asfalto.\nII. Fricções são marcas mais superficiais, produzidas pelo deslizamento de partes do veículo.\nIII. Quando uma sulcagem começa abruptamente, isso indica o ponto de início do arrasto, podendo confirmar o sítio de colisão.\nIV. A localização dos veículos e dos demais vestígios dentro do Sítio do Acidente (SC) poderá ser realizada com qualquer dos métodos de amarração aprendidos em 'Locais de Crimes', como o 'Método da Triangulação' ou o 'Cartesiano'.\nV. O coeficiente de atrito metal sobre asfalto é estabelecido em μ ≈ 0,40.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, II e III.",
+      "B": "Apenas II, IV e V.",
+      "C": "I, II, III, IV e V.",
+      "D": "Apenas I, III, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens reproduzem o texto. O PVAT define sulcagens e fricções, afirma que 'quando uma sulcagem começa abruptamente, indica o ponto de início do arrasto', adota μ ≈ 0,40 para metal sobre asfalto e a nota sobre amarração indica os métodos da Triangulação e Cartesiano.",
+    "referencia": "Cap. 6, Seções 6.5.2 e 6.5.4 (Nota), p. 47-48",
+    "nivel": "dificil"
+  },
+  {
+    "id": 797,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a reconstituição de um acidente de tráfego, o perito identifica diversos pontos-chave ao longo da trajetória dos veículos envolvidos. Sobre o conceito de sítio na perícia de acidentes de tráfego, conforme o material didático, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Os sítios são pontos meramente teóricos, sem qualquer ligação direta com os vestígios materiais existentes no local, sendo definidos apenas a partir do depoimento prestado pelo condutor envolvido e das eventuais testemunhas presenciais.",
+      "B": "Os sítios são pontos-chave ao longo da trajetória dos veículos, representando momentos cruciais da sequência do acidente; reconstituí-los transforma medições de campo em conclusões periciais.",
+      "C": "A cadeia de sítios inicia-se no Sítio de Colisão e percorre apenas a trajetória pós-impacto, até o repouso final do veículo.",
+      "D": "A cadeia de sítios percorre exclusivamente o trecho entre o Sítio de Reação e o Sítio de Colisão, sendo os demais pontos irrelevantes para a perícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto define: 'Esses pontos são denominados sítios e representam momentos cruciais da sequência de eventos que levaram ao acidente. A reconstituição precisa dos sítios é o passo que transforma medições de campo em conclusões periciais'.",
+    "referencia": "Cap. 7, Seção 7.1, p. 51",
+    "nivel": "facil"
+  },
+  {
+    "id": 799,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 7 - Sítios Periciais e Interpretação dos Vestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma cena de acidente, o perito identifica marcas intermitentes (gap marks) características de sistema ABS no pavimento, próximas ao início da trajetória de frenagem. Sobre o Sítio de Reação (SR) nessas circunstâncias, assinale a CORRETA.",
+    "alternativas": {
+      "A": "Em manobras de desvio sem frenagem, o SR coincide obrigatoriamente com o Sítio de Colisão, pois nesse caso não há qualquer marca física registrada anteriormente ao ponto de impacto.",
+      "B": "Para veículos com ABS, o SR deve ser calculado retroativamente, pois o sistema impede a formação de qualquer vestígio físico identificável.",
+      "C": "O SR é sempre subjetivo, dependendo de uma estimativa mental do tempo de reação, não podendo ser identificado por vestígios materiais.",
+      "D": "Com ABS, o SR fica próximo ao início das marcas intermitentes; em veículos convencionais, ao início das marcas pretas; em desvio sem frenagem, na mudança de trajetória."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme o texto: 'Para veículos com ABS, o sítio de reação corresponde à área próxima ao início das marcas intermitentes. Em manobras de desvio sem frenagem, o sítio de reação pode ser identificado por marcas de derrapagem ou pela mudança de trajetória'.",
+    "referencia": "Cap. 7, Seção 7.3, p. 51-52",
+    "nivel": "medio"
+  },
+  {
+    "id": 805,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "A formulação da causa determinante é o núcleo da conclusão do laudo pericial. Quanto à estrutura recomendada pelo material para o parágrafo descritivo da causa determinante, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Deve incluir obrigatoriamente o nome do juiz competente para julgar a causa e a tipificação penal já proposta pelo perito criminal federal responsável pelo exame.",
+      "B": "Deve conter exclusivamente o relato narrativo do que o condutor afirmou em depoimento, sem necessidade de vinculação com vestígios.",
+      "C": "Deve conter, em regra: o sujeito (condutor identificado), o verbo (ação/omissão ilegal), a norma do CTB violada e o resultado (colisão, capotamento, atropelamento).",
+      "D": "Deve prescindir da indicação da norma do CTB violada, pois essa atribuição é exclusiva do Ministério Público."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme texto: 'A estrutura do parágrafo do laudo descrevendo a causa determinante deve, em regra, conter: o sujeito (o condutor do veículo identificado); o verbo (a ação ou omissão ilegal); a norma violada (a regra do CTB infringida); e o resultado'.",
+    "referencia": "Cap. 8, Seção 8.1, p. 55",
+    "nivel": "facil"
+  },
+  {
+    "id": 807,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma saída de pista em curva sem indicação de frenagem, o perito investiga a possibilidade de ausência de reação. Quais verificações o material indica como necessárias para essa hipótese?",
+    "alternativas": {
+      "A": "Verificar se a placa do veículo é compatível com o cadastro do Denatran e se há transferência de tinta no obstáculo atingido pelo veículo durante a sua saída da pista de rolamento.",
+      "B": "Verificar exclusivamente a calibração do tacógrafo e o disco-diagrama do veículo no momento do acidente.",
+      "C": "Verificar a sinalização da curva, a visibilidade, indícios de sonolência (ausência total de marcas, mesmo pós-saída) e se a velocidade era compatível com o raio da curva.",
+      "D": "Verificar somente o tempo de permanência do condutor no veículo e a duração da viagem prévia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Texto: 'Deve-se verificar se havia sinalização adequada para a curva, se a visibilidade era suficiente, se há indicativos de sonolência (ausência total de marcas, inclusive pós-saída da pista) e se a velocidade era compatível com o raio da curva'.",
+    "referencia": "Cap. 8, Seção 8.2.2, p. 55",
+    "nivel": "medio"
+  },
+  {
+    "id": 808,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre velocidade excessiva e velocidade inadequada como causas determinantes, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A velocidade excessiva (causa única) ocorre quando o veículo ultrapassa o limite e se demonstra que, na velocidade regulamentar, o acidente não aconteceria; a inadequada, quando não ultrapassa o limite, mas é incompatível com as condições do momento.",
+      "B": "A velocidade excessiva aplica-se apenas e tão somente às vias urbanas dotadas de sinalização, ao passo que a velocidade inadequada aplica-se exclusivamente às rodovias federais e estaduais, conforme a respectiva classificação viária estabelecida pelo CTB.",
+      "C": "Velocidade excessiva e velocidade inadequada são sinônimos, ambas aplicáveis sempre que o veículo ultrapasse o limite da via.",
+      "D": "Ambas só se aplicam quando o perito também demonstra a alcoolemia do condutor, sem o que a causa não pode ser apontada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Texto: 'A velocidade excessiva como causa determinante única aplica-se quando: (a) o veículo ultrapassava o limite (...) (b) ficou demonstrado que, na velocidade regulamentar, o acidente não teria ocorrido (...) A velocidade inadequada (...) aplica-se quando o veículo não ultrapassava o limite absoluto, mas desenvolvia velocidade incompatível com as condições do momento'.",
+    "referencia": "Cap. 8, Seção 8.3, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 809,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em interceptação por mudança de faixa irregular, o perito deve apoiar a conclusão em vestígios materiais. Quais são esses vestígios típicos, segundo o material?",
+    "alternativas": {
+      "A": "Exclusivamente a leitura do disco-diagrama do tacógrafo, sem necessidade de outras evidências.",
+      "B": "Marcas de frenagem do tipo gap-skid em ambos os veículos envolvidos e fragmentos de vidro e plástico centralizados sobre a faixa de domínio da pista preferencial.",
+      "C": "Apenas o depoimento das testemunhas presentes, dispensando-se análise dos vestígios físicos.",
+      "D": "Marcas de derrapagem iniciando em uma faixa e estendendo-se para outra, avarias laterais correspondentes e fragmentos na região de impacto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Texto: 'O perito deve identificar as marcas de derrapagem, iniciando em uma faixa e estendendo-se para outra, as avarias laterais correspondentes e os fragmentos na região de impacto'.",
+    "referencia": "Cap. 8, Seção 8.4.1, p. 56",
+    "nivel": "medio"
+  },
+  {
+    "id": 810,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 8 - Causas Determinantes dos Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em interceptação ocorrida em cruzamento, quando há entrada irregular em via preferencial, o perito deve seguir uma sequência analítica. Assinale a alternativa que apresenta CORRETAMENTE as verificações necessárias.",
+    "alternativas": {
+      "A": "Identificar exclusivamente a placa do veículo evasor e correlacionar com o cadastro do Denatran.",
+      "B": "Identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (posição das avarias, SC e trajetórias) e verificar a sinalização.",
+      "C": "Calcular apenas a velocidade de impacto do veículo preferencial, sem necessidade de verificar a sinalização.",
+      "D": "Determinar desde logo a culpa jurídica do condutor que ingressou na via preferencial, indicando inclusive a tipificação penal aplicável ao caso concreto no laudo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Texto: 'O perito deve identificar qual veículo tinha preferência, demonstrar que o outro não a respeitou (pela análise da posição das avarias, do sítio de colisão e das trajetórias) e verificar se havia sinalização adequada'.",
+    "referencia": "Cap. 8, Seção 8.4.2, p. 56-57",
+    "nivel": "medio"
+  },
+  {
+    "id": 815,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em perícia de acidente envolvendo caminhão, o material destaca particularidades dos veículos pesados. Considere os itens a seguir:\n\nI. Centro de gravidade mais alto, com maior propensão a tombamento em curvas e manobras bruscas.\nII. Distância de frenagem maior, devido à massa (sobretudo à posição do centro de massa do conjunto) e às diferenças nos sistemas de freios.\nIII. Estruturas mais rígidas produzem deformação diferenciada nas avarias do veículo menor na colisão.\nIV. Existência de ângulos mortos, relevantes em atropelamentos e colisões.\nV. O tacógrafo é obrigatório em caminhões e ônibus, conforme art. 105, II, do CTB.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Todos os itens estão corretos.",
+      "B": "Apenas os itens II, III e IV estão corretos.",
+      "C": "Apenas I, III e V.",
+      "D": "Apenas I, II e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens reproduzem o texto da seção 9.2.1, que lista exatamente: centro de gravidade alto, maior distância de frenagem, deformação diferenciada, ângulo morto e tacógrafo obrigatório (art. 105, II, CTB).",
+    "referencia": "Cap. 9, Seção 9.2.1, p. 59-60",
+    "nivel": "dificil"
+  },
+  {
+    "id": 816,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à leitura pericial do tacógrafo de um veículo pesado envolvido em acidente, assinale a alternativa que apresenta procedimento CORRETO recomendado pelo material.",
+    "alternativas": {
+      "A": "Apreender o disco em uso no acidente, verificar a calibração do tacógrafo, identificar a hora e correlacioná-la com o registro de velocidade, e comparar com as marcas físicas de frenagem (validação cruzada).",
+      "B": "Basta confiar no relato do próprio motorista quanto à velocidade desenvolvida, sem necessidade de apreensão física do disco-diagrama ou de qualquer verificação da calibração do aparelho tacógrafo instalado no veículo pesado.",
+      "C": "A leitura do disco-diagrama é definitiva e dispensa qualquer cruzamento com as marcas físicas de frenagem.",
+      "D": "O tacógrafo é dispositivo opcional em veículos pesados, sendo seu uso apenas recomendado pelas montadoras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Texto: 'O perito deve: Apreender o disco em uso no momento do acidente; Verificar a calibração do tacógrafo (certificado de calibração); Identificar a hora do acidente e correlacionar com o registro de velocidade; Comparar com as marcas físicas de frenagem para validação cruzada'.",
+    "referencia": "Cap. 9, Seção 9.2.2, p. 60",
+    "nivel": "medio"
+  },
+  {
+    "id": 820,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 9 - Casos Especiais na Perícia de Acidentes",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em acidentes com fuga (hit-and-run), o perito deve adotar procedimentos específicos para coletar evidências do veículo evasor. Considere os itens:\n\nI. Coletar todos os fragmentos de tinta, plástico e vidro do veículo ausente.\nII. Analisar a transferência de tinta nas avarias do veículo atingido.\nIII. Registrar o padrão de fragmentos para identificar marca, modelo e ano aproximado do veículo evasor.\nIV. Solicitar análise cromática e espectroscópica da tinta para confronto com o veículo suspeito.\nV. A base de dados do Denatran/Senatran, combinada com catálogos de fragmentos de faróis e sinaleiras, permite em muitos casos restringir significativamente o universo de veículos suspeitos.\n\nEstão CORRETAS:",
+    "alternativas": {
+      "A": "Apenas I e II.",
+      "B": "Apenas os itens I, III e V.",
+      "C": "Todas as afirmativas.",
+      "D": "Apenas II, IV e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens reproduzem fielmente as recomendações da seção 9.6: coleta de fragmentos, transferência de tinta, padrão de fragmentos, análise cromática/espectroscópica e uso do banco de dados Denatran/Senatran.",
+    "referencia": "Cap. 9, Seção 9.6, p. 62",
+    "nivel": "dificil"
+  },
+  {
+    "id": 821,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A estrutura recomendada pelo INC/PF para laudos de acidentes de tráfego contém nove partes. Sobre essa estrutura, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Compreende, nesta ordem: Cabeçalho, Decisão, Sentença, Recurso, Croqui, Fotos, Memorial, Despacho, Apelação e o Trânsito em Julgado da respectiva ação penal de trânsito investigada pela autoridade.",
+      "B": "Compreende apenas a Identificação, o Histórico e a Conclusão, dispensadas as demais partes em laudos de tráfego.",
+      "C": "Inclui obrigatoriamente o Parecer Jurídico da Autoridade Requisitante como sétima parte.",
+      "D": "Compreende: Identificação; Histórico; Objetivo; Material examinado; Descrição do local e dos veículos; Análise e fundamentação técnica; Conclusão; e Croqui e fotografias."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto enumera exatamente as nove partes: Identificação, Histórico, Objetivo, Material examinado, Descrição do local, Descrição dos veículos, Análise e fundamentação técnica, Conclusão e Croqui e fotografias.",
+    "referencia": "Cap. 10, Seção 10.1, p. 63",
+    "nivel": "facil"
+  },
+  {
+    "id": 825,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a modernização tecnológica na documentação pericial (Tabela 14), considere os itens a seguir:\n\nI. O Scanner 3D a laser (FARO Focus) realiza levantamento tridimensional do local e dos veículos, com precisão milimétrica, mas tem custo elevado e tempo de processamento.\nII. A fotogrametria por drone permite mapeamento aéreo com modelagem 3D; é rápida e de baixo custo por uso, mas requer habilitação ANAC e é sensível ao vento.\nIII. Softwares PC-Crash/HVE permitem simulação dinâmica do acidente, com validação de hipóteses, mas requerem treinamento especializado e licenciamento.\nIV. O EDR (Event Data Recorder) fornece dados precisos de velocidade, freio e cinto, embora nem todos os veículos disponham dele e o acesso possa ser restrito.\nV. A plataforma eCrash é uma plataforma nacional para cálculos relacionados a acidentes de tráfego utilizando modelos estatísticos.\n\nEstão CORRETAS:",
+    "alternativas": {
+      "A": "Apenas os itens I, II e III estão corretos.",
+      "B": "Apenas II, IV e V.",
+      "C": "Todos os itens estão corretos.",
+      "D": "Apenas I, III e V."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens reproduzem a Tabela 14 do material: Scanner 3D FARO Focus, fotogrametria por drone com ANAC, PC-Crash/HVE, EDR e plataforma eCrash com modelos estatísticos.",
+    "referencia": "Cap. 10, Seção 10.4, Tabela 14, p. 65",
+    "nivel": "dificil"
+  },
+  {
+    "id": 827,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 10 - Documentação Pericial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em revisão de laudos periciais em acidentes de tráfego, são identificados erros recorrentes na formulação da conclusão. Considere os itens:\n\nI. Concluir sobre culpa ou responsabilidade jurídica (função exclusiva do juiz).\nII. Apontar causa determinante sem embasamento em vestígios materiais (conclusão baseada em depoimentos).\nIII. Usar linguagem vaga, como 'o veículo estava em alta velocidade', sem calcular a velocidade.\nIV. Confundir Sítio de Colisão com sítio de impacto no veículo.\nV. Apresentar a velocidade como valor exato sem mencionar o intervalo de incerteza.\n\nQuais desses itens são considerados ERROS comuns na conclusão pericial, conforme o material?",
+    "alternativas": {
+      "A": "Todos os itens são erros comuns citados.",
+      "B": "Apenas os itens II, IV e V estão corretos.",
+      "C": "Apenas I, III e IV.",
+      "D": "Apenas I e III."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens constam expressamente da lista de erros comuns na seção 10.5: concluir sobre culpa, basear em depoimentos, linguagem vaga, confundir SC com sítio de impacto e apresentar velocidade exata sem incerteza.",
+    "referencia": "Cap. 10, Seção 10.5, p. 66",
+    "nivel": "medio"
+  },
+  {
+    "id": 836,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o número de simulações necessário no MMC pericial, julgue os itens a seguir conforme a Seção 11.5:\n\nI. Para n ≥ 1.000, a média converge com precisão suficiente para laudos periciais (variação < 0,5 km/h).\nII. Para n ≥ 5.000, o desvio padrão e os percentis P5/P95 convergem adequadamente.\nIII. Para n ≥ 10.000, há convergência excelente para todos os estimadores, incluindo percentis extremos (P1, P99).\nIV. Para n > 100.000, o ganho marginal é mínimo, sendo desnecessário para aplicações periciais rotineiras.\nV. O valor padrão recomendado é n = 10.000, podendo subir para n = 50.000 quando se necessita de percentis extremos ou quando a distribuição é assimétrica.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas os itens I, II e V estão corretos.",
+      "B": "Todos os itens estão corretos.",
+      "C": "Apenas I, III e V.",
+      "D": "Apenas II, III e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Todos os itens reproduzem fielmente o conteúdo da Seção 11.5, que enumera as convergências por faixa de n e estabelece 'n = 10.000 simulações como valor padrão (...) aumentando para n = 50.000 quando se necessita de percentis extremos (P1, P99) ou quando a distribuição do resultado é assimétrica.'",
+    "referencia": "Cap. 11, Seção 11.5, p. 76",
+    "nivel": "dificil"
+  },
+  {
+    "id": 837,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise de sensibilidade no MMC pericial e o uso do Tornado Chart, conforme a Seção 11.6, julgue os itens:\n\nI. A análise de sensibilidade quantifica a contribuição de cada parâmetro de entrada para a incerteza total do resultado.\nII. No método de Tornado Chart, varia-se cada parâmetro individualmente entre seu P10 e P90, mantendo os demais em seus valores médios.\nIII. O gráfico revela que distância de frenagem e coeficiente de atrito são os parâmetros que mais influenciam a incerteza na velocidade.\nIV. Realizar ensaios dinâmicos de frenagem no local para determinar μ com maior precisão é o investimento mais eficaz na qualidade da estimativa.\nV. Medir a distância de frenagem com maior precisão (trena de aço, múltiplas medições) reduz significativamente a incerteza.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, III e V.",
+      "B": "Todos os itens.",
+      "C": "Apenas II, IV e V.",
+      "D": "Apenas I, II e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Todos os itens estão presentes no texto da Seção 11.6, que descreve a função do Tornado Chart, a variação P10-P90 dos parâmetros, a dominância de 'distância de frenagem e coeficiente de atrito' como parâmetros mais influentes e indica que 'Realizar ensaios dinâmicos de frenagem no local (...) é o investimento mais eficaz na qualidade da estimativa.'",
+    "referencia": "Cap. 11, Seção 11.6, p. 76-77",
+    "nivel": "dificil"
+  },
+  {
+    "id": 841,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a apresentação dos resultados do MMC no laudo pericial, conforme a Seção 11.11, julgue os itens:\n\nI. A velocidade deve ser apresentada como intervalo, e não como valor único, ex.: 'Velocidade estimada: 65 a 80 km/h (90% de confiança), com valor central de 72 km/h'.\nII. Recomenda-se incluir histograma da distribuição de velocidade no laudo (anexo ou incorporado no texto).\nIII. Deve-se indicar a probabilidade de que a velocidade superava determinado limite, ex.: 'A probabilidade de que o veículo desenvolvesse velocidade superior a 60 km/h é estimada em 92%'.\nIV. Deve-se tabular os parâmetros utilizados, suas distribuições e justificativas.\nV. Deve-se mencionar o número de simulações realizadas e o software ou ferramenta utilizada.\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Apenas I, II e V.",
+      "B": "Apenas II, III e IV.",
+      "C": "Apenas os itens I, III, IV e V estão corretos.",
+      "D": "Todos os itens estão corretos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todos os itens reproduzem as cinco práticas recomendadas listadas na Seção 11.11 para apresentação dos resultados do MMC no laudo pericial.",
+    "referencia": "Cap. 11, Seção 11.11, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 844,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Tabela 17 (BARTLETT et al., 2002) que resume os tipos de distribuições probabilísticas para variáveis comuns em perícia de acidentes, julgue os itens:\n\nI. Para coeficiente de atrito estimado por tabela (sem evidência de centralidade), recomenda-se distribuição Uniforme.\nII. Para o raio de yawmark (marca de guinada/derrapagem lateral), recomenda-se distribuição Normal com σ ≈ 4,6% da média.\nIII. Para ângulos em campo, recomenda-se distribuição Normal com σ ≈ 0,56°.\nIV. Para TPR em condição complexa, recomenda-se distribuição log-normal, devido à assimetria à direita e ao limite inferior físico.\nV. Para Crush (deformação residual) usando o método CRASH3, recomenda-se distribuição Normal com σ elevado (~12,7 cm).\n\nEstão CORRETOS:",
+    "alternativas": {
+      "A": "Todos os itens estão corretos.",
+      "B": "Apenas os itens II, IV e V estão corretos.",
+      "C": "Apenas I, II, III e IV.",
+      "D": "Apenas I, III e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Todos os itens reproduzem fielmente o conteúdo da Tabela 17 do capítulo, baseada em BARTLETT et al., 2002, SAE 2002-01-0546.",
+    "referencia": "Cap. 11, Seção 11.3.4, Tabela 17, p. 72-73",
+    "nivel": "dificil"
+  },
+  {
+    "id": 849,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A formulação matemática apresentada na Seção 11.2.2 expressa a velocidade estimada em um acidente como função de vários parâmetros com incerteza, com a forma V = f(d, μ, α, Tp, ...) = 15,946·√(d × μ'). Sobre a aplicação probabilística desta função no MMC, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Se d e μ são variáveis determinísticas, V também o será, razão pela qual o Método de Monte Carlo é, nesse caso, totalmente inaplicável a essa forma funcional da equação de velocidade.",
+      "B": "Se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), V também é aleatória com P(V); o MMC determina P(V) sorteando n pares (di, μi) e calculando Vi = f(di, μi).",
+      "C": "O MMC exige que a função f seja sempre linear, sendo incompatível com a raiz quadrada presente na fórmula apresentada.",
+      "D": "A distribuição empírica dos Vi serve apenas como aproximação visual, sem caráter estatístico estimador de P(V)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto afirma: 'Se d e μ são variáveis aleatórias com distribuições P(d) e P(μ), então V também é uma variável aleatória com distribuição P(V). O MMC determina P(V) experimentalmente: gera-se um grande número n de pares (di, μi) (...) e a distribuição empírica dos Vi é a estimativa de P(V).'",
+    "referencia": "Cap. 11, Seção 11.2.2, p. 68",
+    "nivel": "dificil"
+  },
+  {
+    "id": 852,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as considerações de correlação entre parâmetros descritas na Seção 11.9, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Em geral os parâmetros são tratados como independentes (razoável para asfalto normal); havendo suspeita de forte correlação (superfície muito heterogênea), métodos como a cópula de Pearson podem ser incorporados ao MMC.",
+      "B": "Em absolutamente todas as aplicações periciais, os parâmetros de entrada devem obrigatoriamente ser tratados como fortemente correlacionados entre si, sob pena de invalidação completa do resultado final da simulação de Monte Carlo.",
+      "C": "Correlações entre parâmetros são proibidas pela literatura, sendo considerado erro grave de método.",
+      "D": "A independência entre parâmetros sempre subestima a incerteza total."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma: 'Na maioria das aplicações periciais, os parâmetros são tratados como independentes, o que é uma simplificação razoável para pistas de asfalto em condições normais. Quando há razões para suspeitar de forte correlação (...) métodos de correlação (como a cópula de Pearson) podem ser incorporados ao MMC.'",
+    "referencia": "Cap. 11, Seção 11.9, p. 78",
+    "nivel": "medio"
+  },
+  {
+    "id": 853,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a aplicação avançada do MMC para Timing de Colisão (análise temporal), descrita na Seção 11.13.2, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "O Método de Monte Carlo não pode, em hipótese alguma, ser aplicado à análise temporal de eventos de trânsito, ficando restrito tão somente ao cálculo das velocidades dos veículos envolvidos no acidente periciado.",
+      "B": "O timing de colisão é calculado exclusivamente por métodos determinísticos clássicos, sendo o MMC obsoleto para esse fim.",
+      "C": "Além de velocidades, o MMC determina probabilisticamente o timing dos eventos (quando cada veículo ocupou o sítio de colisão), verificando relatos e reconstruindo a sequência com intervalos de confiança.",
+      "D": "A análise temporal pelo MMC exige obrigatoriamente uso de cópulas de Cholesky para qualquer caso prático."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Seção 11.13.2 afirma: 'Além de calcular velocidades, o MMC pode ser aplicado para determinar probabilisticamente o timing dos eventos: em que momento exato cada veículo ocupou o sítio de colisão? Essa análise permite verificar a consistência de relatos de testemunhas e reconstruir a sequência de eventos com intervalos de confiança temporais.'",
+    "referencia": "Cap. 11, Seção 11.13.2, p. 81",
+    "nivel": "medio"
+  },
+  {
+    "id": 857,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o uso da distribuição Uniforme U(a, b) na Tabela 15 do capítulo, identifique a situação típica e o uso pericial correto:",
+    "alternativas": {
+      "A": "É usada para variáveis cujo valor central é altamente provável, tendo como parâmetros a média (μ) e o desvio padrão (σ) da grandeza física analisada no exame pericial do acidente.",
+      "B": "É usada apenas para tempos de percepção-reação em estímulos esperados simples.",
+      "C": "É usada quando há total incerteza, com qualquer valor do intervalo igualmente plausível; parâmetros mínimo a e máximo b; ex.: velocidade de danos quando só se sabe estar entre 15 e 35 km/h.",
+      "D": "É usada apenas para variáveis limitadas no intervalo [0;1] com formas flexíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme a Tabela 15, a distribuição Uniforme U(a,b) é usada em 'Total incerteza; qualquer valor no intervalo igualmente plausível', com parâmetros 'Mínimo a; máximo b', e tem como exemplo pericial 'Velocidade de danos quando só se sabe que está entre 15 e 35 km/h'.",
+    "referencia": "Cap. 11, Seção 11.3, Tabela 15, p. 70",
+    "nivel": "medio"
+  },
+  {
+    "id": 861,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em laudo pericial estruturado conforme o modelo de texto sugerido na Seção 11.11.1, o perito deve mencionar, entre outros pontos, o número de simulações, as distribuições de incerteza dos parâmetros e o software utilizado. Sobre o uso de Microsoft Excel descrito no modelo de redação, qual a recomendação específica apresentada?",
+    "alternativas": {
+      "A": "O Excel não é aceito como ferramenta para MMC pericial; apenas Python é válido.",
+      "B": "O modelo proíbe expressamente a citação do software empregado, restringindo o conteúdo do laudo pericial à descrição da metodologia em termos puramente abstratos.",
+      "C": "O Excel deve ser usado apenas para tabelas, sendo proibido para sorteios aleatórios.",
+      "D": "Os cálculos foram feitos no Microsoft Excel, e a planilha utilizada está disponível para auditoria no Sistema Nacional de Criminalística."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O modelo de texto da Seção 11.11.1 afirma: 'Os cálculos foram realizados com o software Microsoft Excel, e a planilha utilizada encontra-se disponível para auditoria no Sistema Nacional de Criminalística.'",
+    "referencia": "Cap. 11, Seção 11.11.1, p. 79",
+    "nivel": "medio"
+  },
+  {
+    "id": 863,
+    "disciplina": "PVAT - Módulo II (Acidentes de Tráfego)",
+    "conteudo": "Cap. 11 - Método de Monte Carlo Aplicado à Perícia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em análise avançada de MMC com correlação de parâmetros (Seção 11.13.1), o capítulo cita técnicas matemáticas específicas que podem ser incorporadas ao método quando há correlação conhecida entre parâmetros. Quais são as técnicas mencionadas?",
+    "alternativas": {
+      "A": "Apenas redes neurais convolucionais profundas e técnicas de aprendizado de máquina supervisionado.",
+      "B": "Apenas regressão linear simples por mínimos quadrados.",
+      "C": "Apenas análise fatorial de componentes principais (PCA).",
+      "D": "Matrizes de correlação e transformação de Cholesky, ou cópulas de dependência."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Seção 11.13.1 afirma: 'Quando existe correlação conhecida entre parâmetros, pode-se incorporá-la ao MMC usando matrizes de correlação e transformação de Cholesky, ou usando cópulas de dependência.'",
+    "referencia": "Cap. 11, Seção 11.13.1, p. 80-81",
+    "nivel": "dificil"
+  }
+]
