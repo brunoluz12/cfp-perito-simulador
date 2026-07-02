@@ -6,7 +6,8 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '../../..');
 const BANK = path.join(ROOT, 'banco_questoes.js');
-const SRC = path.join(__dirname, 'questions.json');
+const fileArg = process.argv.find(a => a.endsWith('.json'));
+const SRC = path.join(__dirname, fileArg || 'questions.json');
 const DISCIPLINA = 'Informática Forense';
 
 function loadBank() {

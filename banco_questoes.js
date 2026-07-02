@@ -34464,5 +34464,1059 @@ const questoesDB = [
     "justificativa": "Selecionados poucos arquivos (planilhas, documentos, e-mails), eles podem ser incorporados ao corpo do laudo, dispensando a mídia anexa (B). O 'Histórico' é opcional; executáveis, áudio e vídeo não são transcritos no corpo, mas encaminhados em anexo no formato original; e as considerações técnicas são apresentadas em apêndices.",
     "referencia": "Cap. 8, introdução",
     "nivel": "medio"
+  },
+  {
+    "id": 2346,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da Convenção de Budapeste sobre o cibercrime, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Foi publicada pelo Conselho da Europa, em 2001, e o Brasil a ela aderiu em 2023.",
+      "B": "Foi editada pela ONU, em 2001, sem que o Brasil tenha, até 2026, formalizado adesão.",
+      "C": "Restringe seus efeitos aos países-membros da União Europeia, sem alcance para outros continentes.",
+      "D": "Tem por finalidade unificar as penas dos crimes cibernéticos em um código penal internacional único."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Convenção de Budapeste foi publicada pelo Conselho da Europa, em 2001; o Brasil aderiu em 2023 e mais de 80 países já a assinaram (A). Seu objetivo é aprimorar o enfrentamento ao cibercrime com melhorias de legislação e cooperação internacional — não unificar penas nem se restringir à UE.",
+    "referencia": "Cap. 1, Seção 1.1",
+    "nivel": "medio"
+  },
+  {
+    "id": 2347,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a definição e a origem da Informática Forense, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Consolidou-se antes da popularização dos computadores, ainda na primeira metade do século XX, conforme prevê o material didático da disciplina.",
+      "B": "É uma das mais jovens Ciências Forenses, surgida após a década de 1960 e com destaque a partir de meados da década de 1990.",
+      "C": "Ocupa-se exclusivamente da recuperação de arquivos apagados em discos rígidos.",
+      "D": "Distingue-se por dispensar os conceitos da Criminalística, como a cadeia de custódia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Informática Forense é uma das mais jovens Ciências Forenses, surgida após a década de 1960 e em destaque a partir de meados dos anos 1990 (B). Ela trata de coleta, preservação, análise e apresentação de evidências e aplica conceitos da Criminalística — não os dispensa nem se limita a arquivos apagados.",
+    "referencia": "Cap. 1, Seção 1.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2348,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o que distingue a Informática Forense das demais áreas da informática, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A preocupação jurídica inerente à destinação dos exames.",
+      "B": "A aplicação de conceitos da Criminalística, como a cadeia de custódia e a preservação do local de crime.",
+      "C": "A dispensa de ferramentas especializadas, bastando os aplicativos comuns de usuário para acessar os dados.",
+      "D": "A realização de procedimentos sólidos que não suscitem dúvidas ou questionamentos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Informática Forense exige equipamentos e aplicativos forenses especializados, capazes de acessar dados não diretamente disponíveis; logo (C) é a incorreta. As demais descrevem corretamente seus traços distintivos.",
+    "referencia": "Cap. 1, Seção 1.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2349,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estação de trabalho (estação pericial) do perito de informática, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Deve ter o acesso ao seu interior e ao sistema operacional restrito, por questão de segurança, segundo a metodologia pericial usualmente adotada.",
+      "B": "Prescinde de proteção contra interrupções de energia, por operar sobre dados já duplicados.",
+      "C": "Dispensa licenças de software, por se tratar de uso institucional em investigação.",
+      "D": "Deve dispor de interfaces para variados padrões, capacidade compatível com os exames e licenças de uso válidas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A estação pericial deve ter acesso irrestrito ao seu interior e ao SO, proteção contra interrupções de energia, interfaces variadas, capacidade compatível e licenças válidas (D). As demais negam requisitos expressos do material.",
+    "referencia": "Cap. 1, Seção 1.2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2350,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao tipo de material examinado na Informática Forense, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Entre os que mais se destacam, dividem-se em mídias de armazenamento, dispositivos computacionais portáteis e redes de computadores.",
+      "B": "Restringem-se a discos rígidos e SSDs, excluídos os dispositivos móveis.",
+      "C": "Arquivos armazenados na nuvem não se enquadram em exame de informática, por estarem fisicamente fora do país, de acordo com as práticas recomendadas na área.",
+      "D": "Os dispositivos portáteis perderam relevância pericial com o avanço dos desktops."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os materiais que mais se destacam são mídias de armazenamento, dispositivos portáteis e redes de computadores (A). Os portáteis, ao contrário, ganharam grande importância, e os dados na nuvem integram os exames de redes.",
+    "referencia": "Cap. 1, Seção 1.2.3",
+    "nivel": "medio"
+  },
+  {
+    "id": 2351,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os exames de informática quanto ao objetivo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A extração de dados destina-se a manter os dados em formato ilegível a terceiros, por segurança, como se observa na rotina da unidade de criminalística.",
+      "B": "A análise de sistemas costuma ser realizada por engenharia reversa ou análise comportamental, como no exame de aplicativos maliciosos.",
+      "C": "A análise de registros (logs) não permite determinar a última utilização de um computador.",
+      "D": "A análise de registros e a de sistemas são sinônimas, distinguindo-se apenas pelo material."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A análise de sistemas é feita, em geral, por engenharia reversa ou análise comportamental (B). A extração visa disponibilizar dados legíveis; a análise de registros permite, sim, determinar a última utilização; e análise de registros e de sistemas são objetivos distintos.",
+    "referencia": "Cap. 1, Seção 1.2.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2352,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a tipificação da invasão de dispositivo informático (art. 154-A do CP), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Exige, em qualquer caso, a efetiva obtenção de vantagem econômica pelo agente.",
+      "B": "Não alcança quem produz ou distribui programa destinado a permitir a invasão.",
+      "C": "Configura-se ainda que o dispositivo não esteja conectado a uma rede de computadores.",
+      "D": "Depende de o agente instalar vulnerabilidades, não bastando obter ou destruir dados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O art. 154-A alcança a invasão de dispositivo 'conectado ou não à rede de computadores' (C). O §1º incrimina quem produz/distribui o programa; o prejuízo econômico é majorante (não elementar); e as condutas de obter, adulterar ou destruir dados são alternativas à instalação de vulnerabilidades.",
+    "referencia": "Cap. 1, Seção 1.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2353,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 1 - Introdução",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os procedimentos periciais e a atuação da Informática Forense, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O ideal é que os peritos participem do planejamento e da coordenação da operação de busca e apreensão.",
+      "B": "A analogia do iceberg indica que boa parte dos dados não está diretamente visível ao usuário comum.",
+      "C": "A produção do laudo costuma gerar mídias anexas, exigindo procedimentos de integridade e autenticidade.",
+      "D": "O papel do perito limita-se à materialidade do crime, sendo-lhe vedado indicar autoria ou modus operandi."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O papel do perito é buscar, coletar e examinar o vestígio, determinando materialidade, autoria e modus operandi; logo (D) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 1, Seções 1 e 1.2.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2354,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a representação de caracteres e a notação hexadecimal, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No padrão ASCII, um caractere é mapeado para um octeto, e cada octeto pode ser representado por dois símbolos hexadecimais.",
+      "B": "Cada caractere ASCII ocupa dois bytes, representados por quatro símbolos hexadecimais.",
+      "C": "A notação hexadecimal usa oito símbolos, correspondentes aos oito bits de um byte.",
+      "D": "O que fica fisicamente gravado no computador são os próprios caracteres, e não os bits que os codificam, nos termos dos normativos técnicos aplicáveis."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No ASCII, cada caractere corresponde a um octeto (8 bits), representável por dois símbolos hexadecimais (A). O hexadecimal tem 16 símbolos; o que se grava são os bits, não os caracteres.",
+    "referencia": "Cap. 2, Seção 2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2355,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a placa-mãe e seus componentes, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A BIOS é a memória volátil que armazena os programas em execução no computador.",
+      "B": "A BIOS é um programa gravado em memória da placa-mãe, que identifica, configura, testa e inicializa os dispositivos.",
+      "C": "Placas de vídeo integradas à placa-mãe são denominadas off-board.",
+      "D": "A placa-mãe não realiza a interface de comunicação com periféricos como teclado e monitor, consoante a doutrina especializada sobre o tema."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A BIOS é um pequeno programa gravado em memória da placa-mãe que identifica, configura, testa e inicializa os dispositivos (B). Placas integradas são chamadas on-board (não off-board), a placa-mãe faz a interface com periféricos, e quem guarda programas em execução é a RAM.",
+    "referencia": "Cap. 2, Seção 2.2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2356,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o processador (CPU), assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "É o dispositivo responsável pelo processamento de dados e por cálculos aritméticos e lógicos.",
+      "B": "Fisicamente, é um chip de silício encaixado na placa-mãe.",
+      "C": "O termo CPU designa o gabinete do computador, onde ficam os componentes internos.",
+      "D": "Opera segundo o modelo de entrada, processamento e saída de dados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A sigla CPU designa o processador, e não o gabinete — a apostila alerta expressamente contra essa confusão; logo (C) é a incorreta. As demais descrevem corretamente o processador.",
+    "referencia": "Cap. 2, Seção 2.2.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2357,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os periféricos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O monitor touch-screen é periférico exclusivamente de saída, conforme prevê o material didático da disciplina.",
+      "B": "O scanner é classificado como periférico de saída.",
+      "C": "O teclado e o mouse são periféricos de saída de dados.",
+      "D": "A interface de rede e a impressora multifuncional são periféricos de entrada e saída."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A interface de rede, o monitor touch-screen e a impressora multifuncional são periféricos de entrada e saída (D). O scanner é de entrada; teclado e mouse são de entrada; e o monitor touch-screen é de entrada e saída, não só de saída.",
+    "referencia": "Cap. 2, Seção 2.2.5",
+    "nivel": "medio"
+  },
+  {
+    "id": 2358,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o sistema operacional, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "FAT32 e NTFS são exemplos de sistemas operacionais amplamente usados em computadores pessoais.",
+      "B": "Gerencia o acesso aos recursos do computador, incluindo memória e dispositivos de entrada e saída.",
+      "C": "É responsável por entender o sistema de arquivos e por fornecer acesso aos dados aos demais programas.",
+      "D": "Android e iOS são exemplos de sistemas operacionais de dispositivos móveis."
+    },
+    "resposta_correta": "A",
+    "justificativa": "FAT32 e NTFS são sistemas de arquivos, não sistemas operacionais; logo (A) é a incorreta. As demais descrevem corretamente as funções e exemplos de sistemas operacionais.",
+    "referencia": "Cap. 2, Seções 2.3 e 2.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2359,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os sistemas de arquivos e sua associação aos sistemas operacionais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "HFS+ é o sistema de arquivos padrão do Windows.",
+      "B": "NTFS é típico do Windows, ao passo que Ext4 é associado ao Linux.",
+      "C": "FAT32 é um sistema de arquivos exclusivo dos sistemas Linux.",
+      "D": "ReiserFS é o sistema de arquivos nativo do OS X."
+    },
+    "resposta_correta": "B",
+    "justificativa": "NTFS é típico do Windows e Ext4, do Linux (B). HFS+ é do OS X (não do Windows); FAT32 é usado também no Windows; e ReiserFS é do Linux, não do OS X.",
+    "referencia": "Cap. 2, Seção 2.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2360,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as funções de hash, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "São determinísticas: a mesma entrada produz sempre a mesma saída.",
+      "B": "São unidirecionais: não é viável obter a entrada a partir do valor de hash.",
+      "C": "Arquivos diferentes produzem, com frequência, o mesmo valor de hash, o que facilita a comparação.",
+      "D": "Produzem uma saída de tamanho fixo, independentemente do tamanho da entrada, segundo a metodologia pericial usualmente adotada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "É probabilisticamente improvável que arquivos diferentes gerem o mesmo hash (resistência a colisões); logo (C) é a incorreta. Determinismo, unidirecionalidade e saída de tamanho fixo estão corretos.",
+    "referencia": "Cap. 2, Seção 2.5",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2361,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a memória secundária, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A memória flash perde os dados quando o dispositivo é desligado.",
+      "B": "Os discos rígidos magnéticos armazenam dados em chips semelhantes aos da memória RAM.",
+      "C": "As mídias óticas possuem, usualmente, maior capacidade que os discos rígidos.",
+      "D": "O SSD emprega memórias flash e tende a ser mais rápido que o disco rígido magnético."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O SSD usa memórias flash e é mais rápido que o HD magnético (D). A memória flash é persistente; discos magnéticos usam discos concêntricos (não chips); e a capacidade usual do HD supera a das mídias óticas.",
+    "referencia": "Cap. 2, Seção 2.2.4",
+    "nivel": "medio"
+  },
+  {
+    "id": 2362,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a busca e apreensão em crimes por computador, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O trabalho divide-se em planejamento, execução da busca, seleção de material relevante e arrecadação, atuando o perito como especialista.",
+      "B": "A função do perito no local é conduzir a investigação e definir as pessoas a serem indiciadas, de acordo com as práticas recomendadas na área.",
+      "C": "A busca em crimes por computador segue rito totalmente distinto do de qualquer outro mandado.",
+      "D": "A seleção de material relevante precede o planejamento da operação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O trabalho divide-se em planejamento, execução, seleção e arrecadação, cabendo ao perito o papel de especialista (A). A busca não difere muito de outros mandados; o perito não conduz a investigação; e o planejamento vem antes da seleção.",
+    "referencia": "Cap. 3, Seções 3 e 3.1",
+    "nivel": "medio"
+  },
+  {
+    "id": 2363,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o planejamento das operações e os crimes próprios, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A participação do perito no planejamento é dispensável, por se tratar de fase meramente administrativa, como se observa na rotina da unidade de criminalística.",
+      "B": "Nos crimes próprios, a apreensão incorreta de computadores criptografados pode inviabilizar o exame pericial posterior.",
+      "C": "Ambientes distintos, como residências e grandes empresas, demandam a mesma estratégia de busca.",
+      "D": "Nos crimes próprios, há sempre abundância de provas alternativas ao vestígio digital."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Nos crimes próprios, a apreensão incorreta de computadores criptografados pode dificultar ou inviabilizar o exame (B). A participação do perito no planejamento é recomendada; ambientes distintos exigem estratégias diferentes; e nesses crimes pode faltar prova alternativa.",
+    "referencia": "Cap. 3, Seção 3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2364,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os normativos aplicáveis à busca e apreensão de vestígios de informática, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A IT 003/2010-GAB/Ditec padroniza os procedimentos do perito no local de busca.",
+      "B": "A IT 018/2013-Ditec/DPF trata da busca e apreensão em casos de abuso sexual contra crianças e adolescentes.",
+      "C": "Tais normativos vedam a participação do perito no planejamento das operações policiais.",
+      "D": "Ambos os normativos passam por processos de revisão e atualização."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O material recomenda a participação do perito no planejamento; não há vedação — logo (C) é a incorreta. As atribuições das ITs 003/2010 e 018/2013 e sua revisão contínua estão corretas.",
+    "referencia": "Cap. 3, Seções 3.1 e 3.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2365,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a execução da busca, quanto ao reconhecimento do local, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Estranhos à equipe podem manipular os equipamentos, desde que acompanhados de um policial.",
+      "B": "Mídias de tamanho reduzido não representam risco de ocultação e podem ser deixadas para o fim.",
+      "C": "O perito deve, como regra, operar livremente os computadores para agilizar o exame no local.",
+      "D": "Pode ser necessário interromper conexões de rede, pois vestígios podem ser apagados remotamente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pode ser necessário interromper conexões de rede, já que vestígios podem ser apagados remotamente (D). Deve-se impedir que estranhos manipulem os equipamentos; mídias pequenas são fáceis de ocultar; e, em regra, o perito não opera os computadores no local.",
+    "referencia": "Cap. 3, Seção 3.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2366,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a seleção do material relevante, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Os suspeitos presentes têm o dever legal de fornecer senhas e detalhes de funcionamento dos sistemas.",
+      "B": "Uma operação bem-sucedida seleciona o que é importante para o caso, e não o maior número de equipamentos.",
+      "C": "Servidores de arquivos e de e-mails, além dos equipamentos da diretoria, merecem atenção especial.",
+      "D": "Uma prova documental impressa do sistema pode, em certos casos, ser mais eficaz que apreender computadores."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Senhas e detalhes podem ser solicitados aos presentes, ainda que suspeitos, mas não há por parte deles obrigação de fornecê-los; logo (A) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 3, Seção 3.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2367,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a apreensão de mídias avulsas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "CDs e DVDs originais de música e de instalação de programas devem ser sempre apreendidos.",
+      "B": "Ao apreender uma mídia pouco usual, deve-se arrecadar também o respectivo dispositivo de leitura, quando possível.",
+      "C": "Dongles e HDs externos conectados ao computador-alvo podem ser desconsiderados na apreensão, nos termos dos normativos técnicos aplicáveis.",
+      "D": "Cartões de memória e chips de celular não são considerados mídias avulsas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Ao apreender mídia pouco usual, deve-se arrecadar também o dispositivo de leitura correspondente, quando possível (B). Deve-se evitar apreender mídias claramente irrelevantes; dongles/HDs externos merecem atenção; e cartões e chips são mídias avulsas.",
+    "referencia": "Cap. 3, Seção 3.3.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2368,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a apreensão de dados por cópia, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "É cabível diante da inviabilidade legal ou técnica de apreender os equipamentos, ou para reduzir o volume arrecadado.",
+      "B": "Deve ser acompanhada, quando possível, por testemunhas do local, como o dono ou os responsáveis.",
+      "C": "Dispensa a supervisão de perito de informática e a disponibilidade de mídias e software adequados.",
+      "D": "Os dados devem ser submetidos a hash, que idealmente consta do Auto de Apreensão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apreensão de dados deve ocorrer, sempre que possível, sob supervisão de perito e com mídias, software e recursos humanos adequados; logo (C) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 3, Seção 3.3.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2369,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a arrecadação e o acondicionamento dos materiais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As etiquetas identificadoras devem ser afixadas sobre a embalagem, e não sobre o equipamento.",
+      "B": "Recomenda-se aproximar as mídias de motores e alto-falantes para testar sua integridade.",
+      "C": "Mídias removíveis de tipos diferentes devem ser reunidas em um só volume, sem separação.",
+      "D": "Discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Discos de um mesmo gabinete são embalados e lacrados em um único volume (D). As etiquetas vão sobre o equipamento; deve-se evitar campos magnéticos (motores/alto-falantes); e mídias removíveis são agrupadas por tipo, cada conjunto lacrado à parte.",
+    "referencia": "Cap. 3, Seção 3.4",
+    "nivel": "medio"
+  },
+  {
+    "id": 2370,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a duplicação forense de mídias, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Também chamada de espelhamento, gera cópia idêntica à original, com valor legal reconhecido e verificável por hash.",
+      "B": "Modifica alguns bits da mídia original para registrar a data e a hora da cópia.",
+      "C": "É sinônimo de cópia lógica, copiando apenas os arquivos visíveis no sistema de arquivos, consoante a doutrina especializada sobre o tema.",
+      "D": "Dispensa a identificação prévia das mídias de origem e de destino."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A duplicação forense (espelhamento) gera cópia idêntica, com valor legal e integridade verificável por hash (A). Ela não modifica nenhum bit da original, difere da cópia lógica (copia tudo) e exige identificar previamente origem e destino.",
+    "referencia": "Cap. 4, introdução",
+    "nivel": "medio"
+  },
+  {
+    "id": 2371,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a duplicação de mídia para mídia, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Dispensa 'zerar' a mídia de destino, por ser feita bit a bit.",
+      "B": "Exige que a mídia de destino seja previamente 'zerada' (zero fill), evitando confusão com dados preexistentes.",
+      "C": "É o método mais indicado para exames periciais, por abrigar diversas origens em um único destino, conforme prevê o material didático da disciplina.",
+      "D": "Impede o uso da cópia gerada em substituição à mídia original."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Na duplicação mídia-para-mídia, o destino deve ser previamente zerado (zero fill/wipe) para não confundir dados preexistentes (B). O método mais indicado para exames é o de arquivo-imagem; e a cópia mídia-para-mídia pode, sim, substituir a original.",
+    "referencia": "Cap. 4, Seção 4.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2372,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o equipamento forense especializado de duplicação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Exige, em regra, que a mídia permaneça instalada no equipamento de origem.",
+      "B": "Não oferece garantia de preservação da mídia original, mesmo quando corretamente utilizado, segundo a metodologia pericial usualmente adotada.",
+      "C": "Emite, ao final, relatório com a identificação das mídias e o hash dos dados copiados, e pode realizar duplicações simultâneas.",
+      "D": "Não pode ser levado a campo, restringindo-se ao ambiente de laboratório."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O equipamento especializado emite relatório com identificação das mídias e hash, e realiza duplicações simultâneas (C). Ele pressupõe retirar a mídia, garante a preservação da original quando bem usado e pode ser levado a campo.",
+    "referencia": "Cap. 4, Seção 4.2.1",
+    "nivel": "medio"
+  },
+  {
+    "id": 2373,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a duplicação com computador comum, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Oferece maior flexibilidade de interfaces e de aplicativos.",
+      "B": "É útil para discos não reconhecidos por equipamentos especializados ou que exijam tratamento de setores defeituosos.",
+      "C": "Recomenda-se distribuição forense do Linux, como CAINE ou Kali, para não alterar as mídias conectadas.",
+      "D": "Elimina a necessidade de bloqueio de escrita, por ser método mais seguro que o equipamento especializado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O computador comum traz justamente o risco de alteração acidental da original, exigindo distribuições forenses ou bloqueio de escrita; logo (D) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 4, Seção 4.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2374,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o bloqueio de escrita na duplicação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O bloqueio físico é um dispositivo de hardware que, colocado entre a mídia e o computador, permite apenas a leitura.",
+      "B": "O bloqueio lógico é um hardware conectado entre a mídia e o computador.",
+      "C": "O bloqueio mecânico é obtido por software que desabilita a escrita em uma interface, de acordo com as práticas recomendadas na área.",
+      "D": "CDs e DVDs graváveis são exemplos de mídias naturalmente protegidas contra escrita."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O bloqueio físico é o hardware entre a mídia e o computador que só permite leitura (A). O bloqueio lógico é por software; o mecânico é uma trava física (não software); e as mídias naturalmente protegidas são as somente leitura, não as graváveis.",
+    "referencia": "Cap. 4, Seção 4.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2375,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a diferença entre duplicação forense e cópia lógica, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A duplicação forense copia do primeiro ao último bit da mídia.",
+      "B": "Uma operação de 'copiar e colar' no explorador de arquivos equivale a uma duplicação forense.",
+      "C": "A duplicação forense inclui metadados e eventuais arquivos apagados.",
+      "D": "A integridade da cópia pode ser verificada pelo hash gerado ao final do procedimento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A duplicação forense difere da cópia lógica ('copiar e colar'), pois copia todo o conteúdo (inclusive metadados e apagados), do primeiro ao último bit; logo (B) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 4, introdução",
+    "nivel": "medio"
+  },
+  {
+    "id": 2376,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a expansão de arquivos-contêiner, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São arquivos criptografados que só podem ser abertos por força bruta, como se observa na rotina da unidade de criminalística.",
+      "B": "São arquivos apagados recuperáveis apenas por data carving.",
+      "C": "São repositórios de outros arquivos (como ZIP, RAR, PST e NSF), cujo conteúdo é aberto e extraído para a etapa seguinte.",
+      "D": "A expansão ocorre na etapa de exame, após a filtragem."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Arquivos-contêiner são repositórios de outros arquivos (ZIP, RAR, PST, NSF), expandidos na etapa de extração para disponibilizar seu conteúdo (C). Não são necessariamente criptografados nem apagados, e a expansão integra a extração, não o exame.",
+    "referencia": "Cap. 5, Seção 5.1.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2377,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a recuperação de arquivos apagados baseada no sistema de arquivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Independe da existência de entradas na tabela do sistema de arquivos.",
+      "B": "Recupera arquivos por meio de assinaturas de tipos conhecidos, ignorando os metadados, nos termos dos normativos técnicos aplicáveis.",
+      "C": "Só é possível quando o espaço do arquivo já foi integralmente sobrescrito.",
+      "D": "Vale-se das entradas marcadas como livres, que ainda registram metadados e a localização dos blocos do arquivo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A recuperação pelo sistema de arquivos usa as entradas marcadas como livres, que ainda guardam metadados e a localização dos blocos (D). A recuperação por assinatura (que ignora metadados) é o data carving; e o arquivo é recuperável justamente enquanto não sobrescrito.",
+    "referencia": "Cap. 5, Seção 5.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2378,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o processamento (categorização e indexação), assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A indexação é aplicada preferencialmente a arquivos de vídeo, em razão de seu grande volume.",
+      "B": "A categorização separa os arquivos por tipo e detecta divergências entre assinatura e extensão.",
+      "C": "A indexação gera um índice das palavras encontradas, o que facilita pesquisas posteriores.",
+      "D": "Ferramentas com OCR podem indexar textos obtidos a partir de imagens."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A indexação limita-se, normalmente, a arquivos que contenham texto — não faz sentido indexar vídeos; logo (A) é a incorreta. As demais descrevem corretamente a categorização, a indexação e o uso de OCR.",
+    "referencia": "Cap. 5, Seção 5.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2379,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a redução na etapa de filtragem, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Amplia o número de arquivos a analisar, tal como ocorre na extração, consoante a doutrina especializada sobre o tema.",
+      "B": "Usa bases de hashes de arquivos conhecidos tanto para excluir os irrelevantes quanto para identificar os relevantes.",
+      "C": "Baseia-se na leitura visual, um a um, de cada arquivo pelo perito.",
+      "D": "Não permite ocultar arquivos duplicados ou de tamanho zero."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A redução usa bases de hashes de arquivos conhecidos para excluir irrelevantes e para identificar relevantes (B). A filtragem reduz (não amplia); baseia-se em hashes (não em leitura visual); e permite ocultar duplicados e arquivos de tamanho zero.",
+    "referencia": "Cap. 5, Seção 5.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2380,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a pesquisa por palavras-chave, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A busca live é mais rápida, por dispensar a varredura da mídia.",
+      "B": "A técnica não admite o uso de caracteres curinga na expressão pesquisada.",
+      "C": "A busca indexada consulta o índice previamente gerado, sendo mais rápida que a busca live.",
+      "D": "Palavras muito comuns tendem a reduzir o número de ocorrências retornadas, conforme prevê o material didático da disciplina."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A busca indexada consulta o índice já gerado e é mais rápida que a busca live (C). A busca live varre exaustivamente a mídia e é lenta; a técnica admite curingas; e palavras muito comuns tendem a aumentar o número de ocorrências.",
+    "referencia": "Cap. 5, Seção 5.3.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2381,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a etapa de exame, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A análise pode ir da inspeção visual à remontagem de um sistema ou de um banco de dados.",
+      "B": "A seleção agrupa e exporta, em formato inteligível, os arquivos de conteúdo probatório.",
+      "C": "A decifragem pode ser necessária quando há arquivos cifrados no material.",
+      "D": "O exame prescinde da intervenção direta do perito, por ser inteiramente automatizado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A etapa de exame exige a intervenção direta do perito; logo (D) é a incorreta. Análise, seleção e eventual decifragem estão descritas corretamente.",
+    "referencia": "Cap. 5, Seção 5.4",
+    "nivel": "medio"
+  },
+  {
+    "id": 2382,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os ataques a senhas na decifragem de arquivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O ataque de dicionário testa um conjunto de palavras prováveis — que pode incluir dados pessoais e termos do próprio disco — e admite regras de variação.",
+      "B": "A força bruta é o método mais eficiente para senhas longas.",
+      "C": "Os métodos probabilísticos testam todas as combinações possíveis, sem qualquer priorização, segundo a metodologia pericial usualmente adotada.",
+      "D": "O ataque de dicionário limita-se às palavras constantes de dicionários oficiais do idioma."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O ataque de dicionário testa palavras prováveis (incluindo dados pessoais, termos do disco, nomes de lugares/filmes) e admite regras de variação (A). A força bruta é ineficiente para senhas longas; os probabilísticos priorizam sequências mais prováveis; e o dicionário não se restringe a dicionários oficiais.",
+    "referencia": "Cap. 5, Seção 5.4.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2383,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as ferramentas integradas de análise de vestígios digitais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As ferramentas integradas executam apenas uma etapa isolada do exame pericial, de acordo com as práticas recomendadas na área, como se observa na rotina da unidade de criminalística.",
+      "B": "O IPED é uma solução de código aberto desenvolvida internamente na Polícia Federal, capaz de gerar relatórios em HTML para anexar ao laudo.",
+      "C": "O IPED é um software proprietário adquirido de empresa estrangeira.",
+      "D": "FTK e EnCase não realizam a recuperação de arquivos apagados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O IPED é solução de código aberto desenvolvida internamente na PF, que gera relatórios em HTML para anexar ao laudo (B). As ferramentas integradas cobrem várias etapas; o IPED não é proprietário estrangeiro; e FTK/EnCase recuperam apagados.",
+    "referencia": "Cap. 5, Seção 5.5",
+    "nivel": "medio"
+  },
+  {
+    "id": 2384,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características dos exames em casos de ASI, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Trata-se de exame de baixa complexidade, com pouca variedade de vestígios digitais, nos termos dos normativos técnicos aplicáveis, consoante a doutrina especializada sobre o tema.",
+      "B": "Os abusadores, em regra, evitam acumular registros, o que reduz o volume examinado.",
+      "C": "O ECA emprega mais de trinta verbos para tipificar crimes ligados à violência sexual infantojuvenil, sendo comum a detecção de dezenas de milhares de arquivos.",
+      "D": "O exame, em geral, não reúne elementos suficientes para a determinação da autoria."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O ECA usa mais de 30 verbos para tipificar esses crimes e é comum detectar dezenas de milhares de arquivos (C). É exame de alta complexidade, com grande variedade de vestígios; os abusadores tendem a colecionar; e o exame costuma reunir elementos para materialidade, autoria e modus operandi.",
+    "referencia": "Cap. 6, introdução",
+    "nivel": "medio"
+  },
+  {
+    "id": 2385,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a terminologia da Portaria Ditec/PF nº 1710/2026, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "IA designa o banco de dados de arquivos conhecidos mantido pela Ditec, conforme prevê o material didático da disciplina.",
+      "B": "MASI é a fase de transição entre a infância e a idade adulta.",
+      "C": "Marcadores são as imagens e vídeos que contêm conteúdo de ASI.",
+      "D": "ASI abrange atividade sexual, real ou simulada, envolvendo criança ou adolescente, com ou sem contato físico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "ASI abrange atividade sexual real ou simulada envolvendo criança ou adolescente, com ou sem contato físico (D). O banco de arquivos conhecidos é o BFAC (não IA); a fase de transição é 'puberal' (não MASI); e marcadores são identificações aplicadas aos arquivos (não as imagens de ASI, que são MASI).",
+    "referencia": "Cap. 6, Seção 6.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2386,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a terminologia da Portaria 1710/2026, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "BFAC é o conjunto de identificações visuais aplicadas aos arquivos durante a análise pericial.",
+      "B": "P2P é a arquitetura de rede ponto-a-ponto que compartilha dados sem servidor central, segundo a metodologia pericial usualmente adotada.",
+      "C": "MASI são imagens, vídeos ou outros registros com informações relacionadas a ASI.",
+      "D": "Puberal é a fase de transição entre a infância e a idade adulta."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O BFAC é um banco de dados de arquivos conhecidos; quem consiste em identificações aplicadas aos arquivos são os marcadores; logo (A) é a incorreta. P2P, MASI e puberal estão definidos corretamente.",
+    "referencia": "Cap. 6, Seção 6.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2387,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as etapas do exame de análise de conteúdo relacionado à ASI, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Restringem-se à identificação visual, dispensadas a extração e o processamento.",
+      "B": "Incluem a extração e o processamento, a identificação e classificação de MASI e as análises de disponibilização e de produção.",
+      "C": "A análise de produção é vedada, por exigir perito de outra área do conhecimento, de acordo com as práticas recomendadas na área.",
+      "D": "As análises adicionais relacionadas a quesitos específicos não integram o exame."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As etapas incluem extração e processamento, identificação/classificação de MASI, análise de disponibilização/transmissão, análise de produção e análises adicionais a quesitos (B). Nenhuma dessas etapas é vedada ou dispensada.",
+    "referencia": "Cap. 6, Seção 6.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2388,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a separação dos arquivos examinados em casos de ASI, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O conjunto 'posse' reúne os arquivos possivelmente produzidos pelo próprio investigado, como se observa na rotina da unidade de criminalística.",
+      "B": "O conjunto 'produção' reúne todos os arquivos não enquadrados nos demais conjuntos.",
+      "C": "O conjunto 'disponibilização' reúne imagens e vídeos transmitidos por P2P, mensagens, redes sociais ou e-mail.",
+      "D": "A separação em conjuntos é vedada quando há quesitação específica no caso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O conjunto 'disponibilização' abrange o que foi disponibilizado/transmitido por P2P, mensagens, redes sociais ou e-mail (C). 'Produção' reúne o possivelmente produzido pelo investigado, 'posse' reúne os demais, e a separação é a regra na ausência de disposição diversa na quesitação.",
+    "referencia": "Cap. 6, Seção 6.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2389,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a priorização e os marcadores em exames de ASI, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os arquivos do conjunto 'posse' devem ser encaminhados para inclusão no BFAC.",
+      "B": "A ordenação prioriza, em primeiro lugar, a categoria 'outros'.",
+      "C": "Os arquivos apagados e recuperados do conjunto 'posse' não recebem marcador próprio, nos termos dos normativos técnicos aplicáveis.",
+      "D": "Atingidos 500 arquivos com cenas de ASI, o exame para caracterizar a posse pode ser interrompido, por saturação qualitativa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alcançados 500 arquivos com cenas de ASI, tem-se a saturação qualitativa e o exame para caracterizar a posse pode ser interrompido (D). Quem vai ao BFAC é o conjunto 'produção'; a prioridade começa por 'ASI' (não 'outros'); e os apagados recuperados da posse recebem marcador próprio.",
+    "referencia": "Cap. 6, Seção 6.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2390,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o uso de inteligência artificial nos exames de ASI, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O emprego de IA dispensa o registro no laudo quando houver supervisão humana no processo.",
+      "B": "Arquivos classificados como MASI apenas por IA, sem confirmação visual, recebem marcador próprio que explicita a circunstância.",
+      "C": "A IA pode ser usada como ferramenta de apoio na triagem e na priorização dos arquivos.",
+      "D": "A IA auxilia na proteção da saúde mental do perito, ao reduzir a exposição desnecessária."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O emprego de IA deve sempre ser consignado em laudo, qualquer que seja o grau de supervisão humana; logo (A) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 6, Seções 6.2 e 6.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2391,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os critérios de identificação de indícios de menoridade, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Exige-se a estimativa da idade numérica exata dos indivíduos representados.",
+      "B": "Observam-se o desenvolvimento puberal, a proporção corporal, os traços faciais e a eventual presença de adulto na cena, sem estimar a idade numérica.",
+      "C": "A proporção corporal de crianças caracteriza-se por cabeça relativamente menor que a de adultos, consoante a doutrina especializada sobre o tema.",
+      "D": "Basta a análise dos traços faciais, dispensados os demais critérios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Avaliam-se desenvolvimento puberal, proporção corporal, traços faciais infantis e presença de adulto na cena, sem estimar a idade numérica (B). Não se estima idade; a proporção infantil tem cabeça relativamente maior; e não basta um único critério.",
+    "referencia": "Cap. 6, Seção 6.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2392,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as tecnologias de comunicação de aparelhos celulares, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O GSM não distingue a identificação do usuário da do equipamento, conforme prevê o material didático da disciplina, segundo a metodologia pericial usualmente adotada.",
+      "B": "O iDEN dispensa qualquer código de identificação do aparelho.",
+      "C": "Na tecnologia CDMA, cada dispositivo tem um número único global, o ESN ou MEID, sendo ela hoje praticamente inexistente no Brasil.",
+      "D": "O CDMA é a tecnologia predominante no Brasil atualmente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No CDMA, cada dispositivo tem número único global (ESN ou MEID), e a tecnologia é hoje praticamente inexistente no Brasil (C). O GSM distingue usuário (IMSI) e equipamento (IMEI); e o CDMA não é predominante no país.",
+    "referencia": "Cap. 7, Seção 7.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2393,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os cartões SIM, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O ICCID é o código único do cartão SIM, com vinte dígitos, podendo estar impresso no próprio cartão.",
+      "B": "O eSIM é um microchip soldado à placa-mãe, que recebe as credenciais da operadora via software.",
+      "C": "Existem quatro tamanhos de cartão SIM: mini, micro, nano e eSIM.",
+      "D": "O eSIM pode ser retirado e inserido fisicamente em outro aparelho, como os demais cartões SIM."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O eSIM é soldado à placa-mãe e deve ser importado via software, não transferido fisicamente; logo (D) é a incorreta. O ICCID de 20 dígitos, a natureza do eSIM e os quatro tamanhos estão corretos.",
+    "referencia": "Cap. 7, Seção 7.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2394,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a descrição do material na análise de aparelhos celulares, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O IMEI é composto por quinze dígitos numéricos e pode, em muitos aparelhos, ser obtido digitando-se *#06#.",
+      "B": "O ESN é composto por quinze dígitos e fica impresso na gaveta do cartão SIM, de acordo com as práticas recomendadas na área.",
+      "C": "O IMEI possui vinte dígitos e identifica o assinante junto à operadora.",
+      "D": "A descrição do cartão SIM dispensa a informação da operadora e do ICCID."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O IMEI tem 15 dígitos numéricos e costuma ser obtido por *#06# (A). O ESN (CDMA) tem 11 dígitos numéricos ou 8 alfanuméricos; o IMEI identifica o aparelho (não o assinante) e não tem 20 dígitos; e a descrição do SIM deve informar operadora, ICCID, IMSI e MSISDN.",
+    "referencia": "Cap. 7, Seção 7.2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2395,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os exames em aparelhos celulares, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os registros do aparelho substituem, com precisão, os dados fornecidos pela operadora, como se observa na rotina da unidade de criminalística.",
+      "B": "Não se pode garantir que os registros de chamadas e mensagens do aparelho correspondam aos da operadora, pois podem ter sido apagados pelo usuário.",
+      "C": "Cartões SIM e de memória devem ser analisados dentro do próprio aparelho examinado.",
+      "D": "Smartphones não permitem a recuperação de arquivos apagados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Não há garantia de que os registros do aparelho coincidam com os da operadora, pois o usuário pode apagá-los — só a operadora informa com precisão (B). Os cartões devem ser analisados separadamente, e smartphones permitem recuperar apagados.",
+    "referencia": "Cap. 7, Seção 7.2.2",
+    "nivel": "medio"
+  },
+  {
+    "id": 2396,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o isolamento de dispositivos móveis, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O isolamento é dispensável quando o aparelho já está desbloqueado.",
+      "B": "A bolsa de Faraday serve para carregar o aparelho, e não para isolá-lo de redes.",
+      "C": "Recursos como Find my iPhone e Find my device permitem apagamento remoto, o que reforça a necessidade de isolar o aparelho da rede.",
+      "D": "A remoção do cartão SIM, por si só, impede qualquer comunicação, inclusive por Wi-Fi e Bluetooth, nos termos dos normativos técnicos aplicáveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recursos de localização (Find my iPhone/device) permitem wipe remoto, reforçando a necessidade de isolar o aparelho (C). O isolamento não é dispensável; a bolsa de Faraday isola (não carrega); e remover o SIM não impede Wi-Fi/Bluetooth.",
+    "referencia": "Cap. 7, Seção 7.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2397,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de bloqueio de acesso em celulares, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O bloqueio numérico (PIN) é considerado o de maior segurança entre todos.",
+      "B": "O bloqueio biométrico dispensa qualquer outro tipo de bloqueio no aparelho.",
+      "C": "O padrão geométrico é o de maior segurança, pelo grande número de combinações possíveis, consoante a doutrina especializada sobre o tema.",
+      "D": "O bloqueio alfanumérico é considerado de alta proteção, enquanto o padrão geométrico é de baixa segurança."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O bloqueio alfanumérico é de alta proteção e o padrão geométrico, de baixa segurança (D). O PIN é de segurança média; a biometria normalmente é combinada com outro bloqueio; e o padrão geométrico não é o mais seguro.",
+    "referencia": "Cap. 7, Seção 7.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2398,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a criptografia de aparelhos celulares (FDE e FBE), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No FDE, todo o conteúdo é protegido por uma única chave principal; no FBE, os dados são protegidos com diferentes chaves.",
+      "B": "No FDE, cada arquivo é protegido por uma chave criptográfica distinta.",
+      "C": "O FBE é um modelo mais simples e mais antigo que o FDE.",
+      "D": "A criptografia dispensa a chave para reverter o dado ao seu formato original, conforme prevê o material didático da disciplina."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No FDE há uma única chave principal para todo o conteúdo; no FBE, diferentes chaves para dados individuais ou em grupos (A). O FBE é o modelo mais avançado, e a reversão do dado exige a chave correta.",
+    "referencia": "Cap. 7, Seção 7.3.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2399,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a preservação do estado AFU, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Deve-se manter o aparelho ligado e com carga, usando fontes confiáveis como power banks.",
+      "B": "Recomenda-se reiniciar o aparelho periodicamente, a fim de renovar as chaves na memória.",
+      "C": "Devem-se ativar o modo avião e desabilitar as conexões de rede celular, Wi-Fi e Bluetooth.",
+      "D": "A extração dos dados deve ser realizada o mais rápido possível."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Um aparelho em AFU não deve ser desligado nem reiniciado — isso o levaria a BFU e removeria as chaves da memória; logo (B) é a incorreta. Manter ligado/carregado, ativar modo avião e extrair rápido estão corretos.",
+    "referencia": "Cap. 7, Seção 7.3.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2400,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os cenários de apreensão de dispositivos móveis, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No aparelho ligado sem bloqueio aparente, deve-se mantê-lo ligado indefinidamente, sem verificar as definições, segundo a metodologia pericial usualmente adotada.",
+      "B": "No aparelho desligado sem senha, deve-se ligá-lo e tentar exploits antes de qualquer outra medida.",
+      "C": "No aparelho desligado com senha fornecida, remove-se e identifica-se o SIM, liga-se o aparelho, ativa-se o modo avião e valida-se a senha.",
+      "D": "No aparelho ligado com senha fornecida, a senha deve ser alterada para outra conhecida pela equipe."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No aparelho desligado com senha fornecida: remover e identificar o SIM, ligar, ativar modo avião e validar a senha (C). No ligado sem bloqueio verifica-se as definições; no desligado sem senha busca-se a senha com pessoas do local; e a senha fornecida deve ser validada sem ser alterada.",
+    "referencia": "Cap. 7, Seção 7.4.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2401,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as dificuldades encontradas nos exames de celulares, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Recomenda-se garantir a carga da bateria antes do exame, para evitar desligamentos inesperados.",
+      "B": "Baterias inchadas exigem atenção adicional, por representarem risco de incêndio ou explosão.",
+      "C": "Falhas de conectividade podem decorrer de sujeira ou oxidação no conector, solucionáveis por limpeza.",
+      "D": "Técnicas como root e jailbreak devem ser a primeira opção do perito, por serem as mais seguras."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Recomenda-se abordagem progressiva, começando pelos métodos menos invasivos; root e jailbreak, por seus riscos, não são a primeira opção; logo (D) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 7, Seção 7.2.3",
+    "nivel": "medio"
+  },
+  {
+    "id": 2402,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do laudo pericial de informática, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Contém, além do preâmbulo, itens como Material, Objetivo, Exame e Respostas aos quesitos ou Conclusão, sendo o Histórico opcional.",
+      "B": "O Histórico é item obrigatório em todos os laudos de informática.",
+      "C": "As considerações técnicas integram, obrigatoriamente, o item Material.",
+      "D": "A Conclusão e as Respostas aos quesitos não podem constar de um mesmo laudo, de acordo com as práticas recomendadas na área."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O laudo contém, além do preâmbulo, Material, Objetivo, Exame e Respostas aos quesitos ou Conclusão, com Histórico opcional (A). As considerações técnicas vêm em apêndices, não no Material.",
+    "referencia": "Cap. 8, Seção 8 (introdução)",
+    "nivel": "medio"
+  },
+  {
+    "id": 2403,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a garantia de integridade dos arquivos do anexo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A integridade é assegurada pela assinatura digital aposta individualmente em cada arquivo do anexo, como se observa na rotina da unidade de criminalística.",
+      "B": "Cada arquivo é submetido ao cálculo de hash, cujos valores são reunidos, em hexadecimal, em uma lista gravada na própria mídia anexa.",
+      "C": "A lista de hashes é mantida fora da mídia anexa, por questão de segurança.",
+      "D": "O hash é calculado apenas para uma amostra dos arquivos do anexo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Cada arquivo tem seu hash calculado, e a lista (em hexadecimal) é gravada na própria mídia anexa (B). A integridade individual vem do hash de cada arquivo (não de assinatura por arquivo), calculado para todos, com a lista gravada na mídia.",
+    "referencia": "Cap. 8, Seção 8.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2404,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a autenticidade da mídia anexa ao laudo, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Calcula-se o hash do arquivo que contém a lista de hashes e transcreve-se esse valor no corpo do laudo.",
+      "B": "O laudo é assinado digitalmente, vinculando a autenticidade ao seu teor.",
+      "C": "O valor do hash da lista não é transcrito no laudo, permanecendo restrito à mídia anexa.",
+      "D": "O mecanismo de autenticidade da mídia também assegura a integridade dos arquivos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O hash da lista de hashes é justamente transcrito no corpo do laudo (assinado digitalmente); logo (C) é a incorreta. O cálculo desse hash, a assinatura digital e o fato de a autenticidade também garantir a integridade estão corretos.",
+    "referencia": "Cap. 8, Seção 8.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2405,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a geração do anexo digital, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O arquivo hashes.txt não deve ser incluído no arquivo-contêiner do anexo.",
+      "B": "Recomenda-se gravar o anexo em mídia ótica regravável, para permitir correções, nos termos dos normativos técnicos aplicáveis, consoante a doutrina especializada sobre o tema.",
+      "C": "O comando DiskPart é usado para apagar a lista de hashes antes da gravação.",
+      "D": "Os arquivos e o hashes.txt são reunidos em um arquivo-contêiner (ISO, ZIP, E01), gravado em mídia configurada para não permitir alterações."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Na geração, os arquivos e o hashes.txt são reunidos em um contêiner (ISO, ZIP, E01) gravado em mídia que não permita alterações (D). O hashes.txt integra o contêiner; recomenda-se mídia não regravável ou somente leitura; e o DiskPart serve para configurar dispositivos como somente leitura, não para apagar a lista.",
+    "referencia": "Cap. 8, Seção 8.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2406,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a verificação do anexo digital, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Compara-se o hash do hashes.txt com o valor do corpo do laudo e, em seguida, os hashes dos arquivos com os da lista.",
+      "B": "Basta comparar o tamanho dos arquivos com os valores registrados no laudo.",
+      "C": "A verificação dispensa a conferência dos hashes individuais dos arquivos.",
+      "D": "A verificação só pode ser realizada pelo próprio perito que emitiu o laudo, conforme prevê o material didático da disciplina."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Verifica-se primeiro o hash do hashes.txt contra o valor do laudo e depois os hashes de todos os arquivos contra a lista (A). Não basta comparar tamanhos; a conferência individual é necessária; e a verificação pode ser feita por qualquer interessado.",
+    "referencia": "Cap. 8, Seção 8.3",
+    "nivel": "medio"
+  },
+  {
+    "id": 2407,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a forma de apresentar os resultados no laudo, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Poucos arquivos, como planilhas e e-mails, podem ser incorporados ao corpo do laudo.",
+      "B": "Arquivos executáveis devem ser transcritos integralmente no corpo do laudo.",
+      "C": "Grandes volumes de dados são exportados e gravados em mídia anexa.",
+      "D": "Arquivos de áudio e de vídeo são encaminhados em anexo, no formato original."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Arquivos executáveis, de áudio e de vídeo não são transcritos no corpo do laudo, mas encaminhados em anexo, no formato original; logo (B) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 8, Seção 8 (introdução)",
+    "nivel": "medio"
   }
 ];
