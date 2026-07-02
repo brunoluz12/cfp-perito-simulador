@@ -5538,10 +5538,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o estágio atual de maturidade do modelo brasileiro de identificação veicular, representado pela Resolução Contran nº 968/2022, conforme descrito no capítulo 3 do material, é correto afirmar que:",
     "alternativas": {
-      "A": "a norma mantém uma visão centrada exclusivamente no VIN, reforçando a primazia desse identificador único como sinal autossuficiente da identidade veicular, sem articulação com o RENAVAM.",
-      "B": "a norma é dirigida apenas à identificação externa do veículo, isto é, às placas, deixando toda a identificação estrutural ao encargo de norma técnica específica editada pela ABNT.",
+      "A": "a norma mantém o VIN como identificador central e autossuficiente, tratando os demais sinais como reforços dispensáveis e sem articulação com o RENAVAM.",
+      "B": "a norma volta-se sobretudo à identificação externa por placas, delegando a identificação estrutural a norma técnica específica editada pela ABNT.",
       "C": "a norma adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais, com forte integração ao RENAVAM.",
-      "D": "a norma revoga toda a legislação anterior sobre identificação e reduz o sistema brasileiro a uma única gravação obrigatória do VIN em ponto único do chassi, abandonando a lógica distribuída."
+      "D": "a norma revoga a legislação anterior sobre identificação e reduz o sistema a uma gravação única do VIN em ponto padronizado do chassi, abandonando a lógica distribuída, conforme prevê o material didático da disciplina."
     },
     "resposta_correta": "C",
     "justificativa": "Conforme o capítulo 3, a Resolução Contran nº 968/2022 abandona uma visão centrada exclusivamente no VIN e adota um sistema multidentificador, integrando chassi, motor, câmbio, eixos, cabine, carroceria, etiquetas autocolantes, elementos ocultos e registros digitais, com a identificação tornando-se distribuída, rastreável e fortemente integrada ao RENAVAM (alternativa C). Erram A e D, pois a norma justamente abandona a centralidade exclusiva do VIN e adota modelo distribuído; B, pois trata da identificação estrutural, não apenas das placas.",
@@ -5623,10 +5623,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em exame de veículo suspeito de remontagem após sinistro, o perito constata VIN e placa aparentemente regulares, porém observa marcação no para-brisa com fabricante distinto do esperado e ano de produção incompatível, etiqueta do cinto de segurança com data muito anterior à do veículo declarado e código impresso na bomba d'água divergente do lote característico do modelo. Conforme o capítulo 5, qual é a conclusão tecnicamente correta sobre o valor pericial dessas informações?",
     "alternativas": {
-      "A": "Por se referirem a peças de reposição usuais, tais marcações não comprovam adulteração e, isoladamente, somente indicam manutenção corretiva, não devendo integrar a fundamentação do laudo.",
-      "B": "As marcações em vidros e as etiquetas de cintos têm valor pericial, mas o código da bomba d'água é irrelevante, por não estar relacionado a lotes ou a períodos específicos de produção.",
-      "C": "Marcações em vidros, etiquetas de cintos e códigos de bombas d'água atuam como marcadores temporais, e a convergência ou divergência dessas informações auxilia na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais.",
-      "D": "Esses elementos têm valor meramente acessório e jamais fundamentam conclusão pericial, pois apenas o VIN e a placa possuem validade jurídica para a identificação do veículo perante os sistemas administrativos."
+      "A": "por se referirem a peças de reposição usuais, tais marcações costumam indicar manutenção corretiva, tendo valor probatório reduzido para a fundamentação do laudo.",
+      "B": "as marcações em vidros e as etiquetas de cintos têm valor pericial, mas o código da bomba d'água costuma ser desconsiderado, por não se vincular a lotes ou a períodos de produção.",
+      "C": "marcações em vidros, etiquetas de cintos e códigos de bombas d'água atuam como marcadores temporais, e a convergência ou divergência dessas informações auxilia na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais.",
+      "D": "esses elementos têm valor de corroboração acessória e, isoladamente, dificilmente sustentam a conclusão, que se apoia sobretudo no VIN e na placa perante os sistemas administrativos, segundo a interpretação usual dessa normativa, de acordo com as práticas periciais recomendadas."
     },
     "resposta_correta": "C",
     "justificativa": "Correta a C: o capítulo 5 afirma que vidros apresentam marcações com fabricante e ano de produção e cintos trazem etiquetas com data de fabricação, e que 'a convergência ou divergência dessas informações pode auxiliar na identificação do período de fabricação do veículo e na detecção de incongruências associadas a sinistros, remontagens ou adulterações estruturais', incluindo códigos de bombas d'água como marcadores temporais. A erra ao negar valor probatório a tais marcações, que o material reconhece como úteis na detecção de adulterações. B erra ao excluir a bomba d'água, expressamente citada entre os componentes vinculados a lotes e períodos de produção. D erra ao reduzi-los a valor acessório, pois o material lhes atribui valor pericial de corroboração.",
@@ -5742,10 +5742,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame pericial em um automóvel fabricado em 1990, o perito precisa avaliar a conformidade da identificação veicular sob a Resolução Contran nº 659/1985 (alterada pela Resolução nº 691/1988). Considerando os locais de identificação complementar pelos caracteres VIS exigidos por aquela norma para automóveis, é CORRETO afirmar que a gravação ou plaqueta era exigida, entre outros locais, em:",
     "alternativas": {
-      "A": "Somente no para-choque dianteiro e no compartimento do porta-malas, com profundidade mínima de 1,0 mm e caracteres de altura não inferior a 10 mm em cada ponto.",
-      "B": "Exclusivamente nas placas dianteira e traseira e em ambos os para-brisas, mediante lacre estrutural e etiqueta autocolante destrutível afixada individualmente em cada um desses pontos de controle.",
-      "C": "Apenas no bloco do motor e na caixa de câmbio, ficando dispensada qualquer marcação nos vidros, na coluna da porta ou no assoalho do habitáculo.",
-      "D": "Assoalho sob um dos bancos dianteiros, coluna da porta dianteira direita, compartimento do motor, um para-brisa e um vidro traseiro e ao menos dois vidros de cada lado, exceto quebra-ventos."
+      "A": "no para-choque dianteiro e no compartimento do porta-malas, com profundidade mínima de 1,0 mm e caracteres de altura não inferior a 10 mm em cada ponto.",
+      "B": "nas placas dianteira e traseira e em ambos os para-brisas, mediante lacre estrutural e etiqueta autocolante destrutível afixada individualmente em cada ponto de controle, como se observa nos casos concretos de perícia veicular.",
+      "C": "no bloco do motor e na caixa de câmbio, ficando a marcação nos vidros, na coluna da porta e no assoalho do habitáculo a critério do fabricante.",
+      "D": "assoalho sob um dos bancos dianteiros, coluna da porta dianteira direita, compartimento do motor, um para-brisa e um vidro traseiro e ao menos dois vidros de cada lado, exceto quebra-ventos."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme o capítulo 7.1, sob a Resolução nº 659/1985, a identificação complementar era exigida em: 'assoalho do veículo, sob um dos bancos dianteiros; coluna da porta dianteira lateral direita; compartimento do motor; um dos para-brisas e um dos vidros traseiros, quando existente; pelo menos dois vidros de cada lado do veículo, quando existentes, excetuados os quebra-ventos'.",
@@ -5759,10 +5759,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Comparando o regime da Resolução Contran nº 24/1998 com a anteriormente vigente Resolução nº 659/1985 (alterada pela 691/1988), em relação à identificação veicular obrigatória, é correto afirmar que as principais alterações introduzidas pela Resolução nº 24/1998 consistiram em:",
     "alternativas": {
-      "A": "Abolir totalmente a gravação do VIN no chassi ou no monobloco, substituindo-a apenas por etiqueta autocolante destrutível afixada na coluna da porta dianteira do lado do passageiro.",
-      "B": "Suprimir a gravação no assoalho sob um dos bancos dianteiros e introduzir expressamente a identificação do ano de fabricação como item autônomo obrigatório.",
-      "C": "Suprimir a gravação na coluna da porta dianteira lateral direita e dispensar por completo a marcação dos vidros e do compartimento do motor.",
-      "D": "Eliminar a obrigatoriedade da segunda gravação de chassi em reboques e semirreboques, mantendo-se apenas uma gravação única na longarina esquerda."
+      "A": "abolir a gravação do VIN no chassi ou no monobloco, substituindo-a por etiqueta autocolante destrutível afixada na coluna da porta dianteira do lado do passageiro.",
+      "B": "suprimir a gravação no assoalho sob um dos bancos dianteiros e introduzir expressamente a identificação do ano de fabricação como item autônomo obrigatório.",
+      "C": "suprimir a gravação na coluna da porta dianteira lateral direita e transferir a marcação dos vidros e do compartimento do motor para norma técnica da ABNT.",
+      "D": "eliminar a obrigatoriedade da segunda gravação de chassi em reboques e semirreboques, mantendo-se uma gravação na longarina esquerda."
     },
     "resposta_correta": "B",
     "justificativa": "Conforme o capítulo 7.2: 'As principais alterações consistiram na supressão da gravação no assoalho sob um dos bancos dianteiros, e na introdução expressa da identificação do ano de fabricação como item autônomo obrigatório'. Foram preservadas a gravação na coluna da porta dianteira lateral direita, no compartimento do motor, nos vidros e a obrigatoriedade de duas gravações no chassi para reboques e semirreboques.",
@@ -5776,10 +5776,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A Resolução Contran nº 968/2022 estabelece o sistema atualmente vigente de identificação veicular. Sobre a gravação do VIN nos veículos, conforme essa norma, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "Para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, os caracteres do VIN devem ter altura mínima de 7 mm e ser gravados obrigatoriamente no bloco do motor e, de forma redundante, na caixa de câmbio, com profundidade mínima de 1,0 mm.",
-      "B": "A gravação principal do VIN dispensa qualquer segunda gravação, sendo proibido o uso de plaquetas metálicas destrutíveis ou de ETA como métodos alternativos de identificação.",
-      "C": "O VIN deve ser gravado com profundidade mínima de 0,2 mm, sendo o local preferencial o lado direito do chassi ou monobloco; a norma veda, em regra, a punção manual, salvo fabricantes de produção reduzida.",
-      "D": "Em reboques e semirreboques, a segunda gravação do VIN deve ser feita na longarina direita, com profundidade mínima de 1,0 mm, distinta da primeira gravação."
+      "A": "para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos, os caracteres do VIN devem ter altura mínima de 7 mm, gravados no bloco do motor e, de forma redundante, na caixa de câmbio, com profundidade mínima de 1,0 mm.",
+      "B": "a gravação principal do VIN substitui a necessidade de segunda gravação, admitindo-se plaquetas metálicas destrutíveis ou ETA como reforço facultativo.",
+      "C": "o VIN deve ser gravado com profundidade mínima de 0,2 mm, sendo o local preferencial o lado direito do chassi ou monobloco; a norma veda, em regra, a punção manual, salvo para fabricantes de produção reduzida.",
+      "D": "em reboques e semirreboques, a segunda gravação do VIN é feita na longarina direita, com profundidade mínima de 1,0 mm, distinta da primeira gravação."
     },
     "resposta_correta": "C",
     "justificativa": "Conforme o capítulo 7.3: 'a Resolução estabelece que o VIN deve ser gravado com profundidade mínima de 0,2 mm'; 'O local preferencial de gravação do VIN é o lado direito do chassi ou do monobloco'; e 'O texto normativo veda, como regra, a gravação por punção manual, excetuando-se fabricantes de produção reduzida'. As demais alternativas contrariam o texto - ciclomotores têm altura mínima de 4 mm; reboques têm segunda gravação na longarina esquerda; e há exigência de segunda gravação por método alternativo.",
@@ -5827,10 +5827,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Conforme a ABNT NBR 6066:2022, a 10ª posição do VIN representa o ano de fabricação ou ano modelo, por meio de uma tabela cíclica de caracteres alfanuméricos. Considerando o conjunto de caracteres permitido pela norma (que veda I, O e Q) e a natureza cíclica dessa codificação, é CORRETO afirmar que:",
     "alternativas": {
-      "A": "A norma adota uma tabela cíclica de caracteres alfanuméricos para o ano de fabricação ou ano modelo na 10ª posição do VIN, devendo a interpretação ser contextualizada com o restante do VIN.",
-      "B": "Os caracteres da 10ª posição constituem uma sequência única que nunca se repete ao longo do tempo, garantindo a identificação inequívoca e definitiva do ano por todo o ciclo de vida útil da norma.",
-      "C": "Os caracteres I, O e Q são utilizados exclusivamente na 10ª posição para representar anos pares, em razão do contraste visual com os algarismos.",
-      "D": "A 10ª posição é facultativa e pode ser substituída, a critério do fabricante, por etiqueta autocolante afixada na coluna da porta dianteira."
+      "A": "a norma adota uma tabela cíclica de caracteres alfanuméricos para o ano de fabricação ou ano modelo na 10ª posição do VIN, devendo a interpretação ser contextualizada com o restante do VIN.",
+      "B": "os caracteres da 10ª posição formam uma sequência contínua e não cíclica, o que asseguraria a identificação definitiva do ano ao longo de toda a vigência da norma, nos termos da regulamentação técnica aplicável.",
+      "C": "as letras I, O e Q são reservadas à 10ª posição para representar os anos pares, em razão do contraste visual com os algarismos.",
+      "D": "a 10ª posição é facultativa, podendo ser substituída, a critério do fabricante, por etiqueta autocolante afixada na coluna da porta dianteira."
     },
     "resposta_correta": "A",
     "justificativa": "Conforme o capítulo 7.4: 'Para a identificação do ano do veículo, prevista na 10ª posição do VIN, a norma adota uma tabela cíclica de caracteres alfanuméricos para representar o ano de fabricação ou ano modelo (Tabela 1)'. Também segundo a norma, 'a norma também restringe o conjunto de caracteres permitidos, vedando o uso das letras I, O e Q, a fim de evitar confusão visual com algarismos'.",
@@ -5844,10 +5844,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em exame pericial de um SUV com carroceria monobloco, o perito não localiza a gravação do VIN no compartimento do motor e precisa verificar outros locais possíveis em veículos com essa configuração construtiva. Sobre os locais de gravação do VIN nos veículos com carroceria monobloco e nos veículos montados sobre chassi, conforme o capítulo 7.5 do material, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "Sobre chassi, o VIN pode estar à direita e/ou à esquerda e nas faces superior, inferior ou lateral externa, conforme o projeto; nos monoblocos, surge em elementos como torre do amortecedor direito, soleira da porta, assoalho ou painel corta-fogo.",
-      "B": "Nos veículos com carroceria monobloco, a marcação do VIN só pode aparecer no para-choque dianteiro e no porta-malas; já nos montados sobre chassi, ela deve estar obrigatoriamente no teto e na coluna da direção, em local único e padronizado.",
-      "C": "Tanto em veículos com chassi quanto em monoblocos, o VIN é gravado exclusivamente no bloco do motor, sendo dispensada qualquer marcação estrutural.",
-      "D": "A ABNT NBR 6066:2022 proíbe variações de localização do VIN, exigindo sempre gravação na coluna da direção, independentemente do tipo construtivo do veículo."
+      "A": "sobre chassi, o VIN pode estar à direita e/ou à esquerda e nas faces superior, inferior ou lateral externa, conforme o projeto; nos monoblocos, surge em elementos como torre do amortecedor direito, soleira da porta, assoalho ou painel corta-fogo.",
+      "B": "nos veículos com carroceria monobloco, a marcação do VIN situa-se no para-choque dianteiro e no porta-malas; nos montados sobre chassi, no teto e na coluna da direção, em ponto único padronizado, consoante a doutrina especializada sobre identificação veicular.",
+      "C": "tanto em veículos com chassi quanto em monoblocos, o VIN é gravado no bloco do motor, ficando a marcação estrutural a critério do fabricante.",
+      "D": "a ABNT NBR 6066:2022 padroniza a posição do VIN na coluna da direção, admitindo poucas variações conforme o tipo construtivo do veículo."
     },
     "resposta_correta": "A",
     "justificativa": "Conforme o capítulo 7.5: 'Nos veículos montados sobre chassi, o VIN pode estar localizado no lado direito e/ou esquerdo, bem como nas faces superior, inferior ou lateral externa, a depender do projeto'. E ainda: 'nos veículos com carroceria monobloco, a marcação aparece em elementos estruturais integrados, como a torre do amortecedor do lado direito (passageiro), a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta-fogo ou ainda o assoalho do porta-malas'.",
@@ -5929,10 +5929,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o papel do número do motor na identificação veicular, conforme abordado no Capítulo 9 do PVAT - Módulo I, assinale a alternativa correta.",
     "alternativas": {
-      "A": "O número do motor é tratado como identificador primário do veículo, em substituição ao VIN gravado no chassi ou monobloco, sempre que apresentar coerência com o documento.",
-      "B": "O número do motor não é considerado elemento de identificação pericial, pois o motor é peça facilmente substituível e seu código não consta em bancos de dados oficiais.",
-      "C": "O número do motor somente é exigido para veículos pesados e para reboques e semirreboques, sendo dispensável em automóveis de passeio e motocicletas.",
-      "D": "O número do motor é utilizado como elemento complementar de identificação, constando nos bancos de dados oficiais vinculados ao RENAVAM/BIN."
+      "A": "o número do motor funciona como identificador primário do veículo, prevalecendo sobre o VIN gravado no chassi quando houver coerência com o documento.",
+      "B": "o número do motor tem baixo valor pericial, pois o motor é peça substituível e seu código raramente é registrado em bancos oficiais.",
+      "C": "o número do motor é exigido sobretudo em veículos pesados, reboques e semirreboques, com menor relevância em automóveis de passeio e motocicletas.",
+      "D": "o número do motor é utilizado como elemento complementar de identificação, constando nos bancos de dados oficiais vinculados ao RENAVAM/BIN."
     },
     "resposta_correta": "D",
     "justificativa": "O PDF dispõe: 'Entre esses componentes, destaca-se o número do motor, utilizado como elemento complementar de identificação, que consta nos bancos de dados oficiais vinculados ao RENAVAM/BIN'.",
@@ -5946,10 +5946,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia de um caminhão pesado, o examinador busca confirmar a identidade do agregado de transmissão. Acerca da identificação da caixa de câmbio em veículos pesados e da forma de confirmação dos dados, conforme o Capítulo 9, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A confirmação da numeração da caixa de câmbio em veículos pesados depende exclusivamente de consulta ao Inmetro, único órgão competente para informar dados de agregados de transmissão e de outros conjuntos mecânicos.",
-      "B": "A numeração da caixa de câmbio é padronizada internacionalmente pela ISO 3779 e sempre apresenta 17 caracteres alfanuméricos, sendo de leitura direta no documento do veículo.",
-      "C": "Em veículos pesados, a caixa de câmbio tem valor técnico e costuma ter numeração própria gravada na carcaça ou em plaqueta, podendo constar em bancos oficiais ou ser confirmada por carta-laudo do fabricante.",
-      "D": "Em veículos pesados, a caixa de câmbio não recebe identificação própria, pois sua rastreabilidade decorre, indiretamente, do VIN gravado no chassi do veículo."
+      "A": "a confirmação da numeração da caixa de câmbio em veículos pesados apoia-se, sobretudo, em consulta ao Inmetro, referência usual para agregados de transmissão e demais conjuntos mecânicos, conforme prevê o material didático da disciplina.",
+      "B": "a numeração da caixa de câmbio segue a ISO 3779, com 17 caracteres alfanuméricos, sendo de leitura direta no documento do veículo.",
+      "C": "em veículos pesados, a caixa de câmbio tem valor técnico e costuma ter numeração própria gravada na carcaça ou em plaqueta, podendo constar em bancos oficiais ou ser confirmada por carta-laudo do fabricante.",
+      "D": "em veículos pesados, a caixa de câmbio tem sua rastreabilidade derivada do VIN gravado no chassi, sem numeração própria."
     },
     "resposta_correta": "C",
     "justificativa": "O PDF afirma: 'Em veículos pesados, a caixa de câmbio possui relevante valor técnico, sendo frequentemente identificada por numeração própria gravada na carcaça ou afixada por plaqueta, a qual pode constar em bancos de dados oficiais ou ser confirmada mediante consulta ao fabricante por meio de carta-laudo'.",
@@ -5997,10 +5997,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um exame pericial de um caminhão equipado com tacógrafo, o perito identifica selos adesivos nas faces externas do aparelho e um lacre plástico instalado no cabo do velocímetro, junto ao ponto de conexão com o câmbio. Sobre o papel pericial dos lacres e selos de aferição do tacógrafo, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Os lacres e selos do tacógrafo constituem identificadores diretos e principais do veículo, equivalendo, para fins legais, ao próprio VIN gravado no chassi.",
-      "B": "Os lacres e selos são emitidos pelo fabricante do tacógrafo e somente podem ser consultados em bases proprietárias de acesso restrito ao fabricante, sem qualquer possibilidade de verificação externa por peritos ou órgãos públicos.",
-      "C": "Os lacres e selos do tacógrafo destinam-se exclusivamente ao controle fiscal de carga transportada, não possuindo qualquer relação com a análise pericial de identificação veicular.",
-      "D": "Embora não sejam identificadores diretos do veículo, fornecem elementos acessórios de contexto e podem ser consultados no site do Inmetro; lacre e selos servem para evidenciar intervenções no sistema de medição."
+      "A": "os lacres e selos do tacógrafo funcionam como identificadores diretos e principais do veículo, com valor equivalente ao do VIN gravado no chassi.",
+      "B": "os lacres e selos são emitidos pelo fabricante do tacógrafo e consultáveis em bases proprietárias, de acesso reservado ao próprio fabricante.",
+      "C": "os lacres e selos do tacógrafo destinam-se ao controle fiscal da carga transportada, com pouca relação com a análise pericial de identificação veicular, segundo a interpretação usual dessa normativa.",
+      "D": "embora não sejam identificadores diretos do veículo, fornecem elementos acessórios de contexto e podem ser consultados no site do Inmetro; lacre e selos servem para evidenciar intervenções no sistema de medição."
     },
     "resposta_correta": "D",
     "justificativa": "O PDF afirma: 'São afixados selos adesivos nas faces externas do aparelho (...) e um lacre plástico é instalado no cabo do velocímetro, junto ao ponto de conexão com o câmbio (...), cuja função é evidenciar eventuais intervenções no sistema de medição. Embora não constituam identificadores diretos do veículo, esses dados fornecem elementos acessórios de contexto para a análise pericial e podem ser consultados no site do Inmetro'.",
@@ -6269,10 +6269,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Os métodos de restauração de códigos identificadores obliterados são tradicionalmente classificados pela literatura pericial e baseiam-se em um pressuposto comum. Sobre esse pressuposto e a classificação dos métodos, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "O pressuposto é que a remoção mecânica jamais atinge a zona de deformação elástica, sendo essa a única zona explorada pelos métodos periciais para revelação dos caracteres.",
-      "B": "Os métodos pressupõem que a gravação original, ao deformar ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura, exploráveis por diferentes técnicas mesmo após a supressão aparente dos caracteres.",
-      "C": "Os métodos são exclusivamente destrutivos, incluindo apenas o ataque químico, o ataque eletrolítico e o tratamento térmico, sem qualquer alternativa não destrutiva disponível na prática pericial cotidiana dos institutos.",
-      "D": "O pressuposto é que a tinta utilizada para preenchimento da cavidade reage quimicamente com o reagente aplicado, permitindo a revelação do código por contraste cromático na superfície polida."
+      "A": "o pressuposto é que a remoção mecânica preserva a zona de deformação elástica, sendo essa a zona explorada pelos métodos periciais para revelação dos caracteres.",
+      "B": "os métodos pressupõem que a gravação original, ao deformar ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura, exploráveis por diferentes técnicas mesmo após a supressão aparente dos caracteres.",
+      "C": "os métodos são predominantemente destrutivos — ataque químico, ataque eletrolítico e tratamento térmico —, com escassas alternativas não destrutivas na rotina dos institutos.",
+      "D": "o pressuposto é que a tinta utilizada para preenchimento da cavidade reage quimicamente com o reagente aplicado, revelando o código por contraste cromático na superfície polida, de acordo com as práticas periciais recomendadas."
     },
     "resposta_correta": "B",
     "justificativa": "Conforme o texto: 'Os métodos de restauração de códigos identificadores obliterados baseiam-se no pressuposto de que a gravação original, ao deformar mecanicamente ou alterar fisicamente o substrato, deixa vestígios permanentes na estrutura do material, os quais podem ser explorados por diferentes técnicas periciais mesmo após a supressão aparente dos caracteres'. O texto também menciona métodos destrutivos e não destrutivos.",
@@ -6286,10 +6286,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O ataque químico é o método mais amplamente utilizado pela perícia criminal para recuperação de códigos obliterados em substratos metálicos. Sobre o mecanismo de ação do ataque químico e o reagente comumente empregado em ligas de aço, assinale a alternativa CORRETA:",
     "alternativas": {
-      "A": "O método se apoia no fato de que a área trabalhada a frio possui dureza igual à do metal circundante, sendo o contraste obtido apenas pela diferença de coloração depositada pelo reagente sobre a superfície previamente limpa e polida da peça metálica examinada pelo perito.",
-      "B": "O reagente de Fry, utilizado para ligas de aço, é composto por 90 g de CuCl2, 120 ml de HCl e 100 ml de H2O, sendo sua aplicação realizada por imersão obrigatória da peça em recipiente fechado por 24 horas.",
-      "C": "O método explora a diferença na taxa de reação entre áreas afetadas e não afetadas pela marcação, revelando os caracteres pela refletividade; em aço, usa-se o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O) em algodão embebido.",
-      "D": "O ataque químico produz reação uniforme em toda a superfície metálica, sendo o contraste obtido apenas pela ação mecânica do algodão sobre a área tratada, e não pela diferença de comportamento do substrato."
+      "A": "o método apoia-se no fato de a área trabalhada a frio ter dureza igual à do metal circundante, obtendo-se o contraste pela coloração depositada pelo reagente sobre a superfície previamente limpa e polida, como se observa nos casos concretos de perícia veicular.",
+      "B": "o reagente de Fry (90 g de CuCl2, 120 ml de HCl e 100 ml de H2O), utilizado para ligas de aço, é aplicado por imersão da peça em recipiente fechado por cerca de 24 horas.",
+      "C": "o método explora a diferença na taxa de reação entre áreas afetadas e não afetadas pela marcação, revelando os caracteres pela refletividade; em aço, usa-se o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O) em algodão embebido.",
+      "D": "o ataque químico produz reação uniforme em toda a superfície metálica, obtendo-se o contraste pela ação mecânica do algodão sobre a área tratada, e não pelo comportamento do substrato."
     },
     "resposta_correta": "C",
     "justificativa": "O texto descreve: 'o método se apoia no fenômeno da diferenciação na taxa de reação apresentada pelo substrato na aplicação do reagente químico, quando comparadas as áreas afetadas com as não afetadas, tornando os caracteres removidos visíveis em razão da diferença na refletividade da luz'. E ainda: 'Comumente, para ligas de aço, é utilizado o reagente de Fry (90 g CuCl2, 120 ml HCl, 100 ml H2O), cuja aplicação pode ser feita em algodão embebido'.",
@@ -6626,10 +6626,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em parecer anexado a inquérito, o representante do Ministério Público sustenta que o art. 311 do Código Penal, na redação resultante das Leis nº 9.426/1996 e 14.562/2023, tutela bem jurídico restrito ao patrimônio individual do proprietário do veículo cujo sinal foi adulterado, razão pela qual somente o VIN poderia ser objeto material do crime. Considerando o que o material didático aduz sobre a abrangência do tipo e o bem jurídico tutelado, assinale a alternativa que melhor REFUTA a tese do parecer.",
     "alternativas": {
-      "A": "O bem jurídico é a incolumidade pública no trânsito, de modo que a tutela penal recai apenas sobre os componentes mecânicos cuja adulteração tenha impacto direto e demonstrável na segurança da circulação do veículo.",
-      "B": "A tese é correta quanto ao bem jurídico, mas equivoca-se no objeto, pois, além do VIN, também os identificadores externos ostensivos, como a placa traseira lacrada, integram o patrimônio tutelado pela norma penal.",
-      "C": "O bem jurídico tutelado é a fé pública e a autenticidade do sistema de identificação veicular, e o tipo abrange não só o VIN, mas também placas, motores, câmbios, carrocerias e outros agregados com numeração identificadora.",
-      "D": "O bem jurídico protegido é a livre concorrência no mercado automotivo, alcançando exclusivamente as adulterações praticadas com finalidade de revenda comercial do veículo a consumidor de boa-fé."
+      "A": "o bem jurídico é a incolumidade pública no trânsito, recaindo a tutela penal sobre os componentes mecânicos cuja adulteração tenha impacto direto e demonstrável na segurança da circulação, nos termos da regulamentação técnica aplicável.",
+      "B": "a tese acerta quanto ao bem jurídico, mas equivoca-se no objeto, pois, além do VIN, também a placa traseira lacrada integraria o patrimônio individual tutelado pela norma.",
+      "C": "o bem jurídico tutelado é a fé pública e a autenticidade do sistema de identificação veicular, e o tipo abrange não só o VIN, mas também placas, motores, câmbios, carrocerias e outros agregados com numeração identificadora.",
+      "D": "o bem jurídico protegido é a livre concorrência no mercado automotivo, alcançando as adulterações praticadas com finalidade de revenda a consumidor de boa-fé."
     },
     "resposta_correta": "C",
     "justificativa": "Correta a alternativa C: o capítulo 2 afirma que o art. 311 'constitui um dos principais dispositivos penais de proteção à fé pública e à segurança do sistema de identificação veicular' e que 'o tipo penal abrange não só o VIN, mas também placas de identificação, motores, câmbios, carrocerias e outros agregados que possuam numeração ou marcação destinada à identificação' (p. 9). A erra porque o bem jurídico não é a incolumidade no trânsito nem se restringe a componentes mecânicos. B e D erram ao reduzir indevidamente o bem jurídico (a patrimônio individual ou livre concorrência) e ao restringir o objeto material, contrariando a ampla abrangência prevista no material (p. 9).",
@@ -6677,10 +6677,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma vistoria, o perito examina um veículo originalmente registrado na espécie de passageiros, cuja documentação foi alterada para a espécie de coleção mediante alegação de raridade e valor histórico. Indagado pelo delegado sobre a função adicional que a identificação veicular assume nesse novo enquadramento, e conforme o material didático, é CORRETO afirmar que, na espécie de coleção, a identificação veicular:",
     "alternativas": {
-      "A": "Perde relevância técnica, tornando-se dispensável a verificação dos sinais identificadores principais nesses veículos em razão de seu reconhecido valor histórico e cultural.",
-      "B": "Assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação.",
-      "C": "Equipara-se integralmente ao regime aplicável à espécie de competição, com dispensa de registro e de licenciamento e imposição de restrições severas de circulação em vias públicas.",
-      "D": "Passa a ser realizada exclusivamente por meio da placa de identificação externa, dispensando-se por completo a gravação de caracteres em qualquer elemento estrutural do veículo."
+      "A": "perde relevância técnica, tornando-se secundária a verificação dos sinais identificadores principais, em razão do reconhecido valor histórico e cultural do veículo.",
+      "B": "assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação.",
+      "C": "aproxima-se do regime aplicável à espécie de competição, com registro simplificado e restrições de circulação em vias públicas.",
+      "D": "passa a apoiar-se sobretudo na placa de identificação externa, com menor ênfase na gravação de caracteres nos elementos estruturais do veículo."
     },
     "resposta_correta": "B",
     "justificativa": "O capítulo 4, item 4.2.7, afirma que, na espécie de coleção, a identificação veicular assume função adicional de preservação da originalidade, tolerando exceções técnicas justificadas e regimes próprios de registro e circulação, sempre com atenção à manutenção da identidade histórica do bem (p. 18). A está errada porque a identificação não perde relevância; C confunde indevidamente coleção com competição; D inventa regime (dispensa de gravação estrutural) não previsto no material.",
@@ -6729,9 +6729,9 @@ const questoesDB = [
     "enunciado": "Em aula prática, o instrutor descreve numerações, códigos e etiquetas apostas em motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias, sob a forma de códigos próprios de fabricação, gravações seriadas, etiquetas metálicas ou autocolantes e marcações internas que auxiliam na rastreabilidade do veículo, embora não substituam o VIN. Conforme o material, esses elementos são tecnicamente designados como:",
     "alternativas": {
       "A": "identificadores secundários e terciários, que funcionam como elementos de corroboração, permitindo verificar coerência temporal e indícios de substituição de peças.",
-      "B": "sinais identificadores únicos e exclusivos, equivalentes ao VIN para todos os efeitos jurídicos e administrativos, prevalecendo sobre o chassi sempre que houver divergência entre eles.",
-      "C": "marcadores temporais complementares, assim entendidos os componentes raramente adulterados, como bombas injetoras, radiadores e sistemas de ar-condicionado, vinculados a lotes e períodos de produção.",
-      "D": "identificadores ostensivos primários, vinculados exclusivamente à identificação externa do veículo por meio das placas e das inscrições visíveis na carroceria do automóvel."
+      "B": "sinais identificadores únicos, equivalentes ao VIN para os efeitos jurídicos e administrativos, prevalecendo sobre o chassi em caso de divergência.",
+      "C": "marcadores temporais complementares, entendidos como os componentes raramente adulterados, como bombas injetoras, radiadores e sistemas de ar-condicionado, vinculados a lotes e períodos de produção.",
+      "D": "identificadores ostensivos primários, vinculados à identificação externa do veículo por meio das placas e das inscrições visíveis na carroceria."
     },
     "resposta_correta": "A",
     "justificativa": "Correta a A: o capítulo 5 afirma que 'um papel relevante é desempenhado pelos identificadores secundários e terciários, constituídos por numerações, códigos e etiquetas apostas em diversos componentes' (motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias) e que, 'embora esses códigos não substituam o VIN, eles funcionam como elementos de corroboração, permitindo verificar coerência temporal, compatibilidade entre conjuntos mecânicos e indícios de substituição ou reaproveitamento de peças'. B erra porque tais códigos não substituem nem equivalem ao VIN. C erra porque os marcadores temporais complementares são outra categoria (bombas, radiadores, centrais, ar-condicionado), não os componentes descritos no enunciado. D erra porque identificadores primários são VIN e placas, e não os códigos de componentes mecânicos.",
@@ -6779,10 +6779,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A Resolução Contran nº 241/2007 especificava o código de cadastramento do fabricante da placa e da tarjeta. Acerca da composição correta desse código, conforme o material, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Sigla do município de registro, seguida do número de inscrição do fabricante no cadastro nacional e do ano completo de fabricação, gravado exclusivamente em baixo relevo na tarjeta.",
-      "B": "Número de quatro algarismos, seguido da sigla da Unidade da Federação e do ano completo de fabricação, gravado em hot stamp na superfície refletiva da placa traseira do veículo.",
-      "C": "Número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo.",
-      "D": "Dois algarismos identificadores do estampador, seguidos da sigla da Unidade da Federação e do ano completo de fabricação da placa, gravados obrigatoriamente em alto relevo."
+      "A": "sigla do município de registro, seguida do número de inscrição do fabricante no cadastro nacional e do ano completo de fabricação, gravado em baixo relevo na tarjeta.",
+      "B": "número de quatro algarismos, seguido da sigla da Unidade da Federação e do ano completo de fabricação, gravado em hot stamp na superfície refletiva da placa traseira.",
+      "C": "número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo.",
+      "D": "dois algarismos identificadores do estampador, seguidos da sigla da Unidade da Federação e do ano completo de fabricação da placa, gravados em alto relevo."
     },
     "resposta_correta": "C",
     "justificativa": "O texto descreve: 'A Resolução 241/2007 [...] especificava o código de cadastramento do fabricante da placa e da tarjeta, composto por um número de três algarismos, seguido da sigla da Unidade da Federação e dos dois últimos algarismos do ano de fabricação, gravado em alto ou baixo relevo' (alternativa C). As demais divergem em ao menos um elemento: quantidade de algarismos (B e D), ano completo em vez dos dois últimos algarismos (A, B e D), forma de gravação restrita (A e D) ou conteúdo do código (A, que confunde com sigla de município e CNPJ/razão social, próprios dos dados do fabricante no padrão Mercosul).",
@@ -6796,10 +6796,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à Resolução Contran nº 969/2022 (padrão Mercosul), assinale a alternativa que descreve corretamente uma mudança trazida em relação ao regime normativo anterior.",
     "alternativas": {
-      "A": "Manteve a indicação do nome do município e da Unidade da Federação de registro na placa, acrescentando-lhe apenas o emblema do Mercosul e a bandeira do país de origem.",
-      "B": "Tornou facultativa a inserção do QR Code, que passou a ser exigido somente nas placas de veículos oficiais, diplomáticos e consulares, dispensando-o nos veículos de uso particular.",
-      "C": "Adotou combinação puramente numérica de sete dígitos sequenciais, ampliando a capacidade do sistema e eliminando o uso de quaisquer caracteres alfabéticos na identificação.",
-      "D": "Eliminou o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais."
+      "A": "manteve a indicação do nome do município e da Unidade da Federação de registro na placa, acrescentando-lhe o emblema do Mercosul e a bandeira do país de origem.",
+      "B": "tornou o QR Code facultativo, exigindo-o nas placas de veículos oficiais, diplomáticos e consulares e dispensando-o nos veículos de uso particular.",
+      "C": "adotou combinação numérica de sete dígitos sequenciais, ampliando a capacidade do sistema e reduzindo o uso de caracteres alfabéticos na identificação.",
+      "D": "eliminou o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais."
     },
     "resposta_correta": "D",
     "justificativa": "O material dispõe: 'O modelo Mercosul elimina o antigo lacre físico tradicional, substituindo-o por sistemas de fixação padronizados associados a controles digitais, o que desloca o foco do controle da manipulação física para a rastreabilidade administrativa e tecnológica' (alternativa D). A é falsa: a placa Mercosul deixa de exibir município e UF, indicando apenas o país. B é incorreta: o QR Code é elemento de segurança obrigatório. C é falsa: a combinação é alfanumérica mista (três letras, um número, uma letra e três números).",
@@ -6881,10 +6881,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A Resolução Contran nº 968/2022 estabelece uma identificação OCULTA de especial relevo pericial. Em qual local essa identificação oculta pode ser gravada, segundo opções delimitadas pela própria Resolução?",
     "alternativas": {
-      "A": "Exclusivamente no chassi do veículo, sendo terminantemente vedada qualquer outra posição de gravação.",
-      "B": "No monobloco, no chassi, na cabine ou, no caso de ônibus e micro-ônibus, na carroceria.",
-      "C": "Apenas em etiqueta autocolante destrutível afixada no compartimento do motor.",
-      "D": "Exclusivamente nos vidros laterais traseiros, em formato de marca d'água."
+      "A": "no chassi do veículo, sendo essa a única posição admitida pela norma para a gravação da identificação oculta.",
+      "B": "no monobloco, no chassi, na cabine ou, no caso de ônibus e micro-ônibus, na carroceria.",
+      "C": "em etiqueta autocolante destrutível afixada no compartimento do motor, conforme opção prevista pela Resolução.",
+      "D": "nos vidros laterais traseiros, em formato de marca d'água, conforme padrão definido pela norma."
     },
     "resposta_correta": "B",
     "justificativa": "O PDF prevê que a identificação oculta 'deve ser gravada em local escolhido a critério do fabricante, dentre opções delimitadas pela própria Resolução, podendo situar-se: no monobloco; no chassi; na cabine; ou na carroceria, nos casos de ônibus e micro-ônibus'.",
@@ -6949,10 +6949,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um veículo com carroceria monobloco submetido à perícia, onde o perito poderá encontrar a gravação do VIN, conforme as variações práticas indicadas pelo PDF?",
     "alternativas": {
-      "A": "Apenas na longarina esquerda do veículo, imediatamente abaixo do assoalho do compartimento de porta-malas, em um único ponto de gravação padronizado para todos os modelos.",
-      "B": "Exclusivamente sob o banco dianteiro do motorista, conforme regra única e padronizada para todos os monoblocos.",
-      "C": "Apenas no bloco do motor, sempre justaposta à gravação do número de identificação do próprio motor.",
-      "D": "Em elementos estruturais como a torre do amortecedor direito, a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta-fogo ou o assoalho do porta-malas."
+      "A": "na longarina esquerda, imediatamente abaixo do assoalho do compartimento de porta-malas, em um único ponto de gravação padronizado para todos os modelos.",
+      "B": "sob o banco dianteiro do motorista, conforme regra padronizada para todos os monoblocos.",
+      "C": "no bloco do motor, justaposta à gravação do número de identificação do próprio motor.",
+      "D": "em elementos estruturais como a torre do amortecedor direito, a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta-fogo ou o assoalho do porta-malas."
     },
     "resposta_correta": "D",
     "justificativa": "O PDF afirma: 'nos veículos com carroceria monobloco, a marcação aparece em elementos estruturais integrados, como a torre do amortecedor do lado direito (passageiro), a soleira da porta, o assoalho dianteiro ou traseiro, o painel corta‑fogo ou ainda o assoalho do porta‑malas'.",
@@ -7051,10 +7051,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia sobre veículo pesado, o perito identifica a numeração da caixa de câmbio em três veículos diferentes: um equipado com câmbio GM, outro Mercedes Benz e outro Scania. Com base no PVAT - Módulo I, qual afirmativa é correta?",
     "alternativas": {
-      "A": "Apenas câmbios Scania possuem numeração própria identificável, dada sua exclusividade em veículos pesados.",
-      "B": "A numeração da caixa de câmbio é padronizada entre os três fabricantes e gravada sempre em local idêntico na carcaça, com a mesma estrutura de caracteres definida em norma técnica.",
-      "C": "Por se tratar de agregado, a caixa de câmbio nunca consta em bancos de dados oficiais e só pode ser identificada por leitura eletrônica via scanner.",
-      "D": "Em veículos pesados, a caixa de câmbio costuma ter numeração própria na carcaça ou em plaqueta, que pode constar em bancos oficiais ou ser confirmada por carta-laudo ao fabricante."
+      "A": "os câmbios Scania destacam-se por apresentar numeração própria identificável, ao contrário dos câmbios GM e Mercedes Benz, desprovidos desse recurso.",
+      "B": "a numeração da caixa de câmbio é padronizada entre os três fabricantes e gravada em local idêntico na carcaça, com a mesma estrutura de caracteres definida em norma técnica.",
+      "C": "por se tratar de agregado, a caixa de câmbio não costuma constar em bancos de dados oficiais, sendo identificada por leitura eletrônica via scanner.",
+      "D": "em veículos pesados, a caixa de câmbio costuma ter numeração própria na carcaça ou em plaqueta, que pode constar em bancos oficiais ou ser confirmada por carta-laudo ao fabricante."
     },
     "resposta_correta": "D",
     "justificativa": "Página 39: em veículos pesados a caixa de câmbio possui numeração própria 'gravada na carcaça ou afixada por plaqueta, a qual pode constar em bancos de dados oficiais ou ser confirmada mediante consulta ao fabricante por meio de carta-laudo'.",
@@ -7289,10 +7289,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as zonas de deformação resultantes do processo de gravação por deformação no metal, assinale a alternativa correta.",
     "alternativas": {
-      "A": "Apenas a zona de deformação elástica é permanente no substrato e serve de base para a restauração pericial dos caracteres que foram obliterados.",
-      "B": "São duas zonas: a de deformação elástica (não permanente) e a de deformação plástica (permanente), explorada nas técnicas de restauração.",
-      "C": "A zona de deformação plástica é temporária e desaparece logo após a gravação, restando apenas a elástica.",
-      "D": "Apenas em gravações a laser surge a zona de deformação plástica; em gravações por deformação ela inexiste."
+      "A": "há uma única zona permanente no substrato, a de deformação elástica, que serve de base para a restauração pericial dos caracteres obliterados.",
+      "B": "são duas zonas: a de deformação elástica (não permanente) e a de deformação plástica (permanente), explorada nas técnicas de restauração.",
+      "C": "a zona de deformação plástica é temporária e se dissipa após a gravação, restando a de deformação elástica.",
+      "D": "a zona de deformação plástica surge sobretudo em gravações a laser; nas gravações por deformação, ela é pouco expressiva."
     },
     "resposta_correta": "B",
     "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
@@ -7357,10 +7357,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Considerando a profundidade de penetração da zona de deformação plástica em ligas de aço, a profundidade regulamentar do VIN e a espessura usual das chapas automotivas mencionadas no PVAT, assinale a alternativa correta.",
     "alternativas": {
-      "A": "A zona de deformação plástica em aço alcança até 2 vezes a profundidade da marcação, sendo, por isso, facilmente removida por simples abrasão superficial em chapas finas de cerca de 0,7 mm de espessura.",
-      "B": "A zona de deformação plástica em aço chega a 6 vezes a profundidade da marcação; com VIN de 0,2 mm e chapa de ~0,7 mm, remover completamente essa zona por abrasão é, em regra, inviável.",
-      "C": "A profundidade regulamentar do VIN é de 0,7 mm e a espessura da chapa, de 0,2 mm, motivo pelo qual a obliteração é sempre total.",
-      "D": "Em chapas de 0,7 mm, a zona termicamente afetada substitui a zona de deformação plástica, viabilizando a restauração apenas por tratamento térmico."
+      "A": "a zona de deformação plástica em aço alcança cerca de 2 vezes a profundidade da marcação, sendo removível por abrasão superficial em chapas finas de cerca de 0,7 mm de espessura.",
+      "B": "a zona de deformação plástica em aço chega a 6 vezes a profundidade da marcação; com VIN de 0,2 mm e chapa de ~0,7 mm, remover completamente essa zona por abrasão é, em regra, inviável.",
+      "C": "a profundidade regulamentar do VIN é de 0,7 mm e a espessura da chapa, de 0,2 mm, o que tornaria a obliteração total.",
+      "D": "em chapas de 0,7 mm, a zona termicamente afetada ocupa o lugar da zona de deformação plástica, viabilizando a restauração por tratamento térmico."
     },
     "resposta_correta": "B",
     "justificativa": "Conforme Cap. 12 - Restauração da gravação em metal do PDF PVAT - Módulo I.",
@@ -7374,10 +7374,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Entre os equipamentos amplamente disponíveis no comércio e que constituem fator de risco para fraudes em códigos identificadores de veículos, o PVAT cita:",
     "alternativas": {
-      "A": "Tornos CNC e prensas hidráulicas de grande porte, de uso restrito à indústria automobilística e indisponíveis no comércio comum.",
-      "B": "Apenas punção mecânica e estampagem industrial controlada.",
-      "C": "Exclusivamente equipamentos de microscopia eletrônica de varredura e laser industrial.",
-      "D": "Punção mecânica, micropercussão (dot peen), scribing, gravação eletrolítica e corrosão química com gabaritos."
+      "A": "tornos CNC e prensas hidráulicas de grande porte, de uso restrito à indústria automobilística e pouco acessíveis no comércio comum.",
+      "B": "sobretudo punção mecânica e estampagem industrial controlada.",
+      "C": "equipamentos de microscopia eletrônica de varredura e laser industrial de alta potência.",
+      "D": "punção mecânica, micropercussão (dot peen), scribing, gravação eletrolítica e corrosão química com gabaritos."
     },
     "resposta_correta": "D",
     "justificativa": "Conforme Cap. 13 - Recursos utilizados na fraude de códigos identificadores do PDF PVAT - Módulo I.",
@@ -7425,10 +7425,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia sobre veículo estrangeiro de modelo não comercializado no Brasil, o perito não localiza referência direta de valor de mercado nacional. Sobre as alternativas metodológicas autorizadas pela Portaria Ditec/PF Nº 1.563 para a avaliação, assinale a opção CORRETA:",
     "alternativas": {
-      "A": "Deve-se atribuir valor zero ao veículo, por inexistência de referência na tabela FIPE.",
-      "B": "A avaliação fica obrigatoriamente sobrestada até a publicação de tabela oficial específica para o modelo importado.",
-      "C": "A avaliação deve ser feita exclusivamente com base no valor unilateralmente declarado pelo proprietário do veículo, sendo vedada qualquer comparação, analogia ou estimativa por metodologia alternativa.",
-      "D": "A avaliação pode ser feita por analogia com similares no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia tecnicamente adequada e justificada."
+      "A": "deve-se atribuir valor zero ao veículo, ante a inexistência de referência na tabela FIPE.",
+      "B": "a avaliação fica sobrestada até a publicação de tabela oficial específica para o modelo importado.",
+      "C": "a avaliação apoia-se no valor declarado pelo proprietário do veículo, sem recurso a comparações ou estimativas por metodologia alternativa, consoante a doutrina especializada sobre identificação veicular.",
+      "D": "a avaliação pode ser feita por analogia com similares no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia tecnicamente adequada e justificada."
     },
     "resposta_correta": "D",
     "justificativa": "A pág. 66 dispõe: 'Quando o veículo for estrangeiro e inexistir parâmetro direto no mercado nacional, a avaliação pode ser realizada por analogia com veículos similares disponíveis no Brasil, por comparação proporcional com valores no país de origem ou por outra metodologia que o perito considere tecnicamente mais adequada, desde que devidamente justificada'.",
@@ -7493,10 +7493,10 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a relevância pericial das intervenções estruturais e funcionais voltadas à prática de ilícitos, assinale a alternativa CORRETA conforme o PVAT - Módulo I:",
     "alternativas": {
-      "A": "Como tais intervenções fogem do escopo da Portaria Ditec/PF Nº 1.563, o perito deve apenas mencioná-las brevemente em campo livre do laudo, sem aprofundar a respectiva descrição técnica ou fotográfica.",
-      "B": "A correta identificação e descrição dessas intervenções são fundamentais para caracterizar o contexto criminoso, fundamentar o laudo e permitir a adequada valoração probatória.",
-      "C": "Por se tratarem de adaptações reversíveis, sua descrição no laudo é considerada redundante, bastando o registro fotográfico.",
-      "D": "A análise técnica dessas modificações cabe exclusivamente ao setor de investigação policial, e não ao perito criminal federal."
+      "A": "por fugirem do escopo da Portaria Ditec/PF nº 1.563, tais intervenções são mencionadas de forma sucinta em campo livre do laudo, sem descrição técnica ou fotográfica detalhada.",
+      "B": "a correta identificação e descrição dessas intervenções são fundamentais para caracterizar o contexto criminoso, fundamentar o laudo e permitir a adequada valoração probatória.",
+      "C": "por se tratarem de adaptações reversíveis, sua descrição detalhada no laudo é considerada redundante, bastando o registro fotográfico.",
+      "D": "a análise técnica dessas modificações compete ao setor de investigação policial, e não ao perito criminal federal."
     },
     "resposta_correta": "B",
     "justificativa": "A pág. 71 conclui o capítulo: 'A correta identificação e descrição técnica dessas intervenções são fundamentais para a caracterização do contexto criminoso, para a fundamentação do laudo pericial e para a adequada valoração probatória no âmbito da investigação'.",
