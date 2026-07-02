@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 7 - Exames em Equipamentos Eletrônicos Portáteis</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.0em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95em; }
+        th, td { border: 1px solid #e2e8f0; padding: 9px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+        code { background: #edf2f7; padding: 1px 6px; border-radius: 4px; font-family: monospace; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 7 - Exames em Equipamentos Eletrônicos Portáteis</h1>
+        <div class="subtitle">Celulares, smartphones, tablets, GPS e drones</div>
+    </div>
+
+    <div class="box-blue">
+        <p>Trata dos exames cujo objetivo é a <strong>extração e a análise de dados</strong> de equipamentos computacionais portáteis (celulares, tablets, agendas eletrônicas, GPS e drones). A <strong>Instrução Técnica 017/2013-Ditec/DPF</strong> estabelece diretrizes e padroniza os exames em aparelhos capazes de se comunicar a uma rede de telefonia móvel — do recebimento do material à análise de viabilidade, à análise pericial e às respostas aos quesitos. Há ainda o <strong>Manual de Perícias em Equipamentos Computacionais Portáteis</strong> (anexo).</p>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">7.1 Dispositivos móveis: conceitos fundamentais</a></li>
+            <li><a href="#s2">7.2.1 Descrição do material</a></li>
+            <li><a href="#s3">7.2.2 Exames e formas de extração</a></li>
+            <li><a href="#s4">7.2.3 Dificuldades</a></li>
+            <li><a href="#s5">7.2.4 Ferramentas forenses</a></li>
+            <li><a href="#s6">7.3 Criptografia para dispositivos móveis</a></li>
+            <li><a href="#s7">7.4 Busca e apreensão (cenários)</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>7.1 Dispositivos móveis: conceitos fundamentais</h2>
+        <p>O smartphone acompanha o investigado em tempo integral, registrando localização, comunicações, hábitos, finanças e rede de contatos — assumindo papel <strong>tão ou mais importante que o de desktops e notebooks</strong> nas perícias de informática. É preciso dominar as tecnologias de comunicação:</p>
+        <table>
+            <tr><th>Tecnologia</th><th>Identificadores</th></tr>
+            <tr><td><strong>CDMA</strong> (Code Division Multiple Access)</td><td>Número único global por dispositivo: <strong>ESN</strong> (Electronic Serial Number) ou <strong>MEID</strong> (Mobile Equipment Identifier). Hoje <strong>praticamente inexistente no Brasil</strong>.</td></tr>
+            <tr><td><strong>GSM</strong> (Global System for Mobile Communications) e <strong>iDEN</strong></td><td>Distingue a identificação do <strong>equipamento</strong> e a do <strong>usuário</strong>: o <strong>IMEI</strong> (International Mobile Equipment Identity) identifica unicamente o <strong>aparelho</strong>; o <strong>IMSI</strong> (International Mobile Subscriber Identity) identifica o <strong>assinante</strong> (usado pelas operadoras). Usa o cartão <strong>SIM</strong>.</td></tr>
+        </table>
+        <div class="box-blue">
+            <span class="box-title">Cartão SIM (Subscriber Identity Module)</span>
+            <p>Pequeno <em>smart card</em> vinculado pela operadora a uma linha; armazena agenda e SMS. O <strong>IMSI é armazenado no SIM</strong>. Cada SIM tem um código único mundial: o <strong>ICCID</strong> (Integrated Circuit Card Identifier), com <strong>20 dígitos</strong>, que pode estar impresso no cartão. Existem quatro tamanhos: <strong>mini, micro, nano e eSIM</strong>. O <strong>eSIM</strong> é um microchip <strong>soldado na placa-mãe</strong> durante a fabricação, que recebe as credenciais da operadora via software e também armazena <strong>MSISDN</strong> e <strong>ICCID</strong>.</p>
+        </div>
+        <div class="box-orange">
+            <p>Um celular GSM só opera se um <strong>SIM com IMSI válido</strong> for inserido em um <strong>aparelho com IMEI válido</strong>. O SIM pode ser usado facilmente em vários telefones (<strong>exceto o eSIM</strong>, que precisa ser importado via software), e um mesmo usuário pode ter mais de uma linha em um aparelho.</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — IMEI × IMSI</span>
+            <strong>IME<u>I</u></strong> = identifica o aparelho (equipamento). <strong>IMS<u>I</u></strong> = identifica o <strong>assinante</strong> (fica no <strong>SIM</strong>). ICCID = "RG" do cartão (20 dígitos).
+        </div>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>7.2.1 Descrição do material</h2>
+        <p>Primeiro passo da análise: identificar e descrever, de forma clara, todos os componentes e o estado de conservação, mantendo a <strong>unicidade</strong> do material (evita troca, extravio ou perda). Os números por tecnologia:</p>
+        <table>
+            <tr><th>Tecnologia</th><th>Identificador do aparelho</th></tr>
+            <tr><td><strong>CDMA</strong></td><td><strong>ESN</strong>, geralmente encontrado <strong>sob a bateria</strong>; <strong>onze dígitos numéricos</strong> ou <strong>oito alfanuméricos</strong>.</td></tr>
+            <tr><td><strong>GSM e iDEN</strong></td><td><strong>IMEI</strong> (sob a bateria, na tampa traseira ou na gaveta do SIM); <strong>quinze dígitos numéricos</strong>. Em grande parte dos aparelhos, pode ser obtido digitando <code>*#06#</code>.</td></tr>
+        </table>
+        <p>Os cartões SIM presentes devem ser identificados, informando no laudo: a <strong>operadora</strong>, o <strong>ICCID</strong>, o <strong>IMSI</strong> e o <strong>MSISDN</strong>. Devem-se descrever também acessórios (carregadores, capas) e a bateria.</p>
+    </div>
+
+    <div id="s3" class="section">
+        <h2>7.2.2 Exames e formas de extração</h2>
+        <p>Os exames consistem em obter os dados da memória. <strong>Ressalva importante:</strong> não se pode garantir que os registros de ligações e mensagens na memória do aparelho ou no SIM correspondam aos da operadora — <strong>apenas a operadora informa com precisão</strong> as chamadas e mensagens (o usuário pode apagá-los no aparelho).</p>
+        <div class="box-red">
+            <span class="box-title">Isolamento de rede (evitar wipe remoto)</span>
+            <p>É fundamental <strong>isolar o dispositivo de qualquer rede</strong>. A maioria dos fabricantes oferece <strong>wipe remoto</strong>: <em>Find my iPhone</em> (Apple), <em>Find my device</em> (Android), <em>Find my mobile</em> (Samsung). Estratégias de isolamento: <strong>remover o(s) SIM</strong>, usar <strong>bolsas/caixas de Faraday</strong> e ativar o <strong>modo avião</strong>.</p>
+        </div>
+        <div class="box-orange">
+            <p>Os cartões SIM e de memória devem ser analisados <strong>separadamente</strong>, com leitores específicos. <strong>Não</strong> se recomenda inseri-los em aparelho diverso, pois pode haver troca de informações, sobrescrevendo dados (ex.: o histórico de IMEIs atrelados àquele SIM).</p>
+        </div>
+        <p>A extração pode usar ferramentas forenses, cabos com softwares adequados ou a navegação pelo menu com transcrição. Os dados dependem do SO, da versão e dos aplicativos — abrangendo, por exemplo: anotações, aplicativos instalados, autopreenchimento, bate-papos, calendário, cartões móveis, conexões IP, contas do usuário, contatos, dados SIM, dicionários, dispositivos Bluetooth, e-mails, eventos de energia, gravações, artefatos de navegação web, itens pesquisados, locais do dispositivo, SMS/MMS, notificações, redes sem fio, registros de chamadas, senhas, torres de célula, usuários e utilização de aplicativos. Smartphones têm estrutura semelhante à de mídias de armazenamento — o sistema de arquivos pode ser analisado e os apagados, recuperados.</p>
+        <h3>Quatro formas de extração</h3>
+        <table>
+            <tr><th>Forma</th><th>Características</th></tr>
+            <tr><td><strong>Manual</strong></td><td>O perito manuseia a própria interface e registra por fotos, vídeos ou transcrição. Não exige ferramentas especiais, mas só extrai o que está <strong>diretamente visível</strong> e é <strong>extremamente demorada</strong>.</td></tr>
+            <tr><td><strong>Lógica</strong></td><td>Cópia dos arquivos e pastas <strong>logicamente</strong> armazenados, via ferramentas forenses. É a <strong>mais fácil</strong> de ser suportada, porém retorna a <strong>menor quantidade</strong> de dados (não recupera apagados nem acessa a área protegida).</td></tr>
+            <tr><td><strong>Via sistema de arquivos</strong></td><td>Acessa o sistema de arquivos e consulta a base de dados para <strong>recuperar apagados</strong>. Útil para entender a estrutura, o histórico web e o uso de aplicativos, e permite analisar arquivos não decodificados pela ferramenta.</td></tr>
+            <tr><td><strong>Física</strong></td><td>Cópia de <strong>toda a área de armazenamento físico</strong> (memória flash) — o método <strong>mais próximo do exame em computador</strong> e o <strong>mais abrangente</strong>, permitindo recuperar apagados. Como os fabricantes bloqueiam o acesso direto, os equipamentos usam <em>bootloaders</em> próprios. Divide-se em <strong>dumping da memória</strong> e <strong>decodificação</strong> — mesmo extraído, um app específico pode não ser decodificado.</td></tr>
+        </table>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — extração: do menos ao mais abrangente</span>
+            <strong>Manual &lt; Lógica &lt; Sistema de arquivos &lt; Física</strong>. A <strong>lógica</strong> é a mais fácil, mas a que <strong>menos</strong> traz; a <strong>física</strong> é a mais completa (recupera apagados) e mais complexa.
+        </div>
+    </div>
+
+    <div id="s4" class="section">
+        <h2>7.2.3 Dificuldades</h2>
+        <table>
+            <tr><th>Dificuldade</th><th>Como lidar</th></tr>
+            <tr><td><strong>Bateria</strong></td><td>Garantir carga total antes do exame (evita desligamentos que comprometem a extração). Baterias podem estar danificadas, degradadas ou instáveis (o <strong>inchaço</strong> exige atenção à segurança — risco de <strong>incêndio ou explosão</strong>). Pode ser preciso substituí-la: em modelos recentes, a tampa é colada e exige aquecimento controlado e ferramentas. Toda intervenção física deve ser <strong>documentada</strong> (cadeia de custódia); priorizar abordagens menos invasivas. Alternativa: <strong>fonte de alimentação externa</strong>.</td></tr>
+            <tr><td><strong>Código de travamento e senhas</strong></td><td>Android e iOS podem estar configurados para <strong>apagar os dados após um número de tentativas</strong>. O perito pode fazer <strong>tentativas controladas</strong> ou usar <em>exploits</em>. Sem sucesso, ainda pode obter dados do <strong>SIM e do cartão de memória</strong>; em alguns modelos, cabe extração <strong>parcial</strong> de dados fora da área protegida por criptografia.</td></tr>
+            <tr><td><strong>Número da linha</strong></td><td>Em GSM, a linha está associada ao <strong>SIM, não ao aparelho</strong> (a operadora vincula o número ao IMSI). O campo "Meu número" registra valor inserido pelo usuário (campo <strong>MSISDN</strong> do SIM) e <strong>pode não corresponder</strong> à linha — citável no laudo com ressalvas. O número correto deve ser informado pela <strong>operadora</strong>, via ICCID ou IMSI.</td></tr>
+            <tr><td><strong>Aparelho danificado</strong></td><td>Danos (conector USB, display) podem ser superados por <strong>substituição temporária</strong> de componente; falhas de conectividade às vezes são só sujeira/oxidação (limpeza). Casos complexos podem exigir assistência técnica. Registrar todas as ações (cadeia de custódia).</td></tr>
+            <tr><td><strong>Erros durante a extração</strong></td><td>Técnicas avançadas (<strong>desbloqueio de bootloader, root, jailbreak</strong>) têm riscos e podem inutilizar o aparelho. Recomenda-se <strong>abordagem progressiva</strong>: iniciar por métodos menos invasivos e seguros; só depois avaliar os avançados, considerando riscos, relevância dos dados e documentação.</td></tr>
+        </table>
+    </div>
+
+    <div id="s5" class="section">
+        <h2>7.2.4 Ferramentas forenses</h2>
+        <p>Variam em complexidade, custo e abrangência de modelos. O perito não deve se ater a uma só: como cada ferramenta tem capacidades diferentes, uma pode obter dados que outra não consegue, e <strong>usadas em conjunto se complementam</strong>. As mais sofisticadas realizam extração lógica ou física por cabos ou equipamento específico — destacam-se o <strong>Cellebrite Inseyets</strong> e o <strong>Magnet GrayKey</strong>.</p>
+    </div>
+
+    <div id="s6" class="section">
+        <h2>7.3 Conceitos de criptografia para dispositivos móveis</h2>
+        <h3>7.3.1 Tipos de bloqueio de acesso</h3>
+        <table>
+            <tr><th>Bloqueio</th><th>Descrição</th><th>Segurança</th></tr>
+            <tr><td><strong>Numérica (PIN)</strong></td><td>Inserção de <strong>4 a 8 algarismos</strong>. Um dos mais comuns.</td><td>Média</td></tr>
+            <tr><td><strong>Padrão geométrico</strong></td><td>"Desenho" definido pelo usuário; número limitado de padrões e geralmente fácil.</td><td>Baixa</td></tr>
+            <tr><td><strong>Alfanumérica</strong></td><td>Caracteres alfanuméricos, em quantidade definida pelo usuário; senhas complexas.</td><td>Alta</td></tr>
+            <tr><td><strong>Biométrica</strong></td><td>Digital, íris ou face. Normalmente <strong>combinada</strong> com outro tipo (PIN/padrão), exigido ao reiniciar ou após longo período sem desbloqueio.</td><td>—</td></tr>
+        </table>
+        <h3>7.3.2 Criptografia do aparelho celular</h3>
+        <p>Transforma informações legíveis em formato <strong>embaralhado</strong>, compreensível apenas com a <strong>chave correta</strong> (associada a senha, PIN ou biometria). É aplicada <strong>automaticamente</strong> aos arquivos. Dois conceitos: <strong>dado criptografado</strong> (informação ilegível) e <strong>chave criptográfica</strong> (converte de volta; sem ela, o acesso é inviável na prática).</p>
+        <table>
+            <tr><th>Modelo</th><th>Definição</th></tr>
+            <tr><td><strong>FDE</strong> — Full Disk Encryption</td><td>Todo o conteúdo é protegido de forma <strong>única e integrada</strong>, com uma <strong>única chave principal</strong>.</td></tr>
+            <tr><td><strong>FBE</strong> — File-Based Encryption</td><td>Modelo <strong>mais avançado</strong>: dados protegidos individualmente ou em grupos, com <strong>diferentes chaves</strong>.</td></tr>
+        </table>
+        <h3>7.3.3 Estados de criptografia (AFU × BFU)</h3>
+        <p>O estado do aparelho no momento da apreensão é <strong>crítico</strong> para o sucesso da análise.</p>
+        <table>
+            <tr><th>Estado</th><th>Quando ocorre</th><th>Consequência</th></tr>
+            <tr><td><strong>BFU</strong> — Before First Unlock</td><td>Aparelho ligado ou reiniciado, mas <strong>ainda não desbloqueado</strong> pelo usuário.</td><td>Dados <strong>fortemente protegidos</strong> — as chaves principais ainda <strong>não</strong> foram carregadas na RAM.</td></tr>
+            <tr><td><strong>AFU</strong> — After First Unlock</td><td>Usuário já desbloqueou <strong>ao menos uma vez</strong> após ligar.</td><td>As chaves são <strong>carregadas na RAM</strong>, permitindo acesso a uma quantidade <strong>muito maior</strong> de dados.</td></tr>
+        </table>
+        <div class="box-green">
+            <span class="box-title">Preservação do estado AFU</span>
+            <p>Se o aparelho está em <strong>AFU</strong>, a prioridade absoluta é <strong>evitar que volte a BFU</strong>. Medidas: manter ligado e com carga (power banks); ativar modo avião; desabilitar rede celular, Wi-Fi e Bluetooth; usar bolsas de Faraday; <strong>não desligar ou reiniciar sob nenhuma hipótese</strong>; e extrair os dados o mais rápido possível.</p>
+        </div>
+        <div class="box-red">
+            <p>A inobservância pode causar: recebimento de <strong>comandos remotos de wipe</strong>; e <strong>perda do estado AFU</strong> por longo período sem desbloqueio (reinício automático). Se o aparelho voltar a BFU (reinício, desligamento ou falta de bateria), as chaves são <strong>removidas da memória</strong> e os dados, embora presentes, permanecem criptografados e inacessíveis em determinados aparelhos, mesmo com ferramentas avançadas.</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — AFU × BFU</span>
+            <strong>AFU = "já abriu"</strong> → chaves na RAM → <strong>bom para o perito</strong> (mantenha ligado, não reinicie!). <strong>BFU = "nunca abriu"</strong> → chaves fora da RAM → dados trancados.
+        </div>
+    </div>
+
+    <div id="s7" class="section">
+        <h2>7.4 Busca e apreensão de dispositivos móveis</h2>
+        <p>Os cenários classificam-se pelo <strong>estado do aparelho</strong> e pelo <strong>nível de acesso</strong>. A correta identificação do cenário é etapa essencial para preservar evidências, chaves criptográficas e mitigar risco de alteração remota.</p>
+        <table>
+            <tr><th>Cenário</th><th>Procedimento</th></tr>
+            <tr><td><strong>Ligado com senha fornecida</strong></td><td>Ativar modo avião e confirmar bloqueio de conexões; <strong>validar a senha sem alterá-la ou removê-la</strong>; verificar senhas de apps/recursos protegidos (WhatsApp, pasta segura); <strong>anotar todas</strong>. Quando possível, desativar conteúdos temporários; em iPhones, tentar desativar a proteção contra roubo. Ao final, <strong>desligar</strong> o aparelho.</td></tr>
+            <tr><td><strong>Desligado com senha fornecida</strong></td><td><strong>Remover e identificar os SIM</strong>; ligar, ativar modo avião e validar a senha; seguir o fluxo de "ligado com senha", registrando a senha nos documentos de apreensão.</td></tr>
+            <tr><td><strong>Ligado sem senha fornecida</strong></td><td>Priorizar a <strong>apreensão imediata</strong> se estiver em uso; ativar modo avião e tentar remover o bloqueio, se viável; buscar a senha com terceiros; <strong>manter ligado</strong>, isolado em bolsa de Faraday com alimentação contínua. Em iPhones, observar o estado (<strong>AFU/BFU</strong>) e considerar envio rápido para extração.</td></tr>
+            <tr><td><strong>Desligado sem senha fornecida</strong></td><td>Buscar a senha com pessoas no local; se obtida, seguir o fluxo de "desligado com senha fornecida".</td></tr>
+            <tr><td><strong>Ligado sem bloqueio aparente</strong></td><td>Ativar modo avião e verificar se há senha configurada nas definições; se houver, tratar conforme os cenários com senha; se não houver bloqueio, <strong>desligar</strong> o aparelho.</td></tr>
+        </table>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — regra de ouro em campo</span>
+            <strong>Sempre isolar da rede</strong> (modo avião / Faraday / remover SIM). Aparelho <strong>ligado e acessível</strong>: mantenha vivo e extraia rápido (AFU). Com senha validada ou sem interesse em manter vivo: pode <strong>desligar</strong> ao final.
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 8 - Laudo e Anexos Digitais</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.1em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.96em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+        code { background: #edf2f7; padding: 1px 6px; border-radius: 4px; font-family: monospace; }
+        .flow { display: flex; flex-direction: column; gap: 0; margin: 20px 0; align-items: center; }
+        .flow-step { background: #ebf8ff; border: 2px solid #3182ce; border-radius: 8px; padding: 10px 16px; text-align: center; max-width: 760px; font-weight: 600; color: #2c5282; }
+        .flow-arrow { color: #a0aec0; font-size: 1.5em; line-height: 1; margin: 4px 0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 8 - Laudo e Anexos Digitais</h1>
+        <div class="subtitle">Estrutura do laudo, integridade e autenticidade dos anexos</div>
+    </div>
+
+    <div class="box-blue">
+        <p>O laudo de exame de vestígios digitais deve descrever em detalhes <strong>todos os procedimentos</strong> adotados, os <strong>resultados</strong> obtidos e a <strong>forma de apresentação</strong> — que geralmente é uma seleção de arquivos gravados em mídia anexa.</p>
+    </div>
+    <div class="box-orange">
+        <span class="box-title">Estrutura típica do laudo de informática</span>
+        <p>Além do <strong>preâmbulo</strong>: <strong>Histórico</strong> (opcional); <strong>Material</strong>; <strong>Objetivo</strong>; <strong>Exame</strong>; e <strong>Respostas aos quesitos ou Conclusão</strong>. Considerações técnicas costumam vir em <strong>apêndices</strong>.</p>
+    </div>
+    <p>Quando são poucos arquivos (planilhas, documentos, e-mails), podem ser <strong>incorporados no corpo</strong> do laudo. O mais comum, porém, é <strong>exportar e gravar em mídia anexa</strong> — quando o volume é grande ou os arquivos não podem ser visualizados em um documento (executáveis, áudio, vídeo). Os arquivos vão em <strong>formato original</strong>, facilitando manipulação, busca e ordenação.</p>
+    <div class="box-red">
+        <p>O maior problema do anexo digital é <strong>garantir a integridade</strong>: alguém poderia replicar o conteúdo, inserir/alterar um arquivo ou substituir a mídia sem deixar vestígios. Por isso é imprescindível permitir a <strong>qualquer interessado verificar a integridade dos dados e a autenticidade dos anexos</strong> — ou seja, confirmar que os dados não foram alterados e que tudo (e somente aquilo) que o perito encaminhou continua presente.</p>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">8.1 Garantia de integridade e autenticidade</a></li>
+            <li><a href="#s2">8.2 Procedimentos para geração do anexo</a></li>
+            <li><a href="#s3">8.3 Procedimentos para verificação do anexo</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>8.1 Garantia de integridade e autenticidade</h2>
+        <p>Com o uso de <strong>funções de hash</strong>, garante-se que um arquivo não seja alterado sem que isso seja inequivocamente detectado (<strong>integridade</strong>) — condição para a aceitação de vestígios digitais em mídias.</p>
+        <div class="box-blue">
+            <span class="box-title">Integridade dos arquivos (na PF)</span>
+            <p>Cada arquivo do anexo é submetido ao cálculo de um <strong>hash</strong>, cujo resultado é registrado em uma linha de um <strong>arquivo de texto</strong>. Ao final, obtém-se uma <strong>lista de todos os arquivos com seus respectivos hashes</strong> (em hexadecimal), gravada na própria mídia anexa. Fica garantida a <strong>integridade individual</strong> de cada arquivo, pois seus hashes podem ser verificados a qualquer momento.</p>
+        </div>
+        <div class="box-green">
+            <span class="box-title">Autenticidade da mídia</span>
+            <p>Surge a questão: como garantir que a lista de hashes é a que foi gerada pelo perito? A solução: calcula-se o <strong>hash do arquivo de texto que contém a lista de hashes</strong> e transcreve-se esse valor <strong>no corpo do Laudo</strong>, que é <strong>assinado digitalmente</strong>. Assim, vinculam-se a <strong>integridade dos arquivos</strong> e a <strong>autenticidade da mídia</strong> ao teor do laudo. Observação: o mecanismo de <strong>autenticidade também garante a integridade</strong>.</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — "hash dos hashes"</span>
+            Hash de <strong>cada arquivo</strong> → lista <code>hashes.txt</code> (integridade). Hash <strong>do hashes.txt</strong> → no corpo do laudo assinado (autenticidade). <strong>Autenticidade ⊃ integridade.</strong>
+        </div>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>8.2 Procedimentos para geração do anexo</h2>
+        <div class="flow">
+            <div class="flow-step"><strong>a)</strong> Criar a lista de hashes de todos os arquivos do anexo → salvar em <code>hashes.txt</code></div>
+            <div class="flow-arrow">▼</div>
+            <div class="flow-step"><strong>b)</strong> Calcular o hash do <code>hashes.txt</code> → transcrever o valor no corpo do Laudo</div>
+            <div class="flow-arrow">▼</div>
+            <div class="flow-step"><strong>c)</strong> Gerar arquivo-contêiner (ISO, ZIP, E01) com os arquivos + <code>hashes.txt</code> → gravar na mídia anexa</div>
+        </div>
+        <div class="box-orange">
+            <p>Na gravação, adotam-se providências para que a mídia <strong>não permita alterações</strong>: uso de <strong>mídias óticas não regraváveis</strong> ou de <strong>pendrives/HDs externos configurados como somente leitura</strong> (por exemplo, pelo comando <strong>DiskPart</strong>).</p>
+        </div>
+    </div>
+
+    <div id="s3" class="section">
+        <h2>8.3 Procedimentos para verificação do anexo</h2>
+        <table>
+            <tr><th>Passo</th><th>Ação</th><th>Resultado esperado</th></tr>
+            <tr><td><strong>a) Integridade da lista de hashes</strong></td><td>Calcular o hash do <code>hashes.txt</code> contido no anexo e comparar com o valor presente no <strong>corpo do Laudo</strong>.</td><td><strong>Dois valores idênticos</strong> (o do laudo e o recém-calculado).</td></tr>
+            <tr><td><strong>b) Integridade dos arquivos</strong></td><td>Calcular o hash de <strong>todos os arquivos</strong> gravados na mídia e comparar com os valores da listagem <code>hashes.txt</code>.</td><td>Correta verificação de <strong>todos</strong> os arquivos, sem nenhuma falha.</td></tr>
+        </table>
+        <div class="box-green">
+            <p>Cumpridos os dois passos, garantem-se a <strong>autenticidade da mídia</strong> e a <strong>integridade do seu conteúdo</strong>.</p>
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

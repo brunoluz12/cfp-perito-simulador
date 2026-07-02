@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 4 - Duplicação Forense de Mídias</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.96em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 4 - Duplicação Forense de Mídias</h1>
+        <div class="subtitle">A preservação do vestígio digital ("espelhamento")</div>
+    </div>
+
+    <div class="box-blue">
+        <p>Após a busca e apreensão, o próximo passo é a <strong>preservação</strong>. Diferentemente de outros vestígios, uma mídia de armazenamento pode ser <strong>fielmente duplicada</strong>: feita com equipamentos e técnicas adequadas, a cópia é <strong>idêntica à original e possui valor legal reconhecido</strong>. A <strong>duplicação forense</strong> (ou <strong>"espelhamento"</strong>) é a cópia integral dos dados de uma mídia para outra — um momento crítico do trabalho pericial.</p>
+    </div>
+
+    <div class="box-orange">
+        <span class="box-title">Regras gerais</span>
+        <ul>
+            <li>Antes de iniciar, as mídias devem ser <strong>identificadas com etiquetas</strong>: a analisada (material original apreendido) é a <strong>"origem"</strong>; a que abrigará a cópia é o <strong>"destino"</strong>.</li>
+            <li>O destino deve ter capacidade <strong>igual ou superior</strong> à origem — aconselha-se sempre <strong>superior</strong>, pois há pequenas variações de capacidade nominal entre fabricantes.</li>
+            <li>Feita a duplicação, <strong>todas as etapas seguintes ocorrem sobre a cópia</strong>; a original é lida uma única vez e permanece <strong>preservada e inalterada</strong>. O procedimento <strong>não modifica nenhum bit</strong> da original, e a integridade da cópia é verificada por <strong>hash</strong> ao final.</li>
+        </ul>
+    </div>
+
+    <div class="box-red">
+        <span class="box-title">Duplicação forense × cópia lógica</span>
+        <p>A duplicação forense é <strong>diferente</strong> de uma cópia lógica ("copiar e colar" do Windows Explorer). Ela copia não só os dados <strong>visíveis</strong> no sistema de arquivos (lembre-se do iceberg), mas <strong>todas as demais informações</strong> da mídia — metadados e arquivos apagados. Todo o conteúdo é copiado: <strong>do primeiro ao último bit</strong>. As atividades da PF estão no <strong>"Manual de Duplicação Forense de Mídias de Armazenamento Computacionais"</strong> (INC).</p>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">4.1 Tipos de duplicação forense</a></li>
+            <li><a href="#s2">4.2 Equipamentos utilizados</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>4.1 Tipos de duplicação forense</h2>
+        <table>
+            <tr><th></th><th>Mídia para mídia</th><th>Mídia para arquivo-imagem</th></tr>
+            <tr><td><strong>O que é</strong></td><td>Cópia completa dos dados da origem <strong>diretamente para outra mídia</strong> de destino, bit a bit.</td><td>Cópia completa dos dados da origem para <strong>um ou mais arquivos</strong> gravados na mídia de destino, bit a bit.</td></tr>
+            <tr><td><strong>Quando usar</strong></td><td>Quando o destino <strong>substituirá</strong> a original: ex.: devolver ao investigado o conteúdo de um HD (original fica com a perícia); ou para exames que exijam inicializar o computador (o disco de origem é trocado pelo de destino, e as alterações ocorrem na cópia).</td><td>Uma mídia de destino pode abrigar cópias de <strong>diversas origens</strong>. Pela flexibilidade de analisar vários arquivos-imagem e pela facilidade de manter a integridade, é o <strong>método mais indicado para exames periciais</strong>.</td></tr>
+            <tr><td><strong>"Zerar" o destino?</strong></td><td><strong>Sim</strong> — sempre. O destino deve ser previamente <strong>"zerado"</strong> (<em>zero fill</em> ou <em>wipe</em>): gravar zeros em todo o conteúdo, para que dados preexistentes não se confundam com os copiados.</td><td><strong>Não</strong> é necessário zerar após cada duplicação, pois o conteúdo da origem fica restrito aos arquivos gerados — sem risco de confusão com dados preexistentes.</td></tr>
+        </table>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — quando "zerar"</span>
+            <strong>Zera só na mídia-para-mídia</strong> (substituição). Na <strong>mídia-para-arquivo-imagem</strong> não precisa zerar — e ela é a <strong>preferida para exames</strong>.
+        </div>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>4.2 Equipamentos utilizados</h2>
+        <p>A duplicação pode ser feita por <strong>equipamento forense especializado</strong> ou por <strong>computador comum</strong>. Ambos realizam os dois tipos de duplicação, a critério do perito.</p>
+        <h3>4.2.1 Equipamento forense especializado</h3>
+        <div class="box-blue">
+            <p>Vantagens: facilidade de uso, bom desempenho e a <strong>garantia (quando bem utilizado) de que a original não será alterada</strong>. As mídias (origem e destino) são conectadas em entradas específicas; ao final, o equipamento emite um <strong>relatório</strong> com a identificação das mídias (marcas, modelos e números de série), as informações do processo e o <strong>hash</strong> dos dados copiados. Pressupõe acesso direto à mídia (é possível <strong>retirá-la</strong> do equipamento — o que ocorre na maioria dos casos). Exemplos: <strong>Tableau TD3, Tableau TX1 e Atola</strong> — portáteis, com interface para praticamente todos os discos e capazes de <strong>duplicações simultâneas</strong>, inclusive em campo.</p>
+        </div>
+        <h3>4.2.2 Computador comum</h3>
+        <p>Maior <strong>flexibilidade</strong> de interfaces e aplicativos. Útil para discos <strong>não reconhecidos</strong> pelos equipamentos especializados ou quando se exige procedimento especial (tolerância a erros, tratamento de setores defeituosos). Normalmente a mídia é retirada e conectada ao computador; mas, quando não for possível/conveniente removê-la (notebooks com mídias delicadas, interfaces incomuns), usa-se o <strong>próprio computador recebido</strong>.</p>
+        <div class="box-red">
+            <span class="box-title">Risco e como evitar</span>
+            <p>O grande problema do computador comum é o <strong>risco de alterar acidentalmente</strong> a mídia original. Por isso, recomenda-se uma <strong>distribuição forense do Linux</strong>, projetada para não modificar as mídias conectadas — destacam-se o <strong>CAINE</strong> e o <strong>Kali</strong>. Se a original tiver proteção/bloqueio contra escrita, pode-se usar o <strong>Windows</strong> com software forense, como o <strong>FTK Imager</strong>.</p>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">Bloqueio de escrita</span>
+            <p>Além das mídias naturalmente protegidas (CDs/DVDs somente leitura), o bloqueio de escrita pode ser obtido por:</p>
+            <ul>
+                <li><strong>trava mecânica</strong>: dispositivo físico que impede a escrita (trava de disquete, chave de proteção de cartão de memória);</li>
+                <li><strong>bloqueio lógico</strong>: software desabilita a escrita em interfaces (ex.: impedir modificação de pen drive na porta USB);</li>
+                <li><strong>bloqueio físico</strong>: hardware conectado <strong>entre a mídia e o computador</strong> que permite apenas leitura — em geral, os equipamentos especializados possuem essa função.</li>
+            </ul>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — 3 bloqueios de escrita: "Me-Ló-Fí"</span>
+            <strong>Me</strong>cânico (trava física) · <strong>Ló</strong>gico (software na interface) · <strong>Fí</strong>sico (hardware entre mídia e PC).
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

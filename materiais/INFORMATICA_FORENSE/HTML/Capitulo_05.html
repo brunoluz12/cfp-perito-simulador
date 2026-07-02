@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 5 - Análise de Vestígios Digitais</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.96em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+        .flow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; margin: 20px 0; }
+        .flow-step { background: #ebf8ff; border: 2px solid #3182ce; border-radius: 8px; padding: 10px 14px; text-align: center; font-weight: 700; color: #2c5282; }
+        .flow-arrow { color: #a0aec0; font-size: 1.4em; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 5 - Análise de Vestígios Digitais</h1>
+        <div class="subtitle">Extração, processamento, filtragem e exame</div>
+    </div>
+
+    <div class="box-blue">
+        <p>Finalizada a duplicação forense, realiza-se a <strong>análise dos vestígios digitais</strong>. Didaticamente, as etapas agrupam-se em quatro fases sequenciais. As práticas da PF estão no <strong>"Manual de Exames Periciais em Informática"</strong> (INC).</p>
+        <div class="flow">
+            <div class="flow-step">1. Extração</div><span class="flow-arrow">→</span>
+            <div class="flow-step">2. Processamento</div><span class="flow-arrow">→</span>
+            <div class="flow-step">3. Filtragem</div><span class="flow-arrow">→</span>
+            <div class="flow-step">4. Exame</div>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — as 4 fases: "E-P-F-E"</span>
+            <strong>E</strong>xtração → <strong>P</strong>rocessamento → <strong>F</strong>iltragem → <strong>E</strong>xame. A extração <strong>amplia</strong> (recupera tudo); a filtragem <strong>reduz</strong> (descarta o irrelevante).
+        </div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">5.1 Extração</a></li>
+            <li><a href="#s2">5.2 Processamento</a></li>
+            <li><a href="#s3">5.3 Filtragem</a></li>
+            <li><a href="#s4">5.4 Exame</a></li>
+            <li><a href="#s5">5.5 Ferramentas integradas</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>5.1 Extração</h2>
+        <p>De posse da cópia, todo o conteúdo da mídia é <strong>varrido e recuperado</strong>, incluindo o sistema de arquivos e eventuais <strong>áreas não alocadas</strong>. Assim, todos os arquivos ativos e apagados são disponibilizados. Dois processos ocorrem: <strong>recuperação de arquivos apagados</strong> e <strong>expansão de arquivos-contêiner</strong>.</p>
+        <h3>5.1.1 Recuperação de arquivos apagados</h3>
+        <div class="box-orange">
+            <p>Apagar um arquivo, limpar a "Lixeira" ou formatar o disco <strong>não exclui o dado definitivamente</strong>: o conteúdo permanece fisicamente gravado até que a área seja <strong>reutilizada</strong>. O sistema operacional apenas marca como <strong>"livres"</strong> os blocos ocupados e a entrada na tabela do sistema de arquivos. Como a área livre pode ser ocupada por novos arquivos, <strong>quanto mais recente o apagamento, maior a chance de recuperação</strong> (menor a chance de já ter sido sobrescrito).</p>
+        </div>
+        <table>
+            <tr><th>Abordagem</th><th>Como funciona</th><th>Limitações</th></tr>
+            <tr><td><strong>Baseada no sistema de arquivos</strong></td><td>Usa as entradas marcadas como "livres", que ainda registram os <strong>metadados</strong> e a localização dos blocos. Lê o conteúdo desses blocos e recupera o arquivo.</td><td>Depende de as entradas ainda existirem na tabela.</td></tr>
+            <tr><td><strong>Baseada na assinatura</strong> (<em>data carving</em>)</td><td>Varre todo o disco procurando <strong>sequências de bytes</strong> que indicam o início de tipos conhecidos de arquivo. Recupera todos os arquivos daquele tipo cujas assinaturas ainda estejam gravadas.</td><td>Não usa o sistema de arquivos: <strong>não recupera metadados</strong> (como o nome). Arquivos sem assinatura no final ou <strong>fragmentados</strong> podem ser recuperados parcialmente.</td></tr>
+        </table>
+        <h3>5.1.2 Expansão de arquivos-contêiner</h3>
+        <p>Os <strong>arquivos-contêiner</strong> são repositórios de outros arquivos: compactados (ZIP, RAR) e de e-mail (PST, NSF), entre outros. Nesse processo, são <strong>expandidos</strong> — seu conteúdo é aberto e os arquivos internos são extraídos para a próxima etapa.</p>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>5.2 Processamento</h2>
+        <p>De posse dos arquivos ativos, recuperados e expandidos, ocorrem três processos:</p>
+        <table>
+            <tr><th>Processo</th><th>Descrição</th></tr>
+            <tr><td><strong>Cálculo de hashes</strong></td><td>Calcula o hash de todos os arquivos (identificador único), permitindo determinar quais são <strong>idênticos</strong> ou já <strong>conhecidos</strong> pela perícia.</td></tr>
+            <tr><td><strong>Categorização</strong></td><td>Identifica (pela <strong>assinatura e extensão</strong>) e categoriza os arquivos por tipo (documentos, planilhas, bases, imagens, vídeos, áudio, sistema). Detecta <strong>inconsistências</strong> entre assinatura e extensão (ex.: um Word renomeado de "Apostila.docx" para "Apostila.mp3"). Arquivos criptografados também são identificados.</td></tr>
+            <tr><td><strong>Indexação</strong></td><td>A critério do perito. Gera um <strong>índice</strong> de todas as palavras dentro de cada arquivo (como um índice remissivo, com as localizações). Limitada a arquivos com texto; ferramentas com <strong>OCR</strong> podem indexar texto obtido de imagens.</td></tr>
+        </table>
+    </div>
+
+    <div id="s3" class="section">
+        <h2>5.3 Filtragem</h2>
+        <p>Em oposição à extração, a filtragem visa <strong>reduzir a quantidade</strong> de informações a analisar (após a extração, é comum um disco conter milhões de arquivos). Dois processos:</p>
+        <table>
+            <tr><th>Processo</th><th>Descrição</th></tr>
+            <tr><td><strong>Redução</strong></td><td>Detecta e descarta arquivos claramente desconexos, usando os <strong>hashes</strong>. Com uma base de <strong>arquivos conhecidos</strong>, elimina os sem interesse (sistema operacional, bibliotecas, jogos). A base também <strong>identifica relevantes</strong> (ex.: hashes de imagens de casos já comprovados de exploração sexual; hashes de arquivos maliciosos). Filtros podem ocultar <strong>duplicados</strong> (hashes idênticos) ou de <strong>tamanho zero</strong>.</td></tr>
+            <tr><td><strong>Pesquisa por palavras-chave</strong></td><td>Busca arquivos com um texto ou padrão (ex.: sequência de número de cartão de crédito). Aceita <strong>curingas</strong>: pesquisar "lui?" encontra "luiz" e "luis".</td></tr>
+        </table>
+        <div class="box-blue">
+            <span class="box-title">Busca indexada × busca live</span>
+            <p>Se a <strong>indexação</strong> foi feita, a pesquisa consulta o índice e é rápida (<strong>"busca indexada"</strong>). Sem indexação, cada busca varre exaustivamente toda a mídia (<strong>"busca live"</strong>), podendo ser <strong>extremamente lenta</strong>. Desvantagem da técnica: excesso de ocorrências quando se usam palavras muito comuns ou expressões curtas.</p>
+        </div>
+    </div>
+
+    <div id="s4" class="section">
+        <h2>5.4 Exame</h2>
+        <p>Após extrair, processar e filtrar, executa-se o exame propriamente dito, que depende do tipo de exame e exige <strong>intervenção direta do perito</strong>. Dois processos principais — <strong>análise</strong> e <strong>seleção</strong> — e, eventualmente, a <strong>decifragem</strong> de arquivos.</p>
+        <div class="box-blue">
+            <span class="box-title">5.4.1 Análise</span>
+            <p>Pode ser simples (inspeção visual) ou complexa (remontagem de sistema ou banco de dados), durando horas ou semanas conforme os objetivos e a quesitação. Inclui, por exemplo: identificar aplicativos de interesse (transmissão de dados, esteganografia, limpeza); analisar o SO/aplicativos (<strong>registry</strong> do Windows, logs, cache, histórico de navegação); analisar malware (se captura senhas bancárias); constatar compartilhamento de imagens de abuso; organizar cronologicamente as informações.</p>
+        </div>
+        <div class="box-green">
+            <span class="box-title">5.4.2 Seleção</span>
+            <p>Agrupa e <strong>exporta em formato inteligível</strong> os arquivos com conteúdo probatório — em geral para mídia ótica, ou impressos no corpo do laudo. Varia de acordo com a quesitação.</p>
+        </div>
+        <div class="box-purple">
+            <span class="box-title">5.4.3 Decifragem de arquivos</span>
+            <p>Excluídos os casos simples (senha fornecida pelo suspeito ou achada em texto), o acesso a arquivos cifrados depende de <strong>recuperar a senha</strong>, por meio de ataques:</p>
+            <ul>
+                <li><strong>Força bruta</strong>: busca exaustiva testando todas as combinações de um grupo de caracteres. Teoricamente encontra qualquer senha, mas é ineficiente — só funciona bem para <strong>senhas curtas</strong> (ex.: <em>aaaaa</em> … <em>zzzzz</em>).</li>
+                <li><strong>Dicionário</strong>: testa as ocorrências de um conjunto de palavras (baseia-se no hábito de usar palavras simples). Inclui nomes de lugares/filmes, palavras/números do próprio disco e dados pessoais; cada entrada pode ser alterada por regras (maiúsculas, "a"→"@", números no fim).</li>
+                <li><strong>Probabilísticos</strong>: métodos complexos que determinam sequências com maior chance de terem sido usadas, com probabilidades condicionais e gramáticas, evitando senhas dificilmente memorizáveis e usando padrões por idioma.</li>
+            </ul>
+            <p>Também é possível <strong>explorar falhas nos algoritmos</strong> de proteção (obter a chave rapidamente), embora a tendência a algoritmos fortes dificulte essa via.</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — 3 ataques de senha</span>
+            <strong>Força bruta</strong> (tudo, só curtas) · <strong>Dicionário</strong> (palavras prováveis + regras) · <strong>Probabilístico</strong> (padrões estatísticos por idioma).
+        </div>
+    </div>
+
+    <div id="s5" class="section">
+        <h2>5.5 Ferramentas integradas</h2>
+        <p>Agregam, numa única aplicação, funções de várias ferramentas: copiar o disco para arquivo-imagem, recuperar apagados, indexar, pesquisar palavras-chave, visualizar formatos diversos e gerar relatórios com links.</p>
+        <div class="box-green">
+            <span class="box-title">IPED</span>
+            <p>O <strong>Indexador e Processador de Evidências Digitais (IPED)</strong> é uma solução de <strong>código aberto desenvolvida internamente na Polícia Federal</strong>. Cobre as principais etapas: importa a cópia/imagem como "evidência", processa cada dado, permite visualizar, filtrar, pesquisar, selecionar e categorizar e, por fim, <strong>gera relatórios em HTML</strong> prontos para anexar ao laudo.</p>
+        </div>
+        <p>Outras ferramentas integradas versáteis: <strong>Exterro FTK, OpenText Forensic (EnCase), X-Ways Forensics, Magnet Axiom, Cellebrite Digital Inspector e Physical Analyzer</strong>. Os detalhes do laudo e seus anexos são tratados no Capítulo 8.</p>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

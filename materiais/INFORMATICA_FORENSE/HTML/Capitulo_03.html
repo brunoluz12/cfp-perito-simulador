@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3 - Busca e Apreensão</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.96em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+        .flow { display: flex; flex-direction: column; gap: 0; margin: 20px 0; align-items: center; }
+        .flow-step { background: #ebf8ff; border: 2px solid #3182ce; border-radius: 8px; padding: 10px 16px; text-align: center; max-width: 760px; font-weight: 600; color: #2c5282; }
+        .flow-arrow { color: #a0aec0; font-size: 1.5em; line-height: 1; margin: 4px 0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 3 - Busca e Apreensão</h1>
+        <div class="subtitle">Planejamento, execução, seleção e arrecadação de vestígios digitais</div>
+    </div>
+
+    <div class="box-blue">
+        <p>A busca em local envolvendo crimes por computador não difere muito de outras buscas, mas tem particularidades: exige cuidados adicionais para <strong>evitar apreensão desnecessária</strong> de equipamentos e o <strong>acondicionamento inadequado</strong> de materiais frágeis. Nela, o Perito Criminal atua como <strong>especialista</strong>, orientando a equipe quanto à <strong>seleção, preservação e encaminhamento</strong> dos vestígios de informática. O trabalho divide-se em quatro etapas:</p>
+        <div class="flow">
+            <div class="flow-step">Planejamento</div><div class="flow-arrow">▼</div>
+            <div class="flow-step">Execução da busca</div><div class="flow-arrow">▼</div>
+            <div class="flow-step">Seleção de material relevante</div><div class="flow-arrow">▼</div>
+            <div class="flow-step">Arrecadação</div>
+        </div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">3.1 Planejamento</a></li>
+            <li><a href="#s2">3.2 Execução da busca</a></li>
+            <li><a href="#s3">3.3 Seleção de material relevante</a></li>
+            <li><a href="#s4">3.3.1 Computadores (desktops e notebooks)</a></li>
+            <li><a href="#s5">3.3.2 Mídias avulsas</a></li>
+            <li><a href="#s6">3.3.3 Cópias de dados</a></li>
+            <li><a href="#s7">3.4 Arrecadação</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>3.1 Planejamento</h2>
+        <p>Sempre que possível, o perito de informática deve <strong>participar do planejamento</strong> das operações. Ao interagir com a equipe de investigação, orienta a montagem das equipes de busca, a escolha dos métodos de entrada, a determinação do tipo de equipamento a arrecadar e demais decisões. Ambientes diferentes (residências, empresas de pequeno/grande porte, empresas com filiais interligadas) exigem estratégias diferentes; a participação do perito permite escolher ferramentas adequadas, identificar riscos e reduzir imprevistos técnicos.</p>
+        <div class="box-orange">
+            <p>Atenção especial aos <strong>crimes próprios</strong> (consumados no espaço cibernético), pela eventual ausência de outras provas: a <strong>apreensão incorreta de computadores criptografados</strong>, por exemplo, pode dificultar ou até <strong>inviabilizar</strong> o exame pericial posterior.</p>
+        </div>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>3.2 Execução da busca</h2>
+        <div class="box-purple">
+            <span class="box-title">Normativos</span>
+            <p>A <strong>Instrução Técnica 003/2010-GAB/Ditec</strong> padroniza os procedimentos no local de busca. A <strong>IT 018/2013-Ditec/DPF</strong> normatiza a busca e apreensão em casos de <strong>abuso sexual contra crianças e adolescentes</strong>. Ambos os normativos passam por revisão e atualização.</p>
+        </div>
+        <p>Após ter o local sob controle, deve-se evitar qualquer tentativa de ocultar, adulterar ou destruir evidências — impedindo que estranhos manipulem os equipamentos. Disquetes, CDs, DVDs, pen drives e mídias pequenas são fáceis de ocultar, e alguns materiais podem ser danificados em segundos. O perito faz um <strong>reconhecimento</strong> para localizar equipamentos, identificar sistemas e topologias de rede, localizar pontos de acesso e, se necessário, <strong>interromper conexões de rede</strong> (vestígios podem ser apagados remotamente).</p>
+        <div class="box-red">
+            <span class="box-title">O perito NÃO deve operar os computadores no local — salvo três exceções</span>
+            <ol>
+                <li>em observância a <strong>determinação expressa em mandado</strong> judicial e em consonância com a coordenação da equipe;</li>
+                <li>para <strong>preservação de evidências voláteis</strong> ou cujo acesso posterior seja inviável ou possa ser comprometido; ou</li>
+                <li>para <strong>racionalizar a seleção</strong> do material, quando for possível avaliar a relevância das informações.</li>
+            </ol>
+            <p>Cabe ao perito determinar se há condições técnicas e recursos suficientes para operar o equipamento no local. Constatado <strong>crime por computador em andamento</strong>, aplicam-se os procedimentos de exame em local de crime de informática previstos nas ITs.</p>
+        </div>
+    </div>
+
+    <div id="s3" class="section">
+        <h2>3.3 Seleção de material relevante</h2>
+        <p>Uma operação bem-sucedida <strong>não é a que apreende mais equipamentos</strong>, e sim a que tem <strong>foco</strong> e seleciona apenas o importante para o caso. Se o mandado abrange toda a empresa mas o interesse está, por exemplo, na contabilidade, não é necessário apreender os computadores dos demais setores — atento, porém, aos que funcionam como <strong>servidores de arquivos/e-mails</strong> e aos da <strong>diretoria/presidência</strong>.</p>
+        <div class="box-blue">
+            <span class="box-title">Dicas na seleção</span>
+            <ul>
+                <li><strong>saber o que se deseja provar</strong> — às vezes uma prova documental já basta;</li>
+                <li><strong>imprimir um relatório</strong> do banco de dados ou do sistema da empresa pode ser mais eficaz que apreender os computadores;</li>
+                <li><strong>senhas, usuários e detalhes de funcionamento</strong> podem ser necessários em exame futuro — obtidos em anotações próximas ou solicitados aos presentes, ainda que sejam os próprios suspeitos (que <strong>não têm obrigação de fornecer</strong>).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="s4" class="section">
+        <h2>3.3.1 Computadores (desktops e notebooks)</h2>
+        <p>As informações estão em geral no <strong>disco rígido (HD ou SSD)</strong>, mas os discos <strong>não devem ser retirados</strong> do gabinete/notebook: a regra é <strong>apreender os computadores por inteiro</strong>.</p>
+        <div class="box-orange">
+            <span class="box-title">Por que apreender por inteiro?</span>
+            <ul>
+                <li><strong>criptografia de disco</strong> ativada e vinculada a um módulo de segurança da placa-mãe (<strong>TPM</strong>) — os dados dos discos avulsos ficam inacessíveis;</li>
+                <li><strong>dificuldade de acesso físico</strong> ao interior de notebooks;</li>
+                <li>configurações lógicas entre múltiplos discos (ex.: <strong>RAID</strong>) que complicam a leitura sem o restante do hardware.</li>
+            </ul>
+            <p>Periféricos (impressoras, teclados, monitores) só devem ser apreendidos se houver <strong>interesse específico</strong> (ex.: saber se um documento foi impresso naquela impressora).</p>
+        </div>
+        <p>Se o equipamento estiver <strong>desligado, permanece desligado</strong>. Se estiver <strong>ligado</strong>, deve-se:</p>
+        <div class="box-blue">
+            <ul>
+                <li>verificar a necessidade de <strong>registrar flagrante</strong>, conforme o que estiver visível na tela;</li>
+                <li>verificar <strong>criptografia de disco</strong> e/ou informações relevantes na <strong>memória volátil</strong>, avaliando preservar dados: obter a <strong>chave de recuperação do BitLocker</strong>; configurar o BitLocker em modo de suspensão; obter as <strong>chaves criptográficas do WhatsApp Web</strong>; ativar a <strong>hibernação do Windows</strong>; <strong>capturar a memória RAM</strong>; e</li>
+                <li>colocar o computador em <strong>modo de hibernação</strong>.</li>
+            </ul>
+            <p>Se possível, apreender também cabos, carregadores e acessórios, especialmente em modelos pouco usuais.</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — estado do computador</span>
+            <strong>Desligado fica desligado</strong>; <strong>ligado</strong> exige avaliar flagrante + criptografia/RAM antes de <strong>hibernar</strong> (nunca simplesmente desligar).
+        </div>
+    </div>
+
+    <div id="s5" class="section">
+        <h2>3.3.2 Mídias avulsas</h2>
+        <p>Mídias removíveis (pen drives, CDs, DVDs, cartões de memória, chips de celular, disquetes) também podem conter dados relevantes e devem ser apreendidas. Cuidado especial com dispositivos <strong>conectados</strong> a um computador-alvo, como HDs externos e chaves de hardware (<strong>dongles</strong>).</p>
+        <div class="box-orange">
+            <p>Atenção a mídias <strong>pouco usuais</strong> (máquinas fotográficas, filmadoras digitais, pen drives em formatos incomuns — chaveiros, canivetes, bichos de pelúcia): quando apreendidas, deve-se arrecadar também o <strong>dispositivo de leitura correspondente</strong>, sempre que possível. Deve ser <strong>evitada</strong> a apreensão de mídias claramente sem dados relevantes, como CDs/DVDs originais de música ou instalação de programas.</p>
+        </div>
+    </div>
+
+    <div id="s6" class="section">
+        <h2>3.3.3 Cópias de dados</h2>
+        <p>Quando houver <strong>inviabilidade legal ou técnica</strong> à apreensão dos equipamentos — ou para <strong>reduzir o volume</strong> arrecadado — podem ser feitas <strong>cópias dos dados</strong> do local. É comum quando os dados estão em computadores de grande porte ou em repositório na rede (ex.: copiar a caixa postal de e-mails de um alvo, evitando apreender todo o servidor).</p>
+        <div class="box-blue">
+            <span class="box-title">Requisitos para a apreensão de dados</span>
+            <p>Deve ser feita, sempre que possível, sob <strong>supervisão de um perito de informática</strong>, e só quando houver:</p>
+            <ul>
+                <li><strong>mídias</strong> de tipo e capacidade adequados para as cópias;</li>
+                <li><strong>equipamentos e software</strong> adequados; e</li>
+                <li><strong>recursos humanos</strong> para realizar as cópias em tempo hábil.</li>
+            </ul>
+            <p>Deve ser acompanhada por <strong>testemunhas do local</strong> (de preferência o dono, em residências, ou os responsáveis, em empresas). Os dados devem ser submetidos a <strong>funções de hash</strong> para verificações futuras de integridade e, idealmente, o <strong>hash deve constar no Auto de Apreensão</strong>.</p>
+        </div>
+    </div>
+
+    <div id="s7" class="section">
+        <h2>3.4 Arrecadação</h2>
+        <p>Mídias de armazenamento são <strong>muito frágeis</strong> (mecânica, eletrônica e magneticamente) e exigem manuseio cuidadoso. Cuidados especiais:</p>
+        <table>
+            <tr><th>Fator de risco</th><th>Cuidado</th></tr>
+            <tr><td><strong>Calor e umidade</strong></td><td>Não deixar os itens próximos a fontes de umidade nem em locais quentes ou com sol incidente.</td></tr>
+            <tr><td><strong>Campos magnéticos</strong></td><td>Podem danificar mídias magnéticas. Evitar campos de motores elétricos, alto-falantes, ímãs etc.</td></tr>
+            <tr><td><strong>Eletricidade estática</strong></td><td>Componentes eletrônicos são suscetíveis; a estática do corpo e dos plásticos pode danificá-los. Usar <strong>embalagens antiestáticas</strong>.</td></tr>
+            <tr><td><strong>Choques mecânicos</strong></td><td>Quedas e impactos danificam mídias. Usar embalagens com proteção (plástico-bolha); não depositar direto no fundo de viaturas; preparar o espaço para reduzir a vibração.</td></tr>
+        </table>
+        <div class="box-green">
+            <span class="box-title">Etiquetagem e lacre</span>
+            <ul>
+                <li>equipamentos devem ser <strong>etiquetados e lacrados</strong>; separados em embalagens diferentes, preferindo <strong>plásticos transparentes</strong>;</li>
+                <li>as <strong>etiquetas</strong> identificadoras devem, preferencialmente, ser afixadas <strong>sobre o próprio equipamento</strong>, não sobre a embalagem;</li>
+                <li>cabos de dados, carregadores e acessórios são embalados <strong>junto com o equipamento correspondente</strong>;</li>
+                <li>discos rígidos removidos de um <strong>mesmo gabinete</strong> devem ser embalados e lacrados em um <strong>único volume</strong>;</li>
+                <li>mídias removíveis são <strong>agrupadas por tipo</strong>, e cada conjunto é embalado e lacrado <strong>separadamente</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

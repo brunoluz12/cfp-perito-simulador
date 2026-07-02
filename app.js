@@ -3095,6 +3095,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Desastres de massa (DVI)',
                 'O laudo pericial de local de crime'
             ]
+        },
+        'informatica_forense': {
+            path: 'INFORMATICA_FORENSE',
+            capitulos: [
+                'Introdução',
+                'Noções Gerais de Informática',
+                'Busca e Apreensão',
+                'Duplicação Forense de Mídias',
+                'Análise de Vestígios Digitais',
+                'Exames em Casos de Abuso Sexual Infantojuvenil (ASI)',
+                'Exames em Equipamentos Eletrônicos Portáteis',
+                'Laudo e Anexos Digitais'
+            ]
         }
     };
 
@@ -3109,7 +3122,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'quimica_forense': ['PCEB - Química Forense'],
         'pvat_mod_1': ['PVAT - Módulo I (Identificação Veicular)'],
         'pvat_mod_2': ['PVAT - Módulo II (Acidentes de Tráfego)'],
-        'loc': ['LOC - Locais de Crime e suas Interfaces']
+        'loc': ['LOC - Locais de Crime e suas Interfaces'],
+        'informatica_forense': ['Informática Forense']
     };
 
     // Busca questões que correspondem a uma disciplina de material + capítulo

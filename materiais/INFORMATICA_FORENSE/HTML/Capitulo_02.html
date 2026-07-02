@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 2 - Noções Gerais de Informática</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95em; }
+        th, td { border: 1px solid #e2e8f0; padding: 9px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+        code { background: #edf2f7; padding: 1px 6px; border-radius: 4px; font-family: monospace; }
+        .tbl-num td, .tbl-num th { text-align: center; font-family: monospace; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 2 - Noções Gerais de Informática</h1>
+        <div class="subtitle">Base conceitual para o estudo da Informática Forense</div>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">2.1 Sistemas numéricos e notações computacionais</a></li>
+            <li><a href="#s2">2.2 Componentes de um computador</a></li>
+            <li><a href="#s3">2.3 Sistema operacional</a></li>
+            <li><a href="#s4">2.4 Sistema de arquivos</a></li>
+            <li><a href="#s5">2.5 Funções unidirecionais de resumo (hash)</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>2.1 Sistemas numéricos e notações computacionais</h2>
+        <ul>
+            <li>A menor unidade de informação é o <strong>bit</strong>, que assume apenas dois estados: <strong>0 ou 1</strong> (sistema <strong>binário</strong>). Todo dado (vídeo, foto, música, texto, programa) é codificado em 0s e 1s.</li>
+            <li>Um conjunto de <strong>8 bits</strong> é um <strong>byte</strong> (ou octeto), gerando <strong>256 combinações</strong> (2⁸). No padrão <strong>ASCII</strong>, o caractere "K" é <code>01001011</code> e "L" é <code>01001100</code>. O que fica gravado são os bits, não os caracteres.</li>
+            <li>Com <strong>16 símbolos</strong> (0-9 e A-F) tem-se o sistema <strong>hexadecimal</strong>, usado para tornar valores binários mais legíveis: cada octeto = <strong>2 símbolos hex</strong> e cada <strong>4 bits = 1 símbolo hex</strong> (16 combinações). Assim, "K" (0100 1011) = <code>4B</code> e "L" (0100 1100) = <code>4C</code>.</li>
+        </ul>
+        <table class="tbl-num">
+            <tr><th>Decimal</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
+            <tr><th>Binário</th><td>0000</td><td>0001</td><td>0010</td><td>0011</td><td>0100</td><td>0101</td><td>0110</td><td>0111</td><td>1000</td><td>1001</td><td>1010</td><td>1011</td><td>1100</td><td>1101</td><td>1110</td><td>1111</td></tr>
+            <tr><th>Hexa</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr>
+        </table>
+        <div class="box-blue">
+            <span class="box-title">Prefixos e a distinção b × B</span>
+            <p>Prefixos do SI: <strong>kilo (10³), mega (10⁶), giga (10⁹), tera (10¹²), peta (10¹⁵)</strong>. Por convenção, <strong>"b" minúsculo = bit</strong> e <strong>"B" maiúsculo = byte</strong>. Assim, <strong>7 kb = 7.000 bits</strong> e <strong>5 MB = 5.000.000 bytes</strong>.</p>
+        </div>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>2.2 Componentes de um computador</h2>
+        <p>Os componentes principais ficam no <strong>gabinete</strong> e conectam-se à <strong>placa-mãe</strong> — integrados a ela (menor custo) ou ligados por conectores e cabos (permitindo substituição/evolução). Os principais componentes internos são: <strong>placa-mãe, processador (CPU), memória principal (RAM), memória secundária (disco rígido), placa de vídeo</strong> (integrada ou não) e <strong>fonte de energia</strong>.</p>
+        <table>
+            <tr><th>Componente</th><th>Função</th></tr>
+            <tr><td><strong>Placa-mãe</strong></td><td>Interconecta os dispositivos; possui barramentos e circuitos de apoio. Contém a <strong>BIOS</strong> (Basic Input Output System), programa que <strong>identifica, configura, testa e inicializa</strong> os dispositivos. Placas de rede/vídeo integradas são chamadas <strong>on-board</strong>; outras conectam-se por <strong>slots</strong> ou <strong>cabos</strong>.</td></tr>
+            <tr><td><strong>Processador (CPU)</strong></td><td>Unidade Central de Processamento — responsável pelo processamento de dados e cálculos. Chip de silício encaixado na placa-mãe. <strong>Não confundir CPU com o gabinete.</strong> Modelo: <strong>entrada → processamento → saída</strong>.</td></tr>
+            <tr><td><strong>Memória principal (RAM)</strong></td><td>Memória <strong>volátil</strong> usada pelo processador para dados/programas <strong>em execução</strong>. Rápida; mantém dados <strong>somente com o computador ligado</strong>. Capacidade na ordem de gigabytes.</td></tr>
+        </table>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — RAM × Secundária</span>
+            <strong>RAM = volátil</strong> (apaga ao desligar; guarda o que está "em execução"). <strong>Secundária = permanente</strong> (não volátil; guarda dados mesmo sem energia).
+        </div>
+        <h3>2.2.4 Memória secundária (auxiliar)</h3>
+        <p>Mídias que mantêm a informação mesmo após o desligamento (<strong>permanente / não volátil</strong>). Dados e programas ficam nela e são transportados para a RAM quando necessários.</p>
+        <table>
+            <tr><th>Tipo</th><th>Características</th></tr>
+            <tr><td><strong>Discos rígidos (HD)</strong></td><td>Principal dispositivo permanente (grande capacidade + boa velocidade). Dados em <strong>discos magnéticos concêntricos</strong>, divididos em <strong>trilhas e setores</strong>. Conectores comuns: <strong>IDE e SATA</strong>.</td></tr>
+            <tr><td><strong>Memórias flash</strong></td><td>Chips semelhantes à RAM, mas <strong>persistentes</strong>. Usadas em cartões de memória, pen drives, memória de celulares e câmeras. O <strong>SSD</strong> usa um conjunto de memórias flash; é mais rápido, usa os mesmos cabos e pode substituir o HD magnético (embora mais caro).</td></tr>
+            <tr><td><strong>Mídias óticas</strong></td><td>CD, DVD e Blu-Ray. Usadas para distribuição em larga escala e como backup de baixo custo.</td></tr>
+        </table>
+        <table>
+            <tr><th>Mídia</th><th>Capacidade usual</th></tr>
+            <tr><td>Disco rígido</td><td>500 GB a 30 TB</td></tr>
+            <tr><td>SSD</td><td>120 GB a 8 TB</td></tr>
+            <tr><td>CD</td><td>650 MB ou 700 MB</td></tr>
+            <tr><td>DVD</td><td>4,7 GB ou 8,5 GB</td></tr>
+            <tr><td>BD (Blu-ray Disc)</td><td>25 GB ou 50 GB</td></tr>
+            <tr><td>Pen drive e cartões de memória</td><td>16 GB a 2 TB</td></tr>
+        </table>
+        <h3>2.2.5 Periféricos</h3>
+        <p>Dispositivos normalmente <strong>fora do gabinete</strong>, para entrada/saída de dados (input/output):</p>
+        <table>
+            <tr><th>Categoria</th><th>Exemplos</th></tr>
+            <tr><td><strong>Entrada</strong></td><td>teclado, mouse, scanner, webcam, microfone</td></tr>
+            <tr><td><strong>Saída</strong></td><td>monitor, impressora, caixas de som</td></tr>
+            <tr><td><strong>Entrada e saída</strong></td><td>interface de rede, monitor touch-screen, impressora multifuncional</td></tr>
+        </table>
+    </div>
+
+    <div id="s3" class="section">
+        <h2>2.3 Sistema operacional</h2>
+        <p>Software que <strong>gerencia o acesso aos recursos</strong> do computador. Funcionalidades básicas: <strong>gerência de memória, acesso a dispositivos de E/S, carregamento de outros programas, interface gráfica e gerenciamento do sistema de arquivos</strong>.</p>
+        <div class="box-blue">
+            <p>SOs mais usados: <strong>Microsoft Windows, Mac OS X e Linux</strong>. Em dispositivos móveis: <strong>Android e iOS</strong> (iOS no iPad/iPhone).</p>
+        </div>
+    </div>
+
+    <div id="s4" class="section">
+        <h2>2.4 Sistema de arquivos</h2>
+        <p>Fornece meios para <strong>gravar e ler arquivos e diretórios</strong> de forma estruturada. O sistema operacional é quem entende o sistema de arquivos e fornece acesso aos dados. Exemplos: <strong>FAT32 e NTFS</strong> (Windows); <strong>Ext2, Ext4, ReiserFS</strong> (Linux); <strong>HFS+</strong> (OS X).</p>
+        <table>
+            <tr><th>Conceito</th><th>Definição</th></tr>
+            <tr><td><strong>Bloco (unidade de alocação)</strong></td><td>Divisão lógica da mídia. É a <strong>unidade mínima que um arquivo pode ocupar</strong>: mesmo um arquivo pequeno ocupa um bloco inteiro; um grande ocupa quantos forem necessários.</td></tr>
+            <tr><td><strong>Mapa de bits</strong></td><td>Tabela de 0s e 1s em que cada bloco corresponde a um bit: <strong>1 = bloco ocupado</strong>. Consultado ao criar e atualizado ao criar/apagar arquivos.</td></tr>
+            <tr><td><strong>Metadados</strong></td><td>"Dados a respeito de dados": <strong>nome do arquivo, datas (criação, modificação, último acesso) e tamanho</strong>. Costumam ser estruturados em tabelas.</td></tr>
+            <tr><td><strong>Nome e extensão</strong></td><td>Nome próprio + extensão (ex.: "Apostila.docx"). A extensão indica o tipo e pode associar-se a um programa.</td></tr>
+            <tr><td><strong>Assinatura</strong></td><td>Sequência de bytes, específica de cada tipo de arquivo, que identifica seu tipo. Pode estar no <strong>início e/ou no fim</strong>. Normalmente associada à extensão — mas nada impede renomear um Word para "Apostila.mp3".</td></tr>
+        </table>
+    </div>
+
+    <div id="s5" class="section">
+        <h2>2.5 Funções unidirecionais de resumo (hash)</h2>
+        <p>Manter a <strong>integridade</strong> de um dado é garantir que ele não seja alterado e, se for, que a alteração seja <strong>inequivocamente detectada</strong>. O principal mecanismo é o <strong>hash</strong> (one-way hash function): algoritmo que mapeia dados de <strong>qualquer tamanho</strong> em uma saída de <strong>tamanho fixo</strong>.</p>
+        <div class="box-blue">
+            <span class="box-title">Propriedades do hash</span>
+            <ul>
+                <li><strong>Determinístico</strong>: a mesma entrada produz sempre a mesma saída.</li>
+                <li><strong>Unidirecional</strong>: de posse do hash, não é possível obter a entrada (não pode ser invertido).</li>
+                <li><strong>Resistente a colisões</strong>: é probabilisticamente improvável que arquivos diferentes gerem o mesmo hash.</li>
+            </ul>
+            <p>Por isso o hash funciona como uma <strong>"impressão digital"</strong> do arquivo: qualquer alteração no conteúdo (mesmo <strong>um único bit</strong>) resulta em um valor de hash completamente diferente.</p>
+        </div>
+        <p>Exemplo: dois arquivos diferentes (200 kB e 4 MB) submetidos a uma função de <strong>512 bits</strong> geram, ambos, hashes de 512 bits. Alterado 1 bit de um deles, o novo hash é totalmente diverso — evidenciando a quebra de integridade.</p>
+        <table>
+            <tr><th>Algoritmo</th><th>Tamanho do hash</th></tr>
+            <tr><td><strong>MD5</strong> (Message Digest 5)</td><td>128 bits</td></tr>
+            <tr><td><strong>SHA-256</strong> (Secure Hash Algorithm)</td><td>256 bits</td></tr>
+        </table>
+        <div class="box-green">
+            <p>Uma função de saída de apenas <strong>64 bits</strong> já pode gerar cerca de <strong>18 quintilhões</strong> (2⁶⁴) de valores diferentes. Ferramentas gratuitas para Windows: <strong>MD5Summer</strong> e <strong>FSUM</strong>.</p>
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

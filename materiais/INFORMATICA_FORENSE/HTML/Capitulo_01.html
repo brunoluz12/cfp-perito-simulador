@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 1 - Introdução à Informática Forense</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.2em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+        .lei { font-family: 'Georgia', serif; font-size: 0.95em; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 1 - Introdução</h1>
+        <div class="subtitle">Conceitos, legislação e o papel da Informática Forense</div>
+    </div>
+
+    <div class="box-blue">
+        <p><strong>Informática Forense</strong> é a área da Criminalística que examina os vestígios de crimes cometidos no âmbito da informática. A rigor, <strong>não se deve falar em "crimes virtuais"</strong> — o termo dá a falsa impressão de que seriam crimes sem rastros. Tanto em computadores isolados quanto em redes (como a Internet), um ato criminoso <strong>deixa vestígios em algum momento</strong>. Cabe ao Perito Criminal <strong>buscar, coletar e examinar</strong> esse vestígio, determinando a <strong>materialidade, a autoria e o modus operandi</strong> do crime por computador.</p>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">1.1 Computadores e crimes</a></li>
+            <li><a href="#s2">1.2 Informática Forense</a></li>
+            <li><a href="#s3">1.2.1 Equipamento (estação pericial)</a></li>
+            <li><a href="#s4">1.2.2 Procedimentos</a></li>
+            <li><a href="#s5">1.2.3 Tipos de Exames</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>1.1 Computadores e crimes</h2>
+        <p>Com a difusão dos dispositivos computacionais surgiram também novos meios para a prática de crimes. É preciso distinguir alguns conceitos:</p>
+        <table>
+            <tr><th>Conceito</th><th>Definição</th></tr>
+            <tr><td><strong>Crimes por computador</strong></td><td>Ações delituosas cometidas com a utilização de computadores, redes de computadores ou demais recursos de informática.</td></tr>
+            <tr><td><strong>Crimes cibernéticos</strong></td><td>Ações praticadas por meio de computador <strong>no espaço cibernético</strong> — todos os recursos disponíveis na Internet (serviços, dados, bancos de dados, computadores, equipamentos de rede e softwares).</td></tr>
+            <tr><td><strong>Vestígio (CPP)</strong></td><td>"Todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal."</td></tr>
+            <tr><td><strong>Vestígio digital</strong></td><td>Dados <strong>armazenados ou transmitidos</strong> em meio computacional ou eletrônico que se relacionam à infração penal.</td></tr>
+        </table>
+
+        <h3>Legislação penal aplicável</h3>
+        <p>As Leis <strong>12.737/2012</strong> (conhecida como "Lei Carolina Dieckmann") e <strong>14.155/2021</strong> modificaram o Código Penal, tipificando ou agravando crimes por computador:</p>
+        <div class="box-purple lei">
+            <ul>
+                <li><strong>Art. 154-A</strong> — Invadir dispositivo informático de uso alheio, conectado ou não à rede, para obter, adulterar ou destruir dados sem autorização, ou instalar vulnerabilidades para obter vantagem ilícita. Pena: reclusão de 1 a 4 anos e multa (com majorantes se houver prejuízo econômico, obtenção de conteúdo privado/sigiloso ou controle remoto, e se houver divulgação a terceiros).</li>
+                <li><strong>Art. 155, §4º-B</strong> — Furto mediante fraude cometido por <strong>dispositivo eletrônico ou informático</strong> (com ou sem violação de segurança ou uso de malware): reclusão de 4 a 8 anos. O §4º-C majora a pena se houver uso de <strong>servidor no exterior</strong> ou se a vítima for <strong>idoso ou vulnerável</strong>.</li>
+                <li><strong>Art. 171, §2º-A</strong> — Estelionato (fraude eletrônica) com uso de informações fornecidas pela vítima ou por terceiro induzido a erro por redes sociais, telefone ou e-mail fraudulento: reclusão de 4 a 8 anos (majorada por servidor no exterior e vítima idosa/vulnerável).</li>
+                <li><strong>Art. 266, §1º</strong> — Interromper ou perturbar <strong>serviço telemático</strong> ou de informação de utilidade pública, ou dificultar seu restabelecimento.</li>
+                <li><strong>Art. 298, parágrafo único</strong> — Falsificação de documento particular; <strong>equipara-se a documento particular o cartão de crédito ou débito</strong>.</li>
+            </ul>
+        </div>
+        <div class="box-orange">
+            <p>A natureza do crime por computador (e do crime cibernético em especial) é <strong>dinâmica</strong> e, por vezes, de <strong>abrangência internacional</strong> — um criminoso no Brasil pode, usando um servidor na Inglaterra, mover recursos de contas na Suíça. Ainda assim, há procedimentos periciais que provam a materialidade, apresentam a dinâmica e indicam o possível autor. O sucesso no combate <strong>depende fundamentalmente de como o local foi processado</strong>.</p>
+        </div>
+
+        <h3>Classificação dos crimes informáticos</h3>
+        <table>
+            <tr><th>Tipo</th><th>Característica</th><th>Exemplos</th></tr>
+            <tr><td><strong>Puros / Próprios</strong></td><td>Realizados por meio do computador e <strong>consumados dentro do espaço cibernético</strong>; um recurso de informática é o <strong>alvo</strong> da ação.</td><td>Invasão de rede; disseminação de programas maliciosos.</td></tr>
+            <tr><td><strong>Impuros / Impróprios</strong></td><td>Realizados por meio do computador, mas o <strong>prejuízo ocorre fora</strong> do espaço cibernético.</td><td>Divulgação de pornografia infantil na Internet; furto de valores financeiros pela Internet.</td></tr>
+            <tr><td><strong>Indireto / Incidental</strong></td><td>Os computadores <strong>não são o meio</strong> do crime, mas atuam como "testemunhas", contendo planilhas, documentos, imagens e e-mails relacionados.</td><td>Computador com planilhas de um esquema investigado por outro crime.</td></tr>
+        </table>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — "PII": Puro, Impuro, Indireto</span>
+            <strong>P</strong>uro = o computador é o <strong>alvo</strong> (tudo no ciberespaço). <strong>I</strong>mpuro = computador é o <strong>meio</strong>, prejuízo <strong>fora</strong>. <strong>I</strong>ndireto = computador é <strong>testemunha</strong> (guarda provas).
+        </div>
+        <div class="box-green">
+            <span class="box-title">Convenção de Budapeste (2001)</span>
+            <p>Publicada pelo <strong>Conselho da Europa</strong>, em Budapeste (Hungria), é a <strong>Convenção sobre o Cibercrime</strong>. Objetivo: aprimorar o enfrentamento aos crimes cibernéticos com melhorias de legislação e facilitação da <strong>cooperação internacional</strong>. Em 2026, mais de 80 países já a haviam assinado — incluindo o <strong>Brasil, que aderiu em 2023</strong>. É referência para a harmonização de conceitos e procedimentos.</p>
+        </div>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>1.2 Informática Forense</h2>
+        <p>É uma das mais jovens disciplinas das Ciências Forenses, surgida após a <strong>década de 1960</strong> com a popularização dos computadores, e ganhou destaque em meados da <strong>década de 1990</strong>, com a Internet e a telefonia móvel.</p>
+        <div class="box-blue">
+            <span class="box-title">Definição</span>
+            <p>Conjunto de procedimentos realizados sobre <strong>mídias de armazenamento e outros equipamentos computacionais</strong> em busca de evidências digitais. É a área das Ciências Forenses que trata da <strong>coleta, preservação, análise e apresentação</strong> de evidências digitais que possam ser utilizadas e sustentadas <strong>em juízo</strong>.</p>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">O que a distingue das demais áreas da informática</span>
+            <ul>
+                <li>a <strong>preocupação jurídica</strong> inerente à sua destinação;</li>
+                <li>a aplicação de conceitos da <strong>Criminalística</strong> (cadeia de custódia, preservação do local de crime);</li>
+                <li>a realização de <strong>procedimentos sólidos</strong> que não suscitem dúvidas ou questionamentos.</li>
+            </ul>
+        </div>
+        <p>Nos exames devem ser usados <strong>equipamentos e aplicativos forenses especializados</strong>, cujo diferencial é analisar dados <strong>não diretamente acessíveis</strong> e preservar ao máximo a integridade do original. Assim, arquivos apagados, ocultos, com extensão alterada ou criptografados podem ser encontrados mais facilmente.</p>
+        <div class="box-green">
+            <span class="box-title">Analogia do iceberg</span>
+            <p>O usuário comum enxerga apenas a <strong>ponta do iceberg</strong> (o que está diretamente visível); o Perito Criminal, com procedimentos e ferramentas especializadas, vê também <strong>tudo o que está sob a água</strong> (tipicamente, apenas 10% de um iceberg fica visível).</p>
+        </div>
+    </div>
+
+    <div id="s3" class="section">
+        <h2>1.2.1 Equipamento (estação pericial)</h2>
+        <p>A estação de trabalho do perito de informática <strong>não é um computador comum</strong> — é sua principal ferramenta de trabalho, com requisitos mínimos de hardware e software.</p>
+        <div class="box-blue">
+            <span class="box-title">Características indispensáveis da estação pericial</span>
+            <ul>
+                <li><strong>acesso irrestrito</strong> ao interior da estação e ao sistema operacional nela instalado;</li>
+                <li>capacidade de <strong>processamento, armazenamento e memória</strong> condizentes com os procedimentos;</li>
+                <li>disponibilidade de <strong>interfaces</strong> para os mais variados padrões, permitindo conectar a maior gama de dispositivos;</li>
+                <li><strong>proteção contra interrupções de energia</strong>;</li>
+                <li><strong>licenças de uso válidas</strong> para equipamentos, sistemas operacionais e aplicativos forenses.</li>
+            </ul>
+        </div>
+        <p>Recomenda-se ainda o acesso a: <strong>estação pericial portátil</strong>; <strong>duplicador forense de dados</strong>; <strong>leitor externo de discos rígidos</strong>; e <strong>equipamento para extração de dados de celulares e smartphones</strong>.</p>
+        <div class="box-orange">
+            <p>O perito deve dispor de acesso irrestrito à Internet pela <strong>rede corporativa</strong> da PF e a <strong>servidores de processamento avançado</strong> compartilhados. Para exames que exijam <strong>sigilo quanto à origem dos acessos</strong>, deve haver conexão <strong>distinta da rede corporativa</strong>, com dados de registro <strong>não vinculados à Polícia Federal</strong>.</p>
+        </div>
+    </div>
+
+    <div id="s4" class="section">
+        <h2>1.2.2 Procedimentos</h2>
+        <p>As etapas típicas começam com a expedição de <strong>mandado judicial</strong> autorizando a apreensão e a análise. O ideal é que os peritos participem do <strong>planejamento e da coordenação</strong> da operação de busca e apreensão.</p>
+        <div class="box-blue">
+            <span class="box-title">Ao chegar à unidade de Criminalística</span>
+            <p>O <strong>primeiro procedimento</strong> é a <strong>identificação e descrição</strong> do material no <strong>Sistema Criminalística</strong>: marca, modelo, número de série e capacidade de armazenamento; o <strong>estado de conservação</strong>; e a <strong>presença ou não de lacres</strong>. Em seguida, realizam-se os exames e finaliza-se o <strong>laudo</strong> (material examinado, procedimentos e resultados). Não havendo mais questionamentos, o material é devolvido junto com o laudo. A produção do laudo costuma gerar <strong>mídias anexas</strong> (DVD, Blu-Ray, pen drive, HD externo), exigindo procedimentos adicionais de integridade e autenticidade.</p>
+        </div>
+    </div>
+
+    <div id="s5" class="section">
+        <h2>1.2.3 Tipos de Exames</h2>
+        <p>Os exames podem ser divididos pelo <strong>tipo de material</strong> (suporte onde o dado está armazenado) e pelo <strong>objetivo</strong> (resultado esperado, conforme o crime e a quesitação).</p>
+        <h3>Por tipo de material</h3>
+        <table>
+            <tr><th>Material</th><th>Onde os dados estão</th></tr>
+            <tr><td><strong>Mídias de armazenamento computacional</strong></td><td>Discos rígidos, SSDs, mídias óticas, cartões de memória, pen drives e outros.</td></tr>
+            <tr><td><strong>Dispositivos computacionais portáteis</strong></td><td>Aparelhos celulares, smartphones e tablets (exame de grande importância pela popularização e sofisticação).</td></tr>
+            <tr><td><strong>Redes de computadores</strong></td><td>Dados em computadores em rede (intranets) ou na Internet: arquivos na "nuvem", servidores remotos, páginas da Internet.</td></tr>
+        </table>
+        <h3>Por objetivo do exame</h3>
+        <table>
+            <tr><th>Objetivo</th><th>Descrição</th></tr>
+            <tr><td><strong>Extração de dados</strong></td><td>Disponibilizar os dados em formato legível: recuperar apagados, decifrar arquivos, aplicar palavras-chave, categorizar e exportar para outra mídia. Comum em crimes indiretos com muitas mídias.</td></tr>
+            <tr><td><strong>Análise de registros (logs)</strong></td><td>Analisar registros computacionais para determinar, por exemplo: se arquivos foram disponibilizados; a última utilização do computador; se um arquivo foi criado/impresso; últimas buscas; quem excluiu um registro; se um celular esteve próximo de uma coordenada; ligações entre suspeitos.</td></tr>
+            <tr><td><strong>Análise de sistemas</strong></td><td>Em geral por <strong>engenharia reversa</strong> ou <strong>análise comportamental</strong> (ex.: sistemas de distribuição de processos em varas; aplicativos maliciosos de fraude bancária).</td></tr>
+        </table>
+        <div class="box-green">
+            <p>O exame é determinado pela <strong>combinação</strong> do tipo de material com o objetivo. Quando os quesitos forem de outra área do conhecimento e os dados estiverem em mídia computacional, o responsável pela unidade pode determinar ao perito de informática a <strong>extração e disponibilização dos dados</strong> para subsidiar a área específica, ou a <strong>execução conjunta</strong> do exame.</p>
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

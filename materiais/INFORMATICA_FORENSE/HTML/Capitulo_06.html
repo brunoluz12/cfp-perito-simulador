@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        h1 { font-size: 2.0em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.15em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        .section { margin-bottom: 40px; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #2d3748; margin-top: 25px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        .box-blue { background: #ebf8ff; border-left: 5px solid #3182ce; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-green { background: #f0fff4; border-left: 5px solid #38a169; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-orange { background: #fffaf0; border-left: 5px solid #dd6b20; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-purple { background: #faf5ff; border-left: 5px solid #805ad5; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-red { background: #fff5f5; border-left: 5px solid #e53e3e; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .box-title { font-weight: 700; display: block; margin-bottom: 6px; }
+        .mnemonic { background: #fffff0; border: 2px dashed #d69e2e; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .mnemonic-title { color: #b7791f; font-size: 1.15em; margin-bottom: 10px; display: block; font-weight: 800; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.96em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+        .destaque { background: #fefcbf; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span>
+        <h1>Capítulo 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)</h1>
+        <div class="subtitle">Procedimentos periciais conforme a Portaria Ditec/PF nº 1710/2026</div>
+    </div>
+
+    <div class="box-blue">
+        <p>É um dos exames mais relevantes da Perícia em Informática, pela sensibilidade e criticidade do tema e pela extensa variedade de vestígios digitais e técnicas de identificação, valoração e correlação. O <strong>ECA</strong> usa <strong>mais de 30 verbos</strong> distintos para tipificar os crimes ligados à violência sexual infantojuvenil. Como muitos abusadores tendem a <strong>acumular e colecionar</strong> registros, é frequente a detecção de <strong>dezenas de milhares</strong> de imagens e vídeos num único caso. Bem executado, o exame reúne elementos para determinar de forma conclusiva a <strong>materialidade, a autoria e o modus operandi</strong> — mas acarreta grande <strong>desgaste emocional</strong> ao examinador.</p>
+    </div>
+    <div class="box-purple">
+        <span class="box-title">Portaria Ditec/PF nº 1710, de 02/03/2026</span>
+        <p>Estabelece procedimentos para os exames periciais em materiais de ASI. Seu foco é <strong>operacional</strong>: como trabalhar com <strong>dados já extraídos e processados</strong>, organizar <strong>marcadores</strong>, priorizar, reduzir a exposição, documentar a metodologia e entregar anexos técnicos — além de cuidados formais com a <strong>saúde mental</strong> e de mecanismos para <strong>redistribuição de pendências</strong>.</p>
+    </div>
+
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+            <li><a href="#s1">6.1 Terminologia</a></li>
+            <li><a href="#s2">6.2 Visão Geral</a></li>
+            <li><a href="#s3">6.3 Organização e priorização do material</a></li>
+            <li><a href="#s4">6.4 Critérios para identificação visual de MASI</a></li>
+        </ul>
+    </div>
+
+    <div id="s1" class="section">
+        <h2>6.1 Terminologia</h2>
+        <p>São exames de ASI os procedimentos que analisam conteúdos digitais tendo, entre seus objetivos, a <strong>identificação e classificação de MASI</strong>.</p>
+        <table>
+            <tr><th>Sigla / Termo</th><th>Definição</th></tr>
+            <tr><td><strong>ASI</strong> — Abuso Sexual Infantojuvenil</td><td>Toda ação, interação ou situação em que criança ou adolescente seja envolvido, de forma <strong>real ou simulada</strong>, em atividade de natureza sexual, <strong>com ou sem contato físico</strong>, mediante coação, persuasão, exploração, manipulação, vantagem ou qualquer constrangimento — inclusive quando o ato tiver fins de registro, produção, armazenamento, transmissão, distribuição ou consumo, conforme o ECA.</td></tr>
+            <tr><td><strong>BFAC</strong> — Banco Federal de Arquivos Conhecidos</td><td>Banco de dados instituído por portaria da Ditec para armazenar arquivos conhecidos que sejam: encontrados com frequência (e possam ser <strong>ignorados</strong>); relacionados a apurações de ASI; e relacionados a <strong>malwares</strong>.</td></tr>
+            <tr><td><strong>IA</strong> — Inteligência Artificial</td><td>Técnicas computacionais (modelos estatísticos, redes neurais, aprendizado de máquina) capazes de processar informações, reconhecer padrões e realizar inferências/classificações de forma autônoma ou semiautônoma, para apoiar a atuação humana.</td></tr>
+            <tr><td><strong>Marcadores</strong></td><td>Identificações visuais ou digitais aplicadas aos arquivos em ferramenta forense durante a análise, para <strong>organizar e destacar</strong> informações.</td></tr>
+            <tr><td><strong>MASI</strong> — Material de ASI</td><td>Imagens, vídeos ou outro registro que contenha informações relacionadas a ASI.</td></tr>
+            <tr><td><strong>P2P</strong> — peer-to-peer</td><td>Arquitetura de rede ponto-a-ponto que permite compartilhar serviços e dados <strong>sem servidor central</strong>.</td></tr>
+            <tr><td><strong>Puberal</strong></td><td>Fase de transição entre a infância e a idade adulta.</td></tr>
+        </table>
+    </div>
+
+    <div id="s2" class="section">
+        <h2>6.2 Visão Geral</h2>
+        <p>O exame de análise de conteúdo relacionado à ASI compõe-se das etapas:</p>
+        <ol>
+            <li>extração e processamento dos dados;</li>
+            <li>identificação e classificação de MASI;</li>
+            <li>análise de <strong>disponibilização ou transmissão</strong> de MASI;</li>
+            <li>análise de <strong>produção</strong> de MASI; e</li>
+            <li>análises adicionais relacionadas a quesitos específicos.</li>
+        </ol>
+        <div class="box-orange">
+            <span class="box-title">Quem pode fazer o Exame de Identificação de MASI</span>
+            <p>Consiste na <strong>análise visual</strong> do conteúdo dos arquivos e, conforme a Portaria 1710/2026, pode ser realizado por <strong>perito de qualquer área</strong>, desde que incida sobre <strong>dados previamente extraídos e processados</strong> por ferramenta forense, podendo ocorrer como <strong>exame à parte</strong> mediante solicitação/designação. Nesse caso, a atuação típica do perito é a <strong>análise de conteúdo e organização probatória</strong> — <strong>não</strong> a extração técnica do dispositivo.</p>
+        </div>
+        <div class="box-green">
+            <p>Para aumentar a eficiência e <strong>proteger a saúde mental</strong>, o trabalho deve reduzir a exposição desnecessária, usando <strong>triagens (BFAC/IA)</strong>, <strong>pausas estruturadas</strong>, <strong>limites à designação</strong> de exames e <strong>apoio biopsicossocial</strong>.</p>
+        </div>
+    </div>
+
+    <div id="s3" class="section">
+        <h2>6.3 Organização e priorização do material examinado</h2>
+        <p>Não havendo disposição diversa na quesitação, o perito deve separar os arquivos em <strong>três conjuntos</strong>:</p>
+        <table>
+            <tr><th>Conjunto</th><th>Definição</th></tr>
+            <tr><td><strong>Disponibilização</strong></td><td>Imagens e vídeos disponibilizados ou transmitidos por <strong>P2P</strong>, mensagens instantâneas, redes sociais ou e-mail.</td></tr>
+            <tr><td><strong>Produção</strong></td><td>Imagens e vídeos possivelmente <strong>produzidos pelo investigado</strong> (conforme critérios da Seção IV).</td></tr>
+            <tr><td><strong>Posse</strong></td><td>Demais imagens e vídeos não enquadrados nos conjuntos anteriores.</td></tr>
+        </table>
+        <div class="box-blue">
+            <span class="box-title">Priorização (ordenação recomendada)</span>
+            <p>Primeiro, por <strong>identificação positiva via BFAC</strong>; em cada conjunto, por maior probabilidade de conter MASI (com IA como apoio), na hierarquia:</p>
+            <ol>
+                <li>ASI;</li>
+                <li>suspeita de ASI;</li>
+                <li>pornografia adulta;</li>
+                <li>pessoas (sem conotação sexual); e</li>
+                <li>outros.</li>
+            </ol>
+        </div>
+        <div class="box-orange">
+            <span class="box-title">Marcadores dos arquivos com MASI</span>
+            <ul>
+                <li><strong>ASI – Disponibilização</strong>;</li>
+                <li><strong>ASI – Produção</strong>: os arquivos devem ser <strong>encaminhados para inclusão no BFAC</strong>;</li>
+                <li><strong>ASI – Posse</strong>: os que estavam <strong>apagados e foram recuperados</strong> devem ir para marcador próprio (ex.: "ASI – Posse (arquivos apagados)").</li>
+            </ul>
+        </div>
+        <div class="box-red">
+            <span class="box-title">Saturação qualitativa (posse): 500 arquivos</span>
+            <p>Para o terceiro grupo, a Portaria 1710/2026 estabelece <strong>500 arquivos</strong> com cenas de ASI como quantidade <strong>suficiente</strong> para alcançar a <strong>saturação qualitativa</strong> — quando novos arquivos deixam de acrescentar informação contextual relevante. Assim, o exame de Identificação de MASI com o propósito de caracterizar a <strong>posse</strong> pode ser <strong>interrompido</strong> ao atingir essa quantidade, por já haver conjunto probatório suficiente.</p>
+        </div>
+        <div class="box-purple">
+            <span class="box-title">Classificação por IA / BFAC sem confirmação visual</span>
+            <p>Arquivos classificados como MASI <strong>unicamente</strong> por IA ou por BFAC, <strong>sem confirmação visual</strong> do perito, devem ir para marcador próprio, explicitando essa circunstância. O emprego de IA para esse fim deve <strong>sempre ser consignado em laudo</strong>, independentemente do grau de supervisão humana.</p>
+        </div>
+    </div>
+
+    <div id="s4" class="section">
+        <h2>6.4 Critérios para identificação visual de MASI</h2>
+        <p>De acordo com o ECA, a identificação visual de MASI exige a <strong>presença simultânea de dois elementos essenciais</strong>:</p>
+        <div class="box-red">
+            <ol>
+                <li><strong>indícios de menoridade</strong> dos indivíduos representados; e</li>
+                <li><strong>conotação sexual</strong>, explícita ou implícita — inclusive em <strong>sequências progressivas</strong> de imagens.</li>
+            </ol>
+        </div>
+        <p>Para avaliar os indícios de menoridade, o perito observa os critérios abaixo, <strong>sem estimar a idade numérica</strong> dos representados:</p>
+        <table>
+            <tr><th>Critério</th><th>Detalhamento</th></tr>
+            <tr><td><strong>Ausência ou início precoce de desenvolvimento puberal</strong></td><td>a) ausência de pelos pubianos ou poucos fios finos, lisos e pouco pigmentados, restritos à base da genitália; b) no gênero feminino, ausência de desenvolvimento mamário ou presença de broto mamário (discreta elevação da auréola); c) no gênero masculino, órgão genital com aspecto infantil, com ausência de aumento perceptível do volume testicular ou apenas início de crescimento testicular.</td></tr>
+            <tr><td><strong>Proporção corporal típica de crianças</strong></td><td>Cabeça relativamente maior em relação ao corpo do que em adultos.</td></tr>
+            <tr><td><strong>Traços faciais infantis</strong></td><td>Mandíbula retraída, bochechas arredondadas e olhos proporcionalmente maiores.</td></tr>
+            <tr><td><strong>Presença de adulto na cena</strong></td><td>Permite a comparação proporcional entre os corpos.</td></tr>
+        </table>
+        <div class="box-blue">
+            <span class="box-title">Elementos contextuais (corroboração)</span>
+            <p>Podem reforçar a conclusão: ambiente infantil; roupas ou trajes infantis; poses sensuais; termos sugestivos para nomear pastas/arquivos (ex.: "pthc", "preteen", "13yo"); existência de material já confirmado como MASI na mesma pasta; classificação indicativa por IA ou algoritmo de detecção de nudez; correspondência com hashes do BFAC; e metadados, legendas ou textos que aludam à menoridade.</p>
+        </div>
+        <div class="mnemonic">
+            <span class="mnemonic-title">Mnemônico — MASI = "Menoridade + Sexual"</span>
+            Exige os <strong>dois</strong> elementos <strong>simultaneamente</strong>: indícios de <strong>menoridade</strong> e <strong>conotação sexual</strong>. Avalia-se a menoridade por sinais físicos/faciais/proporção — <strong>sem cravar idade numérica</strong>.
+        </div>
+    </div>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>
