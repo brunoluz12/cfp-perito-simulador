@@ -1,0 +1,436 @@
+[
+  {
+    "conteudo": "Cap. 1 - Introdução",
+    "enunciado": "A respeito dos conceitos introdutórios da Informática Forense, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Crimes por computador são ações delituosas cometidas com o uso de computadores, redes de computadores ou demais recursos de informática.",
+      "B": "Crimes cibernéticos são os praticados por meio de computador no espaço cibernético, entendido como o conjunto de recursos disponíveis na Internet.",
+      "C": "Vestígio digital é o dado armazenado ou transmitido em meio computacional ou eletrônico que se relaciona à infração penal.",
+      "D": "A expressão 'crime virtual' é a mais adequada tecnicamente, por refletir que tais condutas, em regra, não deixam rastros materiais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material adverte que não se deve falar em 'crimes virtuais', pois o termo dá a falsa impressão de crimes sem rastros — todo ato criminoso deixa vestígios em algum momento; logo (D) é a incorreta. As demais reproduzem corretamente os conceitos de crime por computador, crime cibernético e vestígio digital.",
+    "referencia": "Cap. 1, Seção 1.1",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 1 - Introdução",
+    "enunciado": "Em uma operação, apreende-se um computador porque nele há planilhas e mensagens que comprovam um esquema criminoso, embora a máquina não tenha sido o meio de execução do delito. Segundo a classificação dos crimes informáticos, esse enquadramento corresponde a crime:",
+    "alternativas": {
+      "A": "Indireto ou incidental, em que o computador atua como 'testemunha' que guarda elementos relacionados ao crime.",
+      "B": "Puro ou próprio, em que um recurso de informática é o alvo da ação, consumada no espaço cibernético.",
+      "C": "Impuro ou impróprio, em que o computador é o meio e o prejuízo ocorre fora do espaço cibernético.",
+      "D": "Cibernético em sentido estrito, consumado integralmente dentro do espaço cibernético."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No crime indireto ou incidental, o computador não é o meio do delito, mas funciona como 'testemunha', contendo planilhas, documentos, imagens e mensagens relacionados (A). Puro/próprio tem o recurso de informática como alvo; impuro/impróprio usa o computador como meio com prejuízo fora do ciberespaço — nenhum descreve o cenário.",
+    "referencia": "Cap. 1, Seção 1.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Introdução",
+    "enunciado": "Considerando as alterações do Código Penal em matéria de crimes por computador, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Equipara-se a documento particular, para fins de falsificação, o cartão de crédito ou débito.",
+      "B": "A invasão de dispositivo informático alheio somente se configura quando o dispositivo está conectado a uma rede de computadores.",
+      "C": "O furto mediante fraude por dispositivo eletrônico tem a pena reduzida quando praticado a partir de servidor mantido no exterior.",
+      "D": "A interrupção de serviço telemático foi expressamente afastada do tipo penal relativo à interrupção de serviço de utilidade pública."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 298, parágrafo único, equipara o cartão de crédito ou débito a documento particular (A). A invasão do art. 154-A alcança dispositivo 'conectado ou não à rede'; o uso de servidor no exterior é causa de aumento (não redução) da pena; e o art. 266, §1º, incluiu o serviço telemático — o que torna B, C e D incorretas.",
+    "referencia": "Cap. 1, Seção 1.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Introdução",
+    "enunciado": "Sobre a Informática Forense, seus equipamentos e procedimentos, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "É a área das Ciências Forenses que trata da coleta, preservação, análise e apresentação de evidências digitais sustentáveis em juízo.",
+      "B": "A analogia do iceberg ilustra que o perito acessa, com ferramentas especializadas, dados que não estão diretamente visíveis ao usuário comum.",
+      "C": "Ao dar entrada na unidade de Criminalística, o primeiro procedimento é a realização dos exames periciais no material recebido.",
+      "D": "Para exames que exijam sigilo quanto à origem dos acessos, deve-se dispor de conexão distinta da rede corporativa, com registros não vinculados à PF."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Ao chegar à unidade, o primeiro procedimento é a identificação e descrição do material no Sistema Criminalística (marca, modelo, número de série, capacidade, conservação e lacres) — os exames vêm depois; logo (C) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 1, Seções 1.2 e 1.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "enunciado": "Sobre sistemas numéricos e notações computacionais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Um byte é composto por quatro bits e representa dezesseis combinações possíveis, sendo a menor unidade endereçável de memória.",
+      "B": "Cada conjunto de quatro bits corresponde a um símbolo hexadecimal, de modo que um byte é representado por dois símbolos hexadecimais.",
+      "C": "Na convenção usual de unidades, '5 MB' corresponde a cinco milhões de bits.",
+      "D": "O sistema hexadecimal dispõe de dez símbolos, de 0 a 9, à semelhança do sistema decimal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Como há 16 combinações para 4 bits, cada conjunto de 4 bits equivale a um símbolo hexadecimal e um byte (8 bits) a dois símbolos (B). O byte tem 8 bits (256 combinações); 'B' maiúsculo indica byte, então 5 MB são cinco milhões de bytes; e o hexadecimal tem 16 símbolos (0-9 e A-F).",
+    "referencia": "Cap. 2, Seção 2.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "enunciado": "A respeito da memória e do armazenamento, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A memória RAM é volátil e mantém os dados apenas enquanto o computador está ligado.",
+      "B": "O SSD utiliza memórias flash e pode substituir o disco rígido magnético, aproveitando os mesmos cabos.",
+      "C": "Os discos rígidos magnéticos armazenam dados em discos concêntricos divididos em trilhas e setores, acessados por cabeças de leitura e gravação.",
+      "D": "As mídias óticas, como CD e DVD, constituem memória volátil, perdendo o conteúdo ao serem desconectadas da energia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As mídias óticas são memória secundária permanente (não volátil) e mantêm o conteúdo sem energia; logo (D) é a incorreta. RAM volátil, SSD com flash substituindo o HD e discos magnéticos com trilhas e setores estão corretos.",
+    "referencia": "Cap. 2, Seções 2.2.3 e 2.2.4",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "enunciado": "Sobre o sistema de arquivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A assinatura de um arquivo corresponde à sua extensão, sendo automaticamente alterada quando o arquivo é renomeado.",
+      "B": "O mapa de bits armazena os metadados dos arquivos, tais como nome, datas e tamanho total.",
+      "C": "O bloco é a unidade mínima que um arquivo pode ocupar, de modo que um arquivo pequeno ainda ocupa um bloco inteiro.",
+      "D": "Os metadados registram quais blocos estão livres e quais estão ocupados na mídia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O bloco (unidade de alocação) é a unidade mínima que um arquivo pode ocupar, mesmo que pequeno (C). A assinatura é uma sequência de bytes interna, distinta da extensão, e não muda ao renomear; o mapa de bits indica blocos livres/ocupados; e os metadados guardam atributos (nome, datas, tamanho) — B e D trocam esses conceitos.",
+    "referencia": "Cap. 2, Seção 2.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "enunciado": "Acerca das funções unidirecionais de resumo (hash), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O tamanho do valor de hash gerado varia conforme o tamanho do arquivo de entrada.",
+      "B": "De posse do valor de hash, é possível reconstruir o conteúdo original do arquivo por inversão da função.",
+      "C": "A alteração de um único bit do arquivo de entrada produz um valor de hash completamente diferente.",
+      "D": "O algoritmo MD5 produz valores de hash de 256 bits, enquanto o SHA-256 produz valores de 128 bits."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Por atuar como 'impressão digital', qualquer alteração no conteúdo — mesmo um bit — muda completamente o hash (C). A saída tem tamanho fixo (não varia com a entrada); a função é unidirecional (não se inverte); e o MD5 gera 128 bits e o SHA-256, 256 bits (D inverte os valores).",
+    "referencia": "Cap. 2, Seção 2.5",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "enunciado": "Durante a busca, em regra, o perito não deve operar os computadores no local. Assinale a alternativa que apresenta uma situação em que essa operação é admitida.",
+    "alternativas": {
+      "A": "Para a preservação de evidências voláteis ou cujo acesso posterior seja inviável ou possa ser comprometido.",
+      "B": "Para adiantar a extração integral dos dados e reduzir o trabalho posterior na unidade de Criminalística.",
+      "C": "Para aferir a produtividade e o estado de funcionamento dos equipamentos antes do transporte.",
+      "D": "Para permitir que o proprietário realize um backup pessoal de seus arquivos antes da apreensão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A operação é admitida em três hipóteses: determinação expressa em mandado, preservação de evidências voláteis (ou de acesso posterior comprometido) e racionalização da seleção do material (A). Adiantar a extração integral, aferir produtividade ou permitir backup do proprietário não constam entre as exceções.",
+    "referencia": "Cap. 3, Seção 3.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "enunciado": "Sobre a apreensão de computadores (desktops e notebooks), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os discos rígidos devem ser retirados do gabinete e apreendidos isoladamente, dispensando o restante do equipamento e agilizando o transporte do material.",
+      "B": "A regra é apreender o computador por inteiro, pois a criptografia vinculada ao módulo TPM da placa-mãe pode tornar inacessíveis os discos avulsos.",
+      "C": "Periféricos como teclados e monitores integram a apreensão padrão, independentemente de haver interesse específico.",
+      "D": "Encontrado o computador ligado, deve-se desligá-lo pela tomada de imediato, a fim de preservar os dados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A regra é apreender por inteiro, pela possibilidade de criptografia vinculada ao TPM da placa-mãe (além de dificuldades de acesso em notebooks e de configurações RAID) — B. Os discos não devem ser retirados; periféricos só com interesse específico; e o computador ligado deve ter os dados avaliados/preservados e ser posto em hibernação, não desligado pela tomada.",
+    "referencia": "Cap. 3, Seção 3.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "enunciado": "Encontrado um computador ligado durante a busca, assinale a alternativa INCORRETA quanto aos procedimentos recomendados.",
+    "alternativas": {
+      "A": "Verificar a necessidade de registrar flagrante conforme o que estiver claramente visível na tela.",
+      "B": "Avaliar a obtenção da chave de recuperação do BitLocker e a captura da memória RAM.",
+      "C": "Concluídos os procedimentos de preservação, colocar o computador em modo de hibernação.",
+      "D": "Estando o computador desligado, ligá-lo para inspecionar o conteúdo antes de decidir sobre o transporte."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Se o computador está desligado, deve permanecer desligado; logo (D) é a incorreta. As demais descrevem corretamente os cuidados com o computador ligado (flagrante, criptografia/RAM e hibernação).",
+    "referencia": "Cap. 3, Seção 3.3.1",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 3 - Busca e Apreensão",
+    "enunciado": "Sobre a apreensão de dados (cópias) e a arrecadação de vestígios de informática, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As etiquetas de identificação devem ser afixadas preferencialmente sobre a embalagem, e não sobre o próprio equipamento.",
+      "B": "Discos rígidos removidos de um mesmo gabinete devem ser embalados em volumes separados, um para cada disco.",
+      "C": "Recomenda-se acondicionar as mídias em embalagens que acumulem eletricidade estática, para dissipar impactos mecânicos durante o transporte em viaturas.",
+      "D": "A cópia de dados é cabível quando houver inviabilidade legal ou técnica de apreender os equipamentos, ou para reduzir o volume arrecadado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A cópia de dados aplica-se à inviabilidade legal/técnica da apreensão e à redução de volume (D). As etiquetas vão sobre o próprio equipamento; os discos de um mesmo gabinete são lacrados em volume único; e devem-se usar embalagens antiestáticas (não que acumulem estática).",
+    "referencia": "Cap. 3, Seções 3.3.3 e 3.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "enunciado": "Sobre os tipos de duplicação forense, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na duplicação de mídia para arquivo-imagem, é necessário 'zerar' a mídia de destino após cada cópia realizada, para eliminar qualquer dado preexistente.",
+      "B": "A duplicação de mídia para arquivo-imagem é a mais indicada para exames periciais, pois uma mídia de destino pode abrigar cópias de diversas origens.",
+      "C": "A duplicação de mídia para mídia dispensa o zero fill, uma vez que os dados são copiados bit a bit.",
+      "D": "A duplicação forense equivale a uma cópia lógica, restringindo-se aos arquivos visíveis no sistema de arquivos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela flexibilidade e facilidade de manter a integridade, a duplicação para arquivo-imagem é a mais indicada para exames, e um destino pode conter várias origens (B). Nela não é preciso zerar o destino; já a duplicação mídia-para-mídia exige o zero fill; e a duplicação forense copia tudo (inclusive metadados e apagados), diferindo da cópia lógica.",
+    "referencia": "Cap. 4, Seção 4.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "enunciado": "Sobre os equipamentos e o bloqueio de escrita na duplicação forense, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Distribuições forenses do Linux, como o CAINE e o Kali, são projetadas para não modificar as mídias conectadas ao computador.",
+      "B": "O bloqueio físico é obtido por um dispositivo de hardware conectado entre a mídia e o computador, que permite apenas a leitura.",
+      "C": "O emprego de um computador comum na duplicação afasta o risco de alteração acidental dos dados da mídia original.",
+      "D": "Equipamentos especializados, como Tableau e Atola, emitem relatório com a identificação das mídias e o hash dos dados copiados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O grande problema do computador comum é justamente o risco de alterar acidentalmente a mídia original — por isso se recomendam distribuições forenses ou bloqueio de escrita; logo (C) é a incorreta. As demais estão corretas.",
+    "referencia": "Cap. 4, Seção 4.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Duplicação Forense de Mídias",
+    "enunciado": "A respeito das regras gerais da duplicação forense de mídias, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A mídia de destino deve ter capacidade igual ou superior à de origem, sendo aconselhável utilizá-la com capacidade superior.",
+      "B": "Após a duplicação, os exames são realizados diretamente sobre a mídia de origem, preservando-se a cópia gerada, que fica arquivada como salvaguarda.",
+      "C": "O procedimento de duplicação altera os metadados da mídia original para registrar a data da cópia.",
+      "D": "A mídia que abriga a cópia é denominada 'origem', enquanto a mídia analisada é a 'destino'."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O destino deve ter capacidade igual ou superior, aconselhando-se superior por variações de capacidade nominal (A). As etapas seguintes ocorrem sobre a cópia (não sobre a origem); a duplicação não modifica nenhum bit da original; e a mídia analisada é a 'origem', a que recebe a cópia é o 'destino' (D inverte).",
+    "referencia": "Cap. 4, introdução",
+    "nivel": "medio"
+  },
+  {
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "enunciado": "Sobre as etapas da análise de vestígios digitais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A filtragem antecede a extração, tendo por objetivo ampliar o conjunto de arquivos disponíveis para análise.",
+      "B": "A extração varre todo o conteúdo da mídia, inclusive áreas não alocadas, disponibilizando arquivos ativos e apagados.",
+      "C": "A indexação, realizada na fase de exame, produz a cópia bit a bit da mídia questionada.",
+      "D": "O cálculo de hashes, realizado na filtragem, tem por finalidade recuperar os arquivos apagados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A extração varre todo o conteúdo, incluindo áreas não alocadas, e disponibiliza arquivos ativos e apagados (B). A sequência é Extração → Processamento → Filtragem → Exame (a extração amplia; a filtragem reduz); a indexação e o cálculo de hashes ocorrem no processamento, e o hash não recupera apagados.",
+    "referencia": "Cap. 5, Seções 5.1 a 5.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "enunciado": "Sobre a recuperação de arquivos apagados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Ao esvaziar a Lixeira ou formatar o disco, o conteúdo dos arquivos é fisicamente eliminado de imediato, liberando por completo o espaço correspondente.",
+      "B": "Quanto mais antigo o apagamento, maior tende a ser a probabilidade de recuperação do arquivo.",
+      "C": "A recuperação baseada na assinatura (data carving) busca sequências de bytes de tipos conhecidos, porém não recupera os metadados, como o nome do arquivo.",
+      "D": "A recuperação baseada no sistema de arquivos independe da existência de entradas na tabela do sistema de arquivos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O data carving procura assinaturas de tipos conhecidos e, por não usar o sistema de arquivos, não recupera metadados como o nome (C). Apagar/formatar não elimina de imediato (só marca como livre); quanto mais recente o apagamento, maior a chance de recuperação; e a recuperação pelo sistema de arquivos depende das entradas marcadas como livres.",
+    "referencia": "Cap. 5, Seção 5.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "enunciado": "Sobre o processamento e a filtragem na análise de vestígios digitais, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A categorização identifica os arquivos por assinatura e extensão e detecta inconsistências entre elas.",
+      "B": "A redução pode empregar bases de hashes para excluir arquivos conhecidos ou para identificar arquivos relevantes.",
+      "C": "A busca indexada é mais rápida que a busca live, pois consulta o índice previamente gerado.",
+      "D": "A pesquisa por palavras-chave não admite o uso de caracteres curinga, exigindo a digitação exata do termo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A pesquisa por palavras-chave admite caracteres curinga (ex.: 'lui?' encontra 'luiz' e 'luis'); logo (D) é a incorreta. As demais descrevem corretamente a categorização, a redução por hashes e a diferença entre busca indexada e live.",
+    "referencia": "Cap. 5, Seções 5.2 e 5.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Análise de Vestígios Digitais",
+    "enunciado": "Sobre a decifragem de arquivos e os ataques a senhas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O ataque de força bruta é eficiente para senhas longas, por testar as combinações de forma otimizada.",
+      "B": "O ataque de dicionário restringe-se às palavras constantes de dicionários oficiais do idioma.",
+      "C": "Os métodos probabilísticos determinam as sequências mais prováveis de terem sido usadas, com base em padrões e gramáticas por idioma.",
+      "D": "A exploração de falhas nos algoritmos de proteção tende a se tornar mais fácil à medida que se adotam algoritmos robustos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os métodos probabilísticos usam probabilidades condicionais e gramáticas por idioma para priorizar sequências mais prováveis (C). A força bruta é ineficiente para senhas longas (só funciona bem em curtas); o dicionário inclui também lugares, filmes, dados pessoais e palavras do próprio disco; e a tendência a algoritmos robustos dificulta (não facilita) a exploração de falhas.",
+    "referencia": "Cap. 5, Seção 5.4.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "enunciado": "Conforme a terminologia da Portaria Ditec/PF nº 1710/2026, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O BFAC é o banco de dados que armazena arquivos conhecidos, inclusive os que podem ser ignorados e os relacionados a malwares.",
+      "B": "MASI designa a arquitetura de rede ponto-a-ponto que permite compartilhar arquivos sem servidor central, dispensando qualquer nó coordenador.",
+      "C": "Marcadores são as imagens, vídeos ou registros que contêm informações relacionadas a ASI.",
+      "D": "Puberal é a técnica de ocultar um arquivo dentro de outro, aparentemente inofensivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O BFAC (Banco Federal de Arquivos Conhecidos) armazena arquivos conhecidos, inclusive os que podem ser ignorados e os ligados a malwares (A). A descrição de rede ponto-a-ponto é do P2P; a de imagens/vídeos com conteúdo de ASI é do MASI; e ocultar um arquivo em outro é esteganografia — B, C e D trocam os conceitos.",
+    "referencia": "Cap. 6, Seção 6.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "enunciado": "Sobre o Exame de Identificação de MASI, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Sua realização é privativa dos peritos da área de informática, dada a necessidade de extração técnica do dispositivo com ferramentas forenses especializadas.",
+      "B": "Pode ser realizado por perito de qualquer área, desde que incida sobre dados previamente extraídos e processados por ferramenta forense.",
+      "C": "A caracterização da posse pressupõe o exame da totalidade dos arquivos, ainda que estes superem dezenas de milhares.",
+      "D": "O emprego de ferramenta de IA dispensa o registro em laudo quando houver supervisão humana no processo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Portaria 1710/2026 permite que o exame de identificação de MASI seja feito por perito de qualquer área, desde que sobre dados já extraídos e processados por ferramenta forense (B). A caracterização da posse admite interrupção ao atingir a saturação (500 arquivos); e o uso de IA deve sempre ser consignado em laudo, qualquer que seja o grau de supervisão humana.",
+    "referencia": "Cap. 6, Seções 6.2 e 6.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "enunciado": "Sobre a organização e a priorização do material em exames de ASI, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Os arquivos examinados são separados em três conjuntos: disponibilização, produção e posse.",
+      "B": "Os arquivos do conjunto 'produção' devem ser encaminhados para inclusão no BFAC.",
+      "C": "A priorização recomenda ordenar os arquivos, em cada conjunto, iniciando pela categoria 'pornografia adulta' e depois 'ASI'.",
+      "D": "Arquivos classificados como MASI unicamente por IA, sem confirmação visual do perito, devem ser incluídos em marcador próprio."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A hierarquia de priorização é ASI, suspeita de ASI, pornografia adulta, pessoas e outros — começa por ASI, não por pornografia adulta; logo (C) é a incorreta. A separação em três conjuntos, o encaminhamento da 'produção' ao BFAC e o marcador próprio para classificações só por IA estão corretos.",
+    "referencia": "Cap. 6, Seção 6.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Casos de Abuso Sexual Infantojuvenil (ASI)",
+    "enunciado": "Sobre os critérios para a identificação visual de MASI, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A caracterização exige que o perito estime a idade numérica dos indivíduos representados.",
+      "B": "Exige-se a presença simultânea de indícios de menoridade e de conotação sexual, ainda que esta seja implícita.",
+      "C": "A conotação sexual, isoladamente, basta para a caracterização, dispensando os indícios de menoridade.",
+      "D": "Os elementos contextuais, como nomes de pastas e metadados, substituem a análise dos indícios físicos de menoridade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A identificação exige a presença simultânea de indícios de menoridade e de conotação sexual (explícita ou implícita) — B. O perito não deve estimar idade numérica; a conotação sexual sozinha não basta; e os elementos contextuais corroboram, mas não substituem a avaliação dos indícios de menoridade.",
+    "referencia": "Cap. 6, Seção 6.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "enunciado": "Sobre a identificação em dispositivos móveis da tecnologia GSM, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O IMEI identifica unicamente o aparelho, enquanto o IMSI, armazenado no cartão SIM, identifica o assinante.",
+      "B": "O IMSI identifica o aparelho, ao passo que o IMEI identifica o assinante junto à operadora de telefonia.",
+      "C": "O ICCID é o código de quinze dígitos obtido no aparelho por meio da digitação de *#06#.",
+      "D": "O cartão eSIM pode ser transferido fisicamente de um aparelho para outro, tal como os demais cartões SIM."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O IMEI identifica o aparelho e o IMSI (armazenado no SIM) identifica o assinante (A). B inverte os dois; o ICCID tem 20 dígitos (o código obtido por *#06# é o IMEI, de 15 dígitos); e o eSIM é soldado à placa-mãe, devendo ser importado via software, não transferido fisicamente.",
+    "referencia": "Cap. 7, Seção 7.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "enunciado": "Sobre as formas de extração de dados de aparelhos celulares, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A extração lógica é a mais abrangente, permitindo recuperar arquivos apagados e acessar a área protegida da memória, inclusive a memória flash do aparelho.",
+      "B": "A extração física copia toda a área de armazenamento físico e é a mais próxima de um exame em computador, permitindo recuperar apagados.",
+      "C": "A extração manual, por empregar ferramentas forenses específicas, acessa dados que não estão visíveis na interface.",
+      "D": "A extração via sistema de arquivos não possibilita a recuperação de informações apagadas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A extração física copia toda a memória flash, é a mais próxima de um exame em computador e a mais abrangente, permitindo recuperar apagados (B). A lógica retorna a menor quantidade de dados (não acessa a área protegida nem apagados); a manual não usa ferramentas especiais e só alcança o visível; e a via sistema de arquivos permite recuperar apagados.",
+    "referencia": "Cap. 7, Seção 7.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "enunciado": "Sobre os estados de criptografia AFU e BFU em dispositivos móveis, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No estado AFU, as chaves de criptografia já foram carregadas na memória RAM, permitindo o acesso a uma quantidade maior de dados.",
+      "B": "No estado BFU, as chaves principais já se encontram na memória, o que torna os dados mais acessíveis.",
+      "C": "Um aparelho recém-ligado e ainda não desbloqueado pelo usuário encontra-se no estado AFU.",
+      "D": "Reiniciar um aparelho em AFU é recomendável para estabilizar as chaves de criptografia na memória e garantir o acesso posterior aos dados protegidos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No AFU (After First Unlock), as chaves já estão carregadas na RAM, ampliando o acesso aos dados (A). No BFU as chaves ainda não foram carregadas; um aparelho recém-ligado e não desbloqueado está em BFU; e reiniciar um aparelho em AFU deve ser evitado, pois o levaria de volta ao BFU.",
+    "referencia": "Cap. 7, Seção 7.3.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "enunciado": "Sobre a apreensão e a preservação de dispositivos móveis, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O isolamento de rede pode ser obtido com o modo avião, bolsas de Faraday e a remoção do cartão SIM.",
+      "B": "Diante de um aparelho ligado e em uso, sem senha fornecida, prioriza-se a apreensão imediata, mantendo-o ligado e isolado com alimentação contínua.",
+      "C": "Estando o aparelho em AFU, recomenda-se desligá-lo para preservar as chaves de criptografia durante o transporte.",
+      "D": "Os cartões SIM e de memória devem ser analisados separadamente, com o uso de leitores específicos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Um aparelho em AFU não deve ser desligado nem reiniciado, pois isso o levaria ao BFU e removeria as chaves da memória; logo (C) é a incorreta. Isolamento por modo avião/Faraday/remoção de SIM, apreensão imediata do aparelho ligado em uso e análise separada dos cartões estão corretos.",
+    "referencia": "Cap. 7, Seções 7.2.2, 7.3.3 e 7.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Exames em Equipamentos Eletrônicos Portáteis",
+    "enunciado": "Sobre as dificuldades encontradas nos exames de aparelhos celulares, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O número da linha em um aparelho GSM associa-se ao cartão SIM, e não ao aparelho, devendo ser confirmado pela operadora por meio do ICCID ou do IMSI.",
+      "B": "O campo 'Meu número', quando presente, corresponde com exatidão à linha em uso no cartão SIM, podendo ser citado no laudo sem qualquer ressalva.",
+      "C": "Diante de senha desconhecida, recomenda-se realizar tentativas ilimitadas de desbloqueio até a obtenção do acesso.",
+      "D": "Técnicas como root e jailbreak devem ser a primeira opção do perito, por serem as mais abrangentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A linha, em GSM, vincula-se ao SIM (ao IMSI), não ao aparelho, e deve ser confirmada pela operadora via ICCID ou IMSI (A). O campo 'Meu número' reflete o MSISDN inserido e pode não corresponder à linha; há risco de o aparelho apagar dados após um número de tentativas (fazem-se tentativas controladas); e recomenda-se abordagem progressiva, deixando root/jailbreak como últimos recursos.",
+    "referencia": "Cap. 7, Seção 7.2.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "enunciado": "Sobre a garantia de integridade e autenticidade dos anexos digitais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A integridade individual dos arquivos é garantida pela assinatura digital aposta em cada arquivo do anexo.",
+      "B": "A lista de hashes dos arquivos é mantida em sigilo e, por isso, não é gravada na mídia anexa.",
+      "C": "O mecanismo de autenticidade da mídia não assegura a integridade dos arquivos, exigindo verificação independente, realizada arquivo por arquivo.",
+      "D": "O hash do arquivo que contém a lista de hashes é transcrito no corpo do laudo, o qual é assinado digitalmente, garantindo a autenticidade da mídia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A autenticidade da mídia é obtida transcrevendo, no corpo do laudo assinado digitalmente, o hash do arquivo que contém a lista de hashes (D). A integridade individual vem do hash de cada arquivo (não de assinatura por arquivo); a lista é gravada na própria mídia anexa; e o mecanismo de autenticidade também garante a integridade.",
+    "referencia": "Cap. 8, Seção 8.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "enunciado": "Sobre os procedimentos de geração e de verificação do anexo digital, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Na geração, os arquivos selecionados e o arquivo hashes.txt são reunidos em um arquivo-contêiner (ISO, ZIP ou E01) gravado na mídia.",
+      "B": "Na verificação, compara-se o hash do hashes.txt com o valor transcrito no corpo do laudo.",
+      "C": "Recomenda-se gravar o anexo em mídia ótica não regravável ou em dispositivo configurado como somente leitura.",
+      "D": "O valor do hash da lista de hashes deve permanecer restrito à mídia anexa, não sendo transcrito no corpo do laudo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O hash da lista de hashes é justamente transcrito no corpo do laudo (assinado digitalmente) para garantir a autenticidade; logo (D) é a incorreta. A geração do contêiner com o hashes.txt, a comparação na verificação e o uso de mídia não regravável/somente leitura estão corretos.",
+    "referencia": "Cap. 8, Seções 8.2 e 8.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 8 - Laudo e Anexos Digitais",
+    "enunciado": "Sobre a estrutura do laudo pericial de informática, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O item 'Histórico' é obrigatório em todos os laudos de informática, ainda que não haja fatos anteriores relevantes a relatar.",
+      "B": "Quando poucos arquivos são selecionados, eles podem ser incorporados ao corpo do laudo, dispensando a mídia anexa.",
+      "C": "Arquivos executáveis, de áudio e de vídeo devem ser transcritos integralmente no corpo do laudo.",
+      "D": "As considerações técnicas integram, obrigatoriamente, o item 'Objetivo' do laudo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Selecionados poucos arquivos (planilhas, documentos, e-mails), eles podem ser incorporados ao corpo do laudo, dispensando a mídia anexa (B). O 'Histórico' é opcional; executáveis, áudio e vídeo não são transcritos no corpo, mas encaminhados em anexo no formato original; e as considerações técnicas são apresentadas em apêndices.",
+    "referencia": "Cap. 8, introdução",
+    "nivel": "medio"
+  }
+]
