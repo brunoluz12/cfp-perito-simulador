@@ -35518,5 +35518,2538 @@ const questoesDB = [
     "justificativa": "Arquivos executáveis, de áudio e de vídeo não são transcritos no corpo do laudo, mas encaminhados em anexo, no formato original; logo (B) é a incorreta. As demais estão corretas.",
     "referencia": "Cap. 8, Seção 8 (introdução)",
     "nivel": "medio"
+  },
+  {
+    "id": 2408,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da persecução penal, a materialidade delitiva é tecnicamente definida como:",
+    "alternativas": {
+      "A": "o conjunto de indícios de autoria que autoriza o titular da ação penal a formular juízo de probabilidade sobre o fato.",
+      "B": "a circunstância conhecida e provada que, por indução, autoriza concluir a existência de outras circunstâncias do fato.",
+      "C": "o elemento objetivo do tipo penal, consistente na efetivação, no mundo real, da conduta que a lei penal veda.",
+      "D": "o elemento subjetivo do tipo penal, consistente na demonstração do dolo ou da culpa do agente na conduta apurada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A materialidade é o elemento objetivo do tipo penal: a ocorrência da conduta que a lei penal veda, a efetivação do crime no mundo real. Prová-la é provar que o crime de fato existiu. A circunstância conhecida e provada que, por indução, leva a outras é o conceito legal de indício.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2409,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o grau de convencimento exigido do juiz para a condenação criminal, o processo penal estabelece que:",
+    "alternativas": {
+      "A": "a dúvida quanto à autoria pode ser superada pela solidez da prova da materialidade, em juízo de ponderação.",
+      "B": "serão aceitos juízos de certeza e, excepcionalmente, de alta probabilidade, quando a prova material for robusta.",
+      "C": "o convencimento se forma pela preponderância das provas, cabendo à defesa demonstrar a fragilidade da acusação.",
+      "D": "serão aceitos apenas juízos de certeza, vedada a condenação enquanto houver a mínima dúvida razoável quanto à autoria."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O processo penal exige segurança absoluta em ambas as frentes (materialidade e autoria): para condenar serão aceitos juízos de certeza, e jamais apenas de probabilidade, com base no princípio do in dubio pro reo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2410,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à obrigatoriedade do inquérito policial, é correto afirmar que ele é:",
+    "alternativas": {
+      "A": "obrigatório para o oferecimento da denúncia, por constituir a base do conjunto probatório, e dispensável para o Delegado quando a autoria for evidente desde o registro da ocorrência.",
+      "B": "dispensável para o oferecimento da denúncia, se o titular da ação já possui materialidade e indícios de autoria por outras vias, e obrigatório para o Delegado que toma conhecimento da infração.",
+      "C": "dispensável tanto para o titular da ação penal quanto para o Delegado, por se tratar de peça meramente informativa, sem valor probatório próprio.",
+      "D": "obrigatório em ambas as esferas, admitindo-se seu arquivamento apenas por decisão judicial fundamentada em ausência de materialidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O inquérito é dispensável para a denúncia (se o titular já possui elementos suficientes por outras vias) e obrigatório para o Delegado de Polícia ao tomar conhecimento de uma infração penal. Além disso, ele traz em seu bojo um conjunto probatório muito forte — o que afasta a ideia de peça 'meramente' informativa.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2411,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na persecução penal preliminar, o Delegado de Polícia é considerado:",
+    "alternativas": {
+      "A": "o primeiro garantidor da legalidade, cabendo-lhe ainda dirigir-se ao local do crime para providenciar o isolamento até a chegada da perícia.",
+      "B": "o titular da opinio delicti na fase preliminar, com atribuição de formular a tese acusatória a ser levada a juízo.",
+      "C": "o produtor isento da prova material, cabendo-lhe submeter as hipóteses investigativas ao crivo do método científico.",
+      "D": "o fiador intransferível da cadeia de custódia, respondendo pela destinação final de cada vestígio coletado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Delegado é o primeiro garantidor da legalidade da persecução penal preliminar e tem a obrigação de se dirigir ao local para providenciar o isolamento até a chegada da perícia. Produtor isento da prova material e fiador da cadeia de custódia são papéis do perito; a titularidade da tese acusatória é do Ministério Público.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2412,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as atribuições da Polícia Federal, aquela exercida com exclusividade é:",
+    "alternativas": {
+      "A": "a prevenção e repressão ao contrabando e ao descaminho.",
+      "B": "o exercício das funções de polícia judiciária da União.",
+      "C": "a apuração de infrações com repercussão interestadual que exija repressão uniforme.",
+      "D": "o exercício das funções de polícia marítima, aeroportuária e de fronteiras."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No mnemônico COMPIUP, a exclusividade recai sobre a Polícia Judiciária da União. As demais são atribuições da PF, porém sem a nota de exclusividade — no contrabando e descaminho, por exemplo, atua sem prejuízo da ação fazendária e de outros órgãos.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2413,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Compete à Polícia Federal apurar infrações penais praticadas em detrimento de bens, serviços e interesses:",
+    "alternativas": {
+      "A": "da União, de suas autarquias e de suas empresas públicas.",
+      "B": "da União, de suas fundações públicas e de suas sociedades de economia mista.",
+      "C": "da União, de suas autarquias e de suas sociedades de economia mista.",
+      "D": "da União, de suas empresas públicas e das concessionárias de serviço público federal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A atribuição alcança crimes em detrimento da União, suas autarquias e empresas públicas (letra U do mnemônico COMPIUP). Sociedades de economia mista, fundações e concessionárias ficam de fora dessa cláusula clássica.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2414,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A distinção conceitual entre Criminologia e Criminalística reside em que:",
+    "alternativas": {
+      "A": "a Criminologia orienta a política criminal do Estado, enquanto a Criminalística estuda as causas sociais da criminalidade para subsidiar a prevenção delitiva.",
+      "B": "a Criminologia comprova a materialidade do delito por métodos estatísticos, enquanto a Criminalística estuda o comportamento criminoso a partir da interpretação de perfis psicológicos.",
+      "C": "a Criminologia estuda crimes, criminosos e criminalidade com foco sociológico, enquanto a Criminalística comprova a materialidade e identifica autores e modus operandi pelo estudo dos vestígios materiais.",
+      "D": "a Criminologia interpreta os vestígios materiais sob a ótica das ciências sociais, enquanto a Criminalística restringe seu objeto à identificação humana por métodos biométricos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Criminologia: ciência que estuda os crimes, os criminosos e a criminalidade, com foco sociológico. Criminalística: objetiva a comprovação da materialidade, a identificação dos autores e do modus operandi, focando estritamente no estudo e interpretação dos vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2415,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo definição clássica, a Criminalística é uma disciplina:",
+    "alternativas": {
+      "A": "jurídico-penal por natureza e técnico-científica por destinação, que orienta a produção da prova testemunhal nas infrações penais.",
+      "B": "auxiliar da medicina legal por natureza e administrativa por destinação, voltada à padronização dos exames de corpo de delito.",
+      "C": "técnico-científica por natureza e investigativa por destinação, que formula a tese acusatória a partir dos vestígios materiais.",
+      "D": "técnico-científica por natureza e jurídico-penal por destinação, que concorre para a elucidação e a prova das infrações penais e da identidade de seus autores."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Criminalística: disciplina técnico-científica por natureza e jurídico-penal por destinação, que concorre para a elucidação e a prova das infrações penais e da identidade dos autores, por meio da pesquisa, do adequado exame e da correta interpretação dos vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2416,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os atributos essenciais dos exames periciais (mnemônico COR TIP), possuem natureza atitudinal:",
+    "alternativas": {
+      "A": "objetividade, clareza e imparcialidade.",
+      "B": "objetividade, rigor técnico-científico e tempestividade.",
+      "C": "clareza, precisão e imparcialidade.",
+      "D": "imparcialidade, tempestividade e rigor técnico-científico."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Atitudinais: objetividade, clareza e imparcialidade. Técnicos: rigor técnico-científico, precisão (eficácia) e tempestividade.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2417,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O atributo essencial do exame pericial que impõe o equilíbrio entre a precisão e o tempo despendido, a fim de não prejudicar a investigação nem perder o princípio da oportunidade, é a:",
+    "alternativas": {
+      "A": "clareza.",
+      "B": "tempestividade.",
+      "C": "precisão (eficácia).",
+      "D": "objetividade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Tempestividade (natureza técnica): buscar equilíbrio entre precisão e o tempo levado para o exame, a fim de não prejudicar a investigação ou perder o princípio da oportunidade. A precisão refere-se à escolha de metodologia com margem de segurança adequada.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2418,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A máxima segundo a qual \"a palavra do perito não vale por si só, mas pelas bases em que se assenta\" traduz o atributo essencial da:",
+    "alternativas": {
+      "A": "precisão, de natureza técnica, ligada à escolha de metodologia com margem de segurança adequada ao resultado.",
+      "B": "imparcialidade, de natureza atitudinal, ligada à busca da verdade livre de preconceitos e sem atrelamento às partes.",
+      "C": "rigor técnico-científico, de natureza técnica, ligado à adoção da melhor metodologia disponível.",
+      "D": "clareza, de natureza atitudinal, ligada à redação do laudo de forma compreensível para os leigos do processo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O rigor técnico-científico (natureza técnica) consiste em adotar a melhor metodologia disponível, pesquisando em fontes científicas formais — é dele a máxima citada.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2419,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pelo atributo da clareza, exige-se do Laudo Pericial que:",
+    "alternativas": {
+      "A": "os termos técnicos sejam suprimidos de todo o documento, para garantir a compreensão por juízes, promotores e advogados.",
+      "B": "a conclusão seja redigida em linguagem técnica estrita, reservando-se a linguagem acessível à exposição e ao histórico.",
+      "C": "o texto siga formulários padronizados de resposta, com quesitos respondidos por afirmação ou negação simples.",
+      "D": "a redação seja compreensível para leigos, sendo o termo técnico essencial no exame, mas com conclusão clara e inequívoca."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Clareza (atitudinal): a redação do laudo deve ser compreensível para leigos (juízes, promotores, advogados); o termo técnico no exame é essencial, mas a conclusão deve ser clara e inequívoca.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2420,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao momento de atuação do assistente técnico no processo penal, sua intervenção ocorre:",
+    "alternativas": {
+      "A": "a partir da admissão pelo delegado, ainda na fase do inquérito, antes da elaboração do laudo.",
+      "B": "a partir da nomeação pelo juiz, simultaneamente à designação do perito oficial do caso.",
+      "C": "a partir da contratação pela parte, acompanhando os exames do perito oficial em tempo real.",
+      "D": "a partir da admissão pelo juiz e após a conclusão dos exames pelo perito oficial."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A atuação do assistente técnico se dá apenas a partir da sua admissão pelo juiz e após a conclusão dos exames pelo perito oficial.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2421,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na sequência metodológica geral do trabalho pericial, a etapa imediatamente posterior à definição do foco, do objetivo e da delimitação é:",
+    "alternativas": {
+      "A": "a escolha da metodologia/técnica e o estabelecimento de hipóteses testáveis, se necessário.",
+      "B": "o conhecimento do problema e do contexto, com fixação do ponto questionado.",
+      "C": "a elaboração do Laudo Pericial Criminal embasado e claro.",
+      "D": "a realização das análises com rigor e precisão tempestiva."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Sequência: (1) conhecimento do problema e contexto; (2) definição do foco, objetivo e delimitação; (3) escolha da metodologia/técnica e hipóteses testáveis; (4) análises com rigor e precisão tempestiva; (5) elaboração do laudo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2422,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A missão central do Perito Criminal consiste em executar atividades técnico-científicas voltadas à:",
+    "alternativas": {
+      "A": "coleta, interpretação, valoração e julgamento da prova material.",
+      "B": "detecção, apreensão, catalogação e devolução de bens de interesse da investigação.",
+      "C": "descoberta, recolhimento, guarda e análise de vestígios.",
+      "D": "identificação, interrogatório, reconstituição e indiciamento dos suspeitos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A missão central do perito é executar atividades técnico-científicas voltadas à descoberta, recolhimento, guarda e análise de vestígios, atuando como principal garantidor da cadeia de custódia e produtor isento da prova material.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2423,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No Código de Processo Penal, o perito figura como auxiliar da Justiça e sua convocação torna-se impositiva sempre que houver dependência de conhecimento técnico-científico especializado. Os dispositivos correspondentes são, respectivamente:",
+    "alternativas": {
+      "A": "art. 156 e art. 158.",
+      "B": "art. 149 e art. 156.",
+      "C": "art. 149 e art. 275.",
+      "D": "art. 158 e art. 149."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O perito atua como auxiliar da Justiça (art. 149) e sua convocação é impositiva sempre que houver dependência de conhecimento técnico-científico especializado (art. 156). O art. 158 trata da requisição obrigatória do exame de corpo de delito e os arts. 275 a 281, do impedimento e da suspeição.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2424,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A dualidade jurídica que marca a atuação do Perito Criminal Federal manifesta-se da seguinte forma:",
+    "alternativas": {
+      "A": "administrativamente, agente público dotado de autonomia plena, sem subordinação hierárquica; processualmente, auxiliar eventual da Justiça, sujeito apenas às regras de suspeição dos juízes.",
+      "B": "administrativamente, auxiliar direto da jurisdição criminal; processualmente, servidor subordinado à gestão do órgão policial e à regulação técnica da DITEC.",
+      "C": "administrativamente, servidor público policial vinculado à DITEC na regulação técnica; processualmente, auxiliar direto da jurisdição, sujeito ao impedimento e à suspeição dos arts. 275 a 281 do CPP.",
+      "D": "administrativamente, membro do quadro de auxiliares permanentes do Poder Judiciário; processualmente, servidor policial submetido ao regime correcional da Corregedoria da Polícia Federal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Administrativamente: servidor público policial integrado, subordinado à gestão do órgão policial e vinculado à DITEC na regulação técnica. Processualmente: auxiliar direto da jurisdição, submetido estritamente à disciplina judiciária, aplicando-se as regras de impedimento e suspeição (arts. 275 a 281 do CPP).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2425,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à natureza jurídica da requisição de perícia pelo Delegado de Polícia, trata-se de ato:",
+    "alternativas": {
+      "A": "vinculado ao art. 158 do CPP, permanecendo o perito blindado contra ingerências, pressões por produtividade ou induções investigativas.",
+      "B": "discricionário, fundado no juízo de conveniência da autoridade sobre a utilidade do exame.",
+      "C": "vinculado ao art. 156 do CPP, facultando-se à autoridade delimitar as conclusões possíveis do laudo.",
+      "D": "discricionário quanto ao momento e vinculado quanto ao objeto, admitindo orientação da autoridade sobre o método a empregar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A requisição de perícia pelo Delegado é ato vinculado ao art. 158 do CPP, e o perito é blindado contra ingerências, pressões por produtividade ou induções investigativas em seus métodos e conclusões.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2426,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A autonomia do Perito, garantida por lei, abrange as esferas:",
+    "alternativas": {
+      "A": "funcional, orçamentária e metodológica.",
+      "B": "técnica, administrativa e financeira.",
+      "C": "científica, hierárquica e decisória.",
+      "D": "técnica, científica e funcional."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O Perito possui autonomia garantida por lei nas esferas técnica, científica e funcional.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2427,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a posição da perícia na investigação criminal e a chamada Integração Científica, é correto afirmar que:",
+    "alternativas": {
+      "A": "o perito elabora a tese acusatória do caso, cabendo à equipe policial testá-la empiricamente nas diligências de campo subsequentes.",
+      "B": "a perícia é ferramenta central de controle e validação da investigação, com sinergia entre o trabalho analítico e a investigação tática, sem fusão de papéis.",
+      "C": "a integração científica pressupõe a subordinação metodológica do perito às hipóteses formuladas pela autoridade policial na investigação.",
+      "D": "a perícia opera como um apêndice da polícia judiciária, com fusão dos papéis analíticos e táticos no curso da investigação criminal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A perícia não é mero apêndice da polícia judiciária, mas ferramenta central de controle e validação da investigação. A Integração Científica é a sinergia entre trabalho analítico e investigação tática, sem fusão de papéis: o perito não elabora a tese acusatória, apenas submete as hipóteses da equipe policial ao crivo do método científico.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2428,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O ciclo que transforma um mero vestígio em prova material rigorosa segue a ordem:",
+    "alternativas": {
+      "A": "observação meticulosa; formulação de hipóteses técnicas; preservação (cadeia de custódia); testagem; conclusão fundamentada.",
+      "B": "observação meticulosa; preservação (cadeia de custódia); formulação de hipóteses técnicas; testagem; conclusão fundamentada.",
+      "C": "preservação (cadeia de custódia); observação meticulosa; testagem; formulação de hipóteses técnicas; conclusão fundamentada.",
+      "D": "formulação de hipóteses técnicas; observação meticulosa; preservação (cadeia de custódia); testagem; conclusão fundamentada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Ciclo inflexível: 1. Observação meticulosa; 2. Preservação (cadeia de custódia); 3. Formulação de hipóteses técnicas; 4. Testagem (exames e análises); 5. Conclusão fundamentada.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2429,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sob pressão de tempo em atendimento de local de crime, a tomada de decisão técnica do perito deve focar primariamente:",
+    "alternativas": {
+      "A": "no controle da cena e na preservação rigorosa dos vestígios, pois a urgência operacional jamais se sobrepõe à cadeia de custódia.",
+      "B": "na liberação célere da via ou do espaço público, priorizando a redução do impacto social da ocorrência.",
+      "C": "na coleta imediata do maior número possível de vestígios, ainda que com documentação simplificada.",
+      "D": "no atendimento das demandas da equipe tática, que detém a coordenação das prioridades operacionais no local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Sob pressão de tempo, o foco primário é o controle da cena e a preservação rigorosa dos vestígios; a urgência operacional jamais se sobrepõe à preservação da cadeia de custódia. A interação com a equipe policial deve ser assertiva, cabendo ao perito orientar o isolamento e balizar a atuação tática.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2430,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os quesitos, na relação entre investigação e perícia, caracterizam-se como:",
+    "alternativas": {
+      "A": "o mecanismo de impugnação técnica das conclusões periciais, privativo das partes e de seus assistentes técnicos.",
+      "B": "o instrumento de controle hierárquico do delegado sobre o método pericial, devendo ostentar precisão, pertinência e economicidade.",
+      "C": "a principal artéria de comunicação entre a Autoridade Policial (ou Justiça) e o Perito, devendo ostentar clareza, objetividade e viabilidade técnica.",
+      "D": "a peça de abertura do laudo pericial, na qual o perito delimita o objeto e o objetivo dos exames requisitados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A comunicação formal entre a investigação tática e a execução técnico-científica ocorre essencialmente pelos quesitos — principal artéria de comunicação entre a Autoridade Policial (ou Justiça) e o Perito. Para o sucesso, devem ostentar clareza, objetividade e viabilidade técnica.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2431,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "São elementos textuais obrigatórios da estrutura do Laudo Pericial:",
+    "alternativas": {
+      "A": "preâmbulo, histórico, objeto, exame e conclusão.",
+      "B": "histórico, objeto, objetivo, exame e quesitação.",
+      "C": "preâmbulo, objeto, objetivo, histórico e conclusão.",
+      "D": "preâmbulo, objeto, objetivo, exame e conclusão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Elementos textuais obrigatórios: preâmbulo, objeto, objetivo, exame e conclusão. O histórico, embora de extrema importância, é elemento facultativo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2432,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Histórico, no Laudo Pericial, é elemento textual:",
+    "alternativas": {
+      "A": "obrigatório, inserido logo antes da conclusão, destinado a justificar a metodologia e as técnicas empregadas nos exames realizados.",
+      "B": "facultativo, inserido logo após o exame, destinado a consolidar as respostas aos quesitos formulados pela autoridade requisitante.",
+      "C": "obrigatório, inserido logo após o objeto, destinado a descrever a cadeia de custódia de cada vestígio recebido para exame.",
+      "D": "facultativo e de extrema importância, inserido logo após o preâmbulo, destinado a registrar fatos conjunturais da requisição ou do exame."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O histórico é elemento textual facultativo de extrema importância, a ser inserido logo após o preâmbulo, destinado a registrar fatos conjunturais da requisição ou exame (na PF: dia e hora da perícia, motivos de interrupção, demora no atendimento etc.).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2433,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à cadeia de custódia e à destinação dos vestígios, o Perito Criminal:",
+    "alternativas": {
+      "A": "responde pela custódia apenas dos vestígios que ele próprio coletou em local de crime, registrando a destinação em ficha de acompanhamento.",
+      "B": "é o fiador intransferível da cadeia de custódia, com a obrigação funcional de registrar no corpo do laudo a destinação final de cada vestígio.",
+      "C": "transfere a responsabilidade pela custódia à Central de Custódia no momento do protocolo, cessando aí seu dever de registro.",
+      "D": "compartilha com o escrivão a responsabilidade pela custódia, registrando em termo apartado a destinação dos vestígios de maior relevância."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A cadeia de custódia tem no perito seu fiador intransferível, e é obrigação funcional registrar no corpo do laudo a destinação final de cada vestígio.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2434,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para Mirabete, o perito nomeado é a pessoa encarregada pela autoridade, sob compromisso, de esclarecer, por meio de laudo, uma questão de fato. Quanto a essa figura, é correto afirmar que:",
+    "alternativas": {
+      "A": "constitui longa manus do juízo cível, com atuação vedada na fase do inquérito policial em qualquer hipótese.",
+      "B": "constitui auxiliar permanente da justiça, com vínculo funcional e prerrogativa de distribuição de trabalho pelo diretor da repartição.",
+      "C": "constitui auxiliar eventual da justiça, sujeito à disciplina judiciária, podendo a nomeação ser feita pelo Delegado na fase do inquérito, na ausência de perito oficial.",
+      "D": "constitui órgão da acusação na fase preliminar, com atuação limitada aos exames requisitados pelo Ministério Público."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Peritos nomeados são auxiliares eventuais da justiça e estão sujeitos à disciplina judiciária. A nomeação também pode ser feita pelo Delegado de Polícia Federal/Civil na fase do inquérito, na ausência de perito oficial.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2435,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O rol de peritos oficiais de natureza criminal é composto por:",
+    "alternativas": {
+      "A": "peritos criminais, peritos médico-legistas e peritos odontolegistas.",
+      "B": "peritos médico-legistas, peritos odontolegistas e peritos papiloscopistas.",
+      "C": "peritos criminais, peritos papiloscopistas e peritos médico-legistas.",
+      "D": "peritos criminais, peritos documentoscópicos e peritos odontolegistas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O rol de peritos oficiais de natureza criminal: Peritos Criminais, Peritos Médico-Legistas e Peritos Odontolegistas.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2436,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O traço que diferencia o perito oficial do perito ad hoc, quanto ao encaminhamento do trabalho, é que, no caso do oficial:",
+    "alternativas": {
+      "A": "o exame é distribuído por sorteio eletrônico entre os peritos da unidade, garantindo-se a impessoalidade absoluta.",
+      "B": "o exame é requisitado diretamente ao perito escolhido pela autoridade, conforme sua especialidade notória.",
+      "C": "o exame é atribuído pelo juiz ao perito da lista anual do tribunal, observada a ordem cronológica de inscrição.",
+      "D": "o exame é requisitado ao diretor da repartição, que distribui o trabalho com base na carga de trabalho e na área de formação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O exame é requisitado pela autoridade ao diretor da repartição, que distribui o trabalho aos peritos baseando-se na carga de trabalho e na área de formação — o que diferencia o perito oficial do ad hoc, nomeado diretamente pelo delegado.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2437,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na falta de perito oficial, o exame pericial será realizado por:",
+    "alternativas": {
+      "A": "duas pessoas idôneas, portadoras de diploma de curso superior, que devem prestar compromisso de bem e fielmente desempenhar o encargo.",
+      "B": "uma junta de três servidores públicos estáveis, preferencialmente da área policial, que devem prestar compromisso perante a autoridade.",
+      "C": "uma pessoa idônea, portadora de diploma de curso superior, dispensada de compromisso legal em razão da urgência do exame.",
+      "D": "duas pessoas de reputação ilibada, com notório saber na área do exame, independentemente de escolaridade formal comprovada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Perito não oficial (ad hoc): 2 (duas) pessoas idôneas, portadoras de diploma de curso superior, que devem prestar compromisso legal de bem e fielmente desempenhar o encargo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2438,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No processo civil, a prova pericial estrutura-se da seguinte forma:",
+    "alternativas": {
+      "A": "as partes indicam, de comum acordo, o perito do juízo, que atua sob compromisso e recebe honorários rateados em partes iguais, por determinação legal expressa.",
+      "B": "o juiz requisita o exame ao diretor do instituto oficial, que distribui o trabalho conforme a carga e a área de formação dos peritos do quadro, remunerados pelo Estado.",
+      "C": "o juiz nomeia perito de nível universitário, inscrito no conselho de classe, que atua sob compromisso e faz jus a honorários, facultada às partes a contratação de assistentes técnicos.",
+      "D": "o juiz nomeia dois profissionais idôneos de nível universitário, que atuam sob compromisso e são remunerados pelo Estado, facultada a escusa justificada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No processo civil, o juiz nomeia o perito (profissional de nível universitário, inscrito no conselho de classe), que faz jus a honorários e atua sob compromisso; as partes podem contratar assistentes técnicos.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2439,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No processo civil, quando o exame envolver autenticidade ou falsidade de documento, ou tiver natureza médico-legal, o juiz deverá:",
+    "alternativas": {
+      "A": "converter o feito em diligência criminal, remetendo o exame à polícia judiciária competente para a lavratura do laudo respectivo.",
+      "B": "escolher, de preferência, técnicos dos estabelecimentos oficiais especializados, que devem aceitar o encargo se ausente justificativa, sob compromisso e com honorários.",
+      "C": "nomear livremente qualquer profissional habilitado de nível universitário, vedada apenas a escolha de servidores dos estabelecimentos oficiais.",
+      "D": "designar junta formada por dois assistentes técnicos indicados pelas partes, sob a presidência do perito do juízo, todos sob compromisso."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Nesses casos o juiz escolherá, de preferência, técnicos dos estabelecimentos oficiais especializados (ex.: IML, Instituto de Criminalística); eles devem aceitar o encargo se não houver justificativa, atuam sob compromisso e percebem honorários.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2440,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito foi designado para exame em processo no qual já havia atuado como testemunha. Em outro caso, constatou-se que o perito recebera presentes de uma das partes. As situações configuram, respectivamente:",
+    "alternativas": {
+      "A": "suspeição e impedimento.",
+      "B": "impedimento em ambas as hipóteses.",
+      "C": "suspeição em ambas as hipóteses.",
+      "D": "impedimento e suspeição."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Já ter participado do processo como testemunha (ou dado opinião anterior) é causa objetiva/absoluta de impedimento. Ter recebido presentes de uma das partes é causa subjetiva/relativa de suspeição.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2441,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre impedimento e suspeição do perito, é correto afirmar que:",
+    "alternativas": {
+      "A": "o parentesco até 2º grau com o advogado da parte gera suspeição relativa, por se tratar de vínculo de natureza afetiva meramente presumida.",
+      "B": "o impedimento decorre de vínculos subjetivos e financeiros do perito com as partes, enquanto a suspeição decorre de fatos concretos, familiares e funcionais já documentados nos autos.",
+      "C": "o impedimento decorre de vínculos objetivos, como fatos concretos, família e atuação anterior, enquanto a suspeição decorre de vínculos subjetivos e financeiros, como amizade, interesse e dívidas.",
+      "D": "ser credor ou devedor de qualquer das partes configura impedimento do perito, dada a objetividade documental e a natureza absoluta da relação de crédito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Impedimento: vínculos objetivos/absolutos (já atuou como testemunha, é parte ou membro de empresa envolvida, parentesco, periciando paciente, pena impeditiva). Suspeição: vínculos subjetivos/relativos e financeiros (amizade íntima, inimizade capital, credor/devedor, presentes, interesse no julgamento).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2442,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à responsabilização penal dos profissionais que atuam na prova técnica, tem-se que:",
+    "alternativas": {
+      "A": "os peritos respondem pelos crimes contra a Administração da Justiça; a falsa perícia exige dolo e os assistentes técnicos das partes ficam fora do seu alcance.",
+      "B": "o crime de falsa perícia admite as modalidades dolosa e culposa, alcançando tanto os peritos oficiais quanto os assistentes técnicos das partes.",
+      "C": "o crime de falsa perícia exige dolo e alcança também os assistentes técnicos contratados pelas partes, por equiparação legal expressa.",
+      "D": "os peritos respondem pelos crimes contra a fé pública, e a falsa perícia consuma-se independentemente de dolo, bastando a quebra do dever de cuidado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os peritos respondem pelos crimes contra a Administração da Justiça. O falso testemunho ou falsa perícia exige dolo, e os assistentes técnicos (que fornecem pareceres contratados pelas partes) não cometem o crime de falsa perícia.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2443,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "As três fontes de informação sobre o fato criminoso são:",
+    "alternativas": {
+      "A": "delação, reconhecimento e vestígios materiais.",
+      "B": "confissão, testemunha e vestígios materiais.",
+      "C": "confissão, interceptação e documentos.",
+      "D": "denúncia, testemunha e indícios circunstanciais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As 3 fontes de informação: 1. Confissão (a pessoa que praticou o ilícito o confessa); 2. Testemunha (quem viu o fato); 3. Vestígios materiais (rastros deixados pela conduta humana no ambiente).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2444,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o valor probatório da confissão no processo penal, é correto afirmar que ela:",
+    "alternativas": {
+      "A": "supre a falta do exame de corpo de delito quando os vestígios houverem desaparecido.",
+      "B": "é indivisível e irretratável, vinculando o juiz quando corroborada por qualquer outro elemento.",
+      "C": "só tem valor se coerente com as outras provas, sendo divisível e retratável, podendo o juiz aceitá-la parcialmente.",
+      "D": "possui valor probatório pleno quando prestada em juízo, na presença do defensor constituído."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A confissão só tem valor se for coerente com as outras provas; é divisível e retratável, podendo o juiz aceitá-la parcialmente. A falta do exame de corpo de delito (direto ou indireto) jamais é suprida pela confissão.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2445,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Desaparecidos os vestígios da infração que deixaria corpo de delito, a falta do exame:",
+    "alternativas": {
+      "A": "poderá ser suprida pela prova testemunhal, permanecendo vedado o suprimento pela confissão do acusado.",
+      "B": "poderá ser suprida pela confissão do acusado, desde que coerente com o conjunto probatório.",
+      "C": "poderá ser suprida por qualquer meio de prova admitido, inclusive a confissão qualificada.",
+      "D": "acarretará a nulidade absoluta do processo, por se tratar de formalidade essencial insanável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Não sendo possível o exame de corpo de delito por haverem desaparecido os vestígios, a prova testemunhal poderá suprir-lhe a falta. A confissão do acusado jamais supre a falta do exame, direto ou indireto.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2446,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação das provas quanto ao objeto, o álibi apresentado pelo acusado enquadra-se como prova:",
+    "alternativas": {
+      "A": "documental, pois se materializa nos registros que comprovam a presença do agente em outro lugar.",
+      "B": "direta, pois demonstra por si só o fato a ser provado, sem raciocínio lógico externo.",
+      "C": "real, pois deriva de coisas e circunstâncias físicas relacionadas ao deslocamento do agente.",
+      "D": "indireta, pois prova-se um fato secundário para negar o principal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Quanto ao objeto: diretas demonstram por si sós o fato (testemunha ocular, laudo); indiretas referem-se a fato secundário para afirmar ou negar o principal — é o caso do álibi (prova de que estava em outro lugar).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2447,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação das provas quanto ao sujeito, o sêmen, as impressões digitais e a arma do crime são exemplos de provas:",
+    "alternativas": {
+      "A": "documentais, por se incorporarem aos autos mediante registro formal.",
+      "B": "reais, por serem oriundas de coisas e vestígios físicos relacionados ao crime.",
+      "C": "materiais, por resultarem do exame e interpretação de vestígios.",
+      "D": "diretas, por demonstrarem por si sós o fato a ser provado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto ao sujeito (pessoa ou coisa da qual provém): pessoais derivam do conhecimento de um indivíduo (depoimentos, reconhecimento); reais são oriundas de coisas e vestígios físicos (sêmen, sangue, digitais, arma, corpo da vítima). 'Material' é classificação quanto à forma.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2448,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação das provas quanto à forma, a prova material caracteriza-se por ser:",
+    "alternativas": {
+      "A": "aquela derivada do conhecimento pessoal atribuído a um indivíduo, colhida por declarações formais no curso da instrução.",
+      "B": "aquela representada por documentos que contêm o fato a ser provado, como cartas, contratos, escrituras e vídeos gravados em qualquer suporte.",
+      "C": "aquela que demonstra por si só o fato a ser provado, dispensando raciocínio lógico externo ao próprio elemento de prova.",
+      "D": "aquela produzida pelo exame e interpretação de vestígios materiais — a matéria-prima que só se torna prova material após examinada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Quanto à forma: testemunhal, documental e material. A material é produzida pelo exame e interpretação de vestígios (corpo de delito e outras perícias); os vestígios são a matéria-prima e apenas após examinados tornam-se prova material.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2449,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a corrente doutrinária que rejeita a categoria da prova indireta, o álibi deve ser tecnicamente compreendido como:",
+    "alternativas": {
+      "A": "prova negativa de autoria.",
+      "B": "contraprova de materialidade.",
+      "C": "prova indiciária de exclusão.",
+      "D": "presunção relativa de inocência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Parte da doutrina não aceita a prova indireta, argumentando que toda prova é direta quanto ao que prova imediatamente e indireta quanto ao que não prova de imediato. Para essa corrente, o álibi não seria 'prova indireta', mas prova negativa de autoria.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2450,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime, foram encontrados: (I) uma bituca de cigarro deixada dias antes por um transeunte, sem relação com o fato; (II) um isqueiro colocado propositalmente pelo autor para direcionar a investigação a terceiro; (III) pegadas produzidas pelo autor durante a fuga. Quanto à relação com o fato, os vestígios classificam-se, respectivamente, como:",
+    "alternativas": {
+      "A": "ilusório, verdadeiro e forjado.",
+      "B": "ilusório, forjado e verdadeiro.",
+      "C": "forjado, ilusório e verdadeiro.",
+      "D": "relativo, forjado e absoluto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Ilusórios: estavam no local naturalmente, por acaso. Forjados: 'plantados' intencionalmente pelo autor para desviar a investigação. Verdadeiros: têm relação direta com os fatos, resultado de ação ou omissão do autor.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2451,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Chamam-se agentes de vestígios:",
+    "alternativas": {
+      "A": "apenas as pessoas que, por ação ou omissão dolosa, produzem alterações materiais no local do crime.",
+      "B": "os peritos e auxiliares que manuseiam os vestígios ao longo da cadeia de custódia.",
+      "C": "os homens, animais, objetos e instrumentos que, natural ou artificialmente, provocam vestígios materiais.",
+      "D": "os reagentes físico-químicos empregados para revelar vestígios latentes em superfícies."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Agentes de vestígios são os homens, animais, objetos e instrumentos que, natural ou artificialmente, provocam vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2452,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um estojo de munição deflagrado encontrado na cena e uma caneta genérica, sem gravações, achada no local de um furto classificam-se, quanto à origem, respectivamente, como vestígios:",
+    "alternativas": {
+      "A": "relativo e absoluto, pois o estojo exige confronto balístico e a caneta pertence de pronto ao seu portador.",
+      "B": "absoluto e relativo, pois o estojo permite relação direta com a arma de origem e a caneta só admite vinculação indireta.",
+      "C": "verdadeiro e ilusório, pois somente o estojo decorre da conduta do autor.",
+      "D": "material e circunstancial, pois o estojo é tangível e a caneta apenas sugere a presença de alguém."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto à origem: absolutos permitem relação direta e absoluta com a fonte (digitais, sangue, ponta de faca quebrada, estojo/cápsula e a arma); relativos só admitem relação indireta (caneta genérica sem identificação do proprietário).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2453,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos termos da definição legal, considera-se indício:",
+    "alternativas": {
+      "A": "a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias.",
+      "B": "o elemento informativo colhido na fase do inquérito, apto por si só a fundamentar a condenação quando harmônico com a denúncia.",
+      "C": "a circunstância presumida que, tendo relação com o fato, autorize, por dedução, afirmar a autoria delitiva com juízo de certeza.",
+      "D": "todo vestígio material verdadeiro coletado no local do crime e submetido a exame pericial conclusivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Definição legal: considera-se indício a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias. É uma suspeita fundamentada, extraída de raciocínio lógico (indução), e pode não ser representada por vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2454,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ameaças públicas proferidas pelo suspeito contra a vítima e graves problemas financeiros do investigado são exemplos de indícios:",
+    "alternativas": {
+      "A": "ilusórios, pois desprovidos de suporte em vestígios materiais passíveis de exame pericial e de confronto técnico.",
+      "B": "materiais, pois se baseiam em fatos consolidados no mundo físico, dotados de forte poder probatório e aptos ao exame pericial direto.",
+      "C": "absolutos, pois permitem estabelecer relação direta e imediata entre as circunstâncias apuradas e a autoria delitiva.",
+      "D": "circunstanciais, pois se baseiam em circunstâncias factuais provadas, comportamentos e motivações, com peso processual obtido pela indução lógica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Indícios materiais baseiam-se em vestígios consolidados (arma apreendida, balística positiva, digital). Indícios circunstanciais baseiam-se em circunstâncias factuais provadas, comportamentos, motivações ou histórico (ameaças públicas, brigas recentes, problemas financeiros) — sem materialidade palpável, mas com peso processual via indução lógica.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2455,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o valor probatório dos indícios, a posição doutrinária correta é a de que:",
+    "alternativas": {
+      "A": "constituem mera orientação investigativa, desprovida de aptidão para integrar o convencimento judicial na fase de sentença.",
+      "B": "seu peso torna-se absoluto quando corroborado por mais de uma testemunha idônea, contemporânea ao fato e compromissada em juízo.",
+      "C": "seu valor está sempre em razão da maior ou menor afinidade de relação do fato com o crime, com o autor, ou com ambos, sem apoteose nem excomunhão.",
+      "D": "equivalem à prova plena quando convergentes entre si, autorizando a condenação com dispensa da prova material correspondente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O peso de um indício nunca é absoluto: seu valor está sempre em razão da maior ou menor afinidade de relação do fato com o crime, com o autor, ou com ambos ao mesmo tempo. Os indícios não merecem a apoteose, mas também não merecem a excomunhão.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2456,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos prazos e horários dos exames periciais, o regime aplicável estabelece que:",
+    "alternativas": {
+      "A": "o exame de corpo de delito deve ocorrer em dias úteis, e o laudo deve ser elaborado em 10 dias, prorrogáveis por igual período único.",
+      "B": "o exame de corpo de delito pode ser realizado em qualquer dia e hora, e o laudo deve ser elaborado em 15 dias, prorrogáveis mediante justificativa.",
+      "C": "o exame de corpo de delito pode ser realizado em qualquer dia e hora, e o laudo deve ser elaborado em 10 dias, com prorrogação possível sem prazo específico fixado.",
+      "D": "o exame de corpo de delito deve ocorrer em até 24 horas da requisição, e o laudo deve ser elaborado em 10 dias improrrogáveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O exame de corpo de delito pode ser feito em qualquer dia e a qualquer hora (sábados, domingos, feriados, madrugada) — quanto mais próxima do fato, maior a chance de sucesso. O prazo geral do laudo é de 10 dias, e a prorrogação existe sem prazo específico fixado.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2457,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao momento da autópsia, a regra processual determina que ela seja feita:",
+    "alternativas": {
+      "A": "pelo menos 6 horas depois do óbito, regra inderrogável mesmo diante de sinais evidentes de morte, por imposição de ordem pública.",
+      "B": "pelo menos 6 horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes.",
+      "C": "pelo menos 12 horas depois do óbito, admitida antecipação por decisão fundamentada da autoridade requisitante do exame.",
+      "D": "em até 6 horas contadas do óbito, para preservar os fenômenos cadavéricos transitórios de interesse médico-legal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A autópsia será feita pelo menos 6 horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2458,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em casos de morte violenta, o simples exame externo do cadáver bastará quando:",
+    "alternativas": {
+      "A": "o óbito ocorrer em unidade hospitalar, sob assistência médica documentada nas últimas 24 horas.",
+      "B": "houver infração penal a apurar, mas os exames internos se mostrarem tecnicamente inviáveis.",
+      "C": "a família manifestar oposição fundada à necropsia, homologada pela autoridade judiciária.",
+      "D": "inexistir infração penal a apurar, ou as lesões externas permitirem precisar a causa da morte sem exame interno."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Em casos de morte violenta, bastará o simples exame externo quando não houver infração penal a apurar, ou quando as lesões externas permitirem precisar a causa da morte sem necessidade de exame interno.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2459,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à ilustração dos laudos e à guarda de material nas perícias de laboratório, o regime aplicável prevê que:",
+    "alternativas": {
+      "A": "os laudos serão ilustrados sempre que conveniente, com conservação de parte do material analisado para eventual perícia complementar ou contraprova.",
+      "B": "os laudos serão ilustrados apenas mediante requisição expressa da autoridade, com descarte imediato do material analisado após a conclusão.",
+      "C": "a ilustração dos laudos é obrigatória em todos os exames de laboratório, dispensada a guarda de material após a emissão do resultado definitivo.",
+      "D": "a ilustração é facultativa e restrita aos exames de maior complexidade, condicionando-se a contraprova à autorização judicial prévia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os peritos poderão ilustrar seus laudos com fotografias, desenhos ou esquemas; nas perícias de laboratório, 'sempre que conveniente' os laudos serão ilustrados e os peritos conservarão parte do material para perícia complementar ou contraprova. É obrigatório fotografar os cadáveres como forem encontrados e, dentro do possível, todas as lesões.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2460,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na avaliação de coisas destruídas ou subtraídas, quando o perito estiver impossibilitado de acessar diretamente os objetos, a avaliação:",
+    "alternativas": {
+      "A": "será suspensa até a apreensão ou localização dos bens, lavrando-se termo circunstanciado de impossibilidade técnica nos autos.",
+      "B": "será feita de forma indireta, com dados dos autos ou diligências, devendo o perito obrigatoriamente relatar o critério utilizado.",
+      "C": "será feita pela média das cotações de mercado do bem, dispensada a indicação do critério adotado na estimativa final.",
+      "D": "será feita por arbitramento judicial, limitando-se o perito a homologar tecnicamente o valor fixado pelo juízo competente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A avaliação será feita de forma indireta sempre que impossível o acesso aos objetos, utilizando dados dos autos ou diligências; o perito deve obrigatoriamente relatar o critério utilizado na avaliação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2461,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos crimes cometidos com destruição ou rompimento de obstáculo, ou mediante escalada, os peritos devem descrever:",
+    "alternativas": {
+      "A": "os instrumentos utilizados, a natureza e a eficiência de cada um deles, e o perigo resultante para a vida ou o patrimônio.",
+      "B": "os meios empregados, a extensão do dano e seu valor, e as condições de segurança preexistentes no local.",
+      "C": "os vestígios deixados, os instrumentos utilizados, os meios empregados e a época em que presumem ter sido o fato praticado.",
+      "D": "os vestígios deixados, o valor do dano causado, a autoria presumida e a dinâmica reconstituída do fato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Nos crimes com destruição/rompimento de obstáculo ou escalada, os peritos descrevem: os vestígios deixados; os instrumentos utilizados; os meios empregados; e a época presumida do fato (recente ou não) — devendo a dinâmica dos fatos ser preocupação dos peritos nos exames de local.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2462,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na perícia de incêndio, os peritos verificarão:",
+    "alternativas": {
+      "A": "a causa e o local de início do incêndio, o perigo resultante para a vida ou patrimônio, a extensão do dano e seu valor, e as demais circunstâncias elucidativas.",
+      "B": "a causa e o local de início do incêndio, a identificação civil do responsável, o valor segurado do imóvel e o histórico de sinistros anteriores.",
+      "C": "o ponto de maior temperatura atingida, a carga de incêndio do imóvel, as rotas de fuga disponíveis e a conformidade das instalações elétricas.",
+      "D": "a origem térmica, elétrica ou química da ignição, o tempo estimado de queima, o material combustível predominante e a direção dos ventos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Em incêndios, os peritos verificarão: 1) a causa e o local em que o incêndio foi iniciado; 2) o perigo resultante para a vida ou patrimônio; 3) a extensão do dano e seu valor; 4) outras circunstâncias para elucidação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2463,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame dos instrumentos empregados na prática do crime, os peritos deverão verificar:",
+    "alternativas": {
+      "A": "sua natureza (qualidade) e seu valor de mercado, este para fins de fixação do montante mínimo de reparação civil do dano.",
+      "B": "sua letalidade e seu potencial ofensivo intrínseco, aferidos por ensaios comparativos padronizados de laboratório.",
+      "C": "sua origem e sua propriedade, com o rastreamento completo da cadeia de posse do objeto até o momento da apreensão.",
+      "D": "sua natureza (qualidade) e sua eficiência, entendida como a aptidão para produzir o resultado e o estado de conservação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Quanto aos instrumentos do crime, os peritos verificam a natureza (qualidade) e a eficiência (aptidão para produzir o resultado, bem como o estado de conservação).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2464,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de omissões, obscuridades, contradições ou inobservância de formalidades no laudo, a autoridade:",
+    "alternativas": {
+      "A": "mandará suprir, complementar ou esclarecer, podendo ainda ordenar novo exame por outros peritos.",
+      "B": "declarará a nulidade do exame, com renovação obrigatória por junta pericial ampliada.",
+      "C": "intimará as partes para impugnação, decidindo em seguida pela preclusão da prova técnica.",
+      "D": "devolverá os autos ao diretor da unidade para retificação administrativa do documento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Em caso de omissões, obscuridades, contradições ou inobservância de formalidades, a autoridade mandará suprir, complementar ou esclarecer; o parágrafo único prevê que pode também ordenar novo exame por outros peritos.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2465,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "São requisitos dos padrões grafotécnicos:",
+    "alternativas": {
+      "A": "autenticidade, adequabilidade, espontaneidade e suficiência.",
+      "B": "autenticidade, espontaneidade, atualidade e variedade.",
+      "C": "originalidade, adequabilidade, contemporaneidade e legibilidade.",
+      "D": "autenticidade, adequabilidade, contemporaneidade e quantidade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Requisitos para os padrões grafotécnicos: autenticidade, adequabilidade, contemporaneidade e quantidade.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2466,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na estrutura de elaboração do laudo, o Preâmbulo contém:",
+    "alternativas": {
+      "A": "a resposta objetiva e sintética aos quesitos formulados pela autoridade requisitante.",
+      "B": "a descrição minuciosa dos materiais recebidos, com as respectivas numerações de lacre e registro.",
+      "C": "o número do laudo, o título, o nome dos peritos, o nome do diretor/chefe que os designou e as informações sobre a requisição.",
+      "D": "a narração do que foi examinado, o histórico, os métodos aplicados e a justificativa lógica das conclusões."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Preâmbulo: número do laudo, título, nome dos peritos, nome do diretor/chefe que os designou e informações sobre a requisição (número, data, procedimento vinculado e autoridade requisitante). A narração do que foi examinado com métodos e justificativa é a Exposição e Discussão; a resposta objetiva aos quesitos é a Conclusão.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2467,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na estrutura do laudo, a Conclusão deve ser:",
+    "alternativas": {
+      "A": "condicional e probabilística, resguardando o perito de qualquer afirmação definitiva.",
+      "B": "sempre objetiva e sintética, respondendo aos quesitos se a autoridade os tiver formulado.",
+      "C": "facultativa, quando a exposição e a discussão já contiverem os elementos de convicção.",
+      "D": "analítica e exaustiva, retomando integralmente a discussão técnica desenvolvida no exame."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Conclusão deve ser sempre objetiva e sintética, respondendo aos quesitos se a autoridade os tiver formulado.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2468,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a numeração dos laudos no Sistema Nacional de Gestão da Criminalística da Polícia Federal:",
+    "alternativas": {
+      "A": "é sequencial, comum a todas as áreas periciais, reinicia no primeiro dia de cada ano, com reserva do número no dia da liberação do documento.",
+      "B": "é sequencial por unidade de criminalística, reiniciando a cada ano, com reserva do número na data do protocolo da requisição.",
+      "C": "é contínua e permanente, comum a todas as áreas periciais, com reserva do número no dia do início dos exames de cada caso.",
+      "D": "é sequencial e própria de cada área pericial, reiniciando a cada exercício, com reserva do número na abertura dos exames."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A numeração é sequencial, comum a todas as áreas periciais e reinicia no primeiro dia de cada ano; o número deve ser reservado no dia em que o documento for liberado, independentemente dos dias de realização dos exames.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2469,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Perícia Federal, a exigência de metodologias validadas cientificamente justifica-se, entre outros motivos, para:",
+    "alternativas": {
+      "A": "vincular as conclusões periciais aos precedentes técnicos do Instituto Nacional de Criminalística, reduzindo divergências entre as unidades.",
+      "B": "uniformizar os capítulos do laudo em todas as áreas periciais, suprimindo a liberdade de formulação dos peritos responsáveis pelos exames.",
+      "C": "permitir que um assistente técnico reavalie os vestígios, dada a reprodutibilidade dos métodos, com meta de certificação total de laboratórios e processos.",
+      "D": "acelerar o atendimento das requisições urgentes, dispensando a descrição minuciosa dos materiais acautelados sob custódia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "É obrigatória a utilização de metodologias validadas cientificamente e reprodutíveis, caso um assistente técnico precise reavaliar os vestígios; o objetivo atual é alcançar a certificação total de laboratórios e processos. Há liberdade na formulação dos capítulos, respeitadas as exigências mínimas, e a descrição dos materiais deve ser minuciosa para impossibilitar trocas.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2470,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Parecer Técnico destinado a esclarecer um Laudo já expedido deve ser elaborado:",
+    "alternativas": {
+      "A": "pelo chefe imediato da unidade de criminalística que liberou o documento original.",
+      "B": "por comissão designada pela DITEC, com pelo menos três peritos da área temática.",
+      "C": "por perito diverso dos signatários, para assegurar a revisão independente do conteúdo.",
+      "D": "pelos mesmos peritos signatários da via original."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Parecer Técnico é a manifestação técnica sobre assunto que não justifique laudo; se for para esclarecer um Laudo já expedido, deve ser feito pelos mesmos peritos signatários da via original. A Informação, por sua vez, é documento de comunicação oficial inter-agências ou intra-setorial.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2471,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas normas ISO 21043, o termo \"cena\" designa:",
+    "alternativas": {
+      "A": "o conjunto de vestígios verdadeiros relacionados diretamente à dinâmica delitiva.",
+      "B": "lugar ou objeto que requer ou é sujeito a exame forense, correspondendo, no Brasil, ao corpo de delito.",
+      "C": "o perímetro isolado pela primeira guarnição policial que atende à ocorrência.",
+      "D": "a área de exames credenciada mediante o processo de acreditação previsto na própria norma."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Cena: lugar ou objeto que requer ou é sujeito a exame forense — no Brasil, corresponde ao corpo de delito. Detalhe cobrado em prova: as normas ISO 21043 são desprovidas de previsão de acreditação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2472,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos três níveis de raciocínio pericial, o ato de atribuir significado técnico e lógico ao dado constatado denomina-se:",
+    "alternativas": {
+      "A": "interpretação, nível intermediário entre a constatação e a conclusão.",
+      "B": "inferência, síntese lógica entre hipóteses concorrentes.",
+      "C": "observação, base direta e concreta da análise.",
+      "D": "opinião, conclusão técnica final do exame."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Três níveis: Observação (o que é direta e concretamente constatado); Interpretação (atribuir significado técnico e lógico ao dado observado); Opinião (conclusão técnica final formulada estritamente a partir da interpretação).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2473,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Constatar que um pó branco é um alcaloide e, em seguida, determinar tratar-se especificamente de cocaína corresponde, nos subtipos de análise pericial, respectivamente, a:",
+    "alternativas": {
+      "A": "classificação e avaliação de origem.",
+      "B": "classificação e identificação.",
+      "C": "identificação e quantificação.",
+      "D": "triagem e reconstrução."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Classificação/Identificação ('O que é o item?'): a classificação compara o item com coleções de referência e bancos de dados para atribuí-lo a uma classe (alcaloide); a identificação é a atribuição à classe mais específica possível (cocaína).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2474,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Comparar se um projétil desconhecido foi disparado por determinada arma e analisar padrões de manchas de sangue para determinar a dinâmica do evento correspondem, respectivamente, aos subtipos de análise:",
+    "alternativas": {
+      "A": "avaliação de origem e classificação.",
+      "B": "identificação e avaliação de origem.",
+      "C": "avaliação de origem e reconstrução.",
+      "D": "reconstrução e quantificação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Avaliação de Origem ('De onde vem o item?'): comparar projétil desconhecido com arma de referência. Reconstrução ('O que aconteceu com o item?'): avaliar padrões de mancha de sangue para determinar onde, quando e como a dinâmica ocorreu. Quantificação responde 'quanto tem do item' (ex.: concentração de etanol, contagem de arquivos).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2475,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A interpretação avaliativa, como modo de interpretação pericial, exige:",
+    "alternativas": {
+      "A": "uma única proposição de trabalho, formulada pela autoridade requisitante e testada contra os vestígios disponíveis.",
+      "B": "a ausência de proposições iniciais, partindo o perito somente das observações para gerar hipóteses investigativas.",
+      "C": "a convergência entre as hipóteses do perito e as da equipe de investigação, consolidada antes dos exames.",
+      "D": "no mínimo duas proposições concorrentes formuladas de início, mutuamente excludentes, relevantes ao caso, explícitas e específicas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Interpretação avaliativa: parte de proposições já formuladas de início, mutuamente excludentes, relevantes, explícitas e específicas — exigindo no mínimo duas proposições concorrentes. A investigativa parte apenas das observações, gera hipóteses e é desprovida de conclusão definitiva.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2476,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "As Razões de Verossimilhança (Likelihood Ratios), como tipo de opinião pericial, expressam:",
+    "alternativas": {
+      "A": "o grau de confiança estatística do método empregado, aferido em ensaios de proficiência interlaboratoriais.",
+      "B": "a relação de probabilidade entre obter as observações caso a hipótese 1 seja verdadeira, versus a hipótese 2.",
+      "C": "a margem de erro associada a valores aproximados, típica da interpretação investigativa.",
+      "D": "a probabilidade absoluta de a hipótese acusatória ser verdadeira diante das observações realizadas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Razões de Verossimilhança: relação de probabilidade entre obter as observações caso a hipótese 1 seja verdadeira, versus a hipótese 2. Valores aproximados com margem de erro (ex.: 70 ± 5 km/h) são as Estimativas, típicas da interpretação investigativa.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2477,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "As opiniões categóricas, na prática pericial, são usadas unicamente quando:",
+    "alternativas": {
+      "A": "a autoridade requisitante formula quesito direto e objetivo, que demanda resposta afirmativa ou negativa em termos taxativos.",
+      "B": "o perito dispõe de confirmação por segundo examinador independente, hipótese que autoriza expressá-las como fato irrefutável da natureza.",
+      "C": "as duas proposições concorrentes apresentam razões de verossimilhança equivalentes entre si, exigindo o desempate técnico fundamentado.",
+      "D": "o perito julga impossível obter o resultado caso qualquer hipótese alternativa fosse verdadeira, vedada ainda a expressão como fato irrefutável da natureza."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Opiniões categóricas são usadas unicamente quando o perito julga 'impossível' obter o resultado caso qualquer hipótese alternativa fosse verdadeira — e, ainda assim, jamais podem ser expressas como fato irrefutável da natureza.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2478,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação internacional dos relatórios periciais em Preliminar, Final, Complementar, Corrigido (Amended) e Obsoletado (Withdrawn), a posição da Polícia Federal é a seguinte:",
+    "alternativas": {
+      "A": "a classificação deixou de ser adotada, e a doutrina da PF é desprovida da previsão de Laudo Complementar.",
+      "B": "a classificação foi incorporada por Orientação Técnica, restrita aos laudos de laboratório.",
+      "C": "a classificação foi adotada parcialmente, com exclusão apenas das categorias Corrigido e Obsoletado.",
+      "D": "a classificação foi adotada integralmente, incluída a figura do Laudo Complementar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Essa classificação dos relatórios NÃO foi adotada pela Polícia Federal e, na doutrina da PF, inexiste a previsão de Laudo Complementar.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2479,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na cadeia de custódia externa, a etapa imediatamente posterior à identificação unívoca e à coleta do vestígio é:",
+    "alternativas": {
+      "A": "o transporte do material à unidade de criminalística, em meio adequado à natureza física, biológica ou química do vestígio.",
+      "B": "o registro imediato do material no Siscrim, com atribuição de numeração sequencial e designação do perito responsável.",
+      "C": "o acondicionamento em embalagens de segurança padronizadas, separando-se os vestígios por características físicas, biológicas e químicas.",
+      "D": "a documentação das ações realizadas no Termo de Coleta de Vestígio (TCV), com o registro da quantidade e da natureza."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Etapas da cadeia externa: 1. Início (preservação do local/reconhecimento do vestígio); 2. Identificação e coleta; 3. Acondicionamento (embalagens padronizadas, separação por características físicas, biológicas e químicas); 4. Documentação (TCV); 5. Transporte.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2480,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Termo de Coleta de Vestígio (TCV), na cadeia de custódia externa, deve primar pela:",
+    "alternativas": {
+      "A": "sigilosidade, com acesso restrito ao perito coletor e à autoridade requisitante.",
+      "B": "brevidade, limitando-se ao rol numerado dos lacres empregados no acondicionamento.",
+      "C": "padronização eletrônica, com lançamento direto e exclusivo no sistema Siscrim.",
+      "D": "completude, registrando quantidade, natureza e demais dados das ações realizadas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As ações são formalizadas no TCV, que deve ter completude, registrando quantidade, natureza etc.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2481,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na cadeia de custódia interna, quando o vestígio chega lacrado e numerado à unidade de criminalística, a primeira conferência é feita:",
+    "alternativas": {
+      "A": "pelo gestor da unidade, que rompe o lacre na presença de duas testemunhas e registra o ato em ficha de acompanhamento própria.",
+      "B": "pelo perito designado para o caso, mediante deslacre supervisionado pelo gestor e novo lacre ao final da conferência inicial.",
+      "C": "pela secretaria/protocolo, que confere os dados na embalagem externa, sem deslacrar, com registro imediato de eventuais inconsistências.",
+      "D": "pela autoridade requisitante, no ato da entrega do material, com termo de transferência assinado pelo responsável pelo transporte."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recepção e 1ª conferência: feita pela secretaria/protocolo — se o vestígio vier lacrado e numerado, confere os dados na embalagem externa (sem deslacrar); inconsistências devem ser imediatamente registradas. A 2ª conferência é feita pelo perito ao assumir os exames.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2482,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ainda na cadeia de custódia interna, caso o vestígio chegue à unidade sem embalagem apropriada, sem lacre ou sem numeração, ele:",
+    "alternativas": {
+      "A": "só será recebido após abertura e conferência na presença e sob observação do responsável pela entrega.",
+      "B": "será devolvido de plano à origem, com registro da recusa no Siscrim.",
+      "C": "será recebido normalmente, lavrando-se termo circunstanciado de inconformidade em até 48 horas.",
+      "D": "será recebido em armazenamento temporário, aguardando regularização pelo requisitante em 30 dias."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Se o vestígio chegar sem embalagem apropriada, sem lacre ou numeração, só será recebido após abertura e conferência na presença e sob observação do responsável pela entrega.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2483,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante os exames, o registro do rompimento de lacres, das novas numerações e dos responsáveis por tais alterações é feito:",
+    "alternativas": {
+      "A": "no preâmbulo do laudo pericial correspondente.",
+      "B": "em ficha de acompanhamento anexada ao vestígio.",
+      "C": "no Termo de Coleta de Vestígio original, por aditamento.",
+      "D": "em livro de protocolo mantido pela secretaria da unidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deve ser anexada uma ficha de acompanhamento para registrar o rompimento de lacres, as novas numerações e os responsáveis por tais alterações.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2484,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a emissão do laudo, os vestígios de local processado por perito criminal têm como destinação típica:",
+    "alternativas": {
+      "A": "o arquivamento junto à contraprova de laboratório, sob responsabilidade do perito signatário.",
+      "B": "a incineração controlada, precedida de autorização judicial específica.",
+      "C": "o armazenamento na Central de Custódia de Vestígios (CCV) ou nas Custódias Locais de Vestígios (CLV).",
+      "D": "a devolução compulsória à autoridade requisitante, vedado o armazenamento na unidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Destinação pós-laudo: devolução ou descarte (encaminhamento à autoridade requisitante com o laudo, ou descarte); e armazenamento — especialmente para vestígios de local processado por perito criminal, que ficam na CCV ou nas CLV.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2485,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as competências da DITEC, a atividade de pesquisa, desenvolvimento e difusão de conhecimento é realizada:",
+    "alternativas": {
+      "A": "sob a coordenação da Diretoria de Ensino.",
+      "B": "de forma autônoma, no âmbito de cada unidade de criminalística.",
+      "C": "sob a coordenação da Academia Nacional de Polícia, por delegação normativa.",
+      "D": "sob a coordenação do Instituto Nacional de Criminalística."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Compete à DITEC dirigir, planejar, coordenar, controlar, avaliar e executar as atividades de perícia criminal, gerir bancos nacionais de vestígios, elaborar normas de inviolabilidade da cadeia de custódia e qualidade dos laudos — e realizar pesquisa, desenvolvimento e difusão de conhecimento sob a coordenação da Diretoria de Ensino.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2486,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No SISCRIM, considera-se Pendência:",
+    "alternativas": {
+      "A": "toda requisição em situação alimentada manualmente pelo usuário, aguardando providências externas.",
+      "B": "toda requisição registrada e não finalizada, condição que cessa apenas quando ela for arquivada, devolvida ou cancelada.",
+      "C": "toda requisição de criticidade alta ainda sem designação de perito responsável pelo gestor.",
+      "D": "toda requisição com prazo máximo de atendimento ultrapassado, sujeita ao fluxo de saneamento do INC."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pendência é toda requisição registrada e não finalizada; só deixa de ser pendência quando for arquivada, devolvida ou cancelada. Pendência vencida (fora do prazo) é outro conceito, ligado às metas.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2487,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às Situações dos expedientes no SISCRIM, o sistema prevê:",
+    "alternativas": {
+      "A": "15 situações, sendo 12 automáticas e 3 manuais, entre as quais \"aguardando disponibilidade de meios\".",
+      "B": "12 situações, sendo 7 automáticas e 5 manuais, entre as quais \"aguardando providências do requisitante\".",
+      "C": "17 situações, sendo 5 automáticas e 12 alimentadas manualmente, entre as quais \"requisição em atendimento\".",
+      "D": "17 situações, sendo 12 automáticas e 5 alimentadas manualmente, entre as quais \"aguardando condições ambientais ou climáticas\"."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Há 17 status/situações, sendo 12 automáticas e 5 manuais: requisição arquivada sem atendimento por problemas não solucionados; aguardando condições ambientais ou climáticas; aguardando disponibilidade de meios; aguardando providências do requisitante; requisição em atendimento.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2488,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma requisição de laudo fundamental para o cumprimento de mandados de busca e o início de uma operação policial, sem réu preso, recebe no SISCRIM a criticidade:",
+    "alternativas": {
+      "A": "média, categoria que abrange laudos fundamentais para prisões, mandados de busca e deflagração de operações.",
+      "B": "baixa, por se tratar de requisição ordinária sem material sujeito à degradação.",
+      "C": "alta, por envolver prioridade operacional com repercussão social imediata.",
+      "D": "alta, por equiparação legal às hipóteses de materiais sujeitos a contaminação imediata."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Criticidade MÉDIA: materiais suscetíveis a alterações no longo prazo e laudos fundamentais para prisões, mandados de busca e início de operações. A ALTA fica para réu/indiciado preso, prioridade legal/repercussão social e materiais sujeitos a degradação ou contaminação imediata.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2489,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No SISCRIM, para os casos sui generis, que fogem a qualquer padrão de exame preestabelecido, utilizam-se:",
+    "alternativas": {
+      "A": "os pontos de complexidade majorados, atribuídos pelo gestor mediante justificativa.",
+      "B": "os tipos de OE \"não previstos\", que entram obrigatoriamente no fluxo de avaliação de conformidade.",
+      "C": "os materiais da classe \"padrão e pesquisa\", com tramitação prioritária na unidade.",
+      "D": "as situações manuais de expediente, com registro na ficha de acompanhamento do vestígio."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Para medir esforço usam-se pontos de complexidade preestabelecidos; para casos sui generis (sem padrão), utilizam-se os tipos de OE 'não previstos', que entram obrigatoriamente no fluxo de avaliação de conformidade.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2490,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No SISCRIM, as classes de Materiais compreendem:",
+    "alternativas": {
+      "A": "apoio ao exame, arquivamento, devolução, exame, mídia externa, mídia para espelhamento, padrão e perícia.",
+      "B": "apoio ao exame, contraprova, descarte, exame, mídia anexa, mídia de segurança, padrão e pesquisa.",
+      "C": "coleta, contraprova, devolução, exame, mídia anexa, mídia para espelhamento, referência e rotina.",
+      "D": "apoio ao exame, contraprova, devolução, exame, mídia anexa, mídia para espelhamento, padrão e pesquisa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "No sistema, 'Material' é todo item encaminhado para a Perícia, relacionado a exames e mantido sob custódia; classifica-se como: Apoio ao Exame, Contra-prova, Devolução, Exame, Mídia anexa, Mídia para espelhamento, Padrão e Pesquisa. As funcionalidades do SISCRIM dividem-se em Documentos e Materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2491,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as metas definidas pela DITEC para a criminalística, é correto afirmar que:",
+    "alternativas": {
+      "A": "são metas para as Superintendências Regionais: máximo de 10% de pendências vencidas, 250 pontos por perito e tempo médio fixado pelo INC.",
+      "B": "são metas para as Unidades de Criminalística: máximo de 5% de requisições arquivadas, 500 pontos por unidade de FTDE e tempo médio uniforme nacional.",
+      "C": "são metas para as Unidades de Criminalística: máximo de 5% de pendências vencidas, produção média de 250 pontos por unidade de FTDE e tempo médio variável por área.",
+      "D": "são metas individuais por perito: máximo de 5% de pendências vencidas, 250 pontos de complexidade mensais e tempo médio uniforme para todas as áreas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A DITEC define metas para as Unidades de Criminalística (e não individuais): 1) Pendências vencidas — máximo 5%; 2) Produtividade — média de 250 pontos de complexidade por unidade de FTDE; 3) Tempo médio — variável, cada área possui um tempo médio aceitável.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2492,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No Indicador da Criminalística (ICRIM), os pesos dos componentes são:",
+    "alternativas": {
+      "A": "C1 (pendências fora do prazo) 20%; C2 (produtividade) 30%; C3 (tempo médio) 50%.",
+      "B": "C1 (pendências fora do prazo) 20%; C2 (produtividade) 50%; C3 (tempo médio) 30%.",
+      "C": "C1 (pendências fora do prazo) 50%; C2 (produtividade) 30%; C3 (tempo médio) 20%.",
+      "D": "C1 (pendências fora do prazo) 30%; C2 (produtividade) 20%; C3 (tempo médio) 50%."
+    },
+    "resposta_correta": "A",
+    "justificativa": "ICRIM: C1 — Pendências fora do prazo (Meta 1) com 20%, o menor peso; C2 — Produtividade de 250 pontos (Meta 2) com 30%; C3 — Tempo médio de atendimento (Meta 3) com 50%, o maior peso.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2493,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o controle de atrasos nas requisições periciais da PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "ao ultrapassar 25% além dos prazos máximos, a unidade perde os pontos de complexidade correspondentes, mantendo-se o cômputo do caso como pendência vencida.",
+      "B": "ao ultrapassar 25% além dos prazos máximos, o caso pode ir para apuração na Corregedoria, e exames muito complexos podem entrar em Acompanhamento Especial via SEI, deixando de contar como vencidos.",
+      "C": "ao ultrapassar 50% além dos prazos máximos, o caso é remetido ao INC, e exames complexos entram automaticamente em Acompanhamento Especial, computados em dobro nas metas.",
+      "D": "ao ultrapassar 10% além dos prazos máximos, o INC assume o exame, e o perito responde a fluxo de saneamento individual perante a DITEC."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Prazos críticos: ao ultrapassar 25% além dos prazos máximos, o caso pode ir para apuração na Corregedoria. Para exames muito complexos que estourarão o prazo legal, o perito aciona a chefia via SEI para o status de Acompanhamento Especial, que deixa de contar como 'vencido' para efeito das metas. O INC monitora e cobra justificativas (fluxo de saneamento).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2494,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No regime dos normativos da Polícia Federal, a Instrução Normativa (IN) e a Orientação Técnica (OT) são expedidas, respectivamente:",
+    "alternativas": {
+      "A": "pelo Diretor-Geral, com exclusividade, e por qualquer função de chefia ou direção, nos limites das respectivas atribuições regimentais.",
+      "B": "pelos Diretores, em atuação conjunta, e pelo Diretor-Geral, com caráter regulamentar sobre métodos e rotinas técnicas das unidades.",
+      "C": "pelo Diretor-Geral, com exclusividade, e pelo Diretor Técnico-Científico, também com exclusividade e caráter enunciativo.",
+      "D": "pelo Ministro da Justiça, por delegação expressa, e pelo Diretor do Instituto Nacional de Criminalística, em matéria pericial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "IN: exclusiva do Diretor-Geral, para execução de leis, decretos e regulamentos na esfera da PF. OT: exclusiva do Diretor Técnico-Científico, com caráter enunciativo para disciplinar a perícia. IT é exclusiva dos Diretores; IS podia ser expedida por diretores, coordenadores, superintendentes e chefes; Portaria cabe a funções de chefia ou direção.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2495,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as Instruções de Serviço (IS) e as Instruções Técnicas (IT) no âmbito da PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "foram revogadas em bloco em 2022, sendo substituídas pelas Orientações Técnicas expedidas pelo Diretor-Geral da Polícia Federal.",
+      "B": "convertem-se automaticamente em Portarias após cinco anos de vigência, por regra expressa de consolidação normativa interna.",
+      "C": "ambas continuam sendo editadas normalmente, com competência concorrente entre os diretores, superintendentes e chefes das unidades.",
+      "D": "deixaram de ser editadas desde 2022, permanecendo válidas as antigas; a IT, exclusiva dos Diretores, regula e uniformiza métodos técnicos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As IS não são mais editadas desde 2022, mas as antigas valem; as IT (exclusivas dos Diretores, para regular e uniformizar métodos técnicos) também estão sem edições pós-2022, permanecendo válidas as existentes.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2496,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em atendimento de flagrante, sobreaviso ou operação, havendo limitações técnicas que inviabilizem o exame urgente, o perito deve:",
+    "alternativas": {
+      "A": "solicitar prorrogação de prazo à autoridade requisitante, com ciência ao gestor da unidade.",
+      "B": "apresentar imediatamente ao delegado um laudo ou documento consignando a impossibilidade do atendimento urgente.",
+      "C": "acionar o Acompanhamento Especial via SEI, suspendendo a contagem dos prazos legais.",
+      "D": "registrar a situação no Siscrim e aguardar a designação de outro perito pela chefia da unidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Em flagrantes, sobreavisos ou operações (urgência), caso haja limitações técnicas, o perito deve apresentar imediatamente ao delegado um laudo ou documento consignando a impossibilidade do atendimento urgente.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2497,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A análise de viabilidade da requisição pericial deve ocorrer em até 10 dias da sua chegada e inclui:",
+    "alternativas": {
+      "A": "a estimativa dos pontos de complexidade do exame e o agendamento das condições ambientais necessárias à sua realização.",
+      "B": "a definição da criticidade da requisição recebida e a reserva do número do futuro laudo no sistema de gestão.",
+      "C": "a segunda conferência dos lacres do material e a designação formal do perito responsável pelo gestor da unidade.",
+      "D": "a conferência e suficiência do material e a análise dos quesitos quanto à pertinência e à possibilidade de resposta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A análise de viabilidade tem prazo de 10 dias após a chegada da requisição e inclui a conferência e suficiência do material e a análise dos quesitos (pertinência e possibilidade de resposta). Havendo inconformidades: 30 dias para o requisitante apresentar adequação e 30 dias para disponibilização de meios.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2498,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Constatadas inconformidades na análise de viabilidade, os prazos para o requisitante apresentar adequação e para a disponibilização dos meios necessários são, respectivamente:",
+    "alternativas": {
+      "A": "15 e 45 dias.",
+      "B": "30 e 60 dias.",
+      "C": "30 e 30 dias.",
+      "D": "10 e 30 dias."
+    },
+    "resposta_correta": "C",
+    "justificativa": "30 dias para o requisitante apresentar adequação (sem resposta, o material é devolvido/providenciado pelo gestor) e 30 dias para a disponibilização de meios necessários.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2499,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ordem de prioridade a ser observada no atendimento a local de crime é:",
+    "alternativas": {
+      "A": "manutenção da segurança; socorro a feridos; preservação de vestígios.",
+      "B": "manutenção da segurança; preservação de vestígios; socorro a feridos.",
+      "C": "socorro a feridos; preservação de vestígios; manutenção da segurança.",
+      "D": "preservação de vestígios; manutenção da segurança; socorro a feridos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Ordem de prioridade em local de crime: 1ª manutenção da segurança; 2ª socorro a feridos; 3ª preservação de vestígios.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2500,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito que, partindo dos vestígios encontrados no local, busca a melhor explicação para o ocorrido, chegando a uma conclusão plausível, emprega a forma de raciocínio científico denominada:",
+    "alternativas": {
+      "A": "analogia, que transpõe conclusões de casos semelhantes já periciados.",
+      "B": "abdução, pela qual os vestígios levam à melhor explicação.",
+      "C": "indução, que parte de casos particulares para criar padrões gerais.",
+      "D": "dedução, que parte de regras gerais para confirmar o caso concreto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Dedução: regras gerais confirmam um caso (conclusão necessária/precisa — geral → específico). Indução: casos particulares criam padrões (conclusão provável — específico → geral). Abdução: vestígios levam à melhor explicação (conclusão plausível).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2501,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recebe o caso com a informação preliminar de que \"o suspeito já confessou\". Ao longo dos exames, essa primeira informação passa a dificultar a análise imparcial dos dados seguintes. O viés cognitivo caracterizado é o de:",
+    "alternativas": {
+      "A": "ancoragem, pois a primeira informação recebida atua como âncora sobre as informações seguintes.",
+      "B": "autoridade, pela credibilidade excessiva atribuída à fonte policial da informação.",
+      "C": "enquadramento, pois a narrativa apresentada alterou a interpretação técnica dos dados.",
+      "D": "confirmação, pela busca seletiva de evidências que corroborem a hipótese prévia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Viés de ancoragem: a primeira informação recebida (uma suspeita preliminar) atua como 'âncora' que dificulta a imparcialidade nas informações seguintes. O de confirmação é a tendência de buscar/valorizar evidências que confirmem hipótese prévia, ignorando dados contraditórios.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2502,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a elucidação de um caso, um perito afirma que o resultado final \"já era óbvio desde o início\". Em outra situação, um colega valoriza determinada informação apenas por ter vindo de instituição prestigiada, sem escrutínio crítico. Os vieses caracterizados são, respectivamente:",
+    "alternativas": {
+      "A": "de enquadramento e de confirmação.",
+      "B": "retrospectivo e de ancoragem.",
+      "C": "retrospectivo e de autoridade.",
+      "D": "de confirmação e de autoridade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Viés retrospectivo: percepção equivocada, após o evento, de que o resultado já era previsível ou 'óbvio' desde o início. Viés de autoridade: atribuir maior credibilidade à informação por vir de superior, colega antigo ou instituição prestigiada, sem escrutínio crítico. O de enquadramento ocorre quando a forma narrativa altera a interpretação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2503,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos limites da manifestação técnica do perito no laudo, exige-se que ele:",
+    "alternativas": {
+      "A": "complemente as lacunas dos exames com sua experiência profissional, desde que o registre expressamente no histórico.",
+      "B": "adote as conclusões mais prováveis segundo a literatura, ainda que os dados do caso concreto sejam insuficientes.",
+      "C": "responda a todos os quesitos com afirmações conclusivas, evitando expressões de incerteza que fragilizem a prova.",
+      "D": "emita opiniões estritamente lastreadas nos exames, jamais transmitindo certeza maior do que aquela que os dados suportam."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O perito deve eximir-se de emitir opiniões sem lastro nos exames e jamais transmitir no laudo uma certeza maior do que aquela que os dados suportam; ele tampouco pode emitir opiniões categóricas além dos limites factuais da ciência.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2504,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O viés cognitivo, na atividade pericial, é definido como o desvio inconsciente de racionalidade no julgamento, provocado por expectativas externas ou pressões processuais. O antídoto indicado contra esse risco é:",
+    "alternativas": {
+      "A": "a vedação de contato do perito com a equipe de investigação tática.",
+      "B": "a adoção exclusiva de opiniões categóricas nas conclusões do laudo.",
+      "C": "a revisão cruzada dos laudos por perito de outra unidade da federação.",
+      "D": "a aplicação do ceticismo metodológico pelo próprio perito."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O viés cognitivo é o desvio inconsciente de racionalidade no julgamento, provocado por expectativas externas ou pressões processuais; o perito deve aplicar o ceticismo metodológico para evitar esse risco.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2505,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame de um veículo realizado no contexto da perícia de local de crime classifica-se como:",
+    "alternativas": {
+      "A": "perícia em veículos, por ter o automóvel como objeto material do exame.",
+      "B": "perícia de local de crime, apesar de recair sobre um veículo.",
+      "C": "perícia mista, com registro simultâneo nas duas categorias de exame.",
+      "D": "perícia de identificação veicular, quando houver suspeita de adulteração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O exame de um veículo realizado no contexto da perícia de local de crime é classificado como perícia de local de crime, e a perícia veicular propriamente dita é atividade técnico-científica abrangente, orientada à compreensão integral do veículo como objeto material de interesse pericial.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2506,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na identificação veicular, a identidade do veículo é tecnicamente compreendida como:",
+    "alternativas": {
+      "A": "uma construção baseada na coerência — ou incoerência — entre múltiplos elementos, sendo o bem jurídico protegido a autenticidade do sistema de identificação veicular.",
+      "B": "um dado declarado nos registros administrativos, presumido verdadeiro até prova documental em contrário.",
+      "C": "a correspondência entre a placa ostensiva e o cadastro do órgão de trânsito, sendo o bem jurídico protegido a fé pública dos registros.",
+      "D": "o próprio número VIN gravado no chassi, sendo o bem jurídico protegido a propriedade do veículo automotor."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A identidade do veículo é uma construção baseada na coerência — ou incoerência — entre múltiplos elementos, e o bem jurídico protegido é a autenticidade do sistema de identificação veicular.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2507,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação dos veículos quanto à tração, figuram:",
+    "alternativas": {
+      "A": "veículos de propulsão mecânica, elétrica, humana e animal.",
+      "B": "veículos automotores, veículos de passageiros, veículos de carga e veículos mistos.",
+      "C": "veículos automotores, veículos de propulsão humana, veículos de tração animal e reboques e semirreboques.",
+      "D": "veículos automotores, veículos de propulsão humana, veículos de competição e veículos especiais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quanto à tração: veículos automotores, de propulsão humana, de tração animal, e reboques e semirreboques. Passageiros/carga/misto pertencem à classificação quanto à espécie.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2508,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A classificação dos veículos quanto à espécie, definida pela finalidade predominante, compreende:",
+    "alternativas": {
+      "A": "passageiros, carga, mista, competição, reboque, especial e coleção.",
+      "B": "passageiros, carga, mista, competição, tração, especial e coleção.",
+      "C": "passageiros, carga, tração, aluguel, competição, especial e diplomática.",
+      "D": "passageiros, carga, mista, oficial, especial, aprendizagem e coleção."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto à espécie (finalidade predominante): passageiros, carga, mista, competição, tração, especial e coleção. Oficiais, diplomáticos, particulares, aluguel e aprendizagem compõem a classificação quanto à categoria.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2509,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas classificações veiculares, os critérios que definem a espécie e a categoria são, respectivamente:",
+    "alternativas": {
+      "A": "o regime jurídico de uso e a forma de propulsão do veículo.",
+      "B": "a forma de propulsão e a finalidade predominante do veículo.",
+      "C": "a finalidade predominante do veículo e o regime jurídico de uso.",
+      "D": "a estrutura construtiva do veículo e a natureza do serviço prestado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Tração: forma de propulsão. Espécie: finalidade predominante. Categoria: regime jurídico de uso (oficiais, diplomáticos, particulares, aluguel, aprendizagem).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2510,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as características identificadoras do veículo, o monobloco e as longarinas, de um lado, e a suspensão e os freios, de outro, classificam-se, respectivamente, como características:",
+    "alternativas": {
+      "A": "externas e estruturais.",
+      "B": "estruturais e externas.",
+      "C": "funcionais e documentais.",
+      "D": "estruturais e funcionais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Externas: marca, modelo, cor, carroceria, faróis, rodas. Estruturais: chassi, monobloco, longarinas, cabine. Funcionais: suspensão, freios, motorização, transmissão. Documentais: registros, documentos, dados administrativos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2511,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os identificadores secundários e terciários (motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias), é correto afirmar que eles:",
+    "alternativas": {
+      "A": "funcionam como elementos de corroboração, sem substituir o VIN.",
+      "B": "prevalecem sobre o VIN em caso de divergência, por serem de mais difícil adulteração.",
+      "C": "possuem valor meramente comercial, alheio ao interesse pericial de identificação.",
+      "D": "substituem o VIN na identificação do veículo quando este se encontra obliterado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os códigos dos agregados (motores, caixas de câmbio, caixas de direção, eixos, cabines, carrocerias) funcionam como elementos de corroboração e jamais substituem o VIN.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2512,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao papel da placa na identificação veicular, é correto afirmar que ela:",
+    "alternativas": {
+      "A": "possui a mesma hierarquia identificadora do VIN, por integrar o sistema integrado de identificação da regulamentação vigente.",
+      "B": "constitui o identificador primário do veículo em circulação, corroborado pelo VIN e pelos códigos dos agregados relevantes.",
+      "C": "apenas representa a identidade de forma ostensiva, ligando o veículo em circulação aos registros administrativos e à identificação estrutural.",
+      "D": "cria a identidade do veículo no momento do emplacamento, vinculando-a de forma definitiva ao proprietário constante do registro."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A placa cria coisa alguma: ela apenas representa a identidade de forma ostensiva, funcionando como elo entre o veículo em circulação, seus registros administrativos e sua identificação estrutural. O identificador primário é o VIN.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2513,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na perícia de identificação veicular, a análise das gravações deve observar as regras:",
+    "alternativas": {
+      "A": "vigentes à época da fabricação, do registro e das eventuais modificações do veículo periciado.",
+      "B": "mais favoráveis ao proprietário, quando houver sucessão de normas sobre o mesmo ponto.",
+      "C": "do país de origem do veículo, prevalecendo sobre as normas nacionais de identificação.",
+      "D": "vigentes na data do exame pericial, por aplicação imediata das resoluções mais recentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A atividade pericial está necessariamente vinculada às regras vigentes à época da fabricação, do registro e das eventuais modificações do veículo periciado.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2514,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pela norma de 1988, a gravação principal do VIN no chassi ou monobloco deve ocorrer:",
+    "alternativas": {
+      "A": "em pelo menos dois pontos, com profundidade mínima de 0,5 mm.",
+      "B": "em pelo menos um ponto, com profundidade mínima de 0,2 mm.",
+      "C": "em pelo menos um ponto, com profundidade mínima de 0,4 mm.",
+      "D": "em ponto único padronizado, com altura mínima de 7 mm e profundidade livre."
+    },
+    "resposta_correta": "B",
+    "justificativa": "1988: gravação do número de identificação no chassi ou monobloco, em pelo menos um ponto, com profundidade mínima de 0,2 mm.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2515,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ainda pela norma de 1988, os veículos de 2 ou 3 rodas (exceto ciclomotores) e os reboques e semirreboques recebem gravações, respectivamente:",
+    "alternativas": {
+      "A": "em ponto único situado sob o assento do condutor; e em ponto único da longarina direita, junto ao eixo traseiro.",
+      "B": "em no mínimo três pontos do chassi ou da coluna de direção; e em no mínimo dois pontos do para-choque estrutural traseiro.",
+      "C": "em um ponto do garfo dianteiro de suspensão; e em um ponto de cada uma das longarinas que compõem o quadro.",
+      "D": "em no mínimo dois pontos, na coluna de suporte da direção ou no chassi; e em no mínimo dois pontos distintos do chassi."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Veículos de 2 ou 3 rodas (exceto ciclomotores): gravações em no mínimo dois pontos, na coluna de suporte da direção ou no próprio chassi. Reboques e semirreboques: gravações no chassi, em no mínimo dois pontos distintos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2516,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os caracteres que compõem o VIS (Vehicle Indicator Section) ocupam, no VIN, as posições:",
+    "alternativas": {
+      "A": "10ª a 18ª.",
+      "B": "1ª a 3ª.",
+      "C": "4ª a 9ª.",
+      "D": "12ª a 17ª."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O VIS (Vehicle Indicator Section) corresponde da 10ª à 18ª posição do VIN.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2517,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O sistema integrado de identificação da Resolução 968/2022 é composto por:",
+    "alternativas": {
+      "A": "VIN; número do motor e dos agregados; ETA; marcações em vidros; código de barras bidimensional; e identificação oculta facultativa.",
+      "B": "VIN; identificação de agregados; ETA; marcação dos pneus de série; plaquetas informativas; e identificação criptografada em módulo eletrônico.",
+      "C": "VIN; identificação de agregados relevantes; etiquetas autocolantes de segurança (ETA); marcações em vidros; plaquetas informativas; e identificação oculta expressa.",
+      "D": "VIN; placas de identificação veicular; gravações em vidros; lacres de segurança; plaquetas informativas; e microgravações aleatórias no monobloco."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Res. 968/2022 — sistema integrado: VIN (identificador primário); identificação de agregados relevantes (motor, câmbio, eixos, cabine e carroceria); ETA; marcações em vidros; plaquetas informativas; e identificação oculta (de modo expresso).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2518,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao local e às dimensões da gravação do VIN, a regra atual estabelece:",
+    "alternativas": {
+      "A": "local obrigatório na torre do amortecedor do lado direito e caracteres com altura mínima de 4 mm para todos os veículos automotores.",
+      "B": "local preferencial no assoalho dianteiro do monobloco e caracteres com altura mínima de 5 mm para os veículos de duas ou três rodas.",
+      "C": "local preferencial no lado esquerdo do chassi ou monobloco e caracteres com altura mínima de 7 mm para motocicletas, motonetas e triciclos.",
+      "D": "local preferencial no lado direito do chassi ou monobloco e caracteres com altura mínima de 4 mm para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Local preferencial: lado direito do chassi ou monobloco. Para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos: caracteres com altura mínima de 4 mm, gravados na coluna de suporte de direção ou no chassi monobloco.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2519,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para reboques e semirreboques, a segunda gravação do VIN deve ser feita:",
+    "alternativas": {
+      "A": "na longarina direita, com profundidade duplicada em relação à primeira.",
+      "B": "na longarina esquerda, com as mesmas especificações da primeira.",
+      "C": "no engate de tração, mediante plaqueta metálica destrutível.",
+      "D": "na travessa dianteira, com caracteres de altura reduzida."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Para reboques e semirreboques: segunda gravação na longarina esquerda, com as mesmas especificações da primeira.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2520,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à gravação do VIN por punção manual, o texto normativo:",
+    "alternativas": {
+      "A": "a veda, como regra, excetuando-se os fabricantes de produção reduzida.",
+      "B": "a admite como regra geral, dada a rastreabilidade do processo artesanal.",
+      "C": "a autoriza somente na regravação autorizada de veículos sinistrados.",
+      "D": "a restringe aos reboques e semirreboques de fabricação nacional."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto normativo veda, como regra, a gravação por punção manual, excetuando-se os fabricantes de produção reduzida.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2521,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A identificação do ano de fabricação do veículo, quando feita por gravação direta no chassi ou monobloco, deve situar-se nas imediações do VIN e ser expressa em:",
+    "alternativas": {
+      "A": "quatro algarismos, com profundidade mínima de 0,4 mm.",
+      "B": "dois algarismos, com profundidade mínima de 0,5 mm.",
+      "C": "quatro algarismos, com profundidade mínima de 0,2 mm.",
+      "D": "seis caracteres alfanuméricos, com profundidade mínima de 0,2 mm."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gravação direta do ano no chassi/monobloco: nas imediações do VIN, expressa em quatro algarismos, com profundidade mínima de 0,2 mm. Também se admite ETA ou plaqueta metálica destrutível, ou etiqueta destrutível única contendo o ano e o VIN/VIS.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2522,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "As alturas mínimas dos caracteres do ano de fabricação são, para ciclomotores/motonetas/motocicletas/triciclos/quadriciclos e para os demais veículos, respectivamente:",
+    "alternativas": {
+      "A": "7 mm e 4 mm.",
+      "B": "4 mm e 10 mm.",
+      "C": "5 mm e 7 mm.",
+      "D": "4 mm e 7 mm."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alturas mínimas dos caracteres do ano: 4 mm para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos; 7 mm para os demais veículos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2523,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos locais de afixação da ETA com VIN ou VIS, a regra estabelece:",
+    "alternativas": {
+      "A": "motocicletas e afins: somente sob o assento; demais automotores: uma ETA na coluna da porta dianteira esquerda e outra no assoalho do porta-malas; reboques e semirreboques: em ambas as longarinas, junto às gravações do VIN.",
+      "B": "motocicletas e afins: sob o assento ou na porção dianteira; demais automotores: uma ETA na coluna da porta dianteira direita e outra no compartimento do motor, quando existir; reboques e semirreboques: em uma das longarinas, em local distinto das gravações do VIN.",
+      "C": "motocicletas e afins: na coluna de suporte da direção; demais automotores: uma ETA em cada uma das colunas das portas dianteiras; reboques e semirreboques: junto à gravação principal do VIN, para conferência imediata em fiscalização de trânsito.",
+      "D": "motocicletas e afins: no paralama traseiro ou sob o assento; demais automotores: uma ETA no para-brisa e outra no vidro traseiro; reboques e semirreboques: no engate de tração, mediante plaqueta metálica soldada à estrutura do quadro."
+    },
+    "resposta_correta": "B",
+    "justificativa": "ETA com VIN ou VIS: ciclomotores, motonetas, motocicletas, triciclos e quadriciclos — sob o assento ou na porção dianteira; demais veículos automotores — uma na coluna da porta dianteira direita e outra no compartimento do motor, quando existir; reboques e semirreboques — em uma das longarinas, em local distinto das gravações do VIN, admitida substituição por plaqueta metálica.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2524,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A marcação do VIS nos vidros do veículo deve contemplar:",
+    "alternativas": {
+      "A": "um dos para-brisas e os dois vidros traseiros laterais, dispensadas as marcações nos vidros das portas dianteiras do veículo.",
+      "B": "o para-brisa dianteiro e pelo menos um vidro de cada lado do veículo, incluídos os quebra-ventos e os vidros fixos traseiros.",
+      "C": "todos os vidros do veículo, inclusive os quebra-ventos, quando existentes, vedada a substituição da marcação por etiqueta.",
+      "D": "um dos para-brisas e um dos vidros traseiros, quando existentes, e pelo menos dois vidros de cada lado, excluídos os quebra-ventos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Marcação do VIS nos vidros: um dos para-brisas e um dos vidros traseiros, quando existentes; e pelo menos dois vidros de cada lado do veículo, excluindo-se os quebra-ventos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2525,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a identificação oculta do veículo, a previsão normativa atual estabelece que ela:",
+    "alternativas": {
+      "A": "contém o WMI e o VIS do fabricante, gravados exclusivamente no monobloco, em posição padronizada internacionalmente pela ISO.",
+      "B": "contém o VIN ou, alternativamente, o VIS, em local a critério do fabricante: monobloco, chassi, cabine ou, em ônibus e micro-ônibus, carroceria.",
+      "C": "contém o VIS do veículo, gravado em dois pontos simétricos do assoalho, com acesso restrito à rede autorizada da montadora.",
+      "D": "contém obrigatoriamente o VIN completo, gravado em local definido pela autoridade de trânsito e mantido sob sigilo industrial permanente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Há previsão expressa de identificação oculta, contendo o VIN ou, alternativamente, o VIS, gravada em local escolhido a critério do fabricante dentre opções delimitadas pela Resolução: monobloco, chassi, cabine ou carroceria (nos casos de ônibus e micro-ônibus).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2526,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao histórico das identificações ocultas nos veículos, é correto afirmar que elas:",
+    "alternativas": {
+      "A": "passaram a ser obrigatórias apenas na Resolução de 2022; antes, algumas empresas já as usavam, sem obrigatoriedade, para controle de peças.",
+      "B": "tornaram-se obrigatórias em 2022 somente para os veículos importados, dada a dificuldade de rastreamento internacional.",
+      "C": "são obrigatórias desde a norma de 1988, como segunda gravação de segurança do VIN em local reservado do monobloco.",
+      "D": "permanecem facultativas até hoje, constituindo diferencial de segurança adotado voluntariamente por algumas montadoras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As identificações ocultas passaram a ser obrigatórias apenas na Resolução de 2022. Antes, algumas empresas já as colocavam, sem obrigatoriedade, usando-as mais para controle de peças.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2527,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na identificação do motor sem visibilidade direta da numeração no bloco, a solução normativa é:",
+    "alternativas": {
+      "A": "afixar etiqueta autocolante de segurança no para-brisa dianteiro, contendo o número do motor e o VIS do veículo correspondente.",
+      "B": "gravar a numeração no cabeçote por micropercussão industrial, com selo de vistoria anual do órgão executivo de trânsito do registro.",
+      "C": "replicar a numeração no compartimento do motor por etiqueta ou plaqueta destrutível e resistente a intempéries, fixada em componente de difícil remoção.",
+      "D": "registrar a numeração exclusivamente no cadastro administrativo do registro, dispensada a marcação física de qualquer natureza."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Se o bloco é desprovido de visibilidade direta, a numeração é replicada no compartimento do motor por etiqueta ou plaqueta destrutível, resistente a intempéries, fixada em componente que dificilmente seja removido. Os ciclomotores ficam excluídos, pois possuem regulamentação específica.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2528,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a identificação do motor e demais agregados, as alturas mínimas dos caracteres são:",
+    "alternativas": {
+      "A": "4 mm quando gravados diretamente no veículo e 7 mm quando em plaqueta.",
+      "B": "4 mm em qualquer suporte, padronizados com os veículos de duas rodas.",
+      "C": "7 mm em qualquer suporte, para garantir leitura em vistoria.",
+      "D": "7 mm quando gravados diretamente no veículo e 4 mm quando em plaqueta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Altura mínima dos caracteres: 7 mm quando gravado diretamente no veículo; 4 mm quando em plaqueta.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2529,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a disposição do VIN em uma ou duas linhas no veículo e na documentação, a regra estabelece que:",
+    "alternativas": {
+      "A": "os divisores físicos empregados na gravação do veículo devem ser reproduzidos fielmente na documentação, para permitir o confronto direto entre os suportes.",
+      "B": "admitem-se divisores físicos no veículo, desde que inconfundíveis com caracteres alfanuméricos; na documentação, o VIN figura em linha única, contínua e sem separadores.",
+      "C": "a gravação no veículo deve ocorrer sempre em linha única e contínua, admitindo-se na documentação a separação das seções do código por hífen.",
+      "D": "os divisores físicos são vedados em qualquer suporte de gravação, pelo risco de confusão com os caracteres alfanuméricos do código."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Admite-se o uso de divisores físicos para delimitar seções/linhas no veículo, desde que inconfundíveis com caracteres alfanuméricos; os divisores ficam fora da documentação, onde o VIN deve ser apresentado em linha única, contínua e sem separadores.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2530,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O WMI, seção inicial do VIN, caracteriza-se por ser um código:",
+    "alternativas": {
+      "A": "de alcance internacional, com validade mínima de 30 anos.",
+      "B": "de alcance regional, com validade mínima de 30 anos e reutilização vedada em definitivo.",
+      "C": "de alcance nacional, com validade indeterminada enquanto ativo o fabricante.",
+      "D": "de alcance internacional, renovável a cada 10 anos junto à autoridade designada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "WMI: código de alcance internacional, com validade mínima de 30 anos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2531,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em veículos montados sobre monobloco, são pontos usuais de localização do VIN:",
+    "alternativas": {
+      "A": "torre do amortecedor do lado esquerdo, coluna de direção, teto estrutural, painel de instrumentos e tampa do motor.",
+      "B": "torre do amortecedor do lado direito, para-choque dianteiro, assoalho central, coluna da porta traseira e teto estrutural.",
+      "C": "torre do amortecedor do lado direito, soleira da porta, assoalho dianteiro ou traseiro, painel corta-fogo e assoalho do porta-malas.",
+      "D": "longarina direita, travessa dianteira, caixa de roda traseira, painel corta-fogo e tampa do porta-malas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Montados sobre monobloco: torre do amortecedor do lado direito (passageiro), soleira da porta, assoalho dianteiro ou traseiro, painel corta-fogo e assoalho do porta-malas. Nos montados sobre chassi, o VIN pode estar no lado direito e/ou esquerdo, nas faces superior, inferior ou lateral externa, a depender do projeto.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2532,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "As marcações permanentes dos vidros automotivos incluem:",
+    "alternativas": {
+      "A": "fabricante; homologações nacionais; tipo do vidro; classificação de transparência; e placa de identificação do veículo de destino.",
+      "B": "fabricante; homologações (ex.: DOT/E code); tipo do vidro (laminado ou temperado); classificação de transparência (ex.: AS1); e códigos de data do vidro.",
+      "C": "fabricante; VIN completo do veículo de destino; tipo do vidro; índice de refração nominal; e lote de produção da chapa de origem.",
+      "D": "montadora do veículo; homologações internacionais; espessura nominal; classificação de dureza superficial; e ano-modelo do veículo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Marcações permanentes em vidros: fabricante; homologações (DOT/E code); tipo do vidro (laminado ou temperado); classificação de transparência (ex.: AS1); códigos de data (mês e ano de fabricação do vidro).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2533,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos princípios físicos da gravação de códigos identificadores, a prensa, o punção e a marcação por rolo têm em comum:",
+    "alternativas": {
+      "A": "a escavação mecânica do substrato por cortadores ou pinos endurecidos.",
+      "B": "a remoção superficial do substrato, com fusão localizada do material marcado.",
+      "C": "a deformação plástica do material, com alteração permanente da sua estrutura cristalina.",
+      "D": "a criação de zona termicamente afetada abaixo da superfície, de espessura limitada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As duas categorias principais são deformação de material (impacto/compressão) e remoção de material (escavação mecânica ou laser). A estampagem — prensa, punção e marcação por rolo — causa deformação plástica e altera a estrutura cristalina do material.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2534,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os processos de gravação por remoção de material, é correto afirmar que:",
+    "alternativas": {
+      "A": "o scribing atua sem contato físico com a peça marcada, enquanto o laser exige pressão constante do cabeçote focalizador sobre o substrato metálico durante a gravação.",
+      "B": "a micropercussão remove o material por feixe focalizado de alta energia, restringindo-se às superfícies planas do monobloco e do chassi dos veículos.",
+      "C": "o laser gera extensa zona de deformação plástica subsuperficial, característica que favorece a restauração posterior por ataque químico controlado.",
+      "D": "o scribing produz marcas profundas, suaves e contínuas com fresas de metal duro e cortadores, enquanto o laser atua sem contato físico e gera zona termicamente afetada muito limitada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Scribing (escrita mecânica): alta qualidade, marcas profundas, suaves e contínuas, com fresas de metal duro, cortadores de diamante e pinos endurecidos. Laser: sem contato físico, feixe focalizado remove o material, gerando apenas zona termicamente afetada muito limitada — menor robustez e resposta reduzida aos métodos de restauração. A micropercussão (agulha) marca superfícies planas, côncavas ou convexas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2535,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "No caso de baixa do veículo, as partes do chassi que contenham a gravação do VIN devem ser:",
+    "alternativas": {
+      "A": "recolhidas ao órgão executivo estadual de trânsito responsável pelo registro.",
+      "B": "destruídas pelo desmonte credenciado, com registro fotográfico enviado ao Detran.",
+      "C": "encaminhadas à unidade local de criminalística, para custódia definitiva.",
+      "D": "inutilizadas por obliteração mecânica, permanecendo com o proprietário do veículo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Na baixa do veículo, as partes do chassi que contenham a gravação do VIN devem ser recolhidas ao órgão executivo estadual de trânsito responsável pelo registro.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2536,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A adulteração simples do VIN caracteriza-se:",
+    "alternativas": {
+      "A": "pelo recobrimento da gravação original por solda, revelável por solvente e reagente Fry.",
+      "B": "pela alteração da configuração inicial de um ou mais caracteres por meio de rebatimento por sobreposição.",
+      "C": "pela remoção total do código por processo abrasivo, seguida da gravação de outro número.",
+      "D": "pela substituição da peça que contém a gravação por outra de veículo regularmente baixado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Adulteração simples: um ou mais caracteres sofrem alteração em sua configuração inicial por rebatimento por sobreposição. A remoção total/parcial por abrasão com nova gravação é a regravação; a cobertura da gravação original por solda é o recobrimento, revelável por solvente e reagente Fry.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2537,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na regravação do VIN, após a aplicação de solvente sobre a área suspeita, o perito tipicamente observa:",
+    "alternativas": {
+      "A": "marcas de abrasão e espelhamento da superfície, denotando a adulteração.",
+      "B": "protuberâncias em torno dos caracteres, decorrentes do relaxamento de tensões residuais.",
+      "C": "coloração diferencial nos limites de grão, revelando o código original completo.",
+      "D": "microtrincas radiais em torno da gravação, típicas da estampagem industrial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A regravação consiste na remoção parcial ou total do VIN, em geral por processo abrasivo, com posterior gravação de outro código; após a aplicação de solvente notam-se marcas de abrasão e espelhamento da superfície, denotando a adulteração.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2538,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na gravação por deformação, as zonas produzidas no metal classificam-se em:",
+    "alternativas": {
+      "A": "zona termicamente afetada, superficial, e zona de recristalização, profunda e permanente.",
+      "B": "zona de encruamento, reversível por polimento, e zona de têmpera, permanente e frágil.",
+      "C": "zona de deformação elástica, de caráter transitório, e zona de deformação plástica, de caráter permanente.",
+      "D": "zona de deformação elástica, de caráter permanente, e zona de deformação plástica, reversível com o tempo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Na gravação por deformação: zona de deformação elástica — impermanente; zona de deformação plástica — permanente. É a permanência da zona plástica que fundamenta a restauração.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2539,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um VIN obliterado apresenta gravação invisível a olho nu, mas a zona de deformação plástica permanece íntegra. Nesse nível de obliteração, a restauração:",
+    "alternativas": {
+      "A": "exige a substituição da peça e o confronto com a identificação oculta do veículo.",
+      "B": "depende de simples limpeza com solventes, que remove limalhas e tinta das cavidades.",
+      "C": "é inviável, pois a visibilidade da gravação é pressuposto de qualquer técnica restaurativa.",
+      "D": "é efetiva com o emprego de técnicas periciais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Níveis de obliteração: parcial (limalhas/tinta nas cavidades — simples limpeza com solventes pode recuperar o código); mais profunda (gravação invisível, mas zona plástica remanescente — restauração efetiva com técnicas periciais); obliteração que consome a zona plástica — restauração impossível.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2540,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "No ataque químico para restauração de gravações em substratos metálicos, a revelação do código decorre de que:",
+    "alternativas": {
+      "A": "a área trabalhada a frio é mais dura que o metal ao redor, e a solução age diferencialmente nos cristais e limites de grão, alterando a reflexão da luz local.",
+      "B": "o reagente dissolve seletivamente a camada de tinta e as limalhas depositadas nas cavidades, expondo o relevo residual da gravação original.",
+      "C": "o calor da reação exotérmica provoca recristalização localizada do metal, com surgimento de protuberâncias sobre os caracteres originais.",
+      "D": "a solução deposita íons metálicos nas regiões encruadas pela gravação, formando contraste galvânico visível sob iluminação oblíqua."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Ataque químico: a área trabalhada a frio é mais endurecida que o metal circundante; a solução age diferencialmente nas faces dos cristais e ataca os limites de grão de forma distinta, e a luz que atinge a área é refletida de maneira diferente — diferenciação ótica da área afetada.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2541,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O tratamento térmico, como método de restauração, é especialmente adequado para:",
+    "alternativas": {
+      "A": "números obliterados em chapas de aço de baixa espessura, típicas de monoblocos, graças à ductilidade do material laminado a frio.",
+      "B": "gravações a laser em ligas leves de alumínio, nas quais a zona termicamente afetada responde bem ao reaquecimento controlado.",
+      "C": "gravações por micropercussão em superfícies côncavas ou convexas, inacessíveis às técnicas de polimento controlado.",
+      "D": "números obliterados em ferro fundido, normalmente blocos de motores, pela tensão residual presente abaixo da área deformada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O tratamento térmico é especialmente adequado para restauração de números obliterados em ferro fundido — normalmente em blocos de motores; o sucesso deve-se à presença de tensão residual abaixo da área deformada.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2542,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "No tratamento térmico para restauração de gravações, aplica-se calor na área estudada até o metal enrubescer, com o seguinte resultado físico:",
+    "alternativas": {
+      "A": "fusão localizada das bordas dos caracteres originais, com preenchimento das cavidades remanescentes por material recristalizado.",
+      "B": "endurecimento superficial da área marcada, com contraste imediato dos caracteres revelados, dispensando-se qualquer acabamento posterior.",
+      "C": "relaxamento das tensões residuais e recristalização do metal, surgindo protuberância ao redor da deformação, com posterior lixamento suave.",
+      "D": "contração diferencial da zona de deformação elástica, que expõe o relevo do código original sob iluminação rasante qualificada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Etapas: aplicação de calor até o metal enrubescer; resultado físico — relaxamento das tensões residuais, com recristalização da estrutura do metal e surgimento de protuberância na área ao redor da deformação; após o aquecimento, lixamento suave para remover camadas de óxido depositadas sobre os caracteres revelados, obtendo algum contraste.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2543,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A restauração por polimento fundamenta-se em que:",
+    "alternativas": {
+      "A": "o aquecimento gerado pelo atrito relaxa as tensões residuais internas, produzindo protuberâncias sobre os caracteres consumidos.",
+      "B": "materiais com durezas diferentes são removidos em taxas diferenciadas, havendo relatos de sucesso até em números gravados a laser.",
+      "C": "a remoção uniforme de camadas superficiais expõe a gravação oculta de fábrica, replicada em profundidade pelo processo industrial.",
+      "D": "o abrasivo empregado reage quimicamente com a zona encruada da gravação, revelando o código pela mudança de coloração localizada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Polimento: materiais com diferentes durezas são removidos em taxas diferenciadas, o que possibilita a restauração. Em números gravados a laser há relatos de sucesso com o polimento, pois a porção gravada se comporta de maneira diferente do metal virgem que a circunda.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2544,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os métodos de restauração da gravação em substratos metálicos, tradicionalmente classificados em destrutivos e não destrutivos, incluem-se:",
+    "alternativas": {
+      "A": "ataque químico, ataque eletrolítico, tratamento térmico, cavitação ultrassônica, sistemas magnéticos e polimento controlado.",
+      "B": "ataque eletrolítico, tratamento criogênico, cavitação ultrassônica, sistemas magnéticos, decapagem mecânica e ultrassonografia.",
+      "C": "ataque químico, radiografia industrial, tratamento térmico, cavitação ultrassônica, termovisão e polimento controlado.",
+      "D": "ataque químico, ataque eletrolítico, tratamento térmico, espectrometria de massa, sistemas magnéticos e jateamento controlado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Métodos de restauração: ataque químico, ataque eletrolítico, tratamento térmico, cavitação ultrassônica, sistemas magnéticos, polimento controlado e técnicas avançadas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2545,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A avaliação do estado de conservação do veículo é realizada por vistoria externa e interna que considera:",
+    "alternativas": {
+      "A": "o estado mecânico integral, com desmontagens parciais autorizadas, e classificação em cinco categorias harmonizadas com a tabela FIPE.",
+      "B": "o estado aparente e o funcional, mediante testes dinâmicos padronizados, com três categorias obrigatórias: bom, regular e sucata.",
+      "C": "exclusivamente o estado aparente, constatável por inspeção visual qualificada, com quatro categorias obrigatórias: bom, regular, ruim e sucata.",
+      "D": "exclusivamente o estado aparente do veículo, com classificação facultativa conforme a gravidade dos danos observados na vistoria."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A vistoria externa e interna considera exclusivamente o estado de conservação aparente — constatável por inspeção visual qualificada, sem desmontagens ou testes complexos — com quatro categorias obrigatórias: bom, regular, ruim e sucata.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2546,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando o veículo periciado tiver sido objeto de acidente ou sinistro, recomenda-se que a classificação dos danos siga:",
+    "alternativas": {
+      "A": "a tabela de deságios da FIPE, categorizando-os em quatro faixas percentuais de desvalorização.",
+      "B": "os critérios da seguradora responsável, categorizando-os como perda parcial ou perda total.",
+      "C": "o manual do fabricante, categorizando-os como danos estéticos, estruturais ou funcionais.",
+      "D": "a regulamentação específica do Contran, categorizando-os como danos de pequena, média ou grande monta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Nos casos de acidente ou sinistro, recomenda-se classificar os danos de acordo com a regulamentação específica do Contran: danos de pequena, média ou grande monta.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2547,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na valoração do veículo, os deságios orientativos aplicáveis sobre o valor de mercado, conforme o estado, são:",
+    "alternativas": {
+      "A": "bom estado: 5% a 10%; regular ou dano de pequena monta: 10% a 30%; mau estado ou dano de média monta: 30% a 60%; sucata ou dano de grande monta: 60% a 90%.",
+      "B": "bom estado: 10% a 20%; regular ou dano de pequena monta: 20% a 50%; mau estado ou dano de média monta: 50% a 70%; sucata ou dano de grande monta: 70% a 95%.",
+      "C": "bom estado: 10% a 25%; regular ou dano de pequena monta: 25% a 45%; mau estado ou dano de média monta: 45% a 75%; sucata ou dano de grande monta: 75% a 100%.",
+      "D": "bom estado: 15% a 20%; regular ou dano de pequena monta: 20% a 40%; mau estado ou dano de média monta: 40% a 70%; sucata ou dano de grande monta: 70% a 90%."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deságios orientativos: bom estado — 10% a 20%; estado regular ou sinistrado com dano de pequena monta — 20% a 50%; mau estado ou dano de média monta — 50% a 70%; sucata ou dano de grande monta — 70% a 95%. Após definir o estado de conservação, o perito descreve expressamente a metodologia de avaliação (recomenda-se a tabela FIPE ou outras).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2548,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para veículo estrangeiro cujo parâmetro direto inexiste no mercado nacional, a avaliação pode ser realizada:",
+    "alternativas": {
+      "A": "unicamente pela conversão cambial do valor de tabela vigente no país de origem, acrescida dos tributos incidentes na importação definitiva.",
+      "B": "por arbitramento do órgão executivo de trânsito, mediante consulta formal encaminhada pelo perito responsável pela avaliação.",
+      "C": "por analogia com similares disponíveis no Brasil, por comparação proporcional com valores no país de origem, ou por outra metodologia justificada pelo perito.",
+      "D": "pelo valor declarado na documentação aduaneira de internação, aplicando-se em seguida o deságio do estado de conservação apurado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Veículo estrangeiro sem parâmetro direto nacional: avaliação por analogia com similares disponíveis no Brasil; por comparação proporcional com valores no país de origem; ou por outra metodologia tecnicamente mais adequada, desde que devidamente justificada.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2549,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos casos em que o veículo apresente VIN adulterado, recomenda-se, na valoração:",
+    "alternativas": {
+      "A": "a aplicação de um deságio adicional de 20%, pela perda de valor comercial decorrente dessa condição.",
+      "B": "a suspensão da valoração, por depender a estimativa da identificação da identidade real do veículo.",
+      "C": "o enquadramento automático na categoria sucata, com deságio de 70% a 95%.",
+      "D": "a aplicação de um deságio adicional de 10%, limitado ao valor residual de sucata."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Com VIN adulterado, recomenda-se deságio adicional de 20%, em razão da perda de valor comercial decorrente dessa condição.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2550,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "As intervenções ilícitas em veículos relacionam-se, sobretudo, a quatro finalidades específicas:",
+    "alternativas": {
+      "A": "comunicação clandestina, contrabando de mercadorias, clonagem de placas e fraude documental.",
+      "B": "ocultação de ilícitos, facilitação de fuga, comunicação clandestina e dissimulação de atividades criminosas.",
+      "C": "ocultação de ilícitos, transporte de armamento, blindagem irregular e evasão de fiscalização eletrônica.",
+      "D": "facilitação de fuga, adulteração de hodômetro, receptação qualificada e fraude securitária."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As alterações relacionam-se, sobretudo, a quatro finalidades ilícitas: ocultação de ilícitos; facilitação de fuga; comunicação clandestina; e dissimulação de atividades criminosas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2551,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O procedimento de perícia em veículos terrestres estrutura-se nas seguintes etapas, em ordem:",
+    "alternativas": {
+      "A": "levantamento prévio; viabilidade; descrição do veículo; exame físico/confronto/valoração; conclusões periciais; registros e documentação.",
+      "B": "levantamento prévio; exame físico/confronto/valoração; viabilidade; descrição do veículo; registros e documentação; conclusões periciais.",
+      "C": "viabilidade; descrição do veículo; levantamento prévio; registros e documentação; exame físico/confronto/valoração; conclusões periciais.",
+      "D": "viabilidade; levantamento prévio; exame físico/confronto/valoração; descrição do veículo; registros e documentação; conclusões periciais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Etapas (VI-LE-EX-DE-RE-CO): VIabilidade; LEvantamento prévio; EXame físico/confronto/valoração; DEscrição do veículo; REgistros e documentação; COnclusões periciais.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2552,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à ilustração mínima do laudo de perícia veicular, exige-se que ele contenha:",
+    "alternativas": {
+      "A": "quatro fotos gerais do veículo, além de imagens dos vidros marcados e das ETA.",
+      "B": "duas fotos gerais do veículo, além de imagens da identificação oculta e do compartimento do motor.",
+      "C": "duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.",
+      "D": "uma foto de cada face do veículo, além de imagens das placas e do hodômetro."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O laudo final deve conter, no mínimo: duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2553,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O laudo de identificação veicular pode concluir de quatro formas, a saber:",
+    "alternativas": {
+      "A": "ausência de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem identificação da original; e inconclusão.",
+      "B": "autenticidade plena dos identificadores; adulteração parcial dos códigos; adulteração total com perda da identidade; e devolução por inviabilidade técnica do exame.",
+      "C": "regularidade documental e estrutural; divergência meramente administrativa; adulteração confirmada dos identificadores; e restauração bem-sucedida do código.",
+      "D": "ausência de adulteração aparente; adulteração presumida por incoerência de registros; adulteração confirmada pelo confronto; e remessa do caso para contraprova."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As quatro conclusões possíveis: não identificação de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem possibilidade de identificar a original; inconclusão.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2554,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na micropercussão (marcação por agulha), as superfícies passíveis de marcação são:",
+    "alternativas": {
+      "A": "planas e convexas, ficando as côncavas reservadas ao scribing.",
+      "B": "somente planas e horizontais, pela necessidade de apoio do cabeçote.",
+      "C": "somente planas, dada a rigidez do conjunto de agulhas.",
+      "D": "planas, côncavas ou convexas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Na micropercussão ou marcação por agulha, a agulha pode marcar superfícies planas, côncavas ou convexas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2555,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O recobrimento da gravação original do VIN por solda tem seu aspecto revelado, na perícia, mediante:",
+    "alternativas": {
+      "A": "tratamento térmico seguido de cavitação ultrassônica.",
+      "B": "aplicação de solvente e reagente Fry.",
+      "C": "iluminação ultravioleta e ensaio por líquidos penetrantes.",
+      "D": "polimento controlado seguido de ataque eletrolítico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Recobrimento da gravação original por solda: o aspecto pode ser revelado após aplicação de solvente e reagente Fry.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2556,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a identificação do ano de fabricação por etiqueta, a norma admite:",
+    "alternativas": {
+      "A": "plaqueta removível parafusada com o ano e o VIN, para permitir substituição em caso de recaracterização do veículo.",
+      "B": "etiqueta holográfica renovável a cada licenciamento anual, emitida e afixada pelo órgão executivo de trânsito.",
+      "C": "somente etiqueta autocolante comum com o ano e o VIS, afixada na coluna da porta dianteira esquerda do veículo.",
+      "D": "ETA ou plaqueta metálica destrutível, bem como etiqueta destrutível única com o ano de fabricação e o VIN ou o VIS."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A identificação do ano de fabricação é obrigatória e integra o conjunto de sinais identificadores; formas técnicas admitidas: ETA ou plaqueta metálica destrutível; etiqueta destrutível única contendo simultaneamente o ano de fabricação e o VIN ou VIS; ou gravação direta no chassi/monobloco.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
   }
 ];

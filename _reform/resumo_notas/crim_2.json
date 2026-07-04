@@ -1,0 +1,665 @@
+[
+  {
+    "id": 2466,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na estrutura de elaboração do laudo, o Preâmbulo contém:",
+    "alternativas": {
+      "A": "a resposta objetiva e sintética aos quesitos formulados pela autoridade requisitante.",
+      "B": "a descrição minuciosa dos materiais recebidos, com as respectivas numerações de lacre e registro.",
+      "C": "o número do laudo, o título, o nome dos peritos, o nome do diretor/chefe que os designou e as informações sobre a requisição.",
+      "D": "a narração do que foi examinado, o histórico, os métodos aplicados e a justificativa lógica das conclusões."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Preâmbulo: número do laudo, título, nome dos peritos, nome do diretor/chefe que os designou e informações sobre a requisição (número, data, procedimento vinculado e autoridade requisitante). A narração do que foi examinado com métodos e justificativa é a Exposição e Discussão; a resposta objetiva aos quesitos é a Conclusão.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2467,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na estrutura do laudo, a Conclusão deve ser:",
+    "alternativas": {
+      "A": "condicional e probabilística, resguardando o perito de qualquer afirmação definitiva.",
+      "B": "sempre objetiva e sintética, respondendo aos quesitos se a autoridade os tiver formulado.",
+      "C": "facultativa, quando a exposição e a discussão já contiverem os elementos de convicção.",
+      "D": "analítica e exaustiva, retomando integralmente a discussão técnica desenvolvida no exame."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A Conclusão deve ser sempre objetiva e sintética, respondendo aos quesitos se a autoridade os tiver formulado.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2468,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a numeração dos laudos no Sistema Nacional de Gestão da Criminalística da Polícia Federal:",
+    "alternativas": {
+      "A": "é sequencial, comum a todas as áreas periciais, reinicia no primeiro dia de cada ano, com reserva do número no dia da liberação do documento.",
+      "B": "é sequencial por unidade de criminalística, reiniciando a cada ano, com reserva do número na data do protocolo da requisição.",
+      "C": "é contínua e permanente, comum a todas as áreas periciais, com reserva do número no dia do início dos exames de cada caso.",
+      "D": "é sequencial e própria de cada área pericial, reiniciando a cada exercício, com reserva do número na abertura dos exames."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A numeração é sequencial, comum a todas as áreas periciais e reinicia no primeiro dia de cada ano; o número deve ser reservado no dia em que o documento for liberado, independentemente dos dias de realização dos exames.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2469,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Perícia Federal, a exigência de metodologias validadas cientificamente justifica-se, entre outros motivos, para:",
+    "alternativas": {
+      "A": "vincular as conclusões periciais aos precedentes técnicos do Instituto Nacional de Criminalística, reduzindo divergências entre as unidades.",
+      "B": "uniformizar os capítulos do laudo em todas as áreas periciais, suprimindo a liberdade de formulação dos peritos responsáveis pelos exames.",
+      "C": "permitir que um assistente técnico reavalie os vestígios, dada a reprodutibilidade dos métodos, com meta de certificação total de laboratórios e processos.",
+      "D": "acelerar o atendimento das requisições urgentes, dispensando a descrição minuciosa dos materiais acautelados sob custódia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "É obrigatória a utilização de metodologias validadas cientificamente e reprodutíveis, caso um assistente técnico precise reavaliar os vestígios; o objetivo atual é alcançar a certificação total de laboratórios e processos. Há liberdade na formulação dos capítulos, respeitadas as exigências mínimas, e a descrição dos materiais deve ser minuciosa para impossibilitar trocas.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2470,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Parecer Técnico destinado a esclarecer um Laudo já expedido deve ser elaborado:",
+    "alternativas": {
+      "A": "pelo chefe imediato da unidade de criminalística que liberou o documento original.",
+      "B": "por comissão designada pela DITEC, com pelo menos três peritos da área temática.",
+      "C": "por perito diverso dos signatários, para assegurar a revisão independente do conteúdo.",
+      "D": "pelos mesmos peritos signatários da via original."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Parecer Técnico é a manifestação técnica sobre assunto que não justifique laudo; se for para esclarecer um Laudo já expedido, deve ser feito pelos mesmos peritos signatários da via original. A Informação, por sua vez, é documento de comunicação oficial inter-agências ou intra-setorial.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2471,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas normas ISO 21043, o termo \"cena\" designa:",
+    "alternativas": {
+      "A": "o conjunto de vestígios verdadeiros relacionados diretamente à dinâmica delitiva.",
+      "B": "lugar ou objeto que requer ou é sujeito a exame forense, correspondendo, no Brasil, ao corpo de delito.",
+      "C": "o perímetro isolado pela primeira guarnição policial que atende à ocorrência.",
+      "D": "a área de exames credenciada mediante o processo de acreditação previsto na própria norma."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Cena: lugar ou objeto que requer ou é sujeito a exame forense — no Brasil, corresponde ao corpo de delito. Detalhe cobrado em prova: as normas ISO 21043 são desprovidas de previsão de acreditação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2472,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos três níveis de raciocínio pericial, o ato de atribuir significado técnico e lógico ao dado constatado denomina-se:",
+    "alternativas": {
+      "A": "interpretação, nível intermediário entre a constatação e a conclusão.",
+      "B": "inferência, síntese lógica entre hipóteses concorrentes.",
+      "C": "observação, base direta e concreta da análise.",
+      "D": "opinião, conclusão técnica final do exame."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Três níveis: Observação (o que é direta e concretamente constatado); Interpretação (atribuir significado técnico e lógico ao dado observado); Opinião (conclusão técnica final formulada estritamente a partir da interpretação).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2473,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Constatar que um pó branco é um alcaloide e, em seguida, determinar tratar-se especificamente de cocaína corresponde, nos subtipos de análise pericial, respectivamente, a:",
+    "alternativas": {
+      "A": "classificação e avaliação de origem.",
+      "B": "classificação e identificação.",
+      "C": "identificação e quantificação.",
+      "D": "triagem e reconstrução."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Classificação/Identificação ('O que é o item?'): a classificação compara o item com coleções de referência e bancos de dados para atribuí-lo a uma classe (alcaloide); a identificação é a atribuição à classe mais específica possível (cocaína).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2474,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Comparar se um projétil desconhecido foi disparado por determinada arma e analisar padrões de manchas de sangue para determinar a dinâmica do evento correspondem, respectivamente, aos subtipos de análise:",
+    "alternativas": {
+      "A": "avaliação de origem e classificação.",
+      "B": "identificação e avaliação de origem.",
+      "C": "avaliação de origem e reconstrução.",
+      "D": "reconstrução e quantificação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Avaliação de Origem ('De onde vem o item?'): comparar projétil desconhecido com arma de referência. Reconstrução ('O que aconteceu com o item?'): avaliar padrões de mancha de sangue para determinar onde, quando e como a dinâmica ocorreu. Quantificação responde 'quanto tem do item' (ex.: concentração de etanol, contagem de arquivos).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2475,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A interpretação avaliativa, como modo de interpretação pericial, exige:",
+    "alternativas": {
+      "A": "uma única proposição de trabalho, formulada pela autoridade requisitante e testada contra os vestígios disponíveis.",
+      "B": "a ausência de proposições iniciais, partindo o perito somente das observações para gerar hipóteses investigativas.",
+      "C": "a convergência entre as hipóteses do perito e as da equipe de investigação, consolidada antes dos exames.",
+      "D": "no mínimo duas proposições concorrentes formuladas de início, mutuamente excludentes, relevantes ao caso, explícitas e específicas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Interpretação avaliativa: parte de proposições já formuladas de início, mutuamente excludentes, relevantes, explícitas e específicas — exigindo no mínimo duas proposições concorrentes. A investigativa parte apenas das observações, gera hipóteses e é desprovida de conclusão definitiva.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2476,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "As Razões de Verossimilhança (Likelihood Ratios), como tipo de opinião pericial, expressam:",
+    "alternativas": {
+      "A": "o grau de confiança estatística do método empregado, aferido em ensaios de proficiência interlaboratoriais.",
+      "B": "a relação de probabilidade entre obter as observações caso a hipótese 1 seja verdadeira, versus a hipótese 2.",
+      "C": "a margem de erro associada a valores aproximados, típica da interpretação investigativa.",
+      "D": "a probabilidade absoluta de a hipótese acusatória ser verdadeira diante das observações realizadas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Razões de Verossimilhança: relação de probabilidade entre obter as observações caso a hipótese 1 seja verdadeira, versus a hipótese 2. Valores aproximados com margem de erro (ex.: 70 ± 5 km/h) são as Estimativas, típicas da interpretação investigativa.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2477,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "As opiniões categóricas, na prática pericial, são usadas unicamente quando:",
+    "alternativas": {
+      "A": "a autoridade requisitante formula quesito direto e objetivo, que demanda resposta afirmativa ou negativa em termos taxativos.",
+      "B": "o perito dispõe de confirmação por segundo examinador independente, hipótese que autoriza expressá-las como fato irrefutável da natureza.",
+      "C": "as duas proposições concorrentes apresentam razões de verossimilhança equivalentes entre si, exigindo o desempate técnico fundamentado.",
+      "D": "o perito julga impossível obter o resultado caso qualquer hipótese alternativa fosse verdadeira, vedada ainda a expressão como fato irrefutável da natureza."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Opiniões categóricas são usadas unicamente quando o perito julga 'impossível' obter o resultado caso qualquer hipótese alternativa fosse verdadeira — e, ainda assim, jamais podem ser expressas como fato irrefutável da natureza.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2478,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação internacional dos relatórios periciais em Preliminar, Final, Complementar, Corrigido (Amended) e Obsoletado (Withdrawn), a posição da Polícia Federal é a seguinte:",
+    "alternativas": {
+      "A": "a classificação deixou de ser adotada, e a doutrina da PF é desprovida da previsão de Laudo Complementar.",
+      "B": "a classificação foi incorporada por Orientação Técnica, restrita aos laudos de laboratório.",
+      "C": "a classificação foi adotada parcialmente, com exclusão apenas das categorias Corrigido e Obsoletado.",
+      "D": "a classificação foi adotada integralmente, incluída a figura do Laudo Complementar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Essa classificação dos relatórios NÃO foi adotada pela Polícia Federal e, na doutrina da PF, inexiste a previsão de Laudo Complementar.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2479,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na cadeia de custódia externa, a etapa imediatamente posterior à identificação unívoca e à coleta do vestígio é:",
+    "alternativas": {
+      "A": "o transporte do material à unidade de criminalística, em meio adequado à natureza física, biológica ou química do vestígio.",
+      "B": "o registro imediato do material no Siscrim, com atribuição de numeração sequencial e designação do perito responsável.",
+      "C": "o acondicionamento em embalagens de segurança padronizadas, separando-se os vestígios por características físicas, biológicas e químicas.",
+      "D": "a documentação das ações realizadas no Termo de Coleta de Vestígio (TCV), com o registro da quantidade e da natureza."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Etapas da cadeia externa: 1. Início (preservação do local/reconhecimento do vestígio); 2. Identificação e coleta; 3. Acondicionamento (embalagens padronizadas, separação por características físicas, biológicas e químicas); 4. Documentação (TCV); 5. Transporte.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2480,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Termo de Coleta de Vestígio (TCV), na cadeia de custódia externa, deve primar pela:",
+    "alternativas": {
+      "A": "sigilosidade, com acesso restrito ao perito coletor e à autoridade requisitante.",
+      "B": "brevidade, limitando-se ao rol numerado dos lacres empregados no acondicionamento.",
+      "C": "padronização eletrônica, com lançamento direto e exclusivo no sistema Siscrim.",
+      "D": "completude, registrando quantidade, natureza e demais dados das ações realizadas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As ações são formalizadas no TCV, que deve ter completude, registrando quantidade, natureza etc.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2481,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na cadeia de custódia interna, quando o vestígio chega lacrado e numerado à unidade de criminalística, a primeira conferência é feita:",
+    "alternativas": {
+      "A": "pelo gestor da unidade, que rompe o lacre na presença de duas testemunhas e registra o ato em ficha de acompanhamento própria.",
+      "B": "pelo perito designado para o caso, mediante deslacre supervisionado pelo gestor e novo lacre ao final da conferência inicial.",
+      "C": "pela secretaria/protocolo, que confere os dados na embalagem externa, sem deslacrar, com registro imediato de eventuais inconsistências.",
+      "D": "pela autoridade requisitante, no ato da entrega do material, com termo de transferência assinado pelo responsável pelo transporte."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recepção e 1ª conferência: feita pela secretaria/protocolo — se o vestígio vier lacrado e numerado, confere os dados na embalagem externa (sem deslacrar); inconsistências devem ser imediatamente registradas. A 2ª conferência é feita pelo perito ao assumir os exames.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2482,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ainda na cadeia de custódia interna, caso o vestígio chegue à unidade sem embalagem apropriada, sem lacre ou sem numeração, ele:",
+    "alternativas": {
+      "A": "só será recebido após abertura e conferência na presença e sob observação do responsável pela entrega.",
+      "B": "será devolvido de plano à origem, com registro da recusa no Siscrim.",
+      "C": "será recebido normalmente, lavrando-se termo circunstanciado de inconformidade em até 48 horas.",
+      "D": "será recebido em armazenamento temporário, aguardando regularização pelo requisitante em 30 dias."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Se o vestígio chegar sem embalagem apropriada, sem lacre ou numeração, só será recebido após abertura e conferência na presença e sob observação do responsável pela entrega.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2483,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante os exames, o registro do rompimento de lacres, das novas numerações e dos responsáveis por tais alterações é feito:",
+    "alternativas": {
+      "A": "no preâmbulo do laudo pericial correspondente.",
+      "B": "em ficha de acompanhamento anexada ao vestígio.",
+      "C": "no Termo de Coleta de Vestígio original, por aditamento.",
+      "D": "em livro de protocolo mantido pela secretaria da unidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deve ser anexada uma ficha de acompanhamento para registrar o rompimento de lacres, as novas numerações e os responsáveis por tais alterações.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2484,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a emissão do laudo, os vestígios de local processado por perito criminal têm como destinação típica:",
+    "alternativas": {
+      "A": "o arquivamento junto à contraprova de laboratório, sob responsabilidade do perito signatário.",
+      "B": "a incineração controlada, precedida de autorização judicial específica.",
+      "C": "o armazenamento na Central de Custódia de Vestígios (CCV) ou nas Custódias Locais de Vestígios (CLV).",
+      "D": "a devolução compulsória à autoridade requisitante, vedado o armazenamento na unidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Destinação pós-laudo: devolução ou descarte (encaminhamento à autoridade requisitante com o laudo, ou descarte); e armazenamento — especialmente para vestígios de local processado por perito criminal, que ficam na CCV ou nas CLV.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2485,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as competências da DITEC, a atividade de pesquisa, desenvolvimento e difusão de conhecimento é realizada:",
+    "alternativas": {
+      "A": "sob a coordenação da Diretoria de Ensino.",
+      "B": "de forma autônoma, no âmbito de cada unidade de criminalística.",
+      "C": "sob a coordenação da Academia Nacional de Polícia, por delegação normativa.",
+      "D": "sob a coordenação do Instituto Nacional de Criminalística."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Compete à DITEC dirigir, planejar, coordenar, controlar, avaliar e executar as atividades de perícia criminal, gerir bancos nacionais de vestígios, elaborar normas de inviolabilidade da cadeia de custódia e qualidade dos laudos — e realizar pesquisa, desenvolvimento e difusão de conhecimento sob a coordenação da Diretoria de Ensino.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2486,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No SISCRIM, considera-se Pendência:",
+    "alternativas": {
+      "A": "toda requisição em situação alimentada manualmente pelo usuário, aguardando providências externas.",
+      "B": "toda requisição registrada e não finalizada, condição que cessa apenas quando ela for arquivada, devolvida ou cancelada.",
+      "C": "toda requisição de criticidade alta ainda sem designação de perito responsável pelo gestor.",
+      "D": "toda requisição com prazo máximo de atendimento ultrapassado, sujeita ao fluxo de saneamento do INC."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pendência é toda requisição registrada e não finalizada; só deixa de ser pendência quando for arquivada, devolvida ou cancelada. Pendência vencida (fora do prazo) é outro conceito, ligado às metas.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2487,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às Situações dos expedientes no SISCRIM, o sistema prevê:",
+    "alternativas": {
+      "A": "15 situações, sendo 12 automáticas e 3 manuais, entre as quais \"aguardando disponibilidade de meios\".",
+      "B": "12 situações, sendo 7 automáticas e 5 manuais, entre as quais \"aguardando providências do requisitante\".",
+      "C": "17 situações, sendo 5 automáticas e 12 alimentadas manualmente, entre as quais \"requisição em atendimento\".",
+      "D": "17 situações, sendo 12 automáticas e 5 alimentadas manualmente, entre as quais \"aguardando condições ambientais ou climáticas\"."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Há 17 status/situações, sendo 12 automáticas e 5 manuais: requisição arquivada sem atendimento por problemas não solucionados; aguardando condições ambientais ou climáticas; aguardando disponibilidade de meios; aguardando providências do requisitante; requisição em atendimento.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2488,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma requisição de laudo fundamental para o cumprimento de mandados de busca e o início de uma operação policial, sem réu preso, recebe no SISCRIM a criticidade:",
+    "alternativas": {
+      "A": "média, categoria que abrange laudos fundamentais para prisões, mandados de busca e deflagração de operações.",
+      "B": "baixa, por se tratar de requisição ordinária sem material sujeito à degradação.",
+      "C": "alta, por envolver prioridade operacional com repercussão social imediata.",
+      "D": "alta, por equiparação legal às hipóteses de materiais sujeitos a contaminação imediata."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Criticidade MÉDIA: materiais suscetíveis a alterações no longo prazo e laudos fundamentais para prisões, mandados de busca e início de operações. A ALTA fica para réu/indiciado preso, prioridade legal/repercussão social e materiais sujeitos a degradação ou contaminação imediata.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2489,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No SISCRIM, para os casos sui generis, que fogem a qualquer padrão de exame preestabelecido, utilizam-se:",
+    "alternativas": {
+      "A": "os pontos de complexidade majorados, atribuídos pelo gestor mediante justificativa.",
+      "B": "os tipos de OE \"não previstos\", que entram obrigatoriamente no fluxo de avaliação de conformidade.",
+      "C": "os materiais da classe \"padrão e pesquisa\", com tramitação prioritária na unidade.",
+      "D": "as situações manuais de expediente, com registro na ficha de acompanhamento do vestígio."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Para medir esforço usam-se pontos de complexidade preestabelecidos; para casos sui generis (sem padrão), utilizam-se os tipos de OE 'não previstos', que entram obrigatoriamente no fluxo de avaliação de conformidade.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2490,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No SISCRIM, as classes de Materiais compreendem:",
+    "alternativas": {
+      "A": "apoio ao exame, arquivamento, devolução, exame, mídia externa, mídia para espelhamento, padrão e perícia.",
+      "B": "apoio ao exame, contraprova, descarte, exame, mídia anexa, mídia de segurança, padrão e pesquisa.",
+      "C": "coleta, contraprova, devolução, exame, mídia anexa, mídia para espelhamento, referência e rotina.",
+      "D": "apoio ao exame, contraprova, devolução, exame, mídia anexa, mídia para espelhamento, padrão e pesquisa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "No sistema, 'Material' é todo item encaminhado para a Perícia, relacionado a exames e mantido sob custódia; classifica-se como: Apoio ao Exame, Contra-prova, Devolução, Exame, Mídia anexa, Mídia para espelhamento, Padrão e Pesquisa. As funcionalidades do SISCRIM dividem-se em Documentos e Materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2491,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as metas definidas pela DITEC para a criminalística, é correto afirmar que:",
+    "alternativas": {
+      "A": "são metas para as Superintendências Regionais: máximo de 10% de pendências vencidas, 250 pontos por perito e tempo médio fixado pelo INC.",
+      "B": "são metas para as Unidades de Criminalística: máximo de 5% de requisições arquivadas, 500 pontos por unidade de FTDE e tempo médio uniforme nacional.",
+      "C": "são metas para as Unidades de Criminalística: máximo de 5% de pendências vencidas, produção média de 250 pontos por unidade de FTDE e tempo médio variável por área.",
+      "D": "são metas individuais por perito: máximo de 5% de pendências vencidas, 250 pontos de complexidade mensais e tempo médio uniforme para todas as áreas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A DITEC define metas para as Unidades de Criminalística (e não individuais): 1) Pendências vencidas — máximo 5%; 2) Produtividade — média de 250 pontos de complexidade por unidade de FTDE; 3) Tempo médio — variável, cada área possui um tempo médio aceitável.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2492,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No Indicador da Criminalística (ICRIM), os pesos dos componentes são:",
+    "alternativas": {
+      "A": "C1 (pendências fora do prazo) 20%; C2 (produtividade) 30%; C3 (tempo médio) 50%.",
+      "B": "C1 (pendências fora do prazo) 20%; C2 (produtividade) 50%; C3 (tempo médio) 30%.",
+      "C": "C1 (pendências fora do prazo) 50%; C2 (produtividade) 30%; C3 (tempo médio) 20%.",
+      "D": "C1 (pendências fora do prazo) 30%; C2 (produtividade) 20%; C3 (tempo médio) 50%."
+    },
+    "resposta_correta": "A",
+    "justificativa": "ICRIM: C1 — Pendências fora do prazo (Meta 1) com 20%, o menor peso; C2 — Produtividade de 250 pontos (Meta 2) com 30%; C3 — Tempo médio de atendimento (Meta 3) com 50%, o maior peso.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2493,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o controle de atrasos nas requisições periciais da PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "ao ultrapassar 25% além dos prazos máximos, a unidade perde os pontos de complexidade correspondentes, mantendo-se o cômputo do caso como pendência vencida.",
+      "B": "ao ultrapassar 25% além dos prazos máximos, o caso pode ir para apuração na Corregedoria, e exames muito complexos podem entrar em Acompanhamento Especial via SEI, deixando de contar como vencidos.",
+      "C": "ao ultrapassar 50% além dos prazos máximos, o caso é remetido ao INC, e exames complexos entram automaticamente em Acompanhamento Especial, computados em dobro nas metas.",
+      "D": "ao ultrapassar 10% além dos prazos máximos, o INC assume o exame, e o perito responde a fluxo de saneamento individual perante a DITEC."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Prazos críticos: ao ultrapassar 25% além dos prazos máximos, o caso pode ir para apuração na Corregedoria. Para exames muito complexos que estourarão o prazo legal, o perito aciona a chefia via SEI para o status de Acompanhamento Especial, que deixa de contar como 'vencido' para efeito das metas. O INC monitora e cobra justificativas (fluxo de saneamento).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2494,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No regime dos normativos da Polícia Federal, a Instrução Normativa (IN) e a Orientação Técnica (OT) são expedidas, respectivamente:",
+    "alternativas": {
+      "A": "pelo Diretor-Geral, com exclusividade, e por qualquer função de chefia ou direção, nos limites das respectivas atribuições regimentais.",
+      "B": "pelos Diretores, em atuação conjunta, e pelo Diretor-Geral, com caráter regulamentar sobre métodos e rotinas técnicas das unidades.",
+      "C": "pelo Diretor-Geral, com exclusividade, e pelo Diretor Técnico-Científico, também com exclusividade e caráter enunciativo.",
+      "D": "pelo Ministro da Justiça, por delegação expressa, e pelo Diretor do Instituto Nacional de Criminalística, em matéria pericial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "IN: exclusiva do Diretor-Geral, para execução de leis, decretos e regulamentos na esfera da PF. OT: exclusiva do Diretor Técnico-Científico, com caráter enunciativo para disciplinar a perícia. IT é exclusiva dos Diretores; IS podia ser expedida por diretores, coordenadores, superintendentes e chefes; Portaria cabe a funções de chefia ou direção.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2495,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as Instruções de Serviço (IS) e as Instruções Técnicas (IT) no âmbito da PF, é correto afirmar que:",
+    "alternativas": {
+      "A": "foram revogadas em bloco em 2022, sendo substituídas pelas Orientações Técnicas expedidas pelo Diretor-Geral da Polícia Federal.",
+      "B": "convertem-se automaticamente em Portarias após cinco anos de vigência, por regra expressa de consolidação normativa interna.",
+      "C": "ambas continuam sendo editadas normalmente, com competência concorrente entre os diretores, superintendentes e chefes das unidades.",
+      "D": "deixaram de ser editadas desde 2022, permanecendo válidas as antigas; a IT, exclusiva dos Diretores, regula e uniformiza métodos técnicos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As IS não são mais editadas desde 2022, mas as antigas valem; as IT (exclusivas dos Diretores, para regular e uniformizar métodos técnicos) também estão sem edições pós-2022, permanecendo válidas as existentes.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2496,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em atendimento de flagrante, sobreaviso ou operação, havendo limitações técnicas que inviabilizem o exame urgente, o perito deve:",
+    "alternativas": {
+      "A": "solicitar prorrogação de prazo à autoridade requisitante, com ciência ao gestor da unidade.",
+      "B": "apresentar imediatamente ao delegado um laudo ou documento consignando a impossibilidade do atendimento urgente.",
+      "C": "acionar o Acompanhamento Especial via SEI, suspendendo a contagem dos prazos legais.",
+      "D": "registrar a situação no Siscrim e aguardar a designação de outro perito pela chefia da unidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Em flagrantes, sobreavisos ou operações (urgência), caso haja limitações técnicas, o perito deve apresentar imediatamente ao delegado um laudo ou documento consignando a impossibilidade do atendimento urgente.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2497,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A análise de viabilidade da requisição pericial deve ocorrer em até 10 dias da sua chegada e inclui:",
+    "alternativas": {
+      "A": "a estimativa dos pontos de complexidade do exame e o agendamento das condições ambientais necessárias à sua realização.",
+      "B": "a definição da criticidade da requisição recebida e a reserva do número do futuro laudo no sistema de gestão.",
+      "C": "a segunda conferência dos lacres do material e a designação formal do perito responsável pelo gestor da unidade.",
+      "D": "a conferência e suficiência do material e a análise dos quesitos quanto à pertinência e à possibilidade de resposta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A análise de viabilidade tem prazo de 10 dias após a chegada da requisição e inclui a conferência e suficiência do material e a análise dos quesitos (pertinência e possibilidade de resposta). Havendo inconformidades: 30 dias para o requisitante apresentar adequação e 30 dias para disponibilização de meios.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2498,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Constatadas inconformidades na análise de viabilidade, os prazos para o requisitante apresentar adequação e para a disponibilização dos meios necessários são, respectivamente:",
+    "alternativas": {
+      "A": "15 e 45 dias.",
+      "B": "30 e 60 dias.",
+      "C": "30 e 30 dias.",
+      "D": "10 e 30 dias."
+    },
+    "resposta_correta": "C",
+    "justificativa": "30 dias para o requisitante apresentar adequação (sem resposta, o material é devolvido/providenciado pelo gestor) e 30 dias para a disponibilização de meios necessários.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2499,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ordem de prioridade a ser observada no atendimento a local de crime é:",
+    "alternativas": {
+      "A": "manutenção da segurança; socorro a feridos; preservação de vestígios.",
+      "B": "manutenção da segurança; preservação de vestígios; socorro a feridos.",
+      "C": "socorro a feridos; preservação de vestígios; manutenção da segurança.",
+      "D": "preservação de vestígios; manutenção da segurança; socorro a feridos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Ordem de prioridade em local de crime: 1ª manutenção da segurança; 2ª socorro a feridos; 3ª preservação de vestígios.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2500,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito que, partindo dos vestígios encontrados no local, busca a melhor explicação para o ocorrido, chegando a uma conclusão plausível, emprega a forma de raciocínio científico denominada:",
+    "alternativas": {
+      "A": "analogia, que transpõe conclusões de casos semelhantes já periciados.",
+      "B": "abdução, pela qual os vestígios levam à melhor explicação.",
+      "C": "indução, que parte de casos particulares para criar padrões gerais.",
+      "D": "dedução, que parte de regras gerais para confirmar o caso concreto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Dedução: regras gerais confirmam um caso (conclusão necessária/precisa — geral → específico). Indução: casos particulares criam padrões (conclusão provável — específico → geral). Abdução: vestígios levam à melhor explicação (conclusão plausível).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2501,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito recebe o caso com a informação preliminar de que \"o suspeito já confessou\". Ao longo dos exames, essa primeira informação passa a dificultar a análise imparcial dos dados seguintes. O viés cognitivo caracterizado é o de:",
+    "alternativas": {
+      "A": "ancoragem, pois a primeira informação recebida atua como âncora sobre as informações seguintes.",
+      "B": "autoridade, pela credibilidade excessiva atribuída à fonte policial da informação.",
+      "C": "enquadramento, pois a narrativa apresentada alterou a interpretação técnica dos dados.",
+      "D": "confirmação, pela busca seletiva de evidências que corroborem a hipótese prévia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Viés de ancoragem: a primeira informação recebida (uma suspeita preliminar) atua como 'âncora' que dificulta a imparcialidade nas informações seguintes. O de confirmação é a tendência de buscar/valorizar evidências que confirmem hipótese prévia, ignorando dados contraditórios.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2502,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a elucidação de um caso, um perito afirma que o resultado final \"já era óbvio desde o início\". Em outra situação, um colega valoriza determinada informação apenas por ter vindo de instituição prestigiada, sem escrutínio crítico. Os vieses caracterizados são, respectivamente:",
+    "alternativas": {
+      "A": "de enquadramento e de confirmação.",
+      "B": "retrospectivo e de ancoragem.",
+      "C": "retrospectivo e de autoridade.",
+      "D": "de confirmação e de autoridade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Viés retrospectivo: percepção equivocada, após o evento, de que o resultado já era previsível ou 'óbvio' desde o início. Viés de autoridade: atribuir maior credibilidade à informação por vir de superior, colega antigo ou instituição prestigiada, sem escrutínio crítico. O de enquadramento ocorre quando a forma narrativa altera a interpretação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2503,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos limites da manifestação técnica do perito no laudo, exige-se que ele:",
+    "alternativas": {
+      "A": "complemente as lacunas dos exames com sua experiência profissional, desde que o registre expressamente no histórico.",
+      "B": "adote as conclusões mais prováveis segundo a literatura, ainda que os dados do caso concreto sejam insuficientes.",
+      "C": "responda a todos os quesitos com afirmações conclusivas, evitando expressões de incerteza que fragilizem a prova.",
+      "D": "emita opiniões estritamente lastreadas nos exames, jamais transmitindo certeza maior do que aquela que os dados suportam."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O perito deve eximir-se de emitir opiniões sem lastro nos exames e jamais transmitir no laudo uma certeza maior do que aquela que os dados suportam; ele tampouco pode emitir opiniões categóricas além dos limites factuais da ciência.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2504,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O viés cognitivo, na atividade pericial, é definido como o desvio inconsciente de racionalidade no julgamento, provocado por expectativas externas ou pressões processuais. O antídoto indicado contra esse risco é:",
+    "alternativas": {
+      "A": "a vedação de contato do perito com a equipe de investigação tática.",
+      "B": "a adoção exclusiva de opiniões categóricas nas conclusões do laudo.",
+      "C": "a revisão cruzada dos laudos por perito de outra unidade da federação.",
+      "D": "a aplicação do ceticismo metodológico pelo próprio perito."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O viés cognitivo é o desvio inconsciente de racionalidade no julgamento, provocado por expectativas externas ou pressões processuais; o perito deve aplicar o ceticismo metodológico para evitar esse risco.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  }
+]

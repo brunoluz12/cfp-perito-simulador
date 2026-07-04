@@ -1,0 +1,886 @@
+[
+  {
+    "id": 2505,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame de um veículo realizado no contexto da perícia de local de crime classifica-se como:",
+    "alternativas": {
+      "A": "perícia em veículos, por ter o automóvel como objeto material do exame.",
+      "B": "perícia de local de crime, apesar de recair sobre um veículo.",
+      "C": "perícia mista, com registro simultâneo nas duas categorias de exame.",
+      "D": "perícia de identificação veicular, quando houver suspeita de adulteração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O exame de um veículo realizado no contexto da perícia de local de crime é classificado como perícia de local de crime, e a perícia veicular propriamente dita é atividade técnico-científica abrangente, orientada à compreensão integral do veículo como objeto material de interesse pericial.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2506,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na identificação veicular, a identidade do veículo é tecnicamente compreendida como:",
+    "alternativas": {
+      "A": "uma construção baseada na coerência — ou incoerência — entre múltiplos elementos, sendo o bem jurídico protegido a autenticidade do sistema de identificação veicular.",
+      "B": "um dado declarado nos registros administrativos, presumido verdadeiro até prova documental em contrário.",
+      "C": "a correspondência entre a placa ostensiva e o cadastro do órgão de trânsito, sendo o bem jurídico protegido a fé pública dos registros.",
+      "D": "o próprio número VIN gravado no chassi, sendo o bem jurídico protegido a propriedade do veículo automotor."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A identidade do veículo é uma construção baseada na coerência — ou incoerência — entre múltiplos elementos, e o bem jurídico protegido é a autenticidade do sistema de identificação veicular.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2507,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação dos veículos quanto à tração, figuram:",
+    "alternativas": {
+      "A": "veículos de propulsão mecânica, elétrica, humana e animal.",
+      "B": "veículos automotores, veículos de passageiros, veículos de carga e veículos mistos.",
+      "C": "veículos automotores, veículos de propulsão humana, veículos de tração animal e reboques e semirreboques.",
+      "D": "veículos automotores, veículos de propulsão humana, veículos de competição e veículos especiais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quanto à tração: veículos automotores, de propulsão humana, de tração animal, e reboques e semirreboques. Passageiros/carga/misto pertencem à classificação quanto à espécie.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2508,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A classificação dos veículos quanto à espécie, definida pela finalidade predominante, compreende:",
+    "alternativas": {
+      "A": "passageiros, carga, mista, competição, reboque, especial e coleção.",
+      "B": "passageiros, carga, mista, competição, tração, especial e coleção.",
+      "C": "passageiros, carga, tração, aluguel, competição, especial e diplomática.",
+      "D": "passageiros, carga, mista, oficial, especial, aprendizagem e coleção."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto à espécie (finalidade predominante): passageiros, carga, mista, competição, tração, especial e coleção. Oficiais, diplomáticos, particulares, aluguel e aprendizagem compõem a classificação quanto à categoria.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2509,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas classificações veiculares, os critérios que definem a espécie e a categoria são, respectivamente:",
+    "alternativas": {
+      "A": "o regime jurídico de uso e a forma de propulsão do veículo.",
+      "B": "a forma de propulsão e a finalidade predominante do veículo.",
+      "C": "a finalidade predominante do veículo e o regime jurídico de uso.",
+      "D": "a estrutura construtiva do veículo e a natureza do serviço prestado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Tração: forma de propulsão. Espécie: finalidade predominante. Categoria: regime jurídico de uso (oficiais, diplomáticos, particulares, aluguel, aprendizagem).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2510,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as características identificadoras do veículo, o monobloco e as longarinas, de um lado, e a suspensão e os freios, de outro, classificam-se, respectivamente, como características:",
+    "alternativas": {
+      "A": "externas e estruturais.",
+      "B": "estruturais e externas.",
+      "C": "funcionais e documentais.",
+      "D": "estruturais e funcionais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Externas: marca, modelo, cor, carroceria, faróis, rodas. Estruturais: chassi, monobloco, longarinas, cabine. Funcionais: suspensão, freios, motorização, transmissão. Documentais: registros, documentos, dados administrativos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2511,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os identificadores secundários e terciários (motores, caixas de câmbio, caixas de direção, eixos, cabines e carrocerias), é correto afirmar que eles:",
+    "alternativas": {
+      "A": "funcionam como elementos de corroboração, sem substituir o VIN.",
+      "B": "prevalecem sobre o VIN em caso de divergência, por serem de mais difícil adulteração.",
+      "C": "possuem valor meramente comercial, alheio ao interesse pericial de identificação.",
+      "D": "substituem o VIN na identificação do veículo quando este se encontra obliterado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os códigos dos agregados (motores, caixas de câmbio, caixas de direção, eixos, cabines, carrocerias) funcionam como elementos de corroboração e jamais substituem o VIN.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2512,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao papel da placa na identificação veicular, é correto afirmar que ela:",
+    "alternativas": {
+      "A": "possui a mesma hierarquia identificadora do VIN, por integrar o sistema integrado de identificação da regulamentação vigente.",
+      "B": "constitui o identificador primário do veículo em circulação, corroborado pelo VIN e pelos códigos dos agregados relevantes.",
+      "C": "apenas representa a identidade de forma ostensiva, ligando o veículo em circulação aos registros administrativos e à identificação estrutural.",
+      "D": "cria a identidade do veículo no momento do emplacamento, vinculando-a de forma definitiva ao proprietário constante do registro."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A placa cria coisa alguma: ela apenas representa a identidade de forma ostensiva, funcionando como elo entre o veículo em circulação, seus registros administrativos e sua identificação estrutural. O identificador primário é o VIN.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2513,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na perícia de identificação veicular, a análise das gravações deve observar as regras:",
+    "alternativas": {
+      "A": "vigentes à época da fabricação, do registro e das eventuais modificações do veículo periciado.",
+      "B": "mais favoráveis ao proprietário, quando houver sucessão de normas sobre o mesmo ponto.",
+      "C": "do país de origem do veículo, prevalecendo sobre as normas nacionais de identificação.",
+      "D": "vigentes na data do exame pericial, por aplicação imediata das resoluções mais recentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A atividade pericial está necessariamente vinculada às regras vigentes à época da fabricação, do registro e das eventuais modificações do veículo periciado.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2514,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pela norma de 1988, a gravação principal do VIN no chassi ou monobloco deve ocorrer:",
+    "alternativas": {
+      "A": "em pelo menos dois pontos, com profundidade mínima de 0,5 mm.",
+      "B": "em pelo menos um ponto, com profundidade mínima de 0,2 mm.",
+      "C": "em pelo menos um ponto, com profundidade mínima de 0,4 mm.",
+      "D": "em ponto único padronizado, com altura mínima de 7 mm e profundidade livre."
+    },
+    "resposta_correta": "B",
+    "justificativa": "1988: gravação do número de identificação no chassi ou monobloco, em pelo menos um ponto, com profundidade mínima de 0,2 mm.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2515,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ainda pela norma de 1988, os veículos de 2 ou 3 rodas (exceto ciclomotores) e os reboques e semirreboques recebem gravações, respectivamente:",
+    "alternativas": {
+      "A": "em ponto único situado sob o assento do condutor; e em ponto único da longarina direita, junto ao eixo traseiro.",
+      "B": "em no mínimo três pontos do chassi ou da coluna de direção; e em no mínimo dois pontos do para-choque estrutural traseiro.",
+      "C": "em um ponto do garfo dianteiro de suspensão; e em um ponto de cada uma das longarinas que compõem o quadro.",
+      "D": "em no mínimo dois pontos, na coluna de suporte da direção ou no chassi; e em no mínimo dois pontos distintos do chassi."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Veículos de 2 ou 3 rodas (exceto ciclomotores): gravações em no mínimo dois pontos, na coluna de suporte da direção ou no próprio chassi. Reboques e semirreboques: gravações no chassi, em no mínimo dois pontos distintos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2516,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os caracteres que compõem o VIS (Vehicle Indicator Section) ocupam, no VIN, as posições:",
+    "alternativas": {
+      "A": "10ª a 18ª.",
+      "B": "1ª a 3ª.",
+      "C": "4ª a 9ª.",
+      "D": "12ª a 17ª."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O VIS (Vehicle Indicator Section) corresponde da 10ª à 18ª posição do VIN.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2517,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O sistema integrado de identificação da Resolução 968/2022 é composto por:",
+    "alternativas": {
+      "A": "VIN; número do motor e dos agregados; ETA; marcações em vidros; código de barras bidimensional; e identificação oculta facultativa.",
+      "B": "VIN; identificação de agregados; ETA; marcação dos pneus de série; plaquetas informativas; e identificação criptografada em módulo eletrônico.",
+      "C": "VIN; identificação de agregados relevantes; etiquetas autocolantes de segurança (ETA); marcações em vidros; plaquetas informativas; e identificação oculta expressa.",
+      "D": "VIN; placas de identificação veicular; gravações em vidros; lacres de segurança; plaquetas informativas; e microgravações aleatórias no monobloco."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Res. 968/2022 — sistema integrado: VIN (identificador primário); identificação de agregados relevantes (motor, câmbio, eixos, cabine e carroceria); ETA; marcações em vidros; plaquetas informativas; e identificação oculta (de modo expresso).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2518,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao local e às dimensões da gravação do VIN, a regra atual estabelece:",
+    "alternativas": {
+      "A": "local obrigatório na torre do amortecedor do lado direito e caracteres com altura mínima de 4 mm para todos os veículos automotores.",
+      "B": "local preferencial no assoalho dianteiro do monobloco e caracteres com altura mínima de 5 mm para os veículos de duas ou três rodas.",
+      "C": "local preferencial no lado esquerdo do chassi ou monobloco e caracteres com altura mínima de 7 mm para motocicletas, motonetas e triciclos.",
+      "D": "local preferencial no lado direito do chassi ou monobloco e caracteres com altura mínima de 4 mm para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Local preferencial: lado direito do chassi ou monobloco. Para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos: caracteres com altura mínima de 4 mm, gravados na coluna de suporte de direção ou no chassi monobloco.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2519,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para reboques e semirreboques, a segunda gravação do VIN deve ser feita:",
+    "alternativas": {
+      "A": "na longarina direita, com profundidade duplicada em relação à primeira.",
+      "B": "na longarina esquerda, com as mesmas especificações da primeira.",
+      "C": "no engate de tração, mediante plaqueta metálica destrutível.",
+      "D": "na travessa dianteira, com caracteres de altura reduzida."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Para reboques e semirreboques: segunda gravação na longarina esquerda, com as mesmas especificações da primeira.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2520,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à gravação do VIN por punção manual, o texto normativo:",
+    "alternativas": {
+      "A": "a veda, como regra, excetuando-se os fabricantes de produção reduzida.",
+      "B": "a admite como regra geral, dada a rastreabilidade do processo artesanal.",
+      "C": "a autoriza somente na regravação autorizada de veículos sinistrados.",
+      "D": "a restringe aos reboques e semirreboques de fabricação nacional."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto normativo veda, como regra, a gravação por punção manual, excetuando-se os fabricantes de produção reduzida.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2521,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A identificação do ano de fabricação do veículo, quando feita por gravação direta no chassi ou monobloco, deve situar-se nas imediações do VIN e ser expressa em:",
+    "alternativas": {
+      "A": "quatro algarismos, com profundidade mínima de 0,4 mm.",
+      "B": "dois algarismos, com profundidade mínima de 0,5 mm.",
+      "C": "quatro algarismos, com profundidade mínima de 0,2 mm.",
+      "D": "seis caracteres alfanuméricos, com profundidade mínima de 0,2 mm."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gravação direta do ano no chassi/monobloco: nas imediações do VIN, expressa em quatro algarismos, com profundidade mínima de 0,2 mm. Também se admite ETA ou plaqueta metálica destrutível, ou etiqueta destrutível única contendo o ano e o VIN/VIS.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2522,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "As alturas mínimas dos caracteres do ano de fabricação são, para ciclomotores/motonetas/motocicletas/triciclos/quadriciclos e para os demais veículos, respectivamente:",
+    "alternativas": {
+      "A": "7 mm e 4 mm.",
+      "B": "4 mm e 10 mm.",
+      "C": "5 mm e 7 mm.",
+      "D": "4 mm e 7 mm."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alturas mínimas dos caracteres do ano: 4 mm para ciclomotores, motonetas, motocicletas, triciclos e quadriciclos; 7 mm para os demais veículos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2523,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos locais de afixação da ETA com VIN ou VIS, a regra estabelece:",
+    "alternativas": {
+      "A": "motocicletas e afins: somente sob o assento; demais automotores: uma ETA na coluna da porta dianteira esquerda e outra no assoalho do porta-malas; reboques e semirreboques: em ambas as longarinas, junto às gravações do VIN.",
+      "B": "motocicletas e afins: sob o assento ou na porção dianteira; demais automotores: uma ETA na coluna da porta dianteira direita e outra no compartimento do motor, quando existir; reboques e semirreboques: em uma das longarinas, em local distinto das gravações do VIN.",
+      "C": "motocicletas e afins: na coluna de suporte da direção; demais automotores: uma ETA em cada uma das colunas das portas dianteiras; reboques e semirreboques: junto à gravação principal do VIN, para conferência imediata em fiscalização de trânsito.",
+      "D": "motocicletas e afins: no paralama traseiro ou sob o assento; demais automotores: uma ETA no para-brisa e outra no vidro traseiro; reboques e semirreboques: no engate de tração, mediante plaqueta metálica soldada à estrutura do quadro."
+    },
+    "resposta_correta": "B",
+    "justificativa": "ETA com VIN ou VIS: ciclomotores, motonetas, motocicletas, triciclos e quadriciclos — sob o assento ou na porção dianteira; demais veículos automotores — uma na coluna da porta dianteira direita e outra no compartimento do motor, quando existir; reboques e semirreboques — em uma das longarinas, em local distinto das gravações do VIN, admitida substituição por plaqueta metálica.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2524,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A marcação do VIS nos vidros do veículo deve contemplar:",
+    "alternativas": {
+      "A": "um dos para-brisas e os dois vidros traseiros laterais, dispensadas as marcações nos vidros das portas dianteiras do veículo.",
+      "B": "o para-brisa dianteiro e pelo menos um vidro de cada lado do veículo, incluídos os quebra-ventos e os vidros fixos traseiros.",
+      "C": "todos os vidros do veículo, inclusive os quebra-ventos, quando existentes, vedada a substituição da marcação por etiqueta.",
+      "D": "um dos para-brisas e um dos vidros traseiros, quando existentes, e pelo menos dois vidros de cada lado, excluídos os quebra-ventos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Marcação do VIS nos vidros: um dos para-brisas e um dos vidros traseiros, quando existentes; e pelo menos dois vidros de cada lado do veículo, excluindo-se os quebra-ventos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2525,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a identificação oculta do veículo, a previsão normativa atual estabelece que ela:",
+    "alternativas": {
+      "A": "contém o WMI e o VIS do fabricante, gravados exclusivamente no monobloco, em posição padronizada internacionalmente pela ISO.",
+      "B": "contém o VIN ou, alternativamente, o VIS, em local a critério do fabricante: monobloco, chassi, cabine ou, em ônibus e micro-ônibus, carroceria.",
+      "C": "contém o VIS do veículo, gravado em dois pontos simétricos do assoalho, com acesso restrito à rede autorizada da montadora.",
+      "D": "contém obrigatoriamente o VIN completo, gravado em local definido pela autoridade de trânsito e mantido sob sigilo industrial permanente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Há previsão expressa de identificação oculta, contendo o VIN ou, alternativamente, o VIS, gravada em local escolhido a critério do fabricante dentre opções delimitadas pela Resolução: monobloco, chassi, cabine ou carroceria (nos casos de ônibus e micro-ônibus).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2526,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao histórico das identificações ocultas nos veículos, é correto afirmar que elas:",
+    "alternativas": {
+      "A": "passaram a ser obrigatórias apenas na Resolução de 2022; antes, algumas empresas já as usavam, sem obrigatoriedade, para controle de peças.",
+      "B": "tornaram-se obrigatórias em 2022 somente para os veículos importados, dada a dificuldade de rastreamento internacional.",
+      "C": "são obrigatórias desde a norma de 1988, como segunda gravação de segurança do VIN em local reservado do monobloco.",
+      "D": "permanecem facultativas até hoje, constituindo diferencial de segurança adotado voluntariamente por algumas montadoras."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As identificações ocultas passaram a ser obrigatórias apenas na Resolução de 2022. Antes, algumas empresas já as colocavam, sem obrigatoriedade, usando-as mais para controle de peças.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2527,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na identificação do motor sem visibilidade direta da numeração no bloco, a solução normativa é:",
+    "alternativas": {
+      "A": "afixar etiqueta autocolante de segurança no para-brisa dianteiro, contendo o número do motor e o VIS do veículo correspondente.",
+      "B": "gravar a numeração no cabeçote por micropercussão industrial, com selo de vistoria anual do órgão executivo de trânsito do registro.",
+      "C": "replicar a numeração no compartimento do motor por etiqueta ou plaqueta destrutível e resistente a intempéries, fixada em componente de difícil remoção.",
+      "D": "registrar a numeração exclusivamente no cadastro administrativo do registro, dispensada a marcação física de qualquer natureza."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Se o bloco é desprovido de visibilidade direta, a numeração é replicada no compartimento do motor por etiqueta ou plaqueta destrutível, resistente a intempéries, fixada em componente que dificilmente seja removido. Os ciclomotores ficam excluídos, pois possuem regulamentação específica.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2528,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a identificação do motor e demais agregados, as alturas mínimas dos caracteres são:",
+    "alternativas": {
+      "A": "4 mm quando gravados diretamente no veículo e 7 mm quando em plaqueta.",
+      "B": "4 mm em qualquer suporte, padronizados com os veículos de duas rodas.",
+      "C": "7 mm em qualquer suporte, para garantir leitura em vistoria.",
+      "D": "7 mm quando gravados diretamente no veículo e 4 mm quando em plaqueta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Altura mínima dos caracteres: 7 mm quando gravado diretamente no veículo; 4 mm quando em plaqueta.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2529,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a disposição do VIN em uma ou duas linhas no veículo e na documentação, a regra estabelece que:",
+    "alternativas": {
+      "A": "os divisores físicos empregados na gravação do veículo devem ser reproduzidos fielmente na documentação, para permitir o confronto direto entre os suportes.",
+      "B": "admitem-se divisores físicos no veículo, desde que inconfundíveis com caracteres alfanuméricos; na documentação, o VIN figura em linha única, contínua e sem separadores.",
+      "C": "a gravação no veículo deve ocorrer sempre em linha única e contínua, admitindo-se na documentação a separação das seções do código por hífen.",
+      "D": "os divisores físicos são vedados em qualquer suporte de gravação, pelo risco de confusão com os caracteres alfanuméricos do código."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Admite-se o uso de divisores físicos para delimitar seções/linhas no veículo, desde que inconfundíveis com caracteres alfanuméricos; os divisores ficam fora da documentação, onde o VIN deve ser apresentado em linha única, contínua e sem separadores.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2530,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O WMI, seção inicial do VIN, caracteriza-se por ser um código:",
+    "alternativas": {
+      "A": "de alcance internacional, com validade mínima de 30 anos.",
+      "B": "de alcance regional, com validade mínima de 30 anos e reutilização vedada em definitivo.",
+      "C": "de alcance nacional, com validade indeterminada enquanto ativo o fabricante.",
+      "D": "de alcance internacional, renovável a cada 10 anos junto à autoridade designada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "WMI: código de alcance internacional, com validade mínima de 30 anos.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2531,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em veículos montados sobre monobloco, são pontos usuais de localização do VIN:",
+    "alternativas": {
+      "A": "torre do amortecedor do lado esquerdo, coluna de direção, teto estrutural, painel de instrumentos e tampa do motor.",
+      "B": "torre do amortecedor do lado direito, para-choque dianteiro, assoalho central, coluna da porta traseira e teto estrutural.",
+      "C": "torre do amortecedor do lado direito, soleira da porta, assoalho dianteiro ou traseiro, painel corta-fogo e assoalho do porta-malas.",
+      "D": "longarina direita, travessa dianteira, caixa de roda traseira, painel corta-fogo e tampa do porta-malas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Montados sobre monobloco: torre do amortecedor do lado direito (passageiro), soleira da porta, assoalho dianteiro ou traseiro, painel corta-fogo e assoalho do porta-malas. Nos montados sobre chassi, o VIN pode estar no lado direito e/ou esquerdo, nas faces superior, inferior ou lateral externa, a depender do projeto.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2532,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "As marcações permanentes dos vidros automotivos incluem:",
+    "alternativas": {
+      "A": "fabricante; homologações nacionais; tipo do vidro; classificação de transparência; e placa de identificação do veículo de destino.",
+      "B": "fabricante; homologações (ex.: DOT/E code); tipo do vidro (laminado ou temperado); classificação de transparência (ex.: AS1); e códigos de data do vidro.",
+      "C": "fabricante; VIN completo do veículo de destino; tipo do vidro; índice de refração nominal; e lote de produção da chapa de origem.",
+      "D": "montadora do veículo; homologações internacionais; espessura nominal; classificação de dureza superficial; e ano-modelo do veículo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Marcações permanentes em vidros: fabricante; homologações (DOT/E code); tipo do vidro (laminado ou temperado); classificação de transparência (ex.: AS1); códigos de data (mês e ano de fabricação do vidro).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2533,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos princípios físicos da gravação de códigos identificadores, a prensa, o punção e a marcação por rolo têm em comum:",
+    "alternativas": {
+      "A": "a escavação mecânica do substrato por cortadores ou pinos endurecidos.",
+      "B": "a remoção superficial do substrato, com fusão localizada do material marcado.",
+      "C": "a deformação plástica do material, com alteração permanente da sua estrutura cristalina.",
+      "D": "a criação de zona termicamente afetada abaixo da superfície, de espessura limitada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As duas categorias principais são deformação de material (impacto/compressão) e remoção de material (escavação mecânica ou laser). A estampagem — prensa, punção e marcação por rolo — causa deformação plástica e altera a estrutura cristalina do material.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2534,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os processos de gravação por remoção de material, é correto afirmar que:",
+    "alternativas": {
+      "A": "o scribing atua sem contato físico com a peça marcada, enquanto o laser exige pressão constante do cabeçote focalizador sobre o substrato metálico durante a gravação.",
+      "B": "a micropercussão remove o material por feixe focalizado de alta energia, restringindo-se às superfícies planas do monobloco e do chassi dos veículos.",
+      "C": "o laser gera extensa zona de deformação plástica subsuperficial, característica que favorece a restauração posterior por ataque químico controlado.",
+      "D": "o scribing produz marcas profundas, suaves e contínuas com fresas de metal duro e cortadores, enquanto o laser atua sem contato físico e gera zona termicamente afetada muito limitada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Scribing (escrita mecânica): alta qualidade, marcas profundas, suaves e contínuas, com fresas de metal duro, cortadores de diamante e pinos endurecidos. Laser: sem contato físico, feixe focalizado remove o material, gerando apenas zona termicamente afetada muito limitada — menor robustez e resposta reduzida aos métodos de restauração. A micropercussão (agulha) marca superfícies planas, côncavas ou convexas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2535,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "No caso de baixa do veículo, as partes do chassi que contenham a gravação do VIN devem ser:",
+    "alternativas": {
+      "A": "recolhidas ao órgão executivo estadual de trânsito responsável pelo registro.",
+      "B": "destruídas pelo desmonte credenciado, com registro fotográfico enviado ao Detran.",
+      "C": "encaminhadas à unidade local de criminalística, para custódia definitiva.",
+      "D": "inutilizadas por obliteração mecânica, permanecendo com o proprietário do veículo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Na baixa do veículo, as partes do chassi que contenham a gravação do VIN devem ser recolhidas ao órgão executivo estadual de trânsito responsável pelo registro.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2536,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A adulteração simples do VIN caracteriza-se:",
+    "alternativas": {
+      "A": "pelo recobrimento da gravação original por solda, revelável por solvente e reagente Fry.",
+      "B": "pela alteração da configuração inicial de um ou mais caracteres por meio de rebatimento por sobreposição.",
+      "C": "pela remoção total do código por processo abrasivo, seguida da gravação de outro número.",
+      "D": "pela substituição da peça que contém a gravação por outra de veículo regularmente baixado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Adulteração simples: um ou mais caracteres sofrem alteração em sua configuração inicial por rebatimento por sobreposição. A remoção total/parcial por abrasão com nova gravação é a regravação; a cobertura da gravação original por solda é o recobrimento, revelável por solvente e reagente Fry.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2537,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na regravação do VIN, após a aplicação de solvente sobre a área suspeita, o perito tipicamente observa:",
+    "alternativas": {
+      "A": "marcas de abrasão e espelhamento da superfície, denotando a adulteração.",
+      "B": "protuberâncias em torno dos caracteres, decorrentes do relaxamento de tensões residuais.",
+      "C": "coloração diferencial nos limites de grão, revelando o código original completo.",
+      "D": "microtrincas radiais em torno da gravação, típicas da estampagem industrial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A regravação consiste na remoção parcial ou total do VIN, em geral por processo abrasivo, com posterior gravação de outro código; após a aplicação de solvente notam-se marcas de abrasão e espelhamento da superfície, denotando a adulteração.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2538,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na gravação por deformação, as zonas produzidas no metal classificam-se em:",
+    "alternativas": {
+      "A": "zona termicamente afetada, superficial, e zona de recristalização, profunda e permanente.",
+      "B": "zona de encruamento, reversível por polimento, e zona de têmpera, permanente e frágil.",
+      "C": "zona de deformação elástica, de caráter transitório, e zona de deformação plástica, de caráter permanente.",
+      "D": "zona de deformação elástica, de caráter permanente, e zona de deformação plástica, reversível com o tempo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Na gravação por deformação: zona de deformação elástica — impermanente; zona de deformação plástica — permanente. É a permanência da zona plástica que fundamenta a restauração.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2539,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um VIN obliterado apresenta gravação invisível a olho nu, mas a zona de deformação plástica permanece íntegra. Nesse nível de obliteração, a restauração:",
+    "alternativas": {
+      "A": "exige a substituição da peça e o confronto com a identificação oculta do veículo.",
+      "B": "depende de simples limpeza com solventes, que remove limalhas e tinta das cavidades.",
+      "C": "é inviável, pois a visibilidade da gravação é pressuposto de qualquer técnica restaurativa.",
+      "D": "é efetiva com o emprego de técnicas periciais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Níveis de obliteração: parcial (limalhas/tinta nas cavidades — simples limpeza com solventes pode recuperar o código); mais profunda (gravação invisível, mas zona plástica remanescente — restauração efetiva com técnicas periciais); obliteração que consome a zona plástica — restauração impossível.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2540,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "No ataque químico para restauração de gravações em substratos metálicos, a revelação do código decorre de que:",
+    "alternativas": {
+      "A": "a área trabalhada a frio é mais dura que o metal ao redor, e a solução age diferencialmente nos cristais e limites de grão, alterando a reflexão da luz local.",
+      "B": "o reagente dissolve seletivamente a camada de tinta e as limalhas depositadas nas cavidades, expondo o relevo residual da gravação original.",
+      "C": "o calor da reação exotérmica provoca recristalização localizada do metal, com surgimento de protuberâncias sobre os caracteres originais.",
+      "D": "a solução deposita íons metálicos nas regiões encruadas pela gravação, formando contraste galvânico visível sob iluminação oblíqua."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Ataque químico: a área trabalhada a frio é mais endurecida que o metal circundante; a solução age diferencialmente nas faces dos cristais e ataca os limites de grão de forma distinta, e a luz que atinge a área é refletida de maneira diferente — diferenciação ótica da área afetada.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2541,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O tratamento térmico, como método de restauração, é especialmente adequado para:",
+    "alternativas": {
+      "A": "números obliterados em chapas de aço de baixa espessura, típicas de monoblocos, graças à ductilidade do material laminado a frio.",
+      "B": "gravações a laser em ligas leves de alumínio, nas quais a zona termicamente afetada responde bem ao reaquecimento controlado.",
+      "C": "gravações por micropercussão em superfícies côncavas ou convexas, inacessíveis às técnicas de polimento controlado.",
+      "D": "números obliterados em ferro fundido, normalmente blocos de motores, pela tensão residual presente abaixo da área deformada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O tratamento térmico é especialmente adequado para restauração de números obliterados em ferro fundido — normalmente em blocos de motores; o sucesso deve-se à presença de tensão residual abaixo da área deformada.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2542,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "No tratamento térmico para restauração de gravações, aplica-se calor na área estudada até o metal enrubescer, com o seguinte resultado físico:",
+    "alternativas": {
+      "A": "fusão localizada das bordas dos caracteres originais, com preenchimento das cavidades remanescentes por material recristalizado.",
+      "B": "endurecimento superficial da área marcada, com contraste imediato dos caracteres revelados, dispensando-se qualquer acabamento posterior.",
+      "C": "relaxamento das tensões residuais e recristalização do metal, surgindo protuberância ao redor da deformação, com posterior lixamento suave.",
+      "D": "contração diferencial da zona de deformação elástica, que expõe o relevo do código original sob iluminação rasante qualificada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Etapas: aplicação de calor até o metal enrubescer; resultado físico — relaxamento das tensões residuais, com recristalização da estrutura do metal e surgimento de protuberância na área ao redor da deformação; após o aquecimento, lixamento suave para remover camadas de óxido depositadas sobre os caracteres revelados, obtendo algum contraste.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2543,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A restauração por polimento fundamenta-se em que:",
+    "alternativas": {
+      "A": "o aquecimento gerado pelo atrito relaxa as tensões residuais internas, produzindo protuberâncias sobre os caracteres consumidos.",
+      "B": "materiais com durezas diferentes são removidos em taxas diferenciadas, havendo relatos de sucesso até em números gravados a laser.",
+      "C": "a remoção uniforme de camadas superficiais expõe a gravação oculta de fábrica, replicada em profundidade pelo processo industrial.",
+      "D": "o abrasivo empregado reage quimicamente com a zona encruada da gravação, revelando o código pela mudança de coloração localizada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Polimento: materiais com diferentes durezas são removidos em taxas diferenciadas, o que possibilita a restauração. Em números gravados a laser há relatos de sucesso com o polimento, pois a porção gravada se comporta de maneira diferente do metal virgem que a circunda.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2544,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os métodos de restauração da gravação em substratos metálicos, tradicionalmente classificados em destrutivos e não destrutivos, incluem-se:",
+    "alternativas": {
+      "A": "ataque químico, ataque eletrolítico, tratamento térmico, cavitação ultrassônica, sistemas magnéticos e polimento controlado.",
+      "B": "ataque eletrolítico, tratamento criogênico, cavitação ultrassônica, sistemas magnéticos, decapagem mecânica e ultrassonografia.",
+      "C": "ataque químico, radiografia industrial, tratamento térmico, cavitação ultrassônica, termovisão e polimento controlado.",
+      "D": "ataque químico, ataque eletrolítico, tratamento térmico, espectrometria de massa, sistemas magnéticos e jateamento controlado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Métodos de restauração: ataque químico, ataque eletrolítico, tratamento térmico, cavitação ultrassônica, sistemas magnéticos, polimento controlado e técnicas avançadas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2545,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "A avaliação do estado de conservação do veículo é realizada por vistoria externa e interna que considera:",
+    "alternativas": {
+      "A": "o estado mecânico integral, com desmontagens parciais autorizadas, e classificação em cinco categorias harmonizadas com a tabela FIPE.",
+      "B": "o estado aparente e o funcional, mediante testes dinâmicos padronizados, com três categorias obrigatórias: bom, regular e sucata.",
+      "C": "exclusivamente o estado aparente, constatável por inspeção visual qualificada, com quatro categorias obrigatórias: bom, regular, ruim e sucata.",
+      "D": "exclusivamente o estado aparente do veículo, com classificação facultativa conforme a gravidade dos danos observados na vistoria."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A vistoria externa e interna considera exclusivamente o estado de conservação aparente — constatável por inspeção visual qualificada, sem desmontagens ou testes complexos — com quatro categorias obrigatórias: bom, regular, ruim e sucata.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2546,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando o veículo periciado tiver sido objeto de acidente ou sinistro, recomenda-se que a classificação dos danos siga:",
+    "alternativas": {
+      "A": "a tabela de deságios da FIPE, categorizando-os em quatro faixas percentuais de desvalorização.",
+      "B": "os critérios da seguradora responsável, categorizando-os como perda parcial ou perda total.",
+      "C": "o manual do fabricante, categorizando-os como danos estéticos, estruturais ou funcionais.",
+      "D": "a regulamentação específica do Contran, categorizando-os como danos de pequena, média ou grande monta."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Nos casos de acidente ou sinistro, recomenda-se classificar os danos de acordo com a regulamentação específica do Contran: danos de pequena, média ou grande monta.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2547,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na valoração do veículo, os deságios orientativos aplicáveis sobre o valor de mercado, conforme o estado, são:",
+    "alternativas": {
+      "A": "bom estado: 5% a 10%; regular ou dano de pequena monta: 10% a 30%; mau estado ou dano de média monta: 30% a 60%; sucata ou dano de grande monta: 60% a 90%.",
+      "B": "bom estado: 10% a 20%; regular ou dano de pequena monta: 20% a 50%; mau estado ou dano de média monta: 50% a 70%; sucata ou dano de grande monta: 70% a 95%.",
+      "C": "bom estado: 10% a 25%; regular ou dano de pequena monta: 25% a 45%; mau estado ou dano de média monta: 45% a 75%; sucata ou dano de grande monta: 75% a 100%.",
+      "D": "bom estado: 15% a 20%; regular ou dano de pequena monta: 20% a 40%; mau estado ou dano de média monta: 40% a 70%; sucata ou dano de grande monta: 70% a 90%."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deságios orientativos: bom estado — 10% a 20%; estado regular ou sinistrado com dano de pequena monta — 20% a 50%; mau estado ou dano de média monta — 50% a 70%; sucata ou dano de grande monta — 70% a 95%. Após definir o estado de conservação, o perito descreve expressamente a metodologia de avaliação (recomenda-se a tabela FIPE ou outras).",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2548,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para veículo estrangeiro cujo parâmetro direto inexiste no mercado nacional, a avaliação pode ser realizada:",
+    "alternativas": {
+      "A": "unicamente pela conversão cambial do valor de tabela vigente no país de origem, acrescida dos tributos incidentes na importação definitiva.",
+      "B": "por arbitramento do órgão executivo de trânsito, mediante consulta formal encaminhada pelo perito responsável pela avaliação.",
+      "C": "por analogia com similares disponíveis no Brasil, por comparação proporcional com valores no país de origem, ou por outra metodologia justificada pelo perito.",
+      "D": "pelo valor declarado na documentação aduaneira de internação, aplicando-se em seguida o deságio do estado de conservação apurado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Veículo estrangeiro sem parâmetro direto nacional: avaliação por analogia com similares disponíveis no Brasil; por comparação proporcional com valores no país de origem; ou por outra metodologia tecnicamente mais adequada, desde que devidamente justificada.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2549,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos casos em que o veículo apresente VIN adulterado, recomenda-se, na valoração:",
+    "alternativas": {
+      "A": "a aplicação de um deságio adicional de 20%, pela perda de valor comercial decorrente dessa condição.",
+      "B": "a suspensão da valoração, por depender a estimativa da identificação da identidade real do veículo.",
+      "C": "o enquadramento automático na categoria sucata, com deságio de 70% a 95%.",
+      "D": "a aplicação de um deságio adicional de 10%, limitado ao valor residual de sucata."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Com VIN adulterado, recomenda-se deságio adicional de 20%, em razão da perda de valor comercial decorrente dessa condição.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2550,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "As intervenções ilícitas em veículos relacionam-se, sobretudo, a quatro finalidades específicas:",
+    "alternativas": {
+      "A": "comunicação clandestina, contrabando de mercadorias, clonagem de placas e fraude documental.",
+      "B": "ocultação de ilícitos, facilitação de fuga, comunicação clandestina e dissimulação de atividades criminosas.",
+      "C": "ocultação de ilícitos, transporte de armamento, blindagem irregular e evasão de fiscalização eletrônica.",
+      "D": "facilitação de fuga, adulteração de hodômetro, receptação qualificada e fraude securitária."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As alterações relacionam-se, sobretudo, a quatro finalidades ilícitas: ocultação de ilícitos; facilitação de fuga; comunicação clandestina; e dissimulação de atividades criminosas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2551,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O procedimento de perícia em veículos terrestres estrutura-se nas seguintes etapas, em ordem:",
+    "alternativas": {
+      "A": "levantamento prévio; viabilidade; descrição do veículo; exame físico/confronto/valoração; conclusões periciais; registros e documentação.",
+      "B": "levantamento prévio; exame físico/confronto/valoração; viabilidade; descrição do veículo; registros e documentação; conclusões periciais.",
+      "C": "viabilidade; descrição do veículo; levantamento prévio; registros e documentação; exame físico/confronto/valoração; conclusões periciais.",
+      "D": "viabilidade; levantamento prévio; exame físico/confronto/valoração; descrição do veículo; registros e documentação; conclusões periciais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Etapas (VI-LE-EX-DE-RE-CO): VIabilidade; LEvantamento prévio; EXame físico/confronto/valoração; DEscrição do veículo; REgistros e documentação; COnclusões periciais.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2552,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à ilustração mínima do laudo de perícia veicular, exige-se que ele contenha:",
+    "alternativas": {
+      "A": "quatro fotos gerais do veículo, além de imagens dos vidros marcados e das ETA.",
+      "B": "duas fotos gerais do veículo, além de imagens da identificação oculta e do compartimento do motor.",
+      "C": "duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.",
+      "D": "uma foto de cada face do veículo, além de imagens das placas e do hodômetro."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O laudo final deve conter, no mínimo: duas fotos gerais do veículo, além de imagens das placas, do NIV e do motor.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2553,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O laudo de identificação veicular pode concluir de quatro formas, a saber:",
+    "alternativas": {
+      "A": "ausência de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem identificação da original; e inconclusão.",
+      "B": "autenticidade plena dos identificadores; adulteração parcial dos códigos; adulteração total com perda da identidade; e devolução por inviabilidade técnica do exame.",
+      "C": "regularidade documental e estrutural; divergência meramente administrativa; adulteração confirmada dos identificadores; e restauração bem-sucedida do código.",
+      "D": "ausência de adulteração aparente; adulteração presumida por incoerência de registros; adulteração confirmada pelo confronto; e remessa do caso para contraprova."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As quatro conclusões possíveis: não identificação de evidências de adulteração; adulteração confirmada com identificação da identidade real; adulteração confirmada sem possibilidade de identificar a original; inconclusão.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2554,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na micropercussão (marcação por agulha), as superfícies passíveis de marcação são:",
+    "alternativas": {
+      "A": "planas e convexas, ficando as côncavas reservadas ao scribing.",
+      "B": "somente planas e horizontais, pela necessidade de apoio do cabeçote.",
+      "C": "somente planas, dada a rigidez do conjunto de agulhas.",
+      "D": "planas, côncavas ou convexas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Na micropercussão ou marcação por agulha, a agulha pode marcar superfícies planas, côncavas ou convexas.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2555,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "O recobrimento da gravação original do VIN por solda tem seu aspecto revelado, na perícia, mediante:",
+    "alternativas": {
+      "A": "tratamento térmico seguido de cavitação ultrassônica.",
+      "B": "aplicação de solvente e reagente Fry.",
+      "C": "iluminação ultravioleta e ensaio por líquidos penetrantes.",
+      "D": "polimento controlado seguido de ataque eletrolítico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Recobrimento da gravação original por solda: o aspecto pode ser revelado após aplicação de solvente e reagente Fry.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2556,
+    "disciplina": "PVAT - Módulo I (Identificação Veicular)",
+    "conteudo": "Resumo PVAT",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a identificação do ano de fabricação por etiqueta, a norma admite:",
+    "alternativas": {
+      "A": "plaqueta removível parafusada com o ano e o VIN, para permitir substituição em caso de recaracterização do veículo.",
+      "B": "etiqueta holográfica renovável a cada licenciamento anual, emitida e afixada pelo órgão executivo de trânsito.",
+      "C": "somente etiqueta autocolante comum com o ano e o VIS, afixada na coluna da porta dianteira esquerda do veículo.",
+      "D": "ETA ou plaqueta metálica destrutível, bem como etiqueta destrutível única com o ano de fabricação e o VIN ou o VIS."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A identificação do ano de fabricação é obrigatória e integra o conjunto de sinais identificadores; formas técnicas admitidas: ETA ou plaqueta metálica destrutível; etiqueta destrutível única contendo simultaneamente o ano de fabricação e o VIN ou VIS; ou gravação direta no chassi/monobloco.",
+    "referencia": "Anotações — Resumo PVAT",
+    "nivel": "dificil"
+  }
+]

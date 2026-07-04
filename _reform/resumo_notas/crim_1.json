@@ -1,0 +1,988 @@
+[
+  {
+    "id": 2408,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da persecução penal, a materialidade delitiva é tecnicamente definida como:",
+    "alternativas": {
+      "A": "o conjunto de indícios de autoria que autoriza o titular da ação penal a formular juízo de probabilidade sobre o fato.",
+      "B": "a circunstância conhecida e provada que, por indução, autoriza concluir a existência de outras circunstâncias do fato.",
+      "C": "o elemento objetivo do tipo penal, consistente na efetivação, no mundo real, da conduta que a lei penal veda.",
+      "D": "o elemento subjetivo do tipo penal, consistente na demonstração do dolo ou da culpa do agente na conduta apurada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A materialidade é o elemento objetivo do tipo penal: a ocorrência da conduta que a lei penal veda, a efetivação do crime no mundo real. Prová-la é provar que o crime de fato existiu. A circunstância conhecida e provada que, por indução, leva a outras é o conceito legal de indício.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2409,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o grau de convencimento exigido do juiz para a condenação criminal, o processo penal estabelece que:",
+    "alternativas": {
+      "A": "a dúvida quanto à autoria pode ser superada pela solidez da prova da materialidade, em juízo de ponderação.",
+      "B": "serão aceitos juízos de certeza e, excepcionalmente, de alta probabilidade, quando a prova material for robusta.",
+      "C": "o convencimento se forma pela preponderância das provas, cabendo à defesa demonstrar a fragilidade da acusação.",
+      "D": "serão aceitos apenas juízos de certeza, vedada a condenação enquanto houver a mínima dúvida razoável quanto à autoria."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O processo penal exige segurança absoluta em ambas as frentes (materialidade e autoria): para condenar serão aceitos juízos de certeza, e jamais apenas de probabilidade, com base no princípio do in dubio pro reo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2410,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à obrigatoriedade do inquérito policial, é correto afirmar que ele é:",
+    "alternativas": {
+      "A": "obrigatório para o oferecimento da denúncia, por constituir a base do conjunto probatório, e dispensável para o Delegado quando a autoria for evidente desde o registro da ocorrência.",
+      "B": "dispensável para o oferecimento da denúncia, se o titular da ação já possui materialidade e indícios de autoria por outras vias, e obrigatório para o Delegado que toma conhecimento da infração.",
+      "C": "dispensável tanto para o titular da ação penal quanto para o Delegado, por se tratar de peça meramente informativa, sem valor probatório próprio.",
+      "D": "obrigatório em ambas as esferas, admitindo-se seu arquivamento apenas por decisão judicial fundamentada em ausência de materialidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O inquérito é dispensável para a denúncia (se o titular já possui elementos suficientes por outras vias) e obrigatório para o Delegado de Polícia ao tomar conhecimento de uma infração penal. Além disso, ele traz em seu bojo um conjunto probatório muito forte — o que afasta a ideia de peça 'meramente' informativa.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2411,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na persecução penal preliminar, o Delegado de Polícia é considerado:",
+    "alternativas": {
+      "A": "o primeiro garantidor da legalidade, cabendo-lhe ainda dirigir-se ao local do crime para providenciar o isolamento até a chegada da perícia.",
+      "B": "o titular da opinio delicti na fase preliminar, com atribuição de formular a tese acusatória a ser levada a juízo.",
+      "C": "o produtor isento da prova material, cabendo-lhe submeter as hipóteses investigativas ao crivo do método científico.",
+      "D": "o fiador intransferível da cadeia de custódia, respondendo pela destinação final de cada vestígio coletado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O Delegado é o primeiro garantidor da legalidade da persecução penal preliminar e tem a obrigação de se dirigir ao local para providenciar o isolamento até a chegada da perícia. Produtor isento da prova material e fiador da cadeia de custódia são papéis do perito; a titularidade da tese acusatória é do Ministério Público.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2412,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as atribuições da Polícia Federal, aquela exercida com exclusividade é:",
+    "alternativas": {
+      "A": "a prevenção e repressão ao contrabando e ao descaminho.",
+      "B": "o exercício das funções de polícia judiciária da União.",
+      "C": "a apuração de infrações com repercussão interestadual que exija repressão uniforme.",
+      "D": "o exercício das funções de polícia marítima, aeroportuária e de fronteiras."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No mnemônico COMPIUP, a exclusividade recai sobre a Polícia Judiciária da União. As demais são atribuições da PF, porém sem a nota de exclusividade — no contrabando e descaminho, por exemplo, atua sem prejuízo da ação fazendária e de outros órgãos.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2413,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Compete à Polícia Federal apurar infrações penais praticadas em detrimento de bens, serviços e interesses:",
+    "alternativas": {
+      "A": "da União, de suas autarquias e de suas empresas públicas.",
+      "B": "da União, de suas fundações públicas e de suas sociedades de economia mista.",
+      "C": "da União, de suas autarquias e de suas sociedades de economia mista.",
+      "D": "da União, de suas empresas públicas e das concessionárias de serviço público federal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A atribuição alcança crimes em detrimento da União, suas autarquias e empresas públicas (letra U do mnemônico COMPIUP). Sociedades de economia mista, fundações e concessionárias ficam de fora dessa cláusula clássica.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2414,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A distinção conceitual entre Criminologia e Criminalística reside em que:",
+    "alternativas": {
+      "A": "a Criminologia orienta a política criminal do Estado, enquanto a Criminalística estuda as causas sociais da criminalidade para subsidiar a prevenção delitiva.",
+      "B": "a Criminologia comprova a materialidade do delito por métodos estatísticos, enquanto a Criminalística estuda o comportamento criminoso a partir da interpretação de perfis psicológicos.",
+      "C": "a Criminologia estuda crimes, criminosos e criminalidade com foco sociológico, enquanto a Criminalística comprova a materialidade e identifica autores e modus operandi pelo estudo dos vestígios materiais.",
+      "D": "a Criminologia interpreta os vestígios materiais sob a ótica das ciências sociais, enquanto a Criminalística restringe seu objeto à identificação humana por métodos biométricos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Criminologia: ciência que estuda os crimes, os criminosos e a criminalidade, com foco sociológico. Criminalística: objetiva a comprovação da materialidade, a identificação dos autores e do modus operandi, focando estritamente no estudo e interpretação dos vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2415,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo definição clássica, a Criminalística é uma disciplina:",
+    "alternativas": {
+      "A": "jurídico-penal por natureza e técnico-científica por destinação, que orienta a produção da prova testemunhal nas infrações penais.",
+      "B": "auxiliar da medicina legal por natureza e administrativa por destinação, voltada à padronização dos exames de corpo de delito.",
+      "C": "técnico-científica por natureza e investigativa por destinação, que formula a tese acusatória a partir dos vestígios materiais.",
+      "D": "técnico-científica por natureza e jurídico-penal por destinação, que concorre para a elucidação e a prova das infrações penais e da identidade de seus autores."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Criminalística: disciplina técnico-científica por natureza e jurídico-penal por destinação, que concorre para a elucidação e a prova das infrações penais e da identidade dos autores, por meio da pesquisa, do adequado exame e da correta interpretação dos vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2416,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os atributos essenciais dos exames periciais (mnemônico COR TIP), possuem natureza atitudinal:",
+    "alternativas": {
+      "A": "objetividade, clareza e imparcialidade.",
+      "B": "objetividade, rigor técnico-científico e tempestividade.",
+      "C": "clareza, precisão e imparcialidade.",
+      "D": "imparcialidade, tempestividade e rigor técnico-científico."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Atitudinais: objetividade, clareza e imparcialidade. Técnicos: rigor técnico-científico, precisão (eficácia) e tempestividade.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2417,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O atributo essencial do exame pericial que impõe o equilíbrio entre a precisão e o tempo despendido, a fim de não prejudicar a investigação nem perder o princípio da oportunidade, é a:",
+    "alternativas": {
+      "A": "clareza.",
+      "B": "tempestividade.",
+      "C": "precisão (eficácia).",
+      "D": "objetividade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Tempestividade (natureza técnica): buscar equilíbrio entre precisão e o tempo levado para o exame, a fim de não prejudicar a investigação ou perder o princípio da oportunidade. A precisão refere-se à escolha de metodologia com margem de segurança adequada.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2418,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A máxima segundo a qual \"a palavra do perito não vale por si só, mas pelas bases em que se assenta\" traduz o atributo essencial da:",
+    "alternativas": {
+      "A": "precisão, de natureza técnica, ligada à escolha de metodologia com margem de segurança adequada ao resultado.",
+      "B": "imparcialidade, de natureza atitudinal, ligada à busca da verdade livre de preconceitos e sem atrelamento às partes.",
+      "C": "rigor técnico-científico, de natureza técnica, ligado à adoção da melhor metodologia disponível.",
+      "D": "clareza, de natureza atitudinal, ligada à redação do laudo de forma compreensível para os leigos do processo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O rigor técnico-científico (natureza técnica) consiste em adotar a melhor metodologia disponível, pesquisando em fontes científicas formais — é dele a máxima citada.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2419,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pelo atributo da clareza, exige-se do Laudo Pericial que:",
+    "alternativas": {
+      "A": "os termos técnicos sejam suprimidos de todo o documento, para garantir a compreensão por juízes, promotores e advogados.",
+      "B": "a conclusão seja redigida em linguagem técnica estrita, reservando-se a linguagem acessível à exposição e ao histórico.",
+      "C": "o texto siga formulários padronizados de resposta, com quesitos respondidos por afirmação ou negação simples.",
+      "D": "a redação seja compreensível para leigos, sendo o termo técnico essencial no exame, mas com conclusão clara e inequívoca."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Clareza (atitudinal): a redação do laudo deve ser compreensível para leigos (juízes, promotores, advogados); o termo técnico no exame é essencial, mas a conclusão deve ser clara e inequívoca.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2420,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao momento de atuação do assistente técnico no processo penal, sua intervenção ocorre:",
+    "alternativas": {
+      "A": "a partir da admissão pelo delegado, ainda na fase do inquérito, antes da elaboração do laudo.",
+      "B": "a partir da nomeação pelo juiz, simultaneamente à designação do perito oficial do caso.",
+      "C": "a partir da contratação pela parte, acompanhando os exames do perito oficial em tempo real.",
+      "D": "a partir da admissão pelo juiz e após a conclusão dos exames pelo perito oficial."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A atuação do assistente técnico se dá apenas a partir da sua admissão pelo juiz e após a conclusão dos exames pelo perito oficial.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2421,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na sequência metodológica geral do trabalho pericial, a etapa imediatamente posterior à definição do foco, do objetivo e da delimitação é:",
+    "alternativas": {
+      "A": "a escolha da metodologia/técnica e o estabelecimento de hipóteses testáveis, se necessário.",
+      "B": "o conhecimento do problema e do contexto, com fixação do ponto questionado.",
+      "C": "a elaboração do Laudo Pericial Criminal embasado e claro.",
+      "D": "a realização das análises com rigor e precisão tempestiva."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Sequência: (1) conhecimento do problema e contexto; (2) definição do foco, objetivo e delimitação; (3) escolha da metodologia/técnica e hipóteses testáveis; (4) análises com rigor e precisão tempestiva; (5) elaboração do laudo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2422,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A missão central do Perito Criminal consiste em executar atividades técnico-científicas voltadas à:",
+    "alternativas": {
+      "A": "coleta, interpretação, valoração e julgamento da prova material.",
+      "B": "detecção, apreensão, catalogação e devolução de bens de interesse da investigação.",
+      "C": "descoberta, recolhimento, guarda e análise de vestígios.",
+      "D": "identificação, interrogatório, reconstituição e indiciamento dos suspeitos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A missão central do perito é executar atividades técnico-científicas voltadas à descoberta, recolhimento, guarda e análise de vestígios, atuando como principal garantidor da cadeia de custódia e produtor isento da prova material.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2423,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No Código de Processo Penal, o perito figura como auxiliar da Justiça e sua convocação torna-se impositiva sempre que houver dependência de conhecimento técnico-científico especializado. Os dispositivos correspondentes são, respectivamente:",
+    "alternativas": {
+      "A": "art. 156 e art. 158.",
+      "B": "art. 149 e art. 156.",
+      "C": "art. 149 e art. 275.",
+      "D": "art. 158 e art. 149."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O perito atua como auxiliar da Justiça (art. 149) e sua convocação é impositiva sempre que houver dependência de conhecimento técnico-científico especializado (art. 156). O art. 158 trata da requisição obrigatória do exame de corpo de delito e os arts. 275 a 281, do impedimento e da suspeição.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2424,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A dualidade jurídica que marca a atuação do Perito Criminal Federal manifesta-se da seguinte forma:",
+    "alternativas": {
+      "A": "administrativamente, agente público dotado de autonomia plena, sem subordinação hierárquica; processualmente, auxiliar eventual da Justiça, sujeito apenas às regras de suspeição dos juízes.",
+      "B": "administrativamente, auxiliar direto da jurisdição criminal; processualmente, servidor subordinado à gestão do órgão policial e à regulação técnica da DITEC.",
+      "C": "administrativamente, servidor público policial vinculado à DITEC na regulação técnica; processualmente, auxiliar direto da jurisdição, sujeito ao impedimento e à suspeição dos arts. 275 a 281 do CPP.",
+      "D": "administrativamente, membro do quadro de auxiliares permanentes do Poder Judiciário; processualmente, servidor policial submetido ao regime correcional da Corregedoria da Polícia Federal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Administrativamente: servidor público policial integrado, subordinado à gestão do órgão policial e vinculado à DITEC na regulação técnica. Processualmente: auxiliar direto da jurisdição, submetido estritamente à disciplina judiciária, aplicando-se as regras de impedimento e suspeição (arts. 275 a 281 do CPP).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2425,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à natureza jurídica da requisição de perícia pelo Delegado de Polícia, trata-se de ato:",
+    "alternativas": {
+      "A": "vinculado ao art. 158 do CPP, permanecendo o perito blindado contra ingerências, pressões por produtividade ou induções investigativas.",
+      "B": "discricionário, fundado no juízo de conveniência da autoridade sobre a utilidade do exame.",
+      "C": "vinculado ao art. 156 do CPP, facultando-se à autoridade delimitar as conclusões possíveis do laudo.",
+      "D": "discricionário quanto ao momento e vinculado quanto ao objeto, admitindo orientação da autoridade sobre o método a empregar."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A requisição de perícia pelo Delegado é ato vinculado ao art. 158 do CPP, e o perito é blindado contra ingerências, pressões por produtividade ou induções investigativas em seus métodos e conclusões.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2426,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "A autonomia do Perito, garantida por lei, abrange as esferas:",
+    "alternativas": {
+      "A": "funcional, orçamentária e metodológica.",
+      "B": "técnica, administrativa e financeira.",
+      "C": "científica, hierárquica e decisória.",
+      "D": "técnica, científica e funcional."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O Perito possui autonomia garantida por lei nas esferas técnica, científica e funcional.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2427,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a posição da perícia na investigação criminal e a chamada Integração Científica, é correto afirmar que:",
+    "alternativas": {
+      "A": "o perito elabora a tese acusatória do caso, cabendo à equipe policial testá-la empiricamente nas diligências de campo subsequentes.",
+      "B": "a perícia é ferramenta central de controle e validação da investigação, com sinergia entre o trabalho analítico e a investigação tática, sem fusão de papéis.",
+      "C": "a integração científica pressupõe a subordinação metodológica do perito às hipóteses formuladas pela autoridade policial na investigação.",
+      "D": "a perícia opera como um apêndice da polícia judiciária, com fusão dos papéis analíticos e táticos no curso da investigação criminal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A perícia não é mero apêndice da polícia judiciária, mas ferramenta central de controle e validação da investigação. A Integração Científica é a sinergia entre trabalho analítico e investigação tática, sem fusão de papéis: o perito não elabora a tese acusatória, apenas submete as hipóteses da equipe policial ao crivo do método científico.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2428,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O ciclo que transforma um mero vestígio em prova material rigorosa segue a ordem:",
+    "alternativas": {
+      "A": "observação meticulosa; formulação de hipóteses técnicas; preservação (cadeia de custódia); testagem; conclusão fundamentada.",
+      "B": "observação meticulosa; preservação (cadeia de custódia); formulação de hipóteses técnicas; testagem; conclusão fundamentada.",
+      "C": "preservação (cadeia de custódia); observação meticulosa; testagem; formulação de hipóteses técnicas; conclusão fundamentada.",
+      "D": "formulação de hipóteses técnicas; observação meticulosa; preservação (cadeia de custódia); testagem; conclusão fundamentada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Ciclo inflexível: 1. Observação meticulosa; 2. Preservação (cadeia de custódia); 3. Formulação de hipóteses técnicas; 4. Testagem (exames e análises); 5. Conclusão fundamentada.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2429,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sob pressão de tempo em atendimento de local de crime, a tomada de decisão técnica do perito deve focar primariamente:",
+    "alternativas": {
+      "A": "no controle da cena e na preservação rigorosa dos vestígios, pois a urgência operacional jamais se sobrepõe à cadeia de custódia.",
+      "B": "na liberação célere da via ou do espaço público, priorizando a redução do impacto social da ocorrência.",
+      "C": "na coleta imediata do maior número possível de vestígios, ainda que com documentação simplificada.",
+      "D": "no atendimento das demandas da equipe tática, que detém a coordenação das prioridades operacionais no local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Sob pressão de tempo, o foco primário é o controle da cena e a preservação rigorosa dos vestígios; a urgência operacional jamais se sobrepõe à preservação da cadeia de custódia. A interação com a equipe policial deve ser assertiva, cabendo ao perito orientar o isolamento e balizar a atuação tática.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2430,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os quesitos, na relação entre investigação e perícia, caracterizam-se como:",
+    "alternativas": {
+      "A": "o mecanismo de impugnação técnica das conclusões periciais, privativo das partes e de seus assistentes técnicos.",
+      "B": "o instrumento de controle hierárquico do delegado sobre o método pericial, devendo ostentar precisão, pertinência e economicidade.",
+      "C": "a principal artéria de comunicação entre a Autoridade Policial (ou Justiça) e o Perito, devendo ostentar clareza, objetividade e viabilidade técnica.",
+      "D": "a peça de abertura do laudo pericial, na qual o perito delimita o objeto e o objetivo dos exames requisitados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A comunicação formal entre a investigação tática e a execução técnico-científica ocorre essencialmente pelos quesitos — principal artéria de comunicação entre a Autoridade Policial (ou Justiça) e o Perito. Para o sucesso, devem ostentar clareza, objetividade e viabilidade técnica.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2431,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "São elementos textuais obrigatórios da estrutura do Laudo Pericial:",
+    "alternativas": {
+      "A": "preâmbulo, histórico, objeto, exame e conclusão.",
+      "B": "histórico, objeto, objetivo, exame e quesitação.",
+      "C": "preâmbulo, objeto, objetivo, histórico e conclusão.",
+      "D": "preâmbulo, objeto, objetivo, exame e conclusão."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Elementos textuais obrigatórios: preâmbulo, objeto, objetivo, exame e conclusão. O histórico, embora de extrema importância, é elemento facultativo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2432,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Histórico, no Laudo Pericial, é elemento textual:",
+    "alternativas": {
+      "A": "obrigatório, inserido logo antes da conclusão, destinado a justificar a metodologia e as técnicas empregadas nos exames realizados.",
+      "B": "facultativo, inserido logo após o exame, destinado a consolidar as respostas aos quesitos formulados pela autoridade requisitante.",
+      "C": "obrigatório, inserido logo após o objeto, destinado a descrever a cadeia de custódia de cada vestígio recebido para exame.",
+      "D": "facultativo e de extrema importância, inserido logo após o preâmbulo, destinado a registrar fatos conjunturais da requisição ou do exame."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O histórico é elemento textual facultativo de extrema importância, a ser inserido logo após o preâmbulo, destinado a registrar fatos conjunturais da requisição ou exame (na PF: dia e hora da perícia, motivos de interrupção, demora no atendimento etc.).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2433,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à cadeia de custódia e à destinação dos vestígios, o Perito Criminal:",
+    "alternativas": {
+      "A": "responde pela custódia apenas dos vestígios que ele próprio coletou em local de crime, registrando a destinação em ficha de acompanhamento.",
+      "B": "é o fiador intransferível da cadeia de custódia, com a obrigação funcional de registrar no corpo do laudo a destinação final de cada vestígio.",
+      "C": "transfere a responsabilidade pela custódia à Central de Custódia no momento do protocolo, cessando aí seu dever de registro.",
+      "D": "compartilha com o escrivão a responsabilidade pela custódia, registrando em termo apartado a destinação dos vestígios de maior relevância."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A cadeia de custódia tem no perito seu fiador intransferível, e é obrigação funcional registrar no corpo do laudo a destinação final de cada vestígio.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2434,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para Mirabete, o perito nomeado é a pessoa encarregada pela autoridade, sob compromisso, de esclarecer, por meio de laudo, uma questão de fato. Quanto a essa figura, é correto afirmar que:",
+    "alternativas": {
+      "A": "constitui longa manus do juízo cível, com atuação vedada na fase do inquérito policial em qualquer hipótese.",
+      "B": "constitui auxiliar permanente da justiça, com vínculo funcional e prerrogativa de distribuição de trabalho pelo diretor da repartição.",
+      "C": "constitui auxiliar eventual da justiça, sujeito à disciplina judiciária, podendo a nomeação ser feita pelo Delegado na fase do inquérito, na ausência de perito oficial.",
+      "D": "constitui órgão da acusação na fase preliminar, com atuação limitada aos exames requisitados pelo Ministério Público."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Peritos nomeados são auxiliares eventuais da justiça e estão sujeitos à disciplina judiciária. A nomeação também pode ser feita pelo Delegado de Polícia Federal/Civil na fase do inquérito, na ausência de perito oficial.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2435,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O rol de peritos oficiais de natureza criminal é composto por:",
+    "alternativas": {
+      "A": "peritos criminais, peritos médico-legistas e peritos odontolegistas.",
+      "B": "peritos médico-legistas, peritos odontolegistas e peritos papiloscopistas.",
+      "C": "peritos criminais, peritos papiloscopistas e peritos médico-legistas.",
+      "D": "peritos criminais, peritos documentoscópicos e peritos odontolegistas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O rol de peritos oficiais de natureza criminal: Peritos Criminais, Peritos Médico-Legistas e Peritos Odontolegistas.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2436,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "O traço que diferencia o perito oficial do perito ad hoc, quanto ao encaminhamento do trabalho, é que, no caso do oficial:",
+    "alternativas": {
+      "A": "o exame é distribuído por sorteio eletrônico entre os peritos da unidade, garantindo-se a impessoalidade absoluta.",
+      "B": "o exame é requisitado diretamente ao perito escolhido pela autoridade, conforme sua especialidade notória.",
+      "C": "o exame é atribuído pelo juiz ao perito da lista anual do tribunal, observada a ordem cronológica de inscrição.",
+      "D": "o exame é requisitado ao diretor da repartição, que distribui o trabalho com base na carga de trabalho e na área de formação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O exame é requisitado pela autoridade ao diretor da repartição, que distribui o trabalho aos peritos baseando-se na carga de trabalho e na área de formação — o que diferencia o perito oficial do ad hoc, nomeado diretamente pelo delegado.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2437,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na falta de perito oficial, o exame pericial será realizado por:",
+    "alternativas": {
+      "A": "duas pessoas idôneas, portadoras de diploma de curso superior, que devem prestar compromisso de bem e fielmente desempenhar o encargo.",
+      "B": "uma junta de três servidores públicos estáveis, preferencialmente da área policial, que devem prestar compromisso perante a autoridade.",
+      "C": "uma pessoa idônea, portadora de diploma de curso superior, dispensada de compromisso legal em razão da urgência do exame.",
+      "D": "duas pessoas de reputação ilibada, com notório saber na área do exame, independentemente de escolaridade formal comprovada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Perito não oficial (ad hoc): 2 (duas) pessoas idôneas, portadoras de diploma de curso superior, que devem prestar compromisso legal de bem e fielmente desempenhar o encargo.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2438,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No processo civil, a prova pericial estrutura-se da seguinte forma:",
+    "alternativas": {
+      "A": "as partes indicam, de comum acordo, o perito do juízo, que atua sob compromisso e recebe honorários rateados em partes iguais, por determinação legal expressa.",
+      "B": "o juiz requisita o exame ao diretor do instituto oficial, que distribui o trabalho conforme a carga e a área de formação dos peritos do quadro, remunerados pelo Estado.",
+      "C": "o juiz nomeia perito de nível universitário, inscrito no conselho de classe, que atua sob compromisso e faz jus a honorários, facultada às partes a contratação de assistentes técnicos.",
+      "D": "o juiz nomeia dois profissionais idôneos de nível universitário, que atuam sob compromisso e são remunerados pelo Estado, facultada a escusa justificada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No processo civil, o juiz nomeia o perito (profissional de nível universitário, inscrito no conselho de classe), que faz jus a honorários e atua sob compromisso; as partes podem contratar assistentes técnicos.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2439,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No processo civil, quando o exame envolver autenticidade ou falsidade de documento, ou tiver natureza médico-legal, o juiz deverá:",
+    "alternativas": {
+      "A": "converter o feito em diligência criminal, remetendo o exame à polícia judiciária competente para a lavratura do laudo respectivo.",
+      "B": "escolher, de preferência, técnicos dos estabelecimentos oficiais especializados, que devem aceitar o encargo se ausente justificativa, sob compromisso e com honorários.",
+      "C": "nomear livremente qualquer profissional habilitado de nível universitário, vedada apenas a escolha de servidores dos estabelecimentos oficiais.",
+      "D": "designar junta formada por dois assistentes técnicos indicados pelas partes, sob a presidência do perito do juízo, todos sob compromisso."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Nesses casos o juiz escolherá, de preferência, técnicos dos estabelecimentos oficiais especializados (ex.: IML, Instituto de Criminalística); eles devem aceitar o encargo se não houver justificativa, atuam sob compromisso e percebem honorários.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2440,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito foi designado para exame em processo no qual já havia atuado como testemunha. Em outro caso, constatou-se que o perito recebera presentes de uma das partes. As situações configuram, respectivamente:",
+    "alternativas": {
+      "A": "suspeição e impedimento.",
+      "B": "impedimento em ambas as hipóteses.",
+      "C": "suspeição em ambas as hipóteses.",
+      "D": "impedimento e suspeição."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Já ter participado do processo como testemunha (ou dado opinião anterior) é causa objetiva/absoluta de impedimento. Ter recebido presentes de uma das partes é causa subjetiva/relativa de suspeição.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2441,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre impedimento e suspeição do perito, é correto afirmar que:",
+    "alternativas": {
+      "A": "o parentesco até 2º grau com o advogado da parte gera suspeição relativa, por se tratar de vínculo de natureza afetiva meramente presumida.",
+      "B": "o impedimento decorre de vínculos subjetivos e financeiros do perito com as partes, enquanto a suspeição decorre de fatos concretos, familiares e funcionais já documentados nos autos.",
+      "C": "o impedimento decorre de vínculos objetivos, como fatos concretos, família e atuação anterior, enquanto a suspeição decorre de vínculos subjetivos e financeiros, como amizade, interesse e dívidas.",
+      "D": "ser credor ou devedor de qualquer das partes configura impedimento do perito, dada a objetividade documental e a natureza absoluta da relação de crédito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Impedimento: vínculos objetivos/absolutos (já atuou como testemunha, é parte ou membro de empresa envolvida, parentesco, periciando paciente, pena impeditiva). Suspeição: vínculos subjetivos/relativos e financeiros (amizade íntima, inimizade capital, credor/devedor, presentes, interesse no julgamento).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2442,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à responsabilização penal dos profissionais que atuam na prova técnica, tem-se que:",
+    "alternativas": {
+      "A": "os peritos respondem pelos crimes contra a Administração da Justiça; a falsa perícia exige dolo e os assistentes técnicos das partes ficam fora do seu alcance.",
+      "B": "o crime de falsa perícia admite as modalidades dolosa e culposa, alcançando tanto os peritos oficiais quanto os assistentes técnicos das partes.",
+      "C": "o crime de falsa perícia exige dolo e alcança também os assistentes técnicos contratados pelas partes, por equiparação legal expressa.",
+      "D": "os peritos respondem pelos crimes contra a fé pública, e a falsa perícia consuma-se independentemente de dolo, bastando a quebra do dever de cuidado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os peritos respondem pelos crimes contra a Administração da Justiça. O falso testemunho ou falsa perícia exige dolo, e os assistentes técnicos (que fornecem pareceres contratados pelas partes) não cometem o crime de falsa perícia.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2443,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "As três fontes de informação sobre o fato criminoso são:",
+    "alternativas": {
+      "A": "delação, reconhecimento e vestígios materiais.",
+      "B": "confissão, testemunha e vestígios materiais.",
+      "C": "confissão, interceptação e documentos.",
+      "D": "denúncia, testemunha e indícios circunstanciais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As 3 fontes de informação: 1. Confissão (a pessoa que praticou o ilícito o confessa); 2. Testemunha (quem viu o fato); 3. Vestígios materiais (rastros deixados pela conduta humana no ambiente).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2444,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o valor probatório da confissão no processo penal, é correto afirmar que ela:",
+    "alternativas": {
+      "A": "supre a falta do exame de corpo de delito quando os vestígios houverem desaparecido.",
+      "B": "é indivisível e irretratável, vinculando o juiz quando corroborada por qualquer outro elemento.",
+      "C": "só tem valor se coerente com as outras provas, sendo divisível e retratável, podendo o juiz aceitá-la parcialmente.",
+      "D": "possui valor probatório pleno quando prestada em juízo, na presença do defensor constituído."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A confissão só tem valor se for coerente com as outras provas; é divisível e retratável, podendo o juiz aceitá-la parcialmente. A falta do exame de corpo de delito (direto ou indireto) jamais é suprida pela confissão.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2445,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Desaparecidos os vestígios da infração que deixaria corpo de delito, a falta do exame:",
+    "alternativas": {
+      "A": "poderá ser suprida pela prova testemunhal, permanecendo vedado o suprimento pela confissão do acusado.",
+      "B": "poderá ser suprida pela confissão do acusado, desde que coerente com o conjunto probatório.",
+      "C": "poderá ser suprida por qualquer meio de prova admitido, inclusive a confissão qualificada.",
+      "D": "acarretará a nulidade absoluta do processo, por se tratar de formalidade essencial insanável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Não sendo possível o exame de corpo de delito por haverem desaparecido os vestígios, a prova testemunhal poderá suprir-lhe a falta. A confissão do acusado jamais supre a falta do exame, direto ou indireto.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2446,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação das provas quanto ao objeto, o álibi apresentado pelo acusado enquadra-se como prova:",
+    "alternativas": {
+      "A": "documental, pois se materializa nos registros que comprovam a presença do agente em outro lugar.",
+      "B": "direta, pois demonstra por si só o fato a ser provado, sem raciocínio lógico externo.",
+      "C": "real, pois deriva de coisas e circunstâncias físicas relacionadas ao deslocamento do agente.",
+      "D": "indireta, pois prova-se um fato secundário para negar o principal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Quanto ao objeto: diretas demonstram por si sós o fato (testemunha ocular, laudo); indiretas referem-se a fato secundário para afirmar ou negar o principal — é o caso do álibi (prova de que estava em outro lugar).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2447,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação das provas quanto ao sujeito, o sêmen, as impressões digitais e a arma do crime são exemplos de provas:",
+    "alternativas": {
+      "A": "documentais, por se incorporarem aos autos mediante registro formal.",
+      "B": "reais, por serem oriundas de coisas e vestígios físicos relacionados ao crime.",
+      "C": "materiais, por resultarem do exame e interpretação de vestígios.",
+      "D": "diretas, por demonstrarem por si sós o fato a ser provado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto ao sujeito (pessoa ou coisa da qual provém): pessoais derivam do conhecimento de um indivíduo (depoimentos, reconhecimento); reais são oriundas de coisas e vestígios físicos (sêmen, sangue, digitais, arma, corpo da vítima). 'Material' é classificação quanto à forma.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2448,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação das provas quanto à forma, a prova material caracteriza-se por ser:",
+    "alternativas": {
+      "A": "aquela derivada do conhecimento pessoal atribuído a um indivíduo, colhida por declarações formais no curso da instrução.",
+      "B": "aquela representada por documentos que contêm o fato a ser provado, como cartas, contratos, escrituras e vídeos gravados em qualquer suporte.",
+      "C": "aquela que demonstra por si só o fato a ser provado, dispensando raciocínio lógico externo ao próprio elemento de prova.",
+      "D": "aquela produzida pelo exame e interpretação de vestígios materiais — a matéria-prima que só se torna prova material após examinada."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Quanto à forma: testemunhal, documental e material. A material é produzida pelo exame e interpretação de vestígios (corpo de delito e outras perícias); os vestígios são a matéria-prima e apenas após examinados tornam-se prova material.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2449,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a corrente doutrinária que rejeita a categoria da prova indireta, o álibi deve ser tecnicamente compreendido como:",
+    "alternativas": {
+      "A": "prova negativa de autoria.",
+      "B": "contraprova de materialidade.",
+      "C": "prova indiciária de exclusão.",
+      "D": "presunção relativa de inocência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Parte da doutrina não aceita a prova indireta, argumentando que toda prova é direta quanto ao que prova imediatamente e indireta quanto ao que não prova de imediato. Para essa corrente, o álibi não seria 'prova indireta', mas prova negativa de autoria.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2450,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime, foram encontrados: (I) uma bituca de cigarro deixada dias antes por um transeunte, sem relação com o fato; (II) um isqueiro colocado propositalmente pelo autor para direcionar a investigação a terceiro; (III) pegadas produzidas pelo autor durante a fuga. Quanto à relação com o fato, os vestígios classificam-se, respectivamente, como:",
+    "alternativas": {
+      "A": "ilusório, verdadeiro e forjado.",
+      "B": "ilusório, forjado e verdadeiro.",
+      "C": "forjado, ilusório e verdadeiro.",
+      "D": "relativo, forjado e absoluto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Ilusórios: estavam no local naturalmente, por acaso. Forjados: 'plantados' intencionalmente pelo autor para desviar a investigação. Verdadeiros: têm relação direta com os fatos, resultado de ação ou omissão do autor.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2451,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Chamam-se agentes de vestígios:",
+    "alternativas": {
+      "A": "apenas as pessoas que, por ação ou omissão dolosa, produzem alterações materiais no local do crime.",
+      "B": "os peritos e auxiliares que manuseiam os vestígios ao longo da cadeia de custódia.",
+      "C": "os homens, animais, objetos e instrumentos que, natural ou artificialmente, provocam vestígios materiais.",
+      "D": "os reagentes físico-químicos empregados para revelar vestígios latentes em superfícies."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Agentes de vestígios são os homens, animais, objetos e instrumentos que, natural ou artificialmente, provocam vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2452,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um estojo de munição deflagrado encontrado na cena e uma caneta genérica, sem gravações, achada no local de um furto classificam-se, quanto à origem, respectivamente, como vestígios:",
+    "alternativas": {
+      "A": "relativo e absoluto, pois o estojo exige confronto balístico e a caneta pertence de pronto ao seu portador.",
+      "B": "absoluto e relativo, pois o estojo permite relação direta com a arma de origem e a caneta só admite vinculação indireta.",
+      "C": "verdadeiro e ilusório, pois somente o estojo decorre da conduta do autor.",
+      "D": "material e circunstancial, pois o estojo é tangível e a caneta apenas sugere a presença de alguém."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quanto à origem: absolutos permitem relação direta e absoluta com a fonte (digitais, sangue, ponta de faca quebrada, estojo/cápsula e a arma); relativos só admitem relação indireta (caneta genérica sem identificação do proprietário).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2453,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos termos da definição legal, considera-se indício:",
+    "alternativas": {
+      "A": "a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias.",
+      "B": "o elemento informativo colhido na fase do inquérito, apto por si só a fundamentar a condenação quando harmônico com a denúncia.",
+      "C": "a circunstância presumida que, tendo relação com o fato, autorize, por dedução, afirmar a autoria delitiva com juízo de certeza.",
+      "D": "todo vestígio material verdadeiro coletado no local do crime e submetido a exame pericial conclusivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Definição legal: considera-se indício a circunstância conhecida e provada que, tendo relação com o fato, autorize, por indução, concluir-se a existência de outra ou outras circunstâncias. É uma suspeita fundamentada, extraída de raciocínio lógico (indução), e pode não ser representada por vestígios materiais.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2454,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ameaças públicas proferidas pelo suspeito contra a vítima e graves problemas financeiros do investigado são exemplos de indícios:",
+    "alternativas": {
+      "A": "ilusórios, pois desprovidos de suporte em vestígios materiais passíveis de exame pericial e de confronto técnico.",
+      "B": "materiais, pois se baseiam em fatos consolidados no mundo físico, dotados de forte poder probatório e aptos ao exame pericial direto.",
+      "C": "absolutos, pois permitem estabelecer relação direta e imediata entre as circunstâncias apuradas e a autoria delitiva.",
+      "D": "circunstanciais, pois se baseiam em circunstâncias factuais provadas, comportamentos e motivações, com peso processual obtido pela indução lógica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Indícios materiais baseiam-se em vestígios consolidados (arma apreendida, balística positiva, digital). Indícios circunstanciais baseiam-se em circunstâncias factuais provadas, comportamentos, motivações ou histórico (ameaças públicas, brigas recentes, problemas financeiros) — sem materialidade palpável, mas com peso processual via indução lógica.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2455,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o valor probatório dos indícios, a posição doutrinária correta é a de que:",
+    "alternativas": {
+      "A": "constituem mera orientação investigativa, desprovida de aptidão para integrar o convencimento judicial na fase de sentença.",
+      "B": "seu peso torna-se absoluto quando corroborado por mais de uma testemunha idônea, contemporânea ao fato e compromissada em juízo.",
+      "C": "seu valor está sempre em razão da maior ou menor afinidade de relação do fato com o crime, com o autor, ou com ambos, sem apoteose nem excomunhão.",
+      "D": "equivalem à prova plena quando convergentes entre si, autorizando a condenação com dispensa da prova material correspondente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O peso de um indício nunca é absoluto: seu valor está sempre em razão da maior ou menor afinidade de relação do fato com o crime, com o autor, ou com ambos ao mesmo tempo. Os indícios não merecem a apoteose, mas também não merecem a excomunhão.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2456,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos prazos e horários dos exames periciais, o regime aplicável estabelece que:",
+    "alternativas": {
+      "A": "o exame de corpo de delito deve ocorrer em dias úteis, e o laudo deve ser elaborado em 10 dias, prorrogáveis por igual período único.",
+      "B": "o exame de corpo de delito pode ser realizado em qualquer dia e hora, e o laudo deve ser elaborado em 15 dias, prorrogáveis mediante justificativa.",
+      "C": "o exame de corpo de delito pode ser realizado em qualquer dia e hora, e o laudo deve ser elaborado em 10 dias, com prorrogação possível sem prazo específico fixado.",
+      "D": "o exame de corpo de delito deve ocorrer em até 24 horas da requisição, e o laudo deve ser elaborado em 10 dias improrrogáveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O exame de corpo de delito pode ser feito em qualquer dia e a qualquer hora (sábados, domingos, feriados, madrugada) — quanto mais próxima do fato, maior a chance de sucesso. O prazo geral do laudo é de 10 dias, e a prorrogação existe sem prazo específico fixado.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2457,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao momento da autópsia, a regra processual determina que ela seja feita:",
+    "alternativas": {
+      "A": "pelo menos 6 horas depois do óbito, regra inderrogável mesmo diante de sinais evidentes de morte, por imposição de ordem pública.",
+      "B": "pelo menos 6 horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes.",
+      "C": "pelo menos 12 horas depois do óbito, admitida antecipação por decisão fundamentada da autoridade requisitante do exame.",
+      "D": "em até 6 horas contadas do óbito, para preservar os fenômenos cadavéricos transitórios de interesse médico-legal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A autópsia será feita pelo menos 6 horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2458,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em casos de morte violenta, o simples exame externo do cadáver bastará quando:",
+    "alternativas": {
+      "A": "o óbito ocorrer em unidade hospitalar, sob assistência médica documentada nas últimas 24 horas.",
+      "B": "houver infração penal a apurar, mas os exames internos se mostrarem tecnicamente inviáveis.",
+      "C": "a família manifestar oposição fundada à necropsia, homologada pela autoridade judiciária.",
+      "D": "inexistir infração penal a apurar, ou as lesões externas permitirem precisar a causa da morte sem exame interno."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Em casos de morte violenta, bastará o simples exame externo quando não houver infração penal a apurar, ou quando as lesões externas permitirem precisar a causa da morte sem necessidade de exame interno.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2459,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à ilustração dos laudos e à guarda de material nas perícias de laboratório, o regime aplicável prevê que:",
+    "alternativas": {
+      "A": "os laudos serão ilustrados sempre que conveniente, com conservação de parte do material analisado para eventual perícia complementar ou contraprova.",
+      "B": "os laudos serão ilustrados apenas mediante requisição expressa da autoridade, com descarte imediato do material analisado após a conclusão.",
+      "C": "a ilustração dos laudos é obrigatória em todos os exames de laboratório, dispensada a guarda de material após a emissão do resultado definitivo.",
+      "D": "a ilustração é facultativa e restrita aos exames de maior complexidade, condicionando-se a contraprova à autorização judicial prévia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os peritos poderão ilustrar seus laudos com fotografias, desenhos ou esquemas; nas perícias de laboratório, 'sempre que conveniente' os laudos serão ilustrados e os peritos conservarão parte do material para perícia complementar ou contraprova. É obrigatório fotografar os cadáveres como forem encontrados e, dentro do possível, todas as lesões.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2460,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na avaliação de coisas destruídas ou subtraídas, quando o perito estiver impossibilitado de acessar diretamente os objetos, a avaliação:",
+    "alternativas": {
+      "A": "será suspensa até a apreensão ou localização dos bens, lavrando-se termo circunstanciado de impossibilidade técnica nos autos.",
+      "B": "será feita de forma indireta, com dados dos autos ou diligências, devendo o perito obrigatoriamente relatar o critério utilizado.",
+      "C": "será feita pela média das cotações de mercado do bem, dispensada a indicação do critério adotado na estimativa final.",
+      "D": "será feita por arbitramento judicial, limitando-se o perito a homologar tecnicamente o valor fixado pelo juízo competente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A avaliação será feita de forma indireta sempre que impossível o acesso aos objetos, utilizando dados dos autos ou diligências; o perito deve obrigatoriamente relatar o critério utilizado na avaliação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2461,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos crimes cometidos com destruição ou rompimento de obstáculo, ou mediante escalada, os peritos devem descrever:",
+    "alternativas": {
+      "A": "os instrumentos utilizados, a natureza e a eficiência de cada um deles, e o perigo resultante para a vida ou o patrimônio.",
+      "B": "os meios empregados, a extensão do dano e seu valor, e as condições de segurança preexistentes no local.",
+      "C": "os vestígios deixados, os instrumentos utilizados, os meios empregados e a época em que presumem ter sido o fato praticado.",
+      "D": "os vestígios deixados, o valor do dano causado, a autoria presumida e a dinâmica reconstituída do fato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Nos crimes com destruição/rompimento de obstáculo ou escalada, os peritos descrevem: os vestígios deixados; os instrumentos utilizados; os meios empregados; e a época presumida do fato (recente ou não) — devendo a dinâmica dos fatos ser preocupação dos peritos nos exames de local.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2462,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na perícia de incêndio, os peritos verificarão:",
+    "alternativas": {
+      "A": "a causa e o local de início do incêndio, o perigo resultante para a vida ou patrimônio, a extensão do dano e seu valor, e as demais circunstâncias elucidativas.",
+      "B": "a causa e o local de início do incêndio, a identificação civil do responsável, o valor segurado do imóvel e o histórico de sinistros anteriores.",
+      "C": "o ponto de maior temperatura atingida, a carga de incêndio do imóvel, as rotas de fuga disponíveis e a conformidade das instalações elétricas.",
+      "D": "a origem térmica, elétrica ou química da ignição, o tempo estimado de queima, o material combustível predominante e a direção dos ventos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Em incêndios, os peritos verificarão: 1) a causa e o local em que o incêndio foi iniciado; 2) o perigo resultante para a vida ou patrimônio; 3) a extensão do dano e seu valor; 4) outras circunstâncias para elucidação.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2463,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame dos instrumentos empregados na prática do crime, os peritos deverão verificar:",
+    "alternativas": {
+      "A": "sua natureza (qualidade) e seu valor de mercado, este para fins de fixação do montante mínimo de reparação civil do dano.",
+      "B": "sua letalidade e seu potencial ofensivo intrínseco, aferidos por ensaios comparativos padronizados de laboratório.",
+      "C": "sua origem e sua propriedade, com o rastreamento completo da cadeia de posse do objeto até o momento da apreensão.",
+      "D": "sua natureza (qualidade) e sua eficiência, entendida como a aptidão para produzir o resultado e o estado de conservação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Quanto aos instrumentos do crime, os peritos verificam a natureza (qualidade) e a eficiência (aptidão para produzir o resultado, bem como o estado de conservação).",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2464,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de omissões, obscuridades, contradições ou inobservância de formalidades no laudo, a autoridade:",
+    "alternativas": {
+      "A": "mandará suprir, complementar ou esclarecer, podendo ainda ordenar novo exame por outros peritos.",
+      "B": "declarará a nulidade do exame, com renovação obrigatória por junta pericial ampliada.",
+      "C": "intimará as partes para impugnação, decidindo em seguida pela preclusão da prova técnica.",
+      "D": "devolverá os autos ao diretor da unidade para retificação administrativa do documento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Em caso de omissões, obscuridades, contradições ou inobservância de formalidades, a autoridade mandará suprir, complementar ou esclarecer; o parágrafo único prevê que pode também ordenar novo exame por outros peritos.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2465,
+    "disciplina": "Criminalística",
+    "conteudo": "Resumo Criminalística",
+    "tipo": "multipla_escolha",
+    "enunciado": "São requisitos dos padrões grafotécnicos:",
+    "alternativas": {
+      "A": "autenticidade, adequabilidade, espontaneidade e suficiência.",
+      "B": "autenticidade, espontaneidade, atualidade e variedade.",
+      "C": "originalidade, adequabilidade, contemporaneidade e legibilidade.",
+      "D": "autenticidade, adequabilidade, contemporaneidade e quantidade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Requisitos para os padrões grafotécnicos: autenticidade, adequabilidade, contemporaneidade e quantidade.",
+    "referencia": "Anotações — Resumo Criminalística",
+    "nivel": "dificil"
+  }
+]
