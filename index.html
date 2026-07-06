@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=24">
+    <link rel="stylesheet" href="style.css?v=25">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -412,6 +412,9 @@
                         <span id="reader-cap-title" class="reader-cap-title"></span>
                         <span id="material-loading-status" style="display: none;"><i class="ph ph-spinner ph-spin"></i> Carregando caderno...</span>
                     </div>
+                    <button id="btn-ouvir-material" class="btn-secondary btn-sm" type="button" title="Ouvir este capítulo em voz alta">
+                        <i class="ph ph-headphones"></i> Ouvir
+                    </button>
                     <button id="btn-marcar-estudado" class="btn-secondary btn-sm" type="button" style="display: none;">
                         <i class="ph ph-check-circle"></i> <span id="btn-estudado-label">Marcar como Estudado</span>
                     </button>
@@ -885,6 +888,7 @@
     <script src="banco_questoes.js?v=167"></script>
     <script src="flashcards.js?v=2"></script>
     <script src="app.js?v=58"></script>
+    <script src="tts_material.js?v=1"></script>
     <script src="pfister.js?v=1"></script>
 </body>
 </html>
