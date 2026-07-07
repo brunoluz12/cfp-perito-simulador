@@ -50,8 +50,10 @@
     function baseAudioDoCapitulo() {
         const f = getIframe();
         if (!f || !f.src) return '';
-        const m = f.src.match(/materiais\/([^/]+)\/HTML\/([^/?#]+)\.html/i);
-        return m ? `materiais/${m[1]}/AUDIO/${m[2]}` : '';
+        const m = f.src.match(/materiais\/([^/]+)\/(HTML|COMPLETO)\/([^/?#]+)\.html/i);
+        if (!m) return '';
+        const pastaAudio = (m[2].toUpperCase() === 'COMPLETO') ? 'AUDIO_COMPLETO' : 'AUDIO';
+        return `materiais/${m[1]}/${pastaAudio}/${m[3]}`;
     }
 
     // ---------------- Extração e limpeza do texto ----------------

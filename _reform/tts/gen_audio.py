@@ -148,9 +148,9 @@ async def gerar_capitulo(html_path: str, voz: str, saida_mp3: str, saida_marks: 
     print(f"  OK: {os.path.basename(saida_mp3)} ({kb} KB, {len(blocos)} blocos, {len(tempos)} sincronizados)")
 
 
-async def gerar_disciplina(disc_dir: str, voz: str):
-    html_dir = os.path.join(disc_dir, "HTML")
-    audio_dir = os.path.join(disc_dir, "AUDIO")
+async def gerar_disciplina(disc_dir: str, voz: str, src="HTML", out="AUDIO", pular_existentes=False):
+    html_dir = os.path.join(disc_dir, src)
+    audio_dir = os.path.join(disc_dir, out)
     os.makedirs(audio_dir, exist_ok=True)
     arquivos = sorted(glob.glob(os.path.join(html_dir, "*.html")))
     print(f"{len(arquivos)} capítulos em {html_dir} → {audio_dir} (voz {voz})")
@@ -158,6 +158,9 @@ async def gerar_disciplina(disc_dir: str, voz: str):
         nome = os.path.splitext(os.path.basename(arq))[0]
         mp3 = os.path.join(audio_dir, nome + ".mp3")
         marks = os.path.join(audio_dir, nome + ".json")
+        if pular_existentes and os.path.exists(mp3) and os.path.exists(marks):
+            print(f"- {nome}: já existe, pulado")
+            continue
         print(f"- {nome}…")
         # até 3 tentativas (o serviço ocasionalmente derruba a conexão)
         for tentativa in range(3):
@@ -175,7 +178,9 @@ def main():
     if "--disc" in sys.argv:
         disc = sys.argv[sys.argv.index("--disc") + 1]
         voz = sys.argv[sys.argv.index("--voice") + 1] if "--voice" in sys.argv else "pt-BR-FranciscaNeural"
-        asyncio.run(gerar_disciplina(disc, voz))
+        src = sys.argv[sys.argv.index("--src") + 1] if "--src" in sys.argv else "HTML"
+        out = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else "AUDIO"
+        asyncio.run(gerar_disciplina(disc, voz, src, out, "--skip-existing" in sys.argv))
         return
     if len(sys.argv) < 4:
         print(__doc__)
