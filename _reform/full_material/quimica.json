@@ -1,0 +1,18 @@
+{
+  "pdf": "../Quimica Forense/Química Forense.pdf",
+  "disc_dir": "materiais/QUIMICA_FORENSE",
+  "badge": "PCEB - Química Forense",
+  "body_size": 11,
+  "heading_min_size": 12.5,
+  "pausas": ["^Referências$"],
+  "files": [
+    {"arquivo": "Capitulo_01.html", "titulo": "Capítulo 1 - Conceitos Básicos sobre Química Forense", "gatilho": "^Capítulo 1\\b"},
+    {"arquivo": "Capitulo_02.html", "titulo": "Capítulo 2 - Estimulantes (Cocaína, Anfetaminas, Ecstasy)", "gatilho": "^Capítulo 2\\b"},
+    {"arquivo": "Capitulo_03.html", "titulo": "Capítulo 3 - Canabinoides (Maconha, Skunk, Haxixe)", "gatilho": "^2\\.2\\s"},
+    {"arquivo": "Capitulo_04.html", "titulo": "Capítulo 4 - Opioides e Sedativos/Hipnóticos", "gatilho": "^2\\.3\\s"},
+    {"arquivo": "Capitulo_05.html", "titulo": "Capítulo 5 - Dissociativos, Alucinógenos e Outras Drogas", "gatilho": "^2\\.5\\s"},
+    {"arquivo": "Capitulo_06.html", "titulo": "Capítulo 6 - Novas Substâncias Psicoativas (NSP)", "gatilho": "^Capítulo 3\\b"},
+    {"arquivo": "Capitulo_07.html", "titulo": "Capítulo 7 - Testes Preliminares e Definitivos", "gatilho": "^Capítulo 4\\b"},
+    {"arquivo": "Capitulo_08_Apendices.html", "titulo": "Anexos - Apêndices (Testes Preliminares e Reagentes)", "gatilho": "^APÊNDICES$"}
+  ]
+}
