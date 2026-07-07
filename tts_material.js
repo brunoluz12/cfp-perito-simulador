@@ -1,28 +1,35 @@
 // =====================================================================
-// LEITOR EM VOZ ALTA (TTS) — aba Materiais
-// Web Speech API: lê o capítulo aberto no iframe, parágrafo a parágrafo,
-// com destaque visual, auto-scroll, controle de velocidade e voz.
+// LEITOR EM VOZ ALTA — aba Materiais
+// Modo 1 (preferido): áudio neural pré-gerado (MP3 em materiais/<DISC>/AUDIO/)
+//   com destaque de parágrafo sincronizado por marcações de tempo (.json).
+// Modo 2 (fallback): Web Speech API (voz do navegador).
 // =====================================================================
 (function () {
     'use strict';
 
-    const synth = window.speechSynthesis;
-    if (!synth) return; // navegador sem suporte
+    const synth = window.speechSynthesis || null;
 
     // ---------------- Estado ----------------
-    let blocos = [];          // [{ el, text }]
-    let idx = 0;              // bloco atual
-    let chunks = [];          // pedaços do bloco atual (frases)
+    let blocos = [];             // [{ el, text }]
+    let idx = 0;                 // bloco atual (nos dois modos)
+    let chunks = [];             // (speech) pedaços do bloco atual
     let chunkIdx = 0;
     let tocando = false;
-    let retomarAposLoad = false; // continua no próximo capítulo se estava tocando
+    let retomarAposLoad = false; // continua ao trocar de capítulo
     let vozes = [];
     let utterAtual = null;       // referência viva: evita GC da fala no Chrome
     let tentouFallbackVoz = false;
 
+    let modo = 'speech';         // 'audio' | 'speech'
+    let audioEl = null;          // <audio> para o modo MP3
+    let marks = [];              // [{t, s, bi}] tempos por bloco (bi = índice em blocos)
+    let audioBase = '';          // materiais/<DISC>/AUDIO/<Capitulo_XX>
+    let ultimoSalvamento = 0;
+
     const LS_RATE = 'pcpr_tts_rate';
     const LS_VOICE = 'pcpr_tts_voice';
-    const LS_POS = 'pcpr_tts_pos';
+    const LS_POS = 'pcpr_tts_pos';        // speech: índice de bloco por capítulo
+    const LS_APOS = 'pcpr_tts_apos';      // audio: segundos por capítulo
 
     // ---------------- Helpers de contexto ----------------
     function getIframe() { return document.getElementById('material-iframe'); }
@@ -40,11 +47,18 @@
         return (d && c && d.value && c.value) ? `${d.value}::${c.value}` : (getIframe() ? getIframe().src : '');
     }
 
+    function baseAudioDoCapitulo() {
+        const f = getIframe();
+        if (!f || !f.src) return '';
+        const m = f.src.match(/materiais\/([^/]+)\/HTML\/([^/?#]+)\.html/i);
+        return m ? `materiais/${m[1]}/AUDIO/${m[2]}` : '';
+    }
+
     // ---------------- Extração e limpeza do texto ----------------
     function limparTexto(raw) {
         if (!raw) return '';
         let t = raw;
-        t = t.replace(/\((?:pp?\.|páginas?)\s*[\d\s,eaà–\-]+\)/gi, ' ');   // refs de página residuais
+        t = t.replace(/\((?:pp?\.|páginas?)\s*[\d\s,eaà–\-]+\)/gi, ' ');
         t = t.replace(/[•▪◦·]/g, ', ');
         t = t.replace(/(?:->|→|⇒)/g, ' para ');
         t = t.replace(/©.*$/g, ' ');
@@ -63,12 +77,10 @@
     }
 
     function ehItemDeIndice(el) {
-        // <li> do índice: contém apenas um link para âncora interna
         if (el.tagName !== 'LI') return false;
         const a = el.querySelector('a[href^="#"]');
         if (!a) return false;
-        const soLink = limparTexto(el.textContent) === limparTexto(a.textContent);
-        return soLink;
+        return limparTexto(el.textContent) === limparTexto(a.textContent);
     }
 
     function montarBlocos() {
@@ -82,7 +94,7 @@
             if (ehItemDeIndice(el)) continue;
             let texto = '';
             if (el.tagName === 'TR') {
-                if (el.querySelector('p,li,h1,h2,h3,h4,h5')) continue; // células complexas: filhos entram sozinhos
+                if (el.querySelector('p,li,h1,h2,h3,h4,h5')) continue;
                 const cels = Array.from(el.querySelectorAll('td,th')).map(td => textoProprio(td)).filter(Boolean);
                 texto = cels.join(' — ');
             } else {
@@ -96,7 +108,6 @@
 
     function quebrarEmFrases(texto) {
         const partes = texto.match(/[^.!?;]+[.!?;]+\s*|[^.!?;]+$/g) || [texto];
-        // agrega frases curtas em pedaços de até ~200 caracteres (evita corte do Chrome)
         const out = [];
         let atual = '';
         for (const p of partes) {
@@ -125,12 +136,11 @@
         const b = blocos[i];
         if (!b || !b.el || !b.el.isConnected) return;
         b.el.classList.add('tts-reading');
-        // O iframe tem a altura do conteúdo (a página rola no pai): rolar a janela principal
         try {
             const f = getIframe();
             const topo = f.getBoundingClientRect().top + window.pageYOffset + b.el.getBoundingClientRect().top;
             window.scrollTo({ top: Math.max(0, topo - 180), behavior: 'smooth' });
-        } catch (e) { /* silencioso */ }
+        } catch (e) { }
     }
 
     function limparDestaque() {
@@ -138,8 +148,9 @@
         if (doc) doc.querySelectorAll('.tts-reading').forEach(n => n.classList.remove('tts-reading'));
     }
 
-    // ---------------- Vozes ----------------
+    // ---------------- Vozes (modo speech) ----------------
     function carregarVozes() {
+        if (!synth) return;
         vozes = synth.getVoices() || [];
         const sel = document.getElementById('tts-voice');
         if (!sel) return;
@@ -160,7 +171,6 @@
             sel.appendChild(sep);
         }
         outras.forEach(addOpt);
-        // preferência: salva → Google pt-BR → qualquer pt-BR → qualquer pt
         let escolhida = vozes.find(v => v.voiceURI === salva)
             || pt.find(v => /google/i.test(v.name) && /BR/i.test(v.lang))
             || pt.find(v => /BR/i.test(v.lang))
@@ -185,13 +195,19 @@
     // ---------------- Persistência de posição ----------------
     function salvarPosicao() {
         try {
-            const pos = JSON.parse(localStorage.getItem(LS_POS) || '{}');
-            pos[chaveCapitulo()] = idx;
-            localStorage.setItem(LS_POS, JSON.stringify(pos));
+            if (modo === 'audio' && audioEl) {
+                const pos = JSON.parse(localStorage.getItem(LS_APOS) || '{}');
+                pos[chaveCapitulo()] = Math.floor(audioEl.currentTime);
+                localStorage.setItem(LS_APOS, JSON.stringify(pos));
+            } else {
+                const pos = JSON.parse(localStorage.getItem(LS_POS) || '{}');
+                pos[chaveCapitulo()] = idx;
+                localStorage.setItem(LS_POS, JSON.stringify(pos));
+            }
         } catch (e) { }
     }
 
-    function posicaoSalva() {
+    function posicaoSalvaSpeech() {
         try {
             const pos = JSON.parse(localStorage.getItem(LS_POS) || '{}');
             const i = pos[chaveCapitulo()];
@@ -199,9 +215,183 @@
         } catch (e) { return 0; }
     }
 
-    // ---------------- Motor de fala ----------------
+    function posicaoSalvaAudio() {
+        try {
+            const pos = JSON.parse(localStorage.getItem(LS_APOS) || '{}');
+            const t = pos[chaveCapitulo()];
+            return (typeof t === 'number' && t > 2) ? t : 0;
+        } catch (e) { return 0; }
+    }
+
+    function limparPosicaoSalva() {
+        try {
+            const p1 = JSON.parse(localStorage.getItem(LS_POS) || '{}');
+            delete p1[chaveCapitulo()];
+            localStorage.setItem(LS_POS, JSON.stringify(p1));
+            const p2 = JSON.parse(localStorage.getItem(LS_APOS) || '{}');
+            delete p2[chaveCapitulo()];
+            localStorage.setItem(LS_APOS, JSON.stringify(p2));
+        } catch (e) { }
+    }
+
+    // ---------------- MODO ÁUDIO (MP3 neural) ----------------
+    function normalizarPrefixo(s) {
+        return (s || '').toLowerCase().replace(/\s+/g, ' ').trim().slice(0, 36);
+    }
+
+    function mapearMarks(rawMarks) {
+        // alinha marks (gerados no build) aos blocos extraídos agora
+        marks = [];
+        if (!rawMarks || !rawMarks.length) return;
+        if (rawMarks.length === blocos.length) {
+            marks = rawMarks.map((m, i) => ({ t: m.t, bi: i }));
+            return;
+        }
+        // contagens diferentes: casamento sequencial por prefixo (janela de 4)
+        let j = 0;
+        for (const m of rawMarks) {
+            const alvo = normalizarPrefixo(m.s);
+            let achou = -1;
+            for (let k = j; k < Math.min(j + 4, blocos.length); k++) {
+                if (normalizarPrefixo(blocos[k].text).startsWith(alvo.slice(0, 20))) { achou = k; break; }
+            }
+            if (achou >= 0) { marks.push({ t: m.t, bi: achou }); j = achou + 1; }
+        }
+    }
+
+    function blocoDoTempo(t) {
+        let lo = 0, hi = marks.length - 1, ans = 0;
+        while (lo <= hi) {
+            const mid = (lo + hi) >> 1;
+            if (marks[mid].t <= t + 0.05) { ans = mid; lo = mid + 1; }
+            else hi = mid - 1;
+        }
+        return ans;
+    }
+
+    function criarAudioEl() {
+        if (audioEl) return audioEl;
+        audioEl = new Audio();
+        audioEl.preload = 'metadata';
+        audioEl.addEventListener('timeupdate', () => {
+            if (modo !== 'audio') return;
+            if (marks.length) {
+                const mi = blocoDoTempo(audioEl.currentTime);
+                const bi = marks[mi].bi;
+                if (bi !== idx) { idx = bi; destacar(idx); atualizarProgresso(); }
+            } else {
+                setStatus(fmtTempo(audioEl.currentTime) + ' / ' + fmtTempo(audioEl.duration));
+            }
+            const agora = Date.now();
+            if (agora - ultimoSalvamento > 4000) { ultimoSalvamento = agora; salvarPosicao(); }
+        });
+        audioEl.addEventListener('play', () => { tocando = true; atualizarBotoes(); });
+        audioEl.addEventListener('pause', () => {
+            if (!audioEl.ended) { tocando = false; atualizarBotoes(); setStatus('Pausado'); salvarPosicao(); }
+        });
+        audioEl.addEventListener('ended', () => {
+            limparPosicaoSalva();
+            limparDestaque();
+            setStatus('Fim do capítulo ✓');
+            // segue para o próximo capítulo automaticamente
+            const btnProx = document.getElementById('btn-cap-proximo');
+            if (btnProx && !btnProx.disabled) {
+                retomarAposLoad = true;
+                setStatus('Próximo capítulo…');
+                btnProx.click();
+            } else {
+                tocando = false;
+                atualizarBotoes();
+            }
+        });
+        audioEl.addEventListener('error', () => {
+            // arquivo falhou no meio: cai para a voz do navegador
+            if (modo === 'audio') {
+                modo = 'speech';
+                atualizarModoUI();
+                setStatus('Áudio indisponível — usando voz do navegador');
+            }
+        });
+        return audioEl;
+    }
+
+    async function detectarAudio() {
+        audioBase = baseAudioDoCapitulo();
+        if (!audioBase) { modo = 'speech'; atualizarModoUI(); return; }
+        try {
+            const r = await fetch(audioBase + '.mp3', { method: 'HEAD' });
+            if (!r.ok) { modo = 'speech'; atualizarModoUI(); return; }
+            modo = 'audio';
+            criarAudioEl();
+            const alvoSrc = new URL(audioBase + '.mp3', location.href).href;
+            if (audioEl.src !== alvoSrc) audioEl.src = alvoSrc;
+            audioEl.playbackRate = rateAtual();
+            // marcações de tempo (opcionais)
+            let raw = [];
+            try {
+                const rm = await fetch(audioBase + '.json');
+                if (rm.ok) { const j = await rm.json(); raw = j.blocks || []; }
+            } catch (e) { }
+            mapearMarks(raw);
+            atualizarModoUI();
+        } catch (e) {
+            modo = 'speech';
+            atualizarModoUI();
+        }
+    }
+
+    function playAudio(doInicio) {
+        criarAudioEl();
+        mostrarPlayer(true);
+        if (typeof doInicio === 'number') audioEl.currentTime = doInicio;
+        else if (audioEl.currentTime < 1) {
+            const t = posicaoSalvaAudio();
+            if (t > 0) audioEl.currentTime = t;
+        }
+        audioEl.playbackRate = rateAtual();
+        const p = audioEl.play();
+        if (p && p.catch) p.catch(err => setStatus('Erro no áudio: ' + err.message));
+        configurarMediaSession();
+    }
+
+    function seekBloco(delta) {
+        if (!marks.length) {
+            audioEl.currentTime = Math.max(0, audioEl.currentTime + delta * 15); // sem marks: pula 15s
+            return;
+        }
+        const mi = blocoDoTempo(audioEl.currentTime);
+        const alvo = Math.min(Math.max(mi + delta, 0), marks.length - 1);
+        audioEl.currentTime = marks[alvo].t + 0.02;
+        idx = marks[alvo].bi;
+        destacar(idx);
+        atualizarProgresso();
+    }
+
+    function fmtTempo(s) {
+        if (!isFinite(s)) return '–:––';
+        const m = Math.floor(s / 60), ss = Math.floor(s % 60);
+        return m + ':' + String(ss).padStart(2, '0');
+    }
+
+    function configurarMediaSession() {
+        if (!('mediaSession' in navigator)) return;
+        const titulo = (document.getElementById('reader-cap-title') || {}).textContent || 'Material';
+        try {
+            navigator.mediaSession.metadata = new MediaMetadata({
+                title: titulo.trim(),
+                artist: 'CFP 2026 — Simulador',
+                album: 'Materiais'
+            });
+            navigator.mediaSession.setActionHandler('play', () => playAudio());
+            navigator.mediaSession.setActionHandler('pause', () => audioEl && audioEl.pause());
+            navigator.mediaSession.setActionHandler('previoustrack', () => seekBloco(-1));
+            navigator.mediaSession.setActionHandler('nexttrack', () => seekBloco(1));
+        } catch (e) { }
+    }
+
+    // ---------------- MODO SPEECH (voz do navegador) ----------------
     function falarChunk() {
-        if (!tocando) return;
+        if (!tocando || modo !== 'speech') return;
         if (chunkIdx >= chunks.length) { avancarBloco(); return; }
         const u = new SpeechSynthesisUtterance(chunks[chunkIdx]);
         const v = (!tentouFallbackVoz && vozAtual()) || null;
@@ -213,14 +403,12 @@
         u.onstart = () => { comecou = true; atualizarProgresso(); };
         u.onend = () => { chunkIdx++; falarChunk(); };
         u.onerror = (e) => {
-            // 'interrupted'/'canceled' são esperados ao navegar; outros erros: tenta seguir
             if (tocando && e.error !== 'interrupted' && e.error !== 'canceled') { chunkIdx++; falarChunk(); }
         };
-        utterAtual = u; // mantém referência (bug de GC do Chrome)
+        utterAtual = u;
         try { synth.resume(); } catch (e) { }
         synth.speak(u);
-        try { synth.resume(); } catch (e) { } // Chrome pode iniciar "pausado"
-        // Vigia: se em 2.5s nada começou a tocar, tenta uma vez com a voz padrão do sistema
+        try { synth.resume(); } catch (e) { }
         setTimeout(() => {
             if (!tocando || comecou || synth.speaking || synth.pending) return;
             if (!tentouFallbackVoz) {
@@ -235,7 +423,7 @@
     }
 
     function tocarBloco(i) {
-        if (i < 0 || i >= blocos.length) { finalizarCapitulo(); return; }
+        if (i < 0 || i >= blocos.length) { finalizarCapituloSpeech(); return; }
         idx = i;
         chunks = quebrarEmFrases(blocos[i].text);
         chunkIdx = 0;
@@ -247,23 +435,45 @@
 
     function avancarBloco() { if (tocando) tocarBloco(idx + 1); }
 
-    function play(deIndice) {
-        if (!blocos.length) montarBlocos();
-        mostrarPlayer(true);
-        if (!blocos.length) { setStatus('Abra um capítulo primeiro'); return; }
+    function playSpeech(deIndice) {
+        if (!synth) { setStatus('Navegador sem suporte a voz'); return; }
         const ocupado = synth.speaking || synth.pending;
         synth.cancel();
         tocando = true;
         atualizarBotoes();
         const inicio = (typeof deIndice === 'number') ? deIndice : idx;
-        // cancel() + speak() imediato falha em alguns Chromes; sem fala ativa, dispara direto
         const delay = ocupado ? 80 : 0;
         setTimeout(() => { if (tocando) tocarBloco(Math.min(inicio, blocos.length - 1)); }, delay);
     }
 
+    function finalizarCapituloSpeech() {
+        limparPosicaoSalva();
+        limparDestaque();
+        setStatus('Fim do capítulo ✓');
+        const btnProx = document.getElementById('btn-cap-proximo');
+        if (btnProx && !btnProx.disabled) {
+            retomarAposLoad = true;
+            setStatus('Próximo capítulo…');
+            btnProx.click();
+        } else {
+            tocando = false;
+            atualizarBotoes();
+        }
+    }
+
+    // ---------------- Controles unificados ----------------
+    function play(deIndice) {
+        if (!blocos.length) montarBlocos();
+        mostrarPlayer(true);
+        if (modo === 'audio') { tocando = true; atualizarBotoes(); playAudio(typeof deIndice === 'number' && marks[deIndice] ? marks[deIndice].t : undefined); return; }
+        if (!blocos.length) { setStatus('Abra um capítulo primeiro'); return; }
+        playSpeech(deIndice);
+    }
+
     function pausar() {
+        if (modo === 'audio' && audioEl) { audioEl.pause(); return; }
         tocando = false;
-        synth.cancel(); // cancel (e não pause): retomamos pelo bloco atual — pause() é bugado no Chrome
+        if (synth) synth.cancel();
         atualizarBotoes();
         setStatus('Pausado');
     }
@@ -271,27 +481,11 @@
     function parar(ocultar) {
         tocando = false;
         retomarAposLoad = false;
-        synth.cancel();
+        if (audioEl) audioEl.pause();
+        if (synth) synth.cancel();
         limparDestaque();
         atualizarBotoes();
         if (ocultar) mostrarPlayer(false);
-    }
-
-    function finalizarCapitulo() {
-        tocando = false;
-        atualizarBotoes();
-        limparDestaque();
-        setStatus('Fim do capítulo ✓');
-        // limpa posição salva (capítulo concluído)
-        try {
-            const pos = JSON.parse(localStorage.getItem(LS_POS) || '{}');
-            delete pos[chaveCapitulo()];
-            localStorage.setItem(LS_POS, JSON.stringify(pos));
-        } catch (e) { }
-        const u = new SpeechSynthesisUtterance('Fim do capítulo.');
-        const v = vozAtual(); if (v) u.voice = v;
-        u.lang = 'pt-BR'; u.rate = rateAtual();
-        synth.speak(u);
     }
 
     // ---------------- UI ----------------
@@ -306,6 +500,7 @@
             <button id="tts-toggle" class="tts-btn tts-btn-main" title="Tocar/Pausar"><i class="ph ph-play"></i></button>
             <button id="tts-next" class="tts-btn" title="Próximo parágrafo"><i class="ph ph-caret-right"></i></button>
             <span id="tts-status" class="tts-status">—</span>
+            <span id="tts-mode" class="tts-mode" title="Origem da voz"></span>
             <select id="tts-rate" class="tts-select" title="Velocidade">
                 <option value="0.75">0.75×</option>
                 <option value="1" selected>1×</option>
@@ -319,24 +514,44 @@
             <button id="tts-close" class="tts-btn" title="Fechar leitor"><i class="ph ph-x"></i></button>`;
         document.body.appendChild(bar);
 
-        // preferências salvas
         const r = localStorage.getItem(LS_RATE);
         if (r) bar.querySelector('#tts-rate').value = r;
 
         bar.querySelector('#tts-toggle').addEventListener('click', () => { tocando ? pausar() : play(); });
-        bar.querySelector('#tts-prev').addEventListener('click', () => { if (idx > 0) { synth.cancel(); idx--; if (tocando) tocarBloco(idx); else { destacar(idx); atualizarProgresso(); } } });
-        bar.querySelector('#tts-next').addEventListener('click', () => { if (idx < blocos.length - 1) { synth.cancel(); idx++; if (tocando) tocarBloco(idx); else { destacar(idx); atualizarProgresso(); } } });
-        bar.querySelector('#tts-restart').addEventListener('click', () => { idx = 0; if (tocando) { synth.cancel(); tocarBloco(0); } else { destacar(0); atualizarProgresso(); } });
+        bar.querySelector('#tts-prev').addEventListener('click', () => {
+            if (modo === 'audio' && audioEl) { seekBloco(-1); return; }
+            if (idx > 0) { synth.cancel(); idx--; if (tocando) tocarBloco(idx); else { destacar(idx); atualizarProgresso(); } }
+        });
+        bar.querySelector('#tts-next').addEventListener('click', () => {
+            if (modo === 'audio' && audioEl) { seekBloco(1); return; }
+            if (idx < blocos.length - 1) { synth.cancel(); idx++; if (tocando) tocarBloco(idx); else { destacar(idx); atualizarProgresso(); } }
+        });
+        bar.querySelector('#tts-restart').addEventListener('click', () => {
+            if (modo === 'audio' && audioEl) { audioEl.currentTime = 0; if (!tocando) { setStatus('Início'); } return; }
+            idx = 0;
+            if (tocando) { synth.cancel(); tocarBloco(0); } else { destacar(0); atualizarProgresso(); }
+        });
         bar.querySelector('#tts-close').addEventListener('click', () => parar(true));
         bar.querySelector('#tts-rate').addEventListener('change', (e) => {
             localStorage.setItem(LS_RATE, e.target.value);
-            if (tocando) { synth.cancel(); tocarBloco(idx); } // aplica já no bloco atual
+            if (modo === 'audio' && audioEl) { audioEl.playbackRate = parseFloat(e.target.value); return; }
+            if (tocando) { synth.cancel(); setTimeout(() => { if (tocando) tocarBloco(idx); }, 80); }
         });
         bar.querySelector('#tts-voice').addEventListener('change', (e) => {
             localStorage.setItem(LS_VOICE, e.target.value);
-            tentouFallbackVoz = false; // usuário escolheu outra voz: volta a respeitá-la
-            if (tocando) { synth.cancel(); setTimeout(() => { if (tocando) tocarBloco(idx); }, 80); }
+            tentouFallbackVoz = false;
+            if (modo === 'speech' && tocando) { synth.cancel(); setTimeout(() => { if (tocando) tocarBloco(idx); }, 80); }
         });
+    }
+
+    function atualizarModoUI() {
+        const selVoz = document.getElementById('tts-voice');
+        const badge = document.getElementById('tts-mode');
+        if (selVoz) selVoz.style.display = (modo === 'audio') ? 'none' : '';
+        if (badge) {
+            badge.textContent = (modo === 'audio') ? '✨ Neural' : '';
+            badge.style.display = (modo === 'audio') ? '' : 'none';
+        }
     }
 
     function mostrarPlayer(exibir) {
@@ -352,7 +567,9 @@
     }
 
     function atualizarProgresso() {
-        setStatus(`${idx + 1} / ${blocos.length}`);
+        const total = (modo === 'audio' && marks.length) ? marks.length : blocos.length;
+        const atual = (modo === 'audio' && marks.length) ? (blocoDoTempo(audioEl ? audioEl.currentTime : 0) + 1) : (idx + 1);
+        setStatus(`${atual} / ${total}`);
     }
 
     function setStatus(msg) {
@@ -362,36 +579,37 @@
 
     // ---------------- Integração com a tela de materiais ----------------
     function aoCarregarCapitulo() {
-        const continuar = retomarAposLoad && tocando;
+        const continuar = retomarAposLoad;
+        retomarAposLoad = false;
         tocando = false;
-        synth.cancel();
+        if (synth) synth.cancel();
+        if (audioEl) { audioEl.pause(); audioEl.removeAttribute('src'); audioEl.load(); }
         blocos = [];
         idx = 0;
-        // o iframe demora um tique para o postMessage de altura; extrai já
-        setTimeout(() => {
+        marks = [];
+        setTimeout(async () => {
             montarBlocos();
-            if (!blocos.length) { atualizarBotoes(); return; }
-            idx = posicaoSalva();
-            if (continuar) { play(0); }
-            else { atualizarProgresso(); atualizarBotoes(); }
+            await detectarAudio();
+            if (continuar) { play(modo === 'audio' ? undefined : 0); if (modo === 'audio' && audioEl) audioEl.currentTime = 0; return; }
+            if (blocos.length) { idx = posicaoSalvaSpeech(); atualizarProgresso(); }
+            atualizarBotoes();
         }, 350);
     }
 
     function init() {
         criarPlayer();
         carregarVozes();
-        if (typeof synth.onvoiceschanged !== 'undefined') synth.onvoiceschanged = carregarVozes;
-
-        // destrava estado "pausado" herdado de sessão anterior (bug do Chrome)
-        try { synth.cancel(); synth.resume(); } catch (e) { }
+        if (synth && typeof synth.onvoiceschanged !== 'undefined') synth.onvoiceschanged = carregarVozes;
+        try { if (synth) { synth.cancel(); synth.resume(); } } catch (e) { }
 
         const btn = document.getElementById('btn-ouvir-material');
         if (btn) {
             btn.addEventListener('click', () => {
                 try {
                     if (tocando) { pausar(); return; }
-                    if (vozes.length === 0) carregarVozes(); // Chrome só entrega vozes após interação, às vezes
-                    if (!blocos.length) { montarBlocos(); idx = posicaoSalva(); }
+                    if (vozes.length === 0) carregarVozes();
+                    if (!blocos.length) { montarBlocos(); idx = posicaoSalvaSpeech(); }
+                    if (!audioBase) { detectarAudio().then(() => play()); return; }
                     play();
                 } catch (err) {
                     mostrarPlayer(true);
@@ -402,12 +620,11 @@
 
         const f = getIframe();
         if (f) f.addEventListener('load', () => {
-            retomarAposLoad = tocando; // se estava ouvindo e trocou de capítulo, segue no novo
+            retomarAposLoad = retomarAposLoad || tocando;
             aoCarregarCapitulo();
         });
 
-        // parar fala ao fechar/recerregar a página
-        window.addEventListener('beforeunload', () => synth.cancel());
+        window.addEventListener('beforeunload', () => { if (synth) synth.cancel(); });
     }
 
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
