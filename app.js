@@ -3114,7 +3114,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Disciplinas que possuem a versão completa do material (pasta COMPLETO/)
     const materiaisCompletos = {
         'informatica_forense': true,
-        'quimica_forense': true
+        'quimica_forense': true,
+        'pceb': true
     };
     // false = resumido (padrão) | true = texto integral da apostila
     let materialVersaoCompleta = false;
