@@ -17,6 +17,8 @@
     let tocando = false;
     let retomarAposLoad = false; // continua no próximo capítulo se estava tocando
     let vozes = [];
+    let utterAtual = null;       // referência viva: evita GC da fala no Chrome
+    let tentouFallbackVoz = false;
 
     const LS_RATE = 'pcpr_tts_rate';
     const LS_VOICE = 'pcpr_tts_voice';
@@ -202,16 +204,34 @@
         if (!tocando) return;
         if (chunkIdx >= chunks.length) { avancarBloco(); return; }
         const u = new SpeechSynthesisUtterance(chunks[chunkIdx]);
-        const v = vozAtual();
+        const v = (!tentouFallbackVoz && vozAtual()) || null;
         if (v) u.voice = v;
         u.lang = (v && v.lang) || 'pt-BR';
         u.rate = rateAtual();
+        u.volume = 1;
+        let comecou = false;
+        u.onstart = () => { comecou = true; atualizarProgresso(); };
         u.onend = () => { chunkIdx++; falarChunk(); };
         u.onerror = (e) => {
             // 'interrupted'/'canceled' são esperados ao navegar; outros erros: tenta seguir
             if (tocando && e.error !== 'interrupted' && e.error !== 'canceled') { chunkIdx++; falarChunk(); }
         };
+        utterAtual = u; // mantém referência (bug de GC do Chrome)
+        try { synth.resume(); } catch (e) { }
         synth.speak(u);
+        try { synth.resume(); } catch (e) { } // Chrome pode iniciar "pausado"
+        // Vigia: se em 2.5s nada começou a tocar, tenta uma vez com a voz padrão do sistema
+        setTimeout(() => {
+            if (!tocando || comecou || synth.speaking || synth.pending) return;
+            if (!tentouFallbackVoz) {
+                tentouFallbackVoz = true;
+                setStatus('Tentando voz padrão…');
+                synth.cancel();
+                setTimeout(falarChunk, 120);
+            } else {
+                setStatus('Sem áudio — teste outra voz na lista');
+            }
+        }, 2500);
     }
 
     function tocarBloco(i) {
@@ -229,14 +249,16 @@
 
     function play(deIndice) {
         if (!blocos.length) montarBlocos();
-        if (!blocos.length) { setStatus('Nenhum texto encontrado neste capítulo.'); return; }
+        mostrarPlayer(true);
+        if (!blocos.length) { setStatus('Abra um capítulo primeiro'); return; }
+        const ocupado = synth.speaking || synth.pending;
         synth.cancel();
         tocando = true;
         atualizarBotoes();
-        mostrarPlayer(true);
         const inicio = (typeof deIndice === 'number') ? deIndice : idx;
-        // pequeno delay: cancel() + speak() imediato falha em alguns Chromes
-        setTimeout(() => { if (tocando) tocarBloco(Math.min(inicio, blocos.length - 1)); }, 60);
+        // cancel() + speak() imediato falha em alguns Chromes; sem fala ativa, dispara direto
+        const delay = ocupado ? 80 : 0;
+        setTimeout(() => { if (tocando) tocarBloco(Math.min(inicio, blocos.length - 1)); }, delay);
     }
 
     function pausar() {
@@ -312,7 +334,8 @@
         });
         bar.querySelector('#tts-voice').addEventListener('change', (e) => {
             localStorage.setItem(LS_VOICE, e.target.value);
-            if (tocando) { synth.cancel(); tocarBloco(idx); }
+            tentouFallbackVoz = false; // usuário escolheu outra voz: volta a respeitá-la
+            if (tocando) { synth.cancel(); setTimeout(() => { if (tocando) tocarBloco(idx); }, 80); }
         });
     }
 
@@ -359,12 +382,21 @@
         carregarVozes();
         if (typeof synth.onvoiceschanged !== 'undefined') synth.onvoiceschanged = carregarVozes;
 
+        // destrava estado "pausado" herdado de sessão anterior (bug do Chrome)
+        try { synth.cancel(); synth.resume(); } catch (e) { }
+
         const btn = document.getElementById('btn-ouvir-material');
         if (btn) {
             btn.addEventListener('click', () => {
-                if (tocando) { pausar(); return; }
-                if (!blocos.length) { montarBlocos(); idx = posicaoSalva(); }
-                play();
+                try {
+                    if (tocando) { pausar(); return; }
+                    if (vozes.length === 0) carregarVozes(); // Chrome só entrega vozes após interação, às vezes
+                    if (!blocos.length) { montarBlocos(); idx = posicaoSalva(); }
+                    play();
+                } catch (err) {
+                    mostrarPlayer(true);
+                    setStatus('Erro: ' + (err && err.message ? err.message : err));
+                }
             });
         }
 
