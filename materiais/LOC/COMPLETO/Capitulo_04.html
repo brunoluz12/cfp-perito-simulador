@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 4 - Etapas de processamento do local (Completo) - LOC - Locais de Crime e suas Interfaces</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.7; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        .badge-full { background: #2b6cb0; margin-left: 6px; }
+        h1 { font-size: 2.1em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.1em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; margin: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 34px; }
+        h3 { color: #2d3748; margin-top: 26px; }
+        h4 { color: #4a5568; margin-top: 22px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        code { font-family: 'Consolas', 'Courier New', monospace; background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+        pre.mono { font-family: 'Consolas', 'Courier New', monospace; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-size: 0.9em; line-height: 1.5; margin: 18px 0; }
+        .fig-caption { text-align: center; color: #718096; font-size: 0.92em; font-style: italic; margin-top: -6px; }
+        figure { margin: 22px 0; text-align: center; }
+        figure img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">LOC - Locais de Crime e suas Interfaces</span><span class="badge badge-full">Material Completo</span>
+        <h1>Capítulo 4 - Etapas de processamento do local</h1>
+        <div class="subtitle">Texto integral da apostila, estruturado para leitura</div>
+    </div>
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+<li><a href="#sec1">4 Etapas de processamento de um local</a></li>
+<li><a href="#sec2">4.1 Preparação</a></li>
+<li style="margin-left:16px"><a href="#sec3">4.1.1 Obtenção de informações adicionais sobre o local</a></li>
+<li style="margin-left:16px"><a href="#sec4">4.1.2 Localização da cena</a></li>
+<li style="margin-left:16px"><a href="#sec5">4.1.3 Tipo de local/crime</a></li>
+<li style="margin-left:16px"><a href="#sec6">4.1.4 Condições do isolamento e da preservação</a></li>
+<li style="margin-left:16px"><a href="#sec7">4.1.5 Urgência do exame</a></li>
+<li style="margin-left:16px"><a href="#sec8">4.1.6 Material e equipamento necessários</a></li>
+<li style="margin-left:16px"><a href="#sec9">4.1.7 Transporte de pessoal</a></li>
+<li style="margin-left:16px"><a href="#sec10">4.1.8 Meios de comunicação</a></li>
+<li><a href="#sec11">4.2 Chegada ao local</a></li>
+<li style="margin-left:16px"><a href="#sec12">4.2.1 Assumir o local</a></li>
+<li style="margin-left:16px"><a href="#sec13">4.2.2 Oportunidade única</a></li>
+<li style="margin-left:16px"><a href="#sec14">4.2.3 Reunião preliminar</a></li>
+<li style="margin-left:16px"><a href="#sec15">4.2.4 Busca inicial</a></li>
+<li style="margin-left:16px"><a href="#sec16">4.2.5 Cadeia de comando</a></li>
+<li style="margin-left:16px"><a href="#sec17">4.2.6 Entrevistas</a></li>
+<li><a href="#sec18">4.3 Busca completa</a></li>
+<li style="margin-left:16px"><a href="#sec19">4.3.1 Padrões de busca</a></li>
+<li style="margin-left:16px"><a href="#sec20">4.3.2 Busca em espiral</a></li>
+<li style="margin-left:16px"><a href="#sec21">4.3.3 Busca em linha</a></li>
+<li style="margin-left:16px"><a href="#sec22">4.3.4 Busca em linha cruzada</a></li>
+<li style="margin-left:16px"><a href="#sec23">4.3.5 Busca por quadrante</a></li>
+<li><a href="#sec25">4.4 Coleta de vestígios</a></li>
+<li style="margin-left:16px"><a href="#sec26">4.4.1 Amostragem</a></li>
+<li style="margin-left:16px"><a href="#sec27">4.4.2 Amostras padrão ou controle</a></li>
+<li><a href="#sec28">4.5 Reunião final</a></li>
+<li><a href="#sec29">4.6 Liberação do local</a></li>
+        </ul>
+    </div>
+<h2 id="sec1">4 Etapas de processamento de um local</h2>
+<h2 id="sec2">4.1 Preparação</h2>
+<p>Essa fase antecede todo o trabalho e se inicia quando o perito criminal toma conhecimento do local e toma todas as providências para garantir que se possam aglutinar recursos humanos/materiais necessários à realização dos exames.</p>
+<h3 id="sec3">4.1.1 Obtenção de informações adicionais sobre o local</h3>
+<p>Essa é uma etapa muito importante e não pode ser descartada. E realizada quase que de maneira intuitiva. Nela, devem ser obtidas mais informações sobre o que seró encontrado, de maneira sistematizada e organizada. Algumas informações são muito importantes e muitas vezes são deixadas de lado. A seguir, apresenta-se um esboço básico do que se deve procurar saber sobre um local a ser examinado.</p>
+<h3 id="sec4">4.1.2 Localização da cena</h3>
+<p>Endereço, coordenadas, pontos de referência, etc. Essa informação ajudará a uma chegada mais rápida ao local, bem como a definir o tipo de transporte a ser solicitado.</p>
+<h3 id="sec5">4.1.3 Tipo de local/crime</h3>
+<p>Esse dado é necessário para saber quais os possíveis vestígios a serem encontrados. Essa informação é crucial para a definição do material e equipamento a serem separados ou providenciados e com que tipo de ajuda se poderá contar. Por exemplo, em se tratando de um local envolvendo explosivos, é bom contar com o apoio de pessoal com conhecimentos especializados em bombas e explosivos. Dependendo do tamanho da cena a ser processada, deve-se solicitar ou pedir ajuda para montar uma equipe. Não se deve tentar resolver tudo sozinho.</p>
+<h3 id="sec6">4.1.4 Condições do isolamento e da preservação</h3>
+<p>Geralmente, os pedidos de perícia são feitos em horários variados e, muitas vezes, o perito sabe POUCO do que o espera. E produtivo obter o maior número de informações possível com o policial que fez a solicitação. Uma ajuda muito grande é obter o telefone do solicitante e entrar em contato informal com ele. Nesse contato, muitas dúvidas podem ser sanadas, e transtornos fUtUros poderão ser evitados.</p>
+<h3 id="sec7">4.1.5 Urgência do exame</h3>
+<p>Existirão situações em que a urgência da chegada ao local pode se sobrepor ao plane•amento. Nesses casos, a etapa de planeiamento fica prejudicada. Isso pode ser minimizado com o envio de uma parte da equipe para avaliar a cena e as condições, enquanto outra parte da equipe providencia os materiais e equipamentos, mantendo-se ambas as partes em estreito contato para facilitar a preparação de materiais e equipamentos necessários.</p>
+<h3 id="sec8">4.1.6 Material e equipamento necessários</h3>
+<p>Muitos locais exigirão materiais de embalagem específicos e equipamentos adequados. O tipo de exame a ser realizado e os prováveis vestígios a serem coletados definirão os materiais e equipamentos a serem providenciados. Por exemplo, no caso de um laboratório clandestino de drogas onde existam produtos químicos, é importante ter um equipamento de coleta (pipeta) e frascos apropriados de embalagem. Deve-se providenciar o material necessário antes de chegar ao local. Caso isso não seja providenciado com antecedência, o processamento do local poderá ficar prejudicado, seja por atraso, seja por falta de equipamentos e materiais de coleta adequados. Planejar é o ponto importante e crucial nessa etapa. A seguir apresenta-se uma lista para auxiliar a lembrar que tipo de materiais podem ser necessários na quase totalidade dos locais:</p>
+<p>Rolo de fita de isolamento;</p>
+<p>Prancheta;</p>
+<p>Papel branco e milimetrado;</p>
+<p>Ló pis;</p>
+<p>Caneta;</p>
+<p>Etiquetas autoadesivas;</p>
+<p>Pincel atômico;</p>
+<p>Máquina fotográfica .com cartão de memória, bateria carregada e carregador);</p>
+<p>Tripé para máquina fotográfica.</p>
+<p>Régua (ou outra escala para fotografia);</p>
+<p>Trena;</p>
+<p>Marcadores de vestígio;</p>
+<p>Embalagens variadas (sacos plásticos e de papel, envelopes, potes coletores);</p>
+<p>Lacre;</p>
+<p>Pinças;</p>
+<p>Fita adesiva;</p>
+<p>suabe e porta suabe;</p>
+<p>Lanterna .com pilhas ou bateria carregada);</p>
+<p>Lupa;</p>
+<p>Caixa de ferramentas com alicate, chave de fenda etc.</p>
+<p>EPI (luvas, pro pé, touca, máscara, tyve k) ;</p>
+<h3 id="sec9">4.1.7 Transporte de pessoal</h3>
+<p>Comparecer a muitos locais de crime sempre envolve o transporte de pessoas e equipamentos. A escolha adequada do tipo de transporte, e mesmo da equipe de apoio (ex.: motoristas), é facilitada quando se conhece mais sobre o local. Não se deve ir ao local sem um meio eficiente de transporte que confira autonomia à perícia para decidir sobre o tempo necessário para realizar os exames.</p>
+<h3 id="sec10">4.1.8 Meios de comunicação</h3>
+<p>E importante providenciar meios de comunicação entre a equipe que vai ao local e a base (Superintendência Regional ou INC). Em algumas situações, apoio adicional, não originalmente previsto nas etapas de preparação e planejamento, pode ser necessário. Essa comunicação geralmente pode ser feita por meio de celulares ou ródio. Caso se trate de uma cena de crime grande, é recomendado que os membros da equipe de processamento possuam um ródio que propicie uma comunicação eficiente durante os exames, possibilitando assim uma interação em tempo real entre todos os membros da equipe com respeito às observações surgidas durante a análise do local.</p>
+<h2 id="sec11">4.2 Chegada ao local</h2>
+<p>No deslocamento até o local, a equipe pode iniciar um intercâmbio sobre o que poderá encontrar e quais as melhores estratégias para a condução dos trabalhos. Neste momento, poderão até distribuir as tarefas a serem realizadas. Se a equipe de peritos ainda não possui um chefe, esse é um bom momento para se escolher um.</p>
+<h3 id="sec12">4.2.1 Assumir o local</h3>
+<p>O perito designado como chefe de equipe deve assumir o local de maneira formal, segura e clara. Isto quer dizer que deve esclarecer aos policiais presentes na cena de crime que esta se encontra agora sob controle da perícia. Para fazer isso, o chefe da equipe deve dirigir-se ao responsável pelo local e comunicar-lhe a chegada da perícia, enfatizar aos policiais que até o momento fizeram o isolamento para continuarem em selJS postos e alertá-los sobre a necessidade de cooperação de OUtros policiais em algumas etapas/procedimentos do processamento do local.</p>
+<h3 id="sec13">4.2.2 Oportunidade única</h3>
+<p>A pressa é a principal fonte de erro no processamento de um local, e o ponto mais crucial no qual ela pode ser sentida é no trabalho de busca e documentação dos vestígios. No início dos trabalhos, quando se assume o local, deve-se esclarecer aos policiais e às demais autoridades ou pessoas presentes no local que o trabalho não seró feito rapidamente, devido à importância de uma coleta de vestígios eficiente para todo o processo penal. Pressões existirão para que a perícia seja rápida, e o perito deve saber contorná-las.</p>
+<p>Uma breve exposição sobre como serão conduzidos os trabalhos e o foco da análise aiUdaró a criar em todos urn espírito de cooperação. Deve-se terem mente que muitos policiais ió estarão há algum tempo aguardando a perícia. Logo, explicar que a perícia pode demorar aiUda a reduzir a ansiedade dos envolvidos. O perito deve otimizar set.JS trabalhos sem prejuízo da qualidade técnica, porque só existe uma oportunidade para se processar um local de maneira adequada.</p>
+<h3 id="sec14">4.2.3 Reunião preliminar</h3>
+<p>Até o momento da chegada dos peritos ao local, as informações conhecidas eram fornecidas por terceiros via telefone ou ródio, entretanto, após a chegada ao local, a cena pode ser presenciada, sentida e, portanto, mais bem avaliada. Então, assim que se chega, deve-se proceder a uma reavaliação do perímetro de isolamento encontrado e, dependendo do caso, solicitar que seja ampliado ou diminuído. Como fruto dessa avaliação preliminar do local, o perito chefe deve promover uma reunião com todos os membros da equipe após assumir o local. Essa é uma reunião informal em que todos podem e devem oferecer seu ponto de vista sobre a cena encontrada, Realizar essa reunião assim que se chega é de grande ajuda, pois nesse momento podem ser ouvidas sugestões que podem direcionar os trabalhos e avaliar a segurança da equipe. Se ainda não foram estabelecidas as tarefas de cada urn até este momento, elas devem ser distribuídas neste momento.</p>
+<h3 id="sec15">4.2.4 Busca inicial</h3>
+<p>O perito encarregado do local deve proceder a uma busca preliminar que visa a conhecer melhor a cena em questão e a planejar a busca mais detalhada e completa. O principal cuidado para a realização dessa busca é estabelecer a rota de entrada e saída que deve ser então usada por todos que necessitarem entrar no local. A rota de entrada deve minimizar ao máximo os possíveis danos aos vestígios materiais presentes. Enquanto o chefe da equipe realiza a busca inicial, os demais membros podem preparar-se para a realização de SUas tarefas.</p>
+<h3 id="sec16">4.2.5 Cadeia de comando</h3>
+<p>O estabelecimento de uma cadeia única de comando quanto ao processamento do local aiUda a dinamizar e tornar os trabalhos mais eficientes.</p>
+<h3 id="sec17">4.2.6 Entrevistas</h3>
+<p>Essas entrevistas devem ser feitas com possíveis testemunhas ou pessoas que estavam presentes no local antes da chegada dos peritos. Podem ser realizadas por qualquer membro da equipe, inclusive enquanto são efetivados os preparativos e a busca inicial. O que se espera conseguir com essas entrevistas são informações adicionais que ajudarão a entender o ocorrido. Estas podem agilizar os trabalhos e mesmo direcioná-los.</p>
+<p>Alguns cuidados devem ser tomados na realização dessas entrevistas. Deve-se ter sempre em mente que as informações obtidas podem ajudar a encontrar os vestígios materiais. Mas as informações fornecidas por testemunhas ou outras pessoas, em virtude de serem subjetivas, não serão objeto de avaliação no laudo. Mesmo que existam vestígios que comprovem a informação, o perito só deve considerar os vestígios para SUas conclusões. O teor das entrevistas serve para direcionar e agilizar os trabalhos. Informações acerca da cena de crime antes do ocorrido podem ajudar a entender o local e, portanto, a realização dos trabalhos.</p>
+<h2 id="sec18">4.3 Busca completa</h2>
+<p>Esta etapa visa encontrar os vestígios materiais inerentes ao local em processamento. Os tipos de vestígios dependerão de cada local e, nesta unidade, serão descritos os modos de se realizar uma busca.</p>
+<p>O perito que participar da busca deve ser cauteloso, observador e estar com a mente o mais livre possível. Possuir uma preconcepção do fato na mente, mas, ao mesmo tempo estar apto a reconhecer uma mudança de direção nas análises frente a uma nova evidência. Preocupações de ordem diversa das relacionadas ao local de crime atrapalharão a busca, pois se pode estar procurando vestígios pequenos e muitas vezes microvestígios.</p>
+<p>A maneira de se proceder a uma busca dependerá do tipo de cena a ser trabalhada. Descrevem-se, a seguir, alguns padrões de busca que podem ser aplicados em cada caso.</p>
+<h3 id="sec19">4.3.1 Padrões de busca</h3>
+<p>Os padrões de busca visam cobrir a área questionada e facilitar o trabalho de encontrar os vestígios. Sempre que um vestígio for encontrado, o mesmo deve ser marcado, para poder ser descrito, fotografado e assinalado em um croqui. Vários métodos de busca podem ser utilizados, depende de cada caso e da metodologia seguida pelos peritos. A seguir, serão descritas as principais técnicas, priorizando aquelas de mais fácil aplicação.</p>
+<h3 id="sec20">4.3.2 Busca em espiral</h3>
+<p>Este tipo de busca é geralmente aplicada quando a área a ser pesquisada é pequena e se dispõe de poucas pessoas. A busca em espiral inicia-se na parte periférica e vai-se contornando a cena até se chegar ao ponto central. Geralmente, é no ponto central em que pode ser encontrada a maioria dos vestígios. O ponto principal dessa busca é caminhar de forma calma, tranquila e atenta, procurando não destruir ou contaminar os vestígios encontrados.</p>
+<h3 id="sec21">4.3.3 Busca em linha</h3>
+<p>E utilizada quando a área a ser coberta é extensa e se dispõe de uma quantidade suficiente de pessoas. Para a formação da linha de busca, os profissionais devem estender os braços e se posicionar de modo a ficarem a uma distância de dois braços um do outro. Nesse tipo de busca, pelo fato de envolver uma grande quantidade de pessoas, recomenda-se muita atenção no deslocamento e na movimentação delas. A melhor forma de conseguir isso é escolhendo uma pessoa base para comandar a linha, que passará então a movimentar-se pelo comando dessa pessoa.</p>
+<p>Cada integrante da linha deve procurar, detalhadamente, os vestígios na região de interesse imediatamente à sua frente, e quando os encontrar deverá gritar a palavra "alto", para que toda a linha pare e aguarde que ele faça a marcação do vestígio encontrado.</p>
+<h3 id="sec22">4.3.4 Busca em linha cruzada</h3>
+<p>E utilizada no mesmo sistema da busca em linha tradicional, somente repetindo-se a uma segunda busca numa direção perpendicular à primeira.</p>
+<p>E uma busca mais completa, porém mais trabalhosa. Primeiramente, realiza-se a busca em linha normal. Depois, por uma das laterais da área a ser analisada, repete-se a formação da linha e procede-se então a uma nova varredura.</p>
+<p>Os vestígios não devem ser coletados assim que encontrados. Devem ser marcados para poderem ser descritos, fotografados e ter sua posição anotada no croqui.</p>
+<h3 id="sec23">4.3.5 Busca por quadrante</h3>
+<p>Utilizada quando se necessita dividir a cena de crime em quadrantes e realizar uma busca em cada um. Dependendo da situação, pode ser interessante aplicar uma outra metodologia de busca dentro de cada quadrante.</p>
+<p>Os padrões de busca aqui apresentados visam promover Um acesso à cena de crime de maneira A c B a minimizar a contaminação dos vestígios e a promover uma forma organizada de encontrar as evidências.</p>
+<p>Cada vestígio material, quando encontrado, deverá ser marcado, pois evitará que outras pessoas que não o viram possam destruí-lo ou prejudicá-lo. Existem diversos tipos de marcadores e seu uso dependerá de cada caso.</p>
+<h4 id="sec24">4.3.5.1 Premissas básicas para a realização de uma busca</h4>
+<p>Normalmente, a melhor maneira de se conduzir uma busca é a mais difícil e a que mais consome tempo. Lembre-se:</p>
+<p>um vestígio material nunca pode ser demasiadamente documentado, isto é, quanto mais soubermos sobre ele, quanto mais conhecê-lo, melhor seró. Não há como pensar que o vestígio foi documentado excessivamente de modo que isso possa prejudicar sua análise. O ponto-chave limitante na documentação é o tempo que se pode dedicar a essa tarefa. Utilizar anotações, fotografias ou outras formas de documentação é muito útil para as análises que se farão posteriormente;</p>
+<p>conduza a busca do geral para o específico;</p>
+<p>só existe uma chance de processar o local de maneira adequada; proceda a uma busca cautelosa nas áreas visíveis de modo a evitar perda ou contaminação de vestígios.</p>
+<p>promova Uma busca vigorosa por áreas escondidas/dissimuladas.</p>
+<h2 id="sec25">4.4 Coleta de vestígios</h2>
+<p>Somente depois que cada vestígio encontrado tiver sido posicionado, fotografado e, se possível, descrito, é que se procederá à sua coleta. Alguns vestígios serão coletados e levados pelo próprio perito, como, por exemplo, no caso de amostras de algum material ou de outros objetos que deverão ser submetidos a exames posteriores. Outros vestígios serão fotografados e discriminados na documentação, mas serão deixados a cargo do delegado para proceder à apreensão.</p>
+<p>Antes da coleta de vestígios, o perito deve observar as orientações institucionais vigentes e, na existência de dúvidas, consultar as diretrizes e recomendações técnicas expedidas pelo INC, disponíveis nos meios oficiais, referentes aos procedimentos de coleta.</p>
+<h3 id="sec26">4.4.1 Amostragem</h3>
+<p>Quando for necessária a amostragem para encaminhamento a laboratório, é preciso usar uma metodologia adequada. Esta amostragem deve ser em quantidade e número suficiente. Em caso de dúvida sobre a amostragem do material em questão, o perito deverá consultar as recomendações técnicas da área ou contatar o pessoal responsável pelos fUtUros exames de modo a receber deles as orientações devidas quanto aos procedimentos de amostragem, tais como quantidade e tamanho das amostras, necessidade de amostras controles etc.</p>
+<h3 id="sec27">4.4.2 Amostras padrão ou controle</h3>
+<p>Este é um procedimento que deve ser realizado quando o vestígio a ser coletado estiver impregnado ou depositado em um suporte, e ele não puder ser totalmente encaminhado para análises. Como regra geral, o melhor vestígio é aquele que poderá ser encaminhado de forma integral para os exames, pois fornecerá uma maior quantidade de informações ao perito que for analisá-lo posteriormente, mas isso nem sempre é possível, seja por dificuldades de transporte, seja por impossibilidades técnicas.</p>
+<p>Esta situação pode ser mais bem compreendida por meio do seguinte exemplo: No processamento de um local, foi encontrada Uma mancha suspeita impregnada no carpete de uma sala. Remover e encaminhar completamente o carpete não é viável. O perito então recorta o pedaço do carpete que contém a mancha e o encaminha. Para que essa análise seja possível e conclusiva, pode ser que o laboratório precise de uma amostra do carpete isenta da mancha para poder analisar as possíveis interações entre a substância que gerou a mancha e o carpete. Logo, deve ser providenciada uma amostra do carpete isenta da mancha. Esta segunda amostra do carpete, sem impregnações da substância suspeita, é denominada de amostra controle, ou amostra padrão. Como no local não seró possível determinar quando seró necessária a coleta de uma amostra padrão, a regra geral é coletá-la.</p>
+<h2 id="sec28">4.5 Reunião final</h2>
+<p>Essa reunião é o passo que antecede a finalização dos trabalhos e deve ser realizada com todos os membros da equipe, tendo como principal pauta: "Fizemos tudo o que era necessário para um processamento efetivo deste local?" Caso o entendimento global seja que sim, o chefe da equipe conduzirá uma busca final pelo local, para se certificar das condições do local antes da entrega. Nessa reunião, faz-se um levantamento final de todos os aspectos da busca, verificando se: 1 -A documentação estó devidamente preenchida;</p>
+<p>2- Todos os vestígios foram fotografados e posicionados no croqui; 3- Os vestígios foram coletados adequadamente;</p>
+<p>4- As amostras controle necessárias foram coletadas;</p>
+<p>5- Os vestígios estão embalados e identificados adequadamente; 6- Existem meios para se transportarem adequadamente os vestígios. Diante das afirmativas referentes aos questionamentos acima, parte-se então para a etapa de liberação do local.</p>
+<h2 id="sec29">4.6 Liberação do local</h2>
+<p>O chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado. O perito-chefe deve informar sobre quaisquer informações pertinentes ao local, bem como quais materiais devem ser apreendidos, encaminhados para a perícia e a que cuidados os mesmos devem ser submetidos. Caso existam outras providências necessárias à liberação do local, a autoridade deve ser informada. Essa liberação ocorre geralmente de forma verbal e deve ser consignada em laudo, pode ser feita por escrito se necessário.</p>
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+  })();
+</script>
+</body>
+</html>
