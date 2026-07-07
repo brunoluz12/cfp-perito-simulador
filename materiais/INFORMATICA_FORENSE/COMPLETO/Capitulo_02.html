@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 2 - Noções Gerais de Informática (Completo) - Informática Forense</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.7; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        .badge-full { background: #2b6cb0; margin-left: 6px; }
+        h1 { font-size: 2.1em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.1em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; margin: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 34px; }
+        h3 { color: #2d3748; margin-top: 26px; }
+        h4 { color: #4a5568; margin-top: 22px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        code { font-family: 'Consolas', 'Courier New', monospace; background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+        pre.mono { font-family: 'Consolas', 'Courier New', monospace; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-size: 0.9em; line-height: 1.5; margin: 18px 0; }
+        .fig-caption { text-align: center; color: #718096; font-size: 0.92em; font-style: italic; margin-top: -6px; }
+        figure { margin: 22px 0; text-align: center; }
+        figure img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span><span class="badge badge-full">Material Completo</span>
+        <h1>Capítulo 2 - Noções Gerais de Informática</h1>
+        <div class="subtitle">Texto integral da apostila, estruturado para leitura</div>
+    </div>
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+<li><a href="#sec1">2.1 Sistemas numéricos e notações computacionais</a></li>
+<li><a href="#sec2">2.2 Componentes de um computador</a></li>
+<li style="margin-left:16px"><a href="#sec3">2.2.1 Placa-mãe</a></li>
+<li style="margin-left:16px"><a href="#sec4">2.2.2 Processador (CPU)</a></li>
+<li style="margin-left:16px"><a href="#sec5">2.2.3 Memória principal (RAM)</a></li>
+<li style="margin-left:16px"><a href="#sec6">2.2.4 Memória secundária (auxiliar)</a></li>
+<li style="margin-left:16px"><a href="#sec7">2.2.5 Periféricos</a></li>
+<li><a href="#sec8">2.3 Sistema operacional</a></li>
+<li><a href="#sec9">2.4 Sistema de arquivos</a></li>
+<li><a href="#sec10">2.5 Funções unidirecionais de resumo (hash)</a></li>
+        </ul>
+    </div>
+<p>O conhecimento geral de informática é necessário como base para o estudo  da Informática Forense. Por esse motivo, alguns conceitos básicos de informática  serão apresentados nesta unidade.</p>
+<h2 id="sec1">2.1 Sistemas numéricos e notações computacionais</h2>
+<p>A menor unidade de informação que pode ser armazenada ou transmitida  é o bit, que pode assumir somente dois estados: 0 (zero) ou 1 (um); verdadeiro  ou falso. Como apenas dois estados estão disponíveis, esse sistema numérico é  chamado de sistema binário. Vídeos, fotos, músicas, textos, programas e todos  os dados e instruções de um computador são, de alguma forma, codificados em  0s e 1s. Um conjunto de 8 (oito) bits é chamado de byte ou octeto. Utilizando um  byte, é possível gerar 256 combinações possíveis (: <code>00000000</code>, <code>00000001</code>,</p>
+<pre class="mono">00000010 ... 11111110 e 11111111. Em um computador, essas 256 com-</pre>
+<p>binações podem ser vinculadas a, por exemplo, caracteres de texto: utilizando o  padrão de mapeamento mais comum (conhecido como <em>ASCII</em>), o caractere “K” é  mapeado para o octeto <code>01001011</code>; e o caractere “L” é mapeado para o octeto</p>
+<pre class="mono">01001100. O que estará fisicamente gravado no computador serão os bits desses</pre>
+<p>octetos e não os caracteres “K” e “L” propriamente ditos. Se, ao invés de 2 (sistema binário) ou 10 símbolos (sistema decimal), passarmos  a utilizar 16 símbolos, teremos o sistema hexadecimal. Nesse sistema, os símbolos  disponíveis são: <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, <code>9</code>, <code>A</code>, <code>B</code>, <code>C</code>, <code>D</code>, <code>E</code>, <code>F</code>. A notação hexadecimal é utilizada para tornar a representação de valores  binários mais amigável para seres humanos. Utilizando essa notação, cada octeto  é representado por dois símbolos hexadecimais. Ou seja, cada conjunto de 4  bits é representado por um símbolo hexadecimal. Esse relacionamento funciona  perfeitamente, pois existem 16 combinações possíveis para um conjunto de 4 bits.  O mapeamento resultante pode ser visto na Tabela 1.</p>
+<p class="fig-caption">Tabela 1 – Mapeamento de sistemas numéricos</p>
+<table><tr><th>Decimal</th><th>Binário</th><th>Hexadecimal</th></tr><tr><td>00</td><td>0000</td><td>0</td></tr><tr><td>01</td><td>0001</td><td>1</td></tr><tr><td>02</td><td>0010</td><td>2</td></tr><tr><td>03</td><td>0011</td><td>3</td></tr><tr><td>04</td><td>0100</td><td>4</td></tr><tr><td>05</td><td>0101</td><td>5</td></tr></table>
+<table><tr><th>Decimal</th><th>Binário</th><th>Hexadecimal</th></tr><tr><td>06</td><td>0110</td><td>6</td></tr><tr><td>07</td><td>0111</td><td>7</td></tr><tr><td>08</td><td>1000</td><td>8</td></tr><tr><td>09</td><td>1001</td><td>9</td></tr><tr><td>10</td><td>1010</td><td>A</td></tr><tr><td>11</td><td>1011</td><td>B</td></tr><tr><td>12</td><td>1100</td><td>C</td></tr><tr><td>13</td><td>1101</td><td>D</td></tr><tr><td>14</td><td>1110</td><td>E</td></tr><tr><td>15</td><td>1111</td><td>F</td></tr></table>
+<p>Assim, o caractere “K” (<code>01001011</code>) pode ser representado em hexadecimal  por <code>4B</code> e o caractere “L” (<code>01001100</code>) por <code>4C</code>. A notação mais aceita atualmente para o agrupamento de bytes são os prefixos  (e suas abreviações) do Sistema Internacional de Unidades (SI): <em>kilo </em>(103), <em>mega </em> (106), <em>giga </em>(109), <em>tera </em>(1012), <em>peta</em> (1015) e assim por diante. Por convenção, a letra bê minúscula (‘b’) representa um bit e a letra bê  maiúscula (‘B’) representa um byte. Assim, 7kb contém 7.000 bits e 5MB contém  5.000.000 bytes.</p>
+<h2 id="sec2">2.2 Componentes de um computador</h2>
+<p>Os computadores pessoais funcionam por meio da integração de diversos  componentes com funções específicas. Os componentes que formam o conjunto  principal de processamento e armazenamento de dados ficam geralmente localizados dentro da estrutura física conhecida como gabinete de computador. Dentro do gabinete, os diversos componentes se conectam a um dispositivo  principal conhecido como placa-mãe. Alguns desses componentes internos podem  estar integrados à placa-mãe (por questões de projeto, redução de custo e/ou  comodidade para o usuário) ou podem ser anexados a ela por conectores e cabos  específicos. A vantagem de se ter componentes separados da placa-mãe é a  possibilidade de substituição desses dispositivos em caso de falhas ou necessidade  de evolução tecnológica. Os principais componentes internos de um computador são:</p>
+<ul><li>Placa-mãe;</li><li>Processador (CPU);</li><li>Memória principal (RAM);</li><li>Memória secundária (disco rígido);</li><li>Placa de vídeo (pode ou não estar integrada à placa-mãe);</li><li>Fonte de energia.</li></ul>
+<figure><img src="img/p017_1.jpeg" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 1 - Visão interna de um gabinete de computador</p>
+<h3 id="sec3">2.2.1 Placa-mãe</h3>
+<p>É a placa de circuito integrado que interconecta os diversos dispositivos do  computador. Possui barramentos e circuitos de apoio para controlar os acessos  ao processador, disco rígido, memória RAM e demais dispositivos que estiverem  conectados. Realiza também a interface de comunicação com os equipamentos  de entrada e saída de dados, como teclado, monitor e mouse. As placas-mãe também contêm um tipo de memória na qual está gravado um  pequeno programa conhecido como BIOS (<em>Basic Input Output System</em>), que tem  a função de identificar, configurar, testar e inicializar os dispositivos do sistema. Placas de rede ou de vídeo, usualmente, são conectadas à placa-mãe por  <em>slots</em>. Quando essas placas também estão integradas à placa-mãe, recebem a  denominação <em>on-board</em>. Outros dispositivos, como leitores de DVD, leitores de  disquetes e discos rígidos, se conectam à placa-mãe por meio de cabos.</p>
+<h3 id="sec4">2.2.2 Processador (CPU)</h3>
+<p>O processador, ou a Unidade Central de Processamento, é o dispositivo  responsável pelo processamento de dados e cálculos aritméticos. O termo em  inglês para o processador é a sigla CPU (<em>Central Processing Unit</em>), que não deve  ser confundida com o gabinete de computador. Fisicamente, o processador (ou  CPU) é um pequeno <em>chip</em> de silício que fica encaixado na placa-mãe, localizada  no interior do gabinete de computador. Quando um programa é executado, cada uma de suas instruções é executada  pelo processador. Dependendo da instrução, o processador pode buscar dados,  realizar cálculos ou testes lógicos. Assim, o processador recebe um conjunto de  dados (<em>entrada</em>), realiza algum tipo de operação (<em>processamento</em>) e disponibiliza  o resultado (<em>saída</em>).</p>
+<h3 id="sec5">2.2.3 Memória principal (RAM)</h3>
+<p>A memória principal, também chamada de memória volátil ou RAM (do termo  em inglês <em>Random Access Memory</em>), é a memória utilizada pelo processador para  armazenar dados e programas que se encontram em execução. É uma memória  rápida e armazena dados somente enquanto o computador está ligado. Fisicamente, são constituídas de pequenas placas de circuito integrado  conectadas diretamente à placa-mãe. Quando, comercialmente, se ouve falar de  memória para computador, esse é o tipo de memória a que se está referindo. Os  computadores atuais possuem capacidade de memória na ordem de gigabytes.</p>
+<h3 id="sec6">2.2.4 Memória secundária (auxiliar)</h3>
+<p>A memória secundária ou auxiliar constitui-se de mídias de armazenamento  que mantêm a informação mesmo depois do desligamento da energia elétrica,  ou seja, ela é permanente (não volátil). Dados e programas permanecem armazenados na memória secundária e,  quando necessários, eles são transportados para a memória principal e, finalmente,  utilizados pelo processador. Fisicamente, existem diversas tecnologias que podem ser utilizadas para o  armazenamento de dados de forma permanente. Alguns tipos comuns de memória  secundária são: a) discos rígidos: o principal dispositivo de memória permanente é o  disco rígido (<em>Hard Disk Drive</em> ou, simplesmente, HD da sigla em inglês),  devido à sua grande capacidade de armazenamento associada à  boa velocidade de leitura e gravação de dados. Normalmente, o  disco rígido contém o sistema operacional, os programas instalados  e os arquivos criados pelos usuários. Internamente, os dados ficam  armazenados em discos magnéticos concêntricos, divididos em trilhas  e setores. Há conectores e cabos específicos para conectar esses  dispositivos, sendo que os mais comuns são IDE e SATA; b) memórias <em>ﬂ ash</em>: as memórias <em>flash</em> constituem-se de <em>chips</em> semelhantes ao da memória RAM, mas que mantêm os dados persistentes.  São utilizadas, por exemplo, em cartões de memória, <em>pen drives</em>,  memória interna de celulares e câmeras fotográficas. Os discos de  estado sólido (<em>Solid-State Drive</em> ou SSD, da sigla em inglês) utilizam  um conjunto de memórias <em>flash</em> para armazenar os dados. Por serem  mais rápidos e utilizarem os mesmos cabos, esses discos podem  substituir os tradicionais discos rígidos magnéticos. Apesar de mais  caros, os SSDs estão se tornando cada vez mais comuns; c) mídias óticas: as mídias óticas (CD, DVD e <em>Blu-Ray</em>) são um tipo de  memória permanente bastante utilizada para distribuição em larga  escala de <em>software</em> e material de áudio e vídeo. Podem ser utilizadas  também como uma opção de baixo custo para a realização de  backup de dados. A Tabela 2 apresenta as capacidades usuais de algumas das memórias citadas.</p>
+<p class="fig-caption">Tabela 2 – Mídias de armazenamento e suas capacidades usuais</p>
+<table><tr><th>Tipo de mídia</th><th>Capacidade usual</th></tr><tr><td>Disco rígido</td><td>500GB a 30TB</td></tr><tr><td>SSD</td><td>120GB a 8TB</td></tr><tr><td>CD</td><td>650MB ou 700MB</td></tr><tr><td>DVD</td><td>4,7GB ou 8,5GB</td></tr><tr><td>BD (Blu-ray Disc)</td><td>25GB ou 50GB</td></tr><tr><td>Pen drive e cartões de memória</td><td>16GB a 2TB</td></tr></table>
+<h3 id="sec7">2.2.5 Periféricos</h3>
+<p>Os periféricos são dispositivos normalmente localizados fora do gabinete (e por  isso possuem esse nome) e têm como função permitir a entrada de dados a serem  processados ou fornecer um meio para se obter a saída dos dados resultantes  do processamento. Por esse motivo, os periféricos são também conhecidos como  dispositivos de entrada e saída (<em>input/output</em>). Podemos destacar os seguintes  periféricos: a) entrada: teclado, mouse, <em>scanner</em>, <em>webcam</em> e microfone; b) saída: monitor, impressora e caixas de som; c) entrada e saída: interface de rede, monitor <em>touch-screen</em> e impressora multifuncional.</p>
+<h2 id="sec8">2.3 Sistema operacional</h2>
+<p>O sistema operacional é o <em>software</em> que gerencia o acesso aos recursos do  computador. Dentre as funcionalidades básicas do sistema operacional, podemos  citar: gerência de memória, acesso a dispositivos de entrada e saída de dados,  carregamento de outros programas, interface gráfica e gerenciamento do sistema  de arquivos. A Figura 2 apresenta um esquema simplificado do posicionamento do sistema  operacional em relação aos demais componentes de um computador.</p>
+<figure><img src="img/p020_2.png" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 2 - Estrutura em camadas mostrando o posicionamento do sistema</p>
+<p><em>operacional</em> Dentre os sistemas operacionais mais utilizados atualmente, podemos citar:  Microsoft Windows, Mac OS X e Linux. Dispositivos móveis, como <em>smartphones</em> e  <em>tablets</em>, também possuem sistemas operacionais, sendo os mais comuns o <em>Android</em> e o <em>iOS</em> (utilizado pelo <em>iPad</em> e <em>iPhone</em>).</p>
+<h2 id="sec9">2.4 Sistema de arquivos</h2>
+<p>Para gravar e ler dados em uma mídia de armazenamento, é preciso que  se utilize um método para organizá-los de maneira estruturada. Um sistema de  arquivos fornece meios para a gravação e a leitura de arquivos e diretórios. O  sistema operacional é o programa responsável por entender o sistema de arquivos  e fornecer acesso aos dados para os demais programas. Alguns tipos comuns de  sistemas de arquivos são: FAT32 e NTFS (Windows); Ext2, Ext4, ReiserFS (Linux);  HFS+ (OS X). De modo a facilitar o gerenciamento dos espaços livres e ocupados, sistemas  de arquivos costumam dividir logicamente uma mídia em blocos (ou unidades  de alocação). Assim, em vez de ter que gerenciar conjuntos de bits e bytes, o  sistema de arquivos lida com pedaços maiores de informação, os blocos, formados  geralmente por milhares de bytes. O bloco é a unidade mínima de armazenamento que um arquivo pode  ocupar. Mesmo que o arquivo seja muito pequeno, a ele será alocado um bloco  inteiro. Quando um arquivo for grande, ele ocupará tantos blocos quanto forem  necessários para armazenar seu conteúdo. Para saber quais blocos estão livres e quais estão sendo ocupados, o sistema  de arquivos utiliza um mapa de bits. Esse mapa consiste em uma tabela composta  por 0s e 1s em que cada bloco corresponde a um bit na tabela. Assim, se o bit  correspondente ao enésimo bloco for igual a 1, este bloco estará ocupado (e  vice-versa). Sempre que um arquivo novo é criado, o mapa de bits é consultado  para saber quais blocos estão livres e, em seguida, o mapa é atualizado para  registrar quais blocos foram ocupados pelo arquivo. Processo análogo acontece  quando um arquivo é apagado do sistema. Além do mapa de bits, o sistema de arquivos também deve armazenar informações sobre os atributos dos arquivos gravados na mídia. Essas informações  são conhecidas como metadados (dados a respeito de dados). Os metadados  geralmente incluem informações como o nome do arquivo, datas (de criação,  modificação e último acesso) e seu tamanho total. Dependendo do sistema de  arquivos utilizado, esses metadados podem estar armazenados de diferentes  formas e, em geral, encontram-se estruturados na forma de tabelas, como, por  exemplo, na Figura 3.</p>
+<figure><img src="img/p021_3.png" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 3 - Esquema simpliﬁ cado de um sistema de arquivos</p>
+<p>Nomes de arquivo podem ser compostos por duas partes: o nome propriamente  dito e sua extensão (como em “Apostila.docx”). Em geral, a extensão indica algo  sobre o tipo do arquivo e pode estar associada a um determinado programa. Além disso, vários arquivos contêm em seu interior uma sequência de caracteres  que identificam seu tipo (como um arquivo do Microsoft Word ou um PDF, por  exemplo). Essas sequências de bytes são específicas para cada tipo de arquivo  e são conhecidas como assinaturas. As assinaturas podem estar presentes no  início e/ou no fim dos arquivos. Normalmente, as assinaturas estão associadas a extensões específicas.  Entretanto, nada impede que um arquivo do tipo Microsoft Word seja renomeado  para “Apostila.mp3”.</p>
+<h2 id="sec10">2.5 Funções unidirecionais de resumo (hash)</h2>
+<p>Uma das preocupações da Informática Forense é a preservação dos vestígios  digitais, ou seja, manter sua integridade. Manter a integridade de um dado significa  garantir que ele não seja alterado e, se, por qualquer motivo, isso acontecer, essa  alteração deve ser inequivocamente detectada. O principal mecanismo para garantir a integridade de dados é o cálculo  realizado com o uso das funções unidirecionais de resumo<em>(one-way hash </em> <em>functions</em>). As funções de resumosão algoritmos que mapeiam um conjunto de  dados de qualquer tamanho em um conjunto de dados de tamanho fixo (chamado  de <em>hash</em>). Em outras palavras, dado um conjunto qualquer de entrada, a função  de resumo produzirá sempre uma saída de tamanho determinado. A entrada da  função pode ser, por exemplo, um arquivo ou uma mensagem (veja a Figura 4). Conjunto de dados de tamanho qualquer Função  de  Resumo Saída (<em>hash</em> de tamanho ﬁ xo)</p>
+<p class="fig-caption">Figura 4 – Esquema simpliﬁ cado de uma</p>
+<p><em>função de resumo</em> Uma função de resumo é um algoritmo determinístico, ou seja, uma mesma  entrada sempre produzirá uma mesma saída. Por ser uma função unidirecional,  de posse do valor do <em>hash</em>, não é possível obter a entrada dos dados, ou seja, a  função não pode ser invertida. Além disso, é probabilisticamente improvável que  mensagens (ou arquivos) diferentes resultem em um mesmo valor de <em>hash</em>. Assim,  o <em>hash</em> de um arquivo pode ser utilizado como se fosse uma sua impressão digital  e qualquer alteração no conteúdo original resultará em um novo valor de <em>hash</em>. Exemplificando esse conceito, é possível selecionar dois arquivos diferentes, um  com 200 kB e outro com 4 MB, e usar uma mesma função unidirecional de resumo  para gerar o <em>hash</em> de cada um desses arquivos. Supondo que a função utilizada  gere saídas de 512 <em>bits,</em> ambos os <em>hashes</em> terão esse tamanho<em>,</em> independentemente  dos arquivos submetidos a ela. Se, posteriormente, alguém alterar um único bit  de algum desses arquivos e submetê-lo novamente à função de<em> hash</em> utilizada, o  resultado será completamente diferente, servindo para verificar que a integridade  desse arquivo não foi mantida (veja a Figura 5). ENTRADA SAÍDA (hash)</p>
+<table><tr><th>Lebrel italiano</th><th>   </th><th>Função de resumo</th><th>   </th><th>A46DF50C</th></tr><tr><td>O pequeno lebrel italiano</td><td></td><td>Função de resumo</td><td></td><td>43AD10E1</td></tr><tr><td>A pequeno lebrel italiano</td><td></td><td>Função de resumo</td><td></td><td>BC31F02E</td></tr><tr><td>O pequeno lebrel italiano</td><td></td><td>Função de resumo</td><td></td><td>43AD10E1</td></tr></table>
+<p class="fig-caption">Figura 5 – Exemplo de uma função de hash sobre diferentes mensagens de entrada</p>
+<p>Dentre os algoritmos mais utilizados para cálculo de <em>hash </em>estão o <em>MD5 </em> <em>(Message Digest</em> 5) e o SHA (<em>Secure Hash Algorithm</em>). O MD5 produz valores de  <em>hash</em> com 128 bits e o SHA-256, por exemplo, produz valores de <em>hash</em> de 256  bits. Para ilustrar a segurança existente no uso dessas funções como impressões  digitais de arquivos, uma função de <em>hash</em> com saída de apenas 64 bits pode gerar  cerca de 18 quintilhões (264) de valores de <em>hashes</em> diferentes. Várias ferramentas podem ser usadas para calcular e verificar <em>hashes</em>. Entre os  aplicativos gratuitos para a plataforma Windows, podemos citar o MD5Summer (<em>www.md5summer.org</em>) – destacado pela facilidade de uso e simplicidade – e o  FSUM (<em>www.slavasoft.com/fsum</em>).</p>
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+  })();
+</script>
+</body>
+</html>

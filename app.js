@@ -3111,6 +3111,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Disciplinas que possuem a versão completa do material (pasta COMPLETO/)
+    const materiaisCompletos = {
+        'informatica_forense': true
+    };
+    // false = resumido (padrão) | true = texto integral da apostila
+    let materialVersaoCompleta = false;
+
     // Mapeamento: chave do materialData → disciplina(s) no banco de questões
     const materialToQuestoes = {
         'criminalistica': ['Criminalística'],
@@ -3216,6 +3223,25 @@ document.addEventListener('DOMContentLoaded', () => {
     [btnCapPrev, btnCapPrev2].forEach(b => { if (b) b.addEventListener('click', () => navegarCapitulo(-1)); });
     [btnCapNext, btnCapNext2].forEach(b => { if (b) b.addEventListener('click', () => navegarCapitulo(1)); });
 
+    // --- Alternância Resumido / Completo ---
+    const btnVersao = document.getElementById('btn-versao-material');
+    function atualizarBotaoVersao() {
+        if (!btnVersao) return;
+        const tem = !!materiaisCompletos[matDisc.value] && !!matCap.value;
+        btnVersao.style.display = tem ? 'inline-flex' : 'none';
+        const lbl = document.getElementById('versao-material-label');
+        if (lbl) lbl.textContent = materialVersaoCompleta ? 'Ver resumo' : 'Ver completo';
+        btnVersao.classList.toggle('versao-completa-ativa', materialVersaoCompleta);
+    }
+    if (btnVersao) {
+        btnVersao.addEventListener('click', () => {
+            if (!matDisc.value || !matCap.value || !materiaisCompletos[matDisc.value]) return;
+            materialVersaoCompleta = !materialVersaoCompleta;
+            atualizarBotaoVersao();
+            matCap.dispatchEvent(new Event('change')); // recarrega o capítulo na versão escolhida
+        });
+    }
+
     // --- Continuar de onde parou: restaura o último capítulo aberto ---
     let materialRestaurado = false;
     window.restaurarUltimoMaterial = function () {
@@ -3262,7 +3288,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if(!matDisc.value || !matCap.value) return;
             const folder = materialData[matDisc.value].path;
             const fileName = matCap.value;
-            const url = `materiais/${folder}/HTML/${fileName}`;
+            if (!materiaisCompletos[matDisc.value]) materialVersaoCompleta = false;
+            const pastaVersao = materialVersaoCompleta ? 'COMPLETO' : 'HTML';
+            const url = `materiais/${folder}/${pastaVersao}/${fileName}`;
+            atualizarBotaoVersao();
             
             iframeContainer.style.display = 'block';
             statusMsg.style.display = 'inline-block';
@@ -3429,7 +3458,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             const folder = materialData[matDisc.value].path;
-            const url = `materiais/${folder}/HTML/${matCap.value}`;
+            const pastaVersao = (materialVersaoCompleta && materiaisCompletos[matDisc.value]) ? 'COMPLETO' : 'HTML';
+            const url = `materiais/${folder}/${pastaVersao}/${matCap.value}`;
             const win = window.open(url, '_blank');
             if (!win) { alert('Não foi possível abrir a aba (verifique o bloqueador de pop-ups).'); return; }
 

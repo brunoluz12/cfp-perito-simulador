@@ -5486,3 +5486,10 @@ html.dark-mode #tts-player .tts-select option { background: #1e293b; }
     padding: 4px 10px;
     white-space: nowrap;
 }
+
+/* Botão Resumido/Completo — estado "vendo material completo" */
+#btn-versao-material.versao-completa-ativa {
+    background: rgba(43, 108, 176, 0.15);
+    color: #2b6cb0;
+    border-color: #2b6cb0;
+}

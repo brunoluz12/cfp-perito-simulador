@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3 - Busca e Apreensão (Completo) - Informática Forense</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.7; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        .badge-full { background: #2b6cb0; margin-left: 6px; }
+        h1 { font-size: 2.1em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.1em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; margin: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 34px; }
+        h3 { color: #2d3748; margin-top: 26px; }
+        h4 { color: #4a5568; margin-top: 22px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        code { font-family: 'Consolas', 'Courier New', monospace; background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+        pre.mono { font-family: 'Consolas', 'Courier New', monospace; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-size: 0.9em; line-height: 1.5; margin: 18px 0; }
+        .fig-caption { text-align: center; color: #718096; font-size: 0.92em; font-style: italic; margin-top: -6px; }
+        figure { margin: 22px 0; text-align: center; }
+        figure img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span><span class="badge badge-full">Material Completo</span>
+        <h1>Capítulo 3 - Busca e Apreensão</h1>
+        <div class="subtitle">Texto integral da apostila, estruturado para leitura</div>
+    </div>
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+<li><a href="#sec1">3.1 Planejamento</a></li>
+<li><a href="#sec2">3.2 Execução da busca</a></li>
+<li><a href="#sec3">3.3 Seleção de material relevante</a></li>
+<li style="margin-left:16px"><a href="#sec4">3.3.1 Computadores(desktops e notebooks)</a></li>
+<li style="margin-left:16px"><a href="#sec5">3.3.2 Mídias avulsas</a></li>
+<li style="margin-left:16px"><a href="#sec6">3.3.3 Cópias de dados</a></li>
+<li><a href="#sec7">3.4 Arrecadação</a></li>
+        </ul>
+    </div>
+<p>A busca em local envolvendo crimes por computador não difere muito de outras  buscas, mas apresenta algumas particularidades relevantes. Algumas informações  complementares são necessárias para a obtenção de dados em cenários mais  complexos. Além disso, cuidados adicionais devem ser tomados para evitar a  apreensão desnecessária de equipamentos, bem como o acondicionamento  inadequado de materiais frágeis. Durante o cumprimento de mandado judicial, a função do Perito Criminal é a  de especialista para assuntos relativos à sua área de atuação. O Perito Criminal,  portanto, orientará a equipe quanto à seleção, à preservação e ao encaminhamento dos vestígios de informática. Basicamente, pode-se dividir o trabalho em um local envolvendo crimes por  computador nas seguintes etapas: planejamento, execução da busca, seleção de  material relevante e arrecadação.</p>
+<h2 id="sec1">3.1 Planejamento</h2>
+<p>O Perito Criminal da área de informática, sempre que possível, deve participar  do planejamento das operações policiais envolvendo crimes por computador.  Com esse intuito, o Perito Criminal deverá interagir com a equipe de investigação  e, visando tornar a busca mais eficaz, orientará a montagem das equipes de  busca, a escolha dos métodos de entrada no local, a determinação do tipo de  equipamento a ser arrecadado e qualquer outra decisão relacionada às buscas. Diferentes ambientes requerem diferentes estratégias para a obtenção de  evidências. Residências, empresas de pequeno porte, empresas de grande porte,  empresas com filiais interligadas por rede são alguns dos cenários comuns.  Portanto, a participação do Perito Criminal no planejamento permite a escolha  das ferramentas adequadas para cada caso, identifica riscos e reduz a chance  de imprevistos técnicos. Pela eventual ausência de outros elementos que possam servir como prova,  atenção especial deve ser tomada nos casos que envolvam crimes próprios  (condutas criminosas realizadas por meio do computador e consumadas dentro  do espaço cibernético). A apreensão incorreta de computadores que estejam  criptografados, por exemplo, pode dificultar (ou mesmo inviabilizar) o posterior  exame pericial.</p>
+<h2 id="sec2">3.2 Execução da busca</h2>
+<p>Com a finalidade de padronizar a conduta no trato com os vestígios de informática, a Instrução Técnica 003/2010-GAB/Ditec apresenta os procedimentos a  serem adotados pelo Perito Criminal no local de busca. Já a IT 018/2013-Ditec/ DPF normatiza os procedimentos de busca e apreensão para casos que envolvam  crimes de abuso sexual contra crianças e adolescentes. Ambos os normativos  passam por processo de revisão e atualização. Como já mencionado, a execução da busca não é muito diferente do cumprimento de qualquer mandado. Após ter o local sob controle, deve-se evitar  qualquer tentativa de ocultar, adulterar ou destruir evidências. Para isso, deve-se  impedir que pessoas estranhas à equipe de busca manipulem os equipamentos  de informática presentes no local. Disquetes, CDs, DVDs, <em>pen drives</em> e mídias  de armazenamento de tamanho reduzido são fáceis de serem ocultados. Alguns  materiais podem ser danificados em questão de segundos. Em seguida, o Perito Criminal realizará um reconhecimento a fim de localizar  equipamentos, identificar sistemas e topologias de rede, localizar pontos de acesso  e, caso necessário, tomará outras providências cabíveis para a preservação dos  dados, como interromper conexões de rede eventualmente existentes (vestígios  podem ser apagados remotamente por acesso externo à rede de dados do local  da busca). O Perito Criminal não deve operar os computadores no local, exceto nos  seguintes casos:</p>
+<ul><li>em observância a determinações expressas contidas em mandado judicial e em consonância com a coordenação da equipe de busca e apreensão;</li><li>para preservação de evidências voláteis ou cujo acesso posterior seja inviável ou possa ser comprometido; ou</li><li>para racionalizar a seleção do material a ser apreendido, nas situações em que for possível avaliar a relevância das informações contidas nos  equipamentos.</li></ul>
+<p>Caberá ao Perito Criminal determinar se existem condições técnicas e recursos  humanos e materiais suficientes para que o equipamento seja operado no local. Caso seja constatada a ocorrência de crime por computador em andamento,  o Perito Criminal deverá realizar os procedimentos de exame em local de crime  de informática, previstos nas Instruções Técnicas supracitadas.</p>
+<h2 id="sec3">3.3 Seleção de material relevante</h2>
+<p>Ao contrário do que muitos pensam, uma operação bem-sucedida não é  aquela que apreende o maior número de equipamentos existentes num local, mas  sim aquela que tem foco e seleciona apenas o que é importante para o caso em  questão. É fundamental usar as informações disponíveis a fim de se selecionar  somente o que for relevante para a investigação. Há casos em que o mandado de busca abrange toda a empresa, apesar do  interesse principal estar no setor de contabilidade, por exemplo. Nesses casos,  não deve ser necessário apreender os computadores e mídias dos demais setores. Obviamente, deve-se estar atento aos computadores que funcionem como  servidores de arquivos ou de e-mails, que podem concentrar as informações de  interesse, e àqueles da diretoria ou da presidência. São sugeridas algumas dicas no momento da seleção do material a ser  apreendido:</p>
+<ul><li>saber o que se deseja provar – às vezes, uma prova documental encontrada no local já é suficiente;</li><li>imprimir um relatório diretamente do banco de dados ou do sistema de informática da empresa pode ser mais eficaz que apreender os respectivos  computadores;</li><li>senhas, nomes de usuários ou detalhes do funcionamento de sistemas podem ser necessários em um exame futuro. Essas informações podem ser  encontradas em anotações próximas aos computadores ou ser solicitadas  às pessoas presentes no local, mesmo que sejam os próprios suspeitos da  investigação (embora não haja por parte deles a obrigação de fornecer  esses dados).</li></ul>
+<p>Uma busca em local envolvendo crimes por computador normalmente apreende computadores e mídias avulsas. Pode ser necessária a realização de cópia  de dados no local.</p>
+<h3 id="sec4">3.3.1 Computadores(desktops e notebooks)</h3>
+<p>As informações de interesse estão geralmente armazenadas na memória permanente desses equipamentos, ou seja, no disco rígido (HD ou SSD). Entretanto,  eles não devem ser retirados do gabinete ou do notebook para serem apreendidos:  a regra é apreender os computadores por inteiro.  O principal motivo é a possibilidade de haver criptografia de disco ativada,  vinculada a um módulo de segurança existente na placa-mãe (TPM), que faz  com que os dados contidos nos discos avulsos se tornem inacessíveis. Devem ser  consideradas também as dificuldades de acesso físico ao interior de notebooks,  além da possibilidade de existência de configurações lógicas de conexão entre  múltiplos discos (ex: RAID) que possam complicar a leitura desses discos sem o  restante do hardware do computador. Dispositivos de entrada e saída de dados – impressoras, teclados, monitores  e outros periféricos – devem ser apreendidos somente se houver algum interesse  específico (ex: determinar se um documento foi impresso na impressora). Se o equipamento a ser apreendido estiver desligado, ele deve permanecer  dessa maneira. Caso o computador esteja ligado, deve-se:</p>
+<ul><li>verificar a necessidade de registrar flagrante, de acordo com o que estiver claramente visível na tela do computador;</li><li>verificar a existência de criptografia de disco e/ou possíveis informações relevantes na memória volátil, avaliando a necessidade de realizar pro- cedimentos para a preservação dos dados, como:</li><li>obtenção da chave de recuperação do Bitlocker;</li><li>configuração do Bitlocker em modo de suspensão;</li><li>obtenção das chaves criptográficas do WhatsApp Web;</li><li>ativação do modo de hibernação do Windows;</li><li>captura da memória RAM; e</li><li>colocar o computador em modo de hibernação.</li></ul>
+<p>Se possível, devem-se apreender também os cabos de conexão, carregadores  e demais acessórios correlatos, especialmente quando se tratar de modelos pouco  usuais.</p>
+<figure><img src="img/p028_4.jpeg" loading="lazy" alt=""></figure>
+<figure><img src="img/p028_5.jpeg" loading="lazy" alt=""></figure>
+<p><em>Computador e seus periféricos</em> <em>Notebook</em></p>
+<p class="fig-caption">Figura 6 – Exemplos de computadores</p>
+<figure><img src="img/p028_6.jpeg" loading="lazy" alt=""></figure>
+<figure><img src="img/p028_7.jpeg" loading="lazy" alt=""></figure>
+<p><em>Disco rígido (HD)</em> <em>Disco de estado sólido (SSD)</em></p>
+<p class="fig-caption">Figura 7 – Exemplos de discos encontrados no interior de computadores</p>
+<h3 id="sec5">3.3.2 Mídias avulsas</h3>
+<p>Mídias removíveis ou avulsas (<em>pen drives</em>, CDs, DVDs, cartões de memória,  <em>chips</em> de celular, disquetes) também podem conter dados relevantes e devem ser  apreendidas. Cuidado especial deve ser dado aos dispositivos conectados em  um computador alvo, como gavetas de discos rígidos (HDs externos) e chaves de  <em>hardware</em> (<em>dongles</em>), por exemplo. Além disso, é preciso atenção para mídias de armazenamento pouco usuais,  tais como máquinas fotográficas e filmadoras digitais, e <em>pen drives</em> em formatos  incomuns (chaveiros, canivetes, bichos de pelúcia). Quando uma mídia pouco  usual for apreendida, deve ser arrecadado também o dispositivo de leitura correspondente, sempre que possível. Deve ser evitada a apreensão de mídias que claramente não possuem dados  relevantes ao processo apuratório, como CDs e DVDs originais contendo músicas  ou instalação de programas, por exemplo. <em>Mídias óticas</em> <em>Cartões de memória</em> <em>Pen drive</em></p>
+<figure><img src="img/p029_8.jpeg" loading="lazy" alt=""></figure>
+<figure><img src="img/p029_9.jpeg" loading="lazy" alt=""></figure>
+<figure><img src="img/p029_10.jpeg" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 8 – Exemplos de mídias avulsas</p>
+<h3 id="sec6">3.3.3 Cópias de dados</h3>
+<p>Quando houver inviabilidade legal ou técnica à apreensão de equipamentos,  poderão ser efetuadas cópias dos dados existentes no local, os quais serão posteriormente examinados. A apreensão de dados pode ser realizada ainda para  reduzir o volume de material arrecadado. Esse tipo de apreensão costuma ocorrer quando os dados estão armazenados  em computadores de grande porte ou em algum repositório na rede da empresa.  Em algumas ocasiões, pode-se, por exemplo, executar a cópia da caixa postal  de e-mails de um alvo específico, evitando a apreensão de todo o servidor de  mensagens da empresa. A realização dessas cópias deve ser feita, sempre que possível, sob a supervisão de um Perito Criminal da área de informática, que possui as ferramentas e  conhecimentos necessários para a realização desse procedimento. Além disso, a  apreensão de dados só deve ser realizada quando houver:</p>
+<ul><li>disponibilidade de mídias de tipo e capacidade adequados para armazenar as cópias;</li><li>disponibilidade de equipamentos e <em>software</em> adequados; e</li><li>disponibilidade de recursos humanos para realização das cópias em tempo hábil.</li></ul>
+<p>Esse procedimento deve ser acompanhado, sempre que possível, por testemunhas do próprio local – de preferência, o dono do equipamento, no caso de  residências, ou os funcionários responsáveis, no caso de empresas. Os dados a serem apreendidos devem ser submetidos a funções unidirecionais  de resumo, visando futuras verificações de integridade. Idealmente, o <em>hash</em> dos  dados apreendidos deve constar no Auto de Apreensão.</p>
+<figure><img src="img/p030_11.jpeg" loading="lazy" alt=""></figure>
+<p><em>Supercomputador</em></p>
+<figure><img src="img/p030_12.jpeg" loading="lazy" alt=""></figure>
+<p><em>Conjunto de servidores</em></p>
+<p class="fig-caption">Figura 9 – Exemplos de computadores de grande porte</p>
+<h2 id="sec7">3.4 Arrecadação</h2>
+<p>Mídias de armazenamento de dados são equipamentos muito frágeis, tanto  em termos mecânicos quanto eletrônicos e magnéticos. Por isso, devem ser  manuseadas com extremo cuidado. Cada vestígio requer um tipo especial de tratamento para evitar danos. Devem  ser tomados alguns cuidados especiais com os seguintes fatores:</p>
+<ul><li>calor e umidade: são grandes inimigos de computadores e de suas mídias.</li></ul>
+<p>Não se devem deixar os itens apreendidos próximos a fontes de umidade  ou em locais com alta temperatura, ou sol incidente;</p>
+<ul><li>campos magnéticos: são intempéries que podem danificar as mídias magnéticas, gravadas com o uso de um campo magnético preciso, seme- lhante ao processo utilizado para gravar fitas cassete. Deve-se evitar os  campos magnéticos gerados por motores elétricos, alto-falantes, ímãs etc.;</li><li>eletricidade estática: os componentes eletrônicos são muito suscetíveis à eletricidade estática. A estática presente no corpo humano pode danificar  componentes eletrônicos. Os plásticos para acondicionamento de vestígios  também podem acumular eletricidade estática. Portanto, deve-se, sempre  que possível, utilizar embalagens antiestáticas;</li><li>choques mecânicos: quedas e outros impactos podem facilmente danifi- car mídias computacionais. Para protegê-las adequadamente, devem ser  utilizadas embalagens com proteção, como plástico-bolha. Deve-se evitar  depositar o material diretamente no fundo de viaturas; o ideal é que haja  uma preparação do espaço que vai receber a apreensão, permitindo o  transporte sem muita vibração mecânica.</li></ul>
+<p>Discos rígidos, por exemplo, devem ser acondicionados em embalagens  próprias (facilmente encontradas a preços baixos nas papelarias e lojas de informática). Caso tais embalagens não estejam disponíveis, deve-se fazer algum tipo  de proteção improvisada, tal como papelão ou plástico-bolha. Os equipamentos arrecadados necessitam ser ainda adequadamente etiquetados e lacrados. Sempre que possível, devem ser separados em embalagens  diferentes, dando preferência ao uso de plásticos transparentes como elementos  de embalagem. As etiquetas identificadoras devem, preferencialmente, ser  afixadas sobre o equipamento em si, não sobre as embalagens. Os cabos de  dados, carregadores e demais acessórios devem ser embalados juntamente com o  equipamento correspondente. Os discos rígidos removidos de um mesmo gabinete  devem ser embalados e lacrados em um único volume. Mídias removíveis devem ser  agrupadas por tipo e cada conjunto deve ser embalado e lacrado separadamente.</p>
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+  })();
+</script>
+</body>
+</html>

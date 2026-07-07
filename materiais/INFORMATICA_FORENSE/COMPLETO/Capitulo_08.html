@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 8 - Laudo e Anexos Digitais (Completo) - Informática Forense</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.7; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        .badge-full { background: #2b6cb0; margin-left: 6px; }
+        h1 { font-size: 2.1em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.1em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; margin: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 34px; }
+        h3 { color: #2d3748; margin-top: 26px; }
+        h4 { color: #4a5568; margin-top: 22px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        code { font-family: 'Consolas', 'Courier New', monospace; background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+        pre.mono { font-family: 'Consolas', 'Courier New', monospace; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-size: 0.9em; line-height: 1.5; margin: 18px 0; }
+        .fig-caption { text-align: center; color: #718096; font-size: 0.92em; font-style: italic; margin-top: -6px; }
+        figure { margin: 22px 0; text-align: center; }
+        figure img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Informática Forense</span><span class="badge badge-full">Material Completo</span>
+        <h1>Capítulo 8 - Laudo e Anexos Digitais</h1>
+        <div class="subtitle">Texto integral da apostila, estruturado para leitura</div>
+    </div>
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+<li><a href="#sec1">8.1 Garantia de integridade e autenticidade</a></li>
+<li><a href="#sec2">8.2 Procedimentos para geração do anexo</a></li>
+<li><a href="#sec3">8.3 Procedimentos para veriﬁ cação do anexo</a></li>
+        </ul>
+    </div>
+<p>O laudo de exame de vestígios digitais deve descrever em detalhes todos os  procedimentos adotados durante a análise, assim como os resultados obtidos e  a forma de apresentação desses resultados – que geralmente consiste em uma  seleção de arquivos gravados em mídia anexa. Um laudo típico da área de informática contém, além do preâmbulo, os  seguintes itens: Histórico (opcional); Material; Objetivo; Exame e Respostas aos  quesitos ou Conclusão. Considerações técnicas são normalmente apresentadas  na forma de apêndices. Nos casos em que são selecionados poucos arquivos (como planilhas, documentos ou e-mails), pode-se, simplesmente, incorporá-los no corpo do Laudo.  Entretanto, o mais comum é exportar os arquivos selecionados e gravá-los em uma  mídia, encaminhados como anexo ao laudo. Isso acontece quando a quantidade  de dados é muito grande ou quando o arquivo a ser encaminhado não pode ser  visualizado em um documento, como no caso de arquivos executáveis, áudio e  vídeo, por exemplo. Dessa forma, os arquivos são encaminhados em seu formato original, permitindo que grandes volumes de dados sejam anexados, facilitando a manipulação  dessas informações, a rápida navegação pelos documentos, a busca por palavras- -chave, a ordenação e cálculos com valores, entre outros. A exemplo dos cuidados necessários com os vestígios digitais, o maior problema para o encaminhamento de arquivos em anexos digitais é garantir a sua  integridade, uma vez que alguém poderia replicar o conteúdo, inserir/alterar algum  arquivo ou substituir a mídia original sem deixar vestígios de qualquer manipulação. Para que isso seja evitado, é imprescindível que sejam adotados mecanismos  que permitam a qualquer interessado verificar a integridade dos dados e a  autenticidade dos anexos encaminhados, ou seja, verificar se os dados não foram  acidental ou intencionalmente alterados e se tudo – e somente aquilo – que o  Perito Criminal encaminhou continua presente no anexo.</p>
+<h2 id="sec1">8.1 Garantia de integridade e autenticidade</h2>
+<p>Conforme já mencionado, com o uso de funções unidirecionais de resumo,  é possível garantir que determinado arquivo não seja alterado sem que isso seja  inequivocamente detectado, ou seja, é possível garantir sua integridade. Essa é  uma das condições para a aceitação de vestígios digitais encaminhados em mídias  de armazenamento digital, evitando que tais arquivos sejam alterados no intervalo  compreendido entre a perícia e os demais responsáveis pela persecução penal. No caso concreto dos laudos produzidos na Polícia Federal, cada arquivo  contido no anexo é submetido ao cálculo de um algoritmo de <em>hash</em>, cujo resultado  é registrado em uma linha de um arquivo texto. Ao final, obtém-se uma lista com  a relação de todos os arquivos e o seu respectivo valor de <em>hash</em> representado  em caracteres hexadecimais, a qual, por questões de ordem prática (os laudos  produzidos na Polícia Federal podem conter dezenas de milhares de arquivos),  é gravada na própria mídia anexa. Fica garantida, desta forma, a integridade  individual dos arquivos encaminhados, já que, a qualquer momento, poderão ser  feitas verificações posteriores de seus valores de hash. Surge, então, uma segunda questão ligada à realização de tais verificações:  como garantir que a lista de hashes utilizada é, de fato, aquela gerada pelo  perito criminal no momento da emissão do laudo? Ou, em outras palavras: como  assegurar a autenticidade da mídia anexa ao laudo? Nos laudos periciais da Polícia Federal, este problema é resolvido calculando-se  o valor do <em>hash</em> do arquivo de texto que contém a lista de <em>hashes</em> e transcrevendo  esse valor de <em>hash</em> no corpo do Laudo, que é assinado digitalmente. Vincula-se, desta forma, a integridade dos arquivos anexados e a autenticidade  da própria mídia utilizada ao teor do Laudo pericial digital, que por sua vez pode  ser autenticado por meio da assinatura digital. A figura a seguir ilustra o processo  realizado (o círculo tracejado demonstra o mecanismo de garantia de integridade  dos arquivos e o círculo pontilhado demonstra o mecanismo de garantia de  autenticidade da mídia anexa – deve-se destacar que o mecanismo de garantia  de autenticidade também garante a integridade).</p>
+<figure><img src="img/p074_24.png" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 21 – Integridade e autenticação de um anexo digital</p>
+<h2 id="sec2">8.2 Procedimentos para geração do anexo</h2>
+<p>Os seguintes passos devem ser seguidos para a correta geração do anexo  digital do Laudo pericial: a) criação da lista de <em>hashes</em>: usar um <em>software</em> para gerar uma lista  com os <em>hashes</em> de todos os arquivos que serão gravados no anexo,  armazenando essa lista em um arquivo de nome <em>hashes.txt</em>, por  exemplo; b) cálculo do <em>hash</em> da lista de <em>hashes</em>: usar novamente o <em>software</em>,  mas desta vez para calcular o <em>hash</em> do arquivo <em>hashes.txt</em> gerado no  passo anterior. O valor do <em>hash</em> calculado deve então ser transcrito  para o corpo do Laudo; c) gravação dos arquivos no anexo: usar um <em>software</em> para gerar um  arquivo-contêiner (ISO, ZIP, E01 etc.) a partir da seleção de todos os  arquivos e subpastas existentes no diretório que contém o resultado  dos exames juntamente com o arquivo <em>hashes.txt</em> gerado no primeiro  passo. Esse arquivo-contêiner então é gravado na mídia que será  encaminhada como anexo do laudo, adotando-se providências para  que ela não permita alterações de seu conteúdo (uso de mídias óticas  não regraváveis ou de pendrives/HDs externos configurados como  somente leitura por meio do comando DiskPart, por exemplo).</p>
+<h2 id="sec3">8.3 Procedimentos para veriﬁ cação do anexo</h2>
+<p>Os seguintes passos devem ser seguidos para a correta verificação do anexo  digital do Laudo pericial: a) cálculo da integridade da lista de <em>hashes</em>: usar um <em>software</em> para calcular o <em>hash</em> do arquivo <em>hashes.txt</em> (continuando o exemplo  anterior) contido no anexo. Comparar o resultado calculado com o  valor presente no corpo do Laudo; b) cálculo da integridade dos arquivos: calcular o <em>hash</em> de todos os  arquivos gravados na mídia ótica e comparar o resultado com os  valores armazenados na listagem <em>hashes.txt</em>. O resultado do passo (a) deve ser dois valores idênticos (o presente no corpo  do Laudo e o valor recém-calculado). O resultado do passo (b) deve ser a correta  verificação de todos os arquivos presentes na mídia, sem nenhuma falha. Com  isso, garante-se a autenticidade da mídia e a integridade do seu conteúdo.</p>
+<figure><img src="img/p076_25.png" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 22 – Exemplo do conteúdo do arquivo hashes.txt</p>
+<figure><img src="img/p076_26.jpeg" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 23 – Exemplo do hash do arquivo hashes.txt presente no ﬁ nal de um Laudo</p>
+<p><strong>Referências </strong> AccessData Corp. FTK User Guide, Lindon, Utah, EUA: AccessData, 2010. CASEY, Eoghan. Digital Evidence and Computer Crime - Forensic Science, Computers and the Internet, Reino Unido-GB: Elsevier Academic Press, 2004. DoJ, Department of Justice. Electronic Crime Scene Investigation: A Guide for  First Responders, EUA: NIJ Guide, julho, 2001. DoJ, Department of Justice. Forensic Examination of Digital Evidence: A Guide  for Law Enforcement, EUA: NIJ Guide, abril, 2004. PF, POLÍCIA FEDERAL. Instrução Técnica 003/2010-Ditec/PF, Brasília: Boletim  de Serviço Nº 093, maio, 2010. PF, POLÍCIA FEDERAL. Instrução Técnica 017/2013-Ditec/PF, Brasília: Boletim  de Serviço Nº 022, janeiro, 2013. PF, POLÍCIA FEDERAL. Instrução Técnica 018/2013-Ditec/PF, Brasília: Boletim  de Serviço Nº 007, abril, 2013. PF, POLÍCIA FEDERAL. Portaria Ditec/PF nº 1710, de 02 de março de 2026,  Brasília. ELEUTÉRIO, Pedro M. S.; MACHADO, Márcio P. Desvendando a Computação  Forense, São Paulo: Novatec Editora, 2010. FBI, FEDERAL BUREAU OF INVESTIGATION, Evidence Examinations, EUA:  Handbook of Forensic Services, URL: http://www.fbi.gov/hq/lab/handbook, 2003. INTERPOL, IT security and crime prevention methods, URL: www.interpol.int/Public/ TechnologyCrime/ CrimePrev/ITSecurity.asp, outubro, 2004. IOCE, International Organization on Computer Evidence, Guidelines for best  practice in the forensic examination of digital technology, EUA: maio, 2002. KUPPENS, Luciano L. Utilização de dicionários probabilísticos personalizados para  decifrar arquivos em análises periciais. Dissertação de Mestrado em Engenharia  Elétrica: Universidade de Brasília, Brasília, 2012. NHTC, National Hi-Tech Crime Unit. Good Practice Guide for Computer based  Electronic Evidence, Reino Unido-GB: ACPO Guide, 2004. RUBACK, Marcelo C. Mineração de dados aplicada à construção de bases de  hash em computação forense. Dissertação de Mestrado em Engenharia Elétrica:  Universidade de Brasília, Brasília, 2011. STALLINGS, William. Cryptography and Network Security: Principles and Practice,  Fifth edition, EUA: Prentice Hall, 2011. TANENBAUM, Andrew. Sistemas Operacionais Modernos, 2ª Edição, São Paulo:  Prentice Hall, 2003.</p>
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+  })();
+</script>
+</body>
+</html>
