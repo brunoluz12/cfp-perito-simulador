@@ -290,6 +290,7 @@ async function tryLogin(username, autoRestore = false) {
         localStorage.removeItem('pcpr_material_studied');
         localStorage.removeItem('pcpr_flashcards');
         localStorage.removeItem('pcpr_notes');
+        localStorage.removeItem('pcpr_marcacoes');
     }
     
     // Carregar dados da nuvem (na restauração de sessão isto é pulado: usamos os
@@ -319,6 +320,7 @@ async function tryLogin(username, autoRestore = false) {
                     }
                 }
                 if (result.data.anotacoes) localStorage.setItem('pcpr_notes', JSON.stringify(result.data.anotacoes));
+                if (result.data.marcacoes) localStorage.setItem('pcpr_marcacoes', JSON.stringify(result.data.marcacoes));
             }
         }
     } catch (e) {
@@ -374,6 +376,8 @@ function requestCloudSync() {
     syncTimeout = setTimeout(async () => {
         let agendaAplicada = {};
         try { agendaAplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'); } catch (e) {}
+        let marcacoes = {};
+        try { marcacoes = JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}'); } catch (e) {}
         const payload = {
             stats: stats,
             favoritos: favoritos,
@@ -383,7 +387,8 @@ function requestCloudSync() {
             agendaAplicada: agendaAplicada,
             materialEstudado: materialEstudado,
             flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
-            anotacoes: anotacoes
+            anotacoes: anotacoes,
+            marcacoes: marcacoes
         };
         
         try {
@@ -421,6 +426,8 @@ async function logout() {
         try {
             let agendaAplicada = {};
             try { agendaAplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'); } catch (e) {}
+            let marcacoes = {};
+            try { marcacoes = JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}'); } catch (e) {}
             await fetch(`${VERCEL_API_URL}/api/save`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -433,7 +440,8 @@ async function logout() {
                     agendaAplicada: agendaAplicada,
                     materialEstudado: materialEstudado,
                     flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
-                    anotacoes: anotacoes
+                    anotacoes: anotacoes,
+                    marcacoes: marcacoes
                 }})
             });
         } catch (e) {
@@ -457,6 +465,7 @@ async function logout() {
         localStorage.removeItem('pcpr_material_studied');
         localStorage.removeItem('pcpr_flashcards');
         localStorage.removeItem('pcpr_notes');
+        localStorage.removeItem('pcpr_marcacoes');
     } else {
         alert('Não foi possível confirmar o backup na nuvem. Seus dados locais foram mantidos neste navegador.');
     }
@@ -498,7 +507,8 @@ async function syncLocalWithCloud() {
             agendaAplicada: JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'),
             materialEstudado: JSON.parse(localStorage.getItem('pcpr_material_studied') || '{}'),
             flashcards: JSON.parse(localStorage.getItem('pcpr_flashcards') || '[]'),
-            anotacoes: JSON.parse(localStorage.getItem('pcpr_notes') || '[]')
+            anotacoes: JSON.parse(localStorage.getItem('pcpr_notes') || '[]'),
+            marcacoes: JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}')
         };
 
         // 3. Merge Inteligente (UNION: nunca perde dados de nenhum lado)
@@ -581,6 +591,17 @@ async function syncLocalWithCloud() {
         lNotes.forEach(n => { if (n && n.id) noteMap.set(n.id, n); }); // local sobrescreve nuvem
         const mergedAnotacoes = Array.from(noteMap.values());
 
+        // --- Marcações (marca-texto dos materiais): união por capítulo e por id, local ganha ---
+        const cMarc = cloudData.marcacoes || {};
+        const lMarc = localData.marcacoes || {};
+        const mergedMarcacoes = {};
+        [...new Set([...Object.keys(cMarc), ...Object.keys(lMarc)])].forEach(k => {
+            const porId = new Map();
+            (Array.isArray(cMarc[k]) ? cMarc[k] : []).forEach(m => { if (m && m.id) porId.set(m.id, m); });
+            (Array.isArray(lMarc[k]) ? lMarc[k] : []).forEach(m => { if (m && m.id) porId.set(m.id, m); });
+            if (porId.size) mergedMarcacoes[k] = Array.from(porId.values());
+        });
+
         // Atualiza memória e localStorage
         localStorage.setItem('pcpr_history', JSON.stringify(mergedHistorico));
         localStorage.setItem('pcpr_favorites', JSON.stringify(mergedFavoritos));
@@ -590,6 +611,7 @@ async function syncLocalWithCloud() {
         localStorage.setItem('pcpr_agenda_aplicada', JSON.stringify(mergedAgenda));
         localStorage.setItem('pcpr_flashcards', JSON.stringify(mergedFlashcards));
         localStorage.setItem('pcpr_notes', JSON.stringify(mergedAnotacoes));
+        localStorage.setItem('pcpr_marcacoes', JSON.stringify(mergedMarcacoes));
         
         // Recalcula os totais (total de resoluções/tentativas) a partir do histórico
         // mesclado, mantendo os indicadores consistentes após o merge.
@@ -608,7 +630,8 @@ async function syncLocalWithCloud() {
             agendaAplicada: mergedAgenda,
             materialEstudado: mergedMaterial,
             flashcards: mergedFlashcards,
-            anotacoes: mergedAnotacoes
+            anotacoes: mergedAnotacoes,
+            marcacoes: mergedMarcacoes
         };
 
         await fetch(`${VERCEL_API_URL}/api/save`, {

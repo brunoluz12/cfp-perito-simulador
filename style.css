@@ -5493,3 +5493,47 @@ html.dark-mode #tts-player .tts-select option { background: #1e293b; }
     color: #2b6cb0;
     border-color: #2b6cb0;
 }
+
+/* ===== Marca-texto dos materiais: popup de cores ===== */
+#hl-popup {
+    position: absolute;
+    z-index: 9500;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 10px;
+    background: var(--panel-bg);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--panel-border);
+    border-radius: 999px;
+    box-shadow: var(--shadow-panel);
+}
+#hl-popup .hl-dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid rgba(15, 23, 42, 0.15);
+    cursor: pointer;
+    transition: transform .12s, box-shadow .12s;
+    padding: 0;
+}
+#hl-popup .hl-dot:hover { transform: scale(1.18); }
+#hl-popup .hl-dot-atual {
+    box-shadow: 0 0 0 2px var(--panel-bg), 0 0 0 4px var(--primary-color);
+}
+#hl-popup #hl-remover {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid var(--panel-border);
+    background: transparent;
+    color: var(--error-color);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 2px;
+}
+#hl-popup #hl-remover:hover { background: var(--error-bg); }
