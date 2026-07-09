@@ -2909,6 +2909,58 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusMsg = document.getElementById('material-loading-status');
     const btnEstudado = document.getElementById('btn-marcar-estudado');
 
+    // --- Ajuste robusto da altura do iframe de material (mesma origem) ---
+    // Mede a altura real do conteúdo e reage a qualquer reflow (fontes, imagens,
+    // tabelas), evitando o corte que acontecia quando a altura era calculada uma
+    // única vez, cedo demais — sobretudo no material completo (mais longo).
+    let materialResizeObserver = null;
+    let ultimaAlturaMaterial = 0;
+    function medirAlturaMaterial() {
+        try {
+            const doc = iframe.contentDocument || (iframe.contentWindow && iframe.contentWindow.document);
+            if (!doc || !doc.body) return 0;
+            const cont = doc.querySelector('.container') || doc.body;
+            const h = Math.max(
+                cont ? cont.getBoundingClientRect().height : 0,
+                cont ? cont.offsetHeight : 0,
+                doc.body.scrollHeight,
+                doc.documentElement ? doc.documentElement.scrollHeight : 0
+            );
+            return Math.ceil(h) + 40;
+        } catch (e) { return 0; }
+    }
+    function aplicarAlturaMaterial(forcar) {
+        const h = medirAlturaMaterial();
+        if (h > 50 && (forcar || Math.abs(h - ultimaAlturaMaterial) > 2)) {
+            ultimaAlturaMaterial = h;
+            iframe.style.height = h + 'px';
+        }
+    }
+    function iniciarObservadorAltura() {
+        try {
+            if (materialResizeObserver) { materialResizeObserver.disconnect(); materialResizeObserver = null; }
+            const doc = iframe.contentDocument;
+            if (!doc) return;
+            const alvo = doc.querySelector('.container') || doc.body;
+            // Observa o conteúdo: mudar a ALTURA do iframe não altera a altura do
+            // conteúdo (que é guiada pelo texto), então não há laço de resize.
+            if (alvo && typeof ResizeObserver !== 'undefined') {
+                materialResizeObserver = new ResizeObserver(() => aplicarAlturaMaterial(false));
+                materialResizeObserver.observe(alvo);
+            }
+            // Remede a cada imagem que terminar de carregar
+            doc.querySelectorAll('img').forEach(img => {
+                if (!img.complete) img.addEventListener('load', () => aplicarAlturaMaterial(true), { once: true });
+            });
+            // Remede quando as fontes do documento terminarem de carregar
+            if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(() => aplicarAlturaMaterial(true)).catch(() => {});
+        } catch (e) {}
+    }
+    // Recalcula ao redimensionar/zoom da janela principal (belt-and-suspenders)
+    window.addEventListener('resize', () => {
+        if (iframeContainer && iframeContainer.style.display !== 'none') aplicarAlturaMaterial(true);
+    });
+
     // Referência ao botão "Marcar como Estudado" injetado no fim do capítulo (espelha o do topo)
     let btnEstudadoInjetado = null;
     const estilizarBtnEstudadoInjetado = (studied) => {
@@ -3337,6 +3389,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Aplica o tema (claro/escuro) ao conteúdo do material
                 aplicarTemaIframeMaterial();
 
+                // Mede a altura real do conteúdo já, observa reflows futuros e
+                // reforça em intervalos (fontes/imagens/tabelas que assentam depois).
+                ultimaAlturaMaterial = 0;
+                aplicarAlturaMaterial(true);
+                iniciarObservadorAltura();
+                [120, 350, 700, 1200, 2000, 3200].forEach(t => setTimeout(() => aplicarAlturaMaterial(true), t));
+
                 // Lógica de seleção de texto para flashcards
                 try {
                     const doc = iframe.contentDocument || iframe.contentWindow.document;
@@ -3513,14 +3572,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('message', (event) => {
         if (event.data && event.data.type === 'resize-iframe') {
             if (iframeContainer && iframeContainer.style.display !== 'none') {
-                const newHeight = event.data.height;
-                if (newHeight && newHeight > 50) {
-                    // Debounce: espera estabilizar antes de aplicar a altura
-                    clearTimeout(resizeDebounce);
-                    resizeDebounce = setTimeout(() => {
-                        iframe.style.height = newHeight + 'px';
-                    }, 150);
-                }
+                // O HTML avisa que mudou de tamanho; medimos direto o conteúdo
+                // (mais confiável que o valor informado) e ajustamos a altura.
+                clearTimeout(resizeDebounce);
+                resizeDebounce = setTimeout(() => aplicarAlturaMaterial(true), 60);
             }
         }
 
