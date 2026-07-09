@@ -2919,12 +2919,15 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const doc = iframe.contentDocument || (iframe.contentWindow && iframe.contentWindow.document);
             if (!doc || !doc.body) return 0;
-            const cont = doc.querySelector('.container') || doc.body;
+            // IMPORTANTE: medir APENAS o container do conteúdo. body/html "esticam"
+            // junto com a altura do iframe (scrollHeight >= viewport), o que criava
+            // um laço de crescimento infinito (+40px por ciclo).
+            const cont = doc.querySelector('.container') || doc.body.firstElementChild;
+            if (!cont) return 0;
             const h = Math.max(
-                cont ? cont.getBoundingClientRect().height : 0,
-                cont ? cont.offsetHeight : 0,
-                doc.body.scrollHeight,
-                doc.documentElement ? doc.documentElement.scrollHeight : 0
+                cont.getBoundingClientRect().height,
+                cont.offsetHeight || 0,
+                cont.scrollHeight || 0
             );
             return Math.ceil(h) + 40;
         } catch (e) { return 0; }
