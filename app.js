@@ -2531,7 +2531,11 @@ const aulaPrefixMap = {
     'PRO': 'pproc',     // PRO M1.0X = Perícia em Produtos e Contratações (PPROC)
     'PPROC': 'pproc',
     'PCEB': 'ppcexb',   // PCEB M1.0X = Perícias em Produtos Controlados, Explosivos e Balística
-    'PPCEXB': 'ppcexb'
+    'PPCEXB': 'ppcexb',
+    // Agenda nova (julho/2026) usa outra nomenclatura
+    'PPC': 'pproc',     // PPC - MERC = Perícia em Produtos e Contratações (Mercadorias)
+    'LOCINTER': 'loc',  // LOCINTER = Locais de Crime e suas Interfaces
+    'VF': null          // VF: código sem disciplina correspondente no plano (não conta)
 };
 
 // Devolve a LISTA de ids de disciplinas (em planoEducacional) a partir do
