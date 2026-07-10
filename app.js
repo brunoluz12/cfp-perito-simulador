@@ -31,8 +31,21 @@ function alterarCargoGlobal() {
     }
 }
 
+// Disciplinas cujas provas já ocorreram: o conteúdo continua no banco e nos
+// materiais, mas elas ficam fora de TODAS as seleções (Simulador, Simulado,
+// Anotações, Flashcards e aba Materiais). Para reativar, basta remover daqui.
+const disciplinasEncerradas = new Set([
+    'Investigação Policial (IPO)',                 // IPO 1
+    'Criminalística',
+    'PVAT - Módulo I (Identificação Veicular)',
+    'PVAT - Módulo II (Acidentes de Tráfego)'
+]);
+// Chaves correspondentes no select da aba Materiais
+const materiaisEncerrados = ['ipo', 'criminalistica', 'pvat_mod_1', 'pvat_mod_2'];
+
 function disciplinaPermitidaParaCargo(disciplina) {
     if (!disciplina) return true;
+    if (disciplinasEncerradas.has(disciplina)) return false;
     if (cargoAtual === 'todos') return true;
 
     const dUpper = disciplina.toUpperCase();
@@ -2908,6 +2921,15 @@ function atualizarBotaoEstudado(disciplina, capituloFile) {
 document.addEventListener('DOMContentLoaded', () => {
     const matDisc = document.getElementById('material-disciplina-select');
     const matCap = document.getElementById('material-capitulo-select');
+
+    // Remove das opções de Materiais as disciplinas com prova já realizada
+    // (os arquivos continuam no projeto; só saem da seleção)
+    if (matDisc) {
+        materiaisEncerrados.forEach(v => {
+            const opt = matDisc.querySelector(`option[value="${v}"]`);
+            if (opt) opt.remove();
+        });
+    }
     const iframeContainer = document.querySelector('.material-reader-container');
     const iframe = document.getElementById('material-iframe');
     const statusMsg = document.getElementById('material-loading-status');
