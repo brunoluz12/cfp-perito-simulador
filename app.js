@@ -52,22 +52,23 @@ function disciplinaPermitidaParaCargo(disciplina) {
     
     // Regras
     const isIPO2 = dUpper.includes('IPO 2') || dUpper.includes('IPO II)') || dUpper.includes('IPO II -');
-    const isPeritoEspecifico = dUpper.includes('CRIMINALÍSTICA') || 
-                               dUpper.includes('IPO 3') || dUpper.includes('IPO III') || 
-                               dUpper.includes('PCEB') || 
-                               dUpper.includes('PVAT') || 
+    // IPO 3: prova dos peritos já realizada — fica visível só para delegado/escrivão
+    const isIPO3 = dUpper.includes('IPO 3') || dUpper.includes('IPO III');
+    const isPeritoEspecifico = dUpper.includes('CRIMINALÍSTICA') ||
+                               dUpper.includes('PCEB') ||
+                               dUpper.includes('PVAT') ||
                                dUpper.includes('LOCAL DE CRIME') ||
                                dUpper.includes('LOCAIS DE CRIME') ||
                                dUpper.includes('LOC -');
-    
+
     if (cargoAtual === 'perito') {
-        if (isIPO2) return false;
-        return true; 
+        if (isIPO2 || isIPO3) return false;
+        return true;
     }
-    
+
     if (cargoAtual === 'delegado' || cargoAtual === 'escrivao') {
         if (isPeritoEspecifico) return false;
-        return true; 
+        return true;
     }
     
     return true;
