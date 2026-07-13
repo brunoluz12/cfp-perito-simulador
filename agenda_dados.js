@@ -21,6 +21,10 @@ const agendaDados = {
         {
             "id": "07-2026",
             "nome": "Julho de 2026"
+        },
+        {
+            "id": "08-2026",
+            "nome": "Agosto de 2026"
         }
     ],
     "pautas": {
@@ -959,6 +963,14 @@ const agendaDados = {
                         {
                             "horario": "15h50 a 17h30",
                             "aula": "IPO - E-POL (6)"
+                        },
+                        {
+                            "horario": "17h50 a 19h30",
+                            "aula": "APC - RPS (2)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "APC - RPS (4)"
                         }
                     ]
                 },
@@ -1043,6 +1055,638 @@ const agendaDados = {
                         {
                             "horario": "10h00 a 11h40",
                             "aula": "DO (6)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "13",
+                    "diaSemana": "Segunda-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "APC - CSIM (4)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "APC - CSIM (6)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "TEAP - AAMI (2)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "IF (2)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "14",
+                    "diaSemana": "Terça-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "DOC (26)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "DOC (28)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "TO - UDF (4)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "TO - UDF (6)"
+                        },
+                        {
+                            "horario": "17h50 a 19h30",
+                            "aula": "MESDEB (4)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "15",
+                    "diaSemana": "Quarta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "DOC (30)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "LOCINTER (24)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "IF (4)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "AT - PIST 2 (16)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "16",
+                    "diaSemana": "Quinta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "ISDC-CDS (2)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "SOP (16)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "TO - UDF (8)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "IF (6)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "17",
+                    "diaSemana": "Sexta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "DPP 1 (8)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "AT - FUZ 1 (12)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "ISDC-CDS (4)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "TO - ABO (18)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "TFP 01 (8)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "18",
+                    "diaSemana": "Sábado",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "LOCINTER (26)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "AT - PIST 2 (18)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "20",
+                    "diaSemana": "Segunda-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - PIST 2 (20)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "DPP 1 (9)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "DO (8)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "DO (10)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "TFP 01 (9)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "21",
+                    "diaSemana": "Terça-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "TEAP-NIH (2)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "IF (8)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "ISDC-CDS (6)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "IF (10)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "22",
+                    "diaSemana": "Quarta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "APC - CSIM (8)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "APC - CSIM (10)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "TEAP-NIH (4)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "AT - PIST 2 (22)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "APC - CSIM (12)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "23",
+                    "diaSemana": "Quinta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - FUZ 1 (14)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "DPP 1 (10)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "TEAP-NIH (6)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "TO - ABO (20)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "TFP 01 (10)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "24",
+                    "diaSemana": "Sexta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "BBDF (18)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "TEAP-NIH (8)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "LOCINTER (28)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "LOCINTER (30)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "25",
+                    "diaSemana": "Sábado",
+                    "blocos": [
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "VE (2)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "TO - ABO (22)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "27",
+                    "diaSemana": "Segunda-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "IF (12)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "ISDC-ERE (2)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "LOCINTER (32)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "LOCINTER (34)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "28",
+                    "diaSemana": "Terça-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "TEAP - AAMI (4)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "AT - SUB MP5 (2)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "TEAP - AAMI (6)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "DPP 1 (11)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "TFP 01 (11)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "29",
+                    "diaSemana": "Quarta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "LOCINTER (36)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "LOCINTER (38)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "BBDF (20)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "TEAP - CDS (2)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "30",
+                    "diaSemana": "Quinta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "TO - ABO (24)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "LOCINTER (40)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "AT - PIST 3 (2)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "IF (14)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "31",
+                    "diaSemana": "Sexta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "ISDC-ERE (4)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "AT - FUZ 2 (2)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "LOCINTER (42)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "LOCINTER (44)"
+                        }
+                    ]
+                }
+            ],
+            "08-2026": [
+                {
+                    "dia": "01",
+                    "diaSemana": "Sábado",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - SUB MP5 (4)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "TO - ABO (26)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "03",
+                    "diaSemana": "Segunda-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - PIST 3 (4)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "LOCINTER (46)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "LOCINTER (48)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "TEAP - CDS (4)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "04",
+                    "diaSemana": "Terça-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "IF (16)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "DPP 1 (12)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "AT - SUB MP5 (6)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "IF (18)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "TFP 01 (12)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "05",
+                    "diaSemana": "Quarta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "LOCINTER (50)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "LOCINTER (52)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "AT - PIST 3 (6)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "IF (20)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "06",
+                    "diaSemana": "Quinta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - SUB MP5 (8)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "IF (22)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "LOCINTER (54)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "LOCINTER (56)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "07",
+                    "diaSemana": "Sexta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - FUZ 2 (4)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "IF (24)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "LOCINTER (58)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "LOCINTER (60)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "08",
+                    "diaSemana": "Sábado",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "LOCINTER (62)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "TEAP - CDS (6)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "10",
+                    "diaSemana": "Segunda-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "VE (4)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "TO - ABO (28)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "LOCINTER (64)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "LOCINTER (66)"
+                        },
+                        {
+                            "horario": "17h50 a 19h30",
+                            "aula": "LOCINTER (68)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "11",
+                    "diaSemana": "Terça-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "TEAP - GE (4)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "ISDC-IS (2)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "ISDC-IS (4)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "12",
+                    "diaSemana": "Quarta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "VF (6)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "AT - SOBP (2)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "ISDC-IS (6)"
+                        },
+                        {
+                            "horario": "15h50 a 17h30",
+                            "aula": "ISDC-IS (8)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "13",
+                    "diaSemana": "Quinta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - FUZ 2 (6)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "DPP 1 (13)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "TEAP - BA (4)"
+                        },
+                        {
+                            "horario": "Extra",
+                            "aula": "TFP 01 (13)"
+                        }
+                    ]
+                },
+                {
+                    "dia": "14",
+                    "diaSemana": "Sexta-Feira",
+                    "blocos": [
+                        {
+                            "horario": "08h00 a 09h40",
+                            "aula": "AT - SOBP (4)"
+                        },
+                        {
+                            "horario": "10h00 a 11h40",
+                            "aula": "ISDC-PSI (4)"
+                        },
+                        {
+                            "horario": "13h50 a 15h30",
+                            "aula": "AT - PIST FI (2)"
                         }
                     ]
                 }

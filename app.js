@@ -2548,7 +2548,9 @@ const aulaPrefixMap = {
     // Agenda nova (julho/2026) usa outra nomenclatura
     'PPC': 'pproc',     // PPC - MERC = Perícia em Produtos e Contratações (Mercadorias)
     'LOCINTER': 'loc',  // LOCINTER = Locais de Crime e suas Interfaces
-    'VF': null          // VF: código sem disciplina correspondente no plano (não conta)
+    'VF': null,         // VF: código sem disciplina correspondente no plano (não conta)
+    'VE': null,         // VE: idem
+    'MESDEB': null      // Mesa de debate (evento, não conta)
 };
 
 // Devolve a LISTA de ids de disciplinas (em planoEducacional) a partir do
