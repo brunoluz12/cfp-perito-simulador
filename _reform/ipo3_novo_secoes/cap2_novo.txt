@@ -1,0 +1,493 @@
+
+2.9  CADEIA DE CUSTÓDIA DE ELEMENTOS DE INTERESSE 
+EM FORMATO DIGITAL
+A IN nº 299/2025-DG/PF, publicada pela Polícia Federal em 24 de fevereiro de 
+2025, estabelece diretrizes específicas para acadeia de custódia de dados digitais 
+utilizados em investigações criminais. Complementando a IN nº 297/2024, que 
+trata de procedimentos gerais de cadeia de custódia no âmbito da Polícia Federal, 
+esta norma foca na preservação da integridade, autenticidade e rastreabilidadede 
+informações digitais, independentemente de estarem vinculadas a suportes físicos. 
+A regulamentação é fruto do trabalho colaborativo de diversas diretorias da PF e 
+visa garantir que os dados digitais coletados em investigações sejam juridicamente 
+válidos e tecnicamente confiáveis.
+A cadeia de custódia dos elementos de interesse em formato digital visa 
+documentar o trajeto desse tipo de elemento de interesse processual, perpassando 
+pela coleta, arrecadação ou apreensão até a sua destinação final, assegurando 
+a rastreabilidade, a integridade e a proteção contra manipulações indevidas. 
+Estabelece, desta maneira, o propósito central da cadeia de custódia digital: 
+garantir que todo o percurso do dado — desde sua obtenção até o destino final 
+— seja documentado e protegido. A ênfase na rastreabilidade e integridade é 
+crucial para que a prova digital seja aceita judicialmente, especialmente em casos 
+em que a manipulação pode ocorrer de forma imperceptível.
+Cabe salientar que à IN n° 299/2025-DG/PF, aplica-se subsidiariamente a 
+IN DG/PF nº 297, de 25 de novembro de 2024, no que lhe for compatível. Isso 
+promove harmonização normativa e evita lacunas procedimentais, especialmente 
+em casos híbridos (elementos físicos com dados digitais).
+Considera-se elemento de interesse em formato digital todo dado digital, 
+com ou sem suporte físico, em formato final binário, que tenha sido arrecadado, 
+apreendido, coletado, derivado ou amostrado, apresentado ou obtido no interesse 
+da investigação policial. Essa definição é abrangente e cobre qualquer tipo de dado 
+digital relevante para a investigação, independentemente de estar armazenado 
+em um dispositivo físico ou em ambiente virtual. A referência ao formato binário 
+reforça o caráter técnico da prova digital.
+Os elementos de interesse em formato digital podem ser representados por 
+qualquer tipo de arquivo, documento, mídia ou dado armazenado em meio 
+eletrônico e acessível por dispositivos digitais, como computadores e smartphones, 
+entre outros. Dessa forma, amplia-se a compreensão do que pode ser conside­
+-rado elemento digital, incluindo arquivos, mídias e dados acessíveis por diversos 
+dispositivos. Isso é essencial para abranger a diversidade de fontes digitais em 
+investigações modernas.
+
+44
+São considerados suportes físicos de elementos de interesse em formato digital 
+os celulares, smartphones, tablets, discos rígidos, discos SSD, pendrives, cartões 
+de memória, CDs, DVDs, Blu-rays, fitas magnéticas, bem como outros dispositivos 
+que possam ser utilizados para armazenamento de dados digitais. Ao listar os 
+principais dispositivos que armazenam dados digitais, incluindo mídias antigas 
+(como CDs e fitas magnéticas), mostra-se a preocupação com investigações que 
+envolvam acervos históricos ou equipamentos obsoletos.
+Por sua vez, elemento de interesse em formato digital sem suporte físico 
+é aquele obtido diretamente da Internet, de ambiente de nuvem, de redes de 
+computadores ou de outros espaços cibernéticos. A IN reconhece a existência de 
+dados digitais que não estão vinculados a dispositivos físicos, como informações 
+em servidores remotos ou sistemas online. Isso é especialmente relevante em 
+investigações de crimes cibernéticos, nas quais a prova pode estar distribuída em 
+múltiplos ambientes virtuais.
+2.9.1 DOS ELEMENTOS DE INTERESSE EM FORMATO DIGITAL 
+OBTIDOS EM LOCAL DE CRIME
+Os elementos de interesse em formato digital coletados, arrecadados ou 
+apreendidos em locais de crime deverão ser preservados prioritariamente em 
+sua forma e suporte originais. Objetiva-se, assim, a preservação na origem, ou 
+seja, manter o dado digital exatamente como foi encontrado, tanto em conteúdo 
+quanto no dispositivo onde está armazenado. Isso é essencial para garantir a 
+autenticidade e evitar alegações de manipulação ou adulteração. Os elementos 
+de interesse em formato digital devem ser coletados, arrecadados ou apreendidos 
+preferencialmente de forma a preservar seu conteúdo, estrutura de arquivo e meta­
+-dados. A preservação dos metadados (como data de criação, autor, localização 
+etc.) é tão importante quanto o conteúdo em si, pois eles podem ser decisivos 
+na reconstrução da dinâmica dos fatos. A estrutura do arquivo também deve ser 
+mantida para garantir a legibilidade e integridade da prova.
+Caso seja necessária a transferência dos elementos de interesse em formato 
+digital para outro suporte, a integridade dos dados e metadados deve ser man­
+-tida, considerando-se os recursos e restrições disponíveis, e registrando-se as 
+especificações técnicas do suporte original, de modo a indicar sua unicidade. O 
+procedimento mais apropriado para assegurar a integridade de um dado digital 
+é o cálculo e registro de seu hash, razão pela qual ele deve ser realizado sempre 
+que as circunstâncias permitirem.
+Quando não for possível manter o suporte original (por exemplo, por risco 
+físico ou necessidade técnica), a transferência deve ser feita com registro técnico 
+
+45
+detalhado. Isso inclui informações como modelo do dispositivo, número de 
+série, sistema de arquivos, entre outros, para garantir que o novo suporte seja 
+reconhecido como uma cópia fiel.
+O manuseio dos suportes e elementos de interesse em formato digital no local 
+do crime deve ser minimizado, restringindo-se a ações necessárias para evitar a 
+perda de dados ou garantir a segurança do ambiente, reforçando as diretrizes de 
+intervenção mínima, evitando manipulações desnecessárias que possam compro­
+-meter a prova. A atuação deve ser técnica e cautelosa, priorizando a preservação 
+da integridade e a segurança, especialmente em ambientes instáveis ou com risco 
+de perda de dados (como dispositivos ligados ou em rede).
+2.9.2 DOS ELEMENTOS DE INTERESSE EM FORMATO DIGITAL 
+OBTIDOS EM CUMPRIMENTO DE MEDIDAS CAUTELARES E 
+DILIGÊNCIAS POLICIAIS
+Nos casos de cumprimento de medidas cautelares ou outras diligências 
+policiais, a arrecadação de suportes e elementos de interesse em formato digital 
+deverá ser registrada detalhadamente, identificando o contexto e os responsáveis 
+pela custódia inicial. Reforça-se, assim, a importância de documentação minu­
+-ciosadurante diligências, especialmente em medidas cautelares como buscas 
+e apreensões. Registrar o local onde foi arrecadado, identificar o contexto e os 
+responsáveis pela custódia inicial são medidas essenciais para garantir a rastre­
+-abilidade e a legalidade da prova digital.
+Uma vez autorizado judicialmente ou pelo detentor do suporte, é facultada a 
+análise in loco ou antes da realização de cópia, espelhamento ou extração dos 
+dados dos dispositivos que possam conter elementos de interesse em formato 
+digital, tendo por objetivo evitar apreensões desnecessárias e não molestar os seus 
+detentores mais do que o indispensável para o êxito da diligência. Busca-se, assim, 
+equilibrar a efetividade da investigação com o respeito aos direitos individuais, 
+evitando apreensões excessivas.
+A análise prévia pode permitir identificar rapidamente se o conteúdo é relevante, 
+poupando tempo e recursos. Excepcionalmente, antes da cópia, espelhamento ou 
+extração, é facultada análise prévia dos elementos de interesse em formato digital 
+após sua apreensão, desde que de forma documentada, justificada e mediante 
+autorização judicial específica ou consentimento do detentor do suporte. A exceção 
+é bem delimitada, exigindo justificativa formal e autorização específica, o que 
+protege contra abusos e garante a legalidade da prova obtida. As análises dos 
+dados digitais mencionadas acima devem ser documentadas com descrição das 
+técnicas empregadas e os resultados obtidos, conforme preconiza o art. 21 da IN 
+
+46
+n° 299/2025-DG/PF bem como, adotar medidas possíveis para a preservação 
+da integridade dos elementos de interesse em formato digital.
+Os procedimentos de obtenção de dados digitais sem suporte físico
+observarão os seguintes requisitos:
+I.	 prévia autorização judicial ou do titular do direito, quando for o caso; 
+e Garante que a coleta de dados em ambientes virtuais (como nuvem 
+ou redes) respeite os direitos fundamentais, como a privacidade e a 
+inviolabilidade de
+comunicações.
+II.	documentação detalhada, mediante informação de polícia judiciária 
+ou documento técnico-científico, contendo, ao menos:
+a)	a data e local da execução do procedimento (essencial para 
+contextualizar a diligência e garantir rastreabilidade);
+b)	o número hash dos arquivos preservados (o hash é uma assi-
+natura digital única que comprova a integridade do arquivo, 
+sendo indispensável para a preservação da cadeia de custódia); 
+e
+c)	a identificação do dispositivo de armazenamento dos dados 
+(permite vincular o dado ao ambiente técnico onde foi armazenado, 
+reforçando a autenticidade).
+Os elementos de interesse em formato digital, obtidos ou produzidos por meio de 
+infiltração virtual, serão registrados e documentados em informação de polícia 
+judiciária - IPJ, contendo o histórico cronológico e o relato detalhado das ações 
+realizadas pelo agente infiltrado. A infiltração virtual é uma técnica sensível e 
+poderosa, já estudada no Módulo II, preconizando a IN que os dados obtidos 
+sejam documentados com rigor, preservando a legalidade e a segurança da 
+operação. Para o registro e a documentação da infiltração virtual, poderão ser 
+utilizados, dentre outros:
+I.	 vídeos de gravação de tela;
+II.	imagens de captura de tela;
+III.	gravações de áudio; ou
+IV.	download de arquivos.
+A diversidade de recursos permite flexibilidade operacional, garantindo que 
+o agente infiltrado possa registrar os dados de forma segura e eficaz. Todos os 
+elementos de interesse em formato digital obtidos ou produzidos por meio de 
+infiltração virtual terão seus hashes de integridade calculados e consignados na 
+respectiva informação de polícia judiciária, reforçando a autenticidade e integri­
+-dadedos dados, protegendo contra alegações de manipulação ou adulteração. 
+Os atos eletrônicos registrados serão reunidos em registro especial (RE) vincu-lado 
+
+47
+ao inquérito policial, assegurando-se a preservação da identidade do policial 
+infiltrado e de eventuais vítimas. Isso protege asegurança do agente infiltrado e a 
+privacidade das vítimas, ao mesmo tempo em que garante que os dados estejam 
+formalmente vinculados ao procedimento investigativo.
+2.9.3 DOS ELEMENTOS DE INTERESSE EM FORMATO DIGITAL 
+OBTIDOS DE FORMA ESPONTÂNEA
+Elementos de interesse em formato digital entregues espontaneamente por 
+cidadãos ou entidades à Polícia Federal serão acompanhados de declaração, 
+termo ou certidão que registre as circunstâncias de sua obtenção e entrega, com 
+a assinatura dos responsáveis pela entrega e recebimento, estabelecendo um 
+procedimento formal e transparente para a entrega voluntária de dados digitais. 
+A exigência de documentação assinada por ambas as partes garante rastre­
+-abilidade, autenticidade e responsabilidade, evitando questionamentos futuros 
+sobre a origem ou integridade do material.
+Em seguida, o elemento de interesse em formato digital deverá ser encaminhado:
+I.	 ao Delegado de Polícia Federal que preside a investigação para 
+análise e eventual formalização da apreensão, quando houver inquérito 
+ou outro procedimento policial instaurado (garante que o material seja 
+imediata-mente analisado por quem conduz a investigação, permitindo 
+sua eventual formalização como prova); ou
+II.	à Corregedoria-Geral, à Corregedoria Regional ou à chefia da 
+Delegacia Descentralizada5, conforme atribuição, quando não houver 
+inquérito ou outro procedimento de polícia judiciária instaurado (evita 
+que o material fique sem destino definido, assegurando que seja 
+tratado conforme a estrutura organizacional da PF).
+No caso de recebimento em regime de plantão ou sobreaviso, o Delegado de 
+Polícia Federal plantonista deverá proceder de forma a garantir a continuidade 
+operacionale evitar atrasos ou falhas na custódia inicial, mesmo fora do horário 
+regular de expediente.
+A partir da formalização do recebimento dos elementos de interesse em 
+formato digital, o Delegado de Polícia Federal responsável por apurar o fato 
+deverá, adotando-se as medidas possíveis para a preservação dos metadados e 
+da integridade dos dados (incluindo-se o cálculo do hash), determinar a realização 
+de cópia dos arquivos, espelhamento do conteúdo integral ou extração do seu 
+conteúdo para posterior análise.
+5	
+Nas Delegacias Descentralizadas, o Chefe da Unidade é quem desempenha a função 
+de corregedor local.
+
+48
+Desta forma, reforça-se o compromisso com apreservação técnicados dados 
+digitais, incluindo-se os metadados, cruciais para comprovar a origem, autoria 
+e temporalidade dos arquivos. A escolha entre cópia, espelhamento ou extração 
+permite flexibilidade conforme o tipo de dado e o objetivo da análise.
+2.9.4 DA EXTRAÇÃO, ESPELHAMENTO, CÓPIA, DESBLOQUEIO 
+E CONTORNO DE BLOQUEIO DE ELEMENTOS DE INTERESSE 
+EM FORMATO DIGITAL
+A critério do Delegado de Polícia Federal, as atividades de polícia judiciária 
+destinadas ao acesso a elementos de interesse em formato digital, por meio da 
+extração, cópia, desbloqueio e contorno de bloqueio de dados armazenados em 
+celulares, tablets e similares, ou em espaços cibernéticos, podem ser realizadas por 
+qualquer servidor policial capacitado, conferindo assim, flexibilidade operacional, 
+permitindo que servidores capacitados realizem procedimentos técnicos, desde 
+que observadas as orientações técnicas tendentes à preservação da cadeia de 
+custódia. Isso agiliza as diligências e evita sobrecarga das equipes especializadas, 
+sem comprometer a legalidade.
+Em caso de ausência de equipamento ou software adequado para extração, 
+cópia, desbloqueio e contorno de bloqueio de dados, poderá ser demandada a 
+unidade técnico-científica, garantindo que, mesmo diante de limitações técnicas 
+locais, a PF possa recorrer ao suporte especializado da perícia, assegurando a 
+qualidade e integridadedos procedimentos.
+Os procedimentos de extração, espelhamento, cópia, desbloqueio ou con­
+-torno de bloqueio de arquivos de dados armazenados em dispositivos móveis ou 
+equivalente, em espaços cibernéticos, deverão ser documentados em informação 
+de polícia judiciária ou em documento técnico-científico. A documentação formal­
+-desses procedimentos é essencial para garantir atransparência, rastreabilidade 
+e validade jurídicada prova digital. Isso protege tanto a investigação quanto os 
+direitos dos envolvidos. Essa documentação deverá incluir, ao menos, a data e o 
+local da execução do procedimento, a ferramenta e o software utilizados, bem 
+como o método de preservação e o dispositivo onde os dados foram armazenados.
+Em resumo, a documentação da extração deve conter:
+•	 Data e local da execução;
+•	 Ferramenta e software utilizados;
+•	 Método de preservação;
+•	 Dispositivo onde os dados foram armazenados.
+Esses elementos são fundamentais para reconstruir tecnicamente o procedi­
+-mento, permitindo auditoria e validação posterior. A especificação do software 
+
+49
+e método de preservação é especialmente importante para garantir a mesmidade 
+dos dados.
+Caso o dispositivo em que for armazenado o resultado do procedimento 
+referido no caput seja portátil, a movimentação e custódia deste deverão obser­
+-var o disposto na Instrução Normativa DG/PF nº 297, de 25 de novembro de 
+2024. Reitera-se aqui a integração normativa entre a IN 299/2025 (digital) e a 
+IN 297/2024 (procedimentos gerais), garantindo que dispositivos portáteis com 
+dados digitais sejam tratados com o mesmo rigor da cadeia de custódia física.
+2.9.5 DA PERÍCIA DE ELEMENTOS DE INTERESSE EM FORMATO 
+DIGITAL
+O exame pericial de elementos de interesse em formato digital será requisitado:
+I.	 nos casos previstos em lei (refere-se às situações em que a legislação 
+exige perícia obrigatória, como crimes que dependem de prova 
+técnica para comprovação da materialidade, ou seja, sempre que 
+a infração deixar vestígios – art. 158 do CPP);
+II.	a critério do delegado de polícia federal presidente do inquérito 
+policial (confere autonomia ao delegado para solicitar perícia sempre 
+que julgar necessário, reforçando o papel da autoridade policial na 
+condução da investigação); ou
+III.	quando indispensável à comprovação da materialidade ou autoria 
+deli-tiva (garante que a perícia seja realizada sempre que for essencial 
+para esclarecer os fatos, mesmo que não esteja prevista expressa­
+mente em lei).
+Em qualquer das hipóteses acima, a requisição de perícia deverá ser formali­
+-zada pelo Delegado de Polícia Federal competente, com indicação dos objetivos 
+pretendidos (quesitação). A formalização e a clareza dos objetivos orientam o 
+trabalho pericial e evitam interpretações equivocadas, além de garantir a rastre­
+-abilidade do pedido. Poderá ser requisitada perícia ainda que o suporte físico 
+do elemento de interesse em formato digital esteja danificado ou deteriorado. 
+A norma reconhece que mesmo dispositivos danificados podem conter dados 
+recuperáveis e que a perícia pode tentar extrair informações relevantes.
+Para os casos em que os suportes físicos necessitem de deslacração para 
+fornecimento de energia, quando indispensável para preservação dos elementos 
+de interesse em formato digital, tal procedimento deve ser formalizado no sistema 
+de polícia judiciária. Assim, garante-se controle e transparência sobre qualquer 
+intervenção nos dispositivos, especialmente quando há necessidade de rompimento 
+de lacre para viabilizar fornecimento de energia para futuro exame.
+
+50
+Eventual falta ou deficiência na preservação do material recebido não justifica 
+a não realização de exames periciais, caso em que deverão ser registradas em 
+documento técnico-científico as alterações constatadas, ou seja, protege a conti­
+-nuidade da investigação, mesmo diante de falhas iniciais, desde que as alterações 
+sejam devidamente documentadas no laudo pericial.
+Recebida a requisição de perícia, a abertura de embalagens lacradas e o 
+acesso ao conteúdo de equipamentos e mídias digitais só poderão ser realizados 
+durante o exame pericial. Reforça-se, assim, o princípio da integridade da prova, 
+garantindo que o conteúdo digital só seja acessado em ambiente controlado e 
+técnico, evitando contaminações ou manipulações indevidas.
+O lacre poderá ser rompido antes do exame pericial, por pessoa autorizada, 
+devendo o procedimento ser documentado, nos casos de:
+I.	 risco de degradação do material;
+II.	realização de análise de viabilidade dos exames;
+III.	carregamento de celulares ou tablets, especificamente nos casos em 
+que seja indispensável manter o aparelho ligado para viabilizar o 
+exame pericial; ou
+IV.	outras hipóteses em que o rompimento for indispensável, desde que 
+justificadamente.
+Essas exceções são bem delimitadas e exigem justificativas técnica e registro 
+formal, o que protege a legalidade do procedimento e a validade da prova.
+Procedimentos de reparo de suportes físicos enviados à perícia são realizados 
+apenas como uma das etapas do exame pericial, reconhecendo que a recuperação 
+de dispositivos danificados pode ser necessária para acessar os dados, e que isso 
+deve ocorrer sob responsabilidade técnica do perito. O Perito Criminal Federal 
+deverá verificar as condições do material ou dados recebidos, descrevendo no 
+laudo eventuais alterações observadas. Dessa forma, garante que qualquer 
+alteração ou irregularidade seja registrada no laudo, preservando a transparência 
+e a confiabilidade do exame.
+A remoção permanente de arquivos ilícitos, armazenados em quaisquer 
+suportes, somente poderá ocorrer mediante determinação judicial expressa, 
+protegendo o direito à prova e evitando destruição indevida de material que pode 
+ser relevante para o processo. A exigência de ordem judicial reforça o controle 
+legal sobre a exclusão de dados. A deleção deverá ser realizada de forma integral, 
+abrangendo todo o conteúdo da mídia, não sendo permitida a exclusão seletiva 
+de arquivos específicos.
+Assim, evitam-se manipulações parciais que poderiam comprometer a inte­
+gridade da mídia ou gerar dúvidas sobre a veracidade da exclusão. A exclusão 
+
+51
+total garante segurança jurídica. Por fim, para efeitos da IN n° 299/2025-DG/ 
+PF, os elementos de interesse em formato digital serão tratados na perícia como 
+vestígios digitais, alinhando o tratamento dos dados digitais ao conceito de vestígio 
+previsto na IN n° 297/2024-DG/PF, garantindo que sejam submetidos à mesma 
+lógica de cadeia de custódia e rigor técnico-científico.
+2.9.6 DA ANÁLISE DE ELEMENTOS DE INTERESSE EM FORMATO 
+DIGITAL
+Como exposto na IN n° 299/2025-DG/PF, a análise de elementos de interesse 
+em formato digital será realizada por policial com atribuição no caso, respeitando­
+-se os direitos à privacidade e minimizando o acesso a dados irrelevantes. Trata-se 
+de reforçar o princípio da proporcionalidade na análise de dados digitais. O 
+policial responsável deve focar exclusivamente nos dados relevantes à investigação, 
+evitando exposição indevida de informações pessoais ou privadas que não tenham 
+relação com o fato investigado. Tal procedimento protege os direitos fundamentais 
+e fortalece a legalidade da prova.
+Preferencialmente, a análise deverá ser realizada a partir de cópia dos arquivos 
+digitais obtidos, mantendo-se a integridade do original, ou seja, a análise sobre 
+cópia –– e não sobre o original — é uma prática recomendada em perícia digital, 
+pois evita qualquer risco de alteração acidental ou contaminação do dado original. 
+Essa abordagem preserva a mesmidade e a autenticidade da prova.
+Todas as análises deverão ser documentadas com descrição das técnicas 
+empregadas e os resultados obtidos. Desta forma, adocumentação técnica torna-se 
+essencial para garantir a transparência e rastreabilidade da análise. A descrição 
+das ferramentas e métodos utilizados permite que o procedimento seja auditado, 
+reproduzido ou contestado, se necessário, assegurando a validade jurídica da 
+prova digital. 
+2.9.7 DA TRIAGEM DE APREENSÕES DE ELEMENTOS DE 
+INTERESSE EM FORMATO DIGITAL
+A triagem para apreensão de elementos de interesse em formato digital deve 
+evitar a retenção de informações irrelevantes e deve ser limitada pelo potencial 
+interesse investigativo, destacando a proporcionalidade e a seletividade na 
+apreensão de dados digitais. Sempre que possível, em vez de copiar ou apreender 
+todo o conteúdo de um dispositivo, o foco deve ser nos dados que tenham 
+relevância direta para a investigação, evitando a coleta excessiva de informações 
+privadas ou irrelevantes, o que protege os direitos fundamentais dos envolvidos.
+Eventual discordância do detentor sobre o material apreendido deverá ser 
+
+52
+direcionada ao Delegado de Polícia Federal responsável pela investigação ou 
+ao juiz competente, com discriminação do item a ser copiado ou espelhado, 
+garante-se assim, ao detentor do suporte (investigado ou terceiro) o direito de 
+manifestação sobre a apreensão, promovendo o contraditório. A exigência de 
+discriminação dos itens permite que a autoridade policial ou judicial avalie a 
+pertinência da apreensão com base em critérios objetivos.
+Segundo a IN n° 299/2025-DG/PF, “cabe ao investigado ou a terceiro interes­
+-sado fornecer suporte adequado para a realização de cópias ou espelhamentos 
+com capacidade suficiente para comportar as informações a serem transferidas.” 
+Este dispositivo transfere ao interessado a responsabilidade pela disponibilização 
+de meio técnico(como HD externo, pendrives etc.) para receber os dados, o que 
+pode facilitar a devolução rápida de informações não relevantes ou a entrega 
+de cópias de dados que não serão retidos pela autoridade policial. Essa medida 
+também contribui para a eficiência operacional da diligência.
+2.9.8 DA DISPONIBILIZAÇÃO DOS ELEMENTOS DE INTERESSE 
+EM FORMATO DIGITAL ÀS PARTES INTERESSADAS
+Os elementos de interesse em formato digital armazenados pela Polícia 
+Federal serão disponibilizados em sua integralidade ao investigado, a terceiro 
+interessado, ao Ministério Público e ao Judiciário sempre que houver determinação 
+legal ou autorização judicial, com garantia de sigilo legal. Reforça o princípio 
+da transparência e do contraditório, garantindo que os dados digitais coletados 
+sejam acessíveis às partes envolvidas, desde que haja respaldo legal ou judicial. 
+A menção à “integralidade” é importante para evitar manipulações ou omissões, 
+e o “sigilo legal” protege a privacidade e a segurança da investigação.
+Os arquivos digitais, após disponibilizados no inquérito policial, deverão 
+ser carregados no sistema eletrônico do Poder Judiciário ou, quando inviável 
+tal procedimento, seja por questões técnicas ou devido ao tamanho dos dados, 
+poderão ser encaminhados em meio físico para depósito em Secretaria da Vara 
+Judicial. Trata-se da logística de disponibilização dos dados. A preferência pelo 
+sistema eletrônico do Judiciário mostra alinhamento com a digitalização dos 
+processos, mas reconhece limitações técnicas, permitindo o uso de mídias físicas 
+como alternativa.
+Cabe ao investigado ou a terceiro interessado fornecer suporte adequado 
+para a realização de cópias ou espelhamentos com capacidade suficiente para 
+comportar as informações a serem transferidas, estabelecendo uma responsa­
+-bilidade prática para o interessado: fornecer o meio físico adequado (como 
+HDs ou pendrives) para a visualização dos dados, evitando atrasos e problemas 
+operacionais.
+
+53
+Importante destacar que não se aplica ao investigado ou a terceiro interessado 
+na hipótese em que a mera aquisição, posse ou disponibilização dos elementos 
+de interesse em formato digital configure infração penal. Impõe-se, dessa forma, 
+uma limitação importante: quando o simples acesso aos dados já configura crime 
+(como em casos envolvendo exploração sexual infanto-juvenil), não se aplica o 
+direito à cópia. Isso protege a legalidade e evita a revitimização.
+Nos casos de crimes relacionados ao abuso sexual de crianças e adolescentes, 
+os vestígios em formato digital serão disponibilizados à defesa na unidade da 
+Polícia Federal, mediante vista presencial, sendo vedada a entrega de cópia de 
+arquivos digitais. Isso reforça a proteção às vítimas de crimes sexuais, especialmente 
+crianças e/ou adolescentes, destacando a gravidade e a sensibilidade desses 
+casos, justificando o tratamento específico.
+Nos casos de infiltração virtual, o registro dos atos eletrônicos praticados 
+durante a infiltração deverá ser encaminhado ao juiz e ao Ministério Público 
+criptografado e protegido por senha. Trata-se da segurança da informação em 
+operações de infiltração virtual. A exigência de criptografia e senha garante a 
+integridade e confidencialidade dos dados, protegendo tanto os agentes envolvidos 
+quanto a legalidade da prova.
+2.9.9 DA RESTITUIÇÃO, PERDIMENTO E USO DO SUPORTE DO 
+ELEMENTO DE INTERESSE EM FORMATO DIGITAL
+Dispositivos apreendidos serão restituídos nos casos previstos no art. 118 e 
+seguintes do Código de Processo Penal, conforme a seguir:
+Art. 118. Antes de transitar em julgado a sentença final, as 
+coisas apreendidas não poderão ser restituídas enquanto 
+interessarem ao processo.
+Art. 119. As coisas a que se referem os arts. 74 e 100 do Código 
+Penal não poderão ser restituídas, mesmo depois de transitar 
+em julgado a sentença final, salvo se pertencerem ao lesado 
+ou a terceiro de boa-fé.
+Art. 120. A restituição, quando cabível, poderá ser ordenada 
+pela autoridade policial ou juiz, mediante termo nos autos, 
+desde que não exista dúvida quanto ao direito do reclamante.
+§ 1° Se duvidoso esse direito, o pedido de restituição autuar­
+-se-á em apartado, assinando-se ao requerente o prazo de 5 
+(cinco) dias para a prova. Em tal caso, só o juiz criminal poderá 
+decidir o incidente.
+§ 2º O incidente autuar-se-á também em apartado e só a 
+autoridade judicial o resolverá, se as coisas forem apreendidas 
+
+54
+em poder de terceiro de boa-fé, que será intimado para alegar 
+e provar o seu direito, em prazo igual e sucessivo ao do recla­
+-mante, tendo um e outro dois dias para arrazoar.
+§ 3°Sobre o pedido de restituição será sempre ouvido o 
+Ministério Público.
+§ 4° Em caso de dúvida sobre quem seja o verdadeiro dono, o 
+juiz remeterá as partes para o juízo cível, ordenando o depósito 
+das coisas em mãos de depositário ou do próprio terceiro que 
+as detinha, se for pessoa idônea.
+§ 5°Tratando-se de coisas facilmente deterioráveis, serão 
+avaliadas e levadas a leilão público, depositando-se o dinheiro 
+apurado, ou entregues ao terceiro que as detinha, se este for 
+pessoa idônea e assinar termo de responsabilidade.
+Conforme os artigos acima, extraídos diretamente do CPP, os quais tratam 
+da restituição de coisas apreendidas, verifica-se que a norma reafirma que a 
+devolução de dispositivos deve seguir os critérios legais já estabelecidos, como 
+quando não interessam mais à investigação ou pertencem a terceiros de boa-fé. 
+Tal procedimento é uma forma de garantir segurança jurídica e evitar retenções 
+indevidas.
+Dispositivos, mídias e outros suportes perdidos em favor da União poderão 
+ser utilizados por órgãos públicos, preferencialmente pela unidade que conduziu 
+a investigação, mediante prévia decisão judicial, após transferência ou descarte 
+seguro dos dados armazenados. Trata-se da reutilização de bens perdidos em 
+favor da União, promovendo eficiência administrativa.
+A exigência de decisão judicial e o descarte seguro dos dados são medidas 
+essenciais para evitar riscos à privacidade e à integridade das informações, além 
+de garantir transparência no uso desses recursos. O Delegado de Polícia Federal, 
+presidente do inquérito policial, após a extração dos respectivos hashes6, deverá 
+representar pela destruição dos dispositivos, mídias e outros suportes que conte­
+-nham arquivos relacionados a crimes de abuso sexual de crianças e adolescentes, 
+reforçando assim a política de proteção à dignidade das vítimas, especialmente 
+em crimes envolvendo exploração sexual infanto-juvenil. A destruição dos suportes 
+evita a perpetuação do conteúdo criminoso e impede qualquer possibilidade de 
+revitimização. A representação formal pelo delegado garante controle e legalidade 
+no processo.
+6	
+Um hash é uma função matemática que converte uma entrada de dados (como uma 
+senha, um arquivo ou uma mensagem) de tamanho variável em uma sequência de caracteres 
+de tamanho fixo. Essa sequência é chamada de valor de hash, código de hash ou simples­
+-mente hash. Ao extrair o hash,é possível realizar busca em dispositivos eletrônicos ou em 
+ambiente cibernético sem a necessidade de olhar as imagens de abuso., mediante programas 
+computacionais especializados.
+
+55
+2.10  CONSIDERAÇÕES FINAIS
+A IN nº 299/2025 representa um marco na modernização dos procedimentos 
+de investigação digitalda Polícia Federal. Ao estabelecer protocolos claros para 
+análise prévia, extração, espelhamento, cópia e desbloqueio de dados, a norma 
+assegura que os elementos digitais sejam tratados com o mesmo rigor técnico 
+e jurídico que os elementos físicos. Essa regulamentação fortalece a segurança 
+jurídica das provas digitais, promove a padronização dos procedimentos opera­
+-cionaise reforça o compromisso institucional da Polícia Federal com a condução 
+ética, segura e eficiente das investigações tecnológicas.
+
+
+57
+3   

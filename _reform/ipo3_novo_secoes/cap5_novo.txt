@@ -1,0 +1,301 @@
+
+5.2  PLANO E O REGISTRO EM SISTEMAS OFICIAIS
+Plano operacional é o documento que formaliza o planejamento operacional. 
+Deve conter todos os elementos necessários ao planejamento de uma operação 
+
+105
+policial, como situação, objetivo, área de atuação, linha de ação, tática policial, 
+prazos, além dos recursos humanos, materiais e financeiros a serem empregados. 
+O plano operacional deve ser claro, preciso e conter todos os elementos que 
+envolvam a operação, oportunidade na qual deverão ser destacados os prazos e 
+definidos os recursos humanos, materiais e financeiros necessários. A elaboração 
+do plano operacional é importante no planejamento das operações de polícia 
+judiciária, em que pese não ter sido abordado como documento obrigatório no 
+Manual de Planejamento Operacional da Polícia Federal.
+De certa forma, o plano acabou sendo substituído pelo registro da operação 
+em sistemas oficiais, pois no passado recente o plano era submetido à aprovação 
+das chefias imediatas e à autorização do Delegado Regional de Polícia Judiciária, 
+os quais avaliavam a possibilidade de prestar os recursos humanos e materiais 
+solicitados.
+Hoje, o registro em sistemas oficiais abrange o preenchimento das informações 
+básicas da operação, constituindo ferramenta para o planejamento do projeto 
+investigativo. Esse registro tem como base o número do caso (inquérito ou 
+registro especial) no sistema oficial de polícia judiciária e engloba dados sobre 
+o efetivo empregado na investigação, sobre necessidade de recursos humanos 
+ou materiais não disponíveis na unidade, entre outros dados relevantes (p.ex.: se 
+a operação tem por objeto facções criminosas, se envolve áreas de fronteira ou 
+terras indígenas etc.).
+A alimentação do sistema oficial de gestão de operações deve ser contínua 
+até a finalização da operação, com a atualização constante de dados sobre 
+diligências extraordinárias e medidas cautelares sigilosas em andamento (por 
+exemplo: existência de interceptação telefônica em curso, existência de proce­
+-dimento de cooperação internacional etc.) e, posteriormente, com a inserção 
+dos dados referentes à deflagração da operação e até mesmo das atividades de 
+análise pós-deflagração.
+Ressalta-se que o objetivo do sistema de gestão de operações não é o registro 
+das informações sigilosas obtidas por meio das medidas cautelares, mas tão 
+somente dos dados estatísticos acerca das medidas sigilosas empregadas, visando 
+o aprimoramento da gestão dos recursos disponíveis nas unidades e da gestão 
+da própria investigação.
+Ainda assim, a formalização do planejamento operacional em um plano evita 
+que a equipe de coordenação de deflagração se esqueça da adoção de medidas 
+essenciais do planejamento idealizado, especialmente por se tratar de um momento 
+complexo em que são previstas e adotadas inúmeras ações para viabilizar a defla­
+-gração da operação policial, não podendo a equipe de coordenação depender 
+apenas da experiência e lembrança dos atos a serem observados.
+
+106
+A formalização do plano operacional para o desencadeamento de ação em 
+local de interesse deve conter, no mínimo:
+a)	Mérito da ação: linha investigativa; escopo e não-escopo.
+b)	Aspectos operacionais: estratégias, técnicas, táticas e procedimentos 
+que serão adotados.
+c)	Execução: meios (efetivo e logística) de acordo com as estratégias, 
+técnicas, táticas e procedimentos; variáveis (horário, vestimenta, 
+equipamentos, armamento e todos os detalhes particulares da missão 
+específica).
+d)	Disposições gerais.
+Ressalta-se que, nesse momento, não se mostra necessária a definição 
+detalhada dos documentos que serão disponibilizados e exigidos das equipes 
+projetadas, pois a principal função do plano é realizar o levantamento das neces­
+sidades de recursos (de pessoal, material e financeiro) e demais providências a 
+serem adotadas no caso de imprevistos.
+No plano deve constar o nome atribuído à operação policial. A denominação 
+da operação tem por finalidade identificá-la e distingui-la das demais já desen­
+-cadeadas ou em andamento. A seleção do nome da operação pode ter relação 
+com o objeto investigado, porém, em nenhum caso, pode permitir a revelação 
+de seu conteúdo. Deve-se evitar a repetição de nomes, sob pena de inviabilizar 
+a inclusão da operação nos sistemas informatizados de controle, bem como 
+confundir os meios de comunicação na divulgação dos resultados operacionais 
+(BRASIL, 2015, p. 34).
+A indicação dos meios (efetivo e logística) que compõem a execução da ação 
+engloba os recursos humanos, materiais e financeiros que serão empregados nas 
+ações em local de interesse quando há a atuação de equipes multiplicadoras 
+de esforços. A indicação dos meios é diretamente influenciada pelos aspectos 
+operacionais definidos no planejamento.
+Deverão ser formalizados, nesse momento, todos aqueles elementos mencio­
+-nados no planejamento da execução que foram trabalhados no tópico 5.1.4.
+Outro ponto fundamental para o bom andamento de uma operação é a 
+preparação prévia dos documentos e procedimentos no sistema oficial de polícia 
+judiciária (ePol), considerando que os atos praticados durante a deflagração devem 
+ser formalmente registrados de forma organizada. Essa organização facilita tanto 
+o trabalho das equipes responsáveis pelo cumprimento dos mandados no dia da 
+operação quanto o desenvolvimento das atividades posteriores.
+A Instrução Normativa nº 255/2023-DG/PF, que regulamenta as atividades 
+de polícia judiciária, estabelece em seu artigo 165, inciso IX, que os casos clas­
+
+107
+-sificados como ‘Registro Especial’ se destinam ao registro de representações por 
+medidas cautelares. Dessa forma, o planejamento de uma operação deve incluir 
+a criação de um Registro Especial, no qual são cadastradas as representações e 
+respectivas decisões judiciais que deram origem à ação policial.
+Art. 165. São registros obrigatórios a serem efetuados no 
+sistema oficial de polícia judiciária:
+(...)
+IX - Registro Especial (RE), destinado ao registro de proce­
+-dimentos criminais oriundos de tribunais, ações penais em 
+andamento com requisições de diligências, representações 
+por medidas cautelares, procedimentos de cooperação policial 
+ou jurídica internacional em matéria penal, colaborações 
+premiadas, requisições judiciais de cumprimento de exequatur 
+de cartas rogatórias, destinação de bens, perícia solicitada por 
+outro órgão e demais casos que não se amoldem nas outras 
+hipóteses deste artigo, contendo servidores responsáveis, ofício 
+de solicitação, diligências realizadas e conclusão.
+O Registro Especial também se aplica aos ‘demais casos que não se enquadrem 
+nas outras hipóteses deste artigo’, conforme previsto na Instrução Normativa nº 
+255/2023-DG/PF. Por seu caráter residual, essa categoria deve ser utilizada para 
+registrar operações que, embora não envolvam o cumprimento de mandados 
+judiciais, atendam aos critérios de complexidade extraordinária e se enquadrem 
+no conceito de operação policial.
+Note que, nessas circunstâncias, haverá três procedimentos distintos:
+a)	Os autos principais, isto é, o inquérito policial onde foi iniciada a 
+inves-tigação;
+b)	Os registros especiais principais, ou aqueles em que foram solicitadas 
+as medidas cautelares; e
+c)	Os registros especiais das equipes de deflagração para cumprimento 
+das medidas cautelares do RE principal respectivo.
+A partir do Registro Especial principal da operação, a Coordenação deverá 
+apensar os Registros Especiais criados para cada equipe responsável pelo cumpri­
+-mento de mandados, com o objetivo de registrar e carregar as peças produzidas 
+durante a deflagração. É fundamental que as equipes sejam informadas, de forma 
+clara e inequívoca, sobre o número do Registro Especial em que deverão produzir 
+e carregar os documentos.
+Para agilizar a organização dos REs das equipes de deflagração, é possível criar 
+um RDF matriz, gerar todas as peças necessárias nesse RDF, e utilizar o recurso 
+de copiar peças da aba Peças do RDF para o RE de cada equipe.
+
+108
+Em todos os documentos gerados deverá constar um cabeçalho com o nome 
+da operação e o número da equipe, inclusive em eventuais peças que forem 
+criadas pela equipe e não tenham um modelo já preparado pela coordenação, 
+a fim de que seja mantido um padrão para a operação.
+Por fim, os Registros Especiais criados para registrar e carregar os documentos 
+produzidos pelas equipes de cumprimento de mandado deverão ser distribuídos 
+para os respectivos delegados e escrivães recrutados para esse fim. Essa distribui­
+-ção, contudo, deverá ocorrer em momento oportuno, notadamente, pouco antes 
+ou no momento do briefing, por precaução.
+A organização na criação e registro das peças dentro desses Registros Especiais 
+é essencial para o bom andamento da operação. Nesse contexto, recomenda-se 
+a utilização do campo ‘Codinome’ no ePol para identificar a equipe vinculada a 
+cada Registro Especial, contribuindo para a sistematização e rastreabilidade das 
+informações.
+Note que é nessa fase de planejamento que a coordenação da operação
+deverá tomar algumas decisões importantes, como, por exemplo, se:
+a)	Haverá digitalização de documentos antes da entrega do material. 
+Caso positivo, deverá ser convocada uma equipe para esse trabalho?
+b)	A própria equipe de cumprimento encaminhará alguns materiais 
+apreendi-dos, incluindo eventuais veículos e valores, ou esse trabalho 
+será realizado pela própria Coordenação?
+c)	O local do fato na tela Análise do Caso do RE será o local da busca 
+ou prisão e as pessoas envolvidas serão vinculadas ao RE?
+d)	Os despachos deverão ser produzidos no RE principal ou haverá 
+despacho nos REs das equipes?
+e)	Os materiais arrecadados ou apreendidos serão cadastrados nos REs 
+da equipe de deflagração, no RE principal ou nos autos principais, 
+sabendo que a vinculação de bens às tarefas do ePol só é possível 
+no mesmo caso?
+f)	 Alguns bens serão encaminhados diretamente para a perícia pela 
+própria equipe de deflagração ou pela coordenação?
+
+109
+5.3   INSTRUÇÃO DAS EQUIPES - BRIEFING
+O briefing pode ser descrito como o “ato de transmitir informações básicas, 
+instruções, normas etc., elaborado de forma concisa, para orientar a execução de 
+um determinado trabalho” (MICHAELIS, 2021).
+Na investigação policial, o briefing tem como objetivo repassar o propósito 
+da missão e proporcionar o conhecimento e a autonomia necessários para a 
+sua execução. A exposição do briefing deve ser objetiva, se atendo aos dados 
+necessários, evitando o seu prolongamento excessivo9.
+A depender da sensibilidade da investigação, pode ocorrer na véspera ou no 
+dia da deflagração da operação e é o momento em que  as equipes de investi­
+gação e coordenação apresentam, em suma, para as equipes de cumprimento 
+de mandados, também chamadas de equipes projetadas:
+a)	 o mérito da ação: O que se pretende alcançar com a operação? Quais 
+são os objetivos específicos de cada equipe? Quais os alvos e suas 
+particularidades?
+b)	 os aspectos operacionais: Como a operação será realizada? Quais 
+são os riscos envolvidos? Quais são as medidas de segurança que serão 
+tomadas?
+c)	 a formalização de documentos: Quais documentos são necessários para 
+a execução da operação? Como esses documentos serão preenchidos?
+d)	 a execução: Como cada equipe irá executar sua missão? Quais são os 
+procedimentos específicos para cada equipe?O  que arrecadar e apre­
+ender? Quais são os cuidados com a cadeia de custódia?
+Registra-se que o primeiro aspecto a ser apresentado na instrução deve ser a 
+linha investigativa previamente delineada, uma vez que essa abordagem desperta 
+a atenção dos integrantes das equipes e permite situá-los, de forma direta, clara 
+e objetiva, quanto ao contexto da investigação, estimulando o interesse em 
+compreender o caminho percorrido até aquele ponto. 
+Durante a preparação do briefing, a equipe de investigação deverá sopesar 
+os princípios da compartimentação x compartilhamento, estando ciente de que o 
+engajamento e a compreensão das equipes de cumprimento dos mandados estarão 
+diretamente relacionados à quantidade e qualidade das informações repassadas. 
+O comprometimento de tais equipes será proporcional à capacidade de comu­
+nicação clara e objetiva proporcionada pela equipe de investigação durante a 
+apresentação do mérito da ação, oportuni-dade em que se deverá demonstrar 
+confiança no trabalho investigativo até então executado e o importante papel que 
+9	
+ Manual de Planejamento Operacional, p. 111.
+
+110
+os policiais executarão na fase ostensiva da operação policial.
+Já, se em razão da natureza da investigação em curso se optar pela com­
+partimentação de informações em detrimento da divulgação mais ampla do 
+mérito da ação, a equipe de investigação deverá estar ciente de que as equipes 
+de cumprimento dos mandados atuarão com limitações na adoção de outras 
+medidas não previstas pela equipe de investigação que eventualmente surjam, 
+fragilizando o princípio da oportunidade. O aproveitamento da ação poderá 
+não ser total, uma vez que nem todo o conhecimento foi transmitido à equipe de 
+cumprimento dos mandados.
+Nesse contexto, o sucesso da ação e o consequente cumprimento dos 
+objetivos da missão serão potencialmente maximizados quando: i) o binômio 
+conhecimento e autonomia for adequadamente repassado pela equipe de inves­
+tigação; ii) existir uma proporcionalidade entre as informações transmitidas e as 
+exigências feitas às equipes de cumprimento dos mandados; iii) for estabelecido 
+um prazo razoável para a realização das demandas.
+Em regra, todos os servidores escalados para a operação devem participar 
+do briefing. No entanto, a depender do nível de sigilo e compartimentação da 
+investigação, é possível restringir o briefing aos chefes de equipe ou a alguns 
+policiais específicos. Ademais, é possível  haver briefings diferentes a depender 
+da função do policial escalado, como orientações específicas para os agentes 
+realizarem as buscas ou para os escrivães formalizarem as apreensões.
+Além disso, o briefing é o momento de entrega efetiva dos documentos, pastas 
+e malotes, de conferência e de concentração do efetivo antes da ação policial, 
+motivo pelo qual deve ser claro, direto, objetivo e estimulante, visando que as 
+equipes atuem de forma mais engajada e comprometida.
+A coordenação deve analisar, ainda, a conveniência da participação dos 
+membros de órgãos parceiros envolvidos na execução da operação, a exemplo 
+da CGU, RFB, IBAMA, dentre outros, sempre se pautando pelo princípio da 
+necessidade de conhecer, balizado pela preservação do sigilo e compartimentação 
+necessários.
+O planejamento do dia e horário do briefing deve considerar: i) tempo 
+necessário para o repasse de informações da investigação e dos procedimentos; 
+ii) tempo de deslocamento até o local do briefing, se presencial; iii) possibilidade 
+de transmissão remota para equipes que não puderem comparecer presencial­
+mente e para equipes de cumprimento de outros Estados ou locais distantes 
+de cumprimento, atentando-se para o fuso horário; iv) tempo necessário para 
+o deslocamento das equipes de cumprimento até o local de cumprimento das 
+medidas, caso o briefing seja realizado imediatamente antes da operação10.
+10 Manual de Planejamento Operacional, p. 112.
+
+111
+5.3.1 DIVISÃO DAS FUNÇÕES
+O briefing é o momento em que a equipe de investigação proporciona o 
+conhecimento e a autonomia necessários, atribuindo, assim, propósito à missão, 
+independentemente do objetivo específico de cada equipe (por exemplo, cumpri­
+mento de mandado de prisão ou de busca e apreensão). 
+Portanto, o que se estabelece são divisões de funções entre as equipes consi­
+derando o objetivo imediato da sua ação (cumprimento de mandado, custódia, 
+interrogatório, lavratura de flagrantes etc.), mas sempre tendo em conta o mérito 
+da ação, que é mais amplo que o objetivo, e consiste em colher elementos que 
+permitam suprir as lacunas e corroborar, refutar ou modificar os fatos apurados 
+durante a investigação.
+Caso tenha sido estabelecido no planejamento equipes com graus diferentes 
+de conhecimento da investigação, o chefe da investigação poderá organizar 
+diversas reuniões de instrução distintas com as equipes ou determinar a presença 
+apenas dos chefes de equipes ou de policiais específicos.
+5.3.2 REUNIÃO PRÉVIA DE COORDENAÇÃO PARA 
+NIVELAMENTO
+No curso da deflagração de uma operação especial de polícia judiciária, com 
+o desencadeamento de múltiplas ações em locais de interesse, pode ser necessária 
+a designação de coordenadores regionais para viabilizar a ação.
+A importância da reunião de nivelamento se revela pelo fato de que são esses 
+coordenadores regionais que repassarão todo o mérito da ação, os aspectos 
+operacionais, a documentação a ser formalizada e a execução propriamente dita 
+às equipes projetadas, ou seja, são os coordenadores regionais que assumirão a 
+missão de incutir o propósito da missão em tais equipes, bem como cuidarão dos 
+aspectos diretamente relacionados à execução no dia da deflagração.
+Com a utilização da plataforma oficial de comunicação da Polícia Federal, 
+o advento da utilização por parte do efetivo de plataformas de comunicação, 
+é possível que a própria equipe de investigação e/ou de execução repasse o 
+mérito da ação, os aspectos operacionais, a documentação a ser formalizada 
+e a execução propriamente dita, ficando a cargo dos coordenadores regionais 
+apenas os aspectos referentes à execução propriamente dita, como previsão de 
+viaturas, encaminhamento de presos, salas de procedimentos etc.
+Uma ferramenta institucional imprescindível para a boa comunicação é o 
+Microsoft Teams, cujas funções vão muito além da mera troca de mensagens.  A 
+plataforma  possibilita, também, o trabalho colaborativo, integrado  a diversos 
+
+112
+programas, o compartilhamento  eficiente e seguro de qualquer tipo de arquivo 
+e a realização de reuniões por videoconferência, com fácil agendamento  por 
+meio do  calendário.
+Dentre as diversas possibilidades, destaca-se a criação de equipes, cujas 
+funcionalidades ensejam a integração de todos os policiais federais recrutados 
+para a operação policial, de modo a viabilizar reuniões prévias (briefings) de 
+preparação entre todos os envolvidos, compartilhamento do material a ser usado 
+no dia da deflagração, troca de mensagens para esclarecimento de dúvidas 
+pontuais e, inclusive, compartilhamento seguro e fácil do material produzido 
+pelas equipes responsáveis pelo cumprimento dos mandados judiciais, durante 
+a execução das diligências.
+Cada equipe pode ter seus próprios canais de comunicação, nos quais os 
+membros selecionados (que podem ser mais restritos, sem abranger todos os 
+integrantes da equipe) podem tratar reservadamente sobre determinados assuntos 
+que eventualmente demandem compartimentação.
+Além disso, o aplicativo protege os dados e as informações dos seus usuários 
+ao usar a nuvem institucional, que possui criptografia, autenticação multifator e 
+possibilidade de recuperação de dados. Por essas características, é o aplicativo 
+de comunicação via internet recomendável nas conversas institucionais.
+
+113

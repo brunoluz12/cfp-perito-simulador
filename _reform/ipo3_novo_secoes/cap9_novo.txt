@@ -1,0 +1,683 @@
+
+9.1  RESTITUIÇÃO DE BENS APREENDIDOS
+A restituição de coisas apreendidas é o ato pelo qual a autoridade policial 
+devolve ao seu legítimo proprietário um bem arrecadado durante a investigação, 
+mas que não mais interessa à persecução criminal. No âmbito do inquérito policial, 
+a competência para essa devolução é do Delegado de Polícia Federal.
+A restituição será determinada pela autoridade policial quando não houver 
+qualquer dúvida sobre o direito do reclamante. A devolução se formaliza por 
+meio de um “termo de restituição” que será juntado aos autos do procedimento 
+(artigo 120 CPP).
+Contudo, a decisão de restituir um bem exige cautela. Antes de qualquer 
+devolução, o material apreendido passa por uma triagem. Somente devem ser 
+restituídos os materiais que notoriamente não possuem interesse para a investi­
+gação, que não necessitam de perícia ou análise posterior e sobre os quais não 
+pairam dúvidas quanto à propriedade. A legislação processual penal é clara ao 
+afirmar que, antes de transitar em julgado a sentença final, as coisas apreendidas 
+não poderão ser restituídas enquanto interessarem ao processo (artigo 118 
+do CPP).
+Em situações de maior complexidade, como operações policiais de grande 
+porte, recomenda-se que o Delegado de Polícia, para resguardar a legalidade 
+de seus atos, formule pedido expresso ao juízo competente para  autorizar pre­
+viamente a restituição de bens. Essa medida confere maior segurança jurídica, 
+pois evita questionamentos futuros quanto à competência da autoridade policial 
+para proceder à devolução, especialmente em casos nos quais a pertinência ou a 
+
+158
+necessidade do bem para a investigação possam gerar divergências interpretativas.
+É considerada, ainda, boa prática aguardar a conclusão da análise de todo 
+o material arrecadado para realizar uma única restituição a cada investigado, 
+otimizando os procedimentos cartorários. Mesmo após a realização de perícia, 
+a autoridade policial deve ponderar se a restituição do objeto poderia impedir a 
+realização de uma contraprova em caso de eventual questionamento do laudo.
+No contexto específico de investigações relacionadas a crimes previstos na Lei 
+de Drogas (Lei nº 11.343/2006), a legislação impõe uma condição adicional: 
+nenhum pedido de restituição será conhecido sem o comparecimento pessoal 
+do acusado.
+No sistema ePol, a opção “Restituído/Entregue” é uma das formas de destina­
+ção final de um bem, encerrando seu ciclo de custódia no âmbito da investigação.
+9.2  ALIENAÇÃO ANTECIPADA DE BENS APREENDIDOS
+O ordenamento jurídico brasileiro prevê duas modalidades de alienação de 
+bens constritos na esfera criminal: a definitiva e a antecipada.
+A primeira encontra amparo legal no art. 133 do Código de Processo Penal, 
+sendo medida cabível para os bens cujo perdimento tenha sido decretado em 
+sentença condenatória irrecorrível, ou ainda, para os itens apreendidos que não 
+tenham sido reclamados no prazo de 90 dias contados do trânsito em julgado 
+da sentença final (artigo 123 do CPP).
+A alienação antecipada é a venda de bens apreendidos que ocorre antes do 
+trânsito em julgado da sentença penal condenatória. O principal objetivo dessa 
+medida é evitar a desvalorização e a deterioração dos ativos que estão sob a 
+custódia do Estado, garantindo que, ao final do processo, o valor arrecadado 
+possa ser utilizado para a reparação do dano ou revertido em favor da União.
+A guarda de bens, especialmente veículos, aeronaves e embarcações, gera 
+altos custos de manutenção e armazenamento, além de estarem sujeitos a uma 
+depreciação acelerada. A alienação antecipada surge, portanto, como uma 
+solução eficiente para transformar um ativo, que gera despesas e perde valor, em 
+um recurso financeiro  depositado em conta judicial remunerada, preservando 
+seu valor econômico.
+Para uma gestão organizada, eficiente e transparente do processo de aliena­
+ção, é fundamental a instauração de um Registro Especial (RE) específico para 
+a destinação do bem no sistema ePol. Essa prática, em conformidade com o art. 
+165, IX, da IN 255/2023, é crucial para o controle rigoroso de todas as etapas 
+do ciclo de recuperação de ativos.
+
+159
+A criação de um RE apartado do inquérito policial principal (IPL) para tratar 
+da destinação de bens apreendidos oferece diversas vantagens:
+•	 Organização e Celeridade: Concentra em um único procedimento todos 
+os documentos e despachos relativos à destinação de um bem específico, 
+como a representação pela alienação, a decisão judicial, os laudos de 
+avaliação, as comunicações com a Secretaria Nacional de Políticas sobre 
+Drogas e Gestão de Ativos (SENAD) e os comprovantes de recolhimento 
+dos valores. Isso evita que o inquérito principal se torne excessivamente 
+volumoso e facilita a consulta e o acompanhamento do status do bem.
+•	 Controle e Rastreabilidade: O RE funciona como um dossiê do ativo, 
+documentando cronologicamente toda a sua “história” desde a apreensão 
+até a destinação final. Isso fortalece a cadeia de custódia e confere maior 
+segurança jurídica a todo o processo, resguardando a atuação policial 
+de futuros questionamentos.
+•	 Foco na Gestão do Ativo: Enquanto o IPL se concentra na apuração da 
+autoria e materialidade do crime, o RE de destinação de bens permite que 
+a equipe de investigação dedique atenção específica à gestão patrimonial. 
+Importante destacar que, se no âmbito policial a orientação normativa é pela 
+abertura de um Registro Especial (RE) específico para a destinação do bem no 
+sistema ePol, no âmbito judicial o Escrivão de Polícia Federal deverá distribuir 
+a representação da autoridade policial em um processo judicial incidental ao 
+procedimento em que o bem em questão foi apreendido, nunca no procedimento 
+principal.
+Assim, se o bem foi apreendido no inquérito policial, por ocasião da lavratura 
+de um Auto de Prisão em Flagrante Delito, o pedido de alienação antecipada do 
+bem deverá ser distribuído como um novo procedimento na Justiça, vinculado 
+ao inquérito policial. Mas pode ocorrer que esse bem esteja apreendido em um 
+procedimento cautelar (como um procedimento de Sequestro de Bens), quando 
+então a medida também será distribuída em um novo procedimento na Justiça 
+(de Destinação de Bens), porém vinculado ao Pedido de Sequestro de Bens. 
+Para uma decisão judicial célere e favorável, é importante que os bens estejam 
+adequadamente individualizados, com demonstração do nexo causal e com 
+justificativas acerca dos riscos de perecimento ou deterioração.
+Individualizar o bem significa dizer no que ele consiste, qual o seu valor, a 
+quem ele pertence, onde está localizado e qual sua relação com o fato criminoso. 
+Um bem adquirido antes dos fatos apurados não poderá ser considerado fruto 
+ou proveito do crime, mas pode ser fonte para futura indenização.
+
+160
+É preciso que se tenha especial atenção a bens de terceiros. O artigo 91 do 
+Código Penal faz ressalva quanto ao direito do lesado ou de terceiro de boa-fé. 
+Até  se demonstrar o contrário, os proprietários ou detentores não indiciados 
+têm a seu favor a presunção da boa-fé. É preciso circunstanciar sua participação 
+nos fatos para que o juiz possa decidir acerca da destinação do bem. 
+Recomenda-se que os pedidos de alienação antecipada de bens de pessoas 
+não indiciadas sejam realizados em procedimento específico e não em conjunto 
+com os demais. Isso porque ao terceiro de boa-fé são garantidos o contraditório e 
+ampla defesa no processo de alienação. E, se for feito nos mesmos autos, poderá 
+atrasar a decisão de alienação de todos dos bens, tumultuando o processo. 
+A autoridade policial deve, portanto, logo após a apreensão de um bem 
+passível de alienação antecipada, determinar a instauração do RE correspondente 
+no sistema ePol. Este registro será vinculado ao inquérito policial principal, mas 
+tramitará de forma independente, garantindo a agilidade necessária para que a 
+alienação ocorra no tempo oportuno, evitando a perda de valor do patrimônio e 
+revertendo os recursos de forma mais célere ao Estado, em especial aos fundos 
+destinados ao aparelhamento das forças policiais, como o FUNAD e o FUNAPOL.
+9.2.1 REQUISITOS LEGAIS
+A possibilidade de alienar bens antes do fim do processo judicial está prevista 
+em diferentes diplomas legais. O principal deles é o artigo 144-A do Código 
+de Processo Penal, que estabelece a regra geral para a alienação antecipada. 
+Adicionalmente, a Lei de Drogas (Lei nº 11.343/2006) traz um procedimento 
+ainda mais célere para a alienação dos bens apreendidos em investigações de 
+narcotráfico.
+Para que a alienação antecipada ocorra, são necessários os seguintes requi­
+sitos:
+•	 Apreensão do bem: o ativo deve ter sido regularmente apreendido em 
+um procedimento de polícia judiciária;
+•	 Representação da autoridade policial: o delegado de polícia deve 
+representar ao juízo competente, demonstrando o cabimento e a neces­
+sidade da medida;
+•	 Autorização judicial: a alienação depende de uma decisão judicial que 
+a autorize, após a manifestação do Ministério Público.
+A Secretaria Nacional de Políticas sobre Drogas e Gestão de Ativos (SENAD), 
+vinculada ao Ministério da Justiça e Segurança Pública, desempenha um papel 
+central nesse processo. A SENAD atua como uma agência central de gestão e 
+alienação de ativos, independentemente da natureza do crime, podendo apoiar o 
+Poder Judiciário antes ou depois do trânsito em julgado. É praxe que a autoridade 
+
+161
+policial, em sua representação, já sugira que a alienação seja realizada por meio 
+dos leiloeiros contratados pela SENAD.
+9.2.2 HIPÓTESES DE CABIMENTO
+A alienação antecipada é cabível, conforme o artigo 144-A do CPP, nas 
+seguintes hipóteses:
+•	 Bens sujeitos a qualquer grau de deterioração ou depreciação: é o 
+caso da maioria dos bens, como veículos, embarcações e aeronaves, que 
+perdem valor com o tempo e com a falta de uso.
+•	 Bens de difícil manutenção: aplica-se a ativos cuja guarda é complexa 
+ou gera custos excessivos para o Estado, como semoventes (rebanhos) ou 
+máquinas de grande porte, por exemplo.
+Para crimes relacionados ao tráfico de drogas, a legislação é ainda mais 
+incisiva. A Lei nº 11.343/2006 determina que a autoridade de polícia judiciária 
+comunique imediatamente ao juízo a apreensão de veículos, embarcações, 
+aeronaves e outros bens utilizados para a prática do crime. O juiz, por sua vez, 
+tem o prazo de 30 dias para determinar a alienação desses bens. Essa celeridade 
+visa  promover a descapitalização do narcotráfico de forma mais ágil e eficaz.
+A Lei de Lavagem de Dinheiro (Lei nº 9.613/98), em seu art. 4-A, também 
+estabelece a possibilidade de alienação antecipada para preservar o valor de 
+bens constritos, mediante petição autônoma.
+9.2.3 RECOLHIMENTO ANTECIPADO A FUNDOS PÚBLICOS
+Uma das principais preocupações relacionadas aos ativos constritos no inte­
+-resse de uma investigação diz respeito à preservação de seu valor econômico. Essa 
+consternação ganha especial relevo ao se ter em mente o longo lapso temporal 
+usualmente transcorrido desde a constrição do item até o trânsito em julgado 
+de um processo penal. Assim, seja em caso de condenação ou de absolvição, 
+não interessa nem à acusação nem à defesa receber, ao final do processo, bens 
+desgastados e muitas vezes inúteis em virtude de sua natural deterioração, ou 
+resgatar valores completamente corroídos pela inflação.
+É por esse motivo que, atualmente, tão importante quanto se promover a 
+alienação cautelar dos bens e ativos apreendidos, é imprescindível que os valores 
+dela decorrentes sejam colocados em depósitos que busquem assegurar, no 
+mínimo, a correção monetária da inflação.
+Essa mesma inquietação, aliás, é válida para os demais valores constritos 
+na investigação criminal – a exemplo de apreensão de numerário em espécie, 
+depósito de cheques ou recebíveis, sequestro de fianças, entre outros – os quais 
+
+162
+eram usualmente depositados na Caixa Econômica Federal em contas judiciais 
+vinculadas à operação 005 (depósitos judiciais da Justiça Federal).
+Ocorre que, à mera guisa de conhecimento, referidas contas são remuneradas 
+pela TR (taxa referencial), a qual, nos últimos anos, vem apresentando índice 
+de rendimento bastante ínfimo (em torno de 1% ao ano), inferior, inclusive, ao 
+rendimento da poupança (6% ao ano) e à própria inflação (cerca de 5% ao ano).
+Aliás, vale salientar que, no caso de bloqueio de contas por meio de SISBAJUD, 
+os valores constritos sequer são submetidos a qualquer sorte de atualização 
+monetária, enquanto não transferidos para uma conta judicial vinculada ao 
+procedimento criminal correlato.
+Dessa forma, não pairam dúvidas de que os valores depositados nas contas 
+vinculadas (do tipo operação 005) ou aqueles bloqueados por meio do SISBAJUD 
+estão, em verdade, sujeitos à grave depreciação com o passar do tempo.
+Diante desse cenário, o Manual de Orientação, Avaliação e Alienação Cautelar 
+e Definitiva de Bens elaborado pelo Ministério da Justiça e Segurança Pública21 tem 
+orientado que os numerários constritos em decorrência de medida assecuratória 
+de sequestro de valores ou de alienação antecipada de bens, seja na fase de 
+investigação ou de ação penal, sejam recolhidos na Caixa Econômica Federal por 
+meio de Depósitos Judiciais ou Extrajudiciais à Ordem e à Disposição da Autoridade 
+Judicial ou Administrativa Competente (DJE) – vinculados à operação 635.
+Vale salientar que, tal qual se sucede com os depósitos em contas judiciais 
+vinculadas (operação 005), os valores recolhidos por meio de DJE são individu­
+-alizados por depositante, por número de processo judicial e extrajudicial e por 
+código de receita, podendo ser levantados, total ou parcialmente, mediante alvará 
+da autoridade judicial, no prazo de até 24 horas (vide arts. 3º e 14 da Instrução 
+Normativa RFB nº 2153/2023).
+A distinção é que os valores recebidos por meio de DJE (operação 635) são 
+diariamente recolhidos à conta única do Tesouro Nacional, a qual, a par de apre­
+-sentar extrema solvência e liquidez (uma vez que o garantidor é a União Federal), 
+remunera-se, no mínimo, segundo a taxa do Sistema Especial de Liquidação e 
+Custódia - SELIC (que vem acumulando rendimento cerca de 13% ao ano); ou 
+seja, bem superior ao rentabilizado nas contas judiciais vinculadas (operação 
+005). Convém destacar, ainda, que a utilização de depósito judicial via DJE 
+já é amplamente utilizada pela Justiça Federal, pela Procuradoria da Fazenda 
+Nacional e pela Receita Federal do Brasil, notadamente nos processos fiscais e 
+extrafiscais. De toda sorte, considerando que os valores recolhidos por meio de 
+21	
+Acessível pelo portal oficial da Receita Federal do Brasil pelo endereço na internet: 
+https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/subcapas-senad/10_ 
+manual_v_25_2022_08-22.pdf
+
+163
+DJE são convertidos, ainda que temporariamente, em renda para a União, sua 
+utilização é restrita aos casos que tramitem na Justiça Federal, ou que digam 
+respeito à investigação dos crimes relacionados a drogas (ou a lavagem deles 
+decorrente),ainda que tramite na Justiça Estadual.
+Eventuais dúvidas que existiam quanto à utilização da operação 005 ou da 
+operação 635 nos depósitos judiciais junto à Caixa Econômica Federal foram 
+superadas com a edição da Lei nº 14.973, de 16 de setembro de 2024, que 
+no Capítulo VI, Seção I, regulamentou os depósitos judiciais e extrajudiciais no 
+interesse da Administração Pública Federal.
+Com efeito, no art.35 de referida lei houve a indicação de que os depósitos 
+realizados em processos administrativos ou judiciais em que figure a União, qual­
+-quer de seus órgãos, fundos, autarquias, fundações ou empresas estatais federais 
+dependentes deverão ser realizados perante a Caixa Econômica Federal, sendo que 
+no § 2º constou o encargo da Caixa Econômica Federal em promover o depósito 
+diretamente na Conta Única do Tesouro Nacional, situação operacionalizada, 
+antes do trânsito em julgado da ação penal por meio da DJE – operação 635.
+Ademais, o inciso II, do §5º, do art. 35, da Lei nº 14.973, de 16 de setembro 
+de 2024 dispôs de forma expressa que essa regra se aplica aos feitos criminais 
+de competência da Justiça Federal.
+Demais isso, conforme destacado no Manual de Recuperação de Ativos da 
+SRA/DRLD/CGRC/DICOR/PF22 a operação de Depósitos Judiciais e Extrajudiciais 
+(DJE) possui natureza cautelar, devendo ser utilizada apenas para o recolhimento 
+provisório de valores que estejam à ordem da autoridade judicial ou extrajudicial, 
+nunca para o definitivo, pois, no caso de recolhimento de taxas, multas, fianças, 
+ou no caso de ser decretado o perdimento de valores e transitada em julgado a 
+decisão judicial final no processo penal, o recolhimento desse tipo de receita se 
+dá pelo preenchimento da Guia de Recolhimento da União – GRU.
+É bem verdade que para a realização do depósito na operação 635 (DJE) 
+faz-se necessário, ainda, indicar o código de receita, o qual, sob o prisma penal, 
+corresponde aos fundos específicos destinatários e que variam de acordo com o 
+crime investigado, conforme legislação especial.
+A esse respeito, convém salientar que diversas leis já vêm autorizando a 
+destinação dos valores constritos na esfera criminal – seja de forma definitiva ou 
+antecipada – para fundos federais específicos, cabendo salientar que, em boa 
+parte deles, há a previsão legal de retorno de parcela dos recursos ali investidos 
+22	
+Disponível em https://pfgovbr.sharepoint.com/sites/PortalCGRC/Manuais/For­
+ms/ AllItems.aspx?id=%2Fsites%2FPortalCGRC%2FManuais%2FManual%20de%20 
+Recupera%C3%A7%C3%A3o%20de%20Ativos%20%20%28Vers%C3%A3o%2002%29%20
+15%2D07%2D2024%2Epdf&parent=%2Fsites%2FPortalCGRC%2FManuais.
+
+164
+em favor da Polícia Federal, concretizando o ciclo virtuoso de recapitalização 
+dos ativos outrora mencionados, retirando-os da esfera de gozo do criminoso e 
+utilizando-os, em contrapartida, em prol da sociedade.
+Nesse sentido, o art. 62-A, §1º da Lei nº 11.343/2006 (Lei de Drogas) pre­
+-ceitua que o depósito, em dinheiro, de valores referentes ao produto da alienação 
+ou a numerários apreendidos ou que tenham sido convertidos, deve ser transferido 
+no prazo de 24 horas, para a conta única do Tesouro Nacional – o que, como 
+visto, pode ser feito via DJE (operação 635) – onde ficará à disposição do FUNAD 
+(Fundo Nacional Antidrogas).
+Vale salientar, por sua vez, que a Lei nº 7.560/86 – a qual regula o Fundo 
+Nacional Antidrogas (FUNAD) – estipula, em seu art. 5º, §3º, a disponibilização 
+à Polícia Federal de até 40% (quarenta por cento) dos recursos provenientes da 
+apreensão de valores ou de alienação de bens apreendidos em investigações de 
+drogas ou do branqueamento de capitais delas correlato.
+Disciplinando o referido dispositivo, a Portaria MJSP nº 152, de 27 de maio 
+de 2021, autorizou, em seu art. 9º, I, a transferência de 40% dos recursos do 
+FUNAD à Polícia Federal desde que ela: i) tenha sido responsável pela investigação, 
+apreensão, sequestro ou arrecadação do bem e; ii) tenha designado comissão 
+para auxiliar a SENAD no processo de avaliação e alienação dos bens na unidade 
+da federação em que se der o leilão.
+Também a Lei nº 9.613/98 (Lei de Lavagem de Dinheiro) determina, em 
+seu art. 4º-A, §4º, que o produto das alienações antecipadas nos processos de 
+competência da Justiça Federal deve ser repassado para a conta única do Tesouro 
+Nacional, sendo este, mais uma vez, o fundamento para utilização dos Depósitos 
+Judiciais e Extrajudiciais (DJE) com relação aos valores apreendidos ou decorrentes 
+das vendas antecipadas relacionadas a investigações ou processos criminais de 
+lavagem de dinheiro, cujo crime antecedente seja distinto do tráfico de drogas. 
+Note-se que, diferentemente do que ocorre na Lei de Drogas, a Lei nº 9.613/98 
+não dispôs, de forma expressa, sobre a qual fundo deveriam ser transferidos os 
+recursos obtidos em apreensões ou decorrentes de alienações antecipadas.
+Por outro lado, vale salientar que o art. 7º, §1º da mesma Lei assegura a 
+destinação dos bens, direitos e valores relacionados, direta ou indiretamente, à 
+prática de lavagem de dinheiro, cuja perda houver sido declarada, em favor dos 
+órgãos federais encarregados da prevenção, do combate, da ação penal e do 
+julgamento desses delitos.
+É nesse contexto que foi editado o Decreto nº 11.008/22 determinando, em 
+seu art. 3º, a conversão em dinheiro dos bens, direitos e valores perdidos em 
+decorrência de condenação pelo crime de lavagem de dinheiro (Lei nº 9.613/98), 
+
+165
+sendo prioritariamente, deduzidos aqueles pertencentes à vítima ou ao terceiro de 
+boa-fé (art. 4º), destinando o restante da seguinte forma: i) 90% (noventa por cento) 
+à Polícia Federal, para integrar o Fundo para Aparelhamento e Operacionalização 
+das Atividades-fim da Polícia Federal (FUNAPOL); ii) 10% (dez por cento) para a 
+Polícia Rodoviária Federal.
+Ora, se ao final do processo já há estipulação legal para destinação dos 
+recursos apreendidos em investigações criminais ou ações penais que tenham 
+relação com a prática de lavagem de dinheiro ao FUNAPOL, respeitando os 
+percentuais definidos no Decreto nº 11.008/2022, nada obsta que, numa 
+interpretação análoga ao que se sucede com o delito de tráfico de drogas, essa 
+vinculação seja feita de forma antecipada, isto é, que dentro da conta única do 
+Tesouro Nacional estejam os mesmos à disposição do FUNAPOL, via DJE.
+Esse, aliás, é o entendimento albergado no documento intitulado “Orientações 
+sobre Recolhimentos de Receitas em favor do Fundo para Aparelhamento e 
+Operacionalização das Atividades-Fim da Polícia Federal (FUNAPOL)”, elaborado 
+pela Diretoria de Administração e Logística da Polícia Federal, para quem os 
+recolhimentos ao FUNAPOL via DJE são cabíveis em três situações:
+I.	 destinações determinadas pelo judiciário, em ações ou procedimentos 
+criminais sem trânsito em julgado (alienação antecipada);
+II.	recolhimento de numerário apreendido no curso do inquérito ou da 
+ação penal de crimes relacionados à lavagem de dinheiro;
+III.	valores em contas bancárias bloqueadas pelo judiciário via SISBAJUD.
+É importante destacar que, no caso de valores em contas bancárias bloqueadas 
+via SISBAJUD, a conversão para o Depósito Judiciais e Extrajudiciais (DJE) não 
+é automática, devendo a autoridade policial representar pela transferência dos 
+recursos congelados para esta conta mais rentosa. Nesse contexto, importante 
+esclarecer que a Vara Criminal pode, mediante despacho/decisão do Magistrado, 
+operacionalizar via SISBAJUD a transferência dos valores bloqueados em conta 
+titulada pelos investigados e/ou réus, para contas judiciais vinculadas ao processo, 
+inclusive utilizando a operação 635 – DJE, tendo a sua disponibilidade os códigos 
+de receita de fundos federais, como o FUNAD e FUNAPOL, razão pela qual é 
+fundamental que a autoridade policial faça constar em sua representação essa 
+orientação/pedido.
+A tabela contendo os códigos de receita a serem inseridos nos Depósitos 
+Judiciais e Extrajudiciais (DJE – operação 635) encontra-se no anexo do Ato 
+Declaratório Executivo Codac nº 24, de 13 de setembro de 2016, da Receita 
+Federal do Brasil (última atualização por meio do Ato Declaratório Executivo Codar 
+nº 4, de 27 de fevereiro de 2024), sendo que, aqueles de interesse da persecução 
+penal, foram sistematizados na planilha a seguir:
+
+166
+CRIME INVESTIGADO
+ESFERA
+DESTINO
+CÓDIGO DE 
+RECEITA
+C r i m e s  d a  Le i  n º 
+11.343/2006 e a
+lavagem de dinheiro dele 
+decorrente.
+ESTADUAL e 
+FEDERAL
+Conta judicial vin­
+-culada à operação 
+635 - DJE.
+- Fundo Nacional
+Antidrogas (FUNAD)
+5680
+C r i m e s  d a  Le i  n º 
+9.613/98 (lavagem de 
+dinheiro), EXCETO se 
+decorrentes de tráfico de 
+drogas
+FEDERAL
+Conta judicial vin­
+-culada à operação 
+635 - DJE.
+- Fundo Nacional 
+de Aparelhamento e 
+Operacionalização 
+das Atividades-fim da 
+Polícia Federal
+(FUNAPOL)
+6086
+Demais crimes (EXCETO 
+os da Lei nº 11.343/2006 
+e da Lei nº 9.613/98)
+FEDERAL
+Conta judicial vin­
+-culada à operação 
+635 - DJE. TESOURO 
+NACIONAL
+1602 (Ação Penal, 
+Inquérito Policial ou 
+Incidente Processual 
+Penal - MJSP - 
+Depósito Judicial)
+Insta salientar que, por enquanto, apenas o FUNAD e o FUNAPOL possuem 
+códigos de receita próprios na operação 635 – DJE, não tendo a Secretaria da 
+Receita Federal do Brasil regulamentado outros códigos para contemplar os 
+demais fundos que também são destinatários de recursos de processos criminais. 
+Nesses outros casos, mesmo que se tenha uma apreensão de valores em uma 
+investigação para apuração de crime praticado por Milícias, cuja previsão legal 
+de destino dos valores declarados perdidos na sentença condenatória transitada 
+em julgado é o Fundo Nacional de Segurança Pública (FNSP), ou mesmo nos 
+casos que o fundo destinatário seria o Fundo Penitenciário Nacional (FUNPEN), 
+caso haja necessidade de transferência ao Tesouro Nacional antes do trânsito em 
+julgado da sentença criminal o código de receita a ser utilizado na operação 635 
+será o código geral 1602, identificado como referente à “Ação Penal, Inquérito 
+Policial ou Incidente Processual Penal – MJSP – Depósito Judicial”.
+Registra-se que a Lei 15.358/2026, denominada Marco Legal do Combate 
+ao Crime Organizado no Brasil (Lei Raul Jungmann), também prevê destinações 
+específicas a) ao Fundo de Segurança Pública do respectivo Estado ou do Distrito 
+Federal, quando o delito estiver sendo investigado pelas autoridades locais; b) ao 
+Fundo Nacional de Segurança Pública, quando o delito estiver sendo investigado 
+pela Polícia Federal; c) em caso de atuação conjunta entre a Polícia Federal e 
+as forças de segurança pública estaduais ou distritais, os valores serão rateados 
+em partes iguais entre o Fundo Nacional de Segurança Pública e os Fundos de 
+
+167
+Segurança Pública dos respectivos Estados ou do Distrito Federal.
+Por fim, é relevante destacar que, no âmbito da Justiça Federal, dois sistemas 
+são utilizados para a tramitação dos inquéritos policiais, quais sejam: o PJE e o 
+E-PROC, sendo que cada sistema disponibiliza ou não ferramentas que facilitam 
+a realização dos depósitos judiciais.
+No caso do E-PROC, o escrivão deverá abrir a conta judicial vinculada ao 
+CPF ou CNPJ do investigado diretamente dentro do inquérito policial ou do 
+processo vinculado ao caso, permitindo o sistema a realização da emissão de 
+guia de depósito via operação 635 – DJE, sendo que após a efetivação do depósito 
+na agência bancária da CEF, o próprio sistema E-PROC permite a consulta pelas 
+partes do processo (PF, MPF, JF e advogados) dos valores que estão apreendidos no 
+caso, individualizados por CPF ou CNPJ.
+Fluxo para abertura de conta judicial no E-PROC e emissão de guia de 
+depósito:
+1º passo: acessar o link “Depósitos Judiciais” dentro do inquérito ou do 
+processo correspondente;
+2º passo: clicar em “Novo depósito judicial eletrônico”;
+3º passo: escolher a opção “Depósito Judicial – primeiro depósito” ou 
+“Depósito Judicial – em continuação” (caso já exista um depósito anterior 
+vinculado ao mesmo CPF/CNPJ);
+4º passo: selecione o motivo do depósito: “valores apreendidos”, 
+“arrematação” ou “outros”;
+5º passo: o sistema selecionará automaticamente a operação 635, 
+devendo o policial preencher os campos do “Código de receita/ 
+depósito”, “Depositante”, “telefone de contato”, “Mês/Ano de 
+Apuração” e o “Valor total do depósito”;
+6º passo: clicar em “criar conta de depósito judicial”.
+No caso do sistema PJE, o sistema ainda não oferece a possibilidade de realizar 
+a abertura de conta judicial e a emissão de guia para depósito dentro do inquérito 
+policial ou do processo criminal, razão pela qual o policial terá de acessar a página 
+da Caixa Econômica Federal pela internet, no endereço https:// novodepositojudicial.
+caixa.gov.br/ e seguir o seguinte fluxo:
+1º passo: preencher o número do processo na Justiça Federal e clicar 
+em “Consultar Processo”;
+2º passo: selecionar a natureza do depósito “Não Tributário”;
+3º passo: responder “SIM” à pergunta se a União é parte do processo;
+4º passo: selecionar o código de receita 1602, 5680 ou 6086;
+5º passo: preencher o CPF/CNPJ do detentor dos valores que serão 
+depositados;
+
+168
+6º passo: preencher o telefone de contato da delegacia;
+7º passo: preencher os demais campos exigidos na guia e clicar em 
+continuar para gerá-la.
+Na hipótese de constrição de valores em investigações em trâmite perante a 
+Justiça Estadual – salvo no caso de tráfico de drogas ou de sua lavagem, cujos 
+recursos devem ser destinados ao FUNAD via operação Depósitos Judiciais e 
+Extrajudiciais (DJE), nos termos outrora delineados - via de regra, utiliza-se o 
+Banco do Brasil para depósito cautelar dos mesmos, se outra instituição financeira 
+não houver sido indicada especificamente pelo Juízo, conforme convênio firmado 
+com o respectivo Tribunal.
+Para abertura de contas vinculadas judiciais no Banco do Brasil, entrar no ende­
+-reço https://www63.bb.com.br/portalbb/djo/id/IdDeposito,802,4647,4648,0,1. 
+bbx, e seguir o fluxo:
+1º passo: indicar o Juízo competente (estadual, federal ou trabalhista); 2º 
+passo: identificar no pré-cadastramento que se trata de “primeiro depósito”, 
+“depósito em continuação” e “nova parcela de primeiro depósito”. Via de regra, 
+escolher a primeira opção para cada novo depósito vinculado ao processo, 
+salvo se o juiz determinar expressa-mente que os depósitos sejam realizados em 
+uma única conta judicial (ocasião em que seria utilizada a opção “depósito em 
+continuação”).
+Em seguida, clique em “continuar”;
+3º passo: escolher a Unidade da Federação e, na sequência, selecionar o 
+Tribunal envolvido e a respectiva Comarca;
+4º passo: após clicar em continuar, preencha os campos com os dados do 
+processo e, ao final, gere o ID.
+9.2.4 O PAPEL DA SENAD NA ALIENAÇÃO ANTECIPADA
+Conforme destacado no tópico anterior, compete à Secretaria Nacional de 
+Políticas sobre Drogas e Gestão de Ativos (SENAD), vinculada ao Ministério da 
+Justiça e Segurança Pública, gerir os ativos objetos de perdimento em favor da 
+União, independentemente da natureza do crime que os originou, e apoiar o 
+Poder Judiciário na alienação de bens antes ou depois do trânsito em julgado da 
+sentença condenatória.
+Na prática, o fluxo se inicia na investigação. Quando o presidente do inquérito 
+policial identifica um bem apreendido que está sujeito a deterioração ou depre­
+-ciação, ou cuja manutenção é difícil ou onerosa (como veículos, embarcações 
+e aeronaves), ele representa ao juízo competente por sua alienação antecipada. 
+Uma vez autorizada judicialmente a alienação, a SENAD é comunicada para 
+
+169
+iniciar os procedimentos de venda. A Secretaria utiliza leiloeiros públicos oficiais,
+por ela contratados em todo o país, para realizar esses leilões.
+Considerando que a SENAD não possui estrutura administrativa em todas 
+as unidades da federação, a Polícia Federal instituiu, em suas Superintendências 
+Regionais, as Comissões Permanentes de Avaliação e Alienação. Essas comissões 
+são o ponto de contato local e têm o papel de prestar apoio à SENAD e aos 
+leiloeiros, auxiliando no processo de avaliação dos bens e na logística necessária 
+para o leilão.
+Essa colaboração cria um círculo virtuoso: a atuação da comissão da PF não 
+apenas agiliza o processo de alienação, mas também é um requisito para que a 
+Polícia Federal receba um percentual dos valores arrecadados, revertidos para o 
+Fundo para Aparelhamento e Operacionalização das Atividades-fim da Polícia Federal 
+(FUNAPOL) ou para o FUNAD, a depender do crime originário.
+Com efeito, isso significa que a autoridade policial, ao representar pela 
+alienação antecipada de um bem, pode e deve solicitar ao juízo que a venda 
+seja realizada com o auxílio da SENAD, desonerando a unidade policial de parte 
+significativa dos trâmites burocráticos e logísticos.
+9.3   USO DE BENS APREENDIDOS POR ÓRGÃOS E 
+ENTIDADES
+A destinação de bens apreendidos não se resume à sua restituição ou aliena­
+ção. Uma modalidade de destinação provisória de grande interesse público é a 
+utilização de ativos por órgãos estatais, em especial pelas forças de segurança. 
+Essa medida, além de evitar a depreciação de bens que ficariam parados em 
+depósitos judiciais, reverte um recurso da atividade criminosa para o fortalecimento 
+do próprio Estado.
+O arcabouço legal que ampara essa prática foi significativamente modernizado 
+pela Lei nº 13.964/2019 (“Pacote Anticrime”), que inseriu o art. 133-A no Código 
+de Processo Penal.
+Este artigo estabelece a regra geral para o uso de bens, autorizando o juiz, 
+constatado o interesse público, a permitir a utilização de qualquer bem seques­
+trado, apreendido ou sujeito a medida assecuratória para o desempenho das 
+atividades dos seguintes órgãos:
+•	 Órgãos de segurança pública previstos no art. 144 da Constituição 
+Federal;
+•	 Sistema prisional;
+•	 Sistema socioeducativo;
+•	 Força Nacional de Segurança Pública;
+
+170
+•	 Instituto Geral de Perícia.
+É fundamental destacar a regra de prioridade estabelecida no § 1º do mesmo 
+artigo: o órgão de segurança pública que participou das ações de investigação ou 
+repressão que levaram à constrição do bem terá preferência na sua utilização. Essa 
+disposição valoriza o trabalho investigativo e permite que a unidade responsável 
+pela apreensão possa se beneficiar diretamente do resultado de suas ações.
+Como se verá adiante, o uso de bens apreendidos pelos órgãos públicos 
+não ocorre de forma automática, dependendo de autorização expressa do  juiz 
+competente, sempre precedida de representação da autoridade policial ou do 
+Ministério Público. Esse procedimento assegura o controle jurisdicional sobre a 
+destinação provisória dos ativos, preservando a legalidade e a finalidade pública 
+da medida.
+Antes de formular a representação judicial, é recomendável que a autoridade 
+policial alinhe previamente com a gestão administrativa do órgão interessado, a 
+fim de verificar a efetiva viabilidade de absorção e utilização do bem. Essa análise 
+prévia busca evitar que ativos sejam incorporados formalmente ao órgão, mas, 
+na prática, se revelem inúteis ou onerosos à administração.
+No caso específico de veículos, essa cautela deve ser redobrada. Cabe à 
+autoridade policial averiguar se o automóvel preenche as condições mínimas de 
+segurança e funcionalidade para inclusão na frota oficial, considerando aspectos 
+como estado de conservação, regularidade documental e adequação técnica ao 
+uso institucional. Tal diligência evita que a utilização do bem resulte em custos 
+adicionais desproporcionais ou em riscos à atividade estatal.
+Procedimento Interno na Polícia Federal
+Antes que a autoridade policial represente em juízo pela autorização de uso 
+de um bem, é mandatório seguir o procedimento interno previsto no art. 148 da 
+Instrução Normativa nº 255/2023-DG/PF
+A norma exige uma consulta prévia para que a Administração manifeste seu 
+interesse no bem. Essa consulta deve ser dirigida:
+a)	 Ao Superintendente Regional, no âmbito de sua atribuição; ou
+b)	 Ao Diretor da respectiva área, no caso das unidades centrais.
+Essa etapa é crucial para garantir que o uso do bem esteja alinhado às 
+necessidades e ao planejamento estratégico da instituição, evitando o acúmulo 
+de ativos sem uma finalidade administrativa clara.
+No caso de elementos de interesse apreendidos provenientes de contrabando 
+ou descaminho e os veículos utilizados para seu transporte, o art. 156 estabelece 
+que a conveniência da representação ao juízo competente para perdimento dos 
+
+171
+elementos de interesse em favor da Polícia Federal será avaliada pelo presidente 
+da investigação, mediante prévia manifestação de interesse administrativo e 
+autorização:
+I - do superintendente regional, no âmbito de sua atribuição; ou
+II - do diretor da respectiva área, nas unidades centrais.
+Aspectos Práticos (Viaturas)
+Uma vez obtida a autorização judicial, o bem passa a ser utilizado pelo órgão. 
+No caso de veículos,  os bens mais comumente utilizados, a Instrução Normativa nº 
+203/2021-DG/PF estabelece que eles serão considerados “viaturas apreendidas”. 
+Geralmente, são classificadas como viaturas reservadas (descaracterizadas) e 
+devem ser cadastradas nos sistemas de controle da instituição, como o e-LOG e o 
+SISVIA, para fins de gestão patrimonial, controle de manutenção e abastecimento.
+Transferência Definitiva
+O uso do bem é, a princípio, provisório. Contudo, após o trânsito em julgado 
+da sentença penal condenatória que decreta o perdimento do bem, o juiz poderá 
+determinar sua transferência definitiva para o patrimônio do órgão público que 
+o estava utilizando, consolidando a reversão do ativo do crime para o Estado.
+9.4   CONCLUSÃO DA INVESTIGAÇÃO
+Finalizados os trabalhos da fase ostensiva e esgotadas as análises do material 
+arrecadado, a investigação policial se aproxima de seu desfecho formal, que 
+ocorre com a apresentação do Relatório Final do respectivo inquérito policial. É 
+crucial compreender que a deflagração de uma operação, por mais relevante 
+que seja, possui um papel instrumental dentro da investigação. O “produto” mais 
+importante de todo o esforço investigativo é, sem dúvida, o Relatório Final.
+Este documento é a peça que consolida todo o trabalho da equipe, expondo 
+de forma lógica e coesa os resultados obtidos, as provas de autoria e materia­
+lidade colhidas e as conclusões em âmbito indiciário. Servirá como base para 
+a propositura da ação penal pelo Ministério Público, para a propositura de um 
+Acordo de Não Persecução Penal – ANPP pelo órgão ministerial ou mesmo para 
+fundamentar o arquivamento do caso.
+No que tange especificamente à destinação de coisas apreendidas, o Relatório 
+Final deve consolidar os resultados da recuperação de ativos, demonstrando o 
+caminho percorrido nas cinco etapas do processo: identificação, apreensão, admi­
+nistração, alienação e destinação. Para subsidiar essa parte do relatório, a equipe 
+
+172
+de investigação se valerá da Informação de Polícia Judiciária - Levantamento 
+Patrimonial Final, documento que compila todo o inventário de bens identificados 
+e sua relação com os fatos.
+Ao redigir as conclusões sobre o patrimônio, a autoridade policial deverá se 
+concentrar nos seguintes pontos:
+•	 Demonstração da “referibilidade”: É essencial estabelecer o nexo de 
+causalidade entre o patrimônio identificado e os crimes investigados, 
+vínculo que garante a proporcionalidade das medidas cautelares adotadas.
+•	 Classificação dos bens: Avaliar se os bens identificados se caracterizam 
+como produto, proveito ou instrumento do crime investigado, o que 
+fundamentará seu perdimento em favor da União, conforme o art. 91, II, 
+alíneas ‘a’ e ‘b’, do Código Penal.
+•	 Análise sobre a existência de “patrimônio a descoberto”: Confrontar 
+o patrimônio identificado com a renda lícita declarada pelos investigados. 
+Caso seja identificado um patrimônio incompatível e o crime apurado tenha 
+pena máxima superior a 6 (seis) anos, essa análise subsidiará um futuro 
+pedido de confisco alargado, nos termos do art. 91-A do Código Penal.
+É fundamental que o candidato à carreira policial federal tenha ciência de que 
+o planejamento da fase conclusiva da investigação demanda cuidados específicos, 
+principalmente quando há investigados presos cautelarmente. Nesses casos, os 
+prazos para a conclusão do inquérito policial tornam-se mais exíguos, exigindo 
+maior celeridade da equipe.
+Segundo a IN 255/2023, o relatório final consiste em análise técnico-jurídica 
+da investigação e abordará: 
+I - o fato investigado e as circunstâncias; 
+II - a adequação típica, a antijuridicidade, a culpabilidade e a punibilidade; 
+III - as diligências realizadas; 
+IV - a materialidade, a autoria e as demais circunstâncias do crime; 
+V - os reflexos patrimoniais da ação criminosa; e 
+VI - as conclusões. Conforme dispositivo, é vedada a apresentação de relatório 
+final meramente remissivo das diligências realizadas.
+Em investigações de maior complexidade, pode-se adotar a estratégia do 
+fatiamento ou desmembramento do inquérito policial. Isso permite finalizar uma 
+parte da investigação com o lançamento do Relatório Final e, mediante autorização 
+judicial, prosseguir com as diligências restantes em autos apartados. Dessa forma, 
+vertentes da investigação que já se encontram maduras não são prejudicadas pela 
+pendência de análises mais demoradas.
+Por fim, a conclusão da investigação não é apenas uma etapa procedimental, 
+
+173
+mas um dever funcional. A finalidade precípua da investigação é o alcance da 
+verdade (processual) sobre os fatos, e sua conclusão efetiva garante o sucesso 
+da operação policial. A procrastinação injustificada da investigação, além de 
+condenar a ação policial à ineficácia, pode configurar o crime previsto no art. 
+31 da Lei n.º 13.869/2019 (Lei de Abuso de Autoridade). O Relatório Final é, 
+portanto, o ato que encerra com dignidade um ciclo de trabalho e entrega à 
+sociedade o resultado esperado da atuação da Polícia Federal.
+
+
+175
+CONCLUSÃO
+Ao final da disciplina de Investigação Policial III, fica claro que o êxito das 
+operações da Polícia Federal não resulta do improviso, mas da aplicação de 
+uma doutrina de planejamento operacional amadurecida ao longo de anos. A 
+capacidade de realizar grandes operações com eficiência e, muitas vezes, sem a 
+necessidade do uso da força, demonstra que o preparo técnico e a organização 
+institucional são marcas distintivas da atividade policial contemporânea.
+Esse conjunto de práticas, iniciado em 2007 e aperfeiçoado em versões 
+posteriores, alcançou em 2024 um nível de consolidação que reflete quase duas 
+décadas de evolução. O atual Manual de Planejamento Operacional, tomado 
+como referência neste caderno didático, sintetiza essa trajetória e garante que o 
+conhecimento transmitido aos novos policiais esteja alinhado com a realidade 
+prática vivenciada no campo.
+O domínio da organização e da condução das operações é essencial para 
+evitar que falhas nesse momento não apenas comprometam todo o trabalho 
+investigativo já realizado, desperdiçando esforços e prejudicando a efetividade 
+da persecução penal, mas também exponham policiais e investigados a riscos 
+desnecessários.
+Assim, a disciplina de IPO III encerra reforçando que o planejamento ope­
+racional não é apenas um recurso administrativo, mas um verdadeiro pilar da 
+atuação da Polícia Federal. Cabe ao policial em formação compreender que 
+esse conhecimento acumulado é um patrimônio da instituição e  a sua correta 
+aplicação garante a continuidade do padrão de excelência que distingue a PF 
+no cenário nacional.

@@ -1,0 +1,349 @@
+9.2.3 RECOLHIMENTO ANTECIPADO A FUNDOS PÚBLICOS
+Uma das principais preocupações relacionadas aos ativos constritos no inte­
+-resse de uma investigação diz respeito à preservação de seu valor econômico. Essa 
+consternação ganha especial relevo ao se ter em mente o longo lapso temporal 
+usualmente transcorrido desde a constrição do item até o trânsito em julgado 
+de um processo penal. Assim, seja em caso de condenação ou de absolvição, 
+não interessa nem à acusação nem à defesa receber, ao final do processo, bens 
+desgastados e muitas vezes inúteis em virtude de sua natural deterioração, ou 
+resgatar valores completamente corroídos pela inflação.
+É por esse motivo que, atualmente, tão importante quanto se promover a 
+alienação cautelar dos bens e ativos apreendidos, é imprescindível que os valores 
+dela decorrentes sejam colocados em depósitos que busquem assegurar, no 
+mínimo, a correção monetária da inflação.
+Essa mesma inquietação, aliás, é válida para os demais valores constritos 
+na investigação criminal – a exemplo de apreensão de numerário em espécie, 
+depósito de cheques ou recebíveis, sequestro de fianças, entre outros – os quais 
+
+162
+eram usualmente depositados na Caixa Econômica Federal em contas judiciais 
+vinculadas à operação 005 (depósitos judiciais da Justiça Federal).
+Ocorre que, à mera guisa de conhecimento, referidas contas são remuneradas 
+pela TR (taxa referencial), a qual, nos últimos anos, vem apresentando índice 
+de rendimento bastante ínfimo (em torno de 1% ao ano), inferior, inclusive, ao 
+rendimento da poupança (6% ao ano) e à própria inflação (cerca de 5% ao ano).
+Aliás, vale salientar que, no caso de bloqueio de contas por meio de SISBAJUD, 
+os valores constritos sequer são submetidos a qualquer sorte de atualização 
+monetária, enquanto não transferidos para uma conta judicial vinculada ao 
+procedimento criminal correlato.
+Dessa forma, não pairam dúvidas de que os valores depositados nas contas 
+vinculadas (do tipo operação 005) ou aqueles bloqueados por meio do SISBAJUD 
+estão, em verdade, sujeitos à grave depreciação com o passar do tempo.
+Diante desse cenário, o Manual de Orientação, Avaliação e Alienação Cautelar 
+e Definitiva de Bens elaborado pelo Ministério da Justiça e Segurança Pública21 tem 
+orientado que os numerários constritos em decorrência de medida assecuratória 
+de sequestro de valores ou de alienação antecipada de bens, seja na fase de 
+investigação ou de ação penal, sejam recolhidos na Caixa Econômica Federal por 
+meio de Depósitos Judiciais ou Extrajudiciais à Ordem e à Disposição da Autoridade 
+Judicial ou Administrativa Competente (DJE) – vinculados à operação 635.
+Vale salientar que, tal qual se sucede com os depósitos em contas judiciais 
+vinculadas (operação 005), os valores recolhidos por meio de DJE são individu­
+-alizados por depositante, por número de processo judicial e extrajudicial e por 
+código de receita, podendo ser levantados, total ou parcialmente, mediante alvará 
+da autoridade judicial, no prazo de até 24 horas (vide arts. 3º e 14 da Instrução 
+Normativa RFB nº 2153/2023).
+A distinção é que os valores recebidos por meio de DJE (operação 635) são 
+diariamente recolhidos à conta única do Tesouro Nacional, a qual, a par de apre­
+-sentar extrema solvência e liquidez (uma vez que o garantidor é a União Federal), 
+remunera-se, no mínimo, segundo a taxa do Sistema Especial de Liquidação e 
+Custódia - SELIC (que vem acumulando rendimento cerca de 13% ao ano); ou 
+seja, bem superior ao rentabilizado nas contas judiciais vinculadas (operação 
+005). Convém destacar, ainda, que a utilização de depósito judicial via DJE 
+já é amplamente utilizada pela Justiça Federal, pela Procuradoria da Fazenda 
+Nacional e pela Receita Federal do Brasil, notadamente nos processos fiscais e 
+extrafiscais. De toda sorte, considerando que os valores recolhidos por meio de 
+21	
+Acessível pelo portal oficial da Receita Federal do Brasil pelo endereço na internet: 
+https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/subcapas-senad/10_ 
+manual_v_25_2022_08-22.pdf
+
+163
+DJE são convertidos, ainda que temporariamente, em renda para a União, sua 
+utilização é restrita aos casos que tramitem na Justiça Federal, ou que digam 
+respeito à investigação dos crimes relacionados a drogas (ou a lavagem deles 
+decorrente),ainda que tramite na Justiça Estadual.
+Eventuais dúvidas que existiam quanto à utilização da operação 005 ou da 
+operação 635 nos depósitos judiciais junto à Caixa Econômica Federal foram 
+superadas com a edição da Lei nº 14.973, de 16 de setembro de 2024, que 
+no Capítulo VI, Seção I, regulamentou os depósitos judiciais e extrajudiciais no 
+interesse da Administração Pública Federal.
+Com efeito, no art.35 de referida lei houve a indicação de que os depósitos 
+realizados em processos administrativos ou judiciais em que figure a União, qual­
+-quer de seus órgãos, fundos, autarquias, fundações ou empresas estatais federais 
+dependentes deverão ser realizados perante a Caixa Econômica Federal, sendo que 
+no § 2º constou o encargo da Caixa Econômica Federal em promover o depósito 
+diretamente na Conta Única do Tesouro Nacional, situação operacionalizada, 
+antes do trânsito em julgado da ação penal por meio da DJE – operação 635.
+Ademais, o inciso II, do §5º, do art. 35, da Lei nº 14.973, de 16 de setembro 
+de 2024 dispôs de forma expressa que essa regra se aplica aos feitos criminais 
+de competência da Justiça Federal.
+Demais isso, conforme destacado no Manual de Recuperação de Ativos da 
+SRA/DRLD/CGRC/DICOR/PF22 a operação de Depósitos Judiciais e Extrajudiciais 
+(DJE) possui natureza cautelar, devendo ser utilizada apenas para o recolhimento 
+provisório de valores que estejam à ordem da autoridade judicial ou extrajudicial, 
+nunca para o definitivo, pois, no caso de recolhimento de taxas, multas, fianças, 
+ou no caso de ser decretado o perdimento de valores e transitada em julgado a 
+decisão judicial final no processo penal, o recolhimento desse tipo de receita se 
+dá pelo preenchimento da Guia de Recolhimento da União – GRU.
+É bem verdade que para a realização do depósito na operação 635 (DJE) 
+faz-se necessário, ainda, indicar o código de receita, o qual, sob o prisma penal, 
+corresponde aos fundos específicos destinatários e que variam de acordo com o 
+crime investigado, conforme legislação especial.
+A esse respeito, convém salientar que diversas leis já vêm autorizando a 
+destinação dos valores constritos na esfera criminal – seja de forma definitiva ou 
+antecipada – para fundos federais específicos, cabendo salientar que, em boa 
+parte deles, há a previsão legal de retorno de parcela dos recursos ali investidos 
+22	
+Disponível em https://pfgovbr.sharepoint.com/sites/PortalCGRC/Manuais/For­
+ms/ AllItems.aspx?id=%2Fsites%2FPortalCGRC%2FManuais%2FManual%20de%20 
+Recupera%C3%A7%C3%A3o%20de%20Ativos%20%20%28Vers%C3%A3o%2002%29%20
+15%2D07%2D2024%2Epdf&parent=%2Fsites%2FPortalCGRC%2FManuais.
+
+164
+em favor da Polícia Federal, concretizando o ciclo virtuoso de recapitalização 
+dos ativos outrora mencionados, retirando-os da esfera de gozo do criminoso e 
+utilizando-os, em contrapartida, em prol da sociedade.
+Nesse sentido, o art. 62-A, §1º da Lei nº 11.343/2006 (Lei de Drogas) pre­
+-ceitua que o depósito, em dinheiro, de valores referentes ao produto da alienação 
+ou a numerários apreendidos ou que tenham sido convertidos, deve ser transferido 
+no prazo de 24 horas, para a conta única do Tesouro Nacional – o que, como 
+visto, pode ser feito via DJE (operação 635) – onde ficará à disposição do FUNAD 
+(Fundo Nacional Antidrogas).
+Vale salientar, por sua vez, que a Lei nº 7.560/86 – a qual regula o Fundo 
+Nacional Antidrogas (FUNAD) – estipula, em seu art. 5º, §3º, a disponibilização 
+à Polícia Federal de até 40% (quarenta por cento) dos recursos provenientes da 
+apreensão de valores ou de alienação de bens apreendidos em investigações de 
+drogas ou do branqueamento de capitais delas correlato.
+Disciplinando o referido dispositivo, a Portaria MJSP nº 152, de 27 de maio 
+de 2021, autorizou, em seu art. 9º, I, a transferência de 40% dos recursos do 
+FUNAD à Polícia Federal desde que ela: i) tenha sido responsável pela investigação, 
+apreensão, sequestro ou arrecadação do bem e; ii) tenha designado comissão 
+para auxiliar a SENAD no processo de avaliação e alienação dos bens na unidade 
+da federação em que se der o leilão.
+Também a Lei nº 9.613/98 (Lei de Lavagem de Dinheiro) determina, em 
+seu art. 4º-A, §4º, que o produto das alienações antecipadas nos processos de 
+competência da Justiça Federal deve ser repassado para a conta única do Tesouro 
+Nacional, sendo este, mais uma vez, o fundamento para utilização dos Depósitos 
+Judiciais e Extrajudiciais (DJE) com relação aos valores apreendidos ou decorrentes 
+das vendas antecipadas relacionadas a investigações ou processos criminais de 
+lavagem de dinheiro, cujo crime antecedente seja distinto do tráfico de drogas. 
+Note-se que, diferentemente do que ocorre na Lei de Drogas, a Lei nº 9.613/98 
+não dispôs, de forma expressa, sobre a qual fundo deveriam ser transferidos os 
+recursos obtidos em apreensões ou decorrentes de alienações antecipadas.
+Por outro lado, vale salientar que o art. 7º, §1º da mesma Lei assegura a 
+destinação dos bens, direitos e valores relacionados, direta ou indiretamente, à 
+prática de lavagem de dinheiro, cuja perda houver sido declarada, em favor dos 
+órgãos federais encarregados da prevenção, do combate, da ação penal e do 
+julgamento desses delitos.
+É nesse contexto que foi editado o Decreto nº 11.008/22 determinando, em 
+seu art. 3º, a conversão em dinheiro dos bens, direitos e valores perdidos em 
+decorrência de condenação pelo crime de lavagem de dinheiro (Lei nº 9.613/98), 
+
+165
+sendo prioritariamente, deduzidos aqueles pertencentes à vítima ou ao terceiro de 
+boa-fé (art. 4º), destinando o restante da seguinte forma: i) 90% (noventa por cento) 
+à Polícia Federal, para integrar o Fundo para Aparelhamento e Operacionalização 
+das Atividades-fim da Polícia Federal (FUNAPOL); ii) 10% (dez por cento) para a 
+Polícia Rodoviária Federal.
+Ora, se ao final do processo já há estipulação legal para destinação dos 
+recursos apreendidos em investigações criminais ou ações penais que tenham 
+relação com a prática de lavagem de dinheiro ao FUNAPOL, respeitando os 
+percentuais definidos no Decreto nº 11.008/2022, nada obsta que, numa 
+interpretação análoga ao que se sucede com o delito de tráfico de drogas, essa 
+vinculação seja feita de forma antecipada, isto é, que dentro da conta única do 
+Tesouro Nacional estejam os mesmos à disposição do FUNAPOL, via DJE.
+Esse, aliás, é o entendimento albergado no documento intitulado “Orientações 
+sobre Recolhimentos de Receitas em favor do Fundo para Aparelhamento e 
+Operacionalização das Atividades-Fim da Polícia Federal (FUNAPOL)”, elaborado 
+pela Diretoria de Administração e Logística da Polícia Federal, para quem os 
+recolhimentos ao FUNAPOL via DJE são cabíveis em três situações:
+I.	 destinações determinadas pelo judiciário, em ações ou procedimentos 
+criminais sem trânsito em julgado (alienação antecipada);
+II.	recolhimento de numerário apreendido no curso do inquérito ou da 
+ação penal de crimes relacionados à lavagem de dinheiro;
+III.	valores em contas bancárias bloqueadas pelo judiciário via SISBAJUD.
+É importante destacar que, no caso de valores em contas bancárias bloqueadas 
+via SISBAJUD, a conversão para o Depósito Judiciais e Extrajudiciais (DJE) não 
+é automática, devendo a autoridade policial representar pela transferência dos 
+recursos congelados para esta conta mais rentosa. Nesse contexto, importante 
+esclarecer que a Vara Criminal pode, mediante despacho/decisão do Magistrado, 
+operacionalizar via SISBAJUD a transferência dos valores bloqueados em conta 
+titulada pelos investigados e/ou réus, para contas judiciais vinculadas ao processo, 
+inclusive utilizando a operação 635 – DJE, tendo a sua disponibilidade os códigos 
+de receita de fundos federais, como o FUNAD e FUNAPOL, razão pela qual é 
+fundamental que a autoridade policial faça constar em sua representação essa 
+orientação/pedido.
+A tabela contendo os códigos de receita a serem inseridos nos Depósitos 
+Judiciais e Extrajudiciais (DJE – operação 635) encontra-se no anexo do Ato 
+Declaratório Executivo Codac nº 24, de 13 de setembro de 2016, da Receita 
+Federal do Brasil (última atualização por meio do Ato Declaratório Executivo Codar 
+nº 4, de 27 de fevereiro de 2024), sendo que, aqueles de interesse da persecução 
+penal, foram sistematizados na planilha a seguir:
+
+166
+CRIME INVESTIGADO
+ESFERA
+DESTINO
+CÓDIGO DE 
+RECEITA
+C r i m e s  d a  Le i  n º 
+11.343/2006 e a
+lavagem de dinheiro dele 
+decorrente.
+ESTADUAL e 
+FEDERAL
+Conta judicial vin­
+-culada à operação 
+635 - DJE.
+- Fundo Nacional
+Antidrogas (FUNAD)
+5680
+C r i m e s  d a  Le i  n º 
+9.613/98 (lavagem de 
+dinheiro), EXCETO se 
+decorrentes de tráfico de 
+drogas
+FEDERAL
+Conta judicial vin­
+-culada à operação 
+635 - DJE.
+- Fundo Nacional 
+de Aparelhamento e 
+Operacionalização 
+das Atividades-fim da 
+Polícia Federal
+(FUNAPOL)
+6086
+Demais crimes (EXCETO 
+os da Lei nº 11.343/2006 
+e da Lei nº 9.613/98)
+FEDERAL
+Conta judicial vin­
+-culada à operação 
+635 - DJE. TESOURO 
+NACIONAL
+1602 (Ação Penal, 
+Inquérito Policial ou 
+Incidente Processual 
+Penal - MJSP - 
+Depósito Judicial)
+Insta salientar que, por enquanto, apenas o FUNAD e o FUNAPOL possuem 
+códigos de receita próprios na operação 635 – DJE, não tendo a Secretaria da 
+Receita Federal do Brasil regulamentado outros códigos para contemplar os 
+demais fundos que também são destinatários de recursos de processos criminais. 
+Nesses outros casos, mesmo que se tenha uma apreensão de valores em uma 
+investigação para apuração de crime praticado por Milícias, cuja previsão legal 
+de destino dos valores declarados perdidos na sentença condenatória transitada 
+em julgado é o Fundo Nacional de Segurança Pública (FNSP), ou mesmo nos 
+casos que o fundo destinatário seria o Fundo Penitenciário Nacional (FUNPEN), 
+caso haja necessidade de transferência ao Tesouro Nacional antes do trânsito em 
+julgado da sentença criminal o código de receita a ser utilizado na operação 635 
+será o código geral 1602, identificado como referente à “Ação Penal, Inquérito 
+Policial ou Incidente Processual Penal – MJSP – Depósito Judicial”.
+Registra-se que a Lei 15.358/2026, denominada Marco Legal do Combate 
+ao Crime Organizado no Brasil (Lei Raul Jungmann), também prevê destinações 
+específicas a) ao Fundo de Segurança Pública do respectivo Estado ou do Distrito 
+Federal, quando o delito estiver sendo investigado pelas autoridades locais; b) ao 
+Fundo Nacional de Segurança Pública, quando o delito estiver sendo investigado 
+pela Polícia Federal; c) em caso de atuação conjunta entre a Polícia Federal e 
+as forças de segurança pública estaduais ou distritais, os valores serão rateados 
+em partes iguais entre o Fundo Nacional de Segurança Pública e os Fundos de 
+
+167
+Segurança Pública dos respectivos Estados ou do Distrito Federal.
+Por fim, é relevante destacar que, no âmbito da Justiça Federal, dois sistemas 
+são utilizados para a tramitação dos inquéritos policiais, quais sejam: o PJE e o 
+E-PROC, sendo que cada sistema disponibiliza ou não ferramentas que facilitam 
+a realização dos depósitos judiciais.
+No caso do E-PROC, o escrivão deverá abrir a conta judicial vinculada ao 
+CPF ou CNPJ do investigado diretamente dentro do inquérito policial ou do 
+processo vinculado ao caso, permitindo o sistema a realização da emissão de 
+guia de depósito via operação 635 – DJE, sendo que após a efetivação do depósito 
+na agência bancária da CEF, o próprio sistema E-PROC permite a consulta pelas 
+partes do processo (PF, MPF, JF e advogados) dos valores que estão apreendidos no 
+caso, individualizados por CPF ou CNPJ.
+Fluxo para abertura de conta judicial no E-PROC e emissão de guia de 
+depósito:
+1º passo: acessar o link “Depósitos Judiciais” dentro do inquérito ou do 
+processo correspondente;
+2º passo: clicar em “Novo depósito judicial eletrônico”;
+3º passo: escolher a opção “Depósito Judicial – primeiro depósito” ou 
+“Depósito Judicial – em continuação” (caso já exista um depósito anterior 
+vinculado ao mesmo CPF/CNPJ);
+4º passo: selecione o motivo do depósito: “valores apreendidos”, 
+“arrematação” ou “outros”;
+5º passo: o sistema selecionará automaticamente a operação 635, 
+devendo o policial preencher os campos do “Código de receita/ 
+depósito”, “Depositante”, “telefone de contato”, “Mês/Ano de 
+Apuração” e o “Valor total do depósito”;
+6º passo: clicar em “criar conta de depósito judicial”.
+No caso do sistema PJE, o sistema ainda não oferece a possibilidade de realizar 
+a abertura de conta judicial e a emissão de guia para depósito dentro do inquérito 
+policial ou do processo criminal, razão pela qual o policial terá de acessar a página 
+da Caixa Econômica Federal pela internet, no endereço https:// novodepositojudicial.
+caixa.gov.br/ e seguir o seguinte fluxo:
+1º passo: preencher o número do processo na Justiça Federal e clicar 
+em “Consultar Processo”;
+2º passo: selecionar a natureza do depósito “Não Tributário”;
+3º passo: responder “SIM” à pergunta se a União é parte do processo;
+4º passo: selecionar o código de receita 1602, 5680 ou 6086;
+5º passo: preencher o CPF/CNPJ do detentor dos valores que serão 
+depositados;
+
+168
+6º passo: preencher o telefone de contato da delegacia;
+7º passo: preencher os demais campos exigidos na guia e clicar em 
+continuar para gerá-la.
+Na hipótese de constrição de valores em investigações em trâmite perante a 
+Justiça Estadual – salvo no caso de tráfico de drogas ou de sua lavagem, cujos 
+recursos devem ser destinados ao FUNAD via operação Depósitos Judiciais e 
+Extrajudiciais (DJE), nos termos outrora delineados - via de regra, utiliza-se o 
+Banco do Brasil para depósito cautelar dos mesmos, se outra instituição financeira 
+não houver sido indicada especificamente pelo Juízo, conforme convênio firmado 
+com o respectivo Tribunal.
+Para abertura de contas vinculadas judiciais no Banco do Brasil, entrar no ende­
+-reço https://www63.bb.com.br/portalbb/djo/id/IdDeposito,802,4647,4648,0,1. 
+bbx, e seguir o fluxo:
+1º passo: indicar o Juízo competente (estadual, federal ou trabalhista); 2º 
+passo: identificar no pré-cadastramento que se trata de “primeiro depósito”, 
+“depósito em continuação” e “nova parcela de primeiro depósito”. Via de regra, 
+escolher a primeira opção para cada novo depósito vinculado ao processo, 
+salvo se o juiz determinar expressa-mente que os depósitos sejam realizados em 
+uma única conta judicial (ocasião em que seria utilizada a opção “depósito em 
+continuação”).
+Em seguida, clique em “continuar”;
+3º passo: escolher a Unidade da Federação e, na sequência, selecionar o 
+Tribunal envolvido e a respectiva Comarca;
+4º passo: após clicar em continuar, preencha os campos com os dados do 
+processo e, ao final, gere o ID.
+9.2.4 O PAPEL DA SENAD NA ALIENAÇÃO ANTECIPADA
+Conforme destacado no tópico anterior, compete à Secretaria Nacional de 
+Políticas sobre Drogas e Gestão de Ativos (SENAD), vinculada ao Ministério da 
+Justiça e Segurança Pública, gerir os ativos objetos de perdimento em favor da 
+União, independentemente da natureza do crime que os originou, e apoiar o 
+Poder Judiciário na alienação de bens antes ou depois do trânsito em julgado da 
+sentença condenatória.
+Na prática, o fluxo se inicia na investigação. Quando o presidente do inquérito 
+policial identifica um bem apreendido que está sujeito a deterioração ou depre­
+-ciação, ou cuja manutenção é difícil ou onerosa (como veículos, embarcações 
+e aeronaves), ele representa ao juízo competente por sua alienação antecipada. 
+Uma vez autorizada judicialmente a alienação, a SENAD é comunicada para 
+
+169
+iniciar os procedimentos de venda. A Secretaria utiliza leiloeiros públicos oficiais,
+por ela contratados em todo o país, para realizar esses leilões.
+Considerando que a SENAD não possui estrutura administrativa em todas 
+as unidades da federação, a Polícia Federal instituiu, em suas Superintendências 
+Regionais, as Comissões Permanentes de Avaliação e Alienação. Essas comissões 
+são o ponto de contato local e têm o papel de prestar apoio à SENAD e aos 
+leiloeiros, auxiliando no processo de avaliação dos bens e na logística necessária 
+para o leilão.
+Essa colaboração cria um círculo virtuoso: a atuação da comissão da PF não 
+apenas agiliza o processo de alienação, mas também é um requisito para que a 
+Polícia Federal receba um percentual dos valores arrecadados, revertidos para o 
+Fundo para Aparelhamento e Operacionalização das Atividades-fim da Polícia Federal 
+(FUNAPOL) ou para o FUNAD, a depender do crime originário.
+Com efeito, isso significa que a autoridade policial, ao representar pela 
+alienação antecipada de um bem, pode e deve solicitar ao juízo que a venda 
+seja realizada com o auxílio da SENAD, desonerando a unidade policial de parte 
+significativa dos trâmites burocráticos e logísticos.
