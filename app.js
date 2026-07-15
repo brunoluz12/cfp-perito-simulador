@@ -3224,7 +3224,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'quimica_forense': true,
         'pceb': true,
         'bal': true,
-        'loc': true
+        'loc': true,
+        'ipo_3': true
     };
     // false = resumido (padrão) | true = texto integral da apostila
     let materialVersaoCompleta = false;

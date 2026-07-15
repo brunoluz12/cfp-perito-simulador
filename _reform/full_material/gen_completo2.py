@@ -39,6 +39,17 @@ except Exception:
 NUM_RE = re.compile(r"^(\d+(?:\.\d+)*)\.?\s+(\S.*)$")
 
 
+def descompactar_titulo(t):
+    """Colapsa títulos tipograficamente espaçados ("P R E M I S S A S")."""
+    if len(re.findall(r"\b[A-ZÀ-Ú]\b", t)) < 4:
+        return t
+    partes = re.split(r"\s{2,}", t.strip())
+    return " ".join(
+        p.replace(" ", "") if re.fullmatch(r"(?:[A-ZÀ-Ú]\s?)+", p) else p
+        for p in partes
+    )
+
+
 def nivel_por_numero(numero):
     profundidade = numero.count(".")
     if profundidade == 0:
@@ -86,6 +97,19 @@ def processar(cfg):
 
         d = page.get_text("dict")
         blocos = sorted(d["blocks"], key=lambda b: (round(b["bbox"][1]), b["bbox"][0]))
+
+        # margem esquerda da página (moda do x das linhas longas de corpo):
+        # linhas que começam recuadas em relação a ela iniciam novo parágrafo
+        from collections import Counter as _Counter
+        xs = _Counter()
+        for _bl in blocos:
+            if _bl["type"] != 0:
+                continue
+            for _ln in _bl["lines"]:
+                _t = "".join(s["text"] for s in _ln["spans"]).strip()
+                if len(_t) > 45:
+                    xs[round(_ln["bbox"][0])] += 1
+        margem_pag = xs.most_common(1)[0][0] if xs else None
 
         for bl in blocos:
             for tb in tabelas:
@@ -139,9 +163,9 @@ def processar(cfg):
                     onde_disparou[files[atual]["arquivo"]] = pno + 1
                     m = NUM_RE.match(txt)
                     if m:
-                        montadores[atual].titulo(2, m.group(1), m.group(2))
+                        montadores[atual].titulo(2, m.group(1), descompactar_titulo(m.group(2)))
                     else:
-                        montadores[atual].titulo(2, "", txt)
+                        montadores[atual].titulo(2, "", descompactar_titulo(txt))
                     ultimo_heading = (montadores[atual], size)
                     continue
 
@@ -170,7 +194,7 @@ def processar(cfg):
                 m = NUM_RE.match(txt)
                 if m and todos_bold and size >= body_size + 0.5:
                     nivel = nivel_por_numero(m.group(1))
-                    mont.titulo(nivel, m.group(1), m.group(2))
+                    mont.titulo(nivel, m.group(1), descompactar_titulo(m.group(2)))
                     ultimo_heading = (mont, size)
                 elif todos_bold and size >= hmin and len(txt) < 70 and not txt.endswith(('.', ':', ';')):
                     mont.titulo(3, "", txt)
@@ -188,6 +212,9 @@ def processar(cfg):
                 elif mont.lista and txt[:1].islower():
                     mont.bullet_cont(spans_para_html(spans))
                 else:
+                    # recuo de primeira linha => começa parágrafo novo
+                    if margem_pag is not None and round(ln["bbox"][0]) - margem_pag > 6:
+                        mont.fecha_paragrafo()
                     mont.linha_corpo(txt, spans_para_html(spans))
 
         for tb in tabelas:
