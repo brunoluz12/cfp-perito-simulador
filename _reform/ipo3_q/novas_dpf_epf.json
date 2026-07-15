@@ -1,0 +1,716 @@
+[
+  {
+    "id": 2557,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da relação normativa entre a IN nº 299/2025-DG/PF e a IN nº 297/2024-DG/PF na disciplina da cadeia de custódia digital, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A IN nº 299/2025 revoga a IN nº 297/2024 quanto aos elementos com suporte físico, reservando a esta última apenas a disciplina dos elementos digitais sem suporte físico.",
+      "B": "As duas normas possuem o mesmo objeto e a mesma finalidade, cabendo ao delegado presidente do inquérito optar por uma delas conforme a natureza do crime que estiver a investigar.",
+      "C": "A IN nº 297/2024 disciplina de forma principal os dados digitais, e a IN nº 299/2025 regula tão somente a fase de perícia dos elementos de interesse em formato digital.",
+      "D": "A IN nº 299/2025 disciplina especificamente os elementos digitais, aplicando-se a IN nº 297/2024 de forma subsidiária no que lhe for compatível."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A IN nº 299/2025 trata especificamente da cadeia de custódia dos elementos em formato digital, complementando a IN nº 297/2024, que lhe é aplicada subsidiariamente no que for compatível — o que harmoniza as normas e evita lacunas em casos híbridos. Não há revogação parcial reservando à 297 os elementos sem suporte; as normas não têm objeto idêntico com livre escolha do delegado; e a 297 não é a norma principal dos dados digitais nem a 299 se restringe à perícia.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 43",
+    "nivel": "medio"
+  },
+  {
+    "id": 2558,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considera-se elemento de interesse em formato digital, para os fins da IN nº 299/2025-DG/PF, o dado digital que, no interesse da investigação, tenha sido arrecadado, apreendido, coletado, derivado ou amostrado, apresentado ou obtido, apresentando-se em formato final:",
+    "alternativas": {
+      "A": "hexadecimal, desde que esteja vinculado a um suporte físico de armazenamento reconhecido pela norma.",
+      "B": "binário, independentemente de estar ou não vinculado a um suporte físico de armazenamento.",
+      "C": "estruturado, ainda que dependente de reconstrução por engenharia reversa para se tornar legível.",
+      "D": "criptografado, quando obtido diretamente de espaço cibernético, nuvem ou redes de computadores."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A definição da IN nº 299/2025 exige o formato final binário e abrange o dado com ou sem suporte físico. Não se exige formato hexadecimal nem vinculação a suporte físico, não se condiciona a estrutura ou a engenharia reversa, e o dado não precisa estar criptografado — a criptografia é circunstância eventual, não elemento da definição.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 43",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2559,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe apreende, em local de crime, um notebook com dados de interesse. Quanto ao tratamento desses elementos digitais no local, à luz da IN nº 299/2025-DG/PF, a conduta que melhor observa a norma é:",
+    "alternativas": {
+      "A": "priorizar a preservação na forma e no suporte originais, mantendo conteúdo, estrutura de arquivo e metadados, com cálculo do hash quando as circunstâncias permitirem.",
+      "B": "transferir de imediato o conteúdo para mídia da unidade e descartar o suporte original, de modo a reduzir o volume de material acautelado e agilizar o transporte.",
+      "C": "extrair no local apenas os arquivos de evidente interesse, ficando dispensado o registro das especificações técnicas do suporte por se tratar de fase preliminar da investigação.",
+      "D": "manusear amplamente o dispositivo para triagem completa dos dados antes do acondicionamento, com o objetivo de já entregar o material selecionado à perícia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A norma determina a preservação prioritária na origem (forma e suporte originais), mantendo conteúdo, estrutura e metadados, com cálculo do hash sempre que possível, além de manuseio mínimo. Descartar o suporte original contraria a preservação na origem; havendo transferência, é obrigatório registrar as especificações técnicas do suporte; e a triagem ampla no local viola a diretriz de intervenção mínima.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 44",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2560,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "No cumprimento de medida cautelar, o detentor de um dispositivo autoriza o acesso ao seu conteúdo. Sobre a análise dos elementos digitais nesse contexto, conforme a IN nº 299/2025-DG/PF, a análise in loco ou anterior à cópia, espelhamento ou extração:",
+    "alternativas": {
+      "A": "permanece vedada até a realização de perícia oficial, mesmo diante de consentimento expresso do detentor do suporte.",
+      "B": "depende de autorização judicial OU de consentimento do detentor do suporte, prestando-se a evitar apreensões desnecessárias.",
+      "C": "exige, de forma cumulativa, autorização judicial específica e o consentimento por escrito do detentor do suporte.",
+      "D": "admite-se tão somente em investigações de crimes cibernéticos, dada a natureza eminentemente técnica desses dados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A norma faculta a análise in loco (ou antes da cópia/espelhamento/extração) quando houver autorização judicial OU consentimento do detentor, para evitar apreensões desnecessárias. Não é vedada com consentimento, não exige os dois requisitos cumulativamente e não se limita a crimes cibernéticos.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 45",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2561,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na obtenção de dados digitais sem suporte físico (obtidos diretamente da internet, nuvem ou redes), a IN nº 299/2025-DG/PF exige documentação detalhada, por meio de informação de polícia judiciária ou documento técnico-científico, que contenha, ao menos:",
+    "alternativas": {
+      "A": "o endereço IP de origem, a identificação do responsável técnico e a cópia integral do tráfego de dados capturado durante a diligência.",
+      "B": "a cadeia de mensagens eletrônicas relacionada, o número do lacre empregado e a assinatura de duas testemunhas instrumentárias do ato.",
+      "C": "o parecer prévio da unidade técnico-científica, a quesitação da autoridade e o termo de consentimento firmado pelo provedor de aplicação.",
+      "D": "a data e o local do procedimento, o número hash dos arquivos preservados e a identificação do dispositivo de armazenamento dos dados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Além da prévia autorização judicial ou do titular do direito, a norma exige documentação com, no mínimo: data e local da execução, número hash dos arquivos preservados e identificação do dispositivo de armazenamento dos dados. Os demais conjuntos de itens não integram esse rol mínimo previsto na IN.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 46",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2562,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os elementos digitais obtidos ou produzidos por meio de infiltração virtual, segundo a IN nº 299/2025-DG/PF, terão seus hashes calculados e serão registrados e documentados:",
+    "alternativas": {
+      "A": "em auto circunstanciado de arrecadação, com remessa direta ao juízo competente, ficando dispensada a preservação da identidade do agente infiltrado.",
+      "B": "no Termo de Coleta de Vestígio, cabendo ao perito criminal federal, ao recebê-lo, validar a legalidade e a proporcionalidade da operação realizada.",
+      "C": "em informação de polícia judiciária, com histórico cronológico e relato detalhado das ações, reunindo-se os atos em registro especial vinculado ao inquérito.",
+      "D": "em laudo pericial preliminar, para que a materialidade do delito seja atestada tecnicamente antes da formalização da apreensão dos dados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A norma prevê o registro em informação de polícia judiciária (IPJ), com histórico cronológico e relato detalhado das ações do agente infiltrado; os atos eletrônicos são reunidos em registro especial (RE) vinculado ao inquérito, preservando-se a identidade do policial infiltrado e de eventuais vítimas. As demais indicam documentos impróprios ou dispensam indevidamente a preservação da identidade.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 46-47",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2563,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um cidadão comparece a uma unidade da Polícia Federal e entrega espontaneamente uma mídia com dados de interesse, mas não há inquérito ou procedimento de polícia judiciária instaurado sobre o fato. Nos termos da IN nº 299/2025-DG/PF, o elemento deverá ser encaminhado:",
+    "alternativas": {
+      "A": "à Corregedoria-Geral, à Corregedoria Regional ou à chefia da Delegacia Descentralizada, conforme a atribuição no caso concreto.",
+      "B": "ao delegado plantonista da unidade, ao qual competirá instaurar de ofício o inquérito policial para formalizar a apreensão do material.",
+      "C": "ao Ministério Público Federal, na condição de titular da ação penal, para que delibere sobre a conveniência da persecução penal.",
+      "D": "diretamente à unidade técnico-científica da Polícia Federal, para exame de viabilidade técnica e imediata preservação dos dados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Havendo procedimento instaurado, o elemento vai ao DPF que preside a investigação; NÃO havendo, é encaminhado à Corregedoria-Geral, Corregedoria Regional ou à chefia da Delegacia Descentralizada, conforme a atribuição (na DD, o chefe da unidade exerce a função de corregedor local). As demais destinações não correspondem à hipótese de ausência de procedimento instaurado.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 47",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2564,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as atividades de extração, espelhamento, cópia, desbloqueio e contorno de bloqueio de dados armazenados em celulares, tablets e similares ou em espaços cibernéticos, a IN nº 299/2025-DG/PF dispõe que elas:",
+    "alternativas": {
+      "A": "constituem atribuição privativa do Perito Criminal Federal, por dependerem de conhecimento técnico especializado e de metodologia validada.",
+      "B": "podem ser realizadas por qualquer servidor policial capacitado, a critério do delegado de polícia federal, observadas as orientações técnicas de preservação da cadeia de custódia.",
+      "C": "reclamam, em todos os casos, o encaminhamento prévio à unidade técnico-científica, mesmo quando exista equipamento e software adequados na própria unidade.",
+      "D": "dependem de autorização judicial específica para cada operação técnica realizada, sob pena de nulidade da prova assim produzida."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A critério do DPF, tais atividades podem ser realizadas por qualquer servidor policial capacitado, desde que observadas as orientações técnicas de preservação da cadeia de custódia; a unidade técnico-científica é demandada apenas na ausência de equipamento ou software adequado. Logo, não são privativas do perito, não exigem sempre a remessa à perícia nem autorização específica por operação técnica.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 48",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2565,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "A documentação dos procedimentos de extração de dados, exigida pela IN nº 299/2025-DG/PF, deve conter, no mínimo, a data e o local da execução, a ferramenta e o software utilizados, o dispositivo onde os dados foram armazenados e, ainda:",
+    "alternativas": {
+      "A": "o número do laudo pericial correspondente, para vinculação do procedimento ao resultado técnico do exame.",
+      "B": "o valor estimado de mercado do dispositivo examinado, para fins de eventual avaliação patrimonial.",
+      "C": "o parecer de admissibilidade da autoridade judicial competente, exarado antes do início da diligência.",
+      "D": "o método de preservação empregado durante a execução do procedimento de extração."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A documentação deve incluir, ao menos: data e local da execução; ferramenta e software utilizados; método de preservação; e o dispositivo onde os dados foram armazenados. Número de laudo, valor de mercado e parecer de admissibilidade não integram esse rol mínimo.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 48-49",
+    "nivel": "medio"
+  },
+  {
+    "id": 2566,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Recebida a requisição de perícia de elementos digitais, a IN nº 299/2025-DG/PF admite o rompimento do lacre antes do exame pericial, por pessoa autorizada e com a devida documentação, em hipóteses como:",
+    "alternativas": {
+      "A": "solicitação do investigado ou de seu defensor para conferência do material acautelado, mediante termo de compromisso lavrado na unidade.",
+      "B": "necessidade de reduzir o volume do acervo acautelado em razão de limitação de espaço físico nos depósitos da unidade de polícia judiciária.",
+      "C": "risco de degradação do material, análise de viabilidade dos exames ou carregamento de celulares e tablets quando indispensável mantê-los ligados.",
+      "D": "conveniência da autoridade requisitante em antecipar a leitura do conteúdo, com vistas a orientar novas diligências da investigação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Em regra, a abertura de embalagens lacradas ocorre só durante o exame; o rompimento antes é excepcional e admitido, com documentação, nos casos de risco de degradação, análise de viabilidade dos exames, carregamento de celulares/tablets (quando indispensável mantê-los ligados) e outras hipóteses indispensáveis justificadamente. Conferência pela defesa, limitação de espaço e conveniência da autoridade não configuram as exceções previstas.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 49-50",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2567,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à remoção permanente de arquivos ilícitos armazenados em suportes examinados, a IN nº 299/2025-DG/PF estabelece que ela:",
+    "alternativas": {
+      "A": "somente ocorre mediante determinação judicial expressa e deve ser integral, vedada a exclusão seletiva de arquivos específicos.",
+      "B": "pode ser determinada pelo delegado presidente do inquérito, desde que o ato seja registrado de forma pormenorizada no laudo pericial.",
+      "C": "é realizada pelo perito criminal ao término do exame, com deleção seletiva apenas dos arquivos de conteúdo comprovadamente ilícito.",
+      "D": "depende de anuência do Ministério Público e pode abranger tão só os arquivos indicados na representação da autoridade policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A remoção de arquivos ilícitos exige determinação judicial expressa e deve ser integral (todo o conteúdo da mídia), vedada a exclusão seletiva, para evitar manipulações parciais. Não cabe ao delegado, nem ao perito por deleção seletiva, nem se limita aos arquivos indicados por anuência do MP.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 50",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2568,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise dos elementos de interesse em formato digital, a IN nº 299/2025-DG/PF orienta que ela seja realizada:",
+    "alternativas": {
+      "A": "sobre o próprio suporte original, e não sobre cópia, para assegurar a fidelidade absoluta do dado que vier a ser periciado no caso.",
+      "B": "por policial com atribuição no caso, preferencialmente a partir de cópia dos arquivos e de forma documentada, minimizando o acesso a dados irrelevantes.",
+      "C": "com exclusividade pelo perito criminal federal, tido como único responsável técnico pela integridade do exame realizado.",
+      "D": "com acesso irrestrito a todo o conteúdo, desde que exista autorização judicial genérica para a realização da diligência."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A análise deve ser feita por policial com atribuição no caso, preferencialmente a partir de cópia (preservando o original), de forma documentada e respeitando a privacidade, minimizando o acesso a dados irrelevantes. Não se faz sobre o original, não é privativa do perito e não autoriza acesso irrestrito.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 51",
+    "nivel": "medio"
+  },
+  {
+    "id": 2569,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos crimes relacionados ao abuso sexual de crianças e adolescentes, a IN nº 299/2025-DG/PF prevê, quanto à disponibilização dos vestígios em formato digital à defesa, que:",
+    "alternativas": {
+      "A": "será fornecida cópia integral dos arquivos digitais à defesa, mediante termo de sigilo firmado pelo advogado constituído nos autos.",
+      "B": "o acesso da defesa ocorrerá por meio do sistema eletrônico do Poder Judiciário, com aposição de marca d'água de identificação nos arquivos.",
+      "C": "a disponibilização à defesa dependerá de perícia prévia que ateste a licitude do conteúdo dos arquivos armazenados nos suportes.",
+      "D": "a defesa terá vista presencial na unidade da Polícia Federal, vedada a entrega de cópia dos arquivos digitais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Nesses casos, os vestígios digitais são disponibilizados à defesa mediante vista presencial na unidade da PF, vedada a entrega de cópia — proteção reforçada às vítimas. Fornecimento de cópia, acesso por sistema do Judiciário e perícia prévia de licitude contrariam essa regra específica.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 53",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2570,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dispositivos, mídias e suportes perdidos em favor da União poderão ser utilizados por órgãos públicos, preferencialmente pela unidade que conduziu a investigação, segundo a IN nº 299/2025-DG/PF, desde que observado o requisito de:",
+    "alternativas": {
+      "A": "autorização do superintendente regional competente, precedida de inventário e avaliação do bem pela unidade interessada.",
+      "B": "homologação pela unidade técnico-científica quanto à ausência de qualquer conteúdo ilícito remanescente no suporte.",
+      "C": "prévia decisão judicial, precedida da transferência ou do descarte seguro dos dados armazenados no suporte.",
+      "D": "anuência do antigo proprietário do bem, ressalvado o direito eventualmente titularizado por terceiro de boa-fé."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A reutilização de suportes perdidos em favor da União exige prévia decisão judicial, após a transferência ou o descarte seguro dos dados armazenados, para resguardar privacidade e integridade das informações. Autorização do superintendente, homologação técnica e anuência do antigo proprietário não são os requisitos previstos.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 54",
+    "nivel": "medio"
+  },
+  {
+    "id": 2571,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 2 - Cadeia de Custódia",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ainda quanto aos crimes de abuso sexual de crianças e adolescentes, a IN nº 299/2025-DG/PF determina que o delegado de polícia federal presidente do inquérito, em relação aos dispositivos e mídias que contenham arquivos relacionados, deverá:",
+    "alternativas": {
+      "A": "representar pela destruição dos suportes, após a extração dos respectivos hashes de integridade.",
+      "B": "encaminhá-los à central de custódia de vestígios, onde deverão permanecer guardados por prazo indeterminado.",
+      "C": "determinar a restituição dos aparelhos ao investigado, após o trânsito em julgado da sentença condenatória.",
+      "D": "providenciar a alienação antecipada dos equipamentos, com vistas à futura recomposição do dano causado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Nesses casos, após a extração dos hashes, o DPF deve representar pela destruição dos dispositivos, mídias e suportes que contenham os arquivos — impedindo a perpetuação do conteúdo criminoso e a revitimização. Guarda por prazo indeterminado, restituição e alienação antecipada são incompatíveis com essa finalidade.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 54",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2572,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a evolução do direito probatório apresentada no material, o traço que caracteriza a chamada segunda geração é:",
+    "alternativas": {
+      "A": "a centralidade do juiz como destinatário da prova e a forte ênfase em regras formais de produção e valoração probatória.",
+      "B": "a incorporação de garantias constitucionais — dignidade da pessoa humana, presunção de inocência e contraditório —, vinculando a admissibilidade da prova à sua licitude.",
+      "C": "a internacionalização da prova e a incorporação de tecnologias como interceptações telemáticas e a análise de blockchain.",
+      "D": "a flexibilização dos sigilos bancário, fiscal e telemático sob controle judicial, com admissão da prova atípica compatível com a Constituição."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A segunda geração incorpora as garantias constitucionais (dignidade, presunção de inocência, contraditório) e vincula a admissibilidade à licitude. A centralidade do juiz e as regras formais descrevem a primeira geração; internacionalização, prova digital e flexibilização de sigilos são marcas da terceira geração.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 69-70",
+    "nivel": "medio"
+  },
+  {
+    "id": 2573,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma busca, é encontrada a própria coisa subtraída (res furtiva), que constitui o produto direto do crime. Quanto à medida processual adequada para a sua constrição, é correto afirmar que se trata de:",
+    "alternativas": {
+      "A": "sequestro de bens móveis, na forma do art. 132 do CPP, por se tratar de bem vinculado à infração penal.",
+      "B": "arresto do bem, na medida em que ele se presta a assegurar a futura reparação do dano suportado pela vítima.",
+      "C": "hipoteca legal, quando o bem estiver registrado em nome do indiciado e houver risco de dilapidação patrimonial.",
+      "D": "busca e apreensão, nos termos do art. 240 do CPP, e não de sequestro, por ser o produto direto do crime."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O sequestro recai sobre bens adquiridos com os proventos da infração (produto/proveito); o produto DIRETO do crime, como a res furtiva, é caso de busca e apreensão (art. 240, 'b', do CPP). Por isso não é sequestro de móveis, arresto nem hipoteca legal.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 84",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2574,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A distinção entre o sequestro e o arresto, como medidas assecuratórias do CPP, reside em que:",
+    "alternativas": {
+      "A": "o sequestro recai apenas sobre imóveis e o arresto apenas sobre bens móveis, independentemente da origem lícita ou ilícita.",
+      "B": "o sequestro é medida definitiva de perdimento, ao passo que o arresto é medida provisória restrita a valores mantidos em conta bancária.",
+      "C": "o sequestro visa ao proveito do crime (bens vinculados), enquanto o arresto busca garantia patrimonial genérica do acusado, quando a hipoteca legal for insuficiente.",
+      "D": "o sequestro depende de inscrição registral prévia e o arresto independe de qualquer formalidade perante o cartório competente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O sequestro mira o proveito do crime (bens vinculados ao ilícito); o arresto mira garantia patrimonial genérica (bens idôneos do acusado, até o limite necessário) quando a hipoteca legal não puder ser inscrita de pronto ou for insuficiente. A distinção não é imóvel×móvel, o sequestro não é medida definitiva de perdimento nem depende de inscrição registral.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 85-86",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2575,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O confisco por equivalência, tal como tratado no material, encontra fundamento no art. 91, § 1º, do Código Penal e caracteriza-se por:",
+    "alternativas": {
+      "A": "alcançar bens de origem lícita, de valor equivalente, quando o produto ou proveito do crime não é encontrado ou se encontra no exterior.",
+      "B": "autorizar o perdimento de todo o patrimônio incompatível com a renda lícita do condenado, ainda que sem vínculo com o crime apurado.",
+      "C": "recair sobre bens transferidos a terceiros por valor irrisório após o início da atividade criminosa do agente investigado.",
+      "D": "exigir petição autônoma do assistente de acusação, formulada apenas depois do trânsito em julgado da sentença penal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O confisco por equivalência (art. 91, § 1º, CP) permite alcançar bens LÍCITOS de valor equivalente quando o produto/proveito não é encontrado ou está no exterior; o § 2º admite cautelares sobre bens equivalentes já na investigação. O perdimento do patrimônio incompatível com a renda descreve o confisco alargado (art. 91-A); as demais não correspondem ao instituto.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 87",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2576,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "O confisco alargado, incorporado ao Código Penal pela Lei nº 13.964/2019, apresenta como um de seus contornos que:",
+    "alternativas": {
+      "A": "incide sobre crimes cuja pena máxima seja igual ou superior a quatro anos, autorizando o perdimento dos bens que sejam produto direto do crime.",
+      "B": "aplica-se a qualquer condenação criminal, bastando a existência de bens registrados em nome de interpostas pessoas ligadas ao acusado.",
+      "C": "prescinde de condenação penal transitada em julgado, operando como medida cautelar autônoma já na fase de inquérito, a requerimento do delegado presidente.",
+      "D": "incide sobre crimes com pena máxima superior a seis anos, autorizando o perdimento do patrimônio incompatível com a renda lícita, e deve ser requerido pelo Ministério Público na denúncia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O art. 91-A do CP prevê o confisco alargado para crimes com pena máxima superior a seis anos, autorizando o perdimento da diferença entre patrimônio e renda lícita; o § 3º exige que o MP o requeira expressamente na denúncia. As demais erram a pena e o objeto, dispensam a condenação ou deturpam os requisitos.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 88-89",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2577,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "A hipoteca legal, entre as medidas assecuratórias reais do CPP (arts. 134-135), destina-se a:",
+    "alternativas": {
+      "A": "tornar indisponíveis os bens móveis adquiridos com o produto da infração, por meio de bloqueio patrimonial em tempo real.",
+      "B": "assegurar a reparação do dano, as custas e a multa, mediante inscrição de garantia real sobre imóveis do acusado.",
+      "C": "garantir a devolução da coisa subtraída ao lesado ainda antes do trânsito em julgado da sentença condenatória.",
+      "D": "transferir ao Estado a propriedade dos ativos virtuais que estejam vinculados a crimes praticados por organização criminosa."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A hipoteca legal busca garantia real sobre imóveis do acusado para assegurar reparação do dano, custas e multa, dependendo de inscrição registral. As demais confundem o instituto com sequestro de móveis, com busca e apreensão da coisa e com constrição de ativos virtuais.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 86",
+    "nivel": "medio"
+  },
+  {
+    "id": 2578,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao sequestro especial previsto no Decreto-Lei nº 3.240/1941, com a redação dada pela Lei nº 15.327/2026, é correto afirmar que:",
+    "alternativas": {
+      "A": "foi revogado pelo art. 125 do Código de Processo Penal, subsistindo apenas como referência histórica, sem qualquer aplicação prática nos dias atuais.",
+      "B": "recai unicamente sobre bens que sejam produto ou proveito direto do crime praticado contra a Fazenda Pública.",
+      "C": "sujeita a sequestro os bens do investigado ou acusado por infração de que resulte prejuízo à Fazenda Pública, entre outras hipóteses, podendo atingir bens auferidos licitamente.",
+      "D": "somente pode ser decretado após a condenação transitada em julgado, operando como efeito automático da sentença penal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O DL nº 3.240/1941 foi recepcionado e não foi revogado pelo art. 125 do CPP; trata do sequestro de bens de investigados/acusados por crimes com prejuízo à Fazenda Pública (e demais hipóteses da Lei nº 15.327/2026), podendo atingir bens auferidos licitamente. As demais afirmam revogação, restringem ao produto direto ou exigem trânsito em julgado.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 87-88",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2579,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo entendimento jurisprudencial citado no material, o deferimento de medida cautelar patrimonial de sequestro sem a anterior intimação da defesa:",
+    "alternativas": {
+      "A": "não acarreta nulidade, pois o contraditório é diferido em prol da integridade do patrimônio e contra a sua dissipação.",
+      "B": "acarreta nulidade absoluta do ato, por violação frontal ao contraditório e à ampla defesa em sua dimensão prévia.",
+      "C": "somente se convalida se, no momento do deferimento, houver prova plena da origem ilícita dos bens constritos.",
+      "D": "condiciona a eficácia da medida à ratificação pelo Ministério Público no prazo de vinte e quatro horas, sob pena de revogação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Conforme o RMS 30.172/MT (STJ), não há nulidade no deferimento do sequestro sem intimação prévia da defesa: o contraditório é diferido, para preservar a integridade do patrimônio e evitar sua dissipação, cabendo à defesa impugnar depois. As demais contrariam esse entendimento.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 90",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2580,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "São apontadas como marcas do direito probatório de terceira geração, no material, entre outras:",
+    "alternativas": {
+      "A": "a taxatividade dos meios de prova e a vedação da prova atípica, ainda que compatível com a ordem constitucional.",
+      "B": "a valoração tarifada das provas e a prevalência do sistema inquisitório na condução da instrução criminal.",
+      "C": "a exigência de dupla conforme entre as instâncias julgadoras para a admissão de provas de natureza tecnológica produzidas na investigação.",
+      "D": "a internacionalização da prova, a incorporação da prova digital e a flexibilização de sigilos sob controle judicial, com admissão da prova atípica compatível com a Constituição."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A terceira geração caracteriza-se pela internacionalização da prova (cooperação jurídica), pela prova digital (blockchain analytics, interceptações telemáticas, metadados) e pela flexibilização de sigilos sob controle judicial, admitindo-se a prova atípica compatível com a Constituição e o contraditório. Taxatividade, valoração tarifada e dupla conforme contrariam esse quadro.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 70",
+    "nivel": "medio"
+  },
+  {
+    "id": 2581,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 4 - Representações para a Deflagração de Operação Policial",
+    "tipo": "multipla_escolha",
+    "enunciado": "No confisco por equivalência, o material aponta como requisito, de regra, para o alcance de bens de valor equivalente ao proveito do crime:",
+    "alternativas": {
+      "A": "a prévia manifestação da autoridade fazendária competente acerca do montante devido ao erário pelo agente.",
+      "B": "a existência de condenação penal válida, com quantificação do valor a ser alcançado e resguardo de terceiros de boa-fé e do direito da vítima.",
+      "C": "a mera fundada suspeita de origem ilícita, dispensando-se a demonstração da impossibilidade de localizar o proveito direto.",
+      "D": "a inexistência de qualquer bem de origem lícita registrado em nome do acusado no momento da constrição patrimonial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material aponta, como requisitos, a condenação penal válida (regra geral dos efeitos do art. 91 do CP), a demonstração da impossibilidade de localizar/recuperar o proveito direto, a quantificação clara do valor, o resguardo de terceiros de boa-fé e do direito da vítima, e a proporcionalidade. Não basta a fundada suspeita, nem se exige manifestação fazendária ou ausência de bens lícitos.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 87",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2582,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "No planejamento de uma operação policial, a criação de um Registro Especial (RE) fundamenta-se no art. 165, IX, da IN nº 255/2023-DG/PF, o qual o destina, entre outras hipóteses, ao registro de:",
+    "alternativas": {
+      "A": "notícias-crime em verificação preliminar, ainda na fase que antecede a instauração formal do inquérito policial.",
+      "B": "termos circunstanciados de ocorrência relativos a infrações penais de menor potencial ofensivo apuradas pela unidade.",
+      "C": "representações por medidas cautelares, além dos demais casos que não se enquadrem nas outras hipóteses do artigo.",
+      "D": "autos de prisão em flagrante delito lavrados pela autoridade policial em regime de plantão ou de sobreaviso."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O art. 165, IX, da IN nº 255/2023 destina o Registro Especial (RE), entre outras finalidades, ao registro de representações por medidas cautelares, com caráter residual para os casos que não se enquadrem nas demais hipóteses do artigo. Notícias-crime, termos circunstanciados e autos de flagrante têm registros próprios.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 106-107",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2583,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em operação policial com deflagração de múltiplas ações e representações por medidas cautelares, o material identifica a coexistência de três procedimentos distintos. São eles:",
+    "alternativas": {
+      "A": "os autos principais (inquérito policial); os registros especiais principais (onde solicitadas as cautelares); e os registros especiais das equipes de deflagração (para o cumprimento das medidas).",
+      "B": "o inquérito policial; o auto de prisão em flagrante lavrado no curso da ação; e o termo circunstanciado produzido pelas equipes de cumprimento.",
+      "C": "o registro de acompanhamento da diligência; o registro de destinação de bens apreendidos; e o registro relativo à perícia requisitada no caso.",
+      "D": "o procedimento investigatório criminal instaurado; a carta precatória expedida ao juízo deprecado; e o registro do procedimento de cooperação jurídica internacional."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O material identifica três procedimentos: os autos principais (o inquérito onde se iniciou a investigação); os REs principais (onde foram solicitadas as medidas cautelares); e os REs das equipes de deflagração (para o cumprimento das medidas). As demais combinações não correspondem a essa tríade.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 107",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2584,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distribuição, às equipes de cumprimento de mandado, dos Registros Especiais criados para carregar os documentos produzidos na deflagração, o material recomenda que ela ocorra:",
+    "alternativas": {
+      "A": "assim que definida a composição das equipes, de modo a permitir o preparo antecipado das peças que serão utilizadas.",
+      "B": "somente após o encerramento da operação, em conjunto com a elaboração e o carregamento do relatório final da ação.",
+      "C": "no ato da instauração do inquérito policial, vinculando desde logo os servidores designados como responsáveis pelo caso.",
+      "D": "em momento oportuno, notadamente pouco antes ou no momento do briefing, por medida de precaução e de sigilo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material recomenda que a distribuição dos REs das equipes aos respectivos delegados e escrivães ocorra em momento oportuno, notadamente pouco antes ou no momento do briefing, por precaução (preservação do sigilo). Antecipar para a definição das equipes ou a instauração do inquérito, ou postergar para o fim da operação, contraria essa recomendação.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 107-108",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2585,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do plano operacional e do registro da operação em sistemas oficiais, conforme o material, é correto afirmar que:",
+    "alternativas": {
+      "A": "o plano operacional constitui documento obrigatório no Manual de Planejamento Operacional, sem o qual a operação não pode ser autorizada.",
+      "B": "o sistema de gestão de operações registra dados estatísticos das medidas sigilosas empregadas, e não o seu conteúdo sigiloso, visando ao aprimoramento da gestão.",
+      "C": "o registro em sistemas oficiais destina-se a consolidar as informações sigilosas obtidas por meio das medidas cautelares deferidas no caso.",
+      "D": "a alimentação do sistema oficial encerra-se com o registro da representação judicial, ainda antes da deflagração da operação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O objetivo do sistema de gestão de operações não é registrar as informações sigilosas obtidas pelas cautelares, mas apenas os dados estatísticos das medidas empregadas, para aprimorar a gestão de recursos e da investigação. O plano não foi tratado como documento obrigatório no Manual; o sistema não consolida conteúdo sigiloso; e a alimentação deve ser contínua até a finalização.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 104-105",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2586,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à denominação da operação policial a constar no plano, o material orienta que o nome:",
+    "alternativas": {
+      "A": "deve guardar relação direta e explícita com o objeto investigado, de modo a facilitar a identificação pela imprensa.",
+      "B": "é atribuído de forma automática pelo sistema oficial de polícia judiciária, com base no número do inquérito policial.",
+      "C": "identifica e distingue a operação, podendo relacionar-se ao objeto investigado, mas sem revelar seu conteúdo, evitando-se a repetição de nomes.",
+      "D": "pode repetir denominações já utilizadas em operações anteriores, desde que estas tenham ocorrido em unidades da federação distintas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A denominação serve para identificar e distinguir a operação; pode relacionar-se ao objeto investigado, porém em nenhum caso pode revelar seu conteúdo, e deve-se evitar a repetição de nomes (sob pena de inviabilizar a inclusão nos sistemas e confundir a divulgação). Relação explícita para a imprensa, atribuição automática e repetição de nomes contrariam a orientação.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 106",
+    "nivel": "medio"
+  },
+  {
+    "id": 2587,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 5 - Preparação da Ação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para organizar os Registros Especiais das equipes de deflagração no ePol, o material sugere, como boa prática, o uso do recurso de:",
+    "alternativas": {
+      "A": "criar um RDF matriz, gerar nele as peças necessárias e copiá-las, pela aba Peças, para o RE de cada equipe.",
+      "B": "cadastrar todos os documentos diretamente nos autos principais do inquérito, de modo a centralizar o acervo produzido.",
+      "C": "vincular os bens apreendidos, ao mesmo tempo, ao RE principal e aos autos principais, para dupla rastreabilidade.",
+      "D": "produzir os despachos da coordenação exclusivamente no sistema da unidade requisitante, à margem do ambiente do ePol."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Para agilizar, recomenda-se criar um RDF matriz, gerar todas as peças nesse RDF e utilizar o recurso de copiar peças (aba Peças) para o RE de cada equipe; sugere-se ainda o campo 'Codinome' para identificar a equipe. Centralizar tudo nos autos, vincular bens simultaneamente a dois casos ou produzir despachos fora do ePol não correspondem à boa prática indicada.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 107-108",
+    "nivel": "medio"
+  },
+  {
+    "id": 2588,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a anotação, nos documentos produzidos durante o cumprimento de mandados, da senha de acesso a aparelhos celulares, o material adverte que essa prática:",
+    "alternativas": {
+      "A": "é recomendável e, por si só, suficiente para legitimar o acesso posterior ao conteúdo armazenado no aparelho apreendido.",
+      "B": "somente se mostra válida quando realizada pessoalmente por perito criminal federal, no regular exercício de suas atribuições técnicas na unidade.",
+      "C": "dispensa qualquer formalidade adicional, por já integrar o auto circunstanciado de busca e arrecadação lavrado no local.",
+      "D": "tem sido alvo de questionamento judicial e é passível de gerar nulidade da prova, devendo-se respeitar o Aviso de Miranda e, sempre que possível, registrar o consentimento do proprietário."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A anotação da senha tem sido questionada judicialmente e pode gerar nulidade da prova, razão pela qual se deve respeitar o Aviso de Miranda e, sempre que possível, registrar o consentimento do proprietário quanto ao fornecimento da senha. Não é suficiente por si só, não depende de ser feita por perito nem se trata de ato dispensado de formalidade.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 137-138",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2589,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "O denominado Aviso de Miranda, mencionado no material a propósito do fornecimento de senhas por investigados, tem origem em precedente da Suprema Corte dos Estados Unidos e abrange, entre outras garantias:",
+    "alternativas": {
+      "A": "o direito à ampla defesa técnica desde o indiciamento e a vedação de qualquer prisão que não decorra de situação de flagrante.",
+      "B": "o direito de permanecer em silêncio, a advertência de que o que disser pode ser usado contra si e o direito a advogado durante o interrogatório.",
+      "C": "o direito à identificação criminal por processo datiloscópico e à comunicação imediata da prisão ao juiz naturalmente competente.",
+      "D": "o direito à assistência consular do país de origem e à tradução, por profissional habilitado, de todos os atos do processo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O Aviso de Miranda (Miranda v. Arizona, 1966) inclui o direito de permanecer em silêncio, a advertência de que tudo o que disser pode ser usado contra si, o direito a advogado durante o interrogatório e a garantia de defensor custeado pelo Estado se não puder pagar. As demais listam garantias estranhas ao conteúdo do aviso.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 137-138",
+    "nivel": "medio"
+  },
+  {
+    "id": 2590,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 7 - Exploração de Documentos e Mídias (DOMEX)",
+    "tipo": "multipla_escolha",
+    "enunciado": "No segundo cenário de apreensão de aparelho celular (aparelho ligado e investigado que não fornece a senha), o material admite, como possibilidade técnica de acesso, a extração AFU (After First Unlock), a qual se fundamenta em que:",
+    "alternativas": {
+      "A": "o aparelho, por permanecer ligado, mantém as conexões de rede ativas, o que possibilita o espelhamento remoto do seu conteúdo.",
+      "B": "as chaves de criptografia podem ser encontradas na memória após o primeiro desbloqueio feito pelo usuário desde o último reinício, permitindo o acesso aos arquivos.",
+      "C": "o cartão SIM inserido no aparelho armazena as credenciais de desbloqueio do sistema operacional, dispensando a senha do usuário.",
+      "D": "o modo avião, uma vez ativado, preserva de forma integral as senhas dos aplicativos, tornando desnecessário o desbloqueio do aparelho."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A extração AFU baseia-se no fato de que, após o primeiro desbloqueio feito pelo usuário desde o reinício, as chaves de criptografia podem estar disponíveis na memória, o que permite o acesso aos arquivos — daí manter o aparelho ligado, sem retirar o SIM, em faraday bag, entregando-o com brevidade à unidade de extração. As demais não descrevem o fundamento do AFU.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2591,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a preservação do valor de numerários constritos na investigação, o material contrapõe modalidades de depósito. Assinale a alternativa que descreve corretamente essa contraposição.",
+    "alternativas": {
+      "A": "As contas da operação 005 rendem pela TR (índice ínfimo), ao passo que os Depósitos Judiciais e Extrajudiciais (operação 635) vão à Conta Única do Tesouro Nacional, remunerada no mínimo pela SELIC.",
+      "B": "As contas judiciais vinculadas à operação 005 remuneram-se pela SELIC, ao passo que os Depósitos Judiciais e Extrajudiciais (operação 635) rendem tão somente pela taxa referencial (TR).",
+      "C": "Os valores bloqueados por meio do SISBAJUD são atualizados de modo automático pela poupança, enquanto as contas da operação 005 não sofrem qualquer correção monetária.",
+      "D": "Tanto a operação 005 quanto a operação 635 são remuneradas pela mesma taxa referencial (TR), diferindo apenas quanto ao prazo legal para o levantamento dos valores."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As contas vinculadas da operação 005 rendem pela TR (índice muito baixo), inferior à poupança e à inflação; os DJE (operação 635) vão à Conta Única do Tesouro Nacional, remunerada no mínimo pela SELIC. Valores bloqueados via SISBAJUD, enquanto não transferidos, sequer sofrem atualização. As demais invertem os índices ou igualam indevidamente as operações.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 161-162",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2592,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na sistemática dos Depósitos Judiciais e Extrajudiciais (DJE — operação 635), o código de receita a ser utilizado varia conforme o crime investigado. Assinale a correspondência correta.",
+    "alternativas": {
+      "A": "Crimes de lavagem não decorrentes de tráfico de drogas — Fundo Nacional Antidrogas (FUNAD) — código de receita 1602.",
+      "B": "Crimes da Lei de Drogas — Fundo do Aparelhamento da Polícia Federal (FUNAPOL) — código de receita 6086.",
+      "C": "Demais crimes de competência federal — Fundo do Aparelhamento da Polícia Federal (FUNAPOL) — código de receita 5680.",
+      "D": "Crimes da Lei de Drogas e a lavagem deles decorrente — Fundo Nacional Antidrogas (FUNAD) — código de receita 5680."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Na operação 635, os crimes da Lei nº 11.343/2006 (drogas) e a lavagem deles decorrente destinam-se ao FUNAD, código 5680; os crimes de lavagem (Lei nº 9.613/98), exceto se decorrentes de tráfico, ao FUNAPOL, código 6086; e os demais crimes federais usam o código geral 1602 (Tesouro Nacional). As demais trocam fundo e/ou código.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 165-166",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2593,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da natureza da operação de Depósitos Judiciais e Extrajudiciais (DJE — operação 635), o material esclarece que ela:",
+    "alternativas": {
+      "A": "destina-se ao recolhimento definitivo de multas, fianças e valores objeto de perdimento após o trânsito em julgado da sentença.",
+      "B": "possui natureza cautelar, prestando-se ao recolhimento provisório de valores à ordem da autoridade, ao passo que o recolhimento definitivo se dá por meio da Guia de Recolhimento da União (GRU).",
+      "C": "substitui a Guia de Recolhimento da União (GRU) em todas as hipóteses de arrecadação de receitas de natureza penal, inclusive as de caráter definitivo.",
+      "D": "é privativa de processos que tramitam perante a Justiça Estadual, salvo nos casos envolvendo crimes de tráfico de drogas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O DJE tem natureza cautelar, servindo ao recolhimento provisório de valores à ordem da autoridade judicial ou extrajudicial; o recolhimento definitivo (taxas, multas, fianças ou perdimento com trânsito em julgado) se faz por GRU. As demais confundem os regimes provisório e definitivo ou restringem indevidamente o uso do DJE.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 163",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2594,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos retornos legais de recursos em favor da Polícia Federal, o material registra que, nos crimes de lavagem de dinheiro (Lei nº 9.613/98), o Decreto nº 11.008/2022 determina que, convertidos em dinheiro os bens perdidos por condenação e deduzidos os da vítima ou de terceiro de boa-fé, o restante seja destinado:",
+    "alternativas": {
+      "A": "integralmente ao Fundo Nacional Antidrogas (FUNAD), por vinculação temática à recuperação de ativos.",
+      "B": "em quarenta por cento à Polícia Federal e em sessenta por cento ao Fundo Nacional de Segurança Pública.",
+      "C": "em noventa por cento à Polícia Federal (FUNAPOL) e em dez por cento à Polícia Rodoviária Federal.",
+      "D": "em partes iguais entre a Polícia Federal e o Ministério da Justiça e Segurança Pública, a título de rateio."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O Decreto nº 11.008/2022 (art. 3º) determina a conversão em dinheiro dos bens perdidos por condenação na Lei nº 9.613/98 e, deduzidos os da vítima/terceiro de boa-fé, destina 90% à Polícia Federal (FUNAPOL) e 10% à Polícia Rodoviária Federal. Os demais percentuais e destinos estão incorretos.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 165",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2595,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos crimes de drogas, o repasse de até 40% dos recursos do FUNAD à Polícia Federal (Lei nº 7.560/86), disciplinado pela Portaria MJSP nº 152/2021, condiciona-se a que a Polícia Federal:",
+    "alternativas": {
+      "A": "tenha unicamente participado da fase investigativa, ainda que a apreensão do bem tenha sido efetivada por outro órgão de persecução.",
+      "B": "assuma a condução direta do leilão dos bens em sua própria estrutura, ficando dispensada, nesse caso, a atuação da SENAD.",
+      "C": "recolha previamente os valores à Conta Única do Tesouro por meio de Guia de Recolhimento da União antes da alienação.",
+      "D": "tenha sido responsável pela investigação, apreensão, sequestro ou arrecadação do bem e tenha designado comissão para auxiliar a SENAD na avaliação e alienação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A Portaria MJSP nº 152/2021 (art. 9º, I) condiciona o repasse de 40% do FUNAD à PF a que ela: (i) tenha sido responsável pela investigação, apreensão, sequestro ou arrecadação do bem; e (ii) tenha designado comissão para auxiliar a SENAD na avaliação e alienação. As demais não correspondem às condições legais.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 164-165",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2596,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às competências da SENAD (Secretaria Nacional de Políticas sobre Drogas e Gestão de Ativos) na alienação antecipada, o material afirma que a Secretaria:",
+    "alternativas": {
+      "A": "gere os ativos objeto de perdimento em favor da União, independentemente da natureza do crime que os originou, e apoia o Judiciário na alienação antes ou depois do trânsito em julgado.",
+      "B": "atua na gestão de ativos oriundos exclusivamente de crimes de drogas, em razão de sua vinculação temática ao enfrentamento do narcotráfico.",
+      "C": "pode promover a alienação dos bens tão somente após o trânsito em julgado da sentença penal condenatória proferida no processo de referência.",
+      "D": "realiza os leilões diretamente por meio de seus próprios servidores, sendo-lhe vedada a contratação de leiloeiros públicos oficiais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A SENAD gere os ativos objeto de perdimento em favor da União, independentemente da natureza do crime, e apoia o Judiciário na alienação de bens antes ou depois do trânsito em julgado, utilizando leiloeiros públicos oficiais. Restringir sua atuação a crimes de drogas, ao pós-trânsito em julgado ou vedar leiloeiros contraria o material.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 168-169",
+    "nivel": "medio"
+  },
+  {
+    "id": 2597,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando que a SENAD não possui estrutura administrativa em todas as unidades da federação, a Polícia Federal instituiu, para apoiar a Secretaria e os leiloeiros na avaliação dos bens e na logística do leilão, em suas Superintendências Regionais:",
+    "alternativas": {
+      "A": "os Grupos de Trabalho para Recuperação de Ativos e Repressão à Lavagem de Dinheiro (GRAL), voltados à apuração patrimonial simultânea.",
+      "B": "as Comissões Permanentes de Avaliação e Alienação, incumbidas de apoiar a SENAD e os leiloeiros no processo de leilão.",
+      "C": "as Centrais de Custódia de Vestígios, responsáveis pela guarda e pelo controle dos bens apreendidos até a destinação.",
+      "D": "os Núcleos de Inteligência Financeira, encarregados do cruzamento de dados bancários e fiscais nas investigações."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A PF instituiu, nas Superintendências Regionais, as Comissões Permanentes de Avaliação e Alienação, que apoiam a SENAD e os leiloeiros na avaliação dos bens e na logística do leilão — colaboração que é, inclusive, requisito para a PF receber percentual dos valores arrecadados. GRAL, Centrais de Custódia e Núcleos de Inteligência Financeira têm outras finalidades.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 169",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2598,
+    "disciplina": "Investigação Policial III (IPO III)",
+    "conteudo": "Cap. 9 - Destinação de Coisas Apreendidas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a conversão, para os Depósitos Judiciais e Extrajudiciais (operação 635), de valores bloqueados via SISBAJUD, o material adverte que:",
+    "alternativas": {
+      "A": "a conversão opera de forma automática assim que efetivado o bloqueio judicial, ficando dispensada qualquer providência da autoridade policial.",
+      "B": "os valores bloqueados por meio do SISBAJUD não podem, em hipótese alguma, ser transferidos ao DJE, ante vedação legal expressa quanto a essa modalidade de conta.",
+      "C": "a transferência dos valores bloqueados somente se torna possível após o trânsito em julgado da sentença penal condenatória proferida no processo.",
+      "D": "a conversão não é automática, devendo a autoridade policial representar pela transferência dos recursos congelados para a conta mais rentosa, fazendo constar esse pedido na representação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A conversão do bloqueio via SISBAJUD para o DJE não é automática: a autoridade policial deve representar pela transferência dos recursos congelados para a conta mais rentosa (operação 635), sendo fundamental fazer constar esse pedido na representação. Automaticidade, vedação de transferência e exigência de trânsito em julgado contrariam o material.",
+    "referencia": "PDF IPO III (DPF/EPF), p. 165",
+    "nivel": "dificil"
+  }
+]
