@@ -5581,9 +5581,10 @@ html.dark-mode #tts-player .tts-select option { background: #1e293b; }
     display: flex;
     flex-direction: column;
     gap: 8px;
-    /* Com o desempenho movido para um modal, a lista aproveita o espaço da tela */
-    max-height: min(68vh, 820px);
-    overflow-y: auto;
+    /* Sem max-height/overflow de propósito: qualquer scroll interno criaria um
+       contexto de rolagem, e o tooltip do último botão (que transborda ~24px à
+       direita) faria surgir barra horizontal — e, por tabela, a vertical — mesmo
+       com um único caderno. A lista cresce e quem rola é a página. */
 }
 
 .cad-item {
