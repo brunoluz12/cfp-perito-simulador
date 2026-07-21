@@ -185,6 +185,7 @@ let errosSimulado = 0;
 
 // DADOS PESSOAIS
 let favoritos = [];
+let irrelevantes = []; // questões marcadas como pouco relevantes (o oposto de favoritar)
 let comentarios = {};
 let historicoQuestoes = {};
 let anotacoes = [];
@@ -321,6 +322,7 @@ async function tryLogin(username, autoRestore = false) {
         // Usuário diferente: limpar todos os dados locais para não vazar dados
         localStorage.removeItem('pcpr_stats');
         localStorage.removeItem('pcpr_favorites');
+        localStorage.removeItem('pcpr_irrelevant');
         localStorage.removeItem('pcpr_comments');
         localStorage.removeItem('pcpr_history');
         localStorage.removeItem('pcpr_course_progress');
@@ -330,7 +332,7 @@ async function tryLogin(username, autoRestore = false) {
         localStorage.removeItem('pcpr_notes');
         localStorage.removeItem('pcpr_marcacoes');
     }
-    
+
     // Carregar dados da nuvem (na restauração de sessão isto é pulado: usamos os
     // dados locais deste navegador — rápido e funciona offline. A sincronização
     // entre dispositivos continua disponível no botão da nuvem.)
@@ -343,6 +345,7 @@ async function tryLogin(username, autoRestore = false) {
                 // Sincronizar dados da nuvem para o local
                 if (result.data.stats) localStorage.setItem('pcpr_stats', JSON.stringify(result.data.stats));
                 if (result.data.favoritos) localStorage.setItem('pcpr_favorites', JSON.stringify(result.data.favoritos));
+                if (result.data.irrelevantes) localStorage.setItem('pcpr_irrelevant', JSON.stringify(result.data.irrelevantes));
                 if (result.data.comentarios) localStorage.setItem('pcpr_comments', JSON.stringify(result.data.comentarios));
                 if (result.data.historico) localStorage.setItem('pcpr_history', JSON.stringify(result.data.historico));
                 if (result.data.progresso) localStorage.setItem('pcpr_course_progress', JSON.stringify(result.data.progresso));
@@ -420,6 +423,7 @@ function requestCloudSync() {
         const payload = {
             stats: stats,
             favoritos: favoritos,
+            irrelevantes: irrelevantes,
             comentarios: comentarios,
             historico: historicoQuestoes,
             progresso: progressoCurso,
@@ -473,6 +477,7 @@ async function logout() {
                 body: JSON.stringify({ username: currentUser, data: {
                     stats: stats,
                     favoritos: favoritos,
+                    irrelevantes: irrelevantes,
                     comentarios: comentarios,
                     historico: historicoQuestoes,
                     progresso: progressoCurso,
@@ -497,6 +502,7 @@ async function logout() {
     if (savedOk) {
         localStorage.removeItem('pcpr_stats');
         localStorage.removeItem('pcpr_favorites');
+        localStorage.removeItem('pcpr_irrelevant');
         localStorage.removeItem('pcpr_comments');
         localStorage.removeItem('pcpr_history');
         localStorage.removeItem('pcpr_course_progress');
@@ -540,6 +546,7 @@ async function syncLocalWithCloud() {
         const localData = {
             stats: JSON.parse(localStorage.getItem('pcpr_stats') || 'null'),
             favoritos: JSON.parse(localStorage.getItem('pcpr_favorites') || '[]'),
+            irrelevantes: JSON.parse(localStorage.getItem('pcpr_irrelevant') || '[]'),
             comentarios: JSON.parse(localStorage.getItem('pcpr_comments') || '{}'),
             historico: JSON.parse(localStorage.getItem('pcpr_history') || '{}'),
             progresso: JSON.parse(localStorage.getItem('pcpr_course_progress') || '{}'),
@@ -583,6 +590,9 @@ async function syncLocalWithCloud() {
         
         // --- Favoritos: união de arrays sem duplicata ---
         const mergedFavoritos = [...new Set([...(cloudData.favoritos || []), ...(localData.favoritos || [])])];
+
+        // --- Irrelevantes: união de arrays sem duplicata ---
+        const mergedIrrelevantes = [...new Set([...(cloudData.irrelevantes || []), ...(localData.irrelevantes || [])])];
         
         // --- Comentários: união de chaves. Se a mesma questão tiver comentário nos dois, o local é mais novo ---
         const mergedComentarios = { ...(cloudData.comentarios || {}), ...(localData.comentarios || {}) };
@@ -644,6 +654,7 @@ async function syncLocalWithCloud() {
         // Atualiza memória e localStorage
         localStorage.setItem('pcpr_history', JSON.stringify(mergedHistorico));
         localStorage.setItem('pcpr_favorites', JSON.stringify(mergedFavoritos));
+        localStorage.setItem('pcpr_irrelevant', JSON.stringify(mergedIrrelevantes));
         localStorage.setItem('pcpr_comments', JSON.stringify(mergedComentarios));
         localStorage.setItem('pcpr_material_studied', JSON.stringify(mergedMaterial));
         localStorage.setItem('pcpr_course_progress', JSON.stringify(mergedProgresso));
@@ -663,6 +674,7 @@ async function syncLocalWithCloud() {
         const payload = {
             stats: statsRecalc,
             favoritos: mergedFavoritos,
+            irrelevantes: mergedIrrelevantes,
             comentarios: mergedComentarios,
             historico: mergedHistorico,
             progresso: mergedProgresso,
@@ -1059,6 +1071,11 @@ function carregarDadosPessoais() {
     const savedFav = localStorage.getItem('pcpr_favorites');
     if (savedFav) favoritos = JSON.parse(savedFav);
 
+    try {
+        irrelevantes = JSON.parse(localStorage.getItem('pcpr_irrelevant') || '[]');
+        if (!Array.isArray(irrelevantes)) irrelevantes = [];
+    } catch (e) { irrelevantes = []; }
+
     const savedCom = localStorage.getItem('pcpr_comments');
     if (savedCom) comentarios = JSON.parse(savedCom);
 
@@ -1073,6 +1090,11 @@ function carregarDadosPessoais() {
 
 function salvarFavoritos() {
     localStorage.setItem('pcpr_favorites', JSON.stringify(favoritos));
+    requestCloudSync();
+}
+
+function salvarIrrelevantes() {
+    localStorage.setItem('pcpr_irrelevant', JSON.stringify(irrelevantes));
     requestCloudSync();
 }
 
@@ -1510,6 +1532,8 @@ function configurarEventos() {
     }
     
     document.getElementById('btn-favorite').addEventListener('click', toggleFavorite);
+    const btnIrrel = document.getElementById('btn-irrelevant');
+    if (btnIrrel) btnIrrel.addEventListener('click', toggleIrrelevante);
     const btnExcluirQ = document.getElementById('btn-excluir-questao');
     if (btnExcluirQ) btnExcluirQ.addEventListener('click', excluirQuestaoAtual);
     const btnStatsQ = document.getElementById('btn-stats-questao');
@@ -1876,6 +1900,7 @@ function gerarCaderno(e) {
     const disciplinas = msDisciplina ? msDisciplina.getSelected() : [];
     const conteudosSelecionados = msConteudo ? msConteudo.getSelected() : [];
     const apenasFavoritas = document.getElementById('filtro-favoritas').checked;
+    const ocultarIrrelevantes = document.getElementById('filtro-ocultar-irrelevantes').checked;
     const ocultarRespondidas = document.getElementById('filtro-ocultar-respondidas').checked;
     const apenasErros = document.getElementById('filtro-apenas-erros').checked;
 
@@ -1903,6 +1928,13 @@ function gerarCaderno(e) {
         questoesFiltradas = questoesFiltradas.filter(q => favoritos.includes(q.id));
         if (questoesFiltradas.length === 0) {
             return alert("Nenhuma questão favoritada encontrada com os filtros atuais.");
+        }
+    }
+
+    if (ocultarIrrelevantes) {
+        questoesFiltradas = questoesFiltradas.filter(q => !irrelevantes.includes(q.id));
+        if (questoesFiltradas.length === 0) {
+            return alert("Todas as questões desta seleção estão marcadas como pouco relevantes.");
         }
     }
 
@@ -2017,7 +2049,9 @@ function carregarQuestaoUI() {
         btnFav.classList.remove('active');
         btnFav.innerHTML = '<i class="ph ph-star"></i>';
     }
-    
+
+    atualizarBotaoIrrelevante(q);
+
     const commentBox = document.getElementById('q-comment');
     commentBox.value = comentarios[q.id] || '';
     document.getElementById('comment-status').classList.remove('show');
@@ -2317,6 +2351,34 @@ function toggleFavorite(e) {
         btnFav.innerHTML = '<i class="ph-fill ph-star"></i>';
     }
     salvarFavoritos();
+}
+
+// Marca/desmarca a questão como pouco relevante (dificilmente será cobrada).
+// É o oposto do favoritar: serve para excluir a questão dos cadernos futuros.
+function toggleIrrelevante(e) {
+    if (e) e.preventDefault();
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q) return;
+
+    const index = irrelevantes.indexOf(q.id);
+    if (index > -1) {
+        irrelevantes.splice(index, 1);
+    } else {
+        irrelevantes.push(q.id);
+    }
+    atualizarBotaoIrrelevante(q);
+    salvarIrrelevantes();
+}
+
+function atualizarBotaoIrrelevante(q) {
+    const btn = document.getElementById('btn-irrelevant');
+    if (!btn || !q) return;
+    const marcada = irrelevantes.includes(q.id);
+    btn.classList.toggle('active', marcada);
+    btn.innerHTML = marcada ? '<i class="ph-fill ph-thumbs-down"></i>' : '<i class="ph ph-thumbs-down"></i>';
+    btn.dataset.tooltip = marcada
+        ? 'Questão marcada como pouco relevante (clique para desmarcar)'
+        : 'Marcar como pouco relevante';
 }
 
 // ADMIN: exclui a questão atual da base (lista global no servidor) com confirmação
@@ -4230,6 +4292,7 @@ async function salvarAnotacoesStore() {
         const payload = {
             stats: stats,
             favoritos: favoritos,
+            irrelevantes: irrelevantes,
             comentarios: comentarios,
             historico: historicoQuestoes,
             progresso: progressoCurso,

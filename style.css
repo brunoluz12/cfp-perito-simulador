@@ -1415,6 +1415,30 @@ textarea:focus-visible {
     font-weight: 700; /* Preencher a estrela */
 }
 
+/* Marcar questão como pouco relevante — efeito contrário ao favoritar */
+.irrelevant-btn {
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 4px;
+}
+
+.irrelevant-btn:hover {
+    color: var(--error-color);
+    transform: scale(1.1);
+}
+
+.irrelevant-btn.active {
+    color: var(--error-color);
+}
+
+.irrelevant-btn.active i {
+    font-weight: 700;
+}
+
 .personal-notes-container {
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid var(--panel-border);
@@ -1529,7 +1553,8 @@ details[open] > .notes-summary::after {
 
 @media (min-width: 640px) {
     .filters-grid {
-        grid-template-columns: 1fr 1fr 1fr;
+        /* Acomoda 2, 3 ou 4 filtros por linha conforme a largura disponível */
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     }
 }
 

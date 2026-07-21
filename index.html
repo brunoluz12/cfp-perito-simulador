@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=28">
+    <link rel="stylesheet" href="style.css?v=29">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -143,6 +143,14 @@
                                     </div>
                                 </label>
                                 
+                                <label class="toggle-filter">
+                                    <span class="toggle-label"><i class="ph ph-thumbs-down" style="color: var(--error-color);"></i> Ocultar Pouco Relevantes</span>
+                                    <div class="toggle-switch">
+                                        <input type="checkbox" id="filtro-ocultar-irrelevantes">
+                                        <span class="slider"></span>
+                                    </div>
+                                </label>
+
                                 <label class="toggle-filter">
                                     <span class="toggle-label"><i class="ph ph-eye-slash" style="color: var(--text-muted);"></i> Ocultar Respondidas</span>
                                     <div class="toggle-switch">
@@ -284,6 +292,9 @@
                         </button>
                         <button id="btn-favorite" class="btn-icon favorite-btn tooltip" data-tooltip="Favoritar Questão">
                             <i class="ph ph-star"></i>
+                        </button>
+                        <button id="btn-irrelevant" class="btn-icon irrelevant-btn tooltip" data-tooltip="Marcar como pouco relevante">
+                            <i class="ph ph-thumbs-down"></i>
                         </button>
                     </div>
                 </div>
@@ -890,7 +901,7 @@
     <script src="agenda_dados.js?v=12"></script>
     <script src="banco_questoes.js?v=168"></script>
     <script src="flashcards.js?v=2"></script>
-    <script src="app.js?v=71"></script>
+    <script src="app.js?v=72"></script>
     <script src="marcador.js?v=1"></script>
     <script src="tts_material.js?v=4"></script>
     <script src="pfister.js?v=1"></script>
