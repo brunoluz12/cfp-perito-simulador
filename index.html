@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=29">
+    <link rel="stylesheet" href="style.css?v=30">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -187,6 +187,17 @@
                             <input type="number" id="busca-id-input" placeholder="Ex: 123" class="custom-input-text" autocomplete="off" />
                             <button type="button" id="btn-busca-id" class="btn-primary"><i class="ph ph-arrow-right"></i> Ir</button>
                         </div>
+                    </div>
+                </div>
+
+                <!-- Painel de Cadernos Salvos -->
+                <div class="glass-panel cadernos-panel">
+                    <div class="cadernos-header">
+                        <h2><i class="ph ph-bookmarks-simple"></i> Meus Cadernos</h2>
+                        <span id="cadernos-contador" class="badge subtle" style="display: none;">0 salvos</span>
+                    </div>
+                    <div id="cadernos-lista" class="cadernos-lista">
+                        <!-- Preenchido por cadernos.js -->
                     </div>
                 </div>
 
@@ -867,6 +878,21 @@
         </div>
     </div>
 
+    <!-- MODAL: ESTATISTICAS DO CADERNO -->
+    <div id="modal-caderno-stats" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content glass-panel" style="max-width: 560px;">
+            <div class="modal-header">
+                <h3><i class="ph ph-chart-line-up"></i> Estatísticas do caderno</h3>
+                <button type="button" class="modal-close" id="cad-stats-close" aria-label="Fechar">
+                    <i class="ph ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="cad-stats-body">
+                <!-- Preenchido por cadernos.js -->
+            </div>
+        </div>
+    </div>
+
     <!-- BOTAO DE TOOLTIP DE SELECAO -->
     <div id="fc-selection-tooltip" style="display:none; position:fixed; z-index:9998;">
         <button class="btn-primary btn-sm" onclick="abrirJanelaFlutuante()"><i class="ph ph-lightning"></i> Criar Card</button>
@@ -901,7 +927,8 @@
     <script src="agenda_dados.js?v=12"></script>
     <script src="banco_questoes.js?v=168"></script>
     <script src="flashcards.js?v=2"></script>
-    <script src="app.js?v=72"></script>
+    <script src="app.js?v=73"></script>
+    <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=1"></script>
     <script src="tts_material.js?v=4"></script>
     <script src="pfister.js?v=1"></script>

@@ -331,6 +331,7 @@ async function tryLogin(username, autoRestore = false) {
         localStorage.removeItem('pcpr_flashcards');
         localStorage.removeItem('pcpr_notes');
         localStorage.removeItem('pcpr_marcacoes');
+        localStorage.removeItem('pcpr_cadernos');
     }
 
     // Carregar dados da nuvem (na restauração de sessão isto é pulado: usamos os
@@ -362,6 +363,7 @@ async function tryLogin(username, autoRestore = false) {
                 }
                 if (result.data.anotacoes) localStorage.setItem('pcpr_notes', JSON.stringify(result.data.anotacoes));
                 if (result.data.marcacoes) localStorage.setItem('pcpr_marcacoes', JSON.stringify(result.data.marcacoes));
+                if (result.data.cadernos) localStorage.setItem('pcpr_cadernos', JSON.stringify(result.data.cadernos));
             }
         }
     } catch (e) {
@@ -431,9 +433,10 @@ function requestCloudSync() {
             materialEstudado: materialEstudado,
             flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
             anotacoes: anotacoes,
-            marcacoes: marcacoes
+            marcacoes: marcacoes,
+            cadernos: (typeof cadernos !== 'undefined' ? cadernos : [])
         };
-        
+
         try {
             await fetch(`${VERCEL_API_URL}/api/save`, {
                 method: 'POST',
@@ -485,7 +488,8 @@ async function logout() {
                     materialEstudado: materialEstudado,
                     flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
                     anotacoes: anotacoes,
-                    marcacoes: marcacoes
+                    marcacoes: marcacoes,
+                    cadernos: (typeof cadernos !== 'undefined' ? cadernos : [])
                 }})
             });
         } catch (e) {
@@ -511,6 +515,7 @@ async function logout() {
         localStorage.removeItem('pcpr_flashcards');
         localStorage.removeItem('pcpr_notes');
         localStorage.removeItem('pcpr_marcacoes');
+        localStorage.removeItem('pcpr_cadernos');
     } else {
         alert('Não foi possível confirmar o backup na nuvem. Seus dados locais foram mantidos neste navegador.');
     }
@@ -554,7 +559,8 @@ async function syncLocalWithCloud() {
             materialEstudado: JSON.parse(localStorage.getItem('pcpr_material_studied') || '{}'),
             flashcards: JSON.parse(localStorage.getItem('pcpr_flashcards') || '[]'),
             anotacoes: JSON.parse(localStorage.getItem('pcpr_notes') || '[]'),
-            marcacoes: JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}')
+            marcacoes: JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}'),
+            cadernos: JSON.parse(localStorage.getItem('pcpr_cadernos') || '[]')
         };
 
         // 3. Merge Inteligente (UNION: nunca perde dados de nenhum lado)
@@ -640,6 +646,18 @@ async function syncLocalWithCloud() {
         lNotes.forEach(n => { if (n && n.id) noteMap.set(n.id, n); }); // local sobrescreve nuvem
         const mergedAnotacoes = Array.from(noteMap.values());
 
+        // --- Cadernos salvos: união por ID; em conflito vence o mais recentemente atualizado ---
+        const cCad = Array.isArray(cloudData.cadernos) ? cloudData.cadernos : [];
+        const lCad = Array.isArray(localData.cadernos) ? localData.cadernos : [];
+        const cadMap = new Map();
+        cCad.forEach(c => { if (c && c.id) cadMap.set(c.id, c); });
+        lCad.forEach(c => {
+            if (!c || !c.id) return;
+            const naNuvem = cadMap.get(c.id);
+            if (!naNuvem || (c.atualizadoEm || 0) >= (naNuvem.atualizadoEm || 0)) cadMap.set(c.id, c);
+        });
+        const mergedCadernos = Array.from(cadMap.values());
+
         // --- Marcações (marca-texto dos materiais): união por capítulo e por id, local ganha ---
         const cMarc = cloudData.marcacoes || {};
         const lMarc = localData.marcacoes || {};
@@ -662,6 +680,7 @@ async function syncLocalWithCloud() {
         localStorage.setItem('pcpr_flashcards', JSON.stringify(mergedFlashcards));
         localStorage.setItem('pcpr_notes', JSON.stringify(mergedAnotacoes));
         localStorage.setItem('pcpr_marcacoes', JSON.stringify(mergedMarcacoes));
+        localStorage.setItem('pcpr_cadernos', JSON.stringify(mergedCadernos));
         
         // Recalcula os totais (total de resoluções/tentativas) a partir do histórico
         // mesclado, mantendo os indicadores consistentes após o merge.
@@ -682,7 +701,8 @@ async function syncLocalWithCloud() {
             materialEstudado: mergedMaterial,
             flashcards: mergedFlashcards,
             anotacoes: mergedAnotacoes,
-            marcacoes: mergedMarcacoes
+            marcacoes: mergedMarcacoes,
+            cadernos: mergedCadernos
         };
 
         await fetch(`${VERCEL_API_URL}/api/save`, {
@@ -1086,6 +1106,11 @@ function carregarDadosPessoais() {
         anotacoes = JSON.parse(localStorage.getItem('pcpr_notes') || '[]');
         if (!Array.isArray(anotacoes)) anotacoes = [];
     } catch (e) { anotacoes = []; }
+
+    if (typeof cadernosCarregar === 'function') {
+        cadernosCarregar();
+        renderCadernosPainel();
+    }
 }
 
 function salvarFavoritos() {
@@ -1352,6 +1377,10 @@ function zerarEstatisticas() {
 function showView(viewName) {
     Object.values(views).forEach(v => v.classList.remove('active'));
     views[viewName].classList.add('active');
+    // Ao voltar para o dashboard, o painel de cadernos reflete o progresso da sessão
+    if (viewName === 'dashboard' && typeof renderCadernosPainel === 'function') {
+        renderCadernosPainel();
+    }
 }
 
 // Limpa o estado de sessão das questões selecionadas. Os objetos do banco são
@@ -1482,6 +1511,8 @@ function configurarEventos() {
             questaoAtualIndex = 0;
             acertosSimulado = 0;
             errosSimulado = 0;
+            // Consulta avulsa por ID não vira caderno salvo
+            if (typeof cadernoEncerrarSessao === 'function') cadernoEncerrarSessao();
             showView('quiz');
             carregarQuestaoUI();
             inputBuscaId.value = ''; // limpa após buscar
@@ -1889,6 +1920,15 @@ function gerarSimuladoModal() {
     document.getElementById('quiz-disciplina-badge').textContent =
         disciplinasUsadas.length === 1 ? disciplinasUsadas[0] : `${disciplinasUsadas.length} disciplinas`;
 
+    if (typeof cadernoIniciarSessao === 'function') {
+        cadernoIniciarSessao({
+            tipo: 'simulado',
+            disciplinas: disciplinasUsadas,
+            conteudos: [...new Set(buckets.map(b => b.conteudo).filter(Boolean))],
+            questoes: simuladoAtual
+        });
+    }
+
     fecharModalSimulado();
     carregarQuestaoUI();
     showView('quiz');
@@ -1976,6 +2016,16 @@ function gerarCaderno(e) {
 
     const badge = disciplinas.length === 1 ? disciplinas[0] : `${disciplinas.length} disciplinas`;
     document.getElementById('quiz-disciplina-badge').textContent = badge;
+
+    // Passa a ser um caderno salvo assim que a primeira questão for respondida
+    if (typeof cadernoIniciarSessao === 'function') {
+        cadernoIniciarSessao({
+            tipo: 'caderno',
+            disciplinas: disciplinas,
+            conteudos: [...new Set(simuladoAtual.map(q => q.conteudo).filter(Boolean))],
+            questoes: simuladoAtual
+        });
+    }
 
     carregarQuestaoUI();
     showView('quiz');
@@ -2123,6 +2173,9 @@ function carregarQuestaoUI() {
 
     atualizarPaleta();
 
+    // Guarda onde o usuário parou, para retomar o caderno depois
+    if (typeof cadernoRegistrarPosicao === 'function') cadernoRegistrarPosicao(questaoAtualIndex);
+
     // Rolar para o topo
     window.scrollTo(0, 0);
 }
@@ -2213,6 +2266,11 @@ function verificarResposta() {
 
     historicoQuestoes[q.id] = histAtual;
     salvarHistorico();
+
+    // Grava a resposta no caderno salvo (cria o caderno na primeira resposta)
+    if (typeof cadernoRegistrarResposta === 'function') {
+        cadernoRegistrarResposta(q.id, letraEscolhida, isAcerto);
+    }
 
     // Registra a resolução no agregado anônimo da questão (distribuição de
     // respostas + taxa de acerto de todos os alunos). Fire-and-forget: se a API
@@ -4299,7 +4357,11 @@ async function salvarAnotacoesStore() {
             agendaAplicada: JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'),
             materialEstudado: materialEstudado,
             flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
-            anotacoes: anotacoes
+            anotacoes: anotacoes,
+            // O /api/save grava o documento inteiro: sem estes campos, salvar uma
+            // anotação apagaria marcações e cadernos que já estavam na nuvem.
+            marcacoes: JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}'),
+            cadernos: (typeof cadernos !== 'undefined' ? cadernos : [])
         };
         await fetch(`${VERCEL_API_URL}/api/save`, {
             method: 'POST',

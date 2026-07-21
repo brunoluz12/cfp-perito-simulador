@@ -5562,3 +5562,332 @@ html.dark-mode #tts-player .tts-select option { background: #1e293b; }
     margin-left: 2px;
 }
 #hl-popup #hl-remover:hover { background: var(--error-bg); }
+
+/* ==========================================
+   MEUS CADERNOS (painel do dashboard)
+   ========================================== */
+.cadernos-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.cadernos-header h2 {
+    margin: 0;
+}
+
+.cadernos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 460px;
+    overflow-y: auto;
+}
+
+.cad-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 160px 56px auto;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px;
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.5);
+    transition: var(--transition);
+}
+
+.cad-item:hover {
+    border-color: rgba(59, 130, 246, 0.35);
+    box-shadow: var(--shadow-sm);
+}
+
+.cad-item.is-concluido {
+    border-left: 3px solid var(--success-color);
+}
+
+.cad-main {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.cad-nome {
+    font-weight: 600;
+    color: var(--text-main);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cad-tag-atual {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 8px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.12);
+    vertical-align: middle;
+}
+
+.cad-meta {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cad-prog {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cad-bar {
+    flex: 1;
+    height: 6px;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.08);
+    overflow: hidden;
+}
+
+.cad-bar-fill {
+    height: 100%;
+    border-radius: 999px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.cad-prog-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.cad-score {
+    font-weight: 700;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.cad-score.vazio {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.cad-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cad-actions .btn-icon {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+}
+
+.cad-actions .btn-icon:hover {
+    color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.cad-actions .btn-icon.cad-del:hover {
+    color: var(--error-color);
+    background: var(--error-bg);
+}
+
+.cad-vazio {
+    text-align: center;
+    padding: 28px 16px;
+    color: var(--text-muted);
+}
+
+.cad-vazio i {
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+.cad-vazio p {
+    margin: 8px 0 4px;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.cad-vazio span {
+    font-size: 0.85rem;
+    display: block;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+@media (max-width: 860px) {
+    .cad-item {
+        grid-template-columns: minmax(0, 1fr) auto;
+        row-gap: 10px;
+    }
+    .cad-prog {
+        grid-column: 1 / -1;
+        order: 3;
+    }
+    .cad-score {
+        text-align: left;
+    }
+    .cad-actions {
+        order: 4;
+        grid-column: 1 / -1;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+}
+
+/* --- Modal de estatísticas do caderno --- */
+.cad-stats-nome {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--text-main);
+}
+
+.cad-stats-sub {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.cad-stats-section {
+    margin-top: 20px;
+}
+
+.cad-stats-section h4 {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+.cad-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.cad-stats-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 4px;
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-sm);
+}
+
+.cad-stats-grid strong {
+    font-size: 1.15rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.cad-stats-grid span {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+}
+
+.cad-rodada {
+    display: grid;
+    grid-template-columns: 108px 1fr 48px;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.cad-rodada-nome {
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.cad-rodada-bar {
+    height: 8px;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.08);
+    overflow: hidden;
+}
+
+.cad-rodada-fill {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.cad-rodada-pct {
+    font-weight: 700;
+    text-align: right;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.cad-rodada-det {
+    grid-column: 2 / -1;
+    font-size: 0.74rem;
+    color: var(--text-muted);
+    margin-top: -4px;
+}
+
+.cad-evolucao {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cad-conteudo-row {
+    display: grid;
+    grid-template-columns: 1fr 56px 48px;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--panel-border);
+    font-size: 0.85rem;
+}
+
+.cad-conteudo-row:last-child {
+    border-bottom: none;
+}
+
+.cad-conteudo-nome {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cad-conteudo-num,
+.cad-conteudo-pct {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.cad-conteudo-pct {
+    font-weight: 700;
+}
+
+.cad-stats-vazio {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+html.dark-mode .cad-item {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+html.dark-mode .cad-bar,
+html.dark-mode .cad-rodada-bar {
+    background: rgba(255, 255, 255, 0.1);
+}
