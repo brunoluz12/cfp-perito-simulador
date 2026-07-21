@@ -237,7 +237,31 @@ document.addEventListener('DOMContentLoaded', () => {
     if (savedUser && savedUser.trim().length >= 2) {
         tryLogin(savedUser, true);
     }
+
+    // Registro de acesso confiável: muita gente mantém a aba/app aberto por dias
+    // sem recarregar a página, então o auto-login (DOMContentLoaded) não dispara
+    // de novo e o "último acesso" ficava congelado. Aqui damos um "ping" toda vez
+    // que a pessoa volta ao app (aba fica visível ou ganha foco), atualizando o
+    // lastAccessAt na nuvem — sem pedir o login novamente.
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') pingAccess();
+    });
+    window.addEventListener('focus', pingAccess);
 });
+
+// Atualiza o registro de "último acesso" do usuário logado, com throttle para não
+// sobrecarregar a API (no máximo 1 ping a cada 10 minutos). A própria /api/auth já
+// grava o lastAccessAt em toda consulta GET.
+let lastAccessPingAt = 0;
+function pingAccess() {
+    if (!currentUser) return;
+    const now = Date.now();
+    if (now - lastAccessPingAt < 10 * 60 * 1000) return; // 10 min
+    lastAccessPingAt = now;
+    fetch(`/api/auth?username=${encodeURIComponent(currentUser)}`).catch(() => {
+        // Uso local ou offline: ignora silenciosamente.
+    });
+}
 
 async function tryLogin(username, autoRestore = false) {
     if (!username || username.trim().length < 2) {
@@ -348,6 +372,7 @@ async function tryLogin(username, autoRestore = false) {
     
     try {
         currentUser = user;
+        lastAccessPingAt = Date.now(); // tryLogin já consultou /api/auth (gravou lastAccessAt)
         localStorage.setItem('pcpr_current_user', user);
         
         // Ocultar login e mostrar app
