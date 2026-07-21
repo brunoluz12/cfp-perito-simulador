@@ -1530,6 +1530,16 @@ function configurarEventos() {
     document.getElementById('btn-finalizar-quiz').addEventListener('click', finalizarSimulado);
     document.getElementById('btn-proxima').addEventListener('click', proximaQuestao);
 
+    // Modal "Seu Desempenho"
+    const btnOpenStats = document.getElementById('btn-open-estatisticas');
+    if (btnOpenStats) btnOpenStats.addEventListener('click', abrirModalEstatisticas);
+    const btnCloseStats = document.getElementById('modal-estatisticas-close');
+    if (btnCloseStats) btnCloseStats.addEventListener('click', fecharModalEstatisticas);
+    const overlayStats = document.getElementById('modal-estatisticas');
+    if (overlayStats) overlayStats.addEventListener('click', (e) => {
+        if (e.target === overlayStats) fecharModalEstatisticas();
+    });
+
     // Botões do modal "Gerar Simulado"
     const btnOpenSim = document.getElementById('btn-open-simulado');
     if (btnOpenSim) btnOpenSim.addEventListener('click', abrirModalSimulado);
@@ -1586,6 +1596,32 @@ function configurarEventos() {
         if(e.target.checked) chkOcultar.checked = false;
     });
 }
+
+// ==========================================
+// MODAL "SEU DESEMPENHO"
+// Os indicadores ficavam num painel fixo do dashboard; agora abrem sob demanda
+// para deixar o espaço da tela para os cadernos salvos.
+// ==========================================
+function abrirModalEstatisticas() {
+    const modal = document.getElementById('modal-estatisticas');
+    if (!modal) return;
+    atualizarTelaDashboard(); // números sempre atualizados ao abrir
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+}
+
+function fecharModalEstatisticas() {
+    const modal = document.getElementById('modal-estatisticas');
+    if (!modal) return;
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+}
+
+document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const modal = document.getElementById('modal-estatisticas');
+    if (modal && modal.classList.contains('is-open')) fecharModalEstatisticas();
+});
 
 function atualizarFiltroConteudo() {
     if (!msDisciplina || !msConteudo) return;

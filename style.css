@@ -5581,7 +5581,8 @@ html.dark-mode #tts-player .tts-select option { background: #1e293b; }
     display: flex;
     flex-direction: column;
     gap: 8px;
-    max-height: 460px;
+    /* Com o desempenho movido para um modal, a lista aproveita o espaço da tela */
+    max-height: min(68vh, 820px);
     overflow-y: auto;
 }
 
@@ -5803,15 +5804,16 @@ html.dark-mode #tts-player .tts-select option { background: #1e293b; }
 
 .cad-rodada {
     display: grid;
-    grid-template-columns: 108px 1fr 48px;
+    grid-template-columns: 148px 1fr 48px;
     align-items: center;
     gap: 8px;
     margin-bottom: 8px;
 }
 
 .cad-rodada-nome {
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     font-weight: 600;
+    line-height: 1.3;
 }
 
 .cad-rodada-bar {
@@ -5890,4 +5892,39 @@ html.dark-mode .cad-item {
 html.dark-mode .cad-bar,
 html.dark-mode .cad-rodada-bar {
     background: rgba(255, 255, 255, 0.1);
+}
+
+/* Botão "Estatísticas" — vermelho claro para se distinguir do gerar caderno/simulado */
+.btn-stats {
+    padding: 14px;
+    background: linear-gradient(135deg, #f87171, #ef4444);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.25);
+}
+
+.btn-stats:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.35);
+}
+
+.btn-stats i {
+    font-size: 1.1rem;
+}
+
+/* No modal, os indicadores não precisam do fundo/borda de painel */
+.modal-body.history-panel {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 20px 24px;
 }
