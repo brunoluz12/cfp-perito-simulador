@@ -16295,7 +16295,7 @@ const questoesDB = [
   {
     "id": 1227,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Ao classificar uma arma de fogo quanto à alma do cano, o perito deve atentar para a configuração da superfície interna deste e para os exemplares típicos de cada categoria. A respeito dessa classificação, assinale a opção correta.",
     "alternativas": {
@@ -16312,7 +16312,7 @@ const questoesDB = [
   {
     "id": 1228,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame pericial em arma apreendida, o perito inspeciona visualmente o interior do cano e identifica seis cristas intercaladas com seis sulcos helicoidais orientados no sentido horário. Considerando a classificação e a finalidade do raiamento, assinale a opção correta.",
     "alternativas": {
@@ -16329,7 +16329,7 @@ const questoesDB = [
   {
     "id": 1229,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia balística, examinou-se um revólver modelo Apache, fabricado pela Rossi entre 1953 e 1958, dotado de dois canos: o superior, em calibre .22 polegadas, raiado, e o inferior, em calibre 36, sem raiamento. Quanto à classificação da arma segundo a alma do cano, assinale a opção correta.",
     "alternativas": {
@@ -16346,7 +16346,7 @@ const questoesDB = [
   {
     "id": 1230,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Revólveres, pistolas e espingardas representam a quase totalidade das armas de fogo modernas. Quanto ao sistema de carregamento, essas armas classificam-se majoritariamente como armas de:",
     "alternativas": {
@@ -16363,7 +16363,7 @@ const questoesDB = [
   {
     "id": 1231,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia em arma artesanal apreendida em zona rural, o perito constata que a pólvora é inflamada por meio de um pavio aceso manualmente pelo atirador, sem uso de espoleta ou de contato elétrico. Sobre essa modalidade de inflamação, é correto afirmar que se trata do sistema:",
     "alternativas": {
@@ -16380,7 +16380,7 @@ const questoesDB = [
   {
     "id": 1232,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da classificação das armas de fogo quanto ao sistema de percussão, assinale a opção correta.",
     "alternativas": {
@@ -16397,7 +16397,7 @@ const questoesDB = [
   {
     "id": 1233,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Em exame pericial de um cartucho calibre .22, o perito verifica que a percussão se deu na borda do cartucho, e não no centro de sua base. Quanto ao sistema de inflamação dessa munição, é correto afirmar que se trata de percussão intrínseca:",
     "alternativas": {
@@ -16414,7 +16414,7 @@ const questoesDB = [
   {
     "id": 1234,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da distinção entre as armas de percussão intrínseca direta e indireta, assinale a opção correta.",
     "alternativas": {
@@ -16431,7 +16431,7 @@ const questoesDB = [
   {
     "id": 1235,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Em local de crime, o perito recupera uma pistola e constata que, em seu funcionamento, a força muscular do atirador é responsável apenas pelo acionamento do mecanismo de disparo, enquanto a energia da expansão dos gases da combustão da pólvora promove o ciclo de realimentação. Verifica, ainda, que a arma efetua apenas um ciclo completo a cada acionamento do gatilho. Quanto ao funcionamento, é correto afirmar que se trata de arma:",
     "alternativas": {
@@ -16448,7 +16448,7 @@ const questoesDB = [
   {
     "id": 1236,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da distinção entre armas semiautomáticas e automáticas quanto ao funcionamento, assinale a opção correta.",
     "alternativas": {
@@ -16465,7 +16465,7 @@ const questoesDB = [
   {
     "id": 1238,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando as definições estabelecidas no Decreto 11.615/2023, quanto à classificação das armas de fogo pela mobilidade, assinale a opção correta.",
     "alternativas": {
@@ -16482,7 +16482,7 @@ const questoesDB = [
   {
     "id": 1239,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Em laudo pericial, o perito descreve a arma examinada como sendo de tiro unitário múltiplo. Sobre essa categoria, assinale a opção correta.",
     "alternativas": {
@@ -16499,7 +16499,7 @@ const questoesDB = [
   {
     "id": 1240,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia balística, o perito examina arma artesanal antiga e identifica que o carregamento é efetuado pela boca do cano e que a ignição da carga propelente ocorre por meio de espoleta colocada sobre pequena chaminé projetada na parte superior do cano, a qual se comunica com o interior deste por um ouvido, sendo a espoleta percutida pelo cão. Quanto à classificação dessa arma, é correto afirmar que se trata de arma de:",
     "alternativas": {
@@ -16516,7 +16516,7 @@ const questoesDB = [
   {
     "id": 1241,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Em um exame de arma de fogo de alma raiada, o perito necessita determinar o calibre real do cano. Assinale a opção que conceitua corretamente o calibre real e indica o ponto adequado de aferição.",
     "alternativas": {
@@ -16533,7 +16533,7 @@ const questoesDB = [
   {
     "id": 1242,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Perito criminal federal examina um revólver apreendido cujo cano apresenta sistema de raiamento composto por cinco raias e precisa aferir o calibre real da arma. Acerca do procedimento de medição tecnicamente correto nesse caso específico, assinale a opção correta.",
     "alternativas": {
@@ -16550,7 +16550,7 @@ const questoesDB = [
   {
     "id": 1243,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da distinção entre calibre real e calibre nominal em armas de fogo de alma raiada, assinale a opção correta.",
     "alternativas": {
@@ -16567,7 +16567,7 @@ const questoesDB = [
   {
     "id": 1244,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame pericial, são analisados quatro projéteis recuperados em local de crime, correspondentes aos cartuchos .380 Auto, 9x19mm, .38 SPL e .357 Magnum. O perito constata que todos apresentam diâmetro de projétil próximo a 9 mm. Acerca dessa observação, assinale a opção correta.",
     "alternativas": {
@@ -16584,7 +16584,7 @@ const questoesDB = [
   {
     "id": 1245,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Em diligência, é apreendido revólver originalmente fabricado em calibre .38 que foi adaptado pelo proprietário, mediante aumento do comprimento da câmara do tambor, para disparar cartuchos calibre .357. Acerca dessa adaptação, assinale a opção correta.",
     "alternativas": {
@@ -16601,7 +16601,7 @@ const questoesDB = [
   {
     "id": 1246,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da classificação legal dos calibres nominais em uso permitido ou restrito no ordenamento jurídico brasileiro, assinale a opção correta.",
     "alternativas": {
@@ -16618,7 +16618,7 @@ const questoesDB = [
   {
     "id": 1247,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Perito criminal federal, ao examinar munição apreendida cujo culote apresenta gravação distinta daquela mais comumente utilizada para o mesmo cartucho, precisa elaborar Laudo classificando a munição quanto ao uso permitido ou restrito. Considerando as orientações do capítulo, assinale a opção correta.",
     "alternativas": {
@@ -16635,7 +16635,7 @@ const questoesDB = [
   {
     "id": 1248,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "As armas curtas de porte (revólveres e pistolas) constituem categoria definida por um conjunto de características gerais que as distinguem das armas longas. Acerca dessas características gerais, assinale a opção correta.",
     "alternativas": {
@@ -16652,7 +16652,7 @@ const questoesDB = [
   {
     "id": 1249,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "O revólver apresenta peculiaridades estruturais e funcionais que o singularizam entre as armas de fogo de porte, sobretudo no que concerne à localização da câmara de combustão e à obturação da parte posterior do tambor. Acerca dessas peculiaridades, assinale a opção correta.",
     "alternativas": {
@@ -16669,7 +16669,7 @@ const questoesDB = [
   {
     "id": 1250,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Em exame pericial, o perito constatou que a arma examinada possuía armação em quadro inteiriço e rígido, com tambor montado em suporte que se articulava com a armação, projetando-se para fora desta em arco. A vareta do extrator, ao ser acionada pelo atirador, extraía simultaneamente todos os estojos, mas não de modo automático. A partir dessa descrição, é correto classificar a arma como revólver de armação:",
     "alternativas": {
@@ -16686,7 +16686,7 @@ const questoesDB = [
   {
     "id": 1251,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Os revólveres podem ser classificados conforme o mecanismo de disparo, distinguindo-se quanto ao movimento (simples ou duplo) e quanto à ação (simples ou dupla). Acerca dessa classificação, assinale a opção correta.",
     "alternativas": {
@@ -16703,7 +16703,7 @@ const questoesDB = [
   {
     "id": 1252,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Em laudo, o perito descreveu o revólver examinado como de percussão intrínseca, com cápsula de espoletamento posicionada no centro da base do cartucho, e mecanismo no qual o cão transfere a energia de percussão por meio de pino percussor flutuante alojado na armação. Essa descrição corresponde a revólver de percussão:",
     "alternativas": {
@@ -16720,7 +16720,7 @@ const questoesDB = [
   {
     "id": 1253,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "A classificação dos revólveres quanto à extração dos cartuchos e estojos distingue a extração manual da automática, podendo ainda ser simples ou simultânea. Acerca dessa classificação, assinale a opção correta.",
     "alternativas": {
@@ -16737,7 +16737,7 @@ const questoesDB = [
   {
     "id": 1254,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "As pistolas semiautomáticas e as armas automáticas compartilham o princípio de aproveitamento dos gases da detonação para a ciclagem, mas diferem quanto à necessidade de novo acionamento do gatilho a cada disparo. Acerca desse princípio de funcionamento, assinale a opção correta.",
     "alternativas": {
@@ -16754,7 +16754,7 @@ const questoesDB = [
   {
     "id": 1255,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia, o examinador analisou pistola calibre .45 polegadas e constatou tratar-se de arma com culatra aferrolhada. Acerca da finalidade e das características do sistema de aferrolhamento da culatra em pistolas, assinale a opção correta.",
     "alternativas": {
@@ -16771,7 +16771,7 @@ const questoesDB = [
   {
     "id": 1256,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "As pistolas podem ser classificadas conforme a montagem do cano, correlacionando-se essa montagem ao tipo de culatra (aferrolhada ou desaferrolhada). Acerca dessa classificação, assinale a opção correta.",
     "alternativas": {
@@ -16788,7 +16788,7 @@ const questoesDB = [
   {
     "id": 1257,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Em exame de pistola apreendida em local de crime, o perito constatou que a arma não possuía cão; o próprio pino percussor, cilíndrico e dotado de noz em sua parte ínfero-posterior, ficava alojado em tubo no bloco da culatra. Ao engatilhamento, o gatilho imobilizava o percussor por meio de calço encaixado na noz, mantendo-se o pino sob tensão de mola até a liberação no disparo. Essa descrição é típica de pistola de percussão:",
     "alternativas": {
@@ -16805,7 +16805,7 @@ const questoesDB = [
   {
     "id": 1258,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Ao distinguir um revólver de uma pistola semiautomática, o perito precisa considerar a localização da câmara de combustão em cada tipo de arma. Acerca dessa distinção, assinale a opção correta.",
     "alternativas": {
@@ -16822,7 +16822,7 @@ const questoesDB = [
   {
     "id": 1260,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia de revólver apreendido, o examinador identificou armação rígida com janela lateral; mecanismo de disparo no qual o cão permanecia imobilizado quando engatilhado e, alternativamente, podia ser acionado por pressão contínua no gatilho; e percussão intrínseca central direta. Diante disso, é correto classificar a arma como revólver de armação:",
     "alternativas": {
@@ -16839,7 +16839,7 @@ const questoesDB = [
   {
     "id": 1261,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "No exame de armamento apreendido, o Perito Criminal Federal precisa enquadrar corretamente a peça na categoria das armas de fogo longas. Acerca das características gerais dessa categoria, assinale a alternativa correta.",
     "alternativas": {
@@ -16856,7 +16856,7 @@ const questoesDB = [
   {
     "id": 1262,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "O termo rifle deriva do inglês rifled e designa uma classe específica de arma de fogo longa. Sobre as características técnicas do rifle, assinale a alternativa correta.",
     "alternativas": {
@@ -16873,7 +16873,7 @@ const questoesDB = [
   {
     "id": 1263,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame em arma longa apreendida, o Perito Criminal Federal observa cano de alma raiada com comprimento inferior a 20 polegadas, carregador tubular alojado abaixo do cano, sistema de alimentação por alavanca (lever action) e munição de fogo central calibre .44\" Magnum. Com base nessas características, a arma deve ser classificada como:",
     "alternativas": {
@@ -16890,7 +16890,7 @@ const questoesDB = [
   {
     "id": 1264,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da distinção técnica entre rifle, fuzil, carabina e mosquetão, assinale a alternativa correta.",
     "alternativas": {
@@ -16907,7 +16907,7 @@ const questoesDB = [
   {
     "id": 1265,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia de arma longa militar de grande potência apreendida em operação policial, identificam-se cano de alma raiada de aproximadamente 30 polegadas (76,2 cm), mecanismo dotado de ferrolho com alavanca característica e depósito de munição alojado no interior da coronha, além de cartucho de fogo central de alta energia. Tecnicamente, trata-se de:",
     "alternativas": {
@@ -16924,7 +16924,7 @@ const questoesDB = [
   {
     "id": 1266,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da espingarda e de suas características construtivas, segundo a terminologia adotada no Brasil, assinale a alternativa correta.",
     "alternativas": {
@@ -16941,7 +16941,7 @@ const questoesDB = [
   {
     "id": 1267,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Em local de crime foi recolhido um estojo de cartucho de espingarda. Acerca das características desse componente e do cartucho correspondente, assinale a alternativa correta.",
     "alternativas": {
@@ -16958,7 +16958,7 @@ const questoesDB = [
   {
     "id": 1268,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Em local de crime envolvendo disparo de espingarda, o perito encontra balins de chumbo dispersos e uma bucha de plástico próxima à vítima, sem o estojo correspondente. Acerca da importância pericial desses elementos para a indicação do calibre, assinale a alternativa correta.",
     "alternativas": {
@@ -16975,7 +16975,7 @@ const questoesDB = [
   {
     "id": 1269,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca dos projéteis utilizados em cartuchos de espingarda, assinale a alternativa correta.",
     "alternativas": {
@@ -16992,7 +16992,7 @@ const questoesDB = [
   {
     "id": 1270,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca do calibre real e do estrangulamento (choke) em armas de fogo de alma lisa, assinale a alternativa correta.",
     "alternativas": {
@@ -17009,7 +17009,7 @@ const questoesDB = [
   {
     "id": 1271,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "O Perito Criminal Federal recebe para exame uma espingarda marcada como calibre 12. Considerando os critérios técnicos de definição do calibre nominal em armas de fogo de alma lisa, assinale a alternativa correta.",
     "alternativas": {
@@ -17026,7 +17026,7 @@ const questoesDB = [
   {
     "id": 1272,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Uma arma de fogo questionada é encaminhada ao setor de Balística Forense para exame direto. Quanto aos cuidados iniciais de segurança e ao acondicionamento desse material, assinale a alternativa correta.",
     "alternativas": {
@@ -17043,7 +17043,7 @@ const questoesDB = [
   {
     "id": 1273,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "A Perita Federal Camila recebe um revólver apreendido em local de homicídio e inicia a caracterização imediata da arma para o exame direto. Sobre a sequência e o conteúdo dessa descrição, assinale a alternativa correta.",
     "alternativas": {
@@ -17060,7 +17060,7 @@ const questoesDB = [
   {
     "id": 1274,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Na caracterização imediata de armas de fogo, no que tange ao funcionamento do mecanismo e ao sistema de percussão, assinale a alternativa correta.",
     "alternativas": {
@@ -17077,7 +17077,7 @@ const questoesDB = [
   {
     "id": 1275,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "O Perito Federal Rafael recebe um revólver cuja numeração de série foi totalmente lixada. Sobre o fundamento físico-químico que torna possível a revelação de caracteres suprimidos, assinale a alternativa correta.",
     "alternativas": {
@@ -17094,7 +17094,7 @@ const questoesDB = [
   {
     "id": 1276,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Durante a revelação de caracteres suprimidos em uma pistola, o Perito Federal Marcelo executa o procedimento experimental padrão. Sobre as etapas e os cuidados desse procedimento, assinale a alternativa correta.",
     "alternativas": {
@@ -17111,7 +17111,7 @@ const questoesDB = [
   {
     "id": 1277,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação às situações nas quais os procedimentos de revelação de caracteres suprimidos resultam infrutíferos, assinale a alternativa correta.",
     "alternativas": {
@@ -17128,7 +17128,7 @@ const questoesDB = [
   {
     "id": 1278,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os exames de eficiência de armas de fogo e o conceito de defeito de funcionamento adotado nesses testes, assinale a alternativa correta.",
     "alternativas": {
@@ -17145,7 +17145,7 @@ const questoesDB = [
   {
     "id": 1279,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o exame de recenticidade no interior dos canos de armas de fogo com o reagente de Griess e a interpretação de seus resultados, assinale a alternativa correta.",
     "alternativas": {
@@ -17162,7 +17162,7 @@ const questoesDB = [
   {
     "id": 1280,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "A Perita Federal Helena examinará uma pistola para verificar a recenticidade de disparos. Sobre a ordem das tarefas e o procedimento de coleta e análise com o reagente de Griess, assinale a alternativa correta.",
     "alternativas": {
@@ -17179,7 +17179,7 @@ const questoesDB = [
   {
     "id": 1281,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a composição química do reagente de Griess e a forma de aplicação no exame de recenticidade de disparos, assinale a alternativa correta.",
     "alternativas": {
@@ -17196,7 +17196,7 @@ const questoesDB = [
   {
     "id": 1282,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as técnicas antigas de detecção de resíduos de disparo nas mãos do atirador, assinale a alternativa correta.",
     "alternativas": {
@@ -17213,7 +17213,7 @@ const questoesDB = [
   {
     "id": 1283,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a moderna detecção de resíduos de disparo nas mãos do atirador por Microscopia Eletrônica de Varredura (MEV), assinale a alternativa correta.",
     "alternativas": {
@@ -17230,7 +17230,7 @@ const questoesDB = [
   {
     "id": 1284,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "O Perito Federal Bruno foi acionado para coletar resíduos de disparo nas mãos de um suspeito detido logo após uma ocorrência. Considerando o procedimento de coleta para MEV previsto na Instrução Técnica nº 001/2010-GAB/DITEC, assinale a alternativa correta.",
     "alternativas": {
@@ -17247,7 +17247,7 @@ const questoesDB = [
   {
     "id": 1285,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Estudo sobre a influência da atitude do atirador no resultado dos testes de resíduos de disparo apresentou percentuais distintos conforme as ações praticadas após o disparo. Sobre esses dados, assinale a alternativa correta.",
     "alternativas": {
@@ -17264,7 +17264,7 @@ const questoesDB = [
   {
     "id": 1286,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as zonas características impressas em um anteparo por disparo de arma de fogo a curta distância, assinale a alternativa correta.",
     "alternativas": {
@@ -17281,7 +17281,7 @@ const questoesDB = [
   {
     "id": 1287,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os limites práticos do conceito de tiro a curta distância e os reagentes empregados na pesquisa de substâncias em anteparos para estimativa da distância de tiro, assinale a alternativa correta.",
     "alternativas": {
@@ -17298,7 +17298,7 @@ const questoesDB = [
   {
     "id": 1288,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "O Perito Federal Diego recebeu as vestes de uma vítima de homicídio e foi questionado sobre a distância de tiro. Sobre o procedimento experimental para estimar essa distância, assinale a alternativa correta.",
     "alternativas": {
@@ -17315,7 +17315,7 @@ const questoesDB = [
   {
     "id": 1289,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as zonas de escape de gases relevantes para a coleta de resíduos nas mãos do atirador, conforme o tipo de arma empregada, assinale a alternativa correta.",
     "alternativas": {
@@ -17332,7 +17332,7 @@ const questoesDB = [
   {
     "id": 1290,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Em uma apreensão volumosa, o perito recebe centenas de cartuchos íntegros e estojos com características genéricas e específicas iguais entre si. A respeito da descrição e do registro desse material na identificação direta, assinale a alternativa correta.",
     "alternativas": {
@@ -17349,7 +17349,7 @@ const questoesDB = [
   {
     "id": 1291,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito dos exames de eficiência em munição realizados na Polícia Federal e dos cuidados a eles associados, assinale a alternativa correta.",
     "alternativas": {
@@ -17366,7 +17366,7 @@ const questoesDB = [
   {
     "id": 1292,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Os fundamentos científicos da identificação mediata das armas de fogo apoiam-se em duas propriedades das marcas que as armas imprimem nos elementos de munição durante o disparo: a reprodutibilidade e a unicidade. Sobre essas propriedades, assinale a alternativa correta.",
     "alternativas": {
@@ -17383,7 +17383,7 @@ const questoesDB = [
   {
     "id": 1293,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "O Perito Criminal Federal Cláudio é acionado para coletar um projétil incrustado em batente de madeira de uma residência onde ocorreu homicídio. Considerando os cuidados exigidos com o material questionado em Balística Forense, ele deve:",
     "alternativas": {
@@ -17400,7 +17400,7 @@ const questoesDB = [
   {
     "id": 1294,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Em local de homicídio múltiplo, a perita Mariana recupera projéteis em quatro quadrantes distintos da cena, havendo ainda solicitação de exames de DNA e papiloscópico sobre os elementos coletados. Diante desse cenário, assinale a alternativa correta.",
     "alternativas": {
@@ -17417,7 +17417,7 @@ const questoesDB = [
   {
     "id": 1295,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Os cartuchos utilizados na coleta de padrões devem atender a quatro requisitos: autenticidade, adequabilidade, contemporaneidade e quantidade. A respeito especificamente do requisito de autenticidade, assinale a alternativa correta.",
     "alternativas": {
@@ -17434,7 +17434,7 @@ const questoesDB = [
   {
     "id": 1296,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "O perito Rafael recebe uma pistola apreendida e um estojo questionado calibre .380\" Auto, de latão, marca CBC, com espoleta latonada. Para a coleta dos padrões, observando o requisito de adequabilidade, ele deve utilizar:",
     "alternativas": {
@@ -17451,7 +17451,7 @@ const questoesDB = [
   {
     "id": 1297,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito dos requisitos de contemporaneidade e de quantidade dos padrões utilizados no confronto balístico, assinale a alternativa correta.",
     "alternativas": {
@@ -17468,7 +17468,7 @@ const questoesDB = [
   {
     "id": 1298,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "O perito Eduardo recebe um revólver questionado para confronto balístico e, após verificar a desobstrução do cano, constata que este se encontra \"chumbado\". A respeito da coleta de projéteis padrões nessa situação, assinale a alternativa correta.",
     "alternativas": {
@@ -17485,7 +17485,7 @@ const questoesDB = [
   {
     "id": 1299,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame microcomparativo em projéteis, o perito Henrique verifica que as características de classe (calibre real e número e orientação das raias) do projétil questionado e do cano da arma questionada são concordantes em todas, exceto em uma, que é discordante. Nessa situação, assinale a alternativa correta.",
     "alternativas": {
@@ -17502,7 +17502,7 @@ const questoesDB = [
   {
     "id": 1300,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do confronto balístico realizado entre estojos, assinale a alternativa correta.",
     "alternativas": {
@@ -17519,7 +17519,7 @@ const questoesDB = [
   {
     "id": 1302,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da arquitetura e do funcionamento do Sistema Nacional de Análise Balística (SINAB), assinale a alternativa correta.",
     "alternativas": {
@@ -17536,7 +17536,7 @@ const questoesDB = [
   {
     "id": 1303,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "A perita Ana, em laboratório integrado ao SINAB, recebe diversos elementos de munição relacionados a um homicídio. Quanto aos protocolos de operação do SINAB, assinale a alternativa correta.",
     "alternativas": {
@@ -17553,7 +17553,7 @@ const questoesDB = [
   {
     "id": 1304,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca dos resultados do SINAB e de sua relevância para a investigação criminal, assinale a alternativa correta.",
     "alternativas": {
@@ -17570,7 +17570,7 @@ const questoesDB = [
   {
     "id": 1305,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "O perito Lucas, lotado em unidade de criminalística do Sistema Nacional de Criminalística, atendeu local de crime com vestígios balísticos e ainda examinou arma de fogo apreendida, da qual foram coletados padrões. Considerando a Portaria DITEC/PF nº 1493/2024, assinale a alternativa correta.",
     "alternativas": {
@@ -17587,7 +17587,7 @@ const questoesDB = [
   {
     "id": 1306,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "O Anexo II do material de Balística Forense da ANP relaciona soluções reveladoras de caracteres aplicáveis a peças metálicas de armas de fogo. Acerca da natureza e do critério de emprego dessas soluções, assinale a alternativa correta.",
     "alternativas": {
@@ -17604,7 +17604,7 @@ const questoesDB = [
   {
     "id": 1307,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Em exame de pistola Glock 26, calibre 9 mm Luger, cujo ferrolho em aço-carbono oxidado teve a numeração de série suprimida, o perito pretende aplicar a solução reveladora adequada ao metal. À luz do Anexo II do material de Balística Forense, qual reagente é tecnicamente indicado para esse substrato?",
     "alternativas": {
@@ -17621,7 +17621,7 @@ const questoesDB = [
   {
     "id": 1308,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Em perícia de revólver Rossi 712, calibre .357\" MAG, em excelente estado de conservação e com acabamento em aço inoxidável, é necessário revelar caracteres suprimidos na armação. Segundo o Anexo II do material de Balística Forense, o reagente tecnicamente adequado ao metal e a sua composição correspondem a:",
     "alternativas": {
@@ -17638,7 +17638,7 @@ const questoesDB = [
   {
     "id": 1309,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca do modelo de descrição pericial de armas de fogo adotado no Anexo I do material de Balística Forense da ANP, assinale a alternativa correta.",
     "alternativas": {
@@ -17655,7 +17655,7 @@ const questoesDB = [
   {
     "id": 1310,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito examina uma espingarda AYA, modelo 53, calibre 12-70, com canos de alma lisa medindo 700 mm, e deve redigir o item carregamento conforme o modelo de descrição da ARMA 3 do Anexo I. A forma tecnicamente correta de consignar esse item é:",
     "alternativas": {
@@ -17672,7 +17672,7 @@ const questoesDB = [
   {
     "id": 1311,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Em laudo, um projétil foi descrito como projétil de arma de fogo ogival totalmente encamisado (ETOG), de encamisamento dourado, calibre nominal .380\" Auto ou similar, com deformações normais de raiamento 6D e sem deformações acidentais salvo pequena mossa frontal. Conforme o modelo do Anexo III, a expressão deformações normais de raiamento 6D indica que:",
     "alternativas": {
@@ -17689,7 +17689,7 @@ const questoesDB = [
   {
     "id": 1312,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Em exame de material questionado, o perito descreveu: um (01) fragmento metálico de coloração cinza, em liga de chumbo, com intensas deformações acidentais em forma de cogumelo na parte frontal, ao qual se acha aderido fragmento de material poroso de coloração creme, similar a tecido ósseo; o fragmento encaixa-se perfeitamente no interior de um encamisamento descrito em item separado. Conforme o padrão do Anexo III, a denominação tecnicamente adequada para esse material é:",
     "alternativas": {
@@ -29385,7 +29385,7 @@ const questoesDB = [
   {
     "id": 2047,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à classificação das armas de fogo pelo sistema de carregamento, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29402,7 +29402,7 @@ const questoesDB = [
   {
     "id": 2048,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 3 - Classificação das Armas de Fogo",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a classificação das armas de fogo quanto ao sistema de inflamação por percussão, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29419,7 +29419,7 @@ const questoesDB = [
   {
     "id": 2049,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o calibre real em armas de alma raiada, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29436,7 +29436,7 @@ const questoesDB = [
   {
     "id": 2050,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 4 - Calibre das Armas e Munição",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o calibre nominal e os riscos de adaptação de calibres, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29453,7 +29453,7 @@ const questoesDB = [
   {
     "id": 2051,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as características fundamentais das armas curtas (mnemônico PLM-A), conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29470,7 +29470,7 @@ const questoesDB = [
   {
     "id": 2052,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 5 - Armas Curtas (Revólver e Pistola)",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as particularidades notáveis do revólver, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29487,7 +29487,7 @@ const questoesDB = [
   {
     "id": 2053,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a visão geral das armas de fogo longas, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29504,7 +29504,7 @@ const questoesDB = [
   {
     "id": 2054,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 6 - Armas de Fogo Longas",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o mosquetão, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29521,7 +29521,7 @@ const questoesDB = [
   {
     "id": 2055,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o zoneamento característico impresso no anteparo por disparo a curta distância (mnemônico CHA-ES-TA), conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29538,7 +29538,7 @@ const questoesDB = [
   {
     "id": 2056,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 7 - Exames em Armas de Fogo",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os resíduos de disparo nas mãos do atirador, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29555,7 +29555,7 @@ const questoesDB = [
   {
     "id": 2057,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os requisitos dos padrões em Balística Forense (mnemônico A-A-C-Q), conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29572,7 +29572,7 @@ const questoesDB = [
   {
     "id": 2058,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 8 - Exames em Munição (Confronto Balístico e SINAB)",
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o confronto balístico em projéteis, conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29589,7 +29589,7 @@ const questoesDB = [
   {
     "id": 2059,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as soluções reveladoras de caracteres por tipo de metal (Anexo II), conforme o material, é correto afirmar que:",
     "alternativas": {
@@ -29606,7 +29606,7 @@ const questoesDB = [
   {
     "id": 2060,
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "Cap. 9 - Anexos (Descrições e Soluções Reveladoras)",
+    "conteudo": "Anexos - Descrições e Soluções Reveladoras",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a notação empregada na descrição pericial de projéteis (Anexo III), conforme o material, é correto afirmar que:",
     "alternativas": {

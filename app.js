@@ -178,6 +178,27 @@ function naturalSort(a, b) {
     return a.localeCompare(b, 'pt-BR', { numeric: true, sensitivity: 'base' });
 }
 
+// Ordena conteúdos ("Cap. 2.3 - ...") pelo número do capítulo, com sub-níveis.
+// Conteúdos sem numeração (Anexos, Resumo, Geral...) vão para o fim, na mesma
+// ordem em que aparecem no material — sem isso "Anexos" subiria para o topo
+// por ordem alfabética e as duas telas ficariam em ordens diferentes.
+function ordenarConteudos(a, b) {
+    const num = s => {
+        const m = String(s).match(/^\s*cap\.?\s*(\d+(?:\.\d+)*)/i);
+        return m ? m[1].split('.').map(Number) : null;
+    };
+    const na = num(a), nb = num(b);
+    if (na && !nb) return -1;
+    if (!na && nb) return 1;
+    if (na && nb) {
+        for (let i = 0; i < Math.max(na.length, nb.length); i++) {
+            const d = (na[i] || 0) - (nb[i] || 0);
+            if (d !== 0) return d;
+        }
+    }
+    return naturalSort(a, b);
+}
+
 let simuladoAtual = [];
 let questaoAtualIndex = 0;
 let acertosSimulado = 0;
@@ -1268,7 +1289,7 @@ function calcularEstatisticasPorCapitulo() {
         const bodyInner = document.createElement('div');
         bodyInner.className = 'accordion-body-inner';
 
-        const conteudos = Object.keys(dStats.conteudos).sort(naturalSort);
+        const conteudos = Object.keys(dStats.conteudos).sort(ordenarConteudos);
         conteudos.forEach(cap => {
             const cStats = dStats.conteudos[cap];
             const cPend = cStats.total - cStats.resolvidas;
@@ -1637,7 +1658,7 @@ function atualizarFiltroConteudo() {
     const opcoes = [];
     disciplinas.slice().sort().forEach(d => {
         const qs = bancoQuestoes.filter(q => q.disciplina === d);
-        [...new Set(qs.map(q => q.conteudo))].sort(naturalSort).forEach(c => {
+        [...new Set(qs.map(q => q.conteudo))].sort(ordenarConteudos).forEach(c => {
             opcoes.push({
                 value: d + '||' + c,
                 label: c,
@@ -1709,7 +1730,7 @@ function renderizarArvoreSimulado(disciplinasSelecionadas) {
     disciplinasSelecionadas.sort().forEach(disc => {
         const conteudos = [...new Set(
             bancoQuestoes.filter(q => q.disciplina === disc).map(q => q.conteudo)
-        )].sort(naturalSort);
+        )].sort(ordenarConteudos);
 
         const group = document.createElement('div');
         group.className = 'discipline-group';
@@ -3227,19 +3248,21 @@ document.addEventListener('DOMContentLoaded', () => {
         'bal': {
             path: 'BAL',
             capitulos: [
-                // Numeração alinhada aos conteúdos do simulador (Cap. 1 a 9).
+                // Numeração igual à da apostila (6 capítulos + anexos; o cap. 2
+                // vem dividido em 3 arquivos, nas seções 2.1-2.2, 2.3 e 2.4) e
+                // igual aos conteúdos do simulador, para o vínculo ser direto.
                 // Os nomes de arquivo continuam os originais: mudá-los deixaria
                 // órfãos os grifos e o "estudado" já salvos.
                 { titulo: 'Prefácio - Balística Forense', arquivo: 'Capitulo_00.html' },
                 { titulo: 'Capítulo 1 - Balística: Conceituação e Divisões', arquivo: 'Capitulo_01.html' },
                 { titulo: 'Capítulo 2 - Arma e Munição (Conceitos e Cartucho)', arquivo: 'Capitulo_02a.html' },
-                { titulo: 'Capítulo 3 - Classificação das Armas de Fogo', arquivo: 'Capitulo_02b.html' },
-                { titulo: 'Capítulo 4 - Calibre das Armas e Munição', arquivo: 'Capitulo_02c.html' },
-                { titulo: 'Capítulo 5 - Armas Curtas (Revólver e Pistola)', arquivo: 'Capitulo_03.html' },
-                { titulo: 'Capítulo 6 - Armas de Fogo Longas', arquivo: 'Capitulo_04.html' },
-                { titulo: 'Capítulo 7 - Exames em Armas de Fogo', arquivo: 'Capitulo_05.html' },
-                { titulo: 'Capítulo 8 - Exames em Munição (Confronto Balístico e SINAB)', arquivo: 'Capitulo_06.html' },
-                { titulo: 'Capítulo 9 - Anexos (Descrições e Soluções Reveladoras)', arquivo: 'Capitulo_07_Anexos.html' }
+                { titulo: 'Capítulo 2.3 - Classificação das Armas de Fogo', arquivo: 'Capitulo_02b.html' },
+                { titulo: 'Capítulo 2.4 - Calibre das Armas e Munição', arquivo: 'Capitulo_02c.html' },
+                { titulo: 'Capítulo 3 - Armas Curtas (Revólver e Pistola)', arquivo: 'Capitulo_03.html' },
+                { titulo: 'Capítulo 4 - Armas de Fogo Longas', arquivo: 'Capitulo_04.html' },
+                { titulo: 'Capítulo 5 - Exames em Armas de Fogo', arquivo: 'Capitulo_05.html' },
+                { titulo: 'Capítulo 6 - Exames em Munição (Confronto Balístico e SINAB)', arquivo: 'Capitulo_06.html' },
+                { titulo: 'Anexos - Descrições e Soluções Reveladoras', arquivo: 'Capitulo_07_Anexos.html' }
             ]
         },
         'pceb': {
@@ -4513,7 +4536,7 @@ function notesDisciplinas() {
 }
 function notesConteudos(disc) {
     if (!disc || !Array.isArray(bancoQuestoes)) return [];
-    return [...new Set(bancoQuestoes.filter(q => q.disciplina === disc).map(q => q.conteudo))].sort(naturalSort);
+    return [...new Set(bancoQuestoes.filter(q => q.disciplina === disc).map(q => q.conteudo))].sort(ordenarConteudos);
 }
 
 function notesFillDisc(sel, todasLabel) {
