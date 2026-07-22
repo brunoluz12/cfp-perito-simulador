@@ -3227,16 +3227,19 @@ document.addEventListener('DOMContentLoaded', () => {
         'bal': {
             path: 'BAL',
             capitulos: [
+                // Numeração alinhada aos conteúdos do simulador (Cap. 1 a 9).
+                // Os nomes de arquivo continuam os originais: mudá-los deixaria
+                // órfãos os grifos e o "estudado" já salvos.
                 { titulo: 'Prefácio - Balística Forense', arquivo: 'Capitulo_00.html' },
                 { titulo: 'Capítulo 1 - Balística: Conceituação e Divisões', arquivo: 'Capitulo_01.html' },
-                { titulo: 'Capítulo 2.1 - Arma e Munição (Conceitos e Cartucho)', arquivo: 'Capitulo_02a.html' },
-                { titulo: 'Capítulo 2.2 - Classificação das Armas de Fogo', arquivo: 'Capitulo_02b.html' },
-                { titulo: 'Capítulo 2.3 - Calibre das Armas e Munição', arquivo: 'Capitulo_02c.html' },
-                { titulo: 'Capítulo 3 - Armas Curtas (Revólver e Pistola)', arquivo: 'Capitulo_03.html' },
-                { titulo: 'Capítulo 4 - Armas Longas (Rifle, Fuzil, Carabina, Espingarda)', arquivo: 'Capitulo_04.html' },
-                { titulo: 'Capítulo 5 - Exames em Armas de Fogo (Resíduos, Caracteres Suprimidos)', arquivo: 'Capitulo_05.html' },
-                { titulo: 'Capítulo 6 - Exames em Munição (Confronto Balístico, SINAB)', arquivo: 'Capitulo_06.html' },
-                { titulo: 'Anexos - Descrições e Soluções Reveladoras', arquivo: 'Capitulo_07_Anexos.html' }
+                { titulo: 'Capítulo 2 - Arma e Munição (Conceitos e Cartucho)', arquivo: 'Capitulo_02a.html' },
+                { titulo: 'Capítulo 3 - Classificação das Armas de Fogo', arquivo: 'Capitulo_02b.html' },
+                { titulo: 'Capítulo 4 - Calibre das Armas e Munição', arquivo: 'Capitulo_02c.html' },
+                { titulo: 'Capítulo 5 - Armas Curtas (Revólver e Pistola)', arquivo: 'Capitulo_03.html' },
+                { titulo: 'Capítulo 6 - Armas de Fogo Longas', arquivo: 'Capitulo_04.html' },
+                { titulo: 'Capítulo 7 - Exames em Armas de Fogo', arquivo: 'Capitulo_05.html' },
+                { titulo: 'Capítulo 8 - Exames em Munição (Confronto Balístico e SINAB)', arquivo: 'Capitulo_06.html' },
+                { titulo: 'Capítulo 9 - Anexos (Descrições e Soluções Reveladoras)', arquivo: 'Capitulo_07_Anexos.html' }
             ]
         },
         'pceb': {
@@ -3426,6 +3429,97 @@ document.addEventListener('DOMContentLoaded', () => {
         'informatica_forense': ['Informática Forense']
     };
 
+    // Tira acentos, pontuação e o prefixo de numeração ("Capítulo 2.2 -",
+    // "Cap. 3 -") para comparar o título do material com o conteúdo do banco.
+    function normalizarTituloCap(s) {
+        return String(s || '')
+            .replace(/^\s*(cap[íi]tulo|cap\.)\s*[\d.\-\/]*\s*[-–:]?\s*/i, '')
+            .normalize('NFD').replace(/[̀-ͯ]/g, '')
+            .toLowerCase()
+            .replace(/[^a-z0-9\s]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
+    const CAP_STOPWORDS = new Set(['de', 'da', 'do', 'das', 'dos', 'em', 'na', 'no', 'nas', 'nos',
+        'para', 'com', 'sobre', 'ao', 'aos', 'que', 'por', 'seus', 'suas']);
+
+    function tokensTituloCap(s) {
+        return new Set(normalizarTituloCap(s).split(' ')
+            .filter(t => t.length > 2 && !CAP_STOPWORDS.has(t)));
+    }
+
+    // Coeficiente de Dice entre os tokens dos dois títulos (0 a 1)
+    function similaridadeTituloCap(a, b) {
+        const A = tokensTituloCap(a), B = tokensTituloCap(b);
+        if (A.size === 0 || B.size === 0) return 0;
+        let comuns = 0;
+        A.forEach(t => { if (B.has(t)) comuns++; });
+        return (2 * comuns) / (A.size + B.size);
+    }
+
+    // Casa os capítulos do material com os conteúdos do banco por TÍTULO, não
+    // por número: a numeração do material nem sempre acompanha a das questões
+    // (ex.: "Capítulo 2.2" do material equivale ao "Cap. 3" do banco), e
+    // extrair dígitos do título pegava o capítulo errado — inclusive quando o
+    // número nem era de capítulo ("documentação 3D" virava "Cap. 3").
+    //
+    // A atribuição é global e disputada: monta todos os pares possíveis, ordena
+    // por similaridade e o melhor par leva o conteúdo. Assim dois capítulos
+    // nunca terminam com a mesma lista de questões, e sobras naturais (Prefácio,
+    // Introdução, Conclusão) simplesmente ficam sem questões.
+    const capConteudoCache = {};
+
+    function mapearCapitulosParaConteudos(discKey) {
+        if (capConteudoCache[discKey]) return capConteudoCache[discKey];
+
+        const discNames = materialToQuestoes[discKey] || [];
+        const caps = (materialData[discKey] && materialData[discKey].capitulos) || [];
+        const conteudos = [...new Set(
+            bancoQuestoes.filter(q => discNames.includes(q.disciplina) && q.conteudo).map(q => q.conteudo)
+        )];
+        const alvos = new Array(caps.length).fill(null);
+        if (conteudos.length === 0) return alvos; // banco ainda não carregou: não cacheia
+
+        const tituloDe = c => (typeof c === 'string' ? c : c.titulo);
+        const usados = new Set();
+
+        // 1) Vínculo declarado no próprio capítulo (campo `conteudo`) tem prioridade
+        caps.forEach((c, i) => {
+            const declarado = (c && c.conteudo && conteudos.includes(c.conteudo)) ? c.conteudo : null;
+            if (declarado && !usados.has(declarado)) { alvos[i] = declarado; usados.add(declarado); }
+        });
+
+        // 2) Pares (capítulo × conteúdo) ordenados por similaridade de título
+        const pares = [];
+        caps.forEach((c, i) => {
+            if (alvos[i]) return;
+            conteudos.forEach(cont => pares.push({ i, cont, s: similaridadeTituloCap(tituloDe(c), cont) }));
+        });
+        pares.sort((a, b) => b.s - a.s);
+
+        const atribuir = (limiar) => pares.forEach(p => {
+            if (alvos[p.i] || usados.has(p.cont) || p.s < limiar) return;
+            alvos[p.i] = p.cont;
+            usados.add(p.cont);
+        });
+        atribuir(0.5);  // casamentos claros primeiro
+        atribuir(0.3);  // depois o que sobrou, com folga (títulos reescritos)
+
+        // 3) Último recurso: número ancorado no início do título
+        caps.forEach((c, i) => {
+            if (alvos[i]) return;
+            const m = tituloDe(c).match(/^\s*(?:cap[íi]tulo|cap\.)\s*(\d+)\s*(?:[-–:]|$)/i);
+            if (!m) return;
+            const prefixo = `Cap. ${parseInt(m[1], 10)} -`;
+            const achado = conteudos.find(x => x.startsWith(prefixo) && !usados.has(x));
+            if (achado) { alvos[i] = achado; usados.add(achado); }
+        });
+
+        capConteudoCache[discKey] = alvos;
+        return alvos;
+    }
+
     // Busca questões que correspondem a uma disciplina de material + capítulo
     function buscarQuestoesDoCapitulo(discKey, capIndex) {
         const discNames = materialToQuestoes[discKey] || [];
@@ -3434,18 +3528,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const caps = materialData[discKey]?.capitulos;
         if (!caps || capIndex < 0 || capIndex >= caps.length) return [];
 
-        const capObj = caps[capIndex];
-        const capTitulo = typeof capObj === 'string' ? capObj : capObj.titulo;
-
-        // Extrai o número do capítulo do título
-        const capNumMatch = capTitulo.match(/(\d+)/);
-        const capNum = capNumMatch ? parseInt(capNumMatch[1]) : (capIndex + 1);
-
-        // Busca questões que são da mesma disciplina e cujo conteúdo menciona o mesmo número de capítulo
-        const capPrefix = `Cap. ${capNum} -`;
-        return bancoQuestoes.filter(q =>
-            discNames.includes(q.disciplina) && q.conteudo && q.conteudo.startsWith(capPrefix)
-        );
+        const alvo = mapearCapitulosParaConteudos(discKey)[capIndex];
+        if (!alvo) return [];
+        return bancoQuestoes.filter(q => discNames.includes(q.disciplina) && q.conteudo === alvo);
     }
 
     carregarMaterialEstudado();
