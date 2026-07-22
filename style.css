@@ -2678,6 +2678,39 @@ details[open] > .notes-summary::after {
     transition: transform 0.2s ease;
 }
 .modal-overlay.is-open .modal-content { transform: translateY(0); }
+
+/* Janela maximizada: ocupa quase toda a tela (o !important vence o
+   max-width inline de 860px do modal de estatísticas) */
+.modal-content.is-maximized {
+    max-width: 1400px !important;
+    width: 96vw;
+    max-height: 94vh;
+    height: 94vh;
+}
+
+.modal-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.modal-icon-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 4px;
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+}
+.modal-icon-btn:hover {
+    background: rgba(0,0,0,0.05);
+    color: var(--primary-color);
+}
+.modal-icon-btn i { font-size: 1.35rem; }
+html.dark-mode .modal-icon-btn:hover { background: rgba(255,255,255,0.08); }
+
 .modal-header {
     display: flex;
     align-items: center;

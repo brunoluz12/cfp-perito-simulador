@@ -1556,6 +1556,8 @@ function configurarEventos() {
     if (btnOpenStats) btnOpenStats.addEventListener('click', abrirModalEstatisticas);
     const btnCloseStats = document.getElementById('modal-estatisticas-close');
     if (btnCloseStats) btnCloseStats.addEventListener('click', fecharModalEstatisticas);
+    const btnMaxStats = document.getElementById('modal-estatisticas-max');
+    if (btnMaxStats) btnMaxStats.addEventListener('click', alternarMaximizarEstatisticas);
     const overlayStats = document.getElementById('modal-estatisticas');
     if (overlayStats) overlayStats.addEventListener('click', (e) => {
         if (e.target === overlayStats) fecharModalEstatisticas();
@@ -1627,6 +1629,17 @@ function abrirModalEstatisticas() {
     const modal = document.getElementById('modal-estatisticas');
     if (!modal) return;
     atualizarTelaDashboard(); // números sempre atualizados ao abrir
+    // Reabre no mesmo tamanho que o usuário deixou da última vez
+    let querMax = false;
+    try { querMax = localStorage.getItem('pcpr_stats_maximizado') === '1'; } catch (e) {}
+    const content = document.getElementById('modal-estatisticas-content');
+    const btn = document.getElementById('modal-estatisticas-max');
+    if (content) content.classList.toggle('is-maximized', querMax);
+    if (btn) {
+        btn.querySelector('i').className = querMax ? 'ph ph-corners-in' : 'ph ph-corners-out';
+        btn.setAttribute('aria-label', querMax ? 'Restaurar tamanho' : 'Maximizar janela');
+        btn.setAttribute('data-tooltip', querMax ? 'Restaurar' : 'Maximizar');
+    }
     modal.classList.add('is-open');
     modal.setAttribute('aria-hidden', 'false');
 }
@@ -1636,6 +1649,21 @@ function fecharModalEstatisticas() {
     if (!modal) return;
     modal.classList.remove('is-open');
     modal.setAttribute('aria-hidden', 'true');
+}
+
+// Alterna entre o tamanho normal e maximizado (quase tela cheia) do modal.
+// A preferência fica lembrada durante a sessão do navegador.
+function alternarMaximizarEstatisticas() {
+    const content = document.getElementById('modal-estatisticas-content');
+    const btn = document.getElementById('modal-estatisticas-max');
+    if (!content) return;
+    const maximizado = content.classList.toggle('is-maximized');
+    if (btn) {
+        btn.querySelector('i').className = maximizado ? 'ph ph-corners-in' : 'ph ph-corners-out';
+        btn.setAttribute('aria-label', maximizado ? 'Restaurar tamanho' : 'Maximizar janela');
+        btn.setAttribute('data-tooltip', maximizado ? 'Restaurar' : 'Maximizar');
+    }
+    try { localStorage.setItem('pcpr_stats_maximizado', maximizado ? '1' : '0'); } catch (e) {}
 }
 
 document.addEventListener('keydown', (e) => {

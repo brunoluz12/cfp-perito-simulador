@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=32">
+    <link rel="stylesheet" href="style.css?v=33">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -209,12 +209,17 @@
 
         <!-- MODAL: SEU DESEMPENHO (era um painel fixo no dashboard) -->
         <div id="modal-estatisticas" class="modal-overlay" aria-hidden="true">
-            <div class="modal-content glass-panel" style="max-width: 860px;">
+            <div class="modal-content glass-panel" id="modal-estatisticas-content" style="max-width: 860px;">
                 <div class="modal-header">
                     <h3><i class="ph ph-chart-bar"></i> Seu Desempenho</h3>
-                    <button type="button" class="modal-close" id="modal-estatisticas-close" aria-label="Fechar">
-                        <i class="ph ph-x"></i>
-                    </button>
+                    <div class="modal-header-actions">
+                        <button type="button" class="modal-icon-btn" id="modal-estatisticas-max" aria-label="Maximizar janela" data-tooltip="Maximizar">
+                            <i class="ph ph-corners-out"></i>
+                        </button>
+                        <button type="button" class="modal-close" id="modal-estatisticas-close" aria-label="Fechar">
+                            <i class="ph ph-x"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="modal-body history-panel">
                     <div class="stats-grid stats-grid-6">
@@ -940,7 +945,7 @@
     <script src="agenda_dados.js?v=13"></script>
     <script src="banco_questoes.js?v=169"></script>
     <script src="flashcards.js?v=2"></script>
-    <script src="app.js?v=76"></script>
+    <script src="app.js?v=77"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=1"></script>
     <script src="tts_material.js?v=4"></script>
