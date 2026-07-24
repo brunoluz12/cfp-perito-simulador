@@ -2428,15 +2428,28 @@ function proximaQuestao() {
 }
 
 // Salta para uma questão aleatória do caderno atual (atalho: tecla R), em vez de
-// seguir a ordem. Evita repetir a questão que já está na tela.
+// seguir a ordem. Sorteia apenas entre as que AINDA NÃO foram respondidas nesta
+// sessão — repetir uma questão já resolvida não ajuda em nada — e nunca repete a
+// que está na tela.
 function questaoAleatoria() {
-    const n = simuladoAtual.length;
-    if (n <= 1) { proximaQuestao(); return; }
-    let novo = questaoAtualIndex;
-    while (novo === questaoAtualIndex) {
-        novo = Math.floor(Math.random() * n);
+    const pendentes = [];
+    simuladoAtual.forEach((q, i) => {
+        if (i !== questaoAtualIndex && !q.foi_respondida_neste_simulado) pendentes.push(i);
+    });
+
+    if (pendentes.length === 0) {
+        // Nada pendente: ou o caderno acabou, ou só resta a questão atual
+        const atualPendente = simuladoAtual[questaoAtualIndex] &&
+            !simuladoAtual[questaoAtualIndex].foi_respondida_neste_simulado;
+        if (atualPendente) {
+            alert('Esta é a última questão que falta responder neste caderno.');
+        } else {
+            alert('Você já respondeu todas as questões deste caderno.\n\nUse "Ver Resultado" para encerrar ou "Refazer" no painel Meus Cadernos para começar outra rodada.');
+        }
+        return;
     }
-    questaoAtualIndex = novo;
+
+    questaoAtualIndex = pendentes[Math.floor(Math.random() * pendentes.length)];
     carregarQuestaoUI();
 }
 
