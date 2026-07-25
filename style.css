@@ -1714,6 +1714,32 @@ details[open] > .notes-summary::after {
     border-color: rgba(0,0,0,0.1);
 }
 
+/* Disciplina do curso 100% concluída: cor de destaque e vai para o fim da grade */
+.discipline-card.is-concluida {
+    background: var(--success-bg);
+    border-color: rgba(16, 185, 129, 0.35);
+}
+.discipline-card.is-concluida:hover {
+    background: rgba(16, 185, 129, 0.22);
+    border-color: rgba(16, 185, 129, 0.5);
+}
+.discipline-card.is-concluida .discipline-title {
+    color: #047857;
+}
+.discipline-card.is-concluida .discipline-title::after {
+    content: '\2713'; /* ✓ */
+    display: inline-block;
+    margin-left: 6px;
+    font-weight: 700;
+    color: var(--success-color);
+}
+.discipline-card.is-concluida .discipline-progress-fill {
+    background: var(--success-color);
+}
+html.dark-mode .discipline-card.is-concluida .discipline-title {
+    color: #6ee7b7;
+}
+
 .discipline-card-header {
     display: flex;
     justify-content: space-between;

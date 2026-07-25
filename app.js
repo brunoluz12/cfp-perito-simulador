@@ -2940,20 +2940,37 @@ function salvarProgressoCurso() {
     requestCloudSync();
 }
 
+// Uma disciplina do curso está concluída quando todas as suas aulas foram dadas
+function disciplinaCursoConcluida(disc) {
+    const prog = progressoCurso[disc.id] || [];
+    return prog.filter(p => p === true).length >= disc.aulas;
+}
+
 function renderizarGridControle() {
     const container = document.getElementById('disciplines-grid');
     if (!container) return;
     
     container.innerHTML = '';
-    
-    planoEducacional.forEach(disc => {
+
+    // Concluídas (todas as aulas dadas) vão para o fim; as demais ficam em cima,
+    // na ordem padrão (por carga horária). Partição estável: dentro de cada grupo
+    // a ordem original de planoEducacional é preservada.
+    const ordenadas = planoEducacional.slice().sort((a, b) => {
+        const fa = disciplinaCursoConcluida(a) ? 1 : 0;
+        const fb = disciplinaCursoConcluida(b) ? 1 : 0;
+        return fa - fb;
+    });
+
+    ordenadas.forEach(disc => {
         const card = document.createElement('div');
         card.className = 'discipline-card';
-        
+
         const progressoAtual = progressoCurso[disc.id] || new Array(disc.aulas).fill(false);
         const aulasDadas = progressoAtual.filter(p => p === true).length;
         const percent = Math.round((aulasDadas / disc.aulas) * 100);
-        
+
+        if (aulasDadas === disc.aulas) card.classList.add('is-concluida');
+
         card.innerHTML = `
             <div class="discipline-card-header">
                 <div class="discipline-title">${disc.nome}</div>
@@ -3001,10 +3018,15 @@ function alternarAula(discId, aulaIndex, boxElement) {
     }
     
     const arr = progressoCurso[discId];
-    
+    const discAtual = planoEducacional.find(d => d.id === discId);
+
+    // Estado de conclusão ANTES da mudança, para detectar quando a disciplina
+    // cruza a linha (completou ou deixou de estar completa) e precisar reordenar
+    const estavaConcluida = arr.filter(p => p === true).length >= discAtual.aulas;
+
     // Inverte o estado
     arr[aulaIndex] = !arr[aulaIndex];
-    
+
     // Atualiza interface
     if (arr[aulaIndex]) {
         boxElement.classList.add('checked');
@@ -3023,9 +3045,14 @@ function alternarAula(discId, aulaIndex, boxElement) {
     
     // Salva localmente
     salvarProgressoCurso();
-    
+
     // Atualiza barra global
     atualizarProgressoGeral();
+
+    // Se a disciplina completou (ou deixou de estar completa), reordena a grade
+    // para movê-la ao fim (ou de volta para cima) com a cor correspondente.
+    const agoraConcluida = aulasDadas >= discInfo.aulas;
+    if (agoraConcluida !== estavaConcluida) renderizarGridControle();
 }
 
 function atualizarProgressoGeral() {
