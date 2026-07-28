@@ -13,7 +13,7 @@ const ROOT = path.resolve(__dirname, '..', '..', '..');
 const BANK = path.join(ROOT, 'banco_questoes.js');
 const DIR = __dirname;
 const APPLY = process.argv.includes('--apply');
-const caps = process.argv.slice(2).filter(a => /^cap\d+$/.test(a));
+const caps = process.argv.slice(2).filter(a => /^cap[\d_]+$/.test(a));
 if (caps.length === 0) caps.push('cap06');
 
 const DISCIPLINA = 'PCEB - Balística Forense';

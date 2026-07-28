@@ -1,0 +1,86 @@
+[
+  {
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "enunciado": "Sobre a estrutura do cano do revólver e a peça que retém os cartuchos no tambor, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A parte posterior do cano possui o sistema de raias que confere rotação ao projétil, enquanto o cone de forçamento, situado na parte anterior, recebe o projétil já estabilizado vindo da câmara de combustão.",
+      "B": "O cone de forçamento fica na parte posterior do cano, recebe o projétil logo após a câmara, reduz-lhe o diâmetro e o conduz à parte anterior raiada; como as câmaras são abertas nos dois lados, o revólver não tem culatra, cabendo à placa de obturação reter os cartuchos.",
+      "C": "O revólver possui culatra na base de cada câmara do tambor, contra a qual se apoia o culote do cartucho no momento do disparo, sendo essa culatra a peça denominada placa de obturação.",
+      "D": "A armação do revólver é peça substituível que não recebe os elementos de identificação do fabricante, os quais são gravados no tambor, verdadeiro corpo da arma e única peça insubstituível do conjunto, classificando-se a armação em pequena, média e grande conforme o tamanho do cano."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 3.1, o cone de forçamento fica na parte posterior do cano, recebe o projétil após a câmara, diminui-lhe o diâmetro e o conduz à parte anterior raiada; como as câmaras do tambor são abertas nos dois lados, o revólver não tem culatra, e os cartuchos são retidos pela placa de obturação. A alternativa A inverte a posição do cone de forçamento e das raias. A C afirma que o revólver tem culatra, o que o texto nega. A D inverte armação e tambor: a armação é o corpo da arma, recebe os identificadores e é a peça insubstituível.",
+    "referencia": "PDF, Cap. 3, seção 3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "enunciado": "A respeito das particularidades notáveis do revólver conferidas por seu mecanismo de disparo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É a única arma em uso cujo cano possui câmara de combustão, operando-se em seu interior a deflagração dos cartuchos, e a única que se considera carregada quando há cartucho íntegro alinhado ao cano.",
+      "B": "É a única arma que não se considera carregada quando há um cartucho íntegro diretamente alinhado ao cano, pois o tambor sofre rotação previamente a cada disparo, alinhando nova câmara com o cano e o percussor.",
+      "C": "É a única arma cujo cano não possui câmara de combustão, e por isso está sempre carregada quando o tambor contém cartuchos, independentemente de haver ou não câmara alinhada ao cano naquele instante, o que a torna a mais perigosa das armas de porte quanto a disparos acidentais.",
+      "D": "Por operar a deflagração dentro do cano, o revólver dispensa o alinhamento prévio do tambor, girando este apenas após o disparo, para posicionar o estojo deflagrado diante da janela de extração."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 3.1, o revólver é a única arma que não se considera carregada quando há cartucho íntegro alinhado ao cano, pois o tambor gira previamente ao disparo, alinhando nova câmara com o cano e o percussor. A alternativa A inverte tudo: o cano do revólver não tem câmara e a deflagração ocorre fora dele. A C acerta que o cano não tem câmara, mas erra ao concluir que está sempre carregado, ignorando a rotação prévia. A D afirma deflagração dentro do cano e nega o alinhamento prévio, ambos contrários ao texto.",
+    "referencia": "PDF, Cap. 3, seção 3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "enunciado": "Sobre a classificação dos revólveres quanto à armação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na armação rígida a introdução e a extração dos cartuchos se fazem uma a uma por janela lateral, com vareta pela frente da câmara; esse tipo não é obsoleto e é usado em revólveres de grande calibre, nos quais o tambor reversível comprometeria a integridade estrutural.",
+      "B": "Na armação de junta (basculante) o tambor é montado em suporte que se projeta para fora da armação em um arco, extraindo a vareta os estojos de modo simultâneo, mas não automático, ao ser acionada pelo atirador.",
+      "C": "Na armação de tambor reversível o cano e o tambor articulam-se com a armação como peça única por uma charneira, de modo que o basculamento do conjunto aciona o extrator, retirando automaticamente todos os estojos.",
+      "D": "Na armação articulada há um extrator independente para cada câmara, com extração manual e sempre isolada de cada cartucho, sistema oposto ao da armação rígida, na qual a extração é automática e simultânea por acionamento único da vareta posicionada à frente do tambor e em seu eixo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 3.1.1.1, na armação rígida introduz-se e extrai-se um a um pela janela lateral (vareta pela frente da câmara), tipo não obsoleto e usado em revólveres de grande calibre, onde o tambor reversível comprometeria a estrutura. A alternativa B descreve o tambor reversível, não a armação de junta. A C descreve a armação de junta (basculante), não o tambor reversível. A D inverte tudo: a armação articulada tem extrator único para todas as câmaras (extração simultânea), e é a rígida que extrai uma a uma.",
+    "referencia": "PDF, Cap. 3, item 3.1.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "enunciado": "Quanto à percussão dos revólveres, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A percussão intrínseca radial é a que apresenta cápsula de espoletamento no centro da base do cartucho e constitui a grande maioria dos revólveres atuais, ao passo que a central se restringe ao calibre .22\".",
+      "B": "A percussão intrínseca perpendicular é a mais difundida atualmente, e a radial, representada pelos revólveres Lefaucheux, encontra-se obsoleta, tal como a percussão extrínseca.",
+      "C": "A percussão intrínseca central apresenta cápsula de espoletamento no centro da base e reúne a maioria dos revólveres atuais; a radial dispensa cápsula e restringe-se ao .22\"; a perpendicular, dos Lefaucheux, é obsoleta.",
+      "D": "Na percussão intrínseca direta o cão transfere a energia a um pino percussor flutuante alojado na armação, ao passo que na indireta o pino é usinado no próprio corpo do cão, que percute diretamente a espoleta, arranjo típico dos revólveres de armação articulada e tambor reversível."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 3.1.1.3, a percussão intrínseca central tem cápsula no centro da base e é a maioria dos revólveres; a radial dispensa cápsula e restringe-se ao .22\"; a perpendicular (Lefaucheux) é obsoleta. A alternativa A troca radial por central. A B chama a perpendicular de mais difundida e situa os Lefaucheux na radial, ambos erros. A D inverte direta e indireta: na direta o pino é ligado ao próprio cão, e na indireta o cão transfere a energia a um pino flutuante na armação.",
+    "referencia": "PDF, Cap. 3, item 3.1.1.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "enunciado": "Sobre a classificação das pistolas quanto ao funcionamento (culatra aferrolhada e desaferrolhada), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As pistolas de culatra desaferrolhada são de grande calibre e potência (9 mm, .40\" e .45\"), e o aferrolhamento tem por objetivo antecipar a abertura da culatra logo após a deflagração da carga de propelente, o que reduz a pressão no cano e suaviza a extração e a ejeção do estojo.",
+      "B": "Nas pistolas de culatra desaferrolhada, de menor calibre (.22\", .25\", .32\"), o que recua após a deflagração é apenas o estojo apoiado na culatra; as de culatra aferrolhada, de grande calibre, retardam a abertura da culatra até a completa expulsão do projétil.",
+      "C": "Nas pistolas de culatra aferrolhada, o aferrolhamento antecipa a abertura da culatra, o que eleva a pressão no cano e faz a extração e a ejeção ocorrerem com maior violência, aumentando a eficiência do tiro.",
+      "D": "As pistolas de culatra desaferrolhada subdividem-se em cano basculante e cano flutuante, e o desaferrolhamento se dá por tomada de gases ou por recuo do cano, artifícios próprios das armas de menor potência de calibres como o .22\", o .25\" e o .32\"."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 3.2.1.1, nas pistolas de culatra desaferrolhada (menor calibre: .22\", .25\", .32\") recua apenas o estojo apoiado na culatra; as de culatra aferrolhada (grande calibre) retardam a abertura da culatra até a completa expulsão do projétil, quando a pressão já é segura. A alternativa A troca desaferrolhada por aferrolhada e diz que o aferrolhamento antecipa a abertura (ele a retarda). A C afirma que o aferrolhamento antecipa a abertura, contrariando sua finalidade. A D atribui à desaferrolhada a montagem (basculante/flutuante) e o desaferrolhamento próprios da aferrolhada.",
+    "referencia": "PDF, Cap. 3, item 3.2.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "enunciado": "Sobre a classificação das pistolas quanto à percussão e os exemplos citados no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nas pistolas de percussão direta não há cão, pois o próprio pino percussor faz suas vezes, ficando armado sob tensão de mola e liberado ao pressionar-se o gatilho; a Glock é exemplo, em ação simples.",
+      "B": "Nas pistolas de percussão direta há um cão convencional que desfere pancada na parte posterior de um pino percussor inerte, mantido em retração por mola, como ocorre nas pistolas da marca Taurus, ao passo que a Glock, por ter cão, é o exemplo típico de percussão indireta.",
+      "C": "Nas pistolas de percussão indireta o pino percussor é usinado ou afixado ao próprio cão, dispensando peça flutuante, e a Walther P-99 é o exemplo típico, operando exclusivamente em ação dupla.",
+      "D": "A classificação das pistolas quanto à percussão em central ou radial independe do tipo de munição, decorrendo apenas do fato de o pino percussor ser fixo ao cão ou flutuante na armação da arma."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 3.2.1.3, na percussão direta não há cão — o próprio pino percussor o substitui, fica armado sob tensão de mola e é liberado pelo gatilho, como na Glock (percussão direta em ação simples). A alternativa B descreve a percussão indireta (cão que bate em pino inerte, como a Taurus). A C inverte o conceito de indireta e erra o exemplo, pois a Walther P-99 é de percussão direta, em ação simples ou dupla. A D erra: a classificação em central/radial decorre do tipo de munição, não do arranjo do pino percussor.",
+    "referencia": "PDF, Cap. 3, item 3.2.1.3",
+    "nivel": "dificil"
+  }
+]

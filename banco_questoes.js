@@ -39003,5 +39003,617 @@ const questoesDB = [
     "justificativa": "Pela seção 6.2, para a munição consumida nos testes eficazes registra-se que o material foi consumido, e mesmo os estojos desses disparos são descartados e não devolvidos, exceto os elementos coletados como padrões de arma para confronto balístico ou inserção e busca no BNPB, que devem ser registrados como novos materiais. A alternativa A afirma a devolução de tudo, o que contraria o texto. A C inverte o destino: os estojos comuns são descartados e os padrões, preservados. A D dispensa o registro fotográfico prévio, que é ainda mais importante justamente porque a munição deixa de existir após os exames.",
     "referencia": "PDF, Cap. 6, item 6.2",
     "nivel": "dificil"
+  },
+  {
+    "id": 2613,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da Balística Externa e das grandezas e alcances que lhe cabe estudar, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Estuda o projétil desde a saída do cano até sua parada final, analisando trajetória, velocidade e energia, e nela se incluem os estudos de alcance de tiro, alcance útil, alcance máximo e alcance com precisão.",
+      "B": "Estuda a estrutura, os mecanismos e o funcionamento da arma, bem como os fenômenos ocorridos desde a detonação da espoleta até o instante em que o projétil deixa a boca do cano da arma de fogo.",
+      "C": "Estuda os efeitos produzidos pelo projétil ao atingir o alvo, cabendo-lhe, quando o alvo é humano, o exame das lesões traumáticas em conjunto com a Medicina Legal do local.",
+      "D": "Estuda o movimento dos projéteis como parte da Mecânica, conceituando projétil como todo corpo que se desloca livre no espaço em virtude de um impulso recebido de origem externa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 1, a Balística Externa estuda o projétil da saída do cano até a parada final (trajetória, velocidade e energia) e inclui os estudos de alcance de tiro, útil, máximo e com precisão. A alternativa B descreve a Balística Interna (da espoleta até a saída do cano). A C descreve a Balística Terminal, e as lesões traumáticas no alvo humano cabem à Medicina Legal, não à Balística. A D define a Balística Geral (movimento dos projéteis na Mecânica), não a Externa.",
+    "referencia": "PDF, Cap. 1, seção 1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2614,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na Balística Terminal, quando o alvo do disparo é humano, a divisão de atribuições entre a Medicina Legal e a Balística se dá do seguinte modo:",
+    "alternativas": {
+      "A": "à Balística cabem os vestígios intrínsecos ao ser humano, como as lesões traumáticas, e à Medicina Legal os vestígios extrínsecos, como resíduos de pólvora e projéteis alojados.",
+      "B": "à Medicina Legal cabem os vestígios intrínsecos ao ser humano, as lesões traumáticas, e à Balística os vestígios extrínsecos ao ser humano, como os resíduos de pólvora e os projéteis.",
+      "C": "a ambas cabe, de forma concorrente, o estudo das lesões traumáticas e dos resíduos de pólvora, por serem vestígios de mesma natureza terminal produzidos pelo impacto do projétil.",
+      "D": "à Medicina Legal cabem tanto as lesões traumáticas quanto os resíduos de pólvora e projéteis, restando à Balística apenas o estudo da trajetória externa até o momento do impacto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 1, na Balística Terminal com alvo humano cabe à Medicina Legal o estudo dos vestígios intrínsecos (lesões traumáticas) e à Balística os extrínsecos (resíduos de pólvora e projéteis). A alternativa A inverte as atribuições. A C afirma competência concorrente sobre os mesmos vestígios, o que não corresponde à divisão do texto. A D atribui tudo à Medicina Legal e reduz a Balística à trajetória externa, confundindo-a com a Balística Externa.",
+    "referencia": "PDF, Cap. 1, seção 1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2615,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os principais campos de estudo da Balística Forense na Polícia Federal, assinale a alternativa que caracteriza corretamente o campo indicado.",
+    "alternativas": {
+      "A": "A identificação das armas de fogo, em sua modalidade imediata, é a que determina e compara os vestígios impressos pela arma nos elementos de munição por ela disparados, como os confrontos balísticos.",
+      "B": "A caracterização das armas de fogo é a que determina marca, modelo, procedência e número de série de armamentos cujos identificadores foram removidos ou adulterados, incluída a revelação de caracteres.",
+      "C": "A regeneração de elementos identificadores é a que determina marca, modelo, procedência e número de série de armamentos nos quais esses identificadores foram removidos ou adulterados, incluída a revelação de caracteres suprimidos.",
+      "D": "A verificação de eficiência é a que determina as características diferenciais dos diversos tipos de arma e seus mecanismos, permitindo classificar o armamento e verificar se foi adulterado quanto às características originais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 1.1, a regeneração de elementos identificadores determina marca, modelo, procedência e número de série de armas cujos identificadores foram removidos ou adulterados, incluída a revelação de caracteres. A alternativa A confunde as modalidades: comparar vestígios nos elementos de munição é a identificação mediata, não a imediata (esta determina as características do armamento). A B atribui à caracterização o que é próprio da regeneração. A D atribui à verificação de eficiência o que descreve a caracterização das armas.",
+    "referencia": "PDF, Cap. 1, seção 1.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2616,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a classificação geral das armas adotada no material, na qual a arma de fogo se enquadra, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A arma de fogo é uma arma de arremesso simples, pois expele projéteis substituíveis que constituem parte de sua munição, tal como ocorre com dardos, lanças e granadas de mão.",
+      "B": "A arma de fogo é uma arma imprópria, pois, embora não concebida originalmente como arma, pode eventualmente ser utilizada para arremessar projéteis à distância do atirador que a maneja.",
+      "C": "A arma de fogo é uma arma manual, apropriada ao combate corpo a corpo e que funciona como prolongamento do braço do atirador, distinguindo-se das armas de arremesso simples e complexas.",
+      "D": "A arma de fogo é uma arma de arremesso complexa, categoria das armas dotadas de um aparato lançador que arremessa projéteis substituíveis, na qual também se incluem catapultas, bestas e arcos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 2, a arma de fogo é arma de arremesso complexa: constituída de um aparato lançador por meio do qual se lançam projéteis substituíveis (parte da munição), categoria que inclui catapultas, bestas, arcos, revólveres e pistolas. A alternativa A a classifica como arremesso simples (lançada diretamente pela mão, como dardos e granadas). A C a trata como arma manual (combate corpo a corpo). A D a chama de imprópria, quando a arma de fogo é arma própria, concebida com essa finalidade.",
+    "referencia": "PDF, Cap. 2, seção 2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2617,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A definição de arma de fogo adotada no material exige a coexistência de três elementos essenciais. Sobre esses elementos e suas funções, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São o aparato arremessador, a carga de projeção e o projétil, e a ausência de qualquer deles descaracteriza a arma de fogo, restando um objeto quando muito contundente, mas não uma arma de fogo.",
+      "B": "São o aparato arremessador, a cápsula de espoletamento e o estojo, competindo ao estojo guiar o projétil e servir-lhe de conduto até que a expansão dos gases lhe imprima a velocidade de saída.",
+      "C": "São o cano, o sistema de percussão e a coronha, e a coexistência apenas do cano com a carga de projeção já basta para caracterizar tecnicamente o objeto como uma arma de fogo apta ao disparo.",
+      "D": "São o aparato arremessador, a carga de projeção e o projétil, cabendo ao aparato arremessador a produção de grande volume de gases destinado a imprimir velocidade ao projétil no interior do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.1, os elementos essenciais são o aparato arremessador (arma propriamente dita), a carga de projeção e o projétil, exigindo-se a coexistência dos três; faltando um, há um objeto talvez contundente, não uma arma de fogo. A alternativa B troca dois elementos (cápsula e estojo) e atribui ao estojo a função de guiar o projétil, que é do aparato arremessador. A C substitui os elementos e afirma bastar cano mais carga. A D nomeia os três corretamente, mas atribui ao aparato arremessador a função da carga de projeção (produzir os gases).",
+    "referencia": "PDF, Cap. 2, seção 2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2618,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a anatomia do estojo do cartucho de munição e a classificação segundo a borda do culote, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A boca do estojo é a extremidade posterior e espessa que aloja a cápsula de espoletamento e recebe a estampa da base, enquanto o culote é a parte anterior, na qual fica engastado o projétil da munição.",
+      "B": "A parte anterior do estojo é a boca, onde se engasta o projétil, e a posterior é o culote; quanto à borda, o culote pode ser saliente (rim, revólver), semissaliente (semi-rim) ou sem borda (rimless, pistola).",
+      "C": "O estojo é o elemento ativo do cartucho, pois participa da combustão da carga de projeção e é expelido pelo cano logo após o projétil, sendo classificado em rim, semi-rim e rimless conforme o calibre.",
+      "D": "Os estojos estrangulados, denominados garrafas, são próprios das munições de revólver de baixa potência, ao passo que os cilíndricos são reservados aos rifles de calibres 5,56 e 7,62 OTAN."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.2.1, a parte anterior do estojo é a boca (onde se engasta o projétil) e a posterior é o culote; quanto à borda, classifica-se em rim (saliente, revólver), semi-rim (semissaliente) e rimless (sem borda, pistola). A alternativa A inverte boca e culote. A B erra ao chamar o estojo de elemento ativo: ele é inerte, não participa da combustão nem é expelido. A D inverte os exemplos: garrafas (estrangulados) são de rifles de alta potência e pequeno calibre, como 5,56 e 7,62 OTAN.",
+    "referencia": "PDF, Cap. 2, seção 2.2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2619,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da cápsula de espoletamento, de sua estrutura interna e do sistema de fogo circular, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A bigorna é o pequeno recipiente metálico que aloja a mistura iniciadora, ao passo que os eventos são as três variedades de espoleta empregadas nos cartuchos de fogo central de uso mais difundido.",
+      "B": "Os cartuchos de fogo circular possuem cápsula de espoletamento montada no centro do culote, comunicando-se com o interior do estojo por orifícios denominados eventos, à semelhança do fogo central.",
+      "C": "Existem três tipos de espoletas conforme a estrutura interna — Boxer, Berdan e bateria —, e todas necessitam de uma bigorna, superfície rígida de impacto contra a qual a mistura é comprimida pelo percussor.",
+      "D": "A mistura iniciadora dispensa sensibilidade a choques mecânicos, pois sua deflagração decorre exclusivamente da variação de pressão gerada no interior do estojo no instante do disparo da arma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.2.2, há três tipos de espoleta (Boxer, Berdan e bateria) e todas necessitam de bigorna, superfície rígida de impacto contra a qual o percussor comprime a mistura. A alternativa B erra: o fogo circular não tem cápsula diferenciada — a escorva fica na borda oca do próprio estojo. A C confunde os conceitos: a bigorna é a superfície de impacto (não o recipiente), e os eventos são orifícios de comunicação (não tipos de espoleta). A D contraria o texto, que aponta a sensibilidade a choques mecânicos como característica principal da mistura.",
+    "referencia": "PDF, Cap. 2, seção 2.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2620,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a carga de projeção do cartucho moderno e a distinção entre pólvoras vivas e progressivas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Pólvora de base simples é a constituída de nitrocelulose e nitroglicerina, e a de base dupla, apenas de nitrocelulose, sendo a geometria dos grãos irrelevante para a velocidade de queima, que depende unicamente da pressão atingida no interior da câmara de combustão.",
+      "B": "A carga de projeção necessita captar oxigênio do ar para produzir os gases de expansão, motivo pelo qual a pólvora negra foi substituída pelas pólvoras químicas, mais eficientes na captação atmosférica.",
+      "C": "As pólvoras progressivas equipam as armas curtas e queimam rapidamente, ao passo que as vivas equipam as armas longas e queimam lentamente, aproveitando o maior comprimento do cano dessas armas.",
+      "D": "As pólvoras vivas, usadas em armas curtas, queimam de forma mais intensa e rápida, pois o cano curto oferece menos tempo para conferir a máxima velocidade ao projétil; as progressivas, das armas longas, queimam mais lentamente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 2.2.3, as pólvoras vivas (armas curtas) queimam de forma mais intensa e rápida, pois o cano curto dá menos tempo para conferir velocidade máxima ao projétil, e as progressivas (armas longas) queimam mais lentamente. A alternativa A inverte base simples e dupla e nega o papel da geometria dos grãos. A C troca vivas por progressivas. A D erra: o propelente produz gases sem necessitar de oxigênio, e a pólvora negra foi substituída por ineficiência de combustão e fumaça, não por captação atmosférica.",
+    "referencia": "PDF, Cap. 2, seção 2.2.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2621,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os projéteis semiencamisados e encamisados e a função do encamisamento, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O encamisamento, geralmente de latão ou liga de alto ponto de fusão, impede o derretimento do projétil no cano de armas de maior poder de fogo e previne o chumbamento; semiencamisados são usados em revólveres e os totalmente encamisados em pistolas.",
+      "B": "Os projéteis semiencamisados são constituídos apenas de liga de chumbo, sem qualquer núcleo, ao passo que os encamisados dispensam o núcleo por serem inteiramente confeccionados em latão de alto ponto de fusão, o que os torna próprios dos revólveres de menor poder de fogo.",
+      "C": "O encamisamento tem por função aumentar o derretimento do núcleo de chumbo no interior do cano das armas de maior poder de fogo e favorecer o depósito de chumbo metálico nos cavados do cano.",
+      "D": "Os projéteis expansivos de desenho especial, como hydra-shok e silvertip, são empregados preferencialmente em revólveres, com o objetivo de reduzir a transferência de energia ao alvo humano em combate."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.2.4, o encamisamento (latão ou liga de alto ponto de fusão) impede o derretimento do projétil no cano de armas de maior poder de fogo e previne o chumbamento; semiencamisados são usados em revólveres e os totalmente encamisados em pistolas. A alternativa A inverte a função (o encamisamento evita o derretimento e o chumbamento). A B erra: semiencamisados têm núcleo de chumbo com encamisamento parcial. A D inverte a arma (expansivos são usados em pistolas) e o objetivo (transferir o máximo de energia ao alvo).",
+    "referencia": "PDF, Cap. 2, seção 2.2.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2622,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da anatomia e da nomenclatura dos projéteis de liga de chumbo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São compostos apenas de chumbo puro, têm base sempre plana e corpo desprovido de ranhuras, e sua ogiva se limita às formas ogival (OG) e ponta oca (PO), sem previsão de canto vivo ou cone truncado.",
+      "B": "São compostos de misturas de chumbo com estanho, antimônio e arsênio, apresentam base côncava ou plana, corpo cilíndrico com ranhuras de lubrificação e parte frontal ogival, e a ogiva admite formas como OG, OGPP, PO, CT, CV e SCV.",
+      "C": "As ranhuras do corpo do projétil de chumbo destinam-se a receber o encamisamento de latão, e a base côncava tem por função alojar a cápsula de espoletamento durante o disparo, tal como ocorre nos projéteis semiencamisados empregados nas pistolas de maior poder de fogo.",
+      "D": "A nomenclatura OGPP designa o projétil de ponta oca, a CT designa o de canto vivo e a SCV designa o cone truncado, formas todas exclusivas dos projéteis totalmente encamisados de uso em pistolas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.2.4, os projéteis de liga de chumbo combinam chumbo com estanho, antimônio e arsênio, têm base côncava ou plana, corpo cilíndrico com ranhuras (anéis) de lubrificação e frente ogival, admitindo formas OG, OGPP, PO, CT, CV e SCV. A alternativa B erra na composição (não é chumbo puro), na base e no rol de formas. A C atribui às ranhuras e à base funções que não têm (lubrificação é a função das ranhuras). A D troca as siglas (OGPP é ogival de ponta plana, CT é cone truncado, SCV é semicanto vivo) e restringe-as indevidamente aos encamisados.",
+    "referencia": "PDF, Cap. 2, seção 2.2.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2623,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a estrutura do cano do revólver e a peça que retém os cartuchos no tambor, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A parte posterior do cano possui o sistema de raias que confere rotação ao projétil, enquanto o cone de forçamento, situado na parte anterior, recebe o projétil já estabilizado vindo da câmara de combustão.",
+      "B": "O revólver possui culatra na base de cada câmara do tambor, contra a qual se apoia o culote do cartucho no momento do disparo, sendo essa culatra a peça denominada placa de obturação.",
+      "C": "O cone de forçamento fica na parte posterior do cano, recebe o projétil logo após a câmara, reduz-lhe o diâmetro e o conduz à parte anterior raiada; como as câmaras são abertas nos dois lados, o revólver não tem culatra, cabendo à placa de obturação reter os cartuchos.",
+      "D": "A armação do revólver é peça substituível que não recebe os elementos de identificação do fabricante, os quais são gravados no tambor, verdadeiro corpo da arma e única peça insubstituível do conjunto, classificando-se a armação em pequena, média e grande conforme o tamanho do cano."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 3.1, o cone de forçamento fica na parte posterior do cano, recebe o projétil após a câmara, diminui-lhe o diâmetro e o conduz à parte anterior raiada; como as câmaras do tambor são abertas nos dois lados, o revólver não tem culatra, e os cartuchos são retidos pela placa de obturação. A alternativa A inverte a posição do cone de forçamento e das raias. A C afirma que o revólver tem culatra, o que o texto nega. A D inverte armação e tambor: a armação é o corpo da arma, recebe os identificadores e é a peça insubstituível.",
+    "referencia": "PDF, Cap. 3, seção 3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2624,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das particularidades notáveis do revólver conferidas por seu mecanismo de disparo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É a única arma em uso cujo cano possui câmara de combustão, operando-se em seu interior a deflagração dos cartuchos, e a única que se considera carregada quando há cartucho íntegro alinhado ao cano.",
+      "B": "Por operar a deflagração dentro do cano, o revólver dispensa o alinhamento prévio do tambor, girando este apenas após o disparo, para posicionar o estojo deflagrado diante da janela de extração.",
+      "C": "É a única arma cujo cano não possui câmara de combustão, e por isso está sempre carregada quando o tambor contém cartuchos, independentemente de haver ou não câmara alinhada ao cano naquele instante, o que a torna a mais perigosa das armas de porte quanto a disparos acidentais.",
+      "D": "É a única arma que não se considera carregada quando há um cartucho íntegro diretamente alinhado ao cano, pois o tambor sofre rotação previamente a cada disparo, alinhando nova câmara com o cano e o percussor."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 3.1, o revólver é a única arma que não se considera carregada quando há cartucho íntegro alinhado ao cano, pois o tambor gira previamente ao disparo, alinhando nova câmara com o cano e o percussor. A alternativa A inverte tudo: o cano do revólver não tem câmara e a deflagração ocorre fora dele. A C acerta que o cano não tem câmara, mas erra ao concluir que está sempre carregado, ignorando a rotação prévia. A D afirma deflagração dentro do cano e nega o alinhamento prévio, ambos contrários ao texto.",
+    "referencia": "PDF, Cap. 3, seção 3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2625,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação dos revólveres quanto à armação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na armação rígida a introdução e a extração dos cartuchos se fazem uma a uma por janela lateral, com vareta pela frente da câmara; esse tipo não é obsoleto e é usado em revólveres de grande calibre, nos quais o tambor reversível comprometeria a integridade estrutural.",
+      "B": "Na armação de junta (basculante) o tambor é montado em suporte que se projeta para fora da armação em um arco, extraindo a vareta os estojos de modo simultâneo, mas não automático, ao ser acionada pelo atirador.",
+      "C": "Na armação de tambor reversível o cano e o tambor articulam-se com a armação como peça única por uma charneira, de modo que o basculamento do conjunto aciona o extrator, retirando automaticamente todos os estojos.",
+      "D": "Na armação articulada há um extrator independente para cada câmara, com extração manual e sempre isolada de cada cartucho, sistema oposto ao da armação rígida, na qual a extração é automática e simultânea por acionamento único da vareta posicionada à frente do tambor e em seu eixo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 3.1.1.1, na armação rígida introduz-se e extrai-se um a um pela janela lateral (vareta pela frente da câmara), tipo não obsoleto e usado em revólveres de grande calibre, onde o tambor reversível comprometeria a estrutura. A alternativa B descreve o tambor reversível, não a armação de junta. A C descreve a armação de junta (basculante), não o tambor reversível. A D inverte tudo: a armação articulada tem extrator único para todas as câmaras (extração simultânea), e é a rígida que extrai uma a uma.",
+    "referencia": "PDF, Cap. 3, item 3.1.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2626,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à percussão dos revólveres, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A percussão intrínseca radial é a que apresenta cápsula de espoletamento no centro da base do cartucho e constitui a grande maioria dos revólveres atuais, ao passo que a central se restringe ao calibre .22\".",
+      "B": "A percussão intrínseca central apresenta cápsula de espoletamento no centro da base e reúne a maioria dos revólveres atuais; a radial dispensa cápsula e restringe-se ao .22\"; a perpendicular, dos Lefaucheux, é obsoleta.",
+      "C": "A percussão intrínseca perpendicular é a mais difundida atualmente, e a radial, representada pelos revólveres Lefaucheux, encontra-se obsoleta, tal como a percussão extrínseca.",
+      "D": "Na percussão intrínseca direta o cão transfere a energia a um pino percussor flutuante alojado na armação, ao passo que na indireta o pino é usinado no próprio corpo do cão, que percute diretamente a espoleta, arranjo típico dos revólveres de armação articulada e tambor reversível."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 3.1.1.3, a percussão intrínseca central tem cápsula no centro da base e é a maioria dos revólveres; a radial dispensa cápsula e restringe-se ao .22\"; a perpendicular (Lefaucheux) é obsoleta. A alternativa A troca radial por central. A B chama a perpendicular de mais difundida e situa os Lefaucheux na radial, ambos erros. A D inverte direta e indireta: na direta o pino é ligado ao próprio cão, e na indireta o cão transfere a energia a um pino flutuante na armação.",
+    "referencia": "PDF, Cap. 3, item 3.1.1.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2627,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das pistolas quanto ao funcionamento (culatra aferrolhada e desaferrolhada), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As pistolas de culatra desaferrolhada são de grande calibre e potência (9 mm, .40\" e .45\"), e o aferrolhamento tem por objetivo antecipar a abertura da culatra logo após a deflagração da carga de propelente, o que reduz a pressão no cano e suaviza a extração e a ejeção do estojo.",
+      "B": "Nas pistolas de culatra aferrolhada, o aferrolhamento antecipa a abertura da culatra, o que eleva a pressão no cano e faz a extração e a ejeção ocorrerem com maior violência, aumentando a eficiência do tiro.",
+      "C": "Nas pistolas de culatra desaferrolhada, de menor calibre (.22\", .25\", .32\"), o que recua após a deflagração é apenas o estojo apoiado na culatra; as de culatra aferrolhada, de grande calibre, retardam a abertura da culatra até a completa expulsão do projétil.",
+      "D": "As pistolas de culatra desaferrolhada subdividem-se em cano basculante e cano flutuante, e o desaferrolhamento se dá por tomada de gases ou por recuo do cano, artifícios próprios das armas de menor potência de calibres como o .22\", o .25\" e o .32\"."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 3.2.1.1, nas pistolas de culatra desaferrolhada (menor calibre: .22\", .25\", .32\") recua apenas o estojo apoiado na culatra; as de culatra aferrolhada (grande calibre) retardam a abertura da culatra até a completa expulsão do projétil, quando a pressão já é segura. A alternativa A troca desaferrolhada por aferrolhada e diz que o aferrolhamento antecipa a abertura (ele a retarda). A C afirma que o aferrolhamento antecipa a abertura, contrariando sua finalidade. A D atribui à desaferrolhada a montagem (basculante/flutuante) e o desaferrolhamento próprios da aferrolhada.",
+    "referencia": "PDF, Cap. 3, item 3.2.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2628,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 3 - Armas Curtas (Revólver e Pistola)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das pistolas quanto à percussão e os exemplos citados no material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A classificação das pistolas quanto à percussão em central ou radial independe do tipo de munição, decorrendo apenas do fato de o pino percussor ser fixo ao cão ou flutuante na armação da arma.",
+      "B": "Nas pistolas de percussão direta há um cão convencional que desfere pancada na parte posterior de um pino percussor inerte, mantido em retração por mola, como ocorre nas pistolas da marca Taurus, ao passo que a Glock, por ter cão, é o exemplo típico de percussão indireta.",
+      "C": "Nas pistolas de percussão indireta o pino percussor é usinado ou afixado ao próprio cão, dispensando peça flutuante, e a Walther P-99 é o exemplo típico, operando exclusivamente em ação dupla.",
+      "D": "Nas pistolas de percussão direta não há cão, pois o próprio pino percussor faz suas vezes, ficando armado sob tensão de mola e liberado ao pressionar-se o gatilho; a Glock é exemplo, em ação simples."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 3.2.1.3, na percussão direta não há cão — o próprio pino percussor o substitui, fica armado sob tensão de mola e é liberado pelo gatilho, como na Glock (percussão direta em ação simples). A alternativa B descreve a percussão indireta (cão que bate em pino inerte, como a Taurus). A C inverte o conceito de indireta e erra o exemplo, pois a Walther P-99 é de percussão direta, em ação simples ou dupla. A D erra: a classificação em central/radial decorre do tipo de munição, não do arranjo do pino percussor.",
+    "referencia": "PDF, Cap. 3, item 3.2.1.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2629,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a carabina e seus sistemas de alimentação, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A carabina tem cano de alma raiada de menor comprimento que o rifle; alimenta-se pelo sistema de bomba (pump), restrito às variações do .22\", ou por alavanca (lever action), que usa fogo central, incluindo calibres potentes como o .44\" Magnum.",
+      "B": "A carabina distingue-se do rifle e do fuzil por apresentar cano de alma lisa e maior comprimento, sendo alimentada exclusivamente pelo sistema de bomba, restrito às variações do calibre .22\".",
+      "C": "A carabina alimentada por alavanca (lever action) restringe-se às variações do calibre .22\" e emprega munição de fogo circular, ao passo que a alimentada por bomba admite calibres de alta potência de fogo central, tal como a .44\" Magnum característica dos filmes de faroeste.",
+      "D": "Por definição estrita de repetição, nenhum fabricante denomina carabina uma arma semiautomática, ainda que possua cano raiado de comprimento reduzido, como ocorre com a carabina Taurus CT-40."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 4.3, a carabina tem cano de alma raiada de menor comprimento que o rifle; alimenta-se por bomba (pump), restrita ao .22\", ou por alavanca (lever action), que usa fogo central e inclui calibres potentes como o .44\" Magnum. A alternativa A erra a alma (é raiada, não lisa) e o comprimento (menor). A C troca bomba e alavanca. A D contraria o texto, que registra fabricantes denominando carabina até armas semiautomáticas de cano raiado reduzido, como a Taurus CT-40.",
+    "referencia": "PDF, Cap. 4, seção 4.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2630,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do mosquetão e de sua distinção frente às demais armas longas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É arma longa de tiro unitário, de alma lisa, que difere da carabina por não possuir depósito nem ferrolho, efetuando a extração dos estojos exclusivamente por basculamento do conjunto cano-tambor.",
+      "B": "É arma longa de repetição, de alma raiada e calibres de alta energia, dotada de carregador denominado depósito no interior da coronha e de ferrolho com alavanca para extrair estojos e realimentar a arma.",
+      "C": "É arma de porte de repetição cujo pino percussor fica alojado na armação, e não no ferrolho, sendo sempre armado apenas no momento da realimentação da câmara de combustão com cartucho íntegro.",
+      "D": "Distingue-se do rifle por dispensar carregador, sendo os cartuchos inseridos um a um diretamente na câmara, o que o classifica como arma de tiro unitário múltiplo de calibres de baixa energia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 4.4, o mosquetão é arma longa de repetição, de alma raiada e calibres de alta energia, com carregador chamado depósito na coronha e ferrolho de alavanca para extrair estojos e realimentar. A alternativa B o trata como tiro unitário de alma lisa sem depósito nem ferrolho, o que contraria o texto. A C erra o alojamento do pino percussor (fica no ferrolho) e a regra de armação (pode ser armado na extração ou na realimentação). A D nega o carregador e o classifica como tiro unitário, quando é arma de repetição com depósito.",
+    "referencia": "PDF, Cap. 4, seção 4.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2631,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o cartucho e o estojo de munição para espingarda, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O objeto diretamente impelido pela deflagração da carga é o próprio projétil, tal como nas armas de alma raiada, sendo a bucha apenas um disco decorativo sem função no interior do estojo da espingarda.",
+      "B": "O estojo da espingarda é inteiramente metálico e cilíndrico, à semelhança do estojo das armas raiadas, diferindo apenas pelo fechamento frontal em estrela, destinado a reter os balins em seu interior.",
+      "C": "O que a deflagração impele é uma bucha, de plástico ou papelão, que empurra os projéteis para fora do cano; o estojo tem base metálica (geralmente latão) e corpo de papelão ou plástico, com fechamento frontal em estrela ou por disco.",
+      "D": "A carga de projeção e a cápsula de espoletamento do cartucho de espingarda diferem substancialmente das empregadas nas armas de alma raiada, sendo essa a principal distinção entre os dois tipos de munição, ao passo que os estojos e projéteis são de estrutura praticamente idêntica nos dois casos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 4.5.1 e 4.5.2, na espingarda a deflagração impele uma bucha (plástico ou papelão) que empurra os projéteis para fora do cano; o estojo tem base metálica (geralmente latão) e corpo de papelão ou plástico, fechado à frente por disco ou em fechamento estrela. A alternativa A erra ao dizer que o projétil é impelido diretamente e ao esvaziar a função da bucha. A B afirma estojo inteiramente metálico, o que não é o caso. A D erra: cápsula e carga de projeção não apresentam grande diferença; o que difere são estojo e projéteis.",
+    "referencia": "PDF, Cap. 4, itens 4.5.1 e 4.5.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2632,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do calibre real e do estrangulamento (choke) em armas de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O calibre real deve ser tomado na câmara de combustão, que é a porção de diâmetro mais estável do cano, sendo o choke uma característica exclusiva dos canos de alma raiada das espingardas do tipo Slug Gun.",
+      "B": "O calibre real é medido na boca do cano, onde se localiza o choke; este é uma ampliação do diâmetro da boca, cuja função é dispersar os balins mais rapidamente, aumentando a área atingida pelo tiro.",
+      "C": "O choke Improved Modified equivale à metade do choke Full, e o Modified a três quartos do Full; na Europa, três asteriscos indicam choke Full e um asterisco indica choke Improved Cylinder.",
+      "D": "O calibre real é medido na porção mediana do cano, e não na câmara nem na boca; o choke é uma redução do diâmetro da boca que agrupa os balins, melhorando a precisão, sendo Full o pleno e Cylinder o sem choke."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 4.5.4, o calibre real da alma lisa é medido na porção mediana do cano (não na câmara nem na boca, por causa do choke); o choke reduz o diâmetro da boca e agrupa os balins, melhorando a precisão, sendo Full o pleno e Cylinder o sem choke. A alternativa B inverte a função do choke (é redução, não ampliação) e o local de medição. A C troca as proporções (IM = 3/4, M = 1/2) e a indicação europeia (um asterisco = Full, três = Improved Cylinder). A D erra o local (câmara) e restringe o choke à alma raiada.",
+    "referencia": "PDF, Cap. 4, item 4.5.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2633,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o critério de definição do calibre nominal em armas de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Corresponde ao número de esferas de chumbo, de diâmetro igual ao do cano, que se poderiam produzir a partir de uma libra (453,6 g) de chumbo; assim, no calibre 12, doze esferas equivalem a uma libra, e quanto maior o número menor o diâmetro do cano.",
+      "B": "Corresponde ao diâmetro interno do cano expresso em milímetros, de modo que o calibre 12 indica cano de 12 mm e o calibre 20, cano de 20 mm, numa relação diretamente proporcional entre número e diâmetro.",
+      "C": "Corresponde ao número de esferas de chumbo obtidas de uma libra de chumbo, sendo o calibre diretamente proporcional ao diâmetro do cano, de forma que o calibre 36 possui cano mais largo que o calibre 12, cujo calibre real seria, por isso, o menor de toda a tabela.",
+      "D": "Corresponde ao peso, em gramas, de uma única esfera de chumbo de diâmetro igual ao do cano, razão pela qual o calibre 12 designa uma esfera de doze gramas alojada na boca do cano da espingarda."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 4.5.5, o calibre nominal da alma lisa é o número de esferas de chumbo (de diâmetro igual ao do cano) que se produziriam de uma libra (453,6 g); no calibre 12, doze esferas equivalem a uma libra, e quanto maior o número, menor o diâmetro do cano (calibre 12 = 18,5 mm; 36 = 10,2 mm). A alternativa B confunde com medida direta em milímetros. A C inverte a relação (o número é inversamente proporcional ao diâmetro). A D define o critério como peso de uma única esfera, o que não corresponde ao texto.",
+    "referencia": "PDF, Cap. 4, item 4.5.5",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2634,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de crime com disparo de espingarda, os balins recolhidos poderiam, à primeira vista, ter sido disparados por armas de vários calibres. Sobre o elemento que auxilia a indicar o calibre nominal empregado, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O próprio balim, cujo diâmetro individual corresponde de forma unívoca ao calibre nominal da espingarda, dispensando a coleta de qualquer outro elemento de munição para essa determinação pericial.",
+      "B": "A bucha, peça geralmente única cujo diâmetro de seção reta é similar ao diâmetro do cano (ou seja, ao calibre real), o que torna sua busca e coleta elemento fundamental para indicar o calibre nominal da espingarda.",
+      "C": "O disco de fechamento estrela do estojo, cujo diâmetro externo equivale ao calibre real do cano e permite, isoladamente, precisar tanto o calibre nominal quanto a distância do disparo efetuado.",
+      "D": "A cápsula de espoletamento, cuja dimensão varia conforme o calibre nominal da espingarda, sendo, por isso, o elemento de coleta prioritária para a determinação do calibre em locais de disparo de alma lisa."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 4.5.5, a bucha é peça geralmente única com diâmetro de seção reta similar ao do cano (ou seja, ao calibre real), razão pela qual sua busca e coleta é elemento fundamental para indicar o calibre nominal da espingarda. A alternativa B erra: como o mesmo balim pode ter sido disparado por espingardas de vários calibres, ele não é unívoco. A C atribui ao fechamento estrela função que ele não tem. A D elege a cápsula de espoletamento, que não guarda essa relação com o calibre da alma lisa.",
+    "referencia": "PDF, Cap. 4, item 4.5.5",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2635,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os cuidados com a arma de fogo questionada antes do encaminhamento à Balística Forense, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O exame de Balística Forense precede eventuais exames papiloscópicos, de DNA ou de microvestígios, os quais só devem ser realizados após a caracterização balística da arma questionada.",
+      "B": "A arma deve ser encaminhada municiada e destravada, para que o perito verifique a alimentação com a própria munição encontrada, sendo dispensável a etiqueta de advertência quando o cano estiver desobstruído.",
+      "C": "Havendo necessidade de exames papiloscópicos, de DNA ou de microvestígios, estes precedem o encaminhamento à Balística; a arma deve ser desmuniciada e travada, e, não sendo possível torná-la segura, aponha-se etiqueta visível de \"PERIGO: ARMA QUENTE\".",
+      "D": "A munição encontrada com a arma deve ser descartada no local, sem acompanhar o armamento, e a retirada do pente carregador e dos cartuchos das câmaras só se faz após a chegada do material ao laboratório de Balística Forense, pelo próprio perito examinador."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 5.1, se houver necessidade de exames papiloscópicos, de DNA ou de microvestígios, estes precedem o encaminhamento à Balística; a arma deve ser desmuniciada e travada e, não sendo possível torná-la segura, recebe etiqueta visível de \"PERIGO: ARMA QUENTE\". A alternativa A inverte a ordem dos exames. A C manda encaminhar municiada e destravada e dispensa a etiqueta, contrariando a segurança. A D determina descartar a munição, quando o recomendado é acondicioná-la em embalagem primária junto à arma no mesmo envelope.",
+    "referencia": "PDF, Cap. 5, seção 5.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2636,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a caracterização imediata (direta) da arma de fogo e o registro do material de construção, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A descrição inicia-se pelas características individuais e caminha para as genéricas; o cano é medido sem incluir o cone de forçamento, e o material só é discriminado por parte quando a arma é feita de um único material.",
+      "B": "No sistema de percussão, basta indicar se é central ou radial, sendo dispensável consignar se é direta ou indireta ou, na percussão direta, se o percussor é fixo ou articulado, por serem dados irrelevantes ao laudo.",
+      "C": "Quando a arma é feita de um único material, deve-se ainda assim discriminar o material de cada parte separadamente, ao passo que, sendo de materiais distintos, basta indicar um material geral para todo o conjunto, dispensando-se o registro fotográfico individual de cada elemento descrito.",
+      "D": "A descrição inicia-se pelas características genéricas e avança para as individuais; mede-se o cano incluindo o cone de forçamento nos revólveres e a câmara nas pistolas e armas longas; o material é indicado por parte (ex.: Glock com cano em aço e armação polimérica)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 5.2, a descrição vai do genérico ao individual; o cano é medido incluindo o cone de forçamento nos revólveres e a câmara nas pistolas e armas longas; o material é indicado por parte (ex.: Glock, cano em aço e armação polimérica), bastando um material geral quando a arma é de um só material (ex.: Imbel). A alternativa A inverte a ordem e a regra de medição e do material. A C inverte a regra do material (discriminar por parte é para materiais distintos). A D dispensa dados que o texto exige (direta/indireta e percussor fixo/articulado).",
+    "referencia": "PDF, Cap. 5, seção 5.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2637,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a revelação de caracteres suprimidos e as situações em que o procedimento é infrutífero, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A revelação apoia-se na cunhagem a frio, que altera a estrutura metálica sob os caracteres; protege-se a arma com graxa por causa dos ácidos voláteis dos reveladores, e o método é infrutífero na impressão a laser ou em adulteração muito profunda.",
+      "B": "A revelação é possível justamente quando os caracteres foram gravados por impressão a laser, pois esta preserva melhor os vestígios latentes do que a cunhagem a frio, dispensando qualquer proteção da arma.",
+      "C": "Antes de aplicar o revelador, dispensa-se proteger as demais partes da arma, pois os reagentes empregados são quimicamente inertes e não corroem as superfícies metálicas não polidas do armamento.",
+      "D": "Sendo a adulteração muito profunda, o método torna-se ainda mais eficaz, porque a maior remoção de metal expõe diretamente os vestígios latentes, permitindo a revelação completa dos caracteres, mesmo quando a gravação original tiver sido feita por impressão a laser."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 5.3 e 5.3.1, a técnica apoia-se na cunhagem a frio (que altera a estrutura metálica sob os caracteres); protege-se a arma com graxa por causa dos ácidos voláteis dos reveladores; e o método é infrutífero na impressão a laser ou em adulteração muito profunda. A alternativa B inverte tudo (a impressão a laser inviabiliza a revelação). A C nega a necessidade de proteção, afirmando reagentes inertes, o que contraria o texto. A D erra: adulteração profunda destrói os vestígios latentes, tornando a revelação inviável.",
+    "referencia": "PDF, Cap. 5, itens 5.3 e 5.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2638,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o exame de eficiência de arma de fogo e o conceito de defeito de funcionamento, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Considera-se defeito de funcionamento qualquer incidente que interrompa o tiro ou a cadência de tiros, incluídos os problemas atribuíveis à munição, não se exigindo do perito distinguir se o defeito é reprodutível ou esporádico.",
+      "B": "Devem ser testados alimentação, percussão, extração e ejeção, verificando a ciclagem; é defeito de funcionamento o incidente que interrompa o tiro ou a cadência, exceto problemas com a munição, cabendo determinar se o defeito é reprodutível ou esporádico.",
+      "C": "Constatado defeito, o perito deve abster-se de afirmar se a arma ainda poderia efetuar disparos, pois qualquer defeito de funcionamento descaracteriza por completo a arma como apta a produzir tiro, ainda que se trate de falha meramente esporádica e não reprodutível nos testes.",
+      "D": "Havendo dúvida sobre a integridade da arma no disparo, o teste deve ser feito manualmente e à queima-roupa, dispensados os equipamentos de proteção individual quando o cano estiver desobstruído."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 5.4, testam-se alimentação, percussão, extração e ejeção, verificando a ciclagem; é defeito de funcionamento o incidente que interrompa o tiro ou a cadência, exceto problemas com a munição, devendo o perito determinar se o defeito é reprodutível ou esporádico. A alternativa A inclui indevidamente a munição e dispensa a distinção reprodutível/esporádico. A C erra: o perito deve determinar se, mesmo com defeito, a arma poderia disparar. A D contraria a segurança: havendo dúvida, o teste é remoto (estativa), com EPI (óculos, abafador, colete).",
+    "referencia": "PDF, Cap. 5, seção 5.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2639,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a detecção de resíduos de disparo nas mãos do atirador e a influência do tipo de arma, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As pistolas e espingardas apresentam as zonas de escape mais intensas de gases, ao passo que os revólveres, por terem câmaras herméticas, quase não projetam resíduos sobre as mãos do atirador, razão pela qual a coleta em suicídios com revólver costuma resultar negativa.",
+      "B": "A técnica moderna baseia-se na prova de Iturrioz, que remove nitritos das mãos com parafina derretida e os revela pelo reagente de Griess, sendo hoje a mais confiável para vincular resíduos ao disparo, por não sofrer as fontes de incerteza próprias dos testes de recenticidade nos canos.",
+      "C": "A técnica moderna por Microscopia Eletrônica de Varredura detecta partículas com forma característica contendo chumbo, bário e antimônio da mistura iniciadora; revólveres têm zona de escape intensa na junção tambor-cano, ao contrário de pistolas e espingardas, de câmaras herméticas.",
+      "D": "A detecção pela reação do chumbo com o rodizonato de sódio é a técnica moderna de eleição, por não sofrer interferência de chumbo de outras fontes, o que afasta a ocorrência de resultados falso-positivos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 5.5.2, a técnica moderna (MEV) detecta partículas de forma característica com chumbo, bário e antimônio da mistura iniciadora; revólveres têm zona de escape intensa na junção tambor-cano, ao passo que pistolas e espingardas têm câmaras herméticas. A alternativa B chama a prova de Iturrioz de moderna, quando ela é tradicional e abandonada. A C inverte as zonas de escape (revólver escapa mais). A D elege o rodizonato como técnica moderna, mas ele foi abandonado por falso-positivos de chumbo de outras fontes.",
+    "referencia": "PDF, Cap. 5, item 5.5.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2640,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as substâncias pesquisadas na determinação da distância de tiro em anteparos e os respectivos reagentes e cores, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nitritos são revelados pelo rodizonato de sódio (cor rosada); chumbo, pelo reagente de Griess (cor violeta); cobre, pela azida de sódio (cor verde); e os compostos sulfurados, pela ditiooxamida (suporte incolor), estando estes últimos presentes tanto na pólvora negra quanto nas pólvoras químicas sem fumaça modernas.",
+      "B": "Os compostos sulfurados, presentes em qualquer tipo de pólvora, são revelados pelo rodizonato de sódio com coloração violeta, sendo o chumbo detectado pela reação da azida de sódio com o iodo, que tinge de verde as áreas contaminadas pelo encamisamento do projétil.",
+      "C": "Cobre é revelado pelo reagente de Griess (cor rosada) e provém da combustão da pólvora, ao passo que os nitritos são revelados pela ditiooxamida (cor verde) e provêm do encamisamento dos projéteis.",
+      "D": "Nitritos, pelo reagente de Griess (rosada); chumbo, pelo rodizonato de sódio (violeta ou púrpura); cobre, pela ditiooxamida/ácido rubeânico (verde); e compostos sulfurados, presentes apenas na pólvora negra, pela reação da azida de sódio com iodo (suporte incolor)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 5.5.4, nitritos são revelados pelo reagente de Griess (rosada); chumbo, pelo rodizonato de sódio (violeta/púrpura); cobre, pela ditiooxamida ou ácido rubeânico (verde); e os sulfurados, presentes apenas na pólvora negra, pela reação de azida de sódio com iodo (suporte incolor). A alternativa A embaralha reagentes e cores. A C troca as origens e os reagentes de cobre e nitritos. A D erra ao dizer que os sulfurados estão em qualquer pólvora (só na negra) e ao trocar os reagentes de chumbo e sulfurados.",
+    "referencia": "PDF, Cap. 5, item 5.5.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2641,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o raiamento do cano e a leitura correta de uma expressão como \"raiamento do tipo 6\", assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Cada raia corresponde a um par crista-sulco (raia-cheio), de modo que, num raiamento do tipo 6, ao olhar pelo cano veem-se seis cristas intercaladas com seis sulcos, num total de doze elementos.",
+      "B": "Cada raia corresponde a um único sulco isolado, de modo que, num raiamento do tipo 6, veem-se seis sulcos e nenhuma crista, pois as cristas não integram a contagem convencional do raiamento.",
+      "C": "O raiamento do tipo 6 indica seis cristas somadas a seis sulcos, totalizando doze raias, número sempre par, pois a doutrina não admite raiamentos constituídos por um número ímpar de raias.",
+      "D": "As raias e os cheios têm por objetivo reduzir a rotação do projétil ao longo do cano, diminuindo seu momento angular para aumentar a estabilidade da trajetória após a saída pela boca do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.3.1, cada raia é um par crista-sulco (raia-cheio); num raiamento tipo 6 veem-se seis cristas intercaladas com seis sulcos. A alternativa B reduz a raia a um sulco isolado e exclui as cristas. A C erra ao contar doze raias e ao negar raiamentos ímpares, que o texto admite (há números pares e ímpares, a partir de duas raias). A D inverte a função do raiamento: ele imprime rotação ao projétil, aumentando o momento angular e a estabilidade.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2642,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da orientação do raiamento e da classificação do cano quanto à alma, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Raiamentos dextrógiros são os gerados no sentido anti-horário e sinistrógiros os gerados no sentido horário, sendo o raiamento 6-S o de seis raias helicoidais orientadas para a direita do observador, padrão mais comum nos revólveres e nas pistolas de fabricação nacional.",
+      "B": "Raiamentos dextrógiros são os gerados no sentido horário e sinistrógiros os gerados no sentido anti-horário; a arma de alma mista possui um cano de alma lisa e outro de alma raiada, como o modelo Apache da Rossi.",
+      "C": "As armas de alma lisa possuem estrias helicoidais de baixa profundidade e nelas se enquadram os revólveres e as pistolas, ao passo que as espingardas são o exemplo típico de alma raiada.",
+      "D": "Na arma de alma lisa uma seção reta do cano gera sempre uma circunferência apenas quando ausente o choke, de modo que, havendo choke, a alma passa a ser tecnicamente classificada como raiada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.3.1, dextrógiros são gerados no sentido horário e sinistrógiros no anti-horário, e a arma de alma mista tem um cano de alma lisa e outro raiado, como o Apache da Rossi (.22 raiado e 36 liso). A alternativa A inverte os sentidos. A B inverte os exemplos: revólveres e pistolas são de alma raiada e a espingarda, de alma lisa. A D erra: a presença de choke não converte a alma lisa em raiada; a alma segue lisa, apenas total ou parcialmente cilíndrica.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2643,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere uma arma cujo sistema de disparo funciona indiferentemente com o cão na posição engatilhada ou na posição de descanso, exigindo, conforme o caso, ação simples ou ação dupla do atirador. Quanto ao mecanismo de disparo, essa arma classifica-se como de:",
+    "alternativas": {
+      "A": "movimento simples em ação dupla, própria dos revólveres de cão escamoteado, nos quais o cão não permanece imobilizado na posição engatilhada entre um disparo e outro.",
+      "B": "movimento simples em ação simples, em que o cão precisa ser sempre manualmente engatilhado antes de cada disparo, sem possibilidade de acionamento a partir da posição de descanso.",
+      "C": "movimento duplo, pois o sistema opera tanto com o cão engatilhado, exigindo ação simples, quanto com o cão em descanso, exigindo ação dupla do atirador para efetuar o disparo.",
+      "D": "tiro unitário de movimento duplo, categoria em que a alternância entre ação simples e ação dupla decorre do número de câmaras existentes no tambor da arma examinada pelo perito."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.3.4 (e pela classificação dos revólveres quanto ao disparo), o movimento duplo é o sistema que funciona indiferentemente em ação simples (cão engatilhado) ou dupla (cão em descanso). A alternativa A descreve o movimento simples em ação dupla (só a partir do descanso). A C descreve o movimento simples em ação simples (só a partir do engatilhado). A D mistura conceitos distintos: tiro unitário é classificação quanto ao funcionamento e nada tem a ver com a alternância ação simples/dupla.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2644,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das armas quanto ao funcionamento e o conceito de ciclagem, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na arma semiautomática, a energia dos gases realimenta a arma e mantém o tiro contínuo enquanto o gatilho estiver pressionado, ao passo que a automática exige novo acionamento do gatilho a cada tiro.",
+      "B": "A arma de tiro unitário múltiplo comporta-se como arma de repetição de cano único, pois possui um único sistema de disparo comum a todos os canos e um mecanismo de alimentação automática que extrai a munição deflagrada e reposiciona a íntegra na câmara a cada acionamento do gatilho pelo atirador.",
+      "C": "A arma de repetição utiliza a energia de expansão dos gases para reposicionar a munição, ao passo que na semiautomática apenas a força muscular do atirador realimenta a câmara de combustão.",
+      "D": "Ciclagem é o conjunto acionamento do gatilho, deflagração da munição e realimentação; a semiautomática efetua um ciclo completo por acionamento (tiro intermitente) e a automática mantém a ciclagem enquanto o gatilho for pressionado e houver munição."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 2.3.4, ciclagem é o conjunto acionamento do gatilho + deflagração + realimentação; a semiautomática faz um ciclo por acionamento (tiro intermitente) e a automática mantém a ciclagem enquanto o gatilho estiver pressionado e houver munição. A alternativa A inverte semiautomática e automática. A C inverte os papéis: na repetição é a força muscular que realimenta, e na semiautomática são os gases. A D erra: no tiro unitário múltiplo cada cano tem seu sistema de disparo independente, sem alimentação automática.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2645,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma arma de assalto moderna possui chave seletora com as opções de tiro intermitente, rajada de três tiros e rajada contínua. Quanto ao funcionamento, essa arma classifica-se como:",
+    "alternativas": {
+      "A": "automática, pois, dispondo entre seus modos do tiro contínuo ou em rajada, no qual a energia dos gases mantém a ciclagem enquanto o gatilho estiver pressionado, ela é classificada como arma automática.",
+      "B": "de repetição, uma vez que a presença de uma chave seletora de modos de disparo indica que a realimentação depende de operação prévia executada manualmente pela força muscular do atirador.",
+      "C": "semiautomática, pois basta que um dos modos disponíveis na chave seletora seja o tiro intermitente para que a arma seja assim enquadrada, independentemente dos demais modos de rajada existentes.",
+      "D": "de tiro unitário múltiplo, dado que cada modo selecionável corresponde a um sistema de disparo independente, à semelhança das armas de dois canos sobrepostos acopladas a uma mesma coronha."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.3.4, quando a arma dispõe, entre seus modos, do tiro contínuo ou em rajada (modo automático), ela é classificada como automática. A alternativa A erra ao fazer prevalecer o modo intermitente sobre o automático. A B confunde a chave seletora com o conceito de repetição (realimentação muscular), que não é o caso. A D importa indevidamente a categoria de tiro unitário múltiplo, própria de armas com canos e sistemas de disparo independentes.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2646,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da determinação do calibre real em armas de alma raiada, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É medida tomada na porção mediana do cano, correspondente ao maior diâmetro da alma, obtida entre dois sulcos diametralmente opostos, e expressa sempre em frações de polegada gravadas no culote.",
+      "B": "É medida tomada na boca do cano, correspondente ao diâmetro interno da alma; tecnicamente é a menor dimensão da alma, obtida entre dois cheios diametralmente opostos quando o número de raias é par.",
+      "C": "Corresponde ao diâmetro da câmara de combustão, a qual é ampliada para receber o cartucho, devendo a medida ser tomada entre um cheio e um sulco adjacentes quando o número de raias é par.",
+      "D": "Quando o número de raias é ímpar, um cheio se opõe a outro cheio, de modo que a medida do calibre real é tomada diretamente entre essas duas superfícies opostas, tal como no caso de número par."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.4.1, o calibre real é medido na boca do cano, corresponde ao diâmetro interno da alma (menor dimensão) e é obtido entre dois cheios diametralmente opostos quando o número de raias é par. A alternativa B erra o local (mediana), a referência (maior diâmetro/sulcos) e o registro. A C confunde com a câmara de combustão. A D descreve mal o caso ímpar: com número ímpar um cheio se opõe a uma raia, tomando-se a medida entre a superfície de um cheio e a delimitação cheio-raia oposta.",
+    "referencia": "PDF, Cap. 2.4, item 2.4.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2647,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre calibre real e calibre nominal e a correspondência entre designações, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O calibre nominal é a medida exata e aferível do diâmetro da alma, ao passo que o calibre real é a designação comercial gravada no culote, havendo sempre um único calibre nominal para cada calibre real.",
+      "B": "Há estrita correspondência unívoca entre calibre nominal imperial e métrico, de sorte que o .308\" Winchester corresponde ao 5,56x45 mm OTAN e o .223\" Remington corresponde ao 7,62x51 mm OTAN.",
+      "C": "O calibre nominal designa um tipo particular de munição e a arma que a utiliza, podendo haver diversos calibres nominais para um mesmo calibre real, como o .380\" Auto que corresponde ao 9 mm Curto.",
+      "D": "Por ser a maioria dos calibres nominais designada de forma única, dispensa-se do perito consignar em laudo se o calibre nominal em análise coincide com o das tabelas das portarias conjuntas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.4.2, o calibre nominal designa um tipo de munição e a arma que a utiliza, podendo haver vários calibres nominais para um mesmo calibre real (ex.: .380\" Auto = 9 mm Curto). A alternativa A inverte real e nominal (o real é a medida aferível). A C troca as correspondências: .223\" Remington = 5,56x45 OTAN e .308\" Winchester = 7,62x51 OTAN. A D contraria a seção 2.4.3: como a maioria dos calibres tem mais de uma designação, o perito deve consignar em laudo a coincidência com as tabelas das portarias.",
+    "referencia": "PDF, Cap. 2.4, itens 2.4.2 e 2.4.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2648,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os riscos da adaptação de calibres e o critério legal de classificação de armas e munições, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A adaptação de um revólver .38\" para disparar .357\" é segura, pois ambos possuem o mesmo calibre real, bastando aumentar o comprimento da câmara do tambor sem comprometer a resistência estrutural.",
+      "B": "A legislação nacional adota o comprimento do cano como critério para classificar armas e munições em uso permitido ou restrito, sendo irrelevante a energia de disparo para essa classificação legal.",
+      "C": "O uso de cartucho de calibre nominal diverso do previsto para a arma é recomendável quando houver correspondência de calibre real, ainda que a munição empregada seja importada ou recarregada.",
+      "D": "A adaptação de um revólver .38\" para disparar .357\", feita ampliando a câmara do tambor, não considera que o tambor .38\" não resiste às pressões elevadas do .357\", podendo explodir e ferir o atirador."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 2.4.2, a adaptação de um .38\" para .357\", por aumento da câmara do tambor, ignora que o tambor .38\" não resiste às pressões do .357\", podendo explodir e ferir o atirador. A alternativa A afirma segurança e mesmo calibre real, o que contraria o texto. A B erra o critério legal: a classificação em permitido/restrito baseia-se na energia de disparo (Decreto 11.615/2023), não no comprimento do cano. A D recomenda o uso de calibre diverso, quando o texto o desaconselha por risco à arma e ao atirador.",
+    "referencia": "PDF, Cap. 2.4, itens 2.4.2 e 2.4.3",
+    "nivel": "dificil"
   }
 ];

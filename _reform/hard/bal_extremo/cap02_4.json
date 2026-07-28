@@ -1,0 +1,44 @@
+[
+  {
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
+    "enunciado": "A respeito da determinação do calibre real em armas de alma raiada, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É medida tomada na boca do cano, correspondente ao diâmetro interno da alma; tecnicamente é a menor dimensão da alma, obtida entre dois cheios diametralmente opostos quando o número de raias é par.",
+      "B": "É medida tomada na porção mediana do cano, correspondente ao maior diâmetro da alma, obtida entre dois sulcos diametralmente opostos, e expressa sempre em frações de polegada gravadas no culote.",
+      "C": "Corresponde ao diâmetro da câmara de combustão, a qual é ampliada para receber o cartucho, devendo a medida ser tomada entre um cheio e um sulco adjacentes quando o número de raias é par.",
+      "D": "Quando o número de raias é ímpar, um cheio se opõe a outro cheio, de modo que a medida do calibre real é tomada diretamente entre essas duas superfícies opostas, tal como no caso de número par."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.4.1, o calibre real é medido na boca do cano, corresponde ao diâmetro interno da alma (menor dimensão) e é obtido entre dois cheios diametralmente opostos quando o número de raias é par. A alternativa B erra o local (mediana), a referência (maior diâmetro/sulcos) e o registro. A C confunde com a câmara de combustão. A D descreve mal o caso ímpar: com número ímpar um cheio se opõe a uma raia, tomando-se a medida entre a superfície de um cheio e a delimitação cheio-raia oposta.",
+    "referencia": "PDF, Cap. 2.4, item 2.4.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
+    "enunciado": "Sobre a distinção entre calibre real e calibre nominal e a correspondência entre designações, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O calibre nominal é a medida exata e aferível do diâmetro da alma, ao passo que o calibre real é a designação comercial gravada no culote, havendo sempre um único calibre nominal para cada calibre real.",
+      "B": "O calibre nominal designa um tipo particular de munição e a arma que a utiliza, podendo haver diversos calibres nominais para um mesmo calibre real, como o .380\" Auto que corresponde ao 9 mm Curto.",
+      "C": "Há estrita correspondência unívoca entre calibre nominal imperial e métrico, de sorte que o .308\" Winchester corresponde ao 5,56x45 mm OTAN e o .223\" Remington corresponde ao 7,62x51 mm OTAN.",
+      "D": "Por ser a maioria dos calibres nominais designada de forma única, dispensa-se do perito consignar em laudo se o calibre nominal em análise coincide com o das tabelas das portarias conjuntas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.4.2, o calibre nominal designa um tipo de munição e a arma que a utiliza, podendo haver vários calibres nominais para um mesmo calibre real (ex.: .380\" Auto = 9 mm Curto). A alternativa A inverte real e nominal (o real é a medida aferível). A C troca as correspondências: .223\" Remington = 5,56x45 OTAN e .308\" Winchester = 7,62x51 OTAN. A D contraria a seção 2.4.3: como a maioria dos calibres tem mais de uma designação, o perito deve consignar em laudo a coincidência com as tabelas das portarias.",
+    "referencia": "PDF, Cap. 2.4, itens 2.4.2 e 2.4.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2.4 - Calibre das Armas e Munição",
+    "enunciado": "Sobre os riscos da adaptação de calibres e o critério legal de classificação de armas e munições, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A adaptação de um revólver .38\" para disparar .357\" é segura, pois ambos possuem o mesmo calibre real, bastando aumentar o comprimento da câmara do tambor sem comprometer a resistência estrutural.",
+      "B": "A legislação nacional adota o comprimento do cano como critério para classificar armas e munições em uso permitido ou restrito, sendo irrelevante a energia de disparo para essa classificação legal.",
+      "C": "A adaptação de um revólver .38\" para disparar .357\", feita ampliando a câmara do tambor, não considera que o tambor .38\" não resiste às pressões elevadas do .357\", podendo explodir e ferir o atirador.",
+      "D": "O uso de cartucho de calibre nominal diverso do previsto para a arma é recomendável quando houver correspondência de calibre real, ainda que a munição empregada seja importada ou recarregada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.4.2, a adaptação de um .38\" para .357\", por aumento da câmara do tambor, ignora que o tambor .38\" não resiste às pressões do .357\", podendo explodir e ferir o atirador. A alternativa A afirma segurança e mesmo calibre real, o que contraria o texto. A B erra o critério legal: a classificação em permitido/restrito baseia-se na energia de disparo (Decreto 11.615/2023), não no comprimento do cano. A D recomenda o uso de calibre diverso, quando o texto o desaconselha por risco à arma e ao atirador.",
+    "referencia": "PDF, Cap. 2.4, itens 2.4.2 e 2.4.3",
+    "nivel": "dificil"
+  }
+]

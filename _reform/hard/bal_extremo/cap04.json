@@ -1,0 +1,86 @@
+[
+  {
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "enunciado": "Sobre a carabina e seus sistemas de alimentação, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A carabina distingue-se do rifle e do fuzil por apresentar cano de alma lisa e maior comprimento, sendo alimentada exclusivamente pelo sistema de bomba, restrito às variações do calibre .22\".",
+      "B": "A carabina tem cano de alma raiada de menor comprimento que o rifle; alimenta-se pelo sistema de bomba (pump), restrito às variações do .22\", ou por alavanca (lever action), que usa fogo central, incluindo calibres potentes como o .44\" Magnum.",
+      "C": "A carabina alimentada por alavanca (lever action) restringe-se às variações do calibre .22\" e emprega munição de fogo circular, ao passo que a alimentada por bomba admite calibres de alta potência de fogo central, tal como a .44\" Magnum característica dos filmes de faroeste.",
+      "D": "Por definição estrita de repetição, nenhum fabricante denomina carabina uma arma semiautomática, ainda que possua cano raiado de comprimento reduzido, como ocorre com a carabina Taurus CT-40."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 4.3, a carabina tem cano de alma raiada de menor comprimento que o rifle; alimenta-se por bomba (pump), restrita ao .22\", ou por alavanca (lever action), que usa fogo central e inclui calibres potentes como o .44\" Magnum. A alternativa A erra a alma (é raiada, não lisa) e o comprimento (menor). A C troca bomba e alavanca. A D contraria o texto, que registra fabricantes denominando carabina até armas semiautomáticas de cano raiado reduzido, como a Taurus CT-40.",
+    "referencia": "PDF, Cap. 4, seção 4.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "enunciado": "A respeito do mosquetão e de sua distinção frente às demais armas longas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É arma longa de repetição, de alma raiada e calibres de alta energia, dotada de carregador denominado depósito no interior da coronha e de ferrolho com alavanca para extrair estojos e realimentar a arma.",
+      "B": "É arma longa de tiro unitário, de alma lisa, que difere da carabina por não possuir depósito nem ferrolho, efetuando a extração dos estojos exclusivamente por basculamento do conjunto cano-tambor.",
+      "C": "É arma de porte de repetição cujo pino percussor fica alojado na armação, e não no ferrolho, sendo sempre armado apenas no momento da realimentação da câmara de combustão com cartucho íntegro.",
+      "D": "Distingue-se do rifle por dispensar carregador, sendo os cartuchos inseridos um a um diretamente na câmara, o que o classifica como arma de tiro unitário múltiplo de calibres de baixa energia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 4.4, o mosquetão é arma longa de repetição, de alma raiada e calibres de alta energia, com carregador chamado depósito na coronha e ferrolho de alavanca para extrair estojos e realimentar. A alternativa B o trata como tiro unitário de alma lisa sem depósito nem ferrolho, o que contraria o texto. A C erra o alojamento do pino percussor (fica no ferrolho) e a regra de armação (pode ser armado na extração ou na realimentação). A D nega o carregador e o classifica como tiro unitário, quando é arma de repetição com depósito.",
+    "referencia": "PDF, Cap. 4, seção 4.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "enunciado": "Sobre o cartucho e o estojo de munição para espingarda, conforme o material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O objeto diretamente impelido pela deflagração da carga é o próprio projétil, tal como nas armas de alma raiada, sendo a bucha apenas um disco decorativo sem função no interior do estojo da espingarda.",
+      "B": "O estojo da espingarda é inteiramente metálico e cilíndrico, à semelhança do estojo das armas raiadas, diferindo apenas pelo fechamento frontal em estrela, destinado a reter os balins em seu interior.",
+      "C": "O que a deflagração impele é uma bucha, de plástico ou papelão, que empurra os projéteis para fora do cano; o estojo tem base metálica (geralmente latão) e corpo de papelão ou plástico, com fechamento frontal em estrela ou por disco.",
+      "D": "A carga de projeção e a cápsula de espoletamento do cartucho de espingarda diferem substancialmente das empregadas nas armas de alma raiada, sendo essa a principal distinção entre os dois tipos de munição, ao passo que os estojos e projéteis são de estrutura praticamente idêntica nos dois casos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 4.5.1 e 4.5.2, na espingarda a deflagração impele uma bucha (plástico ou papelão) que empurra os projéteis para fora do cano; o estojo tem base metálica (geralmente latão) e corpo de papelão ou plástico, fechado à frente por disco ou em fechamento estrela. A alternativa A erra ao dizer que o projétil é impelido diretamente e ao esvaziar a função da bucha. A B afirma estojo inteiramente metálico, o que não é o caso. A D erra: cápsula e carga de projeção não apresentam grande diferença; o que difere são estojo e projéteis.",
+    "referencia": "PDF, Cap. 4, itens 4.5.1 e 4.5.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "enunciado": "A respeito do calibre real e do estrangulamento (choke) em armas de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O calibre real é medido na porção mediana do cano, e não na câmara nem na boca; o choke é uma redução do diâmetro da boca que agrupa os balins, melhorando a precisão, sendo Full o pleno e Cylinder o sem choke.",
+      "B": "O calibre real é medido na boca do cano, onde se localiza o choke; este é uma ampliação do diâmetro da boca, cuja função é dispersar os balins mais rapidamente, aumentando a área atingida pelo tiro.",
+      "C": "O choke Improved Modified equivale à metade do choke Full, e o Modified a três quartos do Full; na Europa, três asteriscos indicam choke Full e um asterisco indica choke Improved Cylinder.",
+      "D": "O calibre real deve ser tomado na câmara de combustão, que é a porção de diâmetro mais estável do cano, sendo o choke uma característica exclusiva dos canos de alma raiada das espingardas do tipo Slug Gun."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 4.5.4, o calibre real da alma lisa é medido na porção mediana do cano (não na câmara nem na boca, por causa do choke); o choke reduz o diâmetro da boca e agrupa os balins, melhorando a precisão, sendo Full o pleno e Cylinder o sem choke. A alternativa B inverte a função do choke (é redução, não ampliação) e o local de medição. A C troca as proporções (IM = 3/4, M = 1/2) e a indicação europeia (um asterisco = Full, três = Improved Cylinder). A D erra o local (câmara) e restringe o choke à alma raiada.",
+    "referencia": "PDF, Cap. 4, item 4.5.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "enunciado": "Sobre o critério de definição do calibre nominal em armas de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Corresponde ao número de esferas de chumbo, de diâmetro igual ao do cano, que se poderiam produzir a partir de uma libra (453,6 g) de chumbo; assim, no calibre 12, doze esferas equivalem a uma libra, e quanto maior o número menor o diâmetro do cano.",
+      "B": "Corresponde ao diâmetro interno do cano expresso em milímetros, de modo que o calibre 12 indica cano de 12 mm e o calibre 20, cano de 20 mm, numa relação diretamente proporcional entre número e diâmetro.",
+      "C": "Corresponde ao número de esferas de chumbo obtidas de uma libra de chumbo, sendo o calibre diretamente proporcional ao diâmetro do cano, de forma que o calibre 36 possui cano mais largo que o calibre 12, cujo calibre real seria, por isso, o menor de toda a tabela.",
+      "D": "Corresponde ao peso, em gramas, de uma única esfera de chumbo de diâmetro igual ao do cano, razão pela qual o calibre 12 designa uma esfera de doze gramas alojada na boca do cano da espingarda."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 4.5.5, o calibre nominal da alma lisa é o número de esferas de chumbo (de diâmetro igual ao do cano) que se produziriam de uma libra (453,6 g); no calibre 12, doze esferas equivalem a uma libra, e quanto maior o número, menor o diâmetro do cano (calibre 12 = 18,5 mm; 36 = 10,2 mm). A alternativa B confunde com medida direta em milímetros. A C inverte a relação (o número é inversamente proporcional ao diâmetro). A D define o critério como peso de uma única esfera, o que não corresponde ao texto.",
+    "referencia": "PDF, Cap. 4, item 4.5.5",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 4 - Armas de Fogo Longas",
+    "enunciado": "Em local de crime com disparo de espingarda, os balins recolhidos poderiam, à primeira vista, ter sido disparados por armas de vários calibres. Sobre o elemento que auxilia a indicar o calibre nominal empregado, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A bucha, peça geralmente única cujo diâmetro de seção reta é similar ao diâmetro do cano (ou seja, ao calibre real), o que torna sua busca e coleta elemento fundamental para indicar o calibre nominal da espingarda.",
+      "B": "O próprio balim, cujo diâmetro individual corresponde de forma unívoca ao calibre nominal da espingarda, dispensando a coleta de qualquer outro elemento de munição para essa determinação pericial.",
+      "C": "O disco de fechamento estrela do estojo, cujo diâmetro externo equivale ao calibre real do cano e permite, isoladamente, precisar tanto o calibre nominal quanto a distância do disparo efetuado.",
+      "D": "A cápsula de espoletamento, cuja dimensão varia conforme o calibre nominal da espingarda, sendo, por isso, o elemento de coleta prioritária para a determinação do calibre em locais de disparo de alma lisa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 4.5.5, a bucha é peça geralmente única com diâmetro de seção reta similar ao do cano (ou seja, ao calibre real), razão pela qual sua busca e coleta é elemento fundamental para indicar o calibre nominal da espingarda. A alternativa B erra: como o mesmo balim pode ter sido disparado por espingardas de vários calibres, ele não é unívoco. A C atribui ao fechamento estrela função que ele não tem. A D elege a cápsula de espoletamento, que não guarda essa relação com o calibre da alma lisa.",
+    "referencia": "PDF, Cap. 4, item 4.5.5",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "enunciado": "A respeito da Balística Externa e das grandezas e alcances que lhe cabe estudar, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Estuda o projétil desde a saída do cano até sua parada final, analisando trajetória, velocidade e energia, e nela se incluem os estudos de alcance de tiro, alcance útil, alcance máximo e alcance com precisão.",
+      "B": "Estuda a estrutura, os mecanismos e o funcionamento da arma, bem como os fenômenos ocorridos desde a detonação da espoleta até o instante em que o projétil deixa a boca do cano da arma de fogo.",
+      "C": "Estuda os efeitos produzidos pelo projétil ao atingir o alvo, cabendo-lhe, quando o alvo é humano, o exame das lesões traumáticas em conjunto com a Medicina Legal do local.",
+      "D": "Estuda o movimento dos projéteis como parte da Mecânica, conceituando projétil como todo corpo que se desloca livre no espaço em virtude de um impulso recebido de origem externa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 1, a Balística Externa estuda o projétil da saída do cano até a parada final (trajetória, velocidade e energia) e inclui os estudos de alcance de tiro, útil, máximo e com precisão. A alternativa B descreve a Balística Interna (da espoleta até a saída do cano). A C descreve a Balística Terminal, e as lesões traumáticas no alvo humano cabem à Medicina Legal, não à Balística. A D define a Balística Geral (movimento dos projéteis na Mecânica), não a Externa.",
+    "referencia": "PDF, Cap. 1, seção 1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "enunciado": "Na Balística Terminal, quando o alvo do disparo é humano, a divisão de atribuições entre a Medicina Legal e a Balística se dá do seguinte modo:",
+    "alternativas": {
+      "A": "à Balística cabem os vestígios intrínsecos ao ser humano, como as lesões traumáticas, e à Medicina Legal os vestígios extrínsecos, como resíduos de pólvora e projéteis alojados.",
+      "B": "à Medicina Legal cabem os vestígios intrínsecos ao ser humano, as lesões traumáticas, e à Balística os vestígios extrínsecos ao ser humano, como os resíduos de pólvora e os projéteis.",
+      "C": "a ambas cabe, de forma concorrente, o estudo das lesões traumáticas e dos resíduos de pólvora, por serem vestígios de mesma natureza terminal produzidos pelo impacto do projétil.",
+      "D": "à Medicina Legal cabem tanto as lesões traumáticas quanto os resíduos de pólvora e projéteis, restando à Balística apenas o estudo da trajetória externa até o momento do impacto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 1, na Balística Terminal com alvo humano cabe à Medicina Legal o estudo dos vestígios intrínsecos (lesões traumáticas) e à Balística os extrínsecos (resíduos de pólvora e projéteis). A alternativa A inverte as atribuições. A C afirma competência concorrente sobre os mesmos vestígios, o que não corresponde à divisão do texto. A D atribui tudo à Medicina Legal e reduz a Balística à trajetória externa, confundindo-a com a Balística Externa.",
+    "referencia": "PDF, Cap. 1, seção 1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Balística: Conceituação e Divisões",
+    "enunciado": "Entre os principais campos de estudo da Balística Forense na Polícia Federal, assinale a alternativa que caracteriza corretamente o campo indicado.",
+    "alternativas": {
+      "A": "A identificação das armas de fogo, em sua modalidade imediata, é a que determina e compara os vestígios impressos pela arma nos elementos de munição por ela disparados, como os confrontos balísticos.",
+      "B": "A caracterização das armas de fogo é a que determina marca, modelo, procedência e número de série de armamentos cujos identificadores foram removidos ou adulterados, incluída a revelação de caracteres.",
+      "C": "A regeneração de elementos identificadores é a que determina marca, modelo, procedência e número de série de armamentos nos quais esses identificadores foram removidos ou adulterados, incluída a revelação de caracteres suprimidos.",
+      "D": "A verificação de eficiência é a que determina as características diferenciais dos diversos tipos de arma e seus mecanismos, permitindo classificar o armamento e verificar se foi adulterado quanto às características originais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 1.1, a regeneração de elementos identificadores determina marca, modelo, procedência e número de série de armas cujos identificadores foram removidos ou adulterados, incluída a revelação de caracteres. A alternativa A confunde as modalidades: comparar vestígios nos elementos de munição é a identificação mediata, não a imediata (esta determina as características do armamento). A B atribui à caracterização o que é próprio da regeneração. A D atribui à verificação de eficiência o que descreve a caracterização das armas.",
+    "referencia": "PDF, Cap. 1, seção 1.1",
+    "nivel": "dificil"
+  }
+]

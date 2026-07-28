@@ -1,0 +1,72 @@
+[
+  {
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "enunciado": "Sobre o raiamento do cano e a leitura correta de uma expressão como \"raiamento do tipo 6\", assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Cada raia corresponde a um par crista-sulco (raia-cheio), de modo que, num raiamento do tipo 6, ao olhar pelo cano veem-se seis cristas intercaladas com seis sulcos, num total de doze elementos.",
+      "B": "Cada raia corresponde a um único sulco isolado, de modo que, num raiamento do tipo 6, veem-se seis sulcos e nenhuma crista, pois as cristas não integram a contagem convencional do raiamento.",
+      "C": "O raiamento do tipo 6 indica seis cristas somadas a seis sulcos, totalizando doze raias, número sempre par, pois a doutrina não admite raiamentos constituídos por um número ímpar de raias.",
+      "D": "As raias e os cheios têm por objetivo reduzir a rotação do projétil ao longo do cano, diminuindo seu momento angular para aumentar a estabilidade da trajetória após a saída pela boca do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.3.1, cada raia é um par crista-sulco (raia-cheio); num raiamento tipo 6 veem-se seis cristas intercaladas com seis sulcos. A alternativa B reduz a raia a um sulco isolado e exclui as cristas. A C erra ao contar doze raias e ao negar raiamentos ímpares, que o texto admite (há números pares e ímpares, a partir de duas raias). A D inverte a função do raiamento: ele imprime rotação ao projétil, aumentando o momento angular e a estabilidade.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "enunciado": "A respeito da orientação do raiamento e da classificação do cano quanto à alma, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Raiamentos dextrógiros são os gerados no sentido anti-horário e sinistrógiros os gerados no sentido horário, sendo o raiamento 6-S o de seis raias helicoidais orientadas para a direita do observador, padrão mais comum nos revólveres e nas pistolas de fabricação nacional.",
+      "B": "As armas de alma lisa possuem estrias helicoidais de baixa profundidade e nelas se enquadram os revólveres e as pistolas, ao passo que as espingardas são o exemplo típico de alma raiada.",
+      "C": "Raiamentos dextrógiros são os gerados no sentido horário e sinistrógiros os gerados no sentido anti-horário; a arma de alma mista possui um cano de alma lisa e outro de alma raiada, como o modelo Apache da Rossi.",
+      "D": "Na arma de alma lisa uma seção reta do cano gera sempre uma circunferência apenas quando ausente o choke, de modo que, havendo choke, a alma passa a ser tecnicamente classificada como raiada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.3.1, dextrógiros são gerados no sentido horário e sinistrógiros no anti-horário, e a arma de alma mista tem um cano de alma lisa e outro raiado, como o Apache da Rossi (.22 raiado e 36 liso). A alternativa A inverte os sentidos. A B inverte os exemplos: revólveres e pistolas são de alma raiada e a espingarda, de alma lisa. A D erra: a presença de choke não converte a alma lisa em raiada; a alma segue lisa, apenas total ou parcialmente cilíndrica.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "enunciado": "Considere uma arma cujo sistema de disparo funciona indiferentemente com o cão na posição engatilhada ou na posição de descanso, exigindo, conforme o caso, ação simples ou ação dupla do atirador. Quanto ao mecanismo de disparo, essa arma classifica-se como de:",
+    "alternativas": {
+      "A": "movimento simples em ação dupla, própria dos revólveres de cão escamoteado, nos quais o cão não permanece imobilizado na posição engatilhada entre um disparo e outro.",
+      "B": "movimento duplo, pois o sistema opera tanto com o cão engatilhado, exigindo ação simples, quanto com o cão em descanso, exigindo ação dupla do atirador para efetuar o disparo.",
+      "C": "movimento simples em ação simples, em que o cão precisa ser sempre manualmente engatilhado antes de cada disparo, sem possibilidade de acionamento a partir da posição de descanso.",
+      "D": "tiro unitário de movimento duplo, categoria em que a alternância entre ação simples e ação dupla decorre do número de câmaras existentes no tambor da arma examinada pelo perito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.3.4 (e pela classificação dos revólveres quanto ao disparo), o movimento duplo é o sistema que funciona indiferentemente em ação simples (cão engatilhado) ou dupla (cão em descanso). A alternativa A descreve o movimento simples em ação dupla (só a partir do descanso). A C descreve o movimento simples em ação simples (só a partir do engatilhado). A D mistura conceitos distintos: tiro unitário é classificação quanto ao funcionamento e nada tem a ver com a alternância ação simples/dupla.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "enunciado": "Sobre a classificação das armas quanto ao funcionamento e o conceito de ciclagem, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na arma semiautomática, a energia dos gases realimenta a arma e mantém o tiro contínuo enquanto o gatilho estiver pressionado, ao passo que a automática exige novo acionamento do gatilho a cada tiro.",
+      "B": "Ciclagem é o conjunto acionamento do gatilho, deflagração da munição e realimentação; a semiautomática efetua um ciclo completo por acionamento (tiro intermitente) e a automática mantém a ciclagem enquanto o gatilho for pressionado e houver munição.",
+      "C": "A arma de repetição utiliza a energia de expansão dos gases para reposicionar a munição, ao passo que na semiautomática apenas a força muscular do atirador realimenta a câmara de combustão.",
+      "D": "A arma de tiro unitário múltiplo comporta-se como arma de repetição de cano único, pois possui um único sistema de disparo comum a todos os canos e um mecanismo de alimentação automática que extrai a munição deflagrada e reposiciona a íntegra na câmara a cada acionamento do gatilho pelo atirador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.3.4, ciclagem é o conjunto acionamento do gatilho + deflagração + realimentação; a semiautomática faz um ciclo por acionamento (tiro intermitente) e a automática mantém a ciclagem enquanto o gatilho estiver pressionado e houver munição. A alternativa A inverte semiautomática e automática. A C inverte os papéis: na repetição é a força muscular que realimenta, e na semiautomática são os gases. A D erra: no tiro unitário múltiplo cada cano tem seu sistema de disparo independente, sem alimentação automática.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2.3 - Classificação das Armas de Fogo",
+    "enunciado": "Uma arma de assalto moderna possui chave seletora com as opções de tiro intermitente, rajada de três tiros e rajada contínua. Quanto ao funcionamento, essa arma classifica-se como:",
+    "alternativas": {
+      "A": "semiautomática, pois basta que um dos modos disponíveis na chave seletora seja o tiro intermitente para que a arma seja assim enquadrada, independentemente dos demais modos de rajada existentes.",
+      "B": "de repetição, uma vez que a presença de uma chave seletora de modos de disparo indica que a realimentação depende de operação prévia executada manualmente pela força muscular do atirador.",
+      "C": "automática, pois, dispondo entre seus modos do tiro contínuo ou em rajada, no qual a energia dos gases mantém a ciclagem enquanto o gatilho estiver pressionado, ela é classificada como arma automática.",
+      "D": "de tiro unitário múltiplo, dado que cada modo selecionável corresponde a um sistema de disparo independente, à semelhança das armas de dois canos sobrepostos acopladas a uma mesma coronha."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.3.4, quando a arma dispõe, entre seus modos, do tiro contínuo ou em rajada (modo automático), ela é classificada como automática. A alternativa A erra ao fazer prevalecer o modo intermitente sobre o automático. A B confunde a chave seletora com o conceito de repetição (realimentação muscular), que não é o caso. A D importa indevidamente a categoria de tiro unitário múltiplo, própria de armas com canos e sistemas de disparo independentes.",
+    "referencia": "PDF, Cap. 2.3, item 2.3.4",
+    "nivel": "dificil"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "enunciado": "Sobre os cuidados com a arma de fogo questionada antes do encaminhamento à Balística Forense, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O exame de Balística Forense precede eventuais exames papiloscópicos, de DNA ou de microvestígios, os quais só devem ser realizados após a caracterização balística da arma questionada.",
+      "B": "Havendo necessidade de exames papiloscópicos, de DNA ou de microvestígios, estes precedem o encaminhamento à Balística; a arma deve ser desmuniciada e travada, e, não sendo possível torná-la segura, aponha-se etiqueta visível de \"PERIGO: ARMA QUENTE\".",
+      "C": "A arma deve ser encaminhada municiada e destravada, para que o perito verifique a alimentação com a própria munição encontrada, sendo dispensável a etiqueta de advertência quando o cano estiver desobstruído.",
+      "D": "A munição encontrada com a arma deve ser descartada no local, sem acompanhar o armamento, e a retirada do pente carregador e dos cartuchos das câmaras só se faz após a chegada do material ao laboratório de Balística Forense, pelo próprio perito examinador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 5.1, se houver necessidade de exames papiloscópicos, de DNA ou de microvestígios, estes precedem o encaminhamento à Balística; a arma deve ser desmuniciada e travada e, não sendo possível torná-la segura, recebe etiqueta visível de \"PERIGO: ARMA QUENTE\". A alternativa A inverte a ordem dos exames. A C manda encaminhar municiada e destravada e dispensa a etiqueta, contrariando a segurança. A D determina descartar a munição, quando o recomendado é acondicioná-la em embalagem primária junto à arma no mesmo envelope.",
+    "referencia": "PDF, Cap. 5, seção 5.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "enunciado": "Sobre a caracterização imediata (direta) da arma de fogo e o registro do material de construção, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A descrição inicia-se pelas características individuais e caminha para as genéricas; o cano é medido sem incluir o cone de forçamento, e o material só é discriminado por parte quando a arma é feita de um único material.",
+      "B": "A descrição inicia-se pelas características genéricas e avança para as individuais; mede-se o cano incluindo o cone de forçamento nos revólveres e a câmara nas pistolas e armas longas; o material é indicado por parte (ex.: Glock com cano em aço e armação polimérica).",
+      "C": "Quando a arma é feita de um único material, deve-se ainda assim discriminar o material de cada parte separadamente, ao passo que, sendo de materiais distintos, basta indicar um material geral para todo o conjunto, dispensando-se o registro fotográfico individual de cada elemento descrito.",
+      "D": "No sistema de percussão, basta indicar se é central ou radial, sendo dispensável consignar se é direta ou indireta ou, na percussão direta, se o percussor é fixo ou articulado, por serem dados irrelevantes ao laudo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 5.2, a descrição vai do genérico ao individual; o cano é medido incluindo o cone de forçamento nos revólveres e a câmara nas pistolas e armas longas; o material é indicado por parte (ex.: Glock, cano em aço e armação polimérica), bastando um material geral quando a arma é de um só material (ex.: Imbel). A alternativa A inverte a ordem e a regra de medição e do material. A C inverte a regra do material (discriminar por parte é para materiais distintos). A D dispensa dados que o texto exige (direta/indireta e percussor fixo/articulado).",
+    "referencia": "PDF, Cap. 5, seção 5.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "enunciado": "Sobre a revelação de caracteres suprimidos e as situações em que o procedimento é infrutífero, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A revelação apoia-se na cunhagem a frio, que altera a estrutura metálica sob os caracteres; protege-se a arma com graxa por causa dos ácidos voláteis dos reveladores, e o método é infrutífero na impressão a laser ou em adulteração muito profunda.",
+      "B": "A revelação é possível justamente quando os caracteres foram gravados por impressão a laser, pois esta preserva melhor os vestígios latentes do que a cunhagem a frio, dispensando qualquer proteção da arma.",
+      "C": "Antes de aplicar o revelador, dispensa-se proteger as demais partes da arma, pois os reagentes empregados são quimicamente inertes e não corroem as superfícies metálicas não polidas do armamento.",
+      "D": "Sendo a adulteração muito profunda, o método torna-se ainda mais eficaz, porque a maior remoção de metal expõe diretamente os vestígios latentes, permitindo a revelação completa dos caracteres, mesmo quando a gravação original tiver sido feita por impressão a laser."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 5.3 e 5.3.1, a técnica apoia-se na cunhagem a frio (que altera a estrutura metálica sob os caracteres); protege-se a arma com graxa por causa dos ácidos voláteis dos reveladores; e o método é infrutífero na impressão a laser ou em adulteração muito profunda. A alternativa B inverte tudo (a impressão a laser inviabiliza a revelação). A C nega a necessidade de proteção, afirmando reagentes inertes, o que contraria o texto. A D erra: adulteração profunda destrói os vestígios latentes, tornando a revelação inviável.",
+    "referencia": "PDF, Cap. 5, itens 5.3 e 5.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "enunciado": "Sobre o exame de eficiência de arma de fogo e o conceito de defeito de funcionamento, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Considera-se defeito de funcionamento qualquer incidente que interrompa o tiro ou a cadência de tiros, incluídos os problemas atribuíveis à munição, não se exigindo do perito distinguir se o defeito é reprodutível ou esporádico.",
+      "B": "Devem ser testados alimentação, percussão, extração e ejeção, verificando a ciclagem; é defeito de funcionamento o incidente que interrompa o tiro ou a cadência, exceto problemas com a munição, cabendo determinar se o defeito é reprodutível ou esporádico.",
+      "C": "Constatado defeito, o perito deve abster-se de afirmar se a arma ainda poderia efetuar disparos, pois qualquer defeito de funcionamento descaracteriza por completo a arma como apta a produzir tiro, ainda que se trate de falha meramente esporádica e não reprodutível nos testes.",
+      "D": "Havendo dúvida sobre a integridade da arma no disparo, o teste deve ser feito manualmente e à queima-roupa, dispensados os equipamentos de proteção individual quando o cano estiver desobstruído."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 5.4, testam-se alimentação, percussão, extração e ejeção, verificando a ciclagem; é defeito de funcionamento o incidente que interrompa o tiro ou a cadência, exceto problemas com a munição, devendo o perito determinar se o defeito é reprodutível ou esporádico. A alternativa A inclui indevidamente a munição e dispensa a distinção reprodutível/esporádico. A C erra: o perito deve determinar se, mesmo com defeito, a arma poderia disparar. A D contraria a segurança: havendo dúvida, o teste é remoto (estativa), com EPI (óculos, abafador, colete).",
+    "referencia": "PDF, Cap. 5, seção 5.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "enunciado": "Sobre a detecção de resíduos de disparo nas mãos do atirador e a influência do tipo de arma, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A técnica moderna por Microscopia Eletrônica de Varredura detecta partículas com forma característica contendo chumbo, bário e antimônio da mistura iniciadora; revólveres têm zona de escape intensa na junção tambor-cano, ao contrário de pistolas e espingardas, de câmaras herméticas.",
+      "B": "A técnica moderna baseia-se na prova de Iturrioz, que remove nitritos das mãos com parafina derretida e os revela pelo reagente de Griess, sendo hoje a mais confiável para vincular resíduos ao disparo, por não sofrer as fontes de incerteza próprias dos testes de recenticidade nos canos.",
+      "C": "As pistolas e espingardas apresentam as zonas de escape mais intensas de gases, ao passo que os revólveres, por terem câmaras herméticas, quase não projetam resíduos sobre as mãos do atirador, razão pela qual a coleta em suicídios com revólver costuma resultar negativa.",
+      "D": "A detecção pela reação do chumbo com o rodizonato de sódio é a técnica moderna de eleição, por não sofrer interferência de chumbo de outras fontes, o que afasta a ocorrência de resultados falso-positivos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 5.5.2, a técnica moderna (MEV) detecta partículas de forma característica com chumbo, bário e antimônio da mistura iniciadora; revólveres têm zona de escape intensa na junção tambor-cano, ao passo que pistolas e espingardas têm câmaras herméticas. A alternativa B chama a prova de Iturrioz de moderna, quando ela é tradicional e abandonada. A C inverte as zonas de escape (revólver escapa mais). A D elege o rodizonato como técnica moderna, mas ele foi abandonado por falso-positivos de chumbo de outras fontes.",
+    "referencia": "PDF, Cap. 5, item 5.5.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Exames em Armas de Fogo",
+    "enunciado": "Sobre as substâncias pesquisadas na determinação da distância de tiro em anteparos e os respectivos reagentes e cores, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nitritos são revelados pelo rodizonato de sódio (cor rosada); chumbo, pelo reagente de Griess (cor violeta); cobre, pela azida de sódio (cor verde); e os compostos sulfurados, pela ditiooxamida (suporte incolor), estando estes últimos presentes tanto na pólvora negra quanto nas pólvoras químicas sem fumaça modernas.",
+      "B": "Nitritos, pelo reagente de Griess (rosada); chumbo, pelo rodizonato de sódio (violeta ou púrpura); cobre, pela ditiooxamida/ácido rubeânico (verde); e compostos sulfurados, presentes apenas na pólvora negra, pela reação da azida de sódio com iodo (suporte incolor).",
+      "C": "Cobre é revelado pelo reagente de Griess (cor rosada) e provém da combustão da pólvora, ao passo que os nitritos são revelados pela ditiooxamida (cor verde) e provêm do encamisamento dos projéteis.",
+      "D": "Os compostos sulfurados, presentes em qualquer tipo de pólvora, são revelados pelo rodizonato de sódio com coloração violeta, sendo o chumbo detectado pela reação da azida de sódio com o iodo, que tinge de verde as áreas contaminadas pelo encamisamento do projétil."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 5.5.4, nitritos são revelados pelo reagente de Griess (rosada); chumbo, pelo rodizonato de sódio (violeta/púrpura); cobre, pela ditiooxamida ou ácido rubeânico (verde); e os sulfurados, presentes apenas na pólvora negra, pela reação de azida de sódio com iodo (suporte incolor). A alternativa A embaralha reagentes e cores. A C troca as origens e os reagentes de cobre e nitritos. A D erra ao dizer que os sulfurados estão em qualquer pólvora (só na negra) e ao trocar os reagentes de chumbo e sulfurados.",
+    "referencia": "PDF, Cap. 5, item 5.5.4",
+    "nivel": "dificil"
+  }
+]

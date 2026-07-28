@@ -1,0 +1,100 @@
+[
+  {
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "enunciado": "Considerando a classificação geral das armas adotada no material, na qual a arma de fogo se enquadra, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A arma de fogo é uma arma de arremesso simples, pois expele projéteis substituíveis que constituem parte de sua munição, tal como ocorre com dardos, lanças e granadas de mão.",
+      "B": "A arma de fogo é uma arma de arremesso complexa, categoria das armas dotadas de um aparato lançador que arremessa projéteis substituíveis, na qual também se incluem catapultas, bestas e arcos.",
+      "C": "A arma de fogo é uma arma manual, apropriada ao combate corpo a corpo e que funciona como prolongamento do braço do atirador, distinguindo-se das armas de arremesso simples e complexas.",
+      "D": "A arma de fogo é uma arma imprópria, pois, embora não concebida originalmente como arma, pode eventualmente ser utilizada para arremessar projéteis à distância do atirador que a maneja."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2, a arma de fogo é arma de arremesso complexa: constituída de um aparato lançador por meio do qual se lançam projéteis substituíveis (parte da munição), categoria que inclui catapultas, bestas, arcos, revólveres e pistolas. A alternativa A a classifica como arremesso simples (lançada diretamente pela mão, como dardos e granadas). A C a trata como arma manual (combate corpo a corpo). A D a chama de imprópria, quando a arma de fogo é arma própria, concebida com essa finalidade.",
+    "referencia": "PDF, Cap. 2, seção 2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "enunciado": "A definição de arma de fogo adotada no material exige a coexistência de três elementos essenciais. Sobre esses elementos e suas funções, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São o aparato arremessador, a carga de projeção e o projétil, e a ausência de qualquer deles descaracteriza a arma de fogo, restando um objeto quando muito contundente, mas não uma arma de fogo.",
+      "B": "São o aparato arremessador, a cápsula de espoletamento e o estojo, competindo ao estojo guiar o projétil e servir-lhe de conduto até que a expansão dos gases lhe imprima a velocidade de saída.",
+      "C": "São o cano, o sistema de percussão e a coronha, e a coexistência apenas do cano com a carga de projeção já basta para caracterizar tecnicamente o objeto como uma arma de fogo apta ao disparo.",
+      "D": "São o aparato arremessador, a carga de projeção e o projétil, cabendo ao aparato arremessador a produção de grande volume de gases destinado a imprimir velocidade ao projétil no interior do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.1, os elementos essenciais são o aparato arremessador (arma propriamente dita), a carga de projeção e o projétil, exigindo-se a coexistência dos três; faltando um, há um objeto talvez contundente, não uma arma de fogo. A alternativa B troca dois elementos (cápsula e estojo) e atribui ao estojo a função de guiar o projétil, que é do aparato arremessador. A C substitui os elementos e afirma bastar cano mais carga. A D nomeia os três corretamente, mas atribui ao aparato arremessador a função da carga de projeção (produzir os gases).",
+    "referencia": "PDF, Cap. 2, seção 2.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "enunciado": "Sobre a anatomia do estojo do cartucho de munição e a classificação segundo a borda do culote, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A boca do estojo é a extremidade posterior e espessa que aloja a cápsula de espoletamento e recebe a estampa da base, enquanto o culote é a parte anterior, na qual fica engastado o projétil da munição.",
+      "B": "O estojo é o elemento ativo do cartucho, pois participa da combustão da carga de projeção e é expelido pelo cano logo após o projétil, sendo classificado em rim, semi-rim e rimless conforme o calibre.",
+      "C": "A parte anterior do estojo é a boca, onde se engasta o projétil, e a posterior é o culote; quanto à borda, o culote pode ser saliente (rim, revólver), semissaliente (semi-rim) ou sem borda (rimless, pistola).",
+      "D": "Os estojos estrangulados, denominados garrafas, são próprios das munições de revólver de baixa potência, ao passo que os cilíndricos são reservados aos rifles de calibres 5,56 e 7,62 OTAN."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.2.1, a parte anterior do estojo é a boca (onde se engasta o projétil) e a posterior é o culote; quanto à borda, classifica-se em rim (saliente, revólver), semi-rim (semissaliente) e rimless (sem borda, pistola). A alternativa A inverte boca e culote. A B erra ao chamar o estojo de elemento ativo: ele é inerte, não participa da combustão nem é expelido. A D inverte os exemplos: garrafas (estrangulados) são de rifles de alta potência e pequeno calibre, como 5,56 e 7,62 OTAN.",
+    "referencia": "PDF, Cap. 2, seção 2.2.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "enunciado": "A respeito da cápsula de espoletamento, de sua estrutura interna e do sistema de fogo circular, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Existem três tipos de espoletas conforme a estrutura interna — Boxer, Berdan e bateria —, e todas necessitam de uma bigorna, superfície rígida de impacto contra a qual a mistura é comprimida pelo percussor.",
+      "B": "Os cartuchos de fogo circular possuem cápsula de espoletamento montada no centro do culote, comunicando-se com o interior do estojo por orifícios denominados eventos, à semelhança do fogo central.",
+      "C": "A bigorna é o pequeno recipiente metálico que aloja a mistura iniciadora, ao passo que os eventos são as três variedades de espoleta empregadas nos cartuchos de fogo central de uso mais difundido.",
+      "D": "A mistura iniciadora dispensa sensibilidade a choques mecânicos, pois sua deflagração decorre exclusivamente da variação de pressão gerada no interior do estojo no instante do disparo da arma."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.2.2, há três tipos de espoleta (Boxer, Berdan e bateria) e todas necessitam de bigorna, superfície rígida de impacto contra a qual o percussor comprime a mistura. A alternativa B erra: o fogo circular não tem cápsula diferenciada — a escorva fica na borda oca do próprio estojo. A C confunde os conceitos: a bigorna é a superfície de impacto (não o recipiente), e os eventos são orifícios de comunicação (não tipos de espoleta). A D contraria o texto, que aponta a sensibilidade a choques mecânicos como característica principal da mistura.",
+    "referencia": "PDF, Cap. 2, seção 2.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "enunciado": "Sobre a carga de projeção do cartucho moderno e a distinção entre pólvoras vivas e progressivas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Pólvora de base simples é a constituída de nitrocelulose e nitroglicerina, e a de base dupla, apenas de nitrocelulose, sendo a geometria dos grãos irrelevante para a velocidade de queima, que depende unicamente da pressão atingida no interior da câmara de combustão.",
+      "B": "As pólvoras vivas, usadas em armas curtas, queimam de forma mais intensa e rápida, pois o cano curto oferece menos tempo para conferir a máxima velocidade ao projétil; as progressivas, das armas longas, queimam mais lentamente.",
+      "C": "As pólvoras progressivas equipam as armas curtas e queimam rapidamente, ao passo que as vivas equipam as armas longas e queimam lentamente, aproveitando o maior comprimento do cano dessas armas.",
+      "D": "A carga de projeção necessita captar oxigênio do ar para produzir os gases de expansão, motivo pelo qual a pólvora negra foi substituída pelas pólvoras químicas, mais eficientes na captação atmosférica."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.2.3, as pólvoras vivas (armas curtas) queimam de forma mais intensa e rápida, pois o cano curto dá menos tempo para conferir velocidade máxima ao projétil, e as progressivas (armas longas) queimam mais lentamente. A alternativa A inverte base simples e dupla e nega o papel da geometria dos grãos. A C troca vivas por progressivas. A D erra: o propelente produz gases sem necessitar de oxigênio, e a pólvora negra foi substituída por ineficiência de combustão e fumaça, não por captação atmosférica.",
+    "referencia": "PDF, Cap. 2, seção 2.2.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "enunciado": "Sobre os projéteis semiencamisados e encamisados e a função do encamisamento, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O encamisamento tem por função aumentar o derretimento do núcleo de chumbo no interior do cano das armas de maior poder de fogo e favorecer o depósito de chumbo metálico nos cavados do cano.",
+      "B": "Os projéteis semiencamisados são constituídos apenas de liga de chumbo, sem qualquer núcleo, ao passo que os encamisados dispensam o núcleo por serem inteiramente confeccionados em latão de alto ponto de fusão, o que os torna próprios dos revólveres de menor poder de fogo.",
+      "C": "O encamisamento, geralmente de latão ou liga de alto ponto de fusão, impede o derretimento do projétil no cano de armas de maior poder de fogo e previne o chumbamento; semiencamisados são usados em revólveres e os totalmente encamisados em pistolas.",
+      "D": "Os projéteis expansivos de desenho especial, como hydra-shok e silvertip, são empregados preferencialmente em revólveres, com o objetivo de reduzir a transferência de energia ao alvo humano em combate."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.2.4, o encamisamento (latão ou liga de alto ponto de fusão) impede o derretimento do projétil no cano de armas de maior poder de fogo e previne o chumbamento; semiencamisados são usados em revólveres e os totalmente encamisados em pistolas. A alternativa A inverte a função (o encamisamento evita o derretimento e o chumbamento). A B erra: semiencamisados têm núcleo de chumbo com encamisamento parcial. A D inverte a arma (expansivos são usados em pistolas) e o objetivo (transferir o máximo de energia ao alvo).",
+    "referencia": "PDF, Cap. 2, seção 2.2.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Arma e Munição (Conceitos e Cartucho)",
+    "enunciado": "A respeito da anatomia e da nomenclatura dos projéteis de liga de chumbo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São compostos de misturas de chumbo com estanho, antimônio e arsênio, apresentam base côncava ou plana, corpo cilíndrico com ranhuras de lubrificação e parte frontal ogival, e a ogiva admite formas como OG, OGPP, PO, CT, CV e SCV.",
+      "B": "São compostos apenas de chumbo puro, têm base sempre plana e corpo desprovido de ranhuras, e sua ogiva se limita às formas ogival (OG) e ponta oca (PO), sem previsão de canto vivo ou cone truncado.",
+      "C": "As ranhuras do corpo do projétil de chumbo destinam-se a receber o encamisamento de latão, e a base côncava tem por função alojar a cápsula de espoletamento durante o disparo, tal como ocorre nos projéteis semiencamisados empregados nas pistolas de maior poder de fogo.",
+      "D": "A nomenclatura OGPP designa o projétil de ponta oca, a CT designa o de canto vivo e a SCV designa o cone truncado, formas todas exclusivas dos projéteis totalmente encamisados de uso em pistolas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.2.4, os projéteis de liga de chumbo combinam chumbo com estanho, antimônio e arsênio, têm base côncava ou plana, corpo cilíndrico com ranhuras (anéis) de lubrificação e frente ogival, admitindo formas OG, OGPP, PO, CT, CV e SCV. A alternativa B erra na composição (não é chumbo puro), na base e no rol de formas. A C atribui às ranhuras e à base funções que não têm (lubrificação é a função das ranhuras). A D troca as siglas (OGPP é ogival de ponta plana, CT é cone truncado, SCV é semicanto vivo) e restringe-as indevidamente aos encamisados.",
+    "referencia": "PDF, Cap. 2, seção 2.2.4",
+    "nivel": "dificil"
+  }
+]
