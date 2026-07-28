@@ -1,0 +1,86 @@
+[
+  {
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "enunciado": "Sobre a coleta de amostras biológicas em cadáveres conforme o estado de conservação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em cadáver falecido há menos de 24 horas, coleta-se sangue, preferencialmente por punção cardíaca; em decomposição avançada, colhem-se tecidos moles junto aos ossos e dentes, na ordem molares, pré-molares, caninos e incisivos sem cáries.",
+      "B": "Em cadáver falecido há menos de 24 horas, a coleta preferencial é de dentes na ordem incisivos, caninos, pré-molares e molares, ao passo que, na decomposição avançada, extrai-se sangue por punção cardíaca.",
+      "C": "Em ossada ou cadáver profundamente carbonizado, colhem-se ossos longos na ordem preferencial de úmero, rádio e ulna, evitando-se o fêmur por sua elevada exposição a contaminantes ambientais externos, especialmente quando o cadáver esteve por longo período em contato direto com o solo.",
+      "D": "Independentemente do estado de conservação, a coleta preferencial é sempre de sangue por punção cardíaca, recorrendo-se a dentes e ossos longos apenas quando não houver amostra de referência da vítima disponível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 15.1.9.10, no cadáver falecido há menos de 24 horas coleta-se sangue, preferencialmente por punção cardíaca; na decomposição avançada, tecidos moles junto aos ossos e dentes, na ordem molares, pré-molares, caninos e incisivos sem cáries. A alternativa B inverte a ordem dos dentes e o material do falecido recente. A C troca a ordem dos ossos longos, que começa pelo fêmur (fêmur, fíbula, outros). A D generaliza a punção cardíaca a qualquer estado, o que contraria a gradação por conservação.",
+    "referencia": "PDF, Cap. 15, item 15.1.9.10",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "enunciado": "Sobre as amostras de referência para exame de DNA e a coleta de material de parentes, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A amostra de referência preferencial é obtida por punção venosa, e, na ausência da própria pessoa, os parentes preferenciais são os filhos, seguidos, em qualquer caso, apenas do cônjuge e de um único irmão biológico.",
+      "B": "Devem-se preferir cabelos e células descamativas como amostra de referência, por conterem grande quantidade de DNA, sendo os pais biológicos os parentes preferenciais na ausência da própria pessoa.",
+      "C": "A referência é coletada de preferência por esfregaço da mucosa oral com suabe; os parentes preferenciais são os pais biológicos e, na ausência de ambos, podem-se usar o cônjuge e pelo menos dois filhos biológicos; a Lei nº 15.295/2025 deixou de reservar a coleta de DNA de condenados exclusivamente ao perito oficial.",
+      "D": "A referência deve ser colhida por método indolor, e, na ausência do pai, colhem-se amostras dos avós maternos, ao passo que, na ausência da mãe, recorre-se aos avós paternos, mantida em qualquer hipótese a exclusividade do perito criminal oficial na coleta de material genético de pessoas condenadas em unidade prisional."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 15.1.9.11, a referência é preferencialmente por esfregaço de mucosa oral com suabe; os parentes preferenciais são os pais biológicos e, na ausência de ambos, o cônjuge e pelo menos dois filhos biológicos; a Lei nº 15.295/2025 deixou de reservar a coleta de DNA de condenados exclusivamente ao perito oficial. A alternativa A prefere punção venosa e restringe indevidamente os parentes. A B recomenda cabelos/células descamativas, que têm pouco DNA e devem ser evitados. A D inverte avós paternos e maternos e mantém a exclusividade do perito, afastada pela lei.",
+    "referencia": "PDF, Cap. 15, item 15.1.9.11",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "enunciado": "A respeito da limpeza do material permanente utilizado na coleta de vestígios biológicos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Basta a eliminação dos microrganismos por fervura, sendo desnecessário remover o DNA presente no material, pois a análise genética posterior distingue o DNA do vestígio do DNA residual do instrumento.",
+      "B": "Como o material se destina à coleta para análise de DNA, não basta eliminar microrganismos: é preciso remover todo o DNA; recomenda-se lavar com sabão neutro, imergir em água sanitária (cloro ativo 2% a 3%) por dez minutos, enxaguar com água e álcool e secar ao ar.",
+      "C": "O material permanente deve ser imerso em água sanitária de cloro ativo entre 20% e 30% por, no mínimo, uma hora, quanto maior o tempo melhor, e em seguida guardado ainda úmido para preservar a ação residual do cloro.",
+      "D": "Os materiais perfurocortantes usados, como lâminas de bisturi, devem ser reutilizados após simples enxágue com álcool, ao passo que o descarte em embalagem rígida de plástico ou papelão é reservado apenas às luvas, toucas e máscaras descartáveis que tenham entrado em contato com o material biológico."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 15.1.4, como o material serve à coleta para DNA, não basta eliminar microrganismos — é preciso remover todo o DNA: lavar com sabão neutro, imergir em água sanitária (cloro ativo 2% a 3%) por dez minutos, enxaguar com água e álcool e secar ao ar. A alternativa A dispensa a remoção do DNA. A C erra a concentração (2-3%, não 20-30%), o tempo (10 min; tempos maiores danificam) e manda guardar úmido. A D recomenda reutilizar perfurocortantes, que são descartáveis e vão para embalagem rígida.",
+    "referencia": "PDF, Cap. 15, item 15.1.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "enunciado": "Sobre a coleta de amostras biológicas para análises toxicológicas em casos ante-mortem, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A urina é a matriz de preferência, coletada em dois frascos (A com no mínimo 60 ml e B com no mínimo 40 ml); o sangue total é colhido em quatro frascos (dois com NaF, um com EDTA e um para coagulação), sem gel separador, não devendo ser congelado.",
+      "B": "O sangue é a matriz de preferência, coletado em dois frascos com gel separador, ao passo que a urina é colhida em quatro frascos e deve ser congelada de imediato para evitar a hemólise do material biológico.",
+      "C": "A urina é coletada em frasco único de no mínimo 100 ml, com tampa de pressão, e o sangue total em dois frascos exclusivamente com EDTA, devendo ambos ser mantidos em temperatura ambiente até a análise.",
+      "D": "O sangue total deve ser colhido em tubos com gel separador para facilitar a análise das drogas adsorvidas ao gel, e a urina, por não conter substâncias de interesse toxicológico, é descartada nos exames ante-mortem, bastando o registro fotográfico do frasco antes do descarte pelo coletor responsável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 15.3.1, a urina é a matriz de preferência, em dois frascos (A ≥ 60 ml, B ≥ 40 ml); o sangue total vai em quatro frascos (dois com NaF, um com EDTA e um para coagulação), sem gel separador (que adsorve drogas), e não deve ser congelado (evita hemólise). A alternativa B inverte urina e sangue, usa gel separador e manda congelar. A C erra o número/volume dos frascos e a temperatura. A D recomenda gel separador (vedado) e descarta a urina, que é justamente a matriz preferencial.",
+    "referencia": "PDF, Cap. 15, item 15.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "enunciado": "Sobre as matrizes biológicas empregadas nas análises toxicológicas post-mortem, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Prefere-se, em casos post-mortem, exclusivamente o conteúdo estomacal, sendo os rins evitados por não acumularem metais e o baço descartado por não reter monóxido de carbono nem cianeto ligados à hemoglobina.",
+      "B": "Nos casos post-mortem preferem-se sangue (femoral, da subclávia ou cardíaco), fígado, conteúdo estomacal e urina; os rins são úteis pelas altas concentrações de metais, o baço pelo monóxido de carbono e cianeto, e o cérebro por ser órgão isolado pouco afetado em traumas.",
+      "C": "O cérebro é evitado nos exames post-mortem por ser facilmente afetado em traumas, ao passo que a bile é a matriz de eleição por não concentrar qualquer classe de fármacos acima dos níveis sanguíneos.",
+      "D": "As substâncias analisadas em toxicologia forense dividem-se em apenas três grupos — gases, drogas e metais —, sendo os pesticidas, os ânions e as substâncias voláteis expressamente excluídos da classificação adotada na disciplina, assim como os venenos de animais peçonhentos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 15.3, nos casos post-mortem preferem-se sangue (femoral, subclávia ou cardíaco), fígado, conteúdo estomacal e urina; os rins servem pelas altas concentrações de metais, o baço pelo monóxido de carbono e cianeto ligados à hemoglobina, e o cérebro por ser órgão isolado pouco afetado em traumas. A alternativa A restringe ao conteúdo estomacal e nega as utilidades de rins e baço. A C inverte o cérebro e afirma que a bile não concentra fármacos (concentra alguns até 1000x). A D reduz os grupos a três, quando são seis (gases, voláteis, drogas, metais, pesticidas e ânions).",
+    "referencia": "PDF, Cap. 15, item 15.3",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "enunciado": "Sobre os testes preliminares para sangue e o uso de reagentes luminescentes em locais de crime, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os testes de cor (como benzidina e Kastle Meyer) têm alta sensibilidade e baixa especificidade — quando positivos, indicam apenas a possibilidade de sangue — e não diferenciam sangue humano de animal; luminol e fluoresceína só devem ser aplicados após a coleta das amostras visíveis.",
+      "B": "Os testes de cor têm baixa sensibilidade e alta especificidade, de modo que um resultado positivo confirma a presença de sangue humano, dispensando qualquer exame confirmatório posterior em laboratório.",
+      "C": "O luminol e a fluoresceína devem ser aplicados sobre toda a cena antes da coleta das manchas visíveis, pois realçam o sangue sem qualquer prejuízo às análises de DNA subsequentes das amostras já visíveis.",
+      "D": "Os testes de cor diferenciam com segurança o sangue humano do animal e devem ser realizados sobre a totalidade do vestígio, ainda que a quantidade de material seja mínima, para garantir a confiabilidade do resultado antes do encaminhamento da amostra ao laboratório para os exames confirmatórios de identificação genética."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 15.1.6.1.1, os testes de cor têm alta sensibilidade e baixa especificidade (positivo indica só a possibilidade de sangue) e não diferenciam sangue humano de animal; luminol e fluoresceína só devem ser aplicados após a coleta das amostras visíveis. A alternativa B inverte sensibilidade/especificidade e dispensa o confirmatório. A C manda aplicar luminol antes de coletar as visíveis. A D afirma que os testes de cor diferenciam humano/animal e mandam consumir todo o vestígio, contrariando a recomendação de preservar a amostra (não realizar o teste se a quantidade for mínima).",
+    "referencia": "PDF, Cap. 15, item 15.1.6.1.1",
+    "nivel": "dificil"
+  }
+]

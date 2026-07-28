@@ -1,0 +1,43 @@
+Capítulo 6 - Fotografia forense - conceitos básicos (Completo) - LOC - Locais de Crime e suas Interfaces
+LOC - Locais de Crime e suas Interfaces Material Completo
+Capítulo 6 - Fotografia forense - conceitos básicos
+Texto integral da apostila, estruturado para leitura
+Índice
+6 Fotografia - Conceitos básicos
+6.1 Brevíssima história da fotografia
+6.2 Fotografia nos tempos atuais
+6.3 Importância da Fotografia Forense
+6.3.1 Fotografia como meio de prova e para ilustração do
+6.3.2 Fotografia como instrumento versus fotografia como
+6.4 Ambiente controlado e náo controlado
+6 Fotografia - Conceitos básicos
+6.1 Brevíssima história da fotografia
+A fotografia surgiu como uma evolução da câmera escura, que é um dispositivo que se baseia na propagação retilínea da luz que, ao passar por um pequeno orifício, se projeta como uma imagem do objeto de forma invertida no seu interior A qualidade evoluiu a partir do início do século XIX com o uso de lentes convergentes em substituição aos simples orifícios das câmeras escuras. Em meados da década de 1 820, o inventor francês Joseph Nicéphore Niépce criou uma câmera primitiva e logrou fixar uma imagem muito grosseira após horas de exposição. Entretanto, as chapas com as imagens reveladas eram sensíveis à luz e, por isso, tinham POUCa durabilidade.
+Contemporâneo de Niépce, Louis Jacques Mandé Daguerre resolveu o problema da durabilidade com um processo de fixação que consistia em mergulhar as chapas com as imagens reveladas em uma solução salina, que tinha poder fixador. No final da década de 1 830, Daguerre desenvolveu o daguerreótipo, que criava uma imagem que não podia ser copiada. Apesar disso, se mostrou viável comercialmente.
+Outros inventores, como William Henry Fox Talbot, criaram inovações que permitiram que o tempo de exposição diminuísse para segundos. A imagem positiva sobre a chapa de cobre foi substituída por imagem negativa, inicialmente em papel e posteriormente em vidro, permitindo a produção de várias cópias. A fotografia foi se tornando cada vez mais popular e não parou de evoluir. Devemos muito aos pioneiros da fotografia que, com sua criatividade e perseverança, permitiram que hoje todos possamos USUfrUir desses equipamentos formidáveis.
+Figura 6 - Princípio da câmera escura.
+Figura 7 - Daguerreótipo.
+6.2 Fotografia nos tempos atuais
+Além dos aparelhos fotográficos convencionais — profissionais ou amadores hoje o perito dispõe de câmeras embutidas em smartphones, drones e outros dispositivos, que abriram um leque e facilitaram sobremaneira a atividade pericial. Nesta apostila, abordaremos os principais equipamentos à disposição dos peritos e discutiremos quais são os mais adequados em diferentes situações.
+6.3 Importância da Fotografia Forense
+Dominar as técnicas da Fotografia Forense é de suma importância para a atividade pericial. Além de ilustrar o laudo, se apresenta como uma excelente ferramenta para o próprio exame do objeto.
+Em outras palavras, ao ilustrá-lo, aproxima o objeto de exame do destinatário do laudo, como ocorre em laudos de local onde as fotografias permitem que o leitor "entre" na cena do crime.
+Como ferramenta, permite que sejam captados detalhes que não seriam percebidos a olho nu. Em um exame documentoscópico, por exemplo, a fotografia pode revelar rasuras no documento ou emendas na escrita imperceptíveis. Embora o Código de Processo Penal Utilize expressões como "descrição detalhada do vestígio [...] podendo ser ilustrada por fotografias" e "peritos, que poderão instruir setJS laudos com fotografias", devemos entender o verbo "poder" como "dever". A ausência de fotografias deve ser a exceção. Importante registrar que a presunção de veracidade do laudo é relativa, podendo, portanto, ser contestada. Com o surgimento do assistente técnico introduzido pela Lei no 1 1 .690, de 9 de junho de 2008, que alterou dispositivos do Código de Processo Penal, aumentou-se a exigência em relação à qualidade do trabalho do perito criminal e a Fotografia Forense neste contexto se mostra fundamental.
+6.3.1 Fotografia como meio de prova e para ilustração do
+laudo A fotografia pode ser Urn meio de prova ou ser utilizada para a ilustração do laudo. Neste último caso, serve apenas para registrar as características do objeto de exame, como dimensões, características físicas, localização etc. E considerada um meio de prova quando demonstra as conclusões acerca da materialidade de um fato, sua dinâmica ou autoria. Pela sua importância, devem ser produzidas com o maior rigor técnico possível.
+O cm 5 cm 10 cm 15 cm 20cm
+Figura 8 - Fotografia ilustrativa do laudo.
+AUTOM PATI 'RIO 2865 E VEíCULO EXER 'CIO TRANSP 84636E ADRIANA ROE
+Figura 9 - Fotografia demonstrando que o documento foi adulterado.
+6.3.2 Fotografia como instrumento versus fotografia como
+obieto Como instrumento, a fotografia se enquadra em uma das hipóteses anteriores, isto é, serve como meio de prova ou para ilustrar o laudo. No outro caso, é o próprio material a ser examinado. Pode ser uma fotografia impressa, objeto de um exame documentoscópico, ou um arquivo digital, quando o exame seró da área de audiovisual. Este não é o escopo da Fotografia Forense.
+Figura 10 - Fotografia de uma carteira de identidade cuja autenticidade foi contestada.
+12 II 21 Entrada
+Figura 11 - Exame de arquivo digital para tentativa de melhorar a qualidade a fim de iden-
+tificar a placa da motocicleta.
+6.4 Ambiente controlado e náo controlado
+Ambiente controlado é aquele, geralmente em local fechado, em que o fotógrafo tem domínio sobre a iluminação e outros aspectos da fotografia. Neste caso, o perito pode utilizar equipamentos como mesa estativa, iluminação artificial contínua ou flash, tripés, etc.
+Pode também escolher o fundo (claro ou escuro), o tipo de luz (suave ou dura), o modelo de máquina mais apropriada, entre outros, permitindo uma melhor qualidade do produto final.
+Ambientes não controlados são, por exemplo, locais de crime.
+Figura 12 - Mesa estativa.
+Figura 13 - Mini estúdio.

@@ -1,0 +1,23 @@
+Capítulo 10 - Captura da realidade (documentação 3D) (Completo) - LOC - Locais de Crime e suas Interfaces
+LOC - Locais de Crime e suas Interfaces Material Completo
+Capítulo 10 - Captura da realidade (documentação 3D)
+Texto integral da apostila, estruturado para leitura
+Índice
+10 Captura da realidade
+10 Captura da realidade
+A captura da realidade consiste em todo um conjunto de técnicas que visam documentar um cenário, local, objetos etc., usando meios digitais diversos. O objetivo é obter cópias digitais destes itens reais, que podem ser analisados, revistos e revisitados em um computador com a possibilidade de se extrair diversos produtos com finalidades periciais.
+Existem diversas técnicas e/0U equipamentos que permitem a captura da realidade, categorizadas da seguinte forma:
+Envolvem o uso de fotografias, portanto dependem de luz, 1 . Passivas natural ou artificial, para funcionarem. Estas se subdividem em: 1 . 1 . Passeios virtuais com fotos 3600 - Geram produtos semelhantes ao Google Street View, onde temos hotspots em que podemos enxergar ao redor, em todos os ângulos, e dali navegar para outros hotspots próximos.
+MOSP - POLÍCIA FEDERAL DIRETORIA TÉCNICO-CIENTIFICA INSTITUTO NACIONAL DE CRIMINALÍSTICA 360' Piso 3 - Hall Principal Anexo digital . TÉRREO plW2
+Figura 48 - Passeio virtual registrando a destruição no prédio da Presidência da República
+causada pelas invasões de 8/01/2023.
+1 .2. Fotogrametria — Técnica em que softwares específicos são utilizados para se combinar centenas ou até milhares de fotos de um mesmo local ou objeto de interesse qualquer, como uma cena de crime, edificação ou mesmo Uma simples pegada. A partir dessa combinação, são gerados produtos 2D, como ortofotos (uma junção contínua e quase imperceptível de todas as fotos capturadas) e modelos de elevação de terreno, ou mesmo produtos 3D.
+Figura 49 - Ortofoto ilustrando o desabamento da ponte entre MA e TO em 22/12/2024. O
+detalhe superior mostra uma ampliação desta mesma imagem, exibindo dois veículos abandonados sobre a ponte. O detalhe inferior exibe a reconstrução 3D destes mesmos elementos. 2. Ativas — Utilizam laser ou padrões de luz emitidos pelo próprio equipamento e capturados de volta. Portanto, não dependem de luz externa para funcionarem. Existem também equipamentos puramente mecânicos (ou seja, que não utilizam ótica) que capturam o formato do objeto por meio de contato físico. Os equipamentos de natureza ótica podem ser divididos em duas categorias. 2.1 . LUZ estruturada — Projetam padrões de luz no objeto de interesse e capturam a deformação destes mesmos padrões. São excelentes em capturar detalhes, mas demorados para se trabalhar, devido ao pequeno alcance e campo de visão reduzido. Isso os torna inadequados para locais maiores ou mesmo para objetos grandes demais.
+Figura 50 - Modelo 3D de crânio produzido com escâner de luz estruturada Artec Spider II.
+2.2. Laser — Funcionam emitindo um feixe de laser e calculando o seu tempo de retorno (tempo de voo) ou diferença de fase de uma onda portadora (lidar). Cada feixe de laser emitido captura um ponto, sendo que são capturados milhares, ou até milhões, de pontos por segundo, gerando um produto chamado de "nuvem de pontos". Os escâneres a laser têm grande alcance, variando com o modelo, sendo ideais para captura de grandes ambientes, embora tenham uma resolução final inferior à dos equipamentos de luz estruturada. Este tipo de equipamento seró o principal foco da próxima seção.
+Figura 51 - Modelo 3D da Igreja que desabou em Salvador, em 05/02/2025.
+Panorâmicas 3600 - 2D Pan02VR 3D Vista Outro Passivo Fotogrametria 3D Structure From Motion Polycam Metashape Drone De 10 outro Captura da realidade Óptico Luz estruturada Ativo Laser PiX4D Recap VSFM Visível -Infraver elho Mecânico Braço
+—articulado
+Interferometria Tempo de voo Linha de varredura
+Figura 52 - Diferentes técnicas de captura de realidade.

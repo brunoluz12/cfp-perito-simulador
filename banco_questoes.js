@@ -39972,5 +39972,243 @@ const questoesDB = [
     "justificativa": "Pela seção 2.5, o MD5 produz 128 bits e o SHA-256 produz 256 bits; a função é determinística (mesma entrada, mesma saída) e unidirecional (do hash não se recupera a entrada). A alternativa B troca os tamanhos e afirma reversibilidade, que a função não tem. A C erra: a saída tem tamanho fixo, independentemente do tamanho da entrada. A D nega o determinismo, quando a função é justamente determinística, o que permite usar o hash como impressão digital.",
     "referencia": "PDF, Cap. 2, seção 2.5",
     "nivel": "dificil"
+  },
+  {
+    "id": 2670,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta de amostras biológicas em cadáveres conforme o estado de conservação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em cadáver falecido há menos de 24 horas, coleta-se sangue, preferencialmente por punção cardíaca; em decomposição avançada, colhem-se tecidos moles junto aos ossos e dentes, na ordem molares, pré-molares, caninos e incisivos sem cáries.",
+      "B": "Em cadáver falecido há menos de 24 horas, a coleta preferencial é de dentes na ordem incisivos, caninos, pré-molares e molares, ao passo que, na decomposição avançada, extrai-se sangue por punção cardíaca.",
+      "C": "Em ossada ou cadáver profundamente carbonizado, colhem-se ossos longos na ordem preferencial de úmero, rádio e ulna, evitando-se o fêmur por sua elevada exposição a contaminantes ambientais externos, especialmente quando o cadáver esteve por longo período em contato direto com o solo.",
+      "D": "Independentemente do estado de conservação, a coleta preferencial é sempre de sangue por punção cardíaca, recorrendo-se a dentes e ossos longos apenas quando não houver amostra de referência da vítima disponível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 15.1.9.10, no cadáver falecido há menos de 24 horas coleta-se sangue, preferencialmente por punção cardíaca; na decomposição avançada, tecidos moles junto aos ossos e dentes, na ordem molares, pré-molares, caninos e incisivos sem cáries. A alternativa B inverte a ordem dos dentes e o material do falecido recente. A C troca a ordem dos ossos longos, que começa pelo fêmur (fêmur, fíbula, outros). A D generaliza a punção cardíaca a qualquer estado, o que contraria a gradação por conservação.",
+    "referencia": "PDF, Cap. 15, item 15.1.9.10",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2671,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as amostras de referência para exame de DNA e a coleta de material de parentes, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A amostra de referência preferencial é obtida por punção venosa, e, na ausência da própria pessoa, os parentes preferenciais são os filhos, seguidos, em qualquer caso, apenas do cônjuge e de um único irmão biológico.",
+      "B": "A referência é coletada de preferência por esfregaço da mucosa oral com suabe; os parentes preferenciais são os pais biológicos e, na ausência de ambos, podem-se usar o cônjuge e pelo menos dois filhos biológicos; a Lei nº 15.295/2025 deixou de reservar a coleta de DNA de condenados exclusivamente ao perito oficial.",
+      "C": "Devem-se preferir cabelos e células descamativas como amostra de referência, por conterem grande quantidade de DNA, sendo os pais biológicos os parentes preferenciais na ausência da própria pessoa.",
+      "D": "A referência deve ser colhida por método indolor, e, na ausência do pai, colhem-se amostras dos avós maternos, ao passo que, na ausência da mãe, recorre-se aos avós paternos, mantida em qualquer hipótese a exclusividade do perito criminal oficial na coleta de material genético de pessoas condenadas em unidade prisional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 15.1.9.11, a referência é preferencialmente por esfregaço de mucosa oral com suabe; os parentes preferenciais são os pais biológicos e, na ausência de ambos, o cônjuge e pelo menos dois filhos biológicos; a Lei nº 15.295/2025 deixou de reservar a coleta de DNA de condenados exclusivamente ao perito oficial. A alternativa A prefere punção venosa e restringe indevidamente os parentes. A B recomenda cabelos/células descamativas, que têm pouco DNA e devem ser evitados. A D inverte avós paternos e maternos e mantém a exclusividade do perito, afastada pela lei.",
+    "referencia": "PDF, Cap. 15, item 15.1.9.11",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2672,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da limpeza do material permanente utilizado na coleta de vestígios biológicos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Basta a eliminação dos microrganismos por fervura, sendo desnecessário remover o DNA presente no material, pois a análise genética posterior distingue o DNA do vestígio do DNA residual do instrumento.",
+      "B": "O material permanente deve ser imerso em água sanitária de cloro ativo entre 20% e 30% por, no mínimo, uma hora, quanto maior o tempo melhor, e em seguida guardado ainda úmido para preservar a ação residual do cloro.",
+      "C": "Como o material se destina à coleta para análise de DNA, não basta eliminar microrganismos: é preciso remover todo o DNA; recomenda-se lavar com sabão neutro, imergir em água sanitária (cloro ativo 2% a 3%) por dez minutos, enxaguar com água e álcool e secar ao ar.",
+      "D": "Os materiais perfurocortantes usados, como lâminas de bisturi, devem ser reutilizados após simples enxágue com álcool, ao passo que o descarte em embalagem rígida de plástico ou papelão é reservado apenas às luvas, toucas e máscaras descartáveis que tenham entrado em contato com o material biológico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 15.1.4, como o material serve à coleta para DNA, não basta eliminar microrganismos — é preciso remover todo o DNA: lavar com sabão neutro, imergir em água sanitária (cloro ativo 2% a 3%) por dez minutos, enxaguar com água e álcool e secar ao ar. A alternativa A dispensa a remoção do DNA. A C erra a concentração (2-3%, não 20-30%), o tempo (10 min; tempos maiores danificam) e manda guardar úmido. A D recomenda reutilizar perfurocortantes, que são descartáveis e vão para embalagem rígida.",
+    "referencia": "PDF, Cap. 15, item 15.1.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2673,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta de amostras biológicas para análises toxicológicas em casos ante-mortem, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O sangue total deve ser colhido em tubos com gel separador para facilitar a análise das drogas adsorvidas ao gel, e a urina, por não conter substâncias de interesse toxicológico, é descartada nos exames ante-mortem, bastando o registro fotográfico do frasco antes do descarte pelo coletor responsável.",
+      "B": "O sangue é a matriz de preferência, coletado em dois frascos com gel separador, ao passo que a urina é colhida em quatro frascos e deve ser congelada de imediato para evitar a hemólise do material biológico.",
+      "C": "A urina é coletada em frasco único de no mínimo 100 ml, com tampa de pressão, e o sangue total em dois frascos exclusivamente com EDTA, devendo ambos ser mantidos em temperatura ambiente até a análise.",
+      "D": "A urina é a matriz de preferência, coletada em dois frascos (A com no mínimo 60 ml e B com no mínimo 40 ml); o sangue total é colhido em quatro frascos (dois com NaF, um com EDTA e um para coagulação), sem gel separador, não devendo ser congelado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 15.3.1, a urina é a matriz de preferência, em dois frascos (A ≥ 60 ml, B ≥ 40 ml); o sangue total vai em quatro frascos (dois com NaF, um com EDTA e um para coagulação), sem gel separador (que adsorve drogas), e não deve ser congelado (evita hemólise). A alternativa B inverte urina e sangue, usa gel separador e manda congelar. A C erra o número/volume dos frascos e a temperatura. A D recomenda gel separador (vedado) e descarta a urina, que é justamente a matriz preferencial.",
+    "referencia": "PDF, Cap. 15, item 15.3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2674,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as matrizes biológicas empregadas nas análises toxicológicas post-mortem, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nos casos post-mortem preferem-se sangue (femoral, da subclávia ou cardíaco), fígado, conteúdo estomacal e urina; os rins são úteis pelas altas concentrações de metais, o baço pelo monóxido de carbono e cianeto, e o cérebro por ser órgão isolado pouco afetado em traumas.",
+      "B": "Prefere-se, em casos post-mortem, exclusivamente o conteúdo estomacal, sendo os rins evitados por não acumularem metais e o baço descartado por não reter monóxido de carbono nem cianeto ligados à hemoglobina.",
+      "C": "O cérebro é evitado nos exames post-mortem por ser facilmente afetado em traumas, ao passo que a bile é a matriz de eleição por não concentrar qualquer classe de fármacos acima dos níveis sanguíneos.",
+      "D": "As substâncias analisadas em toxicologia forense dividem-se em apenas três grupos — gases, drogas e metais —, sendo os pesticidas, os ânions e as substâncias voláteis expressamente excluídos da classificação adotada na disciplina, assim como os venenos de animais peçonhentos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 15.3, nos casos post-mortem preferem-se sangue (femoral, subclávia ou cardíaco), fígado, conteúdo estomacal e urina; os rins servem pelas altas concentrações de metais, o baço pelo monóxido de carbono e cianeto ligados à hemoglobina, e o cérebro por ser órgão isolado pouco afetado em traumas. A alternativa A restringe ao conteúdo estomacal e nega as utilidades de rins e baço. A C inverte o cérebro e afirma que a bile não concentra fármacos (concentra alguns até 1000x). A D reduz os grupos a três, quando são seis (gases, voláteis, drogas, metais, pesticidas e ânions).",
+    "referencia": "PDF, Cap. 15, item 15.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2675,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os testes preliminares para sangue e o uso de reagentes luminescentes em locais de crime, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os testes de cor têm baixa sensibilidade e alta especificidade, de modo que um resultado positivo confirma a presença de sangue humano, dispensando qualquer exame confirmatório posterior em laboratório.",
+      "B": "Os testes de cor (como benzidina e Kastle Meyer) têm alta sensibilidade e baixa especificidade — quando positivos, indicam apenas a possibilidade de sangue — e não diferenciam sangue humano de animal; luminol e fluoresceína só devem ser aplicados após a coleta das amostras visíveis.",
+      "C": "O luminol e a fluoresceína devem ser aplicados sobre toda a cena antes da coleta das manchas visíveis, pois realçam o sangue sem qualquer prejuízo às análises de DNA subsequentes das amostras já visíveis.",
+      "D": "Os testes de cor diferenciam com segurança o sangue humano do animal e devem ser realizados sobre a totalidade do vestígio, ainda que a quantidade de material seja mínima, para garantir a confiabilidade do resultado antes do encaminhamento da amostra ao laboratório para os exames confirmatórios de identificação genética."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 15.1.6.1.1, os testes de cor têm alta sensibilidade e baixa especificidade (positivo indica só a possibilidade de sangue) e não diferenciam sangue humano de animal; luminol e fluoresceína só devem ser aplicados após a coleta das amostras visíveis. A alternativa B inverte sensibilidade/especificidade e dispensa o confirmatório. A C manda aplicar luminol antes de coletar as visíveis. A D afirma que os testes de cor diferenciam humano/animal e mandam consumir todo o vestígio, contrariando a recomendação de preservar a amostra (não realizar o teste se a quantidade for mínima).",
+    "referencia": "PDF, Cap. 15, item 15.1.6.1.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2676,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de escoriação produzidos por instrumentos contundentes, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A escoriação em placa é a que apresenta forma de arco, produzida pela pressão de unhas, ao passo que a escoriação ungueal tem uma dimensão muito maior que a outra, definindo aspecto de linearidade.",
+      "B": "Na escoriação há retirada da derme, camada mais profunda da pele, expondo a epiderme, e todas as suas formas resultam necessariamente da ação perpendicular de instrumentos perfurantes sobre o segmento corporal.",
+      "C": "A escoriação em placa é definida em duas dimensões (atrito com superfícies rugosas, como asfalto); a linear tem uma dimensão muito maior que a outra; e a ungueal ou arciforme, em forma de arco, decorre da pressão de unhas.",
+      "D": "As escoriações lineares apresentam a forma de arco e são relevantes nos crimes sexuais por permitirem recolher material do agressor sob as unhas da vítima, ao passo que as ungueais definem-se em duas dimensões amplas, produzidas em geral pelo atrito com superfícies rugosas como o asfalto e o concreto."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 19.2.1, a escoriação em placa é definida em duas dimensões (atrito com superfícies rugosas, como asfalto); a linear tem uma dimensão muito maior que a outra; e a ungueal (arciforme) tem forma de arco, produzida por unhas. A alternativa A troca em placa e ungueal. A C inverte as camadas (retira-se a epiderme, expondo a derme). A D atribui às lineares a forma de arco e a relevância nos crimes sexuais, que são próprias das ungueais.",
+    "referencia": "PDF, Cap. 19, item 19.2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2677,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ainda sobre as lesões contusas que mantêm a integridade da pele, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A rubefação decorre da ruptura de vasos calibrosos com acúmulo de sangue e distensão dos tecidos, ao passo que o hematoma é apenas uma congestão passageira do tecido, sem ruptura vascular, como nas marcas de tapas.",
+      "B": "O hematoma distingue-se da equimose apenas pela ausência de qualquer extravasamento de sangue, sendo o espectro equimótico o método que estima a largura do instrumento contundente a partir da coloração da lesão e do grau de distensão dos tecidos sobre o plano ósseo subjacente ao ferimento.",
+      "C": "As sugilações são hematomas profundos sobre plano ósseo, também chamados bossa sanguínea, ao passo que a equimose é um tipo leve de sugilação relacionada a manobras eróticas, como beijos e chupões.",
+      "D": "A equimose forma-se por infiltrado sanguíneo da ruptura de pequenos vasos e pode revelar a forma do instrumento, com estimativa temporal pelo espectro equimótico; a rubefação é mera congestão sem ruptura de vasos, de desaparecimento rápido."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 19.2.1, a equimose resulta do infiltrado sanguíneo pela ruptura de pequenos vasos, pode revelar a forma do instrumento e permite estimativa temporal pelo espectro equimótico; a rubefação é mera congestão, sem ruptura de vasos, de desaparecimento rápido. A alternativa A inverte rubefação e hematoma. A C troca sugilação e equimose (a sugilação é a equimose leve das manobras eróticas; a bossa sanguínea é o hematoma sobre plano ósseo). A D nega o extravasamento no hematoma (que existe, em vasos calibrosos) e diz que o espectro equimótico mede a largura do instrumento, quando estima o tempo.",
+    "referencia": "PDF, Cap. 19, item 19.2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2678,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das lesões por instrumentos cortantes e dos termos especiais a elas associados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As feridas incisas têm bordas regulares e nítidas, com maior extensão que profundidade; o esgorjamento é a secção da parte anterior do pescoço, o degolamento a secção pela parte posterior e a decapitação a separação apenas da cabeça em relação ao tronco.",
+      "B": "As feridas incisas têm maior profundidade que extensão e apresentam extremidades angulares em ambos os lados, sendo a decapitação a divisão do corpo em várias partes por amputação ou desarticulação.",
+      "C": "As feridas incisas têm bordas irregulares e denteadas, com pontes de tecido unindo as bordas, e o esgorjamento designa a secção quase total do pescoço feita por sua parte posterior.",
+      "D": "O degolamento designa a secção da parte anterior do pescoço, o esgorjamento a divisão do corpo em partes e o esquartejamento a separação completa apenas da cabeça em relação ao tronco da vítima examinada, sendo todos esses termos aplicáveis exclusivamente às lesões produzidas por instrumentos contundentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 19.2.2, as feridas incisas têm bordas regulares e nítidas, com maior extensão que profundidade; o esgorjamento é a secção da parte anterior do pescoço, o degolamento a secção pela parte posterior e a decapitação a separação apenas da cabeça do tronco. A alternativa A dá às incisas características das feridas contusas (bordas denteadas, pontes de tecido) e define mal o esgorjamento. A B atribui às incisas maior profundidade e extremidades angulares (próprias das perfurocortantes) e confunde a decapitação com o esquartejamento. A D embaralha esgorjamento, degolamento e esquartejamento.",
+    "referencia": "PDF, Cap. 19, itens 19.2.1 e 19.2.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2679,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as feridas perfuro-incisas produzidas por instrumentos perfurocortantes e as linhas de clivagem de Langer, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Uma extremidade angular e a outra arredondada indicam lâmina de dois gumes, e duas extremidades angulares indicam lâmina de um só gume; a largura da lâmina é lida diretamente pela abertura da ferida, sem juntar as bordas.",
+      "B": "Uma extremidade angular e outra arredondada indicam lâmina de um só gume; duas extremidades angulares, lâmina de dois gumes; a largura só se estima juntando as bordas, e a abertura da lesão é maior quando seu comprimento cruza as linhas de clivagem de Langer.",
+      "C": "As feridas perfuro-incisas têm hemorragia externa abundante e extensão sempre maior que a profundidade, e a abertura da lesão é máxima quando seu comprimento é paralelo às linhas de clivagem de Langer da região atingida.",
+      "D": "As linhas de clivagem de Langer são determinadas pela direção dos vasos sanguíneos superficiais, de modo que incisões paralelas a elas produzem cicatriz disforme e irregular, e incisões perpendiculares, cicatriz linear, tornando a largura da lâmina diretamente mensurável pela simples observação da abertura da ferida."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 19.2.3, uma extremidade angular e outra arredondada indicam lâmina de um só gume; duas angulares, lâmina de dois gumes; a largura só se estima juntando as bordas; e a abertura é maior quando o comprimento da lesão cruza (é perpendicular a) as linhas de clivagem de Langer. A alternativa A inverte a correspondência das extremidades e afirma leitura direta da largura. A C atribui hemorragia externa abundante (a hemorragia é escassa, interna) e inverte a relação com as linhas de Langer. A D define mal as linhas de Langer (são fibras colágenas/elásticas) e inverte o efeito das incisões.",
+    "referencia": "PDF, Cap. 19, item 19.2.3",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2680,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as orlas que circundam o orifício de entrada nas lesões por projétil de arma de fogo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A orla de contusão só está presente nos disparos a curta distância, ao passo que a orla de enxugo (limpeza) aparece independentemente da distância, formada pela ação contundente do projétil sobre a pele.",
+      "B": "A orla de enxugo está invariavelmente presente em todo disparo, a curta ou longa distância, e é produzida pelos gases inflamados que escapam do cano, ao passo que a orla de contusão é composta de fuligem facilmente removível com um tecido levemente umedecido.",
+      "C": "A orla de contusão circunda o orifício de entrada pela ação contundente do projétil e está sempre presente, independentemente da distância; a orla de enxugo (limpeza) resulta dos resíduos (pólvora, graxa) deixados pelo projétil e, havendo vestes, fica restrita ao tecido.",
+      "D": "A orla de contusão e a orla de enxugo aparecem exclusivamente no orifício de saída, sendo a primeira formada por grânulos de pólvora incombustos que penetram na derme e a segunda por material orgânico trazido pelo projétil."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 19.2.6.1, a orla de contusão circunda o orifício de entrada pela ação contundente do projétil e está sempre presente, qualquer que seja a distância; a orla de enxugo (limpeza) decorre dos resíduos (pólvora, graxa) deixados pelo projétil e, havendo vestes, fica restrita ao tecido. A alternativa A inverte contusão e enxugo. A C confunde a orla de enxugo com fenômenos das zonas de chamuscamento/esfumaçamento. A D situa as orlas no orifício de saída, quando são do de entrada.",
+    "referencia": "PDF, Cap. 19, item 19.2.6.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2681,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito dos sinais característicos de tiro encostado ou próximo em lesões por projétil de arma de fogo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A Câmara de Mina de Hoffmann aparece somente em disparos a longa distância, sem contato do cano com a pele, e caracteriza-se pela deposição de grânulos de pólvora incombustos que penetram profundamente na derme, constituindo a chamada zona de tatuagem ao redor do orifício de entrada do projétil.",
+      "B": "O sinal de Benassi é a ruptura estrelada dos tecidos por tiro encostado sobre região óssea, ao passo que a Câmara de Mina de Hoffmann é o cone de fuligem depositado na tábua óssea do crânio em disparos próximos.",
+      "C": "O sinal de Puppe-Werkgartner corresponde ao cone de impurezas e fuligem na tábua óssea do crânio, e o sinal de Benassi é a marca circular do cano impressa por queimadura ao redor do orifício de entrada.",
+      "D": "A Câmara de Mina de Hoffmann é típica de tiro encostado sobre região óssea, na qual os gases penetram sob a pele e provocam ruptura estrelada e evertida; o sinal de Puppe-Werkgartner é a marca do cano ao redor do orifício, por queimadura."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 19.2.6.1, a Câmara de Mina de Hoffmann é típica de tiro encostado sobre região óssea (gases penetram sob a pele, ruptura estrelada e evertida) e o sinal de Puppe-Werkgartner é a marca do cano ao redor do orifício, por queimadura. A alternativa B troca Benassi e Hoffmann. A C troca Puppe-Werkgartner (marca do cano) e Benassi (cone de fuligem na tábua óssea). A D situa a Câmara de Mina de Hoffmann em longa distância, quando é de tiro encostado.",
+    "referencia": "PDF, Cap. 19, item 19.2.6.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2682,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os fenômenos cadavéricos transformativos aplicados à cronotanatognose, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A putrefação, principal fenômeno transformativo destrutivo causado pela ação bacteriana, evolui classicamente na ordem: coloração verde abdominal, circulação póstuma gasosa, enfisema putrefativo e liquefação dos tecidos; a mumificação, a saponificação e a maceração são fenômenos conservadores.",
+      "B": "A putrefação evolui na ordem: enfisema putrefativo, liquefação dos tecidos, coloração verde abdominal e circulação póstuma gasosa, sendo a mumificação e a saponificação suas duas primeiras fases destrutivas.",
+      "C": "A mumificação, a saponificação e a maceração são fases evolutivas da putrefação, ao passo que a coloração verde abdominal e a liquefação dos tecidos constituem fenômenos conservadores que retardam a decomposição do cadáver.",
+      "D": "A putrefação é um fenômeno cadavérico imediato, decorrente da cessação das funções vitais, cuja primeira fase é a liquefação dos tecidos, seguida da coloração verde abdominal, sendo acelerada em ambientes frios e secos e retardada nas regiões tropicais de clima quente e úmido do país."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 19.2.7, a putrefação (principal fenômeno transformativo destrutivo, por ação bacteriana) evolui na ordem coloração verde abdominal, circulação póstuma gasosa, enfisema putrefativo e liquefação dos tecidos; mumificação, saponificação e maceração são fenômenos conservadores. A alternativa A embaralha a ordem e trata conservadores como fases da putrefação. A C troca conservadores e fases da putrefação. A D classifica a putrefação como fenômeno imediato, inverte a ordem das fases e diz que é acelerada no frio (é acelerada no calor).",
+    "referencia": "PDF, Cap. 19, item 19.2.7",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2683,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as recomendações técnicas nos locais de morte por precipitação e por afogamento, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na precipitação, a projeção oblíqua com grande afastamento horizontal indica queda acidental, ao passo que a projeção perpendicular indica ação criminosa, na qual a vítima recebe forte impulso inicial do agressor.",
+      "B": "Na precipitação, a projeção perpendicular ou quase perpendicular sugere queda acidental, e a projeção oblíqua com afastamento horizontal sugere ação voluntária ou criminosa; no afogamento, busca-se o cogumelo de espuma e a pele anserina (arrepiada).",
+      "C": "No afogamento, a ausência de cogumelo de espuma e de cianose confirma a origem acidental da morte, dispensando o exame das vias respiratórias e a pesquisa de sinais internos de asfixia no IML.",
+      "D": "Na morte por precipitação, a presença de obstáculos entre o ponto de projeção e o de repouso é típica dos casos voluntários, nos quais a vítima escolhe deliberadamente locais com anteparos para amortecer a queda, ao passo que a projeção perpendicular indica invariavelmente ação de terceiro."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 19.4, na precipitação a projeção perpendicular sugere acidente e a oblíqua com afastamento horizontal sugere ação voluntária ou criminosa; no afogamento, buscam-se o cogumelo de espuma e a pele anserina (arrepiada). A alternativa B inverte perpendicular/oblíqua e a interpretação. A C erra: a ausência desses sinais não confirma acidente, e o exame das vias respiratórias e dos sinais internos de asfixia é recomendado. A D inverte a lógica dos obstáculos: nos casos voluntários a vítima geralmente escolhe locais sem obstáculos.",
+    "referencia": "PDF, Cap. 19, itens 19.4.3 e 19.4.5",
+    "nivel": "dificil"
   }
 ];

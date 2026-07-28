@@ -1,0 +1,20 @@
+Capítulo 9 - Arquivos digitais (Completo) - LOC - Locais de Crime e suas Interfaces
+LOC - Locais de Crime e suas Interfaces Material Completo
+Capítulo 9 - Arquivos digitais
+Texto integral da apostila, estruturado para leitura
+Índice
+9 Arquivos digitais
+9.1 Hash e cadeia de custódia
+9.2 Dossiê
+9 Arquivos digitais
+9.1 Hash e cadeia de custódia
+A função hash é um algoritmo de autenticação digital que gera para cada arquivo uma sequência individualizadora de caracteres, com o objetivo de garantir a integridade dos dados e a cadeia de custódia.
+Na Polícia Federal, é muito comum o uso do SHA-256, que é uma função hash que transforma qualquer arquivo digital em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits).
+Se o perito necessitar encaminhar em anexo ao laudo uma pasta contendo muitos arquivos de imagens — ou de vídeos — pode ser inviável inserir no laudo uma tabela com o hash de todos eles.
+Uma alternativa simples é colocá-los numa mesma pasta e gerar um arquivo .txt com a relação dos hashes de cada urn desses arquivos. Depois, basta calcular o hash desse arquivo .txt e este sim consignar no laudo.
+Principais formatos de arquivos de imagem O JPEG/JPG (Joint Photographic Experts Group) é o mais comum para fotografia. Comprime bastante o arquivo, perdendo urn pouco da qualidade, mas gera arquivos leves. Uma desvantagem do JPEG é que cada vez que o arquivo é salvo, ocorre nova compressão da imagem e a qualidade diminui de forma cumulativa. O TIFF (Tagged Image File Format) é utilizado por profissionais para impressão e edição de alta qualidade, pois preserva todos os detalhes. Entretanto, gera arquivos pesados.
+O RAW (Formato Cru) é o arquivo de formato bru o que preserva os dados originais de luz e cor sem processamento, compressão ou perda de qualidade. Gera arquivos pesados. E importante para fotógrafos que precisam da máxima qualidade para pós-processamento.
+Formatos proprietários de RAW são extensões de arquivo exclusivas de cada fabricante de câmera (como Canon, Nikon e Sony), que exigem softwares específicos para abri-los e editá-los.
+9.2 Dossiê
+Quando se realiza um registro fotográfico, os arquivos correspondentes não devem ser descartados. E desejável que, para cada exame, o perito crie um dossiê contendo todos os arquivos de imagens, arquivando-o no seu computador e/0U em pasta de rede.
+Isso pode ser útil no caso de solicitação de laudo complementar. Também se presta como uma salvaguarda do perito em caso de alguma contestação.

@@ -1,0 +1,105 @@
+Capítulo 14 - Vestígios químicos (Completo) - LOC - Locais de Crime e suas Interfaces
+LOC - Locais de Crime e suas Interfaces Material Completo
+Capítulo 14 - Vestígios químicos
+Texto integral da apostila, estruturado para leitura
+Índice
+14 Coleta de vestígios químicos
+14.1 Proteção ao meio ambiente
+14.2 Rotas de exposição aos agentes químicos
+14.2.1 Inalação
+14.2.2 Contato com a pele
+14.2.3 Ingestão
+14.2.4 Inieçáo
+14.3 Reconhecimento e avaliação de perigos químicos
+14.4 Técnicas de amostragem
+14.5 Acondicionamento de amostras
+14.6 Identificação de amostras
+14 Coleta de vestígios químicos
+A coleta de vestígios em local de crime é um procedimento usual para o perito criminal. Contudo, deve-se revestir de técnicas adequadas a fim de manter a integridade dos vestígios e maximizar a segurança pessoal. Portanto, é fundamental que ele saiba reconhecer os tipos de vestígios entre as classes de químicos, biológicos e físicos, bem como os riscos e cuidados inerentes a cada um deles. Em locais de laboratório de refino de cocaína, inevitavelmente, o perito iró se deparar com pelo menos dois dos vestígios acima citados: os químicos e os físicos. Os vestígios químicos podem representar um risco em potencial tanto para a integridade física do perito como para terceiros e para o meio ambiente. A forma de lidar com substâncias químicas implica maximizar uma operação segura ou insegura.
+Assim, descrevem-se, nesta unidade, procedimentos imprescindíveis de boas práticas, que possibilitarão ao perito operar com segurança em locais com vestígios químicos, os quais também representam um tipo de prova material do ato criminoso.
+14.1 Proteção ao meio ambiente
+Muitas substâncias químicas são potencialmente danosas ao meio ambiente, podendo poluir recursos hídricos, fauna e flora de uma determinada biota, cujos prejuízos, na maioria das vezes, são de grandes proporções, senão irreparáveis. Portanto, os seguintes cuidados devem ser levados em consideração em local de refino de cocaína, tanto no meio rural como no meio urbano:
+misture substâncias químicas apenas quando instruído sobre como fazê-lo por um profissional qualificado (por ex.: um químico);
+evite remover substâncias químicas expostas à ação de chuva e ventos fortes;
+evite a proximidade delas com fontes de combustão (chamas abertas); não despeie substâncias químicas em pias ou banheiros;
+não despeie substâncias químicas diretamente no solo sem que haja um tratamento de neutralização de seus efeitos nocivos. E importante lembrar da existência de lençóis freáticos que podem carregar substâncias tóxicas por longas distâncias e, assim, contaminar recursos hídricos que abastecem de água potável populações de seres humanos, bem como uma grande variedade de espécies animais e vegetais.
+14.2 Rotas de exposição aos agentes químicos
+O profissional que iró lidar com substâncias químicas deve estar consciente quanto às formas de contaminação que poderão prejudicar a saúde.
+14.2.1 Inalação
+A inalação é a introdução de produto tóxico pelo sistema respiratório. A contaminação pode ocorrer por meio de poeira, vapores, gases, fumaças e aerossóis. Materiais no estado sólido ou líquido também representam riscos porque podem produzir vapores ou gases.
+Recomenda-se, quando possível, manipular as substâncias em áreas ventiladas. Em ambientes confinados (como porões de edificações ou embarcações), é prudente deixá-los arejados por algum tempo antes de adentrá-los. O uso de máscaras apropriadas é fundamental na prevenção de contaminação por inalação.
+14.2.2 Contato com a pele
+A contaminação através da pele pode ocorrer por meio do contato direto ou da absorção. Os danos à saúde decorrem da concentração, da quantidade e do tempo de exposição ao produto químico. Efeitos sistêmicos, tais como vômitos, náuseas, tremores, visão turva, danos ao fígado e rins, choque ou colapso, podem ocorrer quando uma substância química é absorvida pela pele e penetra na corrente sanguínea.
+Equipamentos de segurança, como luvas, óculos e roupas, devem ser Usados.
+14.2.3 Ingestão
+A ingestão pode causar severos danos à boca, à garganta e ao aparelho digestivo. Deve-se prevenir a entrada dessas substâncias pela boca, adotando-se práticas de segurança, como lavar as mãos antes de comer, fumar ou ao usar cosméticos (p. ex.: batom). Não levar alimentos, bebidas ou cigarros em áreas sujeitas à contaminação, independentemente do uso de equipamentos de segurança.
+14.2.4 Inieçáo
+A injeção direta de um agente químico no corpo pode ocorrer por meio de furadas por agulhas, cortes em vidros, metaisou outros objetos cortantes contaminados com a substância química. Nesse caso, a substância entra direto na corrente sanguínea e pode espalhar-se rapidamente.
+Trabalhar sempre usando luvas é uma boa prática de atuação e, se necessário, vestir as mãos com duas ou mais luvas.
+14.3 Reconhecimento e avaliação de perigos químicos
+em campo A Figura 60 ilustra um ambiente típico de laboratório clandestino de refino de cocaína, no qual podem ser observadas diversas substâncias químicas e materiais associados ao processo. Destacam-se, na imagem da esquerda, frascos contendo ácido sulfúrico armazenados nas proximidades da edificação, enquanto a imagem da direita apresenta utensílios comumente utilizados nesse tipo de atividade, como recipientes plásticos, materiais filtrantes (tecidos), reagentes e superfícies improvisadas para secagem. Também são frequentemente encontrados equipamentos e objetos de uso doméstico adaptados, como fornos de micro-ondas, liquidificadores, balanças, além de materiais diversos, como papel alumínio, papel carbono, sacos plásticos, balões de borracha e fitas adesivas.
+Figura 60 - Laboratório clandestino de refino químico de cocaína. FONTE: Fotos da Divisão
+de Controle de Produtos Químicos (DCPQ/DF 2003).
+Ao se deparar com substâncias químicas em ambientes como esse, devem ser observadas as seguintes diretrizes:
+a) Utilize equipamentos de proteção individual adequados ao risco envolvido, tais como luvas, ÓCUIOS de proteção, vestimenta de proteção e respirador apropriado, considerando a natureza da substância, sua forma de exposição e as condições do ambiente;
+b) Sempre que houver dúvida quanto à natureza da substância ou aos riscos envolvidos, adote postura conservadora, tratando-a como potencialmente perigosa;
+c) Sempre que possível, realize a avaliação com o apoio ou sob orientação de profissional com formação na área química ou pericial laboratorial, especialmente quando houver incerteza quanto à natureza da substância ou aos riscos envolvidos;
+d) Leia atentamente o rótulo do recipiente, quando disponível, pois ele pode fornecer informações relevantes sobre a identificação da substância e setJS riscos. Contudo, não se deve confiar exclusivamente nessas informações;
+e) Observe se o recipiente apresenta elementos do sistema de classificação e rotulagem de produtos químicos, como pictogramas de perigo, palavras de advertência e frases de perigo, conforme o Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos (GHS). Esses elementos permitem a identificação rápida de características como inflamabilidade, toxicidade, corrosividade e potencial oxidante;
+f) Sempre que possível, consulte a Ficha de Informações de Segurança de Produtos Químicos (FISPQ), amplamente disponível em bases de dados públicas e nos sítios eletrônicos de fabricantes. A FISPQ contém informações técnicas relevantes, tais como:
+identificação da substância;
+perigos associados;
+medidas de primeiros socorros;
+medidas de combate a incêndio;
+procedimentos em caso de vazamento;
+manuseio e armazenamento;
+controle de exposição e equipamentos de proteção individual; propriedades físico-químicas;
+estabilidade e reatividade;
+informações toxicológicas;
+g) Considere que, em laboratórios clandestinos, é comum a presença de substâncias como solventes orgânicos (acetona, éter, tolueno, hexano), ácidos fortes (ácido sulfúrico e ácido clorídrico), bases, agentes oxidantes (como permanganato de potássio) e compostos voláteis ou tóxicos, os quais podem apresentar riscos significativos de incêndio, explosão, intoxicação ou corrosão;
+h) A identificação preliminar da substância deve priorizar aspectos observáveis, como estado físico, cor, presença de vapores, recipientes associados e contexto do local, sem contato direto ou exposição desnecessária do perito;
+i) Evite trabalhar sozinho, mantendo sempre integração com a equipe envolvida na operação;
+i) Ao abrir recipientes com substâncias químicas, Utilize instrumentos que não produzam faíscas e proceda de forma lenta e cautelosa, especialmente quando se tratar de recipientes sem identificação ou com histórico desconhecido. Deve-se considerar a possibilidade de formação de compostos instáveis, sensíveis a impacto ou fricção; k) Não inale vapores ou odores de substâncias químicas com o objetivo de identificá-las;
+l) Não coma, beba ou fume em áreas com presença de substâncias químicas, nem Utilize lentes de contato durante a atuação nesses ambientes;
+m) Não misture substâncias químicas, exceto para fins de diluição ou neutralização, desde que haja conhecimento técnico para tal; n) Mantenha disponível um kit básico de primeiros socorros para atendimento imediato em caso de exposição acidental.
+A Tabela abaixo apresenta um resumo dos riscos associados a substâncias comumente encontradas nesses locais. Ressalta-se que as informações nela contidas não esgotam as possibilidades de outras substâncias potencialmente perigosas ou tóxicas que podem estar presentes, devendo cada situação ser avaliada de forma individual.
+Tabela - Resumo dos riscos de substâncias comumente encontradas Nome da substância Acetona Hidróxido de amônio Etanol Eter Acido clorídrico (ácido muriático) Acido sulfúrico Querosene Metanol Carbonato de sódio Carbonato de potássio Permanganato de potássio Hidróxido de sódio Risco de explosão Sim Sim Sim Sim Sim2 Sim2 Sim Sim Não Não Sim3 Não Risco de Fogo Sim Não Sim Sim Sim Sim Sim Sim Não Não Sim3 Não Corrosivo ou cáustico Não Sim Sim Sim Sim Sim Não Não Sim Sim Sim Sim Sulfato de sódio Não Não Não (1) O hidróxido de amônio, embora tenha baixa inflamabilidade, pode formar misturas explosivas com o ar em condições específicas.
+(2) Os ácidos sulfúrico e clorídrico, em contato com grande parte dos metais, produzem gás hidrogênio, que é altamente explosivo.
+(3) O permanganato de potássio é um oxidante forte; pode reagir de forma explosiva com ácido sulfúrico ou peróxido de hidrogênio e aumentar a inflamabilidade de materiais combustíveis.
+Atenção: recipientes vazios podem conter vapores suficientes para provocar Uma explosão — não use chama próximo dos mesmos.
+IMPORTANTE: No trato com substâncias químicas, imagine sempre que há riscos. Redobre sua atenção para que a sua segurança física e a de terceiros sejam preservadas.
+14.4 Técnicas de amostragem
+As substâncias químicas encontradas em local de crime devem ser coletadas, acondicionadas e transportadas adequadamente de modo a garantir que o resultado posterior das análises de laboratório seja confiável e preciso. As diretrizes básicas que devem ser observadas ao proceder-se à coleta de amostras, em linhas gerais, são as seguintes:
+a) inspecionar visualmente o local a ser amostrado, procurando por similaridades quanto ao estado físico (sólido, líquido ou gasoso), à forma e à cor das substâncias. Se houver disponibilidade, alguns testes químicos preliminares podem ser realizados para definir a natureza de alguns produtos (ex.: narcoteste);
+b) agrupar os produtos com características semelhantes. Algumas vezes, o material a ser amostrado ió se encontra dividido em pequenos grupos, como, por exemplo, nas apreensões de caixas de substâncias ácidas e solventes orgânicos;
+c) providenciar embalagens individuais de acondicionamento em número suficiente e de modo a evitar o contato e a contaminação cruzada entre as substâncias;
+d) identificar inequivocamente as embalagens, recipientes ou áreas a serem amostradas;
+e) sempre que possível, coletar as amostras em SUas embalagens originais, a fim de diminuir os riscos de acidentes ou alterações de qualquer natureza. Caso contrário, efetuar a coleta de amostras pertinentes, preservando parte do conteúdo principal para a eventualidade de contraprova e/ou manutenção de evidência;
+f) no caso de produtos sólidos ou líquidos acondicionados em várias embalagens, é necessário examinar a integridade dos recipientes ou embalagens e a natureza do produto neles contido. Havendo razoável homogeneidade, o número de amostras a coletar pode ser encontrado pela tabela abaixo. Considerando "n" o número total de itens ou embalagens, o número de amostras a coletar é dado pela tabela abaixo;
+g) no caso de medicamentos, as amostras devem ser constituídas pelo produto acondicionado em sua embalagem mais externa original de fábrica;
+h) no caso de bebidas, defensivos agrícolas, saneantes e produtos comerciais em geral, as amostras devem ser constituídas pela unidade do produto individual, em embalagem original.
+Tabela - Número total de itens ou embalagens e número de amostras a coletar. Elaborado com base em: UNODC (United Nations Office on Drugs and Crime).
+Número de itens ou embalagens Se n < 10 se 10 < n < 100 Sen> 100 Número de amostras Retirar uma amostra de cada unidade.
+Escolher aleatoriamente 10 unidades e retirar uma amostra de cada.
+Escolher aleatoriamente unidades e retirar uma amostra de cada. O resultado de deve ser arredondado ao número inteiro superior mais próximo.
+As quantidades mínimas recomendadas para cada tipo de amostra seguem o exposto na tabela abaixo.
+Tabela - Quantidades mínimas recomendadas de amostra.
+Conteúdo da Embalagem Produto Amostra Mínima 1 a 10 kg Acima de 10 kg Sólido 1 00 gramas Sólido massa 1a 10 L Líquido* 200 ml Acima de 10 L Líquido volume
+Combustível amostrar no mínimo IL por unidade
+Fonte: Procedimentos Recomendados para Coleta de Amostras para Análise de Controle i) as amostras de produtos sólidos deverão ser colhidas de vários pontos dos pacotes (região interna, central e superfície), a fim de se obter uma amostra representativa;
+k) no caso de produtos líquidos, mesmo que aparentemente homogêneos, é recomendável misturar bem o produto antes da coleta. Porém, no caso de éter com formação aparente de resíduos de peróxidos, não homogeneizar sem antes remover os peróxidos. No caso de produtos líquidos heterogêneos (ex.: emulsões, suspensões, etc.), misturar bem o seu conteúdo e imediatamente colher amostras do fundo, do centro e da superfície do recipiente.
+14.5 Acondicionamento de amostras
+A escolha do tipo ideal de invólucro para acondicionamento de amostras depende das características físico-químicas da substância envolvida. De modo geral, as recomendações de acondicionamento de amostras são as seguintes: a) Frasco de vidro neutro, de cor âmbar, de boca estreita, com tampa interna de plástico e tampa externa com rosca.
+Recomendável para solventes orgânicos diversos e soluções aquosas com pH neutro ou ácido.
+Exemplos: Acetona, éter etílico, clorofórmio, diclorometano, tolueno, anidrido acético, hexano, ácido clorídrico, ácido sulfúrico, outros ácidos inorgânicos (exceto ácido fluorídrico), metiletilcetona, metilisobutilcetona, álcoois, éter de petróleo, benzeno, ácido acético, cloreto de acetila, peridrol (água oxigenada a 120 volumes).
+b) Frasco de plástico (polietileno), de boca larga, com tampa interna e externa. Recomendável para substâncias sólidas.
+Exemplos: Sulfato de sódio, permanganato de potássio, óxido de cálcio (cal viva), hidróxido de cálcio (cal apagada ou extinta), carbonato de sódio (soda barrilha), carbonato de potássio, bicarbonato de sódio, bicarbonato de potássio, hidróxido de sódio (soda cáustica), hidróxido de potássio (potassa cáustica).
+Admite-se também a utilização de sacos plásticos vedados com fitas adesivas de boa qualidade para garantir que o material acondicionado não vaze ou seja contaminado.
+c) Frasco de plástico (polietileno), de boca estreita, com t externa com rosca.
+Recomendável para soluções aquosas com pH básico.
+Exemplos: Soluções aquosas dos produtos citados no subitem "b" e soluções de ácido fluorídrico. Esses frascos também poderão ser utilizados para acondicionar ácidos diluídos (ácido clorídrico, ácido sulfúrico, etc).
+Obs.: O ácido fluorídrico não pode ser coletado em recipiente de vidro.
+14.6 Identificação de amostras
+As amostras coletadas devem ser identificadas para poderem ser prontamente relacionadas com um inquérito policial, um item ou lote, ou um local de origem. Recomenda-se a utilização de etiquetas e seu recobrimento com fita adesiva transparente de boa qualidade, a fim de evitar extravios ou possíveis confusões entre amostras.
+Exemplo de etiqueta de identificação:
+Unidade e Seção de quem fez a coleta: SETEC/SR/PF/PA Número da amostra: Amostra NO. 01 / 20 (Subst. Sólida) Quantidade de amostra: 2,50 g (dois gramas e cinquenta centigramas) Número do IPL: IPL 2024.0123456 -SR/PF/PA Local de origem: Belém/ PA Data: 18/05/2026 Coordenadas de localização: (em caso de exame de local ermo) Observações: Exame Preliminar positivo para cocaína Iniciais e
