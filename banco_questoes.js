@@ -39921,5 +39921,56 @@ const questoesDB = [
     "justificativa": "Pela seção 7, são perigos naturais os lustres mal presos, o piso encerado e as dobras nos tapetes; entre os intencionais estão as modificações recentes no ambiente, sendo os toaletes os locais preferidos de ocultação. A alternativa A inverte naturais e intencionais. A C erra: as laterais das pistas são preferidas por franco-atiradores (não são seguras) e recomenda-se criar uma segunda opção de trajeto, também vistoriada. A D contraria os critérios de escolha do local, que consideram facilidade de acesso/ocultação, menor chance de o autor ser visto e maior dano possível.",
     "referencia": "PDF, Cap. 7, seção 7",
     "nivel": "dificil"
+  },
+  {
+    "id": 2667,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os prefixos do Sistema Internacional (SI) para agrupamento de bytes e a notação de bit e byte, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Pela convenção adotada, a letra 'b' minúscula representa um bit e a 'B' maiúscula representa um byte; assim, 7 kb contêm 7.000 bits e 5 MB contêm 5.000.000 de bytes, segundo os prefixos do SI (kilo = 10^3, mega = 10^6).",
+      "B": "A letra 'b' minúscula representa um byte e a 'B' maiúscula representa um bit, de modo que 7 kb equivalem a 7.000 bytes e 5 MB equivalem a 5.000.000 de bits, conforme os prefixos do SI.",
+      "C": "Os prefixos do SI adotados baseiam-se em potências de dois, de modo que 1 kilobyte corresponde exatamente a 1.024 bytes e 1 megabyte a 1.048.576 bytes, sem distinção entre as notações de bit e de byte.",
+      "D": "Um byte corresponde a quatro bits e, por isso, cada símbolo hexadecimal representa um byte completo, de modo que 5 MB equivalem a 20 milhões de bits agrupados segundo os prefixos do Sistema Internacional, no qual a letra 'b' minúscula é reservada ao byte e a maiúscula ao bit."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.1, 'b' minúsculo representa bit e 'B' maiúsculo representa byte; 7 kb contêm 7.000 bits e 5 MB contêm 5.000.000 de bytes, pelos prefixos do SI (kilo = 10^3, mega = 10^6). A alternativa A inverte bit e byte. A C usa potências de dois (1.024), quando a notação aceita atualmente é a do SI (potências de dez). A D erra a definição de byte (são 8 bits, não 4; um símbolo hexadecimal representa 4 bits, meio byte).",
+    "referencia": "PDF, Cap. 2, seção 2.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2668,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das assinaturas de arquivo e da relação entre extensão e tipo do arquivo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A assinatura é a sequência de caracteres após o ponto no nome do arquivo (a extensão), de modo que renomear um documento do Word para \"Apostila.mp3\" altera a sua assinatura interna e o converte em áudio.",
+      "B": "As assinaturas são sequências de bytes internas específicas de cada tipo de arquivo, podendo estar no início e/ou no fim; como independem do nome, renomear um documento do Word para \"Apostila.mp3\" não altera sua assinatura.",
+      "C": "As assinaturas localizam-se sempre no início do arquivo, nunca no fim, e correspondem obrigatoriamente à extensão declarada no nome, de modo que um arquivo sem extensão não possui assinatura interna alguma.",
+      "D": "A extensão do arquivo e sua assinatura interna são sempre coincidentes e imutáveis, razão pela qual não é possível, em nenhum sistema de arquivos, renomear um arquivo do Word atribuindo-lhe a extensão de áudio, pois o sistema operacional recalcula a assinatura a cada renomeação do arquivo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.4, as assinaturas são sequências de bytes internas específicas de cada tipo de arquivo, presentes no início e/ou no fim; como independem do nome, renomear um documento do Word para \"Apostila.mp3\" não altera a assinatura. A alternativa A confunde assinatura com extensão. A C erra ao dizer que a assinatura está sempre no início e sempre coincide com a extensão. A D afirma coincidência imutável entre extensão e assinatura, quando nada impede a renomeação para outra extensão.",
+    "referencia": "PDF, Cap. 2, seção 2.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2669,
+    "disciplina": "Informática Forense",
+    "conteudo": "Cap. 2 - Noções Gerais de Informática",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os algoritmos de resumo (hash) e suas propriedades, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A função de resumo produz uma saída cujo tamanho é proporcional ao tamanho da entrada, de modo que um arquivo de 4 MB gera um hash maior do que um arquivo de 200 kB submetido ao mesmo algoritmo.",
+      "B": "O MD5 produz valores de 256 bits e o SHA-256 valores de 128 bits; por serem funções reversíveis, é possível, a partir do hash, reconstruir integralmente o arquivo de entrada que o originou.",
+      "C": "O MD5 produz valores de hash de 128 bits e o SHA-256 produz valores de 256 bits; a função é determinística e unidirecional, de modo que, do valor do hash, não é possível recuperar a entrada original.",
+      "D": "Por não ser determinística, uma mesma entrada submetida duas vezes à função de resumo tende a produzir valores de hash distintos, o que impede o uso do hash como impressão digital de um arquivo e obriga o recálculo do MD5 a cada nova verificação de integridade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.5, o MD5 produz 128 bits e o SHA-256 produz 256 bits; a função é determinística (mesma entrada, mesma saída) e unidirecional (do hash não se recupera a entrada). A alternativa B troca os tamanhos e afirma reversibilidade, que a função não tem. A C erra: a saída tem tamanho fixo, independentemente do tamanho da entrada. A D nega o determinismo, quando a função é justamente determinística, o que permite usar o hash como impressão digital.",
+    "referencia": "PDF, Cap. 2, seção 2.5",
+    "nivel": "dificil"
   }
 ];
