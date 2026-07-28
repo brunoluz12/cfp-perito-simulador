@@ -1801,8 +1801,8 @@ const agendaDados = {
                     ]
                 },
                 {
-                    "dia": "22",
-                    "diaSemana": "Sábado",
+                    "dia": "24",
+                    "diaSemana": "Segunda-Feira",
                     "blocos": [
                         {
                             "horario": "08h00 a 09h40",
