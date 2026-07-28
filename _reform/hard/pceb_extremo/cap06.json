@@ -1,0 +1,30 @@
+[
+  {
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "enunciado": "Sobre os indicadores de suspeição de uma correspondência (bomba postal), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Suspeita-se de peso em excesso em relação ao volume, acima de 25 g ou mal distribuído, e de espessura superior a 5 mm; manchas de gordura ou graxa podem resultar da exsudação de dinamite ou de explosivo plástico.",
+      "B": "As cartas-bomba caracterizam-se por espessura inferior a 5 mm e por peso perfeitamente distribuído, sendo o forte odor de amêndoas indicativo apenas de correspondências inofensivas, sem relação com explosivos.",
+      "C": "As manchas de gordura no envelope decorrem sempre da tinta de impressão do remetente, e a presença de fio ou arame aparente afasta a suspeição, por indicar mero reforço estrutural da embalagem postal.",
+      "D": "O odor de amêndoas indica a presença de nitrato de amônio, ao passo que o excesso de selos e o remetente conhecido, aliados a um pequeno orifício no pacote, são indicadores que reduzem a suspeição da correspondência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 6, são indicadores de suspeição o peso em excesso (acima de 25 g ou mal distribuído), a espessura superior a 5 mm e as manchas de gordura/graxa, que podem resultar da exsudação de dinamite ou explosivo plástico. A alternativa B inverte espessura e peso e nega o odor de amêndoas como sinal (ele indica C2/C3/Semtex). A C dá causa inócua às manchas e trata fio/arame aparente como não suspeito. A D associa o odor de amêndoas ao nitrato de amônio e trata excesso de selos e orifício como redutores de suspeição, quando são indicadores de suspeição.",
+    "referencia": "PDF, Cap. 6, seção 6",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "enunciado": "Sobre os mecanismos de acionamento usuais das cartas-bomba e as medidas de segurança a adotar, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os mecanismos mais usuais são os de pressão e de retardo químico, de modo que a bomba postal tende a desengatilhar durante o transporte, razão pela qual se recomenda imergi-la em água ao menor sinal de suspeição.",
+      "B": "Os mecanismos mais usuais são os de descompressão e/ou tração, de modo que a bomba postal, em regra, não desengatilha até ser aberta; ainda assim, deve-se evitar manuseá-la, pois o manuseio pode deslocar o mecanismo e aumentar o risco.",
+      "C": "Como a bomba postal só se aciona à abertura, é seguro desarmá-la manualmente no local de recebimento, sendo desnecessário isolar o ambiente ou empregar técnicas de desativação ativa como o chicote ou o cartão em V.",
+      "D": "Recomenda-se manter fechadas todas as portas e janelas do ambiente e submergir de imediato a correspondência suspeita em água, medida que neutraliza com segurança qualquer circuito elétrico do artefato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 6, os mecanismos mais usuais das cartas-bomba são os de descompressão e/ou tração, de modo que ela, em regra, não desengatilha até ser aberta; ainda assim, deve-se evitar o manuseio, que pode deslocar o mecanismo e aumentar o risco. A alternativa A troca os mecanismos e recomenda imergir em água, o que é vedado. A C sugere desarmar manualmente e dispensar isolamento, contrariando o material. A D recomenda submergir em água, medida expressamente proibida, pois pode ativar circuito elétrico ou reações químicas.",
+    "referencia": "PDF, Cap. 6, seções 6 e 6.1",
+    "nivel": "dificil"
+  }
+]

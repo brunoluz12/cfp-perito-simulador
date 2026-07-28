@@ -1,0 +1,86 @@
+[
+  {
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "enunciado": "A respeito da classificação dos explosivos quanto à velocidade de detonação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Baixos explosivos são deflagrantes, de combustão lenta e progressiva (até 1.000 m/s), como a pólvora negra (cerca de 300 m/s), que precisa estar confinada para explodir; altos explosivos secundários são os de ruptura, no fim da cadeia de fogo.",
+      "B": "Altos explosivos primários são os de ruptura, situados no fim da cadeia de fogo, e todos eles precisam de uma carga inicial para detonar, ao passo que os secundários fornecem a energia de ativação e equipam os detonadores.",
+      "C": "Baixos explosivos apresentam alta velocidade de detonação e independem de confinamento, ao passo que os altos explosivos secundários são deflagrantes de baixa força, empregados como propulsores em munições.",
+      "D": "Todo alto explosivo secundário precisa de uma carga inicial (detonador ou reforçador) para explodir, sem exceção, sendo essa a razão pela qual a nitroglicerina só detona quando associada a um reforçador do tipo booster."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.5, os baixos explosivos são deflagrantes, de combustão lenta e progressiva (até 1.000 m/s), como a pólvora negra (~300 m/s, que precisa de confinamento); os altos explosivos secundários são os de ruptura, no fim da cadeia de fogo. A alternativa B troca primários e secundários (os primários é que fornecem a energia de ativação e equipam detonadores). A C inverte as propriedades dos baixos explosivos. A D erra: todo secundário precisa de carga inicial, exceto a nitroglicerina.",
+    "referencia": "PDF, Cap. 2, seção 2.5",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "enunciado": "Sobre os altos explosivos primários e suas velocidades de detonação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O fulminato de mercúrio é o mais moderno dos explosivos primários, insensível ao choque, tendo substituído a azida de chumbo e o DDNP na fabricação de detonadores por sua maior estabilidade.",
+      "B": "O fulminato de mercúrio é o mais antigo explosivo primário (cerca de 5.000 m/s), sensível ao choque, calor e atrito, tendo sido gradativamente substituído pelo DDNP ou pela azida de chumbo na fabricação de detonadores.",
+      "C": "A azida de chumbo é um alto explosivo secundário, de ruptura, insensível ao choque, com velocidade de detonação próxima à do TNT, sendo empregada como carga final da cadeia de fogo em detonadores.",
+      "D": "Os explosivos primários caracterizam-se pela baixa velocidade de detonação e pela insensibilidade ao choque, calor e fricção, sendo por isso empregados como carga de ruptura no fim da cadeia de fogo dos artefatos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.6, o fulminato de mercúrio é o mais antigo explosivo primário (~5.000 m/s), sensível a choque, calor e atrito, gradativamente substituído pelo DDNP ou pela azida de chumbo. A alternativa A o chama de mais moderno e insensível, invertendo tudo. A C classifica a azida de chumbo como secundário insensível, quando é primário sensível (~5.100 m/s). A D atribui aos primários baixa VD e insensibilidade, o oposto de suas características.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "enunciado": "A respeito das dinamites, de sua história e de seus tipos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A nitroglicerina foi descoberta por Alfred Nobel em 1867, que a dessensibilizou com sílica (Kieselguhr), enquanto a dinamite propriamente dita foi inventada por Ascanio Sobrero em 1846, sob o nome de piroglicerina.",
+      "B": "As dinamites são altos explosivos primários instáveis em estado normal, tornando-se seguras quando em exsudação, e sua iniciação dispensa detonadores, bastando o atrito ou a chama para provocar a detonação da massa.",
+      "C": "Alfred Nobel dessensibilizou a nitroglicerina com sílica (Kieselguhr) e inventou a dinamite em 1867; a nitroglicerina fora descoberta por Ascanio Sobrero em 1846 (piroglicerina); as dinamites são secundários estáveis, mas perigosos quando em exsudação.",
+      "D": "A dinamite gelatinosa comum (Plastil) contém nitrato de amônio e óleo diesel, ao passo que a dinamite amoniacal, usada como booster, é composta essencialmente de nitroglicerina e sílica, apresentando maior brisância que as demais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.6, Nobel dessensibilizou a nitroglicerina com sílica (Kieselguhr) e inventou a dinamite em 1867; a NG fora descoberta por Sobrero em 1846 (piroglicerina); as dinamites são altos explosivos secundários, estáveis, porém perigosos em exsudação. A alternativa A inverte os autores e as datas. A B as classifica como primárias, diz que a exsudação as torna seguras (é o contrário) e dispensa detonadores. A D troca a composição (a gelatinosa comum contém NG + NC) e a da amoniacal, que tem menor brisância.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "enunciado": "Sobre os tipos de pólvora empregados como propelentes, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A pólvora de base simples contém nitrocelulose e nitroglicerina; a de base dupla, apenas nitrocelulose; e a de base tripla acrescenta a nitroguanidina, sendo esta última empregada em munições de armas curtas, nas quais a combustão precisa ser mais rápida e intensa.",
+      "B": "A pólvora cloratada, frequente em atentados terroristas, substitui o salitre por clorato de potássio (cerca de 70%); a de base simples contém nitrocelulose e é isenta de fumaça; a de base dupla contém nitrocelulose e nitroglicerina.",
+      "C": "A balistita contém 60% de nitroglicerina e 40% de algodão colódio e é empregada em munições de armas curtas, nas quais se exige combustão lenta e progressiva para máxima velocidade inicial do projétil.",
+      "D": "A pólvora negra é uma pólvora química sem fumaça, de combustão progressiva e sem resíduos, que substituiu a pólvora cloratada nas munições modernas por sua maior potência balística e estabilidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.6, a pólvora cloratada (frequente em atentados) substitui o salitre por clorato de potássio (~70%); a de base simples é nitrocelulose sem fumaça; a de base dupla é nitrocelulose e nitroglicerina. A alternativa A inverte base simples e dupla e situa a base tripla em armas curtas (é para foguetes e canhões). A C inverte as proporções da balistita (40% NG + 60% algodão colódio) e seu uso (bazucas, obuses e morteiros). A D chama a pólvora negra de sem fumaça, quando ela foi justamente substituída pelas pólvoras sem fumaça.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "enunciado": "A respeito dos explosivos plásticos e do Flex-X, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os plásticos C2 e C3 são de coloração branca ou rósea, com 91% de RDX, ao passo que o C4 é amarelado e contém RDX, DNT, TNT e nitrocelulose, com velocidade de detonação inferior à dos anteriores e sem necessidade de reforçador (booster) para a sua iniciação.",
+      "B": "Os explosivos plásticos são primários instáveis, iniciados por chama ou atrito, e o HMX (octogênio) é um subproduto do RDX, empregado sobretudo em pólvoras de base tripla para foguetes.",
+      "C": "O C4 é de cor branca ou rósea, com 91% de RDX e velocidade de detonação de 8.050 m/s; o RDX puro chega a 8.400 m/s; e o Flex-X apresenta-se como folha flexível, com RDX (63%) ou PETN, tendo o mantex da IMBEL como versão nacional.",
+      "D": "O Flex-X é um baixo explosivo deflagrante em folha, isento da marcação prevista na convenção de Montreal de 1991, cuja versão militar norte-americana é o Composto B, também empregado em minas e granadas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.6, o C4 é branco ou róseo, com 91% de RDX e 8.050 m/s; o RDX puro chega a 8.400 m/s; o Flex-X é folha flexível com RDX (63%) ou PETN, tendo o mantex (IMBEL) como versão nacional. A alternativa A inverte C2/C3 (amarelados) e C4 (branco/róseo). A B classifica os plásticos como primários instáveis (são secundários estáveis) e situa o HMX em pólvora de base tripla (é usado em cargas ocas). A D chama o Flex-X de baixo explosivo isento de marcação, quando os plásticos recebem marcação por Montreal (1991), e confunde sua versão militar com o Composto B.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "enunciado": "Sobre os efeitos das ondas de choque de uma explosão, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O efeito Monroe (ou efeito bazuca) ocorre pela convergência de várias ondas de choque para um mesmo ponto, sendo usado em implosões, e a orientação da onda de choque é perpendicular à superfície da carga explosiva.",
+      "B": "A detonação por simpatia é o princípio segundo o qual as ondas de choque de uma carga não têm energia para iniciar outra carga próxima, razão pela qual os detonadores devem ser armazenados junto às cargas principais, sem risco de iniciação acidental.",
+      "C": "O efeito Monroe consiste na divergência das ondas de choque a partir de um mesmo ponto, o que reduz a pressão obtida e o torna inadequado a cortes dirigidos em chapas metálicas ou a implosões controladas.",
+      "D": "O efeito cumulativo ocorre quando as ondas de choque se dispersam paralelamente à superfície da carga, produzindo pressões inferiores às esperadas, sendo por isso evitado nas detonações dirigidas de neutralização."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.7, o efeito Monroe (bazuca) resulta da convergência de várias ondas de choque para um mesmo ponto, é usado em implosões, e a orientação da onda é perpendicular à superfície da carga. A alternativa B nega a detonação por simpatia, que justamente inicia outra carga próxima (princípio dos detonadores) e por isso os detonadores ficam separados das cargas. A C troca convergência por divergência. A D descreve mal o efeito cumulativo, que potencializa a pressão em detonações dirigidas, obtendo pressões superiores.",
+    "referencia": "PDF, Cap. 2, seção 2.7",
+    "nivel": "dificil"
+  }
+]

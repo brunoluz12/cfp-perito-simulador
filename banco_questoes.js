@@ -39615,5 +39615,311 @@ const questoesDB = [
     "justificativa": "Pela seção 2.4.2, a adaptação de um .38\" para .357\", por aumento da câmara do tambor, ignora que o tambor .38\" não resiste às pressões do .357\", podendo explodir e ferir o atirador. A alternativa A afirma segurança e mesmo calibre real, o que contraria o texto. A B erra o critério legal: a classificação em permitido/restrito baseia-se na energia de disparo (Decreto 11.615/2023), não no comprimento do cano. A D recomenda o uso de calibre diverso, quando o texto o desaconselha por risco à arma e ao atirador.",
     "referencia": "PDF, Cap. 2.4, itens 2.4.2 e 2.4.3",
     "nivel": "dificil"
+  },
+  {
+    "id": 2649,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 1 - Contextualização (Terrorismo)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o panorama internacional do terrorismo com uso de explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na Colômbia, o terrorismo divide-se em subversivo e narcoterrorismo; os primeiros registros remontam a 1963 (103 incidentes), ligados à subversão política, e o narcoterrorismo surgiu por volta de 1976, quando os casos atingiram 262 incidentes.",
+      "B": "Na Colômbia, o terrorismo é de motivação étnica, ligado ao povo basco e à região da Euskadi, ao passo que, na Espanha, prevalece o narcoterrorismo, surgido em 1976 com o aumento expressivo do número de incidentes.",
+      "C": "Na Espanha, o terrorismo tem motivação econômica e teve início com a destruição de Guernica pela aviação basca, ao passo que, na Colômbia, a motivação é exclusivamente religiosa, sem vínculo com o narcotráfico local.",
+      "D": "Nos Estados Unidos, o terrorismo tem motivação étnica ligada ao povo basco, tendo atingido seu clímax em 11 de setembro de 2001, enquanto na Colômbia predominam atentados de fundo religioso desde a década de 1930, sem qualquer relação com a subversão política ou com o narcotráfico local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 1, na Colômbia o terrorismo divide-se em subversivo e narcoterrorismo; os primeiros registros são de 1963 (103 incidentes), ligados à subversão política, e o narcoterrorismo surgiu por volta de 1976 (262 incidentes). A alternativa B atribui à Colômbia motivação étnica e à Espanha o narcoterrorismo, trocando os países. A C dá motivação econômica à Espanha e inverte a autoria da destruição de Guernica (foi a aviação nazista, que apoiava Franco). A D atribui aos EUA motivação étnica basca, própria da Espanha.",
+    "referencia": "PDF, Cap. 1, seção 1 (panorama internacional)",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2650,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 1 - Contextualização (Terrorismo)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito de marcos históricos e teóricos do terrorismo com bombas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O episódio tido como a primeira ação terrorista com bombas foi o atentado a Guernica, em 1937, quando Guy Fawkes tentou explodir a Casa dos Lordes, sendo o fato conhecido como The Gunpowder Plot.",
+      "B": "Carlos Marighella escreveu, em 1969, o Minimanual do Guerrilheiro Urbano e fundou a Ação Libertadora Nacional (ALN); tido como importante teórico do terrorismo, afirmava que o terrorismo é uma arma à qual o revolucionário nunca pode renunciar.",
+      "C": "The Gunpowder Plot, considerado a primeira ação terrorista com bombas, ocorreu na Inglaterra em 1605, quando Carlos Marighella tentou explodir 36 barris de pólvora sob a Casa dos Lordes para matar o Rei James I.",
+      "D": "Carlos Marighella fundou a Intentona Comunista em 1968 e nela escreveu o Minimanual do Guerrilheiro Urbano, no qual renuncia expressamente ao terrorismo como método de luta política armada no Brasil, o que reduziu sua influência entre os teóricos do assunto no exterior."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 1, Marighella escreveu o Minimanual do Guerrilheiro Urbano em 1969 e fundou a ALN (1968), sendo importante teórico do terrorismo e afirmando que este é uma arma à qual o revolucionário nunca pode renunciar. A alternativa A situa a primeira ação em Guernica/1937 com Guy Fawkes, misturando fatos. A C acerta o Gunpowder Plot (Inglaterra, 1605), mas atribui a Marighella o que foi de Guy Fawkes. A D confunde a ALN com a Intentona Comunista (pela qual Marighella foi preso em 1936) e afirma renúncia ao terrorismo, contrária ao texto.",
+    "referencia": "PDF, Cap. 1, seção 1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2651,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da classificação dos explosivos quanto à velocidade de detonação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Baixos explosivos apresentam alta velocidade de detonação e independem de confinamento, ao passo que os altos explosivos secundários são deflagrantes de baixa força, empregados como propulsores em munições.",
+      "B": "Altos explosivos primários são os de ruptura, situados no fim da cadeia de fogo, e todos eles precisam de uma carga inicial para detonar, ao passo que os secundários fornecem a energia de ativação e equipam os detonadores.",
+      "C": "Baixos explosivos são deflagrantes, de combustão lenta e progressiva (até 1.000 m/s), como a pólvora negra (cerca de 300 m/s), que precisa estar confinada para explodir; altos explosivos secundários são os de ruptura, no fim da cadeia de fogo.",
+      "D": "Todo alto explosivo secundário precisa de uma carga inicial (detonador ou reforçador) para explodir, sem exceção, sendo essa a razão pela qual a nitroglicerina só detona quando associada a um reforçador do tipo booster."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.5, os baixos explosivos são deflagrantes, de combustão lenta e progressiva (até 1.000 m/s), como a pólvora negra (~300 m/s, que precisa de confinamento); os altos explosivos secundários são os de ruptura, no fim da cadeia de fogo. A alternativa B troca primários e secundários (os primários é que fornecem a energia de ativação e equipam detonadores). A C inverte as propriedades dos baixos explosivos. A D erra: todo secundário precisa de carga inicial, exceto a nitroglicerina.",
+    "referencia": "PDF, Cap. 2, seção 2.5",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2652,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os altos explosivos primários e suas velocidades de detonação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O fulminato de mercúrio é o mais moderno dos explosivos primários, insensível ao choque, tendo substituído a azida de chumbo e o DDNP na fabricação de detonadores por sua maior estabilidade.",
+      "B": "Os explosivos primários caracterizam-se pela baixa velocidade de detonação e pela insensibilidade ao choque, calor e fricção, sendo por isso empregados como carga de ruptura no fim da cadeia de fogo dos artefatos.",
+      "C": "A azida de chumbo é um alto explosivo secundário, de ruptura, insensível ao choque, com velocidade de detonação próxima à do TNT, sendo empregada como carga final da cadeia de fogo em detonadores.",
+      "D": "O fulminato de mercúrio é o mais antigo explosivo primário (cerca de 5.000 m/s), sensível ao choque, calor e atrito, tendo sido gradativamente substituído pelo DDNP ou pela azida de chumbo na fabricação de detonadores."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 2.6, o fulminato de mercúrio é o mais antigo explosivo primário (~5.000 m/s), sensível a choque, calor e atrito, gradativamente substituído pelo DDNP ou pela azida de chumbo. A alternativa A o chama de mais moderno e insensível, invertendo tudo. A C classifica a azida de chumbo como secundário insensível, quando é primário sensível (~5.100 m/s). A D atribui aos primários baixa VD e insensibilidade, o oposto de suas características.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2653,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das dinamites, de sua história e de seus tipos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Alfred Nobel dessensibilizou a nitroglicerina com sílica (Kieselguhr) e inventou a dinamite em 1867; a nitroglicerina fora descoberta por Ascanio Sobrero em 1846 (piroglicerina); as dinamites são secundários estáveis, mas perigosos quando em exsudação.",
+      "B": "As dinamites são altos explosivos primários instáveis em estado normal, tornando-se seguras quando em exsudação, e sua iniciação dispensa detonadores, bastando o atrito ou a chama para provocar a detonação da massa.",
+      "C": "A nitroglicerina foi descoberta por Alfred Nobel em 1867, que a dessensibilizou com sílica (Kieselguhr), enquanto a dinamite propriamente dita foi inventada por Ascanio Sobrero em 1846, sob o nome de piroglicerina.",
+      "D": "A dinamite gelatinosa comum (Plastil) contém nitrato de amônio e óleo diesel, ao passo que a dinamite amoniacal, usada como booster, é composta essencialmente de nitroglicerina e sílica, apresentando maior brisância que as demais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 2.6, Nobel dessensibilizou a nitroglicerina com sílica (Kieselguhr) e inventou a dinamite em 1867; a NG fora descoberta por Sobrero em 1846 (piroglicerina); as dinamites são altos explosivos secundários, estáveis, porém perigosos em exsudação. A alternativa A inverte os autores e as datas. A B as classifica como primárias, diz que a exsudação as torna seguras (é o contrário) e dispensa detonadores. A D troca a composição (a gelatinosa comum contém NG + NC) e a da amoniacal, que tem menor brisância.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2654,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de pólvora empregados como propelentes, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A pólvora de base simples contém nitrocelulose e nitroglicerina; a de base dupla, apenas nitrocelulose; e a de base tripla acrescenta a nitroguanidina, sendo esta última empregada em munições de armas curtas, nas quais a combustão precisa ser mais rápida e intensa.",
+      "B": "A pólvora cloratada, frequente em atentados terroristas, substitui o salitre por clorato de potássio (cerca de 70%); a de base simples contém nitrocelulose e é isenta de fumaça; a de base dupla contém nitrocelulose e nitroglicerina.",
+      "C": "A balistita contém 60% de nitroglicerina e 40% de algodão colódio e é empregada em munições de armas curtas, nas quais se exige combustão lenta e progressiva para máxima velocidade inicial do projétil.",
+      "D": "A pólvora negra é uma pólvora química sem fumaça, de combustão progressiva e sem resíduos, que substituiu a pólvora cloratada nas munições modernas por sua maior potência balística e estabilidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 2.6, a pólvora cloratada (frequente em atentados) substitui o salitre por clorato de potássio (~70%); a de base simples é nitrocelulose sem fumaça; a de base dupla é nitrocelulose e nitroglicerina. A alternativa A inverte base simples e dupla e situa a base tripla em armas curtas (é para foguetes e canhões). A C inverte as proporções da balistita (40% NG + 60% algodão colódio) e seu uso (bazucas, obuses e morteiros). A D chama a pólvora negra de sem fumaça, quando ela foi justamente substituída pelas pólvoras sem fumaça.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2655,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito dos explosivos plásticos e do Flex-X, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os plásticos C2 e C3 são de coloração branca ou rósea, com 91% de RDX, ao passo que o C4 é amarelado e contém RDX, DNT, TNT e nitrocelulose, com velocidade de detonação inferior à dos anteriores e sem necessidade de reforçador (booster) para a sua iniciação.",
+      "B": "Os explosivos plásticos são primários instáveis, iniciados por chama ou atrito, e o HMX (octogênio) é um subproduto do RDX, empregado sobretudo em pólvoras de base tripla para foguetes.",
+      "C": "O C4 é de cor branca ou rósea, com 91% de RDX e velocidade de detonação de 8.050 m/s; o RDX puro chega a 8.400 m/s; e o Flex-X apresenta-se como folha flexível, com RDX (63%) ou PETN, tendo o mantex da IMBEL como versão nacional.",
+      "D": "O Flex-X é um baixo explosivo deflagrante em folha, isento da marcação prevista na convenção de Montreal de 1991, cuja versão militar norte-americana é o Composto B, também empregado em minas e granadas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 2.6, o C4 é branco ou róseo, com 91% de RDX e 8.050 m/s; o RDX puro chega a 8.400 m/s; o Flex-X é folha flexível com RDX (63%) ou PETN, tendo o mantex (IMBEL) como versão nacional. A alternativa A inverte C2/C3 (amarelados) e C4 (branco/róseo). A B classifica os plásticos como primários instáveis (são secundários estáveis) e situa o HMX em pólvora de base tripla (é usado em cargas ocas). A D chama o Flex-X de baixo explosivo isento de marcação, quando os plásticos recebem marcação por Montreal (1991), e confunde sua versão militar com o Composto B.",
+    "referencia": "PDF, Cap. 2, seção 2.6",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2656,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 2 - Bombas e Explosivos (Definições, Tipos, Efeitos)",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os efeitos das ondas de choque de uma explosão, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O efeito cumulativo ocorre quando as ondas de choque se dispersam paralelamente à superfície da carga, produzindo pressões inferiores às esperadas, sendo por isso evitado nas detonações dirigidas de neutralização.",
+      "B": "A detonação por simpatia é o princípio segundo o qual as ondas de choque de uma carga não têm energia para iniciar outra carga próxima, razão pela qual os detonadores devem ser armazenados junto às cargas principais, sem risco de iniciação acidental.",
+      "C": "O efeito Monroe consiste na divergência das ondas de choque a partir de um mesmo ponto, o que reduz a pressão obtida e o torna inadequado a cortes dirigidos em chapas metálicas ou a implosões controladas.",
+      "D": "O efeito Monroe (ou efeito bazuca) ocorre pela convergência de várias ondas de choque para um mesmo ponto, sendo usado em implosões, e a orientação da onda de choque é perpendicular à superfície da carga explosiva."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 2.7, o efeito Monroe (bazuca) resulta da convergência de várias ondas de choque para um mesmo ponto, é usado em implosões, e a orientação da onda é perpendicular à superfície da carga. A alternativa B nega a detonação por simpatia, que justamente inicia outra carga próxima (princípio dos detonadores) e por isso os detonadores ficam separados das cargas. A C troca convergência por divergência. A D descreve mal o efeito cumulativo, que potencializa a pressão em detonações dirigidas, obtendo pressões superiores.",
+    "referencia": "PDF, Cap. 2, seção 2.7",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2657,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os estopins e as regras de segurança em seu uso, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O estopim hidráulico é impermeável, permite uso subaquático e queima de modo lento e uniforme (110 a 240 s/m), ao passo que a mecha, de pólvora aparente, é muito usada em pirotecnia e queima em cerca de 8 s/m.",
+      "B": "O estopim de mecha é impermeável e próprio para uso subaquático, ao passo que o hidráulico apresenta pólvora aparente por fora do tecido e é o de queima mais rápida entre todos os tipos citados.",
+      "C": "Por segurança, deve-se usar sempre um único estopim por carga, medir seu tempo de queima e, no caso de falha, aproximar-se imediatamente para verificar a causa da não iniciação da escorva.",
+      "D": "O estopim comum contém maior quantidade de pólvora por metro do que o hidráulico, sendo o rastilho o de queima mais lenta, motivo pelo qual é o preferido para retardos longos em desmonte de rochas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 3.1, o estopim hidráulico é impermeável, permite uso subaquático e queima lenta e uniforme (110 a 240 s/m), e a mecha, de pólvora aparente, é usada em pirotecnia (~8 s/m). A alternativa B inverte hidráulico e mecha. A C erra as regras: usam-se sempre dois estopins de igual comprimento por carga e, na falha, espera-se cerca de 20 minutos antes de aproximar-se. A D inverte as quantidades (o comum tem menos pólvora, 16 g/m contra 21 g/m do hidráulico) e a velocidade do rastilho, que é o mais rápido.",
+    "referencia": "PDF, Cap. 3, seção 3.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2658,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da estrutura e da composição das cápsulas explosivas (detonadores) não-elétricas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apresentam-se como pequeno cilindro metálico de alumínio ou cobre, fechado em ambas as extremidades, contendo apenas uma carga secundária de nitropenta, dispensando qualquer explosivo primário em sua estrutura interna.",
+      "B": "Apresentam-se como pequeno cilindro metálico (Al ou Cu), aberto em uma extremidade para o estopim, com carga primária de azida de chumbo mais estifnato de chumbo (0,4 g) e carga secundária de nitropenta (0,8 g), Tetril ou RDX.",
+      "C": "São recipientes exclusivamente plásticos, revestidos internamente de HMX com alumínio em pó, nos quais a chama percorre o interior a cerca de 1.000 m/s, dispensando explosivo sensível para a iniciação.",
+      "D": "Contêm dois fios condutores que formam uma ponte mantida em contato com o explosivo sensível, o qual se aquece por efeito Joule quando aplicada a corrente elétrica, provocando a detonação do alto explosivo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 3.2, as cápsulas não-elétricas são pequenos cilindros metálicos (Al ou Cu), abertos em uma extremidade para o estopim, com carga primária de azida de chumbo + estifnato de chumbo (0,4 g) e carga secundária de nitropenta (0,8 g), Tetril ou RDX. A alternativa A dispensa a carga primária e fecha ambas as extremidades. A C descreve o sistema disparador de tubo de choque (seção 3.4). A D descreve a cápsula elétrica (seção 3.3), com fio-ponte e efeito Joule.",
+    "referencia": "PDF, Cap. 3, seção 3.2",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2659,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as cápsulas explosivas elétricas e o sistema disparador de tubo de choque, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A cápsula elétrica tem como desvantagem a impossibilidade de detonar várias cargas simultaneamente e como vantagem a completa imunidade ao acionamento por eletricidade estática ou indução eletromagnética.",
+      "B": "A cápsula elétrica gera pressão inferior a 50 quilobars e possui resistência de 15 Ohm, não podendo ser fabricada com retardo, e classifica-se apenas nos tipos coluna e carvão conforme a finalidade.",
+      "C": "O tubo de choque é um tubo plástico oco revestido internamente de material pirotécnico (HMX com alumínio), no qual a chama percorre o interior a cerca de 1.000 m/s, sensibilizando a espoleta com mais segurança.",
+      "D": "O tubo de choque conduz uma corrente elétrica por dois fios-ponte que se aquecem por efeito Joule, detonando diretamente o alto explosivo, sendo por isso mais suscetível à indução eletromagnética que a espoleta elétrica."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 3.4, o tubo de choque é um tubo plástico oco revestido internamente de material pirotécnico (HMX + alumínio em pó), no qual a chama percorre o interior a ~1.000 m/s, sensibilizando a espoleta com mais segurança. A alternativa A inverte vantagens e desvantagens (detonar várias cargas simultaneamente é vantagem; o acionamento acidental por estática/indução é a desvantagem). A C erra os valores (a elétrica gera acima de 200 quilobars, tem 1,5 Ohm, pode ter retardo e classifica-se em coluna, carvão, túnel ou sismográfica). A D atribui ao tubo de choque um funcionamento elétrico, que é o da cápsula elétrica.",
+    "referencia": "PDF, Cap. 3, seções 3.3 e 3.4",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2660,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a distinção entre técnicas passivas e ativas de desativação de artefatos explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Técnicas passivas são as que provocam alterações físico-químicas previsíveis no artefato para interromper o circuito de fogo, como a contracarga e o disparo com arma de fogo longa contra o mecanismo de acionamento.",
+      "B": "A perfuração do pacote para exame interno com fibroscópio e a criogenia são classificadas como técnicas ativas, pois interrompem o circuito de fogo do artefato antes de qualquer exame visual do seu conteúdo.",
+      "C": "Técnicas ativas são aquelas que não alteram o objeto suspeito, incluindo a auscultação e o exame com fibroscópio, ao passo que as passivas visam interromper o circuito de fogo por contracarga ou canhão d'água.",
+      "D": "Técnicas passivas, em tese, não provocam alterações capazes de acionar o artefato, como barreiras de proteção, auscultação, exame por raios X e o resfriamento drástico (criogenia) para desativar a fonte elétrica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 5, as técnicas passivas, em tese, não provocam alterações capazes de acionar o artefato: barreiras, auscultação, raios X, exame interno com fibroscópio e criogenia. As ativas provocam alterações previsíveis, visando interromper o circuito de fogo (corda, canhão d'água, cargas especiais, chama, arma longa, contracarga etc.). A alternativa A atribui às passivas o que é ativo. A C inverte as definições. A D classifica como ativas a perfuração para exame e a criogenia, que são passivas.",
+    "referencia": "PDF, Cap. 5, seção 5",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2661,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do disruptor (canhão d'água), de suas cargas de ataque e do posicionamento, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Fundamenta-se na força hidrodinâmica e é carregado com cerca de 150 ml de água entre buchas plásticas, lançada por propelente de cartucho calibre 12; a carga Avon (gesso, esferas ocas metálicas e água) é usada em alvos mais rígidos.",
+      "B": "Fundamenta-se na detonação de uma pequena carga explosiva colocada em contato com o invólucro do artefato, sendo carregado com cerca de 1,5 litro de água lançada por uma espoleta elétrica de retardo.",
+      "C": "A carga de água é reservada aos alvos mais rígidos, como a bomba-tubo, por não provocar ricochete, ao passo que a carga Avon, de uso geral, é a indicada para a maioria dos alvos por sua ação dispersante e por dissolver o conteúdo do invólucro sem lançá-lo violentamente.",
+      "D": "Em tubo de PVC o canhão deve ser posicionado a 15º da tampa (cap) e, em tubo de ferro, a 45º, de modo a obter a menor área de varredura possível dos elementos internos do artefato examinado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 5.1, o disruptor funda-se na força hidrodinâmica, é carregado com ~150 ml de água entre buchas plásticas, lançada por propelente de cartucho calibre 12; a carga Avon (gesso + esferas ocas metálicas + água) é para alvos mais rígidos (ex.: bomba-tubo). A alternativa B descreve uma contracarga explosiva, não o canhão d'água. A C inverte as cargas: a água é de uso geral e a Avon para alvos rígidos. A D inverte os ângulos (PVC a 45º, ferro a 15º) e o objetivo, que é obter a maior área de varredura quando o artefato não pode ser interpretado.",
+    "referencia": "PDF, Cap. 5, seção 5.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2662,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as cargas especiais e o procedimento de acionamento em linha elétrica, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na desativação com garrafa plástica, cordel e água, a garrafa metálica é preferida por gerar fragmentos que iniciam o artefato, e o cordel deve envolver o alvo, técnica difundida sobretudo nos Estados Unidos, onde substituiu por completo o emprego do canhão d'água em bombas postais.",
+      "B": "Na desativação com garrafa plástica e cordel detonante, a garrafa plástica minimiza a possibilidade de fragmentos iniciarem o artefato, e o cordel, ao ser iniciado, lança a água na direção radial, separando os componentes do artefato.",
+      "C": "No acionamento em linha elétrica, conecta-se primeiro o explosor à bateria e só então se testa a descontinuidade da linha, dispensando-se o curto-circuito de segurança antes de escorvar a carga principal.",
+      "D": "No procedimento em linha elétrica, a mensagem de alerta \"atenção, linha quente\" deve ser dada antes de testar a continuidade da linha, e a espoleta é conectada ao início da linha, junto ao explosor."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 5.3, na desativação com garrafa plástica e cordel a garrafa plástica minimiza a chance de fragmentos iniciarem o artefato, e o cordel, ao ser iniciado, lança a água radialmente, separando os componentes (técnica muito usada no Canadá). A alternativa A prefere a garrafa metálica e situa a técnica nos EUA. A B inverte a ordem do procedimento em linha elétrica (abre-se e testa-se a descontinuidade, curto-circuita-se, testa-se a continuidade, conecta-se a espoleta ao final e só ao fim liga-se o explosor). A D erra a ordem da mensagem e a posição da espoleta (conectada ao final da linha, fixada na carga principal).",
+    "referencia": "PDF, Cap. 5, seções 5.3 e 5.6",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2663,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os indicadores de suspeição de uma correspondência (bomba postal), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As manchas de gordura no envelope decorrem sempre da tinta de impressão do remetente, e a presença de fio ou arame aparente afasta a suspeição, por indicar mero reforço estrutural da embalagem postal.",
+      "B": "As cartas-bomba caracterizam-se por espessura inferior a 5 mm e por peso perfeitamente distribuído, sendo o forte odor de amêndoas indicativo apenas de correspondências inofensivas, sem relação com explosivos.",
+      "C": "Suspeita-se de peso em excesso em relação ao volume, acima de 25 g ou mal distribuído, e de espessura superior a 5 mm; manchas de gordura ou graxa podem resultar da exsudação de dinamite ou de explosivo plástico.",
+      "D": "O odor de amêndoas indica a presença de nitrato de amônio, ao passo que o excesso de selos e o remetente conhecido, aliados a um pequeno orifício no pacote, são indicadores que reduzem a suspeição da correspondência."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 6, são indicadores de suspeição o peso em excesso (acima de 25 g ou mal distribuído), a espessura superior a 5 mm e as manchas de gordura/graxa, que podem resultar da exsudação de dinamite ou explosivo plástico. A alternativa B inverte espessura e peso e nega o odor de amêndoas como sinal (ele indica C2/C3/Semtex). A C dá causa inócua às manchas e trata fio/arame aparente como não suspeito. A D associa o odor de amêndoas ao nitrato de amônio e trata excesso de selos e orifício como redutores de suspeição, quando são indicadores de suspeição.",
+    "referencia": "PDF, Cap. 6, seção 6",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2664,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 6 - Bombas Postais",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os mecanismos de acionamento usuais das cartas-bomba e as medidas de segurança a adotar, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os mecanismos mais usuais são os de pressão e de retardo químico, de modo que a bomba postal tende a desengatilhar durante o transporte, razão pela qual se recomenda imergi-la em água ao menor sinal de suspeição.",
+      "B": "Recomenda-se manter fechadas todas as portas e janelas do ambiente e submergir de imediato a correspondência suspeita em água, medida que neutraliza com segurança qualquer circuito elétrico do artefato.",
+      "C": "Como a bomba postal só se aciona à abertura, é seguro desarmá-la manualmente no local de recebimento, sendo desnecessário isolar o ambiente ou empregar técnicas de desativação ativa como o chicote ou o cartão em V.",
+      "D": "Os mecanismos mais usuais são os de descompressão e/ou tração, de modo que a bomba postal, em regra, não desengatilha até ser aberta; ainda assim, deve-se evitar manuseá-la, pois o manuseio pode deslocar o mecanismo e aumentar o risco."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 6, os mecanismos mais usuais das cartas-bomba são os de descompressão e/ou tração, de modo que ela, em regra, não desengatilha até ser aberta; ainda assim, deve-se evitar o manuseio, que pode deslocar o mecanismo e aumentar o risco. A alternativa A troca os mecanismos e recomenda imergir em água, o que é vedado. A C sugere desarmar manualmente e dispensar isolamento, contrariando o material. A D recomenda submergir em água, medida expressamente proibida, pois pode ativar circuito elétrico ou reações químicas.",
+    "referencia": "PDF, Cap. 6, seções 6 e 6.1",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2665,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os motivos que originam uma solicitação de varredura preventiva, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São motivos de varredura a visita (eventos fora do ambiente normal), o perigo iminente (ameaça por carta ou telefonema), a rotina (verificar alteração em ambiente sob vigilância), a instalação (posse ou ocupação de local) e o vazamento de informações ou infiltrações.",
+      "B": "A varredura de rotina é a realizada em cerimônias de posse ou na ocupação temporária de um local, ao passo que a de instalação é a que verifica periodicamente se um ambiente sob vigilância constante sofreu alguma alteração.",
+      "C": "A varredura por perigo iminente é a que se realiza em eventos na própria cidade ou em visita a outras cidades, sem que haja ameaça específica, ao passo que a varredura de visita pressupõe ameaça por carta ou telefonema.",
+      "D": "As varreduras preventivas restringem-se às situações de perigo iminente devidamente comprovado por ameaça escrita, não se justificando a inspeção de ambientes mantidos sob vigilância constante nem por vazamento de informações, ainda que se noticie a presença de elementos infiltrados no local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 7, os motivos de varredura são: visita (eventos fora do ambiente normal), perigo iminente (ameaça por carta/telefonema), rotina (verificar alteração em ambiente sob vigilância), instalação (posse ou ocupação de local) e vazamento de informações/infiltrações. A alternativa B troca rotina e instalação. A C troca perigo iminente e visita. A D restringe indevidamente a varredura ao perigo iminente, excluindo rotina e vazamento, que também a justificam.",
+    "referencia": "PDF, Cap. 7, seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "id": 2666,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os perigos verificados nas inspeções de segurança e a escolha do local de colocação de uma bomba, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São perigos intencionais os lustres mal presos, o piso excessivamente encerado e as dobras nos tapetes, ao passo que são naturais as modificações recentes no ambiente, como arranjos de flores e instalações elétricas.",
+      "B": "São perigos naturais os lustres mal presos, o piso excessivamente encerado e as dobras nos tapetes; entre os intencionais estão as modificações recentes no ambiente, sendo os toaletes locais preferidos para ocultação.",
+      "C": "Em locais abertos, as laterais das pistas são as áreas mais seguras e dispensam vistoria, devendo o planejamento evitar a criação de uma segunda opção de trajeto para não expor a comitiva a rotas desconhecidas.",
+      "D": "A escolha do local para colocar uma bomba desconsidera a facilidade de acesso e de ocultação, priorizando pontos de grande visibilidade, ainda que isso aumente a chance de o autor ser visto ao posicionar o artefato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 7, são perigos naturais os lustres mal presos, o piso encerado e as dobras nos tapetes; entre os intencionais estão as modificações recentes no ambiente, sendo os toaletes os locais preferidos de ocultação. A alternativa A inverte naturais e intencionais. A C erra: as laterais das pistas são preferidas por franco-atiradores (não são seguras) e recomenda-se criar uma segunda opção de trajeto, também vistoriada. A D contraria os critérios de escolha do local, que consideram facilidade de acesso/ocultação, menor chance de o autor ser visto e maior dano possível.",
+    "referencia": "PDF, Cap. 7, seção 7",
+    "nivel": "dificil"
   }
 ];

@@ -1,0 +1,44 @@
+[
+  {
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "enunciado": "Sobre a distinção entre técnicas passivas e ativas de desativação de artefatos explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Técnicas passivas são as que provocam alterações físico-químicas previsíveis no artefato para interromper o circuito de fogo, como a contracarga e o disparo com arma de fogo longa contra o mecanismo de acionamento.",
+      "B": "Técnicas passivas, em tese, não provocam alterações capazes de acionar o artefato, como barreiras de proteção, auscultação, exame por raios X e o resfriamento drástico (criogenia) para desativar a fonte elétrica.",
+      "C": "Técnicas ativas são aquelas que não alteram o objeto suspeito, incluindo a auscultação e o exame com fibroscópio, ao passo que as passivas visam interromper o circuito de fogo por contracarga ou canhão d'água.",
+      "D": "A perfuração do pacote para exame interno com fibroscópio e a criogenia são classificadas como técnicas ativas, pois interrompem o circuito de fogo do artefato antes de qualquer exame visual do seu conteúdo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 5, as técnicas passivas, em tese, não provocam alterações capazes de acionar o artefato: barreiras, auscultação, raios X, exame interno com fibroscópio e criogenia. As ativas provocam alterações previsíveis, visando interromper o circuito de fogo (corda, canhão d'água, cargas especiais, chama, arma longa, contracarga etc.). A alternativa A atribui às passivas o que é ativo. A C inverte as definições. A D classifica como ativas a perfuração para exame e a criogenia, que são passivas.",
+    "referencia": "PDF, Cap. 5, seção 5",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "enunciado": "A respeito do disruptor (canhão d'água), de suas cargas de ataque e do posicionamento, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Fundamenta-se na força hidrodinâmica e é carregado com cerca de 150 ml de água entre buchas plásticas, lançada por propelente de cartucho calibre 12; a carga Avon (gesso, esferas ocas metálicas e água) é usada em alvos mais rígidos.",
+      "B": "Fundamenta-se na detonação de uma pequena carga explosiva colocada em contato com o invólucro do artefato, sendo carregado com cerca de 1,5 litro de água lançada por uma espoleta elétrica de retardo.",
+      "C": "A carga de água é reservada aos alvos mais rígidos, como a bomba-tubo, por não provocar ricochete, ao passo que a carga Avon, de uso geral, é a indicada para a maioria dos alvos por sua ação dispersante e por dissolver o conteúdo do invólucro sem lançá-lo violentamente.",
+      "D": "Em tubo de PVC o canhão deve ser posicionado a 15º da tampa (cap) e, em tubo de ferro, a 45º, de modo a obter a menor área de varredura possível dos elementos internos do artefato examinado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 5.1, o disruptor funda-se na força hidrodinâmica, é carregado com ~150 ml de água entre buchas plásticas, lançada por propelente de cartucho calibre 12; a carga Avon (gesso + esferas ocas metálicas + água) é para alvos mais rígidos (ex.: bomba-tubo). A alternativa B descreve uma contracarga explosiva, não o canhão d'água. A C inverte as cargas: a água é de uso geral e a Avon para alvos rígidos. A D inverte os ângulos (PVC a 45º, ferro a 15º) e o objetivo, que é obter a maior área de varredura quando o artefato não pode ser interpretado.",
+    "referencia": "PDF, Cap. 5, seção 5.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 5 - Técnicas de Desativação",
+    "enunciado": "Sobre as cargas especiais e o procedimento de acionamento em linha elétrica, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na desativação com garrafa plástica, cordel e água, a garrafa metálica é preferida por gerar fragmentos que iniciam o artefato, e o cordel deve envolver o alvo, técnica difundida sobretudo nos Estados Unidos, onde substituiu por completo o emprego do canhão d'água em bombas postais.",
+      "B": "No acionamento em linha elétrica, conecta-se primeiro o explosor à bateria e só então se testa a descontinuidade da linha, dispensando-se o curto-circuito de segurança antes de escorvar a carga principal.",
+      "C": "Na desativação com garrafa plástica e cordel detonante, a garrafa plástica minimiza a possibilidade de fragmentos iniciarem o artefato, e o cordel, ao ser iniciado, lança a água na direção radial, separando os componentes do artefato.",
+      "D": "No procedimento em linha elétrica, a mensagem de alerta \"atenção, linha quente\" deve ser dada antes de testar a continuidade da linha, e a espoleta é conectada ao início da linha, junto ao explosor."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 5.3, na desativação com garrafa plástica e cordel a garrafa plástica minimiza a chance de fragmentos iniciarem o artefato, e o cordel, ao ser iniciado, lança a água radialmente, separando os componentes (técnica muito usada no Canadá). A alternativa A prefere a garrafa metálica e situa a técnica nos EUA. A B inverte a ordem do procedimento em linha elétrica (abre-se e testa-se a descontinuidade, curto-circuita-se, testa-se a continuidade, conecta-se a espoleta ao final e só ao fim liga-se o explosor). A D erra a ordem da mensagem e a posição da espoleta (conectada ao final da linha, fixada na carga principal).",
+    "referencia": "PDF, Cap. 5, seções 5.3 e 5.6",
+    "nivel": "dificil"
+  }
+]

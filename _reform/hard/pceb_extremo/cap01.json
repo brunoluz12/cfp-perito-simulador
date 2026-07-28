@@ -1,0 +1,30 @@
+[
+  {
+    "conteudo": "Cap. 1 - Contextualização (Terrorismo)",
+    "enunciado": "Sobre o panorama internacional do terrorismo com uso de explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na Colômbia, o terrorismo divide-se em subversivo e narcoterrorismo; os primeiros registros remontam a 1963 (103 incidentes), ligados à subversão política, e o narcoterrorismo surgiu por volta de 1976, quando os casos atingiram 262 incidentes.",
+      "B": "Na Colômbia, o terrorismo é de motivação étnica, ligado ao povo basco e à região da Euskadi, ao passo que, na Espanha, prevalece o narcoterrorismo, surgido em 1976 com o aumento expressivo do número de incidentes.",
+      "C": "Na Espanha, o terrorismo tem motivação econômica e teve início com a destruição de Guernica pela aviação basca, ao passo que, na Colômbia, a motivação é exclusivamente religiosa, sem vínculo com o narcotráfico local.",
+      "D": "Nos Estados Unidos, o terrorismo tem motivação étnica ligada ao povo basco, tendo atingido seu clímax em 11 de setembro de 2001, enquanto na Colômbia predominam atentados de fundo religioso desde a década de 1930, sem qualquer relação com a subversão política ou com o narcotráfico local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 1, na Colômbia o terrorismo divide-se em subversivo e narcoterrorismo; os primeiros registros são de 1963 (103 incidentes), ligados à subversão política, e o narcoterrorismo surgiu por volta de 1976 (262 incidentes). A alternativa B atribui à Colômbia motivação étnica e à Espanha o narcoterrorismo, trocando os países. A C dá motivação econômica à Espanha e inverte a autoria da destruição de Guernica (foi a aviação nazista, que apoiava Franco). A D atribui aos EUA motivação étnica basca, própria da Espanha.",
+    "referencia": "PDF, Cap. 1, seção 1 (panorama internacional)",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 1 - Contextualização (Terrorismo)",
+    "enunciado": "A respeito de marcos históricos e teóricos do terrorismo com bombas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O episódio tido como a primeira ação terrorista com bombas foi o atentado a Guernica, em 1937, quando Guy Fawkes tentou explodir a Casa dos Lordes, sendo o fato conhecido como The Gunpowder Plot.",
+      "B": "Carlos Marighella escreveu, em 1969, o Minimanual do Guerrilheiro Urbano e fundou a Ação Libertadora Nacional (ALN); tido como importante teórico do terrorismo, afirmava que o terrorismo é uma arma à qual o revolucionário nunca pode renunciar.",
+      "C": "The Gunpowder Plot, considerado a primeira ação terrorista com bombas, ocorreu na Inglaterra em 1605, quando Carlos Marighella tentou explodir 36 barris de pólvora sob a Casa dos Lordes para matar o Rei James I.",
+      "D": "Carlos Marighella fundou a Intentona Comunista em 1968 e nela escreveu o Minimanual do Guerrilheiro Urbano, no qual renuncia expressamente ao terrorismo como método de luta política armada no Brasil, o que reduziu sua influência entre os teóricos do assunto no exterior."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 1, Marighella escreveu o Minimanual do Guerrilheiro Urbano em 1969 e fundou a ALN (1968), sendo importante teórico do terrorismo e afirmando que este é uma arma à qual o revolucionário nunca pode renunciar. A alternativa A situa a primeira ação em Guernica/1937 com Guy Fawkes, misturando fatos. A C acerta o Gunpowder Plot (Inglaterra, 1605), mas atribui a Marighella o que foi de Guy Fawkes. A D confunde a ALN com a Intentona Comunista (pela qual Marighella foi preso em 1936) e afirma renúncia ao terrorismo, contrária ao texto.",
+    "referencia": "PDF, Cap. 1, seção 1",
+    "nivel": "dificil"
+  }
+]

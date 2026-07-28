@@ -1,0 +1,38 @@
+Capítulo 3 - Sistemas de Iniciação (Estopins, Cápsulas, Espoletas) (Completo) - PCEB - Bombas e Explosivos
+PCEB - Bombas e Explosivos Material Completo
+Capítulo 3 - Sistemas de Iniciação (Estopins, Cápsulas, Espoletas)
+Texto integral da apostila, estruturado para leitura
+Índice
+3 Sistemas de iniciação
+3.1 Estopins
+3.2 Cápsulas explosivas não-elétricas
+3.3 Cápsulas explosivas elétricas
+3.4 Sistema disparador de tubo de choque
+3.5 Regras de segurança para o manuseio de detonadores
+3 Sistemas de iniciação
+3.1 Estopins
+São à base de pólvora e usados para transmitir a chama de um ponto a outro. Podem ser dos seguintes tipos: Hidráulico - estopim impermeável que permite utilização subaquática. Queima de modo lento e uniforme, sendo visualmente impossível saber em que parte do estopim a pólvora está queimando. Tempo de queima: 110 a 240 s/m. Quantidade de pólvora: 21 g por metro. Comum - tem uma quantidade menor de pólvora: 16 g/m. Mecha - com pólvora aparente, por fora do tecido, é muito usado em piro tecnia. Tempo de queima: 8 s/m. Rastilho - com pólvora aparente, com tempo de queima ainda mais veloz do que a mecha. Como medida de precaução, deve-se medir o tempo de queima do estopim, usar sempre dois estopins de igual comprimento para uma mesma carga explo siva e, no caso de falhas, esperar cerca de 20 minutos para uma aproximação. A escorva deve ser preparada na hora.
+3.2 Cápsulas explosivas não-elétricas
+As cápsulas explosivas, espoletas ou detonadores apresentam-se como um pequeno cilindro metálico (Al ou Cu) com comprimento variável de 4 a 8 cm, diâmetro de cerca de 7 mm, aberto em uma das extremidades para a introdução do estopim, que deve ser fixado com amolgador. Têm um explosivo bastante sensível (fulminato de mercúrio ou azida de chumbo). Atualmente, são fabricadas com uma carga primária de azida de chumbo + trinitroresorcinato (estifnato) de chumbo (0,4 g) e uma carga secundária de nitropenta (0,8 g), Tetril ou RDX.
+3.3 Cápsulas explosivas elétricas
+Contêm dois fios condutores que penetram na cápsula, formando uma ponte, e são mantidos em contato com o explosivo sensível. Quando a corrente elétrica é aplicada, o fio ponte se aquece até incandescer-se (efeito Joule), acionando o explosivo de ignição e causando a detonação do alto explosivo contido. Geram uma pressão acima de 200 quilobars, têm uma resistência de 1,5 Ohm e podem ser com ou sem retardo. Em função da finalidade a que se destinam, as espoletas podem ser classifi cadas da seguinte forma: tipo coluna, carvão, túnel ou sismográficas.
+Vantagens da espoleta elétrica
+Detonação no momento desejado;
+Aproximação no caso de falhas;
+Detonação de várias cargas simultaneamente.
+Desvantagens da espoleta elétrica
+Acionamento acidental por eletricidade estática ou indução eletro magnética.
+3.4 Sistema disparador de tubo de choque
+Consiste em um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (HMX - (Octogênio) + alumínio em pó). Quando acionado, produz uma chama que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, sensibilizando a espoleta com muito mais segurança.
+3.5 Regras de segurança para o manuseio de detonadores
+Separar explosivos de detonadores durante o transporte e no arma zenamento;
+Acondicionar , separadamente, os detonadores comuns para evitar atrito;
+No caso de detonadores elétricos, unir as pontas dos fios para evitar iniciação acidental;
+Não transportar cápsula explosiva elétrica no porta-luvas de viaturas que contenham equipamentos eletrônicos do tipo radiotransmis sor;
+Não usar detonadores próximo à rede de alta tensão, pois as espoletas elétricas podem detonar por indução eletromagnética;
+Não trabalhar com espoletas elétricas em condições adversas de tempo;
+Colocar detonadores elétricos no chão com os fios já desenrolados e curto-circuitados;
+Desligar o radiotransmissor( inclusive HT e celulares) próximo ao local sob ameaça;
+Nunca armazenar detonadores a menos de 3 metros de quaisquer outros explosivos até que estejam prontos para serem escorvados;
+Antes de passar uma espoleta elétrica para outra pessoa, equilibrar a eletricidade estática dos corpos.
+Cortar sempre um fio de cada vez de uma espoleta elétrica.

@@ -1,0 +1,77 @@
+Capítulo 5 - Técnicas de Desativação (Completo) - PCEB - Bombas e Explosivos
+PCEB - Bombas e Explosivos Material Completo
+Capítulo 5 - Técnicas de Desativação
+Texto integral da apostila, estruturado para leitura
+Índice
+5 Técnicas de desativação
+5.1 Disruptor (canhão d’água)
+5.2 Cargas especiais
+5.3 Desativação de artefato explosivo com garrafa plástica, cordel e água
+5.4 Abertura remota de envelope suspeito com o uso de cordel em cartão formato V
+5.5 Abertura remota de envelope com cordel e fio rígido (técnica do chicote)
+5.6 Procedimentos para o acionamento de cargas especiais em linha elétrica
+5 Técnicas de desativação
+Passivas
+São aquelas que não provocam, em tese, alterações físico-químicas no objeto suspeito que sejam capazes de acioná-lo. Exemplos:
+Barreiras de proteção;
+Auscultação;
+Exame por meio de raios X e detectores de metais;
+Perfuração ou incisão no pacote para exame visual interno, com fibroscópio, detectores de gases explosivos ou aparelhos similares;
+Resfriamento drástico e rápido para desativação da fonte elétrica( crio genia).
+Ativas
+São aquelas que podem provocar alterações físico-químicas previsíveis no artefato, ativando-o. O principal objetivo é interromper o circuito de fogo. Exemplos:
+Técnica da corda;
+Utilização de canhão d’água;
+Utilização de cargas especiais;
+Destruição por chama;
+Disparo com arma de fogo longa;
+Contracarga utilizando explosivo;
+Interrupção do mecanismo de acionamento;
+Entrada manual;
+Câmara de descompressão.
+Para cada caso, devem-se observar as vantagens e desvantagens do emprego de um ou outro método, sempre permanecendo o menor tempo possível próximo ao objeto suspeito.
+5.1 Disruptor (canhão d’água)
+O canhão d’água fundamenta-se basicamente na força hidrodinâmica. Consiste em um equipamento capaz de desarticular um artefato explosivo com grande probabilidade de não acioná-lo. É carregado com uma quantidade de água de aproximadamente 150 ml, que fica na luz do cano entre buchas plásticas. Essa carga é lançada com alta pressão no objeto suspeito, por uma carga propelente, confeccionada com cartucho de calibre 12, especialmente carregado. A coluna d’água e as buchas destroem o invólucro e arrastam violentamente o seu conteúdo.
+Tipos de cargas de ataque
+Água - a força hidrodinâmica e a dispersão da água separam os elementos do artefato. Uso geral para a maioria dos alvos. Avon (gesso + esferas ocas metálicas + água) - balote rígido e relati vamente resistente que não provoca ricochete. Uso em alvos mais rígidos (ex: bomba tubo).
+Posicionamento
+Se o artefato puder ser interpretado: atingir fios/baterias/mecanismos de acionamento. Se não for possível interpretar o artefato: obter a maior área de varredura dos elementos do artefato. Em tubo de PVC.  Canhão posicionado a 45º da tampa (cap). Em tubo de ferro  Canhão posicionado a 15º da tampa (cap).
+5.2 Cargas especiais
+Por vezes, a utilização do canhão d’água pode não ser o mais adequado ou pode-se, mesmo, não se dispor dele para atender a uma ocorrência de bomba. Nesses casos, a utilização de arranjos bastante simples pode dar excelentes resul tados, desde que o perito domine as técnicas de construção e aplicação desses petrechos.
+5.3 Desativação de artefato explosivo com garrafa plástica, cordel e água
+Cordel detonador Garrafa plástica refrigerante 2 litros Água Artefato explosivo
+Figura 13 - Desativação de artefato explosivo com garrafa plástica, cordel e água.
+Funcionamento
+O cordel detonante, ao ser iniciado, irá lançar a massa de água contida na garrafa na direção radial e atingirá o artefato explosivo, provocando a separação dos seus componentes.
+Características
+O fato de a garrafa ser plástica minimiza a possibilidade de fragmentos iniciarem o artefato explosivo;
+Técnica bastante utilizada no Canadá. O cordel normalmente utilizado é o
+NP 10.
+5.4 Abertura remota de envelope suspeito com o uso de cordel em cartão formato V
+Detonador e cordel Cartão “V” Envelope suspeito
+Figura 14 - Abertura remota de envelope suspeito com o uso de cordel em cartão formato V.
+Funcionamento
+A onda explosiva e os fragmentos do revestimento plástico do cordel fazem com que o envelope se abra.
+Características
+O cordel deve ficar próximo à borda do envelope;
+A distância cordel-envelope depende da natureza de ambos;
+Experiências têm dado bons resultados com o uso de cordel NP 05.
+5.5 Abertura remota de envelope com cordel e fio rígido (técnica do chicote)
+Detonador e cordel Fio rígido de cobre (chicote) Envelope suspeito
+Figura 15 - Abertura remota de envelope com cordel e fio rígido( técnica do chicote).
+Funcionamento
+A detonação do cordel provoca o arremesso do fio rígido (chicote), o qual provoca a abertura do envelope suspeito ao atingi-lo.
+Características
+A distância entre o cordel e o envelope depende das características de ambos;
+O cordel NP com 5 a 8 cm de distância do alvo, normalmente, dá bons resultados;
+O chicote poderá cortar fios existentes no interior do envelope caso essa técnica seja aplicada com o envelope sobre piso rígido ou chapa de aço.
+5.6 Procedimentos para o acionamento de cargas especiais em linha elétrica
+Abrir o início da linha;
+Testar a descontinuidade da linha;
+Curto-circuitar o início da linha (tomada de segurança);
+Testar a continuidade da linha;
+Conectar a espoleta ao final da linha;
+Fixar a espoleta na carga principal( escorvar);
+Conectar o explosor/bateria ao início da linha;
+Dar mensagem de alerta: “atenção, linha quente”;
+Acionar o explosor/bateria após contagem regressiva e “fogo”.

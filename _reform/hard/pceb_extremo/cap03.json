@@ -1,0 +1,44 @@
+[
+  {
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "enunciado": "Sobre os estopins e as regras de segurança em seu uso, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O estopim hidráulico é impermeável, permite uso subaquático e queima de modo lento e uniforme (110 a 240 s/m), ao passo que a mecha, de pólvora aparente, é muito usada em pirotecnia e queima em cerca de 8 s/m.",
+      "B": "O estopim de mecha é impermeável e próprio para uso subaquático, ao passo que o hidráulico apresenta pólvora aparente por fora do tecido e é o de queima mais rápida entre todos os tipos citados.",
+      "C": "Por segurança, deve-se usar sempre um único estopim por carga, medir seu tempo de queima e, no caso de falha, aproximar-se imediatamente para verificar a causa da não iniciação da escorva.",
+      "D": "O estopim comum contém maior quantidade de pólvora por metro do que o hidráulico, sendo o rastilho o de queima mais lenta, motivo pelo qual é o preferido para retardos longos em desmonte de rochas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 3.1, o estopim hidráulico é impermeável, permite uso subaquático e queima lenta e uniforme (110 a 240 s/m), e a mecha, de pólvora aparente, é usada em pirotecnia (~8 s/m). A alternativa B inverte hidráulico e mecha. A C erra as regras: usam-se sempre dois estopins de igual comprimento por carga e, na falha, espera-se cerca de 20 minutos antes de aproximar-se. A D inverte as quantidades (o comum tem menos pólvora, 16 g/m contra 21 g/m do hidráulico) e a velocidade do rastilho, que é o mais rápido.",
+    "referencia": "PDF, Cap. 3, seção 3.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "enunciado": "A respeito da estrutura e da composição das cápsulas explosivas (detonadores) não-elétricas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apresentam-se como pequeno cilindro metálico de alumínio ou cobre, fechado em ambas as extremidades, contendo apenas uma carga secundária de nitropenta, dispensando qualquer explosivo primário em sua estrutura interna.",
+      "B": "Apresentam-se como pequeno cilindro metálico (Al ou Cu), aberto em uma extremidade para o estopim, com carga primária de azida de chumbo mais estifnato de chumbo (0,4 g) e carga secundária de nitropenta (0,8 g), Tetril ou RDX.",
+      "C": "São recipientes exclusivamente plásticos, revestidos internamente de HMX com alumínio em pó, nos quais a chama percorre o interior a cerca de 1.000 m/s, dispensando explosivo sensível para a iniciação.",
+      "D": "Contêm dois fios condutores que formam uma ponte mantida em contato com o explosivo sensível, o qual se aquece por efeito Joule quando aplicada a corrente elétrica, provocando a detonação do alto explosivo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 3.2, as cápsulas não-elétricas são pequenos cilindros metálicos (Al ou Cu), abertos em uma extremidade para o estopim, com carga primária de azida de chumbo + estifnato de chumbo (0,4 g) e carga secundária de nitropenta (0,8 g), Tetril ou RDX. A alternativa A dispensa a carga primária e fecha ambas as extremidades. A C descreve o sistema disparador de tubo de choque (seção 3.4). A D descreve a cápsula elétrica (seção 3.3), com fio-ponte e efeito Joule.",
+    "referencia": "PDF, Cap. 3, seção 3.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 3 - Sistemas de Iniciação",
+    "enunciado": "Sobre as cápsulas explosivas elétricas e o sistema disparador de tubo de choque, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A cápsula elétrica tem como desvantagem a impossibilidade de detonar várias cargas simultaneamente e como vantagem a completa imunidade ao acionamento por eletricidade estática ou indução eletromagnética.",
+      "B": "O tubo de choque é um tubo plástico oco revestido internamente de material pirotécnico (HMX com alumínio), no qual a chama percorre o interior a cerca de 1.000 m/s, sensibilizando a espoleta com mais segurança.",
+      "C": "A cápsula elétrica gera pressão inferior a 50 quilobars e possui resistência de 15 Ohm, não podendo ser fabricada com retardo, e classifica-se apenas nos tipos coluna e carvão conforme a finalidade.",
+      "D": "O tubo de choque conduz uma corrente elétrica por dois fios-ponte que se aquecem por efeito Joule, detonando diretamente o alto explosivo, sendo por isso mais suscetível à indução eletromagnética que a espoleta elétrica."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 3.4, o tubo de choque é um tubo plástico oco revestido internamente de material pirotécnico (HMX + alumínio em pó), no qual a chama percorre o interior a ~1.000 m/s, sensibilizando a espoleta com mais segurança. A alternativa A inverte vantagens e desvantagens (detonar várias cargas simultaneamente é vantagem; o acionamento acidental por estática/indução é a desvantagem). A C erra os valores (a elétrica gera acima de 200 quilobars, tem 1,5 Ohm, pode ter retardo e classifica-se em coluna, carvão, túnel ou sismográfica). A D atribui ao tubo de choque um funcionamento elétrico, que é o da cápsula elétrica.",
+    "referencia": "PDF, Cap. 3, seções 3.3 e 3.4",
+    "nivel": "dificil"
+  }
+]

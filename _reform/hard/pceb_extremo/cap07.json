@@ -1,0 +1,30 @@
+[
+  {
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "enunciado": "Sobre os motivos que originam uma solicitação de varredura preventiva, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São motivos de varredura a visita (eventos fora do ambiente normal), o perigo iminente (ameaça por carta ou telefonema), a rotina (verificar alteração em ambiente sob vigilância), a instalação (posse ou ocupação de local) e o vazamento de informações ou infiltrações.",
+      "B": "A varredura de rotina é a realizada em cerimônias de posse ou na ocupação temporária de um local, ao passo que a de instalação é a que verifica periodicamente se um ambiente sob vigilância constante sofreu alguma alteração.",
+      "C": "A varredura por perigo iminente é a que se realiza em eventos na própria cidade ou em visita a outras cidades, sem que haja ameaça específica, ao passo que a varredura de visita pressupõe ameaça por carta ou telefonema.",
+      "D": "As varreduras preventivas restringem-se às situações de perigo iminente devidamente comprovado por ameaça escrita, não se justificando a inspeção de ambientes mantidos sob vigilância constante nem por vazamento de informações, ainda que se noticie a presença de elementos infiltrados no local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 7, os motivos de varredura são: visita (eventos fora do ambiente normal), perigo iminente (ameaça por carta/telefonema), rotina (verificar alteração em ambiente sob vigilância), instalação (posse ou ocupação de local) e vazamento de informações/infiltrações. A alternativa B troca rotina e instalação. A C troca perigo iminente e visita. A D restringe indevidamente a varredura ao perigo iminente, excluindo rotina e vazamento, que também a justificam.",
+    "referencia": "PDF, Cap. 7, seção 7",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 7 - Inspeções de Segurança",
+    "enunciado": "Sobre os perigos verificados nas inspeções de segurança e a escolha do local de colocação de uma bomba, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São perigos intencionais os lustres mal presos, o piso excessivamente encerado e as dobras nos tapetes, ao passo que são naturais as modificações recentes no ambiente, como arranjos de flores e instalações elétricas.",
+      "B": "São perigos naturais os lustres mal presos, o piso excessivamente encerado e as dobras nos tapetes; entre os intencionais estão as modificações recentes no ambiente, sendo os toaletes locais preferidos para ocultação.",
+      "C": "Em locais abertos, as laterais das pistas são as áreas mais seguras e dispensam vistoria, devendo o planejamento evitar a criação de uma segunda opção de trajeto para não expor a comitiva a rotas desconhecidas.",
+      "D": "A escolha do local para colocar uma bomba desconsidera a facilidade de acesso e de ocultação, priorizando pontos de grande visibilidade, ainda que isso aumente a chance de o autor ser visto ao posicionar o artefato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 7, são perigos naturais os lustres mal presos, o piso encerado e as dobras nos tapetes; entre os intencionais estão as modificações recentes no ambiente, sendo os toaletes os locais preferidos de ocultação. A alternativa A inverte naturais e intencionais. A C erra: as laterais das pistas são preferidas por franco-atiradores (não são seguras) e recomenda-se criar uma segunda opção de trajeto, também vistoriada. A D contraria os critérios de escolha do local, que consideram facilidade de acesso/ocultação, menor chance de o autor ser visto e maior dano possível.",
+    "referencia": "PDF, Cap. 7, seção 7",
+    "nivel": "dificil"
+  }
+]
