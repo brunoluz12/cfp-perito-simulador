@@ -1,0 +1,198 @@
+[
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Na descrição de um projétil questionado, conforme a seção de descrição de elementos de munição, o perito deve consignar:",
+    "alternativas": {
+      "A": "o calibre nominal quando possível, o número e a orientação de ressaltos e cavados, a massa e as dimensões, e as deformações acidentais que o projétil apresente.",
+      "B": "o calibre, a marca, a procedência, o tipo de matéria do estojo e da cápsula de espoletamento e o sistema de percussão, com registro fotográfico da estampa da base.",
+      "C": "o calibre nominal, o número e a orientação de ressaltos e cavados e o tipo e a constituição da cápsula de espoletamento, dispensadas a massa e as dimensões da peça.",
+      "D": "as deformações normais impressas pelo cano, por serem as utilizadas no confronto, e o sistema de percussão, dispensando-se as medidas de massa e as dimensões do projétil."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 6.3.2, na descrição de projéteis determinam-se o calibre nominal (quando possível), o número e a orientação de ressaltos e cavados, a massa e as dimensões, e descrevem-se as deformações acidentais existentes. A alternativa B lista o que se descreve de cartuchos e estojos (calibre, marca, procedência, matéria do estojo/cápsula, sistema de percussão), não do projétil. A C mistura o projétil com item de estojo (cápsula de espoletamento) e exclui indevidamente massa e dimensões. A D restringe a descrição às deformações normais e importa o sistema de percussão, que é dado de estojo, além de excluir massa e dimensões.",
+    "referencia": "PDF, Cap. 6, item 6.3.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Ainda sobre a descrição de elementos de munição questionados, assinale a alternativa correta quanto aos cartuchos e estojos e aos conjuntos de fragmentos.",
+    "alternativas": {
+      "A": "Para os estojos indicam-se o número e a orientação de ressaltos e cavados, a massa e as dimensões, e os fragmentos recebidos são descritos em conjunto, como peça única, pela massa total.",
+      "B": "Para cartuchos e estojos indicam-se calibre, marca, procedência, calibre nominal, matéria do estojo e da cápsula e sistema de percussão; os fragmentos são descritos individualmente, distinguindo projéteis, encamisamento e núcleos.",
+      "C": "Para os cartuchos indicam-se apenas calibre e marca, sendo dispensada a descrição do tipo e da constituição dos projéteis, e os fragmentos são medidos somente quanto à massa total do conjunto recebido.",
+      "D": "Material aderido ao elemento questionado deve ser removido antes de qualquer descrição, ainda que se comprometam deformações normais, e ser desprezado após a pesagem, pois não integra o objeto do exame comparativo microscópico entre o questionado e o padrão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 6.3.2, para cartuchos e estojos indicam-se calibre, marca, procedência, calibre nominal, matéria do estojo e da cápsula de espoletamento e sistema de percussão, e um conjunto de fragmentos é descrito individualmente (projéteis, encamisamento e núcleos). A alternativa A atribui aos estojos itens do projétil (ressaltos e cavados) e trata os fragmentos em conjunto. A C dispensa a descrição dos projéteis dos cartuchos, quando para cartuchos descrevem-se tipo e constituição dos projéteis. A D erra: o material aderido é primeiro caracterizado e localizado, e a remoção, quando necessária, preserva as deformações normais.",
+    "referencia": "PDF, Cap. 6, item 6.3.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Sobre os meios de coleta de projéteis padrões e os cuidados a eles associados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O tubo de algodão exige selar a ponta oca de projéteis expansivos para não reverter os bordos de expansão, ao passo que o tanque de água colhe qualquer projétil sem esse cuidado especial.",
+      "B": "O tanque de água tem a vantagem da praticidade, mas com projéteis expansivos deve-se selar a ponta oca para não reverter os bordos de expansão; o tubo de algodão colhe qualquer projétil sem essa preocupação.",
+      "C": "O tubo de algodão é um cano de PVC de vinte centímetros de diâmetro dividido em três partes, exigindo-se comprimento menor para rifles e fuzis do que para as armas curtas, dada a energia envolvida.",
+      "D": "O meio de coleta deve oferecer forte ação de frenagem ainda que deforme o padrão, pois a integridade física do projétil coletado pouco interfere no exame microcomparativo das estrias características."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 6.3.3.5, o tanque de água é prático, mas com expansivos deve-se selar a ponta oca para não reverter os bordos; o tubo de algodão colhe qualquer projétil sem esse cuidado. A alternativa A inverte os dois meios. A C erra no comprimento: rifles e fuzis exigem tubo maior (cerca de dois metros e meio), não menor. A D erra: o meio deve frear dissipando a energia sem comprometer a integridade física do padrão, que é essencial ao confronto.",
+    "referencia": "PDF, Cap. 6, item 6.3.3.5",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "A respeito da posição da arma e do modo de disparo na coleta de projéteis padrões, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A posição vertical é a preferencial por reproduzir a maioria dos disparos, e no revólver os padrões devem ser colhidos inicialmente em ação simples, por ser esta a forma usual de disparo.",
+      "B": "Em pistolas e armas longas, como o cartucho fica alojado na câmara, costuma haver desalinhamento entre câmara e cano, o que exige alinhamento manual da câmara antes de cada disparo padrão.",
+      "C": "A posição horizontal é a preferencial e, no revólver, os padrões são colhidos inicialmente em ação dupla; o desgaste no extrator ou no impulsor do tambor pode desalinhar tambor e cano, levando à ação simples com alinhamento manual.",
+      "D": "Havendo cano chumbado, os primeiros padrões só podem ser colhidos após a limpeza do cano com disparos de projéteis encamisados ou semiencamisados, pois o depósito de chumbo metálico formado no interior mascara as estrias características e inviabiliza qualquer confronto posterior."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 6.3.3.5, a posição horizontal é a preferencial e, no revólver, os padrões são colhidos inicialmente em ação dupla; o desgaste nos dentes da coroa do extrator ou na extremidade do impulsor do tambor pode desalinhar tambor e cano, exigindo ação simples com alinhamento manual da câmara. A alternativa A troca a posição (não é vertical) e o modo (a forma usual do revólver é ação dupla). A B erra: em pistolas e armas longas não se espera desalinhamento, pois o cartucho fica na câmara. A D inverte o procedimento do cano chumbado: os primeiros padrões são colhidos com o cano no estado em que está, e só depois, se inadequados, faz-se a limpeza.",
+    "referencia": "PDF, Cap. 6, item 6.3.3.5",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Durante a coleta de estojos padrões, o perito observa que a marca de percussão está perfurando a espoleta dos cartuchos disparados. Conforme o material, essa constatação indica que:",
+    "alternativas": {
+      "A": "há algum problema no mecanismo da arma, podendo ser perigoso coletar novos padrões, com especial atenção quando o defeito é apresentado por um revólver.",
+      "B": "a coleta transcorre adequadamente, pois a perfuração da espoleta comprova a boa energia do percussor e assegura a fidelidade da marca a ser confrontada.",
+      "C": "o cano da arma está obstruído, devendo-se interromper a coleta de estojos e retomar a verificação após a limpeza completa do cano da arma questionada.",
+      "D": "há risco no mecanismo, com atenção redobrada quando o defeito é apresentado por uma pistola, situação em que a marca de percussão tende a ficar excêntrica."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 6.3.3.6, a marca de percussão não deve perfurar a espoleta; se isso ocorre, há problema no mecanismo da arma, podendo ser perigoso coletar mais padrões, com atenção especial ao revólver. A alternativa B trata a perfuração como normal, o que contraria o texto. A C confunde com a verificação de desobstrução do cano, etapa distinta e prévia. A D troca o tipo de arma (o alerta é para revólver) e mistura o fenômeno com a marca excêntrica, que decorre de folga do estojo na câmara, não da perfuração.",
+    "referencia": "PDF, Cap. 6, item 6.3.3.6",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Sobre a influência da posição da arma e do tipo de acionamento na obtenção de estojos padrões, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A posição da arma é indiferente ao resultado; só o tipo de acionamento importa, sendo a ação dupla a que produz marca de percussão mais profunda, em razão do maior recuo do cão.",
+      "B": "O disparo em ação simples produz marca de percussão mais rasa, e a folga do estojo na câmara torna a percussão perfeitamente centralizada na cápsula, de modo que a posição da arma no momento do tiro em nada altera o padrão obtido.",
+      "C": "A posição da arma pode gerar marca de percussão excêntrica quando há folga do estojo na câmara, e a ação simples, pelo maior recuo do cão, produz marca mais profunda; colhe-se em posição normal e ação dupla.",
+      "D": "Recomenda-se colher os padrões preferencialmente em ação simples e na posição vertical, pois assim se maximiza a profundidade da marca de percussão e se elimina a excentricidade na cápsula."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 6.3.3.6, a posição da arma influencia a posição do estojo na câmara e, havendo folga, pode gerar marca de percussão excêntrica; a ação simples, por maior recuo do cão, produz marca mais profunda; sempre que possível colhe-se em posição normal de tiro e ação dupla. A alternativa A nega a influência da posição e inverte o efeito do acionamento (a marca mais profunda é da ação simples). A B inverte o efeito da ação simples e afirma centralização, quando a folga gera excentricidade. A D recomenda ação simples e posição vertical, contra a preferência por posição normal e ação dupla.",
+    "referencia": "PDF, Cap. 6, item 6.3.3.6",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "No exame microcomparativo de projéteis, após determinar as estrias características que se repetem nos padrões, o perito as coteja com o projétil questionado. Sobre os resultados possíveis, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Havendo convergência entre as estrias do questionado e as do padrão, o confronto é positivo, mas isso indica probabilidade, e não certeza, de que o projétil saiu do cano da arma questionada.",
+      "B": "A concordância das características de classe (calibre real e número e orientação das raias) já configura o confronto positivo, tornando dispensável o exame microcomparativo das estrias características.",
+      "C": "Havendo convergência entre as estrias do questionado e as do padrão, o confronto é positivo, podendo-se afirmar com certeza que o projétil foi expelido pelo cano da arma questionada; caso contrário, é negativo.",
+      "D": "A ausência de convergência das estrias caracteriza o confronto positivo por exclusão, ao passo que a convergência entre elas indica confronto negativo, por revelar padrão pertencente a arma diversa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 6.3.4.1, havendo convergência entre as estrias características do questionado e do padrão, o confronto é positivo e pode-se afirmar com certeza que o projétil foi expelido pelo cano da arma; não havendo, é negativo. A alternativa A reduz o positivo a mera probabilidade. A B confunde os planos: a concordância das características de classe apenas sugere e justifica o exame microscópico, não configura o positivo. A D inverte os conceitos de positivo e negativo.",
+    "referencia": "PDF, Cap. 6, item 6.3.4.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Sobre as deformações do projétil e a viabilidade do confronto balístico, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As deformações acidentais, produzidas pela passagem do projétil no interior do cano, são as utilizadas no confronto, por reproduzirem fielmente as características mediatas da arma questionada.",
+      "B": "As deformações normais decorrem do impacto do projétil contra objetos resistentes e, por serem irreprodutíveis, não são utilizadas no confronto balístico entre o questionado e o padrão.",
+      "C": "O projétil intensamente deformado por impacto, ou completamente fragmentado, não admite confronto balístico, razão pela qual tais peças podem ser descartadas logo após o exame macroscópico inicial, bastando preservar o encamisamento e os fragmentos de núcleo íntegros.",
+      "D": "As deformações normais, da passagem pelo cano, são as utilizadas no confronto; as acidentais, do impacto contra objetos, são irreprodutíveis e não se prestam a ele, mas o projétil deformado ou fragmentado ainda pode ser confrontado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela seção 6.3.4.1, as deformações normais (passagem pelo cano) impregnam as características mediatas da arma e são as usadas no confronto; as acidentais (impacto contra objetos) são impossíveis de reproduzir e não se usam; mesmo intensamente deformado ou fragmentado, o projétil ainda pode ser confrontado, por isso todos os fragmentos devem ser preservados. As alternativas A e B trocam as definições de normal e acidental. A C afirma a inviabilidade do confronto em projétil deformado ou fragmentado e sugere descarte, contrariando o texto.",
+    "referencia": "PDF, Cap. 6, item 6.3.4.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Ao comparar as características de classe entre um projétil questionado e o cano da arma questionada, o perito deve acautelar-se quanto ao calibre. Sobre esse ponto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Projéteis de um calibre nominal podem ser expelidos por canos de outros calibres nominais, desde que o calibre real seja similar, como projéteis .380\" Auto expelidos por canos 9 mm ou .38\" SPECIAL.",
+      "B": "Só projéteis do mesmo calibre nominal do cano podem ter sido por ele expelidos, de modo que qualquer divergência de calibre nominal já exclui a arma questionada, dispensado o exame comparativo.",
+      "C": "A discordância do número de raias é irrelevante quando os calibres nominais coincidem, bastando a coincidência de calibre nominal para justificar desde logo o confronto microcomparativo das estrias.",
+      "D": "O calibre real não interfere na análise, sendo o calibre nominal o único parâmetro apto a estabelecer a compatibilidade entre o projétil questionado e o cano da arma de fogo questionada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 6.3.4.1, projéteis de um calibre nominal podem ser expelidos por canos de outros calibres nominais, desde que o calibre real seja similar (ex.: .380\" Auto por canos 9 mm ou .38\" SPECIAL), daí a cautela do perito. A alternativa B exige identidade de calibre nominal e exclui a arma por divergência nominal, o que contraria o texto. A C despreza a discordância do número de raias, que é característica de classe e, se discordante, exclui a arma. A D nega a relevância do calibre real, que é o parâmetro decisivo.",
+    "referencia": "PDF, Cap. 6, item 6.3.4.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Sobre o confronto balístico entre estojos e as características neles analisadas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em espingardas, por possuírem alma raiada, a comparação recai sobre os projéteis, e em rifles e fuzis compara-se o projétil, dada a alta energia envolvida no disparo dessas armas.",
+      "B": "As marcas analisadas limitam-se à percussão e à extração, não se admitindo o cotejo das marcas de culatra, por serem comuns a todos os cartuchos de mesmo calibre e fabricante.",
+      "C": "Analisam-se marcas de percussão, de ejeção, de extração e de culatra na base do estojo; em espingardas, pela alma lisa, e em rifles e fuzis, por o projétil poder perder-se ou fragmentar-se, a comparação recai, na maioria dos casos, nos estojos.",
+      "D": "O confronto entre estojos só é viável quando a arma questionada é enviada ao perito para coleta de padrões, não se admitindo a comparação entre dois ou mais estojos questionados na ausência da arma, ainda que se pretenda apenas verificar se procedem de uma mesma origem."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 6.3.4.2, analisam-se marcas de percussão, de ejeção, de extração e de culatra (chapa de obturação) na base do estojo; em espingardas (alma lisa) e em rifles e fuzis (o projétil pode perder-se ou fragmentar-se) a comparação recai, na maioria dos casos, apenas nos estojos. A alternativa A erra: espingarda tem alma lisa, não raiada, e nesses casos compara-se o estojo, não o projétil. A B exclui indevidamente a marca de culatra, que é analisada. A D nega o confronto entre dois ou mais estojos questionados, que é admitido quando não há arma.",
+    "referencia": "PDF, Cap. 6, item 6.3.4.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "A respeito da evolução legislativa dos bancos de dados balísticos no Brasil, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O Estatuto do Desarmamento (Lei nº 10.826/2003) instituiu formalmente o Banco Nacional de Perfis Balísticos, cabendo ao Decreto nº 10.711/2021 tão somente criar o respectivo Comitê Gestor no MJSP.",
+      "B": "O Estatuto do Desarmamento previu que o SINARM cadastraria impressões de raiamento e microestriamento, o que não foi implementado; a Lei nº 13.964/2019 acrescentou o art. 34-A à Lei nº 10.826/2003, criando o BNPB; e o Decreto nº 10.711/2021 instituiu o BNPB, criou o SINAB e o Comitê Gestor.",
+      "C": "A Lei nº 13.964/2019 criou o SINAB e o Comitê Gestor no MJSP, ao passo que o Decreto nº 10.711/2021 acrescentou o art. 34-A à Lei nº 10.826/2003 para instituir o Banco Nacional de Perfis Balísticos.",
+      "D": "O art. 34-A da Lei nº 10.826/2003, em sua redação original de 2003, já criara o Banco Nacional de Perfis Balísticos sob gestão do SINARM, com cadastro obrigatório das impressões de raiamento e microestriamento de todas as armas comercializadas no país, dispositivo efetivamente implementado à época."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 6.3.5.1, o Estatuto do Desarmamento previu que o SINARM cadastraria impressões de raiamento e microestriamento (nunca implementado); a Lei nº 13.964/2019 acrescentou o art. 34-A à Lei nº 10.826/2003, criando o BNPB; e o Decreto nº 10.711/2021 instituiu o BNPB, criou o SINAB e o Comitê Gestor no MJSP. A alternativa A atribui ao Estatuto a instituição do BNPB. A C inverte os papéis da Lei nº 13.964/2019 e do Decreto nº 10.711/2021. A D situa o art. 34-A na redação original de 2003 e confunde o BNPB com o cadastro atribuído ao SINARM.",
+    "referencia": "PDF, Cap. 6, item 6.3.5.1",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Sobre a arquitetura, a tecnologia e o funcionamento do SINAB, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A tecnologia foi adotada por dispensa de licitação, escolhendo-se o sistema IBIS®, e o servidor central confirma automaticamente as ligações balísticas, dispensada a atuação dos peritos criminais.",
+      "B": "Cada laboratório hospeda localmente uma cópia integral do Banco Nacional de Perfis Balísticos, não existindo servidor central de correlação entre as diversas unidades que compõem a rede nacional.",
+      "C": "A escolha da tecnologia foi precedida de licitação internacional e de Prova de Conceito, selecionando-se o sistema IBIS®; o servidor central correlaciona automaticamente as amostras e gera listas ordenadas de correspondências (HITs) analisadas por peritos.",
+      "D": "As correlações são feitas manualmente por peritos em cada laboratório e, só depois de concluídas, as imagens e os metadados são enviados ao servidor central, que se limita a arquivá-los para consulta futura, sem gerar automaticamente listas de possíveis correspondências entre as amostras."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pela seção 6.3.5.2, a escolha da tecnologia foi precedida de licitação internacional e Prova de Conceito, selecionando-se o IBIS®; o servidor central armazena e correlaciona automaticamente as amostras, gerando listas ordenadas de correspondências (HITs) analisadas por peritos. A alternativa A erra na dispensa de licitação e ao afirmar confirmação automática sem perito. A B nega o servidor central de correlação, que existe e hospeda o BNPB. A D inverte o fluxo: a correlação é automatizada no servidor, não manual em cada laboratório.",
+    "referencia": "PDF, Cap. 6, item 6.3.5.2",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "Conforme o material, o SINAB constitui ferramenta estratégica para diversas finalidades na investigação criminal. Assinale a alternativa que reúne finalidades expressamente indicadas.",
+    "alternativas": {
+      "A": "Identificação de séries criminosas; atuação contra organizações criminosas e grupos armados; integração entre investigações estaduais e federais; e fortalecimento da produção de prova técnico-científica.",
+      "B": "Substituição da comparação microscópica tradicional pela correlação automatizada; dispensa do laudo pericial nas ligações confirmadas; e cadastro compulsório de todas as armas comercializadas no país.",
+      "C": "Identificação de séries criminosas; cadastro compulsório dos perfis balísticos de todas as armas vendidas; e vinculação automática de autoria, independentemente de análise pericial das peças físicas.",
+      "D": "Atuação contra organizações criminosas; formalização das ligações balísticas diretamente pelo SINARM; e retorno da perícia a uma postura reativa, substituindo a atuação proativa orientada por inteligência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela seção 6.3.5.4, o SINAB é ferramenta estratégica para identificação de séries criminosas, atuação contra organizações criminosas e grupos armados, integração entre investigações estaduais e federais e fortalecimento da produção de prova técnico-científica. A alternativa B inventa a substituição da comparação microscópica e a dispensa de laudo (as ligações são confirmadas por comparação tradicional e formalizadas em laudo) e importa o cadastro obrigatório, previsão nunca implementada do SINARM. A C repete o cadastro compulsório e afirma vinculação de autoria sem perícia. A D atribui a formalização ao SINARM e inverte o paradigma, que é proativo, não reativo.",
+    "referencia": "PDF, Cap. 6, item 6.3.5.4",
+    "nivel": "dificil"
+  },
+  {
+    "conteudo": "Cap. 6 - Exames em Munição (Confronto Balístico e SINAB)",
+    "enunciado": "A respeito da destinação dos materiais após os exames de eficiência em munição, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Toda a munição recebida para teste é devolvida ao final, inclusive os estojos dos disparos eficazes, para preservar a cadeia de custódia do material examinado pela unidade pericial.",
+      "B": "A munição consumida nos testes eficazes é registrada como consumida e mesmo os estojos desses disparos são descartados e não devolvidos, salvo os coletados como padrões de arma para confronto ou inserção no BNPB, registrados como novos materiais.",
+      "C": "Os estojos dos disparos eficazes são preservados e devolvidos como material original, ao passo que os elementos coletados como padrões são descartados logo após a leitura das marcas no comparador.",
+      "D": "Por deixar de existir como material após os exames, a munição de teste dispensa o registro fotográfico prévio, bastando anotar no laudo a quantidade consumida e o resultado do teste de eficiência, uma vez que não haverá peça física a ser confrontada ou devolvida ao final do procedimento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pela seção 6.2, para a munição consumida nos testes eficazes registra-se que o material foi consumido, e mesmo os estojos desses disparos são descartados e não devolvidos, exceto os elementos coletados como padrões de arma para confronto balístico ou inserção e busca no BNPB, que devem ser registrados como novos materiais. A alternativa A afirma a devolução de tudo, o que contraria o texto. A C inverte o destino: os estojos comuns são descartados e os padrões, preservados. A D dispensa o registro fotográfico prévio, que é ainda mais importante justamente porque a munição deixa de existir após os exames.",
+    "referencia": "PDF, Cap. 6, item 6.2",
+    "nivel": "dificil"
+  }
+]
